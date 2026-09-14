@@ -1,5 +1,7 @@
 # O Sukuna, refeito no `RASCUNHO-5`
 
+> ⚠ **Remontado no nível 30 na v0.229 — ver `O-SUKUNA-no-nivel-30.md`.** *Este arquivo fica como o teste de 10/09, no nível 20, com a Integridade e o Santuário da regra de então.*
+
 *10/09/2026. **Item `7` da fila — o teste de ponta a ponta.** Nenhum número nasce neste arquivo: todos
 saem de `montar-o-sukuna.py`, e a saída inteira está em `SAIDA-o-sukuna.txt`. A ficção sai de
 `FONTE-o-sukuna-no-canon.md`; as regras de fora do Bestiário, de `ANCORAS-do-repositorio.md`.*

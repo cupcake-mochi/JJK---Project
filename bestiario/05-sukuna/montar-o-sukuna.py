@@ -23,6 +23,8 @@ BEST = os.environ.get('JJK_BEST', '/media/mizuki/HD Externo II/Claude/Claude 2/b
 
 P19 = 'sistema/03-mecanica/19-dano-e-condicoes.md'
 P26 = 'sistema/03-mecanica/26-bestiario.md'
+P24 = 'sistema/03-mecanica/24-dano-de-alma.md'
+PARTE = 'manual/gerador/partE.js'
 
 TABELA = '04-fase-1/TABELA.md'
 ESCADA = '04-fase-1/a-escada-com-numero.md'
@@ -37,7 +39,9 @@ BLOCO = '03-bloco/RASCUNHO-5-o-bloco-em-branco.md'
 MESA = '00-fase-0/mesa-nd20.md'
 
 # quem o Sukuna é. As duas primeiras são escolha declarada; o resto é lido.
-NIVEL = 20
+# v0.229: o Sukuna subiu para o nivel 30, por decisao do Mizuki — no 30 o refino da
+# curva ja e o do gate da Expansao sem Barreiras, e o Santuario abre sem desvio.
+NIVEL = 30
 CATEGORIA = 'Calamidade'
 TAMANHO = 'Médio'
 PAPEL_ESCOLHIDO = 'Artilheiro'
@@ -173,7 +177,7 @@ if not {2, -2} <= set(CAMBIO_DEF):
 
 # 7 · os seis papéis. Cada linha é lida pelo nome, e os multiplicadores são
 #     capturados da linha — o padrão não carrega nenhum valor dentro.
-NOMES_PAPEL = ['Brutamontes', 'Guardião', 'Artilheiro', 'Emboscador', 'Controlador', 'Apoio']
+NOMES_PAPEL = ['Brutamontes', 'Baluarte', 'Artilheiro', 'Emboscador', 'Controlador', 'Reforço']
 MULT = {}
 for nome in NOMES_PAPEL:
     m = re.search(r'\| \*\*`%s`\*\* \|(.*?)\|(.*?)\| \*\*`([\d,]+)`\*\*' % re.escape(nome),
@@ -271,7 +275,7 @@ def aplica_papel(nome):
     if nome == 'Brutamontes':
         g = n(mu['ganho'][0]); p = CAMBIO_DEF[-2]
         v = base['vida'] * g; d = base['defesa'] - 2
-    elif nome == 'Guardião':
+    elif nome == 'Baluarte':
         g = CAMBIO_DEF[+2]; p = n(mu['paga'][0])
         v = base['vida'] * p; d = base['defesa'] + 2
         nota = 'só se paga com mais de um inimigo no encontro'
@@ -290,7 +294,7 @@ def aplica_papel(nome):
         dm = dano_rod * CTRL_DANO
         v = base['vida'] * g
         nota = 'corrigido em 10/09: corta DANO e MANTÉM as ações'
-    elif nome == 'Apoio':
+    elif nome == 'Reforço':
         p = CTRL_DANO
         g = 1.0 / CTRL_DANO
         dm = dano_rod * CTRL_DANO
@@ -336,7 +340,7 @@ for nome in NOMES_PAPEL:
         linha(f'  ⚠ `{nome}`: {FORA[nome][7]}')
 linha()
 linha(f'  Olhe a coluna `fatia`: a banda é {BANDA[0]:.0%}–{BANDA[1]:.0%}, e nenhum papel sobe o dano.')
-linha(f'  O `Controlador` e o `Apoio` são o piso — e foi o `Controlador` que empurrou o piso pra {BANDA[0]:.0%}.')
+linha(f'  O `Controlador` e o `Reforço` são o piso — e foi o `Controlador` que empurrou o piso pra {BANDA[0]:.0%}.')
 
 # ────────────────────────────────────────────────────────────────────────────
 bloco('A VARREDURA — as CINCO categorias contra a banda, com e sem `Controlador`')
@@ -616,13 +620,45 @@ linha(f'  Acerto               +{base["acerto"]}')
 linha(f'  CD                   {base["cd"]}')
 linha(f'  Refino               {base["refino"]}  (proteção +{base["protecao"]})')
 linha(f'  Vida                 {round(v)}        {base["vida"]} × {FORA[PAPEL_ESCOLHIDO][0] / base["vida"]:.3f} do `{PAPEL_ESCOLHIDO}`')
-linha(f'  Integridade          {round(v)}        igual à vida máxima — peça 26 §3')
+pega(P24, r'personagem jogador = metade da vida máxima', 'a Integridade do inimigo — peça 24 §3.3')
+linha(f'  Integridade          {round(v) // 2}         metade da vida máxima, para baixo — peça 24 §3.3')
 linha(f'  O golpe              `{txt}` = {med:.1f}   ·   alcance de corpo a corpo {tam["alcance"]:.1f} m')
 linha(f'  Deslocamento         9 m')
 linha(f'  Ações Múltiplas      ({ac})')
 linha(f'  Intervenções         3 por luta, 1 por rodada')
 linha()
 linha(f'  dano por rodada      {round(dm)}   — NÃO é célula: é `o golpe` × ações, e derivável não ganha célula')
+
+# ────────────────────────────────────────────────────────────────────────────
+bloco('O SANTUÁRIO MALÉVOLO — a Expansão sem Barreiras, pela peça 26 §6.4')
+# ────────────────────────────────────────────────────────────────────────────
+GATE_SEM = int(pega(PARTE, r"\['Sem Barreiras', '[^']*', 'refino (\d+)", 'o gate da sem barreiras').group(1))
+RAIO_SEM = int(pega(PARTE, r'O raio é de (\d+) m', 'o raio da sem barreiras').group(1))
+pega(PARTE, r'Dura metade do refino em rodadas\*\*, no mínimo uma', 'a duração da Expansão')
+MULT_SEM = n(pega(P26, r'\*\*Ela multiplica o fator pelo mesmo `([\d,]+)`\.\*\*', 'o multiplicador da sem barreiras').group(1))
+LUTA = n(pega(P26, r'contra as `(\d+,\d+)` que a categoria promete', 'a luta que a categoria promete').group(1))
+PESSOAS = int(pega(P26, r'\| \*\*`%s`\*\* \| `(\d+)` \| `[\d,]+` \|' % CATEGORIA, 'as pessoas da categoria no §6.4').group(1))
+DESVIO = {int(a): n(b) for a, b in re.findall(r'^\| nv `(\d+)` \| `\d+` \| `\+\d+` \| `× ([\d,]+)` \|$', ler(P26), re.M)}
+REFINO_SANT = max(base['refino'], GATE_SEM)
+if base['refino'] >= GATE_SEM:
+    FATOR_DESVIO, NOTA_DESVIO = 1.0, f'a curva já dá refino {base["refino"]} no nv{NIVEL} — sem desvio'
+else:
+    _marco = max(k for k in DESVIO if k <= NIVEL)
+    FATOR_DESVIO = DESVIO[_marco]
+    NOTA_DESVIO = f'desvio de refino {base["refino"]} → {GATE_SEM}, com a obra como causa: × {FATOR_DESVIO:.2f} (a linha do nv{_marco})'
+    linha(f'  ⚠ com desvio, a Defesa e a proteção da FICHA acima sobem junto — peça 26 §6.4, a tabela do desvio')
+DURACAO = max(1, REFINO_SANT // 2)
+ENCONTRO = PESSOAS * MULT_SEM * FATOR_DESVIO
+linha(f'  o gate                        refino {GATE_SEM}          manual, a tabela dos três degraus')
+linha(f'  o refino dele                 {REFINO_SANT}               {NOTA_DESVIO}')
+linha(f'  o raio                        {RAIO_SEM} m, o centro fica onde abriu')
+linha(f'  a duração                     {DURACAO} rodadas       metade do refino, contra a luta de {LUTA:.2f}')
+linha(f'  o Acerto                      Desmembrar e Clivar acertam sem rolagem e sem Teste de Resistência')
+linha()
+linha(f'  a `{CATEGORIA}` exige          {PESSOAS} pessoas')
+linha(f'  com o Santuário               {PESSOAS} × {MULT_SEM:.2f}' + (f' × {FATOR_DESVIO:.2f}' if FATOR_DESVIO != 1 else '') + f' = {ENCONTRO:.1f} pessoas')
+linha(f'  ⚠ A Expansão aumenta o encontro e não se compensa — decisão do Mizuki na v0.229, peça 26 §6.4.')
+linha(f'    Nada no bloco é dividido: o golpe fica na banda, e o domínio é o que faz a luta ser de {ENCONTRO:.1f}.')
 
 # ────────────────────────────────────────────────────────────────────────────
 bloco('AS AÇÕES DELE — cada uma montada no orçamento DELA')
@@ -759,34 +795,43 @@ confere('o golpe cabe na mão', int(txt.split('d')[0]) <= TETO_DADOS,
 confere('a categoria tem `Intervenção`', TEM_INT[CATEGORIA], f'`{CATEGORIA}` — de `Desastre` pra cima')
 confere('o orçamento passa do piso', pontos >= PISO_PONTOS,
         f'{pontos:.1f} pontos  ·  piso {PISO_PONTOS:.0f}')
+confere('o Santuário cabe no gate', REFINO_SANT >= GATE_SEM,
+        f'refino {REFINO_SANT}  ·  gate {GATE_SEM}' + ('' if FATOR_DESVIO == 1 else f'  ·  desvio × {FATOR_DESVIO:.2f}'))
+confere('o Santuário cobre a luta', DURACAO >= LUTA, f'{DURACAO} rodadas  ·  luta {LUTA:.2f}')
 confere('o `Emboscador` não é o papel', PAPEL_ESCOLHIDO != 'Emboscador' or TAMANHO in ('Médio', 'Grande'),
         'ele não sobe de `Grande`')
 
-# a única evidência de mesa que o projeto tem
-mv = pega(MESA, r'cerca de `(\d+)` por fase', 'a vida da mesa de ND 20', BEST)
-mg = pega(MESA, r'cortou pela metade\*\*: `([\dd\s+]+)` no alvo único', 'o golpe da mesa de ND 20', BEST)
-mesa_vida = int(mv.group(1)) * 2
-mesa_golpe = media_dado(mg.group(1))
-linha()
-linha(f'  E contra a ÚNICA evidência de mesa do projeto — o Sukuna que o Mizuki rodou em 07/09:')
-linha(f'    {"":<22}{"a mesa rodou":>16}{"a máquina dá":>16}{"razão":>10}')
-linha('  ' + '-' * 66)
-linha(f'    {"vida":<22}{mesa_vida:>16}{round(v):>16}{round(v) / mesa_vida:>9.2f}×')
-linha(f'    {"o golpe":<22}{mesa_golpe:>16.1f}{med:>16.1f}{med / mesa_golpe:>9.2f}×')
-linha(f'    {"ações por rodada":<22}{3:>16}{ac:>16}{ac / 3:>9.2f}×')
-linha(f'    {"dano por rodada":<22}{mesa_golpe * 3:>16.1f}{dm:>16.1f}{dm / (mesa_golpe * 3):>9.2f}×')
-linha()
-linha(f'  ⚠ A VIDA bate em {round(v) / mesa_vida:.2f}× e o DANO fica em {dm / (mesa_golpe * 3):.2f}×.')
-linha(f'    O mestre amarrou a vida na `{CATEGORIA}` e o dano num degrau abaixo:')
-for cat in ['Ameaça', 'Desastre', 'Catástrofe', 'Calamidade']:
-    if cat not in CATS or NIVEL not in CATS[cat]:
-        continue
-    b = CATS[cat][NIVEL]
-    dr = b['dano'] * (FATOR_INT if TEM_INT.get(cat) else 1.0)
-    linha(f'      `{cat:<11}` dano/rodada {dr:>6.1f}   ·   a mesa rodou {mesa_golpe * 3:.0f}   '
-          f'→ {mesa_golpe * 3 / dr:.2f}× do que a categoria pede')
-linha(f'    E na máquina isso NÃO É MONTAGEM LEGAL: os dois fatores da categoria andam juntos.')
-linha(f'    Ele derruba {dm / VIDA_PC:.2f} personagem por rodada, contra {mesa_golpe * 3 / VIDA_PC:.2f} que a mesa viu.')
+# a única evidência de mesa que o projeto tem — e ela só compara no nível em que rodou
+ND_MESA = int(re.search(r'nd(\d+)', MESA).group(1))
+if NIVEL != ND_MESA:
+    linha()
+    linha(f'  A mesa de 07/09 rodou o Sukuna no ND {ND_MESA}, e este bloco é do nível {NIVEL}:')
+    linha(f'  a comparação com ela ficou no O-SUKUNA-no-rascunho-5.md, que é do nível {ND_MESA}.')
+else:
+    mv = pega(MESA, r'cerca de `(\d+)` por fase', 'a vida da mesa de ND 20', BEST)
+    mg = pega(MESA, r'cortou pela metade\*\*: `([\dd\s+]+)` no alvo único', 'o golpe da mesa de ND 20', BEST)
+    mesa_vida = int(mv.group(1)) * 2
+    mesa_golpe = media_dado(mg.group(1))
+    linha()
+    linha(f'  E contra a ÚNICA evidência de mesa do projeto — o Sukuna que o Mizuki rodou em 07/09:')
+    linha(f'    {"":<22}{"a mesa rodou":>16}{"a máquina dá":>16}{"razão":>10}')
+    linha('  ' + '-' * 66)
+    linha(f'    {"vida":<22}{mesa_vida:>16}{round(v):>16}{round(v) / mesa_vida:>9.2f}×')
+    linha(f'    {"o golpe":<22}{mesa_golpe:>16.1f}{med:>16.1f}{med / mesa_golpe:>9.2f}×')
+    linha(f'    {"ações por rodada":<22}{3:>16}{ac:>16}{ac / 3:>9.2f}×')
+    linha(f'    {"dano por rodada":<22}{mesa_golpe * 3:>16.1f}{dm:>16.1f}{dm / (mesa_golpe * 3):>9.2f}×')
+    linha()
+    linha(f'  ⚠ A VIDA bate em {round(v) / mesa_vida:.2f}× e o DANO fica em {dm / (mesa_golpe * 3):.2f}×.')
+    linha(f'    O mestre amarrou a vida na `{CATEGORIA}` e o dano num degrau abaixo:')
+    for cat in ['Ameaça', 'Desastre', 'Catástrofe', 'Calamidade']:
+        if cat not in CATS or NIVEL not in CATS[cat]:
+            continue
+        b = CATS[cat][NIVEL]
+        dr = b['dano'] * (FATOR_INT if TEM_INT.get(cat) else 1.0)
+        linha(f'      `{cat:<11}` dano/rodada {dr:>6.1f}   ·   a mesa rodou {mesa_golpe * 3:.0f}   '
+              f'→ {mesa_golpe * 3 / dr:.2f}× do que a categoria pede')
+    linha(f'    E na máquina isso NÃO É MONTAGEM LEGAL: os dois fatores da categoria andam juntos.')
+    linha(f'    Ele derruba {dm / VIDA_PC:.2f} personagem por rodada, contra {mesa_golpe * 3 / VIDA_PC:.2f} que a mesa viu.')
 
 linha()
 linha('=' * 96)

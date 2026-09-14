@@ -792,6 +792,108 @@ else:
 
 
 # --------------------------------------------------------------------------
+# 7.1b (v0.229): os gates da Expansao de inimigo, e a Expansao sem Barreiras.
+# Decisao do Mizuki: os gates sao os do jogador, e o refino acima da curva e'
+# desvio com causa escrita, que se paga no fator pela Defesa. Tres coisas se
+# conferem, e nenhum valor mora aqui:
+#   a) os gates publicados sao os do manual (partE.js, a tabela dos tres degraus);
+#   b) no nivel do gate da completa, a duracao pela curva do `meio a meio` (peca 11)
+#      cobre a luta que a categoria promete, e o multiplicador abaixo dele e' o que
+#      a peca publica; a sem barreiras usa o mesmo multiplicador da completa;
+#   c) a tabela do desvio reconstroi: a Defesa ganha sai da protecao da peca 11, e
+#      o fator sai do acerto do personagem e dos pontos por Defesa do §3.4.
+PARTE = 'manual/gerador/partE.js'
+_E, _P11 = ler(PARTE), ler(P11)
+_gc = re.search(r"\['Completa', '[^']*', 'nível (\d+) e refino (\d+)'", _E)
+_gs = re.search(r"\['Sem Barreiras', '[^']*', 'refino (\d+)", _E)
+_gp = re.search(r'A completa abre no nível `(\d+)` com refino `(\d+)`, e a Expansão sem Barreiras pede refino `(\d+)`', TXT)
+_marc = re.search(r'\| \| nv 6 \|[^\n]*', _P11)
+_mm = re.search(r'\| \*\*meio a meio\*\* \|[^\n]*', _P11)
+_prot = re.search(r'a sua proteção é `1/(\d+) do refino \+ (\d+)`', _P11)
+_luta = re.search(r'contra as `(\d+),(\d+)` que a categoria promete', TXT)
+_pp = re.search(r'um ponto de Defesa move `(\d+)` pontos percentuais, e o personagem acerta alvo difícil em `(\d+)%`', TXT)
+_mx = re.search(r'multiplica a saída efetiva dele por `1 ÷ ([\d,]+)`, que é `([\d,]+) ×`', TXT)
+if not (_gc and _gs):
+    erro('7.1b: nao achei os gates na tabela dos tres degraus do manual (partE.js)')
+elif not _gp:
+    erro('7.1b: a peca parou de publicar os gates da Expansao de inimigo')
+elif not (_marc and _mm and _prot and _luta and _pp and _mx):
+    erro('7.1b: faltou dono — a curva do meio a meio, a protecao da peca 11, a luta, '
+         'o acerto do personagem ou o multiplicador do §6.4')
+else:
+    _ruins = []
+    if (int(_gp.group(1)), int(_gp.group(2)), int(_gp.group(3))) != (int(_gc.group(1)), int(_gc.group(2)), int(_gs.group(1))):
+        _ruins.append(f'a peca publica os gates {_gp.groups()} e o manual diz {(_gc.group(1), _gc.group(2), _gs.group(1))}')
+    NVS = [int(x) for x in re.findall(r'nv (\d+)', _marc.group(0))]
+    RFS = [int(x) for x in re.findall(r'`(\d+)`', _mm.group(0))]
+    CURVA = dict(zip(NVS, RFS))
+    NV_C, RF_C, RF_S = int(_gc.group(1)), int(_gc.group(2)), int(_gs.group(1))
+    DIV, SOMA = int(_prot.group(1)), int(_prot.group(2))
+    LUTA = float(f'{_luta.group(1)}.{_luta.group(2)}')
+    PP, PC = int(_pp.group(1)), int(_pp.group(2))
+    MULT = 1 / float(_mx.group(1).replace(',', '.'))
+    dur = lambda r: max(1, r // 2)
+    # b) a duracao no gate e abaixo dele
+    _db = re.search(r'o nível `(\d+)` dá refino `(\d+)` e `(\d+)` rodadas de domínio, contra a luta de `(\d+),(\d+)`', TXT)
+    _ab = re.search(r'No nível `(\d+)` seriam `(\d+)` rodadas, e o multiplicador cairia para `(\d+),(\d+)`', TXT)
+    if not (_db and _ab):
+        erro('7.1b: a peca parou de publicar a duracao no gate e o multiplicador abaixo dele')
+    else:
+        _nv, _rf, _d = int(_db.group(1)), int(_db.group(2)), int(_db.group(3))
+        if _nv != NV_C or CURVA.get(_nv) != _rf or dur(_rf) != _d:
+            _ruins.append(f'no gate a peca diz nivel {_nv}, refino {_rf}, {_d} rodadas; a curva e o manual dao '
+                          f'nivel {NV_C}, refino {CURVA.get(NV_C)}, {dur(CURVA.get(NV_C, 0))} rodadas')
+        _curtos = [n for n in NVS if n >= NV_C and CURVA[n] >= RF_C and dur(CURVA[n]) < LUTA]
+        if _curtos:
+            _ruins.append(f'do gate para cima a duracao fica abaixo da luta de {LUTA} nos niveis {_curtos}')
+        _na, _da = int(_ab.group(1)), int(_ab.group(2))
+        _ma = float(f'{_ab.group(3)}.{_ab.group(4)}')
+        _conta = round(1 + (MULT - 1) * min(1, dur(CURVA.get(_na, 0)) / LUTA), 2)
+        if dur(CURVA.get(_na, 0)) != _da or abs(_conta - _ma) > 1e-9 or _na >= NV_C:
+            _ruins.append(f'abaixo do gate a peca diz nivel {_na}, {_da} rodadas, x{_ma}; a conta da '
+                          f'{dur(CURVA.get(_na, 0))} rodadas e x{_conta}')
+    # b) a sem barreiras usa o mesmo multiplicador, e o nivel em que a curva chega ao teto
+    _sm = re.search(r'\*\*Ela multiplica o fator pelo mesmo `([\d,]+)`\.\*\*', TXT)
+    _st = re.search(r'o inimigo só chega a refino `(\d+)` no nível `(\d+)`', TXT)
+    if not (_sm and _st):
+        erro('7.1b: a peca parou de publicar o multiplicador da sem barreiras ou o nivel do teto na curva')
+    else:
+        if f'{MULT:.2f}'.replace('.', ',') != _sm.group(1):
+            _ruins.append(f'a sem barreiras publica x{_sm.group(1)} e a completa e x{MULT:.2f}')
+        _prim = min((n for n in NVS if CURVA[n] >= RF_S), default=None)
+        if int(_st.group(1)) != RF_S or int(_st.group(2)) != _prim:
+            _ruins.append(f'a peca diz refino {_st.group(1)} no nivel {_st.group(2)}; a curva chega a {RF_S} no nivel {_prim}')
+    # c) a tabela do desvio
+    _linhas = re.findall(r'^\| nv `(\d+)` \| `(\d+)` \| `\+(\d+)` \| `× (\d+),(\d+)` \|$', TXT, re.M)
+    _esperados = [n for n in NVS if n >= NV_C and CURVA[n] >= RF_C and CURVA[n] < RF_S]
+    if [int(l[0]) for l in _linhas] != _esperados:
+        _ruins.append(f'a tabela do desvio tem os marcos {[int(l[0]) for l in _linhas]} e devia ter {_esperados} '
+                      f'(do gate da completa ate a curva chegar ao refino {RF_S})')
+    prot = lambda r: r // DIV + SOMA
+    for _n, _r, _g, _a, _b in _linhas:
+        _n, _r, _g = int(_n), int(_r), int(_g)
+        _ganho = prot(RF_S) - prot(CURVA.get(_n, 0))
+        _fat = round(PC / (PC - PP * _ganho), 2)
+        if CURVA.get(_n) != _r or _ganho != _g or abs(_fat - float(f'{_a}.{_b}')) > 1e-9:
+            _ruins.append(f'no nv{_n} a tabela diz refino {_r}, Defesa +{_g}, x{_a},{_b}; a conta da refino '
+                          f'{CURVA.get(_n)}, Defesa +{_ganho}, x{_fat:.2f}')
+    # v0.229: a Expansao aumenta o encontro e nao se compensa (decisao do Mizuki). O jeito
+    # antigo de manter o tamanho dividia o golpe pelo multiplicador, e isso tirava o golpe
+    # da banda do Bestiario — esta guarda impede ele de voltar.
+    if re.search(r'[Dd]ivida o dano por rodada dele por|Quer manter o tamanho\?', TXT):
+        _ruins.append('a peca voltou a oferecer manter o tamanho dividindo o dano pelo multiplicador da Expansao — '
+                      'isso tira o golpe da banda do Bestiario, e saiu na v0.229')
+    if _ruins:
+        for _r in _ruins:
+            erro('7.1b: ' + _r)
+    else:
+        print(f'  [x] os gates da peca sao os do manual: completa no nivel {NV_C} com refino {RF_C}, sem barreiras no refino {RF_S}')
+        print(f'  [x] no gate a curva da {dur(CURVA[NV_C])} rodadas contra a luta de {LUTA}, e nenhum marco acima fica curto')
+        print(f'  [x] a sem barreiras multiplica pelo mesmo x{MULT:.2f}, e a curva so chega ao refino {RF_S} no nivel {_prim}')
+        print(f'  [x] a tabela do desvio reconstroi nos {len(_linhas)} marcos, com a protecao 1/{DIV} + {SOMA} e {PP} pontos por Defesa')
+
+
+# --------------------------------------------------------------------------
 bloco('8. RESISTENCIA E VIDA ESCONDIDA — e o fator da categoria e a moeda dela')
 # --------------------------------------------------------------------------
 # v0.199. A peca 19 §4 divide os catorze tipos em tres grupos com peso, e

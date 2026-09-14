@@ -392,17 +392,38 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 >
 > *Uma régua que proíbe o chefe mais famoso da obra de fazer a coisa mais famosa dele está errada antes de qualquer conta.*
 
-**O mestre usa a regra dos dois lados, e os dois são a mesma conta:**
+***Decisão do Mizuki, na v0.229: a Expansão aumenta o encontro, e não se compensa.*** *"em todos os casos, o acerto garantido e a expansão, vão virar pro lado do inimigo, n? por isso é algo q todos os feiticeiros sabem q é quase suicidio lutar contra um expansor dentro da expansão dele, é esperado o encontro ficar maior nesse caso"*. **O mestre deixa a linha como está e lê a coluna da direita.**
 
-> **Quer manter o tamanho?** *Divida o dano por rodada dele por `1,92`* — o domínio devolve o que foi tirado, e o encontro fica o da categoria. **Com o fator contínuo isso vale em qualquer categoria**, e não só nas que tinham degrau embaixo.
->
-> **Quer o inimigo maior?** *Deixe a linha como está e leia a coluna da direita* — o encontro passou a exigir o dobro de gente, e o mestre monta a mesa sabendo disso.
+> *Até a v0.228 esta seção oferecia o outro lado: manter o tamanho dividindo o dano por rodada por `1,92`.* **Ele saiu porque dividir o golpe por `1,92` tira ele da banda de dano por golpe que o Bestiário decidiu em 10/09**
 
 **A incompleta não custa nada nesta régua.** *O manual diz que o Acerto dela "resolve por rolagem, como um feitiço"* — **sem a garantia não existe o `1,92 ×`**, e o que ela dá é o Efeito, que não é dano. *Qualquer categoria pode ter uma.*
 
 **E abrir não custa rodada ao inimigo, apesar de custar ao jogador.** *O manual cobra a rodada inteira e `6 ×` a maior Classe de PE; o inimigo não conta PE pelo §6.1, e o Acerto acontece no momento em que ele abre.* **A cota daquela rodada sai pelo Acerto em vez de sair pelos golpes, e nada se perde.**
 
-> **A duração cobre a luta inteira, e é por isso que o multiplicador vale o encontro todo.** *O manual põe a duração em metade do refino, e o refino do chefe do nível 30 é `10` — cinco rodadas contra uma luta de `3,00`.*
+***Decisão do Mizuki: os gates são os do jogador.*** **A completa abre no nível `14` com refino `5`, e a Expansão sem Barreiras pede refino `10`**, *como o manual escreve.*
+
+> **É o gate que faz o `1,92` valer o encontro todo.** *O manual põe a duração em metade do refino, e na curva do `meio a meio` o nível `14` dá refino `6` e `3` rodadas de domínio, contra a luta de `3,00`.* **Dali para cima ela só cresce.** *No nível `10` seriam `2` rodadas, e o multiplicador cairia para `1,62`.*
+
+#### A Expansão sem Barreiras do inimigo — o mesmo `1,92`, e o refino no teto
+
+**Ela multiplica o fator pelo mesmo `1,92`.** *O preço vem do Acerto garantido, e ele é garantido nos dois modos, com a mesma duração.* **O que muda fica fora do eixo de dano, e por isso fica declarado e não cobrado:**
+
+- **quem não tem energia amaldiçoada** só leva o Acerto se ele alcança o que não tem energia — *contra um grupo com um Restringido ela entrega menos;*
+- **não existe casca** para quem está de fora quebrar;
+- **contra o domínio de um personagem**, além da disputa de sempre, o Acerto que fere bate na barreira dele por fora;
+- **o raio de `200 m`** pega a cena inteira, e a completa pega só quem estava no raio dela.
+
+***Decisão do Mizuki: o gate é o do jogador, e o refino acima da curva é desvio com causa escrita.*** **Pela curva do `meio a meio`, o inimigo só chega a refino `10` no nível `26`.** *Um chefe da obra que abre sem barreira abaixo disso tem a obra como causa.* **A especialização em `Ocultismo` entra no bloco como a perícia `Ocultismo`.**
+
+> **O refino acima da curva paga no fator, pela Defesa.** *A proteção é `1/3 do refino + 1`, pela peça 11 §6, e o §3.4 mede quanto um ponto de Defesa move o acerto do personagem.* **Então `fator novo = fator × o acerto do personagem ÷ (o acerto − o que a Defesa ganha tira dele)`.**
+
+| marco | refino da curva | Defesa ganha subindo a `10` | o fator |
+|---|---|---|---|
+| nv `14` | `6` | `+1` | `× 1,11` |
+| nv `18` | `7` | `+1` | `× 1,11` |
+| nv `22` | `9` | `+0` | `× 1,00` |
+
+*O desvio mexe na Defesa, na duração e no raio do domínio, e em nada mais: o refino não entra no acerto, na CD nem na vida.* **A duração sobe junto, e ela já cobria a luta.**
 
 ### 6.5 O catálogo do jogador na ficha do inimigo
 
@@ -535,6 +556,7 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 | **8** | **resistência é vida escondida.** Os pesos dos três grupos saem da peça 19 §4, os multiplicadores do §6.3 são recalculados de `1 ÷ (1 − o que se poupa)`, e a peça tem de declarar em que moeda a resistência se paga — desde a v0.221 o multiplicador do fator, e o declarado tem de ser o calculado. *Sem essa declaração ela é vida de graça, e a categoria passa a mentir sobre o encontro* |
 | **9** | **o câmbio do §6.5, nas três portas.** A `9.1` reconstrói as `35` células do orçamento de feitiço do golpe dividido pelo que um ponto vale, com o fator de quem carrega `Intervenção`, e cobra que o `seco` seja o piso da `Classe 1` do manual; a `9.2` reconstrói a conta da aptidão do custo que a peça 11 §6.5 publica, da maior Classe da peça 18 e do câmbio de PE da peça 5 §4; a `9.3` refaz os dois empates — o da cura e o dos alvos —, com a escada de ações lida da peça 19 e o tamanho do grupo lido da categoria de fator `1,00`; e a `9.4` cobra que cada porta declare a moeda. *Nenhum dos quatro números vive aqui dentro.* **Desde a v0.221, a `9.5` confere as seis prontas do gerador contra a escada, e a `9.6` a área natural contra a escada de esfera do manual** |
 | **10** | **o papel redistribui, e não acrescenta.** A `10.1` confere que ganha × paga fecha em `1,000` em toda célula que publica os dois lados; a `10.2` **reconstrói cada fator do documento dono** — a Defesa da peça 1 §5.2, a vantagem e a ação negada da peça 19 §2.2 — e compara com o publicado; a `10.3` confere que as ações do §3.4 são as do §4, com a exceção declarada do `Capanga`, que ali se lê por esquadrão. *Sem a `10.2`, o invariante da `10.1` passaria com dois números inventados que por acaso se multiplicam em um* |
+| **7.1b** | **a Expansão de inimigo tem os gates do jogador, e a sem barreiras não muda o preço.** Os gates publicados são os do manual; no nível do gate a duração pela curva do `meio a meio` cobre a luta que a categoria promete, e o multiplicador abaixo dele é recalculado; a sem barreiras usa o mesmo `1,92`; a tabela do desvio de refino reconstrói da proteção da peça 11 e do §3.4; e a alavanca de manter o tamanho dividindo o dano não pode voltar |
 
 ### 7.1 As quarenta e duas perturbações, em cópia isolada
 
@@ -710,6 +732,28 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 
 > **O contra-teste que importa é o da vantagem.** *Mover `+25` pontos percentuais na peça 19 **e** os cinco números publicados no §3.4 ao mesmo tempo continua verde* — **e é isso que prova que a `10.2` lê o dono em vez de guardar `1,476` escrito nela.** *É a lição nº 8 do `README` aplicada antes de ela cobrar.*
 
+### 7.4 As treze perturbações da v0.229, na Expansão
+
+*Mesmo método: cópia isolada, base conferida antes, e cada vermelho lido na linha da `7.1b`.*
+
+| perturbação | esperado | deu |
+|---|---|---|
+| o manual baixa o gate da completa para o nível `12` | acende | acende |
+| a peça publica refino `9` de gate para a sem barreiras | acende | acende |
+| a curva do `meio a meio` cai para `5` no nível `14` | acende | acende |
+| a peça publica `4` rodadas no gate | acende | acende |
+| o multiplicador abaixo do gate vira `1,70` | acende | acende |
+| a luta que a categoria promete vira `4,00` | acende | acende |
+| a sem barreiras publica `2,00` | acende | acende |
+| a curva chega ao refino `10` no nível `22` | acende | acende |
+| o fator do desvio no nível `18` vira `1,25` | acende | acende |
+| a tabela do desvio perde o nível `22` | acende | acende |
+| a proteção da peça 11 vira `1/2` do refino | acende | acende |
+| a Defesa passa a mover `4` pontos | acende | acende |
+| a alavanca de manter o tamanho volta | acende | acende |
+| **contra-teste:** frase nova no §6.4 | fica verde | fica verde |
+| **contra-teste:** o gate da completa vai ao nível `18` no manual e na peça, e a tabela do desvio perde o `14` | fica verde | fica verde |
+
 ## 8. Em aberto
 
 - ~~**⚠⚠ A pressão do chefe é `3,3 ×` menor que a do d20.**~~ ***FECHADA na v0.201***, com a tabela `Inimigos` refeita e o manual na `v7.23`. **O chefe entrega `90%` da vida de um personagem por rodada e tem `3 ×` o dano de rodada do grupo em vida** — `22,5%` do grupo por rodada, luta de `3` rodadas, e ele derruba `2,70` pessoas se concentrar.
@@ -747,6 +791,6 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
   > *A régua está escrita; o que falta é a entrada do catálogo dizendo em que moeda ela se paga — e isso é o §6.5.*
 
 - ~~**As maldições prontas.**~~ ***FECHADAS na v0.214, e remapeadas na v0.221.*** **Seis, do nível 2 ao 12, na escada viva:** *`Betobeto`, `Kamaitachi` — duas na mesa —, `Hitotsume` e `Kitsune` são `Ameaça`; `Tsuchigumo` e `Oni` são `Desastre`, com três `Intervenções` cada.* **A coluna do `Capanga` ficou vazia, e é o preço declarado da decisão de 10/09:** *a `Kitsune` subiu de faixa para poder conjurar, e a grade de duas faixas por três categorias deixou de fechar. Fichas de esquadrão são ficção do Mizuki, e ficam para quando ele quiser.* **As escolhas moram no `dados.js` e os números são computados**, e o bloco sai no molde de bloco do 5e, igual ao do livro do Bestiário. *A v0.213 tentou publicá-las num `.md` à parte e quatro dos seis golpes saíram errados, por um arredondamento que o gerador faz e a cópia não fazia.*
-- ~~**A Expansão de Domínio de inimigo.**~~ ***FECHADA na v0.204, e refeita na v0.221:*** **ela multiplica o fator por `1,92`**, porque o Acerto garantido multiplica a saída efetiva por `1,92 ×`. *A primeira forma cobrava em degrau de categoria e só cabia em duas das quatro categorias da escada de então; a moeda passou a ser o fator, e ela cabe em qualquer uma.*
+- ~~**A Expansão de Domínio de inimigo.**~~ ***FECHADA na v0.204, e refeita na v0.221:*** **ela multiplica o fator por `1,92`**, porque o Acerto garantido multiplica a saída efetiva por `1,92 ×`. *A primeira forma cobrava em degrau de categoria e só cabia em duas das quatro categorias da escada de então; a moeda passou a ser o fator, e ela cabe em qualquer uma.* **Na v0.229 ela ganhou os gates do jogador e a Expansão sem Barreiras, com o mesmo `1,92`, e deixou de oferecer manter o tamanho.**
 - **O inimigo com Trilha.** *Fica de fora por decisão, e o motivo está no §6* — mas um antagonista recorrente que sobe junto com o grupo é caso de mesa que vai aparecer.
 - ~~**A ficha impressa.**~~ ***FECHADA na v0.199, e três números dela envelheceram até a v0.206:*** *a coluna `cobra do grupo` da sub-categoria ficou nos `28/30/33/35` da v0.199 enquanto esta peça publicava `68/58/56/62` desde a v0.201, a nota ao lado dizia que repartir o encontro o encarece — a v0.201 mediu o contrário —, e a razão de quatro `Ronda` estava em `0,62 ×` contra os `0,75 ×` a `0,77 ×` do §4.3.* **Os três moravam inline no montador do `gerador-inimigo/`, que é o único lugar do subsistema que nenhuma checagem lia** — *o `dados.js` tem validador desde a v0.199 e o montador não tinha.* *Hoje a porcentagem e a razão vivem no `dados.js` e o bloco `7` do `conferir-ficha.py` compara as duas com esta peça, com uma guarda que acende se o montador voltar a guardar inline.* **`05-material/bloco-de-inimigo.docx`**, quatro páginas — as tabelas que o mestre copia, o bloco em branco com as dezessete linhas, e um exemplo preenchido. *O gerador é o `gerador-inimigo/`, e o bloco `7` do `conferir-ficha.py` compara o `dados.js` dele com esta peça.*

@@ -8,6 +8,54 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.229] — 13/09/2026
+
+**O inimigo ganhou a Expansão sem Barreiras, e o Sukuna foi remontado no nível 30.** *A peça 26 §6.4 preçava a Expansão de inimigo e não conhecia o degrau que a v0.226 criou.*
+
+### 1 · A sem barreiras de inimigo custa o mesmo `1,92`
+
+**O preço vem do Acerto garantido, e ele é garantido nos dois modos, com a mesma duração.** *O que muda fica fora do eixo de dano, e a peça declara sem cobrar:* **quem não tem energia só leva o Acerto se ele alcança o que não tem energia; não existe casca para quebrar de fora; contra o domínio de um personagem, o Acerto que fere bate na barreira dele por fora; e o raio de `200 m` pega a cena inteira.**
+
+### 2 · Os gates são os do jogador, e o refino acima da curva é desvio
+
+***Decisões do Mizuki:*** **a completa de inimigo abre no nível `14` com refino `5`, e a sem barreiras pede refino `10`.** *Pela curva do `meio a meio` o inimigo só chega a refino `10` no nível `26`.* **Abaixo disso, o refino acima da curva vale como desvio com a obra como causa**, *e se paga no fator pela Defesa:*
+
+| marco | refino da curva | Defesa ganha | o fator |
+|---|---|---|---|
+| nv `14` | `6` | `+1` | `× 1,11` |
+| nv `18` | `7` | `+1` | `× 1,11` |
+| nv `22` | `9` | `+0` | `× 1,00` |
+
+**O gate da completa fechou um buraco que a peça tinha:** *ela só conferia a duração no nível `30`.* **No nível `14` a curva dá refino `6` e `3` rodadas, contra a luta de `3,00`; no nível `10` seriam `2`, e o `1,92` cairia para `1,62`.**
+
+### 3 · A Expansão aumenta o encontro, e não se compensa
+
+***Palavras dele:*** *"em todos os casos, o acerto garantido e a expansão, vão virar pro lado do inimigo, n? por isso é algo q todos os feiticeiros sabem q é quase suicidio lutar contra um expansor dentro da expansão dele, é esperado o encontro ficar maior nesse caso"*.
+
+**A alavanca "divida o dano por rodada por `1,92` para manter o tamanho" saiu da peça 26.** *Ela vinha da v0.204 e ninguém tinha cruzado ela com a banda de dano por golpe que o Bestiário decidiu em 10/09 — `21%` a `28%` da vida de um personagem.* **No Sukuna, dividir o golpe levava ele de `27,7%` para `14,4%`.** *E a `7.1b` impede ela de voltar.*
+
+### 4 · O Sukuna no nível 30
+
+***Decisão do Mizuki:*** *"sobe o sukuna pra Nv30"*. **No `30` o refino da curva já é o do gate, e o Santuário abre sem desvio.**
+
+- **O `montar-o-sukuna.py` voltou a rodar.** *Ele procurava `Guardião` e `Apoio`, que a v0.224 trocou por `Baluarte` e `Reforço`, e só os nomes tinham quebrado: nenhum número do nível 20 mudou.*
+- **Ele ganhou o passo do Santuário:** *o gate lido do manual, o multiplicador e a tabela do desvio lidos da peça 26, a duração contra a luta, e duas conferências novas.* **A comparação com a mesa de 07/09 só roda no nível em que a mesa rodou.**
+- **O `O-SUKUNA-no-nivel-30.md`** traz a ficha com o que a máquina deriva — *Defesa `20`, Vida `1620`, Integridade `810`, golpe `6d10 + 34`, Santuário de `200 m` por `5` rodadas, e `15,4` pessoas.* **O rascunho 5 fica como o teste de 10/09.**
+
+### Adicionado
+
+- **A §6.4 da peça 26** ganhou os gates, a subseção da Expansão sem Barreiras e a tabela do desvio; **o §7.4** registra as perturbações.
+- **A checagem `7.1b` do `conferir-bestiario.py`**, com treze perturbações e dois contra-testes: *os gates contra o manual, a duração no gate contra a curva da peça 11, o multiplicador abaixo do gate, o `1,92` da sem barreiras, o nível em que a curva chega ao teto, a tabela do desvio reconstruída, e a guarda contra a alavanca voltar.*
+- **`bestiario/05-sukuna/O-SUKUNA-no-nivel-30.md`** e **`SAIDA-o-sukuna-nv30.txt`**.
+
+### Pergunta para ele
+
+**O bloco de livro do Sukuna tem quatro escolhas que a máquina não faz**, *listadas no fim do `O-SUKUNA-no-nivel-30.md`:* **os `4` pontos livres de atributo, a cura da `Técnica Reversa`, a forma de área da `Chama Divina`** *(a `Linha` não existe mais para inimigo)*, **e o voto da "barreira aberta"**, *que desde a v0.226 compra o que o degrau já dá.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, seção *"Onde estamos, e o que falta"*.
+
+---
+
 ## [0.228] — 13/09/2026
 
 **As duas perguntas que a v0.227 deixou fecharam.** *A Integridade do inimigo passa a ser metade da vida máxima; o `Armado` não aceita gatilho no turno de quem armou e não entra com `Carregar`.*
