@@ -1713,6 +1713,188 @@ else:
 
 
 # --------------------------------------------------------------------------
+bloco('9.8 A CORRENTE DA `Regravação` NO INIMIGO — os marcos, a cota e as duas curas')
+# --------------------------------------------------------------------------
+# v0.242. Decisoes do Mizuki: o inimigo carrega a corrente inteira do jogador, com os
+# marcos do jogador — "ele tem q escolher se pega atributo ou aptidão" —, e a cura de
+# Acao Bonus da `Circulação` vira Reacao. Nenhum valor mora aqui: os gates saem dos
+# titulos da peca 11, o refino e as escolhas da tabela do §3.2, o teto e o dado da
+# `Circulação` da peca 11, a maior Classe da peca 18, o cambio da peca 5 §4, a vida e o
+# dano da linha do manual, o fator da `Intervenção` e a luta desta peca.
+_ruins98 = []
+_t11_98 = ler(P11)
+_ger98 = re.search(r'^### Energia Reversa · Classe Passiva \d · refino (\d+) e nível (\d+)$', _t11_98, re.M)
+_gci98 = re.search(r'^### Circulação · [^\n]*exige a `Energia Reversa` e refino (\d+)$', _t11_98, re.M)
+_grg98 = re.search(r'^### Regravação · [^\n]*exige a `Circulação`$', _t11_98, re.M)
+_mf98 = re.search(r'Com `metade da sua (\w+) \+ metade da sua maestria` marcas', _t11_98)
+_tb98 = TXT[TXT.find('| marco | nv 6 |'):]
+_rf98 = re.search(r'\| refino do `meio a meio` \|([^\n]*)', _tb98)
+_es98 = re.search(r'\| escolhas gastas em refino, acumuladas \|([^\n]*)', _tb98)
+_mt98 = re.search(r'sobe para `([\d,]+) × a sua maior Classe` de PE\*\*, arredondando para baixo', _t11_98)
+_md98 = re.search(r'os dados de cura são `d(\d+)` em vez de', _t11_98)
+_lu98 = re.search(r'contra as `(\d+),(\d+)` que a categoria promete', TXT)
+_fi98 = globals().get('_FI')
+_cl98 = globals().get('_CL18') or {}
+_ca98 = globals().get('_CAMBIO')
+_faltam98 = [n_ for n_, v_ in (('o gate da `Energia Reversa` na peca 11', _ger98),
+                               ('o gate da `Circulação` na peca 11', _gci98),
+                               ('o gate da `Regravação` na peca 11', _grg98),
+                               ('a formula das marcas na peca 11', _mf98),
+                               ('o refino e as escolhas do §3.2', _rf98 and _es98),
+                               ('o teto e o dado da `Circulação` na peca 11', _mt98 and _md98),
+                               ('a luta que a categoria promete', _lu98),
+                               ('o fator da `Intervenção`', _fi98),
+                               ('a maior Classe da peca 18 e o cambio da peca 5 §4', _cl98 and _ca98))
+             if not v_]
+if _faltam98:
+    erro('9.8: faltou dono — ' + '; '.join(_faltam98))
+elif not {25, 30} <= set(_MANUAL):
+    pulou('9.8. a corrente contra a cota e a vida — as linhas 25 e 30 da tabela de inimigo nao foram lidas')
+else:
+    _nv98 = [int(x) for x in re.findall(r'nv (\d+)', _tb98.split('\n')[0])]
+    _rfs98 = [int(x) for x in re.findall(r'`(\d+)`', _rf98.group(1))]
+    _acu98 = [int(x) for x in re.findall(r'`(\d+)`', _es98.group(1))]
+    _dorf98 = [a_ > (_acu98[i_ - 1] if i_ else 0) for i_, a_ in enumerate(_acu98)]
+    _R_ER98, _NV_ER98, _R_CI98 = int(_ger98.group(1)), int(_ger98.group(2)), int(_gci98.group(1))
+
+    # 1. uma aptidao por escolha de marco, e o gate de aptidao cobra o marco antes
+    _i_er98 = next((i_ for i_, (m_, r_) in enumerate(zip(_nv98, _rfs98))
+                    if r_ >= _R_ER98 and m_ >= _NV_ER98), None)
+    _i_ci98 = next((i_ for i_ in range(len(_nv98))
+                    if _i_er98 is not None and i_ > _i_er98 and _rfs98[i_] >= _R_CI98), None)
+    _i_rg98 = _i_ci98 + 1 if _i_ci98 is not None and _i_ci98 + 1 < len(_nv98) else None
+    # a leitura recusada: sem a regra de marco, cada uma abre no primeiro marco em que o gate passa
+    _sem98 = next((m_ for m_, r_ in zip(_nv98, _rfs98) if r_ >= max(_R_ER98, _R_CI98) and m_ >= _NV_ER98), None)
+    _mch98 = re.search(r'A corrente fecha no nível `(\d+)` para o inimigo:\*\* \*a `Energia Reversa` no `(\d+)`, '
+                       r'a `Circulação` no `(\d+)` e a `Regravação` no `(\d+)`\.\*', TXT)
+    _mpt98 = re.search(r'\*\*Ela custa `(\d+)` pontos de atributo\*\*, \*os das escolhas do', TXT)
+    _msm98 = re.search(r'Sem a regra de marco do §3\.2 ela fecharia no `(\d+)`', TXT)
+    if None in (_i_er98, _i_ci98, _i_rg98):
+        _ruins98.append('a corrente nao fecha em marco nenhum do §3.2 com os gates da peca 11')
+    else:
+        _ech98 = (_nv98[_i_rg98], _nv98[_i_er98], _nv98[_i_ci98], _nv98[_i_rg98])
+        _ept98 = sum(1 for i_ in (_i_er98, _i_ci98, _i_rg98) if not _dorf98[i_])
+        if not _mch98 or tuple(int(x) for x in _mch98.groups()) != _ech98:
+            _ruins98.append(f'a corrente fecha no {_ech98[0]} ({_ech98[1]} -> {_ech98[2]} -> {_ech98[3]}) pela conta, '
+                            f'e a peca publica {_mch98.groups() if _mch98 else "?"}')
+        if not _mpt98 or int(_mpt98.group(1)) != _ept98:
+            _ruins98.append(f'a corrente custa {_ept98} pontos de atributo pela conta, e a peca publica '
+                            f'{_mpt98.group(1) if _mpt98 else "?"}')
+        if not _msm98 or int(_msm98.group(1)) != _sem98 or _sem98 == _ech98[0]:
+            _ruins98.append(f'sem a regra de marco a corrente fecharia no {_sem98}, e a peca publica '
+                            f'{_msm98.group(1) if _msm98 else "?"} — o contra-teste tem de dar outro nivel')
+
+    # 2. o custo da regravacao: o teto da `Circulação` na cota da rodada, e espalhado na luta
+    _L98 = float(f'{_lu98.group(1)}.{_lu98.group(2)}')
+    _mul98 = float(_mt98.group(1).replace(',', '.'))
+    _dado98 = int(_md98.group(1))
+    _cx98 = {c_[0]: c_ for c_ in _CAT}
+
+    def _cota98(nv_, nome_):
+        return _meio_baixo(_MANUAL[nv_][2] * _cx98[nome_][2]) * (_fi98 if _INT.get(nome_) else 1.0)
+
+    def _vida98(nv_, nome_):
+        return _meio_baixo(_MANUAL[nv_][1] * _cx98[nome_][2])
+    _mcab98 = re.search(r'^\| a regravação no nível (\d+) · `(\d+)` PE = `([\d,]+)` \|((?: `[^`]+` \|)+)\n'
+                        r'\|[-|]+\|\n\| da cota da rodada \|((?: `\d+%` \|)+)\n'
+                        r'\| espalhada na luta de `(\d+),(\d+)` \|((?: `[\d,]+%` \|)+)$', TXT, re.M)
+    _mcb98 = re.search(r'com o câmbio de `([\d,]+)` por PE', TXT)
+    if not _mcab98 or not _mcb98:
+        _ruins98.append('a tabela do custo da regravacao mudou de forma, ou a frase do cambio sumiu')
+    else:
+        _nvc98 = int(_mcab98.group(1))
+        _pe98 = math.floor(_mul98 * _cl98[_nvc98])
+        _custo98 = _pe98 * _ca98
+        _nom98 = re.findall(r'`([^`]+)`', _mcab98.group(4))
+        _rod98 = [int(x) for x in re.findall(r'`(\d+)%`', _mcab98.group(5))]
+        _dil98 = [float(x.replace(',', '.')) for x in re.findall(r'`([\d,]+)%`', _mcab98.group(8))]
+        if int(_mcab98.group(2)) != _pe98 or abs(float(_mcab98.group(3).replace(',', '.')) - round(_custo98, 1)) > 1e-9:
+            _ruins98.append(f'a regravacao no nivel {_nvc98} gasta {_pe98} PE = {_custo98:.1f} pela conta, e a peca '
+                            f'publica {_mcab98.group(2)} = {_mcab98.group(3)}')
+        if abs(float(_mcb98.group(1).replace(',', '.')) - _ca98) > 1e-9:
+            _ruins98.append(f'a frase publica o cambio {_mcb98.group(1)}, e a peca 5 §4 da {_ca98}')
+        if abs(float(f'{_mcab98.group(6)}.{_mcab98.group(7)}') - _L98) > 1e-9:
+            _ruins98.append(f'a linha espalhada le a luta de {_mcab98.group(6)},{_mcab98.group(7)}, e a peca promete {_L98}')
+        for k_, nome_ in enumerate(_nom98):
+            if nome_ not in _cx98 or _cx98[nome_][1] is None:
+                _ruins98.append(f'a coluna `{nome_}` nao e categoria do §4 com personagens')
+                continue
+            cota_ = _cota98(_nvc98, nome_)
+            er_, ed_ = round(_custo98 / cota_ * 100), round(_custo98 / cota_ / _L98 * 100, 1)
+            if k_ >= len(_rod98) or _rod98[k_] != er_:
+                _ruins98.append(f'na `{nome_}` a regravacao custa {er_}% da rodada ({_custo98:.1f} de {cota_:.1f}), '
+                                f'e a peca publica {_rod98[k_] if k_ < len(_rod98) else "?"}%')
+            if k_ >= len(_dil98) or abs(_dil98[k_] - ed_) > 1e-9:
+                _ruins98.append(f'na `{nome_}` a regravacao espalhada na luta e {ed_}%, e a peca publica '
+                                f'{_dil98[k_] if k_ < len(_dil98) else "?"}%')
+            if _custo98 > cota_:
+                _ruins98.append(f'na `{nome_}` a regravacao custa mais que a cota da rodada, e a peca diz que as quatro cabem')
+
+    # 3. a cura de Reacao: vida efetiva, e a luta de L rodadas vira L ÷ (1 − L × cura ÷ vida)
+    _lcu98 = re.findall(r'^\| do nível (\d+) ao (\d+) · `(\d+)d(\d+)` \| `([\d,]+)` \|((?: `× [\d,]+` \|)+)$', TXT, re.M)
+    _ccu98 = re.search(r'^\| a Reação, uma vez por rodada \| cura \|((?: `[^`]+` \|)+)$', TXT, re.M)
+    _mam98 = re.search(r'Uma `Ameaça` com a `Circulação` exige `([\d,]+)` pessoa', TXT)
+    if not _lcu98 or not _ccu98 or not _mam98:
+        _ruins98.append('a tabela da cura de Reacao mudou de forma, ou o aviso da `Ameaça` sumiu')
+    else:
+        _ncu98 = re.findall(r'`([^`]+)`', _ccu98.group(1))
+        _pam98 = 0
+        for lo_, hi_, nd_, dd_, cu_, cels_ in _lcu98:
+            lo_, hi_ = int(lo_), int(hi_)
+            if hi_ not in _MANUAL or hi_ not in _cl98:
+                _ruins98.append(f'a tabela da cura le o nivel {hi_}, e a tabela de inimigo ou a peca 18 nao tem ele')
+                continue
+            teto_ = math.floor(_mul98 * _cl98[hi_])
+            cura_ = teto_ * (_dado98 + 1) / 2
+            if (int(nd_), int(dd_)) != (teto_, _dado98) or abs(float(cu_.replace(',', '.')) - cura_) > 1e-9:
+                _ruins98.append(f'do nivel {lo_} ao {hi_} a cura e {teto_}d{_dado98} = {cura_} pelas pecas 11 e 18, '
+                                f'e a peca publica {nd_}d{dd_} = {cu_}')
+            _vs98 = [float(x.replace(',', '.')) for x in re.findall(r'`× ([\d,]+)`', cels_)]
+            for k_, nome_ in enumerate(_ncu98):
+                if nome_ not in _cx98 or _cx98[nome_][1] is None:
+                    _ruins98.append(f'a coluna `{nome_}` da cura nao e categoria do §4 com personagens')
+                    continue
+                v_ = _vida98(hi_, nome_)
+                m_ = round(1 / (1 - _L98 * cura_ / v_), 2)
+                if nome_ == 'Ameaça':
+                    _pam98 = max(_pam98, m_ * _cx98[nome_][1])
+                if k_ >= len(_vs98) or abs(_vs98[k_] - m_) > 1e-9:
+                    _ruins98.append(f'do nivel {lo_} ao {hi_}, na `{nome_}`, a cura de Reacao multiplica o fator por '
+                                    f'{m_} (vida {v_}), e a peca publica {_vs98[k_] if k_ < len(_vs98) else "?"}')
+        if _i_ci98 is not None and int(_lcu98[0][0]) != _nv98[_i_ci98]:
+            _ruins98.append(f'a tabela da cura comeca no nivel {_lcu98[0][0]}, e a `Circulação` chega no {_nv98[_i_ci98]}')
+        if abs(float(_mam98.group(1).replace(',', '.')) - round(_pam98, 1)) > 1e-9:
+            _ruins98.append(f'a `Ameaça` com a `Circulação` exige {round(_pam98, 1)} pessoa pela tabela, e o aviso '
+                            f'publica {_mam98.group(1)}')
+
+    # 4. as frases que seguram a regra, e as marcas no mesmo atributo da peca 11
+    for rot_, rx_ in (('a cura de acao da `Energia Reversa` no empate',
+                       r'a vida dele ÷ a luta ÷ as ações, arredondando para baixo, no lugar de uma ação'),
+                      ('a cura de Acao Bonus da `Circulação` virando Reacao',
+                       r'A cura de Ação Bônus da `Circulação` vira Reação, quando ele sofre dano'),
+                      ('o Rescaldo do inimigo', r'A cota fica, pelo §6\.2, e as ações dele viram golpes de corpo'),
+                      ('o fator que nao desconta a Reacao', r'O fator não desconta a Reação de que ele abre mão')):
+        if not re.search(rx_, TXT):
+            _ruins98.append(f'a peca parou de publicar {rot_}')
+    _mm98 = re.search(r'As marcas são as da peça 11, com a (\w+)\.', TXT)
+    if not _mm98 or _mm98.group(1) != _mf98.group(1):
+        _ruins98.append(f'a peca 26 le as marcas com a {_mm98.group(1) if _mm98 else "?"}, e a formula da peca 11 '
+                        f'le a {_mf98.group(1)}')
+
+    if _ruins98:
+        for r_ in _ruins98:
+            erro('9.8: ' + r_)
+    else:
+        print(f'  [x] a corrente fecha no {_ech98[0]} ({_ech98[1]} -> {_ech98[2]} -> {_ech98[3]}) e custa {_ept98} '
+              f'pontos de atributo; sem a regra de marco fecharia no {_sem98}')
+        print(f'  [x] a regravacao no nivel {_nvc98} gasta {_pe98} PE = {_custo98:.1f}, e a tabela reconstroi na '
+              f'rodada e espalhada nas {len(_nom98)} categorias, que cabem')
+        print(f'  [x] a cura de Reacao reconstroi nas {len(_lcu98)} linhas, a partir do nivel da `Circulação`, e a '
+              f'`Ameaça` exige {round(_pam98, 1)} pessoa')
+        print(f'  [x] as marcas leem a {_mf98.group(1)} da peca 11, e as frases do Rescaldo e das duas curas estao na peca')
+
+
+# --------------------------------------------------------------------------
 bloco('10. O PAPEL — ele redistribui a base, e os seis fecham em 1,000')
 # --------------------------------------------------------------------------
 # O §3.4 publica duas tabelas: a dos seis papeis, com o que cada um ganha e

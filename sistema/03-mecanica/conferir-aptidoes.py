@@ -696,10 +696,21 @@ else:
             print(f'  [x] as {_K} reaberturas saem so com {_attr} {_quem[0]} do nivel {_desde}, e so '
                   f'{_pagam[0]} paga')
 
-        # 7. o inimigo: a frase diz o que a peca 26 faz hoje
-        if 'A peça 26 não fala de Rescaldo' in _sreg and re.search(r'Rescaldo', _T26r):
-            erro('a peca 26 passou a falar de Rescaldo, e a `Regravação` diz que ela nao fala — '
-                 'a pergunta do inimigo precisa ser relida')
+        # 7. o inimigo. v0.242: a peca 26 §6.4 virou a dona, e as duas pecas tem de concordar —
+        # a 11 aponta para la, a 26 tem a secao, e as marcas das duas leem o mesmo atributo
+        _fecho = re.search(r'A `Regravação` no inimigo fechou na v[\d.]+, na peça 26 §6\.4', _sreg)
+        _sec26 = re.search(r'^#### O Rescaldo do inimigo, e a `Regravação`$', _T26r, re.M)
+        _mar26 = re.search(r'As marcas são as da peça 11, com a (\w+)\.', _T26r)
+        if not _fecho and re.search(r'Rescaldo', _T26r):
+            erro('a peca 26 fala de Rescaldo, e a `Regravação` nao aponta para ela — a pergunta do '
+                 'inimigo precisa ser relida')
+        elif _fecho and not _sec26:
+            erro('a `Regravação` diz que o inimigo mora na peca 26 §6.4, e a secao dele sumiu de la')
+        elif _fecho and (not _mar26 or _mar26.group(1) != _attr):
+            erro(f'a peca 26 le as marcas do inimigo com a {_mar26.group(1) if _mar26 else "?"}, e a '
+                 f'formula da `Regravação` le a {_attr}')
+        elif _fecho:
+            print(f'  [x] a peca 26 §6.4 carrega a `Regravação` no inimigo, com as marcas pela {_attr}')
 
         # 8. as duas copias do livro: o capitulo de aptidoes e o ponteiro no Fundamento
         _lf = re.search(rf'Com `metade da sua {_attr} \+ metade da sua maestria` marcas, cada metade '

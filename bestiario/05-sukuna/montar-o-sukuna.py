@@ -46,7 +46,15 @@ CATEGORIA = 'Calamidade'
 TAMANHO = 'Médio'
 PAPEL_ESCOLHIDO = 'Artilheiro'
 # v0.233: os pontos livres, por decisao do Mizuki — nove: o orcamento meio a meio e o ponto de chefe na criacao
-COR = {'Força': 3, 'Constituição': 4, 'Inteligência': 2}
+COR = {'Força': 2, 'Constituição': 4, 'Inteligência': 6}
+# v0.242: a Destreza deixa de ser a obrigada pela Defesa da tabela, por decisão do Mizuki — "ele é rapido pra crl,
+# mas tem nada que amplifica isso". A Defesa cai junto, e o fator desce pela fórmula do desvio da peça 26 §6.4.
+DESTREZA = 4
+# v0.242: o traço `Rei das Maldições` — exceção declarada do Sukuna, por decisão do Mizuki. Ele devolve
+# os pontos que a corrente da `Regravação` e a `Extensão de Domínio` tiram das escolhas de atributo.
+REI_DAS_MALDICOES = 4
+# v0.242: as quatro aptidões dele que gastam escolha de marco, pela regra do §3.2 da peça 26
+APTIDOES = ('Energia Reversa', 'Circulação', 'Regravação', 'Extensão de Domínio')
 # v0.231: o braço empata se cair com duas rodadas de luta pela frente — decisão do Mizuki
 BRACO_RODADAS = 2
 
@@ -578,17 +586,51 @@ maestria = MAESTRIA_BASE + len([m for m in MARCOS_MAESTRIA if m <= NIVEL])
 if _base_orc:
     PONTOS_CRIACAO = NUM_PT[_base_orc.lower()]
 orcamento = max([p for nv_, p in zip(_nvs_orc, _pts_orc) if nv_ <= NIVEL], default=PONTOS_CRIACAO)
+# v0.242: uma aptidão por escolha de marco, pelo §3.2 — a de refino traz a dela, e a de atributo troca o ponto.
+# O gate de aptidão cobra o marco antes, e os gates de refino e de nível saem dos títulos da peça 11.
+import itertools
+_P11A = 'sistema/03-mecanica/11-aptidoes-e-refino.md'
+pega(P26, r'Cada uma das outras dá o `\+1` de atributo ou uma aptidão', 'a regra de marco do §3.2')
+_rf_orc = [int(x) for x in re.findall(r'`(\d+)`', re.search(r'\| refino do `meio a meio` \|([^\n]*)', _tab_orc).group(1))]
+_es_orc = [int(x) for x in re.findall(r'`(\d+)`', re.search(r'\| escolhas gastas em refino, acumuladas \|([^\n]*)', _tab_orc).group(1))]
+_de_refino = [a_ > (_es_orc[i_ - 1] if i_ else 0) for i_, a_ in enumerate(_es_orc)]
+GATE = {}
+for _apt in APTIDOES:
+    _tit = re.search(r'^### ' + re.escape(_apt) + r' · [^\n]*$', ler(_P11A), re.M)
+    if not _tit:
+        print(f'  !! ÂNCORA PERDIDA: o título da `{_apt}` na peça 11'); sys.exit(1)
+    _r = re.search(r'refino (\d+)', _tit.group(0)); _v = re.search(r'nível (\d+)', _tit.group(0))
+    _x = re.search(r'exige a `([^`]+)`', _tit.group(0))
+    GATE[_apt] = (int(_r.group(1)) if _r else 0, int(_v.group(1)) if _v else 0, _x.group(1) if _x else None)
+_ms_ate = [i_ for i_, m_ in enumerate(_nvs_orc) if m_ <= NIVEL]
+MELHOR = None
+for _perm in itertools.permutations(_ms_ate, len(APTIDOES)):
+    _onde = dict(zip(APTIDOES, _perm))
+    if all(_rf_orc[i_] >= GATE[a_][0] and _nvs_orc[i_] >= GATE[a_][1]
+           and (GATE[a_][2] is None or (GATE[a_][2] in _onde and _onde[GATE[a_][2]] < i_))
+           for a_, i_ in _onde.items()):
+        _custo = sum(1 for i_ in _perm if not _de_refino[i_])
+        if MELHOR is None or _custo < MELHOR[0]:
+            MELHOR = (_custo, {a_: _nvs_orc[i_] for a_, i_ in _onde.items()})
+if MELHOR is None:
+    print('  !! as quatro aptidões não cabem nos marcos do §3.2 com os gates da peça 11'); sys.exit(1)
+APT_EM_ATRIBUTO = MELHOR[0]
+orcamento = orcamento - APT_EM_ATRIBUTO + REI_DAS_MALDICOES
 PONTOS_MARCO = orcamento - PONTOS_CRIACAO
 
 dex_obrigada = base['defesa'] - 10 - base['protecao']
+DEX_FALTA = dex_obrigada - DESTREZA
 atrib_tecnica = base['acerto'] - maestria
 cd_confere = 8 + atrib_tecnica + maestria
 
 linha(f'  a maestria no nv{NIVEL}            {maestria:.0f}        base {MAESTRIA_BASE:.0f} + os marcos '
       f'{[m for m in MARCOS_MAESTRIA if m <= NIVEL]}')
 linha(f'  os marcos até o nv{NIVEL}          {len(marcos_ate)}        {marcos_ate}')
+linha(f'  as aptidões nos marcos         ' + ' · '.join(f'{a_} no {m_}' for a_, m_ in sorted(MELHOR[1].items(), key=lambda x: x[1])))
+linha(f'  o que elas tiram               {APT_EM_ATRIBUTO} escolha(s) de atributo — a de refino traz a aptidão junto, peça 26 §3.2')
+linha(f'  o `Rei das Maldições`          +{REI_DAS_MALDICOES} — exceção declarada do Sukuna, v0.242')
 linha(f'  o orçamento de atributo       {orcamento}       {PONTOS_CRIACAO} na criação (teto {CRIACAO_TETO} ali) '
-      f'+ {PONTOS_MARCO} dos {len(marcos_ate)} marcos (teto {ATRIB_TETO}) — peça 26 §3.2')
+      f'+ {PONTOS_MARCO} dos {len(marcos_ate)} marcos e do traço (teto {ATRIB_TETO}) — peça 26 §3.2')
 linha()
 linha(f'  Defesa {base["defesa"]} = 10 + Destreza + proteção {base["protecao"]}   ⟹  '
       f'DESTREZA OBRIGADA = {dex_obrigada}')
@@ -598,14 +640,14 @@ linha(f'  e a CD confere:  8 + {atrib_tecnica:.0f} + {maestria:.0f} = {cd_confer
       f'contra {base["cd"]} da TABELA   →  {"bate" if cd_confere == base["cd"] else "NÃO BATE"}')
 linha()
 # o que os dois obrigados custam: 3 na criação + o resto em marco
-custo_dex = CRIACAO_TETO + max(0, dex_obrigada - CRIACAO_TETO)
+custo_dex = min(DESTREZA, CRIACAO_TETO) + max(0, DESTREZA - CRIACAO_TETO)
 custo_tec = CRIACAO_TETO + max(0, atrib_tecnica - CRIACAO_TETO)
-marcos_gastos = max(0, dex_obrigada - CRIACAO_TETO) + max(0, int(atrib_tecnica) - CRIACAO_TETO)
+marcos_gastos = max(0, DESTREZA - CRIACAO_TETO) + max(0, int(atrib_tecnica) - CRIACAO_TETO)
 livre = orcamento - custo_dex - custo_tec
 linha(f'  {"o que cada obrigado custa":<34}{"na criação":>12}{"em marco":>10}{"total":>8}')
 linha('  ' + '-' * 64)
-linha(f'  {"Destreza (a Defesa manda)":<34}{min(dex_obrigada, CRIACAO_TETO):>12}'
-      f'{max(0, dex_obrigada - CRIACAO_TETO):>10}{custo_dex:>8}')
+linha(f'  {f"Destreza (a Defesa pede {dex_obrigada})":<34}{min(DESTREZA, CRIACAO_TETO):>12}'
+      f'{max(0, DESTREZA - CRIACAO_TETO):>10}{custo_dex:>8}')
 linha(f'  {"o atributo da técnica (o acerto)":<34}{min(int(atrib_tecnica), CRIACAO_TETO):>12}'
       f'{max(0, int(atrib_tecnica) - CRIACAO_TETO):>10}{custo_tec:>8}')
 linha('  ' + '-' * 64)
@@ -621,7 +663,7 @@ elif marcos_gastos == PONTOS_MARCO:
     linha(f'    compram {livre} de {orcamento}. A promessa é verdadeira e pequena.')
 
 # os pontos livres: escolha do Mizuki, conferida contra o orçamento e os tetos da peça 2
-_criacao_livre = PONTOS_CRIACAO - min(dex_obrigada, CRIACAO_TETO) - min(int(atrib_tecnica), CRIACAO_TETO)
+_criacao_livre = PONTOS_CRIACAO - min(DESTREZA, CRIACAO_TETO) - min(int(atrib_tecnica), CRIACAO_TETO)
 _marco_livre = PONTOS_MARCO - marcos_gastos
 # cada atributo se parte em criação (até o teto da criação) e marco: o que passa do teto
 # tem de sair de marco, e o total tem de caber nos dois bolsos juntos
@@ -638,12 +680,13 @@ linha(f'  {"fecham" if COR_FECHA else "NÃO FECHAM"}: {sum(COR.values())} de {li
 bloco('A FICHA — o que vai em cada célula do bloco')
 # ────────────────────────────────────────────────────────────────────────────
 tam = TAM[TAMANHO]
-defesa_final = d + tam['defesa']
+defesa_final = d + tam['defesa'] - DEX_FALTA
 linha(f'  cabeçalho     `{TAMANHO} maldição, grau especial · {CATEGORIA} · {PAPEL_ESCOLHIDO} · nível {NIVEL}`')
 linha()
 de_papel = ' {0:+d} do papel'.format(d - base['defesa']) if d != base['defesa'] else ''
 de_tam = ' {0:+d} do tamanho'.format(tam['defesa']) if tam['defesa'] else ''
-linha(f'  Defesa               {defesa_final}          {base["defesa"]} da TABELA{de_papel}{de_tam}')
+de_dex = ' −{0} da Destreza {1}'.format(DEX_FALTA, DESTREZA) if DEX_FALTA else ''
+linha(f'  Defesa               {defesa_final}          {base["defesa"]} da TABELA{de_papel}{de_tam}{de_dex}')
 linha(f'  Acerto               +{base["acerto"]}')
 linha(f'  CD                   {base["cd"]}')
 linha(f'  Refino               {base["refino"]}  (proteção +{base["protecao"]})')
@@ -658,14 +701,16 @@ linha()
 linha(f'  dano por rodada      {round(dm)}   — NÃO é célula: é `o golpe` × ações, e derivável não ganha célula')
 
 # ────────────────────────────────────────────────────────────────────────────
-bloco('A TÉCNICA REVERSA — a cura no lugar de uma ação, pelo empate da peça 26 §6.5')
+bloco('A ENERGIA REVERSA — no inimigo, a cura de ação é o empate da peça 26 §6.5')
 # ────────────────────────────────────────────────────────────────────────────
+# v0.242: a `Técnica Reversa` virou a `Energia Reversa` dele, por decisão do Mizuki — a mesma cura, com o nome do catálogo
 pega(P26, r'O inimigo que se cura empata em `\d+`, que é um terço da vida dele', 'o empate da cura do inimigo')
+pega(P26, r'a vida dele ÷ a luta ÷ as ações, arredondando para baixo, no lugar de uma ação', 'a cura de ação da `Energia Reversa` no inimigo')
 LUTA_REV = n(pega(P26, r'contra as `(\d+,\d+)` que a categoria promete', 'a luta que a categoria promete').group(1))
-CURA_RODADA = v / LUTA_REV
-CURA_ACAO = round(CURA_RODADA / ac)
+CURA_RODADA = round(v) / LUTA_REV                  # a vida como a ficha imprime ela
+CURA_ACAO = int(CURA_RODADA / ac + 1e-9)           # o que ele ganha desce, peça 1 §5.4 — a folga tira o resíduo do ponto flutuante
 linha(f'  gastar a rodada inteira empata em curar a vida ÷ a luta   {round(v)} ÷ {LUTA_REV:.2f} = {CURA_RODADA:.0f}')
-linha(f'  a Técnica Reversa troca UMA das {ac} ações                   {CURA_RODADA:.0f} ÷ {ac} = {CURA_ACAO}')
+linha(f'  a Energia Reversa troca UMA das {ac} ações                   {CURA_RODADA:.0f} ÷ {ac} = {CURA_ACAO}')
 linha(f'  ⟹  ela cura {CURA_ACAO} no lugar de uma ação — o empate: não ganha nem perde')
 
 # ────────────────────────────────────────────────────────────────────────────
@@ -755,6 +800,32 @@ LUTA_BRACO = n(pega(P26, r'contra as `(\d+,\d+)` que a categoria promete', 'a lu
 VIDA_BRACO = round(v / LUTA_BRACO * BRACO_RODADAS / ac)
 linha(f'  Quatro Braços                 o grupo tira {v / LUTA_BRACO:.0f} por rodada; um braço tira 1 das {ac} ações')
 linha(f'  a vida de um braço            {v / LUTA_BRACO:.0f} × {BRACO_RODADAS} rodadas ÷ {ac} ações = {VIDA_BRACO}   — empata se ele cai com {BRACO_RODADAS} rodadas pela frente')
+
+# ────────────────────────────────────────────────────────────────────────────
+bloco('A CORRENTE DA REGRAVAÇÃO — a cura de Reação, o custo na cota e as marcas, pela peça 26 §6.4 e §6.5')
+# ────────────────────────────────────────────────────────────────────────────
+MULT_CIRC = n(pega(P11, r'sobe para `([\d,]+) × a sua maior Classe` de PE\*\*, arredondando para baixo', 'o teto da `Circulação`').group(1))
+DADO_CIRC = int(pega(P11, r'os dados de cura são `d(\d+)` em vez de', 'o dado da `Circulação` na Ação Bônus').group(1))
+pega(P26, r'A cura de Ação Bônus da `Circulação` vira Reação, quando ele sofre dano', 'a cura de Reação do inimigo')
+pega(P26, r'A cota fica, pelo §6\.2, e as ações dele viram golpes de corpo', 'o Rescaldo do inimigo')
+_mf_reg = pega(P11, r'Com `metade da sua (\w+) \+ metade da sua maestria` marcas', 'a fórmula das marcas')
+pega(P26, r'As marcas são as da peça 11, com a ' + _mf_reg.group(1) + r'\.', 'as marcas do inimigo na peça 26')
+TETO_CIRC = math.floor(MULT_CIRC * MAIOR_CLS)
+CURA_REACAO = TETO_CIRC * (DADO_CIRC + 1) / 2
+MULT_CURA = 1 / (1 - LUTA * CURA_REACAO / round(v))
+CUSTO_REG = TETO_CIRC * CAMBIO_PE
+MARCAS = COR[_mf_reg.group(1)] // 2 + int(maestria) // 2
+pega(P26, r'fator novo = fator × o acerto do personagem ÷ \(o acerto − o que a Defesa ganha tira dele\)', 'a fórmula do desvio')
+_mpp = pega(P26, r'um ponto de Defesa move `(\d+)` pontos percentuais, e o personagem acerta alvo difícil em `(\d+)%`', 'quanto um ponto de Defesa move')
+PP_DEF, ACERTO_PC = int(_mpp.group(1)), int(_mpp.group(2))
+FATOR_DEX = ACERTO_PC / (ACERTO_PC + DEX_FALTA * PP_DEF)
+ENCONTRO_FINAL = PESSOAS * MULT_SEM * FATOR_REC * MULT_CURA * FATOR_DEX
+linha(f'  a cura de Reação              {TETO_CIRC}d{DADO_CIRC} = {CURA_REACAO:.1f}, quando ele sofre dano — o teto da `Circulação`: {MULT_CIRC} × Classe {MAIOR_CLS}')
+linha(f'  o fator                       1 ÷ (1 − {LUTA:.2f} × {CURA_REACAO:.1f} ÷ {round(v)}) = × {MULT_CURA:.3f}')
+linha(f'  regravar                      Ação Bônus e {TETO_CIRC} PE × {CAMBIO_PE} = {CUSTO_REG:.1f} da cota da rodada ({CUSTO_REG / dm:.0%} de {dm:.0f})')
+linha(f'  as marcas                     {_mf_reg.group(1)} {COR[_mf_reg.group(1)]} ÷ 2 + maestria {maestria:.0f} ÷ 2 = {MARCAS}, cada metade para baixo')
+linha(f'  a Defesa abaixo da tabela     −{DEX_FALTA}: o personagem acerta {ACERTO_PC}% → {ACERTO_PC + DEX_FALTA * PP_DEF}%, fator × {FATOR_DEX:.3f} — peça 26 §6.4, ao contrário')
+linha(f'  o encontro                    {PESSOAS} × {MULT_SEM:.2f} × {FATOR_REC:.2f} × {MULT_CURA:.3f} × {FATOR_DEX:.3f} = {ENCONTRO_FINAL:.1f} pessoas')
 
 # ────────────────────────────────────────────────────────────────────────────
 bloco('AS AÇÕES DELE — cada uma montada no orçamento DELA')
@@ -895,6 +966,9 @@ confere('os pontos livres fecham', COR_FECHA, ' · '.join(f'{k} {v_}' for k, v_ 
 confere('a Chama tem dois terços em dado', abs(_pct_ch - 2 / 3) < 0.05,
         f'`{_txt_ch}` = {CHAMA}  ·  {_pct_ch:.0%} em dado')
 confere('a Extensão cabe na cota', CUSTO_EXT < dm, f'{CUSTO_EXT:.1f} de {dm:.0f}  ·  golpe ligado {_med_ext:.0f}')
+confere('a Regravação cabe na rodada', CUSTO_REG < dm, f'{CUSTO_REG:.1f} de {dm:.0f}')
+confere('a Destreza não passa da que a Defesa pede', 0 <= DEX_FALTA, f'Destreza {DESTREZA}  ·  a Defesa da tabela pede {dex_obrigada}')
+confere('as quatro aptidões cabem nos marcos', MELHOR is not None, f'{APT_EM_ATRIBUTO} escolha(s) de atributo  ·  +{REI_DAS_MALDICOES} do traço')
 confere('o Santuário cabe no gate', REFINO_SANT >= GATE_SEM,
         f'refino {REFINO_SANT}  ·  gate {GATE_SEM}' + ('' if FATOR_DESVIO == 1 else f'  ·  desvio × {FATOR_DESVIO:.2f}'))
 confere('o Santuário cobre a luta', DURACAO >= LUTA, f'{DURACAO} rodadas  ·  luta {LUTA:.2f}')

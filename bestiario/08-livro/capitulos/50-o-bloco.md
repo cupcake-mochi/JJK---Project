@@ -87,7 +87,7 @@ Os cinco atributos do inimigo saem do mesmo orçamento de uma ficha de jogador.
 | **26–29** | `18` | `19` | `20` | `6` |
 | **30** | `20` | `21` | `20` | `6` |
 
-*`9` pontos na criação, com teto `3` em cada atributo. Em cada marco, `+1`, e mais `+1` nas escolhas que o `meio a meio` não gasta em refino, com teto `6`. O chefe, quem carrega `Intervenção`, começa com `10`.*
+*`9` pontos na criação, com teto `3` em cada atributo. Em cada marco, `+1`, e mais `+1` nas escolhas que o `meio a meio` não gasta em refino, com teto `6`. Cada uma dessas escolhas pode ser uma aptidão no lugar do ponto. O chefe, quem carrega `Intervenção`, começa com `10`.*
 
 <!-- FIM ATRIBUTOS -->
 

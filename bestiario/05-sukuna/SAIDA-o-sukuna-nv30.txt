@@ -133,7 +133,10 @@ OS ATRIBUTOS — eles não se escolhem: as três derivadas OBRIGAM eles
 ================================================================================================
   a maestria no nv30            4        base 1 + os marcos [10, 18, 26]
   os marcos até o nv30          7        [6, 10, 14, 18, 22, 26, 30]
-  o orçamento de atributo       21       10 na criação (teto 3 ali) + 11 dos 7 marcos (teto 6) — peça 26 §3.2
+  as aptidões nos marcos         Energia Reversa no 18 · Circulação no 22 · Regravação no 26 · Extensão de Domínio no 30
+  o que elas tiram               3 escolha(s) de atributo — a de refino traz a aptidão junto, peça 26 §3.2
+  o `Rei das Maldições`          +4 — exceção declarada do Sukuna, v0.242
+  o orçamento de atributo       22       10 na criação (teto 3 ali) + 12 dos 7 marcos e do traço (teto 6) — peça 26 §3.2
 
   Defesa 20 = 10 + Destreza + proteção 4   ⟹  DESTREZA OBRIGADA = 6
   acerto +10 = atributo + maestria 4         ⟹  ATRIBUTO DA TÉCNICA = 6
@@ -141,22 +144,22 @@ OS ATRIBUTOS — eles não se escolhem: as três derivadas OBRIGAM eles
 
   o que cada obrigado custa           na criação  em marco   total
   ----------------------------------------------------------------
-  Destreza (a Defesa manda)                    3         3       6
+  Destreza (a Defesa pede 6)                   3         1       4
   o atributo da técnica (o acerto)             3         3     6.0
   ----------------------------------------------------------------
-                                                         6    12.0
+                                                         4    10.0
 
-  ⟹  sobram 9.0 ponto(s) de 21 pra COR, e 5 ponto(s) de marco de 11.
+  ⟹  sobram 12.0 ponto(s) de 22 pra COR, e 8 ponto(s) de marco de 12.
 
-  os livres, escolhidos:  Força 3 · Constituição 4 · Inteligência 2
-  fecham: 9 de 9 pontos — 4 na criação (sobravam 4) e 5 em marco (sobrava 5)
+  os livres, escolhidos:  Força 2 · Constituição 4 · Inteligência 6
+  fecham: 12 de 12 pontos — 4 na criação (sobravam 4) e 8 em marco (sobrava 8)
 
 ================================================================================================
 A FICHA — o que vai em cada célula do bloco
 ================================================================================================
   cabeçalho     `Médio maldição, grau especial · Calamidade · Artilheiro · nível 30`
 
-  Defesa               20          20 da TABELA
+  Defesa               18          20 da TABELA −2 da Destreza 4
   Acerto               +10
   CD                   18
   Refino               10  (proteção +4)
@@ -170,10 +173,10 @@ A FICHA — o que vai em cada célula do bloco
   dano por rodada      404   — NÃO é célula: é `o golpe` × ações, e derivável não ganha célula
 
 ================================================================================================
-A TÉCNICA REVERSA — a cura no lugar de uma ação, pelo empate da peça 26 §6.5
+A ENERGIA REVERSA — no inimigo, a cura de ação é o empate da peça 26 §6.5
 ================================================================================================
   gastar a rodada inteira empata em curar a vida ÷ a luta   1620 ÷ 3.00 = 540
-  a Técnica Reversa troca UMA das 6 ações                   540 ÷ 6 = 90
+  a Energia Reversa troca UMA das 6 ações                   540 ÷ 6 = 90
   ⟹  ela cura 90 no lugar de uma ação — o empate: não ganha nem perde
 
 ================================================================================================
@@ -206,10 +209,20 @@ A EXTENSÃO DE DOMÍNIO E OS QUATRO BRAÇOS — a aptidão na cota, e o braço n
   Extensão de Domínio           1.5 × Classe 7 = 11 PE por rodada ligada × 5.14 = 56.5 da cota (14%)
   enquanto ligada               sem técnica; o golpe cai de 67 para `8d6 + 30` = 58
   anula o que encosta até       Classe 4 (Classe Passiva, Regra Própria ou feitiço) · dura até 10 rodadas
-  o ataque de corpo, sem técnica  Força 3 + maestria 4 = +7   — peça 1 §5: corpo a corpo lê a Força
+  o ataque de corpo, sem técnica  Força 2 + maestria 4 = +6   — peça 1 §5: corpo a corpo lê a Força
 
   Quatro Braços                 o grupo tira 540 por rodada; um braço tira 1 das 6 ações
   a vida de um braço            540 × 2 rodadas ÷ 6 ações = 180   — empata se ele cai com 2 rodadas pela frente
+
+================================================================================================
+A CORRENTE DA REGRAVAÇÃO — a cura de Reação, o custo na cota e as marcas, pela peça 26 §6.4 e §6.5
+================================================================================================
+  a cura de Reação              10d4 = 25.0, quando ele sofre dano — o teto da `Circulação`: 1.5 × Classe 7
+  o fator                       1 ÷ (1 − 3.00 × 25.0 ÷ 1620) = × 1.049
+  regravar                      Ação Bônus e 10 PE × 5.14 = 51.4 da cota da rodada (13% de 404)
+  as marcas                     Inteligência 6 ÷ 2 + maestria 4 ÷ 2 = 5, cada metade para baixo
+  a Defesa abaixo da tabela     −2: o personagem acerta 50% → 60%, fator × 0.833 — peça 26 §6.4, ao contrário
+  o encontro                    8 × 1.92 × 1.37 × 1.049 × 0.833 = 18.4 pessoas
 
 ================================================================================================
 AS AÇÕES DELE — cada uma montada no orçamento DELA
@@ -271,9 +284,12 @@ AS CONFERÊNCIAS
   [ok]  o golpe cabe na mão                         6 dados  ·  teto 8
   [ok]  a categoria tem `Intervenção`               `Calamidade` — de `Desastre` pra cima
   [ok]  o orçamento passa do piso                   14.9 pontos  ·  piso 3
-  [ok]  os pontos livres fecham                     Força 3 · Constituição 4 · Inteligência 2
+  [ok]  os pontos livres fecham                     Força 2 · Constituição 4 · Inteligência 6
   [ok]  a Chama tem dois terços em dado             `18d12 + 50` = 167  ·  70% em dado
   [ok]  a Extensão cabe na cota                     56.5 de 404  ·  golpe ligado 58
+  [ok]  a Regravação cabe na rodada                 51.4 de 404
+  [ok]  a Destreza não passa da que a Defesa pede   Destreza 4  ·  a Defesa da tabela pede 6
+  [ok]  as quatro aptidões cabem nos marcos         3 escolha(s) de atributo  ·  +4 do traço
   [ok]  o Santuário cabe no gate                    refino 10  ·  gate 10
   [ok]  o Santuário cobre a luta                    5 rodadas  ·  luta 3.00
   [ok]  o `Emboscador` não é o papel                ele não sobe de `Grande`

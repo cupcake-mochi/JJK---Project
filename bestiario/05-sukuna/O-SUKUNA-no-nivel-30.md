@@ -1,6 +1,6 @@
 # O Sukuna, remontado no nível 30
 
-*13 e 14/09/2026, da v0.229 à v0.233 do repositório.* **Nenhum número nasce neste arquivo:** *todos saem de `montar-o-sukuna.py`, e a saída inteira está em `SAIDA-o-sukuna-nv30.txt`.* **O `O-SUKUNA-no-rascunho-5.md` continua como o teste de 10/09, no nível 20, e é lá que mora a comparação com a mesa de 07/09.**
+*13 a 15/09/2026, da v0.229 à v0.242 do repositório.* **Nenhum número nasce neste arquivo:** *todos saem de `montar-o-sukuna.py`, e a saída inteira está em `SAIDA-o-sukuna-nv30.txt`.* **O `O-SUKUNA-no-rascunho-5.md` continua como o teste de 10/09, no nível 20, e é lá que mora a comparação com a mesa de 07/09.**
 
 ## O que mudou desde o rascunho 5
 
@@ -10,17 +10,20 @@
 | **Integridade** | igual à vida | **metade da vida** | peça 24 §3.3, v0.228 |
 | **o Santuário** | Intervenção sem preço, tratado como incompleta, raio `18 m` | **Expansão sem Barreiras**: raio `200 m`, `5` rodadas, Acerto garantido | peça 26 §6.4, v0.229 |
 | **a Chama Divina** | a rodada inteira repartida em `3` alvos, `90` cada | **`Recarga` pela regra nova: `2,5` golpes em cada alvo, `18d12 + 50`** | peça 26 §6.5, v0.230 |
-| **o encontro** | `8` pessoas | **`21,0` pessoas** | `8 × 1,92` da Expansão `× 1,37` da `Recarga` |
+| **o encontro** | `8` pessoas | **`18,4` pessoas** | `8 × 1,92` da Expansão `× 1,37` da `Recarga` `× 1,049` da cura de Reação `× 0,833` da Defesa |
 | **os papéis** | `Guardião` · `Apoio` | `Baluarte` · `Reforço` | triagem de nome da v0.224; o script parou de rodar ali |
 | **a Amplificação de Domínio** | anula toda técnica, sem custo | **a aptidão `Extensão de Domínio` da peça 11**, paga na cota | peça 26 §6.5, v0.231 |
 | **os Quatro Braços** | braço destrutível, sem vida | **`180` de vida por braço** | o empate com duas rodadas pela frente, v0.231 |
+| **a `Regravação`** | — | **a corrente inteira, com `5` marcas** | peça 26 §6.4, v0.242 |
+| **o `Rei das Maldições`** | — | **`+4` pontos de atributo**, exceção declarada | decisão do Mizuki, v0.242 |
+| **a Destreza** | `6`, a que a Defesa `20` da tabela pede | **`4`, e a Defesa cai para `18`** | ***decisão do Mizuki, v0.242:*** *"ele é rapido pra crl, mas tem nada que amplifica isso"*. O fator vai a `× 0,833`, pela fórmula do desvio do §6.4 lida ao contrário |
 
 ## As quatro escolhas, fechadas em 14/09
 
 | | a decisão | de onde sai o número |
 |---|---|---|
-| **os pontos livres** | **Força `3` · Constituição `4` · Inteligência `2`** — *na v0.233 são `9`: o orçamento meio a meio da v0.232 e o ponto de chefe na criação; na v0.230 eram `4`, e a escolha tinha sido Força `0`* | o script confere que fecham: `4` na criação e `5` em marco |
-| **a `Técnica Reversa`** | **cura `90` no lugar de uma ação** — *"essa métrica já tinha sido calculada anteriormente, use ela de base"* | o empate da peça 26 §6.5: a vida `1620` ÷ a luta de `3` rodadas ÷ `6` ações |
+| **os pontos livres** | **Força `2` · Constituição `4` · Inteligência `6`** — *na v0.242 são `12`: a corrente e a `Extensão de Domínio` tiram `3` escolhas de atributo, o `Rei das Maldições` devolve `4`, e a Destreza `4` solta `2`. Na v0.233 eram `9`, com Força `3` e Inteligência `2`* | o script confere que fecham: `4` na criação e `8` em marco e no traço |
+| **a `Energia Reversa`** | **cura `90` no lugar de uma ação** — *"essa métrica já tinha sido calculada anteriormente, use ela de base"*. Até a v0.241 se chamava `Técnica Reversa` | o empate da peça 26 §6.5: a vida `1620` ÷ a luta de `3` rodadas ÷ `6` ações |
 | **a `Chama Divina`** | **Explosão de `3 m` que só mira um oponente fora do Santuário, e todo mundo nos `200 m` dentro** — *"é um dano em área que só pode ser usado em um alvo"* | a Forma do manual na `Classe 4`; o dano é o da `Recarga` |
 | **o voto da barreira aberta** | **sai** | desde a v0.226 ele compraria o que o degrau já dá |
 
@@ -30,11 +33,11 @@
 >
 > *Maldição Média · **Calamidade** · `Artilheiro` · nível 30*
 >
-> **Defesa** `20` · **Acerto** `+10` · **CD** `18` · **Refino** `10` *(proteção `+4`)*
+> **Defesa** `18` · **Acerto** `+10` · **CD** `18` · **Refino** `10` *(proteção `+4`)*
 >
 > **Vida** `1620` · **Integridade** `810` · **Deslocamento** `9 m`
 >
-> **Força** `3` · **Destreza** `6` *(Iniciativa)* · **Constituição** `4` · **Inteligência** `2` · **Essência** `6`
+> **Força** `2` · **Destreza** `4` *(Iniciativa)* · **Constituição** `4` · **Inteligência** `6` · **Essência** `6`
 >
 > **Físico** treinado · **Vigor** — · **Intelecto** — · **Espírito** treinado
 >
@@ -42,9 +45,13 @@
 >
 > **Traços**
 >
-> **Quatro Braços.** Ele conjura e ataca no mesmo turno: dois braços fazem o Selo enquanto dois lutam, e a boca do abdômen recita sem prender a respiração. Cada braço é um alvo com Defesa `20` e `180` de vida, e destruir um tira `1` das ações múltiplas dele.
+> **Quatro Braços.** Ele conjura e ataca no mesmo turno: dois braços fazem o Selo enquanto dois lutam, e a boca do abdômen recita sem prender a respiração. Cada braço é um alvo com Defesa `18` e `180` de vida, e destruir um tira `1` das ações múltiplas dele.
 >
-> **Técnica Reversa.** No lugar de uma ação, ele cura `90` em si mesmo.
+> **Rei das Maldições.** Ele tem `4` pontos de atributo a mais do que a categoria dá.
+>
+> **Energia Reversa.** No lugar de uma ação, ele cura `90` em si mesmo. Como Reação, quando sofre dano, cura `25 (10d4)`.
+>
+> **Regravação.** Durante o Rescaldo, como Ação Bônus, a técnica volta a responder. Depois da quinta regravação, ele não abre o Santuário até o descanso longo.
 >
 > **Ações**
 >
@@ -64,12 +71,15 @@
 >
 > **1. Desmembrar Dobrado.** Ele faz um `Desmembrar` fora do turno.
 >
-> **2. Santuário Malévolo.** Ele abre o domínio sem fechar barreira, num raio de `200 m`, e o centro fica onde ele está. Por `5` rodadas, `Desmembrar` e `Clivar` acertam sem rolagem e sem Teste de Resistência em quem estiver dentro, e `Clivar` dispensa o alcance. Quem sai do raio sai do Acerto. O domínio acaba pelo tempo, pela disputa com outro domínio, pela concentração ou com ele em `0` de vida.
+> **2. Santuário Malévolo.** Ele abre o domínio sem fechar barreira, num raio de `200 m`, e o centro fica onde ele está. Por `5` rodadas, `Desmembrar` e `Clivar` acertam sem rolagem e sem Teste de Resistência em quem estiver dentro, e `Clivar` dispensa o alcance. Quem sai do raio sai do Acerto. O domínio acaba pelo tempo, pela disputa com outro domínio, pela concentração ou com ele em `0` de vida. Quando acaba, a técnica queima pelo resto da cena, e as ações dele viram golpes de corpo com o mesmo dano e `+6` para acertar.
 >
-> **3. Extensão de Domínio.** Ele se envolve numa camada fina de domínio sem técnica dentro, por até `10` rodadas. Ela anula o Acerto de uma Expansão, o ataque dele acerta independentemente da técnica do alvo, e o que encostar nela é anulado até `Classe 4`: uma Classe Passiva, uma Regra Própria ou um feitiço de Classe até `4`. Enquanto ela estiver de pé ele não usa a técnica, e as ações dele viram golpes de corpo. *Ataque corpo a corpo:* `+7` para acertar, alcance `1,5 m`, uma criatura. *Acerto:* `58 (8d6 + 30)` de dano de Concussão.
+> **3. Extensão de Domínio.** Ele se envolve numa camada fina de domínio sem técnica dentro, por até `10` rodadas. Ela anula o Acerto de uma Expansão, o ataque dele acerta independentemente da técnica do alvo, e o que encostar nela é anulado até `Classe 4`: uma Classe Passiva, uma Regra Própria ou um feitiço de Classe até `4`. Enquanto ela estiver de pé ele não usa a técnica, e as ações dele viram golpes de corpo. *Ataque corpo a corpo:* `+6` para acertar, alcance `1,5 m`, uma criatura. *Acerto:* `58 (8d6 + 30)` de dano de Concussão.
 
 *O bloco não imprime linha de `Pacto`: o único voto que sobrou é o da `Chama Divina`, e ele mora na ação.*
 
 ## O que este bloco ainda não tem
 
+- **O bloco tem `9` entradas nomeadas, uma acima da linha recomendada de chefe de fim de arco.** *O livro do Bestiário diz que passar da linha não desequilibra nada.*
+- **As `5` marcas batem com os cinco choques contra o Gojo** *que a §6.2 do rascunho da Expansão sem barreira registra.* **A contagem vem do rascunho, e não foi conferida de novo na obra.**
+- **A Destreza abaixo da tabela só devolve fator neste bloco.** *A peça 26 não tem essa regra, e ela entra na revisão dos inimigos.*
 - **A vida de braço é do Sukuna, e não regra da peça 26.** *O empate que deu `180` serve para qualquer inimigo com parte destrutível, e ninguém escreveu isso como regra.*

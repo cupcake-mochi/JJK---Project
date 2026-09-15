@@ -8,6 +8,100 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.242] — 15/09/2026
+
+**O inimigo passou a carregar a `Regravação`, com a corrente inteira do jogador.** *É o item 1 da fila, decidido em cinco rodadas.* **E as escolhas de marco do inimigo passaram a seguir a regra do jogador, a cura de Ação Bônus da `Circulação` virou Reação só no inimigo, e o Sukuna ganhou o traço `Rei das Maldições`.**
+
+### 1 · As decisões dele
+
+- **o inimigo carrega a `Energia Reversa`, a `Circulação` e a `Regravação`, pagas pelo §6.5** — *"a B é a melhor"*;
+- **a regra de marco vale para ele** — *"ele tem q escolher se pega atributo ou aptidão"*;
+- **a cura de Ação Bônus da `Circulação` vira Reação** — *"fica como uma mudança em comparação a player"*. O que ela custa é a Reação que ele deixa de usar;
+- **as marcas são as da peça 11, com a Inteligência.** *Uma rodada deixou o inimigo escolher entre a Essência e a Inteligência, e ele descartou isso na seguinte;*
+- **o Sukuna é exceção:** *o traço `Rei das Maldições` dá `+4` pontos de atributo, e com Força `2`, Destreza `4` e Inteligência `6` ele fica com `5` marcas* — *"ele ter 4 de DEX até faz sentido, q ele é rapido pra crl, mas tem nada que amplifica isso";*
+- **a `Técnica Reversa` do Sukuna é a `Energia Reversa` dele.**
+
+### 2 · A peça 26
+
+**§3.2.** *A escolha que o `meio a meio` gasta em refino traz uma aptidão junto. Cada uma das outras dá o ponto de atributo ou uma aptidão, e a tabela passou a ser o teto.*
+
+**§6.4, a subseção `O Rescaldo do inimigo, e a Regravação`.** *O Rescaldo vale para ele: a cota fica, pelo §6.2, e as ações viram golpe de corpo.* **A corrente fecha no nível `26`** *(a `Energia Reversa` no `18`, a `Circulação` no `22` e a `Regravação` no `26`)* **e custa `2` pontos de atributo.** *Sem a regra de marco ela fecharia no `22`.* **Regravar custa a Ação Bônus e `10` PE, que são `51,4` da cota da rodada no nível 30:**
+
+| | `Ameaça` | `Desastre` | `Catástrofe` | `Calamidade` |
+|---|---|---|---|---|
+| da cota da rodada | `93%` | `25%` | `17%` | `13%` |
+| espalhada na luta | `31,2%` | `8,5%` | `5,7%` | `4,2%` |
+
+*Reabrir não mexe no fator: o `1,92` já supõe o domínio de pé a luta inteira.*
+
+**§6.5, as duas curas da corrente.** *A cura de ação da `Energia Reversa` é o empate da troca ruim: a vida ÷ a luta ÷ as ações.* **A cura de Reação multiplica o fator** *por `1,49` ou `1,47` na `Ameaça`, `1,09` no `Desastre`, `1,06` na `Catástrofe` e `1,04` na `Calamidade`.* **Uma `Ameaça` com a `Circulação` exige `1,5` pessoa, e isso fica como aviso.**
+
+### 3 · O que a verificação mudou antes de escrever
+
+**Um agente cético conferiu as sete afirmações da primeira rodada, com o sim dele.** *Gastou `147,5k` tokens. Duas se confirmaram, cinco ficaram pela metade, e nenhuma caiu inteira.* **Quatro coisas mudaram por causa dele:**
+
+- *o `8` de entradas nomeadas do livro do Bestiário é linha recomendada, e não teto;*
+- *o peso do custo se conta espalhado na luta, como o §6.5 faz, e a rodada só dá o teto;*
+- *a Expansão de inimigo não precisa ser `Intervenção`: no Sukuna isso é escolha do bloco, e um inimigo genérico reabre na mesma luta;*
+- *a cura de Ação Bônus da `Circulação` não tinha porta no §6.5.*
+
+### 4 · A ordem das escolhas de refino
+
+***Pergunta dele:*** *"Não é só inverter?"* **As `35` ordens possíveis foram medidas contra os gates:**
+
+| refino nos marcos | a completa abre | a sem barreiras | o Sukuna, com a `Extensão` |
+|---|---|---|---|
+| **6, 14 e 22, a de hoje** | `14` | `26` | perde `3` pontos |
+| 6, 18 e 22 | `14` | `26` | perde `2`, e do nível 14 ao 17 o domínio cai para `2` rodadas e a Defesa `−1` |
+| 22, 26 e 30, a inversão | `18` | `30` | a `Extensão` não cabe |
+
+**Ficou a ordem de hoje, com o Sukuna como exceção.**
+
+### 5 · O Sukuna
+
+- **`22` pontos de atributo:** *os `21` do chefe, menos `3` escolhas de atributo gastas em aptidão, mais `4` do `Rei das Maldições`, que passou livre na triagem.* **Força `2` · Destreza `4` · Constituição `4` · Inteligência `6` · Essência `6`.**
+- **A `Energia Reversa` cura `90` no lugar de uma ação, e `25 (10d4)` como Reação.**
+- **Regravar custa `51,4`, `13%` da rodada dele.** *São `5` marcas.*
+- **A Destreza `4` põe a Defesa em `18`, dois pontos abaixo da tabela.** *O grupo acerta `60%` em vez de `50%`, e o fator vai a `× 0,833`, pela fórmula do desvio do §6.4 lida ao contrário.* **Tirar os dois pontos da Força ou da Constituição mantinha a Defesa em `20`, e ele recusou:** *"n faz sentido o sukuna ter 0 de força".*
+- **O encontro foi de `21,0` para `18,4` pessoas**, *com o `× 1,049` da cura de Reação e o `× 0,833` da Defesa.* **O golpe de corpo foi de `+7` para `+6`.**
+- **O bloco tem `9` entradas nomeadas**, *uma acima da linha recomendada.*
+
+> **As `5` marcas batem com os cinco choques contra o Gojo que a §6.2 do rascunho da Expansão sem barreira registra.** *A contagem vem do rascunho, e não foi conferida de novo na obra.*
+
+> **⚠ A primeira rodada do script deu `89` de cura, e não `90`.** *A vida sai de `1890 ×` o fator do papel e fica um pouco abaixo de `1620`, e o "para baixo" cortava a diferença.* **O script passou a ler a vida como a ficha imprime ela**, *e a cura voltou a `90`.*
+
+### 6 · Os validadores e o arnês
+
+**A `9.8` do `conferir-bestiario.py` recomputa a regra inteira.** *Ela lê os gates nos títulos da peça 11, o refino e as escolhas do §3.2, o teto e o dado da `Circulação`, a maior Classe da peça 18, o câmbio da peça 5 §4, a vida e o dano da linha do manual, e o fator da `Intervenção`.* **Nos níveis 25 e 30 ela refaz o nível em que a corrente fecha, a leitura sem a regra de marco, o custo na rodada e espalhado, a tabela da cura, o aviso da `Ameaça` e o atributo das marcas.**
+
+**A checagem 7 do `conferir-aptidoes.py` foi reescrita.** *A peça 11 aponta para a peça 26, a peça 26 tem a subseção, e as duas leem as marcas com o mesmo atributo.*
+
+**O arnês rodou numa cópia isolada, com a base verde.** *As `17` perturbações acenderam pelo motivo certo, os dois contra-testes ficaram verdes, e a cópia voltou verde depois de restaurada.* **O script do Sukuna ganhou três conferências:** *a `Regravação` cabe na rodada, as quatro aptidões cabem nos marcos, e a Destreza não passa da que a Defesa da tabela pede.*
+
+### 7 · O livro do Bestiário
+
+**A nota de atributos do capítulo do bloco ganhou uma frase:** *"Cada uma dessas escolhas pode ser uma aptidão no lugar do ponto."* **Ela sai do `gerar-atributos.py`.** *Os dois PDFs foram refeitos, e o `conferir-voz.py --estrito` passa.*
+
+### Alterado
+
+- **Peça 26:** *o §3.2, a linha das aptidões no §6, a subseção nova no §6.4, as duas curas no §6.5 e a linha `9.8` no §7.*
+- **Peça 11:** *a frase do inimigo no fim da `Regravação`.*
+- **`conferir-bestiario.py`:** *a checagem `9.8`.* **`conferir-aptidoes.py`:** *a checagem 7.*
+- **`bestiario/05-sukuna/`:** *o `montar-o-sukuna.py`, a `SAIDA-o-sukuna-nv30.txt` e o `O-SUKUNA-no-nivel-30.md`.*
+- **Livro do Bestiário:** *o `gerar-atributos.py`, o capítulo `50-o-bloco.md` e os dois PDFs.*
+- **`ESTADO-ATUAL`:** *o item 7 da fila aponta para esta versão, e entrou o item 8.* **`README` e `LEIA-ME`:** *a versão.*
+
+### Continua aberto
+
+- **Rever os inimigos e o máximo de cada um.** *É o item 8 da fila, adiado por ele.*
+- **O livro do Bestiário não publica a regra da Expansão de inimigo**, *e o texto já supõe que ela existe.* *Achado do agente.*
+- **A peça 26 não diz que Destreza abaixo da que a Defesa da tabela pede devolve fator.** *No Sukuna a fórmula do desvio do §6.4 foi aplicada ao contrário, e a regra geral entra no item 8.*
+- **No worktree, o `conferir-repositorio.py` reprova em dois avisos de `finalizado/livro/`.** *A pasta está no `.gitignore` e só existe na pasta principal.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, seção *"Onde estamos, e o que falta"*.
+
+---
+
 ## [0.241] — 15/09/2026
 
 **O rascunho da Expansão sem barreira deixou de dizer que o cap. `266` chama de "altíssimo risco" a manobra do Sukuna contra o Yuji.** **E o `Remate` ficou decidido sem mudança.** **E, no repositório da ficha, o `B19` foi testado no Sheets e as seis chaves que a v0.240 deixou abertas foram conferidas contra o livro.**

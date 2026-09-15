@@ -564,7 +564,7 @@ E "mais fácil depois do primeiro" sem teto é a espiral da exaustão com o sina
 
 **O contador segura antes do PE em todo Caminho, para quem tem Inteligência baixa.** *As quatro reaberturas só saem com Inteligência `6` do nível `26` em diante, e só o Evocador e o Emanador têm PE para elas.*
 
-> **A `Regravação` no inimigo fica em aberto.** *A peça 26 não fala de Rescaldo, e o Sukuna faz a mesma manobra na obra.* **É decisão do Mizuki.**
+> **A `Regravação` no inimigo fechou na v0.242, na peça 26 §6.4.** *Ele carrega a corrente inteira, com os gates e os marcos do jogador, e paga a regravação na cota.* **As marcas são as desta tabela, e só nele a cura de Ação Bônus da `Circulação` vira Reação.**
 
 ## 6.5. As três anti-domínio, e a `Extensão de Domínio` ao lado delas
 

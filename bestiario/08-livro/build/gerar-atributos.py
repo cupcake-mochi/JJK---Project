@@ -144,8 +144,8 @@ for a, b in marcos:
     out.append('| **%s** | `%d` | `%d` | `%s` | `%d` |'
                % (rot, pontos(a), pontos_chefe(a), linhas[a]['Defesa'], destreza_obrigada(a)))
 out += ['', '*`9` pontos na criação, com teto `3` em cada atributo. Em cada marco, `+1`, e mais `+1` '
-        'nas escolhas que o `meio a meio` não gasta em refino, com teto `6`. O chefe, quem carrega `Intervenção`, '
-        'começa com `10`.*']
+        'nas escolhas que o `meio a meio` não gasta em refino, com teto `6`. Cada uma dessas escolhas pode ser '
+        'uma aptidão no lugar do ponto. O chefe, quem carrega `Intervenção`, começa com `10`.*']
 
 cap = ler(CAP)
 if MARCA not in cap:

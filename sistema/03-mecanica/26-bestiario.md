@@ -80,6 +80,10 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 
 *Antes do nível 6 são os nove da criação, e os dez do chefe. As escolhas gastas em refino saem da peça 11 §3: a curva menos o refino que o marco dá de graça, e uma escolha gasta não volta quando a curva bate no teto.* **A invocação da peça 15 §3.3 continua com o `+1` do marco só, porque o ritmo dela é o do dono.**
 
+> **As escolhas de marco seguem a regra do jogador, pela peça 11 §3.** *A que o `meio a meio` gasta em refino dá `+1` de refino e uma aptidão. Cada uma das outras dá o `+1` de atributo ou uma aptidão, e quem monta escolhe.* **A tabela conta todas como atributo, então ela é o teto:** *cada aptidão tomada numa escolha de atributo tira `1` ponto da linha.* **E o gate de aptidão cobra o marco antes de a gateada abrir, como no jogador.**
+
+***Decisão do Mizuki, v0.242:*** *"ele tem q escolher se pega atributo ou aptidão".* **Até a v0.241 a peça não contava quantas aptidões o inimigo carrega.**
+
 > **O chefe começa com dez pontos na criação, e não nove.** *Chefe é quem carrega `Intervenção` — `Desastre`, `Catástrofe` e `Calamidade`. O teto de `3` na criação e o de `6` continuam.*
 
 ***Decisão do Mizuki, v0.233:*** *"vai ser na criação da ficha ao invés de começar com 9 pontos, começa com 10. É um bônus que sim, faz diferença, mas calcular tanto encima dele é trabalho extra demais, é um ponto q pode ir em 5 atributos diferentes".* **O molde é o do Draw Steel, em que o `Leader` e o `Solo` ganham `+1` no maior atributo** — *e são os monstros com `Villain Action`, que é o que a `Intervenção` é aqui* (`bestiario/04-fase-1/fila/MEDIDA-o-atributo-do-monstro.md`).
@@ -337,7 +341,7 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 | ele tem | de onde sai |
 |---|---|
 | refino | a curva do `meio a meio`, peça 11 §3 |
-| aptidões e Passivas | o catálogo da peça 11, o mesmo que o jogador usa |
+| aptidões e Passivas | o catálogo da peça 11, o mesmo que o jogador usa, e uma por escolha de marco, pelo §3.2 |
 | técnica, com Fundamento | o manual, quando ele é feiticeiro ou maldição de técnica |
 | Legado, ferramenta, objeto | as peças 13, 16 e 21, quando a ficção pedir |
 
@@ -453,6 +457,31 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 | nv `22` | `9` | `+0` | `× 1,00` |
 
 *O desvio mexe na Defesa, na duração e no raio do domínio, e em nada mais: o refino não entra no acerto, na CD nem na vida.* **A duração sobe junto, e ela já cobria a luta.**
+
+#### O Rescaldo do inimigo, e a `Regravação`
+
+***Decisão do Mizuki, v0.242: o inimigo carrega a corrente inteira do jogador.*** *A `Energia Reversa`, a `Circulação` e a `Regravação` saem do catálogo da peça 11, com os gates e os marcos de lá, e se pagam pelo §6.5.*
+
+**O Rescaldo vale para ele como vale para o jogador:** *quando o domínio acaba, de qualquer jeito, a técnica queima pelo resto da cena.*
+
+> **A cota fica, pelo §6.2, e as ações dele viram golpes de corpo.** *O acerto passa a ler o atributo com que ele bate, e o que era técnica sai junto, inclusive uma `Recarga` de técnica.* **A cota escrita é a mesma, e a entregue cai.**
+
+**O domínio dele cobre a luta desde o gate, pela conta desta seção**, *então o Rescaldo só pega quando o domínio cai antes: a barreira quebrada por fora, a corrida ou a concentração.*
+
+**A corrente fecha no nível `26` para o inimigo:** *a `Energia Reversa` no `18`, a `Circulação` no `22` e a `Regravação` no `26`.* **Ela custa `2` pontos de atributo**, *os das escolhas do `18` e do `26`; a do `22` é de refino, e a aptidão vem com ela.* **Antes do `18` nenhum marco do `meio a meio` tem o refino que a `Energia Reversa` pede.**
+
+> *Sem a regra de marco do §3.2 ela fecharia no `22`, com a `Circulação` e a `Regravação` no mesmo nível.*
+
+**Regravar custa a Ação Bônus e o teto da `Circulação`, na cota da rodada em que ele regrava.** *É a porta da aptidão, com o câmbio de `5,14` por PE, e o teto da rodada vale para ela como vale para as outras.*
+
+| a regravação no nível 30 · `10` PE = `51,4` | `Ameaça` | `Desastre` | `Catástrofe` | `Calamidade` |
+|---|---|---|---|---|
+| da cota da rodada | `93%` | `25%` | `17%` | `13%` |
+| espalhada na luta de `3,00` | `31,2%` | `8,5%` | `5,7%` | `4,2%` |
+
+*A segunda linha é a conta que o §6.5 usa para uma aptidão ligada uma rodada só.* **As quatro categorias cabem na rodada.**
+
+**As marcas são as da peça 11, com a Inteligência.** *A tabela mora lá, e o inimigo só alcança a linha do nível 26 ao 30.* **Reabrir não mexe no fator:** *o `1,92` já supõe o domínio de pé a luta inteira, e uma reabertura só devolve o encontro ao tamanho que foi cobrado.*
 
 ### 6.5 O catálogo do jogador na ficha do inimigo
 
@@ -589,6 +618,25 @@ o fator = [disparos × aquela razão + (luta − disparos)] ÷ luta
 
 > *Os raios são os quatro primeiros degraus da escada de esfera do manual, e crescem `9,00 ×` do nível 2 ao 30 — o mesmo crescimento dos dez dragões do D&D 2024, do Jovem ao Ancião. A cobertura, as formas e a resolução por Teste de Resistência saíram do projeto do Bestiário, que mediu cada uma, e a última foi martelada pelo Mizuki em 11/09/2026.*
 
+#### A `Energia Reversa` e a `Circulação` — as duas curas da corrente
+
+> **No inimigo, a cura de ação da `Energia Reversa` é o empate da troca ruim logo abaixo:** *a vida dele ÷ a luta ÷ as ações, arredondando para baixo, no lugar de uma ação.* **Ela não cobra nada**, *porque curar o empate não ganha nem perde.*
+
+***Decisão do Mizuki, v0.242:*** *"Deixa a cura da ação bônus virar reação, fica como uma mudança em comparação a player."*
+
+> **A cura de Ação Bônus da `Circulação` vira Reação, quando ele sofre dano.** *O dado continua `d4`, e o teto continua o da `Circulação`.* **É a diferença para o jogador, e é de propósito:** *a Reação que cura não serve para o ataque de oportunidade, o `Bloquear`, o confronto de Expansão nem a anti-domínio.*
+
+**Ela não gasta ação, então a porta é a da vida efetiva, e ela multiplica o fator.** *Com uma cura por rodada, a luta de `L` rodadas vira `L ÷ (1 − L × cura ÷ vida)`.*
+
+| a Reação, uma vez por rodada | cura | `Ameaça` | `Desastre` | `Catástrofe` | `Calamidade` |
+|---|---|---|---|---|---|
+| do nível 22 ao 25 · `9d4` | `22,5` | `× 1,49` | `× 1,09` | `× 1,06` | `× 1,04` |
+| do nível 26 ao 30 · `10d4` | `25` | `× 1,47` | `× 1,09` | `× 1,06` | `× 1,04` |
+
+> **⚠ Uma `Ameaça` com a `Circulação` exige `1,5` pessoa.** *É aviso, e não trava.*
+>
+> **O fator não desconta a Reação de que ele abre mão.** *O `Bloquear` é neutro por construção, pela peça 23, e o ataque de oportunidade só acontece se alguém sair do alcance.* **A troca fica declarada, e não cobrada.**
+
 #### As duas trocas ruins, declaradas e não proibidas
 
 ***Decisão do Mizuki:*** *"não tem problema não valer a pena, às vezes o combate tem uma pessoa só."* **As duas ficam medidas e liberadas, no molde do §4.7 — a peça mede, mostra, e o mestre escolhe.**
@@ -620,6 +668,7 @@ o fator = [disparos × aquela razão + (luta − disparos)] ÷ luta
 | **7.1b** | **a Expansão de inimigo tem os gates do jogador, e a sem barreiras não muda o preço.** Os gates publicados são os do manual; no nível do gate a duração pela curva do `meio a meio` cobre a luta que a categoria promete, e o multiplicador abaixo dele é recalculado; a sem barreiras usa o mesmo `1,92`; a tabela do desvio de refino reconstrói da proteção da peça 11 e do §3.4; e a alavanca de manter o tamanho dividindo o dano não pode voltar |
 | **9.5** | **as prontas cabem na criação, a Destreza e o atributo de ataque delas são os que a tabela pede, e o livro é o que os scripts geram.** *Desde a v0.234; o ataque e os marcos, desde a v0.235.* O arranjo soma os nove pontos do §3.2, dez no chefe, com teto `3`; os pontos de marco declarados somam, em cada nível, o que o §3.2 dá, sem passar do teto de lá; em cada nível da faixa a Destreza dá a Defesa da tabela e o atributo de ataque dá o acerto com a maestria da peça 1 §2, e o chefe fica no máximo um ponto acima da curva, que é a diferença entre as duas linhas do §3.2; o `±2` do papel fica por fora; e os quatro `gerar-*.py` do livro do Bestiário, rodados com `--conferir`, devolvem os capítulos publicados. *O capítulo das prontas passou da v0.224 à v0.233 sem os papéis que o gerador já punha, com todos os validadores verdes* |
 | **9.7** | **a `Recarga` come o turno, bate `2,5` golpes em cada alvo e se paga no fator.** O multiplicador vezes a banda do golpe do Bestiário dá a faixa publicada; os disparos saem do `d6` e da luta; a tabela do fator reconstrói das pessoas e das ações do §4 com a mesa do `Guia do Mestre`; a medição de campo é a da `MEDIDA` do Bestiário; o exemplo dos dados reconstrói da regra dos dois terços em `d12`; a frase do erro de travessia não volta; e o preço da Melhoria usa a maior Classe que cabe |
+| **9.8** | **a corrente da `Regravação` no inimigo.** O marco em que ela fecha e os pontos que ela custa reconstroem da tabela do §3.2 e dos gates nos títulos da peça 11, e a leitura sem a regra de marco tem de dar outro nível; o custo da regravação reconstrói do teto da `Circulação`, da maior Classe da peça 18, do câmbio da peça 5 §4, da linha do manual e do fator da `Intervenção`, na rodada e espalhado na luta, e cabe na rodada nas quatro categorias; a tabela da cura de Reação reconstrói do dado e do teto da `Circulação` e da vida da linha do manual, começando no nível em que a `Circulação` chega; o aviso da `Ameaça` sai da tabela; e as marcas leem o atributo da fórmula da peça 11 |
 
 ### 7.1 As quarenta e duas perturbações, em cópia isolada
 
