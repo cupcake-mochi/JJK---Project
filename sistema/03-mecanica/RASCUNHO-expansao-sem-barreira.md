@@ -97,7 +97,7 @@
 
 **A técnica queima depois da Expansão, mesmo que o domínio não tenha se formado** (cap. `130` p. `9`; cap. `179` p. `11`), **e energia reversa não encurta isso** (cap. `227` p. `3`).
 
-**O Gojo e o Sukuna contornam destruindo a gravação da técnica no cérebro e curando com energia reversa** — *dano cerebral que fica, até não conseguirem mais expandir* (cap. `230` p. `10`–`11`). *O Sukuna repetiu a manobra contra o Yuji, chamada de altíssimo risco* (cap. `266`).
+**O Gojo e o Sukuna contornam destruindo a gravação da técnica no cérebro e curando com energia reversa** — *dano cerebral que fica, até não conseguirem mais expandir* (cap. `230` p. `10`–`11`). *O Sukuna repetiu a manobra contra o Yuji depois de julgá-la arriscada demais, com o cérebro ainda sob o efeito do `Vazio Infinito`* (cap. `266`).
 
 ### 1.10 Como se obtém a Expansão, e a sem barreira
 
@@ -491,7 +491,7 @@
 | **o Gojo e o Sukuna destroem a gravação da técnica no cérebro com energia e curam com energia reversa** | cap. `226` p. `14`–`17` |
 | **e não conseguem fazer isso e curar o corpo ao mesmo tempo** — *foi o que atrasou o Sukuna em um centésimo de segundo no 5º choque, e custou a luta* | cap. `229` p. `11` |
 | **o dano no cérebro acumula até impedir a Expansão:** o Gojo parou depois de cinco vezes | cap. `230` p. `10`–`11` |
-| **o Sukuna repetiu a manobra contra o Yuji, descrita como de altíssimo risco** | cap. `266` |
+| **o Sukuna repetiu a manobra contra o Yuji** — *depois de julgá-la arriscada demais, com o cérebro ainda sob o efeito do `Vazio Infinito`* | cap. `266` |
 | **o jackpot do Hakari repõe energia e técnica, e deixa abrir de novo** | cap. `186`–`187` |
 | **o Kenjaku separou técnicas por técnica de barreira**, e uma sobreviveu ao Rescaldo — *teoria do Kusakabe* | cap. `269` |
 

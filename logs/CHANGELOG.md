@@ -8,6 +8,35 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.241] — 15/09/2026
+
+**O rascunho da Expansão sem barreira deixou de dizer que o cap. `266` chama de "altíssimo risco" a manobra do Sukuna contra o Yuji.** **E o `Remate` ficou decidido sem mudança.** **E, no repositório da ficha, o `B19` foi testado no Sheets e as seis chaves que a v0.240 deixou abertas foram conferidas contra o livro.**
+
+### 1 · O cap. `266` no rascunho
+
+**A §1.9 e a tabela da §6.8 do `RASCUNHO-expansao-sem-barreira.md` diziam que o Sukuna repetiu contra o Yuji a manobra de destruir a gravação da técnica e curar com energia reversa, "chamada de altíssimo risco".** *No capítulo, o narrador diz que o cérebro dele ainda sofre o efeito do `Vazio Infinito`, e o Sukuna julga arriscado demais curar; mais adiante, usa o método do Gojo mesmo assim e recupera a técnica.* **As duas passaram a dizer isso.**
+
+- **As outras três citações do cap. `266` procedem:** *a saída do Rescaldo com dano que fica, na rodada 5, e o Domínio Simples e a Cesta Oca de Vime, na §6.4.* **O "em segundos" do Domínio Simples vem do cap. `206`.**
+- **A fonte é secundária.** *O wiki do Fandom bloqueou, e as traduções são imagem. O texto sai de dois resumos que batem entre si, e um deles cita a narração.* **O sangramento no nariz do Sukuna ficou de fora:** *a ligação dele com o Gojo é leitura de fã.*
+- **A peça 11 e a `Regravação` não mudam**, *porque se apoiam no cap. `230`.*
+
+### 2 · Decidido: o `Remate` fica como está
+
+**A conferência do catálogo no repositório da ficha levantou duas frases que pareciam se contradizer.** *O capítulo 40 do livro e o `partE.js` dizem que só a Liberação Máxima passa dos pontos da Classe em dano contra um alvo só; o `partF.js` diz que o `Remate`, com +25% contra alvo abaixo de metade da vida, empurra o feitiço comum acima deles.*
+
+**Decisão do Mizuki:** *"remate n aumetna dados, ele aumenta em 25% o dano final, ent n tem oq mexer".* **Os pontos da Classe contam dados, e o `Remate` multiplica o dano que os dados deram.** *A Liberação com `Remate` chega a `112,5` na Classe 5 contra alvo ferido, acima do pico de `90`, e isso também fica.*
+
+**Nenhum texto do manual, do livro ou do catálogo mudou.** *O catálogo da ficha já escreve o limite em dados.*
+
+### 3 · No repositório da ficha
+
+- **O `B19` fechou, testado no Sheets.** *A temporária digitada acima da metade do máximo volta ao teto.* **O teste levantou cinco defeitos na volta pela planilha, e os cinco foram corrigidos:** *a largura de coluna, que estreitava a cada volta; a tabela de perícias da coluna AB da `DADOS`, que sumia; as alturas de linha; o texto com cara de número; e a pintura da `DADOS_INV`.*
+- **As seis chaves que a v0.240 deixou abertas agora seguem o livro, e a lista das não conferidas ficou vazia.** *É o `B20`.* **Os Legados tinham catorze entradas erradas ou faltando, e a progressão cortava a entrega e não trazia o XP.** *O `manual.txt` de lá foi reextraído do livro da v0.240, e o `conferir-catalogo.py` confere as seis nele.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, seção *"Onde estamos, e o que falta"*.
+
+---
+
 ## [0.240] — 15/09/2026
 
 **O Teste de Resistência treinado passou a somar a maestria na ficha de papel.** *É o `B14` do repositório da ficha, e ele fechou lá também, junto com o `B8`.* **E a planilha passou a prender a temporária digitada no teto de metade do máximo, que é o `B19`**, *ainda sem teste no Sheets.* **E onze títulos da Guilda deixaram de terminar a página com uma ou duas linhas da seção.** **E o capítulo 20 deixou de apontar para a tabela `Rotas de criação`, que saiu na v0.147.**
