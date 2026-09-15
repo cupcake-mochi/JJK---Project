@@ -1058,6 +1058,7 @@ Só a completa levanta barreira, e a Expansão sem Barreiras quando você escolh
 > Pelo resto da cena a sua técnica não responde, e você fica com o Classe 0, com o corpo e com o que não for técnica.
 > Isso é **preço**: acontece em todo uso, e você já sabia disso quando abriu.
 > Rescaldo e a exaustão do descanso não somam: são escadas diferentes, e esta aqui tem um degrau só.
+> A aptidão `Regravação`, no capítulo 12, *Aptidões e Refino*, acaba com o Rescaldo antes do fim da cena.
 
 ### Abrir sem barreira
 

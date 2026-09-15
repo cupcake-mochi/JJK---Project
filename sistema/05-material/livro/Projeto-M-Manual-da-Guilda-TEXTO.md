@@ -97,6 +97,7 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **Pontos de energia** (`PE`) | O combustível dos feitiços. PE por nível do Caminho × o seu nível. Numa ficha sem energia amaldiçoada a mesma sigla se lê **Pontos de Esforço**, e nenhuma regra pergunta qual das duas você tem | 1 |
 | **Integridade** | A vida da alma. `20 + (Essência + 5) × (nível − 1)`. Só volta com descanso longo | 1 |
 | **`Vida temporária`** | Anteparo, não vida. Gasta antes da vida real, não acumula, teto de metade da vida máxima, some no fim da cena | 1 |
+| **`Energia temporária`** | A mesma regra, com o PE: gasta antes do PE, não acumula, teto de metade do PE máximo, some no fim da cena | 1 |
 | **Proteção** | O que soma na Defesa: o uniforme que você veste, ou a energia com que você se cobre | 14 |
 | **Redução de Dano** | Desconto no dano que já passou pela Defesa. Não é a mesma coisa que proteção | 9 |
 | **Perícia** | Uma das vinte e três. Cada uma tem um atributo fixo. Sem treino você ainda tenta | 3 |
@@ -659,6 +660,14 @@ Ela não sobe a sua vida máxima, não conta para `Insistir`, e não é cura: qu
 Sem atributo e sem valor inicial: no nível 1 você tem o PE de um nível.
 
 > **Exemplo.** Mei, Vanguarda de nível 4: 5 × 4 = **20 de PE**. Nenhum atributo entra nessa conta.
+
+### Energia temporária
+
+O `Braseiro` e o `Trindade` dão **energia temporária**.
+
+> **Energia temporária segue a regra da vida temporária, com o PE no lugar da vida.** Ela é **gasta antes** do seu PE, **não acumula** — duas fontes, você fica com a maior —, tem **teto de metade do seu PE máximo**, e **some no fim da cena**.
+
+O mestre pode deixar ela atravessar para a cena seguinte, do mesmo jeito que a vida temporária.
 
 ### Integridade
 
@@ -2750,7 +2759,7 @@ E duas coisas que quase todo degrau daqui menciona:
 
 > **Nível 2: `Fagulha`.** Se você usou a ação de atacar neste turno, você pode lançar um feitiço de **Classe 0** como **ação bônus**. **E se algum dos seus socos acertou, esse feitiço é rolado com vantagem**, quando ele for um ataque.
 >
-> **Nível 11: `Braseiro`.** Quando o seu Classe 0 acerta, você ganha **`2` de energia temporária.** Ela nunca passa de `2` acumulados e some no fim da cena. *Energia temporária gasta como PE, e gasta primeiro.*
+> **Nível 11: `Braseiro`.** Quando o seu Classe 0 acerta, você ganha **`2` de energia temporária.** *A regra dela está no capítulo 1, em `Energia temporária`.*
 >
 > **Nível 19: `Labareda`.** O feitiço que você lança na ação bônus **pode ser de Classe 3 em vez de Classe 0**, e **de Classe 4 a partir do nível 21**, quando a `Classe 6` libera.
 > **Em troca, em todo turno:** você **abre mão do ataque extra** naquela ação de atacar, e **pelo menos um dos seus socos daquela ação tem de ter acertado.** *Se nenhum acertou, você não pode lançar o feitiço de Classe 3 ou 4 na ação bônus, só o Classe 0.*
@@ -4152,6 +4161,7 @@ Só a completa levanta barreira, e a Expansão sem Barreiras quando você escolh
 > Pelo resto da cena a sua técnica não responde, e você fica com o Classe 0, com o corpo e com o que não for técnica.
 > Isso é **preço**: acontece em todo uso, e você já sabia disso quando abriu.
 > Rescaldo e a exaustão do descanso não somam: são escadas diferentes, e esta aqui tem um degrau só.
+> A aptidão `Regravação`, no capítulo 12, *Aptidões e Refino*, acaba com o Rescaldo antes do fim da cena.
 
 ### Abrir sem barreira
 
@@ -4869,7 +4879,7 @@ O marco compra uma aptidão de qualquer escala, e o preço é o mesmo. Quem sepa
 
 Cada aptidão declara o próprio requisito, e ele está na linha dela no catálogo: nenhum, nível, refino, os dois juntos, outra aptidão, ou Origem.
 
-`Cortina` é a única que hoje exige outra aptidão: ela pede `Barreira Simples`, porque cortina é a barreira maior. As duas de kokusen são alternativas entre si, e nenhuma exige a outra.
+Três exigem outra aptidão, e nas três a exigida é a mesma coisa em tamanho menor: `Cortina` pede `Barreira Simples`, `Circulação` pede `Energia Reversa`, e `Regravação` pede `Circulação`. As duas de kokusen são alternativas entre si, e nenhuma exige a outra.
 
 ## Catálogo
 
@@ -4887,6 +4897,7 @@ Traço na coluna de Classe Passiva quer dizer que a entrada não tem uma. Traço
 | Projetar energia | sem requisito | — | o dano |
 | Energia Reversa | refino 7 e nível 13 | 3 | — |
 | Circulação | `Energia Reversa`, refino 8 | 3 | — |
+| Regravação | `Circulação` | 3 | — |
 | Kokusen Melhorado | refino 5 e nível 14 | — | vantagem no d100 |
 | Kokusen Constante | refino 5 | — | a chance no d100 |
 | Cesta Oca de Vime | sem requisito | 1 | — |
@@ -4966,6 +4977,20 @@ Recompor membro é a mesma aptidão fazendo a coisa mais difícil que a energia 
 > **Membro perdido.** Não tem regra neste livro, e isso é decisão: quem tira é o mestre ou um pacto, e as penalidades são as que a mesa combinar, do mesmo jeito que o d20 faz. Esta aptidão desfaz.
 
 **Curar outra pessoa continua fora daqui.** Quem alcança os outros é a Trilha `Sutura`, no nível 11 dela. Uma ficha com as duas recompõe o membro de outra pessoa, e isso é o degrau mais raro do material.
+
+### Regravação
+
+> **Regravação** — Ação Bônus, durante o seu Rescaldo. Gaste o teto inteiro da sua `Energia Reversa`, e o Rescaldo acaba: a sua técnica volta a responder. Nesse uso você não cura vida nenhuma.
+>
+> Cada uso deixa uma **marca**, e as marcas somem no descanso longo. Com `metade da sua Inteligência + metade da sua maestria` marcas, cada metade arredondando para baixo, você não abre Expansão de Domínio.
+>
+> Requisito: ter a `Circulação`. Classe Passiva 3.
+
+Quando o domínio acaba, a técnica queima pelo resto da cena: é o Rescaldo, do capítulo 9, *Fundamento*. Quem chega aqui destrói a gravação queimada com energia e refaz com energia reversa, e o estrago acumula até a Expansão não abrir mais.
+
+Ela só serve a quem abre Expansão de Domínio, e regravar é escolha. Sem regravar, o Rescaldo acaba com a cena, e na luta seguinte você abre de novo.
+
+> **Exemplo.** No nível 26, com Inteligência 5, você tem `2 + 2 = 4` marcas. Você abre a Expansão, regrava, e repete até a quarta regravação. Ela devolve a técnica, e a Expansão fica fechada até o descanso longo.
 
 ## Aptidões de kokusen
 
@@ -6800,4 +6825,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: 43d750ec14ea65adeebb37ba08dcdfc673dff4af -->
+<!-- fonte: 88c5656eeff0eab6f9b4c8ba3bb9f43c0117611f -->

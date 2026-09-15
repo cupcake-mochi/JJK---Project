@@ -614,3 +614,8 @@ th.num, td.num { text-align: center; font-variant-numeric: tabular-nums; }
 }
 .ix-p::after { content: target-counter(attr(href), page); }
 .ix-p + .ix-p::before { content: ", "; color: var(--cinza); }
+
+/* Tabela orfa: o build.py desenha, ve a tabela com o titulo numa pagina e a segunda
+   linha na outra, e poe esta classe no comeco da cadeia dela. Ver
+   `desenha_sem_tabela_orfa` la. */
+.quebra-antes { break-before: page; }

@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 14/09/2026, na v0.238 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e dez checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 14/09/2026, na v0.239 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e dez checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.238.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
+**Versão v0.239.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
 
 > ## 🆕 A v0.222 consertou duas coisas que a v0.221 deixou passar, e as duas são do §6.5 da peça 26
 >
@@ -917,7 +917,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/conferir-orcamento.py` | o somatório: todos os drenos de PE ao mesmo tempo, e se todo preço tem número |
 | `03-mecanica/conferir-xp.py` | a curva, o abismo que fecha, e se a regra ainda entrega o tempo que a Guilda pediu |
 | `03-mecanica/conferir-criacao.py` | **a instância, não a regra**: a ficha de exemplo da peça 8 contra as fórmulas, a proteção da aptidão gratuita, a Trilha na criação e se o catálogo citado existe |
-| `03-mecanica/conferir-ficha.py` | **o material contra a regra**: as 23 perícias, os 11 ofícios, os 5 Caminhos, as 15 Trilhas e as constantes do nível 2 que a ficha imprime, contra as peças donas |
+| `03-mecanica/conferir-ficha.py` | **o material contra a regra**: as 23 perícias, os 11 ofícios, os 5 Caminhos, as 15 Trilhas, as Famílias e as constantes do nível 2 que a ficha imprime, contra as peças donas |
 | `03-mecanica/conferir-invocacoes.py` | as **trinta e duas** checagens da peça 15, sem um número guardado dentro dele — e a busca exaustiva das 21.502 montagens que gastam o orçamento cheio no nível 30 |
 | `03-mecanica/17-catalogo-de-entregas.md` | **o índice das 102 entradas** — 68 entregas de Trilha, 20 degraus de Caminho e as 14 Manhas —, com a regra de contagem e o ponteiro de onde o texto de cada uma mora |
 | `03-mecanica/conferir-catalogo.py` | as **dezesseis** checagens da peça 17, e **o primeiro validador que sai da pasta**: ele lê os três `DESENHO-*.md` da raiz |
@@ -1205,7 +1205,7 @@ Quem pega a incompleta mais duas Passivas de Classe 2 gasta **dois terços da li
 
 **O Acerto acontece quando você abre, e de novo no começo de cada turno seu.** Um relógio só, o do portador — as alternativas punham o proc no turno dos alvos, e *"começo da rodada dos alvos"* não é momento definido num sistema de iniciativa individual. **E se algum dia o custo cair para Ação Bônus, a regra de ouro nº 6 já resolve sozinha:** *feitiço em Ação Bônus ou Reação só permite mais um de Classe 0 no turno*.
 
-**O Rescaldo** — a técnica queima quando o domínio acaba, de qualquer jeito: desfeito por vontade, expirado ou estilhaçado. Isso é **preço e não risco**, porque acontece em todo uso. `Queima` morreu na triagem (é Melhoria do manual, e causa dano), e `Empurrão` e `Estilhaço` também estão ocupados.
+**O Rescaldo** — a técnica queima quando o domínio acaba, de qualquer jeito: desfeito por vontade, expirado ou estilhaçado. Isso é **preço e não risco**, porque acontece em todo uso. `Queima` morreu na triagem (é Melhoria do manual, e causa dano), e `Empurrão` e `Estilhaço` também estão ocupados. **A porta de saída é a aptidão `Regravação`, desde a v0.239.**
 
 **A barreira cai em ~2,4 rodadas** de saída cheia contra uma duração de 3 a 5 — dá para derrubar de fora dentro do próprio tempo, que é o que faz a decisão de atacar ou esperar existir. Por dentro não quebra. O mestre pode declarar exceção.
 
@@ -1297,7 +1297,7 @@ A skill `redacao-acessivel-rpg` existe exatamente para a travessia de "nota de d
 
 **E as dez pendências que só a mesa responde são todas de nível 2** — Constituição virou obrigatória, alguém usa ação bônus, Intuição contra Percepção, se quatro perícias livres é escolha demais, se alguém rola Pontaria, se o extra da Origem é escolha de igual para igual, se a criação leva mesmo vinte a quarenta minutos, se um Legado por ficha é pouco, se três lutas de graça é o número certo, e se o descanso curto devia devolver alguma vida. **Nenhuma delas precisa das aptidões.**
 
-### A fila de agora — v0.238
+### A fila de agora — v0.239
 
 **Tudo aqui é DECISÃO TOMADA e CONSERTO NÃO FEITO.** *A v0.220 anotou e não consertou, por pedido dele.* **Quem pegar esta fila começa aplicando, e não decidindo.**
 
@@ -1309,13 +1309,7 @@ A skill `redacao-acessivel-rpg` existe exatamente para a travessia de "nota de d
 | 4 | ~~**O DejaVu Mono é defeito**~~ | ✅ **APLICADA na v0.236.** *As dezesseis faces do release `2.5.0` da IBM foram para a pasta de fontes do usuário, e os dois PDFs de cada livro foram refeitos.* **A checagem `7.6` passa sem aviso** |
 | 5 | ~~**`B18` vai ser corrigido**~~ | ✅ **FECHADO na v0.238, no clone `Claude 3`.** *O `Ficha.gs` sai da `ficha-v01`, a cópia da planilha viva, e os dezesseis validadores de lá passam. O clone `Ficha---RPG-JJK` da pasta `Ficha` aponta para o mesmo repositório e está parado no B10* |
 | 6 | **Revisar os anti-domínios** — *decisão dele na v0.226: "vamos revisar a mecânica de como esses anti domínios funcionam"* | as quatro da peça 11, e como elas se portam contra a `Expansão sem Barreiras`. *As saídas medidas estão no rascunho, seção 8.4* |
-| 7 | **O Rescaldo e a porta de saída dele** — *adiado por ele na rodada 2* | *destruir a gravação da técnica e curar com energia reversa, com dano que acumula — obra, cap. `226`–`230`; rascunho, seção 6.8* |
-
-**E uma que continua sendo pergunta, não decisão:**
-
-| | |
-|---|---|
-| **`B17`** | o campo `integridade_temp` existe na ficha e **nada no sistema concede integridade temporária**. *Ou alguma coisa deveria conceder, ou o campo sai da linha da Integridade.* **É desenho de sistema, e é dele** |
+| 7 | ~~**O Rescaldo e a porta de saída dele**~~ | ✅ **APLICADO na v0.239, como a aptidão `Regravação`, na peça 11 §6.** *Ação Bônus durante o Rescaldo: gasta o teto inteiro da `Energia Reversa`, a técnica volta, e fica uma marca.* **Com `metade da Inteligência + metade da maestria` marcas, a Expansão não abre até o descanso longo.** *Ficou em aberto a `Regravação` no inimigo, que é decisão dele* |
 
 **✅ As vinte divergências entre o manual e o livro fecharam na v0.227**, com o `Armado` redesenhado e a vida máxima tirada do dano de alma nos lugares que a v0.176 não alcançou. **As duas perguntas que ela deixou fecharam na v0.228:** *a Integridade do inimigo é metade da vida máxima, e o `Armado` não aceita gatilho no turno de quem armou.* **E a v0.229 deu ao inimigo a Expansão sem Barreiras**, *com os gates do jogador e o mesmo `1,92`, e remontou o Sukuna no nível 30.* **A v0.230 refez a `Recarga` de inimigo** — *ela ocupa as ações múltiplas e tira `2,5` golpes de cada alvo, medido contra três sistemas —, e fechou o bloco do Sukuna, que exige `21,0` pessoas.* **A v0.231 deu `18 m` ao `Artilheiro`, trocou a Amplificação de Domínio do Sukuna pela `Extensão de Domínio` da peça 11 e deu `180` de vida ao braço dele** — *e a v0.232 deu ao inimigo atributo no ritmo do `meio a meio` — `20` pontos no nível 30, em vez de `16` —, e a v0.233 fez o chefe começar com dez pontos na criação, com o Sukuna em Força `3` · Constituição `4` · Inteligência `2`.* **A v0.234 pôs nas prontas a Destreza que a Defesa pede, com o `±2` do papel entrando na Defesa por fora, e o capítulo 8 do livro do Bestiário voltou a bater com o gerador** — *ele tinha parado antes dos papéis, e a `9.5` agora roda os scripts do livro.* **A v0.235 fechou os três achados dela:** *o capítulo 6 ganhou a coluna do `Controlador` e do `Reforço`, a Hitotsume virou `Emboscador`, e cada pronta declara com que atributo ataca e onde entra cada ponto de marco.* **A v0.236 instalou as faces que faltavam do IBM Plex Mono**, *e os quatro PDFs dos dois livros saíram sem DejaVu.* **A v0.237 pôs a capa no Bestiário e deixou a caixa longa quebrar entre páginas**, *e a coluna única da Guilda foi de `259` para `254` páginas, com três curtas em vez de doze.* **A v0.238 fechou o `B18` no repositório da ficha.** *A lista é a oitava passada do `sistema/05-material/livro/ESTADO-revisao.md`, e a checagem `12` a lê — ela imprime a contagem dos três estados a cada rodada, então conte pela saída dela e não por esta linha.*
 

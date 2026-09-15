@@ -834,6 +834,110 @@ else:
         print('  o 20 natural continua escrito, e e dele que a peca 19 tira a taxa de 5%.')
 
 
+# --------------------------------------------------------------------------
+print('=' * 88)
+print('11. TEMPORARIOS — a vida e a energia temporarias seguem uma regra so (5.1.1 e 5.1.2)')
+print('=' * 88)
+# v0.239. A regra da energia temporaria morava dentro do `Braseiro` ("nunca passa
+# de 2 acumulados"), e o `Trindade` entrou no livro na v0.176 dando energia
+# temporaria sem teto nem relogio. Decisao do Mizuki: toda fonte temporaria nao
+# acumula, e o teto e' metade do maximo base. Nenhum numero mora aqui: a regra sai
+# da peca 1, o PE por nivel da peca 6, e as fontes, o nivel e a entrega sao lidos
+# do capitulo de Caminhos do livro, que e' onde as Trilhas estao escritas.
+_LIV = os.path.join(AQUI, '..', '05-material', 'livro', 'manual')
+def _abre(caminho):
+    try:
+        return open(caminho, encoding='utf-8').read()
+    except OSError:
+        return ''
+_T06 = _abre(os.path.join(AQUI, '06-caminhos-e-trilhas.md'))
+_C01 = _abre(os.path.join(_LIV, '10-como-jogar.md'))
+_C35 = _abre(os.path.join(_LIV, '35-caminhos-e-trilhas.md'))
+_GLO = _abre(os.path.join(_LIV, '07-glossario.md'))
+_s511 = TXT.split('### 5.1.1')[1].split('\n### ')[0] if '### 5.1.1' in TXT else ''
+_s512 = TXT.split('### 5.1.2')[1].split('\n## ')[0] if '### 5.1.2' in TXT else ''
+_mpe = _re.search(r'PE por nível: (\d+) no Emanador e no Evocador\. (\d+) na Vanguarda e no Guia\. '
+                  r'(\d+) no Bastião\.', _T06)
+if not (_s511 and _s512 and _mpe and _C01 and _C35 and _GLO):
+    erro('11: nao achei a secao 5.1.1 ou a 5.1.2 da peca 1, o PE por nivel da peca 6, ou os '
+         'capitulos 1 e 8 e o glossario do livro — sem os donos esta checagem nao confere nada')
+else:
+    _PE11 = {'Emanador': int(_mpe.group(1)), 'Evocador': int(_mpe.group(1)),
+             'Vanguarda': int(_mpe.group(2)), 'Guia': int(_mpe.group(2)),
+             'Bastião': int(_mpe.group(3))}
+    _mau11 = []
+
+    # 11a. a regra: as duas reservas dizem as mesmas tres coisas, na peca e no livro
+    _regra = {
+        'a peca, vida':      (_s511, ('não acumula', 'teto de metade da sua vida máxima', 'some no fim da cena')),
+        'a peca, energia':   (_s512, ('não acumula', 'tem teto de metade do seu PE máximo', 'some no fim da cena')),
+    }
+    def _plano11(txt):
+        # a regra mora em citacao que quebra linha: tira o `> ` de cada linha e o negrito
+        return ' '.join(_re.sub(r'\*\*', '', _re.sub(r'^\s*>\s?', '', txt, flags=_re.M)).split())
+    for _rot, (_txt, _frases) in _regra.items():
+        _plano = _plano11(_txt)
+        for _f in _frases:
+            if _f not in _plano:
+                _mau11.append(f'{_rot}: nao diz "{_f}"')
+    _cv = _C01.split('### Vida temporária')[1].split('\n### ')[0] if '### Vida temporária' in _C01 else ''
+    _ce = _C01.split('### Energia temporária')[1].split('\n### ')[0] if '### Energia temporária' in _C01 else ''
+    for _rot, _txt, _frases in (('o livro, vida', _cv, ('não acumula', 'teto de metade da sua vida máxima', 'some no fim da cena')),
+                                ('o livro, energia', _ce, ('não acumula', 'teto de metade do seu PE máximo', 'some no fim da cena'))):
+        _plano = _plano11(_txt)
+        for _f in _frases:
+            if _f not in _plano:
+                _mau11.append(f'{_rot}: nao diz "{_f}"')
+    for _termo, _f in (('Vida temporária', 'teto de metade da vida máxima'),
+                       ('Energia temporária', 'teto de metade do PE máximo')):
+        _lg = _re.search(rf'^\| \*\*`{_termo}`\*\* \|([^\n]*)$', _GLO, _re.M)
+        if not _lg or _f not in _lg.group(1) or 'não acumula' not in _lg.group(1):
+            _mau11.append(f'o glossario: a entrada `{_termo}` nao diz "{_f}" e "não acumula"')
+
+    # 11b. as fontes de energia temporaria, lidas do livro, contra a tabela da peca
+    _fontes, _cam, _tri = {}, None, None
+    for _l in _C35.split('\n'):
+        _mh = _re.match(r'^## (\S+)$', _l)
+        if _mh:
+            _cam = _mh.group(1)
+        _mt = _re.match(r'^### Trilha: (\S+)$', _l)
+        if _mt:
+            _tri = _mt.group(1)
+        if 'energia temporária' in _l:
+            _mn = _re.search(r'Nível (\d+): `([^`]+)`', _l)
+            _me = _re.search(r'`(\d+)`(?: de| PE\*\* como \*\*)\s*energia temporária', _l)
+            if not _mn or not _me:
+                _mau11.append(f'o livro cita energia temporaria numa linha que esta checagem nao le: {_l[:80]}')
+                continue
+            _fontes[_mn.group(2)] = (_cam, _tri, int(_mn.group(1)), int(_me.group(1)), 'acumulad' in _l)
+    _tab = {m.group(1): (m.group(2), m.group(3), int(m.group(4)), int(m.group(5)), int(m.group(6)), int(m.group(7)))
+            for m in _re.finditer(r'^\| `([^`]+)` \| (\S+), Trilha `([^`]+)` \| (\d+) \| `(\d+)` \| `(\d+)` \| `(\d+)` \|$',
+                                  _s512, _re.M)}
+    if not _fontes:
+        _mau11.append('nao achei nenhuma fonte de energia temporaria no livro — a leitura quebrou')
+    if set(_fontes) != set(_tab):
+        _mau11.append(f'o livro tem as fontes {sorted(_fontes)} e a tabela da peca tem {sorted(_tab)}')
+    for _nome, (_c, _t, _nv, _ent, _acum) in _fontes.items():
+        if _acum:
+            _mau11.append(f'o `{_nome}` voltou a falar em acumulados, e a regra diz que nao acumula')
+        if _nome not in _tab or _c not in _PE11:
+            continue
+        _pe = _PE11[_c] * _nv
+        _teto = _pe // 2                     # metade, e o que voce ganha desce (peca 1, 5.4)
+        _esp = (_c, _t, _nv, _ent, _pe, _teto)
+        if _tab[_nome] != _esp:
+            _mau11.append(f'a linha do `{_nome}` publica {_tab[_nome]} e o livro com a peca 6 dao {_esp}')
+        if _ent > _teto:
+            _mau11.append(f'o `{_nome}` entrega {_ent} e o teto no nivel {_nv} e {_teto}: o teto morde, '
+                          'e a peca diz que nao morde nenhuma')
+    for _r in _mau11:
+        erro('11: ' + _r)
+    if not _mau11:
+        print('  [x] a vida e a energia temporarias dizem nao acumula, metade do maximo e fim da cena,')
+        print('      na peca, no capitulo 1 do livro e no glossario')
+        for _nome, (_c, _t, _nv, _ent, _acum) in sorted(_fontes.items()):
+            print(f'  [x] `{_nome}` ({_c}, {_t}, nivel {_nv}): entrega {_ent}, teto {_PE11[_c] * _nv // 2}')
+
 print('=' * 88)
 if ERROS:
     print(f'>>> {len(ERROS)} PROBLEMA(S):')

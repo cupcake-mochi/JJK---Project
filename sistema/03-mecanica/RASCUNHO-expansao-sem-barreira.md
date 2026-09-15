@@ -516,7 +516,7 @@
 | **3** | **derrubar, na corrida** ✅ *decidido em 7.2* | *"O ferir o dono é só no caso que ocorre a corrida, ent acredito que nessa hora poderia ter testes de concentração talvez, contra a CD do atacante ou do oponente da corrida"* | ⏳ **proposta dele, para resolver:** *ferir o dono só derruba o domínio durante a corrida, e ali cabe um teste de concentração.* **Falta escolher contra qual CD — a de quem bateu, ou a do dono do outro domínio — e qual teste** |
 | **4** | **a duração** | *"A duração pode manter a do sistema atual"* | ✅ **decidido: a do sistema — metade do refino em rodadas, no mínimo uma** |
 | **5** | **quem não tem energia** ✅ *decidido em 7.1* | *"O Sem barreiras n pega a maki, a maki foi acertada salve engano pq o sukuna fez o pacto pra sacrificar o acerto garantido, posso estar errado e o fato q o acerto da expansão dele vai em objetos, valide isso"* | ⏳ **pedido de validação na obra.** *A seção 6.7 leu que o aberto pega a Maki porque corta a área inteira, objeto incluído.* **Ele lê que ela foi atingida por um voto que sacrificou o Acerto garantido, e pelos cortes que caem em objeto — e que o sem barreira, por regra, não pega quem não tem energia** |
-| **6** | **o Rescaldo** | *"O rescaldo a gente vai trabalhar depois"* | ⏸ **adiado por ele** |
+| **6** | **o Rescaldo** | *"O rescaldo a gente vai trabalhar depois"* | ✅ **decidido na v0.239: a aptidão `Regravação`**, na peça 11 §6 |
 | **7** | **o nome** | *"O nome pode por expansão sem barreiras"* | ✅ **decidido: `Expansão sem Barreiras`.** ⏳ **Falta a triagem do `conferir-nomes.py`** |
 
 ### 7.1 A validação da Maki

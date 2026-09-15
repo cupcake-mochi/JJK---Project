@@ -118,11 +118,11 @@ A linha passiva do marco sozinha conserta isso:
 
 > **⚠ E o que isto NÃO tem é régua, declarado.** *"Uma aptidão a mais" não converte em fatia, e foi ela que matou o `Repertório` na v0.81.* **A diferença é quem recebe:** lá a Trilha era vendida para qualquer ficha, e o número tinha de valer para quem nunca pega aptidão nenhuma. **Aqui quem leva a segunda aptidão é, por definição, quem já escolheu esse eixo cinco vezes.** *A régua continua não existindo; o que muda é que esta comparação não depende dela.*
 
-**A rota pura passa a precisar de 10 aptidões**, e o catálogo da seção 6 tem **12 que custam marco**. *Cabe, com duas de folga.* **E desde a v0.91 elas estão escritas com número**, quando a `Barreira Simples` e a `Cortina` fecharam.
+**A rota pura passa a precisar de 10 aptidões**, e o catálogo da seção 6 tem **13 que custam marco**. *Cabe, com três de folga.* **E desde a v0.91 elas estão escritas com número**, quando a `Barreira Simples` e a `Cortina` fecharam.
 
-> **⚠ A folga já foi uma, por uma versão.** *O `Kokusen` base saiu da lista de compráveis na v0.202 — ele virou regra de mundo, e o §6.6 registra por quê —, e o catálogo caiu para onze pagas contra dez picks.* **A v0.203 pagou a dívida com a `Circulação`**, e a folga voltou a duas. *Fica escrito porque a dívida foi declarada quando ela nasceu, e uma dívida declarada e paga sem registro vira número que ninguém sabe de onde veio.*
+> **⚠ A folga já foi uma, por uma versão.** *O `Kokusen` base saiu da lista de compráveis na v0.202 — ele virou regra de mundo, e o §6.6 registra por quê —, e o catálogo caiu para onze pagas contra dez picks.* **A v0.203 pagou a dívida com a `Circulação`**, e a folga voltou a duas. **A v0.239 acrescentou a `Regravação`, e ela foi a três.** *Fica escrito porque a dívida foi declarada quando ela nasceu, e uma dívida declarada e paga sem registro vira número que ninguém sabe de onde veio.*
 
-> **⚠ Só que a `Cortina` gasta DOIS marcos**, porque ela exige a `Barreira Simples`. *Uma rota pura que queira as duas usa `2` dos `10` picks para uma entrada só de catálogo.* **A folga de duas continua de pé, e ela some se alguém quiser as doze.**
+> **⚠ Só que a `Cortina` gasta DOIS marcos**, porque ela exige a `Barreira Simples`. *Uma rota pura que queira as duas usa `2` dos `10` picks para uma entrada só de catálogo.* **A folga de três continua de pé, e ela some se alguém quiser as treze.**
 
 ### A curva das três rotas, marco a marco
 
@@ -524,6 +524,48 @@ E "mais fácil depois do primeiro" sem teto é a espiral da exaustão com o sina
 >
 > **E quando as duas se encontram, o teto é o maior dos dois:** *o `Cerzido` da `Sutura` põe em `maior Classe` e a `Circulação` põe em `1,5 ×`.*
 
+### Regravação · Classe Passiva 3 · exige a `Circulação`
+
+> **Durante o seu Rescaldo, como Ação Bônus, gaste o teto inteiro da sua `Energia Reversa`, e o Rescaldo acaba.** *A técnica volta a responder, e naquele uso você não cura vida nenhuma.*
+> **Cada uso deixa uma marca, e as marcas somem no descanso longo.**
+> **Com `metade da sua Inteligência + metade da sua maestria` marcas, você não abre Expansão de Domínio**, cada metade arredondando para baixo.
+
+***Pedida pelo Mizuki na v0.239, e é a porta de saída do Rescaldo que a rodada 2 do rascunho da Expansão sem barreira tinha adiado.*** *O requisito, a Ação Bônus com o teto inteiro, o contador até o descanso longo e a fórmula das marcas são decisões dele.* **O nome também:** *`Regravação` foi escolhido entre quatro que passaram no `conferir-nomes.py`.*
+
+**Cada parte da regra sai de uma cena da obra**, e as fontes estão no rascunho, seção 6.8:
+
+| o que a obra mostra | fonte | a regra |
+|---|---|---|
+| a técnica queimada não volta com energia reversa comum | cap. `227` p. `3` | exige a `Circulação` |
+| o Gojo e o Sukuna destroem a gravação da técnica no cérebro e curam com energia reversa | cap. `226` p. `14`–`17` | gasta o teto inteiro |
+| e não conseguem fazer isso e curar o corpo ao mesmo tempo | cap. `229` p. `11` | naquele uso você não cura vida |
+| o dano no cérebro acumula até impedir a Expansão, e o Gojo parou depois de cinco vezes | cap. `230` p. `10`–`11` | as marcas |
+
+> **O gate de aptidão é legal aqui pela regra do §5.** *A `Circulação` serve sozinha, e a `Regravação` é a mesma energia reversa levada até a gravação da técnica.* **A corrente inteira custa três marcos, e ela só serve a quem abre Expansão de Domínio.**
+
+#### As marcas, em todos os casos
+
+**A `Regravação` chega no nível `22` para o especialista:** *a `Energia Reversa` no `14`, a `Circulação` no `18` e esta no marco seguinte.* **A maestria ali já é `3`, então a metade dela nunca dá zero.**
+
+| Inteligência | 0 | 1 | 2 | 3 | 4 | 5 | 6 |
+|---|---|---|---|---|---|---|---|
+| marcas, do nível 22 ao 25 | 1 | 1 | 2 | 2 | 3 | 3 | 4 |
+| marcas, do nível 26 ao 30 | 2 | 2 | 3 | 3 | 4 | 4 | 5 |
+
+**Com `N` marcas você abre a Expansão `N` vezes, que são `N − 1` reaberturas**, com uma regravação depois de cada abertura. *A última devolve a técnica e fecha a Expansão até o descanso longo.* **Inteligência `6` no nível `30` dá `5`, que é a conta do Gojo.**
+
+> **O arredondamento é o da peça 1 §5.4:** *cada metade desce sozinha, que é o lado que não te favorece.* **Somar antes de dividir daria uma marca a mais com Inteligência ímpar, do nível 22 ao 25.**
+
+> **Regravar é escolha.** *Sem regravar, o Rescaldo acaba com a cena, e a luta seguinte abre de novo.* **Com uma marca só, a regravação troca as Expansões do resto do dia pela técnica de volta nesta cena.**
+
+#### Quem o contador segura
+
+**O PE do dia paga no máximo duas reaberturas no Bastião, três na Vanguarda e no Guia, e quatro no Evocador e no Emanador.** *É o poço inteiro gasto em domínio, com os dois respiros entre as três lutas de graça da peça 10: cada reabertura custa o teto da regravação mais os `6 ×` a maior Classe de abrir.*
+
+**O contador segura antes do PE em todo Caminho, para quem tem Inteligência baixa.** *As quatro reaberturas só saem com Inteligência `6` do nível `26` em diante, e só o Evocador e o Emanador têm PE para elas.*
+
+> **A `Regravação` no inimigo fica em aberto.** *A peça 26 não fala de Rescaldo, e o Sukuna faz a mesma manobra na obra.* **É decisão do Mizuki.**
+
 ## 6.5. As três anti-domínio, e a `Extensão de Domínio` ao lado delas
 
 *Escritas na v0.29, depois que a Expansão ganhou regra no manual v7.7.* **Eram quatro até a v0.165.**
@@ -796,7 +838,7 @@ As outras duas quebram nas pontas: com `2 ×` você se defende uma vez e acabou 
 
 **A Restrição Celestial pelo ramo da Maki não tem energia amaldiçoada — nenhuma, não pouca.** *Então ela não tem aptidão nem refino: tem **Bênçãos** e **Lapidação**, a mesma máquina com outra métrica.* **A regra está na peça 9 §5, onde ela devia estar desde a v0.39.**
 
-### A contagem: treze das catorze morrem, e a que sobra não tem conteúdo
+### A contagem: catorze das quinze morrem, e a que sobra não tem conteúdo
 
 | # | aptidão | o que ela gasta | sobrevive sem energia? |
 |---|---|---|---|
@@ -812,9 +854,10 @@ As outras duas quebram nas pontas: com `2 ×` você se defende uma vez e acabou 
 | 10 | `Energia Reversa` | o nome | **não** |
 | 11–12 | `Kokusen Melhorado` · `Kokusen Constante` | energia aplicada no impacto | **não** |
 | 13 | `Circulação` | a energia reversa, que é energia | **não** |
-| 14 | `Aptidão Própria` | nada — ela é **formato**, e não conteúdo | **sim, e é a única** |
+| 14 | `Regravação` | a energia reversa, e a gravação da técnica | **não** |
+| 15 | `Aptidão Própria` | nada — ela é **formato**, e não conteúdo | **sim, e é a única** |
 
-**Uma de catorze, e é a que não diz o que faz.** *Espelhar entrada por entrada nunca foi uma escolha pior: é impossível, e a razão é estrutural — este catálogo inteiro é construído em cima do recurso que aquela Origem não tem.* **A pergunta some, e o que fica no lugar dela é uma lista própria com tamanho derivado.**
+**Uma de quinze, e é a que não diz o que faz.** *Espelhar entrada por entrada nunca foi uma escolha pior: é impossível, e a razão é estrutural — este catálogo inteiro é construído em cima do recurso que aquela Origem não tem.* **A pergunta some, e o que fica no lugar dela é uma lista própria com tamanho derivado.**
 
 *As duas conferidas na fonte, porque as duas pareciam candidatas:* **o kokusen é energia amaldiçoada aplicada no impacto dentro de um milionésimo de segundo, e a `Pétala` cobre o usuário de energia — é a energia que revida, não o corpo.** *A Maki ganha energia amaldiçoada mais tarde na obra, depois da morte da Mai; a Origem daqui modela o estado de energia zero, que é o do Toji do começo ao fim.*
 
@@ -871,11 +914,11 @@ As outras duas quebram nas pontas: com `2 ×` você se defende uma vez e acabou 
 
 ### O tamanho da lista é derivado, e são catorze — não doze
 
-**Ela não escolhe o próprio tamanho.** *O §3 desta peça fixa que a rota pura de Refino precisa de **dez** aptidões — sete marcos, com os três últimos levando duas —, e o catálogo de aptidões tem doze pagas com duas de folga, mais as duas gratuitas do refino `1`.* **A rota pura de Lapidação é a mesma rota com outro nome, e ela herda a MESMA forma: duas gratuitas na Lapidação `1`, e doze pagas com a mesma folga de duas.**
+**Ela não escolhe o próprio tamanho.** *O §3 desta peça fixa que a rota pura de Refino precisa de **dez** aptidões — sete marcos, com os três últimos levando duas —, e o catálogo de aptidões tem treze pagas com três de folga, mais as duas gratuitas do refino `1`.* **A rota pura de Lapidação é a mesma rota com outro nome, e ela herda a MESMA derivação: duas gratuitas na Lapidação `1`, e doze pagas com duas de folga.**
 
 > **Catorze Bênçãos: `cobrir-se` e `estímulo muscular` grátis na Lapidação `1`, doze compradas com marco.** *A forma espelhava o catálogo de aptidões espaço por espaço, mesmo o conteúdo não espelhando quase nada.* **Mais a `Bênção Própria`, que é a única entrada que espelha de verdade** — ela é formato, e formato atravessa.
 
-> **⚠ Os dois lados ficaram desencontrados por uma versão, e vale saber por quê.** *O `Kokusen` base saiu da lista de compráveis na v0.202 e a Restrição Celestial não tem contraparte dele — kokusen é energia amaldiçoada aplicada no impacto, e aquela rota não tem energia nenhuma.* **A v0.203 fechou o vão pelo outro lado, com a `Circulação`**, e as duas voltaram a doze pagas. *O que sempre espelhou não foi a lista: foi a derivação, e as duas se medem contra os mesmos dez picks da rota pura.*
+> **⚠ Os dois lados ficaram desencontrados por uma versão, e vale saber por quê.** *O `Kokusen` base saiu da lista de compráveis na v0.202 e a Restrição Celestial não tem contraparte dele — kokusen é energia amaldiçoada aplicada no impacto, e aquela rota não tem energia nenhuma.* **A v0.203 fechou o vão pelo outro lado, com a `Circulação`**, e as duas voltaram a doze pagas. *O que sempre espelhou não foi a lista: foi a derivação, e as duas se medem contra os mesmos dez picks da rota pura.* **A v0.239 abriu o vão de novo, pelo lado do feiticeiro:** *a `Regravação` levou as aptidões a treze pagas, e as Bênçãos ficam em doze.* **É o caso que o aviso do fim desta seção prevê: o catálogo do feiticeiro cresce, a folga cresce junto, e o piso de `10` não se move.**
 
 > **⚠⚠ Este parágrafo dizia o contrário até a v0.122, e ele era verdade quando foi escrito.** *Ele dizia: "o marco perde um dos três eixos, para as duas rotas que não escrevem Fundamento — o `Leque` compra `+1 feitiço e uma Passiva`, e as duas coisas são do Fundamento. Sobram `Corpo` e `Lapidação`, e a linha de graça perde o `+1 espaço de feitiço`, que também não tem onde cair."*
 >
@@ -1292,6 +1335,8 @@ O motivo de "por cena" não servir: o acúmulo só começa a partir do **segundo
 
 Com as três de kokusen, o catálogo fica em **catorze entradas** — doze da obra mais a `Kokusen Constante` mais a Aptidão Própria —, dentro da faixa de doze a quinze.
 
+> **Hoje são quinze, no teto da faixa.** *O `Kokusen` base saiu na v0.202, a `Circulação` entrou na v0.203 e a `Regravação` na v0.239.* **A próxima aptidão passa da faixa, e a faixa precisa ser revista antes dela.**
+
 ### O Limiar — mecânica à parte, e o cardápio precisa dizer o tamanho
 
 *Decidido depois da v0.26.* Vem do dossiê, seção 2: **gatilho de ficção antes da rolagem**, roubado do PbtA e do FitD. Aqui ele é **mecânica separada, e quem declara é o mestre** — um gancho com cardápio, e o kokusen é só um dos lugares que o citam.
@@ -1314,7 +1359,7 @@ E os dois **correm em sentidos opostos**: a vantagem é auto-regulada e dá pouc
 
 **Nota de método, registrada e não resolvida:** o dossiê defende o gatilho de ficção *contra* a discricionariedade — *"é mais arbitrável por cinco mestres do que 'o mestre decide se pede um teste'"*. A escolha aqui foi a outra, e o `arquitetura.md` a sustenta: *"discricionariedade na ficção é o trabalho do mestre e não atravessa mesas"*. O Limiar acontece uma vez e não fica na ficha. **Vai para o playtest junto com a contagem de lutas**, que é a mesma aposta.
 
-### O catálogo fechado — catorze entradas, uma rota
+### O catálogo fechado — quinze entradas, uma rota
 
 | # | aptidão | gate | o refino escala |
 |---|---|---|---|
@@ -1329,9 +1374,10 @@ E os dois **correm em sentidos opostos**: a vantagem é auto-regulada e dá pouc
 | 9 | **Cortina** | exige a `Barreira Simples` | a vida dela: `20 ×` |
 | 10 | **Energia Reversa** | Classe Passiva 3 · refino 7, nível 13 | **nada** — o teto é `maior Classe`, e `1d8` de cura por PE |
 | 11 | **Circulação** | Classe Passiva 3 · exige a `Energia Reversa`, refino 8 | **nada** — o teto vai a `1,5 × maior Classe` |
-| 12 | **Kokusen Melhorado** | refino 5, nível 14 | vantagem no d100 |
-| 13 | **Kokusen Constante** | refino 5 | a chance, `3 ×` |
-| 14 | **Aptidão Própria** | Classe Passiva 1 ou 2, **uma vez na ficha** | conforme o que for escrito |
+| 12 | **Regravação** | Classe Passiva 3 · exige a `Circulação` | **nada** — gasta o teto da `Circulação` inteiro |
+| 13 | **Kokusen Melhorado** | refino 5, nível 14 | vantagem no d100 |
+| 14 | **Kokusen Constante** | refino 5 | a chance, `3 ×` |
+| 15 | **Aptidão Própria** | Classe Passiva 1 ou 2, **uma vez na ficha** | conforme o que for escrito |
 
 > **O `Kokusen` base saiu desta tabela na v0.202: ele é regra de mundo e não ocupa vaga.** *As duas de melhoria dele continuam sendo aptidão como qualquer outra, e o §6.6 registra o porquê.*
 
@@ -1342,7 +1388,7 @@ E os dois **correm em sentidos opostos**: a vantagem é auto-regulada e dá pouc
 > **Destravado na v0.28.** A Expansão tem regra no manual v7.7, então as quatro anti-domínio — Domínio Simples, Pétala, Cesta Oca de Vime e Extensão de Domínio — já podem ser escritas com número. **É a próxima coisa da fila**, e o que elas medem agora existe: Acerto por rolagem na incompleta, Acerto que acontece na completa, barreira de `50 × metade do refino` e duração de `metade do refino` em rodadas.
 
 - **O que cada uma das catorze faz, com número**, e o gate e o teto de refino das que estão marcadas acima.
-- ~~**O catálogo das Bênçãos**, e se ele espelha o das aptidões entrada por entrada ou tem lista própria.~~ **RESPONDIDO na v0.116 e corrigido na v0.117, e está na seção 6.8:** *o conteúdo não espelha — **treze das catorze aptidões são construídas em cima da energia amaldiçoada** —, mas a FORMA espelha: **catorze Bênçãos, duas grátis na Lapidação `1` e doze pagas**, igual ao catálogo de aptidões.* **O conteúdo das doze pagas continua esperando a Técnica Marcial; o tamanho, a métrica, as duas gratuitas e o que fica de fora não esperam mais.**
+- ~~**O catálogo das Bênçãos**, e se ele espelha o das aptidões entrada por entrada ou tem lista própria.~~ **RESPONDIDO na v0.116 e corrigido na v0.117, e está na seção 6.8:** *o conteúdo não espelha — **catorze das quinze aptidões são construídas em cima da energia amaldiçoada** —, mas a FORMA espelha: **catorze Bênçãos, duas grátis na Lapidação `1` e doze pagas**, igual ao catálogo de aptidões.* **O conteúdo das doze pagas continua esperando a Técnica Marcial; o tamanho, a métrica, as duas gratuitas e o que fica de fora não esperam mais.**
 - **O conteúdo mecânico do `estímulo muscular`, a segunda gratuita.** *A primeira (`cobrir-se`, portada) não pediu escolha — é a mesma fórmula com outro nome. Esta pede, porque `canalizar energia` — o par que ela substitui — vale **"nada" em número**, e o par certo para ela precisa do mesmo peso.* **Três candidatos medidos, nenhum decidido:**
 
   | candidato | o que faz | peso mecânico |

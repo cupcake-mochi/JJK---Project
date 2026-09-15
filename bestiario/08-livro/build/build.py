@@ -400,6 +400,21 @@ def cola_sabor(soup):
     largas.** *O `so o titulo` nao move de forma confiavel — sao dois casos e eles
     sao sensiveis a qualquer deslocamento de paginacao.*
 
+    **A v0.239 tirou a marca do paragrafo que fecha a secao sozinho**, o que e'
+    seguido direto de outro titulo. *Ali a cola nao protegia nada: o titulo
+    seguinte ja gruda no conteudo dele, e a cadeia so juntava secoes inteiras
+    num bloco que nao cabia no pe da pagina.* Medido nos dois livros:
+
+        livro e forma               paginas  curtas  titulo com a secao cortada
+        Guilda unica, antes             255       3                           9
+        Guilda unica, v0.239            251       1                          10
+        Guilda duas, antes              147      15                           0
+        Guilda duas, v0.239             146      16                           0
+        Bestiario, as duas              nada muda
+
+    *O cortado a mais da coluna unica e' uma tabela que so mudou de pagina, e os
+    titulos novos no pe da pagina sao de secao completa.*
+
     A marca vai no PARAGRAFO e nao num `div` em volta: envelopar movia o bloco
     seguinte para dentro da arvore, e quando esse bloco era outro titulo ele saia
     da cadeia de irmaos. Marcando o paragrafo, a cadeia `titulo -> abertura -> o
@@ -414,8 +429,11 @@ def cola_sabor(soup):
         p = h.find_next_sibling()
         if p is None or p.name != "p":
             continue
-        if p.find_next_sibling() is None:
+        seg = p.find_next_sibling()
+        if seg is None:
             continue
+        if seg.name in ("h2", "h3", "h4", "h5"):
+            continue          # o paragrafo e' a secao inteira: nao ha o que proteger
         p["class"] = p.get("class", []) + ["sabor"]
         n += 1
     return n
@@ -622,6 +640,96 @@ def gera_marcas(n, margem_externa=32.0):
     return "\n".join(out)
 
 
+
+# ------------------------------------------------------------------ tabela orfa
+# v0.239. O WeasyPrint ignora `break-inside: avoid` em linha e em grupo de linhas de
+# tabela: o titulo, o cabecalho e a primeira linha ficavam no pe da pagina, e o resto
+# na seguinte. O CSS nao segura isso, entao a saida e a do diagramador: desenhar, ver
+# onde cada tabela caiu, e quebrar a pagina antes das que ficaram orfas. Medido na
+# coluna unica da Guilda:
+#
+#   forma                                             paginas  curtas  secoes cortadas
+#   nenhuma                                               251       0               10
+#   empurra o titulo no pe da pagina, sem limite          255       3                8
+#   ... uma orfa por capitulo por passada                 254       1                8
+#   ... empurrando so o que ja esta abaixo de 80%         253       1               11
+#   a cadeia inteira, se ela comeca abaixo de 80%         252       1                9   quatro orfas ficam
+#   a cadeia inteira, se ela comeca abaixo de 65%         254       1                8   uma fica
+#   ... e abaixo de 60%                                   254       2                8   nenhuma fica
+#
+# A curta das duas ultimas formas e o fim do capitulo 18, que vem antes do indice; a segunda
+# curta dos 60% e a pagina que a `Condicoes` deixa com um terco em branco. Empurrar so o
+# titulo da tabela deixa o titulo da secao sozinho no pe da pagina, e isso e pior que a
+# tabela orfa: por isso a cadeia vai inteira ou nao vai.
+LIMITE_BURACO = 0.65      # a cadeia tem de comecar abaixo disto da altura da pagina: o buraco nunca passa de 35%
+PASSADAS_MAX = 8
+
+
+def desenha_sem_tabela_orfa(folhas):
+    """Desenha o PDF e empurra para a pagina seguinte a tabela que ficou com o titulo numa
+    pagina e a segunda linha na outra.
+
+    A cadeia e a tabela mais o que gruda nela por cima: o titulo dela, e titulo de secao e
+    paragrafo de abertura logo antes. Ela vai inteira, e so se comecar abaixo de
+    LIMITE_BURACO da pagina, para o buraco que fica nunca passar disso.
+
+    Uma orfa empurrada por capitulo por passada: empurrar uma move o resto do capitulo, e a
+    posicao das seguintes so vale depois de desenhar de novo. Capitulo abre pagina nova, entao
+    um nao mexe no outro. So na coluna unica: nas duas colunas a quebra de pagina nao e a
+    quebra de coluna.
+    """
+    if VARIANTE != "unica":
+        return HTML(OUT_HTML).render(stylesheets=folhas), [], []
+    soup = BeautifulSoup(open(OUT_HTML, encoding="utf-8").read(), "html.parser")
+    alvos = []
+    for i, tab in enumerate(soup.find_all("table")):
+        body = tab.find("tbody")
+        linhas = body.find_all("tr", recursive=False) if body else []
+        if not linhas:
+            continue
+        cadeia, ant = [tab], tab.find_previous_sibling()
+        while ant is not None and (ant.name in ("h2", "h3", "h4", "h5")
+                                   or "tab-titulo" in (ant.get("class") or [])
+                                   or "sabor" in (ant.get("class") or [])):
+            cadeia.insert(0, ant)
+            ant = ant.find_previous_sibling()
+        for k, el in enumerate(cadeia):
+            if not el.get("id"):
+                el["id"] = f"orfa{i}-{k}"
+        ini = cadeia[-2] if len(cadeia) > 1 and "tab-titulo" in (cadeia[-2].get("class") or []) else tab
+        seg = linhas[1] if len(linhas) > 1 else linhas[0]
+        seg["id"] = f"orfa{i}-linha2"
+        alvos.append((ini["id"], seg["id"], cadeia, ini.get_text(" ", strip=True)[:50],
+                      id(tab.find_parent("section"))))
+    movidas = []
+    for passada in range(1, PASSADAS_MAX + 1):
+        with open(OUT_HTML, "w", encoding="utf-8") as f:
+            f.write(str(soup))
+        doc = HTML(OUT_HTML).render(stylesheets=folhas)
+        pag, alt = {}, {}
+        for n, page in enumerate(doc.pages):
+            for ancora, pos in page.anchors.items():
+                if ancora not in pag:
+                    pag[ancora], alt[ancora] = n, pos[1] / page.height
+        empurrar, caps, ficaram = [], set(), []
+        for a, b, cadeia, nome, cap in alvos:
+            if a not in pag or b not in pag or pag[a] >= pag[b]:
+                continue
+            if any("quebra-antes" in (e.get("class") or []) for e in cadeia):
+                continue
+            c0 = cadeia[0]["id"]
+            if pag.get(c0) != pag[a] or alt[c0] < LIMITE_BURACO:
+                ficaram.append((nome, alt.get(c0, 0.0)))
+            elif cap not in caps:
+                caps.add(cap)
+                empurrar.append((cadeia[0], nome))
+        if not empurrar:
+            return doc, movidas, ficaram
+        for el, nome in empurrar:
+            el["class"] = (el.get("class") or []) + ["quebra-antes"]
+            movidas.append(nome)
+    return doc, movidas, ficaram
+
 def main():
     partes = []
     sumario_dados = []
@@ -764,7 +872,14 @@ def main():
     folhas = [CSS(CSS_MAIN), CSS(CSS_MARCAS)]
     if CSS_VARIANTE:
         folhas.append(CSS(CSS_VARIANTE))
-    HTML(OUT_HTML).write_pdf(OUT_PDF, stylesheets=folhas)
+    doc_pdf, movidas, ficaram = desenha_sem_tabela_orfa(folhas)
+    doc_pdf.write_pdf(OUT_PDF)
+    if movidas:
+        print(f"  {len(movidas)} tabela(s) foram para a página seguinte, para não ficar órfãs:")
+        for _t in movidas:
+            print(f"    · {_t}")
+    for _t, _a in ficaram:
+        print(f"  ficou órfã, porque a cadeia começa em {_a:.0%} da página: {_t}")
     print(f"PDF:  {OUT_PDF}")
 
 

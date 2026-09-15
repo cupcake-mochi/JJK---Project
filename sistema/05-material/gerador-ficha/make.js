@@ -54,9 +54,9 @@ function montar(f, arquivo, rodape) {
     description: 'Ficha de nível 2',
     styles: { default: { document: {
       run: { font: 'Calibri', size: 20, color: C.ink },
-      paragraph: { spacing: { line: 250 } } } } },
+      paragraph: { spacing: { line: 240 } } } } },
     sections: [1, 2, 3].map(n => ({
-      properties: { page: { margin: { top: 680, bottom: 560, left: 780, right: 780 } } },
+      properties: { page: { margin: { top: 400, bottom: 440, left: 700, right: 700 } } },
       footers: { default: new Footer({ children: [new Paragraph({
         alignment: AlignmentType.CENTER,
         children: [new TextRun({ text: rodape + '  ·  ' + n + ' de 3',

@@ -347,6 +347,27 @@ limite real do `Apoio`, e não a Classe do feitiço.**
 não é cura — quem está a `0` de vida e recebe vida temporária continua a `0` e continua
 caindo. *Ela previne dano que ainda não veio; não devolve o que já saiu.*
 
+### 5.1.2 Energia temporária
+
+***Decisão do Mizuki na v0.239:*** *"Todo tipo de fonte temporária não acumula, o limite é metade do máximo que o usuário possui base".* **A energia temporária passa a seguir a regra da vida temporária, com o PE no lugar da vida.**
+
+> **A energia temporária é gasta antes do seu PE, não acumula** — duas fontes, você fica com a maior, nunca com a soma —, **tem teto de metade do seu PE máximo**, e **some no fim da cena**.
+>
+> **O mestre pode deixar ela atravessar para a cena seguinte**, pelo mesmo motivo da vida temporária.
+
+**Até aqui a regra morava dentro do `Braseiro`, e dizia outra coisa:** *"nunca passa de `2` acumulados"*. **Uma segunda fonte expôs o buraco.** *O `Trindade`, nível 27 do `Arremate`, entrou no livro na v0.176 dando `2` de energia temporária por turno, sem teto e sem relógio.*
+
+> **O relógio e o "gasta primeiro" não estavam na frase da decisão.** *Eles vieram da vida temporária, que tem os dois desde a v0.108, e do próprio `Braseiro`, que já dizia os dois.*
+
+| fonte | de quem | nível | entrega | PE máximo no nível | teto |
+|---|---|---|---|---|---|
+| `Braseiro` | Bastião, Trilha `Brasa` | 11 | `2` | `44` | `22` |
+| `Trindade` | Emanador, Trilha `Arremate` | 27 | `2` | `162` | `81` |
+
+**O teto não morde nenhuma das duas, e o que muda na mesa é o "não acumula".** *O `Braseiro` dava até `2` acumulados e continua dando `2`, porque o acerto seguinte não soma.* **O `Trindade` para de crescer sem limite.** *Ninguém tem as duas: cada ficha tem uma Trilha, de um Caminho só.*
+
+**E a frase vale para qualquer reserva.** *Nada no sistema concede Integridade temporária hoje; se um dia conceder, ela segue a mesma regra, com teto de metade da Integridade máxima.*
+
 ## 5.2 Crítico
 
 *Escrito na v0.25.* O crítico era usado e nunca tinha sido definido: o manual cita *"em crítico"* na Melhoria **Estilhaço** e para por aí, e o projeto não tinha uma linha sobre ele.

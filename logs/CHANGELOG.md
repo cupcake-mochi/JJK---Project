@@ -8,6 +8,189 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.239] — 14/09/2026
+
+**O Rescaldo ganhou porta de saída: a aptidão `Regravação`.** *É o item 7 da fila, com as decisões dele em duas rodadas.* **E a ficha em papel passou a imprimir as Famílias do manual**, *que é o `B4` do repositório da ficha, o `B17` saiu da fila, e a coluna única da Guilda perdeu as três páginas curtas.* **E a energia temporária passou a seguir a regra da vida temporária, as tabelas deixaram de ficar órfãs no pé da página, e as fichas de papel voltaram a 3 páginas.**
+
+### 1 · A `Regravação`
+
+> **Durante o seu Rescaldo, como Ação Bônus, gaste o teto inteiro da sua `Energia Reversa`, e o Rescaldo acaba.** *A técnica volta a responder, e naquele uso você não cura vida.*
+> **Cada uso deixa uma marca, e as marcas somem no descanso longo.** *Com `metade da sua Inteligência + metade da sua maestria` marcas, você não abre Expansão de Domínio.*
+
+**As decisões são dele:**
+
+- **o requisito é a `Circulação`** — *"sendo que o requisito para pegar ela seja a circulação"*;
+- **Ação Bônus, com o teto inteiro;**
+- **um contador de marcas até o descanso longo;**
+- **as marcas** — *"inteligencia/2 + metade da maestria"*;
+- **o nome**, entre quatro que passaram no `conferir-nomes.py`.
+
+**Cada parte sai de uma cena da obra**, com as fontes da seção 6.8 do rascunho da Expansão sem barreira: *a técnica queimada não volta com energia reversa comum, destruir a gravação e curar não deixa curar o corpo junto, e o dano no cérebro acumula até a Expansão não abrir.*
+
+**O manual do Fundamento não mudou.** *Ele não cita aptidão nenhuma, e o ponteiro para a `Regravação` mora na caixa do Rescaldo do livro.*
+
+### 2 · Duas leituras que a regra respondeu
+
+**Onde arredondar.** *Somar Inteligência e maestria antes de dividir daria uma marca a mais com Inteligência ímpar, do nível 22 ao 25.* **A peça 1 §5.4 manda arredondar para o lado que não te favorece, então cada metade desce sozinha.**
+
+**O piso de 1.** *A aptidão chega no nível 22 para o especialista, com maestria 3, e a menor conta já dá uma marca.* **O piso nunca entra.** *Com uma marca ela ainda serve: devolve a técnica nesta cena e fecha a Expansão até o descanso longo.*
+
+**Inteligência 6 no nível 30 dá cinco marcas**, *que são as cinco Expansões do Gojo no cap. `230`.*
+
+### 3 · Quem o contador segura
+
+**Com o PE do dia inteiro gasto em domínio e os dois respiros, o PE paga no máximo duas reaberturas no Bastião, três na Vanguarda e no Guia, e quatro no Evocador e no Emanador.** *Com Inteligência baixa o contador segura antes do PE nos três grupos, e as quatro só saem com Inteligência 6 do nível 26 em diante.* **Com o `N` fixo em 5, que foi uma das opções da rodada 2, ele não segurava ninguém.**
+
+### 4 · As contagens do catálogo
+
+- **O catálogo foi de catorze entradas para quinze, e as pagas de doze para treze.** *A folga contra os dez picks da rota pura foi de duas para três.*
+- **As Bênçãos ficam em doze pagas.** *O fim da peça 11 §6.8 já dizia que, se o catálogo do feiticeiro crescer, a folga cresce e o piso de `10` não se move.*
+- ⚠ **O catálogo chegou ao teto da faixa de doze a quinze.** *A próxima aptidão passa dela, e a faixa precisa ser revista antes.*
+
+### 5 · O validador e o arnês
+
+**A checagem nova mora no `conferir-aptidoes.py`, depois da `Circulação`.** *Ela lê a fórmula da peça 11, a maestria da peça 1, o teto de atributo da peça 2, o PE por nível da peça 6, o respiro e as lutas de graça da peça 10, e o custo de abrir e a Classe por nível do capítulo 9 do livro.* **E recomputa, em todo nível do 22 ao 30:** *o nível de chegada, a tabela das marcas, o Gojo, a leitura recusada do arredondamento, quanto o PE paga, quem o contador segura, e o exemplo do livro.*
+
+**A checagem 11 passou a conferir as frases que publicam as contagens do catálogo**, *na peça 11 e na peça 9, contra as duas tabelas da peça 11 e contra a faixa de tamanho.*
+
+**O arnês rodou numa cópia isolada, e a saída da base saiu idêntica à do repositório.** *Trinta e duas perturbações acenderam pelo motivo certo, quatro contra-testes ficaram verdes, e o repositório saiu intocado.*
+
+> **⚠ Uma perturbação saiu verde na primeira rodada, e o erro era do arnês.** *Subir a Classe do nível 26 para 8 não move número publicado nenhum: o máximo de reaberturas de cada Caminho sai do trecho do nível 22 ao 25.* **Ela virou contra-teste, e a Classe 5 no nível 21 entrou no lugar dela.**
+
+### 6 · As Famílias da ficha
+
+**A ficha em branco e a da Kaori imprimiam `Ataque`, `Corpo`, `Movimento` e `Percepção`, que o manual não tem.** *E não imprimiam `Alcance`, `Mira`, `Tempo` e `Marca`, que o manual tem.* **O jogador marcava Livre ou Fechada em Família sem Melhoria nenhuma, e ficava sem onde marcar quatro das nove.**
+
+**O `dados.js` do gerador passou a ter as nove, na ordem da tabela do manual, e as duas fichas foram regeradas.** *As Famílias da Kaori já eram todas do manual: `Controle` e `Castigo` Livres, e `Amparo`, `Área` e `Auxiliares` Fechadas.*
+
+### 7 · O bloco 8 do `conferir-ficha.py`
+
+**O fragmento do `repo-conserto/`, pronto desde 07/09, entrou como bloco `8`**, *porque o `7` já era o do bloco de inimigo, e número repetido acende a checagem 9 do `conferir-repositorio.py`.* **Três coisas mudaram em relação ao fragmento:**
+
+- *o `9` saiu do código, e a checagem lê quantas Famílias são da frase do próprio manual;*
+- *ela confere as Famílias da Kaori no `make.js` contra a peça 8, e contra o rótulo de duas Livres e três Fechadas da ficha;*
+- *ela confere que as duas fichas `.docx` publicadas trazem as Famílias do manual.*
+
+**Acendeu no estado antigo pelos quatro motivos certos, e apagou depois do conserto.** *O arnês rodou numa cópia isolada, com a saída da base idêntica à do repositório: nove perturbações acenderam, e os dois contra-testes ficaram verdes.*
+
+**A docstring dizia "Seis checagens" com sete blocos**, *e passou a dizer oito, com a lista inteira.*
+
+> **⚠ O `B4` chegou a entrar como v0.240, e voltou para dentro desta.** *Com duas versões sem commit, a checagem 7.4 do `conferir-repositorio.py` reprova: ela tolera a entrega uma versão atrás, e não duas.* **E o `subir.sh` não commita com validador reprovado.** *Enquanto o commit esperar, o trabalho novo entra nesta versão.*
+
+### 8 · A diagramação da coluna única
+
+**Três páginas curtas da Guilda viraram uma, e o livro foi de `255` para `251` páginas.** *O `cola_sabor` grudava todo primeiro parágrafo de seção no que viesse depois dele, e quando esse parágrafo era a seção inteira, o que vinha depois era outro título.* **A cadeia juntava seções pequenas num bloco só**, *como `Destrancas`, `Criação` e `Legados do Feto` nas Origens, ou `Servo`, `Matilha`, `Coro` e `Trilha: Servo` no Evocador, e o bloco não cabia no pé da página.*
+
+**O parágrafo seguido direto de título deixou de grudar.** *O título seguinte já gruda no conteúdo dele, então nenhuma seção perdeu proteção.*
+
+| | páginas | curtas | título com a seção cortada |
+|---|---|---|---|
+| Guilda, coluna única, antes | `255` | `3` | `9` |
+| Guilda, coluna única, agora | `251` | `1` | `10` |
+| Guilda, duas colunas, antes | `147` | `15` | `0` |
+| Guilda, duas colunas, agora | `146` | `16` | `0` |
+
+*Os títulos novos no pé da página são de seção completa, e o cortado a mais é a tabela `Raio do domínio`, que só mudou de página.* **No Bestiário nada muda nas duas diagramações**, *e a mudança entrou nos dois `build.py` para o código continuar igual.*
+
+**A curta que sobrou é a caixa dos `Degraus do Evocador`:** *ela tem menos de `700` caracteres, então não quebra, e não coube no fim da página.* **Ela sumiu quando a seção da energia temporária entrou no capítulo 1**, *porque a paginação andou de novo: a coluna única fechou em `251` páginas e nenhuma curta.*
+
+> **⚠ Prender as duas primeiras e as duas últimas linhas de cada tabela foi medido e reprovou.** *O WeasyPrint ignora `break-inside: avoid` num grupo de linhas, como já ignorava numa linha só: `Ritmo de subida` e `Feitos do limiar` continuaram no pé da página, e o livro ganhou uma página.*
+
+### 9 · A energia temporária
+
+***Decisão do Mizuki:*** *"Todo tipo de fonte temporária não acumula, o limite é metade do máximo que o usuário possui base".*
+
+**A regra da energia temporária morava dentro do `Braseiro`**, *e dizia "nunca passa de `2` acumulados".* **O `Trindade`, nível 27 do `Arremate`, entrou no livro na v0.176 dando `2` de energia temporária por turno, sem teto e sem relógio.** *O B11 achou isso ao reextrair o `manual.txt` do repositório da ficha.*
+
+> **A energia temporária é gasta antes do PE, não acumula, tem teto de metade do PE máximo, e some no fim da cena.** *O mestre pode deixar ela atravessar para a cena seguinte, como a vida temporária.*
+
+- **O relógio, o "gasta primeiro" e a exceção do mestre não estavam na frase da decisão.** *Vieram da vida temporária, que tem os três desde a v0.108, e do `Braseiro`, que já dizia os dois primeiros.*
+- **O teto não morde nenhuma das duas fontes:** *`2` contra `22` no `Braseiro`, no nível 11, e `2` contra `81` no `Trindade`, no nível 27.* **O que muda na mesa é o "não acumula"**, *e o `Braseiro` continua dando `2`.*
+- **A mesma frase vale para a Integridade**, *se um dia alguma coisa conceder Integridade temporária.*
+
+**A checagem 11 do `conferir-atributos.py` lê as fontes do capítulo de Caminhos do livro, o PE por nível da peça 6, e recomputa a tabela da peça.** *Ela também confere que a peça, o capítulo 1 do livro e o glossário dizem a mesma regra, e que o `Braseiro` não voltou a falar em acumulados.* **O arnês deu treze perturbações acesas e dois contra-testes verdes.**
+
+> **⚠ A checagem acendeu por um motivo errado na primeira rodada.** *A regra da vida temporária está numa citação que quebra linha, e a leitura não tirava o `> ` do começo de cada linha.* **E uma perturbação do arnês nunca poderia acender:** *ela somava "e acumula" sem tirar o "não acumula".* **As duas foram consertadas antes de contar.**
+
+### 10 · A tabela órfã no pé da página
+
+***Pergunta dele:*** *"tem o que possamos fazer pra resolver a questão da página?"*
+
+**O WeasyPrint ignora `break-inside: avoid` em linha e em grupo de linhas de tabela**, *então o título, o cabeçalho e a primeira linha ficavam no pé da página, e o resto na seguinte.* **Na coluna única o `build.py` passou a desenhar o livro, ver em que página caiu cada tabela, e quebrar a página antes das órfãs.**
+
+- **A tabela vai junto com o que gruda nela por cima:** *o título dela, e o título de seção e o parágrafo de abertura logo antes.* **Empurrar só o título da tabela deixava o título da seção sozinho no pé da página**, *e isso mediu pior.*
+- **Uma órfã empurrada por capítulo por passada.** *Empurrar uma move o resto do capítulo. Marcar todas de uma vez deixou marca velha, e duas páginas quase vazias.*
+- **A cadeia só vai se começar abaixo de `65%` da página**, *para o buraco nunca passar de `35%`.*
+
+| forma | páginas | curtas | seções cortadas |
+|---|---|---|---|
+| nenhuma | `251` | `0` | `10` |
+| todas as órfãs de uma vez | `255` | `3` | `8` |
+| uma por capítulo por passada | `254` | `1` | `8` |
+| a cadeia só se começar abaixo de `80%` | `252` | `1` | `9`, e quatro órfãs ficam |
+| **a cadeia só se começar abaixo de `65%`** | **`254`** | **`1`** | **`8`, e uma órfã fica** |
+| a cadeia só se começar abaixo de `60%` | `254` | `2` | `8`, e nenhuma fica |
+
+*A curta que sobra é o fim do capítulo 18, antes do índice.* **Dez tabelas foram para a página seguinte na Guilda, e três no Bestiário**, *que ficou com `61` páginas e uma seção cortada em vez de três.* **A `Condições` continua órfã:** *a cadeia dela começa em `65%` da página, e com `60%` ela ia e deixava um terço da página em branco.*
+
+> **⚠ O laço saiu errado duas vezes antes de medir.** *O WeasyPrint 69 guarda mais que x e y em cada âncora, e o limite estava medido no título da tabela, e não no começo da cadeia.* **As duas foram consertadas antes das medidas acima.**
+
+### 11 · As fichas de papel voltaram a 3 páginas
+
+**A ficha pede Georgia, Calibri e Consolas, e nenhuma está nesta máquina.** ***Ele deixou comigo:*** *"ficar a sua decisão seria melhor nesse caso".* **A fonte da ficha ficou**, *porque é a que o Word e o Google Docs têm.* **Nesta máquina entraram a Carlito e a Gelasio**, *livres e com as medidas da Calibri e da Georgia, baixadas do repositório do Google Fonts com o sim dele.*
+
+**Com as fontes certas as fichas continuaram com 6 e 5 páginas: o conteúdo tinha crescido.** *O que transbordava era o fim de cada página: a última linha dos ofícios, o terceiro feitiço e a tira de referência.* **Voltaram a 3** *com margem de cima menor, respiro menor nas notas, nas faixas e nos campos, e o atributo da técnica ao lado do selo.* **As linhas de escrever continuam do mesmo tamanho.** *A em branco termina em `761`, `747` e `771` pontos de `842`, e o bloco de inimigo, que usa os mesmos helpers, continua em `12` páginas.*
+
+**E a tira de referência tinha três erros na mão do jogador:**
+
+- *"canalizado = os dados da Classe e nada mais" — a peça 5 declara o golpe canalizado morto desde a v0.81;*
+- *os `25%` do descanso curto "em ambiente propício", quando eles valem em qualquer lugar;*
+- *"estão na quick-start", que foi abandonada na v0.102.*
+
+**Duas notas também estavam velhas:** *a do pacto dizia que pacto entre personagens não tinha regra, e a do Classe 0 esquecia a Restrição Leve.* **E três notas perderam a frase de efeito.**
+
+**A checagem 9 do `conferir-ficha.py` confere a tira e as notas contra as peças e o livro.** *O arnês deu doze perturbações acesas e dois contra-testes verdes.*
+
+### Alterado
+
+- **Peça 11:** *a `Regravação` no §6, o §3 com treze pagas e três de folga, a §6.8 com quinze aptidões, o catálogo fechado com quinze entradas, e o aviso do teto da faixa.*
+- **Peça 9:** *das quinze aptidões, catorze são construídas em cima da energia amaldiçoada.*
+- **Peça 1:** *o §5.1.2, `Energia temporária`.* **O `conferir-atributos.py`:** *a checagem 11.*
+- **Livro:** *a seção `Energia temporária` no capítulo 1, o `Braseiro` apontando para ela no capítulo 8, e a entrada nova no glossário.*
+- **Livro, capítulo 12:** *a `Regravação`, com a linha dela na tabela e um exemplo.*
+- **Livro, capítulo 9:** *a caixa do Rescaldo aponta para a `Regravação`.*
+- **O rascunho da Expansão sem barreira:** *o item 6 da rodada 2 fechado.*
+- **O `ESTADO-ATUAL`:** *o item 7 da fila fechado.*
+- **Os dois PDFs da Guilda, o `.docx` de revisão e o texto corrido**, refeitos.
+- **Os dois `build.py`, o da Guilda e o do Bestiário:** *o `cola_sabor` não marca o parágrafo seguido de título.* **E os dois PDFs do Bestiário**, refeitos.
+- **O `README` do livro da Guilda:** *a medida do `cola_sabor` entrou entre as coisas medidas.*
+- **`gerador-ficha/dados.js`:** *as nove Famílias do manual.* **E as duas fichas `.docx` de `05-material`**, regeradas.
+- **O `conferir-ficha.py`:** *o bloco 8 e a docstring.* **O `README` e o `ESTADO-ATUAL`:** *a descrição dele cita as Famílias.*
+- **O `COMO-USAR` do gerador da ficha:** *o aviso das fontes, e a medida das 3 páginas.*
+- **Os dois `build.py` e os dois CSS:** *o `desenha_sem_tabela_orfa` e a classe `quebra-antes`.* **E os PDFs de coluna única dos dois livros**, refeitos.
+- **O gerador da ficha** *(`make.js`, `helpers.js` e `ficha.js`)*, **as duas fichas e o bloco de inimigo**, regerados, *e o `bloco-de-inimigo.pdf` junto.*
+- **O `conferir-ficha.py`:** *a checagem 9.* **O `README` do livro:** *a medida da tabela órfã.*
+- **Nesta máquina:** *a Carlito e a Gelasio, na pasta de fontes do usuário.*
+- **No clone `Claude 3`:** *o `B4` fechado no `PENDENCIAS`, e o `capitulo-35-caminhos-e-trilhas.md` voltou a ser cópia do livro.* **E a primeira metade do `B11`:** *o `manual.txt` foi extraído de novo deste livro; a decisão A2 da ficha passou a seguir o capítulo, com teto de metade do máximo e sem acumular; o `manual-temporario.md` ficou marcado como superado; as duas guardas que esperavam o `manual.txt` congelado viraram guardas de concordância; e o `medidas/progressao.py` achava a tabela por número de linha e usava a maestria antiga.* **E a segunda metade, com a decisão dele de regerar a aba `DADOS`:** *o catálogo foi à v0.239 — saíram a condição `Petrificado` e uma entrada `Nível` que era lixo de extração, a Restrição `Lento` virou `Atrasar`, entrou a Melhoria `Efeito Próprio`, e 23 Melhorias e 10 Restrições ganharam o texto do livro. A aba `DADOS` da ficha passou a sair do catálogo, e não da planilha exportada; o `conferir-catalogo.py` passou a ler as contagens das frases do manual.* **Os dezesseis validadores de lá passam, e os dois arneses novos deram oito de oito cada.** *Para a planilha viva acompanhar, ele reconstrói com o `Ficha.gs` novo e troca a central para `0.239`.*
+
+### Consertado de passagem
+
+- **O capítulo 12 do livro dizia que a `Cortina` era a única aptidão que exige outra.** *A `Circulação` exige a `Energia Reversa` desde a v0.203.* **Hoje são três, e a frase lista as três.**
+
+### Removido
+
+- **O bloco do `B17` na fila do `ESTADO-ATUAL`.** *Pedido dele: "Só apague isso da fila, não se preocupe com essa questão".* **No clone `Claude 3` ele foi marcado como tirado da fila, num commit separado.**
+
+### Achado e não consertado
+
+- **A `Regravação` no inimigo.** *A peça 26 não fala de Rescaldo, e o Sukuna faz a mesma manobra na obra.* **É decisão dele, e o validador acusa se a peça 26 passar a falar de Rescaldo.**
+- **A linha do cap. `266` no rascunho continua sem conferência.** *A peça 11 não cita ela.*
+- **A tabela `Condições` continua órfã na coluna única da Guilda**, *e o build avisa.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, seção *"Onde estamos, e o que falta"*.
+
+---
+
 ## [0.238] — 14/09/2026
 
 **O `B18` fechou no repositório da ficha.** *O `Ficha.gs` passou a sair da `ficha-v01`, que é a cópia da planilha viva, e os dezesseis validadores de lá passam.* **Nada deste repositório de regra mudou, fora a fila.**

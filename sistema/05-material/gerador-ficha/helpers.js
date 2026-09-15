@@ -54,7 +54,7 @@ const FAIXA = (texto) => new Table({
                                color: 'FFFFFF', font: 'Georgia', characterSpacing: 50 })] })],
     width: { size: W, type: WidthType.DXA },
     shading: { type: ShadingType.CLEAR, fill: C.headBg, color: 'auto' },
-    margins: { top: 50, bottom: 50, left: 150, right: 150 },
+    margins: { top: 34, bottom: 34, left: 150, right: 150 },
   })] })],
   columnWidths: [W], width: { size: W, type: WidthType.DXA }, borders: SEM_BORDA,
 });
@@ -72,7 +72,7 @@ function campo(rotulo, valor, o = {}) {
   return new TableCell({
     children: kids, width: { size: o.w, type: WidthType.DXA }, columnSpan: o.span,
     shading: { type: ShadingType.CLEAR, fill: o.bg || C.campoBg, color: 'auto' },
-    margins: { top: 42, bottom: 42, left: 120, right: 120 },
+    margins: { top: 30, bottom: 30, left: 120, right: 120 },
     verticalAlign: VerticalAlign.TOP,
     borders: { top: NIL, left: NIL, right: NIL,
                bottom: { style: BorderStyle.SINGLE, size: 6, color: C.linha } },
@@ -157,7 +157,7 @@ function TBL(headers, rows, widths, opt = {}) {
 
 // nota de rodape de secao
 const NOTA = (t) => new Paragraph({
-  spacing: { before: 36, after: 96 },
+  spacing: { before: 36, after: 48 },
   children: runs(t, { size: 14, color: C.grey, italics: true }) });
 
 const GAP = (n = 120) => new Paragraph({ text: '', spacing: { after: n } });

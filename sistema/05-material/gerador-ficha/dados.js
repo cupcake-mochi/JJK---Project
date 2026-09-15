@@ -57,8 +57,8 @@ const TRS = [
 const ATRIBUTOS = ['Força', 'Destreza', 'Constituição', 'Inteligência', 'Essência'];
 
 // as 9 Familias do Fundamento — 2 Livres e 3 Fechadas na criacao (manual, secao 3)
-const FAMILIAS = ['Ataque', 'Área', 'Controle', 'Castigo', 'Amparo',
-                  'Corpo', 'Movimento', 'Auxiliares', 'Percepção'];
+const FAMILIAS = ['Alcance', 'Área', 'Mira', 'Controle', 'Auxiliares',
+                  'Castigo', 'Tempo', 'Marca', 'Amparo'];
 
 // o nivel padrao da ficha, e o que ele implica
 const NIVEL = 2;

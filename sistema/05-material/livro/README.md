@@ -48,6 +48,10 @@ PDF"*. É esse PDF, escrito direto a partir desta pasta.
 
 **E uma que a v0.237 mediu na coluna única:** *a caixa de regra com mais de `700` caracteres pode quebrar entre páginas, e o parágrafo dentro dela não.* **Inteira, ela deixava a página anterior até três quartos em branco** — *doze páginas assim na Guilda. A medida está em `solta_caixa_longa`, no `build.py`.*
 
+**E uma da v0.239, também na coluna única:** *o parágrafo de abertura que é a seção inteira não gruda mais no título seguinte.* **Grudado, ele juntava seções pequenas num bloco que não cabia no pé da página** — *três páginas curtas da Guilda viraram uma. A medida está em `cola_sabor`, no `build.py`.*
+
+**E uma da v0.239 que o CSS não resolve:** *o WeasyPrint ignora `break-inside: avoid` em linha de tabela, e a tabela ficava com o título, o cabeçalho e uma linha no pé da página.* **Na coluna única o `build.py` desenha o livro, vê em que página caiu cada tabela, e quebra a página antes das órfãs, uma por capítulo por passada, até elas acabarem.** *A medida e o limite do buraco estão em `desenha_sem_tabela_orfa`, e o build diz quais tabelas foram e qual ficou.*
+
 ## Como regerar
 
 Precisa de `markdown`, `beautifulsoup4`, `weasyprint` e `python-docx` (`pip install` os

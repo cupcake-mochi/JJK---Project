@@ -157,7 +157,7 @@ E duas coisas que quase todo degrau daqui menciona:
 
 > **Nível 2: `Fagulha`.** Se você usou a ação de atacar neste turno, você pode lançar um feitiço de **Classe 0** como **ação bônus**. **E se algum dos seus socos acertou, esse feitiço é rolado com vantagem**, quando ele for um ataque.
 >
-> **Nível 11: `Braseiro`.** Quando o seu Classe 0 acerta, você ganha **`2` de energia temporária.** Ela nunca passa de `2` acumulados e some no fim da cena. *Energia temporária gasta como PE, e gasta primeiro.*
+> **Nível 11: `Braseiro`.** Quando o seu Classe 0 acerta, você ganha **`2` de energia temporária.** *A regra dela está no capítulo 1, em `Energia temporária`.*
 >
 > **Nível 19: `Labareda`.** O feitiço que você lança na ação bônus **pode ser de Classe 3 em vez de Classe 0**, e **de Classe 4 a partir do nível 21**, quando a `Classe 6` libera.
 > **Em troca, em todo turno:** você **abre mão do ataque extra** naquela ação de atacar, e **pelo menos um dos seus socos daquela ação tem de ter acertado.** *Se nenhum acertou, você não pode lançar o feitiço de Classe 3 ou 4 na ação bônus, só o Classe 0.*

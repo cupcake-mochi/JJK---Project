@@ -257,6 +257,14 @@ Sem atributo e sem valor inicial: no nível 1 você tem o PE de um nível.
 
 > **Exemplo.** Mei, Vanguarda de nível 4: 5 × 4 = **20 de PE**. Nenhum atributo entra nessa conta.
 
+### Energia temporária
+
+O `Braseiro` e o `Trindade` dão **energia temporária**.
+
+> **Energia temporária segue a regra da vida temporária, com o PE no lugar da vida.** Ela é **gasta antes** do seu PE, **não acumula** — duas fontes, você fica com a maior —, tem **teto de metade do seu PE máximo**, e **some no fim da cena**.
+
+O mestre pode deixar ela atravessar para a cena seguinte, do mesmo jeito que a vida temporária.
+
 ### Integridade
 
 > **Integridade = 20 + (Essência + 5) × (nível − 1).**

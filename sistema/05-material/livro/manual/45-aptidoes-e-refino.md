@@ -99,7 +99,7 @@ O marco compra uma aptidão de qualquer escala, e o preço é o mesmo. Quem sepa
 
 Cada aptidão declara o próprio requisito, e ele está na linha dela no catálogo: nenhum, nível, refino, os dois juntos, outra aptidão, ou Origem.
 
-`Cortina` é a única que hoje exige outra aptidão: ela pede `Barreira Simples`, porque cortina é a barreira maior. As duas de kokusen são alternativas entre si, e nenhuma exige a outra.
+Três exigem outra aptidão, e nas três a exigida é a mesma coisa em tamanho menor: `Cortina` pede `Barreira Simples`, `Circulação` pede `Energia Reversa`, e `Regravação` pede `Circulação`. As duas de kokusen são alternativas entre si, e nenhuma exige a outra.
 
 ## Catálogo
 
@@ -119,6 +119,7 @@ Traço na coluna de Classe Passiva quer dizer que a entrada não tem uma. Traço
 | Projetar energia | sem requisito | — | o dano |
 | Energia Reversa | refino 7 e nível 13 | 3 | — |
 | Circulação | `Energia Reversa`, refino 8 | 3 | — |
+| Regravação | `Circulação` | 3 | — |
 | Kokusen Melhorado | refino 5 e nível 14 | — | vantagem no d100 |
 | Kokusen Constante | refino 5 | — | a chance no d100 |
 | Cesta Oca de Vime | sem requisito | 1 | — |
@@ -198,6 +199,20 @@ Recompor membro é a mesma aptidão fazendo a coisa mais difícil que a energia 
 > **Membro perdido.** Não tem regra neste livro, e isso é decisão: quem tira é o mestre ou um pacto, e as penalidades são as que a mesa combinar, do mesmo jeito que o d20 faz. Esta aptidão desfaz.
 
 **Curar outra pessoa continua fora daqui.** Quem alcança os outros é a Trilha `Sutura`, no nível 11 dela. Uma ficha com as duas recompõe o membro de outra pessoa, e isso é o degrau mais raro do material.
+
+### Regravação
+
+> **Regravação** — Ação Bônus, durante o seu Rescaldo. Gaste o teto inteiro da sua `Energia Reversa`, e o Rescaldo acaba: a sua técnica volta a responder. Nesse uso você não cura vida nenhuma.
+>
+> Cada uso deixa uma **marca**, e as marcas somem no descanso longo. Com `metade da sua Inteligência + metade da sua maestria` marcas, cada metade arredondando para baixo, você não abre Expansão de Domínio.
+>
+> Requisito: ter a `Circulação`. Classe Passiva 3.
+
+Quando o domínio acaba, a técnica queima pelo resto da cena: é o Rescaldo, do capítulo 9, *Fundamento*. Quem chega aqui destrói a gravação queimada com energia e refaz com energia reversa, e o estrago acumula até a Expansão não abrir mais.
+
+Ela só serve a quem abre Expansão de Domínio, e regravar é escolha. Sem regravar, o Rescaldo acaba com a cena, e na luta seguinte você abre de novo.
+
+> **Exemplo.** No nível 26, com Inteligência 5, você tem `2 + 2 = 4` marcas. Você abre a Expansão, regrava, e repete até a quarta regravação. Ela devolve a técnica, e a Expansão fica fechada até o descanso longo.
 
 ## Aptidões de kokusen
 

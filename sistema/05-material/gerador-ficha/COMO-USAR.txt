@@ -30,6 +30,18 @@ O LAYOUT CABE EM 3 PAGINAS, E ISSO E FRAGIL
 
   Tem que dar 3. Deu 4, alguma coisa transbordou.
 
+  E A CONTA SO VALE COM AS FONTES DA FICHA, OU COM AS DE MESMA MEDIDA
+  Ela pede Georgia, Calibri e Consolas. Sem elas o LibreOffice troca por Noto
+  e DejaVu, que sao mais largas. A Carlito e a Gelasio sao livres e tem as
+  medidas da Calibri e da Georgia: com elas instaladas a conta vale. Confira
+  com `fc-match Calibri`, que tem de responder Carlito.
+
+  Na v0.239, com as duas instaladas, as fichas estavam com 6 e 5 paginas: o
+  conteudo tinha crescido. Voltaram a 3 com margem de cima menor, respiro
+  menor nas notas, faixas e campos, e o atributo da tecnica ao lado do selo.
+  A em branco termina em 761, 747 e 771 pontos de 842, e o bloco de inimigo,
+  que usa os mesmos helpers, continua em 12 paginas.
+
 OS FEITICOS DA KAORI ESTAO EM BRANCO DE PROPOSITO
   A peca 8 nao lista os dela, e inventar tres feiticos aqui seria escolha de
   sabor — que e do Mizuki. Quando eles forem escritos, entram no make.js e o

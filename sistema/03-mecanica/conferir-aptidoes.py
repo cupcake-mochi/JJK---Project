@@ -438,6 +438,296 @@ else:
             print(f'  [x] o refino {_gate_circ} e alcancavel pelas tres rotas')
 
 
+# --------------------------------------------------------------------------
+# v0.239: a `Regravação`, a porta de saida do Rescaldo. Nenhum valor mora aqui:
+# a formula das marcas e as frases com numero sao da propria peca; a maestria e'
+# da peca 1 §2, o teto de atributo da peca 2, o PE por nivel da peca 6, o
+# respiro e as lutas de graca da peca 10, e o custo de abrir e a Classe de cada
+# nivel sao do capitulo do Fundamento no livro. Tudo e' recomputado nivel a
+# nivel, do nivel em que ela chega ate o ultimo marco.
+_NUM_REG = {'zero': 0, 'uma': 1, 'um': 1, 'duas': 2, 'dois': 2, 'três': 3, 'quatro': 4,
+            'cinco': 5, 'seis': 6, 'sete': 7}
+_ORD_REG = {'primeira': 1, 'segunda': 2, 'terceira': 3, 'quarta': 4, 'quinta': 5,
+            'sexta': 6, 'sétima': 7}
+
+
+def _nr(s):
+    return int(s) if s.isdigit() else _NUM_REG.get(s.lower())
+
+
+_mreg = re.search(r'^### Regravação · Classe Passiva 3 · exige a `Circulação`$', PECA11, re.M)
+if not _mreg:
+    erro('nao achei o titulo da `Regravação` na peca 11 — ela e a porta de saida do '
+         'Rescaldo, da v0.239, e o gate dela mora no titulo')
+else:
+    _sreg = PECA11[_mreg.start():].split('\n## ')[0]
+    _LIVDIR = os.path.join(AQUI, '..', '05-material', 'livro', 'manual')
+
+    def _le(caminho):
+        try:
+            return open(caminho, encoding='utf-8').read()
+        except OSError:
+            return ''
+    _T01r = _le(os.path.join(AQUI, '01-atributos-acerto-defesa.md'))
+    _T02r = _le(os.path.join(AQUI, '02-economia-de-atributos.md'))
+    _T06r = _le(os.path.join(AQUI, '06-caminhos-e-trilhas.md'))
+    _T10r = _le(os.path.join(AQUI, '10-descanso-e-recuperacao.md'))
+    _T26r = _le(os.path.join(AQUI, '26-bestiario.md'))
+    _T40r = _le(os.path.join(_LIVDIR, '40-fundamento.md'))
+    _T45r = _le(os.path.join(_LIVDIR, '45-aptidoes-e-refino.md'))
+    _ganha = _T40r[_T40r.find('| Nível | O que ganha |'):]
+    _ganha = _ganha[:_ganha.find('\n\n')] if '| Nível | O que ganha |' in _T40r else ''
+
+    _mf = re.search(r'Com `metade da sua (\w+) \+ metade da sua maestria` marcas, você não abre '
+                    r'Expansão de Domínio\*\*, cada metade arredondando para baixo', _sreg)
+    _mm = re.search(r'^\| nível \|((?: [\d–]+ \|)+)\n\|[-|]+\n\| maestria \|((?: \d+ \|)+)$', _T01r, re.M)
+    _mt = re.search(r'Teto do atributo: (\d+)\.', _T02r)
+    _mpe = re.search(r'PE por nível: (\d+) no Emanador e no Evocador\. (\d+) na Vanguarda e no Guia\. '
+                     r'(\d+) no Bastião\.', _T06r)
+    _mcur = re.search(r'\| \*\*PE\*\* \| \*\*(\d+)% do seu máximo\*\* \|', _T10r)
+    _mlut = re.search(r'As (\w+) primeiras lutas do dia são de graça', _T10r)
+    _mab = re.search(r'as duas cobram \*\*(\d+) × a sua maior Classe\*\* de PE', _T40r)
+    _mcl = re.findall(r'^\| \*\*(\d+)\*\* \| [^\n]*?\bClasse (\d+)\.', _ganha, re.M)
+    _mer = re.search(r'^### Energia Reversa · Classe Passiva 3 · refino (\d+) e nível (\d+)$', PECA11, re.M)
+    _Mc = globals().get('_M')
+    _gc = globals().get('_gate_circ')
+    _faltam = [n for n, v in (('a formula das marcas, com o arredondamento', _mf),
+                              ('a maestria da peca 1 §2', _mm),
+                              ('o teto de atributo da peca 2', _mt),
+                              ('o PE por nivel da peca 6', _mpe),
+                              ('o descanso curto da peca 10', _mcur),
+                              ('as lutas de graca da peca 10', _mlut),
+                              ('o custo de abrir, no capitulo do Fundamento', _mab),
+                              ('a Classe de cada nivel, no capitulo do Fundamento', _mcl),
+                              ('o gate da `Energia Reversa`', _mer),
+                              ('o teto e o gate da `Circulação`', _Mc is not None and _gc is not None))
+               if not v]
+    if _faltam:
+        erro('a checagem da `Regravação` nao achou ' + '; '.join(_faltam) + ' — sem o dono '
+             'ela conferiria contra valor escrito aqui')
+    else:
+        _attr = _mf.group(1)
+        _faixas = [tuple(int(x) for x in c.split('–')) for c in _mm.group(1).strip(' |').split(' | ')]
+        _maes = [int(x) for x in _mm.group(2).strip(' |').split(' | ')]
+
+        def _maestria(nv):
+            return next((m for (a, b), m in zip(_faixas, _maes) if a <= nv <= b), None)
+        TETO_AT = int(_mt.group(1))
+        _pe_cam = {'Evocador e Emanador': int(_mpe.group(1)),
+                   'Vanguarda e Guia': int(_mpe.group(2)),
+                   'Bastião': int(_mpe.group(3))}
+        _pct = int(_mcur.group(1))
+        _lutas = _nr(_mlut.group(1))
+        _resp = _lutas - 1
+        _abrir = int(_mab.group(1))
+        _cls = sorted((int(a), int(b)) for a, b in _mcl)
+
+        def _classe(nv):
+            v = None
+            for a, b in _cls:
+                if nv >= a:
+                    v = b
+            return v
+
+        def _marcas(i, nv):
+            # "metade" duas vezes, cada uma descendo sozinha: o texto da regra
+            return i // 2 + _maestria(nv) // 2
+
+        def _reab_pe(p, nv):
+            C = _classe(nv)
+            poco = p * nv
+            dia = poco + _resp * math.floor(poco * _pct / 100)
+            teto, ab = math.floor(_Mc * C), _abrir * C
+            return max(0, (dia - ab) // (teto + ab))
+
+        # 1. o nivel em que ela chega, pela curva do especialista e pelos tres gates
+        _cur = CURVA['especialista']
+        _m1 = next((m for m, r in zip(MARCOS, _cur)
+                    if r >= int(_mer.group(1)) and m >= int(_mer.group(2))), None)
+        _m2 = next((m for m, r in zip(MARCOS, _cur) if _m1 and m > _m1 and r >= _gc), None)
+        _m3 = next((m for m in MARCOS if _m2 and m > _m2), None)
+        _mche = re.search(r'chega no nível `(\d+)` para o especialista:\*\* \*a `Energia Reversa` no '
+                          r'`(\d+)`, a `Circulação` no `(\d+)`', _sreg)
+        _mmae = re.search(r'A maestria ali já é `(\d+)`, então a metade dela nunca dá zero', _sreg)
+        if not _m3:
+            erro('a `Regravação` nao chega em nivel nenhum pela curva do especialista — a '
+                 'corrente de tres gates passou do ultimo marco')
+        elif not _mche or (int(_mche.group(1)), int(_mche.group(2)), int(_mche.group(3))) != (_m3, _m1, _m2):
+            erro(f'a peca diz que a `Regravação` chega no nivel '
+                 f'{_mche.group(1) if _mche else "?"}, e a curva do especialista com os gates '
+                 f'da da {_m1} -> {_m2} -> {_m3}')
+        elif not _mmae or int(_mmae.group(1)) != _maestria(_m3):
+            erro(f'a peca diz maestria {_mmae.group(1) if _mmae else "?"} no nivel {_m3}, e a '
+                 f'peca 1 §2 da {_maestria(_m3)}')
+        elif _maestria(_m3) // 2 < 1:
+            erro(f'no nivel {_m3} a metade da maestria da zero, e a peca diz que ela nunca da — '
+                 'com Inteligencia baixa a aptidao sairia sem marca nenhuma')
+        else:
+            print(f'  a `Regravação`: chega no nivel {_m3} ({_m1} -> {_m2} -> {_m3}), maestria '
+                  f'{_maestria(_m3)} ali, marcas = {_attr} // 2 + maestria // 2')
+            print(f'  [x] o nivel de chegada reconstroi dos gates, e a marca minima e '
+                  f'{min(_marcas(0, n) for n in range(_m3, MARCOS[-1] + 1))}')
+
+        # 2. a corrente de gates de aptidao, contada dos titulos
+        _cad, _nome = 0, 'Regravação'
+        while _nome and _cad < 10:
+            _tl = re.search(rf'^### {re.escape(_nome)} · [^\n]*$', PECA11, re.M)
+            if not _tl:
+                break
+            _cad += 1
+            _px = re.search(r'exige a `([^`]+)`', _tl.group(0))
+            _nome = _px.group(1) if _px else None
+        _mcad = re.search(r'A corrente inteira custa (\w+) marcos', _sreg)
+        if not _mcad or _nr(_mcad.group(1)) != _cad:
+            erro(f'a peca diz que a corrente custa {_mcad.group(1) if _mcad else "?"} marcos, e '
+                 f'os titulos encadeiam {_cad} aptidoes')
+        else:
+            print(f'  [x] a corrente custa {_cad} marcos, contados dos gates nos titulos')
+
+        # 3. a tabela das marcas, nivel a nivel
+        _mh = re.search(rf'^\| {_attr} \|((?: \d+ \|)+)$', _sreg, re.M)
+        _rows = re.findall(r'^\| marcas, do nível (\d+) ao (\d+) \|((?: \d+ \|)+)$', _sreg, re.M)
+        if not _mh or not _rows:
+            erro('a tabela das marcas da `Regravação` mudou de forma e esta checagem parou de ler')
+        else:
+            _col = [int(x) for x in _mh.group(1).strip(' |').split(' | ')]
+            _ruim = []
+            if _col != list(range(0, TETO_AT + 1)):
+                _ruim.append(f'as colunas vao de {_col[0]} a {_col[-1]}, e o atributo vai de 0 a {TETO_AT}')
+            _cobre = []
+            for _lo, _hi, _cel in _rows:
+                _lo, _hi = int(_lo), int(_hi)
+                _cobre += list(range(_lo, _hi + 1))
+                _pub = [int(x) for x in _cel.strip(' |').split(' | ')]
+                for _nv in range(_lo, _hi + 1):
+                    _esp = [_marcas(i, _nv) for i in _col]
+                    if _pub != _esp:
+                        _ruim.append(f'no nivel {_nv} a linha publica {_pub} e a formula da {_esp}')
+                        break
+            if _m3 and _cobre != list(range(_m3, MARCOS[-1] + 1)):
+                _ruim.append(f'as linhas cobrem {_cobre[0]}-{_cobre[-1]} com buraco ou sobra, e a '
+                             f'aptidao vai do nivel {_m3} ao {MARCOS[-1]}')
+            for _r in _ruim:
+                erro(f'a tabela das marcas da `Regravação`: {_r}')
+            if not _ruim:
+                print(f'  [x] as {len(_rows)} linhas da tabela das marcas reconstroem em todo nivel '
+                      f'de {_m3} a {MARCOS[-1]}')
+
+        # 4. o Gojo: o teto de atributo no ultimo nivel tem de dar o numero da obra
+        _mg = re.search(rf'{_attr} `(\d+)` no nível `(\d+)` dá `(\d+)`, que é a conta do Gojo', _sreg)
+        _mo = re.search(r'o Gojo parou depois de (\w+) vezes', _sreg)
+        if not _mg or not _mo:
+            erro('a `Regravação` parou de ancorar a formula no Gojo do cap. 230, ou a tabela '
+                 'da obra parou de dizer quantas vezes ele abriu')
+        elif (int(_mg.group(1)), int(_mg.group(2))) != (TETO_AT, MARCOS[-1]) \
+                or int(_mg.group(3)) != _marcas(TETO_AT, MARCOS[-1]) \
+                or _nr(_mo.group(1)) != int(_mg.group(3)):
+            erro(f'o Gojo: a peca publica {_attr} {_mg.group(1)} no nivel {_mg.group(2)} dando '
+                 f'{_mg.group(3)}, a formula no teto da {_marcas(TETO_AT, MARCOS[-1])}, e a obra '
+                 f'diz {_mo.group(1)}')
+        else:
+            print(f'  [x] {_attr} {TETO_AT} no nivel {MARCOS[-1]} da {_mg.group(3)} marcas, o '
+                  'numero da obra')
+
+        # 5. o arredondamento: a outra leitura, e onde ela diverge
+        _msom = re.search(rf'Somar antes de dividir daria (\w+) marca a mais com {_attr} ímpar, '
+                          r'do nível (\d+) ao (\d+)', _sreg)
+        if not _msom or not _m3:
+            erro('a peca parou de dizer onde somar antes de dividir daria outro numero — e e a '
+                 'frase que mostra a leitura que o §5.4 recusou')
+        else:
+            _dif = {(i, nv): (i + _maestria(nv)) // 2 - _marcas(i, nv)
+                    for i in range(TETO_AT + 1) for nv in range(_m3, MARCOS[-1] + 1)}
+            _pos = {k: v for k, v in _dif.items() if v}
+            _niv = sorted({nv for _, nv in _pos})
+            _ats = sorted({i for i, _ in _pos})
+            if (set(_pos.values()) != {_nr(_msom.group(1))}
+                    or _niv != list(range(int(_msom.group(2)), int(_msom.group(3)) + 1))
+                    or _ats != [i for i in range(TETO_AT + 1) if i % 2]):
+                erro(f'somar antes de dividir diverge em {_attr} {_ats}, niveis '
+                     f'{_niv[:1]}..{_niv[-1:]}, por {sorted(set(_pos.values()))} — e a peca diz '
+                     f'{_msom.group(1)} a mais, com {_attr} impar, do {_msom.group(2)} ao {_msom.group(3)}')
+            else:
+                print(f'  [x] a leitura recusada da uma marca a mais so com {_attr} impar, do '
+                      f'nivel {_niv[0]} ao {_niv[-1]}')
+
+        # 6. quanto o PE paga, e se o contador segura alguem
+        _niveis = range(_m3 or MARCOS[-1], MARCOS[-1] + 1)
+        _cap = {k: max(_reab_pe(p, nv) for nv in _niveis) for k, p in _pe_cam.items()}
+        _mpg = re.search(r'O PE do dia paga no máximo (\w+) reaberturas no Bastião, (\w+) na Vanguarda '
+                         r'e no Guia, e (\w+) no Evocador e no Emanador', _sreg)
+        _mrs = re.search(r'com os (\w+) respiros entre as (\w+) lutas de graça da peça 10: cada '
+                         r'reabertura custa o teto da regravação mais os `(\d+) ×` a maior Classe', _sreg)
+        if not _mpg or not _mrs:
+            erro('a `Regravação` parou de publicar quanto o PE paga, ou a conta que diz de onde isso sai')
+        else:
+            _pub = {'Bastião': _nr(_mpg.group(1)), 'Vanguarda e Guia': _nr(_mpg.group(2)),
+                    'Evocador e Emanador': _nr(_mpg.group(3))}
+            if _pub != _cap:
+                erro(f'o PE do dia paga {_cap} reaberturas pela conta, e a peca publica {_pub}')
+            elif (_nr(_mrs.group(1)), _nr(_mrs.group(2)), int(_mrs.group(3))) != (_resp, _lutas, _abrir):
+                erro(f'a peca diz {_mrs.group(1)} respiros, {_mrs.group(2)} lutas e '
+                     f'{_mrs.group(3)} x Classe, e os donos dao {_resp}, {_lutas} e {_abrir}')
+            else:
+                print(f'  [x] o PE do dia paga {_cap["Bastião"]}, {_cap["Vanguarda e Guia"]} e '
+                      f'{_cap["Evocador e Emanador"]} reaberturas, em todo nivel de {_niveis[0]} a {_niveis[-1]}')
+
+        _solto = [k for k, p in _pe_cam.items()
+                  if not any(_marcas(0, nv) - 1 < _reab_pe(p, nv) for nv in _niveis)]
+        if _solto:
+            erro(f'com {_attr} 0 o contador nao segura ninguem em {_solto} antes do PE — ali ele '
+                 'virou enfeite, que era o defeito do N fixo em 5 da rodada 2')
+        else:
+            print(f'  [x] com {_attr} 0 o contador segura antes do PE nos tres grupos de Caminho')
+
+        _K = max(_marcas(i, nv) - 1 for i in range(TETO_AT + 1) for nv in _niveis)
+        _quem = sorted({i for i in range(TETO_AT + 1) for nv in _niveis if _marcas(i, nv) - 1 == _K})
+        _desde = min(nv for i in range(TETO_AT + 1) for nv in _niveis if _marcas(i, nv) - 1 == _K)
+        _pagam = sorted(k for k, v in _cap.items() if v >= _K)
+        _mq = re.search(rf'As (\w+) reaberturas só saem com {_attr} `(\d+)` do nível `(\d+)` em diante, '
+                        r'e só o (\w+) e o (\w+) têm PE para elas', _sreg)
+        if not _mq:
+            erro('a peca parou de dizer quem alcanca o maximo de reaberturas')
+        elif (_nr(_mq.group(1)), [int(_mq.group(2))], int(_mq.group(3))) != (_K, _quem, _desde) \
+                or _pagam != [k for k in _pe_cam if _mq.group(4) in k and _mq.group(5) in k]:
+            erro(f'o maximo de reaberturas pelo contador e {_K}, com {_attr} {_quem} desde o nivel '
+                 f'{_desde}, e so {_pagam} tem PE para ele — a peca diz {_mq.group(0)[:90]}')
+        else:
+            print(f'  [x] as {_K} reaberturas saem so com {_attr} {_quem[0]} do nivel {_desde}, e so '
+                  f'{_pagam[0]} paga')
+
+        # 7. o inimigo: a frase diz o que a peca 26 faz hoje
+        if 'A peça 26 não fala de Rescaldo' in _sreg and re.search(r'Rescaldo', _T26r):
+            erro('a peca 26 passou a falar de Rescaldo, e a `Regravação` diz que ela nao fala — '
+                 'a pergunta do inimigo precisa ser relida')
+
+        # 8. as duas copias do livro: o capitulo de aptidoes e o ponteiro no Fundamento
+        _lf = re.search(rf'Com `metade da sua {_attr} \+ metade da sua maestria` marcas, cada metade '
+                        r'arredondando para baixo, você não abre Expansão de Domínio', _T45r)
+        _lr = re.search(r'Requisito: ter a `Circulação`\. Classe Passiva 3\.', _T45r)
+        _lt = re.search(r'^\| Regravação \| `Circulação` \| 3 \| — \|$', _T45r, re.M)
+        _le45 = re.search(rf'No nível (\d+), com {_attr} (\d+), você tem `(\d+) \+ (\d+) = (\d+)` marcas\. '
+                          r'Você abre a Expansão, regrava, e repete até a (\w+) regravação', _T45r)
+        if not (_lf and _lr and _lt):
+            erro('o livro, no capitulo de aptidoes, nao publica a `Regravação` como a peca 11 — '
+                 'a formula das marcas, o requisito ou a linha da tabela divergiram')
+        elif not _le45:
+            erro('o exemplo da `Regravação` no livro mudou de forma e ninguem confere a conta dele')
+        else:
+            _nv, _i = int(_le45.group(1)), int(_le45.group(2))
+            _a, _b, _n = int(_le45.group(3)), int(_le45.group(4)), int(_le45.group(5))
+            if (_a, _b, _n, _ORD_REG.get(_le45.group(6))) != (_i // 2, _maestria(_nv) // 2,
+                                                             _marcas(_i, _nv), _marcas(_i, _nv)):
+                erro(f'o exemplo do livro faz {_a} + {_b} = {_n} ate a {_le45.group(6)}, e a regra da '
+                     f'{_i // 2} + {_maestria(_nv) // 2} = {_marcas(_i, _nv)}')
+            else:
+                print(f'  [x] o livro publica a mesma formula, o requisito e a linha da tabela, e o '
+                      f'exemplo do nivel {_nv} fecha em {_n}')
+        if 'A aptidão `Regravação`' not in _T40r:
+            erro('a caixa do Rescaldo no capitulo do Fundamento parou de apontar para a '
+                 '`Regravação` — o jogador le "pelo resto da cena" sem saber da saida')
+
+
 # --- o kokusen mora em DOIS documentos, e a v0.202 achou os tres jeitos de eles
 # divergirem. O livro publicava um gatilho mais largo, um relogio que esta peca
 # MEDIU E RECUSOU, e um requisito que esta peca nega com todas as letras. Nada
@@ -1866,7 +2156,8 @@ _TEST = open(_AEST, encoding='utf-8').read()
 _TLIV = open(_ALIV, encoding='utf-8').read() if os.path.exists(_ALIV) else ''
 
 _NUM = {'zero': 0, 'uma': 1, 'duas': 2, 'três': 3, 'quatro': 4, 'cinco': 5,
-        'seis': 6, 'sete': 7, 'oito': 8, 'nove': 9, 'dez': 10}
+        'seis': 6, 'sete': 7, 'oito': 8, 'nove': 9, 'dez': 10, 'onze': 11,
+        'doze': 12, 'treze': 13, 'catorze': 14, 'quinze': 15}
 
 
 def _n(txt):
@@ -1973,6 +2264,74 @@ else:
             else:
                 print(f'  [x] as {len(_PUBS)} publicacoes dizem {PURA}, e o numero nao')
                 print('      esta escrito dentro deste validador.')
+
+
+        # ---- v0.239: quantas custam marco, a folga, e o tamanho do catalogo contra a
+        # faixa que a peca declarou. As contagens saem das duas tabelas da peca 11 (o
+        # catalogo fechado e a contagem da §6.8); o piso da folga e' o PURA acima.
+        _catf = _T11.split('### O catálogo fechado')[1].split('\n### ')[0] \
+            if '### O catálogo fechado' in _T11 else ''
+        _lcat = re.findall(r'^\|\s*\d+\s*\|\s*\*\*(.+?)\*\*\s*\|\s*(.*?)\s*\|', _catf, re.M)
+        _npag = len(_lcat) - sum(1 for _x, _g in _lcat if 'grátis' in _g)
+        _s68 = _T11.split('### A contagem: ')[1].split('\n### ')[0] if '### A contagem: ' in _T11 else ''
+        _tot68, _viv68 = 0, 0
+        for _nm68, _sv68 in re.findall(r'^\| [\d–]+ \| (.+?) \| .*? \| (.*?) \|$', _s68, re.M):
+            _k68 = len(re.findall(r'`[^`]+`', _nm68))
+            _tot68 += _k68
+            _viv68 += _k68 if 'sim' in _sv68 else 0
+        _T09 = open(os.path.join(AQUI, '09-origens.md'), encoding='utf-8').read()
+        _ORD10 = {'primeira': 11, 'segunda': 12, 'terceira': 13, 'quarta': 14, 'quinta': 15}
+        _CONTAS = [
+            ('peca 11 §3, quantas custam marco', _T11,
+             r'tem \*\*(\d+) que custam marco\*\*', _npag),
+            ('peca 11 §3, a folga', _T11, r'\*Cabe, com (\w+) de folga\.\*', _npag - PURA),
+            ('peca 11 §3, a folga que a Cortina gasta', _T11,
+             r'A folga de (\w+) continua de pé', _npag - PURA),
+            ('peca 11 §3, quantas a folga deixaria de fora', _T11,
+             r'ela some se alguém quiser as (\w+)\.', _npag),
+            ('peca 11 §6.8, pagas do feiticeiro', _T11,
+             r'catálogo de aptidões tem (\w+) pagas com', _npag),
+            ('peca 11 §6.8, folga do feiticeiro', _T11,
+             r'catálogo de aptidões tem \w+ pagas com (\w+) de folga', _npag - PURA),
+            ('peca 11 §10, o titulo do catalogo', _T11,
+             r'### O catálogo fechado — (\w+) entradas', len(_lcat)),
+            ('peca 11 §6.8, o total da contagem', _T11, r'### A contagem: \w+ das (\w+) morrem', len(_lcat)),
+            ('peca 11 §6.8, as que morrem', _T11, r'### A contagem: (\w+) das \w+ morrem', _tot68 - _viv68),
+            ('peca 11 §6.8, a que sobra', _T11, r'\*\*Uma de (\w+), e é a que não diz o que faz', _tot68),
+            ('peca 11 §6.8, a linha das Bencaos', _T11,
+             r'\*\*(\w+) das \w+ aptidões são construídas em cima da energia', _tot68 - _viv68),
+            ('peca 11, o tamanho hoje', _T11, r'Hoje são (\w+), no teto da faixa', len(_lcat)),
+            ('peca 9, o total', _T09, r'das (\w+) aptidões, \*\*\w+ são construídas', _tot68),
+            ('peca 9, as construidas em energia', _T09,
+             r'das \w+ aptidões, \*\*(\w+) são construídas', _tot68 - _viv68),
+        ]
+        _mau = []
+        for _rot, _txt, _rx, _esp in _CONTAS:
+            _m = re.search(_rx, _txt)
+            if not _m:
+                _mau.append(f'{_rot}: a frase sumiu do reconhecedor')
+            elif _n(_m.group(1)) != _esp:
+                _mau.append(f'{_rot} diz {_m.group(1)}, e a conta da {_esp}')
+        _m9o = re.search(r'e a décima (\w+) é formato', _T09)
+        if not _m9o or _ORD10.get(_m9o.group(1)) != _tot68:
+            _mau.append(f'peca 9, a ordinal da que e formato: {_m9o.group(1) if _m9o else "sumiu"}, '
+                        f'e ela e a {_tot68}a')
+        if _tot68 != len(_lcat):
+            _mau.append(f'a §6.8 conta {_tot68} aptidoes e o catalogo fechado tem {len(_lcat)}')
+        _mfx = re.search(r'\| \*\*O tamanho do catálogo\*\* \| \*\*(\w+) a (\w+)\*\*', _T11)
+        if not _mfx:
+            _mau.append('a faixa do tamanho do catalogo sumiu da tabela das decisoes')
+        elif not (_n(_mfx.group(1)) <= len(_lcat) <= _n(_mfx.group(2))):
+            _mau.append(f'o catalogo tem {len(_lcat)} entradas e a faixa declarada e '
+                        f'{_mfx.group(1)} a {_mfx.group(2)} — a faixa precisa ser revista antes')
+        elif 'no teto da faixa' in _T11 and len(_lcat) != _n(_mfx.group(2)):
+            _mau.append(f'a peca diz que o catalogo esta no teto da faixa, e ele tem {len(_lcat)} '
+                        f'de {_mfx.group(2)}')
+        for _r in _mau:
+            erro(f'11: {_r}')
+        if not _mau:
+            print(f'  [x] o catalogo tem {len(_lcat)} entradas, {_npag} pagas contra {PURA} picks: '
+                  f'folga de {_npag - PURA}, e as {len(_CONTAS) + 2} frases que publicam isso batem')
 
         # ---- a linha `meio a meio` do ESTADO-ATUAL: ela e' a unica que nao esta
         # na peca 11, e ate a v0.160 ela descrevia uma rota DIFERENTE com o mesmo

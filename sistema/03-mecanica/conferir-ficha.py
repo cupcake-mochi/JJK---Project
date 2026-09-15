@@ -17,7 +17,7 @@ Entao a regra e a mesma de sempre: um numero, um dono. O dono e' a peca; o
 gerador-ficha/dados.js e' copia; e este validador falha quando os dois
 discordam.
 
-Seis checagens
+Nove checagens
 --------------
   1. PERICIAS — as 23 da ficha sao as 23 da peca 7, com o mesmo atributo.
   2. OFICIOS — os da ficha sao os da peca 7 (a contagem sai da peca).
@@ -29,6 +29,11 @@ Seis checagens
      atributo batem com as pecas donas.
   6. OS ARQUIVOS EXISTEM — o .docx gerado esta em 05-material, e o gerador
      tambem.
+  7. O BLOCO DE INIMIGO — o gerador do bloco contra a peca 26.
+  8. FAMILIAS — as da ficha sao as da tabela do manual, as da Kaori sao as da
+     peca 8, e as duas fichas publicadas trazem as do manual.
+  9. A TIRA DE REFERENCIA E AS NOTAS — o que a pagina 3 resume, e as notas da
+     pagina 2, contra as pecas e o livro, e nenhuma mecanica morta.
 
 Roda de sistema/03-mecanica. Nao le o .docx e nao precisa de python-docx.
 """
@@ -822,6 +827,182 @@ else:
              'tres lugares que calculam a escala divergem em silencio')
     else:
         print('  [x] a peca declara o arredondamento meio para baixo, e o gerador segue')
+
+# ==========================================================================
+print()
+print('=' * 88)
+print('8. FAMILIAS — as da ficha sao as do manual, e as da Kaori sao as da peca 8')
+print('=' * 88)
+# v0.239, o B4 do repositorio da ficha. A ficha imprimia `Ataque`, `Corpo`,
+# `Movimento` e `Percepção`, que o manual nao tem, e nao imprimia `Alcance`,
+# `Mira`, `Tempo` e `Marca`, que juntas sao boa parte das Melhorias. Passou
+# porque as checagens de cima cobrem pericia, oficio, Caminho, Trilha e
+# constante, e a lista de Familias era a unica copia da ficha sem dono.
+#
+# O DONO e' a tabela `Famílias` do gerador do manual do Fundamento: nenhuma peca
+# de 03-mecanica declara a lista. Se uma passar a declarar, a fonte muda para ela.
+# Nenhum nome de Familia e nenhuma contagem estao escritos aqui.
+_EXT8 = {'sete': 7, 'oito': 8, 'nove': 9, 'dez': 10, 'onze': 11, 'doze': 12,
+         'duas': 2, 'dois': 2, 'três': 3, 'tres': 3}
+_PARTB = ler(os.path.join(AQUI, '..', '..', 'manual', 'gerador', 'partB.js'),
+             'o partB.js do gerador do manual') or ''
+_mfam = re.search(r"H2\('Famílias'\).*?TBL\(\[[^\]]*\],\s*\[(.*?)\n\s*\],", _PARTB, re.S)
+_mqtd = re.search(r"divididas em (\w+) Famílias", _PARTB)
+_fam_ficha = lista_js('FAMILIAS')
+if not _mfam or not _mqtd:
+    erro('8: nao achei a tabela de Familias no partB.js, ou a frase que diz quantas '
+         'sao — se o gerador do manual mudou de forma, esta checagem parou de conferir')
+elif _fam_ficha is None:
+    erro('8: nao achei FAMILIAS no dados.js da ficha')
+else:
+    _fam_manual = re.findall(r"\['([^']+)',", _mfam.group(1))
+    _qtd = _EXT8.get(_mqtd.group(1).lower())
+    if _qtd is None or len(_fam_manual) != _qtd:
+        erro(f'8: li {len(_fam_manual)} Familias na tabela do partB.js, e a frase dele diz '
+             f'"{_mqtd.group(1)}" — a leitura esta errada, conserte ela antes de confiar')
+    else:
+        _sobra = [f for f in _fam_ficha if f not in _fam_manual]
+        _falta = [f for f in _fam_manual if f not in _fam_ficha]
+        if _sobra:
+            erro(f'8: a ficha imprime Familia que o manual nao tem: {_sobra}. Nenhuma '
+                 f'Melhoria pertence a ela, e o jogador marca um quadrado vazio')
+        if _falta:
+            erro(f'8: a ficha nao imprime Familia que o manual tem: {_falta}. O jogador '
+                 f'nao tem onde marcar ela como Livre ou Fechada')
+        if len(set(_fam_ficha)) != len(_fam_ficha):
+            erro(f'8: a ficha imprime Familia repetida: {_fam_ficha}')
+        if not _sobra and not _falta and len(set(_fam_ficha)) == len(_fam_ficha):
+            print(f'  [x] as {len(_fam_manual)} Familias da ficha sao as {len(_fam_manual)} '
+                  f'da tabela do manual')
+
+        # a Kaori: as dela no make.js tem de existir, e tem de ser as da peca 8
+        _MAKE = ler(os.path.join(GER, 'make.js'), 'o make.js do gerador da ficha') or ''
+        _FJS = ler(os.path.join(GER, 'ficha.js'), 'o ficha.js do gerador da ficha') or ''
+        _P08 = ler(os.path.join(AQUI, '08-criacao-de-personagem.md'), 'a peca 8') or ''
+        _mk = re.search(r"livres: \[([^\]]*)\],\s*fechadas: \[([^\]]*)\]", _MAKE)
+        _mp = re.search(r"\*Famílias Livres:\* ([^.]+)\. \*Fechadas:\* ([^—]+?) —", _P08)
+        _mf = re.search(r"Famílias — (\w+) Livres, (\w+) Fechadas", _FJS)
+
+        def _nomes(s):
+            return [x.strip().strip("'") for x in re.split(r',| e ', s) if x.strip()]
+        if not _mk or not _mp or not _mf:
+            erro('8: nao achei as Familias da Kaori no make.js, a frase dela na peca 8, '
+                 'ou o rotulo de quantas Livres e Fechadas no ficha.js')
+        else:
+            _kl, _kf = _nomes(_mk.group(1)), _nomes(_mk.group(2))
+            _pl, _pf = _nomes(_mp.group(1)), _nomes(_mp.group(2))
+            _ql, _qf = _EXT8.get(_mf.group(1)), _EXT8.get(_mf.group(2))
+            _mau8 = []
+            _fora = [f for f in _kl + _kf if f not in _fam_manual]
+            if _fora:
+                _mau8.append(f'a Kaori marca Familia que o manual nao tem: {_fora}')
+            if (sorted(_kl), sorted(_kf)) != (sorted(_pl), sorted(_pf)):
+                _mau8.append(f'o make.js da {_kl} Livres e {_kf} Fechadas, e a peca 8 diz '
+                             f'{_pl} e {_pf}')
+            if (len(_kl), len(_kf)) != (_ql, _qf):
+                _mau8.append(f'a Kaori tem {len(_kl)} Livres e {len(_kf)} Fechadas, e a ficha '
+                             f'imprime "{_mf.group(1)} Livres, {_mf.group(2)} Fechadas"')
+            for _r in _mau8:
+                erro(f'8: {_r}')
+            if not _mau8:
+                print(f'  [x] as {len(_kl)} Livres e as {len(_kf)} Fechadas da Kaori existem no '
+                      f'manual e sao as da peca 8')
+
+        # e os dois .docx publicados tem de trazer as Familias do manual
+        for _arq8 in ('ficha-em-branco.docx', 'ficha-exemplo-kaori.docx'):
+            _p8 = os.path.join(MAT, _arq8)
+            if not os.path.isfile(_p8):
+                continue
+            try:
+                _tx8 = texto_do_docx(_p8)
+            except Exception as _exc8:
+                erro(f'8: {_arq8} nao abriu como .docx ({_exc8})')
+                continue
+            _sem8 = [f for f in _fam_manual if f not in _tx8]
+            if _sem8:
+                erro(f'8: {_arq8} nao traz {_sem8} — ele foi gerado de uma versao antiga do '
+                     f'dados.js. Rode "node make.js" em gerador-ficha e copie para 05-material')
+            else:
+                print(f'  [x] {_arq8} traz as {len(_fam_manual)} Familias do manual')
+
+# ==========================================================================
+print()
+print('=' * 88)
+print('9. A TIRA DE REFERENCIA E AS NOTAS — o que a ficha resume bate com o dono')
+print('=' * 88)
+# v0.239. A tira de referencia da pagina 3 dizia "canalizado = os dados da Classe e nada
+# mais", mecanica que a peca 5 declara morta desde a v0.81; mandava o jogador para a
+# quick-start, abandonada na v0.102; e dava os 25% do descanso curto "em ambiente
+# propicio", quando eles valem em qualquer lugar. A nota do pacto dizia que pacto entre
+# personagens nao tinha regra. Nenhum validador lia a tira nem as notas, porque o que elas
+# resumem mora em outro documento. Cada linha aqui le o dono e cobra a copia.
+_FJ9 = ler(os.path.join(GER, 'ficha.js'), 'o ficha.js do gerador da ficha') or ''
+_LV9 = os.path.join(AQUI, '..', '05-material', 'livro')
+_P01 = ler(os.path.join(AQUI, '01-atributos-acerto-defesa.md'), 'peca 1') or ''
+_P03 = ler(os.path.join(AQUI, '03-economia-de-acao-e-iniciativa.md'), 'peca 3') or ''
+_P05 = ler(os.path.join(AQUI, '05-caminho-e-combate-sem-feitico.md'), 'peca 5') or ''
+_P10 = ler(os.path.join(AQUI, '10-descanso-e-recuperacao.md'), 'peca 10') or ''
+_RLV = ler(os.path.join(_LV9, 'README.md'), 'o README do livro') or ''
+_L20 = ler(os.path.join(_LV9, 'manual', '20-criacao-de-personagem.md'), 'o capitulo de criacao do livro') or ''
+_L40 = ler(os.path.join(_LV9, 'manual', '40-fundamento.md'), 'o capitulo do Fundamento do livro') or ''
+_mau9 = []
+
+# as mortas: o dono declara a morte, e a ficha nao pode citar
+for _rot, _morte, _dono, _termo in (
+        ('o golpe canalizado', 'golpe canalizado" nunca existiu', _P05, 'canaliz'),
+        ('a quick-start', 'quick-start abandonado', _RLV, 'quick-start')):
+    if _morte not in _dono:
+        _mau9.append(f'o dono parou de declarar a morte d{_rot[0]} {_rot[2:]} — reveja se ela voltou')
+    elif _termo in _FJ9.lower():
+        _mau9.append(f'a ficha ainda cita {_rot}, que o dono declara morta')
+
+# os numeros e as frases da tira e das notas, contra quem manda neles
+_CONF9 = [
+    ('o deslocamento do turno', r'Deslocamento base: (\d+) metros', _P03, r"movimento (\d+) m \+ ação padrão", _FJ9),
+    ('o descanso curto', r'\| \*\*PE\*\* \| \*\*(\d+)% do seu máximo\*\* \|', _P10, r'curto devolve (\d+)% do PE máximo', _FJ9),
+    ('o crítico', r'> \*\*(\d+) natural numa rolagem de acerto é crítico', _P01, r"\['Crítico', '(\d+) natural", _FJ9),
+    ('a primeira Liberação Máxima', r'\| \*\*(\d+)\*\* \| A primeira Liberação Máxima\.', _L40, r'A Liberação Máxima chega no nível (\d+)', _FJ9),
+    ('a Técnica Máxima', r'\| \*\*(\d+)\*\* \| Classe \d+\. Técnica Máxima\.', _L40, r'e a Técnica Máxima no (\d+)', _FJ9),
+]
+for _rot, _rxd, _dono, _rxf, _copia in _CONF9:
+    _md, _mf = re.search(_rxd, _dono), re.search(_rxf, _copia)
+    if not _md or not _mf:
+        _mau9.append(f'{_rot}: nao achei {"o dono" if not _md else "a copia na ficha"}')
+    elif _md.group(1) != _mf.group(1):
+        _mau9.append(f'{_rot}: o dono diz {_md.group(1)} e a ficha diz {_mf.group(1)}')
+
+_FRASES9 = [
+    ('o descanso longo', '| **PE** | **cheio** | **metade do seu máximo** |', _P10,
+     'longo devolve tudo em ambiente propício, e metade fora dele'),
+    ('o arredondamento', 'Arredonde sempre para o lado que não te favorece', _P01,
+     'sempre para o lado que não te favorece'),
+    ('o pacto na criação', 'só o pacto de restrição entra na criação', _L20,
+     'Na criação só entra o pacto de restrição'),
+    ('a Classe 0', 'Cabe uma Melhoria `Leve` e uma Restrição `Leve` numa Classe 0', _L40,
+     'Cabe uma Melhoria Leve e uma Restrição Leve'),
+]
+for _rot, _fd, _dono, _ff in _FRASES9:
+    if _fd not in _dono:
+        _mau9.append(f'{_rot}: o dono parou de dizer "{_fd}" — a nota da ficha precisa ser relida')
+    elif _ff not in _FJ9:
+        _mau9.append(f'{_rot}: a ficha nao diz mais "{_ff}", e o dono continua dizendo')
+
+# e a ficha em branco publicada tem de ter sido gerada deste ficha.js
+_pb9 = os.path.join(MAT, 'ficha-em-branco.docx')
+if os.path.isfile(_pb9):
+    try:
+        _tx9 = texto_do_docx(_pb9)
+        if 'canaliz' in _tx9 or 'curto devolve' not in _tx9:
+            _mau9.append('ficha-em-branco.docx nao traz a tira de hoje — rode "node make.js" em '
+                         'gerador-ficha e copie para 05-material')
+    except Exception as _e9:
+        _mau9.append(f'ficha-em-branco.docx nao abriu ({_e9})')
+
+for _r in _mau9:
+    erro('9: ' + _r)
+if not _mau9:
+    print(f'  [x] as {len(_CONF9)} contas e as {len(_FRASES9)} frases da tira e das notas batem com os donos,')
+    print('      nenhuma mecanica morta aparece, e a ficha publicada e a deste ficha.js')
 
 # ==========================================================================
 print()

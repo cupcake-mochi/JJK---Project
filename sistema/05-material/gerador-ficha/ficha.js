@@ -19,7 +19,7 @@ function titulo(sub) {
     new Paragraph({ spacing: { after: 40 },
       border: { bottom: { style: BorderStyle.SINGLE, size: 12, color: C.crimson, space: 4 } },
       children: [new TextRun({ text: sub, bold: true, size: 34, color: C.deep, font: 'Georgia' })] }),
-    GAP(120),
+    GAP(20),
   ];
 }
 
@@ -134,13 +134,12 @@ function pagina2(f) {
 
   out.push(BLOCO('a Regra — uma frase, verificável pela mesa, sem número',
     V(t, 'regra'), 2));
-  out.push(NOTA('É o que você carrega a campanha inteira: **a técnica nunca muda**, o que evolui é o que você consegue fazer com ela. ' +
-                'A Regra é lida por outra pessoa antes de entrar em jogo — quem escreveu sabe o que quis dizer; quem vai arbitrar, não.'));
+  out.push(NOTA('**A técnica nunca muda**: o que evolui é o que você faz com ela. Outra pessoa lê a Regra antes de ela entrar em jogo.'));
 
-  out.push(BLOCO('o atributo da técnica — um dos cinco, escolhido na criação e travado',
-    V(t, 'atributo'), 1));
-  out.push(NOTA('É ele que entra no **ataque de conjuração** e na **CD dos seus feitiços**, na página 1. ' +
-                'Se ele ficar para trás, a sua técnica fica junto.'));
+  out.push(LINHA([['o atributo da técnica — um dos cinco, travado na criação', V(t, 'atributo')],
+                  ['selo — o gesto, a condição ou o objeto que a técnica exige', V(t, 'selo')]], [40, 60]));
+  out.push(NOTA('O atributo entra no **ataque de conjuração** e na **CD dos seus feitiços**, na página 1. ' +
+                'O Selo não custa nem devolve ponto, e Restrição que o Selo já obriga **não devolve ponto**.'));
 
   out.push(BLOCO('descrição — de onde ela veio, como ela aparece, o que as pessoas veem',
     V(t, 'descricao'), 2));
@@ -156,11 +155,8 @@ function pagina2(f) {
         b[i] || '', b[i] ? CX(livres.includes(b[i])) : '', b[i] ? CX(fechadas.includes(b[i])) : '']);
     })(),
     [22, 12, 12, 22, 12, 20], { boldCols: [0, 3], centerCols: [1, 2, 4, 5] }));
-  out.push(NOTA('Melhoria de família **Livre** custa metade da Classe a menos. De família **Fechada** você nunca compra nada. ' +
-                'É aqui que duas técnicas com a mesma Regra viram personagens diferentes.'));
+  out.push(NOTA('Melhoria de família **Livre** custa metade da Classe a menos. De família **Fechada** você nunca compra nada.'));
 
-  out.push(LINHA([['selo — o gesto, a condição ou o objeto que a técnica exige', V(t, 'selo')]], [100]));
-  out.push(NOTA('O Selo não custa nem devolve ponto: ele é identidade. Mas Restrição que o Selo já obriga **não devolve ponto**.'));
 
   out.push(BLOCO('Passiva Livre — uma, de graça. Não rola dado, não muda número, não faz ninguém rolar',
     V(t, 'passiva'), 2));
@@ -172,7 +168,7 @@ function pagina2(f) {
       V(c0[i], 'nome'), V(c0[i], 'forma'), V(c0[i], 'efeito')]),
     [7, 24, 20, 49], { centerCols: [0] }));
   out.push(NOTA('Classe 0 não gasta PE, não ocupa espaço e não se monta: escolha uma Forma e pronto. ' +
-                'Cabe uma Melhoria Leve, tirando um dado para pagar.'));
+                'Cabe uma Melhoria Leve e uma Restrição Leve, tirando um dado para pagar.'));
 
   out.push(FAIXA(`Feitiços conhecidos — ${X.CONHECIDOS} de Classe ${X.CLASSE}, ${X.PONTOS_POR_FEITICO} pontos e ${X.PONTOS_POR_FEITICO} PE cada`));
   const fs = t.feiticos || [];
@@ -185,7 +181,6 @@ function pagina2(f) {
     out.push(LINHA([['melhorias', V(fe, 'melhorias')],
                     ['restrições', V(fe, 'restricoes')],
                     ['o que ele faz', V(fe, 'efeito')]], [30, 30, 40]));
-    out.push(GAP(55));
   }
   out.push(NOTA('Restrição devolve ponto; Melhoria gasta. **A Liberação Máxima chega no nível 10** e a Técnica Máxima no 17 — nenhuma das duas existe ainda.'));
 
@@ -197,7 +192,7 @@ function pagina3(f) {
   const l = (f && f.lore) || {};
   const out = [...titulo('Quem é essa pessoa')];
 
-  out.push(NOTA('Esta é a página que atravessa as mesas: numa guilda com sete mestres, é ela que faz o seu personagem ser reconhecido numa mesa em que nunca jogou. Nada aqui rola dado.'));
+  out.push(NOTA('É esta página que outra mesa lê para reconhecer o seu personagem. Nada aqui rola dado.'));
 
   out.push(BLOCO('aparência — o que se vê antes de você abrir a boca', V(l, 'aparencia'), 2));
   out.push(BLOCO('história — como você chegou aqui', V(l, 'historia'), 4));
@@ -213,7 +208,7 @@ function pagina3(f) {
   out.push(BLOCO('a instituição — o que ela sabe de você, e o que ela não sabe', V(l, 'instituicao'), 2));
 
   out.push(BLOCO('pacto — opcional, e a maioria começa sem', V(l, 'pacto'), 2));
-  out.push(NOTA('**Provisório:** pacto entre personagens ainda não tem regra, e **na criação ele não entra** — quem quiser começar com um usa a `Regra Própria` do manual ou um `Legado`, que é onde essa ficção já mora.'));
+  out.push(NOTA('**Na criação só entra o pacto de restrição**, escrito junto da Origem ou da técnica. As outras três formas nascem em jogo, e estão no capítulo 17.'));
 
   // --- a tira de referencia: SO' o que e estrutural e nao envelhece
   out.push(FAIXA('Referência rápida'));
@@ -221,10 +216,9 @@ function pagina3(f) {
     ['O turno', 'movimento 9 m + ação padrão + ação bônus + reação'],
     ['Arredondamento', 'sempre para o lado que não te favorece. Custo sobe, ganho desce, e o que você ganha nunca fica abaixo de 1'],
     ['Crítico', '20 natural, e dobra os dados — só onde há rolagem de acerto'],
-    ['Os dois golpes', 'canalizado = os dados da Classe e nada mais, um por turno. Simples = arma + Força'],
-    ['Os dois descansos', 'curto devolve 25% do PE máximo em ambiente propício; longo zera o relógio e a exaustão'],
+    ['Os dois descansos', 'curto devolve 25% do PE máximo; longo devolve tudo em ambiente propício, e metade fora dele'],
   ], [22, 78], { boldCols: [0] }));
-  out.push(NOTA('Isto é só o que não muda. **CDs, condições, exaustão e o resto da mesa estão na quick-start** — repetir número em dois documentos é como eles divergem. Nota de campanha vai no verso.'));
+  out.push(NOTA('Isto é só o que não muda. **CDs, condições, exaustão e o resto da mesa estão no Manual da Guilda.** Nota de campanha vai no verso.'));
 
   return out;
 }
