@@ -17,8 +17,8 @@ Entao a regra e a mesma de sempre: um numero, um dono. O dono e' a peca; o
 gerador-ficha/dados.js e' copia; e este validador falha quando os dois
 discordam.
 
-Nove checagens
---------------
+Dez checagens
+-------------
   1. PERICIAS — as 23 da ficha sao as 23 da peca 7, com o mesmo atributo.
   2. OFICIOS — os da ficha sao os da peca 7 (a contagem sai da peca).
   3. CAMINHOS — nome, vida inicial, vida por nivel e PE por nivel batem com a
@@ -34,6 +34,8 @@ Nove checagens
      peca 8, e as duas fichas publicadas trazem as do manual.
   9. A TIRA DE REFERENCIA E AS NOTAS — o que a pagina 3 resume, e as notas da
      pagina 2, contra as pecas e o livro, e nenhuma mecanica morta.
+  10. OS TESTES DE RESISTENCIA — o que a tabela e a nota dela somam no treinado,
+      contra o termo da peca 1, no ficha.js e nas duas fichas publicadas.
 
 Roda de sistema/03-mecanica. Nao le o .docx e nao precisa de python-docx.
 """
@@ -1003,6 +1005,48 @@ for _r in _mau9:
 if not _mau9:
     print(f'  [x] as {len(_CONF9)} contas e as {len(_FRASES9)} frases da tira e das notas batem com os donos,')
     print('      nenhuma mecanica morta aparece, e a ficha publicada e a deste ficha.js')
+
+# ==========================================================================
+print()
+print('=' * 88)
+print('10. OS TESTES DE RESISTENCIA — o treinado soma o que a peca 1 manda')
+print('=' * 88)
+# v0.240, o B14 do repositorio da ficha. A tabela de TRs imprimia `d20 + atr + 2` no
+# treinado, e a peca 1 §4 soma a maestria desde a v0.117. Passou pelas nove de cima porque
+# nenhuma lia a coluna `total` dessa tabela. O termo sai da formula da peca 1, e nao daqui.
+_P01_10 = ler(os.path.join(AQUI, '01-atributos-acerto-defesa.md'), 'peca 1') or ''
+_FJ10 = ler(os.path.join(GER, 'ficha.js'), 'o ficha.js do gerador da ficha') or ''
+_mau10 = []
+_mp10 = re.search(r'Teste de Resistência = d20 \+ atributo do TR \+ (\w+)\s+'
+                  r'\(a (\w+) só entra se treinado\)', _P01_10)
+_mf10 = re.search(r"trTreinados\.includes\(nome\) \? 'd20 \+ atr \+ ([^']+)' : 'd20 \+ atr'", _FJ10)
+_mn10 = re.search(r"NOTA\('Treinado: `d20 \+ atributo \+ (\w+)`\. Sem treino: `d20 \+ atributo`\.'\)", _FJ10)
+if not _mp10 or _mp10.group(1) != _mp10.group(2):
+    _mau10.append('nao achei na peca 1 a formula do TR, com o termo que so entra se treinado')
+elif not _mf10:
+    _mau10.append('nao achei no ficha.js o que a tabela de TRs soma no treinado')
+elif _mf10.group(1) != _mp10.group(1):
+    _mau10.append(f'a ficha soma "{_mf10.group(1)}" no treinado, e a peca 1 soma "{_mp10.group(1)}"')
+elif not _mn10 or _mn10.group(1) != _mp10.group(1):
+    _mau10.append(f'a nota da tabela de TRs soma "{_mn10.group(1) if _mn10 else "?"}" no treinado, '
+                  f'e a peca 1 soma "{_mp10.group(1)}"')
+else:
+    # a tabela da Kaori marca os treinados; a em branco nao marca nenhum, e a nota e o que diz a conta
+    for _arq10, _alvo10 in (('ficha-exemplo-kaori.docx', f'd20 + atr + {_mp10.group(1)}'),
+                            ('ficha-em-branco.docx', f'Treinado: d20 + atributo + {_mp10.group(1)}')):
+        _p10 = os.path.join(MAT, _arq10)
+        if not os.path.isfile(_p10):
+            continue
+        try:
+            if _alvo10 not in texto_do_docx(_p10):
+                _mau10.append(f'{_arq10} nao traz "{_alvo10}" — rode "node make.js" em gerador-ficha '
+                              'e copie para 05-material')
+        except Exception as _e10:
+            _mau10.append(f'{_arq10} nao abriu ({_e10})')
+for _r in _mau10:
+    erro('10: ' + _r)
+if not _mau10:
+    print(f'  [x] o TR treinado soma a {_mp10.group(1)}, como na peca 1, na tabela, na nota e nas duas fichas')
 
 # ==========================================================================
 print()

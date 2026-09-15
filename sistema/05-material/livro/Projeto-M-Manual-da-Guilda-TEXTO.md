@@ -1667,7 +1667,7 @@ As listas de perícia, os traços e as rotas estão no capítulo 7, *Origens e L
 
 A Origem não dá ponto de atributo nenhum, e não decide a sua patente: todo personagem começa **Grau 4**, venha de onde vier.
 
-> **A tabela `Rotas de criação`, no fim do capítulo 7, *Origens e Legados*, diz por qual rota cada Origem monta o poder.** Se a sua for a sub-origem Sem Técnica, a máquina inteira está no capítulo 11, *Sem Técnica* — e o Passo 2 e o Passo 3 valem igual.
+> **O `Efeito na ficha` de cada Origem, no capítulo 7, *Origens e Legados*, diz por qual rota ela monta o poder.** Se a sua for a sub-origem Sem Técnica, a máquina inteira está no capítulo 11, *Sem Técnica* — e o Passo 2 e o Passo 3 valem igual.
 
 > **Duas rotas montam poder pela Técnica Marcial, no capítulo 10:** o Corpo Amaldiçoado e a Restrição Celestial pelo ramo sem energia. Se for o seu caso, o Passo 2 e o Passo 3 valem igual — o que muda é o capítulo que você abre para montar.
 
@@ -6825,4 +6825,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: 88c5656eeff0eab6f9b4c8ba3bb9f43c0117611f -->
+<!-- fonte: 70042aa5cef4a56792cf2b5275edecea158648b6 -->

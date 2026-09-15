@@ -16,6 +16,7 @@ import unicodedata
 import markdown
 from bs4 import BeautifulSoup
 from weasyprint import HTML, CSS
+from weasyprint.formatting_structure import boxes as _boxes
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(BASE)
@@ -663,6 +664,59 @@ def gera_marcas(n, margem_externa=32.0):
 # tabela orfa: por isso a cadeia vai inteira ou nao vai.
 LIMITE_BURACO = 0.65      # a cadeia tem de comecar abaixo disto da altura da pagina: o buraco nunca passa de 35%
 PASSADAS_MAX = 8
+TITULOS = ("h2", "h3", "h4", "h5")
+LINHAS_ORFAS = 2          # titulo com ate duas linhas da secao no pe da pagina, e o resto na seguinte
+
+
+def _linhas_desenhadas(page):
+    """As linhas da pagina desenhada, de cima para baixo: (y, tag do bloco, id do bloco). Fora as
+    margens, que carregam o cabecalho e o numero da pagina."""
+    out = []
+    for filho in page._page_box.children:
+        if isinstance(filho, _boxes.MarginBox):
+            continue
+        for b in filho.descendants():
+            if isinstance(b, _boxes.LineBox):
+                el = b.element
+                out.append((b.position_y, b.element_tag, el.get("id") if el is not None else None))
+    return sorted(out, key=lambda x: x[0])
+
+
+def titulos_orfaos(doc, soup):
+    """O titulo que e a ultima coisa da pagina com ate LINHAS_ORFAS linhas embaixo, e a secao dele
+    continuando na pagina seguinte.
+
+    Continuar e a pagina seguinte abrir com texto, ou com um titulo mais fundo que o dele: um `h2`
+    com uma linha e o `h3` dele na outra pagina tambem ficou sozinho. Se a seguinte abre com titulo
+    do mesmo nivel ou de cima, a secao inteira coube, e nao ha o que mover.
+
+    Devolve (cadeia, nome, capitulo, onde a cadeia comeca na pagina). A cadeia e o titulo e os
+    titulos colados logo antes dele."""
+    paginas = [_linhas_desenhadas(p) for p in doc.pages]
+    achados = []
+    for n in range(len(paginas) - 1):
+        ls, prox = paginas[n], paginas[n + 1]
+        ks = [k for k, x in enumerate(ls) if x[1] in TITULOS]
+        if not ks or not prox:
+            continue
+        _y, tag, tid = ls[ks[-1]]
+        if len({round(y) for y, _t, _i in ls[ks[-1] + 1:]}) > LINHAS_ORFAS:
+            continue
+        if prox[0][1] in TITULOS and prox[0][1] <= tag:
+            continue
+        h = soup.find(id=tid) if tid else None
+        if h is None:
+            continue
+        cadeia, ant = [h], h.find_previous_sibling()
+        while ant is not None and ant.name in TITULOS:
+            cadeia.insert(0, ant)
+            ant = ant.find_previous_sibling()
+        ys = [y for y, _t, i in ls if i == cadeia[0].get("id")]
+        if not ys:
+            continue          # a cadeia ja comecou na pagina anterior
+        achados.append((cadeia, h.get_text(" ", strip=True)[:50], id(h.find_parent("section")),
+                        min(ys) / doc.pages[n].height))
+    return achados
 
 
 def desenha_sem_tabela_orfa(folhas):
@@ -677,10 +731,22 @@ def desenha_sem_tabela_orfa(folhas):
     posicao das seguintes so vale depois de desenhar de novo. Capitulo abre pagina nova, entao
     um nao mexe no outro. So na coluna unica: nas duas colunas a quebra de pagina nao e a
     quebra de coluna.
+
+    **Na v0.240 o titulo entrou no mesmo laco.** O titulo que termina a pagina com ate
+    LINHAS_ORFAS linhas da secao embaixo, e o resto dela na seguinte, vai para a seguinte com os
+    titulos colados antes dele, pela mesma regra do buraco e na mesma cota de um por capitulo por
+    passada. As linhas saem da pagina desenhada, em `titulos_orfaos`.
+
+    Se o titulo vai e continua sozinho no alto da pagina nova, quem quebra e o bloco depois dele,
+    e a quebra so abriu uma pagina quase vazia: a marca e desfeita, ele fica, e o build avisa.
     """
     if VARIANTE != "unica":
         return HTML(OUT_HTML).render(stylesheets=folhas), [], []
     soup = BeautifulSoup(open(OUT_HTML, encoding="utf-8").read(), "html.parser")
+    # todo titulo precisa de id, para a linha desenhada achar o elemento dele
+    for i, h in enumerate(soup.find_all(TITULOS)):
+        if not h.get("id"):
+            h["id"] = f"titulo-orfao{i}"
     alvos = []
     for i, tab in enumerate(soup.find_all("table")):
         body = tab.find("tbody")
@@ -702,6 +768,7 @@ def desenha_sem_tabela_orfa(folhas):
         alvos.append((ini["id"], seg["id"], cadeia, ini.get_text(" ", strip=True)[:50],
                       id(tab.find_parent("section"))))
     movidas = []
+    titulos_movidos, recusados = {}, set()
     for passada in range(1, PASSADAS_MAX + 1):
         with open(OUT_HTML, "w", encoding="utf-8") as f:
             f.write(str(soup))
@@ -719,16 +786,50 @@ def desenha_sem_tabela_orfa(folhas):
                 continue
             c0 = cadeia[0]["id"]
             if pag.get(c0) != pag[a] or alt[c0] < LIMITE_BURACO:
-                ficaram.append((nome, alt.get(c0, 0.0)))
+                ficaram.append(("tabela", nome, f"a cadeia começa em {alt.get(c0, 0.0):.0%} da página"))
             elif cap not in caps:
                 caps.add(cap)
-                empurrar.append((cadeia[0], nome))
-        if not empurrar:
+                empurrar.append((cadeia[0], nome, "tabela"))
+        desfazer = []
+        for cadeia, nome, cap, onde in titulos_orfaos(doc, soup):
+            c0 = cadeia[0]
+            if c0["id"] in recusados:
+                ficaram.append(("título", nome, "o bloco seguinte quebra a página sozinho, e mover o "
+                                                "título deixava a página dele quase vazia"))
+                continue
+            if "quebra-antes" in (c0.get("class") or []):
+                # ja foi para a pagina seguinte e continua sozinho: quem quebra e o bloco depois dele,
+                # e a quebra so abriu uma pagina quase vazia. Desfaz, e nao tenta de novo.
+                if c0["id"] in titulos_movidos and cap not in caps:
+                    caps.add(cap)
+                    desfazer.append((c0, nome))
+                continue
+            if any("quebra-antes" in (e.get("class") or []) for e in cadeia):
+                continue
+            if onde < LIMITE_BURACO:
+                ficaram.append(("título", nome, f"a cadeia começa em {onde:.0%} da página"))
+            elif cap not in caps:
+                caps.add(cap)
+                empurrar.append((cadeia[0], nome, "título"))
+        if not empurrar and not desfazer:
+            print(f"  o laço das órfãs desenhou o livro {passada} vez(es)")
             return doc, movidas, ficaram
-        for el, nome in empurrar:
+        for el, nome, tipo in empurrar:
             el["class"] = (el.get("class") or []) + ["quebra-antes"]
-            movidas.append(nome)
-    return doc, movidas, ficaram
+            movidas.append((tipo, nome))
+            if tipo == "título":
+                titulos_movidos[el["id"]] = nome
+        for el, nome in desfazer:
+            el["class"] = [c for c in el["class"] if c != "quebra-antes"]
+            if not el["class"]:
+                del el["class"]
+            recusados.add(el["id"])
+            movidas.remove(("título", nome))
+    # as passadas acabaram com marca nova: desenha de novo, para o PDF levar a ultima marca
+    with open(OUT_HTML, "w", encoding="utf-8") as f:
+        f.write(str(soup))
+    print(f"  AVISO: as {PASSADAS_MAX} passadas acabaram empurrando; a última pode ter deixado outra órfã")
+    return HTML(OUT_HTML).render(stylesheets=folhas), movidas, ficaram
 
 def main():
     partes = []
@@ -874,12 +975,14 @@ def main():
         folhas.append(CSS(CSS_VARIANTE))
     doc_pdf, movidas, ficaram = desenha_sem_tabela_orfa(folhas)
     doc_pdf.write_pdf(OUT_PDF)
-    if movidas:
-        print(f"  {len(movidas)} tabela(s) foram para a página seguinte, para não ficar órfãs:")
-        for _t in movidas:
-            print(f"    · {_t}")
-    for _t, _a in ficaram:
-        print(f"  ficou órfã, porque a cadeia começa em {_a:.0%} da página: {_t}")
+    for _tipo, _rot in (("tabela", "tabela(s)"), ("título", "título(s)")):
+        _m = [_n for _t, _n in movidas if _t == _tipo]
+        if _m:
+            print(f"  {len(_m)} {_rot} foram para a página seguinte, para não ficar no pé sem o resto:")
+            for _n in _m:
+                print(f"    · {_n}")
+    for _tipo, _n, _porque in ficaram:
+        print(f"  {_tipo} {'ficou separada' if _tipo == 'tabela' else 'ficou separado'} do resto na quebra: {_n} — {_porque}")
     print(f"PDF:  {OUT_PDF}")
 
 

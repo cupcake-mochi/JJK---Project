@@ -50,6 +50,8 @@ PDF"*. É esse PDF, escrito direto a partir desta pasta.
 
 **E uma da v0.239, também na coluna única:** *o parágrafo de abertura que é a seção inteira não gruda mais no título seguinte.* **Grudado, ele juntava seções pequenas num bloco que não cabia no pé da página** — *três páginas curtas da Guilda viraram uma. A medida está em `cola_sabor`, no `build.py`.*
 
+**E uma da v0.240, também na coluna única:** *o título que terminava a página com uma ou duas linhas da seção embaixo, e o resto na seguinte, vai para a seguinte com os títulos colados antes dele.* **O `build.py` lê as linhas da página desenhada, e o título entra no mesmo laço das tabelas, com o mesmo limite de buraco e a mesma cota de um por capítulo por passada.** *Se o título vai e continua sozinho no alto da página nova, quem quebra é o bloco depois dele: a marca é desfeita, e o build diz qual ficou e por quê.* **Sem desfazer, a Guilda ia a `258` páginas com três quase vazias; desfazendo, ela vai de `254` a `255`, onze títulos mudam de página e três ficam.** *A medida está em `titulos_orfaos`, e o limite de linhas em `LINHAS_ORFAS`.*
+
 **E uma da v0.239 que o CSS não resolve:** *o WeasyPrint ignora `break-inside: avoid` em linha de tabela, e a tabela ficava com o título, o cabeçalho e uma linha no pé da página.* **Na coluna única o `build.py` desenha o livro, vê em que página caiu cada tabela, e quebra a página antes das órfãs, uma por capítulo por passada, até elas acabarem.** *A medida e o limite do buraco estão em `desenha_sem_tabela_orfa`, e o build diz quais tabelas foram e qual ficou.*
 
 ## Como regerar

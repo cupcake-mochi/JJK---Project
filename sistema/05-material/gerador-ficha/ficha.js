@@ -90,13 +90,14 @@ function pagina1(f) {
                 `(\`1/3 do refino + 1\`). Ela vale sem uniforme, sem armadura e sem escudo — vestir qualquer um deles a desliga. ` +
                 `Arredondamento: sempre para o lado que não te favorece, e o que você ganha nunca fica abaixo de 1.`));
 
-  // --- testes de resistencia
+  // --- testes de resistencia: o treinado soma a maestria (peca 1 §4), e o +2 fixo morreu na v0.117
   out.push(FAIXA('Testes de Resistência — dois treinados'));
   const trTreinados = (f && f.trs) || [];
   out.push(TBL(['', 'atributo', 'treinado', 'total'],
     X.TRS.map(([nome, attr]) => [nome, attr, CX(trTreinados.includes(nome)),
-      trTreinados.includes(nome) ? 'd20 + atr + 2' : 'd20 + atr']),
+      trTreinados.includes(nome) ? 'd20 + atr + maestria' : 'd20 + atr']),
     [18, 46, 14, 22], { boldCols: [0], centerCols: [2, 3] }));
+  out.push(NOTA('Treinado: `d20 + atributo + maestria`. Sem treino: `d20 + atributo`.'));
 
   // --- pericias
   out.push(FAIXA('Perícias — 23, e você treina 8 (ou 9)'));

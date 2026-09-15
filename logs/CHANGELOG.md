@@ -8,6 +8,57 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.240] — 15/09/2026
+
+**O Teste de Resistência treinado passou a somar a maestria na ficha de papel.** *É o `B14` do repositório da ficha, e ele fechou lá também, junto com o `B8`.* **E a planilha passou a prender a temporária digitada no teto de metade do máximo, que é o `B19`**, *ainda sem teste no Sheets.* **E onze títulos da Guilda deixaram de terminar a página com uma ou duas linhas da seção.** **E o capítulo 20 deixou de apontar para a tabela `Rotas de criação`, que saiu na v0.147.**
+
+### 1 · O TR treinado na ficha de papel
+
+**A tabela de TRs imprimia `d20 + atr + 2` no treinado.** *A peça 1 §4 soma a maestria desde a v0.117.* **O `ficha.js` passou a imprimir `d20 + atr + maestria`, e as duas fichas foram regeradas.** *Continuam com 3 páginas, conferidas no LibreOffice com a Carlito e a Gelasio.*
+
+**A checagem 10 do `conferir-ficha.py` lê a fórmula da peça 1 e cobra o termo no `ficha.js` e na ficha da Kaori publicada.** *A em branco fica de fora: ela não marca treinado nenhum, e imprime `d20 + atr` nas quatro linhas.* **Passou pelas nove de cima porque nenhuma lia a coluna `total` da tabela.**
+
+**O arnês rodou numa cópia isolada, com a base verde.** *Três perturbações acenderam pelo motivo certo, o contra-teste com a ficha da Kaori da v0.239 acendeu, e a mexida inócua ficou verde.*
+
+### 2 · No repositório da ficha
+
+- **A planilha somava `2` no treino dos quatro TRs.** *A `ficha-v01` ganhou a limpeza `9`: o termo sai do `bonus_se_treinado` do catálogo, que virou `maestria`, e a célula sai do índice da `DADOS`.* **A regressão da Kaori passou a recalcular os quatro TRs no LibreOffice:** *Físico `4` e Vigor `3`, que com o `2` davam `5` e `4`.*
+- **O `B8` já estava certo na planilha viva.** *A CD é `8 + atributo da técnica + maestria` desde a exportação de 14/09.* **Sobravam três restos:** *a nota da célula dizia "o 2 é fixo"; o `conferir-kaori.py` conferia contra a ficha da Kaori de 07/09, com as contas da mesma época; e o catálogo escrevia a Integridade como `20 + 8 × (nível − 1)`, que morreu na v0.145.* **E o `conferir-kaori.py` imprimia `NAO BATE` e saía com `0`**, *então ele nunca derrubou o `rodar-tudo.sh`.*
+- **O `B19`: o `Codigo.gs` prende no teto o campo TEMP digitado à mão.** *A metade arredonda para baixo, pela peça 1 §5.4, com piso de 1.* **Daqui só roda a conta, no `regressao-delta.js`.** *O item fica aberto até alguém digitar um TEMP acima da metade na planilha.*
+- **O bloco de TRs do catálogo saiu da lista das chaves não conferidas contra o livro**, *com a checagem nova no `conferir-catalogo.py`.*
+
+**Os dezesseis validadores de lá passam.** *O `arnes-delta.py` foi de doze para vinte e uma perturbações; o arnês das outras checagens novas deu treze de treze, e o do `conferir-kaori.py` deu seis de seis, com um contra-teste em cada.*
+
+### 3 · Os títulos no pé da página da Guilda
+
+**Treze títulos terminavam a página com uma ou duas linhas da seção, e o resto na seguinte:** *os quatro da fila — `Defesa`, `Ataque de oportunidade`, `Ordem dos passos` e `Limites` — e mais nove.* **O laço que empurra a tabela órfã, na coluna única dos dois `build.py`, passou a empurrar o título também**, *lendo as linhas da página desenhada.*
+
+| forma | páginas | títulos no pé | páginas quase vazias novas |
+|---|---|---|---|
+| antes | `254` | `13` | — |
+| empurrar todo título | `258` | `3` | `3` |
+| **empurrar, e desfazer o que continua sozinho** | **`255`** | **`3`** | **`0`** |
+
+**Os três que ficam são `Evocador`, `Fundamentos prontos` e `Ritmo de subida`:** *o bloco depois de cada um já quebra a página, e mover o título só abria uma página a mais.* **O build diz quais ficaram e por quê, e quantas vezes desenhou o livro** — *seis na Guilda.* *A única página curta fora de fim de capítulo continua sendo uma.*
+
+**O Bestiário não mudou:** *`61` páginas com o mesmo texto, e o `Orçamento de ação` fica porque a cadeia dele começa em `19%` da página.*
+
+**Nenhum validador lê as constantes do `build.py`**, *como já era com o `LIMITE_BURACO`.* **A medida rodou antes e depois nos dois livros com o mesmo script, e a primeira forma serviu de contra-teste da segunda.** *E a última passada do laço deixou de marcar sem desenhar, caso as oito se esgotem.*
+
+### 4 · O que a rodada levantou, e ele fechou
+
+- **O capítulo 20 apontava para a tabela `Rotas de criação`, "no fim do capítulo 7", e ela saiu na v0.147.** *A frase passou a apontar para o `Efeito na ficha` de cada Origem, depois de conferir que as sete dizem a rota ali.* **O livro foi regerado nas quatro formas.**
+- **A ficha em branco ganhou uma nota embaixo da tabela de TRs:** *"Treinado: `d20 + atributo + maestria`. Sem treino: `d20 + atributo`."* **Escolha dele, entre a nota e o texto na coluna, e as duas cabiam nas 3 páginas.** *A checagem 10 passou a cobrar a nota nas duas fichas, e o arnês dela foi a sete de sete, com a ficha em branco sem a nota como contra-teste.*
+- **No repositório da ficha, a `sub_origem` e as `rotas_de_criacao` do catálogo passaram a seguir o livro.** *Sem Técnica alcança as cinco Origens principais, e as nove rotas jogam, cada uma coberta pela frase do capítulo que a monta.* **As duas saíram da lista das não conferidas, com checagem no `conferir-catalogo.py` e nove de nove no arnês.**
+
+### Continua aberto
+
+- **Seis chaves do catálogo do repositório da ficha seguem não conferidas contra o livro:** *`fundamento`, `origens`, `legados`, `legados_formatos`, `progressao` e `atributos`.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, seção *"Onde estamos, e o que falta"*.
+
+---
+
 ## [0.239] — 14/09/2026
 
 **O Rescaldo ganhou porta de saída: a aptidão `Regravação`.** *É o item 7 da fila, com as decisões dele em duas rodadas.* **E a ficha em papel passou a imprimir as Famílias do manual**, *que é o `B4` do repositório da ficha, o `B17` saiu da fila, e a coluna única da Guilda perdeu as três páginas curtas.* **E a energia temporária passou a seguir a regra da vida temporária, as tabelas deixaram de ficar órfãs no pé da página, e as fichas de papel voltaram a 3 páginas.**
