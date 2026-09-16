@@ -1836,6 +1836,35 @@ else:
         print('  Nenhum destes valores esta escrito dentro deste validador: os do')
         print('  refino sao derivados da CURVA e os da Lapidacao sao lidos do texto.')
 
+    # v0.246: a Reacao da `Defesa sem Armadura`. A peca 11 SS6.8 trouxe a Reacao do
+    # cobrir-se para a Lapidacao na v0.165, por decisao do Mizuki, e o capitulo 47
+    # do livro nunca recebeu: a ficha sem energia lia so a metade passiva. A guarda
+    # le o multiplicador e o PE da peca e cobra os mesmos no livro, e cobra que os
+    # dois sejam os do cobrir-se do capitulo 45, trocando refino por Lapidacao.
+    _LIV = os.path.join(AQUI, '..', '05-material', 'livro', 'manual')
+    _rx_rea = lambda rec: (r'Redução de Dano de `(\d+(?:,\d+)?) × ' + rec +
+                           r'`[^.]*?por `?\*{0,2}(\d+)\s*`?\s*PE')
+    _pe68 = re.search(_rx_rea('Lapidação'), SEC68)
+    _b47 = open(os.path.join(_LIV, '47-bencaos-e-lapidacao.md'), encoding='utf-8').read()
+    _b47 = re.search(r'> \*\*Defesa sem Armadura\*\*(.*?)\n\n', _b47, re.S)
+    _l47 = re.search(_rx_rea('Lapidação'), _b47.group(1)) if _b47 else None
+    _b45 = open(os.path.join(_LIV, '45-aptidoes-e-refino.md'), encoding='utf-8').read()
+    _l45 = re.search(_rx_rea('refino'), _b45)
+    if not _pe68:
+        erro('9: a peca 11 SS6.8 nao escreve mais a Reacao da Lapidacao — a v0.165 trouxe '
+             'ela junto com a protecao, por decisao do Mizuki')
+    elif not _b47 or not _l47:
+        erro('9: o capitulo 47 do livro nao tem a Reacao da `Defesa sem Armadura` — a ficha '
+             'sem energia le so a metade passiva do cobrir-se')
+    elif not _l45:
+        erro('9: nao achei a Reacao do `Cobrir-se de energia` no capitulo 45')
+    elif not (_pe68.groups() == _l47.groups() == _l45.groups()):
+        erro(f'9: a Reacao diverge — peca 11 {_pe68.groups()}, capitulo 47 {_l47.groups()}, '
+             f'capitulo 45 {_l45.groups()} (multiplicador, PE)')
+    else:
+        print(f'  [x] a Reacao sem energia e {_l47.group(1)} x Lapidacao por {_l47.group(2)} PE na '
+              f'peca 11 e no capitulo 47, igual ao cobrir-se do capitulo 45')
+
 # --------------------------------------------------------------------------
 bloco('10. O DANO NA ARMA — a excecao da SS2, medida contra as duas condicoes')
 # v0.158. O dano na arma entrou no LIVRO na v0.147 e passou onze versoes sem peca,

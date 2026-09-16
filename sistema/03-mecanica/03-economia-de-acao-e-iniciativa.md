@@ -201,6 +201,27 @@ Um item que estava aberto há duas versões se resolve escrevendo uma frase que 
 
 *E na v0.26 a mesma lição pegou o mesmo item de novo.* A Restrição continuava dizendo *"você gasta um turno **concentrado**"*, e era essa palavra — só ela — que fazia Carregar e Concentração parecerem a mesma regra com dois testes diferentes. Ela saiu, e o preço não precisou de nenhum ajuste: o par Atrasar contra Carregar continua fechando pelos conjuntos de recurso, como esta seção já tinha resolvido.
 
+### A Restrição que o momento do feitiço apaga — v0.246
+
+**Uma Restrição que só cobra recurso do turno em que você conjura não cobra nada quando a Melhoria tira a conjuração desse recurso, ou desse turno.** *Duas Melhorias de `Tempo` fazem isso:* **o `Rápido` passa a conjuração para a ação bônus, e a `Reação` tira ela do seu turno.**
+
+| par | por que não cobrava | devolvia |
+|---|---|---|
+| `Rápido` + `Atrasar` | o `Atrasar` tira a ação bônus, que é onde o `Rápido` conjura | `Média`: um terço do orçamento, em toda Classe |
+| `Reação` + `Atrasar` | o `Atrasar` cobra "naquele turno", e a Reação sai no turno de outro, em que você não anda nem age | `Média` |
+| `Reação` + `Parado` | "você não se move no turno em que conjura", e no turno de outro você não se move | `Leve` |
+
+***Decisão do Mizuki na v0.246: vetar os três.*** *O `Rápido` e a `Reação` ganharam a trava no texto do manual, no molde do `Armado` com o `Carregar`.* **O primeiro par já era trava da ficha digital, pela decisão A3 de lá**, *e o manual ficava calado: quem montava no papel levava o desconto.* **Os outros dois apareceram testando a mesma leitura nas outras Restrições.**
+
+**O que continua valendo, pela mesma régua:**
+
+- `Rápido` + `Parado` — o movimento é recurso separado da ação bônus, então o `Parado` cobra.
+- `Reação` + `Gesto` — mão e voz são usadas na hora em que o feitiço sai, seja de quem for o turno.
+- `Reação` + `Carregar` — a carga gasta a ação padrão do seu turno anterior.
+- `Armado` com o `Atrasar` ou o `Parado` — você arma no seu turno, e é nele que o custo cai.
+
+**A checagem `6` do `conferir-acao.py` deriva os vetos dos conjuntos de recurso desta seção**, *e cobra que o manual e o livro escrevam esses vetos e nenhum outro.*
+
 ## 5. Iniciativa
 
 > **Iniciativa = d20 + Destreza.** Maior age primeiro. Empate se resolve pela maior Destreza; persistindo, o jogador decide antes do inimigo.

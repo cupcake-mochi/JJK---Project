@@ -311,6 +311,70 @@ else:
 
 print()
 print('=' * 92)
+print('6. O MOMENTO DO FEITICO APAGA A RESTRICAO — os vetos do `Rápido` e da `Reação`')
+print('=' * 92)
+# v0.246. Uma Restricao que so cobra recurso DO TURNO EM QUE VOCE CONJURA nao cobra
+# nada quando a Melhoria tira a conjuracao desse recurso ou desse turno:
+#   - o `Rápido` conjura na acao bonus, entao a Restricao que tira a acao bonus
+#     neste turno se contradiz com ele (o `Atrasar`);
+#   - a `Reação` conjura no turno de OUTRO, entao a Restricao que so cobra
+#     movimento/acao do seu turno sai de graca (o `Atrasar` e o `Parado`).
+# Os vetos NAO moram aqui: eles saem dos conjuntos de recurso da tabela do topo,
+# que e a regua da peca 3 §4, e o TEXTO que os aplica mora no manual (dono) e no
+# livro (copia). A checagem compara os dois lados, nos dois sentidos.
+# ⚠ A tabela do topo cobre 11 das Restricoes do manual. Uma Restricao nova de
+# "este turno" que nao entrar nela nao gera veto aqui.
+_art6 = {'Rápido': 'o', 'Reação': 'a'}
+_TURNO6 = {'movimento', 'acao_padrao', 'acao_bonus'}
+_deste6 = {n: rec for n, (p, rec, q) in RESTRICOES.items() if q == 'este turno'}
+_vetos6 = {
+    'Rápido': {n for n, rec in _deste6.items() if 'acao_bonus' in rec},
+    'Reação': {n for n, rec in _deste6.items() if rec <= _TURNO6},
+}
+
+
+def _vetados6(texto):
+    """os nomes depois de `nem com a Restricao X` / `nem com as Restricoes X e Y`"""
+    texto = texto.replace('`', '')
+    _m = _re.search(r'nem com as? Restriç(?:ão|ões) ([^.]+)', texto)
+    if not _m:
+        return set()
+    return {_x.strip() for _x in _re.split(r',| e ', _m.group(1)) if _x.strip()}
+
+
+import re as _re
+if _docx is None:
+    print('  PULADA: sem python-docx nao da para ler o manual, que e o DONO do texto.')
+elif not os.path.isfile(_DOCX):
+    erro('nao achei o manual .docx — os vetos do `Rápido` e da `Reação` nao foram conferidos')
+else:
+    _cel6 = {}
+    for _t in _docx.Document(_DOCX).tables:
+        for _r in _t.rows:
+            _nome = _r.cells[0].text.strip()
+            if _nome in _vetos6 and len(_r.cells) >= 3:
+                _cel6[_nome] = _r.cells[2].text.strip()
+    _md6 = open(_MD, encoding='utf-8').read()
+    for _mel, _esperado in _vetos6.items():
+        _mm = _re.search(r'^\|\s*`' + _mel + r'`\s*\|[^|]*\|([^|]*)\|\s*$', _md6, _re.M)
+        _fontes = (('o manual', _cel6.get(_mel)), ('o 40-fundamento.md', _mm.group(1) if _mm else None))
+        for _onde, _txt in _fontes:
+            if not _txt:
+                erro(f'nao achei a linha do `{_mel}` em {_onde}')
+                continue
+            _escrito = _vetados6(_txt)
+            _faltam, _sobram = _esperado - _escrito, _escrito - _esperado
+            if _faltam:
+                erro(f'{_onde}: {_art6[_mel]} `{_mel}` nao veta {sorted(_faltam)} — pela regua da peca 3 §4 '
+                     f'essa Restricao nao cobra nada num feitico de `{_mel}`, e devolve de graca')
+            if _sobram:
+                erro(f'{_onde}: {_art6[_mel]} `{_mel}` veta {sorted(_sobram)}, e a regua nao pede — ou a '
+                     f'tabela de recursos mudou, ou o texto trava uma combinacao que cobra')
+            if not (_faltam or _sobram):
+                print(f'  [x] {_onde}: {_art6[_mel]} `{_mel}` veta {sorted(_esperado)}, que e o que a regua deriva')
+
+print()
+print('=' * 92)
 if ERROS:
     print(f'>>> {len(ERROS)} PROBLEMA(S):')
     for e in ERROS:

@@ -432,6 +432,8 @@ Isso tem um efeito pequeno e que vale saber: como a vida perde um nível na part
 > **Arredonde sempre para o lado que não te favorece.**
 > O que você **paga** sobe. O que você **ganha** desce. E o que você ganha nunca fica abaixo de 1.
 
+***Decisão do Mizuki na v0.246: metade de maestria `1` vale `1`.*** *O piso vale para ela como para qualquer ganho.* **A peça 11 e três notas dos `DESENHO-*.md` contavam zero**, *e foram corrigidas na mesma versão.*
+
 Uma frase, sem exceção e sem tabela. Ela é escolha nossa, e o que faz dela a escolha certa é que o manual **já pensa assim** — a caixa *"na dúvida, para que lado errar"* diz *"os dois erram pro mesmo lado: o que não infla o feitiço"*. Isso é princípio de desenho, não número calibrado, e princípio envelhece bem melhor que tabela. Aplicado a número em vez de a preço, dá exatamente a frase acima.
 
 E ela reconcilia os dois precedentes que estavam brigando. O manual arredonda **para cima** duas vezes — o preço de Melhoria (*"Leve custa metade da Classe… arredonde pra cima"*) e o +50% de PE da Liberação Máxima —, e os dois são coisas que você **paga**. O exemplo da peça 10 arredonda **para baixo**, sem dizer, e é recuperação. Os dois estavam certos; faltava a frase que explica por quê.

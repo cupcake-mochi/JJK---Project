@@ -132,8 +132,8 @@ const melhorias = [
 
   H2('Tempo'),
   CAT([
-    ['Rápido', 'Pesada', 'Custa Ação Bônus em vez de Ação Padrão. Não entra no mesmo feitiço que Reação.'],
-    ['Reação', 'Pesada', 'Você conjura como Reação, a um gatilho que você declara quando monta o feitiço. Não entra no mesmo feitiço que Rápido nem que Armado.'],
+    ['Rápido', 'Pesada', 'Custa Ação Bônus em vez de Ação Padrão. Não entra no mesmo feitiço que Reação nem com a Restrição Atrasar.'],
+    ['Reação', 'Pesada', 'Você conjura como Reação, a um gatilho que você declara quando monta o feitiço. Não entra no mesmo feitiço que Rápido nem que Armado, nem com as Restrições Atrasar e Parado.'],
     ['Armado', 'Leve', 'Você gasta a ação e o PE do feitiço, e ele fica armado até o fim da cena. Na hora de armar, escolha um gatilho que a mesa consiga ver acontecer e que não seja um momento do seu próprio turno. Quando ele acontece, o feitiço sai sem gastar Reação, com alcance e alvo conferidos naquela hora. Um armado por vez. Se ele não sair, porque a cena acabou ou porque você armou outro, metade do PE volta. Não entra no mesmo feitiço que Reação nem com a Restrição Carregar.'],
     ['Silencioso', 'Leve', 'Sem gesto, sem palavra. Usar não revela a sua posição e não exige nenhum sinal. Dispensa Selo de gesto ou de som; Selo de condição, como enxergar o alvo, continua valendo.'],
     ['Adianta', 'Média', 'Se você conjurar antes de qualquer inimigo agir na rodada, +2 na CD.'],
@@ -158,7 +158,7 @@ const melhorias = [
   CAT([
     ['Limpa', 'Média', 'Remove de um aliado uma condição de nível Leve ou Média.'],
     ['Limpa Fundo', 'Pesada', 'Remove de um aliado uma condição de qualquer nível.'],
-    ['Levanta', 'Pesada', 'Um aliado caído em 0 pontos de vida volta com 5 × Classe. Uma vez por cena.'],
+    ['Levanta', 'Pesada', 'Um aliado caído em 0 pontos de vida volta de pé com 5 × Classe, seja qual for a vida máxima dele. Uma vez por cena.'],
     ['Divide', 'Média', 'Um aliado a até 9 m passa a receber metade do dano que você receberia, até o fim do próximo turno. Você escolhe na hora de conjurar.'],
     ['Junto', 'Leve', 'A cura ou o apoio pega um aliado a mais. O efeito é dividido entre eles. Pode comprar duas vezes.'],
     ['Reserva', 'Média', 'A cura fica guardada no aliado e é usada sozinha quando ele cair abaixo da metade da vida. Dura até o fim da cena.'],

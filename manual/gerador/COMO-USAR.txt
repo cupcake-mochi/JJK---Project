@@ -1,4 +1,4 @@
-GERADOR DO MANUAL — Fundamento v7.31
+GERADOR DO MANUAL — Fundamento v7.32
 
 Recria o .docx do zero. Precisa de Node.js.
 
@@ -32,6 +32,15 @@ ORDEM DAS SEÇÕES (v7)
   4 Restrições → 5 Fora de combate → 6 Liberação Máxima → 7 Técnica Máxima →
   8 Regras de ouro → 9 Progressão → 10 Feitiços prontos → 11 Para o mestre →
   Apêndice
+
+O QUE MUDOU NA v7.32
+
+  O Rapido nao entra com a Restricao Atrasar, e a Reacao nao entra com o
+  Atrasar nem com o Parado: as tres Restricoes so cobram recurso do turno em que
+  voce conjura, e a Melhoria tira a conjuracao desse recurso ou desse turno. O
+  Levanta poe de pe seja qual for a vida maxima do aliado, que e a porta da
+  regra de vida a 0 do livro. A checagem 6 do conferir-acao deriva os vetos dos
+  recursos da peca 3.
 
 O QUE MUDOU NA v7.31
 

@@ -89,11 +89,13 @@ Estas duas chegam com a ficha, na Lapidação 1, sem custar marco nenhum.
 
 > **Defesa sem Armadura** — sem Traje e sem Revestimento, a sua proteção é `1/3 da Lapidação + 1`. Escudo soma com ela.
 >
+> Como Reação: Redução de Dano de `1,5 × Lapidação` num golpe, por **2 PE**. Você fica sem proteção até o fim do seu próximo turno.
+>
 > **Barreira de energia não segura você.** `Barreira Simples` e `Cortina` não detectam nem impedem você.
 >
 > **Expansão de Domínio.** O Acerto garantido de uma Expansão completa não alcança você. O Efeito continua acontecendo em volta, e uma Expansão incompleta funciona normalmente, porque o Acerto dela precisa de uma rolagem: ela não busca alvos com base em energia.
 >
-> Requisito: grátis na Lapidação 1. A Lapidação escala a proteção.
+> Requisito: grátis na Lapidação 1. A Lapidação escala a proteção e a Redução de Dano da Reação.
 
 **Traje e Revestimento.** Vestir um dos dois desliga só a proteção. A barreira e o Acerto garantido continuam sendo negados: eles vêm de você não ter energia amaldiçoada, e uniforme sem grau não tem energia.
 

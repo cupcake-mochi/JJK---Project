@@ -327,6 +327,8 @@ Ela dizia *"o seu Classe 0 passa a causar o mesmo que um golpe simples"*, e ela 
 
 *A `Voz` leva `+1` fixo no nível 2 justamente por isso — metade da maestria é zero no nível em que a escolha acontece. **Ela vira `metade da maestria` no nível 7, pela `Coleira`**, e aí as duas se encaixam.*
 
+> **⚠ v0.246: metade de maestria `1` vale `1`**, *decisão do Mizuki, pelo piso da peça 1 §5.4.* **A linha `0%` no nível 2 da tabela acima e a frase de cima contavam zero.** *Com o piso, a `Voz` vale `+1` do nível 2 ao 25 e `+2` do 26 em diante, e a troca no nível 7 não muda o número.* **Fica para a revisão das invocações.**
+
 > **⚠ O `Parrudo` estava sem número aqui e publicado com um no livro, e isso fechou na v0.185.** *O `5 ×` a maestria é o que o capítulo 35 entrega ao jogador desde antes desta linha existir — ele ganhou dono em vez de mudar de valor.* **Nenhuma entrada de CHANGELOG registrava ele, e nenhum validador o lia.**
 
 | nv | `5 × maestria` | no corpo cru (`h`) | no corpo forte |

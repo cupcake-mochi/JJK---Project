@@ -87,7 +87,7 @@ function pagina1(f) {
      'À distância', 'd20 + Des + maestria',       num('distancia')],
   ], [15, 22, 11, 15, 22, 15], { boldCols: [0, 3], centerCols: [2, 5] }));
   out.push(NOTA(`A proteção ${X.PROTECAO} não é equipamento: ela é **cobrir-se de energia**, aptidão gratuita do refino ${X.REFINO} ` +
-                `(\`1/3 do refino + 1\`). Ela vale sem uniforme, sem armadura e sem escudo — vestir qualquer um deles a desliga. ` +
+                `(\`1/3 do refino + 1\`). Ela vale sem Traje e sem Revestimento: vestido, a proteção é a do uniforme. Escudo soma por cima. ` +
                 `Arredondamento: sempre para o lado que não te favorece, e o que você ganha nunca fica abaixo de 1.`));
 
   // --- testes de resistencia: o treinado soma a maestria (peca 1 §4), e o +2 fixo morreu na v0.117

@@ -822,7 +822,7 @@ E a cadência já existe: **os sete marcos**, que governam atributo, refino e fe
 | **8** | `Montaria` | carrega uma pessoa | Nue |
 | **8** | `Fisgada` | prende à distância | Sapo |
 | **8** | `Emboscada` | surge do chão, fora do alcance de ver | Serpente |
-| **8** | `Jorro` | empurra em linha ou em área | Elefante Máximo |
+| **8** | `Jorro` | ataca e empurra em linha ou em área | Elefante Máximo |
 | **8** | `Graúdo` | ocupa espaço maior e **barra passagem** | Elefante Máximo · a peça 6 §4 |
 | **8** | `Remoto` | funciona **na cena**, além dos 18 m da amarra — e **fora da cena** com gate | Ultimate Mechamaru |
 

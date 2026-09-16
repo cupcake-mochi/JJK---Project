@@ -947,6 +947,7 @@ _P10 = ler(os.path.join(AQUI, '10-descanso-e-recuperacao.md'), 'peca 10') or ''
 _RLV = ler(os.path.join(_LV9, 'README.md'), 'o README do livro') or ''
 _L20 = ler(os.path.join(_LV9, 'manual', '20-criacao-de-personagem.md'), 'o capitulo de criacao do livro') or ''
 _L40 = ler(os.path.join(_LV9, 'manual', '40-fundamento.md'), 'o capitulo do Fundamento do livro') or ''
+_L45 = ler(os.path.join(_LV9, 'manual', '45-aptidoes-e-refino.md'), 'o capitulo de aptidoes do livro') or ''
 _mau9 = []
 
 # as mortas: o dono declara a morte, e a ficha nao pode citar
@@ -982,6 +983,10 @@ _FRASES9 = [
      'Na criação só entra o pacto de restrição'),
     ('a Classe 0', 'Cabe uma Melhoria `Leve` e uma Restrição `Leve` numa Classe 0', _L40,
      'Cabe uma Melhoria Leve e uma Restrição Leve'),
+    # v0.246: a nota dizia que o escudo desligava a protecao, e o escudo soma desde a
+    # v0.42 (peca 14). A frase errada estava nas duas fichas publicadas.
+    ('o escudo na protecao', 'sem Traje e sem Revestimento, a sua proteção é `1/3 do refino + 1`. Escudo soma com ela.', _L45,
+     'Escudo soma por cima'),
 ]
 for _rot, _fd, _dono, _ff in _FRASES9:
     if _fd not in _dono:
@@ -994,7 +999,7 @@ _pb9 = os.path.join(MAT, 'ficha-em-branco.docx')
 if os.path.isfile(_pb9):
     try:
         _tx9 = texto_do_docx(_pb9)
-        if 'canaliz' in _tx9 or 'curto devolve' not in _tx9:
+        if 'canaliz' in _tx9 or 'curto devolve' not in _tx9 or 'Escudo soma por cima' not in _tx9:
             _mau9.append('ficha-em-branco.docx nao traz a tira de hoje — rode "node make.js" em '
                          'gerador-ficha e copie para 05-material')
     except Exception as _e9:

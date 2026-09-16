@@ -8,6 +8,68 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.246] — 16/09/2026
+
+**Três combinações de Restrição saíam de graça, e agora não entram.** *O `Rápido` com o `Atrasar` era trava só da ficha digital, pela decisão A3 de lá, e o manual ficava calado.* **Testando a mesma leitura nas outras Restrições, a `Reação` tinha o mesmo buraco com o `Atrasar` e com o `Parado`.** *E a versão escreve três coisas que já estavam decididas e não estavam no texto — o `Levanta` no catálogo do manual, a Reação da ficha sem energia no livro, e a nota do escudo na ficha de papel —, e fecha três perguntas que a mesma leitura levantou.*
+
+### 1 · Os vetos
+
+| par | por que não cobrava | devolvia |
+|---|---|---|
+| `Rápido` + `Atrasar` | o `Atrasar` tira a ação bônus, que é onde o `Rápido` conjura | `Média`: um terço do orçamento, em toda Classe |
+| `Reação` + `Atrasar` | o `Atrasar` cobra "naquele turno", e a Reação sai no turno de outro | `Média` |
+| `Reação` + `Parado` | "você não se move no turno em que conjura", e no turno de outro você não se move | `Leve` |
+
+***Decisão do Mizuki: vetar os três*** — *"Vetar".* **O `Rápido` ganhou "nem com a Restrição `Atrasar`", e a `Reação` ganhou "nem com as Restrições `Atrasar` e `Parado`"**, *no molde do `Armado` com o `Carregar`.* **A régua ficou na peça 3 §4**, *numa subseção nova, com o que ela não veta: `Rápido` + `Parado`, `Reação` + `Gesto`, `Reação` + `Carregar`, e o `Armado` com qualquer um dos dois.*
+
+**Nenhum feitiço publicado usava as três**, *no manual, no livro nem no Bestiário.*
+
+### 2 · A checagem e o arnês
+
+**A `6` do `conferir-acao.py` deriva os vetos dos conjuntos de recurso da tabela dele:** *a Restrição de "este turno" que tira a ação bônus é vetada no `Rápido`, e a que só cobra movimento e ação do seu turno é vetada na `Reação`.* **Ela cobra que o manual e o livro escrevam esses vetos e nenhum outro.**
+
+**O arnês rodou numa cópia isolada, com a base verde: `12` de `12`**, *junto das duas guardas da seção 3.* **Os vetos acendem tirados do livro e do `.docx`, e acendem com um veto a mais.** *O contra-teste é a leitura recusada: com a `Reação` lida pela regra do `Rápido`, o `Parado` sobra e a checagem acende.*
+
+### 3 · O que estava decidido e não estava escrito
+
+- **O `Levanta` no catálogo de Melhorias.** *A v0.245 pôs na regra de vida a 0 que ele põe de pé com qualquer valor, e deixou o catálogo para a próxima vez que o manual fosse regerado.* ***Decisão dele: entra agora.*** **O texto é "volta de pé com 5 × Classe, seja qual for a vida máxima dele".**
+- **A Reação da `Defesa sem Armadura`, no capítulo 47.** *A peça 11 §6.8 trouxe a Reação do cobrir-se para a Lapidação na v0.165, por decisão do Mizuki, e o livro publicava só a proteção passiva.* **A checagem `9` do `conferir-aptidoes.py` passou a cobrar o multiplicador e o PE na peça, no capítulo 47 e no cobrir-se do capítulo 45.**
+- **A nota da proteção na ficha de papel** *dizia que vestir escudo desligava a proteção, e o escudo soma desde a v0.42.* **A frase estava nas duas fichas publicadas.** *A checagem `9` do `conferir-ficha.py` cobra a frase nova no `ficha.js` e na ficha em branco, e as duas continuam em três páginas.*
+
+*Os três achados saíram de dois agentes lendo os itens B3 e B13 do repositório da ficha, e foram conferidos à mão antes de entrar.*
+
+### 4 · As três perguntas
+
+- **Metade de maestria `1` vale `1`.** *A peça 1 §5.4 e o capítulo 10 já diziam que o que você ganha nunca fica abaixo de `1`, e a peça 11 e três notas dos `DESENHO-*.md` contavam zero.* ***Decisão dele: "1".*** **A especialização do `Corpo` continua abrindo no nível 10**, *e o motivo escrito virou o de verdade: antes dele a metade da maestria entregaria o mesmo que a perícia nova, e não metade.* **A `Voz` fica `+1` do nível 2 ao 25 e `+2` do 26**, *e a troca no nível 7 não muda o número — fica para a revisão das invocações.* *Nenhum validador contava a metade sem piso: os que dividem a maestria são os das marcas da `Regravação`, que o livro manda arredondar para baixo e onde ela já é `4`.*
+- **O `Jorro` ataca e empurra.** *O livro dizia "ataca" e a peça 15 dizia "empurra".* ***Decisão dele: "os dois".*** **Das vinte entradas do catálogo de invocação, quinze têm texto diferente entre o livro e a peça**, *quase sempre o livro dando exemplo; a `Montaria` e o `Remoto` mudam regra, e ficam para a revisão que ele anunciou.*
+- **O parágrafo "Levantar quem caiu" saiu do capítulo 45.** *Ele dizia que quem está em 0 levanta com qualquer cura e que a `Circulação` na Ação Bônus devolve a rodada do aliado.* **A `Circulação` só cura quem usa**, *e desde a v0.245 o socorro é `20%` da vida máxima, que a Ação Bônus com `d4` não alcança em nível nenhum.* ***Decisão dele: "Tira, lembrando q circulação só da pra usar em si".*** **A peça 11 ganhou a nota de que o argumento do `+51,8` caiu**, *e o preço fica, porque a razão de `2,31×` mede cura por rodada.*
+
+### 5 · O manual
+
+**Foi para a `v7.32`**, *com o `.docx` e o `.pdf` regerados.* **O PDF mudou de fonte sem ninguém mexer no gerador:** *as fontes de métrica instaladas em 14/09 — Carlito no lugar da Calibri, Gelasio no da Georgia — entraram no lugar das Noto, e ele foi de `51` para `49` páginas.*
+
+### Alterado
+
+- **Manual `v7.32`:** *o `Rápido`, a `Reação` e o `Levanta` no `partD.js`, e o `.docx` e o `.pdf`.*
+- **Livro da Guilda:** *as três linhas do capítulo 40, a Reação no capítulo 47, o parágrafo que saiu do capítulo 45 e o `Jorro` do capítulo 60; os quatro artefatos refeitos, com a coluna única em `255` páginas e as duas colunas em `146`.*
+- **Peças 1, 11 e 15:** *a decisão da metade da maestria no §5.4, o motivo do gate da especialização e a nota do `+51,8`, e o `Jorro`.* **`DESENHO-caminhos.md` e `DESENHO-trilhas.md`:** *uma nota em cada linha que contava zero.*
+- **Peça 3:** *a subseção `A Restrição que o momento do feitiço apaga`.*
+- **`conferir-acao.py`:** *a checagem `6`.* **`conferir-aptidoes.py` e `conferir-ficha.py`:** *uma guarda nova na checagem `9` de cada um.*
+- **Ficha de papel:** *a nota da proteção, e as duas fichas regeradas.*
+- **`README`, `LEIA-ME`, `ESTADO-ATUAL` e `arquitetura.md`:** *as versões.*
+
+- **No repositório da ficha:** *os quatro pares da decisão A3 com fonte `manual`, o `manual.txt` reextraído, o catálogo com o texto novo do `Rápido`, da `Reação` e do `Levanta`, o `Jorro` na ficha da invocação, e a guarda da CD da invocação acendendo em qualquer `CD`.* **O B6 fechou, o B3 e o B13 ficaram com a forma decidida, e entrou o B21.**
+
+### Continua aberto
+
+- **A opção A do B3 na ficha digital**, *esperando a resposta sobre o campo das escolhas de Refino.*
+- **A CD da invocação, forma B**, *com o atributo dela, as entradas que pedem Teste de Resistência e o `Preito` por decidir — junto da revisão das invocações.*
+- **O `conferir-voz.py` do livro acusa `53` entradas de catálogo contra as `52` que a `REGRA-DE-VOZ.md` declara**, *e já acusava no commit da v0.245.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, seção *"Onde estamos, e o que falta"*.
+
+---
+
 ## [0.245] — 16/09/2026
 
 **A regra de vida a `0` ganhou o que faltava: o socorro tem tamanho, e o dano que entra a `0` tem consequência.** *Ele achou isso lendo o livro — "cadê o sistema de morte pra player?" — e a leitura levantou uma divergência que nenhum validador pegava.* **E a parte destrutível da v0.244 entrou no livro do Bestiário.**

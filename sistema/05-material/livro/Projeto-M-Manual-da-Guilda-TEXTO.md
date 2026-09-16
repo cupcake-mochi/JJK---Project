@@ -3868,8 +3868,8 @@ Aqui você compra o momento do feitiço: mais rápido que o normal, disparado es
 **Tempo**
 | Melhoria | Custo | O que faz |
 |---|---|---|
-| `Rápido` | `Pesada` | Custa Ação Bônus em vez de Ação Padrão. Não entra no mesmo feitiço que `Reação`. |
-| `Reação` | `Pesada` | Você conjura como Reação, a um gatilho que você declara quando monta o feitiço. Não entra no mesmo feitiço que `Rápido` nem que `Armado`. |
+| `Rápido` | `Pesada` | Custa Ação Bônus em vez de Ação Padrão. Não entra no mesmo feitiço que `Reação` nem com a Restrição `Atrasar`. |
+| `Reação` | `Pesada` | Você conjura como Reação, a um gatilho que você declara quando monta o feitiço. Não entra no mesmo feitiço que `Rápido` nem que `Armado`, nem com as Restrições `Atrasar` e `Parado`. |
 | `Armado` | `Leve` | Você gasta a ação e o PE do feitiço, e ele fica armado até o fim da cena. Na hora de armar, escolha um gatilho que a mesa consiga ver acontecer e que não seja um momento do seu próprio turno. Quando ele acontece, o feitiço sai sem gastar Reação, com alcance e alvo conferidos naquela hora. Um armado por vez. Se ele não sair, porque a cena acabou ou porque você armou outro, metade do PE volta. Não entra no mesmo feitiço que `Reação` nem com a Restrição `Carregar`. |
 | `Silencioso` | `Leve` | Sem gesto, sem palavra. Usar não revela a sua posição e não exige nenhum sinal. Dispensa Selo de gesto ou de som; Selo de condição, como enxergar o alvo, continua valendo. |
 | `Adianta` | `Média` | Se você conjurar antes de qualquer inimigo agir na rodada, +2 na CD. |
@@ -3900,7 +3900,7 @@ A mão que segura quem caiu. Funcionam com as Formas `Cura`, `Apoio` e `Onda` e,
 |---|---|---|
 | `Limpa` | `Média` | Remove de um aliado uma condição de nível `Leve` ou `Média`. |
 | `Limpa Fundo` | `Pesada` | Remove de um aliado uma condição de qualquer nível. |
-| `Levanta` | `Pesada` | Um aliado caído em 0 pontos de vida volta com 5 × Classe. Uma vez por cena. |
+| `Levanta` | `Pesada` | Um aliado caído em 0 pontos de vida volta de pé com 5 × Classe, seja qual for a vida máxima dele. Uma vez por cena. |
 | `Divide` | `Média` | Um aliado a até 9 m passa a receber metade do dano que você receberia, até o fim do próximo turno. Você escolhe na hora de conjurar. |
 | `Junto` | `Leve` | A cura ou o apoio pega um aliado a mais. O efeito é dividido entre eles. Pode comprar duas vezes. |
 | `Reserva` | `Média` | A cura fica guardada no aliado e é usada sozinha quando ele cair abaixo da metade da vida. Dura até o fim da cena. |
@@ -4972,8 +4972,6 @@ Energia positiva reconstrói sangue, osso, carne e órgão, e quem chega aqui te
 
 Na Ação Bônus você cura e ainda ataca na mesma rodada. O dado menor é o preço disso — é a diferença entre segurar um golpe e ficar inteiro.
 
-> **Levantar quem caiu.** É o uso que mais rende: quem está em 0 volta de pé com qualquer cura, e gastar a Ação Padrão nisso é troca justa — você perde a sua rodada e devolve a dele. Na Ação Bônus você devolve a rodada dele sem perder a sua.
-
 Recompor membro é a mesma aptidão fazendo a coisa mais difícil que a energia positiva faz. Em combate ela custa a sua rodada e o combustível, e você continua machucado. Fora de combate é barata, e é lá que ela deve ser usada.
 
 > **Membro perdido.** Não tem regra neste livro, e isso é decisão: quem tira é o mestre ou um pacto, e as penalidades são as que a mesa combinar, do mesmo jeito que o d20 faz. Esta aptidão desfaz.
@@ -5233,11 +5231,13 @@ Estas duas chegam com a ficha, na Lapidação 1, sem custar marco nenhum.
 
 > **Defesa sem Armadura** — sem Traje e sem Revestimento, a sua proteção é `1/3 da Lapidação + 1`. Escudo soma com ela.
 >
+> Como Reação: Redução de Dano de `1,5 × Lapidação` num golpe, por **2 PE**. Você fica sem proteção até o fim do seu próximo turno.
+>
 > **Barreira de energia não segura você.** `Barreira Simples` e `Cortina` não detectam nem impedem você.
 >
 > **Expansão de Domínio.** O Acerto garantido de uma Expansão completa não alcança você. O Efeito continua acontecendo em volta, e uma Expansão incompleta funciona normalmente, porque o Acerto dela precisa de uma rolagem: ela não busca alvos com base em energia.
 >
-> Requisito: grátis na Lapidação 1. A Lapidação escala a proteção.
+> Requisito: grátis na Lapidação 1. A Lapidação escala a proteção e a Redução de Dano da Reação.
 
 **Traje e Revestimento.** Vestir um dos dois desliga só a proteção. A barreira e o Acerto garantido continuam sendo negados: eles vêm de você não ter energia amaldiçoada, e uniforme sem grau não tem energia.
 
@@ -6129,7 +6129,7 @@ Cada linha diz quanto ela custa do orçamento, o nome que vai na ficha, e o efei
 | **8** | `Montaria` | carrega uma pessoa ou mais, dependendo do tamanho |
 | **8** | `Fisgada` | prende à distância. Ela alcança, engancha, e quem ia fugir para de conseguir |
 | **8** | `Emboscada` | surge do chão, fora do alcance de visão |
-| **8** | `Jorro` | ataca em linha ou em área |
+| **8** | `Jorro` | ataca e empurra em linha ou em área |
 | **8** | `Graúdo` | ocupa espaço maior e **barra passagem** |
 | **8** | `Remoto` | funciona além dos 18 metros da amarra. Ver *A amarra, e as três faixas de alcance* |
 
@@ -6827,4 +6827,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: d32807f5fbc7b6b7c64af6f0edcc9c0d8fb779f9 -->
+<!-- fonte: 5c0df7fb946404744048679b624048bf4aa57243 -->
