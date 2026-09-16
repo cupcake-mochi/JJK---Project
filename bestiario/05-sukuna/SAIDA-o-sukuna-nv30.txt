@@ -211,7 +211,7 @@ A EXTENSÃO DE DOMÍNIO E OS QUATRO BRAÇOS — a aptidão na cota, e o braço n
   anula o que encosta até       Classe 4 (Classe Passiva, Regra Própria ou feitiço) · dura até 10 rodadas
   o ataque de corpo, sem técnica  Força 2 + maestria 4 = +6   — peça 1 §5: corpo a corpo lê a Força
 
-  Quatro Braços                 o grupo tira 540 por rodada; um braço tira 1 das 6 ações
+  Quatro Braços                 o grupo tira 540 por rodada; um braço tira 1 das 6 ações — a regra é a peça 26 §6.5
   a vida de um braço            540 × 2 rodadas ÷ 6 ações = 180   — empata se ele cai com 2 rodadas pela frente
 
 ================================================================================================

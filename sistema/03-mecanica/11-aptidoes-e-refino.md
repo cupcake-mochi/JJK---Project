@@ -1265,7 +1265,7 @@ Nada aqui foi reescrito. O que segue é o registro de projeto que sustenta os n�
 | **Já vem de graça no refino 1** | cobrir-se de energia e canalizar energia. As aptidões compradas *melhoram* o que já existe |
 | **Não se compra em nível nenhum** | o `Kokusen` base, que é regra de mundo e vale para toda ficha com refino. *As duas de melhoria dele são aptidão como qualquer outra* |
 | **Kokusen Melhorado** | aptidão, refino 5 e nível 14. A escada da cascata mexe **só na chance do d100, com teto** — nunca na margem de crítico |
-| **O tamanho do catálogo** | **doze a quinze**. Dez já são obrigatórias pela obra, então são poucas inventadas |
+| **O tamanho do catálogo** | **sem teto, desde a v0.243.** O piso é a rota pura do §3: pelo menos `10` pagas. *Até a v0.242 era "doze a quinze", escolhido sem conta, com o argumento de que dez já eram obrigatórias pela obra* |
 | **Quem nunca escolhe refino** | termina com **zero aptidões, e o texto diz isso com todas as letras** — 14 pontos de atributo contra 7, e as duas de graça crescendo com o refino passivo até 8. A rota existe e ninguém deve descobrir no nível 20 que caiu nela sem saber |
 | **Aptidão Própria** | existe, e é **uma entrada do catálogo como qualquer outra** — com uma trava: **só pode ser pega uma vez na ficha inteira**, no mesmo molde do Legado. **Classe Passiva 1 ou 2, nunca 3.** Vem com catálogo de exemplos, uma métrica para criar e aprovação do mestre. É a energia densa do Hakari e o Punho Divergente do Itadori |
 
@@ -1333,9 +1333,11 @@ A 2 ×, o refino 10 soma **1,8% de dano por rodada** e leva ~5 sessões até o p
 
 O motivo de "por cena" não servir: o acúmulo só começa a partir do **segundo crítico da mesma cena**, e dois críticos no mesmo combate acontecem em **4,4%** das vezes — ele evapora antes de servir.
 
-Com as três de kokusen, o catálogo fica em **catorze entradas** — doze da obra mais a `Kokusen Constante` mais a Aptidão Própria —, dentro da faixa de doze a quinze.
+Com as três de kokusen, o catálogo fica em **catorze entradas** — doze da obra mais a `Kokusen Constante` mais a Aptidão Própria —, dentro da faixa de doze a quinze que valia até a v0.242.
 
-> **Hoje são quinze, no teto da faixa.** *O `Kokusen` base saiu na v0.202, a `Circulação` entrou na v0.203 e a `Regravação` na v0.239.* **A próxima aptidão passa da faixa, e a faixa precisa ser revista antes dela.**
+> **Hoje são quinze, e o catálogo não tem mais teto.** *O `Kokusen` base saiu na v0.202, a `Circulação` entrou na v0.203 e a `Regravação` na v0.239.*
+>
+> ***Decisão do Mizuki, v0.243:*** *"pq n pode mais que 15? pretendo adicionar mais, tira o limite, eu devo por pelo menos umas 25".* **O que continua valendo é o piso do §3:** *o catálogo precisa de pelo menos tantas pagas quanto a rota pura escolhe, senão escolher vira falta de cardápio.*
 
 ### O Limiar — mecânica à parte, e o cardápio precisa dizer o tamanho
 

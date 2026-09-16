@@ -637,6 +637,32 @@ o fator = [disparos × aquela razão + (luta − disparos)] ÷ luta
 >
 > **O fator não desconta a Reação de que ele abre mão.** *O `Bloquear` é neutro por construção, pela peça 23, e o ataque de oportunidade só acontece se alguém sair do alcance.* **A troca fica declarada, e não cobrada.**
 
+#### A parte destrutível — a vida dela é o empate
+
+***Decisão do Mizuki, v0.244.*** *O braço do Sukuna virou regra: a v0.231 deu `180` a cada um, e a conta serve para qualquer inimigo.*
+
+> **A vida de uma parte destrutível é `a vida dele ÷ a luta × 2 ÷ as ações dele`, arredondando para baixo.** *Ela é alvo com a Defesa do inimigo, e destruí-la tira `1` das ações dele.*
+
+**O `2` são as rodadas pela frente que fazem o empate**, *e é ele que decide se vale a pena quebrar.* **Numa `Calamidade` do nível 30, com a parte em `210`:**
+
+| o grupo quebra a parte | na 1ª rodada | na 2ª | na 3ª |
+|---|---|---|---|
+| e evita, em dano | `+70` | `−35` | `−140` |
+
+*Com `3` rodadas pela frente ninguém quebraria parte nenhuma, e ela viraria vida de graça; com `1`, ela vira alvo óbvio em toda rodada.*
+
+| a vida de uma parte, no nível 30 | `Ameaça` | `Desastre` | `Catástrofe` | `Calamidade` |
+|---|---|---|---|---|
+| | — | `210` | `188` | `210` |
+
+**A `Ameaça` fica de fora por conta:** *ela tem uma ação só, e uma parte que tire ação a deixaria sem turno.*
+
+**A parte não paga no fator, e isso é por construção:** *a vida dela é exatamente o que ela devolve em ação perdida.*
+
+> **Quantas partes ele tem, e o que a quebra faz além de tirar a ação, são do mestre.** ***Decisões dele:*** *"Decisão do mestre, é flavor"* e *"o caso do sukuna é exemplo"*. **Dois avisos, medidos e não travados:** *se as partes tirarem todas as ações, o inimigo para de agir; e efeito que não seja a ação perdida não tem preço nesta régua.*
+
+**O exemplo é o Sukuna:** *quatro braços de `180`, numa `Calamidade` de vida `1620` com seis ações — a vida dele traz o papel `Artilheiro`, e por isso a parte não é a `210` da tabela.*
+
 #### As duas trocas ruins, declaradas e não proibidas
 
 ***Decisão do Mizuki:*** *"não tem problema não valer a pena, às vezes o combate tem uma pessoa só."* **As duas ficam medidas e liberadas, no molde do §4.7 — a peça mede, mostra, e o mestre escolhe.**
@@ -669,6 +695,7 @@ o fator = [disparos × aquela razão + (luta − disparos)] ÷ luta
 | **9.5** | **as prontas cabem na criação, a Destreza e o atributo de ataque delas são os que a tabela pede, e o livro é o que os scripts geram.** *Desde a v0.234; o ataque e os marcos, desde a v0.235.* O arranjo soma os nove pontos do §3.2, dez no chefe, com teto `3`; os pontos de marco declarados somam, em cada nível, o que o §3.2 dá, sem passar do teto de lá; em cada nível da faixa a Destreza dá a Defesa da tabela e o atributo de ataque dá o acerto com a maestria da peça 1 §2, e o chefe fica no máximo um ponto acima da curva, que é a diferença entre as duas linhas do §3.2; o `±2` do papel fica por fora; e os quatro `gerar-*.py` do livro do Bestiário, rodados com `--conferir`, devolvem os capítulos publicados. *O capítulo das prontas passou da v0.224 à v0.233 sem os papéis que o gerador já punha, com todos os validadores verdes* |
 | **9.7** | **a `Recarga` come o turno, bate `2,5` golpes em cada alvo e se paga no fator.** O multiplicador vezes a banda do golpe do Bestiário dá a faixa publicada; os disparos saem do `d6` e da luta; a tabela do fator reconstrói das pessoas e das ações do §4 com a mesa do `Guia do Mestre`; a medição de campo é a da `MEDIDA` do Bestiário; o exemplo dos dados reconstrói da regra dos dois terços em `d12`; a frase do erro de travessia não volta; e o preço da Melhoria usa a maior Classe que cabe |
 | **9.8** | **a corrente da `Regravação` no inimigo.** O marco em que ela fecha e os pontos que ela custa reconstroem da tabela do §3.2 e dos gates nos títulos da peça 11, e a leitura sem a regra de marco tem de dar outro nível; o custo da regravação reconstrói do teto da `Circulação`, da maior Classe da peça 18, do câmbio da peça 5 §4, da linha do manual e do fator da `Intervenção`, na rodada e espalhado na luta, e cabe na rodada nas quatro categorias; a tabela da cura de Reação reconstrói do dado e do teto da `Circulação` e da vida da linha do manual, começando no nível em que a `Circulação` chega; o aviso da `Ameaça` sai da tabela; e as marcas leem o atributo da fórmula da peça 11 |
+| **9.9** | **a parte destrutível.** A tabela da vida reconstrói da linha do manual vezes o fator, da luta, das rodadas pela frente e das ações do §4, com a `Ameaça` de fora por ter uma ação só; a tabela do empate refaz o que o grupo evita quebrando em cada rodada, e o sinal tem de virar depois da primeira; e a peça tem de continuar dizendo que a parte não paga no fator e que o resto é do mestre |
 
 ### 7.1 As quarenta e duas perturbações, em cópia isolada
 

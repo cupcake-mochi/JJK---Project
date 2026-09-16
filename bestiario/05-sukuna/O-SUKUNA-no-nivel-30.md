@@ -82,4 +82,4 @@
 - **O bloco tem `9` entradas nomeadas, uma acima da linha recomendada de chefe de fim de arco.** *O livro do Bestiário diz que passar da linha não desequilibra nada.*
 - **As `5` marcas batem com os cinco choques contra o Gojo** *que a §6.2 do rascunho da Expansão sem barreira registra.* **A contagem vem do rascunho, e não foi conferida de novo na obra.**
 - **A Destreza abaixo da tabela só devolve fator neste bloco.** *A peça 26 não tem essa regra, e ela entra na revisão dos inimigos.*
-- **A vida de braço é do Sukuna, e não regra da peça 26.** *O empate que deu `180` serve para qualquer inimigo com parte destrutível, e ninguém escreveu isso como regra.*
+- ~~**A vida de braço é do Sukuna, e não regra da peça 26.**~~ ***FECHADA na v0.244:*** *a parte destrutível virou regra no §6.5, e o `180` daqui sai dela — a vida dele com o papel `Artilheiro`, dividida pela luta, vezes as duas rodadas pela frente, dividida pelas seis ações.*

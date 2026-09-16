@@ -1895,6 +1895,92 @@ else:
 
 
 # --------------------------------------------------------------------------
+bloco('9.9 A PARTE DESTRUTIVEL — a vida dela e o empate, e o mestre escolhe o resto')
+# --------------------------------------------------------------------------
+# v0.244. O braco do Sukuna da v0.231 virou regra. Nada mora aqui: as rodadas pela
+# frente saem da propria frase da regra, a vida e o dano da linha do manual, o fator
+# e as acoes do §4, e a luta da frase que a categoria promete. As duas tabelas sao
+# recomputadas, e o exemplo do Sukuna tem de fechar com a formula.
+_ruins99 = []
+_mfr99 = re.search(r'A vida de uma parte destrutível é `a vida dele ÷ a luta × (\d+) ÷ as ações dele`, '
+                   r'arredondando para baixo', TXT)
+_lu99 = re.search(r'contra as `(\d+),(\d+)` que a categoria promete', TXT)
+_cab99 = re.search(r'^\| a vida de uma parte, no nível (\d+) \|((?: `[^`]+` \|)+)\n\|[-|]+\|\n'
+                   r'\| \|((?: [—`\d]+ \|)+)$', TXT, re.M)
+_emp99 = re.search(r'^\| o grupo quebra a parte \|((?: na \d+ª(?: rodada)? \|)+)\n\|[-|]+\|\n'
+                   r'\| e evita, em dano \|((?: `[+−]\d+` \|)+)$', TXT, re.M)
+_suk99 = re.search(r'quatro braços de `(\d+)`, numa `(\w+)` de vida `(\d+)` com (\w+) ações', TXT)
+if not (_mfr99 and _lu99 and _cab99 and _emp99 and _suk99):
+    _ruins99.append('a regra da parte destrutivel, uma das duas tabelas ou o exemplo do Sukuna mudou de forma')
+elif 30 not in _MANUAL:
+    pulou('9.9. a parte destrutivel — a linha do nivel 30 da tabela de inimigo nao foi lida')
+else:
+    _R99 = int(_mfr99.group(1))
+    _L99 = float(f'{_lu99.group(1)}.{_lu99.group(2)}')
+    _nv99 = int(_cab99.group(1))
+    _cx99 = {c_[0]: c_ for c_ in _CAT}
+    _nom99 = re.findall(r'`([^`]+)`', _cab99.group(2))
+    _cel99 = [c.strip() for c in _cab99.group(3).split('|') if c.strip()]
+
+    def _vida99(nome_):
+        return _meio_baixo(_MANUAL[_nv99][1] * _cx99[nome_][2])
+
+    def _parte99(nome_):
+        return math.floor(_vida99(nome_) / _L99 * _R99 / _cx99[nome_][3])
+    for k_, nome_ in enumerate(_nom99):
+        if nome_ not in _cx99:
+            _ruins99.append(f'a coluna `{nome_}` nao e categoria do §4')
+            continue
+        _pub99 = _cel99[k_] if k_ < len(_cel99) else '?'
+        if _cx99[nome_][3] <= 1:
+            if _pub99 != '—':
+                _ruins99.append(f'a `{nome_}` tem {_cx99[nome_][3]} acao(oes) e a peca publica parte de {_pub99} — '
+                                'uma parte que tira acao deixaria ela sem turno')
+        elif _pub99 != f'`{_parte99(nome_)}`':
+            _ruins99.append(f'na `{nome_}` a parte vale {_parte99(nome_)} pela formula (vida {_vida99(nome_)}, '
+                            f'{_cx99[nome_][3]} acoes), e a peca publica {_pub99}')
+    # o empate: o que o grupo evita quebrando em cada rodada, na categoria que o exemplo usa
+    _cat99 = _suk99.group(2)
+    if _cat99 not in _cx99:
+        _ruins99.append(f'o exemplo cita a categoria `{_cat99}`, que nao esta no §4')
+    else:
+        _V99, _ac99 = _vida99(_cat99), _cx99[_cat99][3]
+        _P99, _G99 = _parte99(_cat99), _vida99(_cat99) / _L99
+        _saida99 = _V99 / _L99 / _ac99
+        _esp99 = []
+        for _k in range(len(re.findall(r'na \d+ª', _emp99.group(1)))):
+            _sobra = max(0.0, _L99 - _k - _P99 / _G99)
+            _esp99.append(round(_sobra * _saida99 - _P99))
+        _pub_e99 = [int(x.replace('−', '-')) for x in re.findall(r'`([+−]\d+)`', _emp99.group(2))]
+        if _pub_e99 != _esp99:
+            _ruins99.append(f'o empate na `{_cat99}` da {_esp99} pela conta, e a peca publica {_pub_e99}')
+        elif not (_esp99[0] > 0 >= _esp99[1]):
+            _ruins99.append(f'com {_R99} rodadas pela frente o sinal nao vira depois da primeira rodada: {_esp99} — '
+                            'a peca diz que quebrar cedo paga e tarde nao')
+    # o exemplo do Sukuna fecha com a formula, com a vida que o papel dele deixa
+    _NUM99 = {'quatro': 4, 'cinco': 5, 'seis': 6, 'sete': 7, 'oito': 8}
+    _acs99 = _NUM99.get(_suk99.group(4).lower())
+    if not _acs99:
+        _ruins99.append(f'nao sei ler "{_suk99.group(4)}" acoes no exemplo do Sukuna')
+    elif int(_suk99.group(1)) != math.floor(int(_suk99.group(3)) / _L99 * _R99 / _acs99):
+        _ruins99.append(f'o exemplo do Sukuna publica braco de {_suk99.group(1)} com vida {_suk99.group(3)} e '
+                        f'{_acs99} acoes, e a formula da {math.floor(int(_suk99.group(3)) / _L99 * _R99 / _acs99)}')
+    for _rot, _rx in (('que a parte nao paga no fator', r'A parte não paga no fator, e isso é por construção'),
+                      ('que o resto e do mestre', r'Quantas partes ele tem, e o que a quebra faz além de tirar a ação, são do mestre'),
+                      ('a Ameaca de fora', r'A `Ameaça` fica de fora por conta')):
+        if not re.search(_rx, TXT):
+            _ruins99.append(f'a peca parou de publicar {_rot}')
+if _ruins99:
+    for _r in _ruins99:
+        erro('9.9: ' + _r)
+elif 30 in _MANUAL and _mfr99:
+    print(f'  [x] a vida da parte reconstroi nas {len(_nom99)} categorias, com {_R99} rodadas pela frente, e a '
+          f'`Ameaça` fica de fora por ter {_cx99["Ameaça"][3]} acao')
+    print(f'  [x] o empate na `{_cat99}` reconstroi ({_esp99}) e o sinal vira depois da primeira rodada')
+    print(f'  [x] o exemplo do Sukuna fecha com a formula, e as tres frases da regra estao na peca')
+
+
+# --------------------------------------------------------------------------
 bloco('10. O PAPEL — ele redistribui a base, e os seis fecham em 1,000')
 # --------------------------------------------------------------------------
 # O §3.4 publica duas tabelas: a dos seis papeis, com o que cada um ganha e

@@ -2311,7 +2311,7 @@ else:
             ('peca 11 §6.8, a que sobra', _T11, r'\*\*Uma de (\w+), e é a que não diz o que faz', _tot68),
             ('peca 11 §6.8, a linha das Bencaos', _T11,
              r'\*\*(\w+) das \w+ aptidões são construídas em cima da energia', _tot68 - _viv68),
-            ('peca 11, o tamanho hoje', _T11, r'Hoje são (\w+), no teto da faixa', len(_lcat)),
+            ('peca 11, o tamanho hoje', _T11, r'Hoje são (\w+), e o catálogo não tem mais teto', len(_lcat)),
             ('peca 9, o total', _T09, r'das (\w+) aptidões, \*\*\w+ são construídas', _tot68),
             ('peca 9, as construidas em energia', _T09,
              r'das \w+ aptidões, \*\*(\w+) são construídas', _tot68 - _viv68),
@@ -2329,15 +2329,19 @@ else:
                         f'e ela e a {_tot68}a')
         if _tot68 != len(_lcat):
             _mau.append(f'a §6.8 conta {_tot68} aptidoes e o catalogo fechado tem {len(_lcat)}')
-        _mfx = re.search(r'\| \*\*O tamanho do catálogo\*\* \| \*\*(\w+) a (\w+)\*\*', _T11)
+        # v0.243: o teto saiu, por decisao do Mizuki — "tira o limite, eu devo por pelo menos
+        # umas 25". Fica o piso, que tem conta: as pagas nao podem ser menos que a rota pura
+        # escolhe. O piso publicado tem de ser o PURA do §3, e nao um numero escrito na tabela.
+        _mfx = re.search(r'\| \*\*O tamanho do catálogo\*\* \| \*\*sem teto, desde a v[\d.]+\.\*\* '
+                         r'O piso é a rota pura do §3: pelo menos `(\d+)` pagas', _T11)
         if not _mfx:
-            _mau.append('a faixa do tamanho do catalogo sumiu da tabela das decisoes')
-        elif not (_n(_mfx.group(1)) <= len(_lcat) <= _n(_mfx.group(2))):
-            _mau.append(f'o catalogo tem {len(_lcat)} entradas e a faixa declarada e '
-                        f'{_mfx.group(1)} a {_mfx.group(2)} — a faixa precisa ser revista antes')
-        elif 'no teto da faixa' in _T11 and len(_lcat) != _n(_mfx.group(2)):
-            _mau.append(f'a peca diz que o catalogo esta no teto da faixa, e ele tem {len(_lcat)} '
-                        f'de {_mfx.group(2)}')
+            _mau.append('a linha do tamanho do catalogo sumiu da tabela das decisoes, ou voltou a ter teto')
+        elif int(_mfx.group(1)) != PURA:
+            _mau.append(f'a tabela das decisoes publica o piso de {_mfx.group(1)} pagas, e a rota pura '
+                        f'do §3 escolhe {PURA}')
+        elif _npag < PURA:
+            _mau.append(f'o catalogo tem {_npag} pagas, e a rota pura escolhe {PURA} — escolher virou '
+                        'falta de cardapio')
         for _r in _mau:
             erro(f'11: {_r}')
         if not _mau:

@@ -55,8 +55,8 @@ DESTREZA = 4
 REI_DAS_MALDICOES = 4
 # v0.242: as quatro aptidões dele que gastam escolha de marco, pela regra do §3.2 da peça 26
 APTIDOES = ('Energia Reversa', 'Circulação', 'Regravação', 'Extensão de Domínio')
-# v0.231: o braço empata se cair com duas rodadas de luta pela frente — decisão do Mizuki
-BRACO_RODADAS = 2
+# v0.231: o braço empata se cair com duas rodadas de luta pela frente — decisão do Mizuki.
+# v0.244: o número saiu daqui e virou regra na peça 26 §6.5, e é de lá que ele é lido.
 
 _cache = {}
 
@@ -797,8 +797,10 @@ ACERTO_CORPO = COR['Força'] + maestria
 linha(f'  o ataque de corpo, sem técnica  Força {COR["Força"]} + maestria {maestria:.0f} = +{ACERTO_CORPO:.0f}   — peça 1 §5: corpo a corpo lê a Força')
 linha()
 LUTA_BRACO = n(pega(P26, r'contra as `(\d+,\d+)` que a categoria promete', 'a luta que a categoria promete').group(1))
-VIDA_BRACO = round(v / LUTA_BRACO * BRACO_RODADAS / ac)
-linha(f'  Quatro Braços                 o grupo tira {v / LUTA_BRACO:.0f} por rodada; um braço tira 1 das {ac} ações')
+BRACO_RODADAS = int(pega(P26, r'A vida de uma parte destrutível é `a vida dele ÷ a luta × (\d+) ÷ as ações dele`',
+                         'as rodadas pela frente da parte destrutível — peça 26 §6.5').group(1))
+VIDA_BRACO = int(round(v) / LUTA_BRACO * BRACO_RODADAS / ac + 1e-9)   # para baixo, e a vida como a ficha imprime ela
+linha(f'  Quatro Braços                 o grupo tira {v / LUTA_BRACO:.0f} por rodada; um braço tira 1 das {ac} ações — a regra é a peça 26 §6.5')
 linha(f'  a vida de um braço            {v / LUTA_BRACO:.0f} × {BRACO_RODADAS} rodadas ÷ {ac} ações = {VIDA_BRACO}   — empata se ele cai com {BRACO_RODADAS} rodadas pela frente')
 
 # ────────────────────────────────────────────────────────────────────────────

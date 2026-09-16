@@ -8,6 +8,95 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.244] — 15/09/2026
+
+**A vida de parte destrutível virou regra, na peça 26 §6.5.** *É o item 3 da fila, e ela fecha a dívida que a v0.231 deixou anotada: o braço do Sukuna era conta dele, e não regra.*
+
+### 1 · A regra, e as decisões dele
+
+> **A vida de uma parte destrutível é `a vida dele ÷ a luta × 2 ÷ as ações dele`, arredondando para baixo.** *Ela é alvo com a Defesa do inimigo, e destruí-la tira `1` das ações dele.*
+
+| a vida de uma parte, no nível 30 | `Ameaça` | `Desastre` | `Catástrofe` | `Calamidade` |
+|---|---|---|---|---|
+| | — | `210` | `188` | `210` |
+
+- **As rodadas pela frente ficam em `2`**, *que é o que o Sukuna já usava.* **É esse número que decide se quebrar compensa:** *numa `Calamidade` do nível 30, o grupo evita `+70` de dano quebrando na primeira rodada, `−35` na segunda e `−140` na terceira.* **Com `3` ninguém quebraria parte nenhuma; com `1`, ela vira alvo óbvio.**
+- **Quantas partes ele tem é do mestre** — *"Decisão do mestre, é flavor"*.
+- **O que a quebra faz além de tirar a ação também é do mestre** — *"o caso do sukuna é exemplo"*. **Efeito fora da ação perdida não tem preço nesta régua, e isso fica escrito.**
+
+**O que a conta fechou sozinha:** *a `Ameaça` fica de fora, porque tem uma ação só e a parte a deixaria sem turno; a parte não paga no fator, porque a vida dela é exatamente o que ela devolve em ação perdida; e a parte é alvo com a Defesa do inimigo, já que o manual não tem regra de atacar objeto.*
+
+### 2 · O validador e o arnês
+
+**A `9.9` do `conferir-bestiario.py`** *recomputa a tabela da vida nas quatro categorias, a tabela do empate rodada a rodada, e o exemplo do Sukuna; cobra que o sinal vire depois da primeira rodada, e que as três frases da regra continuem na peça.*
+
+**O arnês rodou numa cópia isolada, com a base verde: `9` de `9`.** *Sete perturbações acenderam pelo motivo certo — inclusive o arredondamento da `Catástrofe`, `188` contra `189`, e a `Ameaça` ganhando parte.* **O contra-teste foi a leitura recusada:** *com `3` rodadas pela frente e as duas tabelas refeitas para ela, a checagem acende no sinal, porque aí quebrar nunca paga.*
+
+### 3 · O Sukuna
+
+**O `montar-o-sukuna.py` parou de declarar as duas rodadas e passou a ler a regra da peça.** *O braço continua em `180`: a vida dele com o papel `Artilheiro` é `1620`, e a tabela publica `210` para uma `Calamidade` de vida cheia.*
+
+> **⚠ A primeira rodada deu `179`.** *É o mesmo resíduo de ponto flutuante da v0.242: a vida real fica um pouco abaixo de `1620`.* **O script lê a vida como a ficha imprime ela.**
+
+### Alterado
+
+- **Peça 26:** *a subseção `A parte destrutível` no §6.5, e a linha `9.9` no §7.*
+- **`conferir-bestiario.py`:** *a checagem `9.9`.*
+- **`bestiario/05-sukuna/`:** *o `montar-o-sukuna.py`, a saída e o `O-SUKUNA-no-nivel-30.md`, onde a dívida da v0.231 fechou.*
+- **`README`, `LEIA-ME` e `ESTADO-ATUAL`:** *a versão.*
+
+### Continua aberto
+
+- **O livro do Bestiário não publica a parte destrutível**, *e também não publica a Expansão de inimigo.* **As duas esperam uma passada só no livro, com os PDFs refeitos uma vez.**
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, seção *"Onde estamos, e o que falta"*.
+
+---
+
+## [0.243] — 15/09/2026
+
+**O catálogo de aptidões deixou de ter teto.** *É o item 2 da fila.* **Fica o piso, que tem conta: pelo menos tantas pagas quanto a rota pura escolhe, que são `10`.**
+
+### 1 · A decisão
+
+***Pergunta e decisão dele:*** *"pq n pode mais que 15? pretendo adicionar mais, tira o limite, eu devo por pelo menos umas 25".*
+
+**A faixa de doze a quinze nunca teve conta.** *O registro de decisão da peça 11 dava um motivo só: dez já eram obrigatórias pela obra.* **Ela chegou ao teto na v0.239, com a `Regravação`, e a checagem 11 reprovaria a próxima aptidão.**
+
+**A medida mostrada a ele foi quanto dois especialistas, com `10` aptidões cada, se repetem:**
+
+| pagas | repetem no mínimo | em média |
+|---|---|---|
+| `13`, hoje | `7` de `10` | `77%` |
+| `20` | `0` | `50%` |
+| `25` | `0` | `40%` |
+
+*A proposta foi um teto em `20`, o dobro da rota pura, e ele preferiu tirar o teto.*
+
+### 2 · O que mudou
+
+- **Peça 11:** *a linha `O tamanho do catálogo` do registro de decisão passou a dizer que não tem teto, com o piso; a frase dos quinze passou a registrar a decisão; e a das catorze entradas marca a faixa como a que valia até a v0.242.*
+- **`conferir-aptidoes.py`, checagem 11:** *deixou de reprovar pelo tamanho.* **Ela confere que a linha não voltou a ter teto, que o piso publicado é a rota pura do §3, e que as pagas não ficam abaixo dele.**
+
+### 3 · O arnês
+
+**Cópia isolada, com a base verde.** *Três perturbações acenderam pelo motivo certo: o piso publicado em `11`, a linha de volta com teto, e a frase de hoje contando dezesseis.* **O contra-teste acrescentou uma 16ª aptidão:** *o validador do `HEAD` reprova pela faixa, e o novo não fala de faixa — só das dez frases que publicam contagens, que precisam acompanhar a entrada nova.*
+
+> **⚠ Na primeira leitura o contra-teste pareceu falhar, e o erro era do arnês.** *Ele procurava "teto" em qualquer linha com "11:", e casou com uma linha de informação: "regra lida da peca 11: no teto, a escolha de Refino da 2 aptidoes".*
+
+### Alterado
+
+- **Peça 11** e **`conferir-aptidoes.py`**, *como acima.*
+- **`README`, `LEIA-ME` e `ESTADO-ATUAL`:** *a versão.*
+
+### Continua aberto
+
+- **Cada aptidão nova obriga a reescrever à mão dez frases de contagem**, *na peça 11 e na peça 9, e a checagem 11 cobra todas.* **Com dez aptidões novas pela frente, vale decidir antes se essas frases continuam escritas por extenso.**
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, seção *"Onde estamos, e o que falta"*.
+
+---
+
 ## [0.242] — 15/09/2026
 
 **O inimigo passou a carregar a `Regravação`, com a corrente inteira do jogador.** *É o item 1 da fila, decidido em cinco rodadas.* **E as escolhas de marco do inimigo passaram a seguir a regra do jogador, a cura de Ação Bônus da `Circulação` virou Reação só no inimigo, e o Sukuna ganhou o traço `Rei das Maldições`.**
