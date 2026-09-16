@@ -457,11 +457,13 @@ O próprio esqueleto justifica a trava 6 dizendo que *"o filtro existe para impe
 
 > **Você chega a 0 de vida. Escolha uma das duas, na hora:**
 >
-> **Aguentar** — você apaga. Tem uma janela de **3 rodadas**. Qualquer cura de 1 ou mais te põe de pé. A janela acabou sem socorro, você chega ao **estágio 4 de dano de alma**.
+> **Aguentar** — você apaga. Tem uma janela de **3 rodadas**. Uma cura de **20% ou mais da sua vida máxima**, de uma vez, te põe de pé, e a Melhoria `Levanta` te põe de pé com qualquer valor. **Cada dano que você recebe apagado tira uma rodada da janela**, no mínimo uma. A janela acabou sem socorro, você chega ao **estágio 4 de dano de alma**.
 >
 > **Insistir** — você fica de pé a 0 de vida e age normalmente. Cada rodada custa um pedaço da sua **vida máxima**, e ele dobra: **1/8, depois 1/4, depois 1/2**. Na quarta rodada você desaba.
 >
-> **Quem desaba pelo Insistir não levanta com um ponto de cura.** Só acorda com uma cura de **metade da sua vida máxima original, de uma vez só**.
+> **O dano que entra enquanto você está a 0 se acumula.** Passou de **metade da sua vida máxima original**, acaba na hora: no `Aguentar` você chega ao estágio 4, e no `Insistir` você desaba. **O custo do `Insistir` não entra nessa conta**, porque ele já cobra na vida máxima.
+>
+> **Quem desaba pelo Insistir não levanta com um ponto de cura.** Só acorda com **metade da sua vida máxima original**, e aqui a cura **soma**: pode vir de várias fontes, em várias rodadas. **A Melhoria `Levanta` põe de pé com qualquer valor, aqui também.**
 >
 > **Toda vez que você levanta de uma queda, ganha uma Sequela.** Cada Sequela tira uma rodada da janela da próxima queda. **Na segunda queda você também ganha uma Cicatriz**, que é permanente e não sai no descanso.
 >
@@ -505,12 +507,33 @@ O Bastião paga mais em número absoluto e **a mesma fração de si mesmo**. Nin
 
 | | ganha | custa |
 |---|---|---|
-| **Aguentar** | janela de 3 rodadas, e acorda com 1 de cura | fora da luta desde já, 1 Sequela |
-| **Insistir** | 3 rodadas **agindo** | 7/8 da vida máxima, 1 Sequela, e só acorda com metade da máxima original |
+| **Aguentar** | janela de 3 rodadas, e acorda com `20%` da máxima de uma vez | fora da luta desde já, 1 Sequela, e cada dano recebido custa uma rodada da janela |
+| **Insistir** | 3 rodadas **agindo** | 7/8 da vida máxima, 1 Sequela, e só acorda com metade da máxima original, somando curas |
 
-Nenhum conjunto contém o outro, pelo teste da peça 3. Com cura sobrando no grupo, Aguentar é melhor — é barato de reverter. Sem cura, Aguentar só adia o fim e Insistir compra três rodadas. Se você é o último de pé, Insistir sempre. Se o chefe está quase caindo, Insistir compra exatamente as rodadas que faltam.
+Nenhum conjunto contém o outro, pelo teste da peça 3. Com cura sobrando no grupo, Aguentar é melhor — uma cura só resolve, e ela não precisa ser grande no começo da campanha. Sem cura, Aguentar só adia o fim e Insistir compra três rodadas. Se você é o último de pé, Insistir sempre. Se o chefe está quase caindo, Insistir compra exatamente as rodadas que faltam.
 
 **E a trava do despertar se auto-equilibra:** o Bastião é quem mais lucra com Insistir, porque tem mais corpo para queimar — e é o mais caro de trazer de volta, porque metade dele é muito. Uma cura do topo cobre o frágil em toda a faixa e não cobre o Bastião quase nunca. Ninguém fica trancado: duas curas sempre resolvem, e o descanso longo devolve tudo.
+
+### O socorro, e o dano que entra a 0
+
+***Decisões do Mizuki, v0.245:*** *o socorro do `Aguentar` é `20%` da vida máxima; a Melhoria `Levanta` põe de pé com qualquer valor — "ela é exceção, sempre foi" —; e no `Insistir` a cura que acorda **soma**, ao contrário do `Aguentar`, onde ela vem de uma vez.*
+
+**Até a v0.244 esta peça dizia "cura de 1 ou mais" e o livro dizia `25%`.** *Nenhum validador comparava os dois, e é a lição nº 9 na forma mais barata de consertar: dois documentos, dois números, e o leitor decide qual vale.*
+
+**O socorro precisa de uma porta que não dependa do tamanho da cura, e a conta mostra por quê:** *a tabela de `Cura` do manual para na Classe `5`, que entrega `45`.*
+
+| nível | vida média, Constituição 3 | `20%` dela | o Bastião | `20%` dele | a maior cura publicada |
+|---|---|---|---|---|---|
+| `10` | `83` | `17` | `105` | `21` | `27` |
+| `20` | `163` | `33` | `205` | `41` | `45` |
+| `26` | `211` | `42` | `265` | `53` | `45` |
+| `30` | `243` | `49` | `305` | `61` | `45` |
+
+**Do nível 26 em diante a cura comum não alcança o Bastião, e no 30 ela não alcança ninguém.** *Quem fecha isso é o `Levanta`, e é por isso que ele entra na regra com todas as letras em vez de ficar só no catálogo de Melhorias.*
+
+**O dano que entra a 0 tem dois freios, e eles se cruzam.** *No `Aguentar`, cada dano custa uma rodada da janela: três danos fecham ela mesmo sem Sequela, e quem tem duas Sequelas perde a janela no primeiro.* **O acumulado em negativo fecha os dois estados em `1,8` a `2,4` golpes de chefe**, *pela banda de `21%` a `28%` da vida que a peça 26 §6.5 publica.*
+
+**E o custo do `Insistir` fica fora do acumulado de propósito.** *Ele já cobra na vida máxima, e somar os dois derrubaria quase toda ficha na segunda rodada — o que apagaria as três rodadas que o `Insistir` existe para comprar.*
 
 ### O estado terminal já estava escrito, e era inalcançável
 

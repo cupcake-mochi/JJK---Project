@@ -744,7 +744,7 @@ else:
         print('  o teto de 1 Cicatriz deriva da peca 4 §5: vantagem nao empilha.')
 
 # --- 9.6 Aguentar e Insistir nao se dominam (teste de conjunto da peca 3) ---
-AGUENTAR = ({'janela de 3 rodadas', 'acorda com 1 de cura'},
+AGUENTAR = ({'janela de 3 rodadas', 'acorda com 20% da maxima de uma vez'},
             {'fora da luta desde ja', 'uma Sequela'})
 INSISTIR = ({'age por 3 rodadas'},
             {'7/8 da vida maxima', 'uma Sequela', 'so acorda com metade da maxima'})
@@ -753,6 +753,122 @@ for (na, a), (nb, b) in ((('Aguentar', AGUENTAR), ('Insistir', INSISTIR)),
     if a[0] >= b[0] and a[1] <= b[1] and (a[0] > b[0] or a[1] < b[1]):
         erro(f'{na} domina {nb}: mesmo preco, e um dos dois nunca teria motivo de ser escolhido')
 print('  Aguentar e Insistir: nenhum contem o outro. A escolha existe nos dois sentidos.')
+
+
+print('=' * 88)
+print('9.8 O SOCORRO A 0 — o %, a porta do Levanta, o dano que entra, e a copia do livro')
+print('=' * 88)
+#
+# v0.245. Ate a v0.244 a peca dizia "cura de 1 ou mais" e o livro dizia 25%, e
+# NINGUEM comparava os dois — a licao no 9 sobrevivendo por falta de leitor. Esta
+# checagem faz as tres coisas: le a regra da peca, cobra a mesma regra no livro, e
+# recomputa a tabela do socorro dos donos (a vida da §5.1, a Cura do manual e a
+# Classe por nivel do livro). Nenhum numero mora aqui.
+_regra98 = '\n'.join(_l for _l in sec.splitlines() if _l.lstrip().startswith('>'))
+_LIV98 = os.path.join(AQUI, '..', '05-material', 'livro', 'manual')
+try:
+    _cap98 = open(os.path.join(_LIV98, '10-como-jogar.md'), encoding='utf-8').read()
+    _cap98 = _cap98.split('## Vida a 0')[1].split('\n## ')[0]
+except (OSError, IndexError):
+    _cap98 = ''
+    erro('9.8: nao achei a secao `Vida a 0` no capitulo 2 do livro — ela e a copia que esta '
+         'checagem existe para comparar')
+
+_FRASES98 = (
+    ('o socorro por cura', r'Uma cura de \*\*(\d+)% ou mais da sua vida máxima\*\*, de uma vez'),
+    ('a porta do `Levanta`', r'a Melhoria `Levanta` te põe de pé com qualquer valor'),
+    ('o dano que custa rodada', r'Cada dano que você recebe apagado tira uma rodada da janela'),
+    ('o acumulado em negativo', r'metade da sua vida máxima original\*\*'),
+    ('o custo do Insistir fora da conta', r'custo do `Insistir` não entra nessa conta'),
+    ('o despertar que soma', r'a cura \*\*soma\*\*'),
+)
+_PCT98 = None
+_mau98 = []
+for _rot, _rx in _FRASES98:
+    _mp = _re.search(_rx, _regra98)
+    _ml = _re.search(_rx.replace('`Insistir`', 'Insistir').replace('\\*\\*', r'\**'), _cap98) if _cap98 else None
+    if not _mp:
+        _mau98.append(f'a peca 1 §5.5 parou de publicar {_rot}')
+    elif not _ml:
+        _mau98.append(f'o livro nao publica {_rot} — a peca e a dona, e a copia encolheu')
+    if _mp and _rot == 'o socorro por cura':
+        _PCT98 = int(_mp.group(1))
+        if _ml and int(_ml.group(1)) != _PCT98:
+            _mau98.append(f'a peca diz {_PCT98}% de socorro e o livro diz {_ml.group(1)}% — '
+                          'e exatamente a divergencia que a v0.245 consertou')
+
+# --- a tabela do socorro: recomputada dos donos --------------------------------
+_man98 = ''
+try:
+    _man98 = open(os.path.join(_LIV98, '40-fundamento.md'), encoding='utf-8').read()
+except OSError:
+    _mau98.append('nao consegui abrir o capitulo do Fundamento para ler a Cura e a Classe por nivel')
+_cura98, _cls98 = {}, []
+if _man98:
+    _mc98 = _re.search(r'^\| \*\*Cura cheia\*\* \|([^\n]+)\|$', _man98, _re.M)
+    if _mc98:
+        _cura98 = {_i + 1: int(_x) for _i, _x in enumerate(_re.findall(r'= (\d+)', _mc98.group(1)))}
+    _g98 = _man98[_man98.find('| Nível | O que ganha |'):]
+    _cls98 = sorted((int(_a), int(_b)) for _a, _b in
+                    _re.findall(r'^\| \*\*(\d+)\*\* \| [^\n]*?\bClasse (\d+)\.', _g98[:_g98.find('\n\n')], _re.M))
+if not _cura98 or not _cls98:
+    _mau98.append('nao li a tabela de Cura ou a Classe por nivel no livro — sem elas a tabela do '
+                  'socorro nao reconstroi de nada')
+else:
+    _TOPO98 = max(_cura98)
+    def _maior_cura98(nv):
+        _c = max(_b for _a, _b in _cls98 if nv >= _a)
+        return _cura98[min(_c, _TOPO98)]
+    _linhas98 = _re.findall(r'^\| `(\d+)` \| `(\d+)` \| `(\d+)` \| `(\d+)` \| `(\d+)` \| `(\d+)` \|$', sec, _re.M)
+    if not _linhas98:
+        _mau98.append('a tabela do socorro sumiu da secao 5.5, ou mudou de forma')
+    elif _PCT98:
+        for _nv, _med, _p20, _bas, _b20, _cur in ((int(x) for x in _l) for _l in _linhas98):
+            _esp_med = sum(vida(_nv, 3, _c) for _c in CAMINHO) / len(CAMINHO)
+            # o Caminho mais duro sai da tabela, e nao de um nome escrito aqui
+            _esp_bas = vida(_nv, 3, max(CAMINHO, key=lambda _c: vida(30, 3, _c)))
+            _esp = (round(_esp_med), round(_esp_med * _PCT98 / 100), _esp_bas,
+                    round(_esp_bas * _PCT98 / 100), _maior_cura98(_nv))
+            if (_med, _p20, _bas, _b20, _cur) != _esp:
+                _mau98.append(f'a linha do nivel {_nv} publica {(_med, _p20, _bas, _b20, _cur)} e a conta '
+                              f'da {_esp}')
+        # a porta: enquanto existir nivel em que a maior cura nao alcanca o socorro, a
+        # regra TEM de nomear o Levanta. Se um dia alcancar em todos, a porta fica sem motivo.
+        _faltam98 = [nv for nv in NIVEIS for _c in CAMINHO
+                     if _maior_cura98(nv) < vida(nv, 3, _c) * _PCT98 / 100]
+        _tem_porta98 = bool(_re.search(r'`Levanta` te põe de pé com qualquer valor', _regra98))
+        if _faltam98 and not _tem_porta98:
+            _mau98.append(f'em {len(set(_faltam98))} nivel(is) a maior cura publicada nao alcanca '
+                          f'{_PCT98}% da vida, e a regra nao nomeia nenhuma porta que independa do valor')
+        elif not _faltam98 and _tem_porta98:
+            print(f'  ⚠ a cura publicada ja alcanca {_PCT98}% em todo nivel — a porta do `Levanta` '
+                  f'virou redundante, e vale reler a regra')
+
+# --- o acumulado em golpes de chefe, contra a banda que a peca 26 §6.5 publica --
+_mb98 = None
+try:
+    _mb98 = _re.search(r'O golpe fica entre `(\d+)%` e `(\d+)%` da vida de um personagem do nível',
+                       open(os.path.join(AQUI, '26-bestiario.md'), encoding='utf-8').read())
+except OSError:
+    _mau98.append('nao consegui abrir a peca 26 para ler a banda do golpe de chefe')
+_mg98 = _re.search(r'fecha os dois estados em `(\d),(\d)` a `(\d),(\d)` golpes de chefe', sec)
+if _mb98 and _mg98:
+    _lo98, _hi98 = int(_mb98.group(1)), int(_mb98.group(2))
+    _esp98 = (round(50 / _hi98, 1), round(50 / _lo98, 1))
+    _pub98 = (float(f'{_mg98.group(1)}.{_mg98.group(2)}'), float(f'{_mg98.group(3)}.{_mg98.group(4)}'))
+    if _esp98 != _pub98:
+        _mau98.append(f'o acumulado fecha em {_esp98} golpes pela banda de {_lo98}% a {_hi98}% da '
+                      f'peca 26 §6.5, e a peca publica {_pub98}')
+elif not _mg98:
+    _mau98.append('a secao parou de publicar em quantos golpes de chefe o acumulado fecha')
+
+for _r98 in _mau98:
+    erro('9.8: ' + _r98)
+if not _mau98:
+    print(f'  o socorro e {_PCT98}% da maxima, e a peca e o livro dizem a mesma coisa nas seis frases.')
+    print(f'  a tabela do socorro reconstroi nas {len(_linhas98)} linhas, da vida da §5.1, da Cura do '
+          f'manual e da Classe por nivel.')
+    print(f'  o acumulado fecha em {_esp98[0]} a {_esp98[1]} golpes de chefe, pela banda da peca 26 §6.5.')
 
 
 print('=' * 88)

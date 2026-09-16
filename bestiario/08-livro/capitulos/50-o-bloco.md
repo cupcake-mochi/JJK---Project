@@ -206,6 +206,31 @@ enquanto sobrar núcleo de pé, o caído volta no começo do próximo turno dele
 > A vida total não muda e o fator não muda. A partição obriga o grupo a espalhar dano, e nada
 > mais.
 
+**`Parte destrutível`.** Um braço, uma cauda, um cristal nas costas. Ela é um alvo com a Defesa
+dele, tem vida própria, e destruí-la tira uma das ações dele.
+
+A vida de uma parte é a vida dele dividida pela luta, vezes duas rodadas, dividida pelas ações —
+arredondando para baixo. No nível 30 dá isto:
+
+**Vida de uma parte destrutível**
+{: .tab-titulo }
+
+| nível 30 | `Ameaça` | `Desastre` | `Catástrofe` | `Calamidade` |
+|---|---|---|---|---|
+| vida da parte | — | `210` | `188` | `210` |
+
+> As duas rodadas são o que faz a conta empatar: quebrar a parte na primeira rodada da luta ainda
+> paga o dano gasto nela, e da segunda em diante não paga mais. É o que mantém a escolha viva sem
+> transformar a parte em alvo obrigatório.
+>
+> A `Ameaça` age uma vez por rodada, então ela não carrega parte que tire ação — ficaria sem
+> turno.
+>
+> A parte não muda o fator: a vida dela é exatamente o que ela devolve em ação perdida.
+
+**Quantas partes ele tem, e o que a quebra faz além de tirar a ação, é seu.** Se a quebra desligar
+uma habilidade nomeada, isso é ficção sua e não tem preço nesta régua.
+
 # Ações e Intervenções
 
 `Ações` é a lista do que ele faz no turno. Cada ação vale um golpe, e quantas ações ele tem por

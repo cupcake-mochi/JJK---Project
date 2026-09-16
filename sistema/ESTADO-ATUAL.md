@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 15/09/2026, na v0.244 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e dez checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 16/09/2026, na v0.245 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e dez checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.244.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
+**Versão v0.245.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
 
 > ## 🆕 A v0.222 consertou duas coisas que a v0.221 deixou passar, e as duas são do §6.5 da peça 26
 >
@@ -1001,7 +1001,7 @@ O `conferir-manual.py` falha se os dois lados divergirem, e a mensagem dele **no
 
 ### O estado de 0 de vida entrou na v0.37, e na v0.88 ele virou `Inconsciente`
 
-*A peça 1 ganhou a **seção 5.5**, e ela fecha a pergunta nº 5 do `pitch-de-design.md` — aberta desde a v0.1.* A 0 de vida você escolhe **Aguentar** (apaga, janela de 3 rodadas, cura de 1 te levanta) ou **Insistir** (fica de pé, cada rodada custa 1/8, 1/4 e 1/2 da vida máxima). Levantar dá uma **Sequela**, que encurta a janela da próxima queda; **na segunda queda vem uma Cicatriz**. O fim da janela é o **estágio 4 de dano de alma**, que o manual já escrevia e que ninguém alcançava. Seis checagens novas no `conferir-atributos.py`, com oito perturbações conferidas.
+*A peça 1 ganhou a **seção 5.5**, e ela fecha a pergunta nº 5 do `pitch-de-design.md` — aberta desde a v0.1.* A 0 de vida você escolhe **Aguentar** (apaga, janela de 3 rodadas, cura de `20%` da máxima te levanta, e cada dano recebido tira uma rodada) ou **Insistir** (fica de pé, cada rodada custa 1/8, 1/4 e 1/2 da vida máxima). Levantar dá uma **Sequela**, que encurta a janela da próxima queda; **na segunda queda vem uma Cicatriz**. O fim da janela é o **estágio 4 de dano de alma**, que o manual já escrevia e que ninguém alcançava. Seis checagens novas no `conferir-atributos.py`, com oito perturbações conferidas.
 
 > ~~**A dívida: uma Cicatriz não tem mecânica, só nome.**~~ ***FECHADA na v0.171, e não na peça que a dívida esperava.*** **Ela é vantagem em `Intimidação` e desvantagem em `Persuasão`, as duas `Essência`, e mora na peça 1 §5.5.** *Teto `1`, porque vantagem não empilha, e ela **não vem** se quem fechou o ferimento foi a sua própria `Energia Reversa`.* **A `Energia Reversa` não limpa Sequela** — a segunda metade da pergunta fechou junto.
 >

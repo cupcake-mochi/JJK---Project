@@ -8,6 +8,71 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.245] — 16/09/2026
+
+**A regra de vida a `0` ganhou o que faltava: o socorro tem tamanho, e o dano que entra a `0` tem consequência.** *Ele achou isso lendo o livro — "cadê o sistema de morte pra player?" — e a leitura levantou uma divergência que nenhum validador pegava.* **E a parte destrutível da v0.244 entrou no livro do Bestiário.**
+
+### 1 · A divergência que estava publicada
+
+**A peça 1 §5.5 dizia que qualquer cura de `1` te põe de pé, e o livro dizia `25%` da vida máxima.** *As duas frases existem desde a v0.37, e nenhum validador comparava a peça com o capítulo 2 do livro.* **É a lição nº 9 na forma mais barata de consertar: dois documentos, dois números, e o jogador decide qual vale.**
+
+***Decisão dele:*** *o `25%` vencia, e virou `20%` — "reduz pra 20% da vida e deixa o levanta por de pe sempre, que é a melhoria né imagino".*
+
+### 2 · A regra nova
+
+> **Aguentar** — *uma cura de `20%` ou mais da vida máxima, de uma vez, põe de pé; a Melhoria `Levanta` põe de pé com qualquer valor.* **Cada dano recebido apagado tira uma rodada da janela**, no mínimo uma.
+>
+> **O dano que entra a `0` se acumula.** *Passou de metade da vida máxima original, acaba na hora: no `Aguentar` é o estágio 4, e no `Insistir` é desabar.* **O custo do `Insistir` fica fora dessa conta.**
+>
+> **Quem desaba pelo `Insistir`** *acorda com metade da vida máxima original, e aqui a cura **soma** — pode vir de várias fontes, em várias rodadas.* ***Decisão dele:*** *"no caso do insistir, n precisa ser de uma vez, diferente do aguentar".*
+
+**As três lacunas foram resolvidas por mim, a pedido dele** — *"Busque resolver as lacunas"*: *a metade é da máxima **original**; o acumulado conta **só o dano que entra**; e no `Aguentar` o limite leva ao **estágio 4 na hora**, igual à janela vazia.*
+
+### 3 · Por que o socorro precisou de uma porta
+
+**A tabela de `Cura` do manual para na Classe `5`, que entrega `45`:**
+
+| nível | vida média | `20%` | o Bastião | `20%` dele | a maior cura |
+|---|---|---|---|---|---|
+| `20` | `163` | `33` | `205` | `41` | `45` |
+| `26` | `211` | `42` | `265` | `53` | `45` |
+| `30` | `243` | `49` | `305` | `61` | `45` |
+
+**Do nível 26 em diante a cura comum não alcança o Bastião, e no 30 não alcança ninguém.** *Por isso o `Levanta` entra na regra com todas as letras, e não fica só no catálogo de Melhorias.*
+
+> ***Decisão dele: o catálogo do manual não muda*** — *"Fica pra B mesmo, ela é exeção, sempre foi".* **O manual continua na `v7.31`**, *e o preço declarado é que quem ler só o catálogo não descobre essa propriedade do `Levanta`.*
+
+**E o dano que entra fecha os dois estados em `1,8` a `2,4` golpes de chefe**, *pela banda de `21%` a `28%` da vida que a peça 26 §6.5 publica.* **No `Aguentar`, três danos fecham a janela mesmo sem Sequela**, *e quem tem duas Sequelas perde ela no primeiro.*
+
+### 4 · O validador e o arnês
+
+**A `9.8` do `conferir-atributos.py` é a checagem que faltava:** *ela lê a regra do bloco `>` da §5.5, cobra as mesmas seis frases no capítulo 2 do livro, recomputa a tabela do socorro da vida da §5.1, da `Cura` do manual e da Classe por nível, e refaz o acumulado em golpes.* **E ela exige que a regra nomeie uma porta que independa do valor enquanto existir nível em que a cura não alcança.**
+
+**O arnês rodou numa cópia isolada, com a base verde: `8` de `8`.** *As duas divergências entre peça e livro acendem nos dois sentidos, e o contra-teste inócuo fica verde.*
+
+> **⚠ O arnês deu `1` de `8` na primeira rodada, e as duas causas eram dele.** *A cópia não levava a pasta `manual/`, e o filtro procurava `!!` numa saída que escreve `ERRO:`.*
+
+### 5 · A parte destrutível no livro do Bestiário
+
+**O capítulo do bloco ganhou a seção, logo depois de `Traços`:** *a fórmula, a tabela de vida por categoria, o porquê das duas rodadas e a nota de que quantas partes e o que a quebra faz são do mestre.* **Os dois PDFs do Bestiário foram refeitos.**
+
+### Alterado
+
+- **Peça 1:** *a §5.5 — a regra, a tabela das duas escolhas, e a subseção `O socorro, e o dano que entra a 0`.*
+- **`conferir-atributos.py`:** *a checagem `9.8`, e a `9.6` deixou de citar a cura de `1`.*
+- **Livro da Guilda:** *a seção `Vida a 0` do capítulo 2, e os quatro artefatos refeitos.*
+- **Livro do Bestiário:** *a seção da parte destrutível no capítulo do bloco, e os dois PDFs.*
+- **`ESTADO-ATUAL`, `README` e `LEIA-ME`:** *a versão e a cópia da regra.*
+
+### Continua aberto
+
+- **O catálogo de Melhorias do manual não diz que o `Levanta` põe de pé com qualquer valor.** *Entra na próxima vez que o manual for regerado por outro motivo.*
+- **O livro do Bestiário continua sem a Expansão de inimigo.**
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, seção *"Onde estamos, e o que falta"*.
+
+---
+
 ## [0.244] — 15/09/2026
 
 **A vida de parte destrutível virou regra, na peça 26 §6.5.** *É o item 3 da fila, e ela fecha a dívida que a v0.231 deixou anotada: o braço do Sukuna era conta dele, e não regra.*

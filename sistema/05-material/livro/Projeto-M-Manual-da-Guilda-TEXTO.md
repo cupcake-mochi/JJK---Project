@@ -698,11 +698,13 @@ O personagem levou o golpe que zerou a barra, a mesa para, e quem escolhe o que 
 
 > **Você chega a 0 de vida. Escolha uma das duas, na hora:**
 >
-> **Aguentar** — você apaga. Tem uma janela de **3 rodadas**. Qualquer cura de **25%** ou mais da sua vida **máxima** te põe de pé. Se a janela acabar sem socorro, você chega ao **estágio 4 de dano de alma**.
+> **Aguentar** — você apaga. Tem uma janela de **3 rodadas**. Uma cura de **20% ou mais da sua vida máxima**, de uma vez, te põe de pé, e a Melhoria `Levanta` te põe de pé com qualquer valor. **Cada dano que você recebe apagado tira uma rodada da janela**, no mínimo uma. Se a janela acabar sem socorro, você chega ao **estágio 4 de dano de alma**.
 >
 > **Insistir** — você fica de pé a 0 de vida e age normalmente. Cada rodada custa um pedaço da sua **vida máxima**, e ele dobra: **1/8, depois 1/4, depois 1/2**. Na quarta rodada você desaba.
+>
+> **O dano que entra enquanto você está a 0 se acumula.** Passou de **metade da sua vida máxima original**, acaba na hora: no Aguentar você chega ao estágio 4, e no Insistir você desaba. O custo do Insistir não entra nessa conta.
 
-Quem desaba pelo Insistir não levanta com um ponto de cura. Só acorda com uma cura de **metade da sua vida máxima original, de uma vez só**.
+Quem desaba pelo Insistir não levanta com um ponto de cura. Só acorda com **metade da sua vida máxima original**, e aqui a cura **soma**: pode vir de várias fontes, em várias rodadas. A Melhoria `Levanta` põe de pé com qualquer valor, aqui também.
 
 O custo do Insistir usa o arredondamento de sempre.
 
@@ -6825,4 +6827,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: 70042aa5cef4a56792cf2b5275edecea158648b6 -->
+<!-- fonte: d32807f5fbc7b6b7c64af6f0edcc9c0d8fb779f9 -->
