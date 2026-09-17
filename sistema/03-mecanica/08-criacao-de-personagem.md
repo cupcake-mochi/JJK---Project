@@ -159,7 +159,7 @@ Você já tem a Regra. Falta:
 | ficando com os ofícios | 9 de 23 | 2 de 11 |
 | trocando os dois | 10 de 23 | 0 de 11 |
 
-**E nos três Caminhos que não treinam arma de verdade — Guia, Emanador e Evocador — duas das cinco à sua escolha se trocam por treino em UMA arma**, não a categoria e não o tipo. *Quem faz as duas trocas fica com oito perícias, nenhum ofício e uma arma.*
+**E nos três Caminhos que não treinam arma de verdade — Guia, Emanador e Evocador — duas das cinco à sua escolha se trocam por treino em UMA arma**, não a categoria e não o tipo. **A troca de arma pode se repetir uma segunda vez, com outras duas das cinco — até duas armas.** *Quem troca os ofícios e faz uma troca de arma fica com oito perícias, nenhum ofício e uma arma; quem faz as duas trocas de arma fica com seis perícias, nenhum ofício e duas armas.*
 
 Você é bom em pouco mais de um terço do que existe — os buracos são de propósito, e é o que faz o grupo precisar um do outro.
 

@@ -169,11 +169,11 @@ Forjar uma lâmina é **Força**, falsificar uma assinatura é **Destreza**, e s
 ## 6. De onde vem o treino
 
 > **O Caminho dá duas perícias fixas e mais cinco à sua escolha, de qualquer uma da lista de perícias do sistema.**
-> **Nos três Caminhos que não treinam arma de verdade, duas das cinco à sua escolha se trocam por treino em UMA arma** — não a categoria, não o tipo: uma arma da lista.
+> **Nos três Caminhos que não treinam arma de verdade, duas das cinco à sua escolha se trocam por treino em UMA arma** — não a categoria, não o tipo: uma arma da lista. **A troca pode se repetir uma segunda vez, com outras duas das cinco — até duas armas, nunca mais.**
 > **A Origem dá mais duas perícias: uma da lista de quatro dela, e uma livre — de fora das sete que o Caminho te deu.**
 > **Mais dois ofícios à sua escolha, e os dois se trocam por mais uma perícia livre.**
 
-**Nove perícias de vinte e três e dois ofícios de onze** — ou dez e nenhum, se você trocar os dois ofícios da Origem por mais uma perícia. *E sete e dois, mais uma arma, para quem faz a troca de arma.*
+**Nove perícias de vinte e três e dois ofícios de onze** — ou dez e nenhum, se você trocar os dois ofícios da Origem por mais uma perícia. *E sete e dois, mais uma arma, para quem faz uma troca de arma — ou cinco e dois, mais duas armas, para quem faz as duas.*
 
 As duas fixas são a assinatura do Caminho — o que qualquer um daquele Caminho sabe fazer. As cinco livres são suas.
 

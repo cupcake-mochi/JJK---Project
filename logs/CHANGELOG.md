@@ -8,6 +8,18 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.247] — 17/09/2026
+
+**A troca de perícia por arma pode se repetir uma segunda vez.** *A peça 07 §6 e a peça 08, no Passo 6, já diziam que, nos três Caminhos que não treinam arma de verdade, duas das cinco perícias à escolha do Caminho se trocam por treino em uma arma — mas ficava calado se dava para fazer de novo, com as outras duas.* ***Decisão do Mizuki: sim, até duas vezes, nunca mais*** — *achado no repositório da ficha, construindo a caixa de Treinamento em Armas.* **Quem faz as duas trocas de arma, junto com a troca de ofício, fica com seis perícias, nenhum ofício e duas armas**, *o mesmo exemplo que já existia para uma troca só, estendido.*
+
+### Decidido
+
+- **A troca de perícia por arma (peça 07 §6, peça 08 Passo 6) repete até duas vezes**, *nunca mais — cada repetição gasta outras duas das cinco perícias livres do Caminho.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, seção *"Onde estamos, e o que falta"*.
+
+---
+
 ## [0.246] — 16/09/2026
 
 **Três combinações de Restrição saíam de graça, e agora não entram.** *O `Rápido` com o `Atrasar` era trava só da ficha digital, pela decisão A3 de lá, e o manual ficava calado.* **Testando a mesma leitura nas outras Restrições, a `Reação` tinha o mesmo buraco com o `Atrasar` e com o `Parado`.** *E a versão escreve três coisas que já estavam decididas e não estavam no texto — o `Levanta` no catálogo do manual, a Reação da ficha sem energia no livro, e a nota do escudo na ficha de papel —, e fecha três perguntas que a mesma leitura levantou.*
