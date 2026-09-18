@@ -24,7 +24,7 @@ O nome não é enfeite. A categoria inteira de técnicas que não nascem com a p
 
 **`Auge`** — o golpe de dano fixo, do nível 17 em diante. **Dano pela faixa de nível, orçamento de montagem à parte, `5 × maior Classe` de PE**, e não aceita Restrição.
 
-É a Técnica Máxima do capítulo 9.
+Onde o capítulo 9, *Fundamento*, escreve *Técnica Máxima*, leia `Auge`.
 
 ### Liberação Máxima
 

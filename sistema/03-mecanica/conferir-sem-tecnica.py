@@ -13,7 +13,7 @@ escada de gate e teto de Classe Passiva saem dos documentos donos:
   a `Sutura` e o `Pulso` ...... DESENHO-trilhas.md
   os renomes da peca 20 ....... 20-tecnica-marcial.md §3.1
 
-Doze checagens. Sai com codigo 1 se algo quebrar.
+Treze checagens. Sai com codigo 1 se algo quebrar.
 """
 import os
 import re
@@ -38,6 +38,7 @@ P11 = ler('11-aptidoes-e-refino.md')
 P09 = ler('09-origens.md')
 P06 = ler('06-caminhos-e-trilhas.md')
 DES = ler('DESENHO-trilhas.md', RAIZ)
+LIVRO25 = ler('sistema/05-material/livro/manual/43-sem-tecnica.md', RAIZ)
 
 def secao(txt, titulo, nivel='## '):
     """recorte que fecha em QUALQUER cabecalho de nivel igual ou MENOR — a
@@ -360,6 +361,28 @@ try:
             erro(f'12: `{n}` sai {m.group(1)}{m.group(2)} — e a peca 25 batiza assim mesmo')
 except Exception as e:
     aviso(f'12: nao consegui rodar a triagem ({e}) — checagem PULADA')
+
+# --------------------------------------------------------------------------
+bloco('13. O RENOME TAMBEM VALE NO LIVRO — a peca so olhava para si mesma')
+# v0.248: achado do Mizuki relendo o proprio livro. A checagem 3 prova que os
+# dois renomes existem na PECA; ela nunca leu o capitulo 43, que e o que o
+# jogador abre. "É a Técnica Máxima do capítulo 9" tinha sobrevivido lá desde
+# a v0.168 — sentenca legitima como ponteiro, mas escrita ao contrario: ela
+# reafirma o nome velho em vez de mandar o leitor trocar para o novo, e um
+# leitor correndo os olhos le exatamente o que este validador existe pra
+# proibir. A frase boa e' a mesma que o `Manejo` ja usa duas linhas acima:
+# "onde o capitulo 9 escreve X, leia Y".
+for velho, novo in RENOMES.items():
+    achados = [l.strip()[:90] for l in LIVRO25.splitlines()
+               if re.search(rf'\b{re.escape(velho)}\b', l) and 'leia' not in l]
+    if achados:
+        for a in achados:
+            print(f'     {a}')
+        erro(f'13: `{velho}` vive no capitulo 43 do livro fora da frase '
+             f'"onde o capitulo 9 escreve X, leia Y" — nesta rota ele se '
+             f'chama `{novo}`, e o livro e o que o jogador le')
+    else:
+        print(f'  [x] `{velho}` so aparece no livro dentro do ponteiro pro capitulo 9')
 
 # --------------------------------------------------------------------------
 print()

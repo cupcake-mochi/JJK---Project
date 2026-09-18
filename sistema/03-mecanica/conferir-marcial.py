@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-conferir-marcial.py — as treze checagens da peca 20, Tecnica Marcial.
+conferir-marcial.py — as catorze checagens da peca 20, Tecnica Marcial.
 
 NENHUM VALOR DE REGRA MORA AQUI. Orcamento, fatia, Rotina, condicao, escada de
 grau e catalogo de arma saem dos documentos donos. O unico bloco com numero na
@@ -39,6 +39,7 @@ def num(s):
     return float(s.replace('.', '').replace(',', '.'))
 
 P20 = ler('20-tecnica-marcial.md')
+LIVRO20 = ler('sistema/05-material/livro/manual/42-tecnica-marcial.md')
 P6  = ler('06-caminhos-e-trilhas.md')
 P9  = ler('09-origens.md')
 P11 = ler('11-aptidoes-e-refino.md')
@@ -514,6 +515,31 @@ else:
     else:
         print(f'  [x] o `Bocado` entrega um a mais que a base, que e o degrau que a '
               f'peca 3 SS3.2 preca em Classe Passiva 1.')
+
+
+# ============================================================ 14
+bloco('14. O RENOME TAMBEM VALE NO LIVRO — a peca so olhava para si mesma')
+
+# v0.248: a checagem 7 prova que os renomes existem na PECA; ela nunca leu o
+# capitulo 42, que e o que o jogador abre. "É a Liberação Máxima do capítulo
+# 9" e "É a Técnica Máxima do capítulo 9" tinham sobrevivido lá desde a
+# v0.122 — ponteiro legitimo, mas escrito ao contrario: reafirma o nome velho
+# em vez de mandar o leitor trocar pro novo, e quem le por cima le exatamente
+# o que esta checagem existe pra proibir. `feitiço` fica de fora: a peca
+# tambem usa a palavra pra descrever o feitiço de OUTRO personagem (a
+# `Leitura`), que nao e renome nenhum.
+_RENOMES_LIVRO = {'Liberação Máxima': 'Ruptura', 'Técnica Máxima': 'Ōgi'}
+for velho, novo in _RENOMES_LIVRO.items():
+    achados = [l.strip()[:90] for l in LIVRO20.splitlines()
+               if re.search(rf'\b{re.escape(velho)}\b', l) and 'leia' not in l]
+    if achados:
+        for a in achados:
+            print(f'     {a}')
+        erro(14, f'`{velho}` vive no capitulo 42 do livro fora da frase '
+                 f'"onde o capitulo 9 escreve X, leia Y" — nesta rota ele se '
+                 f'chama `{novo}`, e o livro e o que o jogador le')
+    else:
+        print(f'  [x] `{velho}` so aparece no livro dentro do ponteiro pro capitulo 9')
 
 
 # ------------------------------------------------------------------ RODAPE

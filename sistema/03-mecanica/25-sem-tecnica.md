@@ -296,7 +296,7 @@ A terceira linha é a que faz esta peça caber sem furar nada. **O `arquitetura.
 
 ## 10. O que o validador confere
 
-O `conferir-sem-tecnica.py` roda **doze checagens**, e nenhum valor de regra fica escrito dentro dele: orçamento, fatia, Rotina, curva de refino, gate e escada de Classe Passiva saem dos documentos donos.
+O `conferir-sem-tecnica.py` roda **treze checagens**, e nenhum valor de regra fica escrito dentro dele: orçamento, fatia, Rotina, curva de refino, gate e escada de Classe Passiva saem dos documentos donos. *A 13, da v0.248, confere que os renomes também valem no capítulo do livro, e não só aqui.*
 
 | # | o que ela confere | de onde ela lê | o teste negativo |
 |---|---|---|---|

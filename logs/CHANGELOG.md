@@ -8,6 +8,113 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.250] — 17/09/2026
+
+**O livro do Bestiário ganhou o Rescaldo e a `Regravação` do inimigo, fechando o segundo furo que a v0.249 tinha deixado de fora.** *A conta é a mesma peça 26 §6.4, decidida na v0.242 — o inimigo carrega a corrente inteira do jogador —, e nunca tinha sido publicada.*
+
+### A seção nova, dentro de "Expansão de Domínio"
+
+**"Rescaldo e Regravação" entra como sub-seção, porque só existe pra quem já tem Expansão.** *O Rescaldo funciona como no jogador — quando o domínio cai, a técnica queima pelo resto da cena, e as ações viram golpes de corpo —, mas quase nunca aparece na mesa: o domínio do inimigo já dura a luta inteira, então o Rescaldo só pega se ele cair antes do fim.*
+
+**A corrente do inimigo:** *`Energia Reversa` no nível 18, `Circulação` no 22, `Regravação` no 26 — a mesma escada de marco do jogador.* **`Regravação` custa Ação Bônus e o teto da `Circulação`, saindo da cota de dano de sempre:** *no nível 30, o teto inteiro equivale a `51,4` de dano — quase a rodada de uma `Ameaça`, uma fatia pequena de uma `Calamidade`.* **Reabrir o domínio depois de uma regravação não muda o fator**, porque o `1,92` já supõe o domínio de pé a luta inteira.
+
+### Conferido de novo
+
+**Os quatro geradores, os dois builds e o `conferir-voz.py --estrito` rodaram limpos.** *`50-o-bloco.md` continua "limpo" na tabela de voz, e nenhum outro capítulo mudou.*
+
+### Alterado
+
+- **Livro do Bestiário, capítulo `Bloco em branco` (`50-o-bloco.md`):** a sub-seção `Rescaldo e Regravação`.
+- **Os dois PDFs do Bestiário**, refeitos.
+
+### Decidido
+
+- **A frase publicada é a mesma regra da peça 26 §6.4, sem número novo.**
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, seção *"Onde estamos, e o que falta"*.
+
+---
+
+## [0.249] — 17/09/2026
+
+**O livro do Bestiário ganhou a regra da Expansão de Domínio de inimigo, e ela estava faltando desde a v0.242.** *A conta é da peça 26 §6.4, fechada e testada havia versões; o que faltava era só a frase — o texto do livro já supunha a regra sem publicar ela, achado numa conferência.*
+
+### A seção nova, no capítulo do bloco
+
+**"Expansão de Domínio" entra logo depois de "Resistência, imunidade e vulnerabilidade"** — a mesma família de regra, uma célula que multiplica o fator. *Dentro da Expansão completa o inimigo acerta sem rolar; fora, ele acerta `52%`; a razão entre as duas é o `1,92` que multiplica o fator — e, com ele, quantos personagens o encontro exige.*
+
+| categoria | exige | com Expansão |
+|---|---|---|
+| `Ameaça` | `1` | `1,9` |
+| `Desastre` | `4` | `7,7` |
+| `Catástrofe` | `6` | `11,5` |
+| `Calamidade` | `8` | `15,4` |
+
+**Três coisas a mais entraram, todas já decididas em versões passadas e nunca publicadas:** *a régua não se compensa — o mestre lê a coluna maior e não divide o dano de volta (decisão da v0.229); a Incompleta não custa nada aqui, porque sem acerto garantido ela resolve como qualquer feitiço; e a Expansão sem Barreiras multiplica o mesmo `1,92`, com as três diferenças que ficam fora do fator — pega quem não tem energia só se o Acerto disser isso, não tem casca pra quebrar, e o raio de `200 metros` cobre a cena inteira.*
+
+### O resto do Bestiário, conferido
+
+**A pergunta era se o livro do Bestiário estava fechado, e a resposta é: quase.** *Rodei os quatro geradores, os dois builds e o `conferir-voz.py --estrito` do livro inteiro — `50-o-bloco.md` sai limpo, e nenhum outro capítulo mudou.* **Sobra a regra geral de Destreza abaixo da tabela devolvendo fator**, que fica para a próxima, porque ela pede uma decisão e não só uma frase.
+
+### Alterado
+
+- **Livro do Bestiário, capítulo `Bloco em branco` (`50-o-bloco.md`):** a seção `Expansão de Domínio`.
+- **Os dois PDFs do Bestiário**, refeitos.
+
+### Decidido
+
+- **A frase publicada é a mesma regra da peça 26 §6.4, sem número novo** — publicar não é decidir de novo.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, seção *"Onde estamos, e o que falta"*.
+
+---
+
+## [0.248] — 17/09/2026
+
+**Duas coisas saíram da fila, duas foram conferidas sem mexer em nada, e um vício de leitura foi achado repetido em dois capítulos do livro.** *Ele pediu quatro coisas na mesma mensagem: tirar `Itens menores` da fila, checar se a `Sobrecarga` e o livro do Bestiário estavam em dia com as mudanças recentes de inimigo, e dar nome novo à Técnica Máxima do `Sem Técnica` — "não faz sentido ele ter uma".* **O primeiro é limpeza, os dois do meio não mudaram nada, e o quarto virou o achado desta versão: ela já tinha nome, e o defeito era a frase que devia contar isso ao leitor.**
+
+### 1 · `Itens menores` sai da fila
+
+*Levantada na v0.131: talismã pronto, remédio, o kit que o `Herbalismo` usa.* **A v0.171 já tinha decidido "melhor não ter item consumível", e ninguém tinha voltado para fechar a pendência que aquela decisão esvaziou.** A camada 1 (permissão) da peça 14 §6 continua de pé, com preço no §6.5 — só a camada de consumível não vai existir, e ela era a pendência inteira.
+
+**`Itens iniciais por Caminho` saiu junto, e por um motivo pior: ela já tinha fechado.** *Decisão da v0.211 — não existe kit por Caminho, nem fixo nem recomendado, porque o orçamento livre da v0.175 já produz a variação de build que um kit substituiria.* **A fila continuou dizendo "em aberto" por trinta e seis versões** — é a lição nº 9 dentro da própria lista de pendências, a mesma família de erro que a peça 26 §8 já tinha pago com o `29` de capanga.
+
+### 2 · `Sobrecarga` e o livro do Bestiário, conferidos e sem mudança
+
+**`Sobrecarga` já foi consertada para o inimigo, na v0.221.** *Ela trocou "o dobro de energia" — que valia zero contra quem não conta PE — por "ele não usa Reação", nos dois donos, e a checagem `5` do `conferir-acao.py` proíbe a frase velha de voltar.* Nada a fazer aqui.
+
+**O livro do Bestiário não está fechado, e os dois furos já estavam anotados desde a v0.242:** ele não publica a regra da Expansão de inimigo — a peça 26 §6.4 tem a conta, o texto do livro já supõe que ela existe, e a frase não está lá —, e a peça 26 não escreve a regra geral de que Destreza abaixo do que a Defesa da tabela pede devolve fator, só o caso do Sukuna. Os dois ficam para quando ele quiser puxar essa revisão; nenhum trava mesa.
+
+### 3 · A Técnica Máxima do `Sem Técnica` já tinha nome — o defeito era outro
+
+***Pedido dele:*** *"falta a gente colocar um nome novo para a técnica máxima do sem técnica, não faz sentido ele ter uma técnica máxima."* **Já tinha: a peça 25 renomeou para `Auge` quando fechou, na v0.168, junto do `feitiço` virando `Manejo`.** *A peça 20, Técnica Marcial, tinha renomeado os três — `Kata`, `Ruptura` e `Ōgi` — antes, na v0.122.* **O que faltava não era nome: era a frase que devia avisar o leitor que aqui o nome trocou, e ela dizia o contrário.**
+
+**Em três lugares do livro, a frase de ponteiro reafirmava o nome velho em vez de mandar trocar:** *"É a Técnica Máxima do capítulo 9"*, no capítulo `Sem Técnica`, sobre o `Auge`; e as mesmas duas, para `Ruptura` e para `Ōgi`, no capítulo `Técnica Marcial` — *"É a Liberação Máxima do capítulo 9"* e *"É a Técnica Máxima do capítulo 9"*. **As três sobreviveram desde a v0.122 e a v0.168, porque nenhum validador olhava para o livro — só para a peça.** Um leitor correndo os olhos lê exatamente o nome velho, que é o que o renome existe para evitar — e é razoável que tenha sido o que deixou o Mizuki em dúvida se o nome novo existia.
+
+**As três viraram a mesma forma que o `Manejo` e o `Kata` já usavam:** *"Onde o capítulo 9, `Fundamento`, escreve X, leia Y."*
+
+### 4 · O validador ganhou os olhos que faltavam
+
+**`conferir-sem-tecnica.py` ganhou a checagem `13`, e `conferir-marcial.py` ganhou a `14`** — as duas leem o capítulo do livro em vez de só a peça, e proíbem o nome velho de viver fora da frase de ponteiro. `feitiço` ficou fora da checagem do capítulo 42: a peça também usa a palavra para descrever o feitiço de OUTRO personagem (a `Leitura`), e isso não é renome nenhum.
+
+**O arnês rodou numa cópia isolada, com a base verde.** *Revertendo as três frases para a forma velha, as duas checagens acendem nos três lugares certos — confirmado por `diff` antes de ler o resultado —, e restaurando elas voltam ao verde.*
+
+### Alterado
+
+- **Livro da Guilda, capítulos `Técnica Marcial` e `Sem Técnica`:** as três frases de ponteiro.
+- **`conferir-sem-tecnica.py`:** a checagem `13`, e "Doze checagens" virou "Treze" no cabeçalho.
+- **`conferir-marcial.py`:** a checagem `14`, e "treze checagens" virou "catorze" no cabeçalho.
+- **`ESTADO-ATUAL`:** a fila perdeu `Itens iniciais por Caminho` (já fechada na v0.211) e `Itens menores`, e a linha de `O que cada ofício FAZ` parou de apontar para uma pendência que não existe mais.
+- **`README` e `LEIA-ME`:** a versão.
+
+### Decidido
+
+- **`Itens menores` sai da fila** — a v0.171 já tinha esvaziado a pendência ao matar o item consumível, e ninguém tinha voltado para fechar.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, seção *"Onde estamos, e o que falta"*.
+
+---
+
 ## [0.247] — 17/09/2026
 
 **A troca de perícia por arma pode se repetir uma segunda vez.** *A peça 07 §6 e a peça 08, no Passo 6, já diziam que, nos três Caminhos que não treinam arma de verdade, duas das cinco perícias à escolha do Caminho se trocam por treino em uma arma — mas ficava calado se dava para fazer de novo, com as outras duas.* ***Decisão do Mizuki: sim, até duas vezes, nunca mais*** — *achado no repositório da ficha, construindo a caixa de Treinamento em Armas.* **Quem faz as duas trocas de arma, junto com a troca de ofício, fica com seis perícias, nenhum ofício e duas armas**, *o mesmo exemplo que já existia para uma troca só, estendido.*

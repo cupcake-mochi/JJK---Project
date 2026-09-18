@@ -182,6 +182,59 @@ substantivo de dano e condição é nome de condição.
 **Fraqueza não é nome de célula, e a palavra fica livre.** Vulnerabilidade é o dano; fraqueza é
 narrativa, e serve para a coisa que derruba o bicho sem passar por dano nenhum.
 
+# Expansão de Domínio
+
+Dentro da Expansão completa, o acerto dele acontece — sem rolar, sem Teste de Resistência. Fora
+dela, o mesmo inimigo acerta `52%`, a banda que o capítulo `6` já publica. A diferença entre as
+duas coisas multiplica o fator por `1,92`.
+
+**Multiplique o fator do inimigo, não a categoria dele.**
+
+**Expansão completa**
+{: .tab-titulo }
+
+| categoria | exige | com Expansão |
+|---|---|---|
+| `Ameaça` | `1` | `1,9` |
+| `Desastre` | `4` | `7,7` |
+| `Catástrofe` | `6` | `11,5` |
+| `Calamidade` | `8` | `15,4` |
+
+Nenhuma cai num número redondo, e não precisa: o fator é gente, não rótulo. Uma `Calamidade` com
+Expansão exige `15,4` feiticeiros — é por isso que ninguém enfrenta esse chefe com quatro.
+
+O encontro fica maior, e você lê a coluna da direita. Não divida o dano por `1,92` para
+"compensar": dentro da própria Expansão, o domínio é pra ser quase suicida de enfrentar.
+
+A Incompleta não muda nada aqui. Sem acerto garantido, ela resolve como qualquer feitiço — com
+rolagem, e com Teste de Resistência do outro lado.
+
+**A Expansão sem Barreiras multiplica o mesmo `1,92`.** O acerto dela também é garantido, com a
+mesma duração. Três coisas mudam fora do fator: ela só pega quem não tem energia amaldiçoada se o
+Acerto disser isso; não existe casca pra ninguém quebrar por fora; e os `200 metros` de raio
+cobrem a cena inteira, não só quem estava perto quando ela abriu.
+
+## Rescaldo e Regravação
+
+Um inimigo com Expansão de Domínio queima a técnica como qualquer feiticeiro: quando o domínio
+cai, de qualquer jeito, ele passa o resto da cena sem ela. As ações viram golpes de corpo, com o
+atributo que ele usa pra bater — a cota de dano não muda, só o que a compõe.
+
+Isso quase nunca aparece na mesa: o domínio dele já dura a luta inteira, pela conta acima. O
+Rescaldo só pega se o domínio cair antes do fim — a barreira quebrada por fora, ou uma falha na
+corrida ou na concentração.
+
+**A partir do nível 18, ele também pode carregar a corrente do jogador** — `Energia Reversa`,
+`Circulação` e `Regravação` —, na mesma escada de marco do capítulo 9: `Energia Reversa` no 18,
+`Circulação` no 22, `Regravação` no 26.
+
+`Regravação` custa Ação Bônus e o teto da `Circulação`, e sai da mesma cota de dano de sempre. No
+nível 30, gastar o teto inteiro equivale a `51,4` de dano — quase a rodada inteira de uma
+`Ameaça`, e uma fatia pequena de uma `Calamidade`. Cada uso deixa uma marca; com Inteligência
+alta ele reabre o domínio de duas a cinco vezes por dia, e a última regravação fecha a Expansão
+até o próximo descanso longo. Reabrir não muda quantos personagens ele exige: o encontro já foi
+cobrado pelo tamanho que vale a luta inteira.
+
 # Pacto
 
 Esta é a única linha condicional do bloco. Quem não tem pacto não imprime ela.

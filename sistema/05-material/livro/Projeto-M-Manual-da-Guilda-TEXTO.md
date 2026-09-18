@@ -4449,13 +4449,13 @@ Três coisas mudam de nome e duas somem.
 
 **`Ruptura`** — a única Kata que passa do limite de dano contra um alvo só. Uma no nível 10, uma no 20 e uma no 30. **`+Classe` em dados, custa a rodada inteira, `+50%` de PE**, e o preço se escolhe na hora: `Vazio`, `Sangue` ou `Peso`.
 
-É a Liberação Máxima do capítulo 9, com as mesmas regras.
+Onde o capítulo 9, *Fundamento*, escreve *Liberação Máxima*, leia `Ruptura`. As regras são as mesmas.
 
 ### `Ōgi`
 
 **`Ōgi`** (奥義, a técnica que a escola guarda) — o golpe de dano fixo, do nível 17 em diante. **Dano pela faixa de nível, orçamento de montagem à parte, `5 × maior Classe` de PE**, e não aceita Restrição.
 
-É a Técnica Máxima do capítulo 9.
+Onde o capítulo 9, *Fundamento*, escreve *Técnica Máxima*, leia `Ōgi`.
 
 ### Selo e Expansão de Domínio
 
@@ -4672,7 +4672,7 @@ O nome não é enfeite. A categoria inteira de técnicas que não nascem com a p
 
 **`Auge`** — o golpe de dano fixo, do nível 17 em diante. **Dano pela faixa de nível, orçamento de montagem à parte, `5 × maior Classe` de PE**, e não aceita Restrição.
 
-É a Técnica Máxima do capítulo 9.
+Onde o capítulo 9, *Fundamento*, escreve *Técnica Máxima*, leia `Auge`.
 
 ### Liberação Máxima
 
@@ -6827,4 +6827,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: 5c0df7fb946404744048679b624048bf4aa57243 -->
+<!-- fonte: 77f95304268b4670dd5ab204bcb5014112019937 -->
