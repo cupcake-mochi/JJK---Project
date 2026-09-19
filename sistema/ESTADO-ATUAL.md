@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 19/09/2026, na v0.251 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e dez checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 19/09/2026, na v0.252 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e dez checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.251.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
+**Versão v0.252.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
 
 > ## 🆕 A v0.222 consertou duas coisas que a v0.221 deixou passar, e as duas são do §6.5 da peça 26
 >
@@ -58,7 +58,7 @@ Atualizado em 19/09/2026, na v0.251 (última peça fechada: **Bestiário**, a pe
 >
 > ***E recusar Teste de Resistência ficou de fora, por decisão dele:*** *"o inimigo não vai ter Resistência Lendária, ele precisa passar no teste."* **O preço existia — `1,20 ×` de dano efetivo, que é meio degrau —, e a porta é que não.**
 >
-> **⚠⚠ E um erro de voz estava vivo desde a v0.203, escondido dentro de um código de saída que já era `1`.** *A `Circulação` entrou no livro com dois rótulos de negrito longos demais, e o `conferir-voz.py --estrito` sai `1` de propósito por dois títulos que você renomeou a mão* — **então um erro novo ali dentro não move o código.** *E o `subir.sh` não roda o de voz.*
+> **⚠⚠ E um erro de voz estava vivo desde a v0.203, escondido dentro de um código de saída que já era `1`.** *A `Circulação` entrou no livro com dois rótulos de negrito longos demais, e o `conferir-voz.py --estrito` sai `1` de propósito por dois títulos que você renomeou a mão* — **então um erro novo ali dentro não move o código.** *E o `subir.sh` não roda o de voz.* ***Fechado na v0.252:*** *os dois títulos viraram exceção declarada na `REGRA-DE-VOZ.md`, o `--estrito` sai `0`, e o `subir.sh` passou a rodar o `conferir-voz.py`.*
 >
 > **⚠⚠ E a tabela de puladas do `README` estava parada na v0.199, em quatro colunas.** *Ela dizia **cinco** validadores enquanto este arquivo e o `LEIA-ME` diziam seis, e as contagens de checagem do `conferir-dano`, do `conferir-manual` e do `conferir-nomes` estavam todas velhas.* **A checagem `9` do `conferir-repositorio.py` não alcança aquela tabela**, porque ela confere contagem de checagem e a coluna `pula` não é isso.
 
@@ -312,7 +312,7 @@ Atualizado em 19/09/2026, na v0.251 (última peça fechada: **Bestiário**, a pe
 >
 > **Endireitada — toda entrada, rótulo na seção inteira — o mesmo texto dava `11` entradas e `14` rótulos.** *É essa que foi publicada, e os catorze foram pagos: cada um virou `**nome do efeito.**` mais a regra.* **O pior era o `Assombro`, com `24` palavras — a regra inteira em negrito, no lugar em que o nome deveria estar.**
 >
-> **Entrou o `ROTULO-LONGO` no `conferir-voz.py`, e ele lê DOIS números da `REGRA-DE-VOZ.md`.** *O de rótulos é a dívida — hoje `0`; o de entradas é **guarda** — `52`.* ***Sem a guarda, renomear uma tabela faz o reconhecedor achar zero entrada, logo zero rótulo, e a checagem passa verde para sempre sem ter conferido nada.***
+> **Entrou o `ROTULO-LONGO` no `conferir-voz.py`, e ele lê DOIS números da `REGRA-DE-VOZ.md`.** *O de rótulos é a dívida — hoje `0`; o de entradas é **guarda** — `53`; o reconhecedor conta `53` desde a v0.239, e a declaração só foi corrigida depois da v0.251.* ***Sem a guarda, renomear uma tabela faz o reconhecedor achar zero entrada, logo zero rótulo, e a checagem passa verde para sempre sem ter conferido nada.***
 >
 > **⚠ E o recorte de seção nasceu com o defeito da v0.151, de novo:** *ele fechava a `###` só na próxima `###`, e não em `##`.* **Duas das quatro primeiras acusações eram o corpo de uma entrada vazando três seções adiante**, e só apareceram porque o número não fechava.
 >

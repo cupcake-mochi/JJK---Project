@@ -170,7 +170,7 @@ motivos_pulo=""
 # PULADA — que e' o verde que nao e' verde.
 rodar_validador() {
     saida_val=""
-    if saida_val="$(python3 "$1" 2>&1)"; then
+    if saida_val="$(python3 "$@" 2>&1)"; then
         # o `grep -v` tira o marcador nu que alguns imprimem dentro do bloco
         # da checagem — ele diz que pulou e nao diz o que, e enche a tela
         pulos="$(printf '%s\n' "$saida_val" | grep -i 'PULAD' \
@@ -212,6 +212,14 @@ cd "$RAIZ/manual/matematica" || exit 1
 for f in pac7.py v7.py; do
     rodar_validador "$f"
 done
+cd "$RAIZ" || exit 1
+
+# O conferir-voz mora no livro, e ate a v0.251 ficou de fora desta bateria: o numero
+# de entradas de catalogo da REGRA-DE-VOZ.md ficou velho por treze versoes sem ninguem
+# ver, porque so' a guarda dele acusava, e ela so' roda se alguem lembrar. Sem --estrito
+# ele imprime e sai 0, entao o argumento e' o que faz ele reprovar.
+cd "$RAIZ/sistema/05-material/livro" || exit 1
+rodar_validador conferir-voz.py --estrito
 cd "$RAIZ" || exit 1
 
 if [ "$falhou" -ne 0 ]; then

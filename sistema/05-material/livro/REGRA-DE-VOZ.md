@@ -85,7 +85,9 @@ palavras.* **As catorze condições deste livro foram reescritas nessa forma na 
 
 *A v0.141 mediu **nove entradas com doze rótulos**, seis delas no capítulo 12, e publicou o par sem escrever a definição.* **Sem definição escrita, duas versões seguidas tentaram remedir e acharam outra coisa:** *a v0.149 contou o fenômeno errado e foi descartada; a v0.152 achou `209` com um regex que pega toda caixa de regra do livro, parou, e com um recorte próprio chegou a `4`.*
 
-> **O livro carrega `0` rótulos longos demais, em `52` entradas de catálogo.** *Os dois números são o dono, e o `conferir-voz.py` reconta e falha nos dois sentidos.*
+> **O livro carrega `0` rótulos longos demais, em `53` entradas de catálogo.** *Os dois números são o dono, e o `conferir-voz.py` reconta e falha nos dois sentidos.*
+
+> **Eram `52` até a v0.238, e o número subiu para `53` logo depois da v0.251.** *A `Regravação` entrou como entrada na v0.239, e o `52` ficou parado: o `subir.sh` não roda o `conferir-voz.py`, e a guarda acusava sozinha.* **E dentro do `52` havia uma troca escondida:** *o `Kokusen` deixou de ser contado na v0.202 — ele virou mecânica, e não custa marco nem é aptidão da tabela —, e a `Circulação` entrou na v0.203, então o número voltou a `52` por coincidência.* **As `53` são as `52` de antes, menos o `Kokusen`, mais a `Circulação` e a `Regravação`.**
 
 **A v0.153 fechou a diferença reconstruindo a definição, em vez de escolher entre os números.** *O par da v0.141 reproduz **exato** — `9` entradas, `12` rótulos, `6` delas no capítulo 12 — se a entrada se qualifica por ter rótulo longo **dentro da caixa de regra** e os rótulos são contados **na seção inteira** dela.* **Ela mede uma metade do par por um recorte e a outra por outro, e é isso que a torna irreproduzível para quem tente adivinhar depois.** *Endireitada — toda entrada, rótulo na seção inteira —, o mesmo texto dá `11` entradas e `14` rótulos, ainda com `6` entradas no capítulo 12.*
 
@@ -98,7 +100,7 @@ palavras.* **As catorze condições deste livro foram reescritas nessa forma na 
 | **entrada de catálogo** | seção-folha `###` ou `####` cujo nome está publicado numa **tabela do próprio capítulo**, e que abre pela camada 1 — `**<o nome dela>** — âncora` dentro da caixa de regra, ou uma âncora em prosa que a nomeia |
 | **rótulo longo demais** | negrito **abrindo parágrafo**, com mais de `6` palavras, na seção daquela entrada |
 
-**A lista das entradas não mora no validador: ela mora na tabela que o livro publica** — a `Como ler uma Bênção`, a `Condições em uma linha`, a `Como ler uma aptidão`. *Renomeie uma entrada e a checagem para de achar ela, então a contagem de `52` é guarda: ela falha se subir e se descer.*
+**A lista das entradas não mora no validador: ela mora na tabela que o livro publica** — a `Como ler uma Bênção`, a `Condições em uma linha`, a `Como ler uma aptidão`. *Renomeie uma entrada e a checagem para de achar ela, então a contagem de `53` é guarda: ela falha se subir e se descer.*
 
 **O que NÃO conta, e a fronteira é escrita para não virar discussão:**
 
@@ -287,6 +289,12 @@ Serve de entrada de índice remissivo, ou não é título.
 
 Título de capítulo (`#`) fica fora de tudo isso: 41 referências cruzadas apontam pra ele
 pelo nome.
+
+### Os dois títulos em pergunta que ficam
+
+> **O livro aceita `2` títulos em forma de pergunta: `Como uma aptidão funciona` e `Como funciona uma Bênção`.** *Os nomes e o número são o dono, e o `conferir-voz.py` lê os dois: ele falha se aparecer qualquer outro título em pergunta, se o número não bater com a lista, e se um dos dois sumir do livro.*
+
+*Eles vieram da revisão do Mizuki no `.docx` (v0.176), que trocou `Como ler uma aptidão` e `Como ler uma Bênção` por eles.* **A regra manda o encaixe `Como ler`, e ele decidiu, em 19/09/2026, manter as palavras dele:** *a exceção é dele, e fica declarada aqui em vez de calada dentro do validador.* **Se um dos dois títulos mudar de novo, a lista muda junto, ou a guarda acende.**
 
 ### Quando o nome não é seção — rebaixa
 
