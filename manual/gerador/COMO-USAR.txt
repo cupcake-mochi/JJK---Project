@@ -1,4 +1,4 @@
-GERADOR DO MANUAL — Fundamento v7.32
+GERADOR DO MANUAL — Fundamento v7.33
 
 Recria o .docx do zero. Precisa de Node.js.
 
@@ -32,6 +32,14 @@ ORDEM DAS SEÇÕES (v7)
   4 Restrições → 5 Fora de combate → 6 Liberação Máxima → 7 Técnica Máxima →
   8 Regras de ouro → 9 Progressão → 10 Feitiços prontos → 11 Para o mestre →
   Apêndice
+
+O QUE MUDOU NA v7.33
+
+  A Regra Propria de Classe 1 passa a vir de graca na criacao: nao gasta espaco
+  de feiticos e nao conta nas cinco Passivas pagas, e a Classe 1 e o teto dela
+  na criacao. Subir para a Classe 2 custa 1 espaco e para a 3 custa 2, a
+  diferenca para a Classe 1. A frase que dizia que so ela abria em Classe 1 no
+  nivel 1 saiu: a tabela ja abre a Classe 1 para todas as Passivas.
 
 O QUE MUDOU NA v7.32
 

@@ -985,6 +985,81 @@ else:
 
 
 # --------------------------------------------------------------------------
+# 4l. v0.252: a Regra Propria de Classe 1 vem de graca na criacao (opcao X do Mizuki,
+# 19/09/2026). Ate a v0.251 ela era a unica Passiva "comprada em Classe 1 desde o nivel
+# 1" — frase que ja contradizia a tabela, que abre a Classe 1 para todas — e o teto
+# dela na criacao nao estava escrito. Os numeros da regra NAO ficam aqui: o custo da
+# subida sai da coluna `Custa` do .docx (Classe 3 menos Classe 1, Classe 2 menos Classe
+# 1), e o teto na criacao sai da coluna `Libera no nivel` contra o nivel em que a ficha
+# comeca, que e da peca 1. Se alguem abrir a Classe 2 no nivel 2, o teto derivado muda
+# e a frase "Classe 1 e o teto" acende.
+print()
+print('  4l. a Regra Propria gratis na criacao: a subida, o teto e as cinco copias')
+
+_custa, _libera = {}, {}
+for _t in _D.tables:
+    _cab = [c.text.strip() for c in _t.rows[0].cells] if _t.rows else []
+    if _cab[:3] != ['Classe', 'Custa', 'Libera no nível']:
+        continue
+    for _r in _t.rows[1:]:
+        _cel = [c.text.strip() for c in _r.cells]
+        _m = re.match(r'(\d+) espaço', _cel[1])
+        if _cel[0] in ('1', '2', '3') and _m and re.fullmatch(r'\d+', _cel[2]):
+            _custa[int(_cel[0])] = int(_m.group(1))
+            _libera[int(_cel[0])] = int(_cel[2])
+_p1t = open(os.path.join(AQUI, '01-atributos-acerto-defesa.md'), encoding='utf-8').read()
+_mn = re.search(r'A ficha começa no \*{0,2}nível (\d+)', _p1t)
+if sorted(_custa) != [1, 2, 3] or not _mn:
+    erro(f'4l: nao li o custo das tres Classes Passivas no .docx ({_custa}) ou o nivel em que a '
+         f'ficha comeca na peca 1 ({bool(_mn)}) — sem os dois a regra da Regra Propria gratis '
+         'nao tem de onde derivar')
+else:
+    _nv0 = int(_mn.group(1))
+    _teto = max(c for c in (1, 2, 3) if _libera[c] <= _nv0)
+    _d2, _d3 = _custa[2] - _custa[1], _custa[3] - _custa[1]
+    _esp = lambda n: 'espaço' if n == 1 else 'espaços'
+    _texto_docx = '\n'.join([p.text for p in _D.paragraphs] +
+                            [c.text for t_ in _D.tables for r_ in t_.rows for c in r_.cells])
+    _livro = os.path.join(AQUI, '..', '05-material', 'livro', 'manual')
+    _l9 = open(os.path.join(_livro, '40-fundamento.md'), encoding='utf-8').read()
+    _l6 = open(os.path.join(_livro, '20-criacao-de-personagem.md'), encoding='utf-8').read()
+    _p8 = open(os.path.join(AQUI, '08-criacao-de-personagem.md'), encoding='utf-8').read()
+    _ok4l = True
+
+    def _quer(onde, texto, frase):
+        global _ok4l
+        if frase not in texto:
+            _ok4l = False
+            erro(f'4l: {onde} nao diz "{frase}"')
+
+    def _proibe(onde, texto, frase):
+        global _ok4l
+        if frase in texto:
+            _ok4l = False
+            erro(f'4l: {onde} ainda diz "{frase}" — a frase que a decisao de 19/09/2026 tirou')
+
+    # o .docx, que e o dono
+    _quer('o .docx', _texto_docx, f'Na criação, a Regra Própria vem de graça em Classe {_teto}: ela não gasta espaço de feitiço')
+    _quer('o .docx', _texto_docx, f'a Classe {_teto} é o teto dela até os níveis liberarem as maiores')
+    _quer('o .docx', _texto_docx, f'pagando só a diferença pra Classe 1: {_d2} {_esp(_d2)} pra Classe 2, e {_d3} pra Classe 3')
+    _quer('o .docx', _texto_docx, 'A Passiva Livre e a Regra Própria não contam')
+    _quer('o .docx', _texto_docx, f'uma Regra Própria, de graça, em Classe {_teto}')
+    _proibe('o .docx', _texto_docx, 'única Passiva que pode ser comprada em Classe 1')
+    # a copia do livro (capitulo 9) e as duas listas de criacao (capitulo 6 e peca 8)
+    _quer('o capitulo 9 do livro', _l9, f'Na criação, a `Regra Própria` vem de graça em Classe Passiva {_teto}: ela não gasta espaço de feitiço')
+    _quer('o capitulo 9 do livro', _l9, f'pagando só a diferença para a Classe Passiva 1: {_d2} {_esp(_d2)} para a Classe Passiva 2, e {_d3} para a 3')
+    _quer('o capitulo 9 do livro', _l9, 'A Passiva Livre e a `Regra Própria` não contam.')
+    _quer('o capitulo 9 do livro', _l9, f'uma `Regra Própria`, de graça, em Classe Passiva {_teto}')
+    _proibe('o capitulo 9 do livro', _l9, 'Só a `Regra Própria` pode ser comprada em Classe Passiva 1')
+    _quer('o capitulo 6 do livro', _l6, f'a `Regra Própria` de Classe Passiva {_teto} vem junto, também de graça')
+    _quer('a peca 8', _p8, f'a **Regra Própria** de Classe {_teto} vem junto, também de graça')
+    if _ok4l:
+        print(f'    [x] a Regra Propria vem gratis em Classe {_teto} (a mais alta aberta no nivel {_nv0}); '
+              f'subir custa {_d2} e {_d3} {_esp(_d3)} (a diferenca para a Classe 1, lida da coluna Custa); '
+              'as cinco copias dizem o mesmo e a frase antiga sumiu.')
+
+
+# --------------------------------------------------------------------------
 bloco('5. O PORTAO DAS LINHAS DE CONTROLE — quem prende o alvo diz como solta')
 # --------------------------------------------------------------------------
 # v0.151. O `Cerca` passou nove versoes sendo a UNICA linha de Controle que

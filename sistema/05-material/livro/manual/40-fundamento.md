@@ -186,7 +186,7 @@ A média nunca se afasta mais de 3 pontos da conta em d8.
 > **2.** A **Regra**: a frase que resume o que a técnica faz.
 > **3.** As **Famílias**: duas Livres e três Fechadas.
 > **4.** O **Selo**: o que você sempre faz para conjurar.
-> **5.** A **Passiva Livre**, e, se a técnica pedir, uma `Regra Própria`.
+> **5.** A **Passiva Livre**, e, se a técnica pedir, uma `Regra Própria`, de graça, em Classe Passiva 1.
 
 ### Descrição
 
@@ -289,7 +289,7 @@ Passiva é o que a sua técnica faz sem você exigir uma ação: o efeito que fi
 | **2** | 2 espaços | 7 | Efeito reativo, com limite de uso por cena ou por descanso. |
 | **3** | 3 espaços | 13 | Permanente. Muda como você joga. |
 
-Máximo de cinco Passivas pagas. A Passiva Livre não conta.
+Máximo de cinco Passivas pagas. A Passiva Livre e a `Regra Própria` não contam.
 
 #### Passiva Livre
 
@@ -343,7 +343,7 @@ Algumas técnicas funcionam impondo uma regra ao mundo: julgamento, aposta, cont
 - Sem dano direto: gera recurso, condição ou obrigação.
 - Com limite por cena.
 
-Só a `Regra Própria` pode ser comprada em Classe Passiva 1 desde o nível 1. Quando os níveis liberarem as alturas maiores, ela sobe para 2 e 3 pagando só a diferença de espaços.
+Na criação, a `Regra Própria` vem de graça em Classe Passiva 1: ela não gasta espaço de feitiço, e a Classe Passiva 1 é o teto dela até os níveis liberarem as alturas maiores. Quando isso acontecer, ela sobe para 2 e 3 pagando só a diferença para a Classe Passiva 1: 1 espaço para a Classe Passiva 2, e 2 para a 3.
 
 *"Quem me atacar sabendo que eu não revidei acumula uma Dívida. Cobro uma por cena."*
 *"Quando eu aposto e ganho, meu próximo teste na cena tem vantagem. Uma vez por cena."*

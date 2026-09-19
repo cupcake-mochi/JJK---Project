@@ -11,7 +11,7 @@ const fundamento = [
     '**2.** A **Regra**: a frase que resume o que a técnica faz.',
     '**3.** As **Famílias**: duas Livres e três Fechadas.',
     '**4.** O **Selo**: o que você sempre faz pra conjurar.',
-    '**5.** A **Passiva Livre** — e, se a técnica pedir, uma Regra Própria.',
+    '**5.** A **Passiva Livre** — e, se a técnica pedir, uma Regra Própria, de graça, em Classe 1.',
   ]),
 
   H2('Descrição'),
@@ -101,7 +101,7 @@ const passivas = [
     [10, 13, 17, 60], { boldCols: [0], centerCols: [0,1,2] }
   ),
   GAP(120),
-  P('Máximo de cinco Passivas pagas. A Passiva Livre não conta.'),
+  P('Máximo de cinco Passivas pagas. A Passiva Livre e a Regra Própria não contam.'),
   P('**Resistência**, quando alguma coisa aqui usar a palavra, quer dizer sempre a mesma coisa: o dano daquele tipo cai pela metade, antes de qualquer outra conta. Ela é sempre presa a um tipo — não existe resistência a tudo.'),
 
   H3('Passiva Livre'),
@@ -149,7 +149,7 @@ const passivas = [
   BUL('Sem dano direto: gera recurso, condição ou obrigação.'),
   BUL('Com limite por cena.'),
   GAP(80),
-  P('A Regra Própria é a única Passiva que pode ser comprada em Classe 1 desde o nível 1. Quando os níveis liberarem as Classes maiores, ela sobe pra Classe 2 e 3 pagando só a diferença de espaços.'),
+  P('Na criação, a Regra Própria vem de graça em Classe 1: ela não gasta espaço de feitiço, e a Classe 1 é o teto dela até os níveis liberarem as maiores. Quando isso acontecer, ela sobe pra Classe 2 e 3 pagando só a diferença pra Classe 1: 1 espaço pra Classe 2, e 2 pra Classe 3.'),
   P('Exemplos:'),
   BUL('*"Quem me atacar sabendo que eu não revidei acumula uma Dívida. Cobro uma por cena."*'),
   BUL('*"Quando eu aposto e ganho, meu próximo teste na cena tem vantagem. Uma vez por cena."*'),

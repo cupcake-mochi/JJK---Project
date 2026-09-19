@@ -135,7 +135,7 @@ Aqui você abre o capítulo 9, *Fundamento*. É a parte longa. Você já tem a R
 1. **Descrição.** De onde a técnica veio, como ela aparece, o que as pessoas veem quando ela age. Sem efeito mecânico.
 2. **Famílias.** Duas **Livres**, cujas Melhorias custam metade da Classe a menos, e três **Fechadas**, das quais você nunca compra nada.
 3. **Selo.** O gesto, a condição ou o objeto que a sua técnica exige. Não custa nem devolve ponto. Restrição que o Selo já obriga não devolve ponto.
-4. **Passiva Livre.** Uma, de graça, para todo mundo. Ela não rola dado, não muda número e não faz ninguém rolar.
+4. **Passiva Livre.** Uma, de graça, para todo mundo. Ela não rola dado, não muda número e não faz ninguém rolar. Se a técnica impõe uma regra ao mundo, a `Regra Própria` de Classe Passiva 1 vem junto, também de graça.
 5. **Os feitiços.** No nível 2 você tem **Classe 1**, dois feitiços de **Classe 0** (grátis, não ocupam espaço) e **três feitiços conhecidos**, montados pelo orçamento da Classe 1. Três é o que a fórmula `2 + (nível ÷ 2)` dá no nível 2.
 
 > **A Regra da técnica é lida por outra pessoa antes de entrar em jogo.** Quem escreveu sabe o que quis dizer; quem vai arbitrar, não.

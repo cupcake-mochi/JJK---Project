@@ -8,6 +8,60 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.252] — 19/09/2026
+
+**A `Regra Própria` de Classe `1` passa a vir de graça na criação, e o `conferir-voz.py` volta a sair `0` e entra no `subir.sh`.** *São duas coisas numa versão só porque o Mizuki reverteu o commit do `conferir-voz` (eu tinha commitado sem ele pedir) e escolheu juntar as duas.* **Primeiro o `conferir-voz`:** *Ele saía `1` de propósito por dois títulos que o Mizuki renomeou à mão, e o `ESTADO-ATUAL` já avisava o custo: um erro novo ali dentro não movia o código, e o `subir.sh` nem olhava. Foi assim que o número de entradas de catálogo ficou velho sem ninguém ver.*
+
+### 1 · O 53 contra o 52
+
+**O `52` da `REGRA-DE-VOZ.md` estava velho, e agora é `53`.** *O reconhecedor achava `53` e a regra declarava `52`.* **O histórico, medido rodando o mesmo reconhecedor nos commits que mexeram nesses capítulos:** *`52` da v0.153 à v0.201; `51` na v0.202, quando o `Kokusen` virou mecânica e saiu da tabela; `52` de novo na v0.203, quando a `Circulação` entrou; `53` na v0.239, quando entrou a `Regravação`.* **Ou seja, o `52` ficou certo por coincidência de v0.203 a v0.238, e errado desde a v0.239.** *Uma queda escondida dentro de uma alta é o que a guarda existe para pegar, e ela não pegou porque ninguém a rodava.*
+
+### 2 · Os dois títulos em pergunta
+
+**`Como uma aptidão funciona` e `Como funciona uma Bênção` ficam como exceção declarada.** *Eles vêm da revisão do Mizuki no `.docx` da v0.176, que trocou `Como ler uma aptidão` e `Como ler uma Bênção` (o encaixe que a regra manda) por eles.* ***Decisão dele em 19/09/2026: manter as palavras dele, e declarar a exceção.*** **A lista e o número moram na `REGRA-DE-VOZ.md`, e o `conferir-voz.py` lê de lá:** *ele falha se aparecer outro título em pergunta, se o número não bater com a lista, e se um dos dois sumir do livro.* *Nenhum título fica escrito dentro do validador.*
+
+**O arnês rodou numa cópia isolada, com a base verde: `5` perturbações acendem e `2` que não podem acender ficam verdes.** *Uma delas é o contra-teste que importa: trocar um dos dois títulos por `Como ler` (que a regra permite) não cria pergunta nenhuma, e só a guarda nova percebe que o aceito sumiu.* *Com `--so` a guarda não vale, porque o filtro olha um capítulo só.*
+
+### 3 · O `subir.sh`
+
+**Ele passa a rodar o `conferir-voz.py --estrito`, e o commit se recusa se ele reprovar.** *O `rodar_validador` aceitava só o nome do arquivo, e sem `--estrito` o `conferir-voz` imprime e sai `0`; agora a função repassa os argumentos.* **E o `conferir-voz` passou a imprimir a causa quando o `--estrito` reprova** (o arquivo, a linha e o título, mais uma linha `>>>`), *porque o `subir.sh` mostra as linhas com `!!` e `>>>`, e antes só saía o rabo da saída, com o título que acendeu escondido no meio.* *Testado só na função, isolada, no livro real (verde) e numa cópia com um título em pergunta novo (vermelho, apontando o título): o script inteiro não foi rodado para testar, porque ele commita e sobe.*
+
+### 4 · A `Regra Própria` grátis na criação
+
+*Item da fila que o Mizuki levantou em 19/09/2026: a `Passiva Livre` e a `Regra Própria` na criação do Fundamento, sem o nível máximo da Regra escrito, e ele queria que o Fundamento pudesse começar com as duas, porque viu ideias criativas e achou ruim ter de negar.* **O livro se contradizia:** *o capítulo 9 listava as duas na criação, o capítulo 6 só a `Passiva Livre`, a tabela das Passivas abre a Classe Passiva `1` no nível `1` para todas, e a frase da `Regra Própria` dizia que só ela abria em Classe `1` no nível `1`, sobra de uma regra antiga.*
+
+**O que estava em jogo, medido:** *no nível `2` a lista tem `3` espaços, e a `Regra Própria` de Classe `1` custava `1` deles (`33%`); de Classe `3` no nível `2` ela comeria os `3` e sobraria zero feitiço montado. A escada `1 · 7 · 13` faz a Regra custar sempre uns `33%` da lista quando cada Classe abre (`33%`, `33%`, `30%`).* **As duas formas de ela ser grátis:** *X, só a base grátis, dá `1` espaço de graça pra sempre (`33%` da lista no nível `2`, `10%` no `13`, `4%` no `30`); Y, a Regra inteira grátis subindo com o nível, chegava a `30%` no `13` e `12%` no `30`.*
+
+***Decisão do Mizuki: X.*** **A `Regra Própria` de Classe `1` vem de graça na criação e não gasta espaço; o teto dela na criação é a Classe `1`; subir para a `2` custa `1` espaço e para a `3` custa `2` (a diferença para a Classe `1`), então a Regra até a Classe `3` sai por `2` espaços em vez de `3`.** *A frase antiga saiu, porque a tabela já abre a Classe `1` para todas.* **Dois defaults meus, para ele vetar:** *a `Regra Própria` não conta nas cinco Passivas pagas, como a `Passiva Livre`; e a subida paga a diferença para a Classe `1`.*
+
+**A checagem `4l` do `conferir-manual.py` guarda a regra nas cinco cópias** *(o `.docx`, o capítulo 9, o capítulo 6, a peça 8 e a frase antiga ausente)*, **e os números saem de donos, não de constante:** *o custo da subida é a coluna `Custa` do `.docx` (Classe `3` menos Classe `1`, Classe `2` menos Classe `1`), e o teto na criação é a Classe mais alta cuja coluna `Libera no nível` cabe no nível em que a ficha começa, que é da peça 1.* ***Contra-testes:*** *se a ficha passar a começar no nível `7`, o teto derivado sobe para `2` e a frase "Classe `1` é o teto" acende; e a frase antiga voltando, no `.docx` ou no livro, também acende.* **O arnês rodou numa cópia isolada, com a base verde: `9` perturbações acendem e `2` que não podem acender ficam verdes.**
+
+*O manual vai para a `v7.33`, com o `.docx` e o `.pdf` regerados (`49` páginas, as mesmas de antes).*
+
+### Alterado
+
+- **Manual `v7.33`:** *o `partB.js` (a Regra grátis, o teto das cinco, o passo 5 da criação), o `partA.js`, os dois `COMO-USAR.txt`, e o `.docx` e o `.pdf`.*
+- **Livro:** *o capítulo 9 e o capítulo 6, e os quatro artefatos refeitos, com a coluna única em `257` páginas (era `256`) e as duas colunas em `146`.* **Peça 8:** *o passo 5 da criação.* **`conferir-manual.py`:** *a checagem `4l`.*
+- **`REGRA-DE-VOZ.md`:** *o `53` com o histórico, e a seção `Os dois títulos em pergunta que ficam`.*
+- **`conferir-voz.py`:** *a lista de títulos aceitos lida da regra, a guarda nos dois sentidos, e a causa impressa quando o `--estrito` reprova.*
+- **`subir.sh`:** *o `conferir-voz.py --estrito` na bateria.*
+- **`README`, `LEIA-ME` e `ESTADO-ATUAL`:** *as versões, o que o `subir.sh` roda, o `53`, e o bloco do `ESTADO` sobre o código de saída fechado.*
+
+### Decidido
+
+- **A `Regra Própria` de Classe `1` vem de graça na criação, com teto Classe `1` e subida pela diferença (opção X).**
+- **Os dois títulos em pergunta ficam, como exceção declarada.**
+- **O `conferir-voz.py` entra no `subir.sh`.**
+
+### Continua aberto
+
+- **Três itens da fila que o Mizuki levantou em 19/09/2026 e ainda não foram pegos:** *a Força sem escala de peso, a Concentração sem Restrição (e a duração longa só na Forma `Efeito`), e o ritual, com sinais próprios para o feitiço especial. Os quatro estão no `ESTADO-ATUAL`, itens `8` a `11`.*
+- **O que já estava aberto na v0.251:** *a remodelagem das invocações e do Evocador, e o `maestria(nv)` do `conferir-invocacoes.py`.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, seção *"Onde estamos, e o que falta"*.
+
+---
+
 ## [0.251] — 19/09/2026
 
 **A CD dos efeitos da invocação está escrita, e o alvo passa a ter como resistir a cinco efeitos do catálogo.** *Era o B13 do repositório da ficha: a `Voz` da `Sintonia` somava `+1` numa CD que nenhum documento do sistema produzia, e o `Preito` do `Servo` também soma nela.* **A versão fecha o que a v0.246 tinha deixado como "forma B, com o atributo, as entradas e o `Preito` por decidir"**, e leva o ponto aberto da arma até a resposta do Mizuki.

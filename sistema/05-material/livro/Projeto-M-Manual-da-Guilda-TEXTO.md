@@ -1754,7 +1754,7 @@ Aqui você abre o capítulo 9, *Fundamento*. É a parte longa. Você já tem a R
 1. **Descrição.** De onde a técnica veio, como ela aparece, o que as pessoas veem quando ela age. Sem efeito mecânico.
 2. **Famílias.** Duas **Livres**, cujas Melhorias custam metade da Classe a menos, e três **Fechadas**, das quais você nunca compra nada.
 3. **Selo.** O gesto, a condição ou o objeto que a sua técnica exige. Não custa nem devolve ponto. Restrição que o Selo já obriga não devolve ponto.
-4. **Passiva Livre.** Uma, de graça, para todo mundo. Ela não rola dado, não muda número e não faz ninguém rolar.
+4. **Passiva Livre.** Uma, de graça, para todo mundo. Ela não rola dado, não muda número e não faz ninguém rolar. Se a técnica impõe uma regra ao mundo, a `Regra Própria` de Classe Passiva 1 vem junto, também de graça.
 5. **Os feitiços.** No nível 2 você tem **Classe 1**, dois feitiços de **Classe 0** (grátis, não ocupam espaço) e **três feitiços conhecidos**, montados pelo orçamento da Classe 1. Três é o que a fórmula `2 + (nível ÷ 2)` dá no nível 2.
 
 > **A Regra da técnica é lida por outra pessoa antes de entrar em jogo.** Quem escreveu sabe o que quis dizer; quem vai arbitrar, não.
@@ -3369,7 +3369,7 @@ A média nunca se afasta mais de 3 pontos da conta em d8.
 > **2.** A **Regra**: a frase que resume o que a técnica faz.
 > **3.** As **Famílias**: duas Livres e três Fechadas.
 > **4.** O **Selo**: o que você sempre faz para conjurar.
-> **5.** A **Passiva Livre**, e, se a técnica pedir, uma `Regra Própria`.
+> **5.** A **Passiva Livre**, e, se a técnica pedir, uma `Regra Própria`, de graça, em Classe Passiva 1.
 
 ### Descrição
 
@@ -3464,7 +3464,7 @@ Passiva é o que a sua técnica faz sem você exigir uma ação: o efeito que fi
 | **2** | 2 espaços | 7 | Efeito reativo, com limite de uso por cena ou por descanso. |
 | **3** | 3 espaços | 13 | Permanente. Muda como você joga. |
 
-Máximo de cinco Passivas pagas. A Passiva Livre não conta.
+Máximo de cinco Passivas pagas. A Passiva Livre e a `Regra Própria` não contam.
 
 #### Passiva Livre
 
@@ -3516,7 +3516,7 @@ Algumas técnicas funcionam impondo uma regra ao mundo: julgamento, aposta, cont
 - Sem dano direto: gera recurso, condição ou obrigação.
 - Com limite por cena.
 
-Só a `Regra Própria` pode ser comprada em Classe Passiva 1 desde o nível 1. Quando os níveis liberarem as alturas maiores, ela sobe para 2 e 3 pagando só a diferença de espaços.
+Na criação, a `Regra Própria` vem de graça em Classe Passiva 1: ela não gasta espaço de feitiço, e a Classe Passiva 1 é o teto dela até os níveis liberarem as alturas maiores. Quando isso acontecer, ela sobe para 2 e 3 pagando só a diferença para a Classe Passiva 1: 1 espaço para a Classe Passiva 2, e 2 para a 3.
 
 *"Quem me atacar sabendo que eu não revidei acumula uma Dívida. Cobro uma por cena."*
 *"Quando eu aposto e ganho, meu próximo teste na cena tem vantagem. Uma vez por cena."*
@@ -6856,4 +6856,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: b97f66a12ccf3705ac55ec90c27c940fe751d814 -->
+<!-- fonte: 1405ac4030a20a6b632f1ef6070d89c2f2b9451d -->
