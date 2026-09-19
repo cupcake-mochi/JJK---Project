@@ -13,7 +13,7 @@ orcamento saem da propria peca 15.
 O unico bloco com valor na mao e o LIMITES DE DESIGN, declarado a parte da regra
 aplicada — licao no 8: uma checagem nao pode se medir contra a propria constante.
 
-Trinta checagens, na ordem do SS5 da peca:
+Trinta e tres checagens, na ordem do SS5 da peca:
    1. TETO-ROTINA   — o teto somado vem da peca 6 SS4 e nunca de constante.
    2. DOMINANCIA    — a matriz entre as tres Trilhas, por quantidade de corpos.
    3. SOMATORIO     — invocar cabe no bolso junto do resto que drena PE.
@@ -45,6 +45,10 @@ Trinta checagens, na ordem do SS5 da peca:
   28. CONTAGEM      — o catalogo recontado bate com o que o documento afirma.
   29. BUSCA-DEGRAU  — a busca por degrau bate com o numero escrito antes.
   30. PISO-DA-VENDA — vender deslocamento nao precisa de piso, e isso e medido.
+  31. QUEDA-DO-DONO — o dono cai, e o que a invocacao pode fazer.
+  32. INVESTIR      — o dano da invocacao, derivado e conferido nas duas publicacoes.
+  33. CD-DOS-EFEITOS — a CD no molde do jogador, o atributo unico, a Voz e o Preito,
+                      e o que o alvo resiste com Teste de Resistencia.
 
 Roda de sistema/03-mecanica/. NAO le o .docx e NAO precisa de python-docx —
 entao nao existe caminho por onde ele saia verde tendo pulado checagem.
@@ -2604,6 +2608,319 @@ else:
         else:
             print(f'  [x] o pior caso da Matilha e {_pior:.0%} da Rotina, e a peca declara.')
 
+# =============================================================================
+# 33. CD-DOS-EFEITOS — a CD no molde do jogador, o atributo unico, a Voz e o
+#     Preito, e o que pede Teste de Resistencia
+# =============================================================================
+bloco('33. CD-DOS-EFEITOS — a CD no molde do jogador, o atributo unico, a Voz e o Preito, e o que o alvo resiste')
+# v0.251 (B13). Nada de valor mora aqui: a base da CD e a maestria saem da peca 1, os
+# marcos e os tetos da peca 2, a Voz e o Preito do capitulo 8, o TR do Provocar do
+# capitulo 2, e o catalogo da propria peca. O que este bloco confere e' que as
+# publicacoes (a peca e o capitulo 16) escrevem o que esses donos mandam — e a
+# lição nº 9 e' o motivo: cada numero tem um dono, e as copias comparam com ele.
+_LIVRO_DIR = os.path.join(AQUI, '..', '05-material', 'livro', 'manual')
+
+
+def _livro(nome):
+    _p = os.path.join(_LIVRO_DIR, nome)
+    return open(_p, encoding='utf-8').read() if os.path.isfile(_p) else ''
+
+
+_L8 = _livro('35-caminhos-e-trilhas.md')
+_L2 = _livro('11-o-turno.md')
+if not (_T60 and _L8 and _L2):
+    erro('CD', 'nao achei um dos capitulos do livro (16, 8 ou 2) — a CD tem duas publicacoes e '
+               'dois donos no livro, e sem eles a checagem nao tem contra o que comparar')
+else:
+    # ---- o molde: a CD de feitico do jogador, na peça 1 §5
+    _mb = re.search(r'CD de feitiço\s*=\s*(\d+) \+ atributo da técnica \+ maestria', P1)
+    _BASE_CD = int(_mb.group(1)) if _mb else None
+    if _BASE_CD is None:
+        erro('CD', 'peca 1 §5: nao achei `CD de feitiço = N + atributo da técnica + maestria` — '
+                   'e o molde da CD dos efeitos, e o N dele e o dono do numero')
+    # ---- a maestria por nivel, lida da TABELA da peca 1 §2 (o dono), nunca da formula
+    _MAE = {}
+    _mt = re.search(r'\| nível \|((?: *\d+[–-]\d+ *\|)+)\s*\n\|[-| ]+\n\| maestria \|((?: *\d+ *\|)+)', P1)
+    if _mt:
+        _fx = re.findall(r'(\d+)[–-](\d+)', _mt.group(1))
+        _vs = [int(x) for x in re.findall(r'\d+', _mt.group(2))]
+        if len(_fx) == len(_vs):
+            for (_a, _b), _v in zip(_fx, _vs):
+                for _l in range(int(_a), int(_b) + 1):
+                    _MAE[_l] = _v
+    _FAIXAS_MAE = []
+    if _mt:
+        _FAIXAS_MAE = [(int(a), int(b)) for a, b in re.findall(r'(\d+)[–-](\d+)', _mt.group(1))]
+    _PISO = None
+    _mpiso = re.search(r'o que você ganha nunca fica abaixo de (\d+)', P1)
+    if _mpiso:
+        _PISO = int(_mpiso.group(1))
+    if not _MAE or not _FAIXAS_MAE or _PISO is None or not MARCOS or TETO_ATR is None:
+        erro('CD', f'setup: maestria por nivel ({len(_MAE)} niveis), piso ({_PISO}), marcos '
+                   f'({len(MARCOS)}) e teto ({TETO_ATR}) tem de sair das pecas 1 e 2')
+    elif _BASE_CD is not None:
+        _NIV = sorted(_MAE)
+
+        def _metade(m):
+            return max(_PISO, m // 2)
+
+        def _cap(nv):
+            """o maior atributo que o arranjo dela alcanca: 3 na criacao, +1 por marco, teto da peca 2"""
+            return min(TETO_ATR, TETO_CRIACAO + sum(1 for x in MARCOS if x <= nv))
+
+        # ---- 33.1 A FORMULA, nas tres publicacoes
+        _FORM = r'`(\d+) \+ o atributo dela \+ a sua maestria`'
+        for _onde, _m in (
+                ('a peca 15 §3.6, tabela da ficha', re.search(r'\*\*a CD dos efeitos: ' + _FORM + r'\*\*', S36)),
+                ('o capitulo 16, linha da ficha', re.search(r'\| \*\*CD dos efeitos\*\* \| ' + _FORM, _T60)),
+                ('o capitulo 16, secao dos efeitos', re.search(r'\*\*A CD dela é ' + _FORM + r'\*\*', _T60))):
+            if not _m:
+                erro('CD-FORMULA', f'{_onde}: nao achei `N + o atributo dela + a sua maestria` — a '
+                                   'CD tem de estar escrita no molde da CD de feitico da peca 1 §5')
+            elif int(_m.group(1)) != _BASE_CD:
+                erro('CD-FORMULA', f'{_onde}: a CD dos efeitos usa {_m.group(1)} e a CD de feitico '
+                                   f'da peca 1 §5 usa {_BASE_CD} — o molde tem um dono so')
+            else:
+                print(f'  [x] {_onde}: `{_BASE_CD} + o atributo dela + a sua maestria`, o molde da peca 1.')
+
+        # ---- 33.2 O ATRIBUTO E' UM SO, E A ARMA SO MEXE NO ACERTO
+        for _f, _t, _onde in (('um dos cinco, e a escolha não muda depois', _T60, 'o capitulo 16'),
+                              ('A CD usa sempre esse atributo', _T60, 'o capitulo 16'),
+                              ('a CD continua onde estava', _T60, 'o capitulo 16'),
+                              ('A arma mexe no acerto e nunca na CD', PECA, 'a peca 15 §3.6')):
+            if _f not in _t:
+                erro('CD-ATRIBUTO', f'{_onde} nao diz "{_f}" — a decisao de 19/09/2026 e que a CD '
+                                   'usa sempre o atributo da montagem, e so o acerto acompanha a arma')
+        _mx = re.search(r'a CD (?:segue|acompanha|muda com|usa) o atributo d[aeo]s? (?:arma|acerto)', _T60)
+        if _mx:
+            erro('CD-ATRIBUTO', f'o capitulo 16 diz "{_mx.group(0)}", que e a leitura (b) da v0.251 — '
+                                'a CD guarda o atributo da montagem, e a arma so mexe no acerto')
+        if not ERROS:
+            print('  [x] o atributo e um so, a CD o guarda, e a arma so mexe no acerto.')
+
+        # ---- 33.3 A VOZ E O PREITO, calculados nivel a nivel do capitulo 8
+        _mv = re.search(r'`Voz`\*\* — a CD dos efeitos das suas invocações sobe em \*\*`(\d+)`\*\*, e vira '
+                        r'\*\*`(metade da sua maestria|a sua maestria)`\*\* a partir do nível (\d+)', _L8)
+        _mp = re.search(r'`(metade da sua maestria|a sua maestria)` \*\*na CD\*\* dela', _L8)
+        _mm = re.search(r'somam \*\*`metade da sua maestria`, mínimo `(\d+)`\*\*', _L8)
+        if not (_mv and _mp and _mm):
+            erro('CD-VOZ-PREITO', 'capitulo 8: nao achei a `Voz` da `Sintonia`, a opcao "na CD" do '
+                                  f'`Preito` e o minimo dele (voz={bool(_mv)}, preito={bool(_mp)}, '
+                                  f'minimo={bool(_mm)}) — sao os dois donos da igualdade')
+        else:
+            if int(_mm.group(1)) != _PISO:
+                erro('CD-VOZ-PREITO', f'o `Preito` diz minimo {_mm.group(1)} e a peca 1 §5.4 diz que o '
+                                      f'que se ganha nunca fica abaixo de {_PISO}')
+            _v0, _troca = int(_mv.group(1)), int(_mv.group(3))
+
+            def _f_maestria(txt, m):
+                return _metade(m) if txt.startswith('metade') else m
+
+            def _voz(nv):
+                return _v0 if nv < _troca else _f_maestria(_mv.group(2), _MAE[nv])
+
+            def _preito(nv):
+                return _f_maestria(_mp.group(1), _MAE[nv])
+
+            _dif = [(nv, _voz(nv), _preito(nv)) for nv in _NIV if _voz(nv) != _preito(nv)]
+            if _dif:
+                erro('CD-VOZ-PREITO', 'a `Voz` e o `Preito` na CD divergem em '
+                     + '; '.join(f'nv{n} Voz {a} e Preito {b}' for n, a, b in _dif[:6])
+                     + ' — a regra "nao somam" foi decidida porque as duas dao o mesmo numero; se '
+                       'uma vale mais, alguem escolhe a melhor e a outra vira escolha a toa, e isso '
+                       'e outra decisao')
+            else:
+                # as faixas onde o valor e' o mesmo, na ordem
+                _runs = []
+                for nv in _NIV:
+                    if _runs and _runs[-1][2] == _voz(nv) and _runs[-1][1] == nv - 1:
+                        _runs[-1][1] = nv
+                    else:
+                        _runs.append([nv, nv, _voz(nv)])
+                _pc = []
+                for _i, (_a, _b, _v) in enumerate(_runs):
+                    if _i == len(_runs) - 1:
+                        _pc.append(f'`+{_v}` do {_a} em diante' if len(_runs) > 1 else f'`+{_v}` em todo nível')
+                    elif _i == 0:
+                        _pc.append(f'`+{_v}` até o {_b}')
+                    else:
+                        _pc.append(f'`+{_v}` do {_a} ao {_b}')
+                _esperada = 'As duas dão o mesmo número em todo nível (' + ', '.join(_pc) + ')'
+                if _esperada not in _L8:
+                    erro('CD-VOZ-PREITO', f'o capitulo 8 nao carrega a frase que a conta deriva: '
+                                          f'"{_esperada}"')
+                if 'A `Voz` da `Sintonia` e o `Preito` na CD não somam.' not in _L8:
+                    erro('CD-VOZ-PREITO', 'o capitulo 8 nao diz que a `Voz` e o `Preito` na CD nao somam')
+                print(f'  [x] Voz e Preito na CD dao o mesmo numero nos {len(_NIV)} niveis '
+                      f'({len(_runs)} faixa(s): {", ".join(f"{a}-{b}: +{v}" for a, b, v in _runs)}).')
+
+                # a tabela da peca, conferida linha a linha contra a conta
+                _tb = tabela_apos(S36, '| níveis | maestria |')
+                _cob = []
+                for _c in _tb:
+                    _m = re.match(r'^(\d+) a (\d+)$', _c[0].strip()) if len(_c) >= 4 else None
+                    if not _m:
+                        continue
+                    _a, _b = int(_m.group(1)), int(_m.group(2))
+                    _mae_t, _vz_t, _pr_t = (int(re.sub(r'[^\d]', '', x)) for x in _c[1:4])
+                    for nv in range(_a, _b + 1):
+                        _cob.append(nv)
+                        if nv not in _MAE:
+                            erro('CD-VOZ-PREITO', f'a tabela da peca 15 §3.6 tem o nivel {nv}, que nao existe')
+                        elif (_MAE[nv], _voz(nv), _preito(nv)) != (_mae_t, _vz_t, _pr_t):
+                            erro('CD-VOZ-PREITO', f'a tabela da peca 15 §3.6 diz nv{nv} maestria {_mae_t}, '
+                                                  f'Voz +{_vz_t}, Preito +{_pr_t} e a conta da maestria {_MAE[nv]}, '
+                                                  f'Voz +{_voz(nv)}, Preito +{_preito(nv)}')
+                if sorted(_cob) != _NIV:
+                    erro('CD-VOZ-PREITO', f'a tabela da peca 15 §3.6 cobre {len(set(_cob))} nivel(is) e a '
+                                          f'maestria da peca 1 tem {len(_NIV)}')
+
+                # ---- 33.4 OS NUMEROS DA PECA, derivados
+                _ini = [a for a, b in _FAIXAS_MAE]
+
+                def _lista(xs):
+                    xs = [f'`{x}`' for x in xs]
+                    return ', '.join(xs[:-1]) + ' e ' + xs[-1] if len(xs) > 1 else xs[0]
+
+                _mx_inv = [_BASE_CD + _cap(nv) + _MAE[nv] + _voz(nv) for nv in _ini]
+                _mx_jog = [_BASE_CD + _cap(nv) + _MAE[nv] for nv in _ini]
+                _nv_txt = ', '.join(str(x) for x in _ini[:-1]) + f' e do {_ini[-1]} em diante'
+                _esp1 = f'a CD máxima é {_lista(_mx_inv)} nos níveis {_nv_txt}, contra {_lista(_mx_jog)} da CD de feitiço do jogador'
+                _u = _ini[-1]
+                _soma = _BASE_CD + _cap(_u) + _MAE[_u] + _voz(_u) + _preito(_u)
+                _uma = _BASE_CD + _cap(_u) + _MAE[_u] + _voz(_u)
+                _jog = _BASE_CD + _cap(_u) + _MAE[_u]
+                _esp2 = f'a CD fecharia em `{_soma}` no nível {_u}; com uma só, fecha em `{_uma}`, e a do jogador é `{_jog}`'
+                for _e in (_esp1, _esp2):
+                    if _e not in PECA:
+                        erro('CD-NUMEROS', f'a peca 15 §3.6 nao carrega a frase que a conta deriva: "{_e}"')
+                if _esp1 in PECA and _esp2 in PECA:
+                    print(f'  [x] a CD maxima derivada fecha em {_mx_inv} contra {_mx_jog} do jogador; '
+                          f'somando Voz e Preito seria {_soma}, e a peca diz isso.')
+
+                # ---- 33.5 O QUE PEDE TESTE DE RESISTENCIA
+                _TRS = {limpo(c[0]) for c in linhas_de_tabela(trecho(P1, '## 4. Quatro Testes de Resistência', '## 5.', 'peca 1 §4'))
+                        if c and limpo(c[0]) not in ('Teste de Resistência',)}
+                _mpv = re.search(r'Teste de `Provocar` contra o Teste de Resistência de (\w+) do alvo', _L2)
+                _TR_PROV = _mpv.group(1) if _mpv else None
+                if len(_TRS) != 4 or _TR_PROV is None:
+                    erro('CD-TR', f'setup: li {len(_TRS)} Testes de Resistencia na peca 1 §4 e o do `Provocar` '
+                                  f'no capitulo 2 = {_TR_PROV}')
+                else:
+                    _NOMES = {e['nome']: e['camada'] for e in CATALOGO}
+                    _tp = {}
+                    for _c in tabela_apos(S37, '| entrada | camada | o alvo rola |'):
+                        if len(_c) >= 4:
+                            _tp[limpo(_c[0])] = (limpo(_c[1]), limpo(_c[2]), _c[3])
+                    _tl = {}
+                    for _c in tabela_apos(_T60, '| entrada | o alvo rola |'):
+                        if len(_c) >= 3:
+                            _tl[limpo(_c[0])] = (limpo(_c[1]), _c[2])
+                    if not _tp or not _tl:
+                        erro('CD-TR', f'a tabela de efeitos que o alvo resiste nao esta nas duas publicacoes '
+                                      f'(peca: {len(_tp)} linha(s), capitulo 16: {len(_tl)})')
+                    else:
+                        for _n, (_cam, _tr, _ef) in _tp.items():
+                            if _n not in _NOMES:
+                                erro('CD-TR', f'a peca 15 §3.7 poe `{_n}` na tabela de TR e ele nao esta no catalogo')
+                            elif _NOMES[_n] != _cam:
+                                erro('CD-TR', f'`{_n}` e {_NOMES[_n]} no catalogo e a tabela de TR diz {_cam}')
+                            if _tr not in _TRS:
+                                erro('CD-TR', f'`{_n}` rola "{_tr}" na peca, e os Testes de Resistencia sao {sorted(_TRS)}')
+                        for _n, (_tr, _ef) in _tl.items():
+                            if _n not in _NOMES:
+                                erro('CD-TR', f'o capitulo 16 poe `{_n}` na tabela de TR e ele nao esta no catalogo')
+                            if _tr not in _TRS:
+                                erro('CD-TR', f'`{_n}` rola "{_tr}" no capitulo 16, e os Testes de Resistencia sao {sorted(_TRS)}')
+                        if set(_tp) != set(_tl):
+                            erro('CD-TR', f'a peca e o capitulo 16 pedem TR em conjuntos diferentes: so na peca '
+                                          f'{sorted(set(_tp) - set(_tl))}, so no livro {sorted(set(_tl) - set(_tp))}')
+                        for _n in set(_tp) & set(_tl):
+                            if _tp[_n][1] != _tl[_n][0]:
+                                erro('CD-TR', f'`{_n}` rola {_tp[_n][1]} na peca e {_tl[_n][0]} no capitulo 16')
+                        for _n, _tr in [(n, v[1]) for n, v in _tp.items()] + [(n, v[0]) for n, v in _tl.items()]:
+                            if _n == 'Chamariz' and _tr != _TR_PROV:
+                                erro('CD-TR', f'o `Chamariz` rola {_tr}, e o `Provocar` do jogador rola {_TR_PROV} '
+                                              'no capitulo 2 — e o mesmo efeito, com nome de perícia trocado')
+                        if 'Chamariz' not in _tp or 'Chamariz' not in _tl:
+                            erro('CD-TR', 'o `Chamariz` some da tabela de TR — e a entrada que existe para fazer '
+                                          'o que o `Provocar` do jogador faz')
+                        if 'Graúdo' in _tp or 'Graúdo' in _tl:
+                            erro('CD-TR', 'o `Graúdo` entrou na tabela de TR, e a decisao de 19/09/2026 o deixa de '
+                                          'fora: barrar passagem e o inimigo perdendo movimento')
+                        for _f, _t, _onde in (('O `Graúdo` barra passagem, e barrar é o inimigo perdendo movimento', _T60, 'o capitulo 16'),
+                                              ('O `Graúdo` fica de fora', PECA, 'a peca 15 §3.7'),
+                                              ('o dano do ataque entra de qualquer jeito', PECA, 'a peca 15 §3.7'),
+                                              ('O dano do ataque entra de qualquer jeito', _T60, 'o capitulo 16')):
+                            if _f not in _t:
+                                erro('CD-TR', f'{_onde} nao diz "{_f}"')
+                        # as contagens escritas por extenso saem do catalogo e da tabela
+                        _EXT = {1: 'uma', 2: 'duas', 3: 'três', 4: 'quatro', 5: 'cinco', 6: 'seis', 7: 'sete',
+                                8: 'oito', 9: 'nove', 10: 'dez', 11: 'onze', 12: 'doze', 13: 'treze', 14: 'quatorze',
+                                15: 'quinze', 16: 'dezesseis', 17: 'dezessete', 18: 'dezoito', 19: 'dezenove'}
+                        _n_tr = len(_tp)
+                        _n_fora = len(COMPRAVEIS) - _n_tr
+                        for _f in (f'**{_EXT.get(_n_tr, "?").capitalize()} entradas pedem Teste de Resistência do alvo',
+                                   f'As outras {_EXT.get(_n_fora, "?")} entradas compráveis'):
+                            if _f not in PECA:
+                                erro('CD-TR', f'a peca 15 §3.7 nao carrega a contagem que o catalogo deriva: "{_f}"')
+                        if not ERROS:
+                            print(f'  [x] {_n_tr} entradas pedem TR ({", ".join(sorted(_tp))}), as outras {_n_fora} '
+                                  f'compraveis nao; o `Chamariz` rola {_TR_PROV}, como o `Provocar`; o `Graúdo` fica de fora.')
+
+                # ---- 33.6 O EXEMPLO DA CARRANCA, com a CD recomputada
+                _EX33 = trecho(_T60, '### Exemplo', '### Montagens de exemplo', 'no capitulo 16')
+                _mn = re.search(r'Evocador de nível (\d+)', _EX33)
+                _ma = re.search(r'O atributo do acerto e da CD também é a (\w+)', _EX33)
+                _fic33 = {}
+                for _c in tabela_apos(_EX33, '| linha | valor |'):
+                    if len(_c) >= 2:
+                        _fic33[sem_acento(limpo(_c[0])).lower()] = _c[1]
+                _arr33 = [int(x) for x in re.findall(r'`(\d+)`', _fic33.get('atributos', ''))]
+                if not (_mn and _ma and _ma.group(1) in _ORDEM_ATR and len(_arr33) == len(_ORDEM_ATR)):
+                    erro('CD-EXEMPLO', 'o exemplo da Carranca nao declara o nivel, o atributo do acerto e da CD e '
+                                       'o arranjo de forma legivel — sem eles nao ha CD para recomputar')
+                elif int(_mn.group(1)) not in _MAE:
+                    erro('CD-EXEMPLO', f'o nivel {_mn.group(1)} do exemplo nao existe na tabela de maestria')
+                else:
+                    _nvx = int(_mn.group(1))
+                    _atr = _arr33[_ORDEM_ATR.index(_ma.group(1))]
+                    _cdx = _BASE_CD + _atr + _MAE[_nvx]
+                    _lidos = {}
+                    _m = re.search(r'`(\d+)`', _fic33.get('cd dos efeitos', ''))
+                    _lidos['a linha da ficha'] = int(_m.group(1)) if _m else None
+                    _m = re.search(r'a CD dos efeitos é `(\d+)` mais a mesma Força e a mesma maestria: `(\d+)`', _EX33)
+                    _lidos['o passo 5'] = int(_m.group(2)) if _m else None
+                    if _m and int(_m.group(1)) != _BASE_CD:
+                        erro('CD-EXEMPLO', f'o passo 5 do exemplo soma {_m.group(1)} e o molde da peca 1 diz {_BASE_CD}')
+                    _m = re.search(r'a CD é `(\d+) \+ (\d+) \+ (\d+) = (\d+)`', _T60)
+                    _lidos['a secao dos efeitos'] = int(_m.group(4)) if _m else None
+                    if _m and (int(_m.group(1)), int(_m.group(2)), int(_m.group(3))) != (_BASE_CD, _atr, _MAE[_nvx]):
+                        erro('CD-EXEMPLO', f'a secao dos efeitos escreve {_m.group(1)} + {_m.group(2)} + {_m.group(3)} '
+                                           f'e a Carranca e {_BASE_CD} + {_atr} + {_MAE[_nvx]}')
+                    for _onde, _v in _lidos.items():
+                        if _v != _cdx:
+                            erro('CD-EXEMPLO', f'{_onde} da Carranca diz {_v} e a conta ({_BASE_CD} + {_ma.group(1)} '
+                                               f'{_atr} + maestria {_MAE[_nvx]}) da {_cdx}')
+                    # o teste do capanga: precisa da CD, e o dado sai da diferenca
+                    _mc = re.search(r'capanga com Essência `(\d+)`.*?Ele rola `d20 \+ (\d+)` e precisa de `(\d+)`: '
+                                    r'com (\d+) ou mais no dado ele resiste, e com (\d+) ou menos vem para cima dela',
+                                    _T60, re.S)
+                    if not _mc:
+                        erro('CD-EXEMPLO', 'nao achei o teste do capanga na secao dos efeitos')
+                    else:
+                        _ess, _bon, _prec, _mais, _menos = (int(x) for x in _mc.groups())
+                        if _bon != _ess:
+                            erro('CD-EXEMPLO', f'o capanga tem Essencia {_ess} e rola d20 + {_bon}: sem treino, o TR '
+                                               'de Espirito soma so o atributo')
+                        if _prec != _cdx or _mais != _cdx - _bon or _menos != _mais - 1:
+                            erro('CD-EXEMPLO', f'o teste do capanga diz CD {_prec}, resiste com {_mais} ou mais e '
+                                               f'falha com {_menos} ou menos; a conta da CD {_cdx}, resiste com '
+                                               f'{_cdx - _bon} ou mais e falha com {_cdx - _bon - 1} ou menos')
+                    if not [e for e in ERROS if e.startswith('[CD-EXEMPLO]')]:
+                        print(f'  [x] a Carranca (nivel {_nvx}, {_ma.group(1)} {_atr}, maestria {_MAE[_nvx]}): '
+                              f'CD {_cdx} na ficha, no passo 5, na secao dos efeitos e no teste do capanga.')
+
 for a in AVISOS:
     print(f'  aviso: {a}')
 if AVISOS:
@@ -2615,6 +2932,6 @@ if ERROS:
     print('=' * 88)
     sys.exit(1)
 print('>>> TUDO OK — o teto somado e a cota saem da peca 6, o orcamento sai dos marcos')
-print('    da peca 2, a amarra sai da peca 3, a vida sai do molde da peca 1, e as 32')
+print('    da peca 2, a amarra sai da peca 3, a vida sai do molde da peca 1, e as 33')
 print('    checagens do SS5 fecham sem nenhum valor escrito dentro deste arquivo.')
 print('=' * 88)

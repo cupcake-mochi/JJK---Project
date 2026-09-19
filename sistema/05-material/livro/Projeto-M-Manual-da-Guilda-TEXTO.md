@@ -245,6 +245,8 @@ Melhoria — são escadas diferentes que usam as mesmas três palavras. O capít
 | **`Versátil`** | Propriedade de arma: nas duas mãos, o dado sobe um passo | 14 |
 | **`Vestida`** | Propriedade de arma: não ocupa a mão | 14 |
 | **`Volumosa`** | Propriedade de arma: não dá para esconder, e atrapalha em espaço apertado | 14 |
+| **`Chamariz`** | Comando de invocação: o alvo tem de vir para cima dela | 16 |
+| **`Fisgada`** | Traço de invocação: prende o alvo à distância | 16 |
 | **`Remoto`** | Traço de invocação: funciona além dos 18 metros da amarra | 16 |
 | **`Vigia`** | Traço de invocação: o que ela vê e ouve, você vê e ouve | 16 |
 | **`Voo`** | Traço de invocação: voa, e o terreno para de valer para ela | 16 |
@@ -3157,6 +3159,8 @@ O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 14, 
 > **Nível 2: `Preito`.** As perícias e os Testes de Resistência da sua invocação somam **`metade da sua maestria`, mínimo `1`**.
 > **E escolha uma, ao pegar a Trilha:** `metade da sua maestria` **no acerto** dela · `metade da sua maestria` **na CD** dela · **`a sua maestria` na Defesa** dela.
 >
+> **A `Voz` da `Sintonia` e o `Preito` na CD não somam.** As duas dão o mesmo número em todo nível (`+1` até o 25, `+2` do 26 em diante), então a CD dela leva uma só. Quem tem a `Voz` escolhe o acerto ou a Defesa no `Preito`.
+>
 > **Nível 11: `Escolta`.** Escolha **dois** Testes de Resistência. **Enquanto a sua invocação está de pé, você soma `metade da sua maestria` na sua Defesa e nesses dois.**
 >
 > **Nível 19: `Sustento`.** *Ação Bônus.* A sua invocação ganha **`1d6 + metade do seu nível`** de PV temporário. Ela carrega um bloco desses por vez.
@@ -6019,12 +6023,15 @@ O que ela não tem é Caminho e é técnica. O resto da ficha sai destes cinco n
 | linha | como sai |
 |---|---|
 | **acerto** | `o atributo dela + a sua maestria` |
+| **CD dos efeitos** | `8 + o atributo dela + a sua maestria`. É o número que o alvo tem de bater, e está em *Efeitos com Teste de Resistência*, adiante |
 | **Defesa** | `10 + a Destreza dela + metade da sua Essência` **ou** `da sua Inteligência` |
 | **Teste de Resistência** | `d20 + o atributo dela + a sua maestria` |
 | **vida** | a fórmula de `Tipos e vida`, adiante neste capítulo |
 | **deslocamento** | `9` metros |
 
 **Ela treina um Teste de Resistência**, escolhido quando você a monta. Nos outros três a sua maestria não entra, igual a qualquer ficha.
+
+> **O acerto e a CD saem do mesmo atributo, e você escolhe qual quando monta a invocação: um dos cinco, e a escolha não muda depois.** *É como a técnica do capítulo 1: o ataque de conjuração e a CD saem do atributo que você escolheu para ela.* **A CD usa sempre esse atributo.** O acerto também, a não ser que ela empunhe uma arma: aí ele segue o atributo da arma, como o de qualquer ficha, e a CD continua onde estava.
 
 > **A sua maestria entra em tudo que ela rola, e é ela que faz a invocação acompanhar a campanha.** Os números são dela; o ritmo é seu.
 
@@ -6174,6 +6181,25 @@ O dano dela sai do seu. **O que você e todas as suas invocações causam numa r
 
 > **A invocação entrega um pouco menos do que a conta manda, e isso é o arredondamento.** *O número de dados sempre desce, porque a soma nunca pode passar do que você faria sozinho.* **É `1,9` de dano por rodada a menos numa invocação e `1,4` num corpo da `Matilha`, na média.**
 
+### Efeitos com Teste de Resistência
+
+Alguns efeitos agem sobre quem está do outro lado, e esses o alvo resiste: **ele rola um Teste de Resistência contra a CD dela.** Se igualar ou passar, o efeito não acontece; se ficar abaixo, acontece. Os outros efeitos do catálogo não têm rolagem do alvo.
+
+**A CD dela é `8 + o atributo dela + a sua maestria`**, e o que o seu Caminho ou a sua Trilha soma na CD vem por cima.
+
+**Efeitos que o alvo resiste**
+| entrada | o alvo rola | se ele falhar |
+|---|---|---|
+| `Fisgada` | Físico | fica preso à distância |
+| `Agarrar` | Físico | fica preso |
+| `Arrastar` | Físico | é movido |
+| `Jorro` | Físico | é empurrado. O dano do ataque entra de qualquer jeito |
+| `Chamariz` | Espírito | tem de vir para cima dela |
+
+*O `Graúdo` barra passagem, e barrar é o inimigo perdendo movimento: ele não pede rolagem.*
+
+> **Exemplo.** A `Carranca` do exemplo adiante tem Força `3`, e a maestria do dono dela é `1`. Sem nada que o Caminho ou a Trilha some, a CD é `8 + 3 + 1 = 12`. Ela usa o `Chamariz` num capanga com Essência `1`, sem treino no Espírito. Ele rola `d20 + 1` e precisa de `12`: com 11 ou mais no dado ele resiste, e com 10 ou menos vem para cima dela.
+
 ### Traço e Comando próprios
 
 Você pode escrever `Traço` e `Comando` fora dos dois catálogos, e as réguas servem de medida para isso. Escreva o efeito, ache na régua do que você está escrevendo — a de `Traço` ou a de `Comando` — o degrau em que ele cai, e leve para o mestre. A palavra final é dele, sempre em cima de uma entrada escrita, nunca do zero.
@@ -6212,13 +6238,13 @@ Você joga um Evocador de nível 6, com a Trilha `Servo` e Essência `3`. O que 
 
 **Passo 1 — a Trilha.** O `Servo` põe **um** corpo em campo, e esse corpo é corpo forte. Ele também é o único dos três que monta com o orçamento da ficha mais metade: no nível 6 a ficha tem `12`, então você tem **`18`**.
 
-**Passo 2 — os atributos.** Força `3` para barrar, Constituição `3` porque o serviço dela é apanhar, Essência `2` pela presença, Inteligência `1` e Destreza `0`. O Teste de Resistência que ela treina é o Físico, pela Força.
+**Passo 2 — os atributos.** Força `3` para barrar, Constituição `3` porque o serviço dela é apanhar, Essência `2` pela presença, Inteligência `1` e Destreza `0`. O Teste de Resistência que ela treina é o Físico, pela Força. O atributo do acerto e da CD também é a Força.
 
 **Passo 3 — o tipo.** `maldição domada` — uma coisa que quis te matar antes de aceitar ficar na porta. A base dela é `3`.
 
 **Passo 4 — o orçamento.** `Graúdo` custa `8` e barra passagem, `Chamariz` custa `8` e obriga o alvo a vir para cima dela, e as duas juntas são o corredor fechado. Sobram `2`, e `Escalada` custa exatamente isso — ela chega ao lugar pela parede, sem depender do chão. **`8 + 8 + 2 = 18`, o orçamento inteiro.**
 
-**Passo 5 — a ficha.** A vida sai do corpo forte: `2,5 × (3 + 2 × 6)` dá `37`, mais `3 × 6` da Constituição dela, e fecha em `55`. O acerto é a Força `3` dela mais a sua maestria `1`. A Defesa é `10`, mais a Destreza `0` dela, mais metade da sua Essência.
+**Passo 5 — a ficha.** A vida sai do corpo forte: `2,5 × (3 + 2 × 6)` dá `37`, mais `3 × 6` da Constituição dela, e fecha em `55`. O acerto é a Força `3` dela mais a sua maestria `1`, e a CD dos efeitos é `8` mais a mesma Força e a mesma maestria: `12`. A Defesa é `10`, mais a Destreza `0` dela, mais metade da sua Essência.
 
 **Ficha da Carranca**
 | linha | valor |
@@ -6227,6 +6253,7 @@ Você joga um Evocador de nível 6, com a Trilha `Servo` e Essência `3`. O que 
 | **atributos** | For `3` · Des `0` · Con `3` · Int `1` · Ess `2` |
 | **compras** | `18` de `18` — `Graúdo` `8` · `Chamariz` `8` · `Escalada` `2` |
 | **acerto** | `+4` |
+| **CD dos efeitos** | `12`, sem o que o Caminho ou a Trilha somam. O `Chamariz` dela pede Teste de Resistência de Espírito |
 | **Defesa** | `11` |
 | **Teste de Resistência** | Físico `+4`. Nos outros três a sua maestria não entra |
 | **vida** | `55` |
@@ -6351,6 +6378,8 @@ O `Traço` continua valendo — ela continua voando, continua ocupando a passage
 ## Em aberto
 
 **Invocação que não obedece.** A regra supõe que ela obedece: você gasta a Ação Padrão e ela faz. Existem invocações na ficção que agem por conta própria, contra a vontade de quem as carrega, e elas não têm regra escrita ainda. Se a sua mesa quiser uma dessas, é acordo com o mestre.
+
+**Invocação com arma.** A CD dos efeitos nunca muda com a arma: só o acerto segue o atributo dela. Ainda não está escrito quem treina a invocação numa arma (ela não tem Caminho, e sem treino o ataque com arma sai com desvantagem) nem se o dado da arma soma ao `Investir`. Se a sua mesa quiser uma invocação armada, é acordo com o mestre.
 
 **Selar com talismã.** O talismã do material sela objeto amaldiçoado, e o alvo dela é o objeto amaldiçoado do capítulo 15, *Ferramenta Amaldiçoada*, que ainda não tem regra de selamento escrita. Por enquanto o `talismã` é um tipo de invocação como os outros três, com a vida dele, e selar não é uma entrada do catálogo.
 
@@ -6827,4 +6856,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: 77f95304268b4670dd5ab204bcb5014112019937 -->
+<!-- fonte: b97f66a12ccf3705ac55ec90c27c940fe751d814 -->

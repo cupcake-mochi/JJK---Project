@@ -1,8 +1,8 @@
 # Estado atual do projeto
 
-Atualizado em 17/09/2026, na v0.250 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e dez checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
+Atualizado em 19/09/2026, na v0.251 (última peça fechada: **Bestiário**, a peça 26, na v0.198, com o `conferir-bestiario.py` e dez checagens; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.250.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
+**Versão v0.251.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e seis peças escritas** e **vinte e seis validadores**.
 
 > ## 🆕 A v0.222 consertou duas coisas que a v0.221 deixou passar, e as duas são do §6.5 da peça 26
 >
@@ -918,7 +918,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/conferir-xp.py` | a curva, o abismo que fecha, e se a regra ainda entrega o tempo que a Guilda pediu |
 | `03-mecanica/conferir-criacao.py` | **a instância, não a regra**: a ficha de exemplo da peça 8 contra as fórmulas, a proteção da aptidão gratuita, a Trilha na criação e se o catálogo citado existe |
 | `03-mecanica/conferir-ficha.py` | **o material contra a regra**: as 23 perícias, os 11 ofícios, os 5 Caminhos, as 15 Trilhas, as Famílias e as constantes do nível 2 que a ficha imprime, contra as peças donas |
-| `03-mecanica/conferir-invocacoes.py` | as **trinta e duas** checagens da peça 15, sem um número guardado dentro dele — e a busca exaustiva das 21.502 montagens que gastam o orçamento cheio no nível 30 |
+| `03-mecanica/conferir-invocacoes.py` | as **trinta e três** checagens da peça 15, sem um número guardado dentro dele — e a busca exaustiva das 5.429 montagens que gastam o orçamento cheio no nível 30 |
 | `03-mecanica/17-catalogo-de-entregas.md` | **o índice das 102 entradas** — 68 entregas de Trilha, 20 degraus de Caminho e as 14 Manhas —, com a regra de contagem e o ponteiro de onde o texto de cada uma mora |
 | `03-mecanica/conferir-catalogo.py` | as **dezesseis** checagens da peça 17, e **o primeiro validador que sai da pasta**: ele lê os três `DESENHO-*.md` da raiz |
 | `03-mecanica/18-progressao.md` | **a tabela de progressão** — o que se ganha em cada nível, do 1 ao 30, numa tabela só. Nove das dez colunas são cópia com dono declarado; a décima, o tamanho da lista de feitiços, nasce aqui |
@@ -1237,6 +1237,8 @@ Nenhum validador pega estes — eles vieram de rodar os testes da skill de desig
 5. ~~**⚠⚠ A troca do `2` fixo por um atributo não tem versão que funcione.**~~ **FECHADO na v0.117**, e não pelo lado que a pergunta esperava: *o `2` morreu junto com o mecanismo, e o acerto passou a levar maestria para acompanhar a proteção que cresce do outro lado.* **O `Estopim` do `Explosivo` ganhou referente sem ninguém mexer no preço dele.**
 6. **"O mestre declara o que foi uma luta" é discricionariedade que vira número.** *Aceito de propósito na v0.26*, e é a única coisa da peça 10 sem lista fechada por baixo — a declaração muda quantos degraus de exaustão o grupo acumula, e isso muda quanto PE o respiro devolve. A aposta é que ninguém está em melhor posição de dizer se aquilo foi uma luta do que quem acabou de dirigir a cena. Se dois mestres divergirem no playtest, o conserto é o do ambiente propício: fechar a lista.
 
+7. **A remodelagem das invocações e do Evocador.** *Anunciada pelo Mizuki na v0.246 como a revisão das invocações, e confirmada em 19/09/2026: "as invocações e o evocador vai ser remodelado".* **A v0.251 fechou a CD dos efeitos e deixou três coisas para ela:** *a invocação com arma — quem a treina, e se o dado da arma soma ao `Investir`; a CD não muda com a arma, só o acerto segue o atributo dela;* *as quinze entradas do catálogo, das vinte, que têm texto diferente entre o livro e a peça — a `Montaria` e o `Remoto` mudam regra;* *e a `Voz`, cuja troca no nível 7 para `metade da maestria` não muda número nenhum, porque o piso de `1` a deixa em `+1` até o nível 25.* **Nada disso trava a mesa:** a CD, o atributo e o Teste de Resistência de cada efeito já estão escritos, e o capítulo 16 do livro registra a arma em "Em aberto".
+
 *Resolvidos na v0.26:* os **três buracos de regra** que estavam aqui — a fórmula do PE máximo (ela já estava no manual, na tabela de "quantas vezes você lança o seu melhor feitiço"), o arredondamento e o que conta como luta. E o **tamanho dos degraus de exaustão**: a escada nunca esteve desordenada, ela é ordenada por **consequência**, e o degrau 1 e o degrau 3 valem exatamente os mesmos −25 pp porque os dois são desvantagem. O que estava errado era o texto prometer "leve"; o `conferir-descanso.py` agora confere magnitude.
 
 *Resolvido na v0.21:* **Sentir Energia**. O achado da v0.20 dizia que ela falha no teste do bônus automático, e a decisão foi aceitar conscientemente — sempre vai existir perícia melhor que outra, e as pessoas escolhem por querer ser únicas. Deixou de ser problema aberto e virou decisão registrada.
@@ -1370,7 +1372,7 @@ Quatro peças, e a ordem é de **dependência**, não de tamanho. A ordem que el
 |---|---|---|---|
 | ~~1~~ | ~~**Legados** — a régua de magnitude, e ~5 por Origem~~ | **fechada na v0.39** (peça 13): régua, catálogo de **81 entradas** e o `conferir-legados.py` | — |
 | ~~2~~ | ~~**Equipamento** — armas, escudos, uniformes~~ | **fechada na v0.48** (peça 14): as 52 armas com orçamento fechado, proteção, escudo, treino e requisito de Força, mais o `conferir-equipamento.py` com catorze checagens | — |
-| ~~3~~ | ~~**Invocações** — o sistema de criação~~ | **fechada na v0.58** (peça 15), com o `conferir-invocacoes.py` e trinta e duas checagens | — |
+| ~~3~~ | ~~**Invocações** — o sistema de criação~~ | **fechada na v0.58** (peça 15), com o `conferir-invocacoes.py`, que hoje tem trinta e três checagens | — |
 | 4 | **Caminho, Trilhas e subtrilhas** — a árvore de cada um | o resto | **2 e 3** |
 
 ### A fila foi reordenada na v0.50, e as duas peças novas ganharam posição
@@ -1379,7 +1381,7 @@ Quatro peças, e a ordem é de **dependência**, não de tamanho. A ordem que el
 
 | # | peça | por que aqui | move o contador? |
 |---|---|---|---|
-| ~~1~~ | ~~**Invocações**~~ | **fechada na v0.58** (peça 15), com o `conferir-invocacoes.py` e trinta e duas checagens | rotas 6/9 → 6/9 · vagas 0 de 7 |
+| ~~1~~ | ~~**Invocações**~~ | **fechada na v0.58** (peça 15), com o `conferir-invocacoes.py`, que hoje tem trinta e três checagens | rotas 6/9 → 6/9 · vagas 0 de 7 |
 | ~~2~~ | ~~**Ferramenta amaldiçoada**~~ | **fechada na v0.59** (peça 16): a máquina e o catálogo saíram na v0.55 e na v0.56, e o `conferir-ferramenta.py` tem **dezenove** checagens | **rotas 6/9 → 8/9** · vagas 3 de 7 |
 | ~~1~~ | ~~**Trilhas**~~ | **fechadas na v0.164**, com as três do Evocador | tocou **100% das fichas** |
 | ~~2~~ | ~~**Objeto amaldiçoado**~~ | **fechada na v0.132** (peça 21), com o `conferir-objeto.py` e doze checagens | rotas 8/9 → 8/9 · **fechou a vaga de `Desliga` do Reencarnado** |
@@ -1404,7 +1406,7 @@ Quatro peças, e a ordem é de **dependência**, não de tamanho. A ordem que el
 - **Ferramenta antes de Técnica Marcial** está escrito na peça 5 §3: a Maki *"só compete porque a ferramenta amaldiçoada carrega a energia por ela"*. Técnica Marcial escrita antes produz rota que não fere maldição.
 - **Objeto amaldiçoado por último**, e é o contrário do que a v0.49 fazia parecer. Ele foi o achado daquela versão, mas **Receptáculo e Reencarnado já rodam hoje** — os dois vão para o Fundamento. Ele fecha **1 vaga de Desliga e mais nada.** *Buraco de vocabulário real não é o mesmo que buraco que trava alguém.*
 
-**Invocações fechou na v0.58 e é a peça 15**, em `03-mecanica/15-invocacoes.md`, com o `conferir-invocacoes.py` em cima dela. O §5 daquela peça é a especificação das trinta e duas checagens, e ele foi escrito **antes** do validador — que é por que ele coube numa versão só, contra as seis que a peça 14 gastou.
+**Invocações fechou na v0.58 e é a peça 15**, em `03-mecanica/15-invocacoes.md`, com o `conferir-invocacoes.py` em cima dela. O §5 daquela peça é a especificação das trinta e três checagens, e ele foi escrito **antes** do validador — que é por que ele coube numa versão só, contra as seis que a peça 14 gastou.
 
 > **A peça fechou na v0.58, e o argumento inteiro mora nela — não aqui.** A Q1 (iniciativa) no §3.1, a Q2 (cinco fichas ou uma) no §3.2, a Q3 (a ficha) no §3.3 e no §3.6, a Q4 (o custo) no §3.4, a Q5 (a morte e o retorno) no §3.5, o catálogo e a régua de criação no §3.7, e a especificação das trinta e duas checagens no §5. *Este ponteiro existe para quem retomar não recomeçar: as decisões têm um dono só, e é lá.*
 >

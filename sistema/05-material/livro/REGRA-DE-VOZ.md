@@ -112,7 +112,9 @@ palavras.* **As catorze condições deste livro foram reescritas nessa forma na 
 
 *Escrito na v0.144, e ele nasceu de uma contagem que deu errado cinco vezes seguidas.* **O prompt de retomada dizia quatro, o CHANGELOG da v0.136 dizia cinco, a varredura à mão de uma versão disse oito, e o regex acha sete.** *Toda contagem desta família até hoje deu um número diferente, e nenhuma delas tinha validador.*
 
-> **O livro carrega `2` marcas de regra que ainda não existe.** *Esse número é o dono, e o `conferir-voz.py` recontá e falha se ele subir.*
+> **O livro carrega `3` marcas de regra que ainda não existe.** *Esse número é o dono, e o `conferir-voz.py` recontá e falha se ele subir.*
+
+> **Eram `2` até a v0.250, e a v0.251 subiu para `3`**, quando o capítulo 16 ganhou a entrada *Invocação com arma*. **A marca entrou por decisão, e não por descuido:** *o Mizuki escolheu que a CD dos efeitos nunca acompanha a arma e que só o acerto pode acompanhar — "é raro, mas pode vir a acontecer" —, e isso deixa duas perguntas sem regra: quem treina a invocação numa arma, e se o dado da arma soma ao `Investir`.* **A remodelagem das invocações e do Evocador, que ele anunciou, é onde as duas fecham, e o número desce junto.**
 
 > **Eram `3` até a v0.178**, quando a marca do capítulo 15 fechou por corte e não por decisão — a revisão da v0.176 tirou do `Objeto de apoio` a frase *"a lista do que conta como apoio e o preço dele estão sendo escritos; o teto de dois já vale desde agora"*. **A regra que ela carregava ficou de pé:** *o teto de dois continua escrito duas linhas abaixo, e é dele que o teto de `Estigma` da peça 16 é feito.* **O preço nunca ia existir**, porque ferramenta amaldiçoada é entregue pelo mestre no ritmo da peça 16 §7 e não comprada (a peça 14, dona dos preços, não usa a palavra `apoio` uma vez sequer). *Fica aberta a lista do que conta como apoio, e ela é assunto da peça 16, não do livro.*
 

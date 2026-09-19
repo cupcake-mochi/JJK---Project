@@ -8,6 +8,83 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.251] — 19/09/2026
+
+**A CD dos efeitos da invocação está escrita, e o alvo passa a ter como resistir a cinco efeitos do catálogo.** *Era o B13 do repositório da ficha: a `Voz` da `Sintonia` somava `+1` numa CD que nenhum documento do sistema produzia, e o `Preito` do `Servo` também soma nela.* **A versão fecha o que a v0.246 tinha deixado como "forma B, com o atributo, as entradas e o `Preito` por decidir"**, e leva o ponto aberto da arma até a resposta do Mizuki.
+
+### 1 · A regra
+
+**A CD dos efeitos dela é `8 + o atributo dela + a sua maestria`**, no molde da CD de feitiço do jogador (peça 1 §5). **O atributo é um só, escolhido na montagem, um dos cinco, e a escolha não muda depois; dele saem o acerto e a CD.** *O livro dizia só "o atributo dela" no acerto, sem dizer qual.*
+
+**Cinco entradas pedem Teste de Resistência do alvo:** `Fisgada`, `Agarrar`, `Arrastar` e o empurrão do `Jorro`, contra o Físico; o `Chamariz`, contra o Espírito. *O Espírito é o teste contra o qual o `Provocar` do jogador rola, e o `Chamariz` é o `Provocar` da invocação com outro nome.* **O `Graúdo` fica de fora:** barrar passagem é o inimigo perdendo movimento. **As outras quatorze compráveis não têm rolagem do alvo.** *Os Testes de Resistência por efeito começaram como proposta minha, e ele concordou.*
+
+**A `Voz` e o `Preito` na CD não acumulam, porque dão o mesmo número em todo nível de 2 a 30:** `+1` até o 25, `+2` do 26 em diante. *Quem tem a `Voz` fica com a CD do `Preito` sem efeito, e o capítulo 8 diz isso para ninguém gastar a escolha à toa.* **Com o atributo no teto, a CD dela fecha em `20` do nível 26 em diante, contra `18` da CD de feitiço do jogador; somando as duas seria `22`.**
+
+### 2 · A arma, medida antes de perguntar
+
+*O livro não diz em lugar nenhum se a invocação empunha arma, e a ressalva do Mizuki ("a não ser que ela use alguma arma") fazia do acerto o único ponto que a arma poderia mexer.* **Foram medidas as três leituras com todo arranjo legal de atributo, e o achado que mais pesou é que o topo não se mexe em nenhuma:**
+
+| nível | acerto máximo | CD máxima | CD de feitiço do jogador |
+|---|---|---|---|
+| 2 | `+4` | `13` | `12` |
+| 10 | `+7` | `16` | `15` |
+| 18 | `+9` | `18` | `17` |
+| 26 e 30 | `+10` | `20` | `18` |
+
+- **(a) a CD guarda o atributo da montagem e a arma só mexe no acerto:** *acerto e CD podem sair de atributos até `6` pontos de atributo longe (`30` pontos percentuais no d20), e o topo dos dois já sai com um atributo só.*
+- **(b) a CD segue o atributo que o acerto usa:** *armar uma arma de atributo `0` derruba a CD em até `6` do nível 14 em diante. É o desenho da Kata da Técnica Marcial.*
+- **(c) a invocação não usa arma:** *sem extremo, e uma frase.*
+
+***Decisão do Mizuki: (a).*** *"Pra CD, sim... sempre vai ser so o atributo da invocação. único caso de mudança disso é no acerto mesmo, aonde a invocação pode usar uma arma. É raro, mas pode vir a acontecer"* — e ele anunciou que as invocações e o Evocador vão ser remodelados depois. **A (a) deixa duas perguntas sem regra:** *quem treina a invocação numa arma — ela não tem Caminho, e sem treino o ataque sai com desvantagem, que derruba `50%` de acerto por dado para `25%` —, e se o dado da arma soma ao `Investir` — o `2d10` da melhor arma somaria `314%` ao `Investir` do nível 2 e `21%` no 30.* **O livro registra as duas em "Em aberto", e a `REGRA-DE-VOZ.md` sobe de `2` para `3` marcas de regra que ainda não existe.** *Se ele preferir não publicar a entrada, o número volta a `2` junto com ela.*
+
+### 3 · O validador e o arnês
+
+**O `conferir-invocacoes.py` ganha a checagem `33`, e são trinta e três.** **Ela lê a base da CD e a maestria da peça 1, os marcos e os tetos da peça 2, a `Voz` e o `Preito` do capítulo 8, o teste do `Provocar` do capítulo 2 e o catálogo da própria peça** — e confere que a peça e o capítulo 16 escrevem o que esses donos mandam: a fórmula nas três linhas que a publicam, o atributo único, a igualdade da `Voz` e do `Preito` nível a nível (com a frase do capítulo 8 e a tabela da peça derivadas da conta), os números `13 · 16 · 18 · 20` contra `12 · 15 · 17 · 18`, a tabela de Teste de Resistência nas duas publicações, e a CD da `Carranca` recomputada na ficha, no passo 5, na seção nova e no teste do capanga.
+
+**O arnês rodou numa cópia isolada, com a base verde: `27` perturbações acendem a etiqueta certa, e `3` que não podem acender não acendem** (reordenar as linhas da tabela, reescrever a nota de decisão e reescrever a abertura da seção). **Os dois contra-testes são as leituras recusadas:** *a CD seguindo o atributo da arma acende a `CD-ATRIBUTO`, e o `Preito` valendo a maestria inteira — o dobro da `Voz` — acende a `CD-VOZ-PREITO`.** *Duas perturbações acendem mais de uma coisa, e as duas leem o mesmo dono: a base da CD na peça 1 acende três etiquetas da própria `33`, e o teto do atributo da peça 2 acende a `33` junto da `8`, da `18` e da `30`.*
+
+***O primeiro achado do arnês foi da própria checagem.*** *A frase "a escolha não muda depois" também existe no parágrafo da Defesa do capítulo 16, e apagar a do atributo da CD não acendia nada. Ela ficou ancorada em "um dos cinco, e a escolha não muda depois", que só o parágrafo da CD tem.*
+
+### 4 · O livro
+
+- **Capítulo 16:** *a linha da CD na tabela da ficha, o parágrafo do atributo, a seção* Efeitos com Teste de Resistência *(com a tabela e um exemplo da `Carranca` usando o `Chamariz`), a `Carranca` com o atributo e a CD na ficha e no passo 5, e a entrada* Invocação com arma *em "Em aberto".* **A seção nasceu com o nome "Efeitos que pedem Teste de Resistência", e o `conferir-voz.py` a acusou como frase e não como nome (título com "que"). Ela é "Efeitos com Teste de Resistência".**
+- **Capítulo 8:** *a frase no `Preito` do `Servo`: a `Voz` e o `Preito` na CD não somam.*
+- **Glossário:** *`Fisgada` e `Chamariz` entram, porque passaram de quatro para cinco usos no capítulo 16 e cruzaram o corte do `conferir-voz.py`.*
+- **`REGRA-DE-VOZ.md`:** *as marcas de regra que ainda não existe sobem de `2` para `3`, com o porquê.*
+- **Os quatro artefatos refeitos:** *o texto compilado, o `.docx` de revisão e os dois PDFs, com a coluna única em `256` páginas e as duas colunas em `146`.* *Antes da mudança, o build daqui reproduziu o commitado: `255` e `146` páginas e texto idêntico.*
+
+### 5 · Achados no caminho
+
+- **O `maestria(nv)` do `conferir-invocacoes.py` erra o degrau em três níveis.** *Ele usa `1 + (nível − 1) // 8`, e a tabela da peça 1 §2 vira a maestria no nível 10, 18 e 26: nos níveis 9, 17 e 25 a função devolve um degrau acima.* **Ele só entra na checagem `18` (o ritmo do acerto), que passa, e não foi mexido: a checagem `33` lê a tabela da peça 1 em vez de usar a função.**
+- **O README e o ESTADO-ATUAL ainda diziam `21.502` montagens no nível 30.** *A peça já dizia `5.429` desde que a escala de preço mudou, e o validador confere `5.429`.* **O README também dizia que o validador entrou na v0.58 "com as trinta e duas checagens", quando eram trinta.**
+- **O rascunho chamava o capítulo 8 de "capítulo 35".** *É o número do arquivo `35-caminhos-e-trilhas.md`. O livro escreve "capítulo 8".*
+- **O rascunho foi para `99-arquivo/`,** com o cabeçalho de sempre.
+
+### Alterado
+
+- **Peça 15:** *o cabeçalho (trinta e três), o §3.6 (a linha da CD e a subseção da CD e do atributo), o §3.7 (os efeitos que o alvo resiste) e o §5 (o parágrafo do arnês e a checagem `33`).*
+- **`conferir-invocacoes.py`:** *a checagem `33`, o docstring com as trinta e três (ele listava trinta) e a frase final.*
+- **Livro:** *capítulos 16 e 8, o glossário e a `REGRA-DE-VOZ.md`, mais os quatro artefatos.*
+- **`README`, `LEIA-ME` e `ESTADO-ATUAL`:** *as versões, a contagem das checagens, o `5.429`, e um item novo em "Problemas de design abertos" para a remodelagem das invocações e do Evocador.*
+
+### Decidido
+
+- **A CD dos efeitos é `8 + atributo + maestria`, com o atributo escolhido na montagem, e a arma só mexe no acerto.**
+- **Cinco entradas pedem Teste de Resistência, com o Físico e o Espírito por efeito, e o `Graúdo` fica de fora.**
+- **A `Voz` e o `Preito` na CD não acumulam.**
+- **A `REGRA-DE-VOZ.md` passa a declarar `3` marcas de regra que ainda não existe.**
+
+### Continua aberto
+
+- **A remodelagem das invocações e do Evocador**, *que o Mizuki anunciou:* a arma (treino e dado), as quinze entradas do catálogo com texto diferente entre o livro e a peça, a `Montaria` e o `Remoto` que mudam regra, e a troca da `Voz` no nível 7, que não muda número nenhum.
+- **A aba INVOCAÇÃO da ficha principal**, *no repositório da ficha:* o resto do lado da ficha ficou pronto no mesmo dia — os dois capítulos vendorizados, o `invocacao.json`, a ficha da invocação com a CD e o bônus da `Voz` ou do `Preito`, e o `conferir-invocacao.py`. **Na aba principal ficou só a nota da CD, por decisão do Mizuki; o bloco de campos entra junto da remodelagem das invocações.**
+- **O `maestria(nv)` do `conferir-invocacoes.py`**, acima.
+- **O `conferir-voz.py` acusa `53` entradas de catálogo contra as `52` que a `REGRA-DE-VOZ.md` declara**, *e acusava antes desta versão.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, seção *"Onde estamos, e o que falta"*.
+
+---
+
 ## [0.250] — 17/09/2026
 
 **O livro do Bestiário ganhou o Rescaldo e a `Regravação` do inimigo, fechando o segundo furo que a v0.249 tinha deixado de fora.** *A conta é a mesma peça 26 §6.4, decidida na v0.242 — o inimigo carrega a corrente inteira do jogador —, e nunca tinha sido publicada.*

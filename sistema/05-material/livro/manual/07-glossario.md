@@ -201,6 +201,8 @@ Melhoria — são escadas diferentes que usam as mesmas três palavras. O capít
 | **`Versátil`** | Propriedade de arma: nas duas mãos, o dado sobe um passo | 14 |
 | **`Vestida`** | Propriedade de arma: não ocupa a mão | 14 |
 | **`Volumosa`** | Propriedade de arma: não dá para esconder, e atrapalha em espaço apertado | 14 |
+| **`Chamariz`** | Comando de invocação: o alvo tem de vir para cima dela | 16 |
+| **`Fisgada`** | Traço de invocação: prende o alvo à distância | 16 |
 | **`Remoto`** | Traço de invocação: funciona além dos 18 metros da amarra | 16 |
 | **`Vigia`** | Traço de invocação: o que ela vê e ouve, você vê e ouve | 16 |
 | **`Voo`** | Traço de invocação: voa, e o terreno para de valer para ela | 16 |

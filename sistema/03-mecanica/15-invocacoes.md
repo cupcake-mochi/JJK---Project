@@ -1,6 +1,6 @@
 # 15 — Invocações
 
-**Fase 4, décima quinta peça.** O sistema de criação de invocação: iniciativa, o modelo da Matilha, a ficha, o custo, a morte, o retorno e o catálogo. O validador dono é o `conferir-invocacoes.py`, com as **trinta e duas** checagens do §5.
+**Fase 4, décima quinta peça.** O sistema de criação de invocação: iniciativa, o modelo da Matilha, a ficha, o custo, a morte, o retorno e o catálogo. O validador dono é o `conferir-invocacoes.py`, com as **trinta e três** checagens do §5.
 Versão v0.58 — 14/08/2026
 
 > **O nome é decisão escrita, e não descuido.** `Invocação` sai **OCUPADO** na triagem: é **Tema** do manual, no grupo *Criação* do catálogo do apêndice. Tema não carrega mecânica — o próprio manual diz isso na abertura da Descrição —, então o choque é de vocabulário e não de regra. **O Tema e esta peça são coisas diferentes:** um é rótulo de sabor pendurado numa técnica, a outra é a máquina que põe um corpo no campo. O §4 tem a triagem inteira, com os dois nomes que saíram livres.
@@ -671,6 +671,7 @@ Com a vida em pool (Q2) e `h` em meia Rotina (Q3), **um efeito de área que caus
 | **`+1` por marco**, teto `6` | **sim** | peça 2 §3 |
 | **cinco atributos** | **sim** | peça 1 §4 |
 | **um Teste de Resistência treinado** | não — o personagem treina **dois** | peça 8 |
+| **a CD dos efeitos: `8 + o atributo dela + a sua maestria`** | **sim, no molde** da CD de feitiço, com o atributo que ela escolhe na montagem no lugar do da técnica | peça 1 §5 |
 | **deslocamento `9` metros, fixo** | é o base de qualquer ficha | peça 3 §2 |
 
 **São seis arranjos legais na criação, exatamente os mesmos seis do personagem** — de `3·3·3·0·0` a `2·2·2·2·1`. *Com três atributos em vez de cinco o número cairia para **um**, `3·3·3`, e o arranjo deixaria de ser escolha; foi essa conta que trouxe Inteligência e Essência para a ficha dela.*
@@ -678,6 +679,35 @@ Com a vida em pool (Q2) e `h` em meia Rotina (Q3), **um efeito de área que caus
 > **As duas que faltavam ganharam função com o Teste de Resistência próprio.** *Enquanto o TR era o número do dono, Inteligência e Essência não tinham onde entrar — e por isso a peça só usava três atributos.* **A peça 1 §4 escreve `TR = d20 + atributo do TR + maestria`**, então as cinco entram pela mesma porta.
 
 **E o orçamento desta peça compra só capacidade.** Ele não encosta em acerto, Defesa nem vida — esses três já têm dono, e é o arranjo de atributo da peça 2. *Não existe operação que troque um pelo outro, e é isso que mantém as duas moedas separadas.*
+
+### A CD dos efeitos, e o atributo que ela usa
+
+*Decidida em 19/09/2026, na v0.251, e ela fecha o B13 do repositório da ficha: a `Voz` da `Sintonia` e o `Preito` do `Servo` somam numa CD que a invocação não tinha em documento nenhum.* **A CD dos efeitos dela é `8 + o atributo dela + a sua maestria`**, no molde da CD de feitiço do jogador (peça 1 §5). *É a forma B que o Mizuki escolheu na v0.246: a CD é um número da ficha dela, no molde do Teste de Resistência dela, e não uma CD que ela pega emprestada do dono.*
+
+**O atributo é um só, escolhido na montagem, e a escolha não muda.** É um dos cinco, e dele saem o acerto e a CD, do jeito que a técnica do jogador faz. *O livro dizia só "o atributo dela" no acerto, sem dizer qual dos cinco, e a ficha digital já tinha um campo livre para ele. A decisão dá regra ao que o campo já fazia.*
+
+**A arma mexe no acerto e nunca na CD.** *A pergunta nasceu da ressalva do Mizuki, "a não ser que ela use alguma arma". O livro não diz em lugar nenhum se a invocação empunha arma: o capítulo 16 só fala em proteção (`Estigma`, "uma peça que você deu a ela") e o capítulo 14 não cita invocação. Então as três leituras foram medidas, com todo arranjo legal de atributo em cada nível de marco:*
+
+| leitura | o que ela faz | o extremo medido |
+|---|---|---|
+| **(a)**, a que valeu | a CD guarda o atributo da montagem; a arma só mexe no acerto | acerto e CD podem sair de atributos diferentes, até `6` pontos de atributo de distância (`30` pontos percentuais no d20). **O topo dos dois é o mesmo das outras: um atributo no teto dá os dois** |
+| **(b)** | a CD segue o atributo que o acerto está usando | armar uma arma de atributo `0` derruba a CD em até `6`, do nível 14 em diante. É o desenho da Kata da Técnica Marcial |
+| **(c)** | a invocação não usa arma | não tem extremo: a CD é um número só na campanha inteira |
+
+**O topo não se mexe em nenhuma das três**, e foi a medida que mais pesou. Com o atributo no teto, a CD máxima é `13`, `16`, `18` e `20` nos níveis 2, 10, 18 e do 26 em diante, contra `12`, `15`, `17` e `18` da CD de feitiço do jogador: a diferença é só o bônus da `Voz` ou do `Preito`. ***Decisão do Mizuki: (a).*** *"Pra CD, sim... sempre vai ser so o atributo da invocação. único caso de mudança disso é no acerto mesmo, aonde a invocação pode usar uma arma. É raro, mas pode vir a acontecer"*, e ele anunciou que as invocações e o Evocador vão ser remodelados depois.
+
+> **O que a (a) deixa aberto, e o capítulo 16 registra em "Em aberto":** quem treina a invocação numa arma, e se o dado da arma soma ao `Investir`. *O primeiro pesa porque ela não tem Caminho, e sem treino o ataque com arma sai com desvantagem (`50%` de acerto por dado vira `25%`). O segundo pesa porque o `Investir` já entrega a cota inteira, e o dado da melhor arma do catálogo, `2d10`, somaria `314%` no nível 2 e `21%` no nível 30.* **A peça não escreve as duas: o remodelamento é o lugar delas.**
+
+**A `Voz` e o `Preito` na CD dão o mesmo número em todo nível de 2 a 30**, conferido nível por nível com a maestria da peça 1 e a metade com o piso de `1` da v0.246:
+
+| níveis | maestria | `Voz` | `Preito` na CD |
+|---|---|---|---|
+| 2 a 9 | `1` | `+1` | `+1` |
+| 10 a 17 | `2` | `+1` | `+1` |
+| 18 a 25 | `3` | `+1` | `+1` |
+| 26 a 30 | `4` | `+2` | `+2` |
+
+***Decisão do Mizuki: elas não acumulam.*** **Quem tem a `Voz` fica com a CD do `Preito` sem efeito nenhum**, e a frase do capítulo 8 diz isso para ninguém gastar a escolha à toa. *Somadas, com o atributo no teto, a CD fecharia em `22` no nível 26; com uma só, fecha em `20`, e a do jogador é `18`.*
 
 ### A amarra são 18 metros, e o número não é novo
 
@@ -876,6 +906,22 @@ E a cadência já existe: **os sete marcos**, que governam atributo, refino e fe
 > **O `Chamariz` é a única entrada que existe porque um shikigami do material não fechava sem ela.** A peça 6 §4 descreve o produto do invocador como *"corpos que absorvem ataque, flanqueiam e bloqueiam caminho"* — e o Coelho de Fuga é *"muitos corpos que **distraem** para o dono fugir"*. Absorver e bloquear já tinham entrada; **distrair não tinha nenhuma.** Ele é **negar a ação de outro**, que é o degrau de 2 escrito.
 >
 > *E ele não pôde se chamar `Provocar`: o nome sai LIVRE na triagem e **colide em sentido** — `Provocar` é perícia de Essência (peça 7), e um `Comando` com o nome de uma perícia faz a mesa procurar uma rolagem que não existe. É o tipo de colisão que o `conferir-nomes.py` não pega.*
+
+### Os efeitos que o alvo resiste, e o Teste de Resistência de cada um
+
+*O B13 pedia dois números que a peça não tinha: a CD, que é a da seção 3.6, e quais entradas do catálogo a usam. O catálogo dizia "prende à distância" e "move o alvo" sem dizer como o alvo escapa.* **Cinco entradas pedem Teste de Resistência do alvo, contra a CD dela:**
+
+| entrada | camada | o alvo rola | se ele falhar |
+|---|---|---|---|
+| `Fisgada` | `Traço` | Físico | fica preso à distância |
+| `Agarrar` | `Comando` | Físico | fica preso |
+| `Arrastar` | `Comando` | Físico | é movido |
+| `Jorro` | `Traço` | Físico | é empurrado; o dano do ataque entra de qualquer jeito |
+| `Chamariz` | `Comando` | Espírito | tem de vir para cima dela |
+
+**Físico para os quatro que mexem no corpo do alvo:** prender, mover e empurrar se aguentam ou se esquivam, que é o que o Teste de Resistência Físico serve para (peça 1 §4, *reagir, esquivar, aguentar impacto*). **Espírito para o `Chamariz`, porque é o Teste de Resistência contra o qual o `Provocar` do jogador rola** (capítulo 2 do livro): o `Chamariz` é o `Provocar` da invocação, com outro nome porque `Provocar` é perícia. *As duas dobram o alvo pela vontade, e o Espírito é o Teste de Resistência da vontade.* **O `Graúdo` fica de fora:** barrar passagem é o inimigo perdendo movimento, e isso não se resiste. **As outras quatorze entradas compráveis, `Graúdo` incluído, não têm rolagem do alvo.**
+
+*Decisão do Mizuki em 19/09/2026: os Testes de Resistência por efeito começaram como proposta minha e ele concordou.*
 
 ### Criar o seu — e a régua já estava implícita nas quatorze entradas
 
@@ -1091,11 +1137,11 @@ Rodada a triagem antes de escrever qualquer coisa:
 
 ## 5. O que o validador confere
 
-**São trinta e duas checagens, e elas moram no `conferir-invocacoes.py`.** A lista abaixo é a especificação delas: cada item diz o que se confere, de qual documento o número é lido, e — onde faz sentido — qual perturbação tem de acender aquela checagem e só ela.
+**São trinta e três checagens, e elas moram no `conferir-invocacoes.py`.** A lista abaixo é a especificação delas: cada item diz o que se confere, de qual documento o número é lido, e — onde faz sentido — qual perturbação tem de acender aquela checagem e só ela.
 
 *Ela foi escrita antes do validador, e é por isso que ele coube numa versão só.* A peça 14 gastou três versões com uma frase dizendo que o validador dela não podia ser escrito, e a premissa daquela frase tinha morrido três versões antes.
 
-> **O arnês de perturbação obedece às três regras:** cópia isolada, base conferida verde **antes** de perturbar, e `diff` provando que a perturbação bateu antes de alguém ler o resultado. **As trinta e duas acendem a checagem certa**, e três delas acendem um par ou um trio declarado — que é o que acontece quando duas checagens leem o **mesmo dono** e é mais honesto declarar do que fingir isolamento. Mais dois contra-testes que não podem acender nada, e não acendem.
+> **O arnês de perturbação obedece às três regras:** cópia isolada, base conferida verde **antes** de perturbar, e `diff` provando que a perturbação bateu antes de alguém ler o resultado. **As trinta e três acendem a checagem certa**, e três delas acendem um par ou um trio declarado — que é o que acontece quando duas checagens leem o **mesmo dono** e é mais honesto declarar do que fingir isolamento. *A `33` acrescenta um quarteto: perturbar o teto do atributo da peça 2 acende a `33` junto da `8`, da `18` e da `30`, porque as quatro leem o mesmo dono.* Mais dois contra-testes que não podem acender nada, e não acendem.
 
 - **O teto da Rotina somada**, derivado da peça 6 §4 e nunca lido de constante — a lição nº 8 na forma que já apareceu três vezes.
 - **Dominância entre as três Trilhas**, com a matriz rodando por quantidade de corpos.
@@ -1136,6 +1182,7 @@ Rodada a triagem antes de escrever qualquer coisa:
 > **A queda de `21.502` para `5.429` é da escala, e ela tem nome: paridade.** Com preços de `1` e `2`, quase todo subconjunto fechava o orçamento exato. Com `2 · 3 · 4 · 5 · 7 · 8` num orçamento par, **um número ímpar de itens de preço ímpar nunca fecha** — e por isso três em cada quatro montagens deixam troco. *O que a busca conta é gasto exato; o conjunto de montagens **legais** não caiu na mesma proporção.* **Isso é propriedade da moeda quebrada e não descuido** — e é o preço que a v0.67 aceitou para o degrau de 1 ponto ter granularidade. Se alguma entrada nova puxar esse consumo para cima outra vez, é sinal de que ela não acrescentou eixo, só volume.
 - **A Defesa da invocação lida do §3.3, e o passo dela medido contra o da Defesa do alvo.** A metade da Essência ou da Inteligência do dono é o que faz as duas crescerem no mesmo ritmo; sem ela a invocação vira alvo grátis no fim da campanha. **O teto do atributo sai da peça 2 e nunca daqui**, e o contra-teste é tirar a metade e ver o passo cair — se ele não cair, a checagem estaria passando verde sem o mecanismo que ela existe para conferir.
 - **O dano do `Investir` recomputado dos quatro donos, e conferido nas DUAS publicações** — a tabela do §3.7 e a do capítulo 16 do livro. *A média do dado não fica escrita: ela é derivada da própria âncora do nível 30 que a peça 6 §3 publica*, e a reconstrução tem de reproduzir os quatro pontos daquela peça antes de a tabela valer alguma coisa. **Perturbar a Classe na peça 18, o fator da Rotina na peça 6, a cota, uma célula de qualquer das duas tabelas, ou apagar uma delas, tem de acender.** *E ela confere duas coisas que nenhuma outra confere: que a soma de volta não passa do teto de uma Rotina, e que a perda de arredondamento da `Matilha` nos níveis 2 a 4 está **declarada** em vez de esquecida.*
+- **A CD dos efeitos, e o que a peça e o capítulo 16 têm de escrever igual** *(a `33`, da v0.251)*: **a fórmula sai do molde da peça 1 §5, com o `8` lido de lá e nunca escrito aqui, e é conferida nas três linhas que a publicam** — a tabela do §3.6, a ficha do capítulo 16 e a seção dos efeitos. **O atributo é um só, a CD o guarda, e a arma só mexe no acerto.** **A `Voz` e o `Preito` na CD são calculados nível a nível dos dois textos do capítulo 8**, com a maestria da tabela da peça 1 e o piso de `1`, e a frase de que não somam tem de carregar as faixas que a conta derivou (`+1` do 2 ao 25, `+2` do 26 em diante); *a tabela do §3.6 é conferida linha a linha contra a mesma conta.* **Os números da peça — `13 · 16 · 18 · 20` contra `12 · 15 · 17 · 18`, e o `22` que a soma daria — são derivados dos marcos e do teto da peça 2 e da maestria da peça 1**, e não escritos. **Cada entrada da tabela de Teste de Resistência existe no catálogo, na camada certa, rola um dos quatro da peça 1 §4, é a mesma nas duas publicações, o `Chamariz` rola o mesmo que o `Provocar` do capítulo 2, o `Graúdo` não está nela, e as contagens por extenso saem do catálogo.** **O exemplo da `Carranca` tem a CD recomputada** — `8 + Força + maestria`, na ficha, no passo 5, na seção dos efeitos e no teste do capanga. *Vinte e sete perturbações acendem a etiqueta certa, e três que não podem acender não acendem: reordenar as linhas da tabela de TR, reescrever a nota de decisão e reescrever a abertura da seção.* **Os dois contra-testes são as leituras que a decisão recusou:** a CD seguindo o atributo da arma, a (b) do §3.6, acende a `CD-ATRIBUTO`; e o `Preito` valendo a maestria inteira, o dobro da `Voz`, acende a `CD-VOZ-PREITO`. ***O primeiro achado do arnês foi da própria checagem:*** *a frase "a escolha não muda depois" também existe no parágrafo da Defesa, e apagar a do atributo da CD não acendia nada. Ela ficou ancorada em "um dos cinco, e a escolha não muda depois", que só o parágrafo da CD tem.*
 
 ## 6. O que esta peça destrava
 
