@@ -110,6 +110,48 @@ A Passiva **Mão Firme** cobre os dois, e o manual v7.6 diz isso com todas as le
 
 **O que a regra nova cobra, e o Mizuki ainda não viu:** *nos níveis baixos ela é mais dura que a antiga para quem concentra — `41%` contra `53%` no nível `5`, porque o golpe de chefe ali ainda é pequeno e a CD `10` era fácil.* **E um golpe pequeno de inimigo forte pede o mesmo teste que um golpe grande:** só a `Mão Firme` livra dos golpes de `10` ou menos.
 
+### A duração: `Concentrada` e `Duradoura` — v0.254
+
+> ***Decisão do Mizuki em 19/09/2026 (v0.254).*** *A duração de efeito de estado em combate vira regra mais duas Melhorias, e não Restrição. A Forma `Efeito` fica como está, com a escada dela por Classe.*
+
+**O buraco que isto fecha.** *Condição e buff só duravam uma rodada ou até o fim do próximo turno, e só a `Fica` e o `Anteparo` chegavam a `1` minuto. Não existia duração para o buff ou a condição fora do `Efeito`.*
+
+**As duas Melhorias**, na Família `Tempo` *(aprovado pelo Mizuki em 19/09/2026: uma técnica com `Tempo` Fechada não compra duração; a alternativa era `Fora de família`)*:
+
+- **`Concentrada`** — *Leve.* Os efeitos de estado do feitiço passam a durar o tempo da tabela de duração, e você concentra neles, pela regra deste parágrafo e da CD de quem te feriu.
+- **`Duradoura`** — *Média.* A mesma coisa, sem exigir concentração.
+
+**Escopo: o feitiço inteiro, e só o efeito de ESTADO** *(condição, buff)*. **Não vale para o dano, para a `Fica` nem para o `Anteparo`**, que já têm duração própria. **O feitiço que mistura efeitos de tipos diferentes leva a menor duração entre eles** *(aprovado pelo Mizuki em 19/09/2026)*.
+
+**Quanto custa, em pontos, por Classe** *(o preço de `Leve` e `Média` sai da tabela de Classe do manual)*:
+
+**Preço da duração por Classe**
+
+| | Classe 1 | Classe 2 | Classe 3 | Classe 4 | Classe 5 | Classe 6 | Classe 7 |
+|---|---|---|---|---|---|---|---|
+| `Concentrada` (`Leve`) | `1` | `1` | `2` | `2` | `3` | `3` | `4` |
+| `Duradoura` (`Média`) | `1` | `2` | `3` | `4` | `5` | `6` | `7` |
+| a diferença: o que custa não concentrar | `0` | `1` | `1` | `2` | `2` | `3` | `3` |
+
+***Na Classe 1 as duas custam o mesmo.*** *Como a duração do condição e do buff ofensivo é igual nas duas, ali a `Duradoura` é estritamente melhor, e a `Concentrada` só se distingue no buff defensivo. É consequência da tabela de Classe, e o Mizuki escolheu `Duradoura` como `Média` sabendo disso, por não querer exceção escrita.*
+
+**Quanto dura**
+
+| O que o efeito faz | Concentrada | Duradoura |
+|---|---|---|
+| Condição, buff ofensivo e debuff | 1 minuto | 1 minuto |
+| Buff defensivo numérico: um bônus fixo na Defesa ou num Teste de Resistência (a `Guarda`) | 10 minutos | 1 minuto |
+| Buff defensivo mecânico: resistência, imunidade, pontos de vida ou dividir dano (a `Divide`) | 10 minutos | Classe 1 e 2: 1 hora · Classe 3: 8 horas · Classe 4 em diante: 24 horas |
+
+**Por que esses tempos** *(D&D no 5e.tools em 19/09/2026, com as `557` magias únicas de todas as fontes menos a `AU`, versão 2024 preferida; medido no site, e não reproduzido pelo validador)*:
+
+- ***Com concentração, o nível da magia não explica a duração*** *(correlação de postos `0,02` em `235` magias)*, **e a duração depende do efeito**: as proteções clássicas, como o `Escudo da Fé` (`+2` na CA, e a `Guarda` é ele), duram `10` minutos, e as mais fortes, de 5º círculo em diante, duram `1`.
+- ***Sem concentração, a duração sobe com o nível*** *(`0,36` em `134` magias, `0,64` nas `14` proteções)*: mediana de `1` h nos círculos `1` a `3`, `8` h no `4`, `24` h do `6` ao `8`. **É a escada da `Duradoura`.**
+- ***Bônus numérico de `+2` ou mais nunca dura horas:*** *o `Escudo` é `+5` por uma rodada, o `Escudo da Fé` `+2` por `10` minutos; as duas exceções longas são de número pequeno, o `Vínculo de Proteção` (`+1`, `1` h) e o `Auxílio` (`+5` de PV, `8` h).* **Por isso a `Guarda` numérica não sobe pela escada de horas, e o PV entra no lado mecânico.** ***E a Duradoura da `Guarda` dura MENOS que a Concentrada*** *(ideia do Mizuki): o que ela compra é não concentrar, com o buff cobrindo a luta e não as lutas seguintes.*
+- ***O mapa de Classe é meu:*** *Classe `c` ≈ círculo `2c − 1`, porque o nível que libera a Classe libera esse círculo. A escada `1` h · `8` h · `24` h é a mediana do D&D sem concentração nesse mapa, e o Mizuki aceitou.*
+
+**O que a regra cobra.** *O preço achatado por degrau de tabela é barato para a condição `Leve` e `Média` que dura a luta inteira, e o Mizuki escolheu assim, pelo motivo de não ter exceção.* **A `Duradoura` cobra `1,5×` a `2,0×` o preço da `Concentrada` nas Classes `2` a `7`.**
+
 ## 3.1 A lista de ações
 
 *Escrita na v0.83, e ela é o buraco que o desenho dos Caminhos achou: **esta peça tinha os quatro slots do turno e nenhuma ação nomeada.** `Ajudar` morava na peça 4 §5 sem custo de ação declarado, e nove Trilhas apontavam para uma lista que vivia num documento de desenho.*

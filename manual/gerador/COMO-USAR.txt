@@ -1,4 +1,4 @@
-GERADOR DO MANUAL — Fundamento v7.34
+GERADOR DO MANUAL — Fundamento v7.35
 
 Recria o .docx do zero. Precisa de Node.js.
 
@@ -32,6 +32,18 @@ ORDEM DAS SEÇÕES (v7)
   4 Restrições → 5 Fora de combate → 6 Liberação Máxima → 7 Técnica Máxima →
   8 Regras de ouro → 9 Progressão → 10 Feitiços prontos → 11 Para o mestre →
   Apêndice
+
+O QUE MUDOU NA v7.35
+
+  Entram duas Melhorias, na Familia Tempo, para a duracao do efeito de estado
+  (condicao e buff): a Concentrada (Leve), que exige concentracao, e a
+  Duradoura (Media), que nao exige. O tempo depende do que o efeito faz: 1
+  minuto na condicao e no buff ofensivo; no buff defensivo numerico (a Guarda)
+  10 minutos na Concentrada e 1 na Duradoura; no buff defensivo mecanico (a
+  Divide) 10 minutos na Concentrada e, na Duradoura, 1 hora nas Classes 1 e 2,
+  8 horas na 3 e 24 horas da 4 em diante. Sao sessenta e oito Melhorias. A
+  checagem 8 do conferir-acao deriva o preco por Classe, e a 4n do
+  conferir-manual guarda as copias.
 
 O QUE MUDOU NA v7.34
 

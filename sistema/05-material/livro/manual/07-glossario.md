@@ -83,6 +83,8 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **Forma** | Como o feitiço sai: `Projétil`, `Toque`, `Explosão`, `Aura`, `Cone`, `Linha`, `Cura`, `Apoio`, `Onda`, `Efeito` | 9 |
 | **Melhoria** | O que você compra com ponto. Custa `Leve`, `Média` ou `Pesada` | 9 |
 | **Restrição** | O que você vende para recuperar ponto. Paga Melhoria, **nunca vira dano** | 9 |
+| **`Concentrada`** | Melhoria que faz um efeito de estado durar mais que uma rodada, e exige concentração | 9 |
+| **`Duradoura`** | A mesma Melhoria, sem exigir concentração | 9 |
 | **Família** | Um dos nove grupos de Melhoria. Na criação você fecha duas como Livres e três como Fechadas | 9 |
 | **Selo** | O que você sempre faz para conjurar. Não custa nem devolve ponto | 9 |
 | **Classe 0** | O feitiço grátis: não gasta PE e não ocupa espaço na lista | 9 |

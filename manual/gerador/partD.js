@@ -6,7 +6,7 @@ const CAT = (rows) => TBL(['Melhoria', 'Custo', 'O que faz'], rows, RW, { boldCo
 
 const melhorias = [
   H1('3 · Melhorias'),
-  P('Sessenta e seis Melhorias, em nove Famílias. O preço de cada uma depende da Classe do feitiço em que ela entra: **Leve** custa metade da Classe, **Média** custa a Classe inteiro, **Pesada** custa Classe e meio — sempre arredondando pra cima.'),
+  P('Sessenta e oito Melhorias, em nove Famílias. O preço de cada uma depende da Classe do feitiço em que ela entra: **Leve** custa metade da Classe, **Média** custa a Classe inteiro, **Pesada** custa Classe e meio — sempre arredondando pra cima.'),
   P('Exemplo de leitura: num feitiço de Classe 3, uma Leve custa 2 pontos, uma Média custa 3 e uma Pesada custa 5. Nas suas duas Famílias Livres, tire metade da Classe do preço, com mínimo de 1; nas três Fechadas, não há o que comprar.'),
 
   H2('Alcance'),
@@ -49,7 +49,7 @@ const melhorias = [
 
   H2('Controle'),
   CAT([
-    ['Condição', 'o nível dela', 'Aplica uma das treze condições. O preço é o nível dela — Leve, Média ou Pesada —, na tabela logo abaixo. Dura uma rodada. As de nível Pesada dão Teste de Resistência no fim de cada turno do alvo, e cabe só uma delas por feitiço.'],
+    ['Condição', 'o nível dela', 'Aplica uma das treze condições. O preço é o nível dela — Leve, Média ou Pesada —, na tabela logo abaixo. Dura uma rodada, a não ser que o feitiço tenha a Concentrada ou a Duradoura. As de nível Pesada dão Teste de Resistência no fim de cada turno do alvo, e cabe só uma delas por feitiço.'],
     ['Terreno', 'Leve', 'A área vira terreno difícil, ou fica obscurecida, por uma rodada.'],
     ['Anteparo', 'Média', 'Deixa uma parede ou escudo com 10 × Classe de pontos de vida, por 1 minuto. Ocupa os mesmos quadrados que a Linha da Classe dele, arrumados como você quiser, cada um partilhando um lado com outro. Altura mínima 2 quadrados. Colocado num ponto a até o alcance do feitiço.'],
     ['Prende', 'Média', 'O alvo não sai do lugar até o fim do próximo turno dele. Ele pode gastar uma ação — qualquer uma, menos livre — para tentar um Teste de Resistência e se soltar. O Teste é decidido na criação do feitiço.'],
@@ -59,7 +59,7 @@ const melhorias = [
   ]),
 
   H2('As condições, uma a uma'),
-  P('São treze, e cada uma tem um **nível**: Leve, Média ou Pesada. O nível faz duas coisas ao mesmo tempo — é o **preço** da Melhoria Condição que aplica ela, e é o que custa em energia pra **tirar** ela de alguém (1 ponto por nível). Uma condição dura uma rodada.'),
+  P('São treze, e cada uma tem um **nível**: Leve, Média ou Pesada. O nível faz duas coisas ao mesmo tempo — é o **preço** da Melhoria Condição que aplica ela, e é o que custa em energia pra **tirar** ela de alguém (1 ponto por nível). Uma condição dura uma rodada, a não ser que o feitiço tenha a Concentrada ou a Duradoura.'),
   P('As três tabelas abaixo são as treze separadas por nível. Numa Classe 5, por exemplo, aplicar uma Leve custa 3 pontos, uma Média custa 5 e uma Pesada custa 8.'),
   TBL(['Nível Leve', 'O que faz'],
     [
@@ -138,10 +138,23 @@ const melhorias = [
     ['Silencioso', 'Leve', 'Sem gesto, sem palavra. Usar não revela a sua posição e não exige nenhum sinal. Dispensa Selo de gesto ou de som; Selo de condição, como enxergar o alvo, continua valendo.'],
     ['Adianta', 'Média', 'Se você conjurar antes de qualquer inimigo agir na rodada, +2 na CD.'],
     ['Segura', 'Leve', 'Você pode adiar o efeito por até uma rodada e disparar no seu próximo turno, de graça.'],
+    ['Concentrada', 'Leve', 'Os efeitos de estado do feitiço, que hoje duram uma rodada ou até o fim do próximo turno, passam a durar o tempo da tabela Quanto dura. Exige concentração. Não vale para o dano, para a Fica nem para o Anteparo.'],
+    ['Duradoura', 'Média', 'A mesma coisa que a Concentrada, só que sem exigir concentração, e com o tempo da coluna Duradoura da tabela Quanto dura.'],
   ]),
   BOX(null, [
     'Se você conjurar um feitiço como Ação Bônus ou Reação, o único outro feitiço que cabe naquele turno é de **Classe 0**.',
   ]),
+  GAP(100),
+  P('**Quanto dura.** O tempo depende do que o feitiço faz, e o feitiço inteiro leva a menor duração entre os efeitos dele.'),
+  TBL(['O que o efeito faz', 'Concentrada', 'Duradoura'],
+    [
+      ['Condição, buff ofensivo e debuff', '1 minuto', '1 minuto'],
+      ['Buff defensivo numérico: um bônus fixo na Defesa ou num Teste de Resistência (a Guarda)', '10 minutos', '1 minuto'],
+      ['Buff defensivo mecânico: resistência, imunidade, pontos de vida ou dividir dano (a Divide)', '10 minutos', 'Classe 1 e 2: 1 hora · Classe 3: 8 horas · Classe 4 em diante: 24 horas'],
+    ],
+    [50, 20, 30], { boldCols: [0] }
+  ),
+  GAP(100),
 
   H2('Marca'),
   CAT([

@@ -1161,6 +1161,98 @@ if _ok4m:
 
 
 # --------------------------------------------------------------------------
+# 4n. v0.254: a Concentrada e a Duradoura (as duas Melhorias de duracao, na Familia Tempo).
+# O .docx e' o dono do custo e do texto delas; a peca 3 §3 e' dona da regra, e o
+# conferir-acao.py (checagem 8) deriva o preco por Classe e confere a tabela de duracao contra
+# o .docx. Esta checagem guarda as COPIAS: o capitulo 9 do livro, o texto compilado, o glossario,
+# o capitulo 2, as duas frases da Condicao, e o numero de Melhorias escrito por extenso.
+print()
+print('  4n. a Concentrada e a Duradoura: as copias, e a contagem de Melhorias por extenso')
+
+_ok4n = True
+
+
+def _erro_n(msg):
+    global _ok4n
+    _ok4n = False
+    erro(f'4n: {msg}')
+
+
+_semmd = lambda t: t.replace('**', '').replace('`', '').strip()
+
+# --- o dono: as duas linhas e a tabela de duracao do .docx ---
+_linhas_d, _dur_d, _n_melhorias = {}, [], 0
+for _t in _D.tables:
+    _cab = [c.text.strip() for c in _t.rows[0].cells] if _t.rows else []
+    if _cab[:3] == ['Melhoria', 'Custo', 'O que faz']:
+        _n_melhorias += len(_t.rows) - 1
+        for _r in _t.rows[1:]:
+            _v = [c.text.strip() for c in _r.cells]
+            if _v[0] in ('Concentrada', 'Duradoura'):
+                _linhas_d[_v[0]] = (_v[1], _v[2])
+    elif _cab[:3] == ['O que o efeito faz', 'Concentrada', 'Duradoura']:
+        _dur_d = [[c.text.strip() for c in _r.cells] for _r in _t.rows[1:]]
+if set(_linhas_d) != {'Concentrada', 'Duradoura'} or not _dur_d:
+    _erro_n(f'nao achei no .docx as duas Melhorias ({sorted(_linhas_d)}) ou a tabela de duracao ({len(_dur_d)} linhas)')
+else:
+    # --- o livro (cap. 9) e o texto compilado: linha a linha ---
+    for _onde, _t in (('o capitulo 9 do livro', _le_m('manual', '40-fundamento.md')),
+                      ('o texto compilado do livro', _le_m('Projeto-M-Manual-da-Guilda-TEXTO.md'))):
+        if _t is None:
+            print(f'    ~~ {_onde} nao existe: as copias dele nao foram conferidas')
+            continue
+        _lin = {}
+        for _l in _t.split('\n'):
+            _m = re.match(r'^\|\s*`(Concentrada|Duradoura)`\s*\|\s*`?([^|`]+?)`?\s*\|\s*(.*?)\s*\|\s*$', _l)
+            if _m:
+                _lin[_m.group(1)] = (_m.group(2).strip(), _semmd(_m.group(3)))
+        for _nome, (_custo, _texto) in _linhas_d.items():
+            if _nome not in _lin:
+                _erro_n(f'{_onde} nao tem a linha da `{_nome}`')
+            elif _lin[_nome] != (_custo, _texto):
+                _erro_n(f'{_onde}: a linha da `{_nome}` difere do .docx: {_lin[_nome]} contra {(_custo, _texto)}')
+        # a tabela de duracao
+        _rows = []
+        _ini = _t.find('| O que o efeito faz | Concentrada | Duradoura |')
+        if _ini >= 0:
+            for _l in _t[_ini:].split('\n')[2:]:
+                if not _l.startswith('|'):
+                    break
+                _rows.append([_semmd(c) for c in _l.strip().strip('|').split('|')])
+        if _rows != [[_semmd(x) for x in _r] for _r in _dur_d]:
+            _erro_n(f'{_onde}: a tabela de duracao difere da do .docx: {_rows} contra {_dur_d}')
+    # --- a Condicao diz que a duracao de uma rodada pode ser trocada ---
+    _frase = 'a não ser que o feitiço tenha a Concentrada ou a Duradoura'
+    for _onde, _t in (('o .docx', _docx_m), ('o capitulo 9 do livro', _c9m)):
+        if _t.count(_frase) < 2:
+            _erro_n(f'{_onde} diz "{_frase}" {_t.count(_frase)} vez(es) e a Condicao pede 2 (a linha do catalogo e a frase das condicoes)')
+    # --- o capitulo 2 e o glossario ---
+    if 'A Duradoura faz o mesmo sem pedir concentração.' not in _c2m:
+        _erro_n('o capitulo 2 do livro nao diz "A Duradoura faz o mesmo sem pedir concentracao."')
+    for _nome_gl in ('Concentrada', 'Duradoura'):
+        _gl = re.search(r'\|\s*\*\*`' + _nome_gl + r'`\*\*\s*\|[^|]+\|\s*(\d+)\s*\|', _le_m('manual', '07-glossario.md') or '')
+        if not _gl or _gl.group(1) != '9':
+            _erro_n(f'o glossario nao tem a entrada da `{_nome_gl}` apontando para o capitulo 9')
+    # --- a contagem por extenso ---
+    _U = {'um': 1, 'uma': 1, 'dois': 2, 'duas': 2, 'três': 3, 'quatro': 4, 'cinco': 5, 'seis': 6, 'sete': 7, 'oito': 8, 'nove': 9,
+          'dez': 10, 'onze': 11, 'doze': 12, 'treze': 13, 'catorze': 14, 'quinze': 15, 'dezesseis': 16, 'dezessete': 17,
+          'dezoito': 18, 'dezenove': 19}
+    _Z = {'vinte': 20, 'trinta': 30, 'quarenta': 40, 'cinquenta': 50, 'sessenta': 60, 'setenta': 70, 'oitenta': 80, 'noventa': 90}
+    _mc = re.search(r'([A-Za-zçãéêíóú]+(?: e [a-zçãéêíóú]+)?) Melhorias, em nove Famílias', _docx_m)
+    if not _mc:
+        _erro_n('o .docx parou de escrever por extenso "N Melhorias, em nove Famílias"')
+    else:
+        _pal = _mc.group(1).lower().split(' e ')
+        _val = (_Z.get(_pal[0], 0) + _U.get(_pal[1], 0)) if len(_pal) == 2 else (_U.get(_pal[0]) or _Z.get(_pal[0]))
+        if _val != _n_melhorias:
+            _erro_n(f'o .docx escreve "{_mc.group(1)}" ({_val}) Melhorias e as tabelas do catalogo tem {_n_melhorias} linhas')
+if _ok4n:
+    print(f'    [x] as duas linhas e a tabela de duracao do .docx estao no capitulo 9 e no texto compilado; a Condicao diz que a '
+          f'duracao pode ser trocada; o capitulo 2 e o glossario falam delas; "{_mc.group(1) if _mc else "?"} Melhorias" '
+          f'e o que as tabelas contam ({_n_melhorias}).')
+
+
+# --------------------------------------------------------------------------
 bloco('5. O PORTAO DAS LINHAS DE CONTROLE — quem prende o alvo diz como solta')
 # --------------------------------------------------------------------------
 # v0.151. O `Cerca` passou nove versoes sendo a UNICA linha de Controle que

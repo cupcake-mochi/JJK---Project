@@ -8,6 +8,72 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.254] — 19/09/2026
+
+**A duração do efeito de estado virou regra mais duas Melhorias, a `Concentrada` e a `Duradoura`, e entraram na Família `Tempo`.** *É o item `9` da fila, a metade da duração; a da Concentração fechou na v0.253.* **A Forma `Efeito` fica como está, com a escada dela por Classe.** *A versão começou pela pesquisa de campo que o Mizuki pediu, e cada escolha de desenho passou por pergunta a ele antes de eu escrever.*
+
+### 1 · O que existe agora
+
+***`Concentrada`, `Leve`:*** *os efeitos de estado do feitiço (condição e buff) passam a durar o tempo da tabela `Quanto dura`, e o feitiço exige concentração.* ***`Duradoura`, `Média`:*** *a mesma coisa, sem exigir concentração.* **O escopo é o feitiço inteiro, e só o efeito de estado:** *não vale para o dano, para a `Fica` nem para o `Anteparo`, que já têm duração própria; o feitiço que mistura tipos leva a menor duração.*
+
+| O que o efeito faz | Concentrada | Duradoura |
+|---|---|---|
+| Condição, buff ofensivo e debuff | 1 minuto | 1 minuto |
+| Buff defensivo numérico (a `Guarda`) | 10 minutos | 1 minuto |
+| Buff defensivo mecânico (a `Divide`) | 10 minutos | Classe 1 e 2: 1 h · Classe 3: 8 h · Classe 4 em diante: 24 h |
+
+**O preço em pontos, lido da tabela de Classe do manual:** *`Concentrada` `1 · 1 · 2 · 2 · 3 · 3 · 4`, `Duradoura` `1 · 2 · 3 · 4 · 5 · 6 · 7`, e a `Duradoura` cobra de `1,5×` a `2,0×` a `Concentrada` nas Classes 2 a 7.* ***Na Classe 1 as duas custam o mesmo***, *e ali a `Duradoura` é estritamente melhor no efeito que dura igual nas duas: consequência da tabela, que o Mizuki aceitou por não querer exceção escrita.*
+
+### 2 · O caminho, e o que cada resposta dele mudou
+
+**O preço.** *Eu tinha recomendado `Leve` mais `1` ponto para a `Duradoura`; ele escolheu `Média`, "pra ficar mais fácil de organizar", sem exceção.* **Uma conta de sanidade que fiz depois mostrou o preço achatado barato: supondo o valor da condição linear nas rodadas, a `Concentrada` paga de `26%` a `71%` do valor de deixar a condição durar a luta inteira e a `Duradoura` de `37%` a `65%`.** *Ele foi avisado, viu uma alternativa de degrau (`Média` e `Pesada`), e manteve.*
+
+**Os tempos.** *Ele propôs `1` minuto para buff ofensivo e debuff, `10` para buff defensivo e horas para o efeito narrativo, e pediu para validar no D&D, no 5e.tools em vez de só no PDF dele.* **O 5e.tools foi lido pelo navegador do app, sem baixar arquivo: `557` magias únicas de todas as fontes menos a `AU`, com a versão 2024 preferida.** *Os achados são a §"Por que esses tempos" da peça 3 e o item `9` do `ESTADO`; os que mexeram no desenho foram estes.*
+
+- ***Sem concentração a duração sobe com o nível*** *(correlação de postos `0,36` em `134` magias, `0,64` nas `14` proteções); com concentração o nível não explica nada (`0,02` em `235`).* **Por isso a `Duradoura` escala pela Classe, e a `Concentrada` pelo tipo de efeito.**
+- ***A dúvida dele, "não existe defensivo numérico que dure mais de 1 a 10 minutos", se confirmou com duas exceções:*** *o `Vínculo de Proteção` (`+1`, `1` h) e o `Auxílio` (`+5` de PV, `8` h), as duas de número pequeno. O padrão é "maior o número, menor a duração" (`+5` uma rodada, `+2` dez minutos, `+1` uma hora).*
+- ***Ideias dele que entraram:*** *o PV sai do "numérico" e vai para o "mecânico" (o `Auxílio` mexe em PV e dura horas); e a `Guarda` (que é o `Escudo da Fé`) dura `10` minutos com concentração e `1` sem, e é a `Duradoura` que dura MENOS ali.*
+- ***Duas coisas que a pesquisa contradisse ou não confirmou:*** *o `12` horas da escada dele não existe no PHB, e o mapa Classe ↔ círculo do D&D é uma suposição minha (Classe `c` ≈ círculo `2c − 1`), que ele aceitou.*
+
+**O que o catálogo tem de defensivo:** *só `Guarda` (numérico) e `Divide` (mecânico). Por efeito, nas `33` proteções curadas do D&D, resistência a dano é a maior categoria (`11`), depois imunidade a condição (`8`) e defesa (`6`).* **Resistência a tipo fica registrada como candidata a Melhoria nova, e é peça à parte.**
+
+### 3 · Defaults meus, e ele aprovou os três em 19/09/2026
+
+- **A Família é `Tempo`** *(uma técnica com `Tempo` Fechada não compra duração; a alternativa é `Fora de família`).*
+- **O feitiço que mistura efeitos de tipos diferentes leva a menor duração entre eles.**
+- **Buff ofensivo e debuff duram `1` minuto nas duas Melhorias.**
+
+### 4 · A checagem e o arnês
+
+**`conferir-acao.py`, checagem `8`:** *o custo de cada Melhoria vem da coluna `Custo` do `.docx`, o preço por Classe vem da tabela de Classe do mesmo `.docx`, a tabela `Quanto dura` da peça é comparada célula a célula com a do `.docx`, as Classes em que as duas custam o mesmo saem da conta (e a peça tem de declarar exatamente essas), a razão `1,5×` a `2,0×` sai da divisão dos dois preços, a escada de horas cobre todas as Classes sem buraco e sobe, e as duas moram na tabela da `Segura`, que é a da Família `Tempo`.* **`conferir-manual.py`, checagem `4n`:** *as duas linhas e a tabela no capítulo 9 e no texto compilado, a frase da `Condição` nas duas cópias, o capítulo 2, o glossário, e "sessenta e oito Melhorias" contra as `68` linhas do catálogo.*
+
+**O arnês rodou numa cópia isolada, com a base verde e sem `PULADA`: `24` perturbações acendem a etiqueta certa e `5` que não podem acender ficam verdes.** ***O arnês achou defeito na própria checagem:*** *a `4n` reaproveitava o auxiliar da `4m`, e uma perturbação do capítulo 2 acendia com a etiqueta `4m`; ela passou a usar o próprio.* **Duas falhas do arnês foram das perturbações** *(uma trocava texto que o `.docx` guarda em duas células, e outra não mudava nada), e por isso o arnês confere por `diff` se a perturbação mudou o arquivo.*
+
+**E o `conferir-voz.py` reprovou duas linhas minhas:** *"a tabela abaixo" cita tabela sem nome próprio. Passou a dizer `Quanto dura`.*
+
+### Alterado
+
+- **Manual `v7.35`:** *`partD.js` (as duas linhas, a tabela `Quanto dura`, as duas frases da `Condição` e a contagem de Melhorias, `68`), `partA.js`, os dois `COMO-USAR.txt`, e o `.docx` e o `.pdf` regerados (`50` páginas, uma a mais que na v7.34).*
+- **Livro:** *o capítulo 9 (as duas linhas e a tabela `Quanto dura`, na Família `Tempo`), o capítulo 2 (uma frase) e o glossário (uma entrada); os quatro artefatos refeitos.*
+- **Peça 3:** *a subseção `A duração: Concentrada e Duradoura`, com a decisão, as duas Melhorias, as duas tabelas e a pesquisa.* **`conferir-acao.py`** *(checagem `8`)*, **`conferir-manual.py`** *(checagem `4n`)*.
+- **`README`, `LEIA-ME`, `ESTADO-ATUAL` e `arquitetura`:** *as versões (projeto `v0.254`, manual `v7.35`), o item `9` (fechado) e o item `8` (Força e peso, registrado).*
+
+### Decidido
+
+- **A duração é `Concentrada` (`Leve`, com concentração) e `Duradoura` (`Média`, sem), na Família `Tempo`, com o tempo pelo tipo de efeito.**
+- **A `Duradoura` do buff mecânico sobe pela escada `1` h · `8` h · `24` h por Classe; a do buff numérico (`Guarda`) dura `1` minuto.**
+- **A escada de duração da Forma `Efeito` não muda.**
+
+### Continua aberto
+
+- **Força e peso (item `8`), com as decisões já registradas no `ESTADO`:** *Volume `5 + Força` a `12` kg por Volume (limite de `60` a `132` kg, arrastar e levantar é o dobro), o peso só para o limite de carga e para os requisitos, o requisito de Força independente do Volume, e o Estigma sem sintonização, com o apoio em `2` e a arma sem limite de quantidade.* **Falta escrever, e é o maior item: o Volume de cada uma das `52` armas e dos uniformes, a peça 16, o capítulo 55 do livro, e as checagens `6` e `16` do `conferir-ferramenta` e a `11` do `conferir-marcial`.**
+- **Ritual (item `11`), a Melhoria de resistência a tipo (candidata nova), e a Melhoria `Alvo de Caça`, o buff de dano, o Hex do nosso sistema (item `12`: nome e dado fixo decididos por ele e validados no `ESTADO`, com um erro meu de conta corrigido no caminho).**
+- **O que já estava aberto:** *o custo da Concentração nos níveis baixos (`41%` contra `53%` no nível `5`), a ficha (`Claude 3`) para as duas versões, a remodelagem das invocações e do Evocador, e o `maestria(nv)` do `conferir-invocacoes.py`.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, item `8` da seção *"Problemas de design abertos"* (Força e peso).
+
+---
+
 ## [0.253] — 19/09/2026
 
 **A Concentração passa a rolar Vigor contra a CD de quem te feriu, e não mais contra `10` ou metade do dano.** *É o item `9` da fila, a metade que era da regra; a metade da duração longa segue aberta e é a v0.254.* **O `Carregar` usa a mesma CD, e a corrida de domínios virou a mesma rolagem, só com a contagem trocada.** *O Mizuki tinha dado as decisões de boca, então a primeira coisa da versão foi registrá-las no `ESTADO-ATUAL` (item `9`), e só depois a regra foi mexida.*

@@ -399,7 +399,8 @@ _p1_7 = open(os.path.join(AQUI, '01-atributos-acerto-defesa.md'), encoding='utf-
 _p26_7 = open(os.path.join(AQUI, '26-bestiario.md'), encoding='utf-8').read()
 
 _i7 = _p3_7.find('### A CD de quem te feriu')
-_sec7 = _p3_7[_i7:_p3_7.find('\n## ', _i7)] if _i7 >= 0 else ''
+_fim7 = _re7.search(r'\n#{2,3} ', _p3_7[_i7 + 5:]) if _i7 >= 0 else None
+_sec7 = _p3_7[_i7:_i7 + 5 + _fim7.start()] if (_i7 >= 0 and _fim7) else ''
 _par7 = _re7.search(r'^\*\*Concentração\.\*\*.*', _p3_7, _re7.M)
 _par7 = _par7.group(0) if _par7 else ''
 
@@ -666,6 +667,139 @@ else:
     if _faltas7 == 0 and _ok7:
         print(f'  [x] a regra esta no paragrafo, a regra antiga saiu, as duas tabelas e os numeros da prosa '
               f'saem dos donos (CD da peca 26 §3.1, maestria da peca 1 §2, dado d{_D}).')
+
+print()
+print('=' * 92)
+print('8. A DURACAO — Concentrada e Duradoura: o preco sai da tabela de Classe do manual, e a tabela de duracao e a do .docx')
+print('=' * 92)
+# v0.254 (decisao do Mizuki, 19/09/2026). A duracao do efeito de estado vira duas Melhorias na
+# Familia Tempo: a Concentrada e a Duradoura. NADA de valor mora aqui:
+#   - o custo de cada uma (Leve ou Media) e a coluna `Custo` do .docx, que e o dono;
+#   - o preco em pontos por Classe sai da tabela de Classe do .docx (colunas Leve, Media, Pesada);
+#   - as tres linhas da tabela `Quanto dura` da peca 3 sao comparadas celula a celula com a do .docx;
+#   - as Classes em que as duas custam o mesmo saem da conta, e a peca tem de declarar exatamente essas;
+#   - a razao `1,5x a 2,0x` da prosa sai da divisao dos dois precos nas Classes que ela nomeia.
+import re as _re8
+_i8 = _p3_7.find('### A duração: `Concentrada` e `Duradoura`')
+_f8 = _re8.search(r'\n#{2,3} ', _p3_7[_i8 + 5:]) if _i8 >= 0 else None
+_sec8 = _p3_7[_i8:_i8 + 5 + _f8.start()] if (_i8 >= 0 and _f8) else ''
+_falhas8 = 0
+try:
+    import docx as _dx8
+except ImportError:
+    _dx8 = None
+if not _sec8:
+    erro('8: nao achei a subsecao "A duracao: Concentrada e Duradoura" da peca 3')
+elif _dx8 is None or not os.path.isfile(_DOCX):
+    print('  PULADA: sem python-docx (ou sem o .docx) nao da para ler o dono do custo e da tabela de duracao.')
+else:
+    _doc8 = _dx8.Document(_DOCX)
+    _classe8, _custo8, _dur8 = {}, {}, []
+    for _t in _doc8.tables:
+        _cab = [c.text.strip() for c in _t.rows[0].cells] if _t.rows else []
+        if _cab[:6] == ['Classe', 'Nível', 'Pontos e PE', 'Leve', 'Média', 'Pesada']:
+            for _r in _t.rows[1:]:
+                _v = [c.text.strip() for c in _r.cells]
+                if _v[0].isdigit():
+                    _classe8[int(_v[0])] = {'Leve': int(_v[3]), 'Média': int(_v[4]), 'Pesada': int(_v[5])}
+        elif _cab[:3] == ['Melhoria', 'Custo', 'O que faz']:
+            for _r in _t.rows[1:]:
+                _v = [c.text.strip() for c in _r.cells]
+                if _v[0] in ('Concentrada', 'Duradoura'):
+                    _custo8[_v[0]] = (_v[1], _v[2])
+        elif _cab[:3] == ['O que o efeito faz', 'Concentrada', 'Duradoura']:
+            _dur8 = [[c.text.strip() for c in _r.cells] for _r in _t.rows[1:]]
+    if not (_classe8 and set(_custo8) == {'Concentrada', 'Duradoura'} and _dur8):
+        erro(f'8: nao li do .docx a tabela de Classe ({len(_classe8)}), as duas Melhorias ({sorted(_custo8)}) '
+             f'ou a tabela de duracao ({len(_dur8)} linhas)')
+    else:
+        _tier = {k: v[0] for k, v in _custo8.items()}
+        if any(t not in ('Leve', 'Média', 'Pesada') for t in _tier.values()):
+            _falhas8 += 1
+            erro(f'8: o custo de uma das duas Melhorias nao e um degrau da tabela de Classe: {_tier}')
+        else:
+            _cls = sorted(_classe8)
+            _A = {c: _classe8[c][_tier['Concentrada']] for c in _cls}
+            _B = {c: _classe8[c][_tier['Duradoura']] for c in _cls}
+            # --- a tabela de preco da peca ---
+            _cab8, _tb8 = _tabela_apos7(_sec8, '**Preço da duração por Classe**')
+            _niv8 = [int(_x.split()[-1]) for _x in (_cab8 or [])[1:]]
+            if not _tb8 or _niv8 != _cls:
+                _falhas8 += 1
+                erro(f'8: a tabela "Preco da duracao por Classe" da peca nao cobre as Classes do manual: '
+                     f'{_niv8} contra {_cls}')
+            else:
+                _linhas = {}
+                for _rot, _cels in _tb8.items():
+                    _linhas['dif' if _rot.startswith('a diferença') else ('A' if _rot.startswith('Concentrada') else 'B')] = (_rot, [int(_x) for _x in _cels])
+                _esp = {'A': [_A[c] for c in _cls], 'B': [_B[c] for c in _cls], 'dif': [_B[c] - _A[c] for c in _cls]}
+                for _k in ('A', 'B', 'dif'):
+                    if _k not in _linhas or _linhas[_k][1] != _esp[_k]:
+                        _falhas8 += 1
+                        erro(f'8: a linha "{_linhas.get(_k, ("?",))[0]}" da tabela de preco da peca publica '
+                             f'{_linhas.get(_k, (0, None))[1]} e o manual da {_esp[_k]}')
+                for _k, _nome in (('A', 'Concentrada'), ('B', 'Duradoura')):
+                    if _k in _linhas and f'({_tier[_nome]})' not in _linhas[_k][0]:
+                        _falhas8 += 1
+                        erro(f'8: o rotulo "{_linhas[_k][0]}" da peca nao diz o degrau que o manual da a {_nome}: {_tier[_nome]}')
+            # --- as Classes em que as duas custam o mesmo ---
+            _empate = [c for c in _cls if _A[c] == _B[c]]
+            _decl = [int(x) for x in _re8.findall(r'Na Classe (\d+) as duas custam o mesmo', _sec8)]
+            if sorted(_decl) != _empate:
+                _falhas8 += 1
+                erro(f'8: as Classes em que as duas custam o mesmo, pelo manual, sao {_empate}, e a peca declara {sorted(_decl)}')
+            # --- a razao da prosa ---
+            _mr = _re8.search(r'cobra `(\d+,\d+)×` a `(\d+,\d+)×` o preço da `Concentrada` nas Classes `(\d+)` a `(\d+)`', _sec8)
+            if not _mr:
+                _falhas8 += 1
+                erro('8: a prosa parou de dizer "cobra X a Y o preco da Concentrada nas Classes N a M"')
+            else:
+                _lo, _hi, _c1, _c2 = float(_mr.group(1).replace(',', '.')), float(_mr.group(2).replace(',', '.')), int(_mr.group(3)), int(_mr.group(4))
+                _rz = [_B[c] / _A[c] for c in _cls if _c1 <= c <= _c2]
+                if not _rz or (round(min(_rz), 1), round(max(_rz), 1)) != (_lo, _hi):
+                    _falhas8 += 1
+                    erro(f'8: a prosa diz {_lo}x a {_hi}x nas Classes {_c1} a {_c2}, e o manual da '
+                         f'{round(min(_rz), 1) if _rz else None}x a {round(max(_rz), 1) if _rz else None}x')
+            # --- a tabela de duracao: peca contra o .docx ---
+            _cabd, _tbd = _tabela_apos7(_sec8, '**Quanto dura**')
+            _pdur = [[_limpa7(_r)] + [_limpa7(x) for x in _c] for _r, _c in _tbd.items()]
+            _ddur = [[_limpa7(x) for x in _r] for _r in _dur8]
+            if _pdur != _ddur:
+                _falhas8 += 1
+                erro(f'8: a tabela "Quanto dura" da peca difere da do .docx: {_pdur} contra {_ddur}')
+            # --- a escada de horas cobre toda Classe, sem buraco, e sobe ---
+            _ult = _ddur[-1][2] if _ddur else ''
+            _pedacos = _re8.findall(r'Classe (\d+)(?: e (\d+)| em diante)?: (\d+) (hora|horas)', _ult)
+            _cob, _dmin = {}, []
+            _un = {'hora': 60, 'horas': 60}
+            for _a, _b, _n, _u in _pedacos:
+                _a = int(_a)
+                _ate = int(_b) if _b else (_cls[-1] if 'em diante' in _ult.split(f'Classe {_a}')[1].split(':')[0] else _a)
+                for c in range(_a, _ate + 1):
+                    _cob[c] = int(_n) * _un[_u]
+                _dmin.append(int(_n) * _un[_u])
+            if sorted(_cob) != _cls or _dmin != sorted(_dmin) or len(set(_dmin)) != len(_dmin):
+                _falhas8 += 1
+                erro(f'8: a escada de horas da Duradoura mecanica nao cobre as Classes {_cls} sem buraco, ou nao sobe: {_cob}')
+            # --- concentracao: so a Concentrada exige ---
+            _txt = {}
+            for _t in _doc8.tables:
+                for _r in _t.rows:
+                    _v = [c.text.strip() for c in _r.cells]
+                    if _v[0] in ('Concentrada', 'Duradoura') and len(_v) >= 3:
+                        _txt[_v[0]] = _v[2]
+            if 'Exige concentração' not in _txt.get('Concentrada', '') or 'sem exigir concentração' not in _txt.get('Duradoura', ''):
+                _falhas8 += 1
+                erro('8: o .docx nao diz "Exige concentracao" na Concentrada e "sem exigir concentracao" na Duradoura')
+            # --- a Familia: as duas moram na mesma tabela da Segura (Tempo) ---
+            _tempo = [t for t in _doc8.tables if any(r.cells[0].text.strip() == 'Segura' for r in t.rows)]
+            if not _tempo or not all(any(r.cells[0].text.strip() == n for r in _tempo[0].rows) for n in ('Concentrada', 'Duradoura')):
+                _falhas8 += 1
+                erro('8: a Concentrada e a Duradoura nao estao na mesma tabela da Segura, que e a da Familia Tempo')
+            if _falhas8 == 0:
+                print(f'  [x] a Concentrada e {_tier["Concentrada"]} e a Duradoura e {_tier["Duradoura"]} (do .docx); os precos por Classe {_esp["A"]} e {_esp["B"]} '
+                      f'saem da tabela de Classe; empate nas Classes {_empate}; a tabela "Quanto dura" bate com o .docx; '
+                      f'a escada de horas cobre as Classes {_cls[0]} a {_cls[-1]} e sobe.')
 
 print()
 print('=' * 92)

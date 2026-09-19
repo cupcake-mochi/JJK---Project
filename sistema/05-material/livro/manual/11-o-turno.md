@@ -137,6 +137,8 @@ Alguns efeitos exigem que você mantenha a atenção neles enquanto duram: a bar
 
 **Dano de 10 ou menos não pede o teste** para quem tem a Passiva `Mão Firme`.
 
+Quem monta um feitiço com a Melhoria `Concentrada` põe o efeito de estado dele no ar por mais tempo, e passa a concentrar nele. A `Duradoura` faz o mesmo sem pedir concentração. As duas estão no capítulo 9, na Família `Tempo`.
+
 > **Exemplo.** A CD da maldição é 14. O Kaito está concentrando num efeito e ela o acerta duas vezes na rodada. Ele faz dois Testes de Resistência de Vigor contra 14, um por golpe. Se falhar em qualquer um dos dois, o efeito cai.
 
 **Na corrida entre dois domínios a rolagem é a mesma, com a contagem trocada.** A regra está no capítulo 40, na seção *Domínios sobrepostos*.

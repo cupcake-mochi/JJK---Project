@@ -139,6 +139,8 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **Forma** | Como o feitiço sai: `Projétil`, `Toque`, `Explosão`, `Aura`, `Cone`, `Linha`, `Cura`, `Apoio`, `Onda`, `Efeito` | 9 |
 | **Melhoria** | O que você compra com ponto. Custa `Leve`, `Média` ou `Pesada` | 9 |
 | **Restrição** | O que você vende para recuperar ponto. Paga Melhoria, **nunca vira dano** | 9 |
+| **`Concentrada`** | Melhoria que faz um efeito de estado durar mais que uma rodada, e exige concentração | 9 |
+| **`Duradoura`** | A mesma Melhoria, sem exigir concentração | 9 |
 | **Família** | Um dos nove grupos de Melhoria. Na criação você fecha duas como Livres e três como Fechadas | 9 |
 | **Selo** | O que você sempre faz para conjurar. Não custa nem devolve ponto | 9 |
 | **Classe 0** | O feitiço grátis: não gasta PE e não ocupa espaço na lista | 9 |
@@ -892,6 +894,8 @@ Alguns efeitos exigem que você mantenha a atenção neles enquanto duram: a bar
 **A CD é a de quem te feriu**, a que ele usa para o que faz. Num feitiço, é a CD do feitiço dele: `8 + o atributo + a maestria`. Num golpe de arma ou desarmado, é a mesma conta com o atributo do ataque. Num inimigo, é a CD que a ficha dele diz. **Cada golpe que te acerta é um teste**, mesmo que sejam vários na mesma rodada. Se o dano não tem autor (uma queda, uma armadilha), o mestre escolhe a CD na escada de dificuldade do capítulo 1, *Como Jogar*.
 
 **Dano de 10 ou menos não pede o teste** para quem tem a Passiva `Mão Firme`.
+
+Quem monta um feitiço com a Melhoria `Concentrada` põe o efeito de estado dele no ar por mais tempo, e passa a concentrar nele. A `Duradoura` faz o mesmo sem pedir concentração. As duas estão no capítulo 9, na Família `Tempo`.
 
 > **Exemplo.** A CD da maldição é 14. O Kaito está concentrando num efeito e ela o acerta duas vezes na rodada. Ele faz dois Testes de Resistência de Vigor contra 14, um por golpe. Se falhar em qualquer um dos dois, o efeito cai.
 
@@ -3798,7 +3802,7 @@ O inimigo sai da luta sem cair morto: no chão, preso, ou lutando contra o próp
 **Controle**
 | Melhoria | Custo | O que faz |
 |---|---|---|
-| `Condição` | o nível dela | Aplica uma das treze condições. O preço é o nível dela (`Leve`, `Média` ou `Pesada`), e a seção *Condições* traz as três listas. Dura uma rodada. As de nível `Pesada` dão Teste de Resistência no fim de cada turno do alvo, e só pode ser colocada uma delas por feitiço. |
+| `Condição` | o nível dela | Aplica uma das treze condições. O preço é o nível dela (`Leve`, `Média` ou `Pesada`), e a seção *Condições* traz as três listas. Dura uma rodada, a não ser que o feitiço tenha a `Concentrada` ou a `Duradoura`. As de nível `Pesada` dão Teste de Resistência no fim de cada turno do alvo, e só pode ser colocada uma delas por feitiço. |
 | `Terreno` | `Leve` | A área vira terreno difícil, ou fica obscurecida, por uma rodada. |
 | `Anteparo` | `Média` | Deixa uma parede ou escudo com 10 × Classe de pontos de vida, por 1 minuto. Ocupa os mesmos quadrados que a `Linha` da Classe dele, arrumados como você quiser, cada um partilhando um lado com outro. Altura mínima 2 quadrados. Colocado num ponto a até o alcance do feitiço. |
 | `Prende` | `Média` | O alvo não sai do lugar até o fim do próximo turno dele. Ele pode gastar uma ação — qualquer uma, menos livre — para tentar um Teste de Resistência e se soltar. O Teste é decidido na criação do feitiço. |
@@ -3808,7 +3812,7 @@ O inimigo sai da luta sem cair morto: no chão, preso, ou lutando contra o próp
 
 ### Condições
 
-São treze, e cada uma tem um **nível**: `Leve`, `Média` ou `Pesada`. O nível faz duas coisas ao mesmo tempo. Ele é o **preço** da Melhoria `Condição` que aplica ela, e é o que custa em energia para **tirar** ela de alguém (1 ponto por nível). Uma condição dura uma rodada.
+São treze, e cada uma tem um **nível**: `Leve`, `Média` ou `Pesada`. O nível faz duas coisas ao mesmo tempo. Ele é o **preço** da Melhoria `Condição` que aplica ela, e é o que custa em energia para **tirar** ela de alguém (1 ponto por nível). Uma condição dura uma rodada, a não ser que o feitiço tenha a `Concentrada` ou a `Duradoura`.
 
 Numa Classe 5, aplicar uma `Leve` custa 3 pontos, uma `Média` custa 5 e uma `Pesada` custa 8.
 
@@ -3882,8 +3886,19 @@ Aqui você compra o momento do feitiço: mais rápido que o normal, disparado es
 | `Silencioso` | `Leve` | Sem gesto, sem palavra. Usar não revela a sua posição e não exige nenhum sinal. Dispensa Selo de gesto ou de som; Selo de condição, como enxergar o alvo, continua valendo. |
 | `Adianta` | `Média` | Se você conjurar antes de qualquer inimigo agir na rodada, +2 na CD. |
 | `Segura` | `Leve` | Você pode adiar o efeito por até uma rodada e disparar no seu próximo turno, de graça. |
+| `Concentrada` | `Leve` | Os efeitos de estado do feitiço, que hoje duram uma rodada ou até o fim do próximo turno, passam a durar o tempo da tabela `Quanto dura`. Exige concentração. Não vale para o dano, para a `Fica` nem para o `Anteparo`. |
+| `Duradoura` | `Média` | A mesma coisa que a `Concentrada`, só que sem exigir concentração, e com o tempo da coluna `Duradoura` da tabela `Quanto dura`. |
 
 > Se você conjurar um feitiço como Ação Bônus ou Reação, o único outro feitiço que cabe naquele turno é de **Classe 0**.
+
+O tempo depende do que o feitiço faz, e o feitiço inteiro leva a menor duração entre os efeitos dele.
+
+**Quanto dura**
+| O que o efeito faz | Concentrada | Duradoura |
+|---|---|---|
+| Condição, buff ofensivo e debuff | 1 minuto | 1 minuto |
+| Buff defensivo numérico: um bônus fixo na Defesa ou num Teste de Resistência (a `Guarda`) | 10 minutos | 1 minuto |
+| Buff defensivo mecânico: resistência, imunidade, pontos de vida ou dividir dano (a `Divide`) | 10 minutos | Classe 1 e 2: 1 hora · Classe 3: 8 horas · Classe 4 em diante: 24 horas |
 
 ### Marca
 
@@ -6860,4 +6875,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: 584b671408d581839846e1c61dc6a95f22e0ba7c -->
+<!-- fonte: ed698482bfaf68687dc62042e33fc0e9581e23e8 -->
