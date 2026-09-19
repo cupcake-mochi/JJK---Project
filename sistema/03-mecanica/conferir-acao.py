@@ -21,6 +21,7 @@ E, desde a v0.253, a checagem 7: a Concentracao rola Vigor contra a CD de quem
 feriu, e as duas tabelas e os numeros da prosa da peca 3 saem dos donos.
 """
 import itertools
+import math
 import os
 import sys
 
@@ -800,6 +801,261 @@ else:
                 print(f'  [x] a Concentrada e {_tier["Concentrada"]} e a Duradoura e {_tier["Duradoura"]} (do .docx); os precos por Classe {_esp["A"]} e {_esp["B"]} '
                       f'saem da tabela de Classe; empate nas Classes {_empate}; a tabela "Quanto dura" bate com o .docx; '
                       f'a escada de horas cobre as Classes {_cls[0]} a {_cls[-1]} e sobe.')
+
+print()
+print('=' * 92)
+print('9. O BUFF DE DANO — `Alvo de Caca`: a Familia, o preco e as tres tabelas da peca 3')
+print('=' * 92)
+# v0.255 (decisao do Mizuki, 19/09/2026). A Melhoria `Alvo de Caca` entra na Familia `Marca`
+# e da `1d4` por acerto contra o alvo marcado (`1d8` com o `Rapido`). NADA de valor mora aqui:
+#   - o custo dela, do `Rapido` e da `Concentrada` .. a coluna `Custo` do .docx;
+#   - a Familia ..................................... a tabela do .docx onde a linha mora
+#                                                     (a mesma da `Marca`);
+#   - o preco em pontos por Classe .................. a tabela de Classe do .docx;
+#   - o desconto de Familia Livre ................... a frase "tire metade da Classe do preco,
+#                                                     com minimo de 1" do .docx, aplicada sobre
+#                                                     a coluna `Leve` da mesma tabela;
+#   - o limite de Melhorias por Classe .............. a tabela `Quantas Melhorias cabem`;
+#   - a Rotina ...................................... a coluna `Rotina` da tabela `A curva`;
+#   - os tiros da `Rajada` .......................... o texto da linha da `Rajada` no .docx;
+#   - a duracao da luta ............................. a banda da peca 1 §8, e esta checagem usa
+#                                                     o MEIO dela (expectativa), enquanto o
+#                                                     conferir-aptidoes usa o topo (pior caso);
+#   - os golpes por rodada do fisico ................ a peca 6 §3.1 (o ataque extra do nivel 7).
+# O cenario (quantos golpes cada coluna cobre) e' lido dos ROTULOS da peca e conferido pela
+# RELACAO entre eles, e nao escrito aqui: a coluna da `Concentrada` tem de ser a luta menos a
+# rodada em que se marcou, e a do `Rapido` tem de ser duas rodadas de ataque.
+_i9 = _p3_7.find('### O buff de dano: `Alvo de Caça`')
+_f9 = _re8.search(r'\n#{2,3} ', _p3_7[_i9 + 5:]) if _i9 >= 0 else None
+_sec9 = _p3_7[_i9:_i9 + 5 + _f9.start()] if (_i9 >= 0 and _f9) else ''
+_p6_9 = open(os.path.join(AQUI, '06-caminhos-e-trilhas.md'), encoding='utf-8').read()
+_falhas9 = 0
+
+
+def _erro9(msg):
+    global _falhas9
+    _falhas9 += 1
+    erro('9: ' + msg)
+
+
+def _num9(s):
+    return float(s.replace('%', '').replace(',', '.'))
+
+
+if not _sec9:
+    erro('9: nao achei a subsecao "O buff de dano: Alvo de Caça" da peca 3')
+elif _dx8 is None or not os.path.isfile(_DOCX):
+    print('  PULADA: sem python-docx (ou sem o .docx) nao da para ler o dono do custo, da Familia e da Rotina.')
+else:
+    _doc9 = _dx8.Document(_DOCX)
+    _classe9, _custo9, _lim9, _rot9, _fam9, _tiros9 = {}, {}, {}, {}, None, None
+    for _t in _doc9.tables:
+        _cab = [c.text.strip() for c in _t.rows[0].cells] if _t.rows else []
+        if _cab[:6] == ['Classe', 'Nível', 'Pontos e PE', 'Leve', 'Média', 'Pesada']:
+            for _r in _t.rows[1:]:
+                _v = [c.text.strip() for c in _r.cells]
+                if _v[0].isdigit():
+                    _classe9[int(_v[0])] = {'Leve': int(_v[3]), 'Média': int(_v[4]), 'Pesada': int(_v[5]),
+                                            'pontos': int(_v[2])}
+        elif _cab[:3] == ['Classe do feitiço', 'Melhorias', 'Restrições']:
+            for _r in _t.rows[1:]:
+                _v = [c.text.strip() for c in _r.cells]
+                _mf = _re8.match(r'(\d+)(?: e (\d+))?(?: em diante)?$', _v[0])
+                if _mf:
+                    _lim9[int(_mf.group(1))] = (int(_v[1]), 'em diante' in _v[0])
+                    if _mf.group(2):
+                        _lim9[int(_mf.group(2))] = (int(_v[1]), False)
+        elif _cab[:3] == ['Nível', 'Classe', 'Rotina']:
+            for _r in _t.rows[1:]:
+                _v = [c.text.strip() for c in _r.cells]
+                _mr = _re8.search(r'=\s*(\d+)\s*$', _v[2])
+                if _v[1].isdigit() and _mr:
+                    _rot9[int(_v[1])] = int(_mr.group(1))
+        elif _cab[:3] == ['Melhoria', 'Custo', 'O que faz']:
+            _nomes = [_r.cells[0].text.strip() for _r in _t.rows]
+            for _r in _t.rows[1:]:
+                _v = [c.text.strip() for c in _r.cells]
+                if _v[0] in ('Alvo de Caça', 'Rápido', 'Concentrada', 'Rajada', 'Marca'):
+                    _custo9[_v[0]] = (_v[1], _v[2])
+                if _v[0] == 'Alvo de Caça':
+                    _fam9 = _nomes
+                if _v[0] == 'Rajada':
+                    _mt = _re8.search(r'\(Classe \+ (\d+)\) tiros', _v[2])
+                    _tiros9 = int(_mt.group(1)) if _mt else None
+    _cls9 = sorted(_classe9)
+    _docx_a9 = '\n'.join(_p.text for _p in _doc9.paragraphs)
+    # o desconto de Familia Livre sai da frase do .docx, e nao de uma conta escrita aqui
+    _livre9 = 'tire metade da Classe do preço, com mínimo de 1' in _docx_a9
+    if not (_classe9 and _lim9 and _rot9 and _fam9 and _tiros9 and
+            {'Alvo de Caça', 'Rápido', 'Concentrada'} <= set(_custo9)):
+        _erro9(f'nao li os donos no .docx — Classe ({len(_classe9)}), limite ({len(_lim9)}), '
+               f'Rotina ({len(_rot9)}), a tabela da Familia ({bool(_fam9)}), os tiros da Rajada '
+               f'({_tiros9}) ou as tres Melhorias ({sorted(_custo9)})')
+    elif not _livre9:
+        _erro9('o .docx parou de dizer "tire metade da Classe do preco, com minimo de 1" — '
+               'sem essa frase a linha de Familia Livre da peca nao tem de onde ser derivada')
+    else:
+        _tA = _custo9['Alvo de Caça'][0]
+        _txtA = _custo9['Alvo de Caça'][1]
+        _pA = {c: _classe9[c][_tA] for c in _cls9}
+        _pR = {c: _classe9[c][_custo9['Rápido'][0]] for c in _cls9}
+        _pC = {c: _classe9[c][_custo9['Concentrada'][0]] for c in _cls9}
+        # --- a Familia: a linha mora na mesma tabela da `Marca` ---
+        if 'Marca' not in _fam9:
+            _erro9(f'a linha do `Alvo de Caça` nao esta na tabela da Familia `Marca`: {_fam9}')
+        # --- o texto da linha diz o que a regra promete ---
+        for _pedaco in ('1d4', '1d8', 'Rápido', 'cada tiro da Rajada', 'Não entram',
+                        'Um alvo marcado por vez'):
+            if _pedaco not in _txtA:
+                _erro9(f'a linha do `Alvo de Caça` no .docx nao diz "{_pedaco}"')
+        # --- a regua: 1 ponto = 1 dado, e a media sai das FACES lidas do texto ---
+        _mreg = _re8.search(r'`1` ponto compra `1d(\d+)`, que é `([\d,]+)` de dano cheio', _sec9)
+        _mfac = _re8.search(r'cada ataque seu que acertar ele causa `1d(\d+)`', _sec9)
+        if not _mreg or not _mfac:
+            _erro9('a peca parou de declarar a regua ("1 ponto compra 1dN, que e X de dano cheio") '
+                   'ou o dado do buff')
+        else:
+            _F8, _F4 = int(_mreg.group(1)), int(_mfac.group(1))
+            _D8_9, _D4_9 = (_F8 + 1) / 2.0, (_F4 + 1) / 2.0
+            if abs(_D8_9 - _num9(_mreg.group(2))) > 1e-9:
+                _erro9(f'a peca diz que `1d{_F8}` e {_mreg.group(2)} de dano cheio, e a media de '
+                       f'1d{_F8} e {_D8_9}')
+            # --- a luta: o MEIO da banda da peca 1 ---
+            _mb = _re8.search(r'A previsão atual é ([\d,]+) a ([\d,]+) rodadas', _p1_7)
+            _mp = _re8.search(r'A luta é de `([\d,]+)` rodadas — o meio da banda de `([\d,]+)` a `([\d,]+)`', _sec9)
+            if not _mb or not _mp:
+                _erro9('nao achei a banda de rodadas na peca 1 §8, ou a peca 3 parou de dizer que '
+                       'usa o meio dela')
+            else:
+                _lo9, _hi9 = _num9(_mb.group(1)), _num9(_mb.group(2))
+                _LUTA9 = round((_lo9 + _hi9) / 2, 1)
+                if (_num9(_mp.group(2)), _num9(_mp.group(3))) != (_lo9, _hi9):
+                    _erro9(f'a peca 3 cita a banda {_mp.group(2)} a {_mp.group(3)} e a peca 1 §8 '
+                           f'publica {_mb.group(1)} a {_mb.group(2)}')
+                elif abs(_num9(_mp.group(1)) - _LUTA9) > 1e-9:
+                    _erro9(f'a peca 3 usa {_mp.group(1)} rodadas e o meio da banda da peca 1 e {_LUTA9}')
+                else:
+                    # --- os golpes por coluna: lidos dos rotulos, conferidos pela relacao ---
+                    _cab9, _tb9 = _tabela_apos7(_sec9, '**Quanto do preço o buff paga**')
+                    _n9 = [int(_x.split()[-1]) for _x in (_cab9 or [])[1:]]
+                    if not _tb9 or _n9 != _cls9:
+                        _erro9(f'a tabela "Quanto do preco o buff paga" nao cobre as Classes do '
+                               f'manual: {_n9} contra {_cls9}')
+                    else:
+                        _g9 = {}
+                        for _rot, _cels in _tb9.items():
+                            _mg = _re8.search(r'\(([\d,]+) golpes\)', _rot)
+                            _k = ('buff' if _rot.startswith('só o buff') else
+                                  'conc' if 'Concentrada' in _rot else 'rap')
+                            _g9[_k] = (_rot, _mg and _num9(_mg.group(1)), [_num9(x) for x in _cels])
+                        if set(_g9) != {'buff', 'conc', 'rap'} or any(v[1] is None for v in _g9.values()):
+                            _erro9(f'as tres linhas da tabela de % nao dizem quantos golpes cada '
+                                   f'uma cobre: {sorted(_g9)}')
+                        else:
+                            # o fisico bate duas vezes por rodada porque a peca 6 §3.1 da o ataque extra
+                            _extra9 = bool(_re8.search(r'ganham ataque extra no nível `?\d+`?', _p6_9))
+                            _ATQ9 = 1 + (1 if _extra9 else 0)
+                            if _g9['buff'][1] != _ATQ9:
+                                _erro9(f'a peca cobra {_g9["buff"][1]} golpe(s) sem a Concentrada, e a '
+                                       f'peca 6 §3.1 da {_ATQ9} ataque(s) por rodada ao fisico '
+                                       f'(ataque extra: {_extra9})')
+                            if abs(_g9['conc'][1] - round((_LUTA9 - 1) * _ATQ9, 1)) > 0.05:
+                                _erro9(f'a coluna da Concentrada cobre {_g9["conc"][1]} golpes, e a luta '
+                                       f'de {_LUTA9} rodadas menos a de marcar da {round((_LUTA9-1)*_ATQ9, 1)}')
+                            if _g9['rap'][1] != 2 * _ATQ9:
+                                _erro9(f'a coluna do Rapido cobre {_g9["rap"][1]} golpes, e marcar de '
+                                       f'Acao Bonus da duas rodadas de ataque: {2 * _ATQ9}')
+                            # --- as tres linhas de % , celula a celula ---
+                            _ar9 = lambda x: math.floor(x + 0.5)
+                            _esp9 = {
+                                'buff': [_ar9(_g9['buff'][1] * _D4_9 / (_pA[c] * _D8_9) * 100) for c in _cls9],
+                                'conc': [_ar9(_g9['conc'][1] * _D4_9 / ((_pA[c] + _pC[c]) * _D8_9) * 100) for c in _cls9],
+                                'rap':  [_ar9(_g9['rap'][1] * _D8_9 / ((_pA[c] + _pR[c]) * _D8_9) * 100) for c in _cls9],
+                            }
+                            for _k in ('buff', 'conc', 'rap'):
+                                if _g9[_k][2] != [float(x) for x in _esp9[_k]]:
+                                    _erro9(f'a linha "{_g9[_k][0]}" publica {[int(x) for x in _g9[_k][2]]} '
+                                           f'e a conta da {_esp9[_k]}')
+                            # --- a tabela de preco por Classe, com a linha de Familia Livre ---
+                            _cabp, _tbp = _tabela_apos7(_sec9, '**Preço do `Alvo de Caça` por Classe**')
+                            _np = [int(_x.split()[-1]) for _x in (_cabp or [])[1:]]
+                            if not _tbp or _np != _cls9:
+                                _erro9(f'a tabela "Preco do Alvo de Caca por Classe" nao cobre as '
+                                       f'Classes do manual: {_np} contra {_cls9}')
+                            else:
+                                _lp = {}
+                                for _rot, _cels in _tbp.items():
+                                    _lp['livre' if 'Livre' in _rot else 'cheio'] = (_rot, [int(x) for x in _cels])
+                                _espp = {'cheio': [_pA[c] for c in _cls9],
+                                         # o desconto e' a mesma "metade da Classe" que a tabela
+                                         # publica na coluna `Leve`, com o minimo de 1 da frase
+                                         'livre': [max(1, _pA[c] - _classe9[c]['Leve']) for c in _cls9]}
+                                for _k in ('cheio', 'livre'):
+                                    if _k not in _lp:
+                                        _erro9(f'a tabela de preco nao tem a linha "{_k}"')
+                                    elif _lp[_k][1] != _espp[_k]:
+                                        _erro9(f'a linha "{_lp[_k][0]}" publica {_lp[_k][1]} e a conta '
+                                               f'da {_espp[_k]}')
+                                if 'cheio' in _lp and f'({_tA})' not in _lp['cheio'][0]:
+                                    _erro9(f'o rotulo "{_lp["cheio"][0]}" nao diz o degrau que o .docx '
+                                           f'da ao Alvo de Caça: {_tA}')
+                            # --- a Rajada seguinte, contra a Rotina ---
+                            _cabr, _tbr = _tabela_apos7(_sec9, '**A `Rajada` seguinte contra o alvo marcado**')
+                            _nr = [int(_x.split()[-1]) for _x in (_cabr or [])[1:]]
+                            if not _tbr or _nr != _cls9:
+                                _erro9(f'a tabela "A Rajada seguinte contra o alvo marcado" nao cobre '
+                                       f'as Classes do manual: {_nr} contra {_cls9}')
+                            else:
+                                _lr = {}
+                                for _rot, _cels in _tbr.items():
+                                    _k = ('d4' if _rot.startswith(f'1d{_F4}') else 'd8') + \
+                                         ('p' if 'Rotina' in _rot else 'd')
+                                    _lr[_k] = (_rot, [_num9(x) for x in _cels])
+                                _tir = lambda c: c + _tiros9
+                                _espr = {
+                                    'd4d': [round(_tir(c) * _D4_9, 1) for c in _cls9],
+                                    'd4p': [round(_tir(c) * _D4_9 / _rot9[c] * 100, 1) for c in _cls9],
+                                    'd8d': [round(_tir(c) * _D8_9, 1) for c in _cls9],
+                                    'd8p': [round(_tir(c) * _D8_9 / _rot9[c] * 100, 1) for c in _cls9],
+                                }
+                                for _k in ('d4d', 'd4p', 'd8d', 'd8p'):
+                                    if _k not in _lr:
+                                        _erro9(f'a tabela da Rajada nao tem a linha "{_k}"')
+                                    elif [round(x, 1) for x in _lr[_k][1]] != _espr[_k]:
+                                        _erro9(f'a linha "{_lr[_k][0]}" publica {_lr[_k][1]} e a conta '
+                                               f'da {_espr[_k]}')
+        # --- o Hex completo: 3 Melhorias, e a Classe em que ele passa a caber ---
+        _mh = _re8.search(r'são `(\d+)` Melhorias e `(\d+)` pontos: só cabe da Classe `(\d+)`, '
+                          r'e ali ocupa `(\d+)` dos `(\d+)` pontos', _sec9)
+        if not _mh:
+            _erro9('a peca parou de dizer quantas Melhorias e quantos pontos o conjunto completo '
+                   'custa, e de que Classe ele cabe')
+        else:
+            _nmel, _npt, _ncls, _oc, _tot = (int(_mh.group(i)) for i in range(1, 6))
+
+            def _cabe9(c):
+                _l = None
+                for _k in sorted(_lim9):
+                    if c >= _k:
+                        _l = _lim9[_k][0]
+                return _l
+            _prim = next((c for c in _cls9 if _cabe9(c) >= _nmel and
+                          _pA[c] + _pC[c] + _pR[c] <= _classe9[c]['pontos']), None)
+            _cst = _pA[_ncls] + _pC[_ncls] + _pR[_ncls] if _ncls in _classe9 else None
+            if _nmel != 3:
+                _erro9(f'o conjunto completo sao Alvo de Caça + Concentrada + Rapido, tres Melhorias, '
+                       f'e a peca diz {_nmel}')
+            elif _prim != _ncls:
+                _erro9(f'a peca diz que o conjunto so cabe da Classe {_ncls}, e a primeira Classe em '
+                       f'que o limite de Melhorias e os pontos o aceitam e a {_prim}')
+            elif _cst != _npt or _cst != _oc or _classe9[_ncls]['pontos'] != _tot:
+                _erro9(f'na Classe {_ncls} o conjunto custa {_cst} de {_classe9[_ncls]["pontos"]} '
+                       f'pontos, e a peca escreve {_npt}/{_oc} de {_tot}')
+        if _falhas9 == 0:
+            print(f'  [x] o `Alvo de Caça` e {_tA} (do .docx) e mora na tabela da `Marca`; o preco '
+                  f'por Classe {[_pA[c] for c in _cls9]} sai da tabela de Classe e em Familia Livre '
+                  f'vira {[max(1, _pA[c] - _classe9[c]["Leve"]) for c in _cls9]}; as tres linhas de '
+                  f'% e as quatro da `Rajada` reconstroem; o conjunto completo cabe da Classe {_ncls}.')
 
 print()
 print('=' * 92)

@@ -1252,6 +1252,96 @@ if _ok4n:
           f'e o que as tabelas contam ({_n_melhorias}).')
 
 
+# 4o. v0.255: o `Alvo de Caça` (a Melhoria de buff de dano, na Familia `Marca`), a frase que
+# faltava no `Efeito Próprio` e a regra do combo. O .docx e' o dono da linha e do texto; a peca 3
+# e' dona da regra, e o conferir-acao.py (checagem 9) deriva o preco e as tabelas. Esta checagem
+# guarda as COPIAS: o capitulo 9 do livro, o texto compilado, o glossario, as tres copias da frase
+# do `Efeito Próprio` e o paragrafo do combo. A contagem de Melhorias por extenso ja e' da 4n.
+print()
+print('  4o. o `Alvo de Caça`, o `Efeito Próprio` que conta, e a regra do combo')
+
+_ok4o = True
+
+
+def _erro_o(msg):
+    global _ok4o
+    _ok4o = False
+    erro(f'4o: {msg}')
+
+
+# --- o dono: a linha do `Alvo de Caça` e a tabela em que ela mora ---
+_adc_d, _fam_d = None, None
+for _t in _D.tables:
+    _cab = [c.text.strip() for c in _t.rows[0].cells] if _t.rows else []
+    if _cab[:3] == ['Melhoria', 'Custo', 'O que faz']:
+        _nomes = [_r.cells[0].text.strip() for _r in _t.rows]
+        for _r in _t.rows[1:]:
+            _v = [c.text.strip() for c in _r.cells]
+            if _v[0] == 'Alvo de Caça':
+                _adc_d, _fam_d = (_v[1], _v[2]), _nomes
+if _adc_d is None:
+    _erro_o('nao achei a linha do `Alvo de Caça` no .docx — ela e a dona de tudo que vem abaixo')
+elif 'Marca' not in _fam_d:
+    _erro_o(f'a linha do `Alvo de Caça` nao esta na tabela da Familia `Marca`: {_fam_d}')
+else:
+    # --- as copias da linha: cap. 9 e texto compilado ---
+    for _onde, _t in (('o capitulo 9 do livro', _le_m('manual', '40-fundamento.md')),
+                      ('o texto compilado do livro', _le_m('Projeto-M-Manual-da-Guilda-TEXTO.md'))):
+        if _t is None:
+            print(f'    ~~ {_onde} nao existe: as copias dele nao foram conferidas')
+            continue
+        _achou = None
+        for _l in _t.split('\n'):
+            _m = re.match(r'^\|\s*`Alvo de Caça`\s*\|\s*`?([^|`]+?)`?\s*\|\s*(.*?)\s*\|\s*$', _l)
+            if _m:
+                _achou = (_m.group(1).strip(), _semmd(_m.group(2)))
+        if _achou is None:
+            _erro_o(f'{_onde} nao tem a linha do `Alvo de Caça`')
+        elif _achou != (_adc_d[0], _semmd(_adc_d[1])):
+            _erro_o(f'{_onde}: a linha do `Alvo de Caça` difere do .docx: {_achou} contra '
+                    f'{(_adc_d[0], _semmd(_adc_d[1]))}')
+    # --- o glossario aponta para o capitulo 9 ---
+    _glo = re.search(r'\|\s*\*\*`Alvo de Caça`\*\*\s*\|[^|]+\|\s*(\d+)\s*\|',
+                     _le_m('manual', '07-glossario.md') or '')
+    if not _glo or _glo.group(1) != '9':
+        _erro_o('o glossario nao tem a entrada do `Alvo de Caça` apontando para o capitulo 9')
+
+# --- o `Efeito Próprio` conta como Melhoria: as TRES copias, nos dois documentos ---
+_FRASE_EP = 'conta como uma Melhoria'
+_COPIAS_EP = (
+    ('a linha do catalogo', 'Um por feitiço'),
+    ('a frase depois da tabela de limite', 'A Forma não conta como Melhoria.'),
+    ('a regra de ouro 3', 'Restrições: até 2.'),
+)
+for _onde, _txt in (('o .docx', _docx_m), ('o capitulo 9 do livro', _c9m)):
+    for _rot, _anc in _COPIAS_EP:
+        _linhas = [_l for _l in _txt.split('\n') if _anc in _l]
+        if not _linhas:
+            _erro_o(f'{_onde}: nao achei {_rot} (a ancora "{_anc}" sumiu)')
+        elif not any(_FRASE_EP in _l or 'o Efeito Próprio conta' in _l for _l in _linhas):
+            _erro_o(f'{_onde}: {_rot} nao diz que o `Efeito Próprio` conta como Melhoria')
+    # a frase antiga: "Um por feitiço" sem dizer que conta e' a redacao que a v0.255 tirou
+    for _l in _txt.split('\n'):
+        if 'Um por feitiço' in _l and _FRASE_EP not in _l:
+            _erro_o(f'{_onde} ainda tem "Um por feitiço" sem "{_FRASE_EP}": {_l.strip()[:90]}')
+
+# --- o paragrafo do combo, com as tres frases-chave ---
+_CHAVES = ('duas Melhorias escritas como uma', 'soma dos preços', 'por conta e risco', 'não recomenda')
+for _onde, _txt in (('o .docx', _docx_m), ('o capitulo 9 do livro', _c9m)):
+    _par = [_l for _l in _txt.split('\n') if 'Duas Melhorias escritas como uma' in _l]
+    if not _par:
+        _erro_o(f'{_onde} nao tem o paragrafo do combo ("Duas Melhorias escritas como uma")')
+        continue
+    for _k in _CHAVES[1:]:
+        if not any(_k in _l for _l in _par):
+            _erro_o(f'{_onde}: o paragrafo do combo nao diz "{_k}"')
+
+if _ok4o:
+    print(f'    [x] a linha do `Alvo de Caça` ({_adc_d[0]}) esta na tabela da `Marca` do .docx, no '
+          f'capitulo 9 e no texto compilado, e o glossario aponta para o 9; o `Efeito Próprio` diz '
+          f'que conta nas tres copias dos dois documentos; o paragrafo do combo tem as frases-chave.')
+
+
 # --------------------------------------------------------------------------
 bloco('5. O PORTAO DAS LINHAS DE CONTROLE — quem prende o alvo diz como solta')
 # --------------------------------------------------------------------------

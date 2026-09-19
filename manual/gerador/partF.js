@@ -282,7 +282,7 @@ const apendice = [
   H2('Regras de ouro'),
   BUL('Restrição paga Melhoria. Nunca vira dano.'),
   BUL('Dano total nunca passa de 4 × Classe. Num alvo só, feitiço comum para nos pontos da Classe.'),
-  BUL('Melhorias: 2 nas Classes 1–2, 3 nos 3–4, 4 do 5 em diante. Restrições: até 2.'),
+  BUL('Melhorias: 2 nas Classes 1–2, 3 nos 3–4, 4 do 5 em diante. Restrições: até 2. A Forma não conta; o Efeito Próprio conta.'),
   BUL('Restrição devolve no máximo 2 × Classe.'),
   BUL('Liberação Máxima custa a rodada inteira, é Classe 3 ou mais, e só as que o nível deu.'),
   BUL('Feitiço em Ação Bônus ou Reação só permite mais um de Classe 0.'),

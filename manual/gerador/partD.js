@@ -6,7 +6,7 @@ const CAT = (rows) => TBL(['Melhoria', 'Custo', 'O que faz'], rows, RW, { boldCo
 
 const melhorias = [
   H1('3 · Melhorias'),
-  P('Sessenta e oito Melhorias, em nove Famílias. O preço de cada uma depende da Classe do feitiço em que ela entra: **Leve** custa metade da Classe, **Média** custa a Classe inteiro, **Pesada** custa Classe e meio — sempre arredondando pra cima.'),
+  P('Sessenta e nove Melhorias, em nove Famílias. O preço de cada uma depende da Classe do feitiço em que ela entra: **Leve** custa metade da Classe, **Média** custa a Classe inteiro, **Pesada** custa Classe e meio — sempre arredondando pra cima.'),
   P('Exemplo de leitura: num feitiço de Classe 3, uma Leve custa 2 pontos, uma Média custa 3 e uma Pesada custa 5. Nas suas duas Famílias Livres, tire metade da Classe do preço, com mínimo de 1; nas três Fechadas, não há o que comprar.'),
 
   H2('Alcance'),
@@ -159,6 +159,7 @@ const melhorias = [
   H2('Marca'),
   CAT([
     ['Marca', 'Leve', 'O alvo fica marcado até o fim do seu próximo turno. **Você** tem vantagem no seu próximo ataque contra ele. Só você.'],
+    ['Alvo de Caça', 'Leve', 'O alvo fica marcado até o fim do seu próximo turno. Daí em diante, cada ataque **seu** que acertar ele causa 1d4 a mais, e o feitiço que marcou não ganha o dado. Vale arma, desarmado e feitiço com rolagem de acerto, e cada tiro da Rajada conta. Se este feitiço tiver o Rápido, o dado é 1d8. Não entram feitiço de Teste de Resistência, dano que volta em rodada seguinte como o da Queima, respingo, nem ataque da sua invocação. Um alvo marcado por vez: marcar outro apaga a marca anterior.'],
     ['Rastro', 'Leve', 'Você sabe onde o alvo está por 1 hora, desde que ele esteja no mesmo plano.'],
     ['Sugar', 'Média', 'Você recupera um quarto do dano causado, até no máximo 5 × Classe.'],
     ['Isca', 'Leve', 'Até o fim do próximo turno do alvo, ele tem desvantagem em qualquer ataque que não mire você.'],
@@ -180,7 +181,7 @@ const melhorias = [
 
   H2('Fora de família'),
   CAT([
-    ['Efeito Próprio', 'o mestre decide', 'Uma mecânica que não existe em lugar nenhum desta lista. Um deslocamento junto com o dano, um efeito que só funciona em superfície molhada, o que for. Um por feitiço, combinado antes da sessão e nunca no meio dela. Não pertence a nenhuma Família, então Família Fechada não bloqueia.'],
+    ['Efeito Próprio', 'o mestre decide', 'Uma mecânica que não existe em lugar nenhum desta lista. Um deslocamento junto com o dano, um efeito que só funciona em superfície molhada, o que for. Um por feitiço, e ele conta como uma Melhoria no limite da Classe. Combinado antes da sessão e nunca no meio dela. Não pertence a nenhuma Família, então Família Fechada não bloqueia.'],
   ]),
   GAP(100),
   P('A Restrição equivalente — a **Restrição Própria** — está no fim da seção 4.'),

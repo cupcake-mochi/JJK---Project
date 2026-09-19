@@ -152,6 +152,66 @@ A Passiva **Mão Firme** cobre os dois, e o manual v7.6 diz isso com todas as le
 
 **O que a regra cobra.** *O preço achatado por degrau de tabela é barato para a condição `Leve` e `Média` que dura a luta inteira, e o Mizuki escolheu assim, pelo motivo de não ter exceção.* **A `Duradoura` cobra `1,5×` a `2,0×` o preço da `Concentrada` nas Classes `2` a `7`.**
 
+### O buff de dano: `Alvo de Caça` — v0.255
+
+> ***Decisão do Mizuki em 19/09/2026 (v0.255).*** *A Melhoria entra na Família `Marca` — dele: "Coloca em marca" —, o gatilho é toda rolagem de acerto que acerta o alvo marcado, e não nasce termo novo: a regra fala de "duas Melhorias escritas como uma", e ele escolheu a opção sem batismo, "A definitivamente".*
+
+**O buraco que isto fecha.** *O catálogo não tinha nenhum buff de dano. A `Marca` dá vantagem, a `Ecoa` dá vantagem ao aliado, e o `Remate`, o `Acúmulo` e a `Queima` somam no próprio golpe — nada somava dano nos seus ataques seguintes. É o `Hex` do D&D, e quem batizou foi o Mizuki.*
+
+**A Melhoria é uma só, de preço `Leve`, e mora na Família `Marca`.** *O alvo fica marcado até o fim do seu próximo turno. Daí em diante, cada ataque seu que acertar ele causa `1d4` a mais, e o feitiço que marcou não ganha o dado — igual à `Marca`, que dá vantagem no *próximo* ataque. Com o `Rápido` no mesmo feitiço, o dado é `1d8`. Um alvo marcado por vez: marcar outro apaga a marca anterior.*
+
+**É o mesmo estado `marcado` da `Marca`**, e não um estado novo: a Restrição `Condicional` que dispara com *"marcado por você"* dispara com as duas. **O dado é fixo, sem escala por Classe** *(decisão da v0.254, quando ele recusou o `X`d4 que eu tinha proposto: "no D&D a gente não tem esse aumento ao longo dos níveis, sinto que isso vai fortificar a possibilidade de só atacar ao invés de usar feitiços")*. **Com a `Concentrada`, a marca dura `1` minuto** — *é buff ofensivo, a primeira linha da tabela `Quanto dura`.*
+
+**Por que a Família `Marca`, e não `Auxiliares`.** *Ela é irmã da `Marca`: a mesma janela, o mesmo alvo, e dano no lugar de vantagem. A palavra `marcado` já mora ali.* **E os três Fundamentos prontos decidem o resto:** *em `Auxiliares`, a `Régua` — que é o pronto de caçador, o que mais quereria esta Melhoria — tem `Auxiliares` como Fechada, e não poderia comprar; em `Marca` nenhum dos três bloqueia, e a `Sentença` e a `Banca` têm a Família como Livre, onde o preço cai para `1` ponto em toda Classe.*
+
+**O gatilho**, decisão dele em 19/09/2026 — *"Qualquer ataque que não seja 'continuo', ent rajada pega, ataque extra, afins (q nem dnd)"*:
+
+- **Conta toda ROLAGEM DE ACERTO sua que acerta o alvo marcado:** *arma, desarmado, feitiço com rolagem de acerto, e cada tiro da `Rajada` conta sozinho.* **É o `Hunter's Mark` do D&D 2024, que cobra a mesma coisa: todo acerto com rolagem de ataque.**
+- **Não conta o que não é rolagem de acerto:** *feitiço resolvido por Teste de Resistência não é ataque; o dano que volta em rodadas seguintes, como o da `Queima` e o da `Fica`, também não; e o respingo do `Estilhaço` e o pulo do `Salto` não são ataque.*
+- **Só os ataques SEUS:** *a sua invocação não herda a marca.* *(Default meu, para ele vetar.)*
+
+**Quanto custa, em pontos, por Classe** *(o preço `Leve` sai da tabela de Classe do manual, e o desconto de Família Livre da regra "tire metade da Classe do preço, com mínimo de 1"; entre os prontos, quem tem `Marca` como Livre é a `Sentença` e a `Banca`)*:
+
+**Preço do `Alvo de Caça` por Classe**
+
+| | Classe 1 | Classe 2 | Classe 3 | Classe 4 | Classe 5 | Classe 6 | Classe 7 |
+|---|---|---|---|---|---|---|---|
+| `Alvo de Caça` (`Leve`) | `1` | `1` | `2` | `2` | `3` | `3` | `4` |
+| o mesmo, em Família Livre | `1` | `1` | `1` | `1` | `1` | `1` | `1` |
+
+**A régua da conta.** *É a da v0.254, e ela mede os dois lados igual: `1` ponto compra `1d8`, que é `4,5` de dano cheio.* **Os golpes que cabem na janela:** *`2` sem mais nada (o seu próximo turno, com o físico batendo duas vezes por rodada do nível `7` em diante); `5,4` com a `Concentrada`, que é a luta inteira menos a rodada em que você marcou; `4` com o `Rápido`, que marca de Ação Bônus e já ataca no mesmo turno.*
+
+***A luta é de `3,7` rodadas — o meio da banda de `3,4` a `4,0` da seção 8 da peça 1.*** *O `conferir-aptidoes.py` lê o **topo** dessa banda, e está certo no que ele faz: ele testa se uma barreira de `1` minuto cabe dentro da luta, e ali o pior caso é a luta mais longa. Aqui o número responde outra pergunta — quantos golpes a `Concentrada` cobre, em média —, e a resposta média é o meio.*
+
+**Quanto do preço o buff paga**
+
+| | Classe 1 | Classe 2 | Classe 3 | Classe 4 | Classe 5 | Classe 6 | Classe 7 |
+|---|---|---|---|---|---|---|---|
+| só o buff (`2` golpes) | `111%` | `111%` | `56%` | `56%` | `37%` | `37%` | `28%` |
+| com a `Concentrada` (`5,4` golpes) | `150%` | `150%` | `75%` | `75%` | `50%` | `50%` | `38%` |
+| com o `Rápido`, em `1d8` (`4` golpes) | `133%` | `100%` | `57%` | `50%` | `36%` | `33%` | `27%` |
+
+***Ele viu estes números antes de escolher, e manteve.*** *Nas Classes `1` e `2` o buff paga mais do que custa, e da `3` em diante ele desbota, que é o que o dado fixo faz.*
+
+**O pior caso é a `Rajada` seguinte**, *que divide o feitiço em `Classe + 1` tiros com rolagem de acerto cada um: contra o alvo marcado, ela soma `(Classe + 1) × 2,5` de dano.*
+
+**A `Rajada` seguinte contra o alvo marcado**
+
+| | Classe 1 | Classe 2 | Classe 3 | Classe 4 | Classe 5 | Classe 6 | Classe 7 |
+|---|---|---|---|---|---|---|---|
+| `1d4`: o dano que soma | `5,0` | `7,5` | `10,0` | `12,5` | `15,0` | `17,5` | `20,0` |
+| `1d4`: quanto é da Rotina | `38,5%` | `24,2%` | `22,2%` | `19,8%` | `19,7%` | `18,6%` | `18,5%` |
+| `1d8` com o `Rápido`: o dano | `9,0` | `13,5` | `18,0` | `22,5` | `27,0` | `31,5` | `36,0` |
+| `1d8` com o `Rápido`: da Rotina | `69,2%` | `43,5%` | `40,0%` | `35,7%` | `35,5%` | `33,5%` | `33,3%` |
+
+**O que a regra cobra, e o Mizuki aceitou em 19/09/2026.** *A linha da `Rajada` é a mesma curva do `X`d4 que ele recusou — `20,0` de dano na Classe `7`, `18,5%` da Rotina —, só que agora ela é paga duas vezes: a `Rajada` também é `Leve`, e `Alvo de Caça` + `Rajada` + `Concentrada` são três Melhorias, que só cabem da Classe `3`.*
+
+**O limite de Melhorias é o que segura o conjunto.** *`Alvo de Caça` + `Concentrada` + `Rápido` são `3` Melhorias e `9` pontos: só cabe da Classe `3`, e ali ocupa `9` dos `9` pontos. Nas Classes `1` e `2` a ficha escolhe entre `Alvo de Caça` + `Rápido` e `Alvo de Caça` + `Concentrada`.*
+
+**Não existe teto de soma com o `Acúmulo` e o `Remate`, e é por conta:** *o `Alvo de Caça` soma `2,5` fixos no feitiço seguinte contra o alvo marcado (`5,6%` da Rotina na Classe `3`, `2,3%` na `7`) e `5,0` nos dois ataques do físico (`11%` na `3`, `4,6%` na `7`) — pequeno demais para mover o que o `Acúmulo` já faz sozinho.* **O que passa do teto de um alvo ali é o `Acúmulo`, e ele passa antes desta Melhoria existir** — *está registrado como problema de design aberto no `ESTADO-ATUAL.md`.*
+
+**E o invariante da peça 11 segue com folga:** *a rodada de golpe fica abaixo da Rotina. O golpe simples vai de `51,6%` para `58,3%` no nível `7` (`62,5%` com `1d8`) e de `47,2%` para `49,5%` no `30` (`51,3%`).*
+
 ## 3.1 A lista de ações
 
 *Escrita na v0.83, e ela é o buraco que o desenho dos Caminhos achou: **esta peça tinha os quatro slots do turno e nenhuma ação nomeada.** `Ajudar` morava na peça 4 §5 sem custo de ação declarado, e nove Trilhas apontavam para uma lista que vivia num documento de desenho.*

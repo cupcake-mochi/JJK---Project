@@ -8,6 +8,73 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.255] — 19/09/2026
+
+**Entrou o `Alvo de Caça`, a primeira Melhoria de buff de dano do catálogo, na Família `Marca`** — *é o item `12` da fila, e o nome é do Mizuki.* **E o `Efeito Próprio` passou a dizer que conta como uma Melhoria, junto com a regra do combo** — *o item `13`.* **Os dois estavam decididos e não escritos; esta versão é a escrita.**
+
+### 1 · O que existe agora
+
+***`Alvo de Caça`, `Leve`, na Família `Marca`:*** *o alvo fica marcado até o fim do seu próximo turno e, dali em diante, cada ataque seu que acerta ele causa `1d4` a mais. Com o `Rápido` no mesmo feitiço, `1d8`. Um alvo marcado por vez.* **É o MESMO estado `marcado` da `Marca`**, *e não um estado novo: a Restrição `Condicional` que dispara com "marcado por você" dispara com as duas.* **Com a `Concentrada`, a marca dura `1` minuto** — *é buff ofensivo, a primeira linha da tabela `Quanto dura` da v0.254.*
+
+**O gatilho é toda ROLAGEM DE ACERTO sua que acerta o alvo marcado** *(decisão dele: "Qualquer ataque que não seja 'continuo', ent rajada pega, ataque extra, afins (q nem dnd)")*: **arma, desarmado, feitiço com rolagem de acerto, e cada tiro da `Rajada` conta sozinho.** *É o `Hunter's Mark` do D&D 2024, que cobra a mesma coisa.* **Não contam:** *feitiço resolvido por Teste de Resistência (não é ataque), o dano que volta em rodadas seguintes como o da `Queima` e o da `Fica`, o respingo do `Estilhaço` e o pulo do `Salto`, e o ataque da sua invocação.* **E o feitiço que marca não ganha o dado**, *como a `Marca` dá vantagem no *próximo* ataque.*
+
+***Duas Melhorias escritas como uma*** *custam a soma dos preços das partes e contam no limite como as partes — é atalho de leitura na ficha, e não desconto.* **O mestre pode aprovar por menos pontos ou menos espaço, mas é decisão inteiramente dele, por conta e risco, e o manual não recomenda.** ***E o `Efeito Próprio` conta como uma Melhoria no limite da Classe***, *que é a frase que faltava desde sempre — a `Restrição Própria` já dizia o equivalente do outro lado.* **Sem termo novo**, *por escolha dele: nada de `Combo` capitalizado, nada de entrada no glossário.*
+
+### 2 · O que a conta disse, e o que ele escolheu sabendo
+
+**A Família foi decisão dele** *("Coloca em marca")*, **e os três Fundamentos prontos decidem o resto:** *em `Auxiliares`, a `Régua` — que é o pronto de caçador, o que mais quereria esta Melhoria — tem `Auxiliares` como Fechada e não poderia comprar; em `Marca` nenhum dos três bloqueia, e a `Sentença` e a `Banca` têm a Família como Livre, onde a `Leve` cai para `1` ponto em toda Classe.*
+
+**Quanto o buff paga do próprio preço**, *medido com a régua da v0.254 (`1` ponto compra `1d8`, que é `4,5` de dano cheio) e com a luta de `3,7` rodadas*:
+
+| | Classe 1 | Classe 2 | Classe 3 | Classe 4 | Classe 5 | Classe 6 | Classe 7 |
+|---|---|---|---|---|---|---|---|
+| só o buff (`2` golpes) | `111%` | `111%` | `56%` | `56%` | `37%` | `37%` | `28%` |
+| com a `Concentrada` (`5,4` golpes) | `150%` | `150%` | `75%` | `75%` | `50%` | `50%` | `38%` |
+| com o `Rápido`, em `1d8` (`4` golpes) | `133%` | `100%` | `57%` | `50%` | `36%` | `33%` | `27%` |
+
+**O pior caso é a `Rajada` seguinte contra o alvo marcado**, *que soma `(Classe + 1) × 2,5` de dano:* `5,0` *na Classe `1` (`38,5%` da Rotina),* `10,0` *na `3` (`22,2%`) e* `20,0` *na `7` (`18,5%`) — com o `Rápido`, `36,0` na `7` (`33,3%`).* ***É a mesma curva do `X`d4 que ele recusou na v0.254***, *só que agora é paga duas vezes (a `Rajada` também é `Leve`) e travada em três Melhorias.* **Ele viu o número antes de escolher e manteve.**
+
+**A luta de `3,7` rodadas é o MEIO da banda de `3,4` a `4,0` da peça 1 §8, e isso é escolha declarada.** *O `conferir-aptidoes.py` lê o TOPO da mesma banda, e está certo no que ele faz — ele testa se uma barreira de `1` minuto cabe dentro da luta, e ali o pior caso é a luta mais longa. Aqui a pergunta é outra, quantos golpes a `Concentrada` cobre em média, e a resposta média é o meio. A peça escreve as duas leituras lado a lado, e a checagem `9` deriva o `3,7` da banda em vez de guardá-lo.*
+
+**Não existe teto de soma com o `Acúmulo` e o `Remate`, e é por conta:** *o `Alvo de Caça` soma `2,5` fixos no feitiço seguinte (`5,6%` da Rotina na Classe `3`, `2,3%` na `7`) e `5,0` nos dois ataques do físico.* **O invariante da peça 11 segue com folga:** *o golpe simples vai de `51,6%` para `58,3%` da Rotina no nível `7` e de `47,2%` para `49,5%` no `30`.*
+
+### 3 · O que a conta achou de graça, e que fica aberto
+
+***O `Acúmulo` já passa do teto de um alvo só, e isso é ANTES do `Alvo de Caça`.*** **O pior feitiço num alvo — `Acúmulo` (`Média`) mais `Remate` (`Média`) mais duas Restrições `Média` devolvendo o máximo — chega a `56` de dano na Classe `3` contra os `54` da `Liberação Máxima`, e a `73` contra `72` na `4`**, *na quarta rodada seguida contra o mesmo alvo.* **Três coisas faltam para decidir:** *o manual não diz se o `+3` do `Acúmulo` é exceção do teto de um alvo; nenhum dos `35` Fundamentos prontos usa `Acúmulo`, então o caso nunca apareceu montado; e o `v7.py` mede UM feitiço numa rodada e não modela adição rodada a rodada.* **Fica registrado como o item `14` dos problemas abertos, sem decidir nada** — *foi o que ele pediu.* *O `v7.py` ganhou três linhas dizendo o que ele não modela.*
+
+**O arnês rodou numa cópia isolada, com a base verde e sem `PULADA`: `27` perturbações acendem a etiqueta certa e `5` que não podem acender ficam verdes.** ***E o arnês achou defeito numa perturbação minha, não na checagem:*** *"o limite de Melhorias vira `4` na Classe `3`" saía VERDE, e com razão — subir o limite não move a primeira Classe que comporta três Melhorias. Quem move é o limite das Classes `1` e `2`, e é essa a perturbação que ficou.* **Os cinco contra-testes mexem nas quatro Melhorias vizinhas da mesma tabela e na coluna `Média` da tabela de Classe** — *a coluna que a checagem `9` não usa, porque as três Melhorias do conjunto são `Leve`, `Leve` e `Pesada`.*
+
+### Adicionado
+
+- **A Melhoria `Alvo de Caça`** *(`Leve`, Família `Marca`)*, **e a subseção `O buff de dano: Alvo de Caça` na peça 3 §3**, *com a decisão, o gatilho, as três tabelas e o custo aceito.*
+- **`conferir-acao.py`, checagem `9`:** *o custo, a Família e o texto da linha saem do `.docx`; o preço por Classe sai da tabela de Classe e o de Família Livre da frase "tire metade da Classe do preço, com mínimo de 1"; a Rotina sai da tabela `A curva`; os tiros da `Rajada` saem do texto da `Rajada`; a luta sai da banda da peça 1 pelo meio; os golpes por rodada do físico saem do ataque extra da peça 6 §3.1; e as três linhas de `%` e as quatro da `Rajada` são reconstruídas célula a célula. A Classe em que o conjunto completo passa a caber sai do limite de Melhorias e dos pontos, e não está escrita no código.*
+- **`conferir-manual.py`, checagem `4o`:** *a linha do `Alvo de Caça` igual nas três publicações, o glossário apontando para o capítulo 9, o `Efeito Próprio` dizendo que conta nas TRÊS cópias de cada documento, o parágrafo do combo com as frases-chave, e a redação antiga ("Um por feitiço" sem dizer que conta) proibida.*
+- **O item `14` dos problemas de design abertos:** *o `Acúmulo` contra "num alvo só, feitiço comum para nos pontos da Classe".*
+
+### Alterado
+
+- **Manual `v7.36`:** *`partD.js` (a linha nova na Família `Marca`, o `Efeito Próprio` e a contagem de Melhorias, `69`), `partA.js` (a frase do limite e o parágrafo do combo), `partF.js` (a regra de ouro `3`), os dois `COMO-USAR.txt`, e o `.docx` e o `.pdf` regerados (`50` páginas, as mesmas da v7.35).*
+- **Livro:** *o capítulo 9 (a linha nova, o combo, o `Efeito Próprio` e a regra de ouro `3`) e o glossário (uma entrada); os quatro artefatos refeitos.*
+- **`README`, `LEIA-ME`, `ESTADO-ATUAL` e `arquitetura`:** *as versões (projeto `v0.255`, manual `v7.36`), os itens `12` e `13` fechados, o item `14` novo, e a nota da `Rajada` no marcador do playtest.*
+- **`conferir-repositorio.py`:** *a base da lista branca da `7.2` foi de `176` para `180`, com as quatro citações novas itemizadas.* **Duas delas eram dívida:** *a entrega já estava em `178` com o aviso aceso desde a v0.253, e ninguém tinha reescrito a base — a mesma falha que o comentário da v0.227 registra, agora pela sexta vez.*
+
+### Decidido
+
+- **O `Alvo de Caça` mora na Família `Marca`, e não em `Auxiliares`.**
+- **O gatilho é toda rolagem de acerto, com cada tiro da `Rajada` contando sozinho; dano contínuo, respingo e Teste de Resistência não contam, e a invocação não herda.**
+- **O combo não ganha termo novo, e o `Efeito Próprio` conta como uma Melhoria no limite da Classe.**
+- **A peça 3 lê o MEIO da banda de rodadas, e o `conferir-aptidoes.py` continua lendo o topo — as duas leituras ficam escritas lado a lado.**
+
+### Continua aberto
+
+- **Força e peso (item `8`), com tudo já decidido no `ESTADO`:** *o Volume das `52` armas e dos uniformes, a peça 16, o capítulo 55, e as checagens `6` e `16` do `conferir-ferramenta.py` e a `11` do `conferir-marcial.py`.* **É a v0.256, e ela destrava a aba de itens da Ficha Pessoal.**
+- **O `Acúmulo` contra o teto de um alvo só (item `14`), registrado nesta versão e não decidido.**
+- **O que já estava aberto:** *Ritual (item `11`), a Melhoria de resistência a tipo, a remodelagem das invocações e do Evocador, o `maestria(nv)` do `conferir-invocacoes.py`, a ficha (`Claude 3`) para as v0.253, v0.254 e v0.255, e o custo da Concentração nos níveis baixos (`41%` contra `53%` no nível `5`), que ele ainda não disse se aceita.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, item `8` da seção *"Problemas de design abertos"* (Força e peso).
+
+---
+
 ## [0.254] — 19/09/2026
 
 **A duração do efeito de estado virou regra mais duas Melhorias, a `Concentrada` e a `Duradoura`, e entraram na Família `Tempo`.** *É o item `9` da fila, a metade da duração; a da Concentração fechou na v0.253.* **A Forma `Efeito` fica como está, com a escada dela por Classe.** *A versão começou pela pesquisa de campo que o Mizuki pediu, e cada escolha de desenho passou por pergunta a ele antes de eu escrever.*

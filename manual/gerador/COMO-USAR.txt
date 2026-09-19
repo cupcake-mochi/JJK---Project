@@ -1,4 +1,4 @@
-GERADOR DO MANUAL — Fundamento v7.35
+GERADOR DO MANUAL — Fundamento v7.36
 
 Recria o .docx do zero. Precisa de Node.js.
 
@@ -32,6 +32,19 @@ ORDEM DAS SEÇÕES (v7)
   4 Restrições → 5 Fora de combate → 6 Liberação Máxima → 7 Técnica Máxima →
   8 Regras de ouro → 9 Progressão → 10 Feitiços prontos → 11 Para o mestre →
   Apêndice
+
+O QUE MUDOU NA v7.36
+
+  Entra a Melhoria Alvo de Caca (Leve), na Familia Marca: o alvo fica marcado
+  ate o fim do seu proximo turno e, dali em diante, cada ataque seu que acerta
+  ele causa 1d4 a mais — arma, desarmado, feitico com rolagem de acerto, e cada
+  tiro da Rajada conta. Com o Rapido no mesmo feitico, 1d8. Dano que volta em
+  rodadas seguintes e respingo nao contam, nem o ataque da invocacao. Um alvo
+  marcado por vez. Sao sessenta e nove Melhorias. O Efeito Proprio passa a
+  dizer que conta como uma Melhoria no limite da Classe, e entra a regra do
+  combo: duas Melhorias escritas como uma custam a soma dos precos e contam no
+  limite como as partes. A checagem 9 do conferir-acao deriva o preco e as
+  tabelas da peca 3, e a 4o do conferir-manual guarda as copias.
 
 O QUE MUDOU NA v7.35
 

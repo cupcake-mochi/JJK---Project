@@ -1055,7 +1055,19 @@ else:
     # `bestiario/04-fase-1/papel/MEDIDA-o-alcance-do-artilheiro.md`, familia `bestiario/.*`.
     # v0.233: 175 -> 176. A peca 26 §3.2 cita a `bestiario/04-fase-1/fila/MEDIDA-o-atributo-do-monstro.md`,
     # familia `bestiario/.*`.
-    BRANCAS_AQUI, FOLGA = 176, 5
+    # v0.255: 176 -> 180, MEDIDO pelo diff antes/depois da arvore da entrega, que e' o que
+    # este comentario pede desde a v0.161. QUATRO novas, e DUAS delas sao divida de antes:
+    # a base ficou em 176 desde a v0.233 e a entrega ja estava em 178 quando a v0.255 abriu,
+    # com o aviso aceso e ninguem reescrevendo a base — que e' exatamente a falha que o
+    # paragrafo da v0.227 descreve, pela sexta vez. As quatro, uma a uma:
+    #   . `conferir-acao.py` na peca 3 §3 (v0.253) ...... nome de validador
+    #   . `conferir-nomes.py` na peca 11 (v0.253/v0.254) . nome de validador
+    #   . `conferir-aptidoes.py` na peca 3 §3 (v0.255) .. nome de validador: a subsecao do
+    #     `Alvo de Caça` diz que ELE le o TOPO da banda de rodadas e ela le o MEIO
+    #   . `ESTADO-ATUAL.md` na peca 3 §3 (v0.255) ....... arquivo de trabalho: o ponteiro
+    #     para o problema aberto do `Acúmulo`, que a peca registra e nao decide
+    # Nenhuma familia nova — as duas declaradas la em cima —, e nenhuma e material de mesa.
+    BRANCAS_AQUI, FOLGA = 180, 5
     PISO_CITACOES, TETO_BRANCOS = 120, BRANCAS_AQUI + FOLGA
     if vistos_e < PISO_CITACOES:
         erro(f'7.2: achei so {vistos_e} citacoes na entrega, e o piso e {PISO_CITACOES} — '

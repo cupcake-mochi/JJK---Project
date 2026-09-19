@@ -141,6 +141,7 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **Restrição** | O que você vende para recuperar ponto. Paga Melhoria, **nunca vira dano** | 9 |
 | **`Concentrada`** | Melhoria que faz um efeito de estado durar mais que uma rodada, e exige concentração | 9 |
 | **`Duradoura`** | A mesma Melhoria, sem exigir concentração | 9 |
+| **`Alvo de Caça`** | Melhoria que marca um alvo: cada ataque seu que acerta ele causa `1d4` a mais | 9 |
 | **Família** | Um dos nove grupos de Melhoria. Na criação você fecha duas como Livres e três como Fechadas | 9 |
 | **Selo** | O que você sempre faz para conjurar. Não custa nem devolve ponto | 9 |
 | **Classe 0** | O feitiço grátis: não gasta PE e não ocupa espaço na lista | 9 |
@@ -3314,7 +3315,9 @@ A coluna **Teto** é o máximo de dados de dano de um feitiço quando você soma
 | **3 e 4** | 3 | 2 |
 | **5 em diante** | 4 | 2 |
 
-A Forma não conta como Melhoria.
+A Forma não conta como Melhoria. O Efeito Próprio conta como uma Melhoria.
+
+**Duas Melhorias escritas como uma** custam a soma dos preços das partes e contam no limite como as partes. É atalho de leitura na ficha, e não desconto. O mestre pode aprovar por menos pontos ou menos espaço, mas é decisão inteiramente dele, por conta e risco, e o manual não recomenda: o limite de Melhorias não segura o pico de dano, ele segura a largura do feitiço — sem ele, toda ficha converge para o mesmo pacote de sinergia.
 
 ### Energia
 
@@ -3908,6 +3911,7 @@ O que sobra depois que o feitiço passou: uma marca no alvo, um fio que puxa ene
 | Melhoria | Custo | O que faz |
 |---|---|---|
 | `Marca` | `Leve` | O alvo fica marcado até o fim do seu próximo turno. **Você** tem vantagem no seu próximo ataque contra ele. Só você. |
+| `Alvo de Caça` | `Leve` | O alvo fica marcado até o fim do seu próximo turno. Daí em diante, cada ataque **seu** que acertar ele causa 1d4 a mais, e o feitiço que marcou não ganha o dado. Vale arma, desarmado e feitiço com rolagem de acerto, e cada tiro da `Rajada` conta. Se este feitiço tiver o `Rápido`, o dado é 1d8. Não entram feitiço de Teste de Resistência, dano que volta em rodada seguinte como o da `Queima`, respingo, nem ataque da sua invocação. Um alvo marcado por vez: marcar outro apaga a marca anterior. |
 | `Rastro` | `Leve` | Você sabe onde o alvo está por 1 hora, desde que ele esteja no mesmo plano. |
 | `Sugar` | `Média` | Você recupera um quarto do dano causado, até no máximo 5 × Classe. |
 | `Isca` | `Leve` | Até o fim do próximo turno do alvo, ele tem desvantagem em qualquer ataque que não mire você. |
@@ -3934,7 +3938,7 @@ A mão que segura quem caiu. Funcionam com as Formas `Cura`, `Apoio` e `Onda` e,
 **Fora de família**
 | Melhoria | Custo | O que faz |
 |---|---|---|
-| `Efeito Próprio` | o mestre decide | Uma mecânica que não existe em lugar nenhum desta lista. Um deslocamento junto com o dano, um efeito que só funciona em superfície molhada, o que for. Um por feitiço, combinado antes da sessão e nunca no meio dela. Não pertence a nenhuma Família, então Família Fechada não bloqueia. |
+| `Efeito Próprio` | o mestre decide | Uma mecânica que não existe em lugar nenhum desta lista. Um deslocamento junto com o dano, um efeito que só funciona em superfície molhada, o que for. Um por feitiço, e ele conta como uma Melhoria no limite da Classe. Combinado antes da sessão e nunca no meio dela. Não pertence a nenhuma Família, então Família Fechada não bloqueia. |
 
 ## Restrições
 
@@ -4287,7 +4291,7 @@ Oito regras seguram o sistema inteiro. Se um feitiço passar pelas oito, ele é 
 |---|---|
 | **1** | Restrição paga Melhoria. Nunca vira dado de dano. O excedente some. |
 | **2** | O dano total, somando alvos e repetições, nunca passa de 4 × Classe em dados. Contra um alvo só, feitiço comum para nos pontos da Classe: 4 × Classe num alvo é coisa de Liberação Máxima. |
-| **3** | Melhorias: 2 nas Classes 1 e 2, 3 nas Classes 3 e 4, 4 da Classe 5 em diante. Restrições: até 2. A Forma não conta. |
+| **3** | Melhorias: 2 nas Classes 1 e 2, 3 nas Classes 3 e 4, 4 da Classe 5 em diante. Restrições: até 2. A Forma não conta; o Efeito Próprio conta. |
 | **4** | Restrição devolve no máximo 2 × Classe. |
 | **5** | Liberação Máxima é Classe 3 ou mais, custa a rodada inteira, e você só tem as que o nível deu. |
 | **6** | Feitiço em Ação Bônus ou Reação só permite mais um de Classe 0 no turno. |
@@ -6875,4 +6879,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: ed698482bfaf68687dc62042e33fc0e9581e23e8 -->
+<!-- fonte: 6d92286a72bae986829a8ec50dadf45ac0d9c918 -->

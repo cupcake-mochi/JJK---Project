@@ -127,6 +127,12 @@ for G in range(1,8):
     print(f"{G:<6}{3*G:<8}{format(n[0],'g')+'d8 = '+format(n[0]*D8,'.0f'):<24}{format(l[0],'g')+'d8 = '+format(l[0]*D8,'.0f'):<24}{cabe:<18}")
 print("  Feitico comum so passa dos pontos da Classe via Remate (+25% contra alvo ferido), e mesmo")
 print("  assim fica abaixo da Liberacao em toda Classe. Nenhuma outra peca multiplica dano.")
+# v0.255: a frase acima continua verdadeira — o `Alvo de Caca` SOMA um dado por acerto, nao
+# multiplica. Mas este modelo mede UM feitico numa rodada, e duas pecas somam por FORA dele.
+print("  Este modelo mede UM feitico, numa rodada. Duas pecas somam fora dele e nao entram aqui:")
+print("  o Acumulo (+1 dado por rodada seguida no mesmo alvo, ate +3) e o Alvo de Caca (+1d4 por")
+print("  acerto seu contra o alvo marcado, v0.255). Nenhuma das duas MULTIPLICA — as duas somam —,")
+print("  e o Acumulo somado ao Remate passa dos pontos da Classe num alvo so: ESTADO-ATUAL, item 14.")
 print(f"  Nivel 20: feitico comum {REAL[5][0]*D8:.0f} · Liberacao {REAL[5][1]*D8:.0f} · Tecnica Maxima 108")
 
 print()

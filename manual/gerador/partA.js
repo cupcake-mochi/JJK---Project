@@ -14,7 +14,7 @@ const cover = [
     children: [new TextRun({ text: 'manual do jogador e do mestre', size: 24, italics: true, color: C.grey })] }),
   new Paragraph({ alignment: AlignmentType.CENTER,
     border: { top: { style: BorderStyle.SINGLE, size: 8, color: C.crimson, space: 14 } },
-    children: [new TextRun({ text: 'Níveis 1–20  ·  Faixa lendária 21–30  ·  Versão 7.35', size: 20, color: C.grey })] }),
+    children: [new TextRun({ text: 'Níveis 1–20  ·  Faixa lendária 21–30  ·  Versão 7.36', size: 20, color: C.grey })] }),
   new Paragraph({ children: [new PageBreak()] }),
 ];
 
@@ -129,7 +129,8 @@ const numeros = [
     [40, 30, 30], { centerCols: [1,2], boldCols: [0] }
   ),
   GAP(100),
-  P('A Forma não conta como Melhoria.'),
+  P('A Forma não conta como Melhoria. O Efeito Próprio conta como uma Melhoria.'),
+  P('**Duas Melhorias escritas como uma** custam a soma dos preços das partes e contam no limite como as partes. É atalho de leitura na ficha, e não desconto. O mestre pode aprovar por menos pontos ou menos espaço, mas é decisão inteiramente dele, por conta e risco, e o manual não recomenda: o limite de Melhorias não segura o pico de dano, ele segura a largura do feitiço — sem ele, toda ficha converge para o mesmo pacote de sinergia.'),
 
   H2('Energia'),
   P('Conjurar um feitiço custa **3 × Classe** de PE — o mesmo número dos pontos dele. Classe 0 é grátis.'),
