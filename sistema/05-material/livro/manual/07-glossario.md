@@ -150,7 +150,7 @@ O eixo de controle de quem não tem energia amaldiçoada nenhuma, no lugar do re
 | **Ação Bônus** | Uma por turno, e só o que a regra disser com todas as letras que é Ação Bônus | 2 |
 | **Reação** | Uma por turno, responde a um gatilho e vale fora do seu turno | 2 |
 | **Rodada inteira** | Custa a Ação de Movimento, a Ação Padrão e a Ação Bônus de uma vez. A Reação continua sua | 2 |
-| **Concentração** | Manter um efeito de pé. Um por vez, e tomar dano pede Teste de Resistência de Vigor | 2 |
+| **Concentração** | Manter um efeito de pé. Um por vez, e tomar dano pede Teste de Resistência de Vigor contra a CD de quem te feriu | 2 |
 | **`Estudar`** | Ação Padrão: um teste sobre uma criatura ou objeto que você enxerga, para saber o que ele é e o que ele vai fazer | 2 |
 | **Cobertura** | O que está entre você e quem atira. Três degraus: Parcial, Boa e Total | 4 |
 | **`Agarrar`** | Opção do `Atacar`. Aplica a condição `Agarrado` | 2 |

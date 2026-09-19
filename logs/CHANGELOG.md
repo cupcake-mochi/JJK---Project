@@ -8,6 +8,69 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.253] — 19/09/2026
+
+**A Concentração passa a rolar Vigor contra a CD de quem te feriu, e não mais contra `10` ou metade do dano.** *É o item `9` da fila, a metade que era da regra; a metade da duração longa segue aberta e é a v0.254.* **O `Carregar` usa a mesma CD, e a corrida de domínios virou a mesma rolagem, só com a contagem trocada.** *O Mizuki tinha dado as decisões de boca, então a primeira coisa da versão foi registrá-las no `ESTADO-ATUAL` (item `9`), e só depois a regra foi mexida.*
+
+### 1 · A regra, e a conta dela
+
+**Cada golpe que acerta quem concentra é um teste de Vigor contra a CD de quem bateu.** *Feitiço: a CD do feitiço. Arma ou desarmado: `8 + o atributo do ataque + maestria`. Inimigo: a CD da ficha dele. Invocação: a CD dos efeitos dela. Dano sem autor (queda, armadilha): o mestre declara na escada da peça 4 §2.* **A `Mão Firme` continua igual: dano de `10` ou menos não pede o teste.**
+
+**Os números do pedido reproduziram todos dos donos** *(maestria da peça 1 §2, CD do inimigo da peça 26 §3.1, e a tabela `Inimigos` do manual para a regra antiga)*: **a CD do inimigo é `12` · `14` · `14` · `16` · `16` · `18` nos níveis `5` a `30`; quem investiu e treinou o Vigor resiste `65%` em todo nível; quem não treinou cai de `60%` para `45%`, e Constituição `3` sem treino de `60%` para `30%`. Segurar `10` rodadas é `41%` em qualquer nível, contra `53%` no nível `5`, `24%` no `10` e `7%` do `15` em diante na regra antiga.**
+
+**A conta achou duas coisas que o pedido não dizia.** *A regra antiga zera o Vigor do nível `15`, e não do `20`: a CD dela é `27` contra um bônus de `6`, e nenhum `d20` passa.* **E nos níveis baixos a regra nova é mais dura que a antiga** — `41%` contra `53%` no nível `5` —, *porque o golpe de chefe ali ainda é pequeno e a CD `10` era fácil.* **Isso está escrito na peça como custo da regra**, e um golpe pequeno de inimigo forte pede o mesmo teste que um golpe grande: só a `Mão Firme` livra.
+
+**Contra-teste da escolha "um teste por golpe":** *se fosse um por rodada, no cenário da peça (`1` golpe em `4` cai em quem concentra) seriam `41%` por golpe e `42%` por rodada; se o chefe foca em quem concentra, `2%` contra `5%`.* **A escolha quase não muda o número, e muda o tanto de rolagem na mesa.**
+
+### 2 · As duas perguntas que fiz antes de mexer
+
+**A corrida.** *A CD dela era a do dono do outro domínio, decisão do Mizuki de 12/09; ele escreveu que ela "passa a ser literalmente a mesma rolagem", e isso reverte a decisão.* ***Perguntei antes, e ele escolheu alinhar.*** **Só muda quando quem bate não é o dono do outro domínio.** *Um default meu, para ele vetar: quando o jogador acertou o inimigo de mais de um jeito na rodada, com CDs diferentes, vale a maior.*
+
+**A arma e o dano sem autor.** *"A CD de quem te feriu" não existe num golpe de arma nem numa queda.* ***Decisão dele: a arma pela fórmula, o dano sem autor pelo mestre*** *(a alternativa era manter `10` ou metade do dano só para o dano sem autor, o que deixava duas regras de CD vivas no capítulo 2).* *A invocação usando a CD dos efeitos dela foi default meu, sem pergunta.*
+
+### 3 · O que a busca achou de diferente do pedido
+
+**As peças 14 e 24, o `gerador-inimigo/dados.js` e o capítulo 8 NÃO carregam a regra.** *Os `concentra` ali são "o chefe concentra o fogo", o foco de dano.* **As cópias reais:** *peça 3 (dona), `partD.js` (o `Carregar`), `partE.js` (a corrida, que não estava na lista), capítulo 2, capítulo 9 (`Carregar` e corrida), glossário e o texto compilado do livro.* **A ficha (`Claude 3`) guarda a regra antiga no catálogo em JSON dela (o `Carregar`) e em quatro pontos do texto do manual dela, e só mexe depois do livro.**
+
+### 4 · As checagens e o arnês
+
+**`conferir-acao.py`, checagem `7`:** *deriva a CD do inimigo, o Vigor e as duas tabelas da peça 3 dos donos, e confere também os números da prosa (`41%`, `53%`, o nível `15`, o `7%`). O cenário e o piso da regra antiga são lidos do texto da própria peça, e nada disso fica escrito no validador.* **`conferir-manual.py`, checagem `4m`:** *a frase nova em cada cópia (`.docx`, capítulo 2, capítulo 9, glossário, texto compilado), a antiga proibida em todas, e o `10` da `Mão Firme` lido do `.docx` e comparado com as outras três.* **`conferir-expansao.py`, `11.2`:** *a corrida com a frase nova, e "a CD do dono do outro domínio" proibida no manual e no livro.*
+
+**O arnês rodou numa cópia isolada, com a base verde e sem `PULADA`: `36` perturbações acendem a etiqueta certa e `6` que não podem acender ficam verdes.** *Cobre tabelas, prosa, cenário e os quatro donos (peça 1 duas vezes, peça 26 e o `.docx`). A única falha do arnês foi da própria perturbação: acrescentar uma palavra depois do trecho que o regex lê não quebrava a leitura, e a troquei por uma que quebra.* ***A primeira versão da checagem `7` falhou alto por dois erros meus*** *(o cabeçalho da tabela de maestria começa com `|`, e o regex do parágrafo pegava a linha da tabela do topo da peça), e não passou em silêncio.*
+
+**Dois erros meus na escrita, pegos pelos validadores:** *citei `peça 3 §2.1`, que não existe (a Concentração mora no §3, e a subseção ficou sem número, no molde das outras); e escrevi "Restrição Média" no `ESTADO`, que o `conferir-nomes` lê como nome de Restrição — é a armadilha de categoria da skill.*
+
+### 5 · A duração, registrada e não aplicada
+
+***Decisão do Mizuki:*** *a duração vira regra mais Melhoria, e não Restrição. O efeito de duração em combate exige concentração, com uma Melhoria de duração para o feitiço comum e outra para tirar a concentração, que custa mais; a Forma `Efeito` fica como está.* **Falta precificar as duas, e a pesquisa de D&D dele está registrada no `ESTADO-ATUAL`.**
+
+### Alterado
+
+- **Manual `v7.34`:** *`partD.js` (o `Carregar`), `partE.js` (a corrida), `partA.js` (a capa), os dois `COMO-USAR.txt` (com o "o que mudou"), e o `.docx` e o `.pdf` regerados (`49` páginas, as mesmas).*
+- **Livro:** *capítulo 2 (a regra, o exemplo e a frase da corrida), capítulo 9 (o `Carregar` e a corrida), glossário; os quatro artefatos refeitos, em `257` páginas de coluna única e `146` de duas, as mesmas de antes.*
+- **Peça 3:** *o parágrafo da Concentração e a subseção nova `A CD de quem te feriu`, com as duas tabelas.* **`RASCUNHO-expansao-sem-barreira.md`:** *uma nota no §7.2 dizendo que a CD da corrida foi revista.*
+- **`conferir-acao.py`** *(checagem `7`)*, **`conferir-manual.py`** *(checagem `4m`)*, **`conferir-expansao.py`** *(`11.2`)*.
+- **`README`, `LEIA-ME`, `ESTADO-ATUAL` e `arquitetura`:** *as versões (projeto `v0.253`, manual `v7.34`) e o item `9` da fila.*
+
+### Decidido
+
+- **A Concentração rola Vigor contra a CD de quem te feriu, um teste por golpe.**
+- **O `Carregar` usa a mesma CD, com o teste de Espírito.**
+- **A corrida de domínios é a mesma rolagem, com a CD de quem te feriu (a decisão de 12/09 foi revertida).**
+- **Arma pela fórmula, dano sem autor pelo mestre.**
+- **A duração vira regra mais Melhoria (registrado, não aplicado).**
+
+### Continua aberto
+
+- **O custo nos níveis baixos:** *`41%` contra `53%` no nível `5`. Está escrito na peça, e o Mizuki ainda não disse se aceita.*
+- **A ficha (`Claude 3`):** *o catálogo em JSON e o texto do manual dela, depois do livro.*
+- **A duração e as duas Melhorias (v0.254), o ritual, e a Força com peso** *(itens `9`, `11` e `8` da fila).*
+- **O que já estava aberto:** *a remodelagem das invocações e do Evocador, e o `maestria(nv)` do `conferir-invocacoes.py`.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, item `9` da seção *"Problemas de design abertos"* (a duração).
+
+---
+
 ## [0.252] — 19/09/2026
 
 **A `Regra Própria` de Classe `1` passa a vir de graça na criação, e o `conferir-voz.py` volta a sair `0` e entra no `subir.sh`.** *São duas coisas numa versão só porque o Mizuki reverteu o commit do `conferir-voz` (eu tinha commitado sem ele pedir) e escolheu juntar as duas.* **Primeiro o `conferir-voz`:** *Ele saía `1` de propósito por dois títulos que o Mizuki renomeou à mão, e o `ESTADO-ATUAL` já avisava o custo: um erro novo ali dentro não movia o código, e o `subir.sh` nem olhava. Foi assim que o número de entradas de catálogo ficou velho sem ninguém ver.*

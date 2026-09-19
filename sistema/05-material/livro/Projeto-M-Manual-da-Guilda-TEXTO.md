@@ -198,7 +198,7 @@ O eixo de controle de quem não tem energia amaldiçoada nenhuma, no lugar do re
 | **Ação Bônus** | Uma por turno, e só o que a regra disser com todas as letras que é Ação Bônus | 2 |
 | **Reação** | Uma por turno, responde a um gatilho e vale fora do seu turno | 2 |
 | **Rodada inteira** | Custa a Ação de Movimento, a Ação Padrão e a Ação Bônus de uma vez. A Reação continua sua | 2 |
-| **Concentração** | Manter um efeito de pé. Um por vez, e tomar dano pede Teste de Resistência de Vigor | 2 |
+| **Concentração** | Manter um efeito de pé. Um por vez, e tomar dano pede Teste de Resistência de Vigor contra a CD de quem te feriu | 2 |
 | **`Estudar`** | Ação Padrão: um teste sobre uma criatura ou objeto que você enxerga, para saber o que ele é e o que ele vai fazer | 2 |
 | **Cobertura** | O que está entre você e quem atira. Três degraus: Parcial, Boa e Total | 4 |
 | **`Agarrar`** | Opção do `Atacar`. Aplica a condição `Agarrado` | 2 |
@@ -887,15 +887,19 @@ Duas coisas passam livre: quem usou `Desengajar` naquele turno, e qualquer movim
 
 Alguns efeitos exigem que você mantenha a atenção neles enquanto duram: a barreira que continua de pé, a coisa que você está segurando no lugar do outro lado da sala. Você concentra em um por vez; começar um segundo derruba o primeiro.
 
-> **Quando você toma dano concentrando, faça um Teste de Resistência de Vigor. A CD é 10, ou metade do dano que você tomou, o que for maior. Se falhar, o efeito cai.**
+> **Quando você toma dano concentrando, faça um Teste de Resistência de Vigor contra a CD de quem te feriu. Se falhar, o efeito cai.**
 
-> **Exemplo.** O Kaito está concentrando num efeito e leva 26 de dano. Metade de 26 é 13, e 13 é maior que 10: a CD é 13. Se o golpe tivesse tirado 12, a metade daria 6, e a CD seria 10 mesmo.
+**A CD é a de quem te feriu**, a que ele usa para o que faz. Num feitiço, é a CD do feitiço dele: `8 + o atributo + a maestria`. Num golpe de arma ou desarmado, é a mesma conta com o atributo do ataque. Num inimigo, é a CD que a ficha dele diz. **Cada golpe que te acerta é um teste**, mesmo que sejam vários na mesma rodada. Se o dano não tem autor (uma queda, uma armadilha), o mestre escolhe a CD na escada de dificuldade do capítulo 1, *Como Jogar*.
 
-**Na corrida entre dois domínios a rolagem é a mesma, com a CD e a contagem trocadas.** A regra está no capítulo 40, na seção *Domínios sobrepostos*.
+**Dano de 10 ou menos não pede o teste** para quem tem a Passiva `Mão Firme`.
+
+> **Exemplo.** A CD da maldição é 14. O Kaito está concentrando num efeito e ela o acerta duas vezes na rodada. Ele faz dois Testes de Resistência de Vigor contra 14, um por golpe. Se falhar em qualquer um dos dois, o efeito cai.
+
+**Na corrida entre dois domínios a rolagem é a mesma, com a contagem trocada.** A regra está no capítulo 40, na seção *Domínios sobrepostos*.
 
 ### Concentração e Carregar
 
-As duas seguram alguma coisa contra o dano, em momentos diferentes da vida de um feitiço.
+As duas seguram alguma coisa contra o dano, em momentos diferentes da vida de um feitiço. **As duas rolam contra a CD de quem te feriu**; o que troca é o teste e o que você perde.
 
 **Concentração e Carregar**
 | | O que você segura | Teste | Falhar custa |
@@ -3932,7 +3936,7 @@ Uma Restrição devolve `Leve` ou `Média`, nunca `Pesada`. Duas `Média` já ba
 | `Gesto` | `Leve` | Precisa das duas mãos livres e de falar em voz audível. |
 | `Sangra` | `Média` | Você toma 2 × Classe de dano que não pode ser reduzido. |
 | `Recuo` | `Leve` ou `Média` | Você fica com uma condição até o fim do seu próximo turno. Ela devolve o nível dela: uma condição `Leve` devolve `Leve`, uma `Média` devolve `Média`. Nível `Pesada` não entra, porque Restrição nunca devolve `Pesada`. |
-| `Carregar` | `Média` | Você gasta um turno carregando o feitiço antes de disparar. Se tomar dano nesse meio-tempo, faz um Teste de Resistência de Espírito (CD 10, ou metade do dano, o que for maior) para manter. Se falhar, perde o feitiço. Carregar não é concentração: o feitiço ainda não saiu. |
+| `Carregar` | `Média` | Você gasta um turno carregando o feitiço antes de disparar. Se tomar dano nesse meio-tempo, faz um Teste de Resistência de Espírito contra a CD de quem te feriu para manter. Se falhar, perde o feitiço. Carregar não é concentração: o feitiço ainda não saiu. |
 | `Tudo ou Nada` | `Leve` | Quem passa no Teste de Resistência não toma nada, em vez de tomar metade. Só em feitiços de Teste de Resistência. |
 | `Uma Vez` | `Leve` | Uma vez por cena. |
 | `Condicional` | `Leve` ou `Média` | Só funciona quando uma condição de cena ou de alvo, escrita na ficha, é verdadeira: no escuro, marcado por você, abaixo de metade da vida, perto de água corrente. Falha em menos de uma cena a cada três: devolve `Leve`. Falha na maioria das cenas: devolve `Média`. |
@@ -4222,9 +4226,9 @@ O Acerto do Megumi *reforça* em vez de *atingir*, e é o que dá para fazer com
 
 **A corrida.** Os dois domínios seguem de pé, os dois Acertos seguem desligados, e a luta corre normal. **O primeiro dos dois que perder o domínio** — barreira derrubada por fora, o tempo acabou, ou falhas de concentração demais — **ou chegar a `0` de vida recebe o Acerto do outro na hora.**
 
-**Na corrida, segurar o domínio pede concentração.** Quem mantém um domínio e toma dano faz um **Teste de Resistência de Vigor contra a CD do dono do outro domínio**. Cada falha fica marcada até a corrida acabar, e **quando as falhas chegam a metade da sua Essência, o seu domínio cai**.
+**Na corrida, segurar o domínio pede concentração.** Quem mantém um domínio e toma dano faz um **Teste de Resistência de Vigor contra a CD de quem te feriu**, a mesma rolagem da Concentração. Cada falha fica marcada até a corrida acabar, e **quando as falhas chegam a metade da sua Essência, o seu domínio cai**.
 
-**Personagem de jogador testa a cada dano que toma, sem limite. Inimigo testa no máximo uma vez por jogador que acertou ele na rodada**, por mais golpes que esse jogador dê. **Golpe de invocação não conta:** ele tira vida do inimigo, e não faz o inimigo testar.
+**Personagem de jogador testa a cada dano que toma, sem limite. Inimigo testa no máximo uma vez por jogador que acertou ele na rodada**, por mais golpes que esse jogador dê, e contra a maior CD entre eles. **Golpe de invocação não conta:** ele tira vida do inimigo, e não faz o inimigo testar.
 
 **Este teste não ocupa a sua Concentração, e a Mão Firme não protege dele.** Você pode segurar o domínio na corrida e seguir concentrando num efeito, e as duas rolagens são separadas.
 
@@ -4235,7 +4239,7 @@ O Acerto do Megumi *reforça* em vez de *atingir*, e é o que dá para fazer com
 
 > **Exemplo.** A sua Essência é 5, então a segunda falha derruba o seu domínio. Na corrida você toma três golpes numa rodada e falha no segundo e no terceiro: o seu domínio cai na terceira rolagem, e o Acerto do outro te pega na hora.
 >
-> *A metade arredonda para baixo e nunca fica abaixo de 1: é a regra de arredondamento, em que o que você ganha desce.* **É a mesma rolagem de Vigor da Concentração, com a CD e a contagem trocadas**, e ela só existe enquanto dura a corrida.
+> *A metade arredonda para baixo e nunca fica abaixo de 1: é a regra de arredondamento, em que o que você ganha desce.* **É a mesma rolagem de Vigor da Concentração, com a contagem trocada**, e ela só existe enquanto dura a corrida.
 
 **Quem perde recebe o Acerto do vencedor, e não tem como recusar.** O domínio dele já caiu, e quem cai não abre saída na barreira que continua de pé.
 
@@ -6856,4 +6860,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: 1405ac4030a20a6b632f1ef6070d89c2f2b9451d -->
+<!-- fonte: 584b671408d581839846e1c61dc6a95f22e0ba7c -->

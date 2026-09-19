@@ -53,7 +53,7 @@ Um turno contém quatro recursos, e eles são independentes:
 
 **Ataque de oportunidade.** Quando alguém sai do seu alcance de corpo a corpo sem tomar cuidado, você pode gastar a sua Reação para atacar. É o que dá sentido a Passo e Pressa dizerem "sem provocar".
 
-**Concentração.** Alguns efeitos exigem que você mantenha a atenção neles — a Melhoria **Fica**, um efeito que dura, uma condição que você segura. Você só concentra em um por vez, e ao tomar dano faz um **Teste de Resistência Vigor** contra CD 10 ou metade do dano, o que for maior. Falhou, o efeito cai.
+**Concentração.** Alguns efeitos exigem que você mantenha a atenção neles — a Melhoria **Fica**, um efeito que dura, uma condição que você segura. Você só concentra em um por vez, e ao tomar dano faz um **Teste de Resistência Vigor** contra **a CD de quem te feriu**. Falhou, o efeito cai. **É um teste por golpe que te acerta**, e não um por rodada. *Este parágrafo dizia "CD 10 ou metade do dano, o que for maior" até a v0.252; a subseção `A CD de quem te feriu`, logo abaixo, tem o que trocou e por quê.*
 
 *Corrigido na v0.26.* Este parágrafo dizia **Físico**, e o manual dizia *"teste de Constituição"* dentro da Restrição Carregar — dois documentos, dois testes, e este aqui ainda afirmava que era *"a mesma régua que Carregar já usa"*. A régua da CD era; o teste não. **Concentração é Vigor**, e o manual v7.6 deixou de nomear teste pelo atributo.
 
@@ -65,6 +65,50 @@ Um turno contém quatro recursos, e eles são independentes:
 | **Carregar** | o feitiço que ainda não saiu | **Espírito** | o feitiço, e o que você pagou por ele |
 
 A Passiva **Mão Firme** cobre os dois, e o manual v7.6 diz isso com todas as letras — *"não perde concentração nem carga por dano de 10 ou menos"* —, porque com a divisão o nome dela sozinho não alcançava mais o Carregar.
+
+### A CD de quem te feriu — v0.253
+
+> ***Decisão do Mizuki em 19/09/2026 (v0.253): a CD sai de quem bateu, e não do dano.*** *Até a v0.252 a Concentração rolava contra `10` ou metade do dano, o que fosse maior, sem teto. Ela quebra no dano de chefe, e as tabelas abaixo mostram onde.*
+
+**De quem é a CD.** É a de quem causou o dano, na forma de sempre da peça 1 §5:
+
+- *feitiço:* a CD do feitiço, `8 + atributo da técnica + maestria`;
+- *golpe de arma ou desarmado:* `8 + o atributo do ataque + maestria` — Força no corpo a corpo, Destreza à distância. É a mesma forma, e a peça 26 §3 já lê assim a CD do inimigo;
+- *inimigo:* a CD da ficha dele, peça 26 §3;
+- *invocação:* a CD dos efeitos dela, peça 15 §3.6;
+- *dano sem autor* (queda, armadilha, uma zona sem dono): o mestre declara a CD na escada da peça 4 §2.
+
+**Um teste por golpe.** *O jogador raramente enfrenta mais de duas fichas, e o inimigo precisa bater em vários alvos.* Cada golpe que acerta quem concentra pede um teste, e a CD é a de quem bateu. **O `Carregar` usa a mesma CD**, com o teste de Espírito que ele já tinha. **A `Mão Firme` continua igual:** dano de `10` ou menos não pede o teste.
+
+**A corrida de domínios é esta mesma rolagem** *(manual, seção `Dois domínios abertos ao mesmo tempo`; livro, `Domínios sobrepostos`)*: Vigor contra a CD de quem te feriu. **Só a contagem troca:** na corrida as falhas ficam marcadas e o domínio cai quando chegam a metade da Essência, e aqui uma falha derruba o efeito. *Até a v0.252 a CD da corrida era a do dono do outro domínio, decisão de 12/09 (o rascunho da Expansão sem Barreiras, §7.2). O Mizuki alinhou as duas em 19/09.* **Quando o jogador acertou o inimigo de mais de um jeito na rodada, com CDs diferentes, vale a maior.**
+
+**Contra o que a regra se mede.** *O inimigo carrega a mesma curva de atributo de quem investe (peça 26 §3.1), então a CD dele é a de um personagem investido no mesmo nível.* O Teste de Resistência é `d20 + atributo + maestria`, e a maestria só entra em quem treinou (peça 1 §5).
+
+**Chance de passar no teste de Vigor contra a CD do inimigo**
+
+| | nv 5 | nv 10 | nv 15 | nv 20 | nv 25 | nv 30 |
+|---|---|---|---|---|---|---|
+| **CD do inimigo** | `12` | `14` | `14` | `16` | `16` | `18` |
+| Vigor investido e treinado | `65%` | `65%` | `65%` | `65%` | `65%` | `65%` |
+| Vigor investido, sem treino | `60%` | `55%` | `55%` | `50%` | `50%` | `45%` |
+| Constituição 3, sem treino | `60%` | `50%` | `50%` | `40%` | `40%` | `30%` |
+
+**Quem treinou o Vigor não deriva** (os `65%` são os mesmos da peça 1 §6), **e quem não treinou cai de propósito.** *É a distância que o manual já quer entre quem treinou e quem não treinou, a mesma da §5.0 da peça 1.*
+
+**Quanto tempo uma concentração aguenta.** *O cenário: o chefe faz `2` golpes por rodada, acerta `50%`, e `1` golpe em `4` cai em quem concentra, porque o grupo tem quatro. A concentração aguenta `10` rodadas quando nenhum teste falha.*
+
+**Chance de segurar `10` rodadas**
+
+| | nv 5 | nv 10 | nv 15 | nv 20 | nv 25 | nv 30 |
+|---|---|---|---|---|---|---|
+| **regra nova** · Vigor investido e treinado | `41%` | `41%` | `41%` | `41%` | `41%` | `41%` |
+| regra nova · Constituição 3, sem treino | `36%` | `28%` | `28%` | `21%` | `21%` | `16%` |
+| *CD da regra antiga* | `10` | `18` | `27` | `36` | `45` | `54` |
+| **regra antiga** · Vigor investido e treinado | `53%` | `24%` | `7%` | `7%` | `7%` | `7%` |
+
+***Por que a regra antiga saiu:*** *o golpe do chefe cresce com o nível e a CD dela cresce junto, sem teto. No nível `10` ela passa a `18` e quem treinou resiste `45%`; do nível `15` em diante nenhum `d20` resiste, e o `7%` que sobra é o chefe errar os golpes, não o teste.* **A regra nova segura `41%` em qualquer nível, porque os dois lados crescem juntos** — é a lição nº 1 do projeto.
+
+**O que a regra nova cobra, e o Mizuki ainda não viu:** *nos níveis baixos ela é mais dura que a antiga para quem concentra — `41%` contra `53%` no nível `5`, porque o golpe de chefe ali ainda é pequeno e a CD `10` era fácil.* **E um golpe pequeno de inimigo forte pede o mesmo teste que um golpe grande:** só a `Mão Firme` livra dos golpes de `10` ou menos.
 
 ## 3.1 A lista de ações
 

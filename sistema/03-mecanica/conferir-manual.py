@@ -1060,6 +1060,107 @@ else:
 
 
 # --------------------------------------------------------------------------
+# 4m. v0.253: a Concentracao rola Vigor contra a CD de QUEM FERIU, e nao mais contra
+# `10` ou metade do dano (decisao do Mizuki, 19/09/2026; a peca 3 §3, subsecao `A CD de
+# quem te feriu`, e' a dona da regra e o conferir-acao.py, checagem 7, deriva as tabelas
+# dela). Esta checagem guarda as COPIAS: o `Carregar` (usa a mesma CD, com teste de
+# Espirito), a corrida de dominios (que passou a ser a mesma rolagem, so com a contagem
+# trocada), o capitulo 2 e o glossario. Nenhum numero e' escrito aqui: o `10` da Mao Firme
+# sai da Passiva no .docx (o dono) e tem de ser o mesmo nas outras tres copias.
+print()
+print('  4m. a Concentracao contra a CD de quem te feriu: as copias, a frase antiga e a Mao Firme')
+
+_livro_m = os.path.join(AQUI, '..', '05-material', 'livro')
+
+
+def _le_m(*partes):
+    _c = os.path.join(_livro_m, *partes)
+    return open(_c, encoding='utf-8').read() if os.path.isfile(_c) else None
+
+
+_sem_md = lambda t: t.replace('**', '').replace('`', '')
+_docx_m = '\n'.join([p.text for p in _D.paragraphs] +
+                    [c.text for t_ in _D.tables for r_ in t_.rows for c in r_.cells])
+_c2m = _sem_md(_le_m('manual', '11-o-turno.md') or '')
+_c9m = _sem_md(_le_m('manual', '40-fundamento.md') or '')
+_glm = _sem_md(_le_m('manual', '07-glossario.md') or '')
+_p3m = _sem_md(open(os.path.join(AQUI, '03-economia-de-acao-e-iniciativa.md'), encoding='utf-8').read())
+_txm = _le_m('Projeto-M-Manual-da-Guilda-TEXTO.md')
+_txm = _sem_md(_txm) if _txm else None
+_ok4m = True
+
+
+def _quer_m(onde, texto, frase):
+    global _ok4m
+    if frase not in texto:
+        _ok4m = False
+        erro(f'4m: {onde} nao diz "{frase}"')
+
+
+def _proibe_m(onde, texto, frase):
+    global _ok4m
+    if frase in texto:
+        _ok4m = False
+        erro(f'4m: {onde} ainda diz "{frase}" — a regra que a decisao de 19/09/2026 tirou')
+
+
+_CARREGAR = 'faz um Teste de Resistência de Espírito contra a CD de quem te feriu para manter'
+_CORRIDA = 'Teste de Resistência de Vigor contra a CD de quem te feriu, a mesma rolagem da Concentração'
+_MAIOR = 'e contra a maior CD entre eles'
+_VELHAS = ('ou metade do dano, o que for maior', 'ou metade do dano que você tomou',
+           'CD do dono do outro domínio', 'com a CD e a contagem trocadas')
+
+# o .docx (dono) e o capitulo 9 (copia)
+for _onde, _t in (('o .docx', _docx_m), ('o capitulo 9 do livro', _c9m)):
+    _quer_m(_onde, _t, _CARREGAR)
+    _quer_m(_onde, _t, _CORRIDA)
+    _quer_m(_onde, _t, _MAIOR)
+# o capitulo 2 e o glossario
+_quer_m('o capitulo 2 do livro', _c2m, 'faça um Teste de Resistência de Vigor contra a CD de quem te feriu. Se falhar, o efeito cai.')
+_quer_m('o capitulo 2 do livro', _c2m, 'Cada golpe que te acerta é um teste')
+_quer_m('o capitulo 2 do livro', _c2m, 'a rolagem é a mesma, com a contagem trocada')
+_quer_m('o capitulo 9 do livro', _c9m, 'a mesma rolagem de Vigor da Concentração, com a contagem trocada')
+_quer_m('o glossario do livro', _glm, 'tomar dano pede Teste de Resistência de Vigor contra a CD de quem te feriu')
+_quer_m('a peca 3', _p3m, 'Cada golpe que acerta quem concentra pede um teste')
+# a frase antiga, em todo lugar que publica a regra
+for _onde, _t in (('o .docx', _docx_m), ('o capitulo 2 do livro', _c2m), ('o capitulo 9 do livro', _c9m),
+                  ('o glossario do livro', _glm), ('o texto compilado do livro', _txm)):
+    if _t is None:
+        continue
+    for _v in _VELHAS:
+        _proibe_m(_onde, _t, _v)
+if _txm is not None:
+    _quer_m('o texto compilado do livro', _txm, _CARREGAR)
+    _quer_m('o texto compilado do livro', _txm, _CORRIDA)
+    _quer_m('o texto compilado do livro', _txm, 'faça um Teste de Resistência de Vigor contra a CD de quem te feriu. Se falhar, o efeito cai.')
+else:
+    print('    ~~ o texto compilado do livro nao existe: as copias dele nao foram conferidas')
+
+# a Mao Firme: o dono e o .docx; as outras tres copias tem de dizer o mesmo numero
+_mf = re.search(r'não perde concentração nem carga por dano de (\d+) ou menos', _docx_m)
+if not _mf:
+    _ok4m = False
+    erro('4m: a Passiva `Mão Firme` saiu do .docx, ou parou de dizer "por dano de N ou menos" — '
+         'sem ela nao ha de onde ler o numero que as copias repetem')
+else:
+    _nmf = _mf.group(1)
+    for _onde, _t, _rx in (
+            ('o capitulo 9 do livro', _c9m, r'não perde concentração nem carga por dano de (\d+) ou menos'),
+            ('o capitulo 2 do livro', _c2m, r'Dano de (\d+) ou menos não pede o teste'),
+            ('a peca 3', _p3m, r'dano de (\d+) ou menos não pede o teste')):
+        _mx = re.search(_rx, _t)
+        if not _mx:
+            _ok4m = False
+            erro(f'4m: {_onde} nao diz a regra da Mao Firme ({_rx})')
+        elif _mx.group(1) != _nmf:
+            _ok4m = False
+            erro(f'4m: {_onde} diz "dano de {_mx.group(1)} ou menos" e a Passiva do .docx diz {_nmf}')
+if _ok4m:
+    print('    [x] o Carregar, a corrida, o capitulo 2, o glossario e a peca 3 dizem a CD de quem te feriu; '
+          'nenhuma copia guarda a regra antiga; a Mao Firme diz o mesmo numero nas quatro.')
+
+
+# --------------------------------------------------------------------------
 bloco('5. O PORTAO DAS LINHAS DE CONTROLE — quem prende o alvo diz como solta')
 # --------------------------------------------------------------------------
 # v0.151. O `Cerca` passou nove versoes sendo a UNICA linha de Controle que

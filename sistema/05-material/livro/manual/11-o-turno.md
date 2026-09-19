@@ -131,15 +131,19 @@ Duas coisas passam livre: quem usou `Desengajar` naquele turno, e qualquer movim
 
 Alguns efeitos exigem que você mantenha a atenção neles enquanto duram: a barreira que continua de pé, a coisa que você está segurando no lugar do outro lado da sala. Você concentra em um por vez; começar um segundo derruba o primeiro.
 
-> **Quando você toma dano concentrando, faça um Teste de Resistência de Vigor. A CD é 10, ou metade do dano que você tomou, o que for maior. Se falhar, o efeito cai.**
+> **Quando você toma dano concentrando, faça um Teste de Resistência de Vigor contra a CD de quem te feriu. Se falhar, o efeito cai.**
 
-> **Exemplo.** O Kaito está concentrando num efeito e leva 26 de dano. Metade de 26 é 13, e 13 é maior que 10: a CD é 13. Se o golpe tivesse tirado 12, a metade daria 6, e a CD seria 10 mesmo.
+**A CD é a de quem te feriu**, a que ele usa para o que faz. Num feitiço, é a CD do feitiço dele: `8 + o atributo + a maestria`. Num golpe de arma ou desarmado, é a mesma conta com o atributo do ataque. Num inimigo, é a CD que a ficha dele diz. **Cada golpe que te acerta é um teste**, mesmo que sejam vários na mesma rodada. Se o dano não tem autor (uma queda, uma armadilha), o mestre escolhe a CD na escada de dificuldade do capítulo 1, *Como Jogar*.
 
-**Na corrida entre dois domínios a rolagem é a mesma, com a CD e a contagem trocadas.** A regra está no capítulo 40, na seção *Domínios sobrepostos*.
+**Dano de 10 ou menos não pede o teste** para quem tem a Passiva `Mão Firme`.
+
+> **Exemplo.** A CD da maldição é 14. O Kaito está concentrando num efeito e ela o acerta duas vezes na rodada. Ele faz dois Testes de Resistência de Vigor contra 14, um por golpe. Se falhar em qualquer um dos dois, o efeito cai.
+
+**Na corrida entre dois domínios a rolagem é a mesma, com a contagem trocada.** A regra está no capítulo 40, na seção *Domínios sobrepostos*.
 
 ### Concentração e Carregar
 
-As duas seguram alguma coisa contra o dano, em momentos diferentes da vida de um feitiço.
+As duas seguram alguma coisa contra o dano, em momentos diferentes da vida de um feitiço. **As duas rolam contra a CD de quem te feriu**; o que troca é o teste e o que você perde.
 
 **Concentração e Carregar**
 {: .tab-titulo }

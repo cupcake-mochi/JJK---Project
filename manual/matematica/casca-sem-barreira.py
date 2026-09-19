@@ -2,6 +2,10 @@
 """Rascunho da Expansao sem Barreiras, secao 7.4 (12/09/2026).
 
 A corrida da casca contra a corrida da concentracao. Nenhum numero digitado.
+
+v0.253: a CD do teste de Vigor da corrida deixou de ser a do dono do outro dominio e passou a
+ser a de quem feriu (peca 3 §3). Este script mede o caso do rival batendo em pessoa, em que
+as duas CDs sao a mesma; as contas nao mudam, so o rotulo.
 """
 # A corrida da casca contra a corrida da concentração. Donos: manual partA (pontos e Média por
 # Classe), partD (Inescapável = Média, sem outra peça), livro cap. 40 (casca por fora = 50 × metade
@@ -44,7 +48,7 @@ for c in (6, 7):
     print(f'  Acerto de Classe {c} ({dmg:.0f}) ' + ''.join(f'{math.ceil(K*(r//2)/dmg):<12d}' for r in (5, 7, 10)))
 print('  -> "1" quer dizer que cai ao abrir; "4" quer dizer abrir e mais três turnos do dono')
 print()
-print('A CONCENTRAÇÃO: cada golpe no dono durante a corrida é um TR de Vigor contra a CD do rival')
+print('A CONCENTRAÇÃO: cada golpe no dono durante a corrida é um TR de Vigor contra a CD de quem bate (aqui, o rival em pessoa)')
 def pf(bonus, cd):
     return 1 - max(0, min(20, 21 - (cd - bonus))) / 20
 for nv, mae in ((22, 3), (26, 4)):

@@ -926,9 +926,11 @@ if _lv and _PE:
 bloco('11.2. A CONCENTRACAO NA CORRIDA — a regra nos dois documentos, e a tabela sai da conta')
 # --------------------------------------------------------------------------
 # v0.225. Decisao do Mizuki em 13/09: na corrida, quem mantem um dominio testa
-# Vigor contra a CD do dono do outro dominio; o jogador testa a cada dano, o
-# inimigo no maximo uma vez por jogador por rodada; as falhas acumulam, e o
-# dominio cai quando elas chegam a uma fracao da Essencia.
+# Vigor; o jogador testa a cada dano, o inimigo no maximo uma vez por jogador por
+# rodada; as falhas acumulam, e o dominio cai quando elas chegam a uma fracao da
+# Essencia. v0.253 (19/09): a CD deixou de ser a do dono do outro dominio (decisao
+# de 12/09) e passou a ser a de quem feriu, a mesma da Concentracao — a peca 3 §3
+# e' a dona, e a frase antiga fica PROIBIDA nos dois documentos.
 #
 # Tres coisas separadas, porque cada uma pode quebrar sozinha:
 #   a) as cinco pecas da regra estao no manual (dono) E no livro (copia)
@@ -952,7 +954,8 @@ _fL = _secL.find('\n## ')
 _secL = _secL[:_fL] if _fL > 0 else _secL
 
 PECAS = {
-    'o teste':                  r'Teste de Resistência de Vigor contra a CD do dono do outro domínio',
+    'o teste':                  r'Teste de Resistência de Vigor contra a CD de quem te feriu',
+    'a maior CD':               r'e contra a maior CD entre eles',
     'a contagem de falhas':     r'as falhas chegam a (metade|um terço|um quarto) da sua Essência',
     'o jogador, sem limite':    r'jogador testa a cada dano que toma, sem limite',
     'o inimigo, um por jogador': r'no máximo uma vez por jogador que acertou ele na rodada',
@@ -977,6 +980,16 @@ else:
         erro(f'11.2: {_f}')
     if not _falta:
         print(f'  [x] as {len(PECAS)} pecas da regra estao no manual e no livro.')
+
+    # v0.253: a frase da CD antiga nao pode sobreviver em nenhuma das duas copias
+    _velha = r'CD do dono do outro domínio'
+    _ficou = [_o for _o, _t in (('MANUAL', _secM), ('LIVRO', _secL))
+              if re.search(_velha, _t.replace('**', ''))]
+    for _o in _ficou:
+        erro(f'11.2: o {_o} ainda diz "CD do dono do outro dominio" — a decisao de 19/09/2026 '
+             'passou a CD da corrida para a de quem te feriu (peca 3 §3)')
+    if not _ficou:
+        print('  [x] a CD do dono do outro dominio nao sobrevive no manual nem no livro.')
 
     # b) a fracao e o arredondamento
     FRAC = {'metade': 2, 'um terço': 3, 'um quarto': 4}

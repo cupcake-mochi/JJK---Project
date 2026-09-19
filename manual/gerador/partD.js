@@ -185,7 +185,7 @@ const restricoes = [
       ['Gesto', 'Leve', 'Precisa das duas mãos livres e de falar em voz audível.'],
       ['Sangra', 'Média', 'Você toma 2 × Classe de dano que não pode ser reduzido.'],
       ['Recuo', 'Leve ou Média', 'Você fica com uma condição até o fim do seu próximo turno. Ela devolve o nível dela: uma condição Leve devolve Leve, uma Média devolve Média. Nível Pesada não entra, porque Restrição nunca devolve Pesada.'],
-      ['Carregar', 'Média', 'Você gasta um turno carregando o feitiço antes de disparar. Se tomar dano nesse meio-tempo, faz um Teste de Resistência de Espírito (CD 10, ou metade do dano, o que for maior) para manter. Se falhar, perde o feitiço. Carregar não é concentração: o feitiço ainda não saiu.'],
+      ['Carregar', 'Média', 'Você gasta um turno carregando o feitiço antes de disparar. Se tomar dano nesse meio-tempo, faz um Teste de Resistência de Espírito contra a CD de quem te feriu para manter. Se falhar, perde o feitiço. Carregar não é concentração: o feitiço ainda não saiu.'],
       ['Tudo ou Nada', 'Leve', 'Quem passa no Teste de Resistência não toma nada, em vez de tomar metade. Só em feitiços de Teste de Resistência.'],
       ['Uma Vez', 'Leve', 'Uma vez por cena.'],
       ['Condicional', 'Leve ou Média', 'Só funciona quando uma condição de cena ou de alvo, escrita na ficha, é verdadeira: no escuro, marcado por você, abaixo de metade da vida, perto de água corrente. Falha em menos de uma cena a cada três: devolve Leve. Falha na maioria das cenas: devolve Média.'],

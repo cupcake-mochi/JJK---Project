@@ -1,4 +1,4 @@
-GERADOR DO MANUAL — Fundamento v7.33
+GERADOR DO MANUAL — Fundamento v7.34
 
 Recria o .docx do zero. Precisa de Node.js.
 
@@ -32,6 +32,17 @@ ORDEM DAS SEÇÕES (v7)
   4 Restrições → 5 Fora de combate → 6 Liberação Máxima → 7 Técnica Máxima →
   8 Regras de ouro → 9 Progressão → 10 Feitiços prontos → 11 Para o mestre →
   Apêndice
+
+O QUE MUDOU NA v7.34
+
+  A Concentracao passa a rolar contra a CD de quem te feriu, e nao mais contra
+  10 ou metade do dano: quem concentra faz um Teste de Resistencia de Vigor por
+  golpe que o acerta. O Carregar usa a mesma CD, com o teste de Espirito de
+  sempre. A corrida de dominios passa a ser a mesma rolagem, so com a contagem
+  trocada: a CD do dono do outro dominio saiu, e quando o jogador acertou o
+  inimigo de mais de um jeito na rodada vale a maior CD. A Mao Firme continua
+  igual. A checagem 7 do conferir-acao deriva as tabelas da peca 3, e a 4m do
+  conferir-manual guarda as copias.
 
 O QUE MUDOU NA v7.33
 

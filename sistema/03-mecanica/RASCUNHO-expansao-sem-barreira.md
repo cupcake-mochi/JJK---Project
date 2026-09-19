@@ -574,6 +574,8 @@
 > ***Decisão do Mizuki:*** *"Do dono do outro dominio."*
 >
 > **Durante a corrida, quem mantém um domínio e toma dano faz o Teste de Resistência de concentração contra a CD do dono do outro domínio. Falhou, o domínio cai.** *O teste é o de Vigor, que é o da regra de concentração da peça 3 — só a CD troca de dono.* ⏳ **O que isso faz com a corrida está na 7.4, e o ritmo do teste ficou para ele escolher.**
+>
+> **⚠ Revisto na v0.253 (19/09/2026):** *a CD deste teste deixou de ser a do dono do outro domínio e passou a ser a de quem te feriu, a mesma da Concentração de fora da corrida, que também saiu do dano. A peça 3 §3, na subseção `A CD de quem te feriu`, é a dona; o que este bloco registra é como a corrida era até a v0.252.*
 
 ### 7.3 A triagem do nome
 
