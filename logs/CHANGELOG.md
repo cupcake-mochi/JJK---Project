@@ -8,44 +8,6 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
-## [0.252] — 19/09/2026
-
-**O `conferir-voz.py` volta a sair `0`, e o `subir.sh` passa a rodar ele.** *Ele saía `1` de propósito por dois títulos que o Mizuki renomeou à mão, e o `ESTADO-ATUAL` já avisava o custo: um erro novo ali dentro não movia o código, e o `subir.sh` nem olhava. Foi assim que o número de entradas de catálogo ficou velho sem ninguém ver.*
-
-### 1 · O 53 contra o 52
-
-**O `52` da `REGRA-DE-VOZ.md` estava velho, e agora é `53`.** *O reconhecedor achava `53` e a regra declarava `52`.* **O histórico, medido rodando o mesmo reconhecedor nos commits que mexeram nesses capítulos:** *`52` da v0.153 à v0.201; `51` na v0.202, quando o `Kokusen` virou mecânica e saiu da tabela; `52` de novo na v0.203, quando a `Circulação` entrou; `53` na v0.239, quando entrou a `Regravação`.* **Ou seja, o `52` ficou certo por coincidência de v0.203 a v0.238, e errado desde a v0.239.** *Uma queda escondida dentro de uma alta é o que a guarda existe para pegar, e ela não pegou porque ninguém a rodava.*
-
-### 2 · Os dois títulos em pergunta
-
-**`Como uma aptidão funciona` e `Como funciona uma Bênção` ficam como exceção declarada.** *Eles vêm da revisão do Mizuki no `.docx` da v0.176, que trocou `Como ler uma aptidão` e `Como ler uma Bênção` (o encaixe que a regra manda) por eles.* ***Decisão dele em 19/09/2026: manter as palavras dele, e declarar a exceção.*** **A lista e o número moram na `REGRA-DE-VOZ.md`, e o `conferir-voz.py` lê de lá:** *ele falha se aparecer outro título em pergunta, se o número não bater com a lista, e se um dos dois sumir do livro.* *Nenhum título fica escrito dentro do validador.*
-
-**O arnês rodou numa cópia isolada, com a base verde: `5` perturbações acendem e `2` que não podem acender ficam verdes.** *Uma delas é o contra-teste que importa: trocar um dos dois títulos por `Como ler` (que a regra permite) não cria pergunta nenhuma, e só a guarda nova percebe que o aceito sumiu.* *Com `--so` a guarda não vale, porque o filtro olha um capítulo só.*
-
-### 3 · O `subir.sh`
-
-**Ele passa a rodar o `conferir-voz.py --estrito`, e o commit se recusa se ele reprovar.** *O `rodar_validador` aceitava só o nome do arquivo, e sem `--estrito` o `conferir-voz` imprime e sai `0`; agora a função repassa os argumentos.* **E o `conferir-voz` passou a imprimir a causa quando o `--estrito` reprova** (o arquivo, a linha e o título, mais uma linha `>>>`), *porque o `subir.sh` mostra as linhas com `!!` e `>>>`, e antes só saía o rabo da saída, com o título que acendeu escondido no meio.* *Testado só na função, isolada, no livro real (verde) e numa cópia com um título em pergunta novo (vermelho, apontando o título): o script inteiro não foi rodado para testar, porque ele commita e sobe.*
-
-### Alterado
-
-- **`REGRA-DE-VOZ.md`:** *o `53` com o histórico, e a seção `Os dois títulos em pergunta que ficam`.*
-- **`conferir-voz.py`:** *a lista de títulos aceitos lida da regra, a guarda nos dois sentidos, e a causa impressa quando o `--estrito` reprova.*
-- **`subir.sh`:** *o `conferir-voz.py --estrito` na bateria.*
-- **`README`, `LEIA-ME` e `ESTADO-ATUAL`:** *as versões, o que o `subir.sh` roda, o `53`, e o bloco do `ESTADO` sobre o código de saída fechado.*
-
-### Decidido
-
-- **Os dois títulos em pergunta ficam, como exceção declarada.**
-- **O `conferir-voz.py` entra no `subir.sh`.**
-
-### Continua aberto
-
-- **O que já estava aberto na v0.251:** *a remodelagem das invocações e do Evocador, e o `maestria(nv)` do `conferir-invocacoes.py`.*
-
-→ **Continua em** `sistema/ESTADO-ATUAL.md`, seção *"Onde estamos, e o que falta"*.
-
----
-
 ## [0.251] — 19/09/2026
 
 **A CD dos efeitos da invocação está escrita, e o alvo passa a ter como resistir a cinco efeitos do catálogo.** *Era o B13 do repositório da ficha: a `Voz` da `Sintonia` somava `+1` numa CD que nenhum documento do sistema produzia, e o `Preito` do `Servo` também soma nela.* **A versão fecha o que a v0.246 tinha deixado como "forma B, com o atributo, as entradas e o `Preito` por decidir"**, e leva o ponto aberto da arma até a resposta do Mizuki.

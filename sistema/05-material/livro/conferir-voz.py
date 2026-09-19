@@ -216,10 +216,7 @@ def confere(caminho):
             if ARTIGO.match(limpo):
                 achados.append((i, "ARTIGO", texto))
             if PERGUNTA.search(limpo):
-                if limpo in ACEITOS:
-                    VISTOS.add(limpo)
-                else:
-                    achados.append((i, "PERGUNTA", texto))
+                achados.append((i, "PERGUNTA", texto))
             elif " que " in limpo or VERBO.search(limpo) or ("," in limpo and " e " not in limpo):
                 achados.append((i, "FRASE", texto))
             if CONTAGEM.search(limpo):
@@ -440,26 +437,6 @@ def entradas_de_catalogo(manual):
     return longos, n_entradas, teto_r, teto_e, corte
 
 
-def titulos_pergunta_aceitos(manual):
-    """(nomes, quantos a REGRA-DE-VOZ declara). Os dois saem do documento dono:
-    nenhum titulo em pergunta fica escrito aqui dentro."""
-    regua = os.path.join(os.path.dirname(manual), "REGRA-DE-VOZ.md")
-    if not os.path.isfile(regua):
-        return set(), None
-    with open(regua, encoding="utf-8") as fh:
-        m = re.search(r"O livro aceita `(\d+)` títulos em forma de pergunta: ([^\n]*?)\.\*\*",
-                      fh.read())
-    if not m:
-        return set(), None
-    return set(re.findall(r"`([^`]+)`", m.group(2))), int(m.group(1))
-
-
-# Lidos uma vez, e o confere() marca em VISTOS os que ele encontrou no livro: a
-# guarda do main() compara os tres — a lista, o numero declarado e o que o livro tem.
-ACEITOS, DECLARADOS = titulos_pergunta_aceitos(MANUAL)
-VISTOS = set()
-
-
 def main():
     inventario = "--inventario" in sys.argv
     estrito = "--estrito" in sys.argv
@@ -473,7 +450,6 @@ def main():
 
     total = {}
     todos_avisos = []
-    todos_achados = []
     print(f"{'arquivo':32} " + " ".join(f"{c[:9]:>10}" for c in CODIGOS))
     for arq in arquivos:
         achados, avisos = confere(os.path.join(MANUAL, arq))
@@ -483,7 +459,6 @@ def main():
         marca = "" if any(por.values()) else "  limpo"
         print(f"{arq:32} " + " ".join(f"{por[c] or '.':>10}" for c in CODIGOS) + marca)
         todos_avisos.extend((arq, ln, txt) for ln, txt in avisos)
-        todos_achados.extend((arq, ln, cod, txt) for ln, cod, txt in achados)
         if inventario and achados:
             for ln, cod, txt in achados:
                 print(f"      {arq}:{ln:<5} {cod:<19} {txt}")
@@ -557,33 +532,8 @@ def main():
               f" reconhecedor achou {n_entradas} — ou entrou entrada nova, ou ele ficou"
               f" cego (tabela renomeada, camada 1 quebrada) e a contagem de rótulo não vale")
 
-    # A guarda dos titulos em pergunta que a REGRA-DE-VOZ aceita. Com --so ela nao
-    # vale: o filtro olha um capitulo so, e o outro titulo pareceria sumido.
-    aceitos_estourou = False
-    if not filtro:
-        print(f"\n  {len(VISTOS)} título(s) em pergunta aceito(s) pela REGRA-DE-VOZ.md;"
-              f" o dono diz {DECLARADOS or 0} e lista {len(ACEITOS)}.")
-        if (DECLARADOS or 0) != len(ACEITOS):
-            aceitos_estourou = True
-            print(f"      !! a REGRA-DE-VOZ.md declara {DECLARADOS or 0} título(s) em pergunta e"
-                  f" lista {len(ACEITOS)} — o número e a lista têm de andar juntos")
-        parados = sorted(ACEITOS - VISTOS)
-        if parados:
-            aceitos_estourou = True
-            print(f"      !! aceito(s) que o livro não tem mais: {', '.join(parados)} — o título"
-                  f" mudou e a lista da REGRA-DE-VOZ.md ficou para trás")
-
     if estrito and (soma or quebradas or estourou or marcas_estourou
-                    or rotulo_estourou or entrada_estourou or aceitos_estourou):
-        # O subir.sh mostra as linhas com `!!` e `>>>` quando um validador reprova. Sem
-        # estas duas, ele mostrava so' o rabo da saida, e o titulo que acendeu ficava
-        # escondido no meio dela.
-        for arq, ln, cod, txt in todos_achados[:6]:
-            print(f"      !! {arq}:{ln}  {cod}  {txt[:60]}")
-        for arq, alvo in quebradas[:3]:
-            print(f"      !! {arq}  referência quebrada -> *{alvo}*")
-        print(f">>> --estrito reprovou: {soma} achado(s) de título ou de texto,"
-              f" {len(quebradas)} referência(s) quebrada(s); rode --inventario para o resto")
+                    or rotulo_estourou or entrada_estourou):
         sys.exit(1)
 
 

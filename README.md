@@ -2,7 +2,7 @@
 
 **O sistema se chama `Projeto - M`**, batizado na v0.94 — era a pendência mais velha que existia aqui, aberta na v0.1. Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.252** · manual do Fundamento na **v7.32** · **vinte e seis peças de regra** e **vinte e seis validadores passando** · o Manual da Guilda em **18 capítulos**.
+**Versão v0.251** · manual do Fundamento na **v7.32** · **vinte e seis peças de regra** e **vinte e seis validadores passando** · o Manual da Guilda em **18 capítulos**.
 
 ---
 
@@ -179,7 +179,7 @@ jjk               # o atalho que entra nesta pasta
 ./subir.sh "v0.28 — tabela de XP"
 ```
 
-Ele roda **todos os validadores** — os de `03-mecanica/`, o `conferir-repositorio.py`, os dois de `manual/matematica/` e o `conferir-voz.py --estrito` do livro —, mostra o que mudou, commita e dá push, e **se recusa a commitar se algum falhar**. *Quantos são, exatamente, está na linha de versão no topo deste arquivo, e só lá — este parágrafo já disse "dezoito" e "quinze" enquanto eram dezenove e dezesseis, porque contagem copiada envelhece na versão seguinte (lição nº 9).*
+Ele roda **todos os validadores** — os de `03-mecanica/`, o `conferir-repositorio.py` e os dois de `manual/matematica/` —, mostra o que mudou, commita e dá push, e **se recusa a commitar se algum falhar**. *Quantos são, exatamente, está na linha de versão no topo deste arquivo, e só lá — este parágrafo já disse "dezoito" e "quinze" enquanto eram dezenove e dezesseis, porque contagem copiada envelhece na versão seguinte (lição nº 9).*
 
 ### A entrega: o `subir.sh` copia, e você commita
 
