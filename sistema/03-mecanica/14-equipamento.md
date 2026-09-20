@@ -51,11 +51,11 @@ A matriz de dominância deste projeto tinha achado o mesmo por outro caminho: co
 
 **`Traje`** (leve) e **`Revestimento`** (pesada). Os dois saíram `LIVRE` na triagem e não aparecem no manual nenhuma vez.
 
-| degrau | **Traje** proteção | teto de Destreza | requer Força | **Revestimento** proteção | teto de Destreza | requer Força |
-|---|---|---|---|---|---|---|
-| 1 | 1 | — | — | 4 | 0 | **3** |
-| 2 | 2 | — | — | 5 | 0 | **4** |
-| 3 | 3 | — | **3** | 6 | 0 | **6** |
+| degrau | **Traje** proteção | teto de Destreza | requer Força | **Revestimento** proteção | teto de Destreza | requer Força | **Traje** `Volume` | **Revestimento** `Volume` |
+|---|---|---|---|---|---|---|---|---|
+| 1 | 1 | — | — | 4 | 0 | **3** | leve | `2` |
+| 2 | 2 | — | — | 5 | 0 | **4** | `1` | `3` |
+| 3 | 3 | — | **3** | 6 | 0 | **6** | `2` | `4` |
 
 ### A coluna de Força era uma só, e isso estava errado
 
@@ -293,11 +293,11 @@ A seção 3 fechou dizendo que **as duas rotas topam em Defesa 20**, e contou o 
 
 **Junte as duas e o escudo maior tem lugar:** ele não cresce por cima do teto, ele cresce **comendo teto de Destreza**, do mesmo jeito que o Revestimento. E aí ele vira o prêmio da build de Força sozinho, sem regra nova — porque quem tem Destreza baixa não perde nada com o teto.
 
-| degrau | nome | proteção | teto de Destreza | requisito de Força | custa marco? |
-|---|---|---|---|---|---|
-| 1 | **`Broquel`** | 1 | 5 | — | não |
-| 2 | **`Médio`** | 2 | 3 | 3 | não — cabe na criação |
-| 3 | **`Torre`** | 3 | 1 | **5** | **sim, 2 pontos** |
+| degrau | nome | proteção | teto de Destreza | requisito de Força | custa marco? | `Volume` |
+|---|---|---|---|---|---|---|
+| 1 | **`Broquel`** | 1 | 5 | — | não | leve |
+| 2 | **`Médio`** | 2 | 3 | 3 | não — cabe na criação | `1` |
+| 3 | **`Torre`** | 3 | 1 | **5** | **sim, 2 pontos** | `2` |
 
 **Os três nomes fecharam na v0.59.** O `Broquel` histórico é de punho, 15 a 45 cm — por isso ele não pede Força e quase não come Destreza. E a `Torre` cobre o corpo e se planta no chão, o que é a Destreza travada em 1 e o ponto de marco. *A escada de nome é a mesma escada de número: quanto mais escudo, menos braço sobra.*
 
@@ -1090,7 +1090,7 @@ As duas estão escritas na tabela de classes e não aparecem na lista de nomes m
 *Fechado na v0.45.* **O dado é entrada e o número de vagas é saída**, então a pergunta de cada arma foi *o que essa coisa é* e o tamanho dela. Fundo `3` numa mão e `5` em duas.
 
 | | assinaturas | armas com gêmea |
-|---|---|---|
+|---|---|---|---|
 | v0.44, só o preço | 14 | 35 de 41 — **85%** |
 | v0.44, preço × categoria | 25 | 25 de 41 — 61% |
 | **v0.45, a régua com fundo** | **39** | **4 de 41 — 10%** |
@@ -1109,94 +1109,94 @@ As duas estão escritas na tabela de classes e não aparecem na lista de nomes m
 
 **Lâmina Curta**
 
-| arma | mão | dado | propriedades | gasta |
-|---|---|---|---|---|
-| Tanto | 1 | **d6** | `Fineza` · `Oculta` | 3/3 |
-| Punhal | 1 | **d6** | `Fineza` · `Longo Alcance` | 3/3 |
-| Canivete | 1 | **d4** | `Fineza` · `Oculta` · `Rompe` | 3/3 |
-| Faca | 1 | **d6** | `Fineza` · `Rompe` | 3/3 |
-| Sai | 1 | **d6** | `Fineza` · `Par` | 3/3 |
+| arma | mão | dado | propriedades | gasta | `Volume` |
+|---|---|---|---|---|---|
+| Tanto | 1 | **d6** | `Fineza` · `Oculta` | 3/3 | leve |
+| Punhal | 1 | **d6** | `Fineza` · `Longo Alcance` | 3/3 | `1` |
+| Canivete | 1 | **d4** | `Fineza` · `Oculta` · `Rompe` | 3/3 | leve |
+| Faca | 1 | **d6** | `Fineza` · `Rompe` | 3/3 | `1` |
+| Sai | 1 | **d6** | `Fineza` · `Par` | 3/3 | `1` |
 
 **Lâmina Longa**
 
-| arma | mão | dado | propriedades | gasta |
-|---|---|---|---|---|
-| Machete | 1 | **d8** | `Rompe` | 3/3 |
-| Wakizashi | 1 | **d8** | `Oculta` | 3/3 |
-| Rapieira | 1 | **d6** | `Fineza` · `Talha` | 3/3 |
-| Katana | 1 | **d8** | `Versátil` · `Fineza` | 3/3 |
-| Espada Longa | 1 | **d8** | `Versátil` · `Rompe` | 3/3 |
-| Espadão | 2 | **d12** | `Alcance` | 5/5 |
-| Odachi | 2 | **d12** | `Alcance` · `Talha` · `Embainhada` | 5/5 |
-| Nodachi | 2 | **d12** | `Alcance` · `Rompe` · `Volumosa` | 5/5 |
+| arma | mão | dado | propriedades | gasta | `Volume` |
+|---|---|---|---|---|---|
+| Machete | 1 | **d8** | `Rompe` | 3/3 | `1` |
+| Wakizashi | 1 | **d8** | `Oculta` | 3/3 | leve |
+| Rapieira | 1 | **d6** | `Fineza` · `Talha` | 3/3 | `1` |
+| Katana | 1 | **d8** | `Versátil` · `Fineza` | 3/3 | `1` |
+| Espada Longa | 1 | **d8** | `Versátil` · `Rompe` | 3/3 | `1` |
+| Espadão | 2 | **d12** | `Alcance` | 5/5 | `2` |
+| Odachi | 2 | **d12** | `Alcance` · `Talha` · `Embainhada` | 5/5 | `2` |
+| Nodachi | 2 | **d12** | `Alcance` · `Rompe` · `Volumosa` | 5/5 | `2` |
 
 **Massa**
 
-| arma | mão | dado | propriedades | gasta |
-|---|---|---|---|---|
-| Maça | 1 | **d8** | `Talha` | 3/3 |
-| Marreta | 2 | **d10** | `Rompe` · `Talha` | 5/5 |
-| Kanabō | 2 | **d12** | `Talha` | 5/5 |
-| Maul | 2 | **d12** | `Rompe` | 5/5 |
-| Taco | 1 | **d8** | `Versátil` · `Oculta` | 3/3 |
+| arma | mão | dado | propriedades | gasta | `Volume` |
+|---|---|---|---|---|---|
+| Maça | 1 | **d8** | `Talha` | 3/3 | `1` |
+| Marreta | 2 | **d10** | `Rompe` · `Talha` | 5/5 | `2` |
+| Kanabō | 2 | **d12** | `Talha` | 5/5 | `2` |
+| Maul | 2 | **d12** | `Rompe` | 5/5 | `2` |
+| Taco | 1 | **d8** | `Versátil` · `Oculta` | 3/3 | leve |
 
 **Porrete**
 
-| arma | mão | dado | propriedades | gasta |
-|---|---|---|---|---|
-| Bastão | 1 | **d6** | `Versátil` · `Alcance` · `Rompe` | 3/3 |
-| Bō | 2 | **d10** | `Alcance` · `Emaranha` | 5/5 |
-| Cassetete | 1 | **d6** | `Oculta` · `Vestida` | 3/3 |
-| Tonfa | 1 | **d6** | `Par` · `Vestida` | 3/3 |
-| Nunchaku | 1 | **d6** | `Par` · `Emaranha` | 3/3 |
+| arma | mão | dado | propriedades | gasta | `Volume` |
+|---|---|---|---|---|---|
+| Bastão | 1 | **d6** | `Versátil` · `Alcance` · `Rompe` | 3/3 | `1` |
+| Bō | 2 | **d10** | `Alcance` · `Emaranha` | 5/5 | `2` |
+| Cassetete | 1 | **d6** | `Oculta` · `Vestida` | 3/3 | leve |
+| Tonfa | 1 | **d6** | `Par` · `Vestida` | 3/3 | leve |
+| Nunchaku | 1 | **d6** | `Par` · `Emaranha` | 3/3 | `1` |
 
 **Manopla**
 
-| arma | mão | dado | propriedades | gasta |
-|---|---|---|---|---|
-| Soqueira | 1 | **d4** | `Vestida` · `Oculta` · `Par` | 3/3 |
-| Tekko | 1 | **d4** | `Vestida` · `Par` · `Oculta` | 3/3 |
+| arma | mão | dado | propriedades | gasta | `Volume` |
+|---|---|---|---|---|---|
+| Soqueira | 1 | **d4** | `Vestida` · `Oculta` · `Par` | 3/3 | leve |
+| Tekko | 1 | **d4** | `Vestida` · `Par` · `Oculta` | 3/3 | leve |
 
 **Machado**
 
-| arma | mão | dado | propriedades | gasta |
-|---|---|---|---|---|
-| Machado | 1 | **d8** | `Rompe` | 3/3 |
-| Machado de Guerra | 2 | **d12** | `Rompe` · `Talha` · `Volumosa` | 5/5 |
-| Machadinha | 1 | **d6** | `Longo Alcance` · `Rompe` | 3/3 |
+| arma | mão | dado | propriedades | gasta | `Volume` |
+|---|---|---|---|---|---|
+| Machado | 1 | **d8** | `Rompe` | 3/3 | `1` |
+| Machado de Guerra | 2 | **d12** | `Rompe` · `Talha` · `Volumosa` | 5/5 | `2` |
+| Machadinha | 1 | **d6** | `Longo Alcance` · `Rompe` | 3/3 | `1` |
 
 **Ceifa**
 
-| arma | mão | dado | propriedades | gasta |
-|---|---|---|---|---|
-| Foice | 2 | **d10** | `Emaranha` · `Talha` | 5/5 |
-| Kama | 1 | **d6** | `Par` · `Rompe` | 3/3 |
-| Kusarigama | 2 | **d8** | `Alcance` · `Emaranha` · `Longo Alcance` | 5/5 |
+| arma | mão | dado | propriedades | gasta | `Volume` |
+|---|---|---|---|---|---|
+| Foice | 2 | **d10** | `Emaranha` · `Talha` | 5/5 | `2` |
+| Kama | 1 | **d6** | `Par` · `Rompe` | 3/3 | `1` |
+| Kusarigama | 2 | **d8** | `Alcance` · `Emaranha` · `Longo Alcance` | 5/5 | `2` |
 
 **Armas Longas**
 
-| arma | mão | dado | propriedades | gasta |
-|---|---|---|---|---|
-| Naginata | 2 | **d10** | `Alcance` · `Rompe` | 5/5 |
-| Yari | 2 | **d10** | `Alcance` · `Talha` | 5/5 |
-| Lança | 1 | **d6** | `Alcance` · `Longo Alcance` | 3/3 |
+| arma | mão | dado | propriedades | gasta | `Volume` |
+|---|---|---|---|---|---|
+| Naginata | 2 | **d10** | `Alcance` · `Rompe` | 5/5 | `2` |
+| Yari | 2 | **d10** | `Alcance` · `Talha` | 5/5 | `2` |
+| Lança | 1 | **d6** | `Alcance` · `Longo Alcance` | 3/3 | `1` |
 
 **Flexível**
 
-| arma | mão | dado | propriedades | gasta |
-|---|---|---|---|---|
-| Corrente | 2 | **d8** | `Alcance` · `Emaranha` · `Rompe` | 5/5 |
-| Chicote | 1 | **d4** | `Alcance` · `Emaranha` · `Oculta` | 3/3 |
-| Manriki | 1 | **d6** | `Emaranha` · `Oculta` | 3/3 |
+| arma | mão | dado | propriedades | gasta | `Volume` |
+|---|---|---|---|---|---|
+| Corrente | 2 | **d8** | `Alcance` · `Emaranha` · `Rompe` | 5/5 | `2` |
+| Chicote | 1 | **d4** | `Alcance` · `Emaranha` · `Oculta` | 3/3 | leve |
+| Manriki | 1 | **d6** | `Emaranha` · `Oculta` | 3/3 | leve |
 
 **Arremesso**
 
-| arma | mão | dado | propriedades | gasta |
-|---|---|---|---|---|
-| Kunai | 1 | **d6** | `Longo Alcance` · `Oculta` | 3/3 |
-| Shuriken | 1 | **d4** | `Longo Alcance` · `Oculta` · `Par` | 3/3 |
-| Tessen | 1 | **d4** | `Longo Alcance` · `Oculta` · `Vestida` | 3/3 |
-| Chakram | 1 | **d4** | `Longo Alcance` · `Fineza` · `Oculta` | 3/3 |
+| arma | mão | dado | propriedades | gasta | `Volume` |
+|---|---|---|---|---|---|
+| Kunai | 1 | **d6** | `Longo Alcance` · `Oculta` | 3/3 | leve |
+| Shuriken | 1 | **d4** | `Longo Alcance` · `Oculta` · `Par` | 3/3 | leve |
+| Tessen | 1 | **d4** | `Longo Alcance` · `Oculta` · `Vestida` | 3/3 | leve |
+| Chakram | 1 | **d4** | `Longo Alcance` · `Fineza` · `Oculta` | 3/3 | leve |
 
 **As de tiro** — escada da v0.44, com o `Yumi` refeito na v0.47.
 
@@ -1214,19 +1214,19 @@ As duas estão escritas na tabela de classes e não aparecem na lista de nomes m
 
 > *Registrado de passagem:* a `Volumosa` junta *"não esconde"* e *"atrapalha em espaço apertado"* numa restrição só, e **não existe a propriedade positiva correspondente** — foi por isso que o Hankyū teve de pegar `Oculta`, que é a vizinha e não a exata. Se alguma arma futura precisar dizer *"funciona onde as outras não cabem"*, ela não tem palavra.
 
-| arma | categoria | mão | dado | atributo | propriedades |
-|---|---|---|---|---|---|
-| Hankyū | Yumi | 2 | **1d8** | Destreza | `Longo Alcance` · `Oculta` |
-| Daikyū | Yumi | 2 | **1d10** | Destreza | `Longo Alcance` |
-| Besta de Uma Mão | Balestra | 1 | **1d10** | nenhuma | `Longo Alcance` · `Munição` · `Oculta` |
-| Besta | Balestra | 2 | **2d8** | nenhuma | `Longo Alcance` · `Munição` · `Rompe` |
-| Pistola | Arma de Fogo | 1 | **1d10** | nenhuma | `Longo Alcance` · `Munição` · `Oculta` |
-| Revólver | Arma de Fogo | 1 | **1d10** | nenhuma | `Longo Alcance` · `Munição` · `Oculta` |
-| Submetralhadora | Arma de Fogo | 2 | **2d6** | nenhuma | `Longo Alcance` · `Munição` · `Par` · `Oculta` |
-| Espingarda | Arma de Fogo | 2 | **2d8** | nenhuma | `Longo Alcance` · `Munição` · `Rompe` |
-| Rifle | Arma de Fogo | 2 | **2d8** | nenhuma | `Longo Alcance` · `Munição` · `Talha` |
-| Rifle de Precisão | Arma de Fogo | 2 | **2d10** | nenhuma | `Longo Alcance` · `Munição` |
-| Metralhadora Pesada | Arma de Fogo | 2 | **2d10** | nenhuma | `Longo Alcance` · `Munição` · `Rompe` · `Volumosa` |
+| arma | categoria | mão | dado | atributo | propriedades | `Volume` |
+|---|---|---|---|---|---|---|
+| Hankyū | Yumi | 2 | **1d8** | Destreza | `Longo Alcance` · `Oculta` | `2` |
+| Daikyū | Yumi | 2 | **1d10** | Destreza | `Longo Alcance` | `2` |
+| Besta de Uma Mão | Balestra | 1 | **1d10** | nenhuma | `Longo Alcance` · `Munição` · `Oculta` | leve |
+| Besta | Balestra | 2 | **2d8** | nenhuma | `Longo Alcance` · `Munição` · `Rompe` | `2` |
+| Pistola | Arma de Fogo | 1 | **1d10** | nenhuma | `Longo Alcance` · `Munição` · `Oculta` | leve |
+| Revólver | Arma de Fogo | 1 | **1d10** | nenhuma | `Longo Alcance` · `Munição` · `Oculta` | leve |
+| Submetralhadora | Arma de Fogo | 2 | **2d6** | nenhuma | `Longo Alcance` · `Munição` · `Par` · `Oculta` | `2` |
+| Espingarda | Arma de Fogo | 2 | **2d8** | nenhuma | `Longo Alcance` · `Munição` · `Rompe` | `2` |
+| Rifle | Arma de Fogo | 2 | **2d8** | nenhuma | `Longo Alcance` · `Munição` · `Talha` | `2` |
+| Rifle de Precisão | Arma de Fogo | 2 | **2d10** | nenhuma | `Longo Alcance` · `Munição` | `2` |
+| Metralhadora Pesada | Arma de Fogo | 2 | **2d10** | nenhuma | `Longo Alcance` · `Munição` · `Rompe` · `Volumosa` | `2` |
 
 ## 5.4 Treino de arma — e por que aqui ele não vira castigo
 
@@ -1657,17 +1657,13 @@ Isso é diferente de deixar em aberto — é decisão com condição de disparo,
 
 > **Consequência declarada, e ela vem do catálogo e não da régua:** *o `Taco` e a `Besta de Uma Mão` saem leves porque o §5.3 deu `Oculta` aos dois, e a `Wakizashi` sai leve enquanto a `Katana` fica em `1`.* **Quem quiser mexer nisso mexe na propriedade, no §5.3, e o peso segue atrás.**
 
-### 6.6.3 O uniforme e o escudo
+### 6.6.3 O uniforme e o escudo — a coluna foi para a tabela de cada item na v0.257
 
-**`Volume` do uniforme e do escudo**
+***O `Volume` de cada um mora na tabela que apresenta o item, e não aqui*** *(pedido do Mizuki em 19/09/2026: "coloque direto nas tabelas que os introduzem, peso direto na tabela de arma, escudo, revestimento, traje, afins").* **A escada do §3 ganhou duas colunas — `Traje` `L · 1 · 2` e `Revestimento` `2 · 3 · 4` — e a do §4 ganhou uma, com o escudo em `L · 1 · 2`.** *O mesmo vale para as `52` armas: a coluna `Volume` entrou nas onze tabelas do §5.3, e a régua do §6.6.2 é quem a gera.*
 
-| degrau | `1` | `2` | `3` |
-|---|---|---|---|
-| **`Traje`** | leve | `1` | `2` |
-| **`Revestimento`** | `2` | `3` | `4` |
-| **escudo** (`Broquel` · `Médio` · `Torre`) | leve | `1` | `2` |
+> **A régua é a dona, e a coluna é cópia conferida.** *O `conferir-equipamento.py` aplica a régua ao catálogo e compara célula a célula: `52` de `52` têm de bater, e uma divergência acende.*
 
-**A escada sobe sem tropeço**, *medida como fração do limite que a Força exigida por cada peça dá:* `2%` · `20%` · `25%` · `25%` · `33%` · `36%`. **O único empate é o `Traje` `3` contra o `Revestimento` `1`, e eles não se dominam:** *o `Revestimento` dá `1` de proteção a mais e põe teto de Destreza `0`, que é a troca do §3.*
+**A escada do uniforme sobe sem tropeço**, *medida como fração do limite que a Força exigida por cada peça dá:* `2%` · `20%` · `25%` · `25%` · `33%` · `36%`. **O único empate é o `Traje` `3` contra o `Revestimento` `1`, e eles não se dominam:** *o `Revestimento` dá `1` de proteção a mais e põe teto de Destreza `0`, que é a troca do §3.*
 
 ### 6.6.4 De onde sai o `4` do `Revestimento` 3
 

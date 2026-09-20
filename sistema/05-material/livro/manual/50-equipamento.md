@@ -25,11 +25,11 @@ A classe leve. Nenhum degrau trava a sua Destreza, e só o último degrau pede F
 **Traje**
 {: .tab-titulo }
 
-| degrau | proteção | teto de Destreza | requer Força |
-|---|---|---|---|
-| 1 | 1 | — | — |
-| 2 | 2 | — | — |
-| 3 | 3 | — | 3 |
+| degrau | proteção | teto de Destreza | requer Força | `Volume` |
+|---|---|---|---|---|
+| 1 | 1 | — | — | leve |
+| 2 | 2 | — | — | `1` |
+| 3 | 3 | — | 3 | `2` |
 
 Quem fabrica é o ofício **Alfaiate**. Quem não tem o ofício encomenda de quem tem.
 
@@ -68,11 +68,11 @@ A classe pesada. Todo degrau trava a sua Destreza em 0 na Defesa, e todo degrau 
 **Revestimento**
 {: .tab-titulo }
 
-| degrau | proteção | teto de Destreza | requer Força |
-|---|---|---|---|
-| 1 | 4 | 0 | 3 |
-| 2 | 5 | 0 | 4 |
-| 3 | 6 | 0 | 6 |
+| degrau | proteção | teto de Destreza | requer Força | `Volume` |
+|---|---|---|---|---|
+| 1 | 4 | 0 | 3 | `2` |
+| 2 | 5 | 0 | 4 | `3` |
+| 3 | 6 | 0 | 6 | `4` |
 
 #### Uniforme e energia amaldiçoada
 
@@ -87,11 +87,11 @@ Três degraus. O escudo ocupa uma mão, soma com a sua proteção venha ela de o
 **Escudo**
 {: .tab-titulo }
 
-| degrau | nome | proteção | teto de Destreza | requer Força |
-|---|---|---|---|---|
-| 1 | **Broquel** | 1 | 5 | — |
-| 2 | **Médio** | 2 | 3 | 3 |
-| 3 | **Torre** | 3 | 1 | 5 |
+| degrau | nome | proteção | teto de Destreza | requer Força | `Volume` |
+|---|---|---|---|---|---|
+| 1 | **Broquel** | 1 | 5 | — | leve |
+| 2 | **Médio** | 2 | 3 | 3 | `1` |
+| 3 | **Torre** | 3 | 1 | 5 | `2` |
 
 > **Aviso para quem tem `Selo` = `Gesto`.** Pegar um escudo ocupa a mão e desliga a sua técnica inteira. É o Selo funcionando: se o gesto é obrigatório para conjurar, sem a mão você não conjura. Para essa gente, escudo nunca esteve no menu.
 {: .aviso }
@@ -240,63 +240,63 @@ As duas se somam.
 **Catálogo de armas**
 {: .tab-titulo }
 
-| arma | categoria | mão | dado | propriedades | requer Força |
-|---|---|---|---|---|---|
-| **Treino simples** | | | | | |
-| Bastão | Porrete | 1 | **d6** | `Versátil` · `Alcance` · `Rompe` | — |
-| Besta | Balestra | 2 | **2d8** | `Longo Alcance` · `Munição` · `Rompe` | 3 |
-| Besta de Uma Mão | Balestra | 1 | **1d10** | `Longo Alcance` · `Munição` · `Oculta` | — |
-| Bō | Porrete | 2 | **d10** | `Alcance` · `Emaranha` | 3 |
-| Canivete | Lâmina Curta | 1 | **d4** | `Fineza` · `Oculta` · `Rompe` | — |
-| Cassetete | Porrete | 1 | **d6** | `Oculta` · `Vestida` | — |
-| Chakram | Arremesso | 1 | **d4** | `Longo Alcance` · `Fineza` · `Oculta` | — |
-| Faca | Lâmina Curta | 1 | **d6** | `Fineza` · `Rompe` | — |
-| Foice | Ceifa | 2 | **d10** | `Emaranha` · `Talha` | 3 |
-| Kama | Ceifa | 1 | **d6** | `Par` · `Rompe` | — |
-| Kanabō | Massa | 2 | **d12** | `Talha` | 3 |
-| Kunai | Arremesso | 1 | **d6** | `Longo Alcance` · `Oculta` | — |
-| Kusarigama | Ceifa | 2 | **d8** | `Alcance` · `Emaranha` · `Longo Alcance` | — |
-| Maça | Massa | 1 | **d8** | `Talha` | — |
-| Marreta | Massa | 2 | **d10** | `Rompe` · `Talha` | 3 |
-| Maul | Massa | 2 | **d12** | `Rompe` | 3 |
-| Nunchaku | Porrete | 1 | **d6** | `Par` · `Emaranha` | — |
-| Punhal | Lâmina Curta | 1 | **d6** | `Fineza` · `Longo Alcance` | — |
-| Sai | Lâmina Curta | 1 | **d6** | `Fineza` · `Par` | — |
-| Shuriken | Arremesso | 1 | **d4** | `Longo Alcance` · `Oculta` · `Par` | — |
-| Soqueira | Manopla | 1 | **d4** | `Vestida` · `Oculta` · `Par` | — |
-| Taco | Massa | 1 | **d8** | `Versátil` · `Oculta` | — |
-| Tanto | Lâmina Curta | 1 | **d6** | `Fineza` · `Oculta` | — |
-| Tekko | Manopla | 1 | **d4** | `Vestida` · `Par` · `Oculta` | — |
-| Tessen | Arremesso | 1 | **d4** | `Longo Alcance` · `Oculta` · `Vestida` | — |
-| Tonfa | Porrete | 1 | **d6** | `Par` · `Vestida` | — |
-| **Treino marcial** | | | | | |
-| Chicote | Flexível | 1 | **d4** | `Alcance` · `Emaranha` · `Oculta` | — |
-| Corrente | Flexível | 2 | **d8** | `Alcance` · `Emaranha` · `Rompe` | — |
-| Daikyū | Yumi | 2 | **1d10** | `Longo Alcance` | — |
-| Espada Longa | Lâmina Longa | 1 | **d8** | `Versátil` · `Rompe` | — |
-| Espadão | Lâmina Longa | 2 | **d12** | `Alcance` | 3 |
-| Hankyū | Yumi | 2 | **1d8** | `Longo Alcance` · `Oculta` | — |
-| Katana | Lâmina Longa | 1 | **d8** | `Versátil` · `Fineza` | — |
-| Lança | Armas Longas | 1 | **d6** | `Alcance` · `Longo Alcance` | — |
-| Machadinha | Machado | 1 | **d6** | `Longo Alcance` · `Rompe` | — |
-| Machado | Machado | 1 | **d8** | `Rompe` | — |
-| Machado de Guerra | Machado | 2 | **d12** | `Rompe` · `Talha` · `Volumosa` | 3 |
-| Machete | Lâmina Longa | 1 | **d8** | `Rompe` | — |
-| Manriki | Flexível | 1 | **d6** | `Emaranha` · `Oculta` | — |
-| Naginata | Armas Longas | 2 | **d10** | `Alcance` · `Rompe` | 3 |
-| Nodachi | Lâmina Longa | 2 | **d12** | `Alcance` · `Rompe` · `Volumosa` | 3 |
-| Odachi | Lâmina Longa | 2 | **d12** | `Alcance` · `Talha` · `Embainhada` | 3 |
-| Rapieira | Lâmina Longa | 1 | **d6** | `Fineza` · `Talha` | — |
-| Wakizashi | Lâmina Longa | 1 | **d8** | `Oculta` | — |
-| Yari | Armas Longas | 2 | **d10** | `Alcance` · `Talha` | 3 |
-| **Treino de fogo** | | | | | |
-| Espingarda | Arma de Fogo | 2 | **2d8** | `Longo Alcance` · `Munição` · `Rompe` | 1 |
-| Metralhadora Pesada | Arma de Fogo | 2 | **2d10** | `Longo Alcance` · `Munição` · `Rompe` · `Volumosa` | 3 |
-| Pistola | Arma de Fogo | 1 | **1d10** | `Longo Alcance` · `Munição` · `Oculta` | — |
-| Revólver | Arma de Fogo | 1 | **1d10** | `Longo Alcance` · `Munição` · `Oculta` | — |
-| Rifle | Arma de Fogo | 2 | **2d8** | `Longo Alcance` · `Munição` · `Talha` | 1 |
-| Rifle de Precisão | Arma de Fogo | 2 | **2d10** | `Longo Alcance` · `Munição` | 3 |
-| Submetralhadora | Arma de Fogo | 2 | **2d6** | `Longo Alcance` · `Munição` · `Par` · `Oculta` | — |
+| arma | categoria | mão | dado | propriedades | requer Força | `Volume` |
+|---|---|---|---|---|---|---|
+| **Treino simples** | | | | | | |
+| Bastão | Porrete | 1 | **d6** | `Versátil` · `Alcance` · `Rompe` | — | `1` |
+| Besta | Balestra | 2 | **2d8** | `Longo Alcance` · `Munição` · `Rompe` | 3 | `2` |
+| Besta de Uma Mão | Balestra | 1 | **1d10** | `Longo Alcance` · `Munição` · `Oculta` | — | leve |
+| Bō | Porrete | 2 | **d10** | `Alcance` · `Emaranha` | 3 | `2` |
+| Canivete | Lâmina Curta | 1 | **d4** | `Fineza` · `Oculta` · `Rompe` | — | leve |
+| Cassetete | Porrete | 1 | **d6** | `Oculta` · `Vestida` | — | leve |
+| Chakram | Arremesso | 1 | **d4** | `Longo Alcance` · `Fineza` · `Oculta` | — | leve |
+| Faca | Lâmina Curta | 1 | **d6** | `Fineza` · `Rompe` | — | `1` |
+| Foice | Ceifa | 2 | **d10** | `Emaranha` · `Talha` | 3 | `2` |
+| Kama | Ceifa | 1 | **d6** | `Par` · `Rompe` | — | `1` |
+| Kanabō | Massa | 2 | **d12** | `Talha` | 3 | `2` |
+| Kunai | Arremesso | 1 | **d6** | `Longo Alcance` · `Oculta` | — | leve |
+| Kusarigama | Ceifa | 2 | **d8** | `Alcance` · `Emaranha` · `Longo Alcance` | — | `2` |
+| Maça | Massa | 1 | **d8** | `Talha` | — | `1` |
+| Marreta | Massa | 2 | **d10** | `Rompe` · `Talha` | 3 | `2` |
+| Maul | Massa | 2 | **d12** | `Rompe` | 3 | `2` |
+| Nunchaku | Porrete | 1 | **d6** | `Par` · `Emaranha` | — | `1` |
+| Punhal | Lâmina Curta | 1 | **d6** | `Fineza` · `Longo Alcance` | — | `1` |
+| Sai | Lâmina Curta | 1 | **d6** | `Fineza` · `Par` | — | `1` |
+| Shuriken | Arremesso | 1 | **d4** | `Longo Alcance` · `Oculta` · `Par` | — | leve |
+| Soqueira | Manopla | 1 | **d4** | `Vestida` · `Oculta` · `Par` | — | leve |
+| Taco | Massa | 1 | **d8** | `Versátil` · `Oculta` | — | leve |
+| Tanto | Lâmina Curta | 1 | **d6** | `Fineza` · `Oculta` | — | leve |
+| Tekko | Manopla | 1 | **d4** | `Vestida` · `Par` · `Oculta` | — | leve |
+| Tessen | Arremesso | 1 | **d4** | `Longo Alcance` · `Oculta` · `Vestida` | — | leve |
+| Tonfa | Porrete | 1 | **d6** | `Par` · `Vestida` | — | leve |
+| **Treino marcial** | | | | | | |
+| Chicote | Flexível | 1 | **d4** | `Alcance` · `Emaranha` · `Oculta` | — | leve |
+| Corrente | Flexível | 2 | **d8** | `Alcance` · `Emaranha` · `Rompe` | — | `2` |
+| Daikyū | Yumi | 2 | **1d10** | `Longo Alcance` | — | `2` |
+| Espada Longa | Lâmina Longa | 1 | **d8** | `Versátil` · `Rompe` | — | `1` |
+| Espadão | Lâmina Longa | 2 | **d12** | `Alcance` | 3 | `2` |
+| Hankyū | Yumi | 2 | **1d8** | `Longo Alcance` · `Oculta` | — | `2` |
+| Katana | Lâmina Longa | 1 | **d8** | `Versátil` · `Fineza` | — | `1` |
+| Lança | Armas Longas | 1 | **d6** | `Alcance` · `Longo Alcance` | — | `1` |
+| Machadinha | Machado | 1 | **d6** | `Longo Alcance` · `Rompe` | — | `1` |
+| Machado | Machado | 1 | **d8** | `Rompe` | — | `1` |
+| Machado de Guerra | Machado | 2 | **d12** | `Rompe` · `Talha` · `Volumosa` | 3 | `2` |
+| Machete | Lâmina Longa | 1 | **d8** | `Rompe` | — | `1` |
+| Manriki | Flexível | 1 | **d6** | `Emaranha` · `Oculta` | — | leve |
+| Naginata | Armas Longas | 2 | **d10** | `Alcance` · `Rompe` | 3 | `2` |
+| Nodachi | Lâmina Longa | 2 | **d12** | `Alcance` · `Rompe` · `Volumosa` | 3 | `2` |
+| Odachi | Lâmina Longa | 2 | **d12** | `Alcance` · `Talha` · `Embainhada` | 3 | `2` |
+| Rapieira | Lâmina Longa | 1 | **d6** | `Fineza` · `Talha` | — | `1` |
+| Wakizashi | Lâmina Longa | 1 | **d8** | `Oculta` | — | leve |
+| Yari | Armas Longas | 2 | **d10** | `Alcance` · `Talha` | 3 | `2` |
+| **Treino de fogo** | | | | | | |
+| Espingarda | Arma de Fogo | 2 | **2d8** | `Longo Alcance` · `Munição` · `Rompe` | 1 | `2` |
+| Metralhadora Pesada | Arma de Fogo | 2 | **2d10** | `Longo Alcance` · `Munição` · `Rompe` · `Volumosa` | 3 | `2` |
+| Pistola | Arma de Fogo | 1 | **1d10** | `Longo Alcance` · `Munição` · `Oculta` | — | leve |
+| Revólver | Arma de Fogo | 1 | **1d10** | `Longo Alcance` · `Munição` · `Oculta` | — | leve |
+| Rifle | Arma de Fogo | 2 | **2d8** | `Longo Alcance` · `Munição` · `Talha` | 1 | `2` |
+| Rifle de Precisão | Arma de Fogo | 2 | **2d10** | `Longo Alcance` · `Munição` | 3 | `2` |
+| Submetralhadora | Arma de Fogo | 2 | **2d6** | `Longo Alcance` · `Munição` · `Par` · `Oculta` | — | `2` |
 
 ### Lâmina Curta
 
@@ -389,6 +389,10 @@ Quando alguma coisa não tem `Volume` escrito, o mestre pesa em quilo: **`12` kg
 
 ### Peso item a item
 
+Cada arma, cada uniforme e cada escudo traz o `Volume` dele na própria tabela, na última coluna. Você não precisa calcular nada — só somar o que está na mochila.
+
+Se quiser conferir de cabeça, a régua é esta:
+
 **`Volume` por arma**
 {: .tab-titulo }
 
@@ -397,15 +401,6 @@ Quando alguma coisa não tem `Volume` escrito, o mestre pesa em quilo: **`12` kg
 | de duas mãos | `2` |
 | de uma mão, com `Oculta` ou `Vestida` | leve |
 | todo o resto | `1` |
-
-**`Volume` do uniforme e do escudo**
-{: .tab-titulo }
-
-| degrau | `1` | `2` | `3` |
-|---|---|---|---|
-| **`Traje`** | leve | `1` | `2` |
-| **`Revestimento`** | `2` | `3` | `4` |
-| **escudo** | leve | `1` | `2` |
 
 **Dez coisas leves fazem `1` de `Volume`**, arredondando para baixo — nove leves são zero. O que pesa quase nada não conta, e quem decide isso é o mestre.
 

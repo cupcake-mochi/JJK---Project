@@ -936,7 +936,7 @@ else:
         # depois do dado" lia `Destreza` como propriedade nas onze de tiro, e as tres
         # de uma mao com `Oculta` sumiam do balde leve — 14 em vez de 17. Aqui a coluna
         # de propriedade e' a que TEM propriedade, e nao a que esta numa posicao.
-        _armas = []
+        _armas, _armas_col = [], []
         for _l in _sec53.splitlines():
             if not _l.startswith('|'):
                 continue
@@ -947,8 +947,13 @@ else:
             _mao = next((c for c in _cel[1:3] if c in ('1', '2')), None)
             if _mao is None:
                 continue
-            _props = max(_cel[3:], key=lambda c: c.count('`')) if len(_cel) > 3 else ''
+            # a coluna de propriedade e' a que TEM propriedade; a de `Volume` e' a ULTIMA,
+            # e ela e' `leve`, `1` ou `2` — nunca tem crase de propriedade nem barra de gasto
+            _cand = _cel[3:-1] if len(_cel) > 4 else _cel[3:]
+            _props = max(_cand, key=lambda c: c.count('`')) if _cand else ''
             _armas.append((_cel[0], _mao, _props))
+            _armas_col.append((_cel[0], _mao, _props,
+                               _cel[-1].replace('`', '').strip()))
         if len(_armas) != 52:
             erro(f'15: o extrator achou {len(_armas)} armas no SS5.3 e sao 52 — a contagem por '
                  f'balde passaria trivialmente')
@@ -961,6 +966,18 @@ else:
                 return _VRESTO
             from collections import Counter
             _cont = Counter(_vol(m, p) for _, m, p in _armas)
+            # v0.257, pedido do Mizuki: o `Volume` passou a ser publicado DENTRO da tabela
+            # de cada item, e nao so' derivado da regua. Entao a coluna e' COPIA e a regua e'
+            # dona: cada celula publicada tem de bater com a regua aplicada aquela arma.
+            _ruins = []
+            for _nome, _mao, _props, _pub in _armas_col:
+                _esp = _vol(_mao, _props)
+                if _pub != _esp:
+                    _ruins.append(f'{_nome}: a tabela diz {_pub!r} e a regua da {_esp!r}')
+            if _ruins:
+                erro(f'15: {len(_ruins)} arma(s) com a coluna `Volume` fora da regua: {_ruins[:4]}')
+            else:
+                print(f'  [x] as {len(_armas_col)} celulas da coluna `Volume` batem com a regua.')
             _mc = re.search(r'\*\*`(\d+)` leves, `(\d+)` de `Volume` `1` e `(\d+)` de `Volume` `2`\*\*', _s66)
             if not _mc:
                 erro('15: o SS6.6.2 parou de publicar a contagem por balde')
@@ -971,18 +988,45 @@ else:
                     erro(f'15: a peca publica {_pub} leves/1/2 e a regua aplicada ao SS5.3 da {_der}')
                 else:
                     print(f'  [x] a regua reconstroi o catalogo: {_der[0]} leves, {_der[1]} de 1, {_der[2]} de 2.')
+            # ---- e a COPIA do livro, que publica a mesma coluna numa tabela so'
+            _c50 = os.path.join(AQUI, '..', '05-material', 'livro', 'manual', '50-equipamento.md')
+            if not os.path.isfile(_c50):
+                print('    ~~ o capitulo 50 do livro nao existe: a copia dele nao foi conferida')
+            else:
+                _liv = open(_c50, encoding='utf-8').read()
+                _ruins50, _n50 = [], 0
+                for _l in _liv.splitlines():
+                    if not _l.startswith('|'):
+                        continue
+                    _c = [x.strip() for x in _l.strip().strip('|').split('|')]
+                    if len(_c) != 7 or _c[2] not in ('1', '2'):
+                        continue
+                    _n50 += 1
+                    _esp = _vol(_c[2], _c[4])
+                    if _c[6].replace('`', '').strip() != _esp:
+                        _ruins50.append(f'{_c[0]}: o livro diz {_c[6]!r} e a regua da {_esp!r}')
+                if _n50 != len(_armas):
+                    erro(f'15: o capitulo 50 do livro publica {_n50} armas e a peca tem {len(_armas)}')
+                elif _ruins50:
+                    erro(f'15: {len(_ruins50)} arma(s) com `Volume` errado no livro: {_ruins50[:4]}')
+                else:
+                    print(f'  [x] as {_n50} celulas do capitulo 50 do livro batem com a mesma regua.')
 
-    # ---- o uniforme: a escada nao pode DESCER em fracao do limite
-    _uni, _lendo = {}, False
-    for _l in _s66.splitlines():
-        if _l.startswith('| degrau | `1` |'):
-            _lendo = True; continue
-        if _lendo and _l.startswith('|') and not _l.startswith('|---'):
-            _c = [x.replace('`', '').replace('**', '').strip() for x in _l.strip().strip('|').split('|')]
-            if len(_c) == 4 and _c[0] in ('Traje', 'Revestimento', 'escudo (Broquel · Médio · Torre)'):
-                _uni[_c[0].split(' (')[0]] = _c[1:]
-        elif _lendo and not _l.startswith('|'):
-            _lendo = False
+    # ---- o uniforme: o `Volume` mora na tabela do SS3 e na do SS4, que sao as donas
+    # desde a v0.257 (pedido do Mizuki). A escada nao pode DESCER em fracao do limite.
+    _uni, _esc = {}, {}
+    for _l in EQ.splitlines():
+        _c = [x.replace('`', '').replace('**', '').strip() for x in _l.strip().strip('|').split('|')] \
+            if _l.startswith('|') else []
+        if len(_c) == 9 and _c[0] in ('1', '2', '3'):        # a escada do SS3
+            _uni.setdefault('Traje', {})[int(_c[0])] = _c[7]
+            _uni.setdefault('Revestimento', {})[int(_c[0])] = _c[8]
+        if len(_c) == 7 and _c[0] in ('1', '2', '3') and _c[1] in ('Broquel', 'Médio', 'Torre'):
+            _esc[_c[1]] = _c[6]
+    if len(_uni.get('Traje', {})) != 3 or len(_uni.get('Revestimento', {})) != 3 or len(_esc) != 3:
+        erro(f'15: nao li a coluna `Volume` das tabelas donas — Traje/Revestimento '
+             f'({_uni}) e escudo ({_esc}). Elas moram no SS3 e no SS4 desde a v0.257')
+        _uni = {}
     # o requisito de Forca de cada degrau sai do SS3 e do SS4, que sao os donos
     _req = {}
     for _l in EQ.splitlines():
@@ -999,7 +1043,7 @@ else:
         _fr, _mau = [], []
         for _k in ('Traje', 'Revestimento'):
             for _d in (1, 2, 3):
-                _v = _num(_uni[_k][_d - 1])
+                _v = _num(_uni[_k][_d])
                 _lim = _K + _req[(_k, _d)]
                 _fr.append((f'{_k} {_d}', _v / _lim * 100))
         for _i in range(1, len(_fr)):
@@ -1010,6 +1054,35 @@ else:
         else:
             print(f'  [x] a escada do uniforme sobe: ' +
                   ' · '.join(f'{n} {f:.0f}%' for n, f in _fr))
+        # ---- o uniforme e o escudo do LIVRO sao copia da peca, e tem de bater
+        _c50b = os.path.join(AQUI, '..', '05-material', 'livro', 'manual', '50-equipamento.md')
+        if os.path.isfile(_c50b):
+            _lv = open(_c50b, encoding='utf-8').read()
+            _uL, _eL, _qual = {}, {}, None
+            for _l in _lv.splitlines():
+                _s = _l.strip()
+                if _s in ('**Traje**', '**Revestimento**', '**Escudo**'):
+                    _qual = _s.strip('*')
+                if not _l.startswith('|'):
+                    continue
+                _c = [x.replace('`', '').replace('**', '').strip() for x in _s.strip('|').split('|')]
+                if _qual in ('Traje', 'Revestimento') and len(_c) == 5 and _c[0] in ('1', '2', '3'):
+                    _uL.setdefault(_qual, {})[int(_c[0])] = _c[4]
+                if _qual == 'Escudo' and len(_c) == 6 and _c[0] in ('1', '2', '3'):
+                    _eL[_c[1]] = _c[5]
+            _maus = []
+            for _k in ('Traje', 'Revestimento'):
+                for _d in (1, 2, 3):
+                    if _uL.get(_k, {}).get(_d) != _uni[_k][_d]:
+                        _maus.append(f'{_k} {_d}: livro {_uL.get(_k, {}).get(_d)!r}, peca {_uni[_k][_d]!r}')
+            for _nm, _v in _esc.items():
+                if _eL.get(_nm) != _v:
+                    _maus.append(f'escudo {_nm}: livro {_eL.get(_nm)!r}, peca {_v!r}')
+            if _maus:
+                erro(f'15: o `Volume` do uniforme ou do escudo diverge entre a peca e o livro: {_maus}')
+            else:
+                print('  [x] o uniforme e o escudo do livro batem com a peca, degrau a degrau.')
+
         # ---- e o `4` do Revestimento 3 sai dos 36%, que saem da tabela de validacao
         _lim_unico = [int(x) for x in re.findall(r'\| \*\*limite único\*\* \|[^|]+\| `(\d+)%` \|', _s66)]
         if len(_lim_unico) < 2:
@@ -1018,11 +1091,11 @@ else:
         else:
             _media = sum(_lim_unico) / len(_lim_unico)
             _esp = round(_media / 100 * (_K + _req[('Revestimento', 3)]))
-            if _esp != _num(_uni['Revestimento'][2]):
+            if _esp != _num(_uni['Revestimento'][3]):
                 erro(f'15: a media dos sistemas de limite unico e {_media:.0f}%, que da Volume '
-                     f'{_esp} para o Revestimento 3, e a peca publica {_uni["Revestimento"][2]}')
+                     f'{_esp} para o Revestimento 3, e a peca publica {_uni["Revestimento"][3]}')
             else:
-                print(f'  [x] o Revestimento 3 em {_uni["Revestimento"][2]} sai da media '
+                print(f'  [x] o Revestimento 3 em {_uni["Revestimento"][3]} sai da media '
                       f'{_media:.0f}% dos sistemas de limite unico.')
 
 if ERROS:

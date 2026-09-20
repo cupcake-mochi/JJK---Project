@@ -8,6 +8,44 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.257] — 19/09/2026
+
+**O `Volume` saiu da seção de peso e foi para dentro da tabela de cada item.** *Pedido do Mizuki, logo depois de a v0.256 subir:* **"coloque direto nas tabelas que os introduzem, peso direto na tabela de arma, escudo, revestimento, traje, afins".** *A v0.256 tinha deixado o peso numa seção só, com a régua, e quem montava ficha tinha de aplicar a régua de cabeça.*
+
+### 1 · O que mudou
+
+**A coluna `Volume` entrou em quinze tabelas**: *as onze do catálogo de armas da peça 14 §5.3, a de tiro, a escada de uniforme do §3 e a de escudo do §4 — e as mesmas no livro, onde o catálogo é uma tabela só.* **Nenhum número foi escolhido: cada célula saiu da régua aplicada àquela arma.**
+
+***A régua continua sendo a dona, e a coluna é cópia.*** *Isso é a lição nº 9 — um número que mora em dois documentos vai divergir —, e por isso a coluna não é um valor novo: o validador aplica a régua e compara célula a célula.*
+
+**E a duplicata saiu.** *O §6.6.3 da peça publicava a tabela de uniforme e de escudo; agora ele aponta para o §3 e o §4, que são as donas. A seção `Peso` do livro ficou com a régua e com o que o peso faz, sem repetir item nenhum.*
+
+### 2 · O que o validador passou a guardar
+
+**A checagem `15` do `conferir-equipamento.py` cresceu de três conferências para seis**, *e nenhuma delas guarda número*:
+
+- **as `52` células da coluna na peça** batem com a régua aplicada arma por arma;
+- **as `52` células do capítulo 50 do livro** batem com a mesma régua, e a contagem dos dois lados tem de ser igual;
+- **o uniforme e o escudo** batem entre a peça e o livro, degrau a degrau;
+- *e as três de antes seguem: a fórmula contra o fator em kg, a escada do uniforme que não pode descer em fração do limite, e o `4` do `Revestimento` `3` derivado da média dos sistemas de limite único.*
+
+**O `Volume` do uniforme e do escudo passou a ser lido das tabelas do §3 e do §4**, *que viraram as donas — antes ele era lido da tabela do §6.6.3, que não existe mais.*
+
+### Alterado
+
+- **A peça 14:** *a coluna `Volume` nas onze tabelas do §5.3 e na de tiro, na escada do §3 e na do §4; e o §6.6.3, que virou ponteiro.*
+- **O livro:** *a coluna no catálogo de armas, na escada de uniforme e na de escudo; e a seção `Peso`, que ficou só com a régua.* **Os quatro artefatos refeitos.**
+- **`conferir-equipamento.py`, checagem `15`:** *três conferências novas, e a leitura do uniforme e do escudo movida para as tabelas donas.*
+
+### Decidido
+
+- **O peso de cada coisa se lê na tabela daquela coisa, e não numa seção à parte.**
+- **A régua fica como dona; a coluna é cópia, e o validador guarda as duas.**
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, seção *"Problemas de design abertos"* (o item `11`, Ritual, é o próximo sem dono).
+
+---
+
 ## [0.256] — 19/09/2026
 
 **A Força ganhou escala de peso, e o `Volume` entrou em tudo que se carrega.** *É o item `8` da fila, e o Mizuki tinha fechado a fórmula em 19/09: `Volume = 5 + Força`, `12` kg por `Volume`, e o dobro para arrastar e levantar.* **O que faltava era dar `Volume` aos itens — e foi dando que a conta achou duas leituras minhas erradas.** *A sintonização de ferramenta saiu junto, por decisão dele.*
