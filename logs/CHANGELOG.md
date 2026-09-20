@@ -44,11 +44,27 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 **A primeira versão da checagem `10` cobrava que a largura da janela fosse igual ao teto — e isso é verdadeiro por construção.** *Ela saía verde com qualquer teto, e o arnês pegou: subir o teto de `3` para `5` não acendia nada.* **Lição nº 8 pela porta mais velha, dentro de uma checagem escrita para medir outra coisa.** *A sub-checagem saiu, e o que ficou prova a ESTRUTURA e nunca o VALOR: que existe saturação e que ela vem do teto.* **Mexer no teto continua não acendendo, e agora isso está escrito no código como decisão** — *o teto é escolha de design com dono, e a checagem leria o número novo do mesmo lugar.*
 
+### 6 · E o Ritual saiu de "sem dono" — decidido, e não escrito
+
+**O item `11` ficou sem dono desde 19/09 e ganhou as sete decisões nesta versão.** *Nada foi escrito ainda: isso é a v0.260.*
+
+***A primeira correção foi minha, e ela vinha da minha própria suposição:*** *eu tinha desenhado ritual como conjuração lenta fora de combate, e ele derrubou —* **"o personagem principal que trabalhou rituais foi o proprio sukuna, ele usava no meio do combate para inflar, amplificar e melhorar seus feitiços"**. *É ação de combate cara, e é um capítulo inteiro.*
+
+**O ritual fura o limite de Melhorias por feitiço, e vende de uma LISTA PRÓPRIA** — *decisão dele, e a conta obriga: uma rodada perdida vale `2,2` Melhorias `Pesada` em dano, e o limite de Melhorias segura **largura** e não dano.* **Vender Melhoria comum por uma rodada seria negócio que ninguém faz.**
+
+***E a escada de tempo já existia: duas das três subidas têm preço no manual.*** *Ação Bônus é a Melhoria `Rápido` (`Pesada`), Ação Completa é a Restrição `Atrasar` (devolve `Média`), e o degrau de dois turnos não existe.* **Em Melhorias `Leve`, as duas primeiras subidas compram `1` a `3` — que é exatamente a escala do F&M 2.5, o sistema antigo dele, e os dois não se olharam.** *A terceira compraria de `3` a `12`, e é por isso que ela abre efeito exclusivo em vez de vaga.*
+
+**O gate da aptidão de acesso foi recusado pela conta e corrigido por ele.** *Ele propôs `INT 5` e nível `8`; o `8` não é marco, e pior: no marco `6` a escolha `Corpo` dá o atributo e a escolha `Refino` dá a aptidão, e as duas são **exclusivas**.* **`INT 5` e uma aptidão só coexistem no marco `10`** — *e só para quem tem INT como principal; com INT secundário, no `14`.*
+
+**O nome do degrau de cima é `Recitação Prolongada`, escolha dele, e ele passou na triagem** — *com dois avisos que a triagem não pega: o formato `<substantivo> <adjetivo>` é o que faz o `conferir-nomes` ler o adjetivo como categoria, e `Prolongada` encosta em sentido na `Duradoura` da v0.254.*
+
+*A pesquisa da obra deu a forma: o Sukuna se amarrou a **três condições** para cada Cortada — o sinal de mão, o encantamento recitado, e a palma direcionando.* **A escada de condições empilhadas já está na obra, e ela encaixa no `Selo`.**
+
 ### Alterado
 
 - **A peça 10 §4:** *o teto de três ganhou a segunda metade do motivo.* **Regra nenhuma se moveu.**
 - **`conferir-descanso.py`:** *a checagem `10`, que deriva a janela do teto e das lutas de graça, prova que ela fecha dos dois lados, e traz o contra-teste dentro dela — sem o teto a separação máxima iria de `3` para `16`.*
-- **O ESTADO-ATUAL:** *o item `6` com a medida, o `14` e o `15` fechados, e o item `9` novo na fila.*
+- **O ESTADO-ATUAL:** *o item `6` com a medida, o `14` e o `15` fechados, o item `11` com as sete decisões do Ritual, e os itens `9` e `10` novos na fila.*
 
 ### Decidido
 
@@ -58,7 +74,7 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 *Arnês numa cópia isolada, com a base verde: **5 perturbações acendem a etiqueta certa e 5 contra-testes ficam verdes**. Duas das perturbações viraram contra-teste no meio do caminho, quando o arnês mostrou que a expectativa é que estava errada — mexer no teto é decisão de design e não pode acender validador.*
 
-→ **Continua em** `sistema/ESTADO-ATUAL.md`, seção *"Problemas de design abertos"*: **o item `11`, Ritual, é o único sem dono agora.**
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, item `11`: **o Ritual, que ganhou as sete decisões nesta versão e ainda não foi escrito.** *A fila da v0.239 também cresceu em dois — as fichas nova e os requisitos das aptidões.*
 
 ---
 
