@@ -1616,6 +1616,103 @@ Isso é diferente de deixar em aberto — é decisão com condição de disparo,
 
 > **⚠ O escudo `Torre` não entra na criação, e o dinheiro não muda isso.** *Ele exige `Força 5` contra o teto de criação `3`, e custa `2` pontos de marco* — **dois gates independentes, nenhum dos dois de preço.** *`Broquel` e `Médio` são os que cabem, e os dois são baratos.*
 
+## 6.6 O peso — `Volume`, e o que cabe na mochila — v0.256
+
+> ***Decisão do Mizuki em 19/09/2026:*** *"Dar equivalencia de peso pro sistema, não da pra n ter sistema de peso nele".* **A Força tinha requisito de arma e de uniforme, e não tinha escala: nada dizia quanto peso um valor de Força levanta ou carrega.**
+
+**A camada 3 do §6 ligou, e não foi o gatilho dela que disparou.** *Aquela seção deixou o espaço desligado com condição escrita — "se o playtest mostrar que o grupo leva tudo que quer sem precisar escolher, o espaço entra" —, e a pasta `04-playtest/` continua vazia.* **Quem ligou foi o Mizuki, por decisão de design, e isto fica escrito aqui para ninguém ler daqui a dez versões que o playtest aconteceu.**
+
+**Para que o peso serve, e só para isso** *(decisão dele: "de resto n vai servir pra mais nada, igual DnD 2024")*: **o limite do quanto se carrega, e os requisitos de arma e de uniforme, que já existiam e não mudam.** *Sem degraus de carga e sem penalidade por item: passar do limite é um muro, e não um degrau.*
+
+### 6.6.1 A fórmula, e ela é dele
+
+**O limite de carga**
+
+| | |
+|---|---|
+| limite, em `Volume` | `5 + Força` |
+| o que isso dá | `5` na Força `0` e `11` na Força `6` |
+| em quilo, quando o mestre precisar pesar o que não tem `Volume` | `12` kg por `Volume`, ou `60` a `132` kg |
+| arrastar, empurrar e levantar | **o dobro** |
+
+***O requisito de Força de arma e de uniforme é INDEPENDENTE do `Volume`***, *por decisão dele:* **"O peso (volume) de cada item/arma vai servir como um segundo balanceador"**. *O requisito continua sendo o do §5.5 e o do §3, e ele não olha o quanto você está carregando.*
+
+**Dez itens leves fazem `1` de `Volume`**, *arredondando para baixo — nove leves são zero.* **O que pesa quase nada não conta**, *e quem decide isso é o mestre, como no Pathfinder.*
+
+### 6.6.2 A régua das armas, em três linhas
+
+**Nenhuma das `52` armas precisou de peso escolhido a mão: a régua lê as propriedades que o §5.3 já publica.**
+
+**`Volume` por arma**
+
+| a arma | `Volume` |
+|---|---|
+| de duas mãos | `2` |
+| de uma mão, com `Oculta` ou `Vestida` | leve |
+| todo o resto | `1` |
+
+*Isso dá* **`17` leves, `14` de `Volume` `1` e `21` de `Volume` `2`**, *e o catálogo inteiro pesaria `57,7`.*
+
+> ***A `Volumosa` NÃO entra nesta régua, e isso é a lição do preço somado.*** *Ela já é desvantagem vendida por orçamento — o `Nodachi` compra `Rompe` pagando com ela, e o `Espadão`, que não a tem, leva só `Alcance`. Cobrar `Volume` em cima cobraria duas vezes pela mesma coisa, e a propriedade foi preçada quando ela significava só o que o §5.0.4 diz que ela significa:* **"não dá para esconder, e atrapalha em espaço apertado".** *Isso é ocultação e espaço, não peso — um nodachi e um espadão pesam o mesmo no mundo real.*
+
+> **Consequência declarada, e ela vem do catálogo e não da régua:** *o `Taco` e a `Besta de Uma Mão` saem leves porque o §5.3 deu `Oculta` aos dois, e a `Wakizashi` sai leve enquanto a `Katana` fica em `1`.* **Quem quiser mexer nisso mexe na propriedade, no §5.3, e o peso segue atrás.**
+
+### 6.6.3 O uniforme e o escudo
+
+**`Volume` do uniforme e do escudo**
+
+| degrau | `1` | `2` | `3` |
+|---|---|---|---|
+| **`Traje`** | leve | `1` | `2` |
+| **`Revestimento`** | `2` | `3` | `4` |
+| **escudo** (`Broquel` · `Médio` · `Torre`) | leve | `1` | `2` |
+
+**A escada sobe sem tropeço**, *medida como fração do limite que a Força exigida por cada peça dá:* `2%` · `20%` · `25%` · `25%` · `33%` · `36%`. **O único empate é o `Traje` `3` contra o `Revestimento` `1`, e eles não se dominam:** *o `Revestimento` dá `1` de proteção a mais e põe teto de Destreza `0`, que é a troca do §3.*
+
+### 6.6.4 De onde sai o `4` do `Revestimento` 3
+
+***O Mizuki pediu a validação:*** *"Faça uma validação baseado em outros sistemas, o quanto normalmente uma armadura pesada come do limite de uma ficha e afins, vamos na média".* **Os cinco sistemas medidos se partem em dois desenhos, e a fração depende do desenho e não do sistema.**
+
+**Quanto a armadura pesada come do limite**
+
+| desenho | sistema | come | qual limite |
+|---|---|---|---|
+| **limite único** | D&D 2024 | `29%` | Força × `7` kg, com o dobro para arrastar e levantar |
+| **limite único** | Pathfinder 2e | `44%` | `5` + modificador de Força, onde a sobrecarga começa |
+| degraus | D&D 5e, regra opcional | `87%` | Força × `5`, o primeiro dos três degraus |
+| degraus | Pathfinder 1e | `76%` | carga leve, o primeiro dos três |
+| degraus | GURPS 4e | `74%` | Carga Leve, `2` × o Peso Básico |
+
+***O nosso é o de limite único***, *porque a decisão dele foi "sem degraus de carga e sem penalidade por item"* — **e os dois sistemas desse desenho são justamente os que ele mandou misturar.** *A média deles é `36%`, e `36%` do `Volume` `11` que a Força `6` dá é* **`4,0`**.
+
+> **O desenho importa mais que o sistema, e é por isso que os outros três ficam de fora da média.** *Num sistema de degraus o primeiro degrau é apertado de propósito: passar dele dá penalidade e o jogo continua. Aqui passar do limite é um muro, então o limite tem de ser o generoso.*
+
+### 6.6.5 O que o limite deixa passar
+
+**O que sobra depois do kit**
+
+| montagem | Força mínima | `Volume` | kit | sobra |
+|---|---|---|---|---|
+| leve — `Traje` `2`, sem escudo | `0` | `5` | `1` | `4` armas de uma mão |
+| marcial — `Traje` `3` mais escudo `Médio` | `3` | `8` | `3` | `5` |
+| tanque — `Revestimento` `3`, sem escudo | `6` | `11` | `4` | `7` |
+| tanque — `Revestimento` `3` mais escudo `Torre` | `6` | `11` | `6` | `5` |
+
+**O eixo separa em três das quatro montagens, e empata na quarta:** *o tanque que leva o escudo `Torre` sobra o mesmo que o marcial.* **Isso é escolha do jogador e não defeito da régua** — *o `Torre` custa `2` de `Volume` e `2` pontos de marco, e quem não o leva sobra `7`.*
+
+### 6.6.6 O que o peso substitui, e o que ele não substitui
+
+***Ele NÃO substitui o `Teto de Estigma`, e a primeira leitura desta versão dizia que sim.*** *O teto da peça 16 §5 é de MÃO — uma arma empunhada mais dois objetos de apoio —, e a peça 20 §4 diz com todas as letras que ele* **"conta pelas mãos e não pela mochila"**: *três armas guardadas com uma empunhada continuam sendo uma.* **Um limite de carga não alcança um teto que nunca contou a mochila.**
+
+***O que ele substitui é a sintonização.*** *Hoje nada limita quantas ferramentas se carrega para trocar no meio da missão; o que segura é o custo de sintonizar, um descanso curto por item. Com a sintonização saindo (peça 16, v0.256), o `Volume` passa a ser o único limite dessa variedade, e ele deixa passar de `4` a `7` armas de uma mão.* **Onde hoje não há número nenhum, passa a haver um.**
+
+> **E o custo de marco continua sendo o limite maior dos três.** *Um `Estigma` de Classe `3` é do tamanho de uma aptidão, e a peça 16 §5 mede: `3` deles são `43%` das sete escolhas de marco da campanha inteira, e `4` são `57%`.* **Nenhuma ficha chega perto de encher a mochila de ferramenta amaldiçoada, porque o marco acaba muito antes do `Volume`.**
+
+### 6.6.7 O que fica de fora desta versão
+
+- **O item comum não ganha lista de peso.** *A camada 1 do §6 — o pé de cabra, a lanterna, a corda — entra como* **leve**, *e o que fugir disso o mestre pesa em quilo pelo fator do §6.6.1.* **Dez deles fazem `1`, então o kit de missão inteiro é `1` ou `2` de `Volume`.**
+- **O catálogo de armas não foi revisado, e as que faltam não entraram.** *O Mizuki anotou que o `Volume` de cada item vira um segundo balanceador e que isso abre repensar o catálogo; ele decidiu em 19/09/2026 que isso não é esta versão.*
+
 ## 7. A dívida que esta peça deve à peça 11
 
 **O preço da Reação de cobrir-se tem de virar agnóstico de fonte.** Hoje ela cobra *"você fica sem **a proteção passiva**"* — e quem está de Revestimento não paga isso, porque não tira o colete no meio do golpe.

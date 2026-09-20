@@ -37,6 +37,7 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **`Vida temporária`** | Anteparo, não vida. Gasta antes da vida real, não acumula, teto de metade da vida máxima, some no fim da cena | 1 |
 | **`Energia temporária`** | A mesma regra, com o PE: gasta antes do PE, não acumula, teto de metade do PE máximo, some no fim da cena | 1 |
 | **Proteção** | O que soma na Defesa: o uniforme que você veste, ou a energia com que você se cobre | 14 |
+| **`Volume`** | O espaço que uma coisa ocupa na sua carga. O seu limite é `5 + Força`, e `12` kg valem `1` | 14 |
 | **Redução de Dano** | Desconto no dano que já passou pela Defesa. Não é a mesma coisa que proteção | 9 |
 | **Perícia** | Uma das vinte e três. Cada uma tem um atributo fixo. Sem treino você ainda tenta | 3 |
 | **Ofício** | Um dos onze. Não tem atributo fixo, e sem treino você **não** tenta | 3 |

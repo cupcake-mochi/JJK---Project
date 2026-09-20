@@ -99,6 +99,7 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **`Vida temporária`** | Anteparo, não vida. Gasta antes da vida real, não acumula, teto de metade da vida máxima, some no fim da cena | 1 |
 | **`Energia temporária`** | A mesma regra, com o PE: gasta antes do PE, não acumula, teto de metade do PE máximo, some no fim da cena | 1 |
 | **Proteção** | O que soma na Defesa: o uniforme que você veste, ou a energia com que você se cobre | 14 |
+| **`Volume`** | O espaço que uma coisa ocupa na sua carga. O seu limite é `5 + Força`, e `12` kg valem `1` | 14 |
 | **Redução de Dano** | Desconto no dano que já passou pela Defesa. Não é a mesma coisa que proteção | 9 |
 | **Perícia** | Uma das vinte e três. Cada uma tem um atributo fixo. Sem treino você ainda tenta | 3 |
 | **Ofício** | Um dos onze. Não tem atributo fixo, e sem treino você **não** tenta | 3 |
@@ -5757,6 +5758,38 @@ Ele soma Força, como todo corpo a corpo. E vale como arma para todo efeito de r
 
 O soco não tem propriedade nenhuma, então ele abre mão de alcance, de `Par`, de `Oculta` e de todo o resto. Em troca, ninguém desarma um punho e ninguém confisca um punho na portaria: a condição `Desarmado` não existe para quem bate com a mão.
 
+## Peso
+
+Você carrega em `Volume`, que é espaço e não quilo. O seu limite é **`5 + Força`**: cinco de Força 0, onze de Força 6.
+
+> **Passar do limite não é um degrau — é um muro.** Você não sai do lugar com mais do que cabe.
+
+**Arrastar, empurrar ou levantar é o dobro disso**, e vale para aquele esforço, não para andar com a carga.
+
+Quando alguma coisa não tem `Volume` escrito, o mestre pesa em quilo: **`12` kg por `Volume`**. O seu limite em quilo é de `60` a `132`.
+
+### Peso item a item
+
+**`Volume` por arma**
+| a arma | `Volume` |
+|---|---|
+| de duas mãos | `2` |
+| de uma mão, com `Oculta` ou `Vestida` | leve |
+| todo o resto | `1` |
+
+**`Volume` do uniforme e do escudo**
+| degrau | `1` | `2` | `3` |
+|---|---|---|---|
+| **`Traje`** | leve | `1` | `2` |
+| **`Revestimento`** | `2` | `3` | `4` |
+| **escudo** | leve | `1` | `2` |
+
+**Dez coisas leves fazem `1` de `Volume`**, arredondando para baixo — nove leves são zero. O que pesa quase nada não conta, e quem decide isso é o mestre.
+
+Item comum — pé de cabra, lanterna, corda, o que estiver na mochila — é **leve**, salvo o que o mestre pesar de outro jeito.
+
+> **O que o peso faz, e só isso:** ele diz quanto você leva. Ele não dá penalidade por item, não tem degrau, e não mexe no requisito de Força da arma nem do uniforme — esse requisito é outro número, e ele não olha o quanto você está carregando.
+
 ## Dinheiro e acesso
 
 > **A moeda é o iene. Você recebe um salário mensal da instituição, e o valor sai da sua patente** — a tabela **Salário por patente** está no capítulo 18, *Experiência e Progressão*.
@@ -5847,21 +5880,20 @@ As linhas de baixo não são enfeite: o fundo da criação é uma mensalidade da
 > **Uma ferramenta amaldiçoada é uma arma do catálogo de Equipamento (ou um objeto de apoio) mais um `Estigma`.**
 >
 >
-> **Uma ferramenta que você não sintonizou é arma comum, e nada mais.**
+> **Uma ferramenta que você não empunha nem veste é um objeto comum, e nada mais.**
 
 **Objeto de apoio** é a ferramenta que você carrega sem empunhar: um anel, um cordão, uma peça costurada no forro do casaco.
 
-## Sintonizar
+## Na mão ou no corpo
 
-> **Sintonizar custa um descanso curto dedicado àquela ferramenta, com ela na mão.** Um descanso, uma ferramenta.
+> **A ferramenta funciona enquanto você a empunha ou veste.** Não há ritual, não há descanso, não há PE.
 >
-> **Desfazer custa outro descanso curto**, e você faz isso quando quiser.
+> **Guardada, ela não faz nada**: o `Estigma` não age da mochila.
 
-Enquanto você não sintoniza, a ferramenta é a arma comum que está por baixo dela: o dado e as propriedades valem, o `Estigma` não.
+Trocar de ferramenta custa o que custa sacar, e isso está no capítulo *O turno*.
 
-Quantas você carrega sintonizadas ao mesmo tempo já está resolvido pelo `Teto de Estigma` — são as suas mãos, mais dois objetos de apoio.
+Quantas agem ao mesmo tempo é o `Teto de Estigma` — as suas mãos, mais dois objetos de apoio. **Quantas você carrega para trocar é o peso:** cada ferramenta ocupa o `Volume` da arma que está por baixo dela, e o seu limite é `5 + Força`.
 
-> **Se a sua mesa preferir, sintonizar pode custar um descanso longo.** Combinem antes da primeira sessão. Com o descanso curto, a ferramenta que você achar no meio da missão serve na luta seguinte; com o longo, ela serve na próxima missão.
 ## Ferramenta forjada
 
 A arma por baixo continua sendo a arma de sempre: mesmo dado, mesmas propriedades, mesmo requisito de Força. O `Estigma` entra como camada por cima disso, e não muda nada dela.
@@ -6879,4 +6911,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: 6d92286a72bae986829a8ec50dadf45ac0d9c918 -->
+<!-- fonte: 86ef6788f32c1c1718230f87a7bc82cf2fb26733 -->

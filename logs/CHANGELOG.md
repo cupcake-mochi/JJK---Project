@@ -8,6 +8,90 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.256] — 19/09/2026
+
+**A Força ganhou escala de peso, e o `Volume` entrou em tudo que se carrega.** *É o item `8` da fila, e o Mizuki tinha fechado a fórmula em 19/09: `Volume = 5 + Força`, `12` kg por `Volume`, e o dobro para arrastar e levantar.* **O que faltava era dar `Volume` aos itens — e foi dando que a conta achou duas leituras minhas erradas.** *A sintonização de ferramenta saiu junto, por decisão dele.*
+
+### 1 · O que existe agora
+
+**O limite de carga**
+
+| | |
+|---|---|
+| limite, em `Volume` | `5 + Força` — `5` na Força `0`, `11` na Força `6` |
+| em quilo | `12` kg por `Volume`, ou `60` a `132` kg |
+| arrastar, empurrar e levantar | o dobro |
+
+***Passar do limite é um muro, e não um degrau***: *sem penalidade por item e sem escada de carga, como ele decidiu.* **E o requisito de Força de arma e de uniforme é independente do `Volume`** — *ele continua sendo o que já era, e não olha o quanto você está carregando.*
+
+**Nenhuma das `52` armas precisou de peso escolhido a mão.** *A régua lê as propriedades que a peça 14 §5.3 já publica:* **de duas mãos = `2`, de uma mão com `Oculta` ou `Vestida` = leve, todo o resto = `1`.** *Dá `17` leves, `14` de `Volume` `1` e `21` de `Volume` `2`, e dez leves fazem `1`.* **O uniforme e o escudo:** *`Traje` `L · 1 · 2`, `Revestimento` `2 · 3 · 4`, escudo `L · 1 · 2`.*
+
+***E a sintonização saiu*** *(decisão dele: "Mantem limite pros de apoio, reduz pra 2. Mas remove o limite para arma e tira a sintonização")*: **a ferramenta funciona enquanto você a empunha ou veste, e guardada ela não faz nada.** *Isso reverte a v0.144, que tinha fechado a sintonização em um descanso curto por ferramenta — e o motivo é que agora existe limite de carga, que é o que ela segurava.* **A variante do descanso longo morreu junto.**
+
+### 2 · As três coisas que a conta corrigiu
+
+***1 · A `Volumosa` não entra na régua de `Volume`, e isso é a lição do preço somado.*** *Eu ia dar `3` a ela. Mas ela já é desvantagem VENDIDA por orçamento — o `Nodachi` compra `Rompe` pagando com ela, e o `Espadão`, que não a tem, leva só `Alcance`.* **Cobrar peso em cima cobraria duas vezes pela mesma coisa**, *e o que ela descreve é ocultação e espaço apertado, não peso: um nodachi e um espadão pesam o mesmo no mundo real.*
+
+***2 · O uniforme veio de validação externa, e ela derrubou a minha recomendação.*** *O Mizuki pediu: "Faça uma validação baseado em outros sistemas, o quanto normalmente uma armadura pesada come do limite de uma ficha e afins, vamos na média".*
+
+| desenho | sistema | come |
+|---|---|---|
+| **limite único** | D&D 2024 | `29%` |
+| **limite único** | Pathfinder 2e | `44%` |
+| degraus | D&D 5e, regra opcional | `87%` |
+| degraus | Pathfinder 1e | `76%` |
+| degraus | GURPS 4e | `74%` |
+
+**Os cinco se partem em dois desenhos, e a fração depende do desenho e não do sistema.** *Num sistema de degraus o primeiro degrau é apertado de propósito, porque passar dele não te para.* **O nosso é o de limite único — e os dois desse grupo são justamente os que ele mandou misturar.** *A média é `36%`, que de `Volume` `11` dá `4` para o `Revestimento` `3`.* ***Eu tinha recomendado `6`, comparando com o grupo errado.***
+
+***3 · O peso NÃO substitui o `Teto de Estigma`, contra o que eu tinha escrito.*** *O teto da peça 16 §5 é de MÃO — uma arma empunhada mais dois apoios —, e a peça 20 §4 diz "conta pelas mãos e não pela mochila": três armas guardadas com uma empunhada continuam sendo uma.* **Então a arma com `Estigma` já não tinha limite de quantidade guardada, e não havia o que remover.** *O que o peso substitui é a sintonização, que era quem segurava a variedade carregada.* **Os três limites são de eixos diferentes:** *a MÃO diz quantas agem, o `Volume` diz quantas viajam, e o MARCO diz quantas a ficha chega a ter — e o marco é o mais apertado dos três, com `3` ferramentas valendo `43%` das sete escolhas da campanha.*
+
+### 3 · O que o limite deixa passar
+
+| montagem | Força mínima | `Volume` | kit | sobra |
+|---|---|---|---|---|
+| leve — `Traje` `2`, sem escudo | `0` | `5` | `1` | `4` armas de uma mão |
+| marcial — `Traje` `3` mais escudo `Médio` | `3` | `8` | `3` | `5` |
+| tanque — `Revestimento` `3`, sem escudo | `6` | `11` | `4` | `7` |
+| tanque — `Revestimento` `3` mais escudo `Torre` | `6` | `11` | `6` | `5` |
+
+**O eixo separa em três das quatro montagens.** *Na quarta o tanque de escudo `Torre` empata com o marcial, e isso é escolha do jogador: o `Torre` custa `2` de `Volume` e `2` pontos de marco, e quem não o leva sobra `7`.*
+
+> **A camada `3` da peça 14 §6 ligou, e não foi o gatilho dela que disparou.** *Ela dizia "se o playtest mostrar que o grupo leva tudo que quer sem precisar escolher, o espaço entra", e `04-playtest/` continua vazia desde a v0.1.* **Quem ligou foi o Mizuki, por decisão de design, e a peça escreve isso** — *para ninguém ler daqui a dez versões que o playtest aconteceu.*
+
+### Adicionado
+
+- **A peça 14 §6.6**, *com a fórmula, a régua das armas, o uniforme, o escudo, a validação externa, o que o limite deixa passar e o que ele não substitui.*
+- **A peça 16 §5.1**, *com os três eixos de limite lado a lado.*
+- **`conferir-equipamento.py`, checagem `15`:** *a fórmula e o fator saem da tabela do §6.6.1; a régua sai da tabela do §6.6.2 e é APLICADA ao catálogo do §5.3, reconstruindo os três baldes; o requisito de Força de cada degrau sai do §3; a escada do uniforme é medida em fração do limite e tem de subir; e o `4` do `Revestimento` `3` é derivado da média das linhas de "limite único" da tabela de validação.* **A `Volumosa` na régua é erro declarado, e a checagem acusa.**
+- **O livro:** *a seção `Peso` no capítulo de Equipamento, e a entrada `Volume` no glossário.*
+
+### Alterado
+
+- **A peça 16 §1 e §1.1:** *a sintonização saiu, e a terceira linha virou "uma ferramenta que você não empunha nem veste é um objeto comum".* **O capítulo 55 do livro foi reescrito junto**, *e a seção `Sintonizar` virou `Na mão ou no corpo`.*
+- **`conferir-ferramenta.py`, checagem `16`:** *reescrita inteira para a regra nova, com a antiga proibida nos dois documentos —* **e a proibição é DIFERENTE em cada um**: *a peça pode falar de sintonização, porque é registro de design; o livro não, porque é texto de mesa.* ***A primeira versão dela passou verde sobre um capítulo que ainda tinha a regra inteira***, *porque o regex copiava o artigo da peça ("é UMA arma comum") e o livro escreve sem ele.*
+- **`conferir-equipamento.py`, o delimitador do §6.5:** *ele ia do `## 6.5` ao `## 7.` e supunha que nada entrava entre os dois. O §6.6 entrou ali, e o validador passou a cobrar preço de "de duas mãos" e "todo o resto". Agora ele para no próximo cabeçalho de nível 2.* **E o extrator de armas lia a coluna errada nas onze de tiro** — *`Destreza` no lugar das propriedades —, e as três de uma mão com `Oculta` sumiam do balde leve. Agora a coluna de propriedade é a que TEM propriedade, e não a que está numa posição.*
+- **`README`, `LEIA-ME` e `ESTADO-ATUAL`:** *a versão do projeto, o item `8` fechado com as três correções, e a contagem de checagens do `conferir-equipamento`, que foi de catorze para quinze.*
+
+> **O manual do Fundamento NÃO mudou, e fica na `v7.36`.** *Ele não tem catálogo de arma nem de uniforme — o dono desses dois é a peça 14, e a cópia de mesa é o livro.*
+
+### Decidido
+
+- **O `Volume` sai das propriedades do catálogo, e a `Volumosa` fica de fora da régua.**
+- **O `Revestimento` `3` pesa `4`, pela média dos sistemas de limite único.**
+- **A sintonização deixa de existir; a ferramenta serve na mão ou no corpo.**
+- **O teto de mão e o teto de apoio ficam como estão, porque o peso não alcança nenhum dos dois.**
+
+### Continua aberto
+
+- **Revisar o catálogo de armas e acrescentar as que faltam** — *ele decidiu em 19/09/2026 que isso não é esta versão.*
+- **O que a variante do descanso longo comprava:** *achar ferramenta no meio da missão virou recompensa de cena, sem a opção de ser de arco. Se a mesa quiser desacelerar, o lugar é o grau e a escassez.*
+- **O que já estava aberto:** *Ritual (item `11`), a Melhoria de resistência a tipo, o `Acúmulo` contra o teto de um alvo (item `14`), a remodelagem das invocações e do Evocador, o `maestria(nv)` do `conferir-invocacoes.py`, a ficha (`Claude 3`) para as v0.253 a v0.256, e o custo da Concentração nos níveis baixos.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, seção *"Problemas de design abertos"* (o item `11`, Ritual, é o próximo sem dono).
+
+---
+
 ## [0.255] — 19/09/2026
 
 **Entrou o `Alvo de Caça`, a primeira Melhoria de buff de dano do catálogo, na Família `Marca`** — *é o item `12` da fila, e o nome é do Mizuki.* **E o `Efeito Próprio` passou a dizer que conta como uma Melhoria, junto com a regra do combo** — *o item `13`.* **Os dois estavam decididos e não escritos; esta versão é a escrita.**

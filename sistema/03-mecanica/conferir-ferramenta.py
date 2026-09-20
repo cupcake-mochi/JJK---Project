@@ -72,6 +72,10 @@ def erro(n, m): erros.append(f'CHECAGEM {n}: {m}')
 def aviso(m):   avisos.append(m)
 
 P16 = ler('16-ferramenta-amaldicoada.md')
+# v0.256: a checagem 16 confere a regra nova NA PECA e proibe a antiga tambem no LIVRO,
+# que e copia. O capitulo pode nao existir (recorte), e ai ela diz que nao conferiu.
+_c55 = os.path.join(AQUI, '..', '05-material', 'livro', 'manual', '55-ferramenta-amaldicoada.md')
+LIVRO55 = open(_c55, encoding='utf-8').read() if os.path.isfile(_c55) else None
 P14 = ler('14-equipamento.md')
 P13 = ler('13-legados.md')
 P12 = ler('12-experiencia-e-progressao.md')
@@ -540,11 +544,11 @@ else:
     print('  [x] a peca 16 registra que fecha as duas, e o contador de vagas anda')
 
 # ================================================================ 16. SINTONIA
-print('\n 16. SINTONIA — nao sintonizada = arma comum, nos dois sentidos')
-if not re.search(r'que você não sintonizou é uma arma comum', S1):
-    erro('16', 'o SS1 nao declara que a nao sintonizada e arma comum')
+print('\n 16. EMPUNHAR OU VESTIR — a sintonia saiu na v0.256, e nada pode trazer ela de volta')
+if not re.search(r'que você não empunha nem veste é um objeto comum', S1):
+    erro('16', 'o SS1 nao declara que a ferramenta que nao se empunha nem veste e objeto comum')
 else:
-    print('  o SS1 declara: ferramenta nao sintonizada e arma comum, e nada mais')
+    print('  o SS1 declara: nao empunhada nem vestida = objeto comum, e nada mais')
 if not re.search(r'continua gastando o \*\*fundo exato\*\*|fundo exato', S1):
     erro('16', 'o SS1 nao amarra a arma de baixo ao fundo exato da peca 14')
 else:
@@ -556,34 +560,57 @@ if sem_pagar:
 else:
     print('  [x] sentido 2: nenhuma entrada entrega efeito sem o pagamento correspondente')
 
-# v0.144: a terceira linha do SS1 e' de v0.55 e ficou oitenta e oito versoes sem
-# dizer COMO se sintoniza — o livro mandava combinar com o mestre. O SS1.1 fechou.
-# Estas quatro leem a regra nova, e nenhuma delas guarda numero: o custo e' um
-# DESCANSO, e descanso e' peca 10.
-if not re.search(r'Sintonizar custa um descanso curto', S1):
-    erro('16', 'o SS1.1 nao escreve o custo de sintonizar — sem ele o livro volta '
-               'a mandar o jogador combinar com o mestre')
+# v0.256 (decisao do Mizuki, 19/09/2026): "remove o limite para arma e tira a sintonizacao".
+# A v0.144 tinha fechado a sintonizacao em um descanso curto por ferramenta, e ela saiu porque
+# o peso entrou: quem segurava a variedade carregada passou a ser o `Volume` da peca 14 SS6.6.
+# Estas checagens guardam as DUAS pontas — a regra nova escrita, e a antiga proibida de voltar
+# nos dois documentos. Nenhuma delas guarda numero: quantas armas cabem e' conta da peca 14.
+if not re.search(r'A ferramenta funciona enquanto você a empunha ou veste', S1):
+    erro('16', 'o SS1.1 nao escreve a regra que substituiu a sintonizacao — sem ela o '
+               'livro volta a mandar o jogador combinar com o mestre, que e o buraco que '
+               'a v0.144 tinha fechado')
 else:
-    print('  [x] sintonizar tem custo escrito: um descanso curto dedicado')
-if not re.search(r'[Dd]esfazer custa outro descanso curto', S1):
-    erro('16', 'o SS1.1 nao escreve como se DESFAZ a sintonizacao — o PHB fecha as '
-               'duas pontas, e uma regra que so liga prende a ficha ao primeiro item')
+    print('  [x] a regra nova esta escrita: funciona enquanto se empunha ou veste')
+if not re.search(r'[Gg]uardada, ela não faz nada', S1):
+    erro('16', 'o SS1.1 nao diz o que acontece com a ferramenta GUARDADA — a regra que so '
+               'liga deixa a mochila agindo sozinha')
 else:
-    print('  [x] desfazer tem custo escrito, e e o mesmo do PHB')
-if not re.search(r'[Nn]ão custa PE, e não pode custar|[Nn]ão custa PE', S1):
-    erro('16', 'o SS1.1 parou de declarar que sintonizar nao custa PE — a ferramenta '
-               'e a rota de quem NAO tem energia, pela peca 9 SS5')
+    print('  [x] a outra ponta esta escrita: guardada, o Estigma nao age')
+# o SS1.1 tem de dizer DE ONDE veio o limite que substituiu a sintonizacao
+if not re.search(r'peça 14 §6\.6', S1):
+    erro('16', 'o SS1.1 nao aponta para a peca 14 §6.6, que e a dona do limite de carga '
+               'que passou a segurar a variedade — sem o ponteiro a regra fica sem motivo')
 else:
-    print('  [x] nao custa PE, e o motivo esta escrito ao lado')
-# O relogio de HORAS e' o que a peca 10 recusa por escrito, e por motivo
-# multi-mestre. Se alguem escrever "leva N horas" aqui, a heranca se perde.
-_horas = re.search(r'sintoniz\w*[^.\n]{0,80}?(\d+)\s*(hora|minuto)', S1, re.I)
+    print('  [x] o SS1.1 aponta para o dono do limite novo: a peca 14 §6.6')
+# a regra ANTIGA, proibida nos dois documentos
+# A PECA pode falar de sintonizacao — ela e registro de design, e o SS1.1 explica o que
+# saiu e por que. O LIVRO nao pode: ele e texto de mesa, e la a palavra so' pode existir
+# se a regra existir. Entao os dois lados tem proibicoes DIFERENTES, e e' de proposito.
+#   - na peca: as tres frases que eram a REGRA;
+#   - no livro: a palavra inteira, em qualquer forma.
+# A primeira versao proibia "que você não sintonizou é UMA arma comum" nos dois, copiado
+# da peca — e o livro escreve "e arma comum", sem o artigo. Ela passou verde sobre um
+# capitulo que ainda tinha a regra inteira, e por isso o artigo e' opcional aqui.
+_REGRA_VELHA = (r'[Ss]intonizar custa', r'[Dd]esfazer custa outro descanso',
+                r'que você não sintonizou é (?:uma )?arma comum',
+                r'[Ss]intonizar (?:exige|leva|precisa)')
+for _rx in _REGRA_VELHA:
+    if re.search(_rx, P16):
+        erro('16', f'a peca 16 ainda escreve a regra de sintonizacao como REGRA: /{_rx}/')
+if LIVRO55 is None:
+    print('    ~~ o capitulo 55 do livro nao existe: a regra antiga nao foi conferida la')
+elif re.search(r'[Ss]intoniz\w*', LIVRO55):
+    erro('16', 'o capitulo 55 do livro ainda fala em sintonizacao — o livro e texto de mesa, '
+               'e la a palavra so pode existir se a regra existir')
+else:
+    print('  [x] a regra antiga nao volta: a peca nao a escreve como regra, e o livro nao a cita')
+# e o relogio de horas continua proibido, agora para a troca
+_horas = re.search(r'(empunha|veste|troca)\w*[^.\n]{0,80}?(\d+)\s*(hora|minuto)', S1, re.I)
 if _horas:
-    erro('16', f'o SS1.1 fixa relogio de {_horas.group(1)} {_horas.group(2)}(s) para '
-               f'sintonizar — a peca 10 SS1 recusa relogio de horas de proposito, e '
-               f'e dai que o custo herda o filtro multi-mestre')
+    erro('16', f'o SS1.1 fixa relogio de {_horas.group(2)} {_horas.group(3)}(s) para usar ou '
+               f'trocar a ferramenta — a peca 10 SS1 recusa relogio de horas de proposito')
 else:
-    print('  [x] nenhum relogio de horas: o custo e um descanso, e descanso e peca 10')
+    print('  [x] nenhum relogio: a ferramenta serve na mao, e trocar custa o que custa sacar')
 
 # ================================================================ 17. RELOGIO
 print('\n 17. RELOGIO — Classe 2 promete limite de uso, e ele tem de morder')

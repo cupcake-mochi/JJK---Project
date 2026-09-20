@@ -623,7 +623,16 @@ else:
              f'canon produz ({_derivada:,.0f}) — o arredondamento declarado e de 2,7%')
 
 # --- os precos, lidos do SS6.5 desta peca ----------------------------------
-_s65 = EQ[EQ.index('## 6.5'):EQ.index('## 7.')] if '## 6.5' in EQ else ''
+# v0.256: o delimitador ia do `## 6.5` ao `## 7.` e supunha que nada entrava entre os
+# dois. A secao de peso (`## 6.6`) entrou ali, e as tabelas dela cairam dentro da varredura
+# de precos — o validador passou a cobrar preco de "de duas mãos" e "todo o resto". Agora
+# ele para no PROXIMO cabecalho de nivel 2, seja ele qual for.
+if '## 6.5' in EQ:
+    _i65 = EQ.index('## 6.5')
+    _f65 = re.search(r'\n## ', EQ[_i65 + 6:])
+    _s65 = EQ[_i65:_i65 + 6 + _f65.start()] if _f65 else EQ[_i65:]
+else:
+    _s65 = ''
 if not _s65:
     erro('13: nao achei o SS6.5 desta peca — a tabela de precos sumiu e esta '
          'checagem sairia verde sem ter lido preco nenhum')
@@ -858,6 +867,163 @@ else:
     else:
         print('  [x] 14.4 duas armas de fogo nunca cabem juntas no dinheiro inicial.')
 
+
+
+# --------------------------------------------------------------------- 15. O PESO
+bloco('15. O PESO — o `Volume` sai das propriedades que o SS5.3 ja publica')
+# v0.256 (decisao do Mizuki, 19/09/2026): "Dar equivalencia de peso pro sistema".
+# NADA de valor mora aqui dentro:
+#   - a formula do limite e o fator em kg ..... a tabela `O limite de carga` do SS6.6.1;
+#   - a regua das armas ....................... a tabela `Volume por arma` do SS6.6.2;
+#   - quem e' `Oculta`, `Vestida` e de duas maos ... o catalogo do SS5.3, arma por arma;
+#   - o `Volume` do uniforme e do escudo ...... a tabela do SS6.6.3;
+#   - o requisito de Forca de cada peca ....... o SS3 e o SS4, que ja existiam;
+#   - os 36% e o `4` do `Revestimento` 3 ...... a tabela `Quanto a armadura pesada come`,
+#                                               so' as linhas de desenho "limite unico".
+# A contagem por balde e a tabela `O que sobra depois do kit` sao RECONSTRUIDAS e comparadas
+# com o que a peca publica; nenhuma das duas esta escrita aqui.
+_s66 = EQ[EQ.index('## 6.6'):EQ.index('## 7.')] if '## 6.6' in EQ else ''
+if not _s66:
+    erro('15: nao achei o SS6.6 da peca 14 — o peso perdeu o dono')
+else:
+    # ---- a formula, lida da tabela do SS6.6.1
+    _mf = re.search(r'\|\s*limite, em `Volume`\s*\|\s*`(\d+) \+ Força`\s*\|', _s66)
+    _mk = re.search(r'\|\s*`(\d+)` kg por `Volume`, ou `(\d+)` a `(\d+)` kg\s*\|', _s66)
+    if not _mk:
+        _mk = re.search(r'`(\d+)` kg por `Volume`, ou `(\d+)` a `(\d+)` kg', _s66)
+    if not _mf or not _mk:
+        erro('15: o SS6.6.1 parou de publicar a formula do limite ou o fator em kg')
+    else:
+        _K = int(_mf.group(1))
+        _KG, _LO, _HI = (int(_mk.group(i)) for i in (1, 2, 3))
+        _FMAX = 6   # o topo de Forca, lido da peca 2
+        _mF = re.search(r'`?6`? é o topo|topo humano', P2)
+        if (_K * _KG, (_K + _FMAX) * _KG) != (_LO, _HI):
+            erro(f'15: o SS6.6.1 diz {_LO} a {_HI} kg, e {_K} + Força vezes {_KG} kg da '
+                 f'{_K*_KG} a {(_K+_FMAX)*_KG}')
+        else:
+            print(f'  [x] o limite {_K} + Força, a {_KG} kg cada, da {_LO} a {_HI} kg.')
+
+    # ---- a regua, lida da tabela, e aplicada ao catalogo do SS5.3
+    _cab, _reg = None, {}
+    for _l in _s66.splitlines():
+        if _l.startswith('| a arma |'):
+            _cab = True; continue
+        if _cab and _l.startswith('|') and not _l.startswith('|---'):
+            # normaliza tirando TODA crase e negrito, e nao so' as das pontas: o
+            # `strip('*` ')` comia a crase final de "`Vestida`" e a chave nunca batia
+            _c = [x.replace('`', '').replace('**', '').strip() for x in _l.strip().strip('|').split('|')]
+            if len(_c) == 2:
+                _reg[_c[0]] = _c[1]
+        elif _cab and not _l.startswith('|'):
+            _cab = False
+    _esperadas = {'de duas mãos', 'de uma mão, com Oculta ou Vestida', 'todo o resto'}
+    if set(_reg) != _esperadas:
+        erro(f'15: a tabela `Volume por arma` mudou de forma: {sorted(_reg)}')
+    else:
+        _VDUAS = _reg['de duas mãos']
+        _VLEVE = _reg['de uma mão, com Oculta ou Vestida']
+        _VRESTO = _reg['todo o resto']
+        # a `Volumosa` NAO pode estar na regua: ela ja e' desvantagem vendida por orcamento
+        if 'Volumosa' in '\n'.join(_reg):
+            erro('15: a `Volumosa` entrou na regua de `Volume` — ela ja devolve orcamento no '
+                 'SS5.0.4, e cobrar peso em cima cobra duas vezes pela mesma desvantagem')
+        # ---- reconstroi o catalogo
+        _sec53 = EQ[EQ.index('## 5.3'):EQ.index('## 5.4')]
+        # as duas formas de linha tem a coluna de propriedades em lugares DIFERENTES:
+        # corpo a corpo e' | nome | mao | **dado** | props | gasta |, e o tiro e'
+        # | nome | categoria | mao | **dado** | atributo | props |. Pegar "a celula
+        # depois do dado" lia `Destreza` como propriedade nas onze de tiro, e as tres
+        # de uma mao com `Oculta` sumiam do balde leve — 14 em vez de 17. Aqui a coluna
+        # de propriedade e' a que TEM propriedade, e nao a que esta numa posicao.
+        _armas = []
+        for _l in _sec53.splitlines():
+            if not _l.startswith('|'):
+                continue
+            _cel = [x.strip() for x in _l.strip().strip('|').split('|')]
+            if len(_cel) < 4 or not re.match(r'\*\*\d*d\d+\*\*$', _cel[2] if len(_cel) > 2 else '') \
+                    and not re.match(r'\*\*\d*d\d+\*\*$', _cel[3] if len(_cel) > 3 else ''):
+                continue
+            _mao = next((c for c in _cel[1:3] if c in ('1', '2')), None)
+            if _mao is None:
+                continue
+            _props = max(_cel[3:], key=lambda c: c.count('`')) if len(_cel) > 3 else ''
+            _armas.append((_cel[0], _mao, _props))
+        if len(_armas) != 52:
+            erro(f'15: o extrator achou {len(_armas)} armas no SS5.3 e sao 52 — a contagem por '
+                 f'balde passaria trivialmente')
+        else:
+            def _vol(mao, props):
+                if mao == '2':
+                    return _VDUAS
+                if '`Oculta`' in props or '`Vestida`' in props:
+                    return _VLEVE
+                return _VRESTO
+            from collections import Counter
+            _cont = Counter(_vol(m, p) for _, m, p in _armas)
+            _mc = re.search(r'\*\*`(\d+)` leves, `(\d+)` de `Volume` `1` e `(\d+)` de `Volume` `2`\*\*', _s66)
+            if not _mc:
+                erro('15: o SS6.6.2 parou de publicar a contagem por balde')
+            else:
+                _pub = (int(_mc.group(1)), int(_mc.group(2)), int(_mc.group(3)))
+                _der = (_cont.get(_VLEVE, 0), _cont.get('1', 0), _cont.get('2', 0))
+                if _pub != _der:
+                    erro(f'15: a peca publica {_pub} leves/1/2 e a regua aplicada ao SS5.3 da {_der}')
+                else:
+                    print(f'  [x] a regua reconstroi o catalogo: {_der[0]} leves, {_der[1]} de 1, {_der[2]} de 2.')
+
+    # ---- o uniforme: a escada nao pode DESCER em fracao do limite
+    _uni, _lendo = {}, False
+    for _l in _s66.splitlines():
+        if _l.startswith('| degrau | `1` |'):
+            _lendo = True; continue
+        if _lendo and _l.startswith('|') and not _l.startswith('|---'):
+            _c = [x.replace('`', '').replace('**', '').strip() for x in _l.strip().strip('|').split('|')]
+            if len(_c) == 4 and _c[0] in ('Traje', 'Revestimento', 'escudo (Broquel · Médio · Torre)'):
+                _uni[_c[0].split(' (')[0]] = _c[1:]
+        elif _lendo and not _l.startswith('|'):
+            _lendo = False
+    # o requisito de Forca de cada degrau sai do SS3 e do SS4, que sao os donos
+    _req = {}
+    for _l in EQ.splitlines():
+        _m = re.match(r'\|\s*(\d)\s*\|\s*\d+\s*\|\s*(?:—|\d+)\s*\|\s*(?:—|\*\*(\d+)\*\*)\s*\|'
+                      r'\s*(\d+)\s*\|\s*(?:—|0)\s*\|\s*(?:—|\*\*(\d+)\*\*)\s*\|', _l)
+        if _m:
+            _req[('Traje', int(_m.group(1)))] = int(_m.group(2) or 0)
+            _req[('Revestimento', int(_m.group(1)))] = int(_m.group(4) or 0)
+    if not _uni or len(_req) != 6:
+        erro(f'15: nao li a tabela de `Volume` do uniforme ({sorted(_uni)}) ou o requisito de '
+             f'Força do SS3 ({len(_req)} degraus)')
+    else:
+        _num = lambda x: 0.1 if x == 'leve' else float(x)
+        _fr, _mau = [], []
+        for _k in ('Traje', 'Revestimento'):
+            for _d in (1, 2, 3):
+                _v = _num(_uni[_k][_d - 1])
+                _lim = _K + _req[(_k, _d)]
+                _fr.append((f'{_k} {_d}', _v / _lim * 100))
+        for _i in range(1, len(_fr)):
+            if _fr[_i][1] < _fr[_i - 1][1] - 0.01:
+                _mau.append(f'{_fr[_i][0]} come {_fr[_i][1]:.0f}% e {_fr[_i-1][0]} come {_fr[_i-1][1]:.0f}%')
+        if _mau:
+            erro(f'15: a escada de uniforme DESCE em fracao do limite: {_mau}')
+        else:
+            print(f'  [x] a escada do uniforme sobe: ' +
+                  ' · '.join(f'{n} {f:.0f}%' for n, f in _fr))
+        # ---- e o `4` do Revestimento 3 sai dos 36%, que saem da tabela de validacao
+        _lim_unico = [int(x) for x in re.findall(r'\| \*\*limite único\*\* \|[^|]+\| `(\d+)%` \|', _s66)]
+        if len(_lim_unico) < 2:
+            erro('15: a tabela `Quanto a armadura pesada come` nao tem as duas linhas de '
+                 '"limite único" — sem elas o 4 do Revestimento 3 nao tem de onde sair')
+        else:
+            _media = sum(_lim_unico) / len(_lim_unico)
+            _esp = round(_media / 100 * (_K + _req[('Revestimento', 3)]))
+            if _esp != _num(_uni['Revestimento'][2]):
+                erro(f'15: a media dos sistemas de limite unico e {_media:.0f}%, que da Volume '
+                     f'{_esp} para o Revestimento 3, e a peca publica {_uni["Revestimento"][2]}')
+            else:
+                print(f'  [x] o Revestimento 3 em {_uni["Revestimento"][2]} sai da media '
+                      f'{_media:.0f}% dos sistemas de limite unico.')
 
 if ERROS:
     print(f'>>> {len(ERROS)} PROBLEMA(S):')

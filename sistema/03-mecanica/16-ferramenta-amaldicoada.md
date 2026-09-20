@@ -14,59 +14,48 @@ Ela existe por uma dívida escrita em quatro documentos, não por vontade de ter
 >
 > **Ela fere maldição. Isso é binário: ou fere, ou não fere.**
 >
-> **Uma ferramenta que você não sintonizou é uma arma comum, e nada mais.**
+> **Uma ferramenta que você não empunha nem veste é um objeto comum, e nada mais.**
 
 A terceira linha é a que deixa esta peça existir sem furar Equipamento. A arma por baixo continua gastando o **fundo exato** que a peça 14 §5 cobra — `3` numa mão, `5` em duas —, e o `Estigma` é camada por cima, nunca ponto a mais. **O catálogo das 52 continua sendo o chão.**
 
 E a primeira linha resolve a pendência da peça 5 sem inventar economia: ferir maldição é a porta que separa o feiticeiro da pessoa comum, e a ferramenta é o jeito que a obra dá para quem não tem energia atravessar essa porta.
 
-### 1.1 Como se sintoniza, e como se desfaz
+### 1.1 Não existe sintonizar — v0.256
 
-*A terceira linha do §1 é de v0.55 e a pergunta que ela abre ficou oitenta e oito versões sem resposta: **o livro mandava combinar com o mestre.** Fechada na v0.144.*
+> ***Decisão do Mizuki em 19/09/2026:*** *"Mantem limite pros de apoio, reduz pra 2. Mas remove o limite para arma e tira a sintonização".*
 
-> **Sintonizar custa um descanso curto dedicado àquela ferramenta, com ela na mão.** Um descanso, uma ferramenta.
+> **A ferramenta funciona enquanto você a empunha ou veste.** Não há ritual, não há descanso, não há PE.
 >
-> **Desfazer custa outro descanso curto**, e você pode fazer isso quando quiser.
+> **Guardada, ela não faz nada**: o `Estigma` não age da mochila.
 >
-> **Não custa PE, e não pode custar.**
+> **Trocar de ferramenta custa o que custa sacar**, e isso é a peça 3 §3.2.
 
-**Os três números que essa regra precisaria fixar já têm dono, e é por isso que ela não os fixa.**
+**Isto reverte a v0.144, que tinha fechado a sintonização em um descanso curto por ferramenta.** *Aquela decisão resolveu uma pergunta que ficou oitenta e oito versões aberta — o livro mandava combinar com o mestre — e ela era a resposta certa enquanto nada mais limitava a variedade que se carrega.*
 
-| o que outra regra precisaria fixar | por que aqui não precisa |
-|---|---|
-| **quanto tempo leva** | o descanso curto desta casa **não tem relógio de horas**, por decisão registrada na peça 10 §1. O gatilho é de ficção — *a luta acabou* — e é isso que faz dois mestres arbitrarem igual |
-| **quantas ferramentas ao mesmo tempo** | o §5 já limita, e limita por **estrutura**: as mãos, mais dois apoios. Não é um número que o mestre decora — é o que cabe no corpo |
-| **o que se gasta** | nada. *E o zero é obrigatório, não preguiça* — a ferramenta é a rota de quem **não tem energia amaldiçoada**, pela peça 9 §5. Cobrar PE fecharia a peça na cara da Origem que ela existe para atender |
+**O que mudou foi que passou a haver limite de carga.** *A peça 14 §6.6 deu `Volume` a tudo, e o limite de `5 + Força` deixa passar de `4` a `7` armas de uma mão depois do uniforme e do escudo.* **A sintonização existia para segurar exatamente isso, e agora o peso segura.** *Duas travas para a mesma coisa é uma a mais.*
 
-***O custo herda o filtro multi-mestre de graça, e é por isso que ele é um descanso e não uma hora.*** *A peça 10 escreve o motivo com todas as letras:* **"numa Guilda com cinco a sete mestres, 'dá para descansar uma hora aqui?' é exatamente o tipo de pergunta que cada um responde diferente."**
+> **⚠ E é preciso dizer o que NÃO mudou, porque a decisão dele fala em "remover o limite para arma".** *O `Teto de Estigma` do §5 nunca contou a mochila: ele conta as MÃOS mais dois apoios, e a peça 20 §4 escreve isso — "conta pelas mãos e não pela mochila", com três armas guardadas e uma empunhada contando como uma.* **Então a arma com `Estigma` já não tinha limite de quantidade guardada, e o que o peso faz é criar um onde não havia.** *O teto de mão fica de pé, e o apoio continua em `2`, que já era o número.*
 
-#### A variante do descanso longo — declarada, e não "acordo com o mestre"
+#### O que morreu junto, e fica registrado
 
-***Decisão do Mizuki: o padrão é o descanso curto, e a mesa pode subir para descanso longo.*** **A diferença é de ritmo, e ela está medida:**
+**A variante do descanso longo saiu.** *Ela dava à mesa a escolha entre a ferramenta achada no meio da missão entrar na luta seguinte ou só na próxima missão, e o efeito de cada uma estava medido. Sem sintonização não há o que subir de degrau: a ferramenta achada serve assim que a mão a segura.*
 
-| a mesa cobra | a ferramenta achada no meio da missão | o que isso faz com a mesa |
-|---|---|---|
-| **descanso curto** *(padrão)* | entra na luta seguinte | achar item é recompensa de **cena** |
-| descanso longo | só serve na **próxima** missão | achar item é recompensa de **arco**, e vale mais por demorar |
+> ***O que aquela variante comprava ainda é uma pergunta viva, e ela não tem mais dono nesta peça:*** *achar uma ferramenta no meio da missão virou recompensa de cena, sem a opção de ser recompensa de arco.* **Se a mesa quiser desacelerar isso, o lugar é o grau e a escassez do §3.2, e não um ritual de ativação.**
 
-> **Isto não é a mesma coisa que a frase que saiu do livro.** *Ela dizia "é acordo com o seu mestre por enquanto", e uma mesa não tinha o que combinar — não existia regra.* **Aqui existe padrão escrito, e a variação tem o efeito dela publicado ao lado.** *É o molde do §7 desta peça, que dá o nível sugerido de cada grau e a faixa para quem preferir espalhar — e o do teto de Defesa da peça 14 §8, cuja terceira camada nasce desligada.*
->
-> **A diferença que importa para o filtro multi-mestre:** *dois mestres que nunca conversaram, lendo isto, chegam ao mesmo lugar em qualquer das duas — porque as duas são o mesmo gatilho de ficção, e a mesa declara qual usa **antes** da primeira sessão, e não no meio da cena.*
+#### O levantamento externo, e o que dele sobra
 
-#### O levantamento externo, e o que dele NÃO foi importado
-
-*O PHB 2024 tem a regra inteira, no capítulo de Equipamento, e ela tem quatro partes. **Duas delas esta peça já escrevia desde a v0.55**, e as outras duas são exatamente as que estavam faltando.*
+*O PHB 2024 tem a regra de sintonização inteira, no capítulo de Equipamento, e ela tem quatro partes. Duas nunca foram importadas e duas foram importadas na v0.144 — e são essas duas que saem agora.*
 
 | o que o PHB decide | aqui |
 |---|---|
-| sem sintonizar, **só os benefícios não-mágicos** | **já estava**, no §1: *"uma ferramenta que você não sintonizou é uma arma comum"* |
-| **no máximo três itens** ao mesmo tempo | **já estava**, no §5 — e por estrutura, que é mais apertado que um número solto |
-| sintonizar exige **um descanso curto focado só naquele item, em contato físico** | **importado**, e é o padrão acima |
-| desfazer exige **outro descanso curto** | **importado** |
+| sem sintonizar, **só os benefícios não-mágicos** | vira **empunhar ou vestir**: guardada, a ferramenta é objeto comum |
+| **no máximo três itens** ao mesmo tempo | o §5 limita por **estrutura** — as mãos, mais dois apoios —, que é mais apertado que um número solto |
+| lá, o ritual cobra **um descanso curto** focado no item | **saiu na v0.256** |
+| lá, desligar cobra **outro descanso curto** | **saiu na v0.256** |
 
-> **⚠⚠ E uma cláusula do PHB foi lida e RECUSADA, porque ela quer dizer outra coisa aqui.** *Lá, desfazer vale* **"a menos que o item seja amaldiçoado"** — *item amaldiçoado gruda em quem o pegou.* **Neste sistema toda ferramenta é amaldiçoada**, e a palavra não tem o mesmo sentido: lá ela quer dizer *maligno*, aqui quer dizer *feito de energia amaldiçoada*. **Importar a cláusula tornaria toda ferramenta permanente, que é o oposto do que ela faz na obra** — a Maki troca de arma o tempo todo.
+> **⚠⚠ E uma cláusula do PHB foi lida e RECUSADA na v0.144, porque a palavra quer dizer outra coisa aqui.** *Lá, desfazer vale* **"a menos que o item seja amaldiçoado"** — *item amaldiçoado gruda em quem o pegou.* **Neste sistema toda ferramenta é amaldiçoada**, e a palavra não tem o mesmo sentido: lá quer dizer *maligno*, aqui quer dizer *feito de energia amaldiçoada*. **Importar a cláusula tornaria toda ferramenta permanente, que é o oposto do que ela faz na obra** — a Maki troca de arma o tempo todo.
 >
-> *Fica registrado porque a palavra é a mesma nos dois sistemas e o falso amigo é fácil de não ver.*
+> *Fica registrado mesmo com a sintonização fora, porque o falso amigo continua fácil de não ver, e porque "a ferramenta gruda" é a primeira ideia que volta quando alguém quiser limitar a troca de novo.*
 
 ## 2. Por que grau não pode ser "mais ponto de arma"
 
@@ -205,6 +194,14 @@ A máquina é da casa e já foi validada — é o §5.0.4 de Equipamento, onde `
 | 1 | 14% |
 | **3 — o teto declarado** | **43%** |
 | 4 — o extremo | 57% |
+
+### 5.1 E o peso entra por baixo, onde o teto nunca chegou — v0.256
+
+**O teto acima conta MÃO, e ele continua igual.** *A arma tem teto pelas mãos, o apoio tem teto de dois, e a peça 20 §4 escreve o resto:* **"conta pelas mãos e não pela mochila"** — *três armas guardadas com uma empunhada continuam sendo uma.*
+
+**O que nunca teve número é quantas ferramentas você CARREGA para trocar no meio da missão.** *Até a v0.255 quem segurava isso era a sintonização, que cobrava um descanso curto por item; ela saiu no §1.1.* **Desde a v0.256 quem segura é o peso:** *o `Volume` da peça 14 §6.6 deixa passar de `4` a `7` armas de uma mão, depois do uniforme e do escudo.*
+
+> **Os três limites são de eixos diferentes, e é por isso que nenhum substitui o outro.** *A MÃO diz quantas agem ao mesmo tempo; o `Volume` diz quantas viajam com você; e o MARCO diz quantas a ficha chega a ter, porque um `Estigma` de Classe `3` é do tamanho de uma aptidão.* **O marco é o mais apertado dos três** — *`3` ferramentas já são `43%` das sete escolhas da campanha inteira, e a mochila cabe mais do que o orçamento de marco alcança.*
 
 ## 6. O catálogo — dez `Estigma`
 

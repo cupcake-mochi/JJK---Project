@@ -3,22 +3,19 @@
 > **Uma ferramenta amaldiçoada é uma arma do catálogo de Equipamento (ou um objeto de apoio) mais um `Estigma`.**
 >
 >
-> **Uma ferramenta que você não sintonizou é arma comum, e nada mais.**
+> **Uma ferramenta que você não empunha nem veste é um objeto comum, e nada mais.**
 
 **Objeto de apoio** é a ferramenta que você carrega sem empunhar: um anel, um cordão, uma peça costurada no forro do casaco.
 
-## Sintonizar
+## Na mão ou no corpo
 
-> **Sintonizar custa um descanso curto dedicado àquela ferramenta, com ela na mão.** Um descanso, uma ferramenta.
+> **A ferramenta funciona enquanto você a empunha ou veste.** Não há ritual, não há descanso, não há PE.
 >
-> **Desfazer custa outro descanso curto**, e você faz isso quando quiser.
+> **Guardada, ela não faz nada**: o `Estigma` não age da mochila.
 
-Enquanto você não sintoniza, a ferramenta é a arma comum que está por baixo dela: o dado e as propriedades valem, o `Estigma` não.
+Trocar de ferramenta custa o que custa sacar, e isso está no capítulo *O turno*.
 
-Quantas você carrega sintonizadas ao mesmo tempo já está resolvido pelo `Teto de Estigma` — são as suas mãos, mais dois objetos de apoio.
-
-> **Se a sua mesa preferir, sintonizar pode custar um descanso longo.** Combinem antes da primeira sessão. Com o descanso curto, a ferramenta que você achar no meio da missão serve na luta seguinte; com o longo, ela serve na próxima missão.
-{: .aviso }
+Quantas agem ao mesmo tempo é o `Teto de Estigma` — as suas mãos, mais dois objetos de apoio. **Quantas você carrega para trocar é o peso:** cada ferramenta ocupa o `Volume` da arma que está por baixo dela, e o seu limite é `5 + Força`.
 
 ## Ferramenta forjada
 
