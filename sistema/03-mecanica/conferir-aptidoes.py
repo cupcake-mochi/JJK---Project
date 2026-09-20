@@ -1406,13 +1406,13 @@ if not _s6:
 else:
     # 1. o gate esta no titulo, e ele e o mesmo da Extensao de Dominio
     _tit = _s6.split('\n')[0]
-    _falta = [x for x in ('Classe Passiva 3', 'refino 7', 'nível 13') if x not in _tit]
+    _falta = [x for x in ('Classe Passiva 3', 'refino 7', 'nível 14') if x not in _tit]
     if _falta:
         erro(f'o titulo da `Energia Reversa` nao declara {_falta} — sem o gate escrito '
              'no titulo ela vira aptidao sem requisito, e a secao 5 diz que cada uma '
              'declara o proprio')
     else:
-        print('  [x] gate no titulo: Classe Passiva 3, refino 7 e nivel 13.')
+        print('  [x] gate no titulo: Classe Passiva 3, refino 7 e nivel 14.')
 
     # 2. o gate bate com o da Extensao de Dominio, que e a outra Classe Passiva 3
     _ext = _t11.split('### Extensão de Domínio')[1].split('\n')[0] \

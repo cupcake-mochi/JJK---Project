@@ -1122,7 +1122,7 @@ Aquele `11,50` é a linha de comparação do §2 da **peça 5**, e ela usa `1d10
 
 ### O esboço da aptidão `Energia Reversa`
 
-> **`Energia Reversa` · Classe Passiva 3 · refino 7 e nível 13**
+> **`Energia Reversa` · Classe Passiva 3 · refino 7 e nível 14**
 > **Ação padrão.** Gaste até `maior Classe` de PE e cure **`1d8` por PE gasto**, em você.
 
 **Cada peça sai de coisa publicada.** A peça 11 §7 mandava medir contra a Passiva `Recomposição`, que cura `5 × maior Classe` — **`35` no nível 30**. O projeto já tem câmbio de PE: *"`+1` PE por rodada `= 5,14` de dano"*, então `1` PE vale ~`5` de cura. **E o manual já cura em dado** — *"cada ponto que sobra vira `1d8`"*, que é `4,5`.

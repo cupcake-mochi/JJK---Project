@@ -416,7 +416,7 @@ Trinta por cento no teto. É a única das três que mexe no número em vez do da
 
 E "mais fácil depois do primeiro" sem teto é a espiral da exaustão com o sinal trocado: quem crita mais fácil crita mais, e crita mais fácil ainda. Sem teto, quatro degraus numa cena levariam o físico a **1,8× o dano base**, e aí a coluna Rotina para de valer no meio da luta.
 
-### Energia Reversa · Classe Passiva 3 · refino 7 e nível 13
+### Energia Reversa · Classe Passiva 3 · refino 7 e nível 14
 
 > **Ação padrão. Gaste até `maior Classe` de PE e recupere `1d8` de vida por PE gasto, em você.**
 > **E ela é o requisito de todo uso ofensivo de energia reversa** — a Forma `Cura` do manual só fere maldição na mão de quem tem esta aptidão, e sem ela apontar aquele feitiço num inimigo não produz nada.
@@ -574,7 +574,7 @@ E "mais fácil depois do primeiro" sem teto é a espiral da exaustão com o sina
 
 > ***A `Extensão de Domínio` saiu da categoria, e o motivo é de leitura e não de número.*** *Levantado por um colega do Mizuki:* **ela não É uma anti-domínio — ela SERVE como uma.** *As três abaixo existem para uma coisa só: anular o Acerto garantido. A `Extensão de Domínio` é uma camada de domínio próprio que faz várias coisas, e anular o Acerto é uma delas.*
 >
-> **Nada de mecânico se moveu com isso, e é por isso que a troca é barata:** *ela continua anulando o Acerto de uma Expansão completa, continua sendo Classe Passiva 3 com gate de refino 7 e nível 13, e continua custando `1,5 × maior Classe` de PE por rodada.* **O que muda é a etiqueta e a contagem.**
+> **Nada de mecânico se moveu com isso, e é por isso que a troca é barata:** *ela continua anulando o Acerto de uma Expansão completa, continua sendo Classe Passiva 3 com gate de refino 7 e nível 14, e continua custando `1,5 × maior Classe` de PE por rodada.* **O que muda é a etiqueta e a contagem.**
 >
 > ***E a etiqueta importa por um motivo que a §7 já escrevia:*** *"os anti-domínio serem aptidões baratas é o que torna o acerto garantido sobrevivível".* **A `Extensão de Domínio` nunca foi a barata** — ela é a única Classe Passiva 3 das quatro, e a resposta que chega cedo é a `Cesta Oca de Vime`, de Classe Passiva 1 e sem gate. *Contá-la junto inflava a lista com a entrada que menos responde à pergunta que a lista existe para responder.*
 
@@ -607,9 +607,9 @@ O eixo que separa as quatro não é força — é **quanta liberdade você tem e
 | | Classe · gate | abre em | o refino escala | PE por rodada |
 |---|---|---|---|---|
 | **Cesta Oca de Vime** | 1 · sem gate | nv 6, nas três rotas | **nada** | **nenhum** |
-| **Domínio Simples** | 2 · refino 4, nível 7 | nv 10 · 10 · 14 | o raio: `1,5 m + refino ÷ 2` | `1 × maior Classe` |
-| **Pétala** | 2 · refino 4, nível 7 | nv 10 · 10 · 14 | quantos Acertos devolve: `refino ÷ 2` | `1 × maior Classe` |
-| **Extensão de Domínio** | 3 · refino 7, nível 13 | nv 14 · 18 · 26 | a duração: `refino` rodadas | `1,5 × maior Classe` |
+| **Domínio Simples** | 2 · refino 4, nível 10 | nv 10 · 10 · 14 | o raio: `1,5 m + refino ÷ 2` | `1 × maior Classe` |
+| **Pétala** | 2 · refino 4, nível 10 | nv 10 · 10 · 14 | quantos Acertos devolve: `refino ÷ 2` | `1 × maior Classe` |
+| **Extensão de Domínio** | 3 · refino 7, nível 14 | nv 14 · 18 · 26 | a duração: `refino` rodadas | `1,5 × maior Classe` |
 
 > ***A `Extensão de Domínio` está nas duas tabelas e NÃO é da categoria*** — *ela serve como uma, e fica aqui porque é assim que se compara.* **A linha dela não leva marca de propósito:** *o `conferir-ferramenta.py` lê o gate do grau mais alto desta tabela, e marca dentro da célula quebra o extrator dele.*
 
@@ -635,7 +635,7 @@ Evitar dois Acertos custa mais da metade dos seus turnos: **você sobrevive e n�
 
 **É ela, e não o Domínio Simples, a resposta que chega no nível 6 para as três rotas.** Um marco de Refino, uma vez, e o acerto garantido deixa de ser sentença. Isso é o que torna a Expansão completa jogável, e é o menor preço que o sistema cobra por qualquer coisa.
 
-### Domínio Simples · Classe Passiva 2, refino 4 e nível 7
+### Domínio Simples · Classe Passiva 2, refino 4 e nível 10
 
 > **Um domínio pequeno em volta de você, de raio `1,5 m + refino ÷ 2`. Dentro dele o Acerto de uma Expansão não acontece. Custa `1 × a sua maior Classe` de PE por rodada, e ela quebra se os seus pés saírem do chão.**
 
@@ -647,7 +647,7 @@ Evitar dois Acertos custa mais da metade dos seus turnos: **você sobrevive e n�
 
 O Domínio Simples da obra tem cerca de 2,21 m, e a fórmula bate nisso no refino 2. **Ela nunca passa de um movimento (9 m)**, e isso é a trava: uma defesa que cercasse o inimigo seria outra peça. O Kusakabe puxando gente para dentro é coisa da Trilha dele, não da aptidão.
 
-### Pétala · Classe Passiva 2, refino 4 e nível 7
+### Pétala · Classe Passiva 2, refino 4 e nível 10
 
 > **A energia cobre o seu corpo e devolve o golpe. Quando o Acerto de uma Expansão te alcança, ele é anulado no ponto de contato — `refino ÷ 2` vezes por cena. Custa `1 × a sua maior Classe` de PE por rodada, e ela cai se você perder a concentração.**
 
@@ -666,7 +666,7 @@ Sempre sobra um. Se ela devolvesse tudo, o terceiro espaço que a Expansão comp
 
 **E ela não para ataque físico** — o Dagon socou o Naobito com a Pétala de pé. Contra um Acerto que é golpe de corpo, ela não faz nada.
 
-### Extensão de Domínio · Classe Passiva 3, refino 7 e nível 13
+### Extensão de Domínio · Classe Passiva 3, refino 7 e nível 14
 
 > **Você se envolve numa camada fina de domínio sem técnica dentro. Ela anula o Acerto de uma Expansão, e faz o seu ataque acertar independentemente da técnica do alvo. Dura `refino` rodadas, custa `1,5 × a sua maior Classe` de PE por rodada — e enquanto ela estiver de pé, você não usa a sua técnica.**
 > **E o que encostar nela é anulado até `1/3 do refino + 1`:** *uma `Classe Passiva`, uma `Regra Própria` ou um feitiço de `Classe` até esse número. Acima dele, passa.*
@@ -1371,12 +1371,12 @@ E os dois **correm em sentidos opostos**: a vantagem é auto-regulada e dá pouc
 | 2 | **Canalizar energia** | grátis no refino 1 | **nada** — vive no orçamento do Fundamento |
 | 3 | **Projetar energia** | — | o dano, entre 8% e 12% da Rotina |
 | 4 | **Cesta Oca de Vime** | Classe Passiva 1, **sem gate** | **nada** — e não custa PE, porque já custa o turno |
-| 5 | **Domínio Simples** | Classe Passiva 2 · refino 4, nível 7 | o raio: `1,5 m + refino ÷ 2` |
-| 6 | **Pétala** | Classe Passiva 2 · refino 4, nível 7 | Acertos devolvidos: `refino ÷ 2` |
-| 7 | **Extensão de Domínio** | Classe Passiva 3 · refino 7, nível 13 | a duração: `refino` rodadas |
+| 5 | **Domínio Simples** | Classe Passiva 2 · refino 4, nível 10 | o raio: `1,5 m + refino ÷ 2` |
+| 6 | **Pétala** | Classe Passiva 2 · refino 4, nível 10 | Acertos devolvidos: `refino ÷ 2` |
+| 7 | **Extensão de Domínio** | Classe Passiva 3 · refino 7, nível 14 | a duração: `refino` rodadas |
 | 8 | **Barreira Simples** | sem gate | a vida do domo: `5 ×` |
 | 9 | **Cortina** | exige a `Barreira Simples` | a vida dela: `20 ×` |
-| 10 | **Energia Reversa** | Classe Passiva 3 · refino 7, nível 13 | **nada** — o teto é `maior Classe`, e `1d8` de cura por PE |
+| 10 | **Energia Reversa** | Classe Passiva 3 · refino 7, nível 14 | **nada** — o teto é `maior Classe`, e `1d8` de cura por PE |
 | 11 | **Circulação** | Classe Passiva 3 · exige a `Energia Reversa`, refino 8 | **nada** — o teto vai a `1,5 × maior Classe` |
 | 12 | **Regravação** | Classe Passiva 3 · exige a `Circulação` | **nada** — gasta o teto da `Circulação` inteiro |
 | 13 | **Kokusen Melhorado** | refino 5, nível 14 | vantagem no d100 |

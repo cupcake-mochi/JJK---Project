@@ -176,7 +176,7 @@ else:
     print('  [x] nenhum texto da peca abre porta para a segunda')
 
 # ================================================================ 3. GATE  (par com a 9)
-print('\n 3. GATE — lido da peca 11 SS6, nunca de constante')
+print('\n 3. GATE — desta peca, e conferido contra a peca 11 SS6')
 S11_6 = secao(P11, 6)
 GATE_APT = {}
 for m in re.finditer(r'^\| \*\*(.+?)\*\* \| (\d) · (sem gate|refino \d+, nível (\d+))',
@@ -194,16 +194,55 @@ else:
     print('  peca 11 SS6 — gate por Classe: ' +
           ' · '.join(f'Classe {c}: {"sem gate" if g == 0 else f"nivel {g}"}'
                      for c, g in sorted(GATE_DONO.items())))
+    # v0.260: a HERANCA MORREU, e ela nunca tinha funcionado.
+    #
+    # Ate aqui esta checagem exigia que o gate de cada grau fosse IGUAL ao da
+    # aptidao de mesma Classe na peca 11. O argumento escrito no §3.1 era que um
+    # `Estigma` nao pode passar por cima do que a peca 11 cobra da aptidao — mas
+    # o §3.1 TIRA a metade de refino do gate, e o refino e' quem segura a
+    # aptidao. Medido na v0.260: o Estigma de Classe 2 abre no nivel 7 e a
+    # aptidao so e' pegavel no 10 pela melhor rota; o de Classe 3 abre no 13 e a
+    # aptidao no 14. O Estigma SEMPRE foi mais facil, e a igualdade de numero
+    # escondia isso em vez de impedir.
+    #
+    # A v0.259 subiu os gates de nivel da peca 11 para 10 e 14 porque LA eles
+    # sao inertes (aptidao so vem em marco, e o marco manda). Aqui nao existe
+    # marco, entao mexer neles atrasaria o piso sem motivo — decisao do Mizuki.
+    #
+    # O que esta checagem confere agora e' o que a peca 16 realmente promete: que
+    # o gate CRESCE com a Classe do Estigma e que ele nunca desaparece numa
+    # Classe que a peca 11 gateia. O numero exato e' desta peca, e ela declara.
+    _por_classe = {}
     for grau, (classe, gate) in sorted(ESCADA.items()):
         if classe is None:
             continue
-        esperado = GATE_DONO.get(classe)
-        if esperado is None:
+        _por_classe.setdefault(classe, set()).add(gate)
+        if GATE_DONO.get(classe) is None:
             erro('3', f'grau {grau} pede Classe {classe} e a peca 11 nao tem gate para ela')
-        elif gate != esperado:
-            erro('3', f'grau {grau} (Classe {classe}) tem gate {gate} e a peca 11 manda {esperado}')
+        elif GATE_DONO[classe] == 0 and gate != 0:
+            erro('3', f'grau {grau} (Classe {classe}) cobra nivel {gate} e a peca 11 nao '
+                      f'gateia essa Classe — o Estigma ficou MAIS duro que a aptidao')
+        elif GATE_DONO[classe] > 0 and gate == 0:
+            erro('3', f'grau {grau} (Classe {classe}) nao tem gate e a peca 11 gateia essa '
+                      f'Classe no nivel {GATE_DONO[classe]} — o Estigma virou porta aberta')
+    for classe, gates in _por_classe.items():
+        if len(gates) > 1:
+            erro('3', f'a Classe {classe} tem graus com gates diferentes {sorted(gates)} — '
+                      f'o gate e da Classe do Estigma, nao do grau')
+    _ordenado = [g for _, g in sorted((c, min(gs)) for c, gs in _por_classe.items())]
+    if _ordenado != sorted(_ordenado):
+        erro('3', f'o gate nao cresce com a Classe do Estigma: {_ordenado}')
+    # e a peca tem de DECLARAR que os numeros sao dela, nao emprestados
+    if 'HERANÇA MORREU' not in P16:
+        erro('3', 'o §3.1 parou de declarar que a heranca da peca 11 morreu — sem essa '
+                  'linha, o proximo a ler vai achar que o gate e emprestado e vai '
+                  'sincronizar os dois de novo')
     if not [e for e in erros if e.startswith('CHECAGEM 3')]:
-        print('  [x] os cinco graus herdam o gate da peca 11, sem excecao')
+        print('  [x] o gate e desta peca, cresce com a Classe do Estigma, e nao some '
+              'onde a peca 11 gateia')
+        print('  peca 16 — gate por Classe: ' +
+              ' · '.join(f'Classe {c}: {"sem gate" if min(g) == 0 else f"nivel {min(g)}"}'
+                         for c, g in sorted(_por_classe.items())))
 
 # ================================================================ 4. SEM-REFINO
 print('\n 4. SEM-REFINO — nenhum gate de refino em lugar nenhum')

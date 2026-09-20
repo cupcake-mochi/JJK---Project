@@ -117,15 +117,15 @@ Traço na coluna de Classe Passiva quer dizer que a entrada não tem uma. Traço
 | Cobrir-se de energia | grátis no refino 1 | — | a proteção, e a Redução de Dano da Reação |
 | Canalizar energia | grátis no refino 1 | — | — |
 | Projetar energia | sem requisito | — | o dano |
-| Energia Reversa | refino 7 e nível 13 | 3 | — |
+| Energia Reversa | refino 7 e nível 14 | 3 | — |
 | Circulação | `Energia Reversa`, refino 8 | 3 | — |
 | Regravação | `Circulação` | 3 | — |
 | Kokusen Melhorado | refino 5 e nível 14 | — | vantagem no d100 |
 | Kokusen Constante | refino 5 | — | a chance no d100 |
 | Cesta Oca de Vime | sem requisito | 1 | — |
-| Domínio Simples | refino 4 e nível 7 | 2 | o raio |
-| Pétala | refino 4 e nível 7 | 2 | quantos Acertos ela devolve |
-| Extensão de Domínio | refino 7 e nível 13 | 3 | a duração |
+| Domínio Simples | refino 4 e nível 10 | 2 | o raio |
+| Pétala | refino 4 e nível 10 | 2 | quantos Acertos ela devolve |
+| Extensão de Domínio | refino 7 e nível 14 | 3 | a duração |
 | Barreira Simples | sem requisito | — | a vida do domo |
 | Cortina | exige a `Barreira Simples` | — | a vida dela |
 | Aptidão Própria | uma vez na ficha inteira | 1 ou 2 | conforme o que for escrito |
@@ -172,7 +172,7 @@ Ela é a porta de toda arma de contato, e é ela que põe energia no que a sua m
 
 > **Energia Reversa** — ação padrão. Gaste até `a sua maior Classe` de PE e recupere `1d8` de vida por PE gasto, em você.
 >
-> Requisito: refino 7 e nível 13. Classe Passiva 3.
+> Requisito: refino 7 e nível 14. Classe Passiva 3.
 
 > **A `Energia Reversa` cura só você.** Curar outra pessoa é o degrau raro, e quem faz isso é a Trilha `Sutura`.
 

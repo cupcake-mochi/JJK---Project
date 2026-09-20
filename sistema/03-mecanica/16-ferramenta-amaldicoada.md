@@ -130,11 +130,19 @@ O nome `Grau` fica. No material os dois **são** a mesma escada de propósito �
 
 As Classes são as da **peça 11 §4**, sem inventar nada, e a frase de lá vale aqui inteira: *não são "mais" e "menos", são formatos*.
 
-### 3.1 O gate cai da peça 11, e a metade de refino fica de fora
+### 3.1 O gate é desta peça, e o motivo mudou na v0.260
 
-Um `Estigma` de Classe 3 no nível 2 passaria por cima do gate que a peça 11 cobra de uma **aptidão da mesma Classe**. Então o gate é o dela, lido da **peça 11 §6**: a Cesta Oca de Vime (Classe 1) **não tem gate**; o Domínio Simples e a Pétala (Classe 2) pedem **nível 7**; a Extensão de Domínio (Classe 3) pede **nível 13**.
+**Esta peça declara os próprios gates de nível.** *Eles nasceram olhando a **peça 11 §6**, na v0.59, para um `Estigma` não abrir cedo demais perto de uma aptidão da mesma Classe — e a v0.260 mediu que aquela comparação nunca funcionou, pelo motivo escrito abaixo.* **Os números são:** a Cesta Oca de Vime (Classe 1) **não tem gate**; o Domínio Simples e a Pétala (Classe 2) pedem **nível 7**; a Extensão de Domínio (Classe 3) pede **nível 13**.
 
-> **A metade de refino do gate NÃO entra, e isso é decisão.** A peça 11 cobra *nível e refino*. Cobrar refino aqui **trancaria a peça na cara de quem ela existe para atender** — a Restrição Celestial pelo ramo da Maki (peça 9 §5) não tem refino nenhum, porque não tem energia. *O gate herda o número e recusa o eixo.*
+> **A metade de refino do gate NÃO entra, e isso é decisão.** A peça 11 cobra *nível e refino*. Cobrar refino aqui **trancaria a peça na cara de quem ela existe para atender** — a Restrição Celestial pelo ramo da Maki (peça 9 §5) não tem refino nenhum, porque não tem energia. *E é essa recusa que desmonta a comparação com a peça 11, no aviso abaixo: sem o eixo do refino, o número de nível sozinho não mede o que ele prometia medir.*
+
+> ***⚠ A HERANÇA MORREU na v0.260, e ela nunca tinha funcionado.*** *Até aqui esta seção dizia que o gate era "lido da peça 11 §6", e o argumento era que um `Estigma` de Classe 3 no nível 2 passaria por cima do que a peça 11 cobra de uma aptidão da mesma Classe.* **Ele passa por cima de qualquer jeito, e é esta seção que decide isso:** *ao tirar a metade de refino, ela tirou justamente a trava que segura a aptidão.*
+>
+> **Medido na v0.260:** *o `Estigma` de Classe 2 abre no nível `7` e a aptidão de Classe Passiva 2 só é pegável no nível `10` pela melhor rota — ela é **três níveis mais dura**. O de Classe 3 abre no `13` e a aptidão no `14`, um nível mais dura.* **A herança copiava o número de nível e deixava para trás o refino, que é quem manda** — então ela era nominal, e o invariante que ela dizia proteger nunca esteve de pé.
+>
+> ***O que segura a ferramenta não é o gate: é o mestre.*** *Ela não se compra com marco nem com refino — ela é entregue, e o §7 publica o ritmo (grau 2 no nível `18`, grau 1 no `26`).* **O gate é piso absoluto, para a mesa que quiser entregar cedo**, e os números `7` e `13` ficam **por decisão desta peça**, não por empréstimo.
+>
+> *A v0.259 subiu os gates de nível da peça 11 para `10` e `14`, porque lá eles eram inertes — aptidão só vem em marco, e o marco manda. Aqui não existe marco, então eles não são inertes, e mexer neles atrasaria o piso sem motivo.* ***Decisão do Mizuki em 20/09/2026:*** **"Ferramenta é decisão do mestre, são exemplos a tabela, não é obrigatório seguir, não precisa mexer lá."**
 
 **Não existe gate de refino em lugar nenhum desta peça.** Não é esquecimento nem economia de texto: é invariante, e o validador falha se algum aparecer.
 

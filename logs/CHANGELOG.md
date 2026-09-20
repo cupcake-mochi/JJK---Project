@@ -8,6 +8,57 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.260] — 20/09/2026
+
+**Os gates de nível das aptidões sobem para os marcos, e a herança que a peça 16 dizia ter morreu — ela nunca tinha funcionado.** *Pedido do Mizuki na varredura da v0.259: "tem algumas que tem niveis que não se recebe aptidão e isso n faz sentido".* **Ele estava certo, e a conta achou mais do que ele apontou.**
+
+### 1 · O que ele viu, e que se confirmou
+
+**Aptidão se ganha nos marcos `6 · 10 · 14 · 18 · 22 · 26 · 30`, e `4` das `5` aptidões com gate de nível pediam um nível que não é marco.** *A `Energia Reversa` e a `Extensão de Domínio` pediam `13`; o `Domínio Simples` e a `Pétala` pediam `7`.* **Só o `Kokusen Melhorado`, no `14`, já caía em marco.**
+
+***O efeito prático era zero, e é por isso que ninguém tinha visto:*** *escrever `13` ou `14` dá o mesmo resultado, porque o marco é quem manda.* **E o número não era arbitrário — `7` e `13` são os níveis da Classe Passiva `2` e `3`, que o §5 declara como régua herdada.** *O gate era inerte, não errado.*
+
+**E as próprias tabelas da peça 11 já publicavam isso ao lado**, *numa coluna que ninguém cruzou com o gate:* `Domínio Simples` *trazia* `nv 10 · 10 · 14` *e a* `Extensão de Domínio` *trazia* `nv 14 · 18 · 26` — **o nível real de cada rota.** ***O número que subiu passou a dizer o que a coluna vizinha já dizia.***
+
+### 2 · O achado que o validador forçou, e ele é maior que o pedido
+
+**Trocar `7` por `10` na peça 11 acendeu o `conferir-ferramenta.py`**, *porque a peça 16 §3.1 declarava que o gate dela era "lido da peça 11 §6".* **E aí a conta desmontou a herança.**
+
+***O `Estigma` SEMPRE foi mais fácil que a aptidão da mesma Classe, desde antes desta versão:*** *o de Classe `2` abre no nível `7` e a aptidão de Classe Passiva `2` só é pegável no `10` pela melhor rota — **três níveis mais dura**; o de Classe `3` abre no `13` e a aptidão no `14`.* **A causa está escrita na própria peça 16: ela tira a metade de refino do gate**, *de propósito, para não trancar a Restrição Celestial, que não tem energia.* ***E o refino é quem segura a aptidão; o nível nunca foi.***
+
+**Então a herança copiava o número e deixava a trava para trás.** *O argumento que ela publicava — "um `Estigma` de Classe 3 no nível 2 passaria por cima do gate que a peça 11 cobra" — não se sustentava: ele passa por cima de qualquer jeito.*
+
+***Decisão do Mizuki:*** **"Ferramenta é decisão do mestre, são exemplos a tabela, não é obrigatório seguir, não precisa mexer lá, por que mexeria? Só muda o nv da aptidão mesmo."** *A peça 16 fica em `7` e `13`, e passa a **declarar** que os números são dela.*
+
+### 3 · O que a checagem `3` passou a conferir
+
+**Ela exigia igualdade com a peça 11, e a igualdade era a mentira.** *Agora ela confere o que a peça 16 realmente promete:* **que o gate cresce com a Classe do `Estigma`, que ele não some numa Classe que a peça 11 gateia, que dois graus da mesma Classe não divergem, e que a peça continua declarando que a herança morreu** — *sem essa última linha, o próximo a ler sincroniza os dois de novo.*
+
+### 4 · E a ficha: a `Condição` estava se contradizendo
+
+**O agente da v0.258 tinha deixado registrado e fora do escopo dele.** *A Melhoria `Condição` do catálogo da ficha dizia "Dura uma rodada" e ponto, enquanto o mesmo catálogo já listava a `Concentrada` — as duas da **mesma v0.254**.* **Eram `2` cópias no `manual.txt` e não `1`**, *a segunda com redação diferente, na abertura da seção de Condições.* *As três agora dizem o que o livro diz, e os `7` validadores de lá seguem verdes.*
+
+### Alterado
+
+- **A peça 11, o `DESENHO-trilhas` e a peça 25:** *os gates de nível `7` → `10` e `13` → `14`, em oito lugares somados.*
+- **O `conferir-aptidoes.py`:** *o guarda de título, que tinha `nível 13` escrito no código.*
+- **A peça 16 §3.1:** *a herança declarada morta, com a medida do porquê.*
+- **O `conferir-ferramenta.py`, checagem `3`:** *reescrita — ela conferia igualdade e agora confere estrutura.*
+- **O livro:** *o capítulo de aptidões, com os quatro artefatos refeitos.*
+- **No repositório da ficha:** *a `Condição` no catálogo JSON e nas duas cópias do `manual.txt`.*
+
+### Decidido
+
+- **O gate de nível das aptidões cai no marco, porque fora dele ele não faz nada.**
+- **O gate da ferramenta é dela, e não herdado.** *A herança era nominal e escondia que o `Estigma` sempre foi mais fácil.*
+- **A ferramenta não se move**, *porque quem a entrega é o mestre e o §7 já publica o ritmo.*
+
+*Arnês numa cópia isolada, com a base verde: **5 perturbações acendem a etiqueta certa e 3 contra-testes ficam verdes**. O que mais importa é um contra-teste: **mexer no gate da peça 11 já não arrasta a peça 16** — as duas se soltaram, que é o que a decisão pedia. Uma perturbação foi refeita no meio do caminho, porque o `sed` descaracterizava a linha em vez de inverter a ordem que ela queria testar.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, item `11`: **o Ritual, decidido na v0.259 e ainda não escrito.**
+
+---
+
 ## [0.259] — 20/09/2026
 
 **A varredura dos registrados, a pedido do Mizuki.** *Três itens de design abertos foram fechados sem escrever regra nova: dois por decisão dele, e um por medida.* **Nenhum número do sistema se moveu, e o livro não mudou** — *o que mudou foi o motivo de um número que já existia.*
