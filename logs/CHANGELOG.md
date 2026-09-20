@@ -8,6 +8,77 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.258] — 20/09/2026
+
+**Um erro de um nível na maestria, que vivia em dois validadores desde a v0.58, e as três marcas de regra que não existe do capítulo de Invocações.** *Nenhuma regra nova foi escrita nesta versão. Ela consertou o que já havia, e duas das três marcas estavam **erradas** em vez de em aberto.*
+
+### 1 · O `maestria(nv)` errava em três níveis, e escondia um número numa peça
+
+**A peça 1 §2 publica a tabela: nível `2–9` = `1`, `10–17` = `2`, `18–25` = `3`, `26–30` = `4`.** *O `conferir-invocacoes.py` praticava `MAESTRIA_INI + (nv - 1) // MAESTRIA_PASSO`, que divide a partir do nível `1` quando a tabela começa no `2`.* **Isso dá maestria a MAIS nos níveis `9`, `17` e `25` — o último de cada faixa.**
+
+**Ela estava em três lugares, em dois arquivos:** *o `conferir-invocacoes.py` a tinha na função e numa cópia inline, e o `conferir-dano.py` tinha a terceira.* **O `atributo_investido` do mesmo validador carregava o mesmo desvio em mais quatro linhas**, *e consertá-lo passa verde — nenhum número publicado dependia dele, então é coerência e não correção.*
+
+***O conserto aparente estava errado, e o Mizuki mandou não aceitá-lo de cabeça.*** *`1 + (nv - 2) // 8` devolve maestria **zero** no nível 1, porque em Python `-1 // 8` é `-1`.* **O certo é `max(0, nv - 2)`, e o nível `1` não precisou de pergunta:** *ele não está na tabela da peça 1, mas a **peça 18** publica a tabela nível a nível e a linha do nível `1` imprime maestria `1`.* *Três validadores já supunham isso — o de atributos e o de bestiário pelo `max(0, …)`, e o de progressão por um fallback declarado.*
+
+**E o bug escondia um número de regra.** *Com a fórmula certa, o `conferir-dano.py` acende: a escada de quem cura da peça 19 §2.3 publicava* **"maestria `3`, no nível 17"**, *e a maestria `3` começa no nível **18**.* **A checagem `6` daquele validador saía verde por dois defeitos ao mesmo tempo** — *ela guardava o par `2 e 3` escrito no próprio código (`if maestria(11) != 2 or maestria(17) != 3`) e chegava nele com a fórmula quebrada.* **É a lição nº 8 com as duas metades juntas**, *e o par tinha sido escolhido com a própria fórmula errada.*
+
+*O livro **não** carrega esse número: ele publica só a entrega do nível 11, com "o teto por uso sobe para a sua maestria", que é derivado.*
+
+### 2 · Duas das três marcas do capítulo de Invocações estavam erradas
+
+**A de `Selar com talismã` mandava perguntar ao mestre apontando para um capítulo que já publica a regra.** *Ela dizia que o objeto amaldiçoado "ainda não tem regra de selamento escrita", e o capítulo 15 do livro tem a seção `Selo` inteira: o selo inverte a atração em vez de tampar, ele gasta com o tempo, e quanto ele dura é decisão declarada do mestre.*
+
+***A origem é um aviso que parou de reproduzir e virou dívida.*** *A peça 15 escreve, desde a v0.58: "selar não dá para escrever agora… o alvo do selo é objeto amaldiçoado, que a v0.49 descobriu não ter peça dona nenhuma".* **A peça 21 fechou aquilo na v0.132, e ninguém voltou — cento e vinte e seis versões.** *O que continua faltando é entrada de catálogo que **aplique** selo, e isso é falta de conteúdo, não de regra.*
+
+**A de `Invocação com arma` virou as duas regras que ela dizia faltar, e nenhuma foi escolhida.** *O dado da arma **não soma** ao `Investir`, porque o `Investir` já entrega a cota inteira da Rotina e a melhor arma de tiro somaria `314%` dela no nível 2 — o teto de uma Rotina é a trava mais dura da peça 15.* **E a invocação nunca tem treino em arma porque não tem Caminho**, *o que cai na penalidade de empunhar sem treino que a peça 19 §6 já publica para todo mundo.* ***A remodelagem das invocações continua podendo mexer nas duas; o que ela não precisa mais é destravar a mesa.***
+
+**A terceira fica**, *por decisão do Mizuki:* **a invocação que não obedece — a Rika e o Mahoraga.** *A peça 15 diz **duas vezes** que isso "precisa de tratamento antes de a peça fechar", e ela fechou na v0.58 sem o tratamento.* **Ela é do item `7`, a remodelagem das invocações e do Evocador**, *porque uma invocação que age sozinha mexe justamente na trava de uma Rotina.*
+
+**O dono que o `conferir-voz.py` lê desceu de `3` para `1`**, *com o motivo de cada uma escrito na `REGRA-DE-VOZ.md`.* **E as duas que saíram deixaram de ser "Em aberto": viraram seção própria do capítulo**, *um título que diz "Em aberto" não é lugar de regra escrita nem de ponteiro para outra.*
+
+### 3 · A Melhoria de resistência a tipo foi ADIADA, e o motivo tem quatro partes
+
+***Decisão do Mizuki:*** **"abandona por enquanto, e espera o playtest".** *A conta inteira fica registrada no item `15` dos problemas abertos.*
+
+**1 · A lacuna registrada na v0.254 estava errada pela metade, e é a lição nº 6.** *Aquela frase — "o catálogo só tem defesa e dividir dano" — lia só o catálogo de **Melhorias**.* **Resistência a um tipo já existe desde a v0.26: é a Passiva `Escama`, Classe Passiva `3`.** *A peça 13 já tinha registrado o mesmo erro com as mesmas palavras — "estava errado, e o erro era não ter procurado".*
+
+**2 · O buraco real é outro, e é menor:** *a `Escama` custa `3` espaços e só abre no nível `13`, enquanto o D&D tem resistência reativa desde o nível `1`.* **Falta resistência CEDO, e não resistência.**
+
+**3 · A conta fecha, e chegou sozinha no mesmo par que o D&D usa.** *Medida contra o GOLPE do chefe, que é a régua defensiva da v0.201: uma resistência que fica de pé, escopo = um grupo, paga `72%` · `90%` · `99%` do preço `Pesada` nos níveis 10, 20 e 30 se o grupo for `Físicos`, e `63%` · `83%` · `92%` do preço `Leve` se for `Elementais`.* **O Pele-Rocha do D&D pega os três físicos e é de 4º círculo; a Proteção Contra Energia pega os elementais e é de 3º.**
+
+**4 · E um dos três escopos que ele levantou NÃO é calculável hoje.** *"Escolho o grupo agora e o tipo na hora" só vale menos que o grupo inteiro se o inimigo usar mais de um tipo daquele grupo —* **e quantos tipos de dano um inimigo usa não existe em documento nenhum.** *A peça 26 nunca precisou desse número.* **Preçá-lo exigiria inventá-lo, e é por isso que ela esperou.** *Some a isso que o peso dos três grupos é previsão declarada pela própria peça 19 §4.*
+
+*O nome passou na triagem e fica guardado: `Amortece`, LIVRE. `Aguenta` foi recusado por colisão de **sentido** que a triagem não pega — `Aguentar` já é uma das duas escolhas de quem chega a `0` de vida. `Couro` saiu OCUPADO, é Legado.*
+
+### 4 · Três defeitos de ferramenta consertados no caminho
+
+- **O `conferir-dano.py` lia a maestria do `ESTADO-ATUAL.md`**, *que é cópia.* **Hoje ele lê a tabela da peça 1, que é a dona.**
+- **O `conferir-voz.py` só aceitava o plural** *no regex do dono das marcas (`marcas de regra`).* **O número nunca tinha chegado a `1`**, *e um dono legítimo saía como `None` — o teto virava "sem teto" em silêncio.*
+- **A tabela de resistência da peça 19 §4 publicava o peso do tipo sem dizer que a resistência corta pela metade.** *Os números sempre estiveram certos; o rótulo é que mentia, e quem lesse a coluna do meio como "o que você evita" erraria por duas vezes.* **Quase me fez errar o preço da candidata por `2×`.**
+- **A base da lista branca da checagem `7.2` foi de `180` para `181`, na mesma versão em que a citação entrou.** *Medida pelo diff antes/depois — a worktree não tem `finalizado/`, então a checagem foi emulada sobre os mesmos arquivos em `git show HEAD:` e no estado novo.* **É uma só, e é nome de validador:** *a peça 15 §5 passou a citar o `conferir-dano.py` para registrar que ele carregava a mesma cópia da fórmula.* *A v0.255 teve de pagar duas versões de dívida acumulada por ninguém ter feito isso na hora.*
+
+### Alterado
+
+- **`conferir-invocacoes.py`:** *a maestria passa a sair da TABELA da peça 1 e não da frase, a função subiu para o setup (ela era usada antes de onde estava definida), e o `atributo_investido` e mais três linhas ganharam o mesmo conserto.* **Checagem `34` nova**, *com contra-teste dentro dela.*
+- **`conferir-dano.py`:** *a fórmula consertada e a checagem `6` reescrita inteira — ela lê a TABELA da escada pelo cabeçalho, confere cada degrau de maestria contra a peça 1, exige que o rótulo e a coluna da mesma linha digam o mesmo número, e prova pelo contra-teste que a fórmula velha discordaria.*
+- **A peça 19:** *o `17` virou `18` em dois lugares, e a tabela de resistência ganhou o aviso da metade.*
+- **A peça 15:** *o aviso morto do selar riscado com o motivo, e as duas perguntas da arma fechadas com a derivação.*
+- **O capítulo 16 do livro:** *`Invocação com arma` e `Selar com talismã` viraram seções próprias; `Em aberto` ficou com uma.* **Os quatro artefatos refeitos.**
+- **`conferir-voz.py`** *(o regex do singular)* **e a `REGRA-DE-VOZ.md`** *(o dono em `1`, com as duas baixas explicadas).*
+- **O ESTADO-ATUAL:** *o item `15` novo com a conta inteira da resistência, e a candidata da v0.254 riscada.*
+
+### Decidido
+
+- **A maestria se lê da tabela da peça 1, e o nível `1` se lê da peça 18.** *Nenhum validador pratica a fórmula sem conferi-la contra a tabela.*
+- **O dado da arma não soma ao `Investir`, e a invocação nunca tem treino em arma.** *Derivado, não escolhido.*
+- **A Melhoria de resistência a tipo espera o playtest**, *e o que ela espera é o peso dos três grupos sair de previsão.*
+
+*Arnês numa cópia isolada, com a base verde: **15 perturbações acendem a etiqueta certa e 5 contra-testes ficam verdes**. Duas expressões do arnês não bateram no arquivo na primeira rodada e foram consertadas — a regra 3 do arnês pegou as duas antes de qualquer leitura de resultado.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, seção *"Problemas de design abertos"* (o item `11`, Ritual, é o próximo sem dono; o `7`, a remodelagem das invocações, ganhou três entregas nesta versão).
+
+---
+
 ## [0.257] — 19/09/2026
 
 **O `Volume` saiu da seção de peso e foi para dentro da tabela de cada item.** *Pedido do Mizuki, logo depois de a v0.256 subir:* **"coloque direto nas tabelas que os introduzem, peso direto na tabela de arma, escudo, revestimento, traje, afins".** *A v0.256 tinha deixado o peso numa seção só, com a régua, e quem montava ficha tinha de aplicar a régua de cabeça.*

@@ -1067,7 +1067,16 @@ else:
     #   . `ESTADO-ATUAL.md` na peca 3 §3 (v0.255) ....... arquivo de trabalho: o ponteiro
     #     para o problema aberto do `Acúmulo`, que a peca registra e nao decide
     # Nenhuma familia nova — as duas declaradas la em cima —, e nenhuma e material de mesa.
-    BRANCAS_AQUI, FOLGA = 180, 5
+    # v0.258: 180 -> 181, MEDIDO pelo diff antes/depois do recorte (a worktree nao tem
+    # finalizado/, entao a medida foi a emulacao desta checagem sobre os mesmos arquivos,
+    # rodada em `git show HEAD:` e no estado novo). UMA so, e ela nao e material de mesa:
+    #   . `conferir-dano.py` na peca 15 §5 (v0.258) .... nome de validador: a especificacao
+    #     da checagem `34` registra que aquele validador carregava a MESMA copia da formula
+    #     de maestria que esta peca consertou, e que os dois consertaram juntos
+    # Familia `conferir-[a-z-]+\.py`, ja declarada. A base subiu na mesma versao em que a
+    # citacao entrou, que e' o que os seis paragrafos acima pedem e ninguem fez entre a
+    # v0.233 e a v0.255.
+    BRANCAS_AQUI, FOLGA = 181, 5
     PISO_CITACOES, TETO_BRANCOS = 120, BRANCAS_AQUI + FOLGA
     if vistos_e < PISO_CITACOES:
         erro(f'7.2: achei so {vistos_e} citacoes na entrega, e o piso e {PISO_CITACOES} — '

@@ -773,27 +773,111 @@ bloco('6. A ESCADA DE QUEM CURA — o teto por uso cobre os tiers que a peca diz
 
 CUSTO = {'Leve': 1, 'Média': 2, 'Pesada': 3}
 
-_mm = re.search(r'\*\*Maestria\*\* = 1, \+1 a cada (\w+) níveis', ler('sistema/ESTADO-ATUAL.md'))
-_passo = 8 if not _mm else {'oito': 8}.get(_mm.group(1), 8)
+# A maestria sai da TABELA da peca 1 SS2, que e a dona — nao da frase e nao do
+# ESTADO-ATUAL, que e copia. Ate a v0.257 este bloco lia o ESTADO e praticava
+# `1 + (nv - 1) // 8`, que da maestria a MAIS nos niveis 9, 17 e 25 porque a
+# tabela comeca no nivel 2. O erro passava verde porque a checagem se media
+# contra um par escrito aqui dentro (`maestria(11) != 2 or maestria(17) != 3`),
+# e o par tinha sido escolhido com a propria formula errada — licao no 8 com as
+# duas metades ao mesmo tempo. Ele sustentava um `17` na tabela abaixo que a
+# peca 1 sempre disse ser `18`.
+_p01 = ler(P01)
+_MFX = []
+_mn = re.search(r'^\| nível \|((?: [\d–\-]+ \|)+)$', _p01, re.M)
+_mv = re.search(r'^\| maestria \|((?: \d+ \|)+)$', _p01, re.M)
+if not _mn or not _mv:
+    erro('6: nao achei a tabela de maestria na peca 1 §2 — ela e a dona da escada '
+         'desta secao, e sem ela esta checagem nao tem regua')
+else:
+    for _f, _v in zip([c.strip() for c in _mn.group(1).strip().strip('|').split('|')],
+                      [c.strip() for c in _mv.group(1).strip().strip('|').split('|')]):
+        _a, _, _b = _f.replace('–', '-').partition('-')
+        _MFX.append((int(_a), int(_b or _a), int(_v)))
 
 
 def maestria(nv):
-    return min(4, 1 + (nv - 1) // _passo)
+    """o valor da faixa; abaixo da primeira, o primeiro degrau (a peca 18 §1 e a
+    dona do nivel 1, e ela publica o mesmo valor da faixa de baixo)."""
+    if not _MFX:
+        return None
+    for _a, _b, _v in _MFX:
+        if _a <= nv <= _b:
+            return _v
+    return _MFX[0][2] if nv < _MFX[0][0] else _MFX[-1][2]
 
 
-_escada = []
-for _nv in (11, 17, 25):
-    _teto = maestria(_nv)
-    _escada.append((_nv, _teto, [t for t, c in CUSTO.items() if c <= _teto]))
-_escada.append((27, 7, list(CUSTO)))
-
-for _nv, _teto, _alc in _escada:
-    print(f'  nivel {_nv:>2}: teto {_teto} PE por uso -> alcanca {", ".join(_alc)}')
-
-if maestria(11) != 2 or maestria(17) != 3:
-    erro(f'6: a maestria no nivel 11 deu {maestria(11)} e no 17 deu {maestria(17)}; '
-         'a escada publicada supoe 2 e 3')
-elif 'maestria` = `2`' not in TXT.replace(' ', ' '):
+# A ESCADA E LIDA DA TABELA dela, e nao do arquivo inteiro: o cabecalho
+# `| quando | teto por uso | alcança |` delimita, e cada linha diz o nivel e o
+# teto. As que se apoiam na maestria sao conferidas contra a tabela da peca 1; a
+# que se apoia na maior Classe nao e desta checagem.
+_tab6, _lendo = [], False
+for _l in TXT.split('\n'):
+    if re.match(r'^\|\s*quando\s*\|\s*teto por uso\s*\|', _l):
+        _lendo = True
+        continue
+    if _lendo:
+        if not _l.strip().startswith('|'):
+            break
+        if set(_l.replace('|', '').strip()) <= set('- '):
+            continue
+        _cels = [c.strip() for c in _l.strip().strip('|').split('|')]
+        if len(_cels) >= 3:
+            _tab6.append(_cels)
+if not _tab6:
+    erro('6: nao achei a tabela da escada de quem cura (cabecalho '
+         '"| quando | teto por uso | alcança |") — ela mudou de forma e esta '
+         'checagem parou de conferir')
+_esc6 = []
+for _cels in _tab6:
+    _mnv = re.search(r'no nível (\d+)', _cels[0])
+    if not _mnv:
+        erro(f'6: a linha "{_cels[0]}" da escada nao diz em que nivel ela vale')
+        continue
+    _nv6 = int(_mnv.group(1))
+    _usa_mae = 'maestria' in (_cels[0] + _cels[1]).lower()
+    _mte = re.search(r'(\d+)\s*$', _cels[1].replace('`', '').strip())
+    if not _mte:
+        erro(f'6: a linha do nivel {_nv6} nao declara o teto por uso: "{_cels[1]}"')
+        continue
+    _teto6 = int(_mte.group(1))
+    _mrot = re.search(r'maestria `(\d+)`', _cels[0])
+    if _mrot and int(_mrot.group(1)) != _teto6:
+        erro(f'6: a linha "{_cels[0]}" diz maestria {_mrot.group(1)} no rotulo e '
+             f'{_teto6} na coluna do teto — a mesma linha com dois numeros')
+    _esc6.append((_nv6, _teto6, _cels[2], _usa_mae))
+_com_mae = [e for e in _esc6 if e[3]]
+if len(_com_mae) < 2:
+    erro(f'6: achei {len(_com_mae)} degrau(s) de maestria na escada do §2.3, e ela '
+         'tem de ter pelo menos dois — sem eles a virada em 1 · 2 · 3 nao se confere')
+else:
+    for _nv, _teto, _alc, _ in sorted(_esc6):
+        print(f'  nivel {_nv:>2}: teto {_teto} PE por uso -> alcanca '
+              + ', '.join(t for t, c in CUSTO.items() if c <= _teto))
+    _mau6 = 0
+    for _nv, _teto, _alc, _ in _com_mae:
+        _real = maestria(_nv)
+        if _real != _teto:
+            erro(f'6: a escada do §2.3 diz que no nivel {_nv} a maestria e {_teto}, e '
+                 f'a tabela da peca 1 §2 da {_real}')
+            _mau6 += 1
+    if not _mau6:
+        print(f'  [x] os {len(_com_mae)} degraus de maestria da escada batem com a '
+              'peca 1, nivel a nivel')
+        _velha = lambda nv: min(max(_v for _, _, _v in _MFX), _MFX[0][2] + (nv - 1) // 8)
+        _dif = [nv for nv in range(_MFX[0][0], _MFX[-1][1] + 1) if _velha(nv) != maestria(nv)]
+        if not _dif:
+            erro('6: a formula de ate a v0.257 concorda com a tabela em todo nivel — '
+                 'ou a tabela mudou, ou este conserto virou trivial')
+        else:
+            print(f'  [x] contra-teste: a formula de ate a v0.257 erraria em '
+                  f'{len(_dif)} nivel(is) — {", ".join("nv" + str(n) for n in _dif)}')
+    for _nv, _teto, _alc, _ in _esc6:
+        _promete = {t for t in CUSTO if t.lower() in _alc.lower()}
+        _cabe = {t for t, c in CUSTO.items() if c <= _teto}
+        if _promete - _cabe:
+            erro(f'6: no nivel {_nv} a escada promete {sorted(_promete - _cabe)} com teto '
+                 f'{_teto} PE, e tirar isso custa mais que o teto')
+if 'maestria` = `2`' not in TXT.replace(' ', ' '):
     print('  ~  a peca nao escreve "maestria = 2" com essa forma; conferindo so a conta')
 
 # e ela tem de bater com a escada de exaustao da peca 10, que e' o precedente

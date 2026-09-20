@@ -6128,7 +6128,6 @@ Toda invocação é de um dos quatro tipos, e o tipo é o que decide a base da v
 
 O `Coro` tem o corpo mais frágil das três de propósito: ele é o único que **ataca e comanda na mesma rodada**, e é o único cujo corpo cair não acaba o seu kit — você continua batendo.
 
-
 O tipo também decide o que a mesa vê antes de a invocação chegar. Um `talismã` é papel que se desdobra e traz a invocação. Um `corpo amaldiçoado` é um objeto criado. Uma invocação de `técnica` é feita da sua própria energia. Uma `maldição domada` é uma coisa que quis te matar antes de aceitar andar do seu lado.
 
 ### Orçamento
@@ -6393,7 +6392,6 @@ Os 18 metros são o alcance base de Projétil, a referência de distância do si
 > **Área causa o dano uma vez, na barra dela**, e não uma vez por corpo.
 > **E a invocação como `Matilha` é vulnerável a área: ela leva `×1,5` do dano**, metade a mais.
 
-
 > **A régua da morte é a vida máxima daquele corpo.** É o número de `vida` da ficha dela, com o corpo inteiro. Não tem conta para fazer.
 > **Ela morre em definitivo se um único golpe causar a régua inteira, ou se o excedente passar de metade da régua.**
 > **Área nunca destrói.** Ela derruba como qualquer dano, e só.
@@ -6427,13 +6425,24 @@ O `Traço` continua valendo — ela continua voando, continua ocupando a passage
 
 > **Exemplo.** A Kaori apaga com a invocação dela de pé ao lado. Enquanto a janela dela corre a invocação não faz nada, mas o capanga que quer terminar o serviço ataca a Kaori com a cobertura em cima — ou gasta a rodada dele derrubando o corpo primeiro, e aí não ataca a Kaori naquela rodada.
 
+## Invocação com arma
+
+A sua invocação pode empunhar uma arma do catálogo de Equipamento. Duas coisas valem quando ela faz isso.
+
+> **A CD dos efeitos nunca muda com a arma.** Só o acerto segue o atributo dela.
+> **O dado da arma não soma ao `Investir`.** O dano dela continua sendo o do `Investir`, com a arma na mão ou sem ela.
+
+**A invocação não tem Caminho**, então ela nunca tem treino em arma nenhuma: o ataque dela com arma sai com desvantagem, como sai o de qualquer um sem treino.
+
+## Selar com talismã
+
+O selo tem regra, e ela não é deste capítulo: ela está no capítulo 15, *Ferramenta Amaldiçoada*, na seção *Objeto amaldiçoado*. **O selo inverte a atração em vez de tampar, ele gasta com o tempo, e quanto ele dura é decisão do seu mestre.**
+
+**A sua invocação não sela.** O `talismã` aqui é um tipo de invocação como os outros três, com a vida dele — selar não é `Traço` nem `Comando`, e não existe entrada de catálogo que faça isso.
+
 ## Em aberto
 
 **Invocação que não obedece.** A regra supõe que ela obedece: você gasta a Ação Padrão e ela faz. Existem invocações na ficção que agem por conta própria, contra a vontade de quem as carrega, e elas não têm regra escrita ainda. Se a sua mesa quiser uma dessas, é acordo com o mestre.
-
-**Invocação com arma.** A CD dos efeitos nunca muda com a arma: só o acerto segue o atributo dela. Ainda não está escrito quem treina a invocação numa arma (ela não tem Caminho, e sem treino o ataque com arma sai com desvantagem) nem se o dado da arma soma ao `Investir`. Se a sua mesa quiser uma invocação armada, é acordo com o mestre.
-
-**Selar com talismã.** O talismã do material sela objeto amaldiçoado, e o alvo dela é o objeto amaldiçoado do capítulo 15, *Ferramenta Amaldiçoada*, que ainda não tem regra de selamento escrita. Por enquanto o `talismã` é um tipo de invocação como os outros três, com a vida dele, e selar não é uma entrada do catálogo.
 
 ---
 
@@ -6908,4 +6917,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: 5dbb43e00f7583f6ee31df4011583a3aef715019 -->
+<!-- fonte: 154e410395c1c6c2e0713b3ed8b20413856760f1 -->

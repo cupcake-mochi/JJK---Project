@@ -1,6 +1,6 @@
 # 15 — Invocações
 
-**Fase 4, décima quinta peça.** O sistema de criação de invocação: iniciativa, o modelo da Matilha, a ficha, o custo, a morte, o retorno e o catálogo. O validador dono é o `conferir-invocacoes.py`, com as **trinta e três** checagens do §5.
+**Fase 4, décima quinta peça.** O sistema de criação de invocação: iniciativa, o modelo da Matilha, a ficha, o custo, a morte, o retorno e o catálogo. O validador dono é o `conferir-invocacoes.py`, com as **trinta e quatro** checagens do §5.
 Versão v0.58 — 14/08/2026
 
 > **O nome é decisão escrita, e não descuido.** `Invocação` sai **OCUPADO** na triagem: é **Tema** do manual, no grupo *Criação* do catálogo do apêndice. Tema não carrega mecânica — o próprio manual diz isso na abertura da Descrição —, então o choque é de vocabulário e não de regra. **O Tema e esta peça são coisas diferentes:** um é rótulo de sabor pendurado numa técnica, a outra é a máquina que põe um corpo no campo. O §4 tem a triagem inteira, com os dois nomes que saíram livres.
@@ -696,7 +696,13 @@ Com a vida em pool (Q2) e `h` em meia Rotina (Q3), **um efeito de área que caus
 
 **O topo não se mexe em nenhuma das três**, e foi a medida que mais pesou. Com o atributo no teto, a CD máxima é `13`, `16`, `18` e `20` nos níveis 2, 10, 18 e do 26 em diante, contra `12`, `15`, `17` e `18` da CD de feitiço do jogador: a diferença é só o bônus da `Voz` ou do `Preito`. ***Decisão do Mizuki: (a).*** *"Pra CD, sim... sempre vai ser so o atributo da invocação. único caso de mudança disso é no acerto mesmo, aonde a invocação pode usar uma arma. É raro, mas pode vir a acontecer"*, e ele anunciou que as invocações e o Evocador vão ser remodelados depois.
 
-> **O que a (a) deixa aberto, e o capítulo 16 registra em "Em aberto":** quem treina a invocação numa arma, e se o dado da arma soma ao `Investir`. *O primeiro pesa porque ela não tem Caminho, e sem treino o ataque com arma sai com desvantagem (`50%` de acerto por dado vira `25%`). O segundo pesa porque o `Investir` já entrega a cota inteira, e o dado da melhor arma do catálogo, `2d10`, somaria `314%` no nível 2 e `21%` no nível 30.* **A peça não escreve as duas: o remodelamento é o lugar delas.**
+> ~~**O que a (a) deixa aberto, e o capítulo 16 registra em "Em aberto":** quem treina a invocação numa arma, e se o dado da arma soma ao `Investir`.~~ ***FECHADAS na v0.258, e nenhuma das duas precisou de escolha: as duas já estavam decididas por regra que existe.***
+>
+> **O dado da arma NÃO soma ao `Investir`.** *O `Investir` já entrega a cota inteira da Rotina, e o dado da melhor arma do catálogo, `2d10`, somaria `314%` dela no nível 2 e `21%` no nível 30.* **O teto de uma Rotina é a trava mais dura desta peça** — *"você e todas as suas invocações somados entregam uma Rotina"* —, e somar o dado a fura no nível em que a ficha é mais frágil. *Não é decisão: é a trava aplicada.*
+>
+> **E a invocação nunca tem treino em arma, porque ela não tem Caminho.** *O ataque dela com arma sai com desvantagem, e isso não é regra nova: é a penalidade de empunhar sem treino, que a peça 19 §6 publica para todo mundo.* **A conta continua sendo a mesma:** `50%` de acerto vira `25%`.
+>
+> *A remodelagem das invocações continua podendo mexer nas duas. O que ela não precisa mais é destravar a mesa, e o capítulo 16 do livro deixou de marcá-las como regra que não existe.*
 
 **A `Voz` e o `Preito` na CD dão o mesmo número em todo nível de 2 a 30**, conferido nível por nível com a maestria da peça 1 e a metade com o piso de `1` da v0.246:
 
@@ -972,7 +978,11 @@ O `Maximum: Uzumaki` — *"combines any number of cursed spirits in the user's p
 
 **O talismã pede uma entrada e tem outra travada.** A fonte define talismã como *"paper tags with sutras written on them"*, cuja função principal é **selar** — *"halt the lifestream and preserve the existence of cursed objects while preventing them from doing any further damage"* — e que *"can serve as an intermediary to conjure shikigami"*.
 
-> **Selar não dá para escrever agora, e o motivo tem nome.** O alvo do selo é `objeto amaldiçoado`, que a **v0.49** descobriu não ter peça dona nenhuma e a **v0.50** pôs em **último** na fila. Uma entrada de catálogo apontando para lá é a vaga de Desliga nomeando a peça errada, que é o defeito que aquelas duas versões gastaram inteiras para achar. *Fica marcado com o nome certo em vez de escrito com o alvo errado.*
+> ~~**Selar não dá para escrever agora, e o motivo tem nome.** O alvo do selo é `objeto amaldiçoado`, que a **v0.49** descobriu não ter peça dona nenhuma e a **v0.50** pôs em **último** na fila.~~ ***O motivo MORREU na v0.132, quando objeto amaldiçoado virou a peça 21, e este aviso só foi achado na v0.258 — cento e vinte e seis versões depois.***
+>
+> **A regra do selo existe e tem dona:** *a peça 21 §4.1 publica que o selo **inverte** a atração em vez de tampar, que ele gasta com o tempo, e que quanto ele dura é decisão declarada do mestre.* **O capítulo 15 do livro publica as três.** *Enquanto isso, o capítulo 16 mandava o leitor até lá para dizer que a regra não existia.*
+>
+> **O que continua faltando é outra coisa, e é menor:** *uma entrada de catálogo que **aplique** um selo — `Traço` ou `Comando`.* **Isso é falta de conteúdo e não de regra**, e ela fica para a remodelagem das invocações junto com o resto. *Aviso que parou de reproduzir é dívida, e esta durou mais que qualquer outra registrada aqui.*
 
 O que sobra do talismã é o eixo dos shikigami que **não** são do Megumi — o rato e o pássaro do Dhruv, o Kogane, o Marmalade Boy do Masaki. Todos batedores, e todos **informando o dono**. O `Faro` rastreia, mas nada em lugar nenhum dizia que o dono recebe alguma coisa disso. **É o `Vigia`**, e junto com ele veio o `Fala`, que é o mesmo eixo um passo adiante.
 
@@ -1137,11 +1147,11 @@ Rodada a triagem antes de escrever qualquer coisa:
 
 ## 5. O que o validador confere
 
-**São trinta e três checagens, e elas moram no `conferir-invocacoes.py`.** A lista abaixo é a especificação delas: cada item diz o que se confere, de qual documento o número é lido, e — onde faz sentido — qual perturbação tem de acender aquela checagem e só ela.
+**São trinta e quatro checagens, e elas moram no `conferir-invocacoes.py`.** A lista abaixo é a especificação delas: cada item diz o que se confere, de qual documento o número é lido, e — onde faz sentido — qual perturbação tem de acender aquela checagem e só ela.
 
 *Ela foi escrita antes do validador, e é por isso que ele coube numa versão só.* A peça 14 gastou três versões com uma frase dizendo que o validador dela não podia ser escrito, e a premissa daquela frase tinha morrido três versões antes.
 
-> **O arnês de perturbação obedece às três regras:** cópia isolada, base conferida verde **antes** de perturbar, e `diff` provando que a perturbação bateu antes de alguém ler o resultado. **As trinta e três acendem a checagem certa**, e três delas acendem um par ou um trio declarado — que é o que acontece quando duas checagens leem o **mesmo dono** e é mais honesto declarar do que fingir isolamento. *A `33` acrescenta um quarteto: perturbar o teto do atributo da peça 2 acende a `33` junto da `8`, da `18` e da `30`, porque as quatro leem o mesmo dono.* Mais dois contra-testes que não podem acender nada, e não acendem.
+> **O arnês de perturbação obedece às três regras:** cópia isolada, base conferida verde **antes** de perturbar, e `diff` provando que a perturbação bateu antes de alguém ler o resultado. **As trinta e quatro acendem a checagem certa**, e três delas acendem um par ou um trio declarado — que é o que acontece quando duas checagens leem o **mesmo dono** e é mais honesto declarar do que fingir isolamento. *A `33` acrescenta um quarteto: perturbar o teto do atributo da peça 2 acende a `33` junto da `8`, da `18` e da `30`, porque as quatro leem o mesmo dono.* Mais dois contra-testes que não podem acender nada, e não acendem.
 
 - **O teto da Rotina somada**, derivado da peça 6 §4 e nunca lido de constante — a lição nº 8 na forma que já apareceu três vezes.
 - **Dominância entre as três Trilhas**, com a matriz rodando por quantidade de corpos.
@@ -1167,6 +1177,8 @@ Rodada a triagem antes de escrever qualquer coisa:
 - **As montagens publicadas conferidas contra a máquina**, e não só a máquina contra si mesma. *A peça 8 é o precedente e ele custou sete versões.* **São duas tabelas e elas se conferem diferente:** as seis do material contra o catálogo e o nível em que cabem; **as três por Trilha contra o orçamento do nível 2**, com o do `Servo` derivado da concessão dela e nunca lido. *Nas duas, o arranjo soma nove, topa em `3`, tem o principal saindo da entrada comprada, e é distinto dentro da própria tabela — e o capítulo 16 publica os mesmos.*
 - **O exemplo guiado do capítulo 16, recomputado número a número** *(a `17.1`, sub-bloco da 17, então a contagem não se move)*. **Ele é a única instância publicada que não tem gêmea aqui, e isso é decisão e não esquecimento:** *copiar a montagem para dentro da peça criaria a segunda fonte que a lição nº 9 existe para evitar.* **O preço da decisão é que cada número dele nasce dentro do validador, de documento dono** — o bolso dos marcos da peça 2 com a concessão do §3.7, o gasto pelo catálogo, a vida e a régua da fórmula do §3.6, a metade da régua pela fração do §3.5, o acerto pela maestria da peça 1 e a Defesa pela base dela. *A derivação do bolso do `Servo` — "a ficha mais metade" — é provada contra os quatro níveis que a tabela dele publica **antes** de ser aplicada ao nível do exemplo, que é justamente o nível em que ninguém publica nada.* **Dez perturbações acendem e dois contra-testes de prosa ficam verdes**, que é o que separa uma checagem que lê número de uma que lê frase.
 - **Nenhuma linha da ficha pode crescer em ritmo diferente de `+3`.** Perturbar o ritmo de qualquer linha derivada tem de acender — e o contra-teste é perturbar a **maestria na peça 1** e ver o acerto da invocação andar junto, provando que a checagem não se mede contra a própria constante.
+- **A maestria deste validador contra os 30 níveis da peça 1** *(a `34`, acrescentada na v0.258)*. **A régua é a TABELA da peça 1 §2, e não a frase nem a fórmula** — as quatro faixas têm de cobrir todo nível sem buraco, e o valor que o validador calcula tem de bater com a faixa em cada um dos 29 níveis que ela publica. *O nível 1 não está naquela tabela, e quem o publica é a **peça 18**, na linha nível a nível: é de lá que sai o que vale abaixo da primeira faixa, e não de escolha de quem escreveu o código.* **Ela nasceu porque a fórmula esteve errada da v0.58 à v0.257 e nenhuma das outras trinta e três acusava:** *o validador dividia a partir do nível 1 quando a tabela começa no 2, e isso dava maestria a MAIS nos níveis 9, 17 e 25 — o último de cada faixa.* **O `conferir-dano.py` carregava a mesma cópia, e os dois consertaram juntos.** *O contra-teste é obrigatório e mora dentro da checagem: a fórmula de até a v0.257 tem de discordar da tabela em algum nível, senão a checagem virou trivial.*
+
 - **A fórmula de vida lida da peça 1, nunca de constante.**
 - **A invariante da Q2: nenhuma regra pode dar corpo com barra de vida própria.** A Matilha é um pool; uma Trilha ou aptidão que devolva barras separadas desfaz a conta do limiar `D = h` do §3.2.
 - **A cota por corpo lida da peça 6 §4, nunca de constante** — `1/n` com `n` = corpos no campo, o dono contando como um deles. Perturbar o `5` da peça 6 tem de acender aqui.

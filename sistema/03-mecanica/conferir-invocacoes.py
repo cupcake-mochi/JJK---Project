@@ -262,6 +262,36 @@ MAESTRIA_INI = int(m.group(1)) if m else None
 MAESTRIA_PASSO = {'oito': 8, 'quatro': 4, 'seis': 6}.get(m.group(2)) if m else None
 if MAESTRIA_INI is None:
     erro('SETUP', 'peca 1 SS2: nao achei a regra da maestria')
+
+# A TABELA da peca 1 SS2 e' a dona, e nao a frase. Ela publica as faixas
+# `2-9 10-17 18-25 26-30` com o valor de cada uma, e e' de la que sai o nivel em
+# que a maestria COMECA — o nv2, porque a ficha nasce no nv2. Ate a v0.257 este
+# validador dividia a partir do nv1 (`(nv - 1) // 8`), e isso dava maestria a MAIS
+# nos niveis 9, 17 e 25, que sao os ultimos de cada faixa. O `conferir-dano.py`
+# copiara a mesma formula, e os dois consertam juntos na v0.258.
+MAESTRIA_FAIXAS = []
+_mn = re.search(r'^\| nível \|((?: [\d–\-]+ \|)+)$', P1, re.M)
+_mv = re.search(r'^\| maestria \|((?: \d+ \|)+)$', P1, re.M)
+if not _mn or not _mv:
+    erro('SETUP', 'peca 1 SS2: nao achei as duas linhas da tabela de maestria — ela '
+                  'mudou de forma e o ritmo do dono deixou de ter dono')
+else:
+    _fa = [c.strip() for c in _mn.group(1).strip().strip('|').split('|')]
+    _va = [c.strip() for c in _mv.group(1).strip().strip('|').split('|')]
+    for _f, _v in zip(_fa, _va):
+        _a, _, _b = _f.replace('–', '-').partition('-')
+        MAESTRIA_FAIXAS.append((int(_a), int(_b or _a), int(_v)))
+MAESTRIA_NV1 = MAESTRIA_FAIXAS[0][0] if MAESTRIA_FAIXAS else None
+if MAESTRIA_NV1 is None:
+    erro('SETUP', 'peca 1 SS2: a tabela de maestria saiu vazia')
+
+
+def maestria(nv):
+    """O ritmo do dono. Abaixo da primeira faixa vale o primeiro degrau — e isso
+    NAO e' escolha minha: a peca 18 publica a tabela nivel a nivel e a linha do
+    nivel 1 imprime o mesmo valor que a faixa de baixo da peca 1."""
+    return MAESTRIA_INI + max(0, nv - MAESTRIA_NV1) // MAESTRIA_PASSO
+
 # v0.117: o ataque de conjuracao deixou de ter fixo. Ele e `atributo + maestria`,
 # e o atributo cresce +3 na campanha como qualquer atributo investido — que e
 # exatamente o que a checagem 18 precisa saber para medir o ritmo do dono.
@@ -1851,7 +1881,7 @@ else:
                        + _con * _nvx)
             # a regua E a vida maxima daquele corpo — nao ha conta a fazer.
             _reg_c = _vida_c
-            _mst = MAESTRIA_INI + (_nvx - 1) // MAESTRIA_PASSO
+            _mst = maestria(_nvx)
             _mdef = re.search(r'Defesa\s*=\s*(\d+)\s*\+', P1)
             _bdef = int(_mdef.group(1)) if _mdef else None
             _der = [('vida', _vida_c), ('regua da morte', _reg_c),
@@ -1944,13 +1974,9 @@ else:
 bloco('18. RITMO — nenhuma linha derivada cresce fora do ritmo do dono')
 
 
-def maestria(nv):
-    return MAESTRIA_INI + (nv - 1) // MAESTRIA_PASSO
-
-
 def atributo_investido(nv):
     """peca 2 SS3: comeca em 3 na criacao e vai ate o teto 6, no passo da maestria."""
-    return min(6, 3 + (nv - 1) // MAESTRIA_PASSO)
+    return min(6, 3 + max(0, nv - MAESTRIA_NV1) // MAESTRIA_PASSO)
 
 
 def acerto_dono(nv):
@@ -1972,7 +1998,7 @@ print(f'  {"acerto do dono":<30}{acerto_dono(lo):<8}{acerto_dono(hi):<8}'
 
 def acerto_invocacao(nv, atr_inicial):
     """o atributo DELA sobe no mesmo passo, ate o mesmo teto."""
-    return min(6, atr_inicial + (nv - 1) // MAESTRIA_PASSO) + maestria(nv)
+    return min(6, atr_inicial + max(0, nv - MAESTRIA_NV1) // MAESTRIA_PASSO) + maestria(nv)
 
 
 for atr in (3, 2, 1):
@@ -2333,7 +2359,7 @@ else:
         # checagem 18 ja leu esse numero dos donos. A dela tem de crescer o mesmo.
         _lo, _hi = min(sorted(ORCAMENTO)), max(sorted(ORCAMENTO))
         def _def_inv(nv):
-            atr = min(_teto, 3 + (nv - 1) // MAESTRIA_PASSO)
+            atr = min(_teto, 3 + max(0, nv - MAESTRIA_NV1) // MAESTRIA_PASSO)
             return 10 + atr + atr // 2
         _cresce = _def_inv(_hi) - _def_inv(_lo)
         print(f'  nv{_lo}: {_def_inv(_lo)} · nv{_hi}: {_def_inv(_hi)} · cresce +{_cresce}')
@@ -2345,7 +2371,7 @@ else:
             print(f'  [x] cresce +{_cresce} contra os +{base_cresce} da Defesa do alvo — '
                   'a invocacao nao vira alvo gratis.')
         # CONTRA-TESTE: sem a metade da Essencia ela derivaria, e o quanto e' medido
-        _sem = (10 + min(_teto, 3 + (_hi - 1) // MAESTRIA_PASSO)) - (10 + 3)
+        _sem = (10 + min(_teto, 3 + max(0, _hi - MAESTRIA_NV1) // MAESTRIA_PASSO)) - (10 + 3)
         if _sem >= _cresce:
             erro('DEFESA', 'tirar a metade da Essencia nao muda o passo da Defesa dela — '
                            'entao ela nao esta fazendo trabalho nenhum, e esta checagem '
@@ -2921,6 +2947,71 @@ else:
                         print(f'  [x] a Carranca (nivel {_nvx}, {_ma.group(1)} {_atr}, maestria {_MAE[_nvx]}): '
                               f'CD {_cdx} na ficha, no passo 5, na secao dos efeitos e no teste do capanga.')
 
+
+# --------------------------------------------------------------------------
+bloco('34. RITMO-DO-DONO — a maestria deste validador contra os 30 niveis da peca 1')
+# --------------------------------------------------------------------------
+# Esta checagem existe porque a formula deste arquivo esteve ERRADA da v0.58 ate a
+# v0.257, e nenhuma das 33 checagens acima acusava. Ela dividia a partir do nivel 1
+# (`MAESTRIA_INI + (nv - 1) // MAESTRIA_PASSO`) quando a tabela da peca 1 SS2 comeca
+# no nivel 2, e isso dava maestria a MAIS nos niveis 9, 17 e 25 — o ultimo de cada
+# faixa. O `conferir-dano.py` carregava a mesma copia.
+#
+# A regua e a TABELA e nao a formula (licao no 8: a checagem nao pode se medir
+# contra a propria constante). A formula tem de reproduzir a tabela nos 29 niveis
+# que ela publica, e o nivel 1 — que a peca 1 nao lista — se confere contra a peca
+# 18, que publica a tabela nivel a nivel e e' quem tem o nivel 1.
+if not MAESTRIA_FAIXAS:
+    erro('34', 'a tabela de maestria da peca 1 nao foi lida — sem ela esta checagem '
+               'nao tem regua para aplicar')
+else:
+    _cobre = sorted({n for a, b, _ in MAESTRIA_FAIXAS for n in range(a, b + 1)})
+    _lo, _hi = _cobre[0], _cobre[-1]
+    print(f'  a peca 1 publica {len(MAESTRIA_FAIXAS)} faixas cobrindo os niveis {_lo} a {_hi}: '
+          + ' · '.join(f'{a}-{b}={v}' for a, b, v in MAESTRIA_FAIXAS))
+    if _cobre != list(range(_lo, _hi + 1)):
+        erro('34', f'as faixas da peca 1 deixam buraco entre {_lo} e {_hi} — '
+                   'existe nivel sem maestria declarada')
+    _ruins = []
+    for _nv in range(_lo, _hi + 1):
+        _esp = next(v for a, b, v in MAESTRIA_FAIXAS if a <= _nv <= b)
+        if maestria(_nv) != _esp:
+            _ruins.append((_nv, _esp, maestria(_nv)))
+    if _ruins:
+        erro('34', 'a formula deste validador discorda da tabela da peca 1 em '
+                   f'{len(_ruins)} nivel(is): '
+                   + ', '.join(f'nv{n}: peca={e} formula={g}' for n, e, g in _ruins))
+    else:
+        print(f'  [x] a formula reproduz os {_hi - _lo + 1} niveis da tabela, um a um')
+
+    # o nivel 1 nao esta na tabela da peca 1: quem o publica e a peca 18
+    _p18 = ler(os.path.join(AQUI, '18-progressao.md'))
+    _m18 = re.search(r'^\|\s*\*\*1\*\*\s*\|\s*—\s*\|\s*(\d+)\s*\|', _p18, re.M)
+    if not _m18:
+        erro('34', 'a peca 18 parou de publicar a linha do nivel 1 — ela e a unica '
+                   'fonte do que a maestria vale abaixo da tabela da peca 1')
+    else:
+        _m1 = int(_m18.group(1))
+        if maestria(1) != _m1:
+            erro('34', f'no nivel 1 a peca 18 publica maestria {_m1} e a formula da '
+                       f'{maestria(1)} — abaixo da primeira faixa a formula tem de '
+                       'devolver o primeiro degrau')
+        else:
+            print(f'  [x] no nivel 1, fora da tabela da peca 1, a peca 18 publica '
+                  f'{_m1} e a formula devolve {maestria(1)}')
+
+    # CONTRA-TESTE: a formula velha tem de discordar, senao esta checagem e trivial
+    _velha = lambda nv: MAESTRIA_INI + (nv - 1) // MAESTRIA_PASSO
+    _erra = [nv for nv in range(_lo, _hi + 1)
+             if _velha(nv) != next(v for a, b, v in MAESTRIA_FAIXAS if a <= nv <= b)]
+    if not _erra:
+        erro('34', 'a formula de antes da v0.258 concorda com a tabela em todos os '
+                   'niveis — ou a tabela mudou, ou esta checagem virou trivial e '
+                   'deixou de provar alguma coisa')
+    else:
+        print(f'  [x] contra-teste: a formula de ate a v0.257 erraria em '
+              f'{len(_erra)} nivel(is) — {", ".join("nv" + str(n) for n in _erra)}')
+
 for a in AVISOS:
     print(f'  aviso: {a}')
 if AVISOS:
@@ -2932,6 +3023,6 @@ if ERROS:
     print('=' * 88)
     sys.exit(1)
 print('>>> TUDO OK — o teto somado e a cota saem da peca 6, o orcamento sai dos marcos')
-print('    da peca 2, a amarra sai da peca 3, a vida sai do molde da peca 1, e as 33')
+print('    da peca 2, a amarra sai da peca 3, a vida sai do molde da peca 1, e as 34')
 print('    checagens do SS5 fecham sem nenhum valor escrito dentro deste arquivo.')
 print('=' * 88)

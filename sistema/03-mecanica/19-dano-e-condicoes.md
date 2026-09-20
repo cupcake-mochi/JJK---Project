@@ -148,10 +148,10 @@
 | quando | teto por uso | alcança |
 |---|---|---|
 | `Enxerto` do `Sutura`, no nível 11 | `maestria` = `2` | `Leve` e `Média` |
-| maestria `3`, no nível 17 | `3` | e `Pesada` |
+| maestria `3`, no nível 18 | `3` | e `Pesada` |
 | `Cerzido` do `Sutura`, no nível 27 | `maior Classe` = `7` | tudo, com folga para curar junto |
 
-> **E ela bate, degrau por degrau, com a escada de exaustão da peça 10 §4.** *Aquela tem três degraus numerados, e tirar o terceiro custa `3` de energia — então ela só sai a partir da maestria `3`, que é o nível 17.* **Duas escadas construídas separadas, e as duas caem em `1 · 2 · 3` com a mesma virada no mesmo nível.**
+> **E ela bate, degrau por degrau, com a escada de exaustão da peça 10 §4.** *Aquela tem três degraus numerados, e tirar o terceiro custa `3` de energia — então ela só sai a partir da maestria `3`, que é o nível 18.* **Duas escadas construídas separadas, e as duas caem em `1 · 2 · 3` com a mesma virada no mesmo nível.**
 
 > **O `Enxerto` já cobrava *"`1` PE por nível da condição"* desde a v0.84, e nível nenhum existia.** *A entrega dizia que condição sem nível declarado conta como nível `1`* — então, até esta peça, tirar `Impedido` custava o mesmo que tirar `Surdo`.
 
@@ -406,14 +406,16 @@
 
 > **⚠ O peso dos três grupos é PREVISÃO e não tem dono.** `04-playtest/` está vazia desde a v0.1, e `60/30/10` é palpite calibrado contra o que uma mesa de fantasia costuma jogar em cima do grupo. **É o número que decide quanto vale toda resistência do sistema**, e o primeiro que a mesa vai corrigir.
 >
-> **O que ele já decide hoje:** o `Alicerce` do `Muro` cobra por tipo, e o palpite do Mizuki reproduziu na conta — ele disse *"diria que ocupa 2,0 de fatia se for só contra físicos"*, e os três Físicos dão `60%` do dano recebido, que são `10,17` de dano por rodada, **`2,00` fatias exatas.**
+> **O que ele já decide hoje:** o `Alicerce` do `Muro` cobra por tipo, e o palpite do Mizuki reproduziu na conta — ele disse *"diria que ocupa 2,0 de fatia se for só contra físicos"*, e os três Físicos são `60%` do que você toma — resistir a eles evita a metade disso, que são `10,17` de dano por rodada, **`2,00` fatias exatas.**
 
-| quantos tipos você resiste | bate em | vale |
+| quantos tipos você resiste | do dano que você toma, isso passa por ali | vale |
 |---|---|---|
 | 1 | 20% | 0,67 fatia |
 | **2** | 40% | **1,33** |
 | 3 — os Físicos inteiros | 60% | 2,00 |
 | **4** | 65% | **2,17** |
+
+> **⚠ A coluna do meio é o que PASSA por aquele tipo, e a última já é a METADE dele.** *Resistência corta pela metade — ela não apaga —, então resistir a um tipo, que leva `20%` do que você toma, evita `10%`.* **Quem ler a coluna do meio como "o que você evita" erra por duas vezes**, e é a pergunta que mais cobra neste projeto: *esse número já inclui o que eu estou somando nele?*
 
 **Resistir a quatro tipos fura a cerca da peça 5 §4 ao pé da letra, e está aceito.** Aquela cerca autoriza *"resistência a um tipo"*, no singular, e proíbe *"desconto em tudo"*. **Quatro de catorze não é desconto em tudo** — é o que a cerca existe para barrar, e ela continua barrando. *Decisão do Mizuki, registrada com o motivo.*
 

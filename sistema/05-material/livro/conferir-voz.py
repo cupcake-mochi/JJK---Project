@@ -303,7 +303,10 @@ def marcas_de_pendencia(manual):
     regua = os.path.join(os.path.dirname(manual), "REGRA-DE-VOZ.md")
     if os.path.isfile(regua):
         with open(regua, encoding="utf-8") as fh:
-            m = re.search(r"O livro carrega `(\d+)` marcas de regra que ainda não existe",
+            # v0.258: o numero desceu a `1` pela primeira vez, e a regua escreve
+            # "1 marca" no singular. Ate aqui o regex so aceitava o plural, e um
+            # dono legitimo saia como None — o teto virava "sem teto" em silencio.
+            m = re.search(r"O livro carrega `(\d+)` marcas? de regra que ainda não existe",
                           fh.read())
         if m:
             teto = int(m.group(1))

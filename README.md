@@ -2,7 +2,7 @@
 
 **O sistema se chama `Projeto - M`**, batizado na v0.94 — era a pendência mais velha que existia aqui, aberta na v0.1. Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.257** · manual do Fundamento na **v7.36** · **vinte e seis peças de regra** e **vinte e seis validadores passando** · o Manual da Guilda em **18 capítulos**.
+**Versão v0.258** · manual do Fundamento na **v7.36** · **vinte e seis peças de regra** e **vinte e seis validadores passando** · o Manual da Guilda em **18 capítulos**.
 
 ---
 
@@ -145,7 +145,7 @@ O `conferir-ficha.py` confere **material**: as 23 perícias, os 11 ofícios, os 
 
 O `conferir-legados.py` confere **catálogo**, e entrou na v0.39 junto com a peça 13. A checagem que mais rende é a que recalcula a tabela de totais da peça e falha se o escrito não bater com o contado — as contas do rascunho já tinham envelhecido duas vezes dentro do próprio arquivo antes de ele existir.
 
-O `conferir-invocacoes.py` é o maior deles e faz as quatro coisas de uma vez, porque a peça 15 é máquina de construção: **regra** (o teto somado, o ritmo, os dois gatilhos de morte), **catálogo** (a régua de degrau contra as 19 entradas), **instância** (as montagens publicadas dos shikigami) e **busca exaustiva** (as 5.429 montagens que gastam o orçamento cheio no nível 30). Ele entrou na v0.58 com as checagens que o §5 daquela peça vinha listando desde a v0.51, e hoje faz trinta e três.
+O `conferir-invocacoes.py` é o maior deles e faz as quatro coisas de uma vez, porque a peça 15 é máquina de construção: **regra** (o teto somado, o ritmo, os dois gatilhos de morte), **catálogo** (a régua de degrau contra as 19 entradas), **instância** (as montagens publicadas dos shikigami) e **busca exaustiva** (as 5.429 montagens que gastam o orçamento cheio no nível 30). Ele entrou na v0.58 com as checagens que o §5 daquela peça vinha listando desde a v0.51, e hoje faz trinta e quatro.
 
 O `conferir-catalogo.py` entrou na v0.85 e é o primeiro que **sai da pasta**: ele lê os três `DESENHO-*.md` da raiz, que até ali nenhum validador alcançava. A peça 17 é um índice das 102 entradas — 68 entregas de Trilha, 20 degraus de Caminho e as 14 Manhas — e ela não guarda preço nem texto de mesa, só nome e ponteiro. **A checagem que ela existe para ter é a sexta:** um bloco de regra não pode prometer permanência onde a linha de preço cobrou condição. *Foi essa contradição que deixou o nível 27 da `Estocada` valendo `5,31` fatias com preço de `1,33`, por três versões.*
 
