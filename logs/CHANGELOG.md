@@ -8,6 +8,60 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.259] — 20/09/2026
+
+**A varredura dos registrados, a pedido do Mizuki.** *Três itens de design abertos foram fechados sem escrever regra nova: dois por decisão dele, e um por medida.* **Nenhum número do sistema se moveu, e o livro não mudou** — *o que mudou foi o motivo de um número que já existia.*
+
+### 1 · O item 6 ganhou conta, e a aposta da v0.26 se sustenta melhor do que ela dizia
+
+**"O mestre declara o que foi uma luta" é a única coisa da peça 10 sem lista fechada por baixo**, *e o item pedia, desde a v0.26, que o playtest dissesse se dois mestres divergem.* ***Pedido dele em 20/09/2026: "o item 6 pode dar uma olhada mais a fundo".***
+
+***A pergunta estava mal feita, e é por isso que ela nunca teve número.*** *"Dois mestres contam igual?" não tem resposta — julgamento não se mede.* **A pergunta que tem número é outra:** *duas fichas idênticas que jogaram a **mesma sessão** com mestres diferentes terminam o dia em estados diferentes?*
+
+**A divergência vive numa janela de três degraus, e ela é fechada dos dois lados.** *Abaixo de `4` lutas contadas ninguém pega degrau, então discordar ali não separa nada; a partir de `6` o teto satura — quem conta `6`, `8`, `11` ou `18` fica no degrau `3` igual.* **Só entre `4` e `6` a contagem move a ficha.**
+
+**Numa discordância realista a separação é de `1` a `2` degraus.** *Numa sessão de `5` cenas de combate, um mestre contando `4` e outro `5` separam `1` degrau e nenhum ponto percentual de PE; contando `3` e `5`, separam `2` degraus e `10` pontos percentuais.* **A separação máxima de `3` exige um mestre não chamar nenhuma cena de luta enquanto o outro chama todas** — *isso não é divergência de julgamento, é de regra não lida.*
+
+***E o achado é sobre o teto, não sobre a discordância: quem faz o filtro multi-mestre passar é o TETO DE TRÊS.*** *A peça declarava um motivo para ele — transformar a espiral em decisão — e ele tem um segundo, que ninguém tinha escrito.* **Sem teto, dois mestres que contassem `5` e `12` separariam sete degraus; com ele, separam zero.** *O §4 da peça 10 passou a escrever as duas metades.*
+
+**A divergência também não atravessa a mesa no caso normal:** *a exaustão **zera** no descanso longo em ambiente propício, e o §7 da peça fecha a missão na escola.* **Ela só persiste em missão de campo que vira a noite fora** — *e ali ela é a espiral que o teto já segura.*
+
+### 2 · O item 14 fechou por leitura de mesa, e não por conta
+
+***Decisão do Mizuki:*** **"o acúmulo n é um problema d verdade né, 4 rodadas é fim de combate".** *O `Acúmulo` com o `Remate` e duas Restrições `Média` passa do dano da `Liberação Máxima` nas Classes `3` e `4`, mas só na **quarta** rodada seguida contra o mesmo alvo — e a luta média é de `3,7`.* **A conta fica como registro; o que ela media era um número que a mesa não alcança.**
+
+### 3 · O item 15 saiu da lista
+
+***Decisão dele:*** *"o item 15 pode apagar da lista".* **A Melhoria de resistência a tipo deixa de ser pendência porque não é trabalho parado esperando alguém** — *é assunto de playtest, e o gatilho é o peso dos três grupos deixar de ser previsão.* *A conta inteira, que é grande, continua na entrada da v0.258 deste arquivo, e o item aponta para lá em vez de repeti-la.*
+
+### 4 · A fila ganhou um item que ela não tinha
+
+**As duas fichas novas, levantadas por ele na mesma varredura:** *a `ficha pessoal` (itens, bio, anotações, foto, XP) e a `ficha maldita` (técnicas, aptidões, "uma representação maior da `8` que tem na ficha principal").* **É trabalho do repositório da ficha e não deste**, *e é ela que destrava o `Volume` da v0.256 e da v0.257 — que hoje não tem onde entrar: a palavra não aparece uma vez no `Ficha.gs` nem no catálogo.*
+
+***E a dívida da ficha é menor do que eu tinha dito.*** *Eu falei "cinco versões atrás" como se fosse tudo aplicável, e o Mizuki perguntou o óbvio: "meio q n temos nenhum espaço para feitiços ainda, temos?".* **Não tem mesmo, e foi decisão dele — o bloco de montagem foi tirado da ficha.** *Medido: o `Carregar` é o único ERRADO hoje (com a CD de antes da v0.253); a `Concentrada`, a `Duradoura` e o `Alvo de Caça` estão só **ausentes** do catálogo de consulta, e ausência de entrada num catálogo não quebra ficha de ninguém.*
+
+### 5 · O defeito que o arnês achou na checagem nova
+
+**A primeira versão da checagem `10` cobrava que a largura da janela fosse igual ao teto — e isso é verdadeiro por construção.** *Ela saía verde com qualquer teto, e o arnês pegou: subir o teto de `3` para `5` não acendia nada.* **Lição nº 8 pela porta mais velha, dentro de uma checagem escrita para medir outra coisa.** *A sub-checagem saiu, e o que ficou prova a ESTRUTURA e nunca o VALOR: que existe saturação e que ela vem do teto.* **Mexer no teto continua não acendendo, e agora isso está escrito no código como decisão** — *o teto é escolha de design com dono, e a checagem leria o número novo do mesmo lugar.*
+
+### Alterado
+
+- **A peça 10 §4:** *o teto de três ganhou a segunda metade do motivo.* **Regra nenhuma se moveu.**
+- **`conferir-descanso.py`:** *a checagem `10`, que deriva a janela do teto e das lutas de graça, prova que ela fecha dos dois lados, e traz o contra-teste dentro dela — sem o teto a separação máxima iria de `3` para `16`.*
+- **O ESTADO-ATUAL:** *o item `6` com a medida, o `14` e o `15` fechados, e o item `9` novo na fila.*
+
+### Decidido
+
+- **O teto de exaustão tem dois motivos, e o segundo é o filtro multi-mestre.**
+- **O `Acúmulo` não é problema: quatro rodadas no mesmo alvo é fim de combate.**
+- **A resistência a tipo sai da lista de pendências e vira assunto de playtest.**
+
+*Arnês numa cópia isolada, com a base verde: **5 perturbações acendem a etiqueta certa e 5 contra-testes ficam verdes**. Duas das perturbações viraram contra-teste no meio do caminho, quando o arnês mostrou que a expectativa é que estava errada — mexer no teto é decisão de design e não pode acender validador.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, seção *"Problemas de design abertos"*: **o item `11`, Ritual, é o único sem dono agora.**
+
+---
+
 ## [0.258] — 20/09/2026
 
 **Um erro de um nível na maestria, que vivia em dois validadores desde a v0.58, e as três marcas de regra que não existe do capítulo de Invocações.** *Nenhuma regra nova foi escrita nesta versão. Ela consertou o que já havia, e duas das três marcas estavam **erradas** em vez de em aberto.*

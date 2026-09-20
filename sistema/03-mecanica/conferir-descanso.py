@@ -471,6 +471,83 @@ else:
                 print('  [x] a base da tabela de leituras sai do dono, e as outras duas')
                 print('      linhas dela sao 2x e 3x essa base.')
 
+
+# --------------------------------------------------------------------------
+bloco('10. O TETO SATURA A DISCORDANCIA — o filtro multi-mestre da peca 10 SS4')
+# --------------------------------------------------------------------------
+# "Foi uma luta?" e a unica pergunta desta peca sem lista fechada por baixo, e o
+# item 6 dos problemas abertos e sobre ela. A v0.259 mediu: a pergunta certa nao
+# e "dois mestres contam igual?", e sim se duas fichas iguais que jogaram a MESMA
+# sessao terminam o dia em estados diferentes.
+#
+# A resposta e o TETO. Ele fecha a janela dos dois lados: abaixo da primeira luta
+# que cobra, discordar nao separa nada; a partir de GRATIS + TETO, os dois caem no
+# mesmo degrau por mais que discordem. Esta checagem prova isso DERIVANDO a janela
+# do teto e das lutas de graca — sem numero escrito aqui —, e falha se alguem
+# mexer num dos dois de um jeito que reabra a janela.
+_mg = re.search(r'As (\w+) primeiras lutas do dia são de graça', _txt10)
+_mt = re.search(r'\*\*Máximo de (\w+)\.\*\*', _txt10)
+_PAL = {'uma': 1, 'duas': 2, 'três': 3, 'quatro': 4, 'cinco': 5}
+if not _mg or not _mt:
+    erro('10: nao achei as lutas de graca ou o teto de exaustao no SS4 — os dois sao '
+         'a regua desta checagem e sem eles ela nao confere nada')
+else:
+    _GRATIS = _PAL.get(_mg.group(1))
+    _TETO = _PAL.get(_mt.group(1))
+    if _GRATIS is None or _TETO is None:
+        erro(f'10: nao soube ler "{_mg.group(1)}" ou "{_mt.group(1)}" como numero')
+    else:
+        _deg = lambda n: max(0, min(_TETO, n - _GRATIS))
+        _satura = _GRATIS + _TETO
+        print(f'  {_GRATIS} lutas de graca, teto {_TETO} -> a contagem so move a ficha '
+              f'entre {_GRATIS + 1} e {_satura} lutas')
+        # 1. abaixo do gratis, discordar nao separa nada
+        if _deg(0) != _deg(_GRATIS):
+            erro(f'10: contar 0 luta da degrau {_deg(0)} e contar {_GRATIS} da '
+                 f'{_deg(_GRATIS)} — as lutas "de graca" deixaram de ser de graca')
+        else:
+            print(f'  [x] abaixo de {_GRATIS + 1} lutas discordar nao separa as fichas')
+        # 2. acima da saturacao, discordar tambem nao separa
+        _alto = [_deg(n) for n in range(_satura, _satura + 15)]
+        if len(set(_alto)) != 1:
+            erro(f'10: de {_satura} lutas em diante os degraus ainda variam ({sorted(set(_alto))}) '
+                 f'— o teto parou de saturar a discordancia, e duas fichas iguais na mesma '
+                 f'sessao passam a terminar o dia diferentes por julgamento do mestre')
+        else:
+            print(f'  [x] de {_satura} lutas em diante o teto empata os dois mestres '
+                  f'no degrau {_alto[0]}')
+        # 3. CONTRA-TESTE: sem teto, a discordancia cresceria sem parar.
+        #
+        # ⚠ Esta checagem prova a ESTRUTURA e nunca o VALOR do teto, e isso e
+        # decisao. A primeira versao dela, na v0.259, cobrava que a largura da
+        # janela fosse igual ao teto — e isso e' verdadeiro por construcao, entao
+        # ela saia verde com qualquer teto. Licao no 8 pela porta mais velha: uma
+        # checagem que se mede contra a propria constante.
+        #
+        # Subir o teto de 3 para 5 NAO acende aqui, e nao deve: o teto e escolha
+        # de design com dono declarado (o §4 desta peca), e a checagem leria o
+        # numero novo do mesmo lugar. O que ela garante e que EXISTE saturacao e
+        # que ela vem do teto — se alguem tirar o teto, ou puser um que nao
+        # satura, a separacao entre dois mestres volta a crescer sem parar e a
+        # linha abaixo acende.
+        _sem = lambda n: max(0, n - _GRATIS)
+        _pior_com = max(_deg(b) - _deg(a) for a in range(20) for b in range(a, 20))
+        _pior_sem = max(_sem(b) - _sem(a) for a in range(20) for b in range(a, 20))
+        if _pior_sem <= _pior_com:
+            erro('10: tirar o teto nao piora a separacao entre dois mestres — ou o teto '
+                 'deixou de ser quem segura o filtro, ou esta checagem virou trivial')
+        else:
+            print(f'  [x] contra-teste: com o teto a separacao maxima e {_pior_com} degrau(s); '
+                  f'sem ele seria {_pior_sem}')
+        # 5. e a peca tem de continuar dizendo que isso e um motivo do teto
+        _s4 = _txt10.split('### O teto de três')[1].split('## 5.')[0] if '### O teto de três' in _txt10 else ''
+        if 'multi-mestre' not in _s4:
+            erro('10: o SS4 parou de escrever que o teto e quem faz o filtro multi-mestre '
+                 'passar — esse motivo foi medido na v0.259 e ele nao se reconstroi sozinho')
+        else:
+            print('  [x] a peca escreve as DUAS metades do motivo do teto')
+
+
 # --------------------------------------------------------------------------
 print()
 print('=' * 88)

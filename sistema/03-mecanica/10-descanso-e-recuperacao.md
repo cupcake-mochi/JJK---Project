@@ -157,6 +157,14 @@ E os **6 m contra a metade** ficam como estão, diferentes de propósito. A Inte
 
 O teto de três é o que transforma a espiral em decisão. Uma missão de campo de três dias com quatro lutas por dia acumula três degraus e para ali. O grupo fica pior, sabe **quanto** pior, e escolhe se continua.
 
+**E o teto tem um segundo motivo, escrito na v0.259: ele é quem faz o filtro multi-mestre passar.** *"Foi uma luta?" é a única pergunta desta peça sem lista fechada por baixo, e a pergunta que ela levanta não é "dois mestres contam igual?" — é se duas fichas iguais, que jogaram a mesma sessão com mestres diferentes, terminam o dia em estados diferentes.*
+
+> **A discordância só move a ficha numa janela de três degraus de largura, e ela é fechada dos dois lados.** *Abaixo da quarta luta ninguém pega degrau, então discordar ali não separa nada. E a partir da sexta o teto satura: quem conta seis, oito ou dezoito fica no mesmo degrau `3`.*
+>
+> **Sem o teto, dois mestres que contassem cinco e doze separariam sete degraus. Com ele, separam zero.** *Numa discordância realista — uma ou duas cenas — a separação é de um a dois degraus, e a de três exige um mestre não chamar nenhuma cena de luta enquanto o outro chama todas.*
+>
+> *E ela não atravessa a mesa no caso normal: a exaustão zera no descanso longo em ambiente propício, e o §7 fecha a missão na escola.*
+
 **E o mestre pode tirar um degrau quando achar que a ficção pede.** Uma noite de sono de verdade, um chá que alguém sabia fazer, um dia parado. É a válvula, e ela só anda para o lado do jogador — o mestre nunca *adiciona* degrau fora da regra.
 
 ## 5. Os quatro relógios
