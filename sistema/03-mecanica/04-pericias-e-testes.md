@@ -33,27 +33,68 @@ Uma frase, sem exceção. Maestria é o que marca o treino — é o número que 
 
 **A regra por trás continua sendo a mesma da peça 1: os dois lados de uma rolagem disputada precisam crescer no mesmo ritmo.** *Na perícia, um lado não cresce — então o outro pode crescer sozinho.* **No Teste de Resistência os dois crescem `+6`, e quem não paga o treino sai da igualdade de propósito.**
 
-## 2. A escada de dificuldade
+## 2. As duas escadas de dificuldade
 
-Cinco degraus, e cada um tem nome para o mestre não precisar inventar número no meio da mesa.
+**São duas, e a diferença entre elas é uma só: a coisa tem nível próprio ou não tem?**
 
-| CD | dificuldade | nível 2 | nível 18 | nível 30 |
-|---|---|---|---|---|
-| 10 | rotina | 75% | 95% | 100% |
-| 12 | fácil | 65% | 85% | 95% |
-| 16 | média | 45% | 65% | 75% |
-| 20 | difícil | 25% | 45% | 55% |
-| 26 | quase impossível | 0% | 15% | 25% |
+*Escrita na v0.261, depois de o Mizuki apontar que o `fácil` da escada antiga não era fácil:* **"um cara com atributo bom, treinado, passa com seus 50% no começo do jogo. Isso n é facil".** *A medida deu razão a ele — o `fácil` dava `65%` e o `média` dava `45%` para o melhor personagem comum do nível 2.*
 
-Percentuais de um personagem **treinado** que investiu no atributo. Sem treino, tire de 1 a 4 pontos do bônus.
+### 2.1 A escada fixa — para o que não tem nível
 
-**O espaçamento não é regular, e é a escada obedecendo às duas pontas.** *Ela era `10-14-18-22-26`, de quatro em quatro, até aqui.* O problema estava no nome: **"fácil" com 55% no nível 2 é cara ou coroa**, e a palavra promete outra coisa. As pontas não podiam andar — as duas leituras abaixo dizem por quê —, então quem andou foi o meio. Fácil subiu para `12` e virou fácil de verdade; média caiu para `16` e passou a ser o que média sempre devia ter sido, meio a meio no começo da campanha.
+**Seis degraus, de quatro em quatro.** *A fechadura não fica mais difícil porque você ficou bom: é você que passa a abrir mais.*
 
-Duas leituras que importam para o mestre:
+| CD | dificuldade | um personagem bom e treinado, no nível 2 | no nível 30 |
+|---|---|---|---|
+| **6** | fácil | 95% | 100% |
+| **10** | média | 75% | 100% |
+| **14** | difícil | 55% | 85% |
+| **18** | muito difícil | 35% | 65% |
+| **22** | extrema | 15% | 45% |
+| **26** | quase impossível | 0% | 25% |
 
-**CD 10 vira automático no fim da campanha.** É de propósito. Um feiticeiro experiente não rola para arrombar uma porta comum — ele arromba. Quando a CD 10 chega a 100%, o mestre para de pedir o teste, e isso é o sistema funcionando, não quebrando.
+**Esta é a escada que o mestre usa na maior parte das vezes**, *e é por isso que ela vem primeiro.*
 
-**CD 26 nunca vira confortável.** No nível 30 ainda é um quarto de chance. É o degrau reservado para o que deveria ser impossível e o jogador quer tentar mesmo assim.
+> **O salto é de `4` e ele não varia.** *A escada antiga ia `10 · 12 · 16 · 20 · 26`, com pulos de `2`, `4`, `4` e `6` — irregular sem motivo.* **O D&D é a referência e ele usa salto constante de `5`;** *aqui o salto é `4` porque o nosso bônus é menor que o de lá, e a escada tem de caber numa banda mais estreita.*
+
+> **O `quase impossível` continua em `26`, e o motivo é o mesmo de sempre:** *no nível 30 ele ainda é um quarto de chance.* **É o degrau reservado para o que deveria ser impossível e o jogador quer tentar mesmo assim.**
+
+> **O `fácil` em `6` é quase automático, e isso é escolha.** *Um personagem competente raramente falha no que é fácil — era exatamente a queixa que abriu esta revisão.* **Quem não investiu no atributo nem treinou ainda falha `20%` das vezes ali**, *que é o que separa "quase automático" de "automático".*
+
+### 2.2 A escada que acompanha — para o que tem nível
+
+**Quando a coisa tem nível próprio, a CD sai da ficha de quem a fez.**
+
+> **CD = `8` + o atributo dela + a maestria dela + o degrau.**
+
+*É o mesmo molde da CD de feitiço da peça 1 §5 e da CD do inimigo da peça 26 §3.1 — o sistema já usa `8 + atributo + maestria` dos dois lados de toda rolagem disputada.*
+
+| degrau | dificuldade | quem está no nível da coisa passa |
+|---|---|---|
+| **−4** | fácil | 85% |
+| **−2** | média | 75% |
+| **0** | difícil | 65% |
+| **+2** | muito difícil | 55% |
+| **+6** | quase impossível | 35% |
+
+**Aqui a porcentagem não muda com o nível**, *porque o atributo e a maestria aparecem nos dois lados e se cancelam.* **Quem cresce não fica melhor nisso — ele passa a enfrentar coisa maior**, e é isso que a escada mede.
+
+### 2.3 A fronteira, e ela é escrita para não virar discussão
+
+**Tem nível próprio, e vai para a escada que acompanha:**
+
+- **o que um feiticeiro fez** — uma barreira, um selo, um ritual, um objeto preparado
+- **o que uma maldição é** — resistir ao que ela faz, entender o que ela é
+- **o que a sua própria técnica exige de você** — o ritual da peça de Ritual é o exemplo
+
+**Não tem nível, e vai para a escada fixa:**
+
+- **o mundo** — uma porta, um muro, um rio, uma queda
+- **o que se sabe** — de que família é aquele brasão, o que aquele símbolo quer dizer
+- **gente comum** — convencer, enganar, intimidar quem não é feiticeiro
+
+> **O teste é uma pergunta só: se um feiticeiro mais forte tivesse feito isso, estaria mais difícil?** *Se sim, tem nível. Se a coisa é a mesma não importa quem a fez, é fixa.*
+
+> **⚠ E o custo disto está declarado:** *o mestre passa a escolher a tabela antes de escolher o degrau.* **O Pathfinder 2e paga o mesmo preço e pela mesma razão** — *ele tem a CD por nível e as `Simple DCs` lado a lado, porque usar só a que acompanha produz a esteira que a comunidade dele critica: arrombar a mesma fechadura continua precisando do mesmo número no nível 30.*
 
 ## 3. O quadro de perícias mora na peça 7
 

@@ -8,6 +8,61 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.261] — 20/09/2026
+
+**A escada de dificuldade vira duas, e a de hoje tinha um nome que mentia.** *Levantado pelo Mizuki enquanto mediamos a CD do Ritual:* **"os degraus de dificultade do sistema são meio ruinzinhos… o primeiro degrau que seria um `fácil` é bem diferente do `fácil` de dnd, que um cara com atributo bom, treinado, passa com seus 50% no começo do jogo. Isso n é facil".**
+
+### 1 · A medida deu razão a ele, e achou um segundo defeito
+
+**No nível 2, um personagem com o atributo principal e treinado — o melhor caso comum — tem `+4`.** *Contra a escada antiga isso era `65%` no `fácil` e `45%` no `média`.* **Um teste chamado de média que o melhor personagem da mesa falha mais da metade das vezes não é média.**
+
+***E a métrica achou o defeito por baixo:*** *a escada era fixa e o bônus cresce `+6` na campanha.* **No nível 30 o `rotina` dava `100%` e o `fácil` `95%`.** *É a lição nº 1 do projeto — os dois lados crescem no mesmo ritmo — aplicada a uma rolagem que **não** é disputada, e por isso ninguém tinha olhado.*
+
+### 2 · A saída veio do Pathfinder 2e, e ela é ter DUAS escadas
+
+***Pedido dele:*** *"Vamos com a ideia de Path, mas pesquise e valide a opnião do publico sobre antes".* **A pesquisa achou a crítica da comunidade, e ela é exatamente a que eu tinha levantado:** *jogadores presos numa esteira de sempre precisar de `12` para arrombar uma fechadura, porque as fechaduras ficam mais complicadas conforme eles sobem.*
+
+**Mas o PF2e não usa uma escada só — ele usa duas.** *A `DC por nível` para o que tem nível natural, e as `Simple DCs` para o que não tem: ler uma língua comum, escalar um muro de jardim, lembrar o que qualquer estudioso sabe.* ***A esteira acontece quando a primeira é usada para tudo.***
+
+### 3 · As duas escadas, e a fronteira
+
+**A FIXA — `6 · 10 · 14 · 18 · 22 · 26`**, *seis degraus, salto `4` constante, todos pares.* **Forma escolhida por ele:** *"CD fácil começando com 6 e vamos até um valor que mantenha um número bom com 6 degraus".* *Ela dá `95%` · `75%` · `55%` · `35%` · `15%` · `0%` no nível 2 — o `fácil` sai de `65%` para `95%` e o `média` de `45%` para `75%`.*
+
+**A QUE ACOMPANHA — `8 + o atributo dela + a maestria dela + o degrau`.** *É o molde que o sistema já usa dos dois lados de toda rolagem disputada (peça 1 §5 e peça 26 §3.1).* **O atributo e a maestria aparecem nos dois lados e se cancelam, então a porcentagem fica constante em toda a campanha:** *`85%` · `75%` · `65%` · `55%` · `35%`.*
+
+**A fronteira é escrita, não julgada:** *tem nível o que um feiticeiro fez, o que uma maldição é, e o que a sua própria técnica exige de você; não tem o mundo, o que se sabe, e gente comum.* ***O teste é uma pergunta só: se um feiticeiro mais forte tivesse feito isso, estaria mais difícil?***
+
+### 4 · As pontas ficaram, e os motivos delas eram bons
+
+***Eu ia quebrar as duas e a peça me parou.*** *Ela escreve que o `CD 10` virar automático é de propósito — "um feiticeiro experiente não rola para arrombar uma porta comum, ele arromba" — e que o `26` nunca vira confortável.* **O `26` ficou onde estava.** *A ponta de baixo desceu para `6` por decisão dele, e com isso **a promessa mudou**: ela virava automática "no fim da campanha" e agora vira no nível `10`.*
+
+**A checagem foi reescrita para conferir a promessa NOVA:** *o degrau mais baixo não pode ser automático já no nível `2` — um degrau que nunca falha não precisa de rolagem —, e quem não treinou ainda tem de falhar ali às vezes (`20%`).*
+
+### 5 · Dois números meus estavam errados, e o segundo mudava a conclusão
+
+**Eu disse que a separação entre quem investe e quem não investe era de `4` pontos, contra `6` a `11` do D&D.** *Estava errado: eu somava o ponto **passivo** do marco em **todos** os atributos, e ele vai para **um**, escolhido.* **A tabela da peça 2 prova — `meio a meio` no nível 30 é `6·6·6·1·1`.** *A separação real é de **`9` pontos**, e de `10` se o jogador zerar um atributo na criação: dentro da banda do D&D, não abaixo dela.*
+
+***E isso derrubou a premissa de uma ideia dele.*** *Ele levantou que "o teto é alcançado por darmos de graça, oq tira o incentivo em parte de pegar rota de corpo".* **Só o atributo PRINCIPAL chega ao teto de graça** — *os outros quatro só sobem se o jogador gastar a escolha, e é exatamente isso que a rota `Corpo` compra: `6·6·6·4·1` contra `6·6·2·1·1`, dois atributos inteiros.* **A ideia ficou registrada na fila, sem medida, com o aviso de que ela mexe no teto de Defesa `20`.**
+
+### Alterado
+
+- **A peça 4 §2:** *reescrita inteira — as duas escadas e a fronteira, no lugar da escada única.*
+- **As três cópias que o validador achou:** *a peça 1, a tabela da `Esteio` na peça 11, e o capítulo 10 do livro.*
+- **`conferir-pericias.py`, checagem `8`:** *o parser lê a seção e o formato novos, e a promessa da ponta de baixo foi reescrita.*
+- **O livro:** *o capítulo `Como jogar`, com os quatro artefatos refeitos.*
+
+### Decidido
+
+- **Duas escadas, e a fronteira é o nível próprio da coisa.**
+- **A fixa é `6 · 10 · 14 · 18 · 22 · 26`, salto `4`, todos pares.**
+- **O `fácil` ser quase automático é escolha**, *e o degrau de cara ou coroa passa a ser o `difícil`.*
+
+*Arnês numa cópia isolada, com a base verde: **7 perturbações acendem a etiqueta certa e 3 contra-testes ficam verdes**. Entre as que acendem estão as duas cópias — a da peça 1 e a do livro —, que é o que a lição nº 9 pede.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, item `11`: **o Ritual**, *decidido na v0.259 e agora com a régua de CD que ele precisava.*
+
+---
+
 ## [0.260] — 20/09/2026
 
 **Os gates de nível das aptidões sobem para os marcos, e a herança que a peça 16 dizia ter morreu — ela nunca tinha funcionado.** *Pedido do Mizuki na varredura da v0.259: "tem algumas que tem niveis que não se recebe aptidão e isso n faz sentido".* **Ele estava certo, e a conta achou mais do que ele apontou.**

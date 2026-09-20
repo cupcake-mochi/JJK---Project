@@ -491,12 +491,13 @@ _P4 = open(os.path.join(_AQUI, '04-pericias-e-testes.md'), encoding='utf-8').rea
 
 # A escada sai da dona. O cabecalho dela diz QUAIS niveis ela publica, entao
 # uma coluna nova na peca entra aqui sozinha.
-_linhas = _tabela(_P4, '## 2. A escada de dificuldade')
+_linhas = _tabela(_P4, '### 2.1 A escada fixa')
 _cab = _linhas[0] if _linhas else []
 NIVEIS = [int(m.group(1)) for c in _cab
           for m in [re.search(r'n[ií]vel\s+(\d+)', c)] if m]
-ESCADA = [(int(cs[0]), cs[1], [c.rstrip('%').strip() for c in cs[2:]])
-          for cs in _linhas[1:] if cs and cs[0].isdigit()]
+_lim = lambda c: c.strip().strip('*').strip()
+ESCADA = [(int(_lim(cs[0])), _lim(cs[1]), [_lim(c).rstrip('%').strip() for c in cs[2:]])
+          for cs in _linhas[1:] if cs and _lim(cs[0]).isdigit()]
 
 if not ESCADA or not NIVEIS:
     erro('nao consegui ler a escada da peca 4 §2 — o formato da tabela mudou, e '
@@ -526,15 +527,26 @@ else:
     # escritas como numero aqui: saem da escada lida, e o que se confere e que
     # a prosa que as justifica continua na peca.
     _baixa, _alta = ESCADA[0][0], ESCADA[-1][0]
-    _cedo = [nv for nv in NIVEIS[:-1] if chance(_baixa, nv) == 100]
-    if chance(_baixa, NIVEIS[-1]) != 100:
+    # v0.261: a promessa da ponta de baixo MUDOU. A escada antiga prometia que o
+    # degrau mais baixo so virava automatico no FIM; a nova ancora o `fácil` em
+    # CD 6 de proposito, e ele vira automatico cedo. Decisao do Mizuki: "um cara
+    # com atributo bom, treinado, passa com seus 50% no começo do jogo. Isso n
+    # e facil". O que a peca promete agora e' outra coisa, e e' isso que se
+    # confere: ele NAO pode ser automatico ja no primeiro nivel, senao nao havia
+    # por que rolar; e quem nao investiu nem treinou tem de falhar ali as vezes.
+    if chance(_baixa, NIVEIS[0]) == 100:
+        erro(f'o degrau mais baixo (CD {_baixa}) ja e 100% no nv{NIVEIS[0]} para quem '
+             f'investiu e treinou — um degrau que nunca falha nao precisa de rolagem')
+    elif chance(_baixa, NIVEIS[-1]) != 100:
         erro(f'o degrau mais baixo (CD {_baixa}) nao chega a 100% no nv{NIVEIS[-1]}, '
-             f'e a peca promete que ele vira automatico no fim da campanha')
-    elif _cedo:
-        erro(f'o degrau mais baixo (CD {_baixa}) ja e 100% no nv{_cedo[0]}: a peca '
-             f'diz que isso e para acontecer no FIM da campanha, nao antes')
+             f'e a peca promete que ele vira automatico ao longo da campanha')
+    elif chance(_baixa, NIVEIS[0], treinado=False) == 100:
+        erro(f'o degrau mais baixo (CD {_baixa}) ja e automatico no nv{NIVEIS[0]} para '
+             f'quem NAO treinou — a peca diz que ele ainda falha ali')
     else:
-        print(f'  [x] CD {_baixa} vira automatica so no nv{NIVEIS[-1]}, como a peca promete')
+        print(f'  [x] CD {_baixa} e {chance(_baixa, NIVEIS[0])}% no nv{NIVEIS[0]} e automatica '
+              f'no nv{NIVEIS[-1]}; sem treino ainda falha '
+              f'{100-chance(_baixa, NIVEIS[0], treinado=False)}% no comeco')
 
     if chance(_alta, NIVEIS[0]) != 0:
         erro(f'o degrau mais alto (CD {_alta}) da {chance(_alta, NIVEIS[0])}% no '
@@ -546,7 +558,7 @@ else:
         print(f'  [x] CD {_alta} e impossivel no nv{NIVEIS[0]} e ainda incomoda no '
               f'nv{NIVEIS[-1]} ({chance(_alta, NIVEIS[-1])}%)')
 
-    for _frase in ('vira automático no fim da campanha', 'nunca vira confortável'):
+    for _frase in ('é quase automático, e isso é escolha', 'ainda é um quarto de chance'):
         if _frase not in _P4:
             erro(f'a peca 4 perdeu a frase que justifica a ponta: "{_frase}"')
 

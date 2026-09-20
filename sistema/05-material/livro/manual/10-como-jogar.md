@@ -13,10 +13,11 @@ A **CD** é o número que a tarefa pede. Quem diz qual é o mestre, e ele tira d
 
 | CD | dificuldade | como isso aparece na cena |
 |---|---|---|
-| 10 | rotina | pular o muro do colégio, lembrar de que família é aquele brasão |
-| 12 | fácil | passar por dois vigias distraídos, convencer um funcionário cansado |
-| 16 | média | escalar a fachada de um prédio na chuva, mentir para quem já desconfia |
-| 20 | difícil | reconhecer uma técnica que só aparece em três registros |
+| 6 | fácil | pular o muro do colégio, lembrar de que família é aquele brasão |
+| 10 | média | passar por dois vigias distraídos, convencer um funcionário cansado |
+| 14 | difícil | escalar a fachada de um prédio na chuva, mentir para quem já desconfia |
+| 18 | muito difícil | reconhecer uma técnica que só aparece em três registros |
+| 22 | extrema | acompanhar alguém que não quer ser seguido, por uma cidade inteira |
 | 26 | quase impossível | sair inteiro de uma coisa que não devia deixar ninguém sair |
 
 Por exemplo, numa CD 12 você precisa tirar 12 ou mais no d20 depois de somar o bônus: com bônus 3, um 9 no dado já basta.
