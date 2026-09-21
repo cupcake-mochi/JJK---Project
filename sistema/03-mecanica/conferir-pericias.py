@@ -18,6 +18,7 @@ Roda sem argumento. Sai com codigo 1 se algo quebrar.
 """
 
 import os
+import glob
 import re
 import sys
 import unicodedata
@@ -83,35 +84,38 @@ CAMINHOS = {
 # e fixa-la em um Caminho daria a ele uma escolha livre a mais na pratica. Livre
 # para todos, ela vira decisao — e o feiticeiro ruim de sentir energia passa a caber.
 
-# v0.211: as livres do Caminho passaram de 4 para 5 e a Origem parou de dar
-# oficio. As duas contagens sao LIDAS do §6 da peca 7, que e a dona.
+# v0.212: as livres do Caminho passaram de 4 para 5 e o extra da Origem acabou;
+# v0.216: os dois oficios foram do Caminho para a Origem. As contagens sao LIDAS
+# do §6 da peca 7, que e a dona. (Este comentario dizia "v0.211" e "a Origem
+# parou de dar oficio" ate a v0.263.)
 _mF = re.search(r'duas perícias fixas e mais (\w+) à sua escolha', _P7)
 CAM_FIXAS = 2
 CAM_LIVRES = {'quatro': 4, 'cinco': 5, 'seis': 6}.get(_mF.group(1).lower()) if _mF else None
 ORI_PERICIAS = 2                   # uma da lista da Origem + uma livre
 
-# Quantos oficios cada fonte entrega vem LIDO do §6 da peca 7, e nao escrito
-# aqui. Ate a v0.171 estes dois eram literais — a quarta copia do numero, sem
-# ninguem comparando —, e a peca 8 passou sessenta e cinco versoes com a
-# atribuicao trocada sem que nada acusasse. Mesmo defeito que o comentario da
-# v0.42 la em cima descreve para a LISTA de oficios, aplicado a CONTAGEM.
+# Quantos oficios existem, de QUEM eles sao e por quantas pericias eles se
+# trocam, tudo LIDO do §6 da peca 7. Ate a v0.171 os numeros eram literais, e a
+# peca 8 passou sessenta e cinco versoes com a atribuicao trocada.
 #
-# CAM_OF e' o TOTAL que o Caminho entrega, e o fixo (se houver) esta DENTRO
-# dele. Somar fixo + livre foi um defeito meu, pego pelo contra-teste: com o
-# Caminho voltando a travar um, a conta dava tres oficios onde a peca da dois.
+# v0.263: este bloco lia "A Origem nao da oficio" para concluir que o extra
+# dela valia zero, e contava os dois oficios como do Caminho. A frase era o
+# texto da v0.212 que a v0.216 esqueceu na peca; o total fechava igual (dois
+# de onze), entao nada acendia. E com o extra zerado as duas rotas impressas
+# eram a MESMA -- a de trocar os oficios por pericia nunca tinha sido medida.
 _S6 = re.search(r'\n## 6\. De onde vem o treino(.*?)(?=\n## )', _P7, re.S)
+_S6t = _S6.group(1) if _S6 else ''
 _PN = {'um': 1, 'uma': 1, 'dois': 2, 'duas': 2, 'três': 3, 'quatro': 4}
-_mL = re.search(r'Mais (\w+) ofícios?\b', _S6.group(1)) if _S6 else None
-# A Origem parou de dar oficio na v0.211, e a peca declara isso com todas as
-# letras. A leitura e da DECLARACAO e nao da ausencia: extrator que devolve
-# zero por nao achar nada sai verde igual ao que leu a regra certa.
-_mE = re.search(r'\*\*A Origem não dá ofício\.\*\*', _S6.group(1)) if _S6 else None
-CAM_OF = _PN.get(_mL.group(1).lower()) if _mL else None
-ORI_EXTRA = 0 if _mE else None
-# O Caminho nao trava oficio desde a v0.105, e a peca 7 §6 e' quem diz isso.
-CAM_OF_FIXO = 1 if (_S6 and re.search(r'\*\*O Caminho trava ofício',
-                                      _S6.group(1))) else 0
-FAIXA_TREINADA = (0.30, 0.42)
+_mL = re.search(r'Mais (\w+) ofícios?\b', _S6t)
+OFI_N = _PN.get(_mL.group(1).lower()) if _mL else None
+_dO = bool(re.search(r'\*\*O Caminho não dá ofício, e quem dá é a Origem\.\*\*', _S6t))
+_dC = bool(re.search(r'\*\*A Origem não dá ofício\.?\*\*', _S6t))
+OFI_DONO = 'Origem' if (_dO and not _dC) else ('Caminho' if (_dC and not _dO) else None)
+_mT = re.search(r'os dois se trocam por mais (\w+) perícias? livres?', _S6t)
+OFI_TROCA = _PN.get(_mT.group(1).lower()) if _mT else None
+# A faixa de pericia treinada e' da peca 7 §7, e e' LIDA de la. Ate a v0.263 ela
+# morava so aqui, escrita na v0.27, antes das duas trocas do §6 existirem.
+_mFx = re.search(r'A faixa é de `(\d+)%` a `(\d+)%` de perícias treinadas, e ela vale para a rota de base', _P7)
+FAIXA_TREINADA = (int(_mFx.group(1)) / 100, int(_mFx.group(2)) / 100) if _mFx else None
 
 TODAS = [p for grupo in PERICIAS.values() for p in grupo]
 
@@ -289,32 +293,53 @@ else:
 # --------------------------------------------------------------------------
 bloco('5. FRACAO TREINADA')
 
-if CAM_OF is None or ORI_EXTRA is None:
-    erro('nao consegui ler do §6 da peca 07 quantos oficios o Caminho entrega ou '
-         'quanto vale o extra da Origem — extrator que para de achar sai verde '
-         'calado, e a fracao de oficio abaixo nao teria com que ser calculada')
-    CAM_OF = CAM_OF or 0
-    ORI_EXTRA = ORI_EXTRA or 0
+if FAIXA_TREINADA is None:
+    erro('nao achei a faixa de pericia treinada na peca 7 §7 — sem ela a fracao '
+         'abaixo nao tem contra o que ser julgada')
+    FAIXA_TREINADA = (0.0, 1.0)
+if OFI_N is None or OFI_DONO is None or OFI_TROCA is None:
+    erro('nao consegui ler do §6 da peca 07 quantos oficios existem, de quem eles '
+         'sao (uma declaracao so) ou por quantas pericias eles se trocam — extrator '
+         'que para de achar sai verde calado, e a fracao abaixo nao teria com que '
+         'ser calculada')
+    OFI_N = OFI_N or 0
+    OFI_TROCA = OFI_TROCA or 0
 
 base_p = CAM_FIXAS + CAM_LIVRES + ORI_PERICIAS
-base_o = CAM_OF
-# a Origem entrega UM extra, e o jogador escolhe se ele e oficio ou pericia
-rotas = {'Origem pega o OFICIO':  (base_p, base_o + ORI_EXTRA),
-         'Origem pega a PERICIA': (base_p + ORI_EXTRA, base_o)}
-print(f'  {CAM_FIXAS} fixas + {CAM_LIVRES} livres do Caminho + {ORI_PERICIAS} da Origem,'
-      f' mais UM extra que o jogador escolhe:\n')
-print(f"  {'rota':<24}{'pericias':>18}{'oficios':>18}")
-for nome, (p, o) in rotas.items():
-    print(f'  {nome:<24}{f"{p} de {total} = {p/total:.0%}":>18}'
-          f'{f"{o} de {len(OFICIOS)} = {o/len(OFICIOS):.0%}":>18}')
+# As rotas que a peca 7 §6 publica. Decisao do Mizuki na v0.263: a faixa julga so
+# a de BASE — o que a regra da antes de qualquer troca. As trocas sao do jogador,
+# tem preco escrito, e aqui sao impressas sem julgamento.
+_mA = re.search(r'(\w+) das cinco à sua escolha se trocam por treino em UMA arma', _S6t)
+POR_ARMA = _PN.get(_mA.group(1).lower()) if _mA else None
+if POR_ARMA is None:
+    erro('nao achei no §6 da peca 7 quantas pericias uma arma custa — as rotas com '
+         'arma nao teriam como ser impressas')
+    POR_ARMA = 0
+rotas = []
+for _armas in (0, 1, 2):
+    for _troca in (False, True):
+        rotas.append((f'{_armas} arma(s)' + (', troca os oficios' if _troca else ''),
+                      base_p - _armas * POR_ARMA + (OFI_TROCA if _troca else 0),
+                      0 if _troca else OFI_N,
+                      _armas == 0 and not _troca))
+print(f'  {CAM_FIXAS} fixas + {CAM_LIVRES} livres do Caminho + {ORI_PERICIAS} da Origem, e os '
+      f'{OFI_N} oficios da {OFI_DONO}; os dois se trocam por {OFI_TROCA} pericia, e '
+      f'{POR_ARMA} pericias por uma arma:\n')
+print(f"  {'rota':<30}{'pericias':>16}{'oficios':>16}")
+for nome, p, o, base in rotas:
+    marca = 'BASE, julgada' if base else 'troca, so impressa'
+    print(f'  {nome:<30}{f"{p} de {total} = {p/total:.0%}":>16}'
+          f'{f"{o} de {len(OFICIOS)} = {o/len(OFICIOS):.0%}":>16}   {marca}')
+    if not base:
+        continue
     if not FAIXA_TREINADA[0] <= p / total <= FAIXA_TREINADA[1]:
-        erro(f'{nome}: fracao de pericia em {p/total:.0%}, fora da faixa '
-             f'{FAIXA_TREINADA[0]:.0%}-{FAIXA_TREINADA[1]:.0%}')
+        erro(f'a rota de base da {p/total:.0%} de pericia, fora da faixa '
+             f'{FAIXA_TREINADA[0]:.0%}-{FAIXA_TREINADA[1]:.0%} da peca 7 §7')
     if o / len(OFICIOS) > 0.35:
-        erro(f'{nome}: oficios em {o/len(OFICIOS):.0%} — oficio precisa ser raro para virar cena')
-print(f'\n  faixa aceita para pericia: {FAIXA_TREINADA[0]:.0%} a {FAIXA_TREINADA[1]:.0%}')
-print('  Abaixo disso a ficha esvazia. Acima, "ser treinado" para de significar algo')
-print('  e nao sobra em que o resto do grupo brilhar. As duas rotas precisam caber.')
+        erro(f'a rota de base da {o/len(OFICIOS):.0%} de oficio — oficio precisa ser raro para virar cena')
+print(f'\n  faixa da peca 7 §7, para a rota de base: {FAIXA_TREINADA[0]:.0%} a {FAIXA_TREINADA[1]:.0%}')
+print('  Abaixo disso a ficha esvazia. Acima, "ser treinado" para de significar algo.')
+print('  As trocas sao do jogador e tem preco escrito: elas saem da faixa de proposito.')
 
 # --------------------------------------------------------------------------
 bloco('5.1 AS LISTAS DE ORIGEM')
@@ -379,6 +404,54 @@ if not achou:
 
 usadas = {p for l in ORIGENS.values() for p in l}
 print(f'\n  as {len(ORIGENS)} listas tocam {len(usadas)} das {total} pericias')
+
+# --------------------------------------------------------------------------
+bloco('5.2 O TREINO TEM DOIS GRAUS — e nenhuma linha viva diz que ele e binario')
+# --------------------------------------------------------------------------
+# v0.263. A peca 4 §7 listava "se treino em pericia tem graus... binario por ora"
+# como pergunta aberta, e a peca 2 §6 dizia "o treino e binario". A especializacao
+# da peca 11 §3 — metade da maestria de novo, do nivel 10 em diante — e o segundo
+# grau desde a v0.212: cinquenta e uma versoes com as pecas discordando, e nenhuma
+# checagem comparava. A RASCUNHO da Expansao sem Barreiras anotou o achado e ele
+# ficou la.
+#
+# A regra e lida, nao escrita: se a peca 11 publica a especializacao, nenhuma
+# linha VIVA das pecas nem do livro pode chamar o treino de binario. Linha viva
+# e o que sobra sem os trechos riscados (~~), e que nao registra um FECHADO.
+# A citacao ('>') NAO e historia neste projeto: a regra da especializacao mora
+# numa citacao da peca 11, e as caixas de regra do livro tambem sao '>' — a
+# primeira versao desta checagem pulava citacao e nao achava a propria regra.
+# Se a especializacao sair da peca 11, dizer "binario" volta a ser permitido —
+# e esse e o contra-teste.
+_AQ52 = os.path.dirname(os.path.abspath(__file__))
+_P11 = open(os.path.join(_AQ52, '11-aptidoes-e-refino.md'), encoding='utf-8').read()
+_espec = [l for l in _P11.splitlines()
+          if re.search(r'\*\*especializar\*\* um que já treina', l)
+          and 'metade da maestria' in l]
+_LIV52 = os.path.join(_AQ52, '..', '05-material', 'livro', 'manual')
+_arqs52 = sorted(glob.glob(os.path.join(_AQ52, '*.md'))) + \
+          sorted(glob.glob(os.path.join(_LIV52, '*.md')))
+_vivas = []
+for _a in _arqs52:
+    for _n, _l in enumerate(open(_a, encoding='utf-8').read().splitlines(), 1):
+        _v = re.sub(r'~~.*?~~', '', _l)
+        if re.search(r'fechad', _v, re.I):
+            continue
+        if re.search(r'trein', _v, re.I) and re.search(r'bin[aá]ri', _v, re.I):
+            _vivas.append(f'{os.path.basename(_a)}:{_n}')
+if len(_arqs52) < 20:
+    erro(f'5.2: li {len(_arqs52)} arquivo(s) entre pecas e livro — a varredura '
+         'parou de achar o que ela confere, e passaria verde a toa')
+elif not _espec:
+    print('  a peca 11 nao publica a especializacao: o treino e de um grau so, e '
+          'chamar ele de binario e permitido')
+elif _vivas:
+    erro(f'5.2: a peca 11 publica a especializacao (o segundo grau do treino), e '
+         f'{len(_vivas)} linha(s) viva(s) ainda chamam o treino de binario: '
+         f'{" · ".join(_vivas)}')
+else:
+    print(f'  [x] a peca 11 publica a especializacao, e nenhuma linha viva das '
+          f'{len(_arqs52)} pecas e capitulos chama o treino de binario')
 
 bloco('6. TODA PERICIA E ALCANCAVEL')
 

@@ -169,7 +169,7 @@ Você é bom em pouco mais de um terço do que existe — os buracos são de pro
 
 O quadro completo das vinte e três perícias e dos onze ofícios está na peça 7.
 
-> **⚠ O ofício trocou de dono outra vez, e agora é da Origem.** *A v0.206 tirou o extra da Origem e deixou os dois no Caminho, para o ofício ter um dono só; a troca de agora mantém o dono único e muda qual é ele.* **O motivo está na peça 7 §6:** *ofício é uma prática que alguém te ensinou, e quem te ensinou é o passado do personagem — que é o que a Origem descreve.* **A conta não se move:** dois de onze antes, dois de onze agora.
+> **⚠ O ofício trocou de dono outra vez, e agora é da Origem.** *A v0.212 tirou o extra da Origem e deixou os dois no Caminho, para o ofício ter um dono só; a troca de agora mantém o dono único e muda qual é ele.* **O motivo está na peça 7 §6:** *ofício é uma prática que alguém te ensinou, e quem te ensinou é o passado do personagem — que é o que a Origem descreve.* **A conta não se move:** dois de onze antes, dois de onze agora.
 >
 > **⚠ A atribuição dos ofícios estava trocada em quatro lugares desta peça, da v0.105 à v0.170.** *O Passo 1 dava à Origem os **dois** ofícios livres, que são do Caminho; o Passo 6, a ficha de exemplo e o checklist do mestre continuavam chamando um deles de **fixo**, que a v0.105 tirou.* **Os totais publicados — `8 e 3`, ou `9 e 2` — estavam certos o tempo todo, e é por isso que ninguém viu:** *a checagem 6 do `conferir-criacao.py` lia a soma das duas rotas, e soma fecha com o dono trocado.* **Hoje a 6.1 confere fonte por fonte, contra a peça 7 §6.**
 
@@ -256,7 +256,7 @@ Pacto é o que você trocou por poder.
 
 - *Perícia da lista* (Hierarquia · História · Ocultismo · Persuasão): **Hierarquia**
 - *Perícia livre:* **História** — ela cresceu ouvindo de quem o clã perdeu o nome
-- *Extra:* pegou o **ofício** — **Herbalismo**, da avó
+- *Ofícios:* **Forja** e **Herbalismo**, o segundo da avó
 - *Teste de Resistência:* **Vigor**
 - *Traço:* o ramo do clã que perdeu, e ela é dele
 - *Legado · Destranca:* **O Sobrenome** — ela consegue audiência em qualquer lugar do meio jujutsu. Ser bem recebida é outra história
@@ -272,7 +272,7 @@ Pacto é o que você trocou por poder.
 
 **Perícias — nove.** Do Caminho, fixas: Atletismo e Intimidação. Do Caminho, livres: Sentir Energia, Percepção, Sobrevivência, Intuição e Persuasão. Da Origem: Hierarquia e História.
 
-**Ofícios — dois.** Forja e Herbalismo, os dois livres do Caminho. *O `Herbalismo` da avó ficou; o `Caligrafia` saiu quando a Origem parou de dar ofício, na v0.211.*
+**Ofícios — dois.** Forja e Herbalismo, os dois da Origem. *O `Herbalismo` da avó ficou; o `Caligrafia` saiu na v0.212, quando o extra da Origem acabou.* **Até a v0.263 esta ficha dizia "os dois livres do Caminho" e ainda tinha a linha do extra no bloco da Origem** — *a v0.216 levou os ofícios para a Origem e a Kaori ficou para trás, aqui e no capítulo 6 do livro.*
 
 **Os números:**
 

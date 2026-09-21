@@ -8,6 +8,76 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.263] — 21/09/2026
+
+**As três pontas soltas da v0.262, e a primeira destampou uma decisão da v0.216 que não chegou em quinze lugares.** *A peça 4 dizia que o treino é "binário por ora", a Aura não tinha linha na tabela de tamanho por Classe, e a ficha ficou sem o Ritual.* **Indo fechar a primeira, apareceu que a v0.216 levou os ofícios do Caminho para a Origem e o livro publicado ainda dava dois ofícios em cada Caminho** — *lido ao pé da letra, o jogador saía com quatro.*
+
+### 1 · O treino tem dois graus desde a v0.212, e a peça 4 não sabia
+
+**A especialização da peça 11 §3 — metade da maestria de novo, pela escolha `Corpo` do marco, do nível 10 em diante — é o segundo grau do treino.** *A peça 4 §7 listava "se treino tem graus… binário por ora" como pergunta aberta, e a §1 dizia "uma frase, sem exceção".* **Cinquenta e uma versões com as duas peças discordando**, *e o rascunho da Expansão sem Barreiras tinha anotado o achado sem ninguém voltar nele.* A peça 2 §6 repetia "o treino é binário" numa linha que recopiava a conta inteira, com mais dois pedaços vencidos; hoje ela aponta para a peça 7 e para a peça 11.
+
+**Correção do prompt da conversa:** *a especialização entrou na v0.212, e não na v0.211.* **Seis lugares das peças 2, 7, 8 e 11 citavam `v0.211` para essa mudança, e três das peças 4, 8 e 9 citavam `v0.206`, a mesma versão errada que a entrada da v0.216 escreveu** — *o cabeçalho da v0.212 é o dono, e a tabela dele põe as três mudanças ali: cinco livres, o extra acabando e a especialização.*
+
+### 2 · O ofício é da Origem desde a v0.216, e quinze lugares diziam que era do Caminho
+
+**A peça 7 §6 declarava os dois donos ao mesmo tempo:** *"O Caminho não dá ofício, e quem dá é a Origem" e, catorze linhas abaixo, "A Origem não dá ofício… o ofício ficou com um dono só, que é o Caminho" — o texto da v0.212 que a v0.216 virou de lado e esqueceu.* **A checagem 6.1 do `conferir-criacao.py` lia as duas frases com um `if`/`elif` e ficava com a primeira**, *então a peça declarava dois donos e saía verde.*
+
+| onde | o que publicava |
+|---|---|
+| peça 7 §6, §7 e §8 | o dono velho, "os dois do Caminho", e a tabela dando os ofícios ao Caminho |
+| peça 2 §4 | "a Origem parou de dar ofício na v0.211" |
+| peça 8, a Kaori | "os dois livres do Caminho", e a linha do `Extra` que acabou na v0.212 |
+| livro, capítulo 3 | o quadro de Treino com "Mais dois ofícios" solto embaixo do Caminho, e "os dois que ele dá são livres" |
+| livro, capítulo 6, a Kaori | "Ofícios do Caminho" e "os dois livres do Caminho" |
+| livro, capítulo 8 | os cinco quadros de Caminho com "Ofícios · 2, à sua escolha" |
+
+**O capítulo 7 do livro dá os dois ofícios à Origem, e o capítulo 8 dava mais dois em cada Caminho.** *Lido ao pé da letra, um jogador saía com quatro.* **A 6.1 passou a reprovar quando a peça 7 declara os dois donos, e a ler as cópias que ficavam fora dela:** *a Kaori da peça 8 e a do capítulo 6, os cinco quadros do capítulo 8 com guarda de contagem, e a linha de ofício do quadro de Treino do capítulo 3, que tem de nomear o dono nela mesma.* O dono e o outro continuam sendo lidos da peça 7 — se um dia o ofício voltar para o Caminho, a checagem vira junto.
+
+### 3 · A faixa de perícia treinada media uma rota só, duas vezes
+
+**O bloco 5 do `conferir-pericias.py` só funcionava por causa da frase velha:** *ele lia "a Origem não dá ofício" para concluir que o extra dela valia zero, e contava os dois ofícios como do Caminho.* **O total fechava igual, dois de onze, e com o extra zerado as duas rotas que ele imprimia eram a mesma.** *Tirar a frase da peça fez ele parar de achar o que lia.*
+
+**Reescrito para a regra de hoje, ele mediu as seis rotas que a peça 7 §6 publica, e três caíam fora da faixa de `30%` a `42%`:** *trocar os ofícios dá `10` de `23`, `43%`; trocar perícia por duas armas dá `5` e `6` de `23`, `22%` e `26%`.* **A faixa era da v0.27, morava só no validador, e as duas trocas vieram na v0.212.**
+
+***Decisão do Mizuki: a faixa julga só a rota de base***, *o que a regra dá antes de qualquer troca — `9` de `23`, `39%`.* **Ela passou a morar na peça 7 §7, com dono, e as trocas são impressas sem julgamento:** *são do jogador, e o preço delas está escrito no §6.* A tabela daquela seção dizia `8` e `35%`, a conta de antes da v0.212, e foi junto.
+
+### 4 · A Aura na tabela de tamanho por Classe, e o manual vai à v7.38
+
+**A `Base por Classe` tinha seis linhas e nenhuma para a Aura.** *A descrição dela diz "raio 3 m", que é o valor das Classes 1 a 5, igual ao da Explosão na mesma tabela de Formas; nas Classes 6 e 7 a Explosão vai a `4,5 m`, e ninguém dizia o que a Aura fazia.*
+
+**A conta que foi para ele:** *com raio fixo em `3 m`, alcançar o raio da Explosão custa uma `Maior` — `3` pontos na Classe 6, `13,5` de dano por alvo, `17%` do feitiço; `4` na Classe 7, `18,0`, `19%`.* **E o raio fixo cria dois caminhos para o mesmo feitiço:** *uma Explosão de Classe 6 com o `Corpo a Corpo` comprado vira Aura, e a Restrição encolheria a esfera sem o texto dela dizer isso.* ***Decisão do Mizuki: ela acompanha a Explosão***, *`3 m` · `3 m` · `4,5 m`.*
+
+**A sub-checagem 8.1 do `conferir-manual.py` deriva o raio em vez de guardá-lo:** *toda Forma que mede alguma coisa em metros tem linha na tabela, a Forma "com Corpo a Corpo embutida" tem o raio da sua Forma de origem em toda coluna, e a tabela do capítulo 9 do livro bate com a do manual.* A Efeito fica de fora sozinha, por não medir nada, sem estar nomeada no validador.
+
+**Duas contagens velhas saíram junto:** *o README dizia que o PDF do manual "está na v7.15" e tem `49` páginas, e o ESTADO dizia `49` páginas, `366` parágrafos e `90` tabelas — o da v7.37 já tinha `50`, `410` e `95`.* **Seguindo a decisão da v0.169 para a paginação do livro, as contagens saíram em vez de subir.**
+
+### 5 · A ficha: o verde que não era verde
+
+**O `rodar-tudo.sh` do repositório da ficha dizia "OS DEZESSEIS PASSARAM" com o `revisao-cetica.py` imprimindo `1 PROBLEMA`** — *ele nunca falhava o código de saída.* **O problema era da própria rodada da v0.258:** *a especificação dizia que as quatro Famílias que a ficha velha não imprime têm "27 das 66 Melhorias", as três Melhorias novas levaram a conta a `30 das 69`, e o `27` e o `66` estavam escritos dentro do validador.* *O agente daquela rodada rodou sete dos dezesseis e anotou o `66` velho sem saber que um validador já pegava.*
+
+**Consertado dentro da rodada pendente, antes do commit dela:** *o validador lê os dois números da especificação e sai `1` se falhar, e o prompt de agente da ficha parou de carregar contagens.* **A ponta 3 em si fica para a rodada seguinte, por decisão dele:** *reextrair o `manual.txt` do livro novo, com o Ritual, a Aura e os ofícios, depois que as duas rodadas pendentes subirem; e as dezesseis Melhorias de ritual esperam a ficha maldita, porque a ficha não tem bloco de feitiço.*
+
+### Alterado
+
+- **Peças:** *a 2 (§4 e §6), a 4 (§1, §3 e §7), a 7 (§6, §7, §8 e §9), a 8 (a Kaori e uma nota), a 9 (uma nota) e a 11 (a versão da coluna de perícia).*
+- **O livro:** *os capítulos 3, 6, 8 e 9, com os quatro artefatos refeitos.*
+- **O manual do Fundamento vai à v7.38:** *a linha da Aura no `partC.js`, e as cópias da versão.*
+- **Validadores:** *a 6.1 do `conferir-criacao.py`; o bloco 5 e a sub-checagem 5.2, nova, do `conferir-pericias.py`; a sub-checagem 8.1, nova, do `conferir-manual.py`; e a base da 7.2 do `conferir-repositorio.py`, de `183` para `185`, com as duas citações de validador da peça 7.* **Nenhuma checagem de número inteiro entrou, então nenhuma contagem se move.**
+- **O rascunho da Expansão sem Barreiras:** *o achado da peça 4 marcado como fechado.*
+- **No repositório da ficha:** *o `revisao-cetica.py`, a especificação e o prompt de agente.*
+
+### Decidido
+
+- **A Aura acompanha a Explosão na `Base por Classe`.**
+- **A faixa de perícia treinada julga só a rota de base, e mora na peça 7 §7.**
+- **A ficha sobe as rodadas da v0.258 e da v0.260 antes da ponta 3, e as Melhorias de ritual esperam a ficha maldita.**
+
+*Arnês numa cópia isolada, com a base verde nos três validadores: **15 perturbações acendem a etiqueta certa e 4 contra-testes ficam verdes**, com `PULADA=0` e o arquivo conferido como mudado em todas. No repositório da ficha, outro arnês: 5 perturbações acendem e o contra-teste coerente fica verde. Dois defeitos meus apareceram antes do arnês: a primeira 5.2 pulava linha de citação `>` e não achava a própria regra, que mora numa citação da peça 11 — e as caixas de regra do livro também são `>`; e duas trocas no mesmo arquivo da ficha liam o original, e a segunda apagou a primeira.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: *a fila de agora, e a ponta 3 no item 9, esperando o commit da ficha.*
+
+---
+
 ## [0.262] — 20/09/2026
 
 **O Ritual, que estava decidido e não escrito desde a v0.259.** *É a peça 27 e o capítulo 13 do livro, e ele é ação de combate — correção do Mizuki sobre a minha primeira leitura:* **"o personagem principal que trabalhou rituais foi o proprio sukuna, ele usava no meio do combate para inflar, amplificar e melhorar seus feitiços".**

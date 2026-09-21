@@ -154,7 +154,7 @@ No nível 30, as três rotas puras:
 | sempre Refino | 7 | **10** | **10** | 5 | 0 | 0 |
 | sempre Leque | 7 | 8 | 0 | **12** | **7** | 0 |
 
-> **A coluna da direita entrou na v0.211, e ela CONSERTA a simetria em vez de quebrar.** *Até ali o `Corpo` era o único eixo com uma moeda só — os outros dois sempre tiveram duas, refino com aptidão e Passiva com feitiço.* **Agora os três têm duas**, e a razão é retorno de mesa do Mizuki: *"refino no momento está muito crucial e no caso das técnicas já vale muito, então dar esse gostinho extra no atributo vai apetecer mais ele."*
+> **A coluna da direita entrou na v0.212, e ela CONSERTA a simetria em vez de quebrar.** *Até ali o `Corpo` era o único eixo com uma moeda só — os outros dois sempre tiveram duas, refino com aptidão e Passiva com feitiço.* **Agora os três têm duas**, e a razão é retorno de mesa do Mizuki: *"refino no momento está muito crucial e no caso das técnicas já vale muito, então dar esse gostinho extra no atributo vai apetecer mais ele."*
 >
 > **A especialização não é uma segunda moeda, é a mesma comprada em altura.** *Ela soma metade da maestria numa rolagem que você já treinou, contra a maestria inteira numa que você não fazia — então ela nunca passa de metade do que a perícia nova entrega.* **E ela só abre no nível 10**, porque antes dele a maestria é `1`: *pelo piso da peça 1 §5.4 a metade dela vale `1`, e a especialização entregaria o mesmo que a perícia nova, e não metade.* *Até a v0.245 esta frase dizia que a metade descia para zero.* ***Decisão do Mizuki na v0.246: ela vale `1`***, *e o gate continua no 10 pelo motivo de cima.*
 >

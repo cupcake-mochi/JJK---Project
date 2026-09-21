@@ -1112,8 +1112,7 @@ Ofício é o que o personagem sabe fazer porque alguém sentou com ele e ensinou
 ## Treino
 
 > **O Caminho dá duas perícias fixas e mais cinco à sua escolha, de qualquer uma da lista de perícias do sistema.**
-> **Mais dois ofícios à sua escolha.**
-> **A Origem dá mais duas perícias.**
+> **A Origem dá mais duas perícias, e dois ofícios à sua escolha.**
 
 As duas fixas são a assinatura do Caminho, o que qualquer um daquele Caminho sabe fazer. As cinco livres são a sua escolha.
 
@@ -1125,8 +1124,6 @@ As duas fixas são a assinatura do Caminho, o que qualquer um daquele Caminho sa
 | **Guia** | Persuasão · Medicina |
 | **Emanador** | Ocultismo · Investigação |
 | **Evocador** | Religião · Lidar com Animais |
-
-Ofício o Caminho deixa escolher livremente. Os dois que ele dá são livres, e você escolhe os dois.
 
 ### Perícias da Origem
 
@@ -1849,7 +1846,7 @@ Pacto é o que você trocou por poder, e as quatro formas dele têm onde morar:
 
 - *Perícia da lista* (Hierarquia · História · Ocultismo · Persuasão): **Hierarquia**
 - *Perícia livre:* **História**, porque ela cresceu ouvindo de quem o clã perdeu o nome
-- *Ofícios do Caminho:* **Forja** e **Herbalismo**, o segundo da avó
+- *Ofícios:* **Forja** e **Herbalismo**, o segundo da avó
 - *Teste de Resistência:* **Vigor**
 - *Traço:* o ramo do clã que perdeu, e ela é dele
 - *Legado · `Destranca`:* **O Sobrenome**, que dá audiência em qualquer lugar do meio jujutsu. Ser bem recebida é outra história
@@ -1875,7 +1872,7 @@ Força 3 · Constituição 2 · Destreza 2 · Inteligência 1 · Essência 1. No
 
 **Nove perícias.** Do Caminho, fixas: Atletismo e Intimidação. Do Caminho, livres: Sentir Energia, Percepção, Sobrevivência, Intuição e Persuasão. Da Origem: Hierarquia e História.
 
-**Dois ofícios.** Forja e Herbalismo, os dois livres do Caminho.
+**Dois ofícios.** Forja e Herbalismo, os dois da Origem.
 
 ### Números
 
@@ -2721,7 +2718,7 @@ E duas coisas que quase todo degrau daqui menciona:
 | **Atributos naturais** | Força · Constituição |
 | **Perícias fixas** | `Atletismo` · `Intimidação` |
 | **Perícias à sua escolha** | 5, de qualquer uma da lista de perícias do sistema |
-| **Ofícios** | 2, à sua escolha. O Caminho não trava ofício |
+| **Ofícios** | nenhum. Os dois vêm da sua Origem |
 | **Teste de Resistência** | 1 treinado, à sua escolha. A sua Origem treina o outro |
 | **Treino de arma** | **as treze categorias**: Simples, Marciais e Arma de Fogo |
 
@@ -2796,7 +2793,7 @@ E duas coisas que quase todo degrau daqui menciona:
 | **Atributos naturais** | Destreza · Força |
 | **Perícias fixas** | `Acrobacia` · `Percepção` |
 | **Perícias à sua escolha** | 5, de qualquer uma da lista de perícias do sistema |
-| **Ofícios** | 2, à sua escolha. O Caminho não trava ofício |
+| **Ofícios** | nenhum. Os dois vêm da sua Origem |
 | **Teste de Resistência** | 1 treinado, à sua escolha. A sua Origem treina o outro |
 | **Treino de arma** | **as treze categorias**: Simples, Marciais e Arma de Fogo |
 
@@ -2975,7 +2972,7 @@ O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 15, 
 | **Atributo natural** | Essência |
 | **Perícias fixas** | `Persuasão` · `Medicina` |
 | **Perícias à sua escolha** | 5, de qualquer uma da lista de perícias do sistema. Duas delas podem virar treino em **uma arma** da lista — não a categoria e não o tipo, uma arma |
-| **Ofícios** | 2, à sua escolha. O Caminho não trava ofício |
+| **Ofícios** | nenhum. Os dois vêm da sua Origem |
 | **Teste de Resistência** | 1 treinado, à sua escolha. A sua Origem treina o outro |
 | **Treino de arma** | **Arma de Fogo** e **Balestra**, as duas que não pedem treino de verdade |
 
@@ -3056,7 +3053,7 @@ O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 15, 
 | **Atributos naturais** | Inteligência · Essência |
 | **Perícias fixas** | `Ocultismo` · `Investigação` |
 | **Perícias à sua escolha** | 5, de qualquer uma da lista de perícias do sistema. Duas delas podem virar treino em **uma arma** da lista — não a categoria e não o tipo, uma arma |
-| **Ofícios** | 2, à sua escolha. O Caminho não trava ofício |
+| **Ofícios** | nenhum. Os dois vêm da sua Origem |
 | **Teste de Resistência** | 1 treinado, à sua escolha. A sua Origem treina o outro |
 | **Treino de arma** | **Arma de Fogo** e **Balestra**, as duas que não pedem treino de verdade |
 
@@ -3131,7 +3128,7 @@ O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 15, 
 | **Atributos naturais** | Inteligência · Essência |
 | **Perícias fixas** | `Religião` · `Lidar com Animais` |
 | **Perícias à sua escolha** | 5, de qualquer uma da lista de perícias do sistema. Duas delas podem virar treino em **uma arma** da lista — não a categoria e não o tipo, uma arma |
-| **Ofícios** | 2, à sua escolha. O Caminho não trava ofício |
+| **Ofícios** | nenhum. Os dois vêm da sua Origem |
 | **Teste de Resistência** | 1 treinado, à sua escolha. A sua Origem treina o outro |
 | **Treino de arma** | **Arma de Fogo** e **Balestra**, as duas que não pedem treino de verdade |
 
@@ -3673,6 +3670,7 @@ Cada Forma pertence a uma Família: `Explosão`, `Aura`, `Cone` e `Linha` à **�
 |---|---|---|---|
 | `Projétil` e `Toque` | 9 m | 18 m | 36 m |
 | `Explosão` | raio 3 m, a 9 m | raio 3 m, a 18 m | raio 4,5 m, a 36 m |
+| `Aura` | raio 3 m, em você | raio 3 m, em você | raio 4,5 m, em você |
 | `Cone` | 3 m | 4,5 m | 9 m |
 | `Linha` | 9 × 1,5 m | 18 × 1,5 m | 30 × 1,5 m |
 | `Apoio` | 4,5 m | 9 m | 18 m |
@@ -7052,4 +7050,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: d6f087945fced9593852aece8ceb2c42c904653f -->
+<!-- fonte: 8911624dc26f9e1b0c8e099f8ce96c357e22f902 -->

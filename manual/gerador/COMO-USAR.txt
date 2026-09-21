@@ -1,4 +1,4 @@
-GERADOR DO MANUAL — Fundamento v7.37
+GERADOR DO MANUAL — Fundamento v7.38
 
 Recria o .docx do zero. Precisa de Node.js.
 
@@ -32,6 +32,21 @@ ORDEM DAS SEÇÕES (v7)
   4 Restrições → 5 Fora de combate → 6 Liberação Máxima → 7 Técnica Máxima →
   8 Regras de ouro → 9 Progressão → 10 Feitiços prontos → 11 Para o mestre →
   Apêndice
+
+O QUE MUDOU NA v7.38
+
+  A Aura ganha linha na tabela Base por Classe: raio 3 m em voce da Classe 0 a
+  5, e 4,5 m nas Classes 6 e 7 — o raio da Explosao. A tabela tinha seis
+  linhas e nenhuma para ela, e a descricao da Forma dizia so 'raio 3 m', que e
+  o valor das Classes 1 a 5, igual ao da Explosao na mesma tabela de Formas. O
+  raio nao foi escolhido: a Aura e a Explosao com Corpo a Corpo embutida, e o
+  Corpo a Corpo muda onde a esfera nasce, nao o tamanho dela. Com raio fixo em
+  3 m, uma Explosao de Classe 6 com Corpo a Corpo comprado viraria Aura e a
+  Restricao encolheria a esfera sem o texto dela dizer isso. Decisao do Mizuki
+  em 21/09/2026, com a conta: a leitura contraria custaria uma Maior (3 pontos
+  na Classe 6, 4 na 7) para chegar ao mesmo tamanho. A checagem 8.1 do
+  conferir-manual deriva o raio da Aura da Explosao e compara a tabela do
+  livro com a do manual.
 
 O QUE MUDOU NA v7.37
 

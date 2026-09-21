@@ -550,9 +550,19 @@ else:
     # o dono, lido da negacao escrita. Ela existe nos dois sentidos de
     # proposito: se um dia o oficio voltar para o Caminho, esta leitura vira
     # junto com a peca em vez de reprovar a decisao nova.
-    if re.search(r'\*\*O Caminho não dá ofício, e quem dá é a Origem\.\*\*', _s7):
+    #
+    # v0.263: as DUAS declaracoes estavam escritas no §6 ao mesmo tempo -- a da
+    # v0.216 e a da v0.212, que ninguem apagou --, e o if/elif ficava com a
+    # primeira que achasse. A peca declarava dois donos e esta checagem saia
+    # verde. Agora ler as duas e reprovar.
+    _decl_o = bool(re.search(r'\*\*O Caminho não dá ofício, e quem dá é a Origem\.\*\*', _s7))
+    _decl_c = bool(re.search(r'\*\*A Origem não dá ofício\.?\*\*', _s7))
+    _dois_donos = _decl_o and _decl_c
+    if _dois_donos:
+        _dono = _outro = None
+    elif _decl_o:
         _dono, _outro = 'Origem', 'Caminho'
-    elif re.search(r'\*\*A Origem não dá ofício\.?\*\*', _s7):
+    elif _decl_c:
         _dono, _outro = 'Caminho', 'Origem'
     else:
         _dono = _outro = None
@@ -561,7 +571,11 @@ else:
     _cam_trava = bool(re.search(r'cada Caminho fixava um ofício', _s7)) and \
         not re.search(r'não (trava|dá) ofício', _s7)
 
-    if _quantos is None or _dono is None:
+    if _dois_donos:
+        erro('a peca 7 §6 declara os DOIS donos do oficio -- "O Caminho nao da '
+             'oficio, e quem da e a Origem" e "A Origem nao da oficio" --, e so '
+             'um pode estar valendo')
+    elif _quantos is None or _dono is None:
         erro('nao consegui ler da peca 7 §6 quantos oficios existem ou de quem '
              'eles sao — o extrator parou de achar e a comparacao passaria '
              'trivialmente')
@@ -657,6 +671,88 @@ else:
                  'oficio fixo do Caminho na v0.105')
         else:
             print('  [x] a prosa da peca 8 nao reatribui oficio por fora da tabela')
+
+        # --- as copias por extenso: a Kaori e o livro -----------------------
+        # v0.263: a v0.216 levou os oficios do Caminho para a Origem, e esta
+        # checagem so olhava o §6 da peca 7 e os Passos 1, 3 e 6 da peca 8. Por
+        # fora dela ficaram DOZE lugares com o dono velho: a Kaori da peca 8
+        # ("os dois livres do Caminho", e a linha do extra que acabou na v0.212),
+        # a Kaori do capitulo 6 do livro, o quadro de treino do capitulo 3 e os
+        # cinco quadros de Caminho do capitulo 8 ("Oficios | 2, a sua escolha")
+        # -- lido ao pe da letra, o livro dava quatro oficios. Aqui nada e'
+        # escrito: o dono e o outro vem do §6, e a checagem vira junto se um dia
+        # o oficio voltar para o Caminho.
+        _DE = {'Origem': 'da Origem', 'Caminho': 'do Caminho'}
+        _LIV = '../05-material/livro/manual/'
+
+        def _sem_citacao(linha):
+            # texto entre aspas e' citado, nao afirmado: a nota que conta o que
+            # a linha dizia antes nao pode acender a checagem que ela explica
+            return re.sub(r'"[^"]*"', '', linha)
+
+        def _kaori(txt, onde):
+            _ofi = [_sem_citacao(l) for l in txt.splitlines()
+                    if re.search(r'[Oo]fícios?\b', l)]
+            _ruins = [l for l in _ofi if _DE[_outro] in l]
+            _boas = [l for l in _ofi if _DE[_dono] in l]
+            if not _ofi:
+                erro(f'{onde}: a ficha de exemplo nao diz mais de onde vem os oficios')
+            elif _ruins:
+                erro(f'{onde}: a ficha de exemplo ainda diz que os oficios sao '
+                     f'"{_DE[_outro]}", e a peca 7 §6 da eles a {_dono}')
+            elif not _boas:
+                erro(f'{onde}: a ficha de exemplo nao diz que os oficios sao '
+                     f'"{_DE[_dono]}"')
+            else:
+                print(f'  [x] {onde}: os oficios da ficha de exemplo sao "{_DE[_dono]}"')
+
+        _kaori(_secao(P8, 'Uma ficha inteira, do começo ao fim') or '', 'peca 8')
+        _L20 = ler(_LIV + '20-criacao-de-personagem.md')
+        _kaori(_secao(_L20, 'Exemplo') or '', 'livro, capitulo 6')
+
+        # o quadro de cada Caminho no capitulo 8: a linha de oficio diz o numero
+        # do dono, ou "nenhum" apontando para a Origem. Guarda de contagem pela
+        # linha de pericias fixas, que todo quadro tem.
+        _L35 = ler(_LIV + '35-caminhos-e-trilhas.md')
+        _cel = re.findall(r'^\|\s*\*\*Ofícios\*\*\s*\|([^|]*)\|', _L35, re.M)
+        _nq = len(re.findall(r'^\|\s*\*\*Perícias fixas\*\*\s*\|', _L35, re.M))
+        if _dono == 'Origem':
+            _certa = lambda c: c.strip().startswith('nenhum') and 'Origem' in c
+        else:
+            _certa = lambda c: _palnum(c.strip().split()[0].rstrip(',.')) == _quantos \
+                or c.strip().startswith(str(_quantos))
+        if not _nq or len(_cel) != _nq:
+            erro(f'livro, capitulo 8: {len(_cel)} linha(s) de oficio para {_nq} quadro(s) '
+                 'de Caminho -- sem uma por quadro a comparacao passaria trivialmente')
+        elif not all(_certa(c) for c in _cel):
+            erro(f'livro, capitulo 8: os quadros de Caminho dizem {sorted(set(c.strip() for c in _cel))} '
+                 f'na linha de oficio, e a peca 7 §6 da os oficios a {_dono}')
+        else:
+            print(f'  [x] livro, capitulo 8: os {_nq} quadros de Caminho dao o oficio '
+                  f'como a peca 7 §6')
+
+        # o quadro de treino do capitulo 3: a linha que fala de oficio tem de
+        # nomear o dono nela mesma. Solta embaixo da do Caminho, ela lia como
+        # dele -- era "Mais dois oficios a sua escolha", entre as duas.
+        _L12 = ler(_LIV + '12-pericias-e-oficios.md')
+        _tre = _secao(_L12, 'Treino') or ''
+        # so o PRIMEIRO bloco de citacao da secao: o exemplo do Kaito, mais
+        # abaixo, tambem abre com '> **' e fala dos oficios da Origem dele
+        _q = []
+        for l in _tre.splitlines():
+            if l.startswith('>'):
+                _q.append(l)
+            elif _q:
+                break
+        _qo = [l for l in _q if re.search(r'ofícios?\b', l)]
+        _nome = {'Origem': 'A Origem', 'Caminho': 'O Caminho'}
+        if not _q or not _qo:
+            erro('livro, capitulo 3: o quadro de Treino nao diz mais de onde vem os oficios')
+        elif not all(l.startswith('> **' + _nome[_dono]) for l in _qo):
+            erro(f'livro, capitulo 3: o quadro de Treino tem oficio numa linha que nao '
+                 f'e a da {_dono}: {_qo}')
+        else:
+            print(f'  [x] livro, capitulo 3: o oficio do quadro de Treino esta na linha da {_dono}')
 
 _contadas = re.search(r'Ela dá (\w+) coisas', _p1 or '')
 if not _contadas:

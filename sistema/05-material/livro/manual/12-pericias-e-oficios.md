@@ -188,8 +188,7 @@ Ofício é o que o personagem sabe fazer porque alguém sentou com ele e ensinou
 ## Treino
 
 > **O Caminho dá duas perícias fixas e mais cinco à sua escolha, de qualquer uma da lista de perícias do sistema.**
-> **Mais dois ofícios à sua escolha.**
-> **A Origem dá mais duas perícias.**
+> **A Origem dá mais duas perícias, e dois ofícios à sua escolha.**
 
 As duas fixas são a assinatura do Caminho, o que qualquer um daquele Caminho sabe fazer. As cinco livres são a sua escolha.
 
@@ -203,8 +202,6 @@ As duas fixas são a assinatura do Caminho, o que qualquer um daquele Caminho sa
 | **Guia** | Persuasão · Medicina |
 | **Emanador** | Ocultismo · Investigação |
 | **Evocador** | Religião · Lidar com Animais |
-
-Ofício o Caminho deixa escolher livremente. Os dois que ele dá são livres, e você escolhe os dois.
 
 ### Perícias da Origem
 

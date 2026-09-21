@@ -1668,6 +1668,129 @@ else:
                       f'{"existe" if _CURA_NA_0 else "nao existe"} nos dois lugares.')
 
 # --------------------------------------------------------------------------
+bloco('8.1 A BASE POR CLASSE COBRE AS FORMAS — e a do Corpo a Corpo herda o raio')
+# --------------------------------------------------------------------------
+# v0.263. A tabela tinha seis linhas e a Aura, uma das dez Formas, nao estava em
+# nenhuma: a descricao dela diz "raio 3 m", que e o valor das Classes 1 a 5, e
+# nas Classes 6 e 7 ninguem sabia se ela ia a 4,5 m como a Explosao. Decisao do
+# Mizuki em 21/09/2026: acompanha a Explosao. E o raio nao e escolha — a Aura e
+# "Explosao com Corpo a Corpo embutida", e o Corpo a Corpo muda ONDE a esfera
+# nasce, nao o tamanho dela. Com raio fixo, a mesma Explosao com a Restricao
+# comprada teria dois tamanhos conforme o caminho da montagem.
+#
+# Tres coisas, e nenhuma lista de Forma escrita aqui:
+#  (a) toda Forma que mede alguma coisa em metros na tabela de Formas tem linha
+#      na Base por Classe. A que nao mede — a Efeito, fora de combate — fica de
+#      fora sozinha, sem estar nomeada neste arquivo.
+#  (b) a Forma que e "<X> com [a Restricao] Corpo a Corpo embutida" tem, em cada
+#      coluna, o mesmo RAIO que X. Se X nao tem raio (o Projetil), nao ha o que
+#      herdar, e ela e conferida so por (a). Guarda: pelo menos uma heranca tem
+#      de ser conferida, senao (b) passaria verde a toa.
+#  (c) a tabela do capitulo 9 do livro diz o mesmo que a do manual, linha a
+#      linha. Copia sem comparacao diverge — licao no 9.
+_tf = _tabela_com(['Forma', 'Custa', 'O que é'])
+if _tb is None or _tf is None:
+    erro('8.1: nao achei a "Base por Classe" ou a tabela de Formas no manual — '
+         'sem as duas nao ha o que comparar')
+else:
+    def _limpa81(s):
+        return re.sub(r'[`*]', '', s).strip()
+
+    _formas81 = {}
+    for _r in _tf.rows[1:]:
+        _c = [c.text.strip() for c in _r.cells]
+        if _c and _c[0]:
+            _formas81[_c[0]] = _c[2] if len(_c) > 2 else ''
+    _base81 = {}
+    for _r in _tb.rows[1:]:
+        _c = [c.text.strip() for c in _r.cells]
+        if _c and _c[0]:
+            _base81[_limpa81(_c[0])] = [_limpa81(x) for x in _c[1:]]
+
+    def _linha81(forma):
+        return next((r for r in _base81
+                     if re.search(rf'(?<![\wÀ-ÿ]){re.escape(forma)}(?![\wÀ-ÿ])', r)), None)
+
+    # (a)
+    _medem = [f for f, d in _formas81.items() if re.search(r'\d\s*m\b', d)]
+    _sem = [f for f in _medem if _linha81(f) is None]
+    if len(_formas81) < 8 or not _medem:
+        erro(f'8.1: li {len(_formas81)} Forma(s), {len(_medem)} com medida — a tabela '
+             'de Formas mudou de forma e (a) nao provaria nada')
+    elif _sem:
+        erro(f'8.1: {len(_sem)} Forma(s) medem alguma coisa na tabela de Formas e nao '
+             f'tem linha na "Base por Classe": {" · ".join(_sem)}')
+    else:
+        _fora = [f for f in _formas81 if f not in _medem]
+        print(f'  [x] as {len(_medem)} Formas que medem alguma coisa tem linha na '
+              f'"Base por Classe"; fora dela, por nao medir: {" · ".join(_fora) or "nenhuma"}')
+
+    # (b)
+    _raio = lambda cels: [re.findall(r'raio\s+([\d,]+)\s*m', c) for c in cels]
+    _herdadas = 0
+    for f, d in _formas81.items():
+        m = re.search(r'([A-Za-zÀ-ÿ]+) com (?:a Restrição )?Corpo a Corpo embutida', d)
+        if not m:
+            continue
+        x = m.group(1)
+        lf, lx = _linha81(f), _linha81(x)
+        if lx is None:
+            erro(f'8.1: a {f} e "{x} com Corpo a Corpo", e a {x} nao tem linha na '
+                 '"Base por Classe"')
+            continue
+        rx = _raio(_base81[lx])
+        if not any(rx):
+            print(f'   - a {f} e {x} com Corpo a Corpo, e a {x} nao tem raio: nada a herdar')
+            continue
+        if lf is None or lf == lx:
+            erro(f'8.1: a {f} e {x} com Corpo a Corpo e nao tem linha propria na '
+                 '"Base por Classe" — o raio dela nas Classes 6 e 7 fica sem dono')
+            continue
+        rf81 = _raio(_base81[lf])
+        _herdadas += 1
+        if rf81 != rx:
+            erro(f'8.1: a {f} tem raio {rf81} por coluna e a {x} tem {rx} — o Corpo a '
+                 'Corpo muda onde a esfera nasce, e nao o tamanho dela')
+        else:
+            print(f'  [x] a {f} tem o raio da {x} em toda coluna: '
+                  f'{" · ".join("/".join(r) + " m" for r in rf81)}')
+    if _herdadas == 0:
+        erro('8.1: nenhuma Forma com raio herdado foi conferida — a frase "com Corpo '
+             'a Corpo embutida" mudou ou a Forma sumiu, e (b) passaria verde a toa')
+
+    # (c) a copia do livro
+    _l9 = ''
+    try:
+        _l9 = open(os.path.join(AQUI, '..', '05-material', 'livro', 'manual',
+                                '40-fundamento.md'), encoding='utf-8').read()
+    except FileNotFoundError:
+        pass
+    _i = _l9.find('**Base por Classe**')
+    _tab9 = []
+    if _i >= 0:
+        for _ln in _l9[_i:].splitlines()[1:]:
+            if _ln.startswith('|'):
+                _tab9.append(_ln)
+            elif _tab9:
+                break
+    if len(_tab9) < 3:
+        erro('8.1: nao achei a "Base por Classe" no capitulo 9 do livro')
+    else:
+        _liv81 = {}
+        for _ln in _tab9[2:]:
+            _c = [x.strip() for x in _ln.strip().strip('|').split('|')]
+            _liv81[_limpa81(_c[0])] = [_limpa81(x) for x in _c[1:]]
+        _so_man = [k for k in _base81 if k not in _liv81]
+        _so_liv = [k for k in _liv81 if k not in _base81]
+        _dif = [k for k in _base81 if k in _liv81 and _base81[k] != _liv81[k]]
+        if _so_man or _so_liv or _dif:
+            erro(f'8.1: a "Base por Classe" do livro e a do manual discordam — so no '
+                 f'manual: {_so_man}; so no livro: {_so_liv}; linhas diferentes: {_dif}')
+        else:
+            print(f'  [x] a tabela do capitulo 9 do livro e a do manual batem nas '
+                  f'{len(_base81)} linhas')
+
+# --------------------------------------------------------------------------
 print()
 print('=' * 88)
 if FALHAS:

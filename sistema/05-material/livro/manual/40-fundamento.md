@@ -502,6 +502,7 @@ Cada Forma pertence a uma Família: `Explosão`, `Aura`, `Cone` e `Linha` à **�
 |---|---|---|---|
 | `Projétil` e `Toque` | 9 m | 18 m | 36 m |
 | `Explosão` | raio 3 m, a 9 m | raio 3 m, a 18 m | raio 4,5 m, a 36 m |
+| `Aura` | raio 3 m, em você | raio 3 m, em você | raio 4,5 m, em você |
 | `Cone` | 3 m | 4,5 m | 9 m |
 | `Linha` | 9 × 1,5 m | 18 × 1,5 m | 30 × 1,5 m |
 | `Apoio` | 4,5 m | 9 m | 18 m |

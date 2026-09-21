@@ -1087,7 +1087,14 @@ else:
     #     a v0.260 e a v0.261 nao foi identificada — as de validador ficaram em
     #     124 nos dois recortes —, e a base ficou atrasada sem o motivo escrito.
     #     Fica registrado que o atraso e' de UMA e de onde ele nao veio.
-    BRANCAS_AQUI, FOLGA = 183, 5
+    # v0.263: 183 -> 185, as duas MEDIDAS pelo diff do principal contra a worktree,
+    #   com o regex desta checagem, nos .md do recorte. As duas estao na peca 7:
+    #   `conferir-criacao.py`, na nota do §6 que conta como a 6.1 dele lia os dois
+    #   donos do oficio, e `conferir-pericias.py`, no §7, que passou a ser dono da
+    #   faixa de pericia treinada que o validador guardava. Familia
+    #   `conferir-[a-z-]+\.py`, ja declarada, e nenhuma e material de mesa. O
+    #   principal limpo, no commit da v0.262, imprimia 183 — a base estava em dia.
+    BRANCAS_AQUI, FOLGA = 185, 5
     PISO_CITACOES, TETO_BRANCOS = 120, BRANCAS_AQUI + FOLGA
     if vistos_e < PISO_CITACOES:
         erro(f'7.2: achei so {vistos_e} citacoes na entrega, e o piso e {PISO_CITACOES} — '

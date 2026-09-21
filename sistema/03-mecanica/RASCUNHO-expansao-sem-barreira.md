@@ -318,7 +318,7 @@
 >
 > *Conta na parte quatro de `manual/matematica/custo-sem-barreira.py`.*
 >
-> **⚠ Achado de passagem:** *a peça 4 ainda lista como pergunta aberta "se treino em perícia tem graus… binário por ora", e a especialização da v0.212 é um grau.* **As duas peças discordam, e nenhuma checagem compara.**
+> **⚠ Achado de passagem:** *a peça 4 ainda lista como pergunta aberta "se treino em perícia tem graus… binário por ora", e a especialização da v0.212 é um grau.* **As duas peças discordam, e nenhuma checagem compara.** ***FECHADO na v0.263:*** *a peça 4 fechou o item, e a sub-checagem `5.2` do `conferir-pericias.py` passou a comparar.*
 
 **A tabela e as saídas abaixo são as que foram apresentadas antes da decisão, e ficam como registro.**
 

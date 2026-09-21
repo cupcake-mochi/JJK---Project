@@ -226,7 +226,7 @@ Pacto é o que você trocou por poder, e as quatro formas dele têm onde morar:
 
 - *Perícia da lista* (Hierarquia · História · Ocultismo · Persuasão): **Hierarquia**
 - *Perícia livre:* **História**, porque ela cresceu ouvindo de quem o clã perdeu o nome
-- *Ofícios do Caminho:* **Forja** e **Herbalismo**, o segundo da avó
+- *Ofícios:* **Forja** e **Herbalismo**, o segundo da avó
 - *Teste de Resistência:* **Vigor**
 - *Traço:* o ramo do clã que perdeu, e ela é dele
 - *Legado · `Destranca`:* **O Sobrenome**, que dá audiência em qualquer lugar do meio jujutsu. Ser bem recebida é outra história
@@ -252,7 +252,7 @@ Força 3 · Constituição 2 · Destreza 2 · Inteligência 1 · Essência 1. No
 
 **Nove perícias.** Do Caminho, fixas: Atletismo e Intimidação. Do Caminho, livres: Sentir Energia, Percepção, Sobrevivência, Intuição e Persuasão. Da Origem: Hierarquia e História.
 
-**Dois ofícios.** Forja e Herbalismo, os dois livres do Caminho.
+**Dois ofícios.** Forja e Herbalismo, os dois da Origem.
 
 ### Números
 

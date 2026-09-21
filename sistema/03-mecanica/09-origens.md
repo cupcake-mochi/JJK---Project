@@ -316,7 +316,7 @@ O caso do Yuta continua existindo **na ficção** — a instituição pode class
 
 **O que a Origem dá mudou também.** Antes: duas perícias e um Teste de Resistência. Agora, o §2 desta peça é o dono da lista — e ela cresceu: uma perícia da lista, uma livre, **dois ofícios** (ou mais uma perícia no lugar dos dois), um Teste de Resistência, um traço, **dois** Legados e a rota de criação.
 
-> **Esta linha ficou parada duas vezes.** *Ela publicava `um ofício livre ou mais uma perícia` depois de a v0.206 tirar o ofício da Origem, e publicava `um Legado` desde que os Legados viraram dois.* **Ninguém acendia porque a guarda do §12 do `conferir-legados.py` lê o capítulo do livro, não este parágrafo.** *Agora ela aponta para o §2 em vez de recopiar a lista, que é o único jeito de não envelhecer de novo.*
+> **Esta linha ficou parada duas vezes.** *Ela publicava `um ofício livre ou mais uma perícia` depois de a v0.212 tirar o extra da Origem, e publicava `um Legado` desde que os Legados viraram dois.* **Ninguém acendia porque a guarda do §12 do `conferir-legados.py` lê o capítulo do livro, não este parágrafo.** *Agora ela aponta para o §2 em vez de recopiar a lista, que é o único jeito de não envelhecer de novo.*
 
 ## 8. Em aberto
 

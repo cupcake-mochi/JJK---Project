@@ -12,7 +12,9 @@ Versão v0.12, encurtada na v0.21 — 06/08/2026
 > **Perícia = d20 + atributo + maestria, se você for treinado.**
 > **Sem treino, é d20 + atributo.**
 
-Uma frase, sem exceção. Maestria é o que marca o treino — é o número que diz *isto aqui eu faço melhor que os outros*.
+Uma frase. Maestria é o que marca o treino — é o número que diz *isto aqui eu faço melhor que os outros*.
+
+**E o treino tem um segundo grau, que se compra: a especialização.** *Do nível 10 em diante, a escolha `Corpo` do marco pode especializar uma perícia ou um ofício que você já treina, e aí você soma **metade da maestria** de novo naquela rolagem.* **A regra mora na peça 11 §3.** *Esta seção dizia "uma frase, sem exceção" desde a v0.12, e deixou de ser verdade na v0.212.*
 
 ### Por que o treino é a MESMA coisa nos dois — e por que já não foi
 
@@ -100,7 +102,7 @@ Uma frase, sem exceção. Maestria é o que marca o treino — é o número que 
 
 **Vinte e três perícias e onze ofícios**, em `07-pericias-e-oficios.md`. O Caminho dá duas perícias fixas e mais cinco à escolha livre; a Origem dá mais duas perícias e dois ofícios livres. Nove de vinte e três.
 
-*Esta linha publicava `quatro à escolha` e `Oito de vinte e três` — os números de antes da v0.206 — e nenhum validador acendia, porque ela é prosa e a contagem que o `conferir-pericias.py` confere sai da peça 7.*
+*Esta linha publicava `quatro à escolha` e `Oito de vinte e três` — os números de antes da v0.212 — e nenhum validador acendia, porque ela é prosa e a contagem que o `conferir-pericias.py` confere sai da peça 7.*
 
 *A lista de catorze que ficava aqui foi para `99-arquivo/secoes-substituidas/`.*
 
@@ -158,7 +160,7 @@ Um conjurador **pode** fazer ataque de oportunidade, com soco ou arma, como qual
 ## 7. Em aberto
 
 - **Se Força precisa de um segundo trabalho.** Uma perícia é pouco, e a lista de vinte e três não consertou.
-- **Se treino em perícia tem graus** (treinado, especialista, mestre) ou é binário. Binário por ora — graus adicionam uma escada nova para pouco ganho, e a maestria já cresce.
+- ~~**Se treino em perícia tem graus** (treinado, especialista, mestre) ou é binário. Binário por ora — graus adicionam uma escada nova para pouco ganho, e a maestria já cresce.~~ ***FECHADO na v0.212, e este aviso só saiu na v0.263.*** **São dois graus: treinado soma a maestria, especializado soma metade dela de novo** — *comprado pela escolha `Corpo` do marco, do nível 10 em diante, na peça 11 §3.* **O motivo do "por ora" foi respeitado:** *a especialização não abriu escada nova, ela é a mesma maestria pela metade.* *Foram cinquenta e uma versões com as duas peças discordando, e nenhuma checagem comparava.*
 - **Quantas trilhas de Caminho abrem exceção de conjuração na reação**, e sob que condição.
 
 *Resolvido e tirado daqui:* a lista de catorze virou o quadro de **vinte e três perícias e onze ofícios** da peça 7.

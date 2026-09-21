@@ -82,7 +82,7 @@ Amarrar atributo à origem cria o problema clássico de raça em d20: a escolha 
 
 O que a origem dá, então:
 
-- **Uma perícia da lista dela e uma livre.** *A Origem parou de dar ofício na v0.211.*
+- **Uma perícia da lista dela e uma livre, e os dois ofícios.** *A conta mora na peça 7 §6. Esta linha dizia "a Origem parou de dar ofício na v0.211" até a v0.263 — ela parou de dar o extra na v0.212 e passou a dar os dois ofícios na v0.216.*
 - **Um Teste de Resistência treinado.** O outro vem do Caminho.
 - **Um traço não numérico.** Acesso, obrigação, um contato, uma marca no corpo, alguém atrás de você.
 - **Um Legado**, um só na ficha inteira.
@@ -114,4 +114,6 @@ E as duas escadas se encaixam: a maestria sobe nos marcos de **nível 10, 18 e 2
 - **Se a criação deve permitir trocar pontos por uma desvantagem**, no molde de comprar um atributo negativo para subir outro. Fica de fora por ora: agrega pouco e custa clareza.
 - **Se o teto de 3 na criação ainda aguenta**, agora que Constituição virou a maior alavanca de sobrevivência do sistema. Nove pontos com teto 3 fazem "3 em Constituição" ser barato demais de alcançar.
 
-*Resolvidos e tirados daqui:* quantos pontos de perícia e como funciona o treino — **o Caminho dá duas fixas e quatro livres; a Origem dá uma da lista dela, uma livre e um extra à escolha; e o treino é binário** (peças 7 e 9). E o treino em Teste de Resistência: **um da Origem, um do Caminho**.
+*Resolvidos e tirados daqui:* quantos pontos de perícia e como funciona o treino — **a conta mora na peça 7 §6, e o segundo grau do treino, a especialização, na peça 11 §3.** E o treino em Teste de Resistência: **um da Origem, um do Caminho**.
+
+> *Esta linha recopiava a conta, e três pedaços dela envelheceram sem ninguém ver:* **na v0.212 as "quatro livres" viraram cinco, o "extra à escolha" da Origem acabou e a especialização deu ao treino um segundo grau; na v0.216 o ofício foi para a Origem.** *Achado na v0.263, e hoje ela aponta em vez de repetir.*
