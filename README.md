@@ -2,7 +2,7 @@
 
 **O sistema se chama `Projeto - M`**, batizado na v0.94 — era a pendência mais velha que existia aqui, aberta na v0.1. Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.261** · manual do Fundamento na **v7.36** · **vinte e seis peças de regra** e **vinte e seis validadores passando** · o Manual da Guilda em **18 capítulos**.
+**Versão v0.262** · manual do Fundamento na **v7.37** · **vinte e sete peças de regra** e **vinte e sete validadores passando** · o Manual da Guilda em **19 capítulos**.
 
 ---
 
@@ -52,8 +52,8 @@ Depois disso, a ordem de leitura é a da próxima seção, e os validadores são
 │   ├── CHANGELOG.md                     o porquê de cada decisão, da v0.1 até a versão atual
 │   └── CHANGELOG-manual-v6-para-v7.md   o changelog do manual, antes de ele entrar aqui
 ├── manual/
-│   ├── Fundamento-MANUAL-v7.docx        v7.36 — o manual gerado
-│   ├── Fundamento-MANUAL-v7.pdf         v7.36 — o mesmo do .docx desde a v0.93
+│   ├── Fundamento-MANUAL-v7.docx        v7.37 — o manual gerado
+│   ├── Fundamento-MANUAL-v7.pdf         v7.37 — o mesmo do .docx desde a v0.93
 │   ├── gerador/                         Node + docx. `node make.js` recria o .docx do zero
 │   └── matematica/                      pac7.py e v7.py, os validadores do manual
 └── sistema/
@@ -62,7 +62,7 @@ Depois disso, a ordem de leitura é a da próxima seção, e os validadores são
     ├── 00-fundacao/                     os três pilares e as restrições do projeto
     ├── 01-pesquisa/                     dossiê de metodologia — a seção 8 lista as dez travas
     ├── 02-esqueleto/                    arquitetura: subsistemas e como se encaixam
-    ├── 03-mecanica/                     as vinte e seis peças de regra e os vinte e seis validadores
+    ├── 03-mecanica/                     as vinte e sete peças de regra e os vinte e sete validadores
     ├── 04-playtest/                     a Mesa 1, medida na v0.215 — a primeira sessão
     ├── 05-material/                     a ficha (e o gerador dela) e o livro/, o Manual da Guilda completo
     ├── 99-arquivo/                      material morto, com LEIA-ME próprio

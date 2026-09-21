@@ -1076,7 +1076,18 @@ else:
     # Familia `conferir-[a-z-]+\.py`, ja declarada. A base subiu na mesma versao em que a
     # citacao entrou, que e' o que os seis paragrafos acima pedem e ninguem fez entre a
     # v0.233 e a v0.255.
-    BRANCAS_AQUI, FOLGA = 181, 5
+    # v0.262: 181 -> 183, e sao DUAS somas com origens diferentes.
+    #   . +1 MEDIDO: `conferir-ritual.py` na peca 27 (v0.262). Nome de validador,
+    #     familia `conferir-[a-z-]+\.py` ja declarada, e nao e material de mesa.
+    #     O capitulo 46 do livro NAO entra: a entrega leva o livro como .pdf e
+    #     .docx, e a checagem so anda em .md (32 deles: README, 5 em desenho/,
+    #     26 em regra/).
+    #   . +1 que JA ESTAVA: rodado no principal limpo, no commit da v0.261, o
+    #     validador ja acusava 182 contra a base 181. A citacao que entrou entre
+    #     a v0.260 e a v0.261 nao foi identificada — as de validador ficaram em
+    #     124 nos dois recortes —, e a base ficou atrasada sem o motivo escrito.
+    #     Fica registrado que o atraso e' de UMA e de onde ele nao veio.
+    BRANCAS_AQUI, FOLGA = 183, 5
     PISO_CITACOES, TETO_BRANCOS = 120, BRANCAS_AQUI + FOLGA
     if vistos_e < PISO_CITACOES:
         erro(f'7.2: achei so {vistos_e} citacoes na entrega, e o piso e {PISO_CITACOES} — '

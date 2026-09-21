@@ -427,7 +427,7 @@ A sua invocação pode empunhar uma arma do catálogo de Equipamento. Duas coisa
 
 ## Selar com talismã
 
-O selo tem regra, e ela não é deste capítulo: ela está no capítulo 15, *Ferramenta Amaldiçoada*, na seção *Objeto amaldiçoado*. **O selo inverte a atração em vez de tampar, ele gasta com o tempo, e quanto ele dura é decisão do seu mestre.**
+O selo tem regra, e ela não é deste capítulo: ela está no capítulo 16, *Ferramenta Amaldiçoada*, na seção *Objeto amaldiçoado*. **O selo inverte a atração em vez de tampar, ele gasta com o tempo, e quanto ele dura é decisão do seu mestre.**
 
 **A sua invocação não sela.** O `talismã` aqui é um tipo de invocação como os outros três, com a vida dele — selar não é `Traço` nem `Comando`, e não existe entrada de catálogo que faça isso.
 

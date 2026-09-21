@@ -100,7 +100,7 @@ Três degraus. O escudo ocupa uma mão, soma com a sua proteção venha ela de o
 
 São 52, divididas em treze categorias. A categoria diz o que a coisa é, de onde vem o dano dela e em qual lista de treino ela cai.
 
-Nenhuma arma deste catálogo fere maldição sozinha. Contra maldição, o que a elimina é energia amaldiçoada no golpe ou uma ferramenta amaldiçoada na mão, que é o que o `Estigma` explica no capítulo 15, *Ferramenta Amaldiçoada*. O catálogo de armas continua valendo inteiro contra pessoas, contra animais e contra objetos.
+Nenhuma arma deste catálogo fere maldição sozinha. Contra maldição, o que a elimina é energia amaldiçoada no golpe ou uma ferramenta amaldiçoada na mão, que é o que o `Estigma` explica no capítulo 16, *Ferramenta Amaldiçoada*. O catálogo de armas continua valendo inteiro contra pessoas, contra animais e contra objetos.
 
 ### Como ler uma arma
 
@@ -410,7 +410,7 @@ Item comum — pé de cabra, lanterna, corda, o que estiver na mochila — é **
 
 ## Dinheiro e acesso
 
-> **A moeda é o iene. Você recebe um salário mensal da instituição, e o valor sai da sua patente** — a tabela **Salário por patente** está no capítulo 18, *Experiência e Progressão*.
+> **A moeda é o iene. Você recebe um salário mensal da instituição, e o valor sai da sua patente** — a tabela **Salário por patente** está no capítulo 19, *Experiência e Progressão*.
 >
 > **Dinheiro compra o que está à venda. O seu Grau libera o que não está.**
 

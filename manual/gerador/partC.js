@@ -62,7 +62,7 @@ const montar = [
   ),
   GAP(120),
   P('Trocar rolagem de acerto por Teste de Resistência, ou o contrário, é de graça.'),
-  P('Cada Forma pertence a uma Família: Explosão, Cone e Linha à **Área**; Cura, Apoio e Onda ao **Amparo**. Fundamento com a Família Fechada fica sem essas Formas. Projétil, Toque e Efeito são de todo mundo.'),
+  P('Cada Forma pertence a uma Família: Explosão, Aura, Cone e Linha à **Área**; Cura, Apoio e Onda ao **Amparo**. Fundamento com a Família Fechada fica sem essas Formas. Projétil, Toque e Efeito são de todo mundo.'),
 
   H2('Escadas'),
   P('Alcances e tamanhos crescem por degraus fixos. As Melhorias de Alcance e Área (Longe, Maior e as irmãs) sobem degraus nestas escadas:'),

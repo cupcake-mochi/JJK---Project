@@ -101,7 +101,7 @@ Existe um dano na alma que não leva o corpo junto: ele tira Integridade e **só
 
 > **Dano na alma que atravessa não tira vida.** Ele desconta da Integridade, e os estágios valem igual.
 
-Isso não é o padrão — é exceção, e ela precisa estar escrita no efeito. **Hoje existe uma:** o `Cisão`, no capítulo 15, *Ferramenta Amaldiçoada*.
+Isso não é o padrão — é exceção, e ela precisa estar escrita no efeito. **Hoje existe uma:** o `Cisão`, no capítulo 16, *Ferramenta Amaldiçoada*.
 
 ## Condições
 

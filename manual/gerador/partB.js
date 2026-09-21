@@ -53,7 +53,7 @@ const fundamento = [
   BUL('As outras quatro ficam no preço normal.'),
   GAP(60),
   P('Na prática: uma Melhoria Média num feitiço de Classe 4 custa 4 pontos. Se ela for de uma Família Livre sua, o desconto de metade da Classe (2) derruba o preço pra 2. Se for de uma Família Fechada, ela não está à venda.'),
-  P('As Formas — o jeito como o feitiço sai, na seção 2 — também têm Família: Explosão, Cone e Linha são de **Área**; Cura, Apoio e Onda são de **Amparo**. Fechar uma dessas Famílias bloqueia as Formas dela junto. Projétil, Toque e Efeito são de todo mundo.'),
+  P('As Formas — o jeito como o feitiço sai, na seção 2 — também têm Família: Explosão, Aura, Cone e Linha são de **Área**; Cura, Apoio e Onda são de **Amparo**. Fechar uma dessas Famílias bloqueia as Formas dela junto. Projétil, Toque e Efeito são de todo mundo.'),
 
   H2('Selo'),
   P('O Selo é uma coisa que o seu personagem sempre precisa fazer pra conjurar, seja qual for o feitiço: um gesto, um som, uma condição visível. É a assinatura da técnica — o que a mesa vê ou ouve toda vez que ela entra em cena.'),

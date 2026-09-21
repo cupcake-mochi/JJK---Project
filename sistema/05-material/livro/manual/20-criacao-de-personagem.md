@@ -102,7 +102,7 @@ Mais **cinco perícias à sua escolha**, de qualquer uma da lista de perícias d
 
 > **Você sai de casa com o `Traje` degrau 1 da instituição e ¥150.000 para montar o resto.**
 
-O Caminho te treina numa lista de armas; ele não te dá a arma. Isso você compra, e as tabelas de `Preços` estão no capítulo 14, *Equipamento*. Os ¥150.000 são uma mensalidade de um Grau 4, que é o que você é no começo.
+O Caminho te treina numa lista de armas; ele não te dá a arma. Isso você compra, e as tabelas de `Preços` estão no capítulo 15, *Equipamento*. Os ¥150.000 são uma mensalidade de um Grau 4, que é o que você é no começo.
 
 O dinheiro dá para mais que a arma, e é aí que duas fichas do mesmo Caminho começam diferentes: dá para sair de espada e escudo, de uniforme reforçado, ou de `Revestimento` e punho fechado. As contas de cada uma estão no capítulo 14.
 
@@ -114,7 +114,7 @@ A Trilha é escolhida agora, junto do Caminho, e nasce com o personagem. São tr
 
 > **A Trilha já entrega no nível 2**, junto do primeiro degrau do Caminho, e volta a entregar nos níveis 11, 19 e 27. O texto de cada uma está no capítulo 8, *Caminhos e Trilhas*.
 >
-> **As três do Evocador concedem uma coisa a mais:** `Servo`, `Matilha` e `Coro` entregam **o corpo da invocação** junto com o degrau do nível 2. O corpo está no capítulo 8, na tabela das Trilhas do Evocador; a ficha dele você monta no capítulo 16, *Invocações*.
+> **As três do Evocador concedem uma coisa a mais:** `Servo`, `Matilha` e `Coro` entregam **o corpo da invocação** junto com o degrau do nível 2. O corpo está no capítulo 8, na tabela das Trilhas do Evocador; a ficha dele você monta no capítulo 17, *Invocações*.
 
 ## Passo 4 · Atributos
 

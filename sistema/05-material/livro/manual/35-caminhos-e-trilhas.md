@@ -50,7 +50,7 @@ E duas coisas que quase todo degrau daqui menciona:
 
 ### Treino de arma
 
-**O seu Caminho decide quais armas você pode empunhar.** Treino mora na categoria: treinar uma categoria libera todas as armas dela, e o catálogo inteiro está no capítulo 14, *Equipamento*.
+**O seu Caminho decide quais armas você pode empunhar.** Treino mora na categoria: treinar uma categoria libera todas as armas dela, e o catálogo inteiro está no capítulo 15, *Equipamento*.
 
 > **Os dois Caminhos de corpo a corpo — Bastião e Vanguarda — treinam as treze categorias.** Qualquer arma do catálogo é deles.
 >
@@ -58,7 +58,7 @@ E duas coisas que quase todo degrau daqui menciona:
 
 **Para um conjurador empunhar o resto, a porta é a Trilha.** É o que faz a `Empunhadura` do `Arremate`, no nível 2: ela concede um grupo de arma à sua escolha e ainda troca Força por Inteligência ou Essência naquele grupo. Um Emanador de espadão existe, e paga por isso com a escolha de Trilha.
 
-> **Sem treino, você tem desvantagem na rolagem de ataque com aquela arma**, e sem o requisito de Força dela o seu deslocamento cai pela metade enquanto você a estiver empunhando, além de você também atacar com desvantagem. O capítulo 14, *Equipamento*, tem as duas.
+> **Sem treino, você tem desvantagem na rolagem de ataque com aquela arma**, e sem o requisito de Força dela o seu deslocamento cai pela metade enquanto você a estiver empunhando, além de você também atacar com desvantagem. O capítulo 15, *Equipamento*, tem as duas.
 
 ### Limites
 
@@ -109,7 +109,7 @@ E duas coisas que quase todo degrau daqui menciona:
 
 *Perícia, ofício e Teste de Resistência entram na ficha uma vez, na criação. O quadro completo das vinte e três perícias e dos onze ofícios está no capítulo 3, __Perícias e Ofícios__.*
 
-*O Caminho treina você nessa lista de armas; ele não te dá a arma. O que você leva na mão você compra na criação, e as tabelas de `Preços` estão no capítulo 14, __Equipamento__.*
+*O Caminho treina você nessa lista de armas; ele não te dá a arma. O que você leva na mão você compra na criação, e as tabelas de `Preços` estão no capítulo 15, __Equipamento__.*
 
 ### Degraus do Bastião
 
@@ -186,7 +186,7 @@ E duas coisas que quase todo degrau daqui menciona:
 
 *Perícia, ofício e Teste de Resistência entram na ficha uma vez, na criação. O quadro completo das vinte e três perícias e dos onze ofícios está no capítulo 3, __Perícias e Ofícios__.*
 
-*O Caminho treina você nessa lista de armas; ele não te dá a arma. O que você leva na mão você compra na criação, e as tabelas de `Preços` estão no capítulo 14, __Equipamento__.*
+*O Caminho treina você nessa lista de armas; ele não te dá a arma. O que você leva na mão você compra na criação, e as tabelas de `Preços` estão no capítulo 15, __Equipamento__.*
 
 ### Degraus da Vanguarda
 
@@ -298,7 +298,7 @@ Arco longo, treino de clã, silêncio. A rota do `Yumi` troca cadência por prec
 
 A besta é ferramenta de quem trabalha sozinho e não tem tempo de recarregar. Essa rota resolve a manivela de uma vez e usa o impacto do virote para tirar o inimigo do lugar, o que faz dela a única das três que também administra posicionamento.
 
-> **Nível 2: `Manivela`.** As suas bestas **deixam de sofrer a penalidade de recarregar** — a propriedade `Munição` do capítulo 14, *Equipamento* —, você nunca recarrega.
+> **Nível 2: `Manivela`.** As suas bestas **deixam de sofrer a penalidade de recarregar** — a propriedade `Munição` do capítulo 15, *Equipamento* —, você nunca recarrega.
 >
 > **Nível 11: `Mirar`.** Você ganha a ação **`Mirar`**, e os seus ataques ao `Mirar` com arma de longo alcance somam **`+2` no acerto**.
 >
@@ -347,7 +347,7 @@ Pólvora, ruído e uma profissão que finge não usar isso. É a rota que funcio
 | `Couraça` | vestindo `Traje` ou `Revestimento` | `+1` de Defesa |
 | `Arma Grande` | arma de duas mãos | rerrolar `1` e `2` no dado de dano |
 
-O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 14, *Equipamento*.
+O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 15, *Equipamento*.
 
 ## Guia
 
@@ -371,7 +371,7 @@ O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 14, 
 
 *Perícia, ofício e Teste de Resistência entram na ficha uma vez, na criação. O quadro completo das vinte e três perícias e dos onze ofícios está no capítulo 3, __Perícias e Ofícios__.*
 
-*O Caminho treina você nessa lista de armas; ele não te dá a arma. O que você leva na mão você compra na criação, e as tabelas de `Preços` estão no capítulo 14, __Equipamento__.*
+*O Caminho treina você nessa lista de armas; ele não te dá a arma. O que você leva na mão você compra na criação, e as tabelas de `Preços` estão no capítulo 15, __Equipamento__.*
 
 > **Nenhuma rota dá ataque extra ao Guia.** Quem quiser lutar de Guia paga pela técnica, como todo mundo.
 
@@ -454,7 +454,7 @@ O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 14, 
 
 *Perícia, ofício e Teste de Resistência entram na ficha uma vez, na criação. O quadro completo das vinte e três perícias e dos onze ofícios está no capítulo 3, __Perícias e Ofícios__.*
 
-*O Caminho treina você nessa lista de armas; ele não te dá a arma. O que você leva na mão você compra na criação, e as tabelas de `Preços` estão no capítulo 14, __Equipamento__.*
+*O Caminho treina você nessa lista de armas; ele não te dá a arma. O que você leva na mão você compra na criação, e as tabelas de `Preços` estão no capítulo 15, __Equipamento__.*
 
 ### Degraus do Emanador
 
@@ -531,7 +531,7 @@ O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 14, 
 
 *Perícia, ofício e Teste de Resistência entram na ficha uma vez, na criação. O quadro completo das vinte e três perícias e dos onze ofícios está no capítulo 3, __Perícias e Ofícios__.*
 
-*O Caminho treina você nessa lista de armas; ele não te dá a arma. O que você leva na mão você compra na criação, e as tabelas de `Preços` estão no capítulo 14, __Equipamento__.*
+*O Caminho treina você nessa lista de armas; ele não te dá a arma. O que você leva na mão você compra na criação, e as tabelas de `Preços` estão no capítulo 15, __Equipamento__.*
 
 ### Degraus do Evocador
 

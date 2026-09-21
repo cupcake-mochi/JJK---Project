@@ -1,4 +1,4 @@
-GERADOR DO MANUAL — Fundamento v7.36
+GERADOR DO MANUAL — Fundamento v7.37
 
 Recria o .docx do zero. Precisa de Node.js.
 
@@ -32,6 +32,17 @@ ORDEM DAS SEÇÕES (v7)
   4 Restrições → 5 Fora de combate → 6 Liberação Máxima → 7 Técnica Máxima →
   8 Regras de ouro → 9 Progressão → 10 Feitiços prontos → 11 Para o mestre →
   Apêndice
+
+O QUE MUDOU NA v7.37
+
+  A Forma Aura entra na Familia Area. A frase que diz a Familia de cada Forma
+  cobria nove das dez: Explosao, Cone e Linha em Area, Cura, Apoio e Onda em
+  Amparo, Projetil, Toque e Efeito de todo mundo — e a Aura, que e a Explosao
+  com Corpo a Corpo embutida, nao estava em lugar nenhum. O efeito era de
+  acesso e nao de preco: fechar a Familia Area bloqueava Explosao, Cone e Linha
+  e deixava a Aura na mao. Era omissao e nao escolha, porque se fosse escolha
+  ela estaria em 'de todo mundo'. As duas frases mudam, a do partB e a do
+  partC; nenhum numero se move.
 
 O QUE MUDOU NA v7.36
 

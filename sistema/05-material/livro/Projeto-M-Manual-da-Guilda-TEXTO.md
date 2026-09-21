@@ -46,11 +46,12 @@ Nem todo capítulo é para ler do começo ao fim. Metade dos capítulos é catá
 | **10** | Técnica Marcial | *consulta* · a mesma máquina do Fundamento, com o corpo e o equipamento no lugar da energia |
 | **11** | Sem Técnica | *consulta* · a mesma máquina, para quem nasceu sem técnica inata |
 | **12** | Aptidões e Refino | *consulta* · o que qualquer feiticeiro pode aprender, técnica à parte |
-| **13** | Bênçãos e Lapidação | *consulta* · o que entra no lugar dos dois para quem não tem energia amaldiçoada |
-| **14** a **16** | Equipamento · Ferramenta Amaldiçoada · Invocações | *consulta* · o que você carrega e o que você põe em campo |
-| **17** | Pactos | *consulta* · o que você troca com a sua própria energia, e o que ela cobra |
+| **13** | Ritual | *consulta* · o que um feitiço ganha quando você para de omitir |
+| **14** | Bênçãos e Lapidação | *consulta* · o que entra no lugar dos dois para quem não tem energia amaldiçoada |
+| **15** a **17** | Equipamento · Ferramenta Amaldiçoada · Invocações | *consulta* · o que você carrega e o que você põe em campo |
+| **18** | Pactos | *consulta* · o que você troca com a sua própria energia, e o que ela cobra |
 | | **A CAMPANHA** | |
-| **18** | Experiência e Progressão | *consulta* · o que cada nível entrega, do 1 ao 30 |
+| **19** | Experiência e Progressão | *consulta* · o que cada nível entrega, do 1 ao 30 |
 | | **Índice remissivo** | no fim: termo, e em que página ele aparece |
 
 **Grupo novo, sem ninguém ter lido nada?** Vá direto para *Antes da primeira sessão*. É uma cena pronta, com ficha e tudo, para jogar antes de estudar o resto.
@@ -85,7 +86,7 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **`Aparar`** | O duplo 10 no `Bloquear`. O ataque não acerta, e você pode gastar a Reação para revidar com `+3` de dano | 1 |
 | **`Brecha`** | O duplo 1 no `Bloquear`. O ataque acerta, e o agressor pode gastar a Reação dele para atacar de novo | 1 |
 | **Arredondamento** | Sempre para o lado que não te favorece. O que você paga sobe, o que você ganha desce | 1 |
-| **Rotina** | O dano que um personagem entrega numa rodada comum, sem gastar recurso guardado | 16 |
+| **Rotina** | O dano que um personagem entrega numa rodada comum, sem gastar recurso guardado | 17 |
 
 ## Números da ficha
 
@@ -98,8 +99,8 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **Integridade** | A vida da alma. `20 + (Essência + 5) × (nível − 1)`. Só volta com descanso longo | 1 |
 | **`Vida temporária`** | Anteparo, não vida. Gasta antes da vida real, não acumula, teto de metade da vida máxima, some no fim da cena | 1 |
 | **`Energia temporária`** | A mesma regra, com o PE: gasta antes do PE, não acumula, teto de metade do PE máximo, some no fim da cena | 1 |
-| **Proteção** | O que soma na Defesa: o uniforme que você veste, ou a energia com que você se cobre | 14 |
-| **`Volume`** | O espaço que uma coisa ocupa na sua carga. O seu limite é `5 + Força`, e `12` kg valem `1` | 14 |
+| **Proteção** | O que soma na Defesa: o uniforme que você veste, ou a energia com que você se cobre | 15 |
+| **`Volume`** | O espaço que uma coisa ocupa na sua carga. O seu limite é `5 + Força`, e `12` kg valem `1` | 15 |
 | **Redução de Dano** | Desconto no dano que já passou pela Defesa. Não é a mesma coisa que proteção | 9 |
 | **Perícia** | Uma das vinte e três. Cada uma tem um atributo fixo. Sem treino você ainda tenta | 3 |
 | **Ofício** | Um dos onze. Não tem atributo fixo, e sem treino você **não** tenta | 3 |
@@ -121,8 +122,8 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **Origem** | De onde vem o seu poder. Sete, mais a sub-origem Sem Técnica | 7 |
 | **Legado** | O que você já trazia, das listas da sua Origem. Dois por ficha | 7 |
 | **Traço** | Marca de história vinda da Origem, sem número | 7 |
-| **Pacto** | O que você trocou por poder. Opcional. Quatro formas: permanente, temporário, `Promessa` e de restrição. Só o permanente tem teto, e ele é metade da Essência | 17 |
-| **`Promessa`** | O pacto entre duas partes, com as duas aceitando. Tem três termos: o que eu dou, o que eu recebo, e a cláusula que eu acrescento | 17 |
+| **Pacto** | O que você trocou por poder. Opcional. Quatro formas: permanente, temporário, `Promessa` e de restrição. Só o permanente tem teto, e ele é metade da Essência | 18 |
+| **`Promessa`** | O pacto entre duas partes, com as duas aceitando. Tem três termos: o que eu dou, o que eu recebo, e a cláusula que eu acrescento | 18 |
 | **Patente** | O seu reconhecimento na instituição, de Grau 4 a Grau 1. Todo personagem começa **Grau 4** | 7 |
 
 > **Cuidado com a palavra `Grau`.** Ela nomeia duas escadas de cinco casas que não se encostam: a **patente** de um feiticeiro e o **grau** de uma ferramenta amaldiçoada. Patente é reconhecimento; grau de ferramenta é a energia que a ferramenta carrega. O capítulo 15 abre a diferença.
@@ -148,7 +149,7 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **Classe 0** | O feitiço grátis: não gasta PE e não ocupa espaço na lista | 9 |
 | **Passiva** | Efeito que fica ligado sozinho. Custa espaço de feitiço | 9 |
 | **Classe Passiva** | A altura de uma Passiva, de Livre a 3. Diz quantos espaços ela cobra e em que nível abre | 9 |
-| **Espaço de feitiço** | `2 + (nível ÷ 2)`, arredondando para baixo, mais um por marco. É a moeda que Passiva e Expansão de Domínio também gastam | 18 |
+| **Espaço de feitiço** | `2 + (nível ÷ 2)`, arredondando para baixo, mais um por marco. É a moeda que Passiva e Expansão de Domínio também gastam | 19 |
 | **Ampliar** | Lançar um feitiço que você conhece numa Classe maior, pagando o PE da Classe nova | 9 |
 | **Liberação Máxima** | Feitiço à parte, escrito antes da sessão, de Classe 3 ou mais. Rompe o limite de dano num alvo só. Nos níveis 10, 20 e 30 | 9 |
 | **Técnica Máxima** | O golpe de dano fixo que carrega o nome da técnica. Do nível 17 em diante | 9 |
@@ -176,20 +177,20 @@ O eixo de controle de quem não tem energia amaldiçoada nenhuma, no lugar do re
 **Bênçãos e Lapidação**
 | Termo | O que é | Cap. |
 |---|---|---|
-| **Lapidação** | Quanto do que o corpo tem chega até o fim do movimento. Começa em 1, teto 10. Sobe `+1` de graça em cada marco | 13 |
-| **Bênção** | O que um corpo sem energia aprende a fazer. Catorze, e custa marco | 13 |
-| **`Defesa sem Armadura`** | Bênção de graça: proteção `1/3 da Lapidação + 1`, e barreira de energia não segura você | 13 |
-| **`Estímulo Muscular`** | Bênção de graça: vantagem numa perícia e num Teste de Resistência escolhidos, `1×` por cena | 13 |
+| **Lapidação** | Quanto do que o corpo tem chega até o fim do movimento. Começa em 1, teto 10. Sobe `+1` de graça em cada marco | 14 |
+| **Bênção** | O que um corpo sem energia aprende a fazer. Catorze, e custa marco | 14 |
+| **`Defesa sem Armadura`** | Bênção de graça: proteção `1/3 da Lapidação + 1`, e barreira de energia não segura você | 14 |
+| **`Estímulo Muscular`** | Bênção de graça: vantagem numa perícia e num Teste de Resistência escolhidos, `1×` por cena | 14 |
 
 ## Progressão
 
 **Progressão**
 | Termo | O que é | Cap. |
 |---|---|---|
-| **Marco** | Um dos sete níveis em que a ficha muda de forma: **6, 10, 14, 18, 22, 26 e 30** | 18 |
+| **Marco** | Um dos sete níveis em que a ficha muda de forma: **6, 10, 14, 18, 22, 26 e 30** | 19 |
 | **Refino** | Quanto da sua energia você não desperdiça. Começa em 1, teto 10. Sobe `+1` de graça em cada marco | 12 |
 | **Aptidão** | O que qualquer feiticeiro pode aprender, independente da técnica. Custa marco, e só marco | 12 |
-| **Corpo**, **Refino**, **Leque** | As três escolhas que um marco oferece: mais atributo e mais uma perícia ou ofício; mais refino e uma aptidão; ou mais feitiço e uma Passiva. Numa ficha sem energia, o eixo do meio é **Lapidação** e entrega Bênção | 18 |
+| **Corpo**, **Refino**, **Leque** | As três escolhas que um marco oferece: mais atributo e mais uma perícia ou ofício; mais refino e uma aptidão; ou mais feitiço e uma Passiva. Numa ficha sem energia, o eixo do meio é **Lapidação** e entrega Bênção | 19 |
 
 ## Turno
 
@@ -234,26 +235,26 @@ Melhoria — são escadas diferentes que usam as mesmas três palavras. O capít
 **Equipamento**
 | Termo | O que é | Cap. |
 |---|---|---|
-| **Ferramenta amaldiçoada** | Arma forjada para ferir maldição. Tem grau, de 4 a especial | 15 |
-| **`Estigma`** | O efeito que uma ferramenta carrega. O grau dela decide o formato | 15 |
-| **`Desgaste`** | A ferramenta dispensa o nível mínimo do `Estigma`, e em troca dura um número fixo de missões | 15 |
-| **Invocação** | O que você põe em campo e comanda. Tem ficha própria, montada com orçamento | 16 |
-| **Amarra** | A invocação tem de ficar a até 18 metros de você, ou não pode ser comandada | 16 |
-| **`Emaranha`** | Propriedade de arma: você pode `Agarrar` sem largar a arma | 14 |
-| **`Fineza`** | Propriedade de arma: no corpo a corpo, troca Força por Destreza no acerto e no dano | 14 |
-| **`Longo Alcance`** | Propriedade de arma: ela alcança à distância, em metros | 14 |
-| **`Oculta`** | Propriedade de arma: dá para esconder no corpo, com um teste de `Prestidigitação` | 14 |
-| **`Par`** | Propriedade de arma: role dois dados de dano e fique com o melhor | 14 |
-| **`Rompe`** | Propriedade de arma: vantagem contra objeto e estrutura | 14 |
-| **`Talha`** | Propriedade de arma: `−1` no `Bloquear` de quem se defende | 14 |
-| **`Versátil`** | Propriedade de arma: nas duas mãos, o dado sobe um passo | 14 |
-| **`Vestida`** | Propriedade de arma: não ocupa a mão | 14 |
-| **`Volumosa`** | Propriedade de arma: não dá para esconder, e atrapalha em espaço apertado | 14 |
-| **`Chamariz`** | Comando de invocação: o alvo tem de vir para cima dela | 16 |
-| **`Fisgada`** | Traço de invocação: prende o alvo à distância | 16 |
-| **`Remoto`** | Traço de invocação: funciona além dos 18 metros da amarra | 16 |
-| **`Vigia`** | Traço de invocação: o que ela vê e ouve, você vê e ouve | 16 |
-| **`Voo`** | Traço de invocação: voa, e o terreno para de valer para ela | 16 |
+| **Ferramenta amaldiçoada** | Arma forjada para ferir maldição. Tem grau, de 4 a especial | 16 |
+| **`Estigma`** | O efeito que uma ferramenta carrega. O grau dela decide o formato | 16 |
+| **`Desgaste`** | A ferramenta dispensa o nível mínimo do `Estigma`, e em troca dura um número fixo de missões | 16 |
+| **Invocação** | O que você põe em campo e comanda. Tem ficha própria, montada com orçamento | 17 |
+| **Amarra** | A invocação tem de ficar a até 18 metros de você, ou não pode ser comandada | 17 |
+| **`Emaranha`** | Propriedade de arma: você pode `Agarrar` sem largar a arma | 15 |
+| **`Fineza`** | Propriedade de arma: no corpo a corpo, troca Força por Destreza no acerto e no dano | 15 |
+| **`Longo Alcance`** | Propriedade de arma: ela alcança à distância, em metros | 15 |
+| **`Oculta`** | Propriedade de arma: dá para esconder no corpo, com um teste de `Prestidigitação` | 15 |
+| **`Par`** | Propriedade de arma: role dois dados de dano e fique com o melhor | 15 |
+| **`Rompe`** | Propriedade de arma: vantagem contra objeto e estrutura | 15 |
+| **`Talha`** | Propriedade de arma: `−1` no `Bloquear` de quem se defende | 15 |
+| **`Versátil`** | Propriedade de arma: nas duas mãos, o dado sobe um passo | 15 |
+| **`Vestida`** | Propriedade de arma: não ocupa a mão | 15 |
+| **`Volumosa`** | Propriedade de arma: não dá para esconder, e atrapalha em espaço apertado | 15 |
+| **`Chamariz`** | Comando de invocação: o alvo tem de vir para cima dela | 17 |
+| **`Fisgada`** | Traço de invocação: prende o alvo à distância | 17 |
+| **`Remoto`** | Traço de invocação: funciona além dos 18 metros da amarra | 17 |
+| **`Vigia`** | Traço de invocação: o que ela vê e ouve, você vê e ouve | 17 |
+| **`Voo`** | Traço de invocação: voa, e o terreno para de valer para ela | 17 |
 
 ## Formas, Melhorias e Restrições do Fundamento
 
@@ -1249,7 +1250,7 @@ Existe um dano na alma que não leva o corpo junto: ele tira Integridade e **só
 
 > **Dano na alma que atravessa não tira vida.** Ele desconta da Integridade, e os estágios valem igual.
 
-Isso não é o padrão — é exceção, e ela precisa estar escrita no efeito. **Hoje existe uma:** o `Cisão`, no capítulo 15, *Ferramenta Amaldiçoada*.
+Isso não é o padrão — é exceção, e ela precisa estar escrita no efeito. **Hoje existe uma:** o `Cisão`, no capítulo 16, *Ferramenta Amaldiçoada*.
 
 ## Condições
 
@@ -1732,7 +1733,7 @@ Mais **cinco perícias à sua escolha**, de qualquer uma da lista de perícias d
 
 > **Você sai de casa com o `Traje` degrau 1 da instituição e ¥150.000 para montar o resto.**
 
-O Caminho te treina numa lista de armas; ele não te dá a arma. Isso você compra, e as tabelas de `Preços` estão no capítulo 14, *Equipamento*. Os ¥150.000 são uma mensalidade de um Grau 4, que é o que você é no começo.
+O Caminho te treina numa lista de armas; ele não te dá a arma. Isso você compra, e as tabelas de `Preços` estão no capítulo 15, *Equipamento*. Os ¥150.000 são uma mensalidade de um Grau 4, que é o que você é no começo.
 
 O dinheiro dá para mais que a arma, e é aí que duas fichas do mesmo Caminho começam diferentes: dá para sair de espada e escudo, de uniforme reforçado, ou de `Revestimento` e punho fechado. As contas de cada uma estão no capítulo 14.
 
@@ -1744,7 +1745,7 @@ A Trilha é escolhida agora, junto do Caminho, e nasce com o personagem. São tr
 
 > **A Trilha já entrega no nível 2**, junto do primeiro degrau do Caminho, e volta a entregar nos níveis 11, 19 e 27. O texto de cada uma está no capítulo 8, *Caminhos e Trilhas*.
 >
-> **As três do Evocador concedem uma coisa a mais:** `Servo`, `Matilha` e `Coro` entregam **o corpo da invocação** junto com o degrau do nível 2. O corpo está no capítulo 8, na tabela das Trilhas do Evocador; a ficha dele você monta no capítulo 16, *Invocações*.
+> **As três do Evocador concedem uma coisa a mais:** `Servo`, `Matilha` e `Coro` entregam **o corpo da invocação** junto com o degrau do nível 2. O corpo está no capítulo 8, na tabela das Trilhas do Evocador; a ficha dele você monta no capítulo 17, *Invocações*.
 
 ## Passo 4 · Atributos
 
@@ -2671,7 +2672,7 @@ E duas coisas que quase todo degrau daqui menciona:
 
 ### Treino de arma
 
-**O seu Caminho decide quais armas você pode empunhar.** Treino mora na categoria: treinar uma categoria libera todas as armas dela, e o catálogo inteiro está no capítulo 14, *Equipamento*.
+**O seu Caminho decide quais armas você pode empunhar.** Treino mora na categoria: treinar uma categoria libera todas as armas dela, e o catálogo inteiro está no capítulo 15, *Equipamento*.
 
 > **Os dois Caminhos de corpo a corpo — Bastião e Vanguarda — treinam as treze categorias.** Qualquer arma do catálogo é deles.
 >
@@ -2679,7 +2680,7 @@ E duas coisas que quase todo degrau daqui menciona:
 
 **Para um conjurador empunhar o resto, a porta é a Trilha.** É o que faz a `Empunhadura` do `Arremate`, no nível 2: ela concede um grupo de arma à sua escolha e ainda troca Força por Inteligência ou Essência naquele grupo. Um Emanador de espadão existe, e paga por isso com a escolha de Trilha.
 
-> **Sem treino, você tem desvantagem na rolagem de ataque com aquela arma**, e sem o requisito de Força dela o seu deslocamento cai pela metade enquanto você a estiver empunhando, além de você também atacar com desvantagem. O capítulo 14, *Equipamento*, tem as duas.
+> **Sem treino, você tem desvantagem na rolagem de ataque com aquela arma**, e sem o requisito de Força dela o seu deslocamento cai pela metade enquanto você a estiver empunhando, além de você também atacar com desvantagem. O capítulo 15, *Equipamento*, tem as duas.
 
 ### Limites
 
@@ -2726,7 +2727,7 @@ E duas coisas que quase todo degrau daqui menciona:
 
 *Perícia, ofício e Teste de Resistência entram na ficha uma vez, na criação. O quadro completo das vinte e três perícias e dos onze ofícios está no capítulo 3, __Perícias e Ofícios__.*
 
-*O Caminho treina você nessa lista de armas; ele não te dá a arma. O que você leva na mão você compra na criação, e as tabelas de `Preços` estão no capítulo 14, __Equipamento__.*
+*O Caminho treina você nessa lista de armas; ele não te dá a arma. O que você leva na mão você compra na criação, e as tabelas de `Preços` estão no capítulo 15, __Equipamento__.*
 
 ### Degraus do Bastião
 
@@ -2801,7 +2802,7 @@ E duas coisas que quase todo degrau daqui menciona:
 
 *Perícia, ofício e Teste de Resistência entram na ficha uma vez, na criação. O quadro completo das vinte e três perícias e dos onze ofícios está no capítulo 3, __Perícias e Ofícios__.*
 
-*O Caminho treina você nessa lista de armas; ele não te dá a arma. O que você leva na mão você compra na criação, e as tabelas de `Preços` estão no capítulo 14, __Equipamento__.*
+*O Caminho treina você nessa lista de armas; ele não te dá a arma. O que você leva na mão você compra na criação, e as tabelas de `Preços` estão no capítulo 15, __Equipamento__.*
 
 ### Degraus da Vanguarda
 
@@ -2911,7 +2912,7 @@ Arco longo, treino de clã, silêncio. A rota do `Yumi` troca cadência por prec
 
 A besta é ferramenta de quem trabalha sozinho e não tem tempo de recarregar. Essa rota resolve a manivela de uma vez e usa o impacto do virote para tirar o inimigo do lugar, o que faz dela a única das três que também administra posicionamento.
 
-> **Nível 2: `Manivela`.** As suas bestas **deixam de sofrer a penalidade de recarregar** — a propriedade `Munição` do capítulo 14, *Equipamento* —, você nunca recarrega.
+> **Nível 2: `Manivela`.** As suas bestas **deixam de sofrer a penalidade de recarregar** — a propriedade `Munição` do capítulo 15, *Equipamento* —, você nunca recarrega.
 >
 > **Nível 11: `Mirar`.** Você ganha a ação **`Mirar`**, e os seus ataques ao `Mirar` com arma de longo alcance somam **`+2` no acerto**.
 >
@@ -2958,7 +2959,7 @@ Pólvora, ruído e uma profissão que finge não usar isso. É a rota que funcio
 | `Couraça` | vestindo `Traje` ou `Revestimento` | `+1` de Defesa |
 | `Arma Grande` | arma de duas mãos | rerrolar `1` e `2` no dado de dano |
 
-O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 14, *Equipamento*.
+O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 15, *Equipamento*.
 
 ## Guia
 
@@ -2980,7 +2981,7 @@ O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 14, 
 
 *Perícia, ofício e Teste de Resistência entram na ficha uma vez, na criação. O quadro completo das vinte e três perícias e dos onze ofícios está no capítulo 3, __Perícias e Ofícios__.*
 
-*O Caminho treina você nessa lista de armas; ele não te dá a arma. O que você leva na mão você compra na criação, e as tabelas de `Preços` estão no capítulo 14, __Equipamento__.*
+*O Caminho treina você nessa lista de armas; ele não te dá a arma. O que você leva na mão você compra na criação, e as tabelas de `Preços` estão no capítulo 15, __Equipamento__.*
 
 > **Nenhuma rota dá ataque extra ao Guia.** Quem quiser lutar de Guia paga pela técnica, como todo mundo.
 
@@ -3061,7 +3062,7 @@ O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 14, 
 
 *Perícia, ofício e Teste de Resistência entram na ficha uma vez, na criação. O quadro completo das vinte e três perícias e dos onze ofícios está no capítulo 3, __Perícias e Ofícios__.*
 
-*O Caminho treina você nessa lista de armas; ele não te dá a arma. O que você leva na mão você compra na criação, e as tabelas de `Preços` estão no capítulo 14, __Equipamento__.*
+*O Caminho treina você nessa lista de armas; ele não te dá a arma. O que você leva na mão você compra na criação, e as tabelas de `Preços` estão no capítulo 15, __Equipamento__.*
 
 ### Degraus do Emanador
 
@@ -3136,7 +3137,7 @@ O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 14, 
 
 *Perícia, ofício e Teste de Resistência entram na ficha uma vez, na criação. O quadro completo das vinte e três perícias e dos onze ofícios está no capítulo 3, __Perícias e Ofícios__.*
 
-*O Caminho treina você nessa lista de armas; ele não te dá a arma. O que você leva na mão você compra na criação, e as tabelas de `Preços` estão no capítulo 14, __Equipamento__.*
+*O Caminho treina você nessa lista de armas; ele não te dá a arma. O que você leva na mão você compra na criação, e as tabelas de `Preços` estão no capítulo 15, __Equipamento__.*
 
 ### Degraus do Evocador
 
@@ -3431,7 +3432,7 @@ As outras quatro ficam no preço normal, e são neutras.
 
 Na prática: uma Melhoria `Média` num feitiço de Classe 4 custa 4 pontos. Se ela for de uma Família Livre sua, o desconto de metade da Classe (2) derruba o preço para 2. Se for de uma Família Fechada, ela não está à venda.
 
-As Formas, que são o jeito como o feitiço sai, também têm Família: `Explosão`, `Cone` e `Linha` são de **Área**; `Cura`, `Apoio` e `Onda` são de **Amparo**. Fechar uma dessas Famílias bloqueia as Formas dela junto. `Projétil`, `Toque` e `Efeito` são de todo mundo.
+As Formas, que são o jeito como o feitiço sai, também têm Família: `Explosão`, `Aura`, `Cone` e `Linha` são de **Área**; `Cura`, `Apoio` e `Onda` são de **Amparo**. Fechar uma dessas Famílias bloqueia as Formas dela junto. `Projétil`, `Toque` e `Efeito` são de todo mundo.
 
 ### Selo
 
@@ -3582,7 +3583,7 @@ Com o Fundamento escrito, os feitiços saem dele. Montar um feitiço é uma cont
 
 ### Teto de feitiços
 
-Antes de montar o primeiro, veja quantos você tem direito de escrever. A conta é do capítulo 18, *Experiência e Progressão*.
+Antes de montar o primeiro, veja quantos você tem direito de escrever. A conta é do capítulo 19, *Experiência e Progressão*.
 
 > **Espaços de feitiço conhecido = `2 + (nível ÷ 2)`, arredondando para baixo. Mais um por marco já alcançado.**
 > Os marcos são os níveis **6, 10, 14, 18, 22, 26 e 30**.
@@ -3663,7 +3664,7 @@ A Forma define quem o feitiço atinge e como ele se resolve. Escolha uma por fei
 
 Trocar rolagem de acerto por Teste de Resistência, ou o contrário, é de graça.
 
-Cada Forma pertence a uma Família: `Explosão`, `Cone` e `Linha` à **Área**; `Cura`, `Apoio` e `Onda` ao **Amparo**. Fundamento com a Família Fechada fica sem essas Formas. `Projétil`, `Toque` e `Efeito` são de todo mundo.
+Cada Forma pertence a uma Família: `Explosão`, `Aura`, `Cone` e `Linha` à **Área**; `Cura`, `Apoio` e `Onda` ao **Amparo**. Fundamento com a Família Fechada fica sem essas Formas. `Projétil`, `Toque` e `Efeito` são de todo mundo.
 
 #### Base por Classe
 
@@ -4318,7 +4319,7 @@ Oito regras seguram o sistema inteiro. Se um feitiço passar pelas oito, ele é 
 | **26** | Classe 7. |
 | **30** | A terceira Liberação Máxima. |
 
-O Fundamento manda na Classe, na Liberação Máxima e em quando cada Classe Passiva abre. Quantos feitiços você conhece é conta de *Experiência e Progressão*: a fórmula está resumida em *Criando feitiços*, e a progressão nível a nível mora no capítulo 18, *Experiência e Progressão*.
+O Fundamento manda na Classe, na Liberação Máxima e em quando cada Classe Passiva abre. Quantos feitiços você conhece é conta de *Experiência e Progressão*: a fórmula está resumida em *Criando feitiços*, e a progressão nível a nível mora no capítulo 19, *Experiência e Progressão*.
 
 O que continua valendo aqui: **Passiva é paga com espaços dessa lista**, a **Expansão de Domínio** também, e as **Liberações Máximas ficam de fora**, porque elas não ocupam espaço.
 
@@ -4500,8 +4501,8 @@ Na criação, depois da Descrição e da Regra, você escolhe uma das duas. **A 
 
 ### Rota de arma
 
-> **Escolha três das treze categorias de arma, diferentes entre si.** As treze estão no capítulo 14, *Equipamento*.
-> **Você recebe uma arma de cada uma, de grau 4.** Grau 4 fere maldição e não dá `Estigma` nenhum — capítulo 15, *Ferramenta Amaldiçoada*.
+> **Escolha três das treze categorias de arma, diferentes entre si.** As treze estão no capítulo 15, *Equipamento*.
+> **Você recebe uma arma de cada uma, de grau 4.** Grau 4 fere maldição e não dá `Estigma` nenhum — capítulo 16, *Ferramenta Amaldiçoada*.
 > **Você é treinado nas três**, seja qual for a lista de treino do seu Caminho.
 > **As suas Katas valem com qualquer arma amaldiçoada desses três grupos.**
 
@@ -4823,7 +4824,7 @@ Aptidão se ensina ou se aprende. Ela passa de mestre para aluno, de escola de e
 
 Quem compra aptidão é o **refino**, o eixo de controle da sua ficha. Poder é quanto você tem. Refino é quanto você não desperdiça.
 
-> **Sem energia amaldiçoada não existe refino nem aptidão.** Uma ficha nessa situação usa **Lapidação** e **Bênçãos** no lugar dos dois, no capítulo 13, *Bênçãos e Lapidação*. A máquina é a mesma casa por casa; o que muda é o conteúdo do catálogo.
+> **Sem energia amaldiçoada não existe refino nem aptidão.** Uma ficha nessa situação usa **Lapidação** e **Bênçãos** no lugar dos dois, no capítulo 14, *Bênçãos e Lapidação*. A máquina é a mesma casa por casa; o que muda é o conteúdo do catálogo.
 
 ## Refino
 
@@ -4888,7 +4889,7 @@ Quem escolhe Refino em todo marco bate no teto no nível 22. Dali em diante esco
 > **Quem nunca escolhe Refino termina a campanha com zero aptidões.** A rota existe e é jogável.
 Mesmo essa ficha não fica sem nada. `Cobrir-se de energia` e `Canalizar energia` vêm de graça no refino 1, e a primeira continua crescendo com o refino passivo até 8. O que ela nunca vai ter é `Energia Reversa` nem `Barreira Simples`.
 
-*O marco é do capítulo 18, __Experiência e Progressão__: é lá que estão os sete níveis em que ele cai, quanto refino cada rota junta marco a marco, e o que Corpo e Leque compram.*
+*O marco é do capítulo 19, __Experiência e Progressão__: é lá que estão os sete níveis em que ele cai, quanto refino cada rota junta marco a marco, e o que Corpo e Leque compram.*
 
 ## Aptidões
 
@@ -5171,7 +5172,140 @@ A regra da Expansão está no capítulo 9, *Fundamento*, e é lá que ela é mon
 ---
 
 
-# Capítulo 13 · Bênçãos e Lapidação
+# Capítulo 13 · Ritual
+
+*fonte: `manual/46-ritual.md`*
+
+Todo feitiço tem partes que você aprendeu a pular. O sinal de mão inteiro, o encantamento dito até o fim, a palma parada no lugar certo — um feiticeiro treinado corta tudo isso e conjura mesmo assim, mais rápido e sem avisar ninguém do que vem.
+
+Ritual é parar de cortar.
+
+Você faz o sinal completo, recita o verso inteiro, aponta a palma e segura ela ali. O feitiço sai mais forte porque ele sai **inteiro**. E sai mais devagar, porque fazer tudo leva tempo, e porque quem está na sua frente vê você fazendo.
+
+> **Ritual é ação de combate.** Ele não é uma preparação de meia hora antes da missão: é uma coisa que você decide no seu turno, com o inimigo na sua frente, sabendo que vai custar.
+
+## Pontos de Ritual
+
+Ritualizar te dá **Pontos de Ritual**, e eles compram Melhorias de uma lista que só existe aqui. Esses pontos não saem do orçamento do feitiço — o feitiço continua com todos os pontos dele.
+
+Quanto tempo você gasta decide quantos pontos você recebe.
+
+**Quanto o ritual rende**
+| Tempo que você gasta | Pontos de Ritual |
+|---|---|
+| **Ação Padrão** — o tempo normal de um feitiço | **2** |
+| **Ação Completa** — a rodada inteira: sem movimento, sem Ação Bônus, sem mais nada | **6** |
+| **Recitação Prolongada** — dois turnos, e o feitiço sai no segundo | **10** |
+
+A Recitação Prolongada é o nome do degrau mais longo. Você começa o ritual num turno e dispara no seguinte.
+
+## Teste de Ocultismo
+
+Fazer os sinais certos no meio de uma luta é difícil, e quanto maior o feitiço, mais difícil fica. Você rola **Ocultismo** para montar o ritual.
+
+> **CD = 8 + a sua Inteligência + a sua maestria + a Classe do feitiço − a sua Destreza.**
+
+A sua Inteligência e a sua maestria estão nos dois lados da conta, então elas se cancelam: na prática você rola `d20` contra `8 + Classe − Destreza`. Isso quer dizer que **subir Inteligência não te faz ritualizar melhor**. O que faz é a Destreza, que é a mão treinada, e o treino em Ocultismo.
+
+**Chance de montar o ritual**
+| Classe do feitiço | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|---|---|---|---|---|---|---|---|
+| Destreza 6 | 80% | 75% | 70% | 65% | 60% | 55% | 50% |
+| Destreza 3 | 65% | 60% | 55% | 50% | 45% | 40% | 35% |
+| Destreza 0 | 50% | 45% | 40% | 35% | 30% | 25% | 20% |
+
+Se você **não é treinado** em Ocultismo, você não soma a maestria na rolagem — mas a CD soma assim mesmo. São uns 14 pontos percentuais a menos, e a diferença cresce conforme a campanha anda. Ninguém proíbe ritualizar sem treino; só é pior, e fica cada vez pior.
+
+### Falha no ritual
+
+O feitiço **sai mesmo assim**, sem nenhum Ponto de Ritual, e custa a **Classe do feitiço** em pontos. Você perdeu o tempo e uma parte da força, mas não perdeu o turno inteiro.
+
+A Recitação Prolongada é diferente: ela **não rola**. Em vez do teste, ela usa a Restrição **Carregar** — se você tomar dano enquanto segura o feitiço, faz um Teste de Resistência de Espírito contra a CD de quem te feriu. Falhou, perdeu o feitiço.
+
+## Melhorias de Ritual
+
+Os Pontos de Ritual compram daqui, e só daqui.
+
+**Lista de Melhorias de Ritual**
+| Melhoria | O que faz | Pontos |
+|---|---|---|
+| **Ritual de Acerto** | +1 na rolagem de acerto. Pode comprar duas vezes. | 1 |
+| **Ritual de Dificuldade** | +1 na CD do Teste de Resistência. Pode comprar duas vezes. | 1 |
+| **Ritual de Defesa** | +2 de Defesa até o seu próximo turno. | 1 |
+| **Ritual de Rerrolagem** | Rerrola os dados de dano que caírem no mínimo, até Classe + 1 deles. | 1 |
+| **Ritual de Energia** | O feitiço custa metade da Classe, mínimo 1, a menos de PE. | 2 |
+| **Ritual de Tamanho** | Sobe um degrau na escada de área. | 2 |
+| **Ritual de Alcance** | Sobe um degrau na escada de alcance. | 2 |
+| **Ritual de Perseguição** | O feitiço não pode ser desviado. | 2 |
+| **Ritual de Excedente** | A cura que passa do máximo vira vida temporária, até um quarto da cura. | 2 |
+| **Ritual de Compartilhamento** | Um aliado a mais, e o efeito não se divide. | 2 |
+| **Ritual de Duração** | O efeito de estado dura uma rodada a mais. | 2 |
+| **Ritual de Cobertura** | Ignora Cobertura Parcial. | 2 |
+| **Ritual de Transmutação** | Escolhe o tipo de dano entre os que a sua técnica faz. | 2 |
+| **Ritual de Meio Acerto** | Se você errar, metade dos dados acerta mesmo assim. | 3 |
+| **Ritual de Seleção** | A área não atinge aliados. | 3 |
+| **Ritual de Tiros** | +1 alvo na Rajada, e os dados não se dividem de novo. | 4 |
+
+### Restrição desfeita pelo ritual
+
+Se uma Melhoria de Ritual apaga o que uma Restrição cobra, aquela Restrição não devolve ponto nenhum. É a mesma regra do Selo: vender a mesma dor duas vezes não vale ponto novo.
+
+São dois casos:
+
+- **Ritual de Meio Acerto** não entra com a Restrição **Sem Volta**. Aquela Restrição cobra "se o feitiço não acertar ninguém"; se metade sempre acerta, ela nunca cobraria nada.
+- **Ritual de Alcance** não entra com a Restrição **Corpo a Corpo**. Aquela te obriga a chegar a 1,5 m; subir um degrau de alcance desfaz parte do que ela cobra.
+
+## Melhorias por Forma
+
+Uma Melhoria de dano não entra num feitiço de apoio, e uma de cura não entra num feitiço de ataque. A trava é a mesma das Famílias: a Melhoria precisa de uma coisa que a Forma tenha.
+
+**Melhorias por Forma**
+| Forma | Alcança |
+|---|---|
+| **Projétil** e **Toque** | Acerto, Dificuldade, Defesa, Rerrolagem, Energia, Alcance, Perseguição, Duração, Cobertura, Transmutação, Meio Acerto |
+| **Explosão**, **Aura**, **Cone**, **Linha** | as mesmas, menos Meio Acerto, mais Tamanho, Seleção e Tiros |
+| **Cura** e **Apoio** | Defesa, Rerrolagem, Energia, Alcance, Excedente, Compartilhamento, Duração |
+| **Onda** | as de Cura e Apoio, mais Tamanho e Seleção |
+| **Efeito** | não ritualiza — ele é fora de combate |
+
+## Liberação Máxima e ritual
+
+Dá para ritualizar uma Liberação Máxima, e essa é a única coisa no sistema que passa do **Teto** de dano.
+
+A Recitação Prolongada entrega, além dos Pontos de Ritual, **metade do vão** entre um feitiço comum e o Teto — que é metade da Classe, com o mínimo de 1. Somando as duas coisas, você chega de 1 a 3 dados acima do Teto.
+
+> É pouco em número e muito em cena: são os 10 a 14 por cento a mais que separam o feitiço que você lança sempre do feitiço que a mesa vai lembrar.
+
+## Ritual em dupla
+
+Um aliado que também saiba ritualizar pode gastar a **Ação Completa** dele para te ajudar. Ele te dá **4 Pontos de Ritual**, e esses pontos não entram na CD.
+
+Se o ritual falhar, os dois pagam a correção.
+
+Auxiliar não costuma ser um bom negócio dentro do combate: o aliado gasta o turno inteiro dele e você ganha menos do que ele perde. Fora de combate, onde o turno não vale nada, ele sai de graça.
+
+## Acesso
+
+Ritual é uma aptidão. Ela pede **Inteligência 5** e **nível 10**.
+
+O nível 10 não é escolha arbitrária: no marco 6 você escolhe entre um ponto de atributo e uma aptidão, e não dá para ter os dois. Inteligência 5 e uma aptidão só se encontram no marco seguinte. Quem tem Inteligência como atributo secundário chega no 14.
+
+## Exemplo
+
+*Kaito é um conjurador de nível 13, Inteligência 6, Destreza 4, treinado em Ocultismo, e tem a aptidão de Ritual. Ele quer abrir a luta com o feitiço de Classe 4 dele — uma Explosão.*
+
+*Ele decide gastar a Ação Completa: 6 Pontos de Ritual. A CD é 8 + 6 + 2 + 4 − 4 = 16, e ele rola d20 + 6 + 2. Precisa de 8 ou mais no dado: 65%.*
+
+*Tira 14. Passou.*
+
+*Com os 6 pontos ele compra Ritual de Tamanho (2), Ritual de Dificuldade duas vezes (2) e Ritual de Seleção (3)… e para, porque isso são 7. Troca o Seleção pelo Ritual de Energia (2): a Explosão sai com um degrau a mais de raio, +2 na CD, e custa 10 PE em vez de 12.*
+
+*Se ele tivesse falhado, a Explosão sairia do mesmo jeito, sem nada disso, e ainda custaria 4 pontos a menos de dano.*
+
+---
+
+
+# Capítulo 14 · Bênçãos e Lapidação
 
 *fonte: `manual/47-bencaos-e-lapidacao.md`*
 
@@ -5402,7 +5536,7 @@ E existe uma trava a mais:
 ---
 
 
-# Capítulo 14 · Equipamento
+# Capítulo 15 · Equipamento
 
 *fonte: `manual/50-equipamento.md`*
 
@@ -5496,7 +5630,7 @@ Três degraus. O escudo ocupa uma mão, soma com a sua proteção venha ela de o
 
 São 52, divididas em treze categorias. A categoria diz o que a coisa é, de onde vem o dano dela e em qual lista de treino ela cai.
 
-Nenhuma arma deste catálogo fere maldição sozinha. Contra maldição, o que a elimina é energia amaldiçoada no golpe ou uma ferramenta amaldiçoada na mão, que é o que o `Estigma` explica no capítulo 15, *Ferramenta Amaldiçoada*. O catálogo de armas continua valendo inteiro contra pessoas, contra animais e contra objetos.
+Nenhuma arma deste catálogo fere maldição sozinha. Contra maldição, o que a elimina é energia amaldiçoada no golpe ou uma ferramenta amaldiçoada na mão, que é o que o `Estigma` explica no capítulo 16, *Ferramenta Amaldiçoada*. O catálogo de armas continua valendo inteiro contra pessoas, contra animais e contra objetos.
 
 ### Como ler uma arma
 
@@ -5790,7 +5924,7 @@ Item comum — pé de cabra, lanterna, corda, o que estiver na mochila — é **
 
 ## Dinheiro e acesso
 
-> **A moeda é o iene. Você recebe um salário mensal da instituição, e o valor sai da sua patente** — a tabela **Salário por patente** está no capítulo 18, *Experiência e Progressão*.
+> **A moeda é o iene. Você recebe um salário mensal da instituição, e o valor sai da sua patente** — a tabela **Salário por patente** está no capítulo 19, *Experiência e Progressão*.
 >
 > **Dinheiro compra o que está à venda. O seu Grau libera o que não está.**
 
@@ -5871,7 +6005,7 @@ As linhas de baixo não são enfeite: o fundo da criação é uma mensalidade da
 ---
 
 
-# Capítulo 15 · Ferramenta Amaldiçoada
+# Capítulo 16 · Ferramenta Amaldiçoada
 
 *fonte: `manual/55-ferramenta-amaldicoada.md`*
 
@@ -5905,7 +6039,7 @@ Uma ferramenta carrega no máximo **um** `Estigma`.
 |---|---|---|
 | ferramenta amaldiçoada | foi forjada para canalizar energia. Você empunha, e ela fere maldição | este capítulo |
 | objeto amaldiçoado | é a maldição presa numa forma de objeto. Você carrega, e o que está dentro dele age | este capítulo, *Objeto amaldiçoado* |
-| cadáver amaldiçoado | coisa sem vida que ganhou movimento próprio, com um núcleo no lugar do coração | capítulo 16, *Invocações* |
+| cadáver amaldiçoado | coisa sem vida que ganhou movimento próprio, com um núcleo no lugar do coração | capítulo 17, *Invocações* |
 | maldição solta | a maldição sem forma de coisa nenhuma. É o que se exorciza | capítulo 4, *Dano, Condições e Cobertura* |
 
 Ferramenta e objeto são ranqueados pela mesma escada, pela força da energia que carregam: grau 4 a grau 1, mais o especial.
@@ -6033,14 +6167,14 @@ Cada entrada abre com o nome e diz **quando o `Estigma` age**: sempre ligado, na
 >
 > **`Cisão`** — o golpe dela atravessa o corpo: tira Integridade, e não tira vida. É *dano direto na alma*, do capítulo 4, *Dano, Condições e Cobertura*. Contra alvo de alma dura, você vai sentir falta do dano normal. *(grau 1)*
 >
-> **`Insondável`** — enquanto a ponta dela estiver escondida, o alcance dela é **na cena**. As três faixas de alcance estão no capítulo 16, *Invocações*. *(grau 1)*
+> **`Insondável`** — enquanto a ponta dela estiver escondida, o alcance dela é **na cena**. As três faixas de alcance estão no capítulo 17, *Invocações*. *(grau 1)*
 >
 > **`Contrapeso`** — ela ignora o requisito de Força da arma. *(grau 1)*
 
 ---
 
 
-# Capítulo 16 · Invocações
+# Capítulo 17 · Invocações
 
 *fonte: `manual/60-invocacoes.md`*
 
@@ -6437,7 +6571,7 @@ A sua invocação pode empunhar uma arma do catálogo de Equipamento. Duas coisa
 
 ## Selar com talismã
 
-O selo tem regra, e ela não é deste capítulo: ela está no capítulo 15, *Ferramenta Amaldiçoada*, na seção *Objeto amaldiçoado*. **O selo inverte a atração em vez de tampar, ele gasta com o tempo, e quanto ele dura é decisão do seu mestre.**
+O selo tem regra, e ela não é deste capítulo: ela está no capítulo 16, *Ferramenta Amaldiçoada*, na seção *Objeto amaldiçoado*. **O selo inverte a atração em vez de tampar, ele gasta com o tempo, e quanto ele dura é decisão do seu mestre.**
 
 **A sua invocação não sela.** O `talismã` aqui é um tipo de invocação como os outros três, com a vida dele — selar não é `Traço` nem `Comando`, e não existe entrada de catálogo que faça isso.
 
@@ -6448,7 +6582,7 @@ O selo tem regra, e ela não é deste capítulo: ela está no capítulo 15, *Fer
 ---
 
 
-# Capítulo 17 · Pactos
+# Capítulo 18 · Pactos
 
 *fonte: `manual/65-pactos.md`*
 
@@ -6526,7 +6660,7 @@ O ganho morre na cena. A perda, não. Um braço que você entregou no meio da lu
 
 As duas partes não precisam ser dois personagens de jogador, nem dois feiticeiros. Uma delas pode ser a Guilda.
 
-> **Invocação não fecha `Promessa`** — ela não é uma segunda vontade, e a ficha dela sai da sua, no capítulo 16, *Invocações*. **Uma invocação senciente fecha**, e aí ela é uma das duas partes como qualquer outra.
+> **Invocação não fecha `Promessa`** — ela não é uma segunda vontade, e a ficha dela sai da sua, no capítulo 17, *Invocações*. **Uma invocação senciente fecha**, e aí ela é uma das duas partes como qualquer outra.
 
 ### Termos de uma Promessa
 
@@ -6596,7 +6730,7 @@ Quem quiser começar com uma troca já feita tem duas portas que não são Pacto
 ---
 
 
-# Capítulo 18 · Experiência e Progressão
+# Capítulo 19 · Experiência e Progressão
 
 *fonte: `manual/80-experiencia-e-progressao.md`*
 
@@ -6774,7 +6908,7 @@ Não daria para segurar mesa e fechar a marca depois de subir de patente: o `X` 
 
 Um Grau 4 ganha pouco menos que um recém-formado de empresa, e mora onde a escola manda. Um Grau 1 ganha o que ganha um executivo. Um especial ganha o que ganha um ministro.
 
-O dinheiro compra equipamento, e os `Preços` estão no capítulo 14, *Equipamento*. Ele não compra nível, não compra marco e não compra aptidão.
+O dinheiro compra equipamento, e os `Preços` estão no capítulo 15, *Equipamento*. Ele não compra nível, não compra marco e não compra aptidão.
 
 > **Salário mínimo.** Se um feiticeiro não participar de missões, o salário que ele recebe é `1/4` do padrão do Grau dele. Cada missão jogada preenche esse requisito: para receber o salário completo, é preciso participar de pelo menos `X` missões ou mesas no mês, e cada uma completa uma fatia do salário depois do mínimo. Missão longa vale por **2**, e final de arco vale por **3**. Missão pode conceder dinheiro extra, mas isso é decisão de cada servidor.
 
@@ -6918,4 +7052,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: 45f7bd7761bdd8f0c438ac5990a35e30e0556fcc -->
+<!-- fonte: d6f087945fced9593852aece8ceb2c42c904653f -->

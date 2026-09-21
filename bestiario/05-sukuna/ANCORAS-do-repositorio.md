@@ -362,7 +362,7 @@ Regras que andam com a tabela de Formas:
 
 > Trocar rolagem de acerto por Teste de Resistência, ou o contrário, é de graça.
 
-> Cada Forma pertence a uma Família: Explosão, Cone e Linha à **Área**; Cura, Apoio e Onda ao **Amparo**. Fundamento com a Família Fechada fica sem essas Formas. Projétil, Toque e Efeito são de todo mundo.
+> Cada Forma pertence a uma Família: Explosão, Aura, Cone e Linha à **Área**; Cura, Apoio e Onda ao **Amparo**. Fundamento com a Família Fechada fica sem essas Formas. Projétil, Toque e Efeito são de todo mundo.
 
 ### As três escadas de tamanho e alcance (`partC.js`, "Escadas")
 

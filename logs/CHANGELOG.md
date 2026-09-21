@@ -8,6 +8,70 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.262] — 20/09/2026
+
+**O Ritual, que estava decidido e não escrito desde a v0.259.** *É a peça 27 e o capítulo 13 do livro, e ele é ação de combate — correção do Mizuki sobre a minha primeira leitura:* **"o personagem principal que trabalhou rituais foi o proprio sukuna, ele usava no meio do combate para inflar, amplificar e melhorar seus feitiços".**
+
+### 1 · A régua estava errada duas vezes, e ele pegou as duas
+
+**Eu media o ritual contra a rodada de dano perdida, cobrando `1,00` de Rotina por turno gasto.** ***Ele derrubou:*** *"Fazer um ritual é mais economico q por exemplo usar dois feitiço no turno, ent necessariamente n precisa ser parelho com as ações gastas."*
+
+**O gargalo não é a ação — é o PE**, *e o manual já dizia: um conjurador gasta PE em cerca de metade das rodadas.* **Medido, ele conjura em `34%` a `54%` delas, então a rodada gasta montando ritual não custa um feitiço: custa o Classe 0 que você deixou de dar, que é `0,42` da Rotina.** *Erro de `2,4×`, e ele sempre fez o ritual parecer pior.*
+
+***E a comparação certa era outra ainda:*** **gastar um feitiço inteiro só para buffar entrega `0,76` e custa `1,30` — razão de `0,59×`.** *É um negócio ruim, e é por isso que ninguém faz. O ritual só precisa ser melhor que isso.*
+
+### 2 · Três propostas minhas foram recusadas, e as três por argumento melhor
+
+**"Só o degrau rápido rola o teste".** ***Recusada:*** *"se o teste fosse questão de pressa e não complexidade, a rolagem seria de prestidigitação, n de ocultismo".* **O teste mede complexidade, e é por isso que a Classe do feitiço entra na CD.**
+
+**"Tier como preço de vaga".** ***Recusada:*** *"n da pra gente usar tier como leve, media, pesada, ja q eles escalam e vão passar dos valores 1, 3 e 5 rapidinho".* **Na Classe 4 uma `Pesada` já custa `6` pontos de feitiço, mais do que o degrau de cima inteiro dá.** *O tier é preço de PONTO e a vaga é preço de RITUAL — duas moedas, e eu estava misturando.* **A escada virou `2 · 6 · 10` PONTOS por decisão dele, e quatro das dezesseis Melhorias só existem por causa dessa troca:** *um `+1` de acerto vale `0,09` e uma vaga custava `0,12`, então ele não cabia.*
+
+**Oito Melhorias inventadas.** ***Recusadas de uma vez:*** *"eu gostei de nenhuma das candidatas… todas soam muito estranhas, n parecem beneficios reais"*, **com o pedido de pesquisar em fóruns.** *A pesquisa achou a peça que faltava, e ela é canônica:* **"to excel at jujutsu is to excel at subtraction"** — *a habilidade de um feiticeiro se mede por quanto ele consegue OMITIR, e incluir de propósito eleva a técnica.* **Então o ritual não acrescenta efeito lateral: ele devolve o que a pressa tirou.** *Seis das dezesseis saem do eixo do desperdício por causa disso.*
+
+### 3 · O teste do melhor caso, que ele me ensinou
+
+**Eu media o caso MÉDIO e o jogador joga o MELHOR.** *A Melhoria que converte cura excedente em vida temporária valia `0,17` pelo desperdício médio — mas quem cura escolhe a hora, e curando um aliado cheio ela converte `100%` e salta para `0,67`, que é `5,6×`.* **O teto de um quarto existe para tirar a decisão do jogador de dentro do preço.**
+
+***Ele derrubou mais quatro por leitura de mesa, e as quatro tinham conta por trás:*** *a que não expirava anulava a `Duradoura`; a do excesso de dano dispara em `15%` a `24%` das vezes; a da `Onda` "quebra toda a metrica de area" porque "o que você enxergar" não está em escada nenhuma; e a de mover no ritual "elimina penalidade… se o cara n quer perder deslocamento, ele ja pegaria a restrição de ação completa".*
+
+### 4 · A trava das Restrições, e a checagem que ele pediu
+
+**Melhoria de ritual que anula Restrição é ponto de graça**, *porque a Restrição devolve e para de cobrar.* **A regra não é nova: o manual já diz duas vezes, em "O que não empilha", que Restrição que o Selo obriga não devolve ponto e que duas Restrições não podem cobrar a mesma coisa.** *O ritual é a terceira porta.*
+
+***E a checagem foi ideia dele.*** **Ela não julga se a anulação é real — isso é semântica e script nenhum resolve. Ela exige que CADA Melhoria declare com quais das dezoito Restrições fixas ela não entra, inclusive quando a resposta é "nenhuma".** *Ela pega erro de OMISSÃO, e provou o valor na primeira rodada:* **escrevendo a declaração eu fui obrigado a passar as dezesseis pelas dezoito, e apareceu uma segunda trava que ninguém tinha visto** — *o `Ritual de Alcance` contra a `Corpo a Corpo`, que devolve `Média` por te obrigar a chegar a `1,5` m.*
+
+### 5 · O capítulo novo não entrava no PDF, e três listas precisavam saber dele
+
+**O `build_txt.py` diz que "um arquivo novo em `manual/` entra na conta sozinho", e isso vale só para o TXT.** *O `build.py`, o `build_docx.py` e o `conferir-voz.py` têm lista explícita de capítulo, e o `46-ritual.md` não estava em nenhuma.* **Quem pegou foi a checagem `10.2` do `conferir-repositorio.py`:** *"1 arquivo em livro/manual/ que capítulo nenhum carrega — eles não entram no PDF".* **O PDF estava construindo sem o capítulo, e o build foi morto e refeito.**
+
+***E inserir um capítulo no meio empurrou a numeração de todos os seguintes***, *que é a lição nº 9 na forma de número de capítulo:* **a tabela de roteiro da introdução, a coluna `Cap.` do glossário e `25` referências cruzadas dentro dos próprios capítulos** — *as `19` primeiras no formato `capítulo N, *Nome*` e as `6` últimas em `__Nome__`, que o primeiro regex não pegou.* **As três checagens `10.3`, `10.7` e `10.8` acharam as três camadas, uma de cada vez.**
+
+**A base da lista branca da `7.2` foi de `181` para `183`, e são duas somas com origens diferentes:** *`+1` medido, o `conferir-ritual.py` citado na peça 27; e `+1` que JÁ ESTAVA — rodado no principal limpo, no commit da v0.261, o validador já acusava `182` contra a base `181`.* **A citação que entrou entre a v0.260 e a v0.261 não foi identificada, e isso ficou escrito no lugar em vez de ficar calado.**
+
+### Alterado
+
+- **A peça 27, `27-ritual.md`:** *nova, com oito seções.*
+- **O capítulo 13 do livro, `46-ritual.md`:** *novo, com exemplo jogável.*
+- **`conferir-ritual.py`:** *novo, com sete checagens.*
+- **`ESTADO-ATUAL.md`:** *o item 11 fecha, e saem `327` linhas que estavam duplicadas — o bloco das linhas `1015` a `1239` era idêntico ao `1357` a `1581`, e as duas cópias já tinham divergido.*
+- **A Forma `Aura` entra na Família `Área`**, *nos cinco lugares que publicavam a lista.* **Era omissão e não escolha: a frase cobria nove das dez Formas.**
+- **O manual do Fundamento sobe para a v7.37**, *e ele sobe por causa da `Aura`: o `partB.js` e o `partC.js` mudaram, e a regra do projeto é que o manual só sobe quando o `.docx` muda.* **Regenerado e convertido.**
+- **O livro: os quatro artefatos refeitos**, *com o capítulo `Ritual` entre `Aptidões e Refino` e `Bênçãos e Lapidação`.*
+
+### Decidido
+
+- **Escada de `2 · 6 · 10` pontos de ritual**, *e a Melhoria vem de graça na vaga.*
+- **CD = `8` + Inteligência + maestria + Classe do feitiço − Destreza, rolando `Ocultismo`.** *O atributo se cancela: um ritualista de `INT 5` e um de `INT 6` rolam igual.*
+- **Na falha o feitiço sai sem o ganho e custa a Classe**, *que é exatamente uma Melhoria `Média`.*
+- **A `Recitação Prolongada` não rola:** *ela usa o `Carregar`, e você perde o feitiço em `18,2%` das vezes.*
+- **O filtro é FORMA × Melhoria**, *pedido dele — "permitir uma forma de apoio receber uma melhoria de dano fica cu".* **A Forma `Efeito` não ritualiza, porque ela é fora de combate.**
+
+*Arnês numa cópia isolada, com a base verde: **8 perturbações acendem a etiqueta certa e 3 contra-testes ficam verdes**. Uma perturbação foi refeita no meio do caminho — trocar `Onda` por `Ondaa` não tira `Onda` do texto, porque o teste do validador é substring, e a perturbação saía verde sem ter perturbado nada. Foi o arnês pegando o defeito do próprio arnês, que é a regra 3 dele funcionando.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: *a fila de agora, com os anti-domínios, os inimigos e as duas fichas novas.*
+
+---
+
 ## [0.261] — 20/09/2026
 
 **A escada de dificuldade vira duas, e a de hoje tinha um nome que mentia.** *Levantado pelo Mizuki enquanto mediamos a CD do Ritual:* **"os degraus de dificultade do sistema são meio ruinzinhos… o primeiro degrau que seria um `fácil` é bem diferente do `fácil` de dnd, que um cara com atributo bom, treinado, passa com seus 50% no começo do jogo. Isso n é facil".**

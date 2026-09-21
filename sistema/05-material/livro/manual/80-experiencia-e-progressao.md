@@ -190,7 +190,7 @@ Não daria para segurar mesa e fechar a marca depois de subir de patente: o `X` 
 
 Um Grau 4 ganha pouco menos que um recém-formado de empresa, e mora onde a escola manda. Um Grau 1 ganha o que ganha um executivo. Um especial ganha o que ganha um ministro.
 
-O dinheiro compra equipamento, e os `Preços` estão no capítulo 14, *Equipamento*. Ele não compra nível, não compra marco e não compra aptidão.
+O dinheiro compra equipamento, e os `Preços` estão no capítulo 15, *Equipamento*. Ele não compra nível, não compra marco e não compra aptidão.
 
 > **Salário mínimo.** Se um feiticeiro não participar de missões, o salário que ele recebe é `1/4` do padrão do Grau dele. Cada missão jogada preenche esse requisito: para receber o salário completo, é preciso participar de pelo menos `X` missões ou mesas no mês, e cada uma completa uma fatia do salário depois do mínimo. Missão longa vale por **2**, e final de arco vale por **3**. Missão pode conceder dinheiro extra, mas isso é decisão de cada servidor.
 

@@ -21,7 +21,7 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **`Aparar`** | O duplo 10 no `Bloquear`. O ataque não acerta, e você pode gastar a Reação para revidar com `+3` de dano | 1 |
 | **`Brecha`** | O duplo 1 no `Bloquear`. O ataque acerta, e o agressor pode gastar a Reação dele para atacar de novo | 1 |
 | **Arredondamento** | Sempre para o lado que não te favorece. O que você paga sobe, o que você ganha desce | 1 |
-| **Rotina** | O dano que um personagem entrega numa rodada comum, sem gastar recurso guardado | 16 |
+| **Rotina** | O dano que um personagem entrega numa rodada comum, sem gastar recurso guardado | 17 |
 
 ## Números da ficha
 
@@ -36,8 +36,8 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **Integridade** | A vida da alma. `20 + (Essência + 5) × (nível − 1)`. Só volta com descanso longo | 1 |
 | **`Vida temporária`** | Anteparo, não vida. Gasta antes da vida real, não acumula, teto de metade da vida máxima, some no fim da cena | 1 |
 | **`Energia temporária`** | A mesma regra, com o PE: gasta antes do PE, não acumula, teto de metade do PE máximo, some no fim da cena | 1 |
-| **Proteção** | O que soma na Defesa: o uniforme que você veste, ou a energia com que você se cobre | 14 |
-| **`Volume`** | O espaço que uma coisa ocupa na sua carga. O seu limite é `5 + Força`, e `12` kg valem `1` | 14 |
+| **Proteção** | O que soma na Defesa: o uniforme que você veste, ou a energia com que você se cobre | 15 |
+| **`Volume`** | O espaço que uma coisa ocupa na sua carga. O seu limite é `5 + Força`, e `12` kg valem `1` | 15 |
 | **Redução de Dano** | Desconto no dano que já passou pela Defesa. Não é a mesma coisa que proteção | 9 |
 | **Perícia** | Uma das vinte e três. Cada uma tem um atributo fixo. Sem treino você ainda tenta | 3 |
 | **Ofício** | Um dos onze. Não tem atributo fixo, e sem treino você **não** tenta | 3 |
@@ -61,8 +61,8 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **Origem** | De onde vem o seu poder. Sete, mais a sub-origem Sem Técnica | 7 |
 | **Legado** | O que você já trazia, das listas da sua Origem. Dois por ficha | 7 |
 | **Traço** | Marca de história vinda da Origem, sem número | 7 |
-| **Pacto** | O que você trocou por poder. Opcional. Quatro formas: permanente, temporário, `Promessa` e de restrição. Só o permanente tem teto, e ele é metade da Essência | 17 |
-| **`Promessa`** | O pacto entre duas partes, com as duas aceitando. Tem três termos: o que eu dou, o que eu recebo, e a cláusula que eu acrescento | 17 |
+| **Pacto** | O que você trocou por poder. Opcional. Quatro formas: permanente, temporário, `Promessa` e de restrição. Só o permanente tem teto, e ele é metade da Essência | 18 |
+| **`Promessa`** | O pacto entre duas partes, com as duas aceitando. Tem três termos: o que eu dou, o que eu recebo, e a cláusula que eu acrescento | 18 |
 | **Patente** | O seu reconhecimento na instituição, de Grau 4 a Grau 1. Todo personagem começa **Grau 4** | 7 |
 
 > **Cuidado com a palavra `Grau`.** Ela nomeia duas escadas de cinco casas que não se encostam: a **patente** de um feiticeiro e o **grau** de uma ferramenta amaldiçoada. Patente é reconhecimento; grau de ferramenta é a energia que a ferramenta carrega. O capítulo 15 abre a diferença.
@@ -92,7 +92,7 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **Classe 0** | O feitiço grátis: não gasta PE e não ocupa espaço na lista | 9 |
 | **Passiva** | Efeito que fica ligado sozinho. Custa espaço de feitiço | 9 |
 | **Classe Passiva** | A altura de uma Passiva, de Livre a 3. Diz quantos espaços ela cobra e em que nível abre | 9 |
-| **Espaço de feitiço** | `2 + (nível ÷ 2)`, arredondando para baixo, mais um por marco. É a moeda que Passiva e Expansão de Domínio também gastam | 18 |
+| **Espaço de feitiço** | `2 + (nível ÷ 2)`, arredondando para baixo, mais um por marco. É a moeda que Passiva e Expansão de Domínio também gastam | 19 |
 | **Ampliar** | Lançar um feitiço que você conhece numa Classe maior, pagando o PE da Classe nova | 9 |
 | **Liberação Máxima** | Feitiço à parte, escrito antes da sessão, de Classe 3 ou mais. Rompe o limite de dano num alvo só. Nos níveis 10, 20 e 30 | 9 |
 | **Técnica Máxima** | O golpe de dano fixo que carrega o nome da técnica. Do nível 17 em diante | 9 |
@@ -124,10 +124,10 @@ O eixo de controle de quem não tem energia amaldiçoada nenhuma, no lugar do re
 
 | Termo | O que é | Cap. |
 |---|---|---|
-| **Lapidação** | Quanto do que o corpo tem chega até o fim do movimento. Começa em 1, teto 10. Sobe `+1` de graça em cada marco | 13 |
-| **Bênção** | O que um corpo sem energia aprende a fazer. Catorze, e custa marco | 13 |
-| **`Defesa sem Armadura`** | Bênção de graça: proteção `1/3 da Lapidação + 1`, e barreira de energia não segura você | 13 |
-| **`Estímulo Muscular`** | Bênção de graça: vantagem numa perícia e num Teste de Resistência escolhidos, `1×` por cena | 13 |
+| **Lapidação** | Quanto do que o corpo tem chega até o fim do movimento. Começa em 1, teto 10. Sobe `+1` de graça em cada marco | 14 |
+| **Bênção** | O que um corpo sem energia aprende a fazer. Catorze, e custa marco | 14 |
+| **`Defesa sem Armadura`** | Bênção de graça: proteção `1/3 da Lapidação + 1`, e barreira de energia não segura você | 14 |
+| **`Estímulo Muscular`** | Bênção de graça: vantagem numa perícia e num Teste de Resistência escolhidos, `1×` por cena | 14 |
 
 ## Progressão
 
@@ -136,10 +136,10 @@ O eixo de controle de quem não tem energia amaldiçoada nenhuma, no lugar do re
 
 | Termo | O que é | Cap. |
 |---|---|---|
-| **Marco** | Um dos sete níveis em que a ficha muda de forma: **6, 10, 14, 18, 22, 26 e 30** | 18 |
+| **Marco** | Um dos sete níveis em que a ficha muda de forma: **6, 10, 14, 18, 22, 26 e 30** | 19 |
 | **Refino** | Quanto da sua energia você não desperdiça. Começa em 1, teto 10. Sobe `+1` de graça em cada marco | 12 |
 | **Aptidão** | O que qualquer feiticeiro pode aprender, independente da técnica. Custa marco, e só marco | 12 |
-| **Corpo**, **Refino**, **Leque** | As três escolhas que um marco oferece: mais atributo e mais uma perícia ou ofício; mais refino e uma aptidão; ou mais feitiço e uma Passiva. Numa ficha sem energia, o eixo do meio é **Lapidação** e entrega Bênção | 18 |
+| **Corpo**, **Refino**, **Leque** | As três escolhas que um marco oferece: mais atributo e mais uma perícia ou ofício; mais refino e uma aptidão; ou mais feitiço e uma Passiva. Numa ficha sem energia, o eixo do meio é **Lapidação** e entrega Bênção | 19 |
 
 ## Turno
 
@@ -190,26 +190,26 @@ Melhoria — são escadas diferentes que usam as mesmas três palavras. O capít
 
 | Termo | O que é | Cap. |
 |---|---|---|
-| **Ferramenta amaldiçoada** | Arma forjada para ferir maldição. Tem grau, de 4 a especial | 15 |
-| **`Estigma`** | O efeito que uma ferramenta carrega. O grau dela decide o formato | 15 |
-| **`Desgaste`** | A ferramenta dispensa o nível mínimo do `Estigma`, e em troca dura um número fixo de missões | 15 |
-| **Invocação** | O que você põe em campo e comanda. Tem ficha própria, montada com orçamento | 16 |
-| **Amarra** | A invocação tem de ficar a até 18 metros de você, ou não pode ser comandada | 16 |
-| **`Emaranha`** | Propriedade de arma: você pode `Agarrar` sem largar a arma | 14 |
-| **`Fineza`** | Propriedade de arma: no corpo a corpo, troca Força por Destreza no acerto e no dano | 14 |
-| **`Longo Alcance`** | Propriedade de arma: ela alcança à distância, em metros | 14 |
-| **`Oculta`** | Propriedade de arma: dá para esconder no corpo, com um teste de `Prestidigitação` | 14 |
-| **`Par`** | Propriedade de arma: role dois dados de dano e fique com o melhor | 14 |
-| **`Rompe`** | Propriedade de arma: vantagem contra objeto e estrutura | 14 |
-| **`Talha`** | Propriedade de arma: `−1` no `Bloquear` de quem se defende | 14 |
-| **`Versátil`** | Propriedade de arma: nas duas mãos, o dado sobe um passo | 14 |
-| **`Vestida`** | Propriedade de arma: não ocupa a mão | 14 |
-| **`Volumosa`** | Propriedade de arma: não dá para esconder, e atrapalha em espaço apertado | 14 |
-| **`Chamariz`** | Comando de invocação: o alvo tem de vir para cima dela | 16 |
-| **`Fisgada`** | Traço de invocação: prende o alvo à distância | 16 |
-| **`Remoto`** | Traço de invocação: funciona além dos 18 metros da amarra | 16 |
-| **`Vigia`** | Traço de invocação: o que ela vê e ouve, você vê e ouve | 16 |
-| **`Voo`** | Traço de invocação: voa, e o terreno para de valer para ela | 16 |
+| **Ferramenta amaldiçoada** | Arma forjada para ferir maldição. Tem grau, de 4 a especial | 16 |
+| **`Estigma`** | O efeito que uma ferramenta carrega. O grau dela decide o formato | 16 |
+| **`Desgaste`** | A ferramenta dispensa o nível mínimo do `Estigma`, e em troca dura um número fixo de missões | 16 |
+| **Invocação** | O que você põe em campo e comanda. Tem ficha própria, montada com orçamento | 17 |
+| **Amarra** | A invocação tem de ficar a até 18 metros de você, ou não pode ser comandada | 17 |
+| **`Emaranha`** | Propriedade de arma: você pode `Agarrar` sem largar a arma | 15 |
+| **`Fineza`** | Propriedade de arma: no corpo a corpo, troca Força por Destreza no acerto e no dano | 15 |
+| **`Longo Alcance`** | Propriedade de arma: ela alcança à distância, em metros | 15 |
+| **`Oculta`** | Propriedade de arma: dá para esconder no corpo, com um teste de `Prestidigitação` | 15 |
+| **`Par`** | Propriedade de arma: role dois dados de dano e fique com o melhor | 15 |
+| **`Rompe`** | Propriedade de arma: vantagem contra objeto e estrutura | 15 |
+| **`Talha`** | Propriedade de arma: `−1` no `Bloquear` de quem se defende | 15 |
+| **`Versátil`** | Propriedade de arma: nas duas mãos, o dado sobe um passo | 15 |
+| **`Vestida`** | Propriedade de arma: não ocupa a mão | 15 |
+| **`Volumosa`** | Propriedade de arma: não dá para esconder, e atrapalha em espaço apertado | 15 |
+| **`Chamariz`** | Comando de invocação: o alvo tem de vir para cima dela | 17 |
+| **`Fisgada`** | Traço de invocação: prende o alvo à distância | 17 |
+| **`Remoto`** | Traço de invocação: funciona além dos 18 metros da amarra | 17 |
+| **`Vigia`** | Traço de invocação: o que ela vê e ouve, você vê e ouve | 17 |
+| **`Voo`** | Traço de invocação: voa, e o terreno para de valer para ela | 17 |
 
 ## Formas, Melhorias e Restrições do Fundamento
 

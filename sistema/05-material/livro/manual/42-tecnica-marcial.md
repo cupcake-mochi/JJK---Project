@@ -42,8 +42,8 @@ Na criação, depois da Descrição e da Regra, você escolhe uma das duas. **A 
 
 ### Rota de arma
 
-> **Escolha três das treze categorias de arma, diferentes entre si.** As treze estão no capítulo 14, *Equipamento*.
-> **Você recebe uma arma de cada uma, de grau 4.** Grau 4 fere maldição e não dá `Estigma` nenhum — capítulo 15, *Ferramenta Amaldiçoada*.
+> **Escolha três das treze categorias de arma, diferentes entre si.** As treze estão no capítulo 15, *Equipamento*.
+> **Você recebe uma arma de cada uma, de grau 4.** Grau 4 fere maldição e não dá `Estigma` nenhum — capítulo 16, *Ferramenta Amaldiçoada*.
 > **Você é treinado nas três**, seja qual for a lista de treino do seu Caminho.
 > **As suas Katas valem com qualquer arma amaldiçoada desses três grupos.**
 

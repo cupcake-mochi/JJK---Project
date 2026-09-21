@@ -32,7 +32,7 @@ Uma ferramenta carrega no máximo **um** `Estigma`.
 |---|---|---|
 | ferramenta amaldiçoada | foi forjada para canalizar energia. Você empunha, e ela fere maldição | este capítulo |
 | objeto amaldiçoado | é a maldição presa numa forma de objeto. Você carrega, e o que está dentro dele age | este capítulo, *Objeto amaldiçoado* |
-| cadáver amaldiçoado | coisa sem vida que ganhou movimento próprio, com um núcleo no lugar do coração | capítulo 16, *Invocações* |
+| cadáver amaldiçoado | coisa sem vida que ganhou movimento próprio, com um núcleo no lugar do coração | capítulo 17, *Invocações* |
 | maldição solta | a maldição sem forma de coisa nenhuma. É o que se exorciza | capítulo 4, *Dano, Condições e Cobertura* |
 
 Ferramenta e objeto são ranqueados pela mesma escada, pela força da energia que carregam: grau 4 a grau 1, mais o especial.
@@ -166,7 +166,7 @@ Cada entrada abre com o nome e diz **quando o `Estigma` age**: sempre ligado, na
 >
 > **`Cisão`** — o golpe dela atravessa o corpo: tira Integridade, e não tira vida. É *dano direto na alma*, do capítulo 4, *Dano, Condições e Cobertura*. Contra alvo de alma dura, você vai sentir falta do dano normal. *(grau 1)*
 >
-> **`Insondável`** — enquanto a ponta dela estiver escondida, o alcance dela é **na cena**. As três faixas de alcance estão no capítulo 16, *Invocações*. *(grau 1)*
+> **`Insondável`** — enquanto a ponta dela estiver escondida, o alcance dela é **na cena**. As três faixas de alcance estão no capítulo 17, *Invocações*. *(grau 1)*
 >
 > **`Contrapeso`** — ela ignora o requisito de Força da arma. *(grau 1)*
 
