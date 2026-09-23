@@ -340,6 +340,21 @@ for base, dirs, files in os.walk(RAIZ):
         # e a fila; sao guardas mais fortes que esta.
         if caminho.startswith(os.path.join(RAIZ, 'bestiario') + os.sep):
             continue
+        # ⚠ E `01-pesquisa/anti-dominios/` fica fora pelo MESMO motivo, e so' ela.
+        #
+        # Entrou na v0.264: sao 6.023 linhas de nota de campo sobre as quatro
+        # tecnicas anti-dominio, levantadas por tres agentes mais uma frente direta.
+        # O que ela cita e' URL de thread de forum, nome de arquivo de OUTRO projeto
+        # (o homebrew de Minecraft tem `ability/misc/SimpleDomain.java`) e rota de
+        # site consultado. Nenhum deles e' link que alguem vai clicar aqui dentro, e
+        # nenhum deles e' documentacao de regra deste projeto.
+        #
+        # A pasta `01-pesquisa/` NAO fica fora inteira, de proposito: o
+        # `PARECER-ideia-11-teto-de-atributo.md` mora nela, aponta para
+        # `conta-ideia-11.py` que mora ao lado, e continua sob esta guarda — que e'
+        # onde ela vale. So' a subpasta de nota BRUTA e' isenta.
+        if caminho.startswith(os.path.join(RAIZ, 'sistema', '01-pesquisa', 'anti-dominios') + os.sep):
+            continue
         txt = open(caminho, encoding='utf-8', errors='ignore').read()
         for m in RX_MD.finditer(txt):
             alvo = m.group(1).strip()

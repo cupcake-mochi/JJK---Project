@@ -8,6 +8,87 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.264] — 23/09/2026
+
+**A pesquisa de campo dos quatro anti-domínio entra no repositório, e NENHUM número do sistema se move.** *Esta versão é levantamento e registro: `6.023` linhas de nota de campo em `sistema/01-pesquisa/anti-dominios/`, o parecer da ideia 11 medido, e as pontas do `ESTADO-ATUAL` que venceram.* **A peça 11 fica exatamente como estava** — *as oito divergências que a pesquisa achou estão registradas como fila, e cada uma é decisão do Mizuki, não conserto automático.*
+
+### 1 · O que a pesquisa entregou, e por que ela existe
+
+*O item 6 da fila pede a revisão dos quatro anti-domínio desde a `v0.226`, e a `8.4` do `RASCUNHO-expansao-sem-barreira` deixou três saídas medidas esperando.* **Antes de mexer em preço, foi a campo:** quatro frentes, `5.625` linhas na pasta de trabalho, `6.023` com o parecer.
+
+| arquivo | o que é |
+|---|---|
+| `A-canon-e-comunidade-anti-dominios.md` | o canon das quatro, cena por cena, com capítulo e página |
+| `B-como-o-hobby-resolve-contrajogo.md` | como o hobby de RPG resolve contra-jogo contra efeito que não erra |
+| `C-extensao-de-dominio-a-fundo.md` | a `Extensão de Domínio` esgotada |
+| `D-debate-ocidental-anti-dominios.md` | o debate ocidental, com os dois erros de wiki datados |
+| `E-forca-de-dominio-e-barreira.md` | a física da força de domínio: `出力`, choque, barreira e tempo |
+| `F-petala-e-a-colisao-do-fisico.md` | a `Pétala` e o gatilho de contato |
+| `G-os-dois-acertos-garantidos.md` | a validação da hipótese dos dois acertos, e ela **caiu** |
+| `H-resumo-das-quatro.md` | o resumo das quatro, com as oito divergências contra a peça 11 |
+
+### 2 · ⚠⚠ A premissa da revisão estava metade errada, e é o achado maior
+
+**A `8.4` escreve que manter o `Domínio Simples` como está "contradiz a obra, em que o sem barreiras arranca o Domínio Simples em instantes".** *A obra mostra as duas pontas:* **sem casca em potência plena (caps. 206 e 226) ele cai em segundos; sem casca e incompleto (cap. 258), QUATRO Domínios Simples aguentaram quase os 99 segundos inteiros; e dentro de domínio FECHADO (caps. 249 e 266) o Sukuna precisou de `Cesta Oca` e ela custou metade do corpo dele.**
+
+> ***A casca não é a variável.*** *É a diferença de `出力` — saída — entre quem defende e quem abriu, e o quanto o defensor investe em sustentar.* **A pergunta da revisão deixa de ser "o que fazer contra a Expansão sem Barreiras" e vira "o anti-domínio mede contra a FORÇA de quem abriu".** *E o sistema já tem a moeda para isso nos dois lados: o refino.*
+
+### 3 · O diálogo do cap. 227 virou a fonte primária, e ele fecha quatro coisas de uma vez
+
+*O que era opinião de fórum virou fala de personagem.* **Kusakabe:** *"é um programa de manipulação de energia que repele automaticamente o que **toca**."* **Choso:** *"contra efeito de técnica **complexo** como o `無量空処` não tem serventia, mas contra técnica **simples** como as cortadas do Sukuna é bem útil. E ela **não é arrancada como o Domínio Simples**. Mas não se sai ileso: **não é técnica capaz de se opor à saída do domínio**."* **Shoko:** *"basta ganhar o mínimo de **tempo de cura**."*
+
+**O gatilho de contato, o eixo simples/complexo, o `出力` como variável e a função de comprar tempo saem de um capítulo só.**
+
+### 4 · `中和` é termo QUÍMICO, e isso dá a forma que a revisão procurava
+
+**Neutralização química: quantidade igual cancela, quantidade menor atenua.** ***Não é interruptor — é subtração com piso.*** *E é o mesmo lugar em que os dois lados da pesquisa se encontraram sem se falar: o levantamento do hobby de RPG achou "trocar o interruptor por relógio" como o melhor desenho publicado, e a obra já faz isso.*
+
+### 5 · Três achados anteriores CAÍRAM na segunda rodada, e ficam registrados
+
+- **O "desacordo geográfico" não existe.** *A primeira rodada registrou que o Japão ranqueia a `Extensão de Domínio` como a pior e o Ocidente como a melhor.* **Caiu por dois agentes independentes:** *3 de 4 respostas japonesas a põem em primeiro, e a `Sportskeeda` a põe em último.* **O eixo é poder bruto × viabilidade, e as duas facções existem dos dois lados.**
+- **O Tengen NÃO apagou a borda do Kenjaku** — *o plano falhou (caps. 205-206), e por um motivo que vale mais que o fato: **domínio sem casca não tem o que descascar**.* **Em troca, a cena dá que domínios aninhados resolvem de fora para dentro.**
+- **Três domínios simultâneos TÊM canon** — *cap. 179: sobrepostos, cancelam o acerto garantido uns dos outros e os três quebram.*
+
+### 6 · E dois achados meus caíram por leitura do Mizuki, nas duas últimas trocas
+
+- **"A `Cesta Oca` pode ser reforçada gastando mais mãos" era inferência, publicada como canon.** *O texto do cap. 266 diz que **manter o selo suplementa a saída** — custo contínuo, não escala.* **E os números provam por um segundo caminho: no cap. 249 foi metade dos braços e da boca, no 266 foram duas das quatro mãos — a MESMA fração, num corpo de tamanho diferente.**
+- **E não é gasto: é SELO imposto.** *Fala do próprio Sukuna, cap. 249:* **"fazer-me continuar usando a Cesta Oca, selando metade dos meus braços e da boca"** — *o verbo é `封じ`, selar.* **A Cesta Oca ser cara é a ARMA de quem está do lado de fora**, e forçá-lo a mantê-la era a estratégia do Yuta e do Yuji. *Ele não podia largar: o domínio do Yuta carregava a técnica do Anjo.*
+
+> ⚠ **Buraco declarado:** *a fala diz "metade dos braços **e da boca**", e nenhuma fonte lida explica o que a boca tem a ver com um selo de mão.* **A descrição oficial da técnica só cita o selo de dedos entrelaçados.**
+
+### 7 · As oito divergências entre a peça 11 e a fonte — REGISTRADAS, não aplicadas
+
+| a peça 11 §6.5 publica | a obra diz |
+|---|---|
+| o `Domínio Simples` quebra se **os pés saírem do chão** | é o **voto da Miwa**, não a técnica — o Kusakabe usa sem voto e com alcance maior |
+| raio ancorado em **2,21 m** | é o raio **da Miwa iniciante com voto** |
+| o Kusakabe puxar gente é **da Trilha dele** | ele **expande o raio** em combate, com a própria aptidão |
+| a `Pétala` **não para ataque físico** | ela **só responde ao que toca** — a categoria "físico" não existe na fonte |
+| *"contra um Acerto que é golpe de corpo, ela não faz nada"* | **cai** — Acerto corporal ainda é acerto garantido, e dispara ela |
+| a `Extensão de Domínio` **anula** o Acerto | ela **dilui** (`薄まる`) o Acerto, e neutraliza a **técnica** com certeza |
+| o `Domínio Simples` **não é mais forte** contra o Acerto que a `Cesta Oca` | a diferença existe e é outra: **ele é arrancável e a Cesta Oca é sustentável** |
+| as quatro **anulam**, como interruptor | `中和` é **subtração com piso** |
+
+***Nenhuma foi aplicada, de propósito.*** *As quatro primeiras são conserto de fato; as quatro últimas mexem em preço, e preço é decisão dele.*
+
+### 8 · O parecer da ideia 11, e as duas vertentes dela
+
+**Medida a pedido dele, sem aplicar.** *O simulador reproduz as **seis células** da tabela de três fichas da peça 2 §3 antes de medir — e a primeira versão dele dava refino `9` onde a peça publica `8`.* **O espelho não se move:** *a rota `Corpo` atacando outra rota `Corpo` acerta `60%` nos três regimes, porque o atributo entra nos DOIS lados da rolagem.* **As duas vertentes entregam a mesma separação, `+5` pontos percentuais, e ela só existe porque o inimigo tem teto fixo** — *na prática a ideia desconta `1` da Defesa do inimigo, por um caminho que toca **oito** peças.*
+
+> **E a rota `Corpo` não está fraca:** *os dois primeiros atributos são iguais nas duas rotas, então ela não compra acerto nem Defesa — ela compra o terceiro e o quarto, `+4` e `+3`.* **O que faltava era isso estar medido e escrito.**
+
+### 9 · As pontas do `ESTADO-ATUAL` que venceram
+
+**O item 9 dizia que a ponta 3 da v0.262 espera o commit da ficha.** *Ela saiu em `7f83e35`, no repositório da ficha: o `manual.txt` foi reextraído do livro da v0.263 e destampou três coisas — o `Efeito Próprio` com o texto de antes da v0.255, a coluna `VOLUME` fazendo as três tabelas de equipamento lerem ZERO, e o parser de legados lendo `79` de `90` em silêncio.*
+
+### 10 · A checagem 2 ganhou a segunda exceção da vida dela, e é a mesma da primeira
+
+**`01-pesquisa/anti-dominios/` fica fora da checagem de caminho citado**, *pelo motivo que o `bestiario/` já tinha escrito ali em 11/09: o que mora lá é **nota de campo**, e o que ela cita é URL de thread, nome de arquivo de outro projeto e rota de site consultado.* **A pasta `01-pesquisa/` NÃO fica fora inteira, de propósito** — *o parecer da ideia 11 mora nela, aponta para o `conta-ideia-11.py` ao lado, e continua sob a guarda.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: *o item 6 da fila, com as oito divergências entre a peça 11 e a fonte — as quatro primeiras são conserto de fato, as quatro últimas esperam decisão de preço.*
+
+---
+
 ## [0.263] — 21/09/2026
 
 **As três pontas soltas da v0.262, e a primeira destampou uma decisão da v0.216 que não chegou em quinze lugares.** *A peça 4 dizia que o treino é "binário por ora", a Aura não tinha linha na tabela de tamanho por Classe, e a ficha ficou sem o Ritual.* **Indo fechar a primeira, apareceu que a v0.216 levou os ofícios do Caminho para a Origem e o livro publicado ainda dava dois ofícios em cada Caminho** — *lido ao pé da letra, o jogador saía com quatro.*
