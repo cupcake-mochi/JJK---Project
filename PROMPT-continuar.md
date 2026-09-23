@@ -6,73 +6,57 @@
 
 Trabalhe em `/media/mizuki/HD Externo II/Claude/Claude 2/`.
 
-**Projeto - M** é um sistema de RPG de mesa no universo de Jujutsu Kaisen, para um server de guilda com 5 a 7 mestres ativos e personagem persistente entre mesas. O filtro que decide tudo: **dois mestres que nunca se falaram chegam no mesmo número?**
+**Projeto - M** é um sistema de RPG de mesa no universo de Jujutsu Kaisen, para um server de guilda com vários mestres ativos e personagem persistente entre mesas. O filtro que decide quase tudo: **dois mestres que nunca se falaram chegam no mesmo número?**
 
 ## Leia nesta ordem antes de mexer em qualquer coisa
 
-1. `sistema/ESTADO-ATUAL.md` — onde parou e o que vem em seguida
+1. `sistema/ESTADO-ATUAL.md` — onde parou e o que vem em seguida. **Leia inteiro**, inclusive a fila no fim
 2. `README.md` — as **nove lições que custaram erro**, e elas moram só lá
-3. `logs/CHANGELOG.md` — a entrada mais recente
-4. `sistema/05-material/livro/REGRA-DE-VOZ.md` — como o livro escreve
+3. `logs/CHANGELOG.md` — a entrada do topo carrega o **porquê**, que é a única parte que não dá para reconstruir lendo o resto
+4. A peça de `sistema/03-mecanica/` que for mexer
+
+E rode a skill `rpg-da-guilda` antes de começar: ela tem o procedimento — ordem de leitura, validadores, triagem de nome, arnês de perturbação e como fechar versão.
 
 ## Onde está o projeto agora
 
-**v0.200, escrita mas NÃO commitada.** A mensagem está pronta em `mensagem-de-commit.txt` na raiz. O fechamento inteiro já rodou — se nada mudar, é só o Mizuki rodar `./subir.sh`.
+**v0.264, commitada e no ar.** Manual do Fundamento na **v7.38**. **Vinte e sete peças de regra e vinte e sete validadores** em `sistema/03-mecanica/`, mais o `conferir-repositorio.py`, os dois de `manual/matematica/` e o `conferir-voz.py` — **31 validadores, e eles passam com `PULADAS=0`**.
 
-Manual do Fundamento na **v7.22**. **Vinte e seis peças de regra e vinte e seis validadores** em `sistema/03-mecanica/`, mais o `conferir-repositorio.py` e o `conferir-voz.py` — 27 validadores e 300 checagens no total.
+Os três repositórios estão sincronizados: o sistema (`JJK---Project`), a entrega (`finalizado/`, que commita à mão) e a ficha (`Claude 3`, que é o `Ficha---RPG-JJK`).
 
-O que a v0.200 fez: unificou a paleta do projeto na `Neve Saturado`, arrumou o nível 7 do Emanador, levou o clash de domínios do manual para o livro, e **pôs um dado no clash** — refino igual e Acerto do mesmo tipo rolam `1d12` cada, e separou por `4` ou mais o maior conquista.
+**A v0.264 foi pesquisa de campo e NENHUM número do sistema se moveu.** Entraram `6.023` linhas em `sistema/01-pesquisa/anti-dominios/` sobre as quatro técnicas anti-domínio, mais o parecer medido da ideia 11.
 
-## O que vem em seguida
+## O que vem em seguida — a revisão dos quatro anti-domínio
 
-**A v0.201 é a pressão do chefe**, e ela está medida e registrada em `sistema/03-mecanica/26-bestiario.md` §8. O chefe come `7%` da vida do grupo por rodada e levaria `14` rodadas para zerar; a tabela do `Guia do Mestre` de 2014 come `24%` e zera em `4,1`. **É `3,3 ×`, e a razão é constante em todos os níveis.**
+**É o item 6 da fila, aberto desde a v0.226 por decisão do Mizuki.** A pesquisa está feita; falta a rodada de decisão. **Comece lendo `sistema/01-pesquisa/anti-dominios/H-resumo-das-quatro.md`** — ele resume as quatro e fecha com as oito divergências entre a peça 11 §6.5 e a fonte.
 
-Duas coisas travam a correção, e as duas estão escritas: o `72` é a base da régua de condição inteira, e levar o chefe a `114` tira oito das treze condições do nível publicado. E metade da comparação não existe em livro nenhum — o d20 não publica quanto o GRUPO entrega por rodada.
+### O que a pesquisa mudou, e você precisa saber antes de propor qualquer coisa
 
-**Depois dela, na fila:**
-- **Aptidões novas**, que o Mizuki pediu. Traga a escada de gate da peça 11 §5 e o catálogo atual antes de ele escolher.
-- **Catálogo de maldições prontas**, esperando a lista dele.
-- **O exemplo guiado de invocação.** O capítulo 60 tem quatro exemplos e nove montagens prontas, e **não tem o passo a passo** que o Fundamento tem para feitiço (`40-fundamento.md`, `Exemplo guiado: o primeiro feitiço da Régua`). Quem monta uma invocação do zero vê nove resultados e nenhuma escolha sendo feita.
-- **Duas perguntas do clash que ficaram sem resposta** e são escolha do Mizuki: se o `Domínio Simples` entra na cascata (ele se chama domínio, e nada no texto fecha), e nada mais — a saída de furar a barreira já foi decidida e removida na v0.200.
+**A premissa da revisão estava metade errada.** A seção `8.4` do `RASCUNHO-expansao-sem-barreira.md` diz que o domínio sem barreira "arranca o Domínio Simples em instantes". A obra mostra as duas pontas: sem casca **em potência plena** ele cai em segundos, mas sem casca e **incompleto** quatro Domínios Simples aguentaram quase 99 segundos, e dentro de domínio **fechado** o Sukuna pagou metade do corpo. **A casca não é a variável — é a diferença de saída (`出力`) entre quem defende e quem abriu.** A pergunta deixou de ser "o que fazer contra a Expansão sem Barreiras" e virou "o anti-domínio mede contra a FORÇA de quem abriu", e o sistema já tem a moeda para isso nos dois lados: o refino.
 
-## Como trabalhar aqui
+**E o mecanismo tem forma matemática, vinda da própria obra:** o termo que ela usa para o que a `Extensão de Domínio` faz é **neutralização química** — quantidade igual cancela, quantidade menor atenua. ***Não é interruptor: é subtração com piso.*** O levantamento do hobby de RPG chegou no mesmo lugar por outro caminho, com "trocar o interruptor por relógio".
 
-⚠ Trabalhe na pasta **PRINCIPAL**, não em worktree. **Você não commita** — deixa a mensagem em `mensagem-de-commit.txt` na raiz e avisa.
+### As oito divergências, em duas metades
 
-**Não rode git do sandbox — nem status.** Para ver em que commit a pasta está, leia `.git/logs/HEAD` como arquivo.
+**Quatro são conserto de fato** *(a fonte simplesmente diz outra coisa)*: o "os pés não saem do chão" é **voto da Miwa** e não da técnica; o raio de `2,21 m` é dela também, com o voto; o Kusakabe **expande o raio em combate** com a própria aptidão, e não pela Trilha; e a `Pétala` **responde ao que toca**, não a "ataque físico" — com isso a frase *"contra um Acerto que é golpe de corpo, ela não faz nada"* cai, porque Acerto corporal ainda é acerto garantido.
 
-**Código novo se escreve pelo bash**, com `cat > arquivo <<'EOF'`. Arquivo que a ferramenta de escrita grava fica invisível para o `python3` com frequência. Para `.md` a ferramenta serve.
+**Quatro são decisão de preço, e são do Mizuki**: se `中和` vira subtração com piso no sistema; se a `Extensão` passa a **diluir** o Acerto em vez de anular; se o `Domínio Simples` ganha o que a obra dá a ele (ele é **arrancável**, e a `Cesta Oca` é **sustentável**); e o que fazer com o custo da `Cesta Oca`, que na obra é **selo imposto** — o inimigo pode *querer* que você pague.
 
-**Número vem de conta rodada, nunca de intuição.** Se o Mizuki disser que algo está desbalanceado, meça antes de concordar — e diga a ele quando a conta o desmentir.
+### Uma coisa que a revisão vai ter de encarar, e não é divergência
 
-**Antes de propor mecânica nova, pesquise como outro sistema resolve o mesmo problema.** Os PDFs estão em `PDFs - Sistemas Extras/PDF_Sistemas/` — 5e (PHB 2024, Guia do Mestre, Volo, Tasha), Pathfinder 2e, GURPS 4ed e 3D&T.
+**A `Cesta Oca de Vime` é a peça mais frágil do sistema hoje:** Classe 1, sem gate, custo zero de PE, não quebra, e resolve sozinha o que as outras duas cobram caro para resolver. O que segura ela é só o turno gasto. **Mexer no preço das outras sem olhar para ela empurra todo mundo para ela.**
 
-**Todo número novo ganha validador com teste negativo:** perturbe numa cópia isolada, confira que a base passa antes com PULADA=0, e confira com diff que a perturbação bateu. E ponha contra-teste coerente — uma mudança legítima que precisa continuar verde.
+## O resto da fila
 
-**Nada de valor fica escrito dentro do validador:** leia o número do documento dono.
+**Mecânica:** ⑧ rever os inimigos e o "máximo" de cada um · ⑨ a `ficha pessoal` e a `ficha maldita`, que são trabalho do repositório da ficha e destravam o `Volume` e as dezesseis Melhorias de ritual · ⑪ o teto de atributo contra a rota `Corpo` — **medido na v0.264 e o parecer diz que as duas vertentes valem pouco pelo preço**, porque o atributo entra nos dois lados da rolagem e o espelho não se move.
 
-**Nome se confere com `conferir-nomes.py --candidatos`, sempre.** Grep no projeto não é triagem.
+**Design aberto:** a **remodelagem das invocações e do Evocador**, anunciada duas vezes e nunca começada, com três pontas — as quinze entradas de catálogo com texto diferente entre livro e peça, a `Voz` cuja troca no nível 7 não muda número nenhum, e a invocação que não obedece (Rika e Mahoraga).
 
-**Escolha de sabor é do Mizuki.** Traga as opções com o número e o trade-off de cada uma já calculados, e pergunte. **Mas não pergunte o que a conta responde.**
+**Livro:** dois pequenos — rebaixar título de exceção para negrito correndo (à mão) e a caixa de aviso lateral (pede CSS novo no `build/`).
 
-**Escreva no registro dele:** negrito abrindo com a regra e a razão logo depois, "você" falando com o leitor, frase encadeada por vírgula em vez de aforismo, parêntese para a exceção curta.
+## Como o Mizuki trabalha, em cinco linhas
 
-**Antes de fechar versão, releia o que VOCÊ escreveu** procurando antítese, frase teatral, tabela inútil e texto desnecessário. Os validadores não alcançam essa camada.
-
-**Fale com ele diferente de como escreve o documento.** Uma ideia por parágrafo, frase curta, sem §3.4 no meio da frase. Se ele disser que não entendeu, a resposta certa é MENOS detalhe, recomeçando de mais atrás.
-
-**Se mexer no livro, mande o PDF de duas colunas antes de ele commitar.**
-
-## A ordem de fechar versão
-
-1. Entrada no `logs/CHANGELOG.md` — ele é o dono da versão
-2. Bump em `README.md`, `sistema/ESTADO-ATUAL.md` e `sistema/LEIA-ME.md`
-3. Os quatro builds do livro, de `sistema/05-material/livro/build/`: `build.py`, `build.py --duas`, `build_docx.py`, `build_txt.py`
-4. Os 26 validadores de `sistema/03-mecanica/`
-5. `manual/matematica/pac7.py` e `v7.py`
-6. `conferir-voz.py --estrito`, de `sistema/05-material/livro/`
-7. `conferir-repositorio.py`, da raiz
-
-*Se mexeu no manual do Fundamento: `node make.js` em `manual/gerador/`, copiar o `.docx` para `manual/`, e exportar o `.pdf` com `soffice --headless --convert-to pdf`.*
-
-**O `conferir-repositorio.py` vai acusar `7.1` e `7.3` antes do commit** — são o recorte da entrega, e o `./subir.sh` conserta sozinho. O que não pode sobrar é qualquer outro.
+- **Escolha de sabor é dele.** Traga as opções com o número e o trade-off já calculados, e pergunte. Rodadas curtas, nunca uma proposta grande pronta.
+- **Não pergunte o que a conta responde.** Rode e mostre a tabela.
+- **Número vem de conta rodada, nunca de intuição** — e a conta regride contra exemplo já publicado antes de medir coisa nova.
+- **No chat: frase curta, uma ideia por parágrafo.** O documento pode ser denso; a explicação não.
+- **⚠ Antes de puxar QUALQUER agente de pesquisa, pergunte e espere** — é regra dura, escrita no arquivo de instruções da pasta de trabalho (um nível acima deste repositório), e o teto é 2 a 3 por vez. **Todo agente salva o próprio arquivo ao longo do caminho, com append a cada bloco** — a rodada que escrevia só no fim morreu no `429` e perdeu tudo.
