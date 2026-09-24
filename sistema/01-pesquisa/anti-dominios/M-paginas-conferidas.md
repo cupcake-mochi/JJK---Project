@@ -95,7 +95,9 @@ queda é o **efeito** — o acerto garantido alcançar o dono — ou o texto.
 - **A tradução inglesa escreve "mouths", no plural.** O japonês (`腕と口の半分`) não marca número, e o
   Sukuna tem duas bocas: a tradução leu "metade dos braços e **das bocas**" — ou seja, uma das duas
   bocas. *Isso é leitura de tradução, não texto novo; mas é diferente do "da boca" que o `H` usa.*
-- **A pergunta do Mizuki ("a boca recita algo para a Cesta?") continua sem resposta visual.**
+- **A pergunta do Mizuki ("a boca recita algo para a Cesta?") continua sem resposta visual.** *O Mizuki
+  olhou as mesmas páginas e também não viu nada: são duas leituras independentes dizendo que, nestas
+  quatro páginas, não há.*
 
 ---
 
