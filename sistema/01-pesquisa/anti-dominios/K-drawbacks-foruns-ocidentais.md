@@ -193,3 +193,63 @@ Dois custos dominam, e os dois já estão no `H`: **pode ser arrancado** e **"n�
 | 254, Kusakabe × Sukuna (fora de domínio) | **(2)** — a espada do programa quebra | — | — | [C] via wiki |
 | 258, Yuji × Santuário | **(1)**, racha antes do golpe | "almost 99 seconds" | proposta de (2)+(5) derrubada: +258 × 0 | [I] +258 |
 | 258, Ino / Choso / Miwa | **(6)**, o domínio acabou antes | ~99 s | "only Yuji's broke" | [I] |
+
+### 2.7 Adendo ao 2.2: o que a wiki diz do Domínio Simples do Gojo no 226 (detalhe de queda)
+
+O resumo da página `Chapter_226` escreve: *"Gojo heals himself while protecting himself from the sure-hit effect at the same time but Choso comments that this effort will only buy him time. **After a brief physical exchange between the fighters, Gojo's simple domain is destroyed** and he's slashed by the domain again. Gojo immediately activates simple domain again ... this time, everyone notices that Gojo isn't healing himself. ... Gojo's simple domain is destroyed once again."* E o artigo `Simple_Domain`: *"Gojo's barrier was quickly destroyed **by Malevolent Shrine**."* **[C] via wiki.** A troca de socos aparece como **momento**, não como **causa**; a própria wiki atribui a quebra ao Santuário. **Queda (1), duas vezes seguidas, e ele ergue de novo nas duas.** Dado de mesa que ninguém no ocidente discute: **erguer de novo depois de arrancado é possível e rápido** — o custo que a cena mostra é que **na segunda vez ele parou de se curar** (a reversa foi para a técnica queimada).
+
+---
+
+## 3 · PÉTALA (Falling Blossom Emotion, 落花の情)
+
+### 3.1 "Exige concentração" — **ACHEI A ORIGEM, e ela não tem base**
+
+O `A` e o `F` marcaram "a Pétala exige concentração e o Naobito perdeu o foco" como leitura de fã sem base, vinda de "TikTok e resumos". **A cadeia é esta:**
+
+1. **Fiction Horizon**, *"Jujutsu Kaisen: How Was Naobito Able To Resist Dagon's Domain? Falling Blossom Emotion Explained!"*, por **Arthur S. Poe**, **27/10/2023**: *"**Of course**, the technique requires concentration, so Dagon was ultimately able to hit Naobito when he lost focus and some of his energy."* — https://fictionhorizon.com/jujutsu-kaisen-how-was-naobito-able-to-resist-dagons-domain-falling-blossom-emotion-explained/ . **Sem painel, sem capítulo, e com "of course"** — é afirmação do redator.
+2. **TikTok @znanimee**, vídeo `7295397263252229381` (o ID decodifica para **29/10/2023**, dois dias depois): *"However, this technique requires concentration, so Dagon eventually Managed to hit Naobito when he lost focus and A portion of his Energy."* — **cópia quase literal** do Fiction Horizon.
+3. O homebrew de D&D do `B` (*"You must maintain concentration on Falling Blossom Emotion to keep it active"*) usa "concentration" como **termo de regra de D&D 5e** (a mecânica de manter magia), não como leitura do mangá.
+
+**Veredito: DERRUBADO como canon.** A obra dá outro motivo para o soco (visão tapada, `F`), e a enciclopédia oficial (`F`/`I`) não fala em concentração. **O "exige concentração" nasceu num site de agregador em 27/10/2023 e se espalhou por cópia.** **[I] de fonte fraca, sem painel.** Procurei também: artigos `Falling_Blossom_Emotion`, `Naobito_Zenin`, `Chapter_108`, `Jujutsu_Sorcerers_vs._Dagon` da Fandom — **nenhum** fala em concentração.
+
+### 3.2 Cap. 108 → 109: o "mais de um minuto" é do NANAMI no texto, e a wiki se contradiz
+
+**Isto pode corrigir o `H`.** O `H` escreve: *"Aguenta saturação longa: o Naobito segurou mais de um minuto com 70% do enxame em cima. [C] cap. 108"*. Na Fandom há **duas versões incompatíveis**:
+
+- **Página `Naobito_Zenin`:** *"Withstanding an endless stream of man-eating fish shikigami **for over a minute** and only losing a single arm."* (ref. cap. 109 p. 8-11) — **atribui o minuto ao Naobito.**
+- **Página `Chapter_109`:** *"**Dagon is shocked Nanami managed to withstand Death Swarm for about a minute.** Suddenly, Naobito appears behind him ... Dagon ducks under the attack and is **equally surprised the old man survived as well**."*
+- **Página `Jujutsu_Sorcerers_vs._Dagon`:** *"Dagon can't believe **Nanami** survived Death Swarm for about a minute and thoughts are interrupted when Naobito appears suddenly behind him. He's shocked that Naobito managed to survive Death Swarm's onslaught **as well**."*
+
+**Leitura:** a fala do Dagon sobre "cerca de um minuto" é **sobre o Nanami** (que **não tem Pétala** e aguentou os 30%); o Naobito aguentou **o mesmo intervalo** (os dois foram engolidos juntos, 70/30, no cap. 108) e sobreviveu "também". **O tempo vale para os dois, mas a frase de canon é do Nanami.** **[C] via duas páginas da wiki contra uma** — ⚠ **conferir no japonês do cap. 109** (é trabalho do agente da obra). Se confirmar, o `H` precisa trocar "o Naobito segurou mais de um minuto" por "**o Naobito sobreviveu ao mesmo enxame que o Nanami aguentou por cerca de um minuto**, perdendo um braço".
+
+**E o dado mais importante que essa comparação expõe: o Nanami, SEM anti-domínio nenhum, aguentou o mesmo minuto com 30% do enxame.** Isso **enfraquece** "aguenta saturação longa" como mérito da Pétala: o que a cena mede é **dano absorvido** (o Naobito com 70% perdeu um braço; o Nanami com 30% ficou de pé), não duração da técnica. **[I]**, minha leitura das duas páginas.
+
+**O que acabou com a Pétala no 109:** nenhuma página da wiki mostra ela caindo. O que acaba é **o enxame**: o Megumi entra com o próprio domínio, e a página da batalha diz *"To **restore** Death Swarm Dagon ignores Maki and focuses on crushing Megumi and his domain"* — ou seja, **o acerto garantido do Dagon parou de valer** quando o Jardim de Sombras entrou (disputa de domínio). **Queda: (6), o acerto garantido acabou antes** — por um terceiro, não pelo dono. **[C] via wiki.** O braço foi perdido **antes**, no trecho em que o soco do Dagon o jogou para o alto com a visão tapada e o enxame continuou (cap. 108). **Causa do braço: (2) ataque ao usuário + saturação.** **[C] via wiki / [I] ligação causal.**
+
+### 3.3 O drawback que o ocidente enxerga
+
+O `D` já tem as duas posições espelhadas ("não serve contra físico" × "só serve contra físico") e a minoria informada ("é disputa de saída"). O que esta rodada acrescenta:
+
+- **VS Battles Wiki, perfil do Gojo:** *"Normally, this technique can nullify a domain's attacks, however, **due to Sukuna's overwhelming pools and output of Cursed Energy it only weakened the damage** from Malevolent Shrine."* — https://vsbattles.fandom.com/wiki/Satoru_Gojo . **[I]** da comunidade de escala mais organizada: **a Pétala perde por saída**, e quando perde, **atenua** em vez de sumir. Aponta cena (cap. 227).
+- **Página `Chapter_227` da Fandom:** *"Kusakabe explains how it works but **Choso adds that its output still isn't enough to rival a domain**. Shoko argues that **it'll buy Gojo enough time** to heal his exhausted technique."* **[C] via wiki** — a fala do Choso é a fonte do "saída fraca" da Pétala, **igual** à narração do 266 sobre Cesta e Domínio Simples.
+- **Fandom Discussões**, fio `4400000000000062192` (*"Best anti-domain technique?"*), **Ineedalife6** (08/07/2025): *"Falling Blossom Emotion is sort of effective, however **it doesn't nullify anything but just reduce incoming damage**. It's also limited to the three great clans only."* **[I]** sem voto.
+- **GameRant** (Harry Nugraha, **12/11/2024**): *"Provides no protection at all against physical attack."* — **[ERRO]**, o mesmo do `D` §2.1, ainda publicado. **Fonte fraca.** https://gamerant.com/jujutsu-kaisen-counters-domain-expansions/
+- **DualShockers** (Omar Faruque, **13/10/2023**): a Pétala *"involve[s] a significant amount of cursed energy"*. **[I] sem fonte** — é a única menção ocidental a **custo de energia** da Pétala, e não aponta cena. **Fonte fraca.** https://www.dualshockers.com/jujutsu-kaisen-anti-domain-techniques/
+
+**Consolidado:** o drawback que o ocidente **sustenta com cena** é um só — **saída**: ela atenua mas não iguala um domínio forte (227, fala do Choso + VSB). "Concentração" (3.1) e "não para físico" (`D` §2.1) **não têm painel**. "Gasta muita energia" **não tem painel**.
+
+### 3.4 Como se aprende, e quem usa — o lado ocidental
+
+- **Página `Falling_Blossom_Emotion`:** *"Satoru Gojo **learned how to use Falling Blossom Emotion as a child**, but stopped using it after mastering his domain."* (ref. cap. 227). **[C] via wiki.** É o **único** dado de aprendizado: **se aprende criança, dentro do clã** (o Gojo é do clã Gojo, uma das Três Famílias). **[NÃO ACHEI]** cena de ensino.
+- **Usuários na wiki:** Naobito, Ogi (versão de espada, cap. 148) e Gojo. **Nenhum Kamo.** As páginas `Noritoshi_Kamo`, `Kamo_Clan`, `Zenin_Clan`, `Gojo_Clan` e `Sorcerer_Clan` da Fandom **não mencionam** a Pétala. **[NÃO ACHEI]** Kamo com Pétala.
+- **VS Battles** põe a Pétala no perfil do **Jinichi Zenin** e, como *"Possibly"*, no do **Naoya Zenin**, citando só o cap. 108. **[I] da VSB** — é inferência por clã, **sem cena** dos dois usando. **Não use como canon.**
+- **Kusakabe reconhece a técnica e ninguém mais no grupo** (cap. 227: *"Kusakabe is able to recognize Falling Blossom Emotion but **no one else seems to have ever even heard of the secret art**"*). **[C] via wiki** — isso **é** o drawback de acesso: **segredo de clã de verdade**, nem feiticeiro de grau especial fora das famílias conhece.
+
+### 3.5 Pétala — como cai, cena por cena, no olho ocidental
+
+| cena | queda (1–6) | tempo | o que o ocidente diz | marca |
+|---|---|---|---|---|
+| 108, Naobito × Dagon (início) | **não caiu** — o soco entrou **por fora dela** (visão tapada) | — | "não serve contra físico" é inferência da wiki (`D` §2.1); "perdeu a concentração" é do Fiction Horizon (3.1) | [C] via wiki / [ERRO] |
+| 108→109, Naobito × Enxame da Morte | **(6)** — o acerto do Dagon parou quando o domínio do Megumi entrou | ~1 min (**dito do Nanami**; o Naobito sobreviveu "também") | custou **um braço** | [C] via wiki, ⚠ conferir |
+| 148, Ogi × Maki | **não é queda de anti-domínio** — a Dragão-Osso absorve e devolve a energia | — | versão ofensiva com espada | [C] via wiki |
+| 227, Gojo × Santuário | **(4) largada** — ele reabre o próprio domínio; ela serviu para **comprar tempo** | não dado | "output still isn't enough to rival a domain" (Choso); "only weakened the damage" (VSB) | [C] via wiki / [I] VSB |
