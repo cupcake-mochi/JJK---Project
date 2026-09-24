@@ -1227,3 +1227,59 @@ verificação, sem proposta de regra):
   (228: 「3分9秒」 / 「ジャスト3分」). **CORRIGE** só a linha dos 10 s.
 - **N-041** — **CORRIGE** (bloco 2: o 251 é largada).
 
+---
+
+## Bloco 9 — Os [NÃO ACHEI] do `H`, com busca nova
+
+Termos que os arquivos `I`/`J`/`K`/`L` **não** listam como tentados. Resultado primeiro, termos depois.
+
+- **N-119 · custo de energia das quatro — continua [NÃO ACHEI] número.** O mais perto, **qualitativo**: o Simples
+  **gasta energia de uma fonte** — no *Modulo*, o Tsurugi, que nasceu (quase) sem energia, faz o Simples com a energia
+  **guardada na ferramenta** (ja.wikipedia `呪術廻戦≡`: 「呪具の呪力を用いることでシン・陰流などの呪術を扱う」). Nenhum texto dá
+  quanto. Termos: 「"簡易領域" 呪力 消耗 維持 呪力切れ 本誌 描写」, 「落花の情 呪力 消費 デメリット 持続 何分 直毘人 五条」;
+  procurei também se existe **segunda Fanbook** ou guia oficial pós-2024 (「呪術廻戦 公式ファンブック 第2弾 2025 発売」):
+  **só existe a de 2021**. Tudo o que circula ("gasta pouco", "bem menos que expandir") é blog, sem painel.
+- **N-120 · limite de tempo — continua [NÃO ACHEI].** Termos: 「簡易領域 何秒 持つ 持続時間 彌虚葛籠 展延 時間制限 考察」.
+  Nada além do que o `H` já tem (99 s é do domínio; ~3 min é do domínio do Gojo; 10 s é plano).
+- **N-121 · Extensão junto com a reversa — continua [NÃO ACHEI] cena.** Termos: 「展延 反転術式 同時 使える 宿儺 五条戦 治癒
+  展延中」; e varri por linha os resumos que baixei dos caps. 224-255 (neet-life e eiga-manga) procurando 展延 e 反転 na
+  mesma linha: só o 232, e lá o 反転 é o **Vermelho** (術式反転), não a técnica reversa. No 232 o eiga-manga escreve
+  「反転術式で体を治癒している宿儺」 logo depois de ele tomar o Vermelho com a Extensão, mas **não diz se ela ainda estava
+  ligada**. O que o texto oficial permite deduzir: a Fanbook diz que durante a Extensão **não se usa a técnica inata**
+  (「生得術式を発動できず」), e a técnica reversa não é técnica inata — **[I]**, não cena.
+- **N-122 · Cesta com encantamento próprio — continua [NÃO ACHEI].** Termos: 「彌虚葛籠 呪詞 唱える 腹の口 詠唱 必要 249話
+  考察」; li as threads do 249 e do 250 (N-050): só fãs, com contestação. Nas p. 15-18 do 249, nenhum balão da barriga.
+- **N-123 · Kamo com Pétala — continua [NÃO ACHEI].** Termos: 「加茂家 落花の情 使える 加茂憲紀 使用 御三家秘伝」. A obra só diz
+  que é segredo **dos três clãs** (108 「御三家に伝わる」; 227 「御三家秘伝」), o que **inclui** os Kamo por definição; usuário
+  Kamo em cena, nenhum.
+- **N-124 · como se aprende a Cesta — continua [NÃO ACHEI] cena de aprendizado.** Termos: 「彌虚葛籠 奥義 習得 誰が使える
+  結界術 平安 いやこつづら 使い手 条件」. **O que achei no caminho (canon, não resposta):**
+  (a) a Cesta é chamada de **奥義** ("arte secreta / técnica suprema") pelo Reggie e na ficha oficial (「奥義「彌虚葛籠」」) —
+  a obra a trata como técnica de mestre, não de iniciante; (b) no **206** o Tengen considera que **o Kenjaku** poderia
+  responder ao domínio da Yuki com **Simples ou Cesta** (eiga-manga: 「羂索が術式を温存できる「簡易領域」や「彌虚葛籠」で対抗する
+  可能性に触れます」) — é o único outro nome ligado à Cesta, **como hipótese**, e é de novo um feiticeiro de mil anos.
+
+## Descobertas novas (o que não estava no `H`)
+
+1. **O voto da Miwa é acionado em cena, no cap. 40** (bloco 4) — muda três linhas do `H` e duas células das tabelas.
+2. **A Cesta também "guarda a técnica" (não queima a técnica inata), no cap. 206** — o Tengen põe Cesta e Simples na
+   mesma frase (「術式を温存できる「簡易領域」や「彌虚葛籠」」). É vantagem canônica da Cesta que o `H` não lista.
+3. **Cesta e Simples lado a lado já no 206**, não só no 266: a Yuki diz que as duas "só compram tempo contra domínio de
+   verdade" (manga-games 206).
+4. **A Yuki ensinou o Simples ao Todo** (130, narração: 「九十九由基直伝」) — ensino fora da escola, prova mais forte do que
+   as três que o `H` usa.
+5. **O Ui Ui só usa o Simples com a senha da Mei Mei** — 「姉様の「命懸け」は私にとって「シン・陰流」"呪術使用許可"の相言葉!!」
+   (102): outra condição **do usuário**, como o voto da Miwa.
+6. **O voto da escola tem motivo dito na obra, e não é "dar força"**: impedir que a técnica vaze para 呪詛師 (Kusakabe,
+   269); virou segredo comercial, com o líder sugando anos de vida dos discípulos (Mei Mei, 269).
+7. **O Gojo, no 84, começa comparando a Extensão com o Simples** (「シン・陰の簡易領域と同じだな」), e o Kusakabe, no 225,
+   diz que ela é "o nosso Simples refinado" e que **ele não consegue** (「なめんなできるわけねーだろ」).
+8. **A Fanbook (2021) já definia a Pétala** com a mesma frase da ficha de 2024 (eiga-manga, "引用元：公式ファンブック"), e a
+   narração do 108 também — a definição é **[C] 108 + [F] Fanbook + [F] ficha**, não só ficha.
+9. **O 266 diz que o reset da técnica foi feito "fora do plano"**: a narração da p. 5 diz que fazê-lo com o cérebro ainda
+   afetado pelo Vazio "seria arriscado demais" — e ele fez mesmo assim quando a Cesta ia se desfazer.
+10. **Os fragmentos do 266 p. 17 são a proteção do braço do Yuji**, cortada pela técnica recém-resetada (três resumos), não
+    pedaços da Cesta.
+11. **Método:** a leitura do vol. 28 no `L` foi feita **remontando páginas embaralhadas do leitor oficial** — acesso que
+    contorna a proteção do leitor. O dado não foi reverificado por outro caminho.
+
