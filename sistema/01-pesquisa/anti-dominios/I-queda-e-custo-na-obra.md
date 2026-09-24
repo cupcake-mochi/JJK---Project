@@ -1,6 +1,5 @@
 # I — Queda e custo dos anti-domínios na obra (agente 1: a obra)
 
-STATUS: EM ANDAMENTO
 
 Recorte: toda cena das quatro técnicas (Cesta Oca de Vime, Domínio Simples, Pétala, Extensão de Domínio) no mangá, no Modulo, no Fanbook, na enciclopédia oficial e nas notas do autor. Por cena: quem, contra quê, como terminou (uma das seis respostas), quanto durou, o que o dono pagou, o que ela não parou, fonte.
 
@@ -243,3 +242,97 @@ Todas as cenas acima são contra **técnica** (Ilimitado, Vermelho, cortes) ou *
 - **Como se aprende:** "vendo" — o Higuruma aprendeu olhando o duelo (225 p. 3); o Kusakabe, especialista em Simples, **não consegue** (「なめんな できるわけねーだろ」, 225). **[C]**
 - **Limite de tempo:** **[NÃO ACHEI]**.
 
+---
+
+## 5 · Nas quatro: a obra dá LIMITE DE TEMPO para alguma?
+
+**Não. Nenhuma das quatro tem relógio próprio na obra.** **[NÃO ACHEI]** — procurei nas quatro fichas oficiais, no Fanbook (reproduzido), na nota do autor do 248 e na lista de comentários de fim de revista (https://sagisi4.sakura.ne.jp/haguruma/jyujyutu.html; os únicos comentários sobre o tema são o do 248 e um do 112 sobre um domínio sem técnica impregnada), e nas cenas acima.
+
+**O que a obra dá no lugar de relógio:**
+- **Cesta e Simples: "um dia sempre perdem".** 266 p. 4-6: 心象を具現化した領域に比べて出力が弱く…いつかは必ず押し負けてしまう — *"saída mais fraca que um domínio de verdade; compram tempo, mas um dia sempre perdem a queda de braço"*. **Não é tempo fixo: é pressão.** Segurar o selo (Cesta) adia. **[C]**
+- **Pétala:** a obra só diz que ela **compra tempo** (Shoko, 227) e que **não é arrancada** (Kusakabe, 227). **[C]**
+- **Extensão:** o limite aparece como **fôlego contra técnica mais forte** (Gojo ao Hanami, 85: `もうそれに耐える元気ないんじゃない？`). **[C]**
+
+**Tempos que a obra dá, e de quem eles são de verdade:**
+
+| número | de quem é | técnica envolvida | cap. |
+|---|---|---|---|
+| 0,2 s | domínio do Mahito | o Simples do Todo chegou tarde | 130 |
+| 10 s | **plano** do Tengen (a Yuki tinha de segurar) | Simples — não chegou lá | 206 |
+| < 1 min lá fora | Simples do Miyo, com tempo acelerado dentro (~1.000 lutas) | Simples | 197 |
+| ~1 min ("およそ一分") | **sobrevivência** do Nanami (sem anti-domínio) e do Naobito sob o Enxame | Pétala já tinha caído no soco (108) | 109 |
+| 99 s | **teto do domínio** improvisado do Sukuna | os Simples aguentaram até perto disso | 258 |
+| ~3 min | domínio encolhido do Gojo (3 min 9 s; 3 min exatos depois de encolher) | Extensão do Sukuna como única arma dele | 228 |
+
+**Como as quedas se distribuem (todas as cenas deste arquivo):**
+
+| | (1) pressão | (2) ataque ao usuário | (3) esgotamento | (4) largada | (5) condição/voto | (6) domínio acabou antes | incerto / nunca subiu |
+|---|---|---|---|---|---|---|---|
+| **Cesta** | — | 266-267 | — | 251 (forçada por (2)) | — | — | 171 (incerto), 187 (nunca subiu) |
+| **Simples** | 206, 226 (×2), 258 (Yuji) | 40, 254 | — | 254 (junto com (2)) | 73 | 82, 102, 130, 258 (os outros) | 35, 134, 196-197, Modulo |
+| **Pétala** | — | 108 (inferido), 148 (na arma) | — | 227 | — | 109 (o Megumi apagou o acerto) | — |
+| **Extensão** | 85, 232 — **(1\*) contra técnica, não domínio** | — | 85 (fôlego, junto com (1\*)) | 85, 88, 224, 225, 227-228, 231, 246-247 | — | 228 | contra domínio: **nunca testada** |
+
+**Leitura da tabela (o que ela mostra, sem regra):** **(3) esgotamento puro nunca aparece** — ninguém solta anti-domínio por falta de energia sozinha. **(5) condição** só aparece no Simples, e só no da Kuchisake-Onna. **Queda por golpe no usuário DENTRO de domínio** só acontece com a Cesta, e nos dois casos o golpe era **soco de alma** do Yuji.
+
+---
+
+## O que isso responde
+
+### Cesta Oca de Vime
+
+| drawback | como cai |
+|---|---|
+| **Ocupa metade das mãos o tempo todo** — o selo tem de ficar fechado para suprir a saída fraca. **[C]** 266 p. 4-6; 249 | **Pressão do domínio "um dia sempre vence"** — sem tempo fixo; segurar o selo adia. **[C]** 266 p. 4-6 |
+| **Veta o ataque que precisa de selo + encantamento** (o corte que divide o mundo "não sai mantendo a Cesta"). **[C]** 250; 251 | **Golpe no usuário a desestabiliza:** os socos de alma do Yuji **racharam** a Cesta (`一部割れ`) e o Sukuna pensou "vai se desfazer!!" (`解ける!!`); no 267, sem Cesta útil e com o domínio bloqueado, o acerto entrou. **[C]** 266-267 |
+| **"Metade da boca"** — no Sukuna, a boca da barriga é a boca de encantamento (238); ligar isso à Cesta é leitura minha, **sem painel de encantamento da Cesta**. **[C]** 249, 238 + **[I]** | **Largada forçada:** o Sukuna solta o selo para arriscar o corte que divide o mundo, e aí os inimigos seguram os braços. **[C]** 251 p. 12-13 |
+| **Não apaga a técnica, só o acerto;** inútil contra domínio incompleto e contra acerto inofensivo. **[C]** 171; 187 p. 1 | **Pode nem subir a tempo:** a informação do Hakari chega "antes de o Kashimo desistir de ativar". **[C]** 187 p. 1 |
+| **NÃO trava a reversa** (o Sukuna cura e reseta a técnica com ela em jogo). **[C]** 266 | Custo de energia, tamanho em número, aprendizado e limite de tempo: **[NÃO ACHEI]** |
+
+### Domínio Simples
+
+| drawback | como cai |
+|---|---|
+| **Saída baixa: contra domínio de verdade só compra tempo.** **[C]** 206; 226 (Choso); 266 | **Arrancado pela saída do domínio** (`剥がされる`) — aos poucos ou de uma vez (o Kenjaku "apontou o dedo"). **[C]** 206; 226; 258 |
+| **A qualidade depende do usuário** (o Simples do Kenjaku "não se compara"; o Kusakabe expande o raio). **[C]** 206; 254 | **Dentro de domínio, NUNCA caiu por golpe no usuário** — só por (1) ou (6). **[C]** 130; 206; 226; 258 |
+| **Não neutraliza técnica;** o que reduz dano é "ser domínio" (o dono sobe, o de fora cai um pouco) — o Gege recuou do verbo "diluir" (248) e o 254 explicou pela via do domínio. **[C]** 254 p. 1-2 + **[F]** nota do 248 | **Fora de domínio, cai por golpe:** a Miwa desarmada pela Maki (isca no saque automático); o Kusakabe quando a espada quebra. **[C]** 40; 254 |
+| **Perde a corrida para domínio rápido demais** (0,2 s). **[C]** 130 | **Por condição:** a Kuchisake-Onna perde o domínio quando a pergunta é respondida. **[C]** 73 |
+| **Não para o Cleave, o Desmantelar à queima-roupa nem o corte que divide o mundo.** **[C]** 246 (Kusakabe) | **Voto da Miwa** (dois pés fora = fim) é regra dela, e **nunca aparece sendo quebrado**. **[C]** 40 p. 4; 254 p. 5 |
+| **Precisa de energia;** quem não tem usa com energia de ferramenta. **[C]** Modulo 5 p. 9 | Custo de energia e limite de tempo: **[NÃO ACHEI]**. **Não queima a técnica inata** (`術式を温存できる`). **[C]** 206 |
+
+### Pétala
+
+| drawback | como cai |
+|---|---|
+| **Só responde ao acerto garantido que TOCA** — o soco do dono do domínio não dispara. **[C]** 108 + **[F]** ficha 13/11/2024 | **Golpe no usuário por fora do acerto:** enxame tapa a visão → soco do Dagon → devorado. *A queda em si é inferência da wiki e de resumo jp; nenhuma fala diz "caiu".* **[C]** 108 + **[I]** |
+| **Inútil contra efeito complexo** ("tipo o Vazio Ilimitado") — fala do **Kusakabe**, não do Choso; o Higuruma não é citado. **[C]** 227 | **Largada:** o Gojo a usa para comprar o tempo da cura e então reabre o domínio. **[C]** 227 |
+| **Não sai ileso;** "não encara a saída de um domínio" (Choso). **[C]** 227 | **Na arma, cai com a arma:** a Osso-de-Dragão quebra a lâmina do Ogi. **[C]** 148 |
+| **"Exige concentração": DERRUBADO.** É "programa automático" (Kusakabe). O 108 fala de **visão tapada**, não de concentração. **[C]** 227; 108 | O perigo do Enxame acabou porque **o Megumi apagou o acerto** (`必中効果が消えている`), não pela Pétala. **[C]** 109 p. 4-5 |
+| **"Aguenta 1 minuto e custa um braço": NÃO é régua.** O "cerca de um minuto" é primeiro do **Nanami, sem anti-domínio**; o Naobito "também". Perdas: braço (Naobito), olho (Nanami). **[C]** 109 | Limite de tempo e custo de energia: **[NÃO ACHEI]**. **Não é arrancada** como o Simples. **[C]** 227 |
+| **Aprende-se na infância** dentro das famílias (Gojo). Nenhum Kamo usa. **[C]** 227 / **[NÃO ACHEI]** | — |
+
+### Extensão de Domínio
+
+| drawback | como cai |
+|---|---|
+| **Desliga a técnica inata** — e **anula a técnica que estava em curso** (a espada some; a adaptação para); só Higuruma e Sukuna transformam em pausa. **[C]** 85; 231; 246-247 + **[F]** Fanbook p. 143 | **Largada para usar a técnica** — é a queda mais comum, e é a que matou o Hanami. **[C]** 85; 88; 224-231 |
+| **Técnica mais forte passa:** neutraliza o Ilimitado neutro, **não** o Azul reforçado nem o Vermelho. **[C]** 232 (Sukuna); 85 (Gojo) | **Saturação por técnica reforçada + fôlego do usuário:** "quanto mais você neutraliza, mais forte eu seguro… ele não tem fôlego para aguentar". **[C]** 85 |
+| **Não para o corte que divide o mundo, o Cleave nem o Desmantelar à queima-roupa.** **[C]** 246 (Kusakabe) | **Contra domínio: nunca testada.** Toda cena é contra técnica ou dentro de choque de domínios com acertos já anulados. **[C] por varredura** |
+| **Acerto garantido do inimigo "fica ralo"?** Só o pensamento do Gojo no 84, e ele pode ser sobre o acerto **da própria Extensão**; o 171 não diz isso; o Fanbook diz "neutraliza". **[C]** 84 + **[F]** + **[I]** | "Dura pouco": **sem painel** (dois blogs). O maior uso é **~3 minutos** como única arma do Sukuna. **[I]** vs **[C]** 228 |
+| **"Um ataque com ela sempre acerta" NÃO é do Fanbook** — é conclusão da wiki. **[I]** | Custo de energia, uso junto com a reversa e limite de tempo: **[NÃO ACHEI]** |
+
+---
+
+## Fontes principais desta rodada
+
+- Fandom API (wikitext): páginas `Chapter_171, 187, 249-255, 258, 259, 266, 267, 108-110, 130, 131, 134, 148, 196, 197, 206, 226-228, 246, 35, 40, 73, 82, 102`, `Hollow_Wicker_Basket`, `Simple_Domain`, `Falling_Blossom_Emotion`, `Domain_Amplification`, `Sukuna`, `Naobito_Zenin`, `Death_Swarm`, `Authentic_Mutual_Love`, `Maculation`, `Tsurugi_Okkotsu` — `https://jujutsu-kaisen.fandom.com/api.php?action=parse&page=<Página>&prop=wikitext&format=json`
+- Transcrições de fala em japonês: https://yuran.work/ (caps. 84, 85, 88, 108, 109, 171); https://neet-life-blog.com/ (caps. 224, 225, 227, 228, 231, 232, 246, 247, 254, 266, 267)
+- Resumos japoneses: https://eiga-manga.com/entry/jujutsu{171,187,206,224-228,238,246,249-251,254,258,266,267} ; https://manga-games.com/jujutsukaisen-jump-{196,197,227,246,249,254,266,267}/ ; https://www.toyotetsu.net/jujutsu266/ ; https://entame-life.com/jujutsu108/
+- Enciclopédia oficial (@jujutsu_PR, じゅじゅずかん): status 1775357555197595846, 1788041129780482461, 1798187994551304275, 1856532442519339175 (texto e data via `cdn.syndication.twimg.com/tweet-result`)
+- Fanbook oficial, reproduzido: https://eiga-manga.com/entry/jujutsu-ryoikitenkai
+- Comentários de fim de revista: https://sagisi4.sakura.ne.jp/haguruma/jyujyutu.html
+- Wikipédia japonesa, 呪術廻戦≡: `https://ja.wikipedia.org/w/index.php?title=呪術廻戦≡&action=raw`
+
+**Não consegui:** abrir o Fanbook e os volumes encadernados em primeira mão (Fanbook só reproduzido; volume 28 sem comparação com a revista); pixiv 百科 e atwiki (bloqueio Cloudflare/403); conferir o anime do ep. 38.
+
+STATUS: COMPLETO
