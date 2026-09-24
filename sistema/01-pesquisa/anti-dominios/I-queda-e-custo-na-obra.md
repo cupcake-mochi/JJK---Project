@@ -194,3 +194,52 @@ Transcrição de fala do cap. 108 (https://yuran.work/jujutsukaisen-108-netabare
 
 Na linha do **cap. 40** da tabela 2.1 eu pus entre crases um japonês do voto da Miwa (`両足が…離れたら術が解ける`) **que eu não conferi — é paráfrase minha, não citação**. O que os sites japoneses escrevem é 「両足が展開時の地点から離れると解除される」 (https://comicjiten.com/kaniryouiki/) ou 「両足が接地した場所から離れると解除」 (http://likiroku.com/jujutsu-singake-kaniryouiki/) — **também paráfrase de resumo**, não o balão. O conteúdo (os dois pés saem do lugar = fim) é o da wiki, ref. cap. 40 p. 4 e 254 p. 5.
 
+---
+
+## 4 · EXTENSÃO DE DOMÍNIO — 領域展延
+
+### 4.1 Os textos-chave, quase palavra por palavra
+
+- **Cap. 84, pensamento do Gojo** (transcrição https://yuran.work/jujutsukaisen-84-netabare/): 〔「領域展延」…シン・陰の簡易領域と同じだな〕〔…「領域展延」は"水"……!!自分だけを包む液体〕〔領域を押し返す時の初動に近い感覚かな？〕〔必中効果は薄まるが確実に術式を中和してくる〕〔これなら僕にも攻撃は当たる〕 — *"…é igual ao Simples do Shin-Kage… é 'água', um líquido que envolve só você… parecido com o primeiro empurrão de quando se devolve um domínio… **o acerto garantido fica ralo, mas neutraliza a técnica com certeza**… assim até em mim o golpe entra."* **[C]** 84 p. 12-13. *(Repare: **quem primeiro compara com o Simples é o Gojo, no 84** — o Kusakabe repete no 225.)*
+- **Cap. 171, caixa de narração** (transcrição https://yuran.work/jujutsukaisen-171-netabare/): 「渋谷で漏瑚や花御が見せた「展延」は必中必殺の術式を搭載できるだけの領域に あえて術式を付与しないことで容量を空け五条の術式を流し込ませ 無下限を中和した」 — *"a Extensão… é um domínio com capacidade para carregar técnica de acerto-e-morte garantidos, **sem técnica de propósito para abrir espaço**, onde a técnica do Gojo escorre e o Ilimitado é neutralizado."* **[C]** 171 p. 5
+- **Fanbook p. 143** (reproduzido em https://eiga-manga.com/entry/jujutsu-ryoikitenkai): 「自身の体に、膜のように薄く領域を展開する行為を「領域展延」という。領域展延の発動中は、領域展開の必中効果を中和可能。また触れた対象の術式も中和でき、さらに発動中でも自由に行動できるという大きなメリットを有している。しかしながら、領域展延中は生得術式を発動できず、そのため攻撃手段が物理に限られる。」 **[F]**
+
+### 4.2 Duas correções no `H` que saem desses textos
+
+1. **"Um ataque com ela sempre acerta — [F] Fanbook p. 143" (H §4) NÃO está no Fanbook.** A frase é da wiki inglesa: *"This means an attack with Domain Amplification will always land regardless of the opponent's technique"* — o **"This means"** é conclusão da wiki, pendurada na referência do Fanbook. O texto do Fanbook diz **"neutraliza também a técnica do alvo que ela toca"** (`触れた対象の術式も中和でき`). *Na prática dá no mesmo contra defesa-por-técnica (o Ilimitado), mas **não é um "acerto garantido ofensivo" escrito pelo autor**.* → **[I] da wiki**, não [F].
+2. **"Contra o acerto garantido ela é só PARCIAL (`薄まる`) — caps. 84 e 171" (H §4): o 171 NÃO diz `薄まる`.** A caixa do 171 só fala da capacidade vazia e do Ilimitado. **O único `薄まる` é o pensamento do Gojo no 84**, e ele é ambíguo:
+   - leitura A (a do `H` e da wiki): *o acerto garantido do domínio INIMIGO fica ralo*;
+   - leitura B (a do `C`, e a que o contexto favorece): *o acerto garantido DA PRÓPRIA Extensão fica ralo* — no 84 **não há domínio inimigo em cena**; o Gojo está explicando por que os golpes do Jogo e do Hanami agora encostam nele, e a frase seguinte é "assim até em mim o golpe entra";
+   - e o **Fanbook** diz **"neutraliza o acerto garantido da Expansão"** (`必中効果を中和可能`), sem "ralo".
+   → **[I]** Nenhuma das três fontes é teste. Ver 4.4: **a obra nunca pôs a Extensão contra um acerto garantido de domínio.**
+
+### 4.3 Todas as cenas, com a queda
+
+| cap. | quem | contra quê | como terminou | quanto durou | o que o dono pagou | o que ela não parou | fonte |
+|---|---|---|---|---|---|---|---|
+| **84** | Jogo e Hanami | **Ilimitado** do Gojo (técnica, **sem domínio**) | segue para o 85 | — | a técnica inata, desligada | — | **[C]** 84 p. 10-13 |
+| **85** | Hanami | Gojo, que **desliga o Ilimitado** de isca | **(4) largada:** o Hanami solta a Extensão para usar a técnica; o Jogo grita 「展延を解くな!!」 (*"não solta a Extensão!!"*); o Gojo: 「やっぱりな 展延と生得術式は 同時には使えない」 (*"eu sabia: Extensão e técnica inata não andam juntas"*). **Depois, (1\*)+(3):** o Gojo avisa 「オマエが展延で僕の術式を中和する程 僕はより強く術式を保とうとする」「こっちの独活は もうそれに耐える元気ないんじゃない？」 — *"quanto mais você neutraliza minha técnica com a Extensão, mais forte eu seguro a técnica… esse aí já não tem fôlego para aguentar isso, né?"* — e esmaga o Hanami | não dado | a técnica inata; depois, o corpo | a técnica **reforçada** do Gojo | **[C]** 85 p. 10-17; https://yuran.work/jujutsukaisen-85-netabare/ |
+| **85** | Jogo | Gojo | **não caiu em cena** — e o Jogo diz o que ela fazia por ele: 〔儂が先刻まであの程度で済んでいたのは 展延で体を守っていたからだ!!〕 (*"se eu saí só com aquilo até agora, foi porque protegia o corpo com a Extensão!!"*) | — | a técnica inata | — | **[C]** 85 |
+| **88** | Jogo, sozinho | Gojo | **(4) em rajada:** 〔人間に紛れて展延による ヒット＆アウェイに徹するのだ〕 — *"misturado aos humanos, bater e fugir com a Extensão"* | uso intermitente | a técnica inata | — | **[C]** 88; https://yuran.work/jujutsukaisen-88-netabare/ |
+| **224** | Sukuna | Ilimitado do Gojo | **(4)** — o Gojo percebe a Extensão, **desliga o Ilimitado** e segura o soco com a mão | um golpe | a técnica inata | — | **[C]** 224; https://neet-life-blog.com/zyuzyutukaisenn224/ |
+| **225** | Sukuna | Gojo | **(4) em troca contínua** — o Kashimo elogia a "fineza da troca entre Extensão e técnica" (`展延と生得術式の切り替えのキレ`) | — | a técnica inata, alternada | — | **[C]** 225 p. 10 |
+| **227-228** | Sukuna | Gojo, **dentro do domínio do Gojo, com os acertos garantidos dos dois se anulando** | **(6)/(4):** o domínio do Gojo é quebrado por fora. O Gojo: 〔領域内でお互いの必中命令が相殺している間、僕の無下限呪術を破るため宿儺は展延以外の攻撃手段を持たない…実際領域を外側から破壊されるまでの3分間は僕の有利で進んだ〕 | **~3 minutos** como **única arma** do Sukuna contra o Ilimitado (o domínio do Gojo durou 3 min 9 s; "3 min exatos" depois de encolher, pela Mei Mei) | a técnica inata **fora do domínio**; **dentro do próprio domínio ele usa a técnica que está impregnada nele** | — | **[C]** 227 p. 9-14; 228; https://neet-life-blog.com/zyuzyutukaisenn228/ |
+| **231** | Sukuna | Gojo | **(4)** — e o custo aparece: 〔展延で僕に触れる時は摩虎羅の法陣が黒くなる。適応が中断されていると考えて間違いないだろう〕 (*"quando ele me toca com a Extensão, a roda do Mahoraga escurece; a adaptação está sendo interrompida"*) | — | **interrompe um processo da própria técnica** (a adaptação) | — | **[C]** 231 p. 13; https://neet-life-blog.com/zyuzyutukaisenn231/ |
+| **232** | Sukuna | **Vermelho** do Gojo (e o Azul reforçado) | **(1\*) saturada por técnica mais forte:** 「展延でダメージを最小限に抑えられた！やはり展延では出力の低いニュートラルな無下限術式は中和できても、それを強化した「蒼」や反転の「赫」は中和しきれんな」 — *"minimizei o dano com a Extensão! Como eu pensava: ela neutraliza o Ilimitado neutro, de saída baixa, mas **o Azul reforçado e o Vermelho invertido ela não neutraliza por inteiro**"* | um golpe (erguida no último instante) | — | **o Vermelho** (voa longe, só mitiga) | **[C]** 232 p. 8-10; https://neet-life-blog.com/zyuzyutukaisenn232/ |
+| **246-247** | Higuruma | cortes do Sukuna (sem domínio) | **(4) controlada** — ele ergue, defende e volta a acender a Espada do Carrasco. O Sukuna: ao usar a Extensão, ele fez a técnica em uso ficar **"interrompida, e não anulada"** (`無効ではなく中断`), *"como eu fiz com a adaptação do Mahoraga contra o Gojo"* — *"esse aqui opera técnica num nível quase igual ao meu"* | não dado | **por padrão, a Extensão ANULA a técnica que estava em curso**; só quem tem controle extremo transforma em pausa | o **corte que divide o mundo**, o Cleave e o Desmantelar à queima-roupa (análise do Kusakabe no 246, ver 2.1) | **[C]** 246 p. 20-21; 247 p. 1; https://neet-life-blog.com/zyuzyutukaisenn247/ |
+
+### 4.4 A pergunta "como ela cai" tem uma resposta que ninguém tinha dito: **contra DOMÍNIO, nunca foi testada**
+
+Todas as cenas acima são contra **técnica** (Ilimitado, Vermelho, cortes) ou **dentro de um choque de domínios em que os acertos já se anulavam** (227-228). **Não existe uma cena da Extensão segurando sozinha o acerto garantido de um domínio inimigo.** Procurei nas páginas `Domain_Amplification`, `Sukuna`, capítulos 84, 85, 88, 224-232, 246-247 e nos resumos japoneses correspondentes. **[C] por varredura.**
+→ Então **"como a Extensão cai sob pressão de domínio" é [NÃO ACHEI] — a obra não mostra.** O que ela mostra é a queda **contra técnica**: (4) largada para usar a própria técnica (85), e (1\*) **saturação por técnica mais forte** (85, 232), agravada pelo **fôlego do usuário** (85: `もうそれに耐える元気ない`).
+
+### 4.5 Os buracos da lista
+
+- **"Técnica mais densa passa" (inferência do amedot):** **FECHADO — é canon.** O Sukuna diz no 232: o Ilimitado neutro, de saída baixa, ela neutraliza; o **Azul reforçado e o Vermelho** ela **não neutraliza por inteiro** (`中和しきれん`). E o Gojo já tinha dito a regra no 85: *"quanto mais você neutraliza, mais forte eu seguro"*. **[C]** 85, 232
+- **"Dura pouco" (blog japonês):** **sem painel** — outro blog repete (`あまり長くはもたない`, https://manga-tantei.com/jujutasukaisenryouikitenen-19107), também sem capítulo. **[I]**. *O maior uso contínuo da obra vai contra: o Sukuna lutou **cerca de 3 minutos** tendo a Extensão como única arma (228).* O que a obra liga à duração é **fôlego contra técnica mais forte** (85), não relógio.
+- **Custo de energia:** **[NÃO ACHEI]**. O mais perto é o Kashimo no 225 amarrando a **troca** Extensão↔técnica à **eficiência de energia** (`展延と生得術式の切り替えのキレ、五条悟に六眼がなければ確実に呪力効率も宿儺が勝っていた`) — é sobre a **troca**, não sobre o custo de manter.
+- **Custo que É canon e não estava listado: ela anula a técnica que você tinha em curso.** A Espada do Carrasco some; a adaptação do Mahoraga para (231) — e **só Higuruma e Sukuna** conseguem que isso vire pausa em vez de anulação (247). **[C]**
+- **Junto com a reversa (反転術式):** **[NÃO ACHEI] cena de uso simultâneo.** O que há: (a) o Fanbook e o 85 travam a **técnica inata** (`生得術式`), e a reversa não é técnica inata; (b) o Gojo, no 231, especula que o Sukuna ainda ergue a Extensão sem poder expandir porque o dano no cérebro dele pegou **a parte ligada a barreira** (`やられた脳が結界術に係る部位に寄っていたからかな`) — ou seja, **a Extensão não depende da área de barreira**; (c) o Higuruma usa a reversa no 247 **depois** de levar os cortes, não com a Extensão de pé. **Nada disso responde se as duas andam juntas.**
+- **Como se aprende:** "vendo" — o Higuruma aprendeu olhando o duelo (225 p. 3); o Kusakabe, especialista em Simples, **não consegue** (「なめんな できるわけねーだろ」, 225). **[C]**
+- **Limite de tempo:** **[NÃO ACHEI]**.
+
