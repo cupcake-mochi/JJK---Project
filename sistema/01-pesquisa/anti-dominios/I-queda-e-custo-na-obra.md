@@ -79,3 +79,60 @@ Fontes: https://eiga-manga.com/entry/jujutsu266 · https://manga-games.com/jujut
 - **Como se aprende:** **[NÃO ACHEI]**. Nenhum dos três usuários aprende em cena. O 171 só a chama de 奥義 (arte secreta) e de protótipo do Domínio Simples.
 - **Limite de tempo:** **[NÃO ACHEI]**. *O 266 diz o contrário de limite fixo: a Cesta e o Domínio Simples **"um dia sempre perdem a queda de braço"** (`いつかは必ず押し負けてしまう`) — o limite é a **pressão do domínio**, e segurar o selo é o que adia.* **[C]** 266 p. 4-6
 
+---
+
+## 2 · DOMÍNIO SIMPLES — 簡易領域
+
+### 2.1 Todas as cenas, com a queda
+
+| cap. | quem | contra quê | como terminou | quanto durou | o que o dono pagou | o que ela não parou | fonte |
+|---|---|---|---|---|---|---|---|
+| **35** | Miwa | Yuji entrando no raio (sem domínio nenhum) | **incerto** — o Yuji desvia do saque automático por velocidade; a queda não é mostrada | não dado | o voto dela: os dois pés presos no lugar | **velocidade**: o programa de saque é esquivável | **[C]** 35 p. 8-9 (wiki) |
+| **40** | Miwa | Maki (sem domínio) | **(2) ataque ao usuário** — a Maki quebra a própria arma, joga os pedaços para o saque automático gastar, fecha a distância e **desarma a Miwa** | não dado | voto dos pés (`両足が…離れたら術が解ける`) | isca: o programa atira no que entra, e a Maki usou isso | **[C]** 40 p. 4-8 (wiki `Chapter_40`) |
+| **73** | Kuchisake-Onna | Toji | **(5) condição** — o domínio "congela" até a pergunta "sou bonita?" ser respondida; o Toji responde e **o domínio some** (`domain disappears`) | até a resposta | — | a Lança Invertida do Toji desviou todas as tesouras depois | **[C]** 73 p. 8-12 |
+| **82** | Mechamaru (Kokichi), em 4 tubos | Autoencarnação da Perfeição do Mahito | cada tubo é **um disparo**. 1º **falhou**, 2º **protegeu a cabine** do acerto, 3º acertou o Mahito, 4º o Kokichi morreu antes de usar. O do 2º cai com o domínio: **(6)** | um disparo cada | a Recarga de Técnica (Kokichi não sabe fazer à mão) | o **punho gigante** do Mahito, que esmagou a cabine depois | **[C]** 82 p. 4-7 |
+| **102** | Ui Ui | domínio da Deusa da Varíola (caixão + lápide) | **(6)** — o dono do domínio é exorcizado pelo Ataque de Pássaro da Mei Mei | não dado | **ele só usa jujutsu com permissão da Mei Mei** (a pergunta "morreria por mim?" é a autorização) | — | **[C]** 102 p. 10-14 |
+| **130** | Todo | domínio de **0,2 s** do Mahito | **nunca protegeu a tempo** — o Mahito fundiu os dois passos do domínio e disparou antes. Encaixo em **(6)**: o domínio acabou antes do Simples servir | 0,2 s (a do domínio) | a **mão esquerda** (ela começa a se transfigurar e ele mesmo corta) | a própria velocidade do domínio | **[C]** 130 p. 2 |
+| **134** | Kusakabe | Máximo: Uzumaki do Kenjaku (**técnica solta, sem domínio**) | **incerto** — "cancela **parte**" da técnica e protege Miwa, Momo e Utahime | um golpe | — | parte do Uzumaki (o chão abre uma fenda) | **[C]** 134 p. 10-12 |
+| **196-197** | Miyo | Maki (luta de sumô, sem domínio inimigo) | **incerto** — depois de ~1.000 lutas, "o domínio se desfaz". A obra não diz se foi voto, fim de combinado ou largada | **menos de 1 minuto lá fora** (`真希が結界の中に入ってから一分も経っていなかった`), porque **sem voto nenhum o tempo lá dentro corre mais rápido** | **só fecha com o sim dos dois** (`招かれた両者が了承しない限り完成しない`) | — | **[C]** 196 p. 1-2; 197 p. 2; https://manga-games.com/jujutsukaisen-jump-197/ |
+| **206** | Yuki | Ventre Profuso do Kenjaku (**sem casca**) | **(1) pressão do domínio.** O plano era aguentar **10 segundos** (`天元の計画には10秒必要`) no Simples enquanto o Tengen desmontava a barreira. O Kenjaku **raspa aos poucos** (`みるみる剥がされていく`) e depois **arranca tudo de uma vez, apontando o dedo** (`指を差すと同時に…全て剥がす`) | **menos que os 10 s do plano** ("uns poucos segundos" na wiki) | o corpo: leva o acerto em cheio | — | **[C]** 206 p. 4, 7, 9; https://eiga-manga.com/entry/jujutsu206 |
+| **226** | Gojo | Santuário Malevolente (sem casca) | **(1) pressão do domínio, duas vezes.** A narração credita ao Choso: *"a saída do Simples contra um domínio de verdade só compra tempo"* (`時間稼ぎにしかならない`), e o Simples "é logo arrancado" (`すぐに剥がされてしまい`). Ele reergue, cai de novo | "logo" — sem número | nada da técnica: ele **cura com a reversa ao mesmo tempo** na 1ª vez (o Kusakabe fica pasmo com as duas coisas juntas) e **conserta a técnica queimada com a reversa** na 2ª | o acerto, nas duas janelas em que caiu | **[C]** 226 p. 9-14, 17; https://eiga-manga.com/entry/jujutsu226 |
+| **246** | Kusakabe | cortes voadores do Sukuna (**fora de domínio**) | fim não mostrado | não dado | — | reduz o dano "sem chegar ao nível da Extensão". **E não para três coisas, pela análise do Kusakabe no mesmo cap.:** o **Desmantelar à queima-roupa**, o **Cleave (捌)** e o **corte que divide o mundo** — *"nenhum meio, nem reforço de energia, nem Extensão, nem Simples, defende; é morte na hora"* (`呪力強化・領域展延・簡易領域のどの手段でも防御不可・基本即死`) | **[C]** 246 p. 3-4; https://eiga-manga.com/entry/jujutsu246 |
+| **254** | Kusakabe | Sukuna (sem domínio: o Sukuna ainda não conseguia expandir) | **(2) + (4):** a sequência de golpes **quebra a espada** do Kusakabe; ele joga o casaco, soca, persegue o Sukuna pela rua (sai do lugar), refaz a lâmina com o Lua Nebulosa e é **cortado** | não dado | nada de voto: **ele expande o raio em combate** para puxar o Sukuna para dentro | o Desmantelar sem movimento quase passa (ele desvia no limite) | **[C]** 254 p. 1-4, 8-9, 15-16 |
+| **258** | Yuji, Ino, Choso; **Miwa cobrindo a Maki** | Santuário Malevolente improvisado (sem casca, **incompleto**) | Ino, Choso, Miwa e Maki: **(6)** — o domínio desaba antes. **Yuji: (1)** — arrancado **pouco antes** do colapso (`「簡易領域」が剥がされてしまった`), perde o **pé esquerdo** | o texto dá o **teto do domínio**, não o do Simples: *"o Sukuna de agora não mantém esse domínio; ele desaba em 99 segundos"* (`99秒後に「伏魔御廚子」は崩壊する`). **Os Simples aguentaram até perto disso** | pé esquerdo (Yuji) | — | **[C]** 258 p. 10-11, 14, 15, 17; https://eiga-manga.com/entry/jujutsu258 |
+| **Modulo 5 / 16** | Tsurugi Okkotsu (Madara, Simples em malha) | Masaki Takeda + shikigami (5); Maru (16) | **incerto** | não dado | **ele nasceu sem energia amaldiçoada** (Restrição Celestial física, como a Maki); **faz o Simples puxando a energia guardada no Honoyagi** (espada-ferramenta) | — | **[C]** Modulo 5 p. 9-11, 16 p. 16-17 (wiki `Maculation`); **[F]** Wikipédia jp de 呪術廻戦≡: `生来の呪力や術式を持たずに…呪具の呪力を用いることでシン・陰流などの呪術を扱う` |
+
+**Duas cenas citadas que NÃO são do Domínio Simples**, para ninguém contar errado: o **cap. 266** só *menciona* o Simples na narração (quem usa é a Cesta); o **cap. 225** é o Kusakabe comparando o Simples com a Extensão.
+
+### 2.2 O buraco: **algum Domínio Simples já caiu por golpe no usuário, e não pela saída do domínio?**
+
+**Resposta: SIM, mas NUNCA dentro de um domínio.**
+- **Fora de domínio**, as quedas por golpe existem: **Miwa (40)** cai porque a Maki gasta o saque dela com isca e a **desarma**; **Kusakabe (254)** perde o Simples quando a **espada quebra** e ele parte para o soco. **[C]**
+- **Dentro de domínio inimigo, toda queda é (1) pressão ou (6) o domínio acabou antes.** No 226 houve troca de socos entre o Gojo e o Sukuna antes da queda, mas **a narração credita a queda à saída baixa** (o Choso tinha avisado que "só compra tempo"). Não há um único painel dizendo "o golpe no usuário quebrou o Simples". **[C]** 206, 226, 258
+- **Contraste com a Cesta:** a Cesta tem os dois casos de queda **por ataque ao usuário DENTRO de domínio** (251 e 266). O Simples não tem nenhum. **[C]** — *mas repare que nos dois casos da Cesta o golpe era especial: soco de alma do Yuji. Não há caso de soco comum derrubando nenhuma das duas.*
+
+### 2.3 A nota de rodapé do Gege (cap. 248) — **a contradição foi fechada pelo próprio mangá no cap. 254**
+
+**O texto da nota, exato:** 「簡易領域は術式自体を中和してるわけじゃないから薄めるって表現は違ったかも」 — *"o Domínio Simples não está neutralizando a técnica em si, então a expressão 'diluir' talvez tenha sido errada."* **[F]** Jump 2024 nº 8, 22/01/2024, comentário de fim de revista do cap. 248. Fonte: lista de comentários de fim de revista, https://sagisi4.sakura.ne.jp/haguruma/jyujyutu.html (a lista traz data, número, ordem e capítulo).
+
+**O que o 246 dizia (antes da nota):** o Sukuna vê que o Kusakabe, **"diluindo a técnica com o Simples"** (`簡易領域で術式を薄める`), reduziu o dano, "sem chegar ao nível da Extensão". **[C]** 246
+
+**O que o 254 diz (DEPOIS da nota, e é isto que os arquivos anteriores não tinham):**
+> 簡易領域は対領域対結界として必中効果を打ち消すことができるが、術式そのものを中和できる訳じゃない。だがそれはそれとして簡易的ではあるが領域は領域
+> *"O Simples, como anti-domínio e anti-barreira, apaga o acerto garantido, mas **não neutraliza a técnica em si**. Mas, isso à parte, simplificado ou não, **domínio é domínio**."*
+
+…e a consequência vem na mesma página: **dentro do Simples a saída de energia do Kusakabe sobe e a técnica do Sukuna enfraquece um pouco** (`日下部の呪力は上がりますし、宿儺の呪力は多少とはいえ弱まります`). **[C]** 254 p. 1-2. Transcrição: https://neet-life-blog.com/zyuzyutukaisenn254/ ; paráfrase: https://manga-games.com/jujutsukaisen-jump-254/ ; https://eiga-manga.com/entry/jujutsu254
+
+**Leitura:** o Gege não retirou o efeito; **trocou a causa**. "Diluir" sugeria neutralização (o que só a Extensão faz). No 254 a redução vem de **ser um domínio**: o dono fica mais forte lá dentro e o de fora, um pouco mais fraco. **Isso fecha o que o `D` (seção 3) deixou "de pé":** a frase da wiki (*"it can weaken techniques that enter its range... while enhancing the user's own cursed energy output"*, com ref. 254 p. 1-2) **não é frase morta** — ela segue o 254, que é posterior à nota. **[C]** + **[F]**
+- **Continua [NÃO ACHEI]:** se o volume encadernado 28 (caps. 246-254) **reescreveu** o 薄める do cap. 246. Procurei por "28巻 修正 簡易領域 薄める" e resenhas do volume; o que achei só diz que o volume traz "pequenos suplementos do autor", sem dizer quais.
+
+### 2.4 Custo, tempo, limite
+
+- **Custo de energia:** **[NÃO ACHEI]** número ou fala. O que a obra dá é indireto e novo:
+  - **[C] 206:** o Tengen e a Yuki dizem que o Kenjaku poderia usar Simples ou Cesta porque elas **deixam o usuário guardar a técnica** (`術式を温存できる`) — ou seja, **não queimam a técnica inata** como a Expansão de Domínio queima. *É o custo que ela NÃO tem.*
+  - **[C] Modulo 5:** quem nasce sem energia só usa o Simples **com energia de fora** (o Honoyagi). *Prova que precisa de energia; não diz quanto.*
+  - "Gasta pouca energia" aparece em blogs japoneses (ex.: chaca.jp) **sem painel**. **[I]**
+- **Qualidade varia com o usuário:** o Tengen avisa que **o Simples do Kenjaku não se compara ao dos outros**, porque ele é mestre de barreira (`簡易領域さえ他の術師と同列に扱わない方がいい`). **[C]** 206. *O mesmo nome, com saída diferente.*
+- **Limite de tempo da técnica:** **[NÃO ACHEI]**. Os números de tempo da obra são **do domínio** (0,2 s no 130; 99 s no 258) ou **do plano** (10 s no 206). O único tempo medido do Simples em si é o do Miyo (< 1 min lá fora), e ali o tempo é distorcido pelo próprio Simples.
+- **Condição que derruba — só em usuário específico:** o **voto da Miwa** (dois pés fora do lugar = fim) é a única regra de queda escrita. **[C]** 40 p. 4; 254 p. 5. **Nenhuma cena mostra esse voto sendo quebrado.**
+
