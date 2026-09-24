@@ -1109,7 +1109,15 @@ else:
     #   faixa de pericia treinada que o validador guardava. Familia
     #   `conferir-[a-z-]+\.py`, ja declarada, e nenhuma e material de mesa. O
     #   principal limpo, no commit da v0.262, imprimia 183 — a base estava em dia.
-    BRANCAS_AQUI, FOLGA = 185, 5
+    # v0.267: 185 -> 186, MEDIDO na pasta de trabalho, numa copia com a entrega
+    #   sincronizada pelo passo 0 do subir.sh, e com os tres regex desta checagem
+    #   lidos do proprio codigo: 334 citacoes e 185 brancas antes, 335 e 186 depois.
+    #   UMA so: `sistema/01-pesquisa/anti-dominios/conta-cesta-oca.py`, na peca 11
+    #   §6.5, onde a Cesta Oca reescrita diz de onde saem os numeros dela. Familia
+    #   `(?:sistema/)?\d\d-[a-z-]+/.*`, caminho de arquivo de trabalho, ja
+    #   declarada, e nao e material de mesa. A v0.265 a v0.267 fecharam numa
+    #   sessao na nuvem, sem finalizado/, e esta checagem nao tinha o que medir la.
+    BRANCAS_AQUI, FOLGA = 186, 5
     PISO_CITACOES, TETO_BRANCOS = 120, BRANCAS_AQUI + FOLGA
     if vistos_e < PISO_CITACOES:
         erro(f'7.2: achei so {vistos_e} citacoes na entrega, e o piso e {PISO_CITACOES} — '
