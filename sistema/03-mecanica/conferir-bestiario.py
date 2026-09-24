@@ -1197,12 +1197,19 @@ else:
     # O multiplicador de cada aptidao NAO e' lido daqui: ele vem da tabela das
     # quatro anti-dominio da peca 11 §6.5, que e' a dona. Se ela repreçar, esta
     # acende — que e' a coisa que uma copia nao faz.
+    #
+    # v0.268: o `Domínio Simples` passou a custar `2` PE FIXOS por rodada, por decisao
+    # do Mizuki, e a tabela da peca 11 ganhou o segundo formato. Cada aptidao guarda o
+    # formato junto do numero: ('x', multiplicador da maior Classe) ou ('fixo', PE).
     _APT11 = {}
     for _l11 in tabela(ler(P11), '| | Classe · gate | abre em | o refino escala | PE por rodada |'):
         if len(_l11) >= 5:
             _mm = re.match(r'([\d,]+) × maior Classe', _l11[4].strip())
+            _mf = re.match(r'(\d+) fixos', _l11[4].strip())
             if _mm:
-                _APT11[_l11[0].strip()] = float(_mm.group(1).replace(',', '.'))
+                _APT11[_l11[0].strip()] = ('x', float(_mm.group(1).replace(',', '.')))
+            elif _mf:
+                _APT11[_l11[0].strip()] = ('fixo', float(_mf.group(1)))
     _T92 = tabela(TXT, '| ligada a luta inteira, no nível 30 | da cota de uma `Ameaça` | de um `Desastre` |')
     if not _APT11:
         erro('9.2: nao achei o custo por rodada das anti-dominio na peca 11 §6.5 — ela e '
@@ -1224,14 +1231,18 @@ else:
                 _mau92 += 1
                 continue
             _mm92 = re.search(r'([\d,]+) ×', _l92[0])
-            _pub92 = float(_mm92.group(1).replace(',', '.')) if _mm92 else None
+            _mf92 = re.search(r'([\d,]+) PE fixos', _l92[0])
+            _pub92 = (('x', float(_mm92.group(1).replace(',', '.'))) if _mm92 else
+                      ('fixo', float(_mf92.group(1).replace(',', '.'))) if _mf92 else None)
             _don92 = {_APT11[_n] for _n in _nomes}
-            if len(_don92) != 1 or _pub92 is None or abs(_pub92 - _don92.pop()) > 1e-9:
-                erro(f'9.2: a linha "{_l92[0]}" publica multiplicador {_pub92} e a peca 11 '
+            if (len(_don92) != 1 or _pub92 is None
+                    or _pub92[0] != next(iter(_don92))[0]
+                    or abs(_pub92[1] - next(iter(_don92))[1]) > 1e-9):
+                erro(f'9.2: a linha "{_l92[0]}" publica {_pub92} e a peca 11 '
                      f'§6.5 da {[_APT11[_n] for _n in _nomes]}')
                 _mau92 += 1
                 continue
-            _custo = _pub92 * _CL18[30] * _CAMBIO
+            _custo = _pub92[1] * (_CL18[30] if _pub92[0] == 'x' else 1) * _CAMBIO
             _COLS92 = [next(c for c in _CAT if c[0] == _r)
                        for _r in ('Ameaça', 'Desastre')]
             for _cel92, _c92 in zip(_l92[1:], _COLS92):
@@ -1246,7 +1257,8 @@ else:
                     _mau92 += 1
         if not _mau92:
             print(f'  [x] as {len(_T92)} linhas da aptidao reconstroem do custo da peca 11 '
-                  f'§6.5 vezes a maior Classe da peca 18 vezes o cambio da peca 5 §4')
+                  f'§6.5 — vezes a maior Classe da peca 18 quando ele e por Classe, ou '
+                  f'fixo — vezes o cambio da peca 5 §4')
 
     # -- 9.3: as duas trocas ruins, e as duas sao a mesma conta --------------
     # A cura: H vale (dano ÷ saida) × H, entao o empate e' curar a SAIDA do

@@ -379,13 +379,13 @@ if peso10 > 0.50:
 bloco('5. A RESPOSTA CHEGA ANTES DA AMEACA?')
 
 print('  A completa acerta GARANTIDO. Isso so e jogavel porque a resposta e barata:')
-print('  Dominio Simples nao tem gate de refino nem de nivel — custa uma escolha de')
+print('  a Cesta Oca nao tem gate de refino nem de nivel — custa uma escolha de')
 print('  marco, e a primeira escolha de marco acontece no nivel 6.\n')
 
 RESPOSTA_NIVEL = MARCOS[0]          # um marco de Refino, o mais cedo possivel
 ameaca = min(v for v in (abre_em(r, 'incompleta') for r in CURVA) if v is not None)
 
-print(f'  anti-dominio mais cedo (um marco de Refino, Dominio Simples)   nv {RESPOSTA_NIVEL}')
+print(f'  anti-dominio mais cedo (um marco de Refino, Cesta Oca)        nv {RESPOSTA_NIVEL}')
 print(f'  Expansao mais cedo (incompleta, especialista ou meio a meio)   nv {ameaca}')
 if RESPOSTA_NIVEL >= ameaca:
     erro(f'a resposta chega no nv {RESPOSTA_NIVEL} e a ameaca no nv {ameaca} — o '
@@ -549,20 +549,45 @@ print('  dominios se atravessando, uma fraqueza ja estabelecida. Excecao declara
 # --------------------------------------------------------------------------
 bloco('10. AS QUATRO ANTI-DOMINIO')
 
-# Classe da aptidao -> (gate de refino, gate de nivel), da peca 11 secao 5
+# Classe da aptidao -> (gate de refino, gate de nivel), da peca 11 secao 5.
+# v0.268: o de nivel estava em 7 e 13, que a v0.260 subiu para o marco (10 e 14). O
+# resultado nao mudava — o marco manda —, mas a copia estava velha.
 GATE_CLASSE_REFINO = {1: 1, 2: 4, 3: 7}
-GATE_CLASSE_NIVEL = {1: 1, 2: 7, 3: 13}
+GATE_CLASSE_NIVEL = {1: 1, 2: 10, 3: 14}
 
-# nome -> (Classe, multiplicador de PE por rodada sobre a maior Classe)
-ANTIDOMINIO = {
-    'Cesta Oca de Vime':   (1, 0.0),
-    'Dominio Simples':     (2, 1.0),
-    'Petala':              (2, 1.0),
-    'Extensao de Dominio': (3, 1.5),
-}
+# O CUSTO POR RODADA e' LIDO da tabela "As quatro, com numero" da peca 11 §6.5.
+# Ate a v0.267 ele morava aqui escrito a mao, como multiplicador da maior Classe; na
+# v0.268 o Dominio Simples passou a custar `2` PE FIXOS, por decisao do Mizuki, e uma
+# copia a mao nao acenderia com a troca de formato. Tres formatos: nenhum · N fixos ·
+# X × maior Classe.
+_P11_10 = open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                            '11-aptidoes-e-refino.md'), encoding='utf-8').read()
+ANTIDOMINIO = {}          # nome -> (Classe, formato, valor)
+for _m10 in re.finditer(r'^\| \*\*(.+?)\*\* \| (\d) · [^|]*\|[^|]*\|[^|]*\| ([^|]+?) \|$',
+                        _P11_10, re.M):
+    _c10 = _m10.group(3).replace('`', '').replace('*', '').strip()
+    _mf = re.match(r'(\d+) fixos$', _c10)
+    _mx = re.match(r'([\d,]+) × maior Classe$', _c10)
+    if _c10 == 'nenhum':
+        ANTIDOMINIO[_m10.group(1)] = (int(_m10.group(2)), 'fixo', 0.0)
+    elif _mf:
+        ANTIDOMINIO[_m10.group(1)] = (int(_m10.group(2)), 'fixo', float(_mf.group(1)))
+    elif _mx:
+        ANTIDOMINIO[_m10.group(1)] = (int(_m10.group(2)), 'x', float(_mx.group(1).replace(',', '.')))
+if len(ANTIDOMINIO) != 4:
+    erro(f'li {len(ANTIDOMINIO)} anti-dominio na tabela da peca 11 §6.5 e sao quatro — a tabela '
+         'mudou de forma e este bloco parou de conferir o custo')
 PE_POR_NIVEL_PISO = 4      # o Bastiao, que e o menor bolso do sistema
 RODADAS_POR_LUTA = 3.5
 LUTAS_DE_GRACA = 3         # a exaustao dispara da QUARTA (peca 10)
+RODADAS_POR_MINUTO = 10
+
+
+def custo_rodada(nome, nv):
+    cl, fmt, val = ANTIDOMINIO[nome]
+    if fmt == 'fixo':
+        return val
+    return max(1, math.ceil(val * maior_classe(nv)))
 
 
 def abre_classe(rota, cl):
@@ -574,13 +599,13 @@ def abre_classe(rota, cl):
 
 print(f"  {'aptidao':<22}{'Classe':<8}{'especialista':<15}{'meio a meio':<15}"
       f"{'generalista':<15}{'PE/rodada'}")
-for nome, (cl, mult) in ANTIDOMINIO.items():
+for nome, (cl, fmt, val) in ANTIDOMINIO.items():
     v = {r: abre_classe(r, cl) for r in CURVA}
-    rot = 'nenhum' if mult == 0 else f'{mult:g} x Classe'
+    rot = ('nenhum' if val == 0 else f'{val:g} fixos') if fmt == 'fixo' else f'{val:g} x Classe'
     print(f'  {nome:<22}{cl:<8}' + ''.join(f'nv {v[r]:<12}' for r in CURVA) + rot)
 
 # --- a resposta chega antes da ameaca, para as TRES rotas
-mais_barata = min(ANTIDOMINIO.values(), key=lambda x: x[0])[0]
+mais_barata = min(c for c, _, _ in ANTIDOMINIO.values()) if ANTIDOMINIO else 1
 pior_rota = max(abre_classe(r, mais_barata) for r in CURVA)
 ameaca = min(v for v in (abre_em(r, 'incompleta') for r in CURVA) if v is not None)
 print(f'\n  A anti-dominio mais barata e Classe {mais_barata}, e a rota mais lenta a')
@@ -591,13 +616,13 @@ if pior_rota >= ameaca:
 else:
     print(f'  Folga de {ameaca - pior_rota} niveis, e ela vale para as tres rotas.')
 
-# --- o upkeep cabe no orcamento de lutas do dia
-# O multiplicador e LIDO da tabela acima, e nao escrito aqui. Uma primeira versao
-# desta checagem tinha 1.0 na mao, e por isso nao enxergava mudanca na constante —
-# o mesmo defeito que a checagem de dominancia do conferir-aptidoes.py tinha.
-MULT_PADRAO = ANTIDOMINIO['Dominio Simples'][1]
-print(f'\n  O custo por rodada ({MULT_PADRAO:g} x Classe), contra o dia de um Bastiao '
-      '(o menor bolso):')
+# --- o upkeep POR CLASSE cabe no orcamento de lutas do dia. Desde a v0.268 so a Petala
+# paga assim entre as de Classe 2 — o argumento e' o da peca 11 §6.5, "Por que o custo
+# por rodada e 1 × maior Classe", e o multiplicador e' o que a tabela publica para ela.
+_x10 = [n for n, (c, f, v) in ANTIDOMINIO.items() if f == 'x' and c == 2]
+MULT_PADRAO = ANTIDOMINIO[_x10[0]][2] if _x10 else 1.0
+print(f'\n  O custo por rodada da Classe 2 que paga por Classe ({", ".join(_x10)}: {MULT_PADRAO:g} x Classe),')
+print('  contra o dia de um Bastiao (o menor bolso):')
 print(f"    {'nv':<6}{'Classe':<8}{'PE/rod':<9}{'uma luta':<11}{'% do dia':<11}{'lutas que cabem'}")
 for nv in (10, 14, 20, 30):
     cl = maior_classe(nv)
@@ -613,6 +638,30 @@ for nv in (10, 14, 20, 30):
     if cabem > 2 * LUTAS_DE_GRACA:
         aviso(f'no nv{nv} o custo cabe em {cabem} lutas, mais que o dobro do dia — ele '
               'esta perto de evaporar')
+
+# --- o custo FIXO (v0.268, o Dominio Simples). Decisao do Mizuki: o PE dele "so pra
+# impedir de ninguem abrir dominio simples fora de combate e ficar andando por ai com
+# ele", e barato em luta — o preco dele e' o relogio contra a Expansao. Entao o aviso
+# de "evaporar" nao vale para ele, de proposito. O que vale: ele nao pode ser ZERO (a
+# porta que o PE existe para fechar) e tem de caber nas lutas do dia.
+for nome, (cl, fmt, val) in ANTIDOMINIO.items():
+    if fmt != 'fixo' or cl == 1:
+        continue
+    # o zero vem ANTES de qualquer divisao: a primeira forma deste bloco dividia pelo
+    # custo e depois perguntava se ele era zero, e o arnes da v0.268 viu ela morrer de
+    # ZeroDivisionError — vermelha pelo motivo errado.
+    if val <= 0:
+        erro(f'{nome} custa zero PE por rodada: ele fica de pe o dia inteiro fora de combate, '
+             'que e o que o custo fixo existe para impedir')
+        continue
+    print(f'\n  {nome}: {val:g} PE fixos por rodada. Fora de combate, o dia inteiro do Bastiao o segura por:')
+    for nv in (10, 30):
+        dia = PE_POR_NIVEL_PISO * nv
+        print(f'    nv {nv}: {dia / val / RODADAS_POR_MINUTO:.1f} min · uma luta custa {val * RODADAS_POR_LUTA:g} PE, '
+              f'{val * RODADAS_POR_LUTA / dia:.0%} do dia')
+        if int(dia // (val * RODADAS_POR_LUTA)) < LUTAS_DE_GRACA:
+            erro(f'no nv{nv} os {val:g} PE fixos de {nome} so cabem em '
+                 f'{int(dia // (val * RODADAS_POR_LUTA))} luta(s) — o custo fixo deixou de ser barato em luta')
 
 # --- a Petala nao pode anular o Acerto inteiro
 print('\n  A Petala devolve refino/2 Acertos, e a completa solta 1 + duracao:')
@@ -639,13 +688,24 @@ for r in (1, 2, 4, 6, 8, 10):
 print('    ' + '  ·  '.join(linha))
 print('    Nenhum passa de um movimento: ela e defesa, e nao prende ninguem.')
 
-# --- a escada de upkeep segue a escada de Classe
-ordem = sorted(ANTIDOMINIO.values())
-if [m for _, m in ordem] != sorted(m for _, m in ordem):
-    erro('o custo por rodada nao cresce junto com a Classe da aptidao — uma Classe '
-         'menor esta custando mais PE que uma maior')
+# --- a escada de upkeep segue a escada de Classe, NIVEL A NIVEL: o que a Classe menor
+# cobra nunca passa do que a Classe maior cobra. v0.268: com o custo fixo, a comparacao
+# por multiplicador deixou de dizer alguma coisa, e ela passou a ser feita em PE.
+_ruim_escada = []
+for nv in range(10, 31):
+    por_cl = {}
+    for nome in ANTIDOMINIO:
+        por_cl.setdefault(ANTIDOMINIO[nome][0], []).append(custo_rodada(nome, nv))
+    cls = sorted(por_cl)
+    for a_, b_ in zip(cls, cls[1:]):
+        if max(por_cl[a_]) > min(por_cl[b_]):
+            _ruim_escada.append((nv, a_, b_))
+if _ruim_escada:
+    erro(f'o custo por rodada nao cresce junto com a Classe: nv, Classe menor, Classe maior = '
+         f'{_ruim_escada[:4]} — uma Classe menor esta custando mais PE que uma maior')
 else:
-    print('\n  O custo por rodada nao decresce com a Classe: 0 · 1 · 1 · 1,5.')
+    print('\n  O custo por rodada nao decresce com a Classe, em nenhum nivel do 10 ao 30: ' +
+          ' · '.join(f'{n} {custo_rodada(n, 30):g}' for n in ANTIDOMINIO) + ' no nivel 30.')
     print('  A Cesta Oca e a unica de graca em PE: desde a v0.267 o preco dela sao')
     print('  as maos presas no simbolo e a queda pelos golpes em quem segura.')
 

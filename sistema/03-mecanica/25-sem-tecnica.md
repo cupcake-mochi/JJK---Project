@@ -112,13 +112,15 @@ A terceira linha é a que faz esta peça caber sem furar nada. **O `arquitetura.
 
 > ***Decisão do Mizuki na v0.190: a `Pétala` vira porta.*** *Ela já estava medida e declarada como quarta porta não escrita desde a v0.168 — cabia na banda, e o que faltava era escolha de sabor.* **⚠ A tabela acima é a decisão; o texto da porta e o exemplo dela ainda não estão escritos**, e é isso que a §9 vai levar quando alguém sentar nela.
 
+> **A semente `Domínio Simples` nasce com o voto do iniciante** — *peça 11 §6.5, desde a v0.268: ele fica no ponto em que você o ergueu, e se os seus dois pés saírem desse ponto ele se desfaz.* **Você larga o voto quando o seu refino chega a 5** — *sem escolher Refino, no nível 18.* *Com o voto, o gate dele é o da Classe Passiva 2 (refino 4), e a antecipação continua `9,3` níveis. É a Miwa, e a `Redoma` do §9 já é escrita assim.*
+
 **A terceira não é escapatória, e ela não vira a melhor.** *A peça 11 §6.7 já trava a `Aptidão Própria` em `Classe Passiva 1 ou 2, nunca 3`, e a §6.7 também escreve o desempate: **na dúvida, Pesada — e Pesada é Classe Passiva 3, que ela não alcança**, então dúvida reprova a proposta.* **Ela cai no piso da banda por regra que já existia, sem uma linha nova.**
 
 > **É por ela que a mecânica de base entra.** *Quem não quer nenhuma das duas do catálogo escreve a própria em cima do que o sistema já tem — a Classe, a arma, a proteção, o que for.* **O que ela não pode é repetir uma das doze pagas com outro nome**, e essa trava também é da §6.7.
 
 ### 4.3 A porta da `Pétala` — o que ela é, e o que ela não deixa você fazer
 
-**A `Pétala` cobre o seu corpo de energia e devolve o golpe.** *Ela exige concentração, ela **não** para ataque físico, e ela devolve `refino ÷ 2` Acertos — os três números são da peça 11 §6.5, e nenhum deles é desta peça.*
+**A `Pétala` cobre o seu corpo de energia e devolve o golpe.** *Ela exige concentração, ela **não** para golpe que não seja técnica, e ela devolve `refino ÷ 2` Acertos — os três números são da peça 11 §6.5, e nenhum deles é desta peça.*
 
 **Ela cabe na banda exata do `Domínio Simples`:** Classe Passiva 2, `9,3` níveis de antecipação. *As duas são a mesma altura, e a escada de gate é quem decide isso — não teve escolha de número aqui.*
 

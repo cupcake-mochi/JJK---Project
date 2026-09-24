@@ -65,6 +65,8 @@ A rota da escola que ensina gente sem técnica a matar maldição. **Ela é anti
 
 A semente é o **motor**, e não o assunto: o que você escreve em cima dela é seu.
 
+Ela nasce com o voto do iniciante, do capítulo 12: o Domínio Simples fica no ponto em que você o ergueu, e se os seus dois pés saírem desse ponto ele se desfaz. Você larga o voto quando o seu refino chega a 5.
+
 ### `Energia Reversa`
 
 A rota de quem aprendeu a desfazer estrago. **Ela cura você**, pelas regras do capítulo 12 — e nesta rota ela cura um pouco mais, na seção *Cura* mais abaixo.

@@ -586,6 +586,8 @@ Simples enfraquecendo a técnica de fora, mas fora de domínio* (`N`)
 | Extensão: *"faz o seu ataque **acertar independentemente** da técnica do alvo"* | é, quase palavra por palavra, a frase da **wiki** que não é do Fanbook (*"regardless of the opponent's technique"*, editor, 11/05/2024). O Fanbook diz que ela **neutraliza a técnica que toca** **[F]**; e técnica de saída alta **passa em parte** (232) **[C]** |
 | *"Nenhuma delas serve contra a Expansão **incompleta**"* — vale igual para a Extensão | o 171 diz isso de **Cesta e Simples**, e o motivo que dá é que elas **não `中和` a técnica em si**; a mesma caixa diz que a Extensão **`中和` a técnica** **[C]** 171. Contra os shikigami de um domínio incompleto, **a obra não diz** que a Extensão é inútil — nenhuma cena **[I]** |
 
+*(v0.268: o `Domínio Simples` foi reescrito — os pés viraram o voto do iniciante (cap. 254: "o iniciante cria vários votos para o Simples se firmar; o Kusakabe firma sem voto nenhum"), ele passou a cair por um relógio de rodadas contra a Expansão, mais cedo contra refino maior, e golpe no dono não o derruba. As linhas dele nesta tabela — os pés, o raio e o "Simples × Cesta" — estão resolvidas. A `Cesta` perdeu a recarga e ganhou a queda na hora: a Expansão alcança quem ela protegia no instante em que ela cai.)*
+
 *(v0.267: a `Cesta Oca` foi reescrita — mãos presas no lugar do turno, e ela cai pelos golpes em quem segura; as linhas dela nesta tabela, "não faz mais nada" e "não quebra", estão resolvidas.)*
 
 *(v0.266: a peça 11 corrigiu as frases de texto — os preços "vêm da obra", o raio "da obra", a Trilha do Kusakabe, o "nunca tinha usado" e o "não para ataque físico" — sem mexer em regra. As linhas de REGRA desta tabela continuam valendo contra a peça.)*

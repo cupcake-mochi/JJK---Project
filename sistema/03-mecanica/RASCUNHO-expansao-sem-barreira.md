@@ -697,6 +697,8 @@
 
 **A peça 11 escreve:** *"dentro dele o Acerto de uma Expansão não acontece; custa `1 ×` a sua maior Classe de PE por rodada, e ela quebra se os seus pés saírem do chão."* **Contra domínio nenhum ele cede.** *Na obra, os dois domínios sem barreira arrancam o Domínio Simples em instantes* (cap. `206`; `226`; `258`). **É a pergunta da rodada seguinte.**
 
+> ✅ **Resolvido na v0.268, na rodada 3 da revisão dos anti-domínio:** *o Simples aguenta metade da Essência (mínimo 1) mais uma rodada de Expansão, menos uma por ponto de refino que o dono dela tem acima do seu, e cai com a Expansão alcançando na hora quem ele protegia.* **Contra a sem barreiras vale a mesma regra, sem exceção** — *contra refino 10 ele aguenta no máximo quatro rodadas de cinco. A peça 11 §6.5 é a dona.*
+
 ### 8.3 ✅ Espaço — decidido em 13/09/2026
 
 ***Palavras dele:*** *"1,5m vezes refino, incompleta só consegue até máximo de 7,5m (ambos de raio)"* · *"Fica onde abriu"*.
@@ -724,6 +726,8 @@
 | **igual a hoje** | os seis Acertos | nenhuma regra nova; **contradiz a obra**, em que o sem barreiras arranca o Domínio Simples em instantes |
 | **um teste a cada Acerto**, contra a CD do dono da Expansão | `1,9` Acertos em média com bônus `+10`, `1,0` com `+7`, `0,2` com `+0` | **é o que a obra mostra** — *compra tempo*; e usa o mesmo formato da concentração na corrida |
 | **segura `refino ÷ 2` Acertos**, para baixo, mínimo `1` | `2` no refino `4`, `5` no refino `10` | **espelha a `Pétala`**, que devolve `refino ÷ 2` por cena e sempre deixa passar um; no refino alto ele quase não cede |
+
+*Medido na v0.268: o `1,9` é a média **sem teto** de Acertos até a primeira falha, `s ÷ (1 − s)`. Com os `6` Acertos do refino `10`, a mesma conta dá `1,7`; os outros dois não mudam.*
 
 **A borda** *(o Tengen apagou a do Kenjaku, cap. `206`)*: **hoje o livro deixa a borda de um domínio fechado na decisão do mestre, e o sem barreiras não tem casca nenhuma.**
 

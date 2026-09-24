@@ -8,6 +8,73 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.268] — 24/09/2026
+
+**O `Domínio Simples` foi reescrito, e a `Cesta Oca` perdeu a recarga.** *É a rodada 3 do item 6 da fila, a primeira das três que faltavam, com as decisões do Mizuki em duas voltas sobre a conta — `sistema/01-pesquisa/anti-dominios/conta-dominio-simples.py`, que reproduz os números publicados antes de medir e agora confere as duas tabelas novas da peça 11 e a cópia do livro.* **A `Pétala` e a `Extensão` ficam como estão, e são as próximas.**
+
+### 1 · O que ele era, e o que ele é
+
+| | até a v0.267 | na v0.268 |
+|---|---|---|
+| **como cai** | contra domínio, **nunca**; quebrava se os pés saíssem do chão | **por um relógio contra a Expansão:** metade da Essência (mínimo 1) mais uma rodada, menos uma por ponto de refino que o dono dela tem acima do seu, no mínimo uma. *O Acerto de quando ela abre não conta* |
+| **golpe no dono** | — | **não o derruba**, e ele não ocupa a Concentração |
+| **a queda** | — | **a Expansão alcança na hora quem ele protegia**; levanta de novo sem espera, gastando a ação |
+| **como levanta** | *a peça não dizia* | **Reação quando uma Expansão abre, ou Ação Bônus no turno** |
+| **os pés** | valiam para todo mundo | **são o voto do iniciante:** com refino 4 ele fica no ponto em que você o ergueu, e sair dele o desfaz; com refino 5 você larga o voto, e ele anda com você |
+| **gate** | refino 4 e nível 10 | **refino 5, ou refino 4 com o voto, sem nível** |
+| **requisito** | nenhum na peça; o livro pedia | **ter visto um sendo usado, ou ter aprendido com alguém** — o do livro, que fica |
+| **o que anula** | o Acerto | **dentro do raio a Expansão não alcança ninguém**, nem com o Acerto nem com o que ela faz com as pessoas e o lugar; o que ela dá ao dono continua, e a técnica dele entra no raio como técnica comum |
+| **PE** | `1 × maior Classe` por rodada | **`2` fixos por rodada** |
+
+### 2 · Por que assim, nas palavras dele e na obra
+
+- **"Não acha que ter a chance do domínio cair é interessante? Gojo perdeu o dele contra o Sukuna, e todos nós temos certeza que o do Gojo é melhor que todos esses outros citados."** *Era contra a primeira proposta, só de refino, em que quem tem mais refino que o dono segura a Expansão inteira.* **A regra dele põe teto para todo mundo:** *"ele aguenta uma quantidade de rodadas igual a metade da essência + 1 (min 1), reduzindo em 1 para cada 1 ponto de diferença no refino do oponente contra o seu".* **Com Essência 6 são quatro rodadas, e a Expansão de refino 10 dura cinco** — *ninguém segura até o fim, que é o "um dia sempre perde a queda de braço" do cap. 266.*
+- **A leitura aplicada, e ela é minha para ele vetar:** *"metade da Essência, mínimo 1", como na corrida e na Cesta (as duas leituras do "mín. 1" só divergem em Essência 0 e 1); a redução só quando o dono tem mais refino, porque ele só escreveu "reduzindo"; o mínimo de uma rodada no total; e **a queda acontece no Acerto seguinte à última rodada, que é o que passa** — um Acerto só, para dois mestres não contarem um na hora da queda e outro depois. Pelo voto, no meio da rodada, a Expansão alcança na hora, como na Cesta.*
+- **Os pés.** *Ele pediu para apurar, e a pesquisa conferida já tinha: no cap. 254 o Gojo, em flashback, diz que "para o Simples se firmar, o iniciante cria vários votos; o Kusakabe firma sem voto nenhum, e o alcance dele é enorme".* **A proposta de base em refino 5 e voto em refino 4 foi aprovada** — *"remova o requisito de nível e tudo bem, gostei da proposta".* **Tirar o nível não antecipa ninguém:** *refino 4 só se alcança no marco 10.*
+- **"Sem recarga… mas ainda consome ação e o alvo é submetido imediatamente a pelo menos todos os efeitos da expansão (incluindo a cesta) no momento da quebra."** *Vale para os dois. Na obra, quando o Simples é arrancado o dano chega todo de uma vez (206, 226, 258).*
+- **"Ideal é ter um valor só pra impedir de ninguém abrir domínio simples fora de combate e ficar andando por aí com ele… mas que não custe tanto"** → **"vai 2 de PE fixo".**
+- **"Igual na obra, anula o acerto E efeitos que estiverem dentro."** *Pelo cap. 171 o Simples neutraliza o domínio no alcance dele, e não a técnica; e o manual já faz isso quando dois domínios se sobrepõem — os Acertos desligam, e o Efeito de cada um sobra.* **O texto que entrou foi mostrado a ele antes:** *"então fica assim? se sim, tudo bem".*
+- **O requisito do livro fica** — *"é algo definido de forma narrativa, não tem problema e segue a obra"* —, **e ele não exige concentração** — *"não"*.
+
+### 3 · O que isso faz, medido
+
+*A Expansão com o refino típico de cada nível, a mesma cena da Cesta; Acertos que ele segura, de quantos ela solta:*
+
+| quem segura | nv `14` (`3`) | nv `20` (`4`) | nv `26` (`6`) |
+|---|---|---|---|
+| refino igual ou maior que o do dono, Essência `6` | `3` | `4` | `5` |
+| o mesmo, Essência `4` ou `5` | `3` | `4` | `4` |
+| o mesmo, Essência até `3` | `3` | `3` | `3` |
+| `3` pontos de refino abaixo do dono | `2` | `2` | `2` |
+
+- **A queda na hora e sem recarga, na Cesta:** *nunca piora e ajuda quem tem Essência alta — no nível 26, com um golpe por rodada, Essência `6` leva `0,2` Acerto em vez de `0,4`, e Essência `4`, `1,0` em vez de `1,6`; com dois golpes, `0,8` em vez de `1,7` e `2,1` em vez de `2,8`. Com Essência até `3` não muda nada.* **A tabela publicada da Cesta continua valendo:** *ela mede sem subir de novo.*
+- **O PE:** *`2` fixos custam `7` por luta — `18%` do dia de um Bastião no nível 10, `6%` no 30 —, e o dia inteiro dele segura o Simples por `2` a `6` minutos fora de combate.*
+- **O gate:** *refino 3 ou 4 com o voto dão o mesmo marco de compra nas `2.187` sequências de marco; refino 5 sem voto só chega no nível 10 para quem escolheu Refino no 6 e no 10.*
+- **O que a primeira volta mediu e ficou de registro:** *a saída só de refino tinha um defeito — com a metade do dono para baixo, refino igual e ímpar segurava a Expansão inteira —, e o `1,9` do rascunho da Expansão sem Barreiras não tinha teto: com os `6` Acertos do refino 10 a mesma conta dá `1,7`.*
+
+### 4 · Onde entrou
+
+- **Peça 11 §6.5:** *a seção do Simples, as duas linhas dele nas tabelas, a seção da Cesta (sem recarga, e a queda na hora), e o "Por que o custo por rodada é `1 × maior Classe`" passou a valer só para a Pétala.* **§5:** *a subseção nova do requisito de história, que não é gate.* **§10:** *as linhas da Cesta e do Simples no catálogo.*
+- **Livro:** *o capítulo 45 — a caixa de abertura, a tabela das quatro, a Cesta, o Simples com a tabela de rodadas e o voto, e as duas linhas do catálogo — e o capítulo 43, em que a semente do Simples nasce com o voto.*
+- **Peça 25:** *a semente `Domínio Simples` nasce com o voto do iniciante, e a antecipação continua `9,3` níveis.* **Peça 26 §6.5:** *o Simples saiu da conta por Classe no inimigo — `2` PE fixos são `19%` da cota de uma `Ameaça` e `5%` da de um `Desastre`, no nível 30.* **Peças 13 e 16:** *duas cópias velhas do Simples.*
+- **Validadores:** *a checagem 9.2 do `conferir-bestiario.py` aprendeu o custo fixo; o bloco 10 do `conferir-expansao.py` passou a ler o custo das quatro da peça 11 em vez de guardar o número, ganhou a checagem do custo fixo (não pode ser zero e tem de caber nas lutas do dia) e compara a escada de custo nível a nível; os gates velhos de nível que ele guardava (7 e 13) foram para 10 e 14; e a base da 7.2 do `conferir-repositorio.py` foi de `186` para `187`, medida pelo diff da entrega.* **Nenhuma contagem de checagem mudou.**
+- **O arnês:** *dez perturbações, todas acendendo a checagem dona, com a base verde e o `diff` conferido em cada uma, e um contra-teste coerente verde.* **Ele pegou um defeito meu:** *a perturbação do custo zero acendia por `ZeroDivisionError`, e não pela mensagem da checagem — o bloco dividia pelo custo antes de testar o zero.*
+
+### 5 · Quatro sobras das versões anteriores, pegas no caminho
+
+- **v0.260:** *a peça 16 dizia que o Simples e a Pétala "pedem nível 7".*
+- **v0.266:** *a peça 25, na porta da Pétala, ainda dizia "ela **não** para ataque físico" — o negrito no meio escondeu a frase da busca.*
+- **v0.267:** *a tabela do capítulo 45 dizia "Cesta Oca \| sem requisito" com a caixa dela pedindo requisito, e o catálogo da peça 11 dizia que ela "já custa o turno".*
+- **v0.176:** *a caixa de abertura do capítulo 45 dizia que as quatro exigem concentração, menos a Extensão — virou "só a Pétala exige concentração".* **A frase "algumas delas servem contra a Expansão incompleta" continua lá, contra a peça, e é pergunta da rodada da Extensão.**
+
+### 6 · O que continua de pé
+
+*A `Pétala` e a `Extensão` ficam como estão.* **O repositório da ficha (`Claude 3`) fica com o texto velho da Cesta e do Simples até a próxima extração do livro.** *Na pasta de trabalho, os `31` validadores passam com `PULADA` zero.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: *o item 6 da fila, rodada 3 — a `Pétala`: como cai (a peça diz concentração, a obra diz programa automático), o que ela para, e quanto dura.*
+
+---
+
 ## [0.267] — 24/09/2026
 
 **A `Cesta Oca de Vime` foi reescrita, e ela passa a ser a base da revisão dos outros três anti-domínio.** *É a rodada 2 do item 6 da fila, com as decisões do Mizuki em cima da conta — `sistema/01-pesquisa/anti-dominios/conta-cesta-oca.py`, que reproduz os números publicados antes de medir.* **Nenhum outro número do sistema se move:** *o Domínio Simples, a Pétala e a Extensão ficam como estão, e passam por revisão depois, com a Cesta de base.*

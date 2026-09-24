@@ -4739,6 +4739,8 @@ A rota da escola que ensina gente sem técnica a matar maldição. **Ela é anti
 
 A semente é o **motor**, e não o assunto: o que você escreve em cima dela é seu.
 
+Ela nasce com o voto do iniciante, do capítulo 12: o Domínio Simples fica no ponto em que você o ergueu, e se os seus dois pés saírem desse ponto ele se desfaz. Você larga o voto quando o seu refino chega a 5.
+
 ### `Energia Reversa`
 
 A rota de quem aprendeu a desfazer estrago. **Ela cura você**, pelas regras do capítulo 12 — e nesta rota ela cura um pouco mais, na seção *Cura* mais abaixo.
@@ -4930,8 +4932,8 @@ Traço na coluna de Classe Passiva quer dizer que a entrada não tem uma. Traço
 | Regravação | `Circulação` | 3 | — |
 | Kokusen Melhorado | refino 5 e nível 14 | — | vantagem no d100 |
 | Kokusen Constante | refino 5 | — | a chance no d100 |
-| Cesta Oca de Vime | sem requisito | 1 | — |
-| Domínio Simples | refino 4 e nível 10 | 2 | o raio |
+| Cesta Oca de Vime | ser Reencarnado, ou treinado em `História` | 1 | — |
+| Domínio Simples | ter visto um sendo usado, ou ter aprendido com alguém; refino 5, ou 4 com o voto | 2 | o raio |
 | Pétala | refino 4 e nível 10 | 2 | quantos Acertos ela devolve |
 | Extensão de Domínio | refino 7 e nível 14 | 3 | a duração |
 | Barreira Simples | sem requisito | — | a vida do domo |
@@ -5052,7 +5054,7 @@ Uma Expansão de Domínio completa não erra. O Acerto dela simplesmente acontec
 
 > **As quatro anulam o Acerto de uma Expansão de Domínio. Algumas delas servem contra a Expansão incompleta.**
 >
-> Todas exigem **concentração**, com exceção da `Extensão de Domínio`.
+> Só a `Pétala` exige **concentração**.
 >
 > A incompleta não tem acerto garantido: o Acerto dela rola. Contra ela você se defende com Defesa e com Teste de Resistência, como se defende de tudo o mais no jogo.
 
@@ -5060,7 +5062,7 @@ Uma Expansão de Domínio completa não erra. O Acerto dela simplesmente acontec
 | | protege | e cobra | PE por rodada |
 |---|---|---|---|
 | **Cesta Oca de Vime** | só você, dentro de uma esfera | as duas mãos presas no símbolo, e ela cai com os golpes em você | nenhum |
-| **Domínio Simples** | um raio em volta de você | os pés não saem do chão | `1 × maior Classe` |
+| **Domínio Simples** | um raio em volta de você, e quem estiver nele | aguenta poucas rodadas de Expansão, menos contra quem tem mais refino | `2` |
 | **Pétala** | o seu corpo, e devolve o golpe | concentração, e não vale contra o que não é Acerto | `1 × maior Classe` |
 | **Extensão de Domínio** *(não é anti-domínio: ela serve como uma)* | o seu corpo, e faz o seu ataque acertar | nenhum feitiço enquanto ela estiver de pé | `1,5 × maior Classe` |
 
@@ -5070,7 +5072,7 @@ Uma Expansão de Domínio completa não erra. O Acerto dela simplesmente acontec
 >
 > Ela cai pelos golpes em você, e não pela Expansão. Cada golpe que te acerta pede um Teste de Resistência de Vigor contra a CD de quem te feriu. As falhas se acumulam, e com metade da sua Essência em falhas (no mínimo 1) a esfera se desfaz. Esse teste não ocupa a sua Concentração, e a Mão Firme não protege dele.
 >
-> Se você soltar o símbolo, ela fica de pé e você recupera as mãos, mas cada Acerto letal da Expansão conta uma falha, no máximo uma por rodada. Depois que ela cai, você pode levantar de novo, com as falhas zeradas, passadas metade da sua Essência em rodadas (no mínimo 1).
+> Se você soltar o símbolo, ela fica de pé e você recupera as mãos, mas cada Acerto letal da Expansão conta uma falha, no máximo uma por rodada. Quando ela cai, a Expansão te alcança na hora. Você pode levantar de novo sem espera, com as falhas zeradas, gastando a Ação Bônus do seu turno.
 >
 > Requisito: ser Reencarnado, ou ser treinado em `História`. Classe Passiva 1.
 
@@ -5078,9 +5080,24 @@ A `Cesta Oca de Vime` anula o Acerto e mais nada: o Efeito da Expansão continua
 
 ### Domínio Simples
 
-> **Domínio Simples** — um domínio pequeno em volta de você, de raio `1,5 m + refino ÷ 2`. Dentro dele o Acerto de uma Expansão não acontece, os efeitos da Expansão são anulados lá dentro, e ele cobre quem estiver no raio. Custa `1 × a sua maior Classe` de PE por rodada, e ela quebra se os seus pés saírem do chão.
+> **Domínio Simples** — um domínio pequeno em volta de você, de raio `1,5 m + refino ÷ 2`, que cobre quem estiver nele. Lá dentro a Expansão não alcança ninguém: nem o Acerto dela, nem o que ela faz com as pessoas ou com o lugar. Ele levanta com uma Reação quando uma Expansão abre, ou com uma Ação Bônus no seu turno, e custa `2` PE por rodada.
 >
-> Requisito: ter visto um sendo usado, ou ter aprendido com alguém; refino 3 e nível 10. Classe Passiva 2. O refino escala o raio.
+> Ele aguenta a Expansão por metade da sua Essência (no mínimo 1) mais uma rodada, sem contar o Acerto de quando ela abre. Cada ponto de refino que o dono da Expansão tem acima do seu tira uma rodada, e ele sempre aguenta pelo menos uma. Golpe em você não o derruba, e ele não ocupa a sua Concentração.
+>
+> Quando as rodadas acabam, o Acerto seguinte o derruba e alcança quem ele protegia. Se ele cair pelo voto, no meio da rodada, a Expansão alcança na hora. Você pode levantar de novo sem espera, gastando a ação, e a conta recomeça.
+>
+> Requisito: ter visto um sendo usado, ou ter aprendido com alguém (anote na ficha de quem, ou onde); refino 5, ou refino 4 com o voto do iniciante. Classe Passiva 2. O refino escala o raio.
+
+**Rodadas que o Domínio Simples aguenta**
+| Essência | `0` a `3` | `4` e `5` | `6` |
+|---|---|---|---|
+| com refino igual ou maior que o do dono da Expansão | `2` | `3` | `4` |
+
+Uma Expansão de refino 10 dura cinco rodadas, então contra ela nenhum Domínio Simples aguenta até o fim.
+
+**O voto do iniciante.** Com refino 4 você só firma o Domínio Simples com um voto: ele fica no ponto em que você o ergueu, e se os seus dois pés saírem desse ponto ele se desfaz, e a Expansão alcança na hora quem ele protegia. Andar, ou ser empurrado, tira os pés do ponto. Quando o seu refino chega a 5 você larga o voto, e ele passa a andar com você.
+
+O que a Expansão dá ao dono dela continua com o dono: o desconto nos feitiços e o que o Efeito dele permite fazer. A técnica dele entra no raio como técnica comum, rolando ataque e Teste de Resistência, e quem está preso no domínio continua preso.
 
 ### Pétala
 
@@ -7054,4 +7071,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: 460426691a553855e1db2558fb5efa81075de17e -->
+<!-- fonte: aac6943c4c76045b8fc7f0a572014fa5bf1a0ecd -->

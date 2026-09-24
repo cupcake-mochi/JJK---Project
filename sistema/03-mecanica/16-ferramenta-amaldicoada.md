@@ -132,7 +132,7 @@ As Classes são as da **peça 11 §4**, sem inventar nada, e a frase de lá vale
 
 ### 3.1 O gate é desta peça, e o motivo mudou na v0.260
 
-**Esta peça declara os próprios gates de nível.** *Eles nasceram olhando a **peça 11 §6**, na v0.59, para um `Estigma` não abrir cedo demais perto de uma aptidão da mesma Classe — e a v0.260 mediu que aquela comparação nunca funcionou, pelo motivo escrito abaixo.* **Os números são:** a Cesta Oca de Vime (Classe 1) **não tem gate**; o Domínio Simples e a Pétala (Classe 2) pedem **nível 7**; a Extensão de Domínio (Classe 3) pede **nível 13**.
+**Esta peça declara os próprios gates de nível.** *Eles nasceram olhando a **peça 11 §6**, na v0.59, para um `Estigma` não abrir cedo demais perto de uma aptidão da mesma Classe — e a v0.260 mediu que aquela comparação nunca funcionou, pelo motivo escrito abaixo.* **Os números são:** o `Estigma` de Classe 1 **não tem gate**, o de Classe 2 pede **nível 7**, e o de Classe 3 pede **nível 13**. *Até a v0.267 esta frase dava esses números às aptidões anti-domínio da peça 11, e ela ficou velha na v0.260, quando os gates de lá subiram para o marco.*
 
 > **A metade de refino do gate NÃO entra, e isso é decisão.** A peça 11 cobra *nível e refino*. Cobrar refino aqui **trancaria a peça na cara de quem ela existe para atender** — a Restrição Celestial pelo ramo da Maki (peça 9 §5) não tem refino nenhum, porque não tem energia. *E é essa recusa que desmonta a comparação com a peça 11, no aviso abaixo: sem o eixo do refino, o número de nível sozinho não mede o que ele prometia medir.*
 

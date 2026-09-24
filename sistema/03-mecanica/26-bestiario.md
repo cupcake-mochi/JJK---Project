@@ -537,12 +537,13 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 
 | ligada a luta inteira, no nível 30 | da cota de uma `Ameaça` | de um `Desastre` |
 |---|---|---|
-| `Domínio Simples` e `Pétala` · `1 ×` maior Classe | `65%` | `18%` |
+| `Pétala` · `1 ×` maior Classe | `65%` | `18%` |
+| `Domínio Simples` · `2` PE fixos | `19%` | `5%` |
 | `Extensão de Domínio` · `1,5 ×` maior Classe | `98%` | `27%` |
 
 **No nível 2 a `Extensão de Domínio` custa `193%` da cota de uma `Ameaça`, e por isso uma maldição daquele nível que a carregue tem de ser pelo menos um `Desastre`** — *lá ela cai para `49%`, e cabe.*
 
-> **⚠ E contar por luta em vez de por rodada ligada estava errado, porque as quatro anti-domínio são pura resposta.** *Elas valem **zero** contra um grupo que não abre domínio.* **O jogador liga quando o domínio abre; o inimigo, cobrado por luta, pagaria pelas rodadas em que ela não fez nada.** *`Domínio Simples` ligado uma rodada de três custa `12,0` de dano, que são `5,9%` da cota de um `Desastre` e `22%` da de uma `Ameaça` — contra os `18%` e `65%` da tabela acima.*
+> **⚠ E contar por luta em vez de por rodada ligada estava errado, porque as quatro anti-domínio são pura resposta.** *Elas valem **zero** contra um grupo que não abre domínio.* **O jogador liga quando o domínio abre; o inimigo, cobrado por luta, pagaria pelas rodadas em que ela não fez nada.** *A `Pétala` ligada uma rodada de três custa `12,0` de dano, que são `5,9%` da cota de um `Desastre` e `22%` da de uma `Ameaça` — contra os `18%` e `65%` da tabela acima.* **O `Domínio Simples` saiu da conta por Classe na v0.268:** *ele custa `2` PE fixos por rodada, pela peça 11 §6.5.*
 
 #### A que sai de graça, e o número que prova isso
 

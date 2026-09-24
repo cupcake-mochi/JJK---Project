@@ -1117,7 +1117,12 @@ else:
     #   `(?:sistema/)?\d\d-[a-z-]+/.*`, caminho de arquivo de trabalho, ja
     #   declarada, e nao e material de mesa. A v0.265 a v0.267 fecharam numa
     #   sessao na nuvem, sem finalizado/, e esta checagem nao tinha o que medir la.
-    BRANCAS_AQUI, FOLGA = 186, 5
+    # v0.268: 186 -> 187, MEDIDO do mesmo jeito (335 citacoes e 186 brancas na entrega
+    #   da v0.267; 336 e 187 com as pecas da v0.268 por cima). UMA so:
+    #   `sistema/01-pesquisa/anti-dominios/conta-dominio-simples.py`, na peca 11 §6.5,
+    #   onde o Dominio Simples reescrito diz de onde saem as duas tabelas dele. Mesma
+    #   familia da de cima, e nao e material de mesa.
+    BRANCAS_AQUI, FOLGA = 187, 5
     PISO_CITACOES, TETO_BRANCOS = 120, BRANCAS_AQUI + FOLGA
     if vistos_e < PISO_CITACOES:
         erro(f'7.2: achei so {vistos_e} citacoes na entrega, e o piso e {PISO_CITACOES} — '

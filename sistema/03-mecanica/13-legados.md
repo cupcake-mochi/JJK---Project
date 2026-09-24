@@ -1065,7 +1065,7 @@ O que sobrou dele virou duas coisas que **não** são técnica: o `Nunca Estive 
 
 **As duas já estavam construídas na camada de aptidão:** as quatro anti-domínio entraram na v0.29, e a `Energia Reversa` fechou na v0.78, na peça 11 §6. *O que faltava era a criação, e é ela que a peça 25 é.*
 
-> **A arma não é obrigatória, e o projeto já sabia disso antes de a prosa saber.** A peça 9 descrevia o Estilo da Sombra como *"técnica de espada e corpo"*, e no material a técnica central dele **foi aprendida em um mês por alguém que não usa espada**. Mais: o exemplar canônico de grau 1 virou líder da escola e **derrubou as restrições dela**. A **seção 6.5 da peça 11 já trata o Domínio Simples como aptidão pura** — raio em volta de você, com os pés no chão, sem uma palavra sobre lâmina. *A mecânica estava certa e a prosa estava mais estreita que ela; a v0.168 tirou a espada dos quatro lugares que ainda a escreviam.*
+> **A arma não é obrigatória, e o projeto já sabia disso antes de a prosa saber.** A peça 9 descrevia o Estilo da Sombra como *"técnica de espada e corpo"*, e no material a técnica central dele **foi aprendida em um mês por alguém que não usa espada**. Mais: o exemplar canônico de grau 1 virou líder da escola e **derrubou as restrições dela**. A **seção 6.5 da peça 11 já trata o Domínio Simples como aptidão pura** — raio em volta de você, sem uma palavra sobre lâmina. *(Até a v0.267 esta linha dizia "com os pés no chão"; desde a v0.268 os pés são só do voto do iniciante.)* *A mecânica estava certa e a prosa estava mais estreita que ela; a v0.168 tirou a espada dos quatro lugares que ainda a escreviam.*
 
 #### E a rota precisou de sistema de criação próprio — ela tem um
 

@@ -6,7 +6,7 @@ CONTRATO (o que precisa continuar verdadeiro, e o script confere antes de medir)
   R2. A Expansao solta refino//2 + 1 Acertos: ao abrir e no comeco de cada turno do dono,
       por metade do refino em rodadas                                             (livro cap. 40)
   R3. Petala devolve refino//2 e sempre sobra um: 4->3/2, 6->4/3, 8->5/4, 10->6/5   (peca 11 §6.5)
-  R4. Dominio Simples: nv22 30 PE e 324 evitados; nv26 35 PE e 378                (rascunho 8.4)
+  R4. Dominio Simples ate a v0.267: nv22 30 PE e 324 evitados; nv26 35 PE e 378  (rascunho 8.4)
   R5. Cesta ate a v0.266: 1/2/3 rodadas = 29%/57%/86% dos turnos numa luta de 3,5 (so aritmetica: a v0.267 tirou)
   R8. A tabela 'O que isso faz, medido' da Cesta, na peca 11 §6.5 (v0.267), sai desta conta
   R6. Extensao: nv14 42 PE, nv20 72, nv26 110 para segurar ate o fim              (peca 11 §6.5)
@@ -105,7 +105,7 @@ def seguros(A, p, T, h, pelo_acerto, fixo=None):
     return tot, ult
 
 print('=' * 100)
-print('HOJE — as quatro, como estao escritas: como caem, quanto duram, o que dao e o que custam')
+print('COMO ESTAVAM ANTES DA REVISAO — a Cesta ate a v0.266, o Simples ate a v0.267: como caiam, quanto duravam')
 print('=' * 100)
 for nv, ref in CENARIOS:
     A, D, cls, dmg = acertos(ref), dur(ref), nivel(nv)['cls'], acerto_dano(nivel(nv)['cls'])
