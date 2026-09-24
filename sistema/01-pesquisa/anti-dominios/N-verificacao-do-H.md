@@ -1133,3 +1133,97 @@ eu achei um (o `I` cita o mesmo). **CONFIRMA** a marca [I].
 
 **N-012 · quadro, Extensão** — CONFIRMA a linha, com o ajuste do N-113 ("o que estava em curso": pausa ou anulação).
 
+---
+
+## Bloco 8 — As duas tabelas do fim e a seção "Como elas caem" (prioridade a, consolidada)
+
+**N-009 · quadro, Cesta** — "move? sim (266)" ✓; "como cai" ✓ (a racha no 266 e a largada no 251 batem com o
+bloco 2); **"o que ela cobra: metade das mãos enquanto mantém"** → mesma correção do **N-069**: *"as mãos do selo
+enquanto mantém contra domínio forte (no Sukuna, metade: um par de quatro)"*. **CORRIGE.**
+
+**N-010 · quadro, Simples** — **CORRIGE** pela descoberta do bloco 4: *"arrancado pela pressão (206, 226, 258 [I] no
+258); **pelo voto do usuário** (Miwa, 40); golpe no dono dentro de domínio, **nunca**"*; e "o que ela cobra: a
+posição, se tiver o voto" ✓ (com "do **ponto** de ativação", 40).
+
+**N-011 · quadro, Pétala** — **CORRIGE** ("com forma" → simples × complexo, bloco 6).
+
+**N-012 · quadro, Extensão** — **CONFIRMA** (com o ajuste de redação do N-113).
+
+**N-013 · "o que NENHUMA das quatro toca: o aprisionamento do domínio e o buff ao dono"**
+Nenhuma cena mostra anti-domínio tirando o aprisionamento ou o buff; também nenhuma mostra que **não** tira. O
+mais perto: o 254 diz que **dentro do Simples** a técnica **de fora** enfraquece um pouco (Kusakabe, fora de domínio).
+**NÃO FECHA POR TEXTO**; a frase não tem marca e é **[I]**. Proposta: marcar **[I]** e acrescentar *"(nenhuma cena
+testa o buff; o 254 mostra o Simples enfraquecendo a técnica de fora, fora de domínio)"*.
+
+**N-006 · divergência, Extensão "anula o Acerto"** — **CONFIRMA** a nova base (Fanbook p. 143 conferido por duas
+citações; 84 ambíguo; sem cena).
+
+**N-007 · divergência, "Simples não é mais forte que a Cesta"**
+- "a obra põe as duas na mesma frase (266)" ✓ — e **não só no 266**: no **206** o Tengen põe Simples e Cesta juntos
+  (as duas "guardam a técnica", 術式を温存) e a Yuki responde que as duas "só compram tempo contra domínio de verdade"
+  (manga-games 206: 「九十九はそれだと本物の領域に対して時間稼ぎにしかならず」).
+- **"a Cesta … caiu por golpe no dono dentro de domínio (266-267)"** afirma como fato o que o próprio `H`, em "Como
+  cai", diz que **fica fora de quadro**. O texto é: rachou sob os socos de alma e o Sukuna pensa que "vai se desfazer"
+  (266); o acerto entra no 267 depois da Ressonância.
+- "o Simples cai pela pressão (206, 226, 258)" → 258 é [I] (bloco 5); e falta **o voto (40)**.
+- **CORRIGE.** Proposta para a célula: *"…a obra põe as duas lado a lado duas vezes — 'guardam a técnica' e 'só compram
+  tempo' (206); saída fraca, 'um dia sempre perdem' (266). O que as separa em cena: **a Cesta tem o selo mantido para
+  suprir saída** (266) e **rachou sob golpe no dono dentro de domínio** (266; o instante da queda fica fora de quadro);
+  **o Simples foi arrancado pela pressão** (206, 226; 258 pela leitura do desenho) ou **caiu pelo voto do usuário**
+  (40), e **nunca** por golpe no dono dentro de domínio."*
+
+**N-008 · divergência, "as quatro anulam, como interruptor" × "`中和` é subtração com piso"**
+1. **O que a obra usa, termo por termo:** Cesta — 「領域を**中和**し必中効果を**打ち消す**」 (171 e ficha); Simples — 「術式の
+   付与された結界を**中和**することで 付与された術式の必中効果を**無効化**している」 (171) e 「無効化」 na ficha? não: a
+   ficha do Simples só diz "domínio dos fracos"; Extensão — **中和** (84, 85, 171, 232, Fanbook); **Pétala — nenhum
+   中和**: é 呪力操作 (227, Fanbook via 知恵袋 q11259905841) que **迎撃/弾く** (148, 227).
+2. **Onde a obra mostra "quantidade menor atenua":** só na **Extensão contra técnica** (232: 「中和しきれん」, e o Vermelho
+   passa mitigado; 85: "quanto mais você neutraliza, mais forte eu seguro").
+3. **Onde a obra mostra o contrário:** na Cesta e no Simples, **contra o acerto garantido**, o verbo é 打ち消す/無効化
+   (apagar/anular), e o que se vê é **proteção inteira até ser arrancada ou sobrepujada** (206, 226, 258, 266) — o
+   próprio `H` escreve isso nas vantagens do Simples ("protege inteiro até quebrar — é limiar, não redução" [I]).
+   **O `H` se contradiz**: limiar no Simples, subtração "nas quatro" na tabela.
+4. Sequência de dúvidas: (1) advogado do `H`: a ideia dele é que **nenhuma é interruptor eterno** — tudo cede a saída
+   maior —, e isso a obra sustenta nas quatro (266 "um dia sempre perdem"; 227 Pétala "não se opõe à saída"; 232). (2)
+   É em parte a mesma coisa dita diferente: "cede com o tempo/pressão" ≠ "atenua o acerto". (3) Terceira fonte: a nota
+   do Gege no 248 ("o Simples não neutraliza a técnica em si"). (4) O que me faria errado: uma cena de acerto garantido
+   entrando **atenuado** com Cesta ou Simples de pé. Não achei.
+- **CORRIGE.** Proposta para a célula: *"**Não é interruptor eterno, mas o jeito de ceder muda.** Cesta e Simples
+  `中和` a **barreira** e com isso **anulam** o acerto (`打ち消す`/`無効化`, 171) — **inteiro até serem arrancados ou
+  sobrepujados** pela saída do domínio (206, 226, 266). A Extensão `中和` a **técnica** que toca e, contra técnica de
+  saída maior, **atenua** (232: o Vermelho passa mitigado). A Pétala não `中和`: intercepta com energia (108, 227), e
+  'não se opõe à saída do domínio' (227). *A leitura química (quantidade menor atenua) só tem cena na Extensão* **[I]**."*
+
+**Linhas que a tabela de divergências NÃO tem** (a peça 11 §6.5 atribui à obra e a obra diz outra coisa; só
+verificação, sem proposta de regra):
+1. **Cesta — "você segura o símbolo e não faz mais nada"** (tabela da §6.5 e texto da regra). Obra: o Sukuna **chuta
+   e troca socos** mantendo a Cesta com os dois braços de baixo (eiga-manga 266: 「下側の二本の腕で「彌虚葛籠」を維持しつつ、
+   蹴りを放つ」), usa a reversa com ela de pé (266 p. 16), e o Reggie solta o selo com a esfera ainda desenhada (171 p. 5
+   e 7).
+2. **Cesta — "Em troca ela não quebra, e é a única das quatro assim."** Obra: **racha** sob golpe no dono (266 p. 16,
+   「彌虚葛籠が解ける!!」) e "um dia sempre perde a queda de braço" (266, narração).
+3. **Pétala — "exige concentração" / "ela cai se você perder a concentração".** Obra: "programa automático" (227); o
+   "concentração" nasce na Fiction Horizon (27/10/2023). *O `H` derrubou isso na seção da Pétala, mas não levou para a
+   tabela.*
+4. **Pétala — "o Gojo disse que aprendeu criança e nunca tinha usado".** Obra: 「ガキの頃習ってさ 領域を会得してから**とんと
+   使わなくなった**」 — parou de usar **depois** de pegar o domínio.
+5. **Extensão — "faz o seu ataque acertar independentemente da técnica do alvo".** É, quase palavra por palavra, a frase
+   da **wiki** que o `H` já provou não ser do Fanbook (*"regardless of the opponent's technique"*, rev. 63867). Obra:
+   neutraliza a técnica que toca (Fanbook), mas técnica de saída alta **passa em parte** (232).
+6. **"Nenhuma delas serve contra a Expansão incompleta — vale igual para a Extensão."** O 171 diz isso de **Cesta e
+   Simples**, e o motivo que dá é que elas **não `中和` a técnica em si** (「術式そのものを中和することはできない」); a mesma
+   caixa diz que a Extensão **`中和` a técnica** (o Ilimitado). Contra os shikigami de um domínio incompleto, **a obra não
+   diz** que a Extensão é inútil — nenhuma cena.
+
+**Seção "Como elas caem, e quanto duram"**
+- **N-036** (sem relógio; [NÃO ACHEI] nas quatro fichas, Fanbook, nota do 248, comentários de fim de revista): li as
+  quatro fichas pela API do X (nenhuma fala em tempo) e a lista de comentários (o único sobre anti-domínio é o do 248).
+  **CONFIRMA.**
+- **N-037** (Cesta e Simples 266; Pétala 227; Extensão 85): **CONFIRMA** (acrescentar o 206).
+- **N-038** (249 p. 16 sem esfera, entre a ativação e a fala da p. 17): minha leitura bate. **CONFIRMA.**
+- **N-039** (esgotamento puro nunca aparece): no 226 o Ino **suspeita** de 呪力切れ no Gojo e está errado (era a reversa
+  no cérebro). **CONFIRMA.**
+- **N-040** (tabela de tempos): 0,2 s ✓ (130, 「0.2秒の領域展開」); **10 s ✗ (ver N-023)**; ~1 min ✓; 99 s ✓; ~3 min ✓
+  (228: 「3分9秒」 / 「ジャスト3分」). **CORRIGE** só a linha dos 10 s.
+- **N-041** — **CORRIGE** (bloco 2: o 251 é largada).
+
