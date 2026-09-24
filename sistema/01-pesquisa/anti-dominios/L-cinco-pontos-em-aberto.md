@@ -59,3 +59,57 @@ O cap. 108 está no **vol. 13** (caps. 107-115; lançamento japonês 02/10/2020 
 | O "dispelling his barrier" da wiki é fonte? | **Não:** é paráfrase de editor (Young Mako, 2021), ref. genérica "108 p. 5-13". | **[I]** |
 | O volume 13 mudou algo? | **Não registrado.** | **[I]** lista n-styles |
 | O `K` ("não caiu") está certo? | **Na metade:** o soco entrou **por fora** da Pétala (ela não responde a golpe que não é acerto garantido) — isso é certo. Mas "não caiu" não se sustenta: o anime mostra a queda e o mangá mostra ele devorado logo depois. | — |
+
+---
+
+## Ponto 2 — O voto do cap. 255: o corte que divide o mundo passou a exigir encantamento?
+
+**Resposta curta:** **sim, e é mesmo o cap. 255** (Jump 2024 nº 18, 01/04/2024; vol. 29). Mas o voto **não foi feito "depois" para compensar os braços**, como a paráfrase da wiki dá a entender: foi o **preço do tiro sem condição que matou o Gojo** (cap. 236) — um tiro livre agora, em troca de condições para sempre. **O 255 não fala da Cesta nem da boca.** A ligação Cesta → boca → corte do mundo existe na obra, mas espalhada em quatro capítulos (238, 249, 250, 251), nunca numa frase só. E continua **[NÃO ACHEI]** qualquer painel da Cesta com encantamento próprio.
+
+### (a) O capítulo e o texto
+
+**Capítulo:** 255 — confirmado por cinco fontes japonesas que nomeiam o capítulo (eiga-manga, manga-games, neet-life-blog, entame-life, あにまんch e ねいろ速報 do dia). Data e número pela lista de comentários de fim de revista: `2024.4.1 / 18号 / 255話` (https://sagisi4.sakura.ne.jp/haguruma/jyujyutu.html). Volume 29 (tabela do eiga-manga).
+
+**O texto.** Não achei a caixa de narração copiada letra por letra; achei **quatro reconstituições japonesas que batem entre si** e uma frase repetida igual por dois leitores no dia (sinal de citação literal):
+
+- **ねいろ速報, thread do 255 (posts 250 e 276, idênticos):** 「世界を断つ解には伏魔御厨子同様閻魔天の掌印が必要」 — *"o 解 que corta o mundo precisa, como o Santuário Malevolente, do selo de mão 閻魔天."* (http://animesoku.com/archives/36498555.html) — **é a primeira frase da explicação, e diz o que era a regra ORIGINAL.**
+- **neet-life-blog (transcrição corrida do 255):** 「宿儺の世界を断絶する"解"の発動には五条悟を斬るために出した時に、**1発無条件で撃てる代わりに今後は閻魔天の掌印、呪詞の詠唱の両方を満たし**、術式の指向性を手掌で設定しなければならない**縛りを科していた**」 — *"quando disparou o 解 que corta o mundo para cortar o Gojo, ele tinha imposto um voto: **em troca de um tiro sem condição nenhuma, dali em diante teria de cumprir as duas coisas, o selo 閻魔天 e o encantamento (呪詞の詠唱)**, e ainda definir a direção da técnica com a palma da mão."* (https://neet-life-blog.com/zyuzyutukaisenn255/; o blog escreve 施工性, erro de digitação de 指向性)
+- **eiga-manga:** 「世界を断絶する「解」の発動には、閻魔天の掌印・呪詞の詠唱の両方で条件を満たし、更に術式の指向性を手掌で設定する必要がある」, com a tabela *"condição original: só o selo 閻魔天 / depois do Gojo: selo 閻魔天 + encantamento + direção pela palma"* e a frase 「変身前の片腕のみの宿儺が五条を斬るため、その後の発動条件に縛りを科し」 — *"para cortar o Gojo com um braço só, antes de se transformar, ele impôs um voto às condições de ativação **seguintes**."* (https://eiga-manga.com/entry/jujutsu255)
+- **manga-games:** 「世界を断絶する「解」の発動には閻魔天の掌印…、呪詞の詠唱の両方が必要で、さらに術式の指向性を手掌で設定しなければならない」. (https://manga-games.com/jujutsukaisen-jump-255/)
+- **Yahoo!知恵袋 q11295960436, ベストアンサー (03/04/2024):** 「宿儺は『この後、世界を断つ斬撃を撃つ場合は掌印と呪詞に加えて、手掌で術式の指向性を設定する』という縛りを結ぶことで、五条を倒したあの1回に限り掌印を省略していました」 — *"com o voto 'daqui para frente, o corte do mundo exige selo e encantamento, mais a direção pela palma', ele dispensou o selo **só naquela vez** que matou o Gojo."*
+
+**Os termos exatos, então:** 縛り (voto) ✔ · 閻魔天の掌印 (selo 閻魔天) ✔ · **呪詞の詠唱** (recitar o encantamento) ✔ · 術式の指向性を手掌で設定 (definir a direção com a palma) ✔. O nome do golpe no 255 é 世界を断絶する「解」 (no 250 era 術式対象を拡張する世界を断つ「解」). **[C]** 255, via quatro reconstituições concordantes.
+
+**Correção ao `K` §1.8:** a página `Chapter_255` da Fandom escreve *"after Gojo's Hollow Purple destroyed half of Sukuna's arms, he was rendered incapable… To compensate, Sukuna imposed a binding vow… adding incantations"*. **A ordem está certa, mas o sentido do voto ficou fora:** no japonês o voto é **um adiantamento** (前借り, como a thread chamou: 「次から縛るから初回無料で撃たせて！」 — *"deixa eu atirar de graça a primeira, que depois eu me amarro"*, post 666). **Não é "passou a exigir encantamento para compensar braço perdido"; é "pagou o tiro que matou o Gojo com condições para sempre".** Consequência prática: **desde o 236, o corte do mundo exige selo + encantamento + palma** — ou seja, já valia no 249-251.
+
+### (b) A obra liga esse voto à boca ou à Cesta?
+
+**No 255, não.** Nenhuma das reconstituições menciona 彌虚葛籠 ou 口; o 255 fala do corte, do Gojo e das mãos (o Yuji comemora que 「上下の右腕だけでは掌印は完結しない」 — *"só com os dois braços direitos o selo não fecha"* — depois que a Maki corta o braço de cima esquerdo). **[C]** 255
+
+**A ligação existe, mas em peças separadas, e nenhuma delas fala as três coisas juntas:**
+
+| cap. | o que diz | liga o quê |
+|---|---|---|
+| 238 | a boca da barriga recita encantamento sem parar, sem pesar no coração e no pulmão | boca ↔ encantamento |
+| 249 | 「彌虚葛籠を使わせ続け**腕と口の半分を封じ**」 | Cesta ↔ braços **e boca** |
+| 250 | 「術式対象を拡張する世界を断つ「解」は、「彌虚葛籠」を**維持しながらでは撃てない**」 — **sem dar o motivo** | Cesta ↔ corte do mundo |
+| 251 | o Yuta conclui 「単技でも掌印・呪詞の詠唱、もしくはその両方が必須のはず」, arranca a língua da boca da barriga, corta a da cara: 「どちらもさせない!!」 | corte do mundo ↔ mão e boca (**palpite do Yuta**) |
+| 255 | a narração confirma: selo **e** encantamento **e** palma | corte do mundo ↔ mão e boca (**confirmado**) |
+
+Fontes: 250 — eiga-manga (https://eiga-manga.com/entry/jujutsu250), neet-life-blog, manga-games, entame-life, todas com a mesma frase; 238, 249 e 251 — ver `I` §1.3 e `J` §1.8.
+
+**O que dá para concluir, com marca:**
+- **[C] somando 250 + 255:** manter a Cesta impede o corte do mundo, e o corte do mundo exige selo, encantamento e palma. **O 255 dá ao 250 o motivo que faltava** — mas o motivo que a obra escreve é **o corte precisar de mão e boca**, não **a Cesta ter encantamento**.
+- **[I] minha, e ela pesa contra a "boca" como explicação única:** o selo 閻魔天 é de **duas mãos** e a direção pede **mais uma palma**. Com a Cesta ocupando **metade dos braços** (dois de quatro), sobram duas mãos — **pode não bastar só pelos braços**, sem precisar da boca. A obra não diz se a palma entra ao mesmo tempo que o selo, então isso não fecha. Registro também a objeção japonesa do dia do 251 (ねいろ速報 36139701, post 1387, já no `J`): 「上の口だけで次元斬できるなら彌虚葛籠しながらできたろ」 — *"se dá para fazer o corte do mundo só com a boca de cima, dava para fazer segurando a Cesta"*. **Ninguém na obra responde isso.**
+- **Para o Mizuki:** "a boca presa explica por que a Cesta tira o golpe grande" é **leitura compatível com o texto** (238 + 249 + 255), **não texto**. O texto só garante: **a Cesta de pé tira o golpe grande** (250) e **o golpe grande pede mão e boca** (255).
+
+### (c) Existe painel ou fala da Cesta com encantamento próprio? — **[NÃO ACHEI], de novo, e com mais lugares olhados**
+
+- **171 (Reggie), transcrição completa:** ele diz só o nome 「奥義「彌虚葛籠」」 e **logo depois fala normal**, 「残念でした♡」, com a Cesta de pé. Nenhum encantamento. (https://yuran.work/jujutsukaisen-171-netabare/) **[C]**
+- **249:** o único som da boca da barriga no capítulo é o gemido 「ぐヴヴ」 quando o Yuta soca a barriga — **antes** da Cesta subir (https://manga-games.com/jujutsukaisen-jump-249/). Nenhum resumo (eiga-manga, manga-games, neet-life-blog) registra a boca recitando algo **para** a Cesta.
+- **266:** a narração só fala em **manter o selo** para suprir a saída (`発動後も掌印を結んだままにすることで出力を補い`); nenhuma palavra sobre boca ou encantamento. (`H`, citação do 266)
+- **Ficha oficial (@jujutsu_PR, 05/06/2024):** só define (protótipo do Simples, neutraliza, apaga o acerto). **[F]**
+- **Buscas em japonês:** `彌虚葛籠 詠唱 腹の口`, `彌虚葛籠 口を封じ なぜ 詠唱 必要`, `"指向性を手掌で設定"`, `"閻魔天の掌印" "呪詞の詠唱" 縛り 255話`; threads do 249 (já no `J`), do 255 (あにまんch 20957728, ねいろ速報 36498555) e 知恵袋 q10292975365, q13294276018, q11295960436. **Nenhum painel, nenhuma fala.** O mais perto é a resposta de 知恵袋 q10292975365 (07/02/2024, 0 votos): 「宿儺が両手と口で彌虚葛籠を展開し続ける以上」 — *"enquanto o Sukuna mantém a Cesta com as duas mãos e a boca"* — que é **fã repetindo o 249**, não painel.
+- **Pixiv 百科** (verbete do corte do mundo e do 生前宿儺) deu **403** direto; o Wayback caiu por conexão cortada. O trecho do 生前宿儺 que o `J` já leu (`呪詞の詠唱を腹の口で唱え続ける`) continua sendo **enciclopédia de fã**. **[I]**
+
+**Veredito do ponto 2:** **[C]** o 255 existe e diz selo + encantamento + palma; **[C]** o voto é o preço do tiro do 236; **[NÃO ACHEI]** a obra dizendo que a Cesta tem encantamento ou que a boca do 249 está "presa" por causa do corte do mundo; **[I]** a costura "boca presa = sem encantamento para o corte" é compatível, mas **os braços sozinhos talvez já expliquem o 250**.
