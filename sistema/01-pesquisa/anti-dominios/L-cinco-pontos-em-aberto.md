@@ -113,3 +113,42 @@ Fontes: 250 — eiga-manga (https://eiga-manga.com/entry/jujutsu250), neet-life-
 - **Pixiv 百科** (verbete do corte do mundo e do 生前宿儺) deu **403** direto; o Wayback caiu por conexão cortada. O trecho do 生前宿儺 que o `J` já leu (`呪詞の詠唱を腹の口で唱え続ける`) continua sendo **enciclopédia de fã**. **[I]**
 
 **Veredito do ponto 2:** **[C]** o 255 existe e diz selo + encantamento + palma; **[C]** o voto é o preço do tiro do 236; **[NÃO ACHEI]** a obra dizendo que a Cesta tem encantamento ou que a boca do 249 está "presa" por causa do corte do mundo; **[I]** a costura "boca presa = sem encantamento para o corte" é compatível, mas **os braços sozinhos talvez já expliquem o 250**.
+
+---
+
+## Ponto 3 — Cap. 171: a Cesta do Reggie fica de pé depois que ele solta o selo?
+
+**Resposta curta:** **há UM painel em que ela aparece desenhada com o selo já desfeito** — o dos sapos agarrando as pernas, logo depois da ativação. Então os três usuários do Reddit acertam o painel, **mas erram o momento e exageram o alcance**: ele não solta "ao perceber que o domínio é incompleto" (isso vem páginas depois), e a Cesta **não aparece mais** nos painéis seguintes. **Nenhum texto** diz que ela continua, nem que ela some. Vale como **indício visual de um quadro**, não como prova de que a Cesta "se sustenta sem selo".
+
+### O que a obra mostra, em ordem
+
+Texto: transcrição completa das falas do 171 (https://yuran.work/jujutsukaisen-171-netabare/). Imagem: os recortes do próprio capítulo que a Fandom usa (categoria `Chapter_171_Images`), que eu baixei e olhei um por um. **O quadro foi visto por mim; a numeração de página é a da wiki** (ref. `chap=171 pages=3-6, 11`).
+
+1. **Ativação — selo feito.** 伏黒「領域展開」「嵌合暗翳庭」 → レジィ「奥義「彌虚葛籠」」 + caixa: 「シン・陰流「簡易領域」の原型であり 領域を中和し必中効果を打ち消す性能を持つ」. **O quadro** (`File:Hollow_Wicker_Basket.png`): o Reggie em pé, **braços esticados para a frente, dedos entrelaçados**, dentro da esfera trançada. O manga-games descreve igual: 「手で印を結ぶと、奥義「彌虚葛籠」という技を使用します」. **[C]** 171 p. 3
+2. **Ele fala normal com a Cesta de pé:** 「残念でした♡」. **[C]** 171
+3. **Os sapos — e aqui o selo já não está feito.** 「！！」「なっ」 + 蝦蟇「ゲコッ」. **O quadro** (`File:Multiple_Toads_restrain_Reggie.png`): **a esfera trançada continua desenhada em volta dele**, as línguas dos sapos **atravessam a trama** e prendem os dois tornozelos, e **o braço direito dele está caído ao lado do corpo, com a mão aberta, longe do peito** — ou seja, **fora do selo**. O outro braço fica escondido atrás das tiras de recibo. O eiga-manga escreve 「「彌虚葛籠」の外から「蝦蟇」の舌で両足を捕まれ」 — *"os sapos o prendem pelas pernas, de fora da Cesta"*. **[C]** 171 p. 3-4, quadro visto via wiki
+4. **A narração explica por que não adiantou** (Extensão × Cesta/Simples, domínio incompleto sem acerto garantido). No meio dela, o Reggie pensa 〔何故……必中(あた)る⁉〕 — *"por que… está acertando?!"*. **[C]** 171 p. 5
+5. **Ele reage com palavra e é atropelado:** 「ガキが!!」「何を勝った気」 — e os clones e shikigami batem. Pela wiki, ele **saca facas de combate para cortar as línguas** e depois um facão — **as duas mãos em uso**. **O quadro do arremesso** (`File:Megumi's_shadow_clone_throws_Reggie.png`): um clone o segura pelo tornozelo e o joga; **não há esfera nenhuma desenhada**. **[C]** 171 p. 6-10 via wiki + quadro visto
+6. **Só aí vem a percepção:** 〔成程 この分身も式神も 俺に当たる前から実体があった……〕〔つまりこの結界は必中の術式は付与されていない!!〕 — *"entendi, os clones e os shikigami já tinham corpo antes de me acertar… então este domínio **não tem técnica de acerto garantido**!!"*. A wiki põe isso em **p. 11-12**. **[C]**
+7. **Daí em diante a luta muda de natureza:** ele solta recibos, três carros afundam na sombra, o Megumi derruba o 満象 em cima dele — 「重量 我慢比べ!!」. **A Cesta não é mais citada no 171 nem no 172** (li os resumos do 172 e a página `Chapter_172`). **[C]**
+
+### As perguntas do ponto
+
+| pergunta | resposta | marca |
+|---|---|---|
+| Ele usou 彌虚葛籠? | **Sim**, com o nome dito: 「奥義「彌虚葛籠」」 | **[C]** 171 p. 3 |
+| Quando fez o selo? | **Na ativação**: dedos entrelaçados, braços à frente | **[C]** 171 p. 3, quadro visto |
+| Quando soltou? | **Já no quadro seguinte ao dos sapos** — é a reação de susto (「なっ」), **não** a conclusão de que o domínio era incompleto (essa vem na p. 11-12) | **[C]** quadro visto; o "quando" do Reddit está **errado** |
+| A Cesta aparece desenhada depois que as mãos soltam? | **Sim, em um quadro**: o dos sapos. **Nos quadros de pancada seguintes, não** (o do arremesso não tem esfera) | **[C]** quadros vistos via wiki |
+| Como terminou? | **A obra não mostra.** Nenhuma fala, caixa ou quadro da Cesta sumindo. Ela só **deixa de ser desenhada** enquanto ele apanha e passa a usar as mãos. Leitura provável: **(4) largada** — sem acerto garantido para anular, ela não tinha função, e ele precisava das mãos | **[NÃO ACHEI]** texto; **[I]** a leitura |
+
+### O anime (ep. 58)
+
+**Episódio 58, 「東京第１結界⑤」, 3ª temporada ep. 11, exibido em 20/03/2026** (Fandom `Episode_58`: adapta os caps. 171-173). A página da Fandom ainda está em construção (sem enredo nem lista de diferenças). Os quadros que ela sobe: a esfera rosa em volta do Reggie na ativação, e **a esfera ainda de pé quando as línguas dos sapos a atravessam** (`File:Multiple_Toads_restrain_Reggie_(Anime).png`) — nesse quadro **não dá para ver as mãos** (plano aberto). No quadro da voadora do Megumi (`File:Megumi_dropkicks_Reggie_(Anime).png`) o Reggie está de braços abertos e **sem esfera**. O anime mantém a fala: 「なぜ当たる？」 (知恵袋 q10326442925, 20/03/2026, sobre o ep. 58). **[F]** anime, quadros vistos — **não acrescenta nada sobre o selo.** Seis resenhas japonesas do ep. 58 (virtualgorillaplus, dengekionline, likiroku, note, kansou14, animatetimes) **não comentam** o selo nem a Cesta sumindo.
+
+### O que isso vale para "manter o selo é reforço ou condição?"
+
+- **O quadro dos sapos é o único lugar da obra em que a Cesta aparece desenhada com o dono fora do selo.** É um quadro só, no instante do susto. **[C]**
+- **Somado ao 266** (`発動後も掌印を結んだままにすることで出力を補い` — *"mantendo o selo **mesmo depois** de ativar, suplementa a saída"*), o conjunto aponta para **"o selo é para ativar; mantê-lo é reforço"**, que é a leitura do `J` §1.4 e do `K` §1.2. **[C] + [I]**
+- **O que ele NÃO prova:** que ela aguenta **algum tempo** sem selo, ou que aguenta **pressão de domínio de verdade** sem selo — o domínio do Megumi **não tinha acerto garantido**, então **não havia nada empurrando a Cesta**. É o pior caso para testar a pergunta. **[I]**
+- **Correção de detalhe ao `K` §1.2:** o u/tomtadpole escreveu *"persist after Reggie unclasped his hands **when he realised Megumi's domain was incomplete**"*. **O soltar das mãos vem antes da percepção**, no quadro do susto; a percepção só chega na p. 11-12, quando a Cesta já não aparece.
