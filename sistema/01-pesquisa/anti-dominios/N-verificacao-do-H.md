@@ -253,3 +253,185 @@ Todas as páginas são a tradução inglesa; a ordem de leitura é da direita pa
   a half-assed domain?!"*; *"He hasn't been able to heal his wounds because of reverse cursed tech-...
   so he's way past his limits too."*; *"...You're the one who'll die!!"*. **Esfera não desenhada.**
 
+### Nota ao Bloco 1, depois de abrir o `M` e as transcrições (correção da minha própria leitura)
+
+- **Cap. 108, img. 1 (topo) e img. 5:** quem grita *"NANAMI!"* e quem salta contra o Dagon **não é o
+  Megumi, é a Maki** — no quadro de baixo da img. 5 dá para ver os óculos. Errei a identificação; o `M`
+  acertou ("A Maki ataca").
+- **Cap. 108, img. 2 (meio):** o `M` diz "close nos olhos do Dagon". Eu vejo um punho e **um olho com
+  armação de óculos** (o Naobito usa óculos, o Dagon não). Nenhum dos dois cravou; fica sem dono.
+- **Cap. 171, p. 5 de cima:** ampliei mais. Os **dois** antebraços vão para a frente e as mãos, na ponta,
+  **podem** estar juntas (é o que o `M` leu). Retiro o meu "mão meio aberta": não dá para cravar. O `H`
+  usa a p. 5 **de baixo** (mão aberta, afastada do corpo), e essa eu confirmo.
+- **Cap. 266, p. 18:** a mão "de unhas pretas" que eu descrevi é **a mão esquerda do Yuji, com o anelar
+  e o mindinho faltando** (o preto é o toco) — três resumos japoneses dizem isso (eiga-manga,
+  neet-life, manga-games; URLs no bloco 2).
+- **Cap. 249, p. 15:** mantenho: no recorte ampliado, **as mãos de baixo estão juntas** na frente da
+  barriga (o `M` tinha ficado em dúvida). Na ativação, os quatro braços estão com as mãos unidas; na luta
+  da p. 16, o par de cima bate e o de baixo continua junto na barriga.
+
+---
+
+## Bloco 2 — Cesta Oca: como cai (266, 267, 250, 251) e o que o 266 diz
+
+Fontes deste bloco (todas lidas por mim, texto salvo em `/tmp/pesquisa-N/web/`):
+- 266: neet-life https://neet-life-blog.com/zyuzyutukaisenn266/ (traz a narração **literal**) ·
+  eiga-manga https://eiga-manga.com/entry/jujutsu266 · manga-games
+  https://manga-games.com/jujutsukaisen-jump-266/ · entame-life https://entame-life.com/jujutsu266/ ·
+  toyotetsu https://www.toyotetsu.net/jujutsu266/ · páginas locais (inglês oficial).
+- 267: eiga-manga https://eiga-manga.com/entry/jujutsu267 · manga-games
+  https://manga-games.com/jujutsukaisen-jump-267/ · neet-life https://neet-life-blog.com/zyuzyutukaisenn267/
+- 250: neet-life https://neet-life-blog.com/zyuzyutukaisenn250/ · eiga-manga https://eiga-manga.com/entry/jujutsu250
+- 251: neet-life https://neet-life-blog.com/zyuzyutukaisenn251/ · eiga-manga https://eiga-manga.com/entry/jujutsu251 ·
+  manga-games https://manga-games.com/jujutsukaisen-jump-251/
+
+**N-042 · a narração do 266 (`発動後も掌印を結んだままにすることで出力を補い…`)**
+1. Linha: 「宿儺は彌虚葛籠の発動後も掌印を結んだままにすることで出力を補い、領域に押し負ける事無く
+   戦闘をし続けることができる」 — **narração**, transcrita literal só pelo neet-life. eiga-manga,
+   manga-games e entame-life **parafraseiam** com `掌印を結び続ける`. 2. Batem no sentido (quatro
+   fontes). 3. Narração, 266 p. 6 (local). 4. Nada posterior mexe. 5. Inglês: *"offset weak output by
+   continuing the palm signs after activating"* — mesmo sentido.
+   **CONFIRMA** (o sentido; a letra exata tem uma transcrição só).
+
+**N-074 / N-037 (Cesta) / N-068 · `いつかは必ず押し負けてしまう`, Cesta e Simples na mesma frase**
+eiga-manga: 「簡易領域・彌虚葛籠は、心象を具現化した領域に比べて出力が弱く、領域に付与された必中術式が
+的中するまでの時間を稼ぐことが可能なものの、いつかは必ず押し負けてしまう」; manga-games e entame-life
+dizem o mesmo. Inglês p. 6: *"...at some point, getting overpowered is inevitable."* Narração.
+**CONFIRMA** as três. *(A página certa da narração é a 6; o `H` dá "p. 4-6", que cobre.)*
+
+**N-043 · "no 266 foram duas mãos, com quatro braços curados"**
+neet-life: 「腕が４本に治った宿儺」; eiga-manga: 「下側の二本の腕を利用して「彌虚葛籠」を発動」; página 4
+(o par de baixo junto, o de cima aberto). **CONFIRMA.**
+
+**N-065 · "o Sukuna troca socos segurando a Cesta com os dois braços de baixo" (266)**
+eiga-manga: 「下側の二本の腕で「彌虚葛籠」を維持しつつ、蹴りを放つ宿儺」 (mantendo com os dois de baixo
+enquanto chuta). Página 4 e 16. **CONFIRMA.**
+
+**N-070 · "rachada em parte (`一部割れ`)…; fragmentos voando em volta do punho do Yuji (p. 17)"**
+Aqui há **dois** problemas.
+- **(a) `一部割れ` não é texto do capítulo.** É a **descrição do desenho** feita pelo eiga-manga
+  (「「彌虚葛籠」が一部割れてしまう描写がされる」 — "é mostrado um desenho da Cesta rachando em parte");
+  o manga-games escreve 「結界が欠け始めます」. O `H` põe `一部割れ` em fonte de código, como se fosse a
+  letra da obra. O **texto** da obra é o pensamento 「彌虚葛籠が解ける!!」 (confirmado por eiga-manga,
+  manga-games e entame-life, e pelo inglês *"isn't gonna last!!"*).
+- **(b) Os fragmentos da p. 17 NÃO são da Cesta.** Três resumos independentes dizem que ali o Sukuna,
+  com a técnica já resetada, **corta a proteção do braço esquerdo do Yuji**:
+  eiga-manga 「拳を構えていた虎杖の左腕の装備がバラバラになる」 e 「宿儺が「解」を放ち、虎杖の左腕の装備が
+  バラバラとなった際には、左手の薬指・小指が欠損していることが判明」; manga-games 「虎杖の腕を覆っていた
+  ものがバラバラと落ちていきます。…宿儺の術式が回復して斬撃で虎杖の腕を覆っていたものを切り刻んだ」;
+  neet-life 「御厨子で虎杖の腕を attack…ばらけ落ちる」 (「御厨子で虎杖の腕を攻撃、魔物の腕がばらけ落ちる」).
+  A onomatopeia do quadro é `バラ…` (o inglês pôs "KRMBL"), e na p. 18 aparece a mão do Yuji **sem a
+  proteção e sem dois dedos**. O Yuji, no mesmo quadro: *"Did Sukuna's cursed technique replenish?!"* —
+  ele percebe o reset **porque** foi cortado.
+- **Sequência de dúvidas:** (1) advogado do `H`: o `M` escreveu "que sejam pedaços da trama é o que o
+  contexto indica; o quadro não diz" — o próprio `M` não cravou; o `H` promoveu. (2) Não é diferença de
+  tradução nem de página. (3) Terceira fonte: são três resumos japoneses que não se copiam (textos
+  diferentes, detalhes diferentes) + a própria p. 18. (4) O que me faria errado: um texto dizendo que a
+  Cesta se despedaça na p. 17. Nenhum dos cinco resumos diz; o toyotetsu diz que a Cesta "é destruída"
+  (「続くと思われた彌虚葛籠が破壊されます」), mas põe isso **antes** dos cortes no punho, que ele descreve
+  à parte (「その瞬間、虎杖の拳を斬撃が襲いました」). (5) Sobreviveu.
+  **CORRIGE.** Frase proposta: *"…e o Sukuna pensa 「彌虚葛籠が解ける!!」, 'vai se desfazer!!'. **[C]** cap.
+  266. Na página: a esfera com uma quebra no alto e fragmentos soltos (p. 16). *(O 'rachada em parte' é
+  descrição do desenho feita pelo eiga-manga, não fala. Os fragmentos da p. 17 são a proteção do braço do
+  Yuji cortada pelo Sukuna já com a técnica resetada — não são da Cesta.)*"*
+
+**N-066 · "NÃO trava a reversa — o Sukuna cura a testa e reseta a técnica queimada com a Cesta em jogo"**
+1. Texto: o pensamento da p. 16, parafraseado igual em três resumos — entame-life 「虎杖の打撃は反転術式
+   ではどうにもならないと言い、「彌虚葛籠」が解けると悟りました」; inglês *"Reverse cursed technique can't
+   keep up with the boy's punches. And Hollow Wicker Basket… isn't gonna last!!"*. Ele estava usando a
+   reversa **no mesmo quadro** em que a Cesta racha. **Isso sustenta o núcleo** ("não trava a reversa").
+2. Mas os dois exemplos do `H` são de **outro momento**: o **reset** vem logo depois, no instante em que
+   a Cesta "vai se desfazer" (manga-games: 「「彌虚葛籠」が解けようとしていました。すると次の瞬間…宿儺の
+   術式が回復」), e a **cura da testa** aparece **junto do selo do domínio**, com um braço (eiga-manga:
+   「反転術式で額の傷を治しつつ、片腕で掌印を結んで「領域展開」と唱える」), p. 18. Se a Cesta ainda estava
+   de pé nesses dois instantes, **nenhuma fonte diz e a página não mostra** — o próprio `H` escreve, em
+   "Como cai", que esse último instante "fica fora de quadro".
+3. Terceira fonte: a narração da p. 5 (*"doing that now… would be too risky"* / eiga-manga 「実行するには
+   リスクが高すぎると思う宿儺」) mostra que o reset foi feito **fora do plano**, sob a pressão do momento.
+4. O que me faria errado: um quadro com a esfera desenhada durante o reset. Não há (p. 17-18).
+   **CORRIGE.** Frase proposta: *"**NÃO trava a técnica reversa** — no 266, com a Cesta de pé e rachando,
+   o Sukuna pensa que 'a reversa não dá conta dos socos do moleque' (p. 16): estava curando com ela. **[C]**
+   cap. 266. *O reset da técnica queimada vem logo depois, no instante em que a Cesta 'vai se desfazer', e a
+   cura da testa aparece junto do selo do domínio (p. 18) — se a Cesta ainda estava de pé nesses dois
+   momentos, a obra não mostra.*"*
+
+**N-014 · 266→267: racha; troca para o contra-domínio com o selo de um braço; a Ressonância bloqueia; o
+acerto entra; nenhum painel mostra a Cesta desfeita**
+eiga-manga 266: 「片腕で掌印を結んで「領域展開」」; 267: 「「まずい!! 術式が……!! 領域が展開できない!!」「このまま
+では小僧の必中術式が」」 e 「領域が展開できなくなった宿儺は、虎杖の領域の必中効果である「解」を食らう」;
+manga-games 267 e neet-life 267 dizem o mesmo; inglês 267 p. 14 idem. **CONFIRMA.** *Nota: dois resumos
+leem mais do que a obra mostra — o manga-games 267 diz que no 266 ele "foi forçado a desfazer a Cesta"
+(「彌虚葛籠を解かされていて」) e o toyotetsu 266 que ela "é destruída". São resumos; o `H` fez bem em não
+seguir.*
+
+**N-015 · páginas: 267 p. 16 sem mão no selo; esfera não desenhada em 266 p. 18 nem no 267**
+Minha leitura bate (bloco 1). **CONFIRMA.**
+
+**N-016 · 250: "a cada golpe do Yuji, a saída cai e o controle fica lento"; "até ele não conseguir mais
+manter a Cesta" (`維持できなくなるまで`)**
+neet-life 250: 「虎杖の攻撃を受ける度、宿儺の呪力出力は下がり肉体の支配（コントロール）も鈍る。「彌虚葛籠」を
+維持できなくなるまで宿儺を削り、リスクは承知の上で天使の術式「邪去侮の梯子」で伏黒恵の中の呪物を消し去る
+つもりだろう」; eiga-manga 250 idem e diz que é **o Sukuna deduzindo** (「…つもりだと推測します」).
+**CONFIRMA**, com um detalhe que vale escrever: *o "plano" é a leitura que o **Sukuna** faz do plano
+inimigo, em pensamento.*
+
+**N-048 · 250: o corte que divide o mundo não sai mantendo a Cesta**
+neet-life 250: 「術式対象を拡張する世界を断つ「解」は「彌虚葛籠」を維持しながら撃てない」; eiga-manga 250:
+é **pensamento do Sukuna** (「…維持しながらでは撃てないと考えます」); no 251 o **Yuta** repete (「「解」を、
+「彌虚葛籠」と併用できなかったと状況を整理」). **CONFIRMA.**
+
+**N-017 / N-057 · 251: solta o selo; Yuji e Rika seguram os braços; o Yuta arranca a língua da barriga;
+toma a Escada de Jacó em saída máxima "sem conseguir manter a Cesta"**
+neet-life 251: 「宿儺の呪力出力も肉体の支配もかなり鈍ってきたな。と宿儺は彌虚葛籠を解き、天使の術式を受け
+ながら捨て身の"解"…を放つとうと行動に移る。だがそう来ることは想定済み。虎杖とリカちゃんが宿儺の腕を掴み
+彌虚葛籠の掌印を結ばせない様に抑える。乙骨は宿儺の腹の口の中の舌を引っこ抜く」; eiga-manga 251:
+「リカ・虎杖に腕を封じられて「彌虚葛籠」が維持できていない宿儺は、乙骨が放つ出力最大の「邪去悔の梯子」を
+正面から食らう」. **CONFIRMA** o fato. Dois ajustes pequenos: (i) **"três braços"** não achei em nenhum
+dos três resumos (eles dizem "os braços"); o Yuta decepa um braço no mesmo capítulo (manga-games: 「乙骨が
+刀で宿儺の腕を1本、斬り落とします」), então três é plausível, mas é número sem fonte que eu tenha lido;
+(ii) "corta **a [língua]** da cara": os resumos dizem que ele **corta a boca** do rosto (eiga-manga
+「刀を振るって宿儺の口を切り裂く」). A página ("p. 12-13") eu não tenho para conferir. **NÃO FECHA POR
+TEXTO** só o "três braços" e a página; o resto CONFIRMA.
+
+**N-049 · 251: Yuta, 「どちらもさせない!!」**
+eiga-manga 251: 「単技でも掌印・呪詞の詠唱、もしくはその両方が必須のはずだと思い至った乙骨は、「どちらも
+させない!!」と胸中で宣言」; manga-games 251 idem. **CONFIRMA** (é pensamento, 「胸中で」).
+
+**N-041 · "Queda por golpe no dono DENTRO de domínio: a Cesta (251, 266 — nos dois casos, soco de alma do
+Yuji)"**
+1. O 251, pelas três fontes acima, é o Sukuna **soltando por conta própria** (「彌虚葛籠を解き」) para
+   tentar o corte, depois de notar que a saída e o controle "tinham caído bastante"; em seguida o Yuji e a
+   Rika seguram os braços **para ele não refazer o selo**. 2. Advogado do `H`: a saída caiu **por causa**
+   dos socos de alma (250), então o golpe no dono está na raiz. Mas a queda em si é largada — e o próprio
+   `H` classifica o 251 como **"largada forçada"** em "Como cai" (§1) e no quadro. 3. Terceira fonte:
+   manga-games 251 (「宿儺に彌虚葛籠を解かせるまでに追い詰める」 — "encurralá-lo até fazê-lo desfazer a
+   Cesta"). 4. O que me faria errado: um texto dizendo que a Cesta se rompeu com um soco no 251. Nenhum dos
+   três diz. **CORRIGE** (o `H` se contradiz). Frase proposta: *"**Queda por golpe no dono DENTRO de
+   domínio:** a **Cesta** no 266 (soco de alma do Yuji) e a **Pétala** no 108 (soco comum do Dagon, que
+   não é acerto garantido). **O Simples nunca.** **[C]** — *no 251 a Cesta foi **largada** pelo próprio
+   Sukuna para tentar o corte, com a saída já gasta pelos socos de alma (250); a queda da Pétala no 108 é
+   [F] pelo anime e [C] pelo efeito (ver §3).*"*
+
+**N-064 · definição oficial da Cesta, 05/06/2024, e a imagem da ficha**
+Ficha (API do X, https://cdn.syndication.twimg.com/tweet-result?id=1798187994551304275&token=a, publicada
+2024-06-05): 奥義「彌虚葛籠」【シン・陰流「簡易領域」の原型。領域を中和し、必中効果を打ち消す】. **O texto
+CONFIRMA**, e tem um detalhe: **é a mesma frase da narração do cap. 171** (yuran:
+https://yuran.work/jujutsukaisen-171-netabare/ — 「シン・陰流「簡易領域」の原型であり 領域を中和し必中効果を
+打ち消す性能を持つ»), então isso é **[C] 171** além de [F]. **A descrição da imagem não confere:** a
+imagem é o quadro da p. 4 do 171 — o Reggie **de pé na frente** da esfera, que aparece como fundo; **as
+pernas dele passam do contorno dela**. Pela imagem não dá para dizer que ele está "dentro", nem que a
+esfera é "pouco maior que o corpo" (no desenho ela é **menor** que a altura dele — é perspectiva). O
+dado visual de tamanho melhor está no 249 p. 15 e no 266 p. 4, onde a esfera envolve o Sukuna da cabeça
+aos pés, com folga. **CORRIGE** (a frase da imagem). Proposta: *"A imagem da ficha é o quadro do 171
+p. 4: o Reggie na frente de uma esfera trançada que aparece como fundo — não dá para medir nada por ela.
+Nas páginas do 249 (p. 15) e do 266 (p. 4) a esfera envolve o Sukuna da cabeça aos pés, com folga; número,
+nenhum."* E a marca: **[F]** ficha **+ [C]** 171.
+
+**N-072 / N-073 · 171: não apaga a técnica em si; não serve contra domínio incompleto**
+yuran 171: 「「彌虚葛籠」や「簡易領域」は 術式そのものを中和することはできない / これらは術式の付与された
+結界を中和することで 付与された 術式の必中効果を無効化している / 伏黒の領域は未完成」 e o Reggie
+〔成程 この分身も式神も〕〔俺に当たる前から実体があった……〕〔つまいこの結界は必中の術式は付与されていない!!〕.
+Inglês local p. 6-7 idem. **CONFIRMA** as duas. *Nota que pesa no N-008 (bloco 4): o próprio 171 diz que
+Cesta e Simples **中和 (neutralizam) a barreira** e com isso **無効化 (anulam)** o acerto — os dois verbos
+estão no mesmo texto.*
+
