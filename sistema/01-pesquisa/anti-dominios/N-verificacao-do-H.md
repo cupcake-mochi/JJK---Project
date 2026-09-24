@@ -595,3 +595,154 @@ livre**
   *para quem tem dois braços, o selo usa as duas mãos (Reggie, 171 p. 4); e manter é o que segura contra
   pressão (266), não exigência da técnica: sem pressão o Reggie soltou (171 p. 5 e 7).*"*
 
+---
+
+## Bloco 4 — Domínio Simples, parte 1 (o voto da Miwa, como cai, 206, 226)
+
+Fontes deste bloco: yuran (transcrições) caps. 35, 40, 73, 82, 102, 130 —
+https://yuran.work/jujutsukaisen-<N>-netabare/; 206 — eiga-manga https://eiga-manga.com/entry/jujutsu206,
+manga-games https://manga-games.com/jujutsukaisen-jump-206/, entame-life https://entame-life.com/jujutsu206/;
+226 — neet-life https://neet-life-blog.com/zyuzyutukaisenn226/, eiga-manga https://eiga-manga.com/entry/jujutsu226;
+269 — neet-life https://neet-life-blog.com/zyuzyutukaisenn269/, eiga-manga https://eiga-manga.com/entry/jujutsu269;
+wiki (API): `Simple_Domain`, `Kasumi_Miwa/Synopsis`, `Episode_17`, `Maki_Zenin_vs._Kasumi_Miwa`, `Chapter_40`.
+
+### ⚠ O achado maior do bloco: o voto da Miwa **é** acionado em cena, no cap. 40
+
+**N-093 · "o voto da Miwa nunca aparece sendo quebrado em cena" [C]** — e, amarrados nele, **N-021** ("fora
+de domínio cai por golpe no dono: a Miwa desarmada pela Maki, 40"), **N-022** ("por condição: **só** a
+Kuchisake-Onna") e **N-010** (quadro: "por golpe no dono, só fora de domínio (40, 254)").
+
+1. **O texto.** yuran 40 (transcrição de balão e narração), na ordem:
+   - narração: 「三輪の簡易領域は 領域内(半径2.21m)に侵入したものを"全自動"反射で迎撃する
+     (両足が展開時の点(ポイント)から離れると解除される)」;
+   - a Maki quebra a arma e joga (「折った!? 腿で!?」「投げ―――」「暗器!!」);
+   - pensamento da Miwa: 〔勘が良い!! 囮(デコイ)で間を潰しにきた!!〕 〔**両足離れた!!** でも大丈夫 一度離れて〕
+     〔ギリギリまで 引きつけてから――〕 — *"boa intuição!! veio fechar a distância com isca!!" / "**os dois pés
+     saíram!!** mas tudo bem, eu me afasto uma vez" / "e puxo ela até o último instante—"*;
+   - 〔合気⁉ 器用な人!!〕 e a Maki fica com a espada.
+2. **Duas fontes independentes batem:** a wiki inglesa, `Kasumi_Miwa/Synopsis` (resumo do mangá, ref. cap. 40
+   p. 1-10): *"**Kasumi notices that her feet have moved** and plans to get back into position, but Maki tosses
+   Kasumi and even disarms her."* E uma **terceira, de outra mídia**: a wiki `Episode_17` (anime): *"She throws
+   the non-cursed tool half and a kunai as a distraction, **forcing Kasumi to move out of place, deactivating the
+   domain**."*
+3. Quem: pensamento da Miwa, cap. 40 (p. 4-8 pela wiki).
+4. Mudou depois? O 254 repete o voto como regra dela (manga-games 254: 「三輪は両足が地面から離れると、簡易領域が
+   解除されてしまう」). Nada desdiz o 40.
+5. Tradução: a wiki `Maki_Zenin_vs._Kasumi_Miwa` resume sem falar dos pés; a `Chapter_40` diz que a Maki joga os
+   pedaços *"to negate the effects of her Simple Domain"*. Nenhuma contradiz.
+- **Sequência de dúvidas.** (1) Advogado do `H`: a fonte do `H` é o `I` (§2 e tabela da l. 136/300), que leu a
+  wiki `Chapter_40` e `Simple_Domain`, que **não** mencionam os pés saindo — e escreveu "nenhuma cena mostra".
+  É ausência na fonte lida, não texto contrário. (2) Não é diferença de tradução: o japonês diz 両足離れた. Poderia
+  ser **os pés da Maki**? Não: o "mas tudo bem, eu me afasto e puxo de novo" só faz sentido se o problema for dela,
+  e a wiki e o resumo do anime dizem que foram os pés da Miwa. (3) Terceira fonte independente: o resumo do anime
+  (ep. 17). (4) O que me faria errado: se "両足離れた" fosse leitura do blog e não balão. O yuran transcreve os
+  pensamentos entre 〔 〕, como faz com todos os outros do capítulo, e duas fontes em inglês descrevem o mesmo
+  evento. (5) Sobreviveu. **CORRIGE.**
+- **Frases propostas:**
+  - l. 265-267: *"⚠ **'Não pode sair do lugar' NÃO é da técnica** — é o voto da Miwa, que é iniciante. O Kusakabe
+    usa sem voto, com alcance maior, e expande o raio em combate. **[C]** cap. 254 — *e o voto da Miwa **é
+    acionado em cena**: no cap. 40 a Maki joga os pedaços da arma e um kunai de isca, a Miwa tira os dois pés do
+    ponto ('両足離れた!!') e o Simples se desfaz; a Maki entra e a desarma.* **[C]** cap. 40 (yuran; wiki
+    `Kasumi_Miwa/Synopsis`; anime ep. 17)"*
+  - l. 276: *"**Fora de domínio, o que se vê cair** é o **programa de contra-ataque**, não uma proteção contra
+    acerto garantido: a Miwa no 40 perde o Simples **pelo voto** (a isca a obriga a tirar os pés) e depois é
+    desarmada; no 254 a espada do Kusakabe quebra no corpo do Sukuna, e **se o círculo se desfaz, a obra não
+    mostra** **[I]**."*
+  - l. 280: *"**Por condição:** a Kuchisake-Onna (a não-agressão dura até a pergunta ser respondida, cap. 73) e
+    **o voto da Miwa** (os dois pés fora do ponto, cap. 40). **[C]**"*
+  - quadro, l. 497, coluna "como cai": *"arrancado pela pressão (206, 226, 258); **pelo voto do usuário** (40);
+    golpe no dono dentro de domínio, **nunca**"*.
+
+**N-001 / N-002 · divergência 1 e 2: "quebra se os pés saírem do chão" e "raio 2,21 m"**
+- Texto: narração do 40 (acima) + 254 (Gojo, em flashback, sobre o Kusakabe: 「簡易領域は成立させるために初心者は
+  色々縛りを作るが日下部は縛りなしで成立させられる、範囲もめっちゃ広い」, neet-life; eiga-manga e manga-games idem).
+- **CONFIRMA** as duas linhas: o "pés" é **voto da Miwa** (e agora com cena de acionamento, o que reforça), e o
+  2,21 m é **o raio do Simples da Miwa** (「三輪の簡易領域は…半径2.21m」). Nuance para o texto do `H`: a obra não
+  liga o **raio** ao voto — o 2,21 m é o dela; que o de iniciante seja menor, o 254 insinua pelo "範囲もめっちゃ広い"
+  do Kusakabe. E o 40 diz "do **ponto** de ativação" (`展開時の点`), não "do **chão**": pular no mesmo lugar
+  também tira os pés do ponto, andar também. *A peça 11 escreve "os pés saírem do chão"; a obra escreve "os dois
+  pés saírem do ponto onde foi ativado".*
+
+**N-003 · divergência 3: "o Kusakabe puxar gente é da Trilha dele" × "ele expande o raio em combate, com a
+própria aptidão"**
+254, na fala da **Mei Mei** em flashback: 「日下部は後から簡易領域を広げて相手を引き込める」 (eiga-manga,
+manga-games, neet-life); e o 254 mostra ele ampliando o raio até o Sukuna. **CONFIRMA.** *Nota: o "puxar"
+(`引き込む`) é o verbo da própria obra — ele não puxa o corpo de ninguém, ele **alarga o círculo** até o outro
+estar dentro.*
+
+**N-020 · "dentro de domínio, NUNCA caiu por golpe no dono — só pela pressão (206, 226 duas vezes, 258 do Yuji)
+ou porque o domínio acabou antes (82, 102, 130, 258 os outros)"**
+- 206: 「羂索の強力な結界により簡易領域はみるみる剥がされていく」; 「指を差すと同時に九十九の簡易領域を全て剥がす」
+  (eiga-manga; manga-games igual) — pressão. ✓
+- 226: 「簡易領域はすぐに剥がされてしまい」 e 「再度「簡易領域」が剥がされ」 (eiga-manga; neet-life igual) — pressão,
+  duas vezes. ✓ *(A segunda queda acontece com o Gojo usando a reversa **no cérebro** e não no corpo — neet-life
+  226.)*
+- 82: o Mahito "desfaz o domínio" depois de se explodir (「後は領域を解けば死んだと思うだろ」) — o domínio acabou. ✓
+- 102: Ui Ui dentro do caixão até o fim do domínio (wiki `Simple_Domain`, 102 p. 10-14). ✓ (não li a
+  transcrição inteira do 102; a yuran confirma 「簡易領域」「憂憂の役割は領域対策」).
+- **130: não bate.** A narração (yuran 130): 『東堂の領域から身を守る術 九十九由基直伝 簡易領域の展開』『それよりも
+  速く…虎杖は駆け出していた』『更に速く』『真人は術式を発動』 — o Mahito foi **mais rápido que o Simples do
+  Todo**, e o Todo perdeu a mão (〔一瞬でも触れたんだ これで済んだだけでも奇蹟だな〕). A wiki (`Simple_Domain`,
+  130 p. 2): *"Mahito activated his domain's cursed technique **before Todo could counter** with Simple Domain."*
+  O Simples do 130 **não "caiu porque o domínio acabou"**: ele **não chegou a tempo**. O próprio `H` diz isso na
+  desvantagem certa ("perdeu a corrida", l. 254-255).
+- **CORRIGE** (só o 130): *"…ou porque o domínio acabou antes (82, 102, 258 os outros). No 130 o Simples do Todo
+  nem chegou a valer: o domínio de 0,2 s do Mahito disparou antes."*
+
+**N-022 (Kuchisake-Onna)** — yuran 73: 〔仮想怨霊…質問に答えるまでお互いに不可侵を強制する簡易領域か〕 (pensamento do
+Toji); wiki: *"freezes time and enforces non-violence… until her question is answered. Once the question is
+answered, time resumes and Kuchisake-Onna can attack"*. O texto diz que a **não-agressão** dura até a resposta;
+"perde o domínio" é leitura. **CONFIRMA** o caso, com o ajuste acima (não é "só").
+
+**N-023 · "a Yuki não chegou aos 10 s que o plano do Tengen pedia (206)"** (e a linha da tabela de tempos)
+Texto: o plano pede 10 s (manga-games: 「天元は10秒あれば領域を打ち消せると言います」); o Kenjaku não fecha o domínio,
+o Tengen tem de improvisar, e 「天元が急いで空性結界を消している間に、九十九の簡易領域は全て剥がされてしまいます」
+(manga-games) — "enquanto o Tengen apagava às pressas, o Simples dela foi arrancado inteiro". **Nenhuma das três
+fontes diz se isso foi antes ou depois de 10 s**; o eiga-manga chega a especular o contrário (「あらかじめ予定して
+いた10秒を過ぎてしまったためか」, "talvez porque os 10 s previstos passaram"). A wiki diz *"it only bought her a few
+short seconds"* (206 p. 7, 9) — sem número. **NÃO FECHA POR TEXTO** (a dúvida é de texto; as páginas locais não
+têm o 206). Proposta: *"a Yuki segurou o Simples enquanto o Tengen trabalhava e ele foi arrancado inteiro antes de
+o Tengen terminar; **se passou ou não dos 10 s do plano, a obra não diz**"* — e na tabela: *"10 s | plano do Tengen
+| o Simples da Yuki foi arrancado antes de o plano fechar | 206"*.
+
+**N-079 · "o Kenjaku 'raspa aos poucos' (`みるみる剥がされていく`) e depois arranca tudo, apontando o dedo" [C] 206**
+Texto (paráfrase de dois resumos, eiga-manga e manga-games, com as mesmas palavras): みるみる剥がされていく; 「指を差す
+と同時に…全て剥がす」. **CONFIRMA** o fato. Ajuste de tradução: `みるみる` é **"a olhos vistos, rapidinho"**, não "aos
+poucos" — o próprio `H` usa "desgasta à vista" na linha de cima, que está certo.
+
+**N-077 · "não queima a técnica inata (`術式を温存できる`)" [C] 206**
+eiga-manga: 「羂索が術式を温存できる「簡易領域」や「彌虚葛籠」で対抗する可能性」; manga-games: 「術式の焼き切れない
+簡易領域」 e 「自分の領域を温存し「簡易領域」や「彌虚葛籠」で対抗してくる可能性」. **CONFIRMA** — e acrescenta um
+dado que o `H` não tem: **o mesmo trecho vale para a Cesta** (o Tengen põe as duas na mesma frase). Ver
+"Descobertas novas". *A letra exata do balão (温存 do quê: 術式 ou 領域) difere entre os dois resumos; o sentido,
+"não queima a técnica", bate.*
+
+**N-090 · "o Tengen avisa que o Simples do Kenjaku 'não se compara' ao dos outros" [C] 206**
+「簡易領域さえ他の術師と同列に扱わない方がいい」 (eiga-manga; manga-games igual). **CONFIRMA.**
+
+**N-081 · "anda junto com a reversa — o Gojo cura enquanto segura o Simples, o Kusakabe fica pasmo; e pesa: 'aah,
+que canseira' (`あー しんど`)" [C] 226**
+- Cura + Simples e o espanto do Kusakabe: eiga-manga 「「簡易領域」と同時に反転術式を使用しているのを見た日下部は、
+  最早呆れたような反応」; neet-life 「なんで反転術式と通常の呪力操作が同時にできんだよ」. ✓
+- **O `あー しんど` está no lugar errado.** Ele vem **no fim do capítulo**, depois do segundo Simples arrancado, do
+  reparo da técnica queimada e do Vermelho no Sukuna: eiga-manga 「五条は反転術式で体を治癒しつつ「あー しんど」と
+  口にする」; neet-life põe logo depois do 「赫」. Não é comentário sobre segurar o Simples com a reversa.
+- **CORRIGE** (leve). Proposta: *"…e o Kusakabe fica pasmo. **[C]** cap. 226. *(O 'あー しんど' do Gojo vem no fim
+  do capítulo, depois do Vermelho, e fecha a sequência inteira — não é sobre o Simples.)*"*
+
+**N-082 · "dá para erguer de novo logo depois de arrancado — o Gojo fez duas vezes seguidas" [C] 226**
+「「言わんこっちゃない」と脹相が口にする中、目の前で再度「簡易領域」を発動した五条に対し、「くどいな」と零す宿儺」
+(eiga-manga). **CONFIRMA.**
+
+**N-089 · Choso: `時間稼ぎにしかならない` [C] 226** — neet-life: 「簡易領域程度の出力では本物の領域に対して時間稼ぎ
+にしかならないぞと脹相は心配する」; eiga-manga igual. **CONFIRMA.**
+
+**N-086 · "arrancável (`剥がされる`); o dano chega todo de uma vez" [C] 206, 226, 258; Kusakabe 227; narração 266**
+226: 「すぐに剥がされてしまい、五条は再度斬撃で全身を切り裂かれる」; 227 (Kusakabe): 「簡易領域みたいに剥がされる
+もんでもない」; 266 (narração): 「いつかは必ず押し負けてしまう」 — o 266 diz "sobrepujado", não "arrancado"; é o mesmo
+fenômeno. **CONFIRMA.**
+
+**N-087 · "tem tempo de ativação e pode perder a corrida: o 0,2 s do Mahito abriu antes, e o Todo perdeu a mão"
+[C] 130** — narração do 130 (acima) + wiki. **CONFIRMA.** *Dado a mais: o Simples do Todo é
+「九十九由基直伝」 — **ensinado diretamente pela Yuki**, fora da escola (ver N-084).*
+
