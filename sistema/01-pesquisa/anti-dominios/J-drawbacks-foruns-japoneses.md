@@ -358,7 +358,9 @@ japoneses só dizem que ela segurou e que o enxame "não perdia força".
 | **Não se opõe à saída do domínio**: `無傷とはいかない・領域の出力に対抗できるほどの術ではない` *"não sai ileso; não é técnica que enfrente a saída de um domínio"* | Choso, cap. 227 | — | **[C]** |
 | **Não serve para quem tem pouca energia** (Miwa, Mai; Maki e Toji nem entram) | あにまんch 20929277 post 7; Anitage+; introduction1 | 考察 (o mecanismo é soltar energia) | 1 post + 2 blogs |
 | **Exige muita técnica mesmo sem exigir talento de barreira**: `呪力操作と呪力量さえしっかりすれば誰でも使えるが求められる技術力は高そう` | あにまんch 20929277 post 44 | 考察 | 1 post |
-| **Fraca contra volume e contra força bruta** (`物量やパワーで押し切られると弱い`) | resumo de buscador de blog japonês (a origem provável do `[I]` do `H`) | 考察 | — |
+| **Fraca contra volume e contra força bruta**: `攻撃は近くまで来るので物量やパワー押しに弱い` *"o ataque chega perto, então ela é fraca contra volume e força bruta"*; e `形のない攻撃を防げるかは疑問` *"é duvidoso que pare ataque sem forma"* | amedot (28/06/2023), https://amedot.hatenablog.com/entry/2023/06/28/234750 — **é a origem do `[I]` do `H`** | 考察, pensando no 108 | blog |
+| **Fraca contra ataque contínuo** (`「連続攻撃に弱い」という一面があるのかもしれません` *"talvez tenha um lado fraco contra ataque contínuo"*) | ciatr, https://ciatr.jp/topics/324572 | sim, 108 (o `波状攻撃`, ataque em ondas, do Dagon) | blog, com "talvez" |
+| **O combo "brecha + volume"**: `圧倒的物量の式神を防いでる隙を陀艮に襲われ、結局領域対策とはなっていなかった` *"atacado pelo Dagon na brecha enquanto barrava um volume esmagador de shikigami — no fim não serviu de anti-domínio"*; e `完璧に攻撃を撃ち落とせるわけではない` *"não derruba o ataque por inteiro"* | 超漫画辞典, https://comicjiten.com/rattsukanojyou/ | sim, 108 e 227 | blog |
 | **Segura "no máximo uma expansão"** para quem tem muita energia e técnica reversa: `ギリギリ領域展開1回分耐えられるかどうか` | ねいろ速報 34596415 post 4 (22/08/2023) | 考察 | 1 post |
 | ⚠ **"Com ela ativa não dá pra usar a técnica inata"** | poporo3 (2020), Anitage+ | **não**: o poporo3 diz literalmente que é suposição porque o Naobito **não usou** a técnica junto (`併用していないため使えない可能性があります`) | **[I] fraco** — ver 3.4 |
 | ⚠ "Como se aprende: com o item 落下の情" | wiki do **jogo** 呪術クラフト (wikiwiki.jp/jujutsucraft) | **não é o mangá** | descartar |
