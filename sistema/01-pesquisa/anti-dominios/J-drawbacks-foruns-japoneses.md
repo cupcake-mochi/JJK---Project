@@ -303,3 +303,87 @@ da "contradição de pé" do arquivo `D`:**
    o `薄める` do 246 tenha sido reescrito no volume. Procurei `単行本 修正 246話 簡易領域 薄める`,
    `28巻 修正`. *Não é prova de que não mudou; é que ninguém que eu achei comparou.*
 
+
+---
+
+## 3 · Pétala — 落花の情 (らっかのじょう)
+
+⚠ Metade das fontes japonesas escreve **落下の情** (erro). Busquei as duas grafias.
+
+### 3.1 ⭐ O que acabou com ela no cap. 108 — e o braço veio DEPOIS
+
+**Os resumos japoneses são unânimes na ordem dos fatos, e ela muda a leitura do `H`:**
+
+1. O Dagon manda 70% do `死累累湧軍` (o enxame) no Naobito e 30% no Nanami. O Naobito segura com a
+   Pétala, mas estranha que **o enxame não perde força**, e **o enxame tampa a visão dele**. **[C]** cap. 108
+2. `視界が見えない直毘人は、陀艮に強烈な拳の一撃を受けて吹き飛ばされてしまいます。「落花の情」が解除され、直毘人も魚の群れに食われてしまう`
+   *"Sem enxergar, o Naobito leva um soco forte do Dagon e é arremessado. **A Pétala se desfaz**, e o
+   Naobito também é devorado pelo cardume."* — entame-life, resumo do 108.
+   https://entame-life.com/jujutsu108/
+3. O jumpnuma diz o mesmo com outra redação: `陀艮は、直接直毘人を殴り飛ばす。攻撃を受けた直毘人は、式神の攻撃を一斉に受けてしまう`
+   *"o Dagon soca o Naobito direto; atingido, ele **toma o ataque dos shikigami todo de uma vez**"*.
+4. No 109 ele volta **sem o braço direito**, e todos os resumos atribuem a perda ao **acerto garantido
+   do enxame** (`必中術式「死累累湧軍」を喰らい右腕を欠損`, entame-life, verbete do Naobito). A fala
+   dele é `たかが右腕一本 さりとて71年物` *"é só um braço direito — mas de 71 anos de uso"*. **[C]** caps. 108–109
+
+**Conclusão para o buraco "o que acabou com ela ali?":** **(2) ataque ao usuário.** O soco derruba
+a Pétala; **o braço é o preço de ficar SEM ela**, dentro do domínio, por um instante. **Não é a
+Pétala "falhando e cobrando um braço"** — é o enxame entrando no buraco que o soco abriu. O `解除`
+("desfeito") é palavra do resumo, não achei a fala da obra dizendo isso. **[C]** para a sequência;
+**[I]** para o `解除`.
+**Duração:** **[NÃO ACHEI]** em fonte japonesa o "mais de um minuto" do arquivo `A`; os resumos
+japoneses só dizem que ela segurou e que o enxame "não perdia força".
+
+### 3.2 "Exige concentração": **não existe no Japão**
+
+- **[NÃO ACHEI]** a palavra `集中` associada à Pétala em nenhuma fonte japonesa (busquei
+  `"落花の情" "集中"`, `落花の情 集中`, e li as threads). **A leitura de fã "exige concentração"
+  é ocidental.** Confirmo o `A`: não tem base.
+- O que o Japão diz no lugar, em três versões:
+  1. **brecha** (`隙`): ela responde sozinha e, enquanto responde, o dono fica exposto (likiroku,
+     já no `F`); **[I]**
+  2. **visão**: é o que a cena do 108 mostra (enxame tapando a vista) e todos os resumos repetem; **[C]**
+  3. **postura / pé no chão** — uma voz só: あにまんch 20929277 (27/10/2023), post 49:
+     `落花の情は器用な人でない限り構えを維持か地に両足がついてないと効果が発揮できない(直毘人参照、五条は例外かも)`
+     *"a menos que a pessoa seja muito habilidosa, a Pétala só funciona mantendo a postura ou com
+     os dois pés no chão (vide o Naobito; o Gojo talvez seja exceção)"*. **[I]**, 1 post, sem apoio
+     nem contestação na thread, sem painel.
+
+### 3.3 O que o Japão aponta como fraqueza
+
+| afirmação | fonte | aponta cena? | apoio |
+|---|---|---|---|
+| **Inútil contra efeito complexo/conceitual** (Infinite Void, calor do domínio do Jogo, Julgamento, Idle Death Gamble); boa contra "ataque simples" (enxame, cortes) | 知恵袋 q11259905841 (17 votos); あにまんch 20929277 post 15; introduction1 | sim: 108, 227; e a fala do Kusakabe no 227 (`無量空処のような複雑な術式効果には意味がない`) | **[C]** na fala + consenso |
+| **Não é arrancada como o Domínio Simples, porque só veste energia** (`呪力を纏ってるだけなので基本剥がされる心配が無い`) | あにまんch 20929277 post 15 | sim: fala do Kusakabe no 227 | **[C]** |
+| **Não se opõe à saída do domínio**: `無傷とはいかない・領域の出力に対抗できるほどの術ではない` *"não sai ileso; não é técnica que enfrente a saída de um domínio"* | Choso, cap. 227 | — | **[C]** |
+| **Não serve para quem tem pouca energia** (Miwa, Mai; Maki e Toji nem entram) | あにまんch 20929277 post 7; Anitage+; introduction1 | 考察 (o mecanismo é soltar energia) | 1 post + 2 blogs |
+| **Exige muita técnica mesmo sem exigir talento de barreira**: `呪力操作と呪力量さえしっかりすれば誰でも使えるが求められる技術力は高そう` | あにまんch 20929277 post 44 | 考察 | 1 post |
+| **Fraca contra volume e contra força bruta** (`物量やパワーで押し切られると弱い`) | resumo de buscador de blog japonês (a origem provável do `[I]` do `H`) | 考察 | — |
+| **Segura "no máximo uma expansão"** para quem tem muita energia e técnica reversa: `ギリギリ領域展開1回分耐えられるかどうか` | ねいろ速報 34596415 post 4 (22/08/2023) | 考察 | 1 post |
+| ⚠ **"Com ela ativa não dá pra usar a técnica inata"** | poporo3 (2020), Anitage+ | **não**: o poporo3 diz literalmente que é suposição porque o Naobito **não usou** a técnica junto (`併用していないため使えない可能性があります`) | **[I] fraco** — ver 3.4 |
+| ⚠ "Como se aprende: com o item 落下の情" | wiki do **jogo** 呪術クラフト (wikiwiki.jp/jujutsucraft) | **não é o mangá** | descartar |
+
+### 3.4 Junto com a técnica reversa: **sim, a obra mostra**
+
+No 227 o Gojo **segura a Pétala e, ao mesmo tempo, cura com técnica reversa o cérebro queimado**, e
+depois expande o domínio pela terceira vez (`「落花の情」で傷を最小限に抑えつつ、焼き切れた術式を反転術式で治癒し`,
+manga-games 227). **[C]** cap. 227.
+**Como ela termina ali: (4) largada** — o Gojo a usou para **comprar tempo** até recuperar a técnica
+e trocou por domínio. **Duração:** o tempo de curar o cérebro; **[NÃO ACHEI]** número.
+
+### 3.5 Como se aprende, e os Kamo
+
+- **Canon mais próximo:** o Gojo diz que **aprendeu quando criança** e **parou de usar depois de
+  aprender domínio** (`子供の頃に習ったものの、領域を会得してからは全く使わなくなった`). **[C]** cap. 227,
+  via eiga-manga. *O verbo é `習った` (aprendi / me ensinaram): é ensino de família na infância.*
+- **Kamo: [NÃO ACHEI]** cena. Os blogs japoneses (Anitage+, introduction1) só dizem que **"é
+  provável"** que o Noritoshi saiba, por ser das Três Famílias. **[I]**
+- Fãs perguntam se a Pétala tem **voto de segredo** como o Domínio Simples (あにまんch 20929277,
+  posts 45–48); a resposta mais aceita é "os Três não ensinam por arrogância, e talvez o segredo
+  seja um voto que aumenta a saída". **[I]**, sem painel.
+- **Por que ela falha contra efeito "de informação":** o introduction1 liga a Pétala à opção "receber
+  com energia amaldiçoada" (`呪力で受ける`) que o Gojo lista no cap. 15 e à fala do Kashimo no vol. 21,
+  de que **propriedade de energia e efeito de técnica são difíceis de bloquear com energia**
+  (`呪力特性や術式の効果は呪力でガードしにくい`). **[I]** com duas pontas **[C]** (cap. 15; cap. do
+  vol. 21 sem número exato no blog).
+
