@@ -1,6 +1,5 @@
 # N — Verificação cega do `H-resumo-das-quatro.md`
 
-STATUS: EM ANDAMENTO
 
 Verificador: agente N, 24/09/2026. Cada afirmação do `H` conferida contra a **fonte** (transcrição,
 resumo japonês, wiki com histórico, ficha oficial, página escaneada), não contra os arquivos `A` a `M`,
@@ -1367,3 +1366,73 @@ dita diferente? · (3) terceira fonte · (4) o que me faria errado · veredito.
 | N-113 | "**Anula** a técnica que você tinha em curso — a Espada **sumiu** (246)…" | "**suspende ou anula**: o padrão é anular (o Sukuna diz que evitou isso, 247); **os dois casos em cena são pausas** — a roda escurece (231) e a Espada apaga e volta (246-247)" | eiga-manga/neet-life 231, 246, 247 |
 | N-118 | "o Kashimo **amarrando** a troca Extensão↔técnica à eficiência de energia (225)" | "o Kashimo elogia a **rapidez** da troca e, à parte, diz que sem os Seis Olhos do Gojo o Sukuna ganharia **também** em eficiência — nada liga a Extensão a gasto" | neet-life 225 |
 
+## Divergências para o Mizuki decidir
+
+**Nenhuma afirmação terminou em DIVERGE — NÃO FECHOU.** O que fica para ele não é empate entre fontes, é falta de
+fonte acessível:
+
+1. **Vol. 28, cap. 246 p. 3 (N-062):** o `H` marca como [C] que o volume trocou 薄める por 弱める (e pôs 最低限). A única
+   leitura disso (`L`) foi feita **remontando as páginas embaralhadas do leitor oficial da Shueisha** — o tipo de acesso
+   que esta verificação não repete. **Quem tiver o volume 28 impresso ou no Kindle confere o balão do Sukuna.** Até lá: a
+   revista tinha 薄める (via fãs + nota do autor no 248); o volume, não conferido.
+2. **Os 10 s da Yuki (N-023/N-040):** a obra diz que o Simples foi arrancado inteiro **enquanto o Tengen ainda
+   trabalhava**; não diz se foi antes ou depois dos 10 s do plano. Os resumos japoneses discordam na especulação.
+3. **O buff do domínio (N-013):** nenhuma cena mostra anti-domínio tirando ou não tirando o buff do dono do domínio.
+4. **O Pixiv 百科 (N-050):** 403 direto e Wayback cortado pelo proxy; o que o `J` citou dele não foi reverificado.
+5. **A página "p. 12-13" do 251 e a "p. 1" do 187:** não tenho as páginas; o conteúdo bate por texto.
+
+## As páginas
+
+Minha leitura (bloco 1) foi feita antes de abrir o `M`. **Onde bateu:** 108 (faixa branca antes do soco, ausente no ar;
+nenhuma fala de queda; a vista tapada depois do soco); 171 p. 4, p. 5 de baixo, p. 6, p. 7 e p. 8-11; 249 p. 16 sem
+esfera, p. 17 com "mouths" no plural, nenhum balão da barriga; 258 p. 16 (círculo rachado lido antes do Yuji cortado);
+266 p. 4 (par de baixo no selo, par de cima livre), p. 6 (narração), p. 16 (esfera quebrada no alto); 267 p. 14-18
+(acerto entra, nenhuma mão no selo no "DISMANTLE", esfera não desenhada).
+
+**Onde diferiu:**
+- **266 p. 17 — a diferença que importa.** O `M` descreve "fragmentos retangulares voando em volta do punho do Yuji" e
+  diz que "o contexto indica" que são da trama. **Três resumos japoneses dizem que são a proteção do braço do Yuji**,
+  cortada pelo Sukuna com a técnica já resetada (o próprio Yuji, no mesmo quadro: "a técnica do Sukuna voltou?!"), e a
+  p. 18 mostra a mão dele descoberta e sem dois dedos. O `M` não cravou; o `H` promoveu. → N-070.
+- **266 p. 18:** a mão de unhas pretas é a **mão esquerda do Yuji sem o anelar e o mindinho** (eu tinha descrito sem dono;
+  o `M` não comenta).
+- **266 p. 5:** o `M` registra a narração do reset; eu acrescento o peso dela: o reset foi julgado **arriscado demais** e
+  feito assim mesmo — o que pesa no N-066.
+- **249 p. 15:** o `M` ficou em dúvida sobre o par de baixo; no recorte ampliado **as mãos de baixo estão juntas** — na
+  ativação os **quatro** braços estão com as mãos unidas. Na p. 16, o par de baixo segue junto na barriga (o `M`: "parecem
+  unidos, não tenho certeza" — concordo com cautela).
+- **249 p. 17:** a legenda inclui *"as a means of countering the can't-miss attack (probably the Angel's cursed
+  technique)"* — a Cesta está sendo mantida **contra o acerto do domínio do Yuta**, e o "Anjo" é palpite do Sukuna (o `M`
+  cita a frase; o `H` não usa o "probably").
+- **171 p. 5 de cima:** eu li "mão meio aberta"; ampliando mais, **não dá para cravar** — o `M` leu "mãos juntas". Fica sem
+  afirmação. A p. 5 **de baixo** (a que o `H` usa) bate.
+- **171 p. 6 (achado meu):** a tradução de fã diz *"used the 'Domain Amplification' in a sure-hit domain"* — **erro de
+  tradução**; o japonês é "um domínio com capacidade para carregar técnica de acerto garantido, deixado vazio" (yuran 171).
+- **108 img. 1 e 5:** eu errei — quem grita "NANAMI!" e salta é a **Maki**, não o Megumi (o `M` acertou). Na img. 2 do meio,
+  o `M` fala em "olhos do Dagon"; eu vejo uma armação de óculos junto do olho (o Naobito usa óculos). Nenhum dos dois cravou.
+- **258 p. 16:** a leitura bate, mas **a atribuição do `M` ("que seja o Simples vem do texto do capítulo") não bate**: o texto
+  é um resumo com "talvez" (eiga-manga), citado sem o 「か」. → N-080.
+
+## Notas de correção do próprio N (sobre o que eu escrevi acima)
+
+- **N-118 — retiro a correção.** Fui atrás do advogado depois de escrever (eiga-manga 225): o trecho do Kashimo é resposta
+  a uma pergunta **sobre eficiência de energia** — antes, ele explica que o Gojo não fica sem energia por causa da eficiência
+  dos Seis Olhos; perguntado "e o Sukuna?", responde "é divino: a rapidez até ativar a técnica, a rapidez da troca
+  Extensão↔técnica; sem os Seis Olhos do Gojo, o Sukuna ganharia **também** na eficiência" (eiga-manga 225: 「宿儺の呪力効率は
+  神懸かっている様子」). A troca **é** citada como parte da eficiência. **O `H` está certo: N-118 = CONFIRMA**, e a linha
+  N-118 **sai** da tabela de correções. **Números corrigidos do resumo: CONFIRMA 85 · CORRIGE 26** (o resto igual).
+- **N-084 — ressalva na minha proposta:** a wiki cita o 269 p. 13 para "a Yuki aprendeu observando"; eu não achei isso em três
+  resumos do 269, mas **não provei que não está lá**. Na frase proposta, "a Yuki imitou" pode ficar como **[C] via wiki, não
+  conferido em japonês**, ao lado do "ensinou o Todo".
+- **Bloco 2, N-070:** no meio da citação do neet-life saiu um lixo de digitação ("御厨子で虎杖の腕を attack…"); a citação certa é
+  a que vem logo depois entre parênteses (「御厨子で虎杖の腕を攻撃、魔物の腕がばらけ落ちる」).
+- **Bloco 3:** o item "N-069 / N-025" é **só o N-069** (a linha "Cobra METADE das mãos" e a p. 4 do 266). O N-025 é o da
+  Pétala ("no passado"), conferido no bloco 6.
+- **Bloco 5, N-076:** a data da ficha do Simples é **08/05/2024** (a frase saiu embaralhada). **Bloco 5, N-088:** "o秤
+  pergunta" = "o **Hakari** pergunta".
+- **Bloco 7, N-060:** a ficha da Extensão é de **03/04/2024** (escrevi 05/04).
+- **Bloco 8, N-008, item 1:** a frase sobre o Simples ficou truncada. O certo: o **171** diz que Cesta e Simples 「術式の付与された
+  結界を中和することで…必中効果を無効化」; a **ficha do Simples** só diz "domínio dos fracos" (sem verbo de efeito); a da
+  Cesta diz 「領域を中和し、必中効果を打ち消す」.
+
+STATUS: COMPLETO
