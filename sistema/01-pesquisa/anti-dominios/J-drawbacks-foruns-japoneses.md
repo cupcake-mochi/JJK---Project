@@ -1,6 +1,5 @@
 # J — Drawbacks e queda dos anti-domínios nos fóruns japoneses (agente 2)
 
-STATUS: EM ANDAMENTO
 
 Recorte: o que a comunidade japonesa (Yahoo!知恵袋, あにまん掲示板/あにまんch, resumos de 5ch/なんJ,
 note.com, blogs de 考察, trechos do X em buscador) aponta como **弱点 / デメリット / 欠点** de cada uma
@@ -504,7 +503,7 @@ que achei em que alguém derruba uma anti-domínio **segurando fisicamente o don
 da barriga** — a mesma boca "selada pela metade" no 249 — para impedir encantamento. **[C]** para o
 gesto; **[I]** para "a boca da barriga era a que encantava a Cesta".
 
-**Como o Japão reagiu** (reação ao 251, 26/02/2024):
+**Como o Japão reagiu** (reação ao 251: ねいろ速報 de 19/02/2024 e あにまんch aberta em 18/02/2024):
 - ねいろ速報 36139701, post 1387: `上の口だけで次元斬できるなら彌虚葛籠しながらできたろ` *"se dá pra fazer o
   Corte do Mundo só com a boca de cima, dava pra fazer segurando a Cesta"*; post 1438: `印を複数組めるし呪詞を複数唱えられるから口や腕が複数あるのが強いって説明なのに同時併用出来ないってどういうことだ…？`
   *"a explicação era que ter várias bocas e braços é forte porque dá pra fazer vários selos e
@@ -516,3 +515,135 @@ gesto; **[I]** para "a boca da barriga era a que encantava a Cesta".
 - あにまんch 20946984, post 2485: `結界術であるイヤコツヅラもミズシも消滅させません？` *"o Jacó não
   devia apagar a Cesta e o Santuário, que são técnica de barreira?"* — sem resposta. **[I]**
 
+
+---
+
+## 5 · Nas quatro: a obra dá limite de tempo, ou elas só caem por fora?
+
+**Nenhuma das quatro tem cronômetro na obra.** Todas caem **por fora** (pressão, golpe, largada) ou
+por **erosão da saída do dono**. O único número de tempo em fonte canônica é indireto:
+
+| técnica | o que a obra dá sobre tempo | o que os fóruns dizem | marca |
+|---|---|---|---|
+| **Cesta Oca** | nenhum número. O Sukuna a mantém do cap. 249 ao 251 (domínio do Yuta) e o 266 inteiro (domínio do Yuji). A regra dita é "**uma hora** perde e é arrancada" (`いつかは必ず押し負けて剥がされる`) — sem prazo | 知恵袋 q11302612801 (9 votos): "no fim todas só aguentam, uma hora são arrancadas" | **[C]** 266 / **[I]** |
+| **Domínio Simples** | cap. 206: o plano do Tengen **precisava de 10 s** de Domínio Simples e a Yuki **não chegou**; cap. 226: arrancado "logo" (`すぐに`), duas vezes | ねいろ速報 34432643 post 67: "compra uns 10 segundos, é o limite" | **[C]** 206, 226 / **[I]** |
+| **Pétala** | nenhum número em fonte japonesa (o "mais de 1 minuto" do `A` não apareceu nos resumos japoneses). No 227 ela dura **o tempo de o Gojo curar o cérebro** | ねいろ速報 34596415 post 4: "com muita energia e técnica reversa, **segura no limite uma expansão**" | **[C]** 227 / **[I]** |
+| **Extensão** | nenhum número. O Sukuna liga e desliga à vontade por capítulos (224–233) | "descasca quando apanha em sequência" (あにまんch 21144260; pixiv) | **[C]** / **[I]** |
+
+**A leitura que o Japão faz, em uma linha:** o anti-domínio é **tempo comprado com saída**; o
+relógio é a diferença entre a saída de quem ataca e a de quem segura, e **bater no dono encurta o
+relógio** (250–251, 266). Isso é **[I]**, mas as três pontas (`出力が弱い` 266, `呪力出力は下がり` 250,
+`中和しきれん` 232) são **[C]**.
+
+---
+
+## 6 · Onde procurei e não achei (para a próxima rodada)
+
+- **Custo de energia de qualquer uma das quatro:** **[NÃO ACHEI]** em canon. Só achismo de fã
+  ("gasta menos que expandir", "não queima a técnica"), com `〜そう` explícito.
+- **Cesta — tamanho e como se aprende:** **[NÃO ACHEI]**.
+- **Cesta — painel do instante exato da queda no 266/267:** **[NÃO ACHEI]**; só a sequência.
+- **Extensão + técnica reversa:** **[NÃO ACHEI]** discussão japonesa.
+- **Extensão — o painel do "vai enfraquecendo e se desfaz" (pixiv / あにまんch post 27):** **[NÃO ACHEI]**
+  nos resumos dos caps. 223–261.
+- **Extensão — "não para Boogie Woogie / Jacó porque agem na energia":** **[NÃO ACHEI]** painel.
+- **Domínio Simples derrubado por golpe no dono:** **[NÃO ACHEI]** caso nem post japonês.
+- **Texto do volume 28 × revista no `薄める` do 246:** **[NÃO ACHEI]** comparação japonesa.
+- **Pétala — Kamo usando, e o "mais de um minuto":** **[NÃO ACHEI]** em japonês.
+- **Bloqueados nesta sessão:** Pixiv 百科事典 (403 direto; li pelo Wayback), アニヲタWiki/atwiki
+  (403, e o Wayback não tinha cópia), 超マンガ速報 (403, era a matéria "巻末コメントで大荒れ" que
+  talvez seja sobre a nota do Gege — não consegui confirmar o assunto), X direto (402; li os posts
+  oficiais pela API de embed).
+
+---
+
+## 7 · Fontes (todas acessadas em 24/09/2026)
+
+**Oficial**
+- X oficial @jujutsu_PR, `じゅじゅずかん`: Cesta (05/06/2024) https://x.com/jujutsu_PR/status/1798187994551304275 ;
+  Extensão (03/04/2024) https://x.com/jujutsu_PR/status/1775357555197595846
+
+**Resumos de capítulo japoneses (reconstituem o texto da obra; nenhum é digitalização)**
+- eiga-manga: https://eiga-manga.com/entry/jujutsu187 , …/jujutsu206 , …/jujutsu225 , …/jujutsu226 ,
+  …/jujutsu227 , …/jujutsu232 , …/jujutsu235 , …/jujutsu246 , …/jujutsu247 , …/jujutsu249 ,
+  …/jujutsu250 , …/jujutsu251 , …/jujutsu254 , …/jujutsu266 , …/jujutsu267
+- manga-games: https://manga-games.com/jujutsukaisen-jump-187/ , …-206/ , …-226/ , …-227/ , …-232/ ,
+  …-246/ , …-249/ , …-251/ , …-254/ , …-266/ , …-267/
+- neet-life-blog: https://neet-life-blog.com/zyuzyutukaisenn232/ , …249/ , …250/ , …251/ , …266/
+- anigenavi: https://anigenavi.com/jujutsukaisen-266-news/ , https://anigenavi.com/jujutsukaisen-267-news/
+- entame-life: https://entame-life.com/jujutsu108/ , https://entame-life.com/jujutsu109/ ,
+  https://entame-life.com/jujutsu250/ , https://entame-life.com/jujutsu-chara-zennin-naobito/
+- jumpnuma (108): https://jumpnuma.com/呪術廻戦-108-渋谷事変26-ネタバレ＆考察-85
+
+**Fóruns**
+- Yahoo!知恵袋: q11302612801 (Cesta × Domínio Simples; 28/15/9 votos), q13301765173, q14286061739,
+  q12266657542, q12317982682, q11257966561 (37 votos), q12285016442 (BA 66 votos), q11259905841 (17),
+  q12278986117, q12305577877, q10242132000 (BA 331 votos), q13275958763, q13284808778 —
+  todos em https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/<id>
+- あにまんch: 20944892 (reação ao 250), 20946984 (251), 20996788 (267), 20929277 (Pétala × Domínio
+  Simples), 20935899 (Extensão, dez/2023), 21144260 (Extensão, jan/2026) — https://animanch.com/archives/<id>.html
+- ねいろ速報: 36047788 (249), 36139701 (251), 36461404 (254), 34432643 (Extensão), 34596415 (Pétala),
+  34748685 (Domínio Simples) — http://animesoku.com/archives/<id>.html
+
+**Blogs e enciclopédias de fã**
+- Pixiv 百科事典 `生前宿儺` (via Wayback): https://dic.pixiv.net/a/生前宿儺
+- zen-seer: https://zen-seer.com/?p=11978 · amedot: https://amedot.hatenablog.com/entry/2023/06/28/234750 ·
+  ciatr: https://ciatr.jp/topics/324572 · 超漫画辞典: https://comicjiten.com/rattsukanojyou/ ,
+  https://comicjiten.com/iyakotsuzura/ · likiroku: http://likiroku.com/jujutsu-rakka-no-jo/ ·
+  poporo3 (Pétala) · Anitage+: https://anitage.jp/curse-simple-area/ ·
+  introduction1: https://introduction1.com/2022/11/22/naobito/ ·
+  twicomi (imgurの人): https://twicomi.com/manga/chageimgur/1783074033178951727
+
+---
+
+## O que isso responde
+
+### Cesta Oca de Vime — 彌虚葛籠
+
+| drawback | como cai |
+|---|---|
+| **Saída fraca: só compra tempo** contra domínio de verdade. **[C]** cap. 266 | **(1) pressão:** `いつかは必ず押し負けて剥がされる`, "uma hora perde o empurra-empurra e é arrancada". **[C]** cap. 266 |
+| **Para aguentar domínio forte, precisa MANTER o selo** (e, na leitura japonesa, **encantar com uma boca**) — metade dos braços e da boca do Sukuna. **[C]** caps. 249, 266; a boca como encantamento é **[I]** (ねいろ速報 249, あにまんch 250, pixiv) | **(2) ataque ao usuário, pela saída:** cada soco de alma do Yuji **baixa a saída e o controle** do Sukuna; o plano é "desgastar até ele não conseguir manter". **[C]** cap. 250 |
+| **Manter é escolha do usuário, não da técnica:** `発動後も` ("mesmo depois de ativar"); o Reggie não mantinha. **[C]** cap. 266 + **[I]** 知恵袋 q11302612801 (15 votos) | **(2) ataque ao usuário:** no 266 os socos **racham** a Cesta (`一部割れる`) e ela **está se desfazendo** (`解ける!!`); no 267 **o acerto garantido já entra**. **[C]** caps. 266–267 |
+| **Com ela de pé, não sai o Corte do Mundo** (que pede selo + encantamento); `解` e `捌` comuns saem. **[C]** caps. 250–251 | **(4) largada forçada:** o Sukuna solta para disparar o Corte do Mundo; **o Yuji e a Rika seguram os braços** e ele não consegue refazer o selo; toma o Jacó do Anjo. **[C]** cap. 251 |
+| **Inútil contra domínio incompleto ou de acerto inofensivo.** **[C]** caps. 171, 187 | **(6) nunca existiu:** o Kashimo **não ativou** — o domínio do Hakari foi "mais rápido que ele desistir de ativar". **[C]** cap. 187 |
+| Custo de energia, tamanho, aprendizado: **[NÃO ACHEI]** | Tempo: **sem cronômetro**; segurou capítulos inteiros (249–251, 266). **[C]** |
+
+### Domínio Simples — 簡易領域
+
+| drawback | como cai |
+|---|---|
+| **Saída fraca: só compra tempo.** **[C]** caps. 206 (Yuki), 226 (Choso), 266 | **(1) pressão:** `みるみる剥がされ` e o Kenjaku arranca tudo apontando o dedo; **menos de 10 s**. **[C]** cap. 206 |
+| **A qualidade varia por usuário** (o do Kenjaku "não se compara"). **[C]** cap. 206 | **(1) pressão:** o do Gojo é arrancado "logo", duas vezes. **[C]** cap. 226 |
+| **Não é barreira física e não anula a técnica** — o golpe mirado passa. **[C]** cap. 171 + **[I]** 知恵袋 q11257966561 (37 votos) | **(5) voto:** forçar a Miwa a tirar os pés do lugar desfaz o dela. **[I]** zen-seer, sem cena |
+| **O "enfraquece a técnica" do 246 vem de ser domínio, não de neutralizar.** **[F]** nota do Gege (Jump 2024 nº 8) + **[C]** cap. 254 | **(4) largada:** abrir a própria Expansão desfaz o Domínio Simples. **[I]** zen-seer, sem painel |
+| **Junto com técnica reversa: dá, e pesa** (`あー しんど`). **[C]** cap. 226 | **(2) golpe no dono:** **[NÃO ACHEI]** no Japão; o Kusakabe (254) cai cortado, mas a obra não mostra o círculo desfazendo — **incerto** |
+| **Não queima a técnica** (`術式を温存できる`); custo em energia **[NÃO ACHEI]**. **[C]** cap. 206 | Tempo: o único número é o **plano de 10 s** do 206, que ela não cumpriu. **[C]** · fóruns: "uns 10 s é o limite". **[I]** |
+
+### Pétala — 落花の情
+
+| drawback | como cai |
+|---|---|
+| **Brecha enquanto responde** — o dono fica exposto. **[C]** cena do 108 + **[I]** likiroku, 超漫画辞典 | **(2) ataque ao usuário:** o Dagon **soca o Naobito**, ela se desfaz e **o enxame entra todo de uma vez**. **[C]** cap. 108 (o `解除` é do resumo, **[I]**) |
+| **Visão tapada pelo volume.** **[C]** cap. 108 | **O braço é o preço de ficar sem ela, não dela falhar:** perdido pelo acerto garantido do enxame depois do soco. **[C]** caps. 108–109 |
+| **Inútil contra efeito complexo** (Infinite Void etc.). **[C]** cap. 227, fala do Kusakabe | **(4) largada:** o Gojo a usa para comprar tempo, cura o cérebro com técnica reversa **junto** e volta para o domínio. **[C]** cap. 227 |
+| **Não se opõe à saída do domínio — "não sai ileso".** **[C]** cap. 227, Choso | **Não é arrancada por pressão** como o Domínio Simples. **[C]** cap. 227 |
+| **Fraca contra volume, força bruta e ataque contínuo.** **[I]** amedot, ciatr | Tempo: **[NÃO ACHEI]** número em japonês; "no limite, segura uma expansão". **[I]** ねいろ速報 |
+| **Precisa de energia** (Maki, Toji, Miwa fora). **[I]** | — |
+| **"Exige concentração": não existe no Japão.** **[NÃO ACHEI]** · "bloqueia a técnica inata": **[I] fraco** (poporo3 admite que é suposição) | — |
+| **Como se aprende:** ensinada **na infância**, na família. **[C]** cap. 227 (Gojo) · Kamo: **[NÃO ACHEI]** | — |
+
+### Extensão de Domínio — 領域展延
+
+| drawback | como cai |
+|---|---|
+| **A técnica inata desliga** — "nem o Sukuna é exceção" (Anjo). **[C]** caps. 84–85, 225 | **(4) largada:** o Hanami solta para usar a própria técnica, isca do Gojo, e morre. **[C]** cap. 85 · 知恵袋 q10242132000, **ベストアンサー de 331 votos** |
+| **Teto de SAÍDA: técnica reforçada passa** (Azul e Vermelho reforçados). **[C]** cap. 232 — *fecha o buraco "técnica mais densa passa"* | **(1)/(2) saturação:** Ilimitado reforçado esmaga o Hanami (85); o Vermelho entra com dano reduzido (232). **[C]** |
+| **O que você criou some — a menos que você SUSPENDA em vez de anular** (`中断`, não `無効`). **[C]** cap. 247 | **(3) esgotamento do dono:** ferido demais, o Sukuna **nem luta mais de mão nua com ela**. **[C]** cap. 235 |
+| **Não segura `捌`, `解` à queima-roupa nem o Corte do Mundo — "morte certa".** **[C]** cap. 246, Kusakabe | **Erosão: "vai descascando quando falha em neutralizar".** **[I]** あにまんch 21144260, pixiv — **[NÃO ACHEI]** painel |
+| **Custo de energia: [NÃO ACHEI]**; fãs acham "menos que expandir, não queima a técnica". **[I]** | **Esgotamento por fila infinita** (shikigami do Dhruv). **[I]** 1 post |
+| **Junto com técnica reversa: [NÃO ACHEI]** | Tempo: **sem cronômetro**; "dura pouco" é **[I] isolado** (manga-tantei); a obra mostra uso longo e liga/desliga. **[C]** caps. 224–233 |
+| "Não para técnica que age sobre a energia" (Boogie Woogie, Jacó). **[I]** — **[NÃO ACHEI]** painel | — |
+
+
+STATUS: COMPLETO
