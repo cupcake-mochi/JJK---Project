@@ -1,6 +1,5 @@
 # K — Drawbacks e queda dos anti-domínios nos fóruns ocidentais (agente 3)
 
-STATUS: EM ANDAMENTO
 
 Recorte: o que a comunidade de língua inglesa (Reddit, Fandom, VS Battles, sites de notícia) diz sobre **drawbacks, weaknesses, how it breaks, how long it lasts** das quatro técnicas — Cesta Oca de Vime (彌虚葛籠, Hollow Wicker Basket), Domínio Simples (簡易領域, Simple Domain), Pétala (落花の情, Falling Blossom Emotion) e Extensão de Domínio (領域展延, Domain Amplification). Não repete o debate já coberto no `D`; foca em custo e queda.
 
@@ -320,3 +319,72 @@ A briga ocidental é **se foi isso mesmo**:
 - **"Low energy consumption" (Cesta)** — GameRant, 12/11/2024, **sem fonte**. **"Significant amount of cursed energy" (Pétala)** — DualShockers, 13/10/2023, **sem fonte**. **Fonte fraca, as duas.**
 - **Consenso de fato, com score:** as quatro **caem por fora** — pressão do domínio, golpe no dono ou largada. A frase que resume, e que é **narração da obra** (cap. 266) repetida pelo ocidente: *"can only buy time before being inevitably overpowered."* **[C] via wiki** (página `Chapter_266`). **u/BodybuilderThis7045 [+20]**: *"it's still a temporary measure for most — it'll break down eventually even under ideal conditions."* **[I]**.
 - **[NÃO ACHEI]** em inglês nenhuma fonte (wiki, VSB, Reddit, notícia) que dê **cronômetro próprio** a qualquer das quatro.
+
+---
+
+## 6 · Correções e alertas para os outros arquivos (achados desta rodada)
+
+1. **`H`, Pétala — "o Naobito segurou mais de um minuto" [C] cap. 108:** na Fandom, a fala do Dagon sobre **"about a minute"** é sobre o **Nanami** (páginas `Chapter_109` e `Jujutsu_Sorcerers_vs._Dagon`); só a página `Naobito_Zenin` põe o minuto no Naobito. O Naobito sobreviveu **ao mesmo enxame "também"**. E o capítulo é o **109**, não o 108. ⚠ Conferir no japonês.
+2. **`D` §6, Domínio Simples "não degrada, quebra de uma vez":** os fios com painel dizem que ele **racha antes** de romper (206: *"slowly getting destroyed"* [+189]; 258: *"cracking and fracturing before he gets hit"* [+258]). O que continua de pé: **não passa acerto enquanto não rompe.**
+3. **`D` §7.1 e `H`, Cesta "reforçável gastando mais mãos":** o ocidente, depois do 266, leu o selo como **reforço opcional depois de ativar** [+20/+16/+14], não como "mais mãos = mais defesa". Bate com a correção que o `H` já fez.
+4. **`B`, homebrew da Cesta "continuously chant":** a origem é a frase *"chant the incantations"* da página `Chapter_249` da Fandom, **sem painel**. A leitura com base de texto é outra (1.4/1.8).
+5. **`D` §8.2, "Viz é pior que TCB":** no cap. 85 a disputa de tradução ("fortalecer a técnica" × "reforçar o corpo") foi **checada por dois leitores de japonês** no r/Jujutsushi e fechou em **"fortalecer a técnica"** [+28/+54].
+6. **Citação de Fanbook que não conferi:** *"When Domain Amplification is deployed, it's possible to negate a Domain's Sure-Hit effect"* (u/Natsu_Happy_END02 [+16], r/Jujutsushi `1f0aghm`) é **fã citando o Fanbook**, sem página. A wiki cita o Fanbook p. 143 para **outra** coisa (ataque com Extensão sempre acerta). **Tratar como [I] até alguém abrir o Fanbook.**
+
+---
+
+## O que isso responde
+
+Legenda de queda: (1) pressão do domínio · (2) ataque ao usuário · (3) esgotamento · (4) largada · (5) condição ou voto · (6) o domínio acabou antes.
+"via wiki" = resumo inglês da Fandom apontando o capítulo; o score entre colchetes é do Reddit (Arctic Shift).
+
+### Cesta Oca de Vime (彌虚葛籠)
+
+| drawback | como cai |
+|---|---|
+| Ocupa **metade das mãos** para manter; o selo **depois de ativar é reforço, não interruptor** — **[C]** cap. 266 (`発動後も`) + **[I]** leitura ocidental [+20/+16/+14], r/Jujutsushi `1esjflu` | **(2) ataque ao usuário** no 266: os socos de alma **baixam a saída do dono** e ela **racha** (*"Indirectly"* [+8]; rachadura no canto [+4]); o último instante — quebrou ou ele soltou para o selo do domínio — **o ocidente também não fechou** ([+36] "destroy" × [+7] "undid the handsign") — **[I]**, caps. 266–267 |
+| **Tira a boca de canto**: a Cesta ocupa "metade dos braços e da boca" e, com o voto do cap. 255 (Desmantelar que corta o mundo passa a exigir encantamento), **bloqueia o golpe grande** — **[C] via wiki** caps. 249 e 255 + **[I]** costura | **(4) largada forçada por (2)** no 251: solta para o Desmantelar que corta o mundo — **[I]** (ver `D` §7.1) |
+| **Saída fraca**: só compra tempo — **[C] via wiki**, cap. 266 | fica de pé **um tempo** sem o selo (Reggie, cap. 171, painel apontado por três usuários [+21/+20/+20]) — **[I]** |
+| "Exige cantar" — **[I] sem painel** (página `Chapter_249` da Fandom; u/darklordoft [+34]) | "Cai se baixar as mãos para bloquear" — **[ERRO]**, Aniviewer 07/01/2026 |
+| Custo de energia — **[NÃO ACHEI]** ("low energy consumption", GameRant 12/11/2024, **sem fonte**) | **Nunca subiu** no 187: *"faster than he could give up on activating"* — **[C] via tradução** (`Talk:Hajime_Kashimo`); "Kashimo foi lento" [+110] é **[ERRO]** |
+
+### Domínio Simples (簡易領域)
+
+| drawback | como cai |
+|---|---|
+| **Arrancável por domínio mais forte, com desgaste visível** — **[C] via wiki** caps. 206, 226, 258 + **[I]** [+189/+258] | **(1) pressão do domínio** em toda cena dentro de domínio: 206 (Yuki, "few short seconds"), 226 (Gojo, duas vezes), 258 (Yuji, "almost 99 seconds") — **[C] via wiki** |
+| **Tempo de ativação** — pode perder a corrida — **[C] via wiki** cap. 130 | 130: **nunca protegeu** (Mahito abriu antes) — **[C] via wiki** |
+| "Não pode se mover" é **voto da iniciante**, e o painel do 206 mostra a Yuki correndo com ele de pé — **[I]** [+189/+230/+136], confirmado pelo cap. 254 | **(2) ataque ao usuário: NÃO, dentro de domínio.** A única proposta (Yuji, 258, `1clnn0o`, score 0) foi derrubada pelo painel da rachadura antes do golpe [+258] — **[I]** |
+| Contradição da nota do 248: **o cap. 254 volta a dizer "enfraquece levemente"** as técnicas dentro do raio, seis capítulos depois da nota — **[C] via wiki** cap. 254; leitura "o Gege recuou a palavra, não o efeito" [+95] — **[I]** | **Fora de domínio, (2) sim, mas é o programa de contra-ataque que cai:** Miwa × Maki, isca arremessada + desarme (cap. 40) [+25]; Kusakabe × Sukuna, a espada do *Evening Moon* quebra (cap. 254) — **[C] via wiki / [I]** |
+| Custo de energia — **[NÃO ACHEI]**; o 254 mostra o inverso (**aumenta** a saída do dono) — **[C] via wiki** | **(6)** Ui Ui (102) e Ino/Choso/Miwa (258) — o domínio acabou antes — **[C] via wiki / [I]** |
+| Mudança no volume encadernado do cap. 246 — **[NÃO ACHEI]** registro ocidental | Dá para **erguer de novo** logo depois de arrancado (Gojo, 226) — **[C] via wiki** |
+
+### Pétala (落花の情)
+
+| drawback | como cai |
+|---|---|
+| **Saída menor que a de um domínio: atenua, não iguala** — **[C] via wiki** cap. 227 (fala do Choso) + **[I]** VS Battles (perfil do Gojo) | **(4) largada** no 227: comprou tempo e o Gojo reabriu o domínio — **[C] via wiki** |
+| "Exige concentração" — **DERRUBADO**: origem é o Fiction Horizon (Arthur S. Poe, **27/10/2023**, *"Of course, the technique requires concentration"*), copiado por TikTok em 29/10/2023; **nenhum painel** — **[I] fonte fraca** | **(6)** no 109: o enxame parou quando o domínio do Megumi entrou; ela **nunca caiu em cena** — **[C] via wiki** |
+| Custou **um braço** ao Naobito — **[C] via wiki** cap. 109 | O braço veio de **(2) + saturação**: o soco com a visão tapada o jogou para o alto e o enxame continuou (cap. 108) — **[C] via wiki / [I]** |
+| "Mais de um minuto" — ⚠ na wiki a frase é sobre o **Nanami**; o Naobito sobreviveu "também" — **[C] via wiki, conferir** | O soco do 108 entrou **por fora dela** (visão), não a derrubou — **[C] via wiki**; "não para físico" é **[ERRO]** ainda publicado (GameRant 12/11/2024) |
+| Acesso: **se aprende criança, no clã** (Gojo, cap. 227); **ninguém fora das famílias conhece** (só o Kusakabe reconhece) — **[C] via wiki**; **nenhum Kamo** — **[NÃO ACHEI]** | Custo de energia — **[NÃO ACHEI]** ("significant amount", DualShockers 13/10/2023, **sem fonte**) |
+
+### Extensão de Domínio (領域展延)
+
+| drawback | como cai |
+|---|---|
+| **Desliga a técnica inata**, e isso decide escolha (o Sukuna preferiu a Cesta no 266 porque *"needs his CT immediately"* [+8]) — **[C]** + **[I]** | **(4) largada** em todas as cenas com dono vivo: Hanami (85), Sukuna (227–232, para o Mahoraga adaptar), Higuruma (247, para a Espada) — **[C] via wiki** |
+| **Técnica de saída alta passa em parte**: o Sukuna diz que ela neutraliza por inteiro o Infinito neutro (saída baixa) e **não** o Azul/Vermelho — **[C] via tradução inglesa do cap. 232** [+13] | **(1)-análogo + (3)**: no 85 o Gojo **fortalece o Infinito** e a Extensão do Hanami **ferido** não segura — **[C] via wiki**; tradução checada [+28/+54] |
+| **Escala com a saída do dono**: golpe que baixa a saída enfraquece a Extensão (espiral) — **[I]** [+7/+2], r/Jujutsushi `1f0aghm` | Ataque que ela não para: **Desmantelar que corta o mundo, Clivar, Desmantelar à queima-roupa** (Kusakabe, cap. 246) — **[C] via wiki**; Escada de Jacó e Boogie Woogie (`D` §8.2) — **[I]** |
+| **Trava a adaptação do Mahoraga** (custo de oportunidade do próprio dono) — **[C] via wiki** cap. 231 + **[I]** [+12] | "Desgasta com dano contínuo" — **[OPINIÃO]** sem cena (`D`) |
+| Custo de energia — **[NÃO ACHEI]** ("likely very costly" [+26], chute) · Duração — **[NÃO ACHEI]**; o Sukuna liga e desliga à vontade (cap. 225) · Com a reversa ao mesmo tempo — **[NÃO ACHEI]** | Contra acerto garantido de domínio: o ocidente **briga** ("DA won't stop surehit" [+306] × Fanbook citado por fã [+16]) — **[I]**, sem painel decisivo |
+
+### Nas quatro
+
+| pergunta | resposta ocidental |
+|---|---|
+| A obra dá limite de **tempo**? | **Não.** Nenhuma fonte inglesa dá cronômetro próprio; "alguns minutos" (GameRant) é **[ERRO]**; os 99 s são do **domínio** do Sukuna. **[NÃO ACHEI]** |
+| Como elas caem? | **Por fora**: pressão do domínio (Domínio Simples), golpe que baixa a saída do dono (Cesta, Extensão), largada para agir (Extensão, Pétala, Cesta no 251). A narração do 266, *"can only buy time before being inevitably overpowered"*, é a frase que o ocidente repete. **[C] via wiki** |
+| Custo de energia de qualquer uma? | **[NÃO ACHEI]** em nenhuma das quatro — wiki, VS Battles, Reddit, Fandom Discussões e sites de notícia; o que existe é afirmação sem fonte em site de notícia (GameRant, DualShockers) |
+
+STATUS: COMPLETO
