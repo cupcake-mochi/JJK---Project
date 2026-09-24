@@ -1013,3 +1013,123 @@ Nenhuma cena põe a Pétala contra um acerto garantido corporal; o `H` deduz da 
 garantido, não ser "técnica de energia"). A dedução é boa, mas **é [I]**, e a linha não tem marca. **CONFIRMA** como
 leitura; proposta: acrescentar *"[I] — pela definição (108, ficha); nenhuma cena testa"*.
 
+---
+
+## Bloco 7 — Extensão de Domínio (84, 85, 88, 171, 224-232, 246-247, Fanbook)
+
+Fontes: yuran 84, 85, 88, 171 (transcrições); neet-life 224, 225, 226, 228, 231, 232, 246, 247
+(https://neet-life-blog.com/zyuzyutukaisenn<N>/); eiga-manga 226, 228, 231, 232, 246, 247
+(https://eiga-manga.com/entry/jujutsu<N>); Fanbook p. 143 citada por eiga-manga
+https://eiga-manga.com/entry/jujutsu-ryoikitenkai ("引用元：『呪術廻戦』公式ファンブック") e pelo 知恵袋 q12285016442
+(ベストアンサー: 「ファンブック143pに書いてある通り」); ficha oficial (API do X, id 1775357555197595846); wiki
+`Domain_Amplification` (histórico pela API); 知恵袋 q10242132000; manga-tantei
+https://manga-tantei.com/jujutasukaisenryouikitenen-19107.
+
+**N-058 / N-059 · a fala do 84 e as leituras A e B**
+yuran 84, pensamentos do Gojo, na ordem: 〔「領域展延」…シン・陰の簡易領域と同じだな〕 〔本来の結界術として相手を閉じこめる
+「領域展開」を"箱"や"檻"とするなら〕 〔「領域展延」は"水"……!!自分だけを包む液体〕 〔領域を押し返す時の初動に近い感覚
+かな？〕 〔**必中効果は薄まるが確実に術式を中和してくる**〕 〔これなら僕にも攻撃は当たる〕. **CONFIRMA** a letra (é
+pensamento, não fala), que no 84 não há domínio inimigo em cena, e que a frase seguinte é "assim até em mim o golpe
+entra". A leitura B tem mais apoio do que o `H` diz: o parágrafo inteiro **compara a Extensão com a Expansão**
+("caixa/jaula" × "água que só envolve você") — "o acerto garantido fica ralo" cabe como comparação com o domínio de
+verdade. *Dado a mais que o `H` não tem:* a primeira frase do Gojo é **"é igual ao Simples da Shin-Kage"**.
+O 171 não diz 薄まる (yuran 171: 「「展延」は必中必殺の術式を搭載できるだけの領域にあえて術式を付与しないことで容量を空け
+五条の術式を流し込ませ無下限を中和した」). **CONFIRMA.** ⚠ Nota de tradução: a página inglesa (fã) do 171 p. 6 escreve
+*"used the 'Domain Amplification' **in a sure-hit domain**"* — **erro da tradução**; o japonês é "um domínio **com
+capacidade para carregar** técnica de acerto garantido, deixado vazio de propósito".
+
+**N-060 / N-106 (Extensão) / N-108 · Fanbook p. 143 (`領域展延の発動中は、領域展開の必中効果を中和可能。`;
+`触れた対象の術式も中和でき`)**
+Duas citações independentes: eiga-manga (bloco citado como 公式ファンブック): 「自身の体に、膜のように薄く領域を展開する
+行為を「領域展延」という。領域展延の発動中は、領域展開の必中効果を中和可能。また触れた対象の術式も中和でき、さらに発動中でも
+自由に行動できるという大きなメリットを有している。しかしながら、領域展延中は生得術式を発動できず、そのため攻撃手段が物理に
+限られる。」; 知恵袋 q12285016442, ベストアンサー (42 なるほど): 「「領域展延の発動中は、領域展開の必中効果を中和可能。」と
+ファンブック143pに書いてある通り」. **CONFIRMA** as duas frases. *E o mesmo trecho da Fanbook diz "発動中でも自由に行動
+できる" — o "você se move livre" (N-097) é **[F] Fanbook**, não só [C].* A primeira frase é idêntica à ficha oficial
+(05/04/2024 no X: 【自身の体に膜のように薄く領域を展開する行為】).
+
+**N-110 · "'um ataque com ela sempre acerta' é da wiki inglesa, editor, 11/05/2024, com a ref. do Fanbook 17 min
+depois" [I]**
+Histórico de `Domain_Amplification` pela API: a frase *"This means an attack with amplification will always land
+regardless of the opponent's technique"* entra na **rev. 63867, 2024-05-11 16:34:40, Young Mako**; o
+`{{Ref|name=fanbook}}` é pendurado nela na **rev. 63870, 16:51:30** — 16 min 50 s. **CONFIRMA.**
+
+**N-112 · "a técnica inata desliga; 'Extensão e técnica inata não andam juntas'" [C] 85 + [F] Fanbook**
+yuran 85: 五条「やっぱりな 展延と生得術式は 同時には使えない」; Fanbook (acima). **CONFIRMA.**
+
+**N-032 · como cai, largada: Hanami (85), Jogo "bate e foge" (88), Sukuna troca (224-231), Higuruma (247); 知恵袋 331**
+85: 花御〔こちらは〕〔術式を使うまで!!〕 / 漏瑚「展延を解くな!!」 ✓; 88: 漏瑚〔人間に紛れて展延による ヒット＆アウェイに
+徹するのだ〕 ✓ (é plano, pensamento); 225: o Kashimo elogia 「展延と生得術式の切り替えのキレ」 ✓; 247: o Higuruma
+suspende a Espada com a Extensão e retoma (「展延を挿んで術式効果を再開」) ✓. 知恵袋 q10242132000: a ベストアンサー tem hoje
+なるほど 230 · そうだね 37 · ありがとう 66 (= 333 reações; o "331" era a contagem de outro dia). **CONFIRMA.**
+
+**N-033 · "esse aí já não tem fôlego para aguentar isso, né?" e o Gojo esmaga o Hanami [C] 85; o Vermelho no Sukuna
+[C] 232**
+yuran 85: 「いいのか？オマエが展延で僕の術式を中和する程 僕はより強く術式を保とうとする」「こっちの独活は もうそれに耐える
+元気ないんじゃない？」 (fala do Gojo **ao Jogo**, sobre o Hanami) → 漏瑚「花御……」 / 五条「次」. **CONFIRMA.** *Nota: é a
+mesma sequência da "largada" do Hanami; ele já tinha soltado a Extensão e apanhado no ponto fraco antes dessa fala.*
+
+**N-114 · 「中和しきれん」 (232) e "quanto mais você neutraliza, mais forte eu seguro" (85)**
+232 (pensamento do Sukuna): 「展延では出力の低いニュートラルな無下限術式は中和できても、それを強化した「蒼」や反転の「赫」は
+中和しきれんな」 (neet-life; eiga-manga igual); 85 acima. **CONFIRMA.**
+
+**N-109 · "o custo é AÇÃO, não recurso: sem barreira, sem voto, sem queimar técnica, sem selo de mão, e erguível no
+último instante — o Sukuna a ergue a tempo de mitigar o Vermelho" [C] 232**
+- Texto do 232: 「ガードが間に合ったものの大きく吹っ飛ぶ宿儺。展延でダメージを最小限に抑えられた！」 (neet-life) — **o que
+  chegou a tempo foi a guarda**; o eiga-manga: 「領域展延を発動した状態で「赫」を受けた宿儺」 ("recebeu o Vermelho **com a
+  Extensão ativa**"). Se ela foi **erguida** no último instante ou já estava de pé, o texto não diz — no mesmo capítulo e
+  no 231 ele já a usava contra o Gojo.
+- "Sem barreira / voto / selo / queimar técnica" são **ausências por varredura**, não texto; "o custo é ação" é leitura.
+- **CORRIGE** a marca. Proposta: *"**O custo que a obra mostra é a técnica inata** (85, Fanbook); *não achei barreira,
+  voto, selo de mão nem queima de técnica ligados a ela* **[I]** por varredura. *No 232 ela mitiga o Vermelho (「展延で
+  ダメージを最小限に」)* **[C]** — *se foi erguida no último instante, o texto não diz.*"*
+
+**N-101 / N-111 · "o Sukuna lutou cerca de 3 minutos tendo a Extensão como única arma contra o Ilimitado, dentro do
+domínio do Gojo" [C] 227-228**
+228, pensamento do Gojo: 「領域内でお互いの必中命令が相殺している間、僕の無下限呪術を破るため宿儺は展延以外の攻撃手段を持たない…
+実際領域を外側から破壊されるまでの3分間は僕の有利で進んだ」; Mei Mei: 「3分9秒 結界を小さくしてからならジャスト3分」. **CONFIRMA.**
+
+**N-113 · "anula a técnica que você tinha em curso — a Espada sumiu (246); a roda do Mahoraga escurece (231); só o
+Higuruma e o Sukuna conseguem que vire pausa (`無効ではなく中断`, 247)"**
+- 231, pensamento do Gojo: 「展延で僕に触れる時は摩虎羅の法陣が黒くなる。適応が**中断**されていると考えて間違いないだろう」.
+- 247, pensamento do Sukuna: ele tomou cuidado para que a adaptação do Mahoraga fosse 「無効ではなく中断」, e o Higuruma
+  fez o mesmo com a Espada, que **voltou a brilhar** (246: 「再び煌々と光を放つ必死剣「処刑人の剣」」; 247: 「展延を挿んで術式効果
+  を再開」).
+- Os fatos **CONFIRMAM**. Mas a redação confunde: **os dois exemplos em cena (a Espada e a roda) são justamente as
+  PAUSAS**, não anulações; a anulação é o padrão que o Sukuna diz ter **evitado**. E a Espada não "sumiu": apagou e
+  voltou. **CORRIGE** (leve). Proposta: *"**Suspende ou anula a técnica que você tinha em curso.** O padrão é anular: o
+  Sukuna diz que tomou cuidado para a adaptação do Mahoraga ficar 'pausada e não anulada' (`無効ではなく中断`), e viu o
+  Higuruma fazer o mesmo com a Espada (247). **[C]** *Os dois casos em cena são as pausas: a roda escurece quando ele toca
+  o Gojo com a Extensão (231), e a Espada apaga e volta a brilhar (246-247).*"*
+
+**N-115 · não para o corte, o Cleave nem o Desmantelar à queima-roupa [C] 246** — ver N-091: **CONFIRMA** ("basicamente").
+
+**N-106 (Extensão) · "contra o acerto garantido de domínio: o Fanbook diz que neutraliza, e a obra não mostra"** e
+**N-034 · "contra DOMÍNIO: nunca testada; os acertos já se anulavam (227-228)"**
+227: 「無量空処」は五条悟に触れることで凌ぐ (o Sukuna escapa do Vazio **tocando no Gojo**, não pela Extensão; neet-life
+227); 228: 「お互いの必中命令が相殺している間」. 246: contra os cortes, fora de domínio. 84-85: sem domínio. **CONFIRMA.**
+
+**N-116 · "rara: o Kusakabe, grau 1 e maior especialista vivo em anti-domínio, não consegue; o Higuruma aprendeu
+olhando, com dois meses"**
+225: perguntado 「日下部さんはできますか展延？」, o Kusakabe: 「なめんなできるわけねーだろ」, depois de explicar que ela é 「ウチの
+簡易領域をさらに練り上げた感じ」 (neet-life 225). O Higuruma: 「感覚としては理解できる」 (225) e, no 246, o Sukuna pensa
+「術士として覚醒して二ヶ月弱、異常な成長速度」. **CONFIRMA** os fatos. Ajuste: **"maior especialista vivo em anti-domínio"
+não é texto** — a obra mostra os colegas dizendo que ele sabe demais (「さっきからあっちゃん詳しすぎて引くんだけど」, 227) e,
+no fim, que ele é o líder da Shin-Kage (269). Marcar como leitura.
+
+**N-118 · "o Kashimo amarrando a troca Extensão↔técnica à eficiência de energia (225)" [C]**
+225 (neet-life): 「鹿紫雲が神がかっている、術式発動までのキレ、展延と生得術式の切り替えのキレ、五条悟に六眼がなければ確実に呪力
+効率も宿儺が勝っていたはずだ」. São **duas coisas separadas**: a **rapidez** da troca (elogio) e, à parte, que **sem os Seis
+Olhos do Gojo** o Sukuna ganharia **também** em eficiência de energia (`呪力効率も`). Não liga a Extensão a custo.
+**CORRIGE.** Proposta: *"Custo de energia, uso junto com a reversa e limite de tempo: **[NÃO ACHEI]**. *No 225 o Kashimo
+elogia a rapidez com que o Sukuna troca Extensão↔técnica e, separado, diz que sem os Seis Olhos do Gojo o Sukuna ganharia
+também em eficiência de energia — nada liga a Extensão a gasto.* **[C]**"*
+
+**N-035 · "dura pouco" só em blogs, sem painel [I]; maior uso ~3 min (228)**
+manga-tantei: 「あまり長くはもたないので中和している間に何らか対抗手段を打つ必要があります」 — sem capítulo. ✓ O "dois blogs"
+eu achei um (o `I` cita o mesmo). **CONFIRMA** a marca [I].
+
+**N-117 · alerta de balanceamento da comunidade japonesa; Reddit +7/+2 [I]** — **NÃO CONFERIDO** (prioridade d).
+
+**N-012 · quadro, Extensão** — CONFIRMA a linha, com o ajuste do N-113 ("o que estava em curso": pausa ou anulação).
+
