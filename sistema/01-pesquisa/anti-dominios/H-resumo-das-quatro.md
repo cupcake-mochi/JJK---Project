@@ -7,7 +7,7 @@ a pedido do Mizuki. **É o que a OBRA estabelece.** O que o sistema publica hoje
 de divergências.
 
 Marcação: **[C]** canon, com capítulo · **[F]** fanbook/oficial fora do mangá · **[I]** inferência
-de fonte secundária, com dono · **⏳** ponto em conferência no `L-cinco-pontos-em-aberto.md`
+de fonte secundária, com dono
 
 > ### Atualização de 24/09/2026 — o que a terceira rodada mudou neste arquivo
 >
@@ -29,6 +29,11 @@ de fonte secundária, com dono · **⏳** ponto em conferência no `L-cinco-pont
 >   dono**; "técnica mais densa passa" virou **canon** (caps. 85 e 232).
 > - **Seção nova:** como elas caem e quanto duram, nas quatro.
 > - **Divergências com a peça 11:** duas linhas da coluna "a obra diz" mudaram de base (fim do arquivo).
+> - **Os cinco pontos que a rodada deixou abertos** foram fechados no mesmo dia pelo
+>   `L-cinco-pontos-em-aberto.md` e pelas páginas do cap. 108 que o Mizuki mandou: a Pétala **cai no
+>   soco** do Dagon; o voto do cap. 255 existe e **não cita a Cesta**; o Reggie tem **um quadro** com a
+>   Cesta de pé sem selo; o Fanbook p. 143 diz que a Extensão **neutraliza** o acerto garantido; e o
+>   volume 28 **trocou "diluir" por "enfraquecer"** no cap. 246.
 
 ---
 
@@ -105,14 +110,23 @@ do domínio inimigo. O nome se lê *"caixa vazia que te envolve por inteiro"*.
 > essa versão forte:** no 250 o Yuta usa a Fala Amaldiçoada "não se mexa", e a Cesta **não cai**
 > (apontado pelos próprios japoneses, `J` §1.3).
 > **[NÃO ACHEI], nos três arquivos:** painel ou texto da Cesta **tendo encantamento próprio**.
-> ⏳ O `K` achou, pelo resumo em inglês da wiki, que no cap. 255 o corte que divide o mundo passou a
-> **exigir encantamento por voto** — se o japonês confirmar, a boca fecha pela via do corte.
+> **Cap. 255, confirmado no japonês** (`L` ponto 2): o corte que divide o mundo exige **selo 閻魔天 +
+> encantamento (`呪詞の詠唱`) + direção pela palma**. É o voto que pagou o tiro sem condição que matou
+> o Gojo (236), e vale desde então — já valia no 249-251. **[C]** 255, por quatro reconstituições
+> japonesas que batem. **Mas o 255 não cita a Cesta nem a boca:** "a boca presa tira dele o
+> encantamento do corte" é **leitura compatível [I]**, não texto. E há uma conta que pesa contra a boca
+> como explicação única: com dois dos quatro braços presos, pode faltar mão para o selo de duas mãos
+> **mais** a palma **[I]** (`L`).
 >
 > **O "manter", posto no lugar.** O texto do 266 diz **"mesmo depois de ativar"** (`発動後も`): a
 > técnica não parece **exigir** o selo contínuo; o que o selo mantido faz é **segurar contra domínio
 > forte**. A leitura japonesa mais votada sobre isso (知恵袋, 15 votos) diz que o Sukuna mantém
 > **de propósito** e que a Cesta, como o Simples, só pede selo na ativação (`J` §1.4) **[I]**. A
-> prova que eles citam é o Reggie soltando as mãos no 171 com a Cesta de pé ⏳. **O que continua de
+> prova que eles citam é o Reggie, e ela existe: **um quadro** do 171 mostra a Cesta desenhada com o
+> braço dele caído, fora do selo **[C]** (`L` ponto 3). Mas é um quadro só, no susto dos sapos — e não
+> "ao perceber que o domínio era incompleto", como o Reddit conta —, e o domínio do Megumi **não tinha
+> acerto garantido**: nada empurrava a Cesta. **Sem pressão ela fica de pé sem selo; com pressão, a obra
+> não mostra quanto dura.** **O que continua de
 > pé da correção de 23/09:** no 249 o Sukuna **não podia** soltar — e, quando soltou no 251, tomou a
 > Escada de Jacó em saída máxima. **[C]** 251. *Opcional pela técnica, obrigatório pela situação.*
 
@@ -120,8 +134,8 @@ do domínio inimigo. O nome se lê *"caixa vazia que te envolve por inteiro"*.
 
 - **Segurar sustenta:** *manter o selo depois de ativar **suplementa a saída**, e é isso que impede
   o domínio de empurrar.* **[C]** cap. 266 — *custo contínuo de ação, **não** reforço escalável.
-  Contra domínio forte é manter e resistir, ou cair; se a técnica exige o selo mesmo sem pressão, é
-  ⏳ (ver a atualização acima)*
+  Contra domínio forte é manter e resistir, ou cair; sem pressão, um quadro do 171 mostra a Cesta
+  de pé com o selo desfeito (ver a atualização acima)*
 - **Você luta dentro dela.** *O Sukuna troca socos com o Yuji segurando a Cesta com os dois braços
   de baixo.* **[C]** cap. 266 (`I` §1.1-1.2)
 - **NÃO trava a técnica reversa** — *o Sukuna cura a testa e reseta a técnica queimada com a Cesta em
@@ -138,7 +152,7 @@ do domínio inimigo. O nome se lê *"caixa vazia que te envolve por inteiro"*.
   quatro mãos dele (266).* **[C]**
 - **Veta o golpe que precisa de selo + encantamento:** *o corte que divide o mundo "não dá para
   disparar mantendo a Cesta".* **[C]** cap. 250; 251 — *é o primeiro custo de "o que ela proíbe",
-  além das mãos.*
+  além das mãos. E o 255 confirma o que o corte pede: selo 閻魔天, encantamento e a palma.* **[C]** 255
 - **Golpe no dono que derruba a saída a racha.** *No 266 os socos de alma do Yuji a deixam
   **rachada em parte** (`一部割れ`) e o Sukuna pensa 「彌虚葛籠が解ける!!」, "vai se desfazer!!".*
   **[C]** cap. 266. *(corrigido em 24/09: antes dizia "quase se desfez"; ver "Como cai")*
@@ -150,8 +164,9 @@ do domínio inimigo. O nome se lê *"caixa vazia que te envolve por inteiro"*.
   demais" que circula no Reddit, +110, é erro de leitura, `K` §1.5)*
 - **Não apaga a técnica em si** — só o acerto garantido. **[C]** cap. 171
 - **Não serve contra domínio incompleto**, porque incompleto não tem acerto garantido para apagar.
-  *O Reggie ativou dentro do domínio do Megumi e tomou pancada igual* — *os sapos amarram as pernas
-  dele "de fora da Cesta".* **[C]** cap. 171
+  *O Reggie ativou dentro do domínio do Megumi e tomou pancada igual* — *as línguas dos sapos
+  **atravessam a trama** e prendem os tornozelos dele: a Cesta não barra corpo.* **[C]** cap. 171
+  (quadro visto, `L`)
 - **Saída fraca:** contra domínio forte ela só compra tempo — *"um dia sempre perde a queda de braço"*
   (`いつかは必ず押し負けてしまう`). **[C]** cap. 266 p. 4-6
 - Custo de energia, tamanho em número, como se aprende, limite de tempo: **[NÃO ACHEI]** nos três
@@ -172,8 +187,10 @@ do domínio inimigo. O nome se lê *"caixa vazia que te envolve por inteiro"*.
 - **Cap. 251 — largada forçada:** *o Sukuna solta o selo para arriscar o corte que divide o mundo;
   o Yuji e a Rika seguram três braços, o Yuta arranca a língua da boca da barriga, e ele toma a
   Escada de Jacó "sem conseguir manter a Cesta".* **[C]** 251 p. 12-13
-- **Cap. 171 (Reggie):** **incerto** — a obra não mostra a Cesta caindo. ⏳ se ela fica de pé depois
-  que ele solta as mãos.
+- **Cap. 171 (Reggie):** **a obra não mostra a queda.** A Cesta aparece de pé num quadro com o selo
+  desfeito e depois deixa de ser desenhada enquanto ele apanha e passa a usar as mãos (facas, facão).
+  Leitura provável: **largada** — sem acerto garantido para anular, ela não tinha função. **[C]**
+  quadros + **[I]** (`L` ponto 3)
 - **Cap. 187 (Kashimo):** nunca subiu.
 - **Quanto dura:** **nenhuma cena dá número.** 249→251 são três capítulos de luta; 266 é uma luta
   corpo a corpo inteira. **[C]**
@@ -199,8 +216,11 @@ fortes. Abre um círculo em volta de você onde o acerto garantido **deixa de va
 - **Dentro do raio, o dono sobe e a técnica de fora enfraquece um pouco** — *"simplificado ou não,
   **domínio é domínio**"* (`簡易的ではあるが領域は領域`). **[C]** cap. 254 p. 1-2. *O Gege, na nota do
   cap. 248, recuou do verbo **"diluir"** (`薄める`) porque o Simples **não neutraliza** a técnica
-  **[F]**; o 254, que saiu depois da nota, manteve o efeito e trocou a causa. Se o volume
-  encadernado reescreveu o 薄める do cap. 246 é ⏳.*
+  **[F]**; o 254, que saiu depois da nota, manteve o efeito e trocou a causa.* **E o volume
+  encadernado reescreveu o cap. 246:** *no vol. 28 o balão diz 「その上 簡易領域で 最低限 俺の術式を
+  弱めることで…」 — **"enfraquecer" (`弱める`) no lugar de "diluir"**, com "no mínimo" (`最低限`).*
+  **[C]** vol. 28, amostra oficial da Shueisha (`L` ponto 5). *No texto final da obra, o 246 usa o
+  mesmo verbo do 254. Se o "no mínimo" também é novo: **[NÃO ACHEI]** o balão da revista letra por letra.*
 - **Anda junto com a técnica reversa** — *o Gojo cura com a reversa enquanto segura o Simples, e o
   Kusakabe fica pasmo; e pesa: "aah, que canseira"* (`あー しんど`). **[C]** cap. 226 (`I`, `J`)
 - **Dá para erguer de novo logo depois de arrancado** — *o Gojo fez duas vezes seguidas.* **[C]** cap. 226
@@ -283,10 +303,11 @@ faz questão da distinção: *não é neutralizar, é abater.*
   fórum **[I]**)*
 - **Não se opõe à saída do domínio** — *"não se sai ileso; não é técnica que encare a saída de um
   domínio".* **[C]** cap. 227, fala do Choso
-- **O que não é acerto passa por ela.** *No 108 o enxame tapa a visão do Naobito* (〔式神で視界が!!!〕)
-  *e o Dagon dá um soco — **o soco do dono do domínio não é o acerto garantido, então não dispara a
-  Pétala**.* **[C]** cap. 108 + **[F]** ficha. *(ajustado em 24/09: antes dizia "abre brecha enquanto
-  responde")*
+- **O que não é acerto passa por ela — e pode derrubá-la.** *No 108 o Dagon, escondido no enxame,
+  dá um soco que o Naobito não vê chegar ("os shikigami tapavam a minha visão", pensado já no ar) —
+  **o soco do dono do domínio não é o acerto garantido, então não dispara a Pétala**, e depois dele
+  ela não aparece mais.* **[C]** cap. 108 (desenho) + **[F]** ficha e anime ep. 38. *(ajustado em
+  24/09: antes dizia "abre brecha enquanto responde")*
 - **Fraca contra volume e contra força bruta.** **[I]** *amedot, 28/06/2023 — é a origem (`J` §3)*
 - **O braço do Naobito não mede a Pétala.** *Ele perdeu o braço direito no enxame **depois** do soco;
   o Nanami, sem anti-domínio, perdeu o olho esquerdo no mesmo enxame.* **[C]** cap. 109 *(ajustado em
@@ -305,13 +326,21 @@ faz questão da distinção: *não é neutralizar, é abater.*
 
 **Como cai** (`I` §3.2-3.3, `J` §3.1, `K` §3.2 e §3.5)
 
-- **Cap. 108 — ⏳ os arquivos DIVERGEM.** *O painel: visão tapada → soco do Dagon → ele no ar → o
-  enxame o devora. **Nenhuma fala diz "a Pétala caiu".***
-  - `I` e `J`: **caiu no soco** (golpe no dono), apoiados na wiki (`Death_Swarm`: *"dispelling his
-    barrier"*) e num resumo japonês (`「落花の情」が解除され`). Os dois marcam como inferência.
-  - `K`: **não caiu** — o soco entrou por fora dela, e quem parou o enxame foi o domínio do Megumi.
-  - *Por que importa: se `I` e `J` estiverem certos, é o **único caso da obra de anti-domínio caindo
-    por soco comum dentro de domínio** — nos dois da Cesta o golpe era soco de alma.*
+- **Cap. 108 — golpe no dono, por soco comum.** *(fechado em 24/09; os arquivos divergiam)*
+  - **O desenho** (cinco páginas enviadas pelo Mizuki, tradução inglesa, lidas em 24/09; as imagens
+    não entram no repositório): antes do soco, o Naobito está no chão com **uma faixa branca de energia
+    enrolada no corpo**, rebatendo os peixes; o Dagon soca e o arremessa; **no ar, a faixa não está mais
+    desenhada**, e o enxame o pega. **Nenhuma fala diz "a Pétala caiu".** **[C]** pelo desenho, por ausência.
+  - **A ordem:** o pensamento "os shikigami tapavam a minha visão" vem **depois** do soco, com ele já no
+    ar, e no passado (*"were blocking my view"*). **A visão tapada explica por que o soco entrou**; não
+    é falha da Pétala. **[C]** *(os três arquivos descreviam "visão tapada → soco")*
+  - **O anime (ep. 38, 26/10/2023):** ela cai no soco, ele **tenta erguer de novo** e é mordido antes.
+    **[F]** via três descrições que batem (`L` ponto 1) — *o "tentar reativar" é expansão do anime.*
+  - O "dispelling his barrier" da wiki, que o `I` e o `J` citavam, é paráfrase de editor (2021), com
+    referência genérica a nove páginas. **[I]** O `K` ("não caiu") acertou que o soco entrou por fora
+    dela e errou a conclusão.
+  - *Por que importa: é o **único caso da obra de anti-domínio caindo por soco comum dentro de
+    domínio** — nos dois da Cesta o golpe era soco de alma.*
 - **Cap. 109:** o perigo acabou porque **o Megumi apagou o acerto garantido** com o domínio dele
   (〔必中効果が消えている!!〕), não pela Pétala. **[C]** 109 p. 4-5
 - **Cap. 148 — na arma, cai com a arma:** a Osso-de-Dragão da Maki quebra a lâmina do Ogi. **[C]**
@@ -335,9 +364,11 @@ técnica — e `中和` é o termo **químico**: quantidade igual cancela, quant
 > leituras**: (A) o acerto garantido do domínio **inimigo** fica ralo; (B) o acerto garantido **da
 > própria Extensão** fica ralo — e o contexto favorece a B: **no 84 não há domínio inimigo em cena**,
 > o Gojo está explicando por que os golpes do Jogo e do Hanami agora encostam nele, e a frase seguinte
-> é *"assim até em mim o golpe entra"*. O **Fanbook** diz que ela **neutraliza** o acerto garantido da
-> Expansão (`必中効果を中和可能`), sem "ralo". **[I]** — e a obra **nunca pôs a Extensão contra o
-> acerto garantido de um domínio inimigo** (ver "Como cai").
+> é *"assim até em mim o golpe entra"*. O **Fanbook p. 143** diz
+> 「領域展延の発動中は、領域展開の必中効果を中和可能。」 — *"com a Extensão ativa, é possível
+> **neutralizar** o acerto garantido de uma Expansão"*, sem "ralo" **[F]** (texto conferido em duas
+> citações japonesas independentes, `L` ponto 4). As leituras A e B do 84 continuam **[I]** — e a obra
+> **nunca pôs a Extensão contra o acerto garantido de um domínio inimigo** (ver "Como cai").
 
 **Vantagens**
 
@@ -348,9 +379,9 @@ técnica — e `中和` é o termo **químico**: quantidade igual cancela, quant
 - **O custo é AÇÃO, não recurso:** *sem barreira, sem voto, sem queimar técnica, sem selo de mão, e
   erguível no último instante* — *o Sukuna a ergue a tempo de mitigar o Vermelho.* **[C]** cap. 232
 - ⚠ **"Um ataque com ela sempre acerta" NÃO é do Fanbook.** *A frase é da wiki inglesa ("This means
-  an attack with Domain Amplification will always land"), pendurada na referência do Fanbook; o texto
-  do Fanbook é o da linha de cima.* **[I]** da wiki. *(corrigido em 24/09: antes estava como [F]
-  Fanbook p. 143)* ⏳
+  an attack with Domain Amplification will always land"), escrita por um editor em 11/05/2024, com a
+  referência do Fanbook pendurada nela 17 minutos depois; o texto do Fanbook é o da linha de cima.*
+  **[I]** da wiki (`L` ponto 4). *(corrigido em 24/09: antes estava como [F] Fanbook p. 143)*
 - **Subtrai o efeito JÁ DISPARADO**, e não a ativação. **[I]**
 - **Sustenta luta longa:** *o Sukuna lutou **cerca de 3 minutos** tendo a Extensão como única arma
   contra o Ilimitado, dentro do domínio do Gojo.* **[C]** caps. 227-228
@@ -371,8 +402,9 @@ técnica — e `中和` é o termo **químico**: quantidade igual cancela, quant
   forte eu seguro".* **[C]** caps. 232 e 85. *(novo em 24/09: era inferência japonesa do amedot)*
 - **Não para o corte que divide o mundo, o Cleave nem o Desmantelar à queima-roupa.** **[C]** cap.
   246, análise do Kusakabe
-- ⚠ **Contra o acerto garantido de domínio: sem cena.** *A base do "só PARCIAL" era o `薄まる` do 84,
-  que é ambíguo (ver acima).* **[I]**
+- ⚠ **Contra o acerto garantido de domínio: o Fanbook diz que neutraliza, e a obra não mostra.**
+  *`必中効果を中和可能`* **[F]** p. 143; *nenhuma cena a põe sozinha contra acerto de domínio inimigo*
+  **[C]** por varredura. *A base do "só PARCIAL" era o `薄まる` do 84, que é ambíguo (ver acima).* **[I]**
 - **Sendo subtração, quantidade menor só atenua** — não é interruptor. **[I]** *E o cap. 232 é o caso
   em cena disso: o Vermelho passa, mitigado.* **[C]**
 - **Rara de verdade:** *o Kusakabe, grau 1 e maior especialista vivo em anti-domínio, não consegue.
@@ -394,7 +426,8 @@ técnica — e `中和` é o termo **químico**: quantidade igual cancela, quant
   aguentar isso, né?" — e o Gojo esmaga o Hanami.* **[C]** cap. 85; *o Vermelho no Sukuna* **[C]** cap. 232
 - **Contra DOMÍNIO: nunca testada.** *Toda cena é contra técnica ou dentro de um choque de domínios
   em que os acertos já se anulavam (227-228).* **[C]** por varredura (`I` §4.4). *No Reddit a briga
-  segue: "a Extensão não para acerto garantido" (+306) contra um fã citando o Fanbook (+16).* ⏳
+  segue: "a Extensão não para acerto garantido" (+306) contra um fã citando o Fanbook (+16) — e o fã
+  cita certo: o Fanbook p. 143 diz `中和可能` **[F]**. O que falta é cena.*
 - **Quanto dura:** *"dura pouco" só aparece em dois blogs japoneses, sem painel* **[I]**; *o maior uso
   contínuo da obra é **~3 minutos** (228)* **[C]**. *O que a obra liga à duração é **fôlego contra
   técnica mais forte** (85), não relógio.*
@@ -426,8 +459,9 @@ notícia sem fonte.
 | 99 s | **teto do domínio** improvisado do Sukuna | os Simples aguentaram até perto disso | 258 |
 | ~3 min | domínio do Gojo | a Extensão como única arma do Sukuna | 228 |
 
-**Queda por golpe no dono DENTRO de domínio:** entre a Cesta e o Simples, **só a Cesta** — e nos dois
-casos (251, 266) o golpe era **soco de alma** do Yuji. **[C]** A Pétala no 108 é ⏳.
+**Queda por golpe no dono DENTRO de domínio:** a **Cesta** (251, 266 — nos dois casos, **soco de
+alma** do Yuji) e a **Pétala** (108 — **soco comum** do Dagon, que não é acerto garantido). **O Simples
+nunca.** **[C]** — *a queda da Pétala no 108 é [C] pelo desenho e [F] pelo anime (ver §3).*
 
 ---
 
@@ -437,7 +471,7 @@ casos (251, 266) o golpe era **soco de alma** do Yuji. **[C]** A Pétala no 108 
 |---|---|---|---|---|---|
 | **Cesta Oca** | anula no cesto | o acerto garantido | **sim** — *o Sukuna troca soco segurando com dois braços (266)* | perde para a saída do domínio; **golpe no dono que derruba a saída a racha** (266); largada forçada (251) | **metade das mãos enquanto mantém**, e **veta golpe de selo + encantamento** (250) |
 | **Domínio Simples** | anula no espaço | o acerto garantido, e cobre o raio | **sim** — *o "não" é voto da Miwa* | **arrancado pela pressão** (206, 226, 258); por golpe no dono, **só fora de domínio** (40, 254) | a posição, **se tiver o voto** |
-| **Pétala** | **intercepta o que toca** | só acerto **com forma** | **sim** | **não é arrancada**; largada (227); no 108, ⏳ | a brecha contra **o que não é acerto** |
+| **Pétala** | **intercepta o que toca** | só acerto **com forma** | **sim** | **não é arrancada**; **golpe no dono** que não é acerto (108); largada (227) | a brecha contra **o que não é acerto** |
 | **Extensão** | **subtrai** (`中和`) | **toda técnica**; acerto de domínio **sem cena** | **sim** | **largada para usar a técnica** (quase todas); técnica mais forte passa (85, 232) | a própria técnica, **e o que estava em curso** |
 
 *(corrigido em 24/09: o quadro dizia que o dono da Cesta **não se move** e que ela **não pode ser
@@ -455,7 +489,7 @@ arrancada e é reforçável**; e trazia a coluna "pode ser arrancada?" no lugar 
 | Domínio Simples quebra se **os pés saírem do chão** | é o **voto da Miwa**, não a técnica |
 | raio ancorado em **2,21 m** | é o raio **da Miwa iniciante com voto** |
 | o Kusakabe puxar gente é **da Trilha dele** | ele **expande o raio** em combate, com a própria aptidão |
-| Pétala **não para ataque físico** | ela **só responde ao acerto garantido que toca** — a categoria "físico" não existe na fonte. *O que a obra mostra passando por ela é **golpe que não é acerto** (o soco do Dagon, 108), seja físico ou não* |
+| Pétala **não para ataque físico** | ela **só responde ao acerto garantido que toca** — a categoria "físico" não existe na fonte. *O que a obra mostra passando por ela é **golpe que não é acerto** — o soco do Dagon (108), que ainda a derrubou. Nesse caso a peça 11 acerta o efeito; o que diverge é a categoria: "não é acerto", não "físico"* |
 | *"contra um Acerto que é golpe de corpo, ela não faz nada"* | **cai** — Acerto corporal ainda é acerto garantido, e dispara ela |
 | Extensão **anula** o Acerto | ⚠ **mudou de base em 24/09.** *Antes: "ela dilui o Acerto, e neutraliza a técnica com certeza". Agora: o Fanbook diz que ela **neutraliza** (`中和可能`) o acerto garantido da Expansão; o "dilui" vinha só do pensamento do Gojo no 84, que pode ser sobre o acerto **da própria Extensão**; e a obra **nunca pôs a Extensão contra acerto de domínio**. A divergência que sobra aqui é a da última linha (`中和` como subtração)* |
 | Domínio Simples **não é mais forte** contra o Acerto que a Cesta Oca | ⚠ **mudou de base em 24/09.** *Antes: "ele é arrancável e a Cesta Oca é reforçável" — o "reforçável" já tinha caído na correção de 23/09. Agora: a obra põe as duas na mesma frase — saída fraca, "um dia sempre perdem" (266). O que as separa em cena é outra coisa: **a Cesta tem o selo mantido para suprir saída** (266) e **caiu por golpe no dono dentro de domínio** (266-267); **o Simples cai pela pressão** (206, 226, 258) e **nunca** por golpe no dono dentro de domínio* |
