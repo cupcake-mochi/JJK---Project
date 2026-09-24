@@ -324,7 +324,8 @@ da "contradição de pé" do arquivo `D`:**
    *"o Dagon soca o Naobito direto; atingido, ele **toma o ataque dos shikigami todo de uma vez**"*.
 4. No 109 ele volta **sem o braço direito**, e todos os resumos atribuem a perda ao **acerto garantido
    do enxame** (`必中術式「死累累湧軍」を喰らい右腕を欠損`, entame-life, verbete do Naobito). A fala
-   dele é `たかが右腕一本 さりとて71年物` *"é só um braço direito — mas de 71 anos de uso"*. **[C]** caps. 108–109
+   dele é `たかが右腕一本 さりとて71年物` *"é só um braço direito — mas de 71 anos de uso"* (vol. 13,
+   segundo introduction1.com; não achei o capítulo exato da fala). **[C]** caps. 108–109 para a perda
 
 **Conclusão para o buraco "o que acabou com ela ali?":** **(2) ataque ao usuário.** O soco derruba
 a Pétala; **o braço é o preço de ficar SEM ela**, dentro do domínio, por um instante. **Não é a
@@ -388,4 +389,85 @@ e trocou por domínio. **Duração:** o tempo de curar o cérebro; **[NÃO ACHEI
   de que **propriedade de energia e efeito de técnica são difíceis de bloquear com energia**
   (`呪力特性や術式の効果は呪力でガードしにくい`). **[I]** com duas pontas **[C]** (cap. 15; cap. do
   vol. 21 sem número exato no blog).
+
+
+---
+
+## 4 · Extensão de Domínio — 領域展延 (りょういきてんえん)
+
+O arquivo `C` já leu a fundo o blog amedot, o manga-tantei, o 知恵袋 do "modelo químico" e a thread
+da あにまんch de 27/01/2026. **Aqui só entra o que falta, e três achados de canon que fecham
+buracos que o `C` deixou abertos.**
+
+### 4.1 ⭐⭐ "Técnica mais forte passa" NÃO é só inferência do amedot: está no cap. 232, na cabeça do Sukuna
+
+Depois de tomar o `赫` (Vermelho) do Gojo com a Extensão de pé:
+> やはり展延では**出力の低い**ニュートラルな無下限術式は中和できても、それを**強化した「蒼」や反転の「赫」は中和しきれん**な。
+> *"Como eu pensava: com a Extensão dá para neutralizar o Ilimitado neutro, **de saída baixa**, mas
+> o **Azul reforçado** e o **Vermelho reverso** ela **não neutraliza por inteiro**."*
+> **[C]** cap. 232, pensamento do Sukuna — texto igual em neet-life-blog, eiga-manga e manga-games
+
+- **Isso fecha o buraco do `C`** ("não achei confirmação canônica direta do teto"). O eixo que a obra
+  usa **é `出力` (saída)**, não "densidade" (`濃い`, palavra do amedot). *Mesma palavra do 266 para a
+  Cesta e do 226 para o Domínio Simples: **as quatro perdem pela saída**.*
+- O resultado da cena: **dano minimizado, não zerado** (`展延でダメージを最小限に抑えられた`, o Gojo
+  estala a língua). **[C]** cap. 232.
+
+### 4.2 ⭐ `中断` (suspender) em vez de `無効` (anular) É canon — cap. 247
+
+O `C` (bloco 5) atribuiu ao manga-tantei a leitura "o Higuruma suspende a técnica em vez de anular" e
+disse que não achou painel. **O painel existe:**
+> 自身も五条悟との戦いで展延を発動する際、それまでの魔虚羅の適応が、**無効ではなく中断**になるように
+> **細心の注意を払った**と振り返る宿儺。日車の「処刑人の剣」も、**展延を挿んで術式効果を再開した**。
+> *"O Sukuna lembra que, ao ativar a Extensão contra o Gojo, **tomou o máximo cuidado** para que a
+> adaptação do Mahoraga ficasse **suspensa, não anulada**. E o Higuruma também **retomou** o efeito da
+> Espada do Carrasco **com a Extensão no meio**."* **[C]** cap. 247, via eiga-manga
+
+**Para o drawback:** o custo "o que você criou desaparece" (`H`, Espada do Carrasco no 246) tem um
+**nível de perícia** que o evita em parte: quem tem controle fino **pausa** em vez de perder. Quem
+não tem, perde (a adaptação do Mahoraga **"enegrece"** no 231–232 quando o Sukuna liga a Extensão).
+
+### 4.3 Como ela cai — o que a obra mostra e o que o Japão conclui
+
+| via | cena / fonte | marca |
+|---|---|---|
+| **(4) largada — a mais votada do Japão** | Hanami **solta a Extensão para usar a própria técnica** quando o Gojo desliga o Ilimitado de isca, e morre por isso. 知恵袋 q10242132000, **ベストアンサー com 331 votos**: `無下限を解き相手を責め急がせて展延を解かせるという五条の狙い` *"o plano do Gojo era desligar o Ilimitado, apressar o inimigo e **fazê-lo desfazer a Extensão**"* | **[C]** cap. 85 + a resposta japonesa mais votada que achei na pesquisa inteira |
+| **(1)/(2) saturação por saída maior** | cap. 85 (Ilimitado reforçado esmaga o Hanami) e cap. 232 (Azul/Vermelho reforçados passam) | **[C]** |
+| **(3) esgotamento do dono** | cap. 235: o Kusakabe resume que o Sukuna está tão ferido que **nem a luta de mãos nuas com Extensão dá mais** (`展延での徒手空拳もままならないダメージ`) | **[C]** |
+| **erosão: "ela vai descascando"** | あにまんch 21144260 (jan/2026), posts 26, 27, 67 (já no `C`); **pixiv 生前宿儺**, em tom de fato: `完全に中和しきれないと徐々に展延そのものも弱くなり、やがて解けてしまう` *"se não neutraliza por inteiro, **a própria Extensão vai enfraquecendo e acaba se desfazendo**"* | **[I]** — o post 27 diz que alguém "se justificou" com isso na obra, mas **[NÃO ACHEI]** o painel (procurei os resumos dos caps. 223–261) |
+| **esgotamento por "fila infinita"** | あにまんch 20935899 (dez/2023), post 39: os shikigami infinitos do Dhruv **fazem o usuário da Extensão ficar sem energia antes de chegar** (`延展使えようが自分に辿り着く前に呪力切れ起こす状態作れる`) | **[I]**, 1 post |
+
+### 4.4 "Dura pouco": o Japão NÃO sustenta como cronômetro
+
+- O "`あまり長くはもたない`" do manga-tantei (no `C`) **não tem eco** nas threads que li. O que os fóruns
+  dizem é **erosão por pancada** (4.3), não relógio. E a obra mostra o Sukuna **com a Extensão de pé por
+  trechos longos, ligando e desligando à vontade** (224–233). **Veredito:** "dura pouco" = **[I] isolado**;
+  "desgasta quando falha em neutralizar" = **[I] com apoio de fórum e de uma enciclopédia de fã**,
+  compatível com o 232.
+
+### 4.5 Custo de energia e técnica reversa
+
+- **Custo de energia: [NÃO ACHEI]** em canon. Fãs:
+  - ねいろ速報 34432643 (03/08/2023), post 64: `術式を流し込まない分領域展開よりも呪力の消費とかは少なそうだし術式が焼け切れないみたいなメリットはある`
+    *"como não enche de técnica, **deve gastar menos que a Expansão** e **não queima a técnica**"*; **[I]**
+  - あにまんch 21144260, comentário 21: `領域使うよりは呪力消費低いし術式も焼ききれない`; **[I]**
+  - あにまんch 20935899, post 30: `展延は術式付与してないから焼き切れが起きないのかな` *"talvez não queime porque não tem técnica"*. **[I]**
+  **Ninguém dá número**, e todos usam `〜そう` / `〜かな` (achismo declarado).
+- **Junto com técnica reversa: [NÃO ACHEI]** discussão japonesa. Procurei `展延中 反転術式`,
+  `展延しながら 反転`, `領域展延 反転術式 同時`. O mais perto: no 232 o Sukuna **se cura com técnica
+  reversa logo depois** de tomar o Vermelho com a Extensão (eiga-manga), mas o resumo não diz se ela
+  ainda estava ligada. E os fãs lembram que a técnica reversa **"não é técnica"** apesar do nome
+  (ねいろ速報 34596415, post 62: `反転術式(術式じゃない)`), o que *em tese* a deixaria de fora do que a
+  Extensão neutraliza. **Isso é [I] meu a partir de um post, não resposta.**
+
+### 4.6 Outros drawbacks que o Japão levanta
+
+| afirmação | fonte | aponta cena? | apoio |
+|---|---|---|---|
+| **O Angel cita a desvantagem em cena**: não combina com técnica inata, `それは宿儺も例外ではない` *"nem o Sukuna é exceção"* | cap. 225, via eiga-manga | **[C]** | — |
+| **Não segura o que "corta" de verdade**: o Kusakabe diz que `捌`, o `解` à queima-roupa e o Corte do Mundo **não se defendem com reforço de energia, Extensão nem Domínio Simples — é morte certa** (`どの手段でも防御不可・基本即死`) | cap. 246, via eiga-manga | **[C]** | — |
+| **Não para técnica que age sobre a energia em si** (Boogie Woogie, Jacó do Anjo) | あにまんch 21144260 post 45 (no `C`); pixiv 生前宿儺 (`天使や東堂の術式は呪力そのものに反応するため防御できない`) | **[NÃO ACHEI]** painel | **[I]** |
+| **Usar a Extensão "entrega" que você não confia no seu domínio** (`展延を使うと領域の押し合いに自信がありませんって表明になってしまうのがデメリット`) | ねいろ速報 34432643, post 201 | 考察; a resposta seguinte chama de "comentário de fraco" | 1 post, contestado |
+| "Ela **não** neutraliza o acerto garantido de domínio" | 知恵袋 q12305577877 (0 votos); q12285016442 (12 e 13 votos) | contra o Fanbook p. 143 | **perde**: a ベストアンサー da q12285016442, **66 votos**, cita o Fanbook p. 143 dizendo que neutraliza |
+| **O ataque vira só físico**, e quem luta à distância sofre | 知恵袋 q10242132000 (331 votos); ねいろ速報 34432643, post 219 (`展延は防護服切る代わりに自分もMP消費技が使えない` *"veste roupa de proteção, mas perde os golpes que gastam MP"*) | **[C]** caps. 84–85 | consenso |
 
