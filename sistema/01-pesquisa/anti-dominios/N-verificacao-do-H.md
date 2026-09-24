@@ -435,3 +435,163 @@ Inglês local p. 6-7 idem. **CONFIRMA** as duas. *Nota que pesa no N-008 (bloco 
 Cesta e Simples **中和 (neutralizam) a barreira** e com isso **無効化 (anulam)** o acerto — os dois verbos
 estão no mesmo texto.*
 
+---
+
+## Bloco 3 — Cesta Oca: a caixa de 23/09, a boca, o selo e o resto
+
+Fontes novas deste bloco: 249 — neet-life https://neet-life-blog.com/zyuzyutukaisenn249/ (transcrição),
+eiga-manga https://eiga-manga.com/entry/jujutsu249, manga-games https://manga-games.com/jujutsukaisen-jump-249/;
+238 — neet-life https://neet-life-blog.com/zyuzyutukaisenn238/, eiga-manga https://eiga-manga.com/entry/jujutsu238;
+255 — neet-life https://neet-life-blog.com/zyuzyutukaisenn255/, eiga-manga https://eiga-manga.com/entry/jujutsu255,
+manga-games https://manga-games.com/jujutsukaisen-jump-255/; 187 — yuran https://yuran.work/jujutsukaisen-187-netabare/,
+eiga-manga https://eiga-manga.com/entry/jujutsu187, manga-games https://manga-games.com/jujutsukaisen-jump-187/;
+wiki (API + histórico) https://jujutsu-kaisen.fandom.com/api.php?action=parse&page=Hollow_Wicker_Basket&prop=wikitext&format=json.
+
+**N-044 · a fala do Sukuna no 249 (`…彌虚葛籠を使わせ続け腕と口の半分を封じ…`)**
+1. neet-life (transcrição): 「なるほどなこれがコイツらの次の策か、伏黒恵の記憶から乙骨の術式はコピーだと割れて
+   いる。彌虚葛籠を使わせ続け腕と口の半分を封じ領域内でのみ発動するとみられる無制限での術式コピーで攻める。」
+   eiga-manga (paráfrase): 「乙骨が自分に**必中術式の対抗手段として**「彌虚葛籠」を使わせ続けて腕・口の半分を
+   封じ」. Inglês local (p. 17): *"They want to keep half my arms and mouths busy by making me keep using
+   Hollow Wicker Basket... **as a means of countering the can't-miss attack (probably the Angel's cursed
+   technique)**..."*. 2. Três fontes batem em `腕と口の半分を封じ`. 3. **Não é fala: é pensamento** (as
+   legendas da p. 17 são caixas de pensamento, e o eiga-manga escreve 「胸中で思う」 para o "Ah, I see"). 4 e
+   5: nada muda. ⚠ **A citação do `H` junta a transcrição do neet-life, que pulou uma oração**: a do
+   "contra-medida ao acerto garantido (provavelmente a técnica do Anjo)". Não muda o sentido do `封じ`.
+   **CONFIRMA**, com dois ajustes de redação que não mudam regra: "fala" → **pensamento**; e marcar que a
+   frase japonesa do `H` é de **uma** transcrição de blog, com uma oração a menos.
+
+**N-045 · "o domínio do Yuta carregava a técnica do Anjo, que apagaria a técnica do Sukuna — e, no pior
+caso, ele inteiro"**
+No 249 isso é **palpite do Sukuna**: *"probably the Angel's cursed technique"* (eiga-manga: 「領域に付与されて
+いる必中術式は天使の術式だと**推測**」). Confirma-se no 251: o Yuta dispara o `邪去侮の梯子` em saída máxima
+e ele cai sobre o Sukuna como acerto garantido (neet-life 251: 「必中術式が宿儺に降り注ぐ」). O "pior caso"
+vem do 250, também pensamento do Sukuna: 「リスクは承知の上で天使の術式「邪去侮の梯子」で伏黒恵の中の呪物を
+消し去るつもりだろう」 ("apagar o objeto amaldiçoado dentro do Megumi"). **CONFIRMA**, com a nota: *no 249
+é dedução do Sukuna; o 251 confirma.*
+
+**N-046 · "a descrição oficial da técnica só cita o selo de dedos entrelaçados com os braços estendidos"**
+1. Procurei o selo nas duas descrições oficiais: a ficha (じゅじゅずかん, 05/06/2024) diz só
+   【シン・陰流「簡易領域」の原型。領域を中和し、必中効果を打ち消す】; a narração do 171 diz o mesmo
+   (yuran 171). **Nenhuma fala de selo.** 2. A frase "interlocks their fingers between one another while
+   extending their arms forward" é da **wiki inglesa**: entrou em **13/06/2022** (usuário *Young Mako*,
+   "folds fingers"), e o "interlocks" é de **11/12/2024** (usuário *Duskilion*, "wording I found to be
+   subpar") — histórico pela API (`action=query&prop=revisions&titles=Hollow_Wicker_Basket`). 3. Advogado do
+   `H`: o `I` §0 pode ter lido algum livro oficial. Procurei: a Cesta estreia no cap. 171 (2022), depois do
+   Fanbook (2021); não achei outro livro oficial que a descreva. 4. O que me faria errado: um guia oficial
+   posterior com essa frase. **[NÃO ACHEI]**. **CORRIGE** (é o mesmo tipo de erro do "Fanbook" da Extensão:
+   frase de editor da wiki promovida a oficial). Proposta: *"…e a descrição **da wiki inglesa** (editor,
+   2022/2024) só cita o selo de dedos entrelaçados com os braços estendidos; **as fontes oficiais (ficha e
+   narração do 171) não descrevem o selo**. O que as páginas mostram: o Reggie com as mãos juntas à frente do
+   peito (171 p. 4); o Sukuna com as mãos unidas nos dois pares na ativação do 249 (p. 15) e no par de baixo
+   no 266 (p. 4)."*
+
+**N-047 · 238: quatro braços, duas bocas; a boca da barriga recita sem parar, sem pesar coração e pulmão**
+neet-life 238: 「掌印を結んでいても両の手が空手となる。心肺に負担をかけず呪詞の詠唱を絶え間なく続ける。腕と口が
+常人の倍あるということは…」; eiga-manga 238: 「…心肺に負担をかけずに呪詞の詠唱を絶え間なく続け**られます**」
+(é a análise do Kashimo pelo raio X). E no mesmo capítulo a boca da barriga recita o encantamento do corte
+(「宿儺は二本の腕で掌印を結びつつ、腹の口に「"龍鱗" "反発" "番いの流星"」と呪詞を唱えさせる」).
+**CONFIRMA.** Ajuste fino: o texto é de **capacidade** ("consegue manter o encantamento sem parar"), não de
+que ela recita o tempo todo.
+
+**N-050 · Pixiv 百科 afirma que a boca recita para reforçar a Cesta; "as threads do dia do 249 concordam
+sem contestação"**
+- **Pixiv:** dá 403 direto, e o Wayback (`web.archive.org/web/20251115074305/…/生前宿儺`) existe mas a
+  conexão foi cortada pelo proxy nas três tentativas. **Não acessível** — não confiro o texto.
+- **Thread do 249** (ねいろ速報, http://animesoku.com/archives/36047788.html, lida): o post 83 pergunta
+  「宿儺の腹の口は何を唱えてんの？」; 88 e 89 respondem "encantamento é reforço"; 97
+  (「詠唱はしてもしなくてもいいけど宿儺は常にできるからしてるだけ」); 106 「彌虚葛籠は印結んでる間はずっと有効っぽい」.
+  **Mas não é "sem contestação":** os posts 855 e 862 debocham da ideia (「詠唱で簡易領域強化出来るなら、これまで
+  何もせずにお喋りしてたやつらただの馬鹿やん」; 「詠唱と追い詠唱の概念を後出ししたせいで…」), e o 1028 diz a
+  versão "a boca de baixo fica repetindo 'Cesta' para refazê-la" **com "(適当)" — "chute"**.
+- **Thread do 250** (あにまんch, https://animanch.com/archives/20944892.html, lida): 1434 「いやこつづらには
+  詠唱も必要になったぞ先週から」 e 2254 (o "não se mexa") **conferem**; e há mais contestação: 1315
+  「いやこつづらが詠唱ずーっとして手も組んでなきゃいけない技術ならレジィは残念でしたってした後どうするつもり
+  だったの？」 ("se exigisse encantamento e mãos o tempo todo, o que o Reggie ia fazer depois do 'que pena'?").
+- ⚠ O `J` escreve que o post 83 mostra que "**o painel** mostra a boca da barriga falando alguma coisa". O post
+  não diz isso: ele **pergunta** o que a boca recita. Nas p. 15-18 não há balão da barriga (bloco 1).
+**CORRIGE** (leve). Proposta: *"…a comunidade japonesa lê que a boca da barriga recita encantamento para
+reforçar a Cesta — é a resposta dominante nas threads do 249 e do 250 **[I]**, com contestação (o Reggie não
+recitava; 'não se mexa' no 250). O Pixiv 百科 afirmaria isso como fato (**não acessível nesta verificação**)."*
+
+**N-051 · no 250 o Yuta usa "não se mexa" e a Cesta não cai**
+eiga-manga 250: 「乙骨が「呪言」を発動して「動くな」と口にした」, e logo depois 「「彌虚葛籠」を発動しつつ土煙の中から
+姿を現した宿儺」 — ele sai da poeira **com a Cesta ativa**. Nenhum resumo registra a Cesta caindo nem o acerto
+do Anjo entrando. **CONFIRMA** no sentido "a obra não mostra queda". ⚠ `発動しつつ` também admite "ativando
+(de novo)"; não dá para cravar se ela ficou de pé o tempo todo ou foi refeita — a página não está comigo.
+
+**N-052 · páginas do 249: nenhum balão da barriga; braços cobrem a barriga; inglês "mouths"**
+Minha leitura (bloco 1) bate. E acrescenta: na ativação (p. 15) **os dois pares** estão com as mãos
+unidas. **CONFIRMA.**
+
+**N-053 / N-054 · 255: o corte exige selo 閻魔天 + encantamento + palma; é o voto do tiro no Gojo; não cita
+a Cesta nem a boca**
+neet-life 255: 「宿儺の世界を断絶する"解"の発動には五条悟を斬るために出した時に、1発無条件で撃てる代わりに今後は
+閻魔天の掌印、呪詞の詠唱の両方を満たし、術式の施工性を手掌で設定しなければならない縛りを科していた」;
+eiga-manga 255: 「閻魔天の掌印・呪詞の詠唱の両方で条件を満たし、更に術式の指向性を手掌で設定する必要がある」 e
+「変身前の片腕のみの宿儺が五条を斬るため、その後の発動条件に縛りを科し」; manga-games 255 dá as três
+condições. Nenhum dos três cita `彌虚葛籠` nem a boca (conferido por busca no texto). **CONFIRMA** as duas.
+*Detalhe: eu li três reconstituições, não quatro; e é narração, não fala.*
+
+**N-055 · 266 `発動後も`; 知恵袋 "15 votos" diz que o Sukuna mantém de propósito e que a Cesta só pede selo
+na ativação**
+知恵袋 q11302612801 (https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11302612801, lido): a resposta
+de hkz******** diz 「レジィ戦を見てもわかる通り、彌虚葛籠に掌印の常時使用は求められていません。簡易領域と同様に
+発動時のみ結べばそれでOKです。宿儺は"あえて"掌印を結び続けることで、彌虚葛籠の出力を上げ…」. **As reações
+são なるほど 9 · そうだね 3 · ありがとう 3 = 15** — é soma de três reações, não "votos". E ela **não é a mais
+reagida** da pergunta: a de 1149985429 tem 16 + 4 + 8 = 28, e diz só que o selo mantido dá saída que não
+perde; não trata de o selo ser exigido ou não. **CONFIRMA** o conteúdo e a marca [I]; ajuste: *"15 reações
+(9+3+3)"* no lugar de "15 votos", e "a leitura mais reagida **que trata de o selo ser exigido**".
+
+**N-056 · 171: dois quadros com a Cesta desenhada e as mãos fora do selo (p. 5, uma mão aberta afastada do
+corpo; p. 7, mãos separadas); ele solta antes da narração da p. 6; domínio sem acerto**
+Minha leitura: p. 5 de baixo — **uma mão aberta, afastada** (confirmo); p. 7 — **mãos separadas**, uma baixa
+junto do quadril, o antebraço do outro braço atravessado (confirmo). A narração da p. 6 e da p. 7 confirma
+que o domínio não tinha acerto (yuran 171: 「必中の術式は付与されておらず」). **CONFIRMA.**
+*Nota de método (vale o inverso do achado do `M`): se "não desenhada" não prova queda, "desenhada ao fundo"
+também é desenho, não texto. Aqui eu aceito, porque a esfera aparece **inteira** nos dois quadros; mas o
+"sem pressão ela fica de pé sem selo" é leitura de desenho **[C] páginas**, não texto.*
+
+**N-018 · 171: da p. 8 em diante a esfera não é desenhada; ele apanha e usa facas e facão**
+p. 8, 9, 10 e 11 (locais): sem esfera; na p. 10 facas voando e ele com um facão; na p. 9 ele apanha dos
+clones. **CONFIRMA.**
+
+**N-019 · Cesta, quanto dura: nenhum número; 249→251 são três capítulos; 266 uma luta corpo a corpo**
+Nenhum dos resumos que li (249, 250, 251, 266) dá tempo. **CONFIRMA.**
+
+**N-071 · 187: `発動を諦めるよりも速く`; nunca subiu; acerto do Hakari é informação inofensiva**
+yuran 187 (transcrição): 「秤の領域は必中効果が無害なため」 … 「鹿紫雲は「彌虚葛籠」の発動を諦めるよりも速く
+「座殺博徒」のルールを理解させられた」; eiga-manga e manga-games idem. **CONFIRMA** o texto. Nuance: a frase diz
+que as regras entraram **antes de ele conseguir desistir**; a obra **não mostra** a Cesta ativada — "nunca
+subiu" é a leitura direta, e eu concordo, mas é leitura da frase, não quadro. A página "p. 1" não conferi (a
+wiki cita `chap=187|page=1`). O "+110" do Reddit não conferi (fora da prioridade; o `K` dá o id `1b12ry0`).
+
+**N-063 · o nome, 彌虚葛籠 (Iyako Tsuzura), "caixa vazia que te envolve por inteiro"**
+Leitura いやこつづら confirmada (yuran 171; wiki). **A glosa "caixa vazia que te envolve por inteiro" não
+tem fonte nem marca** no `H` — é leitura etimológica (彌 "por toda parte/cada vez mais", 虚 "vazio", 葛籠 "cesto
+de vime com tampa"). **NÃO FECHA POR TEXTO**; proposta: marcar **[I]** e dizer que é glosa do nome. O nome
+oficial em inglês é *Hollow Wicker Basket*.
+
+**N-067 · "os três usuários são da era Heian ou de 400 anos atrás" [I]**
+Sukuna: Heian. Kashimo: 400 anos (wiki, `age = 400+`, cap. 158). **Reggie: a obra não diz a época** — a wiki
+inglesa só diz *"a jujutsu sorcerer from the past"*; blogs japoneses dizem "Heian" (manga-tantei, sem
+painel), o `K` diz "400 anos" (sem painel), e a ベストアンサー do 知恵袋 q11259505666 diz só "passado, não
+necessariamente Heian". **A marca [I] está certa**; a frase fica melhor como *"Sukuna (Heian) e Kashimo (400
+anos atrás); o Reggie é 'do passado', sem época dita na obra"*. **CORRIGE** (leve).
+
+**N-069 / N-025 · "Cobra METADE das mãos, continuamente" [C]; 266 p. 4 par de baixo no selo, par de cima
+livre**
+- A página (266 p. 4) **confirma** o par de baixo no selo e o de cima livre.
+- Mas a frase-título está **mais forte que a fonte e que a própria caixa do `H`**: (i) "metade" é conta do
+  **Sukuna**, que tem quatro braços — o Reggie, de dois braços, faz o selo com **as duas mãos** (171 p. 4); (ii)
+  "continuamente" é **o Sukuna escolhendo manter** contra domínio forte (266 `発動後も`), e o próprio `H`, na
+  caixa de 24/09, escreve "a técnica não parece **exigir** o selo contínuo… Opcional pela técnica, obrigatório
+  pela situação"; o Reggie soltou (171 p. 5 e 7).
+- Sequência de dúvidas: (1) advogado: no 249 o Sukuna diz que querem "fazê-lo continuar usando a Cesta e
+  selar metade dos braços e da boca" — no **cenário do Sukuna**, é metade e é contínuo. (2) Não é tradução.
+  (3) Terceira fonte: o `J` §1.4 já tinha apontado a mesma coisa ("isso corrige o `H`") e o `H` não aplicou
+  nesta linha. (4) Eu estaria errado se a obra dissesse que a Cesta, por natureza, prende metade dos membros;
+  não diz. **CORRIGE.** Proposta: *"**Segurar contra domínio forte prende as mãos do selo.** No Sukuna, de
+  quatro braços, isso é metade: 'metade dos braços e da boca' (249), o par de baixo (266 p. 4). **[C]** —
+  *para quem tem dois braços, o selo usa as duas mãos (Reggie, 171 p. 4); e manter é o que segura contra
+  pressão (266), não exigência da técnica: sem pressão o Reggie soltou (171 p. 5 e 7).*"*
+
