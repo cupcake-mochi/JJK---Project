@@ -746,3 +746,124 @@ fenômeno. **CONFIRMA.**
 [C] 130** — narração do 130 (acima) + wiki. **CONFIRMA.** *Dado a mais: o Simples do Todo é
 「九十九由基直伝」 — **ensinado diretamente pela Yuki**, fora da escola (ver N-084).*
 
+---
+
+## Bloco 5 — Domínio Simples, parte 2 (246, 248, 254, 258, voto da escola, Modulo)
+
+Fontes novas: 246 — neet-life https://neet-life-blog.com/zyuzyutukaisenn246/, eiga-manga
+https://eiga-manga.com/entry/jujutsu246; 248 — comentário de fim de revista
+https://sagisi4.sakura.ne.jp/haguruma/jyujyutu.html (Shift_JIS); 254 — neet-life, eiga-manga
+https://eiga-manga.com/entry/jujutsu254, manga-games https://manga-games.com/jujutsukaisen-jump-254/; 258 —
+neet-life, eiga-manga https://eiga-manga.com/entry/jujutsu258, manga-games https://manga-games.com/jujutsukaisen-jump-258/;
+269 — idem bloco 4 + manga-games https://manga-games.com/jujutsukaisen-jump-269/; ficha oficial do Simples
+(API do X, id 1788041129780482461); Modulo — ja.wikipedia `呪術廻戦≡` (action=raw), ciatr
+https://ciatr.jp/topics/334430, note https://note.com/kanso_okiba/n/nf8c71f29f380.
+
+**N-076 · "o domínio dos fracos"; Shin-Ryū; criado para proteger discípulos; acerto `無効化`**
+Ficha oficial (05/08/2024… publicada 2024-05-08): 【平安時代に蘆屋貞綱によって考案された技。"領域"から身を守るための
+弱者の"領域"】; narração do 82: 「凶悪巧者な呪詛師や呪霊から 門弟を守るために編み出された技」; narração do 171:
+「付与された術式の必中効果を無効化している」. **CONFIRMA.** *(O `H` não marca esta linha; merece **[C]** 82/171 +
+**[F]** ficha.)*
+
+**N-062 · 254: 「簡易的ではあるが領域は領域」 — dentro do raio o dono sobe e a técnica de fora enfraquece um
+pouco; a nota do Gege no 248; o vol. 28 troca 薄める por 弱める**
+- **254:** eiga-manga 「日下部は、「簡易領域」は術式そのものを中和できる訳ではない、簡易的ではありつつも領域は
+  領域であり、その中では呪力の出力が上昇・宿儺の術は多少弱まると**考えていました**」 (é **pensamento do
+  Kusakabe**); neet-life e manga-games dão o mesmo conteúdo. **CONFIRMA** (e sugiro dizer de quem é).
+- **Nota do 248:** lida na lista de comentários de fim de revista (Jump 2024 nº 8, 22/01/2024, 248話):
+  「簡易領域は術式自体を中和してるわけじゃないから薄めるって表現は違ったかも」 — *"o Simples não neutraliza a
+  técnica em si, então 'diluir' talvez tenha sido a expressão errada"*. **CONFIRMA** [F].
+- **O 薄める do 246 é pensamento do Sukuna**, não do Kusakabe: eiga-manga 246 「…簡易領域で術式を薄めることで、
+  展延ほどではないもののダメージを軽減したと見抜く宿儺」. O `H` não atribui; tudo bem.
+- **Vol. 28 (「その上 簡易領域で 最低限 俺の術式を弱めることで…」):** ⚠ **NÃO FECHA — fonte não acessível sem
+  contornar proteção.** O `L` (ponto 5) diz com todas as letras como leu: baixou as páginas do **leitor oficial da
+  Shueisha**, que as serve **embaralhadas em blocos** ("é a proteção dele"), e **remontou o balão** juntando os
+  blocos. É exatamente o tipo de acesso que esta verificação não pode repetir (leitor com página embaralhada). Não
+  achei o texto do volume em nenhuma outra fonte (busca por 「俺の術式を弱める」 sem resultado; o manga-games escreve
+  弱めた/弱められた nos dois resumos, que o próprio `L` classifica como paráfrase). **Para o Mizuki:** o "[C] vol.
+  28" do `H` depende de uma leitura obtida contornando a proteção do leitor; quem tiver o volume 28 impresso ou no
+  Kindle confere em um minuto (cap. 246, p. 3, o balão do Sukuna). **Até lá, a marca honesta é "[C] revista:
+  薄める (via fãs + nota do autor); vol. 28: não conferido".**
+
+**N-091 · "nem reforço de energia, nem Extensão, nem Simples defende; é morte na hora" — Kusakabe, 246**
+eiga-manga 246: 「「捌」・ゼロ距離で放たれた「解」、「世界を断つ斬撃」の三つは、呪力強化・領域展延・簡易領域のどの
+手段でも防御不可・**基本**即死と考えていいと日下部は分析」; neet-life: 「防御不可能な即死攻撃を３つに絞る」.
+**CONFIRMA**, com um ajuste de tradução: é **"basicamente** morte na hora" (`基本即死`), e é **análise em
+pensamento** do Kusakabe.
+
+**N-078 · "cobre quem estiver no raio" [C] 258**
+258: 「三輪と思われる人物の姿…三輪は「簡易領域」を発動し、真希を斬撃から守っているようで」 (eiga-manga, com
+dúvida); manga-games idem ("多分三輪"). **Quem fecha é o 269**, na fala da própria Miwa: 「真希のマーカー・領域対策として
+控えていた身としては、東堂の術式で自分だけ助かったらどうしよう」 (eiga-manga 269). **CONFIRMA** — melhor citar
+"258 + 269".
+
+**N-080 · 258 p. 16: forma redonda rachada antes do Yuji cortado; "que seja o Simples vem do texto do capítulo"**
+- A página: minha leitura bate (bloco 1).
+- **Mas não há texto do capítulo que diga "o Simples foi arrancado".** O que existe é o **eiga-manga com dúvida**:
+  「「簡易領域」が剥がされてしまったの**か**、全身に斬撃を浴びてしまう虎杖」 ("**talvez** o Simples tenha sido
+  arrancado, e ele toma cortes no corpo todo"); o manga-games diz outra coisa: 「迎撃出来なかった斬撃が虎杖を襲い」
+  ("os cortes que ele não conseguiu interceptar o atingem"). O `M` citou o japonês pelo `I` **sem o 「か」**, e o `H`
+  herdou "vem do texto do capítulo".
+- Sequência de dúvidas: (1) advogado: o desenho (círculo rachado) + a leitura do eiga-manga + o fato de os cortes
+  pararem logo depois fazem a leitura muito provável. (2) Não é tradução. (3) Terceira fonte: a página inglesa não
+  tem texto nesse quadro. (4) O que me faria errado: um balão "簡易領域が…" no 258 que os resumos não copiaram.
+  Nenhum dos três resumos o tem. **CORRIGE** a atribuição, não o fato. Proposta: *"…vem, na ordem de leitura, antes
+  do quadro do Yuji cortado **[C]** (página vista, `M`). *O quadro não tem legenda, e **nenhum texto do capítulo
+  nomeia a forma**: que seja o Simples do Yuji é leitura de resumo (eiga-manga, que escreve 'talvez tenha sido
+  arrancado') **[I]**.*"* — isso vale também para o "258 o do Yuji" do N-020 (a queda é leitura forte, não texto).
+
+**N-083 · "a Miwa abate automaticamente o que entra no círculo" [C] cap. 35**
+35 mostra (「シン・陰流 簡易領域」「抜刀」!! 〔私の「抜刀」がカスりもしなかった!!〕); **quem diz** que é automático
+é a narração do **40** (「領域内(半径2.21m)に侵入したものを"全自動"反射で迎撃する」). **CONFIRMA**; citar "35 (cena) e
+40 (narração)".
+
+**N-092 · "o Yuji desvia por velocidade (35); a Maki quebra a arma, joga os pedaços de isca e desarma a Miwa (40)"**
+Os fatos batem (yuran 35 e 40). **CONFIRMA**, mas **a linha precisa do que o bloco 4 achou**: no 40 a isca serve
+para **tirar os pés da Miwa do ponto**, e é o voto que derruba o Simples (N-093).
+
+**N-084 · "ensinável na prática, mesmo com o voto: o Mechamaru aprendeu vendo, o Gojo aprendeu sozinho, a Yuki
+imitou" [C]**
+- **Mechamaru (82):** 〔これにはあの呪術が封じられている〕〔俺ではこのやり方でしか術を成功させられなかった〕 … 〔全て
+  視てきた〕 — ele **viu tudo**, mas **só conseguiu executar guardando a técnica em tubos** (quatro, um falhou). A wiki
+  concorda: *"unable to cast New Shadow Style: Simple Domain himself, but… imbue the technique into four mechanical
+  tubes"*. "Aprendeu vendo" está **meio certo**.
+- **Gojo (226):** o texto é do Kusakabe: 「いや五条は『教えられない』つったんだ。ああいう初めから何でもできる天才タイプは
+  マジで教えるの向かない」 — ele **não sabe ensinar**; **como** aprendeu, a obra não diz. "Aprendeu sozinho" é leitura.
+- **Yuki:** "imitou" — **[NÃO ACHEI] texto.** A wiki diz *"She learned it through observation"* (ref. 269 p. 13),
+  mas nenhum dos três resumos do 269 que li traz isso. **O que achei no lugar:** a narração do 130 diz que o Simples
+  do Todo é 「九十九由基直伝」 — **ensinado diretamente pela Yuki**, que não é da escola. *Isso é prova mais forte de
+  "ensinável na prática" do que as três do `H`.* E o 258 mostra o Kusakabe ensinando o Yuji pela troca de corpos,
+  com o voto "resolvido" pela Mei Mei (「問題ないよ なんとかしたから♡」), que o 269 explica (ela matou o antigo
+  líder; o Kusakabe virou líder e desfez os votos).
+- **CORRIGE.** Proposta: *"**Ensinável na prática, apesar do voto:** o Mechamaru copiou vendo ('全て視てきた'), mas só
+  conseguiu executar guardando a técnica em tubos (82); o Gojo sabe usar e 'não sabe ensinar' (226); **a Yuki
+  ensinou o Todo diretamente** ('九十九由基直伝', 130); e o Kusakabe ensinou o Yuji pela troca de corpos depois de a
+  Mei Mei 'resolver' o voto (258, 269). **[C]**"*
+
+**N-088 · "voto de não ensinar (`門外不出`) na escola — e é o voto que dá força à técnica" [C]**
+- **O voto existe:** 82 (narração) 「一門相伝 その技術を故意に門外へ伝えることは 縛りで 禁じられている」; 269 o秤 pergunta
+  pelo 「門外不出の"縛り"」 e o Kusakabe confirma (eiga-manga 269). ✓ *(Nota: o termo da narração do 82 é 一門相伝; o
+  門外不出 aparece na fala do 269.)*
+- **"É o voto que dá força à técnica" — sem texto.** O 269 dá **outro** motivo, na fala do Kusakabe: o voto foi criado
+  pelo Ashiya para **impedir o vazamento da técnica para 呪詛師** (「元々呪詛師への技術流出を防ぐ為に作られた」), e a Mei
+  Mei acrescenta que virou **segredo comercial** (「いわば営業秘密」), com o líder **sugando anos de vida dos discípulos**
+  (「当主は門弟から寿命を吸い取っている」). Onde achei a frase "dá força": num **知恵袋** (q11257966561, resposta de
+  "呪術廻戦説明者非公式", 8+3+2 reações: 「これらの縛りにより効果を底上げしています」) e no próprio `A` (l. 694), que a
+  marca como **sub-especulação [FÃ]**. Busquei a Fanbook p. 144 pela wiki (`Simple_Domain`): ela fala do voto e do
+  "見て盗む", não de força.
+- Sequência de dúvidas: (1) advogado: todo voto no JJK troca restrição por força, então "o voto fortalece" é
+  princípio geral plausível. (2) Não é tradução. (3) Terceira fonte: a Fanbook via wiki — não diz. (4) O que me faria
+  errado: um trecho do 269 ou da Fanbook ligando o 門外不出 a potência. Não achei em três resumos do 269 nem na wiki.
+  **CORRIGE.** Proposta: *"**Voto de não ensinar** (`一門相伝`, 82; `門外不出`, 269) — criado para a técnica não vazar
+  para 呪詛師; com o tempo virou segredo comercial da escola, com o líder sugando anos de vida dos discípulos (269).
+  **[C]** *Que o voto 'dê força' ao Simples é leitura de fã **[I]**, sem texto.*"*
+
+**N-085 · o Tsurugi, sem energia, faz o Simples com a energia da espada-ferramenta [C] Modulo 5**
+ja.wikipedia: 「生来の呪力や術式を持たずに生まれた…天与呪縛のフィジカルギフテッドだが、呪具の呪力を用いることで
+シン・陰流などの呪術を扱う」 e 「簡易領域・斑…内部に侵入したものを全自動反射で迎撃する」; ciatr: 「呪具に込められた呪力を
+利用したシン・陰流「簡易領域」斑」 (com a ressalva 「呪力はまったくの0というわけではなく、僅かには所有している」). O
+簡易領域・斑 aparece no ep. 5 (note do ep. 5). **CONFIRMA**, com duas notas: (i) é o spin-off *Modulo* (68 anos
+depois; história do Gege, arte do Iwasaki) — **[C]** com essa etiqueta; (ii) "nasceu sem energia" → **"quase sem
+energia"** segundo o ciatr. *Não conferi que é o **ep. 5** que diz de onde vem a energia; o ep. 5 é onde a técnica
+aparece.*
+
