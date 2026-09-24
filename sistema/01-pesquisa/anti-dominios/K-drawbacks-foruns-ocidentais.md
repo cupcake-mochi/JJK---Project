@@ -119,3 +119,77 @@ A frase japonesa é `腕と口の半分を封じ` (*"selando metade dos braços 
 | 187, Kashimo | **nunca subiu** | "tentou e foi lento" [+110] é **erro**; a frase é "desistir de ativar" | [C] via tradução / [ERRO] do fórum |
 | 249→251, Sukuna × Yuta | **(4) largada, forçada por (2)** | "Sukuna deactivated HWB for world cutting slash" (ver `D` §7.1); teoria do "um selo por vez" | [I] |
 | 266→267, Sukuna × Yuji | **(2) ataque ao usuário**, fim fora de quadro | "breaks down HWB" [+79], rachadura no canto [+4], "Indirectly: weakens output" [+8]; soltou para o domínio [+7] × quebrou [+36] | [I] |
+
+### 1.8 Adendo à Cesta: a peça que liga a boca ao Desmantelar (achada depois do 1.4)
+
+A página `Chapter_255` da Fandom resume o cap. 255 assim: *"Originally, in order to expand Dismantle's target and unleash a slash capable of cutting the world, Sukuna needed only to form the **Enmaten** hand signs — the same used to activate Malevolent Shrine. However, after Gojo's unlimited Hollow Technique: Purple destroyed half of Sukuna's arms, he was rendered incapable of performing the technique. To compensate, Sukuna imposed a binding vow on the world-cutting Dismantle, **adding incantations** and requiring him to guide the slash with his hand."* **[C] via resumo da wiki**, cap. 255 — conferir no japonês.
+
+**O que isso faz com o buraco da boca:** dá base de texto para a **Leitura B** do 1.4. Se o Desmantelar que corta o mundo passou a exigir **encantamento** (voto do cap. 255), então "selar metade dos braços **e da boca**" no 249 é o Sukuna dizendo que a Cesta **tira dele as peças do golpe grande** (o selo e a boca de canto). **Não prova que a Cesta tem encantamento** — prova que a boca é a moeda do Desmantelar. Continua **[NÃO ACHEI]** painel da Cesta sendo recitada. **[I]**, minha costura de duas fontes.
+
+⚠ **Correção de fonte ao 1.3:** a frase inglesa *"Hollow Wicker Basket is going to fall apart!"* chegou a mim por trecho de buscador sobre o cap. 266; **não identifiquei se é da Viz ou da TCB**, e a busca da wiki não a encontrou. Vale como "circula em inglês", não como tradução oficial.
+
+---
+
+## 2 · DOMÍNIO SIMPLES (Simple Domain, 簡易領域)
+
+### 2.1 O drawback que o ocidente enxerga
+
+Dois custos dominam, e os dois já estão no `H`: **pode ser arrancado** e **"não pode sair do lugar"**. O que os fóruns acrescentam é **como** ele cai, com o painel na mão.
+
+**Erro que continua vivo em 2026, agora fora da wiki:**
+- **Aniviewer** (guia de 07/01/2026, sem autor): *"Both of her feet must often remain planted"* e trata o pé plantado como regra de iniciante (*"training wheel"*). **Fonte fraca**, mas aqui ela acerta a atribuição.
+- **u/dahfer25 [+8]** (r/Jujutsufolk `1vxhbsd`, 24/08/2026): *"The one that doesn't allow you to move is simple domain, where you have to mantain the posture or it becomes like a hwb without handsigns, aka, **it gets destroyed in seconds**."* — **teoria**: "mover = cai em segundos" não tem painel; o painel do 206 mostra o contrário (ver 2.2).
+- **u/KrispyKingTheProphet [−1]** e **u/stopcopium [+1]** no mesmo fio corrigem: *"SD can move, it's based on skill level. Miwa can't move, but Gojo and Kusakabe can move."* A correção existe e está **menos votada** que o erro.
+
+### 2.2 Como ele cai — o que o ocidente leu nos painéis
+
+**Cap. 206 (Yuki × Kenjaku) — o painel que derrubou o "não move":** r/Jujutsushi `zhvp9n` (10/12/2022, post **+189**): *"in chapter 206, Yuki used SD to defend against Kenny's DE and **she can run towards him to attack**; but her SD is still activated (though **it's slowly getting destroyed** by Kenny's DE)"*, com o painel linkado. Respostas: **u/Rafgaro [+230]**: *"Maybe it doesnt have the automatic attack in exchange for being able to move"*; **u/cranscape [+136]**: *"the extra limitations (feet staying in position) are a condition needed to give Miwa her offensive boost"*; **u/sentientrubberduck [+39]**: *"I always understood the 'if her feet move' part refer to the quickdraw slash, not the SD in general."* — **[I]**, mas o painel apontado (cap. 206) é o que a obra confirmou depois (cap. 254, Kusakabe sem voto). **Queda: (1) pressão do domínio, gradual ("slowly getting destroyed").** Duração: a wiki diz *"only bought her a few short seconds"* (cap. 206 p. 7, 9). **[C] via wiki.**
+
+**Cap. 258/259 (Yuji dentro do Santuário) — a única vez que o ocidente PROPÔS queda por golpe no usuário, e a comunidade derrubou:**
+- r/Jujutsushi `1clnn0o`, *"Y YUJI'S SIMPLE DOMAIN COLLAPSED"* (06/05/2024, post com score **0**, 40 comentários). O autor sustenta que o Domínio Simples do Yuji **não** foi arrancado pelo domínio: *"yuji's SD was not broken by MS like gojo's but rather it broke because yuji [couldn't] maintain the required conditions for his SD, that is; he lost his balance and couldn't maintain both feet on the ground. This happened because **sukuna used a manual attack** against yuji."* — isto é, **(2) ataque ao usuário → (5) voto quebrado**.
+- **Derrubada, com painel:** **u/turnonforwhat25 [+258]**: *"You skipped a panel that's inconvenient for your argument: the one where it show's **Yuji's simple domain cracking and fracturing *before* he gets hit** in the body by a bunch of slashes."* E ele mesmo, **[+49]**, lê a sequência painel a painel: *(1) Yuji firme; (2) o Domínio Simples rachando; (3) o acerto garantido pega o corpo, com o pé no ar; (4) o pé esquerdo separado; (5) ele arremessado.* Conclusão: *"it simply broke under duress from external pressure."* **u/Aaroniero [+35]** concorda. **u/Abdul-Wahab6 [+41]**: *"Why would Sukuna [do a manual attack] if he's just going to stop his sure hit a second later to use Fuga?"*
+- A wiki registra: *"Just before Malevolent Shrine collapses, Yuji's Simple Domain is **forcibly stripped away**, resulting in multiple slashes that sever his left foot."* **[C] via wiki**, cap. 258 p. 17.
+- **Veredito ocidental: (1) pressão do domínio**, com o painel da **rachadura antes do golpe**. **[I] +258.**
+
+⚠ **Isto muda um detalhe do `D`.** O `D` §6 registrou como consenso que o Domínio Simples *"não degrada, aguenta e depois quebra de uma vez"* (limiar). **Os fios que acham painel dizem outra coisa:** o 206 mostra a Yuki com ele **"slowly getting destroyed"** [+189], o 258 mostra o do Yuji **rachando antes** de o golpe entrar [+258], e o autor do `1clnn0o` resume: *"every time the simple domain is destroyed **gradually** ... as seen in yuki vs kenny and also gojo vs sukuna."* **O que está de pé nas duas leituras: enquanto não rompe, o acerto garantido não entra.** A diferença é só se a casca **mostra desgaste antes** (os painéis dizem que mostra) — **não** se ela **deixa passar dano parcial** (nenhum painel mostra isso).
+
+**Cap. 226 (Gojo) — Domínio Simples junto com a técnica reversa:** a wiki diz: *"He activated Simple Domain **while simultaneously using reverse cursed technique** to heal himself. Gojo's barrier was **quickly destroyed** by Malevolent Shrine and he was struck by its sure-hit effect again. He conjured **another** Simple Domain shortly after and improvised healing his exhausted technique with reverse cursed technique rather than himself."* **[C] via wiki**, cap. 226 p. 9-14, 17. **Queda: (1).** **Detalhe que importa:** a obra mostra Domínio Simples **e** reversa ao mesmo tempo, e mostra que **dá para erguer de novo** logo depois de arrancado. **[NÃO ACHEI]** fio ocidental discutindo o custo de fazer as duas juntas.
+
+**Cap. 130 (Todo × Mahito):** a wiki: *"Mahito activated his domain's cursed technique **before Todo could counter** with Simple Domain."* **[C] via wiki.** O ocidente usa isso como régua de **tempo de ativação** (ver `D` §9.3). Não é queda: **nunca chegou a proteger.**
+
+### 2.3 "Algum Domínio Simples já caiu por golpe no usuário?" — a resposta dos fóruns
+
+**Dentro de domínio: NÃO no que o ocidente leu.** Todo caso votado é (1) pressão (206, 226, 258) ou corrida perdida (130). A **única** proposta de (2) ataque ao usuário é o `1clnn0o`, e ela tem **score 0** contra **+258** do painel que a desmente.
+
+**Fora de domínio: sim, e o ocidente registra dois casos** — mas nenhum é "anti-domínio caindo", é o **programa de contra-ataque** sendo vencido:
+- **Cap. 40 (Miwa × Maki):** resumo da wiki: *"Maki casually breaks her cursed tool and throws it at Kasumi to **negate the effects of her Simple Domain**. Kasumi intercepts [the] projectiles but the latter is able to close the distance and **disarm** Kasumi."* **[C] via wiki.** Leitura ocidental: **u/UnadvisedGoose [+25]** (r/Jujutsushi `1c3yp2z`): *"Miwa ... must use a binding vow to keep her feet planted ... **which is why Maki is able to disrupt it**."* **Queda: (2) ataque ao usuário, explorando o programa automático** (isca arremessada) — o voto aparece como o **motivo de ela não poder recuar**, não como gatilho da queda. **[I] +25.**
+- **Cap. 254 (Kusakabe × Sukuna):** resumo da wiki: *"The sustained assault eventually **shatters Kusakabe's katana**."* Depois disso ele luta a socos, restaura a lâmina com *Hazy Moon* e é cortado. **[C] via wiki.** O Domínio Simples dele era veículo do *Evening Moon* (contra-ataque de espada); **quebrar a espada desmonta o programa**. **[I]** — não achei fio ocidental tratando isso como "queda do Domínio Simples".
+
+### 2.4 A nota do Gege (cap. 248) e a contradição que ficou de pé — o que os fóruns acrescentam ao `D`
+
+- Fio r/Jujutsushi `1aj0311` (04/02/2024, post **+153**, 97 comentários), *"Has there been any updates about the whole thing with Kusakabe defending Sukuna's slashes with a simple domain?"*. OP: *"That was like the second or third time Gege has said weird contradictory statements about simple domain."*
+  - **u/thacomicfan [+111]**: *"I'm pretty sure Gege corrected this in a comment or something. **The volume release will probably have the actual correct move**."*
+  - **u/Zarathoustra1999 [+95]**: *"I think Gege is just being semantic and differentiating between 'technique' and 'technique's effect'. Because he doesn't say SD weakening techniques might be wrong. He's saying 'Simple Domain does not neutralize the technique itself, so expressing it as diluting/watering it down might have been wrong'."*
+  - **u/Sm4shaz [+20]**: *"Simple domain reduces the technique's effectiveness/damage, domain amplification neutralises it."*
+  - **u/luceafaruI [+31]**: *"We will see in the volume releases how the dialogue is changed."*
+- **O que ninguém fechou no ocidente, e é o ponto novo:** **o cap. 254 veio DEPOIS da nota e repetiu o verbo.** O resumo da wiki do 254: *"Kusakabe increases his cursed energy output **while slightly weakening Sukuna's cursed techniques** within the Simple Domain."* E **u/travelerfromabroad [+2]** (r/Jujutsushi, 10/04/2024): *"Kusakabe talks about how even in his simple domain, he gets a boost while opponents and their attacks are weakened."* **[C] via wiki**, cap. 254 p. 1-2. **Se a revista do 254 fala em "enfraquecer levemente" seis capítulos depois da nota do 248, a nota não matou o conceito — ela trocou a palavra do 246** (a leitura do u/Zarathoustra1999 [+95] fica de pé: o que o Gege recuou foi **"diluir"** como **neutralização**, não o **efeito de reforço/enfraquecimento dentro do raio**).
+- **Volume encadernado:** **[NÃO ACHEI]** registro ocidental de que o texto do 246 mudou no volume. Procurei: WebSearch ("volume 27 changes chapter 246 Kusakabe simple domain"); título "volume" no r/Jujutsushi (o Arctic Shift deu timeout duas vezes). **Fica em aberto: o ocidente esperou a mudança no volume e eu não achei ninguém confirmando que ela veio.** É pergunta para o agente japonês (comparação 本誌 × 単行本).
+
+### 2.5 Custo de energia, duração, e o "domínio aberto"
+
+- **Energia:** **[NÃO ACHEI]** número ou painel em inglês. O único dado de energia é o **inverso de custo**: no 254 o Domínio Simples **aumenta** a saída do dono (*"increases his cursed energy output"*). **[C] via wiki.**
+- **Duração por cena, segundo a wiki inglesa:** Yuki **"a few short seconds"** (206); Gojo **"quickly destroyed"** (226); Yuji/Ino/Choso/Miwa **"almost 99 seconds"** (258). **Nenhum limite próprio da técnica aparece** — o tempo sempre é o do domínio que pressiona. **[C] via wiki.**
+- **Por que os de 258 duraram tanto:** o `D` §6 já tem a briga ("voto de 99 s" × "Sukuna nerfado"). O `1clnn0o` acrescenta uma terceira hipótese: *"The domain that sukuna used in the last chapter was an **incomplete domain** ... this incompleteness is the reason y their SD's are holding"*, apoiada na fala do Yuji *"it's an incomplete domain. I can endure it"* (painel linkado). **[I]** — a obra diz que o Santuário do 258 não tinha perda de saída (ver `D`), então a hipótese tem contra-texto.
+
+### 2.6 Domínio Simples — como cai, cena por cena, no olho ocidental
+
+| cena | queda (1–6) | tempo | o que o ocidente diz | marca |
+|---|---|---|---|---|
+| 40, Miwa × Maki (fora de domínio) | **(2)** via isca no programa automático | — | "Maki is able to disrupt it" pelo voto | [I] +25 |
+| 102, Ui Ui × Varíola | **(6)** | — | a Mei Mei resolve do lado de fora | [C] via wiki |
+| 130, Todo × Mahito | **nunca protegeu** (perdeu a corrida) | 0,2 s do Mahito | régua de tempo de reação | [C] via wiki |
+| 206, Yuki × Kenjaku | **(1)**, gradual | "a few short seconds" | "slowly getting destroyed" enquanto ela corre | [I] +189 / [C] via wiki |
+| 226, Gojo × Sukuna | **(1)**, e ergue outro | "quickly destroyed" | junto com reversa | [C] via wiki |
+| 254, Kusakabe × Sukuna (fora de domínio) | **(2)** — a espada do programa quebra | — | — | [C] via wiki |
+| 258, Yuji × Santuário | **(1)**, racha antes do golpe | "almost 99 seconds" | proposta de (2)+(5) derrubada: +258 × 0 | [I] +258 |
+| 258, Ino / Choso / Miwa | **(6)**, o domínio acabou antes | ~99 s | "only Yuji's broke" | [I] |
