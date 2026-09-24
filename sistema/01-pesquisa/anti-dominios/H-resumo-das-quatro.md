@@ -115,7 +115,7 @@ do domínio inimigo. O nome se lê *"caixa vazia que te envolve por inteiro"*.
 > (apontado pelos próprios japoneses, `J` §1.3).
 > **[NÃO ACHEI], nos três arquivos:** painel ou texto da Cesta **tendo encantamento próprio**.
 > **Nas páginas do 249 (`M`):** nenhum balão sai da barriga (p. 15-18), e na ativação os braços cobrem
-> a barriga. E a tradução inglesa escreve *"half my arms and **mouths**"*, no plural: o japonês não marca
+> a barriga — *duas leituras independentes, a minha e a do Mizuki*. E a tradução inglesa escreve *"half my arms and **mouths**"*, no plural: o japonês não marca
 > número, e com duas bocas "metade das bocas" é **uma** boca. *É leitura de tradução, não texto novo.*
 > **Cap. 255, confirmado no japonês** (`L` ponto 2): o corte que divide o mundo exige **selo 閻魔天 +
 > encantamento (`呪詞の詠唱`) + direção pela palma**. É o voto que pagou o tiro sem condição que matou
