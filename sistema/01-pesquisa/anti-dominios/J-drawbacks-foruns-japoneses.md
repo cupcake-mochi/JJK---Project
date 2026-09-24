@@ -471,3 +471,48 @@ não tem, perde (a adaptação do Mahoraga **"enegrece"** no 231–232 quando o 
 | "Ela **não** neutraliza o acerto garantido de domínio" | 知恵袋 q12305577877 (0 votos); q12285016442 (12 e 13 votos) | contra o Fanbook p. 143 | **perde**: a ベストアンサー da q12285016442, **66 votos**, cita o Fanbook p. 143 dizendo que neutraliza |
 | **O ataque vira só físico**, e quem luta à distância sofre | 知恵袋 q10242132000 (331 votos); ねいろ速報 34432643, post 219 (`展延は防護服切る代わりに自分もMP消費技が使えない` *"veste roupa de proteção, mas perde os golpes que gastam MP"*) | **[C]** caps. 84–85 | consenso |
 
+
+---
+
+## 1.8 · ADENDO À CESTA — ⭐⭐ o cap. 251 é a queda MAIS CLARA da obra, e é por largada + braços presos
+
+*(Achado depois de fechar o bloco 1; vai aqui para não reescrever o que já foi salvo.)*
+
+**O que a cena mostra** (eiga-manga, manga-games e neet-life-blog, que batem entre si):
+
+1. O Sukuna avalia: `宿儺の呪力出力も肉体の支配もかなり鈍ってきたな` *"minha saída e o controle do
+   corpo já ficaram bem lentos"* — é o efeito dos socos de alma do Yuji que o 250 descreveu. **[C]** cap. 251
+2. Ele **decide soltar a Cesta** e disparar o Corte do Mundo **aceitando tomar a técnica do Anjo**:
+   `彌虚葛籠を解き、天使の術式を受けながら捨て身の「解」世界を断つ斬撃を放つ` *"desfaz a Cesta e,
+   mesmo tomando a técnica do Anjo, dispara o corte do mundo como golpe suicida"*. **[C]** cap. 251
+3. **O time já esperava isso** (`そう来ることは想定済み!!`): **o Yuji e a Rika seguram os braços dele**
+   para que **não consiga formar o selo da Cesta de novo** (`宿儺の腕を掴み彌虚葛籠の掌印を結ばせない様に抑える`),
+   e o Yuta **enfia o braço na boca da barriga e arranca a língua**, depois corta a boca do rosto —
+   porque conclui que o Corte do Mundo **exige selo, encantamento ou os dois**
+   (`単技でも掌印・呪詞の詠唱、もしくはその両方が必須のはず`). **[C]** cap. 251
+4. `リカ・虎杖に腕を封じられて「彌虚葛籠」が維持できていない宿儺は、乙骨が放つ出力最大の「邪去悔の梯子」を正面から食らう`
+   *"com os braços presos pela Rika e pelo Yuji, **sem conseguir manter a Cesta**, o Sukuna toma de
+   frente o Jacó do Anjo na saída máxima"*. **[C]** cap. 251
+5. Mesmo assim ele sobrevive, termina o encantamento (`龍鱗・反発・番いの流星`) e corta o Yuta. **[C]** cap. 251
+
+**Classificação:** **(4) largada**, forçada por **(2) ataque ao usuário** — primeiro a erosão da
+saída pelos socos (250–251), depois **os braços presos** impedindo refazer o selo. *É a única cena
+que achei em que alguém derruba uma anti-domínio **segurando fisicamente o dono**.*
+**Duração:** do começo do domínio do Yuta (249) até aqui (251); **[NÃO ACHEI]** tempo em segundos.
+
+**E a boca, de novo.** Este capítulo é a melhor pista canônica: o Yuta **arranca a língua da boca
+da barriga** — a mesma boca "selada pela metade" no 249 — para impedir encantamento. **[C]** para o
+gesto; **[I]** para "a boca da barriga era a que encantava a Cesta".
+
+**Como o Japão reagiu** (reação ao 251, 26/02/2024):
+- ねいろ速報 36139701, post 1387: `上の口だけで次元斬できるなら彌虚葛籠しながらできたろ` *"se dá pra fazer o
+  Corte do Mundo só com a boca de cima, dava pra fazer segurando a Cesta"*; post 1438: `印を複数組めるし呪詞を複数唱えられるから口や腕が複数あるのが強いって説明なのに同時併用出来ないってどういうことだ…？`
+  *"a explicação era que ter várias bocas e braços é forte porque dá pra fazer vários selos e
+  encantamentos; então por que não dá pra usar junto?"* — **os japoneses apontam a mesma
+  incoerência da boca** que o Mizuki: se a Cesta ocupa só metade, a outra metade devia bastar.
+- あにまんch 20946984, bloco de crítica (linhas 385–386 da thread): o time **selou os braços com
+  cuidado** mas **não voltou a selar boca e língua**, e o Sukuna encantou mesmo assim; posts 2245 e
+  2616 perguntam **como ele encantou com as duas bocas destruídas**. **Sem resposta na thread.**
+- あにまんch 20946984, post 2485: `結界術であるイヤコツヅラもミズシも消滅させません？` *"o Jacó não
+  devia apagar a Cesta e o Santuário, que são técnica de barreira?"* — sem resposta. **[I]**
+
