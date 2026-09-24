@@ -8,6 +8,75 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.265] — 24/09/2026
+
+**A pesquisa dos quatro anti-domínio foi CONFERIDA, e NENHUM número do sistema se move.** *Esta versão é a segunda metade da v0.264: a rodada foi atrás de **drawback** e de **como cada uma cai**, fechou os buracos que tinham ficado, leu páginas do mangá e passou o `H-resumo-das-quatro.md` por uma verificação cega.* **A peça 11 fica exatamente como estava** — *as divergências passaram de oito para catorze, duas mudaram de base, e todas continuam decisão do Mizuki.*
+
+### 1 · O que entrou
+
+**`3.254` linhas novas em `sistema/01-pesquisa/anti-dominios/`**, *e o `H` foi de `203` para `591`.*
+
+| arquivo | o que é |
+|---|---|
+| `I-queda-e-custo-na-obra.md` | toda cena das quatro, com a queda classificada em seis respostas e o que o dono pagou |
+| `J-drawbacks-foruns-japoneses.md` | 弱点 e 解除 nos fóruns japoneses, com votos |
+| `K-drawbacks-foruns-ocidentais.md` | o mesmo recorte em inglês, com score — o Reddit saiu pelo `arctic-shift`, porque o `pullpush` deu `429` a rodada inteira |
+| `L-cinco-pontos-em-aberto.md` | os cinco buracos que as três frentes deixaram |
+| `M-paginas-conferidas.md` | `34` páginas do mangá (caps. 108, 171, 249, 258, 266 e 267) que o Mizuki mandou, lidas quadro a quadro — as imagens **não** entram no repositório |
+| `N-verificacao-do-H.md` | a verificação cega do `H`: `118` afirmações contra a fonte, `85` confirmadas e `26` corrigidas |
+
+### 2 · A pergunta do Mizuki, respondida: como cada uma cai
+
+**Nenhuma das quatro tem relógio próprio na obra, e todas caem por fora.** *Esgotamento puro nunca aparece.*
+
+- **Cesta Oca:** *racha sob **soco de alma** no dono (266) e é **largada** para o golpe grande (251); a queda em si fica fora de quadro.* **Enquanto está de pé ela veta o corte que divide o mundo** (250), *e o 255 diz o porquê: o corte pede selo, encantamento e palma.*
+- **Domínio Simples:** *dentro de domínio, **só** pela pressão — nunca por golpe no dono; fora de domínio, cai o programa de contra-ataque.* **E o voto da Miwa é acionado em cena** (40): *a isca da Maki a faz tirar os dois pés do ponto, e o Simples se desfaz.*
+- **Pétala:** **cai com soco comum** *do dono do domínio, que não é acerto garantido (108; pelo anime e pelo efeito — o mangá não diz com palavras) — o único caso da obra de anti-domínio caindo por soco comum dentro de domínio —, e é largada para abrir o domínio (227).*
+- **Extensão:** **largada para usar a técnica** *em quase todas as cenas; e técnica de saída alta **passa em parte** (232), o que deixou de ser inferência do amedot.*
+
+### 3 · ⚠ O que a verificação derrubou da própria v0.264
+
+*A entrada da v0.264 fica como está — a v0.50 decidiu não reescrever histórico —, e as correções moram aqui e no `H`.*
+
+- **§4, "`中和` é subtração com piso", valendo para as quatro.** *A atenuação só tem cena na **Extensão**: o Vermelho passa mitigado (232).* **A Cesta e o Simples anulam o acerto por inteiro até serem arrancados** — *é limiar —, e a Pétala não usa `中和`: intercepta.*
+- **§7, "a Extensão dilui o Acerto".** *O `薄まる` só existe no pensamento do Gojo no cap. 84, que pode ser sobre o acerto da **própria** Extensão; o 171 não o diz.* **O Fanbook p. 143 diz que ela neutraliza (`中和可能`), e nenhuma cena a põe contra acerto de domínio inimigo.**
+- **§7, "a Cesta Oca é sustentável".** *Ela **racha** sob golpe no dono (266 p. 16), e "um dia sempre perde a queda de braço" (266).*
+- **§3, a fala "contra efeito complexo não serve" é do Kusakabe**, não do Choso. *O Choso diz a outra parte: "não é técnica que encare a saída de um domínio".*
+- **§6, "a descrição oficial só cita o selo".** *Quem descreve o selo é a wiki inglesa; a ficha oficial e a narração do 171 não descrevem.*
+
+*E no `H`, fora da entrada: o "mais de um minuto" da Pétala é fala do cap. 109 sobre o **Nanami**, que não tem anti-domínio — o minuto mede sobrevivência, não a técnica.*
+
+### 4 · As divergências com a peça 11: de oito para catorze
+
+**Seis frases da peça 11 atribuem à obra o que a obra desmente**, *e entraram na tabela do `H` com a linha da peça:*
+
+- a Cesta *"não faz mais nada"* — **o Sukuna chuta e troca socos segurando ela** (266);
+- a Cesta *"não quebra, e é a única das quatro assim"* — **ela racha** (266);
+- a Pétala *"cai se você perder a concentração"* — **é programa automático** (227), *e o "concentração" nasceu num artigo da Fiction Horizon de 27/10/2023;*
+- o Gojo *"nunca tinha usado"* a Pétala — **parou de usar depois de pegar o domínio** (227);
+- a Extensão *"faz o seu ataque acertar independentemente"* — **é a frase da wiki, não do Fanbook**;
+- *"nenhuma serve contra a incompleta"*, valendo para a Extensão — **o 171 diz isso só da Cesta e do Simples**.
+
+**Duas das oito antigas mudaram de base** *(a da Extensão e a do "Simples × Cesta", pelos motivos da seção 3)*, **e a do "pés no chão" ficou mais precisa:** *a obra diz "os dois pés saírem **do ponto onde foi ativado**".*
+
+### 5 · O que continua [NÃO ACHEI], e isso é resposta
+
+**Custo de energia das quatro, limite de tempo, Extensão junto com a técnica reversa, Cesta com encantamento próprio, Kamo usando a Pétala e como se aprende a Cesta** — *seis buscas novas na verificação, e nada.* **A obra não amarra nenhum desses números: são desenho do Mizuki.**
+
+### 6 · Duas lições de método, e uma regra nova para agente
+
+- **"A técnica deixou de ser desenhada" não prova que ela caiu.** *No 249 p. 16 o Sukuna troca golpes sem a esfera desenhada, entre a ativação (p. 15) e a fala de que continua usando (p. 17).* **O que prova queda é o efeito — o acerto alcançar o dono — ou o texto.**
+- **Quem coordena lê o arquivo do agente, não o relatório dele.** *Na primeira volta desta rodada, um "desacordo" entre agentes sobre o cap. 254 era só a frase do relatório; o arquivo concordava com os outros dois.*
+- **Agente não contorna proteção de acesso.** *Um agente leu o balão do cap. 246 no vol. 28 remontando as páginas embaralhadas do leitor da amostra oficial; a verificação não repetiu, e o dado voltou a **não conferido**.* **Quem tiver o volume confere o balão.**
+
+### 7 · Onde isso mora, e o que foi rodado
+
+**Tudo está no branch `claude/jjk-anti-dominios-research-59hjly`, e NÃO no `main`.** *A entrega (`finalizado/`) e o repositório da ficha não foram tocados.* **A bateria rodou numa sessão na nuvem, com `python-docx`:** *`30` dos `31` validadores passam, e o `conferir-repositorio.py` reprova só pelas duas citações de `finalizado/livro/`, que não existe naquela máquina — e pula a conferência da entrega pelo mesmo motivo.* **É ambiente, não regra; mas o verde de verdade é o `subir.sh` na pasta de trabalho.**
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: *o item 6 da fila, com as catorze divergências entre a peça 11 e a fonte — parte é conserto de fato, parte é preço, e tudo é decisão do Mizuki.*
+
+---
+
 ## [0.264] — 23/09/2026
 
 **A pesquisa de campo dos quatro anti-domínio entra no repositório, e NENHUM número do sistema se move.** *Esta versão é levantamento e registro: `6.023` linhas de nota de campo em `sistema/01-pesquisa/anti-dominios/`, o parecer da ideia 11 medido, e as pontas do `ESTADO-ATUAL` que venceram.* **A peça 11 fica exatamente como estava** — *as oito divergências que a pesquisa achou estão registradas como fila, e cada uma é decisão do Mizuki, não conserto automático.*
