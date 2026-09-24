@@ -152,3 +152,42 @@ Texto: transcrição completa das falas do 171 (https://yuran.work/jujutsukaisen
 - **Somado ao 266** (`発動後も掌印を結んだままにすることで出力を補い` — *"mantendo o selo **mesmo depois** de ativar, suplementa a saída"*), o conjunto aponta para **"o selo é para ativar; mantê-lo é reforço"**, que é a leitura do `J` §1.4 e do `K` §1.2. **[C] + [I]**
 - **O que ele NÃO prova:** que ela aguenta **algum tempo** sem selo, ou que aguenta **pressão de domínio de verdade** sem selo — o domínio do Megumi **não tinha acerto garantido**, então **não havia nada empurrando a Cesta**. É o pior caso para testar a pergunta. **[I]**
 - **Correção de detalhe ao `K` §1.2:** o u/tomtadpole escreveu *"persist after Reggie unclasped his hands **when he realised Megumi's domain was incomplete**"*. **O soltar das mãos vem antes da percepção**, no quadro do susto; a percepção só chega na p. 11-12, quando a Cesta já não aparece.
+
+---
+
+## Ponto 4 — O Fanbook diz que a Extensão anula o acerto garantido de domínio?
+
+**Resposta curta:** **sim — com o verbo 中和 ("neutralizar"), não "anular".** O texto é 「領域展延の発動中は、領域展開の必中効果を中和可能。」, na **p. 143** do 公式ファンブック. **"Sempre acerta" não está no Fanbook** (é frase de editor da wiki, com data e autor abaixo). **"Diluir"/薄まる também não está.** Não vi a página impressa: o texto vem de **duas citações japonesas independentes que batem palavra por palavra**, e a primeira frase bate com a ficha oficial.
+
+### O texto
+
+**Parágrafo inteiro**, reproduzido pelo eiga-manga como bloco com rodapé 「引用元：『呪術廻戦』公式ファンブック」 (https://eiga-manga.com/entry/jujutsu-ryoikitenkai — o mesmo artigo cita no mesmo formato os verbetes do Fanbook para o Domínio Simples e a Pétala):
+
+> 自身の体に、膜のように薄く領域を展開する行為を「領域展延」という。**領域展延の発動中は、領域展開の必中効果を中和可能。**また触れた対象の術式も中和でき、さらに発動中でも自由に行動できるという大きなメリットを有している。しかしながら、領域展延中は生得術式を発動できず、そのため攻撃手段が物理に限られる。
+>
+> *"Chama-se Extensão de Domínio o ato de abrir um domínio fino, como uma membrana, no próprio corpo. **Com a Extensão ativa, é possível neutralizar o efeito de acerto garantido de uma Expansão de Domínio.** Também neutraliza a técnica do alvo em que toca e, além disso, tem a grande vantagem de permitir agir livremente enquanto está ativa. Porém, durante a Extensão não se pode ativar a técnica inata, e por isso os meios de ataque ficam limitados ao físico."*
+
+**Segunda fonte, independente, com a página:** Yahoo!知恵袋 q12285016442, ベストアンサー de 26/08/2023 (reações: なるほど 42 · そうだね 10 · ありがとう 14 = as "66" do `J`): 「「領域展延の発動中は、領域展開の必中効果を中和可能。」と**ファンブック143p**に書いてある通り、領域展開の対抗策としての使用は可能です」 — *"como está escrito na p. 143 do Fanbook, ela pode ser usada como contramedida à Expansão de Domínio."* (https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q12285016442)
+
+**Terceira peça, que confere a fidelidade do eiga-manga:** a ficha oficial じゅじゅずかん (@jujutsu_PR, 03/04/2024) é 「自身の体に膜のように薄く領域を展開する行為」 — **a primeira frase do parágrafo do Fanbook, quase letra por letra.** **[F]**
+
+→ **[F] Fanbook p. 143, via duas citações que batem.** Grau de confiança: alto para a frase-chave (duas fontes com a mesma sequência de palavras, uma com página); médio-alto para o resto do parágrafo (uma fonte, mas com rodapé de citação e primeira frase conferida na ficha oficial).
+
+### O que o Fanbook diz e o que ele NÃO diz
+
+| afirmação que circula | está no Fanbook? | de onde vem |
+|---|---|---|
+| **"neutraliza o acerto garantido de domínio"** (u/Natsu_Happy_END02, +16: *"it's possible to negate a Domain's Sure-Hit effect"*) | **SIM**, frase 2. A tradução inglesa troca **中和 (neutralizar)** por *negate*; o sentido é o mesmo, o termo técnico não. | **[F]** p. 143 |
+| **"neutraliza a técnica em que toca"** | **SIM**, frase 3 (`触れた対象の術式も中和でき`) | **[F]** p. 143 |
+| **"move-se livre"** | **SIM** (`発動中でも自由に行動できる`) | **[F]** p. 143 |
+| **"técnica inata desliga, ataque só físico"** | **SIM** (`生得術式を発動できず…攻撃手段が物理に限られる`) | **[F]** p. 143 |
+| **"um ataque com ela sempre acerta"** (`H` §4, marcado [F] Fanbook p. 143) | **NÃO.** | Wiki inglesa, página `Domain_Amplification`: a frase *"This means an attack with amplification will always land regardless of the opponent's technique"* foi escrita pelo usuário **Young Mako** em **11/05/2024** (revisão 63867), e a referência ao Fanbook foi pendurada nela 17 minutos depois (revisão 63870). **Na mesma edição ele trocou a página citada de 142 para 143.** É **conclusão do editor** ("This means…"). **[I]** |
+| **"contra o acerto garantido ela só dilui (薄まる)"** | **NÃO.** O Fanbook diz 中和可能, sem ressalva. | Só o pensamento do Gojo no cap. 84 (ambíguo, ver `I` §4.2) |
+
+**E a wiki inglesa se contradiz na mesma página**, o que explica parte da confusão: na "Description" ela escreve *"weaken the sure-hit effect imbued into **opposing** domains"* (ref. cap. 171 p. 5, que **não** diz isso — ver `I` §4.2) e, dois parágrafos depois, *"The user can feel **their** domain's sure-hit effect is weakened but they can still neutralize their opponent's technique"* (ref. cap. 84) — ou seja, a **leitura B** do `I` (o acerto garantido **da própria** Extensão fica ralo). **[I]** da wiki, nos dois casos.
+
+### O que isso muda, sem propor regra
+
+- **O Fanbook e o mangá não brigam, mas também não se confirmam:** o Fanbook afirma que ela neutraliza o acerto garantido de domínio; o mangá **nunca pôs a Extensão sozinha contra o acerto garantido de um domínio inimigo** (`I` §4.4). **Então "neutraliza o acerto garantido" é [F] sem cena [C].**
+- **A leitura "só parcial contra o acerto" perde o apoio que tinha:** ela dependia do 薄まる do cap. 84, e o Fanbook, que é posterior (lançado em 2021, depois do cap. 84 de 2019), escreve 中和可能 sem ressalva. **Não prova a leitura B do 84; só tira da leitura A o papel de "regra".** **[F] + [I]**
+- **Contra-argumento japonês registrado** (mesma pergunta do 知恵袋, respostas com menos reações): *"o Sukuna apagou o acerto do Vazio Ilimitado **tocando o Gojo** com a Extensão, então ela em si não teria a função de neutralizar acerto"* (てんてん, 6/5/2). É leitura do cap. 227-228, onde os acertos dos dois domínios já se anulavam. **[I]**, perde para o texto do Fanbook.
