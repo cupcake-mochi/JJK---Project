@@ -198,3 +198,108 @@ uma inferência: se o Kashimo pensou na Cesta e não num domínio, **ele não te
   consegue expandir domínio por dano na parte do cérebro que cuida de barreira, mas consegue a
   Cesta** — e pergunta se a Cesta então não é técnica de barreira. Sem resposta.
 
+
+---
+
+## 2 · Domínio Simples — 簡易領域 (かんいりょういき)
+
+### 2.1 Como cai: o Japão só registra UMA via clara, a pressão (剥がされる) — e dá o tempo
+
+**O que as cenas mostram, relidas pelos resumos japoneses:**
+
+| cap. | quem | contra | como caiu | quanto durou | marca |
+|---|---|---|---|---|---|
+| **206** | Yuki | domínio do Kenjaku (`胎蔵遍野`) | `みるみる剥がされていく` *"vai sendo descascado a olhos vistos"*; depois o Kenjaku **aponta o dedo** e `九十九の簡易領域を全て剥がす` *"arranca o Domínio Simples da Yuki inteiro"*. Ela aparece com o braço direito torcido e sangrando pelo corpo todo | **menos de 10 s**: o plano do Tengen **precisava de 10 s** de Domínio Simples, e ela não chegou lá | **(1) pressão** [C] cap. 206 |
+| **226** | Gojo | Santuário Malevolente | Choso avisa: `「簡易領域」程度の出力では本物の領域に対して時間稼ぎにしかならない` *"com a saída de um Domínio Simples, contra um domínio de verdade só se compra tempo"*; e ele `すぐに剥がされて` *"é arrancado logo"* — **duas vezes seguidas**, e o Gojo leva o corte no pescoço na segunda | "logo" (`すぐに`), sem número | **(1) pressão** [C] cap. 226 |
+| **254** | Kusakabe | Sukuna **sem domínio** (ele não conseguia expandir) | não caiu por pressão: o Kusakabe **é derrubado** (o Sukuna segura a lâmina do `朧月` com os dedos e o corta) | uma luta inteira de capítulo | **incerto** — o Domínio Simples some quando o dono cai, mas a obra não mostra o círculo se desfazendo; ver 2.3 |
+
+- No 206, antes da luta, **a Yuki mesma** diz que Domínio Simples e Cesta **só compram tempo** contra
+  domínio de verdade, e o Tengen responde que **o do Kenjaku não se compara ao dos outros**:
+  `簡易領域さえ他の術師と同列に扱わない方がいい` *"nem o Domínio Simples dele dá para tratar como
+  o dos outros feiticeiros"*. **[C]** cap. 206. *Ou seja: a obra admite Domínio Simples de
+  qualidade diferente por usuário.*
+- **O relógio que o Japão cita:** ねいろ速報, thread de 03/08/2023, post 67:
+  `肝心の領域対策が10秒くらい時間稼ぐので限界` *"o próprio anti-domínio compra uns **10 segundos, e
+  é o limite**"* — http://animesoku.com/archives/34432643.html. **[I]**, e bate com o plano de 10 s
+  do cap. 206, que é o único número da obra.
+- **Leitura geral dos fóruns:** "Domínio Simples = time-buy frágil". ねいろ速報 (254), post 110:
+  `羂索とかすっくんにベリベリ剥がされるだけの下位スキル扱いだった簡易領域が再評価された`
+  *"o Domínio Simples, que era tratado como skill inferior que o Kenjaku e o Sukuna arrancam
+  inteiro, foi reavaliado"* [pelo Kusakabe no 254]. **[I]**
+
+### 2.2 O que o japonês lista como fraqueza (e quantos apoiam)
+
+| afirmação | fonte | aponta cena? | apoio |
+|---|---|---|---|
+| **Só compra tempo; com o tempo é arrancado** (`時間経過で押し負け`) | 知恵袋 q14286061739, única resposta | sim, "vol. 23" (= cap. 206) | 4 votos |
+| **"Uma vez aberto, dá para se mover"** (contra o mito do pé plantado) | mesma resposta; あにまんch 20929277 post 49 (`簡易領域使用中は走れる(九十九参照)` *"dá pra correr com ele, vide a Yuki"*) | sim, cap. 206 (a Yuki corre até o Kenjaku) | 4 votos + 1 post |
+| "Não existe regra de ficar parado; os pés no chão são da Miwa, e nem se sabe se é da técnica ou do voto dela" | 知恵袋 q12266657542 | Mechamaru mexendo o robô dentro do domínio do Mahito; Todo se movendo logo depois de ativar | 0 votos (5 respostas, nenhuma votada) |
+| **"Não é barreira: não impede entrar de fora"** (`簡易領域はバリアではありませんから、外からの侵入を防げず`) | 知恵袋 q11257966561, resposta mais votada | "provado pelo Yuji no Intercâmbio" | **37 votos** |
+| Anula só o acerto garantido; **o buff de ambiente do domínio e a técnica "normal" reforçada continuam** | 知恵袋 q12266657542 | 考察 | 0 votos |
+| Com o acerto anulado, **o golpe mirado ainda te mata**: "de 'morre ao ser usado' para 'morre se acertar'" | 知恵袋 q12266657542 | 考察 | 0 votos |
+| **Tática de "5 contra 1"**, não de duelo: `5人くらいで特級呪霊ボコるときには重宝する…タイマンだと動けないから嬲り殺しにされるだけ` | ねいろ速報 34596415, post 72 | 考察 (e parte do mito "não se move") | 1 post |
+
+⚠ Várias fontes japonesas ainda repetem **"não sai do lugar"** e **"raio de 2,21 m"** como regra geral
+(Anitage+, zen-seer 2026, 知恵袋 q11257966561 de 37 votos). **É o mesmo erro que o arquivo `D`
+rastreou na wiki inglesa** — só que no Japão ele é ainda mais comum.
+
+### 2.3 ⭐ "Algum Domínio Simples já caiu por golpe no usuário?" — no Japão, **ninguém aponta um**
+
+- **[NÃO ACHEI]** post, resposta ou blog japonês que mostre um Domínio Simples caindo porque o dono
+  apanhou. Procurei `簡易領域 解除`, `簡易領域が解け`, `簡易領域 破られる 方法`,
+  `簡易領域 弱点`, 知恵袋 (7 threads), あにまんch (3), ねいろ速報 (4).
+- O guia japonês mais completo que achei (zen-seer, jan–mar/2026, https://zen-seer.com/?p=11978)
+  lista **três** jeitos de derrubar, e nenhum é "bater no dono":
+  1. **domínio mais forte que empurra** — o caso da Yuki (206); **[C]**
+  2. o Domínio Simples **não anula a técnica**, então golpe direto machuca normal — isso é dano, **não
+     queda**; **[C]** cap. 171
+  3. **usar o voto contra o usuário**: `三輪の簡易領域は「両足を地面から離せない」…強制的に移動させれば簡易領域が解除されます`
+     *"o da Miwa não deixa tirar os pés; forçar ela a se mover desfaz o Domínio Simples"* → **(5)
+     condição ou voto**. **[I]** zen-seer, sem cena de alguém fazendo isso.
+  E acrescenta, sem painel: **abrir a própria Expansão de Domínio desfaz o Domínio Simples**
+  (`簡易領域を展開している状態で領域展開を発動しようとすれば、簡易領域が解除されてしまいます`) →
+  **(4) largada**. **[I]**
+- **Kusakabe, 254:** o círculo dele não estava contra domínio nenhum; ele cai porque é cortado
+  (ver 2.1). A obra não mostra o círculo desfazendo, então **não dá para afirmar que o golpe
+  "derrubou o Domínio Simples"** — só que o dono foi derrubado. **Incerto.**
+
+### 2.4 Custo de energia e o uso junto com a técnica reversa
+
+- **Custo de energia: [NÃO ACHEI]** número ou fala da obra. O que a obra dá é **comparativo**:
+  o Tengen chama o Domínio Simples e a Cesta de meios que **deixam o dono guardar a técnica**
+  (`術式を温存できる「簡易領域」や「彌虚葛籠」`), isto é, **não queimam a técnica** como a Expansão
+  queima. **[C]** cap. 206. O resto é fã: "gasta menos que expandir" (ねいろ速報, 知恵袋
+  q12317982682 — a resposta que diz isso tem cara de texto gerado e 0 votos). **[I]**
+- **Junto com a técnica reversa: funciona, e a obra mostra.** No 226 o Gojo **mantém o Domínio
+  Simples e se cura com técnica reversa ao mesmo tempo**; o Kusakabe fica pasmo de ele fazer as duas
+  coisas juntas. O Ino lembra que a técnica reversa **gasta o dobro de energia**, e o próprio Gojo
+  solta um `あー しんど` *"aah, que canseira"*. **[C]** cap. 226, via eiga-manga/manga-games.
+  *O custo aparece como cansaço do usuário, não como regra da técnica.*
+
+### 2.5 A nota do Gege (Jump 2024 nº 8) — o que o Japão fez com ela, e o que o cap. 254 respondeu
+
+O arquivo `A` já tem a nota e a thread do 知恵袋 (q14292332074). **O que falta lá, e muda a leitura
+da "contradição de pé" do arquivo `D`:**
+
+1. **O cap. 254 saiu DEPOIS da nota e reescreve o mecanismo.** O Kusakabe pensa:
+   > 「簡易領域」は**術式そのものを中和できる訳ではない**、簡易的ではありつつも**領域は領域**であり、
+   > その中では**呪力の出力が上昇**・宿儺の術は**多少弱まる**
+   > *"o Domínio Simples **não consegue neutralizar a técnica em si**; mas, simples ou não, **domínio é
+   > domínio**, e dentro dele **a minha saída sobe** e a técnica do Sukuna **enfraquece um pouco**"*
+   > **[C]** cap. 254, via eiga-manga e manga-games
+   **A obra trocou a causa:** no 246 o enfraquecimento vinha de "diluir" (`薄める`) a técnica; no 254
+   ele vem de **o Domínio Simples ser um domínio**, com o bônus de casa que todo domínio dá. **A nota
+   do autor e o 254 são coerentes entre si.** O que continua "de pé" é só a wiki inglesa, que manteve
+   o verbo antigo.
+2. **O Japão leu o 254 como a resposta do autor à nota.** ねいろ速報, thread do 254 (25/03/2024),
+   http://animesoku.com/archives/36461404.html:
+   - post 8: `結局簡易領域は術式を中和できないの？` *"afinal o Domínio Simples não neutraliza técnica?"*
+   - post 71: `今回は簡易領域だから…むしろ弱くならないて説明だけある` *"desta vez, por ser Domínio Simples,
+     só tem a explicação de que [a técnica] NÃO enfraquece [por neutralização]"*
+   - post 176: `漫画じゃなくて作者のお返事エッセイになってる` *"virou ensaio de resposta do autor, não mangá"*
+   - post 175: `今レギュが簡易領域の術式無効なしだったから負けただけ` *"ele só perdeu porque na regra
+     atual o Domínio Simples não tem anulação de técnica"*
+3. **Texto do volume encadernado (vol. 28, caps. 246–254):** **[NÃO ACHEI]** registro japonês de que
+   o `薄める` do 246 tenha sido reescrito no volume. Procurei `単行本 修正 246話 簡易領域 薄める`,
+   `28巻 修正`. *Não é prova de que não mudou; é que ninguém que eu achei comparou.*
+
