@@ -1283,3 +1283,87 @@ Termos que os arquivos `I`/`J`/`K`/`L` **não** listam como tentados. Resultado 
 11. **Método:** a leitura do vol. 28 no `L` foi feita **remontando páginas embaralhadas do leitor oficial** — acesso que
     contorna a proteção do leitor. O dado não foi reverificado por outro caminho.
 
+---
+
+## Bloco 10 — A sequência de dúvidas das correções que ficaram sem ela escrita
+
+*(As do bloco 2, 3, 4, 5, 6 e 8 que já trazem os passos não se repetem aqui.)* Formato: (1) advogado · (2) mesma coisa
+dita diferente? · (3) terceira fonte · (4) o que me faria errado · veredito.
+
+- **N-011 ("com forma"):** (1) o `H` pode ter usado "forma" como sinônimo de "simples". (2) Não: "com forma" sugere
+  corpo/objeto, e o exemplo de "simples" da obra são **cortes** de técnica. (3) amedot usa 形のない como **dúvida**. (4)
+  Um texto da obra com 形. Não há. **CORRIGE.**
+- **N-020 (o 130):** (1) o Simples do Todo pode ter subido e caído com o fim do domínio. (2) Não: a narração põe o
+  Mahito "ainda mais rápido" que o Simples, e o Todo perde a mão. (3) wiki `Simple_Domain` (130 p. 2): *"before Todo
+  could counter"*. (4) Um quadro do Simples do Todo de pé. Não há. **CORRIGE.**
+- **N-025 ("no passado"):** (1) o `H` leu o inglês e o inglês diz "were". (2) É diferença de tradução — mas o `H` usa o
+  passado como argumento ("pensado já no ar, no passado"). (3) A ordem pelo desenho continua valendo; só o tempo verbal
+  cai. (4) Um balão japonês com 〜ていた. A transcrição tem 〔式神で視界が!!!〕. **CORRIGE** (só o tempo verbal).
+- **N-050 ("sem contestação"):** (1) as respostas ao post 83 concordam. (2) Não: há deboche explícito (855, 862) e, no
+  250, objeção (1315, 2254). (3) Duas threads lidas. (4) Se esses posts fossem de outra thread — são das mesmas URLs.
+  **CORRIGE.**
+- **N-064 (a imagem da ficha):** (1) o `J` descreveu a imagem como "o Reggie dentro de uma esfera". (2) Não é
+  tradução: é leitura de desenho. (3) A mesma cena na página local 171 p. 4. (4) Se a ficha fosse outro quadro —
+  conferi as duas imagens: é o mesmo quadro. **CORRIGE.**
+- **N-067 (Reggie):** (1) blogs dizem Heian; o `K` diz 400 anos. (2) Não: nenhum dos dois traz painel. (3) wiki inglesa:
+  "from the past". (4) Uma fala do Reggie com a época. Não achei. **CORRIGE** (leve; a marca [I] já estava certa).
+- **N-081 (あー しんど):** (1) o Gojo cansou de fato. (2) Não: o problema é o **lugar** da fala. (3) Dois resumos põem a
+  fala depois do Vermelho. (4) Um しんど durante o Simples. Não há. **CORRIGE.**
+- **N-084 (quem aprendeu como):** (1) todos aprenderam fora da escola, o que é o ponto do `H`. (2) Em parte: o ponto
+  continua, os exemplos não. (3) wiki `Simple_Domain` (Mechamaru: "unable to cast… himself"). (4) Um texto com a Yuki
+  "vendo". A wiki cita 269 p. 13; três resumos do 269 não têm. **CORRIGE** (os exemplos).
+- **N-109 (custo é ação):** (1) é boa leitura do que a obra **não** cobra. (2) O problema é a marca [C] sobre ausências e
+  sobre "erguida no último instante". (3) Dois resumos do 232 (guarda a tempo; Extensão já ativa). (4) Um texto dizendo
+  que ele ergueu a Extensão no último instante. Não há. **CORRIGE** (a marca).
+- **N-113 (anula/pausa):** (1) a regra "anula" é implícita no 247. (2) É a mesma coisa dita de um jeito que confunde: os
+  exemplos são pausas. (3) 231 (Gojo: 「中断」). (4) Um caso em cena de anulação de verdade. Não achei. **CORRIGE** (redação).
+- **N-118 (Kashimo):** (1) "eficiência" aparece na mesma frase que a troca. (2) Não: o 「も」 põe a eficiência como
+  **mais uma** vantagem do Sukuna, condicionada aos Seis Olhos do Gojo. (3) Só tenho uma transcrição (neet-life); o
+  eiga-manga 225 não baixei — **ressalva**. (4) Uma frase ligando a troca a gasto. Não há na transcrição. **CORRIGE.**
+- **N-007 / N-009 / N-010 / N-021 / N-022 / N-040:** derivam do N-093, N-069, N-023 e N-041, que passaram pela sequência.
+
+---
+
+## Resumo
+
+- **Afirmações conferidas:** 118 (N-001 a N-118), mais 6 buscas novas nos [NÃO ACHEI] (N-119 a N-124).
+- **CONFIRMA:** 84 · **CORRIGE:** 27 · **DIVERGE — NÃO FECHOU:** 0 · **NÃO FECHA POR TEXTO / não acessível:** 4
+  (N-013, N-023, N-062 vol. 28, N-063) · **não conferidas** (prioridade d, fonte de terceiro): 3 (N-075, N-107, N-117).
+- **Marcas erradas:** 11 — [C] que era wiki, blog ou leitura: N-021 (254), N-029, N-046 ("oficial" = wiki), N-062
+  (vol. 28, fonte obtida contornando o leitor), N-070 (`一部割れ` = descrição de blog), N-080, N-084, N-088, N-102, N-109,
+  N-011 (glosa sem marca vinda de blog). **Marcas ausentes ou incompletas:** 10 — N-005, N-013, N-063 (deviam ser [I]);
+  N-076, N-094 (deviam ser [C]); N-064, N-095 (são [C] 171/108 além de [F]); N-097 (é [F] Fanbook além de [C]); e dois [I]
+  sem dono (Simples "interrompe a ativação"; Extensão "subtrai o efeito já disparado").
+
+## Correções propostas para o H
+
+| nº | trecho atual do H (curto) | frase proposta | fonte |
+|---|---|---|---|
+| N-093 | "o voto da Miwa **nunca aparece sendo quebrado** em cena [C]" | "o voto da Miwa **é acionado em cena**: no 40 a Maki joga os pedaços da arma e um kunai de isca, a Miwa tira os dois pés do ponto ('両足離れた!!') e o Simples se desfaz; depois a Maki a desarma **[C]** 40" | yuran 40; wiki `Kasumi_Miwa/Synopsis`; wiki `Episode_17` |
+| N-021 | "Fora de domínio, cai por golpe no dono — Miwa (40); Kusakabe quando a espada quebra (254) [C]" | "Fora de domínio o que cai é o programa: a Miwa no 40 **pelo voto** (a isca a obriga a tirar os pés); no 254 a espada quebra no corpo do Sukuna e, **se o círculo cai, a obra não mostra [I]**" | yuran 40; neet-life/eiga-manga 254 |
+| N-022 | "Por condição: **só** a Kuchisake-Onna" | "Por condição: a Kuchisake-Onna (73) **e o voto da Miwa (40)** [C]" | yuran 73 e 40 |
+| N-010 | quadro, Simples: "por golpe no dono, **só fora de domínio** (40, 254)" | "arrancado pela pressão (206, 226; 258 [I]); **pelo voto do usuário** (40); golpe no dono dentro de domínio, **nunca**" | idem |
+| N-041 | "Queda por golpe no dono dentro de domínio: a Cesta (**251**, 266 — nos dois casos soco de alma)" | "…a **Cesta no 266** (soco de alma) e a Pétala no 108. *No 251 a Cesta foi **largada** pelo Sukuna para tentar o corte, com a saída já gasta pelos socos (250).*" | neet-life/eiga-manga/manga-games 251 |
+| N-007 | divergência: "a Cesta … **caiu** por golpe no dono dentro de domínio (266-267); o Simples cai pela pressão (206, 226, 258)" | "…as duas já aparecem juntas no 206 ('guardam a técnica', 'só compram tempo'); a Cesta **rachou** sob golpe no dono (266; o instante da queda fica fora de quadro); o Simples foi arrancado pela pressão (206, 226; 258 [I]) ou **caiu pelo voto** (40), e nunca por golpe no dono dentro de domínio" | 206, 266, 40 (resumos acima) |
+| N-008 | "as quatro anulam como interruptor → **`中和` é subtração com piso** — quantidade menor atenua" | "não é interruptor eterno, mas o jeito de ceder muda: Cesta e Simples `中和` a **barreira** e **anulam** o acerto (`打ち消す`/`無効化`) **inteiro até serem arrancados/sobrepujados** (171; 206, 226, 266); a Extensão `中和` a **técnica** e **atenua** contra saída maior (232); a Pétala não `中和` — intercepta (108, 227). *A leitura química só tem cena na Extensão* **[I]**" | yuran 171, 108; 232; 227 |
+| N-069 | "**Cobra METADE das mãos, continuamente** [C]" | "**Segurar contra domínio forte prende as mãos do selo** — no Sukuna, de quatro braços, metade (249; 266 p. 4). **[C]** *Com dois braços, o selo usa as duas mãos (171 p. 4); manter é o que segura contra pressão (266 `発動後も`), não exigência da técnica: sem pressão o Reggie soltou (171 p. 5 e 7).*" | páginas locais; neet-life 266 |
+| N-009 | quadro, Cesta: "metade das mãos enquanto mantém" | "as mãos do selo enquanto mantém contra domínio forte (no Sukuna, um par de quatro)" | idem |
+| N-066 | "NÃO trava a reversa — o Sukuna **cura a testa e reseta a técnica queimada com a Cesta em jogo**" | "no 266, com a Cesta de pé e rachando, ele pensa que 'a reversa não dá conta dos socos' — estava curando com ela (p. 16) **[C]**. *O reset e a cura da testa vêm no instante em que ela 'vai se desfazer' (p. 17-18); se ainda estava de pé, a obra não mostra*" | eiga-manga/manga-games/entame-life 266; p. 5, 16-18 |
+| N-070 | "rachada em parte (`一部割れ`) … fragmentos voando em volta do punho do Yuji (p. 17)" | "…e ele pensa 「彌虚葛籠が解ける!!」 **[C]** 266; *na página, a esfera com uma quebra no alto (p. 16). O 'rachada em parte' é descrição do eiga-manga; **os fragmentos da p. 17 são a proteção do braço do Yuji**, cortada pela técnica recém-resetada*" | eiga-manga, manga-games, neet-life 266 |
+| N-046 | "a **descrição oficial** da técnica só cita o selo de dedos entrelaçados" | "a descrição **da wiki inglesa** (editores, 13/06/2022 e 11/12/2024) cita o selo; **ficha e narração do 171 não descrevem o selo**; nas páginas: Reggie mãos juntas (171 p. 4), Sukuna dois pares juntos (249 p. 15), par de baixo (266 p. 4)" | ficha (X API); yuran 171; histórico `Hollow_Wicker_Basket` |
+| N-064 | "A imagem da ficha é o Reggie **dentro** de uma esfera **pouco maior que o corpo** — o único dado de tamanho" | "a imagem é o quadro do 171 p. 4: o Reggie **na frente** de uma esfera que aparece como fundo; não dá para medir por ela. Nas páginas do 249 p. 15 e 266 p. 4 a esfera envolve o Sukuna da cabeça aos pés, com folga; número, nenhum" | imagem da ficha; páginas locais |
+| N-050 | "o Pixiv afirma … as threads do dia do 249 **concordam sem contestação**" | "é a leitura dominante nas threads do 249 e 250, **com contestação** (o Reggie não recitava; o 'não se mexa'); o Pixiv **não foi acessível** nesta verificação" | animesoku 36047788; animanch 20944892 |
+| N-067 | "os três usuários são da era Heian ou de 400 anos atrás" | "Sukuna (Heian) e Kashimo (400 anos); **o Reggie é 'do passado', sem época dita na obra**" | wiki `Reggie_Star`, `Hajime_Kashimo`; 知恵袋 q11259505666 |
+| N-084 | "o Mechamaru aprendeu vendo, o Gojo aprendeu sozinho, a Yuki imitou [C]" | "o Mechamaru copiou vendo (「全て視てきた」) mas só executa guardando em tubos (82); o Gojo 'não sabe ensinar' (226); **a Yuki ensinou o Todo** (「九十九由基直伝」, 130); o Kusakabe ensinou o Yuji (258, 269) **[C]**" | yuran 82, 130; 226; 258; 269 |
+| N-088 | "voto de não ensinar (`門外不出`) — **e é o voto que dá força à técnica** [C]" | "voto de não ensinar (`一門相伝`, 82; `門外不出`, 269) — para a técnica **não vazar a 呪詛師**; virou segredo comercial, com o líder sugando vida dos discípulos (269) **[C]**. *'Dá força' é leitura de fã* **[I]**" | yuran 82; eiga-manga/manga-games 269 |
+| N-080 | "que seja o Simples **vem do texto do capítulo**" | "nenhum texto nomeia a forma; que seja o Simples do Yuji é leitura de resumo (eiga-manga, 'talvez tenha sido arrancado') **[I]**" | eiga-manga, manga-games 258 |
+| N-020 | "…o domínio acabou antes (82, 102, **130**, 258…)" | "…(82, 102, 258 os outros). *No 130 o Simples do Todo nem chegou a valer: o domínio de 0,2 s disparou antes*" | yuran 130; wiki `Simple_Domain` |
+| N-040 | tabela: "10 s · plano do Tengen · o Simples da Yuki **não chegou lá**" | "…o Simples da Yuki foi arrancado **antes de o plano fechar** (se passou ou não dos 10 s, a obra não diz)" | eiga-manga, manga-games, entame-life 206 |
+| N-081 | "…e pesa: 'aah, que canseira' (`あー しんど`)" | "*(o 'あー しんど' vem no fim do capítulo, depois do Vermelho — não é sobre o Simples)*" | eiga-manga, neet-life 226 |
+| N-029 | "Cap. 148 — na arma, **cai com a arma** [C]" | "a Maki quebra a lâmina; o Ogi **troca por chama da própria técnica** e segue (148-149); **se a Pétala caiu junto, a obra não diz** [I]" | yuran 148-149; wiki `Ogi_Zenin` |
+| N-025 | "…pensado já no ar, **e no passado** ('were blocking my view')" | "…depois do soco, com ele já no ar. *O passado é da tradução inglesa; o japonês é elíptico (〔式神で視界が!!!〕)*" | yuran 108; páginas locais |
+| N-011 | quadro, Pétala: "só acerto **com forma**" | "acerto de técnica **simples** (os cortes); contra efeito **complexo** (o Vazio) não serve (227)" | eiga-manga, neet-life 227 |
+| N-109 | "O custo é AÇÃO … erguível no último instante — o Sukuna a ergue a tempo de mitigar o Vermelho [C] 232" | "o custo que a obra mostra é **a técnica inata** (85, Fanbook); sem barreira/voto/selo **[I]** por varredura; no 232 ela **mitiga** o Vermelho **[C]** — se foi erguida no último instante, não diz" | neet-life, eiga-manga 232; yuran 85 |
+| N-113 | "**Anula** a técnica que você tinha em curso — a Espada **sumiu** (246)…" | "**suspende ou anula**: o padrão é anular (o Sukuna diz que evitou isso, 247); **os dois casos em cena são pausas** — a roda escurece (231) e a Espada apaga e volta (246-247)" | eiga-manga/neet-life 231, 246, 247 |
+| N-118 | "o Kashimo **amarrando** a troca Extensão↔técnica à eficiência de energia (225)" | "o Kashimo elogia a **rapidez** da troca e, à parte, diz que sem os Seis Olhos do Gojo o Sukuna ganharia **também** em eficiência — nada liga a Extensão a gasto" | neet-life 225 |
+
