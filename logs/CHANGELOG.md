@@ -8,6 +8,37 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.266] — 24/09/2026
+
+**As frases da peça 11 que atribuíam à obra o que ela não faz foram corrigidas — e NENHUMA regra nem número se move.** *É a rodada 1 da revisão dos anti-domínio (item 6 da fila): só texto, com a decisão do Mizuki. As regras que a pesquisa questiona ficam como estão, para a rodada 2.*
+
+### 1 · As frases, na peça 11 §6.5
+
+| onde | antes | agora |
+|---|---|---|
+| os quatro preços | "Os quatro preços **vêm da obra**" | "são **escolha do sistema**" — *só o da `Extensão de Domínio` (a técnica desliga) é regra da obra, e o eixo "liberdade enquanto protegido" fica por ser nosso* |
+| a `Cesta Oca` | "resposta de sobrevivência… **exatamente o que ela é na obra**" | "por escolha do sistema: na obra o Sukuna troca socos segurando ela (cap. 266)" |
+| o raio | "o Domínio Simples **da obra** tem 2,21 m" | "o **da Miwa** tem 2,21 m (cap. 40) — o raio de uma iniciante com voto" |
+| o Kusakabe | puxar gente "é **coisa da Trilha dele**" | na obra ele alarga o raio (cap. 254), e a aptidão não faz isso **de propósito**, porque a trava de 9 m separa defesa de cerco — *e nenhuma Trilha do sistema faz isso: a frase não se sustentava nem aqui dentro* |
+| o Gojo | "**nunca tinha usado**" a `Pétala` | "parou de usar depois de pegar o domínio (cap. 227)" |
+| a `Pétala` | "**não para ataque físico**", no texto e na tabela | "**não para o que não é Acerto**" — *o efeito é o mesmo, porque a regra dela só age sobre Acerto* |
+
+### 2 · A mesma frase, na peça 25
+
+*A `Pétala` como porta do Sem Técnica repetia "não para ataque físico" duas vezes (§4 e §9).* **Virou "não para golpe que não seja técnica"** — *o sentido da porta fica igual: contra um corpo que só bate ela não dispara, e é isso que a obra mostra no soco do Dagon.*
+
+### 3 · O que NÃO mudou, de propósito
+
+**As regras que a pesquisa questiona ficam de pé até a decisão:** *a `Cesta Oca` que "não faz mais nada" e "não quebra"; os pés do `Domínio Simples`; a concentração da `Pétala` e o Acerto de golpe de corpo; o "acerta independentemente" da `Extensão`; e como as quatro cedem.* **É a rodada 2, e ela começa pela `Cesta Oca`.** *A nota de pesquisa pendente do bestiário que cita o raio de 2,21 m fica como está: é nota de campo, não regra.*
+
+### 4 · Onde isso mora
+
+*No mesmo branch da v0.265, fora do `main`.* **As peças 11 e 25 estão no recorte da entrega**, *e a cópia em `finalizado/regra/` fica velha até o próximo `subir.sh` na pasta de trabalho, que copia antes de validar.* **Bateria na nuvem: 30 de 31, com o `conferir-repositorio.py` reprovando só pelo que já reprovava — não ter `finalizado/`.**
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: *o item 6 da fila, rodada 2 — a `Cesta Oca`, com os dois preços dela ("não faz mais nada" e "não quebra") postos contra a obra e medidos.*
+
+---
+
 ## [0.265] — 24/09/2026
 
 **A pesquisa dos quatro anti-domínio foi CONFERIDA, e NENHUM número do sistema se move.** *Esta versão é a segunda metade da v0.264: a rodada foi atrás de **drawback** e de **como cada uma cai**, fechou os buracos que tinham ficado, leu páginas do mangá e passou o `H-resumo-das-quatro.md` por uma verificação cega.* **A peça 11 fica exatamente como estava** — *as divergências passaram de oito para catorze, duas mudaram de base, e todas continuam decisão do Mizuki.*

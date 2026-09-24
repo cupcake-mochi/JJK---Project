@@ -593,13 +593,13 @@ E é por isso que o terceiro espaço da Expansão compra alguma coisa de verdade
 
 *As quatro linhas ficam juntas nas duas tabelas abaixo porque é assim que se compara — a `Extensão de Domínio` está marcada.*
 
-O eixo que separa as quatro não é força — é **quanta liberdade você tem enquanto está protegido**. Os quatro preços vêm da obra:
+O eixo que separa as quatro não é força — é **quanta liberdade você tem enquanto está protegido**. **Os quatro preços são escolha do sistema** — *a pesquisa da v0.265 mostrou que só o da `Extensão de Domínio` (a técnica desliga) é regra da obra; os outros três são nossos, e o eixo fica por ser nosso.*
 
 | | protege | e cobra |
 |---|---|---|
 | **Cesta Oca de Vime** | só você, dentro de uma esfera | você segura o símbolo e **não faz mais nada** |
 | **Domínio Simples** | um raio em volta de você | **os pés não saem do chão**, ou ela quebra |
-| **Pétala** | o seu corpo, e **devolve o golpe** | exige concentração, e **não para ataque físico** |
+| **Pétala** | o seu corpo, e **devolve o golpe** | exige concentração, e **não para o que não é Acerto** |
 | **Extensão de Domínio** | o seu corpo, e faz o **seu** ataque acertar | **nenhum feitiço enquanto ela estiver de pé** |
 
 ### As quatro, com número
@@ -631,7 +631,7 @@ Ela é a **predecessora** do Domínio Simples, e é pior de propósito: **anula 
 | 2 | **57%** | 2 |
 | 3 | 86% | 3 |
 
-Evitar dois Acertos custa mais da metade dos seus turnos: **você sobrevive e não contribui.** É resposta de sobrevivência, não de vitória — que é exatamente o que ela é na obra.
+Evitar dois Acertos custa mais da metade dos seus turnos: **você sobrevive e não contribui.** É resposta de sobrevivência, não de vitória — por escolha do sistema: na obra o Sukuna troca socos segurando ela (cap. 266).
 
 **É ela, e não o Domínio Simples, a resposta que chega no nível 6 para as três rotas.** Um marco de Refino, uma vez, e o acerto garantido deixa de ser sentença. Isso é o que torna a Expansão completa jogável, e é o menor preço que o sistema cobra por qualquer coisa.
 
@@ -645,13 +645,13 @@ Evitar dois Acertos custa mais da metade dos seus turnos: **você sobrevive e n�
 |---|---|---|---|---|---|---|
 | raio | 1,5 m | 2,5 m | 3,5 m | 4,5 m | 5,5 m | **6,5 m** |
 
-O Domínio Simples da obra tem cerca de 2,21 m, e a fórmula bate nisso no refino 2. **Ela nunca passa de um movimento (9 m)**, e isso é a trava: uma defesa que cercasse o inimigo seria outra peça. O Kusakabe puxando gente para dentro é coisa da Trilha dele, não da aptidão.
+O da Miwa tem 2,21 m na obra (cap. 40) — o raio de uma iniciante com voto —, e a fórmula bate nisso no refino 2. **Ela nunca passa de um movimento (9 m)**, e isso é a trava: uma defesa que cercasse o inimigo seria outra peça. Na obra o Kusakabe alarga o raio em combate para puxar o inimigo para dentro (cap. 254); aqui a aptidão não faz isso, de propósito, porque a trava de 9 m é o que separa defesa de cerco.
 
 ### Pétala · Classe Passiva 2, refino 4 e nível 10
 
 > **A energia cobre o seu corpo e devolve o golpe. Quando o Acerto de uma Expansão te alcança, ele é anulado no ponto de contato — `refino ÷ 2` vezes por cena. Custa `1 × a sua maior Classe` de PE por rodada, e ela cai se você perder a concentração.**
 
-Ela não faz domínio nenhum: é a energia no corpo que reage. Segredo dos três clãs — Gojo, Zenin e Kamo —, e o Gojo disse que aprendeu criança e nunca tinha usado.
+Ela não faz domínio nenhum: é a energia no corpo que reage. Segredo dos três clãs — Gojo, Zenin e Kamo —, e o Gojo aprendeu criança e parou de usar depois de pegar o domínio (cap. 227).
 
 **Ela não cobre a Expansão inteira, e isso é de propósito.** A completa dispara o Acerto ao abrir e no começo de cada turno do portador:
 
@@ -664,7 +664,7 @@ Ela não faz domínio nenhum: é a energia no corpo que reage. Segredo dos três
 
 Sempre sobra um. Se ela devolvesse tudo, o terceiro espaço que a Expansão completa custou deixaria de comprar alguma coisa.
 
-**E ela não para ataque físico** — o Dagon socou o Naobito com a Pétala de pé. Contra um Acerto que é golpe de corpo, ela não faz nada.
+**E ela não para o que não é Acerto** — o Dagon socou o Naobito com a Pétala de pé, e o soco não era o Acerto do domínio dele (cap. 108). Contra um Acerto que é golpe de corpo, ela não faz nada.
 
 ### Extensão de Domínio · Classe Passiva 3, refino 7 e nível 14
 

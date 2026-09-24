@@ -126,7 +126,7 @@ A terceira linha é a que faz esta peça caber sem furar nada. **O `arquitetura.
 
 > **E a `Pétala` fecha uma porta que as outras três deixam aberta: ela não alcança ninguém.** *A energia mora em você, e o que ela faz acontece em quem encostou.* **Um Fundamento montado nela nasce reativo** — ele não escolhe o alvo, ele responde a quem escolheu.
 >
-> **⚠ Ela também não é resposta a tudo, e isso é da fonte.** *A `Pétala` não para ataque físico — o exemplar canônico apanhou de soco com ela de pé.* **Contra um corpo que bate, esta porta não entrega nada**, e quem escolhe ela está apostando que o problema da mesa é energia amaldiçoada.
+> **⚠ Ela também não é resposta a tudo, e isso é da fonte.** *A `Pétala` não para golpe que não seja técnica — o exemplar canônico apanhou de soco com ela de pé.* **Contra um corpo que bate, esta porta não entrega nada**, e quem escolhe ela está apostando que o problema da mesa é energia amaldiçoada.
 
 ***Decisão do Mizuki na v0.190: ela vira porta***, e o exemplo dela é o `Espinho`, no §9.
 
@@ -292,7 +292,7 @@ A terceira linha é a que faz esta peça caber sem furar nada. **O `arquitetura.
 
 *As duas Livres caem da Regra:* **`Tempo` é a Família da reação, e devolver golpe é reagir**; **`Castigo` é fazer o dano render mais**, que é o que a devolução faz com o golpe alheio. **E as três Fechadas caem da semente:** *a energia mora no corpo dela, então `Alcance` não tem para onde ir; ela cobre um corpo e não um espaço, então `Área` não pega ninguém; e ela responde em vez de preparar, então `Marca` não tem próximo golpe para armar.*
 
-> **⚠ Este exemplo mostra o custo da porta, e ele é a coisa mais útil dele.** *A `Pétala` não para ataque físico.* **Um `Espinho` num arco em que o inimigo é corpo a corpo puro fica com uma semente que não dispara** — e o Fundamento dele continua funcionando, porque a semente é o motor e não o assunto. *É a mesma coisa que o §4.2 diz do tema, vista pelo lado que dói.*
+> **⚠ Este exemplo mostra o custo da porta, e ele é a coisa mais útil dele.** *A `Pétala` não para golpe que não seja técnica.* **Um `Espinho` num arco em que o inimigo é corpo a corpo puro fica com uma semente que não dispara** — e o Fundamento dele continua funcionando, porque a semente é o motor e não o assunto. *É a mesma coisa que o §4.2 diz do tema, vista pelo lado que dói.*
 
 ## 10. O que o validador confere
 

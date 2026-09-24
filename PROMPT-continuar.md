@@ -19,9 +19,9 @@ E rode a skill `rpg-da-guilda` antes de começar: ela tem o procedimento — ord
 
 ## Onde está o projeto agora
 
-**v0.265, commitada no branch `claude/jjk-anti-dominios-research-59hjly` — ainda NÃO no `main`.** Manual do Fundamento na **v7.38**. **Vinte e sete peças de regra e vinte e sete validadores** em `sistema/03-mecanica/`, mais o `conferir-repositorio.py`, os dois de `manual/matematica/` e o `conferir-voz.py` — **31 validadores**. *A v0.265 foi fechada numa sessão na nuvem, sem a `finalizado/`: lá o `conferir-repositorio.py` reprovou só por não achar a pasta da entrega, e os outros 30 passaram.* **Rode o `subir.sh` na pasta de trabalho antes de confiar no verde.**
+**v0.266, commitada no branch `claude/jjk-anti-dominios-research-59hjly` — ainda NÃO no `main`.** Manual do Fundamento na **v7.38**. **Vinte e sete peças de regra e vinte e sete validadores** em `sistema/03-mecanica/`, mais o `conferir-repositorio.py`, os dois de `manual/matematica/` e o `conferir-voz.py` — **31 validadores**. *A v0.265 e a v0.266 foram fechadas numa sessão na nuvem, sem a `finalizado/`: lá o `conferir-repositorio.py` reprovou só por não achar a pasta da entrega, e os outros 30 passaram.* **Rode o `subir.sh` na pasta de trabalho antes de confiar no verde.**
 
-**⚠ Os três repositórios NÃO estão sincronizados:** a v0.264 e a v0.265 da pesquisa moram só naquele branch. Falta trazer para o `main`, para a pasta de trabalho e para o Project. A entrega (`finalizado/`) e a ficha (`Claude 3`, o `Ficha---RPG-JJK`) não mudaram.
+**⚠ Os três repositórios NÃO estão sincronizados:** a v0.264, a v0.265 e a v0.266 moram só naquele branch. Falta trazer para o `main`, para a pasta de trabalho e para o Project. A ficha (`Claude 3`, o `Ficha---RPG-JJK`) não mudou; a entrega (`finalizado/`) fica atrás nas peças 11 e 25 até o próximo `subir.sh`.
 
 **A v0.264 e a v0.265 foram pesquisa, e NENHUM número do sistema se moveu.** A v0.264 levantou as quatro técnicas anti-domínio em `sistema/01-pesquisa/anti-dominios/` (arquivos `A` a `H`) e mediu a ideia 11. A v0.265 foi atrás de **drawback** e de **como cada uma cai** (`I` a `M`, com páginas do mangá lidas quadro a quadro) e passou o resumo por uma **verificação cega** (`N`).
 
@@ -40,6 +40,8 @@ E rode a skill `rpg-da-guilda` antes de começar: ela tem o procedimento — ord
 **E seis coisas a obra não amarra:** custo de energia, limite de tempo, `Extensão` junto com a técnica reversa, `Cesta Oca` com encantamento próprio, quem usa a `Pétala` fora do Zenin e do Gojo, e como se aprende a `Cesta Oca`. **São desenho livre.**
 
 ### As catorze divergências, em duas metades
+
+**A rodada 1 saiu na v0.266:** *as frases que a peça 11 atribuía à obra sem base — os preços "vêm da obra", o raio "da obra", a Trilha do Kusakabe, o "nunca tinha usado" e o "não para ataque físico" — foram corrigidas, sem mexer em regra.* **A rodada 2 começa pela `Cesta Oca`.**
 
 **Conserto de fato** *(a fonte simplesmente diz outra coisa)*:
 - o "os pés não saem do chão" é **voto da Miwa** e não da técnica — e a obra diz "do **ponto** onde foi ativado", não "do chão";
