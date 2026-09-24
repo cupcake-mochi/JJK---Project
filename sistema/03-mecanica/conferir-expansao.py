@@ -646,8 +646,8 @@ if [m for _, m in ordem] != sorted(m for _, m in ordem):
          'menor esta custando mais PE que uma maior')
 else:
     print('\n  O custo por rodada nao decresce com a Classe: 0 · 1 · 1 · 1,5.')
-    print('  A Cesta Oca e a unica de graca em PE, e e a unica que cobra o TURNO')
-    print('  inteiro — cobrar as duas seria cobrar duas vezes pela mesma escolha.')
+    print('  A Cesta Oca e a unica de graca em PE: desde a v0.267 o preco dela sao')
+    print('  as maos presas no simbolo e a queda pelos golpes em quem segura.')
 
 
 # --------------------------------------------------------------------------

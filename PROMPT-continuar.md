@@ -19,9 +19,9 @@ E rode a skill `rpg-da-guilda` antes de começar: ela tem o procedimento — ord
 
 ## Onde está o projeto agora
 
-**v0.266, commitada no branch `claude/jjk-anti-dominios-research-59hjly` — ainda NÃO no `main`.** Manual do Fundamento na **v7.38**. **Vinte e sete peças de regra e vinte e sete validadores** em `sistema/03-mecanica/`, mais o `conferir-repositorio.py`, os dois de `manual/matematica/` e o `conferir-voz.py` — **31 validadores**. *A v0.265 e a v0.266 foram fechadas numa sessão na nuvem, sem a `finalizado/`: lá o `conferir-repositorio.py` reprovou só por não achar a pasta da entrega, e os outros 30 passaram.* **Rode o `subir.sh` na pasta de trabalho antes de confiar no verde.**
+**v0.267, commitada no branch `claude/jjk-anti-dominios-research-59hjly` — ainda NÃO no `main`.** Manual do Fundamento na **v7.38**. **Vinte e sete peças de regra e vinte e sete validadores** em `sistema/03-mecanica/`, mais o `conferir-repositorio.py`, os dois de `manual/matematica/` e o `conferir-voz.py` — **31 validadores**. *Da v0.265 à v0.267 foram fechadas numa sessão na nuvem, sem a `finalizado/`: lá o `conferir-repositorio.py` reprovou só por não achar a pasta da entrega, e os outros 30 passaram.* **Rode o `subir.sh` na pasta de trabalho antes de confiar no verde.**
 
-**⚠ Os três repositórios NÃO estão sincronizados:** a v0.264, a v0.265 e a v0.266 moram só naquele branch. Falta trazer para o `main`, para a pasta de trabalho e para o Project. A ficha (`Claude 3`, o `Ficha---RPG-JJK`) não mudou; a entrega (`finalizado/`) fica atrás nas peças 11 e 25 até o próximo `subir.sh`.
+**⚠ Os três repositórios NÃO estão sincronizados:** da v0.264 à v0.267, tudo mora só naquele branch. Falta trazer para o `main`, para a pasta de trabalho e para o Project. A ficha (`Claude 3`, o `Ficha---RPG-JJK`) não mudou; a entrega (`finalizado/`) fica atrás nas peças 11 e 25 até o próximo `subir.sh`, e o `.docx` e os PDFs do livro precisam ser refeitos no build daí (a v0.267 mudou o capítulo 45 e só o texto corrido foi regenerado).
 
 **A v0.264 e a v0.265 foram pesquisa, e NENHUM número do sistema se moveu.** A v0.264 levantou as quatro técnicas anti-domínio em `sistema/01-pesquisa/anti-dominios/` (arquivos `A` a `H`) e mediu a ideia 11. A v0.265 foi atrás de **drawback** e de **como cada uma cai** (`I` a `M`, com páginas do mangá lidas quadro a quadro) e passou o resumo por uma **verificação cega** (`N`).
 
@@ -41,7 +41,7 @@ E rode a skill `rpg-da-guilda` antes de começar: ela tem o procedimento — ord
 
 ### As catorze divergências, em duas metades
 
-**A rodada 1 saiu na v0.266:** *as frases que a peça 11 atribuía à obra sem base — os preços "vêm da obra", o raio "da obra", a Trilha do Kusakabe, o "nunca tinha usado" e o "não para ataque físico" — foram corrigidas, sem mexer em regra.* **A rodada 2 começa pela `Cesta Oca`.**
+**A rodada 1 saiu na v0.266:** *as frases que a peça 11 atribuía à obra sem base — os preços "vêm da obra", o raio "da obra", a Trilha do Kusakabe, o "nunca tinha usado" e o "não para ataque físico" — foram corrigidas, sem mexer em regra.* **A rodada 2 saiu na v0.267: a `Cesta Oca` foi reescrita e é a base das outras três** (ver abaixo). **A rodada 3 é o Domínio Simples, a Pétala e a Extensão.**
 
 **Conserto de fato** *(a fonte simplesmente diz outra coisa)*:
 - o "os pés não saem do chão" é **voto da Miwa** e não da técnica — e a obra diz "do **ponto** onde foi ativado", não "do chão";
@@ -52,9 +52,11 @@ E rode a skill `rpg-da-guilda` antes de começar: ela tem o procedimento — ord
 
 **Decisão de preço, e é do Mizuki**: como cada uma cede (limiar na `Cesta Oca` e no `Domínio Simples`, atenuação só na `Extensão`); o que a `Extensão` faz contra o Acerto de domínio (o Fanbook diz que neutraliza, e a obra não tem cena); o que separa `Domínio Simples` e `Cesta Oca`; e o custo da `Cesta Oca`, que na obra é **selo imposto** — o inimigo pode *querer* que você pague.
 
-### Uma coisa que a revisão vai ter de encarar, e não é divergência
+### A Cesta Oca é a base da rodada 3
 
-**A `Cesta Oca de Vime` é a peça mais frágil do sistema hoje:** Classe 1, sem gate, custo zero de PE, não quebra, e resolve sozinha o que as outras duas cobram caro para resolver. O que segura ela é só o turno gasto. **Mexer no preço das outras sem olhar para ela empurra todo mundo para ela.** *E a obra dá dois custos que a peça 11 não cobra: ela **racha** sob golpe no dono, e **veta o golpe grande** do próprio dono enquanto está de pé.*
+**Ela era a peça mais frágil do sistema** — *Classe 1, sem gate, zero PE, e não quebrava; o que a segurava era só o turno gasto.* **A v0.267 a reescreveu com as decisões do Mizuki:** *o preço são as duas mãos presas no símbolo (Desarmado vale), ela levanta com Reação quando uma Expansão abre ou Ação Bônus no turno, e ela **cai pelos golpes em quem segura** — Vigor contra a CD de quem feriu, falhas acumulando até metade da Essência, como na corrida. A Expansão não a quebra enquanto o símbolo está seguro; soltando, cada Acerto letal conta uma falha; depois de cair, recarga de metade da Essência em rodadas.* **Medida, ela segura quase tudo cedo e cede tarde** (a tabela está na peça 11 §6.5 e sai de `sistema/01-pesquisa/anti-dominios/conta-cesta-oca.py`).
+
+**A rodada 3 revisa o Domínio Simples, a Pétala e a Extensão com a Cesta de base:** *como cada uma cai, quanto dura, o que dá e o que não dá.* **O Mizuki pediu para não comparar as quatro antes disso** — *a comparação vem depois que as três forem revistas.* **E há uma divergência entre o livro e a peça 11 que espera essa rodada:** *o livro dá ao Domínio Simples refino 3 (a peça, 4), um requisito de "ter visto um sendo usado, ou ter aprendido com alguém", e diz que ele anula "os efeitos" da Expansão (a peça, só o Acerto).*
 
 ## O resto da fila
 

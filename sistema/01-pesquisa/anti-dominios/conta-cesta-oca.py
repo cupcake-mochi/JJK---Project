@@ -7,7 +7,8 @@ CONTRATO (o que precisa continuar verdadeiro, e o script confere antes de medir)
       por metade do refino em rodadas                                             (livro cap. 40)
   R3. Petala devolve refino//2 e sempre sobra um: 4->3/2, 6->4/3, 8->5/4, 10->6/5   (peca 11 §6.5)
   R4. Dominio Simples: nv22 30 PE e 324 evitados; nv26 35 PE e 378                (rascunho 8.4)
-  R5. Cesta hoje: 1/2/3 rodadas = 29%/57%/86% dos turnos numa luta de 3,5         (peca 11 §6.5)
+  R5. Cesta ate a v0.266: 1/2/3 rodadas = 29%/57%/86% dos turnos numa luta de 3,5 (so aritmetica: a v0.267 tirou)
+  R8. A tabela 'O que isso faz, medido' da Cesta, na peca 11 §6.5 (v0.267), sai desta conta
   R6. Extensao: nv14 42 PE, nv20 72, nv26 110 para segurar ate o fim              (peca 11 §6.5)
   R7. Perfis da corrida no nv26: falha 35% / 50% / 85%                             (casca-sem-barreira)
 Nada de numero digitado quando existe dono: tudo que tem ancora e lido do repositorio.
@@ -43,7 +44,7 @@ def nivel(n):
     return NV[k]
 
 # --- ancoras de texto da peca 11 --------------------------------------------------------
-for frase in ('Em troca ela não quebra', 'Evitar dois Acertos custa mais da metade dos seus turnos',
+for frase in ('Ela cai pelos golpes em você, e não pela Expansão', 'Soltar o símbolo não a desfaz',
               'Sempre sobra um', '`refino ÷ 2` vezes por cena', 'ela cai se você perder a concentração'):
     if frase not in p11: print('ANCORA PERDIDA na peca 11:', frase); sys.exit(1)
 
@@ -62,9 +63,20 @@ def pf(bonus, cd):                      # igual ao casca-sem-barreira.py
     return 1 - max(0, min(20, 21 - (cd - bonus))) / 20
 cd26 = 8 + 6 + nivel(26)['mae']
 confere('R7 perfis nv26 (Con6 tr, Con3 tr, Con0)', tuple(round(pf(b, cd26), 2) for b in (6 + nivel(26)['mae'], 3 + nivel(26)['mae'], 0)), (0.35, 0.5, 0.85))
+# R8 — a tabela da peca 11 (v0.267): golpe no dono, 1 golpe por rodada, T = metade da Essencia
+def _seg(nv, ref, bonus, T):
+    A = ref // 2 + 1; cd = 8 + 6 + nivel(nv)['mae']; p = pf(bonus, cd)
+    return round(sum(sum(comb((j - 1), f) * p**f * (1 - p)**((j - 1) - f) for f in range(min(T, j))) for j in range(1, A + 1)), 1)
+_pub = re.findall(r'^\| (Vigor treinado, Constituição `6`, Essência `6`|Vigor treinado, Constituição `3`, Essência `4`|sem treino, Constituição `0`, Essência até `3`) \| `([\d,]+)` \| `([\d,]+)` \| `([\d,]+)` \|$', p11, re.M)
+if len(_pub) != 3: print('ANCORA PERDIDA: a tabela medida da Cesta na peca 11'); sys.exit(1)
+_perf = {'Vigor treinado, Constituição `6`, Essência `6`': (6, True, 3), 'Vigor treinado, Constituição `3`, Essência `4`': (3, True, 2), 'sem treino, Constituição `0`, Essência até `3`': (0, False, 1)}
+for rot, *vals in _pub:
+    con, tr, T = _perf[rot]
+    calc = [_seg(nv, ref, con + (nivel(nv)['mae'] if tr else 0), T) for nv, ref in ((14, 5), (20, 7), (26, 10))]
+    confere(f'R8 peca 11, {rot.split(",")[0]} Con {con} (T={T})', [float(v.replace(',', '.')) for v in vals], calc)
 if falhas:
     print('\n>>> A REGRESSAO FALHOU — nada abaixo vale.'); sys.exit(1)
-print('>>> TUDO OK — o modelo reproduz os sete numeros publicados.\n')
+print('>>> TUDO OK — o modelo reproduz os numeros publicados, e a tabela da Cesta na peca 11.\n')
 
 # --- o cenario ---------------------------------------------------------------------------
 # a Expansao abre (Acerto 1) e dispara de novo no comeco de cada turno do dono, por dur rodadas.

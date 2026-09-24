@@ -597,7 +597,7 @@ O eixo que separa as quatro não é força — é **quanta liberdade você tem e
 
 | | protege | e cobra |
 |---|---|---|
-| **Cesta Oca de Vime** | só você, dentro de uma esfera | você segura o símbolo e **não faz mais nada** |
+| **Cesta Oca de Vime** | só você, dentro de uma esfera | **as duas mãos presas** no símbolo, e ela **cai** com os golpes em você |
 | **Domínio Simples** | um raio em volta de você | **os pés não saem do chão**, ou ela quebra |
 | **Pétala** | o seu corpo, e **devolve o golpe** | exige concentração, e **não para o que não é Acerto** |
 | **Extensão de Domínio** | o seu corpo, e faz o **seu** ataque acertar | **nenhum feitiço enquanto ela estiver de pé** |
@@ -617,21 +617,37 @@ O eixo que separa as quatro não é força — é **quanta liberdade você tem e
 
 ### Cesta Oca de Vime · Classe Passiva 1, sem gate
 
-> **Você faz o símbolo e uma esfera se fecha em volta de você. Enquanto você o segurar, o Acerto de uma Expansão não te alcança — e você não faz mais nada.**
+> **Você faz o símbolo e uma esfera se fecha em volta de você. Enquanto você o segurar, o Acerto de uma Expansão não te alcança, e as suas duas mãos ficam presas nele. Levanta com uma Reação quando uma Expansão abre, ou com uma Ação Bônus no seu turno.**
+> **Ela cai pelos golpes em você, e não pela Expansão:** *cada golpe que te acerta pede um Teste de Resistência de Vigor contra a CD de quem te feriu, as falhas se acumulam, e com metade da sua Essência em falhas (no mínimo 1) a esfera se desfaz.*
+> *Requisito: ser Reencarnado, ou ser treinado em `História`.*
 
-Ela é a **predecessora** do Domínio Simples, e é pior de propósito: **anula o Acerto e mais nada.** O Efeito da Expansão continua acontecendo em cima de você, e o refino não a melhora em nada — é a segunda aptidão do catálogo que não usa o valor cheio, junto com canalizar energia.
+> ***Reescrita na v0.267, com as decisões do Mizuki na rodada 2 da revisão dos anti-domínio.*** *Até a v0.266 ela cobrava o turno inteiro ("você não faz mais nada") e não quebrava nunca. A obra mostra outra coisa: o símbolo prende as mãos, quem segura continua lutando, e ela racha com os golpes no dono (cap. 266).* **O preço passou a ser as mãos e a queda; o PE continua zero.** *A conta está em `sistema/01-pesquisa/anti-dominios/conta-cesta-oca.py`, e ela reproduz os números publicados antes de medir — inclusive a tabela abaixo, que sai dela.*
 
-**Em troca ela não quebra**, e é a única das quatro assim. Não tem duração, não tem teste, não tem PE: enquanto o símbolo estiver de pé, ela está de pé.
+**Mãos presas, e não o turno.** Você age normalmente — anda, ataca desarmado, usa feitiço sem `Gesto` —, mas nada que peça as mãos: **arma, escudo, feitiço com `Gesto` e `Agarrar` ficam de fora** enquanto o símbolo estiver de pé. *Um chute não é segurar uma arma: o Desarmado vale, e o preço fica nele.*
 
-**E ela é de graça em PE porque já cobra o turno**, que é o recurso mais caro de uma luta. Cobrar as duas coisas seria cobrar duas vezes pela mesma escolha:
+Ela é a **predecessora** do Domínio Simples, e **anula o Acerto e mais nada**: o Efeito da Expansão continua acontecendo em cima de você, e o refino não a melhora em nada — é a segunda aptidão do catálogo que não usa o valor cheio, junto com canalizar energia.
 
-| rodadas segurando | dos seus turnos na luta | Acertos que você evita |
-|---|---|---|
-| 1 | 29% | 1 |
-| 2 | **57%** | 2 |
-| 3 | 86% | 3 |
+**Como ela cai.**
 
-Evitar dois Acertos custa mais da metade dos seus turnos: **você sobrevive e não contribui.** É resposta de sobrevivência, não de vitória — por escolha do sistema: na obra o Sukuna troca socos segurando ela (cap. 266).
+- **Segurando o símbolo, a Expansão não a quebra.** Quem derruba é quem bate em você: um Teste de Resistência de Vigor por golpe que acerta, contra a CD de quem te feriu. **As falhas se acumulam, e com metade da sua Essência em falhas (arredonda para baixo, no mínimo 1) a esfera se desfaz** — é a mesma conta da concentração na corrida.
+- **Este teste não ocupa a sua Concentração, e a Mão Firme não protege dele.**
+- **Soltar o símbolo não a desfaz.** Você recupera as mãos, e ela fica de pé; mas **cada Acerto letal da Expansão passa a contar uma falha, no máximo uma por rodada.** *Acerto que não fere — o que só entrega informação — não conta.*
+- **Depois que ela cai, dá para levantar de novo, com as falhas zeradas**, depois de uma recarga de **metade da sua Essência em rodadas** (no mínimo 1). *Quem aguenta mais falhas também demora mais para puxar de novo.*
+
+| Essência | `0` a `3` | `4` e `5` | `6` |
+|---|---|---|---|
+| **falhas que desfazem** | `1` | `2` | `3` |
+| **recarga para levantar de novo** | `1` rodada | `2` rodadas | `3` rodadas |
+
+**O que isso faz, medido** — *a Expansão com o refino típico de cada nível, um golpe por rodada em quem segura, Acertos segurados em média:*
+
+| quem segura | nv `14` (`3` Acertos) | nv `20` (`4`) | nv `26` (`6`) |
+|---|---|---|---|
+| Vigor treinado, Constituição `6`, Essência `6` | `3,0` | `4,0` | `5,6` |
+| Vigor treinado, Constituição `3`, Essência `4` | `2,8` | `3,2` | `3,8` |
+| sem treino, Constituição `0`, Essência até `3` | `1,3` | `1,2` | `1,2` |
+
+**Ela segura quase tudo cedo e cede tarde** — *é o "um dia sempre perde a queda de braço" da obra (cap. 266): a Expansão mais forte dura mais e tem CD mais alta.* **Com dois golpes por rodada em quem segura, ela segura menos, e a perda é maior no nível alto.**
 
 **É ela, e não o Domínio Simples, a resposta que chega no nível 6 para as três rotas.** Um marco de Refino, uma vez, e o acerto garantido deixa de ser sentença. Isso é o que torna a Expansão completa jogável, e é o menor preço que o sistema cobra por qualquer coisa.
 
@@ -639,7 +655,7 @@ Evitar dois Acertos custa mais da metade dos seus turnos: **você sobrevive e n�
 
 > **Um domínio pequeno em volta de você, de raio `1,5 m + refino ÷ 2`. Dentro dele o Acerto de uma Expansão não acontece. Custa `1 × a sua maior Classe` de PE por rodada, e ela quebra se os seus pés saírem do chão.**
 
-É o que se ensina, e o que a Miwa e o Kusakabe usam. A diferença para a Cesta Oca não é ser mais forte contra o Acerto — é **você poder lutar dentro dela**, e ela **cobrir quem estiver no raio**.
+É o que se ensina, e o que a Miwa e o Kusakabe usam. A diferença para a Cesta Oca não é ser mais forte contra o Acerto — é ela **cobrir quem estiver no raio**, e deixar as suas **mãos livres**.
 
 | refino | 1 | 2 | 4 | 6 | 8 | 10 |
 |---|---|---|---|---|---|---|

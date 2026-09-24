@@ -5059,18 +5059,22 @@ Uma Expansão de Domínio completa não erra. O Acerto dela simplesmente acontec
 **Aptidões anti-domínio**
 | | protege | e cobra | PE por rodada |
 |---|---|---|---|
-| **Cesta Oca de Vime** | só você, dentro de uma esfera | você segura o símbolo e não faz mais nada | nenhum |
+| **Cesta Oca de Vime** | só você, dentro de uma esfera | as duas mãos presas no símbolo, e ela cai com os golpes em você | nenhum |
 | **Domínio Simples** | um raio em volta de você | os pés não saem do chão | `1 × maior Classe` |
-| **Pétala** | o seu corpo, e devolve o golpe | concentração, e não vale contra ataque físico | `1 × maior Classe` |
+| **Pétala** | o seu corpo, e devolve o golpe | concentração, e não vale contra o que não é Acerto | `1 × maior Classe` |
 | **Extensão de Domínio** *(não é anti-domínio: ela serve como uma)* | o seu corpo, e faz o seu ataque acertar | nenhum feitiço enquanto ela estiver de pé | `1,5 × maior Classe` |
 
 ### Cesta Oca de Vime
 
-> **Cesta Oca de Vime** — você faz o símbolo e uma esfera se fecha em volta de você. Enquanto você o segurar, o Acerto de uma Expansão não te alcança, e você não consegue soltar as duas mãos. Ela não tem duração, não pede teste e não custa PE: enquanto o símbolo estiver de pé, ela está de pé.
+> **Cesta Oca de Vime** — você faz o símbolo e uma esfera se fecha em volta de você. Enquanto você o segurar, o Acerto de uma Expansão não te alcança, e as suas duas mãos ficam presas nele: nada de arma, escudo, feitiço com `Gesto` ou `Agarrar`. Andar e chutar, pode. Ela levanta com uma Reação quando uma Expansão abre, ou com uma Ação Bônus no seu turno, e não custa PE.
+>
+> Ela cai pelos golpes em você, e não pela Expansão. Cada golpe que te acerta pede um Teste de Resistência de Vigor contra a CD de quem te feriu. As falhas se acumulam, e com metade da sua Essência em falhas (no mínimo 1) a esfera se desfaz. Esse teste não ocupa a sua Concentração, e a Mão Firme não protege dele.
+>
+> Se você soltar o símbolo, ela fica de pé e você recupera as mãos, mas cada Acerto letal da Expansão conta uma falha, no máximo uma por rodada. Depois que ela cai, você pode levantar de novo, com as falhas zeradas, passadas metade da sua Essência em rodadas (no mínimo 1).
 >
 > Requisito: ser Reencarnado, ou ser treinado em `História`. Classe Passiva 1.
 
-A `Cesta Oca de Vime` anula o Acerto e mais nada: o Efeito da Expansão continua acontecendo em cima de você. Em troca ela não quebra, e é a única das quatro assim.
+A `Cesta Oca de Vime` anula o Acerto e mais nada: o Efeito da Expansão continua acontecendo em cima de você. Contra uma Expansão pequena ela segura quase tudo; contra uma grande ela cede, porque a luta dura mais e quem bate tem CD mais alta.
 
 ### Domínio Simples
 
@@ -7050,4 +7054,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: 8911624dc26f9e1b0c8e099f8ce96c357e22f902 -->
+<!-- fonte: 460426691a553855e1db2558fb5efa81075de17e -->

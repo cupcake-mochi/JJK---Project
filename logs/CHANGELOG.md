@@ -8,6 +8,58 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.267] — 24/09/2026
+
+**A `Cesta Oca de Vime` foi reescrita, e ela passa a ser a base da revisão dos outros três anti-domínio.** *É a rodada 2 do item 6 da fila, com as decisões do Mizuki em cima da conta — `sistema/01-pesquisa/anti-dominios/conta-cesta-oca.py`, que reproduz os números publicados antes de medir.* **Nenhum outro número do sistema se move:** *o Domínio Simples, a Pétala e a Extensão ficam como estão, e passam por revisão depois, com a Cesta de base.*
+
+### 1 · O que ela era, e o que ela é
+
+| | até a v0.266 | na v0.267 |
+|---|---|---|
+| **o preço enquanto está de pé** | **o turno inteiro** — *"você não faz mais nada"* | **as duas mãos presas no símbolo** — *nada de arma, escudo, feitiço com `Gesto` ou `Agarrar`; andar e Desarmado, pode* |
+| **como levanta** | *a peça não dizia* | **Reação quando uma Expansão abre, ou Ação Bônus no seu turno** |
+| **como cai** | **nunca** | **pelos golpes em você**: *um Teste de Resistência de Vigor por golpe que acerta, contra a CD de quem te feriu; as falhas se acumulam, e com metade da Essência em falhas (mínimo 1) ela se desfaz* |
+| **a Expansão** | — | **não a quebra enquanto você segura o símbolo** |
+| **soltar o símbolo** | — | **ela fica de pé**, e cada Acerto letal da Expansão conta uma falha, no máximo uma por rodada |
+| **depois de cair** | — | **levanta de novo, com as falhas zeradas**, depois de metade da Essência em rodadas (mínimo 1) |
+| **PE** | zero | zero |
+| **requisito** | *nenhum na peça; o livro já pedia* | **ser Reencarnado, ou treinado em `História`** — *o do livro, que fica por decisão do Mizuki* |
+
+### 2 · Por que assim, nas palavras e na obra
+
+- **"Golpe no dono. Expansão não quebra a cesta se o alvo estiver mantendo o símbolo."** *É o cap. 266: os socos de alma racham a Cesta do Sukuna, e ela racha porque o golpe derruba a saída de quem segura (cap. 250).*
+- **"Metade da Essência, como na corrida."** *A mesma conta que a concentração na corrida já usa desde a v0.225 — e a mesma cláusula: o teste não ocupa a Concentração, e a Mão Firme não protege dele.*
+- **"Mãos presas, já é o suficiente. Não faria sentido comer o turno inteiro."** *Na obra o símbolo prende as mãos (o Reggie, as duas; o Sukuna, metade das quatro), e quem segura continua lutando.* **E "um chute não é segurar uma arma"**: *o Desarmado vale, e o preço fica nele.*
+- **Soltar e recarga:** *o Reggie soltou as mãos e a Cesta seguiu desenhada (cap. 171, p. 5 e 7); e quem aguenta mais falhas também demora mais para puxar de novo — as duas saem da mesma metade da Essência.*
+
+### 3 · O que isso faz, medido
+
+*A Expansão com o refino típico de cada nível, um golpe por rodada em quem segura, Acertos segurados em média:*
+
+| quem segura | nv `14` (`3` Acertos) | nv `20` (`4`) | nv `26` (`6`) |
+|---|---|---|---|
+| Vigor treinado, Constituição `6`, Essência `6` | `3,0` | `4,0` | `5,6` |
+| Vigor treinado, Constituição `3`, Essência `4` | `2,8` | `3,2` | `3,8` |
+| sem treino, Constituição `0`, Essência até `3` | `1,3` | `1,2` | `1,2` |
+
+**Ela segura quase tudo cedo e cede tarde** — *o "um dia sempre perde a queda de braço" da obra.* **É isso que desfaz a fragilidade que o `PROMPT-continuar` apontava:** *a resposta mais barata do sistema deixou de ser inquebrável, e no nível alto ela empurra quem quer segurar tudo para as outras três.* **A tabela mora na peça 11 e o script confere ela** (checagem R8 dele).
+
+### 4 · Onde entrou, e uma falha minha da v0.266
+
+- **Peça 11 §6.5:** *a seção da Cesta reescrita; a linha dela na tabela de preços; e o Domínio Simples deixou de dizer que a diferença para a Cesta é "você poder lutar dentro dela" — agora é cobrir o raio e deixar as mãos livres.*
+- **Livro, capítulo 45:** *a caixa da Cesta, a linha dela na tabela e a frase "em troca ela não quebra".* **E a célula da `Pétala` na mesma tabela, "não vale contra ataque físico", que a v0.266 deixou passar** — *eu procurei a frase exata da peça e o livro dizia com outras palavras.* **Virou "não vale contra o que não é Acerto".**
+- **O texto do livro** *(`Projeto-M-Manual-da-Guilda-TEXTO.md`)* **foi regenerado pelo `build_txt.py`** — *mudou só a Cesta e a célula da Pétala.* **O `.docx` e os dois PDFs NÃO foram regenerados:** *o PDF depende das fontes da pasta de trabalho, e gerar aqui trocaria o artefato.* **Refazer os quatro no build de lá.**
+- **`conferir-expansao.py`:** *a linha que imprimia "a Cesta é a única que cobra o TURNO inteiro" passou a dizer o preço novo; a checagem não mudou — ela confere o PE zero, que continua.*
+- **`ESTADO-ATUAL`:** *"a Cesta não tem gate nenhum" passou a nomear o requisito.*
+
+### 5 · O que continua de pé
+
+*As outras três ficam como estão e passam por revisão depois, com a Cesta de base.* **Nenhum validador mudou de veredito: na nuvem, `30` de `31`, com o `conferir-repositorio.py` reprovando só por não ter `finalizado/`, como antes.** *As peças 11 e 25 continuam no recorte da entrega, que fica atrás até o `subir.sh`.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: *o item 6 da fila, rodada 3 — o Domínio Simples, a Pétala e a Extensão revistos com a Cesta de base: como caem, quanto duram, o que dão e o que não dão.*
+
+---
+
 ## [0.266] — 24/09/2026
 
 **As frases da peça 11 que atribuíam à obra o que ela não faz foram corrigidas — e NENHUMA regra nem número se move.** *É a rodada 1 da revisão dos anti-domínio (item 6 da fila): só texto, com a decisão do Mizuki. As regras que a pesquisa questiona ficam como estão, para a rodada 2.*
