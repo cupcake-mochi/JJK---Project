@@ -867,3 +867,149 @@ depois; história do Gege, arte do Iwasaki) — **[C]** com essa etiqueta; (ii) 
 energia"** segundo o ciatr. *Não conferi que é o **ep. 5** que diz de onde vem a energia; o ep. 5 é onde a técnica
 aparece.*
 
+---
+
+## Bloco 6 — Pétala (108, 109, 148, 227)
+
+Fontes: yuran 108 e 109 (transcrições) https://yuran.work/jujutsukaisen-108-netabare/ ,
+https://yuran.work/jujutsukaisen-109-netabare/; entame-life https://entame-life.com/jujutsu108/ e
+https://entame-life.com/jujutsu109/; ciatr (Dagon) https://ciatr.jp/topics/324456; yuran 148 e 149; 227 —
+neet-life https://neet-life-blog.com/zyuzyutukaisenn227/, eiga-manga https://eiga-manga.com/entry/jujutsu227,
+manga-games https://manga-games.com/jujutsukaisen-jump-227/; ficha oficial (API do X, id 1856532442519339175);
+wiki: `Death_Swarm` (histórico), `Episode_38`, `Jujutsu_Sorcerers_vs._Dagon`, `Kento_Nanami`, `Ogi_Zenin`;
+amedot https://amedot.hatenablog.com/entry/2023/06/28/234750; Fiction Horizon
+https://fictionhorizon.com/jujutsu-kaisen-how-was-naobito-able-to-resist-dagons-domain-falling-blossom-emotion-explained/.
+
+**N-095 · ficha oficial 13/11/2024: "no instante em que TOCA… libera a própria energia e se protege" [F]**
+Ficha: 秘伝「落花の情」（術式）【相手が発動した必中の術式に触れた瞬間、自身の呪力を開放して身を守る】 (publicada
+2024-11-13). **CONFIRMA** — e é **a mesma frase da narração do cap. 108** (yuran 108: 「御三家に伝わる 対領域の術 /
+簡易領域のように自らは 領域を展開せず / 必中の術式が発動し 触れた瞬間 カウンターで呪力を解放し身を守る」). A marca
+pode ser **[C] 108 + [F] ficha**.
+
+**N-094 · "segredo das Três Grandes Famílias; não é neutralizar, é abater"**
+108: 「御三家に伝わる対領域の術」 e 「簡易領域のように自らは領域を展開せず」; 227 (Kusakabe): 「御三家秘伝の領域対策だ」;
+148: 「触れたモノを迎撃する」. **CONFIRMA** (sem marca no `H`; merece [C] 108/148/227).
+
+**N-096 / N-097 / N-100 / N-101 · as falas do 227 — quem diz o quê**
+Três resumos batem na atribuição (o eiga-manga é o mais explícito):
+- **Kusakabe:** reconhece (「『落花の情』か！と日下部は気付く」), explica 「触れたものを自動で呪力で弾く呪力操作の
+  プログラム」, 「「無量空処」のような複雑な術式効果には意味がないものの、宿儺の斬撃のようなシンプルな術式相手ならば
+  かなり役に立つ」 e 「「簡易領域」みたいに剥がされるものでもない」 (eiga-manga 260-261; neet-life e manga-games no
+  mesmo fluxo).
+- **Choso:** 「無傷とはいかない・領域の出力に対抗できるほどの術ではない」 (eiga-manga 263: 「日下部による「落花の情」の
+  説明を受けるも…と冷静に指摘する脹相」).
+- **Shoko:** 「十分だ 五条は反転術式で焼き切れた術式も治せる」「最小限治癒の時間を稼げればいい」 (eiga-manga 264).
+**CONFIRMA** as quatro linhas e as correções de 24/09 (Kusakabe, não Choso). O texto só cita o Vazio Ilimitado como
+exemplo de complexo — **CONFIRMA**.
+
+**N-098 · "o Gojo cura e conserta a técnica queimada com a Pétala de pé" [C] 227**
+manga-games 227: 「「落花の情」で傷を最小限に抑えつつ、焼き切れた術式を反転術式で治癒し、五条は再び術式を使用できる
+ようにします」; Shoko (acima). **CONFIRMA.**
+
+**N-105 · "o Gojo 'aprendeu quando criança' (`子供の頃に習った`) e parou de usar quando pegou o domínio"; "só o
+Kusakabe reconhece"; usuários Naobito, Ogi, Gojo**
+- A fala, na transcrição: 「**ガキの頃習ってさ** 領域を会得してから**とんと使わなくなった**けど、悪くないんじゃない？」
+  (neet-life 227). `子供の頃に習った` é a **paráfrase** do eiga-manga. **CONFIRMA** o conteúdo; ajuste: citar
+  `ガキの頃習ってさ` como a letra, e "とんと使わなくなった" = "praticamente parei de usar".
+- "Só o Kusakabe reconhece": 「なにそれ！知らない。知らない。知らない。さっきからあっちゃん詳しすぎて引くんだけど」
+  (neet-life). ✓ **CONFIRMA.** *(A marca "[C] via wiki" pode virar [C] 227, transcrição.)*
+
+**N-061 · o minuto do Dagon, 109 (`〔およそ一分…「死累累湧軍」に耐えたのか!?〕〔髭の男も!!〕`); 70% / 30%**
+yuran 109: exatamente essas duas linhas, logo depois de o Nanami dizer ao Megumi 「……君は私が守ります」「領域に集中して
+下さい」. O 70/30 é do 108: 〔小手調べは済んだ 力を 髭の男７：スーツの男3に 調整……!!〕. A wiki (`Episode_38` e
+`Jujutsu_Sorcerers_vs._Dagon`) dá a mesma leitura: o minuto é do Nanami, "e o velho também". **CONFIRMA.** *Nuance:
+o 「髭の男も!!」 põe o Naobito **também** no "cerca de um minuto" — a tabela de tempos do `H` já diz isso.*
+
+**N-104 · "o Naobito perdeu o braço direito depois do soco; o Nanami, sem anti-domínio, perdeu o olho esquerdo no
+mesmo enxame" [C] 109**
+Braço: 「たかが右腕一本 さりとて71年物」「高くつくぞ」 (yuran 109). Olho: entame-life 109 「復帰した七海の左目は陀艮の
+攻撃で欠損している」; ciatr 「陀艮は1分間の式神攻撃で直毘人の右腕、七海の左目を奪いました」; wiki `Kento_Nanami`: "loses an
+eye fighting Dagon". **CONFIRMA.** *O olho vem de resumo + desenho (não há fala sobre o olho); o braço é fala.*
+
+**N-024 · 108, o desenho: faixa branca antes do soco, sem faixa no ar; nenhuma fala diz que caiu; o enxame fere
+depois (braço, 109)**
+Minha leitura das páginas bate (bloco 1): a forma branca em faixa na img. 1 e nenhuma em volta dele na img. 3.
+**Nenhuma fala** diz que caiu (a transcrição do 108 inteira não tem). **CONFIRMA**, com a ressalva que o próprio `H`
+já faz (desenho não prova queda). *Achado a mais:* há um resumo japonês de 2021 que escreve a queda — entame-life
+108: 「陀艮に強烈な拳の一撃を受けて吹き飛ばされてしまいます。「落花の情」が解除され、直毘人も魚の群れに食われてしまう」 —
+mas é resumo, não texto, e é da mesma época da wiki; não soma como fonte primária.
+
+**N-025 · "o pensamento 'os shikigami tapavam a minha visão' vem depois do soco, já no ar, e **no passado** ('were
+blocking my view')"**
+- A ordem pelo desenho (inglês): img. 2 soco → img. 3 no ar com a fala. ✓
+- **"No passado" é da tradução inglesa.** O japonês (yuran 108) é 〔式神で視界が!!!〕 — elíptico, *"a vista, com os
+  shikigami—!!!"*, **sem tempo verbal**. E na transcrição japonesa a ordem é 〔式神で視界が!!!〕 e depois 「チッ!!」; o inglês
+  inverteu ("Tch! The shikigami were blocking my view!").
+- **CORRIGE** (leve). Proposta: *"**A ordem:** o pensamento sobre a vista tapada (〔式神で視界が!!!〕) aparece **depois**
+  do soco, com ele já no ar (img. 3). **A visão tapada explica por que o soco entrou**; não é falha da Pétala. **[C]**
+  *(O 'were blocking', no passado, é escolha da tradução inglesa; o japonês é elíptico.)*"*
+
+**N-026 · anime ep. 38 (26/10/2023): cai no soco, tenta erguer de novo, é mordido antes [F]**
+wiki `Episode_38` (jp air date 2023-10-26): *"Dagon hides in the stream of shikigami and punches Naobito… **Naobito
+tries to reactivate Falling Blossom Emotion**, but Dagon suddenly appears behind him and ensnares him with a
+shikigami's bite."* **CONFIRMA** (uma fonte lida por mim; o `L` cita mais duas).
+
+**N-027 · o "dispelling his barrier" da wiki é paráfrase de editor (2021), referência genérica a nove páginas [I]**
+Histórico de `Death_Swarm` pela API: entrou na **revisão 25930**, usuário **Young Mako**, **28/03/2021**, com
+`{{Ref|chap=108|page=5-13}}` (nove páginas). **CONFIRMA.**
+
+**N-028 · 109: o perigo acabou porque o Megumi apagou o acerto (〔必中効果が消えている!!〕)**
+yuran 109: 〔死累累湧軍……この領域内での〕〔必中効果が消えている!!〕〔あの少年 領域を展開している!!〕 — pensamento do
+Dagon. **CONFIRMA.** *(A página "p. 4-5" eu não tenho.)*
+
+**N-102 · "o soco do dono do domínio não é o acerto garantido, então não dispara a Pétala" [C] + [F] ficha e ep. 38**
+A definição (108 e ficha) diz que ela responde ao **術式 de acerto garantido** que toca; o soco é físico. A leitura é
+direta. **CONFIRMA**, como leitura da definição **[I]** apoiada em [C]/[F] — *nenhum texto diz "o soco não disparou a
+Pétala"*.
+
+**N-103 · "fraca contra volume e contra força bruta" [I] amedot, 28/06/2023**
+amedot (datePublished 2023-06-28): 「あくまで物理的対処であるため形のない攻撃を防げるかは疑問であり、攻撃は近くまで来るので
+**物量やパワー押しに弱い**」. **CONFIRMA** (marca e dono certos). ⚠ E a mesma frase é a origem provável do **"com
+forma"** do quadro (N-011): 「形のない攻撃を防げるかは疑問」 é especulação do amedot, não texto da obra.
+
+**N-106 · "exige concentração" — Fiction Horizon 27/10/2023; 集中 nos 108-109 só na fala do Nanami ao Megumi**
+Fiction Horizon (datePublished 2023-10-27): *"Of course, the technique requires concentration, so Dagon was
+ultimately able to hit Naobito when he lost focus"* ✓. yuran 109: 七海「領域に集中して下さい」 (ao Megumi, sobre o domínio
+dele) ✓; no 108 o Nanami diz à **Maki** 「考えては駄目です」 ("não pensem") — o oposto de concentração. O TikTok não
+conferi. **CONFIRMA.**
+
+**N-107 · DualShockers "gasta muita energia", sem fonte** — não reli o artigo (prioridade d). **NÃO CONFERIDO.**
+
+**N-099 · "tem lado ofensivo: aplicada à espada, a lâmina golpeia sozinha o que a energia toca" [C] 148**
+yuran 148: 〔纏った呪力により触れたモノを迎撃する領域対策の「落花の情」を**居合いに転用**〕. "A lâmina golpeia sozinha" é a
+redação da wiki (`Ogi_Zenin`: *"This allows the blade to automatically strike anything the cursed energy comes into
+contact with"*). **CONFIRMA** o sentido; a letra é "transposta para o iai".
+
+**N-029 · "Cap. 148 — na arma, cai com a arma: a Osso-de-Dragão da Maki quebra a lâmina do Ogi" [C]**
+- A Maki quebra a lâmina (148: 「真希が親父の刀の刃を折る」; wiki `Ogi_Zenin`: *"After Maki broke his blade"*). ✓
+- **Mas o Ogi não para**: 〔なんで折ったハズの刀身が…!?〕 (148, Maki) e, no 149, 「刀身を折り間合いを縮めたと判断し、深く
+  踏み込んだな。だからオマエは駄目なのだ」「私は剣士ではない。術師だ」 — ele **troca a lâmina por chama da própria
+  técnica** (焦眉之赳; wiki: *"Ogi replaced his katana with the flames of his Blazing Courage technique"*, 148 p. 16,
+  18) e vence o golpe. **Nenhum texto diz que a Pétala caiu** com a lâmina.
+- Sequência de dúvidas: (1) advogado: sem lâmina física, o iai "transposto" perde o meio; é razoável dizer que a
+  aplicação na espada acaba. (2) Não é tradução. (3) Terceira fonte: wiki `Ogi_Zenin` (acima). (4) O que me faria
+  errado: um quadro dizendo que o 落花の情 se desfez. Não achei. **CORRIGE.** Proposta: *"**Cap. 148 — na arma:** a Maki
+  quebra a lâmina do Ogi, e ele **troca a lâmina por chama da própria técnica** e segue (148-149). **Se a Pétala caiu
+  junto, a obra não diz** **[I]**."*
+
+**N-030 / N-031 · 227: "largada — o Gojo a usa para comprar o tempo da cura e então abre o domínio pela terceira
+vez"; "quanto dura: sem número; compra tempo"**
+227: Shoko (acima); neet-life 「再び、領域展開！」 logo depois. **CONFIRMA** o fato; "largada" é leitura (a obra não
+mostra o Gojo desfazendo a Pétala; ela some da conversa quando ele abre o domínio) — [I].
+
+**N-011 · quadro, Pétala: "o que alcança: só acerto **com forma**"**
+O texto da obra (227, Kusakabe) é **simples × complexo**: 「「無量空処」のような複雑な術式効果には意味がない…宿儺の斬撃の
+ようなシンプルな術式相手ならばかなり役に立つ」. **"Com forma" não está em nenhuma fonte da obra**; a expressão aparece
+no amedot como **dúvida** (「形のない攻撃を防げるかは疑問」). **CORRIGE.** Proposta para a célula: *"acerto de técnica
+**simples** (os cortes do Sukuna); contra efeito **complexo** (o Vazio Ilimitado) não serve (227)"*. O resto da
+linha do quadro **CONFIRMA**, com a nota de que "largada (227)" é leitura.
+
+**N-004 · divergência 4 (Pétala "não para ataque físico")**
+A peça 11 publica, de fato: "**E ela não para ataque físico** — o Dagon socou o Naobito com a Pétala de pé" (peça 11
+§6.5). A obra define pelo **acerto garantido que toca** (108, ficha). **CONFIRMA** a linha do `H`.
+
+**N-005 · divergência 5 ("contra um Acerto que é golpe de corpo, ela não faz nada" → "cai")**
+Nenhuma cena põe a Pétala contra um acerto garantido corporal; o `H` deduz da definição (o gatilho é ser acerto
+garantido, não ser "técnica de energia"). A dedução é boa, mas **é [I]**, e a linha não tem marca. **CONFIRMA** como
+leitura; proposta: acrescentar *"[I] — pela definição (108, ficha); nenhuma cena testa"*.
+
