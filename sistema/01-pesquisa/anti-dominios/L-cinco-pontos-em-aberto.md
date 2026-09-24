@@ -191,3 +191,42 @@ Texto: transcrição completa das falas do 171 (https://yuran.work/jujutsukaisen
 - **O Fanbook e o mangá não brigam, mas também não se confirmam:** o Fanbook afirma que ela neutraliza o acerto garantido de domínio; o mangá **nunca pôs a Extensão sozinha contra o acerto garantido de um domínio inimigo** (`I` §4.4). **Então "neutraliza o acerto garantido" é [F] sem cena [C].**
 - **A leitura "só parcial contra o acerto" perde o apoio que tinha:** ela dependia do 薄まる do cap. 84, e o Fanbook, que é posterior (lançado em 2021, depois do cap. 84 de 2019), escreve 中和可能 sem ressalva. **Não prova a leitura B do 84; só tira da leitura A o papel de "regra".** **[F] + [I]**
 - **Contra-argumento japonês registrado** (mesma pergunta do 知恵袋, respostas com menos reações): *"o Sukuna apagou o acerto do Vazio Ilimitado **tocando o Gojo** com a Extensão, então ela em si não teria a função de neutralizar acerto"* (てんてん, 6/5/2). É leitura do cap. 227-228, onde os acertos dos dois domínios já se anulavam. **[I]**, perde para o texto do Fanbook.
+
+---
+
+## Ponto 5 — O volume encadernado reescreveu o 薄める do cap. 246?
+
+**Resposta curta:** **sim.** No **vol. 28** o balão do Sukuna diz 「その上 簡易領域で 最低限 俺の術式を **弱める**ことで…」 — ***"além disso, com o Domínio Simples, **enfraquecendo** minha técnica ao menos um mínimo…"***. **O 薄める ("diluir") da revista virou 弱める ("enfraquecer")**, e entrou um **最低限** ("no mínimo"). Li isso **na amostra oficial do volume** publicada pela Shueisha, não em resumo. É a primeira vez que um arquivo desta pasta tem o texto do volume.
+
+### (a) Em que volume está o 246 — **vol. 28**, não 27
+
+- **Vol. 28 = caps. 246-254**, lançamento japonês **04/10/2024** (página da Shueisha: `2024年10月4日発売`, ISBN 978-4-08-884211-0, https://www.shueisha.co.jp/books/items/contents.html?isbn=978-4-08-884211-0 ; Fandom `Volume_28`; índice do manga-games, https://manga-games.com/jujutsukaisen-vol-28/).
+- **Vol. 27 = caps. 237-245** (Fandom `Volume_27`). **O `K` procurou no volume errado**; o `I` e o `J` estavam certos.
+- Datas da revista, pela lista de comentários de fim de revista: **246** saiu em **25/12/2023** (Jump 2024 nº 4-5); a nota do Gege está no **248**, **22/01/2024** (nº 8); o **254** saiu em **25/03/2024** (nº 17). O volume é **posterior aos três**. (https://sagisi4.sakura.ne.jp/haguruma/jyujyutu.html)
+
+### (b) Onde achei o texto do volume
+
+A Shueisha publica um **試し読み** (amostra grátis) do vol. 28 no leitor oficial (https://www.shueisha.co.jp/books/reader/main.php?cid=9784088842110). A amostra tem **29 páginas**, e vai da capa até o começo do cap. 246, **incluindo a página em que o Sukuna explica por que o Kusakabe e o Higuruma sobreviveram** (a que a wiki cita como 246 p. 3). O leitor serve as páginas **embaralhadas em blocos** (é a proteção dele); **o texto dentro de cada bloco fica legível**. Eu:
+1. baixei as páginas da amostra pelo próprio servidor do leitor (`mangabroadcast.jp/contents/9784088842110/commercial/`, arquivo de conteúdo datado `ContentDate 20241001184140`);
+2. achei a página com 「シン・陰流「簡易領域」」 e 「戦闘経験の浅さがここで出た!!」 (246 p. 2) e a seguinte (p. 3);
+3. **remontei o balão** juntando os blocos pela continuidade da borda (o bloco 「最低限 / 俺の術式を / 弱めること」 é o vizinho da esquerda do bloco 「その上 / 簡易領域で」 com diferença média de borda 7,3, contra 13,8 do segundo melhor candidato; o traço do quadro e o entulho continuam de um bloco para o outro). **Olhei o balão remontado.**
+
+### (c) As duas versões, lado a lado
+
+| | revista (本誌, 25/12/2023) | volume 28 (単行本, 04/10/2024) |
+|---|---|---|
+| **o balão do Sukuna** | **não achei o balão copiado letra por letra.** O que as fontes do dia registram: ねいろ速報, thread do 246, post 87 — 「今回はわざわざ「中和」じゃなくて「**薄める**」って表現使ってるだろ」 (*"desta vez ele usou de propósito 'diluir', e não 'neutralizar'"*); post 383, paráfrase — 「すっくん「簡易領域は俺の術式の効果を**薄める**ことができる」」. eiga-manga: 「その上で簡易領域で術式を**薄める**ことで、展延ほどではないもののダメージを軽減したと見抜く宿儺」. E o próprio autor, na nota do 248: 「…**薄めるって表現**は違ったかも」. | 「その上 / 簡易領域で / 最低限 / 俺の術式を / **弱める**こと[で]」 — lido no balão remontado. Nos outros blocos da mesma página, no mesmo estilo de balão: 「展延ほどでは / ないが / ダメージを」 e 「軽減したのか」 (*"…reduziu o dano, embora não ao nível da Extensão?"*) — **esses dois eu li nos blocos, mas não remontei junto**. |
+| **o verbo** | **薄める** (diluir) | **弱める** (enfraquecer) |
+| **"no mínimo"** | **não sei** se havia 最低限 na revista (nenhuma fonte do dia cita o balão inteiro) | **最低限** está no balão |
+
+Fontes da revista: http://animesoku.com/archives/35668443.html (posts 87, 383) · https://eiga-manga.com/entry/jujutsu246 · também escrevem 薄める: https://introduction1.com/2023/12/25/jujutsu246/ , https://gorilife.com/jyujyutukaisen-113/ , https://mangalab-cocona.com/post-8891/ . **Cuidado com o manga-games:** ele escreve 弱められた já no resumo da revista (https://manga-games.com/jujutsukaisen-jump-246/) e 弱めた no do volume — **é paráfrase dele nas duas vezes, não prova de nada**.
+
+**Marcas:**
+- **[C] vol. 28:** o texto do volume é 弱める, com 最低限. Fonte primária (amostra oficial), lida por mim; a remontagem é minha, mas foi conferida pela continuidade do desenho.
+- **[C] via fãs + [F] nota do autor:** a revista tinha 薄める. O conjunto é forte (thread do dia citando a palavra, quatro resumos, e o autor citando o próprio verbo), mas **o balão da revista, palavra por palavra, é [NÃO ACHEI]**.
+- **[I] minha:** a troca bate com a nota do Gege (薄める era "a expressão errada") e com o 254 (o Simples não neutraliza a técnica, mas "domínio é domínio" e a técnica de fora **enfraquece um pouco**, `多少弱まる`). **No volume, o 246 passou a usar o mesmo verbo do 254** (弱める / 弱まる). *Isso fecha a "contradição de pé" do `D` §3 e do `K` §2.4: no texto final da obra, o 246 não diz mais "diluir".*
+
+### O que continua em aberto
+
+- **O balão da revista, letra por letra** (para saber se o 最低限 também é novo). Onde procurei: threads do dia (ねいろ速報 35668443, あにまんch 20933520), eiga-manga, manga-games, neet-life-blog (o 246 dele não traz a fala), introduction1, gorilife, mangalab, 知恵袋 q14292332074. **Quem tiver a Jump 2024 nº 4-5 ou o capítulo na Jump+ fecha isso em um minuto.**
+- **O resto do vol. 28** (por exemplo, se a nota do 248 foi incorporada em outro lugar): a amostra só vai até o começo do 246. Não achei lista japonesa de 加筆修正 do vol. 28 (buscas: `呪術廻戦 28巻 修正 本誌 単行本 違い`, `28巻 加筆修正 246話`, `"薄める" 簡易領域 単行本 修正`; a lista da N-Styles só vai até o vol. 15).
