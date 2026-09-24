@@ -34,6 +34,10 @@ de fonte secundária, com dono
 >   soco** do Dagon; o voto do cap. 255 existe e **não cita a Cesta**; o Reggie tem **um quadro** com a
 >   Cesta de pé sem selo; o Fanbook p. 143 diz que a Extensão **neutraliza** o acerto garantido; e o
 >   volume 28 **trocou "diluir" por "enfraquecer"** no cap. 246.
+> - **Páginas conferidas** (`M-paginas-conferidas.md`, caps. 108, 171, 249, 258, 266 e 267): a rachadura
+>   da Cesta no 266 e a do Simples no 258 são visíveis; o 171 tem **dois** quadros com a Cesta sem selo;
+>   e um cuidado de método — **a obra nem sempre desenha a técnica ativa** (249 p. 16), então "não
+>   desenhada" não prova queda.
 
 ---
 
@@ -110,6 +114,9 @@ do domínio inimigo. O nome se lê *"caixa vazia que te envolve por inteiro"*.
 > essa versão forte:** no 250 o Yuta usa a Fala Amaldiçoada "não se mexa", e a Cesta **não cai**
 > (apontado pelos próprios japoneses, `J` §1.3).
 > **[NÃO ACHEI], nos três arquivos:** painel ou texto da Cesta **tendo encantamento próprio**.
+> **Nas páginas do 249 (`M`):** nenhum balão sai da barriga (p. 15-18), e na ativação os braços cobrem
+> a barriga. E a tradução inglesa escreve *"half my arms and **mouths**"*, no plural: o japonês não marca
+> número, e com duas bocas "metade das bocas" é **uma** boca. *É leitura de tradução, não texto novo.*
 > **Cap. 255, confirmado no japonês** (`L` ponto 2): o corte que divide o mundo exige **selo 閻魔天 +
 > encantamento (`呪詞の詠唱`) + direção pela palma**. É o voto que pagou o tiro sem condição que matou
 > o Gojo (236), e vale desde então — já valia no 249-251. **[C]** 255, por quatro reconstituições
@@ -122,10 +129,11 @@ do domínio inimigo. O nome se lê *"caixa vazia que te envolve por inteiro"*.
 > técnica não parece **exigir** o selo contínuo; o que o selo mantido faz é **segurar contra domínio
 > forte**. A leitura japonesa mais votada sobre isso (知恵袋, 15 votos) diz que o Sukuna mantém
 > **de propósito** e que a Cesta, como o Simples, só pede selo na ativação (`J` §1.4) **[I]**. A
-> prova que eles citam é o Reggie, e ela existe: **um quadro** do 171 mostra a Cesta desenhada com o
-> braço dele caído, fora do selo **[C]** (`L` ponto 3). Mas é um quadro só, no susto dos sapos — e não
-> "ao perceber que o domínio era incompleto", como o Reddit conta —, e o domínio do Megumi **não tinha
-> acerto garantido**: nada empurrava a Cesta. **Sem pressão ela fica de pé sem selo; com pressão, a obra
+> prova que eles citam é o Reggie, e ela existe: **dois quadros** do 171 mostram a Cesta desenhada com
+> as mãos dele fora do selo — o dos sapos (p. 5, uma mão aberta, afastada do corpo) e o da narração
+> seguinte (p. 7, mãos separadas) **[C]** (páginas conferidas, `M`; o `L` tinha achado o primeiro). Ele
+> solta no susto dos sapos, antes de a narração explicar que o domínio é incompleto (p. 6) — e o
+> domínio do Megumi **não tinha acerto garantido**: nada empurrava a Cesta. **Sem pressão ela fica de pé sem selo; com pressão, a obra
 > não mostra quanto dura.** **O que continua de
 > pé da correção de 23/09:** no 249 o Sukuna **não podia** soltar — e, quando soltou no 251, tomou a
 > Escada de Jacó em saída máxima. **[C]** 251. *Opcional pela técnica, obrigatório pela situação.*
@@ -134,7 +142,7 @@ do domínio inimigo. O nome se lê *"caixa vazia que te envolve por inteiro"*.
 
 - **Segurar sustenta:** *manter o selo depois de ativar **suplementa a saída**, e é isso que impede
   o domínio de empurrar.* **[C]** cap. 266 — *custo contínuo de ação, **não** reforço escalável.
-  Contra domínio forte é manter e resistir, ou cair; sem pressão, um quadro do 171 mostra a Cesta
+  Contra domínio forte é manter e resistir, ou cair; sem pressão, dois quadros do 171 mostram a Cesta
   de pé com o selo desfeito (ver a atualização acima)*
 - **Você luta dentro dela.** *O Sukuna troca socos com o Yuji segurando a Cesta com os dois braços
   de baixo.* **[C]** cap. 266 (`I` §1.1-1.2)
@@ -149,13 +157,16 @@ do domínio inimigo. O nome se lê *"caixa vazia que te envolve por inteiro"*.
 **Desvantagens**
 
 - **Cobra METADE das mãos, continuamente.** *Metade dos braços e bocas do Sukuna (249); duas das
-  quatro mãos dele (266).* **[C]**
+  quatro mãos dele (266).* **[C]** *Na página da ativação do 266 dá para ver: o par de baixo faz o selo
+  na cintura e o par de cima fica aberto, livre* (p. 4, `M`).
 - **Veta o golpe que precisa de selo + encantamento:** *o corte que divide o mundo "não dá para
   disparar mantendo a Cesta".* **[C]** cap. 250; 251 — *é o primeiro custo de "o que ela proíbe",
   além das mãos. E o 255 confirma o que o corte pede: selo 閻魔天, encantamento e a palma.* **[C]** 255
 - **Golpe no dono que derruba a saída a racha.** *No 266 os socos de alma do Yuji a deixam
   **rachada em parte** (`一部割れ`) e o Sukuna pensa 「彌虚葛籠が解ける!!」, "vai se desfazer!!".*
-  **[C]** cap. 266. *(corrigido em 24/09: antes dizia "quase se desfez"; ver "Como cai")*
+  **[C]** cap. 266. *(corrigido em 24/09: antes dizia "quase se desfez"; ver "Como cai")* *Na página:
+  a esfera com um pedaço quebrado no alto e fragmentos soltos (p. 16), e fragmentos voando em volta do
+  punho do Yuji (p. 17); o inglês diz "isn't gonna last!!", no futuro* (`M`).
 - **Pode nem subir a tempo.** *No 187 a narração diz que o Kashimo entendeu as regras do domínio do
   Hakari "mais rápido do que conseguiu **desistir de ativar**" a Cesta* (`発動を諦めるよりも速く`) —
   **ela nunca subiu**. **[C]** cap. 187 p. 1. *O acerto garantido daquele domínio é a transmissão de
@@ -164,9 +175,10 @@ do domínio inimigo. O nome se lê *"caixa vazia que te envolve por inteiro"*.
   demais" que circula no Reddit, +110, é erro de leitura, `K` §1.5)*
 - **Não apaga a técnica em si** — só o acerto garantido. **[C]** cap. 171
 - **Não serve contra domínio incompleto**, porque incompleto não tem acerto garantido para apagar.
-  *O Reggie ativou dentro do domínio do Megumi e tomou pancada igual* — *as línguas dos sapos
-  **atravessam a trama** e prendem os tornozelos dele: a Cesta não barra corpo.* **[C]** cap. 171
-  (quadro visto, `L`)
+  *O Reggie ativou dentro do domínio do Megumi e tomou pancada igual* — *as línguas dos sapos prendem
+  os tornozelos dele.* **[C]** cap. 171. *Se elas **atravessam a trama**, a página não deixa afirmar: a
+  esfera aparece atrás dele, e não dá para ver se ele está dentro dela* (`M`; corrigido em 24/09 — o
+  `L` tinha escrito que atravessam)
 - **Saída fraca:** contra domínio forte ela só compra tempo — *"um dia sempre perde a queda de braço"*
   (`いつかは必ず押し負けてしまう`). **[C]** cap. 266 p. 4-6
 - Custo de energia, tamanho em número, como se aprende, limite de tempo: **[NÃO ACHEI]** nos três
@@ -179,7 +191,10 @@ do domínio inimigo. O nome se lê *"caixa vazia que te envolve por inteiro"*.
   da Nobara bloqueia o domínio dele, e **o acerto garantido do Yuji entra**.* **[C]** 266-267. **Nenhum
   painel mostra a Cesta desfeita por inteiro**, e o último instante — se ela se desfez sozinha ou se
   ele a soltou para fazer o selo do domínio — **fica fora de quadro**. Os fóruns japoneses e
-  ocidentais também não fecharam isso.
+  ocidentais também não fecharam isso. *Nas páginas (`M`): no quadro do "DISMANTLE" (267 p. 16) nenhuma
+  das mãos visíveis dele está no selo; a esfera não é desenhada nem no "Domain Expansion" (266 p. 18)
+  nem no 267 — e isso, sozinho, não prova queda. O que prova que ela não protegia é o acerto ter
+  entrado.*
   - **O mecanismo é canon, no cap. 250:** *"a cada golpe do Yuji, a saída de energia do Sukuna cai e
     o controle do corpo fica lento"*; o plano é desgastá-lo **"até ele não conseguir mais manter a
     Cesta"** (`維持できなくなるまで`). **[C]** 250 (`J` §1.2). *O soco não quebra a barreira por
@@ -187,10 +202,10 @@ do domínio inimigo. O nome se lê *"caixa vazia que te envolve por inteiro"*.
 - **Cap. 251 — largada forçada:** *o Sukuna solta o selo para arriscar o corte que divide o mundo;
   o Yuji e a Rika seguram três braços, o Yuta arranca a língua da boca da barriga, e ele toma a
   Escada de Jacó "sem conseguir manter a Cesta".* **[C]** 251 p. 12-13
-- **Cap. 171 (Reggie):** **a obra não mostra a queda.** A Cesta aparece de pé num quadro com o selo
-  desfeito e depois deixa de ser desenhada enquanto ele apanha e passa a usar as mãos (facas, facão).
-  Leitura provável: **largada** — sem acerto garantido para anular, ela não tinha função. **[C]**
-  quadros + **[I]** (`L` ponto 3)
+- **Cap. 171 (Reggie):** **a obra não mostra a queda.** A Cesta aparece de pé em dois quadros com o
+  selo desfeito (p. 5 e 7) e, da p. 8 em diante, não é mais desenhada enquanto ele apanha e passa a
+  usar as mãos (facas, facão) — *o que, sozinho, não prova queda*. Leitura provável: **largada** — sem
+  acerto garantido para anular, ela não tinha função. **[C]** páginas (`M`) + **[I]**
 - **Cap. 187 (Kashimo):** nunca subiu.
 - **Quanto dura:** **nenhuma cena dá número.** 249→251 são três capítulos de luta; 266 é uma luta
   corpo a corpo inteira. **[C]**
@@ -210,8 +225,9 @@ fortes. Abre um círculo em volta de você onde o acerto garantido **deixa de va
 - **Interrompe a ATIVAÇÃO** do acerto, e não o efeito já disparado. **[I]**
 - **Protege inteiro até quebrar** — é limiar, não redução. **[I]** — *mas **desgasta à vista** antes
   de cair: o Kenjaku "raspa aos poucos" (`みるみる剥がされていく`) e depois arranca tudo de uma vez,
-  apontando o dedo* **[C]** cap. 206; *o do Yuji aparece rachando antes de o golpe entrar* (painel
-  apontado no Reddit, +258) **[I]** cap. 258. *(ajustado em 24/09: o `D` §6 tinha como consenso que
+  apontando o dedo* **[C]** cap. 206; *no 258 p. 16, uma forma redonda cheia de rachaduras vem, na
+  ordem de leitura, antes do quadro do Yuji cortado* **[C]** (página vista, `M`; *o quadro não tem
+  legenda — que seja o Simples vem do texto do capítulo*). *(ajustado em 24/09: o `D` §6 tinha como consenso que
   ele "não degrada")*
 - **Dentro do raio, o dono sobe e a técnica de fora enfraquece um pouco** — *"simplificado ou não,
   **domínio é domínio**"* (`簡易的ではあるが領域は領域`). **[C]** cap. 254 p. 1-2. *O Gege, na nota do
@@ -306,7 +322,7 @@ faz questão da distinção: *não é neutralizar, é abater.*
 - **O que não é acerto passa por ela — e pode derrubá-la.** *No 108 o Dagon, escondido no enxame,
   dá um soco que o Naobito não vê chegar ("os shikigami tapavam a minha visão", pensado já no ar) —
   **o soco do dono do domínio não é o acerto garantido, então não dispara a Pétala**, e depois dele
-  ela não aparece mais.* **[C]** cap. 108 (desenho) + **[F]** ficha e anime ep. 38. *(ajustado em
+  o enxame o fere.* **[C]** caps. 108-109 + **[F]** ficha e anime ep. 38. *(ajustado em
   24/09: antes dizia "abre brecha enquanto responde")*
 - **Fraca contra volume e contra força bruta.** **[I]** *amedot, 28/06/2023 — é a origem (`J` §3)*
 - **O braço do Naobito não mede a Pétala.** *Ele perdeu o braço direito no enxame **depois** do soco;
@@ -327,10 +343,12 @@ faz questão da distinção: *não é neutralizar, é abater.*
 **Como cai** (`I` §3.2-3.3, `J` §3.1, `K` §3.2 e §3.5)
 
 - **Cap. 108 — golpe no dono, por soco comum.** *(fechado em 24/09; os arquivos divergiam)*
-  - **O desenho** (cinco páginas enviadas pelo Mizuki, tradução inglesa, lidas em 24/09; as imagens
-    não entram no repositório): antes do soco, o Naobito está no chão com **uma faixa branca de energia
-    enrolada no corpo**, rebatendo os peixes; o Dagon soca e o arremessa; **no ar, a faixa não está mais
-    desenhada**, e o enxame o pega. **Nenhuma fala diz "a Pétala caiu".** **[C]** pelo desenho, por ausência.
+  - **O desenho** (páginas conferidas, `M`): antes do soco, o Naobito está no chão com **uma faixa
+    branca de energia enrolada no corpo**, rebatendo os peixes; o Dagon soca e o arremessa; **no ar, a
+    faixa não está mais desenhada**. **Nenhuma fala diz "a Pétala caiu".** ⚠ *Isso sozinho não prova
+    queda: no 249 p. 16 o Sukuna luta com a Cesta ativa e a esfera não é desenhada (`M`). O que sustenta
+    a queda é o anime (abaixo) e o efeito — o enxame, que é o acerto garantido, fere o Naobito depois do
+    soco (o braço, cap. 109, pela transcrição).* **[C]** desenho e texto + **[F]** anime
   - **A ordem:** o pensamento "os shikigami tapavam a minha visão" vem **depois** do soco, com ele já no
     ar, e no passado (*"were blocking my view"*). **A visão tapada explica por que o soco entrou**; não
     é falha da Pétala. **[C]** *(os três arquivos descreviam "visão tapada → soco")*
@@ -445,6 +463,11 @@ no Fanbook, na nota do autor do 248, na lista de comentários de fim de revista 
 - **Pétala:** *compra tempo, e não é arrancada.* **[C]** cap. 227
 - **Extensão:** *fôlego contra técnica mais forte.* **[C]** cap. 85
 
+⚠ **Cuidado de leitura, das páginas conferidas (`M`):** a obra nem sempre desenha a técnica ativa. No
+249 p. 16 o Sukuna troca golpes sem a esfera desenhada, entre a ativação (p. 15) e a fala de que querem
+fazê-lo continuar usando a Cesta (p. 17). **"Deixou de ser desenhada" não prova queda; o que prova é o
+efeito** — o acerto garantido alcançar o dono — ou o texto.
+
 **Esgotamento puro nunca aparece** — ninguém solta anti-domínio por falta de energia sozinha. E
 **custo de energia é [NÃO ACHEI] nas quatro**: o que circula ("gasta pouco", "gasta muito") é site de
 notícia sem fonte.
@@ -461,7 +484,8 @@ notícia sem fonte.
 
 **Queda por golpe no dono DENTRO de domínio:** a **Cesta** (251, 266 — nos dois casos, **soco de
 alma** do Yuji) e a **Pétala** (108 — **soco comum** do Dagon, que não é acerto garantido). **O Simples
-nunca.** **[C]** — *a queda da Pétala no 108 é [C] pelo desenho e [F] pelo anime (ver §3).*
+nunca.** **[C]** — *a queda da Pétala no 108 é [F] pelo anime e [C] pelo efeito: o enxame a fere depois
+do soco (ver §3).*
 
 ---
 
