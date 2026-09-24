@@ -146,3 +146,110 @@ Extensão:
 - **N-119** custo de energia das quatro · **N-120** limite de tempo · **N-121** Extensão junto com a reversa ·
   **N-122** Cesta com encantamento próprio · **N-123** Kamo com Pétala · **N-124** como se aprende a Cesta
 
+---
+
+## Bloco 1 — Minha leitura das páginas (feita ANTES de abrir o `M`)
+
+Regra: só o que eu tenho certeza. Onde a página não deixa afirmar, está escrito. Numeração das páginas
+= nome do arquivo local (a do cap. 108 é a ordem das 5 imagens, sem número de página da revista).
+Todas as páginas são a tradução inglesa; a ordem de leitura é da direita para a esquerda.
+
+**Cap. 108 (5 imagens)**
+- **Img. 1, topo:** o enxame morde alguém de quem só se veem as pernas; o Megumi grita *"NANAMI!"*.
+- **Img. 1, baixo:** o Naobito agachado, as duas mãos à frente, e **uma forma branca em faixa,
+  sem hachura, que sai de baixo à esquerda e faz curva por trás do corpo dele** até a altura da
+  cabeça. Peixes sendo atingidos ("CHK"). Legenda *"This ain't good..."*. **O nome da técnica não
+  aparece nestas cinco páginas.** Que a faixa seja a Pétala é leitura, não texto da página.
+- **Img. 2, topo:** close da boca de um shikigami; legendas *"Could it be the technique connected to
+  this domain is..."* e *"The force of the shikigami isn't slowing down at all..."* (de quem, a página
+  não marca).
+- **Img. 2, meio:** um punho grande entra pela esquerda, perto de um olho e de uma armação de óculos à
+  direita (o Naobito usa óculos). **Não cravo** de quem é o olho.
+- **Img. 2, baixo:** o Dagon com o braço estendido, estouro de impacto no meio ("KRSH"), e uma figura
+  pequena de roupa clara em cima e escura embaixo arremessada no alto à esquerda.
+- **Img. 3:** o Naobito de cabeça para baixo no ar: *"Tch! The shikigami were blocking my view!"* —
+  **no passado**. **Nenhuma faixa branca desenhada em volta dele nesse quadro.** O Dagon: *"The
+  sea... is the source of constant life."*
+- **Img. 4:** um peixe esmagado ("GRRCHAK") e o Dagon de mão erguida: *"Death Swarm is... an endless
+  stream of shikigami."* **Quem o enxame atinge nesse quadro, a página não deixa afirmar.**
+- **Img. 5:** o Megumi salta contra o Dagon: *"You're... the weakest here!"*
+- **Nenhuma fala diz que a técnica caiu.**
+
+**Cap. 171**
+- **p. 3:** o Reggie avança; o Megumi junta as mãos (selo) — "!!".
+- **p. 4:** o Reggie à frente de uma esfera trançada, **braços cruzados à frente do peito, punhos
+  juntos**; *"Secret technique 'Hollow Wicker Basket'"*; narração: *"...is a prototype of the New
+  Shadow Style: Simple Domain, and it has the ability to counteract a domain and its guaranteed hits."*
+- **p. 5, topo:** esfera atrás dele; **o braço direito estendido longe do corpo, mão meio aberta** (não
+  é o gesto da p. 4); as línguas dos sapos presas **nos dois tornozelos**; "!!".
+- **p. 5, baixo:** visto de cima, a esfera desenhada embaixo/atrás dele; uma mão aberta para a esquerda;
+  línguas nos tornozelos. **Se as línguas atravessam a trama, a página não deixa afirmar** — a esfera
+  está atrás dele e as línguas passam por cima do contorno dela.
+- **p. 6:** narração: *"In Shibuya, Jogo and Hanami used the 'Domain Amplification' **in a sure-hit
+  domain**, to counteract Gojo's limitless cursed technique... by deliberately not using their cursed
+  technique and thereby leaving some space to funnel it through."* / *"'Hollow Wicker Basket' and
+  'Simple Domains'... cannot directly counteract cursed techniques."* / *"These cursed techniques
+  neutralize the barrier of a Domain Expansion... and hence nullify the sure-hit effect."* /
+  *"Fushiguro's Domain Expansion is incomplete."* Reggie: *"Did he hit me?! How..."*
+- **p. 7:** esfera atrás dele; **mãos separadas** (uma baixa, ao lado do corpo; o antebraço do outro
+  braço atravessado na frente do peito). Narração: domínio incompleto, *"doesn't have its guaranteed hit
+  effect"*; o Megumi: *"...improves his potential capacity by 120%."*
+- **p. 8:** o Reggie apanha (*"You little shit!!"*, *"You think you have me beat!"*); **a esfera não é
+  desenhada**.
+- ⚠ **Achado da minha leitura:** a caixa da p. 6, no inglês, diz que a Extensão foi usada **"in a
+  sure-hit domain"**. O japonês precisa ser conferido (vai no N-059/N-034).
+
+**Cap. 249**
+- **p. 15 (ativação):** *"HOLLOW WICKER BASKET!"*, o Sukuna dentro da esfera. **As duas mãos de cima
+  estão juntas na altura do peito, E as duas de baixo estão juntas na frente da barriga.** Ou seja: na
+  ativação, os **quatro** braços estão com as mãos unidas. Qual par é "o selo", a página não diz.
+- **p. 16:** o Sukuna trocando golpes com o Yuta ("KLING", a espada bate no braço); **esfera não
+  desenhada**; uma mão de cima fechada no alto, outra em guarda; **na barriga, duas mãos juntas** (o
+  par de baixo, pelo que dá para ver — não cravo). Embaixo: *"THIN-ICE BREAKER!"*.
+- **p. 17:** o Yuta: *"...I will finish everything... within this domain."*; o Sukuna: *"Ah, I see.
+  This is their second plan."* Legendas (pensamento do Sukuna, que segue o "Ah, I see"): *"Thanks to
+  Megumi Fushiguro's memory, I know that the possessed brat's cursed technique is copy. They want to
+  keep half my arms and mouths busy by making me keep using Hollow Wicker Basket... **as a means of
+  countering the can't-miss attack (probably the Angel's cursed technique) that comes with the
+  domain**... and to attack with unlimited cursed technique copy which appears to only activate within
+  the domain."* **Nenhum balão sai da barriga** nas p. 15-18.
+- **p. 18:** pensamento do Sukuna: *"Then the boy will deliver a blow that captures the soul... and
+  tears Megumi Fushiguro's body from mine!!"*; *"Everyone has a role."* / *"How nice."*
+
+**Cap. 258**
+- **p. 14:** *"After 99 seconds..."*; *"Hang in there!!"* (duas vezes).
+- **p. 16:** dois quadros. **Direita (lido primeiro):** um contorno curvo, branco, cortado por
+  rachaduras pretas — forma redonda rachada, **sem legenda**. **Esquerda:** o Yuji sendo cortado.
+- **p. 17:** *"We hung in there until the end!"*; *"Sukuna's slashes stopped!!"*.
+- **p. 18:** *"Divine Flame!"*.
+
+**Cap. 266**
+- **p. 4:** o Yuji: *"...I guess I have no right to tell you... that you have to live, Fushiguro..."*;
+  "CLAP" (mãos batendo num selo, em close); *"HOLLOW WICKER BASKET!!"* — **o par de cima aberto e
+  afastado, mãos abertas; o par de baixo com as mãos juntas na cintura.** Bate com o `H`.
+- **p. 5:** narração: *"Satoru Gojo developed his own method of rehabilitating his brain to reset a
+  cursed technique burnt out by a domain. But... **doing that now, while the brain's still affected by
+  Unlimited Void, would be too risky.**"* ⚠ Isso pesa no N-066 (reset "com a Cesta em jogo").
+- **p. 6:** narração: *"...Hollow Wicker Basket and Simple Domain have weaker outputs than domains that
+  manifest mental images. Buying time until the domain's can't-miss attack hits would be possible, but
+  at some point, getting overpowered is inevitable. However, Sukuna is able to offset weak output by
+  continuing the palm signs after activating Hollow Wicker Basket... so he could keep fighting without
+  the domain overpowering him."*
+- **p. 15:** o Yuji soca ("BABAM"). **p. 16:** pensamento do Sukuna: *"I knew it. Reverse cursed
+  technique can't keep up with the boy's punches. And Hollow Wicker Basket... isn't gonna last!!"*; a
+  esfera desenhada, **com uma quebra no alto e fragmentos soltos**, o Yuji socando para dentro ("KTINK").
+- **p. 17:** **fragmentos voando em volta do punho do Yuji** ("KRMBL"); o Sukuna ergue **uma** mão com
+  dedos para cima ("FWSH") — se é o selo do domínio, a página não diz; o Yuji: *"That's Gojo
+  sensei's..."* / *"Did Sukuna's cursed technique replenish?!"*
+- **p. 18:** *"...Burnt-out cursed technique reset!!"*; o Sukuna: *"Domain Expansion."*; uma mão de
+  unhas pretas com os dedos estendidos. **A esfera não é desenhada.** **p. 19:** dedo amarrado, escada
+  em espiral; *"To be continued!"*
+
+**Cap. 267**
+- **p. 14:** o Sukuna: *"This is that girl's—dammit!! My cursed technique is—!! I can't open my
+  domain!! This means that the boy's can't-miss attack..."* (frase cortada).
+- **p. 16:** *"DISMANTLE"*; o Sukuna com os braços abertos, **nenhuma das mãos visíveis juntas**; o
+  Yuji acerta. **p. 17:** *"NOT SO FAST!!"*. **p. 18:** *"Did the boy think he could strip me away with
+  a half-assed domain?!"*; *"He hasn't been able to heal his wounds because of reverse cursed tech-...
+  so he's way past his limits too."*; *"...You're the one who'll die!!"*. **Esfera não desenhada.**
+
