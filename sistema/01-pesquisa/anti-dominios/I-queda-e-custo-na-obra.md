@@ -136,3 +136,61 @@ Fontes: https://eiga-manga.com/entry/jujutsu266 · https://manga-games.com/jujut
 - **Limite de tempo da técnica:** **[NÃO ACHEI]**. Os números de tempo da obra são **do domínio** (0,2 s no 130; 99 s no 258) ou **do plano** (10 s no 206). O único tempo medido do Simples em si é o do Miyo (< 1 min lá fora), e ali o tempo é distorcido pelo próprio Simples.
 - **Condição que derruba — só em usuário específico:** o **voto da Miwa** (dois pés fora do lugar = fim) é a única regra de queda escrita. **[C]** 40 p. 4; 254 p. 5. **Nenhuma cena mostra esse voto sendo quebrado.**
 
+---
+
+## 3 · PÉTALA — 落花の情
+
+### 3.1 O texto da estreia, quase palavra por palavra (cap. 108)
+
+Transcrição de fala do cap. 108 (https://yuran.work/jujutsukaisen-108-netabare/), que bate com os resumos:
+- Caixa de narração: 「御三家に伝わる 対領域の術 / 簡易領域のように自らは領域を展開せず / 必中の術式が発動し 触れた瞬間 カウンターで呪力を解放し身を守る」 — *"arte anti-domínio das Três Grandes; não abre domínio próprio como o Simples; quando a técnica de acerto garantido dispara e **toca**, libera energia em contra-ataque e se protege."* **[C]** 108 p. 4
+- Dagon: 「力を 髭の男7：スーツの男3に調整」 — *"ajusto a força: 7 para o barbudo, 3 para o de terno"*. **[C]** 108
+- Naobito, pensando: 〔……マズいな…〕〔式神の勢いが一向に衰えない まさかこの領域に付与された術式は〕〔式神で視界が!!!〕「チッ!!」 — *"…ruim… a força dos shikigami não diminui nada; será que a técnica deste domínio é… Os shikigami taparam minha visão!!! Tsc!!"* **[C]** 108 p. 10-11
+- Aí vem o soco do Dagon (sem fala), ele voa e o enxame come ele. **[C]** 108
+
+### 3.2 Todas as cenas, com a queda
+
+| cap. | quem | contra quê | como terminou | quanto durou | o que o dono pagou | o que ela não parou | fonte |
+|---|---|---|---|---|---|---|---|
+| **108** | Naobito | Horizonte do Skandha Cativante + Enxame Mortal do Dagon (70% em cima dele) | **(2) ataque ao usuário — por inferência forte.** O painel mostra: visão tapada → soco do Dagon → ele no ar → o enxame o devora. **Nenhuma fala diz "a Pétala caiu"**; quem escreve isso são a wiki (página `Death_Swarm`: *"Dagon hit him into the air, **dispelling his barrier**"*) e o resumo japonês de entame-life (`「落花の情」が解除され`). **[I]** | do começo do Enxame até o soco — não dado | — | o **soco do dono do domínio** (não é o acerto garantido, então não dispara a Pétala) | **[C]** 108 p. 4-13; https://entame-life.com/jujutsu108/ |
+| **108→109** | (depois da queda) Naobito e Nanami | Enxame Mortal | **o acerto garantido some por fora:** o Megumi entra com o domínio incompleto dele e o Dagon pensa 〔必中効果が消えている!!〕 — *"o acerto garantido sumiu!!"*. Encaixo em **(6)** (o que parou o Enxame não foi a Pétala) | ver 3.3 | **Naobito: o braço direito** — 「たかが右腕一本 さりとて71年物」 (*"é só um braço direito… mas é safra de 71 anos"*). **Nanami: o olho esquerdo** | — | **[C]** 109 p. 4-11; https://yuran.work/jujutsukaisen-109-netabare/ |
+| **148** | Ogi | Maki (sem domínio; Pétala na **espada**, uso ofensivo) | **(2) no equipamento:** a Osso-de-Dragão da Maki **quebra a lâmina** do Ogi; ele troca para a lâmina de fogo da própria técnica e corta a Maki | um golpe | — | a ferramenta que absorve e cospe energia | **[C]** 148 p. 12-16 |
+| **227** | Gojo | Santuário Malevolente, depois do 2º colapso do domínio dele | **(4) largada** — ele usa a Pétala **para comprar tempo** enquanto a reversa conserta a técnica queimada, e aí **abre o domínio pela 3ª vez** | não dado ("tempo mínimo de cura") | nada da técnica; ele cura e conserta **com a Pétala de pé** | o corte ainda entra, **raso** (`無傷とはいかない`) | **[C]** 227 p. 16; https://neet-life-blog.com/zyuzyutukaisenn227/ |
+
+### 3.3 O buraco do "mais de um minuto e custou um braço" (cap. 109) — **a métrica estava errada**
+
+**O que a página diz:** o Dagon pensa **〔およそ一分…「死累累湧軍」に耐えたのか!?〕〔髭の男も!!〕** — *"Cerca de um minuto… **ele** aguentou o Enxame Mortal!? **O barbudo também!!**"*. A frase vem quando o **Nanami** volta à luta; o "barbudo também" é o Naobito, que chega logo depois. **[C]** 109
+
+**Três consequências, e elas mudam a leitura do `A` e do `H`:**
+1. **O "um minuto" é primeiro do Nanami**, que **não tem anti-domínio nenhum** (e pegou só 30% do enxame). O Naobito aguentou "também". A wiki em inglês da página do Naobito escreve *"withstanding an endless stream... for over a minute and only losing a single arm"* — *"over"* (mais de) não está no texto: é **およそ**, "cerca de". **[C]** vs **[I]** da wiki.
+2. **A Pétala não segurou esse minuto inteiro.** Pela cena do 108, ela já tinha caído (ou sido vencida) no soco, e o Naobito foi devorado **depois** disso. **O minuto é sobrevivência sob o enxame, não duração da Pétala.** **[I]** forte, apoiado no 108.
+3. **O que acabou com o perigo foi o domínio do Megumi** apagando o acerto garantido (109 p. 4-5), não a Pétala nem o esgotamento. **[C]**
+
+→ **Para a mesa: "a Pétala aguenta um minuto ao custo de um braço" NÃO é régua da obra.** A obra mostra que ela **segura o acerto até o dono levar um golpe que não é acerto**, e que dois feiticeiros de grau 1 — um com Pétala, outro sem nada — **aguentaram mais ou menos o mesmo tempo sob o enxame** com perdas parecidas (um braço, um olho).
+
+### 3.4 "Exige concentração" — **DERRUBADO como regra; a obra diz o contrário**
+
+- **[C] 227, fala do Kusakabe:** 「触れたものを**自動で**呪力で弾く呪力操作の**プログラム**だ」 — *"é um **programa** de manipulação de energia que rebate **automaticamente**, com energia, o que toca."* Programa automático é o oposto de "exige concentração".
+- **[C] 108:** a queda que os fãs chamam de "perdeu a concentração" é, no texto, **visão tapada** (〔式神で視界が!!!〕). E o que entrou pela visão tapada **foi um soco**, que a Pétala não pega de qualquer jeito. **Leitura que casa as duas:** a Pétala é automática contra o acerto; **contra o que não é acerto, o usuário se defende no braço e no olho** — e é isso que o enxame tirou dele. **[I]**
+- **Palavra 集中 (concentração) nos caps. 108-109:** só aparece na fala do Nanami para o Megumi — 「領域に集中して下さい」 (*"concentre-se no seu domínio"*) — e é sobre o **domínio do Megumi**. **[C]** 109. *Pode ser a origem do boato.*
+- **[F]** A ficha oficial (13/11/2024) também não fala em concentração.
+- **Veredito: [NÃO ACHEI] base para "exige concentração"; há base [C] para "é automática".**
+
+### 3.5 Duas correções no `H` que saem do texto do 227
+
+- O `H` atribui ao **Choso** a frase de que a Pétala não serve contra efeito complexo. **É do Kusakabe:** 「それこそ無量空処みたいな複雑な術式効果には意味ねえけど、宿儺の斬撃みたいなシンプルな術式相手ならかなり役に立つ。簡易領域みたいに剥がされるもんでもないしな」 — *"contra efeito de técnica complexo tipo o Vazio Ilimitado ela não serve, mas contra técnica simples tipo o corte do Sukuna ajuda bastante. E não é arrancada como o Simples."* **O Choso** diz a outra parte: 「だが無傷とはいかない。領域の出力に対抗できるほどの術ではない」 — *"mas não sai ileso; não é técnica que encare a saída de um domínio."* **E a Shoko:** 「十分だ…最小限治癒の時間を稼げればいい」 — *"basta; é só comprar o tempo mínimo de cura."* **[C]** 227, transcrição https://neet-life-blog.com/zyuzyutukaisenn227/
+- O `H` cita **"o Infinite Void e o Julgamento do Higuruma"**. **O texto só cita o Vazio Ilimitado.** O Higuruma é extrapolação (de fórum japonês, ver `A`). **[I]**
+
+### 3.6 Como se aprende, quem usa, limite
+
+- **Como se aprende — meio fechado:** **[C] 227** o Gojo **"aprendeu quando criança"** (`子供の頃に習った`) e **parou de usar quando pegou o domínio**. É a única pista: **ensino formal na infância**, dentro das famílias. O método: **[NÃO ACHEI]**.
+- **Nenhum Kamo usa:** continua **[NÃO ACHEI]** (os três usuários são dois Zenin e um Gojo). Procurei na wiki `Falling_Blossom_Emotion` e nos resumos 108, 109, 148, 227.
+- **Precisa de energia?** Pela definição (libera a própria energia) sim. **[C]/[F]**. *Mas o Modulo mostra um sem-energia fazendo Domínio Simples com energia de ferramenta (ver 2.1) — então "quem não tem energia não usa" é inferência, não regra.* **[I]**
+- **Custo de energia:** **[NÃO ACHEI]**.
+- **Limite de tempo:** **[NÃO ACHEI]**. As quedas mostradas são golpe no usuário (108), golpe no equipamento (148) e largada (227). **Nenhuma por esgotamento.**
+- **Anime:** não conferi se o ep. 38 muda algo na cena do 108.
+
+### Correção do bloco 2 (Domínio Simples)
+
+Na linha do **cap. 40** da tabela 2.1 eu pus entre crases um japonês do voto da Miwa (`両足が…離れたら術が解ける`) **que eu não conferi — é paráfrase minha, não citação**. O que os sites japoneses escrevem é 「両足が展開時の地点から離れると解除される」 (https://comicjiten.com/kaniryouiki/) ou 「両足が接地した場所から離れると解除」 (http://likiroku.com/jujutsu-singake-kaniryouiki/) — **também paráfrase de resumo**, não o balão. O conteúdo (os dois pés saem do lugar = fim) é o da wiki, ref. cap. 40 p. 4 e 254 p. 5.
+
