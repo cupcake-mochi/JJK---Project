@@ -41,7 +41,7 @@ queda é o **efeito** — o acerto garantido alcançar o dono — ou o texto.
 | página | o que dá para afirmar |
 |---|---|
 | 1ª | Quadro de baixo: o Naobito no chão, com **uma faixa branca de energia enrolada em volta do corpo**; peixes em volta sendo rebatidos, som de corte repetido ("CHK CHK"); ele pensa *"This ain't good…"*. |
-| 2ª | *"The force of the shikigami isn't slowing down at all… Could it be the technique connected to this domain is…"*; close nos olhos do Dagon; o Dagon soca e o Naobito é arremessado para o alto. |
+| 2ª | *"The force of the shikigami isn't slowing down at all… Could it be the technique connected to this domain is…"*; close num olho (o `N` vê uma armação de óculos, que seria do Naobito; nenhum dos dois crava); o Dagon soca e o Naobito é arremessado para o alto. |
 | 3ª | O Naobito no ar, de cabeça para baixo: *"Tch!"* e *"The shikigami **were** blocking my view!"* (no passado, **depois** do soco). **A faixa branca não está desenhada em volta dele.** O Dagon: *"The sea… is the source of constant life."* |
 | 4ª | Os peixes fecham com som de esmagar ("GRRCHAK"); o Dagon: *"Death Swarm is… an endless stream of shikigami."* **O Naobito não aparece com nitidez nesse quadro.** |
 | 5ª | A Maki ataca; o Dagon: *"You're… the weakest here!"* |
@@ -62,7 +62,7 @@ queda é o **efeito** — o acerto garantido alcançar o dono — ou o texto.
 |---|---|
 | 3 | O Megumi com as mãos juntas no selo do domínio, "!!". |
 | 4 | *"Secret Technique 'Hollow Wicker Basket'"* — o Reggie com **as mãos juntas na frente do peito**, e a esfera trançada atrás dele. Narração: *"…is a prototype of the New Shadow Style: Simple Domain, and it has the ability to counteract a domain and its guaranteed hits."* Ele: *"That's too bad ♡"*. |
-| 5, de cima | As línguas dos sapos presas **nos dois tornozelos**; os braços dele esticados para a frente, **com as mãos juntas**; esfera atrás. |
+| 5, de cima | As línguas dos sapos presas **nos dois tornozelos**; os braços dele esticados para a frente, com as mãos **talvez** juntas — ampliado, não dá para cravar (o `N` concorda); esfera atrás. |
 | 5, de baixo | Os sapos no chão, as línguas nos tornozelos, a esfera desenhada — e **uma das mãos dele aberta, afastada do corpo, fora do selo**. A outra mão não aparece. "Wha-" |
 | 6 | Narração: *"'Hollow Wicker Basket' and 'Simple Domains'… cannot directly counteract cursed techniques. These cursed techniques neutralize the barrier of a domain expansion… and hence nullify the sure-hit effect."* O Reggie: *"Did he hit me?! How…"*. Narração: *"Fushiguro's domain expansion is incomplete."* |
 | 7 | **A esfera desenhada atrás dele, e as mãos separadas** — um antebraço cruzando a cintura, a outra mão junto do quadril. Narração: *"The barrier is forcibly closed and doesn't have its guaranteed hit effect."* |
@@ -111,8 +111,9 @@ queda é o **efeito** — o acerto garantido alcançar o dono — ou o texto.
 | 18 | *"Divine Flame!"* |
 
 **O que fica:**
-- A forma rachada **não tem nome no quadro**. Que seja o Simples do Yuji vem do **texto do capítulo**
-  (`「簡易領域」が剥がされてしまった`, `I`), não do desenho.
+- A forma rachada **não tem nome no quadro**. ~~Que seja o Simples do Yuji vem do texto do capítulo~~
+  *(corrigido pelo `N`: o "texto" que o `I` citava é resumo do eiga-manga, com "talvez" — que seja o
+  Simples do Yuji é **leitura [I]**, não texto.)*
 - Que o pé e o corpo sejam do Yuji também vem do texto (pé esquerdo, `I`). **Pelo desenho, é um pé
   cortado e um corpo caindo.**
 - **A sequência bate com o `I`:** rachadura → cortes → pé → "os cortes pararam". O Simples caiu **pouco
@@ -138,8 +139,10 @@ queda é o **efeito** — o acerto garantido alcançar o dono — ou o texto.
 - **A narração do 266 bate com o japonês que o `H` cita** (saída fraca, "um dia é sobrepujada", manter o
   selo depois de ativar supre a saída).
 - **A rachadura é visível:** a esfera aparece quebrada no alto, com fragmentos (p. 16). Na p. 17 voam
-  fragmentos em volta do punho do Yuji — *que sejam pedaços da trama é o que o contexto indica; o
-  quadro não diz*.
+  fragmentos em volta do punho do Yuji — ~~que sejam pedaços da trama é o que o contexto indica~~
+  *(corrigido pelo `N`: **não são da Cesta**. Três resumos japoneses dizem que é a cobertura do braço do
+  Yuji, cortada pelo Sukuna com a técnica resetada — 「魔物の腕がばらけ落ちる」, neet-life, que eu conferi —,
+  e a p. 18 mostra a mão dele sem dois dedos. O meu "contexto" estava errado.)*
 - **"Isn't gonna last!!"** é futuro, igual ao `解ける` do japonês: não diz que já caiu.
 - **O que a página NÃO deixa afirmar:** se a Cesta ainda estava de pé no "Domain Expansion" da p. 18.
 
@@ -173,8 +176,8 @@ queda é o **efeito** — o acerto garantido alcançar o dono — ou o texto.
 | **Pétala, 108** | O "[C] pelo desenho" enfraquece: a faixa some do desenho, mas isso sozinho não prova. A queda fica apoiada no **anime (ep. 38) [F]** e no **efeito** (o dano do enxame no 109, texto). |
 | **Cesta, 171** | **Dois quadros** com a esfera e o selo desfeito (p. 5 e 7), não um. **Sai** "as línguas atravessam a trama / a Cesta não barra corpo": a página não sustenta. |
 | **Cesta, 249** | A tradução inglesa lê "metade dos braços e **das bocas**". Nenhum balão da barriga. |
-| **Cesta, 266** | A rachadura é visível (p. 16), com fragmentos (p. 17); o selo é do par de baixo e o par de cima fica livre (p. 4). |
+| **Cesta, 266** | A rachadura é visível (p. 16); o selo é do par de baixo e o par de cima fica livre (p. 4). *(Os fragmentos da p. 17 não são da Cesta — `N`.)* |
 | **Cesta, 267** | No quadro do acerto, nenhuma mão visível no selo; o último instante segue fora de quadro. |
-| **Simples, 258** | O "racha antes do golpe" passa de leitura de Reddit a **página vista**: rachaduras antes do Yuji cortado, na ordem de leitura. A identificação como Simples vem do texto. |
+| **Simples, 258** | O "racha antes do golpe" passa de leitura de Reddit a **página vista**: rachaduras antes do Yuji cortado, na ordem de leitura. A identificação como Simples é leitura [I] (corrigido pelo `N`). |
 
 STATUS: COMPLETO
