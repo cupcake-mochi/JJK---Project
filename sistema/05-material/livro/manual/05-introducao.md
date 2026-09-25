@@ -38,10 +38,10 @@ Nem todo capítulo é para ler do começo ao fim. Metade dos capítulos é catá
 | **12** | Aptidões e Refino | *consulta* · o que qualquer feiticeiro pode aprender, técnica à parte |
 | **13** | Ritual | *consulta* · o que um feitiço ganha quando você para de omitir |
 | **14** | Bênçãos e Lapidação | *consulta* · o que entra no lugar dos dois para quem não tem energia amaldiçoada |
-| **15** a **17** | Equipamento · Ferramenta Amaldiçoada · Invocações | *consulta* · o que você carrega e o que você põe em campo |
-| **18** | Pactos | *consulta* · o que você troca com a sua própria energia, e o que ela cobra |
+| **15** a **16** | Equipamento · Ferramenta Amaldiçoada | *consulta* · o que você carrega |
+| **17** | Pactos | *consulta* · o que você troca com a sua própria energia, e o que ela cobra |
 | | **A CAMPANHA** | |
-| **19** | Experiência e Progressão | *consulta* · o que cada nível entrega, do 1 ao 30 |
+| **18** | Experiência e Progressão | *consulta* · o que cada nível entrega, do 1 ao 30 |
 | | **Índice remissivo** | no fim: termo, e em que página ele aparece |
 
 **Grupo novo, sem ninguém ter lido nada?** Vá direto para *Antes da primeira sessão*. É uma cena pronta, com ficha e tudo, para jogar antes de estudar o resto.

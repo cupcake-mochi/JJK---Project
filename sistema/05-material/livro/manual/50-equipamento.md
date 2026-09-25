@@ -223,9 +223,9 @@ O `Yumi` não carrega `Munição`. Uma flecha se encaixa como parte do disparo: 
 
 > **Bastião e Vanguarda treinam as treze categorias.** Qualquer arma deste catálogo é deles.
 >
-> **Guia, Emanador e Evocador treinam Arma de Fogo e Balestra**, as duas que se aponta e dispara sem precisar de anos de treinamento.
+> **Guia e Emanador treinam Arma de Fogo e Balestra**, as duas que se aponta e dispara sem precisar de anos de treinamento.
 
-Um Caminho conjurador não pega espadão de graça: ele precisa da Trilha que concede o grupo, como a `Empunhadura` do `Arremate`. O quadro de cada Caminho está no capítulo 8, *Caminhos e Trilhas*.
+Um Caminho conjurador não pega espadão de graça: ele precisa da Trilha que concede o grupo, como a `Arma Condutora` do Condutor Armado. O quadro de cada Caminho está no capítulo 8, *Caminhos e Trilhas*.
 
 > **Sem treino, você tem desvantagem na rolagem de ataque com aquela arma.**
 >
@@ -410,7 +410,7 @@ Item comum — pé de cabra, lanterna, corda, o que estiver na mochila — é **
 
 ## Dinheiro e acesso
 
-> **A moeda é o iene. Você recebe um salário mensal da instituição, e o valor sai da sua patente** — a tabela **Salário por patente** está no capítulo 19, *Experiência e Progressão*.
+> **A moeda é o iene. Você recebe um salário mensal da instituição, e o valor sai da sua patente** — a tabela **Salário por patente** está no capítulo 18, *Experiência e Progressão*.
 >
 > **Dinheiro compra o que está à venda. O seu Grau libera o que não está.**
 

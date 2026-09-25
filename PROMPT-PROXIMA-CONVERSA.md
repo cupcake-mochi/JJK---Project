@@ -59,7 +59,7 @@ depois um feitiço montado do zero passo a passo, uma tabela de ficha pronta no 
 caixa de **erros comuns**. Está em `manual/gerador/partC.js`, e o feitiço é o `Corte
 Medido`.
 
-O capítulo 60 (`sistema/05-material/livro/manual/60-invocacoes.md`) tem **dezoito seções**,
+O capítulo 60 (`invocacoes/museu/60-invocacoes.md` desde a v0.270, quando saiu do livro) tem **dezoito seções**,
 com `Orçamento`, `Limites do orçamento`, `Catálogo`, `Traço`, `Comando` e nove `Montagens de
 exemplo` — **e não tem o passo a passo.** Quem lê vê a máquina e vê o resultado pronto, e
 não vê a conta acontecendo.

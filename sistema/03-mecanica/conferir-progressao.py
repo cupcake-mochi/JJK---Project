@@ -53,7 +53,6 @@ P01 = 'sistema/03-mecanica/01-atributos-acerto-defesa.md'
 P02 = 'sistema/03-mecanica/02-economia-de-atributos.md'
 P11 = 'sistema/03-mecanica/11-aptidoes-e-refino.md'
 P12 = 'sistema/03-mecanica/12-experiencia-e-progressao.md'
-DES = 'DESENHO-caminhos.md'
 DOCX = os.path.join(RAIZ, 'manual', 'Fundamento-MANUAL-v7.docx')
 
 
@@ -281,27 +280,52 @@ else:
 
 
 # --------------------------------------------------------------------------
-bloco('6. CAMINHO E TRILHA — dono: a linha de orcamento do DESENHO-caminhos')
+bloco('6. CAMINHO E TRILHA — dono: a colecao v0.4, em caminhos/')
 # --------------------------------------------------------------------------
-_des = ler(DES)
-_o = re.search(r'Caminho em `([\d ·]+)`, Trilha em `([\d ·]+)`', _des)
-if not _o:
-    erro('nao achei a linha de orcamento no topo do DESENHO-caminhos.md — ela mudou de '
-         'forma e esta checagem parou de conferir')
+# v0.270: o dono do calendario mudou. Ate a v0.269 ele era a linha de orcamento
+# do topo do DESENHO-caminhos.md, com o Caminho em quatro degraus (2, 7, 15, 30).
+# A colecao v0.4 dos Caminhos, que o Mizuki mandou pôr no livro "exatamente" como
+# ela e', deu aos quatro Caminhos um degrau no nivel 23, e ela passou a ser a dona
+# do texto dos quatro — o DESENHO ficou como o registro com preco da colecao
+# anterior. O calendario e' lido daqui, dos quadros de nivel dos quatro arquivos,
+# e os quatro tem de concordar entre si: se um Caminho ganhar um degrau que os
+# outros nao tem, a tabela da peca 18 nao tem como dizer "degrau de Caminho".
+#
+# Nenhum numero mora aqui. O Caminho sai do PRIMEIRO quadro de nivel de cada
+# arquivo (o do Caminho base), e a Trilha sai dos titulos `### Nivel N` de cada
+# secao `## Trilha`, rota do Batedor incluida.
+import glob as _glob
+_V04 = os.path.join(RAIZ, 'caminhos', '01-Caminhos-e-Trilhas')
+_cams, _tris = [], []
+for _a in sorted(_glob.glob(os.path.join(_V04, '*.md'))):
+    _txt6 = open(_a, encoding='utf-8').read()
+    _blocos = re.split(r'\n(?=## Trilha )', _txt6)
+    _mq = re.search(r'^\| \*\*Nível\*\* \|[^\n]*\n\|[- |]+\|\n((?:\|[^\n]*\n)+)', _blocos[0], re.M)
+    _cams.append((os.path.basename(_a),
+                  [int(x) for x in re.findall(r'^\| (\d+) \|', _mq.group(1), re.M)] if _mq else []))
+    for _b in _blocos[1:]:
+        _tris.append((_b.split('\n')[0].replace('## Trilha ', ''),
+                      sorted({int(x) for x in re.findall(r'^#{3,4} Nível (\d+)', _b, re.M)})))
+_cal_cam = {tuple(n) for _, n in _cams}
+_cal_tri = {tuple(n) for _, n in _tris}
+if len(_cams) != 4 or len(_tris) != 12:
+    erro(f'esperava os quatro arquivos da colecao v0.4 e doze Trilhas, li {len(_cams)} e '
+         f'{len(_tris)} — a pasta caminhos/ mudou e esta checagem parou de conferir')
+elif len(_cal_cam) != 1 or not next(iter(_cal_cam)):
+    erro(f'os quatro Caminhos da v0.4 nao concordam no calendario: {_cams}')
+elif len(_cal_tri) != 1 or not next(iter(_cal_tri)):
+    erro(f'as doze Trilhas da v0.4 nao concordam no calendario: {_tris}')
 else:
-    CAMINHO = [int(x) for x in re.findall(r'\d+', _o.group(1))]
-    TRILHA = [int(x) for x in re.findall(r'\d+', _o.group(2))]
-    print(f'  Caminho em {CAMINHO} · Trilha em {TRILHA}')
-    if len(CAMINHO) != 4 or len(TRILHA) != 4:
-        erro(f'esperava 4 degraus de Caminho e 4 entregas de Trilha, li '
-             f'{len(CAMINHO)} e {len(TRILHA)}')
+    CAMINHO = list(next(iter(_cal_cam)))
+    TRILHA = list(next(iter(_cal_tri)))
+    print(f'  Caminho em {CAMINHO} · Trilha em {TRILHA}  (os quatro arquivos e as doze Trilhas concordam)')
     for rotulo, calendario, marca in (('Caminho', CAMINHO, 'degrau de **Caminho**'),
                                       ('Trilha', TRILHA, 'entrega de **Trilha**')):
         na_peca = sorted(nv for nv in TABELA if marca in TABELA[nv][8])
         if na_peca != sorted(calendario):
             erro(f'a coluna de eventos marca {rotulo} em {na_peca} e o dono diz {calendario}')
         else:
-            print(f'  [x] {rotulo}: os 4 niveis batem com o dono')
+            print(f'  [x] {rotulo}: os {len(calendario)} niveis batem com o dono')
 
 
 # --------------------------------------------------------------------------

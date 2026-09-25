@@ -101,6 +101,17 @@ def recorte_da_entrega():
               'bloco-de-inimigo.docx'):
         pares.append((os.path.join(RAIZ, 'sistema', '05-material', f),
                       os.path.join(ent, 'ficha', f)))
+    # v0.270: a colecao v0.4 dos Caminhos e' a dona do texto dos quatro Caminhos e
+    # das doze Trilhas, e a peca 6 manda o leitor abrir ela — e a regra da 7.2 e'
+    # que o arquivo de regra que uma peca da entrega manda abrir vai junto. So os
+    # .md: os .docx sao copia de leitura, e as ideias reservadas e as notas nao sao
+    # regra. O caminho espelha o da fonte, para a citacao resolver dentro da entrega.
+    v04 = os.path.join(RAIZ, 'caminhos', '01-Caminhos-e-Trilhas')
+    if os.path.isdir(v04):
+        for f in sorted(os.listdir(v04)):
+            if f.endswith('.md'):
+                pares.append((os.path.join(v04, f),
+                              os.path.join(ent, 'caminhos', '01-Caminhos-e-Trilhas', f)))
     # A fonte do livro e' o ARTEFATO que o build gera, e nao o .md — o que a
     # entrega carrega e' o compilado, e e' ele que envelhece calado (v0.114).
     livro = os.path.join(RAIZ, 'sistema', '05-material', 'livro')
@@ -354,6 +365,22 @@ for base, dirs, files in os.walk(RAIZ):
         # `conta-ideia-11.py` que mora ao lado, e continua sob esta guarda — que e'
         # onde ela vale. So' a subpasta de nota BRUTA e' isenta.
         if caminho.startswith(os.path.join(RAIZ, 'sistema', '01-pesquisa', 'anti-dominios') + os.sep):
+            continue
+        # ⚠ E `invocacoes/` fica fora pelo mesmo motivo do `bestiario/`, com uma razao a mais.
+        #
+        # Entrou na v0.270: e' o desenvolvimento do subsistema de Invocacoes, que foi
+        # trabalhado FORA desta pasta, num chat que nao a via, e voltou num pacote — o
+        # `03-INVOCACOES/` e o `04-PESQUISAS-E-HISTORICO/` dele, byte a byte. As citacoes
+        # la dentro sao caminhos do proprio pacote e dos pacotes que vieram antes (`base-v0.2/`,
+        # `ATUAL-r5/`, `bastiao-completo.md`), 24 delas sem arquivo aqui. E a razao a mais:
+        # os arquivos carregam SHA-256 no manifesto, e consertar o caminho de um quebra a
+        # verificacao de integridade que prova que nada mudou na viagem.
+        #
+        # O `invocacoes/LEIA-ME.md` NAO fica fora: ele foi escrito aqui, aponta para o que
+        # e' deste repositorio, e continua sob esta guarda. A `museu/` tambem nao: e'
+        # texto do livro guardado sem mudar, e as citacoes dele sao do livro.
+        if (caminho.startswith(os.path.join(RAIZ, 'invocacoes', '03-INVOCACOES') + os.sep)
+                or caminho.startswith(os.path.join(RAIZ, 'invocacoes', '04-PESQUISAS-E-HISTORICO') + os.sep)):
             continue
         txt = open(caminho, encoding='utf-8', errors='ignore').read()
         for m in RX_MD.finditer(txt):
@@ -846,6 +873,7 @@ else:
         r'|(?:sistema/)?\d\d-[a-z-]+/.*'      # caminho na arvore da FONTE
         r'|logs/.*|99-arquivo/.*|gerador-ficha/.*'
         r'|bestiario/.*'                       # o projeto do Bestiario, que entrou no repo
+        r'|invocacoes/.*'                      # o subsistema de Invocacoes em desenvolvimento, v0.270
         r'|RASCUNHO-trilhas\.md'              # cortado do recorte por decisao
         r')$'
     )
@@ -1122,7 +1150,16 @@ else:
     #   `sistema/01-pesquisa/anti-dominios/conta-dominio-simples.py`, na peca 11 §6.5,
     #   onde o Dominio Simples reescrito diz de onde saem as duas tabelas dele. Mesma
     #   familia da de cima, e nao e material de mesa.
-    BRANCAS_AQUI, FOLGA = 187, 5
+    # v0.270: 187 -> 193, MEDIDO pelo diff da entrega da pasta principal (v0.269,
+    #   187 brancas) contra uma copia com o patch da v0.270 e a entrega sincronizada
+    #   pelo passo 0 (193), com os tres regex lidos deste codigo. SEIS: o
+    #   `conferir-catalogo.py` nos avisos de topo dos tres DESENHO e na peca 17, que
+    #   dizem que ele continua conferindo o registro com preco da colecao anterior; o
+    #   `conferir-nomes.py` na peca 6 §2, onde a triagem dos nomes da v0.4 esta
+    #   registrada; e `invocacoes/museu/60-invocacoes.md` na peca 15, familia nova
+    #   `invocacoes/.*`, declarada acima, que e desenvolvimento e nao material de mesa.
+    #   A colecao v0.4, que e regra, NAO entrou na lista: ela entrou no recorte.
+    BRANCAS_AQUI, FOLGA = 193, 5
     PISO_CITACOES, TETO_BRANCOS = 120, BRANCAS_AQUI + FOLGA
     if vistos_e < PISO_CITACOES:
         erro(f'7.2: achei so {vistos_e} citacoes na entrega, e o piso e {PISO_CITACOES} — '

@@ -1,0 +1,30 @@
+{
+  "estado": "Resultados da bancada; valores não aprovados como regras",
+  "arquivos": [
+    {
+      "arquivo": "FICHA-DO-ENSAIO.md",
+      "bytes": 11346,
+      "sha256": "dc483bed2ace7ea9af2fa53f301ac09964f927afc5269b31fe14c373cf28990b"
+    },
+    {
+      "arquivo": "RELATORIO.md",
+      "bytes": 18809,
+      "sha256": "710526244b41d70712aab1dffb9c5693f78c5454ef026de8d83b2cf371847167"
+    },
+    {
+      "arquivo": "bancada.py",
+      "bytes": 48461,
+      "sha256": "2999b12707e1fd681091fdc96b0512ea5dd078a385e5ca8a915d0809ae8b071b"
+    },
+    {
+      "arquivo": "execucao.txt",
+      "bytes": 150,
+      "sha256": "f8e2e51d5e5150c91d3c8a76d4e252e3c36ba009268096afb0ed30ff3ed3a086"
+    },
+    {
+      "arquivo": "resultados.json",
+      "bytes": 3004443,
+      "sha256": "d73e240a6314103bd7000fa06574ded9641fc50a7466a9ebaf1d68ff8181dd49"
+    }
+  ]
+}

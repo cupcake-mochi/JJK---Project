@@ -55,14 +55,15 @@ físico: as duas mãos precisam se tocar antes de qualquer feitiço sair.
 > Ela toca o alvo com as duas mãos. **`d20 + 4` contra a Defesa dele.** Acertando: **3d8 de
 > dano de concussão**, e o alvo fica `Derrubado` (condição).
 
-> **`Corpo Duro`** · Reação, do Caminho Bastião
-> Ao ser atingida, ela reduz o dano em **`2` (o nível dela) `+ 1d6`**. Ela pode fazer isso
-> **duas vezes** (a Constituição dela) por descanso.
+> **`Olhos Em Mim`** · Ação Bônus, do Caminho Bastião
+> Uma área de `6 m` em volta dela, que anda com ela até o fim da cena. Ao abrir a área, ela
+> tenta Provocar até **dois** inimigos dentro dela — metade da Força, `3 ÷ 2` para baixo, mais
+> um. Enquanto a área estiver aberta, ela pode gastar a **Reação** para receber no lugar de um
+> aliado o golpe que acertou ele.
 
-> **`Alicerce`** · Ação Bônus, da Trilha Muro
-> Ela se firma no lugar. Enquanto estiver firme, o dano `Cortante` e o dano `Concussão`
-> caem pela metade contra ela, e o deslocamento dela também cai pela metade. Sair dali não
-> custa nada.
+> **`Alicerce`** · da Trilha Muro
+> Ela escolheu `Cortante` e `Concussão` no último descanso longo. Enquanto `Olhos Em Mim`
+> estiver ativo, o dano desses dois tipos cai pela metade contra ela.
 
 ## Corredor da ala oeste
 
@@ -80,14 +81,14 @@ Isso é uma **Maldição Menor**: Vida 14, Defesa 12, ataque `d20 + 3` por `1d6 
 dado, soma 2, fica com 13. A maldição, mais rápida, tira 16 com Destreza 3: age primeiro.
 
 **2 — O turno da maldição.** Ela avança e ataca: `d20 + 3` contra a Defesa 13 de Kaori. Sai
-17: acertou. `1d6 + 2` de dano: sai 5. **Kaori pode gastar a Reação `Corpo Duro` agora.**
-Ela gasta um dos dois usos: reduz `2 + 1d6`, tira 4 no d6, reduz 6. O dano de 5 cai para
-zero. *O `Corpo Duro` reduz o dano depois que o golpe já acertou; ele não faz o inimigo errar.*
+17: acertou. `1d6 + 2` de dano: sai 5, e a vida da Kaori cai de 23 para 18. *O `Alicerce`
+ainda não vale: ela não abriu a área de `Olhos Em Mim`.*
 
 **3 — O turno de Kaori.** Três escolhas boas para ela:
 
-- **Gastar a Ação Bônus em `Alicerce`.** Se ela sabe que a luta vai continuar, plantar os
-  pés agora corta o próximo golpe `Cortante` pela metade — e a maldição ataca com garra.
+- **Gastar a Ação Bônus em `Olhos Em Mim`.** Se ela sabe que a luta vai continuar, abrir a
+  área agora liga o `Alicerce` e corta o próximo golpe `Cortante` pela metade — e a maldição
+  ataca com garra. Ao abrir, ela ainda tenta Provocar a maldição.
 - **Gastar a Ação Padrão em `Peso nas Mãos`.** Precisa estar a `1,5 m`: ela anda até lá com
   o movimento e toca. Rola `d20 + 4` contra a Defesa 12 da maldição: tira 12, soma 4, fica
   16. Acertou. `3d8` de dano: sai 14. **A maldição, com 14 de vida, cai.**

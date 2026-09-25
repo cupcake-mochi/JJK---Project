@@ -2,6 +2,8 @@
 
 *Escrita na v0.85. Ela é a décima sétima peça, e a primeira que não escreve regra nenhuma.*
 
+> **⚠ Desde a v0.270 este é o índice da coleção ANTERIOR, e não o da edição jogável.** *O Mizuki refez as habilidades base e as Trilhas do Bastião, da Vanguarda, do Emanador e do Guia fora desta pasta, na coleção v0.4, e mandou pôr ela no livro "exatamente" como ela é — com um degrau de Caminho novo no nível 23, as Trilhas renomeadas e as Manhas trocadas. A coleção mora em `caminhos/`, e ela passou a ser a dona do texto dos quatro Caminhos e das doze Trilhas.* **Ela não tem preço medido:** *"Não é necessário medir cada fatia ou certificar novamente o orçamento para implementar"*, e a medição está na fila do `ESTADO-ATUAL`. **Até ela sair, esta peça e os três `DESENHO-*.md` ficam como o registro com preço da coleção que valia até a v0.269** — *é daqui que a medição parte, e o `conferir-catalogo.py` continua conferindo este registro por dentro.* **O Evocador, o `Servo`, a `Matilha` e o `Coro` continuam valendo como desenho**, *fora da edição jogável até o subsistema de Invocações fechar.*
+
 ## 1. O que esta peça é, e o que ela não é
 
 Todo degrau que um personagem ganha por **Caminho**, por **Trilha** ou pela **Escola de Arma** mora hoje num dos três `DESENHO-*.md` da raiz. Eles têm o preço em fatias, o argumento de por que o número é aquele, e o texto que o mestre lê na mesa.
@@ -95,7 +97,7 @@ Todas moram em **`DESENHO-trilhas.md`**, na seção mecânica da Trilha.
 
 ## 4. Os 20 degraus de Caminho
 
-Cinco Caminhos, quatro degraus cada, em `2 · 7 · 15 · 30`. Todos com nome. Moram em **`DESENHO-caminhos.md`**.
+Cinco Caminhos, quatro degraus cada, no calendário que valia até a v0.269, `2 · 7 · 15 · 30`. Todos com nome. Moram em **`DESENHO-caminhos.md`**. *A coleção v0.4 põe os degraus dos quatro Caminhos dela em `2 · 7 · 15 · 23 · 30`, e o do nível 23 não tem linha aqui.*
 
 | Caminho | 2 | 7 | 15 | 30 |
 |---|---|---|---|---|

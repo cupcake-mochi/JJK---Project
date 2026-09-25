@@ -1,0 +1,9 @@
+{
+  "tipo": "Ensaio simbolico delimitado; nao e prova de equilibrio",
+  "regressao_no_modelo_r5": 178,
+  "novos": 34,
+  "verificacoes": 212,
+  "passaram": 212,
+  "falharam": 0,
+  "sem_mutacao": 98
+}

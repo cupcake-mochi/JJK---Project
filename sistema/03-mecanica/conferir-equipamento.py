@@ -507,11 +507,14 @@ if _s8:
         print(f'  Os {len(CAMINHOS_5)} Caminhos aparecem na tabela.')
 
     # a porta da Trilha, senao o conjurador fica trancado fora do marcial
-    if 'Empunhadura' not in _s8:
+    # v0.270: a porta mudou de Trilha com a colecao v0.4 — era a `Empunhadura` do
+    # `Arremate`, e hoje e' a `Arma Condutora` do Condutor Armado, com o mesmo efeito.
+    # A checagem segue a porta viva, e o livro tem de nomear a mesma.
+    if 'Arma Condutora' not in _s8:
         erro('PECA 6 SS8.0: a porta da Trilha nao esta escrita — sem ela o conjurador '
              'que quer arma marcial nao tem rota nenhuma')
     else:
-        print('  A porta da Trilha (`Empunhadura` do `Arremate`) esta escrita.')
+        print('  A porta da Trilha (`Arma Condutora` do Condutor Armado) esta escrita.')
 
     # o livro e COPIA desta regra, e copia sem comparacao diverge (licao no 9)
     _LIVRO = os.path.join(AQUI, '..', '05-material', 'livro', 'manual',
@@ -523,13 +526,14 @@ if _s8:
         _lv = re.sub(r'`', '', open(_LIVRO, encoding='utf-8').read())
         _bateu = 0
         for _frase, _que in (('treinam as treze categorias', 'os dois marciais'),
-                             ('treinam Arma de Fogo e Balestra', 'os tres conjuradores')):
+                             ('treinam Arma de Fogo e Balestra', 'os conjuradores'),
+                             ('Arma Condutora', 'a porta da Trilha')):
             if _frase in _lv:
                 _bateu += 1
             else:
                 erro(f'LIVRO cap. 8: a linha de treino de {_que} nao bate com a peca 6 SS8.0')
-        if _bateu == 2:
-            print('  O livro repete a mesma regra, conferido nas duas linhas.')
+        if _bateu == 3:
+            print('  O livro repete a mesma regra, conferido nas tres linhas.')
     else:
         aviso('nao achei o capitulo 8 do livro — a copia dele nao foi conferida')
 
@@ -546,7 +550,7 @@ if _s8:
 # no 14, e uma terceira copia seria a licao no 9 de graca — a linha aponta e o
 # numero fica com quem ja e dono dele. O numero do capitulo citado e conferido
 # pela checagem 10.3 do conferir-repositorio.py, que le a lista do build.py.
-bloco('12.1 PONTEIRO DE EQUIPAMENTO — os cinco Caminhos mandam o leitor comprar')
+bloco('12.1 PONTEIRO DE EQUIPAMENTO — os Caminhos da edicao jogavel mandam o leitor comprar')
 if not os.path.exists(_LIVRO):
     erro('12.1: nao achei o capitulo de Caminhos do livro')
 else:
@@ -559,9 +563,19 @@ else:
         _m = re.search(r'\*O Caminho treina você[^*]*\*', _c)
         _pont[_n.strip()] = _m.group(0) if _m else None
     _sem = [n for n, v in _pont.items() if v is None]
-    if len(_com_tab) < 5:
-        erro(f'12.1: achei {len(_com_tab)} Caminho(s) com tabela de caracteristicas e '
-             'esperava os cinco — o extrator parou de achar')
+    # v0.270: o Evocador saiu da edicao jogavel, e quem diz isso e' a peca 6 §1, na
+    # linha dele. Os Caminhos que o livro tem de trazer saem de la: os cinco, menos
+    # o que a peca marca fora da edicao — e o livro nao pode trazer o marcado.
+    _s1 = P6[P6.index('## 1.'):P6.index('## 2.')] if '## 1.' in P6 and '## 2.' in P6 else ''
+    _fora = [c for c in CAMINHOS_5 if re.search(r'^\| \*\*' + c + r'\*\* \|[^\n]*fora da edição jogável', _s1, re.M)]
+    _jogaveis = [c for c in CAMINHOS_5 if c not in _fora]
+    _nomes_tab = [n.strip() for n, _ in _com_tab]
+    if not _s1:
+        erro('12.1: nao achei a secao 1 da peca 6, que diz quais Caminhos estao na edicao jogavel')
+    elif sorted(_nomes_tab) != sorted(_jogaveis):
+        erro(f'12.1: o livro traz tabela de caracteristicas para {sorted(_nomes_tab)} e a peca 6 '
+             f'diz que a edicao jogavel tem {sorted(_jogaveis)} — o extrator parou de achar, ou '
+             'um Caminho fora da edicao voltou ao livro')
     elif _sem:
         erro(f'12.1: {len(_sem)} Caminho(s) nao mandam o leitor comprar a arma: '
              f'{sorted(_sem)}. A tabela diz em que ele TREINA, e sem a linha o leitor '

@@ -1,10 +1,12 @@
 # Caminhos e Trilhas
 
-**O Caminho diz o seu lugar na equipe**, e você escolhe ele na criação. A Trilha diz quem você é dentro do Caminho, e ela nasce junto com ele, no nível 2. São cinco Caminhos, três Trilhas em cada um.
+**O Caminho diz o seu lugar na equipe**, e você escolhe ele na criação. A Trilha diz quem você é dentro do Caminho, e ela nasce junto com ele, no nível 2. São quatro Caminhos nesta edição, três Trilhas em cada um.
+
+> **O Evocador está fora desta edição.** O quinto Caminho e as regras de invocação voltam quando o subsistema de Invocações fechar. Até lá, nenhuma ficha nova escolhe o Evocador.
 
 ## Como ler um Caminho
 
-Cada Caminho entrega quatro degraus, e eles chegam sempre nos mesmos níveis. A Trilha entrega outras quatro coisas, em níveis diferentes.
+Cada Caminho entrega cinco degraus, e eles chegam sempre nos mesmos níveis. A Trilha entrega outras quatro coisas, em níveis diferentes.
 
 **Entregas por nível**
 {: .tab-titulo }
@@ -16,6 +18,7 @@ Cada Caminho entrega quatro degraus, e eles chegam sempre nos mesmos níveis. A 
 | 11 | entrega de Trilha, e aqui você pode trocar de Trilha |
 | 15 | degrau de Caminho |
 | 19 | entrega de Trilha, e aqui você pode trocar de Trilha |
+| 23 | degrau de Caminho |
 | 27 | entrega de Trilha, e aqui você pode trocar de Trilha |
 | 30 | degrau de Caminho |
 
@@ -30,12 +33,12 @@ Cada Caminho tem o próprio número de vida por nível e o próprio número de P
 **Vida e energia por Caminho**
 {: .tab-titulo }
 
-| | Bastião | Vanguarda | Guia | Evocador | Emanador |
-|---|---|---|---|---|---|
-| **Vida por nível** | 7 | 5 | 5 | 4 | 4 |
-| **PE por nível** | 4 | 5 | 5 | 6 | 6 |
+| | Bastião | Vanguarda | Guia | Emanador |
+|---|---|---|---|---|
+| **Vida por nível** | 7 | 5 | 5 | 4 |
+| **PE por nível** | 4 | 5 | 5 | 6 |
 
-> **O seu PE máximo é o número da tabela vezes o seu nível.** Nenhum atributo entra nessa conta, e não existe valor inicial somado por cima.
+> **O seu PE máximo é o número da tabela vezes o seu nível.** Nenhum atributo entra nessa conta, e não existe valor inicial somado por cima. *Uma Trilha pode somar um atributo por cima dele, e quando soma ela diz qual.*
 
 ### Termos dos degraus
 
@@ -44,6 +47,7 @@ Cada Caminho tem o próprio número de vida por nível e o próprio número de P
 E duas coisas que quase todo degrau daqui menciona:
 
 > **Feitiço de Toque** — os dados da Classe, e nada mais. Arma e atributo ficam de fora da conta.
+>
 > **Golpe simples** — ataque de arma padrão. É o que você faz quando não conjura.
 
 > **Se a sua ficha monta o poder na Técnica Marcial, onde um degrau daqui diz *feitiço* ou *conjurar*, leia `Kata`.** Mesma Classe, mesmo custo em PE, mesmo degrau. **São as duas rotas do capítulo 10, *Técnica Marcial***, e elas escolhem Caminho e Trilha como todo mundo.
@@ -54,42 +58,39 @@ E duas coisas que quase todo degrau daqui menciona:
 
 > **Os dois Caminhos de corpo a corpo — Bastião e Vanguarda — treinam as treze categorias.** Qualquer arma do catálogo é deles.
 >
-> **Os três Caminhos conjuradores — Guia, Emanador e Evocador — treinam Arma de Fogo e Balestra**, que são as duas que se aponta e dispara sem anos de forma.
+> **Os dois Caminhos conjuradores — Guia e Emanador — treinam Arma de Fogo e Balestra**, que são as duas que se aponta e dispara sem anos de forma.
 
-**Para um conjurador empunhar o resto, a porta é a Trilha.** É o que faz a `Empunhadura` do `Arremate`, no nível 2: ela concede um grupo de arma à sua escolha e ainda troca Força por Inteligência ou Essência naquele grupo. Um Emanador de espadão existe, e paga por isso com a escolha de Trilha.
+**Para um conjurador empunhar o resto, a porta é a Trilha.** É o que faz a `Arma Condutora` do Condutor Armado, no nível 2: ela concede um grupo de arma à sua escolha e ainda troca Força por Essência ou Inteligência naquele grupo. Um Emanador de espadão existe, e paga por isso com a escolha de Trilha.
 
 > **Sem treino, você tem desvantagem na rolagem de ataque com aquela arma**, e sem o requisito de Força dela o seu deslocamento cai pela metade enquanto você a estiver empunhando, além de você também atacar com desvantagem. O capítulo 15, *Equipamento*, tem as duas.
 
 ### Limites
 
-> **O Caminho mexe em quando, onde e em quem o seu poder acontece.** O tamanho dele é assunto da sua técnica. Nenhum Caminho dá dado de dano, sobe a Classe dos seus feitiços, dá Melhoria de graça, cura, ou desconto de dano em tudo. **Cura é Forma de feitiço**: quem fechou a Família Amparo nunca vai curar, e Caminho nenhum contorna isso.
+> **O Caminho mexe em quando, onde e em quem o seu poder acontece.** O tamanho dele é assunto da sua técnica. Nenhum Caminho dá dado de dano, sobe a Classe dos seus feitiços, dá Melhoria de graça ou desconto de dano em tudo.
 
 ### Trilhas
 
 **Trilhas**
 {: .tab-titulo }
 
-| Trilha | Caminho | Em uma linha |
-|---|---|---|
-| `Muro` | Bastião | o corpo que ocupa o espaço |
-| `Punho` | Bastião | vários golpes, e cada golpe tira alguém do lugar |
-| `Brasa` | Bastião | conjura pequeno e bate na sequência |
-| `Estocada` | Vanguarda | conjura de verdade na padrão e ainda bate |
-| `Batedor` | Vanguarda | a luta acontece longe: `Yumi`, `Besta` ou `Arma de Fogo` |
-| `Executor` | Vanguarda | arma e corpo contra um alvo só |
-| `Elo` | Guia | o que outra pessoa fez chega mais longe |
-| `Sutura` | Guia | Energia Reversa cedo, e nos outros |
-| `Perímetro` | Guia | o chão decide quem pode estar onde |
-| `Torrente` | Emanador | mais de um feitiço na rodada, e a energia acaba |
-| `Explosivo` | Emanador | um feitiço só, e ele sai maior |
-| `Arremate` | Emanador | o feitiço acontece onde a mão chega |
-| `Servo` | Evocador | uma invocação, forte |
-| `Matilha` | Evocador | cinco corpos fracos |
-| `Coro` | Evocador | você e a invocação lutam juntos |
+| Trilha | Caminho |
+|---|---|
+| **Muro** | Bastião |
+| **Punho** | Bastião |
+| **Combatente Amaldiçoado** | Bastião |
+| **Estocada** | Vanguarda |
+| **Batedor** | Vanguarda, com três rotas: **Yumi**, **Besta** e **Arma de Fogo** |
+| **Executor** | Vanguarda |
+| **Condutor Armado** | Emanador |
+| **Ressonante** | Emanador |
+| **Catalisador** | Emanador |
+| **Arquiteto** | Guia |
+| **Analista** | Guia |
+| **Socorrista** | Guia |
 
 ## Bastião
 
-*O corpo é a resposta: aguentar, encarar, prender.*
+*O corpo é sua resposta. Você atrai a atenção dos inimigos, assume golpes que atingiriam aliados e escolhe como transformar essa pressão em proteção ou resposta.*
 
 ### Características do Bastião
 
@@ -111,62 +112,138 @@ E duas coisas que quase todo degrau daqui menciona:
 
 *O Caminho treina você nessa lista de armas; ele não te dá a arma. O que você leva na mão você compra na criação, e as tabelas de `Preços` estão no capítulo 15, __Equipamento__.*
 
+Escolha uma Trilha no nível 2: **Muro, Punho ou Combatente Amaldiçoado**. Suas entregas chegam nos níveis 2, 11, 19 e 27.
+
 ### Degraus do Bastião
 
-> **Nível 2: `Corpo Duro`.** *Reação.* Ao ser atingido, você reduz o dano em **o seu nível + 1d6**. Isso é o `Corpo Duro`.
-> **Você tem usos iguais à sua Constituição, e eles voltam no descanso longo.**
+**Habilidades do Bastião**
+{: .tab-titulo }
+
+| Nível | Habilidade |
+|---|---|
+| 2 | Olhos Em Mim |
+| 7 | Ataque Extra, Nem Um Arranhão e Ainda de Pé |
+| 15 | Duro de Matar |
+| 23 | Chega Mais |
+| 30 | Passa Pra Mim |
+
+> **Nível 2: `Olhos Em Mim`.** Você usa **Força** nos testes de **Provocar e Intimidação**, no lugar de Essência.
 >
-> **Nível 7: Ataque extra.** Você ganha **um golpe simples por rodada**. Ele exige a Ação de Atacar: acontece junto do que a sua Ação Padrão fez naquele turno, e só nesse caso — a não ser que uma habilidade diga o contrário.
-> **E `Não Pega`.** *Reação.* Quando você faz um Teste de Resistência **Físico** contra um efeito que causa metade do dano no sucesso: passando, você não sofre nada; falhando, você ainda sofre metade. **Você não pode usar a `Não Pega` enquanto estiver `Incapacitado`.**
-> **E `Ainda de Pé`.** *Uma vez por cena.* Quando você é reduzido a **metade da sua vida ou menos**, você recupera `1d8 + metade do seu nível`. **Não custa ação nenhuma.**
+> Com uma **Ação Bônus**, estabeleça uma área de **6 m ao seu redor**, que acompanha você e dura até o fim da cena. Pode encerrá-la como ação livre no seu turno.
 >
-> **Nível 15: `Puxar Para Si`.** *Reação.* Quando um inimigo a até 1,5 m ataca **outra pessoa**, o ataque passa a ter **você** como alvo. Essa reação tem de ser usada antes da rolagem.
-> **Gastando `2` PE, você aplica o `Corpo Duro` no mesmo golpe**, sem gastar um uso dele.
+> **Provocação inicial — uma vez por cena.** Ao ativar a área, escolha inimigos dentro dela, até o limite de metade da sua Força, arredondada para baixo, mais um. Faça um teste de Provocar contra o TR de Espírito de cada um. Quem falhar sofre o efeito de Provocar até o começo do seu próximo turno. Inimigos que entrarem depois não recebem essa provocação inicial.
 >
-> **Nível 30: `Segurar`.** *Reação.* Quando alguém ao seu alcance de toque **se move, conjura ou ataca**, você pode tentar `Agarrar` ou `Derrubar` essa pessoa. **A ação dela acontece de qualquer jeito.**
-> **Enquanto você tiver alguém agarrado, você se move junto com ela, e o deslocamento dela cai pela metade em vez de ir a `0`. Ele fica `0` no começo do próximo turno dela.**
+> **Assumir um golpe.** Enquanto a área estiver ativa, quando um ataque com rolagem acertar um aliado dentro dela, você pode gastar sua **Reação** para receber o golpe no lugar dele. O acerto é transferido, com o dano, o crítico e as condições que acompanhariam aquele golpe. A transferência não faz outra rolagem de acerto ou de Bloquear.
+
+> **Nível 7: Ataque Extra.** Sua Ação de Atacar permite **um ataque simples adicional por rodada**.
+>
+> Você também recebe as duas habilidades abaixo.
+>
+> **`Nem Um Arranhão`.** Como **Reação**, ao realizar um TR Físico contra um efeito que causa metade do dano no sucesso, você não sofre dano se passar e sofre metade se falhar. Esta Reação exige que você não esteja Incapacitado.
+>
+> **`Ainda de Pé`.** **Uma vez por cena**, quando sua vida for reduzida à metade ou menos, recupere **1d8 + metade do seu nível** de vida. Não exige ação.
+
+> **Nível 15: `Duro de Matar`.** **Uma vez por rodada**, quando seu Bloquear falhar, reduza o dano do golpe pelo **resultado dos dados do Bloquear + sua Constituição**.
+>
+> Use somente os dados, sem os modificadores de Destreza e proteção. Um golpe transferido por Olhos Em Mim não passa por Bloquear e, portanto, não aciona esta habilidade.
+
+> **Nível 23: `Chega Mais`.** A área de Olhos Em Mim passa a **9 m**.
+>
+> Quando um inimigo entrar nela **voluntariamente**, faça contra ele uma nova tentativa de Provocar, com o mesmo teste e duração da provocação inicial.
+
+> **Nível 30: `Passa Pra Mim`.** **Uma vez por cena, como ação livre**, quando um aliado dentro de Olhos Em Mim seria reduzido a 0 de vida, ele fica com **1 de vida** e você recebe o dano excedente necessário para preservar esse ponto.
+>
+> Se essa transferência reduzir sua vida a 0, você cai.
+
+> **Exemplo.** Um aliado com 10 de vida receberia 16 de dano. Ele perde 9 e fica com 1; os 7 pontos restantes passam para você.
 
 ### Trilha: Muro
 
-*O espaço em volta de você deixa de ser do inimigo.*
+*Você assume a pressão e a transforma em uma defesa cada vez mais difícil de atravessar.*
 
-> **Nível 2: `Alicerce`.** *Ação bônus.* Você se firma no lugar. **Enquanto o `Alicerce` estiver de pé, o dano de dois tipos à sua escolha cai pela metade contra você, e o seu deslocamento é metade do normal.**
-> **Sair dele não custa nada**, e **os tipos se escolhem no fim de cada descanso longo**.
+**Habilidades do Muro**
+{: .tab-titulo }
+
+| Nível | Habilidade |
+|---|---|
+| 2 | Alicerce |
+| 11 | Guarda-Costas |
+| 19 | Casca Grossa |
+| 27 | Inabalável |
+
+> **Nível 2: `Alicerce`.** Ao fim de cada descanso longo, escolha **dois tipos de dano**. Enquanto Olhos Em Mim estiver ativo, você recebe **metade do dano** desses tipos.
 >
-> **Nível 11: `Aterro`.** *Sempre ligado, e não depende do `Alicerce`.* O chão a **4,5 m** em volta de você é terreno difícil para inimigos. **E todo deslocamento forçado contra você, seja empurrão, puxão ou arremesso, tem metade da distância.**
+> **Nível 11: `Guarda-Costas`.** Um aliado **adjacente a você** recebe **Cobertura Parcial: +2 na Defesa e no TR Físico**, desde que o atacante também esteja adjacente a você **ou** esteja atacando à distância.
 >
-> **Nível 19: `Escora`.** O `Corpo Duro` do seu Caminho ganha **mais usos, iguais a metade da sua Constituição**, e **qualquer um deles pode ser gasto num aliado que você enxergue a até 9 m.** Continua custando a sua Reação.
+> **Nível 19: `Casca Grossa`.** Quando receber um golpe por Olhos Em Mim, role **2d10 − 1** e acrescente sua Constituição. Reduza esse valor do dano recebido.
 >
-> **Nível 27: `Cúpula`.** O `Alicerce` passa a segurar **quatro tipos** ao mesmo tempo, você troca os tipos a cada **descanso curto**, e **todo aliado dentro do seu espaço divide um deles com você.** O espaço continua de pé enquanto você estiver caído, agarrado ou apagado.
+> O golpe continua acertando; esta é uma redução de dano, não uma tentativa de Bloquear.
+>
+> **Nível 27: `Inabalável`.** Alicerce passa a proteger contra **quatro tipos de dano**, escolhidos ao fim de cada descanso curto ou longo.
+>
+> Olhos Em Mim permanece ativo mesmo quando você está caído, agarrado ou inconsciente. As ações e Reações ainda dependem de você poder realizá-las.
 
 ### Trilha: Punho
 
-*Você bate mais vezes, e cada vez que bate alguém sai do lugar.*
+*Você responde à pressão com golpes desarmados, deslocando os inimigos e disputando o confronto de perto.*
 
-> **Nível 2: `Engate`.** Quando você **acerta** um ataque na sua ação de atacar, você pode dar um golpe desarmado como **ação bônus**.
->
-> **Nível 11: `Encontrão`.** Quando você acerta desarmado, **o alvo é empurrado até 3 m na direção que você escolher.** E **uma vez por rodada**, um alvo que você acertou faz um Teste de Resistência de Vigor; se falhar, fica **`Derrubado`** (condição).
->
-> **Nível 19: `Tropel`.** Quando o empurrão do nível 11 joga alguém contra outra criatura, **ela também é empurrada.** Cada uma faz um Teste de Resistência de Vigor: **quem passa segura a corrente, e ela para ali.** A distância total nunca passa do deslocamento do primeiro empurrado. *Vale só no empurrão do nível 11.*
->
-> **Nível 27: `Arranco`.** Ao usar o `Engate`, você dá um **segundo soco** num alvo adjacente a você ou ao primeiro, **com rolagem própria**. **E se os dois ataques da sua ação de atacar acertaram, o `Engate` é rolado com vantagem.**
+**Habilidades do Punho**
+{: .tab-titulo }
 
-### Trilha: Brasa
+| Nível | Habilidade |
+|---|---|
+| 2 | Trocação Franca |
+| 11 | Mão Pesada |
+| 19 | Minha Vez |
+| 27 | Arrastão |
 
-*O feitiço entra no meio dos socos.*
+> **Nível 2: `Trocação Franca`.** Quando acertar um ataque de sua **Ação de Atacar**, pode usar a **Ação Bônus** para realizar um golpe desarmado.
+>
+> Quando receber um golpe por **Olhos Em Mim**, também pode realizar um golpe desarmado contra o atacante, se ele estiver ao alcance. Esse golpe integra a Reação já gasta na transferência.
+>
+> **Nível 11: `Mão Pesada`.** Quando acertar um golpe desarmado, pode empurrar o alvo até **4,5 m** na direção escolhida, **uma vez por alvo por rodada**.
+>
+> Além disso, **uma vez por rodada**, um alvo atingido por seu golpe desarmado faz **TR de Vigor**. Na falha, fica **Derrubado**.
+>
+> **Nível 19: `Minha Vez`.** **Uma vez por rodada**, ao ter sucesso em Bloquear, pode gastar **2 PE** para realizar um golpe desarmado contra o atacante como **ação livre**, se ele estiver ao seu alcance.
+>
+> **Nível 27: `Arrastão`.** Use uma **Ação Padrão** para realizar um golpe desarmado contra até **um número de criaturas igual à sua Força**, dentro de Olhos Em Mim: um golpe por criatura, com rolagens próprias.
+>
+> Arrastão conta como Ação de Atacar, mas substitui o conjunto de ataques dessa ação, sem acrescentar Ataque Extra. O empurrão de Mão Pesada se aplica normalmente.
+>
+> Você pode gastar **8 PE** para que cada alvo acertado faça seu próprio **TR de Vigor contra Derrubado**, em vez de limitar essa parte de Mão Pesada a um alvo por rodada.
 
-> **Nível 2: `Fagulha`.** Se você usou a ação de atacar neste turno, você pode lançar um feitiço de **Classe 0** como **ação bônus**. **E se algum dos seus socos acertou, esse feitiço é rolado com vantagem**, quando ele for um ataque.
+### Trilha: Combatente Amaldiçoado
+
+*A pressão recebida alimenta sua resposta técnica. Você aproveita a defesa e os golpes assumidos para manter a energia circulando.*
+
+**Habilidades do Combatente Amaldiçoado**
+{: .tab-titulo }
+
+| Nível | Habilidade |
+|---|---|
+| 2 | Retaliação |
+| 11 | Embalo |
+| 19 | Oportunista |
+| 27 | Contra a Parede |
+
+> **Nível 2: `Retaliação`.** Quando receber um golpe por **Olhos Em Mim**, pode lançar um feitiço de **Classe 0** contra o atacante, como parte da mesma Reação. O feitiço segue seus requisitos e sua própria resolução.
 >
-> **Nível 11: `Braseiro`.** Quando o seu Classe 0 acerta, você ganha **`2` de energia temporária.** *A regra dela está no capítulo 1, em `Energia temporária`.*
+> Seu **PE máximo aumenta em um valor igual à sua Força**.
 >
-> **Nível 19: `Labareda`.** O feitiço que você lança na ação bônus **pode ser de Classe 3 em vez de Classe 0**, e **de Classe 4 a partir do nível 21**, quando a `Classe 6` libera.
-> **Em troca, em todo turno:** você **abre mão do ataque extra** naquela ação de atacar, e **pelo menos um dos seus socos daquela ação tem de ter acertado.** *Se nenhum acertou, você não pode lançar o feitiço de Classe 3 ou 4 na ação bônus, só o Classe 0.*
+> **Nível 11: `Embalo`.** Ao obter um crítico num ataque de sua **Ação de Atacar**, ou passar num **TR Físico**, receba energia temporária igual à sua **maestria**.
 >
-> **Nível 27: `Fornalha`.** *Ação bônus para entrar. Dura até o fim da cena.* **Cada ataque seu carrega um feitiço de Classe 0 junto, e cada ataque tem de ser num alvo diferente.** E a sua **ação bônus deixa de ser só conjurar feitiço e vira um soco a mais**, num terceiro alvo. **São três socos, três alvos e três Classe 0.**
+> Essa reserva segue as regras de energia temporária: não acumula com outra reserva; mantenha o maior valor.
+>
+> **Nível 19: `Oportunista`.** Depois de ter sucesso em Bloquear, seu próximo feitiço de **Classe acima de 0** recebe **vantagem na rolagem de acerto**, ou impõe **desvantagem no TR do alvo**.
+>
+> Feitiços de Classe 0 não consomem essa preparação.
+>
+> **Nível 27: `Contra a Parede`.** Enquanto estiver com **metade da vida ou menos**, sua **Ação de Atacar** vem acompanhada de um feitiço de dano de **metade da sua maior Classe**, desde que você cumpra os requisitos dele.
 
 ## Vanguarda
 
-*A arma é a resposta: alcançar, cortar, acabar.*
+*Você transforma ataques em preparação contra um adversário. Decide quando manter a pressão, quando mudar a abordagem e quando encerrar a Sequência com uma execução.*
 
 ### Características da Vanguarda
 
@@ -188,170 +265,460 @@ E duas coisas que quase todo degrau daqui menciona:
 
 *O Caminho treina você nessa lista de armas; ele não te dá a arma. O que você leva na mão você compra na criação, e as tabelas de `Preços` estão no capítulo 15, __Equipamento__.*
 
+Escolha uma Trilha no nível 2: **Estocada, Batedor ou Executor**. O Batedor possui três rotas, das quais você escolhe uma.
+
 ### Degraus da Vanguarda
 
-> **Nível 2: `Escola de Arma`.** **Escolha uma das treze categorias de arma.** Com armas daquela categoria você usa a **Manha** dela. *As treze estão na seção seguinte, e a `Versado` também — ela se leva no lugar da Manha da sua categoria.*
->
-> **Nível 7: Ataque extra.** Você ganha **um golpe simples por rodada**. Ele exige a Ação de Atacar — a não ser que uma habilidade diga o contrário.
->
-> **Nível 15: `Não Cede`.** **Quando você falha num Teste de Resistência, role de novo e use o segundo resultado.**
-> **`Maestria` vezes por descanso curto (`1` no nível 2, `4` no 30) e no máximo uma por rodada.**
->
-> **Nível 30: `Não Acabou`.** **Quando você reduz um alvo a 0 de vida, você recupera a sua Reação e a sua Ação de Movimento, e pode fazer um golpe simples.** **Até `metade da sua maestria` vezes por rodada.**
+**Habilidades da Vanguarda**
+{: .tab-titulo }
 
-### Manhas
+| Nível | Habilidade |
+|---|---|
+| 2 | Sequência de Condução e Escola de Arma |
+| 7 | Ataque Extra |
+| 15 | Não Cede |
+| 23 | Persistência |
+| 30 | Conclusão Dupla |
 
-Ter escola de arma quer dizer que alguém te ensinou aquela categoria de verdade, do jeito antigo: repetição, forma, um professor corrigindo o seu pulso até a coisa virar reflexo. Duas pessoas com a mesma espada na mão fazem coisas diferentes com ela, e a diferença é a escola.
+> **Nível 2: `Sequência de Condução`.** **Golpe Inicial → Condução → Conclusão.** Cada etapa usa um ataque que você já pode realizar no seu turno. Você mantém uma Sequência contra um alvo e realiza **uma Condução ou uma Conclusão por turno próprio**. Golpe Inicial pode acontecer no mesmo turno, com outro ataque.
+>
+> Declare a etapa antes dos dados. O TR de um efeito adicional usa **CD = 8 + atributo do ataque + maestria**. Acertar o ataque conta para a preparação mesmo quando o alvo resiste ao efeito adicional.
 
-A Manha entrega o que a sua categoria sabe fazer além de causar dano. Você usa a da categoria que escolheu na `Escola de Arma`, e ela vale com qualquer arma daquela categoria: a escola é do tipo de arma, e a peça específica é descartável. Se a sua lâmina quebrou no meio da missão e você pegou outra do chão, a Manha continua.
+#### Golpe Inicial
+
+Antes de atacar com arma ou desarmado, declare a abertura. Se acertar, inicie a Sequência e reduza o dano total do golpe em **Xd4**, com **X igual à metade da maestria, arredondada para cima**, até o mínimo de zero.
+
+Role essa redução uma vez, depois dos modificadores do atacante e antes das defesas que reduzem o dano recebido pelo alvo. Ela não dobra no crítico. O Golpe Inicial não custa PE e abre a Sequência mesmo quando seu dano final é zero.
+
+Abrir contra outro alvo substitui a Sequência anterior. Você não reabre uma Sequência ativa contra o mesmo alvo nem abre outra no turno em que declarou uma Conclusão.
+
+**Golpe Inicial e Condução por maestria**
+{: .tab-titulo }
+
+| Maestria | Redução no Golpe Inicial | Custo de cada Condução |
+|---|---|---|
+| 1 ou 2 | 1d4 | 2 PE |
+| 3 ou 4 | 2d4 | 3 PE |
+
+#### Conduzir
+
+Escolha uma Condução e pague **metade da maestria, arredondada para cima, + 1 PE**, antes do ataque, inclusive no erro.
+
+Acertar causa o dano normal, acrescenta uma Condução acertada e renova o prazo da Sequência. Errar encerra a Sequência, salvo Persistência. Você pode continuar conduzindo sem um limite de acertos acumulados.
+
+Ao declarar uma Condução diferente, abandone o efeito sustentado da anterior. Repetições não acumulam o mesmo benefício. Movimentos já realizados e acertos de Condução registrados permanecem.
+
+**Conduções**
+{: .tab-titulo }
+
+| Condução | Efeito após o acerto |
+|---|---|
+| **Mudar o Ângulo** | Desloque-se até **3 m adicionais**, respeitando o terreno, sem provocar ataque de oportunidade do alvo da Sequência. |
+| **Pressionar a Guarda** | **+1 no acerto** de seus ataques contra o alvo até o fim do próximo turno. |
+| **Proteger o Avanço** | **+1 de Defesa** contra ataques do alvo até o fim do próximo turno, inclusive ao Bloquear. Soma com Postura Firme. |
+| **Acompanhar o Movimento** | Até o fim do próximo turno, quando o alvo terminar um deslocamento voluntário, você pode mover-se **uma vez até metade do seu deslocamento**, sem Reação ou gasto de movimento normal e sem provocar oportunidade daquele alvo. |
+| **Explorar o Desequilíbrio** | Exige alvo **Derrubado ou Agarrado**. Até o fim do próximo turno, ele sofre **−1 no próximo TR Físico ou de Vigor de uma Conclusão sua**. Em Dupla, declare qual dos testes que cumprem essas condições virá primeiro. |
+| **Fechar a Rota** | **TR Físico:** na falha, o alvo não pode se afastar voluntariamente de você até o fim do próximo turno dele. Pode se aproximar, ser movido por outra força ou se teleportar. |
+
+Fechar a Rota não reduz, por si, o valor do deslocamento exigido por Fixar o Alvo.
+
+#### Concluir
+
+Escolha uma Conclusão compatível com a fonte do ataque e com seus requisitos. **A declaração consome a Sequência**, mesmo no erro ou na resistência. Concluir não custa PE adicional por si só.
+
+Nas opções com TR, o ataque precisa acertar e o alvo precisa falhar no teste para sofrer o efeito. "Sem Condução mínima" permite Concluir logo depois do Golpe Inicial ou após Conduções.
+
+> **Ponto Fraco.** Corpo a corpo; sem Condução mínima. Nesse ataque, sua margem crítica aumenta em uma unidade: normalmente **19–20**.
+>
+> **Explorar a Cobertura.** Distância; sem Condução mínima; alvo com cobertura. Nesse ataque, trate **Boa como Parcial** ou **Parcial como nenhuma**. Cobertura Total continua impedindo o ataque.
+>
+> **Rasteira.** Corpo a corpo ou distância; **uma Condução acertada**. **TR Físico:** na falha, deixe o alvo **Derrubado** e, se desejar, empurre-o até **1,5 m**. A mesma falha permite os dois resultados.
+>
+> **Desarme.** Corpo a corpo; **uma Condução acertada**; alvo empunhando arma ou objeto. **TR Físico:** na falha, o objeto sai da empunhadura e cai num espaço escolhido a até **3 m do alvo**.
+>
+> **Interromper a Resposta.** Distância; **uma Condução acertada**. **TR Físico:** na falha, o alvo não pode usar **Reações até o começo do seu próximo turno**. Bloquear é independente de Reação.
+>
+> **Quebrar o Ritmo.** Corpo a corpo ou distância; **uma Condução acertada**. **TR de Vigor:** na falha, o alvo fica **Lento até o fim do próximo turno dele**.
+>
+> **Fixar o Alvo.** Distância; **duas Conduções acertadas**; deslocamento do alvo já reduzido antes da declaração. **TR Físico:** na falha, fica **Impedido até o fim do próximo turno dele**. Terreno difícil conta como a redução prévia.
+
+Lento e Impedido aplicados com essa duração terminam no prazo, sem novo TR para encerramento antecipado. Derrubado e Desarmado seguem suas regras próprias.
+
+#### Prazo e troca de alvo
+
+Um Golpe Inicial ou uma Condução acertados mantêm a Sequência até o **fim do segundo turno seu seguinte**. Um novo acerto de Condução reinicia esse prazo. Outras ações e feitiços não o renovam.
+
+A Sequência termina ao expirar, ao errar uma Condução sem Persistência, ao declarar a Conclusão ou ao ser substituída por uma abertura contra outro alvo. Efeitos com duração própria seguem seu prazo.
+
+Se uma Condução errada encerrar a Sequência, um ataque restante pode abrir outra no mesmo turno; o limite de uma Condução ou Conclusão naquele turno permanece.
+
+#### Escola de Arma
+
+> **Nível 2: `Escola de Arma`.** Escolha **uma categoria** e receba sua Manha. Ela acontece depois do dano de um **Golpe Inicial acertado** com essa categoria, uma vez por Sequência e no máximo uma vez por turno.
 
 **Manhas**
 {: .tab-titulo }
 
-| Categoria | Manha | O que faz | Teste de Resistência |
-|---|---|---|---|
-| Lâmina Curta | `Talho` | `+1` no acerto do seu próximo ataque contra um alvo que levou dano seu neste turno | — |
-| Lâmina Longa | `Raspão` | o ataque que **erra** ainda causa o seu atributo | — |
-| Massa | `Abalo` | o alvo cai: condição `Derrubado` | **Físico** |
-| Porrete | `Tranco` | desvantagem no próximo ataque do alvo | **Vigor** |
-| Manopla | `Encaixe` | `+2` de Defesa até o seu próximo turno, se você acertou. Uma vez por rodada | — |
-| Machado | `Racho` | o golpe pega um segundo alvo ao seu alcance | — |
-| Ceifa | `Gancho` | o corte rasga: o alvo leva o seu atributo de novo no início do próximo turno dele | — |
-| Armas Longas | `Espeto` | você empurra o alvo `4,5 m` | **Físico** |
-| Flexível | `Laço` | o alvo perde metade do deslocamento do próximo turno | **Físico** |
-| Arremesso | `Palmo` | `+1` no acerto do próximo arremesso contra o mesmo alvo | — |
-| Yumi | `Zunido` | o tiro que **erra** ainda causa o seu atributo | — |
-| Balestra | `Prego` | o alvo perde `9 m` do deslocamento do próximo turno | **Vigor** |
-| Arma de Fogo | `Estampido` | todo aliado que enxerga tem `+1` no próximo ataque contra o alvo | — |
+| Categoria | Manha |
+|---|---|
+| Lâmina Curta, Arremesso, Yumi, Balestra ou Arma de Fogo | **Ritmo:** +1 no próximo ataque com essa categoria contra o alvo. A tentativa consome o benefício; o fim da Sequência o encerra. |
+| Lâmina Longa, Manopla ou golpes desarmados | **Postura Firme:** +1 de Defesa até o começo do próximo turno, inclusive ao Bloquear. Trocar de Condução não encerra essa postura. |
+| Massa, Porrete, Machado ou Armas Longas | **Empuxo:** TR Físico; na falha, empurre o alvo até **3 m para longe de você**. |
+| Ceifa ou Flexível | **Mover Alvo:** TR Físico; na falha, mova o alvo até **1,5 m na direção escolhida**. |
 
-> **Manha que mexe no alvo pede Teste de Resistência, e dispara uma vez por rodada.**
->
-> **Quando.** Você acertou o ataque, e a Manha da sua categoria tem Teste de Resistência na tabela `Manhas`.
->
-> **Como.** O alvo rola o Teste de Resistência que a tabela `Manhas` nomeia, contra a sua CD. Se passar, o efeito não acontece — o dano do golpe acontece do mesmo jeito.
->
-> **Uma vez por rodada.** Não importa quantos golpes você deu: a Manha cobra Teste de Resistência de um alvo por rodada, e você escolhe qual.
->
-> **As que não pedem** são as que mexem em você, no seu próprio dado ou só no dano — `Talho`, `Raspão`, `Encaixe`, `Racho`, `Gancho`, `Palmo`, `Zunido` e `Estampido`. *Elas não fazem ninguém rolar nada.*
->
-> **O `Encaixe` é a única delas com limite.** A Defesa não empilha: ele vale **uma vez por rodada**, por mais golpes que você dê.
->
-> **A `Versado` também não pede** — ela mexe no seu acerto e em mais nada. *O relógio dela é próprio, e a entrada dela diz qual.*
+> **`Versado`.** Em vez de uma categoria e sua Manha, escolha **Versado**: imediatamente após acertar um Golpe Inicial, guarde uma arma e saque outra sem ação, **uma troca por Sequência**.
 
-> **A Manha nunca é dado de dano.** Ela mexe em onde as pessoas estão, em quem é atingido, e em quanto a próxima rolagem custa. Valor fixo de dano ela pode dar. Dado de dano é assunto do equipamento.
+> **Nível 7: Ataque Extra.** Sua Ação de Atacar permite **um ataque simples adicional por rodada**. Uma habilidade específica, como Bote, pode permitir usar esse ataque em outra ação.
 
-#### `Versado`
+> **Nível 15: `Não Cede`.** Quando falhar num **Teste de Resistência**, pode repetir o teste e usar o segundo resultado.
+>
+> Você tem usos iguais à **maestria por descanso curto**, no máximo **um por rodada**. Não exige ação ou PE.
 
-Quem troca de arma no meio da luta pode levar esta **no lugar da Manha da sua categoria**.
+> **Nível 23: `Persistência`.** Depois das rerrolagens de uma Condução, se o ataque ainda errar, pode gastar um uso de Persistência para **manter a Sequência**.
+>
+> O ataque permanece errado: não aplica o efeito, não acrescenta Condução acertada e não renova o prazo. Custos pagos e preparações abandonadas não retornam.
+>
+> Você tem **metade da maestria, arredondada para baixo, + 1 usos por descanso curto ou longo**. Não exige ação ou PE adicional.
 
-> **`Versado`** — vale quando você troca de arma no seu turno.
+> **Nível 30: `Conclusão Dupla`.** **Uma vez por cena**, ao Concluir depois de **duas ou mais Conduções acertadas**, escolha **duas Conclusões diferentes da mesma fonte**: corpo a corpo, distância ou feitiço. Concluir por feitiço exige Estocada.
 >
-> **O gesto.** Guardar uma arma e sacar outra passa a ser **um gesto só**, e não dois.
+> Declare as duas antes dos dados, com todos os requisitos cumpridos. Um ataque ou feitiço resolve seu dano normal uma vez; cada Conclusão tem seu TR, quando houver. Resolva os testes antes de aplicar os novos efeitos. Explorar o Desequilíbrio modifica apenas um teste que cumpra essas condições.
 >
-> **A mira.** Até o começo do seu próximo turno, você tem **`+1` no acerto** com a arma que acabou de trocar por outra.
->
-> **Relógio.** Uma vez por rodada.
->
-> **O que ela substitui.** A Manha da categoria que você escolheu na `Escola de Arma`. Você não leva as duas.
-
-*Sacar ou guardar um item já é de graça no turno; do segundo em diante custa a Ação de Movimento inteira, no capítulo 2, `O Turno`. É esse segundo gesto que a `Versado` paga.*
+> O uso é gasto na declaração. A fonte da preparação pode ser diferente da fonte da Conclusão.
 
 ### Trilha: Estocada
 
-*A arma faz o que a luta pedir, e o que ela pede muda toda rodada.*
+*Você integra arma e feitiço na mesma rotina e transforma a preparação armada numa Conclusão de feitiço.*
 
-> **Nível 2: `Compasso`.** Você usa a ação **Conjurar** na ação padrão e dá um **golpe com arma de um grupo escolhido** como ação bônus. *Se você pegou a `Versado`, escolhe uma quantidade de grupos igual à maestria.*
-> **E naquele grupo de armas, o acerto e o dano podem usar Essência ou Inteligência** no lugar de Força ou Destreza. **O requisito de Força para empunhar continua valendo.**
+**Habilidades da Estocada**
+{: .tab-titulo }
+
+| Nível | Habilidade |
+|---|---|
+| 2 | Compasso |
+| 11 | Conclusões de feitiço |
+| 19 | Bote |
+| 27 | Ferrão |
+
+> **Nível 2: `Compasso`.** Escolha **Essência ou Inteligência**. Some esse atributo ao seu **PE máximo** e use-o no lugar de Força ou Destreza para o acerto e dano das armas de seus grupos escolhidos. Os requisitos de Força permanecem.
 >
-> **Nível 11: `Traçado`.** Quando o feitiço que você conjurou **acerta**, o golpe da ação bônus **pega um segundo alvo adjacente ao primeiro**. Se a arma já tem uma propriedade que faz isso, o segundo alvo tem de ser diferente do que a propriedade alcança.
+> Escolha **um grupo de armas**. Se possuir Versado na Escola de Arma, escolha uma quantidade de grupos igual à sua **maestria**.
 >
-> **Nível 19: `Bote`.** Quando o feitiço que você conjura na ação padrão é **de condição e não de dano**, você pode usar o seu **ataque extra** na ação bônus.
+> Depois de conjurar na **Ação Padrão** um feitiço de **Classe igual ou superior à metade de sua maior Classe disponível, arredondada para cima**, pode usar a **Ação Bônus** para fazer um ataque com uma arma desses grupos. O feitiço não precisa acertar.
 >
-> **Nível 27: `Ferrão`.** Se o feitiço que você conjurou na Ação Padrão **acertou**, o **primeiro** golpe da sua ação bônus carrega um **feitiço de Classe 0** junto. *O Classe 0 acompanha o golpe: se o golpe erra, ele não sai.* **`Bote` e `Ferrão` não podem ser usados juntos.**
+> Esse ataque pode dar o Golpe Inicial, Conduzir ou Concluir, com os custos e limites da Sequência. Com maior Classe 7, Compasso exige Classe 4 ou superior.
+
+> **Nível 11: `Conclusões de feitiço`.** Após **uma Condução acertada**, pode usar um feitiço de **Classe 1 ou maior que cause dano ou imponha condição ao alvo da Sequência** para Concluir. Algumas opções exigem duas Conduções.
+>
+> Escolha a Conclusão antes da resolução. Ela se aplica somente ao alvo da Sequência se o feitiço o acertar ou ele falhar no TR principal. Dano parcial após sucesso no TR não basta. Em uma aplicação com várias resoluções, indique antes dos dados qual resolução inicial poderá ativá-la.
+>
+> O feitiço mantém seu custo e sua ação. O TR adicional da Conclusão usa **CD = 8 + atributo escolhido em Compasso + maestria**. As condições novas do próprio lançamento só entram depois dos testes adicionais.
+
+> **Cortar a Resposta.** **Duas Conduções; TR Físico.** Na falha, o alvo não pode usar Reação contra o **próximo ataque que sofrer**. Bloquear permanece independente.
+>
+> **Romper Fileira.** **Uma Condução; TR Físico.** Na falha, mova o alvo até **6 m** por um trajeto livre sobre a superfície que o sustenta. Em seguida, você pode mover-se até **metade do seu deslocamento**, sem ação, sem gastar movimento normal e sem provocar oportunidade daquele alvo.
+>
+> **Desorientar.** **Uma Condução; sem TR adicional.** A próxima rolagem do alvo, de qualquer natureza, tem **desvantagem**, se acontecer até o fim do próximo turno dele. O efeito pode afetar ataque, TR, perícia, Bloquear ou dano. Em rolagens de conjuntos, role o conjunto completo duas vezes e mantenha o resultado menos favorável ao alvo. A primeira tentativa consome o efeito.
+>
+> **Expor a Guarda.** **Duas Conduções; TR de Vigor.** Na falha, o próximo ataque de **um aliado seu** contra o alvo tem **vantagem**, se acontecer antes do começo do seu próximo turno. A primeira tentativa que cumpra essas condições consome o benefício.
+>
+> **Ancorar.** **Duas Conduções; TR Físico.** Na falha, o deslocamento do alvo fica em **zero até o fim do próximo turno dele**. Movimento forçado e teleporte continuam possíveis.
+>
+> **Refluxo.** **Uma Condução; sem TR adicional.** Escolha uma Condução acertada da Sequência e receba **energia temporária igual à metade do PE de fato gasto nela**, arredondada para baixo, com mínimo de 1 quando houve gasto de PE. Uma Condução gratuita gera zero. A reserva surge depois da resolução e segue as regras gerais de energia temporária: gasto antes do PE normal, maior reserva em vez de soma, limite de metade do PE máximo e término no fim da cena, salvo a permissão geral de preparação deliberada.
+
+Desorientar e os outros efeitos novos não prejudicam outro TR do mesmo lançamento. Em Conclusão Dupla, escolha duas opções deste catálogo e respeite todos os requisitos da Dupla.
+
+> **Nível 19: `Bote`.** Quando o feitiço de sua Ação Padrão **impuser uma condição e não causar dano imediato nem posterior**, e liberar Compasso, pode fazer **dois ataques** naquela Ação Bônus, usando Ataque Extra.
+>
+> Se ainda não Concluiu, esses ataques podem cumprir etapas normais: por exemplo, Golpe Inicial e Condução. Se o feitiço Concluiu, os ataques continuam disponíveis, mas não abrem nem desenvolvem outra Sequência naquele turno.
+>
+> **Bote e Ferrão são alternativas no mesmo turno.**
+
+> **Nível 27: `Ferrão`.** Depois de Concluir com um feitiço da Ação Padrão que **acerte o alvo ou o faça falhar no TR principal**, o primeiro ataque da Ação Bônus de Compasso pode carregar **um feitiço de Classe 0**.
+>
+> Declare Ferrão antes do ataque da arma. Se ela errar, o Classe 0 não é lançado. Se acertar, ele resolve sua própria rolagem e requisitos, inclusive alcance e crítico. Não é necessário que o alvo tenha falhado no TR adicional da Conclusão principal.
+>
+> Se o Classe 0 causar dano, **substitui Canalizar energia ou Estímulo Muscular naquele golpe**, em vez de somar-se a esses dados. O ataque mantém o dano próprio da arma e seu atributo.
+>
+> Ferrão acompanha somente o primeiro ataque que cumpra essas condições e não é duplicado por Conclusão Dupla. A Sequência já terminou; permanecem as restrições de nova abertura e a incompatibilidade com Bote.
 
 ### Trilha: Batedor
 
-*A luta acontece onde você decide, e você decide longe.*
+Escolha uma rota no nível 2. Cada uma recebe uma facilidade inicial, três Conduções próprias, duas Conclusões e as entregas dos níveis 11, 19 e 27. Você continua usando as opções comuns da Vanguarda quando seus requisitos forem cumpridos.
 
-**A rota se escolhe no nível 2 e vale a campanha inteira.** O `Yumi` atira de onde ninguém alcança, a `Arma de Fogo` atira de dentro do aperto, e a `Besta` empurra o inimigo para fora do problema.
+**Rotas do Batedor**
+{: .tab-titulo }
 
-As três concedem a mesma ação no nível 11 e estendem ela no 27:
-
-> **`Mirar`.** *Ação Bônus.* Você firma o corpo e alinha o tiro.
-> **O seu próximo ataque com arma de projétil nesta rodada é rolado com vantagem.**
-> **Você só pode `Mirar` se não tiver se deslocado nesta rodada, e o `Mirar` se perde se você se deslocar.**
+| Nível | Yumi | Besta | Arma de Fogo |
+|---|---|---|---|
+| 2 | Soltura Preparada | Virotes Cravados | Combate Irregular |
+| 11 | Segunda Leitura | Consumir a Farpa | Reorientar a Pressão |
+| 19 | Soltura de Emergência | Fixação Cruzada | Romper o Contato |
+| 27 | Última Leitura | Preparação Remanescente | Plano de Continuidade |
 
 #### Rota: Yumi
 
-Arco longo, treino de clã, silêncio. A rota do `Yumi` troca cadência por precisão e por altura: um tiro bem colocado, de um lugar em que ninguém contava que houvesse alguém. É a mais móvel das três em terreno vertical, e a que mais gosta de crítico.
+*As flechas anteriores preparam a execução; você escolhe o momento de soltar a flecha que encerra a Sequência.*
 
-> **Nível 2: `Disparo Carregado`.** Você **não sofre desvantagem na faixa longa** de arma de projétil. O seu deslocamento sobe **`+3 m`** e conta como **deslocamento de escalada**, árvore, parede, o que você conseguir agarrar.
-> **O `Disparo Carregado`:** *ação bônus.* O seu próximo ataque com arco tem a **margem crítica reduzida em 1** (crítico em `19` ou `20`). *E você pode abdicar do seu ataque extra para somar o dado da arma ao ataque carregado, sem o atributo, perde dano e ganha chance de crítico.*
+> **Nível 2: `Soltura Preparada`.** Você recebe **deslocamento de escalada igual ao deslocamento normal**.
+
+##### Armar uma Conclusão
+
+Quando puder Concluir com Yumi no seu turno, pode **armar a Conclusão** em vez de disparar imediatamente. Declare a Conclusão, o alvo da Sequência e os detalhes necessários; comprometa um ataque disponível e consuma a Sequência. Ataque, dano e TR são rolados apenas na soltura.
+
+Você precisa ter **Reação disponível**, mantém **uma flecha armada** e deve soltá-la gastando essa Reação **antes do começo do próximo turno**. Usar a Reação em outra coisa descarta a flecha, sem devolver o ataque ou a Sequência.
+
+Mantenha o arco empunhado e pronto. Guardá-lo, perdê-lo, dispará-lo novamente ou ocupar suas mãos de maneira incompatível desfaz a armação. Movimento e dano sofrido, por si só, não a desfazem.
+
+A soltura é feita da sua posição real contra o mesmo alvo. Confira os requisitos da Conclusão na armação e, na soltura, aqueles que dependem da situação atual. Pague custos adicionais do ataque na armação; eles não retornam se a flecha for perdida.
+
+Essa resolução adiada é uma exceção própria do Yumi. Golpes Iniciais e Conduções continuam ocorrendo no seu turno. Você pode preferir uma Conclusão imediata, exceto quando a opção exigir armação.
+
+##### Soltura Simples
+
+Escolha um acontecimento **que todos possam identificar e que você consiga perceber** do alvo: terminar um ataque com arma ou desarmado, uma tentativa de Agarrar, um deslocamento voluntário, um feitiço ou o uso de um objeto.
+
+Você pode soltar a flecha **depois** desse evento. Se o movimento for dividido, considere cada trecho percorrido.
+
+##### Conduções do Yumi
+
+As três usam o ataque, o custo e o acerto normais da Condução. Cada uma estabelece **um modo de soltura**. Trocar de Condução abandona o anterior na declaração, salvo Segunda Leitura. Uma Condução comum volta à Soltura Simples.
+
+> **Antecipar o Gesto.** Depois de acertar, ao armar escolha o alvo declarar um ataque com arma ou desarmado, ou começar a sair voluntariamente do espaço ocupado. Se escolheu o ataque, solte antes da rolagem. Se escolheu o movimento, solte antes de o alvo sair do espaço. A arma e a criatura atacada já precisam estar declaradas.
 >
-> **Nível 11: `Mirar`.** Você ganha a ação **`Mirar`**. **Uma mesma Ação Bônus pode `Mirar` e carregar o `Disparo Carregado` juntos**, os dois custam aquela ação, e só o `Yumi` pode empilhar os dois. Os seus ataques com arma de longo alcance somam **`+2` no acerto** ao `Mirar`.
+> **Acompanhar a Abertura.** Depois de acertar, pode soltar **após qualquer evento da Soltura Simples**, sem fixar apenas um. Pode deixar uma janela passar e aproveitar outra. O acontecimento escolhido já foi resolvido.
 >
-> **Nível 19: `Pique`.** O `Disparo Carregado` passa a reduzir a margem em **2**, crítico em `18` a `20`.
+> **Reter a Soltura.** Depois de acertar, escolha um evento da Soltura Simples. Se a flecha continuar armada **imediatamente antes do começo do próximo turno**, pode soltá-la mesmo sem o evento. Use a Reação que ainda restou naquele intervalo, antes da renovação.
+
+##### Conclusões do Yumi
+
+> **Flecha Intercessora.** **Requisitos:** uma Condução de Yumi acertada, modo **Antecipar o Gesto** e flecha armada para a declaração de um ataque com arma ou desarmado.
 >
-> **Nível 27: `Dobro`.** O `Mirar` passa a valer para o **ataque básico e o extra**, e o `Disparo Carregado` reduz a margem em **3**, crítico em `17` a `20`.
+> Quando o alvo anunciar esse ataque contra uma criatura, **antes dos dados**, gaste sua Reação para disparar. Resolva a flecha e seu dano normal. Se acertar e o golpe anunciado ainda puder acontecer, o alvo faz **TR Físico**.
+>
+> Na falha, **a rolagem do ataque anunciado tem desvantagem**.
+
+> **Flecha Desestabilizadora.** **Requisito:** uma Condução de Yumi acertada. Pode ser imediata ou armada.
+>
+> Após acertar, o alvo faz **TR de Vigor**. Na falha, sua próxima rolagem de dano contra uma criatura tem **desvantagem**, até o fim do próximo turno dele.
+>
+> Role o conjunto completo duas vezes, com os mesmos modificadores, e use o que causar menos dano. Não combine dados individuais. A primeira rolagem que cumpra essas condições consome o efeito. Dano inteiramente fixo não é reduzido.
+>
+> O efeito pode atingir dano de arma, desarmado ou feitiço. Se uma rolagem for compartilhada entre várias criaturas, o arqueiro escolhe **uma delas antes dos dados** para receber o resultado menor; as demais usam a primeira rolagem normal. A escolha não exige outra Reação.
+
+##### Duração e Conclusão Dupla
+
+O prazo de um efeito armado é fixado como se a Conclusão fosse resolvida no turno da armação. **Adiar não prolonga a duração.** Uma soltura tardia pode preservar o ataque quando o efeito temporário já perdeu sua janela.
+
+**Conclusão Dupla com Yumi é imediata.** Desestabilizadora pode integrá-la; Intercessora permanece exclusiva de sua janela armada.
+
+> **Nível 11: `Segunda Leitura`.** Ao acertar uma Condução própria **diferente da ativa**, pode guardar o modo anterior como **leitura de reserva**. Você mantém um modo ativo e uma reserva diferente, ambos preparados por Conduções realmente acertadas naquela Sequência.
+>
+> Ao armar, escolha qual usar. Só o modo escolhido funciona.
+>
+> Uma troca para outra Condução própria só mantém as leituras se acertar. No erro, perde ambas, mesmo usando Persistência. Repetir o mesmo modo mantém a reserva existente; um erro preservado por Persistência mantém somente os estados e prazos anteriores. Uma Condução comum apaga as duas leituras.
+
+> **Nível 19: `Soltura de Emergência`.** **Uma vez por cena**, enquanto a flecha estiver armada, pode abandonar o efeito da Conclusão para soltá-la **como disparo comum**.
+>
+> Isso pode acontecer depois de qualquer evento da Soltura Simples ou imediatamente antes do próximo turno, mesmo fora do evento marcado. Use a Reação ainda disponível e faça o ataque contra o mesmo alvo.
+>
+> O uso é gasto na declaração. A Sequência e os custos permanecem consumidos. Uma flecha já descartada não pode ser recuperada por esta habilidade.
+
+> **Nível 27: `Última Leitura`.** **Uma vez por cena**, se armou a flecha possuindo dois modos diferentes mantidos por Segunda Leitura, pode **trocar o modo escolhido pelo outro durante a espera**, sem ação adicional.
+>
+> O novo modo substitui o anterior. Declare o evento que ele exigir e respeite sua janela: Antecipar antes dos dados ou movimento; Acompanhar depois do evento; Reter com sua soltura de segurança.
+>
+> O uso da cena é gasto **na troca**. A flecha mantém Conclusão, alvo, custos e prazo, e sua soltura ainda exige Reação. Intercessora continua exclusiva da janela anterior ao ataque físico; fora dela, Emergência pode preservar apenas o disparo comum.
+
+> **Exemplo.** Você armou Desestabilizadora com Acompanhar e guardou Antecipar. O inimigo anuncia um ataque em vez de se mover. Antes dos dados, Última Leitura permite mudar para Antecipar e soltar a mesma Desestabilizadora.
 
 #### Rota: Besta
 
-A besta é ferramenta de quem trabalha sozinho e não tem tempo de recarregar. Essa rota resolve a manivela de uma vez e usa o impacto do virote para tirar o inimigo do lugar, o que faz dela a única das três que também administra posicionamento.
+*Seus acertos deixam preparação no alvo. Você escolhe acrescentar, reforçar ou consumir os virotes.*
 
-> **Nível 2: `Manivela`.** As suas bestas **deixam de sofrer a penalidade de recarregar** — a propriedade `Munição` do capítulo 15, *Equipamento* —, você nunca recarrega.
+> **Nível 2: `Virotes Cravados`.** Suas bestas **dispensam a ação de recarga e as interrupções de Munição**. Você ainda precisa de virotes disponíveis.
 >
-> **Nível 11: `Mirar`.** Você ganha a ação **`Mirar`**, e os seus ataques ao `Mirar` com arma de longo alcance somam **`+2` no acerto**.
+> Um **Golpe Inicial acertado** pode estabelecer um virote comum vinculado à Sequência. O limite é **três virotes ativos**. Esse marcador não aplica condição por si só.
 >
-> **Nível 19: `Repuxo`.** Ao disparar, **uma vez por rodada**, o alvo faz um Teste de Resistência de Vigor; numa falha, é empurrado **`1,5 m × maestria`** na direção oposta.
-> **E você deixa de sofrer desvantagem por estar colado**, o tempo todo.
+> Os virotes persistem entre as três Conduções desta rota. Uma Condução comum abandona os marcadores, preservando o número de Conduções acertadas. Ao terminar a Sequência, os virotes perdem sua função, salvo Preparação Remanescente.
 >
-> **Nível 27: `Dobro`.** O `Mirar` passa a valer para o **ataque básico e o extra**.
+> **Retirada.** O alvo ou um ajudante ao alcance pode remover um virote comum com **Ação Bônus e sucesso em TR Físico contra a CD da Trilha**, ou com **Ação Padrão sem teste**. Um farpado exige a Ação Padrão. Retirar não causa dano nem apaga Conduções acertadas.
+
+##### Conduções da Besta
+
+> **Cravar.** Após acertar, acrescente um virote comum, até o limite.
+>
+> **Farpar.** Exige um comum ativo. Após acertar, transforme-o em **farpado**. Um farpado substitui dois comuns somente nas Conclusões que permitirem isso.
+>
+> **Acionar.** Consuma um virote na declaração. Após acertar, **TR de Vigor**: na falha, o alvo não pode usar **Ação Bônus até o fim do próximo turno dele**. O virote é gasto mesmo no erro ou na resistência.
+
+##### Conclusões da Besta
+
+> **Interditar a Ferramenta.** **Requisitos:** uma Condução de Besta acertada, um virote ativo e alvo empunhando arma ou objeto.
+>
+> Consuma o virote e escolha o objeto na declaração. Após acertar, **TR Físico**: na falha, o alvo não pode usar o objeto até o fim do próximo turno dele. Pode largá-lo e recorrer a outro equipamento.
+>
+> A interdição não impede seus feitiços por ele estar empunhando o objeto.
+
+> **Virote Debilitante.** **Requisitos:** uma Condução de Besta acertada e **dois comuns ou um farpado** ativos.
+>
+> Escolha **TR Físico ou de Vigor** e consuma os virotes na declaração. Após acertar, o alvo faz **TR de Vigor**. Na falha, o próximo TR do tipo escolhido tem **desvantagem**, até o fim do seu próximo turno.
+>
+> O primeiro TR do tipo escolhido consome o efeito, seja provocado por você ou por outra criatura. A penalidade começa depois dos testes do próprio ataque e não prejudica o outro TR da mesma Conclusão Dupla.
+
+> **Nível 11: `Consumir a Farpa`.** **Uma vez por Sequência**, ao declarar Acionar, pode gastar apenas a qualidade de um farpado: transforme-o em **comum**, em vez de removê-lo.
+>
+> A farpa e o uso são consumidos na declaração, mesmo no erro ou na resistência. Esta conservação vale para Acionar, não para o pagamento das Conclusões.
+
+> **Nível 19: `Fixação Cruzada`.** **Reação, uma vez por Sequência.** Depois de uma retirada bem-sucedida de um virote seu, pode transformar **outro comum ainda ativo naquele alvo** em farpado.
+>
+> Você precisa perceber a retirada e manter a Sequência. O virote retirado sai normalmente. Retirada falhada, consumo dos próprios marcadores ou fim da Sequência não ativam a habilidade.
+
+> **Nível 27: `Preparação Remanescente`.** **Uma vez por cena**, ao declarar uma Conclusão com Besta, tendo uma Condução própria acertada, pode reservar **um virote que não será consumido na execução**.
+>
+> Ele é o único que mantém sua função após a Sequência terminar, mesmo se a Conclusão errar ou for resistida. Fica no mesmo alvo **até o fim do próximo turno**, sujeito à retirada normal.
+>
+> Se acertar um novo **Golpe Inicial de Besta contra o mesmo alvo** nesse prazo, incorpore a reserva e o comum que a nova abertura pode estabelecer, até o limite de três. A nova Sequência começa com **zero Conduções acertadas**.
+>
+> Abrir contra outro alvo ou com outra categoria abandona a reserva. Um erro não renova o prazo, mas outra tentativa que cumpra as condições do ataque pode aproveitá-la antes de expirar. Em Dupla, reserve somente material que sobre após pagar as duas Conclusões.
+
+> **Exemplo.** Você consome um farpado em Debilitante e reserva o comum que sobrou. Na próxima abertura acertada contra aquele inimigo, pode começar com o comum preservado e um novo, mas ainda precisa Conduzir.
 
 #### Rota: Arma de Fogo
 
-Pólvora, ruído e uma profissão que finge não usar isso. É a rota que funciona no aperto: corredor estreito, sala pequena, inimigo colado em você. Quem escolhe `Arma de Fogo` aceita chamar atenção de todo mundo num raio de quarteirão, e o resto do time precisa contar com isso no plano.
+*Você cria uma Oportunidade, escolhe quando aproveitá-la e mantém meios de continuar o confronto.*
 
-> **Nível 2: `Ferrolho`.** Você pode recarregar gastando a sua **Ação de Movimento**, em vez da Ação Bônus. Quem escolhe é você, na hora — e recarregar assim custa o deslocamento inteiro daquele turno.
-> **É exceção à regra de conversão do capítulo *O turno*, e por isso está escrita:** lá o turno só converte da maior para a menor, e esta é a única troca que sobe.
-> **Gastar a Ação de Movimento assim não é se deslocar**, então você ainda pode `Mirar` na mesma rodada.
-> **E você deixa de sofrer desvantagem por estar colado** contra um inimigo.
+> **Nível 2: `Combate Irregular`.** Seus disparos não sofrem a desvantagem causada por inimigo adjacente. O limite **X de disparos antes da recarga aumenta em um**. O gatilho de recarga por **1 ou 2 natural** permanece.
+
+##### Oportunidade Tática
+
+Você mantém **uma Oportunidade**, obtida por suas Conduções. Ela pode antecipar Pressão Dominante, habilitar a recarga de Ruptura e, no nível 19, pagar Romper o Contato.
+
+Trocar de Condução abandona o preparo anterior e sua Oportunidade, salvo Reorientar a Pressão e Plano de Continuidade. Ela é consumida ao declarar seu uso, mesmo no erro ou na resistência, e não substitui Conduções acertadas.
+
+##### Conduções da Arma de Fogo
+
+> **Fogo de Supressão.** Gaste **dois usos de Munição** num ataque. Após acertar, se o alvo atacar ou conjurar um feitiço que prejudique alguém de maneira que você possa perceber até o começo do seu próximo turno, obtenha uma Oportunidade válida até o fim desse turno.
 >
-> **Nível 11: `Mirar`.** Você ganha a ação **`Mirar`**, e os seus ataques com arma de longo alcance somam **`+2` no acerto**.
+> **Queima-Roupa.** Exige alvo a até **1,5 m** e consumo normal de Munição. Após acertar, receba Oportunidade no começo do próximo turno se não escolheu se afastar voluntariamente do alvo. Ela dura até o fim desse turno. Movimento do inimigo ou imposto a você não desfaz o preparo por si só.
 >
-> **Nível 19: `Descarga`.** No começo de um combate, você pode gastar a sua **Reação** para atacar **um alvo por bala que a arma carrega**, com uma rolagem separada em cada um. **Os disparos contam para a munição.**
+> **Tiro Controlado.** Consumo normal. Após acertar, permite gastar **um uso adicional de Munição** na próxima Conclusão própria para obter e consumir uma Oportunidade na declaração. Precisa ter usos disponíveis para o disparo e o gasto adicional.
+
+##### Conclusões da Arma de Fogo
+
+> **Pressão Dominante.** **Requisito:** duas Conduções de Arma de Fogo acertadas, ou **uma e uma Oportunidade consumida**.
 >
-> **Nível 27: `Dobro`.** O `Mirar` passa a valer para o **ataque básico e o extra**.
+> Após acertar, **TR de Espírito**: na falha, o alvo fica **Amedrontado por você até o fim do próximo turno dele**.
+
+> **Ruptura Tática.** **Requisito:** uma Condução de Arma de Fogo acertada.
+>
+> Após acertar, **TR Físico**: na falha, o alvo não pode usar **Reações contra você até o começo do próximo turno**.
+>
+> Se consumiu Oportunidade e ele falhou no TR, pode gastar **uma Ação de Movimento inteira e ainda disponível**, naquele turno, para recarregar parcialmente a mesma arma. Recupere **metade de X, arredondada para baixo**, sem ultrapassar o limite.
+>
+> A recarga exige munição e acontece depois do disparo. Ela satisfaz uma necessidade normal de recarga surgida nesse ataque, mas não permite disparar com uma arma que já precisava ser recarregada. A Ação de Movimento parcialmente usada não pode pagar o custo com os metros restantes.
+
+> **Nível 11: `Reorientar a Pressão`.** **Uma vez por Sequência**, ao declarar uma Condução diferente com Arma de Fogo, própria ou comum, pode tentar manter uma Oportunidade **já obtida**.
+>
+> Se acertar, mantenha uma Oportunidade até o **fim do próximo turno**. Se errar, perca-a, mesmo usando Persistência. O uso é gasto na declaração. O efeito sustentado da Condução anterior termina normalmente.
+>
+> Supressão ainda não respondida, Queima-Roupa antes de receber a Oportunidade e a possibilidade de Tiro Controlado não são Oportunidades prontas.
+
+> **Nível 19: `Romper o Contato`.** **Reação; consome uma Oportunidade.** Depois que o alvo da Sequência terminar de resolver contra você um ataque ou feitiço que prejudique você, pode mover-se até metade do deslocamento que sua ficha oferece nessa situação, já considerando as reduções. Use esse valor, e não os metros que sobraram de um movimento anterior.
+>
+> A retirada não provoca ataque de oportunidade daquele alvo. Ao terminar um movimento efetivo, pode recarregar a mesma Arma de Fogo, recuperando **um uso de Munição**, até o limite X. A reposição exige munição e capacidade de manusear a arma e integra a mesma Reação.
+>
+> Você pode se retirar com a arma cheia ou sem munição para repor, mas não pode ficar parado e usar a habilidade somente para recarregar. A reposição também resolve a necessidade normal de recarga por X ou pelo gatilho natural.
+>
+> A ofensiva que ativou a retirada já aconteceu. A Oportunidade é consumida e o preparo que poderia produzi-la novamente é encerrado. A Sequência mantém seus acertos e seu prazo.
+>
+> Supressão pode fornecer a Oportunidade pelo ataque recém-resolvido. Queima-Roupa não faz a Oportunidade chegar antes, e Tiro Controlado não permite comprá-la fora da Conclusão. Cada uso exige uma Reação e uma nova Oportunidade válida; não há limite adicional por cena.
+
+> **Nível 27: `Plano de Continuidade`.** **Uma vez por cena**, depois de uma Ruptura em que consumiu Oportunidade, o alvo falhou no TR e você pagou Movimento para **recuperar ao menos um uso de Munição**, escolha um inimigo percebido, o mesmo ou outro.
+>
+> Até o fim do próximo turno, se o próximo Golpe Inicial de Arma de Fogo que abrir uma Sequência for contra ele, comece com **uma Oportunidade**, válida até o fim do turno seguinte ao da abertura.
+>
+> O novo Golpe Inicial mantém sua redução de dano e a Escola. A nova Sequência começa com **zero Conduções**. Sua primeira Condução com Arma de Fogo não apaga a Oportunidade apenas por estabelecer um preparo; as trocas posteriores seguem as regras normais.
+>
+> Abrir contra outro alvo ou com outra categoria abandona o plano. Um erro não concede a Oportunidade nem renova o prazo. O uso da cena é gasto ao preparar a continuidade.
+>
+> A recarga de Romper o Contato não ativa esta habilidade. Permanece proibido abrir outra Sequência no turno em que concluiu.
+
+> **Exemplo.** Depois de Ruptura e recarga por Movimento, escolha outro inimigo. No turno seguinte, um Golpe Inicial acertado começa com Oportunidade; você pode usá-la na execução futura ou gastá-la numa retirada, mas ainda precisa cumprir o preparo da Conclusão.
 
 ### Trilha: Executor
 
-*Você mata o que ninguém consegue matar.*
+*Você anuncia uma execução, recebe a resposta do adversário e decide se aquele ainda será o desfecho.*
 
-> **Nível 2: `Pegada`.** Você escolhe um **estilo de luta**, e ele vale a campanha inteira. *Cada estilo pede um jeito diferente de segurar a arma.*
->
-> **Nível 11: `Aprumo`.** *Ação bônus.* Você ganha **`1d10 + o seu atributo de ataque`** de `vida temporária`, Força ou Destreza, o que a sua ficha usa para bater. **`Metade desse atributo` usos**, e eles voltam no descanso curto.
->
-> **Nível 19: `Revide`.** *Reação.* Quando alguém a até `1,5 m` faz um ataque contra você, **acertando ou errando**, você pode gastar a sua Reação para atacar essa criatura.
->
-> **Nível 27: `Retomada`.** Quando você **erra uma rolagem de ataque**, role de novo e use o segundo resultado. **`Maestria` vezes por dia.**
-
-#### Estilos da `Pegada`
-
-**Estilos da `Pegada`**
+**Habilidades do Executor**
 {: .tab-titulo }
 
-| Estilo | Pede | O que dá |
-|---|---|---|
-| `Duelista` | uma arma numa mão, a outra vazia | `+2` de dano em todo golpe |
-| `Volteio` | arma arremessada | `+2` de dano em todo golpe |
-| `Mão Nua` | punho vazio | `+maestria` de dano no soco |
-| `Couraça` | vestindo `Traje` ou `Revestimento` | `+1` de Defesa |
-| `Arma Grande` | arma de duas mãos | rerrolar `1` e `2` no dado de dano |
+| Nível | Habilidade |
+|---|---|
+| 2 | Finta de Execução e catálogo próprio |
+| 11 | Troca de Intenção |
+| 19 | Dobrar a Aposta |
+| 27 | Duas Intenções |
 
-O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 15, *Equipamento*.
+> **Nível 2: `Finta de Execução`.** **Ação Bônus, uma vez por turno próprio.** Com um ataque corpo a corpo disponível contra o alvo da Sequência, sem ter Conduzido ou Concluído naquele turno, anuncie uma **Conclusão corpo a corpo com TR cujos requisitos já foram cumpridos**. O alvo precisa perceber você.
+>
+> A ameaça ainda não consome a Sequência. Nenhuma rolagem acontece durante essa decisão.
+
+#### Resposta do adversário
+
+> **Não Antecipar.** O alvo mantém seus recursos. Se você confirmar a ameaça, o TR adicional da Conclusão recebe **desvantagem**.
+>
+> **Antecipar.** O alvo gasta sua **Reação** para retirar a desvantagem da Finta daquela ameaça. Ele só pode fazer isso **uma vez em cada Sequência sua**, mesmo que recupere a Reação antes de ela terminar. A Reação não volta se você recuar ou errar.
+
+#### Decisão do Executor
+
+> **Confirmar.** Declare a Conclusão anunciada, consuma a Sequência e resolva o ataque.
+>
+> **Recuar da execução.** Declare uma Condução que você já possa usar, pague seu custo e resolva o ataque como Condução. Ela não recebe a desvantagem da Finta no TR, se houver. A Ação Bônus já foi gasta.
+
+#### Conclusões do Executor
+
+Todas usam um ataque corpo a corpo e exigem **acerto e falha no TR**. Podem ser usadas sem Finta, com seus testes normais.
+
+> **Abalar a Ofensiva.** Sem Condução mínima; **TR de Vigor**. Na falha, o próximo ataque do alvo **com arma ou desarmado** tem desvantagem, até o fim do próximo turno dele.
+>
+> **Desguarnecer.** **Uma Condução acertada; TR Físico.** Na falha, **seu próximo ataque corpo a corpo contra o alvo** tem vantagem, até o fim do seu próximo turno.
+>
+> **Cortar o Gesto.** Sem Condução mínima; **TR de Vigor**. Na falha, a próxima **rolagem de ataque de um feitiço** do alvo tem desvantagem, até o fim do próximo turno dele.
+>
+> **Quebrar a Guarda.** **Uma Condução acertada; TR Físico.** Na falha, o próximo **Bloquear contra um ataque corpo a corpo seu** tem desvantagem, até o fim do seu próximo turno. Compare dois conjuntos completos de Bloquear e mantenha o menos favorável ao defensor.
+
+Cada efeito vale para a primeira tentativa que cumpra essas condições, mesmo quando ela já tiver o mesmo modificador. Desguarnecer e Quebrar a Guarda não afetam o ataque que os aplicou.
+
+Rasteira, Desarme e Quebrar o Ritmo permanecem disponíveis pelos requisitos comuns. Ponto Fraco não participa da Finta porque não exige TR.
+
+> **Nível 11: `Troca de Intenção`.** Depois da resposta à Finta, pode escolher **outra Conclusão corpo a corpo com TR**, diferente e cujos requisitos já tenham sido cumpridos.
+>
+> A alternativa usa seu **TR normal, sem a desvantagem da Finta**. A Antecipação não pode ser redirecionada. Finalize a escolha antes dos dados.
+
+> **Nível 19: `Dobrar a Aposta`.** **Uma vez por cena**, depois de o alvo Antecipar, pode insistir na mesma Conclusão e manter a **desvantagem da Finta no TR**.
+>
+> O adversário precisa já poder realizar um ataque corpo a corpo contra você, dentro do alcance e das demais condições do ataque. Se sua execução errar ou ele passar no TR, pode realizar **um ataque corpo a corpo contra você como parte da Reação já gasta**.
+>
+> O contra-ataque ainda precisa poder ser realizado; não leva feitiço, não cumpre etapa de Sequência nem desencadeia outros ataques. O uso por cena é gasto na declaração.
+>
+> **Dobrar a Aposta não combina com Conclusão Dupla.**
+
+> **Nível 27: `Duas Intenções`.** **Uma vez por cena**, anuncie **duas Conclusões diferentes cujos requisitos já foram cumpridos** ao iniciar a Finta.
+>
+> Se o alvo Antecipar, escolhe uma para proteger. Depois, escolha **uma** para executar: a protegida tem TR normal, salvo Dobrar a Aposta; a não protegida mantém a desvantagem da Finta. Sem Antecipação, qualquer das duas escolhida recebe a desvantagem.
+>
+> Você ainda pode recuar para uma Condução ou usar Troca de Intenção para uma terceira alternativa com TR normal. O uso por cena é gasto no anúncio, mesmo se recuar.
+
+#### Finta e Conclusão Dupla
+
+A Finta modifica **apenas uma** das Conclusões da Dupla. A outra fica fixada e informada antes da resposta. Duas Intenções oferece alternativas para aquele único lugar; elas devem ser diferentes da segunda Conclusão fixa.
+
+Recuar para Condução não gasta o uso de Dupla. Confirmar gasta o uso mesmo no erro ou na resistência. Todos os TRs são resolvidos antes dos novos efeitos, sem usar uma condição recém-aplicada para prejudicar outro teste do mesmo ataque.
 
 ## Guia
 
-*O outro é a resposta: estender, recuperar, reposicionar.*
+*Coordenador de Aberturas. Você percebe o momento que outra pessoa pode aproveitar. Às vezes, é a passagem para alcançar uma posição; em outras, a oportunidade de executar uma ação importante ou atravessar uma resposta inimiga. Você prepara o auxílio. O aliado decide quando usá-lo.*
 
 ### Características do Guia
 
@@ -375,66 +742,336 @@ O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 15, 
 
 > **Nenhuma rota dá ataque extra ao Guia.** Quem quiser lutar de Guia paga pela técnica, como todo mundo.
 
+Escolha uma Trilha no nível 2: **Arquiteto, Analista ou Socorrista**. Você recebe suas habilidades nos níveis 2, 11, 19 e 27.
+
 ### Degraus do Guia
 
-> **Nível 2: `Guiar`.** Quando um aliado que você enxerga falha num teste, some **`metade da sua Essência`** ao resultado dele, transformando aquilo num sucesso possível. **Ação livre, uma vez por rodada.**
->
-> **Nível 7: `Mão na Roda`.** A ação **`Ajudar` passa a ser ação bônus para você.**
-> **E quando você usa o `Guiar` num aliado, ele pode, como uma reação, dar um golpe simples ou um feitiço de Classe 0 no uso.** Uma vez por rodada.
->
-> **Nível 15: `Puxar a Linha`.** *Ação bônus.* Um aliado que você enxerga a até 9 m **se move até o deslocamento inteiro dele, sem provocar ataque de oportunidade.**
->
-> **Nível 30: `Ninguém Cai`.** *Reação.* Quando um aliado que você enxerga chegaria a 0 de vida, **ele fica com `1`** e **o dano excedente é anulado.**
+**Habilidades do Guia**
+{: .tab-titulo }
 
-### Trilha: Elo
+| Nível | Habilidade | O que muda |
+|---|---|---|
+| 2 | Abrir Caminho | Prepara uma oportunidade para um aliado. |
+| 7 | Resposta Coordenada | Converte o uso da oportunidade numa resposta imediata da equipe. |
+| 15 | Reajustar o Plano | Muda uma oportunidade que ainda não foi usada. |
+| 23 | Passar a Oportunidade | Depois do primeiro uso, outro aliado recebe uma abertura diferente. |
+| 30 | Todos no Mesmo Plano | Coordena uma cadeia de três aliados e duas respostas imediatas. |
 
-*O que outra pessoa fez chega mais longe, dura mais e pega mais gente do que ela conseguiria sozinha.*
+> **Nível 2: `Abrir Caminho`.** **Ação Bônus, 1 PE, uma vez por turno seu.** Escolha um aliado voluntário que você perceba a até **18 m** e que consiga ver ou ouvir sua orientação.
+>
+> Prepare uma **Abertura de Avançar, Executar ou Resguardar**, indicando a posição, o alvo ou a situação a que ela se refere. O aliado guarda a oportunidade e decide quando aproveitá-la.
+>
+> A Abertura dura até o começo do seu próximo turno. Você mantém uma por vez; criar outra substitui a anterior. Uma criatura também só guarda uma Abertura de cada vez, mesmo que haja mais de um Guia.
+>
+> Você entrega suas Aberturas aos companheiros, não a si mesmo. A orientação pode ser uma fala, um gesto ou um sinal combinado que o aliado consiga perceber.
 
-> **Nível 2: `Nó`.** **Ação Bônus.** Escolha um aliado **que você enxerga**: vocês dois formam um **elo**. Ao formar, escolha **ataques de arma** ou **ataques de feitiço**, enquanto o elo durar, **os dois membros ganham `+1` de acerto** naquele tipo de ataque.
-> **O elo dura até você formar outro**, e **não se quebra por distância**.
->
-> **Nível 11: `Repasse`.** **Reação.** Quando um membro do elo — ou um aliado, veja a seguir — falha num Teste de Resistência, ele **rerrola** e fica com o segundo resultado.
-> **Na mesma Reação você pode gastar `3` PE para passar o elo** para alguém que não esteja nele, dando o rerrolar a quem acabou de entrar, em vez de ao alvo antigo.
->
-> **Nível 19: `Partilha`.** Quando um membro do elo recebe cura, **você reparte o total entre os membros como quiser.** *O total continua o mesmo. O que você escolhe é o destino dele.*
->
-> **Nível 27: `Trança`.** O elo passa a aceitar um **terceiro membro**.
-> **E `1×` por cena** você pode passar até a sua **Essência em PE** para alguém do elo, consumindo o seu próprio PE.
+#### Avançar
 
-### Trilha: Sutura
+Indique um espaço livre que o aliado possa alcançar com **até 3 m de movimento** e, se houver, uma ameaça que você perceba.
 
-*O dano que já aconteceu não é definitivo enquanto você estiver na sala.*
+O aliado pode consumir a Abertura para se mover até **3 m em direção ao espaço indicado**. Esse trecho não provoca ataque de oportunidade da ameaça escolhida. O trajeto respeita terreno e impedimentos.
 
-> **Nível 2: `Agulha`.** Você ganha a aptidão **`Energia Reversa`** **sem os requisitos de nível e de refino**. *Por uso, você não pode gastar mais que metade da sua **Essência** ou **Inteligência** em PE — é a aptidão que faz você deixar de sofrer essa metade.*
-> Se você é um **Sem Técnica** e já ganhou a aptidão, você passa a poder gastar **`1` PE** a mais para ganhar **um dado a mais** de cura.
->
-> **Nível 11: `Enxerto`.** A sua `Energia Reversa` passa a **curar os outros**, e o teto por uso sobe para **`a sua maestria`** em PE.
-> **E o mesmo uso pode tirar uma condição:** gaste **`1` PE por nível da condição**, e ele sai do mesmo teto da cura. *Condição sem nível declarado conta como nível 1.*
-> Se você destravar a aptidão `Energia Reversa`, você perde o malefício e passa a seguir as regras da aptidão.
->
-> **Nível 19: `Pulso`.** Some o seu **modificador de Essência** em toda rolagem de cura sua. *Vale também para cura que venha da sua técnica, e não só da `Energia Reversa`.*
->
-> **Nível 27: `Cerzido`.** O teto por uso vai a **`a sua maior Classe`** em PE, e você **rerrola `1` e `2`** em todos os seus dados de cura, ficando com o segundo resultado.
+No turno dele, esse movimento não exige outra ação e pode acontecer antes ou depois de uma ação. Fora do turno, ele gasta sua **Reação**, depois que uma ação ou um deslocamento terminar de ser resolvido.
 
-> **`Energia Reversa` não cura dano de alma.** Nenhum degrau desta Trilha alcança isso.
+#### Executar
 
-### Trilha: Perímetro
+Indique **uma criatura ou objeto para atacar**, ou **uma tarefa com perícia identificada**.
 
-*Você escolhe onde todo mundo está.*
+Antes de uma tentativa correspondente, o aliado pode consumir a Abertura para fazer **uma rolagem de ataque ou de perícia com vantagem**. A escolha vale para aquela tentativa, acertando ou falhando.
 
-> **Nível 2: `Chão`.** Você tem uma área de **`9 m` a partir de você**, e ela anda com você.
-> **`1×` por rodada**, você pode forçar um inimigo dentro dela a **rerrolar um Teste de Resistência e ficar com o pior resultado**. *Você declara antes de o resultado ser dito.*
+#### Resguardar
+
+Indique **uma ameaça percebida**, como um inimigo ou um perigo do ambiente.
+
+Antes de realizar um **Teste de Resistência provocado por essa ameaça**, o aliado pode consumir a Abertura para fazê-lo com vantagem. Isso também pode ajudar a manter concentração quando o teste for provocado pela ameaça indicada.
+
+#### Fora de combate
+
+A orientação dura **um minuto para iniciar a tentativa combinada**. Se a iniciativa começar antes do uso, a Abertura expira no começo do primeiro turno do Guia. Preparar Executar ajuda a tentativa do aliado; não substitui a ação que ele precisa realizar.
+
+> **Exemplo.** Você indica uma passagem para que um aliado alcance a cobertura. Ele pode avançar no próprio turno, preservando sua Reação, ou usá-la para se mover depois de uma ação inimiga, se a urgência justificar.
+
+> **Nível 7: `Resposta Coordenada`.** **Reação, uma vez por rodada.** Depois que um aliado consumir sua Abertura, termine de resolver a ação, o movimento ou o efeito em que ela foi usada.
 >
-> **Nível 11: `Sentinela`.** **Reação.** Quando um inimigo dentro do `Chão` **erra** um ataque, um aliado que você enxerga dá **um golpe simples com vantagem** nele, como **Ação Livre**.
+> Você pode então convidar esse aliado ou **outro aliado voluntário a até 18 m**, que você perceba e que consiga receber sua orientação, a responder imediatamente.
 >
-> **Nível 19: `Encalço`.** **Ação Bônus.** Escolha um alvo do `Chão` para receber o efeito de **encalço**. **`1×` por rodada**, ele leva **`−1d6`** numa perícia ou num Teste de Resistência.
-> **Ele dura até o fim da cena**, e você só tem **um alvo no encalço de cada vez**: pôr outro tira o primeiro.
+> Se ele aceitar, vocês dois gastam suas **Reações**. O aliado escolhe uma das respostas da tabela **Respostas coordenadas**.
+
+**Respostas coordenadas**
+{: .tab-titulo }
+
+| Resposta | O que ele realiza |
+|---|---|
+| Golpe | Um ataque com arma ou desarmado contra um alvo que ele possa atingir. |
+| Feitiço breve | Um feitiço conhecido de **Classe 0** que normalmente use Ação Padrão, com as condições e os custos normais. |
+
+A resposta acontece mesmo se a tentativa apoiada tiver falhado. O aliado escolhe seu alvo e como agir. Se ele já gastou sua Reação para Avançar, outra pessoa ainda pode aceitar o convite.
+
+O golpe é um ataque comum, e não uma Ação Atacar ou etapa de Sequência. A resposta não desencadeia outra ação concedida. A conjuração de Classe 0 continua respeitando o limite geral de feitiços por turno.
+
+Resposta Coordenada é usada em combate. O limite por rodada destas habilidades conta do início de um turno do Guia até o início do seguinte.
+
+#### Leitura de Equipe
+
+Escolha **duas perícias em que seja proficiente** entre Percepção, Intuição, Investigação, Medicina, Ocultismo e História. Uma vez por cena, ao usar **Estudar, Vasculhar ou Ler o Ambiente** com uma delas, faça o teste com vantagem.
+
+> **Exemplo.** O Vanguarda aproveita Executar no ataque de uma Condução que ele já podia realizar. Depois de resolver esse ataque, você oferece ao Emanador uma resposta de Classe 0. Cada personagem usa a própria ficha; você abre o momento de colaboração.
+
+> **Nível 15: `Reajustar o Plano`.** **Reação.** Enquanto sua Abertura estiver guardada, você pode mudar **quem recebe a ajuda, o tipo e o alvo, posição ou ameaça indicados**, respeitando as condições de Abrir Caminho.
 >
-> **Nível 27: `Portão`.** A `Sentinela` passa a disparar **quando o ataque do inimigo acerta também**, e **quando um alvo sai do `Chão` por movimento voluntário**.
+> Faça a mudança entre acontecimentos ou depois que uma ação for declarada, **antes das rolagens relacionadas a ela**. A Abertura mantém o prazo original, sem novo gasto de PE.
+>
+> Isso permite transformar uma tentativa planejada em uma saída de emergência, ou entregar a oportunidade a quem realmente ficou em condições de aproveitá-la. Uma Abertura já consumida não pode ser recuperada por esse reajuste.
+
+> **Exemplo.** Você preparou Executar para uma arqueira, mas um inimigo anuncia um feitiço contra outro aliado. Antes dos testes, gasta sua Reação para entregar a ele Resguardar contra aquele inimigo. Você abriu mão da Reação que poderia usar em Resposta Coordenada.
+
+> **Nível 23: `Passar a Oportunidade`.** Depois que um aliado consumir sua Abertura e todas as respostas imediatas forem resolvidas, você pode entregar **uma segunda Abertura**, sem ação ou PE adicionais.
+>
+> Escolha **outro aliado voluntário a até 18 m**, que você perceba e que consiga receber sua orientação, e **um tipo diferente do já utilizado**. Indique o novo alvo, posição ou ameaça normalmente.
+>
+> Essa é a continuação da mesma oportunidade: mantém o prazo original e pode passar apenas uma vez. Há somente uma Abertura guardada por vez.
+>
+> Nas cadeias, cada aliado só aproveita uma Abertura e cada tipo só é utilizado uma vez. Reajustar o Plano pode mudar a parte ainda guardada, mas não repetir um aliado ou tipo já utilizado. Criar uma nova Abertura por Abrir Caminho encerra a cadeia anterior.
+>
+> Resposta Coordenada mantém seu limite de uma vez por rodada; passar a oportunidade não o renova.
+
+> **Exemplo.** Um aliado usa Avançar para alcançar uma posição. Depois das respostas imediatas, você passa Executar para outro, que guarda a oportunidade para uma tentativa importante. Se o prazo acabar antes, a segunda abertura se perde.
+
+> **Nível 30: `Todos no Mesmo Plano`.** **Uma vez por cena**, ao usar Abrir Caminho, declare um plano conjunto.
+>
+> Essa Abertura pode passar por **até três aliados diferentes**, utilizando **Avançar, Executar e Resguardar uma vez cada**, na ordem que você construir durante a cadeia. O prazo continua sendo o da Abertura inicial.
+>
+> Durante essa cadeia, você pode oferecer **Resposta Coordenada até duas vezes**, respeitando estas condições:
+>
+> - A primeira exige sua Reação normalmente; a segunda dispensa somente a sua Reação.
+> - Os aliados continuam gastando as próprias Reações, e uma mesma criatura não pode realizar as duas respostas.
+> - O limite total naquela rodada passa a ser duas respostas.
+>
+> Reajustar o Plano continua disponível quando você tiver Reação. Se gastá-la antes da primeira Resposta Coordenada, ainda precisará recuperá-la normalmente para começar as respostas do plano.
+>
+> O uso por cena é gasto quando você anuncia o plano, mesmo se a cadeia não for concluída.
+
+> **Exemplo.** Uma aliada Avança e a equipe aproveita uma primeira resposta. A oportunidade passa para outro aliado Executar uma tentativa; você oferece a segunda resposta a uma pessoa diferente. Por fim, Resguardar fica com um terceiro aliado para atravessar a reação inimiga. Uma oportunidade circula; os participantes não recebem os três efeitos ao mesmo tempo.
+
+#### Usando as Trilhas com as Aberturas
+
+Os custos das Trilhas se somam aos de Abrir Caminho, exceto a criação de Obras de Apoio: o preço da construção já inclui a Abertura. Quando alguém usa a Abertura, termine de resolver a ação ou o efeito em andamento. Resolva então a ajuda da Trilha, a possível Resposta Coordenada e, por último, Passar a Oportunidade. Uma intervenção que diga para acontecer antes dos dados ou das consequências acontece naquele momento.
+
+Cada habilidade mantém seu custo de ação ou Reação. As cadeias mantêm os limites de tipos, participantes, prazo e Respostas Coordenadas. Gastar uma Abertura de outra maneira também consome o tipo escolhido.
+
+### Trilha: Arquiteto
+
+*Você constrói passagens, apoios e abrigos. O grupo escolhe quando usá-los, e você decide o que manter, consertar ou levar para outro lugar.*
+
+> **Nível 2: `Obras de Apoio`.** Escolha **Inteligência ou Essência** ao receber esta Trilha. Use sempre esse atributo nas contas de suas obras; para essas contas, valores menores que 1 contam como 1.
+>
+> Ao usar Abrir Caminho, você pode criar uma obra temporária num local livre que enxergue a até 9 m. Criar a obra e preparar a Abertura custa 2 PE ao todo, com a mesma Ação Bônus. A obra surge antes de você indicar a posição ou ameaça da Abertura.
+
+**Obras de Apoio**
+{: .tab-titulo }
+
+| Característica | Valor |
+|---|---|
+| Obras ao mesmo tempo | 2 + metade do atributo escolhido, arredondada para baixo. |
+| Duração de cada obra | 10 minutos × atributo escolhido. |
+| Vida de cada obra | 10 + seu nível + 5 × atributo escolhido. |
+| Defesa | 10 + sua maestria. |
+| Peso suportado pela Passarela ou pelo Patamar | 100 kg × atributo escolhido, contando tudo que estiver sobre a obra. |
+
+Calcule vida, duração e peso ao criar a obra, usando o nível do personagem. Anote esses valores na ficha, junto do limite de obras, para não refazer as contas a cada uso.
+
+#### Modelos de construção
+
+**Modelos de construção**
+{: .tab-titulo }
+
+| Obra | Tamanho e uso |
+|---|---|
+| **Mureta** | Até 1,5 m de largura e 1 m de altura. Dá Cobertura Parcial a quem estiver protegido por ela contra algo que venha do outro lado. |
+| **Passarela** | Até 3 m de comprimento e 1,5 m de largura. Serve de ponte ou rampa entre dois apoios firmes, com diferença de altura de até 1,5 m. |
+| **Patamar** | Plataforma de até 1,5 m por 1,5 m, com até 1,5 m de altura, degraus de acesso e apoio no chão. |
+
+A construção precisa caber no local. Ela não pode surgir prendendo, empurrando ou levantando alguém. Qualquer criatura pode usar a obra ou tentar destruí-la.
+
+A obra desaparece quando sua duração termina ou sua vida chega a zero. Ao atingir o limite de obras, para criar outra desfaça uma anterior que não esteja sustentando ou protegendo ninguém. Se o limite diminuir, escolha obras nessas condições para encerrar assim que possível; enquanto estiver acima do novo limite, não crie outras.
+
+#### Aberturas junto das obras
+
+Ao entregar uma Abertura, você pode ligá-la a uma obra sua. Para as habilidades seguintes, **usar a obra** significa atravessar a Passarela, estar sobre o Patamar ou aproveitar a cobertura da Mureta contra a ameaça indicada. Apenas ficar perto não basta.
+
+A duração da obra não muda o prazo da Abertura.
+
+> **Exemplo.** No nível 11, com Inteligência 4, você mantém até quatro obras. Cada uma tem 41 de vida e dura 40 minutos; uma Passarela ou um Patamar suporta 400 kg.
+
+> **Nível 11: `Obra em Uso`.** **Uma vez por rodada**, depois que um aliado aproveitar sua Abertura usando a obra ligada a ela, escolha uma opção, sem outra ação:
+>
+> **Consertar.** Pague metade do custo de construir a versão atual da obra: 1 PE para Básica, 3 PE para Ampliada ou 5 PE para Grande. Ela recupera até 5 × o atributo escolhido de vida, sem ultrapassar a vida inicial. O conserto mantém o prazo da obra.
+>
+> **Mudar de lugar.** Uma obra que não esteja sustentando ou protegendo ninguém reaparece num local livre que você enxergue a até **9 m**. Você pode mudar seu modelo. Ela conserva a vida restante, o tamanho que já foi pago e o prazo.
+>
+> **Ampliar.** Pague para aumentar uma obra existente conforme a tabela **Obras maiores**. O espaço adicional precisa estar livre. A obra conserva a vida restante e o prazo.
+
+#### Obras maiores
+
+Ao criar uma obra ou escolher Ampliar, você pode pagar por uma das duas versões maiores. O custo da tabela **Obras maiores** é adicional aos **2 PE da obra básica**.
+
+**Obras maiores**
+{: .tab-titulo }
+
+| Obra | Básica | +4 PE — Ampliada | +8 PE — Grande |
+|---|---|---|---|
+| **Mureta** | 1,5 m de largura × 1 m de altura; Cobertura Parcial. | 3 m de largura × 1,5 m de altura; Boa Cobertura. | Parede de 4,5 m de largura × 3 m de altura; Cobertura Total quando esconder completamente a criatura. |
+| **Passarela** | 3 m de comprimento × 1,5 m de largura; diferença de altura de até 1,5 m. | 6 m de comprimento × 1,5 m de largura; diferença de altura de até 3 m. | 9 m de comprimento × 3 m de largura; diferença de altura de até 4,5 m. |
+| **Patamar** | 1,5 m × 1,5 m; altura de até 1,5 m. | 3 m × 3 m; altura de até 3 m. | 4,5 m × 4,5 m; altura de até 4,5 m. |
+
+Para passar de Ampliada para Grande, pague apenas a diferença de **4 PE**. Mudar o modelo não devolve PE. A obra mantém os limites de vida e peso do nível 2, mesmo nas versões maiores.
+
+A parede é sólida para os dois lados. A cobertura depende da posição de quem ataca e de quem se protege; sair de trás dela pode expor a criatura. Ela também pode bloquear a visão e os disparos dos aliados.
+
+As obras maiores continuam sendo criadas a até **9 m** de você. Aumentar uma passagem não aumenta os 3 m concedidos por Avançar.
+
+**Custos finais de criação:** Básica, 2 PE; Ampliada, 6 PE; Grande, 10 PE. Esses preços já incluem a Abertura. Usar Abrir Caminho sem criar uma obra continua custando 1 PE.
+
+> **Nível 19: `Obra de Emergência`.** **Uma vez por cena, Reação e 2 PE.** Depois que uma obra sua for destruída ou que um aliado com sua Abertura terminar um movimento provocado por outra criatura, crie uma nova obra.
+>
+> Ela deve ficar a até **3 m da obra destruída ou da posição final do aliado**, e a até **9 m de você**. Cumpra as condições de construção e seu limite de obras.
+>
+> A nova obra começa com a vida completa e a duração de Obras de Apoio. Você pode criar uma versão maior pagando os **4 ou 8 PE adicionais**; o investimento da obra destruída não passa para a nova.
+>
+> Resolva primeiro o ataque, a queda ou o movimento que provocou a emergência. Se ainda houver uma Abertura ligada à obra anterior, pode ligá-la à nova, mantendo tipo, aliado, alvo ou ameaça indicados e prazo. Isso também permite salvar a Abertura deixada numa obra por Plano Construído.
+
+> **Nível 27: `Plano Construído`.** **Uma vez por cena**, ao usar Abrir Caminho, você pode deixar a Abertura **em uma obra sua**, em vez de escolher imediatamente quem a recebe. Escolha o tipo e indique o alvo, posição ou ameaça normalmente.
+>
+> Um aliado voluntário que use essa obra pode assumir e gastar a Abertura no momento apropriado. Ele precisa estar a até **18 m de você**, ser percebido por você e conseguir ver ou ouvir sua orientação. As distâncias e condições da Abertura continuam valendo.
+>
+> Com Passar a Oportunidade, pode deixar a próxima Abertura em outra obra, escolhendo um tipo ainda não usado. Com Todos no Mesmo Plano, isso pode alcançar três participantes.
+>
+> Existe apenas uma Abertura disponível de cada vez, com o prazo inicial. Se a obra for destruída, a Abertura se perde, salvo Obra de Emergência.
+
+### Trilha: Analista
+
+*Você observa a resposta do inimigo. O aliado pode aproveitar a orientação agora ou esperar uma leitura confirmada para agir com mais segurança.*
+
+> **Nível 2: `Ler a Resposta`.** Ao preparar uma Abertura ligada a um inimigo que perceba a até **18 m**, escolha o que espera vê-lo fazer: **atacar com arma ou desarmado, conjurar um feitiço, usar Bloquear ou mover-se por vontade própria**.
+>
+> A previsão acompanha a Abertura. Se você perceber essa ação enquanto o inimigo estiver a até 18 m, a leitura fica **confirmada depois que a ação terminar**.
+>
+> O aliado pode usar a Abertura normalmente antes disso. Depois da confirmação, recebe outra maneira de aproveitá-la, pela tabela **Leitura confirmada**.
+
+**Leitura confirmada**
+{: .tab-titulo }
+
+| Abertura | Escolha depois da confirmação |
+|---|---|
+| **Avançar** | Usar o movimento fora do próprio turno sem gastar Reação, depois que uma ação ou um deslocamento terminar. |
+| **Executar** | Em vez de vantagem, guardar a Abertura para repetir um ataque ou teste de perícia que acabou de falhar, ligado à referência indicada. |
+| **Resguardar** | Em vez de vantagem, guardar a Abertura para repetir um TR que acabou de falhar contra a ameaça indicada. |
+
+Gaste a Abertura depois de saber que falhou e antes das consequências. Use o novo resultado e o mesmo procedimento da primeira tentativa, incluindo vantagem ou desvantagem que venha de outra fonte. A mesma rolagem só pode ser repetida uma vez por esta habilidade.
+
+Cada parte repassada começa com uma nova previsão, salvo **Padrão Decifrado**. Reajustar o Plano mantém a leitura se continuar tratando do mesmo inimigo; trocar de inimigo exige outra previsão e perde a confirmação anterior.
+
+A ação que confirmou a leitura já terminou. A confirmação ajuda apenas nas tentativas seguintes, dentro do prazo da Abertura.
+
+> **Nível 11: `Apontar a Brecha`.** Uma Abertura de **Executar confirmada** também pode ajudar uma ação do aliado que obrigue o inimigo observado a fazer um TR.
+>
+> Se ele **passar no primeiro TR dessa ação contra ele**, antes de aplicar as consequências, você pode pagar **3 PE** e o aliado gastar a Abertura para que o inimigo repita aquele teste.
+>
+> Use o novo resultado e o mesmo procedimento do primeiro teste, com as vantagens e desvantagens que já existiam. Esta habilidade não repete um teste que já tenha sido repetido.
+>
+> Essa escolha substitui a vantagem ou a repetição de ataque ou perícia de Executar. Vale somente para o inimigo observado e para aquele primeiro TR. Os demais alvos ou testes da ação seguem normalmente.
+>
+> Se o inimigo falhar na primeira tentativa, não é necessário gastar PE ou Abertura nesta opção. Não é preciso usar Reação para Apontar a Brecha.
+
+> **Exemplo.** Um aliado lança um feitiço contra o inimigo observado. O inimigo passa no primeiro TR. O aliado aceita gastar Executar, você paga 3 PE e o teste é repetido. Você apoiou a aplicação escolhida por ele, sem alterar o feitiço.
+
+> **Nível 19: `Rever a Leitura`.** **Reação e 1 PE.** Enquanto a Abertura ainda estiver guardada, se o inimigo terminar uma das ações da lista de previsão diferente da que você escolheu, pode reconhecer essa resposta como a confirmação que faltava.
+>
+> A Abertura fica confirmada a partir desse momento. Ela mantém o tipo, o aliado, o alvo ou ameaça indicados e o prazo.
+>
+> Você precisa perceber o inimigo a até **18 m**. Os resultados da ação que acabou de acontecer permanecem; a nova leitura ajuda apenas nas tentativas seguintes.
+
+> **Nível 27: `Padrão Decifrado`.** **Uma vez por cena**, quando uma leitura sua for confirmada, você pode guardar o padrão daquele inimigo **até o começo do seu terceiro turno seguinte**. Uma confirmação obtida por Rever a Leitura também serve.
+>
+> Durante esse prazo, as Aberturas que você preparar ou repassar contra esse mesmo inimigo **já chegam confirmadas**, desde que você o perceba a até **18 m** ao entregar a orientação.
+>
+> Isso vale para novas Aberturas em seus próximos turnos, não apenas para a cadeia atual. Cada uma mantém seu próprio prazo e os limites normais de participantes, tipos e Resposta Coordenada.
+>
+> Trocar o plano para outro inimigo exige uma previsão normal contra ele. O padrão guardado não muda de alvo nem tem seu prazo renovado por novas confirmações.
+
+> **Exemplo.** Você confirma a leitura depois de ver o inimigo conjurar. Nos dois próximos turnos seus, pode preparar novas orientações contra ele já confirmadas, mesmo que ele ainda não tenha repetido aquela ação.
+
+### Trilha: Socorrista
+
+*Você prepara o cuidado junto da oportunidade de agir. O aliado pode seguir o plano ou abrir mão dele para receber ajuda antes.*
+
+> **Nível 2: `Cuidado Preparado`.** Escolha **Inteligência ou Essência** ao receber esta Trilha. Use sempre esse atributo nas curas abaixo; para essas contas, valores menores que 1 contam como 1.
+>
+> Ao entregar uma Abertura a um aliado com **pelo menos 1 ponto de vida e menos da metade de sua vida máxima atual**, você pode pagar **2 PE adicionais** para incluir um **Cuidado**. Ao passar a oportunidade, pode pagar por outro Cuidado para o novo aliado, seguindo a mesma condição.
+>
+> Depois que o aliado usar a Abertura e terminar a ação ou o efeito correspondente, ele recupera **1d8 + o atributo escolhido de vida**, se ainda estiver nessa faixa de vida.
+>
+> A cura pode ultrapassar a metade, até a vida máxima. O limite de metade determina quem pode receber essa cura; não corta o resultado dos dados.
+>
+> O Cuidado acompanha a Abertura e seu prazo. Reajustar o Plano pode levá-lo a outro aliado que cumpra as condições para receber o atendimento. Se a nova pessoa não puder recebê-lo, a Abertura continua funcionando, mas perde o Cuidado. O custo pago não retorna.
+
+#### Receber o socorro antes
+
+O aliado pode desistir do efeito da Abertura e gastá-la **somente para receber o Cuidado**, desde que ainda cumpra as condições do atendimento escolhido.
+
+No próprio turno, faça isso entre ações, sem outra ação. Fora do turno, ele gasta sua **Reação**, depois que uma ação ou efeito terminar.
+
+A Abertura fica gasta, incluindo seu tipo para os limites da cadeia. Resposta Coordenada e Passar a Oportunidade podem acontecer normalmente depois do socorro, se seus custos puderem ser pagos.
+
+Se o aliado sair da faixa de vida enquanto a Abertura estiver guardada, pode conservá-la até o prazo. Ao usá-la, confira novamente as condições do Cuidado; a Abertura continua funcionando mesmo quando não houver cura.
+
+> **Exemplo.** Um aliado com 45 de vida, de um máximo atual de 100 pode receber o Cuidado. Se recuperar 10, fica com 55. Nesse estado, já não pode receber outra cura comum por esta habilidade.
+
+> **Nível 11: `Tratar e Retomar`.** Ao receber um Cuidado, o aliado pode escolher retirar **uma condição Leve**, em vez de recuperar vida.
+>
+> O tratamento pode ser preparado e recebido por um aliado com pelo menos 1 de vida, **mesmo que não esteja abaixo da metade**, desde que ele tenha uma condição Leve que possa ser tratada. A exigência de estar ferido continua valendo para a opção de cura.
+>
+> A condição precisa vir de um inimigo ou perigo, e não de uma Restrição escolhida para pagar um feitiço ou habilidade. Trate um dos efeitos que impõem a condição; outra causa ainda presente pode aplicá-la novamente.
+
+**Condições tratadas**
+{: .tab-titulo }
+
+| Condição Leve | Como o tratamento a encerra |
+|---|---|
+| **Lento, Surdo ou Incapacitado** | Encerra o efeito escolhido que estava impondo a condição. |
+| **Derrubado** | O aliado se levanta no próprio espaço, sem gastar movimento. |
+| **Agarrado** | Encerra um agarrão que estava prendendo o aliado. |
+| **Desarmado** | O aliado pode pegar uma arma ao alcance da mão ou sacar outra que carregue e consiga empunhar, como parte do atendimento. |
+
+Em Desarmado, é necessário que exista uma arma disponível: o tratamento não recupera uma arma distante ou empunhada pelo inimigo.
+
+A escolha também vale quando o aliado abandona a Abertura para receber o socorro antes. Cura e retirada de condição continuam sendo alternativas do mesmo Cuidado.
+
+> **Nível 19: `Ainda Há Tempo`.** **Uma vez por cena, Reação e 2 PE adicionais.** Quando um aliado com um Cuidado seu ainda disponível for reduzido a **zero de vida**, você pode ativar imediatamente a cura de emergência.
+>
+> Você precisa perceber o aliado a até **18 m**. Ele deve continuar vivo e poder recuperar vida. A ajuda não exige que ele veja, ouça ou reaja.
+>
+> Consuma a Abertura e o Cuidado. Role **um d8 para cada dois pontos do atributo escolhido, arredondando para baixo, com mínimo de um dado**, e acrescente o atributo ao resultado.
+>
+> Essa é a cura completa da emergência, no lugar de 1d8 + atributo. Se a Abertura já tiver sido usada na tentativa em que ele caiu, ative apenas o Cuidado ainda não resolvido; não há um segundo consumo da Abertura.
+>
+> Resolva primeiro o dano e os efeitos do golpe. Neste uso, o aliado recupera vida em vez de retirar uma condição.
+
+> **Exemplo.** Com Essência 6, a cura de emergência é **3d8 + 6**. É preciso que o Cuidado já estivesse preparado antes do golpe.
+
+> **Nível 27: `Atendimento em Cadeia`.** **Uma vez por cena**, ao pagar os 2 PE de Cuidado Preparado em Abrir Caminho, você pode estender o atendimento à cadeia inteira.
+>
+> As Aberturas seguintes passadas por Passar a Oportunidade ou Todos no Mesmo Plano também recebem um Cuidado, **sem repetir o custo de 2 PE**, quando o novo aliado cumprir as condições para receber cura ou tratamento. Quem não precisa do Cuidado ainda pode receber a Abertura normalmente.
+>
+> Cada aliado recebe apenas um Cuidado dessa cadeia. Cada pessoa escolhe entre recuperar vida, usar Tratar e Retomar ou abandonar o efeito da Abertura para receber o socorro antes.
+>
+> Ainda Há Tempo mantém seu limite de uma vez por cena, a Reação e os 2 PE adicionais. O atendimento em cadeia não amplia esses usos.
+>
+> Cada Cuidado termina com a parte da Abertura que acompanha. Criar outra Abertura por Abrir Caminho encerra o atendimento anterior.
 
 ## Emanador
 
-*A técnica é a resposta: mais feitiço, e um jeito mais barato de pagar por ele.*
+*Você conhece sua técnica como poucos. Seus feitiços são aplicações que podem ser adaptadas, praticadas e recombinadas. O Emanador pode lutar de perto ou de longe: o que o distingue é a liberdade para explorar o próprio Fundamento.*
 
 ### Características do Emanador
 
@@ -450,150 +1087,339 @@ O `Traje` e o `Revestimento` são as duas formas de proteção do capítulo 15, 
 | **Perícias à sua escolha** | 5, de qualquer uma da lista de perícias do sistema. Duas delas podem virar treino em **uma arma** da lista — não a categoria e não o tipo, uma arma |
 | **Ofícios** | nenhum. Os dois vêm da sua Origem |
 | **Teste de Resistência** | 1 treinado, à sua escolha. A sua Origem treina o outro |
-| **Treino de arma** | **Arma de Fogo** e **Balestra**, as duas que não pedem treino de verdade |
+| **Treino de arma** | **Arma de Fogo** e **Balestra**, as duas que não pedem treino de verdade. O Condutor Armado acrescenta o grupo escolhido |
 
 *Perícia, ofício e Teste de Resistência entram na ficha uma vez, na criação. O quadro completo das vinte e três perícias e dos onze ofícios está no capítulo 3, __Perícias e Ofícios__.*
 
 *O Caminho treina você nessa lista de armas; ele não te dá a arma. O que você leva na mão você compra na criação, e as tabelas de `Preços` estão no capítulo 15, __Equipamento__.*
+
+Escolha uma Trilha no nível 2: **Condutor Armado, Ressonante ou Catalisador**. Suas entregas chegam nos níveis 2, 11, 19 e 27.
 
 ### Degraus do Emanador
 
-> **Nível 2: `Sangria`.** *Ação bônus.* Gaste **`1/8` da sua vida MÁXIMA** e ganhe PE a cada **`3` de vida perdida**, dando **`1` PE**. A vida máxima só volta no **descanso longo**; metade dela volta no **descanso curto**.
->
-> **Nível 7 — o Emanador recebe duas.**
-> **`Resquício`.** Ao conjurar na Ação Padrão um feitiço **que não causa dano**, você pode lançar um **feitiço de Classe 0 na Ação Bônus**.
-> **`Modelagem`.** Ao conjurar um feitiço **de dano ou de condição**, você pode **trocar uma Melhoria que ele já tem por outra de custo igual ou menor**. Nada novo entra na ficha. O que muda é qual peça está montada na hora.
-> **A troca não mexe na condição.** A Melhoria `Condição` não entra nem sai. **E a Melhoria que entra tem de ser legal naquele feitiço**: o requisito dela continua valendo.
->
-> **Nível 15: `Segunda Leitura`.** No fim de um descanso longo, você pode **esquecer um dos seus feitiços e aprender outro no lugar.**
-> **O novo tem de ser um feitiço que você poderia ter escolhido no nível em que está.**
->
-> **Nível 30: `Fonte`.** Feitiços de **Classe 3 ou menos custam metade do PE**.
-> **E um feitiço de Classe 2 à sua escolha, de dano ou de condição, passa a custar `0`.**
-
-### Trilha: Torrente
-
-*Você lança até a energia acabar, e ela acaba.*
-
-> **Nível 2: `Acelerar`.** *Uma quantidade de vezes igual a metade da sua **Essência** ou **Inteligência** por cena.* Você conjura um feitiço da sua **ação padrão como ação bônus**, pagando **`Classe e meia` de PE a mais**, arredondando para cima. *Num Classe 7 são `11` de PE.*
-> Naquele turno, o outro feitiço que você lançar **não passa de `Classe 0`**.
->
-> **Nível 11: `Vazão`.** O teto para o segundo feitiço da rodada passa a ser **metade da sua maior Classe**, arredondando para baixo — e nunca menos que `Classe 0`.
->
-> **Nível 19: `Cheia`.** Quando o feitiço que você conjura é **o único feitiço daquele turno**, **rerrole todo dado de dano dele que cair em `1`, `2` ou `3`.** Você fica com o segundo resultado.
->
-> **Nível 27: `Transbordo`.** Aquela metade passa a **arredondar para cima.** *Com Classe 7 o teto vai de `Classe 3` para `Classe 4`.*
-
-### Trilha: Explosivo
-
-*Um feitiço só na rodada, e ele sai maior.*
-
-> **Nível 2: `Pavio`.** Quando o feitiço que você conjura é **o único feitiço de dano daquele turno**, **rerrole todo dado de dano dele que cair em `1` ou `2`.**
->
-> **Nível 11: `Estopim`.** Todo feitiço seu soma o **atributo da sua técnica** no dano.
->
-> **Nível 19: `Rompante`.** Ao conjurar um feitiço que resolve por rolagem de acerto, você pode gastar **`a Classe` dele em PE** para rolar aquele ataque **com vantagem**. *Num Classe 7 são `7` PE, além dos `21` do próprio feitiço.*
->
-> **Nível 27: `Ápice`.** `1×` por cena, um feitiço seu soma **`metade da Classe` em dados de dano**, e você paga **`1` PE por dado extra**. *Num Classe 7 são `+3d8` por `3` PE.*
-
-### Trilha: Arremate
-
-*O feitiço chega junto com você.*
-
-> **Nível 2: `Empunhadura`.** Escolha um **grupo de arma**. Você é treinado nele, e naquele grupo **o acerto e o dano usam Inteligência ou Essência**. *O requisito de Força para empunhar continua valendo.*
-> **E quando você ataca com uma arma daquele grupo na Ação Padrão, você pode conjurar um feitiço de Classe na Ação Bônus.**
->
-> **Nível 11: `Rebote`.** A sua ação de Atacar passa a dar **dois golpes**.
->
-> **Nível 19: `Crosta`.** Quando você conjura estando **adjacente a um inimigo**, você ganha **`maior Classe` de `vida temporária`**.
->
-> **Nível 27: `Trindade`.** Ao acertar os dois ataques da sua **Ação Padrão**, você passa a receber **vantagem** no ataque do feitiço conjurado na **Ação Bônus**, além de receber **`2` PE** como **energia temporária**.
-
-## Evocador
-
-*O que você trouxe é a resposta: invocações.*
-
-### Características do Evocador
-
-**Características do Evocador**
+**Habilidades do Emanador**
 {: .tab-titulo }
 
-| | |
+| Nível | Habilidade | O que você aprende |
+|---|---|---|
+| 2 | Desdobramento Técnico | Trocar uma propriedade ou acrescentar uma Modulação. |
+| 7 | Expressões Familiares | Dominar variações e economizar em feitiços escolhidos. |
+| 15 | Forma Fluida | Alterar a Forma da aplicação. |
+| 23 | Composição Técnica | Combinar duas alterações. |
+| 30 | Expressão Instintiva | Tornar aplicações escolhidas muito mais econômicas. |
+
+#### Antes de usar o Caminho
+
+As alterações são escolhidas antes dos alvos e das rolagens e valem para aquela conjuração. Use os preços da Classe usada na conjuração, com os descontos de suas Famílias Livres.
+
+**Toda versão respeita a criação de feitiços:** Regra do Fundamento, Famílias, limites, requisitos, incompatibilidades e limite total de dados. Restrições e Efeito Próprio permanecem. Uma alteração não pode anular a obrigação que uma Restrição impõe. Por exemplo, Aceleração não contorna Atrasar e Ocultação não apaga a Restrição Gesto.
+
+Desdobramento trabalha feitiços conhecidos de Classe 1 ou maior. Classe 0, Passivas, Liberações Máximas, Técnica Máxima e Expansão de Domínio seguem seus próprios procedimentos. Efeito Próprio e gatilhos de Reação precisam estar previamente registrados.
+
+> **Nível 2: `Desdobramento Técnico`.** Ao conjurar um feitiço que possa receber Desdobramento, escolha **Remodelar** ou **Forçar uma Modulação**.
+
+#### Remodelar
+
+Pague PE adicional igual à **metade da Classe, arredondada para cima**, e troque uma Melhoria por outra que possa ser usada nesse feitiço.
+
+Os pontos da Melhoria retirada pagam a nova. Se faltarem pontos, reduza o resultado da aplicação:
+
+**Remodelar: o que retirar**
+{: .tab-titulo }
+
+| Para pagar 1 ponto | Retire |
 |---|---|
-| **Vida por nível** | 4 |
-| **PE por nível** | 6 |
-| **Atributos naturais** | Inteligência · Essência |
-| **Perícias fixas** | `Religião` · `Lidar com Animais` |
-| **Perícias à sua escolha** | 5, de qualquer uma da lista de perícias do sistema. Duas delas podem virar treino em **uma arma** da lista — não a categoria e não o tipo, uma arma |
-| **Ofícios** | nenhum. Os dois vêm da sua Origem |
-| **Teste de Resistência** | 1 treinado, à sua escolha. A sua Origem treina o outro |
-| **Treino de arma** | **Arma de Fogo** e **Balestra**, as duas que não pedem treino de verdade |
+| De um feitiço de dano | 1d8 de dano. |
+| De um feitiço de cura | 1d8 de cura. |
+| De um feitiço de Apoio | 3 de vida temporária. |
 
-*Perícia, ofício e Teste de Resistência entram na ficha uma vez, na criação. O quadro completo das vinte e três perícias e dos onze ofícios está no capítulo 3, __Perícias e Ofícios__.*
+Se sobrarem pontos da troca, a sobra é perdida. Recalcule o feitiço com as Restrições que ainda precisam ser cumpridas; a troca nunca aumenta o resultado original. Em feitiços com divisões ou repetições, ajuste primeiro os dados de base e depois suas distribuições.
 
-*O Caminho treina você nessa lista de armas; ele não te dá a arma. O que você leva na mão você compra na criação, e as tabelas de `Preços` estão no capítulo 15, __Equipamento__.*
+> **Exemplo.** Trocar uma Melhoria de custo 2 por outra de custo 3 exige retirar 1d8 do dano ou da cura, além de pagar o PE de Remodelar.
 
-### Degraus do Evocador
+#### Modulações Dominadas
 
-> **Nível 2: `Sintonia`.** **Escolha uma:**
-> **`Presa`** — as suas invocações acertam crítico com **19 ou 20**.
-> **`Parrudo`** — as suas invocações têm mais vida, equivalente a **`5 ×` a sua maestria**.
-> **`Voz`** — a CD dos efeitos das suas invocações sobe em **`1`**, e vira **`metade da sua maestria`** a partir do nível 7.
+Escolha **duas** opções da tabela **Modulações Dominadas**. Sempre que subir de nível, pode trocar uma Modulação conhecida por outra disponível e permitida por seu Fundamento.
+
+**Modulações Dominadas**
+{: .tab-titulo }
+
+| Modulação | Melhoria | Uso principal |
+|---|---|---|
+| Extensão | Longe | Aumentar o alcance. |
+| Amplitude | Maior | Aumentar a área. |
+| Divisão | Mais Um | Acrescentar um alvo, dividindo os dados. |
+| Recorte | Escolher | Decidir quem é afetado dentro da área. |
+| Trajetória | Contorno | Fazer a área contornar obstáculos. |
+| Impulso | Passo | Mover-se junto da conjuração. |
+| Ocultação | Silencioso | Conjurar sem os sinais dispensados pela Melhoria. |
+
+#### Forçar uma Modulação
+
+Acrescente uma Modulação Dominada ao feitiço e pague, em PE adicional, o **custo em pontos da Melhoria, depois dos descontos de suas Famílias Livres.** Você mantém as propriedades e os dados que o feitiço já tinha.
+
+A Modulação pode exceder em **uma** o limite normal de Melhorias. Há, no máximo, uma Modulação Forçada por conjuração, incluindo as repetidas por Eco. Restrições não pagam esse custo adicional.
+
+> **Exemplo.** Você pode trocar Fura por Longe com Remodelar ou manter Fura e pagar Extensão para acrescentar Longe. A primeira escolha troca uma função; a segunda gasta mais energia para manter ambas.
+
+> **Nível 7: `Expressões Familiares`.** Escolha **dois feitiços conhecidos de Classe 1 ou maior**. Escreva para cada um uma versão alternativa feita por uma Remodelagem. Registre os efeitos, dados e custos já calculados.
 >
-> **Nível 7: `Coleira`.** As suas invocações são **treinadas nas perícias e Testes de Resistência que a ficha delas tiver**, e somam **`+1` no acerto**.
+> Ao conjurar, escolha a versão original ou sua **Expressão Familiar**. A Expressão não ocupa outro espaço de feitiço e dispensa o PE adicional de Remodelar. Você pode Forçar uma Modulação sobre qualquer versão.
 >
-> **Nível 15: `Escudo de Osso`.** *Reação.* Quando você é alvo de um ataque com rolagem, uma invocação sua a até 9 m **recebe o ataque no seu lugar**.
+> Aprenda sua **terceira Modulação Dominada**.
+
+#### Afinidade Técnica
+
+Escolha também **dois feitiços conhecidos**, de Classe 1 até **metade da sua maior Classe disponível, arredondada para baixo**.
+
+A primeira conjuração de cada um por cena custa **metade do PE normal, arredondada para cima**. Quando o limite de Classe aumentar, pode substituir suas escolhas. Original e Expressão Familiar compartilham o mesmo uso reduzido.
+
+**Afinidade Técnica por Classe**
+{: .tab-titulo }
+
+| Maior Classe disponível | Pode escolher | Custo da primeira conjuração |
+|---|---|---|
+| 2–3 | Classe 1 | 2 PE. |
+| 4–5 | Até Classe 2 | Classe 1: 2 PE; Classe 2: 3 PE. |
+| 6–7 | Até Classe 3 | Classe 1: 2 PE; Classe 2: 3 PE; Classe 3: 5 PE. |
+
+As escolhas de Afinidade e de Expressão Familiar podem ser os mesmos feitiços ou feitiços diferentes.
+
+**Ampliar:** preserve o desconto da Classe original e pague a diferença completa da ampliação. Um Classe 2 com Afinidade custa 3 PE; Ampliado para Classe 4, custa 3 + 6 = **9 PE**. Os custos de Desdobramento são acrescentados depois.
+
+> **Nível 15: `Forma Fluida`.** Ao Remodelar, você pode trocar a **Forma** em vez de uma Melhoria. Os pontos da Forma retirada ajudam a pagar a nova; a diferença segue a mesma regra de Remodelar.
 >
-> **Nível 30: `Segundo Corpo`.** **Uma vez por descanso curto, invocar não custa a ação padrão**, só o PE.
-
-#### Servo
-
-*Uma invocação, forte.* O `Servo` põe em campo um corpo só, com nome, que anda com você a campanha inteira.
-
-#### Matilha
-
-*Muitos corpos fracos.* A `Matilha` põe cinco corpos em campo, e a sua vantagem é estar em cinco lugares ao mesmo tempo. Ela conta como **uma ficha com cinco corpos**: uma barra de vida só, e o dano que passa de um corpo cascateia para o seguinte. Os cinco continuam no campo, cada um com a sua posição.
-
-#### Coro
-
-*Você e a invocação lutam juntos.* No `Coro` você entra na luta junto com o corpo, e os dois se cobrem. Ele **ataca e comanda na mesma rodada**, e abre exceção na economia de ação.
-
-### Trilha: Servo
-
-*Um corpo só, e você o segura de pé. O que ele sabe, você sabe; enquanto ele está entre você e o mundo, o mundo te alcança menos.*
-
-> **Nível 2: `Preito`.** As perícias e os Testes de Resistência da sua invocação somam **`metade da sua maestria`, mínimo `1`**.
-> **E escolha uma, ao pegar a Trilha:** `metade da sua maestria` **no acerto** dela · `metade da sua maestria` **na CD** dela · **`a sua maestria` na Defesa** dela.
+> Recalcule o que depende da Forma, inclusive os pontos devolvidos pelas limitações que fazem parte dela. A nova versão deve continuar compatível com as Melhorias e Restrições preservadas.
 >
-> **A `Voz` da `Sintonia` e o `Preito` na CD não somam.** As duas dão o mesmo número em todo nível (`+1` até o 25, `+2` do 26 em diante), então a CD dela leva uma só. Quem tem a `Voz` escolhe o acerto ou a Defesa no `Preito`.
+> Suas Expressões Familiares podem usar uma Forma diferente. Ao receber esta habilidade, pode reescrever as duas.
 >
-> **Nível 11: `Escolta`.** Escolha **dois** Testes de Resistência. **Enquanto a sua invocação está de pé, você soma `metade da sua maestria` na sua Defesa e nesses dois.**
->
-> **Nível 19: `Sustento`.** *Ação Bônus.* A sua invocação ganha **`1d6 + metade do seu nível`** de PV temporário. Ela carrega um bloco desses por vez.
->
-> **Nível 27: `Chamado`.** Invocar o seu servo custa **metade** do PE, arredondando para cima.
+> Aprenda sua **quarta Modulação Dominada**. A partir daqui, a lista também inclui as três da tabela **Modulações do nível 15**.
 
-### Trilha: Matilha
+**Modulações do nível 15**
+{: .tab-titulo }
 
-*Uma invocação sozinha não assusta ninguém. Três chegando na mesma coisa, sim.*
+| Modulação | Melhoria | Uso principal |
+|---|---|---|
+| Aceleração | Rápido | Conjurar com Ação Bônus. |
+| Preparação | Armado | Comprometer o feitiço com um gatilho futuro. |
+| Sustentação | Concentrada | Prolongar estados mediante concentração. |
 
-> **Nível 2: `Alarido`.** *Ação Bônus.* Aponte um inimigo que você enxerga. **Se três ou mais invocações acertarem ele, ele leva `-1` no acerto contra tudo que não seja uma invocação sua.** Cada membro de uma `Matilha` conta como uma invocação para o resultado.
-> A penalidade dura até o fim do próximo turno dele.
+> **Nível 23: `Composição Técnica`.** Um Desdobramento pode fazer **até duas alterações**: trocar duas Melhorias, trocar Forma e Melhoria, ou Remodelar uma parte e Forçar uma Modulação.
 >
-> **Nível 11: `Batida`.** Enquanto um alvo está sob o `Alarido`, **os seus aliados atacam ele com vantagem.** *Você não: a sua Ação Padrão está no `Comando`.*
+> Pague o PE de Remodelar uma vez por conjuração. A Modulação Forçada mantém seu custo separado.
 >
-> **Nível 19: `Dentada`.** Enquanto um alvo está sob o `Alarido`, as suas invocações acertam **crítico nele com `18`, `19` ou `20`**. *Isso soma com a `Presa`: quem escolheu ela acerta crítico com `17` ou mais.*
->
-> **Nível 27: `Traquejo`.** O `Alarido` passa a disparar com **duas** invocações acertando, e não três.
+> Aprenda sua **quinta Modulação Dominada**.
 
-### Trilha: Coro
+> **Exemplo.** Transforme Explosão em Linha e troque Derrubado por Empurrão, pagando as diferenças. A técnica deixa de cercar uma posição e passa a trabalhar o corredor.
 
-*O seu golpe e o dela se encadeiam. Quem acertar abre o próximo.*
+> **Nível 30: `Expressão Instintiva`.** Afinidade Técnica passa a incluir **quatro feitiços**. Você pode refazer as escolhas ao receber esta habilidade.
+>
+> Entre eles, escolha **um feitiço de Classe 1 e um de Classe 2**. Quando conjurar um desses dois com **Ação Padrão**, seu custo na Classe original é **1 PE**, em todas as conjurações.
+>
+> A Expressão Familiar correspondente recebe o mesmo benefício quando usada como Ação Padrão.
+>
+> Ao Ampliar, pague **1 PE + a diferença integral de custo entre as Classes**. Um Classe 2 Instintivo Ampliado para Classe 5 custa 1 + 9 = **10 PE**. Custos adicionais de Desdobramento continuam separados.
+>
+> Se a conjuração usar outra ação, aplique os custos normais e a Afinidade Técnica quando disponível. As duas reduções não se somam na mesma conjuração.
 
-> **Nível 2: `Dueto`.** Quando você gasta a Ação Padrão comandando uma invocação para **atacar**, você ganha um **golpe simples na Ação Bônus**, em sincronia com ela.
+### Trilha: Condutor Armado
+
+*Sua arma é uma maneira de expressar a técnica. Você alterna golpe e feitiço e escolhe como o vínculo entre os dois se manifesta.*
+
+**Habilidades do Condutor Armado**
+{: .tab-titulo }
+
+| Nível | Habilidade |
+|---|---|
+| 2 | Arma Condutora e Cadência Técnica |
+| 11 | Artes do Vínculo |
+| 19 | Manifestação Condutora |
+| 27 | Ritmo Convergente |
+
+> **Nível 2: `Arma Condutora`.** Escolha **um grupo de armas** e receba proficiência com suas armas. Escolha **Essência ou Inteligência**: você pode usar esse atributo nas rolagens de acerto e dano com o grupo, mantendo os requisitos de Força do equipamento.
 >
-> **Nível 11: `Contracanto`.** *Reação*, `1×` por rodada. Quando um inimigo acerta você ou uma invocação sua, **uma invocação sua ataca ele**.
+> Ao fim de um descanso curto ou longo, escolha uma arma desse grupo que esteja com você como sua **arma vinculada**. Um novo vínculo substitui o anterior.
+
+#### Cadência Técnica
+
+Uma vez por turno seu, combine suas ações de uma destas maneiras:
+
+**Cadência Técnica**
+{: .tab-titulo }
+
+| Ação Padrão | Ação Bônus |
+|---|---|
+| Atacar com uma arma do grupo. | Conjurar um feitiço de Classe 0. |
+| Conjurar um feitiço de Classe 0. | Fazer um ataque com uma arma do grupo. |
+
+O feitiço precisa normalmente usar Ação Padrão. Resolva uma parte antes de começar a outra.
+
+> **Nível 11: `Artes do Vínculo`.** Escolha **uma Arte de Cadência** e **uma Propriedade de Vínculo**. No nível 19, aprenda uma segunda Propriedade diferente. Pode refazer suas escolhas ao receber os níveis 19 e 27 da Trilha, mantendo uma Arte e a quantidade de Propriedades do seu nível.
+
+#### Artes de Cadência
+
+> **Cadência Marcial.** Sua Ação Atacar permite **dois ataques** com armas do grupo. Se fizer os dois, não conjura pela Cadência Técnica naquele turno. Você pode optar pela cadência original de um ataque e um Classe 0.
 >
-> **Nível 19: `Uníssono`.** Quando um ataque do dueto **acerta**, o **próximo ataque do outro** vem com **vantagem**. *Se a invocação acertou, o seu golpe tem vantagem; se você acertou, o próximo ataque dela tem.* **A vantagem dura até o fim do próximo turno e se perde se não for usada.**
+> **Cadência Expandida.** A Cadência Técnica aceita feitiços de **Classe até metade da sua maior Classe disponível, arredondada para baixo**, nas duas ordens de execução. Pague os custos normais.
 >
-> **Nível 27: `Acorde`.** Um feitiço de Classe que custaria a Ação Padrão e **não causa dano** pode ser lançado como **Ação Bônus**.
+> O limite considera a Classe usada na conjuração, inclusive após Ampliar. Com maior Classe 3, o limite é 1; com 4 ou 5, é 2; com 6 ou 7, é 3.
+
+#### Propriedades de Vínculo
+
+Você conhece **uma Propriedade no nível 11 e duas a partir do nível 19**, escolhidas entre as oito abaixo. Elas acompanham sua arma vinculada; com Vínculo Duplo, acompanham ambas. Os limites de uso pertencem ao personagem, não a cada arma.
+
+> **Chamado da Arma.** Você pode recolher a arma em sua técnica e manifestá-la ao sacá-la. Se estiver solta a até **18 m**, uma **Ação Bônus** a faz retornar à sua mão.
+>
+> **Forma Mutável.** Apenas uma arma comum ou de **Grau 4 ou 3** pode receber esta propriedade. Ao sacá-la ou manifestá-la, mude seu perfil para outra arma do mesmo grupo cujo requisito de Força cumpra. A arma mantém Grau, Integridade, munição restante e efeitos próprios compatíveis. A transformação não recarrega nem repara o item.
+>
+> **Retorno Vinculado.** Sua arma corpo a corpo vinculada pode ser arremessada a até **6 m** e retorna à sua mão depois de resolver o ataque.
+>
+> **Passo da Arma.** **Uma vez por cena, Ação Bônus:** transporte-se para um espaço livre adjacente à arma vinculada, se ela estiver solta, você conseguir percebê-la e ela estiver a até **9 m**. Ela termina em sua mão.
+>
+> **Âncora Gravada.** Com uma **Ação Bônus**, fixe a arma numa superfície sólida ao alcance. Ela permanece presa até você liberá-la ou alguém gastar **Ação Padrão** e passar em um **TR Físico** contra a CD da técnica para removê-la. Pode sustentar uma corda ou travar um mecanismo conforme a resistência da arma e da superfície.
+>
+> **Vínculo Duplo.** Mantenha duas armas vinculadas do grupo. Pode sacar ou guardar fisicamente as duas no mesmo ato e usar qualquer uma nas habilidades da Trilha. Elas têm munição, Integridade e efeitos próprios separados.
+>
+> **Sentido do Vínculo.** Enquanto a arma estiver a até **1 km**, você sabe em que direção ela está e se está sendo empunhada. Essa percepção acompanha o objeto, sem revelar a identidade de quem o segura.
+>
+> **Memória da Arma.** Com uma **Ação Bônus, tocando a arma**, inicie o registro de até **uma hora dos sons e imagens que poderiam ser percebidos a partir da posição dela**, conforme a visibilidade e a audição no local. A gravação continua quando a arma é arremessada ou deixada em algum lugar. Ao tocá-la, você ou uma criatura autorizada pode rever e ouvir o registro. Cada arma mantém uma gravação até que outra a substitua.
+
+> **Nível 19: `Manifestação Condutora`.** Aprenda **uma Propriedade de Vínculo adicional**, totalizando duas.
+>
+> Durante a Cadência Técnica, arma e feitiço podem transmitir um ao outro o ponto de manifestação.
+>
+> **Arma primeiro:** se o ataque com a arma vinculada acertar uma criatura ou objeto a até **9 m**, o feitiço seguinte pode partir de um ponto do espaço atingido. Meça alcance, área e direção a partir dele.
+>
+> **Feitiço primeiro:** escolha um ponto percebido que a aplicação alcançou a até **9 m**. O ataque da Cadência pode partir dali, com o alcance normal da arma. Depois do golpe, a arma retorna à sua mão.
+>
+> A nova origem precisa ser compatível com a Forma e com as Restrições da aplicação. Confira visão, trajeto e alcance na hora de cada parte.
+
+> **Exemplo.** Depois de atingir o inimigo à frente de uma passagem, você faz um Cone partir daquele espaço em direção ao corredor. Se conjurar primeiro, pode levar o golpe até um ponto alcançado pelo feitiço.
+
+> **Nível 27: `Ritmo Convergente`.** **Uma vez por cena**, use a Cadência Técnica com um feitiço de **Classe até sua maior Classe disponível menos um**, independentemente da Arte escolhida.
+>
+> Realize **um ataque e uma conjuração**, na ordem que preferir: uma parte usa Ação Padrão e a outra usa Ação Bônus. Pague o feitiço e seus Desdobramentos normalmente. Manifestação Condutora pode ligá-los.
+>
+> O limite vale para a Classe final da aplicação. Com acesso à Classe 7, esta cadência aceita até **Classe 6**. O uso da cena é gasto na declaração.
+>
+> **Afinidade e Instintiva:** a redução de primeira conjuração pode acompanhar a Cadência; o custo de 1 PE de Expressão Instintiva exige que o feitiço use a Ação Padrão.
+
+### Trilha: Ressonante
+
+*Uma aplicação deixa uma alteração preparada para a seguinte. Você escolhe o que manter, quando reaproveitar e quando mudar o rumo da técnica.*
+
+**Habilidades do Ressonante**
+{: .tab-titulo }
+
+| Nível | Habilidade | Ecos permitidos |
+|---|---|---|
+| 2 | Eco Técnico | Leves. |
+| 11 | Contraponto | Leves. |
+| 19 | Reverberação | Leves e Médios. |
+| 27 | Acorde Ressonante | Dois Ecos; Leves e Médios. |
+
+> **Nível 2: `Eco Técnico`.** Depois de resolver um feitiço de **Classe 1 ou maior com Desdobramento**, guarde como **Eco** uma alteração que você realmente fez: a Melhoria obtida por Remodelar ou a Modulação Forçada.
+>
+> O Eco registra a alteração e a maneira pela qual foi feita. Você mantém **um Eco até o fim do próximo turno**; criar outro substitui o anterior.
+>
+> Inicialmente, apenas alterações **Leves** podem virar Eco. A categoria é a do catálogo, **antes dos descontos de Família**.
+>
+> Em uma conjuração posterior de Classe 1 ou maior, consuma o Eco ao declarar o feitiço para reaproveitar sua alteração. Nesse nível, ele ocupa o Desdobramento da conjuração.
+
+#### Eco de Remodelagem
+
+Faça uma troca para obter a Melhoria guardada, pelas regras de Remodelar. A Melhoria retirada e a redução de resultado pagam os pontos necessários. **Você dispensa apenas o PE adicional de Remodelar.**
+
+Depois de receber Forma Fluida, também pode guardar e repetir uma troca de Forma permitida. Formas sem custo podem ser guardadas; as demais seguem o limite de categoria do Eco.
+
+#### Eco de Modulação
+
+Repita a Modulação guardada pagando **metade de seu custo adicional em PE, arredondada para cima**. Use o preço na Classe da nova conjuração.
+
+Uma alteração reaproveitada não cria outro Eco por si só. O consumo ocorre na declaração, mesmo se o feitiço errar ou for resistido.
+
+#### Limites da aplicação
+
+O resultado continua respeitando **todas as regras de criação de feitiços**, inclusive Restrições, Famílias, orçamento, repetições e incompatibilidades. Uma troca obtida por Eco não ganha pontos extras nem espaço adicional de Melhoria.
+
+Há, no máximo, **uma Modulação Forçada por conjuração**, contando o Eco e o Desdobramento normal. Só ela pode exceder o limite normal de Melhorias em uma unidade.
+
+> **Exemplo.** Numa Classe 3, Longe sem desconto custa 2 PE como Modulação. Seu Eco permite repeti-la em outro feitiço Classe 3 por 1 PE. Se a Modulação já custava 1 PE, o Eco continua custando 1 PE.
+
+> **Nível 11: `Contraponto`.** Ao consumir um Eco, você também pode fazer **um Desdobramento normal** na mesma conjuração, pagando o custo normal.
+>
+> Depois da resolução, uma alteração feita por esse Desdobramento pode ser guardada como o próximo Eco. O efeito trazido pelo Eco antigo não se copia novamente.
+>
+> Com Composição Técnica, o Desdobramento normal pode trazer duas alterações, para um máximo de **três alterações ao todo**. Isso não aumenta o limite de Melhorias do feitiço.
+>
+> O novo Eco continua limitado a alterações **Leves**. Uma Melhoria Média ou Pesada feita pelo Desdobramento normal não pode ser armazenada nesse nível.
+
+> **Exemplo.** Repita uma troca que trouxe Longe e pague uma Remodelagem nova para obter Empurrão. Você aproveita a distância que preparou e deixa Empurrão como possibilidade para a próxima aplicação.
+
+> **Nível 19: `Reverberação`.** Seus Ecos passam a aceitar alterações **Médias**, além das Leves.
+>
+> Quando gastar Eco numa conjuração, escolha uma criatura antes das rolagens. Se o ataque contra ela errar ou ela passar no primeiro TR da aplicação, você pode gastar sua **Reação** para manter o Eco até o fim do próximo turno.
+>
+> Se o Contraponto também produziu outro Eco, escolha qual guardar, respeitando sua capacidade. Reutilizar o Eco em outra conjuração continua cobrando seu custo normal de uso.
+>
+> Melhorias **Pesadas permanecem fora dos Ecos**, mesmo com desconto. Podem participar normalmente do Desdobramento pago, quando cumprirem as regras do feitiço.
+
+> **Nível 27: `Acorde Ressonante`.** Você pode manter **dois Ecos diferentes**, e cada um passa a durar até o fim do **segundo turno seguinte** à sua criação ou conservação. Ao criar outro além da capacidade, escolha qual substituir.
+>
+> **Uma vez por cena**, consuma os dois na mesma conjuração. Você também pode fazer um Desdobramento normal, respeitando o máximo de **três alterações no total** e uma Modulação Forçada.
+>
+> Cada Eco mantém seus custos. Reverberação pode preservar apenas **um** dos Ecos gastos naquela conjuração.
+
+> **Exemplo.** Num turno você registra uma troca para Longe. No seguinte, registra outra para Contorno. No terceiro, pode usar os dois Ecos em trocas compatíveis e pagar uma alteração nova, escolhendo qual delas preparará a próxima conjuração.
+
+### Trilha: Catalisador
+
+*Você alterna preparação e descarga. Uma aplicação reúne o impulso que a seguinte pode gastar em velocidade, precisão ou controle da execução.*
+
+**Habilidades do Catalisador**
+{: .tab-titulo }
+
+| Nível | Habilidade |
+|---|---|
+| 2 | Impulso Técnico |
+| 11 | Correção de Fluxo |
+| 19 | Sobrecarga |
+| 27 | Fluxo Contínuo |
+
+> **Nível 2: `Impulso Técnico`.** Depois de resolver, com **Ação Padrão**, um feitiço de **Classe 1 ou maior** que tenha sido Remodelado, recebido uma Modulação ou usado uma Expressão Familiar, você ganha **um Impulso até o fim do próximo turno**.
+>
+> Você mantém um Impulso. Em outra aplicação dessas, pode gastá-lo e pagar PE adicional igual à **metade da Classe utilizada, arredondada para cima**, escolhendo uma opção:
+>
+> **Acelerar.** Um feitiço de Ação Padrão passa a usar **Ação Bônus**. A mudança precisa respeitar o tempo exigido pelas Restrições e as incompatibilidades de Rápido.
+>
+> **Intensificar.** Escolha **um ataque do feitiço**, que recebe vantagem, ou **o primeiro TR de uma criatura contra ele**, que recebe desvantagem.
+>
+> Declare a escolha antes dos dados. A conjuração que gasta Impulso não produz outro por si só. Conjurar como Ação Bônus mantém a regra geral: o outro feitiço permitido naquele turno é de Classe 0.
+
+> **Nível 11: `Correção de Fluxo`.** Você ganha uma opção de correção e uma nova maneira de Intensificar.
+>
+> **Corrigir a tentativa.** Se um ataque de sua aplicação errar ou uma criatura passar no primeiro TR contra ela, pode gastar seu Impulso e **PE adicional igual à Classe utilizada** para repetir aquela rolagem. Use o novo resultado.
+>
+> Indique antes dos dados qual ataque ou criatura você pretende acompanhar. A decisão de pagar acontece depois da rolagem, antes de aplicar suas consequências. Se a tentativa tinha vantagem ou desvantagem, repita o mesmo procedimento.
+>
+> **Aperfeiçoar o dano.** Ao escolher Intensificar, pode beneficiar **uma rolagem de dano do feitiço**, em vez de um ataque ou TR.
+>
+> Nessa rolagem, repita **uma vez cada dado que mostrar 1 ou 2**, mantendo os novos resultados. Declare essa aplicação de Intensificar junto da conjuração, antes das rolagens; ela usa o custo normal de metade da Classe em PE e consome Impulso.
+>
+> Se uma única rolagem for compartilhada entre alvos, todos usam o resultado corrigido. Feitiços com várias rolagens escolhem apenas uma delas.
+
+> **Nível 19: `Sobrecarga`.** **Uma vez por cena**, ao gastar Impulso, escolha duas opções diferentes entre **Acelerar, Intensificar e Corrigir a tentativa**.
+>
+> Pague cada custo separadamente. Se reservar Corrigir junto da outra opção, pague a parcela da correção somente se a rerrolagem acontecer. Declare a combinação antes da primeira rolagem.
+>
+> Intensificar oferece uma escolha entre ataque, TR ou dano. Sobrecarga não permite escolher Intensificar duas vezes.
+>
+> Depois da Sobrecarga, você não ganha outro Impulso até o fim do próximo turno.
+
+> **Exemplo.** Acelerar e Aperfeiçoar o dano permitem uma conjuração de Ação Bônus com repetição dos dados baixos. Intensificar um ataque e reservar Correção permite insistir se ele ainda errar.
+
+> **Nível 27: `Fluxo Contínuo`.** **Uma vez por cena**, depois de gastar Impulso numa conjuração que não usou Sobrecarga, recupere **um Impulso** após resolver o feitiço. Ele dura até o fim do próximo turno.
+>
+> Você pode usá-lo numa aplicação seguinte, inclusive numa Sobrecarga. Os custos de cada opção continuam sendo pagos.
+
+> **Exemplo.** Conjure uma Expressão Familiar para reunir Impulso. No turno seguinte, gaste-o e use Fluxo Contínuo para manter o ritmo. Na aplicação posterior, escolha entre outra descarga normal ou a combinação de Sobrecarga.

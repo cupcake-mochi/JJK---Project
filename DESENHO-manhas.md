@@ -1,5 +1,7 @@
 # As treze Manhas — o nível 2 da Vanguarda
 
+> **⚠ v0.270 — este desenho virou o registro com preço da coleção anterior.** *O texto de hoje do Bastião, da Vanguarda, do Emanador e do Guia é o da **coleção v0.4**, em `caminhos/`, que o Mizuki mandou pôr no livro "exatamente" como ela é, sem medir: "Não é necessário medir cada fatia ou certificar novamente o orçamento para implementar. […] Coloque na fila que futuramente terá de ser medido."* **Os preços daqui valem para as entregas daqui, e nenhum vale para as da v0.4.** *Eles ficam como o ponto de partida da medição que está na fila do `ESTADO-ATUAL`, e o `conferir-catalogo.py` continua conferindo este registro por dentro.* **A Escola de Arma da v0.4 tem quatro Manhas e a `Versado`**, *no lugar das treze daqui.*
+
 *Escritas na v0.82. **A régua veio antes do catálogo**, que é a recomendação de método que a peça 13 contra a peça 14 deixou.*
 
 > **Escola de Arma (Vanguarda, nível 2).** Escolha uma das treze categorias de arma. Com armas daquela categoria você usa a **Manha** dela.

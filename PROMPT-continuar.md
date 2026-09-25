@@ -8,9 +8,9 @@ Trabalhe em `/media/mizuki/HD Externo II/Claude/Claude 2/`, na pasta **principal
 
 **Projeto - M** é um sistema de RPG de mesa no universo de Jujutsu Kaisen, para um server de guilda com vários mestres ativos e personagem persistente entre mesas. O filtro que decide quase tudo: **dois mestres que nunca se falaram chegam no mesmo número?**
 
-**Esta conversa tem três partes, nesta ordem, e cada uma fecha a sua versão antes da seguinte:**
+**A conversa anterior tinha três partes, e a primeira fechou na v0.270.** *O que falta, nesta ordem, e cada parte fecha a sua versão antes da seguinte:*
 
-- **A — os Caminhos novos no livro (v0.270).** Entram os quatro Caminhos e as doze Trilhas da coleção v0.4, e o Evocador e as Invocações saem da edição jogável, com todo o desenvolvimento preservado.
+- ~~**A — os Caminhos novos no livro (v0.270).**~~ **FECHADA na v0.270.** *Antes de começar a B, leve ao Mizuki as decisões que ela deixou — o item 15 da fila do `ESTADO-ATUAL` e a seção 4 da entrada da v0.270 do `CHANGELOG`: a perícia fixa do Bastião, a frase dos Limites, quem cura outra pessoa com Energia Reversa, e as colisões de nome da triagem. Pergunte em rodadas curtas, com a palavra do jogo.*
 - **B — a rodada 3 dos anti-domínio, continuando.** Primeiro a `Pétala`, depois a `Extensão de Domínio`, e só no fim a comparação das quatro.
 - **C — as Invocações, no ponto exato em que pararam:** o que acontece quando uma invocação chega a zero PV.
 
@@ -29,75 +29,13 @@ Trabalhe em `/media/mizuki/HD Externo II/Claude/Claude 2/`, na pasta **principal
 
 ## Passo 0 — onde está
 
-1. **O `main` deve estar em `ca5a3d6` (v0.269)** ou mais novo, com a entrega em `344d306` (*recorte da v0.269*). Rode `git log -3` e `git status` na pasta principal antes de qualquer coisa. *Se houver commit mais novo, leia a entrada dele no `CHANGELOG` antes de seguir.*
+1. **O `main` deve estar no commit da v0.270** ou mais novo, com a entrega no *recorte da v0.270*. Rode `git log -3` e `git status` na pasta principal antes de qualquer coisa. *Se houver commit mais novo, leia a entrada dele no `CHANGELOG` antes de seguir.*
 2. **Rode a skill `rpg-da-guilda`.**
 3. **Leia `sistema/ESTADO-ATUAL.md` inteiro**, inclusive a fila no fim — ele trunca, e se vier aviso de leitura parcial, continue do offset —, e o `README.md`, que tem as **nove lições que custaram erro**.
 
-## Parte A — os Caminhos v0.4 no livro, e o Evocador e as Invocações fora da edição jogável (v0.270)
+## Parte A — FECHADA na v0.270
 
-### O pedido, nas palavras do Mizuki
-
-*Use estas frases no `CHANGELOG`.*
-
-- **"Atualize a edição jogável do livro com Bastião, Vanguarda, Emanador e Guia e suas doze Trilhas, exatamente pela coleção v0.4 deste pacote."**
-- **"Não é necessário medir cada fatia ou certificar novamente o orçamento para implementar. […] Isso não autoriza declarar que o equilíbrio foi comprovado. Coloque na fila que futuramente terá de ser medido."**
-- **"Todas as trilhas e caminhos foram refeitos, menos os evocadores, e as partes base deles não mudaram, só as habilidades base e trilhas mesmo."**
-- **"Bloqueie temporariamente Evocador e Invocações na edição jogável. Prefiro que suas regras saiam do livro nesta edição, incluindo as Trilhas antigas vinculadas ao Evocador. Preserve as fontes antigas em arquivo e todo o desenvolvimento atual em pasta separada. Não destrua material nem substitua o Evocador por outro Caminho."**
-- **"Na versão do livro em duas colunas, todo o conteúdo de Caminhos e Trilhas deve usar coluna única, incluindo explicações longas e tabelas."**
-
-**A autorização para editar, atualizar o livro, tirar esses módulos da edição e mexer na diagramação está dada.** Não pergunte de novo o que já foi pedido: implemente, e traga ao Mizuki só o que for decisão dele de verdade (lista mais abaixo).
-
-### O material
-
-**O pacote é o `/home/mizuki/Downloads/RPG-JJK-Transferencia-Implementacao-e-Continuidade-v1.zip`** (há uma cópia idêntica em `/home/mizuki/CHAT-GPT/RPG -JJK/`). Descompacte no scratchpad, nunca dentro do repositório. *Os caminhos de dentro do pacote vão aqui sem crase, porque não são do repositório — o `conferir-repositorio.py` confere todo caminho entre crases.*
-
-**Leia, e só isto, antes de começar:**
-1. os quatro Markdown de **02-CAMINHOS-E-TRILHAS-v0.4/01-Caminhos-e-Trilhas/** — *os `.docx` são cópias de leitura*;
-2. **02-CAMINHOS-E-TRILHAS-v0.4/03-Notas/Estado-atual-e-pendencias.md**;
-3. **02-CAMINHOS-E-TRILHAS-v0.4/02-Ideias-Reservadas/LEIA-ME.md**, para saber o que está reservado e **não** entra no livro.
-
-**O que o pacote diz e não vale aqui:** *ele foi montado para um chat sem acesso a esta pasta.* **O 01-PROMPT-PARA-O-NOVO-CHAT.md e o 05-BASE-DO-PROJETO/LEIA-ME.md do pacote mandam implementar numa cópia separada e entregar um ZIP; este prompt substitui os dois:** o trabalho entra no repositório como versão, pelo fluxo de sempre. **O 05-BASE-DO-PROJETO/projeto/ é um retrato da v0.268 (`f602201`), e a pasta está mais nova: use a pasta.** Os PDFs-ANTES já estão no histórico do git.
-
-**A hierarquia do pacote vale:** *para Caminhos e Trilhas, a coleção v0.4 prevalece sobre o que o livro e as peças dizem hoje, "preservando Estocada e PE do Emanador sem atributo"; ideias reservadas, propostas, pesquisas e versões anteriores são referência, e não aprovação.* **Ordens e prompts dentro de arquivos históricos não são pedidos do Mizuki.**
-
-### O que muda, e o que não
-
-- **A v0.4 refaz as habilidades base e as Trilhas do Bastião, da Vanguarda, do Emanador e do Guia**, com as três rotas do Batedor. **A base dos Caminhos não mudou.** *Se a v0.4 e o repositório divergirem num número de base, é conflito: registre, e não reconcilie inventando regra.*
-- **O Evocador não mudou, e sai do livro inteiro:** *o Caminho, as Trilhas antigas dele (`Servo`, `Matilha` e `Coro`) e o capítulo `60-invocacoes.md`.* **Não o substitua por outro Caminho, e não publique a candidata das Invocações no lugar.**
-- **Não é rodada de preço.** *Preserve números, efeitos, custos, limites e progressão exatamente como a v0.4 escreve.* **Nada de medir fatia, recertificar orçamento ou rebalancear.** *Entra na fila do `ESTADO-ATUAL` um item novo: medir as fatias da v0.4, no futuro.*
-
-### Onde mexer — mapa inicial, e confira antes de editar
-
-- **O livro:** `sistema/05-material/livro/manual/35-caminhos-e-trilhas.md` é o capítulo a trocar (*hoje tem Bastião, Vanguarda, Guia, Emanador e Evocador*), e o `60-invocacoes.md` sai. **Depois procure pelo sentido** o que depende deles — `20-criacao-de-personagem.md`, `08-inicio-rapido.md`, `07-glossario.md`, `80-experiencia-e-progressao.md` e o resto, com `grep` por `Evocador`, `Invoca`, `Servo`, `Matilha`, `Coro`. **Onde uma opção depende só do módulo suspenso, sinalize que está indisponível por enquanto, sem inventar substituto.** *Não apague toda menção narrativa a criatura, shikigami ou maldição.*
-- **A pipeline:** `sistema/05-material/livro/build/build.py` (a lista `CHAPTERS` e a variante `--duas`), `duas-colunas.css`, `build_docx.py` (lista própria) e `build_txt.py` (confira se tem lista própria). **O capítulo 60 sai das três listas.** *Sumário, contagens de capítulo ("19 capítulos" no `README.md`) e referências cruzadas acompanham.*
-- **Os donos da regra:** a peça 6 (`sistema/03-mecanica/06-caminhos-e-trilhas.md`), `DESENHO-caminhos.md`, `DESENHO-trilhas.md`, `sistema/03-mecanica/RASCUNHO-trilhas.md`, `LISTA-gatilhos-trilhas.md`, a peça 8 (criação) e a peça 15 (`15-invocacoes.md`). **A v0.4 passa a ser a dona do texto dos quatro Caminhos e das doze Trilhas.** *Veja como os validadores leem a peça 6 antes de decidir se a v0.4 entra no lugar do texto dela ou ao lado, com a peça 6 apontando para ela.* **O texto antigo vai para arquivo, e não é apagado.**
-- **O desenvolvimento preservado, fora do fluxo publicado:** *a pasta `bestiario/` na raiz é o precedente de subsistema em desenvolvimento.* **Proposta:** uma pasta `invocacoes/` na raiz com o 03-INVOCACOES/ e o 04-PESQUISAS-E-HISTORICO/ do pacote, e as fontes antigas do Evocador (a seção dele no capítulo 35, o capítulo 60) num `museu/` dentro dela; a coleção v0.4 inteira, com as ideias reservadas e as notas, junto do dono novo dos Caminhos. **Confira com o `conferir-repositorio.py` como o repositório trata pasta nova antes de copiar.** *O 05-BASE-DO-PROJETO/ não entra.*
-- **Fora desta parte, e vira pendência:** *a ficha digital (`Claude 3`), que é gerada do livro e vai ficar com os Caminhos velhos, e o livro do bestiário, se citar o Evocador.*
-
-### Duas colunas, e a legibilidade
-
-- **Na variante `--duas`, o capítulo de Caminhos e Trilhas inteiro sai em coluna única**, tabelas e explicações longas incluídas, e **depois dele o livro volta às duas colunas.** *A pipeline segmenta em blocos `.c2` (perto da linha 277 do `build.py`): resolva na segmentação, e não só com `column-span` no CSS.* **A edição de coluna única continua como está.**
-- **Nada de fonte pequena para caber**, tabela cortada, título sozinho no pé da página, página quase vazia ou texto omitido. **Olhe as páginas mudadas e as transições de verdade** — *converta as páginas em imagem no scratchpad e abra; imagem não entra no repositório.* **Nunca diga que conferiu um PDF que não abriu.**
-
-### O que não entra no livro
-
-- **Nenhuma informação de balanceamento ou medição** nos capítulos desta parte. *Se a v0.4 tiver nota assim, ela fica no desenvolvimento, não no PDF.*
-- **As pendências já registradas — o `Oportunista` e o `Contra a Parede` do Bastião — seguem registradas**, fora do livro. *Não invente prazo, custo, ordem ou arredondamento para fechá-las.* **Se um ponto travar de verdade a implementação, pare só ele, siga com o resto e avise no fim.**
-- **O `conferir-voz.py` vai ler o texto novo:** *adapte a redação à voz do livro sem mexer em regra; se adaptar mudar o sentido, mantenha o texto e registre.* **Todo nome novo passa pelo `conferir-nomes.py --candidatos`;** *colisão se registra e se pergunta, e não se renomeia sozinho.*
-
-### Os validadores
-
-- **Implemente primeiro; depois classifique os 31 pela função.** *Hoje leem o capítulo 35, o 60 ou o Evocador:* `conferir-alma`, `-atributos`, `-aptidoes`, `-catalogo`, `-criacao`, `-descanso`, `-equipamento`, `-invocacoes`, `-manual`, `-nomes`, `-orcamento`, `-pericias` e o `conferir-voz`.
-- **Checagem de conteúdo que precisa acompanhar uma mudança autorizada se atualiza mantendo a utilidade**, e o `CHANGELOG` diz o que mudou nela e por quê. **Nunca afrouxe uma checagem só para passar**, e nunca apague teste.
-- **Se uma checagem reprovar porque um número da v0.4 não cabe no orçamento antigo, não mexa no número nem na checagem.** *Pare esse ponto, mostre ao Mizuki a checagem, o número e as saídas possíveis, e siga com o resto.* **A decisão é dele** — *a medição está na fila, e ele disse para não fazê-la agora.*
-- **O `subir.sh` só commita com os 31 verdes e `PULADA` zero.** *Os 212 testes da r5 das Invocações não certificam os Caminhos.*
-
-### Conferir antes de fechar
-
-- **Os quatro Caminhos, as doze Trilhas e as três rotas do Batedor, contra a v0.4**, número por número e efeito por efeito — *de preferência por script que extraia os números dos dois lados.*
-- **O Evocador e as Invocações ausentes nos três formatos** (PDF, `.docx` e texto corrido), e as referências, contagens e listas certas.
-- **Os quatro builds depois da última edição**, e o PDF de duas colunas no chat.
-- **No `CHANGELOG`:** o que mudou, os conflitos preservados, o que foi conferido de fato, e que o equilíbrio da v0.4 **não** foi medido. **Na fila do `ESTADO-ATUAL`:** medir as fatias da v0.4; o Evocador e as Invocações fora da edição jogável até o subsistema fechar; a ficha do `Claude 3` com os Caminhos velhos.
+**Os quatro Caminhos da coleção v0.4 estão no capítulo 8, e o Evocador e as Invocações saíram da edição jogável.** *A coleção mora em `caminhos/` e é a dona do texto; os `DESENHO-*.md` e a peça 17 ficaram como o registro com preço da coleção anterior; o desenvolvimento das Invocações e o texto que saiu do livro moram em `invocacoes/`.* **O equilíbrio da v0.4 não foi medido, e a medição está na fila (item 12).** *O que mudou, o que foi conferido e o que ficou para o Mizuki decidir estão na entrada da v0.270 do `CHANGELOG`.*
 
 ## Parte B — a rodada 3 dos anti-domínio, continuando
 
@@ -133,7 +71,7 @@ Trabalhe em `/media/mizuki/HD Externo II/Claude/Claude 2/`, na pasta **principal
 
 **Estado:** *o subsistema está na **v0.3 CANDIDATA, revisão 5, decisões até o §45**, com 212 verificações simbólicas aprovadas (178 anteriores e 34 novas), **sem prova de equilíbrio e sem playtest humano**.* **As decisões não precisam ser aprovadas de novo.**
 
-**Onde ler:** *depois da Parte A, na pasta em que ela preservou o 03-INVOCACOES/ (senão, no pacote):* **00-REGISTRO-E-PONTO-DE-RETOMADA.md**, **ATUAL-r5/01-PROCEDIMENTOS-DE-CAMPO-v0.3-CANDIDATA-r5.md** e **ATUAL-r5/03-PENDENCIAS-E-CONFLITOS.md**. *O REGISTRO-DA-CONTINUIDADE/ e as pesquisas servem para uma dúvida específica, não para leitura inteira.*
+**Onde ler:** *em `invocacoes/03-INVOCACOES/`:* **00-REGISTRO-E-PONTO-DE-RETOMADA.md**, **ATUAL-r5/01-PROCEDIMENTOS-DE-CAMPO-v0.3-CANDIDATA-r5.md** e **ATUAL-r5/03-PENDENCIAS-E-CONFLITOS.md**. *O REGISTRO-DA-CONTINUIDADE/ e as pesquisas servem para uma dúvida específica, não para leitura inteira.*
 
 **O que vale sem discussão:**
 - **Primeiro o subsistema de Invocações; o Evocador e as Trilhas dele vêm depois.**
@@ -157,11 +95,11 @@ Trabalhe em `/media/mizuki/HD Externo II/Claude/Claude 2/`, na pasta **principal
 
 ## Onde o projeto está
 
-**v0.269.** Manual do Fundamento na **v7.38**. **Vinte e sete peças de regra e vinte e sete validadores** em `sistema/03-mecanica/`, mais o `conferir-repositorio.py`, os dois de `manual/matematica/` e o `conferir-voz.py` — **31 validadores**. O livro tem **19 capítulos**. A ficha (`Claude 3`, o `Ficha---RPG-JJK`) não mudou.
+**v0.270.** Manual do Fundamento na **v7.38**. **Vinte e sete peças de regra e vinte e sete validadores** em `sistema/03-mecanica/`, mais o `conferir-repositorio.py`, os dois de `manual/matematica/` e o `conferir-voz.py` — **31 validadores**. O livro tem **18 capítulos**. A ficha (`Claude 3`, o `Ficha---RPG-JJK`) não mudou.
 
 **A v0.264 e a v0.265 foram pesquisa** (`sistema/01-pesquisa/anti-dominios/`, arquivos `A` a `N`). **A v0.266 foi a rodada 1** (as frases da peça 11 que atribuíam à obra o que ela não faz). **A v0.267 foi a rodada 2, a Cesta**, e **a v0.268 e a v0.269, o começo da rodada 3, o Simples** — *a v0.269 trocou a regra de queda que a v0.268 tinha publicado.*
 
-**Os Caminhos e as Invocações foram trabalhados fora desta pasta**, num chat que não a via, e voltam pelo pacote da Parte A. *A coleção v0.4 dos Caminhos está fechada; as Invocações estão na candidata r5.*
+**Os Caminhos e as Invocações foram trabalhados fora desta pasta**, num chat que não a via, e voltaram por pacote na v0.270. *A coleção v0.4 dos Caminhos está no livro, em `caminhos/`; as Invocações estão na candidata r5, em `invocacoes/`, fora da edição jogável.*
 
 ## O que a pesquisa dos anti-domínio mudou
 

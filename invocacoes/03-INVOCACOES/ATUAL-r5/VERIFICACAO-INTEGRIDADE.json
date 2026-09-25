@@ -1,0 +1,14 @@
+{
+  "base_de_comparacao": "ZIP historico r4 com hash conferido",
+  "zip_r4_sha256": "e90c9a9f2c89f0abd6aea09fa51c51f63651699dbb8e39a88ff6447361e85220",
+  "arquivos_r4_conferidos": 30,
+  "arquivos_r4_alterados": [],
+  "referencias_conferidas": 13,
+  "referencias_alteradas": [],
+  "scripts_herdados_identicos": [
+    "base_r1.py",
+    "bancada_r2.py",
+    "bancada_r4.py"
+  ],
+  "registro_autoral_identico": true
+}

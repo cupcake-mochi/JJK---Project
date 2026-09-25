@@ -1,0 +1,104 @@
+{
+  "tipo": "Integridade de arquivos e estado do projeto; não testes de regras",
+  "zip_origem": "/home/mizuki/Downloads/Projeto-M-Retorno-Autonomia-v0.2.zip",
+  "zip_sha256": "7d0e3570909a188a2cb4c88db98b28efd6a9c1402a20fdcdecbad25f01627013",
+  "copias_retorno": [
+    {
+      "arquivo": "retorno-recebido/00-LEIA-ME-E-PROMPT-WORK.md",
+      "sha256": "dac06bc13e7abf918dbe41303315a845c29c9c636c3ae928b2dcd39c5056b272"
+    },
+    {
+      "arquivo": "retorno-recebido/01-RETORNO.md",
+      "sha256": "f14a4b6d62d012447b4190870a99f3130b963d7a64f529e41aab1dddf238f710"
+    },
+    {
+      "arquivo": "retorno-recebido/02-PROPOSTA-REVISADA-INTEGRAL.md",
+      "sha256": "e3bf276b406d55696abe332716d4441ea9369cba6984846580a5b39b9c9bac72"
+    },
+    {
+      "arquivo": "retorno-recebido/MANIFESTO.json",
+      "sha256": "ae6025e4acb6dd707dbef0dfcbc7a7478bff6ee6c0b19cc8352598e8202d3fa3"
+    },
+    {
+      "arquivo": "retorno-recebido/referencias/Projeto-M-Analise-Acoes-Basicas-24-09-2026.zip",
+      "sha256": "514a0cb853e2411b7a79f2ce89440eb00bcfdf583bedb23013f4a2f92a1557d1"
+    },
+    {
+      "arquivo": "retorno-recebido/referencias/RPG-JJK-Acoes-e-Autonomia-v1.zip",
+      "sha256": "c9106717f26316364cf1ab896b471e29cb7a21557f52e04612d503a1e1e83c2d"
+    }
+  ],
+  "referencias_comparadas": [
+    {
+      "arquivo_atual": "/home/mizuki/CHAT-GPT/RPG -JJK/RPG-JJK-Caminhos-Trilhas-e-Ideias/01-Caminhos-e-Trilhas/01-Bastiao-Caminho-e-Trilhas.md",
+      "sha256": "fb7d7c5766167f37bf19a2b8062650d665322b6e5fee3e3691a1053dc2b7e5ef",
+      "identico_ao_pacote_anterior": true
+    },
+    {
+      "arquivo_atual": "/home/mizuki/CHAT-GPT/RPG -JJK/RPG-JJK-Caminhos-Trilhas-e-Ideias/01-Caminhos-e-Trilhas/02-Vanguarda-Caminho-e-Trilhas.md",
+      "sha256": "c647d220ab2516e4985e8c62fd6570df83d9d944aeeacb129b5556d8674598d6",
+      "identico_ao_pacote_anterior": true
+    },
+    {
+      "arquivo_atual": "/home/mizuki/CHAT-GPT/RPG -JJK/RPG-JJK-Caminhos-Trilhas-e-Ideias/01-Caminhos-e-Trilhas/03-Emanador-Caminho-e-Trilhas.md",
+      "sha256": "2594fe13949504a34f7931eae408fd7f0a3285ee5179770dde20879e582036c1",
+      "identico_ao_pacote_anterior": true
+    },
+    {
+      "arquivo_atual": "/home/mizuki/CHAT-GPT/RPG -JJK/RPG-JJK-Caminhos-Trilhas-e-Ideias/01-Caminhos-e-Trilhas/04-Guia-Caminho-e-Trilhas.md",
+      "sha256": "b00a51bfd75baf5c87f5c25b7b257d79fc1f576b780c8f984860051176724167",
+      "identico_ao_pacote_anterior": true
+    },
+    {
+      "arquivo_atual": "/home/mizuki/CHAT-GPT/RPG -JJK/RPG-JJK-Caminhos-Trilhas-e-Ideias/03-Notas/Estado-atual-e-pendencias.md",
+      "sha256": "5829dd61d27f389ea41fe8e1982750b16a32d89df99d58dc212832b45ba25160",
+      "identico_ao_pacote_anterior": true
+    },
+    {
+      "arquivo_atual": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/03-mecanica/15-invocacoes.md",
+      "sha256": "e570433441f5d5cc1241fea79f454ed5443a1926953a94bdc60122a1ff2d1661",
+      "identico_ao_pacote_anterior": true
+    },
+    {
+      "arquivo_atual": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/manual/10-como-jogar.md",
+      "sha256": "4d130c7d9a95970e90d0700308d1bb6a2c876def995a5851c7000f053f76b34c",
+      "identico_ao_pacote_anterior": true
+    },
+    {
+      "arquivo_atual": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/manual/11-o-turno.md",
+      "sha256": "81d91fd48731a2f24b5139b1916d3c363482cba7221056a2d826551beef8f741",
+      "identico_ao_pacote_anterior": true
+    },
+    {
+      "arquivo_atual": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/manual/15-dano-e-condicoes.md",
+      "sha256": "e46d7e7c9de8d620e2c51cd8efa456377514abfc688dd2f1f3309149ed7fdfd2",
+      "identico_ao_pacote_anterior": true
+    },
+    {
+      "arquivo_atual": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+      "sha256": "ab7379e8c67b9e8cdcf6118415f8970260112c7c327c790c4bde77305ba3ebb3",
+      "identico_ao_pacote_anterior": true
+    },
+    {
+      "arquivo_atual": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/manual/40-fundamento.md",
+      "sha256": "8ec6cd54f8fbb0cc7e98874a5242890a3b3392a792ec1cdef959abcec4b70d96",
+      "identico_ao_pacote_anterior": true
+    },
+    {
+      "arquivo_atual": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/manual/60-invocacoes.md",
+      "sha256": "10d4233f843782d6794413825f3491c9d9075c551279bd12d19c290df1c3a625",
+      "identico_ao_pacote_anterior": true
+    }
+  ],
+  "principal": {
+    "branch": "main",
+    "commit": "ba1e0df6f05dad71659eed2abd06c43d22963834",
+    "alteracoes": ""
+  },
+  "pasta_de_trabalho": {
+    "branch": "main",
+    "commit": "dff171d36148c7163fdebfdaf8ec95f343c03503",
+    "alteracoes": "?? RPG-JJK-Acoes-e-Autonomia-v1.zip\n?? RPG-JJK-Caminhos-Trilhas-e-Ideias.zip\n?? RPG-JJK-Caminhos-Trilhas-e-Ideias/\n?? desenvolvimento-invocacoes-2026-09-24/\n?? pacote-chat-acoes-e-autonomia-v1/"
+  },
+  "testes_de_regras_v02_executados": false
+}

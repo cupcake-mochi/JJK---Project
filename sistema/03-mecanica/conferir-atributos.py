@@ -1011,21 +1011,58 @@ else:
             _mau11.append(f'o glossario: a entrada `{_termo}` nao diz "{_f}" e "não acumula"')
 
     # 11b. as fontes de energia temporaria, lidas do livro, contra a tabela da peca
-    _fontes, _cam, _tri = {}, None, None
+    #
+    # v0.270: a coleção v0.4 dos Caminhos trocou as fontes. As antigas davam um
+    # numero fixo (`2`); as novas dao um valor que depende do nivel — o `Embalo`
+    # da a maestria, e a Conclusao `Refluxo` da metade do PE gasto numa Conducao.
+    # O leitor passou a reconhecer as tres formas de entrega, e a calcular a
+    # entrega NO NIVEL em que a fonte chega, que e' o que a tabela da peca publica.
+    # Forma de entrega que ele nao reconhece continua reprovando — e a linha que
+    # so' REPETE a regra geral ("segue as regras de energia temporaria") nao e'
+    # fonte, mas e' lida: ela nao pode voltar a falar em acumulados.
+    #
+    # O custo da Conducao nao mora aqui: ele e' lido do livro, da frase que o
+    # cobra, e se a frase mudar a leitura quebra alto.
+    _mcond = _re.search(r'pague \*\*metade da maestria, arredondada para cima, \+ (\d+) PE\*\*', _C35)
+    def _custo_conducao(nv):
+        return -(-maestria(nv) // 2) + int(_mcond.group(1))
+    _FORMAS = (
+        (r'`(\d+)`(?: de| PE\*\* como \*\*)\s*energia temporária', lambda m, nv: int(m.group(1))),
+        (r'energia temporária igual à sua \*\*maestria\*\*', lambda m, nv: maestria(nv)),
+        (r'energia temporária igual à metade do PE de fato gasto nela\*\*, arredondada para baixo, com mínimo de 1',
+         lambda m, nv: max(1, _custo_conducao(nv) // 2)),
+    )
+    _fontes, _cam, _tri, _nv_ctx = {}, None, None, None
     for _l in _C35.split('\n'):
         _mh = _re.match(r'^## (\S+)$', _l)
         if _mh:
-            _cam = _mh.group(1)
-        _mt = _re.match(r'^### Trilha: (\S+)$', _l)
+            _cam, _tri, _nv_ctx = _mh.group(1), None, None
+        _mt = _re.match(r'^### Trilha: (.+)$', _l)
         if _mt:
-            _tri = _mt.group(1)
-        if 'energia temporária' in _l:
-            _mn = _re.search(r'Nível (\d+): `([^`]+)`', _l)
-            _me = _re.search(r'`(\d+)`(?: de| PE\*\* como \*\*)\s*energia temporária', _l)
-            if not _mn or not _me:
-                _mau11.append(f'o livro cita energia temporaria numa linha que esta checagem nao le: {_l[:80]}')
-                continue
-            _fontes[_mn.group(2)] = (_cam, _tri, int(_mn.group(1)), int(_me.group(1)), 'acumulad' in _l)
+            _tri, _nv_ctx = _mt.group(1).strip(), None
+        _mn = _re.search(r'Nível (\d+): `([^`]+)`', _l)
+        if _mn:
+            _nv_ctx = int(_mn.group(1))
+        if 'energia temporária' not in _l:
+            continue
+        if _re.search(r'segue as regras (?:gerais )?de energia temporária', _l) and not _re.search(
+                r'Nível \d+: `|^>?\s*\*\*[^*]+\.\*\*', _l):
+            if 'acumulad' in _l:
+                _mau11.append(f'uma linha que repete a regra voltou a falar em acumulados: {_l[:80]}')
+            continue
+        # o nome: `Nível N: \`X\`` numa entrega, ou `**X.**` abrindo uma Conclusao
+        _mnome = _mn or _re.match(r'^>?\s*\*\*([^*`]+)\.\*\*', _l)
+        _ent = None
+        for _rx, _f in _FORMAS:
+            _me = _re.search(_rx, _l)
+            if _me and _nv_ctx is not None and (_mcond or 'metade do PE' not in _rx):
+                _ent = _f(_me, _nv_ctx)
+                break
+        if not _mnome or _ent is None:
+            _mau11.append(f'o livro cita energia temporaria numa linha que esta checagem nao le: {_l[:80]}')
+            continue
+        _nome = _mnome.group(2) if _mnome is _mn else _mnome.group(1)
+        _fontes[_nome] = (_cam, _tri, _nv_ctx, _ent, 'acumulad' in _l)
     _tab = {m.group(1): (m.group(2), m.group(3), int(m.group(4)), int(m.group(5)), int(m.group(6)), int(m.group(7)))
             for m in _re.finditer(r'^\| `([^`]+)` \| (\S+), Trilha `([^`]+)` \| (\d+) \| `(\d+)` \| `(\d+)` \| `(\d+)` \|$',
                                   _s512, _re.M)}

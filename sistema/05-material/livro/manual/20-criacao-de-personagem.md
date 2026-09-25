@@ -79,7 +79,6 @@ Que lugar você ocupa numa equipe. Um Caminho por personagem, escolhido agora e 
 | **Vanguarda** | a arma como resposta: alcançar, cortar, acabar | Destreza, Força |
 | **Guia** | o outro como resposta: estender, recuperar, reposicionar | Essência |
 | **Emanador** | a técnica como resposta: mais feitiço, e mais barato | Inteligência, Essência |
-| **Evocador** | o que você trouxe como resposta: invocações | Inteligência, Essência |
 
 O Caminho mexe em posicionamento, alvo, duração e recuperação. Ele nunca mexe em dados de dano e Classe de feitiço.
 
@@ -93,10 +92,9 @@ O Caminho mexe em posicionamento, alvo, duração e recuperação. Ele nunca mex
 | **Bastião** | 12 (d12) | 7 | 4 | Atletismo · Intimidação |
 | **Vanguarda** | 8 (d8) | 5 | 5 | Acrobacia · Percepção |
 | **Guia** | 8 (d8) | 5 | 5 | Persuasão · Medicina |
-| **Evocador** | 6 (d6) | 4 | 6 | Religião · Lidar com Animais |
 | **Emanador** | 6 (d6) | 4 | 6 | Ocultismo · Investigação |
 
-Mais **cinco perícias à sua escolha**, de qualquer uma da lista de perícias do sistema, **dois ofícios à sua escolha** e **um Teste de Resistência treinado**. *Os dois ofícios se trocam por mais uma perícia, e no `Guia`, no `Emanador` e no `Evocador` duas das cinco se trocam por treino em uma arma.*
+Mais **cinco perícias à sua escolha**, de qualquer uma da lista de perícias do sistema, **dois ofícios à sua escolha** e **um Teste de Resistência treinado**. *Os dois ofícios se trocam por mais uma perícia, e no `Guia` e no `Emanador` duas das cinco se trocam por treino em uma arma.*
 
 ### Equipamento
 
@@ -110,11 +108,11 @@ O uniforme não muda a sua Defesa no nível 2 — ele dá proteção 1 e desliga
 
 ### Trilha
 
-A Trilha é escolhida agora, junto do Caminho, e nasce com o personagem. São três por Caminho: Muro · Punho · Brasa no Bastião, Estocada · Batedor · Executor na Vanguarda, e assim por diante. A lista está no capítulo 8, *Caminhos e Trilhas*.
+A Trilha é escolhida agora, junto do Caminho, e nasce com o personagem. São três por Caminho: Muro · Punho · Combatente Amaldiçoado no Bastião, Estocada · Batedor · Executor na Vanguarda, e assim por diante. A lista está no capítulo 8, *Caminhos e Trilhas*.
 
 > **A Trilha já entrega no nível 2**, junto do primeiro degrau do Caminho, e volta a entregar nos níveis 11, 19 e 27. O texto de cada uma está no capítulo 8, *Caminhos e Trilhas*.
 >
-> **As três do Evocador concedem uma coisa a mais:** `Servo`, `Matilha` e `Coro` entregam **o corpo da invocação** junto com o degrau do nível 2. O corpo está no capítulo 8, na tabela das Trilhas do Evocador; a ficha dele você monta no capítulo 17, *Invocações*.
+> **O Evocador está fora desta edição**, com as três Trilhas dele e as invocações. Ele volta quando o subsistema de Invocações fechar, e até lá nenhuma ficha nova o escolhe.
 
 ## Passo 4 · Atributos
 
@@ -160,7 +158,7 @@ Os dois ofícios da Origem se trocam por mais uma perícia livre, e as duas rota
 | ficando com os ofícios | 9 de 23 | 2 de 11 |
 | trocando os dois | 10 de 23 | 0 de 11 |
 
-**E nos três Caminhos que não treinam arma de verdade — `Guia`, `Emanador` e `Evocador` — duas das cinco perícias à sua escolha viram treino em uma arma da lista.** *Não a categoria e não o tipo: uma arma.*
+**E nos dois Caminhos que não treinam arma de verdade — `Guia` e `Emanador` — duas das cinco perícias à sua escolha viram treino em uma arma da lista.** *Não a categoria e não o tipo: uma arma.*
 
 Os dois Testes de Resistência treinados saem de quatro: Físico, Vigor, Espírito e Intelecto. Um vem da Origem, o outro do Caminho.
 

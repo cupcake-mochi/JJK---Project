@@ -1,0 +1,136 @@
+{
+  "colecao": "RPG -JJK — Caminhos, Trilhas e ideias reservadas",
+  "versao_das_regras": "v0.4",
+  "regras_modificadas": false,
+  "quantidade_caminhos": 4,
+  "quantidade_trilhas": 12,
+  "rotas_batedor": [
+    "Yumi",
+    "Besta",
+    "Arma de Fogo"
+  ],
+  "quantidade_ideias_reservadas": 5,
+  "arquivos_fonte_sha256": {
+    "Caminhos-e-Trilhas-consolidados-v04.zip": "2a5994f728c7721c5951ebd9165643b32ba08858b351d9805377804947ed680d",
+    "Guia-v01-e-ideias-reservadas.zip": "af6cca1866c30149e9a60609bc05aa53907aef3c650ebe3aba37e05b2f76e210"
+  },
+  "arquivos": [
+    {
+      "arquivo": "01-Caminhos-e-Trilhas/01-Bastiao-Caminho-e-Trilhas.docx",
+      "bytes": 42908,
+      "sha256": "0c831ab5feb22ef82fbdadc97af3dd88729f2ed32f60df89f1f9bfc5afb41588",
+      "arquivo_de_origem": "Caminhos-e-Trilhas-consolidados-v04.zip",
+      "entrada_de_origem": "entrega/01-Bastiao-Caminho-e-Trilhas.docx",
+      "sha256_origem": "0c831ab5feb22ef82fbdadc97af3dd88729f2ed32f60df89f1f9bfc5afb41588",
+      "copia_integral": true
+    },
+    {
+      "arquivo": "01-Caminhos-e-Trilhas/01-Bastiao-Caminho-e-Trilhas.md",
+      "bytes": 7857,
+      "sha256": "fb7d7c5766167f37bf19a2b8062650d665322b6e5fee3e3691a1053dc2b7e5ef",
+      "arquivo_de_origem": "Caminhos-e-Trilhas-consolidados-v04.zip",
+      "entrada_de_origem": "entrega/01-Bastiao-Caminho-e-Trilhas.md",
+      "sha256_origem": "fb7d7c5766167f37bf19a2b8062650d665322b6e5fee3e3691a1053dc2b7e5ef",
+      "copia_integral": true
+    },
+    {
+      "arquivo": "01-Caminhos-e-Trilhas/02-Vanguarda-Caminho-e-Trilhas.docx",
+      "bytes": 54518,
+      "sha256": "39564966615331813ce00d6d8a81c8f4bd9e3d3c1b460495dd56ae0bdd08e169",
+      "arquivo_de_origem": "Caminhos-e-Trilhas-consolidados-v04.zip",
+      "entrada_de_origem": "entrega/02-Vanguarda-Caminho-e-Trilhas.docx",
+      "sha256_origem": "39564966615331813ce00d6d8a81c8f4bd9e3d3c1b460495dd56ae0bdd08e169",
+      "copia_integral": true
+    },
+    {
+      "arquivo": "01-Caminhos-e-Trilhas/02-Vanguarda-Caminho-e-Trilhas.md",
+      "bytes": 37063,
+      "sha256": "c647d220ab2516e4985e8c62fd6570df83d9d944aeeacb129b5556d8674598d6",
+      "arquivo_de_origem": "Caminhos-e-Trilhas-consolidados-v04.zip",
+      "entrada_de_origem": "entrega/02-Vanguarda-Caminho-e-Trilhas.md",
+      "sha256_origem": "c647d220ab2516e4985e8c62fd6570df83d9d944aeeacb129b5556d8674598d6",
+      "copia_integral": true
+    },
+    {
+      "arquivo": "01-Caminhos-e-Trilhas/03-Emanador-Caminho-e-Trilhas.docx",
+      "bytes": 49743,
+      "sha256": "c00724f5d2d0f7c26518593219df041fefccdd03c4862554d94b4b9e29028c8f",
+      "arquivo_de_origem": "Caminhos-e-Trilhas-consolidados-v04.zip",
+      "entrada_de_origem": "entrega/03-Emanador-Caminho-e-Trilhas.docx",
+      "sha256_origem": "c00724f5d2d0f7c26518593219df041fefccdd03c4862554d94b4b9e29028c8f",
+      "copia_integral": true
+    },
+    {
+      "arquivo": "01-Caminhos-e-Trilhas/03-Emanador-Caminho-e-Trilhas.md",
+      "bytes": 23229,
+      "sha256": "2594fe13949504a34f7931eae408fd7f0a3285ee5179770dde20879e582036c1",
+      "arquivo_de_origem": "Caminhos-e-Trilhas-consolidados-v04.zip",
+      "entrada_de_origem": "entrega/03-Emanador-Caminho-e-Trilhas.md",
+      "sha256_origem": "2594fe13949504a34f7931eae408fd7f0a3285ee5179770dde20879e582036c1",
+      "copia_integral": true
+    },
+    {
+      "arquivo": "01-Caminhos-e-Trilhas/04-Guia-Caminho-e-Trilhas.docx",
+      "bytes": 48946,
+      "sha256": "b030192e9454a3a9028153bf184e2b79d0febc835e0cb7341dc5396724a24bd4",
+      "arquivo_de_origem": "Caminhos-e-Trilhas-consolidados-v04.zip",
+      "entrada_de_origem": "entrega/04-Guia-Caminho-e-Trilhas.docx",
+      "sha256_origem": "b030192e9454a3a9028153bf184e2b79d0febc835e0cb7341dc5396724a24bd4",
+      "copia_integral": true
+    },
+    {
+      "arquivo": "01-Caminhos-e-Trilhas/04-Guia-Caminho-e-Trilhas.md",
+      "bytes": 26485,
+      "sha256": "b00a51bfd75baf5c87f5c25b7b257d79fc1f576b780c8f984860051176724167",
+      "arquivo_de_origem": "Caminhos-e-Trilhas-consolidados-v04.zip",
+      "entrada_de_origem": "entrega/04-Guia-Caminho-e-Trilhas.md",
+      "sha256_origem": "b00a51bfd75baf5c87f5c25b7b257d79fc1f576b780c8f984860051176724167",
+      "copia_integral": true
+    },
+    {
+      "arquivo": "02-Ideias-Reservadas/Historico/IDEIAS-RESERVADAS-caca-duas-distancias-e-desmonte.md",
+      "bytes": 9717,
+      "sha256": "1bdd98f1b3af8ba65733155461a5c47981f0c9cc963263f27c69ac796ef50a87",
+      "arquivo_de_origem": "Guia-v01-e-ideias-reservadas.zip",
+      "entrada_de_origem": "registro-original/IDEIAS-RESERVADAS-caca-duas-distancias-e-desmonte.md",
+      "sha256_origem": "1bdd98f1b3af8ba65733155461a5c47981f0c9cc963263f27c69ac796ef50a87",
+      "copia_integral": true
+    },
+    {
+      "arquivo": "02-Ideias-Reservadas/IDEIAS-RESERVADAS-RPG-JJK.docx",
+      "bytes": 42918,
+      "sha256": "a64d85ed5ee984f9e783e9c78d7b1214a0c7cd46edd3a6fc990905f380f94305",
+      "arquivo_de_origem": "Guia-v01-e-ideias-reservadas.zip",
+      "entrada_de_origem": "IDEIAS-RESERVADAS-RPG-JJK.docx",
+      "sha256_origem": "a64d85ed5ee984f9e783e9c78d7b1214a0c7cd46edd3a6fc990905f380f94305",
+      "copia_integral": true
+    },
+    {
+      "arquivo": "02-Ideias-Reservadas/IDEIAS-RESERVADAS-RPG-JJK.md",
+      "bytes": 10204,
+      "sha256": "574e01ebf48f847b87003a7945a44974ee9deb4b2f934133b5c7d4953fc0aadb",
+      "arquivo_de_origem": "Guia-v01-e-ideias-reservadas.zip",
+      "entrada_de_origem": "IDEIAS-RESERVADAS-RPG-JJK.md",
+      "sha256_origem": "574e01ebf48f847b87003a7945a44974ee9deb4b2f934133b5c7d4953fc0aadb",
+      "copia_integral": true
+    },
+    {
+      "arquivo": "02-Ideias-Reservadas/LEIA-ME.md",
+      "bytes": 1301,
+      "sha256": "126739d6d3f0ac3a58fa1ddf35196781bd3e246eb97f638e47badf20c8ed23c8",
+      "novo_nesta_organizacao": true
+    },
+    {
+      "arquivo": "03-Notas/Estado-atual-e-pendencias.md",
+      "bytes": 1990,
+      "sha256": "5829dd61d27f389ea41fe8e1982750b16a32d89df99d58dc212832b45ba25160",
+      "novo_nesta_organizacao": true
+    },
+    {
+      "arquivo": "LEIA-ME.md",
+      "bytes": 2035,
+      "sha256": "47821e5e72e6bca26978bc9ec77ea3a06f0c70decbcc17597c700c4a6c6bdd83",
+      "novo_nesta_organizacao": true
+    }
+  ]
+}

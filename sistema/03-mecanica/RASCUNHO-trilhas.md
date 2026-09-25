@@ -1,5 +1,7 @@
 # RASCUNHO — Caminho, Trilhas e subtrilhas
 
+> **⚠ v0.270 — as Trilhas daqui são as da coleção anterior.** *Desde a v0.270 o texto dos quatro Caminhos que não são o Evocador é o da coleção v0.4, em `caminhos/`, sem preço medido. Este documento fica como o registro do método e das taxas da coleção que valia até a v0.269.*
+
 **Isto é o método e o plano, não a peça.** Ela é a maior coisa que falta escrever — **quinze Trilhas, e ela toca 100% das fichas** —, e é a única da fila em que errar o formato antes de começar custa a peça inteira. Este documento existe para o formato ser decidido **antes**, e não no meio.
 
 Escrito na **v0.54**, com o Mizuki fora. **Nenhuma Trilha é escrita aqui.** O que está aqui é: o que já está travado, o que a conta já responde, o problema de escala com número, e as perguntas na ordem em que uma trava a outra.

@@ -201,7 +201,6 @@ As duas fixas são a assinatura do Caminho, o que qualquer um daquele Caminho sa
 | **Vanguarda** | Acrobacia · Percepção |
 | **Guia** | Persuasão · Medicina |
 | **Emanador** | Ocultismo · Investigação |
-| **Evocador** | Religião · Lidar com Animais |
 
 ### Perícias da Origem
 

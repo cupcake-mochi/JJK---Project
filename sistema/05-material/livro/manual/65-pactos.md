@@ -82,7 +82,7 @@ O ganho morre na cena. A perda, não. Um braço que você entregou no meio da lu
 
 As duas partes não precisam ser dois personagens de jogador, nem dois feiticeiros. Uma delas pode ser a Guilda.
 
-> **Invocação não fecha `Promessa`** — ela não é uma segunda vontade, e a ficha dela sai da sua, no capítulo 17, *Invocações*. **Uma invocação senciente fecha**, e aí ela é uma das duas partes como qualquer outra.
+> **Invocação não fecha `Promessa`** — ela não é uma segunda vontade, e a ficha dela sai da sua. *As regras de invocação estão fora desta edição.* **Uma invocação senciente fecha**, e aí ela é uma das duas partes como qualquer outra.
 
 ### Termos de uma Promessa
 

@@ -150,6 +150,16 @@ def trecho(txt, ini, fim=None, nome=''):
     return txt[a:b]
 
 
+# v0.270: o Evocador e as Invocacoes sairam da edicao jogavel, a pedido do Mizuki,
+# ate o subsistema fechar. O capitulo 16 do livro (o `60-invocacoes.md`) e a secao do
+# Evocador do capitulo 8 foram para `invocacoes/museu/`, sem mudar uma linha, e e'
+# o texto que volta se o subsistema voltar como estava. As checagens que comparavam
+# a peca com o livro passaram a comparar com essa copia: a peca e a copia continuam
+# tendo de dizer a mesma coisa. E o livro nao pode voltar a carregar o capitulo por
+# descuido enquanto a suspensao durar — a guarda disso esta no bloco da MORTE.
+_MUSEU = os.path.join(AQUI, '..', '..', 'invocacoes', 'museu')
+_MUSEU60 = os.path.join(_MUSEU, '60-invocacoes.md')
+_LIVRO60 = os.path.join(AQUI, '..', '05-material', 'livro', 'manual', '60-invocacoes.md')
 PECA = ler('15-invocacoes.md')
 P1 = ler('01-atributos-acerto-defesa.md')
 _POREXTENSO = {6: 'Seis', 7: 'Sete', 8: 'Oito', 9: 'Nove', 10: 'Dez'}
@@ -568,10 +578,10 @@ elif _MULT:
     # O capitulo 16 e' lido AQUI e nao reaproveitado: o _T60 da checagem 31 so
     # nasce 700 linhas abaixo, entao 'if _T60 in dir()' pulava o livro em silencio
     # e o rodape ainda dizia "nas duas publicacoes". Achado no arnes da v0.178.
-    _c16 = os.path.join(AQUI, '..', '05-material', 'livro', 'manual', '60-invocacoes.md')
+    _c16 = _MUSEU60
     _liv = open(_c16, encoding='utf-8').read() if os.path.isfile(_c16) else ''
     if not _liv:
-        erro('DOMINANCIA', 'nao achei o capitulo 16 do livro — a vida do corpo forte tem '
+        erro('DOMINANCIA', 'nao achei a copia do capitulo 16 no museu — a vida do corpo forte tem '
                            'duas publicacoes e so uma seria conferida')
     for _txt, _onde in ((S37, 'a peca 15 SS3.7'), (_liv, 'o capitulo 16 do livro')):
         if not _txt:
@@ -881,10 +891,10 @@ else:
         # o LIVRO publica a mesma ficha, e ele e a copia que o jogador le. Sem esta
         # comparacao a peca e o capitulo 16 divergem calados — foi assim que a ficha
         # derivada sobreviveu no livro depois de a peca 15 ja ter medido contra ela.
-        _c16 = os.path.join(AQUI, '..', '05-material', 'livro', 'manual', '60-invocacoes.md')
+        _c16 = _MUSEU60
         _lv = open(_c16, encoding='utf-8').read() if os.path.isfile(_c16) else ''
         if not _lv:
-            erro('ARRANJO', 'nao achei o capitulo 16 do livro — a ficha da invocacao tem '
+            erro('ARRANJO', 'nao achei a copia do capitulo 16 no museu — a ficha da invocacao tem '
                             'duas publicacoes e so uma seria conferida')
         else:
             _quer = [
@@ -1170,11 +1180,11 @@ if MULT_AREA:
         else:
             print(f'  [x] a frase do SS3.5 repete o x{_pm:g} e os {_pc:g} corpos, e as '
                   'duas batem com a tabela.')
-    _c16 = os.path.join(AQUI, '..', '05-material', 'livro', 'manual', '60-invocacoes.md')
+    _c16 = _MUSEU60
     _lv = open(_c16, encoding='utf-8').read() if os.path.isfile(_c16) else ''
     _ml = re.search(r'vulnerável a área: ela leva `×(\d+(?:[.,]\d+)?)` do dano', _lv)
     if not _lv:
-        erro('AREA', 'nao achei o capitulo 16 do livro — a vulnerabilidade tem duas '
+        erro('AREA', 'nao achei a copia do capitulo 16 no museu — a vulnerabilidade tem duas '
                      'publicacoes e so uma seria conferida')
     elif not _ml:
         erro('AREA', 'o capitulo 16 do livro nao publica a vulnerabilidade como numero — '
@@ -1379,10 +1389,15 @@ else:
     # Achado no arnes da v0.178: perturbar SO o livro saia VERDE — a peca e a
     # copia de mesa podiam divergir na regra que decide perda permanente, e e' a
     # copia de mesa que o jogador le (licao no 9).
-    _cap60 = os.path.join(AQUI, '..', '05-material', 'livro', 'manual', '60-invocacoes.md')
+    _cap60 = _MUSEU60
+    # v0.270: a guarda da suspensao. O capitulo saiu do livro, e voltar a ele e'
+    # decisao do Mizuki quando o subsistema fechar — nao um arquivo que reaparece.
+    if os.path.isfile(_LIVRO60):
+        erro('MORTE', 'o capitulo 60 voltou para o livro, e o Evocador e as Invocacoes estao fora '
+                      'da edicao jogavel desde a v0.270 — a volta e decisao do Mizuki')
     if not os.path.isfile(_cap60):
-        erro('MORTE', 'nao achei o capitulo 60 do livro — a regua da morte tem duas '
-                      'publicacoes e so uma foi conferida')
+        erro('MORTE', 'nao achei a copia do capitulo 60 em invocacoes/museu/ — a regua da morte '
+                      'tem duas publicacoes e so uma foi conferida')
     else:
         LIV = open(_cap60, encoding='utf-8').read()
         if not re.search(r'A régua da morte é a vida máxima daquele corpo', LIV):
@@ -1668,10 +1683,10 @@ if _arr_ok:
     print(f'  [x] {_arr_ok} arranjo(s) conferido(s): somam {PONTOS_PJ}, teto {TETO_CRIACAO}, '
           'principal saindo da entrada comprada, e todos distintos.')
 # e o LIVRO publica os mesmos arranjos — copia sem comparacao diverge (licao no 9)
-_c16i = os.path.join(AQUI, '..', '05-material', 'livro', 'manual', '60-invocacoes.md')
+_c16i = _MUSEU60
 _lvi = open(_c16i, encoding='utf-8').read() if os.path.isfile(_c16i) else ''
 if not _lvi:
-    erro('INSTANCIAS', 'nao achei o capitulo 16 do livro — as montagens tem duas '
+    erro('INSTANCIAS', 'nao achei a copia do capitulo 16 no museu — as montagens tem duas '
                        'publicacoes e so uma seria conferida')
 else:
     _falta_arr = []
@@ -1766,11 +1781,11 @@ else:
 # a regua da morte do SS3.5, a maestria da peca 1 e a base de Defesa da peca 1.
 bloco('17.1 EXEMPLO GUIADO — cada numero do passo a passo do capitulo 16')
 
-_c60g = os.path.join(AQUI, '..', '05-material', 'livro', 'manual', '60-invocacoes.md')
+_c60g = _MUSEU60
 _L60g = open(_c60g, encoding='utf-8').read() if os.path.isfile(_c60g) else ''
 _EX = trecho(_L60g, '### Exemplo', '### Montagens de exemplo', 'no capitulo 16') if _L60g else ''
 if not _EX.strip():
-    erro('EXEMPLO', 'nao achei o exemplo guiado no capitulo 16 do livro — ele e a unica '
+    erro('EXEMPLO', 'nao achei o exemplo guiado na copia do capitulo 16 no museu — ele e a unica '
                     'instancia publicada sem gemea na peca 15, entao apagar ele nao '
                     'acenderia mais nada em lugar nenhum')
 else:
@@ -2392,7 +2407,7 @@ bloco('31. QUEDA-DO-DONO — o dono cai, e o que a invocacao pode fazer')
 # "descanso longo". Reverter qualquer um dos donos de forma coerente sai verde.
 _P01 = ler('01-atributos-acerto-defesa.md')
 _P10 = ler('10-descanso-e-recuperacao.md')
-_LIV = os.path.join(AQUI, '..', '05-material', 'livro', 'manual', '60-invocacoes.md')
+_LIV = _MUSEU60
 _T60 = open(_LIV, encoding='utf-8').read() if os.path.exists(_LIV) else ''
 
 # -- os dois estados, lidos do dono
@@ -2652,10 +2667,11 @@ def _livro(nome):
     return open(_p, encoding='utf-8').read() if os.path.isfile(_p) else ''
 
 
-_L8 = _livro('35-caminhos-e-trilhas.md')
+# v0.270: a Voz e o Preito sao do Evocador, e a secao dele mora no museu
+_L8 = open(os.path.join(_MUSEU, '35-evocador.md'), encoding='utf-8').read() if os.path.isfile(os.path.join(_MUSEU, '35-evocador.md')) else ''
 _L2 = _livro('11-o-turno.md')
 if not (_T60 and _L8 and _L2):
-    erro('CD', 'nao achei um dos capitulos do livro (16, 8 ou 2) — a CD tem duas publicacoes e '
+    erro('CD', 'nao achei um dos capitulos (16 e 8 no museu, ou o 2 no livro) — a CD tem duas publicacoes e '
                'dois donos no livro, e sem eles a checagem nao tem contra o que comparar')
 else:
     # ---- o molde: a CD de feitico do jogador, na peça 1 §5

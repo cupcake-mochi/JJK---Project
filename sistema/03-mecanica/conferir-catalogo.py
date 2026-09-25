@@ -425,51 +425,102 @@ print('=' * 88)
 # sem mexer na frase acende a 10a. Uma checagem so cobriria metade.
 import glob as _glob
 
-_m = re.search(r'\*\*Or[cç]amento:\*\*\s*Caminho em `([^`]+)`', CAM)
-CAL_DONO = _m.group(1).strip() if _m else None
+# v0.270: o DONO mudou. Ate a v0.269 era a linha de orcamento do DESENHO-caminhos.md,
+# com quatro degraus (`2 · 7 · 15 · 30`). A colecao v0.4 dos Caminhos, que mora em
+# caminhos/ e que o Mizuki mandou pôr no livro "exatamente" como ela e', deu aos
+# quatro Caminhos um degrau no nivel 23 e passou a ser a dona do texto deles. O
+# DESENHO ficou como o registro com preco da colecao anterior, e a linha dele virou
+# historia. O calendario vivo sai dos quadros de nivel dos quatro arquivos — o
+# mesmo leitor da checagem 6 do conferir-progressao.py —, e eles tem de concordar.
+_V04 = os.path.join(RAIZ, 'caminhos', '01-Caminhos-e-Trilhas')
+_cal_v04 = set()
+for _a in sorted(_glob.glob(os.path.join(_V04, '*.md'))):
+    _b0 = re.split(r'\n(?=## Trilha )', ler(_a))[0]
+    _mq = re.search(r'^\| \*\*Nível\*\* \|[^\n]*\n\|[- |]+\|\n((?:\|[^\n]*\n)+)', _b0, re.M)
+    _cal_v04.add(tuple(re.findall(r'^\| (\d+) \|', _mq.group(1), re.M)) if _mq else ())
+CAL_DONO = ' · '.join(next(iter(_cal_v04))) if len(_cal_v04) == 1 and next(iter(_cal_v04)) else None
 if CAL_DONO is None:
-    erro('10', 'nao achei a linha de orcamento do DESENHO-caminhos.md — o dono do '
-               'calendario de Caminho sumiu e esta checagem parou de conferir')
+    erro('10', f'os quatro arquivos da colecao v0.4 nao dao um calendario de Caminho so: '
+               f'{sorted(_cal_v04)} — o dono do calendario sumiu ou se partiu')
 else:
-    print(f'  dono: DESENHO-caminhos.md diz `{CAL_DONO}`')
+    print(f'  dono: a colecao v0.4, em caminhos/, diz `{CAL_DONO}`')
 
-# O calendario que MORREU na v0.70. Fica escrito aqui de proposito, no molde da
+# Os calendarios que MORRERAM. Ficam escritos aqui de proposito, no molde da
 # checagem 4g do conferir-manual.py: guardar so o valor VIVO nao pega a copia
-# velha que nao usa a mesma frase.
-CAL_MORTO = '7 · 15 · 23 · 29'
+# velha que nao usa a mesma frase. O primeiro morreu na v0.70; o segundo, na v0.270,
+# e ele continua valendo como historia — no DESENHO-caminhos.md e na peca 17, que
+# sao o registro com preco da colecao anterior.
+CAL_MORTOS = ('7 · 15 · 23 · 29', '2 · 7 · 15 · 30')
 
 # Quantas copias vivas existem. Se cair, alguem reescreveu a frase e a 10a
-# parou de conferir em silencio — que e o modo de falha da licao no 8.
+# parou de conferir em silencio — que e o modo de falha da licao no 8. Eram 3 ate
+# a v0.269 e continuam 3, mas outras: a peca 6 §2, a tabela `Entregas por nivel`
+# do capitulo 35 e a pagina unica do ESTADO-ATUAL. As de antes, com o calendario
+# de quatro degraus, viraram historia, e a 10b cuida delas.
 COPIAS_ESPERADAS = 3
 
-PUB = re.compile(r'[Cc]aminhos?[^`\n]{0,45}?(?:em|para) `(\d+(?: · \d+){3})`')
+PUB = re.compile(r'[Cc]aminhos?[^`\n]{0,45}?(?:em|para) `(\d+(?: · \d+){3,4})`')
 HIST = re.compile(r'(at[ée] a v0|era `|foi `|superad|antigo|mudou na v0|antes da v0|contra o)')
 
+# ⚠ v0.270: ate aqui os cinco caminhos abaixo eram montados como se RAIZ fosse
+# `sistema/` — `RAIZ/ESTADO-ATUAL.md`, `RAIZ/../README.md` — e RAIZ e' a raiz do
+# repositorio. Nenhum dos cinco existia, e o `os.path.exists` do laco os pulava em
+# silencio: o ESTADO-ATUAL, o README, o LEIA-ME e dois DESENHO nunca foram lidos por
+# esta checagem. Hoje o caminho e' o certo, e arquivo que falta REPROVA.
 VIVOS = sorted(_glob.glob(os.path.join(AQUI, '[0-9][0-9]-*.md')))
-VIVOS += [os.path.join(RAIZ, 'ESTADO-ATUAL.md'),
-          os.path.join(RAIZ, '..', 'README.md'),
-          os.path.join(RAIZ, 'LEIA-ME.md'),
-          os.path.join(RAIZ, '..', 'DESENHO-trilhas.md'),
-          os.path.join(RAIZ, '..', 'DESENHO-manhas.md')]
+VIVOS += [os.path.join(RAIZ, 'sistema', 'ESTADO-ATUAL.md'),
+          os.path.join(RAIZ, 'README.md'),
+          os.path.join(RAIZ, 'sistema', 'LEIA-ME.md'),
+          os.path.join(RAIZ, 'DESENHO-caminhos.md'),
+          os.path.join(RAIZ, 'DESENHO-trilhas.md'),
+          os.path.join(RAIZ, 'DESENHO-manhas.md')]
 
 def _hist(l):
     return l.lstrip().startswith('>') or '~~' in l or bool(HIST.search(l))
 
+# A 10a compara so linha VIVA: a linha historica pode guardar o calendario que
+# valia quando ela foi escrita — e e a 10b que garante que o valor morto so vive la.
+# Ate a v0.269 a 10a comparava toda linha, historica inclusive, porque o dono nunca
+# tinha mudado desde que ela nasceu; com o dono mudando, a historia so passa a
+# poder ser lida como historia.
 copias = 0
 for _cam in VIVOS:
     if not os.path.exists(_cam):
+        erro('10', f'{os.path.relpath(_cam, RAIZ)} nao existe — a lista de copias vivas aponta '
+                   'para um arquivo que sumiu, e ele deixaria de ser conferido em silencio')
         continue
     _rel = os.path.basename(_cam)
     for _i, _l in enumerate(ler(_cam).split('\n'), 1):
-        if CAL_DONO:
+        if CAL_DONO and not _hist(_l):
             for _pub in PUB.findall(_l):
+                # calendario e' sequencia de NIVEIS, e nivel cresce: a v0.270 alargou a
+                # busca para cinco numeros e ela passou a pegar `7 · 5 · 5 · 4 · 4`,
+                # que e' soma de vida e PE da peca 20 e nao calendario
+                _ns = [int(_x) for _x in _pub.split(' · ')]
+                if _ns != sorted(set(_ns)):
+                    continue
                 copias += 1
                 if _pub.strip() != CAL_DONO:
                     erro('10', f'{_rel}:{_i} publica o degrau de Caminho em `{_pub}` e o '
-                               f'dono (DESENHO-caminhos.md) diz `{CAL_DONO}`')
-        if CAL_MORTO in _l and not _hist(_l):
-            erro('10', f'{_rel}:{_i} carrega o calendario aposentado `{CAL_MORTO}` '
-                       f'fora de nota historica')
+                               f'dono (a colecao v0.4) diz `{CAL_DONO}`')
+        for _morto in CAL_MORTOS:
+            if _morto in _l and not _hist(_l):
+                erro('10', f'{_rel}:{_i} carrega o calendario aposentado `{_morto}` '
+                           f'fora de nota historica')
+
+# E o livro: a tabela `Entregas por nivel` do capitulo 35 marca "degrau de Caminho"
+# nos niveis do dono. E a copia que o jogador le.
+_LIV35 = os.path.join(RAIZ, 'sistema', '05-material', 'livro', 'manual',
+                      '35-caminhos-e-trilhas.md')
+_T35 = ler(_LIV35) if os.path.isfile(_LIV35) else ''
+_ent35 = re.search(r'\*\*Entregas por nível\*\*\n\{: \.tab-titulo \}\n\n((?:\|[^\n]*\n)+)', _T35)
+if not _ent35:
+    erro('10', 'nao achei a tabela `Entregas por nível` no capitulo 35 do livro')
+elif CAL_DONO:
+    _nv35 = ' · '.join(_mm.group(1) for _mm in re.finditer(r'^\| (\d+) \| [^\n]*degrau d[eo] Caminho', _ent35.group(1), re.M))
+    copias += 1
+    if _nv35 != CAL_DONO:
+        erro('10', f'o capitulo 35 do livro marca degrau de Caminho em `{_nv35}` e o dono diz `{CAL_DONO}`')
 
 print(f'  {copias} copia(s) viva(s) do calendario conferida(s) contra o dono')
 if copias < COPIAS_ESPERADAS:
@@ -477,7 +528,7 @@ if copias < COPIAS_ESPERADAS:
                f'eram {COPIAS_ESPERADAS} — alguem reescreveu a frase e a 10a esta '
                f'conferindo menos do que conferia')
 if not [e for e in erros if e.startswith('[10]')]:
-    print('  [x] toda copia viva bate com o dono, e o calendario aposentado nao sobrou.')
+    print('  [x] toda copia viva bate com o dono, e os calendarios aposentados nao sobraram.')
 
 # -- 10.1: o numero do `Parrudo`, que era publicado sem dono -------------------
 # v0.185: o `5 x a sua maestria` da segunda rota da Sintonia existia em UM lugar,
@@ -488,22 +539,109 @@ if not [e for e in erros if e.startswith('[10]')]:
 #
 # A checagem nao guarda o numero: ela le os DOIS lados e compara. Se o dono mudar
 # o valor, o livro tem de mudar junto — licao no 9, na forma em que ela morde.
+#
+# v0.270: o Evocador saiu da edicao jogavel, e a secao dele saiu do capitulo 35 para
+# invocacoes/museu/35-evocador.md, que e o texto que volta quando o subsistema fechar.
+# A comparacao continua, contra essa copia; e o livro NAO pode voltar a carregar o
+# Evocador por descuido, enquanto a suspensao durar.
 _RX_PARRUDO = re.compile(r'\*\*`?Parrudo`?\*\*[^\n]*?`(\d+(?:[.,]\d+)?)\s*×`\s*a sua maestria')
-_LIV35 = os.path.join(RAIZ, 'sistema', '05-material', 'livro', 'manual',
-                      '35-caminhos-e-trilhas.md')
+_MUS35 = os.path.join(RAIZ, 'invocacoes', 'museu', '35-evocador.md')
 _m_dono = _RX_PARRUDO.search(CAM)
-_m_livro = _RX_PARRUDO.search(ler(_LIV35)) if os.path.isfile(_LIV35) else None
+_m_livro = _RX_PARRUDO.search(ler(_MUS35)) if os.path.isfile(_MUS35) else None
+if re.search(r'^## Evocador', _T35, re.M) or _RX_PARRUDO.search(_T35):
+    erro('10', 'o capitulo 35 do livro voltou a publicar o Evocador, que esta fora da edicao '
+               'jogavel desde a v0.270')
 if not _m_dono:
     erro('10', 'DESENHO-caminhos.md: o `Parrudo` esta sem numero — ele foi publicado no '
                'capitulo 35 sem passar pelo dono uma vez, e nao pode voltar a ficar assim')
 elif not _m_livro:
-    erro('10', 'o capitulo 35 nao publica o numero do `Parrudo` — o dono diz '
+    erro('10', 'a copia do Evocador no museu nao publica o numero do `Parrudo` — o dono diz '
                f'`{_m_dono.group(1)} x` a maestria e o jogador nao le nada')
 elif _m_dono.group(1) != _m_livro.group(1):
-    erro('10', f'o `Parrudo`: o dono diz `{_m_dono.group(1)} ×` a maestria e o capitulo 35 '
+    erro('10', f'o `Parrudo`: o dono diz `{_m_dono.group(1)} ×` a maestria e a copia do museu '
                f'diz `{_m_livro.group(1)} ×` — uma copia e o dono divergindo')
 else:
-    print(f'  [x] o `Parrudo` diz `{_m_dono.group(1)} ×` a maestria no dono e no capitulo 35.')
+    print(f'  [x] o `Parrudo` diz `{_m_dono.group(1)} ×` a maestria no dono e na copia do museu,')
+    print('      e o capitulo 35 do livro nao carrega o Evocador.')
+
+
+# -- 10.3: a copia do livro contra a colecao v0.4 -------------------------------
+# v0.270. A colecao v0.4, em caminhos/, e' a dona do texto dos quatro Caminhos e das
+# doze Trilhas, e o capitulo 35 do livro e' a copia que o jogador le — licao no 9, e
+# nada comparava as duas. Esta sub-checagem cobra que TODA frase e toda celula de
+# tabela da v0.4 esteja no capitulo, depois de normalizar as trocas de forma que o
+# livro faz de proposito (o titulo `Nivel N — X` vira a entrada `Nivel N: X.`, o
+# `Exemplo:` vira caixa `Exemplo.`, a `Conclusao — X` vira entrada `X.`). O que o
+# livro adaptou para a voz dele esta declarado abaixo, frase a frase, com o motivo;
+# qualquer outra diferenca acende — inclusive um numero trocado numa frase.
+_ADAPTADAS = {
+    'A resposta do adversário': 'titulo com artigo: o conferir-voz reprova',
+    'Sua decisão': 'titulo renomeado junto do de cima: `Decisão do Executor`',
+    'Conclusões próprias': 'titulo: `Conclusões do Executor`, no molde das rotas',
+    'Escolha duas opções da tabela.': 'tabela sem nome: o conferir-voz reprova',
+    'A partir daqui, a lista também inclui:': 'a lista virou a tabela `Modulações do nível 15`',
+    'Exemplo:': 'o exemplo da Sobrecarga, com o texto na linha seguinte',
+    'Guia — Coordenador de Aberturas': 'titulo: o livro abre o Caminho pelo nome',
+    'Vida: 5 por nível, com Constituição pela regra geral.': 'esta no quadro de caracteristicas',
+    'Energia amaldiçoada: 5 PE por nível.': 'esta no quadro de caracteristicas',
+    'O aliado escolhe:': 'tabela sem nome: `Respostas coordenadas`',
+    'Pague para aumentar uma obra existente conforme a tabela abaixo.': 'tabela por posicao: `Obras maiores`',
+    'O custo da tabela é adicional aos 2 PE da obra básica.': 'tabela sem nome: `Obras maiores`',
+    'Depois da confirmação, recebe outra maneira de aproveitá-la:': 'tabela sem nome: `Leitura confirmada`',
+}
+def _limpa103(s):
+    s = re.sub(r'[*`_]', '', s).replace('“', '"').replace('”', '"')
+    s = re.sub(r'^\s*(>|#+|-|\|)\s*', '', s)
+    return ' '.join(s.split())
+def _forma103(f):
+    m = re.fullmatch(r'Nível (\d+) — (.+)', f)
+    if m: return f'Nível {m.group(1)}: {m.group(2)}.'
+    m = re.fullmatch(r'Exemplo: (.)(.*)', f)
+    if m: return f'Exemplo. {m.group(1).upper()}{m.group(2)}'
+    m = re.fullmatch(r'Conclusão — (.+)', f)
+    if m: return f'{m.group(1)}.'
+    return f
+_liv103 = ' '.join(_limpa103(l) for l in _T35.split('\n'))
+_n103, _falta103, _adapt103 = 0, [], 0
+for _a in sorted(_glob.glob(os.path.join(_V04, '*.md'))):
+    _em_quadro = False
+    for _l in ler(_a).split('\n'):
+        _cel = _l.strip().startswith('|')
+        # o quadro de caracteristicas e' a BASE do Caminho, e ela tem dono proprio
+        # (a peca 6): o livro usa o quadro dele, e a divergencia de base e' conferida
+        # a parte, na mao, e registrada. Aqui entram as habilidades.
+        if _cel and 'Característica' in _l:
+            _em_quadro = True
+        if not _cel:
+            _em_quadro = False
+        if _em_quadro:
+            continue
+        _partes = ([_limpa103(c) for c in _l.strip().strip('|').split('|')] if _cel else
+                   re.split(r'(?<=[.!?:;])\s+(?=[A-ZÀ-Ú"(])', _limpa103(_l)))
+        for _f in _partes:
+            if not _f or re.fullmatch(r'-+', _f):
+                continue
+            if re.search(r'setembro de 2026|^Caminho base$|^Trilha [A-ZÀ-Ú]|^(Yumi|Besta|Arma de Fogo) — ', _f):
+                continue       # rotulo de edicao e titulo de secao: o livro tem os dele
+            _n103 += 1
+            if _f in _liv103 or _forma103(_f) in _liv103:
+                continue
+            if _f in _ADAPTADAS:
+                _adapt103 += 1
+                continue
+            _falta103.append((os.path.basename(_a), _f))
+if not _T35 or _n103 < 1000:
+    erro('10', f'10.3: li so {_n103} frase(s) da colecao v0.4 — a leitura quebrou, e a copia do '
+               'livro passaria sem comparacao')
+for _arq, _f in _falta103:
+    erro('10', f'10.3: {_arq} diz "{_f[:90]}" e o capitulo 35 do livro nao diz — a copia '
+               'divergiu da dona')
+if _adapt103 != len(_ADAPTADAS):
+    erro('10', f'10.3: {len(_ADAPTADAS)} adaptacoes declaradas e {_adapt103} usadas — uma delas '
+               'deixou de existir na v0.4, e a lista tem de encolher junto')
+if _n103 >= 1000 and not _falta103 and _adapt103 == len(_ADAPTADAS):
+    print(f'  [x] as {_n103} frases e celulas da v0.4 estao no capitulo 35, com as '
+          f'{len(_ADAPTADAS)} adaptacoes de voz declaradas.')
 
 
 # -- 10.2: a ORDEM da rampa do Absorver contra a Reacao de cobrir-se -----------

@@ -1,0 +1,3316 @@
+{
+  "estado": "RASCUNHO",
+  "prototipo_sha256": "2009bb60aca236f485f1bbac5dea35a2bc325c3e98feb3e5016d4e6f3f516df6",
+  "comando": "python3 '/home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-invocacoes-2026-09-24/testes-invocacoes.py'",
+  "natureza": "bancada procedimental determinística; não motor completo nem certificação de balanceamento",
+  "verificacoes": [
+    {
+      "teste": "Não-Evocador + 1: capacidade",
+      "esperado": 3,
+      "obtido": 3,
+      "passou": true
+    },
+    {
+      "teste": "Não-Evocador + 1: ataques",
+      "esperado": 1,
+      "obtido": 1,
+      "passou": true
+    },
+    {
+      "teste": "Não-Evocador + 1: movimento de dois corpos",
+      "esperado": 2,
+      "obtido": 2,
+      "passou": true
+    },
+    {
+      "teste": "Não-Evocador + 1: Bônus restante",
+      "esperado": 1,
+      "obtido": 1,
+      "passou": true
+    },
+    {
+      "teste": "Não-Evocador + 1: terceiro ataque/Padrão adicional",
+      "passou": true,
+      "rejeicao": "recurso já gasto"
+    },
+    {
+      "teste": "Não-Evocador + 1: dois Bloquear",
+      "esperado": [
+        16,
+        16
+      ],
+      "obtido": [
+        16,
+        16
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Não-Evocador + 1: Bloquear preserva Reações",
+      "esperado": {
+        "usuario": 1,
+        "coletiva": 1
+      },
+      "obtido": {
+        "usuario": 1,
+        "coletiva": 1
+      },
+      "passou": true
+    },
+    {
+      "teste": "Não-Evocador + 1: duas reservas distintas",
+      "esperado": {
+        "usuario": 0,
+        "coletiva": 0
+      },
+      "obtido": {
+        "usuario": 0,
+        "coletiva": 0
+      },
+      "passou": true
+    },
+    {
+      "teste": "Não-Evocador + 1: segunda Reação de criatura",
+      "passou": true,
+      "rejeicao": "recurso já gasto"
+    },
+    {
+      "teste": "Não-Evocador + 1: Guia orienta própria criatura",
+      "esperado": {
+        "usuario": 0,
+        "coletiva": 0
+      },
+      "obtido": {
+        "usuario": 0,
+        "coletiva": 0
+      },
+      "passou": true
+    },
+    {
+      "teste": "Não-Evocador + 1: segunda Resposta Coordenada",
+      "passou": true,
+      "rejeicao": "recurso já gasto"
+    },
+    {
+      "teste": "Não-Evocador + 1: interceptar preserva Reação do usuário",
+      "esperado": 1,
+      "obtido": 1,
+      "passou": true
+    },
+    {
+      "teste": "Não-Evocador + 1: oportunidade após interceptar",
+      "passou": true,
+      "rejeicao": "recurso já gasto"
+    },
+    {
+      "teste": "Não-Evocador + 1: resposta após interceptar",
+      "passou": true,
+      "rejeicao": "recurso já gasto"
+    },
+    {
+      "teste": "Não-Evocador + 1: resposta rejeitada não gasta Reação do Guia",
+      "esperado": 1,
+      "obtido": 1,
+      "passou": true
+    },
+    {
+      "teste": "Não-Evocador + 1: troca preserva PV máximos simultâneos",
+      "esperado": 36,
+      "obtido": 36,
+      "passou": true
+    },
+    {
+      "teste": "Não-Evocador + 1: reserva amplia PV acessíveis",
+      "esperado": 64,
+      "obtido": 64,
+      "passou": true
+    },
+    {
+      "teste": "Não-Evocador + 1: custo troca",
+      "esperado": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "obtido": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Não-Evocador + 1: troca não altera pv",
+      "passou": true,
+      "rejeicao": "troca alterou pv"
+    },
+    {
+      "teste": "Não-Evocador + 1: troca não altera condicoes",
+      "passou": true,
+      "rejeicao": "troca alterou condicoes"
+    },
+    {
+      "teste": "Não-Evocador + 1: troca não altera usos",
+      "passou": true,
+      "rejeicao": "troca alterou usos"
+    },
+    {
+      "teste": "Não-Evocador + 1: troca não reseta Reação",
+      "passou": true,
+      "rejeicao": "troca renovou reserva de Reação"
+    },
+    {
+      "teste": "Não-Evocador + 1: recolhida continua sofrendo efeito",
+      "esperado": [
+        25,
+        1
+      ],
+      "obtido": [
+        25,
+        1
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Não-Evocador + 1: remanifestar conserva ferida e duração",
+      "esperado": [
+        25,
+        1
+      ],
+      "obtido": [
+        25,
+        1
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Não-Evocador + 1: foco 15 + 15",
+      "esperado": [
+        6
+      ],
+      "obtido": [
+        6
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Não-Evocador + 1: área 12 individual",
+      "esperado": [
+        24
+      ],
+      "obtido": [
+        24
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Não-Evocador + 1: custo entrada",
+      "esperado": 2,
+      "obtido": 2,
+      "passou": true
+    },
+    {
+      "teste": "Singular: capacidade",
+      "esperado": 6,
+      "obtido": 6,
+      "passou": true
+    },
+    {
+      "teste": "Singular: ataques",
+      "esperado": 1,
+      "obtido": 1,
+      "passou": true
+    },
+    {
+      "teste": "Singular: movimento de dois corpos",
+      "esperado": 2,
+      "obtido": 2,
+      "passou": true
+    },
+    {
+      "teste": "Singular: Bônus restante",
+      "esperado": 1,
+      "obtido": 1,
+      "passou": true
+    },
+    {
+      "teste": "Singular: terceiro ataque/Padrão adicional",
+      "passou": true,
+      "rejeicao": "recurso já gasto"
+    },
+    {
+      "teste": "Singular: dois Bloquear",
+      "esperado": [
+        16,
+        16
+      ],
+      "obtido": [
+        16,
+        16
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Singular: Bloquear preserva Reações",
+      "esperado": {
+        "usuario": 1,
+        "coletiva": 1
+      },
+      "obtido": {
+        "usuario": 1,
+        "coletiva": 1
+      },
+      "passou": true
+    },
+    {
+      "teste": "Singular: duas reservas distintas",
+      "esperado": {
+        "usuario": 0,
+        "coletiva": 0
+      },
+      "obtido": {
+        "usuario": 0,
+        "coletiva": 0
+      },
+      "passou": true
+    },
+    {
+      "teste": "Singular: segunda Reação de criatura",
+      "passou": true,
+      "rejeicao": "recurso já gasto"
+    },
+    {
+      "teste": "Singular: Guia orienta própria criatura",
+      "esperado": {
+        "usuario": 0,
+        "coletiva": 0
+      },
+      "obtido": {
+        "usuario": 0,
+        "coletiva": 0
+      },
+      "passou": true
+    },
+    {
+      "teste": "Singular: segunda Resposta Coordenada",
+      "passou": true,
+      "rejeicao": "recurso já gasto"
+    },
+    {
+      "teste": "Singular: interceptar preserva Reação do usuário",
+      "esperado": 1,
+      "obtido": 1,
+      "passou": true
+    },
+    {
+      "teste": "Singular: oportunidade após interceptar",
+      "passou": true,
+      "rejeicao": "recurso já gasto"
+    },
+    {
+      "teste": "Singular: resposta após interceptar",
+      "passou": true,
+      "rejeicao": "recurso já gasto"
+    },
+    {
+      "teste": "Singular: resposta rejeitada não gasta Reação do Guia",
+      "esperado": 1,
+      "obtido": 1,
+      "passou": true
+    },
+    {
+      "teste": "Singular: troca preserva PV máximos simultâneos",
+      "esperado": 72,
+      "obtido": 72,
+      "passou": true
+    },
+    {
+      "teste": "Singular: reserva amplia PV acessíveis",
+      "esperado": 136,
+      "obtido": 136,
+      "passou": true
+    },
+    {
+      "teste": "Singular: custo troca",
+      "esperado": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "obtido": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Singular: troca não altera pv",
+      "passou": true,
+      "rejeicao": "troca alterou pv"
+    },
+    {
+      "teste": "Singular: troca não altera condicoes",
+      "passou": true,
+      "rejeicao": "troca alterou condicoes"
+    },
+    {
+      "teste": "Singular: troca não altera usos",
+      "passou": true,
+      "rejeicao": "troca alterou usos"
+    },
+    {
+      "teste": "Singular: troca não reseta Reação",
+      "passou": true,
+      "rejeicao": "troca renovou reserva de Reação"
+    },
+    {
+      "teste": "Singular: recolhida continua sofrendo efeito",
+      "esperado": [
+        61,
+        1
+      ],
+      "obtido": [
+        61,
+        1
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Singular: remanifestar conserva ferida e duração",
+      "esperado": [
+        61,
+        1
+      ],
+      "obtido": [
+        61,
+        1
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Singular: foco 15 + 15",
+      "esperado": [
+        42
+      ],
+      "obtido": [
+        42
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Singular: área 12 individual",
+      "esperado": [
+        60
+      ],
+      "obtido": [
+        60
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Singular: custo entrada",
+      "esperado": 2,
+      "obtido": 2,
+      "passou": true
+    },
+    {
+      "teste": "Parceria + 1: capacidade",
+      "esperado": 3,
+      "obtido": 3,
+      "passou": true
+    },
+    {
+      "teste": "Parceria + 1: ataques",
+      "esperado": 2,
+      "obtido": 2,
+      "passou": true
+    },
+    {
+      "teste": "Parceria + 1: movimento de dois corpos",
+      "esperado": 2,
+      "obtido": 2,
+      "passou": true
+    },
+    {
+      "teste": "Parceria + 1: Bônus restante",
+      "esperado": 0,
+      "obtido": 0,
+      "passou": true
+    },
+    {
+      "teste": "Parceria + 1: terceiro ataque/Padrão adicional",
+      "passou": true,
+      "rejeicao": "recurso já gasto"
+    },
+    {
+      "teste": "Parceria + 1: dois Bloquear",
+      "esperado": [
+        16,
+        16
+      ],
+      "obtido": [
+        16,
+        16
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Parceria + 1: Bloquear preserva Reações",
+      "esperado": {
+        "usuario": 1,
+        "coletiva": 1
+      },
+      "obtido": {
+        "usuario": 1,
+        "coletiva": 1
+      },
+      "passou": true
+    },
+    {
+      "teste": "Parceria + 1: duas reservas distintas",
+      "esperado": {
+        "usuario": 0,
+        "coletiva": 0
+      },
+      "obtido": {
+        "usuario": 0,
+        "coletiva": 0
+      },
+      "passou": true
+    },
+    {
+      "teste": "Parceria + 1: segunda Reação de criatura",
+      "passou": true,
+      "rejeicao": "recurso já gasto"
+    },
+    {
+      "teste": "Parceria + 1: Guia orienta própria criatura",
+      "esperado": {
+        "usuario": 0,
+        "coletiva": 0
+      },
+      "obtido": {
+        "usuario": 0,
+        "coletiva": 0
+      },
+      "passou": true
+    },
+    {
+      "teste": "Parceria + 1: segunda Resposta Coordenada",
+      "passou": true,
+      "rejeicao": "recurso já gasto"
+    },
+    {
+      "teste": "Parceria + 1: troca preserva PV máximos simultâneos",
+      "esperado": 36,
+      "obtido": 36,
+      "passou": true
+    },
+    {
+      "teste": "Parceria + 1: reserva amplia PV acessíveis",
+      "esperado": 64,
+      "obtido": 64,
+      "passou": true
+    },
+    {
+      "teste": "Parceria + 1: custo troca",
+      "esperado": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "obtido": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Parceria + 1: troca não altera pv",
+      "passou": true,
+      "rejeicao": "troca alterou pv"
+    },
+    {
+      "teste": "Parceria + 1: troca não altera condicoes",
+      "passou": true,
+      "rejeicao": "troca alterou condicoes"
+    },
+    {
+      "teste": "Parceria + 1: troca não altera usos",
+      "passou": true,
+      "rejeicao": "troca alterou usos"
+    },
+    {
+      "teste": "Parceria + 1: troca não reseta Reação",
+      "passou": true,
+      "rejeicao": "troca renovou reserva de Reação"
+    },
+    {
+      "teste": "Parceria + 1: recolhida continua sofrendo efeito",
+      "esperado": [
+        25,
+        1
+      ],
+      "obtido": [
+        25,
+        1
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Parceria + 1: remanifestar conserva ferida e duração",
+      "esperado": [
+        25,
+        1
+      ],
+      "obtido": [
+        25,
+        1
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Parceria + 1: foco 15 + 15",
+      "esperado": [
+        6
+      ],
+      "obtido": [
+        6
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Parceria + 1: área 12 individual",
+      "esperado": [
+        24
+      ],
+      "obtido": [
+        24
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Parceria + 1: custo entrada",
+      "esperado": 2,
+      "obtido": 2,
+      "passou": true
+    },
+    {
+      "teste": "Parceria + 2: capacidade",
+      "esperado": 6,
+      "obtido": 6,
+      "passou": true
+    },
+    {
+      "teste": "Parceria + 2: ataques",
+      "esperado": 2,
+      "obtido": 2,
+      "passou": true
+    },
+    {
+      "teste": "Parceria + 2: movimento de dois corpos",
+      "esperado": 2,
+      "obtido": 2,
+      "passou": true
+    },
+    {
+      "teste": "Parceria + 2: Bônus restante",
+      "esperado": 0,
+      "obtido": 0,
+      "passou": true
+    },
+    {
+      "teste": "Parceria + 2: terceiro ataque/Padrão adicional",
+      "passou": true,
+      "rejeicao": "recurso já gasto"
+    },
+    {
+      "teste": "Parceria + 2: dois Bloquear",
+      "esperado": [
+        16,
+        16
+      ],
+      "obtido": [
+        16,
+        16
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Parceria + 2: Bloquear preserva Reações",
+      "esperado": {
+        "usuario": 1,
+        "coletiva": 1
+      },
+      "obtido": {
+        "usuario": 1,
+        "coletiva": 1
+      },
+      "passou": true
+    },
+    {
+      "teste": "Parceria + 2: duas reservas distintas",
+      "esperado": {
+        "usuario": 0,
+        "coletiva": 0
+      },
+      "obtido": {
+        "usuario": 0,
+        "coletiva": 0
+      },
+      "passou": true
+    },
+    {
+      "teste": "Parceria + 2: segunda Reação de criatura",
+      "passou": true,
+      "rejeicao": "recurso já gasto"
+    },
+    {
+      "teste": "Parceria + 2: Guia orienta própria criatura",
+      "esperado": {
+        "usuario": 0,
+        "coletiva": 0
+      },
+      "obtido": {
+        "usuario": 0,
+        "coletiva": 0
+      },
+      "passou": true
+    },
+    {
+      "teste": "Parceria + 2: segunda Resposta Coordenada",
+      "passou": true,
+      "rejeicao": "recurso já gasto"
+    },
+    {
+      "teste": "Parceria + 2: troca preserva PV máximos simultâneos",
+      "esperado": 72,
+      "obtido": 72,
+      "passou": true
+    },
+    {
+      "teste": "Parceria + 2: reserva amplia PV acessíveis",
+      "esperado": 100,
+      "obtido": 100,
+      "passou": true
+    },
+    {
+      "teste": "Parceria + 2: custo troca",
+      "esperado": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "obtido": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Parceria + 2: troca não altera pv",
+      "passou": true,
+      "rejeicao": "troca alterou pv"
+    },
+    {
+      "teste": "Parceria + 2: troca não altera condicoes",
+      "passou": true,
+      "rejeicao": "troca alterou condicoes"
+    },
+    {
+      "teste": "Parceria + 2: troca não altera usos",
+      "passou": true,
+      "rejeicao": "troca alterou usos"
+    },
+    {
+      "teste": "Parceria + 2: troca não reseta Reação",
+      "passou": true,
+      "rejeicao": "troca renovou reserva de Reação"
+    },
+    {
+      "teste": "Parceria + 2: recolhida continua sofrendo efeito",
+      "esperado": [
+        25,
+        1
+      ],
+      "obtido": [
+        25,
+        1
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Parceria + 2: remanifestar conserva ferida e duração",
+      "esperado": [
+        25,
+        1
+      ],
+      "obtido": [
+        25,
+        1
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Parceria + 2: foco 15 + 15",
+      "esperado": [
+        6,
+        36
+      ],
+      "obtido": [
+        6,
+        36
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Parceria + 2: área 12 individual",
+      "esperado": [
+        24,
+        24
+      ],
+      "obtido": [
+        24,
+        24
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Parceria + 2: custo entrada",
+      "esperado": 4,
+      "obtido": 4,
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 2: capacidade",
+      "esperado": 6,
+      "obtido": 6,
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 2: ataques",
+      "esperado": 2,
+      "obtido": 2,
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 2: movimento de dois corpos",
+      "esperado": 2,
+      "obtido": 2,
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 2: Bônus restante",
+      "esperado": 0,
+      "obtido": 0,
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 2: terceiro ataque/Padrão adicional",
+      "passou": true,
+      "rejeicao": "recurso já gasto"
+    },
+    {
+      "teste": "Múltiplas + 2: dois Bloquear",
+      "esperado": [
+        16,
+        16
+      ],
+      "obtido": [
+        16,
+        16
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 2: Bloquear preserva Reações",
+      "esperado": {
+        "usuario": 1,
+        "coletiva": 1
+      },
+      "obtido": {
+        "usuario": 1,
+        "coletiva": 1
+      },
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 2: duas reservas distintas",
+      "esperado": {
+        "usuario": 0,
+        "coletiva": 0
+      },
+      "obtido": {
+        "usuario": 0,
+        "coletiva": 0
+      },
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 2: segunda Reação de criatura",
+      "passou": true,
+      "rejeicao": "recurso já gasto"
+    },
+    {
+      "teste": "Múltiplas + 2: Guia orienta própria criatura",
+      "esperado": {
+        "usuario": 0,
+        "coletiva": 0
+      },
+      "obtido": {
+        "usuario": 0,
+        "coletiva": 0
+      },
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 2: segunda Resposta Coordenada",
+      "passou": true,
+      "rejeicao": "recurso já gasto"
+    },
+    {
+      "teste": "Múltiplas + 2: interceptar preserva Reação do usuário",
+      "esperado": 1,
+      "obtido": 1,
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 2: oportunidade após interceptar",
+      "passou": true,
+      "rejeicao": "recurso já gasto"
+    },
+    {
+      "teste": "Múltiplas + 2: resposta após interceptar",
+      "passou": true,
+      "rejeicao": "recurso já gasto"
+    },
+    {
+      "teste": "Múltiplas + 2: resposta rejeitada não gasta Reação do Guia",
+      "esperado": 1,
+      "obtido": 1,
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 2: troca preserva PV máximos simultâneos",
+      "esperado": 72,
+      "obtido": 72,
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 2: reserva amplia PV acessíveis",
+      "esperado": 100,
+      "obtido": 100,
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 2: custo troca",
+      "esperado": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "obtido": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 2: troca não altera pv",
+      "passou": true,
+      "rejeicao": "troca alterou pv"
+    },
+    {
+      "teste": "Múltiplas + 2: troca não altera condicoes",
+      "passou": true,
+      "rejeicao": "troca alterou condicoes"
+    },
+    {
+      "teste": "Múltiplas + 2: troca não altera usos",
+      "passou": true,
+      "rejeicao": "troca alterou usos"
+    },
+    {
+      "teste": "Múltiplas + 2: troca não reseta Reação",
+      "passou": true,
+      "rejeicao": "troca renovou reserva de Reação"
+    },
+    {
+      "teste": "Múltiplas + 2: recolhida continua sofrendo efeito",
+      "esperado": [
+        25,
+        1
+      ],
+      "obtido": [
+        25,
+        1
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 2: remanifestar conserva ferida e duração",
+      "esperado": [
+        25,
+        1
+      ],
+      "obtido": [
+        25,
+        1
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 2: foco 15 + 15",
+      "esperado": [
+        6,
+        36
+      ],
+      "obtido": [
+        6,
+        36
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 2: área 12 individual",
+      "esperado": [
+        24,
+        24
+      ],
+      "obtido": [
+        24,
+        24
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 2: custo entrada",
+      "esperado": 4,
+      "obtido": 4,
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 3: capacidade",
+      "esperado": 6,
+      "obtido": 6,
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 3: ataques",
+      "esperado": 2,
+      "obtido": 2,
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 3: movimento de dois corpos",
+      "esperado": 2,
+      "obtido": 2,
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 3: Bônus restante",
+      "esperado": 0,
+      "obtido": 0,
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 3: terceiro ataque/Padrão adicional",
+      "passou": true,
+      "rejeicao": "recurso já gasto"
+    },
+    {
+      "teste": "Múltiplas + 3: dois Bloquear",
+      "esperado": [
+        16,
+        16
+      ],
+      "obtido": [
+        16,
+        16
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 3: Bloquear preserva Reações",
+      "esperado": {
+        "usuario": 1,
+        "coletiva": 1
+      },
+      "obtido": {
+        "usuario": 1,
+        "coletiva": 1
+      },
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 3: duas reservas distintas",
+      "esperado": {
+        "usuario": 0,
+        "coletiva": 0
+      },
+      "obtido": {
+        "usuario": 0,
+        "coletiva": 0
+      },
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 3: segunda Reação de criatura",
+      "passou": true,
+      "rejeicao": "recurso já gasto"
+    },
+    {
+      "teste": "Múltiplas + 3: Guia orienta própria criatura",
+      "esperado": {
+        "usuario": 0,
+        "coletiva": 0
+      },
+      "obtido": {
+        "usuario": 0,
+        "coletiva": 0
+      },
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 3: segunda Resposta Coordenada",
+      "passou": true,
+      "rejeicao": "recurso já gasto"
+    },
+    {
+      "teste": "Múltiplas + 3: interceptar preserva Reação do usuário",
+      "esperado": 1,
+      "obtido": 1,
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 3: oportunidade após interceptar",
+      "passou": true,
+      "rejeicao": "recurso já gasto"
+    },
+    {
+      "teste": "Múltiplas + 3: resposta após interceptar",
+      "passou": true,
+      "rejeicao": "recurso já gasto"
+    },
+    {
+      "teste": "Múltiplas + 3: resposta rejeitada não gasta Reação do Guia",
+      "esperado": 1,
+      "obtido": 1,
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 3: troca preserva PV máximos simultâneos",
+      "esperado": 72,
+      "obtido": 72,
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 3: reserva amplia PV acessíveis",
+      "esperado": 88,
+      "obtido": 88,
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 3: custo troca",
+      "esperado": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "obtido": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 3: troca não altera pv",
+      "passou": true,
+      "rejeicao": "troca alterou pv"
+    },
+    {
+      "teste": "Múltiplas + 3: troca não altera condicoes",
+      "passou": true,
+      "rejeicao": "troca alterou condicoes"
+    },
+    {
+      "teste": "Múltiplas + 3: troca não altera usos",
+      "passou": true,
+      "rejeicao": "troca alterou usos"
+    },
+    {
+      "teste": "Múltiplas + 3: troca não reseta Reação",
+      "passou": true,
+      "rejeicao": "troca renovou reserva de Reação"
+    },
+    {
+      "teste": "Múltiplas + 3: recolhida continua sofrendo efeito",
+      "esperado": [
+        13,
+        1
+      ],
+      "obtido": [
+        13,
+        1
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 3: remanifestar conserva ferida e duração",
+      "esperado": [
+        13,
+        1
+      ],
+      "obtido": [
+        13,
+        1
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 3: foco 15 + 15",
+      "esperado": [
+        0,
+        24,
+        24
+      ],
+      "obtido": [
+        0,
+        24,
+        24
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 3: área 12 individual",
+      "esperado": [
+        12,
+        12,
+        12
+      ],
+      "obtido": [
+        12,
+        12,
+        12
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 3: custo entrada",
+      "esperado": 6,
+      "obtido": 6,
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 4: capacidade",
+      "esperado": 6,
+      "obtido": 6,
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 4: ataques",
+      "esperado": 2,
+      "obtido": 2,
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 4: movimento de dois corpos",
+      "esperado": 2,
+      "obtido": 2,
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 4: Bônus restante",
+      "esperado": 0,
+      "obtido": 0,
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 4: terceiro ataque/Padrão adicional",
+      "passou": true,
+      "rejeicao": "recurso já gasto"
+    },
+    {
+      "teste": "Múltiplas + 4: dois Bloquear",
+      "esperado": [
+        16,
+        16
+      ],
+      "obtido": [
+        16,
+        16
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 4: Bloquear preserva Reações",
+      "esperado": {
+        "usuario": 1,
+        "coletiva": 1
+      },
+      "obtido": {
+        "usuario": 1,
+        "coletiva": 1
+      },
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 4: duas reservas distintas",
+      "esperado": {
+        "usuario": 0,
+        "coletiva": 0
+      },
+      "obtido": {
+        "usuario": 0,
+        "coletiva": 0
+      },
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 4: segunda Reação de criatura",
+      "passou": true,
+      "rejeicao": "recurso já gasto"
+    },
+    {
+      "teste": "Múltiplas + 4: Guia orienta própria criatura",
+      "esperado": {
+        "usuario": 0,
+        "coletiva": 0
+      },
+      "obtido": {
+        "usuario": 0,
+        "coletiva": 0
+      },
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 4: segunda Resposta Coordenada",
+      "passou": true,
+      "rejeicao": "recurso já gasto"
+    },
+    {
+      "teste": "Múltiplas + 4: interceptar preserva Reação do usuário",
+      "esperado": 1,
+      "obtido": 1,
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 4: oportunidade após interceptar",
+      "passou": true,
+      "rejeicao": "recurso já gasto"
+    },
+    {
+      "teste": "Múltiplas + 4: resposta após interceptar",
+      "passou": true,
+      "rejeicao": "recurso já gasto"
+    },
+    {
+      "teste": "Múltiplas + 4: resposta rejeitada não gasta Reação do Guia",
+      "esperado": 1,
+      "obtido": 1,
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 4: troca preserva PV máximos simultâneos",
+      "esperado": 72,
+      "obtido": 72,
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 4: reserva amplia PV acessíveis",
+      "esperado": 88,
+      "obtido": 88,
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 4: custo troca",
+      "esperado": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "obtido": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 4: troca não altera pv",
+      "passou": true,
+      "rejeicao": "troca alterou pv"
+    },
+    {
+      "teste": "Múltiplas + 4: troca não altera condicoes",
+      "passou": true,
+      "rejeicao": "troca alterou condicoes"
+    },
+    {
+      "teste": "Múltiplas + 4: troca não altera usos",
+      "passou": true,
+      "rejeicao": "troca alterou usos"
+    },
+    {
+      "teste": "Múltiplas + 4: troca não reseta Reação",
+      "passou": true,
+      "rejeicao": "troca renovou reserva de Reação"
+    },
+    {
+      "teste": "Múltiplas + 4: recolhida continua sofrendo efeito",
+      "esperado": [
+        13,
+        1
+      ],
+      "obtido": [
+        13,
+        1
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 4: remanifestar conserva ferida e duração",
+      "esperado": [
+        13,
+        1
+      ],
+      "obtido": [
+        13,
+        1
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 4: foco 15 + 15",
+      "esperado": [
+        24,
+        24,
+        0,
+        0
+      ],
+      "obtido": [
+        24,
+        24,
+        0,
+        0
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 4: área 12 individual",
+      "esperado": [
+        12,
+        12,
+        0,
+        0
+      ],
+      "obtido": [
+        12,
+        12,
+        0,
+        0
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 4: zero não volta C3",
+      "passou": true,
+      "rejeicao": "corpo indisponível"
+    },
+    {
+      "teste": "Múltiplas + 4: zero não volta C4",
+      "passou": true,
+      "rejeicao": "corpo indisponível"
+    },
+    {
+      "teste": "Múltiplas + 4: custo entrada",
+      "esperado": 8,
+      "obtido": 8,
+      "passou": true
+    },
+    {
+      "teste": "terceiro corpo no conjunto",
+      "passou": true,
+      "rejeicao": "número de ataques não autorizado"
+    },
+    {
+      "teste": "arma substitui 1d6 por 2d6",
+      "passou": true,
+      "rejeicao": "dados instrumentais não podem ser substituídos"
+    },
+    {
+      "teste": "Sequência não autorizada",
+      "passou": true,
+      "rejeicao": "modo instrumental não concede Ataque Extra/Sequência/Kata"
+    },
+    {
+      "teste": "Ataque Extra não autorizado",
+      "passou": true,
+      "rejeicao": "modo instrumental não concede Ataque Extra/Sequência/Kata"
+    },
+    {
+      "teste": "reposicionar 3: conversões",
+      "esperado": 2,
+      "obtido": 2,
+      "passou": true
+    },
+    {
+      "teste": "reposicionar 3: sem Bônus para conjunto",
+      "passou": true,
+      "rejeicao": "recurso já gasto"
+    },
+    {
+      "teste": "reposicionar 4: conversões",
+      "esperado": 2,
+      "obtido": 2,
+      "passou": true
+    },
+    {
+      "teste": "reposicionar 4: sem Bônus para conjunto",
+      "passou": true,
+      "rejeicao": "recurso já gasto"
+    },
+    {
+      "teste": "reposicionar 5: conversões",
+      "esperado": 3,
+      "obtido": 3,
+      "passou": true
+    },
+    {
+      "teste": "reposicionar 5: sem Bônus para conjunto",
+      "passou": true,
+      "rejeicao": "recurso já gasto"
+    },
+    {
+      "teste": "três corpos em um Movimento",
+      "passou": true,
+      "rejeicao": "cada Movimento reposiciona no máximo dois corpos diferentes"
+    },
+    {
+      "teste": "Batedor não ganha golpe no conjunto",
+      "passou": true,
+      "rejeicao": "corpo sem ataque elegível"
+    },
+    {
+      "teste": "interceptar alvo originalmente criatura",
+      "passou": true,
+      "rejeicao": "ataque não pode ser interceptado nesta origem"
+    },
+    {
+      "teste": "interceptar alvo originalmente criatura: rejeição preserva coletiva",
+      "esperado": 1,
+      "obtido": 1,
+      "passou": true
+    },
+    {
+      "teste": "interceptar ataque já transferido",
+      "passou": true,
+      "rejeicao": "ataque não pode ser interceptado nesta origem"
+    },
+    {
+      "teste": "interceptar ataque já transferido: rejeição preserva coletiva",
+      "esperado": 1,
+      "obtido": 1,
+      "passou": true
+    },
+    {
+      "teste": "cura imediata preparada evita retirada em zero",
+      "esperado": [
+        5,
+        true,
+        false
+      ],
+      "obtido": [
+        5,
+        true,
+        false
+      ],
+      "passou": true
+    },
+    {
+      "teste": "quinto corpo com peso ainda disponível",
+      "passou": true,
+      "rejeicao": "capacidade excedida"
+    },
+    {
+      "teste": "quinto corpo com peso ainda disponível: não consome recursos",
+      "esperado": [
+        {
+          "P": 1,
+          "B": 1,
+          "M": 1
+        },
+        20
+      ],
+      "obtido": [
+        {
+          "P": 1,
+          "B": 1,
+          "M": 1
+        },
+        20
+      ],
+      "passou": true
+    },
+    {
+      "teste": "excesso de peso com só três corpos",
+      "passou": true,
+      "rejeicao": "capacidade excedida"
+    },
+    {
+      "teste": "excesso de peso com só três corpos: não consome recursos",
+      "esperado": [
+        {
+          "P": 1,
+          "B": 1,
+          "M": 1
+        },
+        20
+      ],
+      "obtido": [
+        {
+          "P": 1,
+          "B": 1,
+          "M": 1
+        },
+        20
+      ],
+      "passou": true
+    },
+    {
+      "teste": "manifestar com só 1 PE",
+      "passou": true,
+      "rejeicao": "PE insuficiente"
+    },
+    {
+      "teste": "PE insuficiente não gasta Padrão",
+      "esperado": [
+        {
+          "P": 1,
+          "B": 1,
+          "M": 1
+        },
+        1
+      ],
+      "obtido": [
+        {
+          "P": 1,
+          "B": 1,
+          "M": 1
+        },
+        1
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Parceria + 2: Controlador custa P + 1 PE",
+      "esperado": [
+        {
+          "P": 0,
+          "B": 1,
+          "M": 1
+        },
+        19
+      ],
+      "obtido": [
+        {
+          "P": 0,
+          "B": 1,
+          "M": 1
+        },
+        19
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Parceria + 2: controla sem atacar",
+      "esperado": [
+        1,
+        true,
+        0,
+        0
+      ],
+      "obtido": [
+        1,
+        true,
+        0,
+        0
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Parceria + 2: levantar não retira Padrão",
+      "esperado": {
+        "P": 1,
+        "B": 1,
+        "M": 0
+      },
+      "obtido": {
+        "P": 1,
+        "B": 1,
+        "M": 0
+      },
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 3: Controlador custa P + 1 PE",
+      "esperado": [
+        {
+          "P": 0,
+          "B": 1,
+          "M": 1
+        },
+        19
+      ],
+      "obtido": [
+        {
+          "P": 0,
+          "B": 1,
+          "M": 1
+        },
+        19
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 3: controla sem atacar",
+      "esperado": [
+        1,
+        true,
+        0,
+        0
+      ],
+      "obtido": [
+        1,
+        true,
+        0,
+        0
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 3: levantar não retira Padrão",
+      "esperado": {
+        "P": 1,
+        "B": 1,
+        "M": 0
+      },
+      "obtido": {
+        "P": 1,
+        "B": 1,
+        "M": 0
+      },
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 4: Controlador custa P + 1 PE",
+      "esperado": [
+        {
+          "P": 0,
+          "B": 1,
+          "M": 1
+        },
+        19
+      ],
+      "obtido": [
+        {
+          "P": 0,
+          "B": 1,
+          "M": 1
+        },
+        19
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 4: controla sem atacar",
+      "esperado": [
+        1,
+        true,
+        0,
+        0
+      ],
+      "obtido": [
+        1,
+        true,
+        0,
+        0
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Múltiplas + 4: levantar não retira Padrão",
+      "esperado": {
+        "P": 1,
+        "B": 1,
+        "M": 0
+      },
+      "obtido": {
+        "P": 1,
+        "B": 1,
+        "M": 0
+      },
+      "passou": true
+    },
+    {
+      "teste": "Controlador: falha 50% dos TR +1/CD12",
+      "esperado": 0.5,
+      "obtido": 0.5,
+      "passou": true
+    },
+    {
+      "teste": "Controlador com 0 PE",
+      "passou": true,
+      "rejeicao": "PE insuficiente"
+    },
+    {
+      "teste": "Controlador sem PE não gasta Padrão",
+      "esperado": [
+        {
+          "P": 1,
+          "B": 1,
+          "M": 1
+        },
+        0
+      ],
+      "obtido": [
+        {
+          "P": 1,
+          "B": 1,
+          "M": 1
+        },
+        0
+      ],
+      "passou": true
+    },
+    {
+      "teste": "Guia nv30: segunda criatura sem coletiva mesmo dispensando Reação do Guia",
+      "passou": true,
+      "rejeicao": "recurso já gasto"
+    },
+    {
+      "teste": "segundo Aparar coletivo não contra-ataca",
+      "passou": true,
+      "rejeicao": "recurso já gasto"
+    },
+    {
+      "teste": "Aparar duplo 10: uma reação coletiva",
+      "esperado": {
+        "usuario": 1,
+        "coletiva": 0
+      },
+      "obtido": {
+        "usuario": 1,
+        "coletiva": 0
+      },
+      "passou": true
+    },
+    {
+      "teste": "duplo 10 contra crítico natural não Aparar",
+      "esperado": "Bloquear",
+      "obtido": "Bloquear",
+      "passou": true
+    },
+    {
+      "teste": "duplo 1 abre Brecha",
+      "esperado": "Brecha",
+      "obtido": "Brecha",
+      "passou": true
+    },
+    {
+      "teste": "Brecha final não reabre cadeia: agressor sem coletiva",
+      "passou": true,
+      "rejeicao": "recurso já gasto"
+    },
+    {
+      "teste": "Defesa 15: E[2d6] = 2 E[1d6]",
+      "esperado": 3.85,
+      "obtido": 3.85,
+      "passou": true
+    },
+    {
+      "teste": "Defesa 17: E[2d6] = 2 E[1d6]",
+      "esperado": 3.15,
+      "obtido": 3.15,
+      "passou": true
+    },
+    {
+      "teste": "Defesa 20: E[2d6] = 2 E[1d6]",
+      "esperado": 2.1,
+      "obtido": 2.1,
+      "passou": true
+    },
+    {
+      "teste": "Defesa 15: valor exato 3,85",
+      "esperado": 3.85,
+      "obtido": 3.85,
+      "passou": true
+    },
+    {
+      "teste": "expectativas para Defesas 15/17/20",
+      "esperado": [
+        3.85,
+        3.15,
+        2.1
+      ],
+      "obtido": [
+        3.85,
+        3.15,
+        2.1
+      ],
+      "passou": true
+    },
+    {
+      "teste": "probabilidades para Defesas 15/17/20",
+      "esperado": [
+        0.5,
+        0.4,
+        0.25
+      ],
+      "obtido": [
+        0.5,
+        0.4,
+        0.25
+      ],
+      "passou": true
+    },
+    {
+      "teste": "passagens: 1 corpos deixam rotas livres",
+      "esperado": 2,
+      "obtido": 2,
+      "passou": true
+    },
+    {
+      "teste": "passagens: remover ocupante único com 1 corpos",
+      "esperado": 3,
+      "obtido": 3,
+      "passou": true
+    },
+    {
+      "teste": "passagens: custo passivo imóvel com 1 corpos",
+      "esperado": {
+        "acoes": 0,
+        "reacoes": 0,
+        "PE": 0
+      },
+      "obtido": {
+        "acoes": 0,
+        "reacoes": 0,
+        "PE": 0
+      },
+      "passou": true
+    },
+    {
+      "teste": "passagens: 2 corpos deixam rotas livres",
+      "esperado": 1,
+      "obtido": 1,
+      "passou": true
+    },
+    {
+      "teste": "passagens: remover ocupante único com 2 corpos",
+      "esperado": 2,
+      "obtido": 2,
+      "passou": true
+    },
+    {
+      "teste": "passagens: custo passivo imóvel com 2 corpos",
+      "esperado": {
+        "acoes": 0,
+        "reacoes": 0,
+        "PE": 0
+      },
+      "obtido": {
+        "acoes": 0,
+        "reacoes": 0,
+        "PE": 0
+      },
+      "passou": true
+    },
+    {
+      "teste": "passagens: 3 corpos deixam rotas livres",
+      "esperado": 0,
+      "obtido": 0,
+      "passou": true
+    },
+    {
+      "teste": "passagens: remover ocupante único com 3 corpos",
+      "esperado": 1,
+      "obtido": 1,
+      "passou": true
+    },
+    {
+      "teste": "passagens: custo passivo imóvel com 3 corpos",
+      "esperado": {
+        "acoes": 0,
+        "reacoes": 0,
+        "PE": 0
+      },
+      "obtido": {
+        "acoes": 0,
+        "reacoes": 0,
+        "PE": 0
+      },
+      "passou": true
+    },
+    {
+      "teste": "passagens: 4 corpos deixam rotas livres",
+      "esperado": 0,
+      "obtido": 0,
+      "passou": true
+    },
+    {
+      "teste": "passagens: remover ocupante único com 4 corpos",
+      "esperado": 1,
+      "obtido": 1,
+      "passou": true
+    },
+    {
+      "teste": "passagens: custo passivo imóvel com 4 corpos",
+      "esperado": {
+        "acoes": 0,
+        "reacoes": 0,
+        "PE": 0
+      },
+      "obtido": {
+        "acoes": 0,
+        "reacoes": 0,
+        "PE": 0
+      },
+      "passou": true
+    },
+    {
+      "teste": "integridade do protótipo durante a execução",
+      "esperado": "2009bb60aca236f485f1bbac5dea35a2bc325c3e98feb3e5016d4e6f3f516df6",
+      "obtido": "2009bb60aca236f485f1bbac5dea35a2bc325c3e98feb3e5016d4e6f3f516df6",
+      "passou": true
+    }
+  ],
+  "total": 243,
+  "passaram": 243,
+  "cenarios": [
+    {
+      "cenario": "Não-Evocador + 1",
+      "pesos": [
+        3
+      ],
+      "pv_inicial": [
+        36
+      ],
+      "turno": {
+        "corpos": [
+          "C1"
+        ],
+        "d20": 1,
+        "pools_dano_maximos": 1,
+        "dados_por_pool": [
+          2,
+          6
+        ],
+        "alvos_distintos_maximos": 1
+      },
+      "movimento": {
+        "corpos": [
+          "U",
+          "C1"
+        ],
+        "distancia_maxima_por_corpo_m": 9,
+        "recurso_original": "M"
+      },
+      "resposta_inimiga": {
+        "d20_inimigos": 2,
+        "rolagens_bloquear": 2,
+        "d10_bloquear": 4,
+        "resultados_bloquear": [
+          16,
+          16
+        ],
+        "reacoes_gastas_por_bloquear": 0
+      },
+      "guia": {
+        "reacao_usuario": 1,
+        "reacao_coletiva": 1,
+        "ataques_concedidos": 1
+      },
+      "interceptar": {
+        "dano_usuario": 0,
+        "dano_guardiao": 12,
+        "novos_d20": 0,
+        "bloquear_transferencia": 0,
+        "reacoes_restantes": {
+          "usuario": 1,
+          "coletiva": 0
+        }
+      },
+      "troca": {
+        "P": 1,
+        "B": 1,
+        "PE": 2,
+        "movimento_disponivel": true,
+        "pv_maximos_em_campo": 36,
+        "pv_reserva_nova": 36,
+        "pv_restantes_acessiveis_na_cena": 64,
+        "ferimento_inicial": 8
+      },
+      "foco": {
+        "eventos": [
+          {
+            "golpe": 1,
+            "alvo": "C1",
+            "pv_final": 21
+          },
+          {
+            "golpe": 2,
+            "alvo": "C1",
+            "pv_final": 6
+          }
+        ],
+        "pv_final": [
+          6
+        ]
+      },
+      "area": {
+        "TR_d20": 2,
+        "dano_usuario": 12,
+        "bloquear": 0,
+        "pv_final": [
+          24
+        ]
+      },
+      "entrada": {
+        "Padroes": 1,
+        "PE": 2,
+        "ataques_de_chegada": 0
+      }
+    },
+    {
+      "cenario": "Singular",
+      "pesos": [
+        6
+      ],
+      "pv_inicial": [
+        72
+      ],
+      "turno": {
+        "corpos": [
+          "C1"
+        ],
+        "d20": 1,
+        "pools_dano_maximos": 1,
+        "dados_por_pool": [
+          2,
+          6
+        ],
+        "alvos_distintos_maximos": 1
+      },
+      "movimento": {
+        "corpos": [
+          "U",
+          "C1"
+        ],
+        "distancia_maxima_por_corpo_m": 9,
+        "recurso_original": "M"
+      },
+      "resposta_inimiga": {
+        "d20_inimigos": 2,
+        "rolagens_bloquear": 2,
+        "d10_bloquear": 4,
+        "resultados_bloquear": [
+          16,
+          16
+        ],
+        "reacoes_gastas_por_bloquear": 0
+      },
+      "guia": {
+        "reacao_usuario": 1,
+        "reacao_coletiva": 1,
+        "ataques_concedidos": 1
+      },
+      "interceptar": {
+        "dano_usuario": 0,
+        "dano_guardiao": 12,
+        "novos_d20": 0,
+        "bloquear_transferencia": 0,
+        "reacoes_restantes": {
+          "usuario": 1,
+          "coletiva": 0
+        }
+      },
+      "troca": {
+        "P": 1,
+        "B": 1,
+        "PE": 2,
+        "movimento_disponivel": true,
+        "pv_maximos_em_campo": 72,
+        "pv_reserva_nova": 72,
+        "pv_restantes_acessiveis_na_cena": 136,
+        "ferimento_inicial": 8
+      },
+      "foco": {
+        "eventos": [
+          {
+            "golpe": 1,
+            "alvo": "C1",
+            "pv_final": 57
+          },
+          {
+            "golpe": 2,
+            "alvo": "C1",
+            "pv_final": 42
+          }
+        ],
+        "pv_final": [
+          42
+        ]
+      },
+      "area": {
+        "TR_d20": 2,
+        "dano_usuario": 12,
+        "bloquear": 0,
+        "pv_final": [
+          60
+        ]
+      },
+      "entrada": {
+        "Padroes": 1,
+        "PE": 2,
+        "ataques_de_chegada": 0
+      }
+    },
+    {
+      "cenario": "Parceria + 1",
+      "pesos": [
+        3
+      ],
+      "pv_inicial": [
+        36
+      ],
+      "turno": {
+        "corpos": [
+          "U",
+          "C1"
+        ],
+        "d20": 2,
+        "pools_dano_maximos": 2,
+        "dados_por_pool": [
+          1,
+          6
+        ],
+        "alvos_distintos_maximos": 2
+      },
+      "movimento": {
+        "corpos": [
+          "U",
+          "C1"
+        ],
+        "distancia_maxima_por_corpo_m": 9,
+        "recurso_original": "M"
+      },
+      "resposta_inimiga": {
+        "d20_inimigos": 2,
+        "rolagens_bloquear": 2,
+        "d10_bloquear": 4,
+        "resultados_bloquear": [
+          16,
+          16
+        ],
+        "reacoes_gastas_por_bloquear": 0
+      },
+      "guia": {
+        "reacao_usuario": 1,
+        "reacao_coletiva": 1,
+        "ataques_concedidos": 1
+      },
+      "interceptar": null,
+      "troca": {
+        "P": 1,
+        "B": 1,
+        "PE": 2,
+        "movimento_disponivel": true,
+        "pv_maximos_em_campo": 36,
+        "pv_reserva_nova": 36,
+        "pv_restantes_acessiveis_na_cena": 64,
+        "ferimento_inicial": 8
+      },
+      "foco": {
+        "eventos": [
+          {
+            "golpe": 1,
+            "alvo": "C1",
+            "pv_final": 21
+          },
+          {
+            "golpe": 2,
+            "alvo": "C1",
+            "pv_final": 6
+          }
+        ],
+        "pv_final": [
+          6
+        ]
+      },
+      "area": {
+        "TR_d20": 2,
+        "dano_usuario": 12,
+        "bloquear": 0,
+        "pv_final": [
+          24
+        ]
+      },
+      "entrada": {
+        "Padroes": 1,
+        "PE": 2,
+        "ataques_de_chegada": 0
+      }
+    },
+    {
+      "cenario": "Parceria + 2",
+      "pesos": [
+        3,
+        3
+      ],
+      "pv_inicial": [
+        36,
+        36
+      ],
+      "turno": {
+        "corpos": [
+          "U",
+          "C1"
+        ],
+        "d20": 2,
+        "pools_dano_maximos": 2,
+        "dados_por_pool": [
+          1,
+          6
+        ],
+        "alvos_distintos_maximos": 2
+      },
+      "movimento": {
+        "corpos": [
+          "U",
+          "C1"
+        ],
+        "distancia_maxima_por_corpo_m": 9,
+        "recurso_original": "M"
+      },
+      "resposta_inimiga": {
+        "d20_inimigos": 2,
+        "rolagens_bloquear": 2,
+        "d10_bloquear": 4,
+        "resultados_bloquear": [
+          16,
+          16
+        ],
+        "reacoes_gastas_por_bloquear": 0
+      },
+      "guia": {
+        "reacao_usuario": 1,
+        "reacao_coletiva": 1,
+        "ataques_concedidos": 1
+      },
+      "interceptar": null,
+      "troca": {
+        "P": 1,
+        "B": 1,
+        "PE": 2,
+        "movimento_disponivel": true,
+        "pv_maximos_em_campo": 72,
+        "pv_reserva_nova": 36,
+        "pv_restantes_acessiveis_na_cena": 100,
+        "ferimento_inicial": 8
+      },
+      "foco": {
+        "eventos": [
+          {
+            "golpe": 1,
+            "alvo": "C1",
+            "pv_final": 21
+          },
+          {
+            "golpe": 2,
+            "alvo": "C1",
+            "pv_final": 6
+          }
+        ],
+        "pv_final": [
+          6,
+          36
+        ]
+      },
+      "area": {
+        "TR_d20": 3,
+        "dano_usuario": 12,
+        "bloquear": 0,
+        "pv_final": [
+          24,
+          24
+        ]
+      },
+      "entrada": {
+        "Padroes": 2,
+        "PE": 4,
+        "ataques_de_chegada": 0
+      }
+    },
+    {
+      "cenario": "Múltiplas + 2",
+      "pesos": [
+        3,
+        3
+      ],
+      "pv_inicial": [
+        36,
+        36
+      ],
+      "turno": {
+        "corpos": [
+          "C1",
+          "C2"
+        ],
+        "d20": 2,
+        "pools_dano_maximos": 2,
+        "dados_por_pool": [
+          1,
+          6
+        ],
+        "alvos_distintos_maximos": 2
+      },
+      "movimento": {
+        "corpos": [
+          "U",
+          "C1"
+        ],
+        "distancia_maxima_por_corpo_m": 9,
+        "recurso_original": "M"
+      },
+      "resposta_inimiga": {
+        "d20_inimigos": 2,
+        "rolagens_bloquear": 2,
+        "d10_bloquear": 4,
+        "resultados_bloquear": [
+          16,
+          16
+        ],
+        "reacoes_gastas_por_bloquear": 0
+      },
+      "guia": {
+        "reacao_usuario": 1,
+        "reacao_coletiva": 1,
+        "ataques_concedidos": 1
+      },
+      "interceptar": {
+        "dano_usuario": 0,
+        "dano_guardiao": 12,
+        "novos_d20": 0,
+        "bloquear_transferencia": 0,
+        "reacoes_restantes": {
+          "usuario": 1,
+          "coletiva": 0
+        }
+      },
+      "troca": {
+        "P": 1,
+        "B": 1,
+        "PE": 2,
+        "movimento_disponivel": true,
+        "pv_maximos_em_campo": 72,
+        "pv_reserva_nova": 36,
+        "pv_restantes_acessiveis_na_cena": 100,
+        "ferimento_inicial": 8
+      },
+      "foco": {
+        "eventos": [
+          {
+            "golpe": 1,
+            "alvo": "C1",
+            "pv_final": 21
+          },
+          {
+            "golpe": 2,
+            "alvo": "C1",
+            "pv_final": 6
+          }
+        ],
+        "pv_final": [
+          6,
+          36
+        ]
+      },
+      "area": {
+        "TR_d20": 3,
+        "dano_usuario": 12,
+        "bloquear": 0,
+        "pv_final": [
+          24,
+          24
+        ]
+      },
+      "entrada": {
+        "Padroes": 2,
+        "PE": 4,
+        "ataques_de_chegada": 0
+      }
+    },
+    {
+      "cenario": "Múltiplas + 3",
+      "pesos": [
+        2,
+        2,
+        2
+      ],
+      "pv_inicial": [
+        24,
+        24,
+        24
+      ],
+      "turno": {
+        "corpos": [
+          "C1",
+          "C2"
+        ],
+        "d20": 2,
+        "pools_dano_maximos": 2,
+        "dados_por_pool": [
+          1,
+          6
+        ],
+        "alvos_distintos_maximos": 2
+      },
+      "movimento": {
+        "corpos": [
+          "U",
+          "C1"
+        ],
+        "distancia_maxima_por_corpo_m": 9,
+        "recurso_original": "M"
+      },
+      "resposta_inimiga": {
+        "d20_inimigos": 2,
+        "rolagens_bloquear": 2,
+        "d10_bloquear": 4,
+        "resultados_bloquear": [
+          16,
+          16
+        ],
+        "reacoes_gastas_por_bloquear": 0
+      },
+      "guia": {
+        "reacao_usuario": 1,
+        "reacao_coletiva": 1,
+        "ataques_concedidos": 1
+      },
+      "interceptar": {
+        "dano_usuario": 0,
+        "dano_guardiao": 12,
+        "novos_d20": 0,
+        "bloquear_transferencia": 0,
+        "reacoes_restantes": {
+          "usuario": 1,
+          "coletiva": 0
+        }
+      },
+      "troca": {
+        "P": 1,
+        "B": 1,
+        "PE": 2,
+        "movimento_disponivel": true,
+        "pv_maximos_em_campo": 72,
+        "pv_reserva_nova": 24,
+        "pv_restantes_acessiveis_na_cena": 88,
+        "ferimento_inicial": 8
+      },
+      "foco": {
+        "eventos": [
+          {
+            "golpe": 1,
+            "alvo": "C1",
+            "pv_final": 9
+          },
+          {
+            "golpe": 2,
+            "alvo": "C1",
+            "pv_final": 0
+          }
+        ],
+        "pv_final": [
+          0,
+          24,
+          24
+        ]
+      },
+      "area": {
+        "TR_d20": 4,
+        "dano_usuario": 12,
+        "bloquear": 0,
+        "pv_final": [
+          12,
+          12,
+          12
+        ]
+      },
+      "entrada": {
+        "Padroes": 3,
+        "PE": 6,
+        "ataques_de_chegada": 0
+      }
+    },
+    {
+      "cenario": "Múltiplas + 4",
+      "pesos": [
+        2,
+        2,
+        1,
+        1
+      ],
+      "pv_inicial": [
+        24,
+        24,
+        12,
+        12
+      ],
+      "turno": {
+        "corpos": [
+          "C1",
+          "C2"
+        ],
+        "d20": 2,
+        "pools_dano_maximos": 2,
+        "dados_por_pool": [
+          1,
+          6
+        ],
+        "alvos_distintos_maximos": 2
+      },
+      "movimento": {
+        "corpos": [
+          "U",
+          "C1"
+        ],
+        "distancia_maxima_por_corpo_m": 9,
+        "recurso_original": "M"
+      },
+      "resposta_inimiga": {
+        "d20_inimigos": 2,
+        "rolagens_bloquear": 2,
+        "d10_bloquear": 4,
+        "resultados_bloquear": [
+          16,
+          16
+        ],
+        "reacoes_gastas_por_bloquear": 0
+      },
+      "guia": {
+        "reacao_usuario": 1,
+        "reacao_coletiva": 1,
+        "ataques_concedidos": 1
+      },
+      "interceptar": {
+        "dano_usuario": 0,
+        "dano_guardiao": 12,
+        "novos_d20": 0,
+        "bloquear_transferencia": 0,
+        "reacoes_restantes": {
+          "usuario": 1,
+          "coletiva": 0
+        }
+      },
+      "troca": {
+        "P": 1,
+        "B": 1,
+        "PE": 2,
+        "movimento_disponivel": true,
+        "pv_maximos_em_campo": 72,
+        "pv_reserva_nova": 24,
+        "pv_restantes_acessiveis_na_cena": 88,
+        "ferimento_inicial": 8
+      },
+      "foco": {
+        "eventos": [
+          {
+            "golpe": 1,
+            "alvo": "C3",
+            "pv_final": 0
+          },
+          {
+            "golpe": 2,
+            "alvo": "C4",
+            "pv_final": 0
+          }
+        ],
+        "pv_final": [
+          24,
+          24,
+          0,
+          0
+        ]
+      },
+      "area": {
+        "TR_d20": 5,
+        "dano_usuario": 12,
+        "bloquear": 0,
+        "pv_final": [
+          12,
+          12,
+          0,
+          0
+        ]
+      },
+      "entrada": {
+        "Padroes": 4,
+        "PE": 8,
+        "ataques_de_chegada": 0
+      }
+    }
+  ],
+  "reposicionamento": [
+    {
+      "corpos": 3,
+      "recursos": [
+        "M",
+        "B"
+      ],
+      "P_restante": 1,
+      "eventos": [
+        {
+          "corpos": [
+            "U",
+            "C1"
+          ],
+          "distancia_maxima_por_corpo_m": 9,
+          "recurso_original": "M"
+        },
+        {
+          "corpos": [
+            "C2"
+          ],
+          "distancia_maxima_por_corpo_m": 9,
+          "recurso_original": "B"
+        }
+      ]
+    },
+    {
+      "corpos": 4,
+      "recursos": [
+        "M",
+        "B"
+      ],
+      "P_restante": 1,
+      "eventos": [
+        {
+          "corpos": [
+            "U",
+            "C1"
+          ],
+          "distancia_maxima_por_corpo_m": 9,
+          "recurso_original": "M"
+        },
+        {
+          "corpos": [
+            "C2",
+            "C3"
+          ],
+          "distancia_maxima_por_corpo_m": 9,
+          "recurso_original": "B"
+        }
+      ]
+    },
+    {
+      "corpos": 5,
+      "recursos": [
+        "M",
+        "B",
+        "P"
+      ],
+      "P_restante": 0,
+      "eventos": [
+        {
+          "corpos": [
+            "U",
+            "C1"
+          ],
+          "distancia_maxima_por_corpo_m": 9,
+          "recurso_original": "M"
+        },
+        {
+          "corpos": [
+            "C2",
+            "C3"
+          ],
+          "distancia_maxima_por_corpo_m": 9,
+          "recurso_original": "B"
+        },
+        {
+          "corpos": [
+            "C4"
+          ],
+          "distancia_maxima_por_corpo_m": 9,
+          "recurso_original": "P"
+        }
+      ]
+    }
+  ],
+  "aparar": {
+    "ataques_inimigos": 2,
+    "bloqueios": [
+      [
+        10,
+        10
+      ],
+      [
+        10,
+        10
+      ]
+    ],
+    "criticos_naturais_inimigos": 0,
+    "contra_ataques_criatura": 1,
+    "total_d20": 3,
+    "total_rolagens_bloquear": 2,
+    "total_d10": 4,
+    "pools_dano": 1,
+    "pool_contra_ataque": "2d6 + 3",
+    "inimigo_bloqueia_contra_ataque": false
+  },
+  "brecha": {
+    "sequencia": [
+      "inimigo ataca C1; Bloquear [1,1]: Brecha",
+      "inimigo gasta sua Reação e ataca C1; Bloquear [10,10]: Aparar",
+      "C1 gasta coletiva e contra-ataca +3; inimigo Bloqueia [1,1]: Brecha",
+      "C1 já gastou coletiva: não ganha outro ataque"
+    ],
+    "total_d20": 3,
+    "total_rolagens_bloquear": 3,
+    "total_d10": 6,
+    "pools_dano": 2,
+    "reacoes_finais": {
+      "usuario": 1,
+      "coletiva": 0,
+      "inimigo": 0
+    }
+  },
+  "probabilidades": [
+    {
+      "defesa": 15,
+      "ataque": 4,
+      "resultados": [
+        {
+          "d20": 1,
+          "resultado": "erro"
+        },
+        {
+          "d20": 2,
+          "resultado": "erro"
+        },
+        {
+          "d20": 3,
+          "resultado": "erro"
+        },
+        {
+          "d20": 4,
+          "resultado": "erro"
+        },
+        {
+          "d20": 5,
+          "resultado": "erro"
+        },
+        {
+          "d20": 6,
+          "resultado": "erro"
+        },
+        {
+          "d20": 7,
+          "resultado": "erro"
+        },
+        {
+          "d20": 8,
+          "resultado": "erro"
+        },
+        {
+          "d20": 9,
+          "resultado": "erro"
+        },
+        {
+          "d20": 10,
+          "resultado": "erro"
+        },
+        {
+          "d20": 11,
+          "resultado": "comum"
+        },
+        {
+          "d20": 12,
+          "resultado": "comum"
+        },
+        {
+          "d20": 13,
+          "resultado": "comum"
+        },
+        {
+          "d20": 14,
+          "resultado": "comum"
+        },
+        {
+          "d20": 15,
+          "resultado": "comum"
+        },
+        {
+          "d20": 16,
+          "resultado": "comum"
+        },
+        {
+          "d20": 17,
+          "resultado": "comum"
+        },
+        {
+          "d20": 18,
+          "resultado": "comum"
+        },
+        {
+          "d20": 19,
+          "resultado": "comum"
+        },
+        {
+          "d20": 20,
+          "resultado": "critico"
+        }
+      ],
+      "p_acerto_comum": 0.45,
+      "p_critico": 0.05,
+      "p_acerto_total": 0.5,
+      "E_1d6": 1.925,
+      "E_2d6": 3.85,
+      "E_dois_golpes_1d6": 3.85
+    },
+    {
+      "defesa": 17,
+      "ataque": 4,
+      "resultados": [
+        {
+          "d20": 1,
+          "resultado": "erro"
+        },
+        {
+          "d20": 2,
+          "resultado": "erro"
+        },
+        {
+          "d20": 3,
+          "resultado": "erro"
+        },
+        {
+          "d20": 4,
+          "resultado": "erro"
+        },
+        {
+          "d20": 5,
+          "resultado": "erro"
+        },
+        {
+          "d20": 6,
+          "resultado": "erro"
+        },
+        {
+          "d20": 7,
+          "resultado": "erro"
+        },
+        {
+          "d20": 8,
+          "resultado": "erro"
+        },
+        {
+          "d20": 9,
+          "resultado": "erro"
+        },
+        {
+          "d20": 10,
+          "resultado": "erro"
+        },
+        {
+          "d20": 11,
+          "resultado": "erro"
+        },
+        {
+          "d20": 12,
+          "resultado": "erro"
+        },
+        {
+          "d20": 13,
+          "resultado": "comum"
+        },
+        {
+          "d20": 14,
+          "resultado": "comum"
+        },
+        {
+          "d20": 15,
+          "resultado": "comum"
+        },
+        {
+          "d20": 16,
+          "resultado": "comum"
+        },
+        {
+          "d20": 17,
+          "resultado": "comum"
+        },
+        {
+          "d20": 18,
+          "resultado": "comum"
+        },
+        {
+          "d20": 19,
+          "resultado": "comum"
+        },
+        {
+          "d20": 20,
+          "resultado": "critico"
+        }
+      ],
+      "p_acerto_comum": 0.35,
+      "p_critico": 0.05,
+      "p_acerto_total": 0.4,
+      "E_1d6": 1.575,
+      "E_2d6": 3.15,
+      "E_dois_golpes_1d6": 3.15
+    },
+    {
+      "defesa": 20,
+      "ataque": 4,
+      "resultados": [
+        {
+          "d20": 1,
+          "resultado": "erro"
+        },
+        {
+          "d20": 2,
+          "resultado": "erro"
+        },
+        {
+          "d20": 3,
+          "resultado": "erro"
+        },
+        {
+          "d20": 4,
+          "resultado": "erro"
+        },
+        {
+          "d20": 5,
+          "resultado": "erro"
+        },
+        {
+          "d20": 6,
+          "resultado": "erro"
+        },
+        {
+          "d20": 7,
+          "resultado": "erro"
+        },
+        {
+          "d20": 8,
+          "resultado": "erro"
+        },
+        {
+          "d20": 9,
+          "resultado": "erro"
+        },
+        {
+          "d20": 10,
+          "resultado": "erro"
+        },
+        {
+          "d20": 11,
+          "resultado": "erro"
+        },
+        {
+          "d20": 12,
+          "resultado": "erro"
+        },
+        {
+          "d20": 13,
+          "resultado": "erro"
+        },
+        {
+          "d20": 14,
+          "resultado": "erro"
+        },
+        {
+          "d20": 15,
+          "resultado": "erro"
+        },
+        {
+          "d20": 16,
+          "resultado": "comum"
+        },
+        {
+          "d20": 17,
+          "resultado": "comum"
+        },
+        {
+          "d20": 18,
+          "resultado": "comum"
+        },
+        {
+          "d20": 19,
+          "resultado": "comum"
+        },
+        {
+          "d20": 20,
+          "resultado": "critico"
+        }
+      ],
+      "p_acerto_comum": 0.2,
+      "p_critico": 0.05,
+      "p_acerto_total": 0.25,
+      "E_1d6": 1.05,
+      "E_2d6": 2.1,
+      "E_dois_golpes_1d6": 2.1
+    }
+  ],
+  "controlador": {
+    "cenarios": [
+      {
+        "cenario": "Parceria + 2",
+        "corpo": "C2",
+        "resolucao": {
+          "TR_d20": 1,
+          "TR_total": 11,
+          "CD": 12,
+          "Derrubado": true,
+          "ataques_d20": 0,
+          "pools_dano": 0
+        },
+        "acoes_alvo_depois_de_levantar": {
+          "P": 1,
+          "B": 1,
+          "M": 0
+        }
+      },
+      {
+        "cenario": "Múltiplas + 3",
+        "corpo": "C3",
+        "resolucao": {
+          "TR_d20": 1,
+          "TR_total": 11,
+          "CD": 12,
+          "Derrubado": true,
+          "ataques_d20": 0,
+          "pools_dano": 0
+        },
+        "acoes_alvo_depois_de_levantar": {
+          "P": 1,
+          "B": 1,
+          "M": 0
+        }
+      },
+      {
+        "cenario": "Múltiplas + 4",
+        "corpo": "C3",
+        "resolucao": {
+          "TR_d20": 1,
+          "TR_total": 11,
+          "CD": 12,
+          "Derrubado": true,
+          "ataques_d20": 0,
+          "pools_dano": 0
+        },
+        "acoes_alvo_depois_de_levantar": {
+          "P": 1,
+          "B": 1,
+          "M": 0
+        }
+      }
+    ],
+    "enumeracao_TR": [
+      {
+        "d20": 1,
+        "Derrubado": true
+      },
+      {
+        "d20": 2,
+        "Derrubado": true
+      },
+      {
+        "d20": 3,
+        "Derrubado": true
+      },
+      {
+        "d20": 4,
+        "Derrubado": true
+      },
+      {
+        "d20": 5,
+        "Derrubado": true
+      },
+      {
+        "d20": 6,
+        "Derrubado": true
+      },
+      {
+        "d20": 7,
+        "Derrubado": true
+      },
+      {
+        "d20": 8,
+        "Derrubado": true
+      },
+      {
+        "d20": 9,
+        "Derrubado": true
+      },
+      {
+        "d20": 10,
+        "Derrubado": true
+      },
+      {
+        "d20": 11,
+        "Derrubado": false
+      },
+      {
+        "d20": 12,
+        "Derrubado": false
+      },
+      {
+        "d20": 13,
+        "Derrubado": false
+      },
+      {
+        "d20": 14,
+        "Derrubado": false
+      },
+      {
+        "d20": 15,
+        "Derrubado": false
+      },
+      {
+        "d20": 16,
+        "Derrubado": false
+      },
+      {
+        "d20": 17,
+        "Derrubado": false
+      },
+      {
+        "d20": 18,
+        "Derrubado": false
+      },
+      {
+        "d20": 19,
+        "Derrubado": false
+      },
+      {
+        "d20": 20,
+        "Derrubado": false
+      }
+    ],
+    "p_Derrubado": 0.5
+  },
+  "sonda_passagens": {
+    "premissa": "corpo estacionado obstrui passagem; hipótese de ensaio, não traço universal",
+    "resultados": [
+      {
+        "corpos": 1,
+        "passagens_largura_m": 1.5,
+        "posicoes": {
+          "C1": "A"
+        },
+        "C4_em_area_de_espera": false,
+        "rotas_livres_antes": [
+          "B",
+          "C"
+        ],
+        "ocupante_removido": "C1",
+        "rotas_livres_depois": [
+          "A",
+          "B",
+          "C"
+        ],
+        "custo_passivo_enquanto_imovel": {
+          "acoes": 0,
+          "reacoes": 0,
+          "PE": 0
+        }
+      },
+      {
+        "corpos": 2,
+        "passagens_largura_m": 1.5,
+        "posicoes": {
+          "C1": "A",
+          "C2": "B"
+        },
+        "C4_em_area_de_espera": false,
+        "rotas_livres_antes": [
+          "C"
+        ],
+        "ocupante_removido": "C1",
+        "rotas_livres_depois": [
+          "A",
+          "C"
+        ],
+        "custo_passivo_enquanto_imovel": {
+          "acoes": 0,
+          "reacoes": 0,
+          "PE": 0
+        }
+      },
+      {
+        "corpos": 3,
+        "passagens_largura_m": 1.5,
+        "posicoes": {
+          "C1": "A",
+          "C2": "B",
+          "C3": "C"
+        },
+        "C4_em_area_de_espera": false,
+        "rotas_livres_antes": [],
+        "ocupante_removido": "C1",
+        "rotas_livres_depois": [
+          "A"
+        ],
+        "custo_passivo_enquanto_imovel": {
+          "acoes": 0,
+          "reacoes": 0,
+          "PE": 0
+        }
+      },
+      {
+        "corpos": 4,
+        "passagens_largura_m": 1.5,
+        "posicoes": {
+          "C1": "A",
+          "C2": "B",
+          "C3": "C",
+          "C4": "espera"
+        },
+        "C4_em_area_de_espera": true,
+        "rotas_livres_antes": [],
+        "ocupante_removido": "C1",
+        "rotas_livres_depois": [
+          "A"
+        ],
+        "custo_passivo_enquanto_imovel": {
+          "acoes": 0,
+          "reacoes": 0,
+          "PE": 0
+        }
+      }
+    ]
+  }
+}

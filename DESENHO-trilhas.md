@@ -1,5 +1,7 @@
 # As quinze Trilhas — Bastião, Vanguarda e o Guia
 
+> **⚠ v0.270 — este desenho virou o registro com preço da coleção anterior.** *O texto de hoje do Bastião, da Vanguarda, do Emanador e do Guia é o da **coleção v0.4**, em `caminhos/`, que o Mizuki mandou pôr no livro "exatamente" como ela é, sem medir: "Não é necessário medir cada fatia ou certificar novamente o orçamento para implementar. […] Coloque na fila que futuramente terá de ser medido."* **Os preços daqui valem para as entregas daqui, e nenhum vale para as da v0.4.** *Eles ficam como o ponto de partida da medição que está na fila do `ESTADO-ATUAL`, e o `conferir-catalogo.py` continua conferindo este registro por dentro.* **O Evocador daqui continua valendo como desenho**, *fora da edição jogável até o subsistema de Invocações fechar.*
+
 *Escrito em **ficção**, a partir do material, **sem olhar o orçamento** — que é o método fechado na v0.69 e registrado no CHANGELOG daquela versão. As três peças que fecharam usaram exemplar externo à régua: Equipamento usou as classes de arma de outro sistema, Invocações usou os shikigami do material, Legados usou o catálogo velho. **Trilhas é a primeira que tentaria fazer régua contra o vazio**, e este documento existe para ela não fazer.*
 
 > **Aqui não tem número, e é de propósito.** O Mizuki revisa a ficção primeiro. Só depois eu preço **as seis de uma vez** — porque as três peças que fecharam preçaram o lote inteiro, nunca uma por vez.

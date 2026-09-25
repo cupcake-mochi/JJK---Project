@@ -85,7 +85,9 @@ palavras.* **As catorze condições deste livro foram reescritas nessa forma na 
 
 *A v0.141 mediu **nove entradas com doze rótulos**, seis delas no capítulo 12, e publicou o par sem escrever a definição.* **Sem definição escrita, duas versões seguidas tentaram remedir e acharam outra coisa:** *a v0.149 contou o fenômeno errado e foi descartada; a v0.152 achou `209` com um regex que pega toda caixa de regra do livro, parou, e com um recorte próprio chegou a `4`.*
 
-> **O livro carrega `0` rótulos longos demais, em `53` entradas de catálogo.** *Os dois números são o dono, e o `conferir-voz.py` reconta e falha nos dois sentidos.*
+> **O livro carrega `0` rótulos longos demais, em `50` entradas de catálogo.** *Os dois números são o dono, e o `conferir-voz.py` reconta e falha nos dois sentidos.*
+
+> **Eram `53` até a v0.269, e a v0.270 desceu para `50`.** *As três que saíram são o `Servo`, a `Matilha` e o `Coro` do capítulo 8, que saíram do livro junto com o Evocador: o Mizuki tirou o Caminho e as invocações da edição jogável até o subsistema fechar.* **Nenhuma entrada dos quatro Caminhos novos se qualifica**, *porque as entregas de Trilha se escrevem em caixa compartilhada, pela fronteira abaixo.*
 
 > **Eram `52` até a v0.238, e o número subiu para `53` logo depois da v0.251.** *A `Regravação` entrou como entrada na v0.239, e o `52` ficou parado: o `subir.sh` não roda o `conferir-voz.py`, e a guarda acusava sozinha.* **E dentro do `52` havia uma troca escondida:** *o `Kokusen` deixou de ser contado na v0.202 — ele virou mecânica, e não custa marco nem é aptidão da tabela —, e a `Circulação` entrou na v0.203, então o número voltou a `52` por coincidência.* **As `53` são as `52` de antes, menos o `Kokusen`, mais a `Circulação` e a `Regravação`.**
 
@@ -100,7 +102,7 @@ palavras.* **As catorze condições deste livro foram reescritas nessa forma na 
 | **entrada de catálogo** | seção-folha `###` ou `####` cujo nome está publicado numa **tabela do próprio capítulo**, e que abre pela camada 1 — `**<o nome dela>** — âncora` dentro da caixa de regra, ou uma âncora em prosa que a nomeia |
 | **rótulo longo demais** | negrito **abrindo parágrafo**, com mais de `6` palavras, na seção daquela entrada |
 
-**A lista das entradas não mora no validador: ela mora na tabela que o livro publica** — a `Como ler uma Bênção`, a `Condições em uma linha`, a `Como ler uma aptidão`. *Renomeie uma entrada e a checagem para de achar ela, então a contagem de `53` é guarda: ela falha se subir e se descer.*
+**A lista das entradas não mora no validador: ela mora na tabela que o livro publica** — a `Como ler uma Bênção`, a `Condições em uma linha`, a `Como ler uma aptidão`. *Renomeie uma entrada e a checagem para de achar ela, então a contagem de `50` é guarda: ela falha se subir e se descer.*
 
 **O que NÃO conta, e a fronteira é escrita para não virar discussão:**
 
@@ -114,7 +116,9 @@ palavras.* **As catorze condições deste livro foram reescritas nessa forma na 
 
 *Escrito na v0.144, e ele nasceu de uma contagem que deu errado cinco vezes seguidas.* **O prompt de retomada dizia quatro, o CHANGELOG da v0.136 dizia cinco, a varredura à mão de uma versão disse oito, e o regex acha sete.** *Toda contagem desta família até hoje deu um número diferente, e nenhuma delas tinha validador.*
 
-> **O livro carrega `1` marca de regra que ainda não existe.** *Esse número é o dono, e o `conferir-voz.py` recontá e falha se ele subir.*
+> **O livro carrega `0` marcas de regra que ainda não existe.** *Esse número é o dono, e o `conferir-voz.py` recontá e falha se ele subir.*
+
+> **Era `1` até a v0.269, e a v0.270 desceu para `0` sem fechar a regra.** *A marca que sobrava era a `Invocação que não obedece`, no capítulo de Invocações, e ela saiu junto com o capítulo inteiro: o Evocador e as invocações ficaram fora da edição jogável, e o texto antigo mora em `invocacoes/museu/60-invocacoes.md`.* **A pergunta continua aberta no subsistema, e volta a contar se o capítulo voltar como estava.**
 
 > **Eram `3` até a v0.257, e a v0.258 desceu para `1`** — *as duas que saíram não fecharam por decisão de design: as duas estavam **erradas**.* **A de `Selar com talismã` mandava perguntar ao mestre apontando para um capítulo que já publica a regra inteira do selo**, *a seção `Objeto amaldiçoado` do capítulo 15, onde o selo inverte a atração, gasta com o tempo e tem a duração declarada como decisão do mestre.* *A peça 15 dizia, desde a v0.58, que "selar não dá para escrever agora" porque o objeto amaldiçoado "não tem peça dona nenhuma" — e a peça 21 fechou aquilo na v0.132.* **Aviso que parou de reproduzir e virou dívida, cento e vinte e seis versões depois.** *O que continua faltando é entrada de catálogo que aplique selo, e isso é falta de conteúdo, não de regra.*
 >

@@ -1,0 +1,122 @@
+{
+  "versao": "v0.3 CANDIDATA r5",
+  "decisoes_ate": 45,
+  "arquivos": {
+    "00-LEIA-ME.md": {
+      "bytes": 1424,
+      "sha256": "7db9a7efdc06ef10284df1637183103780675877d256b51ce50c96d7fbe4432b"
+    },
+    "01-PROCEDIMENTOS-DE-CAMPO-v0.3-CANDIDATA-r5.md": {
+      "bytes": 61683,
+      "sha256": "35c9ff1f0a5d74d504333c3af7be8f8cafb523998d70991dbc5373b0b2759458"
+    },
+    "02-ALTERACOES-DA-REVISAO.md": {
+      "bytes": 1969,
+      "sha256": "55d5a9c10f27b559dcd1e1c25e6d49adf914cb5f94aec037db01d133ca4d5649"
+    },
+    "03-PENDENCIAS-E-CONFLITOS.md": {
+      "bytes": 3003,
+      "sha256": "cf93e67e413112379817ba93bf494b1b0471a347fed1d4d5f86ca823c29b8de2"
+    },
+    "04-RELATORIO-E-AUDITORIA.md": {
+      "bytes": 3347,
+      "sha256": "8be104526967bc06067d18f91cbc40205a99fb8e62cc5a73efd5ff306e860375"
+    },
+    "VERIFICACAO-INTEGRIDADE.json": {
+      "bytes": 414,
+      "sha256": "02d3433e6ce60624eacc704447516c1f78953dd2727025b7c57c6912809242ae"
+    },
+    "ensaio/CASOS-DE-INTENCAO.md": {
+      "bytes": 3245,
+      "sha256": "887620883f367603fceee2a4830e8c4adac9531cfba951311708bcdd4234328a"
+    },
+    "ensaio/FICHA.md": {
+      "bytes": 2811,
+      "sha256": "19e238791f999456f2d504d096e4da2be074bf297b924ece1fd8f9b5addff326"
+    },
+    "ensaio/bancada_r2.py": {
+      "bytes": 23445,
+      "sha256": "a5d962b5862b456d60b3bc88ebd0c64625b865dbef931ad6bd08819ae1b803db"
+    },
+    "ensaio/bancada_r4.py": {
+      "bytes": 27079,
+      "sha256": "f21c6e6131d770b26fa56758f8de9402468f1597ffbe8575191251ce40d8a777"
+    },
+    "ensaio/bancada_r5.py": {
+      "bytes": 12872,
+      "sha256": "fed44133de21c1f2865f451e0806819436a8dea2643a6a97aa685e47ca8feedb"
+    },
+    "ensaio/base_r1.py": {
+      "bytes": 23039,
+      "sha256": "e26412657ae25024b4e29b2f1e4617180727d0cac0ec7baba1395d310a663799"
+    },
+    "ensaio/execucao.json": {
+      "bytes": 199,
+      "sha256": "0db11b31f5cb0e6b3cde03daba899b011586a5ee2acc302acd9a9b1835113d09"
+    },
+    "ensaio/resultados.json": {
+      "bytes": 844172,
+      "sha256": "a1b15529d6aee0d532b27cd1e6d185957200d791abe392c2f87f94eae3a61c64"
+    },
+    "fontes/COMPLEMENTO-41-A-45.md": {
+      "bytes": 6083,
+      "sha256": "1666a5ef4898afb31b317c06ff25a241d8a662667dff392a7a73a2e6beabe9f7"
+    },
+    "fontes/DECISOES-POSTERIORES.md": {
+      "bytes": 74487,
+      "sha256": "028fee6d3b061b7b2b7d65ed9294a8bc1e4b91e0ad6b3c978124d0902c87c296"
+    },
+    "referencias/LEIA-ME.md": {
+      "bytes": 1123,
+      "sha256": "53a762d02ebe4b6d3c1cc91305831efc74bdb05b886c48d87383bd36463070b4"
+    },
+    "referencias/arquitetura-anterior/15-invocacoes.md": {
+      "bytes": 123115,
+      "sha256": "e570433441f5d5cc1241fea79f454ed5443a1926953a94bdc60122a1ff2d1661"
+    },
+    "referencias/arquitetura-anterior/35-caminhos-e-trilhas.md": {
+      "bytes": 40198,
+      "sha256": "ab7379e8c67b9e8cdcf6118415f8970260112c7c327c790c4bde77305ba3ebb3"
+    },
+    "referencias/arquitetura-anterior/60-invocacoes.md": {
+      "bytes": 27204,
+      "sha256": "10d4233f843782d6794413825f3491c9d9075c551279bd12d19c290df1c3a625"
+    },
+    "referencias/caminhos-v0.4/01-Bastiao-Caminho-e-Trilhas.md": {
+      "bytes": 7857,
+      "sha256": "fb7d7c5766167f37bf19a2b8062650d665322b6e5fee3e3691a1053dc2b7e5ef"
+    },
+    "referencias/caminhos-v0.4/02-Vanguarda-Caminho-e-Trilhas.md": {
+      "bytes": 37063,
+      "sha256": "c647d220ab2516e4985e8c62fd6570df83d9d944aeeacb129b5556d8674598d6"
+    },
+    "referencias/caminhos-v0.4/03-Emanador-Caminho-e-Trilhas.md": {
+      "bytes": 23229,
+      "sha256": "2594fe13949504a34f7931eae408fd7f0a3285ee5179770dde20879e582036c1"
+    },
+    "referencias/caminhos-v0.4/04-Guia-Caminho-e-Trilhas.md": {
+      "bytes": 26485,
+      "sha256": "b00a51bfd75baf5c87f5c25b7b257d79fc1f576b780c8f984860051176724167"
+    },
+    "referencias/caminhos-v0.4/Estado-atual-e-pendencias.md": {
+      "bytes": 1990,
+      "sha256": "5829dd61d27f389ea41fe8e1982750b16a32d89df99d58dc212832b45ba25160"
+    },
+    "referencias/regras-gerais/10-como-jogar.md": {
+      "bytes": 21546,
+      "sha256": "4d130c7d9a95970e90d0700308d1bb6a2c876def995a5851c7000f053f76b34c"
+    },
+    "referencias/regras-gerais/11-o-turno.md": {
+      "bytes": 12056,
+      "sha256": "81d91fd48731a2f24b5139b1916d3c363482cba7221056a2d826551beef8f741"
+    },
+    "referencias/regras-gerais/15-dano-e-condicoes.md": {
+      "bytes": 15325,
+      "sha256": "e46d7e7c9de8d620e2c51cd8efa456377514abfc688dd2f1f3309149ed7fdfd2"
+    },
+    "referencias/regras-gerais/40-fundamento.md": {
+      "bytes": 87100,
+      "sha256": "8ec6cd54f8fbb0cc7e98874a5242890a3b3392a792ec1cdef959abcec4b70d96"
+    }
+  }
+}

@@ -2,7 +2,7 @@
 
 **O sistema se chama `Projeto - M`**, batizado na v0.94 — era a pendência mais velha que existia aqui, aberta na v0.1. Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.269** · manual do Fundamento na **v7.38** · **vinte e sete peças de regra** e **vinte e sete validadores passando** · o Manual da Guilda em **19 capítulos**.
+**Versão v0.270** · manual do Fundamento na **v7.38** · **vinte e sete peças de regra** e **vinte e sete validadores passando** · o Manual da Guilda em **18 capítulos**.
 
 ---
 
@@ -48,6 +48,8 @@ Depois disso, a ordem de leitura é a da próxima seção, e os validadores são
 ```
 .
 ├── README.md              você está aqui
+├── caminhos/                 a coleção v0.4: o texto dos quatro Caminhos e das doze Trilhas desde a v0.270
+├── invocacoes/               o subsistema de Invocações em desenvolvimento, fora da edição jogável desde a v0.270
 ├── logs/
 │   ├── CHANGELOG.md                     o porquê de cada decisão, da v0.1 até a versão atual
 │   └── CHANGELOG-manual-v6-para-v7.md   o changelog do manual, antes de ele entrar aqui

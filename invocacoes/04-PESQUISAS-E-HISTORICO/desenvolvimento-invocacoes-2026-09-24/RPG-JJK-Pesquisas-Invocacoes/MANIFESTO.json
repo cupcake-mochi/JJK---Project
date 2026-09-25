@@ -1,0 +1,108 @@
+{
+  "package": "RPG-JJK-Pesquisas-Invocacoes",
+  "version": "1.0",
+  "date_local": "2026-09-23",
+  "scope": "Dois relatórios completos, síntese de continuidade, plano e prompt. Sem alteração de regras ou nova pesquisa externa.",
+  "reports": [
+    {
+      "title": "Invocações e Evocador — onde o redesenho precisa começar",
+      "source_file_id": "file_000000006fa4820c8f0b1956f2e9caff",
+      "source_snapshot_sha256": "d5b1f3aad8ea09039a09134b07edd7ee0c148baf5510a6a14b877555b5b4339a",
+      "original_report_sha256": "e3999a278d23bbbda73aada77725e1d52da466dbc4134c3d1824d9980ee6d8c2",
+      "original_characters": 36630,
+      "original_lines": 712,
+      "citation_groups": 14,
+      "unique_urls": 13,
+      "full_text_roundtrip_check": true,
+      "exported_report": "01-Pesquisas/01-Invocacoes-e-Evocador-diagnostico-e-referencias.md",
+      "original_report": "04-Originais/01-Invocacoes-e-Evocador-diagnostico-e-referencias-texto-original.md",
+      "references_file": "01-Pesquisas/Fontes/01-Invocacoes-e-Evocador-diagnostico-e-referencias-fontes.json"
+    },
+    {
+      "title": "Redesenho de Invocações e Evocador para o RPG-JJK",
+      "source_file_id": "file_0000000013ec820cbd789e2e48e7c916",
+      "source_snapshot_sha256": "4951c8c8c4e9f8fed42f881218575de1ab5695289abe6b705f90021b3c4f113b",
+      "original_report_sha256": "5f42d8182a0bb5eea5d726e8e15d1cee5eb02bfa2593e394cb9615bc35882a0f",
+      "original_characters": 47033,
+      "original_lines": 1025,
+      "citation_groups": 28,
+      "unique_urls": 33,
+      "full_text_roundtrip_check": true,
+      "exported_report": "01-Pesquisas/02-Jujutsu-Kaisen-e-arquitetura-das-invocacoes.md",
+      "original_report": "04-Originais/02-Jujutsu-Kaisen-e-arquitetura-das-invocacoes-texto-original.md",
+      "references_file": "01-Pesquisas/Fontes/02-Jujutsu-Kaisen-e-arquitetura-das-invocacoes-fontes.json"
+    }
+  ],
+  "complementary_attachments": [
+    {
+      "name": "JJK---Project-main (3).zip",
+      "included_in_this_package": false,
+      "sha256": "57482d07420b2c23977890c88fc1a3cfbdf9b8169f460ef8aec1a32513c65eed",
+      "size_bytes": 24048633
+    },
+    {
+      "name": "RPG-JJK-Caminhos-Trilhas-e-Ideias.zip",
+      "included_in_this_package": false,
+      "sha256": "d23430f282ad29ff140087e4fd63e3037b0a0639dd1b9032eb3e22aef7334a7d",
+      "size_bytes": 273507
+    }
+  ],
+  "files": [
+    {
+      "path": "01-Pesquisas/01-Invocacoes-e-Evocador-diagnostico-e-referencias.md",
+      "size_bytes": 40433,
+      "sha256": "9836f83422fae87bea47a9d70d8ca7fd179f2a8e8752227726549a01cf47ab8c"
+    },
+    {
+      "path": "01-Pesquisas/02-Jujutsu-Kaisen-e-arquitetura-das-invocacoes.md",
+      "size_bytes": 57375,
+      "sha256": "3060f016ad95913a0271a36bb0bda3d9ac2372afa9567562d999af25e21dc146"
+    },
+    {
+      "path": "01-Pesquisas/Fontes/01-Invocacoes-e-Evocador-diagnostico-e-referencias-fontes.json",
+      "size_bytes": 5316,
+      "sha256": "363f4e3e79e4fd5f7ff2ad87f4453b77e0cc729c52cb4088a064b295651e3a67"
+    },
+    {
+      "path": "01-Pesquisas/Fontes/02-Jujutsu-Kaisen-e-arquitetura-das-invocacoes-fontes.json",
+      "size_bytes": 16018,
+      "sha256": "28619733570e541d0f32bb8b594b9222a8ecf8d94b91ad4dc484ae2aa583ca10"
+    },
+    {
+      "path": "02-Base-de-Trabalho/01-Consolidacao-decisoes-e-pendencias.md",
+      "size_bytes": 11289,
+      "sha256": "0193fe4148bcabeb5deb971eb9ba79bb8f7f41050315bd2e6f5f1cf496c9f58a"
+    },
+    {
+      "path": "02-Base-de-Trabalho/02-Plano-de-reconstrucao.md",
+      "size_bytes": 5930,
+      "sha256": "f1aca9afbec28c36d8f1fc7fdbafb40309dd34bb806d0ffd3210f0eae05a04d7"
+    },
+    {
+      "path": "03-Prompt/PROMPT-WORK-CODEX.md",
+      "size_bytes": 12060,
+      "sha256": "d34561892c965fc5078bf505434c670efce0ebb0b2121004ffd1066045bd5607"
+    },
+    {
+      "path": "04-Originais/01-Invocacoes-e-Evocador-diagnostico-e-referencias-texto-original.md",
+      "size_bytes": 38115,
+      "sha256": "e3999a278d23bbbda73aada77725e1d52da466dbc4134c3d1824d9980ee6d8c2"
+    },
+    {
+      "path": "04-Originais/02-Jujutsu-Kaisen-e-arquitetura-das-invocacoes-texto-original.md",
+      "size_bytes": 49390,
+      "sha256": "5f42d8182a0bb5eea5d726e8e15d1cee5eb02bfa2593e394cb9615bc35882a0f"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 3230,
+      "sha256": "7ba2f342dfc0c5f958b6a3900d66e53ea73ce84425283cbb4f804319c57e5eeb"
+    },
+    {
+      "path": "verificar_pacote.py",
+      "size_bytes": 1554,
+      "sha256": "a6c7da6966e198cf9566e1a46d4a34a77cdc4c2085c9ed489f83df68fc89b275"
+    }
+  ],
+  "validation": "Integridade de arquivos e reversibilidade da conversão das citações; não certifica veracidade das fontes ou balanceamento."
+}

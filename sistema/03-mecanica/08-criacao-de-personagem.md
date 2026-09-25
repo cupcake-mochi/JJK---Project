@@ -106,7 +106,7 @@ Mais **cinco perícias à sua escolha**, de qualquer uma da lista de perícias d
 >
 > *O uniforme de graça custa zero:* **o `Traje` 1 dá proteção `1` e desliga o `cobrir-se`, que no refino `1` também dá `1`** — a Defesa do nível 2 é a mesma com ele e sem ele.
 
-**E a Trilha, que você escolhe agora junto do Caminho.** São três por Caminho, e a lista está na peça 6 — Muro · Punho · Brasa no Bastião, Estocada · Batedor · Executor na Vanguarda, e assim por diante. *Decidido na v0.27 e aplicado na v0.34:* a Trilha é **identidade, como o Caminho, e nasce com o personagem** — três lugares do material diziam que ela só chegava na primeira subida, e a confusão era a mesma dos feitiços, de contar a partir do nível 1 numa ficha que nasce no 2.
+**E a Trilha, que você escolhe agora junto do Caminho.** São três por Caminho, e a lista está na peça 6 — Muro · Punho · Combatente Amaldiçoado no Bastião, Estocada · Batedor · Executor na Vanguarda, e assim por diante; o texto de cada uma é o da coleção v0.4, em `caminhos/`. *Decidido na v0.27 e aplicado na v0.34:* a Trilha é **identidade, como o Caminho, e nasce com o personagem** — três lugares do material diziam que ela só chegava na primeira subida, e a confusão era a mesma dos feitiços, de contar a partir do nível 1 numa ficha que nasce no 2.
 
 > **O que a sua Trilha entrega ainda não tem número.** Hoje ela é o nome e a frase de uma linha: você a escolhe, ela diz quem o seu personagem é dentro do Caminho, e a peça de Trilhas fecha o que ela dá. Escolher agora não custa nada e não tranca nada.
 

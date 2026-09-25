@@ -1,5 +1,7 @@
 # A lista fechada de gatilhos — proposta para a Q3
 
+> **⚠ v0.270 — as Trilhas daqui são as da coleção anterior.** *Desde a v0.270 o texto dos quatro Caminhos que não são o Evocador é o da coleção v0.4, em `caminhos/`, sem preço medido. Este documento fica como o registro do método e das taxas da coleção que valia até a v0.269.*
+
 *Rascunho de trabalho, não é peça. Toda taxa aqui sai de um documento do projeto e nenhuma foi escolhida por mim. As âncoras estão nomeadas linha a linha, e o critério de reprovação é o que a peça 13 §7 já usa.*
 
 > ## ⚠ Este documento estava na ESCALA VELHA, e a v0.77 converteu

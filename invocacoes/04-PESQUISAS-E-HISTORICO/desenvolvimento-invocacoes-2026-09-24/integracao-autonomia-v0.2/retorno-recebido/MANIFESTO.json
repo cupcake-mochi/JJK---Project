@@ -1,0 +1,35 @@
+{
+  "titulo": "Projeto M — retorno de ações e autonomia",
+  "versao": "v0.2 de consolidação",
+  "data": "2026-09-24",
+  "status": "Decisões autorais + hipóteses operacionais; não manual final ou certificação de equilíbrio",
+  "entradas_disponiveis_verificadas_sem_alteracao": 8,
+  "testes_de_regras_novos_executados": false,
+  "arquivos": [
+    {
+      "caminho": "00-LEIA-ME-E-PROMPT-WORK.md",
+      "bytes": 2874,
+      "sha256": "dac06bc13e7abf918dbe41303315a845c29c9c636c3ae928b2dcd39c5056b272"
+    },
+    {
+      "caminho": "01-RETORNO.md",
+      "bytes": 18945,
+      "sha256": "f14a4b6d62d012447b4190870a99f3130b963d7a64f529e41aab1dddf238f710"
+    },
+    {
+      "caminho": "02-PROPOSTA-REVISADA-INTEGRAL.md",
+      "bytes": 18054,
+      "sha256": "e3bf276b406d55696abe332716d4441ea9369cba6984846580a5b39b9c9bac72"
+    },
+    {
+      "caminho": "referencias/Projeto-M-Analise-Acoes-Basicas-24-09-2026.zip",
+      "bytes": 19803,
+      "sha256": "514a0cb853e2411b7a79f2ce89440eb00bcfdf583bedb23013f4a2f92a1557d1"
+    },
+    {
+      "caminho": "referencias/RPG-JJK-Acoes-e-Autonomia-v1.zip",
+      "bytes": 265692,
+      "sha256": "c9106717f26316364cf1ab896b471e29cb7a21557f52e04612d503a1e1e83c2d"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+python3 bancada.py
+{"checagens": 168, "passaram": 168, "falharam": 0, "cenarios": 58, "eventos_registrados": 342, "recusas": 55, "indeterminados": 8}

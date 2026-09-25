@@ -355,16 +355,16 @@ caindo. *Ela previne dano que ainda não veio; não devolve o que já saiu.*
 >
 > **O mestre pode deixar ela atravessar para a cena seguinte**, pelo mesmo motivo da vida temporária.
 
-**Até aqui a regra morava dentro do `Braseiro`, e dizia outra coisa:** *"nunca passa de `2` acumulados"*. **Uma segunda fonte expôs o buraco.** *O `Trindade`, nível 27 do `Arremate`, entrou no livro na v0.176 dando `2` de energia temporária por turno, sem teto e sem relógio.*
+**Até a v0.239 a regra morava dentro do `Braseiro`, uma Trilha que saiu na v0.270, e dizia outra coisa:** *"nunca passa de `2` acumulados"*. **Uma segunda fonte expôs o buraco.** *O `Trindade`, nível 27 do `Arremate`, entrou no livro na v0.176 dando `2` de energia temporária por turno, sem teto e sem relógio.*
 
 > **O relógio e o "gasta primeiro" não estavam na frase da decisão.** *Eles vieram da vida temporária, que tem os dois desde a v0.108, e do próprio `Braseiro`, que já dizia os dois.*
 
 | fonte | de quem | nível | entrega | PE máximo no nível | teto |
 |---|---|---|---|---|---|
-| `Braseiro` | Bastião, Trilha `Brasa` | 11 | `2` | `44` | `22` |
-| `Trindade` | Emanador, Trilha `Arremate` | 27 | `2` | `162` | `81` |
+| `Embalo` | Bastião, Trilha `Combatente Amaldiçoado` | 11 | `2` | `44` | `22` |
+| `Refluxo` | Vanguarda, Trilha `Estocada` | 11 | `1` | `55` | `27` |
 
-**O teto não morde nenhuma das duas, e o que muda na mesa é o "não acumula".** *O `Braseiro` dava até `2` acumulados e continua dando `2`, porque o acerto seguinte não soma.* **O `Trindade` para de crescer sem limite.** *Ninguém tem as duas: cada ficha tem uma Trilha, de um Caminho só.*
+**As duas fontes trocaram na v0.270**, *quando a coleção v0.4 dos Caminhos entrou no livro: o `Braseiro` e o `Trindade` saíram com a `Brasa` e o `Arremate`, e as fontes de hoje são o `Embalo` e a Conclusão `Refluxo`.* **A entrega delas depende do nível, e a tabela publica a do nível em que cada uma chega:** *o `Embalo` dá a maestria, `2` no nível 11; o `Refluxo` dá metade do PE gasto numa Condução, e a Condução custa `2` ou `3` PE, então ele dá `1` do nível 11 ao 30.* **O teto não morde nenhuma das duas, e o que muda na mesa é o "não acumula".** *Ninguém tem as duas: cada ficha tem uma Trilha, de um Caminho só.* **O equilíbrio da v0.4 não foi medido**, *e esta tabela só confere que a regra geral cabe nela.*
 
 **E a frase vale para qualquer reserva.** *Nada no sistema concede Integridade temporária hoje; se um dia conceder, ela segue a mesma regra, com teto de metade da Integridade máxima.*
 

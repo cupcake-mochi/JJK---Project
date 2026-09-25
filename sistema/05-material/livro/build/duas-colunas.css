@@ -111,3 +111,14 @@ table.pagina-propria { break-before: page; }
 /* Quando um titulo de secao vem colado numa tabela de pagina propria, a quebra
    sai da tabela e vem para ele — senao os dois se separam na fronteira. */
 h2.puxa-pagina, h3.puxa-pagina, h4.puxa-pagina { break-before: page; }
+
+/* ---------- capitulo em coluna unica ---------- */
+/* v0.270: Caminhos e Trilhas sai inteiro fora das colunas, tabelas e caixas
+   incluidas, a pedido do Mizuki. O `build.py` embrulha o corpo num
+   `.coluna-unica` (ver COLUNA_UNICA la). A linha aqui mede a mancha inteira,
+   entao o corpo volta ao da edicao de coluna unica, e as tabelas ao da tabela
+   de largura inteira: letra menor para caber e justamente o que o pedido veta. */
+.coluna-unica { font-size: 10.6pt; line-height: 1.55; }
+.coluna-unica table { font-size: 9.2pt; line-height: 1.38; }
+.coluna-unica th, .coluna-unica td { padding: 1.5mm 2.2mm; }
+.coluna-unica .aviso { font-size: 9.6pt; }

@@ -404,7 +404,7 @@ Com o Fundamento escrito, os feitiços saem dele. Montar um feitiço é uma cont
 
 ### Teto de feitiços
 
-Antes de montar o primeiro, veja quantos você tem direito de escrever. A conta é do capítulo 19, *Experiência e Progressão*.
+Antes de montar o primeiro, veja quantos você tem direito de escrever. A conta é do capítulo 18, *Experiência e Progressão*.
 
 > **Espaços de feitiço conhecido = `2 + (nível ÷ 2)`, arredondando para baixo. Mais um por marco já alcançado.**
 > Os marcos são os níveis **6, 10, 14, 18, 22, 26 e 30**.
@@ -1211,7 +1211,7 @@ Oito regras seguram o sistema inteiro. Se um feitiço passar pelas oito, ele é 
 | **26** | Classe 7. |
 | **30** | A terceira Liberação Máxima. |
 
-O Fundamento manda na Classe, na Liberação Máxima e em quando cada Classe Passiva abre. Quantos feitiços você conhece é conta de *Experiência e Progressão*: a fórmula está resumida em *Criando feitiços*, e a progressão nível a nível mora no capítulo 19, *Experiência e Progressão*.
+O Fundamento manda na Classe, na Liberação Máxima e em quando cada Classe Passiva abre. Quantos feitiços você conhece é conta de *Experiência e Progressão*: a fórmula está resumida em *Criando feitiços*, e a progressão nível a nível mora no capítulo 18, *Experiência e Progressão*.
 
 O que continua valendo aqui: **Passiva é paga com espaços dessa lista**, a **Expansão de Domínio** também, e as **Liberações Máximas ficam de fora**, porque elas não ocupam espaço.
 

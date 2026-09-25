@@ -52,7 +52,6 @@ CHAPTERS = [
     ("47-bencaos-e-lapidacao.md",    "Bênçãos e Lapidação",     "恵", None),
     ("50-equipamento.md",            "Equipamento",             "具", None),
     ("55-ferramenta-amaldicoada.md", "Ferramenta Amaldiçoada",  "呪", None),
-    ("60-invocacoes.md",             "Invocações",              "式", None),
     ("65-pactos.md",                 "Pactos",                  "縛", None),
 
     ("80-experiencia-e-progressao.md", "Experiência e Progressão", "成", "A campanha"),
@@ -68,7 +67,7 @@ FRONT = [
 # Índice remissivo. Cada termo ganha uma âncora na primeira vez que aparece em
 # cada capítulo, e a página sai do target-counter, como no sumário.
 INDEX_TERMS = [
-    "Ação Bônus", "Ação Padrão", "Amarra", "Ampliar", "Aptidão", "Arredondamento",
+    "Ação Bônus", "Ação Padrão", "Ampliar", "Aptidão", "Arredondamento",
     "Ataque de oportunidade", "Atributo", "Caminho", "CD", "Cicatriz", "Classe 0",
     "Classe Passiva", "Cobertura", "Concentração", "Condição", "Crítico",
     "Dano na alma", "Defesa", "Desgaste", "Desvantagem", "Espaço de feitiço",
@@ -530,7 +529,17 @@ def solta_caixa_longa(soup):
     return n
 
 
-def md_para_html(md_text, prefixo_id, achados=None):
+# Capitulos que saem em COLUNA UNICA tambem no livro de duas colunas. Pedido do
+# Mizuki na v0.270, para Caminhos e Trilhas: "todo o conteudo de Caminhos e
+# Trilhas deve usar coluna unica, incluindo explicacoes longas e tabelas". O
+# capitulo nao passa pela `segmenta_colunas`: o corpo inteiro fica fora dos
+# blocos `.c2`, dentro de um `.coluna-unica` que devolve o corpo de letra da
+# edicao de coluna unica (a linha e larga, e 9,4pt nela cansa). Depois dele o
+# livro volta as duas colunas, porque o capitulo seguinte segmenta de novo.
+COLUNA_UNICA = {"35-caminhos-e-trilhas.md"}
+
+
+def md_para_html(md_text, prefixo_id, achados=None, coluna_unica=False):
     html = markdown.markdown(
         quebras_em_citacao(md_text),
         extensions=["tables", "extra", "sane_lists", "attr_list"],
@@ -542,8 +551,14 @@ def md_para_html(md_text, prefixo_id, achados=None):
     cola_chamada(soup)
     cola_sabor(soup)
     solta_caixa_longa(soup)
-    if VARIANTE == "duas":
+    if VARIANTE == "duas" and not coluna_unica:
         segmenta_colunas(soup)
+    elif VARIANTE == "duas":
+        caixa = soup.new_tag("div")
+        caixa["class"] = ["coluna-unica"]
+        for filho in list(soup.contents):
+            caixa.append(filho.extract())
+        soup.append(caixa)
     if achados is not None:
         marca_indice(soup, prefixo_id, achados)
     secoes = []
@@ -926,7 +941,8 @@ def main():
         corpo_md, notas_md = split_notes(bruto)
         corpo_md = re.sub(r"^#\s+.*\n", "", corpo_md, count=1)
         cid = f"cap-{slug(titulo)}"
-        html, secoes = md_para_html(corpo_md, cid, achados)
+        html, secoes = md_para_html(corpo_md, cid, achados,
+                                    coluna_unica=arquivo in COLUNA_UNICA)
         corpos.append((titulo, kanji, numero, html, cid, f"cap-{numero}"))
         sumario_dados.append((numero, titulo, cid, secoes, parte))
         if notas_md:

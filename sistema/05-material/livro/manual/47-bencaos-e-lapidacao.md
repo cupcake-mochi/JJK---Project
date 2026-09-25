@@ -114,7 +114,7 @@ A Passiva `Maldição do Inventário`, no capítulo 10, *Técnica Marcial*, guar
 >
 > **Dano na arma.** Os seus ataques **com arma** causam `1d4` de dano a mais a cada `3` pontos de Lapidação — `1d4` na Lapidação `1`, `2d4` na `3`, `3d4` na `6`, `4d4` na `9`. **Na Lapidação `10` os dados viram `d6`: `4d6`.**
 >
-> **Só arma.** Ele não entra em Kata nenhuma. E se o mesmo ataque já estiver carregando uma Kata de dano de `Classe 0` ou mais, este dano **não** se soma por cima — **é o caso do nível 27 da `Brasa`, em que cada ataque leva uma junto.** *Nesta rota o degrau de Trilha entrega Kata e não feitiço, e o capítulo 8, *Caminhos e Trilhas*, diz isso na abertura.*
+> **Só arma.** Ele não entra em Kata nenhuma. E se o mesmo ataque já estiver carregando uma Kata de dano de `Classe 0` ou mais, este dano **não** se soma por cima — **é o caso do `Ferrão`, o nível 27 da Estocada, em que o golpe leva uma junto.** *Nesta rota o degrau de Trilha entrega Kata e não feitiço, e o capítulo 8, *Caminhos e Trilhas*, diz isso na abertura.*
 >
 > Requisito: grátis na Lapidação 1. A Lapidação escala o dano na arma e o número de usos.
 

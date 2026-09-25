@@ -228,7 +228,6 @@ Vida é o **corpo**, energia é o **combustível**, Integridade é a **alma**. O
 | **Bastião** | d12 | 12 | 7 | 4 |
 | **Vanguarda** | d8 | 8 | 5 | 5 |
 | **Guia** | d8 | 8 | 5 | 5 |
-| **Evocador** | d6 | 6 | 4 | 6 |
 | **Emanador** | d6 | 6 | 4 | 6 |
 
 > **Exemplo.** Mei é Vanguarda, Constituição 3, nível 4. Nível 1: 8 + 3 = 11. Cada um dos três níveis seguintes: 5 + 3 = 8. Total: 11 + 24 = **35 de vida**.
@@ -238,7 +237,7 @@ Vida é o **corpo**, energia é o **combustível**, Integridade é a **alma**. O
 
 ### Vida temporária
 
-Algumas coisas dão **vida temporária**: a Forma `Apoio`, a Passiva `Fluxo`, e habilidades de Trilha como o `Aprumo` e a `Crosta`.
+Algumas coisas dão **vida temporária**: a Forma `Apoio` e a Passiva `Fluxo`.
 
 > **Vida temporária é anteparo, e não vida.** Ela é **gasta antes** da vida real, **não acumula** — duas fontes, você fica com a maior, nunca com a soma —, tem **teto de metade da sua vida máxima**, e **some no fim da cena**.
 
@@ -260,7 +259,7 @@ Sem atributo e sem valor inicial: no nível 1 você tem o PE de um nível.
 
 ### Energia temporária
 
-O `Braseiro` e o `Trindade` dão **energia temporária**.
+O `Embalo` do Combatente Amaldiçoado e a Conclusão Refluxo da Estocada dão **energia temporária**.
 
 > **Energia temporária segue a regra da vida temporária, com o PE no lugar da vida.** Ela é **gasta antes** do seu PE, **não acumula** — duas fontes, você fica com a maior —, tem **teto de metade do seu PE máximo**, e **some no fim da cena**.
 

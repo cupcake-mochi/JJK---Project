@@ -38,7 +38,6 @@ CHAPTERS = [
     ("47-bencaos-e-lapidacao.md", "Bênçãos e Lapidação"),
     ("50-equipamento.md", "Equipamento"),
     ("55-ferramenta-amaldicoada.md", "Ferramenta Amaldiçoada"),
-    ("60-invocacoes.md", "Invocações"),
     ("65-pactos.md", "Pactos"),
     ("80-experiencia-e-progressao.md", "Experiência e Progressão"),
 ]

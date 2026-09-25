@@ -1,0 +1,411 @@
+{
+  "title": "Redesenho de Invocações e Evocador para o RPG-JJK",
+  "source_file_id": "file_0000000013ec820cbd789e2e48e7c916",
+  "references": [
+    {
+      "label": "fonte-01",
+      "original_marker": "citeturn22search2turn22search5turn13search7turn20search2",
+      "links": [
+        {
+          "url": "https://jujutsukaisen.jp/character/",
+          "title": "https://jujutsukaisen.jp/character/"
+        },
+        {
+          "url": "https://jujutsukaisen.jp/episodes/56.php",
+          "title": "https://jujutsukaisen.jp/episodes/56.php"
+        },
+        {
+          "url": "https://jujutsukaisen.jp/news/20221217_02.php",
+          "title": "https://jujutsukaisen.jp/news/20221217_02.php"
+        },
+        {
+          "url": "https://jujutsukaisen.jp/shimetsukaiyu/",
+          "title": "https://jujutsukaisen.jp/shimetsukaiyu/"
+        }
+      ]
+    },
+    {
+      "label": "fonte-02",
+      "original_marker": "citeturn6search0turn19search0turn3search9turn19search1turn19search5turn19search7",
+      "links": [
+        {
+          "url": "https://2e.aonprd.com/Classes.aspx?ID=18",
+          "title": "Summoner - Classes"
+        },
+        {
+          "url": "https://2e.aonprd.com/Classes.aspx?ID=75",
+          "title": "https://2e.aonprd.com/Classes.aspx?ID=75"
+        },
+        {
+          "url": "https://shop.mcdmproductions.com/products/the-summoner-class-for-draw-steel-pdf",
+          "title": "The Summoner - Class for Draw Steel - PDF"
+        },
+        {
+          "url": "https://news.blizzard.com/en-us/article/23816542/diablo-iv-quarterly-updatejune-2022",
+          "title": "https://news.blizzard.com/en-us/article/23816542/diablo-iv-quarterly-updatejune-2022"
+        },
+        {
+          "url": "https://news.blizzard.com/en-gb/article/24267729/prepare-for-the-reckoning-lord-of-hatred-draws-near",
+          "title": "https://news.blizzard.com/en-gb/article/24267729/prepare-for-the-reckoning-lord-of-hatred-draws-near"
+        },
+        {
+          "url": "https://na.finalfantasyxiv.com/jobguide/beastmaster/",
+          "title": "https://na.finalfantasyxiv.com/jobguide/beastmaster/"
+        }
+      ]
+    },
+    {
+      "label": "fonte-03",
+      "original_marker": "citeturn6search0",
+      "links": [
+        {
+          "url": "https://2e.aonprd.com/Classes.aspx?ID=18",
+          "title": "Summoner - Classes"
+        }
+      ]
+    },
+    {
+      "label": "fonte-04",
+      "original_marker": "citeturn13search7turn13search12",
+      "links": [
+        {
+          "url": "https://jujutsukaisen.jp/news/20221217_02.php",
+          "title": "https://jujutsukaisen.jp/news/20221217_02.php"
+        },
+        {
+          "url": "https://jujutsukaisen.jp/character/category6.php",
+          "title": "https://jujutsukaisen.jp/character/category6.php"
+        }
+      ]
+    },
+    {
+      "label": "fonte-05",
+      "original_marker": "citeturn23search1turn22search2",
+      "links": [
+        {
+          "url": "https://jujutsukaisen.jp/character/",
+          "title": "https://jujutsukaisen.jp/character/"
+        }
+      ]
+    },
+    {
+      "label": "fonte-06",
+      "original_marker": "citeturn22search2turn13search0turn13search6turn21search23",
+      "links": [
+        {
+          "url": "https://jujutsukaisen.jp/character/",
+          "title": "https://jujutsukaisen.jp/character/"
+        },
+        {
+          "url": "https://jujutsukaisen.jp/news/20251106_03.php",
+          "title": "https://jujutsukaisen.jp/news/20251106_03.php"
+        },
+        {
+          "url": "https://jujutsukaisen.jp/episodes/41.php",
+          "title": "https://jujutsukaisen.jp/episodes/41.php"
+        },
+        {
+          "url": "https://www.crunchyroll.com/news/guides/2023/12/14/megumi-fushiguro-shikigami?srsltid=AU7gw4W0-zpulq-SN1F99DqwAlCaQHI9gkQbhPMoQItOWNE-8aTDBsHg",
+          "title": "https://www.crunchyroll.com/news/guides/2023/12/14/megumi-fushiguro-shikigami?srsltid=AU7gw4W0-zpulq-SN1F99DqwAlCaQHI9gkQbhPMoQItOWNE-8aTDBsHg"
+        }
+      ]
+    },
+    {
+      "label": "fonte-07",
+      "original_marker": "citeturn21search23turn21search30",
+      "links": [
+        {
+          "url": "https://www.crunchyroll.com/news/guides/2023/12/14/megumi-fushiguro-shikigami?srsltid=AU7gw4W0-zpulq-SN1F99DqwAlCaQHI9gkQbhPMoQItOWNE-8aTDBsHg",
+          "title": "https://www.crunchyroll.com/news/guides/2023/12/14/megumi-fushiguro-shikigami?srsltid=AU7gw4W0-zpulq-SN1F99DqwAlCaQHI9gkQbhPMoQItOWNE-8aTDBsHg"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Megumi_Fushiguro",
+          "title": "https://en.wikipedia.org/wiki/Megumi_Fushiguro"
+        }
+      ]
+    },
+    {
+      "label": "fonte-08",
+      "original_marker": "citeturn20search2turn13search10",
+      "links": [
+        {
+          "url": "https://jujutsukaisen.jp/shimetsukaiyu/",
+          "title": "https://jujutsukaisen.jp/shimetsukaiyu/"
+        }
+      ]
+    },
+    {
+      "label": "fonte-09",
+      "original_marker": "citeturn22search2",
+      "links": [
+        {
+          "url": "https://jujutsukaisen.jp/character/",
+          "title": "https://jujutsukaisen.jp/character/"
+        }
+      ]
+    },
+    {
+      "label": "fonte-10",
+      "original_marker": "citeturn22search1turn22search5",
+      "links": [
+        {
+          "url": "https://jujutsukaisen.jp/news/20260305_02.php",
+          "title": "https://jujutsukaisen.jp/news/20260305_02.php"
+        },
+        {
+          "url": "https://jujutsukaisen.jp/episodes/56.php",
+          "title": "https://jujutsukaisen.jp/episodes/56.php"
+        }
+      ]
+    },
+    {
+      "label": "fonte-11",
+      "original_marker": "citeturn19search0turn19search4",
+      "links": [
+        {
+          "url": "https://2e.aonprd.com/Classes.aspx?ID=75",
+          "title": "https://2e.aonprd.com/Classes.aspx?ID=75"
+        },
+        {
+          "url": "https://2e.aonprd.com/Sources.aspx?ID=355",
+          "title": "https://2e.aonprd.com/Sources.aspx?ID=355"
+        }
+      ]
+    },
+    {
+      "label": "fonte-12",
+      "original_marker": "citeturn3search9turn3search19",
+      "links": [
+        {
+          "url": "https://shop.mcdmproductions.com/products/the-summoner-class-for-draw-steel-pdf",
+          "title": "The Summoner - Class for Draw Steel - PDF"
+        },
+        {
+          "url": "https://www.mcdmproductions.com/the-summoner",
+          "title": "The Summoner — MCDM Productions"
+        }
+      ]
+    },
+    {
+      "label": "fonte-13",
+      "original_marker": "citeturn19search1turn19search5",
+      "links": [
+        {
+          "url": "https://news.blizzard.com/en-us/article/23816542/diablo-iv-quarterly-updatejune-2022",
+          "title": "https://news.blizzard.com/en-us/article/23816542/diablo-iv-quarterly-updatejune-2022"
+        },
+        {
+          "url": "https://news.blizzard.com/en-gb/article/24267729/prepare-for-the-reckoning-lord-of-hatred-draws-near",
+          "title": "https://news.blizzard.com/en-gb/article/24267729/prepare-for-the-reckoning-lord-of-hatred-draws-near"
+        }
+      ]
+    },
+    {
+      "label": "fonte-14",
+      "original_marker": "citeturn19search2turn19search17",
+      "links": [
+        {
+          "url": "https://worldofwarcraft.blizzard.com/news/19955662/legion-class-preview-series-warlock",
+          "title": "https://worldofwarcraft.blizzard.com/news/19955662/legion-class-preview-series-warlock"
+        },
+        {
+          "url": "https://worldofwarcraft.blizzard.com/news/24244472/power-up-with-new-apex-talents-in-midnight",
+          "title": "https://worldofwarcraft.blizzard.com/news/24244472/power-up-with-new-apex-talents-in-midnight"
+        }
+      ]
+    },
+    {
+      "label": "fonte-15",
+      "original_marker": "citeturn12search4turn12search7turn12search19",
+      "links": [
+        {
+          "url": "https://store.steampowered.com/app/3308670/GIRLS_FRONTLINE_2_EXILIUM/",
+          "title": "https://store.steampowered.com/app/3308670/GIRLS_FRONTLINE_2_EXILIUM/"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?hl=en&id=com.haoplay.game.and.exilium",
+          "title": "https://play.google.com/store/apps/details?hl=en&id=com.haoplay.game.and.exilium"
+        },
+        {
+          "url": "https://apps.apple.com/us/app/girls-frontline/id1313126006",
+          "title": "https://apps.apple.com/us/app/girls-frontline/id1313126006"
+        }
+      ]
+    },
+    {
+      "label": "fonte-16",
+      "original_marker": "citeturn19search7",
+      "links": [
+        {
+          "url": "https://na.finalfantasyxiv.com/jobguide/beastmaster/",
+          "title": "https://na.finalfantasyxiv.com/jobguide/beastmaster/"
+        }
+      ]
+    },
+    {
+      "label": "fonte-17",
+      "original_marker": "citeturn17search1turn17search9turn17search16turn17search31",
+      "links": [
+        {
+          "url": "https://www.reddit.com/r/RPGdesign/comments/1boxg34/how_to_allow_for_the_powerfantasy_of_a_summoner/",
+          "title": "https://www.reddit.com/r/RPGdesign/comments/1boxg34/how_to_allow_for_the_powerfantasy_of_a_summoner/"
+        },
+        {
+          "url": "https://www.reddit.com/r/RPGdesign/comments/f76lsz/issues_with_summoners/",
+          "title": "https://www.reddit.com/r/RPGdesign/comments/f76lsz/issues_with_summoners/"
+        },
+        {
+          "url": "https://www.reddit.com/r/RPGdesign/comments/1d6loza/any_way_to_do_followers_or_summons_in_a_way_that/",
+          "title": "https://www.reddit.com/r/RPGdesign/comments/1d6loza/any_way_to_do_followers_or_summons_in_a_way_that/"
+        },
+        {
+          "url": "https://www.reddit.com/r/RPGdesign/comments/dmmleq/brainstorming_conjured_creatures_problems_and/",
+          "title": "https://www.reddit.com/r/RPGdesign/comments/dmmleq/brainstorming_conjured_creatures_problems_and/"
+        }
+      ]
+    },
+    {
+      "label": "fonte-18",
+      "original_marker": "citeturn17search13",
+      "links": [
+        {
+          "url": "https://www.reddit.com/r/RPGdesign/comments/1p7e7v1/what_are_the_best_ways_youve_seen_summonable/",
+          "title": "https://www.reddit.com/r/RPGdesign/comments/1p7e7v1/what_are_the_best_ways_youve_seen_summonable/"
+        }
+      ]
+    },
+    {
+      "label": "fonte-19",
+      "original_marker": "citeturn17search6turn17search23",
+      "links": [
+        {
+          "url": "https://www.reddit.com/r/Pathfinder2e/comments/1uy5lty/my_problem_with_the_summoner_class/",
+          "title": "https://www.reddit.com/r/Pathfinder2e/comments/1uy5lty/my_problem_with_the_summoner_class/"
+        },
+        {
+          "url": "https://www.reddit.com/r/Pathfinder2e/comments/1uza5i4/a_necromancer_fits_the_summoner_fantasy_better/",
+          "title": "https://www.reddit.com/r/Pathfinder2e/comments/1uza5i4/a_necromancer_fits_the_summoner_fantasy_better/"
+        }
+      ]
+    },
+    {
+      "label": "fonte-20",
+      "original_marker": "citeturn17search1turn17search3turn17search16turn17search31",
+      "links": [
+        {
+          "url": "https://www.reddit.com/r/RPGdesign/comments/1boxg34/how_to_allow_for_the_powerfantasy_of_a_summoner/",
+          "title": "https://www.reddit.com/r/RPGdesign/comments/1boxg34/how_to_allow_for_the_powerfantasy_of_a_summoner/"
+        },
+        {
+          "url": "https://www.reddit.com/r/dndnext/comments/aa9q6j/good_way_of_playing_a_summoner_type_character/",
+          "title": "https://www.reddit.com/r/dndnext/comments/aa9q6j/good_way_of_playing_a_summoner_type_character/"
+        },
+        {
+          "url": "https://www.reddit.com/r/RPGdesign/comments/1d6loza/any_way_to_do_followers_or_summons_in_a_way_that/",
+          "title": "https://www.reddit.com/r/RPGdesign/comments/1d6loza/any_way_to_do_followers_or_summons_in_a_way_that/"
+        },
+        {
+          "url": "https://www.reddit.com/r/RPGdesign/comments/dmmleq/brainstorming_conjured_creatures_problems_and/",
+          "title": "https://www.reddit.com/r/RPGdesign/comments/dmmleq/brainstorming_conjured_creatures_problems_and/"
+        }
+      ]
+    },
+    {
+      "label": "fonte-21",
+      "original_marker": "citeturn20search2",
+      "links": [
+        {
+          "url": "https://jujutsukaisen.jp/shimetsukaiyu/",
+          "title": "https://jujutsukaisen.jp/shimetsukaiyu/"
+        }
+      ]
+    },
+    {
+      "label": "fonte-22",
+      "original_marker": "citeturn3search19",
+      "links": [
+        {
+          "url": "https://www.mcdmproductions.com/the-summoner",
+          "title": "The Summoner — MCDM Productions"
+        }
+      ]
+    },
+    {
+      "label": "fonte-23",
+      "original_marker": "citeturn19search0",
+      "links": [
+        {
+          "url": "https://2e.aonprd.com/Classes.aspx?ID=75",
+          "title": "https://2e.aonprd.com/Classes.aspx?ID=75"
+        }
+      ]
+    },
+    {
+      "label": "fonte-24",
+      "original_marker": "citeturn19search1",
+      "links": [
+        {
+          "url": "https://news.blizzard.com/en-us/article/23816542/diablo-iv-quarterly-updatejune-2022",
+          "title": "https://news.blizzard.com/en-us/article/23816542/diablo-iv-quarterly-updatejune-2022"
+        }
+      ]
+    },
+    {
+      "label": "fonte-25",
+      "original_marker": "citeturn19search5",
+      "links": [
+        {
+          "url": "https://news.blizzard.com/en-gb/article/24267729/prepare-for-the-reckoning-lord-of-hatred-draws-near",
+          "title": "https://news.blizzard.com/en-gb/article/24267729/prepare-for-the-reckoning-lord-of-hatred-draws-near"
+        }
+      ]
+    },
+    {
+      "label": "fonte-26",
+      "original_marker": "citeturn19search6",
+      "links": [
+        {
+          "url": "https://worldofwarcraft.blizzard.com/en-us/game/classes/warlock",
+          "title": "https://worldofwarcraft.blizzard.com/en-us/game/classes/warlock"
+        }
+      ]
+    },
+    {
+      "label": "fonte-27",
+      "original_marker": "citeturn12search4",
+      "links": [
+        {
+          "url": "https://store.steampowered.com/app/3308670/GIRLS_FRONTLINE_2_EXILIUM/",
+          "title": "https://store.steampowered.com/app/3308670/GIRLS_FRONTLINE_2_EXILIUM/"
+        }
+      ]
+    },
+    {
+      "label": "fonte-28",
+      "original_marker": "citeturn17search1turn17search9turn17search11turn17search13turn17search16",
+      "links": [
+        {
+          "url": "https://www.reddit.com/r/RPGdesign/comments/1boxg34/how_to_allow_for_the_powerfantasy_of_a_summoner/",
+          "title": "https://www.reddit.com/r/RPGdesign/comments/1boxg34/how_to_allow_for_the_powerfantasy_of_a_summoner/"
+        },
+        {
+          "url": "https://www.reddit.com/r/RPGdesign/comments/f76lsz/issues_with_summoners/",
+          "title": "https://www.reddit.com/r/RPGdesign/comments/f76lsz/issues_with_summoners/"
+        },
+        {
+          "url": "https://www.reddit.com/r/dndnext/comments/w3l3a3/if_youre_a_fan_of_playing_summoners_in_games_or/",
+          "title": "https://www.reddit.com/r/dndnext/comments/w3l3a3/if_youre_a_fan_of_playing_summoners_in_games_or/"
+        },
+        {
+          "url": "https://www.reddit.com/r/RPGdesign/comments/1p7e7v1/what_are_the_best_ways_youve_seen_summonable/",
+          "title": "https://www.reddit.com/r/RPGdesign/comments/1p7e7v1/what_are_the_best_ways_youve_seen_summonable/"
+        },
+        {
+          "url": "https://www.reddit.com/r/RPGdesign/comments/1d6loza/any_way_to_do_followers_or_summons_in_a_way_that/",
+          "title": "https://www.reddit.com/r/RPGdesign/comments/1d6loza/any_way_to_do_followers_or_summons_in_a_way_that/"
+        }
+      ]
+    }
+  ],
+  "export_note": "Texto final integral; marcadores de citação convertidos em notas com links, sem reescrita do conteúdo."
+}

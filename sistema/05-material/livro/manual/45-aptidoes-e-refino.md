@@ -77,7 +77,7 @@ Quem escolhe Refino em todo marco bate no teto no nível 22. Dali em diante esco
 
 Mesmo essa ficha não fica sem nada. `Cobrir-se de energia` e `Canalizar energia` vêm de graça no refino 1, e a primeira continua crescendo com o refino passivo até 8. O que ela nunca vai ter é `Energia Reversa` nem `Barreira Simples`.
 
-*O marco é do capítulo 19, __Experiência e Progressão__: é lá que estão os sete níveis em que ele cai, quanto refino cada rota junta marco a marco, e o que Corpo e Leque compram.*
+*O marco é do capítulo 18, __Experiência e Progressão__: é lá que estão os sete níveis em que ele cai, quanto refino cada rota junta marco a marco, e o que Corpo e Leque compram.*
 
 ## Aptidões
 
@@ -150,7 +150,7 @@ Estas duas chegam com a ficha, no refino 1, sem custar marco nenhum. Elas são o
 >
 > **Dano na arma.** Os seus ataques **com arma** causam `1d4` de dano a mais a cada `3` pontos de refino — `1d4` no refino `1`, `2d4` no `3`, `3d4` no `6`, `4d4` no `9`. **No refino `10` os dados viram `d6`: `4d6`.**
 >
-> **Só arma.** Ele não entra em feitiço nem em Kata. E se o mesmo ataque já estiver carregando um feitiço de dano de `Classe 0` ou mais — como no nível 27 da `Brasa`, em que cada ataque leva um junto —, este dano **não** se soma por cima.
+> **Só arma.** Ele não entra em feitiço nem em Kata. E se o mesmo ataque já estiver carregando um feitiço de dano de `Classe 0` ou mais — como no `Ferrão`, o nível 27 da Estocada, em que o golpe leva um Classe 0 junto —, este dano **não** se soma por cima.
 >
 > Requisito: grátis no refino 1. O refino escala o dano na arma.
 
@@ -174,7 +174,7 @@ Ela é a porta de toda arma de contato, e é ela que põe energia no que a sua m
 >
 > Requisito: refino 7 e nível 14. Classe Passiva 3.
 
-> **A `Energia Reversa` cura só você.** Curar outra pessoa é o degrau raro, e quem faz isso é a Trilha `Sutura`.
+> **A `Energia Reversa` cura só você.** Curar outra pessoa é o degrau raro.
 
 Ela muda a forma das lutas longas e muda o que acontece entre elas: um personagem com Energia Reversa não precisa voltar para casa depois de cada cena.
 
@@ -196,7 +196,7 @@ Recompor membro é a mesma aptidão fazendo a coisa mais difícil que a energia 
 
 > **Membro perdido.** Não tem regra neste livro, e isso é decisão: quem tira é o mestre ou um pacto, e as penalidades são as que a mesa combinar, do mesmo jeito que o d20 faz. Esta aptidão desfaz.
 
-**Curar outra pessoa continua fora daqui.** Quem alcança os outros é a Trilha `Sutura`, no nível 11 dela. Uma ficha com as duas recompõe o membro de outra pessoa, e isso é o degrau mais raro do material.
+**Curar outra pessoa continua fora daqui.**
 
 ### Regravação
 

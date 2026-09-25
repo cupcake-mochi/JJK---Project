@@ -5,6 +5,12 @@ Versão v0.14, corrigida na v0.15, na v0.16 e na v0.24 — 08/08/2026
 
 Esta peça revisa e substitui a seção 4 da peça anterior.
 
+> **⚠ v0.270 — o texto dos quatro Caminhos mudou de dono.** *O Mizuki refez as habilidades base e as Trilhas do Bastião, da Vanguarda, do Emanador e do Guia fora desta pasta, na **coleção v0.4**, e pediu ela no livro "exatamente" como ela é:* **"Todas as trilhas e caminhos foram refeitos, menos os evocadores, e as partes base deles não mudaram, só as habilidades base e trilhas mesmo."** *A coleção mora em `caminhos/`, com as ideias reservadas e as notas dela, e o capítulo 8 do livro é a cópia jogável.*
+>
+> **O que continua valendo daqui é a base:** *vida, PE, atributos naturais, perícias, treino de arma e Teste de Resistência (§1, §5 a §8) — e a coleção v0.4 não mexe em nenhum deles, com uma divergência registrada na perícia fixa do Bastião, que a v0.4 escreve `Provocar` e esta peça, `Intimidação`.* **O que ficou como registro é o §2 e o §3:** *as quinze Trilhas e o argumento de preço delas descrevem a coleção que valia até a v0.269, com o preço nos `DESENHO-*.md` da raiz.* **A v0.4 não tem preço medido** — *"Não é necessário medir cada fatia ou certificar novamente o orçamento para implementar. […] Isso não autoriza declarar que o equilíbrio foi comprovado." A medição está na fila do `ESTADO-ATUAL`.*
+>
+> **O Evocador não mudou, e saiu da edição jogável.** *As regras dele e das invocações continuam aqui e na peça 15 como desenho, fora do livro até o subsistema de Invocações fechar; o desenvolvimento novo mora em `invocacoes/`.*
+
 ---
 
 ## 1. Os cinco Caminhos
@@ -17,7 +23,7 @@ Nomes conferidos contra o manual — nenhum é termo definido lá. *Linha de Fre
 | **Vanguarda** | a arma como resposta: alcançar, cortar, acabar | Destreza, Força |
 | **Guia** | o outro como resposta: estender, recuperar, reposicionar | Essência |
 | **Emanador** | a técnica como resposta: mais feitiço, mais aptidão | Inteligência, Essência |
-| **Evocador** | o que você trouxe como resposta: invocações | Inteligência, Essência |
+| **Evocador** | o que você trouxe como resposta: invocações — *fora da edição jogável desde a v0.270* | Inteligência, Essência |
 
 ### Uma colisão que a checagem pegou
 
@@ -43,7 +49,24 @@ Renomear a aptidão sairia mais caro: *canalizar energia* é termo da própria o
 
 ## 2. As Trilhas
 
-Três por Caminho. **Os nomes foram fechados na v0.24**, quando o `conferir-nomes.py` passou os quinze pela checagem nas duas direções e reprovou seis.
+### A coleção v0.4 — a edição jogável desde a v0.270
+
+**Três por Caminho**, e o texto de cada uma mora em `caminhos/01-Caminhos-e-Trilhas/`, um arquivo por Caminho.
+
+| Caminho | Trilhas |
+|---|---|
+| **Bastião** | Muro · Punho · Combatente Amaldiçoado |
+| **Vanguarda** | Estocada · Batedor, com as rotas Yumi, Besta e Arma de Fogo · Executor |
+| **Emanador** | Condutor Armado · Ressonante · Catalisador |
+| **Guia** | Arquiteto · Analista · Socorrista |
+
+**O calendário da coleção:** Caminho em `2 · 7 · 15 · 23 · 30`, Trilha em `2 · 11 · 19 · 27`.
+
+*O degrau do nível 23 é novo nos quatro Caminhos.* **Os nomes novos passaram pela triagem do `conferir-nomes.py` na v0.270, e as colisões estão registradas no `CHANGELOG` para o Mizuki decidir** — *nenhum foi renomeado.*
+
+### A coleção até a v0.269 — o registro com preço
+
+Três por Caminho. **Os nomes foram fechados na v0.24**, quando o `conferir-nomes.py` passou os quinze pela checagem nas duas direções e reprovou seis. *As tabelas desta seção descrevem as quinze Trilhas que valeram até a v0.269; o preço de cada entrega está nos `DESENHO-*.md`. O `Muro`, o `Punho`, a `Estocada`, o `Batedor` e o `Executor` mantiveram o nome na v0.4 com entregas novas.*
 
 ### Bastião
 
@@ -432,11 +455,11 @@ A lista definitiva sai junto com o quadro de perícias completo, que é peça pr
 | **Bastião** · **Vanguarda** | **as treze** | Simples, Marciais e Arma de Fogo |
 | **Guia** · **Emanador** · **Evocador** | **duas** | `Arma de Fogo` e `Balestra` |
 
-> **Para um conjurador empunhar o resto, a porta é a Trilha.** *É o que faz a `Empunhadura` do `Arremate`, no nível 2: ela concede um grupo de arma à escolha e ainda troca Força por Inteligência ou Essência naquele grupo.* **Um Emanador de espadão existe, e paga com a escolha de Trilha.**
+> **Para um conjurador empunhar o resto, a porta é a Trilha.** *É o que faz a `Arma Condutora` do Condutor Armado, no nível 2: ela concede um grupo de arma à escolha e troca Força por Essência ou Inteligência naquele grupo.* **Um Emanador de espadão existe, e paga com a escolha de Trilha.** *A porta mudou de Trilha na v0.270, com a coleção v0.4; até ali ela era a `Empunhadura` do `Arremate`, com o mesmo efeito.*
 
 **Duas coisas que esta linha decide, e as duas foram confirmadas pelo Mizuki na v0.130:**
 
-- **O Guia fica no lado conjurador.** *Ele é `5` de vida e `5` de PE, meio a meio, e nenhuma das três Trilhas dele — `Elo`, `Sutura`, `Perímetro` — tem conteúdo de arma.*
+- **O Guia fica no lado conjurador.** *Ele é `5` de vida e `5` de PE, meio a meio, e nenhuma das três Trilhas dele tem conteúdo de arma — nem as da coleção v0.4, `Arquiteto`, `Analista` e `Socorrista`, nem as de antes, `Elo`, `Sutura` e `Perímetro`.*
 - **"As treze" inclui `Arma de Fogo` para Bastião e Vanguarda.** *Com isso a rota `Arma de Fogo` do `Batedor` é **especialização** e não acesso, que é coerente com o texto dela: ela entrega `Ferrolho` e `Mirar`, e nunca treino.*
 
 > **⚠ A `Balestra` é a única categoria Simples que um conjurador pega de graça.** *As outras seis da lista Simples — `Lâmina Curta`, `Porrete`, `Ceifa`, `Arremesso`, `Manopla`, `Massa` — ficam atrás da Trilha para os três.* **A divisão simples/marcial da peça 14 §5.4.1 continua sendo sobre identidade e não sobre poder**, e esta linha não mexe nela: ela diz quem alcança cada balde, e não quanto cada balde entrega.

@@ -1,0 +1,8 @@
+{
+  "raiz": "/media/mizuki/HD Externo II/Claude/Claude 2",
+  "arquivos_sha256": {
+    "sistema/05-material/livro/manual/60-invocacoes.md": "10d4233f843782d6794413825f3491c9d9075c551279bd12d19c290df1c3a625",
+    "sistema/03-mecanica/15-invocacoes.md": "e570433441f5d5cc1241fea79f454ed5443a1926953a94bdc60122a1ff2d1661",
+    "sistema/03-mecanica/conferir-invocacoes.py": "12146928b90379d6a5aabc7831c6077a72b1c595722f4def87f11a84731be769"
+  }
+}

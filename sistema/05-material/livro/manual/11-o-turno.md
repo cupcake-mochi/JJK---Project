@@ -162,5 +162,3 @@ Quem usa a Restrição `Carregar` mantém o movimento e a Ação Bônus no turno
 > **Feitiço de Classe só permite mais um de Classe 0 no seu turno.**
 
 Por exemplo, se você conjurou um feitiço de Classe 3 na Ação Bônus (ou Padrão), então ainda cabe na Ação Padrão (ou Bônus) um Classe 0.
-
-Uma Trilha sobe esse teto, e é a única do sistema: a `Torrente`, do Emanador. Do nível 11 em diante ela troca o Classe 0 por metade da sua maior Classe.

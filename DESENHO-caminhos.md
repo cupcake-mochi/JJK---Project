@@ -1,5 +1,7 @@
 # Os cinco Caminhos — terceira passada
 
+> **⚠ v0.270 — este desenho virou o registro com preço da coleção anterior.** *O texto de hoje do Bastião, da Vanguarda, do Emanador e do Guia é o da **coleção v0.4**, em `caminhos/`, que o Mizuki mandou pôr no livro "exatamente" como ela é, sem medir: "Não é necessário medir cada fatia ou certificar novamente o orçamento para implementar. […] Coloque na fila que futuramente terá de ser medido."* **Os preços daqui valem para as entregas daqui, e nenhum vale para as da v0.4.** *Eles ficam como o ponto de partida da medição que está na fila do `ESTADO-ATUAL`, e o `conferir-catalogo.py` continua conferindo este registro por dentro.* **O Evocador daqui continua valendo como desenho**, *fora da edição jogável até o subsistema de Invocações fechar.*
+
 *Fechado com o retorno do Mizuki. **Dois achados de conta apareceram nesta passada, e os dois vêm de propostas dele:** o nível 7 do Emanador fecha o vão por construção, e a `Presa` do Evocador estoura no nível 2 se a trava for por corpo.*
 
 > **Orçamento:** Caminho em `2 · 7 · 15 · 30`, Trilha em `2 · 11 · 19 · 27`. **O Caminho leva `3` fatias** (níveis 2, 15 e 30); **o nível 7 é de graça**, porque é correção de base.

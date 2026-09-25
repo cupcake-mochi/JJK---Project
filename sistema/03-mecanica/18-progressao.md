@@ -17,8 +17,8 @@
 | PE por nível | peça 1 §5.3 |
 | o marco, e o que ele entrega | peça 11 §3 |
 | a curva de refino das três rotas | `03-mecanica/11-aptidoes-e-refino.md` §3 — *veio do `arquitetura.md` na v0.104* |
-| degrau de Caminho | `DESENHO-caminhos.md` |
-| entrega de Trilha | `DESENHO-caminhos.md`, na mesma linha de orçamento |
+| degrau de Caminho | a coleção v0.4, em `caminhos/` — *era o `DESENHO-caminhos.md` até a v0.269* |
+| entrega de Trilha | a coleção v0.4, em `caminhos/` — *idem* |
 | Classe de feitiço, Classe de Passiva, Classe 0, Liberação e Técnica Máxima | manual, §9 |
 | XP para subir | peça 12 §3 |
 | **tamanho da lista de feitiços** | **ninguém, até esta peça** |
@@ -57,7 +57,7 @@
 | **20** | 1.500 | 3 | 16 | 5 | 5 | 3 | 5 | **2ª Liberação Máxima** |
 | **21** | 1.500 | 3 | 16 | 5 | 6 | 3 | 5 | Classe 6 |
 | **22** | 1.500 | 3 | 18 | 6 | 6 | 3 | 5 | **marco** |
-| 23 | 1.700 | 3 | 18 | 6 | 6 | 3 | 5 | — |
+| **23** | 1.700 | 3 | 18 | 6 | 6 | 3 | 5 | degrau de **Caminho** |
 | 24 | 1.700 | 3 | 19 | 6 | 6 | 3 | 5 | — |
 | 25 | 1.700 | 3 | 19 | 6 | 6 | 3 | 5 | — |
 | **26** | 1.700 | 4 | 21 | 7 | 7 | 3 | 5 | **marco** · Classe 7 |
@@ -108,7 +108,7 @@
 |---|---|---|
 | **Vida e PE** | dependem do **Caminho**, não do nível sozinho | peça 1 §5.1 e §5.3 |
 | **A escolha do marco** | são três eixos e quem escolhe é o jogador | peça 11 §3 |
-| **O que o degrau de Caminho e a entrega de Trilha entregam** | muda por Caminho e por Trilha — são 89 entradas | peça 17, que é o índice |
+| **O que o degrau de Caminho e a entrega de Trilha entregam** | muda por Caminho e por Trilha | a coleção v0.4, em `caminhos/`, desde a v0.270. *A peça 17 é o índice com preço da coleção anterior* |
 
 **Vida e PE cabem em duas linhas, e é por isso que elas não viram coluna:**
 
@@ -132,7 +132,7 @@
 | **espaços** | **esta peça, §4** |
 | **refino** e o calendário de marcos | peça 11 §3 |
 | **Classe**, **Passiva**, **Classe 0**, Liberação Máxima e Técnica Máxima | manual, §9 |
-| degrau de **Caminho** e entrega de **Trilha** | `DESENHO-caminhos.md`, a linha de orçamento do topo |
+| degrau de **Caminho** e entrega de **Trilha** | os quadros de nível da coleção v0.4, em `caminhos/` — *o degrau do nível 23 entrou por ela na v0.270* |
 
 > **O validador lê o manual, então ele PULA sem o `python-docx` — e diz que pulou.** *Sem a biblioteca, as colunas de Classe, Passiva e Classe 0 não são conferidas contra ninguém, e o rodapé imprime `OK, mas N checagem(ns) PULARAM` em vez de `TUDO OK`.*
 
