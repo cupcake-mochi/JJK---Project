@@ -28,7 +28,7 @@ A terceira linha é a que faz esta peça caber sem furar nada. **O `arquitetura.
 | **que ela mantém energia, aptidões e refino** | v0.39 | peça 9 §4 |
 | **que ela não amplia a conta de Legados** | v0.39 | peça 9 §4, peça 13 §8 |
 | **a `Energia Reversa`** — Classe Passiva 3, refino 7 e nível 14, e ela cura **você** | v0.78 | peça 11 §6 |
-| **o `Domínio Simples`** — Classe Passiva 2, refino 4 e nível 10, aptidão pura e sem lâmina | v0.29 | peça 11 §6.5 |
+| **o `Domínio Simples`** — Classe Passiva 2, refino 5 ou refino 4 com o voto do iniciante, aptidão pura e sem lâmina | v0.29; o gate, v0.268 | peça 11 §6.5 |
 
 **Nada disso se reabre aqui.** *Esta peça é a que mais chegou com contrato assinado por outras, e a lista existe para ninguém tentar.*
 

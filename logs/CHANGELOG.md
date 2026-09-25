@@ -8,6 +8,70 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.269] — 24/09/2026
+
+**O `Domínio Simples` trocou de relógio, e a `Cesta Oca` passou ao teste do `Carregar`.** *A v0.268 publicou a regra da segunda volta do Mizuki; depois dela ele mediu, não gostou do que a conta mostrou, e a terceira volta trocou a base — é a regra que fecha o Simples na rodada 3.* **A conta é o `sistema/01-pesquisa/anti-dominios/conta-dominio-simples.py`, reescrito como dono das duas tabelas novas do Simples:** *ele reproduz os números publicados antes de medir, e confere a tabela da Cesta, a cópia do livro e que o `Carregar` é Espírito e Espírito é Essência.* **A `Pétala` e a `Extensão` continuam as próximas.**
+
+### 1 · O que mudou da v0.268
+
+| | na v0.268 | na v0.269 |
+|---|---|---|
+| **quanto ele aguenta** | metade da Essência (mínimo 1) mais uma rodada, menos uma por ponto de refino que o dono da Expansão tem acima do seu | **Essência contra Essência:** `3` rodadas, `4` se a de quem segura for maior que a do dono, `2` se for menor |
+| **o Acerto de abrir** | não contava | **conta:** cada Acerto que ele segura gasta uma rodada, a começar por ele |
+| **o teste** | — | **a cada Acerto que ele segura, o teste do `Carregar`** — Espírito contra a CD do dono da Expansão. *A falha tira uma rodada, e as falhas nunca levam a duração abaixo de metade da Essência (mínimo 1)* |
+| **o refino** | o raio, o gate e as rodadas | **o raio e o gate** |
+| **erguer de novo** | sem espera, gastando a ação, com a conta cheia | **sem recarga, mas da segunda vez em diante, na mesma Expansão, custa a Ação Padrão, e ele aguenta metade das rodadas (mínimo 1)** |
+| **o teste da Cesta** | Vigor contra a CD de quem feriu, o da concentração | **o do `Carregar`:** Espírito contra a CD de quem feriu |
+
+**Não mudou:** *o voto do iniciante, o gate (refino 5, ou 4 com o voto, sem nível), o requisito de história, os `2` PE fixos, a queda na hora, o que ele anula, golpe no dono não o derrubar, e na Cesta a conta das falhas (metade da Essência) e a queda sem recarga.*
+
+### 2 · Por que assim, nas palavras dele
+
+- **A regra da v0.268, medida** — *a redução por refino quase não mexia em nada, e o que deixava o Simples de graça era subir de novo com a conta cheia e o Acerto de abrir não contar.* **"Acredito fortemente que o domínio simples garantidamente durar até o final da expansão não é saudável… se não vira uma forma de ignorar domínio quase de graça"**, e **"durar quase de forma garantida 3/4 da expansão pode ser desanimador, principalmente pelo fato que não tem recarga".**
+- **A Energia Reversa ficou de fora, pela condição dele** — *"coloca… mas só se for confirmado".* **Não se confirmou:** *a fala do Choso no cap. 226, conferida em duas transcrições japonesas, é que com a saída de um Simples, contra um domínio de verdade, só se compra tempo — do Simples em geral, sem ligar nada à reversa.*
+- **A regra nova — "que tal a gente deixar no simples? Tipo Warhammer… Se essência for igual, dura 3 rodadas / Se essência do jogador for maior, dura 4 rodadas / Se essência do jogador for menor, dura 2 rodadas. Isso não revela o valor da essência do inimigo, a não ser que empate, e deixa fácil de analisar."**
+- **Erguer de novo** — *"por que eu deixaria a B se o anime mesmo mostra o Gojo conseguindo abrir duas vezes? Deixa eles poderem abrir sem recarga mesmo… e faz com que na segunda abertura tenha de ser ação padrão ao invés de bônus, isso força o jogador a ter de fazer uma decisão de 'só ganhar mais tempo'".* *A B era a saída que eu tinha recomendado: não subir de novo na mesma Expansão.* **A duração de quem ergue de novo:** *"metade, min 1".* **O refino só no raio e no gate:** *"sim".*
+- **O teste** — **"a cada acerto garantido recebido, deve ser feito um teste do 'carregar', uma falha reduz a duração. A duração (total) nunca pode ser reduzida a menos que metade de sua essência. Isso faz quem está no começo poder ser punido em uma expansão, mas os níveis altos têm mudança quase nenhuma."** *E na Cesta:* **"acho que seria até melhor se o TR da cesta não fosse concentração e sim a mesma do carregar".** *O teste não tem nome próprio — a peça 3 só nomeia a Concentração (Vigor) e o Carregar (Espírito) —, e o texto chama de "o teste do `Carregar`".*
+- **As leituras aplicadas, e elas são minhas para ele vetar:** *o Acerto de abrir conta como a primeira rodada (mostrado a ele antes das últimas respostas); a Essência comparada é a de quem segura contra a do dono da Expansão, nos dois papéis; o teste vale para todo Acerto segurado, o primeiro também; o piso de metade da Essência é só das falhas, e não sobe a metade de quem ergue de novo; e a Mão Firme não protege do teste — no Simples porque ele vem do Acerto, e não de dano, e na Cesta porque já não protegia.*
+
+### 3 · O que isso faz, medido
+
+*A Expansão com o refino típico de cada nível, a mesma cena da Cesta; Acertos que ele segura, em média, de quantos ela solta:*
+
+| quem segura | nv `14` (`3`) | nv `20` (`4`) | nv `26` (`6`) | nv `26`, erguendo de novo |
+|---|---|---|---|---|
+| Essência `6`, maior que a do dono, Espírito treinado | `3,0` | `3,3` | `3,3` | `5,0` |
+| Essência `6`, igual à do dono, com ou sem treino | `3,0` | `3,0` | `3,0` | `4,0` |
+| Essência `4`, igual à do dono, Espírito treinado | `2,3` | `2,3` | `2,3` | `4,0` |
+| Essência `2`, menor que a do dono, sem treino | `1,4` | `1,3` | `1,2` | `3,2` |
+
+- **O teste faz o que ele pediu:** *com Essência `6` ele tira no máximo uma rodada, e com Essência igual à do dono não tira nenhuma, porque o piso já é `3`; com Essência `4` e igual, ele segura `2,3` Acertos em vez de `3`; com Essência `2` e menor, `1,2` em vez de `2` no nível 26.*
+- **Erguer de novo custa caro de propósito:** *contra a Expansão de refino 10, quem tem Essência maior chega a `5` de `6` com uma Ação Padrão; com Essência `2` e menor, são duas Ações Padrão para chegar a `3,2`. Nenhum Simples aguenta essa Expansão até o fim — é o "um dia sempre perde a queda de braço" do cap. 266, e o Gojo erguendo o dele duas vezes e perdendo as duas no 226.*
+- **Contra uma Expansão pequena ele ainda segura quase tudo** — *a de refino 5 solta três Acertos, e com Essência `6` ele segura os três.*
+- **Contra a v0.268:** *a regra da segunda volta segurava `5`, `4` e `3` Acertos de `6`, com Essência `6`, `4` e `2` e refino igual ao do dono, sem erguer de novo; hoje, com Espírito treinado, são `3,0`, `2,3` e `2,2` com Essência igual à do dono, e `3,3`, `3,0` e `2,8` com Essência maior. O registro dela ficou na seção 1b da conta.*
+- **A Cesta no teste do `Carregar`:** *a linha de Essência `6` não muda — `3,0`, `4,0` e `5,6` —, a de Essência `4` treinada sobe de `3,2` e `3,8` para `3,4` e `4,0` nos níveis 20 e 26, e a de baixo virou Essência `2` sem treino, com `1,5`, `1,4` e `1,3`.* **A nota da recarga foi remedida no teste novo:** *no nível 26, com um golpe por rodada, Essência `4` leva `0,9` Acerto em vez de `1,4` (eram `1,0` e `1,6` com Vigor); a de Essência `6` não muda.*
+
+### 4 · Onde entrou
+
+- **Peça 11 §6.5:** *a seção do Simples — a caixa, a nota da versão, a tabela de rodadas, a tabela medida —, a linha dele na tabela "protege e cobra" e na "As quatro, com número"; na Cesta, a caixa, o "Como ela cai", a tabela medida e a nota da recarga.* **§10:** *a linha do Simples no catálogo, que ainda falava de "rodadas contra refino maior".*
+- **Livro, capítulo 45:** *a caixa do Simples, a tabela de rodadas, a caixa da Cesta e a linha do Simples na tabela das quatro.*
+- **As contas:** *o `conta-dominio-simples.py` foi reescrito para a regra nova (as fórmulas das voltas 1 e 2 ficaram de registro na seção 1b), e o `conta-cesta-oca.py` confere a tabela da Cesta refeita.*
+- **Notas:** *a da v0.268 no `H-resumo-das-quatro.md` e a do rascunho da Expansão sem Barreiras ganharam a troca.*
+- **Nenhum validador mudou**, *e a base da 7.2 do `conferir-repositorio.py` continua em `187`, medida numa cópia da pasta principal com a entrega sincronizada: a v0.269 não citou arquivo novo.*
+- **O arnês:** *onze perturbações — a tabela de rodadas na peça e no livro, a linha de erguer de novo, a tabela medida, a da Cesta nas duas contas, o `Carregar` virando Vigor na peça 3, a frase da caixa, e o PE do Simples no bloco 10 do `conferir-expansao.py` e na 9.2 do `conferir-bestiario.py` —, todas acendendo a checagem dona pela mensagem certa, com a base verde antes e depois e uma linha mudada em cada; e um contra-teste coerente, mudando a peça e a conta juntas, verde.*
+
+### 5 · Uma sobra da v0.268, pega no caminho
+
+- **Peça 25 §2:** *a tabela dos contratos ainda dava o gate velho do Simples, "refino 4 e nível 10".* **Virou o gate da v0.268**, *com a versão na coluna de quem decidiu.*
+
+### 6 · O que continua de pé
+
+*A `Pétala` e a `Extensão` ficam como estão.* **O repositório da ficha (`Claude 3`) fica com o texto velho da Cesta e do Simples até a próxima extração do livro.** *Na pasta de trabalho, os `31` validadores passam com `PULADA` zero.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: *o item 6 da fila, rodada 3 — a `Pétala`: como cai (a peça diz concentração, a obra diz programa automático), o que ela para, e quanto dura.*
+
+---
+
 ## [0.268] — 24/09/2026
 
 **O `Domínio Simples` foi reescrito, e a `Cesta Oca` perdeu a recarga.** *É a rodada 3 do item 6 da fila, a primeira das três que faltavam, com as decisões do Mizuki em duas voltas sobre a conta — `sistema/01-pesquisa/anti-dominios/conta-dominio-simples.py`, que reproduz os números publicados antes de medir e agora confere as duas tabelas novas da peça 11 e a cópia do livro.* **A `Pétala` e a `Extensão` ficam como estão, e são as próximas.**

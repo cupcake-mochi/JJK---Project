@@ -697,7 +697,7 @@
 
 **A peça 11 escreve:** *"dentro dele o Acerto de uma Expansão não acontece; custa `1 ×` a sua maior Classe de PE por rodada, e ela quebra se os seus pés saírem do chão."* **Contra domínio nenhum ele cede.** *Na obra, os dois domínios sem barreira arrancam o Domínio Simples em instantes* (cap. `206`; `226`; `258`). **É a pergunta da rodada seguinte.**
 
-> ✅ **Resolvido na v0.268, na rodada 3 da revisão dos anti-domínio:** *o Simples aguenta metade da Essência (mínimo 1) mais uma rodada de Expansão, menos uma por ponto de refino que o dono dela tem acima do seu, e cai com a Expansão alcançando na hora quem ele protegia.* **Contra a sem barreiras vale a mesma regra, sem exceção** — *contra refino 10 ele aguenta no máximo quatro rodadas de cinco. A peça 11 §6.5 é a dona.*
+> ✅ **Resolvido na v0.268 e revisto na v0.269, na rodada 3 da revisão dos anti-domínio:** *o Simples aguenta `3` rodadas de Expansão, `4` se a Essência de quem segura for maior que a do dono e `2` se for menor, com o teste do `Carregar` a cada Acerto tirando rodada, e cai com a Expansão alcançando na hora quem ele protegia.* **Contra a sem barreiras vale a mesma regra, sem exceção** — *contra refino 10 ele segura no máximo quatro Acertos de seis sem erguer de novo, e cinco erguendo. A peça 11 §6.5 é a dona.*
 
 ### 8.3 ✅ Espaço — decidido em 13/09/2026
 

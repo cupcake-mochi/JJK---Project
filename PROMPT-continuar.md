@@ -8,7 +8,7 @@ Trabalhe em `/media/mizuki/HD Externo II/Claude/Claude 2/`, na pasta **principal
 
 **Projeto - M** é um sistema de RPG de mesa no universo de Jujutsu Kaisen, para um server de guilda com vários mestres ativos e personagem persistente entre mesas. O filtro que decide quase tudo: **dois mestres que nunca se falaram chegam no mesmo número?**
 
-**Esta conversa continua a rodada 3 da revisão dos quatro anti-domínio: a `Pétala`, depois a `Extensão de Domínio`, e só no fim a comparação das quatro.** A `Cesta Oca` foi decidida na v0.267 e o `Domínio Simples` na v0.268. O registro da pesquisa e das rodadas 1 e 2 está em `logs/SESSAO-2026-09-24-anti-dominios.md`; o da rodada 3 até aqui está na entrada da v0.268 do `logs/CHANGELOG.md`, com as palavras do Mizuki.
+**Esta conversa continua a rodada 3 da revisão dos quatro anti-domínio: a `Pétala`, depois a `Extensão de Domínio`, e só no fim a comparação das quatro.** A `Cesta Oca` foi decidida na v0.267 e o `Domínio Simples` na v0.268 e na v0.269, que trocou a regra de queda dele. O registro da pesquisa e das rodadas 1 e 2 está em `logs/SESSAO-2026-09-24-anti-dominios.md`; o da rodada 3 até aqui está nas entradas da v0.268 e da v0.269 do `logs/CHANGELOG.md`, com as palavras do Mizuki.
 
 ## Regras da pasta, antes de tudo
 
@@ -24,7 +24,7 @@ Trabalhe em `/media/mizuki/HD Externo II/Claude/Claude 2/`, na pasta **principal
 
 1. `sistema/ESTADO-ATUAL.md` — onde parou e o que vem em seguida. **Leia inteiro**, inclusive a fila no fim; ele trunca, e se vier aviso de leitura parcial, continue do offset
 2. `README.md` — as **nove lições que custaram erro**, e elas moram só lá
-3. `logs/CHANGELOG.md` — as entradas `0.265` a `0.268`: o **porquê** de cada uma
+3. `logs/CHANGELOG.md` — as entradas `0.265` a `0.269`: o **porquê** de cada uma
 4. `logs/SESSAO-2026-09-24-anti-dominios.md` — o que a conversa da nuvem tinha e os arquivos não têm
 5. `sistema/01-pesquisa/anti-dominios/H-resumo-das-quatro.md` — as quatro técnicas na obra, como cada uma cai, e as divergências contra a peça 11
 6. `sistema/03-mecanica/11-aptidoes-e-refino.md` §6.5 — a regra das quatro, dona de tudo que a rodada vai mexer
@@ -46,7 +46,7 @@ E rode a skill `rpg-da-guilda` antes de começar.
 
 - **Como cai:** a peça diz "cai se você perder a concentração", e a obra a mostra como **programa automático** (Kusakabe, 227) — o "concentração" nasce num artigo de fã de 2023, sem painel. **Na obra ela cai com soco comum do dono do domínio** (108, pelo anime e pelo efeito; o mangá não diz com palavras) **e é largada para abrir o domínio** (227). *A caixa de abertura do capítulo 45 do livro diz hoje "só a Pétala exige concentração" — é a regra da peça, e é ela que está em revisão.*
 - **O que ela para:** o acerto garantido que **toca** — a frase *"contra um Acerto que é golpe de corpo, ela não faz nada"* cai pela definição `[I]` (nenhuma cena testa). Ela **intercepta**, não `中和`, e "não se opõe à saída do domínio" (227).
-- **Quanto dura:** hoje, `refino ÷ 2` Acertos por cena e sempre sobra um — isso é desenho do sistema, e a obra não amarra. *O Simples agora cai por rodadas contra a Expansão, e a Cesta pelos golpes em quem segura; a Pétala se mede contra as duas.*
+- **Quanto dura:** hoje, `refino ÷ 2` Acertos por cena e sempre sobra um — isso é desenho do sistema, e a obra não amarra. *O Simples agora cai por rodadas contra a Expansão, em Essência e com o teste do `Carregar`, e a Cesta pelos golpes em quem segura, com o mesmo teste; a Pétala se mede contra as duas.*
 - **O que custa:** `1 × maior Classe` por rodada — *a seção "Por que o custo por rodada é `1 × maior Classe`" da peça 11 vale hoje só para ela.*
 - **A divergência do livro, que espera esta rodada:** *a caixa da Pétala no capítulo 45 pede "ser Descendente, ou ter aprendido com alguém de algum clã" e refino 2* (a peça: refino 4 e nível 10, sem requisito). **Veio da revisão do Mizuki no Word da v0.176, como o requisito da Cesta e o do Simples** — *os dois ficaram, por decisão dele, e o §5 da peça 11 registra o "requisito de história", que não é gate. O refino 2 ou 4 com nível 10 não muda o marco de ninguém: meça, não suponha.*
 
@@ -74,21 +74,21 @@ E rode a skill `rpg-da-guilda` antes de começar.
 
 ## Onde o projeto está
 
-**v0.268.** Manual do Fundamento na **v7.38**. **Vinte e sete peças de regra e vinte e sete validadores** em `sistema/03-mecanica/`, mais o `conferir-repositorio.py`, os dois de `manual/matematica/` e o `conferir-voz.py` — **31 validadores**. A ficha (`Claude 3`, o `Ficha---RPG-JJK`) não mudou.
+**v0.269.** Manual do Fundamento na **v7.38**. **Vinte e sete peças de regra e vinte e sete validadores** em `sistema/03-mecanica/`, mais o `conferir-repositorio.py`, os dois de `manual/matematica/` e o `conferir-voz.py` — **31 validadores**. A ficha (`Claude 3`, o `Ficha---RPG-JJK`) não mudou.
 
-**A v0.264 e a v0.265 foram pesquisa** (`sistema/01-pesquisa/anti-dominios/`, arquivos `A` a `N`). **A v0.266 foi a rodada 1** (as frases da peça 11 que atribuíam à obra o que ela não faz). **A v0.267 foi a rodada 2, a Cesta**, e **a v0.268, o começo da rodada 3, o Simples.**
+**A v0.264 e a v0.265 foram pesquisa** (`sistema/01-pesquisa/anti-dominios/`, arquivos `A` a `N`). **A v0.266 foi a rodada 1** (as frases da peça 11 que atribuíam à obra o que ela não faz). **A v0.267 foi a rodada 2, a Cesta**, e **a v0.268 e a v0.269, o começo da rodada 3, o Simples** — *a v0.269 trocou a regra de queda que a v0.268 tinha publicado.*
 
 ## O que a pesquisa mudou, e você precisa saber antes de propor qualquer coisa
 
-**A casca não é a variável — é a diferença de saída (`出力`) entre quem defende e quem abriu**, e o sistema tem a moeda para isso nos dois lados: o refino. **Nenhuma das quatro tem relógio próprio na obra: todas caem por fora.** **E o jeito de ceder muda de uma para outra:** a atenuação só tem cena na Extensão; a Cesta e o Simples protegem por inteiro até cair; a Pétala intercepta.
+**A casca não é a variável — é a diferença de saída (`出力`) entre quem defende e quem abriu**, e o sistema tem a moeda para isso nos dois lados: o refino. *No Simples, por decisão do Mizuki, a moeda acabou sendo a Essência — a de quem segura contra a do dono —, e o refino ficou no raio e no gate.* **Nenhuma das quatro tem relógio próprio na obra: todas caem por fora.** **E o jeito de ceder muda de uma para outra:** a atenuação só tem cena na Extensão; a Cesta e o Simples protegem por inteiro até cair; a Pétala intercepta.
 
 **Seis coisas a obra não amarra, e são desenho livre:** custo de energia, limite de tempo, Extensão junto com a técnica reversa, Cesta com encantamento próprio, quem usa a Pétala fora do Zenin e do Gojo, e como se aprende a Cesta.
 
 ## As duas que já fecharam
 
-**A Cesta Oca (v0.267, e a queda na v0.268):** as duas mãos presas no símbolo; levanta com Reação quando uma Expansão abre ou Ação Bônus no turno; cai pelos golpes em quem segura (Vigor contra a CD de quem feriu, falhas até metade da Essência); **quando cai, a Expansão alcança na hora, e ela levanta de novo sem espera, gastando a ação**; PE zero; requisito de história (Reencarnado, ou treinado em `História`).
+**A Cesta Oca (v0.267, a queda na v0.268, e o teste na v0.269):** as duas mãos presas no símbolo; levanta com Reação quando uma Expansão abre ou Ação Bônus no turno; cai pelos golpes em quem segura (**o teste do `Carregar`, Espírito contra a CD de quem feriu** — era Vigor até a v0.268 —, falhas até metade da Essência); **quando cai, a Expansão alcança na hora, e ela levanta de novo sem espera, gastando a Ação Bônus**; PE zero; requisito de história (Reencarnado, ou treinado em `História`).
 
-**O Domínio Simples (v0.268):** **aguenta metade da Essência (mínimo 1) mais uma rodada de Expansão, menos uma por ponto de refino que o dono dela tem acima do seu, no mínimo uma**; o Acerto de abrir não conta; golpe no dono não o derruba; quando cai, a Expansão alcança na hora quem ele protegia, e ele levanta de novo sem espera. **Lá dentro a Expansão não alcança ninguém**, e o que ela dá ao dono continua. **Os pés são o voto do iniciante** (refino 4; com refino 5 ele anda com você), o gate é refino 5 sem nível, e o PE são `2` fixos. **Contra refino 10 nenhum Simples segura até o fim.**
+**O Domínio Simples (v0.268, e a queda na v0.269):** **aguenta `3` rodadas de Expansão, `4` se a Essência de quem segura for maior que a do dono e `2` se for menor**; cada Acerto que ele segura gasta uma, a começar pelo de abrir, e pede **o teste do `Carregar`** — a falha tira uma rodada, nunca abaixo de metade da Essência; golpe no dono não o derruba; quando cai, a Expansão alcança na hora quem ele protegia, e **erguer de novo na mesma Expansão custa a Ação Padrão e aguenta metade** (mínimo 1). **Lá dentro a Expansão não alcança ninguém**, e o que ela dá ao dono continua. **Os pés são o voto do iniciante** (refino 4; com refino 5 ele anda com você), o gate é refino 5 sem nível, e o PE são `2` fixos. **Contra refino 10 nenhum Simples segura até o fim.**
 
 ## Lições de método desta rodada
 
@@ -97,6 +97,8 @@ E rode a skill `rpg-da-guilda` antes de começar.
 3. **No modelo, cada ação gasta o slot de alguém.** *A primeira conta da Cesta sem recarga deixava ela subir de novo antes do segundo golpe da rodada, e subir de novo gasta a Ação Bônus do turno de quem segura.*
 4. **Base vermelha na cópia do arnês invalida todo vermelho.** *A cópia sem os `.docx` fazia o `conferir-bestiario` reprovar na base; e uma perturbação pode acender pelo motivo errado — a do custo zero acendia por `ZeroDivisionError`. Leia a mensagem, não só o `rc`.*
 5. **A 7.4 reprova quando a entrega commitada está duas versões atrás**, e aí a entrega commita **antes** do `subir.sh`. *Aconteceu com a v0.267, porque três versões fecharam na nuvem sem entrega.*
+6. **Pergunte com a palavra do jogo, não com a do modelo.** *"Subida" era palavra do script, e o Mizuki não entendeu; "erguer de novo" ele entendeu na hora. E exemplo concreto de cada saída antes da pergunta: foi vendo os exemplos que ele propôs a regra que ficou.*
+7. **Antes de refazer uma versão, confira o `git log` da pasta principal.** *A v0.268 foi commitada e subiu enquanto a conversa ainda discutia a regra, e a regra final teve de virar a v0.269 em cima dela, com a worktree alinhada ao `main` primeiro.*
 
 ## A ordem de fechar versão
 

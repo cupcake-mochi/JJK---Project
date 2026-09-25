@@ -604,7 +604,7 @@ O eixo que separa as quatro não é força — é **quanta liberdade você tem e
 | | protege | e cobra |
 |---|---|---|
 | **Cesta Oca de Vime** | só você, dentro de uma esfera | **as duas mãos presas** no símbolo, e ela **cai** com os golpes em você |
-| **Domínio Simples** | um raio em volta de você, e quem estiver nele | **aguenta poucas rodadas** de Expansão, menos contra quem tem mais refino; **o iniciante fica preso ao ponto** |
+| **Domínio Simples** | um raio em volta de você, e quem estiver nele | **aguenta poucas rodadas** de Expansão, menos contra quem tem mais Essência; **o iniciante fica preso ao ponto** |
 | **Pétala** | o seu corpo, e **devolve o golpe** | exige concentração, e **não para o que não é Acerto** |
 | **Extensão de Domínio** | o seu corpo, e faz o **seu** ataque acertar | **nenhum feitiço enquanto ela estiver de pé** |
 
@@ -613,7 +613,7 @@ O eixo que separa as quatro não é força — é **quanta liberdade você tem e
 | | Classe · gate | abre em | o refino escala | PE por rodada |
 |---|---|---|---|---|
 | **Cesta Oca de Vime** | 1 · sem gate | nv 6, nas três rotas | **nada** | **nenhum** |
-| **Domínio Simples** | 2 · refino 5, ou 4 com o voto | nv 10 · 14 · 18, ou 10 · 10 · 14 com o voto | o raio: `1,5 m + refino ÷ 2`; e cada ponto abaixo do dono da Expansão tira uma rodada | `2` fixos |
+| **Domínio Simples** | 2 · refino 5, ou 4 com o voto | nv 10 · 14 · 18, ou 10 · 10 · 14 com o voto | o raio: `1,5 m + refino ÷ 2` | `2` fixos |
 | **Pétala** | 2 · refino 4, nível 10 | nv 10 · 10 · 14 | quantos Acertos devolve: `refino ÷ 2` | `1 × maior Classe` |
 | **Extensão de Domínio** | 3 · refino 7, nível 14 | nv 14 · 18 · 26 | a duração: `refino` rodadas | `1,5 × maior Classe` |
 
@@ -624,7 +624,7 @@ O eixo que separa as quatro não é força — é **quanta liberdade você tem e
 ### Cesta Oca de Vime · Classe Passiva 1, sem gate
 
 > **Você faz o símbolo e uma esfera se fecha em volta de você. Enquanto você o segurar, o Acerto de uma Expansão não te alcança, e as suas duas mãos ficam presas nele. Levanta com uma Reação quando uma Expansão abre, ou com uma Ação Bônus no seu turno.**
-> **Ela cai pelos golpes em você, e não pela Expansão:** *cada golpe que te acerta pede um Teste de Resistência de Vigor contra a CD de quem te feriu, as falhas se acumulam, e com metade da sua Essência em falhas (no mínimo 1) a esfera se desfaz e a Expansão te alcança na hora.*
+> **Ela cai pelos golpes em você, e não pela Expansão:** *cada golpe que te acerta pede o teste do `Carregar` — um Teste de Resistência de Espírito contra a CD de quem te feriu —, as falhas se acumulam, e com metade da sua Essência em falhas (no mínimo 1) a esfera se desfaz e a Expansão te alcança na hora.*
 > *Requisito: ser Reencarnado, ou ser treinado em `História`.*
 
 > ***Reescrita na v0.267, com as decisões do Mizuki na rodada 2 da revisão dos anti-domínio.*** *Até a v0.266 ela cobrava o turno inteiro ("você não faz mais nada") e não quebrava nunca. A obra mostra outra coisa: o símbolo prende as mãos, quem segura continua lutando, e ela racha com os golpes no dono (cap. 266).* **O preço passou a ser as mãos e a queda; o PE continua zero.** *A conta está em `sistema/01-pesquisa/anti-dominios/conta-cesta-oca.py`, e ela reproduz os números publicados antes de medir — inclusive a tabela abaixo, que sai dela.*
@@ -635,8 +635,8 @@ Ela é a **predecessora** do Domínio Simples, e **anula o Acerto e mais nada**:
 
 **Como ela cai.**
 
-- **Segurando o símbolo, a Expansão não a quebra.** Quem derruba é quem bate em você: um Teste de Resistência de Vigor por golpe que acerta, contra a CD de quem te feriu. **As falhas se acumulam, e com metade da sua Essência em falhas (arredonda para baixo, no mínimo 1) a esfera se desfaz** — é a mesma conta da concentração na corrida.
-- **Este teste não ocupa a sua Concentração, e a Mão Firme não protege dele.**
+- **Segurando o símbolo, a Expansão não a quebra.** Quem derruba é quem bate em você: o teste do `Carregar` — Espírito, contra a CD de quem te feriu — por golpe que acerta. **As falhas se acumulam, e com metade da sua Essência em falhas (arredonda para baixo, no mínimo 1) a esfera se desfaz** — é a mesma conta da concentração na corrida.
+- **Este teste não ocupa a sua Concentração, e a Mão Firme não protege dele.** *Até a v0.268 ele era de Vigor, o da concentração; na v0.269 o Mizuki o trocou pelo do `Carregar`, o mesmo do Domínio Simples.*
 - **Soltar o símbolo não a desfaz.** Você recupera as mãos, e ela fica de pé; mas **cada Acerto letal da Expansão passa a contar uma falha, no máximo uma por rodada.** *Acerto que não fere — o que só entrega informação — não conta.*
 - **Quando ela cai, a Expansão te alcança na hora** — você não espera o próximo Acerto. **E dá para levantar de novo sem espera, com as falhas zeradas**, gastando a Ação Bônus do seu turno.
 
@@ -644,15 +644,15 @@ Ela é a **predecessora** do Domínio Simples, e **anula o Acerto e mais nada**:
 |---|---|---|---|
 | **falhas que desfazem** | `1` | `2` | `3` |
 
-> ***A recarga saiu na v0.268, por decisão do Mizuki na rodada 3.*** *Até a v0.267, depois de cair ela só levantava passadas metade da Essência em rodadas. Hoje a queda cobra na hora — a Expansão te alcança no instante em que ela se desfaz — e levantar de novo custa a ação.* **Medido, a troca nunca piora a Cesta e ajuda quem tem Essência alta:** *no nível 26, com um golpe por rodada, quem tem Essência `6` leva `0,2` Acerto em vez de `0,4`, e quem tem Essência `4`, `1,0` em vez de `1,6`; com Essência até `3` não muda nada, porque a recarga dela já era de uma rodada.*
+> ***A recarga saiu na v0.268, por decisão do Mizuki na rodada 3.*** *Até a v0.267, depois de cair ela só levantava passadas metade da Essência em rodadas. Hoje a queda cobra na hora — a Expansão te alcança no instante em que ela se desfaz — e levantar de novo custa a ação.* **Medido, a troca nunca piora a Cesta e ajuda quem tem Essência alta:** *no nível 26, com um golpe por rodada, quem tem Essência `6` leva `0,2` Acerto em vez de `0,4`, e quem tem Essência `4`, `0,9` em vez de `1,4`; com Essência até `3` não muda nada, porque a recarga dela já era de uma rodada.* *Os números são com o teste do `Carregar`, da v0.269; na v0.268, com o de Vigor e Constituição `3`, a linha de Essência `4` era `1,0` em vez de `1,6`.*
 
 **O que isso faz, medido** — *a Expansão com o refino típico de cada nível, um golpe por rodada em quem segura, Acertos segurados em média:*
 
 | quem segura | nv `14` (`3` Acertos) | nv `20` (`4`) | nv `26` (`6`) |
 |---|---|---|---|
-| Vigor treinado, Constituição `6`, Essência `6` | `3,0` | `4,0` | `5,6` |
-| Vigor treinado, Constituição `3`, Essência `4` | `2,8` | `3,2` | `3,8` |
-| sem treino, Constituição `0`, Essência até `3` | `1,3` | `1,2` | `1,2` |
+| Espírito treinado, Essência `6` | `3,0` | `4,0` | `5,6` |
+| Espírito treinado, Essência `4` | `2,8` | `3,4` | `4,0` |
+| sem treino, Essência `2` | `1,5` | `1,4` | `1,3` |
 
 **Ela segura quase tudo cedo e cede tarde** — *é o "um dia sempre perde a queda de braço" da obra (cap. 266): a Expansão mais forte dura mais e tem CD mais alta.* **Com dois golpes por rodada em quem segura, ela segura menos, e a perda é maior no nível alto.**
 
@@ -661,32 +661,34 @@ Ela é a **predecessora** do Domínio Simples, e **anula o Acerto e mais nada**:
 ### Domínio Simples · Classe Passiva 2, refino 5, ou refino 4 com o voto do iniciante
 
 > **Um domínio pequeno em volta de você, de raio `1,5 m + refino ÷ 2`, que cobre quem estiver nele. Lá dentro a Expansão não alcança ninguém: nem o Acerto dela, nem o que ela faz com as pessoas ou com o lugar. Levanta com uma Reação quando uma Expansão abre, ou com uma Ação Bônus no seu turno, e custa `2` PE por rodada.**
-> **Ele aguenta a Expansão por metade da sua Essência (no mínimo 1) mais uma rodada, e cada ponto de refino que o dono dela tem acima do seu tira uma rodada; ele sempre aguenta pelo menos uma.** *O Acerto de quando ela abre não conta. Quando ele cai, a Expansão alcança na hora quem ele protegia.*
+> **Ele aguenta a Expansão por `3` rodadas, `4` se a sua Essência for maior que a do dono dela e `2` se for menor.** *Cada Acerto que ele segura gasta uma rodada, a começar pelo de quando ela abre, e pede o teste do `Carregar`: uma falha tira uma rodada, mas as falhas nunca levam a duração abaixo de metade da sua Essência (no mínimo 1). Quando ele cai, a Expansão alcança na hora quem ele protegia; erguer de novo na mesma Expansão custa a Ação Padrão, e ele aguenta metade das rodadas (no mínimo 1).*
 > *Requisito: ter visto um sendo usado, ou ter aprendido com alguém. Com refino 4, só com o voto do iniciante: ele fica no ponto em que você o ergueu, e se os seus dois pés saírem desse ponto ele se desfaz.*
 
-> ***Reescrito na v0.268, com as decisões do Mizuki na rodada 3 da revisão dos anti-domínio.*** *Até a v0.267 ele custava `1 × a maior Classe` por rodada, não cedia contra domínio nenhum, e quebrava se os pés saíssem do chão. A obra mostra outra coisa: ele cai pela pressão do domínio (caps. 206 e 226), nunca caiu por golpe no dono dentro de domínio, e os pés são o voto da Miwa — "o iniciante cria vários votos para o Simples se firmar; o Kusakabe firma sem voto nenhum" (cap. 254).* **O preço passou a ser um relógio contra a Expansão, e o PE ficou só para ninguém andar com ele fora de combate.** *A conta está em `sistema/01-pesquisa/anti-dominios/conta-dominio-simples.py`, e ela reproduz os números publicados antes de medir — inclusive as duas tabelas abaixo.*
+> ***Reescrito na v0.268, e a queda trocou na v0.269, com as decisões do Mizuki na rodada 3 da revisão dos anti-domínio.*** *Até a v0.267 ele custava `1 × a maior Classe` por rodada, não cedia contra domínio nenhum, e quebrava se os pés saíssem do chão. A obra mostra outra coisa: ele cai pela pressão do domínio (caps. 206 e 226), nunca caiu por golpe no dono dentro de domínio, e os pés são o voto da Miwa — "o iniciante cria vários votos para o Simples se firmar; o Kusakabe firma sem voto nenhum" (cap. 254).* **O preço passou a ser um relógio contra a Expansão, e o PE ficou só para ninguém andar com ele fora de combate.** *Na v0.268 o relógio era metade da Essência mais uma rodada, menos uma por ponto de refino do dono acima do seu, com o Acerto de abrir fora da conta; na v0.269 o Mizuki o trocou por Essência contra Essência, com o teste do `Carregar` a cada Acerto, e o refino ficou no raio e no gate.* *A conta está em `sistema/01-pesquisa/anti-dominios/conta-dominio-simples.py`, e ela reproduz os números publicados antes de medir — inclusive as duas tabelas abaixo.*
 
 **Como ele cai.**
 
-| Essência | `0` a `3` | `4` e `5` | `6` |
+| a sua Essência, contra a do dono da Expansão | maior | igual | menor |
 |---|---|---|---|
-| **rodadas que ele aguenta**, com refino igual ou maior que o do dono | `2` | `3` | `4` |
+| **rodadas que ele aguenta** | `4` | `3` | `2` |
+| **erguendo de novo, na mesma Expansão** | `2` | `1` | `1` |
 
-- **Cada ponto de refino que o dono da Expansão tem acima do seu tira uma rodada**, até o mínimo de uma. *Ter mais refino que ele não dá rodada a mais.*
-- **A conta é dos Acertos da Expansão:** o de quando ela abre não conta, e cada um dos seguintes gasta uma rodada. **Quando as rodadas acabam, o Acerto seguinte o derruba e passa** — *é um Acerto só, e não um na hora da queda e outro depois.* *Fora de uma Expansão ele fica de pé enquanto você pagar.*
-- **Golpe em você não o derruba, e ele não ocupa a sua Concentração.** *Dentro de domínio, a obra nunca o mostra caindo por golpe no dono.*
-- **Quando ele cai pelo voto, no meio da rodada, a Expansão alcança na hora quem ele protegia**, como na Cesta. Dá para levantar de novo sem espera, gastando a ação, e a conta recomeça no Acerto seguinte.
+- **A conta é dos Acertos da Expansão.** Cada Acerto que ele segura gasta uma rodada, a começar pelo de quando ela abre. **Quando as rodadas acabam, o Acerto seguinte o derruba e passa** — *é um Acerto só, e não um na hora da queda e outro depois.* *Fora de uma Expansão ele fica de pé enquanto você pagar.*
+- **A Essência é a de quem segura contra a do dono da Expansão**, nos dois papéis. *A mesa só fica sabendo das rodadas: a Essência do dono continua escondida, a não ser no empate.* **O refino não entra nas rodadas** — ele dá o raio e o gate.
+- **Cada Acerto que ele segura pede o teste do `Carregar`** — um Teste de Resistência de Espírito contra a CD do dono da Expansão. **Uma falha tira uma rodada**, e as falhas nunca levam a duração abaixo de metade da sua Essência (arredonda para baixo, no mínimo 1). *Com Essência `6` e a mesma do dono, ele não perde rodada nenhuma; com Essência até `3`, as falhas podem levá-lo a uma rodada só.* Este teste não ocupa a sua Concentração, e a Mão Firme não protege dele.
+- **Golpe em você não o derruba.** *Dentro de domínio, a obra nunca o mostra caindo por golpe no dono.*
+- **Quando ele cai — pelas rodadas ou pelo voto —, a Expansão alcança na hora quem ele protegia**, como na Cesta. Dá para erguer de novo sem espera, mas **da segunda vez em diante, na mesma Expansão, custa a Ação Padrão**, e ele aguenta **metade das rodadas** (arredonda para baixo, no mínimo 1), com o mesmo teste. *O piso de metade da Essência é só das falhas: ele não sobe a metade de quem ergue de novo.*
 
-**O que isso faz, medido** — *a Expansão com o refino típico de cada nível, a mesma cena da Cesta; Acertos que ele segura, de quantos ela solta:*
+**O que isso faz, medido** — *a Expansão com o refino típico de cada nível, a mesma cena da Cesta; Acertos que ele segura, em média, de quantos ela solta:*
 
-| quem segura | nv `14` (`3` Acertos) | nv `20` (`4`) | nv `26` (`6`) |
-|---|---|---|---|
-| refino igual ou maior que o do dono, Essência `6` | `3` | `4` | `5` |
-| o mesmo, Essência `4` ou `5` | `3` | `4` | `4` |
-| o mesmo, Essência até `3` | `3` | `3` | `3` |
-| `3` pontos de refino abaixo do dono, qualquer Essência | `2` | `2` | `2` |
+| quem segura | nv `14` (`3` Acertos) | nv `20` (`4`) | nv `26` (`6`) | nv `26`, erguendo de novo |
+|---|---|---|---|---|
+| Essência `6`, maior que a do dono, Espírito treinado | `3,0` | `3,3` | `3,3` | `5,0` |
+| Essência `6`, igual à do dono, com ou sem treino | `3,0` | `3,0` | `3,0` | `4,0` |
+| Essência `4`, igual à do dono, Espírito treinado | `2,3` | `2,3` | `2,3` | `4,0` |
+| Essência `2`, menor que a do dono, sem treino | `1,4` | `1,3` | `1,2` | `3,2` |
 
-**Contra uma Expansão de refino 10, nenhum Simples aguenta até o fim:** *ela dura cinco rodadas, e o teto dele são quatro, com Essência 6.* **É o "um dia sempre perde a queda de braço" da obra (cap. 266), e é o Gojo perdendo o dele para o Sukuna (cap. 226).** *A mesma regra vale contra a Expansão sem Barreiras, sem exceção: é a coluna do nível 26.*
+**Contra uma Expansão de refino 10, nenhum Simples aguenta até o fim:** *ela solta seis Acertos, e o teto dele são quatro.* **Erguendo de novo, com Essência maior que a do dono, ele chega a cinco — e paga uma Ação Padrão por isso;** *com Essência `2` e menor, são duas Ações Padrão para chegar a `3,2`.* **É o "um dia sempre perde a queda de braço" da obra (cap. 266), e é o Gojo perdendo o dele para o Sukuna, erguido duas vezes e arrancado as duas (cap. 226).** *A mesma regra vale contra a Expansão sem Barreiras, sem exceção: é a coluna do nível 26.*
 
 **O que ele anula, e o que não.** *Dentro do raio, a Expansão não alcança quem está lá: nem o Acerto, nem o que o Efeito dela faz com essas pessoas ou com o lugar.* **O que a Expansão dá ao dono — o desconto nos feitiços e o que o Efeito dele permite fazer — continua com ele, e a técnica dele entra no raio como técnica comum, rolando ataque e Teste de Resistência.** *Quem está dentro do domínio continua preso nele.* É o cap. 171, em que o Simples neutraliza o domínio no alcance dele e não neutraliza a técnica; e é o que o manual já faz quando dois domínios se sobrepõem: os Acertos desligam, e o Efeito de cada um sobra.
 
@@ -1431,7 +1433,7 @@ E os dois **correm em sentidos opostos**: a vantagem é auto-regulada e dá pouc
 | 2 | **Canalizar energia** | grátis no refino 1 | **nada** — vive no orçamento do Fundamento |
 | 3 | **Projetar energia** | — | o dano, entre 8% e 12% da Rotina |
 | 4 | **Cesta Oca de Vime** | Classe Passiva 1, **sem gate** — *pede ser Reencarnado, ou treinado em `História`* | **nada** — e não custa PE: o preço são as mãos presas e a queda |
-| 5 | **Domínio Simples** | Classe Passiva 2 · refino 5, ou refino 4 com o voto do iniciante | o raio: `1,5 m + refino ÷ 2`, e quantas rodadas ele aguenta contra refino maior |
+| 5 | **Domínio Simples** | Classe Passiva 2 · refino 5, ou refino 4 com o voto do iniciante | o raio: `1,5 m + refino ÷ 2` |
 | 6 | **Pétala** | Classe Passiva 2 · refino 4, nível 10 | Acertos devolvidos: `refino ÷ 2` |
 | 7 | **Extensão de Domínio** | Classe Passiva 3 · refino 7, nível 14 | a duração: `refino` rodadas |
 | 8 | **Barreira Simples** | sem gate | a vida do domo: `5 ×` |

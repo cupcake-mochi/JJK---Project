@@ -5062,7 +5062,7 @@ Uma Expansão de Domínio completa não erra. O Acerto dela simplesmente acontec
 | | protege | e cobra | PE por rodada |
 |---|---|---|---|
 | **Cesta Oca de Vime** | só você, dentro de uma esfera | as duas mãos presas no símbolo, e ela cai com os golpes em você | nenhum |
-| **Domínio Simples** | um raio em volta de você, e quem estiver nele | aguenta poucas rodadas de Expansão, menos contra quem tem mais refino | `2` |
+| **Domínio Simples** | um raio em volta de você, e quem estiver nele | aguenta poucas rodadas de Expansão, menos contra quem tem mais Essência | `2` |
 | **Pétala** | o seu corpo, e devolve o golpe | concentração, e não vale contra o que não é Acerto | `1 × maior Classe` |
 | **Extensão de Domínio** *(não é anti-domínio: ela serve como uma)* | o seu corpo, e faz o seu ataque acertar | nenhum feitiço enquanto ela estiver de pé | `1,5 × maior Classe` |
 
@@ -5070,7 +5070,7 @@ Uma Expansão de Domínio completa não erra. O Acerto dela simplesmente acontec
 
 > **Cesta Oca de Vime** — você faz o símbolo e uma esfera se fecha em volta de você. Enquanto você o segurar, o Acerto de uma Expansão não te alcança, e as suas duas mãos ficam presas nele: nada de arma, escudo, feitiço com `Gesto` ou `Agarrar`. Andar e chutar, pode. Ela levanta com uma Reação quando uma Expansão abre, ou com uma Ação Bônus no seu turno, e não custa PE.
 >
-> Ela cai pelos golpes em você, e não pela Expansão. Cada golpe que te acerta pede um Teste de Resistência de Vigor contra a CD de quem te feriu. As falhas se acumulam, e com metade da sua Essência em falhas (no mínimo 1) a esfera se desfaz. Esse teste não ocupa a sua Concentração, e a Mão Firme não protege dele.
+> Ela cai pelos golpes em você, e não pela Expansão. Cada golpe que te acerta pede o teste do `Carregar`: um Teste de Resistência de Espírito contra a CD de quem te feriu. As falhas se acumulam, e com metade da sua Essência em falhas (no mínimo 1) a esfera se desfaz. Esse teste não ocupa a sua Concentração, e a Mão Firme não protege dele.
 >
 > Se você soltar o símbolo, ela fica de pé e você recupera as mãos, mas cada Acerto letal da Expansão conta uma falha, no máximo uma por rodada. Quando ela cai, a Expansão te alcança na hora. Você pode levantar de novo sem espera, com as falhas zeradas, gastando a Ação Bônus do seu turno.
 >
@@ -5082,18 +5082,23 @@ A `Cesta Oca de Vime` anula o Acerto e mais nada: o Efeito da Expansão continua
 
 > **Domínio Simples** — um domínio pequeno em volta de você, de raio `1,5 m + refino ÷ 2`, que cobre quem estiver nele. Lá dentro a Expansão não alcança ninguém: nem o Acerto dela, nem o que ela faz com as pessoas ou com o lugar. Ele levanta com uma Reação quando uma Expansão abre, ou com uma Ação Bônus no seu turno, e custa `2` PE por rodada.
 >
-> Ele aguenta a Expansão por metade da sua Essência (no mínimo 1) mais uma rodada, sem contar o Acerto de quando ela abre. Cada ponto de refino que o dono da Expansão tem acima do seu tira uma rodada, e ele sempre aguenta pelo menos uma. Golpe em você não o derruba, e ele não ocupa a sua Concentração.
+> Ele aguenta a Expansão por 3 rodadas, 4 se a sua Essência for maior que a do dono dela e 2 se for menor. Cada Acerto que ele segura gasta uma rodada, a começar pelo de quando ela abre. Quando as rodadas acabam, o Acerto seguinte o derruba e alcança quem ele protegia. Golpe em você não o derruba.
 >
-> Quando as rodadas acabam, o Acerto seguinte o derruba e alcança quem ele protegia. Se ele cair pelo voto, no meio da rodada, a Expansão alcança na hora. Você pode levantar de novo sem espera, gastando a ação, e a conta recomeça.
+> Cada Acerto que ele segura pede o teste do `Carregar`: um Teste de Resistência de Espírito contra a CD do dono da Expansão. Uma falha tira uma rodada, mas as falhas nunca levam a duração abaixo de metade da sua Essência (no mínimo 1). Esse teste não ocupa a sua Concentração, e a Mão Firme não protege dele.
+>
+> Se ele cair pelo voto, no meio da rodada, a Expansão alcança na hora. Você pode erguer de novo sem espera, mas da segunda vez em diante, na mesma Expansão, isso custa a Ação Padrão, e ele aguenta metade das rodadas (no mínimo 1).
 >
 > Requisito: ter visto um sendo usado, ou ter aprendido com alguém (anote na ficha de quem, ou onde); refino 5, ou refino 4 com o voto do iniciante. Classe Passiva 2. O refino escala o raio.
 
 **Rodadas que o Domínio Simples aguenta**
-| Essência | `0` a `3` | `4` e `5` | `6` |
+| a sua Essência, contra a do dono da Expansão | maior | igual | menor |
 |---|---|---|---|
-| com refino igual ou maior que o do dono da Expansão | `2` | `3` | `4` |
+| rodadas que ele aguenta | `4` | `3` | `2` |
+| erguendo de novo, na mesma Expansão | `2` | `1` | `1` |
 
-Uma Expansão de refino 10 dura cinco rodadas, então contra ela nenhum Domínio Simples aguenta até o fim.
+O refino não entra nas rodadas: ele dá o raio. A mesa só fica sabendo das rodadas, então a Essência do dono da Expansão continua escondida, a não ser no empate.
+
+Uma Expansão de refino 10 solta seis Acertos, então contra ela nenhum Domínio Simples aguenta até o fim, nem erguido de novo.
 
 **O voto do iniciante.** Com refino 4 você só firma o Domínio Simples com um voto: ele fica no ponto em que você o ergueu, e se os seus dois pés saírem desse ponto ele se desfaz, e a Expansão alcança na hora quem ele protegia. Andar, ou ser empurrado, tira os pés do ponto. Quando o seu refino chega a 5 você larga o voto, e ele passa a andar com você.
 
@@ -7071,4 +7076,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: aac6943c4c76045b8fc7f0a572014fa5bf1a0ecd -->
+<!-- fonte: 3fa309a7aa10f77c8d2157c3956bdf7c00d074ab -->
