@@ -66,7 +66,7 @@ E duas coisas que quase todo degrau daqui menciona:
 
 ### Limites
 
-> **O Caminho mexe em quando, onde e em quem o seu poder acontece.** O tamanho dele é assunto da sua técnica. Nenhum Caminho dá dado de dano, sobe a Classe dos seus feitiços, dá Melhoria de graça ou desconto de dano em tudo.
+> **O Caminho mexe em quando, onde e em quem o seu poder acontece.** O tamanho dele é assunto da sua técnica. Nenhum Caminho dá dado de dano, sobe a Classe dos seus feitiços, dá Melhoria de graça, cura, ou desconto de dano em tudo. **Cura é Forma de feitiço**: quem fechou a Família Amparo nunca vai curar, e Caminho nenhum contorna isso — **com uma exceção declarada, o Socorrista**, a Trilha do Guia que cura outra pessoa com o `Cuidado Preparado` e o `Ainda Há Tempo`.
 
 ### Trilhas
 
@@ -102,7 +102,7 @@ E duas coisas que quase todo degrau daqui menciona:
 | **Vida por nível** | 7 |
 | **PE por nível** | 4 |
 | **Atributos naturais** | Força · Constituição |
-| **Perícias fixas** | `Atletismo` · `Intimidação` |
+| **Perícias fixas** | `Atletismo` · `Provocar` |
 | **Perícias à sua escolha** | 5, de qualquer uma da lista de perícias do sistema |
 | **Ofícios** | nenhum. Os dois vêm da sua Origem |
 | **Teste de Resistência** | 1 treinado, à sua escolha. A sua Origem treina o outro |
@@ -1158,7 +1158,7 @@ Escolha **duas** opções da tabela **Modulações Dominadas**. Sempre que subir
 
 Acrescente uma Modulação Dominada ao feitiço e pague, em PE adicional, o **custo em pontos da Melhoria, depois dos descontos de suas Famílias Livres.** Você mantém as propriedades e os dados que o feitiço já tinha.
 
-A Modulação pode exceder em **uma** o limite normal de Melhorias. Há, no máximo, uma Modulação Forçada por conjuração, incluindo as repetidas por Eco. Restrições não pagam esse custo adicional.
+A Modulação pode exceder em **uma** o limite normal de Melhorias. Há, no máximo, uma Modulação Forçada por conjuração, incluindo as repetidas por Eco Amaldiçoado. Restrições não pagam esse custo adicional.
 
 > **Exemplo.** Você pode trocar Fura por Longe com Remodelar ou manter Fura e pagar Extensão para acrescentar Longe. A primeira escolha troca uma função; a segunda gasta mais energia para manter ambas.
 
@@ -1311,66 +1311,66 @@ Você conhece **uma Propriedade no nível 11 e duas a partir do nível 19**, esc
 **Habilidades do Ressonante**
 {: .tab-titulo }
 
-| Nível | Habilidade | Ecos permitidos |
+| Nível | Habilidade | Ecos Amaldiçoados permitidos |
 |---|---|---|
 | 2 | Eco Técnico | Leves. |
 | 11 | Contraponto | Leves. |
 | 19 | Reverberação | Leves e Médios. |
-| 27 | Acorde Ressonante | Dois Ecos; Leves e Médios. |
+| 27 | Acorde Ressonante | Dois Ecos Amaldiçoados; Leves e Médios. |
 
-> **Nível 2: `Eco Técnico`.** Depois de resolver um feitiço de **Classe 1 ou maior com Desdobramento**, guarde como **Eco** uma alteração que você realmente fez: a Melhoria obtida por Remodelar ou a Modulação Forçada.
+> **Nível 2: `Eco Técnico`.** Depois de resolver um feitiço de **Classe 1 ou maior com Desdobramento**, guarde como **Eco Amaldiçoado** uma alteração que você realmente fez: a Melhoria obtida por Remodelar ou a Modulação Forçada.
 >
-> O Eco registra a alteração e a maneira pela qual foi feita. Você mantém **um Eco até o fim do próximo turno**; criar outro substitui o anterior.
+> O Eco Amaldiçoado registra a alteração e a maneira pela qual foi feita. Você mantém **um Eco Amaldiçoado até o fim do próximo turno**; criar outro substitui o anterior.
 >
-> Inicialmente, apenas alterações **Leves** podem virar Eco. A categoria é a do catálogo, **antes dos descontos de Família**.
+> Inicialmente, apenas alterações **Leves** podem virar Eco Amaldiçoado. A categoria é a do catálogo, **antes dos descontos de Família**.
 >
-> Em uma conjuração posterior de Classe 1 ou maior, consuma o Eco ao declarar o feitiço para reaproveitar sua alteração. Nesse nível, ele ocupa o Desdobramento da conjuração.
+> Em uma conjuração posterior de Classe 1 ou maior, consuma o Eco Amaldiçoado ao declarar o feitiço para reaproveitar sua alteração. Nesse nível, ele ocupa o Desdobramento da conjuração.
 
 #### Eco de Remodelagem
 
 Faça uma troca para obter a Melhoria guardada, pelas regras de Remodelar. A Melhoria retirada e a redução de resultado pagam os pontos necessários. **Você dispensa apenas o PE adicional de Remodelar.**
 
-Depois de receber Forma Fluida, também pode guardar e repetir uma troca de Forma permitida. Formas sem custo podem ser guardadas; as demais seguem o limite de categoria do Eco.
+Depois de receber Forma Fluida, também pode guardar e repetir uma troca de Forma permitida. Formas sem custo podem ser guardadas; as demais seguem o limite de categoria do Eco Amaldiçoado.
 
 #### Eco de Modulação
 
 Repita a Modulação guardada pagando **metade de seu custo adicional em PE, arredondada para cima**. Use o preço na Classe da nova conjuração.
 
-Uma alteração reaproveitada não cria outro Eco por si só. O consumo ocorre na declaração, mesmo se o feitiço errar ou for resistido.
+Uma alteração reaproveitada não cria outro Eco Amaldiçoado por si só. O consumo ocorre na declaração, mesmo se o feitiço errar ou for resistido.
 
 #### Limites da aplicação
 
-O resultado continua respeitando **todas as regras de criação de feitiços**, inclusive Restrições, Famílias, orçamento, repetições e incompatibilidades. Uma troca obtida por Eco não ganha pontos extras nem espaço adicional de Melhoria.
+O resultado continua respeitando **todas as regras de criação de feitiços**, inclusive Restrições, Famílias, orçamento, repetições e incompatibilidades. Uma troca obtida por Eco Amaldiçoado não ganha pontos extras nem espaço adicional de Melhoria.
 
-Há, no máximo, **uma Modulação Forçada por conjuração**, contando o Eco e o Desdobramento normal. Só ela pode exceder o limite normal de Melhorias em uma unidade.
+Há, no máximo, **uma Modulação Forçada por conjuração**, contando o Eco Amaldiçoado e o Desdobramento normal. Só ela pode exceder o limite normal de Melhorias em uma unidade.
 
-> **Exemplo.** Numa Classe 3, Longe sem desconto custa 2 PE como Modulação. Seu Eco permite repeti-la em outro feitiço Classe 3 por 1 PE. Se a Modulação já custava 1 PE, o Eco continua custando 1 PE.
+> **Exemplo.** Numa Classe 3, Longe sem desconto custa 2 PE como Modulação. Seu Eco Amaldiçoado permite repeti-la em outro feitiço Classe 3 por 1 PE. Se a Modulação já custava 1 PE, o Eco Amaldiçoado continua custando 1 PE.
 
-> **Nível 11: `Contraponto`.** Ao consumir um Eco, você também pode fazer **um Desdobramento normal** na mesma conjuração, pagando o custo normal.
+> **Nível 11: `Contraponto`.** Ao consumir um Eco Amaldiçoado, você também pode fazer **um Desdobramento normal** na mesma conjuração, pagando o custo normal.
 >
-> Depois da resolução, uma alteração feita por esse Desdobramento pode ser guardada como o próximo Eco. O efeito trazido pelo Eco antigo não se copia novamente.
+> Depois da resolução, uma alteração feita por esse Desdobramento pode ser guardada como o próximo Eco Amaldiçoado. O efeito trazido pelo Eco Amaldiçoado antigo não se copia novamente.
 >
 > Com Composição Técnica, o Desdobramento normal pode trazer duas alterações, para um máximo de **três alterações ao todo**. Isso não aumenta o limite de Melhorias do feitiço.
 >
-> O novo Eco continua limitado a alterações **Leves**. Uma Melhoria Média ou Pesada feita pelo Desdobramento normal não pode ser armazenada nesse nível.
+> O novo Eco Amaldiçoado continua limitado a alterações **Leves**. Uma Melhoria Média ou Pesada feita pelo Desdobramento normal não pode ser armazenada nesse nível.
 
 > **Exemplo.** Repita uma troca que trouxe Longe e pague uma Remodelagem nova para obter Empurrão. Você aproveita a distância que preparou e deixa Empurrão como possibilidade para a próxima aplicação.
 
-> **Nível 19: `Reverberação`.** Seus Ecos passam a aceitar alterações **Médias**, além das Leves.
+> **Nível 19: `Reverberação`.** Seus Ecos Amaldiçoados passam a aceitar alterações **Médias**, além das Leves.
 >
-> Quando gastar Eco numa conjuração, escolha uma criatura antes das rolagens. Se o ataque contra ela errar ou ela passar no primeiro TR da aplicação, você pode gastar sua **Reação** para manter o Eco até o fim do próximo turno.
+> Quando gastar Eco Amaldiçoado numa conjuração, escolha uma criatura antes das rolagens. Se o ataque contra ela errar ou ela passar no primeiro TR da aplicação, você pode gastar sua **Reação** para manter o Eco Amaldiçoado até o fim do próximo turno.
 >
-> Se o Contraponto também produziu outro Eco, escolha qual guardar, respeitando sua capacidade. Reutilizar o Eco em outra conjuração continua cobrando seu custo normal de uso.
+> Se o Contraponto também produziu outro Eco Amaldiçoado, escolha qual guardar, respeitando sua capacidade. Reutilizar o Eco Amaldiçoado em outra conjuração continua cobrando seu custo normal de uso.
 >
-> Melhorias **Pesadas permanecem fora dos Ecos**, mesmo com desconto. Podem participar normalmente do Desdobramento pago, quando cumprirem as regras do feitiço.
+> Melhorias **Pesadas permanecem fora dos Ecos Amaldiçoados**, mesmo com desconto. Podem participar normalmente do Desdobramento pago, quando cumprirem as regras do feitiço.
 
-> **Nível 27: `Acorde Ressonante`.** Você pode manter **dois Ecos diferentes**, e cada um passa a durar até o fim do **segundo turno seguinte** à sua criação ou conservação. Ao criar outro além da capacidade, escolha qual substituir.
+> **Nível 27: `Acorde Ressonante`.** Você pode manter **dois Ecos Amaldiçoados diferentes**, e cada um passa a durar até o fim do **segundo turno seguinte** à sua criação ou conservação. Ao criar outro além da capacidade, escolha qual substituir.
 >
 > **Uma vez por cena**, consuma os dois na mesma conjuração. Você também pode fazer um Desdobramento normal, respeitando o máximo de **três alterações no total** e uma Modulação Forçada.
 >
-> Cada Eco mantém seus custos. Reverberação pode preservar apenas **um** dos Ecos gastos naquela conjuração.
+> Cada Eco Amaldiçoado mantém seus custos. Reverberação pode preservar apenas **um** dos Ecos Amaldiçoados gastos naquela conjuração.
 
-> **Exemplo.** Num turno você registra uma troca para Longe. No seguinte, registra outra para Contorno. No terceiro, pode usar os dois Ecos em trocas compatíveis e pagar uma alteração nova, escolhendo qual delas preparará a próxima conjuração.
+> **Exemplo.** Num turno você registra uma troca para Longe. No seguinte, registra outra para Contorno. No terceiro, pode usar os dois Ecos Amaldiçoados em trocas compatíveis e pagar uma alteração nova, escolhendo qual delas preparará a próxima conjuração.
 
 ### Trilha: Catalisador
 
@@ -1383,43 +1383,43 @@ Há, no máximo, **uma Modulação Forçada por conjuração**, contando o Eco e
 |---|---|
 | 2 | Impulso Técnico |
 | 11 | Correção de Fluxo |
-| 19 | Sobrecarga |
+| 19 | Sobre Carregar Energia |
 | 27 | Fluxo Contínuo |
 
-> **Nível 2: `Impulso Técnico`.** Depois de resolver, com **Ação Padrão**, um feitiço de **Classe 1 ou maior** que tenha sido Remodelado, recebido uma Modulação ou usado uma Expressão Familiar, você ganha **um Impulso até o fim do próximo turno**.
+> **Nível 2: `Impulso Técnico`.** Depois de resolver, com **Ação Padrão**, um feitiço de **Classe 1 ou maior** que tenha sido Remodelado, recebido uma Modulação ou usado uma Expressão Familiar, você ganha **um Impulso Energético até o fim do próximo turno**.
 >
-> Você mantém um Impulso. Em outra aplicação dessas, pode gastá-lo e pagar PE adicional igual à **metade da Classe utilizada, arredondada para cima**, escolhendo uma opção:
+> Você mantém um Impulso Energético. Em outra aplicação dessas, pode gastá-lo e pagar PE adicional igual à **metade da Classe utilizada, arredondada para cima**, escolhendo uma opção:
 >
 > **Acelerar.** Um feitiço de Ação Padrão passa a usar **Ação Bônus**. A mudança precisa respeitar o tempo exigido pelas Restrições e as incompatibilidades de Rápido.
 >
 > **Intensificar.** Escolha **um ataque do feitiço**, que recebe vantagem, ou **o primeiro TR de uma criatura contra ele**, que recebe desvantagem.
 >
-> Declare a escolha antes dos dados. A conjuração que gasta Impulso não produz outro por si só. Conjurar como Ação Bônus mantém a regra geral: o outro feitiço permitido naquele turno é de Classe 0.
+> Declare a escolha antes dos dados. A conjuração que gasta Impulso Energético não produz outro por si só. Conjurar como Ação Bônus mantém a regra geral: o outro feitiço permitido naquele turno é de Classe 0.
 
 > **Nível 11: `Correção de Fluxo`.** Você ganha uma opção de correção e uma nova maneira de Intensificar.
 >
-> **Corrigir a tentativa.** Se um ataque de sua aplicação errar ou uma criatura passar no primeiro TR contra ela, pode gastar seu Impulso e **PE adicional igual à Classe utilizada** para repetir aquela rolagem. Use o novo resultado.
+> **Corrigir a tentativa.** Se um ataque de sua aplicação errar ou uma criatura passar no primeiro TR contra ela, pode gastar seu Impulso Energético e **PE adicional igual à Classe utilizada** para repetir aquela rolagem. Use o novo resultado.
 >
 > Indique antes dos dados qual ataque ou criatura você pretende acompanhar. A decisão de pagar acontece depois da rolagem, antes de aplicar suas consequências. Se a tentativa tinha vantagem ou desvantagem, repita o mesmo procedimento.
 >
 > **Aperfeiçoar o dano.** Ao escolher Intensificar, pode beneficiar **uma rolagem de dano do feitiço**, em vez de um ataque ou TR.
 >
-> Nessa rolagem, repita **uma vez cada dado que mostrar 1 ou 2**, mantendo os novos resultados. Declare essa aplicação de Intensificar junto da conjuração, antes das rolagens; ela usa o custo normal de metade da Classe em PE e consome Impulso.
+> Nessa rolagem, repita **uma vez cada dado que mostrar 1 ou 2**, mantendo os novos resultados. Declare essa aplicação de Intensificar junto da conjuração, antes das rolagens; ela usa o custo normal de metade da Classe em PE e consome Impulso Energético.
 >
 > Se uma única rolagem for compartilhada entre alvos, todos usam o resultado corrigido. Feitiços com várias rolagens escolhem apenas uma delas.
 
-> **Nível 19: `Sobrecarga`.** **Uma vez por cena**, ao gastar Impulso, escolha duas opções diferentes entre **Acelerar, Intensificar e Corrigir a tentativa**.
+> **Nível 19: `Sobre Carregar Energia`.** **Uma vez por cena**, ao gastar Impulso Energético, escolha duas opções diferentes entre **Acelerar, Intensificar e Corrigir a tentativa**.
 >
 > Pague cada custo separadamente. Se reservar Corrigir junto da outra opção, pague a parcela da correção somente se a rerrolagem acontecer. Declare a combinação antes da primeira rolagem.
 >
-> Intensificar oferece uma escolha entre ataque, TR ou dano. Sobrecarga não permite escolher Intensificar duas vezes.
+> Intensificar oferece uma escolha entre ataque, TR ou dano. Sobre Carregar Energia não permite escolher Intensificar duas vezes.
 >
-> Depois da Sobrecarga, você não ganha outro Impulso até o fim do próximo turno.
+> Depois do Sobre Carregar Energia, você não ganha outro Impulso Energético até o fim do próximo turno.
 
 > **Exemplo.** Acelerar e Aperfeiçoar o dano permitem uma conjuração de Ação Bônus com repetição dos dados baixos. Intensificar um ataque e reservar Correção permite insistir se ele ainda errar.
 
-> **Nível 27: `Fluxo Contínuo`.** **Uma vez por cena**, depois de gastar Impulso numa conjuração que não usou Sobrecarga, recupere **um Impulso** após resolver o feitiço. Ele dura até o fim do próximo turno.
+> **Nível 27: `Fluxo Contínuo`.** **Uma vez por cena**, depois de gastar Impulso Energético numa conjuração que não usou Sobre Carregar Energia, recupere **um Impulso Energético** após resolver o feitiço. Ele dura até o fim do próximo turno.
 >
-> Você pode usá-lo numa aplicação seguinte, inclusive numa Sobrecarga. Os custos de cada opção continuam sendo pagos.
+> Você pode usá-lo numa aplicação seguinte, inclusive num Sobre Carregar Energia. Os custos de cada opção continuam sendo pagos.
 
-> **Exemplo.** Conjure uma Expressão Familiar para reunir Impulso. No turno seguinte, gaste-o e use Fluxo Contínuo para manter o ritmo. Na aplicação posterior, escolha entre outra descarga normal ou a combinação de Sobrecarga.
+> **Exemplo.** Conjure uma Expressão Familiar para reunir Impulso Energético. No turno seguinte, gaste-o e use Fluxo Contínuo para manter o ritmo. Na aplicação posterior, escolha entre outra descarga normal ou a combinação de Sobre Carregar Energia.

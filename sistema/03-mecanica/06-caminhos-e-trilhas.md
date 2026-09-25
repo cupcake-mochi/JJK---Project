@@ -7,7 +7,7 @@ Esta peça revisa e substitui a seção 4 da peça anterior.
 
 > **⚠ v0.270 — o texto dos quatro Caminhos mudou de dono.** *O Mizuki refez as habilidades base e as Trilhas do Bastião, da Vanguarda, do Emanador e do Guia fora desta pasta, na **coleção v0.4**, e pediu ela no livro "exatamente" como ela é:* **"Todas as trilhas e caminhos foram refeitos, menos os evocadores, e as partes base deles não mudaram, só as habilidades base e trilhas mesmo."** *A coleção mora em `caminhos/`, com as ideias reservadas e as notas dela, e o capítulo 8 do livro é a cópia jogável.*
 >
-> **O que continua valendo daqui é a base:** *vida, PE, atributos naturais, perícias, treino de arma e Teste de Resistência (§1, §5 a §8) — e a coleção v0.4 não mexe em nenhum deles, com uma divergência registrada na perícia fixa do Bastião, que a v0.4 escreve `Provocar` e esta peça, `Intimidação`.* **O que ficou como registro é o §2 e o §3:** *as quinze Trilhas e o argumento de preço delas descrevem a coleção que valia até a v0.269, com o preço nos `DESENHO-*.md` da raiz.* **A v0.4 não tem preço medido** — *"Não é necessário medir cada fatia ou certificar novamente o orçamento para implementar. […] Isso não autoriza declarar que o equilíbrio foi comprovado." A medição está na fila do `ESTADO-ATUAL`.*
+> **O que continua valendo daqui é a base:** *vida, PE, atributos naturais, perícias, treino de arma e Teste de Resistência (§1, §5 a §8) — e a coleção v0.4 não mexe em nenhum deles, com uma exceção decidida na v0.271: a perícia fixa do Bastião, que era `Intimidação` e passou a `Provocar`, como a v0.4 escreve.* **O que ficou como registro é o §2 e o §3:** *as quinze Trilhas e o argumento de preço delas descrevem a coleção que valia até a v0.269, com o preço nos `DESENHO-*.md` da raiz.* **A v0.4 não tem preço medido** — *"Não é necessário medir cada fatia ou certificar novamente o orçamento para implementar. […] Isso não autoriza declarar que o equilíbrio foi comprovado." A medição está na fila do `ESTADO-ATUAL`.*
 >
 > **O Evocador não mudou, e saiu da edição jogável.** *As regras dele e das invocações continuam aqui e na peça 15 como desenho, fora do livro até o subsistema de Invocações fechar; o desenvolvimento novo mora em `invocacoes/`.*
 
@@ -62,7 +62,17 @@ Renomear a aptidão sairia mais caro: *canalizar energia* é termo da própria o
 
 **O calendário da coleção:** Caminho em `2 · 7 · 15 · 23 · 30`, Trilha em `2 · 11 · 19 · 27`.
 
-*O degrau do nível 23 é novo nos quatro Caminhos.* **Os nomes novos passaram pela triagem do `conferir-nomes.py` na v0.270, e as colisões estão registradas no `CHANGELOG` para o Mizuki decidir** — *nenhum foi renomeado.*
+*O degrau do nível 23 é novo nos quatro Caminhos.* **Os nomes novos passaram pela triagem do `conferir-nomes.py` na v0.270, e o Mizuki decidiu as colisões na v0.271:** *três nomes mudam no livro, e o resto fica como a v0.4 escreve, com a colisão aprovada — "se a triagem colidir, pode falar que tá aprovado".*
+
+**Renomes decididos**
+
+| na v0.4 | no livro | onde | ficam como estão |
+|---|---|---|---|
+| `Eco` | `Eco Amaldiçoado` | o Emanador | `Eco Técnico`, `Eco de Remodelagem`, `Eco de Modulação` |
+| `Impulso` | `Impulso Energético` | a Trilha Catalisador | `Impulso Técnico` |
+| `Sobrecarga` | `Sobre Carregar Energia` | a Trilha Catalisador | — |
+
+*A coleção em `caminhos/` fica como chegou, byte a byte, e o manifesto de hashes dela continua conferindo; os renomes moram nesta tabela, e a sub-checagem 10.3 do `conferir-catalogo.py` aplica ela antes de comparar a coleção com o livro.* **A Modulação `Impulso` do Emanador não muda** *— o `Impulso Energético` é o recurso do Catalisador. `Eco` e `Ecos` viram `Eco Amaldiçoado` e `Ecos Amaldiçoados`, e o `Sobre Carregar Energia` é masculino no livro: "depois do", "num".* **As colisões aprovadas:** *`Eco Amaldiçoado` carrega a Passiva `Eco`; `Impulso Energético`, a Melhoria `Impulso`; `Sobre Carregar Energia`, a Restrição `Carregar`; `Condutor Armado`, a Melhoria `Armado`; `Condução` é ofício no projeto; e a `Segunda Leitura` do Yumi reaproveita o nome do nível 15 do Emanador da coleção anterior. Os `DENTRO` de menor peso da triagem também ficam.*
 
 ### A coleção até a v0.269 — o registro com preço
 

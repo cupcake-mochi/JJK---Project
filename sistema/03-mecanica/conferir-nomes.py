@@ -94,11 +94,15 @@ CAMINHOS = ['Bastiao', 'Vanguarda', 'Guia', 'Emanador', 'Evocador']
 # e dentro do Legado Alcance Impossivel), Oficio (a categoria de oficio),
 # Folego (Roubo de Folego), Regua (Fundamento pronto), Sombra (Tema, e dentro de
 # Estilo da Sombra) e Enxame (Tema).
+# v0.271: as Trilhas dos quatro Caminhos que nao sao o Evocador sao as da colecao
+# v0.4 (caminhos/), com as colisoes da triagem decididas pelo Mizuki. As da colecao
+# anterior — Brasa, Elo, Sutura, Perimetro, Torrente, Explosivo e Arremate — ficaram
+# como registro na peca 6 §2 e nos DESENHO, e sairam desta lista junto com o livro.
 TRILHAS = {
-    'Bastiao':   ['Muro', 'Punho', 'Brasa'],
+    'Bastiao':   ['Muro', 'Punho', 'Combatente Amaldicoado'],
     'Vanguarda': ['Estocada', 'Batedor', 'Executor'],
-    'Guia':      ['Elo', 'Sutura', 'Perimetro'],
-    'Emanador':  ['Torrente', 'Explosivo', 'Arremate'],
+    'Guia':      ['Arquiteto', 'Analista', 'Socorrista'],
+    'Emanador':  ['Condutor Armado', 'Ressonante', 'Catalisador'],
     'Evocador':  ['Servo', 'Matilha', 'Coro'],
 }
 
@@ -120,7 +124,15 @@ SISTEMA = ['Maestria', 'Refino', 'Trilha', 'Caminho', 'Legado', 'Exaustao',
            'Kata', 'Ruptura', 'Ogi', 'Bencao', 'Lapidacao',
            # a forma de pacto entre duas partes, batizada na v0.133 e escrita
            # na peca 22 na v0.134. `Contrato` reprovou aqui — e' Tema no manual.
-           'Promessa']
+           'Promessa',
+           # os tres renomes que o Mizuki decidiu na v0.271 para a colecao v0.4 — a
+           # tabela e' a da peca 6 §2. Os tres carregam termo do manual DENTRO deles
+           # (a Passiva `Eco`, a Melhoria `Impulso`, a Restricao `Carregar`), e a
+           # triagem acusa isso; esta lista nao, porque a checagem 1 so reprova nome
+           # que E termo do manual ou que esta dentro de um. As colisoes foram
+           # aprovadas por ele: "se a triagem colidir, pode falar que ta aprovado" —
+           # e o `Condutor Armado`, que carrega a Melhoria `Armado`, junto.
+           'Eco Amaldicoado', 'Impulso Energetico', 'Sobre Carregar Energia']
 
 # Onde cada nome e definido. Na checagem 2, o arquivo de definicao nao conta.
 DEFINIDO_EM = {

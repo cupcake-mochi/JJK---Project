@@ -1159,7 +1159,11 @@ else:
     #   registrada; e `invocacoes/museu/60-invocacoes.md` na peca 15, familia nova
     #   `invocacoes/.*`, declarada acima, que e desenvolvimento e nao material de mesa.
     #   A colecao v0.4, que e regra, NAO entrou na lista: ela entrou no recorte.
-    BRANCAS_AQUI, FOLGA = 193, 5
+    # v0.271: 193 -> 194, MEDIDO do mesmo jeito (a entrega da v0.270 da pasta
+    #   principal contra uma copia com o patch da v0.271). UMA so: o
+    #   `conferir-catalogo.py` na peca 6 §2, onde a tabela `Renomes decididos` diz
+    #   quem aplica ela. Familia `conferir-[a-z-]+\.py`, ja declarada.
+    BRANCAS_AQUI, FOLGA = 194, 5
     PISO_CITACOES, TETO_BRANCOS = 120, BRANCAS_AQUI + FOLGA
     if vistos_e < PISO_CITACOES:
         erro(f'7.2: achei so {vistos_e} citacoes na entrega, e o piso e {PISO_CITACOES} — '

@@ -10,7 +10,7 @@ Trabalhe em `/media/mizuki/HD Externo II/Claude/Claude 2/`, na pasta **principal
 
 **A conversa anterior tinha três partes, e a primeira fechou na v0.270.** *O que falta, nesta ordem, e cada parte fecha a sua versão antes da seguinte:*
 
-- ~~**A — os Caminhos novos no livro (v0.270).**~~ **FECHADA na v0.270.** *Antes de começar a B, leve ao Mizuki as decisões que ela deixou — o item 15 da fila do `ESTADO-ATUAL` e a seção 4 da entrada da v0.270 do `CHANGELOG`: a perícia fixa do Bastião, a frase dos Limites, quem cura outra pessoa com Energia Reversa, e as colisões de nome da triagem. Pergunte em rodadas curtas, com a palavra do jogo.*
+- ~~**A — os Caminhos novos no livro (v0.270).**~~ **FECHADA na v0.270**, *e as decisões que ela deixou fecharam na v0.271: a perícia fixa do Bastião é `Provocar`, a frase dos Limites voltou com o Socorrista como exceção, ninguém cura outra pessoa com Energia Reversa, e os renomes `Eco Amaldiçoado`, `Impulso Energético` e `Sobre Carregar Energia`, com o resto das colisões aprovado.*
 - **B — a rodada 3 dos anti-domínio, continuando.** Primeiro a `Pétala`, depois a `Extensão de Domínio`, e só no fim a comparação das quatro.
 - **C — as Invocações, no ponto exato em que pararam:** o que acontece quando uma invocação chega a zero PV.
 
@@ -29,7 +29,7 @@ Trabalhe em `/media/mizuki/HD Externo II/Claude/Claude 2/`, na pasta **principal
 
 ## Passo 0 — onde está
 
-1. **O `main` deve estar no commit da v0.270** ou mais novo, com a entrega no *recorte da v0.270*. Rode `git log -3` e `git status` na pasta principal antes de qualquer coisa. *Se houver commit mais novo, leia a entrada dele no `CHANGELOG` antes de seguir.*
+1. **O `main` deve estar no commit da v0.271** ou mais novo, com a entrega no *recorte da v0.271*. Rode `git log -3` e `git status` na pasta principal antes de qualquer coisa. *Se houver commit mais novo, leia a entrada dele no `CHANGELOG` antes de seguir.*
 2. **Rode a skill `rpg-da-guilda`.**
 3. **Leia `sistema/ESTADO-ATUAL.md` inteiro**, inclusive a fila no fim — ele trunca, e se vier aviso de leitura parcial, continue do offset —, e o `README.md`, que tem as **nove lições que custaram erro**.
 
@@ -95,7 +95,7 @@ Trabalhe em `/media/mizuki/HD Externo II/Claude/Claude 2/`, na pasta **principal
 
 ## Onde o projeto está
 
-**v0.270.** Manual do Fundamento na **v7.38**. **Vinte e sete peças de regra e vinte e sete validadores** em `sistema/03-mecanica/`, mais o `conferir-repositorio.py`, os dois de `manual/matematica/` e o `conferir-voz.py` — **31 validadores**. O livro tem **18 capítulos**. A ficha (`Claude 3`, o `Ficha---RPG-JJK`) não mudou.
+**v0.271.** Manual do Fundamento na **v7.38**. **Vinte e sete peças de regra e vinte e sete validadores** em `sistema/03-mecanica/`, mais o `conferir-repositorio.py`, os dois de `manual/matematica/` e o `conferir-voz.py` — **31 validadores**. O livro tem **18 capítulos**. A ficha (`Claude 3`, o `Ficha---RPG-JJK`) não mudou.
 
 **A v0.264 e a v0.265 foram pesquisa** (`sistema/01-pesquisa/anti-dominios/`, arquivos `A` a `N`). **A v0.266 foi a rodada 1** (as frases da peça 11 que atribuíam à obra o que ela não faz). **A v0.267 foi a rodada 2, a Cesta**, e **a v0.268 e a v0.269, o começo da rodada 3, o Simples** — *a v0.269 trocou a regra de queda que a v0.268 tinha publicado.*
 

@@ -74,7 +74,7 @@ OFICIOS_DECLARADOS = _NUM.get(_m.group(1).lower()) if _m else None
 # Cada Caminho fixa duas pericias. Oficio o Caminho NAO trava: os dois que ele
 # entrega sao livres (v0.105).
 CAMINHOS = {
-    'Bastiao':   {'pericias': ['Atletismo', 'Intimidacao']},
+    'Bastiao':   {'pericias': ['Atletismo', 'Provocar']},   # Provocar desde a v0.271, pela colecao v0.4
     'Vanguarda': {'pericias': ['Acrobacia', 'Percepcao']},
     'Guia':      {'pericias': ['Persuasao', 'Medicina']},
     'Emanador':  {'pericias': ['Ocultismo', 'Investigacao']},
@@ -268,6 +268,71 @@ for nome, d in CAMINHOS.items():
         erro(f'{nome} fixa o que nao existe no quadro: {", ".join(fora)}')
     if len(set(map(norma, d['pericias']))) != len(d['pericias']):
         erro(f'{nome} repete uma pericia nas proprias fixas')
+
+# -- 4.1: a tabela da peca 7 e a dona, e as copias dela ----------------------
+# v0.271. A perícia fixa do Bastiao trocou de `Intimidacao` para `Provocar`, e a
+# troca foi em NOVE lugares — e nenhum validador comparava a tabela da peca 7 com
+# a lista acima, nem as fixas que a Kaori declara com as do Caminho dela. O
+# conferir-ficha.py cruzava so a peca 8 com o dados.js. Esta sub-checagem le a
+# peca 7 como dona e cobra: a lista deste arquivo, a tabela da peca 8, as tabelas
+# dos capitulos 3, 6 e 8 do livro, e a frase "Do Caminho, fixas: X e Y" da Kaori
+# na peca 8 e no capitulo 6. O livro nao traz o Evocador desde a v0.270, e o que
+# ele traz tem de bater.
+def _par41(cel):
+    return tuple(sorted(norma(x.strip(' `*')) for x in re.split(r'\s*·\s*| e ', cel.strip()) if x.strip(' `*')))
+_m41 = re.search(r'As duas fixas são a assinatura do Caminho.*?\n\n((?:\|[^\n]*\n)+)', _P7, re.S)
+DONO41 = {}
+if _m41:
+    for _l in _m41.group(1).split('\n')[2:]:
+        _mm = re.match(r'\|\s*\*\*([^*]+)\*\*\s*\|\s*([^|]+?)\s*\|', _l)
+        if _mm:
+            DONO41[norma(_mm.group(1))] = _par41(_mm.group(2))
+if len(DONO41) != len(CAMINHOS):
+    erro(f'4.1: li {len(DONO41)} Caminho(s) na tabela de fixas da peca 7 e esta lista tem '
+         f'{len(CAMINHOS)} — a tabela dona sumiu ou mudou de forma')
+else:
+    _aqui = {norma(n): _par41(' · '.join(d['pericias'])) for n, d in CAMINHOS.items()}
+    for _n, _v in _aqui.items():
+        if DONO41.get(_n) != _v:
+            erro(f'4.1: este validador fixa {_v} no {_n}, e a peca 7 diz {DONO41.get(_n)}')
+    _AQ = os.path.dirname(os.path.abspath(__file__))
+    _LIV41 = os.path.join(_AQ, '..', '05-material', 'livro', 'manual')
+    def _abre41(p):
+        return open(p, encoding='utf-8').read() if os.path.isfile(p) else ''
+    _P8t = _abre41(os.path.join(_AQ, '08-criacao-de-personagem.md'))
+    _C12 = _abre41(os.path.join(_LIV41, '12-pericias-e-oficios.md'))
+    _C20 = _abre41(os.path.join(_LIV41, '20-criacao-de-personagem.md'))
+    _C35 = _abre41(os.path.join(_LIV41, '35-caminhos-e-trilhas.md'))
+    _copias41 = []
+    for _rot, _txt, _rx in (
+            ('peca 8', _P8t, r'^\|\s*\*\*([^*]+)\*\*\s*\|\s*\d+ \(d\d+\)\s*\|\s*\d+\s*\|\s*\d+\s*\|\s*([^|]+?)\s*\|'),
+            ('livro, capitulo 6', _C20, r'^\|\s*\*\*([^*]+)\*\*\s*\|\s*\d+ \(d\d+\)\s*\|\s*\d+\s*\|\s*\d+\s*\|\s*([^|]+?)\s*\|'),
+            ('livro, capitulo 3', _C12.split('**Perícias fixas por Caminho**')[-1].split('\n\n', 2)[1] if '**Perícias fixas por Caminho**' in _C12 else '',
+             r'^\|\s*\*\*([^*]+)\*\*\s*\|\s*([^|]+?)\s*\|\s*$')):
+        _lidos = {norma(m.group(1)): _par41(m.group(2)) for m in re.finditer(_rx, _txt, re.M)}
+        _copias41.append((_rot, _lidos))
+    _cap35 = {}
+    for _m in re.finditer(r'^## (\S+)\n(.*?)(?=^## |\Z)', _C35, re.S | re.M):
+        _mf = re.search(r'\|\s*\*\*Perícias fixas\*\*\s*\|\s*([^|]+?)\s*\|', _m.group(2))
+        if _mf:
+            _cap35[norma(_m.group(1))] = _par41(_mf.group(1))
+    _copias41.append(('livro, capitulo 8', _cap35))
+    for _rot, _lidos in _copias41:
+        if len(_lidos) < 4:
+            erro(f'4.1: li {len(_lidos)} Caminho(s) nas fixas da copia `{_rot}` — a leitura quebrou')
+        for _n, _v in _lidos.items():
+            if DONO41.get(_n) != _v:
+                erro(f'4.1: a copia `{_rot}` fixa {_v} no {_n}, e a peca 7 diz {DONO41.get(_n)}')
+    # a Kaori: o Caminho dela e as fixas que ela declara
+    for _rot, _txt, _rxc in (('peca 8', _P8t, r'\*\*Caminho\.\*\*\s*(\w+)'),
+                             ('livro, capitulo 6', _C20, r'### Caminho e Trilha\s*\n\s*\*\*(\w+)\*\*')):
+        _mc, _mk = re.search(_rxc, _txt), re.search(r'Do Caminho, fixas: ([^.]+)\.', _txt)
+        if not (_mc and _mk):
+            erro(f'4.1: nao achei o Caminho ou as fixas da Kaori na copia `{_rot}`')
+        elif DONO41.get(norma(_mc.group(1))) != _par41(_mk.group(1)):
+            erro(f'4.1: a Kaori da copia `{_rot}` e {_mc.group(1)} e declara as fixas '
+                 f'{_par41(_mk.group(1))}, e a peca 7 da {DONO41.get(norma(_mc.group(1)))}')
+    print(f'  4.1: a peca 7 e a dona; conferidas a lista daqui, {len(_copias41)} copias de tabela e a Kaori em duas')
 
 repetidas = [p for p in TODAS
              if sum(1 for d in CAMINHOS.values() if p in d['pericias']) > 1]

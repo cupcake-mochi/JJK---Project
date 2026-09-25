@@ -602,10 +602,59 @@ def _forma103(f):
     if m: return f'{m.group(1)}.'
     return f
 _liv103 = ' '.join(_limpa103(l) for l in _T35.split('\n'))
+
+# v0.271: os renomes que o Mizuki decidiu moram na peca 6 §2, na tabela `Renomes
+# decididos`, e nao aqui. A colecao em caminhos/ fica como chegou (o MANIFESTO.json
+# dela continua conferindo); este bloco aplica a tabela no texto da v0.4 antes de
+# comparar. A coluna `onde` diz o alcance — `o <Caminho>` e o arquivo inteiro, `a
+# Trilha <T>` e so a secao dela —, e a coluna `ficam como estao` lista os compostos
+# que nao mudam. O artigo que o nome novo pede e consequencia de genero, declarada
+# junto: `Sobre Carregar Energia` e masculino, e a v0.4 dizia "da" e "numa".
+_P06_103 = ler(os.path.join(RAIZ, 'sistema', '03-mecanica', '06-caminhos-e-trilhas.md'))
+_mren = re.search(r'\*\*Renomes decididos\*\*\n\n((?:\|[^\n]*\n)+)', _P06_103)
+_RENOMES = []
+if _mren:
+    for _l in _mren.group(1).split('\n')[2:]:
+        _c = [c.strip() for c in _l.strip().strip('|').split('|')]
+        if len(_c) == 4 and _c[0].startswith('`'):
+            _RENOMES.append((_c[0].strip('`'), _c[1].strip('`'), _c[2],
+                             re.findall(r'`([^`]+)`', _c[3])))
+_ARTIGO103 = {'da Sobre Carregar Energia': 'do Sobre Carregar Energia',
+              'numa Sobre Carregar Energia': 'num Sobre Carregar Energia'}
+if not _RENOMES:
+    erro('10', '10.3: nao achei a tabela `Renomes decididos` da peca 6 §2 — sem ela a copia do '
+               'livro reprova em toda frase renomeada, e a checagem para de dizer o que importa')
+def _renomeia103(nome_arq, txt):
+    for _de, _para, _onde, _ficam in _RENOMES:
+        _mt = re.match(r'a Trilha (.+)$', _onde)
+        _mc = re.match(r'o (.+)$', _onde)
+        if _mt:
+            _m0 = re.search(r'^## Trilha ' + re.escape(_mt.group(1)) + r'\n', txt, re.M)
+            if not _m0:
+                continue
+            _i, _j = _m0.start(), len(txt)
+            _m1 = re.search(r'^## ', txt[_m0.end():], re.M)
+            if _m1:
+                _j = _m0.end() + _m1.start()
+        elif _mc and _sem_acento103(_mc.group(1)).lower() in _sem_acento103(nome_arq).lower():
+            _i, _j = 0, len(txt)
+        else:
+            continue
+        _suf = ''.join('(?!' + re.escape(f[len(_de):]) + ')' for f in _ficam if f.startswith(_de + ' '))
+        _pedaco = txt[_i:_j]
+        _pedaco = re.sub(r'\b' + re.escape(_de) + r's\b', ' '.join(w + 's' for w in _para.split()), _pedaco)
+        _pedaco = re.sub(r'\b' + re.escape(_de) + r'\b' + _suf, _para, _pedaco)
+        for _x, _y in _ARTIGO103.items():
+            _pedaco = _pedaco.replace(_x, _y)
+        txt = txt[:_i] + _pedaco + txt[_j:]
+    return txt
+def _sem_acento103(s):
+    import unicodedata as _ud
+    return ''.join(c for c in _ud.normalize('NFKD', s) if not _ud.combining(c))
 _n103, _falta103, _adapt103 = 0, [], 0
 for _a in sorted(_glob.glob(os.path.join(_V04, '*.md'))):
     _em_quadro = False
-    for _l in ler(_a).split('\n'):
+    for _l in _renomeia103(os.path.basename(_a), ler(_a)).split('\n'):
         _cel = _l.strip().startswith('|')
         # o quadro de caracteristicas e' a BASE do Caminho, e ela tem dono proprio
         # (a peca 6): o livro usa o quadro dele, e a divergencia de base e' conferida
@@ -641,7 +690,7 @@ if _adapt103 != len(_ADAPTADAS):
                'deixou de existir na v0.4, e a lista tem de encolher junto')
 if _n103 >= 1000 and not _falta103 and _adapt103 == len(_ADAPTADAS):
     print(f'  [x] as {_n103} frases e celulas da v0.4 estao no capitulo 35, com as '
-          f'{len(_ADAPTADAS)} adaptacoes de voz declaradas.')
+          f'{len(_ADAPTADAS)} adaptacoes de voz declaradas e os {len(_RENOMES)} renomes da peca 6.')
 
 
 # -- 10.2: a ORDEM da rampa do Absorver contra a Reacao de cobrir-se -----------

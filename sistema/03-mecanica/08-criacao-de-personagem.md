@@ -94,7 +94,7 @@ O que ele te dá agora:
 
 | Caminho | vida no nv 1 | vida por nível | PE por nível | perícias fixas |
 |---|---|---|---|---|
-| **Bastião** | 12 (d12) | 7 | 4 | Atletismo · Intimidação |
+| **Bastião** | 12 (d12) | 7 | 4 | Atletismo · Provocar |
 | **Vanguarda** | 8 (d8) | 5 | 5 | Acrobacia · Percepção |
 | **Guia** | 8 (d8) | 5 | 5 | Persuasão · Medicina |
 | **Evocador** | 6 (d6) | 4 | 6 | Religião · Lidar com Animais |
@@ -270,7 +270,7 @@ Pacto é o que você trocou por poder.
 
 **Técnica.** *Atributo da técnica:* **Força** — a Regra dela é peso, e peso é o que ela já faz com o corpo. *Famílias Livres:* Controle e Castigo. *Fechadas:* Amparo, Área, Auxiliares — ela não cura, não pega área e não dá suporte. *Selo:* as duas mãos precisam se tocar antes. *Passiva Livre:* ela sabe o peso exato de qualquer coisa que encoste nela.
 
-**Perícias — nove.** Do Caminho, fixas: Atletismo e Intimidação. Do Caminho, livres: Sentir Energia, Percepção, Sobrevivência, Intuição e Persuasão. Da Origem: Hierarquia e História.
+**Perícias — nove.** Do Caminho, fixas: Atletismo e Provocar. Do Caminho, livres: Sentir Energia, Percepção, Sobrevivência, Intuição e Persuasão. Da Origem: Hierarquia e História.
 
 **Ofícios — dois.** Forja e Herbalismo, os dois da Origem. *O `Herbalismo` da avó ficou; o `Caligrafia` saiu na v0.212, quando o extra da Origem acabou.* **Até a v0.263 esta ficha dizia "os dois livres do Caminho" e ainda tinha a linha do extra no bloco da Origem** — *a v0.216 levou os ofícios para a Origem e a Kaori ficou para trás, aqui e no capítulo 6 do livro.*
 

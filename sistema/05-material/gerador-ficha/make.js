@@ -26,7 +26,7 @@ const KAORI = {
              cac: 'd20 + 4', distancia: 'd20 + 3',
              cd: '12', conjuracao: 'd20 + 4' },
   trs: ['Físico', 'Vigor'],
-  pericias: ['Atletismo', 'Intimidação', 'Sentir Energia', 'Percepção',
+  pericias: ['Atletismo', 'Provocar', 'Sentir Energia', 'Percepção',
              'Sobrevivência', 'Intuição', 'Hierarquia', 'História'],
   oficios: ['Forja', 'Caligrafia', 'Herbalismo'],
   tecnica: {

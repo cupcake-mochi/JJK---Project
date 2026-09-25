@@ -8,6 +8,44 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.271] — 25/09/2026
+
+**As decisões que a v0.270 deixou fecharam, com as respostas do Mizuki.** *A perícia fixa do Bastião passou a `Provocar`, a frase dos Limites voltou com o Socorrista como exceção, ninguém cura outra pessoa com Energia Reversa, e três nomes da coleção v0.4 mudaram no livro.*
+
+### 1 · As respostas, nas palavras dele
+
+- **A perícia fixa do Bastião — "Provocar".** *A v0.4 escrevia `Atletismo e Provocar` e o repositório, `Atletismo · Intimidação`; ficou a da v0.4.*
+- **A frase dos Limites — "Pode deixar como exceção".** *Ela voltou inteira, com a cura e o Amparo, e ganhou o Socorrista como exceção declarada.*
+- **Quem cura outra pessoa com Energia Reversa, agora que a `Sutura` saiu — "Sim".** *Ninguém; as duas frases do capítulo de Aptidões ficam como a v0.270 deixou.*
+- **Os nomes — "Eco = Eco Amaldiçoado, Impulso = Impulso Energetico, Condução = pode manter, Segunda Leitura = pode manter", e "Se a triagem colidir, pode falar q ta aprovado".** *Numa segunda rodada:* **o `Impulso Energético` é só o recurso do Catalisador** *— a Modulação `Impulso` do Emanador fica —;* **os compostos ficam** *(`Eco Técnico`, `Impulso Técnico`, `Eco de Remodelagem`, `Eco de Modulação`);* **o `Condutor Armado` fica, e a `Sobrecarga` vira "Sobre Carregar Energia".**
+
+### 2 · Onde entrou
+
+- **`Provocar`:** *a peça 6, a peça 7 e a peça 8 (a tabela e a Kaori); os capítulos 3, 6 e 8 do livro; a lista do `conferir-pericias.py`; e o gerador da ficha, com a `ficha-exemplo-kaori.docx` regerada — o texto dela mudou em duas linhas só, a marca saindo da `Intimidação` e indo para a `Provocar`.* **A Kaori trocou uma pela outra**, *porque ela é o exemplo de criação e as duas fixas do Caminho têm de estar nas nove perícias dela.*
+- **Os Limites:** *"Nenhum Caminho dá dado de dano, sobe a Classe dos seus feitiços, dá Melhoria de graça, cura, ou desconto de dano em tudo. Cura é Forma de feitiço: quem fechou a Família Amparo nunca vai curar, e Caminho nenhum contorna isso — com uma exceção declarada, o Socorrista, a Trilha do Guia que cura outra pessoa com o `Cuidado Preparado` e o `Ainda Há Tempo`."*
+- **Os renomes, só no capítulo 8:** *`Eco` e `Ecos` viraram `Eco Amaldiçoado` e `Ecos Amaldiçoados` no Emanador inteiro (21 e 7 ocorrências), o `Impulso` virou `Impulso Energético` na Trilha Catalisador (10), e a `Sobrecarga` virou `Sobre Carregar Energia` (7), com o artigo masculino — "depois do", "num".* **A coleção em `caminhos/` fica como chegou**, *e o `MANIFESTO.json` dela continua conferindo:* **os renomes moram numa tabela nova da peça 6 §2, `Renomes decididos`**, *com o alcance de cada um e os compostos que ficam.*
+- **A triagem:** *`Eco Amaldiçoado` carrega a Passiva `Eco`, `Impulso Energético` a Melhoria `Impulso`, e `Sobre Carregar Energia` a Restrição `Carregar` — que é também o teste do Domínio Simples. As três saíram `DENTRO`, e ficam aprovadas pela regra dele.*
+
+### 3 · Os validadores
+
+- **`conferir-catalogo.py`, 10.3:** *ela lê a tabela `Renomes decididos` da peça 6 e aplica os renomes no texto da v0.4 antes de comparar — o alcance (`o <Caminho>` é o arquivo, `a Trilha <T>` é a seção dela), os compostos que ficam, e o artigo do nome masculino, declarado no código como consequência de gênero.* **Sem a tabela, ela reprova.**
+- **`conferir-nomes.py`:** *as Trilhas dos quatro Caminhos passaram a ser as da v0.4, e os três nomes novos entraram como termo de sistema, com a aprovação dele escrita no comentário.* **Eles não precisaram de `ACEITAS`**, *e o arnês mostrou isso: a checagem 1 só reprova nome que é termo do manual ou que está dentro de um, e aqui é o termo do manual que está dentro do nome — o que só a triagem pega.* **Os nomes de habilidade da v0.4 ainda não estão nas listas**: *entram quando a peça 17 for refeita, com a medição do item 12.*
+- **`conferir-pericias.py`:** *a lista do Bastião é `Atletismo` e `Provocar`,* **e a sub-checagem 4.1 é nova.** *A troca da perícia foi em nove lugares, e o arnês mostrou que dois pares nunca tinham sido comparados:* **a tabela de fixas da peça 7 contra a lista deste validador, e as fixas que a Kaori declara contra as do Caminho dela.** *O `conferir-ficha.py` cruzava só a peça 8 com o `dados.js`, e o comentário do `conferir-pericias.py` dizia que isso bastava.* **Hoje a peça 7 é a dona**, *e são conferidas contra ela a lista do validador, a tabela da peça 8, as tabelas dos capítulos 3, 6 e 8 do livro, e a Kaori na peça 8 e no capítulo 6.*
+
+### 4 · Uma correção da v0.270
+
+**A v0.270 escreveu no item 14 da fila que a ficha deste repositório imprimia as Trilhas antigas e o Evocador, e não imprime.** *As duas `.docx` do `05-material/` mostram só a Trilha da ficha — a Kaori é `Muro` —; quem carrega as quinze Trilhas antigas e o Evocador é o `dados.js` do gerador, como catálogo.* **O item foi reescrito**, *e a entrada da v0.270 fica como está, porque é o registro dela.*
+
+### 5 · O que foi conferido
+
+*A 10.3 confere as 1.408 frases da v0.4 no capítulo 8 com os três renomes aplicados; o `conferir-voz.py --estrito` sai `0`; os quatro builds depois da última edição, com a paginação igual (`280` e `170`); e as páginas mudadas do PDF de duas colunas, abertas em imagem — a 60, com os Limites e o quadro do Bastião, e da 95 à 98, com o Ressonante e o Catalisador.*
+
+**O arnês:** *numa cópia da pasta principal com a entrega da v0.270 commitada e o patch da v0.271, com a base verde antes e depois. Na 10.3, quatro perturbações acendem pela mensagem certa — a tabela de renomes sumindo, uma frase do livro voltando a dizer `Eco`, a peça trocando um nome que o livro não trocou, e o `Impulso Técnico` saindo dos compostos —, e um contra-teste coerente fica verde: `Eco Amaldiçoado` virando `Eco Maldito` na peça e no livro juntos. Na 4.1, oito — a peça 7 sozinha, a tabela da peça 8, a Kaori da peça 8, as tabelas dos capítulos 3, 6 e 8, a Kaori do capítulo 6, e a Vanguarda no capítulo 8 —, e um contra-teste coerente verde, com a peça 7, a peça 8, o livro e o validador trocando juntos. O `conferir-ficha.py` acende quando a peça 8 e o `dados.js` divergem, nos dois sentidos.* **E duas perturbações não acenderam, e o motivo é bom:** *tirar da lista `ACEITAS` as entradas que eu tinha posto para os nomes novos saiu verde, porque elas não faziam nada — foram tiradas, e o motivo está acima.* **A base da 7.2 foi de `193` para `194`**, *medida pelo diff da entrega: o `conferir-catalogo.py` citado na peça 6 §2.* **Bateria: 31 de 31, com `PULADA` zero, numa cópia da pasta principal com a entrega sincronizada.**
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: *o item 6 da fila, rodada 3 — a `Pétala`.*
+
+---
+
 ## [0.270] — 25/09/2026
 
 **Os quatro Caminhos da coleção v0.4 entraram no livro, e o Evocador e as Invocações saíram da edição jogável.** *Bastião, Vanguarda, Emanador e Guia, com as doze Trilhas e as três rotas do Batedor, foram refeitos fora desta pasta, num chat que não a via, e voltaram no pacote `RPG-JJK-Transferencia-Implementacao-e-Continuidade-v1.zip`.* **A coleção mora em `caminhos/` e passou a ser a dona do texto dos quatro; o capítulo 8 do livro é a cópia jogável.** **O equilíbrio da v0.4 não foi medido, e esta versão não diz que ele foi comprovado.**

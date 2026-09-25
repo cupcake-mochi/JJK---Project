@@ -25,7 +25,7 @@ const OFICIOS = ['Condução', 'Arrombamento', 'Herbalismo', 'Forja', 'Caligrafi
 // Sem oficio fixo desde a v0.105: o Caminho da dois oficios LIVRES.
 const CAMINHOS = [
   { nome: 'Bastião',   dado: 'd12', vida1: 12, vidaNv: 7, peNv: 4,
-    pericias: ['Atletismo', 'Intimidação'],
+    pericias: ['Atletismo', 'Provocar'],
     trilhas: ['Muro', 'Punho', 'Brasa'] },
   { nome: 'Vanguarda', dado: 'd8',  vida1: 8,  vidaNv: 5, peNv: 5,
     pericias: ['Acrobacia', 'Percepção'],

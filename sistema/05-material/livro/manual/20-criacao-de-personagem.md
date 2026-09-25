@@ -89,7 +89,7 @@ O Caminho mexe em posicionamento, alvo, duração e recuperação. Ele nunca mex
 
 | Caminho | Vida inicial | Vida por nível | PE por nível | Perícias fixas |
 |---|---|---|---|---|
-| **Bastião** | 12 (d12) | 7 | 4 | Atletismo · Intimidação |
+| **Bastião** | 12 (d12) | 7 | 4 | Atletismo · Provocar |
 | **Vanguarda** | 8 (d8) | 5 | 5 | Acrobacia · Percepção |
 | **Guia** | 8 (d8) | 5 | 5 | Persuasão · Medicina |
 | **Emanador** | 6 (d6) | 4 | 6 | Ocultismo · Investigação |
@@ -248,7 +248,7 @@ Força 3 · Constituição 2 · Destreza 2 · Inteligência 1 · Essência 1. No
 
 ### Perícias e ofícios
 
-**Nove perícias.** Do Caminho, fixas: Atletismo e Intimidação. Do Caminho, livres: Sentir Energia, Percepção, Sobrevivência, Intuição e Persuasão. Da Origem: Hierarquia e História.
+**Nove perícias.** Do Caminho, fixas: Atletismo e Provocar. Do Caminho, livres: Sentir Energia, Percepção, Sobrevivência, Intuição e Persuasão. Da Origem: Hierarquia e História.
 
 **Dois ofícios.** Forja e Herbalismo, os dois da Origem.
 

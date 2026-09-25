@@ -179,7 +179,7 @@ As duas fixas são a assinatura do Caminho — o que qualquer um daquele Caminho
 
 | Caminho | Perícias fixas |
 |---|---|
-| **Bastião** | Atletismo · Intimidação |
+| **Bastião** | Atletismo · Provocar |
 | **Vanguarda** | Acrobacia · Percepção |
 | **Guia** | Persuasão · Medicina |
 | **Emanador** | Ocultismo · Investigação |
