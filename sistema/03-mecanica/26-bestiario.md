@@ -542,9 +542,11 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 | `Cesta Oca de Vime` · só erguer | `22%` | `6%` |
 | `Pétala` · erguer, e `1` PE fixo | `31%` | `8%` |
 | `Domínio Simples` · erguer, e `2` PE fixos | `40%` | `11%` |
-| `Extensão de Domínio` · erguer, e `1,5 ×` maior Classe | `120%` | `33%` |
+| `Extensão de Domínio` · erguer, e `1,5 ×` maior Classe | `125%` | `34%` |
 
-**No nível 2 a `Extensão de Domínio` custa `236%` da cota de uma `Ameaça`, e por isso uma maldição daquele nível que a carregue tem de ser pelo menos um `Desastre`** — *lá ela cai para `60%`, e cabe.* **E desde a v0.273, com erguer, ela passa da cota de uma `Ameaça` também no nível 30** (`120%`): *em nível nenhum uma `Ameaça` carrega a Extensão.* *Até a v0.272, sem erguer, eram `193%` e `49%` no nível 2.*
+**No nível 2 a `Extensão de Domínio` custa `300%` da cota de uma `Ameaça`, e por isso uma maldição daquele nível que a carregue tem de ser pelo menos um `Desastre`** — *lá ela cai para `76%`, e cabe.* **E desde a v0.273, com erguer, ela passa da cota de uma `Ameaça` também no nível 30** (`125%`): *em nível nenhum uma `Ameaça` carrega a Extensão.* *Até a v0.272, sem erguer, eram `193%` e `49%` no nível 2.*
+
+> ***O `1,5 ×` arredonda para cima, como tudo o que se paga (peça 1 §5.4), desde a v0.274.*** *É o que a peça 11 cobra do jogador: `2` PE por rodada na Classe 1 e `11` na Classe 7. Até a v0.273 esta seção entrava com `1,5` e `10,5`, e publicava `236%` e `60%` no nível 2, e `120%` e `33%` no nível 30.*
 
 > **⚠ E contar por luta em vez de por rodada ligada estava errado, porque as quatro anti-domínio são pura resposta.** *Elas valem **zero** contra um grupo que não abre domínio.* **O jogador liga quando o domínio abre; o inimigo, cobrado por luta, pagaria pelas rodadas em que ela não fez nada.** *O `Domínio Simples` erguido e ligado uma rodada de três custa `15,4` de dano por rodada da luta, que são `7,0%` da cota de um `Desastre` e `28%` da de uma `Ameaça` — contra os `11%` e `40%` da tabela acima.* **O `Domínio Simples` saiu da conta por Classe na v0.268, e a `Pétala` na v0.272:** *ele custa `2` PE fixos por rodada, ela `1`, e as duas pagam erguer, pela peça 11 §6.5.*
 

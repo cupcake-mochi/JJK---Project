@@ -1172,7 +1172,11 @@ else:
     #   com os patches da v0.272 e da v0.273). UMA: o
     #   `sistema/01-pesquisa/anti-dominios/conta-extensao.py` na Extensao reescrita da
     #   peca 11 §6.5. Mesma familia.
-    BRANCAS_AQUI, FOLGA = 197, 5
+    # v0.274: 197 -> 198, MEDIDO pelo diff das citacoes entre a entrega da v0.273 e uma
+    #   copia com o patch da v0.274 e a entrega sincronizada. UMA: o
+    #   `sistema/01-pesquisa/anti-dominios/conta-as-quatro.py` em "As quatro lado a lado", na
+    #   peca 11 §6.5. Mesma familia.
+    BRANCAS_AQUI, FOLGA = 198, 5
     PISO_CITACOES, TETO_BRANCOS = 120, BRANCAS_AQUI + FOLGA
     if vistos_e < PISO_CITACOES:
         erro(f'7.2: achei so {vistos_e} citacoes na entrega, e o piso e {PISO_CITACOES} — '

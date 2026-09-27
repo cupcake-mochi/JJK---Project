@@ -8,6 +8,57 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.274] — 27/09/2026
+
+**A comparação das quatro anti-domínio fechou a rodada 3, e nenhuma ficou dominada.** *Em todo perfil, nível e cena medidos, nenhuma deixa passar sempre no máximo o que outra deixa, custando no máximo o mesmo PE e chegando no mesmo nível ou antes.* **A comparação achou uma leitura dupla na Cesta — o Mizuki fechou —, um arredondamento errado no bestiário e três sobras da v0.273.**
+
+### 1 · As respostas, nas palavras dele
+
+- **Fazer a comparação — "Pode fazer".**
+- **A queda na hora — "Nos casos aonde o 'ataque do acerto garantido vem imediatamente' é basicamente um extra, chegando no começo do turno do inimigo vc vai receber novamente".** *O texto da Cesta — "quando ela cai, a Expansão te alcança na hora" — lia de dois jeitos: um Acerto a mais, ou o da rodada chegando antes. Com um golpe por rodada as duas leituras dão os números publicados; com dois, e Essência baixa, divergem. Ficou a primeira, e ela vale para a Cesta e para o Simples que cai pelo voto; pelas rodadas, o Acerto que derruba o Simples continua sendo um só, como ele já escrevia.*
+- **Depois — "vamos para a 2-3-4"**: *as Invocações no zero PV, os pendentes pequenos, e a troca de nome valendo no livro inteiro.* **A troca — "A, antes o plano era impedir restringido e sem técnica de usar emanador, mas agora n tem o pq impedir".** *Fica para a versão dela.*
+
+### 2 · O que a conta mostrou
+
+*A cena é a das tabelas da Cesta e do Simples — a Expansão com o refino típico do nível, um golpe por rodada em quem segura, e cada uma erguendo de novo quando cai, a não ser quando não erguer deixa passar menos.* **No nível 26, de `6` Acertos:**
+
+- **A Cesta é a mais barata, e com Essência `4` ou mais é a que mais segura sozinha** — *`0,2` Acerto por `9` PE com Essência `6`.* **As mãos presas quase não custam a quem luta de arma:** *o chute sobe de dado com a maestria e empata com a arma de `1d10` no nível 26 — no máximo `1,2` PE por rodada, no nível 7.* **O preço dela é a Essência:** *com Essência `2` e dois golpes por rodada, erguer de novo deixa passar `9,7` Acertos contra `6` sem Cesta, e sem erguer ela segura quase nada (`5,9`).*
+- **O Simples segura menos sozinho e não cai por golpe** — *com Essência `2` e dois golpes, `2,8`.* **E cobre o grupo:** *quatro pessoas de Essência `2` no raio deixam passar `11` Acertos somados por `31` PE, contra `15` e `133` PE de quatro Cestas.*
+- **A Pétala, com Essência maior que a do dono, não deixa passar nada, nem com três golpes por rodada**, *por `2` a `5` PE a mais que a Cesta.* **A nota da fila dizia que ela protegia o mesmo que a Cesta; protege um pouco mais, e paga.**
+- **A Extensão não deixa passar nada, e é a única contra a incompleta**, *por `1,4` a `7,2` vezes o PE das outras, fora o feitiço.*
+
+### 3 · O que foi corrigido no caminho
+
+- **O bestiário arredondava para baixo o `1,5 ×` da Extensão.** *A peça 1 §5.4 manda arredondar para cima o que se paga, e a peça 11 cobra `11` PE na Classe 7; a peça 26 §6.5 entrava com `10,5`.* **No nível 30 ela foi de `120%` para `125%` da cota de uma `Ameaça`, e de `33%` para `34%` da de um `Desastre`; no nível 2, de `236%` para `300%` e de `60%` para `76%`.** *Nenhuma `Ameaça` carrega a Extensão, como antes. Foi a sobra que a fila guardava desde a v0.272.*
+- **Três sobras da v0.273, todas do gate que subiu para o nível 18:** *a tabela do dia da Extensão começava no nível 14, que ninguém alcança — a linha virou a do 18 (`107%`), e a luta de 3,5 rodadas foi de `38%`–`45%` para `38%`–`46%` —; o que quem conjura perde com ela de pé era medido do nível 14 (`8,6` a `16,5`), e do gate ao 30 são `10,7` a `16,9`, com o nível 26 que faltava.*
+- **Dois números meus no chat estavam errados, e o script pegou antes de irem para a peça:** *"de 3 a 7 vezes o PE das outras" (é de `1,4` a `7,2`) e "8,6 a 16,9" (é `10,7`).*
+- **O modelo da conta limitava mal erguer de novo.** *Com dois golpes por rodada ele deixava a Cesta e a Pétala voltarem mais de uma vez na mesma rodada; a regra dá uma Ação Bônus. Com um golpe por rodada isso nunca acontece, e nenhuma tabela publicada muda.*
+
+### 4 · Onde entrou
+
+- **A peça 11 §6.5:** *"As quatro lado a lado", nova, no fim da seção; a frase do Acerto a mais na caixa da Cesta, no item da queda dela, no item da queda do Simples e na regra que vale para as quatro; e as três sobras da Extensão.*
+- **O capítulo 45 do livro:** *o Acerto a mais na caixa da Cesta e no Simples que cai pelo voto.*
+- **A peça 26 §6.5:** *os quatro números da Extensão, e a nota do arredondamento.*
+- **A pesquisa:** *o `conta-as-quatro.py`, novo, e o `conta-extensao.py`, que passou a arredondar a Extensão no inimigo e a medir do gate.*
+
+### 5 · Os validadores
+
+- **`conferir-bestiario.py`, 9.2:** *o PE por Classe arredonda para cima antes de virar cota.*
+- **`conferir-expansao.py`, bloco 10:** *a queda na hora tem de dizer que o Acerto é a mais em quatro lugares — a caixa da Cesta na peça e no livro, o Simples que cai pelo voto no livro, e a regra das quatro na peça —, lidos das caixas.*
+- **`conferir-repositorio.py`, 7.2:** *a base foi de `197` para `198`, medida pelo diff das citações entre a entrega da v0.273 e uma cópia com o patch da v0.274: a citação do `conta-as-quatro.py` na peça 11, a mesma família.*
+
+### 6 · O que foi conferido
+
+*O `conta-as-quatro.py` reproduz antes as tabelas publicadas da Cesta, do Simples e da Extensão, o "Paga mais quem cai mais", a tabela da Essência da Pétala, o PE por rodada das quatro, a arma e o soco, e o câmbio; depois mede, e no fim confere o que a v0.274 publicou — as quatro linhas da tabela, os `2` a `5` PE, o zero da Pétala com três golpes, o `1,4` a `7,2`, o `10,7` a `16,9`, o grupo no raio, as mãos, e a Cesta pior que nada erguendo de novo.* **Os outros quatro scripts seguem reproduzindo os deles.** *Os quatro builds depois da última edição (`282` e `171` páginas); o `conferir-voz.py --estrito` sai `0`.*
+
+**A bateria: 31 de 31, com PULADA zero**, *numa cópia da pasta principal com a v0.273 commitada, o patch da v0.274 e o `subir.sh` até os validadores.*
+
+**O arnês:** *na mesma cópia, com a base verde antes e depois. Sete perturbações acendem pela mensagem certa — o bestiário de volta a `120%` e `33%` (sem arredondar), só o `Desastre` de volta a `33%`, o Acerto a mais sumindo da caixa da Cesta no livro, da caixa da Cesta na peça, do Simples pelo voto no livro e da regra das quatro, e a frase saindo da caixa da Cesta para o item que explica —, e um contra-teste coerente fica verde: a Extensão a `2 ×` a maior Classe, na peça 11 e no bestiário juntos.*
+
+→ **Continua em** `PROMPT-continuar.md`: *a Parte C, as Invocações no ponto do zero PV; depois os pendentes pequenos e a troca de nome no livro inteiro, que o Mizuki já decidiu.*
+
+---
+
 ## [0.273] — 26/09/2026
 
 **A Extensão de Domínio foi reescrita, e a rodada 3 dos anti-domínio fechou as três que faltavam.** *Quem a usa fica imune a tudo o que a Expansão faz — o Acerto e o que ela faz com as pessoas e com o lugar, em qualquer degrau —; a técnica que encosta nela é anulada até `1/3 do refino + 1`, e acima disso você leva `3/4`; ela não cai por golpe; erguer custa a maior Classe, toda vez; o gate foi para o nível 18, com requisito de história; e o Corpo Amaldiçoado não compra.* **Ela foi feita na mesma worktree que a v0.272, e as duas sobem em sequência.**

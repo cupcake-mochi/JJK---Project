@@ -10,8 +10,9 @@ REGRESSAO
       fim, do dia de um Bastiao), com o PE por rodada = 1,5 x maior Classe arredondado para cima e,
       desde a v0.273, erguer = a maior Classe (ate a v0.272 a coluna nao tinha erguer: 42/72/110)
   R2. O teto do que encosta: 1/3 do refino + 1 — 3 no gate (refino 7) e 4 no refino 10
-  R3. A linha da Extensao na peca 26 §6.5 no nivel 30 (ali o 1,5 x Classe entra sem arredondar, e
-      erguer entra repartido pelas 3 rodadas da luta) — ate a v0.272, sem erguer, eram 98% e 27%
+  R3. A linha da Extensao na peca 26 §6.5 no nivel 30 (erguer entra repartido pelas 3 rodadas da luta, e
+      desde a v0.274 o 1,5 x Classe arredonda para cima, como na peca 11 — ate a v0.273 entrava sem
+      arredondar, e eram 120% e 33%; ate a v0.272, sem erguer, 98% e 27%)
   R4. O dano do chefe por rodada (manual, a tabela Inimigos) e as tres acoes dele (peca 19)
 
 AS DECISOES DO MIZUKI (26/09/2026, rodada 3): erguer custa a maior Classe, toda vez; contra o acerto
@@ -59,7 +60,7 @@ if not m_fi: perdida('o fator da Intervencao na peca 26')
 FI = float(m_fi.group(1) + '.' + m_fi.group(2))
 COTA = {'Ameaça': 55, 'Desastre': 219 * FI}             # a cota do nivel 30 como a 9.2 le: o Desastre carrega Intervencao
 confere('R3 a Extensao na peca 26 (Ameaca, Desastre), nv 30', tuple(int(x) for x in m26.groups()) if m26 else None,
-        tuple(round(100 * (1.5 * nivel(30)['cls'] + nivel(30)['cls'] / 3) * CAMBIO / COTA[c]) for c in ('Ameaça', 'Desastre')))
+        tuple(round(100 * (pe_rod(30) + nivel(30)['cls'] / 3) * CAMBIO / COTA[c]) for c in ('Ameaça', 'Desastre')))
 confere('R4 o dano do chefe por rodada nos niveis 10/20/30', [CHEFE[n] for n in (10, 20, 30)], [75, 147, 219])
 if falhas: print('\n>>> A REGRESSAO FALHOU — nada abaixo vale.'); sys.exit(1)
 print('>>> TUDO OK — o modelo reproduz os numeros publicados.\n')
@@ -89,7 +90,7 @@ print()
 print('=' * 104)
 print('3 · NO INIMIGO (peca 26 §6.5): a Extensao com erguer, na cota do nivel 30 — a Classe repartida pelas 3 rodadas')
 print('=' * 104)
-for nome, custo in (('hoje, 1,5 x Classe', 1.5 * nivel(30)['cls']), ('com erguer', 1.5 * nivel(30)['cls'] + nivel(30)['cls'] / 3)):
+for nome, custo in (('sem erguer', pe_rod(30)), ('com erguer', pe_rod(30) + nivel(30)['cls'] / 3)):
     print(f'  {nome:20s} ' + ' · '.join(f'{c} {custo * CAMBIO / COTA[c]:.0%}' for c in COTA))
 print()
 print('=' * 104)
@@ -101,7 +102,7 @@ ARMA = {int(n): float(a + '.' + b) for n, _, a, b in re.findall(r'^\| (\d+) \| (
 ROT = {1: 13, 2: 31, 3: 45, 4: 63, 5: 76, 6: 94, 7: 108}
 mrot = re.findall(r"\['(\d+) a (\d+)', '(\d)', '[^']*= (\d+)'", pF)
 if mrot: ROT = {int(c): int(r) for _, _, c, r in mrot}
-for n in (14, 20, 30):
+for n in (18, 20, 26, 30):
     arma = ARMA[max(k for k in ARMA if k <= n)] * 2        # dois golpes do nivel 7 em diante (peca 6 §3.1)
     perde = ROT[nivel(n)['cls']] - arma
     print(f'  nv {n}: a Rotina e {ROT[nivel(n)["cls"]]}, dois golpes de arma dao {arma:g} — quem conjura perde {perde:g} por rodada'
@@ -135,9 +136,9 @@ lutas = [(nivel(n)['cls'] + pe_rod(n) * 3.5) / (BOLSO * n) for n, *_ in tab]
 confere('R5 uma luta de 3,5 rodadas, erguendo uma vez (min, max do dia)', tuple(int(x) for x in m.groups()) if m else None,
         (round(100 * min(lutas)), round(100 * max(lutas))))
 m = re.search(r'quem conjura perde de `([\d,]+)` a `([\d,]+)` PE por rodada em dano', p11)
-perde = [(ROT[nivel(n)['cls']] - ARMA[max(k for k in ARMA if k <= n)] * 2) / CAMBIO for n in (14, 20, 30)]
-confere('R5 o que quem conjura perde com ela de pe (nv 14 e 30)', tuple(float(x.replace(',', '.')) for x in m.groups()) if m else None,
-        (round(perde[0], 1), round(perde[-1], 1)))
+perde = [(ROT[nivel(n)['cls']] - ARMA[max(k for k in ARMA if k <= n)] * 2) / CAMBIO for n in (18, 20, 26, 30)]
+confere('R5 o que quem conjura perde com ela de pe (min e max, do gate, nv 18, ao 30; ate a v0.273 era nv 14/20/30: 8,6 a 16,5)',
+        tuple(float(x.replace(',', '.')) for x in m.groups()) if m else None, (round(min(perde), 1), round(max(perde), 1)))
 m = re.search(r'em `(\d+)` das `([\d.]+)` ordens de marco a compra atrasa, e em `(\d+)` delas', p11)
 confere('R5 o nivel 18 (muda, de quantas, nunca)', (int(m.group(1)), int(m.group(2).replace('.', '')), int(m.group(3))) if m else None,
         (len(muda), len(todas), len(nunca)))
@@ -145,7 +146,7 @@ foco = [(CHEFE[max(k for k in CHEFE if k <= n)] * 0.25 / CAMBIO, pe_rod(n)) for 
 confere('R5 "a reducao vale no maximo o PE que ela custa por rodada", com o chefe batendo so nela',
         all(v <= c for v, c in foco), True)
 m = re.search(r'custa `(\d+)%` da cota de uma `Ameaça`, e por isso uma maldição daquele nível que a carregue tem de ser pelo menos um `Desastre`\*\* — \*lá ela cai para `(\d+)%`', p26)
-c2 = (1.5 * 1 + 1 / 3) * CAMBIO
+c2 = (math.ceil(1.5 * 1) + 1 / 3) * CAMBIO      # desde a v0.274 arredonda para cima (peca 1 §5.4)
 def meio_baixo(x): return math.ceil(x - 0.5)      # o arredondamento da cota na 9.2 do conferir-bestiario
 confere('R5 a Extensao no nivel 2, com erguer (Ameaca, Desastre)', tuple(int(x) for x in m.groups()) if m else None,
         (round(100 * c2 / meio_baixo(CHEFE[2] * 0.25)), round(100 * c2 / (meio_baixo(CHEFE[2] * 1) * FI))))

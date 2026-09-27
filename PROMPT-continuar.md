@@ -11,7 +11,7 @@ Trabalhe em `/media/mizuki/HD Externo II/Claude/Claude 2/`, na pasta **principal
 **A conversa anterior tinha três partes, e a primeira fechou na v0.270.** *O que falta, nesta ordem, e cada parte fecha a sua versão antes da seguinte:*
 
 - ~~**A — os Caminhos novos no livro (v0.270).**~~ **FECHADA na v0.270**, *e as decisões que ela deixou fecharam na v0.271: a perícia fixa do Bastião é `Provocar`, a frase dos Limites voltou com o Socorrista como exceção, ninguém cura outra pessoa com Energia Reversa, e os renomes `Eco Amaldiçoado`, `Impulso Energético` e `Sobre Carregar Energia`, com o resto das colisões aprovado.*
-- **B — a rodada 3 dos anti-domínio, continuando.** ~~Primeiro a `Pétala`~~ *(FECHADA na v0.272)*, ~~depois a `Extensão de Domínio`~~ *(FECHADA na v0.273)*, e agora a comparação das quatro.
+- ~~**B — a rodada 3 dos anti-domínio.**~~ **FECHADA na v0.274:** *a `Pétala` na v0.272, a `Extensão de Domínio` na v0.273, e a comparação das quatro na v0.274 — nenhuma ficou dominada.*
 - **C — as Invocações, no ponto exato em que pararam:** o que acontece quando uma invocação chega a zero PV.
 
 **Ao começar cada parte, diga em uma linha o modelo e o esforço que você recomenda para ela.**
@@ -29,7 +29,7 @@ Trabalhe em `/media/mizuki/HD Externo II/Claude/Claude 2/`, na pasta **principal
 
 ## Passo 0 — onde está
 
-1. **O `main` deve estar no commit da v0.273** ou mais novo, com a entrega no *recorte da v0.273*. *Se ainda estiver na v0.271 ou na v0.272, o Mizuki não subiu as duas — elas foram feitas numa worktree e entregues por patch, em sequência (os arquivos estão na pasta agentes-2026-09-26 do HD); pergunte a ele antes de refazer.* Rode `git log -3` e `git status` na pasta principal antes de qualquer coisa. *Se houver commit mais novo, leia a entrada dele no `CHANGELOG` antes de seguir.*
+1. **O `main` deve estar no commit da v0.274** ou mais novo, com a entrega no *recorte da v0.274*. *A v0.272, a v0.273 e a v0.274 foram commitadas em 27/09, mas o push falhou: o GitHub CLI estava com a conta `Gustavo-MrTs` ativa, e não a `cupcake-mochi`. Se `git status` disser que o `main` está à frente do `origin`, o push ainda não saiu — lembre o Mizuki, porque trocar a conta é com ele.* Rode `git log -3` e `git status` na pasta principal antes de qualquer coisa. *Se houver commit mais novo, leia a entrada dele no `CHANGELOG` antes de seguir.*
 2. **Rode a skill `rpg-da-guilda`.**
 3. **Leia `sistema/ESTADO-ATUAL.md` inteiro**, inclusive a fila no fim — ele trunca, e se vier aviso de leitura parcial, continue do offset —, e o `README.md`, que tem as **nove lições que custaram erro**.
 
@@ -55,9 +55,9 @@ Trabalhe em `/media/mizuki/HD Externo II/Claude/Claude 2/`, na pasta **principal
 
 **Quem a usa fica imune a tudo o que a Expansão faz, em qualquer degrau**; *a técnica que encosta nela é anulada até `1/3 do refino + 1`, e acima disso você leva `3/4`; não cai por golpe; erguer paga a maior Classe; nível 18 com requisito de história; o Corpo Amaldiçoado não compra.* **Com ela de pé você não usa feitiço nem `Manejo`**; *a Técnica Marcial, a reversa e as aptidões continuam — as duas últimas "por enquanto".* *As palavras dele e as leituras estão na entrada da v0.273 do `CHANGELOG`; a pesquisa, no `P-extensao-o-que-ficou-aberto.md`; a conta, no `conta-extensao.py`.* **O que é leitura nossa não vai para o livro** *— "informação que o player n precisa".*
 
-### Agora, a comparação das quatro
+### ~~A comparação das quatro~~ — FECHADA na v0.274
 
-**O Mizuki pediu para não comparar as quatro antes das três serem revistas.** Quando a Extensão fechar: a matriz lado a lado — quem cai por quê, quanto segura, o que custa, e se alguma ficou dominada. *Pontos para olhar lá: o Simples barato em PE, cobrindo o raio e com as mãos livres, contra a Cesta de Classe 1; a Pétala, que com a Essência maior que a do dono protege o mesmo que a Cesta; e a sobra do arredondamento da Extensão — a peça 11 arredonda o `1,5 × maior Classe` para cima (`11` PE no nível 26) e o §6.5 da peça 26 usa `10,5`. Os quatro scripts de conta estão na pasta do `H`.*
+**Nenhuma ficou dominada.** *A Cesta é a mais barata e a que mais segura sozinha com Essência `4` ou mais; o Simples não cai por golpe e cobre o grupo; a Pétala, com Essência maior que a do dono, não deixa passar nada; a Extensão nunca deixa, e é a única contra a incompleta.* **Quando a Cesta cai, ou o Simples cai pelo voto, o Acerto que alcança na hora é a mais** *— "chegando no começo do turno do inimigo vc vai receber novamente".* *A tabela está na peça 11 §6.5, em "As quatro lado a lado"; a conta, no `conta-as-quatro.py`; o arredondamento da Extensão no bestiário fechou junto.*
 
 ## Parte C — as Invocações, no ponto do zero PV
 
@@ -75,10 +75,16 @@ Trabalhe em `/media/mizuki/HD Externo II/Claude/Claude 2/`, na pasta **principal
 
 **Como retomar:** mostre o resultado das Partes A e B em poucas linhas, e depois **retome só esse ponto**, explicando por que a regra que existe não o resolve. *Não reabra questão aprovada.* **Uma decisão nova de verdade ganha número a partir do §46 só depois da aprovação do Mizuki.**
 
+## Depois da Parte C, na ordem dele
+
+*"Depois vamos para a 2-3-4": as Invocações, os pendentes pequenos logo abaixo, e a troca de nome valendo no livro inteiro.*
+
+**A troca de nome no livro inteiro — DECIDIDA, falta aplicar.** *Hoje o capítulo 43 manda ler `Manejo` onde os capítulos 8 e 9 escrevem feitiço, e o 42 manda ler `Kata` nos mesmos dois; o resto do livro também escreve feitiço — a Cesta ("nada de feitiço com `Gesto`"), o teto da Extensão, o turno, dano e condições, o ritual, a experiência —, e pela letra nada disso alcança o Sem Técnica nem a Técnica Marcial.* **A decisão:** *"A" — a frase dos capítulos 42 e 43 passa a "onde o livro escreve feitiço, leia `Manejo`/`Kata`". E nas palavras dele: "antes o plano era impedir restringido e sem técnica de usar emanador, mas agora n tem o pq impedir".* **A peça 25 já diz que o `Manejo` "é o feitiço com outro nome"**, *então a versão alinha o livro com a peça. A checagem 13 do `conferir-sem-tecnica.py` lê a frase do capítulo 43, e a do capítulo 42, a mesma checagem no `conferir-marcial.py`.*
+
 ## Pendentes pequenos, fora das três partes
 
 - **O balão do cap. 246 no vol. 28** — quem tiver o volume confere se o `薄める` virou `弱める`. *O dado que existe foi lido contornando a proteção do leitor da Shueisha e voltou a **não conferido**; não repita esse caminho.*
-- **O repositório da ficha (`Claude 3`) tem o texto velho da Cesta e do Simples** até a próxima extração do livro — *e, depois da Parte A, os Caminhos velhos também.*
+- **O repositório da ficha (`Claude 3`) tem o texto velho das quatro anti-domínio** até a próxima extração do livro — *e, depois da Parte A, os Caminhos velhos também.*
 - **A nota de pesquisa do bestiário que cita o raio de 2,21 m fica como está** — é nota de campo.
 
 ---
@@ -87,7 +93,7 @@ Trabalhe em `/media/mizuki/HD Externo II/Claude/Claude 2/`, na pasta **principal
 
 ## Onde o projeto está
 
-**v0.273.** Manual do Fundamento na **v7.38**. **Vinte e sete peças de regra e vinte e sete validadores** em `sistema/03-mecanica/`, mais o `conferir-repositorio.py`, os dois de `manual/matematica/` e o `conferir-voz.py` — **31 validadores**. O livro tem **18 capítulos**. A ficha (`Claude 3`, o `Ficha---RPG-JJK`) não mudou.
+**v0.274.** Manual do Fundamento na **v7.38**. **Vinte e sete peças de regra e vinte e sete validadores** em `sistema/03-mecanica/`, mais o `conferir-repositorio.py`, os dois de `manual/matematica/` e o `conferir-voz.py` — **31 validadores**. O livro tem **18 capítulos**. A ficha (`Claude 3`, o `Ficha---RPG-JJK`) não mudou.
 
 **A v0.264 e a v0.265 foram pesquisa** (`sistema/01-pesquisa/anti-dominios/`, arquivos `A` a `N`). **A v0.266 foi a rodada 1** (as frases da peça 11 que atribuíam à obra o que ela não faz). **A v0.267 foi a rodada 2, a Cesta**, e **a v0.268 e a v0.269, o começo da rodada 3, o Simples** — *a v0.269 trocou a regra de queda que a v0.268 tinha publicado.*
 

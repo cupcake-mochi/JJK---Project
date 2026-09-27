@@ -589,6 +589,7 @@ E "mais fácil depois do primeiro" sem teto é a espiral da exaustão com o sina
 > **Elas anulam o Acerto de uma Expansão. Nenhuma delas serve contra a Expansão incompleta.**
 > *A `Extensão de Domínio` vai além desde a v0.273: ela deixa você imune a tudo o que a Expansão faz, em qualquer degrau — completa, incompleta ou sem barreiras.*
 > *Desde a v0.272 a `Pétala` anula ou só reduz, pela Essência contra a do dono — a seção dela tem a tabela.*
+> **Quando uma delas cai e a Expansão te alcança na hora, esse Acerto é a mais:** *o do começo do turno do dono continua vindo. Desde a v0.274, e vale para a Cesta e para o Simples que cai pelo voto; a Pétala não alcança na hora, e a Extensão não cai.*
 
 Não é escolha nossa: é como a obra funciona, e tem cena provando. O Reggie ativou Cesta Oca de Vime dentro do Jardim de Sombras Quimérico do Megumi — que é incompleto — e não adiantou nada. Os shikigami tomaram forma e bateram nele como qualquer coisa bate em qualquer um.
 
@@ -627,7 +628,7 @@ O eixo que separa as quatro não é força — é **quanta liberdade você tem e
 ### Cesta Oca de Vime · Classe Passiva 1, sem gate
 
 > **Você faz o símbolo e uma esfera se fecha em volta de você. Enquanto você o segurar, o Acerto de uma Expansão não te alcança, e as suas duas mãos ficam presas nele. Levanta com uma Reação quando uma Expansão abre, ou com uma Ação Bônus no seu turno.**
-> **Ela cai pelos golpes em você, e não pela Expansão:** *cada golpe que te acerta pede o teste do `Carregar` — um Teste de Resistência de Espírito contra a CD de quem te feriu —, as falhas se acumulam, e com metade da sua Essência em falhas (no mínimo 1) a esfera se desfaz e a Expansão te alcança na hora.*
+> **Ela cai pelos golpes em você, e não pela Expansão:** *cada golpe que te acerta pede o teste do `Carregar` — um Teste de Resistência de Espírito contra a CD de quem te feriu —, as falhas se acumulam, e com metade da sua Essência em falhas (no mínimo 1) a esfera se desfaz e a Expansão te alcança na hora, com um Acerto a mais: o do começo do turno do dono continua vindo.*
 > **Erguer custa a sua maior Classe em PE, toda vez que ela sobe; de pé, ela não custa nada.**
 > *Requisito: ser Reencarnado, ou ser treinado em `História`.*
 
@@ -642,7 +643,7 @@ Ela é a **predecessora** do Domínio Simples, e **anula o Acerto e mais nada**:
 - **Segurando o símbolo, a Expansão não a quebra.** Quem derruba é quem bate em você: o teste do `Carregar` — Espírito, contra a CD de quem te feriu — por golpe que acerta. **As falhas se acumulam, e com metade da sua Essência em falhas (arredonda para baixo, no mínimo 1) a esfera se desfaz** — é a mesma conta da concentração na corrida.
 - **Este teste não ocupa a sua Concentração, e a Mão Firme não protege dele.** *Até a v0.268 ele era de Vigor, o da concentração; na v0.269 o Mizuki o trocou pelo do `Carregar`, o mesmo do Domínio Simples.*
 - **Soltar o símbolo não a desfaz.** Você recupera as mãos, e ela fica de pé; mas **cada Acerto letal da Expansão passa a contar uma falha, no máximo uma por rodada.** *Acerto que não fere — o que só entrega informação — não conta.*
-- **Quando ela cai, a Expansão te alcança na hora** — você não espera o próximo Acerto. **E dá para levantar de novo sem espera, com as falhas zeradas**, gastando a Ação Bônus do seu turno.
+- **Quando ela cai, a Expansão te alcança na hora, e esse Acerto é a mais** — o do começo do turno do dono continua vindo, e te pega de novo se ela ainda estiver caída. *Decisão do Mizuki na v0.274: "é basicamente um extra, chegando no começo do turno do inimigo vc vai receber novamente".* **E dá para levantar de novo sem espera, com as falhas zeradas**, gastando a Ação Bônus do seu turno.
 
 | Essência | `0` a `3` | `4` e `5` | `6` |
 |---|---|---|---|
@@ -682,7 +683,7 @@ Ela é a **predecessora** do Domínio Simples, e **anula o Acerto e mais nada**:
 - **A Essência é a de quem segura contra a do dono da Expansão**, nos dois papéis. *A mesa só fica sabendo das rodadas: a Essência do dono continua escondida, a não ser no empate.* **O refino não entra nas rodadas** — ele dá o raio e o gate.
 - **Cada Acerto que ele segura pede o teste do `Carregar`** — um Teste de Resistência de Espírito contra a CD do dono da Expansão. **Uma falha tira uma rodada**, e as falhas nunca levam a duração abaixo de metade da sua Essência (arredonda para baixo, no mínimo 1). *Com Essência `6` e a mesma do dono, ele não perde rodada nenhuma; com Essência até `3`, as falhas podem levá-lo a uma rodada só.* Este teste não ocupa a sua Concentração, e a Mão Firme não protege dele.
 - **Golpe em você não o derruba.** *Dentro de domínio, a obra nunca o mostra caindo por golpe no dono.*
-- **Quando ele cai — pelas rodadas ou pelo voto —, a Expansão alcança na hora quem ele protegia**, como na Cesta. Dá para erguer de novo sem espera, mas **da segunda vez em diante, na mesma Expansão, custa a Ação Padrão**, e ele aguenta **metade das rodadas** (arredonda para baixo, no mínimo 1), com o mesmo teste. *O piso de metade da Essência é só das falhas: ele não sobe a metade de quem ergue de novo.*
+- **Quando ele cai — pelas rodadas ou pelo voto —, a Expansão alcança na hora quem ele protegia**, como na Cesta. *Pelas rodadas, é o Acerto que o derruba, e ele é um só; pelo voto, no meio da rodada, o da hora é a mais, e o do começo do turno do dono continua vindo.* Dá para erguer de novo sem espera, mas **da segunda vez em diante, na mesma Expansão, custa a Ação Padrão**, e ele aguenta **metade das rodadas** (arredonda para baixo, no mínimo 1), com o mesmo teste. *O piso de metade da Essência é só das falhas: ele não sobe a metade de quem ergue de novo.*
 
 **O que isso faz, medido** — *a Expansão com o refino típico de cada nível, a mesma cena da Cesta; Acertos que ele segura, em média, de quantos ela solta:*
 
@@ -777,16 +778,18 @@ Ela não faz domínio nenhum: é a energia no corpo que reage. Segredo dos três
 
 | nv | refino | duração | PE/rodada | erguer e segurar até o fim | do dia de um Bastião |
 |---|---|---|---|---|---|
-| 14 | 7 | 7 | 6 | 46 | 82% |
+| 18 | 9 | 9 | 8 | 77 | **107%** |
 | 20 | 9 | 9 | 8 | 77 | 96% |
 | 26 | 10 | 10 | 11 | 117 | **112%** |
 | 30 | 10 | 10 | 11 | 117 | 98% |
 
-**No nível 26 um Bastião não consegue segurar até o fim** — ele fica sem PE na nona rodada de dez. A duração é teto, não promessa, e quem tem pouco PE descobre isso antes de quem tem muito. Numa luta normal de 3,5 rodadas, erguendo uma vez, ela custa de `38%` a `45%` do dia, que é o preço de verdade.
+**Nos níveis 18 e 26 um Bastião não consegue segurar até o fim** — no 18 ele fica sem PE na última rodada, e no 26 na nona de dez. A duração é teto, não promessa, e quem tem pouco PE descobre isso antes de quem tem muito. Numa luta normal de 3,5 rodadas, erguendo uma vez, ela custa de `38%` a `46%` do dia, que é o preço de verdade.
+
+> *Até a v0.273 a primeira linha era a do nível 14 (`82%`), e a luta custava de `38%` a `45%`: o gate subiu para o nível 18 e a tabela ficou com uma linha que ninguém alcança. A refez a v0.274, com o refino do especialista no nível 18.*
 
 E some tudo isso com *"você não lança nada enquanto ela está de pé"*: quem tem feitiço bom paga o dobro por ela.
 
-**O Corpo Amaldiçoado não compra, e o motivo é a ficção.** *Palavras do Mizuki: "o corpo amaldiçoado não tem domínio inato, diferente de um sem técnica que até tem… é impossível de se ter uma técnica inata". A caixa do cap. 171 descreve a Extensão como um domínio capaz de carregar acerto garantido, deixado vazio; quem nunca tem técnica inata não tem domínio para esvaziar.* *A conta mostra o que aconteceria sem o gate: a arma dele é a Técnica Marcial, que continua, e ele ergueria a Extensão sem perder nada, enquanto quem conjura perde de `8,6` a `16,5` PE por rodada em dano, fora o que ela custa.* **É o segundo gate de Origem do sistema, e o §5 tem os dois.** *A Restrição Celestial sem energia também não compra, e não precisa de gate: ela não tem aptidão nem refino (peça 9 §5). O ramo corpo pela técnica tem técnica inata, e compra como qualquer um.* *O Sem Técnica compra: ele perde o `Manejo`, como qualquer um que conjura, e o Kusakabe, que é Sem Técnica, diz que não consegue porque é difícil — 「なめんな できるわけねーだろ」 (cap. 225) —, e não porque o corpo não deixa.*
+**O Corpo Amaldiçoado não compra, e o motivo é a ficção.** *Palavras do Mizuki: "o corpo amaldiçoado não tem domínio inato, diferente de um sem técnica que até tem… é impossível de se ter uma técnica inata". A caixa do cap. 171 descreve a Extensão como um domínio capaz de carregar acerto garantido, deixado vazio; quem nunca tem técnica inata não tem domínio para esvaziar.* *A conta mostra o que aconteceria sem o gate: a arma dele é a Técnica Marcial, que continua, e ele ergueria a Extensão sem perder nada, enquanto quem conjura perde de `10,7` a `16,9` PE por rodada em dano, do gate ao nível 30, fora o que ela custa. Até a v0.273 estava escrito `8,6` a `16,5`, medido nos níveis 14, 20 e 30: o 14 ficou abaixo do gate, e o 26, com a Classe 7 e a arma ainda de `1d10 + Força 5`, dá `16,9`.* **É o segundo gate de Origem do sistema, e o §5 tem os dois.** *A Restrição Celestial sem energia também não compra, e não precisa de gate: ela não tem aptidão nem refino (peça 9 §5). O ramo corpo pela técnica tem técnica inata, e compra como qualquer um.* *O Sem Técnica compra: ele perde o `Manejo`, como qualquer um que conjura, e o Kusakabe, que é Sem Técnica, diz que não consegue porque é difícil — 「なめんな できるわけねーだろ」 (cap. 225) —, e não porque o corpo não deixa.*
 
 **O gate não é o da escada.** *A Classe Passiva 3 pede refino 7 e nível 14 (§5); a Extensão pede nível 18, por decisão do Mizuki — "por ter que ser algo difícil de pegar, nem o Kusakabe conseguia". Medido, em `81` das `2.187` ordens de marco a compra atrasa, e em `16` delas a pessoa nunca chega a comprar.* **O requisito de história é o do §5:** *ter visto uma sendo usada, ou ter estudado, ou aprendido com alguém — "alguém ensinando serve também". É o Higuruma, que entendeu olhando o Gojo contra o Sukuna (cap. 225).*
 
@@ -807,6 +810,31 @@ E some tudo isso com *"você não lança nada enquanto ela está de pé"*: quem 
 **Ela acompanha o nível, e um número fixo não acompanharia.** *Uma vez por luta, erguer mais o PE de rodada cabe nas três lutas de graça do dia nas três de Classe Passiva 1 e 2, do nível 10 ao 30. A Extensão é a cara de propósito, e a tabela da seção dela mede o dia.*
 
 **Paga mais quem cai mais, e é esse o ponto.** *Numa Expansão de refino 10, com Essência igual à do dono e erguendo de novo sempre que cai, a média gasta `13%` do dia na Cesta, `17%` na Pétala e `28%` no Simples. Com Essência `2` e sem treino, a Cesta sobe e cai quase quatro vezes, e chega a `32%`.* **Erguer de novo já custa uma ação, e o PE faz quem cai muito pensar antes de insistir.** *A conta está em `sistema/01-pesquisa/anti-dominios/conta-petala.py`.*
+
+### As quatro lado a lado
+
+> *O Mizuki pediu para não comparar as quatro antes de as três serem revistas, e a Extensão fechou na v0.273. A comparação é da v0.274, e a conta está em `sistema/01-pesquisa/anti-dominios/conta-as-quatro.py`, que reproduz antes as tabelas publicadas das quatro.*
+
+**Nenhuma domina outra.** *Em todo perfil, nível e cena medidos — um ou dois golpes por rodada, o Acerto que toca ou o que não toca —, nenhuma deixa passar sempre no máximo o que outra deixa, custando no máximo o mesmo PE e chegando no mesmo nível ou antes.*
+
+A cena é a das tabelas da Cesta e do Simples: a Expansão com o refino típico do nível, um golpe por rodada em quem segura, e cada uma erguendo de novo quando cai — *a não ser quando não erguer deixa passar menos, e aí a ficha não ergue*. Acertos que te alcançam na Expansão inteira, e o PE gasto nela, contando erguer:
+
+| nível `26`, `6` Acertos | Cesta | Simples | Pétala | Extensão |
+|---|---|---|---|---|
+| Essência `6`, maior que a do dono, treinado | `0,2` · `9` PE | `1,0` · `24` PE | `0,0` · `14` PE | `0,0` · `62` PE |
+| Essência `4`, igual à do dono, treinado | `0,9` · `13` PE | `2,0` · `29` PE | `1,5` · `18` PE | `0,0` · `62` PE |
+| Essência `2`, menor, sem treino | `3,8` · `33` PE | `2,8` · `31` PE | `3,0` · `38` PE | `0,0` · `62` PE |
+| a mesma, com dois golpes por rodada | `5,9` · `7` PE | `2,8` · `31` PE | `5,0` · `46` PE | `0,0` · `62` PE |
+
+**A Cesta é a mais barata, e com Essência `4` ou mais é a que mais segura sozinha.** *As mãos presas quase não custam a quem luta de arma: o chute sobe de dado com a maestria (peça 14 §5.0.6) e empata com a arma de `1d10` no nível 26 — no máximo `1,2` PE por rodada, no nível 7, e zero do nível 26 em diante. Quem perde de verdade é quem conjura com `Gesto` e quem usa escudo.* **O preço dela é a Essência:** *com Essência `2` e dois golpes por rodada, erguer de novo deixa passar mais do que não ter Cesta nenhuma, e sem erguer ela segura quase nada.*
+
+**O Simples segura menos sozinho, e não cai por golpe.** *Com Essência baixa e sob pressão, é o único dos três baratos que ainda segura. E ele cobre o grupo: quatro pessoas de Essência `2` no raio deixam passar `11` Acertos somados por `31` PE, contra `15` Acertos e `133` PE de quatro Cestas.* **Só ele e a Extensão tiram o Efeito de cima de quem protegem.**
+
+**A Pétala, com Essência maior que a do dono, não deixa passar nada**, *nem com três golpes por rodada, e custa de `2` a `5` PE a mais que a Cesta.* *Com Essência igual à do dono ela deixa passar mais que a Cesta, e só responde ao que toca.* **Até aqui a nota da fila dizia que, com Essência maior, ela protegia o mesmo que a Cesta; medida por inteiro, protege um pouco mais e paga por isso.**
+
+**A Extensão não deixa passar nada, em degrau nenhum, e é a única contra a incompleta.** *Custa de `1,4` a `7,2` vezes o PE das outras, fora o feitiço que quem conjura deixa de lançar — de `10,7` a `16,9` PE por rodada, em dano, do nível 18 ao 30.*
+
+> *O modelo da conta limita erguer de novo a uma Ação Bônus por rodada, como a regra: caiu duas vezes na mesma rodada, fica caída até a seguinte. Com um golpe por rodada isso nunca acontece, e é por isso que as tabelas publicadas até a v0.273 não mudam.*
 
 ## 6.6. As duas barreiras — e o gate delas é um relógio
 

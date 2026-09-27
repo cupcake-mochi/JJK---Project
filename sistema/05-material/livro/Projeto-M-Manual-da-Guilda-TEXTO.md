@@ -5831,7 +5831,7 @@ Uma Expansão de Domínio completa não erra. O Acerto dela simplesmente acontec
 >
 > Ela cai pelos golpes em você, e não pela Expansão. Cada golpe que te acerta pede o teste do `Carregar`: um Teste de Resistência de Espírito contra a CD de quem te feriu. As falhas se acumulam, e com metade da sua Essência em falhas (no mínimo 1) a esfera se desfaz. Esse teste não ocupa a sua Concentração, e a Mão Firme não protege dele.
 >
-> Se você soltar o símbolo, ela fica de pé e você recupera as mãos, mas cada Acerto letal da Expansão conta uma falha, no máximo uma por rodada. Quando ela cai, a Expansão te alcança na hora. Você pode levantar de novo sem espera, com as falhas zeradas, gastando a Ação Bônus do seu turno.
+> Se você soltar o símbolo, ela fica de pé e você recupera as mãos, mas cada Acerto letal da Expansão conta uma falha, no máximo uma por rodada. Quando ela cai, a Expansão te alcança na hora, com um Acerto a mais: o do começo do turno do dono continua vindo. Você pode levantar de novo sem espera, com as falhas zeradas, gastando a Ação Bônus do seu turno.
 >
 > Requisito: ser Reencarnado, ou ser treinado em `História`. Classe Passiva 1.
 
@@ -5845,7 +5845,7 @@ A `Cesta Oca de Vime` anula o Acerto e mais nada: o Efeito da Expansão continua
 >
 > Cada Acerto que ele segura pede o teste do `Carregar`: um Teste de Resistência de Espírito contra a CD do dono da Expansão. Uma falha tira uma rodada, mas as falhas nunca levam a duração abaixo de metade da sua Essência (no mínimo 1). Esse teste não ocupa a sua Concentração, e a Mão Firme não protege dele.
 >
-> Se ele cair pelo voto, no meio da rodada, a Expansão alcança na hora. Você pode erguer de novo sem espera, mas da segunda vez em diante, na mesma Expansão, isso custa a Ação Padrão, e ele aguenta metade das rodadas (no mínimo 1).
+> Se ele cair pelo voto, no meio da rodada, a Expansão alcança na hora, com um Acerto a mais: o do começo do turno do dono continua vindo. Você pode erguer de novo sem espera, mas da segunda vez em diante, na mesma Expansão, isso custa a Ação Padrão, e ele aguenta metade das rodadas (no mínimo 1).
 >
 > Requisito: ter visto um sendo usado, ou ter aprendido com alguém (anote na ficha de quem, ou onde); refino 5, ou refino 4 com o voto do iniciante. Classe Passiva 2. O refino escala o raio.
 
@@ -7447,4 +7447,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: f1b21f012df05805e44e660380acf0cf4ad94cae -->
+<!-- fonte: abc8907d4679ccaa7e258e6eddc34059b7b49de6 -->

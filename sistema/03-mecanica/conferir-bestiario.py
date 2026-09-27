@@ -1263,7 +1263,10 @@ else:
                      f'§6.5 da {[_APT11[_n] for _n in _nomes]}')
                 _mau92 += 1
                 continue
-            _custo = (_pub92[1] * (_CL18[30] if _pub92[0] == 'x' else 1)
+            # v0.274: o PE por Classe arredonda PARA CIMA, como tudo o que se paga (peca 1 §5.4),
+            # e e' o que a peca 11 cobra do jogador — `11` PE na Classe 7. Ate a v0.273 esta
+            # conta entrava com `10,5`, e a tabela do §6.5 publicava 120% e 33% no nivel 30.
+            _custo = ((math.ceil(_pub92[1] * _CL18[30] - 1e-9) if _pub92[0] == 'x' else _pub92[1])
                       + (_CL18[30] / _DUR if _erg92 else 0)) * _CAMBIO
             _COLS92 = [next(c for c in _CAT if c[0] == _r)
                        for _r in ('Ameaça', 'Desastre')]
@@ -1279,7 +1282,7 @@ else:
                     _mau92 += 1
         if not _mau92:
             print(f'  [x] as {len(_T92)} linhas da aptidao reconstroem do custo da peca 11 '
-                  f'§6.5 — vezes a maior Classe da peca 18 quando ele e por Classe, ou '
+                  f'§6.5 — vezes a maior Classe da peca 18, arredondado para cima, quando ele e por Classe, ou '
                   f'fixo, mais erguer (a maior Classe repartida pelas {_DUR} rodadas da luta) '
                   f'— vezes o cambio da peca 5 §4')
 

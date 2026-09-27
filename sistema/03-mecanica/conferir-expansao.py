@@ -830,6 +830,28 @@ if not _falta_e and len(set(_vals_e.values())) == 1 and all(_le) and len(set(_ca
           f'voce leva 3/4 na peca e no livro, o Corpo Amaldicoado fora dela nos quatro lugares, e o `Manejo` '
           f'proibido pelo nome nos quatro.')
 
+# --- a queda na hora (v0.274): quando a Cesta cai, ou o Simples cai pelo voto, a Expansao te alcanca
+# na hora, e esse Acerto e' A MAIS — o do comeco do turno do dono continua vindo. Decisao do Mizuki:
+# "e basicamente um extra, chegando no comeco do turno do inimigo vc vai receber novamente". O texto
+# antigo lia dos dois jeitos, e com dois golpes por rodada as duas leituras davam numeros diferentes
+# (sistema/01-pesquisa/anti-dominios/conta-as-quatro.py, secao 6). Lido so' das CAIXAS: a frase volta no
+# paragrafo que explica, e o defeito da v0.272 e da v0.273 foi justamente ler a explicacao.
+_EXTRA = 'com um Acerto a mais: o do começo do turno do dono continua vindo'
+_ic = _P11_10.find('### Cesta Oca de Vime · Classe Passiva 1')
+_cxc = '\n'.join(l for l in _P11_10[_ic:_P11_10.find('\n### ', _ic + 5)].split('\n') if l.startswith('> ')) if _ic >= 0 else ''
+_ic45 = _L45.find('> **Cesta Oca de Vime** —')
+_cxc45 = _L45[_ic45:_L45.find('\n\n', _L45.find('Se você soltar o símbolo', _ic45))] if _ic45 >= 0 else ''
+_na = {'peca 11, a caixa da Cesta': 'a Expansão te alcança na hora, ' + _EXTRA in _cxc,
+       'livro, a caixa da Cesta': 'Quando ela cai, a Expansão te alcança na hora, ' + _EXTRA in _cxc45,
+       'livro, o Simples que cai pelo voto': 'Se ele cair pelo voto, no meio da rodada, a Expansão alcança na hora, ' + _EXTRA in _L45,
+       'peca 11, a regra das quatro': bool(re.search(r'\*\*Quando uma delas cai e a Expansão te alcança na hora, esse Acerto é a mais:\*\*', _P11_10))}
+if not all(_na.values()):
+    erro(f'a queda na hora deixou de dizer que o Acerto e a mais em {[k for k, v in _na.items() if not v]} — '
+         'sem a frase, o texto le dos dois jeitos, e com dois golpes por rodada as leituras divergem')
+else:
+    print('  A queda na hora: o Acerto e a mais, e o do comeco do turno do dono continua vindo — na caixa da Cesta')
+    print('  na peca e no livro, no Simples que cai pelo voto e na regra das quatro.')
+
 # --- o raio do Dominio Simples nao pode virar cerca
 MOVIMENTO = 9.0
 print(f'\n  O raio do Dominio Simples (1,5 m + refino/2), contra o movimento de {MOVIMENTO:g} m:')
