@@ -124,7 +124,7 @@ Traço na coluna de Classe Passiva quer dizer que a entrada não tem uma. Traço
 | Kokusen Constante | refino 5 | — | a chance no d100 |
 | Cesta Oca de Vime | ser Reencarnado, ou treinado em `História` | 1 | — |
 | Domínio Simples | ter visto um sendo usado, ou ter aprendido com alguém; refino 5, ou 4 com o voto | 2 | o raio |
-| Pétala | refino 4 e nível 10 | 2 | quantos Acertos ela devolve |
+| Pétala | ser Descendente, ou ter aprendido com alguém de um clã; refino 4 e nível 10 | 2 | — |
 | Extensão de Domínio | refino 7 e nível 14 | 3 | a duração |
 | Barreira Simples | sem requisito | — | a vida do domo |
 | Cortina | exige a `Barreira Simples` | — | a vida dela |
@@ -242,9 +242,9 @@ O Kokusen em si não é uma aptidão: é uma mecânica, e todo feiticeiro que te
 
 Uma Expansão de Domínio completa não erra. O Acerto dela simplesmente acontece com quem está lá dentro, sem rolagem e sem Teste de Resistência, e nenhuma defesa da ficha encosta nele.
 
-> **As quatro anulam o Acerto de uma Expansão de Domínio. Algumas delas servem contra a Expansão incompleta.**
+> **As quatro protegem do Acerto de uma Expansão de Domínio. Algumas delas servem contra a Expansão incompleta.**
 >
-> Só a `Pétala` exige **concentração**.
+> Erguer a `Cesta Oca de Vime`, o `Domínio Simples` ou a `Pétala` custa a sua maior Classe em PE, toda vez que ela sobe.
 >
 > A incompleta não tem acerto garantido: o Acerto dela rola. Contra ela você se defende com Defesa e com Teste de Resistência, como se defende de tudo o mais no jogo.
 
@@ -255,12 +255,12 @@ Uma Expansão de Domínio completa não erra. O Acerto dela simplesmente acontec
 |---|---|---|---|
 | **Cesta Oca de Vime** | só você, dentro de uma esfera | as duas mãos presas no símbolo, e ela cai com os golpes em você | nenhum |
 | **Domínio Simples** | um raio em volta de você, e quem estiver nele | aguenta poucas rodadas de Expansão, menos contra quem tem mais Essência | `2` |
-| **Pétala** | o seu corpo, e devolve o golpe | concentração, e não vale contra o que não é Acerto | `1 × maior Classe` |
+| **Pétala** | o seu corpo, e rebate o que toca | cede contra quem tem mais Essência, e cai com os golpes em você | `1` |
 | **Extensão de Domínio** *(não é anti-domínio: ela serve como uma)* | o seu corpo, e faz o seu ataque acertar | nenhum feitiço enquanto ela estiver de pé | `1,5 × maior Classe` |
 
 ### Cesta Oca de Vime
 
-> **Cesta Oca de Vime** — você faz o símbolo e uma esfera se fecha em volta de você. Enquanto você o segurar, o Acerto de uma Expansão não te alcança, e as suas duas mãos ficam presas nele: nada de arma, escudo, feitiço com `Gesto` ou `Agarrar`. Andar e chutar, pode. Ela levanta com uma Reação quando uma Expansão abre, ou com uma Ação Bônus no seu turno, e não custa PE.
+> **Cesta Oca de Vime** — você faz o símbolo e uma esfera se fecha em volta de você. Enquanto você o segurar, o Acerto de uma Expansão não te alcança, e as suas duas mãos ficam presas nele: nada de arma, escudo, feitiço com `Gesto` ou `Agarrar`. Andar e chutar, pode. Ela levanta com uma Reação quando uma Expansão abre, ou com uma Ação Bônus no seu turno. Erguer custa a sua maior Classe em PE, toda vez que ela sobe; de pé, ela não custa nada.
 >
 > Ela cai pelos golpes em você, e não pela Expansão. Cada golpe que te acerta pede o teste do `Carregar`: um Teste de Resistência de Espírito contra a CD de quem te feriu. As falhas se acumulam, e com metade da sua Essência em falhas (no mínimo 1) a esfera se desfaz. Esse teste não ocupa a sua Concentração, e a Mão Firme não protege dele.
 >
@@ -272,7 +272,7 @@ A `Cesta Oca de Vime` anula o Acerto e mais nada: o Efeito da Expansão continua
 
 ### Domínio Simples
 
-> **Domínio Simples** — um domínio pequeno em volta de você, de raio `1,5 m + refino ÷ 2`, que cobre quem estiver nele. Lá dentro a Expansão não alcança ninguém: nem o Acerto dela, nem o que ela faz com as pessoas ou com o lugar. Ele levanta com uma Reação quando uma Expansão abre, ou com uma Ação Bônus no seu turno, e custa `2` PE por rodada.
+> **Domínio Simples** — um domínio pequeno em volta de você, de raio `1,5 m + refino ÷ 2`, que cobre quem estiver nele. Lá dentro a Expansão não alcança ninguém: nem o Acerto dela, nem o que ela faz com as pessoas ou com o lugar. Ele levanta com uma Reação quando uma Expansão abre, ou com uma Ação Bônus no seu turno, e custa `2` PE por rodada. Erguer custa a sua maior Classe em PE, toda vez que ele sobe.
 >
 > Ele aguenta a Expansão por 3 rodadas, 4 se a sua Essência for maior que a do dono dela e 2 se for menor. Cada Acerto que ele segura gasta uma rodada, a começar pelo de quando ela abre. Quando as rodadas acabam, o Acerto seguinte o derruba e alcança quem ele protegia. Golpe em você não o derruba.
 >
@@ -300,9 +300,26 @@ O que a Expansão dá ao dono dela continua com o dono: o desconto nos feitiços
 
 ### Pétala
 
-> **Pétala** — a energia cobre o seu corpo e devolve o golpe. Quando o Acerto de uma Expansão te alcança, ele é anulado no ponto de contato, `refino ÷ 2` vezes por cena. Custa `1 × a sua maior Classe` de PE por rodada.
+> **Pétala** — a energia cobre o seu corpo e rebate o que encosta nela, energia contra energia. Quando o Acerto de uma Expansão toca você, o dano dele depende da sua Essência contra a do dono da Expansão: maior, ele não te fere; igual, você leva um quarto; menor, você leva metade. O que a Expansão traz por contato e não é dano, como agarrar, condição ou marca, ela anula de qualquer jeito.
 >
-> Requisito: ser Descendente, ou ter aprendido com alguém de algum clã; refino 2 e nível 10. Classe Passiva 2. O refino escala quantos Acertos ela devolve.
+> Ela levanta com uma Reação quando uma Expansão abre, ou com uma Ação Bônus no seu turno. Erguer custa a sua maior Classe em PE, toda vez que ela sobe, e de pé ela custa `1` PE por rodada.
+>
+> Ela cai pelos golpes em você. Cada golpe que te acerta, de qualquer um, pede o teste do `Carregar`: um Teste de Resistência de Espírito contra a CD de quem te feriu. Com metade da sua Essência em falhas (no mínimo 1), ela se desfaz. Esse teste não ocupa a sua Concentração, e a Mão Firme não protege dele.
+>
+> Quando ela cai, a Expansão não te alcança na hora: o próximo Acerto te pega inteiro se ela ainda estiver caída. Erguer de novo custa a Ação Bônus, com as falhas zeradas.
+>
+> Com uma arma corpo a corpo empunhada, ela contra-ataca. Quando um golpe corpo a corpo te acerta, você pode gastar a Reação num ataque de oportunidade com vantagem contra quem te acertou, se ele estiver ao seu alcance. Cada contra-ataque custa `3` PE. O soco não conta.
+>
+> Requisito: ser Descendente, ou ter aprendido com alguém de um clã; refino 4 e nível 10. Classe Passiva 2.
+
+**Quanto a Pétala segura**
+{: .tab-titulo }
+
+| a sua Essência, contra a do dono da Expansão | maior | igual | menor |
+|---|---|---|---|
+| o dano do Acerto que toca, que você leva | nada | `1/4` | metade |
+
+A Pétala só responde ao que toca: corte, chama, enxame, criatura, a mão de alguém. O Acerto que não encosta, como informação ou uma regra, passa por ela, e o que não é Acerto de Expansão também, como um soco. Contra a Expansão incompleta ela não faz nada, e fora de uma Expansão ela só serve para o contra-ataque.
 
 ### Extensão de Domínio
 

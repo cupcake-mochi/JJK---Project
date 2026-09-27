@@ -1205,15 +1205,29 @@ else:
     for _l11 in tabela(ler(P11), '| | Classe · gate | abre em | o refino escala | PE por rodada |'):
         if len(_l11) >= 5:
             _mm = re.match(r'([\d,]+) × maior Classe', _l11[4].strip())
-            _mf = re.match(r'(\d+) fixos', _l11[4].strip())
+            _mf = re.match(r'(\d+) fixos?', _l11[4].strip())
             if _mm:
                 _APT11[_l11[0].strip()] = ('x', float(_mm.group(1).replace(',', '.')))
             elif _mf:
                 _APT11[_l11[0].strip()] = ('fixo', float(_mf.group(1)))
+            elif _l11[4].strip() == 'nenhum':
+                _APT11[_l11[0].strip()] = ('fixo', 0.0)
+    # v0.272: ERGUER custa a maior Classe em PE, toda vez, nas que a frase da peca 11 §6.5
+    # nomeia. O inimigo nao conta PE (§6.1), entao erguer uma vez por luta come a cota da
+    # luta inteira, repartida pelas rodadas dela — a duracao e' a da prosa do manual (5.2).
+    _mer92 = re.search(r'^\*\*E erguer custa a sua maior Classe em PE, toda vez que ela sobe\*\* — (.+)$',
+                       ler(P11), re.M)
+    _ERG11 = set(re.findall(r'`([^`]+)`', _mer92.group(1).split('*')[0])) if _mer92 else set()
     _T92 = tabela(TXT, '| ligada a luta inteira, no nível 30 | da cota de uma `Ameaça` | de um `Desastre` |')
     if not _APT11:
         erro('9.2: nao achei o custo por rodada das anti-dominio na peca 11 §6.5 — ela e '
              'a dona, e sem ela o §6.5 daqui vira copia solta')
+    elif not _mer92:
+        erro('9.2: nao achei na peca 11 §6.5 a frase de erguer ("E erguer custa a sua maior '
+             'Classe em PE, toda vez que ela sobe") — ela e a dona do custo de erguer')
+    elif '_DUR' not in globals():
+        pulou('9.2. a aptidao contra a cota — a duracao da luta (5.2) nao foi lida, e erguer '
+              'se reparte por ela')
     elif 30 not in _MANUAL:
         pulou('9.2. a aptidao contra a cota — a linha do nivel 30 da tabela de inimigo '
               'nao foi lida, e a conta se mede contra o dano dela')
@@ -1231,9 +1245,16 @@ else:
                 _mau92 += 1
                 continue
             _mm92 = re.search(r'([\d,]+) ×', _l92[0])
-            _mf92 = re.search(r'([\d,]+) PE fixos', _l92[0])
+            _mf92 = re.search(r'([\d,]+) PE fixos?', _l92[0])
             _pub92 = (('x', float(_mm92.group(1).replace(',', '.'))) if _mm92 else
-                      ('fixo', float(_mf92.group(1).replace(',', '.'))) if _mf92 else None)
+                      ('fixo', float(_mf92.group(1).replace(',', '.'))) if _mf92 else
+                      ('fixo', 0.0) if 'só erguer' in _l92[0] else None)
+            _erg92 = 'erguer' in _l92[0]
+            if _erg92 != any(_n in _ERG11 for _n in _nomes):
+                erro(f'9.2: a linha "{_l92[0]}" {"cobra" if _erg92 else "nao cobra"} erguer, e a '
+                     f'frase da peca 11 §6.5 nomeia {sorted(_ERG11)}')
+                _mau92 += 1
+                continue
             _don92 = {_APT11[_n] for _n in _nomes}
             if (len(_don92) != 1 or _pub92 is None
                     or _pub92[0] != next(iter(_don92))[0]
@@ -1242,7 +1263,8 @@ else:
                      f'§6.5 da {[_APT11[_n] for _n in _nomes]}')
                 _mau92 += 1
                 continue
-            _custo = _pub92[1] * (_CL18[30] if _pub92[0] == 'x' else 1) * _CAMBIO
+            _custo = (_pub92[1] * (_CL18[30] if _pub92[0] == 'x' else 1)
+                      + (_CL18[30] / _DUR if _erg92 else 0)) * _CAMBIO
             _COLS92 = [next(c for c in _CAT if c[0] == _r)
                        for _r in ('Ameaça', 'Desastre')]
             for _cel92, _c92 in zip(_l92[1:], _COLS92):
@@ -1258,7 +1280,8 @@ else:
         if not _mau92:
             print(f'  [x] as {len(_T92)} linhas da aptidao reconstroem do custo da peca 11 '
                   f'§6.5 — vezes a maior Classe da peca 18 quando ele e por Classe, ou '
-                  f'fixo — vezes o cambio da peca 5 §4')
+                  f'fixo, mais erguer (a maior Classe repartida pelas {_DUR} rodadas da luta) '
+                  f'— vezes o cambio da peca 5 §4')
 
     # -- 9.3: as duas trocas ruins, e as duas sao a mesma conta --------------
     # A cura: H vale (dano ÷ saida) × H, entao o empate e' curar a SAIDA do

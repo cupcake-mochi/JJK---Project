@@ -110,7 +110,7 @@ A terceira linha é a que faz esta peça caber sem furar nada. **O `arquitetura.
 | **a `Pétala`** | **`Pétala`** | 2 | `9,3` níveis |
 | **a que você escreve** | **`Aptidão Própria`** | 1 ou 2 | `9,3` níveis no teto dela |
 
-> ***Decisão do Mizuki na v0.190: a `Pétala` vira porta.*** *Ela já estava medida e declarada como quarta porta não escrita desde a v0.168 — cabia na banda, e o que faltava era escolha de sabor.* **⚠ A tabela acima é a decisão; o texto da porta e o exemplo dela ainda não estão escritos**, e é isso que a §9 vai levar quando alguém sentar nela.
+> ***Decisão do Mizuki na v0.190: a `Pétala` vira porta.*** *Ela já estava medida e declarada como quarta porta não escrita desde a v0.168 — cabia na banda, e o que faltava era escolha de sabor.* *O texto da porta está no §4.3, e o exemplo é o `Espinho`, no §9.* ~~**⚠ A tabela acima é a decisão; o texto da porta e o exemplo dela ainda não estão escritos**~~ ***FECHADO:*** *esta linha envelheceu quando o §4.3 e o `Espinho` entraram, e foi achada na v0.272.*
 
 > **A semente `Domínio Simples` nasce com o voto do iniciante** — *peça 11 §6.5, desde a v0.268: ele fica no ponto em que você o ergueu, e se os seus dois pés saírem desse ponto ele se desfaz.* **Você larga o voto quando o seu refino chega a 5** — *sem escolher Refino, no nível 18.* *Com o voto, o gate dele é o da Classe Passiva 2 (refino 4), e a antecipação continua `9,3` níveis. É a Miwa, e a `Redoma` do §9 já é escrita assim.*
 
@@ -120,7 +120,7 @@ A terceira linha é a que faz esta peça caber sem furar nada. **O `arquitetura.
 
 ### 4.3 A porta da `Pétala` — o que ela é, e o que ela não deixa você fazer
 
-**A `Pétala` cobre o seu corpo de energia e devolve o golpe.** *Ela exige concentração, ela **não** para golpe que não seja técnica, e ela devolve `refino ÷ 2` Acertos — os três números são da peça 11 §6.5, e nenhum deles é desta peça.*
+**A `Pétala` cobre o seu corpo de energia e rebate o que toca.** *Contra o Acerto de uma Expansão ela anula ou reduz pela Essência contra a do dono, cai com os golpes em você, e com arma empunhada contra-ataca quem te acertou — a regra é da peça 11 §6.5, reescrita na v0.272, e nada dela é desta peça.*
 
 **Ela cabe na banda exata do `Domínio Simples`:** Classe Passiva 2, `9,3` níveis de antecipação. *As duas são a mesma altura, e a escada de gate é quem decide isso — não teve escolha de número aqui.*
 
@@ -128,7 +128,7 @@ A terceira linha é a que faz esta peça caber sem furar nada. **O `arquitetura.
 
 > **E a `Pétala` fecha uma porta que as outras três deixam aberta: ela não alcança ninguém.** *A energia mora em você, e o que ela faz acontece em quem encostou.* **Um Fundamento montado nela nasce reativo** — ele não escolhe o alvo, ele responde a quem escolheu.
 >
-> **⚠ Ela também não é resposta a tudo, e isso é da fonte.** *A `Pétala` não para golpe que não seja técnica — o exemplar canônico apanhou de soco com ela de pé.* **Contra um corpo que bate, esta porta não entrega nada**, e quem escolhe ela está apostando que o problema da mesa é energia amaldiçoada.
+> **⚠ Ela também não é resposta a tudo, e isso é da fonte.** *O que não é Acerto de Expansão passa por ela — o exemplar canônico apanhou de soco com ela de pé, e ela caiu.* **Contra um corpo que bate, a defesa dela não entrega nada; o que sobra é o contra-ataque, e só para quem luta de arma na mão.** Quem escolhe ela está apostando que o problema da mesa é energia amaldiçoada.
 
 ***Decisão do Mizuki na v0.190: ela vira porta***, e o exemplo dela é o `Espinho`, no §9.
 
@@ -286,7 +286,7 @@ A terceira linha é a que faz esta peça caber sem furar nada. **O `arquitetura.
 | | |
 |---|---|
 | **Semente** | `Pétala` |
-| **Descrição** | Ela não bloqueia: ela deixa encostar. A energia fica rente à pele e devolve o que veio, e por isso ela luta parada, de olho em quem está mirando. É a técnica de quem aprendeu que o jeito mais barato de ganhar é fazer a pessoa se machucar sozinha — e que isso só funciona contra quem usa energia amaldiçoada. |
+| **Descrição** | Ela não bloqueia: ela deixa encostar. A energia fica rente à pele e rebate o que veio, e por isso ela luta parada, de olho em quem está mirando. É a técnica de quem aprendeu que o jeito mais barato de ganhar é fazer a pessoa se machucar sozinha — e que isso só funciona contra quem usa energia amaldiçoada. |
 | **Regra** | *"O que encosta em mim volta em quem mandou, e só o que é energia."* |
 | **Livres** | `Tempo` · `Castigo` |
 | **Fechadas** | `Alcance` · `Área` · `Marca` |
@@ -294,7 +294,7 @@ A terceira linha é a que faz esta peça caber sem furar nada. **O `arquitetura.
 
 *As duas Livres caem da Regra:* **`Tempo` é a Família da reação, e devolver golpe é reagir**; **`Castigo` é fazer o dano render mais**, que é o que a devolução faz com o golpe alheio. **E as três Fechadas caem da semente:** *a energia mora no corpo dela, então `Alcance` não tem para onde ir; ela cobre um corpo e não um espaço, então `Área` não pega ninguém; e ela responde em vez de preparar, então `Marca` não tem próximo golpe para armar.*
 
-> **⚠ Este exemplo mostra o custo da porta, e ele é a coisa mais útil dele.** *A `Pétala` não para golpe que não seja técnica.* **Um `Espinho` num arco em que o inimigo é corpo a corpo puro fica com uma semente que não dispara** — e o Fundamento dele continua funcionando, porque a semente é o motor e não o assunto. *É a mesma coisa que o §4.2 diz do tema, vista pelo lado que dói.*
+> **⚠ Este exemplo mostra o custo da porta, e ele é a coisa mais útil dele.** *A defesa da `Pétala` só dispara contra Expansão, e o contra-ataque pede arma na mão.* **Um `Espinho` sem arma, num arco em que o inimigo é corpo a corpo puro e não abre domínio, fica com uma semente que não dispara** — e o Fundamento dele continua funcionando, porque a semente é o motor e não o assunto. *É a mesma coisa que o §4.2 diz do tema, vista pelo lado que dói.*
 
 ## 10. O que o validador confere
 

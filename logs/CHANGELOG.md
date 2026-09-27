@@ -8,6 +8,67 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.272] — 26/09/2026
+
+**A Pétala foi reescrita na rodada 3 da revisão dos anti-domínio, e erguer passou a custar a maior Classe em PE na Cesta, no Simples e na Pétala.** *Ela rebate o que toca, energia contra energia, e o dano do Acerto sai da Essência de quem a usa contra a do dono da Expansão: maior, não fere; igual, leva `1/4`; menor, leva metade. O que a Expansão traz por contato e não é dano ela anula sempre. Cai pelo teste do `Carregar` a cada golpe, de qualquer um, sem a queda na hora; com arma corpo a corpo empunhada, contra-ataca quem a acertou; e custa `1` PE por rodada e `3` por contra-ataque.*
+
+### 1 · As respostas, nas palavras dele
+
+*Três voltas, em cima da pesquisa do `O-petala-as-perguntas-da-rodada-3.md` e do `conta-petala.py`, os dois novos em `sistema/01-pesquisa/anti-dominios/`.*
+
+- **Como cai — "um teste de carregar a cada golpe, sendo contra qualquer um. Na obra o naobito perde por sair voado e não conseguir sustentar mais."** *O "exige concentração" nasceu num artigo de fã de 2023, sem painel; a obra a chama de "programa" que rebate "automaticamente" (o Kusakabe, cap. 227).*
+- **Como levanta — "pode ser o mesmo que os outros, sendo ação bônus pra levantar na segunda vez, por ser um pouco mais fraco que dom simples".**
+- **O que ela pega — "só o que a energia tiver toque, contato".** *É a leitura que ele já tinha feito em 22/09, no `F`, e a do Kusakabe: contra o Vazio Ilimitado não serve, contra o corte do Sukuna ajuda bastante.*
+- **Quanto — "se a essência for maior que do inimigo, anula. Se for igual, reduz a 1/4 e se for menor reduz pela metade. E anula efeitos que exigem contato, independente da essência"**, *e, numa segunda volta:* **"coisas que a EXPANSÃO trazem de efeito, n precisa ser o acerto garantido, mas sendo da expansão ele poderia anular".** *No cap. 227 ela reduz: o Sukuna percebe que as feridas do Gojo saem rasas, e o Choso diz que ela "não é técnica que encare a saída de um domínio" — três transcrições japonesas batem.*
+- **O requisito — "refino 4 e o mesmo requisito narrativo de antes".**
+- **O verbo — "rebate no sentido de contra atacar, é um ataque feito contra o golpe, sendo energia contra energia, n devolve dano"**, *e o contra-ataque:* **"caso a energia entre em contato físico, como reação o jogador pode executar um ataque de oportunidade com vantagem contra o alvo de contato, contanto que esteja a alcance corpo a corpo"**, **"caso o jogador tenha uma arma corpo a corpo"** *— é o Ogi contra a Maki, com a Pétala na espada (cap. 148).*
+- **O custo — "faz um cálculo, depois de tudo que demos, pra balancear ela"**, *e, com a conta na mão, a opção de `1` PE por rodada e `3` por contra-ataque.*
+- **Erguer — "deveria custar 'Maior Classe' em PE, pra todos eles"**, *e "toda vez".* **A `Extensão de Domínio` entra na rodada dela, a seguinte.**
+- **Na segunda volta:** *sem a queda na hora; o soco não conta como arma; o contra-ataque dispara no golpe corpo a corpo que te acerta.*
+
+### 2 · As leituras que apliquei, escritas para ele vetar
+
+- **"Reduz a 1/4" é "você leva 1/4".** *A outra leitura, levar `3/4`, poria o empate de Essência abaixo da Essência menor.*
+- **O contador de `refino ÷ 2` por cena saiu**, *porque a regra de Essência dele diz quanto ela para. O refino passou a não escalar nada nela, como na Cesta.*
+- **A Essência é a do dono da Expansão**, *como no Simples.* **Metade da Essência em falhas a derruba**, *como na Cesta, e o teste não ocupa a Concentração nem é protegido pela Mão Firme.*
+- **O que ela anula sempre é o que a Expansão traz por contato e não é dano**, *e a técnica que o dono usa lá dentro, rolando ataque, é técnica comum para ela, como no Simples.* **Contra a Expansão incompleta ela não faz nada**: *o que a dispara é o acerto garantido.* — *Ele respondeu "tem nada pra corrigir, pode aplicar".*
+
+### 3 · O que a conta mostrou
+
+- **A queda na hora, como na Cesta, deixava quem tem Essência baixa pior do que sem nada:** *com Essência `2`, menor que a do dono, e sem treino, numa Expansão de refino 10, passavam `6,3` a `6,8` Acertos contra os `6` de não ter Pétala nenhuma.* **Foi isso que tirou a queda na hora dela** — *sem ela, passam `3,0`, o mesmo que a Cesta deixa passar.*
+- **O contra-ataque vale `2,8` PE no nível 10 e `3,4` no 30**, *pela régua da peça 5 §4 — um golpe de arma `1d10 + Força`, com vantagem, que pela base de `50%` da própria régua acerta `75%`. A regressão reproduz antes o soco extra do Engate, `11,50 × 75% = 8,62`.* **`3` é o meio**, *e o preço por uso não depende de quantas vezes ele dispara.*
+- **O soco é arma para todo efeito de regra pela peça 14 §5.0.6**, *então "com arma corpo a corpo" pegaria todo mundo; ele respondeu que o soco não conta.*
+- **"Anula efeitos que exigem contato" podia pegar o feitiço de Toque**, *que é o golpe principal de todo físico; ele escolheu o que a Expansão traz.*
+- **Com a Essência maior que a do dono, a Pétala protege exatamente o que a Cesta protege**, *e com igual ou menor, menos. Fica para a comparação das quatro.*
+- **Erguer uma vez custa `6%` a `8%` do dia de um Bastião, do nível 10 ao 30**, *e numa Expansão de refino 10, erguendo de novo sempre que cai, a média gasta `13%` do dia na Cesta, `17%` na Pétala e `28%` no Simples; com Essência `2` e sem treino, a Cesta chega a `32%`.*
+
+### 4 · Onde entrou
+
+- **A peça 11 §6.5, a dona:** *a Pétala inteira (caixa, a tabela da Essência, o que toca, a queda sem a hora, o contra-ataque e o preço dele, a incompleta); as duas tabelas das quatro; a frase de erguer logo abaixo delas, que os dois validadores leem; a caixa da Cesta e a do Simples; e a seção "Por que o custo por rodada é `1 × maior Classe`", que virou "Por que erguer custa a maior Classe" — a conta velha media o custo por rodada da Pétala, que não existe mais, e saiu.* **E fora do §6.5:** *o §5 (o requisito de história passou a ser de três aptidões), a nota da regra que vale para as quatro, e as duas tabelas do fim (o que cada uma gasta e o catálogo fechado).*
+- **O capítulo 45 do livro:** *a Pétala na voz do livro, com a tabela `Quanto a Pétala segura`; a Cesta e o Simples com erguer; a caixa de abertura, que dizia "Só a Pétala exige concentração"; e a tabela das aptidões, com o requisito dela.*
+- **A peça 25:** *a porta da Pétala (§4.3) e o `Espinho`, que dizia que ela "devolve o que veio" e não dispara contra corpo a corpo puro — hoje ela contra-ataca quem luta de arma na mão.* **E uma sobra antiga:** *o §4.2 dizia que o texto da porta e o exemplo "ainda não estão escritos", e os dois estavam desde a v0.190.*
+- **A peça 26 §6.5:** *erguer no inimigo entra na cota repartido pelas três rodadas da luta, `maior Classe × 5,14 ÷ 3`, e a tabela ganhou a Cesta — `22%` da cota de uma `Ameaça` e `6%` da de um `Desastre` no nível 30; a Pétala foi para `31%` e `8%`, e o Simples para `40%` e `11%`.* **O exemplo do ⚠ usava a Pétala por Classe**, *e passou a ser o Simples erguido e ligado uma rodada de três: `15,4` de dano, `7,0%` e `28%`.*
+- **A pesquisa:** *o `O-petala-as-perguntas-da-rodada-3.md`, e o `P-extensao-o-que-ficou-aberto.md`, trazido do arquivo do agente que o Mizuki liberou, com o cap. 230 e o 232 conferidos na fonte. O `conta-cesta-oca.py` perdeu as três âncoras da Pétala velha, e o `H` ganhou a nota da versão.*
+
+### 5 · Os validadores
+
+- **`conferir-expansao.py`, bloco 10:** *duas checagens morreram com a decisão — a Pétala "nunca anula o Acerto inteiro", e o custo por Classe da Classe 2 "cabe no dia" —, e entraram quatro.* **Erguer:** *quem paga é lido da frase da peça 11, e uma luta com erguer e o PE de rodada tem de caber nas três de graça do dia, do nível 6 ao 30.* **A Pétala segue a Essência em ordem:** *a tabela é lida, e a Essência maior não pode proteger menos que a igual.* **Ela nunca deixa passar mais do que não ter ela**, *no pior caso, e é essa que acende se a queda na hora voltar.* **O contra-ataque custa o que vale**, *pela régua da peça 5 lida no validador.* *A leitura do custo aceita `1` fixo.*
+- **E a cópia do livro:** *o bloco 10 compara a tabela da Essência e o preço do contra-ataque do capítulo 45 com a peça 11, que é a dona — os dois números moram em dois documentos, e sem isso só o `conta-petala.py`, que não é validador, os comparava.*
+- **`conferir-bestiario.py`, 9.2:** *ela lê a frase de erguer da peça 11, a Cesta com `nenhum`, e soma erguer repartido pela duração da luta, que ela já lia da prosa do manual na 5.2.*
+- **`conferir-repositorio.py`, 7.2:** *a base foi de `194` para `196`, medida pelo diff da lista branca entre a entrega da v0.271 e uma cópia com o patch: as duas citações do `conta-petala.py` na peça 11, a mesma família do `conta-dominio-simples.py`.*
+
+### 6 · O que foi conferido
+
+*O `conta-petala.py` reproduz os números publicados antes de medir — a tabela da Pétala até a v0.271 como registro, as três curvas de refino, a tabela da Cesta e a do Simples, a régua do custo por Classe e o soco extra da peça 5 — e, no fim, o que a v0.272 publicou: a tabela da Essência na peça e no livro, o preço do contra-ataque, a tabela de erguer, os `13%`, `17%`, `28%` e `32%`, e os `6,3`, `6,8`, `6` e `3,0` da queda na hora. O `conta-cesta-oca.py` e o `conta-dominio-simples.py` seguem reproduzindo os deles.* **Os quatro builds** *depois da última edição, com o livro uma página maior nas duas edições (`281` e `171`); o `conferir-voz.py --estrito` sai `0`.*
+
+**A bateria: 31 de 31, com PULADA zero**, *emulada numa cópia da pasta principal com o patch aplicado e o `subir.sh` cortado antes do commit — o passo 0 sincronizou seis arquivos da entrega.*
+
+**O arnês:** *na mesma cópia, com a base verde antes e depois. Catorze perturbações acendem pela mensagem certa — no bloco 10 do `conferir-expansao.py`, a Essência igual a `3/4`, a menor a `tudo`, a queda na hora de volta, o contra-ataque a `4` e a `2`, a frase de erguer sumindo, a Extensão entrando no erguer (não cabe no dia do nível 14), o livro com a tabela ou o preço diferentes, e a Pétala a `0` PE; na 9.2 do `conferir-bestiario.py`, a frase de erguer sumindo, a Pétala a `30%`, a linha sem erguer, e a peça 11 passando a Pétala a `2` PE com o bestiário velho.* **Três contra-testes coerentes ficam verdes**: *o `1/4` virando `1/3` na peça e no livro juntos, e a Pétala a `2` PE com o bestiário refeito, nos dois validadores.* **E o arnês pegou um defeito meu:** *a frase "não te alcança na hora" aparece duas vezes na seção, na caixa e na explicação, e a primeira forma da checagem lia qualquer uma — com a caixa trocada, ela ficava verde. Hoje ela lê só a caixa.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: *o item 6 da fila, rodada 3 — a `Extensão de Domínio`, com as respostas do Mizuki já dadas.*
+
+---
+
 ## [0.271] — 25/09/2026
 
 **As decisões que a v0.270 deixou fecharam, com as respostas do Mizuki.** *A perícia fixa do Bastião passou a `Provocar`, a frase dos Limites voltou com o Socorrista como exceção, ninguém cura outra pessoa com Energia Reversa, e três nomes da coleção v0.4 mudaram no livro.*

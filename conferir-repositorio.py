@@ -1163,7 +1163,12 @@ else:
     #   principal contra uma copia com o patch da v0.271). UMA so: o
     #   `conferir-catalogo.py` na peca 6 §2, onde a tabela `Renomes decididos` diz
     #   quem aplica ela. Familia `conferir-[a-z-]+\.py`, ja declarada.
-    BRANCAS_AQUI, FOLGA = 194, 5
+    # v0.272: 194 -> 196, MEDIDO do mesmo jeito (a entrega da v0.271 da pasta
+    #   principal contra uma copia com o patch da v0.272). DUAS, e as duas sao
+    #   `sistema/01-pesquisa/anti-dominios/conta-petala.py` na peca 11 §6.5: na
+    #   Petala reescrita e em "Por que erguer custa a maior Classe", dizendo de onde
+    #   saem os numeros. Mesma familia do conta-dominio-simples.py da v0.268.
+    BRANCAS_AQUI, FOLGA = 196, 5
     PISO_CITACOES, TETO_BRANCOS = 120, BRANCAS_AQUI + FOLGA
     if vistos_e < PISO_CITACOES:
         erro(f'7.2: achei so {vistos_e} citacoes na entrega, e o piso e {PISO_CITACOES} — '

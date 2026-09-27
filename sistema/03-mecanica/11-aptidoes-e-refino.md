@@ -272,7 +272,7 @@ Doze níveis entre o especialista e o generalista, que é o tamanho que *"quase 
 
 ### O requisito de história, que não é gate — v0.268
 
-**Duas aptidões pedem uma coisa que não está em nenhum dos seis formatos:** *a `Cesta Oca de Vime` pede ser Reencarnado, ou ser treinado em `História`; o `Domínio Simples` pede ter visto um sendo usado, ou ter aprendido com alguém.* **Não é gate:** *nenhum dos dois trava nível, refino ou marco de quem teria acesso pela conta — ele diz de onde a técnica veio.* **Os dois vieram do livro, da revisão do Mizuki na v0.176, e ficaram por decisão dele:** *"E os requisitos ficam" (v0.267), e "é algo definido de forma narrativa, não tem problema e segue a obra" (v0.268).*
+**Três aptidões pedem uma coisa que não está em nenhum dos seis formatos:** *a `Cesta Oca de Vime` pede ser Reencarnado, ou ser treinado em `História`; o `Domínio Simples` pede ter visto um sendo usado, ou ter aprendido com alguém; e a `Pétala`, desde a v0.272, pede ser Descendente, ou ter aprendido com alguém de um clã.* **Não é gate:** *nenhum dos três trava nível, refino ou marco de quem teria acesso pela conta — ele diz de onde a técnica veio.* **Os três vieram do livro, da revisão do Mizuki na v0.176, e ficaram por decisão dele:** *"E os requisitos ficam" (v0.267), "é algo definido de forma narrativa, não tem problema e segue a obra" (v0.268), e "o mesmo requisito narrativo de antes" (v0.272).*
 
 > **Para ele passar no filtro de mesa, a ficha anota a resposta:** *de quem você aprendeu, ou onde viu.* **O mestre que pega a ficha depois lê o que está escrito, e não decide de novo.** *O da Cesta já mora na ficha — a Origem e a perícia estão nela.*
 
@@ -588,6 +588,7 @@ E "mais fácil depois do primeiro" sem teto é a espiral da exaustão com o sina
 
 > **Elas anulam o Acerto de uma Expansão. Nenhuma delas serve contra a Expansão incompleta.**
 > *Vale igual para a `Extensão de Domínio`, que anula o mesmo Acerto sem ser da categoria.*
+> *Desde a v0.272 a `Pétala` anula ou só reduz, pela Essência contra a do dono — a seção dela tem a tabela.*
 
 Não é escolha nossa: é como a obra funciona, e tem cena provando. O Reggie ativou Cesta Oca de Vime dentro do Jardim de Sombras Quimérico do Megumi — que é incompleto — e não adiantou nada. Os shikigami tomaram forma e bateram nele como qualquer coisa bate em qualquer um.
 
@@ -605,7 +606,7 @@ O eixo que separa as quatro não é força — é **quanta liberdade você tem e
 |---|---|---|
 | **Cesta Oca de Vime** | só você, dentro de uma esfera | **as duas mãos presas** no símbolo, e ela **cai** com os golpes em você |
 | **Domínio Simples** | um raio em volta de você, e quem estiver nele | **aguenta poucas rodadas** de Expansão, menos contra quem tem mais Essência; **o iniciante fica preso ao ponto** |
-| **Pétala** | o seu corpo, e **devolve o golpe** | exige concentração, e **não para o que não é Acerto** |
+| **Pétala** | o seu corpo, e **rebate o que toca** | **cede contra quem tem mais Essência**, e **cai** com os golpes em você |
 | **Extensão de Domínio** | o seu corpo, e faz o **seu** ataque acertar | **nenhum feitiço enquanto ela estiver de pé** |
 
 ### As quatro, com número
@@ -614,24 +615,27 @@ O eixo que separa as quatro não é força — é **quanta liberdade você tem e
 |---|---|---|---|---|
 | **Cesta Oca de Vime** | 1 · sem gate | nv 6, nas três rotas | **nada** | **nenhum** |
 | **Domínio Simples** | 2 · refino 5, ou 4 com o voto | nv 10 · 14 · 18, ou 10 · 10 · 14 com o voto | o raio: `1,5 m + refino ÷ 2` | `2` fixos |
-| **Pétala** | 2 · refino 4, nível 10 | nv 10 · 10 · 14 | quantos Acertos devolve: `refino ÷ 2` | `1 × maior Classe` |
+| **Pétala** | 2 · refino 4, nível 10 | nv 10 · 10 · 14 | **nada** | `1` fixo |
 | **Extensão de Domínio** | 3 · refino 7, nível 14 | nv 14 · 18 · 26 | a duração: `refino` rodadas | `1,5 × maior Classe` |
 
 > ***A `Extensão de Domínio` está nas duas tabelas e NÃO é da categoria*** — *ela serve como uma, e fica aqui porque é assim que se compara.* **A linha dela não leva marca de propósito:** *o `conferir-ferramenta.py` lê o gate do grau mais alto desta tabela, e marca dentro da célula quebra o extrator dele.*
 
 **Todas custam um marco, como qualquer aptidão. Nenhuma custa espaço de feitiço.**
 
+**E erguer custa a sua maior Classe em PE, toda vez que ela sobe** — na `Cesta Oca de Vime`, no `Domínio Simples` e na `Pétala`. *Desde a v0.272, por decisão do Mizuki: "deveria custar Maior Classe em PE, pra todos eles". A `Extensão de Domínio` entra na rodada dela, a seguinte. O porquê está em "Por que erguer custa a maior Classe", no fim desta seção.*
+
 ### Cesta Oca de Vime · Classe Passiva 1, sem gate
 
 > **Você faz o símbolo e uma esfera se fecha em volta de você. Enquanto você o segurar, o Acerto de uma Expansão não te alcança, e as suas duas mãos ficam presas nele. Levanta com uma Reação quando uma Expansão abre, ou com uma Ação Bônus no seu turno.**
 > **Ela cai pelos golpes em você, e não pela Expansão:** *cada golpe que te acerta pede o teste do `Carregar` — um Teste de Resistência de Espírito contra a CD de quem te feriu —, as falhas se acumulam, e com metade da sua Essência em falhas (no mínimo 1) a esfera se desfaz e a Expansão te alcança na hora.*
+> **Erguer custa a sua maior Classe em PE, toda vez que ela sobe; de pé, ela não custa nada.**
 > *Requisito: ser Reencarnado, ou ser treinado em `História`.*
 
-> ***Reescrita na v0.267, com as decisões do Mizuki na rodada 2 da revisão dos anti-domínio.*** *Até a v0.266 ela cobrava o turno inteiro ("você não faz mais nada") e não quebrava nunca. A obra mostra outra coisa: o símbolo prende as mãos, quem segura continua lutando, e ela racha com os golpes no dono (cap. 266).* **O preço passou a ser as mãos e a queda; o PE continua zero.** *A conta está em `sistema/01-pesquisa/anti-dominios/conta-cesta-oca.py`, e ela reproduz os números publicados antes de medir — inclusive a tabela abaixo, que sai dela.*
+> ***Reescrita na v0.267, com as decisões do Mizuki na rodada 2 da revisão dos anti-domínio.*** *Até a v0.266 ela cobrava o turno inteiro ("você não faz mais nada") e não quebrava nunca. A obra mostra outra coisa: o símbolo prende as mãos, quem segura continua lutando, e ela racha com os golpes no dono (cap. 266).* **O preço passou a ser as mãos e a queda; o PE continuou zero até a v0.272, quando erguer passou a custar a maior Classe.** *A conta está em `sistema/01-pesquisa/anti-dominios/conta-cesta-oca.py`, e ela reproduz os números publicados antes de medir — inclusive a tabela abaixo, que sai dela.*
 
 **Mãos presas, e não o turno.** Você age normalmente — anda, ataca desarmado, usa feitiço sem `Gesto` —, mas nada que peça as mãos: **arma, escudo, feitiço com `Gesto` e `Agarrar` ficam de fora** enquanto o símbolo estiver de pé. *Um chute não é segurar uma arma: o Desarmado vale, e o preço fica nele.*
 
-Ela é a **predecessora** do Domínio Simples, e **anula o Acerto e mais nada**: o Efeito da Expansão continua acontecendo em cima de você, e o refino não a melhora em nada — é a segunda aptidão do catálogo que não usa o valor cheio, junto com canalizar energia.
+Ela é a **predecessora** do Domínio Simples, e **anula o Acerto e mais nada**: o Efeito da Expansão continua acontecendo em cima de você, e o refino não a melhora em nada — é uma das três aptidões do catálogo que não usam o valor cheio, com canalizar energia e, desde a v0.272, a Pétala.
 
 **Como ela cai.**
 
@@ -661,6 +665,7 @@ Ela é a **predecessora** do Domínio Simples, e **anula o Acerto e mais nada**:
 ### Domínio Simples · Classe Passiva 2, refino 5, ou refino 4 com o voto do iniciante
 
 > **Um domínio pequeno em volta de você, de raio `1,5 m + refino ÷ 2`, que cobre quem estiver nele. Lá dentro a Expansão não alcança ninguém: nem o Acerto dela, nem o que ela faz com as pessoas ou com o lugar. Levanta com uma Reação quando uma Expansão abre, ou com uma Ação Bônus no seu turno, e custa `2` PE por rodada.**
+> **Erguer custa a sua maior Classe em PE, toda vez que ele sobe.**
 > **Ele aguenta a Expansão por `3` rodadas, `4` se a sua Essência for maior que a do dono dela e `2` se for menor.** *Cada Acerto que ele segura gasta uma rodada, a começar pelo de quando ela abre, e pede o teste do `Carregar`: uma falha tira uma rodada, mas as falhas nunca levam a duração abaixo de metade da sua Essência (no mínimo 1). Quando ele cai, a Expansão alcança na hora quem ele protegia; erguer de novo na mesma Expansão custa a Ação Padrão, e ele aguenta metade das rodadas (no mínimo 1).*
 > *Requisito: ter visto um sendo usado, ou ter aprendido com alguém. Com refino 4, só com o voto do iniciante: ele fica no ponto em que você o ergueu, e se os seus dois pés saírem desse ponto ele se desfaz.*
 
@@ -696,7 +701,7 @@ Ela é a **predecessora** do Domínio Simples, e **anula o Acerto e mais nada**:
 
 **O gate não é o da escada.** *A Classe Passiva 2 pede refino 4 e nível 10 (§5); o Simples pede refino 5, sem nível, ou refino 4 com o voto.* **Tirar o nível não antecipa ninguém**, porque refino 4 só se alcança no marco 10. *Refino 5 no nível 10 é só de quem escolheu Refino no 6 e no 10 — o especialista —; com o voto, de qualquer um que escolha Refino no 10. O requisito de história está no §5.*
 
-**O PE são `2` fixos por rodada, e não escalam com a Classe.** *Ele só existe para ninguém andar com o Simples fora de combate: o dia inteiro de PE do Bastião segura ele por 2 minutos no nível 10 e por 6 no nível 30. Numa luta de 3,5 rodadas ele custa 7.*
+**O PE são `2` fixos por rodada, e não escalam com a Classe.** *Ele só existe para ninguém andar com o Simples fora de combate: o dia inteiro de PE do Bastião segura ele por 2 minutos no nível 10 e por 6 no nível 30. Numa luta de 3,5 rodadas ele custa 7.* **Erguer é outra conta:** *desde a v0.272 custa a sua maior Classe, toda vez que ele sobe.*
 
 É o que se ensina, e o que a Miwa e o Kusakabe usam. O que o separa da Cesta Oca: ele **cobre quem estiver no raio**, deixa as suas **mãos livres**, e cai pela Expansão, e não pelos golpes em você.
 
@@ -708,22 +713,33 @@ O da Miwa tem 2,21 m na obra (cap. 40) — o raio de uma iniciante com voto —,
 
 ### Pétala · Classe Passiva 2, refino 4 e nível 10
 
-> **A energia cobre o seu corpo e devolve o golpe. Quando o Acerto de uma Expansão te alcança, ele é anulado no ponto de contato — `refino ÷ 2` vezes por cena. Custa `1 × a sua maior Classe` de PE por rodada, e ela cai se você perder a concentração.**
+> **A energia cobre o seu corpo e rebate o que encosta nela, energia contra energia. Quando o Acerto de uma Expansão toca você, o dano dele depende da Essência: maior que a do dono da Expansão, ele não te fere; igual, você leva `1/4`; menor, você leva metade. E o que a Expansão traz por contato e não é dano — agarrar, condição, marca — ela anula, qualquer que seja a Essência.**
+> **Levanta com uma Reação quando uma Expansão abre, ou com uma Ação Bônus no seu turno. Erguer custa a sua maior Classe em PE, toda vez que ela sobe, e de pé ela custa `1` PE por rodada.**
+> **Ela cai pelos golpes em você:** *cada golpe que te acerta, de qualquer um, pede o teste do `Carregar` — Espírito contra a CD de quem te feriu —, e com metade da sua Essência em falhas (no mínimo 1) ela se desfaz. Quando ela cai, a Expansão não te alcança na hora: ela só deixa de rebater, e o Acerto seguinte te pega inteiro se ela ainda estiver caída. Erguer de novo custa a Ação Bônus, com as falhas zeradas. Este teste não ocupa a sua Concentração, e a Mão Firme não protege dele.*
+> **Com uma arma corpo a corpo empunhada, ela contra-ataca:** *quando um golpe corpo a corpo te acerta, você pode gastar a Reação num ataque de oportunidade com vantagem contra quem te acertou, se ele estiver ao seu alcance. Cada contra-ataque custa `3` PE. O soco não conta.*
+> *Requisito: ser Descendente, ou ter aprendido com alguém de um clã.*
 
-Ela não faz domínio nenhum: é a energia no corpo que reage. Segredo dos três clãs — Gojo, Zenin e Kamo —, e o Gojo aprendeu criança e parou de usar depois de pegar o domínio (cap. 227).
+> ***Reescrita na v0.272, com as decisões do Mizuki na rodada 3 da revisão dos anti-domínio.*** *Até a v0.271 ela anulava `refino ÷ 2` Acertos por cena, custava `1 × a maior Classe` por rodada e caía se você perdesse a concentração. A obra mostra outra coisa: ela é "um programa de manipulação de energia que rebate automaticamente o que toca" (o Kusakabe, cap. 227), cai com o soco do Dagon (cap. 108), e contra o Sukuna deixa passar corte raso — "não é técnica que encare a saída de um domínio" (o Choso, cap. 227).* **O preço passou a ser a Essência contra a do dono, a queda pelos golpes e o PE de erguer.** *A conta está em `sistema/01-pesquisa/anti-dominios/conta-petala.py`, e ela reproduz os números publicados antes de medir.*
 
-**Ela não cobre a Expansão inteira, e isso é de propósito.** A completa dispara o Acerto ao abrir e no começo de cada turno do portador:
+**O que ela rebate é o que toca.** *Corte, chama, enxame, criatura, a mão de alguém: tudo isso encosta, e ela responde.* **O Acerto que não encosta passa por ela** — *a informação do Gojo, a regra do Higuruma, a do Hakari.* É a leitura do Kusakabe no cap. 227: contra efeito complexo "tipo o Vazio Ilimitado" ela não serve, e contra técnica simples "tipo o corte do Sukuna" ajuda bastante. *Quem escreve a Expansão diz o que o Acerto dela faz; se ele chega ao corpo por alguma coisa que encosta, a Pétala responde.*
 
-| refino | Acertos que a Expansão solta | a Pétala devolve |
-|---|---|---|
-| 4 | 3 | 2 |
-| 6 | 4 | 3 |
-| 8 | 5 | 4 |
-| 10 | **6** | **5** |
+**A Essência é a de quem usa a Pétala contra a do dono da Expansão**, como no Domínio Simples, e a mesa só fica sabendo do resultado.
 
-Sempre sobra um. Se ela devolvesse tudo, o terceiro espaço que a Expansão completa custou deixaria de comprar alguma coisa.
+| a sua Essência, contra a do dono da Expansão | maior | igual | menor |
+|---|---|---|---|
+| **o dano do Acerto que toca, que você leva** | nada | `1/4` | metade |
 
-**E ela não para o que não é Acerto** — o Dagon socou o Naobito com a Pétala de pé, e o soco não era o Acerto do domínio dele (cap. 108). Contra um Acerto que é golpe de corpo, ela não faz nada.
+*O `1/4` é o que você leva. Se fosse o que ela tira, o empate protegeria menos que a Essência menor.* **O que chega por contato e não é dano ela anula nos três casos.** *O refino não entra: ele dá o gate e mais nada, como na Cesta.*
+
+**E o que não é Acerto de Expansão passa por ela.** *O soco do Dagon no Naobito não era o Acerto do domínio dele (cap. 108): ele entrou por fora da Pétala e a derrubou.* A técnica que o dono usa lá dentro, rolando ataque e Teste de Resistência, também é técnica comum para ela.
+
+**Quando ela cai, a Expansão não te alcança na hora**, e é isso que a separa da Cesta e do Simples. *A Cesta e o Simples seguram o Acerto o tempo todo, então cair expõe você na hora. A Pétala só responde quando alguma coisa toca, então cair só a tira do próximo toque.* **Medido, a queda na hora deixaria quem tem Essência baixa pior do que sem nada:** *com Essência `2`, menor que a do dono, e sem treino, numa Expansão de refino 10, passariam `6,3` a `6,8` Acertos contra os `6` de não ter Pétala nenhuma.* Sem a queda na hora, passam `3,0`, o mesmo que a Cesta deixa passar.
+
+**O contra-ataque, e por que ele custa `3` PE.** *Com a energia na arma, o Ogi golpeia o que encosta (cap. 148).* **É um ataque de oportunidade** — ataque físico, pago com a Reação, pela peça 3 —, com vantagem, e não soma feitiço: conjurar na Reação continua exigindo a Melhoria Reação. *Pela régua da peça 5 §4, um golpe de arma com vantagem vale `2,8` PE no nível 10 e `3,4` no nível 30, e `3` é o meio.* **O soco fica de fora de propósito:** *a peça 14 §5.0.6 faz dele arma para todo efeito de regra, e aqui ele não é; o Naobito, de mão vazia, nunca contra-ataca.* **Fora de uma Expansão ela só serve para isso**, e paga o mesmo: erguer, `1` PE por rodada e `3` por contra-ataque.
+
+**Contra a Expansão incompleta ela não faz nada** — *o que a dispara é o acerto garantido, e a incompleta rola o dela.*
+
+Ela não faz domínio nenhum: é a energia no corpo que reage. Segredo dos três clãs — Gojo, Zenin e Kamo —, e o Gojo aprendeu criança e parou de usar depois de pegar o domínio (cap. 227). *Na obra, quem usa são dois Zenin e um Gojo; Kamo nenhum.*
 
 ### Extensão de Domínio · Classe Passiva 3, refino 7 e nível 14
 
@@ -757,21 +773,23 @@ Sempre sobra um. Se ela devolvesse tudo, o terceiro espaço que a Expansão comp
 
 E some tudo isso com *"você não lança nada enquanto ela está de pé"*: quem tem feitiço bom paga o dobro por ela.
 
-### Por que o custo por rodada é `1 × maior Classe`
+### Por que erguer custa a maior Classe
 
-> *Desde a v0.268 esta conta vale só para a Pétala.* **O Domínio Simples saiu dela e custa `2` PE fixos por rodada**, *por decisão do Mizuki: o preço dele virou o relógio contra a Expansão, e o PE ficou só para ninguém andar com ele fora de combate.*
+> *Até a v0.271 esta seção era o argumento do custo por rodada da Pétala, `1 × a maior Classe`. Na v0.272 a Classe mudou de lugar, por decisão do Mizuki — "deveria custar Maior Classe em PE, pra todos eles" —: ela é o preço de erguer, toda vez, e o PE por rodada ficou pequeno ou zero.*
 
-A conta escolheu sozinha. Medido no Bastião, que é o piso de PE do sistema, numa luta de 3,5 rodadas:
+**Erguer uma vez, contra o dia de um Bastião, que é o menor bolso do sistema:**
 
-| custo por rodada | do dia, por luta | lutas que cabem |
+| nv | maior Classe | do dia |
 |---|---|---|
-| metade da Classe | 9% a 18% | 5 a 11 |
-| **`1 × Classe`** | **20% a 26%** | **3 a 4** |
-| `2 × Classe` | 41% a 52% | 1 a 2 |
+| 10 | 3 | 8% |
+| 14 | 4 | 7% |
+| 20 | 5 | 6% |
+| 26 | 7 | 7% |
+| 30 | 7 | 6% |
 
-**O `1 ×` fica exatamente do tamanho do orçamento de lutas do dia.** A exaustão dispara da quarta luta, então dá para segurar a defesa em toda luta de um dia normal e terminar seco bem quando o cansaço chegaria de qualquer jeito. Tensão sem armadilha.
+**Ela acompanha o nível, e um número fixo não acompanharia.** *Uma vez por luta, erguer mais o PE de rodada cabe nas três lutas de graça do dia nas três aptidões, do nível 10 ao 30.*
 
-As outras duas quebram nas pontas: com `2 ×` você se defende uma vez e acabou o dia; com metade, o custo cai para 9% no nível 20 e **evapora**.
+**Paga mais quem cai mais, e é esse o ponto.** *Numa Expansão de refino 10, com Essência igual à do dono e erguendo de novo sempre que cai, a média gasta `13%` do dia na Cesta, `17%` na Pétala e `28%` no Simples. Com Essência `2` e sem treino, a Cesta sobe e cai quase quatro vezes, e chega a `32%`.* **Erguer de novo já custa uma ação, e o PE faz quem cai muito pensar antes de insistir.** *A conta está em `sistema/01-pesquisa/anti-dominios/conta-petala.py`.*
 
 ## 6.6. As duas barreiras — e o gate delas é um relógio
 
@@ -910,7 +928,7 @@ As outras duas quebram nas pontas: com `2 ×` você se defende uma vez e acabou 
 | 3 | `Projetar energia` | idem | **não** |
 | 4 | `Cesta Oca de Vime` | uma esfera de barreira | **não** |
 | 5 | `Domínio Simples` | um domínio próprio | **não** |
-| 6 | `Pétala` | *cobre o corpo de energia*, e é ela que devolve o golpe | **não** |
+| 6 | `Pétala` | *cobre o corpo de energia*, e é ela que rebate o golpe | **não** |
 | 7 | `Extensão de Domínio` | idem | **não** |
 | 8 | `Barreira Simples` | barreira | **não** |
 | 9 | `Cortina` | barreira | **não** |
@@ -1432,9 +1450,9 @@ E os dois **correm em sentidos opostos**: a vantagem é auto-regulada e dá pouc
 | 1 | **Cobrir-se de energia** | grátis no refino 1 | proteção `1/3 + 1`, e a RD da Reação `1,5 ×` |
 | 2 | **Canalizar energia** | grátis no refino 1 | **nada** — vive no orçamento do Fundamento |
 | 3 | **Projetar energia** | — | o dano, entre 8% e 12% da Rotina |
-| 4 | **Cesta Oca de Vime** | Classe Passiva 1, **sem gate** — *pede ser Reencarnado, ou treinado em `História`* | **nada** — e não custa PE: o preço são as mãos presas e a queda |
+| 4 | **Cesta Oca de Vime** | Classe Passiva 1, **sem gate** — *pede ser Reencarnado, ou treinado em `História`* | **nada** — de pé ela não custa PE: o preço são as mãos presas, a queda e erguer |
 | 5 | **Domínio Simples** | Classe Passiva 2 · refino 5, ou refino 4 com o voto do iniciante | o raio: `1,5 m + refino ÷ 2` |
-| 6 | **Pétala** | Classe Passiva 2 · refino 4, nível 10 | Acertos devolvidos: `refino ÷ 2` |
+| 6 | **Pétala** | Classe Passiva 2 · refino 4, nível 10 — *pede ser Descendente, ou ter aprendido com alguém de um clã* | **nada** — o que ela para sai da Essência contra a do dono |
 | 7 | **Extensão de Domínio** | Classe Passiva 3 · refino 7, nível 14 | a duração: `refino` rodadas |
 | 8 | **Barreira Simples** | sem gate | a vida do domo: `5 ×` |
 | 9 | **Cortina** | exige a `Barreira Simples` | a vida dela: `20 ×` |

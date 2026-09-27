@@ -28,9 +28,11 @@ CONTRATO DE INVARIANTES:
      escolhe por voce — ele nomeia quem cai em cada direcao, para a escolha ser
      feita com o numero na frente e nao de memoria.
   7. AS QUATRO ANTI-DOMINIO. A mais barata alcanca as tres rotas antes da Expansao
-     existir; o custo por rodada cabe no orcamento de lutas do dia sem evaporar; a
-     Petala nunca anula o Acerto inteiro; e o raio do Dominio Simples nunca passa
-     de um movimento, senao a defesa vira cerca.
+     existir; erguer (a maior Classe, toda vez, desde a v0.272) mais o PE de rodada
+     cabe no orcamento de lutas do dia; a Petala segue a Essencia em ordem, nunca
+     deixa passar mais do que nao ter ela, e o contra-ataque dela custa o que vale
+     pela regua da peca 5; e o raio do Dominio Simples nunca passa de um
+     movimento, senao a defesa vira cerca.
   9. O DEGRAU SEM BARREIRAS (v0.226) exclui o generalista DE PROPOSITO, e so ele;
      o raio de todos sai de 1,5 m x refino; nada disso mora aqui dentro.
   8. O CLASH NAO TEM NUMERO, E A CAIXA DO REFINO CONCORDA COM A SECAO. Ele entrou
@@ -566,7 +568,7 @@ ANTIDOMINIO = {}          # nome -> (Classe, formato, valor)
 for _m10 in re.finditer(r'^\| \*\*(.+?)\*\* \| (\d) · [^|]*\|[^|]*\|[^|]*\| ([^|]+?) \|$',
                         _P11_10, re.M):
     _c10 = _m10.group(3).replace('`', '').replace('*', '').strip()
-    _mf = re.match(r'(\d+) fixos$', _c10)
+    _mf = re.match(r'(\d+) fixos?$', _c10)
     _mx = re.match(r'([\d,]+) × maior Classe$', _c10)
     if _c10 == 'nenhum':
         ANTIDOMINIO[_m10.group(1)] = (int(_m10.group(2)), 'fixo', 0.0)
@@ -601,7 +603,7 @@ print(f"  {'aptidao':<22}{'Classe':<8}{'especialista':<15}{'meio a meio':<15}"
       f"{'generalista':<15}{'PE/rodada'}")
 for nome, (cl, fmt, val) in ANTIDOMINIO.items():
     v = {r: abre_classe(r, cl) for r in CURVA}
-    rot = ('nenhum' if val == 0 else f'{val:g} fixos') if fmt == 'fixo' else f'{val:g} x Classe'
+    rot = ('nenhum' if val == 0 else f'{val:g} fixo' + ('s' if val != 1 else '')) if fmt == 'fixo' else f'{val:g} x Classe'
     print(f'  {nome:<22}{cl:<8}' + ''.join(f'nv {v[r]:<12}' for r in CURVA) + rot)
 
 # --- a resposta chega antes da ameaca, para as TRES rotas
@@ -616,28 +618,38 @@ if pior_rota >= ameaca:
 else:
     print(f'  Folga de {ameaca - pior_rota} niveis, e ela vale para as tres rotas.')
 
-# --- o upkeep POR CLASSE cabe no orcamento de lutas do dia. Desde a v0.268 so a Petala
-# paga assim entre as de Classe 2 — o argumento e' o da peca 11 §6.5, "Por que o custo
-# por rodada e 1 × maior Classe", e o multiplicador e' o que a tabela publica para ela.
-_x10 = [n for n, (c, f, v) in ANTIDOMINIO.items() if f == 'x' and c == 2]
-MULT_PADRAO = ANTIDOMINIO[_x10[0]][2] if _x10 else 1.0
-print(f'\n  O custo por rodada da Classe 2 que paga por Classe ({", ".join(_x10)}: {MULT_PADRAO:g} x Classe),')
-print('  contra o dia de um Bastiao (o menor bolso):')
-print(f"    {'nv':<6}{'Classe':<8}{'PE/rod':<9}{'uma luta':<11}{'% do dia':<11}{'lutas que cabem'}")
-for nv in (10, 14, 20, 30):
-    cl = maior_classe(nv)
-    por = max(1, math.ceil(MULT_PADRAO * cl))
-    luta = por * RODADAS_POR_LUTA
-    dia = PE_POR_NIVEL_PISO * nv
-    cabem = int(dia // luta)
-    print(f'    {nv:<6}{cl:<8}{por:<9}{luta:<11.1f}{luta/dia:<11.0%}{cabem}')
-    if cabem < LUTAS_DE_GRACA:
-        erro(f'no nv{nv} o custo de {MULT_PADRAO:g} x Classe por rodada so cabe em '
-             f'{cabem} luta(s), e o dia tem {LUTAS_DE_GRACA} de graca — segurar a '
-             'defesa passou a custar o dia inteiro')
-    if cabem > 2 * LUTAS_DE_GRACA:
-        aviso(f'no nv{nv} o custo cabe em {cabem} lutas, mais que o dobro do dia — ele '
-              'esta perto de evaporar')
+# --- ERGUER custa a maior Classe, toda vez (v0.272, decisao do Mizuki: "deveria custar
+# Maior Classe em PE, pra todos eles"). Ate a v0.271 este bloco conferia o custo POR RODADA
+# da Petala, 1 x maior Classe, contra o orcamento de lutas do dia; na v0.272 a Classe mudou
+# de lugar e a Petala passou a 1 PE fixo. Quem ergue pagando e' LIDO da frase da peca 11
+# §6.5; o que se confere e' a regra aplicada (uma vez por luta, mais o PE de rodada) contra
+# o limite de design (as lutas de graca do dia, peca 10).
+_mer = re.search(r'^\*\*E erguer custa a sua maior Classe em PE, toda vez que ela sobe\*\* — (.+)$',
+                 _P11_10, re.M)
+ERGUER = [n for n in re.findall(r'`([^`]+)`', _mer.group(1).split('*')[0])] if _mer else []
+if not _mer:
+    erro('nao achei na peca 11 §6.5 a frase "E erguer custa a sua maior Classe em PE, toda vez '
+         'que ela sobe" — a regra de erguer sumiu ou mudou de forma, e este bloco parou de conferir')
+elif any(n not in ANTIDOMINIO for n in ERGUER) or not ERGUER:
+    erro(f'a frase de erguer da peca 11 nomeia {ERGUER}, e a tabela das quatro tem {list(ANTIDOMINIO)}')
+else:
+    print(f'\n  Erguer custa a maior Classe, toda vez: {", ".join(ERGUER)}. Uma vez por luta, mais o PE')
+    print('  de rodada numa luta de 3,5 rodadas, contra o dia de um Bastiao (o menor bolso):')
+    print(f"    {'nv':<6}{'Classe':<8}" + ''.join(f'{n[:18]:<20}' for n in ERGUER))
+    for nv in (6, 10, 14, 20, 26, 30):
+        cl = maior_classe(nv)
+        dia = PE_POR_NIVEL_PISO * nv
+        cel = []
+        for nome in ERGUER:
+            if abre_classe('especialista', ANTIDOMINIO[nome][0]) > nv:
+                cel.append('—'); continue
+            luta = cl + custo_rodada(nome, nv) * RODADAS_POR_LUTA
+            cabem = int(dia // luta)
+            cel.append(f'{luta:g} PE, {cabem} lutas')
+            if cabem < LUTAS_DE_GRACA:
+                erro(f'no nv{nv} erguer {nome} e segurar uma luta custa {luta:g} PE, e o dia do '
+                     f'Bastiao ({dia}) so tem {cabem} disso — menos que as {LUTAS_DE_GRACA} lutas de graca')
+        print(f'    {nv:<6}{cl:<8}' + ''.join(f'{c:<20}' for c in cel))
 
 # --- o custo FIXO (v0.268, o Dominio Simples). Decisao do Mizuki: o PE dele "so pra
 # impedir de ninguem abrir dominio simples fora de combate e ficar andando por ai com
@@ -654,7 +666,7 @@ for nome, (cl, fmt, val) in ANTIDOMINIO.items():
         erro(f'{nome} custa zero PE por rodada: ele fica de pe o dia inteiro fora de combate, '
              'que e o que o custo fixo existe para impedir')
         continue
-    print(f'\n  {nome}: {val:g} PE fixos por rodada. Fora de combate, o dia inteiro do Bastiao o segura por:')
+    print(f'\n  {nome}: {val:g} PE fixo' + ('s' if val != 1 else '') + ' por rodada. Fora de combate, o dia inteiro do Bastiao o segura por:')
     for nv in (10, 30):
         dia = PE_POR_NIVEL_PISO * nv
         print(f'    nv {nv}: {dia / val / RODADAS_POR_MINUTO:.1f} min · uma luta custa {val * RODADAS_POR_LUTA:g} PE, '
@@ -663,17 +675,86 @@ for nome, (cl, fmt, val) in ANTIDOMINIO.items():
             erro(f'no nv{nv} os {val:g} PE fixos de {nome} so cabem em '
                  f'{int(dia // (val * RODADAS_POR_LUTA))} luta(s) — o custo fixo deixou de ser barato em luta')
 
-# --- a Petala nao pode anular o Acerto inteiro
-print('\n  A Petala devolve refino/2 Acertos, e a completa solta 1 + duracao:')
-print(f"    {'refino':<9}{'Acertos que saem':<20}{'a Petala devolve':<20}{'sobra'}")
-for r in (4, 6, 8, 10):
-    saem = 1 + duracao(r)
-    devolve = max(1, r // 2)
-    print(f'    {r:<9}{saem:<20}{devolve:<20}{saem - devolve}')
-    if devolve >= saem:
-        erro(f'no refino {r} a Petala devolve {devolve} Acertos e a Expansao solta '
-             f'{saem} — ela anula o Acerto inteiro, e o terceiro espaco da completa '
-             'deixa de comprar alguma coisa')
+# --- a Petala (v0.272). Ate a v0.271 este bloco cobrava que ela nunca anulasse o Acerto
+# inteiro ("sempre sobra um", refino/2 por cena). A decisao do Mizuki trocou o contador pela
+# Essencia contra a do dono, e com Essencia maior ela anula; o que fica sao tres coisas.
+_ip = _P11_10.find('### Pétala · Classe Passiva 2')
+_sp = _P11_10[_ip:_P11_10.find('\n### ', _ip + 5)] if _ip >= 0 else ''
+_ml = re.search(r'^\| \*\*o dano do Acerto que toca, que você leva\*\* \| (.+?) \| (.+?) \| (.+?) \|$', _sp, re.M)
+_PAL = {'nada': 0.0, 'metade': 0.5, 'tudo': 1.0}
+def _fracao(c):
+    c = c.replace('`', '').strip()
+    if c in _PAL: return _PAL[c]
+    m = re.match(r'(\d+)/(\d+)$', c)
+    return int(m.group(1)) / int(m.group(2)) if m else None
+if not _ml:
+    erro('nao achei a tabela da Essencia na secao da Petala (peca 11 §6.5) — o dano que ela deixa '
+         'passar parou de ser conferido')
+else:
+    LEVA = [_fracao(x) for x in _ml.groups()]      # maior, igual, menor
+    print(f'\n  A Petala, pela Essencia contra a do dono (maior / igual / menor): voce leva '
+          + ' / '.join(f'{x:g}' if x is not None else '?' for x in LEVA) + ' do dano do Acerto que toca')
+    if None in LEVA:
+        erro(f'uma celula da tabela da Petala nao e fracao que eu leio: {_ml.groups()}')
+    elif not (LEVA[0] <= LEVA[1] <= LEVA[2] < 1):
+        erro(f'a Petala nao segue a Essencia em ordem: {LEVA} — Essencia maior tem de proteger '
+             'pelo menos o que a igual protege, e a menor tem de proteger alguma coisa')
+    # usar e erguer de novo nunca deixa passar mais do que nao ter ela. O pior caso e' cair em
+    # todo intervalo; com a queda NA HORA, cada queda soma um Acerto inteiro.
+    # lido so da CAIXA (as linhas `> `), que e' onde a regra mora: a frase aparece de novo na
+    # explicacao, e o arnes da v0.272 viu a primeira forma ficar verde com a caixa trocada.
+    _caixa = '\n'.join(l for l in _sp.split('\n') if l.startswith('> '))
+    _na_hora = not bool(re.search(r'Quando ela cai, a Expansão não te alcança na hora', _caixa))
+    if None not in LEVA:
+        _pior = [(r, 1 + duracao(r), x) for r in (4, 6, 8, 10) for x in LEVA
+                 if (1 + duracao(r)) * x + ((1 + duracao(r)) - 1 if _na_hora else 0) > (1 + duracao(r))]
+        if _pior:
+            erro(f'com a queda na hora, a Petala deixa passar mais do que nao ter ela no pior caso: '
+                 f'(refino, Acertos, fracao) = {_pior[:3]}')
+        else:
+            print('  Sem a queda na hora, usar e erguer de novo nunca deixa passar mais do que nao ter ela,')
+            print('  nem no pior caso, em refino 4 a 10.')
+# o contra-ataque custa o que vale, pela regua da peca 5 §4
+_mca = re.search(r'Cada contra-ataque custa `(\d+)` PE', _sp)
+_P05 = open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                         '05-caminho-e-combate-sem-feitico.md'), encoding='utf-8').read()
+_arma = {int(n): float(a + '.' + b) for n, _, a, b in
+         re.findall(r'^\| (\d+) \| (\d+) \| (\d+),(\d) \| [\d,]+× \|$', _P05, re.M)}
+_m1 = re.search(r'`\+1` no \*\*seu\*\* acerto \| permanente \| `(\d+),(\d+)`', _P05)
+_map = re.search(r'uma ação padrão a mais \| permanente \| `(\d+),(\d+)`', _P05)
+_mpe = re.search(r'recuperar `\+1` PE \| permanente \| `(\d+),(\d+)`', _P05)
+if not _mca:
+    erro('nao achei "Cada contra-ataque custa `N` PE" na secao da Petala')
+elif not (_arma and _m1 and _map and _mpe):
+    erro('nao achei a regua da peca 5 (a arma do §2, o acerto, a acao e o PE do §4) — o preco do '
+         'contra-ataque parou de ser conferido')
+else:
+    _base = 0.05 / (float(_m1.group(1) + '.' + _m1.group(2)) / float(_map.group(1) + '.' + _map.group(2)))
+    _vant = (1 - (1 - _base) ** 2) / _base
+    _cam = float(_mpe.group(1) + '.' + _mpe.group(2))
+    _por = {n: _arma[n] * _vant / _cam for n in sorted(_arma) if n >= 10}
+    _media = sum(_por.values()) / len(_por)
+    print(f'  O contra-ataque vale ' + ' · '.join(f'{v:.2f} PE no nv {n}' for n, v in _por.items())
+          + f' (media {_media:.2f}); a peca cobra {_mca.group(1)}.')
+    if int(_mca.group(1)) != round(_media):
+        erro(f'a Petala cobra {_mca.group(1)} PE por contra-ataque e a regua da peca 5 da '
+             f'{_media:.2f} em media do nivel 10 ao 30 — o preco saiu do que ele vale')
+
+# --- a copia do livro (cap. 45): a tabela da Essencia e o preco do contra-ataque moram em dois
+# documentos, e a peca 11 e' a dona (licao no 9). Uma copia sem comparacao diverge.
+_L45 = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '05-material', 'livro',
+                         'manual', '45-aptidoes-e-refino.md'), encoding='utf-8').read()
+_ll = re.search(r'^\| o dano do Acerto que toca, que você leva \| (.+?) \| (.+?) \| (.+?) \|$', _L45, re.M)
+_lca = re.search(r'Cada contra-ataque custa `(\d+)` PE', _L45)
+if not (_ll and _lca):
+    erro('nao achei no capitulo 45 do livro a tabela da Essencia da Petala ou o preco do contra-ataque '
+         '— a copia que a mesa le parou de ser comparada com a peca 11')
+elif _ml and _mca and ([_fracao(x) for x in _ll.groups()] != [_fracao(x) for x in _ml.groups()]
+                       or _lca.group(1) != _mca.group(1)):
+    erro(f'o livro diverge da peca 11 na Petala: tabela {_ll.groups()} contra {_ml.groups()}, '
+         f'contra-ataque {_lca.group(1)} contra {_mca.group(1)} PE — a peca e a dona')
+else:
+    print('  O capitulo 45 do livro copia a tabela da Essencia e o preco do contra-ataque igual a peca 11.')
 
 # --- o raio do Dominio Simples nao pode virar cerca
 MOVIMENTO = 9.0
@@ -706,8 +787,9 @@ if _ruim_escada:
 else:
     print('\n  O custo por rodada nao decresce com a Classe, em nenhum nivel do 10 ao 30: ' +
           ' · '.join(f'{n} {custo_rodada(n, 30):g}' for n in ANTIDOMINIO) + ' no nivel 30.')
-    print('  A Cesta Oca e a unica de graca em PE: desde a v0.267 o preco dela sao')
-    print('  as maos presas no simbolo e a queda pelos golpes em quem segura.')
+    print('  A Cesta Oca e a unica que nao custa PE de pe: desde a v0.267 o preco dela sao')
+    print('  as maos presas no simbolo e a queda pelos golpes em quem segura, e desde a v0.272')
+    print('  erguer custa a maior Classe, como nas outras duas.')
 
 
 # --------------------------------------------------------------------------

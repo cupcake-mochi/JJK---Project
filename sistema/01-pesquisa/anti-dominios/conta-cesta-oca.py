@@ -5,7 +5,7 @@ CONTRATO (o que precisa continuar verdadeiro, e o script confere antes de medir)
   R1. Acerto da Expansao = Inescapavel = (pontos - Media) d8, media 4,5 por dado  (partA, partD)
   R2. A Expansao solta refino//2 + 1 Acertos: ao abrir e no comeco de cada turno do dono,
       por metade do refino em rodadas                                             (livro cap. 40)
-  R3. Petala devolve refino//2 e sempre sobra um: 4->3/2, 6->4/3, 8->5/4, 10->6/5   (peca 11 §6.5)
+  R3. Petala devolvia refino//2 e sempre sobrava um: 4->3/2, 6->4/3, 8->5/4, 10->6/5 (peca 11 §6.5 ate a v0.271; registro)
   R4. Dominio Simples ate a v0.267: nv22 30 PE e 324 evitados; nv26 35 PE e 378  (rascunho 8.4)
   R5. Cesta ate a v0.266: 1/2/3 rodadas = 29%/57%/86% dos turnos numa luta de 3,5 (so aritmetica: a v0.267 tirou)
   R8. A tabela 'O que isso faz, medido' da Cesta, na peca 11 §6.5, sai desta conta (na v0.269 o
@@ -46,8 +46,10 @@ def nivel(n):
     return NV[k]
 
 # --- ancoras de texto da peca 11 --------------------------------------------------------
-for frase in ('Ela cai pelos golpes em você, e não pela Expansão', 'Soltar o símbolo não a desfaz',
-              'Sempre sobra um', '`refino ÷ 2` vezes por cena', 'ela cai se você perder a concentração'):
+# v0.272: a Petala foi reescrita (Essencia contra a do dono, queda pelos golpes, erguer pago), e as
+# tres ancoras dela sairam daqui; o R3 abaixo fica como registro do que ela publicava ate a v0.271.
+# A conta dela hoje e' o conta-petala.py.
+for frase in ('Ela cai pelos golpes em você, e não pela Expansão', 'Soltar o símbolo não a desfaz'):
     if frase not in p11: print('ANCORA PERDIDA na peca 11:', frase); sys.exit(1)
 
 print('REGRESSAO — o modelo reproduz o que ja esta publicado antes de medir coisa nova')
