@@ -533,7 +533,7 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 > **`1` PE por rodada = `5,14` da cota de dano por rodada, contado só nas rodadas em que a aptidão está ligada.**
 > **O teto é a cota daquela rodada** — ninguém gasta o que não tem. *Acima dele a aptidão não cabe naquela categoria, e o mestre sobe de categoria ou tira a aptidão.*
 >
-> **Erguer custa a maior Classe em PE, toda vez, desde a v0.272** — *na `Cesta Oca de Vime`, no `Domínio Simples` e na `Pétala`, pela peça 11 §6.5.* **No inimigo, erguer uma vez por luta entra na cota repartido pelas três rodadas dela:** `maior Classe × 5,14 ÷ 3` por rodada, somado ao PE de rodada.
+> **Erguer custa a maior Classe em PE, toda vez, desde a v0.272** — *na `Cesta Oca de Vime`, no `Domínio Simples`, na `Pétala` e, desde a v0.273, na `Extensão de Domínio`, pela peça 11 §6.5.* **No inimigo, erguer uma vez por luta entra na cota repartido pelas três rodadas dela:** `maior Classe × 5,14 ÷ 3` por rodada, somado ao PE de rodada.
 
 **O rebalanceamento que o Mizuki pediu está na razão entre as categorias.** *A mesma aptidão pesa quase quatro vezes mais numa `Ameaça` do que num `Desastre`: a cota da `Ameaça` é um quarto, e a do `Desastre` leva o fator da `Intervenção`.*
 
@@ -542,9 +542,9 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 | `Cesta Oca de Vime` · só erguer | `22%` | `6%` |
 | `Pétala` · erguer, e `1` PE fixo | `31%` | `8%` |
 | `Domínio Simples` · erguer, e `2` PE fixos | `40%` | `11%` |
-| `Extensão de Domínio` · `1,5 ×` maior Classe | `98%` | `27%` |
+| `Extensão de Domínio` · erguer, e `1,5 ×` maior Classe | `120%` | `33%` |
 
-**No nível 2 a `Extensão de Domínio` custa `193%` da cota de uma `Ameaça`, e por isso uma maldição daquele nível que a carregue tem de ser pelo menos um `Desastre`** — *lá ela cai para `49%`, e cabe.*
+**No nível 2 a `Extensão de Domínio` custa `236%` da cota de uma `Ameaça`, e por isso uma maldição daquele nível que a carregue tem de ser pelo menos um `Desastre`** — *lá ela cai para `60%`, e cabe.* **E desde a v0.273, com erguer, ela passa da cota de uma `Ameaça` também no nível 30** (`120%`): *em nível nenhum uma `Ameaça` carrega a Extensão.* *Até a v0.272, sem erguer, eram `193%` e `49%` no nível 2.*
 
 > **⚠ E contar por luta em vez de por rodada ligada estava errado, porque as quatro anti-domínio são pura resposta.** *Elas valem **zero** contra um grupo que não abre domínio.* **O jogador liga quando o domínio abre; o inimigo, cobrado por luta, pagaria pelas rodadas em que ela não fez nada.** *O `Domínio Simples` erguido e ligado uma rodada de três custa `15,4` de dano por rodada da luta, que são `7,0%` da cota de um `Desastre` e `28%` da de uma `Ameaça` — contra os `11%` e `40%` da tabela acima.* **O `Domínio Simples` saiu da conta por Classe na v0.268, e a `Pétala` na v0.272:** *ele custa `2` PE fixos por rodada, ela `1`, e as duas pagam erguer, pela peça 11 §6.5.*
 

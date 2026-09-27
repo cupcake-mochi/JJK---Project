@@ -11,7 +11,7 @@ Trabalhe em `/media/mizuki/HD Externo II/Claude/Claude 2/`, na pasta **principal
 **A conversa anterior tinha três partes, e a primeira fechou na v0.270.** *O que falta, nesta ordem, e cada parte fecha a sua versão antes da seguinte:*
 
 - ~~**A — os Caminhos novos no livro (v0.270).**~~ **FECHADA na v0.270**, *e as decisões que ela deixou fecharam na v0.271: a perícia fixa do Bastião é `Provocar`, a frase dos Limites voltou com o Socorrista como exceção, ninguém cura outra pessoa com Energia Reversa, e os renomes `Eco Amaldiçoado`, `Impulso Energético` e `Sobre Carregar Energia`, com o resto das colisões aprovado.*
-- **B — a rodada 3 dos anti-domínio, continuando.** ~~Primeiro a `Pétala`~~ *(FECHADA na v0.272)*, agora a `Extensão de Domínio`, e só no fim a comparação das quatro.
+- **B — a rodada 3 dos anti-domínio, continuando.** ~~Primeiro a `Pétala`~~ *(FECHADA na v0.272)*, ~~depois a `Extensão de Domínio`~~ *(FECHADA na v0.273)*, e agora a comparação das quatro.
 - **C — as Invocações, no ponto exato em que pararam:** o que acontece quando uma invocação chega a zero PV.
 
 **Ao começar cada parte, diga em uma linha o modelo e o esforço que você recomenda para ela.**
@@ -29,7 +29,7 @@ Trabalhe em `/media/mizuki/HD Externo II/Claude/Claude 2/`, na pasta **principal
 
 ## Passo 0 — onde está
 
-1. **O `main` deve estar no commit da v0.272** ou mais novo, com a entrega no *recorte da v0.272*. *Se ainda estiver na v0.271, o Mizuki não commitou a v0.272 — ela foi feita numa worktree e entregue por patch; pergunte a ele antes de refazer.* Rode `git log -3` e `git status` na pasta principal antes de qualquer coisa. *Se houver commit mais novo, leia a entrada dele no `CHANGELOG` antes de seguir.*
+1. **O `main` deve estar no commit da v0.273** ou mais novo, com a entrega no *recorte da v0.273*. *Se ainda estiver na v0.271 ou na v0.272, o Mizuki não subiu as duas — elas foram feitas numa worktree e entregues por patch, em sequência (os arquivos estão na pasta agentes-2026-09-26 do HD); pergunte a ele antes de refazer.* Rode `git log -3` e `git status` na pasta principal antes de qualquer coisa. *Se houver commit mais novo, leia a entrada dele no `CHANGELOG` antes de seguir.*
 2. **Rode a skill `rpg-da-guilda`.**
 3. **Leia `sistema/ESTADO-ATUAL.md` inteiro**, inclusive a fila no fim — ele trunca, e se vier aviso de leitura parcial, continue do offset —, e o `README.md`, que tem as **nove lições que custaram erro**.
 
@@ -51,28 +51,13 @@ Trabalhe em `/media/mizuki/HD Externo II/Claude/Claude 2/`, na pasta **principal
 
 **Ela rebate o que toca, e o dano do Acerto sai da Essência contra a do dono** (maior anula, igual leva `1/4`, menor leva metade); *o que a Expansão traz por contato e não é dano ela anula sempre; cai pelo teste do `Carregar` a cada golpe, de qualquer um, sem a queda na hora; com arma empunhada contra-ataca por `3` PE; `1` PE por rodada.* **E erguer a Cesta, o Simples ou a Pétala custa a maior Classe, toda vez.** *O porquê, as palavras dele e as leituras aplicadas estão na entrada da v0.272 do `CHANGELOG`; a pesquisa, no `O-petala-as-perguntas-da-rodada-3.md`; a conta, no `conta-petala.py`.*
 
-### Agora, a Extensão de Domínio
+### ~~A Extensão de Domínio~~ — FECHADA na v0.273
 
-> **As respostas do Mizuki já estão dadas (26/09/2026), e falta aplicar.** *A pesquisa que as sustenta é o `P-extensao-o-que-ficou-aberto.md`, na pasta do `H`.*
-> - **Erguer custa a maior Classe, toda vez**, como nas outras três — *"sim ela imagino que deveria ser a mais cara".*
-> - **Contra o acerto garantido de uma Expansão, ela anula sempre** (o Fanbook p. 143 diz que neutraliza).
-> - **Técnica acima do teto dela (`1/3 do refino + 1`):** *ele respondeu "coloca que reduz 1/4 do dano, que tal?" — **pergunte o que isso quer dizer antes de aplicar**: "você leva 3/4" ou "você leva 1/4". Na Pétala, "reduz a 1/4" foi lido como "leva 1/4". E ele perguntou se o Azul e o Vermelho do cap. 232 são diferentes: na fala do Sukuna não são — os dois "não neutraliza por inteiro".*
-> - **Ela não cai por golpe** — *"só sai cara mesmo".*
-> - **Levanta como as outras:** Reação quando uma Expansão abre, ou Ação Bônus no turno.
-> - **Nível 18** — *"por ter que ser algo difícil de pegar, nem o Kusakabe conseguia né. Tem outros requisitos né?"* **Pergunte se ela ganha requisito de história** (hoje só refino 7 e nível): *na obra o Higuruma aprende olhando (225) e o Jogo e o Hanami vêm da aliança com um usuário de maldição (84).* *Medido: o 18 atrasa o especialista em um marco, e em 16 das 2.187 ordens de marco a pessoa nunca chega a comprar.*
-> - **Os quatro consertos de texto** *(a frase "faz o seu ataque acertar independentemente", que é da wiki; o "anula os efeitos" do livro; a frase da incompleta; e a reversa, que fica permitida)* **estão com ele, e ele não vetou.**
-> - **Uma sobra:** *a peça 11 arredonda o `1,5 × maior Classe` para cima (`11` no nível 26) e o §6.5 da peça 26 usa `10,5`.*
+**Quem a usa fica imune a tudo o que a Expansão faz, em qualquer degrau**; *a técnica que encosta nela é anulada até `1/3 do refino + 1`, e acima disso você leva `3/4`; não cai por golpe; erguer paga a maior Classe; nível 18 com requisito de história; o Corpo Amaldiçoado não compra.* **Com ela de pé você não usa feitiço nem `Manejo`**; *a Técnica Marcial, a reversa e as aptidões continuam — as duas últimas "por enquanto".* *As palavras dele e as leituras estão na entrada da v0.273 do `CHANGELOG`; a pesquisa, no `P-extensao-o-que-ficou-aberto.md`; a conta, no `conta-extensao.py`.* **O que é leitura nossa não vai para o livro** *— "informação que o player n precisa".*
 
+### Agora, a comparação das quatro
 
-- **"Faz o seu ataque acertar independentemente da técnica do alvo"** é, quase palavra por palavra, a frase da wiki, não a do Fanbook. O Fanbook (p. 143) diz que ela **neutraliza** a técnica que toca e o acerto garantido da Expansão; **a obra nunca a pôs contra acerto de domínio.**
-- **Ela é a única das quatro em que a atenuação tem cena:** técnica de saída alta passa em parte (o Vermelho mitigado, 232). A Cesta e o Simples protegem inteiro até cair.
-- **"Nenhuma serve contra a incompleta"** vale para a Cesta e o Simples, pelo 171, e **não** para a Extensão. *E o capítulo 45 diz "algumas delas servem contra a Expansão incompleta", contra a peça — é esta rodada que fecha a frase.*
-- **É largada para usar a técnica** — isso a peça já tem. **Junto com a técnica reversa, a obra não amarra**, e é desenho.
-- **O livro diverge da peça, também da v0.176:** *a caixa da Extensão diz nível 18 e a tabela do mesmo capítulo diz 14; e ela "anula os efeitos" da Expansão e "neutraliza técnicas ao toque".*
-
-### Só no fim, a comparação das quatro
-
-**O Mizuki pediu para não comparar as quatro antes das três serem revistas.** Quando a Extensão fechar: a matriz lado a lado — quem cai por quê, quanto segura, o que custa, e se alguma ficou dominada. *Um ponto para olhar lá: o Simples barato em PE, cobrindo o raio e com as mãos livres, contra a Cesta de Classe 1 e sem PE.*
+**O Mizuki pediu para não comparar as quatro antes das três serem revistas.** Quando a Extensão fechar: a matriz lado a lado — quem cai por quê, quanto segura, o que custa, e se alguma ficou dominada. *Pontos para olhar lá: o Simples barato em PE, cobrindo o raio e com as mãos livres, contra a Cesta de Classe 1; a Pétala, que com a Essência maior que a do dono protege o mesmo que a Cesta; e a sobra do arredondamento da Extensão — a peça 11 arredonda o `1,5 × maior Classe` para cima (`11` PE no nível 26) e o §6.5 da peça 26 usa `10,5`. Os quatro scripts de conta estão na pasta do `H`.*
 
 ## Parte C — as Invocações, no ponto do zero PV
 
@@ -102,7 +87,7 @@ Trabalhe em `/media/mizuki/HD Externo II/Claude/Claude 2/`, na pasta **principal
 
 ## Onde o projeto está
 
-**v0.272.** Manual do Fundamento na **v7.38**. **Vinte e sete peças de regra e vinte e sete validadores** em `sistema/03-mecanica/`, mais o `conferir-repositorio.py`, os dois de `manual/matematica/` e o `conferir-voz.py` — **31 validadores**. O livro tem **18 capítulos**. A ficha (`Claude 3`, o `Ficha---RPG-JJK`) não mudou.
+**v0.273.** Manual do Fundamento na **v7.38**. **Vinte e sete peças de regra e vinte e sete validadores** em `sistema/03-mecanica/`, mais o `conferir-repositorio.py`, os dois de `manual/matematica/` e o `conferir-voz.py` — **31 validadores**. O livro tem **18 capítulos**. A ficha (`Claude 3`, o `Ficha---RPG-JJK`) não mudou.
 
 **A v0.264 e a v0.265 foram pesquisa** (`sistema/01-pesquisa/anti-dominios/`, arquivos `A` a `N`). **A v0.266 foi a rodada 1** (as frases da peça 11 que atribuíam à obra o que ela não faz). **A v0.267 foi a rodada 2, a Cesta**, e **a v0.268 e a v0.269, o começo da rodada 3, o Simples** — *a v0.269 trocou a regra de queda que a v0.268 tinha publicado.*
 
@@ -114,15 +99,17 @@ Trabalhe em `/media/mizuki/HD Externo II/Claude/Claude 2/`, na pasta **principal
 
 **Seis coisas a obra não amarra, e são desenho livre:** custo de energia, limite de tempo, Extensão junto com a técnica reversa, Cesta com encantamento próprio, quem usa a Pétala fora do Zenin e do Gojo, e como se aprende a Cesta.
 
-## As três anti-domínio que já fecharam
+## As quatro que já fecharam
 
-**Erguer qualquer uma das três custa a maior Classe em PE, toda vez (v0.272).**
+**Erguer qualquer uma das quatro custa a maior Classe em PE, toda vez (v0.272 e v0.273).**
 
 **A Cesta Oca (v0.267, a queda na v0.268, e o teste na v0.269):** as duas mãos presas no símbolo; levanta com Reação quando uma Expansão abre ou Ação Bônus no turno; cai pelos golpes em quem segura (**o teste do `Carregar`, Espírito contra a CD de quem feriu** — era Vigor até a v0.268 —, falhas até metade da Essência); **quando cai, a Expansão alcança na hora, e ela levanta de novo sem espera, gastando a Ação Bônus**; PE zero; requisito de história (Reencarnado, ou treinado em `História`).
 
 **O Domínio Simples (v0.268, e a queda na v0.269):** **aguenta `3` rodadas de Expansão, `4` se a Essência de quem segura for maior que a do dono e `2` se for menor**; cada Acerto que ele segura gasta uma, a começar pelo de abrir, e pede **o teste do `Carregar`** — a falha tira uma rodada, nunca abaixo de metade da Essência; golpe no dono não o derruba; quando cai, a Expansão alcança na hora quem ele protegia, e **erguer de novo na mesma Expansão custa a Ação Padrão e aguenta metade** (mínimo 1). **Lá dentro a Expansão não alcança ninguém**, e o que ela dá ao dono continua. **Os pés são o voto do iniciante** (refino 4; com refino 5 ele anda com você), o gate é refino 5 sem nível, e o PE são `2` fixos. **Contra refino 10 nenhum Simples segura até o fim.** *O teste não tem nome próprio; se o Mizuki quiser um, os candidatos livres na triagem foram Sustentar, Tenacidade, Manter, Sustentação e Firmar.*
 
 **A Pétala (v0.272):** rebate o que toca, energia contra energia; **o dano do Acerto que toca sai da Essência de quem a usa contra a do dono — maior, nada; igual, `1/4`; menor, metade** —, e o que a Expansão traz por contato e não é dano ela anula sempre; levanta com Reação quando uma Expansão abre ou Ação Bônus no turno, e erguer de novo custa a Ação Bônus; **cai pelo teste do `Carregar` a cada golpe, de qualquer um, com metade da Essência em falhas, e sem a queda na hora**; com arma corpo a corpo empunhada, contra-ataca quem a acertou com um ataque de oportunidade com vantagem, por `3` PE (o soco não conta); `1` PE por rodada; contra a incompleta não faz nada; requisito de história (Descendente, ou ter aprendido com alguém de um clã) e refino 4.
+
+**A Extensão de Domínio (v0.273):** imune a tudo o que a Expansão faz — o Acerto e o que ela faz com as pessoas e com o lugar —, completa, incompleta ou sem barreiras; a barreira continua prendendo e o que a Expansão dá ao dono continua com ele; a técnica que encosta é anulada até `1/3 do refino + 1`, e acima disso você leva `3/4`; levanta como as outras, `1,5 × maior Classe` por rodada, dura `refino` rodadas, e não cai por golpe; com ela de pé, nenhum feitiço nem `Manejo` (a Técnica Marcial, a reversa e as aptidões continuam); a sua Expansão já aberta continua, e abrir uma nova a derruba; refino 7 e nível 18, requisito de história (ter visto, estudado ou aprendido com alguém); o Corpo Amaldiçoado não compra.
 
 ## Lições de método
 

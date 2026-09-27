@@ -498,7 +498,7 @@ Você começa toda a ficha com um `Destranca` e um `Ajusta` ou `Desliga`.
 
 Técnica Marcial, no capítulo 10.
 
-Você tem energia amaldiçoada, então tem PE, aptidões e refino como qualquer feiticeiro tem — inclusive `Canalizar energia`, que faz o seu golpe simples ferir maldição. O que você não tem é técnica inata para escrever, e é a Técnica Marcial que ocupa esse lugar.
+Você tem energia amaldiçoada, então tem PE, aptidões e refino como qualquer feiticeiro tem — inclusive `Canalizar energia`, que faz o seu golpe simples ferir maldição. O que você não tem é técnica inata para escrever, e é a Técnica Marcial que ocupa esse lugar. Por isso a `Extensão de Domínio` você não compra: ela é um domínio vazio, e sem técnica inata você não tem domínio para esvaziar.
 
 ### Legados do Corpo Amaldiçoado
 

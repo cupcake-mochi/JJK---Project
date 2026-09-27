@@ -2387,7 +2387,7 @@ Você começa toda a ficha com um `Destranca` e um `Ajusta` ou `Desliga`.
 
 Técnica Marcial, no capítulo 10.
 
-Você tem energia amaldiçoada, então tem PE, aptidões e refino como qualquer feiticeiro tem — inclusive `Canalizar energia`, que faz o seu golpe simples ferir maldição. O que você não tem é técnica inata para escrever, e é a Técnica Marcial que ocupa esse lugar.
+Você tem energia amaldiçoada, então tem PE, aptidões e refino como qualquer feiticeiro tem — inclusive `Canalizar energia`, que faz o seu golpe simples ferir maldição. O que você não tem é técnica inata para escrever, e é a Técnica Marcial que ocupa esse lugar. Por isso a `Extensão de Domínio` você não compra: ela é um domínio vazio, e sem técnica inata você não tem domínio para esvaziar.
 
 ### Legados do Corpo Amaldiçoado
 
@@ -5694,7 +5694,7 @@ Traço na coluna de Classe Passiva quer dizer que a entrada não tem uma. Traço
 | Cesta Oca de Vime | ser Reencarnado, ou treinado em `História` | 1 | — |
 | Domínio Simples | ter visto um sendo usado, ou ter aprendido com alguém; refino 5, ou 4 com o voto | 2 | o raio |
 | Pétala | ser Descendente, ou ter aprendido com alguém de um clã; refino 4 e nível 10 | 2 | — |
-| Extensão de Domínio | refino 7 e nível 14 | 3 | a duração |
+| Extensão de Domínio | ter visto uma sendo usada, ou ter estudado, ou aprendido com alguém; refino 7 e nível 18; o Corpo Amaldiçoado não compra | 3 | a duração |
 | Barreira Simples | sem requisito | — | a vida do domo |
 | Cortina | exige a `Barreira Simples` | — | a vida dela |
 | Aptidão Própria | uma vez na ficha inteira | 1 ou 2 | conforme o que for escrito |
@@ -5813,7 +5813,7 @@ Uma Expansão de Domínio completa não erra. O Acerto dela simplesmente acontec
 
 > **As quatro protegem do Acerto de uma Expansão de Domínio. Algumas delas servem contra a Expansão incompleta.**
 >
-> Erguer a `Cesta Oca de Vime`, o `Domínio Simples` ou a `Pétala` custa a sua maior Classe em PE, toda vez que ela sobe.
+> Erguer qualquer uma das quatro custa a sua maior Classe em PE, toda vez que ela sobe.
 >
 > A incompleta não tem acerto garantido: o Acerto dela rola. Contra ela você se defende com Defesa e com Teste de Resistência, como se defende de tudo o mais no jogo.
 
@@ -5823,7 +5823,7 @@ Uma Expansão de Domínio completa não erra. O Acerto dela simplesmente acontec
 | **Cesta Oca de Vime** | só você, dentro de uma esfera | as duas mãos presas no símbolo, e ela cai com os golpes em você | nenhum |
 | **Domínio Simples** | um raio em volta de você, e quem estiver nele | aguenta poucas rodadas de Expansão, menos contra quem tem mais Essência | `2` |
 | **Pétala** | o seu corpo, e rebate o que toca | cede contra quem tem mais Essência, e cai com os golpes em você | `1` |
-| **Extensão de Domínio** *(não é anti-domínio: ela serve como uma)* | o seu corpo, e faz o seu ataque acertar | nenhum feitiço enquanto ela estiver de pé | `1,5 × maior Classe` |
+| **Extensão de Domínio** *(não é anti-domínio: ela serve como uma)* | você inteiro, contra tudo o que a Expansão faz | nenhum feitiço nem `Manejo` enquanto ela estiver de pé, e é a mais cara | `1,5 × maior Classe` |
 
 ### Cesta Oca de Vime
 
@@ -5886,10 +5886,15 @@ A Pétala só responde ao que toca: corte, chama, enxame, criatura, a mão de al
 
 ### Extensão de Domínio
 
-> **Extensão de Domínio** — você se envolve numa camada fina de domínio sem técnica dentro. Ela anula o Acerto de uma Expansão, anula os efeitos dela, e neutraliza técnicas ao toque. Dura `refino` rodadas e custa `1,5 × a sua maior Classe` de PE por rodada. Enquanto ela estiver de pé, você não pode usar a sua técnica amaldiçoada.
-> **E qualquer técnica que encostar nela é anulada até `1/3 do refino + 1`:** uma Classe Passiva, uma Regra Própria, ou um feitiço de Classe até esse número. Acima dele, passa.
+> **Extensão de Domínio** — você se envolve numa camada fina de domínio sem técnica dentro. Enquanto ela estiver de pé, nada do que uma Expansão faz te alcança: nem o Acerto dela, nem o que ela faz com as pessoas ou com o lugar, seja ela completa, incompleta ou sem barreiras. A barreira continua te prendendo, e o que a Expansão dá ao dono dela continua com ele.
 >
-> Requisito: refino 7 e nível 18. Classe Passiva 3. O refino escala a duração.
+> Ela levanta com uma Reação quando uma Expansão abre, ou com uma Ação Bônus no seu turno. Erguer custa a sua maior Classe em PE, toda vez que ela sobe; de pé, ela custa `1,5 × a sua maior Classe` de PE por rodada, e dura `refino` rodadas. Ela não cai por golpe.
+>
+> A técnica que encostar nela é anulada até `1/3 do refino + 1`: uma Classe Passiva, uma Regra Própria ou um feitiço de Classe até esse número. Acima dele, ela reduz o dano em um quarto, e você leva `3/4`.
+>
+> Enquanto ela estiver de pé, você não usa feitiço nem `Manejo`. A Técnica Marcial e as aptidões continuam. Se a sua Expansão já estava aberta, ela continua; abrir uma nova derruba a Extensão.
+>
+> Requisito: ter visto uma sendo usada, ou ter estudado, ou aprendido com alguém; refino 7 e nível 18. O Corpo Amaldiçoado não compra. Classe Passiva 3. O refino escala a duração e o teto.
 
 ## Aptidões de barreira
 
@@ -7442,4 +7447,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: 1bc36b54bdb2026e08818fed24b1fac91ba939f1 -->
+<!-- fonte: f1b21f012df05805e44e660380acf0cf4ad94cae -->

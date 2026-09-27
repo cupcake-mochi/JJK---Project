@@ -1168,7 +1168,11 @@ else:
     #   `sistema/01-pesquisa/anti-dominios/conta-petala.py` na peca 11 §6.5: na
     #   Petala reescrita e em "Por que erguer custa a maior Classe", dizendo de onde
     #   saem os numeros. Mesma familia do conta-dominio-simples.py da v0.268.
-    BRANCAS_AQUI, FOLGA = 196, 5
+    # v0.273: 196 -> 197, MEDIDO do mesmo jeito (a entrega da v0.271 contra uma copia
+    #   com os patches da v0.272 e da v0.273). UMA: o
+    #   `sistema/01-pesquisa/anti-dominios/conta-extensao.py` na Extensao reescrita da
+    #   peca 11 §6.5. Mesma familia.
+    BRANCAS_AQUI, FOLGA = 197, 5
     PISO_CITACOES, TETO_BRANCOS = 120, BRANCAS_AQUI + FOLGA
     if vistos_e < PISO_CITACOES:
         erro(f'7.2: achei so {vistos_e} citacoes na entrega, e o piso e {PISO_CITACOES} — '

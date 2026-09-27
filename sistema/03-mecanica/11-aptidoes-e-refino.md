@@ -272,13 +272,13 @@ Doze níveis entre o especialista e o generalista, que é o tamanho que *"quase 
 
 ### O requisito de história, que não é gate — v0.268
 
-**Três aptidões pedem uma coisa que não está em nenhum dos seis formatos:** *a `Cesta Oca de Vime` pede ser Reencarnado, ou ser treinado em `História`; o `Domínio Simples` pede ter visto um sendo usado, ou ter aprendido com alguém; e a `Pétala`, desde a v0.272, pede ser Descendente, ou ter aprendido com alguém de um clã.* **Não é gate:** *nenhum dos três trava nível, refino ou marco de quem teria acesso pela conta — ele diz de onde a técnica veio.* **Os três vieram do livro, da revisão do Mizuki na v0.176, e ficaram por decisão dele:** *"E os requisitos ficam" (v0.267), "é algo definido de forma narrativa, não tem problema e segue a obra" (v0.268), e "o mesmo requisito narrativo de antes" (v0.272).*
+**Quatro aptidões pedem uma coisa que não está em nenhum dos seis formatos:** *a `Cesta Oca de Vime` pede ser Reencarnado, ou ser treinado em `História`; o `Domínio Simples` pede ter visto um sendo usado, ou ter aprendido com alguém; a `Pétala`, desde a v0.272, pede ser Descendente, ou ter aprendido com alguém de um clã; e a `Extensão de Domínio`, desde a v0.273, pede ter visto uma sendo usada, ou ter estudado, ou aprendido com alguém.* **Não é gate:** *nenhum dos quatro trava nível, refino ou marco de quem teria acesso pela conta — ele diz de onde a técnica veio.* **Os três primeiros vieram do livro, da revisão do Mizuki na v0.176, e o da Extensão é dele na v0.273 ("ver alguém usando ou estudando — alguém ensinando serve também"):** *"E os requisitos ficam" (v0.267), "é algo definido de forma narrativa, não tem problema e segue a obra" (v0.268), e "o mesmo requisito narrativo de antes" (v0.272).*
 
 > **Para ele passar no filtro de mesa, a ficha anota a resposta:** *de quem você aprendeu, ou onde viu.* **O mestre que pega a ficha depois lê o que está escrito, e não decide de novo.** *O da Cesta já mora na ficha — a Origem e a perícia estão nela.*
 
 ### E o exemplar único do gate de Origem
 
-**O primeiro e único exemplar hoje é o `Remoto` da peça 15 §3.7**, na faixa *fora da cena*: alcance de país exige **Restrição Celestial pelo ramo do corpo limitado** e uma técnica voltada a isso, que é o Ultimate Mechamaru sem regra especial nenhuma. **O validador daquela peça confere que ele continua sendo o único** — um segundo gate no catálogo quer dizer que a régua de degrau parou de precificar sozinha.
+**São dois exemplares hoje.** *O segundo entrou na v0.273: o Corpo Amaldiçoado não compra a `Extensão de Domínio`, porque nunca tem técnica inata e a Extensão é um domínio vazio — o §6.5 tem a conta que o destampou.* **O primeiro é o `Remoto` da peça 15 §3.7**, na faixa *fora da cena*: alcance de país exige **Restrição Celestial pelo ramo do corpo limitado** e uma técnica voltada a isso, que é o Ultimate Mechamaru sem regra especial nenhuma. **O validador daquela peça confere que ele continua sendo o único** — um segundo gate no catálogo quer dizer que a régua de degrau parou de precificar sozinha.
 
 ## 6. O catálogo — as que têm número
 
@@ -580,19 +580,19 @@ E "mais fácil depois do primeiro" sem teto é a espiral da exaustão com o sina
 
 > ***A `Extensão de Domínio` saiu da categoria, e o motivo é de leitura e não de número.*** *Levantado por um colega do Mizuki:* **ela não É uma anti-domínio — ela SERVE como uma.** *As três abaixo existem para uma coisa só: anular o Acerto garantido. A `Extensão de Domínio` é uma camada de domínio próprio que faz várias coisas, e anular o Acerto é uma delas.*
 >
-> **Nada de mecânico se moveu com isso, e é por isso que a troca é barata:** *ela continua anulando o Acerto de uma Expansão completa, continua sendo Classe Passiva 3 com gate de refino 7 e nível 14, e continua custando `1,5 × maior Classe` de PE por rodada.* **O que muda é a etiqueta e a contagem.**
+> **Nada de mecânico se moveu com isso, e é por isso que a troca é barata:** *ela continua anulando o Acerto de uma Expansão completa, continua sendo Classe Passiva 3 com gate de refino 7 e nível 14, e continua custando `1,5 × maior Classe` de PE por rodada.* **O que muda é a etiqueta e a contagem.** *Desde a v0.273 o gate dela é nível 18, e ela deixa você imune a tudo o que a Expansão faz — ver a seção dela.*
 >
 > ***E a etiqueta importa por um motivo que a §7 já escrevia:*** *"os anti-domínio serem aptidões baratas é o que torna o acerto garantido sobrevivível".* **A `Extensão de Domínio` nunca foi a barata** — ela é a única Classe Passiva 3 das quatro, e a resposta que chega cedo é a `Cesta Oca de Vime`, de Classe Passiva 1 e sem gate. *Contá-la junto inflava a lista com a entrada que menos responde à pergunta que a lista existe para responder.*
 
 ### A regra que vale para as quatro, e que precisa estar escrita
 
 > **Elas anulam o Acerto de uma Expansão. Nenhuma delas serve contra a Expansão incompleta.**
-> *Vale igual para a `Extensão de Domínio`, que anula o mesmo Acerto sem ser da categoria.*
+> *A `Extensão de Domínio` vai além desde a v0.273: ela deixa você imune a tudo o que a Expansão faz, em qualquer degrau — completa, incompleta ou sem barreiras.*
 > *Desde a v0.272 a `Pétala` anula ou só reduz, pela Essência contra a do dono — a seção dela tem a tabela.*
 
 Não é escolha nossa: é como a obra funciona, e tem cena provando. O Reggie ativou Cesta Oca de Vime dentro do Jardim de Sombras Quimérico do Megumi — que é incompleto — e não adiantou nada. Os shikigami tomaram forma e bateram nele como qualquer coisa bate em qualquer um.
 
-**O motivo é mecânico e limpo.** Estas quatro anulam *acerto garantido*. A incompleta não tem acerto garantido: o Acerto dela **rola**. Contra ela você se defende com Defesa e com Teste de Resistência, como se defende de tudo o mais no jogo. Não existe buraco aqui — existe uma peça respondendo ao que ela responde, e nada além.
+**O motivo é mecânico e limpo.** As três anti-domínio anulam *acerto garantido*. A incompleta não tem acerto garantido: o Acerto dela **rola**. Contra ela você se defende com Defesa e com Teste de Resistência, como se defende de tudo o mais no jogo. Não existe buraco aqui — existe uma peça respondendo ao que ela responde, e nada além.
 
 E é por isso que o terceiro espaço da Expansão compra alguma coisa de verdade: ele troca um Acerto que dá para bloquear com Defesa por um que só estas quatro alcançam.
 
@@ -607,7 +607,7 @@ O eixo que separa as quatro não é força — é **quanta liberdade você tem e
 | **Cesta Oca de Vime** | só você, dentro de uma esfera | **as duas mãos presas** no símbolo, e ela **cai** com os golpes em você |
 | **Domínio Simples** | um raio em volta de você, e quem estiver nele | **aguenta poucas rodadas** de Expansão, menos contra quem tem mais Essência; **o iniciante fica preso ao ponto** |
 | **Pétala** | o seu corpo, e **rebate o que toca** | **cede contra quem tem mais Essência**, e **cai** com os golpes em você |
-| **Extensão de Domínio** | o seu corpo, e faz o **seu** ataque acertar | **nenhum feitiço enquanto ela estiver de pé** |
+| **Extensão de Domínio** | **você inteiro**, contra tudo o que a Expansão faz, e o que encosta nela | **nenhum feitiço nem `Manejo` enquanto ela estiver de pé**, e é a mais cara das quatro |
 
 ### As quatro, com número
 
@@ -616,13 +616,13 @@ O eixo que separa as quatro não é força — é **quanta liberdade você tem e
 | **Cesta Oca de Vime** | 1 · sem gate | nv 6, nas três rotas | **nada** | **nenhum** |
 | **Domínio Simples** | 2 · refino 5, ou 4 com o voto | nv 10 · 14 · 18, ou 10 · 10 · 14 com o voto | o raio: `1,5 m + refino ÷ 2` | `2` fixos |
 | **Pétala** | 2 · refino 4, nível 10 | nv 10 · 10 · 14 | **nada** | `1` fixo |
-| **Extensão de Domínio** | 3 · refino 7, nível 14 | nv 14 · 18 · 26 | a duração: `refino` rodadas | `1,5 × maior Classe` |
+| **Extensão de Domínio** | 3 · refino 7, nível 18 | nv 18 · 18 · 26 | a duração: `refino` rodadas | `1,5 × maior Classe` |
 
 > ***A `Extensão de Domínio` está nas duas tabelas e NÃO é da categoria*** — *ela serve como uma, e fica aqui porque é assim que se compara.* **A linha dela não leva marca de propósito:** *o `conferir-ferramenta.py` lê o gate do grau mais alto desta tabela, e marca dentro da célula quebra o extrator dele.*
 
 **Todas custam um marco, como qualquer aptidão. Nenhuma custa espaço de feitiço.**
 
-**E erguer custa a sua maior Classe em PE, toda vez que ela sobe** — na `Cesta Oca de Vime`, no `Domínio Simples` e na `Pétala`. *Desde a v0.272, por decisão do Mizuki: "deveria custar Maior Classe em PE, pra todos eles". A `Extensão de Domínio` entra na rodada dela, a seguinte. O porquê está em "Por que erguer custa a maior Classe", no fim desta seção.*
+**E erguer custa a sua maior Classe em PE, toda vez que ela sobe** — na `Cesta Oca de Vime`, no `Domínio Simples`, na `Pétala` e na `Extensão de Domínio`. *Desde a v0.272, por decisão do Mizuki: "deveria custar Maior Classe em PE, pra todos eles"; a Extensão entrou na v0.273. O porquê está em "Por que erguer custa a maior Classe", no fim desta seção.*
 
 ### Cesta Oca de Vime · Classe Passiva 1, sem gate
 
@@ -741,10 +741,17 @@ O da Miwa tem 2,21 m na obra (cap. 40) — o raio de uma iniciante com voto —,
 
 Ela não faz domínio nenhum: é a energia no corpo que reage. Segredo dos três clãs — Gojo, Zenin e Kamo —, e o Gojo aprendeu criança e parou de usar depois de pegar o domínio (cap. 227). *Na obra, quem usa são dois Zenin e um Gojo; Kamo nenhum.*
 
-### Extensão de Domínio · Classe Passiva 3, refino 7 e nível 14
+### Extensão de Domínio · Classe Passiva 3, refino 7 e nível 18
 
-> **Você se envolve numa camada fina de domínio sem técnica dentro. Ela anula o Acerto de uma Expansão, e faz o seu ataque acertar independentemente da técnica do alvo. Dura `refino` rodadas, custa `1,5 × a sua maior Classe` de PE por rodada — e enquanto ela estiver de pé, você não usa a sua técnica.**
-> **E o que encostar nela é anulado até `1/3 do refino + 1`:** *uma `Classe Passiva`, uma `Regra Própria` ou um feitiço de `Classe` até esse número. Acima dele, passa.*
+> **Você se envolve numa camada fina de domínio sem técnica dentro. Enquanto ela estiver de pé, nada do que uma Expansão faz te alcança — nem o Acerto dela, nem o que ela faz com as pessoas ou com o lugar —, seja ela completa, incompleta ou sem barreiras. A barreira continua te prendendo, e o que a Expansão dá ao dono continua com ele.**
+> **Levanta com uma Reação quando uma Expansão abre, ou com uma Ação Bônus no seu turno. Erguer custa a sua maior Classe em PE, toda vez que ela sobe; de pé, ela custa `1,5 × a sua maior Classe` de PE por rodada, e dura `refino` rodadas. Ela não cai por golpe.**
+> **E o que encostar nela é anulado até `1/3 do refino + 1`:** *uma `Classe Passiva`, uma `Regra Própria` ou um feitiço de `Classe` até esse número. Acima dele, ela reduz o dano em um quarto, e você leva `3/4`.*
+> **Enquanto ela estiver de pé, você não usa feitiço nem `Manejo`.** *A Técnica Marcial e as aptidões continuam. Se a sua Expansão já estava aberta, ela continua; abrir uma nova derruba a Extensão.*
+> *Requisito: ter visto uma sendo usada, ou ter estudado, ou aprendido com alguém. O Corpo Amaldiçoado não compra.*
+
+> ***Reescrita na v0.273, com as decisões do Mizuki na rodada 3 da revisão dos anti-domínio.*** *Até a v0.272 ela anulava só o Acerto, "fazia o seu ataque acertar independentemente da técnica do alvo" — a frase é da wiki inglesa, e não do Fanbook —, deixava passar inteira a técnica acima do teto, e pedia nível 14.* **Agora ela deixa você imune a tudo o que a Expansão faz, e cobra por isso:** *"uma pessoa que utilizar uma extensão de domínio é imune a todos os efeitos da expansão. Ela sai cara por isso."* *A conta está em `sistema/01-pesquisa/anti-dominios/conta-extensao.py`, e ela reproduz os números publicados antes de medir.*
+
+**Imune a tudo o que a Expansão faz, e não só ao Acerto.** *O Fanbook (p. 143) diz que ela neutraliza o acerto garantido; um resumo japonês lê que ela neutraliza "o efeito da técnica em si", e o Simples, só o acerto. A obra não tem cena dela contra o Efeito de um domínio inimigo, nem contra um incompleto: a regra é do Mizuki — "como ele é feito pra anular energia, meio que ele funciona em tudo que canaliza energia".* **O que ela não toca é o que nenhuma das quatro toca:** *a barreira, que continua prendendo, e o que a Expansão dá ao dono — o desconto nos feitiços e o que o Efeito dele permite fazer. A técnica dele que te ataca lá dentro, rolando ataque e Teste de Resistência, passa pela regra do teto, abaixo.*
 
 > ***A segunda linha era "anula qualquer técnica que encostar nela", sem teto, e ela caiu na v0.165.*** *Levantado por um colega do Mizuki, e a decisão é dele:* **"anular qualquer feitiço era bem negativo — anula Classe Passiva, regra e Classe, contanto que seja `1/3` do refino, mas não tudo."**
 >
@@ -760,18 +767,28 @@ Ela não faz domínio nenhum: é a energia no corpo que reage. Segredo dos três
 
 É a única das quatro que também é ataque, e a única Classe Passiva 3. É o que o Jogo e o Hanami usaram contra o Ilimitado do Gojo.
 
-**O preço dela se equilibra sozinho, e é bonito de ver:** ela dura o dobro do que uma Expansão dura, mas o PE é o teto de verdade.
+**Acima do teto, ela reduz um quarto, e você leva `3/4`.** *É o cap. 232: o Sukuna "segurou o dano no mínimo", e contra o Azul reforçado e o Vermelho ela "não neutraliza por inteiro" — a fala não separa os dois, e não dá número.* **Medido contra o chefe da tabela do manual, mesmo batendo só nela com técnica acima do teto, a redução vale no máximo o PE que ela custa por rodada:** *é um extra pequeno, e o que ela tem de forte é a imunidade e o que ela anula abaixo do teto.*
 
-| nv | refino | duração | PE/rodada | segurar até o fim | do dia de um Bastião |
+**Você não usa feitiço nem `Manejo` — e a Técnica Marcial continua.** *O Fanbook diz que a técnica inata não sai e que o ataque fica no físico; a Técnica Marcial é o Fundamento com o corpo no lugar da energia, e é o físico. Hoje a frase não alcança ninguém: as duas rotas da Técnica Marcial, o Corpo Amaldiçoado e a Restrição Celestial sem energia, não compram a Extensão.* **O `Manejo` do Sem Técnica é feitiço com outro nome, e para — e o motivo é de preço:** *"meu problema q não poderia ser usado manejo também, por balanceamento, não era técnica marcial o problema". Com o `Manejo` de pé, o Sem Técnica ergueria a Extensão sem perder nada, enquanto quem conjura perde o feitiço.* **Ele está escrito na caixa, e não só implícito:** *o capítulo 43 do livro manda ler `Manejo` onde os capítulos 8 e 9 escrevem feitiço, e o capítulo 45 não está entre eles.* **A reversa e as aptidões ficam liberadas**, *por decisão do Mizuki, "por enquanto": a obra não tem cena delas junto com a Extensão, e só proíbe a técnica inata.*
+
+**Se a sua Expansão já estava aberta, ela continua.** *É o cap. 227: o Sukuna ergue a Extensão com o domínio de pé, e o Gojo explica — o que não sai é a técnica gravada no corpo, e a que já está no domínio "é outra história".* **Abrir uma Expansão nova derruba a Extensão.**
+
+**O preço dela se equilibra sozinho:** ela dura o dobro do que uma Expansão dura, mas o PE é o teto de verdade. *Desde a v0.273 a tabela conta erguer uma vez.*
+
+| nv | refino | duração | PE/rodada | erguer e segurar até o fim | do dia de um Bastião |
 |---|---|---|---|---|---|
-| 14 | 7 | 7 | 6 | 42 | 75% |
-| 20 | 9 | 9 | 8 | 72 | 90% |
-| 26 | 10 | 10 | 11 | 110 | **106%** |
-| 30 | 10 | 10 | 11 | 110 | 92% |
+| 14 | 7 | 7 | 6 | 46 | 82% |
+| 20 | 9 | 9 | 8 | 77 | 96% |
+| 26 | 10 | 10 | 11 | 117 | **112%** |
+| 30 | 10 | 10 | 11 | 117 | 98% |
 
-**No nível 26 um Bastião não consegue segurar até o fim** — ele fica sem PE na nona rodada de dez. A duração é teto, não promessa, e quem tem pouco PE descobre isso antes de quem tem muito. Numa luta normal de 3,5 rodadas ela custa uns 32% do dia, que é o preço de verdade.
+**No nível 26 um Bastião não consegue segurar até o fim** — ele fica sem PE na nona rodada de dez. A duração é teto, não promessa, e quem tem pouco PE descobre isso antes de quem tem muito. Numa luta normal de 3,5 rodadas, erguendo uma vez, ela custa de `38%` a `45%` do dia, que é o preço de verdade.
 
 E some tudo isso com *"você não lança nada enquanto ela está de pé"*: quem tem feitiço bom paga o dobro por ela.
+
+**O Corpo Amaldiçoado não compra, e o motivo é a ficção.** *Palavras do Mizuki: "o corpo amaldiçoado não tem domínio inato, diferente de um sem técnica que até tem… é impossível de se ter uma técnica inata". A caixa do cap. 171 descreve a Extensão como um domínio capaz de carregar acerto garantido, deixado vazio; quem nunca tem técnica inata não tem domínio para esvaziar.* *A conta mostra o que aconteceria sem o gate: a arma dele é a Técnica Marcial, que continua, e ele ergueria a Extensão sem perder nada, enquanto quem conjura perde de `8,6` a `16,5` PE por rodada em dano, fora o que ela custa.* **É o segundo gate de Origem do sistema, e o §5 tem os dois.** *A Restrição Celestial sem energia também não compra, e não precisa de gate: ela não tem aptidão nem refino (peça 9 §5). O ramo corpo pela técnica tem técnica inata, e compra como qualquer um.* *O Sem Técnica compra: ele perde o `Manejo`, como qualquer um que conjura, e o Kusakabe, que é Sem Técnica, diz que não consegue porque é difícil — 「なめんな できるわけねーだろ」 (cap. 225) —, e não porque o corpo não deixa.*
+
+**O gate não é o da escada.** *A Classe Passiva 3 pede refino 7 e nível 14 (§5); a Extensão pede nível 18, por decisão do Mizuki — "por ter que ser algo difícil de pegar, nem o Kusakabe conseguia". Medido, em `81` das `2.187` ordens de marco a compra atrasa, e em `16` delas a pessoa nunca chega a comprar.* **O requisito de história é o do §5:** *ter visto uma sendo usada, ou ter estudado, ou aprendido com alguém — "alguém ensinando serve também". É o Higuruma, que entendeu olhando o Gojo contra o Sukuna (cap. 225).*
 
 ### Por que erguer custa a maior Classe
 
@@ -787,7 +804,7 @@ E some tudo isso com *"você não lança nada enquanto ela está de pé"*: quem 
 | 26 | 7 | 7% |
 | 30 | 7 | 6% |
 
-**Ela acompanha o nível, e um número fixo não acompanharia.** *Uma vez por luta, erguer mais o PE de rodada cabe nas três lutas de graça do dia nas três aptidões, do nível 10 ao 30.*
+**Ela acompanha o nível, e um número fixo não acompanharia.** *Uma vez por luta, erguer mais o PE de rodada cabe nas três lutas de graça do dia nas três de Classe Passiva 1 e 2, do nível 10 ao 30. A Extensão é a cara de propósito, e a tabela da seção dela mede o dia.*
 
 **Paga mais quem cai mais, e é esse o ponto.** *Numa Expansão de refino 10, com Essência igual à do dono e erguendo de novo sempre que cai, a média gasta `13%` do dia na Cesta, `17%` na Pétala e `28%` no Simples. Com Essência `2` e sem treino, a Cesta sobe e cai quase quatro vezes, e chega a `32%`.* **Erguer de novo já custa uma ação, e o PE faz quem cai muito pensar antes de insistir.** *A conta está em `sistema/01-pesquisa/anti-dominios/conta-petala.py`.*
 
@@ -1453,7 +1470,7 @@ E os dois **correm em sentidos opostos**: a vantagem é auto-regulada e dá pouc
 | 4 | **Cesta Oca de Vime** | Classe Passiva 1, **sem gate** — *pede ser Reencarnado, ou treinado em `História`* | **nada** — de pé ela não custa PE: o preço são as mãos presas, a queda e erguer |
 | 5 | **Domínio Simples** | Classe Passiva 2 · refino 5, ou refino 4 com o voto do iniciante | o raio: `1,5 m + refino ÷ 2` |
 | 6 | **Pétala** | Classe Passiva 2 · refino 4, nível 10 — *pede ser Descendente, ou ter aprendido com alguém de um clã* | **nada** — o que ela para sai da Essência contra a do dono |
-| 7 | **Extensão de Domínio** | Classe Passiva 3 · refino 7, nível 14 | a duração: `refino` rodadas |
+| 7 | **Extensão de Domínio** | Classe Passiva 3 · refino 7, nível 18 — *pede ter visto uma sendo usada, ou ter estudado, ou aprendido com alguém; o Corpo Amaldiçoado não compra* | a duração: `refino` rodadas |
 | 8 | **Barreira Simples** | sem gate | a vida do domo: `5 ×` |
 | 9 | **Cortina** | exige a `Barreira Simples` | a vida dela: `20 ×` |
 | 10 | **Energia Reversa** | Classe Passiva 3 · refino 7, nível 14 | **nada** — o teto é `maior Classe`, e `1d8` de cura por PE |

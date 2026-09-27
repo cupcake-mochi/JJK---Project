@@ -8,6 +8,62 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.273] — 26/09/2026
+
+**A Extensão de Domínio foi reescrita, e a rodada 3 dos anti-domínio fechou as três que faltavam.** *Quem a usa fica imune a tudo o que a Expansão faz — o Acerto e o que ela faz com as pessoas e com o lugar, em qualquer degrau —; a técnica que encosta nela é anulada até `1/3 do refino + 1`, e acima disso você leva `3/4`; ela não cai por golpe; erguer custa a maior Classe, toda vez; o gate foi para o nível 18, com requisito de história; e o Corpo Amaldiçoado não compra.* **Ela foi feita na mesma worktree que a v0.272, e as duas sobem em sequência.**
+
+### 1 · As respostas, nas palavras dele
+
+- **Erguer — "sim ela imagino que deveria ser a mais cara"**, *toda vez, como nas outras três.*
+- **O que ela para — "uma pessoa que utilizar uma extensão de domínio é imune a todos os efeitos da expansão. Ela sai cara por isso"**, *e em qualquer degrau:* **"como ele é feito pra anular energia, meio q ele funciona em tudo que canaliza energia praticamente, como no caso dos feitiços. Então a pessoa fica imune a efeitos de expansão incompleta e sem barreiras também".**
+- **Acima do teto — "seria reduzindo 1/4 do dano tomado, sobrando 3/4"**, *e "sobre o 1/4, é pra pétala": a resposta de uma volta antes, "você leva 1/4", era da Pétala, e a v0.272 já estava certa.*
+- **A queda — "Não, ela não cai por golpe. Só sai cara mesmo".** **Levantar — "Igual"** *às outras.*
+- **O gate — "18 por ter que ser algo difícil de pegar, nem o kusakabe conseguia"**, *e o requisito:* **"ver alguém usando ou estudando (alguém ensinando serve também)".**
+- **O preço de estar de pé:** *nenhum feitiço nem `Manejo` —* **"meu problema q não poderia ser usado manejo também, por balanceamento, não era técnica marcial o problema"** *—, e o `Manejo` está escrito na caixa com todas as letras, porque o capítulo 43 do livro só manda ler `Manejo` nos capítulos 8 e 9; a Técnica Marcial continua,* **"não faz sentido bloquear técnica marcial"**; *a reversa e as aptidões,* **"não precisa bloquear… por enquanto"**, *e o livro diz que elas continuam.* **A sua Expansão já aberta continua**, *e abrir uma nova derruba a Extensão — é o Sukuna no cap. 227.*
+- **O Corpo Amaldiçoado — "impedir do corpo amaldiçoado conseguir usar extensão. Porque o corpo amaldiçoado não tem domínio inato, diferente de um sem técnica que até tem… é impossível de se ter uma técnica inata"**, *e depois:* **"Corpo amaldiçoado e restringido n tem como pegar mesmo".** *O motivo escrito na peça é a ficção, e a conta vem depois, como o que aconteceria sem o gate. A Restrição Celestial sem energia já não comprava — ela não tem aptidão nem refino —, e o ramo corpo pela técnica tem técnica inata e compra.*
+- **E o que é leitura nossa não vai para o livro — "informação que o player n precisa".** *A peça é argumento de design e diz de onde cada coisa veio; o capítulo 45 só dá a regra. Nenhuma das outras três tinha nota assim no livro.*
+- **Os quatro consertos de texto:** *sai "faz o seu ataque acertar independentemente da técnica do alvo", que é da wiki inglesa; o "anula os efeitos" do livro virou a imunidade; a frase da incompleta deixou de valer para ela; e a reversa ficou liberada.*
+
+### 2 · O que a pesquisa conferiu
+
+- **O `P-extensao-o-que-ficou-aberto.md`**, *do agente que ele liberou, com o cap. 230 e o 232 conferidos na fonte: no 230 o Sukuna se organiza em "com Extensão / sem Extensão, com o Megumi carregando a adaptação"; no 232 ela "segurou o dano no mínimo" e não neutraliza "por inteiro" o Azul reforçado e o Vermelho — a fala não separa os dois.*
+- **A fala do Kusakabe (cap. 225)**, *em duas transcrições:* **「展延？できますか」「なめんな できるわけねーだろ」**, *e nada depois.* **A versão de que ele "aprenderia se se dedicasse" não foi achada** *— a Fandom recusou o acesso e não foi contornada.* *O Kusakabe é Sem Técnica, e a fala diz que é difícil, não que o corpo não deixa.*
+- **Os quatro usuários têm domínio**: *o Jogo, o Sukuna, o Higuruma e o Hanami, cujo domínio tem nome, 朶頤光海 — que os resumos dizem vir do Fanbook; a página não foi aberta.* **A caixa do cap. 171** *descreve a Extensão como um domínio capaz de carregar acerto garantido, deixado vazio.*
+- **A Extensão com a reversa:** *nenhuma cena; um fã japonês lembra que a reversa "não é técnica" (反転術式(術式じゃない)).*
+
+### 3 · O que a conta mostrou
+
+- **"Você leva 1/4" acima do teto viraria ferramenta de segurar chefe:** *com o chefe batendo só nela, ela evitaria de `11` a `32` PE por rodada em dano, contra `6` a `11` de custo.* **Com `3/4`, a redução vale no máximo o que ela custa por rodada.**
+- **O Corpo Amaldiçoado ergueria a Extensão sem perder nada**, *com a Técnica Marcial liberada; quem conjura perde de `8,6` a `16,5` PE por rodada em dano, fora o que ela custa. O Sem Técnica perde o `Manejo`, que é feitiço, como os outros.*
+- **Com erguer, segurar até o fim custa de `82%` a `112%` do dia de um Bastião, e uma luta de 3,5 rodadas, de `38%` a `45%`.**
+- **O nível 18:** *a compra atrasa em `81` das `2.187` ordens de marco, e em `16` a pessoa nunca chega a comprar.*
+- **No inimigo, com erguer:** *`120%` da cota de uma `Ameaça` e `33%` da de um `Desastre` no nível 30, e `236%` e `60%` no nível 2 — em nível nenhum uma `Ameaça` carrega a Extensão.*
+
+### 4 · Onde entrou
+
+- **A peça 11 §6.5, a dona:** *a Extensão inteira (a caixa, a nota da reescrita, a imunidade, o que acima do teto passa, o que continua de pé, o Corpo Amaldiçoado, o gate fora da escada e a tabela do dia, que passou a contar erguer), as duas tabelas das quatro, a frase de erguer, a nota que abre a seção, e a regra que vale para as quatro (que agora diz "as três anti-domínio").* **E fora do §6.5:** *o §5 — o requisito de história de quatro aptidões, e o gate de Origem, que passou a ter dois exemplares — e o catálogo fechado.*
+- **A peça 9 e o capítulo 25 do livro:** *o Corpo Amaldiçoado não compra a Extensão, com o motivo em uma linha.*
+- **O capítulo 45 do livro:** *a Extensão na voz do livro, com o `Manejo` proibido pelo nome, as duas tabelas e a caixa de abertura — "erguer qualquer uma das quatro".*
+- **A peça 26 §6.5:** *a linha da Extensão com erguer, e o parágrafo do nível 2.*
+- **A pesquisa:** *o `conta-extensao.py`, novo, e a nota da versão no `H`.*
+
+### 5 · Os validadores
+
+- **`conferir-expansao.py`, bloco 10:** *o limite de caber nas lutas do dia passou a valer para as de Classe Passiva 1 e 2, e a Extensão, que a peça diz ser "a mais cara das quatro", tem de continuar sendo, nível a nível.* **E a comparação das cópias:** *o gate dela em cinco lugares (o título, as duas tabelas da peça e as duas do livro), o `3/4` na peça e no livro, o Corpo Amaldiçoado fora dela nos quatro lugares, e o `Manejo` proibido pelo nome nos quatro — as duas caixas e as duas tabelas das quatro, porque "feitiço" sozinho não alcança o Sem Técnica no capítulo 45.* **Foi o caso da v0.176, que ficou até agora: a caixa do livro dizia nível 18 e a tabela do mesmo capítulo, 14.**
+- **`conferir-repositorio.py`, 7.2:** *a base foi de `196` para `197`, medida pelo diff da lista branca entre a entrega da v0.271 e uma cópia com os dois patches: a citação do `conta-extensao.py` na peça 11, a mesma família.*
+
+### 6 · O que foi conferido
+
+*O `conta-extensao.py` reproduz antes a tabela da Extensão da peça 11 (com erguer), o teto do que encosta, a linha da peça 26, o dano do chefe do manual e a régua da peça 5, e depois confere o que a v0.273 publicou: os `38%` a `45%` de uma luta, os `8,6` a `16,5` PE de quem conjura, os `81`, `2.187` e `16` do nível 18, a redução acima do teto nunca passando do que ela custa, e os `236%` e `60%` do nível 2 — a regressão pegou dois erros meus antes de medir, a cota do `Desastre` sem o fator da `Intervenção` e a da `Ameaça` sem o arredondamento da 9.2. Os outros três scripts seguem reproduzindo os deles.* **Os quatro builds** *depois da última edição (`282` e `171` páginas); o `conferir-voz.py --estrito` sai `0`.*
+
+**A bateria: 31 de 31, com PULADA zero**, *emulada numa cópia da pasta principal na ordem em que ele vai subir: o patch da v0.272, o `subir.sh` até os validadores, o commit da entrega, e o patch da v0.273 por cima.*
+
+**O arnês:** *na mesma cópia, com a base verde antes e depois. Onze perturbações acendem pela mensagem certa — a caixa do livro e o catálogo da peça voltando ao nível 14, o livro levando `1/4` acima do teto, a peça e o livro levando `1/2` com "um quarto" escrito, o capítulo 25 perdendo o Corpo Amaldiçoado, a peça deixando de dizer que ela é a mais cara, ela a `0,5 × Classe` (deixa de ser a mais cara no nível 14), na 9.2 a linha a `98%` e a linha sem erguer, e o `Manejo` sumindo da caixa do livro e da tabela da peça —, e dois contra-testes coerentes ficam verdes: o nível 22 nas cinco cópias juntas, e o Corpo Amaldiçoado voltando a comprar nos quatro lugares.* **E o arnês pegou dois defeitos meus:** *a checagem do gate no livro dependia da frase do Corpo Amaldiçoado, e a do Corpo Amaldiçoado na peça lia a frase no parágrafo que explica — os dois contra-testes ficaram vermelhos pelo motivo errado. Hoje o gate sai da linha do Requisito, e a exclusão, só da caixa.* *O arnês da v0.272, rodado de novo por cima, segue verde, fora a perturbação da Extensão entrando no erguer, que esta versão aplicou.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: *o item 6 da fila — a comparação das quatro anti-domínio, que o Mizuki pediu para deixar para o fim.*
+
+---
+
 ## [0.272] — 26/09/2026
 
 **A Pétala foi reescrita na rodada 3 da revisão dos anti-domínio, e erguer passou a custar a maior Classe em PE na Cesta, no Simples e na Pétala.** *Ela rebate o que toca, energia contra energia, e o dano do Acerto sai da Essência de quem a usa contra a do dono da Expansão: maior, não fere; igual, leva `1/4`; menor, leva metade. O que a Expansão traz por contato e não é dano ela anula sempre. Cai pelo teste do `Carregar` a cada golpe, de qualquer um, sem a queda na hora; com arma corpo a corpo empunhada, contra-ataca quem a acertou; e custa `1` PE por rodada e `3` por contra-ataque.*

@@ -633,6 +633,9 @@ if not _mer:
 elif any(n not in ANTIDOMINIO for n in ERGUER) or not ERGUER:
     erro(f'a frase de erguer da peca 11 nomeia {ERGUER}, e a tabela das quatro tem {list(ANTIDOMINIO)}')
 else:
+    # v0.273: a Extensao entrou no erguer, e ela e' a cara DE PROPOSITO ("ela sai cara por
+    # isso") — a tabela da secao dela mede o dia. O limite de caber nas lutas de graca vale
+    # para as de Classe Passiva 1 e 2; para ela, o que se confere e' continuar a mais cara.
     print(f'\n  Erguer custa a maior Classe, toda vez: {", ".join(ERGUER)}. Uma vez por luta, mais o PE')
     print('  de rodada numa luta de 3,5 rodadas, contra o dia de um Bastiao (o menor bolso):')
     print(f"    {'nv':<6}{'Classe':<8}" + ''.join(f'{n[:18]:<20}' for n in ERGUER))
@@ -640,16 +643,31 @@ else:
         cl = maior_classe(nv)
         dia = PE_POR_NIVEL_PISO * nv
         cel = []
+        lutas_nv = {}
         for nome in ERGUER:
             if abre_classe('especialista', ANTIDOMINIO[nome][0]) > nv:
                 cel.append('—'); continue
             luta = cl + custo_rodada(nome, nv) * RODADAS_POR_LUTA
+            lutas_nv[nome] = luta
             cabem = int(dia // luta)
             cel.append(f'{luta:g} PE, {cabem} lutas')
+            if ANTIDOMINIO[nome][0] >= 3:
+                continue
             if cabem < LUTAS_DE_GRACA:
                 erro(f'no nv{nv} erguer {nome} e segurar uma luta custa {luta:g} PE, e o dia do '
                      f'Bastiao ({dia}) so tem {cabem} disso — menos que as {LUTAS_DE_GRACA} lutas de graca')
         print(f'    {nv:<6}{cl:<8}' + ''.join(f'{c:<20}' for c in cel))
+        _c3 = [n for n in lutas_nv if ANTIDOMINIO[n][0] >= 3]
+        _c12 = [lutas_nv[n] for n in lutas_nv if ANTIDOMINIO[n][0] < 3]
+        for n in _c3:
+            if _c12 and lutas_nv[n] <= max(_c12):
+                erro(f'no nv{nv} {n} custa {lutas_nv[n]:g} PE por luta e outra anti-dominio custa '
+                     f'{max(_c12):g} — a peca 11 diz que ela e a mais cara das quatro')
+    if re.search(r'e é a mais cara das quatro', _P11_10):
+        print('  A Extensao fica fora do limite do dia de proposito, e e a mais cara das quatro em todo nivel.')
+    else:
+        erro('a peca 11 parou de dizer que a Extensao e a mais cara das quatro — e esta checagem '
+             'isenta ela do limite do dia por causa disso')
 
 # --- o custo FIXO (v0.268, o Dominio Simples). Decisao do Mizuki: o PE dele "so pra
 # impedir de ninguem abrir dominio simples fora de combate e ficar andando por ai com
@@ -755,6 +773,62 @@ elif _ml and _mca and ([_fracao(x) for x in _ll.groups()] != [_fracao(x) for x i
          f'contra-ataque {_lca.group(1)} contra {_mca.group(1)} PE — a peca e a dona')
 else:
     print('  O capitulo 45 do livro copia a tabela da Essencia e o preco do contra-ataque igual a peca 11.')
+
+# --- a Extensao (v0.273): tres coisas moram em varios documentos, e a peca 11 e' a dona. A
+# caixa do livro dizia nivel 18 enquanto a tabela do mesmo capitulo e a peca diziam 14, desde
+# a v0.176 — nada comparava. Hoje o gate, o que passa acima do teto e o Corpo Amaldicoado.
+_ie = _P11_10.find('### Extensão de Domínio · Classe Passiva 3')
+_se = _P11_10[_ie:_P11_10.find('\n### ', _ie + 5)] if _ie >= 0 else ''
+_i45 = _L45.find('### Extensão de Domínio\n')
+_s45 = _L45[_i45:_L45.find('\n## ', _i45)] if _i45 >= 0 else ''
+_P09 = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), '09-origens.md'), encoding='utf-8').read()
+_L25 = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '05-material', 'livro',
+                         'manual', '25-origens.md'), encoding='utf-8').read()
+_gates_e = {
+    'peca 11, titulo': re.search(r'### Extensão de Domínio · Classe Passiva 3, refino (\d+) e nível (\d+)', _P11_10),
+    'peca 11, as quatro com numero': re.search(r'^\| \*\*Extensão de Domínio\*\* \| 3 · refino (\d+), nível (\d+) \|', _P11_10, re.M),
+    'peca 11, o catalogo fechado': re.search(r'^\| 7 \| \*\*Extensão de Domínio\*\* \| Classe Passiva 3 · refino (\d+), nível (\d+)', _P11_10, re.M),
+    # so' a linha do Requisito: a primeira forma pendurava o gate na frase do Corpo Amaldicoado,
+    # e o contra-teste da v0.273 (tirar o Corpo Amaldicoado dos quatro lugares) acendeu por ela
+    'livro, a caixa': re.search(r'^> Requisito: [^\n]*?refino (\d+) e nível (\d+)\.', _s45, re.M),
+    'livro, a tabela': re.search(r'^\| Extensão de Domínio \| [^|]*refino (\d+) e nível (\d+)', _L45, re.M),
+}
+_falta_e = [k for k, v in _gates_e.items() if not v]
+_vals_e = {k: v.groups() for k, v in _gates_e.items() if v}
+if _falta_e:
+    erro(f'nao achei o gate da Extensao em {_falta_e} — a copia parou de ser comparada')
+elif len(set(_vals_e.values())) != 1:
+    erro(f'o gate da Extensao diverge entre as copias: {_vals_e} — a peca 11 e a dona')
+_le = [re.search(r'Acima dele, ela reduz o dano em um quarto, e você leva `(\d)/(\d)`', x) for x in (_se, _s45)]
+if not all(_le):
+    erro('nao achei "Acima dele, ela reduz o dano em um quarto, e você leva `N/N`" na peca 11 e no livro')
+elif {m.groups() for m in _le} != {('3', '4')}:
+    erro(f'o que passa acima do teto da Extensao nao e 3/4 nas duas copias: {[m.groups() for m in _le]} — '
+         '"reduz em um quarto" e "leva 3/4" sao a mesma conta')
+# lido so' da CAIXA da peca 11 (as linhas `> `): a frase aparece de novo no paragrafo que explica,
+# e o contra-teste da v0.273 ficou vermelho pela explicacao — o mesmo defeito da queda na hora.
+_cxe = '\n'.join(l for l in _se.split('\n') if l.startswith('> '))
+_ca = {'peca 11': 'O Corpo Amaldiçoado não compra' in _cxe, 'livro, cap. 45': 'O Corpo Amaldiçoado não compra' in _s45,
+       'peca 9': 'A `Extensão de Domínio` ele não compra' in _P09,
+       'livro, cap. 25': 'a `Extensão de Domínio` você não compra' in _L25}
+if len(set(_ca.values())) != 1:
+    erro(f'o Corpo Amaldicoado fora da Extensao nao esta nos quatro lugares: {_ca}')
+# o `Manejo` tem de estar ESCRITO, e nao so' implicito: o capitulo 43 manda ler `Manejo` onde os
+# capitulos 8 e 9 escrevem feitico, e o 45 nao esta entre eles. Sem o nome, o Sem Tecnica le
+# "voce nao usa feitico" e ergue a Extensao sem perder nada — o problema de preco do Mizuki.
+_mj = {'peca 11, a caixa': 'você não usa feitiço nem `Manejo`' in _cxe,
+       'livro, a caixa': 'você não usa feitiço nem `Manejo`' in _s45,
+       'peca 11, o que custa por fora': bool(re.search(
+           r'^\| \*\*Extensão de Domínio\*\* \|[^\n]*nenhum feitiço nem `Manejo`', _P11_10, re.M)),
+       'livro, a tabela das quatro': bool(re.search(
+           r'^\| \*\*Extensão de Domínio\*\*[^\n]*nenhum feitiço nem `Manejo`', _L45, re.M))}
+if not all(_mj.values()):
+    erro(f'a Extensao parou de proibir o `Manejo` com todas as letras em '
+         f'{[k for k, v in _mj.items() if not v]} — "feitico" sozinho nao alcanca o Sem Tecnica no capitulo 45')
+if not _falta_e and len(set(_vals_e.values())) == 1 and all(_le) and len(set(_ca.values())) == 1 and all(_mj.values()):
+    print(f'  A Extensao: o gate (refino, nivel) = {next(iter(_vals_e.values()))} nas cinco copias, acima do teto '
+          f'voce leva 3/4 na peca e no livro, o Corpo Amaldicoado fora dela nos quatro lugares, e o `Manejo` '
+          f'proibido pelo nome nos quatro.')
 
 # --- o raio do Dominio Simples nao pode virar cerca
 MOVIMENTO = 9.0

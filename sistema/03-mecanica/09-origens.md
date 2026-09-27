@@ -178,7 +178,7 @@ Cadáver Amaldiçoado de Mutação Abrupta, na linguagem da instituição. Você
 | | |
 |---|---|
 | **Perícias** *(escolha uma)* | Atletismo · Percepção · Ocultismo · Intimidação |
-| **O que muda** | sem Fundamento, porque **não existe técnica inata para escrever**. Mas **você tem energia amaldiçoada**: cadáver de mutação abrupta produz a própria, uns três meses depois de acordar. Então PE, aptidões e refino normais — e **Técnica Marcial** no lugar do Fundamento |
+| **O que muda** | sem Fundamento, porque **não existe técnica inata para escrever**. Mas **você tem energia amaldiçoada**: cadáver de mutação abrupta produz a própria, uns três meses depois de acordar. Então PE, aptidões e refino normais — e **Técnica Marcial** no lugar do Fundamento. **A `Extensão de Domínio` ele não compra** — *ela é um domínio vazio, e ele nunca tem técnica inata para ter domínio (peça 11 §6.5, v0.273)* |
 | **Traços** | *quem te fez, e o que essa pessoa esperava* · *o que as pessoas acham que você é* · *o núcleo que você ainda não usou na frente de ninguém* |
 | **Ofícios** *(escolha dois)* | *dois que quem te fez pôs em você, junto com o resto* — livres, do quadro da peça 7 |
 | **Legados** | **as listas estão na peça 13** — um `Destranca` obrigatório e mais um de qualquer lista |
