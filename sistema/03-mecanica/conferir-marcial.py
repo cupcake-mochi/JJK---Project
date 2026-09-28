@@ -539,7 +539,35 @@ for velho, novo in _RENOMES_LIVRO.items():
                  f'"onde o capitulo 9 escreve X, leia Y" — nesta rota ele se '
                  f'chama `{novo}`, e o livro e o que o jogador le')
     else:
-        print(f'  [x] `{velho}` so aparece no livro dentro do ponteiro pro capitulo 9')
+        print(f'  [x] `{velho}` so aparece no livro dentro da frase da troca')
+
+
+# 14.1 (v0.276): a troca vale no LIVRO INTEIRO, por decisao do Mizuki ("A"), e com uma excecao
+# escrita. A `Kata` vale como feitico dos dois lados da mesa — "leia TAMBEM" —, e as linhas da
+# Restricao Celestial sem energia que dizem "nao conjura" e "sem feitico de Toque" falam de energia:
+# sem a excecao, a equivalencia tiraria do Restringido a rota de criacao dele (a peca 20 inteira).
+_alc14 = {'feitiço': 'Onde qualquer capítulo escreve *feitiço*, leia também `Kata`: a regra vale para a sua e para a de qualquer um.',
+          'Liberação Máxima': 'Onde qualquer capítulo escreve *Liberação Máxima*, leia `Ruptura`.',
+          'Técnica Máxima': 'Onde qualquer capítulo escreve *Técnica Máxima*, leia `Ōgi`.'}
+_falta14 = [v for v, f in _alc14.items() if f not in LIVRO20]
+if _falta14:
+    erro(14, f'o capitulo 42 parou de dizer que a troca vale no livro inteiro para {_falta14}')
+if re.search(r'Onde o capítulo 9[^.]*escreve \*(?:feitiço|Liberação Máxima|Técnica Máxima)\*', LIVRO20):
+    erro(14, 'o capitulo 42 voltou a limitar a troca a um capitulo ("Onde o capitulo 9 ... escreve")')
+_exc14 = {'capitulo 42': 'ela fala de energia: a `Kata` é o corpo, e continua' in LIVRO20,
+          'capitulo 25': 'O que você não conjura é energia: a sua `Kata`, da Técnica Marcial, é o corpo, e continua.'
+                         in ler('sistema/05-material/livro/manual/25-origens.md'),
+          'peca 9': 'O que ele não conjura é energia: a `Kata` da peça 20 é o corpo, e continua'
+                    in ler('sistema/03-mecanica/09-origens.md')}
+if not all(_exc14.values()):
+    erro(14, f'a excecao do Restringido sumiu de {[k for k, v in _exc14.items() if not v]} — com a `Kata` '
+             f'valendo como feitico no livro inteiro, "nao conjura" tiraria dele a rota de criacao')
+# e o `Calado` pelo mesmo padrao do feitico (v0.276): no capitulo 42, onde o jogador da rota le
+if 'E o `Calado` segue o mesmo padrão do feitiço: a `Kata` não sai se precisar de voz' not in LIVRO20:
+    erro(14, 'o capitulo 42 parou de dizer como o `Calado` corta a `Kata` — so a que precisa de voz ou de '
+             'ferramenta que precise de som, pela decisao da v0.276')
+if not _falta14 and all(_exc14.values()) and not re.search(r'Onde o capítulo 9[^.]*escreve \*(?:feitiço|Liberação Máxima|Técnica Máxima)\*', LIVRO20):
+    print('  [x] a troca vale no livro inteiro, e a excecao do Restringido esta no capitulo 42, no 25 e na peca 9')
 
 
 # ------------------------------------------------------------------ RODAPE

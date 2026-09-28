@@ -182,7 +182,7 @@ Você não ouve. Enquanto está `Surdo`, você sofre os seguintes efeitos.
 
 Enquanto está `Calado`, você sofre o seguinte efeito.
 
-**Conjuração.** Você não conjura. Nada que precise de voz, gesto ou Selo que exija falar sai.
+**Conjuração.** Você não conjura. Nada que precise de voz, gesto ou Selo que envolva voz sai. Na `Kata`, o mesmo padrão: ela não sai se precisar de voz, como a Restrição `Gesto`, que pede falar, ou de uma ferramenta que precise de som. A que não precisa sai normalmente.
 
 #### `Enfeitiçado`
 

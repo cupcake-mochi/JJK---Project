@@ -14,19 +14,19 @@ Três coisas mudam de nome e duas somem.
 
 ### `Kata`
 
-**`Kata`** (型, a forma que se treina) — a sua aplicação concreta, montada com pontos. Mesma Classe, mesmos pontos, mesmo custo em PE, mesmo teto de Melhoria e de Restrição. **Onde o capítulo 9, *Fundamento*, ou o capítulo 8, *Caminhos e Trilhas*, escreve *feitiço*, leia `Kata`.** Os degraus de Trilha que conjuram valem igual: a Classe é a mesma, o custo em PE é o mesmo, e o que sai da sua mão é Kata.
+**`Kata`** (型, a forma que se treina) — a sua aplicação concreta, montada com pontos. Mesma Classe, mesmos pontos, mesmo custo em PE, mesmo teto de Melhoria e de Restrição. **Onde qualquer capítulo escreve *feitiço*, leia também `Kata`: a regra vale para a sua e para a de qualquer um.** Quando a Restrição Celestial sem energia diz que não conjura e não tem feitiço de Toque, ela fala de energia: a `Kata` é o corpo, e continua. E o `Calado` segue o mesmo padrão do feitiço: a `Kata` não sai se precisar de voz, como a Restrição `Gesto`, ou de uma ferramenta que precise de som. Os degraus de Trilha que conjuram valem igual: a Classe é a mesma, o custo em PE é o mesmo, e o que sai da sua mão é Kata.
 
 ### `Ruptura`
 
 **`Ruptura`** — a única Kata que passa do limite de dano contra um alvo só. Uma no nível 10, uma no 20 e uma no 30. **`+Classe` em dados, custa a rodada inteira, `+50%` de PE**, e o preço se escolhe na hora: `Vazio`, `Sangue` ou `Peso`.
 
-Onde o capítulo 9, *Fundamento*, escreve *Liberação Máxima*, leia `Ruptura`. As regras são as mesmas.
+Onde qualquer capítulo escreve *Liberação Máxima*, leia `Ruptura`. As regras são as mesmas.
 
 ### `Ōgi`
 
 **`Ōgi`** (奥義, a técnica que a escola guarda) — o golpe de dano fixo, do nível 17 em diante. **Dano pela faixa de nível, orçamento de montagem à parte, `5 × maior Classe` de PE**, e não aceita Restrição.
 
-Onde o capítulo 9, *Fundamento*, escreve *Técnica Máxima*, leia `Ōgi`.
+Onde qualquer capítulo escreve *Técnica Máxima*, leia `Ōgi`.
 
 ### Selo e Expansão de Domínio
 

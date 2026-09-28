@@ -73,7 +73,7 @@ const melhorias = [
 
   TBL(['Nível Média', 'O que faz'],
     [
-      ['Calado', 'Você não conjura. Nada que precise de voz, gesto ou Selo sai.'],
+      ['Calado', 'Você não conjura. Nada que precise de voz, gesto ou Selo que envolva voz sai.'],
       ['Enfeitiçado', 'Você não ataca quem enfeitiçou nem mira efeito nocivo nele, e ele tem vantagem em teste social contra você.'],
     ], [2200, 6800], { boldCols: [0] }),
 

@@ -1391,6 +1391,38 @@ else:
 
 
 # --------------------------------------------------------------------------
+bloco('14. O CALADO NAS CINCO COPIAS — a redacao da v0.176 e a Kata pelo mesmo padrao')
+# v0.276: na revisao da v0.176 o Mizuki estreitou o `Calado` no livro — de "Selo" para "Selo que
+# envolva voz" no capitulo 9 e "Selo que exija falar" no 15 —, e a mudanca nao chegou a esta peca,
+# ao glossario nem ao gerador do manual: tres cópias com a regra velha por cem versoes, e nada
+# comparava. A peca e' a dona; as outras quatro tem de dizer o mesmo. E a Kata segue o mesmo padrao
+# ("Só se seguir os mesmos padrões, algumas ferramentas podem necessitar som"), escrita na peca e no
+# capitulo 15, que e' onde o mestre procura a condicao.
+_mcal = re.search(r'^\| \*\*`Calado`\*\* \| `Média` \| você não conjura\. (Nada que precise de [^|]*?) \|$', TXT, re.M)
+if not _mcal:
+    erro('14: nao achei a linha do `Calado` na peca 19 §3.2 na forma que esta checagem le — ela e a dona')
+else:
+    _cal = _mcal.group(1).strip()
+    _copias = {
+        'glossario (cap. 7)': ler('sistema/05-material/livro/manual/07-glossario.md'),
+        'dano e condicoes (cap. 15)': ler('sistema/05-material/livro/manual/15-dano-e-condicoes.md'),
+        'Fundamento (cap. 9)': ler('sistema/05-material/livro/manual/40-fundamento.md'),
+        'gerador do manual (partD.js)': ler('manual/gerador/partD.js'),
+    }
+    _fora = [k for k, t in _copias.items() if _cal not in t]
+    if _fora:
+        erro(f'14: o `Calado` da peca 19 diz "{_cal}", e {_fora} diz outra coisa — a regra da v0.176 '
+             f'ficou tres copias atras por cem versoes porque nada comparava')
+    _kata = 'Na `Kata`, o mesmo padrão:'
+    _semk = [k for k, t in (('peca 19', TXT), ('capitulo 15', _copias['dano e condicoes (cap. 15)'])) if _kata not in t]
+    if _semk:
+        erro(f'14: a regra da `Kata` sob o `Calado` sumiu de {_semk} — sem ela, a `Kata` valendo como feitico '
+             f'no livro inteiro faria o `Calado` cortar toda Kata, e a decisao da v0.276 e cortar so a que precisa de som')
+    if not _fora and not _semk:
+        print(f'  [x] o `Calado` diz "{_cal}" nas cinco copias, e a regra da `Kata` esta na peca e no capitulo 15')
+
+
+# --------------------------------------------------------------------------
 print()
 print('=' * 88)
 if ERROS:

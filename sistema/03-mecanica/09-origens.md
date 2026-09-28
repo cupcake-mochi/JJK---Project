@@ -203,7 +203,7 @@ A troca é sempre desproporcional para os dois lados: você perde muito e ganha 
 | | |
 |---|---|
 | **Perícias** *(escolha uma)* | *corpo pela técnica:* Sentir Energia · Tecnologia · Ocultismo · Percepção<br>*sem energia:* Atletismo · Acrobacia · Furtividade · Pontaria |
-| **O que muda** | *corpo pela técnica:* Fundamento normal, corpo com limitação escrita na ficha<br>*sem energia:* sem Fundamento, sem feitiço de Toque, sem Sentir Energia, sem aptidão e sem refino — e acesso a ferramenta amaldiçoada como eixo de poder.<br>**O `PE` do Caminho vem inteiro e se lê `Pontos de Esforço`** — o contrato de moeda, logo abaixo neste §5 |
+| **O que muda** | *corpo pela técnica:* Fundamento normal, corpo com limitação escrita na ficha<br>*sem energia:* sem Fundamento, sem feitiço de Toque, sem Sentir Energia, sem aptidão e sem refino — e acesso a ferramenta amaldiçoada como eixo de poder. **O que ele não conjura é energia: a `Kata` da peça 20 é o corpo, e continua** *(v0.276, quando a `Kata` passou a valer como feitiço no livro inteiro)*.<br>**O `PE` do Caminho vem inteiro e se lê `Pontos de Esforço`** — o contrato de moeda, logo abaixo neste §5 |
 | **Traços** | *o clã que te descartou* · *a pessoa que te olha e vê o que você perdeu* · *a ferramenta que te acompanha desde criança* |
 | **Ofícios** *(escolha dois)* | *dois que você teve de aprender, porque sem energia sobrou a mão* — livres, do quadro da peça 7 |
 | **Legados** | **as listas estão na peça 13** — um `Destranca` obrigatório e mais um de qualquer lista |

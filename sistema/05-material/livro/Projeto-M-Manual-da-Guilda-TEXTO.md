@@ -218,7 +218,7 @@ Melhoria — são escadas diferentes que usam as mesmas três palavras. O capít
 | **`Agarrado`** | Seu deslocamento é `0`. Acaba se quem agarrou ficar `Incapacitado`, ou se algo tirar você do alcance dele. Ataque à distância tem 50% de chance de acertar quem está agarrando: role `1d10`, e em 6 ou mais você acerta o alvo desejado; em 5 ou menos, acerta quem está agarrando | 4 |
 | **`Amedrontado`** | Desvantagem em ataque e em teste enquanto você enxergar a fonte do medo, e você não se aproxima dela de vontade própria | 4 |
 | **`Atordoado`** | Você perde a Ação Padrão e não usa reação | 4 |
-| **`Calado`** | Você não conjura. Nada que precise de voz, gesto ou Selo sai | 4 |
+| **`Calado`** | Você não conjura. Nada que precise de voz, gesto ou Selo que envolva voz sai | 4 |
 | **`Cego`** | Você não enxerga. Falha automática em teste que precise de vista, desvantagem nos seus ataques, e quem ataca você tem vantagem | 4 |
 | **`Derrubado`** | Está no chão, de pé no medidor. Vantagem a quem ataca de perto | 1 |
 | **`Desarmado`** | A sua arma está no chão ou na mão de outro. Você bate desarmado até pegar de volta | 4 |
@@ -1311,7 +1311,7 @@ Você não ouve. Enquanto está `Surdo`, você sofre os seguintes efeitos.
 
 Enquanto está `Calado`, você sofre o seguinte efeito.
 
-**Conjuração.** Você não conjura. Nada que precise de voz, gesto ou Selo que exija falar sai.
+**Conjuração.** Você não conjura. Nada que precise de voz, gesto ou Selo que envolva voz sai. Na `Kata`, o mesmo padrão: ela não sai se precisar de voz, como a Restrição `Gesto`, que pede falar, ou de uma ferramenta que precise de som. A que não precisa sai normalmente.
 
 #### `Enfeitiçado`
 
@@ -2468,7 +2468,7 @@ Você tem energia amaldiçoada, então tem PE, aptidões e refino como qualquer 
 
 **Corpo pela técnica.** O corpo não funciona, e em troca a energia é enorme.
 
-**Sem energia.** Você nasceu sem energia amaldiçoada nenhuma, e em troca o corpo recebeu a troca. Você não conjura, não canaliza e não sente energia, e fere maldição com ferramenta amaldiçoada. **A Origem fixa a perda e não o que você constrói em cima dela:** um restringido que nunca levantou peso e resolve tudo pela cabeça é uma ficha legítima.
+**Sem energia.** Você nasceu sem energia amaldiçoada nenhuma, e em troca o corpo recebeu a troca. Você não conjura, não canaliza e não sente energia, e fere maldição com ferramenta amaldiçoada. O que você não conjura é energia: a sua `Kata`, da Técnica Marcial, é o corpo, e continua. **A Origem fixa a perda e não o que você constrói em cima dela:** um restringido que nunca levantou peso e resolve tudo pela cabeça é uma ficha legítima.
 
 **Na obra:** o Kokichi Muta, pelo corpo; a Maki e o Toji, pela falta de energia.
 
@@ -5230,19 +5230,19 @@ Três coisas mudam de nome e duas somem.
 
 ### `Kata`
 
-**`Kata`** (型, a forma que se treina) — a sua aplicação concreta, montada com pontos. Mesma Classe, mesmos pontos, mesmo custo em PE, mesmo teto de Melhoria e de Restrição. **Onde o capítulo 9, *Fundamento*, ou o capítulo 8, *Caminhos e Trilhas*, escreve *feitiço*, leia `Kata`.** Os degraus de Trilha que conjuram valem igual: a Classe é a mesma, o custo em PE é o mesmo, e o que sai da sua mão é Kata.
+**`Kata`** (型, a forma que se treina) — a sua aplicação concreta, montada com pontos. Mesma Classe, mesmos pontos, mesmo custo em PE, mesmo teto de Melhoria e de Restrição. **Onde qualquer capítulo escreve *feitiço*, leia também `Kata`: a regra vale para a sua e para a de qualquer um.** Quando a Restrição Celestial sem energia diz que não conjura e não tem feitiço de Toque, ela fala de energia: a `Kata` é o corpo, e continua. E o `Calado` segue o mesmo padrão do feitiço: a `Kata` não sai se precisar de voz, como a Restrição `Gesto`, ou de uma ferramenta que precise de som. Os degraus de Trilha que conjuram valem igual: a Classe é a mesma, o custo em PE é o mesmo, e o que sai da sua mão é Kata.
 
 ### `Ruptura`
 
 **`Ruptura`** — a única Kata que passa do limite de dano contra um alvo só. Uma no nível 10, uma no 20 e uma no 30. **`+Classe` em dados, custa a rodada inteira, `+50%` de PE**, e o preço se escolhe na hora: `Vazio`, `Sangue` ou `Peso`.
 
-Onde o capítulo 9, *Fundamento*, escreve *Liberação Máxima*, leia `Ruptura`. As regras são as mesmas.
+Onde qualquer capítulo escreve *Liberação Máxima*, leia `Ruptura`. As regras são as mesmas.
 
 ### `Ōgi`
 
 **`Ōgi`** (奥義, a técnica que a escola guarda) — o golpe de dano fixo, do nível 17 em diante. **Dano pela faixa de nível, orçamento de montagem à parte, `5 × maior Classe` de PE**, e não aceita Restrição.
 
-Onde o capítulo 9, *Fundamento*, escreve *Técnica Máxima*, leia `Ōgi`.
+Onde qualquer capítulo escreve *Técnica Máxima*, leia `Ōgi`.
 
 ### Selo e Expansão de Domínio
 
@@ -5451,7 +5451,7 @@ Duas coisas mudam de nome e uma some.
 
 ### `Manejo`
 
-**`Manejo`** — a sua aplicação concreta, montada com pontos. Mesma Classe, mesmos pontos, mesmo custo em PE, mesmo teto de Melhoria e de Restrição. **Onde o capítulo 9, *Fundamento*, ou o capítulo 8, *Caminhos e Trilhas*, escreve *feitiço*, leia `Manejo`.** Os degraus de Trilha que conjuram valem igual: a Classe é a mesma, o custo em PE é o mesmo, e o que sai da sua mão é Manejo.
+**`Manejo`** — a sua aplicação concreta, montada com pontos. Mesma Classe, mesmos pontos, mesmo custo em PE, mesmo teto de Melhoria e de Restrição. **Onde qualquer capítulo escreve *feitiço*, leia também `Manejo`: a regra vale para o seu e para o de qualquer um.** Os degraus de Trilha que conjuram valem igual: a Classe é a mesma, o custo em PE é o mesmo, e o que sai da sua mão é Manejo.
 
 O nome não é enfeite. A categoria inteira de técnicas que não nascem com a pessoa se chama manipulação de energia amaldiçoada, e é literalmente o que esta rota faz.
 
@@ -5459,7 +5459,7 @@ O nome não é enfeite. A categoria inteira de técnicas que não nascem com a p
 
 **`Auge`** — o golpe de dano fixo, do nível 17 em diante. **Dano pela faixa de nível, orçamento de montagem à parte, `5 × maior Classe` de PE**, e não aceita Restrição.
 
-Onde o capítulo 9, *Fundamento*, escreve *Técnica Máxima*, leia `Auge`.
+Onde qualquer capítulo escreve *Técnica Máxima*, leia `Auge`.
 
 ### Liberação Máxima
 
@@ -7447,4 +7447,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: abc8907d4679ccaa7e258e6eddc34059b7b49de6 -->
+<!-- fonte: 6179421807a4b641e3115658e3297b7d59e25d8c -->

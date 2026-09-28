@@ -61,6 +61,10 @@ Esta peça é a que mais chegou com contrato assinado por outras, e vale listar 
 > **`Ruptura`**. A única Kata que passa do limite de dano contra um alvo só. Uma no nível 10, uma no 20 e uma no 30. `+Classe` em dados, a rodada inteira, `+50%` de PE, e o preço escolhido na hora — `Vazio`, `Sangue` ou `Peso`.
 >
 > **`Ōgi`** (奥義, a técnica que a escola guarda). O golpe de dano fixo, do nível 17 em diante. Dano pela faixa de nível, orçamento de montagem à parte, `5 × maior Classe` de PE, e não aceita Restrição.
+>
+> **Os três valem no livro inteiro, desde a v0.276.** *Onde qualquer capítulo escreve feitiço, a regra vale para a `Kata` — a sua e a de qualquer um —; onde escreve Liberação Máxima, vale para a `Ruptura`; e onde escreve Técnica Máxima, para o `Ōgi`.* **Até a v0.275 o capítulo 42 mandava trocar só nos capítulos 8 e 9.** *Decisão do Mizuki ("A"), e nas palavras dele: "antes o plano era impedir restringido e sem técnica de usar emanador, mas agora n tem o pq impedir".* **A exceção fica escrita:** *as linhas da Restrição Celestial sem energia que dizem "não conjura" e "sem feitiço de Toque" falam de energia — a `Kata` é o corpo, e continua. Sem ela, a equivalência tiraria do Restringido a rota de criação dele.*
+>
+> **E o `Calado` corta a `Kata` pelo mesmo padrão do feitiço** *— decisão do Mizuki: "Só se seguir os mesmos padrões, algumas ferramentas podem necessitar som". Ela não sai se precisar de voz, como a Restrição `Gesto`, que pede falar, ou de uma ferramenta que precise de som; a que não precisa sai normalmente. A regra mora na peça 19 §3.2.*
 
 **Os três nomes passaram na triagem nas duas direções.** *`Assinatura`, que era o candidato natural para o `Ōgi`, saiu **OCUPADO**: já é Restrição no manual — "o feitiço deixa uma marca visível que dura 1 hora e aponta para você".*
 

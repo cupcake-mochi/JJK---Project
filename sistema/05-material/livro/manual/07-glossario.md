@@ -171,7 +171,7 @@ Melhoria — são escadas diferentes que usam as mesmas três palavras. O capít
 | **`Agarrado`** | Seu deslocamento é `0`. Acaba se quem agarrou ficar `Incapacitado`, ou se algo tirar você do alcance dele. Ataque à distância tem 50% de chance de acertar quem está agarrando: role `1d10`, e em 6 ou mais você acerta o alvo desejado; em 5 ou menos, acerta quem está agarrando | 4 |
 | **`Amedrontado`** | Desvantagem em ataque e em teste enquanto você enxergar a fonte do medo, e você não se aproxima dela de vontade própria | 4 |
 | **`Atordoado`** | Você perde a Ação Padrão e não usa reação | 4 |
-| **`Calado`** | Você não conjura. Nada que precise de voz, gesto ou Selo sai | 4 |
+| **`Calado`** | Você não conjura. Nada que precise de voz, gesto ou Selo que envolva voz sai | 4 |
 | **`Cego`** | Você não enxerga. Falha automática em teste que precise de vista, desvantagem nos seus ataques, e quem ataca você tem vantagem | 4 |
 | **`Derrubado`** | Está no chão, de pé no medidor. Vantagem a quem ataca de perto | 1 |
 | **`Desarmado`** | A sua arma está no chão ou na mão de outro. Você bate desarmado até pegar de volta | 4 |

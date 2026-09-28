@@ -57,6 +57,8 @@ A terceira linha é a que faz esta peça caber sem furar nada. **O `arquitetura.
 > **`Manejo`.** A aplicação concreta da técnica, montada com pontos. É o feitiço com outro nome: mesma Classe, mesmos pontos, mesmo custo, mesmo teto de Melhoria e de Restrição.
 >
 > **`Auge`.** O golpe de dano fixo, do nível 17 em diante. Dano pela faixa de nível, orçamento de montagem à parte, `5 × maior Classe` de PE, e não aceita Restrição.
+>
+> **Os dois valem no livro inteiro, desde a v0.276.** *Onde qualquer capítulo escreve feitiço, a regra vale para o `Manejo` — o seu e o de qualquer um —, e onde escreve Técnica Máxima, vale para o `Auge`.* **Até a v0.275 o capítulo 43 mandava trocar só nos capítulos 8 e 9**, *e o resto do livro — a Cesta, o teto da Extensão, o turno, o ritual, a experiência — não alcançava esta rota pela letra. A decisão é do Mizuki ("A"). E ela não é "leia `Manejo` no lugar de feitiço": o `Quebranto` dá sucesso contra um feitiço, e trocando a palavra ele passaria a proteger só contra `Manejo`. É o `Manejo` valendo como feitiço, dos dois lados da mesa.*
 
 **A `Liberação Máxima` NÃO renomeia, e a diferença para a peça 20 tem motivo.** *Lá o argumento foi: "a `Liberação Máxima` e a `Técnica Máxima` são as duas coisas do manual que carregam **a sua técnica** no nome, e uma rota que não tem técnica inata usando as palavras da que tem produz a pergunta errada na mesa".*
 

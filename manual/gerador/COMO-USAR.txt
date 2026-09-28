@@ -1,4 +1,4 @@
-GERADOR DO MANUAL — Fundamento v7.38
+GERADOR DO MANUAL — Fundamento v7.39
 
 Recria o .docx do zero. Precisa de Node.js.
 
@@ -32,6 +32,15 @@ ORDEM DAS SEÇÕES (v7)
   4 Restrições → 5 Fora de combate → 6 Liberação Máxima → 7 Técnica Máxima →
   8 Regras de ouro → 9 Progressão → 10 Feitiços prontos → 11 Para o mestre →
   Apêndice
+
+O QUE MUDOU NA v7.39
+
+  A condicao Calado passa a dizer 'Selo que envolva voz', e nao 'Selo'. Foi o
+  Mizuki que estreitou o texto, na revisao do livro da v0.176 do projeto — 'Selo
+  que envolva voz' no capitulo 9 e 'Selo que exija falar' no 15 —, e a mudanca
+  nao chegou a este gerador, a peca 19 nem ao glossario. Na v0.276 as cinco
+  copias passaram a dizer a mesma coisa, e a checagem 14 do conferir-dano
+  compara as cinco. O preco da condicao nao foi refeito com a redacao nova.
 
 O QUE MUDOU NA v7.38
 

@@ -269,8 +269,14 @@
 
 | condição | nível | o que faz |
 |---|---|---|
-| **`Calado`** | `Média` | você não conjura. Nada que precise de voz, gesto ou Selo sai |
+| **`Calado`** | `Média` | você não conjura. Nada que precise de voz, gesto ou Selo que envolva voz sai |
 | **`Enfeitiçado`** | `Média` | você não ataca quem enfeitiçou nem mira efeito nocivo nele, e ele tem vantagem em teste social contra você |
+
+> **Na `Kata`, o mesmo padrão:** *ela não sai se precisar de voz — como a Restrição `Gesto`, que pede falar — ou de uma ferramenta que precise de som; a que não precisa sai normalmente.*
+>
+> ***O `Calado` corta o que precisa de voz desde a v0.176, e a v0.276 alinhou as cópias.*** *Na revisão da v0.176 o Mizuki estreitou o texto do livro — de "Selo" para "Selo que envolva voz" no capítulo 9 e "Selo que exija falar" no 15 —, e a mudança não chegou a esta peça, ao glossário nem ao gerador do manual. As cinco cópias dizem hoje "Selo que envolva voz". A regra da `Kata` é dele, na v0.276: "Só se seguir os mesmos padrões, algumas ferramentas podem necessitar som".*
+>
+> **O preço desta seção não foi refeito com a redação nova.** *A régua cobra do alvo uma ação inteira, e isso supõe que ele conjura com voz, gesto ou Selo de voz — o caso dos Selos da obra, de palma, fala e sinal de mão. Contra quem conjura com Selo de condição e sem `Gesto`, o `Calado` não tira ação, e isso não foi medido.*
 
 ### 3.3 As cinco de nível `Pesada`
 
@@ -513,7 +519,7 @@
 
 ---
 
-## 7. As treze checagens do `conferir-dano.py`
+## 7. As catorze checagens do `conferir-dano.py`
 
 *Escritas antes do validador, que é o método que fez a peça 15 caber numa versão só contra as seis que a peça 14 gastou.*
 
@@ -532,6 +538,7 @@
 | **11** | **a penalidade de arma da seção 6**: as duas linhas estão escritas, o `3 m` bate com o `10` pés do d20, e a desvantagem reconstrói em `54,00` a partir das âncoras — e a soma das duas contra a entrega da arma inteira |
 | **12** | **as ações do chefe são o piso da dominância.** O número é lido do §2.2, as quatro condições que cobram ação são recalculadas com ele e com um a menos, e a checagem cobra as duas metades: com o publicado as quatro cabem, com um a menos alguma sai. *Assim `4` acende do mesmo jeito que `2`* |
 | **13** | **a coluna do capanga.** As treze são recalculadas contra o capanga — `73` por rodada em `1` ação, em vez de `219` em `3` —, e a checagem cobra que **nenhum nível se mova** e que a dominância continue passando dos dois lados. *Ela é a prova de que a régua não depende de contra quem foi escrita, e desde a v0.201 essa promessa deixou de ser retórica: o nível vem das ações negadas, que não olham o alvo* |
+| **14** | **o `Calado` nas cinco cópias.** *Desde a v0.276.* A linha dele no §3.2 é a dona, e o glossário, o capítulo 15, o capítulo 9 do livro e o gerador do manual têm de dizer o mesmo — *a redação que o Mizuki escreveu no livro na v0.176 ficou três cópias atrás por cem versões, porque nada comparava.* E a regra da `Kata` sob o `Calado` tem de estar aqui e no capítulo 15 |
 
 > **A checagem 9 é a que esta peça existe para ter.** *Ela é a única que sai da pasta, junto com a do `conferir-catalogo.py` — e é ela que pegaria o `Punho` de novo se alguém reescrever o texto da entrega sem mexer no preço, ou o contrário.*
 

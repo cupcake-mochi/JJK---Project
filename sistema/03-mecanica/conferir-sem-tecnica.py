@@ -382,7 +382,23 @@ for velho, novo in RENOMES.items():
              f'"onde o capitulo 9 escreve X, leia Y" — nesta rota ele se '
              f'chama `{novo}`, e o livro e o que o jogador le')
     else:
-        print(f'  [x] `{velho}` so aparece no livro dentro do ponteiro pro capitulo 9')
+        print(f'  [x] `{velho}` so aparece no livro dentro da frase da troca')
+
+# 13.1 (v0.276): a troca vale no LIVRO INTEIRO, por decisao do Mizuki ("A"). Ate a v0.275 a
+# frase dizia "onde o capitulo 9 ou o capitulo 8 escreve feitico, leia `Manejo`", e o resto do
+# livro — a Cesta, o teto da Extensao, o turno, o ritual — nao alcancava esta rota pela letra.
+# E a frase do feitico diz "leia TAMBEM": o `Manejo` vale como feitico dos dois lados da mesa, e
+# nao no lugar dele — trocando a palavra, o `Quebranto` protegeria so contra `Manejo`.
+_alc13 = {'feitiço': 'Onde qualquer capítulo escreve *feitiço*, leia também `Manejo`: a regra vale para o seu e para o de qualquer um.',
+          'Técnica Máxima': 'Onde qualquer capítulo escreve *Técnica Máxima*, leia `Auge`.'}
+for velho, frase in _alc13.items():
+    if frase not in LIVRO25:
+        erro(f'13.1: o capitulo 43 parou de dizer que a troca de `{velho}` vale no livro inteiro — '
+             f'a frase esperada e "{frase[:60]}..."')
+if re.search(r'Onde o capítulo 9[^.]*escreve \*(?:feitiço|Liberação Máxima|Técnica Máxima)\*', LIVRO25):
+    erro('13.1: o capitulo 43 voltou a limitar a troca a um capitulo ("Onde o capitulo 9 ... escreve")')
+elif all(f in LIVRO25 for f in _alc13.values()):
+    print('  [x] a troca vale no livro inteiro, e o `Manejo` vale como feitico dos dois lados da mesa')
 
 # --------------------------------------------------------------------------
 print()

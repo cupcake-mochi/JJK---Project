@@ -579,7 +579,7 @@ Você tem energia amaldiçoada, então tem PE, aptidões e refino como qualquer 
 
 **Corpo pela técnica.** O corpo não funciona, e em troca a energia é enorme.
 
-**Sem energia.** Você nasceu sem energia amaldiçoada nenhuma, e em troca o corpo recebeu a troca. Você não conjura, não canaliza e não sente energia, e fere maldição com ferramenta amaldiçoada. **A Origem fixa a perda e não o que você constrói em cima dela:** um restringido que nunca levantou peso e resolve tudo pela cabeça é uma ficha legítima.
+**Sem energia.** Você nasceu sem energia amaldiçoada nenhuma, e em troca o corpo recebeu a troca. Você não conjura, não canaliza e não sente energia, e fere maldição com ferramenta amaldiçoada. O que você não conjura é energia: a sua `Kata`, da Técnica Marcial, é o corpo, e continua. **A Origem fixa a perda e não o que você constrói em cima dela:** um restringido que nunca levantou peso e resolve tudo pela cabeça é uma ficha legítima.
 
 **Na obra:** o Kokichi Muta, pelo corpo; a Maki e o Toji, pela falta de energia.
 

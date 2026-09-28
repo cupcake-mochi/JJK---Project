@@ -13,6 +13,8 @@ Trabalhe em `/media/mizuki/HD Externo II/Claude/Claude 2/`, na pasta **principal
 - ~~**A — os Caminhos novos no livro (v0.270).**~~ **FECHADA na v0.270**, *e as decisões que ela deixou fecharam na v0.271: a perícia fixa do Bastião é `Provocar`, a frase dos Limites voltou com o Socorrista como exceção, ninguém cura outra pessoa com Energia Reversa, e os renomes `Eco Amaldiçoado`, `Impulso Energético` e `Sobre Carregar Energia`, com o resto das colisões aprovado.*
 - ~~**B — a rodada 3 dos anti-domínio.**~~ **FECHADA na v0.274:** *a `Pétala` na v0.272, a `Extensão de Domínio` na v0.273, e a comparação das quatro na v0.274 — nenhuma ficou dominada.*
 - ~~**C — as Invocações, no ponto exato em que pararam.**~~ **FECHADA na v0.275:** *o §46 — a zero PV a invocação sai de campo, e a que o vínculo não deixa recolher fica `Desligada` — mora em `invocacoes/DECISOES-A-PARTIR-DO-46.md`.*
+- ~~**Depois de C, a troca de nome no livro inteiro.**~~ **FECHADA na v0.276**, *com o `Calado` alinhado nas cinco cópias e o manual na v7.39.*
+- **Agora, a fila grande do `sistema/ESTADO-ATUAL.md`**, *que o Mizuki deixou por último: "vamos continuar o 1, deixando a fila grande por ultimo". E ele pediu para emendar um item no outro sem perguntar — "sempre que finalizar pode ir automaticamente pro proximo" —, parando só em decisão dele e em commit.*
 
 **Ao começar cada parte, diga em uma linha o modelo e o esforço que você recomenda para ela.**
 
@@ -29,7 +31,7 @@ Trabalhe em `/media/mizuki/HD Externo II/Claude/Claude 2/`, na pasta **principal
 
 ## Passo 0 — onde está
 
-1. **O `main` deve estar no commit da v0.275** ou mais novo, com a entrega no *recorte da v0.275*. *A v0.272, a v0.273 e a v0.274 foram commitadas em 27/09, mas o push falhou: o GitHub CLI estava com a conta `Gustavo-MrTs` ativa, e não a `cupcake-mochi`. Se `git status` disser que o `main` está à frente do `origin`, o push ainda não saiu — lembre o Mizuki, porque trocar a conta é com ele.* Rode `git log -3` e `git status` na pasta principal antes de qualquer coisa. *Se houver commit mais novo, leia a entrada dele no `CHANGELOG` antes de seguir.*
+1. **O `main` deve estar no commit da v0.276** ou mais novo, com a entrega no *recorte da v0.276*. *Se estiver na v0.274, a v0.275 e a v0.276 não subiram: os patches e as mensagens estão na pasta agentes-2026-09-27 do HD, para subir em sequência.* *A v0.272, a v0.273 e a v0.274 foram commitadas em 27/09, mas o push falhou: o GitHub CLI estava com a conta `Gustavo-MrTs` ativa, e não a `cupcake-mochi`. Se `git status` disser que o `main` está à frente do `origin`, o push ainda não saiu — lembre o Mizuki, porque trocar a conta é com ele.* Rode `git log -3` e `git status` na pasta principal antes de qualquer coisa. *Se houver commit mais novo, leia a entrada dele no `CHANGELOG` antes de seguir.*
 2. **Rode a skill `rpg-da-guilda`.**
 3. **Leia `sistema/ESTADO-ATUAL.md` inteiro**, inclusive a fila no fim — ele trunca, e se vier aviso de leitura parcial, continue do offset —, e o `README.md`, que tem as **nove lições que custaram erro**.
 
@@ -81,7 +83,7 @@ Trabalhe em `/media/mizuki/HD Externo II/Claude/Claude 2/`, na pasta **principal
 
 *"Depois vamos para a 2-3-4": as Invocações (fechadas na v0.275), os pendentes pequenos logo abaixo, e a troca de nome valendo no livro inteiro — e "deixando a fila grande por último".*
 
-**A troca de nome no livro inteiro — DECIDIDA, falta aplicar.** *Hoje o capítulo 43 manda ler `Manejo` onde os capítulos 8 e 9 escrevem feitiço, e o 42 manda ler `Kata` nos mesmos dois; o resto do livro também escreve feitiço — a Cesta ("nada de feitiço com `Gesto`"), o teto da Extensão, o turno, dano e condições, o ritual, a experiência —, e pela letra nada disso alcança o Sem Técnica nem a Técnica Marcial.* **A decisão:** *"A" — a frase dos capítulos 42 e 43 passa a "onde o livro escreve feitiço, leia `Manejo`/`Kata`". E nas palavras dele: "antes o plano era impedir restringido e sem técnica de usar emanador, mas agora n tem o pq impedir".* **A peça 25 já diz que o `Manejo` "é o feitiço com outro nome"**, *então a versão alinha o livro com a peça. A checagem 13 do `conferir-sem-tecnica.py` lê a frase do capítulo 43, e a do capítulo 42, a mesma checagem no `conferir-marcial.py`.*
+~~**A troca de nome no livro inteiro — DECIDIDA, falta aplicar.**~~ **APLICADA na v0.276**, *com o "leia também", a exceção do Restringido e o `Calado` da `Kata` ("Só se seguir os mesmos padrões, algumas ferramentas podem necessitar som"); o registro de antes fica abaixo.* *Hoje o capítulo 43 manda ler `Manejo` onde os capítulos 8 e 9 escrevem feitiço, e o 42 manda ler `Kata` nos mesmos dois; o resto do livro também escreve feitiço — a Cesta ("nada de feitiço com `Gesto`"), o teto da Extensão, o turno, dano e condições, o ritual, a experiência —, e pela letra nada disso alcança o Sem Técnica nem a Técnica Marcial.* **A decisão:** *"A" — a frase dos capítulos 42 e 43 passa a "onde o livro escreve feitiço, leia `Manejo`/`Kata`". E nas palavras dele: "antes o plano era impedir restringido e sem técnica de usar emanador, mas agora n tem o pq impedir".* **A peça 25 já diz que o `Manejo` "é o feitiço com outro nome"**, *então a versão alinha o livro com a peça. A checagem 13 do `conferir-sem-tecnica.py` lê a frase do capítulo 43, e a do capítulo 42, a mesma checagem no `conferir-marcial.py`.*
 
 ## Pendentes pequenos, fora das três partes
 
@@ -95,7 +97,7 @@ Trabalhe em `/media/mizuki/HD Externo II/Claude/Claude 2/`, na pasta **principal
 
 ## Onde o projeto está
 
-**v0.275.** Manual do Fundamento na **v7.38**. **Vinte e sete peças de regra e vinte e sete validadores** em `sistema/03-mecanica/`, mais o `conferir-repositorio.py`, os dois de `manual/matematica/` e o `conferir-voz.py` — **31 validadores**. O livro tem **18 capítulos**. A ficha (`Claude 3`, o `Ficha---RPG-JJK`) não mudou.
+**v0.276.** Manual do Fundamento na **v7.39**. **Vinte e sete peças de regra e vinte e sete validadores** em `sistema/03-mecanica/`, mais o `conferir-repositorio.py`, os dois de `manual/matematica/` e o `conferir-voz.py` — **31 validadores**. O livro tem **18 capítulos**. A ficha (`Claude 3`, o `Ficha---RPG-JJK`) não mudou.
 
 **A v0.264 e a v0.265 foram pesquisa** (`sistema/01-pesquisa/anti-dominios/`, arquivos `A` a `N`). **A v0.266 foi a rodada 1** (as frases da peça 11 que atribuíam à obra o que ela não faz). **A v0.267 foi a rodada 2, a Cesta**, e **a v0.268 e a v0.269, o começo da rodada 3, o Simples** — *a v0.269 trocou a regra de queda que a v0.268 tinha publicado.*
 

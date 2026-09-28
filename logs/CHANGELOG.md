@@ -8,6 +8,52 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.276] — 27/09/2026
+
+**A troca de nome passou a valer no livro inteiro, e o `Calado` chegou às três cópias que a v0.176 deixou para trás.** *O `Manejo`, a `Kata`, a `Ruptura`, o `Ōgi` e o `Auge` valem em todo capítulo, e não só no 8 e no 9; o Restringido ganhou a exceção que a equivalência pedia; e o `Calado` corta a `Kata` pelo mesmo padrão do feitiço.* **O manual do Fundamento foi à v7.39.**
+
+### 1 · As respostas, nas palavras dele
+
+- **A troca no livro inteiro — "A, antes o plano era impedir restringido e sem técnica de usar emanador, mas agora n tem o pq impedir".** *O Emanador fica aberto aos dois: o kit dele é feito de feitiço, e o `Manejo` e a `Kata` valem como feitiço.*
+- **O `Calado` na `Kata` — "Só se seguir os mesmos padrões, algumas ferramentas podem necessitar som".** *Ela não sai se precisar de voz, como a Restrição `Gesto`, que pede falar, ou de uma ferramenta que precise de som; a que não precisa sai normalmente.*
+- **E o jeito de trabalhar — "Vamos pro proximo, sempre que finalizar pode ir automaticamente pro proximo".** *Fechou um item, emendo o seguinte; paro em decisão dele e em commit, que continua sendo dele.*
+
+### 2 · O que o teste da leitura achou antes de aplicar
+
+- **"Leia `Kata` no lugar de feitiço" quebra onde o feitiço é de outra pessoa.** *O `Quebranto` dá sucesso "contra um feitiço", o `Anátema` anula "um feitiço que vem em você", a `Leitura` identifica "qualquer feitiço conjurado", o teto da Extensão anula "um feitiço de Classe" e a CD de quem te feriu é "a do feitiço dele" — trocando a palavra, cada um passaria a valer só contra `Kata`.* **A frase virou "leia também": a regra vale para a sua e para a de qualquer um.**
+- **As outras três trocas tinham o mesmo buraco.** *A `Técnica Máxima` aparece nos capítulos 8, 25 e 80, e a `Liberação Máxima` no ritual e no 80.* **A pergunta foi "a troca de nome pro livro inteiro", e a frase dela citava o feitiço; apliquei às cinco, porque o motivo é o mesmo.** *Leitura minha, para ele vetar.*
+- **O Restringido perderia a própria rota.** *As linhas do ramo sem energia dizem "não conjura" e "sem feitiço de Toque"; com a `Kata` valendo como feitiço, ele ficaria sem a Técnica Marcial, que é a criação dele desde a v0.122.* **A exceção ficou escrita no capítulo 42, no 25 e na peça 9:** *o que ele não conjura é energia, e a `Kata` é o corpo.*
+- **O `Calado` cortaria toda `Kata`**, *porque ela rola conjuração — e foi a pergunta que ele respondeu.*
+
+### 3 · O `Calado`, e a divergência de cem versões
+
+**Na revisão da v0.176 o Mizuki estreitou o `Calado` no livro** — *de "Nada que precise de voz, gesto ou Selo sai" para "Selo que envolva voz" no capítulo 9 e "Selo que exija falar" no 15.* **A mudança não chegou à peça 19, que é a dona, ao glossário nem ao gerador do manual**, *e nada comparava as cinco cópias.* **Hoje as cinco dizem "Selo que envolva voz"**, *que é a redação do capítulo 9 — a do 15 dizia o mesmo com outras palavras.*
+
+**O preço do `Calado` não foi refeito.** *A régua da peça 19 cobra do alvo uma ação inteira, e isso supõe que ele conjura com voz, gesto ou Selo de voz — o caso dos Selos da obra, de palma, fala e sinal de mão. Contra quem conjura com Selo de condição e sem `Gesto`, o `Calado` não tira ação, e isso não foi medido.* **Entrou na fila, como o item 16.**
+
+### 4 · Onde entrou
+
+- **O livro:** *o capítulo 43 (a troca do `Manejo` e do `Auge`), o 42 (a da `Kata`, da `Ruptura` e do `Ōgi`, a exceção do Restringido e o `Calado`), o 25 (a exceção), o 15 (o `Calado` e a `Kata`) e o glossário (o `Calado`).*
+- **As peças:** *a 25 §3.1 e a 20 §3.1 (a troca no livro inteiro, e na 20 a exceção e o `Calado`), a 9 (a exceção do Restringido) e a 19 §3.2 (o `Calado`, a `Kata` e a nota do preço).*
+- **O manual do Fundamento, v7.39:** *a linha do `Calado` no `partD.js`, a versão no `partA.js` e nos dois `COMO-USAR.txt`, e o `.docx` e o `.pdf` regerados (`50` páginas).*
+
+### 5 · Os validadores
+
+- **`conferir-sem-tecnica.py`, 13.1, nova:** *a troca do capítulo 43 tem de valer no livro inteiro, com o "leia também", e nenhuma frase de troca pode voltar a dizer "onde o capítulo 9 escreve".*
+- **`conferir-marcial.py`, 14.1, nova:** *o mesmo para o capítulo 42, a exceção do Restringido nos três lugares, e o `Calado` da `Kata` no capítulo 42.*
+- **`conferir-dano.py`, 14, nova:** *o `Calado` da peça 19 igual nas outras quatro cópias, e a regra da `Kata` na peça e no capítulo 15.* **Foi o caso da v0.176, que ficou cem versões sem ninguém comparar.**
+- **`conferir-repositorio.py`, 7.2:** *a base fica em `198` — nenhuma citação nova entrou na entrega.* **E a checagem 9 pegou uma contagem:** *o `conferir-dano.py` passou a ter `14` checagens, e o `ESTADO`, o `README`, o `LEIA-ME` e a peça 19 diziam `13`; a peça 19 ganhou a linha da 14.*
+
+### 6 · O que foi conferido
+
+*Os quatro builds do livro (`282` e `171` páginas) e o manual regerado (`50` páginas); o `conferir-voz.py --estrito` sai `0`, e o `conferir-manual.py` lê o `.docx` novo.* **A bateria: 31 de 31, com PULADA zero**, *numa cópia da pasta principal na ordem em que ele vai subir: o patch da v0.275, o `subir.sh` até os validadores, o commit da entrega, e o patch da v0.276 por cima.*
+
+**O arnês:** *na mesma cópia, com a base verde antes e depois. Onze perturbações acendem pela mensagem certa — o capítulo 43 voltando aos capítulos 8 e 9, a `Kata` perdendo o "leia também", o `Ōgi` voltando ao capítulo 9, a exceção do Restringido sumindo do capítulo 25 e da peça 9, o `Calado` da `Kata` sumindo do capítulo 42, a peça 19, o glossário e o gerador voltando ao "Selo sai", o capítulo 15 voltando ao "exija falar", e a regra da `Kata` sumindo do 15 —, e um contra-teste coerente fica verde: as cinco cópias do `Calado` juntas para "Selo que exija falar".*
+
+→ **Continua em** `PROMPT-continuar.md`: *a fila grande, que o Mizuki deixou por último.*
+
+---
+
 ## [0.275] — 27/09/2026
 
 **As Invocações ganharam o §46: a zero PV, a invocação sai de campo.** *Era o ponto exato em que o subsistema tinha parado — o §22 exigia a mesma consequência em campo e na reserva, e ninguém tinha escolhido qual.* **O pacote em `invocacoes/03-INVOCACOES/` continua como chegou, byte a byte, e a decisão mora em `invocacoes/DECISOES-A-PARTIR-DO-46.md`, que continua a numeração dele.** *Nenhuma regra do livro mudou: as Invocações seguem fora da edição jogável.*

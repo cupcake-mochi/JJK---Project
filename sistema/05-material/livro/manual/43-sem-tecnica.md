@@ -16,7 +16,7 @@ Duas coisas mudam de nome e uma some.
 
 ### `Manejo`
 
-**`Manejo`** — a sua aplicação concreta, montada com pontos. Mesma Classe, mesmos pontos, mesmo custo em PE, mesmo teto de Melhoria e de Restrição. **Onde o capítulo 9, *Fundamento*, ou o capítulo 8, *Caminhos e Trilhas*, escreve *feitiço*, leia `Manejo`.** Os degraus de Trilha que conjuram valem igual: a Classe é a mesma, o custo em PE é o mesmo, e o que sai da sua mão é Manejo.
+**`Manejo`** — a sua aplicação concreta, montada com pontos. Mesma Classe, mesmos pontos, mesmo custo em PE, mesmo teto de Melhoria e de Restrição. **Onde qualquer capítulo escreve *feitiço*, leia também `Manejo`: a regra vale para o seu e para o de qualquer um.** Os degraus de Trilha que conjuram valem igual: a Classe é a mesma, o custo em PE é o mesmo, e o que sai da sua mão é Manejo.
 
 O nome não é enfeite. A categoria inteira de técnicas que não nascem com a pessoa se chama manipulação de energia amaldiçoada, e é literalmente o que esta rota faz.
 
@@ -24,7 +24,7 @@ O nome não é enfeite. A categoria inteira de técnicas que não nascem com a p
 
 **`Auge`** — o golpe de dano fixo, do nível 17 em diante. **Dano pela faixa de nível, orçamento de montagem à parte, `5 × maior Classe` de PE**, e não aceita Restrição.
 
-Onde o capítulo 9, *Fundamento*, escreve *Técnica Máxima*, leia `Auge`.
+Onde qualquer capítulo escreve *Técnica Máxima*, leia `Auge`.
 
 ### Liberação Máxima
 
