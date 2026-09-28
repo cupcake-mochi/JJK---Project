@@ -13,6 +13,7 @@ O desenvolvimento foi feito fora desta pasta, num chat que não a via, e voltou 
 | `03-INVOCACOES/` | o subsistema como ele está: a candidata v0.3, revisão 5, com as decisões até o §45 e as 212 verificações simbólicas. **Sem prova de equilíbrio e sem playtest humano.** Comece pelo `00-REGISTRO-E-PONTO-DE-RETOMADA.md` |
 | `04-PESQUISAS-E-HISTORICO/` | as pesquisas, os rascunhos, os retornos de auditoria e os pacotes originais que levaram à r5. Serve para uma dúvida específica, e não para leitura inteira |
 | `museu/` | o texto que saiu do livro na v0.270, sem mudar uma linha: o capítulo de Invocações (`60-invocacoes.md`) e a seção do Evocador do capítulo de Caminhos (`35-evocador.md`) |
+| `DECISOES-A-PARTIR-DO-46.md` | as decisões depois do pacote, a partir do §46, no formato do registro dele |
 
 ## O que continua valendo, e onde
 
@@ -24,7 +25,9 @@ O desenvolvimento foi feito fora desta pasta, num chat que não a via, e voltou 
 
 ## Onde o trabalho parou
 
-A próxima discussão é o que acontece quando uma invocação chega a zero PV. A decisão do §22 aprovou a equivalência entre campo e reserva, mas não escolheu entre dissipar, ficar inconsciente, ser destruída ou se recuperar. Foi recomendado que ela saia do campo a zero PV, encerrando ordens e preparações pela saída, sem devolução nem cura automática — e **o Mizuki ainda não aprovou**. Não há §46.
+**O §46 fechou na v0.275, e mora em `DECISOES-A-PARTIR-DO-46.md`, ao lado do pacote** — *o `03-INVOCACOES/` continua como chegou.* A zero PV a invocação para de atuar e sai de campo, pelas regras de saída que a r5 já tinha: a ordem pendente e a preparação se encerram, sem devolução, e a queda não é substituição. A que o vínculo não deixa recolher fica no lugar, `Desligada`. **Morte definitiva, volta, cura e preço continuam pendentes**, candidatos a depender do vínculo.
+
+*Até a v0.274 este parágrafo dizia que a recomendação esperava o Mizuki e que não havia §46.* A próxima revisão da candidata integra o §46 ao texto dela; até lá, a r5 é a leitura corrente, com esta folha ao lado.
 
 ## Por que esta pasta fica fora da checagem de referência morta
 

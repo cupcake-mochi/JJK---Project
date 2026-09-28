@@ -8,6 +8,33 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.275] — 27/09/2026
+
+**As Invocações ganharam o §46: a zero PV, a invocação sai de campo.** *Era o ponto exato em que o subsistema tinha parado — o §22 exigia a mesma consequência em campo e na reserva, e ninguém tinha escolhido qual.* **O pacote em `invocacoes/03-INVOCACOES/` continua como chegou, byte a byte, e a decisão mora em `invocacoes/DECISOES-A-PARTIR-DO-46.md`, que continua a numeração dele.** *Nenhuma regra do livro mudou: as Invocações seguem fora da edição jogável.*
+
+### 1 · As respostas, nas palavras dele
+
+- **Na hora em que chega a zero PV — "A":** *ela para de atuar e sai de campo, pelas regras de saída que a r5 já tinha: a ordem antecipada e a preparação se encerram, sem devolver a Padrão, a básica ou os custos. A queda não é substituição — a básica não gasta não passa a outra entidade, e a queda não dá entrada nem primeira intenção gratuita.*
+- **A que o vínculo não deixa recolher — "A - Desligada":** *fica no lugar, sem atuar, sem a Reação coletiva, com as ordens encerradas como na saída.* **O nome é dele**, *e passou na triagem (`LIVRE`); a colisão de sentido com o tipo de Legado `Desliga` ficou anotada, e é baixa.*
+- **E a ordem da fila — "vamos continuar o 1, deixando a fila grande por último":** *a Parte C, depois os pendentes pequenos e a troca de nome no livro inteiro, e só então a fila grande.*
+
+### 2 · O que foi conferido antes de perguntar
+
+- **As 45 decisões da r5**, *para não reabrir nenhuma: a saída de campo (6.7, 8.1, 8.1.1), a reserva (9.5–9.8) e a equivalência do §22.* **O caso que abriu a pergunta sai delas sozinho:** *a especial preparada se perde, e a Padrão e a básica investidas continuam gastas.*
+- **O hobby:** *a invocação de magia some a zero em D&D 5e e é banida em Pathfinder 2e; o companheiro de corpo físico de D&D (o Steel Defender) fica caído e pode ser revivido em uma hora.* **A obra:** *a pesquisa das Invocações registra que as Dez Sombras perdem o shikigami de vez, e diz que toda invocação "morrer da mesma maneira" achata a obra* — **por isso a morte definitiva, a volta, a cura e o preço ficaram pendentes**, *candidatos a depender do vínculo quando o construtor existir.*
+
+### 3 · Onde entrou
+
+- **`invocacoes/DECISOES-A-PARTIR-DO-46.md`**, *novo: o §46 inteiro, com a pergunta, a resposta, o aprovado, os esclarecimentos e os limites.*
+- **`invocacoes/LEIA-ME.md`:** *o "onde o trabalho parou" e a tabela das pastas.*
+- **A fila do `ESTADO-ATUAL` (item 13) e o `PROMPT-continuar.md`:** *a Parte C fecha o ponto do zero PV.*
+
+**Nenhum validador mudou.** *O `conferir-repositorio.py` confere as citações do arquivo novo, como as do `LEIA-ME` do lado; o pacote segue isento pelo motivo que o próprio validador escreve.* **Bateria: 31 de 31, com PULADA zero**, *numa cópia da pasta principal com a v0.274 commitada e o patch da v0.275; a entrega só muda no recorte do `README`.*
+
+→ **Continua em** `PROMPT-continuar.md`: *os pendentes pequenos e a troca de nome no livro inteiro, que o Mizuki já decidiu; a fila grande fica por último.*
+
+---
+
 ## [0.274] — 27/09/2026
 
 **A comparação das quatro anti-domínio fechou a rodada 3, e nenhuma ficou dominada.** *Em todo perfil, nível e cena medidos, nenhuma deixa passar sempre no máximo o que outra deixa, custando no máximo o mesmo PE e chegando no mesmo nível ou antes.* **A comparação achou uma leitura dupla na Cesta — o Mizuki fechou —, um arredondamento errado no bestiário e três sobras da v0.273.**
