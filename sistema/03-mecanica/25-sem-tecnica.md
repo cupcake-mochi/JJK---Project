@@ -196,7 +196,7 @@ A terceira linha é a que faz esta peça caber sem furar nada. **O `arquitetura.
 
 ## 7. O vão, medido — e é por isso que a máquina é o Fundamento e não outra coisa
 
-**Sem máquina nenhuma, a rodada de `Sem Técnica` é a Ação de Atacar e mais nada:** *golpe simples mais o dano na arma do `canalizar energia`, dobrado pelo ataque extra do nível 7.*
+**Sem máquina nenhuma, a rodada de `Sem Técnica` é a Ação Atacar e mais nada:** *golpe simples mais o dano na arma do `canalizar energia`, dobrado pelo ataque extra do nível 7.*
 
 | nível | Rotina | a rodada dela | % da Rotina |
 |---|---|---|---|

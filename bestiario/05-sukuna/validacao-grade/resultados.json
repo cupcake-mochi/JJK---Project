@@ -1,0 +1,58 @@
+[
+  {
+    "caso": "base isolada",
+    "passou": true
+  },
+  {
+    "caso": "gasto-sem-cota",
+    "esperado": "falhar",
+    "observado": "falhou",
+    "codigo": 1
+  },
+  {
+    "caso": "falha-apaga-saldo",
+    "esperado": "falhar",
+    "observado": "falhou",
+    "codigo": 1
+  },
+  {
+    "caso": "PV-final-no-lugar-da-base",
+    "esperado": "falhar",
+    "observado": "falhou",
+    "codigo": 1
+  },
+  {
+    "caso": "PV-com-fator-invertido",
+    "esperado": "falhar",
+    "observado": "falhou",
+    "codigo": 1
+  },
+  {
+    "caso": "preco-Classe-4-congelado",
+    "esperado": "falhar",
+    "observado": "falhou",
+    "codigo": 1
+  },
+  {
+    "caso": "braco-antigo",
+    "esperado": "falhar",
+    "observado": "falhou",
+    "codigo": 1
+  },
+  {
+    "caso": "intervencao-inteira",
+    "esperado": "falhar",
+    "observado": "falhou",
+    "codigo": 1
+  },
+  {
+    "caso": "controle-fonte-coerente",
+    "esperado": "passar",
+    "observado": "passou",
+    "codigo": 0
+  },
+  {
+    "caso": "restauracao",
+    "passou": true
+  }
+]

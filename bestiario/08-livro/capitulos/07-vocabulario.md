@@ -14,22 +14,22 @@ capítulo que a explica.
 
 ## Categoria
 
-*Quantos personagens o inimigo exige. Capítulo 6, Passo 1.*
+*A dificuldade da luta. O N diz para quantos personagens do nível ela é feita, do `×1` ao `×6`. Capítulo 6, Passo 1.*
 
 **Vocabulário de categoria**
 {: .tab-titulo }
 
 | termo | o que quer dizer |
 |---|---|
-| **`Capanga`** | esquadrão de oito corpos em pool, com um chefe ou sozinho |
-| **`Ameaça`** | exige uma pessoa |
-| **`Desastre`** | exige quatro — a mesa padrão |
-| **`Catástrofe`** | exige seis — a mesa cheia |
-| **`Calamidade`** | exige oito, e nenhuma mesa tem oito |
+| **`Capanga`** | a luta trivial: um esquadrão de dois corpos por personagem, em pool, sozinho ou com um chefe |
+| **`Ameaça`** | a luta baixa |
+| **`Desastre`** | a luta moderada — o `Desastre ×4` é o chefe da tabela de inimigo do manual |
+| **`Catástrofe`** | a luta severa |
+| **`Calamidade`** | a luta extrema |
 
 ## Papel
 
-*Como o inimigo luta. Ele redistribui o que a categoria deu. Capítulo 6, Passo 2.*
+*Como o inimigo luta. Ele muda um número e paga na vida. Capítulo 6, Passo 2.*
 
 **Vocabulário de papel**
 {: .tab-titulo }
@@ -40,7 +40,7 @@ capítulo que a explica.
 | **`Baluarte`** | troca vida por Defesa |
 | **`Artilheiro`** | troca vida por alcance de `18 m` |
 | **`Emboscador`** | troca vida por vantagem em um ataque por rodada |
-| **`Controlador`** | troca dano por uma ação negada do grupo |
+| **`Controlador`** | troca vida por uma ação negada do grupo |
 | **`Reforço`** | troca vida por ganho em outro bloco |
 
 ## Tamanho
@@ -66,7 +66,7 @@ capítulo que a explica.
 |---|---|
 | **`Ações Múltiplas`** | primeira entrada de `Ações` em quem age mais de uma vez por rodada. Diz quais ataques ele faz e em que combinação |
 | **`Núcleos (N)`** | traço que reparte a vida em `N` partes iguais |
-| **`Intervenções`** | as três ações extras de um `Desastre` para cima. Cada uma sai uma vez por luta, no máximo uma por rodada |
+| **`Intervenções`** | as três ações extras de quem a porta abre, quando `N × orçamento ≥ 4`. Cada uma sai uma vez por luta, no máximo uma por rodada |
 | **`Intervenção`** | cada uma delas, logo depois do turno de outra criatura |
 | **`Recarga (5-6)`** | rótulo de frequência: volta por sorte, no início do turno dele |
 | **`Resistências`** | os tipos de dano que chegam pela metade |

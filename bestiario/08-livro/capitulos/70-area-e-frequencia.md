@@ -14,7 +14,8 @@ dela, em *Rótulos de frequência*. A área que ele usa sem técnica está em *�
 | **`1× por luta`** | a jogada única |
 | **`Recarga (5-6)`** | volta por sorte, no início do turno dele |
 
-`Recarga (5-6)` dispara pouco menos de duas vezes numa luta de três rodadas. Use quando a ação puder
+`Recarga (5-6)` dispara pouco menos de duas vezes numa luta de três rodadas, e pouco mais de
+duas numa de cinco. Use quando a ação puder
 sair de novo, sem garantia, e leia *`Recarga` em área* antes de escrever uma.
 
 ## Parênteses de custo e pré-requisito
@@ -109,10 +110,10 @@ da vida.
 ## Trava no esquadrão
 
 > No esquadrão de `Capanga`, é **`1` ação em área por rodada no esquadrão inteiro**. Os outros
-> sete batem normal.
+> corpos batem normal.
 
-Oito corpos com ação em área entregam mais que a vida de cada personagem por rodada, e derrubam a
-mesa em menos de uma rodada. A cota é do esquadrão, e não de cada corpo.
+Um esquadrão com ação em área em cada corpo derruba a mesa em menos de uma rodada. A cota é do
+esquadrão, e não de cada corpo.
 
 ## `Recarga` em área
 
@@ -127,12 +128,14 @@ em `d12`, com dois terços em dado e o resto fixo, sem o teto de oito dados do g
 Uma ação de `Recarga` que mira uma pessoa só concentra o dano e tira alguém da mesa; em área, o dano
 se espalha. Quando você escrever uma `Recarga (5-6)`, escreva ela em área.
 
+A `Recarga (5-6)` se paga na vida, e o golpe não muda. O preço depende só de quanto a luta dura.
+
 **Preço da Recarga**
 {: .tab-titulo }
 
-| categoria | multiplica o fator por |
+| categoria | divide a vida por |
 |---|---|
-| **`Ameaça`** | `1,14` |
-| **`Desastre`** | `1,37` |
-| **`Catástrofe`** | `1,28` |
-| **`Calamidade`** | `1,37` |
+| **`Ameaça`** | `1,15` |
+| **`Desastre`** | `1,14` |
+| **`Catástrofe`** | `1,12` |
+| **`Calamidade`** | `1,12` |

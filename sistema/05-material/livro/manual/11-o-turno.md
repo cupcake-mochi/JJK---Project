@@ -67,7 +67,7 @@ Doze ações têm regra escrita, e você continua podendo tentar o que não est�
 | **Conjurar** | um feitiço, pelo Fundamento |
 | **Correr** | ganhe deslocamento igual ao seu, pelo resto do turno |
 | **Desengajar** | o seu movimento não provoca ataque de oportunidade pelo resto do turno |
-| **Esquivar** | ataques contra você têm desvantagem, e os seus Testes de Resistência de Destreza têm vantagem, até o começo do seu próximo turno |
+| **Esquivar** | ataques contra você têm desvantagem, e os seus Testes de Resistência Físicos têm vantagem, até o começo do seu próximo turno |
 | **Esconder** | um teste de `Furtividade` |
 | **Ajudar** | dá vantagem ao próximo teste ou ataque de um aliado |
 | **Influenciar** | um teste de Essência para mudar a atitude de alguém |

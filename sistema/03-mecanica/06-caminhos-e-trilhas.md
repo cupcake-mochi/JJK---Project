@@ -71,8 +71,29 @@ Renomear a aptidão sairia mais caro: *canalizar energia* é termo da própria o
 | `Eco` | `Eco Amaldiçoado` | o Emanador | `Eco Técnico`, `Eco de Remodelagem`, `Eco de Modulação` |
 | `Impulso` | `Impulso Energético` | a Trilha Catalisador | `Impulso Técnico` |
 | `Sobrecarga` | `Sobre Carregar Energia` | a Trilha Catalisador | — |
+| `Ação de Atacar` | `Ação Atacar` | os quatro Caminhos | — |
+| `um grupo de armas` | `uma categoria (Grupo das Armas)` | a Trilha Estocada | — |
+| `seus grupos escolhidos` | `suas categorias escolhidas` | a Trilha Estocada | — |
+| `quantidade de grupos` | `quantidade de categorias` | a Trilha Estocada | — |
+| `desses grupos` | `dessas categorias` | a Trilha Estocada | — |
+| `um grupo de armas` | `uma categoria (Grupo das Armas)` | a Trilha Condutor Armado | — |
+| `com o grupo` | `com a categoria` | a Trilha Condutor Armado | — |
+| `desse grupo` | `dessa categoria` | a Trilha Condutor Armado | — |
+| `do mesmo grupo` | `da mesma categoria` | a Trilha Condutor Armado | — |
+| `do grupo` | `da categoria` | a Trilha Condutor Armado | — |
 
 *A coleção em `caminhos/` fica como chegou, byte a byte, e o manifesto de hashes dela continua conferindo; os renomes moram nesta tabela, e a sub-checagem 10.3 do `conferir-catalogo.py` aplica ela antes de comparar a coleção com o livro.* **A Modulação `Impulso` do Emanador não muda** *— o `Impulso Energético` é o recurso do Catalisador. `Eco` e `Ecos` viram `Eco Amaldiçoado` e `Ecos Amaldiçoados`, e o `Sobre Carregar Energia` é masculino no livro: "depois do", "num".* **As colisões aprovadas:** *`Eco Amaldiçoado` carrega a Passiva `Eco`; `Impulso Energético`, a Melhoria `Impulso`; `Sobre Carregar Energia`, a Restrição `Carregar`; `Condutor Armado`, a Melhoria `Armado`; `Condução` é ofício no projeto; e a `Segunda Leitura` do Yumi reaproveita o nome do nível 15 do Emanador da coleção anterior. Os `DENTRO` de menor peso da triagem também ficam.*
+
+**Na v0.281 entraram duas trocas, com as respostas do Mizuki à leitura dos três Caminhos:** *a ação passou a se chamar `Ação Atacar` nos quatro Caminhos — "tem diferença entre 'Atacar' e a 'Ação Atacar', que nem dnd", e a tabela de ações do capítulo 11 já chama a ação de `Atacar` —; e o grupo de armas da Estocada e do Condutor Armado passou a categoria, a palavra do capítulo de equipamento, com o nome antigo entre parênteses onde a escolha é feita — "Pode por categoria, mas coloca logo na frente entre ( ), (Grupo das Armas), facilita entendimento".* **As linhas do grupo são frase a frase**, *porque a palavra muda de gênero; o grupo do Arquiteto é o grupo de jogadores, e fica fora.*
+
+**Pendências da v0.4 decididas**
+
+| entrega | a v0.4 deixou aberto | o livro diz | decisão |
+|---|---|---|---|
+| `Oportunista` | o prazo da preparação, e a abrangência num feitiço com vários ataques, testes ou alvos | "A preparação dura até o fim do seu próximo turno, e vale para um ataque do feitiço ou para o primeiro TR de uma criatura contra ele." | v0.280, "2 - A": um ataque ou um alvo, até o fim do próximo turno |
+| `Contra a Parede` | a ordem de ataque e feitiço, o custo da conjuração e o arredondamento da metade da maior Classe | "A metade arredonda para baixo. Pague o feitiço normalmente, sem PE a mais pela habilidade. O feitiço vem depois do primeiro golpe, e não pode ser crítico." | v0.280: a habilidade não custa PE, a metade arredonda para baixo, e "o custo desse 'feitiço que acompanha', é o custo do feitiço mesmo"; a ordem: "Depois do primeiro golpe e n crita" |
+
+*As pendências são as que a própria coleção anotou, na nota que veio com ela. A frase decidida mora nesta tabela e no quadro da entrega no livro, e a sub-checagem 10.5 do `conferir-catalogo.py` cobra que o quadro diga a frase.* **A redação segue a da v0.4:** *o `Intensificar` do Catalisador já escolhe "um ataque do feitiço" ou "o primeiro TR de uma criatura contra ele", e o `Ritmo Convergente` do Condutor Armado já manda pagar o feitiço "normalmente".* **A terceira pendência, as conversões do nível 15 do Emanador, fechou na v0.281 sem frase nova:** *o texto fica como está, porque a troca entre dano, cura e vida temporária já vem na tabela do Remodelar, no próprio Caminho — "Pode manter como tem, pq evita da galera ir até a pagina do construtor".*
 
 ### A coleção até a v0.269 — o registro com preço
 
@@ -256,21 +277,21 @@ Com um golpe na Ação Bônus, o conjurador de perto cai exatamente na linha do 
 
 *A v0.80 registrou este buraco como **o mais caro que ela deixou aberto**: esta peça publica a rodada do físico como `feitiço de Toque + golpe simples` e **nunca disse em que ação isso acontece**. Ele decidia a `Brasa` por um fator de `2,6×`.*
 
-> **Decisão do Mizuki: a Ação de Atacar NÃO inclui o feitiço de Toque.** *"Não tem como bater junto de um feitiço."* **Os dois não cabem no mesmo turno.**
+> **Decisão do Mizuki: a Ação Atacar NÃO inclui o feitiço de Toque.** *"Não tem como bater junto de um feitiço."* **Os dois não cabem no mesmo turno.**
 
 | o turno, no nível 30 | dano | existe? |
 |---|---|---|
 | feitiço de Toque `94` + golpe simples `11,5` | 105,5 | **sim** — é a linha do físico da seção 3 |
-| 2 golpes simples pela Ação de Atacar | 23 | **sim** |
+| 2 golpes simples pela Ação Atacar | 23 | **sim** |
 | feitiço de Toque + golpe simples **+ feitiço na Ação Bônus** | 132,5 | **não** |
 
-**A única exceção é a `Fornalha`, no nível 27 da `Brasa`** — e é justamente por ser exceção que ela é um degrau de nível 27.
+**Até a v0.269, a única exceção era a `Fornalha`, no nível 27 da `Brasa`.** *Na coleção v0.4, a exceção é a entrega que diz juntar os dois, como o `Contra a Parede`, no nível 27 do `Combatente Amaldiçoado`.*
 
 > **O que isso destrava:** toda entrega de Trilha que se pendura em *"se você usou a ação de atacar"* **não dispara na rodada em que o personagem canaliza.** *É o que faz o nível 2 da `Brasa` ser preçado por taxa em vez de somado no pico.*
 >
-> ## O ataque extra EXIGE a Ação de Atacar — invertido na v0.147
+> ## O ataque extra EXIGE a Ação Atacar — invertido na v0.147
 >
-> > **Você ganha um golpe simples por rodada. Ele exige a Ação de Atacar: acontece junto do que a sua Ação Padrão fez naquele turno, e só nesse caso — a não ser que uma habilidade diga o contrário.**
+> > **Você ganha um golpe simples por rodada. Ele exige a Ação Atacar: acontece junto do que a sua Ação Padrão fez naquele turno, e só nesse caso — a não ser que uma habilidade diga o contrário.**
 >
 > ***Decisão do Mizuki na v0.147, e ela reverte a da v0.82.*** *O motivo é uma entrega publicada que valia zero:* **o `Bote`, nível 19 da `Estocada`, compra "usar o ataque extra na Ação Bônus quando o feitiço da Padrão for de condição" por `2,46` fatias.** *Com o golpe solto, aquilo já acontecia sozinho.* **Uma entrega preçada que não entrega nada é pior do que uma dominância declarada, e as duas estavam medidas.**
 >
@@ -330,7 +351,7 @@ Com um golpe na Ação Bônus, o conjurador de perto cai exatamente na linha do 
 >
 > **A diferença é a mesma nas duas, e ela é exatamente um golpe simples** — que é o que a tabela do §3 publica como o vão, `9 · 10 · 11 · 12` por faixa de nível. *A conta reproduz uma coisa que não foi posta nela.*
 >
-> **E o custo da forma nova está medido, desde a v0.82:** com o ataque extra preso à Ação de Atacar, dois golpes rendem `23` e o Classe 0 que toda ficha tem de graça rende `27`. **A Ação de Atacar fica dominada pelo botão grátis.** *Aquela versão usou isso para recusar a forma; esta versão a escolhe sabendo o preço.*
+> **E o custo da forma nova está medido, desde a v0.82:** com o ataque extra preso à Ação Atacar, dois golpes rendem `23` e o Classe 0 que toda ficha tem de graça rende `27`. **A Ação Atacar fica dominada pelo botão grátis.** *Aquela versão usou isso para recusar a forma; esta versão a escolhe sabendo o preço.*
 >
 > ***A decisão de pagar esse preço é do Mizuki, e o que ela compra é o `Bote` deixar de ser letra morta.***
 >
@@ -465,7 +486,7 @@ A lista definitiva sai junto com o quadro de perícias completo, que é peça pr
 | **Bastião** · **Vanguarda** | **as treze** | Simples, Marciais e Arma de Fogo |
 | **Guia** · **Emanador** · **Evocador** | **duas** | `Arma de Fogo` e `Balestra` |
 
-> **Para um conjurador empunhar o resto, a porta é a Trilha.** *É o que faz a `Arma Condutora` do Condutor Armado, no nível 2: ela concede um grupo de arma à escolha e troca Força por Essência ou Inteligência naquele grupo.* **Um Emanador de espadão existe, e paga com a escolha de Trilha.** *A porta mudou de Trilha na v0.270, com a coleção v0.4; até ali ela era a `Empunhadura` do `Arremate`, com o mesmo efeito.*
+> **Para um conjurador empunhar o resto, a porta é a Trilha.** *É o que faz a `Arma Condutora` do Condutor Armado, no nível 2: ela concede uma categoria (Grupo das Armas) à escolha e troca Força por Essência ou Inteligência naquela categoria.* **Um Emanador de espadão existe, e paga com a escolha de Trilha.** *A porta mudou de Trilha na v0.270, com a coleção v0.4; até ali ela era a `Empunhadura` do `Arremate`, com o mesmo efeito.*
 
 **Duas coisas que esta linha decide, e as duas foram confirmadas pelo Mizuki na v0.130:**
 

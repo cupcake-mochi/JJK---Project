@@ -177,7 +177,7 @@ else:
                      if _re.search(r'\|\s*\*\*' + a + r'\*\*\s*\|', _txt)]
         if _proprias:
             erro(f'peca 3 SS3.1: {_proprias} voltaram a ser acao propria. Elas sao '
-                 f'OPCAO da acao de Atacar desde a v0.83 (o 2024 fez igual): como '
+                 f'OPCAO da Acao Atacar desde a v0.83 (o 2024 fez igual): como '
                  f'acao propria elas ficam dominadas, porque bater duas vezes rende '
                  f'mais do que gastar o turno segurando alguem')
         else:

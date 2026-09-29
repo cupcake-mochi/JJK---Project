@@ -1,58 +1,59 @@
 # 26 · Bestiário — a máquina de montar inimigo
 
-*Fechada na v0.198. Ela estava no fim da fila desde a v0.36 com uma linha só — "sai da matemática de inimigo que o manual já tem" — e era o único item da fila da mecânica desde a v0.168.*
+*Fechada na v0.198. Refeita na v0.282, como a fase 2 do bestiário: a escada que media quantas pessoas o inimigo exigia virou uma grade de dificuldade por tamanho de grupo. A peça de antes está inteira em `sistema/99-arquivo/secoes-substituidas/26-bestiario-a-escada-ate-v0.281.md`, e as decisões e as contas da fase 2, em `bestiario/09-fase-2/`.*
 
 ## 1. O que ela é, e o que ela não é
 
-**Esta peça junta num lugar só os números que montar um inimigo pede.** Até aqui eles moravam em quatro donos — o manual, a peça 1, a peça 19 e o `ESTADO-ATUAL` —, e três dos que a mesa rola toda rodada não tinham dono nenhum: a Defesa do inimigo, o acerto dele e a CD dele.
+**Esta peça junta num lugar só os números que montar um inimigo pede.** Até a v0.198 eles moravam em quatro donos — o manual, a peça 1, a peça 19 e o `ESTADO-ATUAL` —, e três dos que a mesa rola toda rodada não tinham dono nenhum: a Defesa do inimigo, o acerto dele e a CD dele.
 
-**Ela é máquina, e não catálogo.** *Decisão do Mizuki na v0.161: o Bestiário sai como máquina mais maldições prontas, e não como recolhimento puro.* **As prontas ficam para a versão seguinte**, e o §8 diz o que falta nelas.
+**Ela é máquina, e não catálogo.** *Decisão do Mizuki na v0.161: o Bestiário sai como máquina mais maldições prontas, e não como recolhimento puro.* **As prontas moram no livro do Bestiário e no gerador de inimigo**, e a checagem 9.5 do `conferir-bestiario.py` refaz as seis.
 
-> **A ficha de inimigo é a ficha de personagem sem o Caminho.** *Decisão do Mizuki:* **o inimigo tem refino, tem Passiva, tem aptidão e às vezes tem técnica** — muita coisa que ele enfrenta na obra é feiticeiro, e feiticeiro se monta com as mesmas peças. *O que ele não tem é Caminho, Trilha e poço de PE, e o §6 diz por quê.*
+> **A ficha de inimigo é própria, por tabela de nível.** ***Decisão do Mizuki, 28/09/2026:*** *"defesa, acerto, cd, vida podem sim ser aumentados ou diminuídos baseados nos atributos, mas ainda é uma ficha própria semelhante a DnD".* **O inimigo continua tendo refino, Passiva, aptidão e às vezes técnica** — muita coisa que ele enfrenta na obra é feiticeiro, e feiticeiro se monta com as mesmas peças. *O que ele não tem é Caminho, Trilha e poço de PE, e o §6 diz por quê.*
 
 **E a rota que só o inimigo tem é ser maldição.** *O jogador não escolhe isso, em nenhuma das nove rotas de Origem da peça 9.*
 
 ## 2. O grau é ficção, e a obra é quem manda nisso
 
-***Decisão do Mizuki: o grau fica na ficha da maldição como rótulo, e não entra em conta nenhuma.*** **A métrica é o nível e a categoria do §4.**
+***Decisão do Mizuki: o grau fica na ficha da maldição como rótulo, e não entra em conta nenhuma.*** **A métrica é o nível, a categoria e o N do §4.**
 
 O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o grau da maldição parear com o grau do feiticeiro, e o grau do feiticeiro não diz nível, então dois mestres montam o mesmo encontro com fichas de níveis diferentes — que é o filtro que este projeto usa para tudo.
 
 > **⚠ A intuição de parear grau com grau é da obra, e ela está certa lá.** *A escada existe para classificar quatro coisas — feiticeiro, maldição, objeto e ferramenta — e ela nasceu como regra de despacho: manda-se um feiticeiro do grau da maldição.* **O que não atravessa é a metade numérica**, porque aqui o grau é patente e a patente sobe por feito.
 >
-> **E a obra deixa uma fronteira que a ficha já carrega de graça.** *O que separa uma maldição de grau 2 de uma de semi-grau 1, na classificação da obra, é **saber usar técnica**.* **Isso não é número: é uma linha do §6 desta peça, e ela está na ficha quer o grau exista ou não.** *Então o rótulo tem onde se apoiar sem virar conta.*
+> **E a obra deixa uma fronteira que a ficha já carrega de graça.** *O que separa uma maldição de grau 2 de uma de semi-grau 1, na classificação da obra, é **saber usar técnica**.* **Isso não é número: é uma linha do §6 desta peça, e ela está na ficha quer o grau exista ou não.**
 
 ## 3. A ficha, e cada linha tem dono
 
-**Dezenove linhas. Nenhum número novo nasce aqui** — o que esta peça faz é dizer de onde cada um sai.
+**Vinte linhas. Nenhum número novo nasce aqui** — o que esta peça faz é dizer de onde cada um sai.
 
 | linha | valor | dono |
 |---|---|---|
 | nível | o nível do grupo | o mestre declara antes da mesa |
-| categoria | `Capanga` · `Ameaça` · `Desastre` · `Catástrofe` · `Calamidade` | o §4 |
-| vida | a linha do manual vezes o fator da categoria; a do `Capanga` é o dano do grupo dividido por quatro | manual, a tabela `Inimigos` |
+| categoria | `Capanga` · `Ameaça` · `Desastre` · `Catástrofe` · `Calamidade` — a dificuldade da luta | o §4 |
+| N | para quantas pessoas do nível a ficha é feita, de `×1` a `×6` | o mestre declara; o §4 |
+| vida | `rodadas × N × a saída de um personagem`; a do `Capanga` é a saída de um personagem, por corpo | manual, a tabela `Inimigos`, e o §4 |
 | **Integridade** | metade da vida máxima, arredondando para baixo | peça 24 §3.3 |
-| dano por rodada | a linha do manual vezes o fator da categoria — e menos em quem carrega `Intervenção`, pelo §6.5 | manual, a tabela `Inimigos` |
-| ações por rodada | declaradas pela categoria | o §4.2 |
-| **Defesa** | `10 + Destreza + proteção`, e o `±2` do papel por fora | peça 1 §5 e o §3.4 |
-| **acerto** | `atributo + maestria` | peça 1 §5 |
-| **CD** | `8 + atributo + maestria` | peça 1 §5 |
+| o golpe | `a pressão do degrau × o golpe-base`; o do `Capanga` é metade do golpe-base | manual, a tabela `Inimigos`, e o §4 |
+| ações por rodada | `N`; no esquadrão do `Capanga`, uma por corpo | o §4.2 |
+| **Defesa** | a da tabela do §3.1, e o desvio pelo §3.2 | o §3.1 |
+| **acerto** | o da tabela do §3.1, e o desvio pelo §3.2 | o §3.1 |
+| **CD** | a da tabela do §3.1, e o desvio pelo §3.2 | o §3.1 |
 | Reação | uma por rodada, volta no começo do turno dele | manual, a seção `Inimigos` |
 | refino | a curva do `meio a meio` | peça 11 §3 |
 | Testes de Resistência | dois treinados de quatro | peça 7 §6 |
 | deslocamento | `9 m` | peça 3 §3 |
 | tamanho | o alcance do golpe e onde o corpo cabe — não cobra nada | o §3.3 |
-| papel | o que ele ganha num eixo ele paga no outro, e os dois se anulam | o §3.4 |
-| **atributos** | os cinco, no orçamento da peça 2 | peça 2 §3 |
+| papel | o que ele ganha num eixo ele paga na vida | o §3.4 |
+| **atributos** | os cinco, no orçamento da peça 2 | peça 2 §3 e o §3.2 |
 | **características** | Passivas, aptidões e técnica, pelo §6 | peça 11, o mesmo catálogo do jogador |
 | **pacto** | opcional, e o teto do permanente é da Essência dele | peça 22 §3 |
-| **resistência, vulnerabilidade e imunidade** | multiplicam o fator da categoria, pelo §6.3 | peça 19 §4 |
+| **resistência, vulnerabilidade e imunidade** | cobrança e isenções na vida, pelo §6.3 | peça 19 §4 |
 
-**As três em negrito não tinham dono em documento nenhum até esta peça**, e as três derivam sem escolha — elas não acrescentam número, elas dão nome ao que a peça 1 §6 e a peça 19 §2.5 já mediam do outro lado da mesa.
+**As três derivadas em negrito — Defesa, acerto e CD — têm a tabela do §3.1 por dona desde a v0.282.** *Até a v0.281 elas saíam das fórmulas da peça 1 aplicadas à ficha de personagem sem o Caminho, e a tabela era o resultado; hoje a tabela é a regra, e as fórmulas são a prova de que ela bate com o outro lado da mesa.*
 
-### 3.1 As três derivadas, nível a nível
+### 3.1 A tabela por nível — Defesa, acerto e CD
 
-**O inimigo carrega a mesma curva de atributo de quem investe** — `3` no nível 2 subindo a `6` no 26 —, e é isso que põe as três no lugar em que as outras peças já as mediam.
+**A Defesa, o acerto e a CD do inimigo de cada nível são os desta tabela.** *Ela é a curva de quem investe — atributo `3` no nível 2 subindo a `6` no 26 —, e é por isso que ela bate com o que a peça 1 §6 publica do lado do jogador.* **A Defesa da tabela é `10 + Destreza + proteção`, o acerto é `atributo + maestria` e a CD é `8 + atributo + maestria`, com o atributo da curva**, pelas fórmulas da peça 1 §5.
 
 | nível do grupo | 5 | 10 | 15 | 20 | 25 | 30 |
 |---|---|---|---|---|---|---|
@@ -61,15 +62,26 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 | CD | `12` | `14` | `14` | `16` | `16` | `18` |
 | refino | `1` | `4` | `6` | `7` | `9` | `10` |
 
-**Contra um personagem que investiu em defesa ele acerta `50%` a `55%`, e o Teste de Resistência treinado dele falha `35%`.** *São os mesmos números que a peça 1 §6 publica do lado do jogador, e é isso que prova a derivação: se ela estivesse errada, os dois lados da mesma rolagem discordariam.*
+**Contra um personagem que investiu em defesa ele acerta `50%` a `55%`, e o Teste de Resistência treinado dele falha `35%`.** *São os mesmos números que a peça 1 §6 publica do lado do jogador, e é isso que prova a tabela: se ela estivesse errada, os dois lados da mesma rolagem discordariam.*
 
-> **A proteção da Defesa anda junto com o refino, pela peça 11 §6** — `1/3 do refino + 1`. *Isso não é enfeite: sem ela a Defesa do inimigo congela e o acerto do personagem deriva `+15` pontos percentuais na campanha, que é o erro que a v0.117 consertou do lado do jogador.*
+> **A proteção da Defesa anda junto com o refino, pela peça 11 §6** — `1/3 do refino + 1`. *Sem ela a Defesa do inimigo congela e o acerto do personagem deriva `+15` pontos percentuais na campanha, que é o erro que a v0.117 consertou do lado do jogador.*
 
-### 3.2 Os cinco atributos, no orçamento que a peça 2 já dá
+### 3.2 Os atributos — e o que sai da tabela se paga na vida
 
-**O inimigo monta os cinco com nove pontos na criação, teto `3` ali, e teto `6`.** **Em cada marco ele ganha `+1`, e mais `+1` em cada escolha de marco que o `meio a meio` não gasta em refino** — *o refino dele já segue a curva do `meio a meio`, então ele recebe as duas metades das escolhas, e não só a de refino.*
+**O que sobe ou desce a Defesa, o acerto e a CD em volta da tabela se paga na vida.** *A Defesa lê a Destreza e o papel (§3.4); o acerto e a CD leem o atributo com que ele ataca.* **Um ponto de Defesa acima da tabela custa `10%` da vida, e um ponto de acerto e CD custa `8,7%`; abaixo, a vida recebe na mesma medida.**
 
-***Decisão do Mizuki, v0.232:*** *meio a meio, como o refino.* **Até a v0.231 ele ganhava só o `+1` do marco, e fechava o nível `30` com `16` pontos.**
+| pontos em volta da tabela | a vida, pela Defesa | a vida, pelo acerto e pela CD |
+|---|---|---|
+| `−2` | `× 1,200` | `× 1,235` |
+| `−1` | `× 1,100` | `× 1,105` |
+| `+1` | `× 0,900` | `× 0,913` |
+| `+2` | `× 0,800` | `× 0,840` |
+
+*A conta é a da peça 1 §5.2: um ponto move `5` pontos percentuais. O personagem acerta o alvo difícil em `50%`, então a Defesa `+k` deixa a vida efetiva em `50 ÷ (50 − 5k)`, e a vida crua paga o inverso; o inimigo acerta o meio da banda do §3.1, `52,5%`, então o acerto `+k` multiplica a saída dele por `(52,5 + 5k) ÷ 52,5`, e a vida paga o inverso.* **O `Brutamontes` e o `Baluarte` do §3.4 são esta troca com nome:** *`Defesa −2` e vida `× 1,20`; `Defesa +2` e vida `× 0,80`.*
+
+**O orçamento de atributo continua o da peça 2, e ele é o que dá os Testes de Resistência, as perícias e a cor da ficha.** **O inimigo monta os cinco com nove pontos na criação, teto `3` ali, e teto `6`.** **Em cada marco ele ganha `+1`, e mais `+1` em cada escolha de marco que o `meio a meio` não gasta em refino.**
+
+***Decisão do Mizuki, v0.232:*** *meio a meio, como o refino.*
 
 | marco | nv 6 | nv 10 | nv 14 | nv 18 | nv 22 | nv 26 | nv 30 |
 |---|---|---|---|---|---|---|---|
@@ -82,17 +94,15 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 
 > **As escolhas de marco seguem a regra do jogador, pela peça 11 §3.** *A que o `meio a meio` gasta em refino dá `+1` de refino e uma aptidão. Cada uma das outras dá o `+1` de atributo ou uma aptidão, e quem monta escolhe.* **A tabela conta todas como atributo, então ela é o teto:** *cada aptidão tomada numa escolha de atributo tira `1` ponto da linha.* **E o gate de aptidão cobra o marco antes de a gateada abrir, como no jogador.**
 
-***Decisão do Mizuki, v0.242:*** *"ele tem q escolher se pega atributo ou aptidão".* **Até a v0.241 a peça não contava quantas aptidões o inimigo carrega.**
+***Decisão do Mizuki, v0.242:*** *"ele tem q escolher se pega atributo ou aptidão".*
 
-> **O chefe começa com dez pontos na criação, e não nove.** *Chefe é quem carrega `Intervenção` — `Desastre`, `Catástrofe` e `Calamidade`. O teto de `3` na criação e o de `6` continuam.*
+> **O chefe começa com dez pontos na criação, e não nove.** *Chefe é quem carrega `Intervenção` (§6.5). O teto de `3` na criação e o de `6` continuam.*
 
-***Decisão do Mizuki, v0.233:*** *"vai ser na criação da ficha ao invés de começar com 9 pontos, começa com 10. É um bônus que sim, faz diferença, mas calcular tanto encima dele é trabalho extra demais, é um ponto q pode ir em 5 atributos diferentes".* **O molde é o do Draw Steel, em que o `Leader` e o `Solo` ganham `+1` no maior atributo** — *e são os monstros com `Villain Action`, que é o que a `Intervenção` é aqui* (`bestiario/04-fase-1/fila/MEDIDA-o-atributo-do-monstro.md`).
+***Decisão do Mizuki, v0.233:*** *"vai ser na criação da ficha ao invés de começar com 9 pontos, começa com 10. É um bônus que sim, faz diferença, mas calcular tanto encima dele é trabalho extra demais, é um ponto q pode ir em 5 atributos diferentes".* **O molde é o do Draw Steel, em que o `Leader` e o `Solo` ganham `+1` no maior atributo.**
 
-> **O ponto é um ponto como os outros:** *se ele for para a Destreza, a Defesa sobe `1`; se for para o atributo da técnica, o acerto e a CD sobem `1`.* **E ele não entra no fator da categoria, por decisão.** *Medido, `+1` de acerto multiplica o dano entregue por `1,10` e `+1` de Defesa multiplica a vida efetiva por `1,11`; o sistema escolheu não cobrar, e o encontro com chefe fica um pouco mais pesado do que a categoria diz.*
+> **O ponto do chefe é a única coisa acima da tabela que não se paga na vida, e isso é decisão.** *Se ele for para a Destreza, a Defesa sobe `1`; se for para o atributo de ataque, o acerto e a CD sobem `1` — e a vida fica.* **O chefe fica no máximo um ponto acima da tabela**, *na Destreza ou no atributo de ataque (v0.235).*
 
-**É daqui que as três derivadas do §3.1 saem.** *A Defesa lê a Destreza, o acerto e a CD leem o atributo que aquele inimigo usa para atacar, e o teto de pacto do §3 lê a Essência.* **Sem os cinco escritos, as três derivadas ficam penduradas numa curva sem ficha por baixo.**
-
-> **⚠ E não existe "atributo do Caminho" aqui.** *A ficha do jogador tem cinco atributos e um Caminho que decide vida e PE; o inimigo tem cinco atributos e a categoria, que decide vida e dano.* **Os nove pontos compram cor, e não tamanho** — um chefe de Força `6` e um de Essência `6` têm a mesma vida e o mesmo dano por rodada, e jogam diferente.
+**⚠ E não existe "atributo do Caminho" aqui.** *A ficha do jogador tem cinco atributos e um Caminho que decide vida e PE; o inimigo tem cinco atributos e a célula do §4, que decide vida e golpe.* **Um chefe de Força `6` e um de Essência `6`, na tabela, têm a mesma vida e o mesmo golpe, e jogam diferente.**
 
 ### 3.3 O tamanho — o alcance, e ele não cobra nada
 
@@ -107,50 +117,53 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 
 **O alcance é o lado da grade vezes o quadrado, e nos alvos o tamanho é um degrau só:** *`Grande`, `Imenso` e `Colossal` pegam o mesmo vizinho a metade.*
 
-> **⚠ E ele põe perto de um quinto de encontro FORA da conta, declarado de propósito.** *Um inimigo de `Grande` para cima entrega isso a mais que um `Médio` da mesma categoria, de graça.* **Medido no projeto do Bestiário em três sistemas:** *a defesa não muda com o tamanho em nenhum deles — `1,000 ×` em `4.791` criaturas do PF2e, `1,016 ×` em `331` do D&D —, os alvos não escalam, e o alcance escala.* **O campo põe o preço do tamanho na organização e no nível; a categoria daqui não sabe do tamanho, e isto está escrito para o mestre contar com a folga.**
+> **⚠ E ele põe perto de um quinto de encontro FORA da conta, declarado de propósito.** *Um inimigo de `Grande` para cima entrega isso a mais que um `Médio` da mesma célula, de graça.* **Medido no projeto do Bestiário em três sistemas:** *a defesa não muda com o tamanho em nenhum deles — `1,000 ×` em `4.791` criaturas do PF2e, `1,016 ×` em `331` do D&D —, os alvos não escalam, e o alcance escala.* **O campo põe o preço do tamanho na organização e no nível; a célula daqui não sabe do tamanho, e isto está escrito para o mestre contar com a folga.**
 
 ### 3.4 O papel — ele redistribui a base, e não acrescenta nada
 
-**O papel é um gerador de base, e não uma coisa que o inimigo faz na mesa.** *Você escolhe a categoria, escolhe o papel, e a ficha sai preenchida; as `Ações`, as `Intervenções` e os `Traços` o mestre monta depois disso.* **Por isso ele mora no cabeçalho, ao lado da categoria** — é rótulo do que gerou aquela ficha, e rótulo não gasta entrada nomeada nem pode ser desligado pelo jogador.
+**O papel é um gerador de base, e não uma coisa que o inimigo faz na mesa.** *Você escolhe a categoria, o N e o papel, e a ficha sai preenchida; as `Ações`, as `Intervenções` e os `Traços` o mestre monta depois disso.* **Por isso ele mora no cabeçalho, ao lado da categoria** — é rótulo do que gerou aquela ficha, e rótulo não gasta entrada nomeada nem pode ser desligado pelo jogador.
 
-> `‹ tamanho › ‹ tipo ›, ‹ grau › · ‹ categoria › · ‹ papel › · nível ‹ N ›`
+> `‹ tamanho › ‹ tipo ›, ‹ grau › · ‹ categoria › ×‹ N › · ‹ papel › · nível ‹ nível ›`
 
-**E ele sai de graça no tamanho do encontro, porque o que ganha num eixo ele paga em outro.** *A regra é uma só e vale nos seis:* **o que ele paga é o inverso do que ele ganha**, e o produto fecha em `1,000`.
+**E ele sai de graça no tamanho do encontro, porque o que ganha num eixo ele paga na vida.** *A regra é uma só e vale nos seis:* **o que ele paga é o inverso do que ele ganha**, e o produto fecha em `1,000`.
 
-| papel | o que ganha | o que paga | produto |
-|---|---|---|---|
-| `Brutamontes` | vida crua `× 1,20` | `Defesa −2`, que vale `× 0,833` | `1,000` |
-| `Baluarte` | `Defesa +2`, que vale `× 1,250` | vida crua `× 0,80` | `1,000` |
-| `Artilheiro` | alcance no ataque, `× 1,167` | vida crua `× 0,857` | `1,000` |
-| `Emboscador` | vantagem em um ataque por rodada | vida crua, pela tabela abaixo | `1,000` |
-| `Controlador` | uma ação do grupo negada | vida crua, pela tabela abaixo | `1,000` |
-| `Reforço` | o mesmo câmbio do `Controlador`, gasto em outro bloco | vida crua, pela tabela abaixo | `1,000` |
+| papel | o que ganha | o que paga |
+|---|---|---|
+| `Brutamontes` | vida crua `× 1,20` | `Defesa −2`, que vale `× 0,833` |
+| `Baluarte` | `Defesa +2`, que vale `× 1,250` | vida crua `× 0,80` |
+| `Artilheiro` | alcance no ataque, pela tabela por degrau | vida crua, o inverso |
+| `Emboscador` | vantagem em um ataque por rodada | vida crua, pela tabela por N |
+| `Controlador` | uma ação do grupo negada | vida crua, pela tabela por N |
+| `Reforço` | o mesmo câmbio do `Controlador`, gasto em outro bloco | vida crua, pela tabela por N |
 
 > **O ataque do `Artilheiro` alcança `18 m`, em todo nível.** *É o dobro do deslocamento da peça 3, e é o que obriga quem luta de perto a gastar uma rodada para chegar: anda `9 m` e corre mais `9 m`, sem atacar.*
 
-***Decisão do Mizuki, v0.231:*** *"Com base no nível, acho q seria o ideal. N? Se n, mantem semelhante a player, um valor fixo, mesmo".* **Por nível não fecha:** *o deslocamento não cresce com o nível, e o Projétil da Classe da ação cairia em `9 m` enquanto o inimigo não monta feitiço — ali o personagem anda e bate no mesmo turno, e o `Artilheiro` pagaria vida sem ganhar nada.* **O Draw Steel dá à Artilharia a mesma razão:** *mediana de alcance `10` contra deslocamento `5` do herói, nas `42` fichas, na `bestiario/04-fase-1/papel/MEDIDA-o-alcance-do-artilheiro.md`.*
+***Decisão do Mizuki, v0.231:*** *"Com base no nível, acho q seria o ideal. N? Se n, mantem semelhante a player, um valor fixo, mesmo".* **Por nível não fecha:** *o deslocamento não cresce com o nível, e o Projétil da Classe da ação cairia em `9 m` enquanto o inimigo não monta feitiço.* **O Draw Steel dá à Artilharia a mesma razão:** *mediana de alcance `10` contra deslocamento `5` do herói, nas `42` fichas, na `bestiario/04-fase-1/papel/MEDIDA-o-alcance-do-artilheiro.md`.*
 
-> **O `±2` de Defesa do papel entra por fora, e a Destreza fica a que a tabela do §3.1 pede.** *O `Brutamontes` do nível 5 tem Destreza `3` e Defesa `12`.* **Tirado da Destreza, o `Baluarte` não cabia:** *ele pediria Destreza `5` do nível 2 ao 9, onde a criação para em `3` e o marco do nível 6 leva a `4`; do nível 18 em diante pediria `7` ou `8`, acima do teto `6`. Só fechava do 10 ao 17.*
+> **O `±2` de Defesa do papel entra por fora, e a Destreza fica a que a tabela do §3.1 pede.** *O `Brutamontes` do nível 5 tem Destreza `3` e Defesa `12`.* ***Decisão do Mizuki, v0.234:*** *termo à parte.* **A ficha pronta declara com que atributo ataca, e em que atributo entra cada ponto de marco** *(v0.235).*
 
-***Decisão do Mizuki, v0.234:*** *termo à parte.* **O livro do Bestiário já lia assim:** *o exemplo da Ubume, que é `Brutamontes`, pede a Destreza da tabela.* **E a ficha pronta segue a mesma regra:** *a Destreza de cada nível é a da tabela, com os marcos que a pronta declara, e só o chefe pode ter `1` a mais, pelo §3.2.*
+**O `Artilheiro` varia com o degrau, porque o que ele poupa é a rodada de aproximação, e ela pesa mais na luta curta.** *Uma rodada da luta é a de quem se aproxima, e o alcance poupa meia rodada dela: `1 + 0,5 ÷ rodadas`.*
 
-> **A ficha pronta declara com que atributo ataca, e em que atributo entra cada ponto de marco.** *Em cada nível da faixa, a Destreza dá a Defesa da tabela do §3.1, e o atributo de ataque dá o acerto e a CD com a maestria da peça 1 §2; os pontos de marco somam o que o §3.2 dá naquele nível.* **O chefe fica no máximo um ponto acima da curva**, *na Destreza ou no atributo de ataque.*
-
-***Decisão do Mizuki, v0.235:*** *o atributo de ataque de cada pronta pela ficção, e o destino de cada ponto de marco.* **O limite de um ponto no chefe é leitura minha do §3.2:** *em todo nível o chefe tem um ponto a mais que o inimigo comum, e o `1,10` e o `1,11` registrados acima são o preço de um ponto.* *Nas seis prontas o limite não muda número: ele só pesa num chefe que ataca com a Destreza a partir do nível 10, e em qualquer chefe a partir do 14.*
-
-**Nenhum dos seis sobe o dano por rodada, e isso não é sobra: é o que mantém a régua funcionando.** *`o golpe` — a fatia da vida de um personagem que um golpe leva — é a grandeza que o modelo do Bestiário vigia por cima, e ele vigia justamente porque ela não tem para onde subir.* **Papel que pagasse em dano moveria essa fatia** — *foi o que derrubou a primeira forma do `Controlador`, que cortava um terço do dano e jogava o golpe abaixo do piso em quatro de quatro categorias.* **Pagando em vida, a fatia não se move e a pergunta nem se abre.**
-
-**Os dois que variam com a categoria variam porque o preço deles é uma ação, e ações são declaradas pelo §4.2.** *Negar uma ação de quem tem uma vale o dobro de negar uma de quem tem seis.*
-
-| categoria | ações | `Emboscador` ganha | e paga | `Controlador` e `Reforço` ganham | e pagam |
+| categoria | `Capanga` | `Ameaça` | `Desastre` | `Catástrofe` | `Calamidade` |
 |---|---|---|---|---|---|
-| `Capanga` | `8` *(o esquadrão)* | `× 1,059` | `× 0,944` | `× 1,125` | `× 0,889` |
-| `Ameaça` | `1` | `× 1,476` | `× 0,677` | `× 2,000` | `× 0,500` |
-| `Desastre` | `3` | `× 1,159` | `× 0,863` | `× 1,333` | `× 0,750` |
-| `Catástrofe` | `5` | `× 1,095` | `× 0,913` | `× 1,200` | `× 0,833` |
-| `Calamidade` | `6` | `× 1,079` | `× 0,927` | `× 1,167` | `× 0,857` |
+| `Artilheiro` ganha, e a vida paga o inverso | `× 1,250` | `× 1,200` | `× 1,167` | `× 1,125` | `× 1,100` |
 
-**O `Capanga` toma quatro dos seis:** *`Artilheiro`, `Emboscador`, `Controlador` e `Reforço`, sempre lidos por esquadrão e não por corpo.* **`Brutamontes` e `Baluarte` ficam fora, e o motivo está no §5:** *a vida do `Capanga` é o dano do grupo dividido por quatro, que é o que um personagem derruba num golpe.* **Os dois quebram essa definição por caminhos diferentes** — *o `Brutamontes` sobe a vida, e o `Baluarte` faz o golpe errar mais vezes.* **Um corpo que não cai num golpe deixou de ser um `Capanga` e virou uma `Ameaça`.**
+**Os três de ação variam com o N, porque o preço deles é UMA ação, e o inimigo tem N.** *Negar uma ação de quem tem uma vale o dobro de negar uma de quem tem seis.* **O esquadrão do `Capanga` se lê por esquadrão: ele tem `2N` ações.**
+
+| papel | `×1` | `×2` | `×3` | `×4` | `×5` | `×6` |
+|---|---|---|---|---|---|---|
+| `Emboscador` ganha | `× 1,476` | `× 1,238` | `× 1,159` | `× 1,119` | `× 1,095` | `× 1,079` |
+| `Controlador` e `Reforço` ganham | `× 2,000` | `× 1,500` | `× 1,333` | `× 1,250` | `× 1,200` | `× 1,167` |
+| o esquadrão do `Capanga`, `Emboscador` | `× 1,238` | `× 1,119` | `× 1,079` | `× 1,059` | `× 1,048` | `× 1,040` |
+| o esquadrão do `Capanga`, `Controlador` e `Reforço` | `× 1,500` | `× 1,250` | `× 1,167` | `× 1,125` | `× 1,100` | `× 1,083` |
+
+*A vida paga o inverso de cada célula.*
+
+**O `Capanga` toma quatro dos seis:** *`Artilheiro`, `Emboscador`, `Controlador` e `Reforço`.* **`Brutamontes` e `Baluarte` ficam fora:** *a vida do corpo é o que um personagem derruba num golpe (§5), e os dois quebram isso — o `Brutamontes` sobe a vida, e o `Baluarte` faz o golpe errar mais vezes.* **Um corpo que não cai num golpe deixou de ser um `Capanga`.**
+
+**O `Emboscador` não sobe de `Grande`.** *Decisão da fase 1 do Bestiário: um bicho de alcance longo que precisa se esconder é contradição de ficção.* **E o `Reforço` só se paga com mais de um inimigo no encontro**, *porque o câmbio dele é gasto em outro bloco.* *A mesma decisão dizia isso também do `Baluarte`, que na época se chamava `Guardião`; na grade ele troca Defesa pela própria vida, e serve sozinho.*
+
+> *Até a v0.283 as duas frases moravam só no capítulo 6 do livro de inimigos, com o `Baluarte` junto do `Reforço`. A auditoria da fase 2 achou (divergência 3), e a v0.284 trouxe as duas para cá.*
 
 **Nenhum fator acima foi escolhido. Cada um sai de uma regra que já tinha dono:**
 
@@ -158,127 +171,183 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 |---|---|---|
 | `Defesa` ↔ vida | um ponto de Defesa move `5` pontos percentuais, e o personagem acerta alvo difícil em `50%`; então `Defesa −2` deixa ele acertar `60%`, e a vida efetiva cai para `50 ÷ 60` | peça 1 §5.2 |
 | vantagem | `+25` pontos percentuais sobre o acerto, e o inimigo acerta o meio da banda que o §3.1 publica. Em um ataque de `N`, o ganho é `(N − 1 + 1,476) ÷ N` | peça 19 §2.2 |
-| ação negada | `1 pra 1` — uma ação negada do grupo vale uma ação dele, e uma ação dele é o dano por rodada dividido pelas ações. O ganho é `1 + 1 ÷ N` | peça 19 §2.2 |
-| alcance | uma rodada de três é a de aproximação, e o que o alcance poupa nela é `1/6` da saída da luta | o projeto do Bestiário, em `bestiario/04-fase-1/papel/` |
+| ação negada | `1 pra 1` — uma ação negada do grupo vale uma ação dele, e uma ação dele é um golpe de `N`. O ganho é `1 + 1 ÷ N` | peça 19 §2.2 |
+| alcance | uma rodada da luta é a de aproximação, e o que o alcance poupa nela é meia rodada: `1 + 0,5 ÷ rodadas` | o projeto do Bestiário, em `bestiario/04-fase-1/papel/` |
 
-> **⚠ E o `Artilheiro` e o `Emboscador` têm o ganho fora de célula nenhuma.** *O que eles pagam aparece no bloco — um `Desastre` de nível 30 sai com `810` de vida em vez de `945` —, e o que eles ganham não aparece em lugar nenhum da ficha.* **A palavra no cabeçalho é a única coisa que explica os `135` que faltam**, e é por isso que ela não pode sair de lá.
+> **⚠ E o `Artilheiro` e o `Emboscador` têm o ganho fora de célula nenhuma.** *O que eles pagam aparece no bloco — um `Desastre ×4` de nível 30 sai com `810` de vida em vez de `945` —, e o que eles ganham não aparece em lugar nenhum da ficha.* **A palavra no cabeçalho é a única coisa que explica os `135` que faltam**, e é por isso que ela não pode sair de lá.
 
-## 4. A categoria — quantos personagens ele exige
+## 4. A categoria e o N — a grade
 
-***Ideia do Mizuki, e o eixo é o dele:*** *quantos feiticeiros são precisos para enfrentar aquilo.* **A tabela de inimigo do manual já responde isso para um número — ela é calibrada para quatro —, e a categoria é aquela linha reescalada.**
+***Decisões do Mizuki, 27 e 28/09/2026:*** *"ameaça poderia ter 1x1-2x1-4x1-5x1-6x1 […] os inimigos n deveriam passar da necessidade de 6 players, fica impossivel e sem sentido"* · *"Ele é totalmente A, mas faria sim sentido inimigos de categorias acima ter mais recursos, n só numeros"* · *"eu penso em ser 2-2.5-3-4-5 rodadas, lembrando q tem a categoria faltando"* · *"Capanga, ele pode sim ser usado contra players em multiplas quantidades ou junto de um chefe"*.
 
-| categoria | personagens | fator sobre a linha do manual | ações | `Intervenção` |
-|---|---|---|---|---|
-| **`Capanga`** | — | `× 0,25` | `1` | não |
-| **`Ameaça`** | 1 | `× 0,25` | `1` | não |
-| **`Desastre`** | 4 | `× 1,00` | `3` | sim |
-| **`Catástrofe`** | 6 | `× 1,50` | `5` | sim |
-| **`Calamidade`** | 8 | `× 2,00` | `6` | sim |
+**A categoria é a dificuldade da luta, e o N é para quantas pessoas do nível ela é feita, de `×1` a `×6`.** *O teto de seis é dele desde 08/09: "uma mesa nunca vai ter mais de 6 players e talz, ent n precisa pensar nisso de 7-8 players".*
 
-**O `Desastre` é a linha do manual sem tocar em nada.** *As outras saem dela, e nenhuma inventa número.* **E o fator e o número de pessoas são a mesma coisa em duas unidades: `personagens = fator × 4`.** *Um inimigo de fator `1,92` exige `7,7` pessoas, e isso se lê sem tabela.*
+| categoria | rodadas | orçamento | pressão | o golpe, em % da vida de um personagem | `Intervenção` a partir de |
+|---|---|---|---|---|---|
+| **`Capanga`** | `2` | `0,50` | `—` | `11,2%` | — |
+| **`Ameaça`** | `2,5` | `0,75` | `0,900` | `20,2%` | `×6` |
+| **`Desastre`** | `3` | `1,00` | `1,000` | `22,5%` | `×4` |
+| **`Catástrofe`** | `4` | `1,50` | `1,125` | `25,3%` | `×3` |
+| **`Calamidade`** | `5` | `2,00` | `1,200` | `27,0%` | `×2` |
 
-> **O `Capanga` é a exceção de uma coluna só.** *O fator dele vale para o dano; a vida não sai do fator, sai do dano do grupo dividido por quatro — é o que UM personagem derruba num golpe —, e ele vem em esquadrão de `8` corpos, com a vida num pool só.* **Por isso ele não tem número de personagens: o preço dele é o câmbio do §5.**
+> **A vida é `rodadas × N × a saída de um personagem`**, meio para baixo. *A saída de um personagem é o dano do grupo por rodada da tabela `Inimigos` do manual dividido por quatro, porque a tabela é calibrada para quatro.*
 >
-> **⚠ Esta escada foi refeita no projeto do Bestiário, em 08/09/2026, e substitui a de quatro degraus que esta peça publicou da v0.198 à v0.220.** *`Ronda` virou `Ameaça` e `Alcateia` virou `Desastre`, com os mesmos números; a `Calamidade` de seis pessoas virou `Catástrofe`, e a `Calamidade` de hoje exige oito.* **A `Dupla` morreu:** *ela levava o dobro do orçamento pela mesma porta, e o golpe dela era `1,60 ×` o topo da banda que as outras respeitam.*
+> **O golpe é `a pressão × o golpe-base`**, meio para baixo, **e o golpe-base é o dano do chefe da tabela dividido por quatro.** *O orçamento de cada degrau é o do Pathfinder 2e — trivial `40`, baixa `60`, moderada `80`, severa `120`, extrema `160` —, e a pressão é o que a duração não leva dele: `orçamento × 3 ÷ rodadas`, contra o `Desastre`.*
+>
+> **Ele age `N` vezes por rodada**, e cada golpe é a pressão de uma pessoa. *O `Capanga` é outra forma, e o §5 é dele.*
 
-### 4.1 A ficha pronta de cada categoria, nos três níveis que a tabela publica
+**O `Desastre ×4` é o chefe da tabela do manual:** *`945` de vida no nível 30, e os `226` por rodada em quatro golpes de `56`, com o arredondamento no golpe.* **E o `Desastre ×1` tem a vida e o golpe da `Ameaça` da escada de antes**, `236` e `56` (a vida antiga foi preservada; o golpe foi recalibrado nesta edição).
 
-| categoria | nv 10 | nv 20 | nv 30 |
+**A duração não depende do N.** *A vida e as ações crescem juntas com o N, então o `×1` e o `×6` do mesmo degrau duram o mesmo.* **É o que o 13th Age faz com o monstro grande e o enorme, e o que o Fabula Ultima faz com o Campeão (1) a (6):** *o N multiplica a vida e os turnos, e não o tamanho de cada golpe.*
+
+**As rodadas são dele, e a pesquisa confirmou a ordem e o tamanho.** *Pela matemática de quatro sistemas, com quatro personagens, a mediana por degrau dá `1,5 · 1,8 · 2,7 · 3,3 · 4,7`; o Draw Steel escreve que a luta dura três rodadas ou menos e que a de cinco é longa; e nos `15.283` combates de 5e do FIREBALL a mediana é `3`.* **A luta vira moedor a partir de seis rodadas, e a `Calamidade` fica uma abaixo.** ***Decisão do Mizuki:*** *"C, decisão do mestre é melhor aqui"* — **o `5` é média, e o mestre corta a luta quando a vitória estiver clara.** *A pesquisa está em `bestiario/09-fase-2/pesquisa/leva-2/`.*
+
+> **⚠ A escada de antes media quantas pessoas o inimigo exigia, com `personagens = fator × 4`, e a `Calamidade` exigia oito.** *Ela passava do teto de seis, fazia toda luta durar três rodadas, e deixava a Expansão, a `Recarga`, a resistência e a cura multiplicarem o encontro sem trava.* **Ela morreu na v0.282, e está no arquivo morto.**
+
+### 4.1 A ficha pronta de cada célula, nos três níveis que a tabela publica
+
+*A vida · o golpe. No `Capanga`, os corpos × a vida de um · o golpe.*
+
+**Nível 10**
+
+| categoria | `×1` | `×2` | `×3` | `×4` | `×5` | `×6` |
+|---|---|---|---|---|---|---|
+| `Capanga` | `2` × `32` · `10` | `4` × `32` · `10` | `6` × `32` · `10` | `8` × `32` · `10` | `10` × `32` · `10` | `12` × `32` · `10` |
+| `Ameaça` | `81` · `17` | `162` · `17` | `244` · `17` | `325` · `17` | `406` · `17` | `487` · `17` |
+| `Desastre` | `97` · `19` | `195` · `19` | `292` · `19` | `390` · `19` | `487` · `19` | `585` · `19` |
+| `Catástrofe` | `130` · `22` | `260` · `22` | `390` · `22` | `520` · `22` | `650` · `22` | `780` · `22` |
+| `Calamidade` | `162` · `23` | `325` · `23` | `487` · `23` | `650` · `23` | `812` · `23` | `975` · `23` |
+
+**Nível 20**
+
+| categoria | `×1` | `×2` | `×3` | `×4` | `×5` | `×6` |
+|---|---|---|---|---|---|---|
+| `Capanga` | `2` × `55` · `19` | `4` × `55` · `19` | `6` × `55` · `19` | `8` × `55` · `19` | `10` × `55` · `19` | `12` × `55` · `19` |
+| `Ameaça` | `137` · `34` | `275` · `34` | `412` · `34` | `550` · `34` | `687` · `34` | `825` · `34` |
+| `Desastre` | `165` · `38` | `330` · `38` | `495` · `38` | `660` · `38` | `825` · `38` | `990` · `38` |
+| `Catástrofe` | `220` · `42` | `440` · `42` | `660` · `42` | `880` · `42` | `1100` · `42` | `1320` · `42` |
+| `Calamidade` | `275` · `45` | `550` · `45` | `825` · `45` | `1100` · `45` | `1375` · `45` | `1650` · `45` |
+
+**Nível 30**
+
+| categoria | `×1` | `×2` | `×3` | `×4` | `×5` | `×6` |
+|---|---|---|---|---|---|---|
+| `Capanga` | `2` × `78` · `28` | `4` × `78` · `28` | `6` × `78` · `28` | `8` × `78` · `28` | `10` × `78` · `28` | `12` × `78` · `28` |
+| `Ameaça` | `197` · `51` | `394` · `51` | `591` · `51` | `787` · `51` | `984` · `51` | `1181` · `51` |
+| `Desastre` | `236` · `56` | `472` · `56` | `709` · `56` | `945` · `56` | `1181` · `56` | `1417` · `56` |
+| `Catástrofe` | `315` · `64` | `630` · `64` | `945` · `64` | `1260` · `64` | `1575` · `64` | `1890` · `64` |
+| `Calamidade` | `394` · `68` | `787` · `68` | `1181` · `68` | `1575` · `68` | `1969` · `68` | `2362` · `68` |
+
+> **⚠ O arredondamento é meio para BAIXO, e ele é declarado porque não é cosmético.** *A saída de um personagem e o golpe-base têm fração de quarto, e as rodadas `2,5` põem células exatamente em `,5`.* **Três lugares calculam isto — a peça, o validador e o gerador do bloco — e cada linguagem arredonda de um jeito:** *o `Math.round` do JavaScript sobe, o `round` do Python vai para o par.*
+>
+> **⚠ E a vida do corpo do `Capanga` arredonda PARA BAIXO, por inteiro, que é outra regra.** *Um quarto de ponto de vida põe o corpo vivo depois do golpe que devia derrubá-lo.*
+
+### 4.2 As ações — e o `×1` e o `×2` contra condição
+
+**Ele age `N` vezes por rodada, num turno só, pelas `Ações Múltiplas` do livro do Bestiário.** *O `Desastre ×4` age quatro vezes; o `×1`, uma.*
+
+**O inimigo de uma ou duas ações perderia a luta inteira para uma condição que tira ação, e a regra do `×1` e do `×2` é o que segura isso.** ***Decisões do Mizuki, 28/09/2026:*** *"A, poderia ser uma mecanica apenas para combates 1x1-2x1"* · *"n ser garantido seria melhor. Talvez uma habilidade pra rerolar o TR, rolar no começo do turno dnv ao invés do final […] Pq se n a condição fica inutil"*.
+
+> **No `×1`, a condição que tira ação dá ao inimigo um Teste de Resistência no começo do turno dele, sempre com a maestria.** *Passou, ela sai antes de ele agir.*
+> **No `×2`, o mesmo Teste de Resistência, com desvantagem.**
+>
+> *Ele continua precisando falhar no teste para a condição pegar — a decisão da v0.205 fica ("ele precisa passar no teste").* **As condições que tiram ação são as quatro da peça 19 §2.2:** *`Lento`, `Calado`, `Enfeitiçado` e `Atordoado`.*
+
+**A regra devolve as duas células à régua da peça 19 §2.2, e a condição continua valendo perto de duas vezes o dano que ela substitui.** *Um Teste de Resistência antes do turno multiplica o que a condição nega pela chance de ele falhar; o chefe de três ações fica em `2,24×` a `2,39×`, e o filtro de dominância é `3,00×`.*
+
+| o que o inimigo tem | `×1` | `×2` |
+|---|---|---|
+| nada | `6,43×` a `7,17×` | `3,29×` a `3,59×` |
+| **a regra** | `2,25×` a `2,51×` | `1,90×` a `2,07×` |
+| o Teste de Resistência normal, com a maestria | `2,25×` a `2,51×` | `1,15×` a `1,26×` |
+| o Teste de Resistência normal, sem a maestria | `2,57×` a `3,94×` | `1,32×` a `1,97×` |
+
+*Sem a maestria, o `×1` passa do filtro do nível 10 em diante, porque o Teste de Resistência sem treino falha de `40%` a `55%`; com o Teste de Resistência normal no `×2`, a condição fica quase igual ao dano.* **O reroll dá a mesma conta na primeira rodada; o Teste de Resistência no começo do turno é a forma que ele escreveu, e as de nível `Pesada` já têm o teste, só que no fim do turno.**
+
+> **⚠ Até a v0.281 o `Desastre` não podia descer de `3` ações, pelo piso da régua de condição da peça 19 §2.2.** *Na grade o `×1` e o `×2` têm uma e duas, e a regra acima é o que substitui o piso; do `×3` para cima a régua funciona sozinha.*
+
+### 4.3 ⚠ `N` corpos de `×1` não são um `×N`
+
+**Quatro `Desastre ×1` não valem um `Desastre ×4`: eles cobram `0,75 ×` o que ele cobra.** *A causa é que eles morrem em fila e a saída deles despenca — os quatro entregam tudo enquanto estão de pé, e depois cada vez menos.* **Somar as vidas dá a célula inteira; jogar os corpos separados não dá o mesmo encontro.**
+
+| categoria | `×2` | `×4` | `×6` |
 |---|---|---|---|
-| `Capanga` | `32` vida · `19` dano | `55` · `37` | `78` · `55` |
-| `Ameaça` | `97` vida · `19` dano | `165` · `37` | `236` · `55` |
-| `Desastre` | `390` · `75` | `660` · `147` | `945` · `219` |
-| `Catástrofe` | `585` · `112` | `990` · `220` | `1417` · `328` |
-| `Calamidade` | `780` · `150` | `1320` · `294` | `1890` · `438` |
+| `Ameaça` | `0,83` | `0,67` | `0,67` |
+| `Desastre` | `0,83` | `0,75` | `0,67` |
+| `Catástrofe` | `0,75` | `0,62` | `0,67` |
+| `Calamidade` | `0,90` | `0,75` | `0,70` |
 
-*A vida do `Capanga` é a de UM corpo; o esquadrão tem oito, num pool.*
-
-> **⚠ O arredondamento é meio para BAIXO, e ele é declarado porque não é cosmético.** *Os fatores `0,25` e `1,50` põem **doze das sessenta e três células** desta escala exatamente em `,5`.* **Três lugares calculam isto — a peça, o validador e o gerador do bloco — e cada linguagem arredonda de um jeito:** *o `Math.round` do JavaScript sobe, o `round` do Python vai para o par.* **Sem a regra escrita, os três divergem, e o mestre lê o número em voz alta na mesa.**
->
-> **⚠ E a vida do `Capanga` arredonda PARA BAIXO, por inteiro, que é outra regra.** *Um quarto de ponto de vida põe o esquadrão vivo numa rodada a mais, e a rodada a mais custa `11` pontos percentuais de encontro* — **é o mesmo defeito que o §5.1 registra no chefe do nível 2.**
-
-### 4.2 As ações são declaradas pela categoria
-
-**O `Desastre` age três vezes, e isso sai da frase do manual:** *o chefe "perde a ação três vezes por rodada" contra um grupo de quatro — ele age uma vez enquanto eles agem quatro.* **As outras quatro categorias têm o número delas escrito na tabela do §4**, e ele não sai de fórmula: *`Capanga` e `Ameaça` agem uma vez, a `Catástrofe` cinco e a `Calamidade` seis.*
-
-> **⚠ Até a v0.220 as ações saíam de `personagens − 1`, com piso `1`, e foi isso que quebrou a `Dupla`.** *A razão `pessoas ÷ (pessoas − 1)` explode embaixo — `2 ÷ 1`, `4 ÷ 3`, `6 ÷ 5` —, e a categoria de duas pessoas levava o dobro do orçamento pela mesma porta, numa ação só.* **Declarando, o defeito não tem por onde nascer.**
-
-> **⚠ E o `Desastre` não pode descer de `3`, e isso não é desta peça.** *A peça 19 §2.2 preça quatro das treze condições dividindo pelas ações do chefe.* **Com `2` as quatro passam do teto do próprio tier**, e o piso está medido lá, com a checagem `12` daquele validador em cima.
-
-### 4.5 A sub-categoria — em quantos corpos o encontro se parte
-
-***Ideia do Mizuki:*** *nem todo combate tem mais de um inimigo, e o mesmo encontro pode vir num corpo só ou repartido.* **A categoria diz o TAMANHO; a sub-categoria diz a FORMA.**
-
-| sub-categoria | o chefe fica com | capangas | cobra do grupo |
-|---|---|---|---|
-| **`sozinho`** | `100%` | — | `67,6%` |
-| **`com um apoio`** | `91,5%` | `1` | `67,5%` |
-| **`com dois`** | `83,0%` | `2` | `67,4%` |
-| **`bando`** | `74,5%` | `3` | `67,3%` |
-
-**A fração não foi escolhida: ela é a que devolve o que o chefe sozinho cobra.** *O projeto do Bestiário varreu `201` frações do chefe em `29` níveis, com o `Capanga` da escada.* **Os três primeiros capangas tomam `8,5%` do chefe cada um — praticamente `1/12`.**
-
-> **⚠ E o câmbio NÃO é linear além de três corpos.** *Do quarto ao sétimo capanga cada corpo passa a tomar de `11%` a `17%` do chefe — `≈ 1/6`* —, **porque um esquadrão cheio cobre os próprios buracos, e cada corpo passa a valer o dobro.** *A tabela para em três de propósito.*
->
-> **⚠ As frações saem com uma casa decimal, e isso não é preciosismo.** *Com um capanga, o chefe a `91,5%` cobra `67,5%` da vida do grupo em 3 rodadas, e a `92%` cobra `88,6%` em 4:* **meio ponto percentual atravessa a borda de uma rodada.**
->
-> **⚠ A coluna da direita depende de em que ordem o grupo abate, e a ordem está declarada: os capangas primeiro.** *É o que a mesa faz sozinha — o capanga cai num golpe de um personagem.* **E ela é medida no nível 30, contra a vida do grupo da peça 1.**
->
-> **⚠ A primeira forma desta tabela era do capanga da `Alcateia`** — *quatro corpos com um quarto da vida do chefe e um terço do dano, e as frações `100%` · `75%` · `50%` · `25%`.* **Aquele capanga morreu com a escada, e o câmbio `1/4` morreu junto.**
-
-### 4.6 O chefe derruba alguém, e a métrica que mostra isso não é óbvia
-
-**Um `Desastre` concentrando os três golpes derruba um personagem na rodada `1,11`.** *No nível 30 ele entrega `657` de dano na luta contra `243` do alvo, e a razão é a mesma em todo nível.* **Numa luta de três rodadas ele derruba `2,70` pessoas se concentrar** — não o grupo inteiro, e mais de uma.
-
-> *Os números desta seção são do modelo sem `Intervenção`. Com ela, a luta de três rodadas entrega o mesmo total — é assim que o fator `0,923` do §6.5 foi calculado —, e as `2,70` pessoas continuam.*
-
-> **⚠ A métrica errada é "quantas rodadas ele leva para derrubar o GRUPO", e até a v0.200 ela dava `14`** — contra uma luta de `3,7`. *Lida assim, a tabela de inimigo parecia fraca demais, e a v0.199 respondeu que ela não estava.* **Estava.** *O que a métrica errada escondia é que ele derrubava exatamente uma pessoa por luta, no último segundo, e a v0.201 mediu isso contra dois sistemas de fora.*
->
-> **`2,70` é o número dos dois:** *o d20 de 2014 derruba `2,56` a `2,70` numa luta de três rodadas, e o chefe solo do Pathfinder 2e derruba perto de `2,8`.* **É a métrica que decidiu a tabela nova, e não a que decidiu a antiga.**
->
-> **⚠ E o `2,70` é do modelo sem ATRITO, que é o modelo desta peça inteira: quem cai continua contando na saída do grupo.** *Medido com atrito e com o chefe concentrando e ganhando a iniciativa, ele derruba os quatro em cinco rodadas, nos sete níveis* — **porque cada pessoa que cai tira um quarto da saída, a luta estica, e a rodada extra é dele.** ***Decisão do Mizuki na v0.205: fica assim.*** *"Um inimigo focar um único player vai acabar matando mesmo, acho que todo sistema rola isso — o mestre não vai querer normalmente focar também."* **O `Guia do Mestre` tem a mesma simplificação: a conta de nível de desafio dele também é plana.**
+*O que `N` corpos de `×1` cobram, contra um corpo de `×N` do mesmo degrau, no nível 30, com a ordem de abate do §4.5.*
 
 ### 4.4 O dano se rola em dado, e não em número seco
 
-**O que a tabela do manual publica é o dano por RODADA, e o que o mestre rola é o de uma AÇÃO.** *Divida um pelo outro e você tem o alvo do golpe.*
+**O que a ficha publica é o golpe, e o que o mestre rola é o dado dele.**
 
 > **O golpe é `N` dados mais um fixo, com metade do alvo em dado.** *O tamanho do dado se escolhe entre `d4`, `d6`, `d8`, `d10` e `d12` — o que fecha a metade mais limpo, com no máximo **oito** dados na mão.* **Abaixo de `5` o golpe fica em número seco** — um dado balançaria mais que o próprio golpe.
 
-**O precedente é o `Guia do Mestre` de 2014**, que manda traduzir a margem de dano numa expressão de dado e diz que a divisão em ataques é livre. *Aqui a divisão não é livre: ela é o número de ações da categoria.*
+**O precedente é o `Guia do Mestre` de 2014**, que manda traduzir a margem de dano numa expressão de dado.
 
-| categoria, no nível 26 a 30 | por rodada | ações | o golpe |
+| categoria, no nível 26 a 30 | o golpe | em dado |
+|---|---|---|
+| `Capanga` | `28` | `4d6 + 14` |
+| `Ameaça` | `51` | `4d12 + 25` |
+| `Desastre` | `56` | `8d6 + 28` |
+| `Catástrofe` | `64` | `6d10 + 31` |
+| `Calamidade` | `68` | `6d10 + 35` |
+
+*O golpe não depende do N: um `Desastre ×1` e um `×6` batem o mesmo `8d6 + 28`, e o `×6` bate seis vezes.* **Quem carrega recurso rola este golpe sem mudança nenhuma:** *o recurso se paga na vida (§6).*
+
+> **⚠ O teto de oito dados não é cosmético.** *Sem ele o otimizador troca `5d8 + 26` por `10d4 + 24`: fecha melhor na conta e é pior na mesa.* ***Pedido do Mizuki, v0.216:*** *"não precisa sustentar pra sempre o `d8`, dá pra usar `d6`, `d4`, `d10`, `d12`, para ajudar nos cálculos".*
+
+### 4.5 O chefe com capangas — cada capanga toma `1 ÷ (rodadas × N)` do chefe
+
+***Ideia do Mizuki:*** *nem todo combate tem mais de um inimigo, e o mesmo encontro pode vir num corpo só ou repartido.* ***E a decisão de 28/09:*** *o `Capanga` "pode sim ser usado […] junto de um chefe".*
+
+> **Cada capanga que entra ao lado de um chefe tira `1 ÷ (rodadas × N)` da vida e do golpe do chefe.** *Até metade do grupo em capangas — `1,5 × N` corpos — a conta é essa, e o encontro cobra o que o chefe sozinho cobraria.*
+
+| célula, no nível 30 | `1 ÷ (rodadas × N)` | com 1 capanga, o chefe fica com | com 2 | com 3 |
+|---|---|---|---|---|
+| `Desastre ×2` | `16,7%` | `83,5%` | `67,1%` | `50,6%` |
+| `Desastre ×4` | `8,3%` | `91,7%` | `83,4%` | `75,2%` |
+| `Desastre ×6` | `5,6%` | `94,5%` | `89,0%` | `83,5%` |
+| `Calamidade ×2` | `10,0%` | `90,1%` | `80,3%` | `70,4%` |
+| `Calamidade ×4` | `5,0%` | `95,0%` | `90,0%` | `85,2%` |
+| `Calamidade ×6` | `3,3%` | `96,7%` | `93,4%` | `90,1%` |
+
+*A fração não foi escolhida: ela é a que devolve o que o chefe sozinho cobra, pela simulação do `conferir-bestiario.py`.*
+
+> **⚠ A conta depende de em que ordem o grupo abate, e a ordem está declarada: os capangas primeiro.** *É o que a mesa faz sozinha — o capanga cai num golpe de um personagem.* **E o chefe age primeiro em cada rodada**, *que é a leitura que não esconde uma rodada dele.*
+>
+> **⚠ A `Ameaça` sai da regra, porque as `2,5` rodadas dela dependem de quem age primeiro.** *Com o chefe agindo primeiro ela age três vezes; com o grupo agindo primeiro, duas.* **Para ela, use a fração do `Desastre` do mesmo N.**
+
+### 4.6 Concentrando, ele derruba alguém — e a métrica que mostra isso não é óbvia
+
+*A vida de referência nesta estimativa é o dano publicado do chefe dividido por 90%. Como o dano já foi arredondado, ela aproxima a média exata dos quatro Caminhos; os PV dos personagens continuam sendo calculados por Caminho.*
+
+**Um `Desastre ×4` concentrando os quatro golpes derruba um personagem na rodada `1,12`.** *No nível 30 ele entrega `672` de dano na luta contra `251` do alvo, e a razão é quase a mesma em todo nível.* **Numa luta de três rodadas ele derruba `2,68` pessoas se concentrar** — não o grupo inteiro, e mais de uma.
+
+| categoria, no nível 30 | rodadas | derruba um na rodada (`×4`) | derruba na luta |
 |---|---|---|---|
-| `Capanga` | `55` | `1` | `6d8 + 28` |
-| `Ameaça` | `55` | `1` | `6d8 + 28` |
-| `Desastre` | `219` | `3` | `8d8 + 37` |
-| `Catástrofe` | `328` | `5` | `6d10 + 33` |
-| `Calamidade` | `438` | `6` | `8d8 + 37` |
+| `Ameaça` | `2,5` | `1,23` | `0,508 × N` |
+| `Desastre` | `3,0` | `1,12` | `0,669 × N` |
+| `Catástrofe` | `4,0` | `0,98` | `1,019 × N` |
+| `Calamidade` | `5,0` | `0,92` | `1,354 × N` |
 
-*O `Capanga` e a `Ameaça` batem o mesmo golpe, e o que separa os dois é a vida. O `Desastre` e a `Calamidade` também: a `Calamidade` tem o dobro do dano em o dobro de ações. Quem carrega `Intervenção` rola este golpe com o fator do §6.5.*
+**A `Catástrofe` e a `Calamidade` derrubam mais gente do que o grupo tem, se ninguém curar e ninguém cair antes.** *São as lutas severa e extrema, e é para isso que elas existem: a `Calamidade ×4` tira `135%` da vida do grupo em cinco rodadas, e conta com a cura (§4.7) para não matar.*
 
-> **Menos ações quer dizer golpe maior**, *e é por isso que a `Catástrofe` bate menos que o `Desastre`: uma vez e meia o dano, em cinco ações em vez de três.*
+> **⚠ A métrica errada é "quantas rodadas ele leva para derrubar o GRUPO".** *Até a v0.200 ela dava `14` contra uma luta de `3,7`, e escondia que ele derrubava uma pessoa por luta, no último segundo.* **A conta desta edição dá `2,68` pessoas:** *o d20 de 2014 derruba `2,56` a `2,70` numa luta de três rodadas, e o chefe solo do Pathfinder 2e derruba perto de `2,8`.*
 >
-> ~~**⚠⚠ E ele custa doze dados numa rolagem só, o que é caro em tempo de mesa.**~~ ***RESOLVIDO na v0.216, e não por decreto:*** **o dado deixou de ser sempre `d8`.** *Pedido do Mizuki — "não precisa sustentar pra sempre o `d8`, dá pra usar `d6`, `d4`, `d10`, `d12`, para ajudar nos cálculos".* **O maior punhado da tabela caiu de `12d8` para `8d12`** — *o da `Dupla`, que morreu com a escada; o maior de hoje é `8d8`.*
+> **⚠ E é o modelo sem ATRITO, que é o modelo desta peça inteira: quem cai continua contando na saída do grupo.** ***Decisão do Mizuki na v0.205: fica assim.*** *"Um inimigo focar um único player vai acabar matando mesmo, acho que todo sistema rola isso — o mestre não vai querer normalmente focar também."*
 >
-> **Medido nas vinte e sete células que rolavam dado na escada de então:** *a metade cai **exata** em `6` delas contra `0` do `d8` fixo, e o desvio médio não se move — `26,4%` para `25,0%`.* **O balanço é o mesmo; o que melhorou foi a aritmética e a mão.**
->
-> **⚠ O teto de oito dados não é cosmético.** *Sem ele o otimizador troca `5d8 + 26` por `10d4 + 24`: fecha melhor na conta e é pior na mesa.*
-
-### 4.3 ⚠ A categoria não é intercambiável consigo mesma
-
-**Quatro `Ameaça` não valem um `Desastre`: elas cobram `0,75 ×` a `0,77 ×` o que ele cobra**, e a razão é a mesma nas sete faixas.
-
-*A causa é que elas morrem em fila e a saída delas despenca — quatro corpos de um quarto entregam tudo enquanto estão os quatro de pé, e depois entregam cada vez menos.* **Somar os fatores dá a linha inteira; jogar os quatro não dá o mesmo encontro.** *E vale no degrau de baixo: duas `Ameaça` cobram `25%` a menos que um corpo de fator `0,50`, pela mesma razão.*
-
-> **É por isso que o `Capanga` não é uma `Ameaça`.** *A `Ameaça` é um quarto do chefe nos dois eixos — um quarto da vida e um quarto do dano —, e o `Capanga` é `1/12` da vida com um QUARTO do dano.* **É essa diferença de um eixo só que faz o câmbio do §5 fechar em oito, e a `Ameaça` parar em `0,76`.**
->
-> *Os números são os da escada de antes, com o nome novo: a `Ameaça` tem a vida, o dano e as ações que a `Ronda` tinha, e o `Desastre` os da `Alcateia`.* **O modelo do Bestiário refez a conta na escada viva e devolveu o mesmo `0,75 ×` a `0,77 ×`.**
+> **⚠ E a escada inteira é mais pesada que a dos outros sistemas.** *A pressão do `Desastre` (`66,9%` da vida do grupo, no nível 30) é a da luta severa-a-extrema do Pathfinder 2e e do D&D 2024, cuja moderada tira de `20%` a `48%`.* **Isso vem da decisão da v0.205, e a razão entre os degraus é a deles:** *a `Calamidade` é o dobro do `Desastre`, como a extrema é o dobro da moderada.*
 
 ### 4.7 O que a CURA do grupo faz com o encontro — e ela não faz o que parece
 
 ***Pedido do Mizuki na v0.203:*** *"um inimigo tem que ser calculado pra todas as situações, para fazer uma média. Vai ter grupo que vai ter 1 healer, vai ter o grupo que não vai ter healer, vai ter o grupo onde não tem healer mas cada um tem `Circulação` ou pelo menos `Energia Reversa`."*
 
-**A linha do manual foi calibrada contra um grupo que não cura.** *Medindo contra os que curam, o resultado sai ao contrário do esperado.*
+> **Registro histórico da medição de cura da v0.203.** A composição com Energia Reversa curando outra pessoa não é permitida na edição jogável atual. Os números abaixo ficam como registro daquela análise e não foram recalibrados como encontros da edição atual.
+
+**A linha do manual foi calibrada contra um grupo que não cura.** *Medindo contra os que curam, o resultado sai ao contrário do esperado. A tabela é a do `Desastre ×4`, que é a linha do manual.*
 
 | composição, no nível 30 | luta | o chefe entrega | a cura repõe | líquido | do grupo |
 |---|---|---|---|---|---|
@@ -289,54 +358,49 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 
 **Toda composição que cura sai PIOR que a que não cura, e o motivo é economia de ação.** *Curar gasta a ação que causaria dano; menos dano faz a luta durar mais; e cada rodada a mais é mais uma rodada do chefe.* **Ele entrega `219` por rodada e nenhuma cura de alvo único do sistema repõe isso** — um atacante que para de bater abre mão de `78,75`.
 
-> **A única que ganha a troca é a cura em ÁREA**, porque ela multiplica por alvo: quatro alvos vezes `45` da `Onda` de Classe 7 passam dos `78,75`. *E ela é a que mais depende de como o chefe bate — contra um chefe que concentra, três quartos dela caem em quem está inteiro.*
+> **A única que ganha a troca é a cura em ÁREA**, porque ela multiplica por alvo: quatro alvos vezes `45` da `Onda` de Classe 7 passam dos `78,75`.
 >
-> **⚠ E é por isso que a linha do manual NÃO desconta cura.** *Descontar deixaria o chefe mais fraco justamente contra os grupos que já sofrem mais.* **A calibragem fica contra o grupo que não cura, e esta tabela existe para o mestre saber o que muda quando ele cura.**
+> **⚠ E é por isso que a linha do manual NÃO desconta cura.** *Descontar deixaria o chefe mais fraco justamente contra os grupos que já sofrem mais.*
 
-**O molde disso é o do d20, e ele foi lido antes de a tabela ser escrita.** *A `Palavra Curativa` do `Livro do Jogador` de 2024 é Ação Bônus e cura pouco de propósito, e a regra de `0` PV de lá diz que o personagem fica Inconsciente "até recuperar qualquer quantidade de Pontos de Vida".* **Cura ali não existe para deixar ninguém inteiro: ela existe para levantar quem caiu, e é isso que a peça 1 §5.5 já escreve deste lado.**
+> ***Decisão do Mizuki:*** *"cura deve ser feita para segurar um pouco de dano, tirar o cara de morrer no próximo tapa — semelhante ao d20, onde cura não é feita pra deixar uma pessoa full."* **Levantar alguém de `0` gastando a Ação Padrão é empate exato; na Ação Bônus o saldo vira `+51,8`**, e é essa a metade que a aptidão `Circulação` da peça 11 §6 existe para dar.
 
-> ***Decisão do Mizuki:*** *"cura deve ser feita para segurar um pouco de dano, tirar o cara de morrer no próximo tapa — semelhante ao d20, onde cura não é feita pra deixar uma pessoa full."*
->
-> **O número que fecha isso:** *levantar alguém de `0` gastando a Ação Padrão é empate exato — você perde a sua rodada e devolve a dele.* **Na Ação Bônus o saldo vira `+51,8`**, e é essa a metade que a aptidão `Circulação` da peça 11 §6 existe para dar.
+## 5. O `Capanga` — o esquadrão de `2N`
 
-## 5. O câmbio — um corpo grande vale oito pequenos
+***Decisões do Mizuki, 28/09/2026:*** *"Capanga, ele pode sim ser usado contra players em multiplas quantidades ou junto de um chefe"*, e a forma **B** — os `2N` corpos com meio golpe.
 
-**O `Capanga` é a categoria que vem em bando, e o câmbio diz quantos corpos dele valem um chefe.** *Ele é o da escada: esquadrão de `8` corpos, vida num pool só, uma ação cada.*
+**O `Capanga ×N` é um esquadrão de `2N` corpos que caem num golpe cada.** *O grupo de N derruba N corpos por rodada, então o esquadrão dura duas rodadas contra qualquer N.*
 
-> **Um `Desastre` vale oito capangas do mesmo nível.**
+> **A vida de um corpo é a saída de um personagem por rodada, para baixo.** *É o que UM personagem derruba num golpe.*
+> **O golpe de um corpo é metade do golpe-base**, meio para baixo. *Cada corpo age uma vez por rodada.*
 
-**As duas linhas do capanga são derivadas, e nenhuma sai da vida do chefe:**
+**Com meio golpe o esquadrão cobra `33,5%` da vida do grupo em duas rodadas no nível 30, em todo N, que é o degrau de baixo.** *Com o golpe inteiro, os mesmos corpos cobrariam o que um `Desastre` cobra, e o `Capanga` sairia mais caro que a `Ameaça`.* **O golpe dele fica abaixo da banda de `20%` a `28%`, e a banda vigia só os chefes.**
 
-> **Vida do capanga = o dano do grupo por rodada dividido por quatro, arredondado para baixo.** *É o que UM personagem derruba num golpe.*
-> **Dano do capanga = o dano do chefe vezes o fator da categoria** — *o mesmo golpe da `Ameaça`.*
+> **Um `Desastre ×N` vale `3N` capangas do mesmo nível.** *O esquadrão entrega os golpes cedo e acaba cedo; o chefe entrega os mesmos em três rodadas.*
 
-**Com isso o câmbio fecha na aritmética: o esquadrão entrega DOZE golpes de um quarto, e doze quartos são as três rodadas do chefe.** *O grupo derruba quatro corpos por rodada, então o esquadrão bate oito vezes na primeira e quatro na segunda — `8 + 4`. O chefe bate três vezes em cada uma de três rodadas.*
+| quantos capangas cobram o que a célula cobra | `×1` | `×2` | `×3` | `×4` | `×5` | `×6` |
+|---|---|---|---|---|---|---|
+| `Ameaça` | `3` | `5–6` | `8–9` | `11–12` | `13–15` | `16–18` |
+| `Desastre` | `3` | `6` | `9–10` | `12` | `14–15` | `17–18` |
+| `Catástrofe` | `4` | `7–8` | `11–12` | `15–16` | `18–20` | `22–24` |
+| `Calamidade` | `4–5` | `9` | `13` | `17–18` | `21–25` | `26–27` |
 
-**No nível 30 o chefe cobra `657` de dano em `3` rodadas e o esquadrão cobra `660` em `2`.** *Nas sete faixas os dois ficam a menos de um golpe de capanga de distância.*
+*Nas sete faixas da tabela do manual; onde a faixa muda o número, a célula traz os dois.* **A simulação roda no validador, e é ela que prova a igualdade.**
 
-> **A simulação roda no validador, e é ela que prova a igualdade.** *Ela não escolhe o `8` — ela confere que o `8` é o número de corpos que devolve o chefe, nível a nível.*
+> **E ele precisa de uma trava para não concentrar:** *no máximo `3` corpos do mesmo esquadrão atacam o mesmo alvo por rodada, e do segundo em diante o golpe sai pela metade.* **A trava não encolhe o esquadrão** — *os corpos continuam entregando tudo, só não no mesmo alvo.*
 
-> **⚠ E o trade-off que sobra não é de tamanho: é de FORMA.** *O esquadrão entrega oito golpes na primeira rodada e quatro na segunda; o chefe entrega três em cada uma de três.* **O enxame morde cedo e acaba cedo** — é o mesmo fenômeno que o multiplicador de encontro do 5e de 2014 existia para representar, e que a edição de 2024 apagou por imprecisão.
->
-> **E ele precisa de uma trava para não concentrar:** *no máximo `3` corpos do mesmo esquadrão atacam o mesmo alvo por rodada, e do segundo em diante o golpe sai pela metade.* **Sem ela oito corpos entregam mais que a vida inteira de um personagem numa rodada; com ela, menos da metade.** *A trava não encolhe o esquadrão — os oito continuam entregando tudo, só não no mesmo alvo.*
-
-> **⚠ O capanga que esta seção publicou da v0.201 à v0.220 era outro** — *quatro corpos, a vida do chefe dividida por quatro e o dano dividido por três, com a prova dos "nove golpes" (`3 × 3` contra `4 + 3 + 2`).* **Ele era o capanga da `Alcateia`, e morreu com ela.** *Estava certo por dentro; ele só não é o da escada viva. Ficar com um só foi decisão do Mizuki, em 10/09/2026.*
+> **⚠ O `Capanga` da escada de antes eram oito corpos com o golpe da `Ameaça`,** *e oito deles valiam um `Desastre`.* **Com o golpe inteiro ele cobrava o orçamento de um chefe, e não o do degrau de baixo.**
 
 ### 5.1 A linha do nível 2 estava um ponto fora, e um ponto era uma rodada
 
 **A seção `Inimigos` do manual escreve a própria regra:** *o chefe sozinho tem cerca de **três vezes** o dano de rodada do grupo em vida, "e é isso que faz a luta contra ele durar três rodadas".* **Seis das sete linhas cumpriam isso exato; a do nível 2 publicava `115` contra os `114` que a regra pede.**
 
-> **⚠⚠ E um ponto de vida custava uma rodada inteira do chefe.** *Com `115` a luta dura `3,03` rodadas, e rodada é inteira na mesa: o chefe age quatro vezes e o encontro cobra `89%` da vida do grupo, contra os `68%` que as outras seis cobram.* **No nível em que o personagem tem `19` de vida.**
->
-> *A faixa virou `105 a 123`, com o meio em `114` e o espalhamento em `±7,9%` — dentro dos `±7,4%` a `±9,1%` das outras seis.* **Manual na `v7.25`.** *A checagem `5.2` do validador guarda isso.*
+> **⚠⚠ E um ponto de vida custava uma rodada inteira do chefe.** *Com `115` a luta dura `3,03` rodadas, e rodada é inteira na mesa: o chefe age quatro vezes e o encontro cobra `89%` da vida do grupo, contra os `68%` que as outras seis cobram.* **A faixa virou `105 a 123`, com o meio em `114`.** *Manual na `v7.25`; a checagem `5.2` do validador guarda isso.*
 
-**É o mesmo defeito que a vida do `Capanga` teria sem arredondar para baixo:** *um quarto de ponto de vida põe o esquadrão vivo numa rodada a mais.* **Com o piso, o esquadrão do nível 2 tem `9` de vida por corpo — `38 ÷ 4` dá `9,5`, e fica `9`.**
+**É o mesmo defeito que a vida do corpo do `Capanga` teria sem arredondar para baixo.** *Com o piso, o corpo do nível 2 tem `9` de vida — `38 ÷ 4` dá `9,5`, e fica `9`.*
 
-> **⚠ E a conta que parece óbvia mata o grupo.** *O câmbio não é linear:* **do quarto ao sétimo capanga somado a um chefe inteiro, cada corpo passa a valer o dobro do primeiro**, porque o esquadrão cheio cobre os próprios buracos. *A régua do encontro misturado mora no §4.5 e para em três de propósito.*
+## 6. O que ele carrega além dos números — e se paga na vida
 
-## 6. O que ele carrega além dos números
-
-***Decisão do Mizuki:*** **o inimigo se monta com as mesmas peças que um personagem, menos o Caminho.** *Na obra a maior parte do que se enfrenta é feiticeiro, e feiticeiro tem técnica, tem aptidão e tem Passiva — se a ficha de inimigo não alcançar isso, metade dos antagonistas não cabe nela.*
+***Decisão do Mizuki:*** **o inimigo se monta com as mesmas peças que um personagem, menos o Caminho.** *Na obra a maior parte do que se enfrenta é feiticeiro, e feiticeiro tem técnica, tem aptidão e tem Passiva.*
 
 | ele tem | de onde sai |
 |---|---|
@@ -351,9 +415,17 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 | poço de PE | o §6.1 |
 | Origem | a peça 9 é a máquina de criação de quem senta na mesa |
 
+***Decisões do Mizuki, 28/09/2026:*** *"Faz mais sentido ser B, entendo a A, mas vc tem q pensar q como fica o inimigo Calamidade? n tem pra aonde subir, dar expansão e essas mecancias deixam o encontro mais letal, mas n necessariamente deixa ele impossivel do grupo ganhar"* · *"um dragão que tem baforada n tem dano reduzido em comparação a um inimigo que tenha so ataques do mesmo nd"*.
+
+> **O que o inimigo carrega e muda o encontro se paga na vida: `a vida ÷ o multiplicador`. O golpe não se move.** *A célula fica do tamanho que o §4 diz, e o encontro fica mais letal no pico e mais curto.*
+
+**Os outros sistemas fazem o mesmo com o golpe.** *Nos `331` blocos do SRD 5.2, no mesmo ND, o monstro com `Recarga` tem a rotina de ataque `× 1,05` da do monstro que só ataca, a vida `× 0,94` e a CA `+0,9`; o GM Core do Pathfinder 2e dá à baforada o dano da tabela de área e não manda baixar golpe, vida nem outro número.* **Nos dois a baforada se paga pela economia de ação, e a `Recarga` daqui também: ela come as ações do turno (§6.5).** *O que sobra é o ganho da área, e ele sai da vida. A medida está em `bestiario/09-fase-2/pesquisa/leva-2/conta-recarga-dnd.py`.*
+
+> **⚠ Até a v0.281 o que o inimigo carregava multiplicava o fator, e o encontro crescia.** *"A Expansão aumenta o encontro, e não se compensa", da v0.229, caiu com a resposta de 28/09: a `Calamidade` não tinha para onde subir.*
+
 ### 6.1 O inimigo não conta PE, e a cota de dano é o orçamento dele
 
-**Tudo que ele faz sai do dano por rodada da ficha.** *Uma técnica que causa dano entrega aquela cota e não mais que ela; uma que não causa dano troca parte da cota por outra coisa.*
+**Tudo que ele faz sai do golpe da ficha.** *Uma técnica que causa dano entrega aquele golpe e não mais; uma que não causa dano troca parte da cota por outra coisa.* **A cota de uma rodada são os N golpes dele.**
 
 **O precedente é do `Guia do Mestre` de 2014, e ele é explícito:** *o que um monstro tem é dano por rodada, e como esse dano se divide em ataques é livre.* **Contar PE de inimigo criaria uma segunda economia que só o mestre opera**, e ela responderia diferente em duas mesas.
 
@@ -361,85 +433,73 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 
 ### 6.2 E existe inimigo sem energia nenhuma
 
-**Ele não tem refino, aptidão nem técnica, e a cota de dano vem do corpo.** *É a forma da Restrição Celestial pelo ramo da Maki, do lado de lá da mesa* — **e a ficha não muda de tamanho por causa disso:** a vida e o dano continuam saindo da categoria, porque a categoria mede o que o encontro custa, e não de onde ele tira força.
+**Ele não tem refino, aptidão nem técnica, e a cota de dano vem do corpo.** *É a forma da Restrição Celestial pelo ramo da Maki, do lado de lá da mesa* — **e a ficha não muda de tamanho por causa disso:** a vida e o golpe continuam saindo da célula, porque a célula mede o que o encontro custa, e não de onde ele tira força.
 
 > **⚠ E aqui a fronteira da obra encosta na mecânica sem virar número.** *O que separa uma maldição de grau 2 de uma de semi-grau 1, na classificação da obra, é saber usar técnica.* **A ficha carrega essa linha na coluna `técnica`**, e o rótulo do §2 fica legível sem entrar em conta.
 
-### 6.3 Resistência é vida escondida, e ela multiplica o fator da categoria
+### 6.3 Resistência pontual e proteção ampla
 
-**A peça 19 §4 divide os catorze tipos de dano em três grupos e diz quanto cada um pesa no que um alvo recebe** — `Físicos 60%`, `Elementais 30%`, `Especiais 10%`. **Resistir corta pela metade o que entra por aquele grupo, e isso sobe a vida efetiva do inimigo:**
+**Resistência a até `2` tipos fixos, no total da criatura, não desconta PV.** Um grupo completo continua pago, mesmo quando seus tipos são escritos separadamente. A resistência continua reduzindo à metade o dano daqueles tipos; a isenção é de preço, não de efeito. Imunidade e vulnerabilidade seguem suas regras próprias.
+
+**Pendente:** Três ou mais tipos mistos que não completem um grupo continuam sem preço definido; não aplique a isenção a esse caso.
+
+**A peça 19 §4 divide os catorze tipos de dano em três grupos e diz quanto cada um pesa no que um alvo recebe** — `Físicos 60%`, `Elementais 30%`, `Especiais 10%`. **Resistir corta pela metade o que entra por aquele grupo, e isso sobe a vida efetiva do inimigo.** As colunas de resistência e imunidade são os divisores de PV cobrados. A linha de um tipo usa a isenção aprovada; dois tipos fixos no total também não descontam PV. O peso de 20% permanece hipótese para a imunidade e a vulnerabilidade dessa linha, não uma frequência medida:
 
 | grupo | peso | resistência | imunidade | vulnerabilidade |
 |---|---|---|---|---|
 | `Físicos` | `60%` | **`1,43×`** | **`2,50×`** | `0,62×` |
 | `Elementais` | `30%` | `1,18×` | `1,43×` | `0,77×` |
 | `Especiais` | `10%` | `1,05×` | `1,11×` | `0,91×` |
-| um tipo só | `20%` | `1,11×` | `1,25×` | `0,83×` |
+| um tipo só | `20%` | `1,00×` | `1,25×` | `0,83×` |
 
-**Um `Desastre` imune a `Físicos` vira uma luta de `7,50` rodadas**, contra as `3,00` que a categoria promete — *a vida efetiva dele é `2,50 ×` a publicada.* *A ficha diz uma coisa e a mesa joga outra, e com a linha da v0.201 a diferença deixou de ser uma luta mais longa e passou a ser uma luta que o grupo não termina de pé.*
-
-**O fator da categoria é a moeda disso, e ele é contínuo.** *`fator novo = fator × o multiplicador da coisa` — e a leitura sai de graça, porque `personagens = fator × 4`.* **Um `Desastre` que resiste a `Físicos` fica em fator `1,43` e exige `5,7` personagens.**
-
-> **Resistência ao grupo `Físicos` multiplica o fator da categoria por `1,43`.** *Aos `Elementais`, por `1,18`; aos `Especiais`, por `1,05`.*
-> **Imunidade a `Físicos` multiplica o fator por `2,50`, e o resultado é um número de pessoas, não um nome.** *Aos `Elementais`, por `1,43`; aos `Especiais`, por `1,11`.*
-> **A vulnerabilidade é `1,00×`: não cobra e não devolve.** *O dano daquele tipo dobra contra ele, e nada mais na ficha muda — nem o fator, nem a vida.*
-> **Ser imune a uma condição que rouba ação do inimigo, ou que dá desvantagem nos ataques dele, multiplica o fator por `1,20`. Qualquer outra condição custa `1,00×`.**
-
-> **⚠ Um `Desastre` imune a `Físicos` exige `10` personagens, não `4`.** *A edição viva do D&D publica isso zero vezes em `331` blocos — se você vender, saiba que está vendendo o item mais caro do livro.* **É aviso, e não trava.**
-
-> **⚠ A coluna `vulnerabilidade` da tabela é conta de vida efetiva, e não preço.** *Ela diz quanto a luta encurta se o grupo inteiro bater naquele tipo, e a ficha não sabe o que o grupo carrega — por isso não cobra nem devolve.* **`4` de `4` sistemas medidos no Bestiário têm vulnerabilidade, e nenhum mexe no custo de encontro por ela.**
+> **Resistência ao grupo `Físicos` divide a vida crua por `1,43`.** *Aos `Elementais`, por `1,18`; aos `Especiais`, por `1,05`.*
+> **Imunidade a `Físicos` divide a vida crua por `2,50`.** *Aos `Elementais`, por `1,43`; aos `Especiais`, por `1,11`.*
+> **A vulnerabilidade é `1,00×`: não cobra e não devolve.** *O dano daquele tipo dobra contra ele, e nada mais na ficha muda.*
+> **Ser imune a uma condição que rouba ação do inimigo, ou que dá desvantagem nos ataques dele, divide a vida crua por `1,20`. Qualquer outra condição custa `1,00×`.**
 >
-> *Até a v0.220 esta seção cobrava em "degrau de categoria". Na escada viva o degrau vai de `1,000 ×` a `4,000 ×`, e três dos quatro preços que ela cobrava não cabiam em degrau nenhum. **A moeda passou a ser o fator.***
+> **O inimigo que não usa voz não é imune ao `Calado`, e não paga o `1,20`.** *O `Calado` só cala Selo ou habilidade que precise de voz (peça 19 §3.2, v0.277): contra quem não tem nada disso ele não tira ação, então é "qualquer outra condição", a `1,00×`. A imunidade — e o preço dela — só existe para quem usa voz e não se cala.*
 
-**O mecanismo é o do `Guia do Mestre` de 2014**, que tem uma tabela de `Pontos de Vida Efetivos` fazendo exatamente isso. *Lá o multiplicador encolhe conforme o nível sobe, porque o grupo ganha jeitos de furar; aqui ele não encolhe, porque o `60/30/10` é fixo.*
+**Um `Desastre ×4` imune a `Físicos` sai com `378` de vida no nível 30.** O divisor supõe a distribuição de dano acima. Um grupo que só cause dano Físico não consegue feri-lo por esses ataques; um grupo que use outros tipos enfrenta os PV reduzidos. A conta não garante a mesma duração para toda composição.
 
-> **⚠ E toda esta régua está pendurada num palpite, que a peça 19 §4 declara com todas as letras:** *o peso dos três grupos é previsão, `04-playtest/` está vazia, e ele é "o número que decide quanto vale toda resistência do sistema".* **Quando a mesa corrigir o peso, o multiplicador se refaz sozinho** — ele é conta, e não tabela.
+**O mesmo `Desastre ×4` resistente apenas a Fogo conserva `945` PV.** Acrescentar um segundo tipo fixo conserva esses PV, desde que o total não forme um grupo completo. A resistência continua podendo prolongar a luta.
 
-### 6.4 A Expansão de Domínio do inimigo — ela multiplica o fator por `1,92`
+> **⚠ A coluna `vulnerabilidade` é conta de vida efetiva, e não preço.** *Ela diz quanto a luta encurta se o grupo inteiro bater naquele tipo, e a ficha não sabe o que o grupo carrega — por isso não cobra nem devolve.* **`4` de `4` sistemas medidos no Bestiário têm vulnerabilidade, e nenhum mexe no custo de encontro por ela.**
+
+**A referência é o cálculo de PV efetivos do `Guia do Mestre` de 2014.** Lá ele estima dificuldade sem alterar os PV reais nessa etapa. Aqui, dividir os PV para conservar uma dificuldade escolhida é adaptação do Projeto M. A isenção pontual foi aprovada pelo Mizuki após a revalidação em `bestiario/09-fase-2/pesquisa/REVALIDACAO-resistencia-2026-09-28.md`.
+
+> **⚠ E toda esta régua está pendurada num palpite, que a peça 19 §4 declara com todas as letras:** *o peso dos três grupos é previsão, `04-playtest/` está vazia, e ele é "o número que decide quanto vale toda resistência do sistema".* **Quando a mesa corrigir o peso, os multiplicadores cobrados devem ser recalculados.** A isenção pontual é decisão autoral, e não resultado dessa fórmula.
+
+### 6.4 A Expansão de Domínio do inimigo — ela divide a vida por `1,92`
 
 ***Decisão do Mizuki: a Expansão do inimigo é a do jogador, escalonada para grupo.*** *A máquina inteira mora no manual, e nada dela é reescrito aqui.*
 
-**Ela não acrescenta dano nenhum, e é isso que faz o preço dela ser fácil de achar.** *Pelo §6.1 tudo que o inimigo faz sai da cota de dano por rodada, e o Acerto de um domínio não é exceção: a cota é a mesma dentro e fora.* **O que muda é quanto dela CHEGA.**
+**Ela não acrescenta dano nenhum, e é isso que faz o preço dela ser fácil de achar.** *Pelo §6.1 tudo que o inimigo faz sai da cota, e o Acerto de um domínio não é exceção.* **O que muda é quanto dela CHEGA.**
 
 > **Fora do domínio o inimigo acerta `52%` — é a banda de `50%` a `55%` que o §3.1 publica.** *Dentro, o Acerto acontece: sem rolagem e sem Teste de Resistência, como o manual escreve.*
-> **Então a Expansão completa multiplica a saída efetiva dele por `1 ÷ 0,52`, que é `1,92 ×`.**
+> **Então a Expansão completa multiplica a saída efetiva dele por `1 ÷ 0,52`, que é `1,92 ×`, e a vida crua dele se divide por `1,92`.**
 
-**E a categoria mede exatamente a coisa que esse número move.** *Ela é "quantos personagens ele exige", e `personagens = fator × 4`.* **Então a regra sai em uma linha, sem arredondar nada:**
+**Um `Desastre ×4` com Expansão sai com `492` de vida no nível 30, e a luta dura `1,56` rodada.** *No domínio ele acerta tudo o que tenta, e o grupo que não sair dali leva a luta inteira em pouco mais de uma rodada e meia.* **É a leitura dele de 28/09: mais letal, e não impossível.**
 
-> **Uma Expansão de Domínio completa multiplica o fator do inimigo por `1,92`** — *e, com ele, quantos personagens ele exige.*
-
-| categoria | exige | com Expansão completa |
+| categoria | a luta sem Expansão | com Expansão completa |
 |---|---|---|
-| **`Ameaça`** | `1` | `1,9` |
-| **`Desastre`** | `4` | `7,7` |
-| **`Catástrofe`** | `6` | `11,5` |
-| **`Calamidade`** | `8` | `15,4` |
+| **`Ameaça`** | `2,5` | `1,30` |
+| **`Desastre`** | `3` | `1,56` |
+| **`Catástrofe`** | `4` | `2,08` |
+| **`Calamidade`** | `5` | `2,60` |
 
-**Nenhuma cai num degrau da escada, e isso não é impedimento: a categoria mede pessoas, e o número existe fora da escada do mesmo jeito.** *Os cinco nomes são rótulos num contínuo, e não os únicos pontos onde dá para parar.*
-
-> *Até a v0.220 esta seção arredondava o `1,92` para `2` e dizia que a Expansão "dobra a categoria". Na escada viva "dobrar" só pousa numa categoria de verdade em um caso — do `Desastre` para a `Calamidade` —, e os preços em degrau erravam de `13%` a `40%`.* **A moeda passou a ser o fator.**
-
-> **⚠⚠ E é por isso que o chefe da obra com domínio nunca é enfrentado por quatro.** *Uma `Calamidade` com Expansão exige **`15,4`** feiticeiros.* **A régua diz, em número, a coisa que a ficção já dizia: contra isso o grupo não ganha — ele foge, ou traz gente.**
->
-> ***⚠ A primeira forma desta seção estava errada, e quem achou foi o Mizuki:*** *"não faz sentido um Sukuna da vida não ter expansão, ele seria Calamidade, não?"* **Ela media só para BAIXO — "com que linha eu monto para o encontro não crescer" — e, não achando degrau abaixo da `Calamidade`, concluía que aquela categoria não podia ter domínio.** *A conclusão não segue.* **O que falta ali não é a permissão: é o número do encontro maior**, e ele existe porque a categoria mede pessoas e não degraus.
->
-> *Uma régua que proíbe o chefe mais famoso da obra de fazer a coisa mais famosa dele está errada antes de qualquer conta.*
-
-***Decisão do Mizuki, na v0.229: a Expansão aumenta o encontro, e não se compensa.*** *"em todos os casos, o acerto garantido e a expansão, vão virar pro lado do inimigo, n? por isso é algo q todos os feiticeiros sabem q é quase suicidio lutar contra um expansor dentro da expansão dele, é esperado o encontro ficar maior nesse caso"*. **O mestre deixa a linha como está e lê a coluna da direita.**
-
-> *Até a v0.228 esta seção oferecia o outro lado: manter o tamanho dividindo o dano por rodada por `1,92`.* **Ele saiu porque dividir o golpe por `1,92` tira ele da banda de dano por golpe que o Bestiário decidiu em 10/09**
+> *Até a v0.281 ela multiplicava o fator por `1,92`, e uma `Calamidade` com Expansão exigia `15,4` feiticeiros.* **A decisão da v0.229 — "o acerto garantido e a expansão, vão virar pro lado do inimigo […] é esperado o encontro ficar maior nesse caso" — caiu com a resposta de 28/09.**
 
 **A incompleta não custa nada nesta régua.** *O manual diz que o Acerto dela "resolve por rolagem, como um feitiço"* — **sem a garantia não existe o `1,92 ×`**, e o que ela dá é o Efeito, que não é dano. *Qualquer categoria pode ter uma.*
 
-**E abrir não custa rodada ao inimigo, apesar de custar ao jogador.** *O manual cobra a rodada inteira e `6 ×` a maior Classe de PE; o inimigo não conta PE pelo §6.1, e o Acerto acontece no momento em que ele abre.* **A cota daquela rodada sai pelo Acerto em vez de sair pelos golpes, e nada se perde.**
+**E abrir não custa rodada ao inimigo, apesar de custar ao jogador.** *O manual cobra a rodada inteira e `6 ×` a maior Classe de PE; o inimigo não conta PE pelo §6.1, e o Acerto acontece no momento em que ele abre.*
 
 ***Decisão do Mizuki: os gates são os do jogador.*** **A completa abre no nível `14` com refino `5`, e a Expansão sem Barreiras pede refino `10`**, *como o manual escreve.*
 
-> **É o gate que faz o `1,92` valer o encontro todo.** *O manual põe a duração em metade do refino, e na curva do `meio a meio` o nível `14` dá refino `6` e `3` rodadas de domínio, contra a luta de `3,00`.* **Dali para cima ela só cresce.** *No nível `10` seriam `2` rodadas, e o multiplicador cairia para `1,62`.*
+> **É o gate que faz o `1,92` valer a luta toda.** *O manual põe a duração em metade do refino, e na curva do `meio a meio` o nível `14` dá refino `6` e `3` rodadas de domínio, contra a luta mais longa com Expansão, a da `Calamidade`, de `2,60`.* **Dali para cima ela só cresce.**
 
 #### A Expansão sem Barreiras do inimigo — o mesmo `1,92`, e o refino no teto
 
-**Ela multiplica o fator pelo mesmo `1,92`.** *O preço vem do Acerto garantido, e ele é garantido nos dois modos, com a mesma duração.* **O que muda fica fora do eixo de dano, e por isso fica declarado e não cobrado:**
+**Ela divide a vida pelo mesmo `1,92`.** *O preço vem do Acerto garantido, e ele é garantido nos dois modos, com a mesma duração.* **O que muda fica fora do eixo de dano, e por isso fica declarado e não cobrado:**
 
 - **quem não tem energia amaldiçoada** só leva o Acerto se ele alcança o que não tem energia — *contra um grupo com um Restringido ela entrega menos;*
 - **não existe casca** para quem está de fora quebrar;
@@ -448,15 +508,15 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 
 ***Decisão do Mizuki: o gate é o do jogador, e o refino acima da curva é desvio com causa escrita.*** **Pela curva do `meio a meio`, o inimigo só chega a refino `10` no nível `26`.** *Um chefe da obra que abre sem barreira abaixo disso tem a obra como causa.* **A especialização em `Ocultismo` entra no bloco como a perícia `Ocultismo`.**
 
-> **O refino acima da curva paga no fator, pela Defesa.** *A proteção é `1/3 do refino + 1`, pela peça 11 §6, e o §3.4 mede quanto um ponto de Defesa move o acerto do personagem.* **Então `fator novo = fator × o acerto do personagem ÷ (o acerto − o que a Defesa ganha tira dele)`.**
+> **O refino acima da curva se paga na vida, pela Defesa.** *A proteção é `1/3 do refino + 1`, pela peça 11 §6, e o §3.2 diz quanto um ponto de Defesa custa.*
 
-| marco | refino da curva | Defesa ganha subindo a `10` | o fator |
+| marco | refino da curva | Defesa ganha subindo a `10` | a vida |
 |---|---|---|---|
-| nv `14` | `6` | `+1` | `× 1,11` |
-| nv `18` | `7` | `+1` | `× 1,11` |
+| nv `14` | `6` | `+1` | `× 0,90` |
+| nv `18` | `7` | `+1` | `× 0,90` |
 | nv `22` | `9` | `+0` | `× 1,00` |
 
-*O desvio mexe na Defesa, na duração e no raio do domínio, e em nada mais: o refino não entra no acerto, na CD nem na vida.* **A duração sobe junto, e ela já cobria a luta.**
+*O desvio mexe na Defesa, na duração e no raio do domínio, e em nada mais: o refino não entra no acerto, na CD nem no golpe.*
 
 #### O Rescaldo do inimigo, e a `Regravação`
 
@@ -464,44 +524,36 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 
 **O Rescaldo vale para ele como vale para o jogador:** *quando o domínio acaba, de qualquer jeito, a técnica queima pelo resto da cena.*
 
-> **A cota fica, pelo §6.2, e as ações dele viram golpes de corpo.** *O acerto passa a ler o atributo com que ele bate, e o que era técnica sai junto, inclusive uma `Recarga` de técnica.* **A cota escrita é a mesma, e a entregue cai.**
+> **A cota fica, pelo §6.2, e as ações dele viram golpes de corpo.** *O acerto passa a ler o atributo com que ele bate, e o que era técnica sai junto, inclusive uma `Recarga` de técnica.*
 
-**O domínio dele cobre a luta desde o gate, pela conta desta seção**, *então o Rescaldo só pega quando o domínio cai antes: a barreira quebrada por fora, a corrida ou a concentração.*
-
-**A corrente fecha no nível `26` para o inimigo:** *a `Energia Reversa` no `18`, a `Circulação` no `22` e a `Regravação` no `26`.* **Ela custa `2` pontos de atributo**, *os das escolhas do `18` e do `26`; a do `22` é de refino, e a aptidão vem com ela.* **Antes do `18` nenhum marco do `meio a meio` tem o refino que a `Energia Reversa` pede.**
+**A corrente fecha no nível `26` para o inimigo:** *a `Energia Reversa` no `18`, a `Circulação` no `22` e a `Regravação` no `26`.* **Ela custa `2` pontos de atributo**, *os das escolhas do `18` e do `26`; a do `22` é de refino, e a aptidão vem com ela.*
 
 > *Sem a regra de marco do §3.2 ela fecharia no `22`, com a `Circulação` e a `Regravação` no mesmo nível.*
 
-**Regravar custa a Ação Bônus e o teto da `Circulação`, na cota da rodada em que ele regrava.** *É a porta da aptidão, com o câmbio de `5,14` por PE, e o teto da rodada vale para ela como vale para as outras.*
+**Regravar custa a Ação Bônus e o teto da `Circulação`, na cota da rodada em que ele regrava.** *É a porta da aptidão, com o câmbio de `5,14` por PE.*
 
-| a regravação no nível 30 · `10` PE = `51,4` | `Ameaça` | `Desastre` | `Catástrofe` | `Calamidade` |
+| a regravação no nível 30 · `10` PE = `51,4` | `Desastre ×1` | `Desastre ×4` | `Calamidade ×1` | `Calamidade ×4` |
 |---|---|---|---|---|
-| da cota da rodada | `93%` | `25%` | `17%` | `13%` |
-| espalhada na luta de `3,00` | `31,2%` | `8,5%` | `5,7%` | `4,2%` |
+| da cota da rodada | `92%` | `23%` | `76%` | `19%` |
+| espalhada na luta | `30,6%` | `7,6%` | `15,1%` | `3,8%` |
 
-*A segunda linha é a conta que o §6.5 usa para uma aptidão ligada uma rodada só.* **As quatro categorias cabem na rodada.**
-
-**As marcas são as da peça 11, com a Inteligência.** *A tabela mora lá, e o inimigo só alcança a linha do nível 26 ao 30.* **Reabrir não mexe no fator:** *o `1,92` já supõe o domínio de pé a luta inteira, e uma reabertura só devolve o encontro ao tamanho que foi cobrado.*
+**As marcas são as da peça 11, com a Inteligência.** *A tabela mora lá, e o inimigo só alcança a linha do nível 26 ao 30.* **Reabrir não mexe na vida:** *o `1,92` já supõe o domínio de pé a luta inteira.*
 
 ### 6.5 O catálogo do jogador na ficha do inimigo
 
-***Decisão do Mizuki:*** *"dá pra deixar ser que nem do sistema pra player, mas rebalancear."* **O inimigo não ganha um catálogo de traços só dele — ele carrega as entradas que o jogador já tem, e o que muda é a moeda em que elas se pagam.**
-
-*O §6 já dizia isso em palavras: refino, aptidão, Passiva e técnica saem do mesmo catálogo.* **O que faltava era o preço, e ele é um câmbio de três portas.**
+***Decisão do Mizuki:*** *"dá pra deixar ser que nem do sistema pra player, mas rebalancear."* **O inimigo carrega as entradas que o jogador já tem, e o que muda é a moeda em que elas se pagam.**
 
 | o que ele carrega | onde ela se paga |
 |---|---|
 | **técnica e feitiço** | o **orçamento de feitiço** de uma ação dele, e o Fundamento faz o resto |
 | **aptidão e Passiva com custo por rodada** | a **cota de dano por rodada**, nas rodadas em que ela está ligada |
-| **o que dá vida efetiva** | **multiplica o fator** da categoria, pelo §6.3 |
+| **o que muda o encontro** — `Intervenção`, `Recarga`, cura de Reação, resistência, Expansão | **a vida**, dividida pelo multiplicador |
 
-**A régua é a do `Guia do Mestre`, e o passo 13 escreve ela entre parênteses:** *as características de um monstro "não mudam realmente as estatísticas" dele — elas mexem na vida efetiva, no dano efetivo ou na CA efetiva.* **E o GURPS 4ed monta bicho assim, com as entradas do jogador:** *o bloco de lá publica "um resumo das metacaracterísticas, vantagens e desvantagens mais importantes" da criatura e deixa a lista cheia no modelo racial, com as secundárias "derivadas dos atributos de acordo com as fórmulas normais"* — **que é o que o §3.1 já faz aqui.**
+**A régua é a do `Guia do Mestre`, e o passo 13 escreve ela entre parênteses:** *as características de um monstro "não mudam realmente as estatísticas" dele — elas mexem na vida efetiva, no dano efetivo ou na CA efetiva.*
 
 #### A técnica: o golpe dele é o orçamento do feitiço
 
-***Levantado pelo Mizuki:*** *"se for seguir próximo da criação de ficha normal, um feitiço em área vai ter menos dados para poder comprar condição."* **É exatamente isso, e é por isso que a técnica do inimigo não precisa de preço próprio: o Fundamento já cobra por área, por condição e por Melhoria, em ponto de feitiço.**
-
-**O que a ficha precisa dizer é quantos pontos uma ação dele paga, e isso o §4.4 já publica em dano.** *A conversão é a do manual, que o §2.1 da peça 19 lê: cada ponto que não vira Melhoria vira `1d8`, que são `4,5` de dano.*
+***Levantado pelo Mizuki:*** *"se for seguir próximo da criação de ficha normal, um feitiço em área vai ter menos dados para poder comprar condição."* **É por isso que a técnica do inimigo não precisa de preço próprio: o Fundamento já cobra por área, por condição e por Melhoria, em ponto de feitiço.**
 
 > **O orçamento de feitiço de uma ação é o golpe dela dividido por `4,5`.**
 > **E o preço de cada Melhoria usa a maior Classe que cabe nesse orçamento.** *Decisão do Mizuki, v0.230: numa ação de `14,9` pontos a Classe é a `4`, e uma `Leve` custa `2`.*
@@ -510,100 +562,95 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 |---|---|---|---|---|---|
 | nível 2 | seco | seco | seco | seco | seco |
 | nível 5 | seco | seco | seco | seco | seco |
-| nível 10 | `4,2` | `4,2` | `5,1` | `4,6` | `5,1` |
-| nível 15 | `6,2` | `6,2` | `7,6` | `6,9` | `7,7` |
-| nível 20 | `8,2` | `8,2` | `10,1` | `9,1` | `10,1` |
-| nível 25 | `10,2` | `10,2` | `12,4` | `11,3` | `12,4` |
-| nível 30 | `12,2` | `12,2` | `14,9` | `13,4` | `14,9` |
+| nível 10 | seco | `3,8` | `4,2` | `4,9` | `5,1` |
+| nível 15 | `3,1` | `5,8` | `6,2` | `7,1` | `7,6` |
+| nível 20 | `4,2` | `7,6` | `8,4` | `9,3` | `10,0` |
+| nível 25 | `5,3` | `9,6` | `10,4` | `11,8` | `12,7` |
+| nível 30 | `6,2` | `11,3` | `12,4` | `14,2` | `15,1` |
 
-*O golpe entra aqui como a ficha imprime ele — a média do dado do §4.4 —, e quem carrega `Intervenção` entra já com o fator dela.*
+*O golpe entra aqui como a ficha imprime ele. Ele não depende do N.*
 
-**`seco` é o piso, e ele não foi escolhido: o menor feitiço do manual é a `Classe 1` e custa `3` pontos**, que são `13,5` de dano. *Abaixo disso o inimigo não monta feitiço nenhum — ele bate, e o golpe dele sai como o §4.4 manda.*
+**`seco` é o piso: o menor feitiço do manual é a `Classe 1` e custa `3` pontos**, que são `13,5` de dano. *Abaixo disso o inimigo não monta feitiço nenhum — ele bate, e o golpe dele sai como o §4.4 manda.*
 
-> **⚠ Este piso não é o mesmo do golpe em dado, e os dois vivem lado a lado.** *O §4.4 põe o número seco abaixo de `5` de dano, porque um `d8` balançaria mais que o próprio golpe; este põe o feitiço abaixo de `13,5`, porque é o que a `Classe 1` custa.* **Existe faixa que rola dado e não conjura** — *uma `Ameaça` de nível 5 bate `2d4 + 5`, dez de média, que é dado e não é feitiço.*
+**A maior ação de inimigo do sistema é `15,1` pontos — a `Calamidade` do nível 30 —, e o teto do jogador naquele nível é `24`.** *Uma ação de inimigo é `63%` do maior feitiço que um personagem monta no mesmo nível, e ele compensa em quantidade: age N vezes por rodada.*
 
-**A maior ação de inimigo do sistema é `14,9` pontos — o `Desastre` e `Calamidade` do nível 30 —, e o teto do jogador naquele nível é `24`.** *Uma ação de inimigo é `62%` do maior feitiço que um personagem monta no mesmo nível, e ele compensa em quantidade: age três, cinco ou seis vezes por rodada, e o jogador age uma.* **Até a v0.220 o topo era a `Dupla`, com `24,2` pontos numa ação só — o degrau que levava o dobro do orçamento pela mesma porta.**
-
-> **⚠ E é aqui que a condição do inimigo se resolve, sem moeda nova.** *Comprar condição dentro de um feitiço custa ponto, e ponto gasto em condição é dado que não foi comprado.* **A régua da peça 19 §2.2 vale dos dois lados da mesa desde a v0.201, então o preço já está escrito lá.**
+> **⚠ E é aqui que a condição do inimigo se resolve, sem moeda nova.** *Comprar condição dentro de um feitiço custa ponto, e ponto gasto em condição é dado que não foi comprado.* **A régua da peça 19 §2.2 vale dos dois lados da mesa desde a v0.201.**
 
 #### A aptidão: ela come a cota, e só nas rodadas em que está ligada
 
 **O jogador paga a aptidão em PE por rodada enquanto ela está de pé. O inimigo não conta PE pelo §6.1, então ele paga a mesma coisa na cota — e paga pelas mesmas rodadas.** *O câmbio tem dono: `+1` PE por rodada vale `5,14` de dano por rodada, pela peça 5 §4.*
 
 > **`1` PE por rodada = `5,14` da cota de dano por rodada, contado só nas rodadas em que a aptidão está ligada.**
-> **O teto é a cota daquela rodada** — ninguém gasta o que não tem. *Acima dele a aptidão não cabe naquela categoria, e o mestre sobe de categoria ou tira a aptidão.*
+> **O teto é a cota daquela rodada** — ninguém gasta o que não tem. *Acima dele a aptidão não cabe naquela célula, e o mestre sobe o N ou tira a aptidão.*
 >
-> **Erguer custa a maior Classe em PE, toda vez, desde a v0.272** — *na `Cesta Oca de Vime`, no `Domínio Simples`, na `Pétala` e, desde a v0.273, na `Extensão de Domínio`, pela peça 11 §6.5.* **No inimigo, erguer uma vez por luta entra na cota repartido pelas três rodadas dela:** `maior Classe × 5,14 ÷ 3` por rodada, somado ao PE de rodada.
+> **Erguer custa a maior Classe em PE, toda vez, desde a v0.272** — *na `Cesta Oca de Vime`, no `Domínio Simples`, na `Pétala` e, desde a v0.273, na `Extensão de Domínio`, pela peça 11 §6.5.* **No inimigo, erguer uma vez por luta entra na cota repartido pelas rodadas dela:** `maior Classe × 5,14 ÷ rodadas` por rodada, somado ao PE de rodada.
 
-**O rebalanceamento que o Mizuki pediu está na razão entre as categorias.** *A mesma aptidão pesa quase quatro vezes mais numa `Ameaça` do que num `Desastre`: a cota da `Ameaça` é um quarto, e a do `Desastre` leva o fator da `Intervenção`.*
+**A mesma aptidão pesa N vezes menos num `×N`, porque a cota são os N golpes.**
 
-| ligada a luta inteira, no nível 30 | da cota de uma `Ameaça` | de um `Desastre` |
-|---|---|---|
-| `Cesta Oca de Vime` · só erguer | `22%` | `6%` |
-| `Pétala` · erguer, e `1` PE fixo | `31%` | `8%` |
-| `Domínio Simples` · erguer, e `2` PE fixos | `40%` | `11%` |
-| `Extensão de Domínio` · erguer, e `1,5 ×` maior Classe | `125%` | `34%` |
+| ligada a luta inteira, no nível 30 | `Desastre ×1` | `Desastre ×4` | `Calamidade ×1` | `Calamidade ×4` |
+|---|---|---|---|---|
+| `Cesta Oca de Vime` · só erguer | `21%` | `5%` | `11%` | `3%` |
+| `Pétala` · erguer, e `1` PE fixo | `31%` | `8%` | `18%` | `5%` |
+| `Domínio Simples` · erguer, e `2` PE fixos | `40%` | `10%` | `26%` | `6%` |
+| `Extensão de Domínio` · erguer, e `1,5 ×` maior Classe | `122%` | `31%` | `94%` | `23%` |
 
-**No nível 2 a `Extensão de Domínio` custa `300%` da cota de uma `Ameaça`, e por isso uma maldição daquele nível que a carregue tem de ser pelo menos um `Desastre`** — *lá ela cai para `76%`, e cabe.* **E desde a v0.273, com erguer, ela passa da cota de uma `Ameaça` também no nível 30** (`125%`): *em nível nenhum uma `Ameaça` carrega a Extensão.* *Até a v0.272, sem erguer, eram `193%` e `49%` no nível 2.*
+**No nível 30 um `Desastre ×1` não carrega a `Extensão de Domínio`: ela custa `122%` da cota dele.** *A partir do `×2` ela cabe.*
 
-> ***O `1,5 ×` arredonda para cima, como tudo o que se paga (peça 1 §5.4), desde a v0.274.*** *É o que a peça 11 cobra do jogador: `2` PE por rodada na Classe 1 e `11` na Classe 7. Até a v0.273 esta seção entrava com `1,5` e `10,5`, e publicava `236%` e `60%` no nível 2, e `120%` e `33%` no nível 30.*
+> ***O `1,5 ×` arredonda para cima, como tudo o que se paga (peça 1 §5.4), desde a v0.274.*** *É o que a peça 11 cobra do jogador: `2` PE por rodada na Classe 1 e `11` na Classe 7.*
 
-> **⚠ E contar por luta em vez de por rodada ligada estava errado, porque as quatro anti-domínio são pura resposta.** *Elas valem **zero** contra um grupo que não abre domínio.* **O jogador liga quando o domínio abre; o inimigo, cobrado por luta, pagaria pelas rodadas em que ela não fez nada.** *O `Domínio Simples` erguido e ligado uma rodada de três custa `15,4` de dano por rodada da luta, que são `7,0%` da cota de um `Desastre` e `28%` da de uma `Ameaça` — contra os `11%` e `40%` da tabela acima.* **O `Domínio Simples` saiu da conta por Classe na v0.268, e a `Pétala` na v0.272:** *ele custa `2` PE fixos por rodada, ela `1`, e as duas pagam erguer, pela peça 11 §6.5.*
+> **⚠ E contar por luta em vez de por rodada ligada estaria errado, porque as quatro anti-domínio são pura resposta.** *Elas valem **zero** contra um grupo que não abre domínio.* **O jogador liga quando o domínio abre; o inimigo, cobrado por luta, pagaria pelas rodadas em que ela não fez nada.**
 
 #### A que sai de graça, e o número que prova isso
 
-**Esta não muda a cota — ela muda a FORMA em que ela chega: em que rodada.** *É o mesmo fenômeno que o §4.4 e o §4.5 já medem.*
+**Esta não muda a cota — ela muda a FORMA em que ela chega: em que rodada.**
 
-> **Habilidade guardada, `1 ×` por luta.** *Ela entrega o dobro de uma rodada e deixa as outras menores: no nível 30 são `438` numa e `110` nas outras duas, e o total é `657` — o publicado.*
+> **Habilidade guardada, `1 ×` por luta.** *Ela entrega o dobro de uma rodada e deixa as outras menores: num `Desastre ×4` do nível 30 são `440` numa e `110` nas outras duas, e o total é `660`, os três golpes de rodada da célula.*
 
-#### A `Intervenção` — a ação fora do turno, por cima, e o que ela custa
+#### A `Intervenção` — a ação fora do turno, e o que ela custa
 
-**De `Desastre` para cima o inimigo carrega três `Intervenções` por luta.** *Cada uma é usada uma vez só, no máximo uma por rodada, logo depois do turno de outra criatura.* **A primeira bate — um pouco menos que uma ação normal; a segunda e a terceira mudam o campo em vez de causar dano.** *`Capanga` e `Ameaça` não têm.*
+**O inimigo com `Intervenção` carrega três por luta.** *Cada uma é usada uma vez só, no máximo uma por rodada, logo depois do turno de outra criatura.* **A primeira bate — um pouco menos que uma ação normal; a segunda e a terceira mudam o campo em vez de causar dano.**
 
-> **Ela é ação EXTRA, por cima das do §4.2, e se paga no dano: o fator de dano de quem carrega `Intervenção` é multiplicado por `0,923`.**
+> **Ela abre quando `N × orçamento ≥ 4`:** *a `Ameaça` só no `×6`, o `Desastre` a partir do `×4`, a `Catástrofe` a partir do `×3` e a `Calamidade` a partir do `×2`. O `Capanga` não tem.*
+> **Ela é ação EXTRA, por cima das N, e se paga na vida:** `vida ÷ (1 + 0,75 ÷ (rodadas × N))`.
 
-***As duas ideias fixas são do Mizuki:*** *"Inimigo tem ações"* e *"Intervenções são ações extras em meio aos turnos dos alvos. Nenhum sistema come ação do turno para ter essas 'intervenções', e é por um motivo."* **O `0,923` saiu da forma que o campo constrói:** *medidas `9` villain actions em `3` criaturas `Solo` do Draw Steel, a primeira abre com dano e as outras duas mudam o campo — `0,75` de ação extra numa luta de três rodadas.* **Com ele, o total da luta volta ao da tabela, e as `2,70` pessoas do §4.6 continuam.**
+| a vida se divide por | `×1` | `×2` | `×3` | `×4` | `×5` | `×6` |
+|---|---|---|---|---|---|---|
+| `Ameaça` | — | — | — | — | — | `× 1,050` |
+| `Desastre` | — | — | — | `× 1,062` | `× 1,050` | `× 1,042` |
+| `Catástrofe` | — | — | `× 1,062` | `× 1,047` | `× 1,038` | `× 1,031` |
+| `Calamidade` | — | `× 1,075` | `× 1,050` | `× 1,038` | `× 1,030` | `× 1,025` |
 
-> **⚠ Até a v0.220 esta peça dizia o contrário: "as ações fora do turno saem das que ele já tem, nunca por cima".** *A medida daquela versão — `0,94 ×` a `1,07 ×` sobre `81` durações de luta — media a ação fora do turno tirada da cota, e ela continua certa para aquela leitura.* **A leitura mudou, e com ela o preço.**
+***As duas ideias fixas são do Mizuki:*** *"Inimigo tem ações"* e *"Intervenções são ações extras em meio aos turnos dos alvos. Nenhum sistema come ação do turno para ter essas 'intervenções', e é por um motivo."* ***E os exemplos de 28/09:*** *"n faz sentido uma ameaça ter ação lendaria, mts vezes, no máximo a feita pra 6 pessoas, diferente de um DESASTRE, ele poderia ja ter numa ficha de 4x1"*. **O `0,75` saiu da forma que o campo constrói:** *medidas `9` villain actions em `3` criaturas `Solo` do Draw Steel, a primeira abre com dano e as outras duas mudam o campo — `0,75` de ação extra por luta.*
 
 #### A área — uma ação por rodada, e a `Recarga` não conta
 
-> **No máximo `1` das ações dele por rodada pode ser em área. Ação de `Recarga` não conta nessa cota.** *Vale em toda categoria, e não muda com o nível.*
+> **No máximo `1` das ações dele por rodada pode ser em área. Ação de `Recarga` não conta nessa cota.** *Vale em toda célula, e não muda com o nível.*
 
-**Com `1` ação em área, todo mundo leva perto de metade da vida e a luta continua sendo uma luta; com `2`, o alvo termina a luta com `0,3%` de vida.** *E o `2,70` do §4.6 não existe em área: concentrando, a queda é uma curva; em área, é um penhasco — ou ninguém cai, ou a mesa inteira.*
-
-*Até a v0.220 esta peça dizia que "área reparte a cota, e não multiplica ela", e que a recarga `5-6` não cabia aqui.* **As duas saíram em 10/09/2026, com a trava acima.**
+**Com `1` ação em área, todo mundo leva perto de metade da vida e a luta continua sendo uma luta; com `2`, o alvo termina a luta com `0,3%` de vida.** *E o `2,68` do §4.6 não existe em área: concentrando, a queda é uma curva; em área, é um penhasco.*
 
 #### A `Recarga` — ela come o turno, e bate `2,5` golpes em cada alvo
 
 ***Decisões do Mizuki, 10/09 e 14/09/2026:*** *"ela consome multiplas ou todas as ações do turno do inimigo para fazer só aquela ação. Porque o inimigo tem sempre de decidir entre, 'fazer o multi ataque' ou 'a baforada', nunca os dois, semelhante a dnd"* · *"2,5 vez o golpe, causar +- uns 60% da vida média"* · *"mestres gostam de ter mais dados, da a sensação de RNG q é positiva"*, em `d12`.
 
 > **A `Recarga (5-6)` sai uma vez e volta no começo do turno dele com `5` ou `6` no `d6`. Ela come as ações múltiplas do turno — não come a `Intervenção`, a Ação Bônus nem a Reação.**
-> **Ela é em área, e cada alvo leva `2,5 ×` o golpe na falha do Teste de Resistência e metade no sucesso.** *Ela rola em `d12`, com dois terços do dano em dado e o resto fixo, sem o teto de oito dados do golpe: o número de dados é o que chega mais perto de dois terços sem deixar fração no fixo.* **Um golpe de `67` vira `167`, que é `18d12 + 50`.** *Quando dois `d12` já passam de dois terços, ela rola como o golpe do §4.4.*
+> **Ela é em área, e cada alvo leva `2,5 ×` o golpe na falha do Teste de Resistência e metade no sucesso.** *Ela rola em `d12`, com dois terços do dano em dado e o resto fixo, sem o teto de oito dados do golpe.* **Um golpe de `55` vira `137`, que é `14d12 + 46`.** *Quando dois `d12` já passam de dois terços, ela rola como o golpe do §4.4.*
 
-**O `2,5 ×` se mede na vida de quem leva.** *O golpe fica entre `21%` e `28%` da vida de um personagem do nível, então a `Recarga` tira de `52%` a `70%` dela.* **Medido em três sistemas, na `bestiario/04-fase-1/fila/MEDIDA-a-recarga-contra-a-vida.md`:** *a baforada do D&D 2024 no topo tira `42%`, a área limitada do Pathfinder 2e tira `29%` a `32%`, e a `Villain Action` do Draw Steel tira `15%`.* **A escolha fica acima dos três.**
+**O `2,5 ×` se mede na vida de quem leva.** *O golpe fica entre `20%` e `28%` da vida de um personagem do nível, então a `Recarga` tira de `50%` a `70%` dela.* **Medido em três sistemas, na `bestiario/04-fase-1/fila/MEDIDA-a-recarga-contra-a-vida.md`:** *a baforada do D&D 2024 no topo tira `42%`, a área limitada do Pathfinder 2e tira `29%` a `32%`, e a `Villain Action` do Draw Steel tira `15%`.*
 
-> *Até a v0.229 esta seção dizia que a `Recarga` "ocupa uma das ações dele".* **Era um erro de travessia:** *a decisão de 10/09 escreveu "ocupa a ação" no sentido do D&D — a ação do turno —, e a peça leu uma das ações múltiplas.* **A conta de que ela "já se paga sozinha" foi feita em cima desse erro, e saiu junto.**
-
-**E ela se paga no fator, pelo método do `Guia do Mestre` de 2014** *(capítulo 9, página 278): o dano de um monstro é a média das três primeiras rodadas, e uma área conta como se pegasse `2` alvos numa mesa de `4`.* **Aqui a mesa é a da categoria, então a área pega metade das pessoas que ela exige:**
+**E ela se paga na vida, pelo método do `Guia do Mestre` de 2014** *(capítulo 9, página 278): o dano de um monstro é a média das rodadas da luta, e uma área conta como se pegasse metade das pessoas.* **Aqui a mesa são as N pessoas da célula, então a rodada de `Recarga` vale `2,5 × (N ÷ 2) ÷ N = 1,25` da rodada comum, em todo N:**
 
 ```
-a rodada de Recarga ÷ a rodada comum = 2,5 × (personagens ÷ 2) ÷ ações
-o fator = [disparos × aquela razão + (luta − disparos)] ÷ luta
+os disparos = 1 + (rodadas − 1) ÷ 3
+o multiplicador = [disparos × 1,25 + (rodadas − disparos)] ÷ rodadas
 ```
 
-*Com a luta de `3` rodadas e `1,67` disparos:*
-
-| categoria | personagens | ações | a rodada de `Recarga` vale | o fator multiplica por |
+| categoria | `Ameaça` | `Desastre` | `Catástrofe` | `Calamidade` |
 |---|---|---|---|---|
-| **`Ameaça`** | `1` | `1` | `1,25 ×` a comum | `× 1,14` |
-| **`Desastre`** | `4` | `3` | `1,67 ×` | `× 1,37` |
-| **`Catástrofe`** | `6` | `5` | `1,50 ×` | `× 1,28` |
-| **`Calamidade`** | `8` | `6` | `1,67 ×` | `× 1,37` |
+| a vida se divide por | `× 1,15` | `× 1,14` | `× 1,12` | `× 1,12` |
 
-*O `Capanga` fica de fora, como na Expansão: o preço dele é o câmbio do §5.* **Os `1,67` disparos saem do `d6`:** *ela sai na primeira rodada e volta com chance de um terço em cada começo de turno.*
+*O `Capanga` fica de fora: o esquadrão é a forma dele.* **Os disparos saem do `d6`:** *ela sai na primeira rodada e volta com chance de um terço em cada começo de turno.*
 
-> **A `Recarga` não passa pelo orçamento de feitiço do §6.5.** *O dano dela sai do golpe, então a forma da área não gasta ponto: técnica usa a Forma do Fundamento, e ataque natural usa a área natural logo abaixo.*
+> **A `Recarga` não passa pelo orçamento de feitiço.** *O dano dela sai do golpe, então a forma da área não gasta ponto: técnica usa a Forma do Fundamento, e ataque natural usa a área natural logo abaixo.*
 
 #### A área natural — a cobertura sai do nível
 
@@ -620,421 +667,62 @@ o fator = [disparos × aquela razão + (luta − disparos)] ÷ luta
 
 > **Ela resolve como a área do Fundamento: Teste de Resistência contra a CD dele, o golpe da ação na falha e metade no sucesso.** *O `Cone` sai sempre do corpo dele, e a largura em qualquer ponto é igual à distância até ele; a `Esfera` e o `Retângulo` saem do corpo dele ou de um ponto no alcance.*
 
-**Ela é de graça, pelo mesmo motivo do tamanho:** *o preço da área já foi fechado supondo que ela pega a mesa inteira, e a trava de uma ação em área por rodada é quem segura ela.* **E a trava conta por ESQUADRÃO:** *oito capangas fazem uma ação em área por rodada juntos, e os outros sete batem normal.*
+**Ela é de graça, pelo mesmo motivo do tamanho:** *o preço da área já foi fechado supondo que ela pega a mesa inteira, e a trava de uma ação em área por rodada é quem segura ela.* **E a trava conta por ESQUADRÃO:** *os corpos de um `Capanga` fazem uma ação em área por rodada juntos, e os outros batem normal.*
 
-> *Os raios são os quatro primeiros degraus da escada de esfera do manual, e crescem `9,00 ×` do nível 2 ao 30 — o mesmo crescimento dos dez dragões do D&D 2024, do Jovem ao Ancião. A cobertura, as formas e a resolução por Teste de Resistência saíram do projeto do Bestiário, que mediu cada uma, e a última foi martelada pelo Mizuki em 11/09/2026.*
+> *Os raios são os quatro primeiros degraus da escada de esfera do manual, e crescem `9,00 ×` do nível 2 ao 30 — o mesmo crescimento dos dez dragões do D&D 2024, do Jovem ao Ancião. A resolução por Teste de Resistência foi martelada pelo Mizuki em 11/09/2026.*
 
 #### A `Energia Reversa` e a `Circulação` — as duas curas da corrente
 
-> **No inimigo, a cura de ação da `Energia Reversa` é o empate da troca ruim logo abaixo:** *a vida dele ÷ a luta ÷ as ações, arredondando para baixo, no lugar de uma ação.* **Ela não cobra nada**, *porque curar o empate não ganha nem perde.*
+**Para a cura de ação e as partes destrutíveis, use os PV-base da célula, antes dos ajustes de papel, atributos e recursos.** Calcule essa referência por `rodadas × N × a saída de um personagem`. Nessas duas contas, mantenha as frações até arredondar o resultado para baixo; não use os PV já arredondados da ficha. A cura de Reação da Circulação continua seguindo seu próprio dado e teto.
+
+> **No inimigo, a cura de ação da `Energia Reversa` é o empate da troca ruim logo abaixo:** *os PV-base da célula ÷ as rodadas ÷ N, arredondando para baixo, no lugar de uma ação — que é a saída de um personagem por rodada.* **Ela não cobra nada**, *porque curar o empate não ganha nem perde.*
 
 ***Decisão do Mizuki, v0.242:*** *"Deixa a cura da ação bônus virar reação, fica como uma mudança em comparação a player."*
 
-> **A cura de Ação Bônus da `Circulação` vira Reação, quando ele sofre dano.** *O dado continua `d4`, e o teto continua o da `Circulação`.* **É a diferença para o jogador, e é de propósito:** *a Reação que cura não serve para o ataque de oportunidade, o `Bloquear`, o confronto de Expansão nem a anti-domínio.*
+> **A cura de Ação Bônus da `Circulação` vira Reação, quando ele sofre dano.** *O dado continua `d4`, e o teto continua o da `Circulação`.* **A Reação que cura não serve para o ataque de oportunidade, o `Bloquear`, o confronto de Expansão nem a anti-domínio.**
 
-**Ela não gasta ação, então a porta é a da vida efetiva, e ela multiplica o fator.** *Com uma cura por rodada, a luta de `L` rodadas vira `L ÷ (1 − L × cura ÷ vida)`.*
+**Ela não gasta ação, então a porta é a da vida efetiva, e a vida crua se divide por ela.** *Com uma cura por rodada, a luta de `L` rodadas vira `L ÷ (1 − L × cura ÷ vida)`; como a vida é `L × N ×` a saída de um personagem, o `L` sai da conta, e o multiplicador é o mesmo em todo degrau.*
 
-| a Reação, uma vez por rodada | cura | `Ameaça` | `Desastre` | `Catástrofe` | `Calamidade` |
-|---|---|---|---|---|---|
-| do nível 22 ao 25 · `9d4` | `22,5` | `× 1,49` | `× 1,09` | `× 1,06` | `× 1,04` |
-| do nível 26 ao 30 · `10d4` | `25` | `× 1,47` | `× 1,09` | `× 1,06` | `× 1,04` |
+| a Reação, uma vez por rodada | cura | `×1` | `×2` | `×3` | `×4` | `×5` | `×6` |
+|---|---|---|---|---|---|---|---|
+| do nível 22 ao 25 · `9d4` | `22,5` | `× 1,49` | `× 1,20` | `× 1,12` | `× 1,09` | `× 1,07` | `× 1,06` |
+| do nível 26 ao 30 · `10d4` | `25,0` | `× 1,47` | `× 1,19` | `× 1,12` | `× 1,09` | `× 1,07` | `× 1,06` |
 
-> **⚠ Uma `Ameaça` com a `Circulação` exige `1,5` pessoa.** *É aviso, e não trava.*
->
-> **O fator não desconta a Reação de que ele abre mão.** *O `Bloquear` é neutro por construção, pela peça 23, e o ataque de oportunidade só acontece se alguém sair do alcance.* **A troca fica declarada, e não cobrada.**
+> **O multiplicador não desconta a Reação de que ele abre mão.** *O `Bloquear` é neutro por construção, pela peça 23, e o ataque de oportunidade só acontece se alguém sair do alcance.*
 
 #### A parte destrutível — a vida dela é o empate
 
-***Decisão do Mizuki, v0.244.*** *O braço do Sukuna virou regra: a v0.231 deu `180` a cada um, e a conta serve para qualquer inimigo.*
+***Decisão do Mizuki, v0.244.*** *O braço do Sukuna virou regra, e a conta serve para qualquer inimigo.*
 
-> **A vida de uma parte destrutível é `a vida dele ÷ a luta × 2 ÷ as ações dele`, arredondando para baixo.** *Ela é alvo com a Defesa do inimigo, e destruí-la tira `1` das ações dele.*
+> **A vida de uma parte destrutível é `os PV-base da célula ÷ as rodadas × 2 ÷ N`, arredondando para baixo — duas vezes a saída de um personagem por rodada.** *Ela é alvo com a Defesa do inimigo, e destruí-la tira `1` das ações dele.*
 
-**O `2` são as rodadas pela frente que fazem o empate**, *e é ele que decide se vale a pena quebrar.* **Numa `Calamidade` do nível 30, com a parte em `210`:**
+| faixa | nível 2 | nível 5 | nível 10 | nível 15 | nível 20 | nível 25 | nível 30 |
+|---|---|---|---|---|---|---|---|
+| a vida de uma parte | `19` | `45` | `65` | `90` | `110` | `137` | `157` |
 
-| o grupo quebra a parte | na 1ª rodada | na 2ª | na 3ª |
-|---|---|---|---|
-| e evita, em dano | `+70` | `−35` | `−140` |
+**O `2` são as rodadas pela frente que fazem o empate**, *e é ele que decide se vale a pena quebrar: com mais rodadas pela frente ninguém quebraria parte nenhuma, e com menos ela viraria alvo óbvio em toda rodada.* **O `×1` fica de fora por conta:** *ele tem uma ação só, e uma parte que tire ação o deixaria sem turno.*
 
-*Com `3` rodadas pela frente ninguém quebraria parte nenhuma, e ela viraria vida de graça; com `1`, ela vira alvo óbvio em toda rodada.*
-
-| a vida de uma parte, no nível 30 | `Ameaça` | `Desastre` | `Catástrofe` | `Calamidade` |
-|---|---|---|---|---|
-| | — | `210` | `188` | `210` |
-
-**A `Ameaça` fica de fora por conta:** *ela tem uma ação só, e uma parte que tire ação a deixaria sem turno.*
-
-**A parte não paga no fator, e isso é por construção:** *a vida dela é exatamente o que ela devolve em ação perdida.*
+**A parte não se paga na vida, e isso é por construção:** *a vida dela é exatamente o que ela devolve em ação perdida.*
 
 > **Quantas partes ele tem, e o que a quebra faz além de tirar a ação, são do mestre.** ***Decisões dele:*** *"Decisão do mestre, é flavor"* e *"o caso do sukuna é exemplo"*. **Dois avisos, medidos e não travados:** *se as partes tirarem todas as ações, o inimigo para de agir; e efeito que não seja a ação perdida não tem preço nesta régua.*
 
-**O exemplo é o Sukuna:** *quatro braços de `180`, numa `Calamidade` de vida `1620` com seis ações — a vida dele traz o papel `Artilheiro`, e por isso a parte não é a `210` da tabela.*
-
 #### As duas trocas ruins, declaradas e não proibidas
 
-***Decisão do Mizuki:*** *"não tem problema não valer a pena, às vezes o combate tem uma pessoa só."* **As duas ficam medidas e liberadas, no molde do §4.7 — a peça mede, mostra, e o mestre escolhe.**
+***Decisão do Mizuki:*** *"não tem problema não valer a pena, às vezes o combate tem uma pessoa só."*
 
-> **O inimigo que se cura empata em `315`, que é um terço da vida dele.** *Ele gasta a rodada e abre mão de `202` de dano — os `219` da linha com o fator da `Intervenção`; ganha `H` de vida, que alonga a luta em `H ÷ 315` rodadas, e cada rodada a mais entrega `202`.* **Então `H` de cura vale `0,64 × H` de dano**, e curar lasca é o mesmo erro que o grupo comete.
+> **O inimigo que se cura empata em curar `vida ÷ rodadas`** — *a saída do grupo numa rodada.* *Ele gasta a rodada e abre mão dos N golpes; ganha `H` de vida, que alonga a luta em `H ÷ (N × a saída de um personagem)` rodadas, e cada rodada a mais entrega os N golpes.* **Então `H` de cura vale `golpe ÷ a saída de um personagem × H` de dano** — *`0,71 × H` no `Desastre` e `0,86 × H` na `Calamidade`, no nível 30 —, e curar lasca é o mesmo erro que o grupo comete.*
 >
-> **A condição que o inimigo põe num personagem empata quando `alvos × ações negadas = 4 × ações gastas`.** *A conta não depende do nível: o dano dele cai fora dos dois lados dela.* **Em alvo único nenhuma compensa** — *a `Pesada` precisa de `2,67` alvos, a `Média` precisa de `4` alvos, e a `Leve` precisa de `8` alvos, que a mesa não tem.*
+> **A condição que o inimigo põe num personagem empata quando `alvos × ações negadas = 3 × ações gastas`.** *A conta não depende do nível nem do N: cada ação do personagem é um terço da rodada dele, e cada ação do inimigo é um golpe de N.* **Em alvo único nenhuma compensa** — *a `Pesada` precisa de `2` alvos, a `Média` precisa de `3` alvos, e a `Leve` precisa de `6` alvos.*
 
-**As duas são a mesma conta virada: gastar a rodada em algo que não é dano rende `0,64 ×` do que aquilo vale.** *A cura não tem como multiplicar — ela cai num corpo só. A condição tem, e é por isso que só ela tem saída.*
+**As duas são a mesma conta virada: gastar a rodada em algo que não é dano rende menos do que aquilo vale, a não ser em área.**
 
 ## 7. O que o `conferir-bestiario.py` confere
 
-| # | o que ela confere |
-|---|---|
-| **1** | **as âncoras existem nos donos.** Cada número que a ficha usa aparece no documento que esta peça declara como dono, e a tabela do §3 é comparada com a lista do validador nos dois sentidos |
-| **2** | **as três derivadas reconstroem.** A Defesa, o acerto e a CD saem das fórmulas da peça 1 §5, com a proteção andando junto do refino — e o resultado tem de bater com os `50%` a `55%` de acerto e os `35%` de falha que a peça 1 §6 publica |
-| **2.1** | **o orçamento de atributo reconstrói.** A tabela do §3.2 sai dos nove pontos da peça 2 e da curva do `meio a meio` da peça 11 — `+1` por marco e as escolhas que a curva não gasta em refino —; a linha do chefe é ela mais o ponto da criação; o preço que o ponto não cobra sai do §3.4; e a regra de antes da v0.232 não volta |
-| **3** | **a categoria é cópia com dono.** Vida e dano de cada uma reconstroem da linha do manual vezes o fator, e o fator reconstrói do número de personagens. *Desde a v0.221 o `Capanga` entra por outra porta: a vida dele é o dano do grupo dividido por quatro, para baixo. E a `3.3` confere o tamanho do §3.3: o alcance é o lado da grade vezes o quadrado* |
-| **4** | **as ações são declaradas**, e a categoria de fator `1,00` bate com o piso que a peça 19 §2.2 publica. *Se aquele piso mudar, esta acende* |
-| **5** | **o câmbio é medido, não guardado.** A simulação de fogo concentrado é rodada aqui dentro, com o `Capanga` derivado do dano do grupo e do dano do chefe, e o `8` publicado tem de ser o que ela devolve. *E o capanga que a tabela `Inimigos` do manual publica tem de ser esse mesmo — desde a v0.221, quando o capanga da `Alcateia` morreu* |
-| **5.2** | **a linha do manual obedece a regra que a própria seção dele escreve.** O multiplicador e a duração saem da prosa da seção `Inimigos`, por extenso — *"cerca de três vezes o dano de rodada do grupo em vida, e é isso que faz a luta contra ele durar três rodadas"* —, e cada linha tem de ter o meio da faixa naquele múltiplo **e** cair naquele número de rodadas inteiras. *Ela nasceu na v0.206, e o que ela teria pego é o que ela pegou: a linha do nível 2 publicava `115` onde a regra pede `114`, e um ponto de vida punha o chefe vivo numa quarta rodada* |
-| **5.1** | **a coluna da sub-categoria reconta.** As quatro formas do §4.5 são simuladas com os capangas abatidos primeiro, e as porcentagens publicadas têm de ser o que a simulação devolve — desde a v0.221 com uma casa decimal, e com o `Capanga` da escada. *Ela nasceu na v0.201 porque aquela coluna nunca teve validador e tinha divergido: o publicado subia de `28%` a `35%` e a simulação não reproduzia nem a ordem* |
-| **6** | **o grau não vira número.** Nenhuma linha desta peça pode pendurar valor no grau, e o `ESTADO-ATUAL` e a peça 12 continuam dizendo que inimigo não tem grau mecânico |
-| **7** | **nenhum valor de regra guardado aqui dentro.** Todo número vem do dono, e a checagem falha se algum sobrar como constante |
-| **8** | **resistência é vida escondida.** Os pesos dos três grupos saem da peça 19 §4, os multiplicadores do §6.3 são recalculados de `1 ÷ (1 − o que se poupa)`, e a peça tem de declarar em que moeda a resistência se paga — desde a v0.221 o multiplicador do fator, e o declarado tem de ser o calculado. *Sem essa declaração ela é vida de graça, e a categoria passa a mentir sobre o encontro* |
-| **9** | **o câmbio do §6.5, nas três portas.** A `9.1` reconstrói as `35` células do orçamento de feitiço do golpe dividido pelo que um ponto vale, com o fator de quem carrega `Intervenção`, e cobra que o `seco` seja o piso da `Classe 1` do manual; a `9.2` reconstrói a conta da aptidão do custo que a peça 11 §6.5 publica, da maior Classe da peça 18 e do câmbio de PE da peça 5 §4; a `9.3` refaz os dois empates — o da cura e o dos alvos —, com a escada de ações lida da peça 19 e o tamanho do grupo lido da categoria de fator `1,00`; e a `9.4` cobra que cada porta declare a moeda. *Nenhum dos quatro números vive aqui dentro.* **Desde a v0.221, a `9.5` confere as seis prontas do gerador contra a escada, e a `9.6` a área natural contra a escada de esfera do manual** |
-| **10** | **o papel redistribui, e não acrescenta.** A `10.1` confere que ganha × paga fecha em `1,000` em toda célula que publica os dois lados; a `10.2` **reconstrói cada fator do documento dono** — a Defesa da peça 1 §5.2, a vantagem e a ação negada da peça 19 §2.2 — e compara com o publicado; a `10.3` confere que as ações do §3.4 são as do §4, com a exceção declarada do `Capanga`, que ali se lê por esquadrão. *Sem a `10.2`, o invariante da `10.1` passaria com dois números inventados que por acaso se multiplicam em um* |
-| **10.4** | **o alcance do `Artilheiro` é o dobro do deslocamento.** O metro publicado é a razão da Artilharia do Draw Steel vezes o deslocamento da peça 3, e a razão é a que a `MEDIDA` do Bestiário mede |
-| **7.1b** | **a Expansão de inimigo tem os gates do jogador, e a sem barreiras não muda o preço.** Os gates publicados são os do manual; no nível do gate a duração pela curva do `meio a meio` cobre a luta que a categoria promete, e o multiplicador abaixo dele é recalculado; a sem barreiras usa o mesmo `1,92`; a tabela do desvio de refino reconstrói da proteção da peça 11 e do §3.4; e a alavanca de manter o tamanho dividindo o dano não pode voltar |
-| **9.5** | **as prontas cabem na criação, a Destreza e o atributo de ataque delas são os que a tabela pede, e o livro é o que os scripts geram.** *Desde a v0.234; o ataque e os marcos, desde a v0.235.* O arranjo soma os nove pontos do §3.2, dez no chefe, com teto `3`; os pontos de marco declarados somam, em cada nível, o que o §3.2 dá, sem passar do teto de lá; em cada nível da faixa a Destreza dá a Defesa da tabela e o atributo de ataque dá o acerto com a maestria da peça 1 §2, e o chefe fica no máximo um ponto acima da curva, que é a diferença entre as duas linhas do §3.2; o `±2` do papel fica por fora; e os quatro `gerar-*.py` do livro do Bestiário, rodados com `--conferir`, devolvem os capítulos publicados. *O capítulo das prontas passou da v0.224 à v0.233 sem os papéis que o gerador já punha, com todos os validadores verdes* |
-| **9.7** | **a `Recarga` come o turno, bate `2,5` golpes em cada alvo e se paga no fator.** O multiplicador vezes a banda do golpe do Bestiário dá a faixa publicada; os disparos saem do `d6` e da luta; a tabela do fator reconstrói das pessoas e das ações do §4 com a mesa do `Guia do Mestre`; a medição de campo é a da `MEDIDA` do Bestiário; o exemplo dos dados reconstrói da regra dos dois terços em `d12`; a frase do erro de travessia não volta; e o preço da Melhoria usa a maior Classe que cabe |
-| **9.8** | **a corrente da `Regravação` no inimigo.** O marco em que ela fecha e os pontos que ela custa reconstroem da tabela do §3.2 e dos gates nos títulos da peça 11, e a leitura sem a regra de marco tem de dar outro nível; o custo da regravação reconstrói do teto da `Circulação`, da maior Classe da peça 18, do câmbio da peça 5 §4, da linha do manual e do fator da `Intervenção`, na rodada e espalhado na luta, e cabe na rodada nas quatro categorias; a tabela da cura de Reação reconstrói do dado e do teto da `Circulação` e da vida da linha do manual, começando no nível em que a `Circulação` chega; o aviso da `Ameaça` sai da tabela; e as marcas leem o atributo da fórmula da peça 11 |
-| **9.9** | **a parte destrutível.** A tabela da vida reconstrói da linha do manual vezes o fator, da luta, das rodadas pela frente e das ações do §4, com a `Ameaça` de fora por ter uma ação só; a tabela do empate refaz o que o grupo evita quebrando em cada rodada, e o sinal tem de virar depois da primeira; e a peça tem de continuar dizendo que a parte não paga no fator e que o resto é do mestre |
-
-### 7.1 As quarenta e duas perturbações, em cópia isolada
-
-*Com a base conferida verde e com `PULADA` zero antes de cada uma, com o `diff` comparado antes e depois, e com o veredito lido da checagem que estava sendo testada — nunca do código de retorno.*
-
-> **⚠ E uma das seis da v0.199 saiu VERDE pelo motivo errado na primeira rodada.** *A âncora do pacto aparece **três** vezes na peça 22, e a perturbação trocava uma só* — **o validador achava as outras duas e não acusava.** *É o defeito que a peça 19 §7 já registra com estas palavras: perturbação mal mirada produz um "não acendeu" que parece prova.* **Refeita trocando todas as três, ela acende.**
-
-| checagem | perturbação | esperado | deu |
-|---|---|---|---|
-| **1.1** | linha nova na ficha do §3 | acende | acende |
-| **2** | a Defesa do nível 5 vira `15` no §3.1 | acende | acende |
-| **2** | a curva do `meio a meio` muda na peça 11 | acende | acende |
-| **2** | a peça 1 §6 perde a oscilação declarada | acende | acende |
-| **3** | uma célula de vida do §4.1 vira `999` | acende | acende |
-| **3** | o fator da `Dupla` vira `0,60` | acende | acende |
-| **4** | a `Alcateia` publica `4` ações | acende | acende |
-| **4** | a peça 19 baixa o piso das ações para `2` | acende | acende |
-| **5** | a peça publica o câmbio em `cinco` | acende | acende |
-| **6** | uma linha viva pendura número no grau | acende | acende |
-| **2** | **contra-teste:** mexer em prosa sem mexer em número | fica verde | fica verde |
-| **3** | **contra-teste:** a `Calamidade` vira `8` personagens, coerente nas duas tabelas | fica verde | fica verde |
-| **8** | o multiplicador dos `Físicos` vira `1,60×` | acende | acende |
-| **8** | o peso dos `Físicos` muda na peça 19 | acende | acende |
-| **8** | a peça para de declarar em que moeda a resistência se paga | acende | acende |
-| **1** | o teto de pacto some da peça 22 | acende | acende |
-| **1.1** | a linha dos atributos sai da ficha | acende | acende |
-| **8** | **contra-teste:** o peso muda na peça 19 **e** no §6.3, coerente | fica verde | fica verde |
-| **9.1** | uma célula do orçamento do §6.5 vira `99,9` | acende | acende |
-| **9.1** | a célula `seco` do nível 5 vira número | acende | acende |
-| **9.1** | o ponto de feitiço vira `6,0` na peça 19 | acende | acende |
-| **9.1** | o preço da `Classe 1` vira `8` na peça 19 | acende | acende |
-| **9.2** | o câmbio de PE vira `7,00` na peça 5 | acende | acende |
-| **9.2** | a `Extensão de Domínio` vira `2 ×` na peça 11 | acende | acende |
-| **9.2** | uma porcentagem do §6.5 vira `50%` | acende | acende |
-| **9.3** | o empate da cura vira `400` | acende | acende |
-| **9.3** | a conta de alvos da `Média` vira `6` | acende | acende |
-| **9.3** | a escada de ações negadas muda na peça 19 | acende | acende |
-| **9.4** | uma porta troca a moeda por *"o mestre decide"* | acende | acende |
-| **9.4** | a linha inteira de uma porta é apagada | acende | acende |
-| **9.1** | **contra-teste:** mexer em prosa sem mexer em número | fica verde | fica verde |
-| **9.1** | **contra-teste:** o piso cai para `2` pontos na peça 19 **e** o nível 5 enche no §6.5 | fica verde | fica verde |
-| **9.2** | **contra-teste:** a `Extensão` vai a `2 ×` na peça 11 **e** as duas porcentagens no §6.5 | fica verde | fica verde |
-| **9.3** | **contra-teste:** a `Leve` vira uma ação na peça 19 **e** os alvos dela no §6.5 | fica verde | fica verde |
-| **5.2** | a vida do nível 2 volta para `105 a 125` no manual | acende | acende |
-| **5.2** | a vida do nível 30 vira `870 a 1120` no manual | acende | acende |
-| **5.2** | a prosa do manual passa a dizer `quatro vezes` | acende | acende |
-| **5.2** | a prosa do manual promete `quatro rodadas` | acende | acende |
-| **5** | a peça volta a declarar em PROSA que uma faixa não tem capanga | acende | acende |
-| **5** | **contra-teste:** a mesma frase, só dentro de linha de tabela | fica verde | fica verde |
-| **5.2** | **contra-teste:** as pontas da faixa do nível 30 mudam e o meio fica `945` | fica verde | fica verde |
-| **5.2** | **contra-teste:** as pontas da faixa do nível 2 mudam e o meio fica `114` | fica verde | fica verde |
-
-> **O contra-teste da `3` é o que prova a checagem.** *Trocar a `Calamidade` para oito personagens muda o fator para `2,00`, as ações para `7` e as três células de ficha — e a checagem sai verde,* **porque ela mede a derivação e não os números publicados.**
->
-> **⚠ E a guarda da `5` nasceu larga demais, achada pelo próprio arnês.** *Ela procurava a frase no texto inteiro, e a linha do §7.1 que **descreve** a perturbação contém a frase* — **a guarda leu a descrição como se fosse a declaração.** *Hoje ela procura fora de tabela, e o par de testes que prova isso é a mesma frase acendendo em prosa e ficando verde numa célula.*
->
-> **⚠ E as duas últimas são as que provam a `5.2`, e a primeira tentativa delas foi mal mirada.** *Eu tinha escrito o contra-teste como "muda a prosa para `quatro vezes` E a tabela junto", e ele não fica verde:* **mexer na vida do chefe no manual acende as checagens `3`, `5`, `5.1` e `9.3` de uma vez**, porque a peça pendura doze células naquele número. *Um contra-teste coerente ali teria de mover uma dúzia de valores, e aí ele não estaria testando a `5.2`.* **O que testa é mexer nas PONTAS da faixa mantendo o meio** — a `5.2` lê o meio, então ela fica verde.
->
-> **⚠ E a terceira perturbação achou um defeito na checagem `2` antes de ela valer.** *A tabela da peça 1 §6 amostra os níveis de marco, que são os **picos** da curva de acerto — ela publica `55%` em todas as colunas.* **Medir a banda só por ela dava um ponto só, e o inimigo, amostrado em níveis que não são marco, caía fora dela sem nada estar errado.** *O vale não está na tabela: ele está declarado ao lado, como oscilação irredutível de `5pp`.* **Hoje a checagem lê os dois — o pico da tabela e a oscilação declarada — e a banda sai `50%` a `55%`.**
-
-### 7.2 As trinta e nove perturbações da v0.221, na escada viva, e as dezesseis do gerador de inimigo
-
-*Mesmo método: cópia isolada, base conferida antes — com o único vermelho declarado, a checagem `5` acusando o capanga morto na tabela do manual até o manual mudar —, o `diff` conferido, e o veredito lido da checagem que estava sendo testada.*
-
-| checagem | perturbação | esperado | deu |
-|---|---|---|---|
-| **3** | a vida do `Capanga` no §4.1 vira `33` | acende | acende |
-| **3** | o fator da `Calamidade` vira `2,10` | acende | acende |
-| **4** | o `Desastre` publica `4` ações | acende | acende |
-| **4** | a `Catástrofe` publica `0` ações | acende | acende |
-| **5** | a peça publica o câmbio em `sete` | acende | acende |
-| **5** | a derivação da vida do capanga some | acende | acende |
-| **5.1** | o `com dois` passa a cobrar `67,9%` | acende | acende |
-| **5.1** | o chefe do `com um apoio` fica com `92,0%` | acende | acende |
-| **7.1** | a `Catástrofe` com Expansão vira `12,0` | acende | acende |
-| **8** | resistir aos `Físicos` vira `1,60` | acende | acende |
-| **8** | a peça para de declarar a moeda | acende | acende |
-| **9.1** | o `Desastre` do nível 20 vira `11,1` | acende | acende |
-| **9.1** | o fator da `Intervenção` vira `0,950` | acende | acende |
-| **9.2** | **contra-prova:** o `Desastre` volta aos `16%` da cota sem o fator | acende | acende |
-| **9.4** | uma porta troca a moeda por *"o mestre decide"* | acende | acende |
-| **\*** | **contra-teste:** mexer em prosa sem mexer em número | fica verde | fica verde |
-| **\*** | **contra-teste:** a `Calamidade` vira `10` pessoas, coerente nas três tabelas que dependem dela | fica verde | fica verde |
-
-> **A contra-prova da `9.2` é a que prova o fator.** *Com a cota crua, `16%` era o número certo; com a `Intervenção`, ele acende.* **Se a checagem não aplicasse o fator, a perturbação saía verde.**
->
-> **⚠ E o último contra-teste saiu VERMELHO na primeira rodada, pelo motivo certo.** *Eu tinha montado a `Calamidade` de dez pessoas com dano `188` no nível 10 — `75 × 2,50` dá `187,5`, e o meio para baixo põe em `187` —, e tinha deixado o nível 5 em `seco`, que com fator `2,50` já monta `3,4` pontos.* **A checagem acusou as quatro células, e o erro era da perturbação.** *Refeita com cada número calculado pela regra da peça, ela fica verde.*
-
-**As vinte e duas seguintes vieram com o tamanho, a área natural e as seis prontas**, *com a base toda verde e `PULADA` zero — e cada uma que acende foi conferida pela mensagem, e não só pelo número da checagem.*
-
-| checagem | perturbação | esperado | deu |
-|---|---|---|---|
-| **3.3** | o alcance do `Grande` vira `4,5 m` | acende | acende |
-| **3.3** | o `Médio` passa a pegar metade num vizinho | acende | acende |
-| **3.3** | a peça perde a frase que declara o tamanho sem preço | acende | acende |
-| **3.3** | **contra-teste:** o `Colossal` vira `5×5`, com alcance `7,5 m` | fica verde | fica verde |
-| **9.5** | a `Kitsune` volta para a `Dupla`, que morreu | acende | acende |
-| **9.5** | o `Oni` sobe para `Catástrofe`, que exige seis pessoas | acende | acende |
-| **9.5** | o `Betobeto` ganha Ações Múltiplas agindo uma vez | acende | acende |
-| **9.5** | a `Tsuchigumo` perde a terceira `Intervenção` | acende | acende |
-| **9.5** | a `Hitotsume` vai para uma faixa que não existe, `6 a 8` | acende | acende |
-| **9.5** | uma pronta volta a guardar a vida | acende | acende |
-| **9.5** | a peça passa a dar duas `Intervenções` por luta | acende | acende |
-| **9.5** | **contra-teste:** a `Kitsune` desce para `5 a 8` | fica verde | fica verde |
-| **9.5** | **contra-teste:** o `Oni` vira `Ameaça`, sem Ações Múltiplas e sem `Intervenções` | fica verde | fica verde |
-| **9.6** | a cobertura do nível `9`–`16` vira `29` quadrados | acende | acende |
-| **9.6** | o `Cone` do nível `2`–`8` vira `9 m` | acende | acende |
-| **9.6** | um retângulo de `12` por `1` vira `16` por `1` | acende | acende |
-| **9.6** | a faixa `17`–`24` passa a começar no `18` | acende | acende |
-| **9.6** | a escada de esfera do manual troca o segundo degrau para `5 m` | acende | acende |
-| **9.6** | a tolerância declarada cai para `5,0%` | acende | acende |
-| **9.6** | a área natural para no nível `28` | acende | acende |
-| **9.6** | **contra-teste:** o retângulo de `12` por `1` vira `13` por `1`, que dá a cobertura exata | fica verde | fica verde |
-| **9.6** | **contra-teste:** mexer na prosa sem mexer em número | fica verde | fica verde |
-
-**E as dezesseis do bloco `7` do `conferir-ficha.py`, que compara o `dados.js` do gerador com esta peça e com o manual:**
-
-| guarda | perturbação | esperado | deu |
-|---|---|---|---|
-| **7a** | a `Catástrofe` do gerador age `4` vezes | acende | acende |
-| **7a** | o `Desastre` do gerador perde a `Intervenção` | acende | acende |
-| **7a** | **contra-teste:** a `Calamidade` age `7` vezes na peça **e** no gerador | fica verde | fica verde |
-| **7b-bis** | a vida do capanga da faixa `13 a 16` vira `46` — faixa que o §4.1 não publica | acende | acende |
-| **7b-bis** | o dano do capanga da faixa `21 a 25` vira `45` | acende | acende |
-| **7c-bis** | o chefe do `com dois` fica com `83,5%` no gerador | acende | acende |
-| **7c-ter** | o fator da `Intervenção` vira `0,95` no gerador | acende | acende |
-| **7c-ter** | o gerador passa a dar `2` `Intervenções` por luta | acende | acende |
-| **7c-ter** | o teto de empilhamento vira `4` no gerador | acende | acende |
-| **7c-ter** | o deslocamento vira `12 m` no gerador | acende | acende |
-| **7c-ter** | o alcance do `Projétil` vira `24 m` no gerador | acende | acende |
-| **7c-ter** | a razão do §4.3 vira `0,75 ×` a `0,80 ×` no gerador | acende | acende |
-| **7c-ter** | o `Grande` ocupa `3` quadrados de lado no gerador | acende | acende |
-| **7c-ter** | o `Cone` do nível `9` a `16` vira `12 m` no gerador | acende | acende |
-| **7c-ter** | **contra-teste:** o deslocamento vira `12 m` na peça **e** no gerador | fica verde | fica verde |
-| **7c-ter** | **contra-teste:** a peça **e** o gerador passam a dar duas `Intervenções` por luta | fica verde | fica verde |
-
-> **Os contra-testes são os que provam as três checagens novas.** *O `Colossal` de `5×5` com alcance `7,5 m` sai verde porque a `3.3` mede o lado vezes o quadrado, e não uma lista de alcances.* **E a `Kitsune` descer de faixa e o `Oni` virar `Ameaça` saem verdes porque a `9.5` cobra a regra — categoria viva que cabe na mesa, Ações Múltiplas só em quem age mais de uma vez, `Intervenções` só em quem a categoria dá —, e não um mapa guardado.** *A derivação do seis morreu com a escada, e a checagem não guarda o cadáver dela.*
->
-> **⚠ E o arnês achou um defeito antes de ele morder, nas duas checagens que leem quantas `Intervenções` a peça dá por luta.** *A frase do §6.5 escreve o número por extenso, e os dois dicionários de número — o desta peça e o do bloco `7` — não tinham `uma` nem `duas`.* **Hoje o número é `três`, que não tem gênero, e as duas passavam; com a peça dizendo `duas`, a `9.5` respondia que não tinha lido a peça, e o bloco `7` comparava o `2` do gerador com a palavra.** *Na primeira rodada a perturbação da `9.5` acendeu pelo motivo errado e o contra-teste do bloco `7` saiu vermelho.* **Os dois dicionários ganharam as formas femininas — o do validador do repositório já tinha —, e as duas deram o esperado.**
->
-> ***E a linha da `3.3` que tira a declaração do tamanho não cita a declaração, de propósito:*** *a checagem procura a frase no texto inteiro, e uma linha desta tabela que a contivesse deixaria a guarda verde com a declaração apagada* — **é o defeito que a guarda da `5` já pagou no §7.1.**
-
-### 7.3 As vinte e uma perturbações da v0.224, no papel
-
-*Mesmo método das anteriores: cópia isolada, base conferida antes com `PULADA=0`, o `diff` conferido, e o vermelho lido na saída e não no código de retorno.* **A regra 2 pegou cópia mal montada duas vezes nesta leva** — *faltava o `gerador-inimigo/` e o `05-material/`, e sem ela as doze teriam "acendido" pelo motivo errado.*
-
-| checagem | perturbação | esperado | deu |
-|---|---|---|---|
-| **10.1** | o produto do `Brutamontes` vira `1,100` | acende | acende |
-| **10.1** | o `Artilheiro` ganha `1,300` e continua pagando `0,857` | acende | acende |
-| **10.1** | o `Controlador` da `Ameaça` paga `0,600` | acende | acende |
-| **10.2** | a Defesa do `Brutamontes` vira `0,900` | acende | acende |
-| **10.2** | a Defesa do `Baluarte` vira `1,190` | acende | acende |
-| **10.2** | o `Emboscador` do `Desastre` vira `1,220` | acende | acende |
-| **10.2** | o `Controlador` da `Catástrofe` vira `1,260` | acende | acende |
-| **10.2** | **o DONO:** a vantagem da peça 19 vira `30` pontos percentuais | acende | acende |
-| **10.2** | **o DONO:** o acerto do PC na peça 1 vira `55%` | acende | acende |
-| **10.3** | o `Desastre` publica `4` ações no §3.4 | acende | acende |
-| **10.3** | o esquadrão do `Capanga` vira `4` no §3.4 | acende | acende |
-| **10** | a tabela dos seis perde a linha do `Reforço` | acende | acende |
-| **10** | **contra-teste:** o `Artilheiro` muda nos dois lados e o produto fecha | fica verde | fica verde |
-| **10** | **contra-teste:** a vantagem muda NO DONO e nos cinco publicados juntos | fica verde | fica verde |
-| **7c** | o fator do `Brutamontes` no gerador vira `1.300` | acende | acende |
-| **7c** | o fator do `Artilheiro` no gerador vira `0.900` | acende | acende |
-| **7c** | a Defesa do `Baluarte` no gerador vira `+3` | acende | acende |
-| **7c** | o `MULT_VANTAGEM` do gerador vira `1.520` | acende | acende |
-| **7c** | o `ACOES_ESQUADRAO` do gerador vira `6` | acende | acende |
-| **7c** | o `Capanga` passa a recusar o `Artilheiro` em vez do `Baluarte` | acende | acende |
-| **7c** | **o DONO:** o `Artilheiro` da peça vira `1,111` / `0,900` | acende | acende |
-| **7c** | **o DONO:** o esquadrão do §3 vira `6` corpos | acende | acende |
-| **7c** | a peça perde a linha do `Reforço` | acende | acende |
-| **7c** | **contra-teste:** o `Artilheiro` muda nos dois donos juntos | fica verde | fica verde |
-
-> **O contra-teste que importa é o da vantagem.** *Mover `+25` pontos percentuais na peça 19 **e** os cinco números publicados no §3.4 ao mesmo tempo continua verde* — **e é isso que prova que a `10.2` lê o dono em vez de guardar `1,476` escrito nela.** *É a lição nº 8 do `README` aplicada antes de ela cobrar.*
-
-### 7.4 As treze perturbações da v0.229, na Expansão
-
-*Mesmo método: cópia isolada, base conferida antes, e cada vermelho lido na linha da `7.1b`.*
-
-| perturbação | esperado | deu |
-|---|---|---|
-| o manual baixa o gate da completa para o nível `12` | acende | acende |
-| a peça publica refino `9` de gate para a sem barreiras | acende | acende |
-| a curva do `meio a meio` cai para `5` no nível `14` | acende | acende |
-| a peça publica `4` rodadas no gate | acende | acende |
-| o multiplicador abaixo do gate vira `1,70` | acende | acende |
-| a luta que a categoria promete vira `4,00` | acende | acende |
-| a sem barreiras publica `2,00` | acende | acende |
-| a curva chega ao refino `10` no nível `22` | acende | acende |
-| o fator do desvio no nível `18` vira `1,25` | acende | acende |
-| a tabela do desvio perde o nível `22` | acende | acende |
-| a proteção da peça 11 vira `1/2` do refino | acende | acende |
-| a Defesa passa a mover `4` pontos | acende | acende |
-| a alavanca de manter o tamanho volta | acende | acende |
-| **contra-teste:** frase nova no §6.4 | fica verde | fica verde |
-| **contra-teste:** o gate da completa vai ao nível `18` no manual e na peça, e a tabela do desvio perde o `14` | fica verde | fica verde |
-
-### 7.5 As catorze perturbações da v0.230, na `Recarga`
-
-*Mesmo método, e cada vermelho lido na linha da `9.7`. A cópia leva os dois arquivos do Bestiário que ela lê.*
-
-| perturbação | esperado | deu |
-|---|---|---|
-| o multiplicador vira `3,0` sozinho | acende | acende |
-| a banda do golpe vira `20%` no Bestiário | acende | acende |
-| a recarga volta com `4`, `5` ou `6` | acende | acende |
-| a peça publica `1,50` disparos | acende | acende |
-| o fator da `Calamidade` vira `1,50` | acende | acende |
-| a mesa do `Guia do Mestre` vira `3` alvos | acende | acende |
-| a `MEDIDA` muda o D&D para `45%` | acende | acende |
-| volta a frase de que ela ocupa uma das ações | acende | acende |
-| o exemplo da Melhoria diz `Classe 5` | acende | acende |
-| a `Classe 4` do manual passa a custar `15` pontos | acende | acende |
-| some a regra dos dados | acende | acende |
-| o exemplo dos dados vira `8d12 + 115` | acende | acende |
-| a regra passa a rolar em `d10` sem mudar o exemplo | acende | acende |
-| a tabela do fator perde a `Ameaça` | acende | acende |
-| **contra-teste:** frase nova na subseção | fica verde | fica verde |
-| **contra-teste:** o multiplicador vira `3,0` com a faixa, o exemplo dos dados e a tabela refeitos | fica verde | fica verde |
-
-### 7.6 As cinco perturbações da v0.231, no alcance do `Artilheiro`
-
-| perturbação | esperado | deu |
-|---|---|---|
-| o `Artilheiro` vira `27 m` sozinho | acende | acende |
-| o deslocamento da peça 3 vira `12 m` | acende | acende |
-| a `MEDIDA` muda a mediana do Draw Steel para `15` | acende | acende |
-| a peça cita outra mediana | acende | acende |
-| some a frase do alcance | acende | acende |
-| **contra-teste:** a mediana, a citação e o alcance mudam juntos | fica verde | fica verde |
-
-### 7.7 As seis perturbações da v0.232, no orçamento de atributo
-
-| perturbação | esperado | deu |
-|---|---|---|
-| o nível 30 volta a `16` pontos | acende | acende |
-| as escolhas gastas em refino do nível 22 viram `2` | acende | acende |
-| a curva do `meio a meio` da peça 11 cai no nível 14 | acende | acende |
-| a peça 2 passa a dar oito pontos | acende | acende |
-| volta a regra só com o `+1` do marco | acende | acende |
-| o refino da tabela vira `9` no nível 26 | acende | acende |
-| **contra-teste:** a curva do nível 6 e a tabela mudam juntas | fica verde | fica verde |
-
-### 7.8 As quatro perturbações da v0.233, no ponto do chefe
-
-| perturbação | esperado | deu |
-|---|---|---|
-| a linha do chefe erra o nível 30 | acende | acende |
-| o chefe passa a começar com onze | acende | acende |
-| o preço não cobrado do acerto vira `1,20` | acende | acende |
-| some a regra do chefe | acende | acende |
-| **contra-teste:** a curva do nível 6, a tabela e a linha do chefe mudam juntas | fica verde | fica verde |
-
-### 7.9 As dez perturbações da v0.234, nas prontas e no livro
-
-| perturbação | esperado | deu |
-|---|---|---|
-| a Hitotsume volta a Destreza `2` | acende | acende |
-| o Oni perde o ponto de chefe | acende | acende |
-| a Kitsune perde o marco de Destreza do nível 10 | acende | acende |
-| o Oni tira o `−2` do `Brutamontes` da Destreza, a leitura rejeitada | acende | acende |
-| a Hitotsume ganha `1` de Destreza num marco sem ser chefe | acende | acende |
-| a proteção da peça 11 vira `1/2 do refino + 1` | acende | acende |
-| a base da Defesa do §3 vira `11` | acende | acende |
-| uma pronta passa do teto `3` na criação | acende | acende |
-| o capítulo 8 do livro imprime a vida sem o papel | acende | acende |
-| a Betobeto troca de papel no gerador e o livro não é regerado | acende | acende |
-| **contra-teste:** a Hitotsume tira da Constituição em vez da Inteligência, e o livro é regerado | fica verde | fica verde |
-| **contra-teste:** o Oni tira da Essência em vez da Inteligência, e o livro é regerado | fica verde | fica verde |
-
-### 7.10 As dezesseis perturbações da v0.235, no ataque, nos marcos e no pagamento do livro
-
-| perturbação | esperado | deu |
-|---|---|---|
-| a Kitsune tira a Essência do marco 10 e põe na Inteligência | acende | acende |
-| a Kitsune perde o ponto do marco 6 | acende | acende |
-| a Hitotsume põe o marco 6 na Essência, sem ser chefe | acende | acende |
-| o Oni sobe para `13 a 16` e fica dois acima da curva no nível 14 | acende | acende |
-| a Betobeto ataca com um atributo que não existe | acende | acende |
-| a Kitsune volta ao marco no formato velho, com um atributo solto | acende | acende |
-| a Hitotsume declara o marco no nível 7 | acende | acende |
-| a maestria da peça 1 §2 sobe no nível 9 | acende | acende |
-| o §3.2 dá um ponto a menos no nível 10, nas duas linhas | acende | acende |
-| o teto do §3.2 vira `3` | acende | acende |
-| o acerto do gerador do nível 10 ao 13 vira `+7` | acende | acende |
-| o capítulo 6 do livro volta a imprimir `0,677` no `Capanga` | acende | acende |
-| a Hitotsume volta a `Artilheiro` no gerador, e o livro não é regerado | acende | acende |
-| a peça 26 muda o pagamento do `Capanga`, e o livro não é regerado | acende | acende |
-| **regressão da v0.234:** a Hitotsume volta a Destreza `2` | acende | acende |
-| **regressão da v0.234:** a Hitotsume põe o marco 6 na Destreza | acende | acende |
-| **contra-teste:** a Hitotsume põe o marco 6 na Inteligência, e o livro é regerado | fica verde | fica verde |
-| **contra-teste:** o Oni põe o marco 6 na Destreza, e o livro é regerado | fica verde | fica verde |
-| **contra-teste:** a Kamaitachi ataca com Força, e o livro é regerado | fica verde | fica verde |
-
-*O caso do Oni no nível 14 é o que separa as duas leituras da folga do chefe: contando um ponto por derivada, ele passaria.*
+**As checagens da escada morreram com ela, e as da grade leem cada número desta peça contra o dono dele.** *A lista está no cabeçalho do validador, e o arnês da v0.282 está no CHANGELOG.* **A peça de antes, com as perturbações da v0.221 à v0.281, está no arquivo morto.**
 
 ## 8. Em aberto
 
-- ~~**⚠⚠ A pressão do chefe é `3,3 ×` menor que a do d20.**~~ ***FECHADA na v0.201***, com a tabela `Inimigos` refeita e o manual na `v7.23`. **O chefe entrega `90%` da vida de um personagem por rodada e tem `3 ×` o dano de rodada do grupo em vida** — `22,5%` do grupo por rodada, luta de `3` rodadas, e ele derruba `2,70` pessoas se concentrar.
-
-  > **A metade que faltava foi achada onde o livro não diz, mas mostra.** *O `Guia do Mestre` manda tirar a média do dano de um monstro "para as três primeiras rodadas de combate", e essa é a única duração que ele declara.* **Daí sai a saída do grupo: a vida do chefe dividida por três.** *Conferida por um segundo caminho que não conversa com ela — um Guerreiro e um Ladino do Livro do Jogador de 2024, sem magia nenhuma, já entregam metade disso em todo nível.*
-  >
-  > **⚠ E o `3,3 ×` estava alto.** *Ele saiu de ler o TOPO da faixa de dano do d20 contra o valor único daqui.* **Meio contra meio a diferença era `2,6 ×` a `3,0 ×`**, e a tabela nova é `3,04 ×` no nível 30.
-  >
-  > **A régua de condição não foi repreçada, e isso é decisão do Mizuki:** *"tem que considerar que o boss também vai poder aplicar condições, troca como a régua mede."* **A peça 19 §2.2 passou a perguntar outra coisa, e as treze passam sem mexer em preço nenhum.**
-
-- ~~**A coluna de capanga da Classe 1, que a v0.199 deixou vazia por uma razão que morreu.**~~ ***FECHADA na v0.206, e o corpo que saiu não é o que este item previa:*** **`28` de vida e `6` de dano, e não os `29` escritos aqui.** *Para abrir a coluna foi preciso consertar a linha do nível 2 antes — ela publicava `115` de vida onde a regra das três vezes da própria seção pede `114`, e um ponto punha o chefe vivo numa quarta rodada.* **Quatro capangas cobram `71%` da vida do grupo contra os `67%` do chefe sozinho.**
-
-  > **⚠ Este item ficou seis versões dizendo `29` depois de a coluna sair com `28`.** *A conta que produziu o `29` foi feita contra a tabela da v0.199; a da v0.201 mudou o chão dela e ninguém voltou aqui.* **É a lição nº 9 dentro da própria lista de pendências — o número de uma previsão não riscada envelhece igual ao de uma regra.**
-
-- ~~**⚠⚠ O CATÁLOGO DE TRAÇOS, e ele é o próximo trabalho desta peça.**~~ ***FECHADO na v0.205, e não virou catálogo:*** **o §6.5 é o câmbio do catálogo do JOGADOR para a ficha do inimigo**, por decisão do Mizuki — *"dá pra deixar ser que nem do sistema pra player, mas rebalancear"*. *Três portas: a técnica paga no orçamento de feitiço da ação, a aptidão paga na cota nas rodadas em que está ligada, e o que dá vida efetiva paga em degrau.* **A ação fora do turno saiu de graça com número — `0,94 ×` a `1,07 ×` sobre `81` durações de luta —, e a condição do inimigo se resolveu sem moeda nova, porque o Fundamento já cobra por ela em ponto de feitiço.**
-
-  ***Levantado pelo Mizuki:*** *"não é bom ele ter justamente PE para ter recursos? Mago inimigo em D&D tem spell slot, técnica máxima como possibilidade, habilidade com recarga. Usar a ficha de D&D como base é o que mais vai ajudar esse sistema de inimigos ficar legal."*
-
-  > **A pesquisa no `Guia do Mestre` responde os dois lados, e o §6.1 sobrevive.** *O passo 13 de "Criando o Bloco de Estatísticas" escreve, entre parênteses: **"as características não mudam realmente as estatísticas do monstro"** — elas mexem na vida efetiva, no dano efetivo ou na CA efetiva, e é assim que entram no Nível de Desafio.* **Espaço de magia num bloco de conjurador é FORMA e não orçamento: o Guia manda contar a magia pelo dano dela.**
-  >
-  > ***E a escada de categoria desta peça JÁ É essa máquina.*** *O §6.3 converte resistência em degrau e o §6.4 converte a Expansão em dobro de categoria — os dois são o passo 13, com outro nome.* **O que falta não é a máquina: é o CATÁLOGO, e ele tem duas entradas.**
-  >
-  > **A entrada que o Mizuki está pedindo é a habilidade que não sai toda rodada, e ela é de graça nesta régua.** *Uma habilidade guardada não muda a cota: ela muda a rodada em que o grupo apanha.* **Numa luta de três rodadas, uma habilidade que entrega o dobro de uma rodada deixa as outras duas em `110` cada, e o total continua sendo `657`.** *É o mesmo fenômeno do §4.4 e do §4.5 — mesmo tamanho, forma diferente.*
-  >
-  > **⚠ A recarga `5-6` do d20 NÃO cabe aqui, e a conta diz por quê:** *numa luta de três rodadas ela dispara `1,67` vezes, e a cota não paga isso.* **Lá ela cabe porque a economia de rodadas é outra.** *O relógio que cabe é `1 ×` por luta, e ele fica para o §6.5 medir junto das outras.*
-
-  > ***E recusar um Teste de Resistência ficou de fora, por decisão do Mizuki na v0.205:*** *"o inimigo não vai ter Resistência Lendária, então ele não anula condições, ele precisa passar no teste."* **É a mesma decisão que a v0.199 já tinha fechado, e a medida nova não a moveu:** *uma recusa vale `1,17 ×` a `1,20 ×` de dano efetivo, contra `1,18 ×` que resistir aos `Elementais` vale — meio degrau.* **O preço existia; a porta é que não.**
-
-- ~~**⚠ O inimigo que se cura, e a conta dele já existe.**~~ ***FECHADO na v0.205, no §6.5***, junto da condição que ele põe num personagem — *as duas são troca ruim, as duas ficam declaradas e liberadas, e as duas só viram lucro em área.* ***Pergunta do Mizuki:*** *"como fica inimigo que quer se curar? Quer usar técnica?"*
-
-  > **É a mesma conta que a v0.203 fez do lado do grupo, virada.** *Ele gasta a rodada e abre mão de `219` de dano; ganha `H` de vida, que alonga a luta em `H ÷ 315` rodadas, e cada rodada a mais entrega `219`.* **Então `H` de cura vale `0,70 × H` de dano, e o empate está em curar `315` — um TERÇO da vida máxima dele.**
-  >
-  > **Cura de lasca em inimigo é o mesmo erro que o grupo comete.** *Curar `219` — quase um quarto da vida dele — rende `152` contra os `219` que ele largou.* **Só vale se ele repuser um terço de si mesmo numa rodada**, e isso é exatamente o tamanho que a obra dá para a energia reversa de quem é bom nela.
-  >
-  > *A régua está escrita; o que falta é a entrada do catálogo dizendo em que moeda ela se paga — e isso é o §6.5.*
-
-- ~~**As maldições prontas.**~~ ***FECHADAS na v0.214, e remapeadas na v0.221.*** **Seis, do nível 2 ao 12, na escada viva:** *`Betobeto`, `Kamaitachi` — duas na mesa —, `Hitotsume` e `Kitsune` são `Ameaça`; `Tsuchigumo` e `Oni` são `Desastre`, com três `Intervenções` cada.* **A coluna do `Capanga` ficou vazia, e é o preço declarado da decisão de 10/09:** *a `Kitsune` subiu de faixa para poder conjurar, e a grade de duas faixas por três categorias deixou de fechar. Fichas de esquadrão são ficção do Mizuki, e ficam para quando ele quiser.* **As escolhas moram no `dados.js` e os números são computados**, e o bloco sai no molde de bloco do 5e, igual ao do livro do Bestiário. *A v0.213 tentou publicá-las num `.md` à parte e quatro dos seis golpes saíram errados, por um arredondamento que o gerador faz e a cópia não fazia.*
-- ~~**A Expansão de Domínio de inimigo.**~~ ***FECHADA na v0.204, e refeita na v0.221:*** **ela multiplica o fator por `1,92`**, porque o Acerto garantido multiplica a saída efetiva por `1,92 ×`. *A primeira forma cobrava em degrau de categoria e só cabia em duas das quatro categorias da escada de então; a moeda passou a ser o fator, e ela cabe em qualquer uma.* **Na v0.229 ela ganhou os gates do jogador e a Expansão sem Barreiras, com o mesmo `1,92`, e deixou de oferecer manter o tamanho.**
+- **O Sukuna na grade.** *O `bestiario/05-sukuna/` ainda monta ele pela escada — uma `Calamidade` de oito com os multiplicadores empilhados, `18,4` pessoas.* **Na grade ele é uma `Calamidade ×6` com os recursos pagos na vida**, e o documento dele precisa ser refeito.
+- **O `×5` e o `×6` no playtest.** *A conta diz que a duração não depende do N, e o FIREBALL mostra o grupo de 5 ou 6 lutando cerca de uma rodada a mais que o de 2* — **sinal fraco, e a mesa decide.**
+- **O peso dos três grupos de dano da peça 19 §4 é palpite**, *e toda a régua de resistência do §6.3 se refaz quando a mesa corrigir.*
 - **O inimigo com Trilha.** *Fica de fora por decisão, e o motivo está no §6* — mas um antagonista recorrente que sobe junto com o grupo é caso de mesa que vai aparecer.
-- ~~**A ficha impressa.**~~ ***FECHADA na v0.199, e três números dela envelheceram até a v0.206:*** *a coluna `cobra do grupo` da sub-categoria ficou nos `28/30/33/35` da v0.199 enquanto esta peça publicava `68/58/56/62` desde a v0.201, a nota ao lado dizia que repartir o encontro o encarece — a v0.201 mediu o contrário —, e a razão de quatro `Ronda` estava em `0,62 ×` contra os `0,75 ×` a `0,77 ×` do §4.3.* **Os três moravam inline no montador do `gerador-inimigo/`, que é o único lugar do subsistema que nenhuma checagem lia** — *o `dados.js` tem validador desde a v0.199 e o montador não tinha.* *Hoje a porcentagem e a razão vivem no `dados.js` e o bloco `7` do `conferir-ficha.py` compara as duas com esta peça, com uma guarda que acende se o montador voltar a guardar inline.* **`05-material/bloco-de-inimigo.docx`**, quatro páginas — as tabelas que o mestre copia, o bloco em branco com as dezessete linhas, e um exemplo preenchido. *O gerador é o `gerador-inimigo/`, e o bloco `7` do `conferir-ficha.py` compara o `dados.js` dele com esta peça.*

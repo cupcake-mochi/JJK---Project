@@ -69,11 +69,11 @@
 |---|---|---|
 | a fatia | `5,08` de dano por rodada | `DESENHO-trilhas.md`, a linha de orçamento de Trilha |
 | a Rotina no nível 30 | `108` | manual, a tabela de Rotina |
-| chefe e capanga no nível 30 | `219` e `73` por rodada | manual, a tabela de inimigo |
+| chefe e capanga no nível 30 | `226` e `28` por rodada | manual, a tabela de inimigo |
 | ações do chefe por rodada | o piso da banda, derivado logo abaixo | **esta peça** — o manual diz o contrário |
 | vantagem e desvantagem | `25` pontos percentuais | peça 11 §8 |
 | `1` ponto percentual na rolagem de um aliado | `0,230` | `DESENHO-caminhos.md`, a régua do Guia |
-| a ação de atacar de um aliado | `23,00` — dois golpes simples | `DESENHO-caminhos.md` |
+| a Ação Atacar de um aliado | `23,00` — dois golpes simples | `DESENHO-caminhos.md` |
 | mover `1,5 m` | `0,90`, então `1 m` vale `0,60` | peça 5 §4 |
 | `1` ponto de arma | `0,33` por rodada | peça 14 §4 |
 | o fundo de uma arma de duas mãos | `5` pontos | peça 14 §5 |
@@ -90,11 +90,13 @@
 
 | ações do chefe | `Lento`, `Leve` | `Calado`, `Média` | `Enfeitiçado`, `Média` | `Atordoado`, `Pesada` |
 |---|---|---|---|---|
-| `1` | `6,23×` | `6,95×` | `6,95×` | `6,64×` |
-| `2` | `3,19×` | `3,48×` | `3,48×` | `3,32×` |
-| **`3`** | **`2,18×`** | **`2,32×`** | **`2,32×`** | **`2,21×`** |
+| `1` | `6,43×` | `7,17×` | `7,17×` | `6,85×` |
+| `2` | `3,29×` | `3,59×` | `3,59×` | `3,42×` |
+| **`3`** | `2,24×` | `2,39×` | `2,39×` | `2,28×` |
 
 **Com `2` as quatro passam do filtro de dominância de `3,00×`.** *Com `3` as quatro cabem, e o `Lento` cabe raspando.* **E ele é piso, não folga escolhida:** se alguém escrever `4`, as quatro continuam cabendo e o número deixa de sair da conta — *a checagem `12` cobra as duas direções, que `3` baste e que `2` não baste.*
+
+> **Na grade do Bestiário, desde a v0.282, o inimigo age N vezes, e o `×1` e o `×2` ficam abaixo deste piso.** *O que os devolve a esta régua é a regra do `×1` e do `×2` da peça 26 §4.2: a condição que tira ação dá ao inimigo um Teste de Resistência no começo do turno dele — com a maestria no `×1`, com desvantagem no `×2`.* **Do `×3` para cima a régua funciona sozinha.**
 
 > *Esta tabela media `%` do teto até a v0.200 e passou a medir dominância na v0.201, junto com a régua. O piso de `3` não se moveu — o que mudou foi a coluna que o prova.*
 
@@ -103,7 +105,7 @@
 > **Benefício que só o corpo a corpo colhe conta UM aliado.** *É a leitura do `Abalo`, a Manha da Massa.*
 > **Benefício que qualquer atacante colhe conta TRÊS.** *É a leitura do `Estampido`, a Manha da Arma de Fogo, que supõe mesa de quatro.*
 
-> **⚠ A régua mede a rodada em que a condição está ativa, e a condição dura UMA.** *A Melhoria `Condição` do manual escreve isso na própria célula — "Dura uma rodada" —, e nenhuma das Melhorias que mexem em tempo estende ela.* **Então um `Impedido` vale `132,15` na rodada dele e `44,05` espalhado numa luta de `3` rodadas**, que é `20%` do que um chefe faz.
+> **⚠ A régua mede a rodada em que a condição está ativa, e a condição dura UMA.** *A Melhoria `Condição` do manual escreve isso na própria célula — "Dura uma rodada" —, e nenhuma das Melhorias que mexem em tempo estende ela.* **Então um `Impedido` vale `135,65` na rodada dele e `45,22` espalhado numa luta de `3` rodadas**, que é `20%` do que um chefe faz.
 >
 > *Isto entrou na v0.199, e entrou porque a falta dele produziu um erro:* **a régua foi lida como se a condição durasse a luta**, e daí saiu um diagnóstico de que o chefe precisava de proteção contra condição no molde da `Resistência Lendária` do 5e. **Ele não precisa** — *o sistema já resolve pelo relógio, e a duração morava só na célula do manual.*
 
@@ -111,14 +113,14 @@
 
 | condição | nega por rodada | ações negadas | pontos | contra o dano deles | nível |
 |---|---|---|---|---|---|
-| **`Impedido`** | `132,15` | `1,5` + deslocamento + aliados | `11` | `2,67×` | `Pesada` |
-| **`Cego`** | `126,75` | `1,5` + aliados | `11` | `2,56×` | `Pesada` |
-| **`Amedrontado`** | `114,90` | `1,5` + deslocamento | `11` | `2,32×` | `Pesada` |
-| **`Envenenado`** | `109,50` | `1,5` | `11` | `2,21×` | `Pesada` |
-| **`Atordoado`** | `109,50` | `1,5` | `11` | `2,21×` | `Pesada` |
-| **`Calado`** | `73,00` | `1` | `7` | `2,32×` | `Média` |
-| **`Enfeitiçado`** | `73,00` | `1` | `7` | `2,32×` | `Média` |
-| **`Lento`** | `39,20` | `0,5` + deslocamento | `4` | `2,18×` | `Leve` |
+| **`Impedido`** | `135,65` | `1,5` + deslocamento + aliados | `11` | `2,74×` | `Pesada` |
+| **`Cego`** | `130,25` | `1,5` + aliados | `11` | `2,63×` | `Pesada` |
+| **`Amedrontado`** | `118,40` | `1,5` + deslocamento | `11` | `2,39×` | `Pesada` |
+| **`Envenenado`** | `113,00` | `1,5` | `11` | `2,28×` | `Pesada` |
+| **`Atordoado`** | `113,00` | `1,5` | `11` | `2,28×` | `Pesada` |
+| **`Calado`** | `75,33` | `1` | `7` | `2,39×` | `Média` |
+| **`Enfeitiçado`** | `75,33` | `1` | `7` | `2,39×` | `Média` |
+| **`Lento`** | `40,37` | `0,5` + deslocamento | `4` | `2,24×` | `Leve` |
 | **`Derrubado`** | `8,45` | `0` | `4` | `0,47×` | `Leve` |
 | **`Agarrado`** | `5,40` | `0` | `4` | `0,30×` | `Leve` |
 | **`Incapacitado`** | `4,95` | `0` | `4` | `0,28×` | `Leve` |
@@ -276,7 +278,9 @@
 >
 > ***O `Calado` corta o que precisa de voz desde a v0.176, e a v0.276 alinhou as cópias.*** *Na revisão da v0.176 o Mizuki estreitou o texto do livro — de "Selo" para "Selo que envolva voz" no capítulo 9 e "Selo que exija falar" no 15 —, e a mudança não chegou a esta peça, ao glossário nem ao gerador do manual. As cinco cópias dizem hoje "Selo que envolva voz". A regra da `Kata` é dele, na v0.276: "Só se seguir os mesmos padrões, algumas ferramentas podem necessitar som".*
 >
-> **O preço desta seção não foi refeito com a redação nova.** *A régua cobra do alvo uma ação inteira, e isso supõe que ele conjura com voz, gesto ou Selo de voz — o caso dos Selos da obra, de palma, fala e sinal de mão. Contra quem conjura com Selo de condição e sem `Gesto`, o `Calado` não tira ação, e isso não foi medido.*
+> **É uma condição de nicho, e no inimigo ela não pede campo novo** *— decisão do Mizuki na v0.277: "N precisa de campo, cala apenas se o inimigo tiver algum selo que necessite de voz ou habilidades do tipo, é uma condição de nicho".* **O `Calado` só cala o que precisa de voz:** *o feitiço de quem tem Selo de condição e não tem a Restrição `Gesto` sai normalmente, e num inimigo ele só cala o Selo ou a habilidade que precise de voz — quem decide é o texto da habilidade, e não um campo no bloco.*
+>
+> **E o nível continua `Média`, pela conta.** *Contra quem usa voz ele tira uma ação: `75,33` de dano por rodada no nível 30, que em `Média` dá `2,39×`. Em `Leve` a mesma ação daria `4,18×`, acima do filtro de `3,00×` — então `Média` é o nível mais barato em que ele cabe quando funciona. Contra quem não usa voz a compra não rende nada, e esse é o risco de nicho de quem escolhe o `Calado`, e não repreço.* **Até a v0.276 esta nota dizia que o preço não tinha sido medido na redação da v0.176.**
 
 ### 3.3 As cinco de nível `Pesada`
 
@@ -537,7 +541,7 @@
 | **10** | **nenhum valor de regra escrito dentro do validador.** Todo número vem do documento dono, e a checagem falha se algum ficar guardado no código |
 | **11** | **a penalidade de arma da seção 6**: as duas linhas estão escritas, o `3 m` bate com o `10` pés do d20, e a desvantagem reconstrói em `54,00` a partir das âncoras — e a soma das duas contra a entrega da arma inteira |
 | **12** | **as ações do chefe são o piso da dominância.** O número é lido do §2.2, as quatro condições que cobram ação são recalculadas com ele e com um a menos, e a checagem cobra as duas metades: com o publicado as quatro cabem, com um a menos alguma sai. *Assim `4` acende do mesmo jeito que `2`* |
-| **13** | **a coluna do capanga.** As treze são recalculadas contra o capanga — `73` por rodada em `1` ação, em vez de `219` em `3` —, e a checagem cobra que **nenhum nível se mova** e que a dominância continue passando dos dois lados. *Ela é a prova de que a régua não depende de contra quem foi escrita, e desde a v0.201 essa promessa deixou de ser retórica: o nível vem das ações negadas, que não olham o alvo* |
+| **13** | **a coluna do capanga.** As treze são recalculadas contra o capanga — `28` por rodada em `1` ação, em vez de `226` em `3` —, e a checagem cobra que **nenhum nível se mova** e que a dominância continue passando dos dois lados. *Ela é a prova de que a régua não depende de contra quem foi escrita, e desde a v0.201 essa promessa deixou de ser retórica: o nível vem das ações negadas, que não olham o alvo.* **A 13.1, da v0.284, cobra que os números da prosa do capanga saiam desta conta** *— eles ficaram no capanga de `73` quando o manual passou a publicar o de `27`* |
 | **14** | **o `Calado` nas cinco cópias.** *Desde a v0.276.* A linha dele no §3.2 é a dona, e o glossário, o capítulo 15, o capítulo 9 do livro e o gerador do manual têm de dizer o mesmo — *a redação que o Mizuki escreveu no livro na v0.176 ficou três cópias atrás por cem versões, porque nada comparava.* E a regra da `Kata` sob o `Calado` tem de estar aqui e no capítulo 15 |
 
 > **A checagem 9 é a que esta peça existe para ter.** *Ela é a única que sai da pasta, junto com a do `conferir-catalogo.py` — e é ela que pegaria o `Punho` de novo se alguém reescrever o texto da entrega sem mexer no preço, ou o contrário.*
@@ -588,7 +592,7 @@
 | **1** | **a frase das ações some da peça** | acende | acende |
 | **13** | **a peça volta a dizer `seis`** | acende | acende |
 | **13** | **a peça para de declarar que o estouro some contra o capanga** | acende | acende |
-| **13** | **o capanga vira `50` no `DESENHO-trilhas.md`** | acende | acende |
+| **13** | **o capanga vira `50` na tabela de inimigo do manual** *(até a v0.283 ele era lido do `DESENHO-trilhas.md`)* | acende | acende |
 | **1.1** | **linha nova na tabela de âncoras da peça** | acende | acende |
 | **1.1** | **a linha `dano evitado` sai da tabela** | acende | acende |
 | **1.1** | **âncora nova no validador que nenhuma linha reivindica** | acende | acende |
@@ -617,7 +621,7 @@
 - ~~**Três vagas de `Desliga` da peça 13 esperam esta peça.**~~ ***FECHADAS na v0.104***, e a régua da seção 2 é que as destravou: *o nível de uma condição é número, e o `Desliga` passou a poder apagar condição uma vez com o relógio saindo do nível dela.* **As três são o `Revezamento` (`Impedido`), o `Usado` (`Derrubado`) e o `Talhe` (`Agarrado`)**, e as três estão escritas nas tabelas da peça 13.
 
   > **⚠ Esta linha ficou oitenta e seis versões mandando reler três vagas que não existem mais.** *Achada na v0.191, varrendo as seções "Em aberto" das vinte e cinco peças.* **A peça 13 fechou as cinco destravadas na v0.104 e registrou isso lá; esta peça nunca soube.** *A sub-checagem `11.2` passou a ler a contagem de vagas do lado de lá em vez de confiar nesta frase.*
-- **⚠ As duas réguas de rolagem divergem por `9,4` vezes, e não por `4,7` — e o `4,7` publicado media outra coisa.** *A v0.103 escreveu que `+1` no seu acerto vale `10,80` (que são `10%` da Rotina de `108`), que `1` ponto percentual na rolagem de um aliado vale `0,230` (que é `1%` da ação de atacar de `23,00`), e que **"a diferença é de `4,7` vezes"**.* **O `4,7` é `108 ÷ 23,00`: a razão entre as duas BASES.** *Isso é verdade e responde outra pergunta — quanto o seu escopo é maior que o do aliado.* **Lidas por ponto percentual, que é a única forma de compará-las, elas dão `2,16` contra `0,230`, e a razão é `9,39`.**
+- **⚠ As duas réguas de rolagem divergem por `9,4` vezes, e não por `4,7` — e o `4,7` publicado media outra coisa.** *A v0.103 escreveu que `+1` no seu acerto vale `10,80` (que são `10%` da Rotina de `108`), que `1` ponto percentual na rolagem de um aliado vale `0,230` (que é `1%` da Ação Atacar de `23,00`), e que **"a diferença é de `4,7` vezes"**.* **O `4,7` é `108 ÷ 23,00`: a razão entre as duas BASES.** *Isso é verdade e responde outra pergunta — quanto o seu escopo é maior que o do aliado.* **Lidas por ponto percentual, que é a única forma de compará-las, elas dão `2,16` contra `0,230`, e a razão é `9,39`.**
 
   ***⚠⚠ E o diagnóstico que estava escrito aqui era errado, refeito na v0.192.*** *Ele dizia que a sua régua é relativa e a do aliado é absoluta, e que consertar isso repreçaria o `Guiar`, o `Estampido` e o `Ajudar`.* **A conta desmente: existe uma régua só, e ela é relativa nos dois lados.**
 
@@ -637,9 +641,11 @@
   > **O que parecia contra-teste era a mesma troca de base, por outra porta.** *A frase que morava aqui dizia: lido pela sua régua, o `Ajudar` valeria `54,00` em vez de `5,75`, e `54,00 ÷ 5,75` dá `9,4`.* **Aquilo é verdade e não prova nada** — o `54,00` é vantagem medida **na sua rodada inteira**, e o `Ajudar` é a mesma vantagem medida **num golpe do aliado**. *A razão entre os dois é o escopo, que é justamente o `9,4` de que se está falando.*
 
   ***FECHADO na v0.192, e nenhum número se moveu.*** **O que estava errado era a explicação, e ela ficou setenta e oito versões pendurada num número certo.** *A checagem 2 do `conferir-dano.py` passou a exigir que a razão entre as duas réguas seja **só** o escopo — se um dos dois lados deixar de ser relativo, ela acende.*
-- **O valor de uma condição depende de em quem ela cai, e o NÍVEL dela não.** *Contra um capanga de `73` de dano por rodada em `1` ação, em vez de um chefe de `219` em `3`, **nenhuma das treze muda de nível** — o nível sai das ações negadas, e elas não olham o alvo.* **O que muda é a entrega:** *as cinco que negam ação entregam o mesmo dos dois lados, porque a rodada inteira do capanga é o golpe de uma ação do chefe; as quatro que dão desvantagem caem para `0,74×` a `1,19×`.*
+- **O valor de uma condição depende de em quem ela cai, e o NÍVEL dela não.** *Contra um capanga de `28` de dano por rodada em `1` ação, em vez de um chefe de `226` em `3`, **nenhuma das treze muda de nível** — o nível sai das ações negadas, e elas não olham o alvo.* **O que muda é a entrega, e ela cai em todas as que tiram rodada**, *porque a rodada inteira do capanga vale menos que uma ação do chefe: as que tiram ação caem para `0,85×` (`Atordoado`) a `0,93×` (`Lento`), e as que dão desvantagem para `0,28×` (`Envenenado`) a `0,74×` (`Impedido`).*
 
-  > **⚠ E a ORDEM inverte contra um alvo de uma ação só.** *No chefe o `Envenenado` (`Pesada`) entrega `2,21×` e o `Calado` (`Média`) entrega `2,32×`; no capanga o `Envenenado` cai para `0,74×` e o `Calado` fica.* **Calar quem só tem uma ação é calar a rodada dela inteira**, e é por isso que a régua não promete que o nível ordene a entrega — ela promete que o nível descreva a condição. *A checagem `13` cobra as duas metades.*
+  > *Até a v0.283 este parágrafo media contra um capanga de `73`, que a tabela de âncoras dizia ser do manual e o manual nunca publicou — o `73` era o capanga da `Alcateia`, da escada que morreu na v0.221. Desde a v0.282 o manual publica o capanga de `27`, meio golpe, e a v0.284 passou a ler dele.*
+
+  > **⚠ E a ORDEM inverte contra um alvo de uma ação só.** *No chefe o `Envenenado` (`Pesada`) nega `109,50` por rodada e o `Calado` (`Média`), `73,00`; no capanga o `Envenenado` cai para `14,00` e o `Calado` para `28,00`.* **Calar quem só tem uma ação é calar a rodada dela inteira**, e é por isso que a régua não promete que o nível ordene a entrega — ela promete que o nível descreva a condição. *A checagem `13` cobra as duas metades.*
 
   > **⚠ Esta linha dizia `seis`, e dizia que o validador conferia as duas colunas.** *Nenhuma das duas era verdade: a conta dá `cinco` — `Amedrontado`, `Envenenado` e `Atordoado` descem para `Média`, `Calado` e `Enfeitiçado` descem para `Leve` — e o `38` estava escrito dentro do `conferir-dano.py` sem ser usado em lugar nenhum.* **Achado na v0.198, levantando o terreno do `Bestiário`.**
 - **O `Impedido` é a maior da lista desde a v0.139, quando o `Petrificado` saiu.** *Ele é o `Cego` inteiro mais deslocamento `0`, e a diferença entre os dois é `1,10×` — dominância que o filtro aceita.*

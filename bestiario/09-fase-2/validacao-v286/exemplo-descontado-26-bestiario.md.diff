@@ -1,0 +1,11 @@
+--- sistema/03-mecanica/26-bestiario.md
++++ sistema/03-mecanica/26-bestiario.md
+@@ -461,7 +461,7 @@
+ 
+ **Um `Desastre ×4` imune a `Físicos` sai com `378` de vida no nível 30.** O divisor supõe a distribuição de dano acima. Um grupo que só cause dano Físico não consegue feri-lo por esses ataques; um grupo que use outros tipos enfrenta os PV reduzidos. A conta não garante a mesma duração para toda composição.
+ 
+-**O mesmo `Desastre ×4` resistente apenas a Fogo conserva `945` PV.** Acrescentar um segundo tipo fixo conserva esses PV, desde que o total não forme um grupo completo. A resistência continua podendo prolongar a luta.
++**O mesmo `Desastre ×4` resistente apenas a Fogo conserva `851` PV.** Acrescentar um segundo tipo fixo conserva esses PV, desde que o total não forme um grupo completo. A resistência continua podendo prolongar a luta.
+ 
+ > **⚠ A coluna `vulnerabilidade` é conta de vida efetiva, e não preço.** *Ela diz quanto a luta encurta se o grupo inteiro bater naquele tipo, e a ficha não sabe o que o grupo carrega — por isso não cobra nem devolve.* **`4` de `4` sistemas medidos no Bestiário têm vulnerabilidade, e nenhum mexe no custo de encontro por ela.**
+ 

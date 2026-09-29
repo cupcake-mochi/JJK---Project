@@ -1,0 +1,402 @@
+{
+  "nivel": 30,
+  "n": 6,
+  "categoria": "Calamidade",
+  "rodadas": 5,
+  "atributos": {
+    "Força": 2,
+    "Destreza": 4,
+    "Constituição": 4,
+    "Inteligência": 6,
+    "Essência": 6
+  },
+  "refino": 10,
+  "defesa": 18,
+  "acerto": 10,
+  "acertoCorpo": 6,
+  "cd": 18,
+  "base": 2362.5,
+  "fatores": {
+    "papel": 0.9090909090909091,
+    "defesa": 1.2,
+    "dominio": 1.92,
+    "recarga": 1.1166666666666667,
+    "circulacao": 1.0558659217877095,
+    "intervencao": 1.025
+  },
+  "pv": 1111,
+  "integridade": 555,
+  "golpe": 68,
+  "dados": "6d10 + 35",
+  "curaAcao": 78,
+  "braco": 157,
+  "curaReacao": 25,
+  "circDados": 10,
+  "maiorClasse": 7,
+  "cambio": 5.14,
+  "custoExt": 63.736,
+  "custoReg": 51.4,
+  "quota": 408,
+  "marcas": 5,
+  "especial": {
+    "orcamento": 15.11111111111111,
+    "classe": 5,
+    "leve": 3,
+    "media": 5,
+    "pesada": 8,
+    "clivarDados": 12,
+    "teiaDados": 9
+  },
+  "chama": {
+    "media": 170,
+    "expressao": "18d12 + 53"
+  },
+  "intervencao": {
+    "media": 51,
+    "dados": "4d12 + 25"
+  },
+  "modos": [
+    {
+      "nome": "normal",
+      "custo": 0,
+      "cota": 408,
+      "golpe": 68,
+      "dados": "6d10 + 35",
+      "tecnica": {
+        "orcamento": 15.11111111111111,
+        "classe": 5,
+        "leve": 3,
+        "media": 5,
+        "pesada": 8,
+        "clivarDados": 12,
+        "teiaDados": 9
+      }
+    },
+    {
+      "nome": "Extensão",
+      "custo": 63.736,
+      "cota": 344.264,
+      "golpe": 57,
+      "dados": "8d6 + 29",
+      "tecnica": {
+        "orcamento": 12.666666666666666,
+        "classe": 4,
+        "leve": 2,
+        "media": 4,
+        "pesada": 6,
+        "clivarDados": 10,
+        "teiaDados": 8
+      }
+    },
+    {
+      "nome": "Regravação",
+      "custo": 51.4,
+      "cota": 356.6,
+      "golpe": 59,
+      "dados": "8d6 + 31",
+      "tecnica": {
+        "orcamento": 13.11111111111111,
+        "classe": 4,
+        "leve": 2,
+        "media": 4,
+        "pesada": 6,
+        "clivarDados": 11,
+        "teiaDados": 9
+      }
+    },
+    {
+      "nome": "ambas",
+      "custo": 115.136,
+      "cota": 292.86400000000003,
+      "golpe": 49,
+      "dados": "4d12 + 23",
+      "tecnica": {
+        "orcamento": 10.88888888888889,
+        "classe": 3,
+        "leve": 2,
+        "media": 3,
+        "pesada": 5,
+        "clivarDados": 8,
+        "teiaDados": 6
+      }
+    }
+  ],
+  "provaAtributos": {
+    "criacao": [
+      2,
+      2,
+      1,
+      2,
+      3
+    ],
+    "livres": [
+      [
+        4
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        1
+      ],
+      [
+        3
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        3
+      ]
+    ],
+    "rei": [
+      0,
+      1,
+      2,
+      1,
+      0
+    ],
+    "final": [
+      2,
+      4,
+      4,
+      6,
+      6
+    ],
+    "aptidoes": {
+      "18": "Energia Reversa",
+      "22": "Circulação, escolha com refino",
+      "26": "Regravação",
+      "30": "Extensão"
+    }
+  },
+  "ensaioDebito": [
+    {
+      "nome": "Regravação antes de agir",
+      "antes": [
+        68,
+        68,
+        68,
+        68,
+        68,
+        68
+      ],
+      "custo": 51.4,
+      "permitido": true,
+      "saldos": [
+        59.43333333333334,
+        59.43333333333334,
+        59.43333333333334,
+        59.43333333333334,
+        59.43333333333334,
+        59.43333333333334
+      ],
+      "golpes": [
+        59,
+        59,
+        59,
+        59,
+        59,
+        59
+      ]
+    },
+    {
+      "nome": "Regravação depois de três ações",
+      "antes": [
+        68,
+        68,
+        68
+      ],
+      "custo": 51.4,
+      "permitido": true,
+      "saldos": [
+        50.86666666666667,
+        50.86666666666667,
+        50.86666666666667
+      ],
+      "golpes": [
+        51,
+        51,
+        51
+      ]
+    },
+    {
+      "nome": "Extensão depois de gastar tudo",
+      "antes": [],
+      "custo": 63.736,
+      "permitido": false,
+      "saldos": []
+    },
+    {
+      "nome": "Extensão em janela externa com cota e requisitos fornecidos",
+      "antes": [
+        68
+      ],
+      "custo": 63.736,
+      "permitido": true,
+      "saldos": [
+        4.264000000000003
+      ],
+      "golpes": [
+        4
+      ]
+    },
+    {
+      "nome": "Cota insuficiente",
+      "antes": [
+        34
+      ],
+      "custo": 51.4,
+      "permitido": false,
+      "saldos": [
+        34
+      ]
+    },
+    {
+      "nome": "Dois braços destruídos antes de cobrar",
+      "antes": [
+        68,
+        68,
+        68,
+        68
+      ],
+      "custo": 51.4,
+      "permitido": true,
+      "saldos": [
+        55.15,
+        55.15,
+        55.15,
+        55.15
+      ],
+      "golpes": [
+        55,
+        55,
+        55,
+        55
+      ]
+    },
+    {
+      "nome": "Duas aptidões na mesma rodada",
+      "antes": [
+        68,
+        68,
+        68,
+        68,
+        68,
+        68
+      ],
+      "custo": 115.136,
+      "permitido": true,
+      "saldos": [
+        48.81066666666667,
+        48.81066666666667,
+        48.81066666666667,
+        48.81066666666667,
+        48.81066666666667,
+        48.81066666666667
+      ],
+      "golpes": [
+        49,
+        49,
+        49,
+        49,
+        49,
+        49
+      ]
+    },
+    {
+      "nome": "Primeira ativação de Extensão",
+      "antes": [
+        68,
+        68,
+        68,
+        68,
+        68,
+        68
+      ],
+      "custo": 63.736,
+      "permitido": true,
+      "saldos": [
+        57.37733333333333,
+        57.37733333333333,
+        57.37733333333333,
+        57.37733333333333,
+        57.37733333333333,
+        57.37733333333333
+      ],
+      "golpes": [
+        57,
+        57,
+        57,
+        57,
+        57,
+        57
+      ]
+    },
+    {
+      "nome": "Nova ativação, novo débito de erguer",
+      "antes": [
+        57.37733333333333,
+        57.37733333333333,
+        57.37733333333333,
+        57.37733333333333,
+        57.37733333333333,
+        57.37733333333333
+      ],
+      "custo": 7.196,
+      "permitido": true,
+      "saldos": [
+        56.178,
+        56.178,
+        56.178,
+        56.178,
+        56.178,
+        56.178
+      ],
+      "golpes": [
+        56,
+        56,
+        56,
+        56,
+        56,
+        56
+      ]
+    },
+    {
+      "nome": "Perder braço depois do débito não estorna preço",
+      "antes": [
+        57.37733333333333,
+        57.37733333333333,
+        57.37733333333333,
+        57.37733333333333,
+        57.37733333333333,
+        57.37733333333333
+      ],
+      "depois": [
+        57.37733333333333,
+        57.37733333333333,
+        57.37733333333333,
+        57.37733333333333,
+        57.37733333333333
+      ]
+    },
+    {
+      "nome": "Regravação seguida de Chama, todas as ações disponíveis",
+      "chama": {
+        "media": 147,
+        "expressao": "16d12 + 43"
+      },
+      "acoesConsumidas": 6,
+      "saldosDepois": []
+    },
+    {
+      "nome": "Nova rodada não recebe dívida",
+      "novaCota": 408,
+      "divida": 0
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+--- bestiario/05-sukuna/montar-sukuna-grade.js
++++ bestiario/05-sukuna/montar-sukuna-grade.js
+@@ -63,7 +63,7 @@
+ function cobrar(saldos,custo) {
+  assert(custo>=0 && saldos.every(x=>x>=0));
+  const total=saldos.reduce((a,b)=>a+b,0);
+- if(!saldos.length || total+1e-9<custo) return {permitido:false,saldos:[...saldos]};
++ if(!saldos.length || total+1e-9<custo) return {permitido:false,saldos:[]};
+  const fator=total? (total-custo)/total:0;
+  const novos=saldos.map(x=>Math.max(0,x*fator));
+  assert(Math.abs(novos.reduce((a,b)=>a+b,0)-(total-custo))<1e-8);

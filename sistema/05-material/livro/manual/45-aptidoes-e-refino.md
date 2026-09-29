@@ -329,7 +329,7 @@ A Pétala só responde ao que toca: corte, chama, enxame, criatura, a mão de al
 >
 > A técnica que encostar nela é anulada até `1/3 do refino + 1`: uma Classe Passiva, uma Regra Própria ou um feitiço de Classe até esse número. Acima dele, ela reduz o dano em um quarto, e você leva `3/4`.
 >
-> Enquanto ela estiver de pé, você não usa feitiço nem `Manejo`. A Técnica Marcial e as aptidões continuam. Se a sua Expansão já estava aberta, ela continua; abrir uma nova derruba a Extensão.
+> Enquanto ela estiver de pé, você não usa feitiço nem `Manejo`. Se a sua Expansão já estava aberta, ela continua; abrir uma nova derruba a Extensão.
 >
 > Requisito: ter visto uma sendo usada, ou ter estudado, ou aprendido com alguém; refino 7 e nível 18. O Corpo Amaldiçoado não compra. Classe Passiva 3. O refino escala a duração e o teto.
 

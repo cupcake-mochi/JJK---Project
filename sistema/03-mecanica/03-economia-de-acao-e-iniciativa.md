@@ -103,10 +103,10 @@ A Passiva **Mão Firme** cobre os dois, e o manual v7.6 diz isso com todas as le
 |---|---|---|---|---|---|---|
 | **regra nova** · Vigor investido e treinado | `41%` | `41%` | `41%` | `41%` | `41%` | `41%` |
 | regra nova · Constituição 3, sem treino | `36%` | `28%` | `28%` | `21%` | `21%` | `16%` |
-| *CD da regra antiga* | `10` | `18` | `27` | `36` | `45` | `54` |
-| **regra antiga** · Vigor investido e treinado | `53%` | `24%` | `7%` | `7%` | `7%` | `7%` |
+| *CD da regra antiga* | `10` | `19` | `28` | `37` | `47` | `56` |
+| **regra antiga** · Vigor investido e treinado | `53%` | `21%` | `7%` | `7%` | `7%` | `7%` |
 
-***Por que a regra antiga saiu:*** *o golpe do chefe cresce com o nível e a CD dela cresce junto, sem teto. No nível `10` ela passa a `18` e quem treinou resiste `45%`; do nível `15` em diante nenhum `d20` resiste, e o `7%` que sobra é o chefe errar os golpes, não o teste.* **A regra nova segura `41%` em qualquer nível, porque os dois lados crescem juntos** — é a lição nº 1 do projeto.
+***Por que a regra antiga saiu:*** *o golpe do chefe cresce com o nível e a CD dela cresce junto, sem teto. No nível `10` ela passa a `19` e quem treinou resiste `40%`; do nível `15` em diante nenhum `d20` resiste, e o `7%` que sobra é o chefe errar os golpes, não o teste.* **A regra nova segura `41%` em qualquer nível, porque os dois lados crescem juntos** — é a lição nº 1 do projeto.
 
 **O que a regra nova cobra, e o Mizuki ainda não viu:** *nos níveis baixos ela é mais dura que a antiga para quem concentra — `41%` contra `53%` no nível `5`, porque o golpe de chefe ali ainda é pequeno e a CD `10` era fácil.* **E um golpe pequeno de inimigo forte pede o mesmo teste que um golpe grande:** só a `Mão Firme` livra dos golpes de `10` ou menos.
 
@@ -228,7 +228,7 @@ A Passiva **Mão Firme** cobre os dois, e o manual v7.6 diz isso com todas as le
 | **Conjurar** | um feitiço, pelo Fundamento |
 | **Correr** | ganhe deslocamento igual ao seu, pelo resto do turno |
 | **Desengajar** | o seu movimento não provoca ataque de oportunidade pelo resto do turno |
-| **Esquivar** | ataques contra você têm desvantagem e os seus TR de Destreza têm vantagem, até o começo do seu próximo turno |
+| **Esquivar** | ataques contra você têm desvantagem e os seus TR Físicos têm vantagem, até o começo do seu próximo turno |
 | **Esconder** | um teste de `Furtividade` |
 | **Ajudar** | dá vantagem ao próximo teste ou ataque de um aliado. **Um por teste** — dois ajudantes não dão vantagem duas vezes (peça 4 §5) |
 | **Influenciar** | um teste de **Essência** — `Persuasão`, `Enganação`, `Intimidação` ou `Atuação`, conforme o jeito — para mudar a atitude de alguém |

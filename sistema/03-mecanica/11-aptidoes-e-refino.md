@@ -276,9 +276,9 @@ Doze níveis entre o especialista e o generalista, que é o tamanho que *"quase 
 
 > **Para ele passar no filtro de mesa, a ficha anota a resposta:** *de quem você aprendeu, ou onde viu.* **O mestre que pega a ficha depois lê o que está escrito, e não decide de novo.** *O da Cesta já mora na ficha — a Origem e a perícia estão nela.*
 
-### E o exemplar único do gate de Origem
+### E os exemplares do gate de Origem
 
-**São dois exemplares hoje.** *O segundo entrou na v0.273: o Corpo Amaldiçoado não compra a `Extensão de Domínio`, porque nunca tem técnica inata e a Extensão é um domínio vazio — o §6.5 tem a conta que o destampou.* **O primeiro é o `Remoto` da peça 15 §3.7**, na faixa *fora da cena*: alcance de país exige **Restrição Celestial pelo ramo do corpo limitado** e uma técnica voltada a isso, que é o Ultimate Mechamaru sem regra especial nenhuma. **O validador daquela peça confere que ele continua sendo o único** — um segundo gate no catálogo quer dizer que a régua de degrau parou de precificar sozinha.
+**São três exemplares hoje.** *O terceiro entrou na v0.283: quem monta a técnica em `Manejo` ou em `Kata`, o Sem Técnica e a Técnica Marcial, não compra o Ritual (peça 27 §7), por decisão do Mizuki. Sem a linha, os capítulos 42 e 43 do livro abririam o ritual para as duas rotas desde a v0.276, porque mandam ler `Manejo` e `Kata` onde qualquer capítulo escreve feitiço.* *O segundo entrou na v0.273: o Corpo Amaldiçoado não compra a `Extensão de Domínio`, porque nunca tem técnica inata e a Extensão é um domínio vazio — o §6.5 tem a conta que o destampou.* **O primeiro é o `Remoto` da peça 15 §3.7**, na faixa *fora da cena*: alcance de país exige **Restrição Celestial pelo ramo do corpo limitado** e uma técnica voltada a isso, que é o Ultimate Mechamaru sem regra especial nenhuma. **O validador daquela peça confere que ele continua sendo o único** — um segundo gate no catálogo quer dizer que a régua de degrau parou de precificar sozinha.
 
 ## 6. O catálogo — as que têm número
 
@@ -747,7 +747,7 @@ Ela não faz domínio nenhum: é a energia no corpo que reage. Segredo dos três
 > **Você se envolve numa camada fina de domínio sem técnica dentro. Enquanto ela estiver de pé, nada do que uma Expansão faz te alcança — nem o Acerto dela, nem o que ela faz com as pessoas ou com o lugar —, seja ela completa, incompleta ou sem barreiras. A barreira continua te prendendo, e o que a Expansão dá ao dono continua com ele.**
 > **Levanta com uma Reação quando uma Expansão abre, ou com uma Ação Bônus no seu turno. Erguer custa a sua maior Classe em PE, toda vez que ela sobe; de pé, ela custa `1,5 × a sua maior Classe` de PE por rodada, e dura `refino` rodadas. Ela não cai por golpe.**
 > **E o que encostar nela é anulado até `1/3 do refino + 1`:** *uma `Classe Passiva`, uma `Regra Própria` ou um feitiço de `Classe` até esse número. Acima dele, ela reduz o dano em um quarto, e você leva `3/4`.*
-> **Enquanto ela estiver de pé, você não usa feitiço nem `Manejo`.** *A Técnica Marcial e as aptidões continuam. Se a sua Expansão já estava aberta, ela continua; abrir uma nova derruba a Extensão.*
+> **Enquanto ela estiver de pé, você não usa feitiço nem `Manejo`.** *Se a sua Expansão já estava aberta, ela continua; abrir uma nova derruba a Extensão.*
 > *Requisito: ter visto uma sendo usada, ou ter estudado, ou aprendido com alguém. O Corpo Amaldiçoado não compra.*
 
 > ***Reescrita na v0.273, com as decisões do Mizuki na rodada 3 da revisão dos anti-domínio.*** *Até a v0.272 ela anulava só o Acerto, "fazia o seu ataque acertar independentemente da técnica do alvo" — a frase é da wiki inglesa, e não do Fanbook —, deixava passar inteira a técnica acima do teto, e pedia nível 14.* **Agora ela deixa você imune a tudo o que a Expansão faz, e cobra por isso:** *"uma pessoa que utilizar uma extensão de domínio é imune a todos os efeitos da expansão. Ela sai cara por isso."* *A conta está em `sistema/01-pesquisa/anti-dominios/conta-extensao.py`, e ela reproduz os números publicados antes de medir.*
@@ -770,7 +770,9 @@ Ela não faz domínio nenhum: é a energia no corpo que reage. Segredo dos três
 
 **Acima do teto, ela reduz um quarto, e você leva `3/4`.** *É o cap. 232: o Sukuna "segurou o dano no mínimo", e contra o Azul reforçado e o Vermelho ela "não neutraliza por inteiro" — a fala não separa os dois, e não dá número.* **Medido contra o chefe da tabela do manual, mesmo batendo só nela com técnica acima do teto, a redução vale no máximo o PE que ela custa por rodada:** *é um extra pequeno, e o que ela tem de forte é a imunidade e o que ela anula abaixo do teto.*
 
-**Você não usa feitiço nem `Manejo` — e a Técnica Marcial continua.** *O Fanbook diz que a técnica inata não sai e que o ataque fica no físico; a Técnica Marcial é o Fundamento com o corpo no lugar da energia, e é o físico. Hoje a frase não alcança ninguém: as duas rotas da Técnica Marcial, o Corpo Amaldiçoado e a Restrição Celestial sem energia, não compram a Extensão.* **O `Manejo` do Sem Técnica é feitiço com outro nome, e para — e o motivo é de preço:** *"meu problema q não poderia ser usado manejo também, por balanceamento, não era técnica marcial o problema". Com o `Manejo` de pé, o Sem Técnica ergueria a Extensão sem perder nada, enquanto quem conjura perde o feitiço.* **Ele está escrito na caixa, e não só implícito:** *o capítulo 43 do livro manda ler `Manejo` onde os capítulos 8 e 9 escrevem feitiço, e o capítulo 45 não está entre eles.* **A reversa e as aptidões ficam liberadas**, *por decisão do Mizuki, "por enquanto": a obra não tem cena delas junto com a Extensão, e só proíbe a técnica inata.*
+**Você não usa feitiço nem `Manejo`.** *O Fanbook diz que a técnica inata não sai e que o ataque fica no físico.* **O `Manejo` do Sem Técnica é feitiço com outro nome, e para — e o motivo é de preço:** *"meu problema q não poderia ser usado manejo também, por balanceamento, não era técnica marcial o problema". Com o `Manejo` de pé, o Sem Técnica ergueria a Extensão sem perder nada, enquanto quem conjura perde o feitiço.* **O nome está na caixa com todas as letras, e o motivo mudou na v0.276:** *até ali o capítulo 43 do livro mandava ler `Manejo` só onde os capítulos 8 e 9 escrevem feitiço, e o 45 não estava entre eles; desde então ele manda ler em qualquer capítulo, e o nome ficou por clareza.*
+
+**A caixa não diz o que continua, desde a v0.283:** *"se n ta citado, n precisa ficar deixando claro". Até ali ela dizia "A Técnica Marcial e as aptidões continuam".* **A reversa e as aptidões seguem liberadas**, *por decisão do Mizuki na v0.273, "por enquanto": a obra não tem cena delas junto com a Extensão, e só proíbe a técnica inata.* **E a Técnica Marcial não alcança ninguém aqui:** *as duas rotas dela, o Corpo Amaldiçoado e a Restrição Celestial sem energia, não compram a Extensão. Desde a v0.276 a `Kata` também vale como feitiço, então a frase velha passou a brigar com a primeira da caixa.*
 
 **Se a sua Expansão já estava aberta, ela continua.** *É o cap. 227: o Sukuna ergue a Extensão com o domínio de pé, e o Gojo explica — o que não sai é a técnica gravada no corpo, e a que já está no domínio "é outra história".* **Abrir uma Expansão nova derruba a Extensão.**
 
@@ -1244,9 +1246,9 @@ A cena é a das tabelas da Cesta e do Simples: a Expansão com o refino típico 
 
 ### O que ele vale, medido no nível 30
 
-*Base: o **golpe simples com o soco** — `d10` pela maestria (peça 14 §5.0.6) mais Força `6` (peça 2), que dá `11,50`, o número que a peça 5 §4 publica.* **A Ação de Atacar são dois golpes, pelo ataque extra do nível 7 (peça 6 §3.1).** *O `Classe 0` grátis vale `27` no nível 30, lido da tabela do manual.*
+*Base: o **golpe simples com o soco** — `d10` pela maestria (peça 14 §5.0.6) mais Força `6` (peça 2), que dá `11,50`, o número que a peça 5 §4 publica.* **A Ação Atacar são dois golpes, pelo ataque extra do nível 7 (peça 6 §3.1).** *O `Classe 0` grátis vale `27` no nível 30, lido da tabela do manual.*
 
-| a rodada sem PE, no nível 30 | Ação de Atacar | contra o `Classe 0` grátis |
+| a rodada sem PE, no nível 30 | Ação Atacar | contra o `Classe 0` grátis |
 |---|---|---|
 | sem dado nenhum — refino `1` ou `2` | `23,00` | **`0,85×`** — o botão grátis ganha |
 | refino `8`, quem nunca escolhe | `33,00` | `1,22×` |
@@ -1255,7 +1257,7 @@ A cena é a das tabelas da Cesta e do Simples: a Expansão com o refino típico 
 
 > **Com arma de duas mãos (`d12`, golpe `12,50`) as duas últimas viram `46,00` e `53,00`** — `1,70×` e `1,96×`. *A arma muda o valor absoluto e não muda o dano na arma: os dados extras não dependem dela.*
 
-**E a linha de cima é o que a entrada existe para consertar.** *Sem o dano na arma, a Ação de Atacar de um físico de nível 30 rende `23` contra os `27` do botão que toda ficha tem de graça — ela é estritamente pior, e o ataque extra do nível 7 vira letra morta.* **É a medida que a v0.82 usou para recusar prender o ataque extra à Ação de Atacar, e que a v0.147 aceitou de propósito.** *O dano na arma é o que devolve sentido àquela rodada.*
+**E a linha de cima é o que a entrada existe para consertar.** *Sem o dano na arma, a Ação Atacar de um físico de nível 30 rende `23` contra os `27` do botão que toda ficha tem de graça — ela é estritamente pior, e o ataque extra do nível 7 vira letra morta.* **É a medida que a v0.82 usou para recusar prender o ataque extra à Ação Atacar, e que a v0.147 aceitou de propósito.** *O dano na arma é o que devolve sentido àquela rodada.*
 
 **No dia inteiro, com as `10,5` rodadas de luta do bloco 1 do `conferir-orcamento.py`:**
 
@@ -1271,13 +1273,13 @@ A cena é a das tabelas da Cesta e do Simples: a Expansão com o refino típico 
 
 **A segunda condição da §2 é que a rodada em que o dano na arma cai fique abaixo da Rotina do nível.** *Medida nos vinte e nove níveis, na rota que mais recebe — o golpe simples reconstruído do soco da peça 14 §5.0.6 mais a Força da peça 2 §3, que vai de `3` a `6` no ritmo da maestria:*
 
-> **O pior nível é o `7`, com a Ação de Atacar em `51,6%` da Rotina** — e o `4d6` **não move esse número**, porque no nível 7 o refino é `3`. *No nível 30 ela fica em `47,2%`.*
+> **O pior nível é o `7`, com a Ação Atacar em `51,6%` da Rotina** — e o `4d6` **não move esse número**, porque no nível 7 o refino é `3`. *No nível 30 ela fica em `47,2%`.*
 
 *O pior nível é o 7 pelo motivo que a peça 6 §3.1 já mede:* **o ataque extra dobra a rodada de golpe de uma vez, e o golpe simples encolhe contra o feitiço a campanha inteira.** *O dano na arma segura essa queda sem inverter ela.*
 
 > **E o refino `10` só existe do nível 22 em diante**, então o `4d6` não encosta em nenhum nível abaixo dele: *o pior caso da rodada de golpe continua sendo exatamente o que a v0.147 já tinha.*
 
-**A primeira condição é a trava `Só arma`**, e ela é o que impede o dado de entrar na rodada de feitiço. *A segunda metade dela — não somar por cima de um `Classe 0` que viajou junto do ataque — é o que impede a `Fornalha` de empilhar as duas coisas.* **No nível 30 a rodada de feitiço vale `94` e a Ação de Atacar cheia vale `51`, que são `54%` dela:** *o pico não se move, e o piso não alcança o pico.*
+**A primeira condição é a trava `Só arma`**, e ela é o que impede o dado de entrar na rodada de feitiço. *A segunda metade dela — não somar por cima de um `Classe 0` que viajou junto do ataque — é o que impede a `Fornalha` de empilhar as duas coisas.* **No nível 30 a rodada de feitiço vale `94` e a Ação Atacar cheia vale `51`, que são `54%` dela:** *o pico não se move, e o piso não alcança o pico.*
 
 ### Dominância dentro do mesmo Caminho
 
@@ -1296,7 +1298,7 @@ A cena é a das tabelas da Cesta e do Simples: a Expansão com o refino típico 
 
 | | com `3d6` | com o `4d6` |
 |---|---|---|
-| Ação de Atacar contra o `Classe 0` grátis, nível 30 | `1,63×` | **`1,89×`** |
+| Ação Atacar contra o `Classe 0` grátis, nível 30 | `1,63×` | **`1,89×`** |
 | o ataque extra do nível 7, no teto (peça 6 §3.1) | `1,68` fatia | **`1,95` fatia** |
 | dispersão do ataque extra ao longo da campanha | `3,2×` | **`3,7×`** |
 

@@ -1,0 +1,207 @@
+
+========================================================================================
+1. ESTRUTURA — o que o README promete existe?
+========================================================================================
+  [x] README.md
+  [x] .gitignore
+  [x] logs/CHANGELOG.md
+  [x] logs/CHANGELOG-manual-v6-para-v7.md
+  [x] manual/Fundamento-MANUAL-v7.docx
+  [x] manual/Fundamento-MANUAL-v7.pdf
+  [x] manual/gerador/make.js
+  [x] manual/gerador/COMO-USAR.txt
+  [x] manual/matematica/pac7.py
+  [x] manual/matematica/v7.py
+  [x] sistema/ESTADO-ATUAL.md
+  [x] sistema/LEIA-ME.md
+  [x] sistema/00-fundacao
+  [x] sistema/01-pesquisa
+  [x] sistema/02-esqueleto
+  [x] sistema/03-mecanica
+  [x] sistema/04-playtest
+  [x] sistema/05-material
+  [x] sistema/99-arquivo
+  [x] sistema/skills
+
+  27 pecas de regra, 27 validadores.
+  O README diz vinte e sete e vinte e sete, e a pasta concorda.
+  Numeracao de 01 a 27, sem buraco.
+
+========================================================================================
+2. REFERENCIA MORTA — todo caminho citado resolve?
+========================================================================================
+  1306 caminhos citados em .md conferidos, 0 mortos.
+  Todos resolvem.
+
+  [x] conferir-nomes.py procura o .docx dentro de manual/
+  [x] conferir-manual.py procura o .docx dentro de manual/
+  [x] conferir-pericias.py procura o .docx dentro de manual/
+
+========================================================================================
+3. ESTRUTURA ANTIGA — sobrou alguem apontando para ela?
+========================================================================================
+  Nada aponta para a estrutura antiga.
+  (O 99-arquivo e os changelogs ficam de fora: eles descrevem o que era
+   verdade na epoca, e e por isso que existem.)
+
+========================================================================================
+4. NUMERO COM DOIS DONOS — as copias batem com o dono?
+========================================================================================
+
+  VERSAO DO PROJETO: o dono e logs/CHANGELOG.md e ele diz "0.287".
+    [x] README.md — a linha de abertura
+    [x] sistema/ESTADO-ATUAL.md — a linha de abertura
+    [x] sistema/LEIA-ME.md — a secao "Versao atual"
+
+  VERSAO DO MANUAL: o dono e manual/gerador/COMO-USAR.txt e ele diz "7.41".
+    [x] manual/gerador/partA.js — a CAPA do manual gerado
+    [x] manual/matematica/COMO-USAR.txt — o cabecalho
+    [x] README.md — a linha de abertura
+    [x] sistema/ESTADO-ATUAL.md — a secao do manual
+    [x] sistema/LEIA-ME.md — a secao "Versao atual"
+    [x] sistema/02-esqueleto/arquitetura.md — a abertura
+
+  [x] sistema/ESTADO-ATUAL.md — diz vinte e sete pecas e vinte e sete validadores, e a pasta concorda
+  [x] sistema/LEIA-ME.md — diz vinte e sete pecas e vinte e sete validadores, e a pasta concorda
+
+  Um numero, um dono. Toda copia acima e conferida contra ele, e nenhuma
+  delas fica escrita dentro deste validador.
+
+
+========================================================================================
+5. PONTEIRO DE SECAO — "peca N §M" que aponta para secao inexistente
+========================================================================================
+  [x] 2155 ponteiros de secao conferidos, e os 2155 resolvem
+
+  A checagem 2 confere se o ARQUIVO existe; esta confere se a SECAO existe.
+  Nada em logs/ e conferido: entrada de CHANGELOG e registro do que se
+  pensou naquele dia, e a v0.50 decidiu nao reescrever historico.
+
+
+========================================================================================
+5.1 PECA QUE NAO EXISTE — e existe, na pasta, ha versoes
+========================================================================================
+  [x] as 27 pecas da pasta contra 2796 arquivos vivos, e nenhuma
+      linha diz que uma delas nao existe nem que uma pendencia espera por ela.
+
+  Fechado numa peca e ainda aberto na peca vizinha e a familia de defeito que
+  esta checagem existe para pegar. Ela le AFIRMACAO: aspas, crase e riscado
+  saem antes, porque citar a frase morta e registro e nao promessa.
+  FORA do escopo: logs/, finalizado/, PDFs - Sistemas Extras/ e as pastas de
+  build. E ela le uma linha por vez — negacao espalhada em dois paragrafos passa.
+
+----------------------------------------------------------------------------------------
+  6. O MAPA — a tabela "Onde cada coisa esta" contra a pasta de verdade
+----------------------------------------------------------------------------------------
+  27 pecas e 27 validadores na pasta.
+  [x] as 27 pecas aparecem no mapa
+  [x] os 27 validadores aparecem no mapa
+  [x] os 56 arquivos citados no mapa existem
+
+  Um mapa furado nao quebra contagem nenhuma — por isso ele passou seis
+  versoes furado. Quem retoma em conversa nova le o mapa, nao a pasta.
+
+----------------------------------------------------------------------------------------
+  7. A ENTREGA — o recorte confere com a fonte?
+----------------------------------------------------------------------------------------
+  [x] as 43 copias da entrega batem byte a byte com a fonte
+  [x] 345 citacoes conferidas contra a arvore DA ENTREGA, 198 na lista branca declarada, 0 penduradas
+
+  7.3 O README da entrega e o unico arquivo escrito a mao la.
+    [x] a versao do recorte: 1 ocorrencia(s), todas "0.287"
+    [x] a versao do manual: 4 ocorrencia(s), todas "7.41"
+    [x] a contagem de pecas: 1 ocorrencia(s), todas "27"
+    [x] a contagem de condicoes: 2 ocorrencia(s), todas "13"
+    [x] o total de entradas do catalogo: 1 ocorrencia(s), todas "102"
+    [x] a contagem de capitulos do livro: 2 ocorrencia(s), todas "18"
+
+  7.4 A entrega esta commitada, e nao so sincronizada no disco?
+  ~~ 7.4: a entrega tem 19 arquivo(s) modificado(s) — commite ela depois deste commit: `git add -A && git commit && git push` dentro de finalizado/
+  !! 7.4: o CONTEUDO do ultimo commit da entrega e da v0.276 e o CHANGELOG esta na v0.287 — o recorte no GitHub do PDF ficou DUAS ou mais versoes para tras
+
+  7.5: o livro construido e o livro da fonte?
+    [x] os 21 arquivos-fonte batem com a impressao digital do ultimo build
+
+  7.6: o livro construido usou as fontes do projeto?
+    [x] os 2 PDFs regerados embutem as 4 familias que o CSS pede, e nenhuma substituta no corpo
+
+  A entrega e artefato e nao tem validador proprio. Esta checagem e a unica
+  coisa do projeto que atravessa os dois repositorios.
+
+
+========================================================================================
+8. PENDENCIA MORTA — item de "Em aberto" apontando para coisa que existe
+========================================================================================
+  37 secoes de pendencia, 108 linhas vivas, manual na v7.41.
+  [x] as 27 pecas tem secao de pendencia, e o extrator acha linha viva em todas
+  [x] nenhuma das 108 linhas vivas pede coisa que ja existe
+
+  8a pede validador que existe · 8b trava em versao do manual que passou ·
+  8c tem por assunto uma peca que existe · 8d espera uma peca que existe.
+  Riscar com ~~ fecha o item E o corpo dele — e e' a convencao da casa.
+
+
+========================================================================================
+9. CONTAGEM DE CHECAGENS — o codigo e o dono, e os documentos sao copia
+========================================================================================
+  28 validadores, 332 checagens no total.
+  27 pecas mapeadas; 7 validador(es) sem peca dona (sao de assunto, e nao de peca): expansao, ficha, manual, nomes, orcamento, repositorio, xp
+  [x] todo validador tem bloco numerado, e nenhuma numeracao tem buraco
+  [x] as 34 afirmacoes de contagem batem com o codigo
+
+  O DONO AQUI E O CODIGO, e e a unica checagem do projeto em que ele e.
+  Uma checagem = um bloco numerado. Sub-bloco conta para o bloco pai.
+  [x] conferir-bestiario: pula 4 de 11, medido rodando
+  [x] conferir-dano: pula 1 de 14, medido rodando
+  [x] conferir-manual: pula 8 de 8, medido rodando
+  [x] conferir-nomes: pula 3 de 6, medido rodando
+  [x] conferir-pericias: pula 1 de 8, medido rodando
+  [x] conferir-progressao: pula 1 de 8, medido rodando
+  [x] os 6 pares do LEIA-ME batem com a tabela do ESTADO-ATUAL
+
+========================================================================================
+10. O LIVRO CONTRA AS PECAS — o conteudo, e nao o recorte
+========================================================================================
+  [x] as tres listas de capitulo batem — 18 numerados e 3 de frente, nos tres arquivos
+  [x] os 21 arquivos de livro/manual/ estao todos declarados, e todo declarado existe
+  [x] as 90 referencias `capitulo N, Titulo` apontam para o capitulo certo
+  [x] a tabela de roteiro da introducao cobre os 18 capitulos, na numeracao do build.py
+  [x] a coluna `Cap.` do glossario bate com o build.py nas 4 secoes que sao titulo de capitulo (132 linhas no total)
+  [x] os 23 termos de sistema vivos nas pecas aparecem no livro
+  [x] os 84 Legados escritos na peca 13 estao todos no livro
+  [x] nenhuma linha do livro anuncia como pendente uma das 18 pecas que existem
+
+  A checagem 7 pergunta se o RECORTE esta atualizado; esta pergunta se o
+  CONTEUDO esta. Sao perguntas diferentes, e ate a v0.124 so uma tinha dono.
+
+
+========================================================================================
+11. A LINHA DE RETOMADA — o `→ Continua em` da entrada do topo
+========================================================================================
+  a regra vale da v0.110 para ca — lido do cabecalho do CHANGELOG.
+  287 entradas no arquivo, 176 com a linha: 173 em `→ **Continua em**` e 3 em `→ Continua em`.
+  As duas grafias passam. O negrito nao muda para onde a linha aponta.
+  3 entrada(s) posterior(es) a decisao SEM a linha, e elas ficam como estao: v0.216, v0.175, v0.174
+  (a v0.50 decidiu nao reescrever historico do CHANGELOG; retroativar a linha delas seria inventar para onde aquela versao continuou)
+  [x] a v0.287 fecha com a linha, e ela e a ultima da entrada
+  [x] o ponteiro da v0.287 resolve: `sistema/ESTADO-ATUAL.md`
+
+  A checagem 2 confere caminho citado em .md e PULA a pasta logs/ inteira,
+  de proposito. Esta e a unica que olha o ponteiro do CHANGELOG, e ela olha
+  so o do topo — que e o unico que alguem vai seguir.
+
+
+========================================================================================
+12. AS MELHORIAS — o livro contra o manual, que e o dono
+========================================================================================
+  82 Melhorias no manual (`partD.js`, o dono) e 82 no livro (`40-fundamento.md`).
+  25 divergencia(s) declarada(s) no ESTADO-revisao.md: 0 aberta(s), 0 decidida(s) e 25 fechada(s).
+  [x] as 82 Melhorias comuns batem, ou divergem por linha declarada `aberta`
+
+  O dono e o `partD.js`; o `.docx` sai dele pelo `make.js` e o livro e copia.
+  Quem decide QUAL lado vence e regra, e nao validador — esta so garante que
+  nenhuma divergencia nova entre calada, e que decisao fechada fique aplicada.
+
+========================================================================================
+>>> 1 PROBLEMA(S):
+   - 7.4: o CONTEUDO do ultimo commit da entrega e da v0.276 e o CHANGELOG esta na v0.287 — o recorte no GitHub do PDF ficou DUAS ou mais versoes para tras

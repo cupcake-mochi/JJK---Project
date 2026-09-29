@@ -67,9 +67,9 @@ Nenhuma quantidade de requisito de Força, nenhuma tabela de arma e nenhum ajust
 >
 > **A peça 6 §3.1 sempre teve a linha `feitiço de Toque + golpe simples` marcada como EXISTENTE na tabela dos três turnos.** *O que faltava não era refazer conta — era dizer de onde o golpe vinha, e aquela seção já tinha escrito a resposta como "anotado, não decidido".*
 >
-> **De onde ele vem: do ataque extra do nível 7, que é um golpe simples por rodada e EXIGE a Ação de Atacar.** *Escrito na peça 6 §3.1, com validador em cima.* **A v0.147 inverteu a forma que a v0.82 tinha decidido**, e o motivo está lá.
+> **De onde ele vem: do ataque extra do nível 7, que é um golpe simples por rodada e EXIGE a Ação Atacar.** *Escrito na peça 6 §3.1, com validador em cima.* **A v0.147 inverteu a forma que a v0.82 tinha decidido**, e o motivo está lá.
 >
-> **⚠⚠ E A v0.147 INVERTEU ESTA DECISÃO, por achado de mesa.** *A v0.82 tinha medido o custo da alternativa e registrado: com o ataque extra preso à Ação de Atacar, dois golpes rendem `23` no nível 30 contra `27` de um Classe 0 grátis, e a Ação de Atacar fica dominada pelo botão que toda ficha já tem.* **Essa medida continua de pé, e o Mizuki decidiu pagar ela.**
+> **⚠⚠ E A v0.147 INVERTEU ESTA DECISÃO, por achado de mesa.** *A v0.82 tinha medido o custo da alternativa e registrado: com o ataque extra preso à Ação Atacar, dois golpes rendem `23` no nível 30 contra `27` de um Classe 0 grátis, e a Ação Atacar fica dominada pelo botão que toda ficha já tem.* **Essa medida continua de pé, e o Mizuki decidiu pagar ela.**
 >
 > ***O motivo dele é concreto e a v0.82 não podia tê-lo visto:*** *o `Bote`, nível 19 da `Estocada`, entrega "usar o ataque extra na Ação Bônus quando o feitiço da Padrão for de condição".* **Com o golpe solto, isso já acontecia sozinho — o `Bote` valia ZERO e estava preçado em `2,46` fatias.** *Uma entrega publicada que não entrega nada é pior do que uma dominância declarada.*
 >
@@ -128,6 +128,27 @@ O motivo da primeira é o pilar 1: a técnica é a identidade. Se o Caminho dess
 - **Cura**, que é Forma de feitiço — quem fechou a Família Amparo nunca vai curar, e nenhum Caminho contorna isso.
 - **Redução de Dano passiva.** Resistência a um tipo, sim; desconto em tudo, não. *É a regra do manual que matou a Passiva Casca na v0.26, e ela nunca tinha sido escrita nesta peça — a v0.70 furou ela desenhando uma reação de RD para aliados antes de alguém notar.*
 - **Refino dentro de uma rolagem** — acerto, CD, Defesa, Teste de Resistência ou dano. Ele cresce `+7` a `+9` na campanha contra os `+3` de quem está do outro lado, e não existe número que conserte isso. *Fora da rolagem ele continua valendo: custo, frequência, escopo e disputa contra outro refino são a peça 11 e não mudam aqui.* **A métrica do Caminho é a maestria**, que cresce `+3`.
+
+### As exceções declaradas, e o que só parece furar
+
+**A coleção v0.4 entrou no livro "exatamente" como veio (v0.270), e quatro entregas dela passam por cima de dois itens desta cerca.** *O Mizuki declarou as quatro como exceção, em vez de mudar o texto delas. A cerca continua valendo para todo o resto, e para toda entrega nova.*
+
+| entrega | Caminho · onde | o que fura | decisão |
+|---|---|---|---|
+| Trilha `Socorrista` | Guia | **cura** de outra pessoa, com o `Cuidado Preparado` e o `Ainda Há Tempo` | v0.271 — *"Pode deixar como exceção"* |
+| `Ainda de Pé` | Bastião · Caminho, nível 7 | **cura** da própria vida, uma vez por cena | v0.279 — *"1 - A"* |
+| `Duro de Matar` | Bastião · Caminho, nível 15 | **desconto de dano** no golpe em que o Bloquear falhou | v0.279 — *"1 - A"* |
+| `Casca Grossa` | Bastião · `Muro`, nível 19 | **desconto de dano** no golpe assumido por `Olhos Em Mim` | v0.279 — *"1 - A"* |
+
+> ***A do Socorrista estava só no livro.*** *A v0.271 a escreveu no quadro de Limites do capítulo 8 e não nesta peça, que é a dona da cerca; a v0.279 achou as três do Bastião lendo a coleção para medir, e trouxe as quatro para cá. O preço de cada uma sai da medição da coleção — o item 12 da fila.*
+
+**Três entregas parecem furar a cerca e não furam** — *a checagem do `conferir-catalogo.py` lê esta tabela e a de cima, e cobra que toda cura e todo desconto de dano do capítulo 8 esteja numa das duas:*
+
+| entrega | Caminho · onde | por que não fura |
+|---|---|---|
+| `Golpe Inicial` | Vanguarda · Caminho | o dano que ela reduz é o do próprio golpe, e é o custo de abrir a Sequência |
+| `Remodelar` | Emanador · Caminho | a cura é a Forma do feitiço que você troca, e não o Caminho curando |
+| `Obra em Uso` | Guia · `Arquiteto` | o que recupera vida é a obra, e não uma pessoa |
 
 ### O que um Caminho concede — exemplos, com preço
 

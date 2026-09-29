@@ -1,18 +1,18 @@
 Seis maldições prontas, do nível 2 ao 12, tiradas do folclore japonês. Os números de cada bloco
-saem da linha da categoria e da faixa dela, nas tabelas do capítulo 6, com o papel por cima.
+saem da célula da categoria e do N, na faixa dela, nas tabelas do capítulo 6, com o papel por cima.
 
 ## Células vazias
 
 **Papel.** Cada uma traz o seu no cabeçalho, e a vida e a Defesa do bloco já saem com ele. Para
 trocar, refaça as duas pela `Papéis`, no Passo 2 do capítulo 6. A Destreza não muda.
 
-**Resistências e imunidades.** Todas as células saem vazias. Preencher qualquer uma multiplica o
-fator da categoria, e a `Preço das células`, no capítulo 5, diz por quanto.
+**Resistências e imunidades.** Todas as células saem vazias. Preencher qualquer uma divide a vida,
+e a `Preço das células`, no capítulo 5, diz por quanto.
 
 **Grau.** Fica com você. Ele não entra em conta nenhuma.
 
-**`Intervenções`.** A Tsuchigumo e o Oni são `Desastre` e trazem as três escritas. O golpe dos dois
-já vem com o `0,923` aplicado. As quatro `Ameaça` não têm `Intervenção`.
+**`Intervenções`.** A Tsuchigumo e o Oni são `Desastre ×4` e trazem as três escritas, com a vida
+já dividida pelo preço delas. As quatro `Ameaça ×1` não têm `Intervenção`.
 
 **Tamanho.** Trocar o tamanho muda o espaço na grade, o alcance e o vizinho que o golpe pega.
 Nenhum outro número se move.
@@ -27,11 +27,11 @@ No folclore japonês, o Betobeto é um som de passos que acompanha quem anda soz
 
 > ### Betobeto
 >
-> *Maldição Média · **Ameaça** · Emboscador · nível 2 a 4*
+> *Maldição Média · **Ameaça ×1** · Emboscador · nível 2 a 4*
 >
 > **Defesa** `14` · **Acerto** `+4` · **CD** `12` · **Refino** `1` *(proteção `+1`)*
 >
-> **Vida** `19` · **Integridade** `9` · **Deslocamento** `9 m`
+> **Vida** `16` · **Integridade** `8` · **Deslocamento** `9 m`
 >
 > **Força** `0` · **Destreza** `3` *(Iniciativa)* · **Constituição** `1` · **Inteligência** `2` · **Essência** `3` *(acerto e CD)*
 >
@@ -55,11 +55,11 @@ No folclore japonês, a kamaitachi é um trio de doninhas que corre dentro de um
 
 > ### Kamaitachi
 >
-> *Maldição Pequena · **Ameaça** · Emboscador · dois corpos · nível 2 a 4*
+> *Maldição Pequena · **Ameaça ×1** · Emboscador · dois corpos · nível 2 a 4*
 >
 > **Defesa** `14` · **Acerto** `+4` · **CD** `12` · **Refino** `1` *(proteção `+1`)*
 >
-> **Vida** `19` · **Integridade** `9` · **Deslocamento** `9 m`
+> **Vida** `16` · **Integridade** `8` · **Deslocamento** `9 m`
 >
 > **Força** `3` · **Destreza** `3` *(Iniciativa, acerto e CD)* · **Constituição** `2` · **Inteligência** `1` · **Essência** `0`
 >
@@ -83,11 +83,11 @@ No folclore japonês, a Tsuchigumo é a aranha gigante que o guerreiro Minamoto 
 
 > ### Tsuchigumo
 >
-> *Maldição Grande · **Desastre** · Controlador · nível 2 a 4*
+> *Maldição Grande · **Desastre ×4** · Controlador · nível 2 a 4*
 >
 > **Defesa** `14` · **Acerto** `+4` · **CD** `12` · **Refino** `1` *(proteção `+1`)*
 >
-> **Vida** `85` · **Integridade** `42` · **Deslocamento** `9 m` · **Escalada** `9 m`
+> **Vida** `86` · **Integridade** `43` · **Deslocamento** `9 m` · **Escalada** `9 m`
 >
 > **Força** `3` *(acerto e CD)* · **Destreza** `3` *(Iniciativa)* · **Constituição** `3` · **Inteligência** `1` · **Essência** `0`
 >
@@ -103,11 +103,11 @@ No folclore japonês, a Tsuchigumo é a aranha gigante que o guerreiro Minamoto 
 >
 > **Ações**
 >
-> **Ações Múltiplas.** A Tsuchigumo faz três ataques de Mordida, ou usa Varrida das Patas e faz dois ataques de Mordida.
+> **Ações Múltiplas.** A Tsuchigumo faz quatro ataques de Mordida, ou usa Varrida das Patas e faz três ataques de Mordida.
 >
-> **Mordida.** *Ataque corpo a corpo:* `+4` para acertar, alcance `3 m`, uma criatura. *Acerto:* `5 (1d4 + 3)` de dano Perfurante, e metade desse dano em um vizinho do alvo.
+> **Mordida.** *Ataque corpo a corpo:* `+4` para acertar, alcance `3 m`, uma criatura. *Acerto:* `4` de dano Perfurante, e metade desse dano em um vizinho do alvo.
 >
-> **Varrida das Patas.** *Teste de Resistência Físico:* CD `12`, cada criatura num `Cone` de `7,5 m` a partir dela. *Falha:* `5 (1d4 + 3)` de dano Cortante. *Sucesso:* metade do dano.
+> **Varrida das Patas.** *Teste de Resistência Físico:* CD `12`, cada criatura num `Cone` de `7,5 m` a partir dela. *Falha:* `4` de dano Cortante. *Sucesso:* metade do dano.
 >
 > **Intervenções**
 >
@@ -127,13 +127,13 @@ No folclore japonês, o hitotsume-kozō é um menino careca de um olho só que s
 
 > ### Hitotsume
 >
-> *Maldição Média · **Ameaça** · Emboscador · nível 5 a 8*
+> *Maldição Média · **Ameaça ×1** · Emboscador · nível 5 a 8*
 >
 > *nível 5* · **Defesa** `14` · **Acerto** `+4` · **CD** `12` · **Refino** `1` *(proteção `+1`)*
 >
 > *nível 6 a 8* · **Defesa** `15` · **Acerto** `+4` · **CD** `12` · **Refino** `3` *(proteção `+2`)*
 >
-> **Vida** `46` · **Integridade** `23` · **Deslocamento** `9 m`
+> **Vida** `38` · **Integridade** `19` · **Deslocamento** `9 m`
 >
 > **Força** `0` · **Destreza** `3` *(Iniciativa)* · **Constituição** `2` (`3` do nível 6) · **Inteligência** `1` · **Essência** `3` *(acerto e CD)*
 >
@@ -147,7 +147,7 @@ No folclore japonês, o hitotsume-kozō é um menino careca de um olho só que s
 >
 > **Ações**
 >
-> **Língua.** *Ataque corpo a corpo:* `+4` para acertar, alcance `1,5 m`, uma criatura. *Acerto:* `10 (2d4 + 5)` de dano de Concussão.
+> **Língua.** *Ataque corpo a corpo:* `+4` para acertar, alcance `1,5 m`, uma criatura. *Acerto:* `9 (2d4 + 4)` de dano de Concussão.
 
 ## Kitsune
 
@@ -157,13 +157,13 @@ No folclore japonês, a kitsune é a raposa que aprende a tomar forma humana e a
 
 > ### Kitsune
 >
-> *Maldição Média · **Ameaça** · Artilheiro · nível 9 a 12*
+> *Maldição Média · **Ameaça ×1** · Artilheiro · nível 9 a 12*
 >
 > *nível 9* · **Defesa** `15` · **Acerto** `+4` · **CD** `12` · **Refino** `3` *(proteção `+2`)*
 >
 > *nível 10 a 12* · **Defesa** `16` · **Acerto** `+6` · **CD** `14` · **Refino** `4` *(proteção `+2`)*
 >
-> **Vida** `84` · **Integridade** `42` · **Deslocamento** `9 m`
+> **Vida** `68` · **Integridade** `34` · **Deslocamento** `9 m`
 >
 > **Força** `0` · **Destreza** `3` (`4` do nível 10) *(Iniciativa)* · **Constituição** `1` · **Inteligência** `3` · **Essência** `3` (`4` do nível 10) *(acerto e CD)*
 >
@@ -177,9 +177,9 @@ No folclore japonês, a kitsune é a raposa que aprende a tomar forma humana e a
 >
 > **Ações**
 >
-> **Mordida.** *Ataque corpo a corpo:* `+4` (`+6` no nível 10 a 12) para acertar, alcance `1,5 m`, uma criatura. *Acerto:* `19 (2d8 + 10)` de dano Perfurante.
+> **Mordida.** *Ataque corpo a corpo:* `+4` (`+6` no nível 10 a 12) para acertar, alcance `1,5 m`, uma criatura. *Acerto:* `17 (2d8 + 8)` de dano Perfurante.
 >
-> **Fogo-de-Raposa.** *Ataque de conjuração à distância:* `+4` (`+6` no nível 10 a 12) para acertar, alcance `18 m`, uma criatura. *Acerto:* `18 (4d8)` de dano de Fogo.
+> **Fogo-de-Raposa.** *Ataque de conjuração à distância:* `+4` (`+6` no nível 10 a 12) para acertar, alcance `18 m`, uma criatura. *Acerto:* `13 (3d8)` de dano de Fogo.
 
 ## Oni
 
@@ -189,13 +189,13 @@ No folclore japonês, o oni tem chifres, pele vermelha ou azul, e carrega um kan
 
 > ### Oni
 >
-> *Maldição Grande · **Desastre** · Brutamontes · nível 5 a 8*
+> *Maldição Grande · **Desastre ×4** · Brutamontes · nível 5 a 8*
 >
 > *nível 5* · **Defesa** `12` · **Acerto** `+4` · **CD** `12` · **Refino** `1` *(proteção `+1`)*
 >
 > *nível 6 a 8* · **Defesa** `13` · **Acerto** `+5` · **CD** `13` · **Refino** `3` *(proteção `+2`)*
 >
-> **Vida** `324` · **Integridade** `162` · **Deslocamento** `9 m`
+> **Vida** `305` · **Integridade** `152` · **Deslocamento** `9 m`
 >
 > **Força** `3` (`4` do nível 6) *(acerto e CD)* · **Destreza** `3` *(Iniciativa)* · **Constituição** `3` · **Inteligência** `0` · **Essência** `1`
 >
@@ -209,11 +209,11 @@ No folclore japonês, o oni tem chifres, pele vermelha ou azul, e carrega um kan
 >
 > **Ações**
 >
-> **Ações Múltiplas.** O Oni faz três ataques de Kanabō, ou usa Pancada no Chão e faz dois ataques de Kanabō.
+> **Ações Múltiplas.** O Oni faz quatro ataques de Kanabō, ou usa Pancada no Chão e faz três ataques de Kanabō.
 >
-> **Kanabō.** *Ataque corpo a corpo:* `+4` (`+5` no nível 6 a 8) para acertar, alcance `3 m`, uma criatura. *Acerto:* `12 (2d4 + 7)` de dano de Concussão, e metade desse dano em um vizinho do alvo.
+> **Kanabō.** *Ataque corpo a corpo:* `+4` (`+5` no nível 6 a 8) para acertar, alcance `3 m`, uma criatura. *Acerto:* `10 (2d4 + 5)` de dano de Concussão, e metade desse dano em um vizinho do alvo.
 >
-> **Pancada no Chão.** *Teste de Resistência Físico:* CD `12` (`13` no nível 6 a 8), cada criatura numa `Esfera` de raio `3 m` a partir do corpo dele. *Falha:* `12 (2d4 + 7)` de dano de Concussão. *Sucesso:* metade do dano.
+> **Pancada no Chão.** *Teste de Resistência Físico:* CD `12` (`13` no nível 6 a 8), cada criatura numa `Esfera` de raio `3 m` a partir do corpo dele. *Falha:* `10 (2d4 + 5)` de dano de Concussão. *Sucesso:* metade do dano.
 >
 > **Intervenções**
 >
@@ -229,15 +229,21 @@ No folclore japonês, o oni tem chifres, pele vermelha ou azul, e carrega um kan
 
 # Uso na campanha
 
-Cada corpo de `Ameaça` exige um personagem, e cada `Desastre` exige a mesa padrão de quatro.
+As quatro `Ameaça ×1` são a luta fácil de um personagem cada. A Tsuchigumo e o Oni são
+`Desastre ×4`, a luta moderada de quatro.
 
 **Outra ficção.** O bloco não depende do nome nem da descrição. Uma `Ameaça` do nível 2 ao 4 que
 segue alguém no escuro usa o bloco do Betobeto com outro nome.
 
-**Outra faixa.** Copie a vida e o golpe da faixa nova na `Vida e golpe por faixa`, e a linha da
-`Defesa, acerto, CD e refino por marco`, no capítulo 6, e aplique o papel por cima. Os atributos
+**Outro grupo.** Troque o N. A vida sai da coluna nova da `Vida por faixa` da categoria, no capítulo
+6, com o papel por cima, e o golpe fica. As `Ações Múltiplas` passam a ter N ataques, e as
+`Intervenções` saem ou entram pela porta da categoria.
+
+**Outra faixa.** Copie a vida da faixa nova na `Vida por faixa` da categoria, o golpe na `Golpe
+por faixa` e a linha da `Defesa, acerto, CD e refino por marco`, no capítulo 6, e aplique o papel
+por cima. Os atributos
 são refeitos na `Orçamento de atributo por marco`, no capítulo 5. Traços, ataques e
 `Intervenções` continuam os mesmos. A ação que monta técnica é refeita no orçamento da faixa nova.
 
-**Com capangas.** Pôr `Capanga` ao lado de uma delas segue o `Encontro misturado`, no capítulo 6.
-Uma Tsuchigumo com dois `Capanga` do mesmo nível exige perto de cinco pessoas.
+**Com capangas.** Pôr capangas ao lado de uma delas segue o `Chefe com capangas`, no capítulo 6:
+cada capanga tira `1 ÷ (rodadas × N)` da vida e do golpe dela.

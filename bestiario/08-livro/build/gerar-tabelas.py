@@ -1,18 +1,16 @@
 # -*- coding: utf-8 -*-
-"""Gera as tabelas do capítulo 6 a partir da `04-fase-1/TABELA.md`, e o pagamento dos papéis
-a partir da peça 26 §3.4.
+"""Gera as tabelas do capítulo 6 na GRADE da fase 2 (v0.282).
 
-Nenhum número é digitado à mão neste livro. Este script lê a escada viva no
-documento DONO, confere que ela colapsa em faixa (senão a tabela impressa seria
-mentira) e escreve o markdown do capítulo.
+Nenhum número é digitado à mão neste livro. As fontes:
+  · as faixas da tabela de inimigo do manual, pelo `dados.js` do gerador de inimigo
+    (o bloco 7 do conferir-ficha.py confere o dados.js contra a peça 26);
+  · os degraus, o pagamento do papel e a regra do orçamento, pela peça 26;
+  · o dado do golpe, pela função `dado()` do conta.js do gerador, portada com as constantes de lá;
+  · as derivadas por marco, pela `04-fase-1/TABELA.md` (a grade não mexeu nelas);
+  · o preço das condições, pela peça 19 §3.
 
-  · vida, dano por rodada, ações e golpe mudam em FAIXA de Classe
-  · Defesa, acerto, CD, refino e proteção mudam em MARCO de nível
-
-As duas escadas não coincidem, e é por isso que saem duas tabelas.
-
-O script morre se a `TABELA.md` mudar de forma, ou se algum valor deixar de ser
-constante dentro da faixa dele.
+Regiões que ele escreve no capítulo: DEGRAUS, CAPANGAS, PAGAMENTO, TABELAS e ORCAMENTO.
+Com `--conferir` ele compara sem escrever, e o conferir-bestiario.py (9.5) roda assim.
 """
 import math
 import os
@@ -22,13 +20,13 @@ import sys
 BASE = os.path.dirname(os.path.abspath(__file__))
 LIVRO = os.path.dirname(BASE)
 BEST = os.path.dirname(LIVRO)
-
+REPO = os.environ.get('JJK_REPO', os.path.dirname(BEST))
 TAB = os.path.join(BEST, '04-fase-1', 'TABELA.md')
 CAP = os.path.join(LIVRO, 'capitulos', '60-a-montagem.md')
-MARCA = '<!-- TABELAS -->'
-MARCA_ORC = '<!-- ORCAMENTO -->'
-
-CATS = ('Capanga', 'Ameaça', 'Desastre', 'Catástrofe', 'Calamidade')
+DJ = os.path.join(REPO, 'sistema/05-material/gerador-inimigo/dados.js')
+MAKE = os.path.join(REPO, 'sistema/05-material/gerador-inimigo/conta.js')
+P26 = os.path.join(REPO, 'sistema/03-mecanica/26-bestiario.md')
+P19 = os.path.join(REPO, 'sistema/03-mecanica/19-dano-e-condicoes.md')
 
 
 def morre(m):
@@ -41,66 +39,11 @@ def ler(p):
     return open(p, encoding='utf-8').read()
 
 
-def linhas(txt, cat):
-    if '## `%s`' % cat not in txt:
-        morre('a seção `%s` sumiu da TABELA.md' % cat)
-    sec = txt.split('## `%s`' % cat)[1].split('\n## ')[0]
-    cab, out = None, {}
-    for ln in sec.split('\n'):
-        cels = [c.strip().strip('*').strip('`').strip('*')
-                for c in ln.strip().strip('|').split('|')]
-        if cels and cels[0] == 'nv':
-            cab = cels
-        elif cab and cels and re.match(r'^\d+$', cels[0] or ''):
-            out[int(cels[0])] = dict(zip(cab, cels))
-    if len(out) < 29:
-        morre('a seção `%s` tem %d níveis, e a escada é de 29' % (cat, len(out)))
-    return out
+def vg(x, casas=1):
+    return ('%.*f' % (casas, x)).replace('.', ',')
 
 
-def blocos(niveis, dados, campos):
-    """Colapsa os níveis em faixas onde TODOS os campos ficam constantes."""
-    faixas, ini = [], niveis[0]
-    for i, nv in enumerate(niveis):
-        ult = i == len(niveis) - 1
-        muda = (not ult) and any(dados[niveis[i + 1]][c] != dados[nv][c] for c in campos)
-        if muda or ult:
-            faixas.append((ini, nv))
-            if not ult:
-                ini = niveis[i + 1]
-    return faixas
-
-
-def rot(a, b):
-    return str(a) if a == b else '%d–%d' % (a, b)
-
-
-txt = ler(TAB)
-T = {c: linhas(txt, c) for c in CATS}
-NIVEIS = sorted(T['Desastre'])
-
-# ── o golpe de quem carrega `Intervenção` sai impresso já com o fator, pela conta do
-#    make.js: dado(arred(dano/rod × fator) ÷ ações). O fator é lido do RASCUNHO-5, e o
-#    dado() é portado do make.js com as constantes lidas de lá.
-R5 = os.path.join(BEST, '03-bloco', 'RASCUNHO-5-o-bloco-em-branco.md')
-REPO = os.environ.get('JJK_REPO', os.path.dirname(BEST))
-MAKE = os.path.join(REPO, 'sistema/05-material/gerador-inimigo/make.js')
-COM_INT = ('Desastre', 'Catástrofe', 'Calamidade')
-m = re.search(r'fator de dano de quem tem `Intervenção` é multiplicado por `([\d,]+)`', ler(R5))
-if not m:
-    morre('o fator da Intervenção sumiu do RASCUNHO-5')
-FAT_INT = float(m.group(1).replace(',', '.'))
-tm = ler(MAKE)
-_md = re.search(r'const DADOS = \[([\d,\s]+)\]', tm)
-_mp = re.search(r'if \(alvo < (\d+)\) return String\(arred\(alvo\)\)', tm)
-_mt = re.search(r'if \(n > (\d+)\) continue', tm)
-if not (_md and _mp and _mt):
-    morre('a função `dado()` do make.js mudou de forma')
-DADOS_MK = [int(x) for x in _md.group(1).split(',')]
-PISO, TETO_N = int(_mp.group(1)), int(_mt.group(1))
-
-
-def arred(x):                       # make.js: Math.ceil(x - 0.5)
+def arred(x):                       # make.js: Math.ceil(x - 0.5), o meio para baixo
     return math.ceil(x - 0.5)
 
 
@@ -108,268 +51,212 @@ def jsround(x):                     # Math.round do JS
     return math.floor(x + 0.5)
 
 
-def dado(alvo, rnd=None):
-    """`rnd` só existe para a conferência: `round` do Python arredonda o meio para o par."""
-    R = rnd or jsround
+# ── o dado() do conta.js, portado com as constantes lidas de lá
+tm = ler(MAKE)
+_md = re.search(r'const DADOS = \[([\d,\s]+)\]', tm)
+_mp = re.search(r'if \(alvo < (\d+)\) return String\(arred\(alvo\)\)', tm)
+_mt = re.search(r'if \(n > (\d+)\) continue', tm)
+if not (_md and _mp and _mt):
+    morre('a função `dado()` do conta.js mudou de forma')
+DADOS_MK = [int(x) for x in _md.group(1).split(',')]
+PISO, TETO_N = int(_mp.group(1)), int(_mt.group(1))
+
+
+def dado(alvo):
     if alvo < PISO:
         return str(arred(alvo))
     meta, bom = alvo / 2, None
     for d in DADOS_MK:
         med = (d + 1) / 2
-        n = max(1, R(meta / med))
+        n = max(1, jsround(meta / med))
         if n > TETO_N:
             continue
         fixo = alvo - n * med
         if fixo < 0:
             continue
-        inteiro = 0 if abs(fixo - R(fixo)) < 1e-9 else 1
+        inteiro = 0 if abs(fixo - jsround(fixo)) < 1e-9 else 1
         erro = abs(n * med - meta)
-        if (bom is None or inteiro < bom[0]
-                or (inteiro == bom[0] and erro < bom[1] - 1e-9)
+        if (bom is None or inteiro < bom[0] or (inteiro == bom[0] and erro < bom[1] - 1e-9)
                 or (inteiro == bom[0] and abs(erro - bom[1]) < 1e-9 and n < bom[2])):
-            bom = (inteiro, erro, n, d, R(fixo))
-    if bom is None:
-        n = max(1, R(alvo / 9))
-        r = arred(alvo - 4.5 * n)
-        return '%dd8 + %d' % (n, r) if r > 0 else '%dd8' % n
+            bom = (inteiro, erro, n, d, jsround(fixo))
     return ('%dd%d + %d' % bom[2:]) if bom[4] > 0 else '%dd%d' % (bom[2], bom[3])
 
 
-# o porte tem de refazer o golpe cru publicado. A única folga aceita é a célula em
-# que a TABELA arredondou o meio-ponto para o par; ela é listada no fim, nunca calada.
-MEIO = []
-for c in CATS[1:]:
-    for nv, d in T[c].items():
-        x = int(d['dano/rod']) / int(d['ações'])
-        if dado(x) != d['o golpe']:
-            if dado(x, round) != d['o golpe']:
-                morre('o dado() portado não refaz o golpe de `%s` nv %d' % (c, nv))
-            MEIO.append('%s nv %d: TABELA %s, make.js %s' % (c, nv, d['o golpe'], dado(x)))
+def media(e):
+    m = re.match(r'(\d+)d(\d+)(?:\s*\+\s*(\d+))?$', e.strip())
+    return int(m.group(1)) * (1 + int(m.group(2))) / 2 + int(m.group(3) or 0) if m else float(e)
 
 
-def golpe_int(d):
-    return dado(arred(int(d['dano/rod']) * FAT_INT) / int(d['ações']))
+# ── as faixas, pelo dados.js: rotulo, de, ate, Classe, grupo, chefe vida, chefe dano, capanga vida, capanga dano
+FX = [(r, int(a), int(b), int(g), int(cd), int(kv), int(kd)) for r, a, b, _, g, _, cd, kv, kd in
+      re.findall(r"\['(\d+ a \d+)',\s*(\d+),\s*(\d+),\s*(\d+),\s*(\d+),\s*(\d+),\s*(\d+),\s*(\d+),\s*(\d+)\]", ler(DJ))]
+if len(FX) != 7:
+    morre('o dados.js não traz as sete faixas da tabela de inimigo')
 
-# ── as colunas de cada seção
-COL_VIDA = {c: ('vida de um' if c == 'Capanga' else 'vida') for c in CATS}
-COL_GOLPE = {c: ('golpe de um' if c == 'Capanga' else 'o golpe') for c in CATS}
+# ── os degraus, pela peça 26 §4
+t26 = ler(P26)
+DEG = []
+for ln in t26.split('| categoria | rodadas | orçamento | pressão |')[1].split('\n')[2:] if '| categoria | rodadas | orçamento | pressão |' in t26 else []:
+    if not ln.startswith('|'):
+        break
+    c = [x.replace('*', '').replace('`', '').strip() for x in ln.split('|')[1:-1]]
+    DEG.append((c[0], float(c[1].replace(',', '.')), float(c[2].replace(',', '.')), c[5]))
+if [d[0] for d in DEG] != ['Capanga', 'Ameaça', 'Desastre', 'Catástrofe', 'Calamidade']:
+    morre('a tabela dos degraus da peça 26 §4 mudou de forma (li %s)' % [d[0] for d in DEG])
+m = re.search(r'trivial `\d+`, baixa `\d+`, moderada `\d+`, severa `\d+`, extrema `\d+`', t26)
+if not m:
+    morre('os nomes das dificuldades do Pathfinder 2e sumiram da peça 26 §4')
+NOMES_DIF = re.findall(r'(\w+) `\d+`', m.group(0))
+R_DES = dict((d[0], d[1]) for d in DEG)['Desastre']
+NS = range(1, 7)
 
-# ── 1. a tabela de vida e golpe, por faixa
-campos_cat = {}
-for c in CATS:
-    cs = [COL_VIDA[c], COL_GOLPE[c]]
-    if c != 'Capanga':
-        cs += ['dano/rod', 'ações']
-    if c == 'Capanga':
-        cs += ['pool dos 8']
-    campos_cat[c] = cs
 
-faixas = None
-for c in CATS:
-    f = blocos(NIVEIS, T[c], campos_cat[c])
-    if faixas is None:
-        faixas = f
-    elif f != faixas:
-        morre('a categoria `%s` não colapsa nas mesmas faixas das outras — '
-              'a tabela impressa por faixa seria mentira' % c)
-if len(faixas) != 7:
-    morre('a escada colapsou em %d faixas, e a tabela do manual publica 7' % len(faixas))
+def pressao(d):
+    return d[2] * R_DES / d[1]
 
+
+def vida(f, d, n):
+    return arred(d[1] * n * f[3] / 4)
+
+
+def golpe(f, d):
+    return dado(arred(f[4] / 8)) if d[0] == 'Capanga' else dado(arred(pressao(d) * f[4] / 4))
+
+
+def rot(f):
+    return f[0].replace(' a ', '–')
+
+
+# ── DEGRAUS
+deg = ['**Categorias**', '{: .tab-titulo }', '',
+       '| categoria | a luta | dura | o golpe | tem `Intervenção`? |', '|---|---|---|---|---|']
+for d, nome in zip(DEG, NOMES_DIF):
+    gp = 'metade do golpe-base' if d[0] == 'Capanga' else ('o golpe-base' if abs(pressao(d) - 1) < 1e-9 else '`%s` × o golpe-base' % vg(pressao(d), 3))
+    luta = nome + (' — o chefe do manual' if d[0] == 'Desastre' else '')
+    it = 'não' if d[3] == '—' else ('só no `%s`' % d[3] if d[3] == '×6' else 'do `%s` em diante' % d[3])
+    deg.append('| **`%s`** | %s | `%s` rodadas | %s | %s |' % (d[0], luta, vg(d[1], 1).replace(',0', ''), gp, it))
+degraus = '\n'.join(deg)
+
+# ── CAPANGAS: cada capanga tira 1 ÷ (rodadas × N) do chefe
+cap = ['**Chefe com capangas**', '{: .tab-titulo }', '',
+       '| cada capanga tira | ' + ' | '.join('`×%d`' % n for n in NS) + ' |', '|---' * 7 + '|']
+for d in DEG[2:]:
+    cap.append('| `%s` | ' % d[0] + ' | '.join('`%s%%`' % vg(100 / (d[1] * n), 1) for n in NS) + ' |')
+capangas = '\n'.join(cap)
+
+# ── PAGAMENTO: o Artilheiro pela categoria, e os tres de acao pelo N, lidos da peça 26 §3.4
+_ma = t26.split('| categoria | `Capanga` | `Ameaça` | `Desastre` | `Catástrofe` | `Calamidade` |')
+_mn = t26.split('| papel | `×1` | `×2` | `×3` | `×4` | `×5` | `×6` |')
+if len(_ma) < 2 or len(_mn) < 2:
+    morre('as tabelas do pagamento do papel sumiram da peça 26 §3.4')
+art = [x.strip().strip('`').replace('× ', '') for x in _ma[1].split('\n')[2].split('|')[2:-1]]
+porN = {}
+for ln in _mn[1].split('\n')[2:]:
+    if not ln.startswith('|'):
+        break
+    c = [x.replace('`', '').replace('× ', '').strip() for x in ln.split('|')[1:-1]]
+    porN[c[0]] = c[1:]
+inv = lambda s: vg(1 / float(s.replace(',', '.')), 3)
+pag = ['**Vida do `Artilheiro`, por categoria**', '{: .tab-titulo }', '',
+       '| | ' + ' | '.join('`%s`' % d[0] for d in DEG) + ' |', '|---' * 6 + '|',
+       '| a vida | ' + ' | '.join('`× %s`' % inv(x) for x in art) + ' |', '',
+       '**Vida do papel, pelo N**', '{: .tab-titulo }', '',
+       '| papel | ' + ' | '.join('`×%d`' % n for n in NS) + ' |', '|---' * 7 + '|']
+for k, rotulo in (('Emboscador ganha', '`Emboscador`'), ('Controlador e Reforço ganham', '`Controlador` e `Reforço`'),
+                  ('o esquadrão do Capanga, Emboscador', 'o esquadrão do `Capanga`, `Emboscador`'),
+                  ('o esquadrão do Capanga, Controlador e Reforço', 'o esquadrão do `Capanga`, `Controlador` e `Reforço`')):
+    if k not in porN:
+        morre('a linha "%s" do pagamento por N sumiu da peça 26 §3.4' % k)
+    pag.append('| %s | ' % rotulo + ' | '.join('`× %s`' % inv(x) for x in porN[k]) + ' |')
+pag += ['', '*O esquadrão do `Capanga` tem dois corpos por personagem, e age `2N` vezes.*']
+pagamento = '\n'.join(pag)
+
+# ── TABELAS
 out = []
-out.append('**Vida e golpe por faixa**')
-out.append('{: .tab-titulo }')
-out.append('')
-out.append('| nível | `Capanga` (cada um) | `Ameaça` | `Desastre` | `Catástrofe` | `Calamidade` |')
-out.append('|---|---|---|---|---|---|')
-for a, b in faixas:
-    cel = []
-    for c in CATS:
-        d = T[c][a]
-        g = golpe_int(d) if c in COM_INT else d[COL_GOLPE[c]]
-        cel.append('%s · %s' % (d[COL_VIDA[c]], g))
-    out.append('| **%s** | %s |' % (rot(a, b), ' | '.join(cel)))
-out.append('')
-out.append('*Vida · golpe de uma ação. O golpe sai uma vez por ação, e o número de ações está '
-           'na tabela do Passo 1. Em `%s` o golpe já vem com o `%s` da `Intervenção`.*'
-           % ('`, `'.join(COM_INT[:-1]) + '` e `' + COM_INT[-1], ('%.3f' % FAT_INT).replace('.', ',')))
-out.append('')
-
-# ── 2. o pool do Capanga
-out.append('**Pool do esquadrão de `Capanga`**')
-out.append('{: .tab-titulo }')
-out.append('')
-out.append('| nível | vida de um | pool dos oito |')
-out.append('|---|---|---|')
-for a, b in faixas:
-    d = T['Capanga'][a]
-    out.append('| **%s** | %s | **%s** |' % (rot(a, b), d['vida de um'], d['pool dos 8']))
-out.append('')
-
-# ── 3. as derivadas, por marco
-CAMPOS_DER = ['Defesa', 'acerto', 'CD', 'refino', 'proteção']
-marcos = blocos(NIVEIS, T['Desastre'], CAMPOS_DER)
-for c in CATS:
-    if c == 'Capanga':
-        continue
-    if blocos(NIVEIS, T[c], CAMPOS_DER) != marcos:
-        morre('as derivadas de `%s` não batem com as das outras categorias' % c)
+for d in DEG[1:]:
+    out += ['**Vida por faixa · `%s`**' % d[0], '{: .tab-titulo }', '',
+            '| nível | ' + ' | '.join('`×%d`' % n for n in NS) + ' |', '|---' * 7 + '|']
+    out += ['| **%s** | ' % rot(f) + ' | '.join(str(vida(f, d, n)) for n in NS) + ' |' for f in FX]
+    out.append('')
+out += ['**Golpe por faixa**', '{: .tab-titulo }', '',
+        '| nível | ' + ' | '.join('`%s`' % d[0] for d in DEG) + ' |', '|---' * 6 + '|']
+out += ['| **%s** | ' % rot(f) + ' | '.join(golpe(f, d) for d in DEG) + ' |' for f in FX]
+out += ['', '*O golpe de uma ação. Ele sai N vezes por rodada, e não muda com o N.*', '']
+out += ['**Capanga por faixa**', '{: .tab-titulo }', '',
+        '| nível | vida de um corpo | o golpe dele |', '|---|---|---|']
+out += ['| **%s** | %d | %s |' % (rot(f), f[5], golpe(f, DEG[0])) for f in FX]
+out += ['', '*O esquadrão tem dois corpos por personagem, com a vida num pool só.*', '']
+# as derivadas por marco, da TABELA.md (a grade não mexeu nelas)
+ttab = ler(TAB)
+sec = ttab.split('## `Desastre`')[1].split('\n## ')[0] if '## `Desastre`' in ttab else morre('a seção `Desastre` sumiu da TABELA.md')
+cab, T = None, {}
+for ln in sec.split('\n'):
+    c = [x.strip().strip('*').strip('`').strip('*') for x in ln.strip().strip('|').split('|')]
+    if c and c[0] == 'nv':
+        cab = c
+    elif cab and c and re.match(r'^\d+$', c[0] or ''):
+        T[int(c[0])] = dict(zip(cab, c))
+CAMPOS = ['Defesa', 'acerto', 'CD', 'refino', 'proteção']
+niveis = sorted(T)
+marcos, ini = [], niveis[0]
+for i, nv in enumerate(niveis):
+    ult = i == len(niveis) - 1
+    if ult or any(T[niveis[i + 1]][c] != T[nv][c] for c in CAMPOS):
+        marcos.append((ini, nv))
+        if not ult:
+            ini = niveis[i + 1]
 if len(marcos) != 7:
     morre('as derivadas colapsaram em %d marcos, e a peça publica 7' % len(marcos))
-if marcos == faixas:
-    morre('faixa e marco colapsaram iguais — o texto do capítulo diz que eles NÃO coincidem')
-
-out.append('**Defesa, acerto, CD e refino por marco**')
-out.append('{: .tab-titulo }')
-out.append('')
-out.append('| nível | Defesa | acerto | CD | refino | proteção |')
-out.append('|---|---|---|---|---|---|')
+out += ['**Defesa, acerto, CD e refino por marco**', '{: .tab-titulo }', '',
+        '| nível | Defesa | acerto | CD | refino | proteção |', '|---|---|---|---|---|---|']
 for a, b in marcos:
-    d = T['Desastre'][a]
-    out.append('| **%s** | %s | %s | %s | %s | %s |'
-               % (rot(a, b), d['Defesa'], d['acerto'], d['CD'], d['refino'], d['proteção']))
-out.append('')
-out.append('*Estas cinco valem para toda categoria. Elas sobem em marco de nível, e as duas '
-           'escadas não coincidem.*')
-
+    x = T[a]
+    out.append('| **%s** | %s | %s | %s | %s | %s |' % ('%d–%d' % (a, b), x['Defesa'], x['acerto'], x['CD'], x['refino'], x['proteção']))
+out += ['', '*Estas cinco valem para toda célula. Elas sobem em marco de nível, e a vida e o golpe sobem em faixa de Classe.*']
 tabelas = '\n'.join(out)
 
-# ── 4. o orçamento de uma ação, por categoria
-#
-# ⚠ Até 11/09/2026 esta tabela era ESTÁTICA no capítulo — 35 números digitados à mão,
-#   fora de região gerada. A rota `B` do orçamento moveu 9 deles e alguém digitou certo;
-#   na vez seguinte ninguém garantia. Agora ela sai da mesma conta do golpe impresso.
-P26 = os.path.join(REPO, 'sistema/03-mecanica/26-bestiario.md')
-P19 = os.path.join(REPO, 'sistema/03-mecanica/19-dano-e-condicoes.md')
-t26, t19 = ler(P26), ler(P19)
+# ── ORCAMENTO: o golpe ÷ 4,5, e o que cabe na maior ação
 m = re.search(r'O orçamento de feitiço de uma ação é o golpe dela dividido por `([\d,]+)`', t26)
-if not m:
-    morre('a regra do orçamento sumiu do §6.5 da peça 26')
-MED_D8 = float(m.group(1).replace(',', '.'))
-m = re.search(r'o menor feitiço do manual é a `Classe 1` e custa `(\d+)` pontos', t26)
-if not m:
-    morre('o piso da `Classe 1` sumiu do §6.5 da peça 26')
-PISO_PTS = int(m.group(1))
-
-# os três níveis de condição, com o preço em ponto — peça 19 §3
+m2 = re.search(r'o menor feitiço do manual é a `Classe 1` e custa `(\d+)` pontos', t26)
+if not (m and m2):
+    morre('a regra do orçamento ou o piso da `Classe 1` sumiram do §6.5 da peça 26')
+MED_D8, PISO_PTS = float(m.group(1).replace(',', '.')), int(m2.group(1))
+t19 = ler(P19)
 CUSTO = {}
 for pt, nv_ in re.findall(r'\| `(\d+)` \| `[\d,]+×` \| `(Leve|Média|Pesada)` \|', t19):
     CUSTO.setdefault(nv_, int(pt))
-    if CUSTO[nv_] != int(pt):
-        morre('a peça 19 §3 dá dois preços para a condição `%s`' % nv_)
 if sorted(CUSTO) != ['Leve', 'Média', 'Pesada']:
-    morre('não li os três níveis de condição na peça 19 §3 (li %s)' % sorted(CUSTO))
-
-
-def media_e(e):
-    e = e.strip()
-    mm = re.match(r'(\d+)d(\d+)(?:\s*\+\s*(\d+))?$', e)
-    if mm:
-        return int(mm.group(1)) * (1 + int(mm.group(2))) / 2 + int(mm.group(3) or 0)
-    if re.match(r'^\d+$', e):
-        return float(e)
-    morre('não sei ler a expressão de golpe %r' % e)
-
-
-def pts_de(c, nv):
-    d = T[c][nv]
-    g = golpe_int(d) if c in COM_INT else d[COL_GOLPE[c]]
-    return media_e(g) / MED_D8
-
-
-orc = []
-orc.append('**Orçamento de uma ação, por categoria**')
-orc.append('{: .tab-titulo }')
-orc.append('')
-orc.append('| nível | `Capanga` | `Ameaça` | `Desastre` | `Catástrofe` | `Calamidade` |')
-orc.append('|---|---|---|---|---|---|')
-NV_ORC = [2, 5, 10, 15, 20, 25, 30]
+    morre('não li os três níveis de condição na peça 19 §3')
+orc = ['**Orçamento de uma ação, por categoria**', '{: .tab-titulo }', '',
+       '| nível | ' + ' | '.join('`%s`' % d[0] for d in DEG) + ' |', '|---' * 6 + '|']
 maior = 0.0
-for nv in NV_ORC:
-    if nv not in T['Desastre']:
-        morre('o nível %d sumiu da TABELA' % nv)
+for f in FX:
+    nv = {2: 2, 5: 5, 9: 10, 13: 15, 17: 20, 21: 25, 26: 30}.get(f[1])
     cel = []
-    for c in CATS:
-        v = pts_de(c, nv)
+    for d in DEG:
+        v = media(golpe(f, d)) / MED_D8
         maior = max(maior, v)
-        cel.append('seco' if v < PISO_PTS else '`%s`' % ('%.1f' % v).replace('.', ','))
+        cel.append('seco' if v < PISO_PTS else '`%s`' % vg(v, 1))
     orc.append('| `%d` | %s |' % (nv, ' | '.join(cel)))
-orc.append('')
-orc.append('*As colunas de quem tem `Intervenção` já levam o `%s`.*'
-           % ('%.3f' % FAT_INT).replace('.', ','))
-orc.append('')
-mai = ('%.1f' % maior).replace('.', ',')
-orc.append('O que cabe na maior ação do sistema, a de `%s` pontos:' % mai)
-orc.append('')
-orc.append('**Condição na maior ação**')
-orc.append('{: .tab-titulo }')
-orc.append('')
-orc.append('| se ele comprar | custa | sobra para dado |')
-orc.append('|---|---|---|')
+orc += ['', 'O que cabe na maior ação do sistema, a de `%s` pontos:' % vg(maior, 1), '',
+        '**Condição na maior ação**', '{: .tab-titulo }', '',
+        '| se ele comprar | custa | sobra para dado |', '|---|---|---|']
 for nv_ in ('Leve', 'Média', 'Pesada'):
-    sobra = maior - CUSTO[nv_]
-    orc.append('| uma condição `%s` | `%d` | `%s` |'
-               % (nv_, CUSTO[nv_], ('%.1f' % sobra).replace('.', ',')))
+    orc.append('| uma condição `%s` | `%d` | `%s` |' % (nv_, CUSTO[nv_], vg(maior - CUSTO[nv_], 1)))
 orcamento = '\n'.join(orc)
 
-# ── 5. o pagamento dos três papéis que pagam pela categoria (v0.235)
-#
-# ⚠ Até a v0.234 esta tabela era ESTÁTICA no capítulo, e só com o `Emboscador`: quem lia o livro
-#   não refazia a vida do `Controlador` e do `Reforço`, e a linha do `Capanga` saía junto com a da
-#   `Ameaça`, em `0,677` — a peça 26 §3.4 dá `0,944`, porque o esquadrão age oito vezes.
-CAB_PAG = '| categoria | ações | `Emboscador` ganha | e paga | `Controlador` e `Reforço` ganham | e pagam |'
-if CAB_PAG not in t26:
-    morre('a tabela do pagamento por categoria sumiu do §3.4 da peça 26')
-PAG = {}
-for ln in t26.split(CAB_PAG)[1].split('\n')[2:]:
-    if not ln.startswith('|'):
-        break
-    c_ = [x.strip() for x in ln.strip().strip('|').split('|')]
-    mc = re.match(r'`([^`]+)`$', c_[0]) if len(c_) == 6 else None
-    ma = re.match(r'`(\d+)`', c_[1]) if mc else None
-    me = re.match(r'`× ([\d,]+)`$', c_[3]) if mc else None
-    mr = re.match(r'`× ([\d,]+)`$', c_[5]) if mc else None
-    if not (mc and ma and me and mr):
-        morre('a linha %r do pagamento da peça 26 mudou de forma' % ln)
-    PAG[mc.group(1)] = (int(ma.group(1)), me.group(1), mr.group(1))
-if list(PAG) != list(CATS):
-    morre('o pagamento da peça 26 não traz as cinco categorias, na ordem (li %s)' % list(PAG))
-pag = ['**Vida do papel, por categoria**', '{: .tab-titulo }', '',
-       '| categoria | `Emboscador` | `Controlador` e `Reforço` |', '|---|---|---|']
-for c_ in CATS:
-    pag.append('| `%s` | `× %s` | `× %s` |' % (c_, PAG[c_][1], PAG[c_][2]))
-pag += ['', '*A linha do `Capanga` conta as `%d` ações do esquadrão, e não a de um corpo.*' % PAG['Capanga'][0]]
-pagamento = '\n'.join(pag)
-MARCA_PAG, FIM_PAG = '<!-- PAGAMENTO -->', '<!-- FIM PAGAMENTO -->'
-
-cap = ler(CAP)
-for mk in (MARCA, '<!-- FIM TABELAS -->', MARCA_ORC, '<!-- FIM ORCAMENTO -->', MARCA_PAG, FIM_PAG):
-    if mk not in cap:
-        morre('a marca `%s` sumiu do capítulo 6' % mk)
-inicio = cap.index(MARCA)
-fim = cap.index('<!-- FIM TABELAS -->')
-novo = cap[:inicio] + MARCA + '\n\n' + tabelas + '\n\n' + cap[fim:]
-i2 = novo.index(MARCA_ORC)
-f2 = novo.index('<!-- FIM ORCAMENTO -->')
-novo = novo[:i2] + MARCA_ORC + '\n\n' + orcamento + '\n\n' + novo[f2:]
-i3, f3 = novo.index(MARCA_PAG), novo.index(FIM_PAG)
-novo = novo[:i3] + MARCA_PAG + '\n\n' + pagamento + '\n\n' + novo[f3:]
-_novo = novo
-# v0.234: `--conferir` compara sem escrever. O capítulo 8 passou dez versões atrás do gerador
-# de inimigo sem nenhum validador ver, e o conferir-bestiario.py roda os quatro assim.
+# ── escreve as regiões
+capt = ler(CAP)
+novo = capt
+for nome, conteudo in (('DEGRAUS', degraus), ('CAPANGAS', capangas), ('PAGAMENTO', pagamento),
+                       ('TABELAS', tabelas), ('ORCAMENTO', orcamento)):
+    ini_, fim_ = '<!-- %s -->' % nome, '<!-- FIM %s -->' % nome
+    if ini_ not in novo or fim_ not in novo:
+        morre('a marca `%s` sumiu do capítulo 6' % nome)
+    i, j = novo.index(ini_), novo.index(fim_)
+    novo = novo[:i] + ini_ + '\n\n' + conteudo + '\n\n' + novo[j:]
 if '--conferir' in sys.argv:
-    sys.exit(0 if _novo == cap else '✗ DESATUALIZADO: o capítulo não é o que build/gerar-tabelas.py gera hoje — rode ele')
-open(CAP, 'w', encoding='utf-8').write(_novo)
-
-print('=' * 70)
-print('TABELAS DO CAPÍTULO 6 — geradas da `04-fase-1/TABELA.md`')
-print('=' * 70)
-print('  %d faixas de Classe  ·  %d marcos de nível  ·  %d categorias'
-      % (len(faixas), len(marcos), len(CATS)))
-print('  faixas : ' + ' · '.join(rot(a, b) for a, b in faixas))
-print('  marcos : ' + ' · '.join(rot(a, b) for a, b in marcos))
-print('✓ a escada colapsa, e as duas não coincidem.')
-print('✓ o pagamento de `Emboscador`, `Controlador` e `Reforço` saiu da peça 26 §3.4, nas %d categorias.' % len(PAG))
-print('✓ golpe de %s impresso com o fator %.3f, pela conta do make.js.'
-      % (' · '.join(COM_INT), FAT_INT))
-for x in MEIO:
-    print('  ⚠ meio-ponto arredondado para o par na TABELA — ' + x)
+    sys.exit(0 if novo == capt else '✗ DESATUALIZADO: o capítulo não é o que build/gerar-tabelas.py gera hoje — rode ele')
+open(CAP, 'w', encoding='utf-8').write(novo)
+print('✓ capítulo 6: os cinco degraus, o chefe com capangas, o pagamento do papel, as tabelas de nível e o orçamento, '
+      'da peça 26, do dados.js e do make.js; a maior ação tem %s pontos.' % vg(maior, 1))

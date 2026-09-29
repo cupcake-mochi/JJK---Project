@@ -8,47 +8,49 @@
 // manda: a linha do nivel 2 vale do 2 ao 4, a do 5 vale ate o 8, e assim por
 // diante. A peca 26 §4 e a dona dessa leitura.
 //
-// v0.221: a coluna do capanga passou a ser a do Capanga da ESCADA — a vida e o
-// dano do grupo por rodada dividido por quatro, para baixo, e o dano e um quarto
-// do dano do chefe. Ate a v0.220 ela era o capanga da Alcateia (chefe ÷ 4, ÷ 3),
-// que morreu com a escada. O manual e a peca 26 §5 sao os donos.
+// v0.282: a coluna do capanga e a do Capanga da GRADE — a vida e o dano do grupo por
+// rodada dividido por quatro, para baixo, e o golpe e METADE de um quarto do dano do
+// chefe (o esquadrao de 2N corpos com meio golpe, peca 26 §5). A vida do chefe e o
+// dano dele nao mudaram: a linha do manual e o Desastre x4 da grade.
 const FAIXAS = [
   // rotulo, de, ate, Classe, grupo/rodada, chefe vida, chefe dano, capanga vida, capanga dano
-  ['2 a 4',  2,  4, 1,   38,  114,   17,   9,   4],
-  ['5 a 8',  5,  8, 2,   90,  270,   39,  22,  10],
-  ['9 a 12',  9, 12, 3,  130,  390,   75,  32,  19],
-  ['13 a 16', 13, 16, 4,  180,  540,  111,  45,  28],
-  ['17 a 20', 17, 20, 5,  220,  660,  147,  55,  37],
-  ['21 a 25', 21, 25, 6,  275,  825,  183,  68,  46],
-  ['26 a 30', 26, 30, 7,  315,  945,  219,  78,  55],
+  ['2 a 4',  2,  4, 1,   38,  114, 18,   9, 2],
+  ['5 a 8',  5,  8, 2,   90,  270, 40,  22, 5],
+  ['9 a 12',  9, 12, 3,  130,  390, 77,  32, 10],
+  ['13 a 16', 13, 16, 4,  180,  540, 114,  45, 14],
+  ['17 a 20', 17, 20, 5,  220,  660, 151,  55, 19],
+  ['21 a 25', 21, 25, 6,  275,  825, 189,  68, 24],
+  ['26 a 30', 26, 30, 7,  315,  945, 226,  78, 28],
 ];
 
-// As cinco categorias da escada viva, peca 26 §4. As acoes sao DECLARADAS — ate
-// a v0.220 elas saiam de "personagens menos um", e foi isso que quebrou a Dupla.
-// O Capanga nao tem numero de personagens: a vida dele sai do dano do grupo.
-// [nome, personagens, fator, acoes, carrega Intervencao]
-const CATEGORIAS = [
-  ['Capanga',    null, 0.25, 1, false],
-  ['Ameaça',        1, 0.25, 1, false],
-  ['Desastre',      4, 1.00, 3, true],
-  ['Catástrofe',    6, 1.50, 5, true],
-  ['Calamidade',    8, 2.00, 6, true],
+// Os cinco degraus da grade, peca 26 §4 (v0.282). A categoria e a DIFICULDADE da luta,
+// e a ficha e feita para N pessoas do nivel, de x1 a x6. A vida e rodadas x N x a saida
+// de um personagem; o golpe e a pressao x o golpe-base, e a pressao e o orcamento do
+// Pathfinder 2e x as rodadas do Desastre ÷ as rodadas do degrau; ele age N vezes.
+// [nome, rodadas, orcamento]
+const DEGRAUS = [
+  ['Capanga',    2,   0.50],
+  ['Ameaça',     2.5, 0.75],
+  ['Desastre',   3,   1.00],
+  ['Catástrofe', 4,   1.50],
+  ['Calamidade', 5,   2.00],
 ];
+const N_MAXIMO = 6;              // de x1 a x6 — o teto de seis e do Mizuki, 08/09/2026
 
 // Os seis papeis da peca 26 §3.4. O papel e GERADOR DE BASE: o que ele ganha num
 // eixo ele paga no outro, e o produto fecha em 1,000 — ele nao muda o tamanho do
 // encontro, muda a forma dele. NENHUM valor aqui e autoridade: a peca 26 §3.4 e a
 // dona, e a checagem 7c do conferir-ficha.py compara as duas tabelas.
 //
-// Os tres primeiros tem fator fixo. Os tres ultimos saem das ACOES da categoria,
-// porque o preco deles e UMA acao — negar uma acao de quem tem uma vale o dobro de
-// negar uma de quem tem seis. O `Capanga` se le por ESQUADRAO, e nao por corpo.
+// Os dois primeiros tem fator fixo (a troca do §3.2 com nome). O `Artilheiro` sai do
+// degrau (a meia rodada de aproximacao ÷ as rodadas), e os tres de acao saem do N,
+// porque o preco deles e UMA acao e o inimigo tem N. O `Capanga` le 2N acoes.
 //
 // [nome, vida x (fixo, ou null), Defesa +/-, de onde sai o fator variavel]
 const PAPEIS = [
   ['Brutamontes', 1.200, -2, null],
   ['Baluarte',    0.800, +2, null],
-  ['Artilheiro',  0.857,  0, null],
+  ['Artilheiro',   null,  0, 'alcance'],
   ['Emboscador',   null,  0, 'vantagem'],
   ['Controlador',  null,  0, 'acao'],
   ['Reforço',      null,  0, 'acao'],
@@ -59,19 +61,21 @@ const PAPEIS = [
 // 50% a 55% que a peca 26 §3.1 publica — 77,5 / 52,5.
 const MULT_VANTAGEM = 1.476;
 
-// O `Capanga` nao age uma vez: o ESQUADRAO age oito. A peca 26 §3.4 le os papeis
-// dele por esquadrao, e o §3 publica os oito corpos.
-const ACOES_ESQUADRAO = 8;
+// O que o `Artilheiro` poupa: meia rodada, a de quem se aproxima — peca 26 §3.4.
+const GANHO_ALCANCE = 0.5;
+
+// O esquadrao do `Capanga`: dois corpos por pessoa, cada um cai num golpe — peca 26 §5.
+const CORPOS_POR_PESSOA = 2;
 
 // Quantos dos seis o `Capanga` aceita: os que nao mexem na Defesa dele. A vida do
-// `Capanga` e o que um personagem derruba num golpe (peca 26 §5), e Brutamontes e
-// Baluarte quebram isso por caminhos diferentes.
+// corpo e o que um personagem derruba num golpe (peca 26 §5).
 const PAPEIS_FORA_DO_CAPANGA = ['Brutamontes', 'Baluarte'];
 
-// Quem carrega Intervencao paga no dano: a Intervencao e acao EXTRA, e o fator
-// de dano dele e multiplicado por este numero. Peca 26 §6.5 e a dona.
-const FATOR_INTERVENCAO = 0.923;
-const INTERVENCOES = 3;          // por luta, de Desastre para cima — peca 26 §6.5
+// A `Intervencao`, peca 26 §6.5: tres por luta, e a porta abre quando N x orcamento
+// >= 4. Ela e acao EXTRA — 0,75 de acao por luta — e se paga na vida.
+const INTERVENCOES = 3;
+const PORTA_INTERVENCAO = 4;
+const INTERVENCAO_EXTRA = 0.75;
 
 // Defesa, acerto, CD e refino mudam em MARCO (6, 10, 14, 18, 22, 26) e nao em
 // faixa de Classe. As duas escadas nao coincidem, e e por isso que sao duas
@@ -88,25 +92,14 @@ const DERIVADAS = [
 ];
 
 // A regua de resistencia da peca 26 §6.3, que sai dos pesos da peca 19 §4. Desde
-// a v0.221 a moeda e o FATOR: resistir e ser imune multiplicam o fator da
-// categoria, e a vulnerabilidade nao cobra nem devolve. O que a folha imprime sao
-// as duas colunas do meio.
+// a v0.282 ela se paga na vida: resistir e ser imune DIVIDEM a vida crua, e a
+// vulnerabilidade nao cobra nem devolve. O que a folha imprime sao as duas do meio.
 const RESISTENCIA = [
   //  grupo        peso   resistir  ser imune  vida efetiva com vulnerabilidade
   ['Físicos',    '60%', '1,43×', '2,50×', '0,62×'],
   ['Elementais', '30%', '1,18×', '1,43×', '0,77×'],
   ['Especiais',  '10%', '1,05×', '1,11×', '0,91×'],
-  ['um tipo só', '20%', '1,11×', '1,25×', '0,83×'],
-];
-
-// A sub-categoria da peca 26 §4.5: a categoria diz o tamanho e esta diz a forma.
-// Desde a v0.221 a fracao do chefe e MEDIDA, e nao sai do cambio: o projeto do
-// Bestiario varreu 201 fracoes em 29 niveis atras da que devolve o que o chefe
-// sozinho cobra. Com uma casa decimal, porque meio ponto atravessa uma rodada.
-// [nome, capangas, o chefe fica com (%), cobra da vida do grupo (%)]
-const SUBCATEGORIAS = [
-  ['sozinho', 0, 100.0, 67.6], ['com um apoio', 1, 91.5, 67.5],
-  ['com dois', 2, 83.0, 67.4], ['bando', 3, 74.5, 67.3],
+  ['um tipo só', '20%', '1,00×', '1,25×', '0,83×'],
 ];
 
 // O tamanho, peca 26 §3.3: o alcance e o lado da grade vezes 1,5 m, e do Grande
@@ -126,8 +119,8 @@ const AREA_NATURAL = [
   [25, 30, 113, '9 m',   '22,5 m', ['11×11', '11×10', '12×9']],
 ];
 
-// As seis prontas, na escada viva — v0.221. Aqui moram SO as escolhas: nome,
-// faixa, categoria, atributos, tamanho e o TEXTO do bloco. Vida, dano, acoes,
+// As seis prontas — v0.221, na grade desde a v0.282. Aqui moram SO as escolhas: nome,
+// faixa, categoria, N, atributos, tamanho e o TEXTO do bloco. Vida, dano, acoes,
 // golpe, acerto e CD sao COMPUTADOS pelo make.js a partir de FAIXAS, CATEGORIAS
 // e DERIVADAS; onde o texto precisa de numero ele traz um marcador — {acerto},
 // {golpe}, {cd}, {alcance}, {vizinho}, {esfera}, {cone}, {retangulo},
@@ -135,9 +128,10 @@ const AREA_NATURAL = [
 //
 // O texto veio do livro do Bestiario (capitulo 8, no molde de bloco do 5e), e as
 // cinco escolhas que ele pedia foram marteladas pelo Mizuki em 11/09/2026.
-// O mapa de faixa e categoria e o do `DECIDIDO-as-seis-prontas.md` do Bestiario:
-// Betobeto, Kamaitachi (duas na mesa), Hitotsume e Kitsune sao Ameaca; Tsuchigumo
-// e Oni sao Desastre. A Kitsune subiu para 9 a 12 para poder conjurar.
+// O mapa de faixa e categoria e o do `DECIDIDO-as-seis-prontas.md` do Bestiario, levado
+// para a grade na v0.282: Betobeto, Kamaitachi (duas na mesa), Hitotsume e Kitsune sao
+// `Ameaça x1` — a luta facil para uma pessoa —; Tsuchigumo e Oni sao `Desastre x4`, o
+// chefe da linha do manual. A Kitsune subiu para 9 a 12 para poder conjurar.
 //
 // Sao seis porque sao seis: a derivacao antiga (duas faixas vezes as quatro
 // categorias, menos a Calamidade) morreu com a escada. A coluna do Capanga fica
@@ -148,7 +142,7 @@ const AREA_NATURAL = [
 // nivel, para onde vai cada ponto de marco — uma lista por marco. A soma e a do §3.2, e a 9.5 do
 // conferir-bestiario.py confere.
 const PRONTAS = [
-  { nome: 'Betobeto', faixa: '2 a 4', categoria: 'Ameaça', papel: 'Emboscador',
+  { nome: 'Betobeto', faixa: '2 a 4', categoria: 'Ameaça', n: 1, papel: 'Emboscador',
     arranjo: '0 · 3 · 1 · 2 · 3', ataque: 'Essência', trs: 'Físico (Destreza) e Espírito',
     tamanho: "Médio", corpos_na_mesa: 1, movimentos: [],
     linha: "Maldição que segue as pessoas no escuro e só se deixa ouvir pelos passos.",
@@ -157,7 +151,7 @@ const PRONTAS = [
     acoes_multiplas: null,
     acoes_nomeadas: [{"nome": "Pisada", "texto": "*Ataque corpo a corpo:* {acerto} para acertar, alcance {alcance}, uma criatura. *Acerto:* {golpe} de dano de Concussão{vizinho}."}],
     intervencoes: [] },
-  { nome: 'Kamaitachi', faixa: '2 a 4', categoria: 'Ameaça', papel: 'Emboscador',
+  { nome: 'Kamaitachi', faixa: '2 a 4', categoria: 'Ameaça', n: 1, papel: 'Emboscador',
     arranjo: '3 · 3 · 2 · 1 · 0', ataque: 'Destreza', trs: 'Físico (Destreza) e Vigor',
     tamanho: "Pequeno", corpos_na_mesa: 2, movimentos: [],
     linha: "Par de maldições em forma de doninha, com garras de foice, que chegam montadas no vento.",
@@ -166,16 +160,16 @@ const PRONTAS = [
     acoes_multiplas: null,
     acoes_nomeadas: [{"nome": "Foice", "texto": "*Ataque corpo a corpo:* {acerto} para acertar, alcance {alcance}, uma criatura. *Acerto:* {golpe} de dano Cortante{vizinho}."}],
     intervencoes: [] },
-  { nome: 'Tsuchigumo', faixa: '2 a 4', categoria: 'Desastre', papel: 'Controlador',
+  { nome: 'Tsuchigumo', faixa: '2 a 4', categoria: 'Desastre', n: 4, papel: 'Controlador',
     arranjo: '3 · 3 · 3 · 1 · 0', ataque: 'Força', trs: 'Físico (Força) e Vigor',   // v0.234: o ponto de chefe na Destreza, que a Defesa pedia
     tamanho: "Grande", corpos_na_mesa: 1, movimentos: ["Escalada"],
     linha: "Aranha gigante que faz ninho em prédios fechados e ataca do teto e das paredes.",
     notas: "No folclore japonês, a Tsuchigumo é a aranha gigante que o guerreiro Minamoto no Raikō matou. Como maldição, ela ocupa prédio abandonado, túnel e porão, e passa a luta presa às paredes e ao teto. Abre com Varrida das Patas quando o grupo entra junto, cobre de Teia a passagem por onde o grupo veio e usa Subir quando fica cercada.",
     tracos: [{"nome": "Escalada de Aranha", "texto": "A Tsuchigumo anda por parede e teto, de cabeça para baixo inclusive, sem fazer teste."}, {"nome": "Andar na Teia", "texto": "A teia dela não é terreno difícil para a Tsuchigumo."}],
-    acoes_multiplas: "A Tsuchigumo faz três ataques de Mordida, ou usa Varrida das Patas e faz dois ataques de Mordida.",
+    acoes_multiplas: "A Tsuchigumo faz quatro ataques de Mordida, ou usa Varrida das Patas e faz três ataques de Mordida.",
     acoes_nomeadas: [{"nome": "Mordida", "texto": "*Ataque corpo a corpo:* {acerto} para acertar, alcance {alcance}, uma criatura. *Acerto:* {golpe} de dano Perfurante{vizinho}."}, {"nome": "Varrida das Patas", "texto": "*Teste de Resistência Físico:* CD {cd}, cada criatura num `Cone` de {cone} a partir dela. *Falha:* {golpe} de dano Cortante. *Sucesso:* metade do dano."}],
     intervencoes: [{"nome": "Mordida", "texto": "A Tsuchigumo faz um ataque de Mordida. Esse ataque não pega o vizinho."}, {"nome": "Teia", "texto": "A Tsuchigumo cobre de teia um `Retângulo` de {retangulo} que encoste nela. A área é terreno difícil até o fim da luta."}, {"nome": "Subir", "texto": "A Tsuchigumo escala até {deslocamento} pela parede ou pelo teto. Esse movimento não provoca ataque de oportunidade."}] },
-  { nome: 'Hitotsume', faixa: '5 a 8', categoria: 'Ameaça', papel: 'Emboscador',   // v0.235: pega quem está longe do grupo, e não atira
+  { nome: 'Hitotsume', faixa: '5 a 8', categoria: 'Ameaça', n: 1, papel: 'Emboscador',   // v0.235: pega quem está longe do grupo, e não atira
     arranjo: '0 · 3 · 2 · 1 · 3', ataque: 'Essência', marcos: { 6: ['Constituição'] }, trs: 'Espírito e Intelecto',   // v0.234: 1 da Inteligência para a Destreza que a Defesa pede
     tamanho: "Médio", corpos_na_mesa: 1, movimentos: [],
     linha: "Maldição com a forma de um menino de um olho só, que aparece parado e cada vez mais perto.",
@@ -184,7 +178,7 @@ const PRONTAS = [
     acoes_multiplas: null,
     acoes_nomeadas: [{"nome": "Língua", "texto": "*Ataque corpo a corpo:* {acerto} para acertar, alcance {alcance}, uma criatura. *Acerto:* {golpe} de dano de Concussão{vizinho}."}],
     intervencoes: [] },
-  { nome: 'Kitsune', faixa: '9 a 12', categoria: 'Ameaça', papel: 'Artilheiro',
+  { nome: 'Kitsune', faixa: '9 a 12', categoria: 'Ameaça', n: 1, papel: 'Artilheiro',
     arranjo: '0 · 3 · 1 · 2 · 3', ataque: 'Essência', marcos: { 6: ['Inteligência'], 10: ['Destreza', 'Essência'] }, trs: 'Espírito e Intelecto',   // v0.235: o 10 obriga a Destreza e a Essência
     tamanho: "Médio", corpos_na_mesa: 1, movimentos: [],
     linha: "Maldição em forma de raposa que toma a aparência de gente e ataca com fogo à distância.",
@@ -193,28 +187,28 @@ const PRONTAS = [
     acoes_multiplas: null,
     acoes_nomeadas: [{"nome": "Mordida", "texto": "*Ataque corpo a corpo:* {acerto} para acertar, alcance {alcance}, uma criatura. *Acerto:* {golpe} de dano Perfurante{vizinho}."}, {"nome": "Fogo-de-Raposa", "texto": "*Ataque de conjuração à distância:* {acerto} para acertar, alcance {tecnica_alcance}, uma criatura. *Acerto:* {tecnica_dano} de dano de Fogo."}],
     intervencoes: [] },
-  { nome: 'Oni', faixa: '5 a 8', categoria: 'Desastre', papel: 'Brutamontes',
+  { nome: 'Oni', faixa: '5 a 8', categoria: 'Desastre', n: 4, papel: 'Brutamontes',
     arranjo: '3 · 3 · 3 · 0 · 1', ataque: 'Força', marcos: { 6: ['Força'] }, trs: 'Físico (Força) e Vigor',   // v0.234: o −2 do Brutamontes é por fora, e a Destreza é a da tabela; o ponto sai da Inteligência
     tamanho: "Grande", corpos_na_mesa: 1, movimentos: [],
     linha: "Maldição de corpo enorme, com chifres e um porrete de ferro, que luta de frente.",
     notas: "No folclore japonês, o oni tem chifres, pele vermelha ou azul, e carrega um kanabō, um porrete de ferro cravejado. Como maldição, ele fica no fim do caminho: no último andar, no fundo do terreno, na sala que o grupo precisa atravessar. Avança sobre quem está mais perto, usa Pancada no Chão quando o grupo o cerca e guarda Arremesso para tirar do lugar quem cuida dos outros.",
     tracos: [{"nome": "Faro", "texto": "O Oni sente cheiro de sangue. Ele sabe onde está cada criatura que perdeu vida nesta luta, se ela estiver no mesmo cômodo que ele, mesmo sem vê-la."}],
-    acoes_multiplas: "O Oni faz três ataques de Kanabō, ou usa Pancada no Chão e faz dois ataques de Kanabō.",
+    acoes_multiplas: "O Oni faz quatro ataques de Kanabō, ou usa Pancada no Chão e faz três ataques de Kanabō.",
     acoes_nomeadas: [{"nome": "Kanabō", "texto": "*Ataque corpo a corpo:* {acerto} para acertar, alcance {alcance}, uma criatura. *Acerto:* {golpe} de dano de Concussão{vizinho}."}, {"nome": "Pancada no Chão", "texto": "*Teste de Resistência Físico:* CD {cd}, cada criatura numa `Esfera` de {esfera} a partir do corpo dele. *Falha:* {golpe} de dano de Concussão. *Sucesso:* metade do dano."}],
     intervencoes: [{"nome": "Kanabō", "texto": "O Oni faz um ataque de Kanabō. Esse ataque não pega o vizinho."}, {"nome": "Arremesso", "texto": "*Teste de Resistência Físico:* CD {cd}, uma criatura a até {alcance} dele. *Falha:* o alvo é jogado num espaço livre a até {deslocamento} do Oni e fica `Derrubado`. O arremesso não causa dano."}, {"nome": "Parede Abaixo", "texto": "O Oni derruba uma parede, pilar ou divisória a até {alcance} dele. Ela para de dar cobertura, e os quadrados onde ela estava viram terreno difícil até o fim da luta."}] },
 ];
 
-// Quatro Ameaca nao valem um Desastre — peca 26 §4.3, nas sete faixas.
-const AMEACA_CONTRA_DESASTRE = [0.75, 0.77];
+// N corpos de x1 nao valem um xN do mesmo degrau — peca 26 §4.3, no nivel 30.
+const CORPOS_CONTRA_UM = [0.62, 0.90];
 
-const CAMBIO = 8;               // um Desastre vale N capangas — peca 26 §5
+const CAMBIO_POR_PESSOA = 3;    // um Desastre xN vale 3N capangas — peca 26 §5
 const TETO_EMPILHAMENTO = 3;    // corpos do mesmo esquadrao no mesmo alvo — peca 26 §5
 const REACAO = 1;               // uma por rodada — manual, secao Inimigos
 const DESLOCAMENTO = '9 m';     // peca 3 §3, a linha da ficha da peca 26 §3
 const ALCANCE_PROJETIL = '18 m'; // o Projetil nas Classes 1 a 5 — manual, partC.js
 
-module.exports = { FAIXAS, CATEGORIAS, PAPEIS, MULT_VANTAGEM, ACOES_ESQUADRAO,
-                   PAPEIS_FORA_DO_CAPANGA,
-                   FATOR_INTERVENCAO, INTERVENCOES, DERIVADAS, RESISTENCIA,
-                   SUBCATEGORIAS, TAMANHOS, AREA_NATURAL, PRONTAS, AMEACA_CONTRA_DESASTRE,
-                   CAMBIO, TETO_EMPILHAMENTO, REACAO, DESLOCAMENTO, ALCANCE_PROJETIL };
+module.exports = { FAIXAS, DEGRAUS, N_MAXIMO, PAPEIS, MULT_VANTAGEM, GANHO_ALCANCE,
+                   CORPOS_POR_PESSOA, PAPEIS_FORA_DO_CAPANGA,
+                   INTERVENCOES, PORTA_INTERVENCAO, INTERVENCAO_EXTRA, DERIVADAS, RESISTENCIA,
+                   TAMANHOS, AREA_NATURAL, PRONTAS, CORPOS_CONTRA_UM,
+                   CAMBIO_POR_PESSOA, TETO_EMPILHAMENTO, REACAO, DESLOCAMENTO, ALCANCE_PROJETIL };

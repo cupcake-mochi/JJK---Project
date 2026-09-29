@@ -1,0 +1,29 @@
+{
+  "nivel": 30,
+  "pessoas": 6,
+  "categoria": "Calamidade",
+  "papel": "Artilheiro",
+  "rodadas": 5,
+  "acoes": 6,
+  "golpe": "6d10 + 35",
+  "derivadas": [
+    "26 a 30",
+    20,
+    10,
+    18,
+    10
+  ],
+  "divisorIntervencao": 1.025,
+  "referenciaBase": {
+    "pv": 2362.5,
+    "cura": 78,
+    "parte": 157
+  },
+  "apenasPapel": {
+    "pv": 2148,
+    "cura": 71,
+    "parte": 143
+  },
+  "decisao": "Cura e partes usam PV-base antes dos ajustes, com arredondamento apenas no resultado.",
+  "status": "PV final ainda não fechado; referência PV-base aprovada; apenasPapel é alternativa rejeitada."
+}

@@ -1,6 +1,6 @@
 # Invocações — o subsistema em desenvolvimento, fora da edição jogável
 
-**Nada aqui é regra aprovada.** O Evocador e as Invocações saíram do livro na v0.270, a pedido do Mizuki, até o subsistema fechar:
+**O subsistema completo ainda não foi aprovado para publicação. As decisões autorais até o §46 estão aprovadas; a consolidação r5 continua candidata.** O Evocador e as Invocações saíram do livro na v0.270, a pedido do Mizuki, até o subsistema fechar:
 
 > *"Bloqueie temporariamente Evocador e Invocações na edição jogável. Prefiro que suas regras saiam do livro nesta edição, incluindo as Trilhas antigas vinculadas ao Evocador. Preserve as fontes antigas em arquivo e todo o desenvolvimento atual em pasta separada. Não destrua material nem substitua o Evocador por outro Caminho."*
 

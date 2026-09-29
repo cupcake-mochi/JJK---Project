@@ -60,13 +60,13 @@ E duas coisas que quase todo degrau daqui menciona:
 >
 > **Os dois Caminhos conjuradores — Guia e Emanador — treinam Arma de Fogo e Balestra**, que são as duas que se aponta e dispara sem anos de forma.
 
-**Para um conjurador empunhar o resto, a porta é a Trilha.** É o que faz a `Arma Condutora` do Condutor Armado, no nível 2: ela concede um grupo de arma à sua escolha e ainda troca Força por Essência ou Inteligência naquele grupo. Um Emanador de espadão existe, e paga por isso com a escolha de Trilha.
+**Para um conjurador empunhar o resto, a porta é a Trilha.** É o que faz a `Arma Condutora` do Condutor Armado, no nível 2: ela concede uma categoria (Grupo das Armas) à sua escolha e ainda troca Força por Essência ou Inteligência naquela categoria. Um Emanador de espadão existe, e paga por isso com a escolha de Trilha.
 
 > **Sem treino, você tem desvantagem na rolagem de ataque com aquela arma**, e sem o requisito de Força dela o seu deslocamento cai pela metade enquanto você a estiver empunhando, além de você também atacar com desvantagem. O capítulo 15, *Equipamento*, tem as duas.
 
 ### Limites
 
-> **O Caminho mexe em quando, onde e em quem o seu poder acontece.** O tamanho dele é assunto da sua técnica. Nenhum Caminho dá dado de dano, sobe a Classe dos seus feitiços, dá Melhoria de graça, cura, ou desconto de dano em tudo. **Cura é Forma de feitiço**: quem fechou a Família Amparo nunca vai curar, e Caminho nenhum contorna isso — **com uma exceção declarada, o Socorrista**, a Trilha do Guia que cura outra pessoa com o `Cuidado Preparado` e o `Ainda Há Tempo`.
+> **O Caminho mexe em quando, onde e em quem o seu poder acontece.** O tamanho dele é assunto da sua técnica. Nenhum Caminho dá dado de dano, sobe a Classe dos seus feitiços, dá Melhoria de graça, cura, ou desconto de dano em tudo. **Cura é Forma de feitiço**: quem fechou a Família Amparo nunca vai curar, e Caminho nenhum contorna isso — **com exceções declaradas**: o Socorrista, a Trilha do Guia que cura outra pessoa com o `Cuidado Preparado` e o `Ainda Há Tempo`; o `Ainda de Pé` do Bastião, que recupera a própria vida uma vez por cena; e o `Duro de Matar` e a `Casca Grossa`, também do Bastião, que descontam o dano de um golpe.
 
 ### Trilhas
 
@@ -135,7 +135,7 @@ Escolha uma Trilha no nível 2: **Muro, Punho ou Combatente Amaldiçoado**. Suas
 >
 > **Assumir um golpe.** Enquanto a área estiver ativa, quando um ataque com rolagem acertar um aliado dentro dela, você pode gastar sua **Reação** para receber o golpe no lugar dele. O acerto é transferido, com o dano, o crítico e as condições que acompanhariam aquele golpe. A transferência não faz outra rolagem de acerto ou de Bloquear.
 
-> **Nível 7: Ataque Extra.** Sua Ação de Atacar permite **um ataque simples adicional por rodada**.
+> **Nível 7: Ataque Extra.** Sua Ação Atacar permite **um ataque simples adicional por rodada**.
 >
 > Você também recebe as duas habilidades abaixo.
 >
@@ -197,7 +197,7 @@ Escolha uma Trilha no nível 2: **Muro, Punho ou Combatente Amaldiçoado**. Suas
 | 19 | Minha Vez |
 | 27 | Arrastão |
 
-> **Nível 2: `Trocação Franca`.** Quando acertar um ataque de sua **Ação de Atacar**, pode usar a **Ação Bônus** para realizar um golpe desarmado.
+> **Nível 2: `Trocação Franca`.** Quando acertar um ataque de sua **Ação Atacar**, pode usar a **Ação Bônus** para realizar um golpe desarmado.
 >
 > Quando receber um golpe por **Olhos Em Mim**, também pode realizar um golpe desarmado contra o atacante, se ele estiver ao alcance. Esse golpe integra a Reação já gasta na transferência.
 >
@@ -209,7 +209,7 @@ Escolha uma Trilha no nível 2: **Muro, Punho ou Combatente Amaldiçoado**. Suas
 >
 > **Nível 27: `Arrastão`.** Use uma **Ação Padrão** para realizar um golpe desarmado contra até **um número de criaturas igual à sua Força**, dentro de Olhos Em Mim: um golpe por criatura, com rolagens próprias.
 >
-> Arrastão conta como Ação de Atacar, mas substitui o conjunto de ataques dessa ação, sem acrescentar Ataque Extra. O empurrão de Mão Pesada se aplica normalmente.
+> Arrastão conta como Ação Atacar, mas substitui o conjunto de ataques dessa ação, sem acrescentar Ataque Extra. O empurrão de Mão Pesada se aplica normalmente.
 >
 > Você pode gastar **8 PE** para que cada alvo acertado faça seu próprio **TR de Vigor contra Derrubado**, em vez de limitar essa parte de Mão Pesada a um alvo por rodada.
 
@@ -231,7 +231,7 @@ Escolha uma Trilha no nível 2: **Muro, Punho ou Combatente Amaldiçoado**. Suas
 >
 > Seu **PE máximo aumenta em um valor igual à sua Força**.
 >
-> **Nível 11: `Embalo`.** Ao obter um crítico num ataque de sua **Ação de Atacar**, ou passar num **TR Físico**, receba energia temporária igual à sua **maestria**.
+> **Nível 11: `Embalo`.** Ao obter um crítico num ataque de sua **Ação Atacar**, ou passar num **TR Físico**, receba energia temporária igual à sua **maestria**.
 >
 > Essa reserva segue as regras de energia temporária: não acumula com outra reserva; mantenha o maior valor.
 >
@@ -239,7 +239,11 @@ Escolha uma Trilha no nível 2: **Muro, Punho ou Combatente Amaldiçoado**. Suas
 >
 > Feitiços de Classe 0 não consomem essa preparação.
 >
-> **Nível 27: `Contra a Parede`.** Enquanto estiver com **metade da vida ou menos**, sua **Ação de Atacar** vem acompanhada de um feitiço de dano de **metade da sua maior Classe**, desde que você cumpra os requisitos dele.
+> A preparação dura **até o fim do seu próximo turno**, e vale para **um ataque do feitiço** ou para **o primeiro TR de uma criatura** contra ele.
+>
+> **Nível 27: `Contra a Parede`.** Enquanto estiver com **metade da vida ou menos**, sua **Ação Atacar** vem acompanhada de um feitiço de dano de **metade da sua maior Classe**, desde que você cumpra os requisitos dele.
+>
+> A metade arredonda **para baixo**. Pague o feitiço **normalmente**, sem PE a mais pela habilidade. O feitiço vem **depois do primeiro golpe**, e **não pode ser crítico**.
 
 ## Vanguarda
 
@@ -368,7 +372,7 @@ Se uma Condução errada encerrar a Sequência, um ataque restante pode abrir ou
 
 > **`Versado`.** Em vez de uma categoria e sua Manha, escolha **Versado**: imediatamente após acertar um Golpe Inicial, guarde uma arma e saque outra sem ação, **uma troca por Sequência**.
 
-> **Nível 7: Ataque Extra.** Sua Ação de Atacar permite **um ataque simples adicional por rodada**. Uma habilidade específica, como Bote, pode permitir usar esse ataque em outra ação.
+> **Nível 7: Ataque Extra.** Sua Ação Atacar permite **um ataque simples adicional por rodada**. Uma habilidade específica, como Bote, pode permitir usar esse ataque em outra ação.
 
 > **Nível 15: `Não Cede`.** Quando falhar num **Teste de Resistência**, pode repetir o teste e usar o segundo resultado.
 >
@@ -400,11 +404,11 @@ Se uma Condução errada encerrar a Sequência, um ataque restante pode abrir ou
 | 19 | Bote |
 | 27 | Ferrão |
 
-> **Nível 2: `Compasso`.** Escolha **Essência ou Inteligência**. Some esse atributo ao seu **PE máximo** e use-o no lugar de Força ou Destreza para o acerto e dano das armas de seus grupos escolhidos. Os requisitos de Força permanecem.
+> **Nível 2: `Compasso`.** Escolha **Essência ou Inteligência**. Some esse atributo ao seu **PE máximo** e use-o no lugar de Força ou Destreza para o acerto e dano das armas de suas categorias escolhidas. Os requisitos de Força permanecem.
 >
-> Escolha **um grupo de armas**. Se possuir Versado na Escola de Arma, escolha uma quantidade de grupos igual à sua **maestria**.
+> Escolha **uma categoria (Grupo das Armas)**. Se possuir Versado na Escola de Arma, escolha uma quantidade de categorias igual à sua **maestria**.
 >
-> Depois de conjurar na **Ação Padrão** um feitiço de **Classe igual ou superior à metade de sua maior Classe disponível, arredondada para cima**, pode usar a **Ação Bônus** para fazer um ataque com uma arma desses grupos. O feitiço não precisa acertar.
+> Depois de conjurar na **Ação Padrão** um feitiço de **Classe igual ou superior à metade de sua maior Classe disponível, arredondada para cima**, pode usar a **Ação Bônus** para fazer um ataque com uma arma dessas categorias. O feitiço não precisa acertar.
 >
 > Esse ataque pode dar o Golpe Inicial, Conduzir ou Concluir, com os custos e limites da Sequência. Com maior Classe 7, Compasso exige Classe 4 ou superior.
 
@@ -1087,7 +1091,7 @@ A escolha também vale quando o aliado abandona a Abertura para receber o socorr
 | **Perícias à sua escolha** | 5, de qualquer uma da lista de perícias do sistema. Duas delas podem virar treino em **uma arma** da lista — não a categoria e não o tipo, uma arma |
 | **Ofícios** | nenhum. Os dois vêm da sua Origem |
 | **Teste de Resistência** | 1 treinado, à sua escolha. A sua Origem treina o outro |
-| **Treino de arma** | **Arma de Fogo** e **Balestra**, as duas que não pedem treino de verdade. O Condutor Armado acrescenta o grupo escolhido |
+| **Treino de arma** | **Arma de Fogo** e **Balestra**, as duas que não pedem treino de verdade. O Condutor Armado acrescenta a categoria escolhida |
 
 *Perícia, ofício e Teste de Resistência entram na ficha uma vez, na criação. O quadro completo das vinte e três perícias e dos onze ofícios está no capítulo 3, __Perícias e Ofícios__.*
 
@@ -1236,9 +1240,9 @@ As escolhas de Afinidade e de Expressão Familiar podem ser os mesmos feitiços 
 | 19 | Manifestação Condutora |
 | 27 | Ritmo Convergente |
 
-> **Nível 2: `Arma Condutora`.** Escolha **um grupo de armas** e receba proficiência com suas armas. Escolha **Essência ou Inteligência**: você pode usar esse atributo nas rolagens de acerto e dano com o grupo, mantendo os requisitos de Força do equipamento.
+> **Nível 2: `Arma Condutora`.** Escolha **uma categoria (Grupo das Armas)** e receba proficiência com suas armas. Escolha **Essência ou Inteligência**: você pode usar esse atributo nas rolagens de acerto e dano com a categoria, mantendo os requisitos de Força do equipamento.
 >
-> Ao fim de um descanso curto ou longo, escolha uma arma desse grupo que esteja com você como sua **arma vinculada**. Um novo vínculo substitui o anterior.
+> Ao fim de um descanso curto ou longo, escolha uma arma dessa categoria que esteja com você como sua **arma vinculada**. Um novo vínculo substitui o anterior.
 
 #### Cadência Técnica
 
@@ -1249,8 +1253,8 @@ Uma vez por turno seu, combine suas ações de uma destas maneiras:
 
 | Ação Padrão | Ação Bônus |
 |---|---|
-| Atacar com uma arma do grupo. | Conjurar um feitiço de Classe 0. |
-| Conjurar um feitiço de Classe 0. | Fazer um ataque com uma arma do grupo. |
+| Atacar com uma arma da categoria. | Conjurar um feitiço de Classe 0. |
+| Conjurar um feitiço de Classe 0. | Fazer um ataque com uma arma da categoria. |
 
 O feitiço precisa normalmente usar Ação Padrão. Resolva uma parte antes de começar a outra.
 
@@ -1258,7 +1262,7 @@ O feitiço precisa normalmente usar Ação Padrão. Resolva uma parte antes de c
 
 #### Artes de Cadência
 
-> **Cadência Marcial.** Sua Ação Atacar permite **dois ataques** com armas do grupo. Se fizer os dois, não conjura pela Cadência Técnica naquele turno. Você pode optar pela cadência original de um ataque e um Classe 0.
+> **Cadência Marcial.** Sua Ação Atacar permite **dois ataques** com armas da categoria. Se fizer os dois, não conjura pela Cadência Técnica naquele turno. Você pode optar pela cadência original de um ataque e um Classe 0.
 >
 > **Cadência Expandida.** A Cadência Técnica aceita feitiços de **Classe até metade da sua maior Classe disponível, arredondada para baixo**, nas duas ordens de execução. Pague os custos normais.
 >
@@ -1270,7 +1274,7 @@ Você conhece **uma Propriedade no nível 11 e duas a partir do nível 19**, esc
 
 > **Chamado da Arma.** Você pode recolher a arma em sua técnica e manifestá-la ao sacá-la. Se estiver solta a até **18 m**, uma **Ação Bônus** a faz retornar à sua mão.
 >
-> **Forma Mutável.** Apenas uma arma comum ou de **Grau 4 ou 3** pode receber esta propriedade. Ao sacá-la ou manifestá-la, mude seu perfil para outra arma do mesmo grupo cujo requisito de Força cumpra. A arma mantém Grau, Integridade, munição restante e efeitos próprios compatíveis. A transformação não recarrega nem repara o item.
+> **Forma Mutável.** Apenas uma arma comum ou de **Grau 4 ou 3** pode receber esta propriedade. Ao sacá-la ou manifestá-la, mude seu perfil para outra arma da mesma categoria cujo requisito de Força cumpra. A arma mantém Grau, Integridade, munição restante e efeitos próprios compatíveis. A transformação não recarrega nem repara o item.
 >
 > **Retorno Vinculado.** Sua arma corpo a corpo vinculada pode ser arremessada a até **6 m** e retorna à sua mão depois de resolver o ataque.
 >
@@ -1278,7 +1282,7 @@ Você conhece **uma Propriedade no nível 11 e duas a partir do nível 19**, esc
 >
 > **Âncora Gravada.** Com uma **Ação Bônus**, fixe a arma numa superfície sólida ao alcance. Ela permanece presa até você liberá-la ou alguém gastar **Ação Padrão** e passar em um **TR Físico** contra a CD da técnica para removê-la. Pode sustentar uma corda ou travar um mecanismo conforme a resistência da arma e da superfície.
 >
-> **Vínculo Duplo.** Mantenha duas armas vinculadas do grupo. Pode sacar ou guardar fisicamente as duas no mesmo ato e usar qualquer uma nas habilidades da Trilha. Elas têm munição, Integridade e efeitos próprios separados.
+> **Vínculo Duplo.** Mantenha duas armas vinculadas da categoria. Pode sacar ou guardar fisicamente as duas no mesmo ato e usar qualquer uma nas habilidades da Trilha. Elas têm munição, Integridade e efeitos próprios separados.
 >
 > **Sentido do Vínculo.** Enquanto a arma estiver a até **1 km**, você sabe em que direção ela está e se está sendo empunhada. Essa percepção acompanha o objeto, sem revelar a identidade de quem o segura.
 >

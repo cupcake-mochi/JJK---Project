@@ -1,0 +1,99 @@
+
+========================================================================================
+1. PERICIAS — as 23 da ficha sao as 23 da peca 7?
+========================================================================================
+  peca 7: 23 pericias em 4 atributos
+  ficha:  23 pericias em 4 atributos
+    [x] Destreza       4 pericias, iguais
+    [x] Essência       7 pericias, iguais
+    [x] Força          1 pericias, iguais
+    [x] Inteligência   11 pericias, iguais
+
+========================================================================================
+2. OFICIOS — os da ficha sao os da peca 7?
+========================================================================================
+  peca 7: 11 oficios · ficha: 11
+    [x] os 11 batem: Alfaiate, Arrombamento, Burocracia, Caligrafia, Condução, Culinária, Entalhador, Forja, Herbalismo, Instrumento, Jogatina
+
+========================================================================================
+3. CAMINHOS — vida, PE e pericias fixas
+========================================================================================
+    [x] Bastião     vida 12/7 · PE 4 · Atletismo, Provocar
+    [x] Emanador    vida 6/4 · PE 6 · Ocultismo, Investigação
+    [x] Evocador    vida 6/4 · PE 6 · Religião, Lidar com Animais
+    [x] Guia        vida 8/5 · PE 5 · Persuasão, Medicina
+    [x] Vanguarda   vida 8/5 · PE 5 · Acrobacia, Percepção
+    [x] soma vida+PE por nivel: [10, 11] — a troca continua sendo sabor
+
+========================================================================================
+4. TRILHAS — as 15 da ficha existem na peca 6?
+========================================================================================
+    [x] Bastião     Muro, Punho, Brasa
+    [x] Emanador    Torrente, Explosivo, Arremate
+    [x] Evocador    Servo, Matilha, Coro
+    [x] Guia        Elo, Sutura, Perímetro
+    [x] Vanguarda   Estocada, Batedor, Executor
+  15 Trilhas ao todo, tres por Caminho.
+
+========================================================================================
+5. AS CONSTANTES DO NIVEL 2
+========================================================================================
+  [x] a linha do Bloquear da ficha de exemplo e derivada: Defesa 13 - 11 = +2
+  constante           na ficha   na peca   dono
+  MAESTRIA                   1         1   peca 8, passo 7   
+  REFINO                     1         1   peca 8, passo 7   
+  PROTECAO                   1         1   peca 11, cobrir-se de energia   
+  CONHECIDOS                 3         3   peca 8, passo 5   
+  CLASSE_0                   2         2   peca 8, passo 5   
+  CLASSE                     1         1   peca 8, passo 5   
+  INTEGRIDADE_NV            25        25   peca 8, passo 7   
+  XP_PROXIMO               200       200   peca 12, a faixa da curva que cobre o nivel 2   
+  PONTOS_ATRIBUTO            9         9   peca 8, passo 4   
+  TETO_ATRIBUTO              3         3   peca 8, passo 4   
+
+========================================================================================
+6. OS ARQUIVOS EXISTEM
+========================================================================================
+  [x] 05-material/ficha-em-branco.docx — a ficha em branco
+  [x] 05-material/ficha-exemplo-kaori.docx — o exemplo preenchido
+  [x] 05-material/gerador-ficha/make.js — o gerador
+  [x] 05-material/gerador-ficha/dados.js — os catalogos
+  [x] 05-material/gerador-ficha/ficha.js — o layout das tres paginas
+  [x] 05-material/gerador-ficha/helpers.js — os helpers
+  [x] 05-material/gerador-ficha/COMO-USAR.txt — as instrucoes
+  [x] ficha-em-branco.docx foi gerado do codigo atual
+  [x] ficha-exemplo-kaori.docx foi gerado do codigo atual
+
+========================================================================================
+7. O BLOCO DE INIMIGO — o material contra a peca 26
+========================================================================================
+  [x] os 5 degraus do dados.js sao os da peca 26 §4 — rodadas e orcamento —, de ×1 a ×6
+  [x] as sete faixas do dados.js tem o capanga da grade, e as tres que o §4.1 publica reproduzem as noventa celulas
+  [x] os 6 papeis do dados.js batem com a peca 26 §3.4 — os fatores fixos, a Defesa, de onde sai o variavel, a vantagem, o alcance e quem o Capanga recusa
+  !! 7: a regua de resistencia do dados.js nao e a do §6.3
+  [x] o golpe em dado segue a regra do §4.4 (o `Desastre` do nivel 30: 56 -> 8d6 + 28)
+  [x] o conta.js e o make.js leem os degraus, a porta da Intervencao, a vida da celula, o cambio e o esquadrao do dados.js
+  [x] a peca declara o arredondamento meio para baixo, e o gerador segue
+
+========================================================================================
+8. FAMILIAS — as da ficha sao as do manual, e as da Kaori sao as da peca 8
+========================================================================================
+  [x] as 9 Familias da ficha sao as 9 da tabela do manual
+  [x] as 2 Livres e as 3 Fechadas da Kaori existem no manual e sao as da peca 8
+  [x] ficha-em-branco.docx traz as 9 Familias do manual
+  [x] ficha-exemplo-kaori.docx traz as 9 Familias do manual
+
+========================================================================================
+9. A TIRA DE REFERENCIA E AS NOTAS — o que a ficha resume bate com o dono
+========================================================================================
+  [x] as 5 contas e as 5 frases da tira e das notas batem com os donos,
+      nenhuma mecanica morta aparece, e a ficha publicada e a deste ficha.js
+
+========================================================================================
+10. OS TESTES DE RESISTENCIA — o treinado soma o que a peca 1 manda
+========================================================================================
+  [x] o TR treinado soma a maestria, como na peca 1, na tabela, na nota e nas duas fichas
+
+========================================================================================
+>>> 1 PROBLEMA(S):
+   - 7: a regua de resistencia do dados.js nao e a do §6.3

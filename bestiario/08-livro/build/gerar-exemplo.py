@@ -45,12 +45,12 @@ def arred(x):
 # ── o dado() do make.js (Claude 2), portado; as constantes saem de lá. Quem carrega
 #    `Intervenção` tem o golpe dado(arred(dano/rod × fator) ÷ ações), igual ao make.js.
 REPO = os.environ.get('JJK_REPO', os.path.dirname(BEST))
-tm = ler(os.path.join(REPO, 'sistema/05-material/gerador-inimigo/make.js'))
+tm = ler(os.path.join(REPO, 'sistema/05-material/gerador-inimigo/conta.js'))
 _md = re.search(r'const DADOS = \[([\d,\s]+)\]', tm)
 _mp = re.search(r'if \(alvo < (\d+)\) return String\(arred\(alvo\)\)', tm)
 _mt = re.search(r'if \(n > (\d+)\) continue', tm)
 if not (_md and _mp and _mt):
-    morre('a função `dado()` do make.js mudou de forma')
+    morre('a função `dado()` do conta.js mudou de forma')
 DADOS_MK = [int(x) for x in _md.group(1).split(',')]
 PISO, TETO_N = int(_mp.group(1)), int(_mt.group(1))
 NUM = {1: 'um', 2: 'dois', 3: 'três', 4: 'quatro', 5: 'cinco', 6: 'seis'}
@@ -108,12 +108,8 @@ for ln in sec.split('\n'):
 if not L:
     morre('o nível %d de `%s` sumiu da TABELA.md' % (NIVEL, CAT))
 
-# ── as âncoras do RASCUNHO-5
+# ── as âncoras do RASCUNHO-5 (o papel e o tamanho não mudaram com a grade)
 t5 = ler(R5)
-m = re.search(r'fator de dano de quem tem `Intervenção` é multiplicado por `([\d,]+)`', t5)
-if not m:
-    morre('o fator da Intervenção sumiu do RASCUNHO-5')
-FAT_INT = float(m.group(1).replace(',', '.'))
 m = re.search(r'\|\s*\*\*`Brutamontes`\*\*\s*\|\s*`vida × ([\d,]+)`\s*\|\s*\*\*`Defesa ([−-]\d)`\*\*', t5)
 if not m:
     morre('a linha do `Brutamontes` sumiu do RASCUNHO-5')
@@ -133,32 +129,48 @@ for ln in t5.split('\n'):
 if not ESF:
     morre('a área natural do nível %d sumiu do RASCUNHO-5' % NIVEL)
 
+# ── a grade: a faixa do manual (pelo dados.js), o degrau e a porta da Intervenção (pela peça 26)
+_dj = ler(os.path.join(REPO, 'sistema/05-material/gerador-inimigo/dados.js'))
+_fx = [(int(a_), int(b_), int(g_), int(cd_)) for a_, b_, g_, cd_ in
+       re.findall(r"\['\d+ a \d+',\s*(\d+),\s*(\d+),\s*\d+,\s*(\d+),\s*\d+,\s*(\d+),\s*\d+,\s*\d+\]", _dj)]
+FX = next((f for f in _fx if f[0] <= NIVEL <= f[1]), None)
+if not FX:
+    morre('nenhuma faixa do dados.js cobre o nível %d' % NIVEL)
+_t26 = ler(os.path.join(REPO, 'sistema', '03-mecanica', '26-bestiario.md'))
+_md = re.search(r'^\| \*\*`%s`\*\* \| `([\d,]+)` \| `([\d,]+)` \| `([\d,]+)` \|' % CAT, _t26, re.M)
+_mp = re.search(r'Ela abre quando `N × orçamento ≥ (\d+)`', _t26)
+_mi = re.search(r'`vida ÷ \(1 \+ ([\d,]+) ÷ \(rodadas × N\)\)`', _t26)
+if not (_md and _mp and _mi):
+    morre('o degrau `%s`, a porta ou o preço da Intervenção sumiram da peça 26' % CAT)
+ROD, ORC, PRESS = (float(x.replace(',', '.')) for x in _md.groups())
+N = 4
+if N * ORC < int(_mp.group(1)):
+    morre('o `%s ×%d` não abre a porta da Intervenção, e o exemplo mostra ela' % (CAT, N))
+PRECO_INT = 1 + float(_mi.group(1).replace(',', '.')) / (ROD * N)
+
 # ── a conta
-vida_base = int(L['vida'])
-vida = arred(vida_base * BRUTA_VIDA)
+vida_base = arred(ROD * N * FX[2] / 4)
+vida_pap = arred(vida_base * BRUTA_VIDA)
+vida = arred(vida_base * BRUTA_VIDA / PRECO_INT)
 defesa = int(L['Defesa']) + BRUTA_DEF
-acoes = int(L['ações'])
-if dado(int(L['dano/rod']) / acoes) != L['o golpe']:
-    morre('o dado() portado não refaz o golpe cru do nível %d' % NIVEL)
-alvo = arred(int(L['dano/rod']) * FAT_INT) / acoes
+alvo = arred(PRESS * FX[3] / 4)
 golpe = dado(alvo)
 GOLPE = '`%d (%s)`' % (math.floor(media(golpe)), golpe)
-pontos = alvo / 4.5
+pontos = media(golpe) / 4.5
 
 out = ['**%s**' % NOME, '', '*%s*' % LINHA, '',
-       'Um grupo de nível %d precisa dos quatro para derrubar isto, e quem monta quer um bicho que'
-       % NIVEL,
-       'aguenta apanhar. Isso são três escolhas, e cada uma tem uma linha de tabela.', '']
-
-out += ['**Passo 1 — a categoria.** Quatro pessoas é `%s`. A linha do nível %d dá **vida `%d`**, '
-        '**`%d` ações** e golpe **%s**, que já traz o `%s` da `Intervenção`.'
-        % (CAT, NIVEL, vida_base, acoes, GOLPE, vg(FAT_INT, 3)), '']
-out += ['**Passo 2 — o papel.** Ele apanha de frente, então `%s`: **vida `× %s`** e '
-        '**Defesa `%d`**. A vida vai a `%d × %s` = **`%d`**, e a Defesa de `%s` para **`%d`**.'
+       'Um grupo de quatro, de nível %d, vai enfrentar uma luta moderada, e quem monta quer um bicho que' % NIVEL,
+       'aguenta apanhar. Isso são quatro escolhas, e cada uma tem uma linha de tabela.', '']
+out += ['**Passo 1 — a categoria e o N.** Luta moderada para quatro é `%s ×%d`. A linha do nível %d dá '
+        '**vida `%d`**, **`%d` ações** e golpe **%s**.' % (CAT, N, NIVEL, vida_base, N, GOLPE), '']
+out += ['**Passo 2 — o papel.** Ele apanha de frente, então `%s`: **vida `× %s`** e **Defesa `%d`**. '
+        'A vida vai a `%d × %s` = **`%d`**, e a Defesa de `%s` para **`%d`**.'
         % (PAPEL, ('%.2f' % BRUTA_VIDA).replace('.', ','), BRUTA_DEF, vida_base,
-           ('%.2f' % BRUTA_VIDA).replace('.', ','), vida, L['Defesa'], defesa), '']
+           ('%.2f' % BRUTA_VIDA).replace('.', ','), vida_pap, L['Defesa'], defesa), '']
 out += ['**Passo 3 — o tamanho.** `%s`: ocupa `2×2` na grade, alcança `%s m`, e o golpe pega o alvo '
         'mais metade em um vizinho. Não custa nada.' % (TAM, ALC), '']
+out += ['**As `Intervenções`.** O `%s ×%d` abre a porta, e as três se pagam na vida: `%d ÷ %s` = **`%d`**. '
+        'O golpe não muda.' % (CAT, N, vida_pap, vg(PRECO_INT, 4), vida), '']
 # ⚠ o orçamento de atributo NÃO se digita: ele sai dos marcos da própria TABELA.md,
 #   pela mesma conta do `gerar-atributos.py` — 9 na criação, +1 por marco vencido.
 cab2, defesas = None, {}
@@ -175,8 +187,8 @@ _t26 = open(os.path.join(os.path.dirname(BEST), 'sistema', '03-mecanica', '26-be
 _tab26 = _t26[_t26.find('| marco | nv 6 |'):]
 _nv26 = [int(x) for x in re.findall(r'nv (\d+)', _tab26.split('\n')[0])]
 _pt26 = [int(x) for x in re.findall(r'`(\d+)`', re.search(r'\| \*\*pontos de atributo\*\* \|([^\n]*)', _tab26).group(1))]
-# o chefe — quem carrega Intervenção, pela tabela do §4 — lê a linha dele
-_chefe = re.search(r'^\| \*\*`%s`\*\* \| \d+ \| `× [\d,]+` \| `\d+` \| sim \|$' % CAT, _t26, re.M)
+# o chefe — quem carrega Intervenção, pela porta do §6.5 — lê a linha dele
+_chefe = True
 if _chefe:
     _pt26 = [int(x) for x in re.findall(r'`(\d+)`', re.search(r'\| \*\*pontos de atributo do chefe\*\* \|([^\n]*)', _tab26).group(1))]
 PTS = max([p for n, p in zip(_nv26, _pt26) if n <= NIVEL], default=10 if _chefe else 9)
@@ -186,15 +198,15 @@ out += ['**Os atributos.** No nível %d são `%d` pontos. A Defesa da tabela ped
         'técnica dele declara Força, que é o que a ficção pede.'
         % (NIVEL, PTS, DES_OBRIG), '']
 
-out += ['', '> ### %s' % NOME, '>', '> *Maldição Grande · **%s** · **%s** · nível %d*'
-        % (CAT, PAPEL, NIVEL), '>',
+out += ['', '> ### %s' % NOME, '>', '> *Maldição Grande · **%s ×%d** · **%s** · nível %d*'
+        % (CAT, N, PAPEL, NIVEL), '>',
         '> **Defesa** `%d` · **Acerto** `%s` · **CD** `%s` · **Refino** `%s` *(proteção `%s`)*'
         % (defesa, L['acerto'], L['CD'], L['refino'], L['proteção']), '>',
         # o golpe saiu do cabeçalho em 11/09/2026 — ele mora no ataque, em `Ações`
         '> **Vida** `%d` · **Integridade** `%d` · **Deslocamento** `9 m`' % (vida, vida // 2), '>',  # v0.228: Integridade = metade da vida, peca 24 SS3.3
         '> **Ações**', '>',
         '> **Ações Múltiplas.** A %s faz %s ataques de Garra, ou usa Choro e faz %s ataques de '
-        'Garra.' % (NOME, NUM[acoes], NUM[acoes - 1]), '>',
+        'Garra.' % (NOME, NUM[N], NUM[N - 1]), '>',
         '> **Garra.** *Ataque corpo a corpo:* `%s` para acertar, alcance `%s m`, uma criatura. '
         '*Acerto:* %s de dano Cortante, e metade desse dano em um vizinho do alvo.'
         % (L['acerto'], ALC, GOLPE), '>',
@@ -205,7 +217,7 @@ out += ['', '> ### %s' % NOME, '>', '> *Maldição Grande · **%s** · **%s** ·
         '> Três por luta, cada uma usada uma vez. Sai no máximo uma por rodada, logo depois do '
         'turno de outra criatura. As três seguem o molde do capítulo 5.', '']
 out += ['', 'O orçamento de uma ação dele é `%s ÷ 4,5` = **`%s` pontos**, que bate com a linha '
-        'do `%s` na `Orçamento de uma ação, por categoria`.' % (vg(alvo, 0), vg(pontos), CAT), '']
+        'do `%s` na `Orçamento de uma ação, por categoria`.' % (vg(media(golpe), 0), vg(pontos), CAT), '']
 
 cap = ler(CAP)
 if MARCA not in cap:
@@ -218,11 +230,5 @@ if '--conferir' in sys.argv:
     sys.exit(0 if _novo == cap else '✗ DESATUALIZADO: o capítulo não é o que build/gerar-exemplo.py gera hoje — rode ele')
 open(CAP, 'w', encoding='utf-8').write(_novo)
 
-print('=' * 72)
-print('O EXEMPLO MONTADO — %s, nv%d' % (NOME, NIVEL))
-print('=' * 72)
-print('  categoria %s · papel %s · tamanho %s' % (CAT, PAPEL, TAM))
-print('  vida  %d × %.2f = %d' % (vida_base, BRUTA_VIDA, vida))
-print('  Defesa %s %+d = %d' % (L['Defesa'], BRUTA_DEF, defesa))
-print('  golpe: dado(arred(%s × %.3f) ÷ %d) = dado(%.2f) = %s  ⟹  %.2f ÷ 4,5 = %.1f pontos'
-      % (L['dano/rod'], FAT_INT, acoes, alvo, golpe, alvo, pontos))
+print('O EXEMPLO MONTADO — %s, %s ×%d, nv%d: vida %d × %.2f ÷ %.4f = %d, golpe %s, %.1f pontos'
+      % (NOME, CAT, N, NIVEL, vida_base, BRUTA_VIDA, PRECO_INT, vida, golpe, pontos))

@@ -1,0 +1,11 @@
+--- sistema/03-mecanica/26-bestiario.md
++++ sistema/03-mecanica/26-bestiario.md
+@@ -450,7 +450,7 @@
+ | `Físicos` | `60%` | **`1,43×`** | **`2,50×`** | `0,62×` |
+ | `Elementais` | `30%` | `1,18×` | `1,43×` | `0,77×` |
+ | `Especiais` | `10%` | `1,05×` | `1,11×` | `0,91×` |
+-| um tipo só | `20%` | `1,00×` | `1,25×` | `0,83×` |
++| um tipo só | `20%` | `1,11×` | `1,25×` | `0,83×` |
+ 
+ > **Resistência ao grupo `Físicos` divide a vida crua por `1,43`.** *Aos `Elementais`, por `1,18`; aos `Especiais`, por `1,05`.*
+ > **Imunidade a `Físicos` divide a vida crua por `2,50`.** *Aos `Elementais`, por `1,43`; aos `Especiais`, por `1,11`.*

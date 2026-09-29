@@ -1,0 +1,822 @@
+node:assert:125
+  throw new AssertionError(obj);
+  ^
+
+AssertionError [ERR_ASSERTION]: SAIDA-sukuna-grade.json diverge dos donos; regenere e revise
+    at Object.<anonymous> (/tmp/sukuna-grade-7zhb1dxw/bestiario/05-sukuna/montar-sukuna-grade.js:104:56)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)
+    at node:internal/main/run_main_module:28:49 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: '{\n' +
+    '  "nivel": 30,\n' +
+    '  "n": 6,\n' +
+    '  "categoria": "Calamidade",\n' +
+    '  "rodadas": 5,\n' +
+    '  "atributos": {\n' +
+    '    "Força": 2,\n' +
+    '    "Destreza": 4,\n' +
+    '    "Constituição": 4,\n' +
+    '    "Inteligência": 6,\n' +
+    '    "Essência": 6\n' +
+    '  },\n' +
+    '  "refino": 10,\n' +
+    '  "defesa": 18,\n' +
+    '  "acerto": 10,\n' +
+    '  "acertoCorpo": 6,\n' +
+    '  "cd": 18,\n' +
+    '  "base": 2362.5,\n' +
+    '  "fatores": {\n' +
+    '    "papel": 0.9090909090909091,\n' +
+    '    "defesa": 1.2,\n' +
+    '    "dominio": 1.92,\n' +
+    '    "recarga": 1.1166666666666667,\n' +
+    '    "circulacao": 1.0558659217877095,\n' +
+    '    "intervencao": 1.025\n' +
+    '  },\n' +
+    '  "pv": 1111,\n' +
+    '  "integridade": 555,\n' +
+    '  "golpe": 68,\n' +
+    '  "dados": "6d10 + 35",\n' +
+    '  "curaAcao": 78,\n' +
+    '  "braco": 157,\n' +
+    '  "curaReacao": 25,\n' +
+    '  "circDados": 10,\n' +
+    '  "maiorClasse": 7,\n' +
+    '  "cambio": 5.14,\n' +
+    '  "custoExt": 63.736,\n' +
+    '  "custoReg": 51.4,\n' +
+    '  "quota": 408,\n' +
+    '  "marcas": 5,\n' +
+    '  "especial": {\n' +
+    '    "orcamento": 15.11111111111111,\n' +
+    '    "classe": 5,\n' +
+    '    "leve": 3,\n' +
+    '    "media": 5,\n' +
+    '    "pesada": 8,\n' +
+    '    "clivarDados": 12,\n' +
+    '    "teiaDados": 9\n' +
+    '  },\n' +
+    '  "chama": {\n' +
+    '    "media": 170,\n' +
+    '    "expressao": "18d12 + 53"\n' +
+    '  },\n' +
+    '  "intervencao": {\n' +
+    '    "media": 68,\n' +
+    '    "dados": "4d12 + 25"\n' +
+    '  },\n' +
+    '  "modos": [\n' +
+    '    {\n' +
+    '      "nome": "normal",\n' +
+    '      "custo": 0,\n' +
+    '      "cota": 408,\n' +
+    '      "golpe": 68,\n' +
+    '      "dados": "6d10 + 35",\n' +
+    '      "tecnica": {\n' +
+    '        "orcamento": 15.11111111111111,\n' +
+    '        "classe": 5,\n' +
+    '        "leve": 3,\n' +
+    '        "media": 5,\n' +
+    '        "pesada": 8,\n' +
+    '        "clivarDados": 12,\n' +
+    '        "teiaDados": 9\n' +
+    '      }\n' +
+    '    },\n' +
+    '    {\n' +
+    '      "nome": "Extensão",\n' +
+    '      "custo": 63.736,\n' +
+    '      "cota": 344.264,\n' +
+    '      "golpe": 57,\n' +
+    '      "dados": "8d6 + 29",\n' +
+    '      "tecnica": {\n' +
+    '        "orcamento": 12.666666666666666,\n' +
+    '        "classe": 4,\n' +
+    '        "leve": 2,\n' +
+    '        "media": 4,\n' +
+    '        "pesada": 6,\n' +
+    '        "clivarDados": 10,\n' +
+    '        "teiaDados": 8\n' +
+    '      }\n' +
+    '    },\n' +
+    '    {\n' +
+    '      "nome": "Regravação",\n' +
+    '      "custo": 51.4,\n' +
+    '      "cota": 356.6,\n' +
+    '      "golpe": 59,\n' +
+    '      "dados": "8d6 + 31",\n' +
+    '      "tecnica": {\n' +
+    '        "orcamento": 13.11111111111111,\n' +
+    '        "classe": 4,\n' +
+    '        "leve": 2,\n' +
+    '        "media": 4,\n' +
+    '        "pesada": 6,\n' +
+    '        "clivarDados": 11,\n' +
+    '        "teiaDados": 9\n' +
+    '      }\n' +
+    '    },\n' +
+    '    {\n' +
+    '      "nome": "ambas",\n' +
+    '      "custo": 115.136,\n' +
+    '      "cota": 292.86400000000003,\n' +
+    '      "golpe": 49,\n' +
+    '      "dados": "4d12 + 23",\n' +
+    '      "tecnica": {\n' +
+    '        "orcamento": 10.88888888888889,\n' +
+    '        "classe": 3,\n' +
+    '        "leve": 2,\n' +
+    '        "media": 3,\n' +
+    '        "pesada": 5,\n' +
+    '        "clivarDados": 8,\n' +
+    '        "teiaDados": 6\n' +
+    '      }\n' +
+    '    }\n' +
+    '  ],\n' +
+    '  "provaAtributos": {\n' +
+    '    "criacao": [\n' +
+    '      2,\n' +
+    '      2,\n' +
+    '      1,\n' +
+    '      2,\n' +
+    '      3\n' +
+    '    ],\n' +
+    '    "livres": [\n' +
+    '      [\n' +
+    '        4\n' +
+    '      ],\n' +
+    '      [\n' +
+    '        4,\n' +
+    '        4\n' +
+    '      ],\n' +
+    '      [\n' +
+    '        1\n' +
+    '      ],\n' +
+    '      [\n' +
+    '        3\n' +
+    '      ],\n' +
+    '      [\n' +
+    '        2\n' +
+    '      ],\n' +
+    '      [\n' +
+    '        3\n' +
+    '      ],\n' +
+    '      [\n' +
+    '        3\n' +
+    '      ]\n' +
+    '    ],\n' +
+    '    "rei": [\n' +
+    '      0,\n' +
+    '      1,\n' +
+    '      2,\n' +
+    '      1,\n' +
+    '      0\n' +
+    '    ],\n' +
+    '    "final": [\n' +
+    '      2,\n' +
+    '      4,\n' +
+    '      4,\n' +
+    '      6,\n' +
+    '      6\n' +
+    '    ],\n' +
+    '    "aptidoes": {\n' +
+    '      "18": "Energia Reversa",\n' +
+    '      "22": "Circulação, escolha com refino",\n' +
+    '      "26": "Regravação",\n' +
+    '      "30": "Extensão"\n' +
+    '    }\n' +
+    '  },\n' +
+    '  "ensaioDebito": [\n' +
+    '    {\n' +
+    '      "nome": "Regravação antes de agir",\n' +
+    '      "antes": [\n' +
+    '        68,\n' +
+    '        68,\n' +
+    '        68,\n' +
+    '        68,\n' +
+    '        68,\n' +
+    '        68\n' +
+    '      ],\n' +
+    '      "custo": 51.4,\n' +
+    '      "permitido": true,\n' +
+    '      "saldos": [\n' +
+    '        59.43333333333334,\n' +
+    '        59.43333333333334,\n' +
+    '        59.43333333333334,\n' +
+    '        59.43333333333334,\n' +
+    '        59.43333333333334,\n' +
+    '        59.43333333333334\n' +
+    '      ],\n' +
+    '      "golpes": [\n' +
+    '        59,\n' +
+    '        59,\n' +
+    '        59,\n' +
+    '        59,\n' +
+    '        59,\n' +
+    '        59\n' +
+    '      ]\n' +
+    '    },\n' +
+    '    {\n' +
+    '      "nome": "Regravação depois de três ações",\n' +
+    '      "antes": [\n' +
+    '        68,\n' +
+    '        68,\n' +
+    '        68\n' +
+    '      ],\n' +
+    '      "custo": 51.4,\n' +
+    '      "permitido": true,\n' +
+    '      "saldos": [\n' +
+    '        50.86666666666667,\n' +
+    '        50.86666666666667,\n' +
+    '        50.86666666666667\n' +
+    '      ],\n' +
+    '      "golpes": [\n' +
+    '        51,\n' +
+    '        51,\n' +
+    '        51\n' +
+    '      ]\n' +
+    '    },\n' +
+    '    {\n' +
+    '      "nome": "Extensão depois de gastar tudo",\n' +
+    '      "antes": [],\n' +
+    '      "custo": 63.736,\n' +
+    '      "permitido": false,\n' +
+    '      "saldos": []\n' +
+    '    },\n' +
+    '    {\n' +
+    '      "nome": "Extensão em janela externa com cota e requisitos fornecidos",\n' +
+    '      "antes": [\n' +
+    '        68\n' +
+    '      ],\n' +
+    '      "custo": 63.736,\n' +
+    '      "permitido": true,\n' +
+    '      "saldos": [\n' +
+    '        4.264000000000003\n' +
+    '      ],\n' +
+    '      "golpes": [\n' +
+    '        4\n' +
+    '      ]\n' +
+    '    },\n' +
+    '    {\n' +
+    '      "nome": "Cota insuficiente",\n' +
+    '      "antes": [\n' +
+    '        34\n' +
+    '      ],\n' +
+    '      "custo": 51.4,\n' +
+    '      "permitido": false,\n' +
+    '      "saldos": [\n' +
+    '        34\n' +
+    '      ]\n' +
+    '    },\n' +
+    '    {\n' +
+    '      "nome": "Dois braços destruídos antes de cobrar",\n' +
+    '      "antes": [\n' +
+    '        68,\n' +
+    '        68,\n' +
+    '        68,\n' +
+    '        68\n' +
+    '      ],\n' +
+    '      "custo": 51.4,\n' +
+    '      "permitido": true,\n' +
+    '      "saldos": [\n' +
+    '        55.15,\n' +
+    '        55.15,\n' +
+    '        55.15,\n' +
+    '        55.15\n' +
+    '      ],\n' +
+    '      "golpes": [\n' +
+    '        55,\n' +
+    '        55,\n' +
+    '        55,\n' +
+    '        55\n' +
+    '      ]\n' +
+    '    },\n' +
+    '    {\n' +
+    '      "nome": "Duas aptidões na mesma rodada",\n' +
+    '      "antes": [\n' +
+    '        68,\n' +
+    '        68,\n' +
+    '        68,\n' +
+    '        68,\n' +
+    '        68,\n' +
+    '        68\n' +
+    '      ],\n' +
+    '      "custo": 115.136,\n' +
+    '      "permitido": true,\n' +
+    '      "saldos": [\n' +
+    '        48.81066666666667,\n' +
+    '        48.81066666666667,\n' +
+    '        48.81066666666667,\n' +
+    '        48.81066666666667,\n' +
+    '        48.81066666666667,\n' +
+    '        48.81066666666667\n' +
+    '      ],\n' +
+    '      "golpes": [\n' +
+    '        49,\n' +
+    '        49,\n' +
+    '        49,\n' +
+    '        49,\n' +
+    '        49,\n' +
+    '        49\n' +
+    '      ]\n' +
+    '    },\n' +
+    '    {\n' +
+    '      "nome": "Primeira ativação de Extensão",\n' +
+    '      "antes": [\n' +
+    '        68,\n' +
+    '        68,\n' +
+    '        68,\n' +
+    '        68,\n' +
+    '        68,\n' +
+    '        68\n' +
+    '      ],\n' +
+    '      "custo": 63.736,\n' +
+    '      "permitido": true,\n' +
+    '      "saldos": [\n' +
+    '        57.37733333333333,\n' +
+    '        57.37733333333333,\n' +
+    '        57.37733333333333,\n' +
+    '        57.37733333333333,\n' +
+    '        57.37733333333333,\n' +
+    '        57.37733333333333\n' +
+    '      ],\n' +
+    '      "golpes": [\n' +
+    '        57,\n' +
+    '        57,\n' +
+    '        57,\n' +
+    '        57,\n' +
+    '        57,\n' +
+    '        57\n' +
+    '      ]\n' +
+    '    },\n' +
+    '    {\n' +
+    '      "nome": "Nova ativação, novo débito de erguer",\n' +
+    '      "antes": [\n' +
+    '        57.37733333333333,\n' +
+    '        57.37733333333333,\n' +
+    '        57.37733333333333,\n' +
+    '        57.37733333333333,\n' +
+    '        57.37733333333333,\n' +
+    '        57.37733333333333\n' +
+    '      ],\n' +
+    '      "custo": 7.196,\n' +
+    '      "permitido": true,\n' +
+    '      "saldos": [\n' +
+    '        56.178,\n' +
+    '        56.178,\n' +
+    '        56.178,\n' +
+    '        56.178,\n' +
+    '        56.178,\n' +
+    '        56.178\n' +
+    '      ],\n' +
+    '      "golpes": [\n' +
+    '        56,\n' +
+    '        56,\n' +
+    '        56,\n' +
+    '        56,\n' +
+    '        56,\n' +
+    '        56\n' +
+    '      ]\n' +
+    '    },\n' +
+    '    {\n' +
+    '      "nome": "Perder braço depois do débito não estorna preço",\n' +
+    '      "antes": [\n' +
+    '        57.37733333333333,\n' +
+    '        57.37733333333333,\n' +
+    '        57.37733333333333,\n' +
+    '        57.37733333333333,\n' +
+    '        57.37733333333333,\n' +
+    '        57.37733333333333\n' +
+    '      ],\n' +
+    '      "depois": [\n' +
+    '        57.37733333333333,\n' +
+    '        57.37733333333333,\n' +
+    '        57.37733333333333,\n' +
+    '        57.37733333333333,\n' +
+    '        57.37733333333333\n' +
+    '      ]\n' +
+    '    },\n' +
+    '    {\n' +
+    '      "nome": "Regravação seguida de Chama, todas as ações disponíveis",\n' +
+    '      "chama": {\n' +
+    '        "media": 147,\n' +
+    '        "expressao": "16d12 + 43"\n' +
+    '      },\n' +
+    '      "acoesConsumidas": 6,\n' +
+    '      "saldosDepois": []\n' +
+    '    },\n' +
+    '    {\n' +
+    '      "nome": "Nova rodada não recebe dívida",\n' +
+    '      "novaCota": 408,\n' +
+    '      "divida": 0\n' +
+    '    }\n' +
+    '  ]\n' +
+    '}\n',
+  expected: '{\n' +
+    '  "nivel": 30,\n' +
+    '  "n": 6,\n' +
+    '  "categoria": "Calamidade",\n' +
+    '  "rodadas": 5,\n' +
+    '  "atributos": {\n' +
+    '    "Força": 2,\n' +
+    '    "Destreza": 4,\n' +
+    '    "Constituição": 4,\n' +
+    '    "Inteligência": 6,\n' +
+    '    "Essência": 6\n' +
+    '  },\n' +
+    '  "refino": 10,\n' +
+    '  "defesa": 18,\n' +
+    '  "acerto": 10,\n' +
+    '  "acertoCorpo": 6,\n' +
+    '  "cd": 18,\n' +
+    '  "base": 2362.5,\n' +
+    '  "fatores": {\n' +
+    '    "papel": 0.9090909090909091,\n' +
+    '    "defesa": 1.2,\n' +
+    '    "dominio": 1.92,\n' +
+    '    "recarga": 1.1166666666666667,\n' +
+    '    "circulacao": 1.0558659217877095,\n' +
+    '    "intervencao": 1.025\n' +
+    '  },\n' +
+    '  "pv": 1111,\n' +
+    '  "integridade": 555,\n' +
+    '  "golpe": 68,\n' +
+    '  "dados": "6d10 + 35",\n' +
+    '  "curaAcao": 78,\n' +
+    '  "braco": 157,\n' +
+    '  "curaReacao": 25,\n' +
+    '  "circDados": 10,\n' +
+    '  "maiorClasse": 7,\n' +
+    '  "cambio": 5.14,\n' +
+    '  "custoExt": 63.736,\n' +
+    '  "custoReg": 51.4,\n' +
+    '  "quota": 408,\n' +
+    '  "marcas": 5,\n' +
+    '  "especial": {\n' +
+    '    "orcamento": 15.11111111111111,\n' +
+    '    "classe": 5,\n' +
+    '    "leve": 3,\n' +
+    '    "media": 5,\n' +
+    '    "pesada": 8,\n' +
+    '    "clivarDados": 12,\n' +
+    '    "teiaDados": 9\n' +
+    '  },\n' +
+    '  "chama": {\n' +
+    '    "media": 170,\n' +
+    '    "expressao": "18d12 + 53"\n' +
+    '  },\n' +
+    '  "intervencao": {\n' +
+    '    "media": 51,\n' +
+    '    "dados": "4d12 + 25"\n' +
+    '  },\n' +
+    '  "modos": [\n' +
+    '    {\n' +
+    '      "nome": "normal",\n' +
+    '      "custo": 0,\n' +
+    '      "cota": 408,\n' +
+    '      "golpe": 68,\n' +
+    '      "dados": "6d10 + 35",\n' +
+    '      "tecnica": {\n' +
+    '        "orcamento": 15.11111111111111,\n' +
+    '        "classe": 5,\n' +
+    '        "leve": 3,\n' +
+    '        "media": 5,\n' +
+    '        "pesada": 8,\n' +
+    '        "clivarDados": 12,\n' +
+    '        "teiaDados": 9\n' +
+    '      }\n' +
+    '    },\n' +
+    '    {\n' +
+    '      "nome": "Extensão",\n' +
+    '      "custo": 63.736,\n' +
+    '      "cota": 344.264,\n' +
+    '      "golpe": 57,\n' +
+    '      "dados": "8d6 + 29",\n' +
+    '      "tecnica": {\n' +
+    '        "orcamento": 12.666666666666666,\n' +
+    '        "classe": 4,\n' +
+    '        "leve": 2,\n' +
+    '        "media": 4,\n' +
+    '        "pesada": 6,\n' +
+    '        "clivarDados": 10,\n' +
+    '        "teiaDados": 8\n' +
+    '      }\n' +
+    '    },\n' +
+    '    {\n' +
+    '      "nome": "Regravação",\n' +
+    '      "custo": 51.4,\n' +
+    '      "cota": 356.6,\n' +
+    '      "golpe": 59,\n' +
+    '      "dados": "8d6 + 31",\n' +
+    '      "tecnica": {\n' +
+    '        "orcamento": 13.11111111111111,\n' +
+    '        "classe": 4,\n' +
+    '        "leve": 2,\n' +
+    '        "media": 4,\n' +
+    '        "pesada": 6,\n' +
+    '        "clivarDados": 11,\n' +
+    '        "teiaDados": 9\n' +
+    '      }\n' +
+    '    },\n' +
+    '    {\n' +
+    '      "nome": "ambas",\n' +
+    '      "custo": 115.136,\n' +
+    '      "cota": 292.86400000000003,\n' +
+    '      "golpe": 49,\n' +
+    '      "dados": "4d12 + 23",\n' +
+    '      "tecnica": {\n' +
+    '        "orcamento": 10.88888888888889,\n' +
+    '        "classe": 3,\n' +
+    '        "leve": 2,\n' +
+    '        "media": 3,\n' +
+    '        "pesada": 5,\n' +
+    '        "clivarDados": 8,\n' +
+    '        "teiaDados": 6\n' +
+    '      }\n' +
+    '    }\n' +
+    '  ],\n' +
+    '  "provaAtributos": {\n' +
+    '    "criacao": [\n' +
+    '      2,\n' +
+    '      2,\n' +
+    '      1,\n' +
+    '      2,\n' +
+    '      3\n' +
+    '    ],\n' +
+    '    "livres": [\n' +
+    '      [\n' +
+    '        4\n' +
+    '      ],\n' +
+    '      [\n' +
+    '        4,\n' +
+    '        4\n' +
+    '      ],\n' +
+    '      [\n' +
+    '        1\n' +
+    '      ],\n' +
+    '      [\n' +
+    '        3\n' +
+    '      ],\n' +
+    '      [\n' +
+    '        2\n' +
+    '      ],\n' +
+    '      [\n' +
+    '        3\n' +
+    '      ],\n' +
+    '      [\n' +
+    '        3\n' +
+    '      ]\n' +
+    '    ],\n' +
+    '    "rei": [\n' +
+    '      0,\n' +
+    '      1,\n' +
+    '      2,\n' +
+    '      1,\n' +
+    '      0\n' +
+    '    ],\n' +
+    '    "final": [\n' +
+    '      2,\n' +
+    '      4,\n' +
+    '      4,\n' +
+    '      6,\n' +
+    '      6\n' +
+    '    ],\n' +
+    '    "aptidoes": {\n' +
+    '      "18": "Energia Reversa",\n' +
+    '      "22": "Circulação, escolha com refino",\n' +
+    '      "26": "Regravação",\n' +
+    '      "30": "Extensão"\n' +
+    '    }\n' +
+    '  },\n' +
+    '  "ensaioDebito": [\n' +
+    '    {\n' +
+    '      "nome": "Regravação antes de agir",\n' +
+    '      "antes": [\n' +
+    '        68,\n' +
+    '        68,\n' +
+    '        68,\n' +
+    '        68,\n' +
+    '        68,\n' +
+    '        68\n' +
+    '      ],\n' +
+    '      "custo": 51.4,\n' +
+    '      "permitido": true,\n' +
+    '      "saldos": [\n' +
+    '        59.43333333333334,\n' +
+    '        59.43333333333334,\n' +
+    '        59.43333333333334,\n' +
+    '        59.43333333333334,\n' +
+    '        59.43333333333334,\n' +
+    '        59.43333333333334\n' +
+    '      ],\n' +
+    '      "golpes": [\n' +
+    '        59,\n' +
+    '        59,\n' +
+    '        59,\n' +
+    '        59,\n' +
+    '        59,\n' +
+    '        59\n' +
+    '      ]\n' +
+    '    },\n' +
+    '    {\n' +
+    '      "nome": "Regravação depois de três ações",\n' +
+    '      "antes": [\n' +
+    '        68,\n' +
+    '        68,\n' +
+    '        68\n' +
+    '      ],\n' +
+    '      "custo": 51.4,\n' +
+    '      "permitido": true,\n' +
+    '      "saldos": [\n' +
+    '        50.86666666666667,\n' +
+    '        50.86666666666667,\n' +
+    '        50.86666666666667\n' +
+    '      ],\n' +
+    '      "golpes": [\n' +
+    '        51,\n' +
+    '        51,\n' +
+    '        51\n' +
+    '      ]\n' +
+    '    },\n' +
+    '    {\n' +
+    '      "nome": "Extensão depois de gastar tudo",\n' +
+    '      "antes": [],\n' +
+    '      "custo": 63.736,\n' +
+    '      "permitido": false,\n' +
+    '      "saldos": []\n' +
+    '    },\n' +
+    '    {\n' +
+    '      "nome": "Extensão em janela externa com cota e requisitos fornecidos",\n' +
+    '      "antes": [\n' +
+    '        68\n' +
+    '      ],\n' +
+    '      "custo": 63.736,\n' +
+    '      "permitido": true,\n' +
+    '      "saldos": [\n' +
+    '        4.264000000000003\n' +
+    '      ],\n' +
+    '      "golpes": [\n' +
+    '        4\n' +
+    '      ]\n' +
+    '    },\n' +
+    '    {\n' +
+    '      "nome": "Cota insuficiente",\n' +
+    '      "antes": [\n' +
+    '        34\n' +
+    '      ],\n' +
+    '      "custo": 51.4,\n' +
+    '      "permitido": false,\n' +
+    '      "saldos": [\n' +
+    '        34\n' +
+    '      ]\n' +
+    '    },\n' +
+    '    {\n' +
+    '      "nome": "Dois braços destruídos antes de cobrar",\n' +
+    '      "antes": [\n' +
+    '        68,\n' +
+    '        68,\n' +
+    '        68,\n' +
+    '        68\n' +
+    '      ],\n' +
+    '      "custo": 51.4,\n' +
+    '      "permitido": true,\n' +
+    '      "saldos": [\n' +
+    '        55.15,\n' +
+    '        55.15,\n' +
+    '        55.15,\n' +
+    '        55.15\n' +
+    '      ],\n' +
+    '      "golpes": [\n' +
+    '        55,\n' +
+    '        55,\n' +
+    '        55,\n' +
+    '        55\n' +
+    '      ]\n' +
+    '    },\n' +
+    '    {\n' +
+    '      "nome": "Duas aptidões na mesma rodada",\n' +
+    '      "antes": [\n' +
+    '        68,\n' +
+    '        68,\n' +
+    '        68,\n' +
+    '        68,\n' +
+    '        68,\n' +
+    '        68\n' +
+    '      ],\n' +
+    '      "custo": 115.136,\n' +
+    '      "permitido": true,\n' +
+    '      "saldos": [\n' +
+    '        48.81066666666667,\n' +
+    '        48.81066666666667,\n' +
+    '        48.81066666666667,\n' +
+    '        48.81066666666667,\n' +
+    '        48.81066666666667,\n' +
+    '        48.81066666666667\n' +
+    '      ],\n' +
+    '      "golpes": [\n' +
+    '        49,\n' +
+    '        49,\n' +
+    '        49,\n' +
+    '        49,\n' +
+    '        49,\n' +
+    '        49\n' +
+    '      ]\n' +
+    '    },\n' +
+    '    {\n' +
+    '      "nome": "Primeira ativação de Extensão",\n' +
+    '      "antes": [\n' +
+    '        68,\n' +
+    '        68,\n' +
+    '        68,\n' +
+    '        68,\n' +
+    '        68,\n' +
+    '        68\n' +
+    '      ],\n' +
+    '      "custo": 63.736,\n' +
+    '      "permitido": true,\n' +
+    '      "saldos": [\n' +
+    '        57.37733333333333,\n' +
+    '        57.37733333333333,\n' +
+    '        57.37733333333333,\n' +
+    '        57.37733333333333,\n' +
+    '        57.37733333333333,\n' +
+    '        57.37733333333333\n' +
+    '      ],\n' +
+    '      "golpes": [\n' +
+    '        57,\n' +
+    '        57,\n' +
+    '        57,\n' +
+    '        57,\n' +
+    '        57,\n' +
+    '        57\n' +
+    '      ]\n' +
+    '    },\n' +
+    '    {\n' +
+    '      "nome": "Nova ativação, novo débito de erguer",\n' +
+    '      "antes": [\n' +
+    '        57.37733333333333,\n' +
+    '        57.37733333333333,\n' +
+    '        57.37733333333333,\n' +
+    '        57.37733333333333,\n' +
+    '        57.37733333333333,\n' +
+    '        57.37733333333333\n' +
+    '      ],\n' +
+    '      "custo": 7.196,\n' +
+    '      "permitido": true,\n' +
+    '      "saldos": [\n' +
+    '        56.178,\n' +
+    '        56.178,\n' +
+    '        56.178,\n' +
+    '        56.178,\n' +
+    '        56.178,\n' +
+    '        56.178\n' +
+    '      ],\n' +
+    '      "golpes": [\n' +
+    '        56,\n' +
+    '        56,\n' +
+    '        56,\n' +
+    '        56,\n' +
+    '        56,\n' +
+    '        56\n' +
+    '      ]\n' +
+    '    },\n' +
+    '    {\n' +
+    '      "nome": "Perder braço depois do débito não estorna preço",\n' +
+    '      "antes": [\n' +
+    '        57.37733333333333,\n' +
+    '        57.37733333333333,\n' +
+    '        57.37733333333333,\n' +
+    '        57.37733333333333,\n' +
+    '        57.37733333333333,\n' +
+    '        57.37733333333333\n' +
+    '      ],\n' +
+    '      "depois": [\n' +
+    '        57.37733333333333,\n' +
+    '        57.37733333333333,\n' +
+    '        57.37733333333333,\n' +
+    '        57.37733333333333,\n' +
+    '        57.37733333333333\n' +
+    '      ]\n' +
+    '    },\n' +
+    '    {\n' +
+    '      "nome": "Regravação seguida de Chama, todas as ações disponíveis",\n' +
+    '      "chama": {\n' +
+    '        "media": 147,\n' +
+    '        "expressao": "16d12 + 43"\n' +
+    '      },\n' +
+    '      "acoesConsumidas": 6,\n' +
+    '      "saldosDepois": []\n' +
+    '    },\n' +
+    '    {\n' +
+    '      "nome": "Nova rodada não recebe dívida",\n' +
+    '      "novaCota": 408,\n' +
+    '      "divida": 0\n' +
+    '    }\n' +
+    '  ]\n' +
+    '}\n',
+  operator: '=='
+}
+
+Node.js v18.19.1

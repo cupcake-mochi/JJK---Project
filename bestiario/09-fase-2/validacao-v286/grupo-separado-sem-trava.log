@@ -1,0 +1,123 @@
+
+========================================================================================
+1. AS ANCORAS — cada linha da ficha aparece no dono dela
+========================================================================================
+  20 de 20 ancoras encontradas nos donos.
+  [x] as 20 linhas da ficha e as 20 ancoras se cobrem nos dois sentidos, e a contagem por extenso bate
+
+========================================================================================
+2. A TABELA POR NIVEL — Defesa, acerto e CD contra as formulas da peca 1
+========================================================================================
+  [x] as quatro linhas do §3.1 reconstroem das formulas dos donos
+  [x] ele acerta o alvo dificil em 50% a 55%, e o TR treinado dele falha 35% — os numeros da peca 1 §6 do outro lado da rolagem
+
+========================================================================================
+2.1 O ORCAMENTO DE ATRIBUTO — nove na criacao, e o marco no ritmo do meio a meio
+========================================================================================
+  [x] 9 na criacao e o orcamento por marco [10, 12, 13, 15, 16, 18, 20]; o chefe comeca com 10, e o ponto dele e a unica coisa acima da tabela que nao se paga na vida
+
+========================================================================================
+2.2 A TROCA DO §3.2 — o que sai da tabela se paga na vida
+========================================================================================
+  [x] as 4 linhas da troca saem de 5 pontos por ponto, do alvo dificil a 50% e do inimigo a 52.5%; o Brutamontes e o Baluarte sao a linha de ±2
+
+========================================================================================
+3. A GRADE — os degraus, a pressao e as fichas prontas contra o manual
+========================================================================================
+  [x] os cinco degraus: rodadas [2.0, 2.5, 3.0, 4.0, 5.0], orcamento do PF2e [40, 60, 80, 120, 160] (o mesmo das notas), a pressao, o golpe em % e a porta da Intervencao reconstroem
+  a tabela `Inimigos` do manual tem 7 linhas, de nv 2 a 30.
+  [x] as 90 celulas das fichas prontas do §4.1 reconstroem da tabela do manual, e o Desastre ×4 e a linha do manual (945 de vida, 224 por rodada contra 226)
+  [x] o alcance de cada tamanho e o lado da grade vezes o quadrado, e a metade no vizinho e de quem passa de um quadrado
+
+========================================================================================
+4. AS ACOES — N, e o x1 e o x2 contra a regua da peca 19 §2.2
+========================================================================================
+  [x] a regra devolve o x1 a 2.25× a 2.51× e o x2 a 1.90× a 2.07×, abaixo do filtro de 3.0×, com o TR treinado falhando 35% e a desvantagem 57.7%
+  [x] 4.3: o que N corpos de x1 cobram contra um de xN reconstroi da simulacao, no nivel 30
+  [x] 4.6: concentrando, o Desastre ×4 derruba um na rodada 1.12 e 2.68 pessoas na luta; a tabela dos quatro degraus reconstroi
+
+========================================================================================
+4.4 O DADO — o golpe de cada degrau, em dado, pela regra do §4.4
+========================================================================================
+  [x] os cinco golpes do nivel 30 e o dado deles saem da regra do §4.4 (dados [4, 6, 8, 10, 12], no maximo 8 na mao, seco abaixo de 5)
+
+========================================================================================
+5. O CAPANGA — o esquadrao de 2N, o cambio e o chefe com capangas, pela simulacao
+========================================================================================
+  [x] a coluna do Capanga do manual e a do §5 nas 7 faixas; o esquadrao cobra 33.5% em 2 rodadas no nivel 30
+  [x] o cambio das quatro linhas e o chefe com capangas do §4.5 reconstroem da simulacao, com os capangas abatidos primeiro, e o Desastre ×N vale 3N
+  [x] as 7 linhas do manual tem 3 × a saida do grupo em vida e saem em 3 rodadas inteiras — a duracao do Desastre da grade
+
+========================================================================================
+6. O GRAU NAO VIRA NUMERO — nem aqui nem na peca que decide isso
+========================================================================================
+  [x] nenhuma linha viva desta peca pendura numero no grau
+  [x] a peca 12 continua sendo a dona de "Grau e reconhecimento; nivel e poder"
+
+========================================================================================
+7. NENHUM VALOR DE REGRA GUARDADO AQUI DENTRO
+========================================================================================
+  [x] as rodadas, o orcamento, a vida, o golpe e o cambio saem dos donos, e nenhum esta escrito aqui
+  [x] a curva do `meio a meio` foi lida da peca 11: 1 3 4 6 7 9 10 10
+
+========================================================================================
+7.1 A EXPANSAO — ela divide a vida por 1,92, e os gates sao os do jogador
+========================================================================================
+  [x] a Expansao multiplica a saida efetiva por 1 ÷ 0.52 = 1.92, a vida se divide por ele, e a luta com Expansao de cada degrau e as rodadas ÷ ele
+  [x] os gates sao os do manual (nivel 14 e refino 5; sem barreiras no refino 10), o dominio cobre a luta mais longa com Expansao, e o desvio de refino se paga na vida pela troca do §3.2
+
+========================================================================================
+8. A RESISTENCIA — isencao pontual e protecao ampla
+========================================================================================
+  !! 8: falta limite de cobertura da isencao no dono ou em ../../bestiario/08-livro/capitulos/50-o-bloco.md
+  [x] as 4 linhas do §6.3 conferem, incluindo isencao pontual e pesos da peca 19 §4, e a peca declara que a vida crua se divide: resistir 1.43, ser imune 2.5
+
+========================================================================================
+9. O CATALOGO DO JOGADOR NA FICHA DO INIMIGO — as portas e as moedas
+========================================================================================
+  um ponto de feitico vale 4.5; o menor feitico custa 3 pontos; 1 PE por rodada vale 5.14; a maior Classe no nivel 30 e a 7.
+  [x] 9.1: as 35 celulas do orcamento sao a media do dado ÷ 4.5, o seco e o piso da Classe 1, e a maior acao e a Calamidade do nivel 30, com 15.1 pontos
+  [x] 9.2: as 4 linhas da aptidao reconstroem do custo da peca 11 §6.5, com erguer repartido pelas rodadas do degrau e a cota dos N golpes; a Extensao nao cabe no Desastre ×1
+  [x] 9.3: H de cura vale golpe ÷ a saida de um personagem, e a condicao empata em alvos × acoes negadas = as acoes da rodada do personagem × acoes gastas, com a escada da peca 19
+  [x] 9.4: as tres portas do §6.5 declaram a moeda — o orcamento de feitico, a cota e a vida
+
+========================================================================================
+9.5 AS MALDICOES PRONTAS — as seis do gerador de inimigo, na grade
+========================================================================================
+  [x] as 6 prontas estao em celulas vivas (×1 a ×6), com Acoes Multiplas so em quem age mais de uma vez, Intervencoes so onde a porta abre, arranjos que cabem, e nenhuma guarda numero de ficha
+  [x] os 4 geradores do livro do Bestiario devolvem os capitulos publicados (gerar-as-seis.py, gerar-atributos.py, gerar-exemplo.py, gerar-tabelas.py)
+
+========================================================================================
+9.6 A AREA NATURAL — a cobertura sai do nivel, e a forma e o jeito de gastar ela
+========================================================================================
+  [x] os 4 raios sao os primeiros degraus da escada de esfera do manual, a cobertura e o circulo em quadrados, e o cone e os retangulos cabem nos 12.5%
+
+========================================================================================
+9.7 A RECARGA — ela come o turno, bate 2,5 golpes em cada alvo, e se paga na vida
+========================================================================================
+  [x] a Recarga bate 2.5 golpes, o exemplo sai da regra dos dois tercos em d12, a banda e a do Bestiario (e os golpes dos chefes cabem nela), e a tabela divide a vida pelo multiplicador de cada degrau
+
+========================================================================================
+9.8 A CORRENTE — a Regravacao na cota, a Energia Reversa e a Circulacao
+========================================================================================
+  [x] a regravacao no nivel 30 gasta 10 PE = 51.4, e a tabela reconstroi nas 4 celulas; a cura de Reacao divide a vida por 1 ÷ (1 − cura ÷ (N × a saida de um personagem)) nas 2 faixas
+
+========================================================================================
+9.9 A PARTE DESTRUTIVEL — a vida dela e o empate: duas saidas de um personagem
+========================================================================================
+  [x] a vida da parte reconstroi nas 7 faixas: a vida ÷ as rodadas × 2 ÷ N, que e duas vezes a saida de um personagem, igual em todo degrau e todo N
+
+========================================================================================
+9.10 A INTERVENCAO — a porta N × orcamento ≥ 4, e a vida paga 1 + 0,75 ÷ (rodadas × N)
+========================================================================================
+  [x] a tabela da Intervencao reconstroi: abre onde N × orcamento ≥ 4, e a vida se divide por 1 + 0.75 ÷ (rodadas × N)
+
+========================================================================================
+10. O PAPEL — o Artilheiro por degrau, os de acao por N, e os dois da troca
+========================================================================================
+  [x] o Artilheiro de cada degrau e 1 + meia rodada ÷ rodadas; os papeis de acao de cada N saem da vantagem e da acao negada, com o esquadrao do Capanga lendo 2N; e o Brutamontes e o Baluarte sao a troca do §3.2 (2.2)
+  [x] 10.1: o Emboscador nao sobe de Grande e o Reforco so se paga com mais de um inimigo, na peca e no livro; o Baluarte nao volta a precisar de companhia; e as 3 prontas Emboscador cabem na escada
+
+  O papel nao acrescenta encontro: ele move a base de um eixo para a vida, e o golpe fica onde estava.
+>>> 1 PROBLEMA(S):
+   - 8: falta limite de cobertura da isencao no dono ou em ../../bestiario/08-livro/capitulos/50-o-bloco.md

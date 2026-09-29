@@ -8,10 +8,12 @@
 //   3. AS PRONTAS   as seis maldicoes, no molde de bloco do 5e.
 //   4. AS TABELAS   o mestre le e copia. Tudo aqui deriva; nada e escolha.
 //
-// v0.221: a escada passou a ser a viva — Capanga, Ameaca, Desastre, Catastrofe e
-// Calamidade —, com as acoes DECLARADAS na categoria e o fator 0,923 de quem
-// carrega Intervencao. As prontas deixaram de ser formulario: cada uma sai no
-// molde de bloco do 5e, com o mesmo texto do capitulo 8 do livro do Bestiario.
+// v0.221: a escada passou a ser a viva, e as prontas sairam no molde de bloco do 5e,
+// com o mesmo texto do capitulo 8 do livro do Bestiario.
+// v0.282: a escada virou a GRADE da fase 2 do bestiario (peca 26 §4). A categoria e a
+// dificuldade da luta, feita para N pessoas (x1 a x6); a vida e rodadas x N x a saida
+// de um personagem; o golpe e a pressao x o golpe-base; ele age N vezes; e o que ele
+// carrega se paga na vida, sem mexer no golpe.
 const d = require('docx');
 const fs = require('fs');
 const H = require('../gerador-ficha/helpers.js');
@@ -32,94 +34,10 @@ const X = require('./dados.js');
 const { Document, Packer, Paragraph, TextRun, Footer, AlignmentType, PageBreak } = d;
 const Pg = Paragraph;
 
-const NUM = { 1: 'um', 2: 'dois', 3: 'três', 4: 'quatro', 5: 'cinco', 6: 'seis', 7: 'sete', 8: 'oito' };
-const lista = (xs) => (xs.length > 1 ? `${xs.slice(0, -1).join(', ')} e ${xs[xs.length - 1]}` : xs[0]);
-const virg = (x) => String(x).replace('.', ',');
-
-// [nome, personagens, fator, acoes, carrega Intervencao] — peca 26 §4
-function categoria(nome) {
-  const c = X.CATEGORIAS.find((x) => x[0] === nome);
-  if (!c) throw new Error(`a categoria "${nome}" nao existe na escada da peca 26 §4`);
-  return c;
-}
-
-// ⚠ meio para BAIXO, e a regra e' declarada na peca 26 §4.1. Nao e' cosmetica:
-// os fatores 0,25 e 1,50 poem doze das sessenta e tres celulas desta escala
-// exatamente em ,5. O Math.round do JS arredonda meio para cima e o round do
-// Python arredonda para o par — tres lugares com duas convencoes seria a licao
-// no 9 num numero que o mestre le em voz alta.
-const arred = (x) => Math.ceil(x - 0.5);
-const esc = (v, f) => (v == null ? '—' : String(arred(v * f)));
-// v0.228: a Integridade do inimigo e metade da vida maxima, para baixo (peca 24 SS3.3).
-const integridadeDe = (vida) => (/^\d+$/.test(String(vida)) ? String(Math.floor(Number(vida) / 2)) : vida);
-
-// O dano vira DADO, no molde do resto do hobby: o `Guia do Mestre` de 2014 manda
-// traduzir a margem de dano numa expressao de dado, e a peca 26 §4.4 e a dona da
-// regra daqui — metade em dado, metade fixa. Abaixo de 5 o golpe e numero seco.
-// v0.216: o TAMANHO do dado se escolhe entre d4 e d12, pelo que fecha a metade
-// mais limpo, com no maximo oito dados na mao. Pedido do Mizuki: "n precisa
-// sustentar pra sempre o d8, da pra usar d6, d4, d10, d12, para ajudar nos
-// calculos". O teto de oito dados nao e cosmetico: sem ele o otimizador troca
-// 5d8+26 por 10d4+24 — fecha melhor na aritmetica e e pior na mao.
-const DADOS = [4, 6, 8, 10, 12];
-function dado(alvo) {
-  // ⚠ o piso continua 5, e nao 3. Com 3, um alvo de 3,0 virava `1d8` — que
-  // entrega 4,5, cinquenta por cento a mais. Abaixo de 5 o golpe e numero seco.
-  if (alvo < 5) return String(arred(alvo));
-  const meta = alvo / 2;
-  let bom = null;
-  for (const d of DADOS) {
-    const med = (d + 1) / 2;
-    const n = Math.max(1, Math.round(meta / med));
-    if (n > 8) continue;
-    const fixo = alvo - n * med;
-    if (fixo < 0) continue;
-    const inteiro = Math.abs(fixo - Math.round(fixo)) < 1e-9 ? 0 : 1;
-    const erro = Math.abs(n * med - meta);
-    if (bom === null || inteiro < bom.inteiro
-        || (inteiro === bom.inteiro && erro < bom.erro - 1e-9)
-        || (inteiro === bom.inteiro && Math.abs(erro - bom.erro) < 1e-9 && n < bom.n)) {
-      bom = { inteiro, erro, n, d, fixo: Math.round(fixo) };
-    }
-  }
-  if (bom === null) {                       // nenhum dado coube no teto
-    const n = Math.max(1, Math.round(alvo / 9));
-    const m = arred(alvo - 4.5 * n);
-    return m > 0 ? `${n}d8 + ${m}` : `${n}d8`;
-  }
-  return bom.fixo > 0 ? `${bom.n}d${bom.d} + ${bom.fixo}` : `${bom.n}d${bom.d}`;
-}
-
-function media(e) {
-  const m = /^(\d+)d(\d+)(?:\s*\+\s*(\d+))?$/.exec(String(e).trim());
-  return m ? Number(m[1]) * (1 + Number(m[2])) / 2 + Number(m[3] || 0) : Number(e);
-}
-// O dano de rodada da categoria. Quem carrega Intervencao leva o fator dela,
-// pela peca 26 §6.5 — a Intervencao e acao extra e se paga no dano. A ordem e a
-// do livro do Bestiario: o dano de rodada arredondado, e o fator por cima.
-function danoDaRodada(danoLinha, c) {
-  const r = arred(danoLinha * c[2]);
-  return c[4] ? arred(r * X.FATOR_INTERVENCAO) : r;
-}
-function golpe(danoLinha, c) { return dado(danoDaRodada(danoLinha, c) / c[3]); }
-// o golpe CRU, sem o fator — e dele que sai o orcamento de feitico (peca 26 §6.5)
-function golpeCru(danoLinha, c) { return dado(arred(danoLinha * c[2]) / c[3]); }
-// o molde do 5e: a media, arredondada para baixo, e os dados entre parenteses
-const fmtGolpe = (e) => (String(e).includes('d') ? `\`${Math.floor(media(e))} (${e})\`` : `\`${e}\``);
-
-function derivada(nv) {
-  const dv = X.DERIVADAS.find((x) => {
-    const [a, b] = x[0].split(' a ').map(Number);
-    return nv >= a && nv <= b;
-  });
-  if (!dv) throw new Error(`nenhuma linha de DERIVADAS cobre o nivel ${nv}`);
-  return dv;
-}
-// a protecao anda junto do refino — peca 11 §6: um terco do refino, mais um
-const protecao = (refino) => Math.floor(refino / 3) + 1;
-// a maestria — peca 1 §2: 1 do nivel 2 ao 9, e +1 a cada oito niveis
-const maestria = (nv) => Math.floor((nv - 2) / 8) + 1;
-const NOMES_AT = ['Força', 'Destreza', 'Constituição', 'Inteligência', 'Essência'];
+// v0.282: a conta mora no conta.js; aqui so se monta o .docx em cima dela.
+const K = require('./conta.js');
+const { NUM, lista, virg, degrau, pressao, temIntervencao, precoIntervencao, arred, integridadeDe,
+        dado, media, vidaCel, golpe, fmtGolpe, derivada, protecao, maestria, FEM, TR_TODOS, rotNv, montaPronta } = K;
 
 function titulo(sub) {
   return [
@@ -173,7 +91,7 @@ function bloco(f, primeiro, rotulo) {
   out.push(...titulo(rotulo || (f ? 'Ficha de inimigo — exemplo' : 'Ficha de inimigo')));
   if (vazio) out.push(P('Preencha de cima para baixo. **Defesa, vida, refino e o golpe você copia das tabelas do fim**; o resto você decide.'));
   out.push(GAP(120));
-  out.push(...nomeGrande(v('nome'), f ? `${v('categoria')} ${v('sub')} · nível do grupo ${v('nivel')}` : 'tamanho · categoria · sub-categoria · nível do grupo · grau'));
+  out.push(...nomeGrande(v('nome'), f ? `${v('categoria')} ×${v('n')} · nível do grupo ${v('nivel')}` : 'tamanho · categoria ×N · papel · nível do grupo · grau'));
   out.push(regra());
   out.push(stat('Defesa', v('defesa'), vazio));
   out.push(stat('Vida e Integridade', f ? `${v('vida')} · ${integridadeDe(v('vida'))}` : '', vazio));
@@ -196,7 +114,7 @@ function bloco(f, primeiro, rotulo) {
   out.push(stat('Golpe', f ? `${v('acerto')} para acertar, ${v('dano')} de dano` : '', vazio));
   out.push(regra());
   out.push(BLOCO('traços — Passivas, aptidões e técnica', v('caracteristicas'), 2));
-  out.push(BLOCO(`Intervenções — ${NUM[X.INTERVENCOES]} por luta, de Desastre para cima`, v('intervencoes'), 2));
+  out.push(BLOCO(`Intervenções — ${NUM[X.INTERVENCOES]} por luta, quando N × orçamento chega a ${X.PORTA_INTERVENCAO}`, v('intervencoes'), 2));
   out.push(BLOCO('pacto — o teto do permanente é metade da Essência dele', v('pacto'), 1));
   out.push(BLOCO('o que ele faz na mesa', v('notas'), 2));
   return out;
@@ -208,125 +126,24 @@ function bloco(f, primeiro, rotulo) {
 // `475` de vida e `1d8 + 4` de golpe, de uma tabela que o manual ja tinha trocado.
 const EXEMPLO = (() => {
   const f = X.FAIXAS.find((x) => x[1] <= 10 && 10 <= x[2]);
-  const c = categoria('Desastre');
+  const dg = degrau('Desastre');
+  const n = 4;
   const dv = derivada(10);
   const elem = X.RESISTENCIA.find((r) => r[0] === 'Elementais');
+  const fr = Number(elem[2].replace('×', '').replace(',', '.'));
   return {
-    nome: 'Maldição de nível 10', grau: '—', nivel: '10', categoria: c[0], sub: 'sozinho',
+    nome: 'Maldição de nível 10', grau: '—', nivel: '10', categoria: dg[0], n: String(n),
     forca: '3', destreza: '3', con: '2', int: '1', ess: '0',
     trs: 'Físico e Vigor',
-    resist: `resistência a Elementais — multiplica o fator por ${elem[2].replace('×', '')}`,
-    vida: esc(f[5], c[2]), dano: golpe(f[6], c), porRodada: `${NUM[c[3]]} ações, e uma Reação`,
+    resist: `resistência a Elementais — a vida se divide por ${elem[2].replace('×', '')}`,
+    vida: String(vidaCel(f, dg, n, 1 / (fr * precoIntervencao(dg, n)))), dano: golpe(f, dg), porRodada: `${NUM[n]} ações, e uma Reação`,
     defesa: String(dv[1]), acerto: `+${dv[2]}`, cd: String(dv[3]), refino: String(dv[4]),
     caracteristicas: 'Escama (Passiva) · duas aptidões do catálogo da peça 11',
     intervencoes: 'a primeira bate um pouco menos que uma ação; as outras duas mudam o campo',
     pacto: 'nenhum — a Essência dele é 0, e o teto é metade dela',
-    notas: `Age ${NUM[c[3]]} vezes por rodada e rola o dado uma vez em cada. Um esquadrão de ${NUM[X.CAMBIO]} capangas de ${f[7]} de vida vale o mesmo encontro.`,
+    notas: `Age ${NUM[n]} vezes por rodada e rola o dado uma vez em cada. Um esquadrão de ${X.CAMBIO_POR_PESSOA * n} capangas de ${f[7]} de vida vale o mesmo encontro.`,
   };
 })();
-
-// ------------------------------------------------------ 3. AS SEIS PRONTAS
-// Cada numero aqui e COMPUTADO de FAIXAS, CATEGORIAS e DERIVADAS, e nenhum e
-// lido das PRONTAS: elas guardam so escolha e texto. O texto traz marcadores, e
-// esta funcao enche cada um pela mesma regra que o livro do Bestiario usa — um
-// marcador que ninguem conhece mata a geracao em vez de sair em branco.
-const FEM = { Minúsculo: 'Minúscula', Pequeno: 'Pequena', Médio: 'Média', Grande: 'Grande', Imenso: 'Imensa', Colossal: 'Colossal' };
-const TR_TODOS = ['Físico', 'Vigor', 'Intelecto', 'Espírito'];
-const rotNv = (a, b) => (a === b ? `nível ${a}` : `nível ${a} a ${b}`);
-
-// O papel da peca 26 §3.4. Ele REDISTRIBUI a base: o que ganha num eixo paga no
-// outro, e o produto fecha em 1,000 — o encontro nao muda de tamanho, muda de
-// forma. Os tres de fator fixo saem da tabela; os tres variaveis saem das ACOES,
-// porque o preco deles e UMA acao, e o `Capanga` se le por esquadrao.
-function fatorPapel(nome, c) {
-  if (!nome) return { vida: 1, defesa: 0 };
-  const p = X.PAPEIS.find((x) => x[0] === nome);
-  if (!p) throw new Error(`papel desconhecido: ${nome}`);
-  if (c[1] === null && X.PAPEIS_FORA_DO_CAPANGA.includes(nome)) {
-    throw new Error(`o Capanga nao aceita ${nome}: um corpo que nao cai num golpe deixa de ser Capanga`);
-  }
-  if (p[1] !== null) return { vida: p[1], defesa: p[2] };
-  const n = c[1] === null ? X.ACOES_ESQUADRAO : c[3];
-  const ganha = p[3] === 'vantagem' ? (n - 1 + X.MULT_VANTAGEM) / n : 1 + 1 / n;
-  return { vida: 1 / ganha, defesa: 0 };
-}
-
-function montaPronta(p) {
-  const f = X.FAIXAS.find((x) => x[0] === p.faixa);
-  if (!f) throw new Error(`a faixa "${p.faixa}" de ${p.nome} nao existe em FAIXAS`);
-  const c = categoria(p.categoria);
-  // v0.234: o arranjo cabe na criação — nove pontos, dez para o chefe (quem carrega Intervenção), teto 3
-  const arr = p.arranjo.split('·').map(Number);
-  if (arr.some((x) => x > 3) || arr.reduce((s, x) => s + x, 0) !== (c[4] ? 10 : 9)) {
-    throw new Error(`${p.nome}: o arranjo ${p.arranjo} nao e ${c[4] ? 'dez' : 'nove'} pontos com teto 3`);
-  }
-  // v0.235: a pronta declara o atributo de ataque, e cada ponto de marco com o atributo dele
-  const iAtk = NOMES_AT.indexOf(p.ataque);
-  if (iAtk < 0) throw new Error(`${p.nome}: o ataque "${p.ataque}" nao e um dos cinco atributos`);
-  const pontosMarco = Object.entries(p.marcos || {}).flatMap(([mk, ats]) => {
-    if (!Array.isArray(ats)) throw new Error(`${p.nome}: o marco ${mk} tem de ser uma lista de atributos`);
-    return ats.map((a) => {
-      if (!NOMES_AT.includes(a)) throw new Error(`${p.nome}: o marco ${mk} leva "${a}", que nao e atributo`);
-      return [Number(mk), a];
-    });
-  });
-  const atNv = (nv) => arr.map((v, i) => v + pontosMarco.filter(([mk, a]) => mk <= nv && a === NOMES_AT[i]).length);
-  const fp = fatorPapel(p.papel, c);
-  const [lo, hi] = [f[1], f[2]];
-  const seg = [];
-  for (let nv = lo; nv <= hi; nv++) {
-    const dv = derivada(nv);
-    // v0.234: a Defesa sai do arranjo — 10 + Destreza + proteção, e o papel por fora (peça 26 §3.4).
-    // v0.235: o acerto e a CD saem do atributo de ataque, com a maestria. Os dois têm de ser os da
-    // curva; só o chefe pode ter 1 a mais, e é um ponto só, na Destreza ou no ataque.
-    const at = atNv(nv);
-    const exDes = at[1] - (dv[1] - 10 - protecao(dv[4]));
-    const exAtk = at[iAtk] - (dv[2] - maestria(nv));
-    const acima = exDes + (iAtk === 1 ? 0 : exAtk);
-    if (exDes < 0 || exAtk < 0 || acima > (c[4] ? 1 : 0)) {
-      throw new Error(`${p.nome} no nivel ${nv}: Destreza ${at[1]} e ${p.ataque} ${at[iAtk]}, e a tabela pede ${dv[1] - 10 - protecao(dv[4])} e ${dv[2] - maestria(nv)}${c[4] ? ' (ou 1 a mais num deles, de chefe)' : ''}`);
-    }
-    const ch = [dv[1] + fp.defesa + exDes, dv[2] + exAtk, dv[3] + exAtk, dv[4]];
-    const u = seg[seg.length - 1];
-    if (u && u[2].join('|') === ch.join('|')) u[1] = nv; else seg.push([nv, nv, ch]);
-  }
-  const porMarco = (i, fmt) => {
-    const base = fmt(seg[0][2][i]);
-    const extra = seg.slice(1).filter((s) => s[2][i] !== seg[0][2][i])
-      .map((s) => `${fmt(s[2][i])} no ${rotNv(s[0], s[1])}`);
-    return base + (extra.length ? ` (${extra.join('; ')})` : '');
-  };
-  const tam = X.TAMANHOS.find((t) => t[0] === p.tamanho);
-  if (!tam) throw new Error(`o tamanho "${p.tamanho}" de ${p.nome} nao existe`);
-  const alcance = `${virg(tam[1] * 1.5)} m`;
-  const area = X.AREA_NATURAL.find((a) => a[0] <= lo && hi <= a[1]);
-  if (!area) throw new Error(`a faixa de ${p.nome} cruza uma borda da area natural`);
-  const g = golpe(f[6], c);
-  const pontos = media(golpeCru(f[6], c)) / ((8 + 1) / 2);   // o d8 do Fundamento
-  const ret = area[5];
-  const val = {
-    acerto: porMarco(1, (x) => `\`+${x}\``), cd: porMarco(2, (x) => `\`${x}\``),
-    alcance: `\`${alcance}\``, golpe: fmtGolpe(g),
-    vizinho: tam[2] ? ', e metade desse dano em um vizinho do alvo' : '',
-    esfera: `raio \`${area[3]}\``, cone: `\`${area[4]}\``,
-    retangulo: `${ret.slice(0, -1).map((x) => `\`${x}\``).join(', ')} ou \`${ret[ret.length - 1]}\` quadrados`,
-    deslocamento: `\`${X.DESLOCAMENTO}\``,
-    tecnica_dano: fmtGolpe(`${Math.floor(pontos)}d8`), tecnica_alcance: `\`${X.ALCANCE_PROJETIL}\``,
-  };
-  const enche = (t) => t.replace(/\{(\w+)\}/g, (_, k) => {
-    if (!(k in val)) throw new Error(`marcador {${k}} desconhecido em ${p.nome}`);
-    return val[k];
-  });
-  // as travas do molde: Acoes Multiplas so em quem age mais de uma vez, e
-  // Intervencoes so em quem a categoria da — e entao as tres
-  if ((c[3] > 1) !== Boolean(p.acoes_multiplas)) {
-    throw new Error(`${p.nome} age ${c[3]} vez(es) e ${p.acoes_multiplas ? 'traz' : 'nao traz'} Acoes Multiplas`);
-  }
-  if (c[4] !== (p.intervencoes.length > 0) || (c[4] && p.intervencoes.length !== X.INTERVENCOES)) {
-    throw new Error(`${p.nome} (${c[0]}) com ${p.intervencoes.length} Intervencoes`);
-  }
-  return { f, c, lo, hi, seg, alcance, g, enche, atNv, iAtk, vida: esc(f[5], c[2] * fp.vida) };
-}
 
 function blocoPronto(p) {
   const m = montaPronta(p);
@@ -336,7 +153,7 @@ function blocoPronto(p) {
   out.push(GAP(80));
   const corpos = p.corpos_na_mesa > 1 ? ` · ${NUM[p.corpos_na_mesa]} corpos` : '';
   const pap = p.papel ? ` · ${p.papel}` : '';
-  out.push(...nomeGrande(p.nome, `Maldição ${FEM[p.tamanho]} · ${p.categoria}${pap}${corpos} · nível ${m.lo} a ${m.hi}`));
+  out.push(...nomeGrande(p.nome, `Maldição ${FEM[p.tamanho]} · ${p.categoria} ×${m.n}${pap}${corpos} · nível ${m.lo} a ${m.hi}`));
   out.push(regra());
   for (const [a, b, v] of m.seg) {
     const pre = m.seg.length > 1 ? `*${rotNv(a, b)}* · ` : '';
@@ -384,15 +201,14 @@ function prontas() {
   const hi = Math.max(...fs6.map((m) => m.hi));
   out.push(...titulo(`Maldições prontas — do nível ${lo} ao ${hi}`));
   out.push(P('Seis fichas para abrir e usar, no molde de bloco do 5e. **Nenhum número foi escolhido:** todos saem das tabelas do fim desta folha, e os atributos cabem na criação da peça 2, com nove pontos e teto `3`, e dez no chefe.'));
-  out.push(P('**A coluna do `Capanga` está vazia.** As seis cobrem `Ameaça` e `Desastre`; ficha de esquadrão é o próximo passo.'));
+  out.push(P('**A coluna do `Capanga` está vazia.** As seis são `Ameaça ×1` e `Desastre ×4`; ficha de esquadrão é o próximo passo.'));
   out.push(GAP(120));
   out.push(TBL(['MALDIÇÃO', 'CATEGORIA', 'NÍVEL', 'VIDA', 'GOLPE', 'AÇÕES'],
-    X.PRONTAS.map((p, i) => [p.nome + (p.corpos_na_mesa > 1 ? ` (×${p.corpos_na_mesa})` : ''),
-      p.categoria, p.faixa, fs6[i].vida, fs6[i].g, String(fs6[i].c[3])]),
-    [20, 16, 12, 12, 26, 14], { centerCols: [2, 3, 4, 5] }));
+    X.PRONTAS.map((p, i) => [p.nome + (p.corpos_na_mesa > 1 ? ` (×${p.corpos_na_mesa} na mesa)` : ''),
+      `${p.categoria} ×${fs6[i].n}`, p.faixa, fs6[i].vida, fs6[i].g, String(fs6[i].n)]),
+    [22, 18, 12, 12, 24, 12], { centerCols: [2, 3, 4, 5] }));
   out.push(GAP(100));
-  const fora = X.CATEGORIAS.filter((c) => c[1] != null && c[1] > 4).map((c) => `a \`${c[0]}\` exige ${NUM[c[1]]}`);
-  out.push(NOTA(`A mesa padrão é de quatro, e as categorias acima dela ficam de fora das prontas: ${lista(fora)} feiticeiros. As linhas delas existem nas tabelas e montam na hora, se a sua mesa for grande.`));
+  out.push(NOTA(`As prontas vão do \`×1\` ao \`×4\`. A grade monta qualquer célula, do \`×1\` ao \`×${X.N_MAXIMO}\`, pelas tabelas do fim.`));
   X.PRONTAS.forEach((p) => out.push(...blocoPronto(p)));
   return out;
 }
@@ -405,77 +221,85 @@ function tabelas() {
   const out = [new Paragraph({ children: [new PageBreak()] }), ...titulo('As tabelas')];
   out.push(P('As tabelas de onde saem os números da ficha. **Você só volta aqui quando monta um inimigo novo.**'));
   out.push(GAP(140));
+  const NS = Array.from({ length: X.N_MAXIMO }, (_, i) => i + 1);
 
   out.push(FAIXA('Como montar um inimigo'));
   out.push(P('**1 · Escolha o nível do grupo.** É o nível das fichas que vão sentar na mesa.'));
-  const pes = X.CATEGORIAS.filter((c) => c[1] != null).map((c) => `\`${c[0]}\` é ${NUM[c[1]]}`);
-  out.push(P(`**2 · Escolha a categoria.** Ela responde uma pergunta só: **quantos personagens este inimigo exige?** ${lista(pes)}. O \`Capanga\` é o bando: um esquadrão de ${NUM[X.CAMBIO]} vale um \`Desastre\`.`));
-  out.push(P('**3 · Copie a linha das três primeiras tabelas** — vida, golpe, e a de Defesa, acerto e CD.'));
-  out.push(P('**4 · Decida o que ele é.** O tamanho, os cinco atributos, as características que ele carrega, e se ele resiste a algum tipo de dano.'));
-  out.push(P(`**5 · Se quiser um bando**, troque o corpo grande por ${NUM[X.CAMBIO]} capangas, ou ponha até três ao lado dele pela tabela *Um corpo ou vários*.`));
+  out.push(P(`**2 · Escolha a categoria e o N.** A categoria é a dificuldade da luta, do \`${X.DEGRAUS[0][0]}\` à \`${X.DEGRAUS[X.DEGRAUS.length - 1][0]}\`, e o N é para quantos personagens do nível ela é feita, do \`×1\` ao \`×${X.N_MAXIMO}\`.`));
+  out.push(P('**3 · Copie a vida da tabela do degrau, na coluna do N, e o golpe.** Ele age N vezes por rodada. Defesa, acerto e CD saem da tabela por nível.'));
+  out.push(P('**4 · Decida o que ele é.** O tamanho, os cinco atributos, o papel e as características. O que muda o encontro — resistência, `Recarga`, `Intervenção`, Expansão — divide a vida, e o golpe fica.'));
+  out.push(P(`**5 · Se quiser um bando**, use o \`Capanga\`, ou ponha capangas ao lado do chefe pela tabela *Chefe com capangas*.`));
   const f10 = X.FAIXAS.find((x) => x[1] <= 10 && 10 <= x[2]);
-  const des = categoria('Desastre');
+  const des = degrau('Desastre');
   const dv10 = derivada(10);
-  out.push(NOTA(`**Um exemplo.** Um grupo de nível 10 vai enfrentar uma maldição que os quatro precisam para derrubar. Isso é um \`Desastre\`: \`${esc(f10[5], des[2])}\` de vida, ele rola \`${golpe(f10[6], des)}\` ${NUM[des[3]]} vezes por rodada, Defesa \`${dv10[1]}\`, acerto \`+${dv10[2]}\` e CD \`${dv10[3]}\`.`));
+  out.push(NOTA(`**Um exemplo.** Um grupo de quatro, de nível 10, vai enfrentar uma luta moderada. Isso é um \`Desastre ×4\`: \`${vidaCel(f10, des, 4)}\` de vida, ele rola \`${golpe(f10, des)}\` quatro vezes por rodada, Defesa \`${dv10[1]}\`, acerto \`+${dv10[2]}\` e CD \`${dv10[3]}\`.`));
   out.push(GAP(160));
 
-  out.push(FAIXA('Vida'));
-  out.push(P('A linha vale a **faixa inteira**. Dentro dela o grupo ganha vida e o inimigo não — se quiser manter o aperto no fim da faixa, acrescente capangas. A do `Capanga` é a de um corpo.'));
-  out.push(TBL(['nível do grupo', ...X.CATEGORIAS.map((c) => c[0])],
-    X.FAIXAS.map((f) => [f[0], ...X.CATEGORIAS.map((c) => (c[1] == null ? String(f[7]) : esc(f[5], c[2])))]),
-    [20, 16, 16, 16, 16, 16], { centerCols: [0, 1, 2, 3, 4, 5], boldCols: [0] }));
+  out.push(FAIXA('Os degraus'));
+  out.push(TBL(['categoria', 'a luta dura', 'o golpe', 'Intervenção'],
+    X.DEGRAUS.map((dg) => {
+      const ab = NS.filter((n) => temIntervencao(dg, n));
+      return [dg[0], `${virg(dg[1])} rodadas`, dg[0] === 'Capanga' ? 'metade do golpe-base' : `${virg(pressao(dg).toFixed(3))} × o golpe-base`,
+        ab.length ? `a partir do ×${ab[0]}` : '—'];
+    }),
+    [22, 22, 32, 24], { centerCols: [1, 2, 3], boldCols: [0] }));
   out.push(GAP(150));
 
-  // ⚠ vida e golpe em tabelas SEPARADAS. Estavam na mesma celula, e o Mizuki leu
-  // e disse que era informacao jogada: um numero se anota, o outro se rola.
-  out.push(FAIXA('O golpe'));
-  out.push(P('O `×` diz quantas vezes ele rola por rodada. **Menos ações quer dizer golpe maior**, e quem carrega `Intervenção` — do `Desastre` para cima — já sai com o fator dela.'));
-  out.push(TBL(['nível do grupo', ...X.CATEGORIAS.map((c) => c[0])],
-    X.FAIXAS.map((f) => [f[0], ...X.CATEGORIAS.map((c) => `${golpe(f[6], c)}  ×${c[3]}`)]),
-    [15, 17, 17, 17, 17, 17], { centerCols: [0, 1, 2, 3, 4, 5], boldCols: [0] }));
+  // ⚠ vida e golpe em tabelas SEPARADAS: um numero se anota, o outro se rola.
+  X.DEGRAUS.filter((dg) => dg[0] !== 'Capanga').forEach((dg) => {
+    out.push(FAIXA(`Vida · ${dg[0]}`));
+    out.push(TBL(['nível do grupo', ...NS.map((n) => `×${n}`)],
+      X.FAIXAS.map((f) => [f[0], ...NS.map((n) => String(vidaCel(f, dg, n)))]),
+      [22, 13, 13, 13, 13, 13, 13], { centerCols: [0, 1, 2, 3, 4, 5, 6], boldCols: [0] }));
+    out.push(GAP(120));
+  });
   out.push(new Paragraph({ children: [new PageBreak()] }));
+  out.push(FAIXA('O golpe'));
+  out.push(P('O golpe não depende do N: o `×6` bate o mesmo golpe do `×1`, seis vezes.'));
+  out.push(TBL(['nível do grupo', ...X.DEGRAUS.map((c) => c[0])],
+    X.FAIXAS.map((f) => [f[0], ...X.DEGRAUS.map((dg) => golpe(f, dg))]),
+    [15, 17, 17, 17, 17, 17], { centerCols: [0, 1, 2, 3, 4, 5], boldCols: [0] }));
+  out.push(GAP(150));
   out.push(FAIXA('Defesa, acerto e CD'));
-  out.push(P('Esta escada muda em **marco**, e a de cima muda em **faixa de Classe**. Confira as duas separado.'));
+  out.push(P('Esta escada muda em **marco**, e a de cima muda em **faixa de Classe**. Confira as duas separado. O que sai dela se paga na vida: cada ponto de Defesa acima custa `10%`, e cada ponto de acerto e CD, `8,7%`.'));
   out.push(TBL(['nível', 'Defesa', 'acerto', 'CD do inimigo', 'refino'],
     X.DERIVADAS.map((r) => [r[0], String(r[1]), `+${r[2]}`, String(r[3]), String(r[4])]),
     [22, 20, 19, 20, 19], { centerCols: [0, 1, 2, 3, 4], boldCols: [0] }));
-  out.push(NOTA('Ele acerta um alvo que investiu em defesa em **50% a 55%**, e o Teste de Resistência treinado dele falha **35%**.'));
+  out.push(NOTA('Ele acerta um alvo que investiu em defesa em **50% a 55%**, e o Teste de Resistência treinado dele falha **35%**. **No `×1` e no `×2`**, a condição que tira ação dá a ele um Teste de Resistência no começo do turno — com a maestria no `×1`, com desvantagem no `×2`.'));
 
   out.push(GAP(150));
   out.push(FAIXA('Capanga e câmbio'));
-  const [rLo, rHi] = X.AMEACA_CONTRA_DESASTRE.map((v) => v.toFixed(2).replace('.', ','));
-  out.push(P(`Um \`Desastre\` vale **${X.CAMBIO} capangas** do mesmo nível. O capanga cai num golpe de um personagem — a vida dele é o dano do grupo por rodada dividido por quatro, para baixo —, e o esquadrão vem com a vida num pool só. Quatro \`Ameaça\` **não** valem um \`Desastre\`: elas cobram de \`${rLo}×\` a \`${rHi}×\` o que ele cobra.`));
-  out.push(TBL(['nível do grupo', 'capanga: vida', 'o dado dele', `o pool dos ${NUM[X.CAMBIO]}`],
-    X.FAIXAS.map((f) => [f[0], String(f[7]), dado(f[8]), String(f[7] * X.CAMBIO)]),
-    [22, 20, 22, 36], { centerCols: [0, 1, 2, 3], boldCols: [0] }));
+  const [rLo, rHi] = X.CORPOS_CONTRA_UM.map((v) => v.toFixed(2).replace('.', ','));
+  out.push(P(`O \`Capanga ×N\` é um esquadrão de **${NUM[X.CORPOS_POR_PESSOA]} corpos por personagem**, com a vida num pool só. Cada corpo cai num golpe de um personagem — a vida dele é o dano do grupo por rodada dividido por quatro, para baixo — e bate metade do golpe-base. Um \`Desastre ×N\` vale **${X.CAMBIO_POR_PESSOA}N capangas** do mesmo nível. N corpos de \`×1\` **não** valem um \`×N\`: eles cobram de \`${rLo}×\` a \`${rHi}×\` o que ele cobra.`));
+  out.push(TBL(['nível do grupo', 'capanga: vida', 'o dado dele'],
+    X.FAIXAS.map((f) => [f[0], String(f[7]), dado(f[8])]),
+    [34, 33, 33], { centerCols: [0, 1, 2], boldCols: [0] }));
   out.push(NOTA(`No máximo **${NUM[X.TETO_EMPILHAMENTO]}** corpos do mesmo esquadrão atacam o mesmo alvo por rodada, e do segundo em diante o golpe sai pela metade. E o esquadrão inteiro faz uma ação em área por rodada, e não uma por corpo.`));
   out.push(GAP(150));
 
-  out.push(FAIXA('Um corpo ou vários'));
-  const tomado = virg((100 - X.SUBCATEGORIAS[1][2]).toFixed(1));
-  out.push(P(`O mesmo encontro cabe num corpo só ou com capangas ao lado. **Cada um dos três primeiros capangas toma \`${tomado}%\` do chefe** — a vida e o golpe dele.`));
-  out.push(TBL(['a luta é…', 'o chefe fica com', 'capangas', 'e ela cobra'],
-    X.SUBCATEGORIAS.map(([nome, n, frac, cobra]) => [nome, `${virg(frac.toFixed(1))}% da linha`,
-      n === 0 ? '—' : String(n), `${virg(cobra.toFixed(1))}% da vida do grupo`]),
-    [24, 26, 16, 34], { centerCols: [1, 2], boldCols: [0] }));
-  out.push(NOTA('As quatro formas cobram o mesmo, porque a fração do chefe foi medida para isso. Acima de três capangas o câmbio deixa de ser linear: um esquadrão cheio cobre os próprios buracos.'));
+  out.push(FAIXA('Chefe com capangas'));
+  out.push(P('**Cada capanga que entra ao lado de um chefe tira `1 ÷ (rodadas × N)` da vida e do golpe dele**, até metade do grupo em capangas. Na `Ameaça`, use a fração do `Desastre`.'));
+  out.push(TBL(['cada capanga tira', ...NS.map((n) => `×${n}`)],
+    X.DEGRAUS.filter((dg) => !['Capanga', 'Ameaça'].includes(dg[0])).map((dg) => [dg[0], ...NS.map((n) => `${virg((100 / (dg[1] * n)).toFixed(1))}%`)]),
+    [22, 13, 13, 13, 13, 13, 13], { centerCols: [1, 2, 3, 4, 5, 6], boldCols: [0] }));
   out.push(GAP(150));
 
+  out.push(new Paragraph({ children: [new PageBreak()] }));
   out.push(FAIXA('Resistência, imunidade e vulnerabilidade'));
-  out.push(P('Resistir sobe a vida efetiva do inimigo, então ela **multiplica o fator da categoria** — e o fator vezes quatro é quantas pessoas ele exige. A vulnerabilidade não cobra nem devolve.'));
-  out.push(TBL(['se ele resiste a…', 'resistir multiplica o fator por', 'ser imune multiplica por'],
+  out.push(P('Resistência a até `2` tipos fixos, no total da criatura, não desconta PV. Um grupo completo continua pago, mesmo quando seus tipos são escritos separadamente. Imunidades não recebem essa isenção. A proteção cobrada divide a vida crua. A vulnerabilidade não cobra nem devolve.'));
+  out.push(TBL(['se ele resiste a…', 'resistir divide a vida por', 'ser imune divide por'],
     X.RESISTENCIA.map((r) => [r[0], r[2], r[3]]),
     [34, 33, 33], { centerCols: [1, 2], boldCols: [0] }));
-  const imuFis = Number(X.RESISTENCIA.find((r) => r[0] === 'Físicos')[3].replace('×', '').replace(',', '.'));
-  out.push(NOTA(`Um \`Desastre\` imune a \`Físicos\` exige \`${virg(Math.round(des[1] * imuFis * 10) / 10)}\` personagens, e não \`${des[1]}\`. Se você vender isso, está vendendo o item mais caro do livro.`));
+  out.push(P('Três ou mais tipos mistos que não completem um grupo continuam sem preço definido; não aplique a isenção a esse caso.'));
+  out.push(NOTA(`A \`Intervenção\` divide a vida por \`1 + ${virg(X.INTERVENCAO_EXTRA)} ÷ (rodadas × N)\`, e a Expansão de Domínio completa, por \`1,92\`.`));
 
   out.push(new Paragraph({ children: [new PageBreak()] }));
   out.push(FAIXA('Tamanho'));
   out.push(P('O tamanho diz onde o corpo cabe e até onde o golpe alcança. **Ele não cobra nada.**'));
   const grupos = [];
-  X.TAMANHOS.forEach((t) => {
-    const g = grupos.find((x) => x[1] === t[1] && x[2] === t[2]);
-    if (g) g[0].push(t[0]); else grupos.push([[t[0]], t[1], t[2]]);
+  X.TAMANHOS.forEach((tm) => {
+    const g = grupos.find((x) => x[1] === tm[1] && x[2] === tm[2]);
+    if (g) g[0].push(tm[0]); else grupos.push([[tm[0]], tm[1], tm[2]]);
   });
   out.push(TBL(['tamanho', 'ocupa na grade', 'alcance', 'o golpe pega'],
     grupos.map(([nomes, lado, viz]) => [nomes.join(' · '), `${lado}×${lado}`, `${virg(lado * 1.5)} m`,
@@ -491,6 +315,8 @@ function tabelas() {
   return out;
 }
 
+// `node make.js --json`: as seis prontas calculadas, para o capitulo 8 do livro do Bestiario.
+// O livro formata e nao refaz a conta — a conta mora aqui, e so aqui.
 const doc = new Document({
   creator: 'Projeto - M', title: 'Bloco de inimigo',
   styles: { default: { document: { run: { font: 'Calibri', size: 20, color: C.ink } } } },
@@ -506,8 +332,7 @@ const doc = new Document({
   }],
 });
 
-// a sub-categoria e lida do dados.js, e nao guardada aqui — a guarda do bloco 7
-// do conferir-ficha.py procura esta forma de leitura: ([nome, n, frac, cobra])
+// a fracao do chefe com capangas sai da regra (1 ÷ rodadas x N), lida dos DEGRAUS do dados.js
 Packer.toBuffer(doc).then((b) => {
   fs.writeFileSync('bloco-de-inimigo.docx', b);
   console.log(`gerado: bloco-de-inimigo.docx ${Math.round(b.length / 1024)} KB`);

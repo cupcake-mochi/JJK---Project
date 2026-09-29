@@ -72,6 +72,8 @@ A ação fora do turno. **Três por luta, cada uma uma vez, no máximo uma por r
 
 ## 9. Sem eixo de papel
 
+> **⚠ Revertida na Fase 1, por decisão dele.** *Os seis papéis fecharam em 09/09 e entraram no cabeçalho em 10/09 (`04-fase-1/papel/DECIDIDO-o-papel.md`), e a peça 26 do repositório ganhou o papel na v0.224.* **O texto abaixo é o registro do que valia em 08/09.** *Anotado na v0.284, pela divergência 10 da auditoria da Fase 2.*
+
 **Decisão dele:** não vai ter um segundo rótulo (bruto, artilharia, controlador) junto da categoria.
 
 *A reclamação de excesso no Draw Steel é documentada — um mestre descreveu o combate como "there's just too much going on", e uma resenha diz que o sistema "agrava o problema do mestre em vez de simplificar".* **Sendo preciso: a reclamação mira a carga total — o Malice rastreado toda rodada, traços de facção, sistemas em cima de sistemas — e não os papéis isoladamente.**
@@ -111,5 +113,7 @@ A ação fora do turno. **Três por luta, cada uma uma vez, no máximo uma por r
 # FASE 0 — FECHADA em 08/09/2026
 
 **O que morre junto:** as categorias `Ronda`, `Dupla`, `Alcateia`; o câmbio de "um chefe vale quatro capangas"; e a sub-categoria (`sozinho`, `com um apoio`, `com dois`, `bando`).
+
+> **⚠ A sub-categoria voltou na Fase 1**, *em 10/09, na tabela do §4.5 da peça 26 (`04-fase-1/fila/DECIDIDO-o-capanga-unico.md`), e na Fase 2 (v0.282) virou o chefe com capangas: cada capanga tira `1 ÷ (rodadas × N)` do chefe.* *Anotado na v0.284, pela divergência 10 da auditoria da Fase 2.*
 
 **O que passa para a Fase 1:** a tabela que preenche o bloco — vida, dano, Defesa, acerto e CD por nível e por categoria. E as duas pendências que continuam abertas: **o PE do inimigo** (decidido na v0.220 do repositório, nunca aplicado) e **se `tamanho` carrega regra ou é só sabor**.

@@ -184,6 +184,8 @@ Enquanto está `Calado`, você sofre o seguinte efeito.
 
 **Conjuração.** Você não conjura. Nada que precise de voz, gesto ou Selo que envolva voz sai. Na `Kata`, o mesmo padrão: ela não sai se precisar de voz, como a Restrição `Gesto`, que pede falar, ou de uma ferramenta que precise de som. A que não precisa sai normalmente.
 
+É uma condição de nicho: ela só cala o que precisa de voz. O feitiço de quem tem Selo de condição, sem a Restrição `Gesto`, sai normalmente, e num inimigo ela só cala o Selo ou a habilidade que precise de voz. O inimigo que não usa voz não é imune a ela: ela só não tem o que calar.
+
 #### `Enfeitiçado`
 
 Enquanto está `Enfeitiçado`, você sofre os seguintes efeitos.

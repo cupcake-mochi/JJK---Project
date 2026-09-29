@@ -408,6 +408,13 @@ MORTOS = {
     'Primeiros Socorros': 'saiu na v0.16; Herbalismo nao cobre o mesmo',
     'Protocolo': 'virou Burocracia na v0.16',
     'Caido': 'era o estado de 0 de vida; virou Inconsciente na v0.88',
+    # v0.281: "tem diferenca entre 'Atacar' e a 'Acao Atacar', que nem dnd". A tabela de
+    # acoes do capitulo 11 ja chamava a acao de `Atacar`; so' o capitulo 8 e as pecas
+    # diziam "de Atacar".
+    'Acao de Atacar': 'virou Acao Atacar na v0.281, o nome da acao da tabela do turno',
+    # v0.281: o `Esquivar` dava vantagem num TR que nao existe desde que os quatro
+    # viraram Fisico, Vigor, Intelecto e Espirito.
+    'TR de Destreza': 'nao existe; o Esquivar passou ao TR Fisico na v0.281',
 }
 
 # Onde um termo morto pode aparecer capitalizado sem ser descuido: a secao que
@@ -417,11 +424,18 @@ MORTO_LIBERADO = {
         'Canalizador': 'a secao 1 desta peca e justamente a que explica o rename',
         'Ponta de Lanca': 'citada na linha que lista os rotulos de rascunho',
         'Linha de Frente': 'citada na linha que lista os rotulos de rascunho',
+        'Acao de Atacar': 'a tabela de renomes da SS2 guarda o nome que a v0.4 escreve, e a '
+                          'SS3.1 cita a frase da v0.81',
     },
     'arquitetura.md': {
         'Potencia': 'citado no aviso de cabecalho, que registra o nome antigo',
     },
     'CHANGELOG.md': {k: 'o changelog e o registro historico' for k in MORTOS},
+    # v0.281: o registro com preco da colecao anterior fica como foi escrito, e o ESTADO
+    # conta as decisoes da v0.80 a v0.147 com o nome da epoca.
+    'DESENHO-trilhas.md': {'Acao de Atacar': 'registro com preco da colecao anterior'},
+    'DESENHO-manhas.md': {'Acao de Atacar': 'registro com preco da colecao anterior'},
+    'ESTADO-ATUAL.md': {'Acao de Atacar': 'as decisoes da v0.80 a v0.147, com o nome da epoca'},
 }
 
 # Uma linha que EXPLICA a aposentadoria pode citar o termo morto. Detectado no

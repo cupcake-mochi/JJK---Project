@@ -118,7 +118,7 @@ Auxiliar não costuma ser um bom negócio dentro do combate: o aliado gasta o tu
 
 ## Acesso
 
-Ritual é uma aptidão. Ela pede **Inteligência 5** e **nível 10**.
+Ritual é uma aptidão. Ela pede **Inteligência 5** e **nível 10**. Quem monta a técnica em `Manejo` ou em `Kata` não compra.
 
 O nível 10 não é escolha arbitrária: no marco 6 você escolhe entre um ponto de atributo e uma aptidão, e não dá para ter os dois. Inteligência 5 e uma aptidão só se encontram no marco seguinte. Quem tem Inteligência como atributo secundário chega no 14.
 

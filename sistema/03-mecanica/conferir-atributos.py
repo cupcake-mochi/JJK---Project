@@ -35,11 +35,9 @@ CONTRATO DE INVARIANTES:
      pela Defesa. Nao e o numero do manual que decide isso — e o outro atributo
      que ja mexe em sobrevivencia.
   7. Integridade NAO leva Caminho nem Constituicao: dano de alma ignora o corpo.
-  8. MEDIA DOS DADOS + CONSTITUICAO TIPICA (3) ~= 8, que e o que o manual supoe.
-     ATENCAO: nao e a media dos dados sozinha. O 8 do manual e a vida TOTAL por
-     nivel, sem atributo nenhum — ele foi escrito antes de existir Constituicao.
-     Conferir a media dos dados contra o 8 foi o erro da v0.18: dava ao grupo 38%
-     de vida a mais do que a tabela de encontro supoe.
+  8. O dano do chefe reproduz a media dos Caminhos jogaveis, com a Constituicao tipica.
+     Os dados de PV vem da peca 1, a disponibilidade da peca 6 e o percentual do manual.
+
 
 PONTO CEGO CORRIGIDO EM 06/08:
   A versao anterior testava invariancia mantendo os atributos FIXOS. Isso verifica
@@ -122,31 +120,43 @@ def cd(nv, prec=0, atr=None):
 def tr(nv, treinado):
     """d20 + atributo do TR + maestria, e a maestria so se treinado."""
     return investido(nv) + (maestria(nv) if treinado else 0)
-# Caminho: (dado, vida no nivel 1, vida por nivel, PE por nivel)
-CAMINHO = {
-    'Bastiao':   (12, 12, 7, 4),
-    'Vanguarda': (8,   8, 5, 5),
-    'Guia':      (8,   8, 5, 5),
-    'Evocador':  (6,   6, 4, 6),
-    'Emanador':  (6,   6, 4, 6),
-}
-BASE_MANUAL = 8   # vida por nivel que o manual usa para calibrar chefe e capanga
-CON_TIPICA = 3    # o que uma ficha comum carrega em Constituicao
+# v0.285: ler os PV do dono e a disponibilidade da peca 6. Registro suspenso nao entra na media.
+import unicodedata
+import re as _re_cal
+from decimal import Decimal, ROUND_HALF_DOWN
 
-# Dano de chefe por rodada, tabela do manual (linhas 1598-1637 do .docx)
-# v0.199: entrou a linha da Classe 1 (nivel 2 ao 4), derivada das razoes que sao
-# constantes nas seis publicadas — grupo 2,90x a Rotina e vida do chefe 3,66x o grupo.
-CHEFE = {2: 17, 5: 39, 10: 75, 15: 111, 20: 147, 25: 183, 30: 219}
+def _cal_ler(nome):
+    with open(os.path.join(AQUI, nome), encoding='utf-8') as f:
+        return f.read()
 
+def _cal_nome(nome):
+    return ''.join(c for c in unicodedata.normalize('NFD', nome) if not unicodedata.combining(c))
+
+_cal_p1 = _cal_ler('01-atributos-acerto-defesa.md')
+_cal_p6 = _cal_ler('06-caminhos-e-trilhas.md')
+_cal_sec = _cal_p1.split('## 5.1 Pontos de vida')[1].split('### A vida média')[0]
+_cal_ativos = {_cal_nome(n) for n, resto in _re_cal.findall(r'^\| \*\*([^*]+)\*\* \| (.+)$', _cal_p6.split('## 2.')[0], _re_cal.M) if 'fora da edição jogável' not in resto}
+CAMINHO = {_cal_nome(n): tuple(map(int, (d, ini, ganho, pe))) for n, d, ini, ganho, pe in
+           _re_cal.findall(r'^\| \*\*([^*]+)\*\* \| d(\d+) \| (\d+) \| (\d+) \| (\d+) \|', _cal_sec, _re_cal.M)
+           if _cal_nome(n) in _cal_ativos}
+if not CAMINHO:
+    raise ValueError('7.1: nao encontrei Caminhos jogaveis na peca 6 e PV na peca 1')
+CON_TIPICA = int(_re_cal.search(r'Constituição típica: (\d+)', _cal_p1)[1])
+_cal_pf = _cal_ler('../../manual/gerador/partF.js')
+_cal_inim = _cal_pf.split("H2('Inimigos')")[1].split('GAP(')[0]
+CHEFE = {int(n): int(d) for n, d in _re_cal.findall(r"\['(\d+)', '~\d+', '[\d a]+', '(\d+)', '\d+', '\d+'\]", _cal_inim)}
+_CAL_PCT = int(_re_cal.search(r'O dano dele por rodada é (\d+)%', _cal_pf)[1]) / 100
+if not CHEFE:
+    raise ValueError('7.1: nao encontrei a tabela de inimigos no manual')
 
 def dano_chefe(nv):
-    if nv <= 5:
-        return 39 * nv / 5
+    if nv <= min(CHEFE):
+        return CHEFE[min(CHEFE)]
     ks = sorted(CHEFE)
     for a, b in zip(ks, ks[1:]):
         if a <= nv <= b:
             return CHEFE[a] + (CHEFE[b] - CHEFE[a]) * (nv - a) / (b - a)
-    return CHEFE[30]
+    return CHEFE[max(CHEFE)]
 
 
 def vida(nv, con, cam='Guia'):
@@ -381,29 +391,47 @@ for nome, (dado, ini, porniv, _) in CAMINHO.items():
         erro(f'{nome}: vida por nivel {porniv} nao e a metade do d{dado} arredondando '
              f'pra cima ({dado // 2 + 1}) — o dado e o fixo deixam de ser equivalentes')
 
+# A formula declarada e o percentual do manual precisam bater com o dono, nao apenas com a tabela.
+_cal_pct_dono = _re_cal.search(r'\*\*(\d+)% dessa média\*\*', _cal_p1)
+if not _cal_pct_dono or int(_cal_pct_dono[1]) / 100 != _CAL_PCT:
+    erro('7.1: o percentual do manual diverge da calibracao da peca 1')
+_cal_formula = _re_cal.search(r'\*\*`([\d,]+) \+ ([\d,]+) × \(nível − 1\)` pontos de vida\*\*', _cal_p1)
+_cal_ini = sum(c[1] for c in CAMINHO.values()) / len(CAMINHO) + CON_TIPICA
+_cal_ganho = sum(c[2] for c in CAMINHO.values()) / len(CAMINHO) + CON_TIPICA
+if not _cal_formula or tuple(float(v.replace(',', '.')) for v in _cal_formula.groups()) != (_cal_ini, _cal_ganho):
+    erro('7.1: a formula publicada da vida media nao sai dos Caminhos jogaveis')
+_cal_copia = _re_cal.search(r'A referência é ([\d,]+) \+ ([\d,]+) × \(nível − 1\)', _cal_pf)
+if not _cal_copia or tuple(float(v.replace(',', '.')) for v in _cal_copia.groups()) != (_cal_ini, _cal_ganho):
+    erro('7.1: a formula copiada no manual diverge da media dos Caminhos jogaveis')
+
+# 7.1: os sete danos publicados precisam reproduzir a media atual, sem constante de dano no teste.
 media_dados = sum(c[2] for c in CAMINHO.values()) / len(CAMINHO)
 efetiva = media_dados + CON_TIPICA
-print(f'\n  media dos dados = {media_dados:.1f}   + Constituicao tipica ({CON_TIPICA}) = {efetiva:.1f}'
-      f'   (o manual supoe {BASE_MANUAL})')
-if abs(efetiva - BASE_MANUAL) > 1.0:
-    erro(f'media dos dados + Constituicao tipica da {efetiva:.1f}, e o manual supoe '
-         f'{BASE_MANUAL} — a tabela de encontro dele deixa de valer para um grupo tipico')
-print('  NAO conferir a media dos dados sozinha contra o 8: o 8 do manual e a vida TOTAL')
-print('  por nivel, escrita antes de existir Constituicao. Foi o erro da v0.18.')
+print(f'  media do ganho dos Caminhos jogaveis + Constituicao: {efetiva:.2f}')
+for nv, publicado in CHEFE.items():
+    media = sum(Decimal(str(vida(nv, CON_TIPICA, c))) for c in CAMINHO) / len(CAMINHO)
+    esperado = int((media * Decimal(str(_CAL_PCT))).quantize(Decimal('1'), rounding=ROUND_HALF_DOWN))
+    if publicado != esperado:
+        erro(f'7.1: chefe nivel {nv}: manual publica {publicado}, mas a media dos Caminhos jogaveis pede {esperado}')
+    else:
+        print(f'  [x] 7.1: chefe nivel {nv}: {publicado}, media {media}')
+_cal_lista = _re_cal.search(r'\*\*Caminhos da média:\*\* ([^.]+)', _cal_p1)
+if not _cal_lista or set(_cal_nome(n.strip()) for n in _cal_lista[1].replace(' e ', ',').split(',')) != set(CAMINHO):
+    erro('7.1: a lista da media na peca 1 diverge dos Caminhos jogaveis da peca 6')
 
 # v0.201: a tabela de inimigo passou a por o chefe em 90% da vida de UM
 # personagem por rodada, medido contra o d20 de 2014 e o chefe solo do PF2e. A
 # consequencia direta e' esta: sob fogo concentrado a ficha media cai em pouco
 # mais de uma rodada, e nao nas 3,5 que a linha antiga entregava. A banda deixou
 # de ser 2,5-4,5 e passou a sair da PROPRIA linha do manual, que e' o dono.
-_ALVO_FOCO = 1.0 / 0.90     # 90% da vida de um personagem por rodada
+_ALVO_FOCO = 1.0 / _CAL_PCT     # 90% da vida de um personagem por rodada
 print(f"\n  rodadas para cair sob foco (a linha do manual poe a media em "
       f"{_ALVO_FOCO:.2f}):")
 print(f"  {'':<14}" + ''.join(f'nv{n}'.rjust(9) for n in [2, 5, 10, 20, 30]))
 for nome in CAMINHO:
     print(f'  {nome:<14}' + ''.join(f'{vida(n, CON_TIPICA, nome) / dano_chefe(n):>9.1f}'
                                     for n in [2, 5, 10, 20, 30]))
-med = [sum(vida(n, CON_TIPICA, c) for c in CAMINHO) / 5 / dano_chefe(n) for n in [2, 5, 10, 20, 30]]
+med = [sum(vida(n, CON_TIPICA, c) for c in CAMINHO) / len(CAMINHO) / dano_chefe(n) for n in [2, 5, 10, 20, 30]]
 print(f'  {"MEDIA":<14}' + ''.join(f'{m:>9.1f}' for m in med))
 _medio = sum(med) / len(med)
 if not _ALVO_FOCO * 0.80 <= _medio <= _ALVO_FOCO * 1.20:

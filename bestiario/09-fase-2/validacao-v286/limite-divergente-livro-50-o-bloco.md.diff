@@ -1,0 +1,11 @@
+--- bestiario/08-livro/capitulos/50-o-bloco.md
++++ bestiario/08-livro/capitulos/50-o-bloco.md
+@@ -150,7 +150,7 @@
+ 
+ # Resistência, imunidade e vulnerabilidade
+ 
+-Resistência a até `2` tipos fixos, no total da criatura, não desconta PV.
++Resistência a até `3` tipos fixos, no total da criatura, não desconta PV.
+ 
+ Um grupo completo continua pago, mesmo quando seus tipos são escritos separadamente. Imunidades não recebem essa isenção.
+ Para as proteções cobradas, divida a vida pelo número da tabela. O golpe não muda.

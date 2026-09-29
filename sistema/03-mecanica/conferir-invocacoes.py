@@ -353,12 +353,15 @@ if not ESCADA_CLASSE or MULT_FEITICO is None:
 # por `chefe` cru. O MODELO tem dono na peca 14 SS4 — "vida / (dano_chefe * 0,5)",
 # o chefe concentrando num alvo — e o NUMERO tem dono no conferir-atributos.py,
 # que o le da tabela de inimigo do manual. Nenhum dos dois mora aqui.
-_mc = re.search(r'^CHEFE = \{([^}]*)\}', ATR, re.M)
-CHEFE = ({int(a): int(b) for a, b in re.findall(r'(\d+):\s*(\d+)', _mc.group(1))}
-         if _mc else {})
-if len(CHEFE) < 5:
-    erro('SETUP', 'conferir-atributos.py: nao achei a tabela CHEFE de dano por rodada — '
-                  'sem ela a coluna de rodadas do SS3.7 nao tem contra o que ser medida')
+# v0.285: o validador de atributos deixou de duplicar a tabela como literal.
+# Ler o dono publicado, sem executar outro validador nem congelar numeros aqui.
+_manual_chefe = ler('../../manual/gerador/partF.js')
+_tabela_chefe = _manual_chefe.split("H2('Inimigos')")[1].split('GAP(')[0]
+CHEFE = {int(n): int(d) for n, d in re.findall(
+    r"\['(\d+)', '~\d+', '[\d a]+', '(\d+)', '\d+', '\d+'\]", _tabela_chefe)}
+if len(CHEFE) != 7:
+    erro('SETUP', 'manual/gerador/partF.js: nao achei as sete linhas de dano de chefe — '
+                  'sem elas a coluna de rodadas do SS3.7 nao pode ser medida')
 
 
 def dano_chefe(nv):
@@ -1254,31 +1257,9 @@ else:
           f'({CONCEDE["Servo"]["vida"]:g}x) = {_V_FORTE}')
 
     # ---- 12b. a coluna de dano tem DONO: a peca 26 --------------------------
-    # O golpe de uma acao e' o dano de rodada da categoria dividido pelas acoes
-    # dela, e o dano de rodada e' a linha do manual vezes o fator. A peca 26 SS4.1
-    # publica as fichas prontas, entao a conta se confere contra ELAS.
+    # v0.282: na grade da fase 2 o golpe nao depende do N, e a peca 26 §4.4 publica o golpe de cada
+    # degrau no nivel 30, com o dado. A 12f compara esta tabela com aquela, linha a linha.
     _P26 = ler('26-bestiario.md')
-    _fic26 = {}
-    for _c in linhas_de_tabela(trecho(_P26, '| categoria | nv 10 | nv 20 | nv 30 |',
-                                      '### 4.2')):
-        if len(_c) < 4:
-            continue
-        _cat = limpo(_c[0]).strip('`')
-        _cel = re.findall(r'(\d+)\D+(\d+)', limpo(_c[3]))
-        if _cel:
-            _fic26[_cat] = int(_cel[0][1])          # o dano por rodada no nv30
-    _acoes26 = {}
-    for _c in linhas_de_tabela(trecho(_P26, '| categoria | personagens |', '###')):
-        if len(_c) < 4:
-            continue
-        _acoes26[limpo(_c[0]).strip('`')] = num(_c[3])
-    if not _fic26 or not _acoes26:
-        erro('MORTE', 'nao consegui ler a peca 26 (SS4.1 e SS4) — sem ela a coluna de dano '
-                      'desta tabela volta a nao ter dono, que e como a tabela da v0.58 '
-                      'envelheceu dez versoes')
-    else:
-        print(f'  peca 26: {len(_fic26)} categoria(s) com dano de rodada no nv{_NV_TAB}, '
-              f'{len(_acoes26)} com acoes.')
 
     # ---- 12c. os vereditos publicados contra os dois corpos -----------------
     _tab = [c for c in linhas_de_tabela(trecho(S35, '| o golpe, no nível',
@@ -1321,7 +1302,7 @@ else:
                   f'{"destroi" if _dano >= _V_CORO else "cai":<8}forte '
                   f'{"destroi" if _dano >= _V_FORTE else "cai"}')
         if _comuns_ok:
-            print('  [x] nenhum golpe comum destroi nenhum dos dois corpos; so o critico.')
+            print('  [x] nenhum golpe comum destroi nenhum dos dois corpos.')
 
         # a linha do critico tem de existir, senao a tabela so prova que nada mata
         if not any('critico' in sem_acento(limpo(c[0])) for c in _tab):
@@ -1337,10 +1318,10 @@ else:
     # golpe, com os dados dobrados — pela mesma §4.4.
     _g44 = {}
     for _l in _P26.split('\n'):
-        _mg = re.match(r'^\|\s*`([^`]+)`\s*\|\s*`(\d+)`\s*\|\s*`(\d+)`\s*\|\s*`?'
+        _mg = re.match(r'^\|\s*`([^`]+)`\s*\|\s*`(\d+)`\s*\|\s*`?'
                        r'(\d+d\d+(?:\s*\+\s*\d+)?)`?\s*\|\s*$', _l)
         if _mg:
-            _g44[_mg.group(1)] = re.sub(r'\s+', ' ', _mg.group(4))
+            _g44[_mg.group(1)] = re.sub(r'\s+', ' ', _mg.group(3))
     if len(_g44) < 3:
         erro('MORTE', f'nao achei a tabela de golpe da peca 26 §4.4 (li {len(_g44)} linha(s)) '
                       '— a coluna de golpes desta tabela ficou sem dono')

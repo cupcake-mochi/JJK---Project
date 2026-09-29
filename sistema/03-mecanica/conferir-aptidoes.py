@@ -2028,13 +2028,13 @@ else:
                 _pior_nv, _pior = _nv, _frac
             if _nv == 30:
                 _no30 = _frac
-        print(f'\n  A Acao de Atacar com o dano na arma inteiro, contra a Rotina:')
+        print(f'\n  A Acao Atacar com o dano na arma inteiro, contra a Rotina:')
         print(f'  pior nivel {_pior_nv} com {_pior:.1f}% · nivel 30 com {_no30:.1f}%')
         if _pior >= 100.0:
-            erro(f'10: no nivel {_pior_nv} a Acao de Atacar com o dano na arma chega a '
+            erro(f'10: no nivel {_pior_nv} a Acao Atacar com o dano na arma chega a '
                  f'{_pior:.1f}% da Rotina — a segunda condicao da SS2 exige que ela '
                  'fique ABAIXO da regua, e o dano de refino deixou de caber')
-        _mp = re.search(r'O pior nível é o `(\d+)`, com a Ação de Atacar em '
+        _mp = re.search(r'O pior nível é o `(\d+)`, com a Ação Atacar em '
                         r'`([\d,]+)%` da Rotina', SEC69)
         _m30 = re.search(r'No nível 30 ela fica em `([\d,]+)%`', SEC69)
         if not _mp or not _m30:

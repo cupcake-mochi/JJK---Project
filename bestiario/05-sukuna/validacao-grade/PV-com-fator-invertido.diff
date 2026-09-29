@@ -1,0 +1,11 @@
+--- bestiario/05-sukuna/montar-sukuna-grade.js
++++ bestiario/05-sukuna/montar-sukuna-grade.js
+@@ -31,7 +31,7 @@
+ const shots=1+(L-1)/3, recFator=(shots*(multRec/2)+(L-shots))/L;
+ const circFator=1/(1-curaReacao/(n*f[4]/4));
+ const fatores={papel:C.fatorPapel('Artilheiro',dg,n).vida,defesa:defesaFator,dominio:domain,recarga:recFator,circulacao:circFator,intervencao:C.precoIntervencao(dg,n)};
+-const pv=C.arred(base*fatores.papel*fatores.defesa/fatores.dominio/fatores.recarga/fatores.circulacao/fatores.intervencao);
++const pv=C.arred(base*fatores.papel*fatores.defesa*fatores.dominio/fatores.recarga/fatores.circulacao/fatores.intervencao);
+ const reconstruido=pv*fatores.dominio*fatores.recarga*fatores.circulacao*fatores.intervencao/(fatores.papel*fatores.defesa);
+ assert(Math.abs(reconstruido-base)<=0.5000001*fatores.dominio*fatores.recarga*fatores.circulacao*fatores.intervencao/(fatores.papel*fatores.defesa),"PV não recompõem a célula dentro do arredondamento");
+ const quota=n*golpe, custoExt=Math.ceil(multExt*maiorClasse)*cambio+maiorClasse*cambio/L, custoReg=circDados*cambio;

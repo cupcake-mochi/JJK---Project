@@ -2,6 +2,8 @@
 
 *Tudo que já não depende de decisão nenhuma. Gerado da linha `Inimigos` do manual e das fórmulas das peças 1, 3 e 11.*
 
+> **⚠ Desde a v0.282, só as colunas de Defesa, acerto, CD, refino e proteção valem.** *As de vida, dano por rodada, ações e golpe são da escada de antes da grade da Fase 2, e ficam porque os scripts de medição da Fase 1 leem esta tabela assim. A vida e o golpe de hoje saem da peça 26 §4 e do `conta.js` do gerador de inimigo.* *Anotado na v0.284, pela divergência 8 da auditoria da Fase 2.*
+
 **Constantes:** deslocamento `9 m` · Reação `1` por rodada · **Iniciativa = `d20 + Destreza`**, então a Iniciativa do inimigo é a Destreza dele.
 
 

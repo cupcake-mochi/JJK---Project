@@ -1,0 +1,37 @@
+[
+  {
+    "caso": "base",
+    "esperado": 0,
+    "obtido": 0
+  },
+  {
+    "caso": "desconto-antigo",
+    "esperado": 1,
+    "obtido": 1
+  },
+  {
+    "caso": "limite-divergente-livro",
+    "esperado": 1,
+    "obtido": 1
+  },
+  {
+    "caso": "preco-divergente-gerador",
+    "esperado": 1,
+    "obtido": 1
+  },
+  {
+    "caso": "grupo-separado-sem-trava",
+    "esperado": 1,
+    "obtido": 1
+  },
+  {
+    "caso": "exemplo-descontado",
+    "esperado": 1,
+    "obtido": 1
+  },
+  {
+    "caso": "hipotese-25-coerente",
+    "esperado": 0,
+    "obtido": 0
+  }
+]

@@ -1,0 +1,11 @@
+--- bestiario/05-sukuna/SAIDA-sukuna-grade.json
++++ bestiario/05-sukuna/SAIDA-sukuna-grade.json
+@@ -52,7 +52,7 @@
+     "expressao": "18d12 + 53"
+   },
+   "intervencao": {
+-    "media": 51,
++    "media": 68,
+     "dados": "4d12 + 25"
+   },
+   "modos": [

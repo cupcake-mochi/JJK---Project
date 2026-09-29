@@ -1,0 +1,11 @@
+--- sistema/05-material/gerador-inimigo/dados.js
++++ sistema/05-material/gerador-inimigo/dados.js
+@@ -99,7 +99,7 @@
+   ['Físicos',    '60%', '1,43×', '2,50×', '0,62×'],
+   ['Elementais', '30%', '1,18×', '1,43×', '0,77×'],
+   ['Especiais',  '10%', '1,05×', '1,11×', '0,91×'],
+-  ['um tipo só', '20%', '1,00×', '1,25×', '0,83×'],
++  ['um tipo só', '25%', '1,00×', '1,33×', '0,80×'],
+ ];
+ 
+ // O tamanho, peca 26 §3.3: o alcance e o lado da grade vezes 1,5 m, e do Grande

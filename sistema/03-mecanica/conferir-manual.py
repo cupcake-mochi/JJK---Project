@@ -323,8 +323,10 @@ else:
                  f'DONO: {DONO["PE"][0]} — entao o normal e regerar a coluna do manual, '
                  f'e nao mudar a peca 1. Se a decisao for a outra, mude os dois')
 
-# 4b. dano de chefe e capanga — o conferir-atributos.py tem essa tabela dentro
-CHEFE_NO_PROJETO = {2: 17, 5: 39, 10: 75, 15: 111, 20: 147, 25: 183, 30: 219}
+# 4b. O DOCX precisa reproduzir o gerador; conferir-atributos 7.1 confere a formula contra os Caminhos.
+with open(os.path.join(AQUI, '..', '..', 'manual', 'gerador', 'partF.js'), encoding='utf-8') as _f_cal:
+    _fonte_cal = _f_cal.read().split("H2('Inimigos')")[1].split('GAP(')[0]
+CHEFE_NO_PROJETO = {int(n): int(v) for n, v in re.findall(r"\['(\d+)', '~\d+', '[\d a]+', '(\d+)', '\d+', '\d+'\]", _fonte_cal)}
 t = _tabela_com(['Chefe', 'Capanga'])
 if t is None:
     erro('nao achei a tabela de inimigos no manual — o conferir-atributos.py copia '
@@ -344,9 +346,8 @@ else:
         if not bate:
             ok_num = False
             erro(f'inimigo: o manual diz {dano} de dano de chefe no nivel {nv} e o '
-                 f'conferir-atributos.py assume {esperado}. DONO: {DONO["inimigo"][0]} — '
-                 f'esta e a tabela que promete ~3,5 rodadas, e mexer nela move a trava '
-                 f'de vida inteira da peca 1')
+                 f'gerador publica {esperado}. DONO: a formula da peca 1 e o gerador do manual. '
+                 f'A media dos Caminhos jogaveis e conferida pelo conferir-atributos.py')
 
 # 4c. a coluna Rotina — a peca 6 usa ela para aprovar ataque extra e invocacao
 ROTINA_NO_PROJETO = {1: 13, 2: 31, 3: 45, 4: 63, 5: 76, 6: 94, 7: 108}
@@ -740,7 +741,8 @@ else:
 # 2,46 fatias uma coisa que ja acontecia sozinha. Entrega preçada valendo zero.
 #
 # O QUE ELA GUARDA AGORA, e sao TRES metades independentes de proposito:
-#   (a) a peca 6 declara que o ataque extra EXIGE a Acao de Atacar;
+#   (a) a peca 6 declara que o ataque extra EXIGE a Acao Atacar — o nome da acao desde a
+#       v0.281, "tem diferenca entre 'Atacar' e a 'Acao Atacar', que nem dnd";
 #   (b) nenhuma linha VIVA da peca 6 afirma o contrario — a forma velha nao pode
 #       voltar por descuido, e a tabela historica dela mora num bloco de citacao;
 #   (c) a VALVULA continua escrita: "a nao ser que uma habilidade diga o contrario".
@@ -750,10 +752,10 @@ else:
 # terceira guarda o que a forma existe para permitir.
 #
 # O PRECO DESTA FORMA ESTA MEDIDO E ACEITO: dois golpes rendem 23 no nivel 30
-# contra 27 de um Classe 0 gratis, entao a Acao de Atacar fica dominada pelo botao
+# contra 27 de um Classe 0 gratis, entao a Acao Atacar fica dominada pelo botao
 # que toda ficha tem. A v0.82 recusou a forma por isso; a v0.147 a escolhe sabendo.
 print()
-print('  4h. a FORMA do ataque extra na peca 6 — exige a Acao de Atacar, com valvula')
+print('  4h. a FORMA do ataque extra na peca 6 — exige a Acao Atacar, com valvula')
 
 if not os.path.exists(_p6):
     erro('nao achei a peca 6 para conferir a forma do ataque extra')
@@ -768,25 +770,25 @@ else:
 
     # (a) a declaracao afirmativa existe — e ela e a LINHA DE REGRA, nao o titulo
     #     da secao. O arnes pegou a primeira versao desta checagem passando no
-    #     proprio titulo "O ataque extra EXIGE a Acao de Atacar": apagar a regra
+    #     proprio titulo "O ataque extra EXIGE a Acao Atacar": apagar a regra
     #     saia VERDE. Mesmo defeito da checagem 2 do conferir-alma.py.
     _regra6 = [l for l in _txt6.splitlines()
                if re.search(r'ganha um golpe simples por rodada', l, re.I)]
     _regra6 = _regra6[0] if _regra6 else ''
-    _decl = _regra6 and re.search(r'exige a A[cç][aã]o de Atacar', _regra6, re.I)
+    _decl = _regra6 and re.search(r'exige a A[cç][aã]o Atacar', _regra6, re.I)
     if not _decl:
         erro('peca 6: a forma do ataque extra nao esta declarada. Ela precisa dizer '
-             'que ele EXIGE a Acao de Atacar — foi a inversao da v0.147, e o que ela '
+             'que ele EXIGE a Acao Atacar — foi a inversao da v0.147, e o que ela '
              'existe para consertar e o `Bote` da `Estocada` valer zero')
     else:
-        print('    [x] a peca 6 declara que o ataque extra exige a Acao de Atacar')
+        print('    [x] a peca 6 declara que o ataque extra exige a Acao Atacar')
 
-    # (b) a forma velha nao pode voltar viva
+    # (b) a forma velha nao pode voltar viva — com o nome de hoje ou com o de antes da v0.281
     _contra = []
     for _n, _lin in enumerate(_txt6.splitlines(), 1):
         if not re.search(r'ataque extra|golpe simples', _lin, re.I):
             continue
-        if not re.search(r'n[aã]o exige a A[cç][aã]o de Atacar|golpe\s+SOLTO|'
+        if not re.search(r'n[aã]o exige a A[cç][aã]o (?:de )?Atacar|golpe\s+SOLTO|'
                          r'golpe simples solto', _lin, re.I):
             continue
         if _historica_h(_lin):
@@ -794,7 +796,7 @@ else:
         _contra.append(_n)
     for _n in _contra:
         erro(f'peca 6, linha {_n}: a forma VELHA do ataque extra voltou — golpe solto, '
-             f'sem exigir a Acao de Atacar. Ela foi invertida na v0.147, e com ela o '
+             f'sem exigir a Acao Atacar. Ela foi invertida na v0.147, e com ela o '
              f'`Bote` da `Estocada` volta a valer zero com preco de 2,46 fatias. Se for '
              f'nota historica, ela vai num bloco de citacao')
     if not _contra:
@@ -1416,7 +1418,7 @@ else:
 # v0.155. O degrau do nivel 7 existe para que os cinco Caminhos recebam a mesma
 # coisa, e ate aqui nada conferia isso — a regra dizia "vale exatamente o vao" e
 # o vao deixou de ser um numero quando a v0.147 devolveu o ataque extra a Acao
-# de Atacar. Hoje a peca 6 §3.1 publica os tres totais e declara a diferenca.
+# Atacar. Hoje a peca 6 §3.1 publica os tres totais e declara a diferenca.
 #
 # Nenhum numero mora aqui: os tres saem da tabela da peca, e o teto da diferenca
 # sai da frase que o declara.

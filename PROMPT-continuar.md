@@ -1,5 +1,7 @@
 # Prompt para continuar o Projeto - M em conversa nova
 
+> **Continuidade de 28/09 — ordem mais recente de Mizuki:** Sukuna concluído como integração técnica, com débito de aptidões na rodada corrente aprovado (sem retroagir, sem dívida e sem ativação se não houver cota). Ficha e ensaio em `bestiario/05-sukuna/`. Próxima etapa: planejamento e cálculos das Invocações no Claude, com r5 + §46; nenhuma nova decisão de Invocações foi tomada. Fichas de personagem ficam para depois. Pacote de continuidade: Projeto-M-Planejamento-Invocacoes-pos46-v1.zip, na pasta de trabalho RPG -JJK; começar pelo prompt e pelo plano, preservando r5 + §46. Sem commit ou push.
+
 *Copie tudo abaixo da linha.*
 
 ---
@@ -13,7 +15,7 @@ Trabalhe em `/media/mizuki/HD Externo II/Claude/Claude 2/`, na pasta **principal
 - ~~**A — os Caminhos novos no livro (v0.270).**~~ **FECHADA na v0.270**, *e as decisões que ela deixou fecharam na v0.271: a perícia fixa do Bastião é `Provocar`, a frase dos Limites voltou com o Socorrista como exceção, ninguém cura outra pessoa com Energia Reversa, e os renomes `Eco Amaldiçoado`, `Impulso Energético` e `Sobre Carregar Energia`, com o resto das colisões aprovado.*
 - ~~**B — a rodada 3 dos anti-domínio.**~~ **FECHADA na v0.274:** *a `Pétala` na v0.272, a `Extensão de Domínio` na v0.273, e a comparação das quatro na v0.274 — nenhuma ficou dominada.*
 - ~~**C — as Invocações, no ponto exato em que pararam.**~~ **FECHADA na v0.275:** *o §46 — a zero PV a invocação sai de campo, e a que o vínculo não deixa recolher fica `Desligada` — mora em `invocacoes/DECISOES-A-PARTIR-DO-46.md`.*
-- ~~**Depois de C, a troca de nome no livro inteiro.**~~ **FECHADA na v0.276**, *com o `Calado` alinhado nas cinco cópias e o manual na v7.39.*
+- ~~**Depois de C, a troca de nome no livro inteiro.**~~ **FECHADA na v0.276**, *com o `Calado` alinhado nas cinco cópias e o manual na v7.39. **A v0.283 fechou as duas pontas que ela deixou:** quem monta a técnica em `Manejo` ou em `Kata` não compra o Ritual, e a caixa da Extensão parou de dizer que a Técnica Marcial e as aptidões continuam.*
 - **Agora, a fila grande do `sistema/ESTADO-ATUAL.md`**, *que o Mizuki deixou por último: "vamos continuar o 1, deixando a fila grande por ultimo". E ele pediu para emendar um item no outro sem perguntar — "sempre que finalizar pode ir automaticamente pro proximo" —, parando só em decisão dele e em commit.*
 
 **Ao começar cada parte, diga em uma linha o modelo e o esforço que você recomenda para ela.**
@@ -31,7 +33,7 @@ Trabalhe em `/media/mizuki/HD Externo II/Claude/Claude 2/`, na pasta **principal
 
 ## Passo 0 — onde está
 
-1. **O `main` deve estar no commit da v0.276** ou mais novo, com a entrega no *recorte da v0.276*. *Se estiver na v0.274, a v0.275 e a v0.276 não subiram: os patches e as mensagens estão na pasta agentes-2026-09-27 do HD, para subir em sequência.* *A v0.272, a v0.273 e a v0.274 foram commitadas em 27/09, mas o push falhou: o GitHub CLI estava com a conta `Gustavo-MrTs` ativa, e não a `cupcake-mochi`. Se `git status` disser que o `main` está à frente do `origin`, o push ainda não saiu — lembre o Mizuki, porque trocar a conta é com ele.* Rode `git log -3` e `git status` na pasta principal antes de qualquer coisa. *Se houver commit mais novo, leia a entrada dele no `CHANGELOG` antes de seguir.*
+1. **Em 28/09/2026, o diretório principal recebeu os patches v0.277–v0.285 e a decisão v0.286, com autorização de edição. As mudanças estão sem commit; confira o estado antes de reaplicar qualquer patch.** O registro anterior abaixo descreve a situação antes dessa integração. **O `main` deve estar no commit da v0.284** ou mais novo, com a entrega no *recorte da v0.284*. *Se estiver abaixo, as que faltam estão na pasta agentes-2026-09-27 do HD, um patch e uma mensagem por versão, da v0.275 à v0.284, para subir em sequência.* **E rode `git worktree list` com um `git status` em cada worktree:** *versão pronta pode estar parada numa worktree sem ter subido. Em 28/09 a conversa nova leu o `main` na v0.275 e perguntou de novo o que a v0.276 e a v0.277 já tinham decidido, porque as sete versões estavam só na worktree `quirky-wiles`.* *A v0.272, a v0.273 e a v0.274 foram commitadas em 27/09, mas o push falhou: o GitHub CLI estava com a conta `Gustavo-MrTs` ativa, e não a `cupcake-mochi`. Se `git status` disser que o `main` está à frente do `origin`, o push ainda não saiu — lembre o Mizuki, porque trocar a conta é com ele.* Rode `git log -3` e `git status` na pasta principal antes de qualquer coisa. *Se houver commit mais novo, leia a entrada dele no `CHANGELOG` antes de seguir.*
 2. **Rode a skill `rpg-da-guilda`.**
 3. **Leia `sistema/ESTADO-ATUAL.md` inteiro**, inclusive a fila no fim — ele trunca, e se vier aviso de leitura parcial, continue do offset —, e o `README.md`, que tem as **nove lições que custaram erro**.
 
@@ -55,7 +57,7 @@ Trabalhe em `/media/mizuki/HD Externo II/Claude/Claude 2/`, na pasta **principal
 
 ### ~~A Extensão de Domínio~~ — FECHADA na v0.273
 
-**Quem a usa fica imune a tudo o que a Expansão faz, em qualquer degrau**; *a técnica que encosta nela é anulada até `1/3 do refino + 1`, e acima disso você leva `3/4`; não cai por golpe; erguer paga a maior Classe; nível 18 com requisito de história; o Corpo Amaldiçoado não compra.* **Com ela de pé você não usa feitiço nem `Manejo`**; *a Técnica Marcial, a reversa e as aptidões continuam — as duas últimas "por enquanto".* *As palavras dele e as leituras estão na entrada da v0.273 do `CHANGELOG`; a pesquisa, no `P-extensao-o-que-ficou-aberto.md`; a conta, no `conta-extensao.py`.* **O que é leitura nossa não vai para o livro** *— "informação que o player n precisa".*
+**Quem a usa fica imune a tudo o que a Expansão faz, em qualquer degrau**; *a técnica que encosta nela é anulada até `1/3 do refino + 1`, e acima disso você leva `3/4`; não cai por golpe; erguer paga a maior Classe; nível 18 com requisito de história; o Corpo Amaldiçoado não compra.* **Com ela de pé você não usa feitiço nem `Manejo`**; *a reversa e as aptidões continuam, "por enquanto", e desde a v0.283 a caixa não escreve o que continua.* *As palavras dele e as leituras estão na entrada da v0.273 do `CHANGELOG`; a pesquisa, no `P-extensao-o-que-ficou-aberto.md`; a conta, no `conta-extensao.py`.* **O que é leitura nossa não vai para o livro** *— "informação que o player n precisa".*
 
 ### ~~A comparação das quatro~~ — FECHADA na v0.274
 
@@ -85,6 +87,8 @@ Trabalhe em `/media/mizuki/HD Externo II/Claude/Claude 2/`, na pasta **principal
 
 ~~**A troca de nome no livro inteiro — DECIDIDA, falta aplicar.**~~ **APLICADA na v0.276**, *com o "leia também", a exceção do Restringido e o `Calado` da `Kata` ("Só se seguir os mesmos padrões, algumas ferramentas podem necessitar som"); o registro de antes fica abaixo.* *Hoje o capítulo 43 manda ler `Manejo` onde os capítulos 8 e 9 escrevem feitiço, e o 42 manda ler `Kata` nos mesmos dois; o resto do livro também escreve feitiço — a Cesta ("nada de feitiço com `Gesto`"), o teto da Extensão, o turno, dano e condições, o ritual, a experiência —, e pela letra nada disso alcança o Sem Técnica nem a Técnica Marcial.* **A decisão:** *"A" — a frase dos capítulos 42 e 43 passa a "onde o livro escreve feitiço, leia `Manejo`/`Kata`". E nas palavras dele: "antes o plano era impedir restringido e sem técnica de usar emanador, mas agora n tem o pq impedir".* **A peça 25 já diz que o `Manejo` "é o feitiço com outro nome"**, *então a versão alinha o livro com a peça. A checagem 13 do `conferir-sem-tecnica.py` lê a frase do capítulo 43, e a do capítulo 42, a mesma checagem no `conferir-marcial.py`.*
 
+**A fila grande começou pelo item 12, e ele fechou na v0.281** *sem medir o resto — o Mizuki achou a conta inflada: "você está calculando cogitando muitas coisas, n precisa tanto". O piloto do Bastião e a leitura dos outros três Caminhos estão em `sistema/01-pesquisa/medicao-v04/`; a sobra do 12, o índice de entregas da v0.4, virou o item 17.* **O item 8 fechou na v0.282, como a fase 2 do bestiário:** *a escada de inimigos virou a grade de dificuldade por `×1` a `×6` pessoas, com as decisões e as contas em `bestiario/09-fase-2/`. As sobras dele são os itens 18 (o Sukuna na grade) e 19 (as onze divergências da auditoria).* **O item 19 recebeu a decisão sobre o Evocador em 28/09/2026:** "remove, porque não temos evocador". A v0.285 retira o Caminho suspenso da média que calibra o dano dos inimigos; a média agora usa Bastião, Vanguarda, Guia e Emanador. Não pergunte isso de novo. **Resistência pontual aprovada na v0.286:** até dois tipos fixos no total da criatura não descontam PV. Grupos completos continuam cobrados, mesmo escritos separadamente. Imunidades não recebem a isenção; três ou mais tipos mistos sem completar grupo seguem pendentes. Não reabra a decisão. No item 18, PV-base foi aprovado como referência de cura e partes destrutíveis, antes dos ajustes e mantendo frações até o resultado. Não reabrir essa escolha. Sukuna integrado na v0.287. A ordem recente é planejamento das Invocações para Claude antes das fichas; o índice v0.4 continua na fila.
+
 ## Pendentes pequenos, fora das três partes
 
 - **O balão do cap. 246 no vol. 28** — quem tiver o volume confere se o `薄める` virou `弱める`. *O dado que existe foi lido contornando a proteção do leitor da Shueisha e voltou a **não conferido**; não repita esse caminho.*
@@ -97,7 +101,7 @@ Trabalhe em `/media/mizuki/HD Externo II/Claude/Claude 2/`, na pasta **principal
 
 ## Onde o projeto está
 
-**v0.276.** Manual do Fundamento na **v7.39**. **Vinte e sete peças de regra e vinte e sete validadores** em `sistema/03-mecanica/`, mais o `conferir-repositorio.py`, os dois de `manual/matematica/` e o `conferir-voz.py` — **31 validadores**. O livro tem **18 capítulos**. A ficha (`Claude 3`, o `Ficha---RPG-JJK`) não mudou.
+**v0.287.** Manual do Fundamento na **v7.41**. **Vinte e sete peças de regra e vinte e sete validadores** em `sistema/03-mecanica/`, mais o `conferir-repositorio.py`, os dois de `manual/matematica/` e o `conferir-voz.py` — **31 validadores**. O livro tem **18 capítulos**. A ficha (`Claude 3`, o `Ficha---RPG-JJK`) não mudou.
 
 **A v0.264 e a v0.265 foram pesquisa** (`sistema/01-pesquisa/anti-dominios/`, arquivos `A` a `N`). **A v0.266 foi a rodada 1** (as frases da peça 11 que atribuíam à obra o que ela não faz). **A v0.267 foi a rodada 2, a Cesta**, e **a v0.268 e a v0.269, o começo da rodada 3, o Simples** — *a v0.269 trocou a regra de queda que a v0.268 tinha publicado.*
 
@@ -119,7 +123,7 @@ Trabalhe em `/media/mizuki/HD Externo II/Claude/Claude 2/`, na pasta **principal
 
 **A Pétala (v0.272):** rebate o que toca, energia contra energia; **o dano do Acerto que toca sai da Essência de quem a usa contra a do dono — maior, nada; igual, `1/4`; menor, metade** —, e o que a Expansão traz por contato e não é dano ela anula sempre; levanta com Reação quando uma Expansão abre ou Ação Bônus no turno, e erguer de novo custa a Ação Bônus; **cai pelo teste do `Carregar` a cada golpe, de qualquer um, com metade da Essência em falhas, e sem a queda na hora**; com arma corpo a corpo empunhada, contra-ataca quem a acertou com um ataque de oportunidade com vantagem, por `3` PE (o soco não conta); `1` PE por rodada; contra a incompleta não faz nada; requisito de história (Descendente, ou ter aprendido com alguém de um clã) e refino 4.
 
-**A Extensão de Domínio (v0.273):** imune a tudo o que a Expansão faz — o Acerto e o que ela faz com as pessoas e com o lugar —, completa, incompleta ou sem barreiras; a barreira continua prendendo e o que a Expansão dá ao dono continua com ele; a técnica que encosta é anulada até `1/3 do refino + 1`, e acima disso você leva `3/4`; levanta como as outras, `1,5 × maior Classe` por rodada, dura `refino` rodadas, e não cai por golpe; com ela de pé, nenhum feitiço nem `Manejo` (a Técnica Marcial, a reversa e as aptidões continuam); a sua Expansão já aberta continua, e abrir uma nova a derruba; refino 7 e nível 18, requisito de história (ter visto, estudado ou aprendido com alguém); o Corpo Amaldiçoado não compra.
+**A Extensão de Domínio (v0.273):** imune a tudo o que a Expansão faz — o Acerto e o que ela faz com as pessoas e com o lugar —, completa, incompleta ou sem barreiras; a barreira continua prendendo e o que a Expansão dá ao dono continua com ele; a técnica que encosta é anulada até `1/3 do refino + 1`, e acima disso você leva `3/4`; levanta como as outras, `1,5 × maior Classe` por rodada, dura `refino` rodadas, e não cai por golpe; com ela de pé, nenhum feitiço nem `Manejo` (a reversa e as aptidões continuam, e a caixa não escreve isso desde a v0.283); a sua Expansão já aberta continua, e abrir uma nova a derruba; refino 7 e nível 18, requisito de história (ter visto, estudado ou aprendido com alguém); o Corpo Amaldiçoado não compra.
 
 ## Lições de método
 
@@ -130,6 +134,7 @@ Trabalhe em `/media/mizuki/HD Externo II/Claude/Claude 2/`, na pasta **principal
 5. **A 7.4 reprova quando a entrega commitada está duas versões atrás**, e aí a entrega commita **antes** do `subir.sh`. *Aconteceu com a v0.267, porque três versões fecharam na nuvem sem entrega.*
 6. **Pergunte com a palavra do jogo, não com a do modelo.** *"Subida" era palavra do script, e o Mizuki não entendeu; "erguer de novo" ele entendeu na hora. E exemplo concreto de cada saída antes da pergunta: foi vendo os exemplos que ele propôs a regra que ficou.*
 7. **Antes de refazer uma versão, confira o `git log` da pasta principal.** *A v0.268 foi commitada e subiu enquanto a conversa ainda discutia a regra, e a regra final teve de virar a v0.269 em cima dela.*
+8. **E na retomada, confira as worktrees, e não só o `main`.** *Versão pronta e não subida mora na worktree que a fez. Em 28/09 o `main` estava na v0.275 e a fila real, na v0.282; o prompt certo era o da worktree, e a pergunta repetida custou uma volta.*
 
 ## A ordem de fechar versão
 

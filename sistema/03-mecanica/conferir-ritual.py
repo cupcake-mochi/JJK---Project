@@ -176,6 +176,42 @@ else:
     if not so_peca and not so_livro:
         ok('as duas listas tem os mesmos nomes — a licao no 9 conferida')
 
+# 7.1 (v0.283): o acesso fecha o ritual para quem monta a tecnica em `Manejo` ou em `Kata`.
+# Decisao do Mizuki: "N da pra fazer ritual em estilo nem tecnica marcial" — "estilo" e' como
+# ele chama o `Manejo`. A linha tem de estar ESCRITA dos dois lados: desde a v0.276 os capitulos
+# 42 e 43 mandam ler `Kata` e `Manejo` onde qualquer capitulo escreve feitico, e sem ela o
+# capitulo 46 abre o ritual para as duas rotas pela letra. Aceita a rota pelo nome da tecnica
+# ou pelo nome da rota, e cobra a negacao e as duas rotas na MESMA linha. Na peca so' vale a
+# caixa (`> `): o paragrafo que explica repete as palavras, e ler ele faria a checagem passar
+# sem a regra — o defeito que a v0.273 achou no conferir-expansao.
+def _secao(texto, rx_titulo):
+    m = re.search(rx_titulo, texto, re.M)
+    if not m:
+        return None
+    fim = re.search(r'^## ', texto[m.end():], re.M)
+    return texto[m.end(): m.end() + fim.start()] if fim else texto[m.end():]
+
+_ROTA_M = re.compile(r'`Manejo`|Sem Técnica')
+_ROTA_K = re.compile(r'`Kata`|Técnica Marcial')
+_NEGA = re.compile(r'não (?:compra|compram|faz ritual|fazem ritual)\b')
+
+_s7 = _secao(txt, r'^## 7\. O acesso[ \t]*$')
+_sa = _secao(livro, r'^## Acesso[ \t]*$') if livro else None
+_acesso = {'peca 27, a caixa do §7': None if _s7 is None else
+               '\n'.join(l for l in _s7.split('\n') if l.startswith('> ')),
+           'livro, cap. 46, o Acesso': _sa}
+for onde, sec in _acesso.items():
+    if sec is None:
+        erro(f'7.1: nao achei {onde} — a secao mudou de titulo e esta checagem parou de conferir')
+        continue
+    fecha = [l for l in sec.split('\n') if _NEGA.search(l) and _ROTA_M.search(l) and _ROTA_K.search(l)]
+    if fecha:
+        ok(f'7.1: {onde} fecha o ritual para o `Manejo` e a `Kata`')
+    else:
+        erro(f'7.1: {onde} nao fecha o ritual para quem monta a tecnica em `Manejo` ou em `Kata` — '
+             'desde a v0.276 os capitulos 42 e 43 mandam ler as duas onde o livro escreve feitico, '
+             'e sem a linha o Sem Tecnica e a Tecnica Marcial fazem ritual pela letra')
+
 print()
 print('=' * 88)
 if FALHAS:

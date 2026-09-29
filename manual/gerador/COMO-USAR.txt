@@ -1,4 +1,4 @@
-GERADOR DO MANUAL — Fundamento v7.39
+GERADOR DO MANUAL — Fundamento v7.41
 
 Recria o .docx do zero. Precisa de Node.js.
 
@@ -32,6 +32,26 @@ ORDEM DAS SEÇÕES (v7)
   4 Restrições → 5 Fora de combate → 6 Liberação Máxima → 7 Técnica Máxima →
   8 Regras de ouro → 9 Progressão → 10 Feitiços prontos → 11 Para o mestre →
   Apêndice
+
+O QUE MUDOU NA v7.41
+
+  O Evocador saiu da media que calibra o dano do chefe, por decisao do Mizuki.
+  Os quatro Caminhos jogaveis, com Constituicao 3 e pesos iguais, dao vida media
+  11,5 + 8,25 x (nivel - 1). O dano continua em 90% da media, arredondado ao
+  inteiro mais proximo com empate para baixo. A coluna do capanga acompanha.
+  PV dos personagens, vida dos inimigos e duracao por dificuldade nao mudam.
+
+O QUE MUDOU NA v7.40
+
+  A secao Inimigos passa a ler a tabela como o chefe de dificuldade moderada
+  feito para quatro personagens, o Desastre x4 da grade do Bestiario (fase 2,
+  v0.282 do projeto). O chefe age quatro vezes por rodada, uma para cada
+  personagem, e o golpe e um quarto da linha — era tres vezes e um terco. O
+  capanga vem em esquadrao de dois corpos por personagem, com a mesma vida e
+  metade do golpe de antes: a coluna Capanga: dano caiu para a metade de um
+  quarto do dano do chefe (27 no nivel 30, era 55), e um chefe feito para N
+  personagens vale 3N capangas. A vida e o dano do chefe nao mudaram. A peca 26
+  e o conferir-bestiario conferem a coluna.
 
 O QUE MUDOU NA v7.39
 

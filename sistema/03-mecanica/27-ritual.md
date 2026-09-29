@@ -189,8 +189,15 @@ Isso decide o que a lista da seção 4 pode conter e o que não pode. **Uma Melh
 ## 7. O acesso
 
 > **Uma aptidão, com gate de `INT 5` e nível `10`.**
+> **Quem monta a técnica em `Manejo` ou em `Kata` não compra.**
 
 ***Proposta do Mizuki*** *("ajudaria bastante a balancear as metrias"), que começou em `INT 5` e nível `8`.* **O `8` foi recusado pela conta:** *no marco `6` a escolha `Corpo` dá o atributo e a escolha `Refino` dá a aptidão, e as duas são exclusivas — então `INT 5` E uma aptidão só coexistem no marco `10`.* **Quem tem Inteligência como atributo secundário chega no `14`.**
+
+***Decisão do Mizuki na v0.283:*** **o Sem Técnica e a Técnica Marcial ficam de fora** *— "N da pra fazer ritual em estilo nem tecnica marcial". "Estilo" é como ele chama o `Manejo`, o feitiço do Sem Técnica.* **A linha precisa estar escrita:** *desde a v0.276 os capítulos 42 e 43 do livro mandam ler `Kata` e `Manejo` onde qualquer capítulo escreve feitiço, e `Ruptura` onde escreve Liberação Máxima. Sem ela, o capítulo 46 abriria o ritual para as duas rotas pela letra, a Liberação Máxima de cada uma inclusive.*
+
+- **Quem não compra também não auxilia.** *O aliado do §6 precisa ter esta aptidão, e o livro diz o mesmo: ajuda "um aliado que também saiba ritualizar". Leitura minha, e o Mizuki pode vetar.*
+- **A Restrição Celestial sem energia já não comprava:** *ela não tem aptidão nem refino (peça 9 §5).* **O ramo corpo pela técnica tem técnica inata, escreve Fundamento e compra como qualquer um.**
+- **É o terceiro exemplar do gate de Origem**, *e a peça 11 §5 tem os três: ele pergunta como a ficha foi criada, e isso não muda depois.*
 
 ## 8. Em aberto
 

@@ -8,6 +8,359 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.287] — 28/09/2026
+
+**Sukuna integrado à grade atual; débito corrente aprovado.** Mizuki: "Pode seguir recomendação. Agora vamos prós planejamentos". Aptidões são cobradas das ações ainda legalmente disponíveis naquela rodada; resoluções passadas não mudam, não existe dívida para o próximo ciclo e, sem cota, não se ativa naquela janela. Isso também restringe a defesa fora do turno após gastar tudo. O procedimento não concede janelas nem conserva ações expiradas.
+
+**Adicionado:** ficha `bestiario/05-sukuna/SUKUNA-GRADE-ATUAL.md`, gerador com dados dos donos, saída de cálculo, relatório, doze casos contábeis e arnês de perturbação. Ficha histórica preservada. PV 1111, Integridade 555, cura de ação 78 e braço 157. Clivar 12d8, Teia 9d8, Chama 170 e primeira Intervenção 51. Extensão atualizada à peça 11. A integração técnica não certifica dificuldade ou equilíbrio de mesa.
+
+**Alterado:** o conferir-bestiario passou a ter onze blocos; contagens documentais alinhadas. A orientação de Invocações distingue decisões autorais aprovadas de uma candidata ainda não publicada. O planejamento para Claude usa r5 + §46 e preserva fontes históricas. Não aprova parâmetros de Invocações, Evocador, Trilhas ou construtor.
+
+**Validação:** conferir-bestiario sem puladas; base, restauração e controle coerente do arnês passam, e sete perturbações são detectadas. O verificador geral mantém a falha 7.4 da entrega ainda commitada em v0.276; sem commit ou push. A bateria integral não foi repetida nesta entrega localizada.
+
+→ Continua em `sistema/ESTADO-ATUAL.md`, na continuidade de 28/09: planejamento das Invocações para Claude, antes das fichas.
+
+## [0.286] — 28/09/2026
+
+**Trabalho seguinte em andamento, não aprovação nova:** a remontagem numérica do Sukuna está em `bestiario/05-sukuna/SUKUNA-GRADE-ATUAL.md`. A conferência foi acrescentada ao validador do Bestiário; cinco perturbações foram detectadas, com base, restauração e mudança coerente da fonte passando. O procedimento de cobrança de aptidão após ações já gastas permanece aberto no relatório. A fila recente de Mizuki é Sukuna primeiro, planejamento das Invocações para Claude depois.
+
+**Complemento autoral: PV-base.** Mizuki fechou: "Pode fechar PV-Base". Cura de ação e partes destrutíveis usam a célula antes dos ajustes de papel, atributos e recursos. A referência conserva frações até o arredondamento final para baixo, preservando a tabela por nível. No nível 30, 78 de cura por ação e 157 PV por parte. A Circulação de Reação não mudou. A peça 26, o texto do Bestiário e o ensaio foram alinhados; a ficha final do Sukuna continua em trabalho. O conferir-bestiario passou antes e depois da alteração; a troca indevida para PV finais na peça e no livro e a volta dos 180 PV por braço foram detectadas em cópia isolada, com a base e a restauração passando. A bateria completa da integração anterior não foi repetida para esta alteração localizada.
+
+**Resistência a até dois tipos fixos no total da criatura não desconta PV.** Aprovação do Mizuki: "Pode fechar e aprovar essa mudança nas pastas do Claude 2 tbm, sigamos". Grupos completos continuam cobrados, mesmo escritos como tipos separados. Imunidades, vulnerabilidades e defesas de jogadores não foram alteradas. Três ou mais tipos mistos sem completar um grupo continuam pendentes, sem extensão automática da isenção.
+
+A peça 26, o livro do Bestiário e o gerador de blocos carregam a mesma regra. O Desastre ×4 de nível 30 resistente apenas a Fogo conserva 945 PV. A pesquisa passa a registrar a aprovação. As afirmações de duração garantida e a atribuição literal do desconto de PV ao D&D 2014 foram corrigidas: a distribuição de dano do grupo continua sendo hipótese, não resultado de playtest.
+
+A checagem 8 de conferir-bestiario distingue a isenção autoral do cálculo de vida efetiva, compara a redação nas publicações e protege a cobrança de grupos completos e a lacuna de tipos mistos. A cópia numérica do gerador continua conferida pelo conferir-ficha.
+
+**Integração autorizada em Claude 2:** aplicados, em ordem, os patches v0.277–v0.284 do Claude e a v0.285. O estado anterior foi guardado fora do repositório. Nenhum commit ou push foi feito; o histórico Git ainda aponta para a v0.276. A sincronização de finalizado mantém o repositório próprio e também não cria commit.
+
+**Validação:** sete casos do ensaio de resistência tiveram o resultado esperado, incluindo cinco falhas provocadas e dois controles positivos. Os 30 validadores de regras, matemática e voz passaram. O conferir-repositorio ainda acusa a 7.4: o último commit de finalizado é v0.276, pois a integração autorizada foi feita sem commits. O recorte em disco foi sincronizado; essa pendência de histórico não foi escondida nem a checagem enfraquecida. Os PDFs foram regenerados e as páginas alteradas inspecionadas. A certificação de equilíbrio em mesa continua pendente.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, item 18: Sukuna na grade nova. A sobra do item 19 sobre a Extensão do Sukuna acompanha esse trabalho.
+
+---
+
+## [0.285] — 28/09/2026
+
+**O Evocador sai da média que calibra o dano dos inimigos.** Decisão do Mizuki: "remove, porque não temos evocador". Os quatro Caminhos jogáveis têm pesos iguais e Constituição 3. A vida média é `11,5 + 8,25 × (nível − 1)`; o dano nominal do chefe continua em 90% da média, ao inteiro mais próximo com empate para baixo. No nível 30, passa de `219` a `226`. Cada um dos quatro golpes arredonda separadamente: `56`, total `224` quando os quatro são usados.
+
+A tabela do manual, o gerador de inimigos, as contas de sobrevivência e socorro da peça 1, os valores das condições da peça 19 e as tabelas derivadas da peça 26 foram recalculados. Os preços e níveis das condições não mudam. O livro de inimigos e as seis prontas foram regenerados; fichas cujo arredondamento não muda conservam seus valores. O manual vai para a v7.41. PV de personagens, PV dos inimigos, categorias, ações e duração por dificuldade permanecem com as regras anteriores.
+
+**Guarda contra regressão.** A checagem 7.1 do conferir-atributos lê os PV da peça 1 e os Caminhos jogáveis da peça 6, confere a fórmula e a lista declaradas, e compara os sete danos do manual com a média. O conferir-manual deixou de comparar o DOCX com uma tabela fixa antiga e passou a compará-lo com o gerador. Não foi criada peça nem validador adicional.
+
+**Pesquisa de resistência, ainda pendente de decisão.** As fontes de D&D 2014/2024, Pathfinder 2e e 13th Age foram reabertas. A nova nota distingue regra explícita, ausência de tarifa, ajuste de dificuldade e desconto de PV. A conclusão anterior sobre “a maioria” não é tratada como prova. A recomendação de isentar um ou dois tipos fixos não foi aplicada sem resposta do autor. Imunidades, vulnerabilidades e resistência dos personagens não mudaram.
+
+**Dependências históricas:** atualizaram-se os exemplos comparativos de Concentração e Bloquear. Na peça 15 suspensa, apenas medidas derivadas foram recalculadas: o crítico máximo da Calamidade passou de 153 para 155, alcançando os 154 PV do Coro no extremo da rolagem. Nenhuma regra de invocações foi alterada; o museu e a candidata nova permanecem intactos.
+
+**Limite encontrado:** a tabela de cura de grupo da peça 26 inclui uma composição com Energia Reversa curando outra pessoa que deixou de ser jogável. Foi identificada como registro histórico, sem inventar composição substituta.
+
+**Validação:** bateria de 31 validadores executada: 30 passaram integralmente; conferir-repositorio passou nas verificações disponíveis, mas pulou 7.4 porque a cópia da entrega não contém seu repositório Git independente. Oito casos do ensaio de calibração e três do leitor de dano das invocações tiveram o resultado esperado, incluindo falhas provocadas e controle positivo coerente. Manual e dois PDFs do bestiário foram regenerados e inspecionados. Não é certificação de equilíbrio em mesa. Não houve commit ou push nem alteração no repositório principal.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: resistência pontual aguardando decisão; depois Sukuna na grade, fichas, Invocações e índice da v0.4.
+
+---
+
+## [0.284] — 28/09/2026
+
+**Quatro das onze divergências da auditoria da fase 2 fecharam, e nenhum preço mudou.** *O item 19 da fila é sobra de uma auditoria feita antes da reescrita dos inimigos da v0.282, e a reescrita já tinha resolvido quatro sem querer: o chefe com capangas, o `Controlador` no vocabulário, o `0,923` uniforme e a Calamidade de oito.* **Das sete que sobravam, esta versão fecha as quatro que o Mizuki liberou como correção menor; as duas que pedem decisão dele e o Sukuna continuam no item.**
+
+### 1 · As respostas, nas palavras dele
+
+- **As correções menores — "pode fazer as correções menores".**
+- **A resistência a um tipo só — "Confirme com absoluta certeza que outros sistemas cobram da ficha a resistência".** *Lido nas fontes primárias e registrado em `bestiario/09-fase-2/pesquisa/RESISTENCIA-em-outros-sistemas.md`:* **não é unânime, e para um tipo só a maioria não cobra.** *O Guia do Mestre de 2014 só leva a resistência em conta a partir de três tipos, e para achar o nível de desafio, sem tirar vida do monstro; o de 2024 põe dar resistência a um ou dois tipos entre as mudanças que não mexem no monstro; o 13th Age e o Draw Steel não precificam; e o Pathfinder 2e manda baixar a vida, sem dar número.* **A decisão continua com ele.**
+- **O Evocador na vida do grupo — "Ignora, evocador n existe mais por enquanto".** *A frase lê de dois jeitos, tirar o Evocador da média ou deixar a pergunta de lado, e os dois mudam coisas de tamanho muito diferente: tirar ele sobe a vida média de `3,2%` a `3,9%`, e com ela o chefe do nível 30 de `219` para `226`, a tabela do manual, a grade e as seis prontas.* **A leitura vai para ele confirmar antes de qualquer número mudar.**
+
+### 2 · O que fechou
+
+- **O capanga da régua de condição (divergência 4).** *A tabela de âncoras da peça 19 dizia "chefe e capanga no nível 30, `219` e `73`, do manual", e o validador lia os dois do `DESENHO-trilhas`, cuja frase dava ao manual um capanga que ele nunca publicou: o `73` era o da `Alcateia`, o manual dava `55`, e desde a v0.282 dá `27`, meio golpe. E desde a v0.270 aquele arquivo é registro da coleção anterior.* **Hoje o chefe e o capanga vêm da tabela de inimigo do manual, e contra o `27` nenhum dos treze níveis de condição se move**; *a pior razão contra o capanga cai de `2,32×` para `0,90×`.* **A frase da ORDEM foi refeita junto:** *ela ilustrava a inversão com duas razões que não invertem (`2,21×` e `2,32×` no chefe, `0,74×` e `2,32×` no capanga); a inversão que a checagem 13 mede é no valor negado por rodada, e é com ele que a frase ficou.*
+- **As duas regras de papel sem dono (divergência 3).** *"O `Emboscador` não sobe de `Grande`" era decisão da fase 1 do Bestiário e morava só no capítulo 6 do livro de inimigos; foi para a peça 26 §3.4.* **"O `Baluarte` e o `Reforço` só se pagam com mais de um inimigo" tinha ficado meio errada na grade:** *a frase vem da mesma decisão, de quando o `Baluarte` se chamava `Guardião`; hoje ele troca Defesa pela própria vida e serve sozinho, e só o `Reforço`, que gasta o câmbio em outro bloco, precisa de companhia. Ficou só o `Reforço`, na peça e no livro.* **Nenhuma pronta `Emboscador` passa de `Grande`** *— o Betobeto e a Hitotsume são Médios, e a Kamaitachi é Pequena.*
+- **O registro da fase 0 (divergência 10).** *As duas decisões de lá que a fase 1 desfez — sem eixo de papel, e a sub-categoria morta — ganharam a nota de onde e quando voltaram.*
+- **A tabela de trabalho do bestiário (divergência 8).** *A `TABELA.md` da fase 1 ainda mostra vida, dano, ações e golpe da escada; desde a v0.282 só a Defesa, o acerto, a CD, o refino e a proteção valem. As colunas velhas ficam, porque os scripts de medição da fase 1 leem a tabela assim, e o topo dela passou a dizer isso.*
+
+### 3 · O que continua no item 19
+
+- **A resistência a um tipo só (divergência 9)** — *com a pesquisa na mão, a decisão é dele.*
+- **O Evocador na vida do grupo (divergência 7)** — *a confirmação da leitura.*
+- **A ficha do Sukuna com a Extensão de antes da v0.273 (divergência 11)** — *vai com o item 18.*
+
+### 4 · Onde entrou
+
+- **A peça 19 §2.2:** *a âncora do capanga, a linha da checagem 13, o parágrafo do capanga com a nota do `73`, a frase da ORDEM e a linha do arnês que perturbava o `DESENHO-trilhas`.*
+- **A peça 26 §3.4:** *o `Emboscador` e o `Reforço`, com a nota de onde as frases moravam.*
+- **O livro de inimigos:** *a frase do capítulo 6, e os dois PDFs refeitos.*
+- **O Bestiário:** *a nota da fase 0, a da tabela de trabalho, a lista de aplicação da fase 2 e a pesquisa da resistência.*
+- **A fila do `ESTADO-ATUAL`:** *o item 19, com o estado de cada divergência.*
+
+### 5 · Os validadores
+
+- **`conferir-dano.py`:** *o chefe e o capanga passam a ser lidos da linha do nível 30 da tabela de inimigo do manual, pelo cabeçalho das colunas, e não pela posição delas; e a 13.1, nova, cobra que cada `N×` do parágrafo do capanga e os dois valores da frase da ORDEM saiam da conta da checagem 13.* **Sub-checagem, e não bloco novo.**
+- **`conferir-bestiario.py`, 10.1, nova:** *o `Emboscador` até `Grande` e o `Reforço` com companhia, na peça e no livro; a frase velha do `Baluarte` não volta; e nenhuma pronta `Emboscador` passa de `Grande`, com a escada de tamanho lida da tabela do §3.3.* **Sub-checagem, e não bloco novo.**
+
+### 6 · O que foi conferido
+
+*Antes de trocar o capanga, a régua foi rodada com o `27` numa cópia: nenhum nível se move, e a pior razão cai para `0,90×`. Os dois PDFs do livro de inimigos foram refeitos, os quatro geradores dele passam no `--conferir`, e o `conferir-voz.py --estrito` de lá sai `0`; o livro do jogador e o manual não mudaram.* **A bateria: 31 de 31, com PULADA zero**, *numa cópia da pasta principal com a v0.275 commitada, os patches da v0.276 à v0.283, o commit da entrega, e o patch da v0.284 por cima.*
+
+**O arnês:** *numa cópia isolada, com a base dos dois validadores verde antes e depois. Nove perturbações acendem pela mensagem certa — o manual com o capanga a `50`, a prosa com o `Lento` a `0,95×`, a frase da ORDEM com o `Envenenado` a `13,00`, a tabela de âncoras com o capanga a `30`, o manual com a coluna do capanga renomeada, a peça 26 sem o `Emboscador`, o livro voltando a pedir companhia ao `Baluarte`, a Hitotsume `Imensa` e o livro sem o `Reforço` —, e dois contra-testes coerentes ficam verdes: o capanga a `30` no manual e na peça 19 juntos, com a prosa refeita pela conta que o validador imprime, e o livro dizendo que o `Baluarte` serve sozinho.* **E o arnês pegou um defeito meu:** *a 10.1 lia o papel e o tamanho numa regex só, e o `marcos: { … }` da Hitotsume, entre os dois, escondia ela — a checagem via duas das três prontas `Emboscador`. Hoje ela lê pronta por pronta, como a 9.5.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: *o item 19 espera as duas respostas do Mizuki; depois, o item 18, o Sukuna na grade.*
+
+---
+
+## [0.283] — 28/09/2026
+
+**O ritual fechou para o Sem Técnica e a Técnica Marcial, e a caixa da Extensão parou de dizer o que continua de pé.** *As duas saíram de uma rodada de perguntas sobre a troca de nome da v0.276, e a terceira pergunta dela já estava respondida.* **Nenhum número mudou.**
+
+### 1 · As respostas, nas palavras dele
+
+- **O ritual — "N da pra fazer ritual em estilo nem tecnica marcial".** *"Estilo" é como ele chama o `Manejo`, o feitiço do Sem Técnica ("estilos de sem técnica mesmo", na v0.134).* **Quem monta a técnica em `Manejo` ou em `Kata` não compra a aptidão de Ritual.** *A linha precisava ser escrita: desde a v0.276 os capítulos 42 e 43 mandam ler `Kata` e `Manejo` onde qualquer capítulo escreve feitiço, e `Ruptura` onde escreve Liberação Máxima, e o capítulo 46 abria o ritual para as duas rotas pela letra.*
+- **A caixa da Extensão — "Pode tirar a parte 'a tecnica marcial e aptidões', se n ta citado, n precisa ficar deixando claro".** *"A Técnica Marcial e as aptidões continuam" saiu da caixa, no livro e na peça 11. A reversa e as aptidões seguem liberadas, "por enquanto", como a v0.273 decidiu; e desde a v0.276 a `Kata` vale como feitiço, então a frase brigava com a primeira linha da caixa.*
+- **O `Calado` e o *conjurar* — "Analise mais a fundo, tenho quase certeza q ja foi respondido recentemente".** *Estava, na v0.276 ("Só se seguir os mesmos padrões, algumas ferramentas podem necessitar som") e na v0.277 ("B. N precisa de campo, cala apenas se o inimigo tiver algum selo que necessite de voz ou habilidades do tipo, é uma condição de nicho").* **A pergunta saiu de uma leitura do `main` parado na v0.275, sem ver as sete versões prontas na outra worktree**, *e não virou regra nova.*
+
+### 2 · O que o teste da leitura decidiu sem pergunta
+
+- **Quem não compra também não auxilia.** *O aliado do ritual auxiliado precisa ter a aptidão (peça 27 §6), e o livro diz "um aliado que também saiba ritualizar".* **Leitura minha, para ele vetar.**
+- **A Restrição Celestial sem energia já não comprava**, *porque não tem aptidão; o ramo corpo pela técnica tem técnica inata, escreve Fundamento e compra como qualquer um.*
+- **É o terceiro exemplar do gate de Origem**, *e a peça 11 §5 passou a listar os três. O título da subseção dizia "o exemplar único" desde antes da v0.273, que já tinha posto o segundo.*
+- **O "nem `Manejo`" da caixa fica, e o motivo escrito dele foi trocado.** *A peça 11 e o `conferir-expansao.py` diziam que o nome estava lá porque o capítulo 43 só mandava ler `Manejo` nos capítulos 8 e 9 — isso deixou de ser verdade na v0.276, e ninguém trocou.* **Hoje o nome fica por clareza**, *que é a decisão da v0.273 de escrever com todas as letras.*
+
+### 3 · Onde entrou
+
+- **A peça 27 §7:** *a linha na caixa e a decisão, com o auxílio, a Restrição Celestial e o gate.* **O capítulo 46 do livro:** *uma frase no `Acesso`.*
+- **A peça 11:** *a cópia da caixa da Extensão no §6.5, o parágrafo que explica o que para e o que continua, e o §5 com os três exemplares do gate de Origem.* **O capítulo 45 do livro:** *a caixa da Extensão.*
+- **O `H` dos anti-domínio:** *a nota da versão.*
+
+### 4 · Os validadores
+
+- **`conferir-ritual.py`, 7.1, nova:** *a caixa do §7 da peça 27 e o `Acesso` do capítulo 46 têm de fechar a aptidão para as duas rotas, na mesma linha, pelo nome da técnica ou da rota. Na peça só vale a caixa, porque o parágrafo que explica repete as palavras.* **Sub-checagem, e não bloco novo:** *a contagem de checagens não muda.*
+- **`conferir-expansao.py`, bloco 10:** *a caixa, na peça e no livro, não pode voltar a dizer que a Técnica Marcial, as aptidões ou a reversa continuam; a barreira que prende e a Expansão já aberta seguem dizendo "continua", porque são regra.* **E o motivo do "nem `Manejo`" foi trocado no comentário e na mensagem.**
+
+### 5 · O que foi conferido
+
+*Os sete patches da v0.276 à v0.282, aplicados em sequência numa worktree no commit da v0.275, deram exatamente a árvore da worktree onde elas foram feitas — as únicas diferenças são dois arquivos de build que o git ignora.* **O arnês:** *numa cópia isolada, com a base dos dois validadores verde antes e depois. Oito perturbações acendem pela mensagem certa — o livro sem a linha do `Acesso`, a peça sem a linha da caixa, o livro só com o `Manejo`, o `Acesso` com outro título, a frase do que continua voltando à caixa do livro e à da peça, "As aptidões continuam" sozinha no livro, e o livro sem o `Manejo` pelo nome —, e um contra-teste coerente fica verde: a peça e o livro escrevendo "Sem Técnica e Técnica Marcial não compram".*
+
+*Os quatro builds do livro depois da última edição, com a paginação igual (`282` e `172`); o `conferir-voz.py --estrito` sai `0`.* **A bateria: 31 de 31, com PULADA zero**, *numa cópia da pasta principal com a v0.275 commitada, os patches da v0.276 à v0.282, o commit da entrega, e o patch da v0.283 por cima.* **A entrega muda em quatro arquivos** *(a peça 11, a peça 27, o PDF de coluna única e o `.docx` de revisão), e nenhuma citação de arquivo entrou nem saiu das peças entregues: a 7.2 segue em `197` contra a base de `200`.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: *a fila — o Sukuna na grade (18), as onze divergências (19), as fichas novas (9 e 14), o Evocador (13) e o índice da v0.4 (17).*
+
+---
+
+## [0.282] — 28/09/2026
+
+**O item 8 fechou como a fase 2 do bestiário: a escada de inimigos virou uma grade de dificuldade por tamanho de grupo.** *A categoria deixou de medir quantas pessoas o inimigo exige e passou a ser a dificuldade da luta — `Capanga`, `Ameaça`, `Desastre`, `Catástrofe` e `Calamidade` —, feita para N pessoas do nível, de `×1` a `×6`. A vida é `rodadas × N × a saída de um personagem`, o golpe é `a pressão × o golpe-base`, o inimigo age N vezes, e o que ele carrega se paga na vida. A peça 26 e o `conferir-bestiario.py` foram reescritos, e o manual, o gerador de inimigo, o livro de inimigos e as seis prontas foram refeitos na grade.*
+
+### 1 · As decisões, nas palavras dele
+
+- **O pedido — 27/09:** *"Temos de refazer os inimigos, seus status e formulas. O livro foi bem montado e temos um esqueleto bom, mas não funcional"* · *"os inimigos n deveriam passar da necessidade de 6 players, fica impossivel e sem sentido"* · *"tira essa frase do livro q coloca que, 'precisa de 8 mas n tem oito players em mesa', isso é inutil"*.
+- **A categoria — "A+B":** *"Ele é totalmente A, mas faria sim sentido inimigos de categorias acima ter mais recursos, n só numeros"* — **a dificuldade para aqueles N, e a de cima ganha recurso.**
+- **Os traços — "B":** *"dar expansão e essas mecancias deixam o encontro mais letal, mas n necessariamente deixa ele impossivel do grupo ganhar"* — **eles se pagam por dentro, e a decisão da v0.229 ("a Expansão aumenta o encontro") caiu.**
+- **A ficha — "B":** *"defesa, acerto, cd, vida podem sim ser aumentados ou diminuidos baseados nos atributos, mas ainda é uma ficha propria semelhante a DnD"* — **a tabela por nível é a dona, e o desvio dela se paga na vida.**
+- **As rodadas — "B", meio a meio:** *"eu penso em ser 2-2.5-3-4-5 rodadas, lembrando q tem a categoria faltando"*; **a que faltava é o `Capanga`:** *"ele pode sim ser usado contra players em multiplas quantidades ou junto de um chefe"*; **e a luta longa não ganha mecanismo:** *"C, decisão do mestre é melhor aqui"*.
+- **O `Capanga` — "B":** *os `2N` corpos que caem num golpe, com meio golpe.*
+- **O `×1` e o `×2` contra condição:** *"A, poderia ser uma mecanica apenas para combates 1x1-2x1"* e *"n ser garantido seria melhor. Talvez uma habilidade pra rerolar o TR, rolar no começo do turno dnv ao invés do final […] Pq se n a condição fica inutil"*.
+- **O recurso paga onde:** *"Olhe os outros sistemas e busque balancear com base nisso, mas acredito que um dragão que tem baforada n tem dano reduzido em comparação a um inimigo que tenha so ataques do mesmo nd"*.
+- **A aplicação:** *"Gostei, otimas ideias, podemos seguir e aplicar"*.
+
+### 2 · A pesquisa
+
+- **A leva 1, dois agentes, `840k`:** *como sete sistemas escalam um inimigo com o número de jogadores (o Campeão (1) a (6) do Fabula Ultima, o grande e o enorme do 13th Age, o Solo de 6 do Draw Steel), e a auditoria interna do que a escada encodava — as cinco premissas, os validadores, o gerador, o livro e onze divergências.*
+- **A leva 2, dois agentes, `631k`:** *a matemática de quatro sistemas deu a mediana `1,5 · 1,8 · 2,7 · 3,3 · 4,7` rodadas por degrau com quatro personagens; o Draw Steel escreve que a luta dura três rodadas ou menos e que a de cinco é longa; e nos `15.283` combates de 5e do FIREBALL a mediana é `3`.* **As rodadas dele ficaram:** *a ordem e o tamanho batem, e a luta vira moedor a partir de seis.*
+- **Medido por mim, sem agente:** *nos `331` blocos do SRD 5.2, o monstro com `Recarga` tem a rotina de ataque `× 1,05` da do monstro que só ataca, no mesmo ND; e o GM Core do Pathfinder 2e não manda baixar número nenhum por causa de uma baforada.* **Nos dois ela se paga pela economia de ação, e o que sobra, pela resposta "B", sai da vida.**
+- *Tudo em `bestiario/09-fase-2/`: as decisões (`decisoes-fase-2.md`, onze seções), as contas (`conta-esqueleto.py`, que reproduz antes a escada publicada, e `gerar-grade.py`, de onde saem as tabelas da peça) e as duas levas em `pesquisa/`.*
+
+### 3 · A grade
+
+- **Os degraus:** *rodadas `2 · 2,5 · 3 · 4 · 5`; o orçamento do Pathfinder 2e (`40 · 60 · 80 · 120 · 160`); a pressão é o orçamento × 3 ÷ as rodadas — `0,900` na `Ameaça`, `1` no `Desastre`, `1,125` na `Catástrofe`, `1,200` na `Calamidade` —, e o golpe vai de `20,2%` a `27,0%` da vida de um personagem.*
+- **O `Desastre ×4` é o chefe da tabela do manual** *(`945` de vida no nível 30, os `219` por rodada em quatro golpes de `55`), e o `Desastre ×1` tem a vida e o golpe da `Ameaça` da escada.*
+- **O `Capanga ×N`:** *`2N` corpos que caem num golpe e batem metade do golpe-base; o esquadrão dura duas rodadas contra qualquer N, e um `Desastre ×N` vale `3N` capangas. Ao lado de um chefe, cada capanga tira `1 ÷ (rodadas × N)` dele.*
+- **O `×1` e o `×2`:** *a condição que tira ação dá ao inimigo um TR no começo do turno — com a maestria no `×1`, com desvantagem no `×2` —, e as duas células voltam à régua de três ações da peça 19 (`2,18×` a `2,43×` e `1,84×` a `2,01×`, com o filtro em `3,00×`).*
+- **O que ele carrega se paga na vida:** *a `Intervenção` (a porta abre quando `N × orçamento ≥ 4`, e a vida se divide por `1 + 0,75 ÷ (rodadas × N)`), a `Recarga` (`× 1,12` a `× 1,15`, só pela duração), a resistência (os mesmos `1,43` a `2,50`), a Expansão (`1,92`: a luta do `Desastre` com ela dura `1,56` rodada) e a cura de Reação da `Circulação` (`1 ÷ (1 − cura ÷ (N × a saída de um personagem))`).*
+- **A ficha:** *a tabela por nível da Defesa, do acerto e da CD é a dona, e o desvio dela se paga na vida — `10%` por ponto de Defesa e `8,7%` por ponto de acerto e CD, pela peça 1 §5.2; o `Brutamontes` e o `Baluarte` são essa troca com nome, e o ponto do chefe segue de graça (v0.233).* **O papel paga pelo N** *(o `Emboscador`, o `Controlador` e o `Reforço`)* **ou pelo degrau** *(o `Artilheiro`)*.
+- **A banda do golpe foi a `20%`–`28%`**, *o medido na grade, e vigia só os chefes.*
+
+### 4 · Onde entrou
+
+- **A peça 26, reescrita:** *de `1042` para `712` linhas; a de antes está inteira em `sistema/99-arquivo/secoes-substituidas/26-bestiario-a-escada-ate-v0.281.md`.*
+- **O manual, na v7.40:** *a seção `Inimigos` lê a linha como o `Desastre ×4`, o chefe age quatro vezes, e a coluna `Capanga: dano` caiu para meio golpe (`27` no nível 30).*
+- **O gerador de inimigo:** *a conta saiu do `make.js` para um `conta.js` puro, sem o pacote `docx`, que o livro lê com `node conta.js --json`; o `dados.js` tem os degraus, e as seis prontas têm N. O bloco foi refeito.*
+- **O livro de inimigos:** *os capítulos 6 (a montagem, com as tabelas de vida por degrau e N), 5 (o bloco), 7 (área e frequência), 8 (as prontas), a referência e o vocabulário — de onde saiu a frase da `Calamidade` "exige oito, e nenhuma mesa tem oito". Os quatro `gerar-*.py` foram refeitos na grade, e o das prontas passou a só formatar o que o `conta.js` calcula. Os dois PDFs foram refeitos.*
+- **As seis prontas:** *Betobeto, Kamaitachi, Hitotsume e Kitsune são `Ameaça ×1`; Tsuchigumo e Oni são `Desastre ×4`, agora com quatro ataques nas `Ações Múltiplas` e a vida dividida pelo preço das `Intervenções` (`86` e `305`). O exemplo do capítulo 6, a Ubume, passou a mostrar esse passo.*
+- **A peça 19 §2.2** *aponta para a regra do `×1` e do `×2`; a régua de três ações e a checagem 12 ficam.* **A peça 15 §3.5** *ganhou os golpes da grade: o crítico do maior golpe caiu de `165` para `153`, e o corpo do `Coro` passou a aguentá-lo por um ponto, registrado pela mesma decisão da v0.221.* **A peça 1 §5.5** *foi a `1,8` a `2,5` golpes de chefe, pela banda nova.*
+- **A fila:** *o item 8 fechou; o Sukuna na grade virou o item 18, e as onze divergências da auditoria, o 19.*
+
+### 5 · Os validadores
+
+- **`conferir-bestiario.py`, reescrito:** *dez checagens, cada número da peça contra o dono — a tabela por nível contra a peça 1, a troca do §3.2, os degraus e as noventa células das fichas prontas contra a tabela do manual, a regra do `×1` e do `×2` contra a régua da peça 19, o câmbio, o chefe com capangas e N corpos de `×1` pela simulação, a Expansão, a resistência, o orçamento de feitiço, a aptidão, as prontas e os quatro geradores do livro, a `Recarga`, a corrente, a parte destrutível, a `Intervenção` e o papel. Sem o `python-docx` ele pula quatro de dez.*
+- **`conferir-ficha.py`, o bloco 7:** *o `dados.js` contra a grade — os degraus, as faixas e as noventa células, os papéis, as constantes da `Intervenção` e do esquadrão —, e as guardas do `conta.js` e do `make.js`.*
+- **`conferir-alma.py`, a 13:** *a mesa padrão do `Cisão` passou a ser o `Desastre ×4`, e a Integridade é lida do `conta.js`.* **`conferir-invocacoes.py`, a 12:** *a tabela de golpes da peça 26 §4.4 tem três colunas.*
+
+### 6 · O que foi conferido
+
+*A bateria: 31 de 31, com PULADA zero, numa cópia da pasta principal com as oito versões na ordem em que ele vai subir, da v0.275 à v0.282, cada uma com o recorte commitado na entrega.* **O arnês teve vinte e uma perturbações acendendo pela mensagem certa, cada uma no validador dono** *— dezoito no `conferir-bestiario.py` (as rodadas de um degrau, uma célula das fichas prontas, a regra do `×2`, o ponteiro da peça 19, o câmbio, o chefe com um capanga, a luta com Expansão, a resistência declarada, a `Recarga`, a `Intervenção`, o `Controlador`, a troca de um ponto de Defesa, a aptidão, a parte destrutível, a banda do Bestiário, uma célula gerada do livro, as `Ações Múltiplas` e o N de uma pronta), duas no `conferir-ficha.py` (os degraus e o capanga do `dados.js`) e uma no `conferir-invocacoes.py` (o crítico da peça 15) —, e o contra-teste coerente, a banda em `20%`–`29%` nos três lugares que a leem, saiu verde.* **Os dois PDFs do livro de inimigos e o do manual foram refeitos**, *e o `conferir-voz.py` do livro de inimigos sai `0` no `--estrito`.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: *a fila — o Sukuna na grade (18), as onze divergências (19), as fichas novas (9 e 14), o Evocador (13) e o índice da v0.4 (17).*
+
+---
+
+## [0.281] — 27/09/2026
+
+**O item 12 fechou: a leitura dos outros três Caminhos da v0.4, sem conta, levou quatro perguntas, e as respostas do Mizuki entraram no livro.** *A ação passou a se chamar `Ação Atacar`, o grupo de armas da Estocada e do Condutor Armado virou categoria, o `Esquivar` passou ao TR Físico, e a última pendência da própria v0.4 fechou sem frase nova.*
+
+### 1 · As respostas, nas palavras dele
+
+- **A leitura — "2 - B":** *a Vanguarda, o Emanador e o Guia lidos sem medir fatia, atrás de regra ambígua e de texto que brigue com o resto do sistema.*
+- **O `Esquivar` — "Sim, pode trocar":** *ele dava vantagem em "Teste de Resistência de Destreza", e esse TR não existe desde que os quatro viraram Físico, Vigor, Intelecto e Espírito — a vantagem não alcançava teste nenhum.* **Passou ao TR Físico**, *na peça 3 e no capítulo 11. Achado de passagem, fora da v0.4.*
+- **A `Forma Fluida` — "Pode manter como tem, pq evita da galera ir até a pagina do construtor":** *a terceira pendência da v0.4 fecha sem frase nova, porque a troca entre dano, cura e vida temporária já vem na tabela do Remodelar, no próprio Caminho.*
+- **A ação — "Muda tu do pra Ação Atacar, pq tem diferença entre 'Atacar' e a 'Ação Atacar', que nem dnd":** *o contrário do que a leitura recomendou, que era trocar os dois "Ação Atacar" da v0.4 por "Ação de Atacar".* **A tabela de ações do capítulo 11 já chamava a ação de `Atacar`**; *só o capítulo 8 e as peças diziam "de Atacar".*
+- **O grupo de armas — "Pode por categoria, mas coloca logo na frente entre ( ), (Grupo das Armas), facilita entendimento":** *a Estocada e o Condutor Armado escreviam "grupo de armas", e o capítulo de equipamento chama de categoria.* **Passou a categoria, com `(Grupo das Armas)` onde a escolha é feita:** *"Escolha uma categoria (Grupo das Armas)". O grupo do Arquiteto é o grupo de jogadores e ficou fora, e os "grupos de arma" da Técnica Marcial, no capítulo 42, ficam como estão.*
+
+### 2 · O que a leitura achou e não virou pergunta
+
+*O resto da v0.4 bate com o livro: os quatro TRs, as condições (as seis que o `Tratar e Retomar` chama de Leves são `Leve` na tabela), a cobertura, as treze categorias, a recarga e o `Colado`, a energia temporária, as Melhorias das Modulações, o limite de feitiço por turno e as contas escritas.* **A cerca da peça 5 segura nos três Caminhos.** *Quatro coisas foram lidas pelo contexto e estão no relatório — o "próximo turno" sem dono é o seu, a "CD da Trilha" é a da Sequência, o bônus de PE do `Compasso` e da `Retaliação` fica por cima da conta de base, e o descanso curto já é o de entre lutas.*
+
+### 3 · Onde entrou
+
+- **O livro:** *o capítulo 8, com seis "Ação Atacar" e catorze trocas de grupo por categoria — doze no texto da v0.4 e duas no do próprio livro, na abertura e no quadro do Emanador —; o capítulo 11, com o `Esquivar`; e o de equipamento, com a Trilha "que concede a categoria".*
+- **As peças:** *a 3, com o `Esquivar`; a 5, 6, 11, 19, 20 e 25, com "Ação Atacar".* **As citações da v0.80 e da v0.81 na peça 6 ficam como foram escritas.**
+- **A peça 6 §2:** *a tabela de renomes ganhou dez linhas — `Ação de Atacar` para `Ação Atacar` nos quatro Caminhos, e nove de grupo por categoria, frase a frase, porque a palavra muda de gênero —, e a nota das pendências fechou a terceira.* **A coleção em `caminhos/` continua como chegou.**
+- **A leitura:** *`sistema/01-pesquisa/medicao-v04/LEITURA-vanguarda-emanador-guia.md`, com as respostas no topo.*
+- **O item 12 fechou, e a sobra virou o item 17:** *o índice de entregas continua o da coleção anterior, e os nomes de habilidade da v0.4 não estão nas listas do `conferir-nomes.py`. Sem medição, falta decidir se o índice passa a ser o da v0.4 só com nomes e níveis.*
+
+### 4 · Os validadores
+
+- **`conferir-catalogo.py`, 10.3:** *a coluna `onde` da tabela de renomes aceita `os quatro Caminhos`, e frase inteira vale como linha.* **As 1.408 frases da v0.4 continuam no capítulo 8**, *agora com 13 renomes.*
+- **`conferir-nomes.py`:** *`Acao de Atacar` e `TR de Destreza` entraram entre os termos mortos.* **A peça 6, os dois `DESENHO` e o ESTADO ficam liberados para o nome antigo** *— a tabela de renomes, as citações e o registro da coleção anterior.*
+- **`conferir-manual.py`, 4h:** *a linha de regra do ataque extra tem de dizer "exige a Ação Atacar", e a forma velha acende com qualquer um dos dois nomes.*
+- **`conferir-aptidoes.py`, `conferir-dano.py` e `conferir-acao.py`:** *leem o nome novo nas peças 11 e 19, e a mensagem do de ação acompanha.*
+
+### 5 · O que foi conferido
+
+*Os quatro builds do livro — o de duas colunas foi de `171` para `172` páginas com os parênteses, e o de coluna única segue em `282` —; o `conferir-voz.py --estrito` sai `0`.* **A bateria: 31 de 31, com PULADA zero**, *numa cópia da pasta principal com as sete versões na ordem em que ele vai subir, da v0.275 à v0.281.* **O arnês teve nove perturbações acendendo pela mensagem certa, cada uma no validador dono** *— o livro voltando a dizer "Ação de Atacar" na `Trocação Franca`, a tabela da peça 6 sem a linha da ação, a linha de regra do ataque extra com o nome velho, a peça 25 e a peça 11 com o nome velho (a 11 acende também o `conferir-aptidoes.py`, que lê a frase), o `Esquivar` voltando ao TR de Destreza na peça 3, a tabela sem a linha do "do grupo", o livro sem os parênteses na `Arma Condutora`, e o rótulo da peça 19 com o nome velho —,* **e um contra-teste coerente ficou verde:** *os parênteses trocados na peça 6 e no livro juntos.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: *o item 8 da fila, o máximo dos inimigos.*
+
+---
+
+## [0.280] — 27/09/2026
+
+**Duas pendências que a própria coleção v0.4 deixou fecharam, e o piloto do Bastião ficou de registro, sem mover número.** *O piloto mediu o Bastião em fatias e levou as duas pendências da v0.4 com as leituras possíveis; o Mizuki decidiu as duas e achou a conta inflada.*
+
+### 1 · As respostas, nas palavras dele
+
+- **`Contra a Parede`:** *"Ele n custa PE, o 'metade da sua maior classe' é o feitiço que acompanha (arredondado para baixo), o custo desse 'feitiço que acompanha', é o custo do feitiço mesmo".* **A metade arredonda para baixo, e o feitiço se paga normalmente.** **E a ordem, na volta seguinte — "Depois do primeiro golpe e n crita":** *o feitiço vem depois do primeiro golpe da Ação de Atacar, e não pode ser crítico.*
+- **`Oportunista` — "2 - A":** *a preparação dura até o fim do seu próximo turno, e num feitiço com vários ataques, testes ou alvos vale para um só: um ataque do feitiço, ou o primeiro TR de uma criatura contra ele.*
+- **O `Combatente Amaldiçoado` — "3 - A":** *"N acho q os valores atuais estão corretos, sendo franco, você está calculando cogitando muitas coisas, n precisa tanto."* **A Trilha fica como está.** *É a terceira vez que ele acha a conta inflada, depois da `Brasa` (v0.81) e do `Mirar` (v0.86).*
+- **O resto do item 12 — "2 - B":** *os outros três Caminhos vão ser lidos sem conta, atrás de regra ambígua e de texto que brigue com o resto do sistema.*
+
+### 2 · Onde entrou
+
+- **O capítulo 8 do livro:** *uma frase nova no quadro do `Oportunista` e duas no do `Contra a Parede`.* **A redação segue a da própria v0.4:** *o `Intensificar` do Catalisador já escolhe "um ataque do feitiço" ou "o primeiro TR de uma criatura contra ele", e o `Ritmo Convergente` do Condutor Armado já manda pagar o feitiço "normalmente".*
+- **A peça 6 §2:** *a tabela `Pendências da v0.4 decididas`, ao lado da dos renomes, com o que a v0.4 deixou aberto, a frase do livro e a decisão.* **A coleção em `caminhos/` fica como chegou.**
+- **A peça 6 §3.1:** *dizia que "a única exceção" à Ação de Atacar sem feitiço era a `Fornalha`, que saiu do livro na v0.270; passou a dizer que, na v0.4, a exceção é a entrega que diz juntar os dois, como o `Contra a Parede`.*
+- **O piloto, em `sistema/01-pesquisa/medicao-v04/`:** *o `conta-bastiao.py`, que reproduz antes as linhas da coleção anterior que as entregas novas repetem, e o `PILOTO-bastiao.md`, com as respostas no topo.* **Os números ficam como foram medidos, antes das respostas.**
+
+### 3 · Os validadores
+
+- **`conferir-catalogo.py`, 10.5, nova:** *lê a tabela da peça 6 §2 e cobra que o quadro de cada entrega no capítulo 8 diga a frase decidida, e só o quadro dela. A 10.3 não pegava: ela cobra a v0.4 dentro do livro, e não o que o livro diz a mais.* **Sub-checagem, e não bloco novo.**
+- **`conferir-repositorio.py`, 7.2:** *a base foi de `199` para `200`: a tabela nova da peça 6 cita o `conferir-catalogo.py`, a mesma família.*
+
+### 4 · O que foi conferido
+
+*Os quatro builds do livro (`282` e `171` páginas), com as duas frases na página 64 do de duas colunas; o `conferir-voz.py --estrito` sai `0`.* **A primeira simulação acendeu três validadores, os três por texto meu na peça 6:** *o `conferir-nomes.py` leu `Forma Fluida` como Forma do Fundamento; o `conferir-orcamento.py` leu "Ele n custa PE" como custo sem número, porque o "n" não conta como "não"; e a 7.2 achou `caminhos/03-Notas/`, que fica fora da entrega.* **Os três foram consertados no texto:** *a peça diz "o nível 15 do Emanador", a tabela parafraseia a decisão (a frase dele fica aqui, no ESTADO e no piloto), e a nota perdeu o caminho.* **A bateria: 31 de 31, com PULADA zero**, *numa cópia da pasta principal com as seis versões na ordem em que ele vai subir, da v0.275 à v0.280.* **O arnês da 10.5 teve sete perturbações acendendo pela mensagem certa, e nada mais acendendo junto** *— a frase do `Oportunista` saindo do livro, o `Contra a Parede` passando a arredondar para cima, o feitiço dele passando para depois do último golpe, a frase dele indo para o quadro vizinho, a tabela da peça 6 sem o título, uma entrega que não existe no livro, e a frase da tabela sem aspas —,* **e um contra-teste coerente ficou verde:** *o prazo do `Oportunista` trocado nos dois lugares.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: *o item 12 da fila, a leitura dos outros três Caminhos sem conta.*
+
+---
+
+## [0.279] — 27/09/2026
+
+**Três entregas do Bastião viraram exceção declarada à cerca da peça 5, e a cerca ganhou uma checagem que acha a próxima.** *A medição da coleção v0.4 (item 12 da fila) começou lendo o Bastião, e a primeira leitura achou três entregas que passam por cima de dois itens da cerca: `Ainda de Pé` (cura), `Duro de Matar` e `Casca Grossa` (desconto de dano em tudo).* **O quadro de Limites do capítulo 8 dizia que "Nenhum Caminho dá […] cura, ou desconto de dano em tudo", com o Socorrista como única exceção.**
+
+### 1 · As respostas, nas palavras dele
+
+- **O quadro de Limites — "1 - A":** *as três viram exceção declarada, do jeito do Socorrista na v0.271, e o texto da v0.4 fica exatamente como está.*
+- **A medição — "2 - A":** *um piloto com o Bastião, feito sem agente, que traz o método, os números e as duas pendências que a própria v0.4 deixou (o `Oportunista` e o `Contra a Parede`) medidas; e depois ele decide o resto.*
+
+### 2 · O que a varredura achou
+
+- **As três do Bastião:** *`Ainda de Pé` (Caminho, nível 7) recupera a própria vida uma vez por cena; `Duro de Matar` (Caminho, nível 15) desconta o dano do golpe em que o Bloquear falhou; `Casca Grossa` (`Muro`, nível 19) desconta o dano do golpe assumido por `Olhos Em Mim`.*
+- **Três que parecem furar e não furam:** *o `Golpe Inicial` da Vanguarda reduz o dano do próprio golpe, que é o custo de abrir a Sequência; o `Remodelar` do Emanador troca a cura dentro do feitiço; e a `Obra em Uso` do Arquiteto cura a obra, e não uma pessoa.*
+- **E a exceção do Socorrista estava só no livro.** *A v0.271 a escreveu no quadro de Limites e não na peça 5, que é a dona da cerca.* **Decisão registrada não é decisão aplicada, de novo.**
+
+### 3 · Onde entrou
+
+- **A peça 5 §4:** *uma seção nova, com a tabela das quatro exceções — o Socorrista e as três do Bastião — e a das três que só parecem furar.*
+- **O capítulo 8 do livro:** *o quadro de Limites passa a nomear as quatro exceções.*
+
+### 4 · Os validadores
+
+- **`conferir-catalogo.py`, 10.4, nova:** *varre o capítulo 8 atrás de cura e de desconto de dano, e toda entrega achada tem de estar numa das duas tabelas da peça 5 — entrega nova que cure ou desconte sem ser declarada acende; nome da tabela que deixou de curar também acende; e o quadro de Limites tem de nomear as exceções.* **Hoje ela acha `11` entregas**: *as três do Bastião, as cinco partes do Socorrista, e as três que só parecem.* **Sub-checagem, e não bloco novo:** *a contagem de checagens do validador não muda.*
+- **`conferir-repositorio.py`, 7.2:** *a base foi de `198` para `199`: a seção nova da peça 5 cita o `conferir-catalogo.py`, a mesma família.*
+
+### 5 · O que foi conferido
+
+*Os quatro builds do livro (`282` e `171` páginas); o `conferir-voz.py --estrito` sai `0`.* **A bateria: 31 de 31, com PULADA zero**, *numa cópia da pasta principal com as cinco versões na ordem em que ele vai subir, da v0.275 à v0.279.* **O arnês pegou um defeito meu na checagem nova:** *ela guardava uma contagem mínima das duas tabelas — quatro exceções e três que só parecem —, e tirar uma linha acendia por "não achei as tabelas" em vez de pela entrega que ficou sem declarar. Era número guardado dentro do validador; hoje só a tabela vazia é defeito de forma.* **Depois do conserto,** *cinco perturbações acendem pela mensagem certa — a peça 5 perdendo a linha da `Casca Grossa`, o quadro de Limites perdendo o `Duro de Matar`, uma entrega nova que cura sem ser declarada, a peça 5 perdendo a `Obra em Uso` das que só parecem, e uma exceção declarada que não existe no livro —, e um contra-teste coerente fica verde: o `Alicerce` passando a curar, declarado na peça e no quadro.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: *o piloto da medição da coleção v0.4, com o Bastião.*
+
+---
+
+## [0.278] — 27/09/2026
+
+**O item 11 da fila fechou sem mudar nada, pela resposta do Mizuki: "A".** *Era o teto de atributo e o incentivo da rota `Corpo`, e as duas vertentes dele — estourar o teto em `1`, ou o teto em `5` com o `6` travado atrás da rota — já tinham sido medidas no parecer da v0.264. A linha da fila ainda dizia "sem medida", e foi corrigida junto.*
+
+### O que o parecer mostrou, e por que fechar
+
+- **O espelho não se move:** *uma rota `Corpo` atacando outra acerta `60%` nos três regimes, porque o atributo entra nos dois lados da rolagem — no acerto de quem bate e na Defesa de quem apanha.*
+- **O ganho que aparece é só contra o inimigo:** *`+5` pontos percentuais de acerto para quem pegou `Corpo`, porque o teto do inimigo é fixo — na prática, `1` a menos na Defesa dele, por um caminho que toca oito peças.*
+- **E a rota `Corpo` não está fraca:** *ela já compra `+4` e `+3` no terceiro e no quarto atributo, `20` e `15` pontos percentuais nos testes deles.*
+
+**O conserto barato fica guardado:** *se o playtest mostrar a rota fraca, ela dá `+1` em algo que só entra de um lado da rolagem — dano, alcance ou deslocamento.*
+
+### Onde entrou
+
+- **A fila do `ESTADO-ATUAL`:** *o item 11 fechado, e a frase "sem medida" corrigida.*
+- **O parecer:** *a decisão no topo.*
+
+**Nenhuma regra, nenhum número e nenhum validador mudou.** **Bateria: 31 de 31, com PULADA zero**, *numa cópia da pasta principal com as quatro versões na ordem em que ele vai subir, da v0.275 à v0.278.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: *o item 12 da fila, medir as fatias da coleção v0.4.*
+
+---
+
+## [0.277] — 27/09/2026
+
+**O `Calado` virou condição de nicho, e o nível dele continua `Média` — pela conta.** *Era o item 16 da fila, aberto na v0.276: a redação da v0.176 só cala o que precisa de voz, e os inimigos do bestiário não têm Selo nenhum — um mestre leria "não conjura" e cortaria tudo, outro leria "só o que precisa de voz" e não cortaria nada, `73` de dano por rodada contra `0`.*
+
+### 1 · A resposta, nas palavras dele
+
+- **"B. N precisa de campo, cala apenas se o inimigo tiver algum selo que necessite de voz ou habilidades do tipo, é uma condição de nicho".** *O bloco do inimigo não ganha campo de Selo: quem decide é o texto da habilidade. O `Calado` só cala o que precisa de voz — no inimigo e no personagem: o feitiço de quem tem Selo de condição, sem a Restrição `Gesto`, sai normalmente.*
+
+### 2 · O que a conta respondeu sem pergunta
+
+- **O nível fica `Média`.** *Contra quem usa voz, ele tira uma ação: `73` de dano por rodada no nível 30, que em `Média` dá `2,32×`. Em `Leve`, a mesma ação daria `4,06×`, acima do filtro de dominância de `3,00×` — então `Média` é o nível mais barato em que ele cabe quando funciona.* **Contra quem não usa voz a compra não rende nada, e esse é o risco de nicho de quem escolhe o `Calado`, e não repreço.**
+- **O inimigo sem voz não paga o `1,20` da imunidade.** *O bestiário multiplica por `1,20` o fator do inimigo imune a condição que rouba ação. Contra quem não usa voz o `Calado` não rouba nada, então é "qualquer outra condição", a `1,00×`: a imunidade — e o preço dela — só existe para quem usa voz e não se cala.*
+
+### 3 · Onde entrou
+
+- **A peça 19 §3.2:** *a nota do nicho, com a conta, no lugar da que dizia que o preço não tinha sido medido.*
+- **A peça 26 §5:** *o inimigo sem voz não é imune, e não paga o `1,20`.*
+- **O capítulo 15 do livro:** *o parágrafo do nicho no `Calado`, com o personagem e o inimigo.*
+- **A fila do `ESTADO-ATUAL`:** *o item 16 fechado.*
+
+### 4 · Os validadores
+
+- **`conferir-dano.py`, 14:** *refaz a conta no degrau de baixo — o `Calado` em `Leve` tem de passar do filtro, ou o nível publicado deixou de ser o mais barato — e cobra que a peça publique esse número; e cobra a regra de nicho na peça 19, no capítulo 15 e no bestiário.* **O número de checagens não muda:** *é a mesma 14, que ganhou duas partes.*
+
+### 5 · O que foi conferido
+
+*Os quatro builds do livro (`282` e `171` páginas); o `conferir-voz.py --estrito` sai `0`.* **A bateria: 31 de 31, com PULADA zero**, *numa cópia da pasta principal com as três versões na ordem em que ele vai subir — a v0.275, a v0.276 e a v0.277, com o commit da entrega entre elas.*
+
+**O arnês:** *na mesma cópia, com a base verde antes e depois. Cinco perturbações acendem pela mensagem certa — a peça publicando `4,05×` em vez de `4,06×`, a regra de nicho sumindo da peça 19, do capítulo 15 e do bestiário, e a alternativa rejeitada, o `Calado` em `Leve`, que acende a checagem 3, a do nível pelas ações.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: *a fila grande — os itens 8, 9, 11, 12, 13 e 14.*
+
+---
+
 ## [0.276] — 27/09/2026
 
 **A troca de nome passou a valer no livro inteiro, e o `Calado` chegou às três cópias que a v0.176 deixou para trás.** *O `Manejo`, a `Kata`, a `Ruptura`, o `Ōgi` e o `Auge` valem em todo capítulo, e não só no 8 e no 9; o Restringido ganhou a exceção que a equivalência pedia; e o `Calado` corta a `Kata` pelo mesmo padrão do feitiço.* **O manual do Fundamento foi à v7.39.**

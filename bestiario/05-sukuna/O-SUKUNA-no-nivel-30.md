@@ -1,5 +1,7 @@
 # O Sukuna, remontado no nível 30
 
+> **Histórico.** A conta na grade atual está em `SUKUNA-GRADE-ATUAL.md`; os limites de fechamento estão em `RELATORIO-integracao-grade.md`. Esta versão conserva os números e decisões de sua época.
+
 *13 a 15/09/2026, da v0.229 à v0.242 do repositório.* **Nenhum número nasce neste arquivo:** *todos saem de `montar-o-sukuna.py`, e a saída inteira está em `SAIDA-o-sukuna-nv30.txt`.* **O `O-SUKUNA-no-rascunho-5.md` continua como o teste de 10/09, no nível 20, e é lá que mora a comparação com a mesa de 07/09.**
 
 ## O que mudou desde o rascunho 5

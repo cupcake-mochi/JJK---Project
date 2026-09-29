@@ -2,13 +2,14 @@ A ficha de um inimigo cabe em meia página. Tudo que está nela ou sai de uma ta
 6, ou é escolha sua de ficção. Nenhuma linha pede conta de cabeça.
 
 O inimigo não conta energia. O que limita o que ele faz é um rótulo de frequência ao lado do
-nome da ação, e o capítulo 7 traz os quatro que existem.
+nome da ação, e o capítulo 7 traz os quatro que existem. O que ele carrega e muda o encontro se paga
+na vida, e o golpe não muda.
 
 # Bloco em branco
 
 > ### ‹ nome ›
 >
-> *‹ tamanho › ‹ tipo ›, ‹ grau, se tiver › · **‹ categoria ›** · **‹ papel ›** · nível ‹ N ›*
+> *‹ tamanho › ‹ tipo ›, ‹ grau, se tiver › · **‹ categoria › ×‹ N ›** · **‹ papel ›** · nível ‹ nível ›*
 >
 > **Defesa** — · **Acerto** — · **CD** — · **Refino** — *(proteção —)*
 >
@@ -46,15 +47,19 @@ nome da ação, e o capítulo 7 traz os quatro que existem.
 
 **Grau.** Opcional, e só faz sentido em maldição, feiticeiro e ferramenta.
 
-**Categoria.** Quantos personagens este inimigo exige. É a única coisa do cabeçalho que decide
-vida e dano.
+**Categoria e N.** A categoria é a dificuldade da luta, e o N é para quantos personagens do nível
+ela é feita. As duas decidem a vida, o golpe e quantas vezes ele age.
 
-**Papel.** Como ele luta. O papel redistribui o que a categoria deu e nunca acrescenta.
+**Papel.** Como ele luta. O papel muda um número e paga na vida, e nunca acrescenta.
 
 # Linhas de defesa
 
-**Defesa, Acerto, CD e Refino** sobem em marco de nível. Vida, golpe e ações sobem em faixa de
-Classe. As duas escadas não coincidem, e o capítulo 6 traz uma tabela para cada.
+**Defesa, Acerto, CD e Refino** sobem em marco de nível. Vida e golpe sobem em faixa de Classe, e
+ele age N vezes. As duas escadas não coincidem, e o capítulo 6 traz uma tabela para cada.
+
+**O que sai da tabela se paga na vida.** Um ponto de Defesa acima da tabela custa `10%` da vida, e
+um ponto de acerto e CD custa `8,7%`. Abaixo dela, a vida recebe na mesma medida. O chefe, quem
+carrega `Intervenção`, tem um ponto acima de graça.
 
 **Integridade** é metade da vida, arredondando para baixo.
 
@@ -91,8 +96,8 @@ Os cinco atributos do inimigo saem do mesmo orçamento de uma ficha de jogador.
 
 <!-- FIM ATRIBUTOS -->
 
-Os pontos compram cor, e não tamanho. Um chefe de Força `6` e um de Essência `6` têm a mesma vida e
-o mesmo dano por rodada, e jogam diferente na mesa.
+Os pontos compram cor, e não tamanho. Um chefe de Força `6` e um de Essência `6`, na tabela, têm a
+mesma vida e o mesmo golpe, e jogam diferente na mesa.
 
 ## Orçamento apertado
 
@@ -145,15 +150,20 @@ três leem o atributo de sempre.
 
 # Resistência, imunidade e vulnerabilidade
 
-Cada uma dessas três células multiplica o fator da categoria, e o fator diz quantos personagens
-o encontro exige.
+Resistência a até `2` tipos fixos, no total da criatura, não desconta PV.
+
+Um grupo completo continua pago, mesmo quando seus tipos são escritos separadamente. Imunidades não recebem essa isenção.
+Para as proteções cobradas, divida a vida pelo número da tabela. O golpe não muda.
+A duração real depende dos tipos de dano que o grupo consegue usar.
+
+Três ou mais tipos mistos que não completem um grupo continuam sem preço definido; não aplique a isenção a esse caso.
 
 **Preço das células**
 {: .tab-titulo }
 
-| a célula | multiplica o fator por |
+| a célula | divide a vida por |
 |---|---|
-| **`Resistências`** | `Físicos` `1,43` · `Elementais` `1,18` · `Especiais` `1,05` · um tipo só `1,11` |
+| **`Resistências`** | `Físicos` `1,43` · `Elementais` `1,18` · `Especiais` `1,05` · até dois tipos fixos `1,00` |
 | **`Imunidades`** (dano) | `Físicos` `2,50` · `Elementais` `1,43` · `Especiais` `1,11` · um tipo só `1,25` |
 | **`Imunidades`** (condição) | `1,20` se ela rouba ação dele ou dá desvantagem nos ataques dele; `1,00` em qualquer outra |
 | **`Vulnerabilidades`** | `1,00` |
@@ -162,7 +172,7 @@ o encontro exige.
 
 > O dano daquele tipo dobra contra ele.
 >
-> Nada mais na ficha muda: nem o fator, nem a vida, nem a categoria.
+> Nada mais na ficha muda: nem a vida, nem o golpe, nem a categoria.
 
 Escreva `Vulnerabilidades: Fogo`, e nada mais muda.
 
@@ -174,8 +184,8 @@ sobe um quarto e a luta encurta um quinto.
 Escreva `Imunidades: Veneno, Atordoado`. O texto se separa sozinho, porque tipo de dano é
 substantivo de dano e condição é nome de condição.
 
-> Ser imune a `Físicos` é a célula mais cara que existe. Um `Desastre` imune a `Físicos` exige dez
-> personagens, e não quatro.
+> Ser imune a `Físicos` é a célula mais cara que existe. Um `Desastre ×4` imune a `Físicos` fica com
+> dois quintos da vida, e o grupo que não bate `Físico` derruba ele em uma rodada e pouco.
 >
 > Ela continua liberada. Saiba quanto ela custa antes de dar.
 
@@ -186,31 +196,28 @@ narrativa, e serve para a coisa que derruba o bicho sem passar por dano nenhum.
 
 Dentro da Expansão completa, o acerto dele acontece — sem rolar, sem Teste de Resistência. Fora
 dela, o mesmo inimigo acerta `52%`, a banda que o capítulo `6` já publica. A diferença entre as
-duas coisas multiplica o fator por `1,92`.
+duas coisas é `1,92`.
 
-**Multiplique o fator do inimigo, não a categoria dele.**
+**Divida a vida dele por `1,92`. O golpe não muda.**
 
 **Expansão completa**
 {: .tab-titulo }
 
-| categoria | exige | com Expansão |
+| categoria | a luta dura | com Expansão |
 |---|---|---|
-| `Ameaça` | `1` | `1,9` |
-| `Desastre` | `4` | `7,7` |
-| `Catástrofe` | `6` | `11,5` |
-| `Calamidade` | `8` | `15,4` |
+| `Ameaça` | `2,5` rodadas | `1,30` |
+| `Desastre` | `3` | `1,56` |
+| `Catástrofe` | `4` | `2,08` |
+| `Calamidade` | `5` | `2,60` |
 
-Nenhuma cai num número redondo, e não precisa: o fator é gente, não rótulo. Uma `Calamidade` com
-Expansão exige `15,4` feiticeiros — é por isso que ninguém enfrenta esse chefe com quatro.
-
-O encontro fica maior, e você lê a coluna da direita. Não divida o dano por `1,92` para
-"compensar": dentro da própria Expansão, o domínio é pra ser quase suicida de enfrentar.
+A luta fica mais curta e muito mais letal: dentro do domínio ele acerta tudo o que tenta, e quem não
+sai dali leva a luta inteira de uma vez.
 
 A Incompleta não muda nada aqui. Sem acerto garantido, ela resolve como qualquer feitiço — com
 rolagem, e com Teste de Resistência do outro lado.
 
-**A Expansão sem Barreiras multiplica o mesmo `1,92`.** O acerto dela também é garantido, com a
-mesma duração. Três coisas mudam fora do fator: ela só pega quem não tem energia amaldiçoada se o
+**A Expansão sem Barreiras divide a vida pelo mesmo `1,92`.** O acerto dela também é garantido, com
+a mesma duração. Três coisas mudam fora da vida: ela só pega quem não tem energia amaldiçoada se o
 Acerto disser isso; não existe casca pra ninguém quebrar por fora; e os `200 metros` de raio
 cobrem a cena inteira, não só quem estava perto quando ela abriu.
 
@@ -229,11 +236,10 @@ corrida ou na concentração.
 `Circulação` no 22, `Regravação` no 26.
 
 `Regravação` custa Ação Bônus e o teto da `Circulação`, e sai da mesma cota de dano de sempre. No
-nível 30, gastar o teto inteiro equivale a `51,4` de dano — quase a rodada inteira de uma
-`Ameaça`, e uma fatia pequena de uma `Calamidade`. Cada uso deixa uma marca; com Inteligência
+nível 30, gastar o teto inteiro equivale a `51,4` de dano — quase a rodada inteira de um `Desastre
+×1`, e uma fatia pequena de uma `Calamidade ×4`. Cada uso deixa uma marca; com Inteligência
 alta ele reabre o domínio de duas a cinco vezes por dia, e a última regravação fecha a Expansão
-até o próximo descanso longo. Reabrir não muda quantos personagens ele exige: o encontro já foi
-cobrado pelo tamanho que vale a luta inteira.
+até o próximo descanso longo. Reabrir não mexe na vida dele: o `1,92` já supõe o domínio de pé a luta inteira.
 
 # Pacto
 
@@ -256,53 +262,57 @@ enquanto sobrar núcleo de pé, o caído volta no começo do próximo turno dele
 > Só imprima `Núcleos` se `N` for maior que 1. O padrão é um núcleo, e com um ele morre a zero
 > como todo mundo.
 >
-> A vida total não muda e o fator não muda. A partição obriga o grupo a espalhar dano, e nada
-> mais.
+> A vida total não muda. A partição obriga o grupo a espalhar dano, e nada mais.
 
 **`Parte destrutível`.** Um braço, uma cauda, um cristal nas costas. Ela é um alvo com a Defesa
 dele, tem vida própria, e destruí-la tira uma das ações dele.
 
-A vida de uma parte é a vida dele dividida pela luta, vezes duas rodadas, dividida pelas ações —
-arredondando para baixo. No nível 30 dá isto:
+Para a cura de ação e as partes destrutíveis, use os PV-base da célula, antes dos ajustes de papel, atributos e recursos.
+
+Os PV-base são as rodadas da categoria vezes N vezes a saída de um personagem.
+Para obter a vida da parte, divida essa referência pelas rodadas, multiplique por dois e divida
+por N. Arredonde para baixo somente no resultado, mantendo as frações anteriores. Isso dá
+duas vezes o dano de um personagem por rodada, igual em toda categoria e todo N:
 
 **Vida de uma parte destrutível**
 {: .tab-titulo }
 
-| nível 30 | `Ameaça` | `Desastre` | `Catástrofe` | `Calamidade` |
-|---|---|---|---|---|
-| vida da parte | — | `210` | `188` | `210` |
+| nível | `2`–`4` | `5`–`8` | `9`–`12` | `13`–`16` | `17`–`20` | `21`–`25` | `26`–`30` |
+|---|---|---|---|---|---|---|---|
+| vida da parte | `19` | `45` | `65` | `90` | `110` | `137` | `157` |
 
 > As duas rodadas são o que faz a conta empatar: quebrar a parte na primeira rodada da luta ainda
 > paga o dano gasto nela, e da segunda em diante não paga mais. É o que mantém a escolha viva sem
 > transformar a parte em alvo obrigatório.
 >
-> A `Ameaça` age uma vez por rodada, então ela não carrega parte que tire ação — ficaria sem
-> turno.
+> O `×1` age uma vez por rodada, então ele não carrega parte que tire ação — ficaria sem turno.
 >
-> A parte não muda o fator: a vida dela é exatamente o que ela devolve em ação perdida.
+> A parte não se paga na vida: a vida dela é exatamente o que ela devolve em ação perdida.
 
 **Quantas partes ele tem, e o que a quebra faz além de tirar a ação, é seu.** Se a quebra desligar
 uma habilidade nomeada, isso é ficção sua e não tem preço nesta régua.
 
 # Ações e Intervenções
 
-`Ações` é a lista do que ele faz no turno. Cada ação vale um golpe, e quantas ações ele tem por
-rodada sai da categoria, no Passo 1 do capítulo 6.
+`Ações` é a lista do que ele faz no turno. Cada ação vale um golpe, e ele tem N ações por rodada,
+pelo Passo 1 do capítulo 6.
 
 **Cada ataque entra com nome próprio, e o nome é a arma ou a parte do corpo que bate:** Mordida,
 Garra, Kanabō, Pisada. Quando o golpe tem jeito próprio, o nome é o golpe: Pancada no Chão,
 Varrida das Patas.
 
 Não escreva "Ataque de" no nome. "Ataque de" é como as `Ações Múltiplas` chamam o ataque na frase
-delas — *três ataques de Kanabō* —, e é só ali que a palavra aparece.
+delas — *quatro ataques de Kanabō* —, e é só ali que a palavra aparece.
 
 **`Ações Múltiplas`** é a primeira entrada de `Ações` em quem age mais de uma vez por rodada. Ela
-diz quais ataques ele faz e em que combinação, pelo nome, e não repete número: *o Oni faz três
-ataques de Kanabō, ou usa Pancada no Chão e faz dois ataques de Kanabō.* Quem age uma vez só não
+diz quais ataques ele faz e em que combinação, pelo nome, e não repete número: *o Oni faz quatro
+ataques de Kanabō, ou usa Pancada no Chão e faz três ataques de Kanabō.* Quem age uma vez só não
 tem essa entrada.
 
-`Intervenções` só existem de `Desastre` para cima. São três por luta, cada uma usada uma vez só, no
-máximo uma por rodada, e elas acontecem logo depois do turno de outra criatura.
+`Intervenções` só existem quando `N × orçamento ≥ 4`: a `Ameaça` no `×6`, o `Desastre` do `×4` em
+diante, a `Catástrofe` do `×3` e a `Calamidade` do `×2`. São três por luta, cada uma usada uma vez
+só, no máximo uma por rodada, e elas acontecem logo depois do turno de outra criatura. Elas se pagam
+na vida: divida por `1 + 0,75 ÷ (rodadas × N)`.
 
 A seção abre com essa regra numa frase e lista as três, numeradas e com nome:
 
@@ -334,9 +344,9 @@ que o terreno faz.
 # Bloco seco
 
 Quando o golpe de uma ação dividido por `4,5` dá menos que os `3` pontos de uma `Classe 1`,
-aquela ação não monta feitiço. Ela bate, e o dano sai como a `Vida e golpe por faixa` manda.
+aquela ação não monta feitiço. Ela bate, e o dano sai como a `Golpe por faixa` manda.
 
-É o caso de toda `Ameaça` do nível 2 ao 8, e de todo `Capanga` até o 8.
+É o caso de toda célula do nível 2 ao 8, e de todo `Capanga` até o 12.
 
 > Isso não deixa o bloco vazio. Dê a ele um traço qualitativo.
 >

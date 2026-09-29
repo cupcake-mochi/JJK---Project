@@ -1176,7 +1176,13 @@ else:
     #   copia com o patch da v0.274 e a entrega sincronizada. UMA: o
     #   `sistema/01-pesquisa/anti-dominios/conta-as-quatro.py` em "As quatro lado a lado", na
     #   peca 11 §6.5. Mesma familia.
-    BRANCAS_AQUI, FOLGA = 198, 5
+    # v0.279: 198 -> 199, MEDIDO na emulacao da v0.275 a v0.279. UMA: o `conferir-catalogo.py`
+    #   na secao nova da peca 5 §4, "As excecoes declaradas", dizendo qual checagem le as tabelas.
+    #   Familia `conferir-[a-z-]+\.py`, ja declarada.
+    # v0.280: 199 -> 200, MEDIDO pelo diff da entrega entre a v0.279 e a v0.280 simuladas. UMA: o
+    #   `conferir-catalogo.py` na tabela nova da peca 6 §2, `Pendencias da v0.4 decididas`, dizendo
+    #   qual checagem compara a frase com o livro. Mesma familia.
+    BRANCAS_AQUI, FOLGA = 200, 5
     PISO_CITACOES, TETO_BRANCOS = 120, BRANCAS_AQUI + FOLGA
     if vistos_e < PISO_CITACOES:
         erro(f'7.2: achei so {vistos_e} citacoes na entrega, e o piso e {PISO_CITACOES} — '

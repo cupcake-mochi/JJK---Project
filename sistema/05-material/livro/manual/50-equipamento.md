@@ -225,7 +225,7 @@ O `Yumi` não carrega `Munição`. Uma flecha se encaixa como parte do disparo: 
 >
 > **Guia e Emanador treinam Arma de Fogo e Balestra**, as duas que se aponta e dispara sem precisar de anos de treinamento.
 
-Um Caminho conjurador não pega espadão de graça: ele precisa da Trilha que concede o grupo, como a `Arma Condutora` do Condutor Armado. O quadro de cada Caminho está no capítulo 8, *Caminhos e Trilhas*.
+Um Caminho conjurador não pega espadão de graça: ele precisa da Trilha que concede a categoria, como a `Arma Condutora` do Condutor Armado. O quadro de cada Caminho está no capítulo 8, *Caminhos e Trilhas*.
 
 > **Sem treino, você tem desvantagem na rolagem de ataque com aquela arma.**
 >

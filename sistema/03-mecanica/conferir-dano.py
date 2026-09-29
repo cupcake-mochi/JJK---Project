@@ -61,7 +61,26 @@ P14 = 'sistema/03-mecanica/14-equipamento.md'
 DCAM = 'DESENHO-caminhos.md'
 DTRI = 'DESENHO-trilhas.md'
 DMAN = 'DESENHO-manhas.md'
+PARTF = 'manual/gerador/partF.js'
 DOCX = os.path.join(RAIZ, 'manual', 'Fundamento-MANUAL-v7.docx')
+
+
+def linha_do_manual(nivel):
+    """A linha de um nivel da tabela de inimigo do manual, como {cabecalho: celula}.
+
+    v0.284: e' o dono que a peca declara para o chefe e o capanga. A tabela mora no
+    partF.js, e o cabecalho e' lido em vez de a posicao das colunas ficar escrita aqui.
+    """
+    t = ler(PARTF)
+    mh = re.search(r"TBL\(\[([^\]]*'Chefe: dano'[^\]]*'Capanga: dano'[^\]]*)\]", t)
+    if not mh:
+        return None
+    cab = re.findall(r"'([^']*)'", mh.group(1))
+    mr = re.search(r"\[\s*'%d'\s*,([^\]]*)\]" % nivel, t[mh.end():])
+    if not mr:
+        return None
+    cel = [str(nivel)] + re.findall(r"'([^']*)'", mr.group(1))
+    return dict(zip(cab, cel)) if len(cel) == len(cab) else None
 
 TXT = ler(PECA)
 
@@ -81,8 +100,11 @@ ANCORAS = {
     # nenhuma. O chefe era lido por um re.search solto, fora de ANCORAS, e o
     # capanga estava escrito aqui dentro sem ser usado em lugar nenhum — a
     # sub-checagem 1.1 e' quem acha esse buraco hoje.
-    'chefe': (DTRI, r'chefe (?:do nível 30 )?em `?\d+`? de dano por rodada'),
-    'capanga': (DTRI, r'o capanga em `\d+`'),
+    # v0.284: os dois saem da tabela de inimigo do manual, que e' o dono que a peca
+    # declara. Ate a v0.283 vinham de uma frase do DESENHO-trilhas que dava ao manual
+    # um capanga de 73 que ele nunca publicou — ver a leitura logo abaixo.
+    'chefe': (PARTF, r"'Chefe: dano'"),
+    'capanga': (PARTF, r"'Capanga: dano'"),
     # ⚠ o padrao NAO carrega o numero de acoes: ancora que carrega o valor some
     # no dia em que o valor muda, que e' exatamente o dia em que ela precisa
     # acender. Mesma nota do `dado_do_soco`, cinquenta linhas abaixo.
@@ -162,23 +184,28 @@ else:
     erro('1: nao achei a fatia escrita como `N,NN` no DESENHO-trilhas nem no '
          'DESENHO-manhas — ela e a unidade de tudo nesta peca')
 
-_m = re.search(r'chefe (?:do nível 30 )?em `?(\d+)`? de dano por rodada', ler(DTRI))
-if _m:
-    CHEFE = float(_m.group(1))
-    print(f'  [x] o chefe foi lido do dono: {CHEFE:.0f} de dano por rodada')
-else:
-    erro('1: nao achei "chefe ... em N de dano por rodada" no DESENHO-trilhas')
-
 # v0.198: o capanga tambem e' lido. Ele estava escrito como CAPANGA = 38.0 e nao
 # era usado por nenhuma linha deste arquivo, enquanto a peca afirmava que "o
 # validador confere as duas colunas". A checagem 13 e' quem passou a conferir.
-_m = re.search(r'o capanga em `(\d+)`', ler(DTRI))
-if _m:
-    CAPANGA = float(_m.group(1))
-    print(f'  [x] o capanga foi lido do dono: {CAPANGA:.0f} de dano por rodada')
+#
+# v0.284: o chefe e o capanga vem da linha do nivel 30 da tabela de inimigo do
+# manual. Ate a v0.283 vinham do DESENHO-trilhas, cuja frase dizia que o manual
+# punha o capanga em 73: o manual nunca publicou esse numero (o 73 era o capanga da
+# Alcateia, e o manual dava 55), desde a v0.270 aquele arquivo e' registro da
+# colecao antiga, e desde a v0.282 o manual publica o capanga de 27, meio golpe.
+# Achado pela auditoria da fase 2 do bestiario, divergencia 4.
+_lm = linha_do_manual(30)
+if _lm and re.fullmatch(r'\d+', _lm.get('Chefe: dano', '')):
+    CHEFE = float(_lm['Chefe: dano'])
+    print(f'  [x] o chefe foi lido do dono, a tabela de inimigo do manual: {CHEFE:.0f} de dano por rodada')
 else:
-    erro('1: nao achei "o capanga em N" no DESENHO-trilhas — a checagem 13 mede a '
-         'coluna dele, e sem o numero ela rodaria com o valor de formato daqui')
+    erro('1: nao achei a coluna `Chefe: dano` do nivel 30 na tabela de inimigo do manual (partF.js)')
+if _lm and re.fullmatch(r'\d+', _lm.get('Capanga: dano', '')):
+    CAPANGA = float(_lm['Capanga: dano'])
+    print(f'  [x] o capanga foi lido do dono, a tabela de inimigo do manual: {CAPANGA:.0f} de dano por rodada')
+else:
+    erro('1: nao achei a coluna `Capanga: dano` do nivel 30 na tabela de inimigo do manual (partF.js) — '
+         'a checagem 13 mede a coluna dele, e sem o numero ela rodaria com o valor de formato daqui')
 
 # v0.198: as acoes do chefe. Ate aqui o 3 estava escrito neste arquivo e a peca
 # dizia que o dono era o manual, citado no DESENHO-trilhas — e a frase do manual
@@ -226,7 +253,7 @@ MAPA_ANCORA = {
     'ações do chefe por rodada': ('acoes_chefe',),
     'vantagem e desvantagem': ('vantagem',),
     '`1` ponto percentual na rolagem de um aliado': ('aliado',),
-    'a ação de atacar de um aliado': ('acao_aliado',),
+    'a Ação Atacar de um aliado': ('acao_aliado',),
     'mover `1,5 m`': ('metro',),
     '`1` ponto de arma': ('ponto_arma',),
     'o fundo de uma arma de duas mãos': ('fundo',),
@@ -1389,6 +1416,46 @@ else:
     elif 'ORDEM inverte' in TXT:
         erro('13: a peca declara que a ordem inverte contra o capanga, e ela nao inverte')
 
+    # 13.1 (v0.284): os numeros da prosa do capanga sao conta desta checagem, e moravam
+    # soltos no texto. O `0,74×` e o `1,19×` eram da conta contra o capanga de 73, e
+    # ninguem trocou quando o manual passou a publicar o de 27 — nem a frase da ORDEM,
+    # que ilustrava a inversao com duas razoes que nao invertem. Cada `N×` (`Nome`) do
+    # paragrafo do capanga e os dois valores da frase da ORDEM saem da conta de cima.
+    _par = re.search(r'Contra um capanga de `(\d+)` de dano por rodada[^\n]*', TXT)
+    _ord = re.search(r'no capanga o `([^`]+)` cai para `([\d,]+)` e o `([^`]+)` para `([\d,]+)`', TXT)
+    _pares = re.findall(r'`([\d,]+)×` \(`([^`]+)`\)', _par.group(0)) if _par else []
+    if not (_par and _ord and len(_pares) >= 4):
+        erro('13.1: nao achei o paragrafo do capanga com os `N×` (`Nome`), ou a frase da ORDEM '
+             '— os numeros da prosa pararam de ser conferidos')
+    else:
+        _mau131 = []
+        if float(_par.group(1)) != CAPANGA:
+            _mau131.append(f'o paragrafo mede um capanga de {_par.group(1)}, e o do manual e {CAPANGA:.0f}')
+        # e a linha da tabela de ancoras, que e' a copia que abre a secao: a checagem 1
+        # so confere que a coluna existe no manual, e nao o valor que a peca escreve
+        _anc = re.search(r'^\| chefe e capanga no nível 30 \| `(\d+)` e `(\d+)` por rodada \|', TXT, re.M)
+        if not _anc:
+            _mau131.append('nao achei a linha "chefe e capanga no nivel 30" da tabela de ancoras')
+        elif (float(_anc.group(1)), float(_anc.group(2))) != (CHEFE, CAPANGA):
+            _mau131.append(f'a tabela de ancoras publica chefe {_anc.group(1)} e capanga {_anc.group(2)}, e o manual '
+                           f'da {CHEFE:.0f} e {CAPANGA:.0f}')
+        for _v, _n in _pares:
+            if _n not in _vcap:
+                _mau131.append(f'`{_n}` nao e uma das treze')
+                continue
+            _conta = round(_vcap[_n] / (_pub[_n][2] * PONTO_DE_FEITICO), 2)
+            if abs(num(_v) - _conta) > 0.005:
+                _mau131.append(f'`{_n}` publicado {_v}x, e a conta da {_conta:.2f}x')
+        for _n, _v in ((_ord.group(1), _ord.group(2)), (_ord.group(3), _ord.group(4))):
+            if _n not in _vcap or abs(num(_v) - round(_vcap[_n], 2)) > 0.005:
+                _mau131.append(f'a frase da ORDEM da {_v} ao `{_n}` contra o capanga, e a conta da '
+                               f'{_vcap.get(_n, float("nan")):.2f}')
+        if _mau131:
+            erro('13.1: a prosa do capanga nao bate com a conta — ' + '; '.join(_mau131))
+        else:
+            print(f'  [x] 13.1: a linha de ancoras, os {len(_pares)} `N×` do paragrafo do capanga e os dois '
+                  'valores da frase da ORDEM saem do manual e da conta contra o capanga dele')
+
 
 # --------------------------------------------------------------------------
 bloco('14. O CALADO NAS CINCO COPIAS — a redacao da v0.176 e a Kata pelo mesmo padrao')
@@ -1420,6 +1487,34 @@ else:
              f'no livro inteiro faria o `Calado` cortar toda Kata, e a decisao da v0.276 e cortar so a que precisa de som')
     if not _fora and not _semk:
         print(f'  [x] o `Calado` diz "{_cal}" nas cinco copias, e a regra da `Kata` esta na peca e no capitulo 15')
+
+# v0.277: o `Calado` e' de nicho — "N precisa de campo, cala apenas se o inimigo tiver algum selo que
+# necessite de voz ou habilidades do tipo, é uma condição de nicho". O nivel NAO muda, e isso e' conta, nao
+# escolha: contra quem usa voz ele tira uma acao, e o nivel mais barato em que essa acao cabe no filtro de
+# dominancia e' o publicado. Aqui se refaz a conta no degrau de baixo e se cobra que ela passe do filtro —
+# e que a peca publique esse numero. Se um dia o Calado descer de nivel, esta checagem acende.
+_linha_cal = re.search(r'^\| \*\*`Calado`\*\* \| `(\d+,\d+)` \| `1` \| `(\d+)` \| `(\d+,\d+)×` \| `(\w+)` \|$', TXT, re.M)
+_pts_leve = sorted({int(p) for p in re.findall(r'^\| \*\*`\w+`\*\* \| `\d+,\d+` \| [^|]+ \| `(\d+)` \| `\d+,\d+×` \| `Leve` \|$', TXT, re.M)})
+if not _linha_cal or not _pts_leve:
+    erro('14: nao achei a linha do `Calado` ou os pontos do degrau `Leve` na tabela das treze')
+else:
+    _nega_cal, _pts_cal, _rz_cal, _niv_cal = num(_linha_cal.group(1)), int(_linha_cal.group(2)), _linha_cal.group(3), _linha_cal.group(4)
+    _rz_leve = _nega_cal / (_pts_leve[0] * PONTO_DE_FEITICO)
+    _txt_leve = f'{_rz_leve:.2f}'.replace('.', ',')
+    if _rz_leve <= DOMINANCIA + 1e-9:
+        erro(f'14: em `Leve` o `Calado` daria {_rz_leve:.2f}x, dentro do filtro de {DOMINANCIA:.2f}x — o nivel '
+             f'`{_niv_cal}` deixou de ser o mais barato em que ele cabe, e a peca diz que e')
+    elif f'Em `Leve` a mesma ação daria `{_txt_leve}×`' not in TXT or f'em `Média` dá `{_rz_cal}×`' not in TXT:
+        erro(f'14: a nota do nicho nao publica a conta que o validador refaz: Leve {_txt_leve}x e {_niv_cal} {_rz_cal}x')
+    _nicho = {'peca 19': 'O `Calado` só cala o que precisa de voz:' in TXT,
+              'capitulo 15': 'É uma condição de nicho: ela só cala o que precisa de voz.' in _copias['dano e condicoes (cap. 15)'],
+              'peca 26': 'O inimigo que não usa voz não é imune ao `Calado`, e não paga o `1,20`.' in ler('sistema/03-mecanica/26-bestiario.md')}
+    if not all(_nicho.values()):
+        erro(f'14: a regra de nicho do `Calado` sumiu de {[k for k, v in _nicho.items() if not v]} — sem ela, um mestre '
+             f'corta a conjuracao de todo inimigo e outro nao corta nenhuma')
+    if _rz_leve > DOMINANCIA + 1e-9 and all(_nicho.values()):
+        print(f'  [x] o `Calado` e de nicho na peca 19, no capitulo 15 e no bestiario, e fica `{_niv_cal}`: em `Leve` '
+              f'daria {_rz_leve:.2f}x, acima do filtro de {DOMINANCIA:.2f}x')
 
 
 # --------------------------------------------------------------------------

@@ -813,9 +813,11 @@ _ca = {'peca 11': 'O Corpo Amaldiçoado não compra' in _cxe, 'livro, cap. 45': 
        'livro, cap. 25': 'a `Extensão de Domínio` você não compra' in _L25}
 if len(set(_ca.values())) != 1:
     erro(f'o Corpo Amaldicoado fora da Extensao nao esta nos quatro lugares: {_ca}')
-# o `Manejo` tem de estar ESCRITO, e nao so' implicito: o capitulo 43 manda ler `Manejo` onde os
-# capitulos 8 e 9 escrevem feitico, e o 45 nao esta entre eles. Sem o nome, o Sem Tecnica le
-# "voce nao usa feitico" e ergue a Extensao sem perder nada — o problema de preco do Mizuki.
+# o `Manejo` tem de estar ESCRITO, e nao so' implicito — o problema de preco do Mizuki: sem ele o
+# Sem Tecnica ergueria a Extensao sem perder nada. Ate a v0.275 o nome era o que fazia a regra
+# alcancar o Sem Tecnica, porque o capitulo 43 so' mandava ler `Manejo` nos capitulos 8 e 9. Desde a
+# v0.276 ele manda ler em qualquer capitulo, e o nome ficou por clareza: a decisao da v0.273 foi
+# escrever com todas as letras, e e' ela que esta checagem guarda.
 _mj = {'peca 11, a caixa': 'você não usa feitiço nem `Manejo`' in _cxe,
        'livro, a caixa': 'você não usa feitiço nem `Manejo`' in _s45,
        'peca 11, o que custa por fora': bool(re.search(
@@ -824,11 +826,24 @@ _mj = {'peca 11, a caixa': 'você não usa feitiço nem `Manejo`' in _cxe,
            r'^\| \*\*Extensão de Domínio\*\*[^\n]*nenhum feitiço nem `Manejo`', _L45, re.M))}
 if not all(_mj.values()):
     erro(f'a Extensao parou de proibir o `Manejo` com todas as letras em '
-         f'{[k for k, v in _mj.items() if not v]} — "feitico" sozinho nao alcanca o Sem Tecnica no capitulo 45')
-if not _falta_e and len(set(_vals_e.values())) == 1 and all(_le) and len(set(_ca.values())) == 1 and all(_mj.values()):
+         f'{[k for k, v in _mj.items() if not v]} — a v0.273 decidiu escrever o nome, e ele fica por clareza')
+# a caixa nao diz o que continua (v0.283). Decisao do Mizuki: "se n ta citado, n precisa ficar
+# deixando claro". Ate a v0.282 ela dizia "A Tecnica Marcial e as aptidoes continuam", e desde a
+# v0.276 a `Kata` vale como feitico (capitulo 42): a frase brigava com a primeira linha da caixa.
+# Lido so' das linhas da caixa, nos dois lados, e so' do que e' de quem ergue — a barreira que
+# "continua te prendendo" e a Expansao ja aberta que "continua" sao regra, e ficam.
+_RX_CONT = re.compile(r'(Técnica Marcial|aptidões|reversa)[^.\n]*\bcontinua')
+_cx45 = '\n'.join(l for l in _s45.split('\n') if l.startswith('> '))
+_cont = {k: [m.group(0) for m in _RX_CONT.finditer(v)]
+         for k, v in (('peca 11, a caixa', _cxe), ('livro, a caixa', _cx45))}
+if any(_cont.values()):
+    erro(f'a caixa da Extensao voltou a dizer o que continua: {_cont} — desde a v0.283 ela so diz '
+         f'o que para, e a `Kata` vale como feitico desde a v0.276')
+if (not _falta_e and len(set(_vals_e.values())) == 1 and all(_le) and len(set(_ca.values())) == 1
+        and all(_mj.values()) and not any(_cont.values())):
     print(f'  A Extensao: o gate (refino, nivel) = {next(iter(_vals_e.values()))} nas cinco copias, acima do teto '
-          f'voce leva 3/4 na peca e no livro, o Corpo Amaldicoado fora dela nos quatro lugares, e o `Manejo` '
-          f'proibido pelo nome nos quatro.')
+          f'voce leva 3/4 na peca e no livro, o Corpo Amaldicoado fora dela nos quatro lugares, o `Manejo` '
+          f'proibido pelo nome nos quatro, e a caixa sem lista do que continua.')
 
 # --- a queda na hora (v0.274): quando a Cesta cai, ou o Simples cai pelo voto, a Expansao te alcanca
 # na hora, e esse Acerto e' A MAIS — o do comeco do turno do dono continua vindo. Decisao do Mizuki:

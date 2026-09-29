@@ -607,8 +607,10 @@ _liv103 = ' '.join(_limpa103(l) for l in _T35.split('\n'))
 # decididos`, e nao aqui. A colecao em caminhos/ fica como chegou (o MANIFESTO.json
 # dela continua conferindo); este bloco aplica a tabela no texto da v0.4 antes de
 # comparar. A coluna `onde` diz o alcance — `o <Caminho>` e o arquivo inteiro, `a
-# Trilha <T>` e so a secao dela —, e a coluna `ficam como estao` lista os compostos
-# que nao mudam. O artigo que o nome novo pede e consequencia de genero, declarada
+# Trilha <T>` e so a secao dela, e `os quatro Caminhos` (v0.281, a `Acao Atacar`) e a
+# colecao inteira —, e a coluna `ficam como estao` lista os compostos que nao mudam.
+# Linha de frase inteira tambem vale (v0.281): o `grupo` que virou categoria muda de
+# genero, e cada forma dele ("desse grupo", "do mesmo grupo") tem a sua linha. O artigo que o nome novo pede e consequencia de genero, declarada
 # junto: `Sobre Carregar Energia` e masculino, e a v0.4 dizia "da" e "numa".
 _P06_103 = ler(os.path.join(RAIZ, 'sistema', '03-mecanica', '06-caminhos-e-trilhas.md'))
 _mren = re.search(r'\*\*Renomes decididos\*\*\n\n((?:\|[^\n]*\n)+)', _P06_103)
@@ -628,7 +630,9 @@ def _renomeia103(nome_arq, txt):
     for _de, _para, _onde, _ficam in _RENOMES:
         _mt = re.match(r'a Trilha (.+)$', _onde)
         _mc = re.match(r'o (.+)$', _onde)
-        if _mt:
+        if _onde == 'os quatro Caminhos':
+            _i, _j = 0, len(txt)
+        elif _mt:
             _m0 = re.search(r'^## Trilha ' + re.escape(_mt.group(1)) + r'\n', txt, re.M)
             if not _m0:
                 continue
@@ -745,6 +749,97 @@ else:
               f'{_pior:.2f}x')
         print(f'      a Reacao de cobrir-se ({_m_rd.group(1)} x refino), e ele e de graca.')
 
+
+# ---------------------------------------------------------------- 10.4 A CERCA
+# v0.279: a peca 5 §4 proibe o Caminho de curar e de dar desconto de dano em tudo, e a colecao
+# v0.4 entrou no livro "exatamente" com quatro entregas que furam isso — o Socorrista (declarado na
+# v0.271, so' no livro) e tres do Bastiao que ninguem tinha visto. O Mizuki declarou as quatro
+# ("1 - A"), e a peca 5 guarda duas tabelas: as excecoes, e as tres que so' parecem furar. Aqui se
+# varre o capitulo 8 atras de cura e de desconto de dano, e toda entrega achada tem de estar numa
+# das duas tabelas — entrega nova que cure ou desconte sem ser declarada acende. E o quadro de
+# Limites do livro tem de nomear as excecoes que a peca declara.
+_P5 = ler(os.path.join(AQUI, '05-caminho-e-combate-sem-feitico.md'))
+_L8 = ler(os.path.join(RAIZ, 'sistema', '05-material', 'livro', 'manual', '35-caminhos-e-trilhas.md'))
+_ic = _P5.find('### As exceções declaradas, e o que só parece furar')
+_sc = _P5[_ic:_P5.find('\n### ', _ic + 5)] if _ic >= 0 else ''
+_exc = re.findall(r'^\| (?:Trilha )?`([^`]+)` \| [^|]+ \| \*\*(?:cura|desconto de dano)\*\*', _sc, re.M)
+_par = re.findall(r'^\| `([^`]+)` \| [^|]+ \| (?!\*\*)[^|]+ \|$', _sc, re.M)
+# so' a tabela VAZIA e' defeito de forma: uma contagem minima aqui dentro seria numero guardado no
+# validador, e o arnes da v0.279 mostrou o custo — tirar uma linha acendia por aqui, e nao pela entrega
+# que ficou sem declarar.
+if not _exc or not _par:
+    erro('10.4', f'nao achei as duas tabelas da cerca na peca 5 §4 (excecoes {_exc}, parecem {_par}) — '
+                 'elas mudaram de forma e a varredura parou de ter contra o que comparar')
+else:
+    _RXC = re.compile(r'(recuper\w*[^.\n]*\bde vida|reduz\w*[^.\n]*\bdano\b[^.\n]*(golpe|recebido)|Reduza esse valor do dano|\bcura\b)', re.I)
+    _cam = _tri = _ent = None; _achou = {}
+    _ini = _L8.find('\n## Bastião')
+    for _par_txt in re.split(r'\n[ \t]*>?[ \t]*\n', _L8[_ini:]):
+        _p = _par_txt.strip()
+        for _lin in _p.split('\n'):
+            _m = re.match(r'^## (Bastião|Vanguarda|Emanador|Guia)\b', _lin)
+            if _m: _cam, _tri, _ent = _m.group(1), None, None
+            _m = re.match(r'^### Trilha: (.+)$', _lin)
+            if _m: _tri, _ent = _m.group(1).strip(), None
+            _m = re.match(r'^#{3,4} (?:Nível \d+ — |Nível \d+: )?(.+)$', _lin)
+            if _m and not _lin.startswith('### Trilha:'): _ent = _m.group(1).strip()
+        _m = re.match(r'^> \*\*(?:Nível \d+: )?`([^`]+)`', _p)
+        if _m: _ent = _m.group(1)
+        if _p.startswith('|') or not _RXC.search(_p): continue
+        _achou[(_cam, _tri, _ent)] = _RXC.search(_p).group(0)[:40]
+    _fora = [k for k in _achou if k[2] not in _exc and k[1] not in _exc and k[2] not in _par]
+    if _fora:
+        for k in _fora: print(f'     {k[0]} · {k[1] or "Caminho"} · {k[2]}: "{_achou[k]}"')
+        erro('10.4', f'{len(_fora)} entrega(s) do capitulo 8 curam ou descontam dano e nao estao nas tabelas da cerca '
+                     f'da peca 5 §4 — ou declara como excecao, ou escreve por que so parece furar')
+    _todos = set(_exc) | set(_par)
+    _sumiu = [n for n in _todos if n not in {k[2] for k in _achou} | {k[1] for k in _achou}]
+    if _sumiu:
+        erro('10.4', f'a peca 5 §4 declara {_sumiu} e a varredura nao acha cura nem desconto neles no capitulo 8 — '
+                     f'a tabela envelheceu')
+    _box = _L8[_L8.find('### Limites'):_L8.find('\n### ', _L8.find('### Limites') + 5)]
+    _semb = [n for n in _exc if n not in _box]
+    if _semb:
+        erro('10.4', f'o quadro de Limites do capitulo 8 nao nomeia {_semb}, que a peca 5 §4 declara como excecao')
+    if not _fora and not _sumiu and not _semb:
+        print(f'  [x] 10.4 a cerca: {len(_achou)} entregas do capitulo 8 curam ou descontam dano, e todas estao na peca 5 §4 — '
+              f'{len(_exc)} excecoes declaradas, {len(_par)} que so parecem furar, e o quadro de Limites nomeia as excecoes')
+
+# ------------------------------------------------ 10.5 AS PENDENCIAS DA v0.4 DECIDIDAS
+# v0.280: a colecao v0.4 deixou pendencias na nota dela (caminhos/03-Notas/), e o Mizuki decidiu
+# duas — o prazo e a abrangencia do `Oportunista`, o custo e o arredondamento do `Contra a Parede`.
+# A colecao fica como chegou; a frase decidida mora na tabela `Pendencias da v0.4 decididas` da
+# peca 6 §2, e a copia que a mesa le e o quadro da entrega no capitulo 8. A 10.3 nao pega, porque
+# ela cobra a v0.4 dentro do livro e nao o que o livro diz a mais. Aqui o quadro de cada entrega da
+# tabela tem de dizer a frase da tabela, e so o quadro dela: frase no quadro vizinho nao conta.
+_mpen = re.search(r'\*\*Pendências da v0\.4 decididas\*\*\n\n((?:\|[^\n]*\n)+)', _P06_103)
+_PEN105 = []
+if _mpen:
+    for _l in _mpen.group(1).split('\n')[2:]:
+        _c = [c.strip() for c in _l.strip().strip('|').split('|')]
+        if len(_c) == 4 and _c[0].startswith('`'):
+            _PEN105.append((_c[0].strip('`'), re.findall(r'"([^"]+)"', _c[2])))
+if not _PEN105:
+    erro('10.5', 'nao achei a tabela `Pendencias da v0.4 decididas` da peca 6 §2 — a frase decidida '
+                 'no livro ficou sem dono, e esta checagem sem contra o que comparar')
+_ok105 = 0
+for _ent, _frs in _PEN105:
+    _mq = re.search(r'^> \*\*Nível \d+: `' + re.escape(_ent) + r'`\.\*\*.*?(?=^> \*\*Nível \d+:|^(?!>))',
+                    _L8, re.M | re.S)
+    if not _frs:
+        erro('10.5', f'a linha do `{_ent}` na tabela da peca 6 §2 nao diz, entre aspas, a frase do livro')
+    elif not _mq:
+        erro('10.5', f'a peca 6 §2 decidiu uma pendencia do `{_ent}`, e o capitulo 8 nao tem o quadro dele')
+    else:
+        _q = ' '.join(_limpa103(l) for l in _mq.group(0).split('\n'))
+        _falta = [f for f in _frs if _limpa103(f) not in _q]
+        for f in _falta:
+            erro('10.5', f'o quadro do `{_ent}` no capitulo 8 nao diz "{f[:70]}", que a peca 6 §2 decidiu')
+        if not _falta:
+            _ok105 += 1
+if _PEN105 and _ok105 == len(_PEN105):
+    print(f'  [x] 10.5 as pendencias da v0.4: o quadro de cada uma das {_ok105} entregas decididas na '
+          f'peca 6 §2 diz a frase da tabela')
 
 # ================================================================ 11. CAPITALIZACAO
 print('\n' + '=' * 88)

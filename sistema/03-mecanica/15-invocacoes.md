@@ -564,20 +564,26 @@ Com a vida em pool (Q2) e `h` em meia Rotina (Q3), **um efeito de área que caus
 
 ***O motivo é do Mizuki, e ele fica escrito junto porque a régua sem ele já foi lida ao contrário uma vez:*** *a régua mede um golpe único, então um golpe que apaga um corpo de vida cheia destruiu esse corpo. Régua maior que a vida criava golpe que mata o corpo inteiro e ainda conta como "só caiu".*
 
-**O que ela faz na mesa, medido contra o bestiário da peça 26 e contra a rolagem, não contra o alvo.** *O gatilho fala em **um golpe**, e um golpe é uma rolagem — a peça 26 §4.4 põe metade do alvo em dado, e o máximo de uma rolagem fica de `1,20 ×` a `1,45 ×` acima do alvo em toda faixa. Medir pela média esconde exatamente a cauda que decide isto.*
+**O que ela faz na mesa, medido contra o bestiário da peça 26 e contra a rolagem, não contra o alvo.** *O gatilho fala em **um golpe**, e um golpe é uma rolagem — a peça 26 §4.4 põe metade do alvo em dado, e o máximo de uma rolagem fica de `1,25 ×` a `1,45 ×` acima do alvo em toda faixa. Medir pela média esconde exatamente a cauda que decide isto.*
 
 | o golpe, no nível 30 | expressão | o máximo dele | corpo do `Coro`, Con `1` | corpo forte, Con `1` |
 |---|---|---|---|---|
-| `Capanga` e `Ameaça` | `6d8 + 28` | `76` | cai | cai |
-| `Catástrofe` | `6d10 + 33` | `93` | cai | cai |
-| `Desastre` e `Calamidade`, o maior golpe da tabela | `8d8 + 37` | `101` | cai | cai |
-| **crítico de `Desastre`** | `16d8 + 37` | `165` | **destrói** | cai |
+| `Capanga` | `4d6 + 14` | `38` | cai | cai |
+| `Ameaça` | `4d12 + 25` | `73` | cai | cai |
+| `Desastre` | `8d6 + 28` | `76` | cai | cai |
+| `Catástrofe` | `6d10 + 31` | `91` | cai | cai |
+| `Calamidade`, o maior golpe da tabela | `6d10 + 35` | `95` | cai | cai |
+| **crítico de `Calamidade`** | `12d10 + 35` | `155` | destrói | cai |
 
 *A coluna do meio é o **máximo** da rolagem, e não a média — o gatilho pergunta se **uma** rolagem alcança a régua, então é o teto dela que decide. Os corpos valem `154` e `185`.*
 
-**Nenhum golpe comum destrói em definitivo, e a razão vale em todo nível.** *O crítico da maior categoria da tabela destrói o corpo do `Coro` e não destrói o corpo forte — com a escada viva da peça 26, nenhum golpe único destrói o corpo forte.* **A morte definitiva dele virou coisa quase só do gatilho do excedente, com o corpo já machucado.**
+**Nenhum golpe comum destrói em definitivo, e a razão vale em todo nível.** *No nível 30 o crítico máximo da `Calamidade` chega a `155`: pode destruir o corpo do `Coro`, de `154`, mas não o corpo forte, de `185`.* **A morte definitiva ficou quase toda com o gatilho do excedente, com o corpo já machucado.**
 
 > ***Registrado por decisão do Mizuki na v0.221.*** *Até a v0.220 o topo desta tabela era a `Dupla`, e o crítico dela destruía os dois corpos. A escada da peça 26 mudou, o maior golpe caiu de `153` para `101`, e a régua ficou mais frouxa sem ninguém ter decidido isso.* **Ele escolheu registrar em vez de encolher o corpo forte:** *no corpo pequeno a régua dispara no crítico, e no corpo forte ela pede o corpo já quase caindo.*
+>
+> ***Na grade da fase 2 do bestiário, na v0.282, o maior golpe caiu de `101` para `93`, e o crítico dele, de `165` para `153`.*** *O corpo do `Coro` passou a aguentar o crítico por um ponto. A tabela registra, pela mesma decisão da v0.221, e as Invocações estão fora da edição jogável desde a v0.270.*
+
+> **v0.285 — atualização da comparação, sem reativação.** A média dos quatro Caminhos jogáveis atualizou as rolagens da peça 26. O máximo comum passou a `95`, e o crítico a `155`. As conclusões acima usam esses valores; o registro da v0.282 abaixo é histórico. Nenhuma regra, custo ou PV das invocações foi alterado.
 
 > **⚠ A tabela que ficava aqui era da v0.58 e media estimativa, não bestiário.** *Ela punha um `0,50 R` único no lugar de um vão que vai de `0,31` a `1,42 R` conforme categoria, nível e rolagem — e duas das cinco linhas dela, `área grande` a `1,88 R` e `Expansão de Domínio` a `3,00 R`, **não tinham derivação em documento nenhum do projeto**: cada uma aparecia uma vez, dentro da própria tabela.* **A peça 26 §6.4 desmente a segunda com todas as letras:** *a Expansão **não acrescenta dano** — ela garante o acerto, o que vale `1,92 ×` de saída efetiva e vira degrau de categoria.* **Eram as duas únicas linhas marcadas "mata", então o teto que o §12 derivava saía inteiro de dois números escritos à mão.**
 
@@ -585,8 +591,8 @@ Com a vida em pool (Q2) e `h` em meia Rotina (Q3), **um efeito de área que caus
 
 | Constituição da invocação | corpo do `Coro` | corpo forte |
 |---|---|---|
-| `0` | só no crítico, `5,7%` deles | só no crítico, e quase nunca — menos de `0,1%` deles |
-| `1` — *a montagem que o §3.7 publica* | só no crítico, e quase nunca — menos de `0,1%` deles | nada destrói com um golpe |
+| `0` | só no crítico, `1,1%` deles | nada destrói com um golpe |
+| `1` — *a montagem que o §3.7 publica* | só no crítico, `13` resultados em `10¹²` rolagens dele | nada destrói com um golpe |
 | `3` | nada destrói com um golpe | nada destrói com um golpe |
 
 **O gatilho do excedente é o que cobra o corpo já machucado**, e é aí que ele passou a fazer trabalho. *Com a régua velha ele era código morto no corpo forte: `vida + metade da régua` dava `5 ×` a fórmula crua, que é a régua inteira, então o outro gatilho sempre chegava primeiro.*
@@ -596,7 +602,7 @@ Com a vida em pool (Q2) e `h` em meia Rotina (Q3), **um efeito de área que caus
 | cheio | `232` | não |
 | na metade | `155` | não |
 | em um quarto | `116` | não |
-| a um ponto de cair | `79` | `20%` das rolagens |
+| a um ponto de cair | `79` | `7%` das rolagens |
 
 > **⚠ Esta régua já foi a vida máxima do corpo até a v0.178, virou escala fixa de `5 ×` a fórmula crua naquela versão, e voltou a ser a vida máxima agora — e o motivo de ida e o de volta não são o mesmo.** *Ela saiu do corpo porque o `Coro` estava quebrado: com o corpo dele valendo `h`, um golpe comum causava a vida máxima inteira e a Trilha sumia no primeiro acerto. O conserto daquela versão foi **tirar a régua do corpo**, e ele funcionou — mas cobrou o preço de a régua deixar de ser um número que existe na ficha de alguém.* **A medida contra o bestiário mostrou o tamanho do preço:** *o `§12` conferia `2,50 R`, e a régua que a mesa usava ia de `1,94` a `11,20 R` conforme a Constituição. Era escala de design, não de mesa.*
 >
@@ -1105,8 +1111,8 @@ E uma que eu quase escrevi: um `Traço` de corpo duro, tipo *"ela aguenta mais p
 
 | nv | corpo do `Coro` (`2 ×`) | corpo forte, `Servo` e `Matilha` | rodadas de chefe concentrando |
 |---|---|---|---|
-| 2 | 12 | 15 | `Coro` 1,4 · corpo forte 1,8 |
-| 10 | 44 | 55 | 1,2 · 1,5 |
+| 2 | 12 | 15 | `Coro` 1,3 · corpo forte 1,7 |
+| 10 | 44 | 55 | 1,1 · 1,4 |
 | 30 | 124 | 155 | 1,1 · 1,4 |
 
 > **⚠ A coluna do `Coro` era `6 · 22 · 62` — o `h` cru — até esta versão**, e as rodadas dele eram `0,7 · 0,6 · 0,6`. *O que mudou é o multiplicador do corpo, e o porquê está no §3.5: com `h` ele era o único corpo do jogo abaixo de um golpe e meio de inimigo.*

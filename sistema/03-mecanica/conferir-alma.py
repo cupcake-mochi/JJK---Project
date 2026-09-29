@@ -634,7 +634,8 @@ def _ler13(rel):
         erro(13, f'nao abri {rel}')
         return ''
 P26 = ler('26-bestiario.md')
-_GER = _ler13('sistema/05-material/gerador-inimigo/make.js')
+# v0.282: a conta do gerador mora no conta.js, e o make.js monta o .docx em cima dela
+_GER = _ler13('sistema/05-material/gerador-inimigo/conta.js') + '\n' + _ler13('sistema/05-material/gerador-inimigo/make.js')
 
 _m = re.search(r'Integridade de quem não é personagem jogador = (.+?) da vida máxima', P24)
 _f = _FRACAO.get(_m.group(1)) if _m else None
@@ -674,14 +675,15 @@ else:
         print(f'  [x] o gerador de inimigo divide por {_div[0]}, nas duas fichas que ele imprime')
     # 13c — o terco do `Cisao` sai da fracao e da mesa padrao
     _lim = _f / (1 + _f)
-    _mm = re.search(r'`personagens = fator × (\d+)`', P26)
+    # v0.282: na grade a mesa padrao e o N do chefe da tabela do manual, o `Desastre ×4` da peca 26 §4
+    _mm = re.search(r'O `Desastre ×(\d)` é o chefe da tabela do manual', P26)
     _s33 = P24[P24.find('### 3.3'):P24.find('### 3.3.1')]
     _pub = re.search(r'menos de \*\*(.+?)\*\* do dano do grupo', _s33)
     _vel = re.search(r'fica `(\d+),(\d)×` bater normal', _s33)
     _mesa = re.search(r'na mesa padrão de (\w+) a parte de cada um é (.+?)\.', _s33)
     _emp = re.search(r'numa mesa de (\w+) a vida e o estágio `4` chegam juntos', _s33)
     if not _mm:
-        erro('13c', 'nao achei a mesa padrao na peca 26 (`personagens = fator × N`)')
+        erro('13c', 'nao achei a mesa padrao na peca 26 (o `Desastre ×N` que e o chefe da tabela do manual)')
     elif not (_pub and _vel and _mesa and _emp):
         erro('13c', 'a peca 24 §3.3 parou de publicar o limite do `Cisao` por extenso — '
                     'o limite, a velocidade, a mesa padrao e a mesa do empate')

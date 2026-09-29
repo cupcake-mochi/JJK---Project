@@ -1,63 +1,86 @@
 A montagem tem três passos, nesta ordem, e cada um lê uma tabela.
 
-*Passo 1 · Categoria* diz quanto o inimigo aguenta, *Passo 2 · Papel* diz como ele luta, e
-*Passo 3 · Tamanho* diz onde o corpo cabe e até onde o golpe alcança. Os números de cada nível estão
-em *Tabelas de nível*, e a ação montada no Fundamento, em *Escrita de ação*.
+*Passo 1 · Categoria e N* diz quanto o inimigo aguenta e quanto ele bate, *Passo 2 · Papel* diz
+como ele luta, e *Passo 3 · Tamanho* diz onde o corpo cabe e até onde o golpe alcança. Os números de
+cada nível estão em *Tabelas de nível*, e a ação montada no Fundamento, em *Escrita de ação*.
 
-# Passo 1 · Categoria
+# Passo 1 · Categoria e N
 
-A categoria responde uma pergunta só: **quantos personagens este inimigo exige?**
+A categoria é a dificuldade da luta. O N é para quantos personagens do nível ela é feita, do `×1` ao
+`×6`.
 
-O fator da categoria e o número de pessoas são a mesma coisa em duas unidades:
-**`personagens = fator × 4`**. Um bicho de fator `1,92` exige `7,7` pessoas.
+<!-- DEGRAUS -->
 
 **Categorias**
 {: .tab-titulo }
 
-| categoria | quem ela pede | vida | dano | ações | corpos | tem `Intervenção`? |
-|---|---|---|---|---|---|---|
-| **`Capanga`** | — | dano do grupo ÷ 4 | `0,25` | `1` | `8`, em pool | não |
-| **`Ameaça`** | `1` | `0,25` | `0,25` | `1` | `1` | não |
-| **`Desastre`** | `4` — a mesa padrão | `1,00` | `1,00` | `3` | `1` | sim |
-| **`Catástrofe`** | `6` — a mesa cheia | `1,50` | `1,50` | `5` | `1` | sim |
-| **`Calamidade`** | `8` | `2,00` | `2,00` | `6` | `1` | sim |
+| categoria | a luta | dura | o golpe | tem `Intervenção`? |
+|---|---|---|---|---|
+| **`Capanga`** | trivial | `2` rodadas | metade do golpe-base | não |
+| **`Ameaça`** | baixa | `2,5` rodadas | `0,900` × o golpe-base | só no `×6` |
+| **`Desastre`** | moderada — o chefe do manual | `3` rodadas | o golpe-base | do `×4` em diante |
+| **`Catástrofe`** | severa | `4` rodadas | `1,125` × o golpe-base | do `×3` em diante |
+| **`Calamidade`** | extrema | `5` rodadas | `1,200` × o golpe-base | do `×2` em diante |
 
-O `Desastre` é a linha da tabela de inimigo do manual sem tocar em nada. As outras saem dela.
+<!-- FIM DEGRAUS -->
 
-> Nas colunas de quem tem `Intervenção`, a `Vida e golpe por faixa` já traz o golpe multiplicado
-> por `0,923`. Use o golpe como ele está.
+> **Vida = rodadas × N × a saída de um personagem.** Ele age N vezes por rodada. A saída de um
+> personagem é o dano do grupo por rodada da tabela de inimigo do manual, dividido por quatro.
+>
+> O golpe não muda com o N. Um `Desastre ×6` bate o mesmo golpe de um `Desastre ×1`, seis vezes.
+
+O `Desastre ×4` é a linha da tabela de inimigo do manual. Todas as outras células saem dela.
+
+## `×1` e `×2`
+
+O inimigo de uma ou duas ações perderia a luta inteira para uma condição que tira ação.
+
+> **No `×1`, a condição que tira ação dá a ele um Teste de Resistência no começo do turno dele,
+> sempre com a maestria.** Passou, ela sai antes de ele agir.
+>
+> **No `×2`, o mesmo Teste de Resistência, com desvantagem.**
+
+As condições que tiram ação são o `Lento`, o `Calado`, o `Enfeitiçado` e o `Atordoado`. Ele continua
+precisando falhar no teste para a condição pegar.
+
+## Capanga
+
+O `Capanga ×N` é um esquadrão de dois corpos por personagem, com a vida num pool só. Cada corpo cai
+num golpe de um personagem e bate metade do golpe-base. O grupo derruba N corpos por rodada, e o
+esquadrão dura duas rodadas contra qualquer N.
+
+> Um `Desastre ×N` vale `3N` capangas do mesmo nível.
 
 ## Teto de empilhamento
 
 > No máximo `3` corpos do mesmo esquadrão atacam o mesmo alvo por rodada, e do segundo em
 > diante o golpe sai pela metade.
 
-Sem a trava, oito corpos entregam mais que a vida inteira de um personagem numa rodada. Com
-ela, entregam menos da metade.
+A trava não encolhe o esquadrão. Os corpos continuam entregando tudo; eles só não concentram.
 
-A trava não encolhe o esquadrão. Os oito continuam entregando tudo; eles só não concentram.
+## Chefe com capangas
 
-## Encontro misturado
+Quando você põe capangas ao lado de um chefe, o chefe encolhe.
 
-Quando você põe capangas ao lado de um chefe inteiro, os fatores não se somam.
+> **Cada capanga tira `1 ÷ (rodadas × N)` da vida e do golpe do chefe**, até metade do grupo em
+> capangas. Na `Ameaça`, use a fração do `Desastre`.
 
-> **fator do encontro = fator do chefe + (capangas × `0,083`)**
+<!-- CAPANGAS -->
 
-A régua vale até quatro capangas somados a um chefe. Acima disso cada corpo passa a valer mais.
-
-**Chefe acompanhado**
+**Chefe com capangas**
 {: .tab-titulo }
 
-| o chefe vem | ele fica com | o encontro exige |
-|---|---|---|
-| sozinho | `100%` da vida | `4,00` pessoas |
-| com um apoio | `91,5%` | `4,33` |
-| com dois | `83,0%` | `4,67` |
-| em bando (três) | `74,5%` | `5,00` |
+| cada capanga tira | `×1` | `×2` | `×3` | `×4` | `×5` | `×6` |
+|---|---|---|---|---|---|---|
+| `Desastre` | `33,3%` | `16,7%` | `11,1%` | `8,3%` | `6,7%` | `5,6%` |
+| `Catástrofe` | `25,0%` | `12,5%` | `8,3%` | `6,2%` | `5,0%` | `4,2%` |
+| `Calamidade` | `20,0%` | `10,0%` | `6,7%` | `5,0%` | `4,0%` | `3,3%` |
+
+<!-- FIM CAPANGAS -->
 
 # Passo 2 · Papel
 
-O papel diz como ele luta. Ele redistribui o que a categoria deu, e nunca acrescenta.
+O papel diz como ele luta. Ele muda um número e paga na vida, e o golpe não muda.
 
 **Papéis**
 {: .tab-titulo }
@@ -66,48 +89,53 @@ O papel diz como ele luta. Ele redistribui o que a categoria deu, e nunca acresc
 |---|---|---|
 | **`Brutamontes`** | vida × `1,20` | Defesa −2 |
 | **`Baluarte`** | Defesa +2 | vida × `0,80` |
-| **`Artilheiro`** | ataque com alcance de `18 m` | vida × `0,857` |
-| **`Emboscador`** | vantagem em `1` ataque por rodada, toda rodada | vida × a linha da categoria |
-| **`Controlador`** | `1` ação negada do grupo | vida × a linha da categoria |
-| **`Reforço`** | o mesmo `1` para `1`, em outro bloco | vida × a linha da categoria |
+| **`Artilheiro`** | ataque com alcance de `18 m` | vida, pela categoria |
+| **`Emboscador`** | vantagem em `1` ataque por rodada, toda rodada | vida, pelo N |
+| **`Controlador`** | `1` ação negada do grupo | vida, pelo N |
+| **`Reforço`** | o mesmo `1` para `1`, em outro bloco | vida, pelo N |
 
-O golpe não muda em nenhum papel, e a Destreza também não: ela é a que a `Orçamento de atributo
-por marco` pede, no capítulo 5. O `−2` do `Brutamontes` e o `+2` do `Baluarte` entram direto na
-Defesa.
+A Destreza não muda em nenhum papel: ela é a que a `Orçamento de atributo por marco` pede, no
+capítulo 5. O `−2` do `Brutamontes` e o `+2` do `Baluarte` entram direto na Defesa.
 
-## Pagamento por categoria
+## Pagamento do papel
 
-O `Emboscador`, o `Controlador` e o `Reforço` pagam em vida, e quanto eles pagam muda com a
-categoria.
+O `Artilheiro` paga pela categoria: ele poupa a rodada de aproximação, e ela pesa mais na luta
+curta. O `Emboscador`, o `Controlador` e o `Reforço` pagam pelo N: o preço deles é uma ação, e o
+inimigo tem N.
 
 <!-- PAGAMENTO -->
 
-**Vida do papel, por categoria**
+**Vida do `Artilheiro`, por categoria**
 {: .tab-titulo }
 
-| categoria | `Emboscador` | `Controlador` e `Reforço` |
-|---|---|---|
-| `Capanga` | `× 0,944` | `× 0,889` |
-| `Ameaça` | `× 0,677` | `× 0,500` |
-| `Desastre` | `× 0,863` | `× 0,750` |
-| `Catástrofe` | `× 0,913` | `× 0,833` |
-| `Calamidade` | `× 0,927` | `× 0,857` |
+| | `Capanga` | `Ameaça` | `Desastre` | `Catástrofe` | `Calamidade` |
+|---|---|---|---|---|---|
+| a vida | `× 0,800` | `× 0,833` | `× 0,857` | `× 0,889` | `× 0,909` |
 
-*A linha do `Capanga` conta as `8` ações do esquadrão, e não a de um corpo.*
+**Vida do papel, pelo N**
+{: .tab-titulo }
+
+| papel | `×1` | `×2` | `×3` | `×4` | `×5` | `×6` |
+|---|---|---|---|---|---|---|
+| `Emboscador` | `× 0,678` | `× 0,808` | `× 0,863` | `× 0,894` | `× 0,913` | `× 0,927` |
+| `Controlador` e `Reforço` | `× 0,500` | `× 0,667` | `× 0,750` | `× 0,800` | `× 0,833` | `× 0,857` |
+| o esquadrão do `Capanga`, `Emboscador` | `× 0,808` | `× 0,894` | `× 0,927` | `× 0,944` | `× 0,954` | `× 0,962` |
+| o esquadrão do `Capanga`, `Controlador` e `Reforço` | `× 0,667` | `× 0,800` | `× 0,857` | `× 0,889` | `× 0,909` | `× 0,923` |
+
+*O esquadrão do `Capanga` tem dois corpos por personagem, e age `2N` vezes.*
 
 <!-- FIM PAGAMENTO -->
 
-> Use a linha da categoria do bicho, e não um número só desta tabela.
-
 ## Papel por categoria
 
-O `Capanga` toma quatro papéis: `Artilheiro`, `Emboscador`, `Reforço` e `Controlador`.
+O `Capanga` toma quatro papéis: `Artilheiro`, `Emboscador`, `Reforço` e `Controlador`, lidos pelo
+esquadrão.
 
-`Brutamontes` e `Baluarte` ficam fora do `Capanga`. O `Brutamontes`, porque um `Capanga` que não cai
-num golpe é uma `Ameaça`.
+`Brutamontes` e `Baluarte` ficam fora do `Capanga`. Um corpo que não cai num golpe deixa de ser
+`Capanga`.
 
-O `Emboscador` não sobe de `Grande`. O `Baluarte` e o `Reforço` só se pagam com mais de um inimigo
-no encontro.
+O `Emboscador` não sobe de `Grande`. O `Reforço` só se paga com mais de um inimigo no encontro,
+porque ele gasta o câmbio em outro bloco.
 
 # Passo 3 · Tamanho
 
@@ -129,42 +157,96 @@ A escada do tamanho mora no alcance. Nos alvos ele é um degrau só: `Grande`, `
 > A Defesa não muda com o tamanho, e o tamanho não pede nada em troca.
 >
 > Um bicho de `Grande` para cima entrega perto de um quinto a mais que um `Médio` da mesma
-> categoria, de graça. Conte com essa folga.
+> célula, de graça. Conte com essa folga.
 
-A coluna da grade limita o teto de empilhamento: um esquadrão de oito `Capanga` `Grande` ocupa
+A coluna da grade limita o teto de empilhamento: um esquadrão de oito corpos `Grande` ocupa
 trinta e dois quadrados, e três deles não cabem em volta de uma pessoa sem que o mapa permita.
 
 # Tabelas de nível
 
 <!-- TABELAS -->
 
-**Vida e golpe por faixa**
+**Vida por faixa · `Ameaça`**
 {: .tab-titulo }
 
-| nível | `Capanga` (cada um) | `Ameaça` | `Desastre` | `Catástrofe` | `Calamidade` |
+| nível | `×1` | `×2` | `×3` | `×4` | `×5` | `×6` |
+|---|---|---|---|---|---|---|
+| **2–4** | 24 | 47 | 71 | 95 | 119 | 142 |
+| **5–8** | 56 | 112 | 169 | 225 | 281 | 337 |
+| **9–12** | 81 | 162 | 244 | 325 | 406 | 487 |
+| **13–16** | 112 | 225 | 337 | 450 | 562 | 675 |
+| **17–20** | 137 | 275 | 412 | 550 | 687 | 825 |
+| **21–25** | 172 | 344 | 516 | 687 | 859 | 1031 |
+| **26–30** | 197 | 394 | 591 | 787 | 984 | 1181 |
+
+**Vida por faixa · `Desastre`**
+{: .tab-titulo }
+
+| nível | `×1` | `×2` | `×3` | `×4` | `×5` | `×6` |
+|---|---|---|---|---|---|---|
+| **2–4** | 28 | 57 | 85 | 114 | 142 | 171 |
+| **5–8** | 67 | 135 | 202 | 270 | 337 | 405 |
+| **9–12** | 97 | 195 | 292 | 390 | 487 | 585 |
+| **13–16** | 135 | 270 | 405 | 540 | 675 | 810 |
+| **17–20** | 165 | 330 | 495 | 660 | 825 | 990 |
+| **21–25** | 206 | 412 | 619 | 825 | 1031 | 1237 |
+| **26–30** | 236 | 472 | 709 | 945 | 1181 | 1417 |
+
+**Vida por faixa · `Catástrofe`**
+{: .tab-titulo }
+
+| nível | `×1` | `×2` | `×3` | `×4` | `×5` | `×6` |
+|---|---|---|---|---|---|---|
+| **2–4** | 38 | 76 | 114 | 152 | 190 | 228 |
+| **5–8** | 90 | 180 | 270 | 360 | 450 | 540 |
+| **9–12** | 130 | 260 | 390 | 520 | 650 | 780 |
+| **13–16** | 180 | 360 | 540 | 720 | 900 | 1080 |
+| **17–20** | 220 | 440 | 660 | 880 | 1100 | 1320 |
+| **21–25** | 275 | 550 | 825 | 1100 | 1375 | 1650 |
+| **26–30** | 315 | 630 | 945 | 1260 | 1575 | 1890 |
+
+**Vida por faixa · `Calamidade`**
+{: .tab-titulo }
+
+| nível | `×1` | `×2` | `×3` | `×4` | `×5` | `×6` |
+|---|---|---|---|---|---|---|
+| **2–4** | 47 | 95 | 142 | 190 | 237 | 285 |
+| **5–8** | 112 | 225 | 337 | 450 | 562 | 675 |
+| **9–12** | 162 | 325 | 487 | 650 | 812 | 975 |
+| **13–16** | 225 | 450 | 675 | 900 | 1125 | 1350 |
+| **17–20** | 275 | 550 | 825 | 1100 | 1375 | 1650 |
+| **21–25** | 344 | 687 | 1031 | 1375 | 1719 | 2062 |
+| **26–30** | 394 | 787 | 1181 | 1575 | 1969 | 2362 |
+
+**Golpe por faixa**
+{: .tab-titulo }
+
+| nível | `Capanga` | `Ameaça` | `Desastre` | `Catástrofe` | `Calamidade` |
 |---|---|---|---|---|---|
-| **2–4** | 9 · 4 | 28 · 4 | 114 · 1d4 + 3 | 171 · 5 | 228 · 1d4 + 3 |
-| **5–8** | 22 · 2d4 + 5 | 67 · 2d4 + 5 | 270 · 2d4 + 7 | 405 · 1d10 + 5 | 540 · 2d4 + 7 |
-| **9–12** | 32 · 2d8 + 10 | 97 · 2d8 + 10 | 390 · 2d10 + 12 | 585 · 3d6 + 10 | 780 · 2d10 + 12 |
-| **13–16** | 45 · 4d6 + 14 | 135 · 4d6 + 14 | 540 · 4d8 + 16 | 810 · 6d4 + 16 | 1080 · 5d6 + 17 |
-| **17–20** | 55 · 4d8 + 19 | 165 · 4d8 + 19 | 660 · 5d8 + 23 | 990 · 8d4 + 21 | 1320 · 5d8 + 23 |
-| **21–25** | 68 · 4d10 + 24 | 206 · 4d10 + 24 | 825 · 8d6 + 28 | 1237 · 4d12 + 25 | 1650 · 8d6 + 28 |
-| **26–30** | 78 · 6d8 + 28 | 236 · 6d8 + 28 | 945 · 6d10 + 34 | 1417 · 7d8 + 29 | 1890 · 6d10 + 34 |
+| **2–4** | 2 | 4 | 4 | 1d4 + 3 | 1d4 + 3 |
+| **5–8** | 1d4 + 3 | 2d4 + 4 | 2d4 + 5 | 2d4 + 6 | 2d4 + 7 |
+| **9–12** | 2d4 + 5 | 2d8 + 8 | 2d8 + 10 | 2d10 + 11 | 2d10 + 12 |
+| **13–16** | 2d6 + 7 | 2d12 + 13 | 4d6 + 14 | 6d4 + 17 | 4d8 + 16 |
+| **17–20** | 2d8 + 10 | 4d8 + 16 | 4d8 + 20 | 6d6 + 21 | 4d10 + 23 |
+| **21–25** | 2d10 + 13 | 4d10 + 21 | 4d10 + 25 | 4d12 + 27 | 8d6 + 29 |
+| **26–30** | 4d6 + 14 | 4d12 + 25 | 8d6 + 28 | 6d10 + 31 | 6d10 + 35 |
 
-*Vida · golpe de uma ação. O golpe sai uma vez por ação, e o número de ações está na tabela do Passo 1. Em `Desastre`, `Catástrofe` e `Calamidade` o golpe já vem com o `0,923` da `Intervenção`.*
+*O golpe de uma ação. Ele sai N vezes por rodada, e não muda com o N.*
 
-**Pool do esquadrão de `Capanga`**
+**Capanga por faixa**
 {: .tab-titulo }
 
-| nível | vida de um | pool dos oito |
+| nível | vida de um corpo | o golpe dele |
 |---|---|---|
-| **2–4** | 9 | **72** |
-| **5–8** | 22 | **176** |
-| **9–12** | 32 | **256** |
-| **13–16** | 45 | **360** |
-| **17–20** | 55 | **440** |
-| **21–25** | 68 | **544** |
-| **26–30** | 78 | **624** |
+| **2–4** | 9 | 2 |
+| **5–8** | 22 | 1d4 + 3 |
+| **9–12** | 32 | 2d4 + 5 |
+| **13–16** | 45 | 2d6 + 7 |
+| **17–20** | 55 | 2d8 + 10 |
+| **21–25** | 68 | 2d10 + 13 |
+| **26–30** | 78 | 4d6 + 14 |
+
+*O esquadrão tem dois corpos por personagem, com a vida num pool só.*
 
 **Defesa, acerto, CD e refino por marco**
 {: .tab-titulo }
@@ -179,7 +261,7 @@ trinta e dois quadrados, e três deles não cabem em volta de uma pessoa sem que
 | **22–25** | 19 | +8 | 16 | 9 | +4 |
 | **26–30** | 20 | +10 | 18 | 10 | +4 |
 
-*Estas cinco valem para toda categoria. Elas sobem em marco de nível, e as duas escadas não coincidem.*
+*Estas cinco valem para toda célula. Elas sobem em marco de nível, e a vida e o golpe sobem em faixa de Classe.*
 
 <!-- FIM TABELAS -->
 
@@ -191,40 +273,42 @@ trinta e dois quadrados, e três deles não cabem em volta de uma pessoa sem que
 
 *A mulher que aparece com uma criança no colo, e pede que você segure ela.*
 
-Um grupo de nível 10 precisa dos quatro para derrubar isto, e quem monta quer um bicho que
-aguenta apanhar. Isso são três escolhas, e cada uma tem uma linha de tabela.
+Um grupo de quatro, de nível 10, vai enfrentar uma luta moderada, e quem monta quer um bicho que
+aguenta apanhar. Isso são quatro escolhas, e cada uma tem uma linha de tabela.
 
-**Passo 1 — a categoria.** Quatro pessoas é `Desastre`. A linha do nível 10 dá **vida `390`**, **`3` ações** e golpe **`23 (2d10 + 12)`**, que já traz o `0,923` da `Intervenção`.
+**Passo 1 — a categoria e o N.** Luta moderada para quatro é `Desastre ×4`. A linha do nível 10 dá **vida `390`**, **`4` ações** e golpe **`19 (2d8 + 10)`**.
 
 **Passo 2 — o papel.** Ele apanha de frente, então `Brutamontes`: **vida `× 1,20`** e **Defesa `-2`**. A vida vai a `390 × 1,20` = **`468`**, e a Defesa de `16` para **`14`**.
 
 **Passo 3 — o tamanho.** `Grande`: ocupa `2×2` na grade, alcança `3 m`, e o golpe pega o alvo mais metade em um vizinho. Não custa nada.
+
+**As `Intervenções`.** O `Desastre ×4` abre a porta, e as três se pagam na vida: `468 ÷ 1,0625` = **`440`**. O golpe não muda.
 
 **Os atributos.** No nível 10 são `13` pontos. A Defesa da tabela pede Destreza `4`; a técnica dele declara Força, que é o que a ficção pede.
 
 
 > ### Ubume
 >
-> *Maldição Grande · **Desastre** · **Brutamontes** · nível 10*
+> *Maldição Grande · **Desastre ×4** · **Brutamontes** · nível 10*
 >
 > **Defesa** `14` · **Acerto** `+6` · **CD** `14` · **Refino** `4` *(proteção `+2`)*
 >
-> **Vida** `468` · **Integridade** `234` · **Deslocamento** `9 m`
+> **Vida** `440` · **Integridade** `220` · **Deslocamento** `9 m`
 >
 > **Ações**
 >
-> **Ações Múltiplas.** A Ubume faz três ataques de Garra, ou usa Choro e faz dois ataques de Garra.
+> **Ações Múltiplas.** A Ubume faz quatro ataques de Garra, ou usa Choro e faz três ataques de Garra.
 >
-> **Garra.** *Ataque corpo a corpo:* `+6` para acertar, alcance `3 m`, uma criatura. *Acerto:* `23 (2d10 + 12)` de dano Cortante, e metade desse dano em um vizinho do alvo.
+> **Garra.** *Ataque corpo a corpo:* `+6` para acertar, alcance `3 m`, uma criatura. *Acerto:* `19 (2d8 + 10)` de dano Cortante, e metade desse dano em um vizinho do alvo.
 >
-> **Choro.** *Teste de Resistência Espírito:* CD `14`, cada criatura numa `Esfera` de raio `4,5 m` a partir do corpo dela. *Falha:* `23 (2d10 + 12)` de dano Psíquico. *Sucesso:* metade do dano.
+> **Choro.** *Teste de Resistência Espírito:* CD `14`, cada criatura numa `Esfera` de raio `4,5 m` a partir do corpo dela. *Falha:* `19 (2d8 + 10)` de dano Psíquico. *Sucesso:* metade do dano.
 >
 > **Intervenções**
 >
 > Três por luta, cada uma usada uma vez. Sai no máximo uma por rodada, logo depois do turno de outra criatura. As três seguem o molde do capítulo 5.
 
 
-O orçamento de uma ação dele é `23 ÷ 4,5` = **`5,1` pontos**, que bate com a linha do `Desastre` na `Orçamento de uma ação, por categoria`.
+O orçamento de uma ação dele é `19 ÷ 4,5` = **`4,2` pontos**, que bate com a linha do `Desastre` na `Orçamento de uma ação, por categoria`.
 
 <!-- FIM EXEMPLO -->
 
@@ -242,7 +326,7 @@ dos dois lados da mesa.
 cobra a área em ponto de feitiço.
 
 Abaixo de `3` pontos a ação não monta feitiço. Ela bate, e o dano sai como a
-`Vida e golpe por faixa` manda. Veja *Bloco seco*, no capítulo 5.
+`Golpe por faixa` manda. Veja *Bloco seco*, no capítulo 5.
 
 <!-- ORCAMENTO -->
 
@@ -253,24 +337,22 @@ Abaixo de `3` pontos a ação não monta feitiço. Ela bate, e o dano sai como a
 |---|---|---|---|---|---|
 | `2` | seco | seco | seco | seco | seco |
 | `5` | seco | seco | seco | seco | seco |
-| `10` | `4,2` | `4,2` | `5,1` | `4,6` | `5,1` |
-| `15` | `6,2` | `6,2` | `7,6` | `6,9` | `7,7` |
-| `20` | `8,2` | `8,2` | `10,1` | `9,1` | `10,1` |
-| `25` | `10,2` | `10,2` | `12,4` | `11,3` | `12,4` |
-| `30` | `12,2` | `12,2` | `14,9` | `13,4` | `14,9` |
+| `10` | seco | `3,8` | `4,2` | `4,9` | `5,1` |
+| `15` | `3,1` | `5,8` | `6,2` | `7,1` | `7,6` |
+| `20` | `4,2` | `7,6` | `8,4` | `9,3` | `10,0` |
+| `25` | `5,3` | `9,6` | `10,4` | `11,8` | `12,7` |
+| `30` | `6,2` | `11,3` | `12,4` | `14,2` | `15,1` |
 
-*As colunas de quem tem `Intervenção` já levam o `0,923`.*
-
-O que cabe na maior ação do sistema, a de `14,9` pontos:
+O que cabe na maior ação do sistema, a de `15,1` pontos:
 
 **Condição na maior ação**
 {: .tab-titulo }
 
 | se ele comprar | custa | sobra para dado |
 |---|---|---|
-| uma condição `Leve` | `4` | `10,9` |
-| uma condição `Média` | `7` | `7,9` |
-| uma condição `Pesada` | `11` | `3,9` |
+| uma condição `Leve` | `4` | `11,1` |
+| uma condição `Média` | `7` | `8,1` |
+| uma condição `Pesada` | `11` | `4,1` |
 
 <!-- FIM ORCAMENTO -->
 

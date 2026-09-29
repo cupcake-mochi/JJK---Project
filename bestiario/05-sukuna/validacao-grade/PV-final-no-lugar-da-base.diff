@@ -1,0 +1,11 @@
+--- bestiario/05-sukuna/montar-sukuna-grade.js
++++ bestiario/05-sukuna/montar-sukuna-grade.js
+@@ -50,7 +50,7 @@
+ const modes=[['normal',0],['Extensão',custoExt],['Regravação',custoReg],['ambas',custoExt+custoReg]].map(([nome,custo])=>{
+  const hit=C.arred((quota-custo)/n);return {nome,custo,cota:quota-custo,golpe:hit,dados:C.dado(hit),tecnica:especial(hit)};
+ });
+-const S={nivel,n,categoria:dg[0],rodadas:L,atributos,refino,defesa,acerto:atributos.Essência+C.maestria(nivel),acertoCorpo:atributos.Força+C.maestria(nivel),cd:derivadas[3],base,fatores,pv,integridade:Math.floor(pv/2),golpe,dados:C.dado(golpe),curaAcao:Math.floor(base/L/n),braco:Math.floor(base/L*2/n),curaReacao,circDados,maiorClasse,cambio,custoExt,custoReg,quota,marcas:Math.floor(atributos.Inteligência/2)+Math.floor(C.maestria(nivel)/2),especial:especial(golpe),chama:recarga(golpe*multRec),intervencao:{media:C.arred(golpe*C.X.INTERVENCAO_EXTRA),dados:C.dado(C.arred(golpe*C.X.INTERVENCAO_EXTRA))},modos:modes};
++const S={nivel,n,categoria:dg[0],rodadas:L,atributos,refino,defesa,acerto:atributos.Essência+C.maestria(nivel),acertoCorpo:atributos.Força+C.maestria(nivel),cd:derivadas[3],base,fatores,pv,integridade:Math.floor(pv/2),golpe,dados:C.dado(golpe),curaAcao:Math.floor(pv/L/n),braco:Math.floor(base/L*2/n),curaReacao,circDados,maiorClasse,cambio,custoExt,custoReg,quota,marcas:Math.floor(atributos.Inteligência/2)+Math.floor(C.maestria(nivel)/2),especial:especial(golpe),chama:recarga(golpe*multRec),intervencao:{media:C.arred(golpe*C.X.INTERVENCAO_EXTRA),dados:C.dado(C.arred(golpe*C.X.INTERVENCAO_EXTRA))},modos:modes};
+ // Prova construtiva da distribuição: não é uma ficha nova de jogador.
+ const criacao=[2,2,1,2,3], livres=[[4],[4,4],[1],[3],[2],[3],[3]], rei=[0,1,2,1,0];
+ const final=criacao.map((v,i)=>v+livres.flat().filter(x=>x===i).length+rei[i]);

@@ -1,0 +1,11 @@
+--- bestiario/05-sukuna/montar-sukuna-grade.js
++++ bestiario/05-sukuna/montar-sukuna-grade.js
+@@ -36,7 +36,7 @@
+ assert(Math.abs(reconstruido-base)<=0.5000001*fatores.dominio*fatores.recarga*fatores.circulacao*fatores.intervencao/(fatores.papel*fatores.defesa),"PV não recompõem a célula dentro do arredondamento");
+ const quota=n*golpe, custoExt=Math.ceil(multExt*maiorClasse)*cambio+maiorClasse*cambio/L, custoReg=circDados*cambio;
+ const especial=(strike)=>{
+- const budget=strike/perSpell, cl=cls.filter(x=>x[2]<=budget).at(-1);
++ const budget=strike/perSpell, cl=cls.filter(x=>x[2]<=budget && x[0]<=4).at(-1);
+  if(!cl) return {orcamento:budget,classe:null};
+  assert(!cls.some(x=>x[0]>cl[0] && x[2]<=budget),'Não foi usada a maior Classe que cabe');
+  return {orcamento:budget,classe:cl[0],leve:cl[3],media:cl[4],pesada:cl[5],clivarDados:Math.floor(budget-cl[5]+cl[4]),teiaDados:Math.floor(budget-2*cl[3])};

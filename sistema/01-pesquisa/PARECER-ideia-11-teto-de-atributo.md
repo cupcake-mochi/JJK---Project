@@ -1,5 +1,7 @@
 # Parecer · ideia 11 — o teto de atributo e o incentivo da rota `Corpo`
 
+> **Decisão do Mizuki em 27/09/2026, na v0.278: "A" — fechar sem mudar nada, como o veredito abaixo recomenda.** *O conserto barato fica guardado para se o playtest mostrar a rota `Corpo` fraca.*
+
 **Pedido do Mizuki em 22/09/2026: validar o quão interessante a ideia é, incluindo as duas
 vertentes. NÃO aplicar.** Nada aqui foi para o repositório, e nenhum número do sistema se moveu.
 

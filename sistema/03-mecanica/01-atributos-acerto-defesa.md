@@ -202,34 +202,27 @@ Perícia              = d20 + atributo + maestria   (a maestria só entra se tre
 
 **A soma de vida e PE fica praticamente igual nos cinco:** 11 no Bastião e 10 nos outros quatro. É isso que faz a troca "couro contra combustível" ser escolha de sabor em vez de degrau de poder.
 
-### Por que a média dá 5, e não 8
+### A vida média dos quatro Caminhos jogáveis
 
-O manual calibra vida de chefe, dano de chefe e dano de capanga em cima de **8 de vida por nível**. A média dos cinco Caminhos aqui é 5 — e é assim que tem que ser.
+***Decisão do Mizuki, 28/09/2026:*** "remove, porque não temos evocador". O Evocador permanece como registro na tabela acima e fica fora da média usada para calibrar os inimigos.
 
-O 8 do manual é a vida **total** por nível, sem atributo nenhum, porque quando ele foi escrito não existia Constituição na conta. Com Constituição entrando, a comparação certa é:
+**Caminhos da média:** Bastião, Vanguarda, Guia e Emanador. Cada um tem o mesmo peso. **Constituição típica: 3.** A vida de cada Caminho continua seguindo a fórmula desta seção.
 
-| | média dos dados | mais a Constituição típica (3) | o manual supõe |
-|---|---|---|---|
-| dados somando 8 | 8 | **11** | 8 |
-| **dados somando 5** | 5 | **8** | 8 |
+A média da vida inicial, antes da Constituição, é `8,5`; a do ganho por nível é `5,25`. Com Constituição, a referência é **`11,5 + 8,25 × (nível − 1)` pontos de vida**.
 
-Uma versão anterior deste documento usava dados que somavam 8 e conferia isso contra o 8 do manual. Estava errado: com Constituição por cima, o grupo ficava com **38% de vida a mais** do que a tabela de encontro supõe, e o combate durava 4,7 rodadas onde o manual promete 3,5.
+O dano total por rodada do chefe de referência é **90% dessa média**, arredondado ao inteiro mais próximo, com empate para baixo. A tabela de inimigos do manual publica o resultado nos sete níveis de referência. A vida do inimigo continua saindo do dano do grupo; retirar o Evocador desta média não aumenta a vida do inimigo.
 
-**A trava certa é: média dos dados + 3 de Constituição ≈ 8.** É ela que faz a tabela de encontro do manual valer para um grupo típico, e ela não se moveu na v0.201.
+A curva genérica `20 + 8 × (nível − 1)` permanece nos exemplos antigos do Fundamento e não é a média dos Caminhos jogáveis. A antiga média dos cinco Caminhos era `11 + 8 × (nível − 1)`; ela deixa de calibrar o dano dos inimigos nesta edição.
 
-Por Caminho, com Constituição 3, rodadas para cair sob foco:
+Por Caminho, com Constituição 3, rodadas para cair sob o dano total da linha do chefe:
 
 | | nv 2 | nv 10 | nv 20 | nv 30 |
 |---|---|---|---|---|
-| Bastião | 1,6 | 1,4 | 1,4 | 1,4 |
-| Vanguarda · Guia | 1,2 | 1,1 | 1,1 | 1,1 |
-| Evocador · Emanador | 1,0 | 1,0 | 1,0 | 1,0 |
+| Bastião | 1,4 | 1,4 | 1,4 | 1,3 |
+| Vanguarda · Guia | 1,1 | 1,1 | 1,1 | 1,1 |
+| Emanador | 0,9 | 0,9 | 0,9 | 0,9 |
 
-A curva é plana do nível 2 ao 30 em todos os cinco, que é o que se quer: o mestre nunca precisa saber o nível para estimar quanto tempo alguém aguenta.
-
-> **⚠⚠ Esta tabela dizia `2,7` a `4,2` até a v0.200, e o que mudou não foi a vida.** *A tabela de inimigo do manual triplicou o dano do chefe naquela versão, medida contra o `Guia do Mestre` de 2014 e contra o chefe solo do Pathfinder 2e — nos dois, o chefe entrega perto de `90%` da vida de um personagem por rodada.* **Nenhuma linha desta seção mudou de número: o que mudou foi contra quem elas são lidas.**
->
-> **E é isso que a v0.201 existiu para fazer.** *Sob fogo concentrado a ficha média cai em pouco mais de uma rodada, e numa luta de três o chefe derruba `2,70` pessoas se quiser* — **contra `1,09` na linha antiga, que era o chefe derrubando exatamente uma pessoa no último segundo.**
+A conta usa dano por rodada e não simula acerto, cura ou ordem de iniciativa. Ela confere a calibração e não comprova equilíbrio em mesa.
 
 ### Vida é a única alavanca que a trava do Caminho deixa aberta
 
@@ -526,14 +519,14 @@ Nenhum conjunto contém o outro, pelo teste da peça 3. Com cura sobrando no gru
 
 | nível | vida média, Constituição 3 | `20%` dela | o Bastião | `20%` dele | a maior cura publicada |
 |---|---|---|---|---|---|
-| `10` | `83` | `17` | `105` | `21` | `27` |
-| `20` | `163` | `33` | `205` | `41` | `45` |
-| `26` | `211` | `42` | `265` | `53` | `45` |
-| `30` | `243` | `49` | `305` | `61` | `45` |
+| `10` | `86` | `17` | `105` | `21` | `27` |
+| `20` | `168` | `34` | `205` | `41` | `45` |
+| `26` | `218` | `44` | `265` | `53` | `45` |
+| `30` | `251` | `50` | `305` | `61` | `45` |
 
 **Do nível 26 em diante a cura comum não alcança o Bastião, e no 30 ela não alcança ninguém.** *Quem fecha isso é o `Levanta`, e é por isso que ele entra na regra com todas as letras em vez de ficar só no catálogo de Melhorias.*
 
-**O dano que entra a 0 tem dois freios, e eles se cruzam.** *No `Aguentar`, cada dano custa uma rodada da janela: três danos fecham ela mesmo sem Sequela, e quem tem duas Sequelas perde a janela no primeiro.* **O acumulado em negativo fecha os dois estados em `1,8` a `2,4` golpes de chefe**, *pela banda de `21%` a `28%` da vida que a peça 26 §6.5 publica.*
+**O dano que entra a 0 tem dois freios, e eles se cruzam.** *No `Aguentar`, cada dano custa uma rodada da janela: três danos fecham ela mesmo sem Sequela, e quem tem duas Sequelas perde a janela no primeiro.* **O acumulado em negativo fecha os dois estados em `1,8` a `2,5` golpes de chefe**, *pela banda de `20%` a `28%` da vida que a peça 26 §6.5 publica.*
 
 **E o custo do `Insistir` fica fora do acumulado de propósito.** *Ele já cobra na vida máxima, e somar os dois derrubaria quase toda ficha na segunda rodada — o que apagaria as três rodadas que o `Insistir` existe para comprar.*
 

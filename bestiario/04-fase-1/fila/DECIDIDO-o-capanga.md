@@ -13,9 +13,11 @@
 
 ***Decisão do Mizuki, 10/09/2026:*** *a saída `1` — o medido, arredondado.*
 
-> ### A banda do `o golpe` vira **`21%`–`28%`**.
+> ### A banda do `o golpe` vira **`20%`–`28%`**.
 > ⚠ *Esta linha é a ÂNCORA. Os scripts leem a banda daqui — não da `DECIDIDO-a-fila-barata`, que
 > ficou como registro.*
+>
+> ***Refeita na v0.282, com a grade da fase 2 do bestiário:*** *a banda é "o medido, arredondado", e os golpes dos chefes da grade vão de `20,1%` (`Ameaça`, nível 30) a `27,7%` (`Calamidade`, nível 5) — era `21%`–`28%` na escada. O golpe do `Capanga` da grade é meio golpe-base e fica fora da banda, que passou a vigiar só os chefes (`bestiario/09-fase-2/decisoes-fase-2.md` §10).*
 
 **O medido, varrido em `29` níveis × `5` categorias:** `21,8%` (`Ameaça` nv2) a `27,7%`
 (`Desastre`, todo nível).
