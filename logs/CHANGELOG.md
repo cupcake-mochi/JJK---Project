@@ -8,6 +8,18 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.290] — 29/09/2026
+
+**As Invocações ganharam o §49: o campo não reparte capacidade entre as entidades; cada uma tem a própria ficha, e o que limita quantas cabem é um teto de corpos.** *A r5 dava a cada corpo a própria básica e o próprio Movimento e não dizia quantos corpos cabem, e a base consolidada de 23/09 tinha deixado em aberto o limite e o "peso" de cada entidade.* **A recomendação era a A — uma capacidade do conjunto repartida por pesos —, e o Mizuki achou o buraco dela:** *"se 200 de vida é a capacidade total do invocador, uma invocação de 200 de vida sobrevive bem no final do jogo, mas 4 de 50 não"*, e cada entidade deveria ter o próprio kit. **Resposta: "Se achar que é sim possível a gente fazer a B, vamos por ela, mas teremos de tomar cuidado".** A leitura que respondeu à condição: a tabela que acompanhou a pergunta tratava a A como divisão reta, e essa é a versão que quebra no fim de jogo, porque o que ameaça a entidade não se divide junto; e a B pesa menos do que parecia, porque a r5 já faz toda especial ativa custar a Padrão do invocador e ocupar a básica da entidade, a Reação coletiva é uma, e o kit próprio já era regra. O que cresce com os corpos é a básica, o Movimento, a vida somada e as passivas. O número do teto, a ficha da entidade pelo nível e o preço de cada corpo continuam pendentes, e o critério do Mizuki — a entidade de quem leva quatro continua viva no fim de jogo — virou teste de qualquer número.
+
+**Adicionado:** o §49 em `invocacoes/DECISOES-A-PARTIR-DO-46.md`, no formato dos anteriores.
+
+**Alterado:** o `invocacoes/LEIA-ME.md`, a fila do `sistema/ESTADO-ATUAL.md` e o `PROMPT-continuar.md` registram o §49, a ordem de focar nas Invocações até terminar ("temos q terminar tudo de invocação") e a pergunta que espera o Mizuki: quantas básicas cada corpo tem, agora que elas multiplicam com o teto. O item 13 da fila ganhou a vírgula que faltava entre o §46 e o §47. No lote de desenvolvimento, que continua no HD, a candidata foi à revisão 9, o modelo da bancada ganhou o teto como número de teste, e o lote de teste do §49 tem 13 verificações. **Nenhuma regra do livro mudou, e nenhum validador.**
+
+**Validação:** bateria de 31 de 31, com PULADA zero.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: a pergunta de quantas básicas cada corpo tem espera o Mizuki.
+
 ## [0.289] — 29/09/2026
 
 **As Invocações ganharam o §48: quando o invocador morre, as entidades saem de campo na hora.** *O §47 parou na inconsciência, a r5 §6.6 não decide a morte do invocador, e o sistema não tem estado mecânico de morte além do estágio 4 de dano de alma.* **Resposta do Mizuki: "e a escolha é A".** No estágio 4 — pelo dano acumulado acima de metade da vida máxima ou pelo fim da janela do `Aguentar` sem socorro —, ou na morte que a narrativa decidir, as entidades saem pelas regras de saída do §46: a ordem antecipada e a preparação se encerram sem devolução, e a que o vínculo não deixa recolher fica no lugar, `Desligada`. Enquanto a janela do `Aguentar` está aberta, vale o §47, e esse é o tempo que o conjunto tem para salvar o dono. A morte do invocador não é substituição. O destino duradouro das entidades de um invocador morto continua pendente, candidato a depender do vínculo, como o §46 deixou para a queda.

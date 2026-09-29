@@ -127,3 +127,62 @@ Recomendada a (A).
 **[E] Nenhuma decisão anterior foi reaberta.** A regra usa a saída de campo do §46 e começa onde o §47 parou.
 
 **Onde a conta mora:** no mesmo lote de desenvolvimento do §47, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 8, e o lote de teste do §48 tem 11 verificações, à parte das outras.*
+
+---
+
+## 49. O que cabe em campo — decisão de Mizuki, 29/09/2026
+
+**O caso que abriu a pergunta:** um invocador leva uma entidade grande, a fantasia singular; outro leva quatro pequenas e diferentes, a de múltiplas. A r5 §§1 e 2 dá a cada corpo a própria básica e o próprio Movimento e deixa pendentes a quantidade final de básicas e o limite de corpos; a base consolidada de 23/09 deixou em aberto o limite e o "peso" de cada entidade. Como cada corpo age sozinho, o número de corpos virou a maior alavanca de ações por rodada, e nenhum número de dano ou PV fazia sentido sem saber o que limita o campo.
+
+**As opções, com a conta da bancada** (E5, uma básica por corpo, que é dado de teste):
+
+1. **(A)** capacidade do conjunto: cada entidade tem um peso, a soma dos pesos em campo não passa da capacidade do invocador, e um teto de corpos segura a mesa. O total não cresce com os corpos.
+2. **(B)** teto de corpos, cada corpo com o próprio poder: com quatro corpos o conjunto rende quatro vezes o de um, e o equilíbrio fica no preço de cada corpo.
+
+Recomendada a (A).
+
+**Resposta autoral:**
+
+> Meu plano era A mesmo, aonde um jogador tem uma quantidade "X" que é a capacidade dele que pode ser dividia entre as invocações. Mas ai temos um problema
+>
+> Se uma invocação pega a capacidade toda, ela tem uma ficha normal
+>
+> Se 4 dividem essa capacidade, existe boas chances delas serem extremamente fracas
+>
+> Como por exemplo, se 200 de vida é a capacidade total do invocador, uma invocação de 200 de vida sobrevive bem no final do jogo, mas 4 de 50 não
+>
+> Alem do fator que o interesssante seria que as invocações, cada um tivesse seu kit, n q fossem genericas
+>
+> oq vc sugere ser feito? eu sinto q a B é mais divertida e interessante, além de fazer mais sentido com o "mundo jujutsu", mas seu balanceamento pode acabar sendo custoso. Se achar que é sim possível a gente fazer a B, vamos por ela, mas teremos de tomar cuidado
+
+**A leitura que respondeu à condição dele:** a B é possível. A tabela do E5 tratava a A como divisão reta, cada corpo com 1/4 da ficha, e essa é justamente a versão que quebra no fim de jogo, porque o que ameaça a entidade não se divide junto. E a B pesa menos do que a tabela fazia parecer, porque a r5 já segura a parte mais perigosa: toda especial ativa custa a Padrão do invocador e ocupa a básica da entidade (§5), e a Reação coletiva é uma (§§2 e 6.8).
+
+### Aprovado
+
+**[D] O campo não reparte uma capacidade entre as entidades.** Cada entidade em campo tem a própria ficha, que não encolhe com o número de corpos, e o que limita quantas cabem ao mesmo tempo é um teto de corpos.
+
+### Esclarecimentos
+
+**[E] O kit próprio já era regra** (r5 §2: o repertório pode conter kit próprio, inclusive entidades sem ataque). A B só não divide a ficha.
+
+**[E] O que cresce com os corpos e o que não cresce, pela r5.** Cada corpo a mais traz a própria básica e o próprio Movimento (§2), a própria vida e as próprias passivas. A especial ativa continua custando a Padrão do invocador e ocupando a básica da entidade (§5): com quatro corpos há quatro kits para escolher, e a especial por turno continua uma. A Reação coletiva continua uma para todas (§§2 e 6.8). O E5 e o lote do §49 conferem as quatro contas.
+
+**[E] O teto conta corpos em campo.** Uma entrada ou uma troca cujo resultado passe do teto não é legal. Quem sai libera a vaga — pela queda do §46, pelo recolhimento ou pela morte do invocador (§48) —, e quem está na reserva não conta. Quantas entidades o invocador tem no repertório é outra coisa, do construtor.
+
+**[E] A `Desligada` no teto segue o §46:** o que o corpo `Desligada` ocupa no campo ficou pendente, e isso inclui se ele ocupa vaga. No ensaio, a entrada que só cabe se a vaga dela estiver livre é indeterminada.
+
+**[E] O equilíbrio passa para o preço de cada corpo**, que era o risco da B. O "tomar cuidado" vira condição: nenhum número da ficha, do teto ou da entrada vale sem passar pela comparação com os quatro Caminhos na bancada, nos níveis extremos e com o teto cheio.
+
+### Limites preservados
+
+**[P] Não foram decididos:**
+
+- o número do teto de corpos e como ele cresce;
+- a ficha da entidade — PV, acerto, defesa e dano — e como ela acompanha o nível. O critério de Mizuki fica como teste de qualquer número: a entidade de quem leva quatro tem que continuar viva no fim de jogo;
+- a quantidade de básicas por corpo (r5 §1), que na B multiplica com o teto;
+- o preço de cada corpo. Custo e legalidade da entrada continuam na r5 §9.1, e não vale pedágio periódico pela autonomia de ficar em campo (r5 §10); custo particular de uma capacidade continua possível;
+- como a entidade singular vale a escolha. Na B ela não ganha nada automático por estar sozinha; o caminho natural é o investimento poder ir todo nela, e isso é do construtor.
+
+**[E] Nenhuma decisão anterior foi reaberta.** A `Capacidade de Campo` com pesos, das pesquisas, não foi adotada, e o nome perde o objeto. O teto de corpos ainda não tem nome.
+
+**Onde a conta mora:** no mesmo lote de desenvolvimento do §47 e do §48, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 9, o modelo da bancada ganhou o teto como número de teste, e o lote de teste do §49 tem 13 verificações, à parte das outras.*
