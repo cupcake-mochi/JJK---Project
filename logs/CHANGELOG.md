@@ -8,6 +8,18 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.291] — 29/09/2026
+
+**As Invocações ganharam o §50: cada corpo tem uma básica por ciclo, e a quantidade não cresce com o nível.** *A r5 §1 deixava a quantidade final de básicas e a progressão abertas, e o §49 fez essa quantidade multiplicar com o teto de corpos: com o teto cheio de 4 corpos, uma segunda básica por corpo levaria o conjunto de 4 a 8 atuações por ciclo, contra os 2 golpes do Bastião e da Vanguarda depois do ataque extra do nível 7.* **Resposta do Mizuki: "A - Caminhos/Trilhas a gente talvez aumente, mas mantenha um".** A entidade cresce pela ficha, e o conjunto pelo teto; a trava de rotação, a transferência de no máximo uma e a especial que ocupa a básica ficam como estão. A básica por corpo era hipótese da bancada desde a v0.2 e virou regra. Um aumento vindo de Caminho ou Trilha ficou pendente, com a leitura registrada para ele vetar: um Caminho ou uma Trilha pode, no futuro, dar mais básicas à entidade, e nada concede isso hoje.
+
+**Adicionado:** o §50 em `invocacoes/DECISOES-A-PARTIR-DO-46.md`, no formato dos anteriores.
+
+**Alterado:** o `invocacoes/LEIA-ME.md`, a fila do `sistema/ESTADO-ATUAL.md` e o `PROMPT-continuar.md` registram o §50 e a pergunta que espera o Mizuki: quantas entidades uma Bônus de redirecionamento alcança, o X da r5 §4. No lote de desenvolvimento, que continua no HD, a candidata foi à revisão 10 e o lote de teste do §50 tem 5 verificações. **Nenhuma regra do livro mudou, e nenhum validador.**
+
+**Validação:** bateria de 31 de 31, com PULADA zero.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: a pergunta do X espera o Mizuki.
+
 ## [0.290] — 29/09/2026
 
 **As Invocações ganharam o §49: o campo não reparte capacidade entre as entidades; cada uma tem a própria ficha, e o que limita quantas cabem é um teto de corpos.** *A r5 dava a cada corpo a própria básica e o próprio Movimento e não dizia quantos corpos cabem, e a base consolidada de 23/09 tinha deixado em aberto o limite e o "peso" de cada entidade.* **A recomendação era a A — uma capacidade do conjunto repartida por pesos —, e o Mizuki achou o buraco dela:** *"se 200 de vida é a capacidade total do invocador, uma invocação de 200 de vida sobrevive bem no final do jogo, mas 4 de 50 não"*, e cada entidade deveria ter o próprio kit. **Resposta: "Se achar que é sim possível a gente fazer a B, vamos por ela, mas teremos de tomar cuidado".** A leitura que respondeu à condição: a tabela que acompanhou a pergunta tratava a A como divisão reta, e essa é a versão que quebra no fim de jogo, porque o que ameaça a entidade não se divide junto; e a B pesa menos do que parecia, porque a r5 já faz toda especial ativa custar a Padrão do invocador e ocupar a básica da entidade, a Reação coletiva é uma, e o kit próprio já era regra. O que cresce com os corpos é a básica, o Movimento, a vida somada e as passivas. O número do teto, a ficha da entidade pelo nível e o preço de cada corpo continuam pendentes, e o critério do Mizuki — a entidade de quem leva quatro continua viva no fim de jogo — virou teste de qualquer número.

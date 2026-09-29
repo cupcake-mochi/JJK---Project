@@ -186,3 +186,41 @@ Recomendada a (A).
 **[E] Nenhuma decisão anterior foi reaberta.** A `Capacidade de Campo` com pesos, das pesquisas, não foi adotada, e o nome perde o objeto. O teto de corpos ainda não tem nome.
 
 **Onde a conta mora:** no mesmo lote de desenvolvimento do §47 e do §48, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 9, o modelo da bancada ganhou o teto como número de teste, e o lote de teste do §49 tem 13 verificações, à parte das outras.*
+
+---
+
+## 50. Quantas básicas cada corpo tem — decisão de Mizuki, 29/09/2026
+
+**O caso que abriu a pergunta:** nível 30, o invocador com o teto cheio — 4 corpos, número de teste. No nível 7 o Bastião e a Vanguarda ganham o ataque extra, um golpe simples a mais por rodada (peça 6 §3.1). Se cada entidade também ganhasse uma segunda básica em algum degrau, o conjunto passaria de 4 para 8 atuações por ciclo. A r5 §1 deixava a quantidade final de básicas e a progressão abertas, e o §49 fez essa quantidade multiplicar com o teto.
+
+**As opções, com a conta da bancada** (E6, depois do degrau, de 1 a 4 corpos):
+
+1. **(A)** uma básica por corpo por ciclo, sempre: 1, 2, 3 e 4. A entidade cresce pela ficha, e o conjunto pelo teto; nenhuma regra da r5 muda.
+2. **(B)** a básica por corpo cresce com o nível, como o ataque extra: 2, 4, 6 e 8. Pede compatibilizar três regras da r5 — especial e básica no mesmo corpo no ciclo, quanto passa numa troca, e a trava de rotação.
+3. **(C)** só a entidade sozinha em campo ganha a segunda: 2, 2, 3 e 4. Põe a vantagem da fantasia singular na estrutura, pede a mesma compatibilização só para ela e cria um salto: o segundo corpo não soma básica.
+
+Recomendada a (A).
+
+**Resposta autoral:**
+
+> A - Caminhos/Trilhas a gente talvez aumente, mas mantenha um
+
+### Aprovado
+
+**[D] Cada corpo tem uma básica por ciclo.** A quantidade não cresce com o nível: a entidade cresce pela ficha, e o conjunto cresce pelo teto de corpos do §49.
+
+### Esclarecimentos
+
+**[E] A fixture virou regra.** Uma básica por corpo por ciclo era hipótese da bancada desde a v0.2, e a r5 §1 dizia que ela não virava número final; o §50 a fixa. Nenhum resultado dos testes muda, e a trava de rotação, a transferência de no máximo uma (§9.2) e a especial que ocupa a básica (§5) ficam como estão.
+
+**[E] O ataque extra dos Caminhos continua sendo do personagem.** O §50 trata só da básica de cada entidade.
+
+**[E] A entidade singular continua dependendo da ficha.** Sozinha em campo, ela age uma vez por ciclo, e o que ela vale a mais sai do investimento nela, que o §49 já tinha mandado para o construtor.
+
+### Limites preservados
+
+**[P] Um aumento vindo de Caminho ou Trilha ficou em aberto** ("Caminhos/Trilhas a gente talvez aumente"). Nada concede isso hoje. A leitura registrada, para Mizuki vetar se discordar: um Caminho ou uma Trilha pode, no futuro, dar mais básicas à entidade. Se vier, é concessão expressa, com preço que conte o teto de corpos, e exige a compatibilização que a r5 §1 já cobrava.
+
+**[E] Nenhuma decisão anterior foi reaberta.** O §50 fecha o que a r5 §1 deixava em aberto, e a adaptação do `Atordoado` (r5 §7) — "se uma futura ficha tiver várias atuações, perde uma" — continua valendo para um aumento futuro.
+
+**Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 49, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 10, a básica por corpo saiu das hipóteses da bancada e passou às decisões, e o lote de teste do §50 tem 5 verificações, à parte das outras.*
