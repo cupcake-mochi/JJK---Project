@@ -47,3 +47,43 @@ As marcas são as da r5: **[D]** decisão autoral, **[E]** esclarecimento (conse
 **[E] Nenhuma decisão anterior foi reaberta.** A regra usa só a saída de campo da r5 e a equivalência do §22.
 
 **O nome passou pela triagem:** `Desligada` e `Desligado` saem `LIVRE` no `conferir-nomes.py`. *A colisão de sentido que a triagem não pega fica anotada: `Desliga` é um dos tipos de Legado da peça 13 ("uma coisa deixa de te acontecer"). São categorias diferentes — um tipo de Legado e um estado de invocação —, e o risco de confusão é baixo.*
+
+---
+
+## 47. Sustentação com o invocador apagado — decisão de Mizuki, 28/09/2026
+
+**O caso que abriu a pergunta:** o invocador cai a 0 PV com duas entidades em campo, uma delas com ordem antecipada pendente, e escolhe `Aguentar` — apaga, com janela de 3 rodadas. A r5 §10 e a §6.6 diziam o que a entidade faz *se* continuar sustentada, e nenhuma decisão dizia se o invocador apagar derruba a sustentação. Cinco verificações da bancada rodavam com a sustentação como premissa.
+
+**As opções, com a conta da bancada** (uma básica por corpo, que é dado de teste):
+
+1. **(A)** a sustentação continua, e a r5 §10 vale inteira: com 1, 2 e 3 corpos, 3, 6 e 9 básicas na janela, sem comando nenhum, mais a coletiva, e a antecipada sai com o PE dele. Um personagem dos quatro Caminhos apagado faz 0.
+2. **(B)** depende do vínculo: a ficha declara se a sustentação exige o invocador consciente.
+3. **(C)** as entidades saem de campo quando ele apaga, pelas regras de saída do §46: 0 básicas, igual aos quatro Caminhos, e o §6.6 e o §10 perdem o caso de uso.
+
+Recomendada a (A).
+
+**Resposta autoral:**
+
+> Continua A
+
+### Aprovado
+
+**[D] O invocador apagado não derruba a sustentação.** A entidade em campo continua existindo e funcionando: segue a rotina básica, o Movimento e as respostas autônomas pela intenção que tinha, e cumpre as ordens recebidas antes, pela r5 §§6.6 e 10, sem comando novo.
+
+### Esclarecimentos
+
+**[E] Apagado é o `Inconsciente` da regra geral** — cair a 0 de vida, pela tabela de condições do capítulo 4 —, no `Aguentar` e depois que o `Insistir` desaba. No `Insistir` de pé o invocador age normalmente, e a pergunta nem se coloca. Dormir não é esse estado.
+
+**[E] O resto do que a r5 dizia sobre o invocador apagado continua igual.** Ele não emite comando, não ajusta nem cancela ordem, não dá orientação depois do resultado e não cede ações; a ordem prévia só gasta o PE dele para a especial já ordenada (§6.6); e a escolha entre respostas que disputam a coletiva continua do jogador, só entre as já autorizadas (§6.8).
+
+**[E] Quando ele levanta, nada precisa ser refeito:** as entidades estão onde estavam, com os saldos do ciclo, e ele volta a comandar pelas regras de sempre.
+
+**[E] A entidade que cai enquanto ele está apagado segue o §46.**
+
+### Limites preservados
+
+**[P] Não foram decididos:** a morte do invocador — e o fim da janela do `Aguentar` sem socorro, o estágio 4 de dano de alma —; outra perda de sustentação ou de vínculo; e quem paga, com ele apagado, um custo de manutenção que venha a existir, porque a r5 §10 não elimina "custos particulares de duração, manifestação, manutenção e capacidades" e o §6.6 só abre o PE dele para a especial já ordenada.
+
+**[E] Nenhuma decisão anterior foi reaberta.** A regra só cumpre a condição que a r5 §10 já deixava escrita.
+
+**Onde a conta mora:** no primeiro lote de desenvolvimento depois do §46, que fica fora deste repositório, no HD, por decisão do Mizuki ("fica no hd por enquanto"): `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *Lá estão a candidata na revisão 7, que já integra o §46 e este §47, a bancada paramétrica e os lotes de teste, contados à parte das 212 verificações da r5.*

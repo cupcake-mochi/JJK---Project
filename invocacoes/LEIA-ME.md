@@ -25,9 +25,11 @@ O desenvolvimento foi feito fora desta pasta, num chat que não a via, e voltou 
 
 ## Onde o trabalho parou
 
-**O §46 fechou na v0.275, e mora em `DECISOES-A-PARTIR-DO-46.md`, ao lado do pacote** — *o `03-INVOCACOES/` continua como chegou.* A zero PV a invocação para de atuar e sai de campo, pelas regras de saída que a r5 já tinha: a ordem pendente e a preparação se encerram, sem devolução, e a queda não é substituição. A que o vínculo não deixa recolher fica no lugar, `Desligada`. **Morte definitiva, volta, cura e preço continuam pendentes**, candidatos a depender do vínculo.
+**O §47 fechou na v0.288, e mora em `DECISOES-A-PARTIR-DO-46.md`, junto com o §46** — *o `03-INVOCACOES/` continua como chegou.* O invocador apagado não derruba a sustentação: a entidade segue a rotina, o Movimento e as respostas pela intenção que tinha, e cumpre as ordens recebidas antes, sem comando novo ("Continua A"). **O §46, da v0.275, continua como estava:** a zero PV a invocação para de atuar e sai de campo, pelas regras de saída da r5, e a que o vínculo não deixa recolher fica no lugar, `Desligada`.
 
-*Até a v0.274 este parágrafo dizia que a recomendação esperava o Mizuki e que não havia §46.* A próxima revisão da candidata integra o §46 ao texto dela; até lá, a r5 é a leitura corrente, com esta folha ao lado.
+**O primeiro lote de desenvolvimento depois do §46 foi feito fora desta pasta, e fica no HD** ("fica no hd por enquanto"), em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`: a candidata na revisão 7, que já integra o §46 e o §47; os testes do §46 e do §47, à parte das 212 verificações da r5, que continuam passando; e a bancada paramétrica. **A pergunta que espera o Mizuki é a morte do invocador**, no estágio 4 de dano de alma. Morte definitiva, volta, cura e preço continuam pendentes, candidatos a depender do vínculo.
+
+*Até a v0.287 este parágrafo parava no §46 e dizia que a próxima revisão da candidata o integraria; a revisão 7, no HD, integrou os dois.*
 
 ## Por que esta pasta fica fora da checagem de referência morta
 

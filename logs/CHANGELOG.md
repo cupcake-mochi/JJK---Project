@@ -8,6 +8,20 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.288] — 29/09/2026
+
+**As Invocações ganharam o §47: o invocador apagado não derruba a sustentação.** *A pergunta saiu do primeiro lote de desenvolvimento depois do §46, feito fora do repositório: a r5 §10 e a §6.6 diziam o que a entidade faz se continuar sustentada, e nenhuma decisão dizia se o invocador apagar derruba a sustentação.* **Resposta do Mizuki: "Continua A".** A entidade segue a rotina, o Movimento e as respostas pela intenção que tinha, e cumpre as ordens recebidas antes, sem comando novo. "Apagado" é o `Inconsciente` da regra geral, no `Aguentar` e depois que o `Insistir` desaba, e o resto do que a r5 dizia sobre o invocador apagado continua igual. Continuam pendentes a morte do invocador, outra perda de sustentação e quem paga, com ele apagado, um custo de manutenção que venha a existir.
+
+**Adicionado:** o §47 em `invocacoes/DECISOES-A-PARTIR-DO-46.md`, no formato do §46 — o caso, as três opções com a conta da bancada, a resposta literal, o aprovado, os esclarecimentos e os limites.
+
+**Alterado:** o `invocacoes/LEIA-ME.md`, a fila do `sistema/ESTADO-ATUAL.md` e o `PROMPT-continuar.md` apontam para o §47 e para o lote de desenvolvimento, que fica no HD por decisão do Mizuki ("fica no hd por enquanto"): a candidata na revisão 7, que integra o §46 e o §47; 53 verificações do §46 e 5 do §47, contadas à parte das 212 da r5, que continuam passando; e a bancada paramétrica, que devolve indeterminado para número de invocação que ainda não existe. **Nenhuma regra do livro mudou, e nenhum validador.**
+
+**O histórico:** as v0.277 a v0.287 entraram no Git num commit só, com a concordância do Mizuki ("se não der problema ser um só, tudo bem por mim"), e a entrega subiu antes como recorte da v0.287, porque a checagem 7.4 reprova recorte duas versões atrás.
+
+**Validação:** bateria de 31 de 31, com PULADA zero.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: a pergunta da morte do invocador espera o Mizuki, descrita no `invocacoes/LEIA-ME.md`; a fila grande segue.
+
 ## [0.287] — 28/09/2026
 
 **Sukuna integrado à grade atual; débito corrente aprovado.** Mizuki: "Pode seguir recomendação. Agora vamos prós planejamentos". Aptidões são cobradas das ações ainda legalmente disponíveis naquela rodada; resoluções passadas não mudam, não existe dívida para o próximo ciclo e, sem cota, não se ativa naquela janela. Isso também restringe a defesa fora do turno após gastar tudo. O procedimento não concede janelas nem conserva ações expiradas.
