@@ -87,3 +87,43 @@ Recomendada a (A).
 **[E] Nenhuma decisão anterior foi reaberta.** A regra só cumpre a condição que a r5 §10 já deixava escrita.
 
 **Onde a conta mora:** no primeiro lote de desenvolvimento depois do §46, que fica fora deste repositório, no HD, por decisão do Mizuki ("fica no hd por enquanto"): `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *Lá estão a candidata na revisão 7, que já integra o §46 e este §47, a bancada paramétrica e os lotes de teste, contados à parte das 212 verificações da r5.*
+
+---
+
+## 48. Morte do invocador — decisão de Mizuki, 29/09/2026
+
+**O caso que abriu a pergunta:** o invocador está apagado no `Aguentar`, com duas entidades em campo seguindo a luta pelo §47, e o inimigo termina o serviço: o dano acumulado passa de metade da vida máxima, e ele chega ao estágio 4 de dano de alma — "você não é mais você — o que sobra é decisão do mestre". A janela de 3 rodadas acabar sem socorro dá no mesmo. O §47 parou na inconsciência, a r5 §6.6 diz que a regra dela "não decide morte do invocador, perda do vínculo", e o sistema não tem estado mecânico de morte além do estágio 4.
+
+**As opções:**
+
+1. **(A)** as entidades saem de campo na hora, pelas regras de saída do §46: ordem e preparação acabam sem devolução, e a que não recolhe fica `Desligada`. 0 básicas depois do estágio 4, igual a um personagem dos quatro Caminhos.
+2. **(B)** continuam até o fim do combate, com a intenção e as ordens que já tinham, sem comando e sem o PE dele, e depois saem. Pede um "fim do combate" que o mestre decide.
+3. **(C)** a ficha do vínculo diz.
+
+Recomendada a (A).
+
+**Resposta autoral:**
+
+> e a escolha é A
+
+### Aprovado
+
+**[D] Quando o invocador morre, as entidades dele saem de campo na hora, pelas regras de saída do §46.** A ordem antecipada e a preparação se encerram sem devolver a Padrão, a básica ou os custos, e a que o vínculo não deixa recolher fica no lugar, `Desligada`.
+
+### Esclarecimentos
+
+**[E] O gatilho é o estágio 4 de dano de alma** — pelo dano acumulado acima de metade da vida máxima ou pelo fim da janela do `Aguentar` sem socorro — **ou a morte que a narrativa decidir.** Se o mestre decidir, no estágio 4, que alguma coisa do personagem continua, isso é narrativa e não devolve as entidades ao campo.
+
+**[E] Enquanto a janela do `Aguentar` está aberta, o §47 vale:** as entidades seguem a luta, e esse é o tempo que o conjunto tem para salvar o dono. O `Insistir` que desaba não é estágio 4 — ele fica apagado, e o §47 vale.
+
+**[E] A morte do invocador não é substituição**, pelo mesmo motivo do §46: nenhuma entidade entra no lugar, e nenhuma básica passa adiante. A entidade que já estava fora de campo continua fora, e a que já tinha caído segue o §46.
+
+### Limites preservados
+
+**[P] O destino duradouro não foi decidido:** se as entidades de um invocador morto somem de vez, ficam livres ou passam a outro dono. É candidato a depender do vínculo, como o §46 deixou para a queda. No ensaio, trazer de volta uma entidade de um invocador morto é indeterminado.
+
+**[P] Continuam pendentes** outra perda de sustentação ou de vínculo, sem morte, e o custo de manutenção com o invocador apagado (§47).
+
+**[E] Nenhuma decisão anterior foi reaberta.** A regra usa a saída de campo do §46 e começa onde o §47 parou.
+
+**Onde a conta mora:** no mesmo lote de desenvolvimento do §47, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 8, e o lote de teste do §48 tem 11 verificações, à parte das outras.*

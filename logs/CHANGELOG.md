@@ -8,6 +8,18 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.289] — 29/09/2026
+
+**As Invocações ganharam o §48: quando o invocador morre, as entidades saem de campo na hora.** *O §47 parou na inconsciência, a r5 §6.6 não decide a morte do invocador, e o sistema não tem estado mecânico de morte além do estágio 4 de dano de alma.* **Resposta do Mizuki: "e a escolha é A".** No estágio 4 — pelo dano acumulado acima de metade da vida máxima ou pelo fim da janela do `Aguentar` sem socorro —, ou na morte que a narrativa decidir, as entidades saem pelas regras de saída do §46: a ordem antecipada e a preparação se encerram sem devolução, e a que o vínculo não deixa recolher fica no lugar, `Desligada`. Enquanto a janela do `Aguentar` está aberta, vale o §47, e esse é o tempo que o conjunto tem para salvar o dono. A morte do invocador não é substituição. O destino duradouro das entidades de um invocador morto continua pendente, candidato a depender do vínculo, como o §46 deixou para a queda.
+
+**Adicionado:** o §48 em `invocacoes/DECISOES-A-PARTIR-DO-46.md`, no formato do §46 e do §47.
+
+**Alterado:** o `invocacoes/LEIA-ME.md`, a fila do `sistema/ESTADO-ATUAL.md` e o `PROMPT-continuar.md` registram o §48 e que não há pergunta de Invocações aberta: o mínimo da `Desligada` e a consequência duradoura da queda esperam o construtor, e o próximo passo é o lote 3 da bancada ou a fila grande, à escolha do Mizuki. No lote de desenvolvimento, que continua no HD, a candidata foi à revisão 8 e o lote de teste do §48 tem 11 verificações; os quatro casos da morte do invocador que eram indeterminados passaram a seguir a regra. **Nenhuma regra do livro mudou, e nenhum validador.**
+
+**Validação:** bateria de 31 de 31, com PULADA zero.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: não há pergunta de Invocações aberta; o Mizuki escolhe entre o lote 3 da bancada e a fila grande.
+
 ## [0.288] — 29/09/2026
 
 **As Invocações ganharam o §47: o invocador apagado não derruba a sustentação.** *A pergunta saiu do primeiro lote de desenvolvimento depois do §46, feito fora do repositório: a r5 §10 e a §6.6 diziam o que a entidade faz se continuar sustentada, e nenhuma decisão dizia se o invocador apagar derruba a sustentação.* **Resposta do Mizuki: "Continua A".** A entidade segue a rotina, o Movimento e as respostas pela intenção que tinha, e cumpre as ordens recebidas antes, sem comando novo. "Apagado" é o `Inconsciente` da regra geral, no `Aguentar` e depois que o `Insistir` desaba, e o resto do que a r5 dizia sobre o invocador apagado continua igual. Continuam pendentes a morte do invocador, outra perda de sustentação e quem paga, com ele apagado, um custo de manutenção que venha a existir.

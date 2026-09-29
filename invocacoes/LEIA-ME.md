@@ -25,11 +25,11 @@ O desenvolvimento foi feito fora desta pasta, num chat que não a via, e voltou 
 
 ## Onde o trabalho parou
 
-**O §47 fechou na v0.288, e mora em `DECISOES-A-PARTIR-DO-46.md`, junto com o §46** — *o `03-INVOCACOES/` continua como chegou.* O invocador apagado não derruba a sustentação: a entidade segue a rotina, o Movimento e as respostas pela intenção que tinha, e cumpre as ordens recebidas antes, sem comando novo ("Continua A"). **O §46, da v0.275, continua como estava:** a zero PV a invocação para de atuar e sai de campo, pelas regras de saída da r5, e a que o vínculo não deixa recolher fica no lugar, `Desligada`.
+**O §48 fechou na v0.289, e mora em `DECISOES-A-PARTIR-DO-46.md`, junto com o §46 e o §47** — *o `03-INVOCACOES/` continua como chegou.* Quando o invocador morre, as entidades dele saem de campo na hora, pelas regras de saída do §46, e a que não recolhe fica `Desligada` ("e a escolha é A"). **O §47, da v0.288:** o invocador apagado não derruba a sustentação — a entidade segue a rotina e cumpre as ordens recebidas antes ("Continua A"). **O §46, da v0.275:** a zero PV a invocação para de atuar e sai de campo, e a que o vínculo não deixa recolher fica no lugar, `Desligada`.
 
-**O primeiro lote de desenvolvimento depois do §46 foi feito fora desta pasta, e fica no HD** ("fica no hd por enquanto"), em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`: a candidata na revisão 7, que já integra o §46 e o §47; os testes do §46 e do §47, à parte das 212 verificações da r5, que continuam passando; e a bancada paramétrica. **A pergunta que espera o Mizuki é a morte do invocador**, no estágio 4 de dano de alma. Morte definitiva, volta, cura e preço continuam pendentes, candidatos a depender do vínculo.
+**O primeiro lote de desenvolvimento depois do §46 foi feito fora desta pasta, e fica no HD** ("fica no hd por enquanto"), em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`: a candidata na revisão 8, que já integra os §§46 a 48; os testes de cada um, à parte das 212 verificações da r5, que continuam passando; e a bancada paramétrica. **Não há pergunta de Invocações aberta:** morte definitiva, volta, cura, preço e o destino das entidades de um invocador morto continuam pendentes, candidatos a depender do vínculo, e esperam o construtor.
 
-*Até a v0.287 este parágrafo parava no §46 e dizia que a próxima revisão da candidata o integraria; a revisão 7, no HD, integrou os dois.*
+*Até a v0.287 este parágrafo parava no §46 e dizia que a próxima revisão da candidata o integraria; a candidata, no HD, integrou os três.*
 
 ## Por que esta pasta fica fora da checagem de referência morta
 
