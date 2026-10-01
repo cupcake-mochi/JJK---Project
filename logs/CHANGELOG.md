@@ -8,6 +8,16 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.314] — 29/09/2026
+
+**As Invocações corrigiram o §71 e ganharam o §72: o espaço de feitiço dá a entidade no nível do invocador, que sobe junto com ele, e a reserva da entidade recupera como o PE do personagem.** *A v0.313 registrou a entidade de espaço no nível 2, subindo se o invocador quisesse.* **A correção do Mizuki: "mude para nivel do invocador e que ela sobe junto do nivel dele, diferente das outras opções tirando ritual q tbm sobe".** *A da lista de ritual também sobe junto; as domadas e as criadas, não. O §59 deixava a recuperação da reserva com o construtor.* **Resposta do Mizuki: "A, evita exploit, pq uma invocação colocada que TENHA energia meio q ela vai ter mais energia do q gastou pra ser invocada".** *Cheia no descanso longo, um quarto no descanso curto; cheia a cada manifestação, recolher e manifestar de novo recarregaria a reserva.*
+
+**Alterado:** o §71 em `invocacoes/DECISOES-A-PARTIR-DO-46.md` ganhou a correção, e o §72 entrou no formato dos anteriores; o `invocacoes/LEIA-ME.md`, a fila do `sistema/ESTADO-ATUAL.md` e o `PROMPT-continuar.md` registram os dois e a pergunta que espera o Mizuki: o que acontece depois que a entidade cai. No lote de desenvolvimento, que continua no HD, a candidata foi à revisão 33. **Nenhuma regra do livro mudou, e nenhum validador.**
+
+**Validação:** bateria de 31 de 31, com PULADA zero, rodada numa cópia com a v0.292 à v0.313 aplicadas; a 7.4, que confere a entrega commitada, só roda no repositório, e o `subir.sh` a roda antes de commitar.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: a pergunta da queda espera o Mizuki.
+
 ## [0.313] — 29/09/2026
 
 **As Invocações ganharam o §71: toda invocação exige uma troca para ser obtida — domar, criar, um feitiço de ritual com uma lista, ou um espaço de feitiço conhecido, que dá uma entidade de nível 2 —, e o preço da parte das entidades é essa troca somada ao que já cobra.** *O §60 exigia, desde o começo do lote 3, que a parte a mais do invocador só valesse com preço mostrado; pela taxa do feitiço, a manifestação paga de um quinto a um terço do dano a mais.* **Resposta do Mizuki: "Vamos de C e eu sei a resposta já / invocações precisam de uma troca, ou vc doma, ou vc cria (essas n dependem de tecnica), ou vc tem um feitiço de ritual com uma lista de invocações que você vai 'domando' (megumi), OU poderiam custar slot de feitiço, 1 Slot da uma invocação nv2 [...] ISSO ainda n vai pagar tudo, mas paga um pouco, invocações param de ser gratuitas de se pegarem, ai mistura isso com A e perfeito".** *A entidade obtida por espaço sobe com o invocador, se ele quiser, e a troca pode ser refeita a cada nível. A condição de preço do §60 fecha por decisão dele; o que domar ou criar exige fica com o construtor.*

@@ -1096,3 +1096,41 @@ A validação recomendou o 5 e 3 contra a A (7 e 4). A confirmação:
 **[E] Nenhuma decisão anterior foi reaberta.** O §60 teve a condição de preço fechada pela decisão dele, sem medir o resíduo.
 
 **Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 70, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 32; o E30 da bancada foi a conta do preço em PE, e o E31 é a da recuperação da reserva.*
+
+### A correção — Mizuki, 29/09/2026
+
+> "gastar um espaço da lista de feitiços conhecidos, que dá uma entidade de nível 2." mude para nivel do invocador e que ela sobe junto do nivel dele, diferente das outras opções tirando ritual q tbm sobe
+
+**[D] O espaço de feitiço dá uma entidade no nível do invocador, e ela sobe junto com o nível dele.** A da lista de ritual também sobe junto; as domadas e as criadas, não.
+
+**[E] A escolha de deixar a entidade de espaço parada**, do texto anterior, sai com a correção. Leitura para ele vetar.
+
+---
+
+## 72. Como a reserva da entidade recupera — decisão de Mizuki, 29/09/2026
+
+**O caso que abriu a pergunta:** nível 30, uma entidade com reserva de 60 PE (Essência 3); o dia tem três lutas, e o invocador comanda uma especial por turno — nove no dia. O §59 deixou a recuperação da reserva com o construtor.
+
+**As opções, com a conta da bancada** (E31): (A) como o PE do personagem — cheia no descanso longo, um quarto no descanso curto; (B) cheia a cada manifestação; (C) só no descanso longo. Recomendada a (A).
+
+**Resposta autoral:**
+
+> A, evita exploit, pq uma invocação colocada que TENHA energia meio q ela vai ter mais energia do q gastou pra ser invocada / continue
+
+### Aprovado
+
+**[D] A reserva da entidade recupera como o PE do personagem:** volta cheia no descanso longo e devolve um quarto no descanso curto (peça 10 §6).
+
+### Esclarecimentos
+
+**[E] O motivo é dele:** cheia a cada manifestação, uma entidade com energia devolveria mais do que custou para ser invocada — recolher e manifestar de novo (7 PE no nível 30, §67) recarregaria até 60.
+
+**[E] No dia de três lutas** (E31), a reserva de nível 30 tem 90 e paga as nove especiais; a de nível 10, sete.
+
+### Limites preservados
+
+**[P] Quem tem técnica e reserva** continua com o construtor.
+
+**[E] Nenhuma decisão anterior foi reaberta.** O §59 ganhou o relógio da reserva.
+
+**Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 71, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 33; o E31 da bancada foi a conta da reserva, e o E32 é a da morte definitiva.*
