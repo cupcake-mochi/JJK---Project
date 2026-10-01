@@ -270,3 +270,69 @@ Recomendada a (A).
 **[E] Nenhuma outra decisão foi reaberta.** O §51 revê só as duas frases da r5 §4 citadas acima e a menção à "mesma tarefa" da §4.1.
 
 **Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 50, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 11, a primeira que muda texto de decisão da r5, o modelo da bancada ganhou o redirecionamento com uma intenção por entidade, e o lote de teste do §51 tem 9 verificações, à parte das outras.*
+
+---
+
+## 52. O que conta no limite de ataques — decisão de Mizuki, 29/09/2026
+
+**O caso que abriu a pergunta:** quatro corpos em campo (teto de teste) e o limite do exemplo de Mizuki, 2. No turno do invocador, A e B atacam com a básica; o invocador usa a Padrão para comandar uma especial de dano de C; D quer deixar o inimigo `Lento` com uma capacidade por TR, sem dano. Depois, no turno do inimigo, uma básica preparada de A dispara pela coletiva. O §51 deixou o limite como [P]: ele vai existir, e nada dizia o que é "atacar" para ele, nem se ele vale só no turno do invocador.
+
+**As opções, com a conta da bancada** (E8, limite 2): três pontos, cada um sim ou não.
+
+1. A especial comandada conta? Contando, com quatro corpos atacam no máximo 2; fora do limite, 3 — duas básicas e a especial.
+2. A capacidade que só impõe condição por TR, sem dano, conta?
+3. O que acontece fora do turno do invocador — a preparada que dispara, a resposta pela coletiva, o golpe do Guia — conta?
+
+Recomendados: conta, conta, não conta.
+
+**Resposta autoral:**
+
+> 1 - Acho melhor n contar, pq o jogador já vai estar gastando não só recurso como também a propria ação, seria no máximo 3 ataques e os dois basicos são como o nome diz, basicos
+> 2 - Pode seguir a recomendação, mas n fica negativo pra jogatina? tipo... força o jogador a ter uma invocação q n faça esses tipos de ações
+> 3 - Não conta
+
+**O furo que a dúvida do ponto 2 achou:** o `Provocar` (peça 3: Ação Bônus, teste contra o TR de Espírito, sem dano) é exatamente uma capacidade que só impõe efeito por TR, e a invocação pode usá-lo pagando com a básica (§43). A recomendação "contar" o punha no limite, contra a frase da própria pergunta que dizia que ele não ataca. O ponto 2 voltou com três opções: **(A)** toda condição por TR conta, inclusive o `Provocar`; **(B)** nenhuma condição sem dano conta; **(C)** conta a condição que vem do kit, e as ações gerais sem dano ficam livres. A conta levada foi a régua de condições (peça 19), no nível 30, contra um chefe: o `Atordoado` nega 113 de dano por rodada, o `Lento` 40,37, e a ação Atacar de um aliado entrega 23. Recomendada a (C).
+
+**Resposta autoral ao ponto 2:**
+
+> Facil de resolver
+>
+> Condições médias e pesadas PRECISAM ser uma ação especial, que tal? ai da pra gente seguir na B, sem quebrar muito a rotina por causa do "Atordoado"
+
+**A primeira redação ainda contava `Agarrar` e `Derrubar`**, por serem opções da ação Atacar (peça 3). **Correção de Mizuki:**
+
+> pq agarrar e derrubar ficaram no limite? acredito que ser só o atacar contando pro limite tá bom, agarrar e derrubar são ações comuns do proprio sistema. Ao meu ver todas as ações mais comuns, n necessitariam realmente de contar pro limite
+
+### Aprovado
+
+**[D] No turno do invocador, atacam no máximo N entidades dele.** Conta a atuação da entidade que causa dano. `Agarrar` e `Derrubar`, opções da ação Atacar sem dano (peça 3), não contam. O número N não foi decidido.
+
+**[D] Não contam no limite:** a especial comandada, que já custa a Padrão do invocador e o custo próprio da capacidade (ponto 1: "seria no máximo 3 ataques"); a condição sem dano, venha do kit ou de ação geral, e as ações comuns sem dano, como `Agarrar`, `Derrubar`, `Provocar`, Ajudar e Esquivar (ponto 2, a B, e a correção); e o que acontece fora do turno do invocador (ponto 3).
+
+**[D] Condição de nível Média ou Pesada só vem de especial comandada.** O nível é o da tabela das treze condições da peça 19. Hoje são Média o `Calado` e o `Enfeitiçado`, e Pesada o `Impedido`, o `Cego`, o `Amedrontado`, o `Envenenado` e o `Atordoado`.
+
+### Esclarecimentos
+
+**[E] Com quatro corpos e o limite do exemplo, o turno do invocador tem no máximo 3 ataques:** duas básicas e a especial. Quem passa do limite ainda atua — condição Leve, `Agarrar`, `Derrubar`, `Provocar`, Ajudar, Esquivar, Movimento, apoio do kit — e o §51 dá a tarefa de todas com uma Bônus. O E9 roda isso no modelo.
+
+**[E] Especial comandada é a especial ativa paga com a Padrão do invocador, nas três modalidades:** imediata, antecipada e preparada (r5 §§5, 6 e 8.1.1). Ela ocupa a básica da entidade e fica fora do limite em qualquer uma delas.
+
+**[E] A regra da Média e da Pesada vale para tudo que não é especial comandada:** a básica, a opção de Bônus paga com básica (§43), a preparação de básica, a capacidade reativa e a passiva ou aura. Como cada especial pede uma Padrão, e a Padrão é uma por turno, a condição Média ou Pesada das entidades segue o ritmo da especial.
+
+**[E] Uma básica com dano e condição Leve conta, pelo dano.** A condição Leve sem dano não conta, e é isso que `Agarrar` e `Derrubar` impõem: `Agarrado` e `Derrubado` são Leves, e num chefe do nível 30 negam 5,40 e 8,45 de dano por rodada (peça 19).
+
+**[E] A preparada de básica que dispara no turno do invocador conta, porque ataca no turno; fora dele, não conta.** Leitura para Mizuki vetar: com o limite cheio, a preparada de ataque não dispara no turno, e a preparação continua valendo para o gatilho de fora do turno.
+
+**[E] Com o invocador apagado (§47), as entidades seguem a intenção no turno dele, e o limite vale igual.**
+
+**[E] O nível da condição é o da tabela da peça 19.** Se uma condição mudar de nível lá, a regra acompanha.
+
+### Limites preservados
+
+**[P] O número do limite** vem junto com o teto de corpos e a ficha da entidade, medido contra os quatro Caminhos (lote 3). O 2 é o exemplo de Mizuki, e nos testes é número de teste. Se o limite cresce com o nível, ou se Caminho ou Trilha mexe nele, também está aberto.
+
+**[P] O preço da condição Leve na básica é do construtor.** Pela régua da peça 19, o `Lento` num chefe nega 40,37 de dano por rodada, contra 23 de uma ação Atacar de um aliado, e o corpo acima do limite pode aplicar condição Leve sem contar. Quem segura isso é o preço no kit.
+
+**[E] Nenhuma decisão anterior foi reaberta.** O §43 (opção de Bônus paga com básica, `Provocar` incluído) e o §44 (a criatura `Lenta` não usa Bônus nem pela básica) continuam valendo; o §52 fecha o [P] do §51.
+
+**Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 51, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 12, o modelo da bancada ganhou o limite de ataques com o número como valor de teste, o E9 roda o limite de 1 a 4 corpos, e o lote de teste do §52 tem 17 verificações, à parte das outras.*
