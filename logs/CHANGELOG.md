@@ -8,6 +8,18 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.315] — 29/09/2026
+
+**As Invocações ganharam o §73: a entidade morre de vez se um único golpe causar a vida máxima inteira dela ou se o que passa do zero for maior que metade; a morta não volta, e a que só caiu volta pela entrada com metade da vida.** *O §46 deixou morte definitiva, volta e prazo esperando o vínculo, e o §71 deu forma a ele; a peça 15 antiga tinha a regra, decidida pelo Mizuki. Medida contra o maior golpe de hoje, ela só mata de vez a entidade de Constituição baixa.* **Resposta do Mizuki: "A - MAS, no caso do ritual, é como megumi, perdeu da lista e n tem ganho de volta, perdeu uma da lista de 10 (no caso dele, outros podem ter diferentes, so to dando exemplo)".** *Na lista de ritual, a vaga se perde e a lista encolhe; no espaço de feitiço, a troca se refaz no nível seguinte. Dano em área nunca destrói, e a vida cheia volta no descanso longo.*
+
+**Adicionado:** o §73 em `invocacoes/DECISOES-A-PARTIR-DO-46.md`, no formato dos anteriores.
+
+**Alterado:** o `invocacoes/LEIA-ME.md`, a fila do `sistema/ESTADO-ATUAL.md` e o `PROMPT-continuar.md` registram o §73 e a pergunta que espera o Mizuki: qual vínculo não deixa recolher. No lote de desenvolvimento, que continua no HD, a candidata foi à revisão 34. **Nenhuma regra do livro mudou, e nenhum validador.**
+
+**Validação:** bateria de 31 de 31, com PULADA zero, rodada numa cópia com a v0.292 à v0.314 aplicadas; a 7.4, que confere a entrega commitada, só roda no repositório, e o `subir.sh` a roda antes de commitar.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: a pergunta dos vínculos que não recolhem espera o Mizuki.
+
 ## [0.314] — 29/09/2026
 
 **As Invocações corrigiram o §71 e ganharam o §72: o espaço de feitiço dá a entidade no nível do invocador, que sobe junto com ele, e a reserva da entidade recupera como o PE do personagem.** *A v0.313 registrou a entidade de espaço no nível 2, subindo se o invocador quisesse.* **A correção do Mizuki: "mude para nivel do invocador e que ela sobe junto do nivel dele, diferente das outras opções tirando ritual q tbm sobe".** *A da lista de ritual também sobe junto; as domadas e as criadas, não. O §59 deixava a recuperação da reserva com o construtor.* **Resposta do Mizuki: "A, evita exploit, pq uma invocação colocada que TENHA energia meio q ela vai ter mais energia do q gastou pra ser invocada".** *Cheia no descanso longo, um quarto no descanso curto; cheia a cada manifestação, recolher e manifestar de novo recarregaria a reserva.*

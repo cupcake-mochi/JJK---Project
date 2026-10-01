@@ -1134,3 +1134,43 @@ A validação recomendou o 5 e 3 contra a A (7 e 4). A confirmação:
 **[E] Nenhuma decisão anterior foi reaberta.** O §59 ganhou o relógio da reserva.
 
 **Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 71, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 33; o E31 da bancada foi a conta da reserva, e o E32 é a da morte definitiva.*
+
+---
+
+## 73. O que acontece depois que a entidade cai — decisão de Mizuki, 29/09/2026
+
+**O caso que abriu a pergunta:** nível 30, a `Calamidade` da tabela acerta uma entidade perto do zero, e ela cai. O §46 deixou morte definitiva, volta, cura e prazo "candidatos a depender do vínculo"; o §71 deu forma ao vínculo. A peça 15 antiga, §3.5, tinha a regra, decidida por ele.
+
+**As opções, com a conta da bancada** (E32): (A) a regra antiga, igual para todos os vínculos; (B) sem morte definitiva; (C) a morte definitiva só para domadas e criadas. Recomendada a (A).
+
+**Resposta autoral:**
+
+> A - MAS, no caso do ritual, é como megumi, perdeu da lista e n tem ganho de volta, perdeu uma da lista de 10 (no caso dele, outros podem ter diferentes, so to dando exemplo)
+
+### Aprovado
+
+**[D] A entidade morre de vez se um único golpe causar a vida máxima inteira dela, ou se o dano que passa do zero for maior que metade da vida máxima.** Dano em área derruba e nunca destrói.
+
+**[D] A que morreu de vez não volta.**
+
+**[D] Na lista de ritual, a que morreu de vez sai da lista, e a vaga não volta:** a lista encolhe. O tamanho da lista é de cada ritual — a do Megumi tem dez.
+
+**[D] No espaço de feitiço, a troca se refaz na próxima subida de nível** (§71): o espaço volta, a entidade não.
+
+**[D] A que só caiu volta pelo PE da entrada** (§67), **com metade da vida máxima;** a vida cheia volta no descanso longo.
+
+### Esclarecimentos
+
+**[E] No nível 30** (E32), a entidade de Constituição 3 ou mais nunca morre de vez com um golpe da tabela; a de Constituição 0 ou 1 morre de vez quase sempre que apanha perto do zero. A Constituição compra sobrevivência.
+
+**[E] O descanso curto não devolve a vida da entidade**, como não devolve a do personagem (peça 10 §3); a meia vida atravessa a missão até o descanso longo.
+
+**[E] A morte definitiva vem antes da `Desligada`:** a que o vínculo não deixa recolher, se o golpe que a zera passa do limiar, é destruída, e não fica no lugar.
+
+### Limites preservados
+
+**[P] Reobter uma domada ou uma criada que morreu de vez**, e o tamanho da lista de cada ritual, ficam com o construtor.
+
+**[E] Nenhuma decisão anterior foi reaberta.** O §46 ganhou a consequência duradoura que deixou pendente.
+
+**Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 72, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 34, e o E32 da bancada é a conta da morte definitiva.*
