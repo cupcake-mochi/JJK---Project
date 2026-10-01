@@ -417,3 +417,45 @@ Recomendada a (A).
 **[E] Nenhuma decisão anterior foi reaberta.** O §54 fecha o que o §53 deixou pendente.
 
 **Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 53, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 14, o modelo da bancada passou a recusar o recolhimento fora do turno e com o invocador apagado, e o lote de teste do §54 tem 6 verificações, à parte das outras.*
+
+---
+
+## 55. Onde a entidade aparece ao entrar — decisão de Mizuki, 29/09/2026
+
+**O caso que abriu a pergunta:** um invocador que luta de longe está a 12 m da linha de frente, onde a entidade A segura o inimigo. No turno dele, ele troca A, ferida, por B, que luta corpo a corpo. A r5 §9.1 deixava a posição de entrada sem regra, e a posição decide o que a entidade faz no turno em que entra: sem trocar, ela só anda (r5 §9.4); na troca, recebe a básica de quem sai (r5 §9.2).
+
+**As opções, com a conta da bancada** (E12, com o deslocamento de 9 m e o alcance de 1,5 m da regra geral, e a entidade andando como um personagem, que é hipótese):
+
+1. **(A)** colada no invocador, sempre: chega a 10,5 m sem trocar e ataca até 12 m na troca.
+2. **(B)** a até 9 m dele, num espaço livre que ele veja: chega a 18 m e ataca até 19,5 m; dá flanco num turno.
+3. **(C)** colada no invocador; na troca, no lugar de quem sai.
+
+Fora daqui, o D&D 2024 põe a invocação a até 27 m, à vista, e o Pathfinder 2e põe o eidolon colado no invocador. Recomendada a (C).
+
+**Resposta autoral:**
+
+> C - talvez coisas da invocação ou habilidades de trilhas/classes permitir a distancia, tecnica e afins, mas por base C
+
+### Aprovado
+
+**[D] A entidade que entra sem trocar aparece colada no invocador; na troca, a substituta aparece no lugar de quem sai.**
+
+### Esclarecimentos
+
+**[E] Colada é a até 1,5 m do invocador**, o alcance corpo a corpo de uma criatura média na regra geral, num espaço livre.
+
+**[E] Na troca com várias entradas, só a substituta direta ocupa o lugar de quem sai; as outras aparecem coladas no invocador.** Na troca com várias saídas, a substituta aparece no lugar de uma das que saem, à escolha do jogador. Leitura para Mizuki vetar.
+
+**[E] Se o lugar não comporta a entidade**, ela aparece no espaço livre mais próximo dele. O tamanho da entidade é do construtor.
+
+**[E] A posição de entrada não muda o que o §53 e o §54 decidiram:** a entrada e a troca continuam só no turno do invocador, com ele consciente.
+
+### Limites preservados
+
+**[P] Distância maior** pode vir de capacidade da própria invocação, de Trilha, de Caminho ou de técnica ("talvez coisas da invocação ou habilidades de trilhas/classes permitir a distancia, tecnica e afins"). Nada concede isso hoje; se vier, é concessão expressa, com o preço dela.
+
+**[P] Continua aberto o custo** da entrada, do recolhimento e da troca — com que ação, e quanto PE —, que é a pergunta seguinte.
+
+**[E] Nenhuma decisão anterior foi reaberta.**
+
+**Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 54, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 15, o modelo da bancada ganhou o registro simbólico da posição, e o lote de teste do §55 tem 5 verificações, à parte das outras.*

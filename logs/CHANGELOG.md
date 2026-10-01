@@ -8,6 +8,18 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.296] — 29/09/2026
+
+**As Invocações ganharam o §55: a entidade que entra sem trocar aparece colada no invocador, e na troca a substituta aparece no lugar de quem sai.** *A r5 §9.1 deixava a posição de entrada sem regra, e a posição decide o que a entidade faz no turno em que entra. A conta da pergunta, com o deslocamento de 9 m e o alcance de 1,5 m da regra geral, mostrou que colada ela chega aonde o próprio invocador chegaria, e a até 9 m chegaria ao dobro, com flanco num turno. O D&D 2024 põe a invocação a até 27 m, à vista; o Pathfinder 2e põe o eidolon colado no invocador.* **Resposta do Mizuki: "C - talvez coisas da invocação ou habilidades de trilhas/classes permitir a distancia, tecnica e afins, mas por base C".** Na troca com várias entradas, só a substituta direta ocupa o lugar de quem sai; com várias saídas, ela aparece no lugar de uma delas, à escolha do jogador; e se o lugar não comporta a entidade, ela vai ao espaço livre mais próximo — leituras para ele vetar. Distância maior por capacidade da invocação, Trilha, Caminho ou técnica ficou pendente.
+
+**Adicionado:** o §55 em `invocacoes/DECISOES-A-PARTIR-DO-46.md`, no formato dos anteriores.
+
+**Alterado:** o `invocacoes/LEIA-ME.md`, a fila do `sistema/ESTADO-ATUAL.md` e o `PROMPT-continuar.md` registram o §55 e a pergunta que espera o Mizuki: com que ação a entidade entra em campo. No lote de desenvolvimento, que continua no HD, a candidata foi à revisão 15, o modelo ganhou o registro simbólico da posição, e o lote de teste do §55 tem 5 verificações. **Nenhuma regra do livro mudou, e nenhum validador.**
+
+**Validação:** bateria de 31 de 31, com PULADA zero, rodada numa cópia com a v0.292 à v0.295 aplicadas; a 7.4, que confere a entrega commitada, só roda no repositório, e o `subir.sh` a roda antes de commitar.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: a pergunta da ação da entrada espera o Mizuki.
+
 ## [0.295] — 29/09/2026
 
 **As Invocações ganharam o §54: a entidade só é recolhida no turno do invocador.** *O §53 fechou a entrada e deixou o recolhimento sem entrada fora do turno pendente — e recolher antes de um golpe mortal é a diferença entre a entidade cair e não cair. A conta da pergunta, rodada no modelo, mostrou que recolher antes do golpe conserva o PV e deixa a entidade voltar no turno seguinte, ao preço da Reação do invocador ou da coletiva, que ainda derrubaria as preparações do conjunto.* **Resposta do Mizuki: "A".** No turno do inimigo, a entidade fica e aguenta o golpe; recolher uma entidade ferida continua possível no turno dele. O recolhimento é ato do invocador e pede ele consciente, e a saída pela queda (§46) e pela morte do invocador (§48) não é recolhimento — os dois esclarecimentos ficam para ele vetar. Um Caminho ou uma Trilha pode mudar isso no futuro, como no §53.
