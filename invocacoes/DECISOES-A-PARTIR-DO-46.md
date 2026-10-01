@@ -622,9 +622,17 @@ Dois critérios, contra o PE por nível dos Caminhos (peça 1: Bastião 4, Vangu
 
 ### Limites preservados
 
-**[P] A fração da Essência** — um terço, pela validação, esperando a confirmação de Mizuki.
+### O fechamento da validação — Mizuki, 29/09/2026
 
-**[P] A parte do invocador** — igual ou menor. A validação não separa as duas enquanto o custo da especial for P.
+**A pergunta:** (A) um terço da Essência e a parte do invocador igual; (B) um terço e a parte menor; (C) metade até a Essência 4. Recomendada a (A).
+
+> A e continuamos, e pode ficar o 1 + um terço de PE ali, ficou bom
+
+**[D] A reserva é, por nível da criatura, 1 + um terço da Essência dela**, arredondada para baixo.
+
+**[D] A parte do invocador é igual à da reserva:** metade do custo da especial, e o ímpar fica com o invocador (a parte dele arredonda para cima).
+
+**[P] A parte do invocador volta a ser medida quando o custo das especiais existir** (lote 3); se o invocador ficar sem PE cedo demais, a parte menor é o ajuste que a pergunta deixou registrado.
 
 **[P] Quem tem técnica e reserva, como a reserva recupera e o nível da criatura** ficam com o construtor.
 

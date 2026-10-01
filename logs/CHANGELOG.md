@@ -8,6 +8,16 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.301] — 29/09/2026
+
+**O §59 das Invocações fechou: a reserva própria é, por nível da criatura, 1 + um terço da Essência, e o custo da especial se reparte meio a meio, com o ímpar para o invocador.** *A v0.300 registrou o §59 com os dois números que o Mizuki deixou para a validação. A validação da fração, contra o PE por nível dos Caminhos, reprovou metade da Essência a partir da Essência 5 e aprovou um terço em toda Essência; a parte do invocador não se separa enquanto o custo das especiais for P.* **Resposta do Mizuki: "A e continuamos, e pode ficar o 1 + um terço de PE ali, ficou bom".** A parte do invocador volta a ser medida quando o custo das especiais existir; a parte menor ficou registrada como o ajuste. Fica como fechamento do §59, e não como decisão nova.
+
+**Alterado:** o §59 em `invocacoes/DECISOES-A-PARTIR-DO-46.md` ganhou o fechamento; o `invocacoes/LEIA-ME.md`, a fila do `sistema/ESTADO-ATUAL.md` e o `PROMPT-continuar.md` registram a pergunta que espera o Mizuki, a primeira do lote 3: a meta do conjunto em Rotinas por rodada — a peça 6 §4 diz uma, escrita para a arquitetura anterior. No lote de desenvolvimento, que continua no HD, a candidata foi à revisão 20. **Nenhuma regra do livro mudou, e nenhum validador.**
+
+**Validação:** bateria de 31 de 31, com PULADA zero, rodada numa cópia com a v0.292 à v0.300 aplicadas; a 7.4, que confere a entrega commitada, só roda no repositório, e o `subir.sh` a roda antes de commitar.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: a pergunta da meta do conjunto espera o Mizuki.
+
 ## [0.300] — 29/09/2026
 
 **As Invocações ganharam o §59: de onde sai a energia das especiais das entidades.** *A r5 §5 dizia "Não há fonte de PE implícita", e a decisão 8 do registro da r5 guardava a pauta do Mizuki: "futuramente devemos ver a possibilidade de invocações terem energia. Já que algumas invocações tem técnica, como no caso de algumas maldições pegas pelo geto". A conta da pergunta mostrou que a fonte não muda quantas especiais cabem numa luta — a Padrão limita a uma por turno, 3 na luta de 3 rodadas.* **Resposta do Mizuki: "Seria B, MAS..."** — a entidade com técnica pode ter reserva própria, pela ficha; mesmo com ela, a especial consome também energia do invocador, com a parte dele igual ou menor; a reserva é, por nível da criatura, 1 + metade ou 1 + um terço da Essência, "oq for melhor validado"; e quando ela acaba, tudo sai do invocador. **A validação da fração:** com metade, a reserva reprova a partir da Essência 5 — na 6 empata com o PE por nível de um Bastião, e quatro reservas passam do filtro de 3× que o projeto usa nos catálogos; com um terço, passa em toda Essência. A parte do invocador não se separa enquanto o custo da especial for P. As duas esperam a confirmação dele.
