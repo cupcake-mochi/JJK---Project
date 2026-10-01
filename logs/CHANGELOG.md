@@ -8,6 +8,18 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.300] — 29/09/2026
+
+**As Invocações ganharam o §59: de onde sai a energia das especiais das entidades.** *A r5 §5 dizia "Não há fonte de PE implícita", e a decisão 8 do registro da r5 guardava a pauta do Mizuki: "futuramente devemos ver a possibilidade de invocações terem energia. Já que algumas invocações tem técnica, como no caso de algumas maldições pegas pelo geto". A conta da pergunta mostrou que a fonte não muda quantas especiais cabem numa luta — a Padrão limita a uma por turno, 3 na luta de 3 rodadas.* **Resposta do Mizuki: "Seria B, MAS..."** — a entidade com técnica pode ter reserva própria, pela ficha; mesmo com ela, a especial consome também energia do invocador, com a parte dele igual ou menor; a reserva é, por nível da criatura, 1 + metade ou 1 + um terço da Essência, "oq for melhor validado"; e quando ela acaba, tudo sai do invocador. **A validação da fração:** com metade, a reserva reprova a partir da Essência 5 — na 6 empata com o PE por nível de um Bastião, e quatro reservas passam do filtro de 3× que o projeto usa nos catálogos; com um terço, passa em toda Essência. A parte do invocador não se separa enquanto o custo da especial for P. As duas esperam a confirmação dele.
+
+**Adicionado:** o §59 em `invocacoes/DECISOES-A-PARTIR-DO-46.md`, no formato dos anteriores.
+
+**Alterado:** o `invocacoes/LEIA-ME.md`, a fila do `sistema/ESTADO-ATUAL.md` e o `PROMPT-continuar.md` registram o §59 e a pergunta que espera o Mizuki: a fração da Essência e a parte do invocador. No lote de desenvolvimento, que continua no HD, a candidata foi à revisão 19, o modelo ganhou a contabilidade de PE da especial, e o lote de teste do §59 tem 7 verificações. **Nenhuma regra do livro mudou, e nenhum validador.**
+
+**Validação:** bateria de 31 de 31, com PULADA zero, rodada numa cópia com a v0.292 à v0.299 aplicadas; a 7.4, que confere a entrega commitada, só roda no repositório, e o `subir.sh` a roda antes de commitar.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: a validação do §59 espera o Mizuki.
+
 ## [0.299] — 29/09/2026
 
 **As Invocações ganharam o §58: as entidades manifestadas antes da luta começam em campo quando ela começa**, até o teto, com a intenção que tinham, e agem desde a primeira rodada. *As regras de entrada dos §§53 a 57 são as da luta. A conta da pergunta, a luta de 3 rodadas no modelo com os números de teste, deu 5 ataques das entidades começando todas na reserva, 7 com uma em campo e 9 com todas — a primeira rodada, da reserva, não tem ataque.* **Resposta do Mizuki: "A - já foi até discutido antes, pode continuar".** Tinha sido: na peça 15 da arquitetura anterior, Q4, com a cena do Megumi com o lobo fora de combate — fora de combate a ação não custa nada. A arquitetura anterior não volta como regra, mas a intenção dele registrada lá vale, e a pergunta não devia ter sido feita sem citá-la. Fora da luta, entrar e recolher não custam ação, e o teto conta os corpos manifestados também ali; quem não estava manifestada começa na reserva, inclusive na surpresa — esclarecimentos para ele vetar. O custo de manter entidades manifestadas fora da luta e o PE continuam pendentes.

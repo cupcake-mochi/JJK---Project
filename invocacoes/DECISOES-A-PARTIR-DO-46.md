@@ -577,3 +577,57 @@ Recomendada a (A).
 **[E] Nenhuma decisão anterior foi reaberta.**
 
 **Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 57, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 18, o modelo da bancada ganhou o começo da luta, e o lote de teste do §58 tem 3 verificações, à parte das outras.*
+
+---
+
+## 59. De onde sai a energia das especiais das entidades — decisão de Mizuki, 29/09/2026
+
+**O caso que abriu a pergunta:** uma das quatro entidades é uma maldição capturada que tem técnica própria; o invocador comanda a especial dela. A r5 §5 diz "Não há fonte de PE implícita", e a decisão 8 do registro da r5 deixou a pauta dele: "futuramente devemos ver a possibilidade de invocações terem energia. Já que algumas invocações tem técnica, como no caso de algumas maldições pegas pelo geto".
+
+**As opções, com a conta da bancada** (E16): a especial custa a Padrão, uma por turno, então numa luta de 3 rodadas saem no máximo 3 especiais com qualquer fonte; a fonte muda só de quem é o PE.
+
+1. **(A)** sempre do PE do invocador.
+2. **(B)** do invocador, e a entidade com técnica pode ter reserva própria, se a ficha disser.
+3. **(C)** uma reserva por entidade.
+
+Recomendada a (B).
+
+**Resposta autoral:**
+
+> Seria B, MAS mesmo com a reserva da invocação, ao usar alguma habilidade especial, teria ainda algum consumo de energia vindo do invocador, talvez menos ou igual, oq a validação encaixar melhor. Ai a quantidade deveria ser calculada baseada no nv da criatura e na essencia dela ao meu ver, talvez 1 + metade da essencia dela por nv ou 1 + 1/3 oq for melhor validado, quando acabar esse estoque começaria a sair completamente do invocador
+
+### Aprovado
+
+**[D] A entidade com técnica pode ter reserva própria de energia, se a ficha dela disser; sem reserva, a especial sai do PE do invocador.**
+
+**[D] Mesmo com reserva, a especial consome energia do invocador:** o custo se reparte entre a reserva e o invocador, e a parte do invocador é igual ou menor que a da reserva.
+
+**[D] O tamanho da reserva sai do nível da criatura e da Essência dela:** por nível, 1 + uma fração da Essência — metade ou um terço, a que a validação encaixar melhor.
+
+**[D] Quando a reserva acaba, a especial sai toda do invocador.**
+
+### Esclarecimentos
+
+**[E] O que se reparte é o custo da especial:** o invocador e a reserva somam o custo, e não pagam cada um o custo inteiro. Leitura para Mizuki vetar.
+
+**[E] A parte do invocador arredonda para cima, e o que a reserva não cobre sai dele;** a reserva arredonda para baixo (peça 1 §5.4: o que você ganha arredonda para o lado que não te favorece).
+
+**[E] A fonte não muda quantas especiais cabem numa luta** — quem limita é a Padrão (E16).
+
+**[E] Com o invocador apagado (§47), a especial ordenada antes paga a parte dele com o PE dele**, pela decisão 8 do registro, e a reserva paga a dela.
+
+### A validação da fração (E17)
+
+Dois critérios, contra o PE por nível dos Caminhos (peça 1: Bastião 4, Vanguarda e Guia 5, Emanador 6; o Evocador saiu da tabela): **(1)** uma entidade não passa do PE por nível do Caminho de menor PE; **(2)** com o teto de teste cheio de entidades com reserva, a energia delas não passa do filtro de 3,00× que o projeto usa em todo catálogo (peça 19), contra o dono de menor PE. *O segundo critério é da bancada, marcado como hipótese.* **Com metade da Essência**, a reserva passa nos dois até a Essência 4 e reprova na 5 e na 6 — na 6 ela empata com o PE por nível de um Bastião. **Com um terço**, passa em toda Essência de 0 a 6. A comparação supõe a criatura no mesmo nível do dono, e o nível dela é P (§49).
+
+### Limites preservados
+
+**[P] A fração da Essência** — um terço, pela validação, esperando a confirmação de Mizuki.
+
+**[P] A parte do invocador** — igual ou menor. A validação não separa as duas enquanto o custo da especial for P.
+
+**[P] Quem tem técnica e reserva, como a reserva recupera e o nível da criatura** ficam com o construtor.
+
+**[E] Nenhuma decisão anterior foi reaberta.** O §59 cumpre a pauta da decisão 8 do registro da r5.
+
+**Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 58, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 19, o modelo da bancada ganhou a contabilidade de PE da especial, o E17 faz a validação da fração, e o lote de teste do §59 tem 7 verificações, à parte das outras.*
