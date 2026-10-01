@@ -8,6 +8,18 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.306] — 29/09/2026
+
+**As Invocações ganharam o §64: uma entidade completa até meia Rotina, e duas ou mais completam juntas até dois terços de Rotina.** *O §63 pediu dano parelho entre quem leva uma entidade e quem leva duas; com a meta do §60 e dano fixo por básica, quem leva uma ficava em 1,25 contra 1,5. A recomendação era dividir a meia Rotina pelas entidades em campo, deixando os dois em 1,5.* **Resposta do Mizuki: "Como acompanhar, eu disse em 'deixar parelho', n precisa ser igual, duas invocação VAO ser mais fortes que uma normalmente mesmo, mas n poderia ter uma discrepância tão grande [...] podemos colocar que duas invocações ou mais, completam até 2/3 de uma rotina, enquanto uma completa meia rotina".** *Com o invocador, o conjunto vai até 1,5 com uma e 1⅔ com duas, razão de 0,9; isso revê o §60 para quem leva duas. Dois terços de Rotina são de 7,4 a 11,1 vezes o que uma Trilha soma a um personagem, e a condição de preço do §60 continua.*
+
+**Adicionado:** o §64 em `invocacoes/DECISOES-A-PARTIR-DO-46.md`, no formato dos anteriores.
+
+**Alterado:** o `invocacoes/LEIA-ME.md`, a fila do `sistema/ESTADO-ATUAL.md` e o `PROMPT-continuar.md` registram o §64 e a pergunta que espera o Mizuki: o resto da ficha da entidade. No lote de desenvolvimento, que continua no HD, a candidata foi à revisão 25. **Nenhuma regra do livro mudou, e nenhum validador.**
+
+**Validação:** bateria de 31 de 31, com PULADA zero, rodada numa cópia com a v0.292 à v0.305 aplicadas; a 7.4, que confere a entrega commitada, só roda no repositório, e o `subir.sh` a roda antes de commitar.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: a pergunta da ficha da entidade espera o Mizuki.
+
 ## [0.305] — 29/09/2026
 
 **As Invocações ganharam o §63: o limite de ataques de base é 2, e as duas entidades do teto de base atacam; quem leva uma entidade tem dano parelho com quem leva duas.** *O §52 deixou o número do limite pendente, e com o teto de base do §62 ele só podia ser 1 ou 2. Com 2, o limite não barra nenhuma básica na base; com dano fixo por básica, quem leva uma ficaria em 1,25 Rotina contra 1,5 de quem leva duas.* **Resposta do Mizuki: "eu concordo com A, que seria as duas atacando, mas sim devemos futuramente calcular a questão do dano, porque ela tem sim de ter capacidade de acompanhar bem o combate e uma invocação TEM q ter um dano parelho com um invocador de duas por balanceamento, n pode ter uma discrepancia tão grande".**

@@ -799,3 +799,43 @@ A validação recomendou o 5 e 3 contra a A (7 e 4). A confirmação:
 **[E] Nenhuma decisão anterior foi reaberta.**
 
 **Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 62, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 24, o modelo da bancada ganhou o limite de base, o E22 foi a conta do limite e o E23 é a da paridade, e o lote de teste do §63 tem 2 verificações, à parte das outras.*
+
+---
+
+## 64. Quanto as entidades completam, por quantas estão em campo — decisão de Mizuki, 29/09/2026
+
+**O caso que abriu a pergunta:** nível 30. Um invocador leva uma entidade; outro, duas. O §63 pediu dano parelho entre os dois, e com a meta do §60 (uma Rotina e meia) e dano fixo por básica, quem leva uma ficava em 1,25 contra 1,5.
+
+**As opções, com a conta da bancada** (E23): (A) a meia Rotina se divide pelas entidades em campo; (B) a entidade grande ocupa as duas vagas; (C) dano fixo, a diferença recusada. Recomendada a (A), que deixava os dois em 1,5.
+
+**Resposta autoral:**
+
+> Como acompanhar, eu disse em "deixar parelho", n precisa ser igual, duas invocação VAO ser mais fortes que uma normalmente mesmo, mas n poderia ter uma discrepância tão grande, por isso digo / acredito que aumentar a rotina vai ajudar isso, podemos colocar que duas invocações ou mais, completam até 2/3 de uma rotina, enquanto uma completa meia rotina
+
+### Aprovado
+
+**[D] Parelho não é igual:** duas entidades podem render mais que uma, sem diferença grande.
+
+**[D] Uma entidade completa até meia Rotina; duas ou mais completam, juntas, até dois terços de Rotina.** Com o invocador, o conjunto vai até 1,5 Rotina com uma e até 1⅔ com duas (E24).
+
+**[D] Isso revê o §60** para quem leva duas: o teto do conjunto passa de 1,5 para 1⅔ Rotina. Com uma, continua 1,5.
+
+### Esclarecimentos
+
+**[E] A parte de cada básica:** sozinha, até meia Rotina (54 no nível 30); na dupla, a parte se divide pelas que atacam — até um terço de Rotina cada (36 no nível 30). Leitura para ele vetar.
+
+**[E] A razão entre quem leva uma e quem leva duas é 0,9** (1,5 contra 1⅔); era 0,83 com dano fixo.
+
+**[E] O tamanho, medido (E24):** dois terços de Rotina são de 7,4 a 11,1 vezes o que uma Trilha soma a um personagem (peça 14 §4: 6% a 9% da Rotina); meia Rotina, de 5,6 a 8,3. A condição de preço do §60 continua valendo para as duas partes.
+
+**[E] A dupla com uma atuando sem dano** fica em 1⅓ — abaixo de quem leva uma e ataca.
+
+### Limites preservados
+
+**[P] O preço da parte das entidades** continua do construtor (§60), agora para meia Rotina e para dois terços.
+
+**[P] "Ou mais"** só vale se uma regra que ainda não existe aumentar o teto (§62).
+
+**[E] O §60 foi revisto por ele, na parte de quem leva duas;** nenhuma outra decisão foi reaberta.
+
+**Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 63, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 25, e o E24 da bancada é a conta da regra; o modelo não muda, porque conta ações e não dano.*
