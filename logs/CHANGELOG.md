@@ -8,6 +8,20 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.321] — 29/09/2026
+
+**As Invocações ganharam o §86: o que acontece com as entidades quando o invocador morre.** *O §48 tirou as entidades de campo na hora e deixou o destino duradouro pendente, "candidato a depender do vínculo"; com os cinco tipos (§§77 a 85), o vínculo existe. A recomendação era um destino por origem, e a obra sustenta a parte da domada, pela peça 15 antiga: "a user can only absorb tamed cursed spirits after killing their master".* **Resposta do Mizuki: "A".** A entidade de técnica some com o dono, e o corpo de técnica autônomo, que tem alma, fica, com o mestre; a de criação fica no mundo como objeto — o talismã com a carga que tinha, o corpo parado —; e a maldição domada fica livre, volta a ser maldição, com o mestre, e outro invocador pode domá-la. "O mestre" é o da mesa em que o invocador morreu, e o invocador morto não traz ninguém de volta.
+
+**Adicionado:** o §86 em `invocacoes/DECISOES-A-PARTIR-DO-46.md`, no formato dos anteriores.
+
+**Alterado:** o `invocacoes/LEIA-ME.md`, a fila do `sistema/ESTADO-ATUAL.md` e o `PROMPT-continuar.md` registram o §86; não há pergunta de Invocações esperando o Mizuki, e o próximo passo é a dívida do arquivo de pendências da bancada e o lote 3. No lote de desenvolvimento, que continua no HD, a candidata foi à revisão 40, os dois casos que eram indeterminados desde o §48 trocaram para a recusa, e um erro do §83 no modelo foi corrigido: o corpo inativo recebe efeito periódico como qualquer corpo. **Nenhuma regra do livro mudou, e nenhum validador.**
+
+**Validação:** bateria de 31 de 31, rodada numa cópia com a v0.292 à v0.320 aplicadas. Só a 7.4 pulou: ela confere a entrega commitada, a cópia não tem o `.git` dela, e o `subir.sh` a roda antes de commitar.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: a dívida da bancada e o lote 3.
+
+---
+
 ## [0.320] — 29/09/2026
 
 **As Invocações ganharam o §85: a volta da caída custa o dobro do PE da entrada.** *O achado veio do §76 e esperou o pacote dos tipos: pelo §73, a entidade que cai sem morrer de vez volta pela entrada com metade da vida, e a recolhida ferida volta com a que tinha — então cair rendia mais que recolher, de 8,7 a 13 de vida por PE, o dobro da cura do sistema (peça 11: um PE vale cerca de cinco de cura), e ainda poupava a Bônus do recolhimento. A recomendação era a B, com o dobro tirado do câmbio de cura, e não inventado.* **Resposta do Mizuki: "B e ainda falta coisas nos tipos, shikigami para técnica tá recebendo nada, ele fica como base então? eu acho uma boa".** A volta da caída — pela entrada, ou religando a `Desligada` — custa duas vezes a Classe do nível da entidade, mais a Bônus, e rende de 4,3 a 6,5 de vida por PE; recolher e pôr de volta continua pela entrada simples. O corpo amaldiçoado paga o dobro também. O shikigami de técnica fica como a base dos cinco tipos, sem nada próprio.

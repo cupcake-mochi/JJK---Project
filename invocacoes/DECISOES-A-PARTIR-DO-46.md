@@ -1615,3 +1615,37 @@ A validação recomendou o 5 e 3 contra a A (7 e 4). A confirmação:
 **[E] Nenhuma decisão anterior foi reaberta.** O §73 continua: metade da vida, o limiar e a morte de vez; o §85 só dá o preço da volta.
 
 **Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 84, no HD. *A candidata foi à revisão 39, e o lote de teste do §85 tem 2 verificações.*
+
+---
+
+## 86. O que acontece com as entidades quando o invocador morre — decisão de Mizuki, 29/09/2026
+
+**O caso que abriu a pergunta:** numa campanha da guilda, um invocador morre de vez com um shikigami de técnica, um talismã, dois corpos amaldiçoados de criação e três maldições domadas. O §48 tirou as entidades de campo na hora e deixou o destino duradouro pendente, "candidato a depender do vínculo"; os tipos agora existem (§§77 a 85).
+
+**As opções:** (A) cada origem tem o seu destino; (B) todas somem; (C) todas ficam, com o mestre. Recomendada a (A).
+
+**Resposta autoral:**
+
+> A
+
+### Aprovado
+
+**[D] A entidade de técnica some com o dono** — a técnica acabou. O corpo amaldiçoado de técnica autônomo, que tem alma (§82), fica, e passa ao mestre.
+
+**[D] A entidade de criação fica no mundo como objeto:** o talismã, com a carga que tinha, e o corpo amaldiçoado, parado. Como outro a herda fica com a regra de criação.
+
+**[D] A maldição domada fica livre:** volta a ser maldição, passa ao mestre, e outro invocador pode domá-la pelos testes. *A obra, pela peça 15 antiga: "a user can only absorb tamed cursed spirits after killing their master".*
+
+### Esclarecimentos
+
+**[E] "O mestre" é o mestre da mesa em que o invocador morreu.**
+
+**[E] O invocador morto não traz ninguém de volta:** a entrada, o recolhimento, a troca, religar e ativar depois da morte são recusados. *O S48c do lote do §48 e o S49 que tentava entrar depois da morte eram indeterminados; a troca está declarada no executor, com a fonte.*
+
+### Limites preservados
+
+**[P] Herdar o talismã ou o corpo criado** — da regra de criação, com o construtor.
+
+**[E] Nenhuma decisão anterior foi reaberta.** O §48 continua: as entidades saem de campo na hora, e a que não recolhe fica `Desligada`; o §86 diz o que vem depois.
+
+**Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 85, no HD. *A candidata foi à revisão 40; a morte do invocador passou a dar o destino por origem, os dois casos que eram indeterminados trocaram para a recusa, e o lote de teste do §86 tem 5 verificações.*
