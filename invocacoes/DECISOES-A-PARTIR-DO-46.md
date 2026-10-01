@@ -979,3 +979,35 @@ A validação recomendou o 5 e 3 contra a A (7 e 4). A confirmação:
 **[E] Nenhuma decisão anterior foi reaberta.** O §64 ganhou a leitura do nível.
 
 **Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 67, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 29; o E27 da bancada foi a conta do nível, e o E28 é a do custo da especial.*
+
+---
+
+## 69. O custo em PE da especial — decisão de Mizuki, 29/09/2026
+
+**O caso que abriu a pergunta:** nível 30, um Bastião (120 PE) com uma entidade de nível 30 que tem técnica e reserva (§59); no turno dele, em vez de atacar, ele gasta a Padrão comandando a especial dela. A r5 §5 dizia "não há fonte de PE implícita", e o §59 decidiu de onde a energia sai, sem o custo.
+
+**As opções, com a conta da bancada** (E28): (A) 3 × a Classe do nível dela, como um feitiço; (B) 1 × a Classe dela, como a entrada; (C) custo próprio pelo construtor. Recomendada a (A).
+
+**Resposta autoral:**
+
+> A proximo
+
+### Aprovado
+
+**[D] A especial custa 3 × a Classe do nível da entidade em PE**, como um feitiço da mesma Classe (peça 16), e se reparte pelo §59: metade da reserva e metade do invocador, com o ímpar para ele; sem reserva, tudo do invocador.
+
+### Esclarecimentos
+
+**[E] Com a entidade no nível do invocador, atacar ou comandar custa o mesmo PE com a mesma Padrão;** a de nível mais baixo custa menos e bate menos (§68).
+
+**[E] No nível 30** (E28), a especial custa 21 — 11 do invocador e 10 da reserva —; a reserva de Essência 3 paga 6, e o PE do Bastião, pela parte dele, 10.
+
+**[E] Com as entradas do §67**, o Bastião que comanda três especiais por luta gasta 47 PE nela; o preço da parte das entidades (§§60 e 64) olha essa conta junto.
+
+### Limites preservados
+
+**[P] Especial com custo diferente do feitiço** — por exemplo, uma que não cause dano — fica com o construtor, no molde do feitiço.
+
+**[E] Nenhuma decisão anterior foi reaberta.** O §59 ganhou o número que ele repartia.
+
+**Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 68, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 30; o E28 da bancada foi a conta do custo, e o E29 é a da duração da manifestação.*

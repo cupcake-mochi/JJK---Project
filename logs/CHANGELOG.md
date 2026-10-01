@@ -8,6 +8,18 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.311] — 29/09/2026
+
+**As Invocações ganharam o §69: a especial custa 3 × a Classe do nível da entidade em PE, como um feitiço da mesma Classe, repartida pelo §59.** *A r5 §5 dizia "não há fonte de PE implícita", e o §59 decidiu de onde a energia sai, sem o custo.* **Resposta do Mizuki: "A proximo".** *Com a entidade no nível do invocador, atacar ou comandar custa o mesmo PE com a mesma Padrão; a de nível mais baixo custa menos e bate menos (§68). Com as entradas do §67, o Bastião que comanda três especiais por luta gasta 47 PE nela, e o preço da parte das entidades olha essa conta junto.*
+
+**Adicionado:** o §69 em `invocacoes/DECISOES-A-PARTIR-DO-46.md`, no formato dos anteriores.
+
+**Alterado:** o `invocacoes/LEIA-ME.md`, a fila do `sistema/ESTADO-ATUAL.md` e o `PROMPT-continuar.md` registram o §69 e a pergunta que espera o Mizuki: quanto dura a manifestação fora da luta. No lote de desenvolvimento, que continua no HD, a candidata foi à revisão 30. **Nenhuma regra do livro mudou, e nenhum validador.**
+
+**Validação:** bateria de 31 de 31, com PULADA zero, rodada numa cópia com a v0.292 à v0.310 aplicadas; a 7.4, que confere a entrega commitada, só roda no repositório, e o `subir.sh` a roda antes de commitar.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: a pergunta da duração da manifestação espera o Mizuki.
+
 ## [0.310] — 29/09/2026
 
 **As Invocações ganharam o §68: tudo que depende de nível segue o da entidade — a vida, o PE da entrada e a parte do dano, medida na Rotina do nível dela —, e o nível dela vai até o do invocador.** *O §67 deu nível próprio à entidade, e o §64 media a parte das entidades em Rotinas sem dizer de qual nível: pela Rotina do invocador, uma entidade de nível 2 custaria 1 PE, teria 14 de vida e bateria 54, como a de nível 30.* **Resposta do Mizuki: "A e continue".** *Acerto, Defesa, Teste de Resistência e CD seguem a ficha do §65 e do §66; como a entidade sobe de nível fica com o construtor.*
