@@ -2640,3 +2640,29 @@ A validação recomendou o 5 e 3 contra a A (7 e 4). A confirmação:
 **[P]** Quantos personagens a característica carrega, e quanto isso custa no Movimento dela, ficam com a característica, na montagem.
 
 **Onde a conta mora:** no lote de desenvolvimento, no HD. *Entrou na candidata na revisão 46; o lote dos §§111 a 113 tem 12 verificações.*
+
+---
+
+## 114. O que a entidade leva quando sai de campo — decisão de Mizuki, 30/09/2026
+
+**O caso que abriu a pergunta:** o §112 deixou pendente o que a entidade veste ou segura quando sai de campo — recolhida, caída ou no fim da manifestação. O Nue veste `Revestimento` 3; o combate acaba, a manifestação acaba, e na luta seguinte ele é manifestado de novo: volta vestido? As opções eram o que veste vai junto e o que segura cai (A, recomendada), tudo cai (B, que pedia regra de tempo para vestir e punha o uniforme na carga do invocador) e tudo vai (C, um depósito sem peso e sem fundo, pelo §109).
+
+**Resposta autoral:**
+
+> Sobre a pergunta, A, mas o que segura vai junto caso seja arma dela ou por exemplo, resto cai
+
+### Aprovado
+
+**[D] Quando a entidade sai de campo, o que ela veste vai junto, e ela volta vestida.**
+
+**[D] Do que ela segura, vai junto o que é dela — a arma dela, por exemplo —, e o resto cai no lugar onde ela estava.**
+
+### Esclarecimentos
+
+**[E] Vale para os tipos que recolhem** — o shikigami de técnica, o talismã e a domada com técnica — e para toda saída de campo: o recolhimento, a queda, o fim da manifestação e a morte do invocador. O corpo amaldiçoado e a `Desligada` ficam no campo e continuam com tudo.
+
+**[E] Leituras para vetar:** "dela" é o equipamento da entidade — a arma com que ela luta, o foco ou a ferramenta dela —, e não o que ela segura para alguém ou pegou no caminho; o limite continua sendo as mãos (§113). A que deixa de existir — a morta de vez (§73), a de técnica quando o dono morre (§86) — larga tudo no lugar.
+
+**[E] A brecha que fica, declarada:** cada entidade leva sem peso o uniforme (até `4` de `Volume`) e o que é dela nas mãos (até `2`). Um item de reserva do invocador pode viajar assim, e para usá-lo ele tira da entidade em campo. Quem segura é a leitura de "dela".
+
+**Onde a conta mora:** no lote de desenvolvimento, no HD. *Entrou na candidata na revisão 47; o lote do §114 tem 4 verificações.*

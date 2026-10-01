@@ -8,6 +8,18 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.330] — 30/09/2026
+
+**As Invocações ganharam o §114: o que a entidade leva quando sai de campo.** *O §112 deixou pendente o que ela veste ou segura ao ser recolhida, ao cair ou no fim da manifestação. As opções eram o que veste vai junto e o que segura cai (A), tudo cai (B, que pedia regra de tempo para vestir e punha o uniforme na carga do invocador) e tudo vai (C, um depósito sem peso e sem fundo).* **Resposta do Mizuki: "A, mas o que segura vai junto caso seja arma dela ou por exemplo, resto cai".** *O que ela veste vai junto, e ela volta vestida; do que segura, vai o que é dela, e o resto cai no lugar. A leitura de "dela" — o equipamento da entidade, e não o que ela segura para alguém — ficou para ele vetar, e a brecha de um item de reserva viajar numa entidade ficou declarada.*
+
+**Alterado:** o §114 entrou em `invocacoes/DECISOES-A-PARTIR-DO-46.md`, e o `invocacoes/LEIA-ME.md`, o `PROMPT-continuar.md` e o `sistema/ESTADO-ATUAL.md` apontam a pergunta seguinte, a volta do capítulo ao livro. No lote de desenvolvimento, que continua no HD, a candidata foi à revisão 47, e o lote do §114 tem 4 verificações. **Nenhuma regra do livro mudou, e nenhum validador.**
+
+**Validação:** bateria de 31 de 31, rodada numa cópia com a v0.292 à v0.329 aplicadas. Só a 7.4 pulou: ela confere a entrega commitada, a cópia não tem o `.git` dela, e o `subir.sh` a roda antes de commitar.
+
+→ **Continua em** `invocacoes/LEIA-ME.md`: a pergunta aberta é se o capítulo das Invocações volta para o livro agora, sem o Evocador.
+
+---
+
 ## [0.329] — 30/09/2026
 
 **O personagem Corpo Amaldiçoado ficou imune a `Envenenado`.** *A ideia vinha dos tipos das Invocações: o §77 deu a imunidade ao corpo amaldiçoado das entidades, e a Origem do personagem não tinha. Ela ficou anotada no HD, e o Mizuki aprovou sem medição:* **"n precisa validar mt, so deixa ali, todo mundo ja sabe desse conhecimento, é quase como flavor".** *A régua da peça 26 §6.3 dá `1,20×` à imunidade num inimigo, e o §78 das Invocações a leu como condição de nicho, até `1,07×`; nenhuma das duas foi aplicada aqui.*
