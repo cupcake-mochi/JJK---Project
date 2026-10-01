@@ -8,6 +8,18 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.308] — 29/09/2026
+
+**As Invocações ganharam o §66: a Defesa da entidade fica 10 + Destreza dela + metade da Essência ou da Inteligência do dono, e com revestimento ou traje a proteção dele entra no lugar, como num personagem.** *O §65 reaproveitou a ficha da peça 15 antiga, e a conta achou a Defesa dela até dois pontos abaixo da do personagem que investiu, do nível 15 em diante; a recomendação era trocar a metade do dono pela proteção do personagem.* **Resposta do Mizuki: "A, esse bônus podendo ser anulado caso ela venha a usar algum tipo de revestimento ou traje, igual personagem mesmo".** *As duas não somam. Sem traje, a entidade fica mais fácil de acertar no fim da campanha, e isso entra no preço do §60; como ela ganha o traje fica com o construtor.*
+
+**Adicionado:** o §66 em `invocacoes/DECISOES-A-PARTIR-DO-46.md`, no formato dos anteriores.
+
+**Alterado:** o `invocacoes/LEIA-ME.md`, a fila do `sistema/ESTADO-ATUAL.md` e o `PROMPT-continuar.md` registram o §66 e a pergunta que espera o Mizuki: o PE da entrada. No lote de desenvolvimento, que continua no HD, a candidata foi à revisão 27. **Nenhuma regra do livro mudou, e nenhum validador.**
+
+**Validação:** bateria de 31 de 31, com PULADA zero, rodada numa cópia com a v0.292 à v0.307 aplicadas; a 7.4, que confere a entrega commitada, só roda no repositório, e o `subir.sh` a roda antes de commitar.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: a pergunta do PE da entrada espera o Mizuki.
+
 ## [0.307] — 29/09/2026
 
 **As Invocações ganharam o §65: a ficha da entidade é a da peça 15 antiga.** *O §61 deu a vida e o §64 o dano; faltavam o acerto, a Defesa, o Teste de Resistência, a CD e de onde vem a Constituição. A peça 15 antiga, que o Mizuki fechou entre a v0.246 e a v0.251, já tinha essa ficha: os cinco atributos pelo orçamento da peça 2, acerto, Teste de Resistência e CD com a maestria do dono, e Defesa com metade da Essência ou da Inteligência do dono.* **Resposta do Mizuki: "A e a gente repagina oq parecer necessario, depois a gente segue".** *A Constituição do §61 sai daí. A conta achou o que repaginar: contra a tabela do inimigo de hoje, a Defesa fica até dois pontos abaixo da do personagem que investiu, do nível 15 em diante, porque a ficha antiga é de antes de a proteção andar com o refino.*

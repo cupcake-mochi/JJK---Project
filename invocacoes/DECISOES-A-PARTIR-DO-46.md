@@ -875,3 +875,35 @@ A validação recomendou o 5 e 3 contra a A (7 e 4). A confirmação:
 **[E] Nenhuma decisão anterior foi reaberta.** O §61 ganhou a ficha de onde a Constituição sai.
 
 **Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 64, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 26, e o E25 da bancada mede a Defesa contra a tabela do inimigo; o modelo não muda, porque não tem ficha.*
+
+---
+
+## 66. A Defesa da entidade — decisão de Mizuki, 29/09/2026
+
+**O caso que abriu a pergunta:** nível 25, o chefe da tabela (acerto +8) ataca uma entidade e um personagem que investiram em Destreza, na mesma curva. O §65 reaproveitou a ficha da peça 15 antiga, e a conta (E25) achou a Defesa dela até dois pontos abaixo da do personagem do nível 15 em diante: a ficha antiga é de antes de a proteção andar com o refino.
+
+**As opções:** (A) manter a metade da Essência ou da Inteligência do dono; (B) trocar pela proteção do personagem, pelo refino do dono. Recomendada a (B).
+
+**Resposta autoral:**
+
+> A, esse bônus podendo ser anulado caso ela venha a usar algum tipo de revestimento ou traje, igual personagem mesmo / proximo
+
+### Aprovado
+
+**[D] A Defesa da entidade é 10 + Destreza dela + metade da Essência ou da Inteligência do dono.**
+
+**[D] Se ela usar revestimento ou traje, a proteção dele entra no lugar da metade do dono, como num personagem:** Defesa = 10 + Destreza dela + proteção. As duas não somam.
+
+### Esclarecimentos
+
+**[E] Sem traje, a entidade fica mais fácil de acertar que o personagem que investiu no fim da campanha** (E25: 60% contra 50% a 55%, do nível 15 em diante); com traje, a Defesa segue a do personagem. Isso fica como parte do preço do §60.
+
+**[E] A proteção do traje segue a regra do personagem** (peça 11 §6); de onde a entidade tira o traje é do construtor.
+
+### Limites preservados
+
+**[P] Como a entidade ganha revestimento ou traje** — do construtor.
+
+**[E] Nenhuma decisão anterior foi reaberta.** O §65 fica com a Defesa fechada.
+
+**Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 65, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 27; o E25 da bancada foi a conta da Defesa, e o E26 é a do PE da entrada.*
