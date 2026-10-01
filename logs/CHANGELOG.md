@@ -8,6 +8,20 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.323] — 29/09/2026
+
+**As Invocações ganharam o §88: quem paga a manutenção com o invocador apagado.** *O §47 deixou pendente quem paga, com o invocador apagado, um custo de manutenção que venha a existir — hoje nenhuma entidade tem, porque a manifestação não cobra por rodada (§70). A recomendação era o efeito acabar, porque pagar do PE dele empilha um gasto que ele não escolheu.* **Resposta do Mizuki: "Vamos de B, mas se for uma passiva que n seja 'desligavel', ai C depois A".** O efeito com manutenção que se pode desligar acaba quando o invocador apaga, e a entidade continua agindo pelo §47; a passiva que não se desliga continua, e a manutenção sai da reserva da entidade — só a domada tem (§80) — e, sem ela, do PE do invocador. Se uma passiva é desligável é do texto dela, que o construtor escreve.
+
+**Adicionado:** o §88 em `invocacoes/DECISOES-A-PARTIR-DO-46.md`, no formato dos anteriores.
+
+**Alterado:** o `invocacoes/LEIA-ME.md`, a fila do `sistema/ESTADO-ATUAL.md` e o `PROMPT-continuar.md` registram o §88 e que as sobras fecharam; o próximo passo é o construtor. No lote de desenvolvimento, que continua no HD, a candidata foi à revisão 42. **Nenhuma regra do livro mudou, e nenhum validador.**
+
+**Validação:** bateria de 31 de 31, rodada numa cópia com a v0.292 à v0.322 aplicadas. Só a 7.4 pulou: ela confere a entrega commitada, a cópia não tem o `.git` dela, e o `subir.sh` a roda antes de commitar.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: o construtor das Invocações.
+
+---
+
 ## [0.322] — 29/09/2026
 
 **As Invocações ganharam o §87: o efeito que já estava numa `Desligada` continua.** *O §75 disse o que acontece com o dano que a `Desligada` leva, e não se um efeito que já estava nela — um fogo de três rodadas, uma área que exige presença — continua. A opção de cair encerrar o efeito fazia a queda, somada à volta com metade da vida (§§73 e 85), limpar e curar ao mesmo tempo.* **Resposta do Mizuki: "A".** O dano que repete soma com o que passou do zero e pode destruí-la pelo limiar; a área a alcança e nunca a destrói; a cura que repete não pega (§76); a duração corre.

@@ -1677,3 +1677,35 @@ A validação recomendou o 5 e 3 contra a A (7 e 4). A confirmação:
 **[E] Nenhuma decisão anterior foi reaberta.** O §75 continua; o §87 diz que ele vale também para o que já estava nela.
 
 **Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 86, no HD. *A candidata foi à revisão 41, o Q07g trocou para a regra, e o lote de teste do §87 tem 1 verificação.*
+
+---
+
+## 88. Quem paga a manutenção com o invocador apagado — decisão de Mizuki, 29/09/2026
+
+**O caso que abriu a pergunta:** no futuro, o construtor escreve uma habilidade de entidade que custa 1 PE do invocador por rodada para ficar ligada, e no meio da luta o invocador apaga. O §47 deixou pendente quem paga, com ele apagado, um custo de manutenção que venha a existir; hoje nenhum existe (§70).
+
+**As opções:** (A) continua saindo do PE dele; (B) o efeito com manutenção acaba quando ele apaga; (C) sai da reserva da entidade, se ela tiver. Recomendada a (B).
+
+**Resposta autoral:**
+
+> Vamos de B, mas se for uma passiva que n seja "desligavel", ai C depois A
+
+### Aprovado
+
+**[D] O efeito com manutenção que se pode desligar acaba quando o invocador apaga.** A entidade continua agindo pelo §47.
+
+**[D] A passiva que não se desliga continua, e a manutenção sai primeiro da reserva da entidade** (só a domada tem, §80) **e, sem reserva ou com ela esgotada, do PE do invocador.**
+
+### Esclarecimentos
+
+**[E] Se uma passiva é desligável ou não é do texto dela**, que o construtor escreve.
+
+**[E] A ordem é a do §59 ao contrário do que parece:** lá, a especial reparte o custo entre reserva e invocador; aqui a manutenção da passiva sai inteira da reserva enquanto ela durar, e só então do invocador — a passiva não tem escolha, e a reserva é da entidade.
+
+### Limites preservados
+
+**[P] O que a passiva que não se desliga faz quando a reserva e o PE do invocador acabam** — do texto dela, com o construtor.
+
+**[E] Nenhuma decisão anterior foi reaberta.** O §47 continua: a sustentação não cai com o invocador apagado.
+
+**Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 87, no HD. *A candidata foi à revisão 42, e o lote de teste do §88 tem 4 verificações.*
