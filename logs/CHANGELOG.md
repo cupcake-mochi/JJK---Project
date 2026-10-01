@@ -8,6 +8,20 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.327] — 30/09/2026
+
+**O talismã pesa meio `Volume`, e o item leve passou a valer a fração.** *O item 21 da fila dizia que o sistema não tinha regra de peso, e a premissa estava errada: a peça 14 §6.6 tem o `Volume` desde a v0.256, com o limite de `5 + Força`. Faltava só o talismã, que o §109 das Invocações deixou sem limite de quantidade porque "tem peso".* **Resposta do Mizuki: "mas pode por o talismã como meio mesmo".** *O talismã guardado pesa `0,5` — o §110, em `invocacoes/DECISOES-A-PARTIR-DO-46.md`.*
+
+**No caminho, um buraco na regra dos leves.** *Dez leves faziam `1` de `Volume` arredondando para baixo, a regra do Pathfinder 2e, e nove leves pesavam zero.* **"Problema que assim fica como exploit pegar itens que valem menos que 1... acho que fazer valer a parcela do itens totais é melhor".** *Cada leve vale `0,1`, e a soma não arredonda. A outra saída que ele deu, meio `Volume` para menos de dez leves, criava degraus; a fração não cria. O `conferir-equipamento.py` já somava o leve como `0,1` no peso do catálogo, e o `57,7` não muda.*
+
+**Alterado:** a peça 14 §6.6.1 e o capítulo de equipamento do livro trocaram o arredondamento pela fração; o §110 entrou nas decisões das Invocações; o item 21 da fila do `sistema/ESTADO-ATUAL.md` fechou. Os quatro builds do livro foram refeitos. **Nenhum validador mudou.**
+
+**Validação:** bateria de 31 de 31, rodada numa cópia com a v0.292 à v0.326 aplicadas. Só a 7.4 pulou: ela confere a entrega commitada, a cópia não tem o `.git` dela, e o `subir.sh` a roda antes de commitar.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: a fila do sistema tem abertos os itens que já estavam antes, e as Invocações, o Evocador e as Trilhas.
+
+---
+
 ## [0.326] — 30/09/2026
 
 **A Origem `Corpo Amaldiçoado` ganhou a cura: o reparo.** *O item 20 da fila vinha do §76 das Invocações — "é um corpo... feito de peças né, energia amaldiçoada ja n cura ela" — e deixava o personagem sem cura nenhuma fora do descanso longo, porque toda cura de vida do sistema é energia amaldiçoada e o descanso curto não devolve vida (peça 10).* **Resposta do Mizuki: "A, mas n coloque nenhuma regra que diga sobre a questão dele n ser curado em combate, uma técnica poderia por exemplo, ser focada na narrativa de engenharia, faria sentido ela curar o corpo amaldiçoado".** *O personagem se conserta pelo mesmo reparo do corpo amaldiçoado das Invocações (§108): no descanso curto, alguém com `Entalhador` ou `Forja` faz o teste de ofício na escada que acompanha, e passou, ele recupera metade da vida máxima. A `Energia Reversa`, e o que monta nela, não o cura; e o texto não proíbe outra cura — a técnica cuja Regra alcance um corpo feito cura ele.*

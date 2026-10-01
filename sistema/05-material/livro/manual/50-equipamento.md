@@ -402,7 +402,7 @@ Se quiser conferir de cabeça, a régua é esta:
 | de uma mão, com `Oculta` ou `Vestida` | leve |
 | todo o resto | `1` |
 
-**Dez coisas leves fazem `1` de `Volume`**, arredondando para baixo — nove leves são zero. O que pesa quase nada não conta, e quem decide isso é o mestre.
+**Cada coisa leve vale `0,1` de `Volume`**, e a soma não arredonda: nove leves são `0,9`, e dez são `1`. O que pesa quase nada não conta, e quem decide isso é o mestre.
 
 Item comum — pé de cabra, lanterna, corda, o que estiver na mochila — é **leve**, salvo o que o mestre pesar de outro jeito.
 

@@ -2546,3 +2546,33 @@ A validação recomendou o 5 e 3 contra a A (7 e 4). A confirmação:
 **[E] Fecha a fila das Invocações.** O reparo (§108) e este número vão para a candidata na revisão 44; o §106 e o §107 ficam fora do capítulo.
 
 **Onde a conta mora:** no mesmo lote de desenvolvimento, no HD. *Entrou na candidata na revisão 44.*
+
+---
+
+## 110. O talismã pesa meio `Volume`, e o leve vale a fração — decisão de Mizuki, 30/09/2026
+
+**O caso que abriu a pergunta:** o §109 deixou o talismã sem limite de quantidade porque "tem peso", e o item 21 da fila do sistema dizia que o sistema não tinha regra de peso. Tinha: a peça 14 §6.6, desde a v0.256, com o limite de `5 + Força` em `Volume`. Faltava só quanto pesa um talismã guardado. As opções eram leve (A), `1` cada (B) e meio `Volume` cada (C, recomendada). No meio da conta apareceu outra coisa: pela peça 14, dez leves faziam `1` de `Volume` arredondando para baixo, então nove leves pesavam zero.
+
+**Resposta autoral:**
+
+> mas pode por o talismã como meio mesmo
+
+> Problema que assim fica como exploit pegar itens que valem menos que 1... acho que fazer valer a parcela do itens totais é melhor
+>
+> tipo, se o item leve aclopa 10, cada vale 0.1, pra n valer nada, ou fazer que abaixo do 10 valer meio sempre, pelo menos
+
+### Aprovado
+
+**[D] O talismã guardado pesa `0,5` de `Volume`.** Dois talismãs fazem `1`.
+
+**[D] Cada item leve vale `0,1` de `Volume`, e a soma não arredonda:** nove leves são `0,9`, e dez são `1`. *A regra vale para o sistema inteiro e mora na peça 14 §6.6.1; ela trocou o "arredondando para baixo" que tinha vindo do Pathfinder 2e.* A outra saída que ele deu, meio `Volume` para menos de dez leves, criava degraus (três leves valendo `0,5`, dez valendo `1`), e a fração exata não cria.
+
+### Esclarecimentos
+
+**[E] Quantos cabem, na mão de quem invoca**, com arma de uma mão (`1`) e o resto livre: com Força `0` e `Traje` leve (`0,1`), sobram `3,9`, e cabem `7` talismãs; com Força `1`, `9`; com Força `0`, arma e `Revestimento` de `2`, `4`. *O teto de campo é `2`; o que passa disso é reserva, e a reserva disputa o espaço com a arma e o uniforme.*
+
+**[E] O corpo amaldiçoado inativo continua sem peso** (§84), porque anda. A diferença entre os dois tipos, que o §109 contava, passa a ter número.
+
+**[P] Se o talismã pesa enquanto a entidade dele está em campo** não foi decidido.
+
+**Onde a conta mora:** no mesmo lote de desenvolvimento, no HD. *A candidata foi à revisão 45.*

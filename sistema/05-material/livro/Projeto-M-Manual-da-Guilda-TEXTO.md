@@ -6733,7 +6733,7 @@ Se quiser conferir de cabeça, a régua é esta:
 | de uma mão, com `Oculta` ou `Vestida` | leve |
 | todo o resto | `1` |
 
-**Dez coisas leves fazem `1` de `Volume`**, arredondando para baixo — nove leves são zero. O que pesa quase nada não conta, e quem decide isso é o mestre.
+**Cada coisa leve vale `0,1` de `Volume`**, e a soma não arredonda: nove leves são `0,9`, e dez são `1`. O que pesa quase nada não conta, e quem decide isso é o mestre.
 
 Item comum — pé de cabra, lanterna, corda, o que estiver na mochila — é **leve**, salvo o que o mestre pesar de outro jeito.
 
@@ -7461,4 +7461,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: 106b3334ce3f69b75fd8f3a3f6627dc9eb322efb -->
+<!-- fonte: abddb24504c1bd3336acd9e25075f5f5542b5238 -->

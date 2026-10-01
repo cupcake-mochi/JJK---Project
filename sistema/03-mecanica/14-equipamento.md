@@ -1637,7 +1637,9 @@ Isso é diferente de deixar em aberto — é decisão com condição de disparo,
 
 ***O requisito de Força de arma e de uniforme é INDEPENDENTE do `Volume`***, *por decisão dele:* **"O peso (volume) de cada item/arma vai servir como um segundo balanceador"**. *O requisito continua sendo o do §5.5 e o do §3, e ele não olha o quanto você está carregando.*
 
-**Dez itens leves fazem `1` de `Volume`**, *arredondando para baixo — nove leves são zero.* **O que pesa quase nada não conta**, *e quem decide isso é o mestre, como no Pathfinder.*
+**Cada item leve vale `0,1` de `Volume`, e a soma não arredonda:** *nove leves são `0,9`, e dez são `1`.* **O que pesa quase nada não conta**, *e quem decide isso é o mestre, como no Pathfinder.*
+
+> ***Decisão do Mizuki na v0.327:*** *"Problema que assim fica como exploit pegar itens que valem menos que 1... acho que fazer valer a parcela do itens totais é melhor".* **Até a v0.326 dez leves faziam `1` arredondando para baixo, a regra do Pathfinder 2e, e nove leves pesavam zero.** *O talismã das Invocações pesa `0,5` pela mesma soma (Invocações §110).*
 
 ### 6.6.2 A régua das armas, em três linhas
 
