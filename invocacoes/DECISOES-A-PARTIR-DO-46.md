@@ -639,3 +639,45 @@ Dois critérios, contra o PE por nível dos Caminhos (peça 1: Bastião 4, Vangu
 **[E] Nenhuma decisão anterior foi reaberta.** O §59 cumpre a pauta da decisão 8 do registro da r5.
 
 **Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 58, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 19, o modelo da bancada ganhou a contabilidade de PE da especial, o E17 faz a validação da fração, e o lote de teste do §59 tem 7 verificações, à parte das outras.*
+
+---
+
+## 60. Quanto o conjunto rende por rodada — decisão de Mizuki, 29/09/2026
+
+**O caso que abriu a pergunta:** nível 30, o invocador com quatro entidades (teto de teste) e o limite de 2 ataques (teste). No turno dele, ele ataca com a Padrão — ou comanda uma especial —, e duas entidades atacam com a básica. A peça 6 §4 do principal, escrita para a arquitetura anterior, manda "Você e todas as suas invocações somados entregam uma Rotina", porque sem trava "uma invocação que age sozinha dobra o dano por rodada; uma horda de três quadruplica". O §49 recusou dividir a ficha entre os corpos, e o §52 pôs o limite de ataques como trava; o plano do lote 3 pede a meta antes de qualquer valor de ficha.
+
+**As opções, com a conta da bancada** (E18: o invocador rende uma Rotina com a Padrão, e cada básica vale (meta − 1) ÷ limite):
+
+1. **(A)** uma Rotina, a peça 6 §4 como está: a básica sem dano.
+2. **(B)** uma Rotina e meia: um quarto de Rotina por básica — 27 de dano no nível 30.
+3. **(C)** duas Rotinas: meia Rotina por básica — 54 no nível 30.
+
+Recomendada a (B).
+
+**Resposta autoral:**
+
+> Vamos de B, mas não podemos deixar o invocador tão na frente dos outros personagens em rotina, deve ser levado com cuidado
+
+### Aprovado
+
+**[D] O conjunto — o invocador e as entidades dele — rende até uma Rotina e meia de dano por rodada.**
+
+### Esclarecimentos
+
+**[E] Uma Rotina e meia é teto, não piso:** nenhuma ficha precisa alcançá-la, e nenhuma pode passar dela.
+
+**[E] O tamanho do cuidado, medido:** o degrau de Caminho do nível 7 soma 6% da Rotina no nível 30 (peça 6), e uma Trilha é orçada entre 6% e 9% da Rotina (peça 14 §4). A meia Rotina a mais do conjunto é de 5 a 8 vezes o que uma Trilha soma a um personagem. **Por isso ela só vale com preço:** nenhum número da ficha da entidade, do teto, do limite ou do custo das especiais se aprova sem mostrar, na bancada, o que o invocador paga por essa meia Rotina — em investimento, em fragilidade ou em energia — contra os quatro Caminhos.
+
+**[E] Com o limite de teste 2**, a meta pede um quarto de Rotina por básica; a meta e o número do limite andam juntos (com 3, um sexto).
+
+**[E] A condição Leve pela básica fora do limite (§52) fica fora da meta de dano**, e entra na conta do preço.
+
+### Limites preservados
+
+**[P] O preço da meia Rotina** — do construtor, medido no lote 3.
+
+**[P] A peça 6 §4 do principal** diz uma Rotina e fica como está até a integração (lote 7); o conflito fica anotado aqui.
+
+**[E] Nenhuma decisão anterior foi reaberta.**
+
+**Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 59, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 21, e o E18 da bancada é a conta da meta; o modelo não muda, porque conta ações e não dano.*
