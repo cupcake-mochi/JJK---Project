@@ -8,6 +8,18 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.297] — 29/09/2026
+
+**As Invocações ganharam o §56: a entrada e a troca custam a Ação Bônus do invocador.** *A r5 §9.1 deixava a ação e o PE da entrada sem regra. A conta da pergunta, sobre as três ações do invocador — a Padrão vira Bônus, e a Bônus vira Movimento —, mostrou que pela Bônus o teto de teste enche em 2 turnos, dentro da luta de 3 rodadas que a régua supõe, e a troca sai junto com a especial, uma por turno; pela Padrão, como no D&D, o teto levaria 4 turnos; pelo Movimento, até 2 trocas por turno sem perder a especial fariam do revezamento de entidades feridas uma rotina.* **Resposta do Mizuki: "B mesmo".** A Padrão convertida paga uma segunda entrada no mesmo turno, e aí não comanda a especial; a primeira intenção de quem entra sem trocar continua sendo outra Bônus — o esclarecimento fica para ele vetar. O PE da entrada e da troca, e a ação e o PE do recolhimento sem entrada, continuam pendentes.
+
+**Adicionado:** o §56 em `invocacoes/DECISOES-A-PARTIR-DO-46.md`, no formato dos anteriores.
+
+**Alterado:** o `invocacoes/LEIA-ME.md`, a fila do `sistema/ESTADO-ATUAL.md` e o `PROMPT-continuar.md` registram o §56 e a pergunta que espera o Mizuki: com que ação se recolhe uma entidade sem pôr outra no lugar. No lote de desenvolvimento, que continua no HD, a candidata foi à revisão 16, o modelo ganhou o custo da entrada e da troca, e o lote de teste do §56 tem 6 verificações. **Nenhuma regra do livro mudou, e nenhum validador.**
+
+**Validação:** bateria de 31 de 31, com PULADA zero, rodada numa cópia com a v0.292 à v0.296 aplicadas; a 7.4, que confere a entrega commitada, só roda no repositório, e o `subir.sh` a roda antes de commitar.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: a pergunta da ação do recolhimento espera o Mizuki.
+
 ## [0.296] — 29/09/2026
 
 **As Invocações ganharam o §55: a entidade que entra sem trocar aparece colada no invocador, e na troca a substituta aparece no lugar de quem sai.** *A r5 §9.1 deixava a posição de entrada sem regra, e a posição decide o que a entidade faz no turno em que entra. A conta da pergunta, com o deslocamento de 9 m e o alcance de 1,5 m da regra geral, mostrou que colada ela chega aonde o próprio invocador chegaria, e a até 9 m chegaria ao dobro, com flanco num turno. O D&D 2024 põe a invocação a até 27 m, à vista; o Pathfinder 2e põe o eidolon colado no invocador.* **Resposta do Mizuki: "C - talvez coisas da invocação ou habilidades de trilhas/classes permitir a distancia, tecnica e afins, mas por base C".** Na troca com várias entradas, só a substituta direta ocupa o lugar de quem sai; com várias saídas, ela aparece no lugar de uma delas, à escolha do jogador; e se o lugar não comporta a entidade, ela vai ao espaço livre mais próximo — leituras para ele vetar. Distância maior por capacidade da invocação, Trilha, Caminho ou técnica ficou pendente.

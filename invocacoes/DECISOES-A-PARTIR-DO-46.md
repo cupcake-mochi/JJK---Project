@@ -459,3 +459,41 @@ Fora daqui, o D&D 2024 põe a invocação a até 27 m, à vista, e o Pathfinder 
 **[E] Nenhuma decisão anterior foi reaberta.**
 
 **Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 54, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 15, o modelo da bancada ganhou o registro simbólico da posição, e o lote de teste do §55 tem 5 verificações, à parte das outras.*
+
+---
+
+## 56. Com que ação a entidade entra em campo — decisão de Mizuki, 29/09/2026
+
+**O caso que abriu a pergunta:** teto de 4 corpos (número de teste). No primeiro turno da luta, o invocador tem uma entidade em campo e quer pôr as outras três, e ainda comandar uma especial. A r5 §9.1 deixava a ação e o PE da entrada, do recolhimento e da troca sem regra.
+
+**As opções, com a conta da bancada** (E13, sobre as três ações do invocador; a Padrão vira Bônus, e a Bônus vira Movimento, nunca ao contrário — r5 §4):
+
+1. **(A)** Ação de Movimento: até 3 entradas por turno; entrar, orientar e comandar a especial cabem no mesmo turno; 2 trocas por turno sem perder a especial.
+2. **(B)** Ação Bônus: até 2 entradas por turno; a troca sai junto com a especial, 1 por turno; a entrada pura com intenção consome a Padrão convertida; 2 turnos para encher o teto de teste.
+3. **(C)** Ação Padrão: 1 entrada por turno, e 4 turnos para encher o teto de teste, mais que a luta de 3 rodadas que a régua supõe (peça 19).
+
+A troca paga a mesma ação, por ser um evento só. Fora daqui, o D&D 2024 invoca com a ação principal, e o Pathfinder 2e com o turno inteiro. Recomendada a (B).
+
+**Resposta autoral:**
+
+> B mesmo
+
+### Aprovado
+
+**[D] A entrada e a troca custam a Ação Bônus do invocador.**
+
+### Esclarecimentos
+
+**[E] A Padrão convertida em Bônus paga uma segunda entrada ou troca no mesmo turno** (r5 §4), e aí não comanda a especial.
+
+**[E] A primeira intenção de quem entra sem trocar continua sendo outra Bônus** (r5 §9.4 e §51), separada da entrada: no turno em que entra e é orientada, a entidade consome a Bônus e a Padrão convertida. Na troca, a intenção vem junto (r5 §9.2), e a especial ainda sai pela Padrão.
+
+**[E] O momento, a consciência e a posição continuam os dos §§53 a 55.**
+
+### Limites preservados
+
+**[P] Continuam abertos:** o PE da entrada e da troca; a ação e o PE do recolhimento sem entrada, que é a pergunta seguinte; e a entrada antes de a luta começar.
+
+**[E] Nenhuma decisão anterior foi reaberta.**
+
+**Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 55, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 16, o modelo da bancada ganhou o custo da entrada e da troca, ligado pelo caso, e o lote de teste do §56 tem 6 verificações, à parte das outras.*
