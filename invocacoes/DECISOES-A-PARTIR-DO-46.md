@@ -1011,3 +1011,39 @@ A validação recomendou o 5 e 3 contra a A (7 e 4). A confirmação:
 **[E] Nenhuma decisão anterior foi reaberta.** O §59 ganhou o número que ele repartia.
 
 **Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 68, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 30; o E28 da bancada foi a conta do custo, e o E29 é a da duração da manifestação.*
+
+---
+
+## 70. Quanto dura a manifestação — decisão de Mizuki, 29/09/2026
+
+**O caso que abriu a pergunta:** nível 30, um Bastião com as duas entidades de nível 30, manifestadas de manhã; o dia tem três lutas, com descanso curto entre elas. O §58 põe as manifestadas antes da luta em campo; se a manifestação durasse o dia, o PE da entrada (§67) seria pago uma vez só. A r5 §10 deixou o custo de manter entidades manifestadas fora da luta pendente.
+
+**As opções, com a conta da bancada** (E29): (A) até o fim da cena; (B) até o descanso curto; (C) até o descanso longo. Recomendada a (B).
+
+**Resposta autoral:**
+
+> Sigamos com A, mas caso de uma cena va para uma cena de combate, ela n é desinvocada, apenas no fim do combate, a n ser que o invocador pague novamente
+
+### Aprovado
+
+**[D] A manifestação dura até o fim da cena.**
+
+**[D] Se a cena vira combate, a entidade não é desinvocada na virada:** ela fica até o fim do combate.
+
+**[D] O fim do combate encerra a manifestação, a não ser que o invocador pague de novo** para mantê-la.
+
+### Esclarecimentos
+
+**[E] Todo combate que acaba encerra a manifestação;** o relógio da cena, que cada mestre lê de um jeito (peça 10 §5), só decide fora de combate. Num dia de três lutas, o invocador paga uma manifestação por entidade por luta — 42 PE com as duas de nível 30 (E29).
+
+**[E] "Pagar de novo" é o PE da entrada do §67**, e fora da luta ele não custa ação (§58). Leitura para ele vetar.
+
+**[E] Nenhuma das três opções cobrava PE por rodada** para a entidade existir — a direção da pesquisa de 24/09.
+
+### Limites preservados
+
+**[P] O preço da parte das entidades** (§§60 e 64) — a pergunta seguinte, com o E30.
+
+**[E] Nenhuma decisão anterior foi reaberta.** O §58 continua: a manifestada antes da luta começa em campo, e agora se sabe até quando.
+
+**Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 69, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 31; o E29 da bancada foi a conta da duração, e o E30 é a do preço em PE.*

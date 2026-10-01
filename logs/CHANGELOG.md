@@ -8,6 +8,18 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.312] — 29/09/2026
+
+**As Invocações ganharam o §70: a manifestação dura até o fim da cena; a cena que vira combate vai até o fim do combate, e o fim do combate a encerra, a não ser que o invocador pague de novo.** *O §58 põe as manifestadas antes da luta em campo, e se a manifestação durasse o dia, o PE da entrada do §67 seria pago uma vez só; a r5 §10 deixava o custo de manter pendente.* **Resposta do Mizuki: "Sigamos com A, mas caso de uma cena va para uma cena de combate, ela n é desinvocada, apenas no fim do combate, a n ser que o invocador pague novamente".** *Todo combate que acaba encerra a manifestação, e o relógio da cena só decide fora de combate. A conta seguinte, pela taxa do feitiço, mostrou que o PE da manifestação paga de um quinto a um terço do dano a mais das entidades.*
+
+**Adicionado:** o §70 em `invocacoes/DECISOES-A-PARTIR-DO-46.md`, no formato dos anteriores.
+
+**Alterado:** o `invocacoes/LEIA-ME.md`, a fila do `sistema/ESTADO-ATUAL.md` e o `PROMPT-continuar.md` registram o §70 e a pergunta que espera o Mizuki: o preço da parte das entidades. No lote de desenvolvimento, que continua no HD, a candidata foi à revisão 31. **Nenhuma regra do livro mudou, e nenhum validador.**
+
+**Validação:** bateria de 31 de 31, com PULADA zero, rodada numa cópia com a v0.292 à v0.311 aplicadas; a 7.4, que confere a entrega commitada, só roda no repositório, e o `subir.sh` a roda antes de commitar.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: a pergunta do preço espera o Mizuki.
+
 ## [0.311] — 29/09/2026
 
 **As Invocações ganharam o §69: a especial custa 3 × a Classe do nível da entidade em PE, como um feitiço da mesma Classe, repartida pelo §59.** *A r5 §5 dizia "não há fonte de PE implícita", e o §59 decidiu de onde a energia sai, sem o custo.* **Resposta do Mizuki: "A proximo".** *Com a entidade no nível do invocador, atacar ou comandar custa o mesmo PE com a mesma Padrão; a de nível mais baixo custa menos e bate menos (§68). Com as entradas do §67, o Bastião que comanda três especiais por luta gasta 47 PE nela, e o preço da parte das entidades olha essa conta junto.*
