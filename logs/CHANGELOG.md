@@ -8,6 +8,18 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.299] — 29/09/2026
+
+**As Invocações ganharam o §58: as entidades manifestadas antes da luta começam em campo quando ela começa**, até o teto, com a intenção que tinham, e agem desde a primeira rodada. *As regras de entrada dos §§53 a 57 são as da luta. A conta da pergunta, a luta de 3 rodadas no modelo com os números de teste, deu 5 ataques das entidades começando todas na reserva, 7 com uma em campo e 9 com todas — a primeira rodada, da reserva, não tem ataque.* **Resposta do Mizuki: "A - já foi até discutido antes, pode continuar".** Tinha sido: na peça 15 da arquitetura anterior, Q4, com a cena do Megumi com o lobo fora de combate — fora de combate a ação não custa nada. A arquitetura anterior não volta como regra, mas a intenção dele registrada lá vale, e a pergunta não devia ter sido feita sem citá-la. Fora da luta, entrar e recolher não custam ação, e o teto conta os corpos manifestados também ali; quem não estava manifestada começa na reserva, inclusive na surpresa — esclarecimentos para ele vetar. O custo de manter entidades manifestadas fora da luta e o PE continuam pendentes.
+
+**Adicionado:** o §58 em `invocacoes/DECISOES-A-PARTIR-DO-46.md`, no formato dos anteriores.
+
+**Alterado:** o `invocacoes/LEIA-ME.md`, a fila do `sistema/ESTADO-ATUAL.md` e o `PROMPT-continuar.md` registram o §58 e a pergunta que espera o Mizuki: de onde sai a energia das especiais das entidades. No lote de desenvolvimento, que continua no HD, a candidata foi à revisão 18, o modelo ganhou o começo da luta, e o lote de teste do §58 tem 3 verificações. **Nenhuma regra do livro mudou, e nenhum validador.**
+
+**Validação:** bateria de 31 de 31, com PULADA zero, rodada numa cópia com a v0.292 à v0.298 aplicadas; a 7.4, que confere a entrega commitada, só roda no repositório, e o `subir.sh` a roda antes de commitar.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: a pergunta da energia das especiais espera o Mizuki.
+
 ## [0.298] — 29/09/2026
 
 **As Invocações ganharam o §57: recolher uma entidade sem pôr outra no lugar também custa a Ação Bônus do invocador.** *O §56 deu custo à entrada e à troca e deixou o recolhimento sem entrada pendente. A conta da pergunta mostrou que pela Bônus recolher disputa com a troca e o redirecionamento — recolher e redirecionar no mesmo turno consome a Padrão convertida —, enquanto pelo Movimento ou sem ação caberia tudo no mesmo turno.* **Resposta do Mizuki: "A".** Entrar, trocar e recolher custam a mesma Bônus, e como a troca custa o mesmo, com reserva saudável a troca é o uso comum. A Padrão convertida paga um segundo gasto de Bônus no turno, sem a especial — o esclarecimento fica para ele vetar. O PE dos três e a entrada antes de a luta começar continuam pendentes.

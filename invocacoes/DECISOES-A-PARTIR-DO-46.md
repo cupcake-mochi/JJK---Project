@@ -535,3 +535,45 @@ Recomendada a (A): entrar, trocar e recolher custam a mesma Bônus.
 **[E] Nenhuma decisão anterior foi reaberta.** Com o §57, entrar, trocar e recolher custam a mesma Ação Bônus.
 
 **Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 56, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 17, o modelo da bancada ganhou o custo do recolhimento, ligado pelo caso, e o lote de teste do §57 tem 5 verificações, à parte das outras.*
+
+---
+
+## 58. A entidade pode começar a luta em campo — decisão de Mizuki, 29/09/2026
+
+**O caso que abriu a pergunta:** o grupo entra numa sala e a luta começa; o invocador tem quatro entidades (teto de teste). As regras de entrada dos §§53 a 57 são as da luta, e nada dizia se a entidade manifestada antes dela continua em campo quando a iniciativa é rolada.
+
+**As opções, com a conta da bancada** (E15, a luta de 3 rodadas no modelo, com o teto e o limite de ataques de teste e os custos dos §§56 e 57, no melhor plano do invocador):
+
+1. **(A)** pode: as manifestadas antes começam em campo, até o teto, e agem desde a primeira rodada — 3 · 3 · 3, 9 ataques das entidades.
+2. **(B)** não: todas começam na reserva — 0 · 2 · 3, 5 ataques; a primeira rodada é só entrada.
+3. **(C)** só uma — 1 · 3 · 3, 7 ataques.
+
+Recomendada a (A).
+
+**Resposta autoral:**
+
+> A - já foi até discutido antes, pode continuar
+
+**Onde tinha sido discutido:** na peça 15 da arquitetura anterior (hoje no museu), na Q4, que registra a cena citada por Mizuki — "muitas vezes o próprio Megumi tinha o lobo em uso fora de combate" — e a conclusão de que "fora de combate a ação não custa nada": quem invoca antes da luta começa com a invocação de pé. A arquitetura anterior não volta como regra; a intenção dele que ficou registrada lá vale, e a pergunta não devia ter sido feita sem citá-la.
+
+### Aprovado
+
+**[D] As entidades manifestadas antes da luta começam em campo quando ela começa**, até o teto, com a intenção que tinham, e agem desde a primeira rodada.
+
+### Esclarecimentos
+
+**[E] Fora da luta, entrar e recolher não custam ação** — a Bônus dos §§56 e 57 é da economia do turno, que não existe antes da iniciativa. O PE de manifestar, quando existir, é pago do mesmo jeito.
+
+**[E] O teto conta os corpos manifestados também fora da luta.**
+
+**[E] Quem não estava manifestada começa na reserva** e entra pelo §56 — inclusive quando o grupo é pego de surpresa.
+
+### Limites preservados
+
+**[P] O custo de manter entidades manifestadas fora da luta** continua aberto: a autonomia não cobra taxa periódica só por a entidade ficar em campo (r5 §10), e custos particulares de duração e manutenção seguem possíveis. O peso narrativo de andar com várias entidades — espaço, furtividade, quem vê — fica com o mestre.
+
+**[P] O PE de manifestar, trocar e recolher** continua aberto.
+
+**[E] Nenhuma decisão anterior foi reaberta.**
+
+**Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 57, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 18, o modelo da bancada ganhou o começo da luta, e o lote de teste do §58 tem 3 verificações, à parte das outras.*
