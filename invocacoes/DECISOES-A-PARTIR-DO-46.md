@@ -729,3 +729,39 @@ A validação recomendou o 5 e 3 contra a A (7 e 4). A confirmação:
 **[E] Nenhuma decisão anterior foi reaberta.** O que acontece em zero PV continua sendo o §46.
 
 **Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 60, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 22, o modelo da bancada ganhou a fórmula da vida, o E20 faz a validação, e o lote de teste do §61 tem 4 verificações, à parte das outras.*
+
+---
+
+## 62. Quantas entidades cabem em campo na base — decisão de Mizuki, 29/09/2026
+
+**O caso que abriu a pergunta:** nível 30, limite de ataques de teste 2, entidades de Constituição 3 (182 de vida pelo §61). O §49 deixou o número do teto e como ele cresce pendentes; a pesquisa de 24/09 propôs o teto por Trilha (uma sempre; uma que vira duas; duas que viram três e quatro), e é dela o eixo de teste de 4.
+
+**As opções, com a conta da bancada** (E21): 1, 2, 3 ou 4 em campo; o dano não cresce com o teto, porque o limite segura; cada corpo além do segundo soma uma básica sem dano, fora do limite e da meta, e 182 de vida. Recomendada 2, com o teto crescendo por Trilha ou Caminho.
+
+**A pergunta dele antes da resposta:** "essa pergunta cita a questão de 'trilha', então já estamos calculando considerando que ela vai vir existir, né?" — a conta não dependia, a recomendação sim: as Trilhas de invocação que existiram eram do Evocador, fora da edição jogável. As opções passaram a ser (A) sem contar com Trilha — a base fecha sozinha do nível 1 ao 30 — ou (B) contando com ela.
+
+**Resposta autoral:**
+
+> A - e fica 2 no máximo base mesmo
+
+### Aprovado
+
+**[D] A conta das Invocações não supõe Trilha ou Caminho que ainda não existe:** a base tem de fechar sozinha, do nível 1 ao 30.
+
+**[D] O teto de base é 2 entidades em campo ao mesmo tempo, do nível 1 ao 30.** Ele não cresce com o nível.
+
+### Esclarecimentos
+
+**[E] O teto conta corpos em campo, como no §49:** a reserva não conta, e trocar continua sendo o jeito de usar outras entidades.
+
+**[E] Os lotes anteriores usam 3 e 4 como números de teste da mecânica do teto** (§§49, 52, 58), e continuam valendo como teste do modelo; na base, o valor é 2. O eixo de 4 dos E5, E7, E8 e E13 é de leitura, e não de desenho.
+
+**[E] Com o teto 2 e o limite de teste 2, nenhuma básica fica sem dano na base** (E21), e o limite não barra nada; o número do limite é a pergunta seguinte.
+
+### Limites preservados
+
+**[P] Um teto maior** só vem de regra que ainda não existe — Trilha, Caminho ou técnica —, e ela terá de mostrar o preço contra o §60.
+
+**[E] Nenhuma decisão anterior foi reaberta.** O §49 continua: cada entidade com a própria ficha, e o teto conta corpos.
+
+**Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 61, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 23, o modelo da bancada ganhou o teto de base, o E21 foi a conta do teto e o E22 é a do limite com ele, e o lote de teste do §62 tem 3 verificações, à parte das outras.*
