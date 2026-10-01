@@ -8,6 +8,18 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.329] — 30/09/2026
+
+**O personagem Corpo Amaldiçoado ficou imune a `Envenenado`.** *A ideia vinha dos tipos das Invocações: o §77 deu a imunidade ao corpo amaldiçoado das entidades, e a Origem do personagem não tinha. Ela ficou anotada no HD, e o Mizuki aprovou sem medição:* **"n precisa validar mt, so deixa ali, todo mundo ja sabe desse conhecimento, é quase como flavor".** *A régua da peça 26 §6.3 dá `1,20×` à imunidade num inimigo, e o §78 das Invocações a leu como condição de nicho, até `1,07×`; nenhuma das duas foi aplicada aqui.*
+
+**Alterado:** a peça 9 §5 ganhou a linha `Imunidade` no Corpo Amaldiçoado, e o capítulo das Origens do livro, a seção `Imunidade`. Os quatro builds do livro foram refeitos. **Nenhum validador mudou.**
+
+**Validação:** bateria de 31 de 31, rodada numa cópia com a v0.292 à v0.328 aplicadas. Só a 7.4 pulou: ela confere a entrega commitada, a cópia não tem o `.git` dela, e o `subir.sh` a roda antes de commitar.
+
+→ **Continua em** `invocacoes/DECISOES-A-PARTIR-DO-46.md`, no §112: a pergunta aberta é o que a entidade veste ou segura quando sai de campo.
+
+---
+
 ## [0.328] — 30/09/2026
 
 **As Invocações ganharam os §§111 a 113: o talismã em campo, o traje e o que a entidade carrega.** *O §110 deixou pendente se o talismã pesa com a entidade em campo, e o §66 deixou para o construtor como a entidade ganha traje.* **Respostas do Mizuki:** *"vc n perde o talisma, so tira a invocação dentro" — o talismã continua pesando `0,5` (§111); "mas é um item normal, que normalmente vai poder ser equipado em corpos amaldiçoados ou não" — `Traje` e `Revestimento` são os da peça 14 §3, qualquer entidade veste, e a proteção entra no lugar da metade do dono, como o uniforme entra no lugar do cobrir-se no personagem (§112); e "invocações n consegue carregar mais do que elas tem em mãos a não ser que tenha uma caracteristica propriamente dita para ter armazenamento de um player ou carregar personagens (como nue)" (§113).*

@@ -506,6 +506,10 @@ A `Energia Reversa`, e o que monta nela, não te cura: você é um corpo feito d
 
 Uma técnica cuja Regra alcance um corpo feito — uma de engenharia, por exemplo — cura você como cura qualquer um.
 
+#### Imunidade
+
+Você é imune a `Envenenado`.
+
 ### Legados do Corpo Amaldiçoado
 
 #### Destranca
