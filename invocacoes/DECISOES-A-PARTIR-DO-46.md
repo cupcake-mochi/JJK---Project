@@ -224,3 +224,49 @@ Recomendada a (A).
 **[E] Nenhuma decisão anterior foi reaberta.** O §50 fecha o que a r5 §1 deixava em aberto, e a adaptação do `Atordoado` (r5 §7) — "se uma futura ficha tiver várias atuações, perde uma" — continua valendo para um aumento futuro.
 
 **Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 49, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 10, a básica por corpo saiu das hipóteses da bancada e passou às decisões, e o lote de teste do §50 tem 5 verificações, à parte das outras.*
+
+---
+
+## 51. Quantas entidades uma Bônus de redirecionamento alcança — decisão de Mizuki, 29/09/2026
+
+**O caso que abriu a pergunta:** quatro corpos em campo (teto de teste) protegem uma entrada. O inimigo aparece do outro lado, e o invocador quer mandar os quatro atacar ele. A r5 §4 dava ao redirecionamento a mesma intenção nova para até X destinatárias, cobrava um comando por intenção diferente e deixava X sem número; pelo §49, o número de corpos pode chegar ao teto.
+
+**As opções, com a conta da bancada** (E7, quatro corpos, a mesma intenção para todos):
+
+1. **(A)** X são todas as entidades em campo: 1 Bônus, 1 turno.
+2. **(B)** X é uma: 4 Bônus — 4 turnos só com a Bônus, ou 2 convertendo a Padrão, com 2 especiais a menos.
+3. **(C)** o vínculo diz, entre uma e todas.
+
+Recomendada a (A).
+
+**Resposta autoral:**
+
+> e temos um problema, n da pra ser "uma" e n da pra ser "todas", pq a gente vai impor o limite de quantas podem atacar no mesmo turno por exemplo. Lembra?
+>
+> Ent se for todas, digamos que ele tem 4 invocações, só duas poderiam bater (exemplo), como fica as outras duas? Fica estranho. Diria que sim, da pra mandar em TODAS, mas n precisa ser a mesma ordem pra todas, contanto que seja básica, claro
+
+### Aprovado
+
+**[D] Uma Ação Bônus de redirecionamento alcança todas as entidades do invocador em campo, e cada uma pode receber uma intenção diferente, desde que seja intenção de básica.** Isso revê, por decisão autoral, duas frases da r5: "a mesma nova intenção a até X destinatárias" e "Intenções distintas exigem comandos distintos na base" (§4). X passa a ser todas as entidades em campo, e intenções diferentes cabem na mesma Bônus.
+
+### Esclarecimentos
+
+**[E] A especial continua pela Padrão** (r5 §5). O redirecionamento não autoriza especial (r5 §4), e isso vale para cada intenção da mesma Bônus.
+
+**[E] Cada intenção continua sujeita à delimitação e à recepção da r5:** um objetivo coerente, com referência identificável (§§31–32), e só quem recebe muda de intenção; quem não recebe fica na anterior, e a Bônus é uma só, sem devolução (§4.1).
+
+**[E] A primeira intenção de quem entra sem substituir** continua usando a Bônus de redirecionamento (§9.4), e a mesma Bônus pode dar as intenções de todas as outras.
+
+**[E] O redirecionamento não devolve básica, Movimento nem coletiva** (r5 §4), e uma segunda Bônus no mesmo turno, pela Padrão convertida, segue o custo normal.
+
+**[E] O invocador apagado não redireciona** (§47), e se a `Desligada` pode receber ordem continua pendente (§46).
+
+### Limites preservados
+
+**[P] O limite de quantas entidades atacam no mesmo turno** — "a gente vai impor o limite de quantas podem atacar no mesmo turno". Ele não estava registrado em decisão nenhuma: a ideia estava na pesquisa (P1, "Capacidade de Comando": "somente uma ou duas recebem ordens ofensivas relevantes naquele turno") e na base de 23/09 ("Ações, movimentos e respostas precisam ser definidos separadamente da quantidade de corpos"), e o §49 e o §50 não trataram dele. O §51 foi decidido para caber nesse limite: as entidades que não atacam recebem outra tarefa de básica na mesma Bônus. O que o limite conta e o número são a pergunta seguinte.
+
+**[P] Alcance e canais de comunicação do vínculo** continuam abertos (r5 §4).
+
+**[E] Nenhuma outra decisão foi reaberta.** O §51 revê só as duas frases da r5 §4 citadas acima e a menção à "mesma tarefa" da §4.1.
+
+**Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 50, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 11, a primeira que muda texto de decisão da r5, o modelo da bancada ganhou o redirecionamento com uma intenção por entidade, e o lote de teste do §51 tem 9 verificações, à parte das outras.*

@@ -8,6 +8,18 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.292] — 29/09/2026
+
+**As Invocações ganharam o §51: uma Ação Bônus de redirecionamento alcança todas as entidades em campo, e cada uma pode receber uma intenção diferente, desde que seja de básica.** *A r5 §4 dava ao redirecionamento a mesma intenção para até X destinatárias, cobrava um comando por intenção diferente e deixava X sem número. A pergunta trazia três opções — X todas, X uma ou o vínculo decide —, e o Mizuki respondeu com uma quarta:* **"n da pra ser 'uma' e n da pra ser 'todas', pq a gente vai impor o limite de quantas podem atacar no mesmo turno por exemplo. [...] Diria que sim, da pra mandar em TODAS, mas n precisa ser a mesma ordem pra todas, contanto que seja básica, claro".** O §51 revê, por decisão dele, duas frases da r5 §4 — "a mesma nova intenção a até X destinatárias" e "Intenções distintas exigem comandos distintos na base" —, e é a primeira decisão nova que muda texto de decisão da r5. A especial continua pela Padrão, e a recepção, a delimitação das intenções e o que o redirecionamento não devolve ficam como estavam. **O limite de ataques que motivou a resposta não estava registrado em decisão nenhuma:** a ideia estava na pesquisa (P1, "Capacidade de Comando") e na base de 23/09, e o §49 e o §50 não trataram dela. Ele ficou como pendente no §51, e o que ele conta é a pergunta seguinte.
+
+**Adicionado:** o §51 em `invocacoes/DECISOES-A-PARTIR-DO-46.md`, no formato dos anteriores.
+
+**Alterado:** o `invocacoes/LEIA-ME.md`, a fila do `sistema/ESTADO-ATUAL.md` e o `PROMPT-continuar.md` registram o §51 e a pergunta que espera o Mizuki: o que o limite de ataques por turno conta. No lote de desenvolvimento, que continua no HD, a candidata foi à revisão 11, o modelo da bancada ganhou o redirecionamento com uma intenção por entidade, e o lote de teste do §51 tem 9 verificações. **Nenhuma regra do livro mudou, e nenhum validador.**
+
+**Validação:** bateria de 31 de 31, com PULADA zero.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: a pergunta do limite de ataques espera o Mizuki.
+
 ## [0.291] — 29/09/2026
 
 **As Invocações ganharam o §50: cada corpo tem uma básica por ciclo, e a quantidade não cresce com o nível.** *A r5 §1 deixava a quantidade final de básicas e a progressão abertas, e o §49 fez essa quantidade multiplicar com o teto de corpos: com o teto cheio de 4 corpos, uma segunda básica por corpo levaria o conjunto de 4 a 8 atuações por ciclo, contra os 2 golpes do Bastião e da Vanguarda depois do ataque extra do nível 7.* **Resposta do Mizuki: "A - Caminhos/Trilhas a gente talvez aumente, mas mantenha um".** A entidade cresce pela ficha, e o conjunto pelo teto; a trava de rotação, a transferência de no máximo uma e a especial que ocupa a básica ficam como estão. A básica por corpo era hipótese da bancada desde a v0.2 e virou regra. Um aumento vindo de Caminho ou Trilha ficou pendente, com a leitura registrada para ele vetar: um Caminho ou uma Trilha pode, no futuro, dar mais básicas à entidade, e nada concede isso hoje.
