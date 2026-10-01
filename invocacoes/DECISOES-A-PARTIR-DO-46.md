@@ -1649,3 +1649,31 @@ A validação recomendou o 5 e 3 contra a A (7 e 4). A confirmação:
 **[E] Nenhuma decisão anterior foi reaberta.** O §48 continua: as entidades saem de campo na hora, e a que não recolhe fica `Desligada`; o §86 diz o que vem depois.
 
 **Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 85, no HD. *A candidata foi à revisão 40; a morte do invocador passou a dar o destino por origem, os dois casos que eram indeterminados trocaram para a recusa, e o lote de teste do §86 tem 5 verificações.*
+
+---
+
+## 87. Um efeito que repete numa `Desligada` — decisão de Mizuki, 29/09/2026
+
+**O caso que abriu a pergunta:** um corpo amaldiçoado pegando fogo por uma técnica inimiga que causa dano no fim de cada turno dele, por três rodadas, cai no meio disso e fica `Desligada`; tinha uma bênção de um aliado e estava numa área que só afeta quem está nela. O §75 diz o que acontece com o dano que ela leva, e não se um efeito que já estava nela continua.
+
+**As opções:** (A) o efeito continua; (B) cair encerra o efeito; (C) o efeito fica parado até religar. Recomendada a (A).
+
+**Resposta autoral:**
+
+> A
+
+### Aprovado
+
+**[D] O efeito que já estava na `Desligada` continua:** o dano que repete soma com o que passou do zero e pode destruí-la pelo limiar (§§73 e 75); a área que exige presença a alcança, porque ela está lá, e nunca a destrói; o efeito de cura que repete não pega (§76); a duração corre.
+
+### Esclarecimentos
+
+**[E] Cair não limpa:** a opção B faria a queda, somada à volta com metade da vida (§§73 e 85), limpar e curar ao mesmo tempo.
+
+**[E] O Q07g do lote do §46**, que era indeterminado de propósito, passa a aplicar o efeito; a troca está declarada no executor, com a fonte.
+
+### Limites preservados
+
+**[E] Nenhuma decisão anterior foi reaberta.** O §75 continua; o §87 diz que ele vale também para o que já estava nela.
+
+**Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 86, no HD. *A candidata foi à revisão 41, o Q07g trocou para a regra, e o lote de teste do §87 tem 1 verificação.*

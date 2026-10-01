@@ -8,6 +8,20 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.322] — 29/09/2026
+
+**As Invocações ganharam o §87: o efeito que já estava numa `Desligada` continua.** *O §75 disse o que acontece com o dano que a `Desligada` leva, e não se um efeito que já estava nela — um fogo de três rodadas, uma área que exige presença — continua. A opção de cair encerrar o efeito fazia a queda, somada à volta com metade da vida (§§73 e 85), limpar e curar ao mesmo tempo.* **Resposta do Mizuki: "A".** O dano que repete soma com o que passou do zero e pode destruí-la pelo limiar; a área a alcança e nunca a destrói; a cura que repete não pega (§76); a duração corre.
+
+**Adicionado:** o §87 em `invocacoes/DECISOES-A-PARTIR-DO-46.md`, no formato dos anteriores.
+
+**Alterado:** o `invocacoes/LEIA-ME.md`, a fila do `sistema/ESTADO-ATUAL.md` e o `PROMPT-continuar.md` registram o §87 e a pergunta que espera o Mizuki: quem paga, com o invocador apagado, um custo de manutenção que venha a existir. No lote de desenvolvimento, que continua no HD, a candidata foi à revisão 41, o último caso indeterminado que não dependia do vínculo trocou para a regra, e a dívida do arquivo de pendências da bancada fechou. **Nenhuma regra do livro mudou, e nenhum validador.**
+
+**Validação:** bateria de 31 de 31, rodada numa cópia com a v0.292 à v0.321 aplicadas. Só a 7.4 pulou: ela confere a entrega commitada, a cópia não tem o `.git` dela, e o `subir.sh` a roda antes de commitar.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: a pergunta da manutenção espera o Mizuki; depois, o construtor.
+
+---
+
 ## [0.321] — 29/09/2026
 
 **As Invocações ganharam o §86: o que acontece com as entidades quando o invocador morre.** *O §48 tirou as entidades de campo na hora e deixou o destino duradouro pendente, "candidato a depender do vínculo"; com os cinco tipos (§§77 a 85), o vínculo existe. A recomendação era um destino por origem, e a obra sustenta a parte da domada, pela peça 15 antiga: "a user can only absorb tamed cursed spirits after killing their master".* **Resposta do Mizuki: "A".** A entidade de técnica some com o dono, e o corpo de técnica autônomo, que tem alma, fica, com o mestre; a de criação fica no mundo como objeto — o talismã com a carga que tinha, o corpo parado —; e a maldição domada fica livre, volta a ser maldição, com o mestre, e outro invocador pode domá-la. "O mestre" é o da mesa em que o invocador morreu, e o invocador morto não traz ninguém de volta.
