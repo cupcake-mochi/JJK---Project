@@ -8,6 +8,18 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.295] — 29/09/2026
+
+**As Invocações ganharam o §54: a entidade só é recolhida no turno do invocador.** *O §53 fechou a entrada e deixou o recolhimento sem entrada fora do turno pendente — e recolher antes de um golpe mortal é a diferença entre a entidade cair e não cair. A conta da pergunta, rodada no modelo, mostrou que recolher antes do golpe conserva o PV e deixa a entidade voltar no turno seguinte, ao preço da Reação do invocador ou da coletiva, que ainda derrubaria as preparações do conjunto.* **Resposta do Mizuki: "A".** No turno do inimigo, a entidade fica e aguenta o golpe; recolher uma entidade ferida continua possível no turno dele. O recolhimento é ato do invocador e pede ele consciente, e a saída pela queda (§46) e pela morte do invocador (§48) não é recolhimento — os dois esclarecimentos ficam para ele vetar. Um Caminho ou uma Trilha pode mudar isso no futuro, como no §53.
+
+**Adicionado:** o §54 em `invocacoes/DECISOES-A-PARTIR-DO-46.md`, no formato dos anteriores.
+
+**Alterado:** o `invocacoes/LEIA-ME.md`, a fila do `sistema/ESTADO-ATUAL.md` e o `PROMPT-continuar.md` registram o §54 e a pergunta que espera o Mizuki: onde a entidade aparece ao entrar. No lote de desenvolvimento, que continua no HD, a candidata foi à revisão 14, o modelo passou a recusar o recolhimento fora do turno, e o lote de teste do §54 tem 6 verificações; um caso do lote do §53 trocou de resposta, declarado no executor. **Nenhuma regra do livro mudou, e nenhum validador.**
+
+**Validação:** bateria de 31 de 31, com PULADA zero, rodada numa cópia com a v0.292 à v0.294 aplicadas; a 7.4, que confere a entrega commitada, só roda no repositório, e o `subir.sh` a roda antes de commitar.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: a pergunta da posição da entrada espera o Mizuki.
+
 ## [0.294] — 29/09/2026
 
 **As Invocações ganharam o §53: a entidade só entra em campo no turno do invocador.** *A r5 §9.1 deixava ação, PE, posição, oportunidade e requisitos da entrada sem regra, e nada dizia em que momento ela é legal. A pergunta trazia três opções — só no turno do invocador, também fora dele com a Reação pessoal, ou fora dele só se preparada no turno —, e a conta dela, rodada no modelo, mostrou que entrar fora do turno daria a primeira básica na mesma virada que entrar no turno, com menos exposição, e deixaria a entrada no turno quase sem motivo. O D&D 2024 e o Pathfinder 2e também só invocam no turno de quem invoca.* **Resposta do Mizuki: "A, definitivamente / E futuramente podemos fazer os caminhos mexerem nisso".** Fora do turno, nenhuma entidade entra, e a vaga aberta no turno do inimigo fica vazia até o turno dele. A entrada é ato do invocador e pede ele consciente, e a troca, que inclui uma entrada, segue a mesma regra — os dois esclarecimentos ficam para ele vetar. Um Caminho ou uma Trilha pode mudar isso no futuro, como concessão expressa. O recolhimento sem entrada fora do turno, a posição e o custo continuam pendentes.

@@ -377,3 +377,43 @@ Fora daqui, o D&D 2024 invoca com a ação principal e o Pathfinder 2e manifesta
 **[E] Nenhuma decisão anterior foi reaberta.** O §53 fecha só o momento da entrada, que a r5 §9.1 deixava aberto.
 
 **Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 52, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 13, o modelo da bancada passou a recusar a entrada e a troca fora do turno e com o invocador apagado, e o lote de teste do §53 tem 7 verificações, à parte das outras.*
+
+---
+
+## 54. Recolher fora do turno do invocador — decisão de Mizuki, 29/09/2026
+
+**O caso que abriu a pergunta:** duas entidades em campo; a B tem uma básica preparada. No turno do inimigo, ele ataca a entidade A com um golpe que a levaria a zero PV. O invocador pode recolher A ali, antes do golpe? O §53 fechou só a entrada e deixou o recolhimento sem entrada fora do turno pendente; recolher antes de um golpe mortal é a diferença entre a entidade cair e não cair.
+
+**As opções, com a conta da bancada** (E11, rodada no modelo): recolher antes do golpe conserva o PV de A, e ela volta no turno seguinte; sem recolher, ela cai pelo §46, e a volta fica pendente. A vaga é a mesma nas três, pelo §53.
+
+1. **(A)** só no turno do invocador, como a entrada.
+2. **(B)** também fora do turno, com a Reação pessoal do invocador, uma por ciclo.
+3. **(C)** também fora do turno, com a Reação coletiva — que, gasta, derruba as preparações do conjunto (r5 §8.1).
+
+Recomendada a (A).
+
+**Resposta autoral:**
+
+> A
+
+### Aprovado
+
+**[D] A entidade só é recolhida no turno do invocador.** No turno do inimigo, a entidade fica e aguenta o golpe; recolher uma entidade ferida continua possível no turno dele, antes de o inimigo agir.
+
+### Esclarecimentos
+
+**[E] O recolhimento é ato do invocador, então pede ele consciente**, como a entrada do §53. Com ele apagado (§47), ninguém é recolhido, nem no turno dele.
+
+**[E] A saída pela queda (§46) e pela morte do invocador (§48) não é recolhimento** e continua valendo em qualquer momento.
+
+**[E] O S53g, o caso do lote do §53 que registrava o recolhimento fora do turno como pendente, trocou de resposta**, e a troca está declarada no executor com esta fonte — como a R2-15 no §46.
+
+### Limites preservados
+
+**[P] Um Caminho ou uma Trilha pode mudar isso no futuro**, como no §53: nada concede recolher fora do turno hoje.
+
+**[P] Continuam abertos:** a posição da entrada, que é a pergunta seguinte, e o custo da entrada, do recolhimento e da troca.
+
+**[E] Nenhuma decisão anterior foi reaberta.** O §54 fecha o que o §53 deixou pendente.
+
+**Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 53, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 14, o modelo da bancada passou a recusar o recolhimento fora do turno e com o invocador apagado, e o lote de teste do §54 tem 6 verificações, à parte das outras.*
