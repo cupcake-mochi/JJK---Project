@@ -8,6 +8,18 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.317] — 29/09/2026
+
+**As Invocações ganharam o §75: a `Desligada` é um objeto no campo, e não conta no teto de corpos.** *O §46 deixou abertos o que ela ocupa, a vaga do teto, mover, destruir, curar, religar, projetar e receber ordem; o §74 disse para quem ela vale. A recomendação era o objeto contando no teto.* **Resposta do Mizuki: "B, ele n ta ativo e pode fazer nada, n faz sentido contar, meio que o caso do mechamaru ele precisa levar esses por ai pra conseguir 'funcionar', n faria sentido contar pro limite".** *Ela ocupa o lugar dela, pode ser carregada, morre de vez pelo limiar do §73, não atua, não recebe ordem e não projeta nada, religa pela entrada com metade da vida e sai no fim do combate. Se a cura tem algum efeito numa entidade a zero ficou para a pergunta seguinte.*
+
+**Adicionado:** o §75 em `invocacoes/DECISOES-A-PARTIR-DO-46.md`, no formato dos anteriores.
+
+**Alterado:** o `invocacoes/LEIA-ME.md`, a fila do `sistema/ESTADO-ATUAL.md` e o `PROMPT-continuar.md` registram o §75 e a pergunta que espera o Mizuki: a cura numa entidade. No lote de desenvolvimento, que continua no HD, a candidata foi à revisão 36, e o modelo tirou a `Desligada` da conta do teto. **Nenhuma regra do livro mudou, e nenhum validador.**
+
+**Validação:** bateria de 31 de 31, com PULADA zero, rodada numa cópia com a v0.292 à v0.316 aplicadas; a 7.4, que confere a entrega commitada, só roda no repositório, e o `subir.sh` a roda antes de commitar.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: a pergunta da cura espera o Mizuki.
+
 ## [0.316] — 29/09/2026
 
 **As Invocações ganharam o §74: não recolhem, e ficam `Desligada` ao cair, o corpo amaldiçoado e a maldição domada de quem não tem técnica para recolhê-la; o talismã, a domada com técnica, a da lista de ritual e a de espaço recolhem.** *O §46 criou a `Desligada` para a entidade que o vínculo não deixa recolher, e o §71 deu os vínculos sem dizer quais recolhem.* **Resposta do Mizuki: "Só as domadas no caso de você não ter uma técnica pra tal (como geto), ou as criadas, em ALGUNS casos. Shikigamis são mantidos em talismas, ent da pra recolher, ja corpos amaldiçoados, n, igual o mechamaru, ela desliga apenas".** *Qual técnica basta para recolher uma domada fica com o construtor.*

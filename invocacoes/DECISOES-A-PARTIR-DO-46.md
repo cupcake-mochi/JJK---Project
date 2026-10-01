@@ -1206,3 +1206,41 @@ A validação recomendou o 5 e 3 contra a A (7 e 4). A confirmação:
 **[E] Nenhuma decisão anterior foi reaberta.** O §46 ganhou os vínculos a que ele se aplica.
 
 **Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 73, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 35.*
+
+---
+
+## 75. O que é um corpo `Desligada` — decisão de Mizuki, 29/09/2026
+
+**O caso que abriu a pergunta:** um boneco do molde do Mechamaru, com teto 2, cai a zero sem morrer de vez e fica no chão, `Desligada`. O §46 deixou abertos o que ela ocupa, a vaga do teto, mover, destruir, curar, religar, projetar e receber ordem; o §74 disse para quem ela vale.
+
+**As opções:** (A) um objeto no campo que conta no teto — ocupa o lugar dela, pode ser carregado, morre de vez pelo limiar do §73, não atua nem projeta, religa pela entrada com metade da vida, e sai do campo no fim do combate; (B) o mesmo, sem contar no teto; (C) o mesmo, com a cura religando. Recomendada a (A).
+
+**Resposta autoral:**
+
+> B, ele n ta ativo e pode fazer nada, n faz sentido contar, meio que o caso do mechamaru ele precisa levar esses por ai pra conseguir "funcionar", n faria sentido contar pro limite
+
+### Aprovado
+
+**[D] A `Desligada` é um objeto no campo:** ocupa o lugar dela e atrapalha passagem como um corpo caído; pode ser carregada; não atua, não recebe ordem e não projeta nada — aura e passivas param.
+
+**[D] A `Desligada` não conta no teto de corpos:** o teto conta as entidades ativas.
+
+**[D] O dano que ela leva soma com o que passou do zero, e passou de metade da vida máxima, ela morre de vez** (§73); dano em área continua sem destruir.
+
+**[D] Ela religa quando o invocador paga a entrada no turno dele** (§67 e a Bônus do §56), no lugar, com metade da vida (§73); e no fim do combate a manifestação acaba (§70), e ela sai do campo.
+
+### Esclarecimentos
+
+**[E] O motivo é dele:** o invocador do molde do Mechamaru carrega os corpos para funcionar, e um corpo parado não faz nada — contar no limite não faria sentido.
+
+**[E] Com o teto de base, o campo pode ter duas entidades ativas e corpos desligados no chão.** Religar uma `Desligada` com as duas vagas cheias passa pelo teto como qualquer entrada.
+
+**[E] O S49e do lote do §49**, que ficava indeterminado porque a vaga da `Desligada` decidia, passa a aceitar a entrada; a troca está declarada no executor, com a fonte.
+
+**[E] A cura não a religa** (a C recusada): só a entrada paga.
+
+### Limites preservados
+
+**[E] Nenhuma decisão anterior foi reaberta.** O §46 fecha os pontos da `Desligada`; o §62 continua contando corpos em campo, e a `Desligada` não é um corpo ativo.
+
+**Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 74, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 36; o modelo tirou a `Desligada` do teto, o caso do teto que ficava indeterminado passou a aceitar a entrada, e o lote de teste do §75 tem 3 verificações.*
