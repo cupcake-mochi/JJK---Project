@@ -943,3 +943,39 @@ A validação recomendou o 5 e 3 contra a A (7 e 4). A confirmação:
 **[E] Nenhuma decisão anterior foi reaberta.** O §61 deixava o nível da criatura com o construtor e supunha o do dono; o §67 diz que ele é próprio.
 
 **Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 66, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 28; o E26 da bancada foi a conta do PE, e o E27 é a do nível da entidade.*
+
+---
+
+## 68. O que segue o nível da entidade — decisão de Mizuki, 29/09/2026
+
+**O caso que abriu a pergunta:** um invocador de nível 30 leva uma entidade de nível 2 e outra de nível 30. O §67 deu nível próprio à entidade e fez o custo segui-lo; o §61 já fazia a vida segui-lo; o §64 mediu a parte das entidades em Rotinas sem dizer de qual nível.
+
+**As opções, com a conta da bancada** (E27): (A) tudo que tem nível segue o dela — vida, custo e a Rotina do dano —, com o nível dela até o do invocador; (B) só a vida e o custo, com o dano pela Rotina do invocador — a entidade de nível 2 bateria 54, como a de 30, por 1 PE e 14 de vida; (C) a A sem o teto do invocador. Recomendada a (A).
+
+**Resposta autoral:**
+
+> A e continue
+
+### Aprovado
+
+**[D] Tudo que depende de nível segue o da entidade:** a vida (§61), o PE da entrada (§67) e a parte do dano do §64, medida na Rotina do nível dela.
+
+**[D] O nível da entidade vai até o do invocador.**
+
+**[D] Acerto, Defesa, Teste de Resistência e CD seguem o §65 e o §66**, com a maestria e o atributo do dono.
+
+### Esclarecimentos
+
+**[E] Com o invocador no nível 30** (E27), a básica de uma entidade sozinha vale até 6,5 no nível 2 dela, 22,5 no 10, 38 no 18 e 54 no 30.
+
+**[E] "Uma entidade completa até meia Rotina" (§64) passa a ler: meia Rotina do nível dela;** na dupla, dois terços somam as Rotinas de cada uma, e cada uma completa até um terço da Rotina do nível dela. Leitura para ele vetar.
+
+### Limites preservados
+
+**[P] Como a entidade sobe de nível** — junto com o dono, por treino ou por outra regra — fica com o construtor.
+
+**[P] O acerto de uma entidade muito abaixo do dono**, pela maestria dele, pode pedir conferência.
+
+**[E] Nenhuma decisão anterior foi reaberta.** O §64 ganhou a leitura do nível.
+
+**Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 67, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 29; o E27 da bancada foi a conta do nível, e o E28 é a do custo da especial.*

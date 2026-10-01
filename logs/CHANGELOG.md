@@ -8,6 +8,18 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.310] — 29/09/2026
+
+**As Invocações ganharam o §68: tudo que depende de nível segue o da entidade — a vida, o PE da entrada e a parte do dano, medida na Rotina do nível dela —, e o nível dela vai até o do invocador.** *O §67 deu nível próprio à entidade, e o §64 media a parte das entidades em Rotinas sem dizer de qual nível: pela Rotina do invocador, uma entidade de nível 2 custaria 1 PE, teria 14 de vida e bateria 54, como a de nível 30.* **Resposta do Mizuki: "A e continue".** *Acerto, Defesa, Teste de Resistência e CD seguem a ficha do §65 e do §66; como a entidade sobe de nível fica com o construtor.*
+
+**Adicionado:** o §68 em `invocacoes/DECISOES-A-PARTIR-DO-46.md`, no formato dos anteriores.
+
+**Alterado:** o `invocacoes/LEIA-ME.md`, a fila do `sistema/ESTADO-ATUAL.md` e o `PROMPT-continuar.md` registram o §68 e a pergunta que espera o Mizuki: o custo em PE da especial. No lote de desenvolvimento, que continua no HD, a candidata foi à revisão 29. **Nenhuma regra do livro mudou, e nenhum validador.**
+
+**Validação:** bateria de 31 de 31, com PULADA zero, rodada numa cópia com a v0.292 à v0.309 aplicadas; a 7.4, que confere a entrega commitada, só roda no repositório, e o `subir.sh` a roda antes de commitar.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: a pergunta do custo da especial espera o Mizuki.
+
 ## [0.309] — 29/09/2026
 
 **As Invocações ganharam o §67: cada entrada paga PE — manifestar, trocar e voltar depois de cair —, e o preço é a Classe do nível da entidade, que tem nível próprio.** *A r5 §9.1 deixou o PE da entrada pendente; a peça 15 antiga tinha decidido 1 × a maior Classe do invocador por invocação.* **Resposta do Mizuki: "A, mas acredito eu que como as invocações vão ter niveis e n necessariamente precisam seguir o nivel da ficha do personagem, os custos deveriam ser parelhos em relação a isso".** *Recolher não paga. As faixas são as da tabela de progressão (Classe 1 do nível 1 ao 4, até a 7 do 26 ao 30); ele lembrava outras e deixou a tabela decidir. Com o invocador no nível 30, a entidade de nível 2 custa 1 PE e a de 30 custa 7.*
