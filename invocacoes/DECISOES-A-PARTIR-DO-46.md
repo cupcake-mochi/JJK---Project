@@ -2576,3 +2576,67 @@ A validação recomendou o 5 e 3 contra a A (7 e 4). A confirmação:
 **[P] Se o talismã pesa enquanto a entidade dele está em campo** não foi decidido.
 
 **Onde a conta mora:** no mesmo lote de desenvolvimento, no HD. *A candidata foi à revisão 45.*
+
+---
+
+## 111. O talismã continua pesando com a entidade em campo — decisão de Mizuki, 30/09/2026
+
+**O caso que abriu a pergunta:** o §110 deu o peso do talismã guardado, meio `Volume`, e deixou pendente se ele pesa enquanto a entidade dele está em campo.
+
+**Resposta autoral:**
+
+> a 3 é sim, vc n perde o talisma, so tira a invocação dentro
+
+### Aprovado
+
+**[D] O talismã pesa `0,5` de `Volume` com a entidade dentro ou fora dele.** Manifestar tira a entidade do talismã, e o talismã continua com o invocador.
+
+---
+
+## 112. O traje da entidade é um item normal — decisão de Mizuki, 30/09/2026
+
+**O caso que abriu a pergunta:** o §66 pôs a proteção do traje ou do revestimento no lugar da metade da Essência ou da Inteligência do dono, e deixou para o construtor como a entidade ganha um.
+
+**Resposta autoral:**
+
+> a questão do traje ou revestimento, é que el basicamente substituiria a essencia na defesa invocaçãi (semelhante com caso de cobrir-se)
+>
+> mas é um item normal, que normalmente vai poder ser equipado em corpos amaldiçoados ou não
+
+### Aprovado
+
+**[D] `Traje` e `Revestimento` são os itens da peça 14 §3, e qualquer entidade pode vestir um — shikigami ou corpo amaldiçoado.** Eles não vêm do construtor: são equipamento, e se conseguem como os do personagem.
+
+**[D] A proteção do item entra no lugar da metade do dono, e as duas não somam** (§66). É o que acontece no personagem, em que o uniforme entra no lugar do cobrir-se (peça 14 §3; peça 11 §5).
+
+### Esclarecimentos
+
+**[E] A Defesa da entidade topa em `19`, por qualquer rota:** a metade do dono (no máximo `3`) com `Broquel`, o `Traje` `3` com `Broquel`, ou o `Revestimento` `3` com `Torre`. O personagem chega a `20` sem equipamento, com o cobrir-se `4`, e a `19` equipado (peça 14 §4). A entidade não passa dele. *A conta é uma busca exaustiva — Destreza de `0` a `6`, sete uniformes, quatro escudos —, no lote dos §§111 a 113.*
+
+**[E] Leituras para vetar:** o resto do item vale como num personagem — o requisito de Força e o teto de Destreza, com os atributos dela; a penalidade de quem não cumpre o requisito (peça 19 §6); e a situação sob medida do `Traje`. Vestir segue a anatomia dela (seção 2), e vestir não é carregar (§113). O escudo é o que ela segura, e só vale para quem tem mão.
+
+**[P] O que a entidade veste ou segura quando sai de campo** — recolhida, caída ou no fim da manifestação — não foi decidido. O sistema não diz quanto tempo leva vestir ou tirar um uniforme.
+
+---
+
+## 113. A entidade só carrega o que tem nas mãos — decisão de Mizuki, 30/09/2026
+
+**O caso que abriu a pergunta:** apareceu junto do traje. O §110 deu peso ao talismã, e nada dizia quanto a entidade carrega.
+
+**Resposta autoral:**
+
+> uma coisa, invocações n consegue carregar mais do que elas tem em mãos a não ser que tenha uma caracteristica propriamente dita para ter armazenamento de um player ou carregar personagens (como nue)
+
+### Aprovado
+
+**[D] A entidade carrega só o que cabe nas mãos que a definição dela dá.** Sem mão, não carrega nada.
+
+**[D] Carregar mais só com uma característica própria, que caiba na definição (§89):** uma que dê armazenamento como o de um personagem, ou uma que carregue personagens, como o Nue. *A peça 15 antiga tinha a `Montaria` — "carrega uma pessoa ou mais, dependendo do tamanho". Ela não volta como regra, e fica como a intenção registrada.*
+
+### Esclarecimentos
+
+**[E] Leituras para vetar:** a característica é uma das passivas do construtor (§§93 e 103); e o armazenamento de personagem é o limite de carga da peça 14 §6.6.1, `5 + Força`, com a Força dela.
+
+**[P]** Quantos personagens a característica carrega, e quanto isso custa no Movimento dela, ficam com a característica, na montagem.
+
+**Onde a conta mora:** no lote de desenvolvimento, no HD. *Entrou na candidata na revisão 46; o lote dos §§111 a 113 tem 12 verificações.*

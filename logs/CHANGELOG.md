@@ -8,6 +8,20 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.328] — 30/09/2026
+
+**As Invocações ganharam os §§111 a 113: o talismã em campo, o traje e o que a entidade carrega.** *O §110 deixou pendente se o talismã pesa com a entidade em campo, e o §66 deixou para o construtor como a entidade ganha traje.* **Respostas do Mizuki:** *"vc n perde o talisma, so tira a invocação dentro" — o talismã continua pesando `0,5` (§111); "mas é um item normal, que normalmente vai poder ser equipado em corpos amaldiçoados ou não" — `Traje` e `Revestimento` são os da peça 14 §3, qualquer entidade veste, e a proteção entra no lugar da metade do dono, como o uniforme entra no lugar do cobrir-se no personagem (§112); e "invocações n consegue carregar mais do que elas tem em mãos a não ser que tenha uma caracteristica propriamente dita para ter armazenamento de um player ou carregar personagens (como nue)" (§113).*
+
+**A validação do traje:** *uma busca exaustiva — Destreza de `0` a `6`, sete uniformes, quatro escudos — dá `19` de Defesa máxima para a entidade, por três rotas, e `20` para o personagem, que chega lá sem equipamento. A entidade não passa dele.*
+
+**Alterado:** os §§111 a 113 entraram em `invocacoes/DECISOES-A-PARTIR-DO-46.md`, e o `invocacoes/LEIA-ME.md`, o `PROMPT-continuar.md` e o `sistema/ESTADO-ATUAL.md` tiraram o traje do que sobra. No lote de desenvolvimento, que continua no HD, a candidata foi à revisão 46, e o lote dos §§111 a 113 tem 12 verificações. **Nenhuma regra do livro mudou, e nenhum validador.**
+
+**Validação:** bateria de 31 de 31, rodada numa cópia com a v0.292 à v0.327 aplicadas. Só a 7.4 pulou: ela confere a entrega commitada, a cópia não tem o `.git` dela, e o `subir.sh` a roda antes de commitar.
+
+→ **Continua em** `invocacoes/DECISOES-A-PARTIR-DO-46.md`, no §112: a pergunta aberta é o que a entidade veste ou segura quando sai de campo.
+
+---
+
 ## [0.327] — 30/09/2026
 
 **O talismã pesa meio `Volume`, e o item leve passou a valer a fração.** *O item 21 da fila dizia que o sistema não tinha regra de peso, e a premissa estava errada: a peça 14 §6.6 tem o `Volume` desde a v0.256, com o limite de `5 + Força`. Faltava só o talismã, que o §109 das Invocações deixou sem limite de quantidade porque "tem peso".* **Resposta do Mizuki: "mas pode por o talismã como meio mesmo".** *O talismã guardado pesa `0,5` — o §110, em `invocacoes/DECISOES-A-PARTIR-DO-46.md`.*
