@@ -1280,3 +1280,308 @@ A validação recomendou o 5 e 3 contra a A (7 e 4). A confirmação:
 **[E] Nenhuma decisão anterior foi reaberta.** Continua pendente o efeito periódico numa `Desligada` (o Q07g): dano persistente e área que exige presença, que nem se aplicam nem se descartam.
 
 **Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 75, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 37; os casos da `Desligada` e da queda que o §46 deixou pendentes foram trocados de uma vez, com a fonte, a entrada da caída passou à regra do §73, e o lote de teste do §76 tem 6 verificações.*
+
+---
+
+## 77. O que cada tipo pede, e o que o corpo amaldiçoado tem — decisão de Mizuki, 29/09/2026
+
+**O caso que abriu a pergunta:** quatro invocadores de nível 10, com uma entidade de cada tipo — técnica, maldição domada, talismã e corpo amaldiçoado —, todas com a mesma vida, 52. O §76 deixou a diferença entre os tipos como pergunta seguinte; as opções eram a ordem de vida da peça 15 antiga só no nível 1 (A), no por nível (B), ou vida igual, com a diferença nas regras e no kit (C, recomendada).
+
+**Resposta autoral:**
+
+> temos a obra, numeros do sistema e seus defeitos, que tal a gente buscar balanceamento em meio a ese termo e ver oq eles ganham entre si? [...] mas acredito que eles tem q ter diferenças para valer apena
+>
+> o de técnica é o mais "simples de pegar", ent seria o base
+>
+> domar exige buscar a maldição e passar pelos testes que não formulamos ainda, mas vão ter sua dificuldade igual pokemon
+>
+> criar exige tempo, testes e provavelmente dinheiro/materiais (vai vir a ser criado futuramente). O corpo amaldiçoado n pode ser curado por meios convencionais q n sejam uma técnica ou realmente reparar ele, no máximo as vantagens deles é que os não sencientes não tem alma e todos são imunes a condição envenenado
+>
+> ent uma busca e validação seria ideal
+
+### Aprovado
+
+**[D] A técnica é o tipo de base:** o mais simples de obter, e a régua contra a qual os outros três se medem.
+
+**[D] Domar exige buscar a maldição e passar por testes**, com dificuldade própria. Os testes não existem ainda.
+
+**[D] Criar exige tempo, testes e, provavelmente, dinheiro ou materiais.** A regra de criação vem depois.
+
+**[D] Os tipos têm de ter diferenças que valham o que custam.** A vida igual sem mais nada (a C) não basta.
+
+**[D] O corpo amaldiçoado só se cura por uma técnica ou por reparo** — nenhum meio convencional o cura. *Corrige o §76, que dizia só "energia amaldiçoada não cura": a `Energia Reversa`, a `Sutura` e a Forma `Cura` do `Manejo` continuam sem curá-lo, mas uma técnica feita para isso, ou o reparo do corpo, curam.*
+
+**[D] Todo corpo amaldiçoado é imune à condição `Envenenado`, e o que não é senciente não tem alma.**
+
+### Esclarecimentos
+
+**[E] "Não tem alma" é lido como imune ao dano do tipo `Alma`** (peça 19 §4), e ao que ele arrasta — a Integridade e a vida máxima (peça 24). Leitura para vetar.
+
+**[E] O balanço pedido está no relatório do lote de desenvolvimento, no HD**, com a obra, as réguas do sistema e os defeitos de cada tipo. A conta principal: pela régua do bestiário (peça 26 §6.3), a imunidade a `Envenenado` vale `1,20×` de vida efetiva, e a de `Alma`, entre `1,02×` e `1,11×`.
+
+**[E] O reparo não tem regra ainda.** Os ofícios que encostam nele são o `Alfaiate` (corte e costura) e o `Entalhador` (peça 7); o `Caligrafia`, na criação do talismã. Nada disso foi decidido.
+
+### Limites preservados
+
+**[P] Os testes de domar, a regra de criar, o reparo e o que cada tipo ganha** — a primeira pergunta é o talismã, que hoje paga mais que a técnica e não ganha nada.
+
+**[E] Nenhuma decisão anterior foi reaberta**, fora a correção do §76 acima, que é dele.
+
+---
+
+## 78. A carga do talismã, e quanto vale a imunidade a `Envenenado` — decisão de Mizuki, 29/09/2026
+
+**O caso que abriu a pergunta:** dois invocadores de nível 10; um tem um shikigami da técnica, o outro fez um shikigami de talismã, com tempo, testes e materiais, e em campo os dois são iguais. As opções eram o talismã guardar uma entrada sem PE por descanso longo (A, recomendada), ser batedor (B), ou as duas (C). O balanço do §77 usava `1,20×` para a imunidade a `Envenenado`.
+
+**Resposta autoral:**
+
+> lembrando q oq eu falei são seus PESOS e pequenos ganhos, ent ainda temos de balancear as escolhas de cada em seus números
+>
+> e n pense que imunidade a envenado vale mt, pq é uma condição de nicho, pense que essa resistencia no máximo vale 1/3 de sua fatia original
+>
+> mas respondendo a questão do talismã
+>
+> uma entrada gratuita seria legal, poderia ser uma mecanica tipo, "durante o descanso longo, você pode consumir energia para armazenar nos talismãs, permitindo que ele n tenha custo na hora de invocar", isso permite ter escolhas, tipo "vou por energia nesses 3, vou usar 1 por dia e ficar rotacionando, uso mais quando for necessario", ou algo do tipo, mas trazer de forma gratuita pode acabar sendo exploitavel, eu diria para ser metade do custo, Min 1
+>
+> ai temos de olhar os outros. Eu tava pensando mais em números, mas mecanicas é bom
+
+### Aprovado
+
+**[D] O que o §77 deu a cada tipo são pesos e ganhos pequenos;** o balanço de cada tipo ainda precisa dos números.
+
+**[D] A imunidade a `Envenenado` vale no máximo um terço da fatia original**, porque a condição é de nicho.
+
+**[D] O talismã se carrega no descanso longo:** o invocador gasta energia para guardar nos talismãs, e escolhe quais carrega.
+
+**[D] A entrada de um talismã carregado custa metade da entrada, no mínimo 1** — não sai de graça, que seria explorável.
+
+### Esclarecimentos
+
+**[E] "Um terço da fatia" é lido como um terço dos `20%` a mais de vida efetiva:** `1,07×` no lugar de `1,20×`. A outra leitura — um terço do dano que a imunidade nega — dá `1,06×`; as duas dão o mesmo número de vida. Com isso, o corpo amaldiçoado de Constituição 2 no nível 30 vai a `162` de vida efetiva (`165` a `180` com a imunidade a `Alma`), entre a entidade comum (`152`) e o Emanador (`182`).
+
+**[E] A metade arredonda para cima** (peça 1 §5.4: o que você paga arredonda contra você). A entrada carregada poupa `0` PE na Classe 1 (níveis 1 a 4, pelo mínimo de 1), `1` nas Classes 2 e 3, `2` nas 4 e 5, e `3` nas 6 e 7.
+
+**[E] Cada talismã guarda uma carga, que fica nele até ser usada** — é o "vou por energia nesses 3, vou usar 1 por dia e ficar rotacionando". Leitura para vetar.
+
+### Limites preservados
+
+**[P] Quanto custa carregar, e de que PE sai a carga** — a pergunta do fim.
+
+**[E] Nenhuma decisão anterior foi reaberta.** O §77 continua; o balanço dele passa a usar `1,07×`.
+
+---
+
+## 79. Quanto custa carregar o talismã — decisão de Mizuki, 29/09/2026
+
+**O caso que abriu a pergunta:** um invocador de nível 30 com três talismãs termina o dia com 12 PE sobrando e vai para o descanso longo num lugar seguro; quer carregar os três e usar um por dia. O §78 não dizia quanto a carga custa nem de que PE ela sai.
+
+**As opções:** (A) a carga custa o que a entrada deixa de cobrar, e sai da sobra antes de o descanso devolver o PE; (B) a carga custa a entrada inteira; (C) a carga não custa nada, um talismã por descanso. Recomendada a (A).
+
+**Resposta autoral:**
+
+> A
+
+### Aprovado
+
+**[D] A carga custa o que a entrada deixa de cobrar:** a entrada menos a metade dela, arredondada para cima, com mínimo de 1 — `0` PE na Classe 1, `1` nas Classes 2 e 3, `2` nas 4 e 5, `3` nas 6 e 7.
+
+**[D] A carga sai do PE que o invocador ainda tem quando o descanso longo começa, antes de o descanso devolver o PE.**
+
+**[D] Cada talismã guarda uma carga, que fica nele até ser usada.**
+
+### Esclarecimentos
+
+**[E] O total de cada entrada nunca fica abaixo do normal:** o ganho do talismã é transformar a sobra do dia em entrada. Num lugar propício a sobra se perderia; fora dele, ela voltaria somada à metade do máximo (peça 10), e carregar custa de verdade.
+
+**[E] Do nível 1 ao 4 o talismã não ganha nada com a carga**, pelo mínimo de 1.
+
+### Limites preservados
+
+**[E] Nenhuma decisão anterior foi reaberta.** O talismã fecha; a pergunta seguinte é a domada.
+
+---
+
+## 80. O que a maldição domada troca — decisão de Mizuki, 29/09/2026
+
+**O caso que abriu a pergunta:** nível 10, uma maldição domada de Essência 3 contra um shikigami da técnica de mesma ficha. As opções ligavam ao tipo a reserva do §59 inteira (A), só a parte da Essência (B, recomendada), ou davam vida no lugar de energia (C).
+
+**Resposta autoral:**
+
+> mas invocação com tecnica ja n tem isso? o unico caso que rola de ter tecnica é justamente as invocações domadas. Mahoraga tem tecnica? acredita q o kit dele eram habilidades mesmo
+>
+> e seria estranho talvez... pq agora teria "dois tanques de energia", acho que podemos repensar isso
+>
+> acredito que a domada ter justamente
+>
+> 1 - O fator que ela n upa com o portador
+> 2 - Ela ter a chance de ter técnica e justamente ter o kit de quando ela foi domada
+>
+> já seriam talvez as trocas, aqui o ideal talvez seria pensar em outra coisa, n acha?
+
+### Aprovado
+
+**[D] Só a maldição domada pode ter técnica própria.** Os shikigami — da técnica e do talismã — e o corpo amaldiçoado têm kit de habilidades, não técnica; a adaptação do Mahoraga é habilidade. **Então a reserva do §59, que é de quem tem técnica, na prática é só da domada**, e ligar ela ao tipo não acrescenta nada — as opções A e B recusadas.
+
+**[D] A domada não sobe de nível com o portador:** fica no nível de quando foi domada.
+
+**[D] A domada pode ter técnica, e fica com o kit de quando foi domada.**
+
+**[D] Essas são as trocas da domada.**
+
+### Esclarecimentos
+
+**[E] O defeito era da pergunta:** ela tratava a reserva do §59 como de qualquer tipo "se a ficha disser", quando só a domada tem técnica. Não havia segundo tanque — a A e a B mexiam no tamanho do mesmo tanque do §59 —, mas o ganho que elas davam à domada ela já tinha.
+
+**[E] O nível parado já traz o preço junto** (§§67, 68 e 69): tudo segue o nível da entidade. Uma domada parada no nível 10 com o dono no 18, Constituição 2: vida 52 contra 92 do shikigami que sobe (57%); meia Rotina do nível dela, 22,5 contra 38 (59%); entrada de 3 PE contra 5, especial de 9 contra 15 (60%). É um corpo mais fraco pelo mesmo tanto que é mais barato. O que ela perde de verdade é a vaga: o teto é 2 (§62), e um corpo mais fraco ocupa a mesma vaga.
+
+**[E] Isto fecha a pergunta do §71 sobre a subida da domada;** o nível em que ela é domada continua com os testes de domar (§77).
+
+### Limites preservados
+
+**[P] Se a domada pode ser domada acima do nível do dono** — o §68 limita a entidade ao nível do invocador — e **se o nível parado precisa de compensação**: a pergunta do fim.
+
+**[E] Nenhuma decisão anterior foi reaberta.** O §59 continua igual; o §80 diz de quem ele é.
+
+---
+
+## 81. O nível parado da domada não pede compensação — decisão de Mizuki, 29/09/2026
+
+**O caso que abriu a pergunta:** uma domada parada no nível 10 com o dono no 18 — 52 de vida contra 92, 22,5 de dano contra 38 —, na mesma vaga de um shikigami que sobe. As opções eram a troca ficar como está (A, recomendada), domar acima do próprio nível pelo teste (B), ou subir devagar (C).
+
+**Resposta autoral:**
+
+> A - Não, no máximo precisar de uma compensação pequena, mas o justo fato das invocações domadas serem "mais faceis de obter" que diferente de um ritual, vc n enfrenta elas sozinha, é melhor n valer tanto pra compensar
+
+### Aprovado
+
+**[D] O nível parado da domada não tem compensação:** a troca é essa, e quem quer acompanhar doma outra maldição.
+
+**[D] A domada é mais fácil de obter que a entidade do ritual:** a maldição se enfrenta com o grupo, e o ritual se enfrenta sozinho.
+
+### Esclarecimentos
+
+**[E] "No máximo uma compensação pequena"** fica para a mesa: se o nível parado frustrar em jogo, o conserto é pequeno, e não reabre o §68.
+
+**[E] A ordem de dificuldade de obter fica:** o espaço de feitiço (a base mais simples, §77), a domada (com o grupo), o ritual (sozinho), e a criação (tempo, testes e materiais). O tamanho de cada custo continua com o construtor.
+
+### Limites preservados
+
+**[E] Nenhuma decisão anterior foi reaberta.** A domada fecha; a pergunta seguinte são os números do corpo amaldiçoado.
+
+---
+
+## 82. A vida do corpo amaldiçoado, e os cinco tipos — decisão de Mizuki, 29/09/2026
+
+**O caso que abriu a pergunta:** nível 30, Constituição 2, dois grupos com um Guia de `Sutura`; um leva um shikigami da técnica, o outro um corpo amaldiçoado não senciente. As opções eram o corpo fechar como está (A, recomendada), reparo no descanso curto com ofício (B), ou mais vida, 4 + Constituição por nível (C).
+
+**Resposta autoral:**
+
+> Coloca C e lembrando existem exceções, o panda mesmo tem alma, acredito que os corpos amaldiçoados advindos de técnica, se a narrativa conciliar, ele ser autonomo e afins, como no caso do Yaga, ele teria sim alma, mas ai é pensando no caso da invocação de técnica que engloba poder ser shikigami ou corpo amaldiçoado, ent é uma nuance
+>
+> São 5 tipos na realidade né, de tecnica (shikigami ou corpo amaldiçoado), criação (shikigami ou corpo amaldiçoado), maldição domada
+>
+> pensei nisso agora
+
+### Aprovado
+
+**[D] O corpo amaldiçoado ganha 4 + Constituição de vida por nível**, no lugar de 3; no nível 1 continua 5 + Constituição (§61). Com Constituição 2: 61 no nível 10 e 181 no 30, contra 52 e 152 do shikigami.
+
+**[D] São cinco tipos, em dois eixos.** A origem — **técnica**, **criação** ou **domada** — e o corpo — **shikigami** ou **corpo amaldiçoado**. A técnica e a criação podem dar os dois corpos; a domada é maldição.
+
+**[D] O corpo amaldiçoado que é autônomo tem alma** — o Panda, e o que sai de uma técnica como a do Yaga, se a narrativa conciliar. O não senciente não tem (§77).
+
+### Esclarecimentos — como as decisões anteriores caem nos cinco
+
+**[E] O que é do corpo vale nas duas origens:** o corpo amaldiçoado não recolhe e fica `Desligada` ao cair (§74), só se cura por técnica ou reparo (§77), é imune a `Envenenado` (§§77 e 78) e tem 4 + Constituição por nível (este). O shikigami recolhe, se cura, e tem 3 + Constituição por nível (§61). Leitura para vetar.
+
+**[E] O que é da origem vale nos dois corpos:** a técnica é a base (§77) — a lista de ritual e o espaço de feitiço dão entidade de técnica, shikigami ou corpo; a criação custa tempo, testes e materiais (§77); a domada é maldição, pode ter técnica, não sobe de nível e não tem compensação por isso (§§80 e 81), e recolhe só se o dono tiver técnica para isso (§74).
+
+**[E] O talismã é o shikigami de criação**, e a carga dos §§78 e 79 é dele. O corpo amaldiçoado de criação ainda não tem nada que pague o custo de criar: a pergunta do fim.
+
+**[E] Com a C, o corpo de Constituição 2 tem 181 de vida no nível 30** — 1 abaixo do Emanador (182) —, e 193 de vida efetiva pela imunidade a `Envenenado`; o não senciente, de 197 a 215 com a de `Alma`.
+
+### Limites preservados
+
+**[E] Nenhuma decisão anterior foi reaberta.** O §61 continua para o shikigami e a domada; o corpo amaldiçoado passa ao por nível deste.
+
+---
+
+## 83. O modo inativo do corpo amaldiçoado — decisão de Mizuki, 29/09/2026
+
+**O caso que abriu a pergunta:** um corpo amaldiçoado da técnica (o molde do Yaga) contra um criado (o molde dos bonecos do Mechamaru), iguais em campo. As opções eram a carga da criação guardada no núcleo (A, recomendada), outra coisa própria (B), ou nada (C).
+
+**Resposta autoral:**
+
+> vamos lá ja sei
+>
+> o criado tem o HP extra
+>
+> enquanto os dois tem por base, criado e de técnica o "modo inativo", você consegue ter até o dobro da sua quantidade limite de invocações como "inativas", elas andam, tem defesa, vida, tudo que uma ficha normalmente teria, MAS elas são inativas, falham em todas as rolagens, não podem tomar ações, não podem ser comandadas para performar tarefas (que não sejam puramente rp ou extremamente simples, claro, como um corpo amaldiçoado mordomo, dar apoio para alcançar uma prateleira, EXEMPLOS e etc), ai ao invés de ter de as INVOCAR, você apenas as "ativa", mas elas ainda são alvos legíveis durante isso. Ai a troca, seria ativar e desativar uma, a desativada pode se deslocar igual ao movimento no momento de troca para ir a um ponto seguro e é isso
+>
+> o beneficio disso? talismã tem peso, a gente vai ter de botar, ja uma invocação que anda não tem peso e ela ainda performa coisas básicas que não exigem rolagens
+>
+> que tal? ou poderia ser uma quantidade igual a INT ou Espirito oq for melhor e caber de forma mais ideal
+
+### Aprovado
+
+**[D] O corpo amaldiçoado de criação tem a vida extra** — 4 + Constituição por nível (§82). *Corrige o §82, que dava a vida extra a todo corpo amaldiçoado: o de técnica volta a 3 + Constituição, como o shikigami.*
+
+**[D] O corpo amaldiçoado — de técnica e de criação — tem o modo inativo.** O invocador pode ter corpos **inativos** além dos ativos. O inativo anda, tem Defesa, vida e a ficha inteira, mas falha em toda rolagem, não toma ação e não recebe ordem, fora tarefa de pura interpretação ou extremamente simples, sem rolagem — o corpo mordomo, o apoio para alcançar uma prateleira. Continua alvo legal.
+
+**[D] O corpo inativo não é invocado: é ativado.** A troca é ativar um e desativar outro; o desativado anda o Movimento dele, na hora da troca, até um lugar seguro.
+
+**[D] O ganho do modo inativo é não ter peso** — o talismã terá peso, quando o sistema tiver regra de carga — e fazer coisas simples sem rolagem.
+
+### Esclarecimentos
+
+**[E] Quantos inativos:** a proposta dele é até o dobro do teto — com o teto de base (§62), 4. Ele deixou a Inteligência ou o "Espírito" como alternativa; `Espírito` é Teste de Resistência, não atributo (peça 2), então a leitura seria a Essência. **Fica o dobro do teto**, a primeira proposta dele, pelo motivo da conta: a Inteligência ou a Essência vão de 1 a 6 (peça 2: arranjo 3·2·2·1·1, teto 6), e o invocador que pôs 1 ali quase não teria o modo; o dobro do teto é igual para todos e cresce junto se um dia o teto crescer. Leitura para vetar.
+
+**[E] O inativo não conta no teto,** que conta as entidades ativas (§75); ativar passa pelo teto como qualquer entrada.
+
+**[E] O modo inativo é só do corpo amaldiçoado;** o shikigami continua sendo invocado e recolhido. *É o que "criado e de técnica" diz, lido contra o eixo do corpo do §82.*
+
+**[E] Desligada não é inativa:** o corpo a zero continua `Desligada` (§§74 e 75), e religar o põe ativo.
+
+**[E] O inativo não é manifestação:** ele não acaba no fim da cena (§70). No fim do combate, o ativo volta a inativo em vez de sair.
+
+**[E] Achado da conta — a cobertura:** a peça 19 §5 dá cobertura `Parcial` (`+2` de Defesa e `+2` no TR Físico) por "uma criatura no caminho". Corpos inativos em volta do invocador dão isso a ele, sem ação; só a maior cobertura conta, então nunca passa de `+2`.
+
+### Limites preservados
+
+**[P] Quanto custa ativar** — a pergunta do fim.
+
+**[P] A regra de carga (peso) do sistema**, que o talismã vai usar — não existe ainda (peça 14 não tem).
+
+**[E] Nenhuma decisão anterior foi reaberta**, fora a correção do §82, que é dele.
+
+---
+
+## 84. Quanto custa ativar, e quantos inativos — decisão de Mizuki, 29/09/2026
+
+**O caso que abriu a pergunta:** nível 30, dois corpos ativos e quatro inativos; o invocador desativa o ferido e ativa um inativo do lado do inimigo. As opções eram a entrada inteira (A, recomendada), só a Bônus (B), ou metade, mínimo 1 (C). O §83 tinha registrado o dobro do teto como quantidade de inativos, com a Inteligência ou o "Espírito" como alternativa.
+
+**Resposta autoral:**
+
+> A, em si muda nada do custo, é só uma mecanica "nova" mesmo, substituindo a antiga
+>
+> e vc tem q pensar q o dobro do limite, é do personagem, vai ter caminho q vai aumetnar isso, lembra? ent talvez atributo seja melhor
+>
+> continue
+
+### Aprovado
+
+**[D] Ativar custa o mesmo que a entrada:** a Classe do nível da entidade em PE (§67) e a Ação Bônus (§56). Para o corpo amaldiçoado, ativar substitui invocar, sem mudar o custo.
+
+**[D] A quantidade de inativos sai de um atributo, e não do teto:** o teto é do personagem e pode crescer por Caminho, e o dobro dele cresceria junto.
+
+### Esclarecimentos
+
+**[E] O atributo é o mesmo da Defesa da entidade** (§66): a Essência ou a Inteligência do dono, a que a ficha dele usa ali. Quantos inativos = esse atributo. Ele junta as duas propostas dele sem abrir uma escolha nova, e vai de 3 na criação de quem investe a 6 no teto (peça 2); quem tem 1 tem um inativo, e quem tem 0 não tem o modo. *O "Espírito" da resposta é Teste de Resistência (peça 2); a Essência é o atributo que está no lugar dele.* Leitura para vetar.
+
+**[E] A troca de corpo amaldiçoado** — desativar um e ativar outro — custa o que a troca de entidade custa (§§56 e 67): a Bônus, e o PE da entrada de quem é ativado.
+
+### Limites preservados
+
+**[E] Nenhuma decisão anterior foi reaberta.** O §83 fica, com a quantidade trocada por este. **O pacote dos tipos fecha aqui:** os §§77 a 84 entram juntos na revisão 38 da candidata e na v0.319.
+
+**Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 76, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *O balanço dos tipos — a obra, as réguas do sistema e os defeitos de cada um — está no relatório de lá. A candidata foi à revisão 38 com os §§77 a 84 juntos; o modelo ganhou o modo inativo, a vida por tipo e a carga do talismã, e o lote de teste dos §§77 a 84 tem 11 verificações.*
