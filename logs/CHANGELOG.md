@@ -8,6 +8,18 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.309] — 29/09/2026
+
+**As Invocações ganharam o §67: cada entrada paga PE — manifestar, trocar e voltar depois de cair —, e o preço é a Classe do nível da entidade, que tem nível próprio.** *A r5 §9.1 deixou o PE da entrada pendente; a peça 15 antiga tinha decidido 1 × a maior Classe do invocador por invocação.* **Resposta do Mizuki: "A, mas acredito eu que como as invocações vão ter niveis e n necessariamente precisam seguir o nivel da ficha do personagem, os custos deveriam ser parelhos em relação a isso".** *Recolher não paga. As faixas são as da tabela de progressão (Classe 1 do nível 1 ao 4, até a 7 do 26 ao 30); ele lembrava outras e deixou a tabela decidir. Com o invocador no nível 30, a entidade de nível 2 custa 1 PE e a de 30 custa 7.*
+
+**Adicionado:** o §67 em `invocacoes/DECISOES-A-PARTIR-DO-46.md`, no formato dos anteriores.
+
+**Alterado:** o `invocacoes/LEIA-ME.md`, a fila do `sistema/ESTADO-ATUAL.md` e o `PROMPT-continuar.md` registram o §67 e a pergunta que espera o Mizuki: o que segue o nível da entidade. No lote de desenvolvimento, que continua no HD, a candidata foi à revisão 28. **Nenhuma regra do livro mudou, e nenhum validador.**
+
+**Validação:** bateria de 31 de 31, com PULADA zero, rodada numa cópia com a v0.292 à v0.308 aplicadas; a 7.4, que confere a entrega commitada, só roda no repositório, e o `subir.sh` a roda antes de commitar.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: a pergunta do nível da entidade espera o Mizuki.
+
 ## [0.308] — 29/09/2026
 
 **As Invocações ganharam o §66: a Defesa da entidade fica 10 + Destreza dela + metade da Essência ou da Inteligência do dono, e com revestimento ou traje a proteção dele entra no lugar, como num personagem.** *O §65 reaproveitou a ficha da peça 15 antiga, e a conta achou a Defesa dela até dois pontos abaixo da do personagem que investiu, do nível 15 em diante; a recomendação era trocar a metade do dono pela proteção do personagem.* **Resposta do Mizuki: "A, esse bônus podendo ser anulado caso ela venha a usar algum tipo de revestimento ou traje, igual personagem mesmo".** *As duas não somam. Sem traje, a entidade fica mais fácil de acertar no fim da campanha, e isso entra no preço do §60; como ela ganha o traje fica com o construtor.*

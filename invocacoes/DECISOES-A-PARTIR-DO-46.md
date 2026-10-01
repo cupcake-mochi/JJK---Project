@@ -907,3 +907,39 @@ A validação recomendou o 5 e 3 contra a A (7 e 4). A confirmação:
 **[E] Nenhuma decisão anterior foi reaberta.** O §65 fica com a Defesa fechada.
 
 **Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 65, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 27; o E25 da bancada foi a conta da Defesa, e o E26 é a do PE da entrada.*
+
+---
+
+## 67. O PE da entrada — decisão de Mizuki, 29/09/2026
+
+**O caso que abriu a pergunta:** nível 30, um Bastião (120 PE) com as duas entidades do teto de base; ele as manifesta antes da luta, troca uma no meio dela, e a outra cai e volta. A r5 §9.1 deixou o PE da entrada pendente; a peça 15 antiga, Q4, tinha decidido 1 × a maior Classe do invocador por invocação, com o Bastião como piso e a "primeira grátis" recusada.
+
+**As opções, com a conta da bancada** (E26): (A) 1 × a maior Classe por entrada; (B) sem PE; (C) 1 × a maior Classe pelo conjunto, por luta. Recomendada a (A).
+
+**Resposta autoral:**
+
+> A, mas acredito eu que como as invocações vão ter niveis e n necessariamente precisam seguir o nivel da ficha do personagem, os custos deveriam ser parelhos em relação a isso. 1 PE em niveis 1 ao 5, 2 Pe do 6 ao 8 (eu n lembro os niveis exatos aonde sobem a classe máxima da ficha, mas teriam esses grupos, ent invocar uma invocação de Nv1 ao 5 custaria menos que a de nv maior, mesmo você estando nv alto)
+
+### Aprovado
+
+**[D] Cada entrada paga PE:** manifestar, trocar e voltar depois de cair; recolher não paga.
+
+**[D] O PE da entrada é a Classe do nível da entidade**, pelas faixas da tabela de progressão, e não a maior Classe do invocador: uma entidade de nível baixo custa pouco, mesmo com o invocador em nível alto.
+
+**[D] As entidades têm nível próprio**, que não precisa seguir o do invocador.
+
+### Esclarecimentos
+
+**[E] As faixas são as da peça 18:** Classe 1 do nível 1 ao 4, 2 do 5 ao 8, 3 do 9 ao 12, 4 do 13 ao 16, 5 do 17 ao 20, 6 do 21 ao 25 e 7 do 26 ao 30. Ele lembrava "1 ao 5" e "6 ao 8", e deixou a tabela decidir ("eu n lembro os niveis exatos [...] mas teriam esses grupos").
+
+**[E] Com o invocador no nível 30** (E27), a entidade de nível 2 custa 1 PE, a de 10 custa 3, a de 18 custa 5 e a de 30 custa 7.
+
+**[E] O nível dela já mexe na vida (§61)**; o que mais ele mexe é a pergunta seguinte — em especial o dano: pela Rotina do invocador, uma entidade de nível 2 que custa 1 PE e tem 14 de vida bateria 54 por rodada.
+
+### Limites preservados
+
+**[P] O que segue o nível da entidade além da vida e do custo, se ele pode passar do do invocador, e como ele sobe** — a pergunta seguinte e o construtor.
+
+**[E] Nenhuma decisão anterior foi reaberta.** O §61 deixava o nível da criatura com o construtor e supunha o do dono; o §67 diz que ele é próprio.
+
+**Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 66, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 28; o E26 da bancada foi a conta do PE, e o E27 é a do nível da entidade.*
