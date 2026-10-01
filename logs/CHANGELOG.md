@@ -8,6 +8,18 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.316] — 29/09/2026
+
+**As Invocações ganharam o §74: não recolhem, e ficam `Desligada` ao cair, o corpo amaldiçoado e a maldição domada de quem não tem técnica para recolhê-la; o talismã, a domada com técnica, a da lista de ritual e a de espaço recolhem.** *O §46 criou a `Desligada` para a entidade que o vínculo não deixa recolher, e o §71 deu os vínculos sem dizer quais recolhem.* **Resposta do Mizuki: "Só as domadas no caso de você não ter uma técnica pra tal (como geto), ou as criadas, em ALGUNS casos. Shikigamis são mantidos em talismas, ent da pra recolher, ja corpos amaldiçoados, n, igual o mechamaru, ela desliga apenas".** *Qual técnica basta para recolher uma domada fica com o construtor.*
+
+**Adicionado:** o §74 em `invocacoes/DECISOES-A-PARTIR-DO-46.md`, no formato dos anteriores.
+
+**Alterado:** o `invocacoes/LEIA-ME.md`, a fila do `sistema/ESTADO-ATUAL.md` e o `PROMPT-continuar.md` registram o §74 e a pergunta que espera o Mizuki: o que é um corpo `Desligada`. No lote de desenvolvimento, que continua no HD, a candidata foi à revisão 35. **Nenhuma regra do livro mudou, e nenhum validador.**
+
+**Validação:** bateria de 31 de 31, com PULADA zero, rodada numa cópia com a v0.292 à v0.315 aplicadas; a 7.4, que confere a entrega commitada, só roda no repositório, e o `subir.sh` a roda antes de commitar.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: a pergunta da `Desligada` espera o Mizuki.
+
 ## [0.315] — 29/09/2026
 
 **As Invocações ganharam o §73: a entidade morre de vez se um único golpe causar a vida máxima inteira dela ou se o que passa do zero for maior que metade; a morta não volta, e a que só caiu volta pela entrada com metade da vida.** *O §46 deixou morte definitiva, volta e prazo esperando o vínculo, e o §71 deu forma a ele; a peça 15 antiga tinha a regra, decidida pelo Mizuki. Medida contra o maior golpe de hoje, ela só mata de vez a entidade de Constituição baixa.* **Resposta do Mizuki: "A - MAS, no caso do ritual, é como megumi, perdeu da lista e n tem ganho de volta, perdeu uma da lista de 10 (no caso dele, outros podem ter diferentes, so to dando exemplo)".** *Na lista de ritual, a vaga se perde e a lista encolhe; no espaço de feitiço, a troca se refaz no nível seguinte. Dano em área nunca destrói, e a vida cheia volta no descanso longo.*

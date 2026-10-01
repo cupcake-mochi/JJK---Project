@@ -1174,3 +1174,35 @@ A validação recomendou o 5 e 3 contra a A (7 e 4). A confirmação:
 **[E] Nenhuma decisão anterior foi reaberta.** O §46 ganhou a consequência duradoura que deixou pendente.
 
 **Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 72, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 34, e o E32 da bancada é a conta da morte definitiva.*
+
+---
+
+## 74. Qual vínculo não deixa recolher — decisão de Mizuki, 29/09/2026
+
+**O caso que abriu a pergunta:** uma entidade cai a zero sem morrer de vez. Pelo §46, a que o vínculo deixa recolher sai de campo; a que não deixa fica no lugar, `Desligada`. O §71 deu os vínculos sem dizer quais recolhem.
+
+**As opções:** (A) só as criadas não recolhem; (B) todas recolhem, e a `Desligada` some; (C) as criadas e as domadas não recolhem. Recomendada a (A).
+
+**Resposta autoral:**
+
+> Só as domadas no caso de você não ter uma técnica pra tal (como geto), ou as criadas, em ALGUNS casos. Shikigamis são mantidos em talismas, ent da pra recolher, ja corpos amaldiçoados, n, igual o mechamaru, ela desliga apenas
+
+### Aprovado
+
+**[D] Não recolhem, e ficam `Desligada` ao cair:** o corpo amaldiçoado (o molde do Mechamaru) e a maldição domada de quem não tem técnica para recolhê-la.
+
+**[D] Recolhem:** o talismã (o shikigami fica guardado nele), a maldição domada de quem tem técnica para isso (o molde do Geto), a entidade da lista de ritual e a de espaço de feitiço.
+
+### Esclarecimentos
+
+**[E] Entre as criadas, o talismã recolhe e o corpo amaldiçoado não;** entre as domadas, decide a técnica do invocador. Qual técnica basta para recolher uma domada fica com o construtor.
+
+**[E] A `Desligada` vale só para esses dois casos**, e os pontos em aberto do §46 — o que ela ocupa, a vaga do teto, mover, destruir, curar, religar, projetar e receber ordem — são a pergunta seguinte.
+
+### Limites preservados
+
+**[P] Qual técnica deixa recolher uma domada** — do construtor.
+
+**[E] Nenhuma decisão anterior foi reaberta.** O §46 ganhou os vínculos a que ele se aplica.
+
+**Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 73, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 35.*
