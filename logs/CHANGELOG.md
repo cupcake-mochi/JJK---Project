@@ -8,6 +8,20 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.318] — 29/09/2026
+
+**As Invocações ganharam o §76: a cura numa entidade.** *O §75 recusou a cura religando a `Desligada`, sem dizer se a cura faz alguma coisa numa entidade. A recomendação era a A: a de pé se cura, a que está a zero só volta pela entrada.* **Resposta do Mizuki: "A - Sim, menos a corpo amaldiçoado, pq é um corpo... feito de peças né, energia amaldiçoada ja n cura ela, por sinal pode por na fila no final dela (a fila do ssitema) q vamos mexer nas origens".** A entidade de pé se cura como qualquer corpo; a que está a zero — a `Desligada` no chão ou a que saiu de campo — só volta pela entrada, com metade da vida (§73); e o corpo amaldiçoado não se cura por energia amaldiçoada, nem de pé. *Toda cura de vida do sistema é energia amaldiçoada, então ele recupera vida no descanso longo ou caindo e voltando pela entrada.*
+
+**Adicionado:** o §76 em `invocacoes/DECISOES-A-PARTIR-DO-46.md`, no formato dos anteriores; e o item 20 na fila de agora do `sistema/ESTADO-ATUAL.md`, a pedido dele: a Origem `Corpo Amaldiçoado` não se cura por energia amaldiçoada, e a peça 9 §5 não diz isso hoje.
+
+**Alterado:** o `invocacoes/LEIA-ME.md`, a fila do `sistema/ESTADO-ATUAL.md` e o `PROMPT-continuar.md` registram o §76 e a pergunta que espera o Mizuki: o que separa os quatro tipos de entidade — técnica, domada, talismã e corpo amaldiçoado. No lote de desenvolvimento, que continua no HD, a candidata foi à revisão 37, os casos da `Desligada` e da queda que o §46 deixou pendentes foram trocados de uma vez, com a fonte, e a entrada da caída passou à regra do §73, que a candidata ainda contradizia duas linhas acima dela. **Nenhuma regra do livro mudou, e nenhum validador.**
+
+**Validação:** bateria de 31 de 31, rodada numa cópia com a v0.292 à v0.317 aplicadas. Só a 7.4 pulou: ela confere a entrega commitada, a cópia não tem o `.git` dela, e o `subir.sh` a roda antes de commitar.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: a pergunta dos quatro tipos espera o Mizuki.
+
+---
+
 ## [0.317] — 29/09/2026
 
 **As Invocações ganharam o §75: a `Desligada` é um objeto no campo, e não conta no teto de corpos.** *O §46 deixou abertos o que ela ocupa, a vaga do teto, mover, destruir, curar, religar, projetar e receber ordem; o §74 disse para quem ela vale. A recomendação era o objeto contando no teto.* **Resposta do Mizuki: "B, ele n ta ativo e pode fazer nada, n faz sentido contar, meio que o caso do mechamaru ele precisa levar esses por ai pra conseguir 'funcionar', n faria sentido contar pro limite".** *Ela ocupa o lugar dela, pode ser carregada, morre de vez pelo limiar do §73, não atua, não recebe ordem e não projeta nada, religa pela entrada com metade da vida e sai no fim do combate. Se a cura tem algum efeito numa entidade a zero ficou para a pergunta seguinte.*

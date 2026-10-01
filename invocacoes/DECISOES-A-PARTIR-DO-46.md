@@ -1244,3 +1244,39 @@ A validação recomendou o 5 e 3 contra a A (7 e 4). A confirmação:
 **[E] Nenhuma decisão anterior foi reaberta.** O §46 fecha os pontos da `Desligada`; o §62 continua contando corpos em campo, e a `Desligada` não é um corpo ativo.
 
 **Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 74, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 36; o modelo tirou a `Desligada` do teto, o caso do teto que ficava indeterminado passou a aceitar a entrada, e o lote de teste do §75 tem 3 verificações.*
+
+---
+
+## 76. A cura numa entidade — decisão de Mizuki, 29/09/2026
+
+**O caso que abriu a pergunta:** um Guia com `Sutura` do lado de três entidades — uma de pé ferida, uma `Desligada` no chão e uma que caiu e saiu de campo. O §75 recusou a cura religando, sem dizer se a cura faz alguma coisa numa entidade.
+
+**As opções:** (A) a de pé se cura como qualquer corpo; a que está a zero só volta pela entrada, com metade da vida, e a vida cheia volta no descanso longo; (B) a cura na que está a zero conta para a volta; (C) nenhuma cura alcança entidade. Recomendada a (A).
+
+**Resposta autoral:**
+
+> A - Sim, menos a corpo amaldiçoado, pq é um corpo... feito de peças né, energia amaldiçoada ja n cura ela, por sinal pode por na fila no final dela (a fila do ssitema) q vamos mexer nas origens. Mas é, basicamente a A mesmo, tanto q temos que colocar diferenças entre os tipos de invocações, que temos 4, invocação de técnica, invocação domada, criada de shikigami e talismã
+
+### Aprovado
+
+**[D] A entidade de pé se cura como qualquer corpo:** a cura que alcança outra pessoa alcança a entidade.
+
+**[D] A entidade a zero não se cura** — nem a `Desligada` no chão, nem a que caiu e saiu de campo. Ela só volta pela entrada, com metade da vida (§73), e a vida cheia volta no descanso longo.
+
+**[D] O corpo amaldiçoado não se cura por energia amaldiçoada**, nem de pé: é um corpo feito de peças.
+
+### Esclarecimentos
+
+**[E] Toda cura de vida do sistema hoje é energia amaldiçoada** — a `Energia Reversa` e o que monta nela, como a `Sutura` e a Forma `Cura` do `Manejo`. O `Primeiros Socorros` saiu (peça 7), e o descanso curto não devolve vida (peça 10). Então o corpo amaldiçoado recupera vida por dois caminhos só: o descanso longo, e cair e voltar pela entrada com metade.
+
+**[E] A Origem `Corpo Amaldiçoado` não tem essa regra escrita** (peça 9 §5). Ela foi para o fim da fila do sistema, a pedido dele: "vamos mexer nas origens".
+
+**[E] Os quatro tipos são os da peça 15 antiga:** técnica, maldição domada, talismã (o shikigami guardado nele) e corpo amaldiçoado. A diferença entre eles é a pergunta seguinte.
+
+**[E] Os casos da `Desligada` e da queda que o §46 deixou pendentes foram trocados de uma vez**, cada um com a fonte no executor: a ordem, a cura, carregar, destruir, atingir, a área, religar e a aura da `Desligada` (§75 e este), a consequência duradoura (§73) e a entrada da caída, que volta com metade da vida (§73).
+
+### Limites preservados
+
+**[E] Nenhuma decisão anterior foi reaberta.** Continua pendente o efeito periódico numa `Desligada` (o Q07g): dano persistente e área que exige presença, que nem se aplicam nem se descartam.
+
+**Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 75, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 37; os casos da `Desligada` e da queda que o §46 deixou pendentes foram trocados de uma vez, com a fonte, a entrada da caída passou à regra do §73, e o lote de teste do §76 tem 6 verificações.*
