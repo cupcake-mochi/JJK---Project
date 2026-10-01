@@ -8,6 +8,27 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.324] — 30/09/2026
+
+**As Invocações ganharam o construtor da entidade: os §§89 a 105.** *O §89 mandou começar do zero pelo Fundamento — a entidade tem só uma definição de menos de duas linhas, a básica é um feitiço de Classe 0 e a especial é um feitiço de Classe 1 para cima — e deixou os números para as perguntas seguintes.* **O que decidiu o pacote foi uma regra do Mizuki, dita no meio dele:** "os valores n podem ser iguais ao de um invocador". *Até o §96 a especial tinha o dano, o tamanho de efeito e a CD do jogador, e as passivas passavam das dele; o §97 mandou reduzir tudo, e cada número dali em diante foi validado contra o jogador, a Vanguarda atacando e o Emanador com um feitiço antes de ir a ele* ("Valide sempre essas questões"). **A meta ficou no turno:** a especial de uma entidade com a básica da outra fica "parelho a um classe de um emanador do mesmo nivel", entre 85% e 90% do dano dele, na conta pura — Caminho e Trilha sobem depois.
+
+- **A básica** é a Classe 0 do jogador com metade dos dados, para cima, em d6: 1d6, 2d6 do nível 5, 3d6 do 17 (§95). Caminho pode subir.
+- **As quantidades** são metade das do jogador, sem marcos: uma ou duas Classe 0 e de 1 a 8 espaços (§91); as passivas são oito, uma no nível 1 e uma em cada marco, na Classe liberada (§§93 e 103).
+- **A especial** é como o feitiço do jogador — Classe fixa, reescrita ao subir, custo pela Classe dela (§94) —, com 2, 4, 6, 9, 11, 13 e 16 pontos contra 3 por Classe (§102), o que cresce com a Classe uma Classe abaixo (§100), e a CD igual (§101). A faixa fecha do nível 13 em diante; no 1 a 8 fica em 93% e no 9 a 12 em 84%, pelo tamanho do d8.
+- **As Famílias:** seis Fechadas, três abertas, uma Livre — a da definição; Caminho abre e dá mais (§§98 e 99).
+- **O trunfo:** sem Liberação, Técnica Máxima e Expansão, fora a domada com técnica — Liberação com os pontos da especial, Técnica Máxima de 19d8, 22d8 e 26d8, e a Expansão pelo refino do dono (§§97, 104 e 105).
+- **Domar** é derrotar e, fora da luta, um Teste de Resistência de Espírito da maldição contra a CD do invocador; na luta, só com permissão do mestre (§96).
+
+**Adicionado:** os §§89 a 105 em `invocacoes/DECISOES-A-PARTIR-DO-46.md`, no formato dos anteriores.
+
+**Alterado:** o `invocacoes/LEIA-ME.md`, a fila do `sistema/ESTADO-ATUAL.md` e o `PROMPT-continuar.md` registram o construtor; o que falta das Invocações é a regra de criar, o reparo e o atalho de domar sem luta. No lote de desenvolvimento, que continua no HD, a candidata foi à revisão 43, com o construtor numa seção nova, e o lote de teste dele tem 14 verificações. **Nenhuma regra do livro mudou, e nenhum validador.**
+
+**Validação:** bateria de 31 de 31, rodada numa cópia com a v0.292 à v0.323 aplicadas. Só a 7.4 pulou: ela confere a entrega commitada, a cópia não tem o `.git` dela, e o `subir.sh` a roda antes de commitar.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: a regra de criar, o reparo e o atalho de domar.
+
+---
+
 ## [0.323] — 29/09/2026
 
 **As Invocações ganharam o §88: quem paga a manutenção com o invocador apagado.** *O §47 deixou pendente quem paga, com o invocador apagado, um custo de manutenção que venha a existir — hoje nenhuma entidade tem, porque a manifestação não cobra por rodada (§70). A recomendação era o efeito acabar, porque pagar do PE dele empilha um gasto que ele não escolheu.* **Resposta do Mizuki: "Vamos de B, mas se for uma passiva que n seja 'desligavel', ai C depois A".** O efeito com manutenção que se pode desligar acaba quando o invocador apaga, e a entidade continua agindo pelo §47; a passiva que não se desliga continua, e a manutenção sai da reserva da entidade — só a domada tem (§80) — e, sem ela, do PE do invocador. Se uma passiva é desligável é do texto dela, que o construtor escreve.

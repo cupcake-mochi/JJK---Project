@@ -1709,3 +1709,710 @@ A validação recomendou o 5 e 3 contra a A (7 e 4). A confirmação:
 **[E] Nenhuma decisão anterior foi reaberta.** O §47 continua: a sustentação não cai com o invocador apagado.
 
 **Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 87, no HD. *A candidata foi à revisão 42, e o lote de teste do §88 tem 4 verificações.*
+
+---
+
+## 89. O construtor sai do Fundamento — decisão de Mizuki, 29/09/2026
+
+**O caso que abriu a pergunta:** montar o Nue no nível 2. As opções eram o construtor da peça 15 antiga voltar repaginado (A, recomendada), inteiro (B), ou começar do zero (C).
+
+**Resposta autoral:**
+
+> C, eu acho q da pra gente refazer isso, começar direito
+>
+> pensei em talvez fazer o kit ser baseado justamente no "fundamento", aonde ao invés de uma regra inicial, a invocação teria so uma "definição" do que ela é e as habilidades e caracteristicas teriam que englobar dentro dessa definição, que seria menor que duas linhas como a regra de fundamento mesmo. Ai as ações básicas, além de obviamente... o básico, seriam baseadas no feitiço de classe 0, enquanto as de maior classe seriam as especiais, o custo já é o mesmo ent acho que daria
+>
+> a gente teria que repaginar apenas a quantidade de habilidades ganhas, inicias e os valores para que sejam menores que a de um invocador, mas ao mesmo tempo encaixem nos valores que calculamos
+>
+> o que acha? Obviamente tentando não estourar as pesquisas que fizemos em 24/09, usando elas justamente de validador
+
+### Aprovado
+
+**[D] O construtor começa do zero, e o kit sai do Fundamento** (manual, capítulo 40).
+
+**[D] A entidade tem só uma definição do que ela é**, de menos de duas linhas, como a Regra do Fundamento; toda habilidade e característica dela precisa caber dentro dessa definição.
+
+**[D] As ações básicas dela são feitiços de Classe 0**, além da básica simples. **As especiais são feitiços de Classe 1 para cima** — o custo já é o de um feitiço da mesma Classe (§69).
+
+**[D] A quantidade de habilidades — iniciais e ganhas com o nível — e os valores são menores que os de um invocador**, e cabem nos valores já calculados (§§60, 64 e o resto da bancada).
+
+**[D] A pesquisa de 24/09 é o validador.**
+
+### Esclarecimentos
+
+**[E] "Só uma definição" é lido como sem Famílias e sem Selo:** a entidade não escreve as outras partes do Fundamento. Leitura para vetar.
+
+**[E] O que encaixa sozinho:** a Classe 0 só aceita uma Melhoria `Leve` (manual, cap. 40), e o §52 já tinha decidido que condição Média ou Pesada só vem de especial — a básica por Classe 0 respeita o §52 sem regra nova, e fecha o preço da condição Leve na básica, que era pendente do §52. A especial como feitiço de Classe 1 para cima gasta a Padrão do invocador (r5 §4), então ela troca o feitiço dele pelo dela, com o mesmo preço.
+
+**[E] O que não encaixa sozinho — o dano da Classe 0:** a tabela do jogador (2d8 no nível 1, até 6d8 no 25) passa da meia Rotina do §64 do nível 1 ao 4 com uma entidade, e do terço de Rotina com duas do nível 1 ao 8 e no 11 e no 12. É a primeira pergunta do construtor.
+
+### Limites preservados
+
+**[P] Os números do construtor:** o dano da Classe 0 dela, quantas Classe 0 e quantas especiais ela tem, as passivas, e em que ritmo elas crescem.
+
+**[E] Nenhuma decisão anterior foi reaberta.** O §65 (ficha), o §69 (custo da especial) e o §64 (a parte do conjunto) continuam; o §89 diz de onde o kit sai.
+
+**Onde a conta mora:** no lote de desenvolvimento, no HD. *O construtor (§§89 a 105) entrou junto na candidata, na revisão 43, e o lote de teste dele tem 14 verificações.*
+
+---
+
+## 90. O dano da Classe 0 da entidade — decisão de Mizuki, 29/09/2026
+
+**O caso que abriu a pergunta:** um invocador de nível 5 com duas entidades em campo, as duas usando a básica de Classe 0. As opções eram a tabela do jogador (A), um dado a menos que ela (B, recomendada), ou o dado saindo direto do §64 e mudando com quantas estão em campo (C).
+
+**Resposta autoral:**
+
+> B calcule a melhor rota para manter aquela ideia do metade da rotina e duas invocações no máximo serem um pouco a mais que isso, mas até 2/3 da rotina
+>
+> com isso proxima
+
+### Aprovado
+
+**[D] A básica da entidade fica menor que a do invocador (B), e a rota mantém a ideia do §64:** uma entidade sozinha perto de meia Rotina, e duas juntas um pouco acima disso, até dois terços.
+
+### Esclarecimentos — a rota calculada
+
+**[E] O mesmo dado não faz as duas coisas.** Para duas entidades ficarem até dois terços, cada uma tem de ficar até um terço; e uma sozinha, perto da metade. Com um dado só por entidade, a sozinha fica em um terço. **A rota precisa de uma regra a mais: sozinha em campo, a básica rola metade dos dados a mais, arredondando para baixo.**
+
+**[E] A tabela, pela Classe do nível da entidade (§68)** — o dado é o maior número de d8 que deixa cada uma de uma dupla até um terço de Rotina, com mínimo de 1:
+
+| Classe (níveis) | em dupla, cada | dupla somada / ⅔ Rotina | sozinha | sozinha / ½ Rotina |
+|---|---|---|---|---|
+| 1 (1–4) | 1d8 | 9 / 8,7 (104%) | 1d8 | 4,5 / 6,5 (69%) |
+| 2 (5–8) | 2d8 | 18 / 20,7 (87%) | 3d8 | 13,5 / 15,5 (87%) |
+| 3 (9–12) | 3d8 | 27 / 30 (90%) | 4d8 | 18 / 22,5 (80%) |
+| 4 (13–16) | 4d8 | 36 / 42 (86%) | 6d8 | 27 / 31,5 (86%) |
+| 5 (17–20) | 5d8 | 45 / 50,7 (89%) | 7d8 | 31,5 / 38 (83%) |
+| 6 (21–25) | 6d8 | 54 / 62,7 (86%) | 9d8 | 40,5 / 47 (86%) |
+| 7 (26–30) | 8d8 | 72 / 72 (100%) | 12d8 | 54 / 54 (100%) |
+
+**[E] Onde a rota e o "um dado a menos" (B) brigam:** até o nível 8 a rota é o B (1d8 e 2d8). Do 9 em diante ela passa do B, e do 13 (em dupla) ou do 5 (sozinha) ela iguala ou passa a Classe 0 do jogador — no nível 30, 8d8 em dupla e 12d8 sozinha, contra 6d8 dele. **Ela continua menor que o invocador no que o §89 mede:** a parte das entidades é meia Rotina, e o invocador tem a Rotina inteira nos feitiços dele; a Classe 0 do jogador é o golpe de poupar PE, e a básica é o ataque principal da entidade. Leitura para vetar: se o "menor que o invocador" é a Classe 0 dele, a meta do §64 não se cumpre do nível 9 em diante.
+
+**[E] No nível 1 a 4 o grão do d8 não fecha:** a dupla passa o teto em 0,3 (104%), e a sozinha fica em 69%.
+
+**[E] Como a do jogador, a Classe 0 da entidade cabe uma Melhoria `Leve` e uma Restrição `Leve`, tirando um dado para pagar** (manual, cap. 40).
+
+### Limites preservados
+
+**[E] Nenhuma decisão anterior foi reaberta.** O §64 dá a meta, e o §90 dá o dado.
+
+**Onde a conta mora:** no lote de desenvolvimento, no HD. *O construtor (§§89 a 105) entrou junto na candidata, na revisão 43, e o lote de teste dele tem 14 verificações.*
+
+---
+
+## 91. O dado que sobe, e quantas habilidades a entidade tem — decisão de Mizuki, 30/09/2026
+
+**O caso que abriu a pergunta:** um shikigami de nível 10, "cão de sombra que caça pelo cheiro": quantas Classe 0 e quantos espaços ele tem. As opções eram metade do jogador (A, recomendada), um terço (B), ou Classe 0 um a menos com espaços pela metade (C). O §90 tinha deixado para vetar que a rota da Classe 0 passa a do jogador do nível 13 em diante.
+
+**Resposta autoral:**
+
+> Conflito: N é só alterar o dado? pra D6-D10, ao longo que sobe o nv? e mexer a quantidade de dados
+>
+> Mas agora indo pras escolhas. Como eles n teriam os marcos, acho que metade, mas em niveis X ganhar passivas, é bom. Como nv1-2 ter uma passiva ja, nv6 mais uma e ir indo
+>
+> mas sim, vai demorar fazer ficha no caso do evocador assim, mas é aquilo, variedade
+
+### Aprovado
+
+**[D] O dado da Classe 0 da entidade sobe com o nível — d6, depois d8, depois d10 —, e a quantidade de dados se ajusta** para manter a rota do §90.
+
+**[D] A entidade tem metade do que o jogador tem, sem os marcos:** a metade dos espaços da conta do jogador sem o `+1 por marco`, e a metade das Classe 0 dele.
+
+**[D] A entidade ganha passivas por nível:** uma no começo (nível 1 ou 2), outra no nível 6, e segue.
+
+**[D] Montar a ficha vai demorar mais, e isso é aceito:** é o preço da variedade.
+
+### Esclarecimentos — as contas
+
+**[E] O dado, pela Classe do nível da entidade** — d6 nas Classes 1 e 2, d8 da 3 à 5, d10 na 6 e na 7; em dupla, o maior número desse dado que fica até um terço de Rotina; sozinha, metade dos dados a mais (§90):
+
+| Classe (níveis) | em dupla, cada | sozinha | Classe 0 do jogador |
+|---|---|---|---|
+| 1 (1–4) | 1d6 = 3,5 (81% da meta) | 1d6 = 3,5 (54%) | 2d8 = 9 |
+| 2 (5–8) | 2d6 = 7 (68%) | 3d6 = 10,5 (68%) | 3d8 = 13,5 |
+| 3 (9–12) | 3d8 = 13,5 (90%) | 4d8 = 18 (80%) | 3d8 a 4d8 |
+| 4 (13–16) | 4d8 = 18 (86%) | 6d8 = 27 (86%) | 4d8 = 18 |
+| 5 (17–20) | 5d8 = 22,5 (89%) | 7d8 = 31,5 (83%) | 5d8 = 22,5 |
+| 6 (21–25) | 5d10 = 27,5 (88%) | 7d10 = 38,5 (82%) | 5d8 a 6d8 |
+| 7 (26–30) | 6d10 = 33 (92%) | 9d10 = 49,5 (92%) | 6d8 = 27 |
+
+**[E] O que o dado que sobe resolve, e o que não:** em dupla, a entidade nunca rola mais dados que a Classe 0 do jogador, e até o nível 20 a média também não passa a dele. **Do 21 em diante a média passa** (27,5 e 33 contra 22,5 a 27): trocar o dado muda a quantidade e a variação, não a média, e a meta do §64 é maior que a Classe 0 do jogador no fim da campanha. **E o começo ficou mais fraco:** com d6, do nível 1 ao 8 a entidade fica em 54% a 81% da meta. Leitura para vetar.
+
+**[E] As quantidades:** os espaços da conta do jogador sem marcos são `2 + nível ÷ 2`; a metade, para baixo, dá 1 no nível 1, 2 no 5, 3 no 10, 6 no 20 e 8 no 30. As Classe 0 do jogador são 2, 3, 4 e 5; a metade dá 1 até o nível 10 e 2 do 11 em diante.
+
+**[E] "Nível 1 ou 2" é lido como o nível em que a entidade é obtida**, qualquer que seja: toda entidade começa com uma passiva.
+
+### Limites preservados
+
+**[P] O ritmo das passivas depois do nível 6, e a Classe Passiva delas** — a pergunta do fim.
+
+**[E] Nenhuma decisão anterior foi reaberta.** O §90 continua com a rota; o §91 troca o dado dela.
+
+**Onde a conta mora:** no lote de desenvolvimento, no HD. *O construtor (§§89 a 105) entrou junto na candidata, na revisão 43, e o lote de teste dele tem 14 verificações.*
+
+---
+
+## 92. Uma entidade bate um terço, sozinha ou em dupla — decisão de Mizuki, 30/09/2026
+
+**O caso que abriu a pergunta:** o retorno do §91 — o dado que sobe (d6 → d10) resolveu os dados, mas a média da entidade passava a Classe 0 do jogador do nível 21 em diante, e com d6 o começo ficava entre 54% e 81% da meta.
+
+**Resposta autoral:**
+
+> 1 - Lembrando pode mexer na quantidade de dados, n tem problema
+>
+> 2 - Pode deixar uma invocação bater um terço só e duas baterem dois terços. A gente balanceia e buffa nos caminhos pra dar mais
+
+### Aprovado
+
+**[D] A quantidade de dados da Classe 0 da entidade pode mudar livremente** com a Classe do nível dela, junto com o dado do §91.
+
+**[D] Cada entidade bate até um terço de Rotina, sozinha ou em dupla:** uma sozinha fica em um terço, e duas somam dois terços. **Cai a regra do §90 de a entidade sozinha rolar metade dos dados a mais.**
+
+**[D] O que passar disso vem dos Caminhos**, balanceado lá.
+
+### Esclarecimentos — a tabela que fica
+
+**[E] Uma coluna só**, a de dupla do §91: o maior número do dado da Classe que fica até um terço de Rotina (a Rotina é quanto dano por rodada o sistema considera normal na Classe).
+
+| Classe (níveis) | um terço de Rotina | Classe 0 da entidade | da meta | Classe 0 do jogador |
+|---|---|---|---|---|
+| 1 (1–4) | 4,3 | 1d6 = 3,5 | 81% | 2d8 = 9 |
+| 2 (5–8) | 10,3 | 2d6 = 7 | 68% | 3d8 = 13,5 |
+| 3 (9–12) | 15 | 3d8 = 13,5 | 90% | 3d8 a 4d8 |
+| 4 (13–16) | 21 | 4d8 = 18 | 86% | 4d8 = 18 |
+| 5 (17–20) | 25,3 | 5d8 = 22,5 | 89% | 5d8 = 22,5 |
+| 6 (21–25) | 31,3 | 5d10 = 27,5 | 88% | 5d8 a 6d8 |
+| 7 (26–30) | 36 | 6d10 = 33 | 92% | 6d8 = 27 |
+
+**[E] O ponto fraco é a Classe 2 (níveis 5 a 8), em 68%:** um dado a mais (3d6 = 10,5) passa o terço por 0,2. Pela regra aprovada no §90 — o maior número que fica até o teto —, fica 2d6. Leitura para vetar.
+
+**[E] Da Classe 6 em diante a média da entidade passa a Classe 0 do jogador** (27,5 e 33 contra 22,5 a 27), com menos ou o mesmo número de dados. A resposta 1 aceita mexer na quantidade; fica registrado para ele ver.
+
+### Limites preservados
+
+**[E] O §64 fica como está no teto do conjunto** (dois terços com duas); o que muda é a entidade sozinha, que antes mirava meia Rotina. **O §90 perde a regra da sozinha**, e o §91 perde a coluna dela.
+
+**[P] O ritmo das passivas continua aberto** — a pergunta do §91.
+
+**Onde a conta mora:** no lote de desenvolvimento, no HD. *O construtor (§§89 a 105) entrou junto na candidata, na revisão 43, e o lote de teste dele tem 14 verificações.*
+
+---
+
+## 93. O dado é ferramenta, e as passivas vêm nos marcos — decisão de Mizuki, 30/09/2026
+
+**O caso que abriu a pergunta:** o retorno do §92 (a média da entidade passa a Classe 0 do jogador da Classe 6 em diante, e a Classe 2 fica em 68% com 2d6) e a pergunta do ritmo das passivas do §91, no corpo de criação levado do nível 1 ao 30. As opções eram a cada 5 níveis (A, recomendada), nos níveis de marco do jogador (B) e a cada 10 depois do 6 (C).
+
+**Resposta autoral:**
+
+> Sobre o dano. Vc ta comparando apenas contra classe 0, lembre-se que existem feitiços de classe maior
+>
+> e n é obrigatorio ter o aumento até d10, n precisa levar ao pé da letra, só use caso sirva de auxilio
+>
+> E sobre a pergunta, pode ir de B
+
+### Aprovado
+
+**[D] A comparação do dano da entidade é com o que o invocador faz de verdade — a Rotina, com os feitiços de Classe maior —, e não com a Classe 0 dele.** Passar a Classe 0 do jogador não é defeito.
+
+**[D] O d10 do §91 não é obrigatório:** o dado é ferramenta para chegar no terço de Rotina do §92, e só entra quando ajuda.
+
+**[D] A entidade ganha passiva nos níveis de marco do jogador (B):** 1, 6, 10, 14, 18, 22, 26 e 30 — oito no nível 30.
+
+### Esclarecimentos — a rota do dado
+
+**[E] Com o dado livre, o d10 não ajuda:** na Classe 6, 5d10 = 27,5 contra 6d8 = 27; na 7, 6d10 = 33 contra 8d8 = 36. E o d6 só ajuda na Classe 1, onde 1d8 passa o terço (4,5 contra 4,3). **Fica d6 na Classe 1 e d8 da 2 em diante**, o maior número que fica até um terço de Rotina. Leitura para vetar.
+
+| Classe (níveis) | um terço de Rotina | Classe 0 da entidade | da meta |
+|---|---|---|---|
+| 1 (1–4) | 4,3 | 1d6 = 3,5 | 81% |
+| 2 (5–8) | 10,3 | 2d8 = 9 | 87% |
+| 3 (9–12) | 15 | 3d8 = 13,5 | 90% |
+| 4 (13–16) | 21 | 4d8 = 18 | 86% |
+| 5 (17–20) | 25,3 | 5d8 = 22,5 | 89% |
+| 6 (21–25) | 31,3 | 6d8 = 27 | 86% |
+| 7 (26–30) | 36 | 8d8 = 36 | 100% |
+
+**[E] O ponto fraco do §92 some:** a Classe 2 passa de 68% (2d6) para 87% (2d8). A rota fica entre 81% e 100%, e é a do §90 com o d6 só no começo.
+
+### Esclarecimentos — as passivas
+
+**[E] A Classe Passiva de cada uma é a mais alta que o nível da entidade liberou quando ela a ganha** (manual: 1 no nível 1, 2 no 7, 3 no 13). Dá, no marco: 1 e 1 (níveis 1 e 6), 2 (nível 10), e 3 do 14 ao 30. Estava escrito na pergunta para qualquer opção.
+
+**[E] Oito é três acima das cinco pagas do jogador, e a resposta sabia disso** — estava na opção. A entidade não tem o teto de cinco.
+
+**[E] Leitura para vetar, dita antes da letra e não respondida:** as passivas por nível ficam fora dos espaços, e os espaços (metade do jogador, sem marcos: 1 no nível 1 até 8 no 28) pagam só as especiais.
+
+**[E] A domada parada** (§80) fica com as passivas dos marcos até o nível em que foi domada.
+
+### Limites preservados
+
+**[E] O §92 continua** (um terço por entidade, sozinha ou em dupla); o §93 troca o dado dele e retira a comparação com a Classe 0 do jogador. **O §91 perde o d10.**
+
+**[P] A especial pela Classe do nível da entidade** — a pergunta seguinte.
+
+**Onde a conta mora:** no lote de desenvolvimento, no HD. *O construtor (§§89 a 105) entrou junto na candidata, na revisão 43, e o lote de teste dele tem 14 verificações.*
+
+---
+
+## 94. A básica fica baixa, o turno tem piso, e a especial é como o feitiço do jogador — decisão de Mizuki, 30/09/2026
+
+**O caso que abriu a pergunta:** o retorno do §93 (a rota do terço de Rotina chegava a 100% e 133% da Classe 0 do jogador nas Classes altas) e a pergunta da especial antiga — a "mordida que prende", Classe 1 no nível 1, com a entidade no 13. As opções eram como o jogador (A, recomendada), acompanhar o nível (B) e reescrever só ao ganhar espaço (C).
+
+**Resposta autoral:**
+
+> Vamos lá, sinto q vc n ta validando sobre antes de apresentar os numeros. Se o plano é justamente usar o d6 e o d8 como ajuste, pq em niveis maiores o dado tá cada vez mais proximo do classe 0? da pra regular, da pra diminuir, da pra balancear os numeros para n alcançar a margem assim
+>
+> lembre-se de duas coisas
+>
+> 1 - Isso é a ação básica deles, ent eles vão fazer isso com autonomia, o invocador vai poder bater juntos deles em certo momento. Ideal é deixar esse valores da básica relativamente baixos mesmo, n tem problema. Meio que ele tá batendo "de graça", usar as especiais vai completar isso (no lugar do invocador bater), uma especial + básicas, tudo bem pode passar da rotina basica de um conjurador de classe normal do turno, mas n pode ficar abaixo de um vanguarda médio atacando ou a soma deles n pode ficar abaixo do emanador que só abriu um feitiço de classe, saca?
+>
+> ja sobe as especiais, fica como jogador
+
+### Aprovado
+
+**[D] A básica da entidade fica relativamente baixa:** ela bate com autonomia, "de graça", e não chega perto da Classe 0 do jogador em nível nenhum.
+
+**[D] O que completa o dano é a especial**, comandada no lugar do invocador atacar.
+
+**[D] O turno com especial + básicas pode passar da Rotina de um conjurador comum, e tem piso:** não fica abaixo de uma Vanguarda média atacando, nem do Emanador que abriu um feitiço da Classe dele.
+
+**[D] A especial fica como o feitiço do jogador (A):** tem a Classe em que foi montada e custa 3 × essa Classe; ao subir de nível, a entidade reescreve uma especial do zero. O §69 passa a ler "3 × a Classe da especial".
+
+### Esclarecimentos — a validação, antes dos números
+
+**[E] O que foi medido** (a conta *basica_depois_do_93* da bancada, no HD), nos 30 níveis, com a entidade no nível do dono:
+
+- **O feitiço da Classe** (o do Emanador, e a especial da entidade): 3 × Classe em d8, de 13,5 no nível 1 a 94,5 no 30.
+- **A Vanguarda média atacando:** Ação Atacar, 1 golpe até o nível 6 e 2 do 7 (peça 6 §3.1); arma d10 + Força (3 a 6); dano na arma pelo refino da rota meio a meio (peça 11 §6.9). De 8,5 no nível 1 a 51 no 30.
+- **O teto do conjunto:** §64 com o §92 — a Rotina do invocador mais um terço por entidade (1⅓ com uma, 1⅔ com duas).
+
+**[E] Os dois pisos se cumprem só com a especial:** o feitiço da Classe fica acima da Vanguarda atacando em todo nível (1,23× no pior). **A básica não precisa carregar piso nenhum** — pode ser baixa sem furar.
+
+**[E] Com a entidade abaixo do nível do dono, o piso fura** (dois níveis abaixo, em 12 de 28 níveis; quatro, em 24 de 26), porque a especial cai de Classe. O §68 já aceitava isso: a de nível mais baixo custa menos e bate menos.
+
+**[E] A rota do §93 cumpre piso e teto, e é a que chega na Classe 0 do jogador:** 100% nos níveis 9, 13 a 20 e 25, e 133% do 26 em diante. O defeito que ele apontou é esse.
+
+### Limites preservados
+
+**[P] A rota da básica** — a pergunta seguinte, com a conta: um dado a menos que o jogador em d6, ou metade dos dados do jogador em d6.
+
+**[E] O §93 perde a tabela do dado;** o §92 continua como teto (um terço por entidade), e deixa de ser a meta.
+
+**Onde a conta mora:** no lote de desenvolvimento, no HD. *O construtor (§§89 a 105) entrou junto na candidata, na revisão 43, e o lote de teste dele tem 14 verificações.*
+
+---
+
+## 95. A básica é a B, e o Caminho pode subir — decisão de Mizuki, 30/09/2026
+
+**O caso que abriu a pergunta:** um invocador de nível 30 com duas entidades de nível 30. As opções eram um dado a menos que a Classe 0 do jogador, em d6 (A), ou metade dos dados, para cima, em d6 (B, recomendada).
+
+**Resposta autoral:**
+
+> Sobre sua medida
+>
+> LEMBRE-SE, que provavelmente esse especial vai ser usado normalmente com pelo menos uma básica junto de alguma outra invocação. Ja q o invocador pode ter 2 invocações em campo e uma ou as duas, se tiver mais que duas invocações, (normalmente so uma, ja q a invocação n pode dar basica e especial no mesmo turno) vão dar uma ação básica. Isso tem q ser levado em conta
+>
+> fica B e registra que caminho vai poder aumentar isso
+>
+> poderiamos fazer por exemplo a trilha de uma unica invocação aumentar para a A
+
+### Aprovado
+
+**[D] A básica da entidade é a B:** a Classe 0 do jogador com metade dos dados, arredondando para cima, em d6 — 1d6 do nível 1 ao 4, 2d6 do 5 ao 16, 3d6 do 17 ao 30.
+
+**[D] O turno normal é a especial de uma entidade com a básica da outra:** a entidade que faz a especial não faz a básica no mesmo turno (r5 §4 e §50), então com duas em campo a especial vem, em geral, com uma básica só.
+
+**[D] Caminho pode aumentar a básica.** Exemplo dele: a Trilha de uma invocação só sobe a básica para a A (um dado a menos que a Classe 0 do jogador, em d6).
+
+### Esclarecimentos — a medida refeita pelos turnos de verdade
+
+**[E] Três turnos** (a conta *basica_depois_do_93* da bancada, no HD, `conferir_95`), com as entidades no nível do dono:
+
+| nível | especial sozinha | especial + básica da outra | feitiço do invocador + duas básicas |
+|---|---|---|---|
+| 1 | 13,5 (104% da Rotina) | 17 (131%) | 20,5 (158%) |
+| 5 | 27 (87%) | 34 (110%) | 41 (132%) |
+| 11 | 40,5 (90%) | 47,5 (106%) | 54,5 (121%) |
+| 17 | 67,5 (89%) | 78 (103%) | 88,5 (116%) |
+| 25 | 81 (86%) | 91,5 (97%) | 102 (109%) |
+| 30 | 94,5 (88%) | 105 (97%) | 115,5 (107%) |
+
+**[E] Nenhum turno fura o piso** (Vanguarda média atacando e Emanador com um feitiço), **nem o teto** (1⅔ Rotina), nos 30 níveis. A "especial + duas básicas" da medida do §94 não acontece com duas em campo; o número dela é o do feitiço do invocador com as duas batendo.
+
+**[E] O exemplo da Trilha tem molde no desenho:** a Trilha `Servo` do Evocador é "uma invocação, forte" (peça 6 §2, fora da edição jogável). Com uma entidade só e a básica na A, o feitiço do invocador + a básica dela no nível 30 dá 112 (104% da Rotina), e passa nos mesmos pisos e teto. **Não é Trilha decidida** — o número e o dono ficam para quando as Trilhas do Evocador forem feitas.
+
+### Limites preservados
+
+**[P] Qual Caminho ou Trilha sobe a básica, e quanto.**
+
+**[E] O §94 continua;** o §95 escolhe a rota e corrige a medida.
+
+**Onde a conta mora:** no lote de desenvolvimento, no HD. *O construtor (§§89 a 105) entrou junto na candidata, na revisão 43, e o lote de teste dele tem 14 verificações.*
+
+---
+
+## 96. Domar: derrotar e testar; enfraquecer e tentar, se o mestre deixar — decisão de Mizuki, 30/09/2026
+
+**O caso que abriu a pergunta:** um invocador de nível 10, com o grupo, contra uma maldição de nível 10 que ele quer domar. As opções eram enfraquecer e tentar com TR Espírito, "igual pokémon" (A, recomendada), derrotar e absorver sem rolagem, como o Geto (B), e derrotar e testar depois (C).
+
+**Resposta autoral:**
+
+> mas te respondendo, C, com a possibilidade da A com a permissão do mestre em dada vida que o mestre permitir, n precisa ser obrigatoriamente 50%
+
+### Aprovado
+
+**[D] A regra é a C:** a maldição que chega a zero de vida não morre — a não ser pela morte definitiva (peça 15: golpe único da régua inteira, ou excedente acima de metade) — e, fora da luta, faz um TR Espírito contra a CD do invocador. Falhou, está domada; resistiu, é exorcizada.
+
+**[D] A A existe com permissão do mestre:** na luta, com a maldição na vida que o mestre permitir, o invocador pode tentar com a Ação Padrão, pelo mesmo TR Espírito. A marca de vida não é fixa em metade.
+
+### Esclarecimentos
+
+**[E] O filtro dos dois mestres:** a regra que vale sempre é a C, e ela é uma rolagem só. A A é permissão de mesa, e a marca de vida é do mestre — dois mestres podem abrir a A em marcas diferentes, e a C continua igual nos dois.
+
+**[E] Na C, com a maldição treinada no TR Espírito e do mesmo nível, ela resiste 65% das vezes** (d20 + atributo + maestria contra 8 + atributo + maestria). Leitura para vetar: os −2 por um quarto da vida e por condição, que eram da A, ficam só na A.
+
+### Limites preservados
+
+**[P] O atalho da obra** (maldição muito abaixo do dono, sem luta), a regra de criar e o reparo.
+
+**Onde a conta mora:** no lote de desenvolvimento, no HD. *O construtor (§§89 a 105) entrou junto na candidata, na revisão 43, e o lote de teste dele tem 14 verificações.*
+
+---
+
+## 97. O kit da entidade é menor que o do invocador em tudo — decisão de Mizuki, 30/09/2026
+
+**O caso que abriu a pergunta:** o construtor fechado nos §§89 a 95, relido pelo Mizuki antes de domar.
+
+**Resposta autoral:**
+
+> 1 - Os valores n podem ser iguais ao de um invocador, vc reduziu todas as tabelas? pra entrar e encaixar na rotina que você me apresentou? Oq vc mudou?
+>
+> 2 - Os valores tambem de BUFFS, melhorias, Debuffs, tem que ser modificados pelo mesmo motivo ao meu ver
+>
+> 3 - Acredito eu que. 1 - A invocação n pode ter a possibilidade da regra e passiva gratuita é bom, a de criação sabe? do fundamento. E acho que deveriamos mexer nas familias pra ela, acho que justamente por ser uma invocação, seria melhor ela ter uma quantidade MAIOR de familias bloqueadas e n ter familias livres. Isso ainda permiti diversas possibilidades, mas sem deixar uma invocação podendo fazer mt
+>
+> 4 - Elas n terem liberação máxima, tecnica máxima, expansão, é ideal. Com exceção das domadas com técnica e isso ser justamente o trunfo delas é bom (que tbm precisam dos números modificados)
+>
+> Consegue entender aonde quero chegar? Valide isso tudo aonde de seguir para as proximas perguntas
+
+### Aprovado
+
+**[D] Nenhum valor do kit da entidade é igual ao do invocador.**
+
+**[D] Buffs, Melhorias e debuffs da entidade também são menores**, pelo mesmo motivo.
+
+**[D] A entidade não tem a Regra Própria gratuita nem a Passiva Livre** — as duas de graça da criação do Fundamento.
+
+**[D] A entidade não tem Família Livre, e tem mais Famílias Fechadas que o jogador** (ele tem duas Livres e três Fechadas).
+
+**[D] A entidade não tem Liberação Máxima, Técnica Máxima nem Expansão de Domínio.** **A exceção é a domada com técnica**, e é o trunfo dela — com os números também reduzidos.
+
+### Esclarecimentos — o que o construtor mudou, e o que ficou igual ao jogador
+
+**[E] Mudou:** a básica (metade dos dados da Classe 0 do jogador, em d6 — 39% a 52% dela); quantas Classe 0 (metade); os espaços (metade, sem marcos); a vida (§61) e o PE (§67).
+
+**[E] Ficou igual ao jogador:** **a especial** — o orçamento de pontos da Classe (3 por Classe), os preços das Melhorias e o limite de Melhorias por Classe; a Melhoria `Leve` na Classe 0; e o valor de cada Passiva pela Classe Passiva.
+
+**[E] E uma passou do jogador:** as passivas nos marcos (§93) são oito, contra cinco pagas do jogador, e pela leitura do §93 não gastam espaço — a do jogador gasta de 1 a 3.
+
+### Esclarecimentos — a validação de cada ponto
+
+**[E] Ponto 1 contra o piso do §94.** A especial é o que segura o piso sozinha: com a básica da outra entidade, ela só pode perder o que a básica vale. Em pontos da Classe (1 ponto = 1d8 de dano): **0 do nível 1 ao 4, 1 do 5 ao 16, 2 do 17 ao 30** — de 11% a 26% do dano do feitiço. Com uma entidade só em campo, qualquer corte na especial fura o piso. **Cortar a especial no dano briga com o piso; o corte cabe mais em versatilidade que em dano.**
+
+**[E] Ponto 2 sai quase de graça do ponto 3.** O jogador paga cada Melhoria das duas Famílias Livres com metade da Classe a menos (mínimo 1). A entidade sem Livres paga o preço cheio em tudo: uma Média na Classe 4 custa 4 pontos a ela e 2 ao jogador na Livre dele. Os pontos a mais saem do dano da especial, e buff e debuff ficam mais caros sem tabela nova.
+
+**[E] Ponto 3, o que as Famílias fecham.** São nove, com 6 a 9 Melhorias cada (67 no total), e mais 16 fora de família, que Família Fechada não bloqueia. Fechar Área tira as Formas Explosão, Aura, Cone e Linha; fechar Amparo tira Cura, Apoio e Onda. Projétil, Toque e Efeito ficam para todo mundo — **com qualquer número de Fechadas a entidade ainda tem três Formas.**
+
+**[E] Ponto 3, a Regra.** Leitura para vetar: a Regra que sai é a Regra Própria gratuita (a mecânica de graça em Classe 1); a definição de menos de duas linhas do §89 fica, porque é ela que faz o papel da Regra.
+
+**[E] Ponto 4 e a domada:** ela não sobe de nível (§80), então só tem Liberação Máxima se foi domada no nível 10 ou acima, e Técnica Máxima no 17 ou acima, nos níveis do jogador.
+
+### Limites preservados
+
+**[P] Em ordem:** quantas Famílias Fechadas; se a especial perde pontos (e quantos, dentro da folga do piso); as oito passivas contra as cinco do jogador; os números da técnica da domada.
+
+**[E] O §89 continua;** o §97 diz que "menor" vale para tudo, e não só para o dano e a quantidade.
+
+**Onde a conta mora:** no lote de desenvolvimento, no HD. *O construtor (§§89 a 105) entrou junto na candidata, na revisão 43, e o lote de teste dele tem 14 verificações.*
+
+---
+
+## 98. Seis Famílias Fechadas, e o Caminho abre uma ou duas — decisão de Mizuki, 30/09/2026
+
+**O caso que abriu a pergunta:** o cão de sombra montando a "mordida que prende" (Controle, com Alcance). As opções eram 4 Fechadas (A), 5 (B, recomendada) e 6 (C).
+
+**Resposta autoral:**
+
+> Pessoalmente. Gosto de C
+>
+> Com os caminhos podendo reduzir dentre 1 a 2 desse valor, ai ela nunca alcança o player, mas ao mesmo tempo tem uma diversidade legal
+>
+> acha q ainda seria interessante ter familia livre? Ou n?
+>
+> Valide sempre essas questões
+
+### Aprovado
+
+**[D] A entidade tem seis Famílias Fechadas e três abertas (C).** Quais abrem sai da definição, com o mestre.
+
+**[D] Caminho pode reduzir as Fechadas em uma ou duas** — até cinco abertas, uma a menos que as seis do jogador.
+
+**[D] Validar sempre** cada número contra o jogador e os Caminhos antes de levar.
+
+### Esclarecimentos — a validação
+
+**[E] Melhorias à venda, em média:** 38 com três abertas (63% das 61 do jogador), 46 com quatro (75%), 53 com cinco (88%). Com o teto do Caminho, a entidade nunca chega às seis do jogador. Projétil, Toque, Efeito e as 16 Melhorias fora de família ficam sempre.
+
+**[E] A pergunta dele sobre a Família Livre** — o §97 tinha tirado — **vai medida para a questão seguinte** (a conta *familia_livre_97* da bancada, no HD).
+
+### Limites preservados
+
+**[P] Qual Caminho ou Trilha abre Famílias, e quantas** (uma ou duas).
+
+**[P] Se a entidade tem uma Família Livre.**
+
+**Onde a conta mora:** no lote de desenvolvimento, no HD. *O construtor (§§89 a 105) entrou junto na candidata, na revisão 43, e o lote de teste dele tem 14 verificações.*
+
+---
+
+## 99. Uma Família Livre, a da definição — decisão de Mizuki, 30/09/2026
+
+**O caso que abriu a pergunta:** o cão de sombra no nível 26 com a "mordida que prende" (Prende, Média de Controle), a outra entidade batendo com a básica. As opções eram sem Livre (A), uma Livre entre as três abertas, a da definição (B, recomendada), e Livre só pelo Caminho (C).
+
+**Resposta autoral:**
+
+> B
+>
+> E caminho pode ter a possibilidade de dar mais
+>
+> ja voltando, os danos, valores de buffs e afins, n vai ter redução?
+
+### Aprovado
+
+**[D] A entidade tem uma Família Livre, entre as três abertas: a que a definição pede.** Nas outras duas, preço cheio. Revê o §97 nesse ponto.
+
+**[D] Caminho pode dar mais Livres.**
+
+### Esclarecimentos
+
+**[E] Com a Livre, o turno (especial + básica da outra) fica de 112% a 122% do Emanador com a mesma Melhoria na Livre dele** (a conta *familia_livre_97* da bancada, no HD); nas duas abertas sem desconto, de 73% a 97% do nível 9 em diante. O jogador tem duas Livres em seis abertas; a entidade, uma em três.
+
+**[E] A pergunta dele — o dano e os valores de buff e debuff não vão ser reduzidos? — é a questão seguinte.** Até aqui, a especial tem o dano, o tamanho de efeito e a CD do jogador; o que é menor é o preço das Melhorias, as Famílias e os espaços.
+
+### Limites preservados
+
+**[P] Qual Caminho dá Livre, e quantas.**
+
+**[P] A redução do dano e dos valores da especial.**
+
+**Onde a conta mora:** no lote de desenvolvimento, no HD. *O construtor (§§89 a 105) entrou junto na candidata, na revisão 43, e o lote de teste dele tem 14 verificações.*
+
+---
+
+## 100. O efeito encolhe; o dano da especial fica, porque o turno precisa dele — decisão de Mizuki, 30/09/2026
+
+**O caso que abriu a pergunta:** o cão de sombra no nível 26 com a "mordida que prende" e Fura, a outra entidade batendo com a básica. As opções eram cortar o dano na folga do piso (A), cortar o tamanho do efeito pela Classe menos 1 (B), ou os dois (C, recomendada).
+
+**Resposta autoral:**
+
+> C, mas ela realmente e necessaria? a validação serve pra isso
+>
+> pq ainda temos de alcançar a rotina que foi planejada, do 1 basica + um especial passar do dano de um classe do mesmo nv e de um vanguarda atacando normal
+
+### Aprovado
+
+**[D] A meta do turno, nas palavras dele:** uma especial + uma básica passa do dano de um feitiço da Classe do mesmo nível e da Vanguarda atacando normal.
+
+**[D] O tamanho de efeito encolhe:** tudo o que cresce com a Classe na especial (Rajada, Fura, Anteparo, Desarma o Feitiço, Sugar, Levanta, Remenda, e o tamanho das Formas de área) usa a Classe da especial menos 1, mínimo 1.
+
+**[D] O corte de dano fica com a validação** — "ela realmente é necessária? a validação serve pra isso".
+
+### Esclarecimentos — a validação do corte de dano
+
+**[E] O que a conta mostra** (a conta *reducao_da_especial_99* da bancada, no HD, `necessidade_100`): sem corte, o turno passa o piso por 11% a 26% (só dano) e 13% a 39% (com uma Média na Livre); com o corte, por 2% a 3% do nível 17 em diante. **Sem corte, o turno fica em 83% a 131% da Rotina** — abaixo do teto do conjunto (1⅔), que é teto e não meta.
+
+**[E] Por isso o corte de dano sai: ele não é necessário e deixa a meta na beira.** Com 2% de margem, qualquer coisa fura o "passar": uma Melhoria fora da Livre, a outra entidade um nível abaixo, ou a básica dela que erra.
+
+**[E] O "nenhum valor igual ao invocador" do §97 fica com uma exceção declarada: o dano da especial.** Ela é o feitiço do invocador trocado pelo dela (§89), no mesmo turno e pelo mesmo PE (§69); o que é menor na especial é o efeito, o preço fora da Livre, as Famílias e os espaços. Leitura para vetar.
+
+**[E] O corte de efeito não toca na meta**, porque ela é de dano. No nível 26 a Classe 6 dá 86% do efeito; no 5 a 8, a Classe 1 dá metade.
+
+### Limites preservados
+
+**[P] As condições:** Prende, Condição e as outras não crescem com a Classe, então o corte de efeito não as alcança; a chance delas é a CD da entidade — a pergunta seguinte.
+
+**Onde a conta mora:** no lote de desenvolvimento, no HD. *O construtor (§§89 a 105) entrou junto na candidata, na revisão 43, e o lote de teste dele tem 14 verificações.*
+
+---
+
+## 101. A CD fica igual, e o turno busca ficar parelho — decisão de Mizuki, 30/09/2026
+
+**O caso que abriu a pergunta:** o cão de sombra no nível 26 com a "mordida que prende" contra uma maldição treinada no TR. As opções eram a CD igual (A), um a menos (B, recomendada) e dois a menos (C). E o §100 tinha tirado o corte de dano pela validação.
+
+**Resposta autoral:**
+
+> resposta é A, facilita
+>
+> mas voltando pra questão do dano. Problema que se tudo for igual, acaba parecendo repetitivo e ainda temos que considerar que teremos caminhos e trilhas envolvendo isso, oq estamos calculando ainda é no "puro", ent acredito que a classe EM SI, pode ter números menores, nao TAO menores, mas dar uma reduzida, de alguma forma que uma basica + uma classe fique parelho a um classe de um emanador do mesmo nivel, n precisa passar ou ser obrigatoriamente abaixo o igual, mas so de manter um parelhamento, esta bom. Pq esse número vai crescer com caminhos, q mesmo sem dar dano, eles vão mexer nas ações e outras coisas
+>
+> N acha?
+
+### Aprovado
+
+**[D] A CD da entidade fica igual (A):** 8 + atributo dela + maestria do dono (§65).
+
+**[D] A especial tem números menores que o feitiço do jogador** — "não tão menores".
+
+**[D] A meta do turno é ficar parelho, não passar:** uma especial + uma básica perto do feitiço de um Emanador do mesmo nível, sem ser obrigatoriamente acima nem abaixo. **Revê o piso do §94 e a meta do §100.**
+
+**[D] A conta é no "puro":** Caminho e Trilha sobem o turno depois, mesmo os que não dão dano.
+
+### Esclarecimentos
+
+**[E] O corte de dano volta**, agora pela meta de parelho; o tamanho dele é a pergunta seguinte (a conta *parelho_101* da bancada, no HD).
+
+**[E] A Vanguarda atacando continua abaixo do turno em todo nível**, com qualquer rota medida, fora 0,5 no nível 1 a 4 com Média na Livre.
+
+### Limites preservados
+
+**[P] Quantos pontos a especial perde.**
+
+**Onde a conta mora:** no lote de desenvolvimento, no HD. *O construtor (§§89 a 105) entrou junto na candidata, na revisão 43, e o lote de teste dele tem 14 verificações.*
+
+---
+
+## 102. A especial encolhe para o turno ficar em 85% a 90% — decisão de Mizuki, 30/09/2026
+
+**O caso que abriu a pergunta:** o cão de sombra no nível 26 usa a especial, e a outra entidade bate com a básica (3d6); um Emanador de nível 26 lança um feitiço de Classe 7 (21d8 = 94,5). As opções eram a especial perder 1d8 por dado da básica (A, recomendada, 93% a 97%), a folga do §99 (B) e 1d8 sempre (C).
+
+**Resposta autoral:**
+
+> Acho q da pra gente tentar manter entre 85-90%, n? Ou essa % n é o dano
+>
+> E quando formos criar o capitulo, n vamos poder indicar para voltar para fundamento, tá? vamos ter de recolocar as tabelas, escrever os valores mudados e afins
+
+### Aprovado
+
+**[D] O turno (especial + básica da outra) fica entre 85% e 90% do dano médio do feitiço do Emanador do mesmo nível.** A porcentagem é de dano.
+
+**[D] O capítulo das Invocações não manda o leitor de volta ao Fundamento:** reescreve as tabelas e os valores que mudaram.
+
+### Esclarecimentos — a tabela que sai da faixa
+
+**[E] Os pontos da especial, pela Classe** (a conta *parelho_101* da bancada, no HD, `faixa_102`): o corte inteiro que põe o turno mais perto de 87,5%.
+
+| Classe (níveis) | pontos do jogador | pontos da especial | turno / feitiço | com uma Média na Livre | especial sozinha / feitiço |
+|---|---|---|---|---|---|
+| 1 (1–4) | 3 | 2 | 93% | 89% | 67% |
+| 2 (5–8) | 6 | 4 | 93% | 91% | 67% |
+| 3 (9–12) | 9 | 6 | 84% | 82% | 67% |
+| 4 (13–16) | 12 | 9 | 88% | 86% | 75% |
+| 5 (17–20) | 15 | 11 | 89% | 87% | 73% |
+| 6 (21–25) | 18 | 13 | 85% | 82% | 72% |
+| 7 (26–30) | 21 | 16 | 87% | 85% | 76% |
+
+**[E] Do nível 13 em diante a faixa fecha.** **No nível 1 a 8 o turno fica em 93%**, porque um ponto é 1d8 e vale de 17% a 33% do feitiço: tirar mais um põe o turno em 59% e 76%. **No 9 a 12 fica em 84%**, um ponto abaixo da faixa; o ponto seguinte dá 95%. Leitura para vetar.
+
+**[E] O turno fica em 73% a 96% da Rotina**, e a Vanguarda atacando fica abaixo dele em todo nível.
+
+**[E] O capítulo reescrevendo tabelas cria cópias do manual** — as partes que ficam iguais (preço das Melhorias, as condições, as Formas). O projeto já pagou por cópia que diverge; quando o capítulo existir, as cópias precisam de conferência contra o manual, como a Rotina e a Classe 0 têm hoje.
+
+### Limites preservados
+
+**[E] Revê o §101 no tamanho do corte;** o §100 (efeito na Classe menos 1) continua.
+
+**Onde a conta mora:** no lote de desenvolvimento, no HD. *O construtor (§§89 a 105) entrou junto na candidata, na revisão 43, e o lote de teste dele tem 14 verificações.*
+
+---
+
+## 103. Oito passivas na Classe liberada, e o dado menor no começo — decisão de Mizuki, 30/09/2026
+
+**O caso que abriu a pergunta:** o corpo de criação do nível 1 ao 30, com passiva nos marcos (§93). As opções eram oito na Classe liberada (A), oito uma Classe abaixo (B, recomendada) e quatro (C).
+
+**Resposta autoral:**
+
+> A e voltando pros danos ai podemos fazer aquela tabela de conversão de dados, para d4 e d8, que tem no fundamento, fica de sugestão
+>
+> proximo da fila
+
+### Aprovado
+
+**[D] As passivas ficam como o §93: oito, nos marcos, na Classe Passiva liberada (A).** Do nível 26 em diante o kit da entidade em espaço passa o do jogador (110% e 112%); é exceção declarada do §97, como o dano da especial foi até o §102.
+
+**[D] Sugestão dele para o dano:** usar dado menor para acertar a faixa do §102 onde o d8 inteiro não acerta.
+
+### Esclarecimentos
+
+**[E] A tabela do manual converte d8 em d6 e d12 pela média** ("a média nunca se afasta mais de 3 pontos") — ela não tem coluna de d4, e converter não muda a média, então sozinha não fecha a faixa. **O que fecha é misturar:** trocar um d8 da especial por um dado menor (a conta *trunfo_da_domada_104* da bancada, no HD):
+
+| Classe (níveis) | d8 inteiro (§102) | com a troca | turno / feitiço |
+|---|---|---|---|
+| 1 (1–4) | 2d8 → 93% | 1d8 + 1d6 | 85% |
+| 2 (5–8) | 4d8 → 93% | 3d8 + 1d6 | 89% |
+| 3 (9–12) | 6d8 → 84% | 6d8 + 1d4 (7 pontos, um rolado em d4) | 90% |
+
+**[E] Com a troca, a faixa de 85% a 90% fecha nos 30 níveis.** Nas Classes 1 e 2 a especial mantém os pontos do §102 e rola um deles em d6; na Classe 3 ela volta a 7 pontos e rola um em d4. Fica como leitura para vetar, e entra na tabela do capítulo (§102): a especial desses níveis é montada em pontos, e o dado menor entra na hora de rolar.
+
+**[E] "Próximo da fila":** os números do trunfo da domada.
+
+**Onde a conta mora:** no lote de desenvolvimento, no HD. *O construtor (§§89 a 105) entrou junto na candidata, na revisão 43, e o lote de teste dele tem 14 verificações.*
+
+---
+
+## 104. O trunfo da domada fica na faixa — decisão de Mizuki, 30/09/2026
+
+**O caso que abriu a pergunta:** uma domada de nível 26, com técnica, usa a Liberação Máxima numa luta e a Técnica Máxima em outra, com a básica da outra entidade no turno. As opções eram o trunfo na faixa do §102 (A, recomendada), cheio (B), ou a Liberação na faixa e a Técnica Máxima cheia (C).
+
+**Resposta autoral:**
+
+> Sobre a sugestão
+>
+> é pq achei que a tabela de invocação tinha caido pra d6, deixa quieto KKK
+>
+> sobre a pergunta, A
+>
+> continuemos
+
+### Aprovado
+
+**[D] O trunfo da domada fica na faixa do §102 (A):** a Liberação Máxima é montada com os pontos da especial e soma a Classe em d8; a Técnica Máxima tem **19d8** (17 a 20), **22d8** (21 a 25) e **26d8** (26 a 30), contra 24d8, 28d8 e 32d8 do jogador. O turno com a básica da outra fica em 87% a 92% do trunfo do jogador.
+
+**[D] A mistura de dado do §103 sai** ("deixa quieto"): a sugestão vinha de achar que a especial tinha caído para d6. Fica a tabela do §102 em d8 inteiro, com 93% no nível 1 a 8 e 84% no 9 a 12.
+
+### Esclarecimentos
+
+**[E] Como a domada não sobe de nível (§80), ela tem os trunfos do nível em que foi domada:** Liberação a partir do 10 (uma no 10, duas no 20, três no 30), Técnica Máxima a partir do 17.
+
+**[E] Leitura para vetar:** a "rodada inteira" que a Liberação e a Técnica Máxima cobram é a do invocador, que comanda, como a especial gasta a Padrão dele (r5 §4); o PE se reparte como o da especial (§§59 e 69).
+
+### Limites preservados
+
+**[P] A Expansão da domada** — a pergunta seguinte.
+
+**Onde a conta mora:** no lote de desenvolvimento, no HD. *O construtor (§§89 a 105) entrou junto na candidata, na revisão 43, e o lote de teste dele tem 14 verificações.*
+
+---
+
+## 105. A Expansão da domada lê o refino do dono — decisão de Mizuki, 30/09/2026
+
+**O caso que abriu a pergunta:** uma domada com técnica, domada no nível 14, com o dono no 14 (refino 6) e depois no 26 (refino 10). As opções eram o refino do dono menos 1 (A, recomendada), o refino do dono cheio (B) e metade (C).
+
+**Resposta autoral:**
+
+> B é melhor, menos confusão
+
+### Aprovado
+
+**[D] Na Expansão da domada, tudo o que o manual lê do refino lê o refino do dono, cheio:** os requisitos de refino dos degraus, a duração, o raio, o desconto de PE lá dentro e a vida da barreira. O requisito de nível lê o nível da domada (§80).
+
+**[D] O resto é o do manual:** comprada com espaços da domada (2, +1, +2), abrir custa a rodada inteira e 6 × a maior Classe dela de PE (7 sem barreira), e o Rescaldo queima a técnica dela pelo resto da cena.
+
+### Esclarecimentos
+
+**[E] O que é menor que o jogador é o espaço:** a completa custa 3 dos 4 espaços da domada de nível 14 (sobra 1 especial), contra 3 dos 12 do jogador. O domínio em si é igual ao do jogador — exceção declarada do §97, como o trunfo é o da domada.
+
+**[E] Leitura para vetar, como no §104:** a rodada inteira é a do invocador, que comanda, e o PE se reparte como o da especial (§§59 e 69). A especialização em Ocultismo que a sem barreiras pede é do dono.
+
+**[E] Fecha a fila do §97.** O construtor (§§89 a 105) vai para a candidata na revisão 43.
+
+**Onde a conta mora:** no lote de desenvolvimento, no HD. *O construtor (§§89 a 105) entrou junto na candidata, na revisão 43, e o lote de teste dele tem 14 verificações.*
