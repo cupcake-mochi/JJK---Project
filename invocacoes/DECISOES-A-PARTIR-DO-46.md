@@ -681,3 +681,51 @@ Recomendada a (B).
 **[E] Nenhuma decisão anterior foi reaberta.**
 
 **Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 59, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 21, e o E18 da bancada é a conta da meta; o modelo não muda, porque conta ações e não dano.*
+
+---
+
+## 61. Quanta vida tem uma entidade — decisão de Mizuki, 29/09/2026
+
+**O caso que abriu a pergunta:** nível 30, o invocador com quatro entidades (teto de teste). O chefe da tabela concentra os quatro golpes de 56 numa delas. O critério dele, do §49: "uma invocação de 200 de vida sobrevive bem no final do jogo, mas 4 de 50 não".
+
+**As opções da primeira rodada** (E19): um quarto, metade ou a vida inteira da vida de referência de um personagem do nível (peça 26 §4.6). Recomendada a metade.
+
+**Resposta autoral, em três rodadas:**
+
+> acho que invocação deveria ser como uma ficha. tem a vida base, mas aumentar constituição aumenta a vida dela né / Acho que tavelz... 2/3 de uma ficha normal fica legal, que tal? / Ao meu ver ele tem q ter mais vida que o evocador, mas menos vida que o vanguarda, vamos seguir na media de 2 a 4 de CON nas fichas de personagens pra gente fazer os calculos
+
+> OQ EU FALEI, é pensando na media [...] nao recomendo ganhar vida quebrada, sempre cheia (quebrada = 0,5)
+
+> Na realidade, acho que falei bosta, valide pra mim pfvr / uma invocação deveria ter menos vida que o invocador? (considerando que o evocador vai ter d6 de vida q nem emanador) / tipo... ele ganha 5 no nv1, +3 por nivel, oq faz ele ter mais ou menos que o invocador é a constituição, mas nunca vai ter mais que um invocador com a mesma quantidade de con / ou isso, ou mantem minha ideia antiga e vamos de A / oq prefere?
+
+A validação recomendou o 5 e 3 contra a A (7 e 4). A confirmação:
+
+> Ai que ta, a entidade PODE ser um corpo bem duro, em comparação com um evocador com pouca con ela vai ter mais [...] BEM / Continuemos
+
+### Aprovado
+
+**[D] A vida da entidade sai da fórmula de vida da peça 1 §5.1, como a de uma ficha:** 5 no nível 1 e 3 por nível, e a Constituição dela entra nas duas partes — `(5 + Constituição) + (3 + Constituição) × (nível − 1)`.
+
+**[D] Com a mesma Constituição, a entidade tem menos vida que o Caminho de menor vida** (o d6, hoje o Emanador); com mais Constituição que o invocador, pode passar dele.
+
+**[D] A vida por nível é inteira.**
+
+### Esclarecimentos
+
+**[E] A distância para o Emanador de mesma Constituição é exatamente o nível** (1 no nível 1, 30 no nível 30), qualquer que seja a Constituição (E20).
+
+**[E] A validação (E20, nível 30):** com Constituição 2, 3 e 4, a entidade tem 152, 182 e 212 de vida e aguenta de 2,69 a 3,75 golpes do chefe da tabela — o critério do "4 de 50" passa. Com Constituição 3 ela é 0,72 da vida de referência, em qualquer nível, o que bate com o primeiro palpite dele de dois terços. Quatro entidades de Constituição 3 somam 2,9 personagens de vida. Com Constituição 6, 272, abaixo do Bastião de Constituição 3 (305); com Constituição 0, 92, 1,63 golpe.
+
+**[E] A banda da primeira rodada ("mais que o evocador, menos que a Vanguarda")** foi validada e recusada por ele na terceira: com vida por nível inteira, ela deixava a entidade colada num dos lados, e ela já tinha sido dita na peça 15 antiga (v0.178).
+
+**[E] O Evocador não volta com esta decisão.** A comparação usa o d6, o dado do Emanador; a observação dele é de que o Evocador, se voltar, provavelmente segue a mesma linha.
+
+### Limites preservados
+
+**[P] De onde vem a Constituição da entidade, e o nível da criatura** (§49) ficam com o construtor; a conta supõe a criatura no nível do dono.
+
+**[P] Acerto, defesa e dano da ficha** continuam pendentes, e o preço do §60 tem de contar a vida somada do conjunto.
+
+**[E] Nenhuma decisão anterior foi reaberta.** O que acontece em zero PV continua sendo o §46.
+
+**Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 60, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 22, o modelo da bancada ganhou a fórmula da vida, o E20 faz a validação, e o lote de teste do §61 tem 4 verificações, à parte das outras.*

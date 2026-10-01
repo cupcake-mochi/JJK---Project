@@ -8,6 +8,18 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.303] — 29/09/2026
+
+**As Invocações ganharam o §61: a vida da entidade sai da fórmula de vida de ficha, com 5 no nível 1 e 3 por nível, e a Constituição dela entra nas duas partes.** *O §49 deixou a vida da entidade pendente, com o critério do Mizuki de que a entidade de quem leva quatro continua viva no fim de jogo. A primeira pergunta ofereceu frações da vida de referência; ele pediu fórmula de ficha, com a banda "mais que o evocador, menos que a Vanguarda" e dois terços, que a conta mostrou não caberem juntos com vida por nível inteira.* **Na terceira rodada ele propôs e a validação recomendou: "ele ganha 5 no nv1, +3 por nivel, oq faz ele ter mais ou menos que o invocador é a constituição, mas nunca vai ter mais que um invocador com a mesma quantidade de con"; a confirmação: "a entidade PODE ser um corpo bem duro, em comparação com um evocador com pouca con ela vai ter mais [...] Continuemos".** *Com a mesma Constituição, a entidade fica o nível abaixo do Emanador; no nível 30, com Constituição 2 a 4, aguenta de 2,69 a 3,75 golpes do chefe da tabela, e quatro de Constituição 3 somam 2,9 personagens de vida. O Evocador não volta com esta decisão.*
+
+**Adicionado:** o §61 em `invocacoes/DECISOES-A-PARTIR-DO-46.md`, no formato dos anteriores.
+
+**Alterado:** o `invocacoes/LEIA-ME.md`, a fila do `sistema/ESTADO-ATUAL.md` e o `PROMPT-continuar.md` registram o §61 e a pergunta que espera o Mizuki: o teto de corpos em campo. No lote de desenvolvimento, que continua no HD, a candidata foi à revisão 22. **Nenhuma regra do livro mudou, e nenhum validador.**
+
+**Validação:** bateria de 31 de 31, com PULADA zero, rodada numa cópia com a v0.292 à v0.302 aplicadas; a 7.4, que confere a entrega commitada, só roda no repositório, e o `subir.sh` a roda antes de commitar.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: a pergunta do teto de corpos espera o Mizuki.
+
 ## [0.302] — 29/09/2026
 
 **As Invocações ganharam o §60: o conjunto — o invocador e as entidades dele — rende até uma Rotina e meia de dano por rodada.** *A peça 6 §4 do principal, escrita para a arquitetura anterior, manda "Você e todas as suas invocações somados entregam uma Rotina"; o §49 recusou dividir a ficha, e o §52 pôs o limite de ataques como trava. A conta da pergunta, com o limite de teste 2, pediu da básica zero, um quarto ou meia Rotina para as metas de uma, uma e meia ou duas Rotinas.* **Resposta do Mizuki: "Vamos de B, mas não podemos deixar o invocador tão na frente dos outros personagens em rotina, deve ser levado com cuidado".** O tamanho do cuidado foi medido: a meia Rotina a mais é de 5 a 8 vezes o que uma Trilha soma a um personagem (peça 14 §4). **Ficou como teto, não piso, e só vale com preço:** nenhum número da ficha, do teto, do limite ou do custo das especiais se aprova sem mostrar, contra os quatro Caminhos, o que o invocador paga por ela. A peça 6 §4 fica como está até a integração, com o conflito anotado.
