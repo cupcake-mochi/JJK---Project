@@ -8,6 +8,18 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.313] — 29/09/2026
+
+**As Invocações ganharam o §71: toda invocação exige uma troca para ser obtida — domar, criar, um feitiço de ritual com uma lista, ou um espaço de feitiço conhecido, que dá uma entidade de nível 2 —, e o preço da parte das entidades é essa troca somada ao que já cobra.** *O §60 exigia, desde o começo do lote 3, que a parte a mais do invocador só valesse com preço mostrado; pela taxa do feitiço, a manifestação paga de um quinto a um terço do dano a mais.* **Resposta do Mizuki: "Vamos de C e eu sei a resposta já / invocações precisam de uma troca, ou vc doma, ou vc cria (essas n dependem de tecnica), ou vc tem um feitiço de ritual com uma lista de invocações que você vai 'domando' (megumi), OU poderiam custar slot de feitiço, 1 Slot da uma invocação nv2 [...] ISSO ainda n vai pagar tudo, mas paga um pouco, invocações param de ser gratuitas de se pegarem, ai mistura isso com A e perfeito".** *A entidade obtida por espaço sobe com o invocador, se ele quiser, e a troca pode ser refeita a cada nível. A condição de preço do §60 fecha por decisão dele; o que domar ou criar exige fica com o construtor.*
+
+**Adicionado:** o §71 em `invocacoes/DECISOES-A-PARTIR-DO-46.md`, no formato dos anteriores.
+
+**Alterado:** o `invocacoes/LEIA-ME.md`, a fila do `sistema/ESTADO-ATUAL.md` e o `PROMPT-continuar.md` registram o §71 e a pergunta que espera o Mizuki: como a reserva da entidade recupera. No lote de desenvolvimento, que continua no HD, a candidata foi à revisão 32. **Nenhuma regra do livro mudou, e nenhum validador.**
+
+**Validação:** bateria de 31 de 31, com PULADA zero, rodada numa cópia com a v0.292 à v0.312 aplicadas; a 7.4, que confere a entrega commitada, só roda no repositório, e o `subir.sh` a roda antes de commitar.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: a pergunta da recuperação da reserva espera o Mizuki.
+
 ## [0.312] — 29/09/2026
 
 **As Invocações ganharam o §70: a manifestação dura até o fim da cena; a cena que vira combate vai até o fim do combate, e o fim do combate a encerra, a não ser que o invocador pague de novo.** *O §58 põe as manifestadas antes da luta em campo, e se a manifestação durasse o dia, o PE da entrada do §67 seria pago uma vez só; a r5 §10 deixava o custo de manter pendente.* **Resposta do Mizuki: "Sigamos com A, mas caso de uma cena va para uma cena de combate, ela n é desinvocada, apenas no fim do combate, a n ser que o invocador pague novamente".** *Todo combate que acaba encerra a manifestação, e o relógio da cena só decide fora de combate. A conta seguinte, pela taxa do feitiço, mostrou que o PE da manifestação paga de um quinto a um terço do dano a mais das entidades.*

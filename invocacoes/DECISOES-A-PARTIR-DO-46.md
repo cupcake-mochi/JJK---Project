@@ -1047,3 +1047,52 @@ A validação recomendou o 5 e 3 contra a A (7 e 4). A confirmação:
 **[E] Nenhuma decisão anterior foi reaberta.** O §58 continua: a manifestada antes da luta começa em campo, e agora se sabe até quando.
 
 **Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 69, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 31; o E29 da bancada foi a conta da duração, e o E30 é a do preço em PE.*
+
+---
+
+## 71. O preço da parte das entidades — decisão de Mizuki, 29/09/2026
+
+**O caso que abriu a pergunta:** nível 30, um invocador com as duas entidades de nível 30 ao lado de um personagem de outro Caminho. O §60 exigiu, desde o começo do lote 3, que a parte a mais do invocador só valesse com preço mostrado — em investimento, em fragilidade ou em energia. Pela taxa do feitiço (E30), a manifestação paga de um quinto a um terço do dano a mais.
+
+**As opções:** (A) aceitar o que já cobra — fragilidade e ação; (B) cobrar o resto em PE; (C) cobrar em investimento, pelo construtor. Recomendada a (C).
+
+**Resposta autoral:**
+
+> Vamos de C e eu sei a resposta já / invocações precisam de uma troca, ou vc doma, ou vc cria (essas n dependem de tecnica), ou vc tem um feitiço de ritual com uma lista de invocações que você vai "domando" (megumi), OU poderiam custar slot de feitiço, 1 Slot da uma invocação nv2, que sobe ao longo do nível do invocador (a escolha dele, caso ele n queira subir de nv a invocação ele pode), essa troca pode acontecer sempre que subir de nv / ISSO ainda n vai pagar tudo, mas paga um pouco, invocações param de ser gratuitas de se pegarem, ai mistura isso com A e perfeito
+
+### Aprovado
+
+**[D] Toda invocação exige uma troca para ser obtida** — ela deixa de ser gratuita. Os caminhos:
+
+1. **domar** — a entidade é dominada (não depende de técnica);
+2. **criar** — a entidade é feita (não depende de técnica);
+3. **um feitiço de ritual com uma lista de invocações**, que o invocador vai domando — o molde do Megumi;
+4. **um espaço de feitiço conhecido**: um espaço dá uma entidade de nível 2.
+
+**[D] A entidade obtida por espaço sobe com o nível do invocador, se ele quiser;** ele pode deixá-la no nível em que está.
+
+**[D] A troca pode ser refeita sempre que o invocador sobe de nível.**
+
+**[D] O preço da parte das entidades é essa troca somada ao que já cobra** (a opção A): a manifestação por luta (§§67 e 70), a fragilidade — menos vida que o Emanador de mesma Constituição (§61) e Defesa menor sem traje (§66) —, a Ação Bônus das trocas e dos redirecionamentos, e a volta paga depois de cair. **Com isso, a condição de preço do §60 fecha por decisão**: a troca não paga tudo, e o resto fica aceito.
+
+### Esclarecimentos
+
+**[E] "Slot de feitiço" é um espaço da lista de feitiços conhecidos** (peça 18 §4), o mesmo que a Passiva e a Expansão de Domínio pagam.
+
+**[E] Os quatro caminhos casam com os quatro tipos da peça 15 antiga:** domar é a maldição domada; criar, o talismã e o corpo amaldiçoado; o ritual com lista, a técnica. O espaço de feitiço é o caminho de quem não tem nenhum deles.
+
+**[E] O ritual com lista tem gancho na peça 27** (Ritual, "A lista própria").
+
+**[E] "Refazer a troca ao subir de nível"** — pôr o espaço numa invocação, tirá-lo dela, ou trocar uma invocação por outra, e decidir se ela sobe. Leitura para ele vetar.
+
+**[E] O §68 ganha a resposta de como a entidade obtida por espaço sobe:** com o nível do invocador, à escolha dele, até o nível dele.
+
+### Limites preservados
+
+**[P] O nível inicial das entidades domadas, criadas e da lista do ritual, e como elas sobem** — do construtor.
+
+**[P] Quanto cada caminho de aquisição custa além da troca** (o que domar ou criar exige) — do construtor.
+
+**[E] Nenhuma decisão anterior foi reaberta.** O §60 teve a condição de preço fechada pela decisão dele, sem medir o resíduo.
+
+**Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 70, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 32; o E30 da bancada foi a conta do preço em PE, e o E31 é a da recuperação da reserva.*
