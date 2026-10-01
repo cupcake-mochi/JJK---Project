@@ -1585,3 +1585,33 @@ A validação recomendou o 5 e 3 contra a A (7 e 4). A confirmação:
 **[E] Nenhuma decisão anterior foi reaberta.** O §83 fica, com a quantidade trocada por este. **O pacote dos tipos fecha aqui:** os §§77 a 84 entram juntos na revisão 38 da candidata e na v0.319.
 
 **Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 76, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *O balanço dos tipos — a obra, as réguas do sistema e os defeitos de cada um — está no relatório de lá. A candidata foi à revisão 38 com os §§77 a 84 juntos; o modelo ganhou o modo inativo, a vida por tipo e a carga do talismã, e o lote de teste dos §§77 a 84 tem 11 verificações.*
+
+---
+
+## 85. A volta da caída custa o dobro, e o shikigami de técnica é a base — decisão de Mizuki, 29/09/2026
+
+**O caso que abriu a pergunta:** nível 10, Constituição 2, vida 52; uma entidade com 5 de vida. Recolhida e reposta, volta com 5; caída sem morrer de vez, volta com 26 pelo mesmo PE, e sem gastar a Bônus do recolhimento. A volta da caída rende de 8,7 a 13 de vida por PE, contra 4,5 a 5 da cura do sistema (peça 11). As opções eram aceitar (A), a volta custar o dobro do PE da entrada (B, recomendada), ou a caída não voltar na mesma luta (C).
+
+**Resposta autoral:**
+
+> B e ainda falta coisas nos tipos, shikigami para técnica tá recebendo nada, ele fica como base então? eu acho uma boa
+>
+> com isso continuamos
+
+### Aprovado
+
+**[D] A volta da caída custa o dobro do PE da entrada** — duas vezes a Classe do nível da entidade —, mais a Bônus (§56). Recolher e pôr de volta continua pela entrada simples. Com o dobro, a volta rende de 4,3 a 6,5 de vida por PE, na altura da cura do sistema.
+
+**[D] O shikigami de técnica é a base:** não tem nada próprio, e é a régua dos outros quatro tipos.
+
+### Esclarecimentos
+
+**[E] Religar a `Desligada` é a volta da caída** (§75), e paga o dobro também — inclusive o corpo amaldiçoado, que não tem outra cura no meio da luta. A exceção que a pergunta levantou para ele não foi pedida.
+
+**[E] A entrada a zero da reserva** (a que caiu recolhida, §46) também é volta da caída, e paga o dobro.
+
+### Limites preservados
+
+**[E] Nenhuma decisão anterior foi reaberta.** O §73 continua: metade da vida, o limiar e a morte de vez; o §85 só dá o preço da volta.
+
+**Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 84, no HD. *A candidata foi à revisão 39, e o lote de teste do §85 tem 2 verificações.*

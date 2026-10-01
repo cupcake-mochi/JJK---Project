@@ -8,6 +8,20 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.320] — 29/09/2026
+
+**As Invocações ganharam o §85: a volta da caída custa o dobro do PE da entrada.** *O achado veio do §76 e esperou o pacote dos tipos: pelo §73, a entidade que cai sem morrer de vez volta pela entrada com metade da vida, e a recolhida ferida volta com a que tinha — então cair rendia mais que recolher, de 8,7 a 13 de vida por PE, o dobro da cura do sistema (peça 11: um PE vale cerca de cinco de cura), e ainda poupava a Bônus do recolhimento. A recomendação era a B, com o dobro tirado do câmbio de cura, e não inventado.* **Resposta do Mizuki: "B e ainda falta coisas nos tipos, shikigami para técnica tá recebendo nada, ele fica como base então? eu acho uma boa".** A volta da caída — pela entrada, ou religando a `Desligada` — custa duas vezes a Classe do nível da entidade, mais a Bônus, e rende de 4,3 a 6,5 de vida por PE; recolher e pôr de volta continua pela entrada simples. O corpo amaldiçoado paga o dobro também. O shikigami de técnica fica como a base dos cinco tipos, sem nada próprio.
+
+**Adicionado:** o §85 em `invocacoes/DECISOES-A-PARTIR-DO-46.md`, no formato dos anteriores.
+
+**Alterado:** o `invocacoes/LEIA-ME.md`, a fila do `sistema/ESTADO-ATUAL.md` e o `PROMPT-continuar.md` registram o §85 e a pergunta que espera o Mizuki: o que acontece com as entidades quando o invocador morre. No lote de desenvolvimento, que continua no HD, a candidata foi à revisão 39. **Nenhuma regra do livro mudou, e nenhum validador.**
+
+**Validação:** bateria de 31 de 31, rodada numa cópia com a v0.292 à v0.319 aplicadas. Só a 7.4 pulou: ela confere a entrega commitada, a cópia não tem o `.git` dela, e o `subir.sh` a roda antes de commitar.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: a pergunta do destino das entidades espera o Mizuki.
+
+---
+
 ## [0.319] — 29/09/2026
 
 **As Invocações ganharam os §§77 a 84: os cinco tipos de entidade.** *O §76 deixou como pergunta seguinte o que separa os tipos, e a recomendação era vida igual, com a diferença nas regras e no kit. O Mizuki pediu outra coisa: "temos a obra, numeros do sistema e seus defeitos, que tal a gente buscar balanceamento em meio a ese termo e ver oq eles ganham entre si?". O balanço saiu da pesquisa de 24/09, da peça 15 antiga e de réguas que o sistema já tinha — a imunidade a condição da peça 26 §6.3 e o câmbio de cura da peça 11 —, sem agente, e fechou em oito respostas.* **Os tipos são cinco, em dois eixos: a origem — técnica, criação, maldição domada — e o corpo — shikigami, corpo amaldiçoado** ("São 5 tipos na realidade né"). A técnica é a base. O talismã, shikigami de criação, guarda uma carga do descanso longo, paga com a sobra do dia, e entra pela metade, mínimo 1 ("eu diria para ser metade do custo, Min 1"). Só a maldição domada tem técnica, e com ela a reserva do §59; ela não sobe de nível com o dono, sem compensação ("vc n enfrenta elas sozinha"). O corpo amaldiçoado só se cura por técnica ou reparo, é imune a `Envenenado` — que vale no máximo `1,07×`, por ser de nicho —, e o não autônomo não tem alma; o de criação tem 4 + Constituição de vida por nível ("o criado tem o HP extra"); e os dois corpos têm o modo inativo: ficam em campo sem agir nem contar no teto, tantos quanto a Essência ou a Inteligência do dono, e são ativados pelo custo da entrada.
