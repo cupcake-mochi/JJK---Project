@@ -8,6 +8,18 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.305] — 29/09/2026
+
+**As Invocações ganharam o §63: o limite de ataques de base é 2, e as duas entidades do teto de base atacam; quem leva uma entidade tem dano parelho com quem leva duas.** *O §52 deixou o número do limite pendente, e com o teto de base do §62 ele só podia ser 1 ou 2. Com 2, o limite não barra nenhuma básica na base; com dano fixo por básica, quem leva uma ficaria em 1,25 Rotina contra 1,5 de quem leva duas.* **Resposta do Mizuki: "eu concordo com A, que seria as duas atacando, mas sim devemos futuramente calcular a questão do dano, porque ela tem sim de ter capacidade de acompanhar bem o combate e uma invocação TEM q ter um dano parelho com um invocador de duas por balanceamento, n pode ter uma discrepancia tão grande".**
+
+**Adicionado:** o §63 em `invocacoes/DECISOES-A-PARTIR-DO-46.md`, no formato dos anteriores.
+
+**Alterado:** o `invocacoes/LEIA-ME.md`, a fila do `sistema/ESTADO-ATUAL.md` e o `PROMPT-continuar.md` registram o §63 e a pergunta que espera o Mizuki: a paridade de dano. No lote de desenvolvimento, que continua no HD, a candidata foi à revisão 24. **Nenhuma regra do livro mudou, e nenhum validador.**
+
+**Validação:** bateria de 31 de 31, com PULADA zero, rodada numa cópia com a v0.292 à v0.304 aplicadas; a 7.4, que confere a entrega commitada, só roda no repositório, e o `subir.sh` a roda antes de commitar.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: a pergunta da paridade de dano espera o Mizuki.
+
 ## [0.304] — 29/09/2026
 
 **As Invocações ganharam o §62: a conta não supõe Trilha ou Caminho que ainda não existe, e o teto de base é 2 entidades em campo, do nível 1 ao 30.** *O §49 deixou o número do teto e como ele cresce pendentes; a pesquisa de 24/09 propôs o teto por Trilha, e dela veio o eixo de teste de 4. A primeira pergunta recomendou 2 com o teto crescendo por Trilha ou Caminho, e a pergunta do Mizuki achou o furo: "essa pergunta cita a questão de 'trilha', então já estamos calculando considerando que ela vai vir existir, né?" — as Trilhas de invocação que existiram eram do Evocador, fora da edição jogável.* **Resposta do Mizuki: "A - e fica 2 no máximo base mesmo".** *Com o limite de teste 2, nenhuma básica fica sem dano na base. Os testes antigos continuam usando 3 e 4 como números da mecânica do teto.*

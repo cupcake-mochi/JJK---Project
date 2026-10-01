@@ -765,3 +765,37 @@ A validação recomendou o 5 e 3 contra a A (7 e 4). A confirmação:
 **[E] Nenhuma decisão anterior foi reaberta.** O §49 continua: cada entidade com a própria ficha, e o teto conta corpos.
 
 **Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 61, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 23, o modelo da bancada ganhou o teto de base, o E21 foi a conta do teto e o E22 é a do limite com ele, e o lote de teste do §62 tem 3 verificações, à parte das outras.*
+
+---
+
+## 63. O número do limite de ataques — decisão de Mizuki, 29/09/2026
+
+**O caso que abriu a pergunta:** nível 30, o invocador com as duas entidades do teto de base (§62); Rotina de 108 e meta do conjunto de 162 (§60). O §52 deixou o número do limite pendente, com o 2 do exemplo dele como teste; com o teto 2, ele só pode ser 1 ou 2.
+
+**As opções, com a conta da bancada** (E22): (A) limite 2 — as duas atacam, cada básica até um quarto de Rotina, o limite não barra nada na base, e uma entidade sozinha leva o conjunto a 1,25; (B) limite 1 — uma ataca com até meia Rotina, e a outra só atua sem dano, ainda sem preço. Recomendada a (A).
+
+**Resposta autoral:**
+
+> eu concordo com A, que seria as duas atacando, mas sim devemos futuramente calcular a questão do dano, porque ela tem sim de ter capacidade de acompanhar bem o combate e uma invocação TEM q ter um dano parelho com um invocador de duas por balanceamento, n pode ter uma discrepancia tão grande
+
+### Aprovado
+
+**[D] O limite de ataques de base é 2:** com o teto de base, as duas entidades atacam no turno do invocador. A especial comandada continua fora do limite (§52).
+
+**[D] Quem leva uma entidade tem dano parelho com quem leva duas:** a diferença do E22 — 1,25 contra 1,5 Rotina — é grande demais.
+
+**[D] A entidade tem de acompanhar bem o combate** com o próprio dano.
+
+### Esclarecimentos
+
+**[E] Na base, o limite não barra nenhuma básica;** ele fica escrito para quando uma regra que ainda não existe aumentar o teto.
+
+**[E] A paridade é a pergunta seguinte** (E23): como a básica chega à meia Rotina de quem leva uma sem que quem leva duas passe da meta.
+
+### Limites preservados
+
+**[P] A regra do dano da básica e a tolerância de "parelho"** — a pergunta seguinte.
+
+**[E] Nenhuma decisão anterior foi reaberta.**
+
+**Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 62, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 24, o modelo da bancada ganhou o limite de base, o E22 foi a conta do limite e o E23 é a da paridade, e o lote de teste do §63 tem 2 verificações, à parte das outras.*
