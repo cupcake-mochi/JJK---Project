@@ -336,3 +336,44 @@ Recomendados: conta, conta, não conta.
 **[E] Nenhuma decisão anterior foi reaberta.** O §43 (opção de Bônus paga com básica, `Provocar` incluído) e o §44 (a criatura `Lenta` não usa Bônus nem pela básica) continuam valendo; o §52 fecha o [P] do §51.
 
 **Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 51, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 12, o modelo da bancada ganhou o limite de ataques com o número como valor de teste, o E9 roda o limite de 1 a 4 corpos, e o lote de teste do §52 tem 17 verificações, à parte das outras.*
+
+---
+
+## 53. Em que momento a entidade entra em campo — decisão de Mizuki, 29/09/2026
+
+**O caso que abriu a pergunta:** teto de 4 corpos (número de teste), três em campo. No turno do inimigo, um golpe leva a entidade A a zero PV, e ela sai de campo pelo §46. O invocador quer pôr B no lugar. A r5 §9.1 deixava ação, PE, posição, oportunidade e requisitos da entrada sem regra, e nada dizia em que momento ela é legal. Na r5, todo comando do invocador é emitido no turno dele, e fora do turno só se executa o que já foi pago.
+
+**As opções, com a conta da bancada** (E10, rodada no modelo): entrar no turno do invocador ou fora dele dá a primeira básica na mesma virada, e quem entra no turno dele passa o turno inteiro do inimigo em campo antes de agir. Só a substituição age no ciclo da entrada.
+
+1. **(A)** só no turno do invocador.
+2. **(B)** também fora do turno, com a Reação pessoal do invocador, uma por ciclo. A entrada no turno sem substituir ficaria quase sem motivo.
+3. **(C)** fora do turno só se preparada no turno, como a ordem antecipada.
+
+Fora daqui, o D&D 2024 invoca com a ação principal e o Pathfinder 2e manifesta o eidolon com o turno inteiro, os dois só no turno de quem invoca. Recomendada a (A).
+
+**Resposta autoral:**
+
+> A, definitivamente
+> E futuramente podemos fazer os caminhos mexerem nisso
+
+### Aprovado
+
+**[D] A entidade só entra em campo no turno do invocador.** Fora do turno, nenhuma entidade entra; a vaga aberta no turno do inimigo fica vazia até o turno dele.
+
+### Esclarecimentos
+
+**[E] A entrada é ato do invocador, então pede ele consciente.** Com ele apagado (§47), ninguém entra, nem no turno dele; depois da morte (§48), o destino das entidades continua pendente.
+
+**[E] A troca inclui uma entrada e segue a mesma regra:** só no turno do invocador. A troca no turno continua passando a básica de quem sai (r5 §9.2).
+
+**[E] Nada muda depois da entrada legal:** quem entra sem substituir continua sem básica no ciclo e recebe a primeira intenção pela Bônus (r5 §9.4), e o teto de corpos continua sendo condição (§49).
+
+### Limites preservados
+
+**[P] Um Caminho ou uma Trilha pode mudar isso no futuro** ("futuramente podemos fazer os caminhos mexerem nisso"). Nada concede entrada fora do turno hoje; se vier, é concessão expressa, com o preço dela.
+
+**[P] Continuam abertos:** o recolhimento sem entrada fora do turno, que é a pergunta seguinte porque tirar uma entidade antes de um golpe mortal contornaria o §46; a posição da entrada; e o custo — ação, PE e demais requisitos.
+
+**[E] Nenhuma decisão anterior foi reaberta.** O §53 fecha só o momento da entrada, que a r5 §9.1 deixava aberto.
+
+**Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 52, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 13, o modelo da bancada passou a recusar a entrada e a troca fora do turno e com o invocador apagado, e o lote de teste do §53 tem 7 verificações, à parte das outras.*
