@@ -497,3 +497,41 @@ A troca paga a mesma ação, por ser um evento só. Fora daqui, o D&D 2024 invoc
 **[E] Nenhuma decisão anterior foi reaberta.**
 
 **Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 55, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 16, o modelo da bancada ganhou o custo da entrada e da troca, ligado pelo caso, e o lote de teste do §56 tem 6 verificações, à parte das outras.*
+
+---
+
+## 57. Com que ação se recolhe uma entidade sem pôr outra no lugar — decisão de Mizuki, 29/09/2026
+
+**O caso que abriu a pergunta:** no turno do invocador, a entidade A está com pouca vida, e ele não tem entidade saudável na reserva para trocar. Ele quer recolher A, dar uma intenção nova às outras e comandar uma especial. O §56 deu custo à entrada e à troca e deixou o recolhimento sem entrada pendente.
+
+**As opções, com a conta da bancada** (E14, sobre as três ações do invocador):
+
+1. **(A)** Ação Bônus, como a entrada e a troca: recolher e redirecionar no mesmo turno consome a Padrão convertida, e a especial não sai.
+2. **(B)** Ação de Movimento: cabe tudo no mesmo turno.
+3. **(C)** sem ação, uma por turno: cabe tudo, e toda entidade à beira da queda sai de graça.
+
+Recomendada a (A): entrar, trocar e recolher custam a mesma Bônus.
+
+**Resposta autoral:**
+
+> A
+
+### Aprovado
+
+**[D] Recolher uma entidade sem pôr outra no lugar custa a Ação Bônus do invocador.**
+
+### Esclarecimentos
+
+**[E] A Padrão convertida em Bônus paga um segundo gasto de Bônus no turno** — outro recolhimento, uma entrada, uma troca ou o redirecionamento —, e aí não comanda a especial.
+
+**[E] Como a troca custa o mesmo que recolher, com reserva saudável a troca é o uso comum;** recolher sozinho fica para quando não há quem pôr, ou para tirar um corpo do campo.
+
+**[E] O momento e a consciência continuam os do §54**, e a saída pela queda e pela morte do invocador não é recolhimento nem custa nada.
+
+### Limites preservados
+
+**[P] Continuam abertos:** o PE da entrada, da troca e do recolhimento; e a entrada antes de a luta começar, que é a pergunta seguinte.
+
+**[E] Nenhuma decisão anterior foi reaberta.** Com o §57, entrar, trocar e recolher custam a mesma Ação Bônus.
+
+**Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 56, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 17, o modelo da bancada ganhou o custo do recolhimento, ligado pelo caso, e o lote de teste do §57 tem 5 verificações, à parte das outras.*

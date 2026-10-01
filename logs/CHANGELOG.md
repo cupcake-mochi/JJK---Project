@@ -8,6 +8,18 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.298] — 29/09/2026
+
+**As Invocações ganharam o §57: recolher uma entidade sem pôr outra no lugar também custa a Ação Bônus do invocador.** *O §56 deu custo à entrada e à troca e deixou o recolhimento sem entrada pendente. A conta da pergunta mostrou que pela Bônus recolher disputa com a troca e o redirecionamento — recolher e redirecionar no mesmo turno consome a Padrão convertida —, enquanto pelo Movimento ou sem ação caberia tudo no mesmo turno.* **Resposta do Mizuki: "A".** Entrar, trocar e recolher custam a mesma Bônus, e como a troca custa o mesmo, com reserva saudável a troca é o uso comum. A Padrão convertida paga um segundo gasto de Bônus no turno, sem a especial — o esclarecimento fica para ele vetar. O PE dos três e a entrada antes de a luta começar continuam pendentes.
+
+**Adicionado:** o §57 em `invocacoes/DECISOES-A-PARTIR-DO-46.md`, no formato dos anteriores.
+
+**Alterado:** o `invocacoes/LEIA-ME.md`, a fila do `sistema/ESTADO-ATUAL.md` e o `PROMPT-continuar.md` registram o §57 e a pergunta que espera o Mizuki: se a entidade pode começar a luta em campo. No lote de desenvolvimento, que continua no HD, a candidata foi à revisão 17, o modelo ganhou o custo do recolhimento, e o lote de teste do §57 tem 5 verificações. **Nenhuma regra do livro mudou, e nenhum validador.**
+
+**Validação:** bateria de 31 de 31, com PULADA zero, rodada numa cópia com a v0.292 à v0.297 aplicadas; a 7.4, que confere a entrega commitada, só roda no repositório, e o `subir.sh` a roda antes de commitar.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: a pergunta do começo da luta espera o Mizuki.
+
 ## [0.297] — 29/09/2026
 
 **As Invocações ganharam o §56: a entrada e a troca custam a Ação Bônus do invocador.** *A r5 §9.1 deixava a ação e o PE da entrada sem regra. A conta da pergunta, sobre as três ações do invocador — a Padrão vira Bônus, e a Bônus vira Movimento —, mostrou que pela Bônus o teto de teste enche em 2 turnos, dentro da luta de 3 rodadas que a régua supõe, e a troca sai junto com a especial, uma por turno; pela Padrão, como no D&D, o teto levaria 4 turnos; pelo Movimento, até 2 trocas por turno sem perder a especial fariam do revezamento de entidades feridas uma rotina.* **Resposta do Mizuki: "B mesmo".** A Padrão convertida paga uma segunda entrada no mesmo turno, e aí não comanda a especial; a primeira intenção de quem entra sem trocar continua sendo outra Bônus — o esclarecimento fica para ele vetar. O PE da entrada e da troca, e a ação e o PE do recolhimento sem entrada, continuam pendentes.
