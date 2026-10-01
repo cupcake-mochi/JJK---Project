@@ -8,6 +8,18 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.307] — 29/09/2026
+
+**As Invocações ganharam o §65: a ficha da entidade é a da peça 15 antiga.** *O §61 deu a vida e o §64 o dano; faltavam o acerto, a Defesa, o Teste de Resistência, a CD e de onde vem a Constituição. A peça 15 antiga, que o Mizuki fechou entre a v0.246 e a v0.251, já tinha essa ficha: os cinco atributos pelo orçamento da peça 2, acerto, Teste de Resistência e CD com a maestria do dono, e Defesa com metade da Essência ou da Inteligência do dono.* **Resposta do Mizuki: "A e a gente repagina oq parecer necessario, depois a gente segue".** *A Constituição do §61 sai daí. A conta achou o que repaginar: contra a tabela do inimigo de hoje, a Defesa fica até dois pontos abaixo da do personagem que investiu, do nível 15 em diante, porque a ficha antiga é de antes de a proteção andar com o refino.*
+
+**Adicionado:** o §65 em `invocacoes/DECISOES-A-PARTIR-DO-46.md`, no formato dos anteriores.
+
+**Alterado:** o `invocacoes/LEIA-ME.md`, a fila do `sistema/ESTADO-ATUAL.md` e o `PROMPT-continuar.md` registram o §65 e a pergunta que espera o Mizuki: a Defesa da entidade. No lote de desenvolvimento, que continua no HD, a candidata foi à revisão 26. **Nenhuma regra do livro mudou, e nenhum validador.**
+
+**Validação:** bateria de 31 de 31, com PULADA zero, rodada numa cópia com a v0.292 à v0.306 aplicadas; a 7.4, que confere a entrega commitada, só roda no repositório, e o `subir.sh` a roda antes de commitar.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: a pergunta da Defesa da entidade espera o Mizuki.
+
 ## [0.306] — 29/09/2026
 
 **As Invocações ganharam o §64: uma entidade completa até meia Rotina, e duas ou mais completam juntas até dois terços de Rotina.** *O §63 pediu dano parelho entre quem leva uma entidade e quem leva duas; com a meta do §60 e dano fixo por básica, quem leva uma ficava em 1,25 contra 1,5. A recomendação era dividir a meia Rotina pelas entidades em campo, deixando os dois em 1,5.* **Resposta do Mizuki: "Como acompanhar, eu disse em 'deixar parelho', n precisa ser igual, duas invocação VAO ser mais fortes que uma normalmente mesmo, mas n poderia ter uma discrepância tão grande [...] podemos colocar que duas invocações ou mais, completam até 2/3 de uma rotina, enquanto uma completa meia rotina".** *Com o invocador, o conjunto vai até 1,5 com uma e 1⅔ com duas, razão de 0,9; isso revê o §60 para quem leva duas. Dois terços de Rotina são de 7,4 a 11,1 vezes o que uma Trilha soma a um personagem, e a condição de preço do §60 continua.*

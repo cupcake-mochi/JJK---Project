@@ -839,3 +839,39 @@ A validação recomendou o 5 e 3 contra a A (7 e 4). A confirmação:
 **[E] O §60 foi revisto por ele, na parte de quem leva duas;** nenhuma outra decisão foi reaberta.
 
 **Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 63, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 25, e o E24 da bancada é a conta da regra; o modelo não muda, porque conta ações e não dano.*
+
+---
+
+## 65. O resto da ficha da entidade — decisão de Mizuki, 29/09/2026
+
+**O caso que abriu a pergunta:** nível 30, uma entidade da dupla ataca o chefe e é atacada por ele. O §61 deu a vida, com a Constituição dela, e o §64 o dano; faltavam o acerto, a Defesa, o Teste de Resistência, a CD e de onde vem a Constituição.
+
+**O que o museu tinha:** a peça 15 antiga, §§3.3 e 3.6, fechada por ele entre a v0.246 e a v0.251, com a frase "invocações raramente passam de força de seus portadores": os cinco atributos pelo orçamento da peça 2 (9 pontos, teto 3, `+1` por marco, teto 6); acerto = atributo dela + maestria do dono; Defesa = 10 + Destreza dela + metade da Essência ou da Inteligência do dono; um Teste de Resistência treinado; CD = 8 + atributo dela + maestria do dono.
+
+**As opções:** (A) reaproveitar a ficha antiga; (B) usar o acerto, a Defesa e a CD do invocador; (C) tabela fixa por nível. Recomendada a (A).
+
+**Resposta autoral:**
+
+> A e a gente repagina oq parecer necessario, depois a gente segue
+
+### Aprovado
+
+**[D] A ficha da entidade é a da peça 15 antiga:** os cinco atributos pelo orçamento da peça 2 (9 pontos na criação, teto 3, `+1` por marco, teto 6); acerto = atributo dela + maestria do dono, com o atributo escolhido na montagem; Defesa = 10 + Destreza dela + metade da Essência ou da Inteligência do dono; Teste de Resistência = d20 + atributo dela + maestria do dono, com um treinado; CD = 8 + atributo dela + maestria do dono.
+
+**[D] A Constituição do §61 sai dos atributos dela.**
+
+**[D] O que precisar de ajuste se ajusta** antes de seguir.
+
+### Esclarecimentos
+
+**[E] O ajuste que a conta achou (E25): a Defesa.** Contra a tabela do inimigo de hoje (peça 26 §3.1), com a entidade e o dono na curva de quem investe, a Defesa antiga fica um ponto abaixo da do personagem a partir do nível 15, e dois no 25: o inimigo acerta a entidade 60% no fim, contra 55% no personagem. O personagem tem proteção, que anda com o refino (peça 11 §6: 1/3 do refino + 1), e a ficha antiga é de antes disso. Ela também depende do atributo do dono: com um dono que não investe em Essência nem Inteligência, a Defesa cai mais. É a pergunta seguinte.
+
+**[E] O acerto, o Teste de Resistência e a CD** já estão no molde do personagem, com a maestria do dono, e não derivam.
+
+### Limites preservados
+
+**[P] A Defesa** — a pergunta seguinte.
+
+**[E] Nenhuma decisão anterior foi reaberta.** O §61 ganhou a ficha de onde a Constituição sai.
+
+**Onde a conta mora:** no mesmo lote de desenvolvimento dos §§47 a 64, no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`. *A candidata foi à revisão 26, e o E25 da bancada mede a Defesa contra a tabela do inimigo; o modelo não muda, porque não tem ficha.*
