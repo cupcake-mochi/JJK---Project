@@ -8,6 +8,18 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.326] — 30/09/2026
+
+**A Origem `Corpo Amaldiçoado` ganhou a cura: o reparo.** *O item 20 da fila vinha do §76 das Invocações — "é um corpo... feito de peças né, energia amaldiçoada ja n cura ela" — e deixava o personagem sem cura nenhuma fora do descanso longo, porque toda cura de vida do sistema é energia amaldiçoada e o descanso curto não devolve vida (peça 10).* **Resposta do Mizuki: "A, mas n coloque nenhuma regra que diga sobre a questão dele n ser curado em combate, uma técnica poderia por exemplo, ser focada na narrativa de engenharia, faria sentido ela curar o corpo amaldiçoado".** *O personagem se conserta pelo mesmo reparo do corpo amaldiçoado das Invocações (§108): no descanso curto, alguém com `Entalhador` ou `Forja` faz o teste de ofício na escada que acompanha, e passou, ele recupera metade da vida máxima. A `Energia Reversa`, e o que monta nela, não o cura; e o texto não proíbe outra cura — a técnica cuja Regra alcance um corpo feito cura ele.*
+
+**Alterado:** a peça 9 §5 ganhou a linha `Cura` do Corpo Amaldiçoado, e o capítulo das Origens do livro, a seção `Cura`; a peça 10 e o capítulo do descanso apontam a exceção ao descanso curto que não devolve vida. O item 20 da fila do `sistema/ESTADO-ATUAL.md` fechou. Os quatro builds do livro foram refeitos. **Nenhum validador mudou.**
+
+**Validação:** bateria de 31 de 31, rodada numa cópia com a v0.292 à v0.325 aplicadas. Só a 7.4 pulou: ela confere a entrega commitada, a cópia não tem o `.git` dela, e o `subir.sh` a roda antes de commitar.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: o item 21 da fila, a regra de peso.
+
+---
+
 ## [0.325] — 30/09/2026
 
 **As Invocações ganharam os §§106 a 109, e a fila delas fechou.** *Depois do construtor sobravam quatro perguntas — o atalho de domar sem luta, a regra de criar, o reparo do corpo amaldiçoado e quantas entidades se guarda —, e duas delas o Mizuki tirou do capítulo.*

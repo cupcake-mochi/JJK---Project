@@ -500,6 +500,12 @@ Técnica Marcial, no capítulo 10.
 
 Você tem energia amaldiçoada, então tem PE, aptidões e refino como qualquer feiticeiro tem — inclusive `Canalizar energia`, que faz o seu golpe simples ferir maldição. O que você não tem é técnica inata para escrever, e é a Técnica Marcial que ocupa esse lugar. Por isso a `Extensão de Domínio` você não compra: ela é um domínio vazio, e sem técnica inata você não tem domínio para esvaziar.
 
+#### Cura
+
+A `Energia Reversa`, e o que monta nela, não te cura: você é um corpo feito de peças. **Quem te conserta é o reparo.** No descanso curto, alguém com `Entalhador` ou `Forja` — você mesmo, ou outro — faz o teste de ofício, na escada que acompanha: difícil com você no nível de quem repara. Passou, você recupera metade da vida máxima. Um reparo por descanso curto.
+
+Uma técnica cuja Regra alcance um corpo feito — uma de engenharia, por exemplo — cura você como cura qualquer um.
+
 ### Legados do Corpo Amaldiçoado
 
 #### Destranca

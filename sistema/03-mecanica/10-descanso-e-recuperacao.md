@@ -44,7 +44,7 @@ Um lugar propício tem gente, suprimento e teto. Talismã, kit, comida, alguém 
 
 **Os 25% valem em qualquer lugar.** O que o ambiente propício faz é **proteger esse número da exaustão**: fora dele, cada degrau de exaustão corta um pedaço, até sobrar nada. A tabela está na seção 4.
 
-**O descanso curto não devolve vida, e isso é decisão.** Em Jujutsu Kaisen quem conserta gente é a Energia Reversa e a Shoko — se um respiro devolvesse vida, a coisa mais rara da obra viraria conveniência. O que existe são as peças que **já** curam no descanso curto, como a Passiva Reversão, e elas continuam valendo o que valem.
+**O descanso curto não devolve vida, e isso é decisão.** Em Jujutsu Kaisen quem conserta gente é a Energia Reversa e a Shoko — se um respiro devolvesse vida, a coisa mais rara da obra viraria conveniência. O que existe são as peças que **já** curam no descanso curto, como a Passiva Reversão, e elas continuam valendo o que valem. **E o reparo do Corpo Amaldiçoado** (peça 9 §5, v0.326): *a `Energia Reversa` não o cura, e é no descanso curto que um `Entalhador` ou uma `Forja` devolvem metade da vida dele.*
 
 ### Descanso longo
 

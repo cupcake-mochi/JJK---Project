@@ -183,6 +183,7 @@ Cadáver Amaldiçoado de Mutação Abrupta, na linguagem da instituição. Você
 | **Ofícios** *(escolha dois)* | *dois que quem te fez pôs em você, junto com o resto* — livres, do quadro da peça 7 |
 | **Legados** | **as listas estão na peça 13** — um `Destranca` obrigatório e mais um de qualquer lista |
 | **Criação** | **Técnica Marcial** — peça 20, fechada na v0.122 |
+| **Cura** | **a `Energia Reversa`, e o que monta nela, não te cura** — *decisão do Mizuki na v0.318: "é um corpo... feito de peças né, energia amaldiçoada ja n cura ela"*. **Quem te conserta é o reparo:** no descanso curto, alguém com `Entalhador` ou `Forja` — você mesmo, ou outro — faz o teste de ofício na escada que acompanha (peça 4 §2.2), difícil com você no nível dele; passou, você recupera **metade da vida máxima**. Um reparo por descanso curto. *O mesmo reparo do corpo amaldiçoado das Invocações (§108), por decisão dele na v0.326; nada aqui proíbe outra cura — uma técnica cuja Regra alcance um corpo feito, como uma de engenharia, cura você.* |
 
 ---
 

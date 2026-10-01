@@ -47,6 +47,8 @@ Os pontos de energia amaldiçoada que você gasta para conjurar.
 | **Vida** | nada |
 | **Usos `por descanso curto`** | recarregam |
 
+**O Corpo Amaldiçoado é a exceção da vida:** no descanso curto, um `Entalhador` ou uma `Forja` o reparam em metade da vida máxima (capítulo das Origens).
+
 Os 25% valem em qualquer lugar. O que o ambiente propício faz é **proteger esse número da exaustão**: fora dele, cada degrau de exaustão corta um pedaço, até sobrar nada.
 
 Vida não volta sozinha no respiro entre lutas, porque quem cura pessoas neste mundo é a Energia Reversa.
