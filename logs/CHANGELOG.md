@@ -8,6 +8,25 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.325] — 30/09/2026
+
+**As Invocações ganharam os §§106 a 109, e a fila delas fechou.** *Depois do construtor sobravam quatro perguntas — o atalho de domar sem luta, a regra de criar, o reparo do corpo amaldiçoado e quantas entidades se guarda —, e duas delas o Mizuki tirou do capítulo.*
+
+- **§106 — o atalho de domar é da técnica** ("Isso é definido pela técnica, n precisa ser citado na parte de invocações"): fica registrado, fora do livro, para as técnicas únicas — a maldição duas Classes abaixo do dono é domada sem luta nem teste.
+- **§107 — criar é do sistema de criação** ("vai ser levado para justamente o sistema de criação"): registro de um teste de ofício na escada que acompanha, provavelmente com tempo e material.
+- **§108 — o reparo:** no descanso curto, quem tem `Entalhador` ou `Forja` repara um corpo amaldiçoado em metade da vida máxima, pelo teste de ofício. O ofício do corpo amaldiçoado é um dos dois em tudo, porque "nem tudo precisa ser feito de madeira". *O personagem não recupera vida no descanso curto (peça 10), e a diferença foi mostrada e aceita.*
+- **§109 — sem limite de quantas entidades se tem:** o talismã tem peso, o corpo amaldiçoado tem o teto e os inativos, a de técnica tem o custo embutido, e a domada não se guarda sem técnica.
+
+**Adicionado:** os §§106 a 109 em `invocacoes/DECISOES-A-PARTIR-DO-46.md`, no formato dos anteriores.
+
+**Alterado:** o `invocacoes/LEIA-ME.md`, a fila do `sistema/ESTADO-ATUAL.md` e o `PROMPT-continuar.md` registram que a fila das Invocações fechou; o que sobra é do Evocador e das Trilhas, o traje e a volta ao livro, e a fila do sistema segue. No lote de desenvolvimento, que continua no HD, a candidata foi à revisão 44, e o lote de teste do §108 tem 4 verificações. **Nenhuma regra do livro mudou, e nenhum validador.**
+
+**Validação:** bateria de 31 de 31, rodada numa cópia com a v0.292 à v0.324 aplicadas. Só a 7.4 pulou: ela confere a entrega commitada, a cópia não tem o `.git` dela, e o `subir.sh` a roda antes de commitar.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: a fila do sistema.
+
+---
+
 ## [0.324] — 30/09/2026
 
 **As Invocações ganharam o construtor da entidade: os §§89 a 105.** *O §89 mandou começar do zero pelo Fundamento — a entidade tem só uma definição de menos de duas linhas, a básica é um feitiço de Classe 0 e a especial é um feitiço de Classe 1 para cima — e deixou os números para as perguntas seguintes.* **O que decidiu o pacote foi uma regra do Mizuki, dita no meio dele:** "os valores n podem ser iguais ao de um invocador". *Até o §96 a especial tinha o dano, o tamanho de efeito e a CD do jogador, e as passivas passavam das dele; o §97 mandou reduzir tudo, e cada número dali em diante foi validado contra o jogador, a Vanguarda atacando e o Emanador com um feitiço antes de ir a ele* ("Valide sempre essas questões"). **A meta ficou no turno:** a especial de uma entidade com a básica da outra fica "parelho a um classe de um emanador do mesmo nivel", entre 85% e 90% do dano dele, na conta pura — Caminho e Trilha sobem depois.

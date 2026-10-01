@@ -2416,3 +2416,133 @@ A validação recomendou o 5 e 3 contra a A (7 e 4). A confirmação:
 **[E] Fecha a fila do §97.** O construtor (§§89 a 105) vai para a candidata na revisão 43.
 
 **Onde a conta mora:** no lote de desenvolvimento, no HD. *O construtor (§§89 a 105) entrou junto na candidata, na revisão 43, e o lote de teste dele tem 14 verificações.*
+
+---
+
+## 106. O atalho de domar é da técnica, não das Invocações — decisão de Mizuki, 30/09/2026
+
+**O caso que abriu a pergunta:** um invocador de nível 26 encontra, fora de combate, uma maldição de nível 20 que quer domar. As opções eram sem atalho (A), duas Classes abaixo sem luta nem teste (B, recomendada), e duas Classes abaixo sem luta, com teste (C).
+
+**Resposta autoral:**
+
+> Isso é definido pela técnica, n precisa ser citado na parte de invocações, apenas anote como B fora do que vai ser levado pro livro, servindo como registro pra quando formos criar as técnicas únicas
+>
+> proximo
+
+### Aprovado
+
+**[D] O atalho de domar sem luta é da técnica que doma, e não entra no capítulo das Invocações nem na candidata.** Nas Invocações vale só o §96.
+
+**[D] Registro para as técnicas únicas, fora do livro:** a técnica que doma, como a Manipulação de Maldição do Geto, pode ter o atalho B — a maldição cuja Classe do nível fica duas ou mais abaixo da do dono é domada fora de combate, sem luta nem teste.
+
+### Esclarecimentos
+
+**[E] A conta que vai junto do registro:** a domada do atalho vale de 33% a 69% da especial e de 46% a 77% da vida de uma entidade do nível do dono (dono do nível 9 ao 26), porque fica parada no nível dela (§80).
+
+**[E] Quantas domadas o invocador pode guardar** não tem regra; com o atalho, domar maldição fraca fica barato. Fica pendente, junto com a técnica.
+
+### Limites preservados
+
+**[P] Quantas domadas se guarda.** **[P] A regra de criar e o reparo** — a pergunta seguinte.
+
+**Onde a conta mora:** no lote de desenvolvimento, no HD. *Fica fora do capítulo e da candidata, por decisão do Mizuki: é registro para as técnicas únicas.*
+
+---
+
+## 107. Criar é do sistema de criação, com teste de ofício — decisão de Mizuki, 30/09/2026
+
+**O caso que abriu a pergunta:** um invocador de nível 13 com `Entalhador` fazendo um corpo amaldiçoado de nível 13, e outro com `Caligrafia` fazendo um talismã de nível 9. As opções eram um teste de ofício na escada que acompanha (A, recomendada), teste estendido de três sucessos antes de três falhas (B), e sem teste (C).
+
+**Resposta autoral:**
+
+> A - mas n precisa estar no capitulo de invocação vai ser levado para justamente o sistema de criação. Ai vai provavelmente ser uma mistura de A e C
+
+### Aprovado
+
+**[D] Criar uma entidade é do sistema de criação, que ainda não existe, e não do capítulo das Invocações.** Nas Invocações fica só que a criação é um dos caminhos de aquisição (§71) e custa tempo, testes e material (§§77 a 84).
+
+**[D] Registro para o sistema de criação:** o teste é de ofício na escada que acompanha (peça 4 §2.2) — o corpo amaldiçoado pelo `Entalhador`, o talismã pela `Caligrafia`; do nível do criador é difícil (65%), uma Classe abaixo média (75%), duas ou mais fácil (85%) —, provavelmente misturado com a C (tempo e material).
+
+### Esclarecimentos
+
+**[E] O tempo e o material saem da fila das Invocações** e vão com o sistema de criação; o material espera a moeda, que o projeto ainda não tem (peça 14).
+
+**[E] A conta que vai junto do registro:** sem treino no ofício, criar do próprio nível dá 60% até o nível 9 e cai a 45% no 26; o teste estendido daria 77%, 90% e 97%. Com 65%, criar do próprio nível é mais fácil por tentativa que domar (a maldição resiste 65%, §96); a ordem do §81 fica com o tempo e o material.
+
+### Limites preservados
+
+**[P] O reparo** — a pergunta seguinte. **[P] Quantas domadas se guarda.**
+
+**Onde a conta mora:** no lote de desenvolvimento, no HD. *Fica fora do capítulo e da candidata, por decisão do Mizuki: é registro para o sistema de criação.*
+
+---
+
+## 108. O reparo no descanso curto, por `Entalhador` ou `Forja` — decisão de Mizuki, 30/09/2026
+
+**O caso que abriu a pergunta:** um corpo amaldiçoado de nível 13 sai da primeira luta do dia com metade da vida, e faltam duas lutas até o descanso longo. As opções eram o reparo ir com o criar para o sistema de criação (A, recomendada), reparo no descanso curto, no capítulo (B), e reparo em combate como a cura de ação (C).
+
+**Resposta autoral:**
+
+> B
+>
+> Em descanso curto da pra curar ele como sugerimos antes, por sinal coloca entalhador ou ferreiro, n so ai, mas tudo q envolve o corpo amaldiçoado, pq nem tudo precisa ser feito de madeira
+
+### Aprovado
+
+**[D] O reparo está no capítulo das Invocações:** no descanso curto, quem tem o ofício repara um corpo amaldiçoado pelo teste de ofício na escada que acompanha (peça 4 §2.2); passou, ele recupera **metade da vida máxima**.
+
+**[D] O ofício do corpo amaldiçoado é `Entalhador` ou `Forja`, em tudo que o envolve** — o reparo e a criação (§107): "nem tudo precisa ser feito de madeira". O talismã continua na `Caligrafia`.
+
+**[D] O corpo amaldiçoado recupera vida no descanso curto pelo reparo, e o personagem não** (peça 10): a diferença foi mostrada na pergunta e aceita.
+
+### Esclarecimentos — leituras para vetar
+
+**[E] A dificuldade é a da criação (§107):** corpo do nível de quem repara, difícil (65%); uma Classe abaixo, média (75%); duas ou mais, fácil (85%). Sem treino no ofício, a chance cai (60% até o nível 9, 45% no 26).
+
+**[E] Um reparo por corpo em cada descanso curto**, e quem repara pode ser o dono ou outra pessoa; falhou, o corpo não recupera nada naquele descanso. O corpo a zero ou `Desligada` não se repara: volta pela entrada (§§73, 76 e 85).
+
+**[E] O ofício escolhe o atributo pela tarefa** (peça 7 §1): o `Entalhador` tem Destreza por padrão, e a `Forja`, Força.
+
+**[E] O tamanho:** metade da vida máxima dá 46 num corpo de criação de nível 13 com Constituição 3 (92 de vida), e 91 no nível 26.
+
+### Limites preservados
+
+**[P] Quantas domadas o invocador guarda** — a pergunta seguinte. O §§77 a 84 e o §76 continuam: o corpo amaldiçoado só se cura por técnica ou reparo, e o descanso longo segue devolvendo a vida.
+
+**Onde a conta mora:** no mesmo lote de desenvolvimento, no HD. *A candidata foi à revisão 44, e o lote de teste do §108 tem 4 verificações.*
+
+---
+
+## 109. Não há limite de quantas entidades se guarda — decisão de Mizuki, 30/09/2026
+
+**O caso que abriu a pergunta:** um invocador de nível 20, sem técnica de domar, doma cinco maldições fracas numa missão; o teto deixa duas em campo. As opções eram sem limite (A), até o atributo do §66, como os inativos (B, recomendada), e o número todo da técnica (C).
+
+**Resposta autoral:**
+
+> A, n plenejo limitar isso
+>
+> pq
+>
+> 1 - Se for talisma, tem peso
+> 2 - Se for corpo amaldiçoado, tem limite em campo
+> 3 - Se for de tecnica, meio q ja tem o custo embutido ai
+> 4 - Se for domada, vc n consegue guardar ela ou vc precisa de tecnica e volta pra 3
+>
+> Ent A
+
+### Aprovado
+
+**[D] Não há limite de quantas entidades o invocador tem.** Cada tipo já é segurado pelo que ele é:
+
+- **o talismã tem peso** — a regra de carga do sistema, que está na fila (§§77 a 84 [P]);
+- **o corpo amaldiçoado tem limite em campo** — o teto (§62) e os inativos até o atributo do §66 (§84);
+- **a entidade de técnica já traz o custo embutido** — o espaço de feitiço ou a lista de ritual (§71);
+- **a domada não se guarda sem técnica** (§74): ela fica no mundo; com técnica, volta ao item anterior.
+
+### Esclarecimentos
+
+**[E] O teto de campo (§62) continua sendo o que segura o poder**; o que cresce com o número de entidades é a escolha antes da luta.
+
+**[E] Fecha a fila das Invocações.** O reparo (§108) e este número vão para a candidata na revisão 44; o §106 e o §107 ficam fora do capítulo.
+
+**Onde a conta mora:** no mesmo lote de desenvolvimento, no HD. *Entrou na candidata na revisão 44.*
