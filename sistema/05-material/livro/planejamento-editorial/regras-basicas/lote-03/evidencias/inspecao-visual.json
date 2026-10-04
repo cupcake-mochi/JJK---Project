@@ -1,0 +1,63 @@
+{
+  "data": "2026-10-03",
+  "sha256_pdf": "22a508c6d5873a1bc9adcd8ac4c4bba332332864bc6979c2eb33e8c5df4cd8a6",
+  "metodo": "Poppler, imagens a 1300 px examinadas pelo autor; página 4 reexaminada após ajuste. Demais páginas sem alteração de conteúdo/layout.",
+  "paginas": [
+    {
+      "pagina": 1,
+      "imagem": "/tmp/projeto-m-dano-preview/pagina-1.png",
+      "sha256_png": "2dcf9cee2b83d040ddc5ae54733071c754726159c751883db1c0b860b036c3ad",
+      "resultado": "sem defeito visual observado",
+      "observacao": "Títulos, tabelas, exemplos, margens e rodapé legíveis; sem recorte ou sobreposição."
+    },
+    {
+      "pagina": 2,
+      "imagem": "/tmp/projeto-m-dano-preview/pagina-2.png",
+      "sha256_png": "34b3627ba32967d988bebdb9a8d9c2ca9a0735ccfdd989f702aceb591fa69141",
+      "resultado": "sem defeito visual observado",
+      "observacao": "Títulos, tabelas, exemplos, margens e rodapé legíveis; sem recorte ou sobreposição."
+    },
+    {
+      "pagina": 3,
+      "imagem": "/tmp/projeto-m-dano-preview/pagina-3.png",
+      "sha256_png": "d4a7e463c546f0beb37eed03a4d55e967d46db8c7c65349509d2f10ea684766b",
+      "resultado": "sem defeito visual observado",
+      "observacao": "Títulos, tabelas, exemplos, margens e rodapé legíveis; sem recorte ou sobreposição."
+    },
+    {
+      "pagina": 4,
+      "imagem": "/tmp/projeto-m-dano-preview/pagina-4.png",
+      "sha256_png": "3bc770376bb1eb39d0355888a32511c210be38c7fd213d418660ce9ecf28f36f",
+      "resultado": "sem defeito visual observado",
+      "observacao": "Títulos, tabelas, exemplos, margens e rodapé legíveis; sem recorte ou sobreposição."
+    },
+    {
+      "pagina": 5,
+      "imagem": "/tmp/projeto-m-dano-preview/pagina-5.png",
+      "sha256_png": "0c7995e4a6c8bbaa0fa3e338c67c888415faa7f405f4800c3bbb729d51dde090",
+      "resultado": "sem defeito visual observado",
+      "observacao": "Títulos, tabelas, exemplos, margens e rodapé legíveis; sem recorte ou sobreposição."
+    },
+    {
+      "pagina": 6,
+      "imagem": "/tmp/projeto-m-dano-preview/pagina-6.png",
+      "sha256_png": "9fa01037fef63b0d64c589542d2fc54e7cf08078532fb3264073033d33c10efd",
+      "resultado": "sem defeito visual observado",
+      "observacao": "Títulos, tabelas, exemplos, margens e rodapé legíveis; sem recorte ou sobreposição."
+    },
+    {
+      "pagina": 7,
+      "imagem": "/tmp/projeto-m-dano-preview/pagina-7.png",
+      "sha256_png": "dfb911f714848121a7393897eeafee5d6a2ef1fbde98406f854133d13944f213",
+      "resultado": "sem defeito visual observado",
+      "observacao": "Títulos, tabelas, exemplos, margens e rodapé legíveis; sem recorte ou sobreposição."
+    },
+    {
+      "pagina": 8,
+      "imagem": "/tmp/projeto-m-dano-preview/pagina-8.png",
+      "sha256_png": "8fbe2133a17ba92e700ceaa0093a8a43edb06ea376ec6c5cb588b2e6b2a0ddc4",
+      "resultado": "sem defeito visual observado",
+      "observacao": "Títulos, tabelas, exemplos, margens e rodapé legíveis; sem recorte ou sobreposição."
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "sha256_texto": "477534ccb33b6174bf94f8182db6b33fd9f766b308c73c54dd4d5d0e8aa8be35",
+  "itens": [
+    {
+      "item": "XP por missão e nível inicial",
+      "destino": "prog-inicio",
+      "estado": "reescrito/conferido"
+    },
+    {
+      "item": "Recompensas curta/padrão/longa/final",
+      "destino": "prog-xp",
+      "estado": "reescrito/conferido"
+    },
+    {
+      "item": "Falha metade ou zero",
+      "destino": "prog-xp",
+      "estado": "reescrito/conferido"
+    },
+    {
+      "item": "Curva2–30 e totais",
+      "destino": "prog-xp",
+      "estado": "reescrito/conferido"
+    },
+    {
+      "item": "Teto um avanço/excedente",
+      "destino": "prog-inicio",
+      "estado": "reescrito/conferido"
+    },
+    {
+      "item": "Desconto semanal individual",
+      "destino": "prog-semana",
+      "estado": "reescrito/conferido"
+    },
+    {
+      "item": "Limiar e oito feitos",
+      "destino": "prog-limiar",
+      "estado": "reescrito/conferido"
+    },
+    {
+      "item": "Níveis1–15 sete valores",
+      "destino": "prog-tabela-inicial",
+      "estado": "reescrito/conferido"
+    },
+    {
+      "item": "Níveis16–30 sete valores",
+      "destino": "prog-tabela-avancada",
+      "estado": "reescrito/conferido"
+    },
+    {
+      "item": "Caminho2/7/15/23/30",
+      "destino": "prog-tabela-avancada",
+      "estado": "reescrito/conferido"
+    },
+    {
+      "item": "Trilha2/11/19/27",
+      "destino": "prog-tabela-avancada",
+      "estado": "reescrito/conferido"
+    },
+    {
+      "item": "Liberações10/20/30 e Máxima17",
+      "destino": "prog-tabela-avancada",
+      "estado": "reescrito/conferido"
+    },
+    {
+      "item": "Ganhos comuns sete marcos",
+      "destino": "prog-marcos",
+      "estado": "reescrito/conferido"
+    },
+    {
+      "item": "Corpo e especialização",
+      "destino": "prog-marcos",
+      "estado": "reescrito/conferido"
+    },
+    {
+      "item": "Refino e duas aptidões no teto",
+      "destino": "prog-marcos",
+      "estado": "reescrito/conferido"
+    },
+    {
+      "item": "Leque feitiço+Passiva semespaços",
+      "destino": "prog-marcos",
+      "estado": "reescrito/conferido"
+    },
+    {
+      "item": "Teto atributo6/refino10/passivas5pagas",
+      "destino": "prog-marcos",
+      "estado": "reescrito/conferido"
+    },
+    {
+      "item": "Lapidação e rotas",
+      "destino": "prog-marcos",
+      "estado": "reescrito/conferido"
+    },
+    {
+      "item": "Fórmula de espaços",
+      "destino": "prog-repertorio",
+      "estado": "reescrito/conferido"
+    },
+    {
+      "item": "Revisão umfeitiço/espaço",
+      "destino": "prog-repertorio",
+      "estado": "reescrito/conferido"
+    },
+    {
+      "item": "Invalidação por regras",
+      "destino": "prog-repertorio",
+      "estado": "reescrito/conferido"
+    },
+    {
+      "item": "Vida/PEeConatual",
+      "destino": "prog-atualizar",
+      "estado": "reescrito/conferido"
+    },
+    {
+      "item": "Origem/Legados somentecriação",
+      "destino": "prog-atualizar",
+      "estado": "reescrito/conferido"
+    },
+    {
+      "item": "Troca integral de Trilha",
+      "destino": "prog-trilhas",
+      "estado": "reescrito/conferido"
+    },
+    {
+      "item": "Aquisição emduplasregularização",
+      "destino": "prog-capacidades",
+      "estado": "reescrito/conferido"
+    },
+    {
+      "item": "Corpos mantidos eexcedentes",
+      "destino": "prog-capacidades",
+      "estado": "reescrito/conferido"
+    },
+    {
+      "item": "Tempo estimado premissas",
+      "destino": "prog-ritmo",
+      "estado": "reescrito/conferido"
+    },
+    {
+      "item": "Aceleração opcional",
+      "destino": "prog-ritmo",
+      "estado": "reescrito/conferido"
+    },
+    {
+      "item": "Compensação opcional",
+      "destino": "prog-ritmo",
+      "estado": "reescrito/conferido"
+    },
+    {
+      "item": "Salário porGrau/participação",
+      "destino": "prog-guilda",
+      "estado": "reescrito/conferido"
+    },
+    {
+      "item": "Mestragem/moeda/marca",
+      "destino": "prog-guilda",
+      "estado": "reescrito/conferido"
+    }
+  ],
+  "omitido_do_texto_do_jogador": [
+    {
+      "item": "Tabelas de vantagem de compensação com distância13/9/6/4níveis",
+      "motivo": "Resultados dependiam de perfis e distribuição de missões; não são regra. Premissas e política opcional ficam claras sem prometer redução exata para qualquer campanha."
+    },
+    {
+      "item": "Comparações de salário com recém-formado/executivo/ministro",
+      "motivo": "Não são regra autoral necessária; fonte técnica declara lastro secundário. Removidas alegações factuais sem validação primária."
+    },
+    {
+      "item": "Recomendação de um evento de dobro por mês",
+      "motivo": "Mantida como opção, sem presumir calendário fixo do servidor. Não altera a curva ou as quatro recompensas básicas."
+    }
+  ]
+}

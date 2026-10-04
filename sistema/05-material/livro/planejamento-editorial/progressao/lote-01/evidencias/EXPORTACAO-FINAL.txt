@@ -1,0 +1,1 @@
+{"paginas": 14, "marcadores_principais": 4, "marcadores_totais": 18, "grupos_recolhidos": 1, "caracteres": [1580, 1382, 1457, 2089, 1305, 1354, 1770, 1725, 2375, 1784, 2275, 1748, 1849, 1244]}

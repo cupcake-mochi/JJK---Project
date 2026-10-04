@@ -1,0 +1,3113 @@
+{
+  "sha256_texto": "c5a6b376afdbcc2439f53b270a1e82323ec99575cbdc530ce11cb31101b14f8f",
+  "revisor": "/root/rotas_didatica",
+  "ok": true,
+  "verificacoes": 342,
+  "casos": [
+    {
+      "id": "catalogo52",
+      "resultado": 52,
+      "esperado": 52,
+      "passou": true
+    },
+    {
+      "id": "mesmos_nomes",
+      "resultado": [
+        "Bastão",
+        "Besta",
+        "Besta de Uma Mão",
+        "Bō",
+        "Canivete",
+        "Cassetete",
+        "Chakram",
+        "Chicote",
+        "Corrente",
+        "Daikyū",
+        "Espada Longa",
+        "Espadão",
+        "Espingarda",
+        "Faca",
+        "Foice",
+        "Hankyū",
+        "Kama",
+        "Kanabō",
+        "Katana",
+        "Kunai",
+        "Kusarigama",
+        "Lança",
+        "Machadinha",
+        "Machado",
+        "Machado de Guerra",
+        "Machete",
+        "Manriki",
+        "Marreta",
+        "Maul",
+        "Maça",
+        "Metralhadora Pesada",
+        "Naginata",
+        "Nodachi",
+        "Nunchaku",
+        "Odachi",
+        "Pistola",
+        "Punhal",
+        "Rapieira",
+        "Revólver",
+        "Rifle",
+        "Rifle de Precisão",
+        "Sai",
+        "Shuriken",
+        "Soqueira",
+        "Submetralhadora",
+        "Taco",
+        "Tanto",
+        "Tekko",
+        "Tessen",
+        "Tonfa",
+        "Wakizashi",
+        "Yari"
+      ],
+      "esperado": [
+        "Bastão",
+        "Besta",
+        "Besta de Uma Mão",
+        "Bō",
+        "Canivete",
+        "Cassetete",
+        "Chakram",
+        "Chicote",
+        "Corrente",
+        "Daikyū",
+        "Espada Longa",
+        "Espadão",
+        "Espingarda",
+        "Faca",
+        "Foice",
+        "Hankyū",
+        "Kama",
+        "Kanabō",
+        "Katana",
+        "Kunai",
+        "Kusarigama",
+        "Lança",
+        "Machadinha",
+        "Machado",
+        "Machado de Guerra",
+        "Machete",
+        "Manriki",
+        "Marreta",
+        "Maul",
+        "Maça",
+        "Metralhadora Pesada",
+        "Naginata",
+        "Nodachi",
+        "Nunchaku",
+        "Odachi",
+        "Pistola",
+        "Punhal",
+        "Rapieira",
+        "Revólver",
+        "Rifle",
+        "Rifle de Precisão",
+        "Sai",
+        "Shuriken",
+        "Soqueira",
+        "Submetralhadora",
+        "Taco",
+        "Tanto",
+        "Tekko",
+        "Tessen",
+        "Tonfa",
+        "Wakizashi",
+        "Yari"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Canivete",
+      "resultado": [
+        "Canivete",
+        "1",
+        "1d4 Cortante",
+        "Fineza · Oculta · Rompe · Leve",
+        "—",
+        "0,1",
+        "8.000"
+      ],
+      "esperado": [
+        "Canivete",
+        "1",
+        "1d4 Cortante",
+        "Fineza · Oculta · Rompe · Leve",
+        "—",
+        "0,1",
+        "8.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Faca",
+      "resultado": [
+        "Faca",
+        "1",
+        "1d6 Cortante",
+        "Fineza · Rompe · Leve",
+        "—",
+        "0,2",
+        "16.000"
+      ],
+      "esperado": [
+        "Faca",
+        "1",
+        "1d6 Cortante",
+        "Fineza · Rompe · Leve",
+        "—",
+        "0,2",
+        "16.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Punhal",
+      "resultado": [
+        "Punhal",
+        "1",
+        "1d6 Perfurante",
+        "Fineza · Longo Alcance 6/18 m · Leve",
+        "—",
+        "0,3",
+        "16.000"
+      ],
+      "esperado": [
+        "Punhal",
+        "1",
+        "1d6 Perfurante",
+        "Fineza · Longo Alcance 6/18 m · Leve",
+        "—",
+        "0,3",
+        "16.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Sai",
+      "resultado": [
+        "Sai (arma de três pontas)",
+        "1",
+        "1d6 Perfurante",
+        "Fineza · Par · Leve",
+        "—",
+        "0,5",
+        "16.000"
+      ],
+      "esperado": [
+        "Sai (arma de três pontas)",
+        "1",
+        "1d6 Perfurante",
+        "Fineza · Par · Leve",
+        "—",
+        "0,5",
+        "16.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Tanto",
+      "resultado": [
+        "Tanto (lâmina curta)",
+        "1",
+        "1d6 Cortante",
+        "Fineza · Oculta · Leve",
+        "—",
+        "0,3",
+        "32.000"
+      ],
+      "esperado": [
+        "Tanto (lâmina curta)",
+        "1",
+        "1d6 Cortante",
+        "Fineza · Oculta · Leve",
+        "—",
+        "0,3",
+        "32.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Espada Longa",
+      "resultado": [
+        "Espada Longa",
+        "1",
+        "1d8 Cortante",
+        "Versátil · Rompe",
+        "—",
+        "1",
+        "48.000"
+      ],
+      "esperado": [
+        "Espada Longa",
+        "1",
+        "1d8 Cortante",
+        "Versátil · Rompe",
+        "—",
+        "1",
+        "48.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Espadão",
+      "resultado": [
+        "Espadão",
+        "2",
+        "1d12 Cortante",
+        "Alcance 3 m",
+        "3",
+        "2",
+        "60.000"
+      ],
+      "esperado": [
+        "Espadão",
+        "2",
+        "1d12 Cortante",
+        "Alcance 3 m",
+        "3",
+        "2",
+        "60.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Katana",
+      "resultado": [
+        "Katana (espada curva)",
+        "1",
+        "1d8 Cortante",
+        "Versátil · Fineza",
+        "—",
+        "1",
+        "48.000"
+      ],
+      "esperado": [
+        "Katana (espada curva)",
+        "1",
+        "1d8 Cortante",
+        "Versátil · Fineza",
+        "—",
+        "1",
+        "48.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Machete",
+      "resultado": [
+        "Machete",
+        "1",
+        "1d8 Cortante",
+        "Rompe",
+        "—",
+        "0,5",
+        "16.000"
+      ],
+      "esperado": [
+        "Machete",
+        "1",
+        "1d8 Cortante",
+        "Rompe",
+        "—",
+        "0,5",
+        "16.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Nodachi",
+      "resultado": [
+        "Nodachi (espada grande)",
+        "2",
+        "1d12 Cortante",
+        "Alcance 3 m · Rompe · Volumosa",
+        "3",
+        "2",
+        "60.000"
+      ],
+      "esperado": [
+        "Nodachi (espada grande)",
+        "2",
+        "1d12 Cortante",
+        "Alcance 3 m · Rompe · Volumosa",
+        "3",
+        "2",
+        "60.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Odachi",
+      "resultado": [
+        "Odachi (espada grande)",
+        "2",
+        "1d12 Cortante",
+        "Alcance 3 m · Talha · Embainhada",
+        "3",
+        "2",
+        "90.000"
+      ],
+      "esperado": [
+        "Odachi (espada grande)",
+        "2",
+        "1d12 Cortante",
+        "Alcance 3 m · Talha · Embainhada",
+        "3",
+        "2",
+        "90.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Rapieira",
+      "resultado": [
+        "Rapieira",
+        "1",
+        "1d6 Perfurante",
+        "Fineza · Talha",
+        "—",
+        "1",
+        "32.000"
+      ],
+      "esperado": [
+        "Rapieira",
+        "1",
+        "1d6 Perfurante",
+        "Fineza · Talha",
+        "—",
+        "1",
+        "32.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Wakizashi",
+      "resultado": [
+        "Wakizashi (espada curta)",
+        "1",
+        "1d8 Cortante",
+        "Oculta · Leve",
+        "—",
+        "0,5",
+        "32.000"
+      ],
+      "esperado": [
+        "Wakizashi (espada curta)",
+        "1",
+        "1d8 Cortante",
+        "Oculta · Leve",
+        "—",
+        "0,5",
+        "32.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Kanabō",
+      "resultado": [
+        "Kanabō (clava pesada)",
+        "2",
+        "1d12 Concussão",
+        "Talha",
+        "3",
+        "3",
+        "36.000"
+      ],
+      "esperado": [
+        "Kanabō (clava pesada)",
+        "2",
+        "1d12 Concussão",
+        "Talha",
+        "3",
+        "3",
+        "36.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Maça",
+      "resultado": [
+        "Maça",
+        "1",
+        "1d8 Concussão",
+        "Talha",
+        "—",
+        "1",
+        "32.000"
+      ],
+      "esperado": [
+        "Maça",
+        "1",
+        "1d8 Concussão",
+        "Talha",
+        "—",
+        "1",
+        "32.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Marreta",
+      "resultado": [
+        "Marreta",
+        "2",
+        "1d10 Concussão",
+        "Rompe · Talha",
+        "3",
+        "3",
+        "36.000"
+      ],
+      "esperado": [
+        "Marreta",
+        "2",
+        "1d10 Concussão",
+        "Rompe · Talha",
+        "3",
+        "3",
+        "36.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Maul",
+      "resultado": [
+        "Maul (martelo de combate)",
+        "2",
+        "1d12 Concussão",
+        "Rompe",
+        "3",
+        "3",
+        "36.000"
+      ],
+      "esperado": [
+        "Maul (martelo de combate)",
+        "2",
+        "1d12 Concussão",
+        "Rompe",
+        "3",
+        "3",
+        "36.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Taco",
+      "resultado": [
+        "Taco",
+        "1",
+        "1d8 Concussão",
+        "Versátil · Discreta",
+        "—",
+        "1",
+        "16.000"
+      ],
+      "esperado": [
+        "Taco",
+        "1",
+        "1d8 Concussão",
+        "Versátil · Discreta",
+        "—",
+        "1",
+        "16.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Bastão",
+      "resultado": [
+        "Bastão",
+        "1",
+        "1d6 Concussão",
+        "Versátil · Alcance 3 m · Rompe",
+        "—",
+        "1",
+        "16.000"
+      ],
+      "esperado": [
+        "Bastão",
+        "1",
+        "1d6 Concussão",
+        "Versátil · Alcance 3 m · Rompe",
+        "—",
+        "1",
+        "16.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Bō",
+      "resultado": [
+        "Bō (bastão longo)",
+        "2",
+        "1d10 Concussão",
+        "Alcance 3 m · Emaranha",
+        "3",
+        "2",
+        "20.000"
+      ],
+      "esperado": [
+        "Bō (bastão longo)",
+        "2",
+        "1d10 Concussão",
+        "Alcance 3 m · Emaranha",
+        "3",
+        "2",
+        "20.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Cassetete",
+      "resultado": [
+        "Cassetete",
+        "1",
+        "1d6 Concussão",
+        "Oculta · Vestida · Leve",
+        "—",
+        "0,3",
+        "8.000"
+      ],
+      "esperado": [
+        "Cassetete",
+        "1",
+        "1d6 Concussão",
+        "Oculta · Vestida · Leve",
+        "—",
+        "0,3",
+        "8.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Nunchaku",
+      "resultado": [
+        "Nunchaku (bastões ligados)",
+        "1",
+        "1d6 Concussão",
+        "Par · Emaranha",
+        "—",
+        "0,5",
+        "16.000"
+      ],
+      "esperado": [
+        "Nunchaku (bastões ligados)",
+        "1",
+        "1d6 Concussão",
+        "Par · Emaranha",
+        "—",
+        "0,5",
+        "16.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Tonfa",
+      "resultado": [
+        "Tonfa (bastão com cabo lateral)",
+        "1",
+        "1d6 Concussão",
+        "Par · Vestida · Leve",
+        "—",
+        "0,5",
+        "16.000"
+      ],
+      "esperado": [
+        "Tonfa (bastão com cabo lateral)",
+        "1",
+        "1d6 Concussão",
+        "Par · Vestida · Leve",
+        "—",
+        "0,5",
+        "16.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Soqueira",
+      "resultado": [
+        "Soqueira",
+        "1",
+        "1d4 Concussão",
+        "Vestida · Oculta · Par · Leve",
+        "—",
+        "0,2",
+        "8.000"
+      ],
+      "esperado": [
+        "Soqueira",
+        "1",
+        "1d4 Concussão",
+        "Vestida · Oculta · Par · Leve",
+        "—",
+        "0,2",
+        "8.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Tekko",
+      "resultado": [
+        "Tekko (proteção de punho)",
+        "1",
+        "1d4 Concussão",
+        "Vestida · Par · Oculta · Leve",
+        "—",
+        "0,2",
+        "8.000"
+      ],
+      "esperado": [
+        "Tekko (proteção de punho)",
+        "1",
+        "1d4 Concussão",
+        "Vestida · Par · Oculta · Leve",
+        "—",
+        "0,2",
+        "8.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Machadinha",
+      "resultado": [
+        "Machadinha",
+        "1",
+        "1d6 Cortante",
+        "Longo Alcance 6/18 m · Rompe",
+        "—",
+        "0,5",
+        "16.000"
+      ],
+      "esperado": [
+        "Machadinha",
+        "1",
+        "1d6 Cortante",
+        "Longo Alcance 6/18 m · Rompe",
+        "—",
+        "0,5",
+        "16.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Machado",
+      "resultado": [
+        "Machado",
+        "1",
+        "1d8 Cortante",
+        "Rompe",
+        "—",
+        "1",
+        "32.000"
+      ],
+      "esperado": [
+        "Machado",
+        "1",
+        "1d8 Cortante",
+        "Rompe",
+        "—",
+        "1",
+        "32.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Machado de Guerra",
+      "resultado": [
+        "Machado de Guerra",
+        "2",
+        "1d12 Cortante",
+        "Rompe · Talha · Volumosa",
+        "3",
+        "2",
+        "60.000"
+      ],
+      "esperado": [
+        "Machado de Guerra",
+        "2",
+        "1d12 Cortante",
+        "Rompe · Talha · Volumosa",
+        "3",
+        "2",
+        "60.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Foice",
+      "resultado": [
+        "Foice",
+        "2",
+        "1d10 Cortante",
+        "Emaranha · Talha",
+        "3",
+        "2",
+        "36.000"
+      ],
+      "esperado": [
+        "Foice",
+        "2",
+        "1d10 Cortante",
+        "Emaranha · Talha",
+        "3",
+        "2",
+        "36.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Kama",
+      "resultado": [
+        "Kama (foice curta)",
+        "1",
+        "1d6 Cortante",
+        "Par · Rompe",
+        "—",
+        "0,5",
+        "16.000"
+      ],
+      "esperado": [
+        "Kama (foice curta)",
+        "1",
+        "1d6 Cortante",
+        "Par · Rompe",
+        "—",
+        "0,5",
+        "16.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Kusarigama",
+      "resultado": [
+        "Kusarigama (foice com corrente)",
+        "2",
+        "1d8 Cortante",
+        "Alcance 3 m · Emaranha · Longo Alcance 6/18 m",
+        "—",
+        "2",
+        "20.000"
+      ],
+      "esperado": [
+        "Kusarigama (foice com corrente)",
+        "2",
+        "1d8 Cortante",
+        "Alcance 3 m · Emaranha · Longo Alcance 6/18 m",
+        "—",
+        "2",
+        "20.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Lança",
+      "resultado": [
+        "Lança",
+        "1",
+        "1d6 Perfurante",
+        "Alcance 3 m · Longo Alcance 6/18 m",
+        "—",
+        "2",
+        "16.000"
+      ],
+      "esperado": [
+        "Lança",
+        "1",
+        "1d6 Perfurante",
+        "Alcance 3 m · Longo Alcance 6/18 m",
+        "—",
+        "2",
+        "16.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Naginata",
+      "resultado": [
+        "Naginata (haste com lâmina)",
+        "2",
+        "1d10 Cortante",
+        "Alcance 3 m · Rompe",
+        "3",
+        "2",
+        "36.000"
+      ],
+      "esperado": [
+        "Naginata (haste com lâmina)",
+        "2",
+        "1d10 Cortante",
+        "Alcance 3 m · Rompe",
+        "3",
+        "2",
+        "36.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Yari",
+      "resultado": [
+        "Yari (lança longa)",
+        "2",
+        "1d10 Perfurante",
+        "Alcance 3 m · Talha",
+        "3",
+        "2",
+        "36.000"
+      ],
+      "esperado": [
+        "Yari (lança longa)",
+        "2",
+        "1d10 Perfurante",
+        "Alcance 3 m · Talha",
+        "3",
+        "2",
+        "36.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Chicote",
+      "resultado": [
+        "Chicote",
+        "1",
+        "1d4 Concussão",
+        "Alcance 3 m · Emaranha · Oculta · Leve",
+        "—",
+        "0,5",
+        "16.000"
+      ],
+      "esperado": [
+        "Chicote",
+        "1",
+        "1d4 Concussão",
+        "Alcance 3 m · Emaranha · Oculta · Leve",
+        "—",
+        "0,5",
+        "16.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Corrente",
+      "resultado": [
+        "Corrente",
+        "2",
+        "1d8 Concussão",
+        "Alcance 3 m · Emaranha · Rompe",
+        "—",
+        "2",
+        "20.000"
+      ],
+      "esperado": [
+        "Corrente",
+        "2",
+        "1d8 Concussão",
+        "Alcance 3 m · Emaranha · Rompe",
+        "—",
+        "2",
+        "20.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Manriki",
+      "resultado": [
+        "Manriki (corrente com pesos)",
+        "1",
+        "1d6 Concussão",
+        "Emaranha · Oculta · Leve",
+        "—",
+        "0,5",
+        "8.000"
+      ],
+      "esperado": [
+        "Manriki (corrente com pesos)",
+        "1",
+        "1d6 Concussão",
+        "Emaranha · Oculta · Leve",
+        "—",
+        "0,5",
+        "8.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Chakram",
+      "resultado": [
+        "Chakram (anel cortante)",
+        "1",
+        "1d4 Cortante",
+        "Longo Alcance 6/18 m · Fineza · Oculta · Leve",
+        "—",
+        "0,2",
+        "8.000"
+      ],
+      "esperado": [
+        "Chakram (anel cortante)",
+        "1",
+        "1d4 Cortante",
+        "Longo Alcance 6/18 m · Fineza · Oculta · Leve",
+        "—",
+        "0,2",
+        "8.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Kunai",
+      "resultado": [
+        "Kunai (lâmina de arremesso)",
+        "1",
+        "1d6 Perfurante",
+        "Longo Alcance 6/18 m · Oculta · Leve",
+        "—",
+        "0,2",
+        "8.000"
+      ],
+      "esperado": [
+        "Kunai (lâmina de arremesso)",
+        "1",
+        "1d6 Perfurante",
+        "Longo Alcance 6/18 m · Oculta · Leve",
+        "—",
+        "0,2",
+        "8.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Shuriken",
+      "resultado": [
+        "Shuriken (lâmina de arremesso)",
+        "1",
+        "1d4 Perfurante",
+        "Longo Alcance 6/18 m · Oculta · Par · Leve",
+        "—",
+        "0,1",
+        "8.000"
+      ],
+      "esperado": [
+        "Shuriken (lâmina de arremesso)",
+        "1",
+        "1d4 Perfurante",
+        "Longo Alcance 6/18 m · Oculta · Par · Leve",
+        "—",
+        "0,1",
+        "8.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Tessen",
+      "resultado": [
+        "Tessen (leque de combate)",
+        "1",
+        "1d4 Concussão",
+        "Longo Alcance 6/18 m · Oculta · Vestida · Leve",
+        "—",
+        "0,3",
+        "8.000"
+      ],
+      "esperado": [
+        "Tessen (leque de combate)",
+        "1",
+        "1d4 Concussão",
+        "Longo Alcance 6/18 m · Oculta · Vestida · Leve",
+        "—",
+        "0,3",
+        "8.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Daikyū",
+      "resultado": [
+        "Daikyū (arco longo)",
+        "2",
+        "1d10 Perfurante",
+        "Longo Alcance 45/180 m",
+        "—",
+        "2",
+        "60.000"
+      ],
+      "esperado": [
+        "Daikyū (arco longo)",
+        "2",
+        "1d10 Perfurante",
+        "Longo Alcance 45/180 m",
+        "—",
+        "2",
+        "60.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Hankyū",
+      "resultado": [
+        "Hankyū (arco curto)",
+        "2",
+        "1d8 Perfurante",
+        "Longo Alcance 24/96 m · Oculta",
+        "—",
+        "1",
+        "40.000"
+      ],
+      "esperado": [
+        "Hankyū (arco curto)",
+        "2",
+        "1d8 Perfurante",
+        "Longo Alcance 24/96 m · Oculta",
+        "—",
+        "1",
+        "40.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Besta",
+      "resultado": [
+        "Besta",
+        "2",
+        "2d8 Perfurante",
+        "Longo Alcance 30/120 m · Munição · Rompe",
+        "3",
+        "2",
+        "80.000"
+      ],
+      "esperado": [
+        "Besta",
+        "2",
+        "2d8 Perfurante",
+        "Longo Alcance 30/120 m · Munição · Rompe",
+        "3",
+        "2",
+        "80.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Besta de Uma Mão",
+      "resultado": [
+        "Besta de Uma Mão",
+        "1",
+        "1d10 Perfurante",
+        "Longo Alcance 9/36 m · Munição · Oculta · Leve",
+        "—",
+        "1",
+        "50.000"
+      ],
+      "esperado": [
+        "Besta de Uma Mão",
+        "1",
+        "1d10 Perfurante",
+        "Longo Alcance 9/36 m · Munição · Oculta · Leve",
+        "—",
+        "1",
+        "50.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Espingarda",
+      "resultado": [
+        "Espingarda",
+        "2",
+        "2d8 Perfurante",
+        "Longo Alcance 9/27 m · Munição · Rompe",
+        "1",
+        "2",
+        "150.000 / 300.000"
+      ],
+      "esperado": [
+        "Espingarda",
+        "2",
+        "2d8 Perfurante",
+        "Longo Alcance 9/27 m · Munição · Rompe",
+        "1",
+        "2",
+        "150.000 / 300.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Metralhadora Pesada",
+      "resultado": [
+        "Metralhadora Pesada",
+        "2",
+        "2d10 Perfurante",
+        "Longo Alcance 24/72 m · Munição · Rompe · Volumosa",
+        "3",
+        "4",
+        "450.000 / 900.000"
+      ],
+      "esperado": [
+        "Metralhadora Pesada",
+        "2",
+        "2d10 Perfurante",
+        "Longo Alcance 24/72 m · Munição · Rompe · Volumosa",
+        "3",
+        "4",
+        "450.000 / 900.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Pistola",
+      "resultado": [
+        "Pistola",
+        "1",
+        "1d10 Perfurante",
+        "Longo Alcance 9/27 m · Munição · Oculta · Leve",
+        "—",
+        "0,5",
+        "125.000 / 250.000"
+      ],
+      "esperado": [
+        "Pistola",
+        "1",
+        "1d10 Perfurante",
+        "Longo Alcance 9/27 m · Munição · Oculta · Leve",
+        "—",
+        "0,5",
+        "125.000 / 250.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Revólver",
+      "resultado": [
+        "Revólver",
+        "1",
+        "1d10 Perfurante",
+        "Longo Alcance 12/36 m · Munição · Oculta · Leve",
+        "—",
+        "0,5",
+        "150.000 / 300.000"
+      ],
+      "esperado": [
+        "Revólver",
+        "1",
+        "1d10 Perfurante",
+        "Longo Alcance 12/36 m · Munição · Oculta · Leve",
+        "—",
+        "0,5",
+        "150.000 / 300.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Rifle",
+      "resultado": [
+        "Rifle",
+        "2",
+        "2d8 Perfurante",
+        "Longo Alcance 24/72 m · Munição · Talha",
+        "1",
+        "2",
+        "175.000 / 350.000"
+      ],
+      "esperado": [
+        "Rifle",
+        "2",
+        "2d8 Perfurante",
+        "Longo Alcance 24/72 m · Munição · Talha",
+        "1",
+        "2",
+        "175.000 / 350.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Rifle de Precisão",
+      "resultado": [
+        "Rifle de Precisão",
+        "2",
+        "2d10 Perfurante",
+        "Longo Alcance 24/72 m · Munição",
+        "3",
+        "3",
+        "300.000 / 600.000"
+      ],
+      "esperado": [
+        "Rifle de Precisão",
+        "2",
+        "2d10 Perfurante",
+        "Longo Alcance 24/72 m · Munição",
+        "3",
+        "3",
+        "300.000 / 600.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "linha_Submetralhadora",
+      "resultado": [
+        "Submetralhadora",
+        "2",
+        "2d6 Perfurante",
+        "Longo Alcance 15/45 m · Munição · Par · Oculta",
+        "—",
+        "2",
+        "200.000 / 400.000"
+      ],
+      "esperado": [
+        "Submetralhadora",
+        "2",
+        "2d6 Perfurante",
+        "Longo Alcance 15/45 m · Munição · Par · Oculta",
+        "—",
+        "2",
+        "200.000 / 400.000"
+      ],
+      "passou": true
+    },
+    {
+      "id": "Leves19",
+      "resultado": [
+        "Besta de Uma Mão",
+        "Canivete",
+        "Cassetete",
+        "Chakram",
+        "Chicote",
+        "Faca",
+        "Kunai",
+        "Manriki",
+        "Pistola",
+        "Punhal",
+        "Revólver",
+        "Sai",
+        "Shuriken",
+        "Soqueira",
+        "Tanto",
+        "Tekko",
+        "Tessen",
+        "Tonfa",
+        "Wakizashi"
+      ],
+      "esperado": [
+        "Besta de Uma Mão",
+        "Canivete",
+        "Cassetete",
+        "Chakram",
+        "Chicote",
+        "Faca",
+        "Kunai",
+        "Manriki",
+        "Pistola",
+        "Punhal",
+        "Revólver",
+        "Sai",
+        "Shuriken",
+        "Soqueira",
+        "Tanto",
+        "Tekko",
+        "Tessen",
+        "Tonfa",
+        "Wakizashi"
+      ],
+      "passou": true
+    },
+    {
+      "id": "elegiveis21",
+      "resultado": 21,
+      "esperado": 21,
+      "passou": true
+    },
+    {
+      "id": "Taco_nao_elegivel",
+      "resultado": false,
+      "esperado": false,
+      "passou": true
+    },
+    {
+      "id": "Rapieira_elegivel",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "fonte_EQUIPAMENTO-EM-JOGO.md",
+      "resultado": "55c434659e311604659d7e2bb9edd3a56975966b0a57942ec28e07152d8bf3cb",
+      "esperado": "55c434659e311604659d7e2bb9edd3a56975966b0a57942ec28e07152d8bf3cb",
+      "passou": true
+    },
+    {
+      "id": "secao_eq-equipamento",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "secao_eq-manipular",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "secao_eq-objetos",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "secao_eq-propriedades",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "secao_eq-oculta",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "fonte_PROTECAO.md",
+      "resultado": "18cbff010ba9848b39346d6b77037c3b1b7ec1bbe7f75ae5e36486ac54c679a5",
+      "esperado": "18cbff010ba9848b39346d6b77037c3b1b7ec1bbe7f75ae5e36486ac54c679a5",
+      "passou": true
+    },
+    {
+      "id": "secao_eqp-protecao",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "secao_eqp-traje",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "secao_eqp-escudo",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "secao_eqp-vestir",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "fonte_MUNICAO.md",
+      "resultado": "802e883a22b8571d28dfd518c7d646dbc649cff1c442035b18bbbeb9fced17e7",
+      "esperado": "802e883a22b8571d28dfd518c7d646dbc649cff1c442035b18bbbeb9fced17e7",
+      "passou": true
+    },
+    {
+      "id": "secao_eqm-municao",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "secao_eqm-recarga",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "secao_eqm-reserva",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "fonte_ARMAS.md",
+      "resultado": "ef4cfe39859124fac44744b59d7b4a91bd1effdd54f24ebc8e0d4fb511daaf49",
+      "esperado": "ef4cfe39859124fac44744b59d7b4a91bd1effdd54f24ebc8e0d4fb511daaf49",
+      "passou": true
+    },
+    {
+      "id": "secao_eqa-armas",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "secao_eqa-laminas",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "secao_eqa-impacto",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "secao_eqa-hastes",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "secao_eqa-flexiveis",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "secao_eqa-tiro",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "fonte_ITENS-E-OBJETOS.md",
+      "resultado": "1781aaf0047bc2789e48c8de0741c6d8b8470b123c311b39f2a423ead0c5413c",
+      "esperado": "1781aaf0047bc2789e48c8de0741c6d8b8470b123c311b39f2a423ead0c5413c",
+      "passou": true
+    },
+    {
+      "id": "secao_eqi-itens",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "secao_eqi-exploracao",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "secao_eqi-fechaduras",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "secao_eqi-objetos",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "secao_eqi-improvisadas",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "fonte_COMPRAS-E-EQUIPAMENTO-INICIAL.md",
+      "resultado": "0c65b7d17dc1ee911e292711bbc68330fb70e248390293ee09f8a0bace0d2fe5",
+      "esperado": "0c65b7d17dc1ee911e292711bbc68330fb70e248390293ee09f8a0bace0d2fe5",
+      "passou": true
+    },
+    {
+      "id": "secao_eqc-dinheiro",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "secao_eqc-precos",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "secao_eqc-inicial",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "secao_eqc-compras",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "fonte_EQUIPAMENTO-AMALDICOADO.md",
+      "resultado": "f6966f9810cb27193c671a692d475d88c341f9833938d7aa1fda646df4724d13",
+      "esperado": "f6966f9810cb27193c671a692d475d88c341f9833938d7aa1fda646df4724d13",
+      "passou": true
+    },
+    {
+      "id": "secao_eqf-equipamento",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "secao_eqf-graus",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "secao_eqf-uso",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "secao_eqf-aquisicao",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "secao_eqf-armas",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "secao_eqf-roupas",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "secao_eqf-protecao",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "secao_eqf-acessorios",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "secao_eqf-reliquias",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "secao_eqf-desgaste",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "secao_eqf-objetos",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "link_eq-manipular",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "link_eq-propriedades",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "link_eq-oculta",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "link_eq-manipular",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "link_eqi-objetos",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "link_eq-propriedades",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "link_eq-oculta",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "link_eq-oculta",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "link_eqp-traje",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "link_eqp-escudo",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "link_eqp-vestir",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "link_eqm-recarga",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "link_eqi-objetos",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "link_eqc-precos",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "link_eqc-dinheiro",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "link_eqf-desgaste",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "link_eqf-uso",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "link_eq-manipular",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "Par_1d4_maior",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "Par_1d6_maior",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "Par_1d8_maior",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "Par_1d10_maior",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "Par_1d12_maior",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "Par_2d6_maior",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "Par_4d6_maior",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "Par_2d8_maior",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "Par_2d10_maior",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "Par_1d6",
+      "resultado": "161/36",
+      "esperado": "161/36",
+      "passou": true
+    },
+    {
+      "id": "2d6_nao_max_por_dado",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "recarga_normal",
+      "resultado": "1/10",
+      "esperado": "1/10",
+      "passou": true
+    },
+    {
+      "id": "recarga_vantagem",
+      "resultado": "1/100",
+      "esperado": "1/100",
+      "passou": true
+    },
+    {
+      "id": "recarga_desvantagem",
+      "resultado": "19/100",
+      "esperado": "19/100",
+      "passou": true
+    },
+    {
+      "id": "estoque_1_1_0",
+      "resultado": 0,
+      "esperado": 0,
+      "passou": true
+    },
+    {
+      "id": "capacidade_1_1_0",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_1_1_1",
+      "resultado": 1,
+      "esperado": 1,
+      "passou": true
+    },
+    {
+      "id": "capacidade_1_1_1",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_1_1_2",
+      "resultado": 2,
+      "esperado": 2,
+      "passou": true
+    },
+    {
+      "id": "capacidade_1_1_2",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_1_1_3",
+      "resultado": 3,
+      "esperado": 3,
+      "passou": true
+    },
+    {
+      "id": "capacidade_1_1_3",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_1_1_4",
+      "resultado": 4,
+      "esperado": 4,
+      "passou": true
+    },
+    {
+      "id": "capacidade_1_1_4",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_1_1_5",
+      "resultado": 5,
+      "esperado": 5,
+      "passou": true
+    },
+    {
+      "id": "capacidade_1_1_5",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_1_1_6",
+      "resultado": 6,
+      "esperado": 6,
+      "passou": true
+    },
+    {
+      "id": "capacidade_1_1_6",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_1_1_7",
+      "resultado": 7,
+      "esperado": 7,
+      "passou": true
+    },
+    {
+      "id": "capacidade_1_1_7",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_1_1_8",
+      "resultado": 8,
+      "esperado": 8,
+      "passou": true
+    },
+    {
+      "id": "capacidade_1_1_8",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_2_1_0",
+      "resultado": 0,
+      "esperado": 0,
+      "passou": true
+    },
+    {
+      "id": "capacidade_2_1_0",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_2_1_1",
+      "resultado": 1,
+      "esperado": 1,
+      "passou": true
+    },
+    {
+      "id": "capacidade_2_1_1",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_2_1_2",
+      "resultado": 2,
+      "esperado": 2,
+      "passou": true
+    },
+    {
+      "id": "capacidade_2_1_2",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_2_1_3",
+      "resultado": 3,
+      "esperado": 3,
+      "passou": true
+    },
+    {
+      "id": "capacidade_2_1_3",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_2_1_4",
+      "resultado": 4,
+      "esperado": 4,
+      "passou": true
+    },
+    {
+      "id": "capacidade_2_1_4",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_2_1_5",
+      "resultado": 5,
+      "esperado": 5,
+      "passou": true
+    },
+    {
+      "id": "capacidade_2_1_5",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_2_1_6",
+      "resultado": 6,
+      "esperado": 6,
+      "passou": true
+    },
+    {
+      "id": "capacidade_2_1_6",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_2_1_7",
+      "resultado": 7,
+      "esperado": 7,
+      "passou": true
+    },
+    {
+      "id": "capacidade_2_1_7",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_2_1_8",
+      "resultado": 8,
+      "esperado": 8,
+      "passou": true
+    },
+    {
+      "id": "capacidade_2_1_8",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_2_2_0",
+      "resultado": 1,
+      "esperado": 1,
+      "passou": true
+    },
+    {
+      "id": "capacidade_2_2_0",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_2_2_1",
+      "resultado": 2,
+      "esperado": 2,
+      "passou": true
+    },
+    {
+      "id": "capacidade_2_2_1",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_2_2_2",
+      "resultado": 3,
+      "esperado": 3,
+      "passou": true
+    },
+    {
+      "id": "capacidade_2_2_2",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_2_2_3",
+      "resultado": 4,
+      "esperado": 4,
+      "passou": true
+    },
+    {
+      "id": "capacidade_2_2_3",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_2_2_4",
+      "resultado": 5,
+      "esperado": 5,
+      "passou": true
+    },
+    {
+      "id": "capacidade_2_2_4",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_2_2_5",
+      "resultado": 6,
+      "esperado": 6,
+      "passou": true
+    },
+    {
+      "id": "capacidade_2_2_5",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_2_2_6",
+      "resultado": 7,
+      "esperado": 7,
+      "passou": true
+    },
+    {
+      "id": "capacidade_2_2_6",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_2_2_7",
+      "resultado": 8,
+      "esperado": 8,
+      "passou": true
+    },
+    {
+      "id": "capacidade_2_2_7",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_2_2_8",
+      "resultado": 9,
+      "esperado": 9,
+      "passou": true
+    },
+    {
+      "id": "capacidade_2_2_8",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_3_1_0",
+      "resultado": 0,
+      "esperado": 0,
+      "passou": true
+    },
+    {
+      "id": "capacidade_3_1_0",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_3_1_1",
+      "resultado": 1,
+      "esperado": 1,
+      "passou": true
+    },
+    {
+      "id": "capacidade_3_1_1",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_3_1_2",
+      "resultado": 2,
+      "esperado": 2,
+      "passou": true
+    },
+    {
+      "id": "capacidade_3_1_2",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_3_1_3",
+      "resultado": 3,
+      "esperado": 3,
+      "passou": true
+    },
+    {
+      "id": "capacidade_3_1_3",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_3_1_4",
+      "resultado": 4,
+      "esperado": 4,
+      "passou": true
+    },
+    {
+      "id": "capacidade_3_1_4",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_3_1_5",
+      "resultado": 5,
+      "esperado": 5,
+      "passou": true
+    },
+    {
+      "id": "capacidade_3_1_5",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_3_1_6",
+      "resultado": 6,
+      "esperado": 6,
+      "passou": true
+    },
+    {
+      "id": "capacidade_3_1_6",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_3_1_7",
+      "resultado": 7,
+      "esperado": 7,
+      "passou": true
+    },
+    {
+      "id": "capacidade_3_1_7",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_3_1_8",
+      "resultado": 8,
+      "esperado": 8,
+      "passou": true
+    },
+    {
+      "id": "capacidade_3_1_8",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_3_2_0",
+      "resultado": 1,
+      "esperado": 1,
+      "passou": true
+    },
+    {
+      "id": "capacidade_3_2_0",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_3_2_1",
+      "resultado": 2,
+      "esperado": 2,
+      "passou": true
+    },
+    {
+      "id": "capacidade_3_2_1",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_3_2_2",
+      "resultado": 3,
+      "esperado": 3,
+      "passou": true
+    },
+    {
+      "id": "capacidade_3_2_2",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_3_2_3",
+      "resultado": 4,
+      "esperado": 4,
+      "passou": true
+    },
+    {
+      "id": "capacidade_3_2_3",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_3_2_4",
+      "resultado": 5,
+      "esperado": 5,
+      "passou": true
+    },
+    {
+      "id": "capacidade_3_2_4",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_3_2_5",
+      "resultado": 6,
+      "esperado": 6,
+      "passou": true
+    },
+    {
+      "id": "capacidade_3_2_5",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_3_2_6",
+      "resultado": 7,
+      "esperado": 7,
+      "passou": true
+    },
+    {
+      "id": "capacidade_3_2_6",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_3_2_7",
+      "resultado": 8,
+      "esperado": 8,
+      "passou": true
+    },
+    {
+      "id": "capacidade_3_2_7",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_3_2_8",
+      "resultado": 9,
+      "esperado": 9,
+      "passou": true
+    },
+    {
+      "id": "capacidade_3_2_8",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_3_3_0",
+      "resultado": 2,
+      "esperado": 2,
+      "passou": true
+    },
+    {
+      "id": "capacidade_3_3_0",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_3_3_1",
+      "resultado": 3,
+      "esperado": 3,
+      "passou": true
+    },
+    {
+      "id": "capacidade_3_3_1",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_3_3_2",
+      "resultado": 4,
+      "esperado": 4,
+      "passou": true
+    },
+    {
+      "id": "capacidade_3_3_2",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_3_3_3",
+      "resultado": 5,
+      "esperado": 5,
+      "passou": true
+    },
+    {
+      "id": "capacidade_3_3_3",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_3_3_4",
+      "resultado": 6,
+      "esperado": 6,
+      "passou": true
+    },
+    {
+      "id": "capacidade_3_3_4",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_3_3_5",
+      "resultado": 7,
+      "esperado": 7,
+      "passou": true
+    },
+    {
+      "id": "capacidade_3_3_5",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_3_3_6",
+      "resultado": 8,
+      "esperado": 8,
+      "passou": true
+    },
+    {
+      "id": "capacidade_3_3_6",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_3_3_7",
+      "resultado": 9,
+      "esperado": 9,
+      "passou": true
+    },
+    {
+      "id": "capacidade_3_3_7",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_3_3_8",
+      "resultado": 10,
+      "esperado": 10,
+      "passou": true
+    },
+    {
+      "id": "capacidade_3_3_8",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_4_1_0",
+      "resultado": 0,
+      "esperado": 0,
+      "passou": true
+    },
+    {
+      "id": "capacidade_4_1_0",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_4_1_1",
+      "resultado": 1,
+      "esperado": 1,
+      "passou": true
+    },
+    {
+      "id": "capacidade_4_1_1",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_4_1_2",
+      "resultado": 2,
+      "esperado": 2,
+      "passou": true
+    },
+    {
+      "id": "capacidade_4_1_2",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_4_1_3",
+      "resultado": 3,
+      "esperado": 3,
+      "passou": true
+    },
+    {
+      "id": "capacidade_4_1_3",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_4_1_4",
+      "resultado": 4,
+      "esperado": 4,
+      "passou": true
+    },
+    {
+      "id": "capacidade_4_1_4",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_4_1_5",
+      "resultado": 5,
+      "esperado": 5,
+      "passou": true
+    },
+    {
+      "id": "capacidade_4_1_5",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_4_1_6",
+      "resultado": 6,
+      "esperado": 6,
+      "passou": true
+    },
+    {
+      "id": "capacidade_4_1_6",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_4_1_7",
+      "resultado": 7,
+      "esperado": 7,
+      "passou": true
+    },
+    {
+      "id": "capacidade_4_1_7",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_4_1_8",
+      "resultado": 8,
+      "esperado": 8,
+      "passou": true
+    },
+    {
+      "id": "capacidade_4_1_8",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_4_2_0",
+      "resultado": 1,
+      "esperado": 1,
+      "passou": true
+    },
+    {
+      "id": "capacidade_4_2_0",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_4_2_1",
+      "resultado": 2,
+      "esperado": 2,
+      "passou": true
+    },
+    {
+      "id": "capacidade_4_2_1",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_4_2_2",
+      "resultado": 3,
+      "esperado": 3,
+      "passou": true
+    },
+    {
+      "id": "capacidade_4_2_2",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_4_2_3",
+      "resultado": 4,
+      "esperado": 4,
+      "passou": true
+    },
+    {
+      "id": "capacidade_4_2_3",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_4_2_4",
+      "resultado": 5,
+      "esperado": 5,
+      "passou": true
+    },
+    {
+      "id": "capacidade_4_2_4",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_4_2_5",
+      "resultado": 6,
+      "esperado": 6,
+      "passou": true
+    },
+    {
+      "id": "capacidade_4_2_5",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_4_2_6",
+      "resultado": 7,
+      "esperado": 7,
+      "passou": true
+    },
+    {
+      "id": "capacidade_4_2_6",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_4_2_7",
+      "resultado": 8,
+      "esperado": 8,
+      "passou": true
+    },
+    {
+      "id": "capacidade_4_2_7",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_4_2_8",
+      "resultado": 9,
+      "esperado": 9,
+      "passou": true
+    },
+    {
+      "id": "capacidade_4_2_8",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_4_3_0",
+      "resultado": 2,
+      "esperado": 2,
+      "passou": true
+    },
+    {
+      "id": "capacidade_4_3_0",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_4_3_1",
+      "resultado": 3,
+      "esperado": 3,
+      "passou": true
+    },
+    {
+      "id": "capacidade_4_3_1",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_4_3_2",
+      "resultado": 4,
+      "esperado": 4,
+      "passou": true
+    },
+    {
+      "id": "capacidade_4_3_2",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_4_3_3",
+      "resultado": 5,
+      "esperado": 5,
+      "passou": true
+    },
+    {
+      "id": "capacidade_4_3_3",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_4_3_4",
+      "resultado": 6,
+      "esperado": 6,
+      "passou": true
+    },
+    {
+      "id": "capacidade_4_3_4",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_4_3_5",
+      "resultado": 7,
+      "esperado": 7,
+      "passou": true
+    },
+    {
+      "id": "capacidade_4_3_5",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_4_3_6",
+      "resultado": 8,
+      "esperado": 8,
+      "passou": true
+    },
+    {
+      "id": "capacidade_4_3_6",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_4_3_7",
+      "resultado": 9,
+      "esperado": 9,
+      "passou": true
+    },
+    {
+      "id": "capacidade_4_3_7",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_4_3_8",
+      "resultado": 10,
+      "esperado": 10,
+      "passou": true
+    },
+    {
+      "id": "capacidade_4_3_8",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_4_4_0",
+      "resultado": 3,
+      "esperado": 3,
+      "passou": true
+    },
+    {
+      "id": "capacidade_4_4_0",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_4_4_1",
+      "resultado": 4,
+      "esperado": 4,
+      "passou": true
+    },
+    {
+      "id": "capacidade_4_4_1",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_4_4_2",
+      "resultado": 5,
+      "esperado": 5,
+      "passou": true
+    },
+    {
+      "id": "capacidade_4_4_2",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_4_4_3",
+      "resultado": 6,
+      "esperado": 6,
+      "passou": true
+    },
+    {
+      "id": "capacidade_4_4_3",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_4_4_4",
+      "resultado": 7,
+      "esperado": 7,
+      "passou": true
+    },
+    {
+      "id": "capacidade_4_4_4",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_4_4_5",
+      "resultado": 8,
+      "esperado": 8,
+      "passou": true
+    },
+    {
+      "id": "capacidade_4_4_5",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_4_4_6",
+      "resultado": 9,
+      "esperado": 9,
+      "passou": true
+    },
+    {
+      "id": "capacidade_4_4_6",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_4_4_7",
+      "resultado": 10,
+      "esperado": 10,
+      "passou": true
+    },
+    {
+      "id": "capacidade_4_4_7",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "estoque_4_4_8",
+      "resultado": 11,
+      "esperado": 11,
+      "passou": true
+    },
+    {
+      "id": "capacidade_4_4_8",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "kit_preco",
+      "resultado": 13000,
+      "esperado": 13000,
+      "passou": true
+    },
+    {
+      "id": "kit_volume",
+      "resultado": "13/10",
+      "esperado": "13/10",
+      "passou": true
+    },
+    {
+      "id": "inicial_katana_broquel",
+      "resultado": "9/5",
+      "esperado": "9/5",
+      "passou": true
+    },
+    {
+      "id": "inicial_pistola_reservas",
+      "resultado": "6/5",
+      "esperado": "6/5",
+      "passou": true
+    },
+    {
+      "id": "kit_completo",
+      "resultado": "31/10",
+      "esperado": "31/10",
+      "passou": true
+    },
+    {
+      "id": "compra_reposicao",
+      "resultado": 8000,
+      "esperado": 8000,
+      "passou": true
+    },
+    {
+      "id": "carga_reposicao",
+      "resultado": "6/5",
+      "esperado": "6/5",
+      "passou": true
+    },
+    {
+      "id": "traje2_escudo_medio",
+      "resultado": 17,
+      "esperado": 17,
+      "passou": true
+    },
+    {
+      "id": "revest3_torre",
+      "resultado": 19,
+      "esperado": 19,
+      "passou": true
+    },
+    {
+      "id": "retirada_traje2",
+      "resultado": 14,
+      "esperado": 14,
+      "passou": true
+    },
+    {
+      "id": "revolver_preco_aumento",
+      "resultado": "6/5",
+      "esperado": "6/5",
+      "passou": true
+    },
+    {
+      "id": "contrato_0",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "contrato_1",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "contrato_2",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "contrato_3",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "contrato_4",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "contrato_5",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "contrato_6",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "contrato_7",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "contrato_8",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "contrato_9",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "contrato_10",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "contrato_11",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "contrato_12",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "contrato_13",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "contrato_14",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "id": "contrato_15",
+      "resultado": true,
+      "esperado": true,
+      "passou": true
+    }
+  ],
+  "modelos_Par": [
+    {
+      "dados": "1d4",
+      "normal": "5/2",
+      "Par": "25/8",
+      "ganho": "5/8"
+    },
+    {
+      "dados": "1d6",
+      "normal": "7/2",
+      "Par": "161/36",
+      "ganho": "35/36"
+    },
+    {
+      "dados": "1d8",
+      "normal": "9/2",
+      "Par": "93/16",
+      "ganho": "21/16"
+    },
+    {
+      "dados": "1d10",
+      "normal": "11/2",
+      "Par": "143/20",
+      "ganho": "33/20"
+    },
+    {
+      "dados": "1d12",
+      "normal": "13/2",
+      "Par": "611/72",
+      "ganho": "143/72"
+    },
+    {
+      "dados": "2d6",
+      "normal": "7",
+      "Par": "5425/648",
+      "ganho": "889/648"
+    },
+    {
+      "dados": "4d6",
+      "normal": "14",
+      "Par": "6690481/419904",
+      "ganho": "811825/419904"
+    },
+    {
+      "dados": "2d8",
+      "normal": "9",
+      "Par": "5553/512",
+      "ganho": "945/512"
+    },
+    {
+      "dados": "2d10",
+      "normal": "11",
+      "Par": "66583/5000",
+      "ganho": "11583/5000"
+    }
+  ],
+  "escopo": "Leitura integral das 38 seções iniciais e da divisão final em 39. Comparação integral das diferenças com sete fontes correntes, 52 armas e interfaces. Auditor independente não usa o script do autor como evidência própria.",
+  "achados": [
+    {
+      "prioridade": "P3",
+      "id": "EQ-R01",
+      "local": "eq-equipamento, Carga",
+      "descricao": "Remissão Movimento e Carga é título de candidata antiga. Dono consolidado é Regras gerais, seção Carga.",
+      "recomendacao": "Atualizar remissão antes da prova final.",
+      "estado": "resolvido",
+      "resolucao": "EQ23: remissão corrigida para Carga no capítulo de Regras gerais, confirmada no texto e página 1."
+    }
+  ],
+  "limites": [
+    "Sem playtest ou leitura por jogadores.",
+    "Cisão depende do dano na alma corrente; reavaliar após R03 final.",
+    "Aumento de preço não equaliza Revólver/Pistola em campanhas com dinheiro abundante.",
+    "V14 será executado sobre PDF final após retorno do autor."
+  ],
+  "releitura_final": "EQ24: página Objetos e efeitos relida integralmente; exemplo negativo de efeito exclusivo para criaturas contra barreira é coerente com R08/R09. Não altera as tabelas de Defesa/Vida."
+}

@@ -548,9 +548,9 @@ _RX_PARRUDO = re.compile(r'\*\*`?Parrudo`?\*\*[^\n]*?`(\d+(?:[.,]\d+)?)\s*×`\s*
 _MUS35 = os.path.join(RAIZ, 'invocacoes', 'museu', '35-evocador.md')
 _m_dono = _RX_PARRUDO.search(CAM)
 _m_livro = _RX_PARRUDO.search(ler(_MUS35)) if os.path.isfile(_MUS35) else None
-if re.search(r'^## Evocador', _T35, re.M) or _RX_PARRUDO.search(_T35):
-    erro('10', 'o capitulo 35 do livro voltou a publicar o Evocador, que esta fora da edicao '
-               'jogavel desde a v0.270')
+if _RX_PARRUDO.search(_T35):
+    erro('10', 'o capitulo 35 publicou o Parrudo historico em vez do Evocador integrado '
+               'na v0.331')
 if not _m_dono:
     erro('10', 'DESENHO-caminhos.md: o `Parrudo` esta sem numero — ele foi publicado no '
                'capitulo 35 sem passar pelo dono uma vez, e nao pode voltar a ficar assim')
@@ -562,7 +562,7 @@ elif _m_dono.group(1) != _m_livro.group(1):
                f'diz `{_m_livro.group(1)} ×` — uma copia e o dono divergindo')
 else:
     print(f'  [x] o `Parrudo` diz `{_m_dono.group(1)} ×` a maestria no dono e na copia do museu,')
-    print('      e o capitulo 35 do livro nao carrega o Evocador.')
+    print('      registro historico: Parrudo nao integra o Evocador atual.')
 
 
 # -- 10.3: a copia do livro contra a colecao v0.4 -------------------------------
@@ -601,7 +601,10 @@ def _forma103(f):
     m = re.fullmatch(r'Conclusão — (.+)', f)
     if m: return f'{m.group(1)}.'
     return f
-_liv103 = ' '.join(_limpa103(l) for l in _T35.split('\n'))
+# O cotejo v0.4 continua contra a copia anterior, arquivada na integracao.
+# A edicao jogavel recebe cotejo integral separado abaixo.
+_hist103 = ler(os.path.join(RAIZ, 'sistema', '99-arquivo', 'integracao-anterior-v0.331', '35-caminhos-e-trilhas.md'))
+_liv103 = ' '.join(_limpa103(l) for l in _hist103.split('\n'))
 
 # v0.271: os renomes que o Mizuki decidiu moram na peca 6 §2, na tabela `Renomes
 # decididos`, e nao aqui. A colecao em caminhos/ fica como chegou (o MANIFESTO.json
@@ -777,7 +780,7 @@ else:
     for _par_txt in re.split(r'\n[ \t]*>?[ \t]*\n', _L8[_ini:]):
         _p = _par_txt.strip()
         for _lin in _p.split('\n'):
-            _m = re.match(r'^## (Bastião|Vanguarda|Emanador|Guia)\b', _lin)
+            _m = re.match(r'^## (Bastião|Vanguarda|Emanador|Guia|Evocador|Incursor)\b', _lin)
             if _m: _cam, _tri, _ent = _m.group(1), None, None
             _m = re.match(r'^### Trilha: (.+)$', _lin)
             if _m: _tri, _ent = _m.group(1).strip(), None
@@ -1481,6 +1484,60 @@ else:
 print('\n' + '=' * 88)
 if avisos:
     for a in avisos: print(f'  aviso: {a}')
+# v0.331 — contratos da edicao atual, separados das medidas historicas.
+import json as _json331
+import hashlib as _hash331
+_atual331 = os.path.join(RAIZ, 'caminhos', '05-Edicao-Integrada')
+_meta331 = _json331.loads(ler(os.path.join(_atual331, 'edicao.json')))
+_sec331 = re.split(r'(?=^## (?:Bastião|Vanguarda|Guia|Emanador|Evocador|Incursor)\n)', _T35, flags=re.M)[1:]
+_por331 = {p.splitlines()[0][3:]: p.strip() for p in _sec331}
+if set(_por331) != set(_meta331['caminhos']):
+    erro('331', 'os Caminhos jogaveis diferem da edicao integrada')
+for _nome331, _arquivo331 in _meta331['caminhos'].items():
+    _orig331 = ler(os.path.join(_atual331, _arquivo331)).strip()
+    if _por331.get(_nome331) != _orig331:
+        erro('331', f'{_nome331}: copia do livro diverge da fonte integrada')
+    _tr331 = re.findall(r'^### Trilha: (.+)$', _orig331, re.M)
+    if len(_tr331) != 3:
+        erro('331', f'{_nome331}: esperado tres Trilhas; recebido {_tr331}')
+# Fidelidade dos novos Caminhos aprovados: fonte original com hash, corpo integral.
+def _normal331(txt):
+    return ' '.join(re.sub(r'[*`_]', '', re.sub(r'^#+\s*', '', txt, flags=re.M)).split())
+for _nome331, _src331 in [('Evocador','01-EVOCADOR/00-EVOCADOR-COMPLETO.md'),
+                         ('Incursor','02-INCURSOR/00-INCURSOR-COMPLETO.md')]:
+    _original331 = ler(os.path.join(_atual331, 'referencias', os.path.basename(_src331)))
+    if _hash331.sha256(_original331.encode()).hexdigest() != _meta331['origens_sha256'][_src331]:
+        erro('331', f'{_nome331}: referencia aprovada foi alterada')
+    _at331 = ler(os.path.join(_atual331, _meta331['caminhos'][_nome331]))
+    def _corpo331(x):
+        x = x[x.index('### Progressão do Caminho'):]
+        x = x.replace('## Trilha — ', '### Trilha: ')
+        x = x.replace('Trilha de Arremessos','Malabarista').replace('Trilha: Arremessos','Trilha: Malabarista')
+        x = x.replace('## Trilha de Parceria','### Trilha: Parceria').replace('## Malabarista — nome provisório','### Trilha: Malabarista')
+        x = x.replace('seguem o capítulo de Invocações','seguem o capítulo 17, *Invocações*')
+        return _normal331(x)
+    if _corpo331(_original331) != _corpo331(_at331):
+        erro('331', f'{_nome331}: habilidades mudaram alem da adaptacao de titulos e Malabarista')
+_b331 = _por331.get('Bastião','')
+_req331 = _json331.loads(ler(os.path.join(_atual331, 'contratos-v0.331.json')))
+for _rot331, _trechos331 in _req331['bastiao'].items():
+    for _trecho331 in _trechos331:
+        if _trecho331 not in _normal331(_b331):
+            erro('331', f'{_rot331}: falta contrato aprovado: {_trecho331}')
+for _velho331 in ['Uma vez por rodada, quando seu Bloquear falhar', 'Você pode gastar 8 PE',
+                   'O acerto é transferido', 'não passa por Bloquear e, portanto']:
+    if _velho331 in _normal331(_b331):
+        erro('331', f'Bastiao ainda publica regra substituida: {_velho331}')
+_mc331 = re.search(r'pagar \*\*(\d+) PE por criatura atacada além da primeira', _b331)
+if not _mc331:
+    erro('331', 'nao foi possivel ler o custo variavel de Arrastao')
+else:
+    _k331 = int(_mc331[1])
+    for _n331, _pe331 in _req331['arrastao_cenarios']:
+        if _k331 * max(0, _n331-1) != _pe331:
+            erro('331', f'Arrastao: {_n331} alvos tem custo incorreto')
+print('  [x] v0.331: seis fontes completas, dezoito Trilhas, novos Caminhos fieis e contratos do Bastiao conferidos')
+
 if erros:
     print('>>> FALHOU')
     for e in erros: print('    ' + e)

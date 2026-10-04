@@ -1,0 +1,52 @@
+{
+  "itens": [
+    {
+      "dono": "R06/R07",
+      "tema": "Montagem alterada",
+      "decisao": "R06 orçamentos/tetos/preços e R07 incompatibilidades permanecem; Forçar paga peça emPE e permite1vagaextra como exceção explícita.",
+      "estado": "compatível; casos incluídos"
+    },
+    {
+      "dono": "R07/R19",
+      "tema": "Descontos",
+      "decisao": "Alternativas completas, sem compor metades: Afinidade na base original mais Ampliar integral; Instintiva 1 mais Ampliar integral; Eco/Cobrança na Classe efetivamente conjurada. Ritual fixo antes da metade na base pertinente. Extras depois e gatilhos consumidos. Exemplos 2→4: 9 ou 6; 2→5: Instintiva 10 ou Eco 8.",
+      "estado": "nova candidata aprovada pelo root; sincronizar donos no fechamento"
+    },
+    {
+      "dono": "R07",
+      "tema": "Momento da geração",
+      "decisao": "Armado/Segura geramEco/Impulso apósdisparo inicial, não preparo; Fica/Queima não repetem recurso.",
+      "estado": "esclarecimento candidato, conferir comsimulaçãofinal"
+    },
+    {
+      "dono": "R09/R10",
+      "tema": "Cadência e Canalizar",
+      "decisao": "Partes separadas conservamCanalizar/Estímulo noataque; feitiço não recebe dados da arma. Rotas substituemfeitiço/PE pelo dono.",
+      "estado": "compatível"
+    },
+    {
+      "dono": "R05",
+      "tema": "Arma e munição",
+      "decisao": "FormaMutável não converteestoque,recargaouestado; categoria nova apenasperfil da arma vinculada; mãos e movimento permanecem.",
+      "estado": "casos de conservação incluídos"
+    },
+    {
+      "dono": "R01/R02",
+      "tema": "Ações",
+      "decisao": "Cadênciauma/turno, duas ações ainda gastas; Marcialdoisataques porAçãoAtacar, sem Cadênciafeitico se usarambos; semAçãoCompleta driblada.",
+      "estado": "compatível"
+    },
+    {
+      "dono": "Origens / criação / progressão",
+      "tema": "Aquisição",
+      "decisao": "Mesmo acesso deCaminhos àsrotas; Origemfornece2ofícios eTR; habilidade não inventaTécnicaInata ouFamília liberada.",
+      "estado": "conferir integração final"
+    },
+    {
+      "dono": "Cadastro de nomes",
+      "tema": "Grafia",
+      "decisao": "Sobre Carregar Energia → Sobrecarregar Energia, mesmaentrega19Catalisador.",
+      "estado": "root atualiza índice e remissões na consolidação"
+    }
+  ]
+}

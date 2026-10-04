@@ -1,0 +1,249 @@
+{
+  "ok": true,
+  "sha256_texto": "148ebf0e59568ebf42626f53bc149875c3614d631a71e255fe1dfd8f8f36122a",
+  "casos": [
+    {
+      "caso": "Âncora ausente recusada",
+      "obtido": false,
+      "esperado": false,
+      "tipo": "mutacao-executada",
+      "ok": true
+    },
+    {
+      "caso": "Título desatualizado recusado",
+      "obtido": false,
+      "esperado": false,
+      "tipo": "mutacao-executada",
+      "ok": true
+    },
+    {
+      "caso": "Arquivo ausente recusado",
+      "obtido": false,
+      "esperado": false,
+      "tipo": "mutacao-executada",
+      "ok": true
+    },
+    {
+      "caso": "TR/teste CD15 bônus4 fontes (0, 0)",
+      "obtido": 200,
+      "esperado": 200,
+      "tipo": "modelo-executado",
+      "ok": true
+    },
+    {
+      "caso": "TR/teste CD15 bônus4 fontes (1, 0)",
+      "obtido": 300,
+      "esperado": 300,
+      "tipo": "modelo-executado",
+      "ok": true
+    },
+    {
+      "caso": "TR/teste CD15 bônus4 fontes (0, 1)",
+      "obtido": 100,
+      "esperado": 100,
+      "tipo": "modelo-executado",
+      "ok": true
+    },
+    {
+      "caso": "TR/teste CD15 bônus4 fontes (2, 1)",
+      "obtido": 200,
+      "esperado": 200,
+      "tipo": "modelo-executado",
+      "ok": true
+    },
+    {
+      "caso": "TR/teste CD15 bônus4 fontes (1, 4)",
+      "obtido": 200,
+      "esperado": 200,
+      "tipo": "modelo-executado",
+      "ok": true
+    },
+    {
+      "caso": "Igualdade de CD15 com dado11+bônus4",
+      "obtido": true,
+      "esperado": true,
+      "tipo": "modelo-executado",
+      "ok": true
+    },
+    {
+      "caso": "Falha um ponto abaixo",
+      "obtido": false,
+      "esperado": false,
+      "tipo": "modelo-executado",
+      "ok": true
+    },
+    {
+      "caso": "Bônus total4 somado uma vez ao dado11",
+      "obtido": 15,
+      "esperado": 15,
+      "tipo": "modelo-executado",
+      "ok": true
+    },
+    {
+      "caso": "Exemplo de dupla contagem detectável",
+      "obtido": false,
+      "esperado": false,
+      "tipo": "negativo-executado",
+      "ok": true
+    },
+    {
+      "caso": "Padrão para Bônus",
+      "obtido": {
+        "P": 0,
+        "B": 2,
+        "M": 1
+      },
+      "esperado": {
+        "P": 0,
+        "B": 2,
+        "M": 1
+      },
+      "tipo": "modelo-executado",
+      "ok": true
+    },
+    {
+      "caso": "Nova Bônus para Movimento",
+      "obtido": {
+        "P": 0,
+        "B": 1,
+        "M": 2
+      },
+      "esperado": {
+        "P": 0,
+        "B": 1,
+        "M": 2
+      },
+      "tipo": "modelo-executado",
+      "ok": true
+    },
+    {
+      "caso": "Não converter Movimento para Padrão",
+      "obtido": null,
+      "esperado": null,
+      "tipo": "modelo-executado",
+      "ok": true
+    },
+    {
+      "caso": "Não usar Padrão já gasta",
+      "obtido": null,
+      "esperado": null,
+      "tipo": "modelo-executado",
+      "ok": true
+    },
+    {
+      "caso": "Conservar quantidade de recursos ao converter",
+      "obtido": 3,
+      "esperado": 3,
+      "tipo": "modelo-executado",
+      "ok": true
+    },
+    {
+      "caso": "Completa deixa Reação disponível",
+      "obtido": {
+        "P": 0,
+        "B": 0,
+        "M": 0,
+        "R": 1
+      },
+      "esperado": {
+        "P": 0,
+        "B": 0,
+        "M": 0,
+        "R": 1
+      },
+      "tipo": "modelo-executado",
+      "ok": true
+    },
+    {
+      "caso": "Reação gasta: nova_rodada",
+      "obtido": 0,
+      "esperado": 0,
+      "tipo": "modelo-executado",
+      "ok": true
+    },
+    {
+      "caso": "Reação gasta: turno_aliado",
+      "obtido": 0,
+      "esperado": 0,
+      "tipo": "modelo-executado",
+      "ok": true
+    },
+    {
+      "caso": "Reação gasta: comeco_proprio_turno",
+      "obtido": 1,
+      "esperado": 1,
+      "tipo": "modelo-executado",
+      "ok": true
+    },
+    {
+      "caso": "Preparação registra pagamento uma vez",
+      "obtido": {
+        "PE": {
+          "dono": 6,
+          "corpo": 7
+        },
+        "pendentes": 0,
+        "resolvidas": 1
+      },
+      "esperado": {
+        "PE": {
+          "dono": 6,
+          "corpo": 7
+        },
+        "pendentes": 0,
+        "resolvidas": 1
+      },
+      "tipo": "modelo-executado",
+      "ok": true
+    },
+    {
+      "caso": "Resolver sem ordem pendente recusado",
+      "obtido": null,
+      "esperado": null,
+      "tipo": "modelo-executado",
+      "ok": true
+    },
+    {
+      "caso": "Corpo com PE separado não paga parcela pessoal",
+      "obtido": 7,
+      "esperado": 7,
+      "tipo": "modelo-executado",
+      "ok": true
+    },
+    {
+      "caso": "Morrendo sem fórmula concorrente",
+      "obtido": false,
+      "esperado": false,
+      "tipo": "contrato-documental",
+      "ok": true
+    },
+    {
+      "caso": "Integridade sem fórmula concorrente",
+      "obtido": false,
+      "esperado": false,
+      "tipo": "contrato-documental",
+      "ok": true
+    },
+    {
+      "caso": "Formulário não concede quatro ativas",
+      "obtido": true,
+      "esperado": true,
+      "tipo": "contrato-documental",
+      "ok": true
+    },
+    {
+      "caso": "Campos não concedem recurso inexistente",
+      "obtido": true,
+      "esperado": true,
+      "tipo": "contrato-documental",
+      "ok": true
+    },
+    {
+      "caso": "Sem habilidades copiadas no índice",
+      "obtido": true,
+      "esperado": true,
+      "tipo": "contrato-documental",
+      "ok": true
+    }
+  ]
+}

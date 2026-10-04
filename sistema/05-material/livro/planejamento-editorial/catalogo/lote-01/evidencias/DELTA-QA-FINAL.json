@@ -1,0 +1,28 @@
+{
+  "sha256_texto": "3ff14332800456da87ee8c49fa9648596003e332291823abe24dcf8fa5afe785",
+  "metodo": "Revisão localizada dos hunks de migração nominal e remissões finais aprovadas. Leitura integral anterior preservada, sem declaração de uma nova leitura integral. Valores e efeitos não alterados nesta etapa.",
+  "fontes": [
+    "consolidacao/lote-01/migracao-nomes/MIGRACAO.json"
+  ],
+  "revisor": "/root/maxima",
+  "estado_visual": "concluido",
+  "ajustes_validadores": [
+    "Parser das duas antigas entradas Aviso exige agora Identificar Feitiço e Leitura de Feitiços, mantendo seus tipos e preços."
+  ],
+  "concordancia_final": "Reserva Profunda: ativada→ativado, após renome para Talento; efeito intacto.",
+  "paginas_reabertas": [
+    1,
+    17,
+    18,
+    19,
+    22,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "sha256_pdf": "c1bd7b39198e104cef38345e43483b754c1c4694c43b1cc6ef260757e12204c8",
+  "adaptores_relatorios": "Auditores escrevem relatórios atuais com hash próprio. Fontes imutáveis são separadas das candidatas concorrentes cotejadas; snapshots iniciais preservados."
+}

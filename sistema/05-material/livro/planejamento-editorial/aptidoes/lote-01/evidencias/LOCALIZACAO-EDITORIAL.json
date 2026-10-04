@@ -1,0 +1,69 @@
+{
+  "sha256_texto": "8ab8f1322ac42fd54c72a45549b1e3df6c64a75399950e2c249919bf8f0cf80c",
+  "titulos_revisto": true,
+  "sem_explicacao_alheia": true,
+  "vocabulario_revisto": true,
+  "excecoes_vocabulario": [],
+  "revisor": "Agente compatibilidade, autor; leitura contextual completa R09",
+  "notas": "Requisitos de Origem em3ocorrências Corpo Amaldiçoado são exceções de aquisição/alvo da própria aptidão, sem copiar criação ou legado. Nenhuma habilidade de Caminho/Trilha é ensinada. Scanner exige adequação de proprietários pelo root, sem apagamento de regras.",
+  "excecoes_localizacao": [
+    {
+      "termo": "Corpo Amaldiçoado",
+      "trecho": "| Extensão de Domínio | Refino 7 e nível 18; aprendizado registrado; indisponível ao Corpo Amaldiçoado. | 3 |",
+      "papel": "requisito",
+      "justificativa": "Identifica quem não pode receber a cura ou adquirir esta aptidão. É requisito operacional indispensável da entrada, sem explicar a criação, o reparo ou os Legados da Origem.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Corpo Amaldiçoado",
+      "trecho": "O Corpo Amaldiçoado não recupera vida com Energia Reversa nem com cura construída a partir dela. Suas formas de reparo estão na Origem. Outras incompatibilidades de alvo também continuam valendo.",
+      "papel": "incompatibilidade",
+      "justificativa": "Identifica quem não pode receber a cura ou adquirir esta aptidão. É requisito operacional indispensável da entrada, sem explicar a criação, o reparo ou os Legados da Origem.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Corpo Amaldiçoado",
+      "trecho": "Requisitos: Refino 7 e nível 18. Categoria de Efeito 3. Você precisa ter visto uma Extensão em uso, estudado seu funcionamento ou aprendido com alguém. Registre isso na ficha. Corpo Amaldiçoado não pode adquirir esta aptidão.",
+      "papel": "requisito",
+      "justificativa": "Identifica quem não pode receber a cura ou adquirir esta aptidão. É requisito operacional indispensável da entrada, sem explicar a criação, o reparo ou os Legados da Origem.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Mão Firme",
+      "trecho": "O teste é próprio da Cesta: não ocupa Concentração e não recebe a dispensa de Mão Firme.",
+      "papel": "incompatibilidade",
+      "justificativa": "A proteção usa teste próprio, e a referência exclui a dispensa de concentração do Talento. Não reproduz seu efeito nem seu preço.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Mão Firme",
+      "trecho": "Golpes contra você não exigem esse teste. Ele não ocupa Concentração, e Mão Firme não o dispensa. Erguer novamente na mesma Expansão custa Ação Padrão, além dos PE, usando a última coluna da tabela. A nova ativação reinicia o total impedido.",
+      "papel": "incompatibilidade",
+      "justificativa": "A proteção usa teste próprio, e a referência exclui a dispensa de concentração do Talento. Não reproduz seu efeito nem seu preço.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Mão Firme",
+      "trecho": "Acumule as falhas. Com metade de sua Essência em falhas, para baixo, mínimo 1, Pétala termina. Esse teste não ocupa Concentração e não é dispensado por Mão Firme. Sua queda não causa um Acerto adicional. Você pode erguer novamente com Ação Bônus e novo pagamento, zerando as falhas.",
+      "papel": "incompatibilidade",
+      "justificativa": "A proteção usa teste próprio, e a referência exclui a dispensa de concentração do Talento. Não reproduz seu efeito nem seu preço.",
+      "nao_reproduz_regra": true
+    }
+  ],
+  "revisao_adicional": "Releitura após remissão da exceção de passagem da rota sem energia. As restrições físicas e os objetos carregados permanecem nos seus donos.",
+  "revisao_raiz": "Duas frases relidas: critério de dano da Cesta e raio próprio do Domínio Simples; sem alteração de mecânica.",
+  "revisao_indice": "Linha de Ritual adicionada ao índice com aquisição e remissão. Nenhuma regra de Ritual duplicada. Página3 relida.",
+  "revisao_delta_nomes": {
+    "revisor": "/root/compatibilidade",
+    "sha256_previo": "dec4688ba921e2a8655e190b363c862d237b9be10dc960449ba91c47a27aae51",
+    "sha256_atual": "d6135572a93bfd3e07864703889a3ce158dc2a1b59215f5f2fb4a03873459fe0",
+    "escopo": "Somente o delta nominal foi relido nesta etapa; leitura integral anterior preservada no snapshot. Números e âncoras idênticos.",
+    "evidencia": "consolidacao/lote-01/migracao-nomes/MIGRACAO.json"
+  },
+  "revisao_complemento_nomes": {
+    "revisor": "/root/compatibilidade",
+    "hash_antes": "d6135572a93bfd3e07864703889a3ce158dc2a1b59215f5f2fb4a03873459fe0",
+    "hash_depois": "8ab8f1322ac42fd54c72a45549b1e3df6c64a75399950e2c249919bf8f0cf80c",
+    "nota": "Fechamento de dois exemplos remanescentes de Categoria e sincronização de títulos/Origem com os donos finais. Nenhuma regra ou número mudou."
+  }
+}

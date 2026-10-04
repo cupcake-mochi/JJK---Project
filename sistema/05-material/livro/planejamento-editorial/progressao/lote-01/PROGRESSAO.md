@@ -1,0 +1,336 @@
+<!-- page:prog-inicio|Experiência e Progressão -->
+# Experiência e Progressão
+
+Missões dão experiência. Ao reunir XP suficiente, seu personagem sobe de nível, amplia o repertório e recebe as habilidades previstas para sua ficha. Algumas conquistas também podem mudar seu reconhecimento dentro da instituição, mas **nível e Grau são registros diferentes**.
+
+Uma ficha nova começa no **nível 2**. O nível 1 é uma opção de campanha para jogar o período anterior à primeira entrega de Caminho e Trilha. Nesse caso, a mesa define quando essa etapa termina; a curva de XP começa no nível 2.
+
+## Registro de missão
+
+Anote o nome da missão, sua data de conclusão, a recompensa, o desconto semanal e o XP recebido. Conserve também os feitos e as aquisições que precisem ser reconhecidos em outras mesas.
+
+Uma missão padrão concede **100 XP antes dos ajustes**, independentemente do nível ou do Grau dos participantes. A recompensa não é calculada por inimigo abatido. Investigações, escoltas e negociações também podem ser missões.
+
+Você avança **no máximo um nível por missão concluída**. Desconte o preço desse avanço do XP disponível e guarde o restante. No fim de outra missão, confira novamente o saldo. O excedente não desaparece nem permite subir vários níveis no mesmo encerramento.
+
+**Exemplo.** Uma personagem de nível 2 recebe 300 XP. Gasta 200 para alcançar o nível 3 e conserva 100. O próximo avanço custa 300: ainda faltam 200, antes da recompensa da missão seguinte.
+
+Do nível **20 para o 21**, é preciso também um dos feitos de **Limiar do nível 20**. O nível **30** encerra esta progressão.
+
+<!-- page:prog-xp|Recompensas e custos -->
+# Recompensas e custos
+
+Quem anuncia a missão informa seu tamanho antes de começar. A duração ajuda a escolhê-lo, mas a importância e o risco também contam. Um final de arco pode ser resolvido por conversa.
+
+| Missão | XP base | Referência |
+|---|---:|---|
+| Curta | 50 | Uma cena, entrevista ou escolta breve. |
+| Padrão | 100 | Uma missão de sessão. |
+| Longa | 200 | Duas ou mais sessões ou uma sessão extensa. |
+| Final de arco | 300 | Encerramento de uma linha de missões. |
+
+Na falha, o mestre concede **metade ou nada**, conforme o que aconteceu. Depois, cada participante aplica seu desconto semanal. Uma recompensa de zero continua zero; ela não recebe o mínimo de XP das recompensas positivas.
+
+## Subir de nível
+
+A tabela informa quanto custa **sair do nível atual**. Ela não mostra o XP acumulado desde a criação.
+
+| Nível atual | XP para o próximo |
+|---|---:|
+| 2 | 200 |
+| 3–4 | 300 |
+| 5–7 | 500 |
+| 8–10 | 700 |
+| 11–13 | 900 |
+| 14–16 | 1.100 |
+| 17–19 | 1.300 |
+| 20–22 | 1.500 |
+| 23–29 | 1.700 |
+| 30 | Não há outro nível. |
+
+Partindo do nível 2, chegar ao 20 exige **14.300 XP gastos**. Do 20 ao 30, são mais **16.400**, totalizando **30.700 XP**. O feito do limiar e o limite de um avanço por missão continuam necessários.
+
+Uma linha de missões paga por missão concluída. Quem entra no meio recebe pelo que jogar. Dividir artificialmente uma mesma missão em vários registros não cria novas recompensas: vale a divisão anunciada antes das sessões.
+
+<!-- page:prog-semana|Experiência semanal -->
+# Experiência semanal
+
+As **duas primeiras missões da semana** pagam a recompensa inteira. A partir da terceira, cada posição paga metade da anterior. O desconto é por jogador, dentro da campanha: participantes da mesma missão podem estar em posições diferentes na própria semana. Usar outra ficha não reinicia sua contagem.
+
+| Missão na semana | Parcela recebida | Missão padrão de 100 XP |
+|---|---:|---:|
+| 1ª e 2ª | 100% | 100 |
+| 3ª | 50% | 50 |
+| 4ª | 25% | 25 |
+| 5ª | 12,5% | 12 |
+| 6ª | 6,25% | 6 |
+| 7ª | 3,125% | 3 |
+| Seguintes | Metade da parcela anterior. | Mínimo de 1 XP, se a recompensa for positiva. |
+
+Faça a conta com a fração inteira e **arredonde para baixo somente o XP final**. Não arredonde o percentual entre etapas. Uma quinta missão longa paga **200 ÷ 8 = 25 XP**, e não 24.
+
+Se houver recompensa de falha, evento de dobro ou outro ajuste anunciado, aplique-os antes do arredondamento final. Quando o resultado for positivo e menor que 1, receba **1 XP**. Isso não transforma uma missão sem recompensa em missão paga.
+
+A contagem reinicia no dia e horário definidos pela guilda ou campanha. Use a **conclusão da missão** para atribuí-la à semana. Uma missão de várias sessões conta uma vez, quando terminar. Participação numa missão sem XP ainda ocupa sua posição semanal.
+
+**Exemplo.** Sua terceira missão da semana era longa e terminou em falha com metade da recompensa. A conta é **200 × ½ × ½ = 50 XP**. Outra pessoa, em sua primeira missão da semana, recebe 100.
+
+<!-- page:prog-limiar|Limiar do nível 20 -->
+# Limiar do nível 20
+
+Para avançar do nível **20 para o 21**, reúna o XP necessário e registre **um dos oito feitos abaixo**, realizado entre os níveis **15 e 20**. Um feito reconhecido nessa faixa continua válido quando você chegar ao limiar.
+
+| Feito | Registro necessário |
+|---|---|
+| Derrotar um Chefe de nível superior ao seu. | Níveis do personagem e do Chefe na missão. |
+| Sair de pé de uma Expansão de Domínio completa. | Estar consciente e capaz de agir ao sair da Expansão completa ou quando ela terminar. Ter caído e recebido socorro antes disso não invalida o feito. |
+| Concluir uma missão de final de arco. | Categoria anunciada antes da missão. |
+| Levantar alguém que estava a zero de vida. | O socorro devolveu a capacidade de agir pelas regras de queda. |
+| Voltar do estágio 4 de dano na alma. | Integridade a zero e saída do estado Derrotado registradas, conforme Derrota e morte. |
+| Cumprir uma Promessa até o fim, pagando sua parte. | Termos do pacto e seu cumprimento. |
+| Trazer à guilda uma ferramenta de Grau 1 ou Especial. | Ferramenta obtida e Grau de sua ficha. |
+| Terminar a missão depois de outro personagem jogador chegar ao estágio 4. | Ocorrência na ficha do participante e conclusão da missão. |
+
+A lista é fechada. O mestre confirma se o feito aconteceu e registra a evidência; não precisa avaliar se outra façanha parece equivalente. Os feitos de socorro, dano na alma e saída de Domínio precisam decorrer de uma ameaça hostil real na missão. Treinos e quedas provocadas pelo grupo apenas para cumprir essa lista não contam. Em uma campanha sem guilda, a instituição ou o grupo da campanha recebe a ferramenta do sétimo feito.
+
+O feito **não concede XP nem um nível gratuito**. Sem ele, você continua no nível 20 e acumula a experiência recebida. Ao reconhecê-lo, aplique o saldo disponível no encerramento da missão, mantendo **no máximo um avanço por missão**. Não libere vários níveis de uma vez.
+
+**Exemplo.** Você tem 4.000 XP guardados no nível 20 e conclui o feito. Gasta 1.500, chega ao 21 e guarda 2.500. Outro avanço espera o encerramento de outra missão.
+
+<!-- page:prog-tabela-inicial|Progressão dos níveis 1 a 15 -->
+# Progressão dos níveis 1 a 15
+
+Os valores abaixo já incluem os ganhos comuns de todos os marcos alcançados. **Não some o espaço ou o Refino gratuito do marco outra vez.** As escolhas de marco e os benefícios específicos da ficha são acrescentados separadamente.
+
+| Nível | Maestria | Espaços | Refino básico | Classe máxima | Categoria de Efeito | Classe 0 |
+|---|---:|---:|---:|---:|---:|---:|
+| 1 | 1 | 2 | 1 | 1 | 1 | 2 |
+| 2 | 1 | 3 | 1 | 1 | 1 | 2 |
+| 3 | 1 | 3 | 1 | 1 | 1 | 2 |
+| 4 | 1 | 4 | 1 | 1 | 1 | 2 |
+| 5 | 1 | 4 | 1 | 2 | 1 | 3 |
+| 6 | 1 | 6 | 2 | 2 | 1 | 3 |
+| 7 | 1 | 6 | 2 | 2 | 2 | 3 |
+| 8 | 1 | 7 | 2 | 2 | 2 | 3 |
+| 9 | 1 | 7 | 2 | 3 | 2 | 3 |
+| 10 | 2 | 9 | 3 | 3 | 2 | 3 |
+| 11 | 2 | 9 | 3 | 3 | 2 | 4 |
+| 12 | 2 | 10 | 3 | 3 | 2 | 4 |
+| 13 | 2 | 10 | 3 | 4 | 3 | 4 |
+| 14 | 2 | 12 | 4 | 4 | 3 | 4 |
+| 15 | 2 | 12 | 4 | 4 | 3 | 4 |
+
+**Espaços** são a capacidade comum do repertório. **Classe máxima** permite montar e ampliar aplicações daquela Classe. **Categoria de Efeito** é o acesso aos Talentos adquiridos como tais, não um requisito adicional para toda aptidão que use essa classificação. **Classe 0** é a quantidade recebida fora dos espaços.
+
+Você recebe habilidades de **Caminho nos níveis 2, 7 e 15** e de **Trilha nos níveis 2 e 11**. Os primeiros marcos são **6, 10 e 14**. A primeira Liberação Máxima chega no **10**.
+
+Na rota sem energia, a coluna de Refino básico corresponde à **Lapidação**. Manejos e Katas usam a mesma capacidade de repertório, respeitando a criação de cada rota. Confira as diferenças em **Rotas de criação**.
+
+<!-- page:prog-tabela-avancada|Progressão dos níveis 16 a 30 -->
+# Progressão dos níveis 16 a 30
+
+Continue aplicando os valores comuns da tabela e acrescente as escolhas da sua ficha. A **maestria** sobe nos níveis **10, 18 e 26**. O Refino básico chega a 8 no nível 30; chegar a 10 exige ganhos além dessa linha.
+
+| Nível | Maestria | Espaços | Refino básico | Classe máxima | Categoria de Efeito | Classe 0 |
+|---|---:|---:|---:|---:|---:|---:|
+| 16 | 2 | 13 | 4 | 4 | 3 | 4 |
+| 17 | 2 | 13 | 4 | 5 | 3 | 5 |
+| 18 | 3 | 15 | 5 | 5 | 3 | 5 |
+| 19 | 3 | 15 | 5 | 5 | 3 | 5 |
+| 20 | 3 | 16 | 5 | 5 | 3 | 5 |
+| 21 | 3 | 16 | 5 | 6 | 3 | 5 |
+| 22 | 3 | 18 | 6 | 6 | 3 | 5 |
+| 23 | 3 | 18 | 6 | 6 | 3 | 5 |
+| 24 | 3 | 19 | 6 | 6 | 3 | 5 |
+| 25 | 3 | 19 | 6 | 6 | 3 | 5 |
+| 26 | 4 | 21 | 7 | 7 | 3 | 5 |
+| 27 | 4 | 21 | 7 | 7 | 3 | 5 |
+| 28 | 4 | 22 | 7 | 7 | 3 | 5 |
+| 29 | 4 | 22 | 7 | 7 | 3 | 5 |
+| 30 | 4 | 24 | 8 | 7 | 3 | 5 |
+
+Receba habilidades de **Caminho no 23 e no 30**, e de **Trilha no 19 e no 27**. Os marcos desta faixa são **18, 22, 26 e 30**. A Técnica Máxima chega no **17**; as outras Liberações Máximas, no **20 e no 30**. As rotas usam suas versões correspondentes.
+
+Cada entrega conserva os requisitos do capítulo que a descreve. A tabela não concede automaticamente uma aptidão, Expansão de Domínio ou entidade da Classe recém-aberta. É preciso adquiri-la pelo procedimento adequado.
+
+**Exemplo.** No nível 18, a capacidade comum é 15 espaços. Esses 15 já incluem o espaço gratuito do quarto marco. Se você escolheu Leque três vezes, anote também suas três aplicações adicionais e três Talentos concedidos, separados das compras feitas nesses 15 espaços.
+
+<!-- page:prog-marcos|Marcos -->
+# Marcos
+
+Nos níveis **6, 10, 14, 18, 22, 26 e 30**, receba **+1 ponto de atributo, +1 de Refino e +1 espaço de repertório**. Depois, escolha uma opção da tabela. Você pode escolher uma diferente em cada marco.
+
+| Escolha | Benefício além dos ganhos comuns |
+|---|---|
+| Corpo | +1 ponto de atributo e treino em uma perícia ou ofício. A partir do nível 10, pode especializar um que já treina, em vez do novo treino. |
+| Refino | +1 de Refino e uma aptidão. Se já estiver em Refino 10 após o ganho comum, receba duas aptidões no lugar. |
+| Leque | Um feitiço adicional e um Talento, sem pagar espaços por eles. |
+
+O máximo de cada atributo é **6**; o de Refino é **10**. Distribua cada ponto de atributo num valor que ainda possa aumentar. Especializar acrescenta **metade da maestria, arredondada para baixo**, ao teste da perícia ou ofício escolhido. Não compre a mesma especialização novamente.
+
+As aptidões conservam seus requisitos. Quando receber duas, escolha em ordem: a primeira pode cumprir um requisito da segunda. Uma escolha futura não libera a anterior.
+
+## Ganhos de Leque
+
+O feitiço concedido é uma aplicação conhecida, não uma vaga livre para comprar Talento, Domínio ou invocação. O Talento respeita seu nível de acesso e não ocupa espaços. Cada Leque abre uma vaga própria para ele além do limite de **cinco Talentos pagos**. Registre a origem de cada ganho.
+
+No nível 6, por exemplo, Leque concede uma aplicação até Classe 2 e um Talento até Categoria de Efeito 1. Escolher Leque em todos os sete marcos termina em **sete aplicações adicionais e sete Talentos concedidos**, além do repertório comum.
+
+Na rota sem energia, substitua Refino e aptidão por **Lapidação e Bênção**, e o feitiço por **Kata**. As outras rotas usam suas aplicações correspondentes.
+
+<!-- page:prog-repertorio|Repertório e novas escolhas -->
+# Repertório e novas escolhas
+
+Sua capacidade comum é **2 + metade do nível, arredondada para baixo, + a quantidade de marcos alcançados**. A tabela já faz essa conta. Nos níveis pares comuns entra um espaço; num nível de marco entram dois, porque ele também é par.
+
+Um feitiço ocupa um espaço. Os Talentos pagos e a Expansão de Domínio usam os preços de seus capítulos. Ocupar uma vaga com uma invocação exige que a técnica, o Manejo ou o Kata a preveja de forma explícita e coerente. Uma vaga livre não cria esse conceito.
+
+**Classe 0, Liberações Máximas e Técnica Máxima** têm suas próprias quantidades e não fornecem espaços para outras compras. Os ganhos de Leque também permanecem registrados à parte.
+
+## Revisão ao subir de nível
+
+Você pode reescrever **um feitiço conhecido**, incluindo uma Liberação Máxima, ou rever **um espaço ocupado por entidade**: trocar sua entidade ou mudar entre entidade e feitiço. É a mesma revisão, não uma para cada opção.
+
+Quando uma habilidade concede duas entidades no mesmo espaço, a revisão daquele espaço abrange a dupla. Isso não transfere a duplicação para outros espaços. Preencher um espaço novo não gasta a revisão do nível.
+
+Uma revisão das regras que invalide uma montagem permite corrigi-la gratuitamente, sem gastar essa revisão. Ajuste o que deixou de funcionar e registre o motivo. Isso não concede revisão livre de toda a ficha.
+
+Talentos, aptidões, Bênçãos, escolhas antigas de marco e detalhes da Origem só mudam por uma permissão que os alcance. A revisão de um feitiço não reescreve a Descrição ou a Regra de toda a técnica. Ampliar uma aplicação durante o uso segue o Fundamento e não exige outra versão conhecida.
+
+<!-- page:prog-atualizar|Atualizar a ficha -->
+# Atualizar a ficha
+
+Faça a atualização no encerramento da missão, fora da resolução de um combate. Primeiro pague o XP e anote o novo nível. Depois siga esta ordem:
+
+1. Confira os valores comuns, aplique o marco quando houver e registre as entregas do novo nível para a ficha atual.
+2. Calcule o crescimento dos máximos de vida e PE produzido por esse nível e marco, **antes de qualquer troca de Trilha**. Atualize os saldos conforme a regra abaixo.
+3. Se quiser e tiver alcançado um nível que permita, faça a troca de Trilha. Retire os benefícios antigos, receba os novos e confira seus requisitos.
+4. Preencha vagas novas e, se quiser, use a revisão de uma aplicação ou espaço.
+5. Recalcule os demais valores e limites afetados, incluindo os das entidades. Ajustes posteriores dos máximos não acrescentam vida ou PE ao saldo.
+
+## Vida e energia
+
+Use sua **Constituição atual** em todos os níveis:
+
+**Vida máxima = vida inicial do Caminho + Constituição + (vida por nível do Caminho + Constituição) × (nível − 1).**
+
+**PE máximo = PE por nível do Caminho × nível**, acrescido dos benefícios específicos. Um aumento permanente de Constituição recalcula toda a vida, não somente a parcela do nível recém-adquirido.
+
+A subida não é um descanso. **Somente o aumento de máximo produzido pelo novo nível e seu marco acrescenta a diferença ao saldo atual**, calculada com a ficha anterior à troca de Trilha. Assim, conserva o dano ou o PE que faltavam antes desse crescimento. Quem está a zero de vida permanece a zero e precisa do socorro apropriado. Essa exceção é da vida: PE atual zero recebe o aumento correspondente.
+
+**Troca de Trilha e outros ajustes da ficha não aumentam os saldos atuais.** Se alterarem um máximo, conserve o saldo e apenas limite-o ao novo máximo. Com 40 de vida em um máximo de 100, reduzir o máximo a 90 deixa 40; voltar a 100 continua deixando 40.
+
+Condições, perdas de Integridade e outros custos não desaparecem. Usos por cena, combate ou descanso não são renovados pela subida.
+
+**Exemplo.** Uma personagem com vida máxima 40 e atual 25 aumenta o máximo para 48. Fica com **33 de vida**, conservando os 15 pontos que faltavam. Não volta a 48 por subir de nível.
+
+Origem e Legados são escolhas da criação; a subida não oferece novos Legados. Efeitos de Origem que dependam de nível acompanham sua própria regra.
+
+<!-- page:prog-trilhas|Trocar de Trilha -->
+# Trocar de Trilha
+
+Você mantém **um Caminho e uma Trilha**. Ao alcançar os níveis **11, 19 ou 27**, pode trocar a Trilha por outra do mesmo Caminho. Faça isso na atualização da ficha, entre missões, não como uma ação durante a cena.
+
+A troca é integral. Retire todas as habilidades concedidas pela Trilha anterior e receba as da nova até seu nível atual, começando pelas escolhas do nível 2. Não conserve uma entrega antiga junto do nível avançado da nova. Caminho, Origem e escolhas de marco não são trocados por esse procedimento.
+
+## Conferência da mudança
+
+Reveja treinos, atributos substituídos em ataques, vínculos, repertórios adicionais, limites e capacidades concedidas às entidades. Uma arma continua no inventário quando o treino que a favorecia acaba, mas passa a seguir os requisitos que sua nova ficha consegue cumprir.
+
+Encerre benefícios que dependam exclusivamente da Trilha retirada. Gastos, ferimentos e consequências anteriores permanecem. Uma troca não devolve PE, cura uma criatura, restaura um item ou reinicia um prazo de recuperação já em andamento.
+
+Registre o que foi removido e o que entrou. Escolhas ou montagens que perderam uma permissão precisam ser ajustadas antes de voltar a ser usadas. Esse ajuste obrigatório não consome a revisão de um feitiço do nível, mas se limita às partes afetadas; não abre uma revisão geral das outras escolhas.
+
+**Exemplo.** Ao trocar no nível 19, você recebe as entregas de nível 2, 11 e 19 da nova Trilha. O benefício de nível 2 da anterior também termina, mesmo que pareça pequeno ou já esteja incorporado à rotina do personagem.
+
+Se a mudança reduzir sua capacidade de manter entidades ou repertório, use o procedimento da próxima seção antes da missão seguinte.
+
+<!-- page:prog-capacidades|Mudanças de capacidade -->
+# Mudanças de capacidade
+
+Uma troca de Trilha pode retirar vagas adicionais ou a aquisição de duas entidades por espaço. Registre a nova capacidade e regularize a ficha antes de usá-la novamente. **Suspender uma escolha não apaga sua história nem permite alterná-la durante as missões.**
+
+## Entidades e espaços
+
+Ao perder a duplicação, cada entidade por espaço passa a exigir **uma vaga própria**. Conserve uma entidade em cada vaga já ocupada e use vagas livres para as outras que desejar manter disponíveis.
+
+Se faltarem vagas, escolha quais fichas ficam indisponíveis. Elas não podem ser manifestadas, comandadas ou usadas para obter benefícios enquanto não tiverem uma aquisição válida. Os registros, ferimentos e perdas definitivas permanecem. Um corpo físico continua no mundo, mas não fica sob seu controle por estar na lista antiga.
+
+A seleção fica registrada na troca. Recuperar uma escolha suspensa exige destinar uma vaga livre ou usar uma revisão permitida para liberar a vaga necessária. Não alterne gratuitamente o grupo disponível entre cenas. A dupla antes vinculada a um mesmo espaço não concede duas novas revisões.
+
+## Corpos mantidos
+
+Recalcule também o total de corpos permitido em **Invocações em campo**: atributo usado na Defesa das entidades mais sua capacidade de controle. Conte os ativos e os inativos juntos.
+
+Se a capacidade cair de quatro para duas e o atributo for 3, o total cai de **sete para cinco corpos**. Escolha os cinco que continuará controlando. Os outros permanecem fisicamente no mundo, sem receber ordens, acompanhar por controle ou usar capacidades para você. Não desaparecem nem são destruídos.
+
+Registre a seleção. Recuperar o controle de um corpo suspenso exige uma aquisição ou transferência de vínculo permitida, com os procedimentos de **Fabricação de entidades** e os limites de **Invocações em campo**. Estar perto dele ou voltar à cidade não permite alternar gratuitamente o grupo controlado.
+
+Também remova básicas, especiais, Talentos ou Famílias concedidas apenas pela Trilha anterior. Registre versões válidas das fichas afetadas. Entidades domadas ou fabricadas conservam sua aquisição própria; a troca de Trilha não as transforma em entidades por espaço nem aumenta seu nível.
+
+<!-- page:prog-ritmo|Ritmo de campanha -->
+# Ritmo de campanha
+
+A recompensa de cada missão e a frequência das sessões determinam quanto tempo a progressão leva. A tabela abaixo é uma **estimativa**, com 52 semanas por ano, sem faltas, falhas, eventos de XP ou espera pelo feito do nível 20.
+
+| Frequência | Até nível 20 | Até nível 30 |
+|---|---:|---:|
+| Uma missão a cada duas semanas | 62,2 meses | 93,7 meses |
+| Uma por semana | 31,1 meses | 46,9 meses |
+| Duas por semana | 15,5 meses | 23,4 meses |
+| Três por semana | 12,4 meses | 18,7 meses |
+| Quatro por semana | 11,3 meses | 17,0 meses |
+
+Esses valores usam uma mistura de missões: antes do nível 20, a cada oito, uma curta, seis padrões e uma longa, média **106,25 XP**. Depois, três longas e dois finais de arco a cada cinco, média **240 XP**. Os descontos semanais entram na conta.
+
+Se todas as missões forem padrão, duas por semana levam aproximadamente **16,5 meses até o 20 e 35,4 até o 30**. A faixa final não acelera sozinha por causa do nível: a estimativa anterior depende de receber missões maiores.
+
+## Ajustes opcionais da campanha
+
+A guilda pode anunciar missões de dobro, bônus por objetivos pessoais ou ajuda a participantes que ficaram para trás. Essas são políticas opcionais, definidas antes de aplicar a recompensa. Elas não retiram o desconto semanal nem o limite de um avanço por missão, salvo uma mudança expressa nas regras da campanha.
+
+Uma missão padrão de dobro paga 200 XP antes dos descontos. Outra possibilidade é dobrar a recompensa de quem esteja pelo menos três níveis abaixo do grupo. Defina previamente qual nível de referência será usado; essa compensação não faz parte da regra básica.
+
+Não reduza níveis já recebidos para ajustar o ritmo. Mude as recompensas futuras com o grupo e acompanhe os resultados.
+
+<!-- page:prog-guilda|Recompensas da guilda -->
+# Recompensas da guilda
+
+Salário e recompensas por mestrar são **políticas opcionais da campanha**. A tabela oferece uma escala do Projeto M para uma instituição que remunere seus integrantes. Ela não descreve salários oficiais da obra ou do Japão real.
+
+| Grau | Salário mensal de referência |
+|---|---:|
+| 4 | ¥150.000 |
+| 3 | ¥300.000 |
+| 2 | ¥600.000 |
+| 1 | ¥1.200.000 |
+| Especial | ¥2.400.000 |
+
+A guilda pode pagar em dinheiro ou substituir parte da recompensa por ferramentas, moradia, transporte e acesso a recursos. O que estiver disponível deve ser informado aos participantes. Subir de nível não altera automaticamente o Grau.
+
+## Participação no mês
+
+Se usar salário por participação, a parcela mínima é **um quarto** da referência. A guilda define quantas participações completam o mês; a recomendação é **três**. Missão curta ou padrão conta uma, longa conta duas e final de arco conta três.
+
+Divida os três quartos restantes igualmente pelo número exigido, até completar o salário. Com três participações exigidas, quem fez zero recebe 25%, uma recebe 50%, duas recebem 75% e três ou mais recebem 100%. Use o Grau registrado no fechamento mensal e arredonde o pagamento final para baixo.
+
+## Recompensa por mestrar
+
+Prefira um registro separado da experiência da ficha. A guilda pode conceder uma moeda própria, recursos ou um bônus a cada quantidade anunciada de missões mestradas.
+
+Se escolher uma mensalidade extra a cada **X missões**, a marca fecha ao completar X e usa o Grau daquele momento. Não guarde uma marca concluída para cobrar depois em outro Grau. A frequência esperada desse bônus é **X dividido pela média de missões mestradas por mês**.
+
+**Exemplo.** Com X igual a 12 e média de três missões mestradas por mês, uma marca leva cerca de quatro meses. A campanha escolhe X; o exemplo não fixa essa quantidade como regra geral.
+
+<!-- page:prog-patentes|Patentes -->
+# Patentes
+
+A patente registra o reconhecimento do personagem pela instituição. O Projeto M usa os Graus **4, 3, 2, 1 e Especial**, nessa ordem crescente. Ela pode influenciar responsabilidades, acesso a recursos e a remuneração adotada pela campanha.
+
+Na criação padrão, você começa no **Grau 4**, independentemente da Origem. Uma campanha que comece com personagens já reconhecidos pode definir outra patente inicial, conforme **Compras e equipamento inicial**. Começar em um nível maior não concede essa mudança automaticamente.
+
+A patente avança pelos feitos reconhecidos na campanha. O mestre, ou a organização da guilda, informa quando uma promoção ocorre e registra o novo Grau e o feito que a motivou. A subida de nível e os feitos do Limiar não concedem uma patente por conta própria.
+
+**Nível** determina a progressão da ficha. **Patente** registra a posição do personagem. **Grau de ferramenta** classifica um equipamento. Ter uma ferramenta de Grau maior não promove seu portador; ser promovido não substitui os requisitos de uso da ferramenta.
+
+Se a campanha usar remuneração, consulte **Recompensas da guilda**. Registre a patente vigente no fechamento indicado por aquele procedimento.

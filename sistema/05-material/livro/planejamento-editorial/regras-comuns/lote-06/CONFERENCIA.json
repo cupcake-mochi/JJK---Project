@@ -1,0 +1,518 @@
+{
+  "data": "2026-10-03",
+  "ok": true,
+  "sha256_texto": "674d9fac25d2238fa22b5e0331e4e0b25ea7aa52801392d4734e354213db9272",
+  "sha256_pdf": "b7ac6f611b36310785e085130b3c62574ed75637a3ef53ca5fe7b2f378b91e4a",
+  "verificacoes": 63,
+  "checks": [
+    {
+      "verificacao": "Quatro páginas e seções",
+      "obtido": [
+        4,
+        4
+      ],
+      "esperado": [
+        4,
+        4
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Ordem de leitura",
+      "obtido": [
+        "espacos",
+        "rastejar",
+        "voo",
+        "carga"
+      ],
+      "esperado": [
+        "espacos",
+        "rastejar",
+        "voo",
+        "carga"
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Subtítulos não repetem título da seção",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Todos os títulos coincidem com o mapa",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Duas entradas principais",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "verificacao": "Grupos iniciam recolhidos",
+      "obtido": [
+        -2,
+        -2
+      ],
+      "esperado": [
+        -2,
+        -2
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Marcadores com destinos válidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: sem palavras perdidas",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p1: limites físicos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: rodapé separado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p1: sem imagens raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: referências existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p1: links PDF para destinos esperados",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p2: sem palavras perdidas",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p2: limites físicos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p2: rodapé separado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p2: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p2: sem imagens raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p2: referências existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p2: links PDF para destinos esperados",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p3: sem palavras perdidas",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p3: limites físicos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p3: rodapé separado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p3: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p3: sem imagens raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p3: referências existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p3: links PDF para destinos esperados",
+      "obtido": [
+        4
+      ],
+      "esperado": [
+        4
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "p3: número da remissão carga",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p4: sem palavras perdidas",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p4: limites físicos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p4: rodapé separado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p4: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p4: sem imagens raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p4: referências existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p4: links PDF para destinos esperados",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Carga5+Força",
+      "obtido": [
+        5,
+        7,
+        9,
+        11
+      ],
+      "esperado": [
+        5,
+        7,
+        9,
+        11
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Equivalentes emkg",
+      "obtido": [
+        60,
+        84,
+        108,
+        132
+      ],
+      "esperado": [
+        60,
+        84,
+        108,
+        132
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "9 leves preservam décimos",
+      "obtido": "9/10",
+      "esperado": "9/10",
+      "ok": true
+    },
+    {
+      "verificacao": "10leves total1",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "No limite/um item a mais",
+      "obtido": [
+        true,
+        false
+      ],
+      "esperado": [
+        true,
+        false
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Carga de aliado e próprio equipamento",
+      "obtido": 8,
+      "esperado": 8,
+      "ok": true
+    },
+    {
+      "verificacao": "Esforço dobrado Força2",
+      "obtido": 14,
+      "esperado": 14,
+      "ok": true
+    },
+    {
+      "verificacao": "Rastejar9m regular/difícil",
+      "obtido": [
+        4.5,
+        3.0
+      ],
+      "esperado": [
+        4.5,
+        3.0
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Outro corte do deslocamento não desaparece",
+      "obtido": 1.5,
+      "esperado": 1.5,
+      "ok": true
+    },
+    {
+      "verificacao": "Rastejar e espremer custo aditivo",
+      "obtido": [
+        4.5,
+        6.0
+      ],
+      "esperado": [
+        4.5,
+        6.0
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Voo sem segunda reserva",
+      "obtido": [
+        6,
+        0
+      ],
+      "esperado": [
+        6,
+        0
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Graus de tamanho:duas categorias",
+      "obtido": [
+        false,
+        false,
+        true
+      ],
+      "esperado": [
+        false,
+        false,
+        true
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Não corta movimento duas vezes",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Incapacitado não concede travessia",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Sem voo por energia genérica",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Sem reação universal de borda",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "18casos documentais",
+      "obtido": 18,
+      "esperado": 18,
+      "ok": true
+    },
+    {
+      "verificacao": "Quatro seções avaliadas editorialmente",
+      "obtido": [
+        "carga",
+        "espacos",
+        "rastejar",
+        "voo"
+      ],
+      "esperado": [
+        "carga",
+        "espacos",
+        "rastejar",
+        "voo"
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Revisão ligada ao texto",
+      "obtido": "674d9fac25d2238fa22b5e0331e4e0b25ea7aa52801392d4734e354213db9272",
+      "esperado": "674d9fac25d2238fa22b5e0331e4e0b25ea7aa52801392d4734e354213db9272",
+      "ok": true
+    },
+    {
+      "verificacao": "Fontes e consolidado anterior preservados",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Livro e exportações preservados",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "137 arquivos protegidos",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Inspeção visual ligada ao PDF",
+      "obtido": "b7ac6f611b36310785e085130b3c62574ed75637a3ef53ca5fe7b2f378b91e4a",
+      "esperado": "b7ac6f611b36310785e085130b3c62574ed75637a3ef53ca5fe7b2f378b91e4a",
+      "ok": true
+    },
+    {
+      "verificacao": "Quatro páginas visualmente examinadas",
+      "obtido": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "esperado": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Sem defeitos visuais registrados",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "18 casos documentais",
+      "obtido": 18,
+      "esperado": 18,
+      "ok": true
+    },
+    {
+      "verificacao": "Links do dossiê",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    }
+  ],
+  "geometria": [
+    {
+      "pagina": 1,
+      "secao": "espacos",
+      "final_corpo": 706.22,
+      "links": []
+    },
+    {
+      "pagina": 2,
+      "secao": "rastejar",
+      "final_corpo": 713.47,
+      "links": []
+    },
+    {
+      "pagina": 3,
+      "secao": "voo",
+      "final_corpo": 662.22,
+      "links": [
+        4
+      ]
+    },
+    {
+      "pagina": 4,
+      "secao": "carga",
+      "final_corpo": 742.22,
+      "links": []
+    }
+  ],
+  "limites": [
+    "Não é teste humano ou prova de equilíbrio.",
+    "Revisão pelo autor, sem nova revisão independente.",
+    "Decisões candidatas e pendências identificadas em DECISOES.md."
+  ]
+}

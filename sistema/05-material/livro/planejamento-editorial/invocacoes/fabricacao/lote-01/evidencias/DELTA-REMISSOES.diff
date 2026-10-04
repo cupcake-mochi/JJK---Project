@@ -1,0 +1,18 @@
+--- antes
++++ depois
+@@ -83,13 +83,13 @@
+ 
+ ## Transferência e herança
+ 
+-Um talismã ou corpo criado pode passar a outro invocador. A transferência exige um **projeto para mudar o vínculo**, fora de combate, pelo mesmo ofício que o fabrica. O objeto precisa estar acessível durante o trabalho. O shikigami deve estar recolhido; o corpo, inativo ou Desligada.
++Um talismã ou corpo criado pode passar a outro invocador. A transferência exige um **projeto para mudar o vínculo**, fora de combate, pelo mesmo ofício que o fabrica. O objeto precisa estar acessível durante o trabalho. O shikigami deve estar recolhido; o corpo, inativo ou na condição Desligada.
+ 
+ O invocador anterior precisa consentir ou estar morto. Possuir um objeto roubado não permite trocar seu vínculo por este procedimento. O projeto informa como alcançar o registro do vínculo, os materiais e o tempo necessários. Use um responsável treinado e o mesmo teste de fabricação, com o nível da entidade limitado ao dele e ao do novo invocador.
+ 
+ No sucesso, registre **um único invocador**. O anterior perde o controle quando o novo vínculo termina de ser estabelecido. Na falha, o vínculo anterior permanece, ou o objeto continua sem invocador vivo, conforme o caso. O retrabalho segue o projeto.
+ 
+-**A transferência conserva nível, ficha, vida atual, queda, carga do talismã e usos gastos.** Atualize somente os valores que dependem da ficha do invocador. Ela não recupera energia, não dá outra atuação no ciclo e não religa um corpo Desligada. O novo invocador precisa cumprir os limites de controle e os procedimentos normais de retorno e entrada.
++**A transferência conserva nível, ficha, vida atual, queda, carga do talismã e usos gastos.** Atualize somente os valores que dependem da ficha do invocador. Ela não recupera energia, não dá outra atuação no ciclo e não religa um corpo na condição Desligada. O novo invocador precisa cumprir os limites de controle e os procedimentos normais de retorno e entrada.
+ 
+ Uma entidade destruída exige nova fabricação. Reaproveitar restos depende do projeto e não traz de volta a criatura anterior. Reparar uma entidade existente, conservar seu vínculo ou herdar uma peça não concede aumento de nível nem ocupa espaço conhecido.
+ 

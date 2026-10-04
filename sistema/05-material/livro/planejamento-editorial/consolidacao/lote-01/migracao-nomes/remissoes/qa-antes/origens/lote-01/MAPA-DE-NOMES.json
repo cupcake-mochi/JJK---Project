@@ -1,0 +1,27 @@
+{
+  "sha256_texto": "1bc29a638b68f985a296a5e960290ea4b0325e33b7db41e6a86da5eb830be3a2",
+  "mapa": [
+    {
+      "antes": "Destranca",
+      "depois": "Legado narrativo",
+      "natureza": "formato, sem conceder mecânica adicional"
+    },
+    {
+      "antes": "Ajusta",
+      "depois": "Legado de rolagem",
+      "natureza": "formato"
+    },
+    {
+      "antes": "Desliga",
+      "depois": "Legado de exceção",
+      "natureza": "formato"
+    },
+    {
+      "antes": "Reencarnado",
+      "depois": "Encarnado",
+      "natureza": "Origem, mesma seleção/rota/catálogo"
+    }
+  ],
+  "preservados": "Os nomes das 85 entradas são preservados, inclusive artigos nos nomes próprios em negrito. Nenhum título começa com artigo.",
+  "fila": "Feto e outros nomes de entradas poderão receber revisão global futura se ainda confundirem leitores. Nenhuma arquitetura externa A/B/C/D adotada."
+}

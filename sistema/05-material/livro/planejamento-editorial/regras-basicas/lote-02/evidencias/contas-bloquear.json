@@ -1,0 +1,1308 @@
+{
+  "modelo": "Chance de o ataque original acertar. Sem contra-ataques, dano, talentos, vantagem, desvantagem ou escolha para gerar recursos.",
+  "regras": [
+    "20 natural acerta",
+    "Duplo1 acerta independentemente do total",
+    "Duplo10 impede acerto, exceto20 natural",
+    "Escolha seletiva: manter Defesa se já seria erro; Bloquear se seria acerto"
+  ],
+  "comparacoes": 160,
+  "combinacoes_por_ficha": 2000,
+  "checagem_independente": "Distribuição triangular de 2d10 reproduz enumeração completa em todas as 160 fichas.",
+  "exemplo": {
+    "defesa": 17,
+    "bonus_ataque": 6,
+    "estatica_pct": 50.0,
+    "bloquear_sempre_pct": 50.05,
+    "bloquear_apenas_acertos_pct": 41.75,
+    "fracao_seletiva": "167/400"
+  },
+  "matriz": [
+    {
+      "defesa": 10,
+      "bonus_ataque": 1,
+      "estatica_pct": 60.0,
+      "bloquear_sempre_pct": 59.85,
+      "bloquear_apenas_acertos_pct": 51.65,
+      "fracao_seletiva": "1033/2000"
+    },
+    {
+      "defesa": 10,
+      "bonus_ataque": 2,
+      "estatica_pct": 65.0,
+      "bloquear_sempre_pct": 64.65,
+      "bloquear_apenas_acertos_pct": 56.6,
+      "fracao_seletiva": "283/500"
+    },
+    {
+      "defesa": 10,
+      "bonus_ataque": 3,
+      "estatica_pct": 70.0,
+      "bloquear_sempre_pct": 69.3,
+      "bloquear_apenas_acertos_pct": 61.55,
+      "fracao_seletiva": "1231/2000"
+    },
+    {
+      "defesa": 10,
+      "bonus_ataque": 4,
+      "estatica_pct": 75.0,
+      "bloquear_sempre_pct": 73.75,
+      "bloquear_apenas_acertos_pct": 66.5,
+      "fracao_seletiva": "133/200"
+    },
+    {
+      "defesa": 10,
+      "bonus_ataque": 5,
+      "estatica_pct": 80.0,
+      "bloquear_sempre_pct": 77.95,
+      "bloquear_apenas_acertos_pct": 71.45,
+      "fracao_seletiva": "1429/2000"
+    },
+    {
+      "defesa": 10,
+      "bonus_ataque": 6,
+      "estatica_pct": 85.0,
+      "bloquear_sempre_pct": 81.85,
+      "bloquear_apenas_acertos_pct": 76.4,
+      "fracao_seletiva": "191/250"
+    },
+    {
+      "defesa": 10,
+      "bonus_ataque": 7,
+      "estatica_pct": 90.0,
+      "bloquear_sempre_pct": 85.4,
+      "bloquear_apenas_acertos_pct": 81.35,
+      "fracao_seletiva": "1627/2000"
+    },
+    {
+      "defesa": 10,
+      "bonus_ataque": 8,
+      "estatica_pct": 95.0,
+      "bloquear_sempre_pct": 88.55,
+      "bloquear_apenas_acertos_pct": 86.3,
+      "fracao_seletiva": "863/1000"
+    },
+    {
+      "defesa": 10,
+      "bonus_ataque": 9,
+      "estatica_pct": 100.0,
+      "bloquear_sempre_pct": 91.25,
+      "bloquear_apenas_acertos_pct": 91.25,
+      "fracao_seletiva": "73/80"
+    },
+    {
+      "defesa": 10,
+      "bonus_ataque": 10,
+      "estatica_pct": 100.0,
+      "bloquear_sempre_pct": 93.45,
+      "bloquear_apenas_acertos_pct": 93.45,
+      "fracao_seletiva": "1869/2000"
+    },
+    {
+      "defesa": 11,
+      "bonus_ataque": 1,
+      "estatica_pct": 55.0,
+      "bloquear_sempre_pct": 54.95,
+      "bloquear_apenas_acertos_pct": 46.7,
+      "fracao_seletiva": "467/1000"
+    },
+    {
+      "defesa": 11,
+      "bonus_ataque": 2,
+      "estatica_pct": 60.0,
+      "bloquear_sempre_pct": 59.85,
+      "bloquear_apenas_acertos_pct": 51.65,
+      "fracao_seletiva": "1033/2000"
+    },
+    {
+      "defesa": 11,
+      "bonus_ataque": 3,
+      "estatica_pct": 65.0,
+      "bloquear_sempre_pct": 64.65,
+      "bloquear_apenas_acertos_pct": 56.6,
+      "fracao_seletiva": "283/500"
+    },
+    {
+      "defesa": 11,
+      "bonus_ataque": 4,
+      "estatica_pct": 70.0,
+      "bloquear_sempre_pct": 69.3,
+      "bloquear_apenas_acertos_pct": 61.55,
+      "fracao_seletiva": "1231/2000"
+    },
+    {
+      "defesa": 11,
+      "bonus_ataque": 5,
+      "estatica_pct": 75.0,
+      "bloquear_sempre_pct": 73.75,
+      "bloquear_apenas_acertos_pct": 66.5,
+      "fracao_seletiva": "133/200"
+    },
+    {
+      "defesa": 11,
+      "bonus_ataque": 6,
+      "estatica_pct": 80.0,
+      "bloquear_sempre_pct": 77.95,
+      "bloquear_apenas_acertos_pct": 71.45,
+      "fracao_seletiva": "1429/2000"
+    },
+    {
+      "defesa": 11,
+      "bonus_ataque": 7,
+      "estatica_pct": 85.0,
+      "bloquear_sempre_pct": 81.85,
+      "bloquear_apenas_acertos_pct": 76.4,
+      "fracao_seletiva": "191/250"
+    },
+    {
+      "defesa": 11,
+      "bonus_ataque": 8,
+      "estatica_pct": 90.0,
+      "bloquear_sempre_pct": 85.4,
+      "bloquear_apenas_acertos_pct": 81.35,
+      "fracao_seletiva": "1627/2000"
+    },
+    {
+      "defesa": 11,
+      "bonus_ataque": 9,
+      "estatica_pct": 95.0,
+      "bloquear_sempre_pct": 88.55,
+      "bloquear_apenas_acertos_pct": 86.3,
+      "fracao_seletiva": "863/1000"
+    },
+    {
+      "defesa": 11,
+      "bonus_ataque": 10,
+      "estatica_pct": 100.0,
+      "bloquear_sempre_pct": 91.25,
+      "bloquear_apenas_acertos_pct": 91.25,
+      "fracao_seletiva": "73/80"
+    },
+    {
+      "defesa": 12,
+      "bonus_ataque": 1,
+      "estatica_pct": 50.0,
+      "bloquear_sempre_pct": 50.05,
+      "bloquear_apenas_acertos_pct": 41.75,
+      "fracao_seletiva": "167/400"
+    },
+    {
+      "defesa": 12,
+      "bonus_ataque": 2,
+      "estatica_pct": 55.0,
+      "bloquear_sempre_pct": 54.95,
+      "bloquear_apenas_acertos_pct": 46.7,
+      "fracao_seletiva": "467/1000"
+    },
+    {
+      "defesa": 12,
+      "bonus_ataque": 3,
+      "estatica_pct": 60.0,
+      "bloquear_sempre_pct": 59.85,
+      "bloquear_apenas_acertos_pct": 51.65,
+      "fracao_seletiva": "1033/2000"
+    },
+    {
+      "defesa": 12,
+      "bonus_ataque": 4,
+      "estatica_pct": 65.0,
+      "bloquear_sempre_pct": 64.65,
+      "bloquear_apenas_acertos_pct": 56.6,
+      "fracao_seletiva": "283/500"
+    },
+    {
+      "defesa": 12,
+      "bonus_ataque": 5,
+      "estatica_pct": 70.0,
+      "bloquear_sempre_pct": 69.3,
+      "bloquear_apenas_acertos_pct": 61.55,
+      "fracao_seletiva": "1231/2000"
+    },
+    {
+      "defesa": 12,
+      "bonus_ataque": 6,
+      "estatica_pct": 75.0,
+      "bloquear_sempre_pct": 73.75,
+      "bloquear_apenas_acertos_pct": 66.5,
+      "fracao_seletiva": "133/200"
+    },
+    {
+      "defesa": 12,
+      "bonus_ataque": 7,
+      "estatica_pct": 80.0,
+      "bloquear_sempre_pct": 77.95,
+      "bloquear_apenas_acertos_pct": 71.45,
+      "fracao_seletiva": "1429/2000"
+    },
+    {
+      "defesa": 12,
+      "bonus_ataque": 8,
+      "estatica_pct": 85.0,
+      "bloquear_sempre_pct": 81.85,
+      "bloquear_apenas_acertos_pct": 76.4,
+      "fracao_seletiva": "191/250"
+    },
+    {
+      "defesa": 12,
+      "bonus_ataque": 9,
+      "estatica_pct": 90.0,
+      "bloquear_sempre_pct": 85.4,
+      "bloquear_apenas_acertos_pct": 81.35,
+      "fracao_seletiva": "1627/2000"
+    },
+    {
+      "defesa": 12,
+      "bonus_ataque": 10,
+      "estatica_pct": 95.0,
+      "bloquear_sempre_pct": 88.55,
+      "bloquear_apenas_acertos_pct": 86.3,
+      "fracao_seletiva": "863/1000"
+    },
+    {
+      "defesa": 13,
+      "bonus_ataque": 1,
+      "estatica_pct": 45.0,
+      "bloquear_sempre_pct": 45.15,
+      "bloquear_apenas_acertos_pct": 36.8,
+      "fracao_seletiva": "46/125"
+    },
+    {
+      "defesa": 13,
+      "bonus_ataque": 2,
+      "estatica_pct": 50.0,
+      "bloquear_sempre_pct": 50.05,
+      "bloquear_apenas_acertos_pct": 41.75,
+      "fracao_seletiva": "167/400"
+    },
+    {
+      "defesa": 13,
+      "bonus_ataque": 3,
+      "estatica_pct": 55.0,
+      "bloquear_sempre_pct": 54.95,
+      "bloquear_apenas_acertos_pct": 46.7,
+      "fracao_seletiva": "467/1000"
+    },
+    {
+      "defesa": 13,
+      "bonus_ataque": 4,
+      "estatica_pct": 60.0,
+      "bloquear_sempre_pct": 59.85,
+      "bloquear_apenas_acertos_pct": 51.65,
+      "fracao_seletiva": "1033/2000"
+    },
+    {
+      "defesa": 13,
+      "bonus_ataque": 5,
+      "estatica_pct": 65.0,
+      "bloquear_sempre_pct": 64.65,
+      "bloquear_apenas_acertos_pct": 56.6,
+      "fracao_seletiva": "283/500"
+    },
+    {
+      "defesa": 13,
+      "bonus_ataque": 6,
+      "estatica_pct": 70.0,
+      "bloquear_sempre_pct": 69.3,
+      "bloquear_apenas_acertos_pct": 61.55,
+      "fracao_seletiva": "1231/2000"
+    },
+    {
+      "defesa": 13,
+      "bonus_ataque": 7,
+      "estatica_pct": 75.0,
+      "bloquear_sempre_pct": 73.75,
+      "bloquear_apenas_acertos_pct": 66.5,
+      "fracao_seletiva": "133/200"
+    },
+    {
+      "defesa": 13,
+      "bonus_ataque": 8,
+      "estatica_pct": 80.0,
+      "bloquear_sempre_pct": 77.95,
+      "bloquear_apenas_acertos_pct": 71.45,
+      "fracao_seletiva": "1429/2000"
+    },
+    {
+      "defesa": 13,
+      "bonus_ataque": 9,
+      "estatica_pct": 85.0,
+      "bloquear_sempre_pct": 81.85,
+      "bloquear_apenas_acertos_pct": 76.4,
+      "fracao_seletiva": "191/250"
+    },
+    {
+      "defesa": 13,
+      "bonus_ataque": 10,
+      "estatica_pct": 90.0,
+      "bloquear_sempre_pct": 85.4,
+      "bloquear_apenas_acertos_pct": 81.35,
+      "fracao_seletiva": "1627/2000"
+    },
+    {
+      "defesa": 14,
+      "bonus_ataque": 1,
+      "estatica_pct": 40.0,
+      "bloquear_sempre_pct": 40.35,
+      "bloquear_apenas_acertos_pct": 31.95,
+      "fracao_seletiva": "639/2000"
+    },
+    {
+      "defesa": 14,
+      "bonus_ataque": 2,
+      "estatica_pct": 45.0,
+      "bloquear_sempre_pct": 45.15,
+      "bloquear_apenas_acertos_pct": 36.8,
+      "fracao_seletiva": "46/125"
+    },
+    {
+      "defesa": 14,
+      "bonus_ataque": 3,
+      "estatica_pct": 50.0,
+      "bloquear_sempre_pct": 50.05,
+      "bloquear_apenas_acertos_pct": 41.75,
+      "fracao_seletiva": "167/400"
+    },
+    {
+      "defesa": 14,
+      "bonus_ataque": 4,
+      "estatica_pct": 55.0,
+      "bloquear_sempre_pct": 54.95,
+      "bloquear_apenas_acertos_pct": 46.7,
+      "fracao_seletiva": "467/1000"
+    },
+    {
+      "defesa": 14,
+      "bonus_ataque": 5,
+      "estatica_pct": 60.0,
+      "bloquear_sempre_pct": 59.85,
+      "bloquear_apenas_acertos_pct": 51.65,
+      "fracao_seletiva": "1033/2000"
+    },
+    {
+      "defesa": 14,
+      "bonus_ataque": 6,
+      "estatica_pct": 65.0,
+      "bloquear_sempre_pct": 64.65,
+      "bloquear_apenas_acertos_pct": 56.6,
+      "fracao_seletiva": "283/500"
+    },
+    {
+      "defesa": 14,
+      "bonus_ataque": 7,
+      "estatica_pct": 70.0,
+      "bloquear_sempre_pct": 69.3,
+      "bloquear_apenas_acertos_pct": 61.55,
+      "fracao_seletiva": "1231/2000"
+    },
+    {
+      "defesa": 14,
+      "bonus_ataque": 8,
+      "estatica_pct": 75.0,
+      "bloquear_sempre_pct": 73.75,
+      "bloquear_apenas_acertos_pct": 66.5,
+      "fracao_seletiva": "133/200"
+    },
+    {
+      "defesa": 14,
+      "bonus_ataque": 9,
+      "estatica_pct": 80.0,
+      "bloquear_sempre_pct": 77.95,
+      "bloquear_apenas_acertos_pct": 71.45,
+      "fracao_seletiva": "1429/2000"
+    },
+    {
+      "defesa": 14,
+      "bonus_ataque": 10,
+      "estatica_pct": 85.0,
+      "bloquear_sempre_pct": 81.85,
+      "bloquear_apenas_acertos_pct": 76.4,
+      "fracao_seletiva": "191/250"
+    },
+    {
+      "defesa": 15,
+      "bonus_ataque": 1,
+      "estatica_pct": 35.0,
+      "bloquear_sempre_pct": 35.7,
+      "bloquear_apenas_acertos_pct": 27.25,
+      "fracao_seletiva": "109/400"
+    },
+    {
+      "defesa": 15,
+      "bonus_ataque": 2,
+      "estatica_pct": 40.0,
+      "bloquear_sempre_pct": 40.35,
+      "bloquear_apenas_acertos_pct": 31.95,
+      "fracao_seletiva": "639/2000"
+    },
+    {
+      "defesa": 15,
+      "bonus_ataque": 3,
+      "estatica_pct": 45.0,
+      "bloquear_sempre_pct": 45.15,
+      "bloquear_apenas_acertos_pct": 36.8,
+      "fracao_seletiva": "46/125"
+    },
+    {
+      "defesa": 15,
+      "bonus_ataque": 4,
+      "estatica_pct": 50.0,
+      "bloquear_sempre_pct": 50.05,
+      "bloquear_apenas_acertos_pct": 41.75,
+      "fracao_seletiva": "167/400"
+    },
+    {
+      "defesa": 15,
+      "bonus_ataque": 5,
+      "estatica_pct": 55.0,
+      "bloquear_sempre_pct": 54.95,
+      "bloquear_apenas_acertos_pct": 46.7,
+      "fracao_seletiva": "467/1000"
+    },
+    {
+      "defesa": 15,
+      "bonus_ataque": 6,
+      "estatica_pct": 60.0,
+      "bloquear_sempre_pct": 59.85,
+      "bloquear_apenas_acertos_pct": 51.65,
+      "fracao_seletiva": "1033/2000"
+    },
+    {
+      "defesa": 15,
+      "bonus_ataque": 7,
+      "estatica_pct": 65.0,
+      "bloquear_sempre_pct": 64.65,
+      "bloquear_apenas_acertos_pct": 56.6,
+      "fracao_seletiva": "283/500"
+    },
+    {
+      "defesa": 15,
+      "bonus_ataque": 8,
+      "estatica_pct": 70.0,
+      "bloquear_sempre_pct": 69.3,
+      "bloquear_apenas_acertos_pct": 61.55,
+      "fracao_seletiva": "1231/2000"
+    },
+    {
+      "defesa": 15,
+      "bonus_ataque": 9,
+      "estatica_pct": 75.0,
+      "bloquear_sempre_pct": 73.75,
+      "bloquear_apenas_acertos_pct": 66.5,
+      "fracao_seletiva": "133/200"
+    },
+    {
+      "defesa": 15,
+      "bonus_ataque": 10,
+      "estatica_pct": 80.0,
+      "bloquear_sempre_pct": 77.95,
+      "bloquear_apenas_acertos_pct": 71.45,
+      "fracao_seletiva": "1429/2000"
+    },
+    {
+      "defesa": 16,
+      "bonus_ataque": 1,
+      "estatica_pct": 30.0,
+      "bloquear_sempre_pct": 31.25,
+      "bloquear_apenas_acertos_pct": 22.75,
+      "fracao_seletiva": "91/400"
+    },
+    {
+      "defesa": 16,
+      "bonus_ataque": 2,
+      "estatica_pct": 35.0,
+      "bloquear_sempre_pct": 35.7,
+      "bloquear_apenas_acertos_pct": 27.25,
+      "fracao_seletiva": "109/400"
+    },
+    {
+      "defesa": 16,
+      "bonus_ataque": 3,
+      "estatica_pct": 40.0,
+      "bloquear_sempre_pct": 40.35,
+      "bloquear_apenas_acertos_pct": 31.95,
+      "fracao_seletiva": "639/2000"
+    },
+    {
+      "defesa": 16,
+      "bonus_ataque": 4,
+      "estatica_pct": 45.0,
+      "bloquear_sempre_pct": 45.15,
+      "bloquear_apenas_acertos_pct": 36.8,
+      "fracao_seletiva": "46/125"
+    },
+    {
+      "defesa": 16,
+      "bonus_ataque": 5,
+      "estatica_pct": 50.0,
+      "bloquear_sempre_pct": 50.05,
+      "bloquear_apenas_acertos_pct": 41.75,
+      "fracao_seletiva": "167/400"
+    },
+    {
+      "defesa": 16,
+      "bonus_ataque": 6,
+      "estatica_pct": 55.0,
+      "bloquear_sempre_pct": 54.95,
+      "bloquear_apenas_acertos_pct": 46.7,
+      "fracao_seletiva": "467/1000"
+    },
+    {
+      "defesa": 16,
+      "bonus_ataque": 7,
+      "estatica_pct": 60.0,
+      "bloquear_sempre_pct": 59.85,
+      "bloquear_apenas_acertos_pct": 51.65,
+      "fracao_seletiva": "1033/2000"
+    },
+    {
+      "defesa": 16,
+      "bonus_ataque": 8,
+      "estatica_pct": 65.0,
+      "bloquear_sempre_pct": 64.65,
+      "bloquear_apenas_acertos_pct": 56.6,
+      "fracao_seletiva": "283/500"
+    },
+    {
+      "defesa": 16,
+      "bonus_ataque": 9,
+      "estatica_pct": 70.0,
+      "bloquear_sempre_pct": 69.3,
+      "bloquear_apenas_acertos_pct": 61.55,
+      "fracao_seletiva": "1231/2000"
+    },
+    {
+      "defesa": 16,
+      "bonus_ataque": 10,
+      "estatica_pct": 75.0,
+      "bloquear_sempre_pct": 73.75,
+      "bloquear_apenas_acertos_pct": 66.5,
+      "fracao_seletiva": "133/200"
+    },
+    {
+      "defesa": 17,
+      "bonus_ataque": 1,
+      "estatica_pct": 25.0,
+      "bloquear_sempre_pct": 27.05,
+      "bloquear_apenas_acertos_pct": 18.5,
+      "fracao_seletiva": "37/200"
+    },
+    {
+      "defesa": 17,
+      "bonus_ataque": 2,
+      "estatica_pct": 30.0,
+      "bloquear_sempre_pct": 31.25,
+      "bloquear_apenas_acertos_pct": 22.75,
+      "fracao_seletiva": "91/400"
+    },
+    {
+      "defesa": 17,
+      "bonus_ataque": 3,
+      "estatica_pct": 35.0,
+      "bloquear_sempre_pct": 35.7,
+      "bloquear_apenas_acertos_pct": 27.25,
+      "fracao_seletiva": "109/400"
+    },
+    {
+      "defesa": 17,
+      "bonus_ataque": 4,
+      "estatica_pct": 40.0,
+      "bloquear_sempre_pct": 40.35,
+      "bloquear_apenas_acertos_pct": 31.95,
+      "fracao_seletiva": "639/2000"
+    },
+    {
+      "defesa": 17,
+      "bonus_ataque": 5,
+      "estatica_pct": 45.0,
+      "bloquear_sempre_pct": 45.15,
+      "bloquear_apenas_acertos_pct": 36.8,
+      "fracao_seletiva": "46/125"
+    },
+    {
+      "defesa": 17,
+      "bonus_ataque": 6,
+      "estatica_pct": 50.0,
+      "bloquear_sempre_pct": 50.05,
+      "bloquear_apenas_acertos_pct": 41.75,
+      "fracao_seletiva": "167/400"
+    },
+    {
+      "defesa": 17,
+      "bonus_ataque": 7,
+      "estatica_pct": 55.0,
+      "bloquear_sempre_pct": 54.95,
+      "bloquear_apenas_acertos_pct": 46.7,
+      "fracao_seletiva": "467/1000"
+    },
+    {
+      "defesa": 17,
+      "bonus_ataque": 8,
+      "estatica_pct": 60.0,
+      "bloquear_sempre_pct": 59.85,
+      "bloquear_apenas_acertos_pct": 51.65,
+      "fracao_seletiva": "1033/2000"
+    },
+    {
+      "defesa": 17,
+      "bonus_ataque": 9,
+      "estatica_pct": 65.0,
+      "bloquear_sempre_pct": 64.65,
+      "bloquear_apenas_acertos_pct": 56.6,
+      "fracao_seletiva": "283/500"
+    },
+    {
+      "defesa": 17,
+      "bonus_ataque": 10,
+      "estatica_pct": 70.0,
+      "bloquear_sempre_pct": 69.3,
+      "bloquear_apenas_acertos_pct": 61.55,
+      "fracao_seletiva": "1231/2000"
+    },
+    {
+      "defesa": 18,
+      "bonus_ataque": 1,
+      "estatica_pct": 20.0,
+      "bloquear_sempre_pct": 23.15,
+      "bloquear_apenas_acertos_pct": 14.55,
+      "fracao_seletiva": "291/2000"
+    },
+    {
+      "defesa": 18,
+      "bonus_ataque": 2,
+      "estatica_pct": 25.0,
+      "bloquear_sempre_pct": 27.05,
+      "bloquear_apenas_acertos_pct": 18.5,
+      "fracao_seletiva": "37/200"
+    },
+    {
+      "defesa": 18,
+      "bonus_ataque": 3,
+      "estatica_pct": 30.0,
+      "bloquear_sempre_pct": 31.25,
+      "bloquear_apenas_acertos_pct": 22.75,
+      "fracao_seletiva": "91/400"
+    },
+    {
+      "defesa": 18,
+      "bonus_ataque": 4,
+      "estatica_pct": 35.0,
+      "bloquear_sempre_pct": 35.7,
+      "bloquear_apenas_acertos_pct": 27.25,
+      "fracao_seletiva": "109/400"
+    },
+    {
+      "defesa": 18,
+      "bonus_ataque": 5,
+      "estatica_pct": 40.0,
+      "bloquear_sempre_pct": 40.35,
+      "bloquear_apenas_acertos_pct": 31.95,
+      "fracao_seletiva": "639/2000"
+    },
+    {
+      "defesa": 18,
+      "bonus_ataque": 6,
+      "estatica_pct": 45.0,
+      "bloquear_sempre_pct": 45.15,
+      "bloquear_apenas_acertos_pct": 36.8,
+      "fracao_seletiva": "46/125"
+    },
+    {
+      "defesa": 18,
+      "bonus_ataque": 7,
+      "estatica_pct": 50.0,
+      "bloquear_sempre_pct": 50.05,
+      "bloquear_apenas_acertos_pct": 41.75,
+      "fracao_seletiva": "167/400"
+    },
+    {
+      "defesa": 18,
+      "bonus_ataque": 8,
+      "estatica_pct": 55.0,
+      "bloquear_sempre_pct": 54.95,
+      "bloquear_apenas_acertos_pct": 46.7,
+      "fracao_seletiva": "467/1000"
+    },
+    {
+      "defesa": 18,
+      "bonus_ataque": 9,
+      "estatica_pct": 60.0,
+      "bloquear_sempre_pct": 59.85,
+      "bloquear_apenas_acertos_pct": 51.65,
+      "fracao_seletiva": "1033/2000"
+    },
+    {
+      "defesa": 18,
+      "bonus_ataque": 10,
+      "estatica_pct": 65.0,
+      "bloquear_sempre_pct": 64.65,
+      "bloquear_apenas_acertos_pct": 56.6,
+      "fracao_seletiva": "283/500"
+    },
+    {
+      "defesa": 19,
+      "bonus_ataque": 1,
+      "estatica_pct": 15.0,
+      "bloquear_sempre_pct": 19.6,
+      "bloquear_apenas_acertos_pct": 10.95,
+      "fracao_seletiva": "219/2000"
+    },
+    {
+      "defesa": 19,
+      "bonus_ataque": 2,
+      "estatica_pct": 20.0,
+      "bloquear_sempre_pct": 23.15,
+      "bloquear_apenas_acertos_pct": 14.55,
+      "fracao_seletiva": "291/2000"
+    },
+    {
+      "defesa": 19,
+      "bonus_ataque": 3,
+      "estatica_pct": 25.0,
+      "bloquear_sempre_pct": 27.05,
+      "bloquear_apenas_acertos_pct": 18.5,
+      "fracao_seletiva": "37/200"
+    },
+    {
+      "defesa": 19,
+      "bonus_ataque": 4,
+      "estatica_pct": 30.0,
+      "bloquear_sempre_pct": 31.25,
+      "bloquear_apenas_acertos_pct": 22.75,
+      "fracao_seletiva": "91/400"
+    },
+    {
+      "defesa": 19,
+      "bonus_ataque": 5,
+      "estatica_pct": 35.0,
+      "bloquear_sempre_pct": 35.7,
+      "bloquear_apenas_acertos_pct": 27.25,
+      "fracao_seletiva": "109/400"
+    },
+    {
+      "defesa": 19,
+      "bonus_ataque": 6,
+      "estatica_pct": 40.0,
+      "bloquear_sempre_pct": 40.35,
+      "bloquear_apenas_acertos_pct": 31.95,
+      "fracao_seletiva": "639/2000"
+    },
+    {
+      "defesa": 19,
+      "bonus_ataque": 7,
+      "estatica_pct": 45.0,
+      "bloquear_sempre_pct": 45.15,
+      "bloquear_apenas_acertos_pct": 36.8,
+      "fracao_seletiva": "46/125"
+    },
+    {
+      "defesa": 19,
+      "bonus_ataque": 8,
+      "estatica_pct": 50.0,
+      "bloquear_sempre_pct": 50.05,
+      "bloquear_apenas_acertos_pct": 41.75,
+      "fracao_seletiva": "167/400"
+    },
+    {
+      "defesa": 19,
+      "bonus_ataque": 9,
+      "estatica_pct": 55.0,
+      "bloquear_sempre_pct": 54.95,
+      "bloquear_apenas_acertos_pct": 46.7,
+      "fracao_seletiva": "467/1000"
+    },
+    {
+      "defesa": 19,
+      "bonus_ataque": 10,
+      "estatica_pct": 60.0,
+      "bloquear_sempre_pct": 59.85,
+      "bloquear_apenas_acertos_pct": 51.65,
+      "fracao_seletiva": "1033/2000"
+    },
+    {
+      "defesa": 20,
+      "bonus_ataque": 1,
+      "estatica_pct": 10.0,
+      "bloquear_sempre_pct": 16.45,
+      "bloquear_apenas_acertos_pct": 7.75,
+      "fracao_seletiva": "31/400"
+    },
+    {
+      "defesa": 20,
+      "bonus_ataque": 2,
+      "estatica_pct": 15.0,
+      "bloquear_sempre_pct": 19.6,
+      "bloquear_apenas_acertos_pct": 10.95,
+      "fracao_seletiva": "219/2000"
+    },
+    {
+      "defesa": 20,
+      "bonus_ataque": 3,
+      "estatica_pct": 20.0,
+      "bloquear_sempre_pct": 23.15,
+      "bloquear_apenas_acertos_pct": 14.55,
+      "fracao_seletiva": "291/2000"
+    },
+    {
+      "defesa": 20,
+      "bonus_ataque": 4,
+      "estatica_pct": 25.0,
+      "bloquear_sempre_pct": 27.05,
+      "bloquear_apenas_acertos_pct": 18.5,
+      "fracao_seletiva": "37/200"
+    },
+    {
+      "defesa": 20,
+      "bonus_ataque": 5,
+      "estatica_pct": 30.0,
+      "bloquear_sempre_pct": 31.25,
+      "bloquear_apenas_acertos_pct": 22.75,
+      "fracao_seletiva": "91/400"
+    },
+    {
+      "defesa": 20,
+      "bonus_ataque": 6,
+      "estatica_pct": 35.0,
+      "bloquear_sempre_pct": 35.7,
+      "bloquear_apenas_acertos_pct": 27.25,
+      "fracao_seletiva": "109/400"
+    },
+    {
+      "defesa": 20,
+      "bonus_ataque": 7,
+      "estatica_pct": 40.0,
+      "bloquear_sempre_pct": 40.35,
+      "bloquear_apenas_acertos_pct": 31.95,
+      "fracao_seletiva": "639/2000"
+    },
+    {
+      "defesa": 20,
+      "bonus_ataque": 8,
+      "estatica_pct": 45.0,
+      "bloquear_sempre_pct": 45.15,
+      "bloquear_apenas_acertos_pct": 36.8,
+      "fracao_seletiva": "46/125"
+    },
+    {
+      "defesa": 20,
+      "bonus_ataque": 9,
+      "estatica_pct": 50.0,
+      "bloquear_sempre_pct": 50.05,
+      "bloquear_apenas_acertos_pct": 41.75,
+      "fracao_seletiva": "167/400"
+    },
+    {
+      "defesa": 20,
+      "bonus_ataque": 10,
+      "estatica_pct": 55.0,
+      "bloquear_sempre_pct": 54.95,
+      "bloquear_apenas_acertos_pct": 46.7,
+      "fracao_seletiva": "467/1000"
+    },
+    {
+      "defesa": 21,
+      "bonus_ataque": 1,
+      "estatica_pct": 5.0,
+      "bloquear_sempre_pct": 13.75,
+      "bloquear_apenas_acertos_pct": 5.0,
+      "fracao_seletiva": "1/20"
+    },
+    {
+      "defesa": 21,
+      "bonus_ataque": 2,
+      "estatica_pct": 10.0,
+      "bloquear_sempre_pct": 16.45,
+      "bloquear_apenas_acertos_pct": 7.75,
+      "fracao_seletiva": "31/400"
+    },
+    {
+      "defesa": 21,
+      "bonus_ataque": 3,
+      "estatica_pct": 15.0,
+      "bloquear_sempre_pct": 19.6,
+      "bloquear_apenas_acertos_pct": 10.95,
+      "fracao_seletiva": "219/2000"
+    },
+    {
+      "defesa": 21,
+      "bonus_ataque": 4,
+      "estatica_pct": 20.0,
+      "bloquear_sempre_pct": 23.15,
+      "bloquear_apenas_acertos_pct": 14.55,
+      "fracao_seletiva": "291/2000"
+    },
+    {
+      "defesa": 21,
+      "bonus_ataque": 5,
+      "estatica_pct": 25.0,
+      "bloquear_sempre_pct": 27.05,
+      "bloquear_apenas_acertos_pct": 18.5,
+      "fracao_seletiva": "37/200"
+    },
+    {
+      "defesa": 21,
+      "bonus_ataque": 6,
+      "estatica_pct": 30.0,
+      "bloquear_sempre_pct": 31.25,
+      "bloquear_apenas_acertos_pct": 22.75,
+      "fracao_seletiva": "91/400"
+    },
+    {
+      "defesa": 21,
+      "bonus_ataque": 7,
+      "estatica_pct": 35.0,
+      "bloquear_sempre_pct": 35.7,
+      "bloquear_apenas_acertos_pct": 27.25,
+      "fracao_seletiva": "109/400"
+    },
+    {
+      "defesa": 21,
+      "bonus_ataque": 8,
+      "estatica_pct": 40.0,
+      "bloquear_sempre_pct": 40.35,
+      "bloquear_apenas_acertos_pct": 31.95,
+      "fracao_seletiva": "639/2000"
+    },
+    {
+      "defesa": 21,
+      "bonus_ataque": 9,
+      "estatica_pct": 45.0,
+      "bloquear_sempre_pct": 45.15,
+      "bloquear_apenas_acertos_pct": 36.8,
+      "fracao_seletiva": "46/125"
+    },
+    {
+      "defesa": 21,
+      "bonus_ataque": 10,
+      "estatica_pct": 50.0,
+      "bloquear_sempre_pct": 50.05,
+      "bloquear_apenas_acertos_pct": 41.75,
+      "fracao_seletiva": "167/400"
+    },
+    {
+      "defesa": 22,
+      "bonus_ataque": 1,
+      "estatica_pct": 5.0,
+      "bloquear_sempre_pct": 11.55,
+      "bloquear_apenas_acertos_pct": 5.0,
+      "fracao_seletiva": "1/20"
+    },
+    {
+      "defesa": 22,
+      "bonus_ataque": 2,
+      "estatica_pct": 5.0,
+      "bloquear_sempre_pct": 13.75,
+      "bloquear_apenas_acertos_pct": 5.0,
+      "fracao_seletiva": "1/20"
+    },
+    {
+      "defesa": 22,
+      "bonus_ataque": 3,
+      "estatica_pct": 10.0,
+      "bloquear_sempre_pct": 16.45,
+      "bloquear_apenas_acertos_pct": 7.75,
+      "fracao_seletiva": "31/400"
+    },
+    {
+      "defesa": 22,
+      "bonus_ataque": 4,
+      "estatica_pct": 15.0,
+      "bloquear_sempre_pct": 19.6,
+      "bloquear_apenas_acertos_pct": 10.95,
+      "fracao_seletiva": "219/2000"
+    },
+    {
+      "defesa": 22,
+      "bonus_ataque": 5,
+      "estatica_pct": 20.0,
+      "bloquear_sempre_pct": 23.15,
+      "bloquear_apenas_acertos_pct": 14.55,
+      "fracao_seletiva": "291/2000"
+    },
+    {
+      "defesa": 22,
+      "bonus_ataque": 6,
+      "estatica_pct": 25.0,
+      "bloquear_sempre_pct": 27.05,
+      "bloquear_apenas_acertos_pct": 18.5,
+      "fracao_seletiva": "37/200"
+    },
+    {
+      "defesa": 22,
+      "bonus_ataque": 7,
+      "estatica_pct": 30.0,
+      "bloquear_sempre_pct": 31.25,
+      "bloquear_apenas_acertos_pct": 22.75,
+      "fracao_seletiva": "91/400"
+    },
+    {
+      "defesa": 22,
+      "bonus_ataque": 8,
+      "estatica_pct": 35.0,
+      "bloquear_sempre_pct": 35.7,
+      "bloquear_apenas_acertos_pct": 27.25,
+      "fracao_seletiva": "109/400"
+    },
+    {
+      "defesa": 22,
+      "bonus_ataque": 9,
+      "estatica_pct": 40.0,
+      "bloquear_sempre_pct": 40.35,
+      "bloquear_apenas_acertos_pct": 31.95,
+      "fracao_seletiva": "639/2000"
+    },
+    {
+      "defesa": 22,
+      "bonus_ataque": 10,
+      "estatica_pct": 45.0,
+      "bloquear_sempre_pct": 45.15,
+      "bloquear_apenas_acertos_pct": 36.8,
+      "fracao_seletiva": "46/125"
+    },
+    {
+      "defesa": 23,
+      "bonus_ataque": 1,
+      "estatica_pct": 5.0,
+      "bloquear_sempre_pct": 9.8,
+      "bloquear_apenas_acertos_pct": 5.0,
+      "fracao_seletiva": "1/20"
+    },
+    {
+      "defesa": 23,
+      "bonus_ataque": 2,
+      "estatica_pct": 5.0,
+      "bloquear_sempre_pct": 11.55,
+      "bloquear_apenas_acertos_pct": 5.0,
+      "fracao_seletiva": "1/20"
+    },
+    {
+      "defesa": 23,
+      "bonus_ataque": 3,
+      "estatica_pct": 5.0,
+      "bloquear_sempre_pct": 13.75,
+      "bloquear_apenas_acertos_pct": 5.0,
+      "fracao_seletiva": "1/20"
+    },
+    {
+      "defesa": 23,
+      "bonus_ataque": 4,
+      "estatica_pct": 10.0,
+      "bloquear_sempre_pct": 16.45,
+      "bloquear_apenas_acertos_pct": 7.75,
+      "fracao_seletiva": "31/400"
+    },
+    {
+      "defesa": 23,
+      "bonus_ataque": 5,
+      "estatica_pct": 15.0,
+      "bloquear_sempre_pct": 19.6,
+      "bloquear_apenas_acertos_pct": 10.95,
+      "fracao_seletiva": "219/2000"
+    },
+    {
+      "defesa": 23,
+      "bonus_ataque": 6,
+      "estatica_pct": 20.0,
+      "bloquear_sempre_pct": 23.15,
+      "bloquear_apenas_acertos_pct": 14.55,
+      "fracao_seletiva": "291/2000"
+    },
+    {
+      "defesa": 23,
+      "bonus_ataque": 7,
+      "estatica_pct": 25.0,
+      "bloquear_sempre_pct": 27.05,
+      "bloquear_apenas_acertos_pct": 18.5,
+      "fracao_seletiva": "37/200"
+    },
+    {
+      "defesa": 23,
+      "bonus_ataque": 8,
+      "estatica_pct": 30.0,
+      "bloquear_sempre_pct": 31.25,
+      "bloquear_apenas_acertos_pct": 22.75,
+      "fracao_seletiva": "91/400"
+    },
+    {
+      "defesa": 23,
+      "bonus_ataque": 9,
+      "estatica_pct": 35.0,
+      "bloquear_sempre_pct": 35.7,
+      "bloquear_apenas_acertos_pct": 27.25,
+      "fracao_seletiva": "109/400"
+    },
+    {
+      "defesa": 23,
+      "bonus_ataque": 10,
+      "estatica_pct": 40.0,
+      "bloquear_sempre_pct": 40.35,
+      "bloquear_apenas_acertos_pct": 31.95,
+      "fracao_seletiva": "639/2000"
+    },
+    {
+      "defesa": 24,
+      "bonus_ataque": 1,
+      "estatica_pct": 5.0,
+      "bloquear_sempre_pct": 8.45,
+      "bloquear_apenas_acertos_pct": 5.0,
+      "fracao_seletiva": "1/20"
+    },
+    {
+      "defesa": 24,
+      "bonus_ataque": 2,
+      "estatica_pct": 5.0,
+      "bloquear_sempre_pct": 9.8,
+      "bloquear_apenas_acertos_pct": 5.0,
+      "fracao_seletiva": "1/20"
+    },
+    {
+      "defesa": 24,
+      "bonus_ataque": 3,
+      "estatica_pct": 5.0,
+      "bloquear_sempre_pct": 11.55,
+      "bloquear_apenas_acertos_pct": 5.0,
+      "fracao_seletiva": "1/20"
+    },
+    {
+      "defesa": 24,
+      "bonus_ataque": 4,
+      "estatica_pct": 5.0,
+      "bloquear_sempre_pct": 13.75,
+      "bloquear_apenas_acertos_pct": 5.0,
+      "fracao_seletiva": "1/20"
+    },
+    {
+      "defesa": 24,
+      "bonus_ataque": 5,
+      "estatica_pct": 10.0,
+      "bloquear_sempre_pct": 16.45,
+      "bloquear_apenas_acertos_pct": 7.75,
+      "fracao_seletiva": "31/400"
+    },
+    {
+      "defesa": 24,
+      "bonus_ataque": 6,
+      "estatica_pct": 15.0,
+      "bloquear_sempre_pct": 19.6,
+      "bloquear_apenas_acertos_pct": 10.95,
+      "fracao_seletiva": "219/2000"
+    },
+    {
+      "defesa": 24,
+      "bonus_ataque": 7,
+      "estatica_pct": 20.0,
+      "bloquear_sempre_pct": 23.15,
+      "bloquear_apenas_acertos_pct": 14.55,
+      "fracao_seletiva": "291/2000"
+    },
+    {
+      "defesa": 24,
+      "bonus_ataque": 8,
+      "estatica_pct": 25.0,
+      "bloquear_sempre_pct": 27.05,
+      "bloquear_apenas_acertos_pct": 18.5,
+      "fracao_seletiva": "37/200"
+    },
+    {
+      "defesa": 24,
+      "bonus_ataque": 9,
+      "estatica_pct": 30.0,
+      "bloquear_sempre_pct": 31.25,
+      "bloquear_apenas_acertos_pct": 22.75,
+      "fracao_seletiva": "91/400"
+    },
+    {
+      "defesa": 24,
+      "bonus_ataque": 10,
+      "estatica_pct": 35.0,
+      "bloquear_sempre_pct": 35.7,
+      "bloquear_apenas_acertos_pct": 27.25,
+      "fracao_seletiva": "109/400"
+    },
+    {
+      "defesa": 25,
+      "bonus_ataque": 1,
+      "estatica_pct": 5.0,
+      "bloquear_sempre_pct": 7.45,
+      "bloquear_apenas_acertos_pct": 5.0,
+      "fracao_seletiva": "1/20"
+    },
+    {
+      "defesa": 25,
+      "bonus_ataque": 2,
+      "estatica_pct": 5.0,
+      "bloquear_sempre_pct": 8.45,
+      "bloquear_apenas_acertos_pct": 5.0,
+      "fracao_seletiva": "1/20"
+    },
+    {
+      "defesa": 25,
+      "bonus_ataque": 3,
+      "estatica_pct": 5.0,
+      "bloquear_sempre_pct": 9.8,
+      "bloquear_apenas_acertos_pct": 5.0,
+      "fracao_seletiva": "1/20"
+    },
+    {
+      "defesa": 25,
+      "bonus_ataque": 4,
+      "estatica_pct": 5.0,
+      "bloquear_sempre_pct": 11.55,
+      "bloquear_apenas_acertos_pct": 5.0,
+      "fracao_seletiva": "1/20"
+    },
+    {
+      "defesa": 25,
+      "bonus_ataque": 5,
+      "estatica_pct": 5.0,
+      "bloquear_sempre_pct": 13.75,
+      "bloquear_apenas_acertos_pct": 5.0,
+      "fracao_seletiva": "1/20"
+    },
+    {
+      "defesa": 25,
+      "bonus_ataque": 6,
+      "estatica_pct": 10.0,
+      "bloquear_sempre_pct": 16.45,
+      "bloquear_apenas_acertos_pct": 7.75,
+      "fracao_seletiva": "31/400"
+    },
+    {
+      "defesa": 25,
+      "bonus_ataque": 7,
+      "estatica_pct": 15.0,
+      "bloquear_sempre_pct": 19.6,
+      "bloquear_apenas_acertos_pct": 10.95,
+      "fracao_seletiva": "219/2000"
+    },
+    {
+      "defesa": 25,
+      "bonus_ataque": 8,
+      "estatica_pct": 20.0,
+      "bloquear_sempre_pct": 23.15,
+      "bloquear_apenas_acertos_pct": 14.55,
+      "fracao_seletiva": "291/2000"
+    },
+    {
+      "defesa": 25,
+      "bonus_ataque": 9,
+      "estatica_pct": 25.0,
+      "bloquear_sempre_pct": 27.05,
+      "bloquear_apenas_acertos_pct": 18.5,
+      "fracao_seletiva": "37/200"
+    },
+    {
+      "defesa": 25,
+      "bonus_ataque": 10,
+      "estatica_pct": 30.0,
+      "bloquear_sempre_pct": 31.25,
+      "bloquear_apenas_acertos_pct": 22.75,
+      "fracao_seletiva": "91/400"
+    }
+  ],
+  "limites": [
+    "Isso mede o ataque original, não o equilíbrio do combate.",
+    "Defesa26+ e bônus0 ou negativos não foram incluídos na matriz.",
+    "O modelo explicita a leitura de20 natural registrada em DECISOES.md.",
+    "O validador publicado não modela esta escolha condicional nem força Brecha fora do parelho."
+  ]
+}

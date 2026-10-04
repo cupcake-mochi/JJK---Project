@@ -1,0 +1,316 @@
+{
+  "unidade": "R13 — Bastião e Trilhas",
+  "sha256_texto": "9d572799c5d882a8eeae475b648abffc68bb2192a72caca19e435fc0b406c302",
+  "estado": "autoria e validação local completas; aguarda revisão independente/PDF",
+  "validadores": [
+    {
+      "id": "V01",
+      "estado": "concluido",
+      "evidencia": "COBERTURA.json:19habilidades,características,progressões e exemplos da fonte."
+    },
+    {
+      "id": "V02",
+      "estado": "concluido",
+      "evidencia": "FONTES.json,ALTERACOES.json; decisões humanas preservadas. Legado confere somente publicação."
+    },
+    {
+      "id": "V03",
+      "estado": "concluido",
+      "evidencia": "evidencias/AUDITORIA.json:44casos e104checagens, incluindo negativos e6mutações."
+    },
+    {
+      "id": "V04",
+      "estado": "concluido",
+      "evidencia": "216perfisdefensivos,12TR,27Provocar,10.200transferências; script reproduzível."
+    },
+    {
+      "id": "V05",
+      "estado": "concluido_com_limites",
+      "evidencia": "REVISAO-E-FONTES.md: alternativas defensivas e recursos. Comparação global entre Caminhos e playtest não executados."
+    },
+    {
+      "id": "V06",
+      "estado": "concluido_com_sincronizacoes",
+      "evidencia": "INTERFACES.json:Provocar/dano misto/duplicatasR03 remetidos ao root, demais compatíveis."
+    },
+    {
+      "id": "V07",
+      "estado": "concluido",
+      "evidencia": "Leitura de títulos e vocabulário; checker de exportação com uma incompatibilidade nominal justificada."
+    },
+    {
+      "id": "V08",
+      "estado": "concluido",
+      "evidencia": "evidencias/REVISAO-POR-SECAO.json:gatilho/custo/alvo/efeito/duração/saída."
+    },
+    {
+      "id": "V09",
+      "estado": "concluido",
+      "evidencia": "Revisão contextual e comparação primária D&D Beyond; sem copiar regras ou voz; sem alegar teste de leitor."
+    },
+    {
+      "id": "V10",
+      "estado": "concluido_com_sincronizacoes",
+      "evidencia": "LOCALIZACAO-EDITORIAL.json eINTERFACES:capítulo é dono das19habilidades;exclusãoCanalizarénecessária."
+    },
+    {
+      "id": "V11",
+      "estado": "nao_aplicavel_ao_canone",
+      "evidencia": "Nenhuma afirmação factual sobre JJK. Mecânicas são ProjetoM. Referência primária deRPG consultada para organização."
+    },
+    {
+      "id": "V12",
+      "estado": "pendente",
+      "evidencia": "Revisão independente solicitada ao root sobre manuscrito/hash."
+    },
+    {
+      "id": "V13",
+      "estado": "pendente",
+      "evidencia": "Root fará PDF, texto extraído, fontes, marcadores, links."
+    },
+    {
+      "id": "V14",
+      "estado": "pendente",
+      "evidencia": "Root fará inspeção de todas as páginas renderizadas; nenhum PDF foi inspecionado por este autor."
+    },
+    {
+      "id": "V15",
+      "estado": "concluido",
+      "evidencia": "25decisões, fontescomSHA,inventáriodedestinos,script,resultados e manifesto."
+    }
+  ],
+  "por_pagina": [
+    {
+      "pagina": "bas-bastiao",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_sincronizacoes",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido",
+        "V10": "concluido_com_sincronizacoes",
+        "V11": "nao_aplicavel_ao_canone",
+        "V12": "pendente",
+        "V13": "pendente",
+        "V14": "pendente",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "bas-olhos",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_sincronizacoes",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido",
+        "V10": "concluido_com_sincronizacoes",
+        "V11": "nao_aplicavel_ao_canone",
+        "V12": "pendente",
+        "V13": "pendente",
+        "V14": "pendente",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "bas-defesa",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_sincronizacoes",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido",
+        "V10": "concluido_com_sincronizacoes",
+        "V11": "nao_aplicavel_ao_canone",
+        "V12": "pendente",
+        "V13": "pendente",
+        "V14": "pendente",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "bas-aliados",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_sincronizacoes",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido",
+        "V10": "concluido_com_sincronizacoes",
+        "V11": "nao_aplicavel_ao_canone",
+        "V12": "pendente",
+        "V13": "pendente",
+        "V14": "pendente",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "bas-muro",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_sincronizacoes",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido",
+        "V10": "concluido_com_sincronizacoes",
+        "V11": "nao_aplicavel_ao_canone",
+        "V12": "pendente",
+        "V13": "pendente",
+        "V14": "pendente",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "bas-casca",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_sincronizacoes",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido",
+        "V10": "concluido_com_sincronizacoes",
+        "V11": "nao_aplicavel_ao_canone",
+        "V12": "pendente",
+        "V13": "pendente",
+        "V14": "pendente",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "bas-punho",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_sincronizacoes",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido",
+        "V10": "concluido_com_sincronizacoes",
+        "V11": "nao_aplicavel_ao_canone",
+        "V12": "pendente",
+        "V13": "pendente",
+        "V14": "pendente",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "bas-mao",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_sincronizacoes",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido",
+        "V10": "concluido_com_sincronizacoes",
+        "V11": "nao_aplicavel_ao_canone",
+        "V12": "pendente",
+        "V13": "pendente",
+        "V14": "pendente",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "bas-arrastao",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_sincronizacoes",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido",
+        "V10": "concluido_com_sincronizacoes",
+        "V11": "nao_aplicavel_ao_canone",
+        "V12": "pendente",
+        "V13": "pendente",
+        "V14": "pendente",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "bas-combatente",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_sincronizacoes",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido",
+        "V10": "concluido_com_sincronizacoes",
+        "V11": "nao_aplicavel_ao_canone",
+        "V12": "pendente",
+        "V13": "pendente",
+        "V14": "pendente",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "bas-oportunista",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_sincronizacoes",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido",
+        "V10": "concluido_com_sincronizacoes",
+        "V11": "nao_aplicavel_ao_canone",
+        "V12": "pendente",
+        "V13": "pendente",
+        "V14": "pendente",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    }
+  ],
+  "sem_playtest": true
+}

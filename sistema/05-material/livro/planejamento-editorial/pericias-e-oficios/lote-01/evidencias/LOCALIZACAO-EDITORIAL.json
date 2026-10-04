@@ -1,0 +1,9 @@
+{
+  "sha256_texto": "016423f17da7111635e8d9973afd6c810bfb7f5d7f93c3f1e235bf91d0385fdc",
+  "titulos_revisto": true,
+  "sem_explicacao_alheia": true,
+  "vocabulario_revisto": true,
+  "excecoes_vocabulario": [],
+  "revisor": "autor desta rodada",
+  "delta_nominal_final": "DELTA-QA-FINAL.json"
+}

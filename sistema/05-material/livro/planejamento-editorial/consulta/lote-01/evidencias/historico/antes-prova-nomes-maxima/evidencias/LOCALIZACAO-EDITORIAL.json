@@ -1,0 +1,207 @@
+{
+  "sha256_texto": "148ebf0e59568ebf42626f53bc149875c3614d631a71e255fe1dfd8f8f36122a",
+  "titulos_revisto": true,
+  "sem_explicacao_alheia": true,
+  "vocabulario_revisto": true,
+  "excecoes_vocabulario": [],
+  "excecoes_localizacao": [
+    {
+      "termo": "Incursor",
+      "trecho": "| Ágil (nome anterior) | Incursor |",
+      "papel": "remissao",
+      "justificativa": "Entrada do índice aponta o capítulo dono; contém só o nome e o destino, sem regra, custo ou benefício da capacidade.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Analista",
+      "trecho": "| Analista | Analista |",
+      "papel": "remissao",
+      "justificativa": "Entrada do índice aponta o capítulo dono; contém só o nome e o destino, sem regra, custo ou benefício da capacidade.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Arquiteto",
+      "trecho": "| Arquiteto | Arquiteto |",
+      "papel": "remissao",
+      "justificativa": "Entrada do índice aponta o capítulo dono; contém só o nome e o destino, sem regra, custo ou benefício da capacidade.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Assassino",
+      "trecho": "| Assassino | Assassino |",
+      "papel": "remissao",
+      "justificativa": "Entrada do índice aponta o capítulo dono; contém só o nome e o destino, sem regra, custo ou benefício da capacidade.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Bastião",
+      "trecho": "| Bastião | Bastião |",
+      "papel": "remissao",
+      "justificativa": "Entrada do índice aponta o capítulo dono; contém só o nome e o destino, sem regra, custo ou benefício da capacidade.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Canalizar em Golpe",
+      "trecho": "| Canalizar em Golpe | Canalizar Energia |",
+      "papel": "remissao",
+      "justificativa": "Entrada do índice aponta o capítulo dono; contém só o nome e o destino, sem regra, custo ou benefício da capacidade.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Canalizar energia",
+      "trecho": "| Canalizar em Golpe | Canalizar Energia |",
+      "papel": "remissao",
+      "justificativa": "Entrada do índice aponta o capítulo dono; contém só o nome e o destino, sem regra, custo ou benefício da capacidade.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Catalisador",
+      "trecho": "| Catalisador | Catalisador |",
+      "papel": "remissao",
+      "justificativa": "Entrada do índice aponta o capítulo dono; contém só o nome e o destino, sem regra, custo ou benefício da capacidade.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Combatente Amaldiçoado",
+      "trecho": "| Combatente Amaldiçoado | Combatente Amaldiçoado |",
+      "papel": "remissao",
+      "justificativa": "Entrada do índice aponta o capítulo dono; contém só o nome e o destino, sem regra, custo ou benefício da capacidade.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Combinar Aprimoramentos",
+      "trecho": "| Combinar Aprimoramentos | Combinar Aprimoramentos |",
+      "papel": "remissao",
+      "justificativa": "Entrada do índice aponta o capítulo dono; contém só o nome e o destino, sem regra, custo ou benefício da capacidade.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Condutor Armado",
+      "trecho": "| Condutor Armado | Condutor Armado |",
+      "papel": "remissao",
+      "justificativa": "Entrada do índice aponta o capítulo dono; contém só o nome e o destino, sem regra, custo ou benefício da capacidade.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Corpo Amaldiçoado",
+      "trecho": "| Corpo amaldiçoado | Invocações: Corpos amaldiçoados |",
+      "papel": "remissao",
+      "justificativa": "Entrada do índice aponta o capítulo dono; contém só o nome e o destino, sem regra, custo ou benefício da capacidade.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Corpo Amaldiçoado",
+      "trecho": "| Corpo Amaldiçoado (Origem) | Corpo Amaldiçoado |",
+      "papel": "remissao",
+      "justificativa": "Entrada do índice aponta o capítulo dono; contém só o nome e o destino, sem regra, custo ou benefício da capacidade.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Emanador",
+      "trecho": "| Emanador | Emanador |",
+      "papel": "remissao",
+      "justificativa": "Entrada do índice aponta o capítulo dono; contém só o nome e o destino, sem regra, custo ou benefício da capacidade.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Evocador",
+      "trecho": "| Evocador | Evocador |",
+      "papel": "remissao",
+      "justificativa": "Entrada do índice aponta o capítulo dono; contém só o nome e o destino, sem regra, custo ou benefício da capacidade.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Fluidez",
+      "trecho": "| Fluidez | Fluidez |",
+      "papel": "remissao",
+      "justificativa": "Entrada do índice aponta o capítulo dono; contém só o nome e o destino, sem regra, custo ou benefício da capacidade.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Incursor",
+      "trecho": "| Incursor | Incursor |",
+      "papel": "remissao",
+      "justificativa": "Entrada do índice aponta o capítulo dono; contém só o nome e o destino, sem regra, custo ou benefício da capacidade.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Malabarista",
+      "trecho": "| Malabarista | Malabarista |",
+      "papel": "remissao",
+      "justificativa": "Entrada do índice aponta o capítulo dono; contém só o nome e o destino, sem regra, custo ou benefício da capacidade.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Manifestação em Grupo",
+      "trecho": "| Manifestação em Grupo | Manifestação em Grupo |",
+      "papel": "remissao",
+      "justificativa": "Entrada do índice aponta o capítulo dono; contém só o nome e o destino, sem regra, custo ou benefício da capacidade.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Mão Firme",
+      "trecho": "| Mão Firme | Catálogo: Passivas de Classe 1 |",
+      "papel": "remissao",
+      "justificativa": "Entrada do índice aponta o capítulo dono; contém só o nome e o destino, sem regra, custo ou benefício da capacidade.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Pugilista",
+      "trecho": "| Monge (nome anterior) | Pugilista |",
+      "papel": "remissao",
+      "justificativa": "Entrada do índice aponta o capítulo dono; contém só o nome e o destino, sem regra, custo ou benefício da capacidade.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Múltiplas Invocações",
+      "trecho": "| Múltiplas Invocações | Múltiplas Invocações |",
+      "papel": "remissao",
+      "justificativa": "Entrada do índice aponta o capítulo dono; contém só o nome e o destino, sem regra, custo ou benefício da capacidade.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Pontos de Vínculo",
+      "trecho": "| Pontos de Vínculo | Vínculo |",
+      "papel": "remissao",
+      "justificativa": "Entrada do índice aponta o capítulo dono; contém só o nome e o destino, sem regra, custo ou benefício da capacidade.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Pugilista",
+      "trecho": "| Pugilista | Pugilista |",
+      "papel": "remissao",
+      "justificativa": "Entrada do índice aponta o capítulo dono; contém só o nome e o destino, sem regra, custo ou benefício da capacidade.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Ressonante",
+      "trecho": "| Ressonante | Ressonante |",
+      "papel": "remissao",
+      "justificativa": "Entrada do índice aponta o capítulo dono; contém só o nome e o destino, sem regra, custo ou benefício da capacidade.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Socorrista",
+      "trecho": "| Socorrista | Socorrista |",
+      "papel": "remissao",
+      "justificativa": "Entrada do índice aponta o capítulo dono; contém só o nome e o destino, sem regra, custo ou benefício da capacidade.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Vanguarda",
+      "trecho": "| Vanguarda | Vanguarda |",
+      "papel": "remissao",
+      "justificativa": "Entrada do índice aponta o capítulo dono; contém só o nome e o destino, sem regra, custo ou benefício da capacidade.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Escola de Arma",
+      "trecho": "| Versado | Prazo e Escola de Arma |",
+      "papel": "remissao",
+      "justificativa": "Entrada do índice aponta o capítulo dono; contém só o nome e o destino, sem regra, custo ou benefício da capacidade.",
+      "nao_reproduz_regra": true
+    }
+  ],
+  "revisor": "maxima",
+  "notas": "28 páginas lidas; homônimos, modelos e remissões revisados. Exceções são somente linhas do índice."
+}

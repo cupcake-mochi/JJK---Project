@@ -1,0 +1,1 @@
+{"unidade": "lote-01", "ok": false, "verificacoes": 138, "falhas": [{"verificacao": "Cenários usam o manuscrito atual", "obtido": "ea450639368f916c37a6a17de3112a6e2365db575aa8c4953a7a2f7429db941a", "esperado": "5bf3964d6d8c233069b9f2569fe9487361f9dec0c6473579f594d71c217cca5c", "ok": false}]}

@@ -1,0 +1,624 @@
+{
+  "data": "2026-10-03",
+  "ok": true,
+  "sha256_texto": "afd311cfde0914af381f09cee3e756138a6ddb976a4c6276e4f6b378b2eac477",
+  "sha256_pdf": "0d717454231dc4efc01285061ff1e075d02182f2bd1f5bc52bd82cf5fef0ac4d",
+  "verificacoes": 78,
+  "checks": [
+    {
+      "verificacao": "Seis páginas e seções",
+      "obtido": [
+        6,
+        6
+      ],
+      "esperado": [
+        6,
+        6
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Ordem de leitura",
+      "obtido": [
+        "ataques",
+        "alcance",
+        "critico",
+        "defesa",
+        "bloquear",
+        "aparar"
+      ],
+      "esperado": [
+        "ataques",
+        "alcance",
+        "critico",
+        "defesa",
+        "bloquear",
+        "aparar"
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Subtítulos não repetem título da seção",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Todos os títulos coincidem com o mapa",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Duas entradas principais",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "verificacao": "Grupos iniciam recolhidos",
+      "obtido": [
+        -3,
+        -3
+      ],
+      "esperado": [
+        -3,
+        -3
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Marcadores com destinos válidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: sem palavras perdidas",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p1: limites físicos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: rodapé separado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p1: sem imagens raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: referências existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p1: links PDF para destinos esperados",
+      "obtido": [
+        5
+      ],
+      "esperado": [
+        5
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "p1: número da remissão bloquear",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p2: sem palavras perdidas",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p2: limites físicos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p2: rodapé separado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p2: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p2: sem imagens raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p2: referências existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p2: links PDF para destinos esperados",
+      "obtido": [
+        4
+      ],
+      "esperado": [
+        4
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "p2: número da remissão defesa",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p3: sem palavras perdidas",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p3: limites físicos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p3: rodapé separado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p3: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p3: sem imagens raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p3: referências existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p3: links PDF para destinos esperados",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p4: sem palavras perdidas",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p4: limites físicos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p4: rodapé separado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p4: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p4: sem imagens raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p4: referências existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p4: links PDF para destinos esperados",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p5: sem palavras perdidas",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p5: limites físicos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p5: rodapé separado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p5: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p5: sem imagens raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p5: referências existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p5: links PDF para destinos esperados",
+      "obtido": [
+        6
+      ],
+      "esperado": [
+        6
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "p5: número da remissão aparar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p6: sem palavras perdidas",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p6: limites físicos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p6: rodapé separado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p6: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p6: sem imagens raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p6: referências existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p6: links PDF para destinos esperados",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Fórmula de Bloquear",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Bloquear independente de Reação",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Não manter o maior após rolar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Sem promessa de neutralidade",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "verificacao": "Crítico reconhece exceção aprovada",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Defesa atual entra em Bloquear",
+      "obtido": [
+        4,
+        6,
+        9
+      ],
+      "esperado": [
+        4,
+        6,
+        9
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Exemplos do ataque e Bloquear",
+      "obtido": [
+        17,
+        17,
+        19
+      ],
+      "esperado": [
+        17,
+        17,
+        19
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Força e Destreza diferentes no arremesso",
+      "obtido": [
+        6,
+        2
+      ],
+      "esperado": [
+        6,
+        2
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Duro de Matar usa dados sem modificador",
+      "obtido": 14,
+      "esperado": 14,
+      "ok": true
+    },
+    {
+      "verificacao": "Aparar+3 não duplica",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Cobertura não acumula",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Somente duplos adotados",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Arremesso: limites",
+      "obtido": [
+        "normal",
+        "longa",
+        "longa",
+        "fora"
+      ],
+      "esperado": [
+        "normal",
+        "longa",
+        "longa",
+        "fora"
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Distâncias do exemplo em múltiplos1,5m",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Auditoria de Bloquear abrange160pares",
+      "obtido": 160,
+      "esperado": 160,
+      "ok": true
+    },
+    {
+      "verificacao": "Escolha condicional no exemplo",
+      "obtido": 41.75,
+      "esperado": 41.75,
+      "ok": true
+    },
+    {
+      "verificacao": "Seis seções avaliadas editorialmente",
+      "obtido": [
+        "alcance",
+        "aparar",
+        "ataques",
+        "bloquear",
+        "critico",
+        "defesa"
+      ],
+      "esperado": [
+        "alcance",
+        "aparar",
+        "ataques",
+        "bloquear",
+        "critico",
+        "defesa"
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Revisão ligada ao texto",
+      "obtido": "afd311cfde0914af381f09cee3e756138a6ddb976a4c6276e4f6b378b2eac477",
+      "esperado": "afd311cfde0914af381f09cee3e756138a6ddb976a4c6276e4f6b378b2eac477",
+      "ok": true
+    },
+    {
+      "verificacao": "Fontes e consolidado anterior preservados",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Livro e exportações preservados",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "137 arquivos protegidos",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Inspeção visual ligada ao PDF",
+      "obtido": "0d717454231dc4efc01285061ff1e075d02182f2bd1f5bc52bd82cf5fef0ac4d",
+      "esperado": "0d717454231dc4efc01285061ff1e075d02182f2bd1f5bc52bd82cf5fef0ac4d",
+      "ok": true
+    },
+    {
+      "verificacao": "Seis páginas visualmente examinadas",
+      "obtido": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "esperado": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Sem defeitos visuais registrados",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "26 casos documentais",
+      "obtido": 26,
+      "esperado": 26,
+      "ok": true
+    },
+    {
+      "verificacao": "Links do dossiê",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    }
+  ],
+  "geometria": [
+    {
+      "pagina": 1,
+      "secao": "ataques",
+      "final_corpo": 741.02,
+      "links": [
+        5
+      ]
+    },
+    {
+      "pagina": 2,
+      "secao": "alcance",
+      "final_corpo": 678.22,
+      "links": [
+        4
+      ]
+    },
+    {
+      "pagina": 3,
+      "secao": "critico",
+      "final_corpo": 769.52,
+      "links": []
+    },
+    {
+      "pagina": 4,
+      "secao": "defesa",
+      "final_corpo": 772.12,
+      "links": []
+    },
+    {
+      "pagina": 5,
+      "secao": "bloquear",
+      "final_corpo": 651.82,
+      "links": [
+        6
+      ]
+    },
+    {
+      "pagina": 6,
+      "secao": "aparar",
+      "final_corpo": 712.72,
+      "links": []
+    }
+  ],
+  "limites": [
+    "Não é teste humano ou prova de equilíbrio.",
+    "Revisão pelo autor, sem nova revisão independente.",
+    "Decisões candidatas e pendências identificadas em DECISOES.md."
+  ]
+}

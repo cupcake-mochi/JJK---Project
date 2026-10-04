@@ -1,0 +1,24 @@
+{
+  "unidade": "equipamento/lote-final",
+  "sha256_texto": "89a3f7bb705a7c931a3c69f4f051fb98d62acbc065ffa42dc48275f00e2afec1",
+  "sha256_pdf": "b6a97181db148bd364ca05bb9d8f02cd3ab904afc34eefc33f4d543809015396",
+  "escopo": "Releitura contextual das linhas alteradas; a revisão integral anterior permanece em seus relatórios históricos.",
+  "invariantes": "IDs, numerais, alcance, custos, procedimentos e tabelas conservados. Nomes aprovados e concordância uniformizados.",
+  "historico": "consolidacao/lote-01/migracao-nomes/qa-antes/equipamento/lote-final",
+  "auditoria_numerica": "Execuções novamente concluídas após os nomes; outputs locais vinculados à versão atual.",
+  "paginas_reabertas": [
+    21
+  ],
+  "paginas_preservadas": 38,
+  "equivalencia_visual": "Hashes de pixels por página, COMPARACAO-NOMES-PDF.json",
+  "revisao_independente_delta": {
+    "revisor": "/root",
+    "resultado": "Sem bloqueador nos diffs nominais completos de Regras gerais, Equipamento, Aptidões, Incursor e Origens, conforme confirmação direta do revisor; unidades de texto idêntico preservam o parecer anterior.",
+    "complemento": "não aplicável"
+  },
+  "limites": [
+    "Sem novo cânone, redesign ou afirmação de equilíbrio final.",
+    "Leitura por modelo não equivale a teste com pessoas.",
+    "Adjetivos passivo/passiva comuns mantidos."
+  ]
+}

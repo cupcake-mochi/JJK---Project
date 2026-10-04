@@ -1,0 +1,80 @@
+
+========================================================================================
+1. A NEUTRALIDADE — recalculada, e nao conferida contra si mesma
+========================================================================================
+  o dado lido da peca: 2d10-1
+  a base da Defesa, lida da peca 1: 10
+  o offset escrito na regra da peca 23: 11
+  [x] o `Incapacitado` citado aqui bate com a peca 19: 4.95 de dano por rodada, em 2 citacao(oes)
+  Defesa estatica ................ 0.5500
+  Bloquear COM a trava do 20 nat . 0.5500
+  Bloquear SEM a trava ........... 0.5490
+  [x] media(2d10) = 11 = base da Defesa + 1. O ajuste -1 fecha o meio ponto que dado unico nunca fecha.
+  [x] o offset da regra (11) e a media do dado (11) sao o mesmo numero
+  [x] o Bloquear e neutro: 0.5500 dos dois lados, ao ponto flutuante
+  [x] a trava do 20 natural paga a neutralidade: 0.5490 -> 0.5500
+  [x] os dois numeros publicados batem com a enumeracao das 2.000 combinacoes
+
+========================================================================================
+2. O MODIFICADOR E A MESMA EXPRESSAO — nao dois valores que calham
+========================================================================================
+  [x] a regra escreve o Bloquear EM FUNCAO da Defesa, e nao repetindo os termos dela
+  [x] 1 lugar(es) mexem no numero do Bloquear, e todos sao a `Talha`
+
+========================================================================================
+3. O LIQUIDO DO PACOTE DE EXTREMOS — recalculado dos donos
+========================================================================================
+  Aparar (soma maxima, MENOS o 20 natural) . 0.95%
+  Brecha (soma minima, nada cancela) ....... 1.00%
+  trafego: 16.5% — salvou 8.2%, traiu 8.2%
+  o bonus do Aparar, lido da peca: +3 (o seu ataque de oportunidade vale 8.53)
+  o golpe do chefe no nv30: 226 / 3 acoes = 75.33
+  liquido = 0.95% x 8.53 - 1.00% x 75.33 = -0.6723 por golpe
+  [x] o liquido publicado (0.672) sai dos donos, e nao de uma constante escrita aqui
+  [x] o liquido e 0.89% do golpe do chefe (75.33), abaixo do teto de 1%, e o denominador esta declarado na peca
+
+========================================================================================
+4. O `+3` DO APARAR E O MAIOR QUE CABE — a regra contra o limite
+========================================================================================
+  [x] a folga do nivel 22, em dano esperado: 9.00 - 6.88 = 2.12
+  cada ponto de bonus rende 0.5500 de dano esperado, entao o teto em dano CRU e 3.85
+  [x] o teto publicado (3.85) sai de `folga / acerto`, e nao de uma constante
+  [x] +3 cabe com 0.85 de margem e +4 estoura: e o maior que cabe
+
+========================================================================================
+5. SO O `Incapacitado` DESLIGA O BLOQUEAR — lido da peca 19
+========================================================================================
+  [x] das 13 condicoes, so o `Incapacitado` cita Bloquear
+  .. e ele continua em 4.95 de dano por rodada, 0.28x o dano dos 4 pontos que ele custa, nivel Leve — o preco que a checagem 1 sustenta
+
+========================================================================================
+6. A `Talha` E DO ATACANTE, e e a unica que encosta no Bloquear
+========================================================================================
+  [x] a `Talha` custa 1 ponto e da −1 no Bloquear de quem se defende
+  .. 9 arma(s) do catalogo carregam a `Talha`
+  [x] a contagem escrita na peca 14 (`nove`) bate com o catalogo
+  [x] as 9 nomeadas na peca 14 sao exatamente as do catalogo
+  [x] a peca 23 declara que a `Talha` e do atacante, e por isso ela nao viola o invariante do modificador unico
+  [x] nenhuma das 4 frases de opcionalidade sobreviveu na peca 14
+
+========================================================================================
+7. O BLOQUEAR E A UNICA ROLAGEM NAO-d20 DE UM NUMERO DISPUTADO
+========================================================================================
+  [x] nenhuma rolagem que substitui a Defesa usa dado fora do `2d10` e do `d20`
+
+========================================================================================
+8. A REACAO DO INIMIGO — a mesma que a peca 3 da a todo mundo
+========================================================================================
+  a secao `Inimigos` do manual tem 24 linhas
+  peca 3 SS3 -> o slot Reacao da `uma` a qualquer ficha
+  manual     -> a ficha de inimigo diz `Uma` por rodada
+  [x] os dois lados dizem 1, e o numero nao esta escrito aqui dentro
+  [x] a `Brecha` dispara 0.16 vez(es) por combate (1.00% x 16), recontado da enumeracao e do SS9 —
+      uma Reacao por rodada nunca acaba contra isso, e e esse o argumento
+
+========================================================================================
+>>> TUDO OK — a neutralidade e exata e recalculada, o modificador e a mesma
+    expressao dos dois lados, o liquido dos extremos sai dos donos e cabe no
+    teto, o `+3` e o maior que cabe, so o `Incapacitado` desliga, e a `Talha`
+    e do atacante. E a Reacao do inimigo e a mesma que a peca 3 da a
+    todo mundo, impressa na ficha de inimigo do manual.

@@ -1,0 +1,21 @@
+# Revisão independente — Progressão
+
+Manuscrito examinado integralmente: `PROGRESSAO.md`, SHA-256 `477534ccb33b6174bf94f8182db6b33fd9f766b308c73c54dd4d5d0e8aa8be35`. Revisor: `/root/rotas_didatica`. Foram lidas as 13 páginas lógicas, ALTERACOES e INTERFACES, o manual80 e trechos correspondentes das peças11/18 e manual35. As interfaces R06/R10/R11/R12/R17 já haviam sido lidas na autoria/revisão de suas unidades, e foram confrontadas novamente quanto aos limites relevantes. Esta é revisão documental por agente, sem playtest, leitores humanos ou inspeção visual.
+
+## Achados
+
+**P2 — Critério de sair de pé estreitado sem decisão individual registrada.** Em `prog-limiar`, a segunda linha exige não ter chegado a zero durante a Expansão. A fonte manual80 pede sair de pé, que também comporta alguém curado antes do fim ou alguém ainda agindo por Insistir. O novo requisito é mensurável e pode ser uma escolha válida, mas PRO03 apenas registra a lista fechada, não esse estreitamento. Recomendação: preservar o resultado ao fim (“terminou a Expansão capaz de agir”), ou registrar explicitamente que chegar a zero em qualquer momento invalida o feito. Revalidar depois de Morrendo, sem redesenhá-lo aqui.
+
+**P2 — A regra de redução do máximo não preserva o dano faltante.** Em `prog-atualizar`, “preserve o dano e o PE que já estavam gastos” introduz uma fórmula que, ao cair o máximo, apenas limita o saldo. Exemplo: 40/100 vira40/90, reduzindo o déficit60→50. Se o máximo depois retornar100, passa50/100. Não é um loop ilimitado por esta unidade, porque as trocas são11/19/27 e os recursos não são renovados livremente, mas contraria a promessa verbal e a frase de troca que diz não curar. Recomendação: definir que a preservação por delta vale aos aumentos de nível, explicitar separadamente a regra escolhida para reduções permanentes, e registrar a consequência. Se o objetivo for preservar sempre o déficit, precisa calcular `max(0, novo máximo − déficit anterior)` também na redução, avaliando o risco de levarPVazero. Não aplicar essa última fórmula silenciosamente.
+
+**P3 — Recuperar controle de corpos suspensos não tem a mesma trava explícita das entidades por espaço.** `prog-capacidades` fixa a seleção de entidades por espaço até aquisição/revisão, mas a seleção de corpos mantidos só diz escolher os cinco e retirar controle dos restantes. Como esses corpos podem ter aquisição própria, convém dizer qual procedimento permite mudar o grupo controlado depois, por remissão à transferência/mudança de vínculo em Fabricação e aos limites de Invocações. Não basta estar fisicamente perto do corpo excedente. A frase inicial contra alternância gratuita ajuda, mas não fornece por si o procedimento de retorno.
+
+## Conferências concluídas
+
+Os 30 níveis têm exatamente os valores numéricos publicados. As somas14.300/16.400/30.700 conferem. Frações semanais são exatas, o mínimo positivo não cria XP numa recompensa nula, o excedente só compra um nível por missão, e o limiar não libera uma sequência instantânea. Refino básico antes da escolha chega ao total de10aptidões numa rota pura. Leque fornece aplicações e Passivas separadas, sem virar vaga universal ou entidade.
+
+Troca de Trilha remove o nível2antigo e recebe2/11/19conforme o nível; não oferece multiclasse. Duplas perdem compressão e precisam de vagas próprias. Corpos4→2 recalculam o total com o atributo e conservam sua existência física. Não há teleporte, descarte ou recuperação gratuita declarados. Os registros provisórios de morte/Integridade estão localizados, especialmente feitos5/8e socorro do4.
+
+Texto está direto e adequado a manual de RPG. Títulos localizam o assunto, as duas tabelas numéricas evitam repetir descrições de habilidades, e exemplos mostram contas úteis. Recompensas opcionais estão identificadas. Não encontrei metatexto de desenvolvimento no manuscrito ou salário apresentado como cânone. Há bastante informação administrativa no fim, mas pertence ao assunto e pode ser agrupada num marcador de campanha.
+
+A evidência numérica independente contém61casos, todos conferidos, incluindo os casos que caracterizam os dois pontos de regra acima. Isso não significa aprovação sem ressalvas. Não foram alterados o manuscrito ou os documentos do autor.

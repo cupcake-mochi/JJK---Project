@@ -1,0 +1,286 @@
+{
+  "ok": true,
+  "sha256_texto": "3ff14332800456da87ee8c49fa9648596003e332291823abe24dcf8fa5afe785",
+  "casos": [
+    {
+      "cenario": "Queima Rajada 3/2/2: acertam 3 e 2",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "Salto de tiro com3d8, ficha7d8",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "Estilhaço crit de3d8 não usa6d8",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "Certeiro erro5d8 antes de peças",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "Eco9 comDívida4",
+      "obtido": 9,
+      "esperado": 9,
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "Eco+Cobrança não viramquarto",
+      "obtido": 5,
+      "esperado": 5,
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "SegundaNatureza comDívida4",
+      "obtido": 4,
+      "esperado": 4,
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "Classe0 cobraDívida6",
+      "obtido": 6,
+      "esperado": 6,
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "Sugar C3: 16+28 danos válidos",
+      "obtido": 11,
+      "esperado": 11,
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "Sugar C3: 80 válidos+40parciais",
+      "obtido": 15,
+      "esperado": 15,
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "Sugar sóerroCerteiro",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "Divide11 semRD",
+      "obtido": [
+        5,
+        6
+      ],
+      "esperado": [
+        5,
+        6
+      ],
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "Divide11 destinatárioRD3",
+      "obtido": [
+        5,
+        3
+      ],
+      "esperado": [
+        5,
+        3
+      ],
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "Junto9 dividido6/3 conservaPV",
+      "obtido": 9,
+      "esperado": 9,
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "Junto Guarda é uma atribuição",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "Rajada quatro ataques a50%",
+      "obtido": 0.9375,
+      "esperado": 0.9375,
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "Fica entradas repetidas e primeiroerro",
+      "obtido": 6,
+      "esperado": 6,
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "Minuto comum em rodadas6s",
+      "obtido": 10,
+      "esperado": 10,
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "Acúmulo início atésexto",
+      "obtido": [
+        0,
+        1,
+        2,
+        3,
+        3,
+        3
+      ],
+      "esperado": [
+        0,
+        1,
+        2,
+        3,
+        3,
+        3
+      ],
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "ReservaProfunda Classe7",
+      "obtido": 21,
+      "esperado": 21,
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "Recomposição maiorClasse5",
+      "obtido": 25,
+      "esperado": 25,
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "Carregar perde se dano11 e teste falha",
+      "obtido": false,
+      "esperado": false,
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "Mão Firme protege dano10 semtestar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "Toque comLonge",
+      "obtido": false,
+      "esperado": false,
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "Projétil comLonge",
+      "obtido": true,
+      "esperado": true,
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "InescapávelProjétil",
+      "obtido": true,
+      "esperado": true,
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "Inescapávelárea",
+      "obtido": false,
+      "esperado": false,
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "InescapávelSilencioso",
+      "obtido": false,
+      "esperado": false,
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "Inescapávelrestrição",
+      "obtido": false,
+      "esperado": false,
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "ArmadoMáxima",
+      "obtido": false,
+      "esperado": false,
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "SeguraMáxima",
+      "obtido": false,
+      "esperado": false,
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "ArmadoSegura",
+      "obtido": false,
+      "esperado": false,
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "ArmadoCarregar",
+      "obtido": false,
+      "esperado": false,
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "CerteiroSemVolta",
+      "obtido": false,
+      "esperado": false,
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "ControlePrecisão",
+      "obtido": true,
+      "esperado": true,
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "ReaçãoParado",
+      "obtido": false,
+      "esperado": false,
+      "ok": true,
+      "metodo": "modelo executado"
+    }
+  ],
+  "quantidade": 36,
+  "limites": "Modelos dirigidos e hipóteses explícitas; não simulam iniciativa, builds completos, inimigos ou aceitação humana."
+}

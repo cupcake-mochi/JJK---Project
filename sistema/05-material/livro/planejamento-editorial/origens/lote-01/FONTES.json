@@ -1,0 +1,124 @@
+{
+  "fontes": [
+    {
+      "id": "manual25",
+      "arquivo": "sistema/05-material/livro/manual/25-origens.md",
+      "sha256": "dac3ae94462e81858c3d7758b938dd5de71870175f811ed1c3b8f341018ac59e",
+      "papel": "Dono publicado atual: prevalece em texto de entradas, frequências, reparo326 e imunidade329.",
+      "leitura": "integral dos textos relevantes, sem afirmar leitura integral dos capítulos de interface nesta unidade"
+    },
+    {
+      "id": "peca09",
+      "arquivo": "sistema/03-mecanica/09-origens.md",
+      "sha256": "f50d921e42355d193f1c0f32afcffc7d2a724bfdc19608e2231aad4b3db043c2",
+      "papel": "Identidade, treinos e traços; histórico não prevalece sobre alterações atuais.",
+      "leitura": "integral dos textos relevantes, sem afirmar leitura integral dos capítulos de interface nesta unidade"
+    },
+    {
+      "id": "peca13",
+      "arquivo": "sistema/03-mecanica/13-legados.md",
+      "sha256": "d2c77320f0e55156f0bcd0022a6a54e36b6591f0d3ac2415c6106346f4db5e06",
+      "papel": "Catálogo e régua completos, histórico contém relógios/condições antigos.",
+      "leitura": "integral dos textos relevantes, sem afirmar leitura integral dos capítulos de interface nesta unidade"
+    },
+    {
+      "id": "testes",
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/regras-basicas/lote-01/TESTES-E-TURNOS.md",
+      "sha256": "6398c036f821c98ab1c83241eb76c91f0ef2b29d108ba8335b6ae794eb180b35",
+      "papel": "Interface de testes e dificuldade.",
+      "leitura": "integral dos textos relevantes, sem afirmar leitura integral dos capítulos de interface nesta unidade"
+    },
+    {
+      "id": "condicoes",
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+      "sha256": "b902a11dc5bca2fc78b9c3a8daf87dbdb276185da48a699637946bf7654a531d",
+      "papel": "Condições e tipos separados.",
+      "leitura": "integral dos textos relevantes, sem afirmar leitura integral dos capítulos de interface nesta unidade"
+    },
+    {
+      "id": "recuperacao",
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/regras-basicas/lote-04-r2/RECUPERACAO.md",
+      "sha256": "dccb0dcf2744679c51051bcd1abe0f665f61295136837febc69f9815670f822c",
+      "papel": "Descansos, Exaustão e provisório vida0/Integridade.",
+      "leitura": "integral dos textos relevantes, sem afirmar leitura integral dos capítulos de interface nesta unidade"
+    },
+    {
+      "id": "rotas",
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/rotas/lote-01/ROTAS.md",
+      "sha256": "d4ac61d33127980c24ce6b9acbcb12458dce4633a5f96db3f1ba9263c354c811",
+      "papel": "Dono SemTécnica, Marcial, Bênçãos.",
+      "leitura": "integral dos textos relevantes, sem afirmar leitura integral dos capítulos de interface nesta unidade"
+    },
+    {
+      "id": "fundamento",
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md",
+      "sha256": "91db84efd1813de6f85f4ea30daf01528d0bdf60cfb47ce7cf512ed3121ca5b0",
+      "papel": "Classes e criação comum.",
+      "leitura": "integral dos textos relevantes, sem afirmar leitura integral dos capítulos de interface nesta unidade"
+    },
+    {
+      "id": "invocacoes",
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/invocacoes/lote-01/INVOCACOES-EM-CAMPO.md",
+      "sha256": "fcddc35982314ea73607bdf76f2e851836c2a72a801e53b33008aad1af9e733a",
+      "papel": "Reparo de entidades: alinhar CD após aprovação.",
+      "leitura": "integral dos textos relevantes, sem afirmar leitura integral dos capítulos de interface nesta unidade"
+    },
+    {
+      "id": "fabricacao",
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/invocacoes/fabricacao/lote-01/FABRICACAO-DE-ENTIDADES.md",
+      "sha256": "6b0c6fdc6690e154c064c44ddad58e02593fb3c1a38da3f3ba097e376fc471b0",
+      "papel": "Mesma CD de ofício autorreferida e ajustes0/−2/−4.",
+      "leitura": "integral dos textos relevantes, sem afirmar leitura integral dos capítulos de interface nesta unidade"
+    }
+  ],
+  "externas": [
+    {
+      "arquivo": "/media/mizuki/HD Externo II/Claude/origens-remodelagem/00-LEIA-ME.md",
+      "sha256": "165c591ed21824ae2fa5a56719cd42a2ca80d13b5100efb78f531da7a41e83ff",
+      "estado": "Leitura integral; pesquisa externa sem decisão aprovada, cópias v0.291 não substituem manual atual."
+    },
+    {
+      "arquivo": "/media/mizuki/HD Externo II/Claude/origens-remodelagem/03-DECISOES.md",
+      "sha256": "5ff974005e16ed2085b7fb56b281b5c41aad403ee8dacf3a01370483f0f31851",
+      "estado": "Leitura integral; pesquisa externa sem decisão aprovada, cópias v0.291 não substituem manual atual."
+    },
+    {
+      "arquivo": "/media/mizuki/HD Externo II/Claude/origens-remodelagem/02-PAUTA-E-PERGUNTA-ABERTA.md",
+      "sha256": "ea859c86c932f0eae652d0332c92dba0140e84adaca4a4bdc42b9552f5422002",
+      "estado": "Leitura integral; pesquisa externa sem decisão aprovada, cópias v0.291 não substituem manual atual."
+    },
+    {
+      "arquivo": "/media/mizuki/HD Externo II/Claude/origens-remodelagem/PROMPT-DE-CONTINUIDADE.md",
+      "sha256": "179becf96bc91083ae1ffbc231fc4ac51f91ef3dc591c4ca4cf1ba667c1fe80b",
+      "estado": "Leitura integral; pesquisa externa sem decisão aprovada, cópias v0.291 não substituem manual atual."
+    },
+    {
+      "arquivo": "/media/mizuki/HD Externo II/Claude/origens-remodelagem/01-SINTESE.md",
+      "sha256": "bcea152fbe3b446a837fe87de9f0998a351e6943050cc8d366f2e66ebf554b0a",
+      "estado": "Leitura integral; pesquisa externa sem decisão aprovada, cópias v0.291 não substituem manual atual."
+    }
+  ],
+  "primarias_web": [
+    {
+      "url": "https://jujutsukaisen.jp/character/",
+      "consulta": "2026-10-03",
+      "trechos": "Perfis Panda/Yaga, Choso/Kenjaku e Kashimo. Referências limitadas descritas em CANONE.md."
+    },
+    {
+      "url": "https://jujutsukaisen.jp/character/category2.php",
+      "consulta": "2026-10-03",
+      "trechos": "Perfis Mechamaru e Kokichi, ação remota e Restrição."
+    }
+  ],
+  "referencias_rpg": [
+    {
+      "arquivo_local": "PDFs - Sistemas Extras/PDF_Sistemas/Player_Hand_Book_DnD_2024.pdf.zip",
+      "leitura": "dirigida nesta unidade: PDF183,184,190 (impressas177,178,184), extração /tmp/r07-phb.txt; outras passagens dirigidas em R06/R07."
+    },
+    {
+      "arquivo_local": "PDFs - Sistemas Extras/PDF_Sistemas/Dungeon Master's Guide 2024.pdf.zip",
+      "leitura": "dirigida nesta unidade: PDF30,61, e criação62/63 consultada anteriormente. Caminho real do arquivo usa apóstrofo ASCII."
+    }
+  ],
+  "limites": "Sem leitura integral dos livros externos; fontes locais são traduções/arquivos fornecidos pelo usuário, usados como estrutura sem copiar prosa. Fonte primária oficial do anime não equivale a confirmação integral de toda mecânica pelo mangá."
+}

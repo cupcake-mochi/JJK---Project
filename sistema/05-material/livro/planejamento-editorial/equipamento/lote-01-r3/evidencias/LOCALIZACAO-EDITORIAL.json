@@ -1,0 +1,14 @@
+{
+  "sha256_texto": "8d8311f3777014ea84df2b531f64d91540b3885cf2930a3cb071eebf21e3d7a1",
+  "titulos_revisto": true,
+  "sem_explicacao_alheia": true,
+  "revisor": "autor desta rodada",
+  "vocabulario_revisto": true,
+  "excecoes_vocabulario": [],
+  "criterios_vocabulario": [
+    "Sentido cotidiano e ausência de ambiguidade no contexto.",
+    "Termos do sistema mantidos com definição no dono.",
+    "Sem explicar novamente regras já apresentadas.",
+    "Leitura contextual não equivale a teste com iniciantes."
+  ]
+}

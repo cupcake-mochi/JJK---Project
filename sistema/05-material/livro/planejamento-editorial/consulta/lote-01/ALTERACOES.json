@@ -1,0 +1,215 @@
+{
+  "sha256_texto": "a4d4b68bbed3c62efdc849ab32a08350694f6653bdeea08ec71874b5aada4980",
+  "decisoes": [
+    {
+      "id": "R23-01",
+      "antes": "Consulta em uma lista de regras resumidas.",
+      "depois": "Glossário para definições, índice para capacidades específicas, quadros para procedimentos.",
+      "motivo": "Evitar que resumo incompleto se torne uma segunda versão de uma habilidade.",
+      "tipo": "editorial"
+    },
+    {
+      "id": "R23-02",
+      "antes": "167 ocorrências no glossário antigo, várias repetidas.",
+      "depois": "Todas as ocorrências recebem destino no mapa; 85 conceitos breves e 248 entradas no índice.",
+      "motivo": "Preservar a possibilidade de localizar cada assunto sem duplicar seus números.",
+      "tipo": "editorial"
+    },
+    {
+      "id": "R23-03",
+      "antes": "Máxima descrita por dano fixo e restrições históricas.",
+      "depois": "Definição cobre ataque, cura e utilidade e remete ao Fundamento atual.",
+      "motivo": "O glossário antigo contradizia R06. Não altera R06.",
+      "tipo": "sincronizacao"
+    },
+    {
+      "id": "R23-04",
+      "antes": "Ágil e Monge aparecem em materiais anteriores.",
+      "depois": "Índice conserva aliases para Incursor e Pugilista.",
+      "motivo": "Permitir pesquisa por nomes antigos sem mantê-los como nomes de ficha.",
+      "tipo": "editorial"
+    },
+    {
+      "id": "R23-05",
+      "antes": "Pontos, PE e espaço poderiam se confundir.",
+      "depois": "Entradas separadas: orçamento de montagem, custo de uso e vaga conhecida.",
+      "motivo": "Cada recurso responde a uma pergunta diferente na criação e na mesa.",
+      "tipo": "editorial"
+    },
+    {
+      "id": "R23-06",
+      "antes": "Morrendo e Integridade em revisão pela raiz.",
+      "depois": "Definições e remissões sem copiar prazos, testes ou percentuais.",
+      "motivo": "A consulta deve permanecer dependente do dono após redesenho.",
+      "tipo": "interface"
+    },
+    {
+      "id": "R23-07",
+      "antes": "Grau de item e patente no mesmo vocabulário.",
+      "depois": "Campos separados; Patente remete Progressão, com dependência de explicação curta registrada.",
+      "motivo": "Não conceder grau pessoal por possuir uma ferramenta.",
+      "tipo": "interface"
+    },
+    {
+      "id": "R23-08",
+      "antes": "Reação e mudança de rodada podem se confundir.",
+      "depois": "Quadro informa começo do próprio turno, não rodada.",
+      "motivo": "Preserva o procedimento geral e auxilia registro de recursos.",
+      "tipo": "editorial"
+    },
+    {
+      "id": "R23-09",
+      "antes": "Ordens antecipadas poderiam aparecer como custos na execução.",
+      "depois": "Registro da especial começa no pagamento da ordem; resolução posterior conserva esse histórico.",
+      "motivo": "Preserva R11 sem reproduzir exceções de Caminhos ou tabelas de PE.",
+      "tipo": "sincronizacao"
+    },
+    {
+      "id": "R23-10",
+      "antes": "Ficha histórica digital contém valores e fórmulas anteriores à candidata.",
+      "depois": "Modelos editoriais em branco com origem do cálculo e referência; nenhum valor padrão embutido.",
+      "motivo": "Não contam como validação do aplicativo de fichas nem migração automática.",
+      "tipo": "editorial"
+    },
+    {
+      "id": "R23-11",
+      "antes": "Tabela inicialmente alinhava um atributo a um TR diferente em cada linha.",
+      "depois": "Atributos aparecem fora do quadro de TR; cada TR recebe atributo, treino e bônus próprios.",
+      "motivo": "Eliminar associação visual que poderia induzir uma escolha obrigatória.",
+      "tipo": "editorial"
+    },
+    {
+      "id": "R23-12",
+      "antes": "Espaços de repertório e entidades sem separação de aquisição.",
+      "depois": "Ficha distingue ocupações, opções fora da conta e forma de aquisição.",
+      "motivo": "Um campo ou linha extra não concede espaço, reserva ou entidade ativa.",
+      "tipo": "editorial"
+    },
+    {
+      "id": "R23-13",
+      "antes": "Registro de missão limitado a narrativa e XP.",
+      "depois": "Entrada/saída, posição semanal, ajuste, XP gasto e saldo, recursos, empréstimos e decisões de regra.",
+      "motivo": "Apoiar continuidade da guilda sem criar recompensas ou renovar recursos.",
+      "tipo": "editorial"
+    },
+    {
+      "id": "R23-14",
+      "antes": "Orientação de mestre ausente na sequência didática.",
+      "depois": "Duas páginas com situação, objetivo, informação, escolhas, fichas completas e registro.",
+      "motivo": "Oferecer procedimento inicial de mesa; não inventar orçamento de encontros nem forçar uma solução.",
+      "tipo": "editorial"
+    },
+    {
+      "id": "R23-15",
+      "antes": "Referências poderiam misturar cânone e adaptação.",
+      "depois": "Página identifica obra, procedimentos originais e função editorial dos dois livros consultados.",
+      "motivo": "Nenhum custo de RPG é atribuído ao mangá; nenhum livro inteiro é declarado lido.",
+      "tipo": "editorial"
+    },
+    {
+      "id": "R23-16",
+      "antes": "Páginas finais ainda não existem.",
+      "depois": "Índice guarda arquivo, âncora e título verificáveis, sem números físicos inventados.",
+      "motivo": "Resolver paginação e links no livro único; consulta atual é por título.",
+      "tipo": "interface"
+    },
+    {
+      "id": "R23-17",
+      "antes": "Busca nominal encontra nomes de habilidades no índice.",
+      "depois": "Exceções editoriais permitem somente linhas de remissão, sem explicar a habilidade.",
+      "motivo": "São destinos indispensáveis à função de índice, não cópias do conteúdo.",
+      "tipo": "editorial"
+    },
+    {
+      "id": "R23-18",
+      "antes": "Leve confundido com Oculta e Volume na fonte histórica.",
+      "depois": "Glossário distingue Volume de propriedade e o índice aponta os contextos; lista de armas fica no equipamento.",
+      "motivo": "Sincronização R05 da propriedade ainda depende da consolidação aprovada no R18.",
+      "tipo": "interface"
+    },
+    {
+      "id": "R23-19",
+      "antes": "Títulos longos de intervalos do índice incluíam habilidades.",
+      "depois": "Índice numerado com faixa alfabética; títulos gerais curtos.",
+      "motivo": "A navegação lateral representa páginas de consulta, não um marcador por termo.",
+      "tipo": "editorial"
+    },
+    {
+      "id": "R23-20",
+      "antes": "Patentes remetia ao início geral da progressão, aguardando explicação própria.",
+      "depois": "Patente e Grau (patente) remetem a prog-patentes, integrada pela raiz.",
+      "motivo": "Conferir o conceito no dono da progressão e separá-lo do grau dos equipamentos.",
+      "tipo": "sincronizacao"
+    },
+    {
+      "id": "R23-21",
+      "antes": "Índice Cura apontava apenas para a Forma de montagem.",
+      "depois": "Cura (recuperação) e Cura (Forma) recebem destinos distintos.",
+      "motivo": "Correção identificada pela leitura independente da raiz: leitor que busca recuperar vida precisa localizar seu procedimento.",
+      "tipo": "correcao-editorial"
+    },
+    {
+      "id": "R23-22",
+      "antes": "Ficha de entidade não tinha campo de Integridade.",
+      "depois": "Campo atual/máximo, quando aplicável, sem conceder alma ou reserva por existir um campo.",
+      "motivo": "Entidades com alma precisam registrar o recurso atingido; a aquisição e regra do corpo permanecem no dono.",
+      "tipo": "correcao-editorial"
+    },
+    {
+      "id": "R23-23",
+      "antes": "Nova regra de queda exige registros ausentes da ficha antiga.",
+      "depois": "Ficha de recuperação reúne referência, janela, tratamento, Sequelas, custos, Integridade e desfecho; Derrotado, Estabilizar e Inconsciente recebem definições breves.",
+      "motivo": "Apoiar execução de R03 sem duplicar fórmulas, valores ou criar procedimentos concorrentes.",
+      "tipo": "sincronizacao"
+    },
+    {
+      "id": "R23-24",
+      "antes": "Destinos antigos divididos em provas históricas de testes, combate, movimento, dano e recuperação.",
+      "depois": "Consulta atual usa os dois donos consolidados: Regras gerais e Dano e Recuperação.",
+      "motivo": "Remissões precisas: Concentração, Reações, Ajudar, Inconsciente e estágios, com âncoras verificadas.",
+      "tipo": "sincronizacao"
+    },
+    {
+      "id": "R23-25",
+      "antes": "Incapacitado descrevia uma condição que não retira ações.",
+      "depois": "Nome anterior permanece somente como alias no índice, apontando para Guarda Aberta após a renomeação transversal.",
+      "motivo": "Preservar busca histórica sem redefinir efeito nem conservar nome ambíguo na ficha corrente.",
+      "tipo": "sincronizacao"
+    },
+    {
+      "id": "R23-26",
+      "antes": "Índice de prova com25 linhas por página para248 entradas.",
+      "depois": "Até26 linhas por página; nova ficha acrescenta uma página principal e novos aliases ampliam o índice em uma página.",
+      "motivo": "Acomodar destinos de recuperação sem números físicos inventados; a integração reunirá o índice único com paginação automática.",
+      "tipo": "diagramacao"
+    },
+    {
+      "id": "R23-27",
+      "antes": "Passiva/Classe Passiva sugeriam ativação sempre automática e misturavam escalas; Avisos nomeava duas capacidades.",
+      "depois": "Talento e Categoria de Efeito (CE) são os termos atuais; Expressão da técnica identifica o benefício gratuito; Identificar Feitiço e Leitura de Feitiços distinguem as duas entradas antigas.",
+      "motivo": "Sincronizar pauta aprovada pela raiz sem mudar procedimentos. Aliases históricos ficam somente no índice, com destino verificável.",
+      "tipo": "sincronizacao"
+    },
+    {
+      "id": "R23-28",
+      "antes": "Vinte destinos do glossário/índice ainda usavam provas de equipamento anteriores à consolidação.",
+      "depois": "Destinos usam EQUIPAMENTO.md e o mapa de âncoras do dono; Volumosa remete Armas escondidas.",
+      "motivo": "Teste --strict do livro único localizou as referências fora da seleção. A auditoria local passa a conferir também a inclusão no livro consolidado.",
+      "tipo": "sincronizacao"
+    },
+    {
+      "id": "R23-29",
+      "antes": "Título de prova Índice1:A–A mantinha número técnico e repetia letra.",
+      "depois": "Títulos exibem Índice:A ou Índice:A–B conforme a faixa, mantendo os IDs internos.",
+      "motivo": "Raiz solicitou rótulos de consulta legíveis também na prova; não muda ordem, destinos ou regra.",
+      "tipo": "diagramacao"
+    },
+    {
+      "id": "R23-30",
+      "antes": "Definição de Categoria de Efeito cobria apenas Talentos; aliases históricos usavam Avisos.",
+      "depois": "Definição inclui Talentos, Aptidões e Bênçãos e remete à aquisição de cada entrada. Os dois aliases usam Aviso, no singular.",
+      "motivo": "Leitura independente da raiz apontou suficiência conceitual e grafia histórica. Nenhuma mudança em requisitos ou valores.",
+      "tipo": "correcao-editorial"
+    }
+  ]
+}

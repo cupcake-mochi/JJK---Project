@@ -1,0 +1,302 @@
+[
+  {
+    "id": "R08-01",
+    "tipo": "editorial",
+    "secao": "degraus",
+    "antes": "Domínio dentro de capítulo de montagem com longa tabela de personagens da obra.",
+    "depois": "Capítulo próprio, entrada direta e remissão única a Fundamento para Máxima/Liberação.",
+    "motivo": "Evitar repetir as regras já concluídas em R06; permitir consulta por tarefa.",
+    "impacto_ou_limite": "Nenhum número alterado.",
+    "status": "candidata revisada; não publicada"
+  },
+  {
+    "id": "R08-02",
+    "tipo": "preservação",
+    "secao": "degraus",
+    "antes": "Incompleta2;Completa3(+1);SemBarreiras5(+2), níveis/refino e especialização.",
+    "depois": "Mesmos totais e requisitos, cadeia explicitada.",
+    "motivo": "Impedir leitura de custo integral repetido ou acesso ao último grau ignorando prévios.",
+    "impacto_ou_limite": "Nenhum número alterado.",
+    "status": "candidata revisada; não publicada"
+  },
+  {
+    "id": "R08-03",
+    "tipo": "editorial",
+    "secao": "criardominio",
+    "antes": "Acerto e Efeito definidos em uma frase; exemplos canônicos sem fichas.",
+    "depois": "Procedimento para escrever alvos, ação, prazo, consequências e limites; duas fichas originais.",
+    "motivo": "Promover criatividade executável, sem copiar poderes do mangá ou inventar orçamento geral para Efeito.",
+    "impacto_ou_limite": "Efeitos próprios continuam exigindo revisão da ficha: não há catálogo exaustivo de qualquer poder imaginável.",
+    "status": "candidata revisada; não publicada"
+  },
+  {
+    "id": "R08-04",
+    "tipo": "mecânica de fechamento",
+    "secao": "acerto",
+    "antes": "Acerto de dano usa régua Inescapável; conta histórica 3C−Média.",
+    "depois": "Dano2C d8 fixado, sem desconto de Família nem outras peças, em cada alvo.",
+    "motivo": "Expor o valor que casca-sem-barreira.py realmente media; impedir que Livre aumente o Acerto gratuitamente.",
+    "impacto_ou_limite": "2C é o perfil neutro histórico; leituras anteriores que descontavam a Média Livre produziam mais dados e deixam de caber.",
+    "status": "candidata revisada; não publicada"
+  },
+  {
+    "id": "R08-05",
+    "tipo": "mecânica de fechamento",
+    "secao": "acerto",
+    "antes": "Alvos pouco definidos; exemplos insinuam escolha e contato para poupar.",
+    "depois": "Dano afeta criaturas com energia exceto dono; aliados incluídos; objeto/sem energia exige capacidade registrada.",
+    "motivo": "Fechar alvo padrão e evitar exclusão gratuita dos aliados.",
+    "impacto_ou_limite": "Interpretação de jogo, não confirmação canônica. Ausência de energia não significa PE momentaneamente zero.",
+    "status": "candidata revisada; não publicada"
+  },
+  {
+    "id": "R08-06",
+    "tipo": "mecânica de fechamento",
+    "secao": "acerto",
+    "antes": "Incompleta rola como feitiço, sem indicar resolução.",
+    "depois": "Ficha escolhe ataque individual ou TR Físico para dano; regra ambiental usa Espírito e dura até próximo Acerto/fim.",
+    "motivo": "Permitir executar Incompleta sem inventar resolução durante a luta.",
+    "impacto_ou_limite": "Novo procedimento explícito para regra ambiental incompleta; requer teste em mesa. Mantido mesmo2C d8 da ficha ao completar.",
+    "status": "candidata revisada; não publicada"
+  },
+  {
+    "id": "R08-07",
+    "tipo": "compatibilidade",
+    "secao": "acerto",
+    "antes": "Acerto garantido sem ataque nemTR.",
+    "depois": "Sem crítico por ausência de ataque; mantém RD/resistência/imunidade aplicáveis.",
+    "motivo": "Garantido não significa ignorar todas as defesas.",
+    "impacto_ou_limite": "Nenhum número alterado.",
+    "status": "candidata revisada; não publicada"
+  },
+  {
+    "id": "R08-08",
+    "tipo": "mecânica de fechamento",
+    "secao": "criardominio",
+    "antes": "Regra sobre ambiente usa critérios de Regra Própria; Efeito pouco limitado.",
+    "depois": "Simetria inclui dono; Efeito não remove essa simetria nem concede outro Acerto, peças grátis ou conversão automática em cura.",
+    "motivo": "Evitar proibição unilateral sem oposição ou dano+controle inteiro sob rótulo Efeito.",
+    "impacto_ou_limite": "Não elimina domínios originais; exige escrever as exceções e avaliar cada ficha.",
+    "status": "candidata revisada; não publicada"
+  },
+  {
+    "id": "R08-09",
+    "tipo": "mecânica de fechamento",
+    "secao": "abertura",
+    "antes": "Metade do refino em rodadas; Acerto abertura+começo de turnos; conta históricaR10=6.",
+    "depois": "Abertura mais floorR/2 turnos seguintes; encerra no fim do último.",
+    "motivo": "Preservar seisAcertos e cinco turnos com desconto que as contas históricas já usavam.",
+    "impacto_ou_limite": "O endpoint antes indefinido é uma decisão operacional: fim do último turno, não seu começo.",
+    "status": "candidata revisada; não publicada"
+  },
+  {
+    "id": "R08-10",
+    "tipo": "mecânica solicitada",
+    "secao": "sembarreiras",
+    "antes": "Raio200m.",
+    "depois": "Raio199,5m=133quadrados.",
+    "motivo": "Cumprir pedido expresso de medidas em múltiplos1,5m.",
+    "impacto_ou_limite": "Redução0,5m=0,25% no raio e ~0,4994% na área. O valor é do sistema, não afirmação de alcance canônico.",
+    "status": "candidata revisada; não publicada"
+  },
+  {
+    "id": "R08-11",
+    "tipo": "compatibilidade",
+    "secao": "abertura",
+    "antes": "Custo rodada inteira, conta comofeitiço para limite conjuração.",
+    "depois": "Ação Completa e Selo; abertura consome conjuração; Acerto periódico não é nova conjuração; domínio semClasse própria.",
+    "motivo": "Usar terminologia atual sem acionar benefícios por Classe inexistente.",
+    "impacto_ou_limite": "Nenhum número alterado.",
+    "status": "candidata revisada; não publicada"
+  },
+  {
+    "id": "R08-12",
+    "tipo": "mecânica de fechamento",
+    "secao": "abertura",
+    "antes": "Desconto nosfeitiços, piso1; ordem com metade ausente.",
+    "depois": "Desconto antes da metade; piso1 sócustopositivo; Classe0 permanece0.",
+    "motivo": "Evitar aumento involuntário do custo gratuito e definir interação com Eco/Cobrança.",
+    "impacto_ou_limite": "Ordens possíveis não eram equivalentes: custo15−5 depois metade=5, metade15 depois−5=3. Conservador para não empilhar redução excessiva.",
+    "status": "candidata revisada; não publicada"
+  },
+  {
+    "id": "R08-13",
+    "tipo": "mecânica de fechamento",
+    "secao": "abertura",
+    "antes": "Seusfeitiços ficam mais baratos, sem delimitar outras despesas.",
+    "depois": "Inclui Liberação/Máxima conjuradas; não aptidões/itens/nova abertura.",
+    "motivo": "Aplicar a categoria feitiço sem conceder desconto universal de PE.",
+    "impacto_ou_limite": "Abertura não passa a se pagar abrindo outro domínio barato; Extensão e Reversa mantêm custos próprios.",
+    "status": "candidata revisada; não publicada"
+  },
+  {
+    "id": "R08-14",
+    "tipo": "mecânica de fechamento",
+    "secao": "barreira",
+    "antes": "Só PV exterior/interior, sem Defesa/TR.",
+    "depois": "Alcance e compatibilidade obrigatórios; ataque a estrutura acerta semcrítico; estrutura falhaTR; mantém ação.",
+    "motivo": "Tornar executável a ruptura externa sem inventar Defesa nova.",
+    "impacto_ou_limite": "Exceção de alvo extenso imóvel; consolidar depois com capítulo de objetos. Não prova regras canônicas de barreiras.",
+    "status": "candidata revisada; não publicada"
+  },
+  {
+    "id": "R08-15",
+    "tipo": "mecânica de simplificação",
+    "secao": "barreira",
+    "antes": "ExteriorH, interior2H+resistência; sem vínculo entre vidas.",
+    "depois": "Uma reserva exterior H; dano na borda interna alcançável é dividido por quatro, arredondado uma vez para cima; não se somam outra resistência nem uma segunda reserva.",
+    "motivo": "Impedir restauração ao trocar de face e reduzir contabilidade.",
+    "impacto_ou_limite": "Exato semarredondamento. Para danos pequenos repetidos muda durabilidade: H100 e impactos1, antigo interior exige200; novo exige100. Diferença inferior1PV exterior porimpacto, acumulável. Teste de mesa necessário.",
+    "status": "candidata revisada; não publicada"
+  },
+  {
+    "id": "R08-16",
+    "tipo": "mecânica de fechamento",
+    "secao": "barreira",
+    "antes": "Mover completo com pénochão gastandodeslocamento, ocupantesnão percebem.",
+    "depois": "Exige poder se deslocar; corpo e barreira mudamposiçãoexterna, posiçõesrelativas mantidas; não atravessa Agarrado; sem dano/captura porvarrerárea.",
+    "motivo": "Evitar transporte como dano grátis ou fuga de condição de movimento.",
+    "impacto_ou_limite": "Geometria externa precisa ser representada no mapa; sem reposicionamento interno automático.",
+    "status": "candidata revisada; não publicada"
+  },
+  {
+    "id": "R08-17",
+    "tipo": "mecânica de fechamento",
+    "secao": "barreira",
+    "antes": "Incompleta/aberto fixos, saída do dono sem consequência definida.",
+    "depois": "Persistem e aplicam Acerto; dono fora perde benefícioslocais; prazo não reinicia.",
+    "motivo": "Fechar o estado quando dono deixa área sem criar novo requisito de concentração.",
+    "impacto_ou_limite": "Permite atacar domínios porfora sem extinguir automaticamente área; riscos de alcance permanecem.",
+    "status": "candidata revisada; não publicada"
+  },
+  {
+    "id": "R08-18",
+    "tipo": "editorial/compatibilidade",
+    "secao": "rescaldo",
+    "antes": "Só quebrar casca encurta, mas seções posteriores citam0PV/disputa/tempo/concentração.",
+    "depois": "Lista única das causas de encerramento, voluntáriosem ação e apenasum próprio ativo.",
+    "motivo": "Resolver contradição interna e distinguir Rescaldo do perdedor e do vencedor.",
+    "impacto_ou_limite": "Nenhum número alterado.",
+    "status": "candidata revisada; não publicada"
+  },
+  {
+    "id": "R08-19",
+    "tipo": "mecânica de fechamento",
+    "secao": "rescaldo",
+    "antes": "Técnica nãoresponde pelo resto cena, excetoClass0; efeitosprévios não tratados.",
+    "depois": "Impede novos usos; instantâneos não são desfeitos; sustentação que exige técnica cessa; prazos próprios permanecem.",
+    "motivo": "Evitar apagar cura já recebida ou manter capacidade que exige técnica indisponível.",
+    "impacto_ou_limite": "Interfaces de invocação precisam respeitar regra própria de sustentação; não foi refeito Invocações.",
+    "status": "candidata revisada; não publicada"
+  },
+  {
+    "id": "R08-20",
+    "tipo": "mecânica de fechamento",
+    "secao": "sembarreiras",
+    "antes": "Acerto abertura/turno e regraambiental semtiming entrada/saída.",
+    "depois": "Dano só nosgatilhos; regra contínua vigora ao entrar/voltar; Incompleta conserva TR/prazo, semrerrolarporvai-volta.",
+    "motivo": "Não transformar cada movimento em novo dano nem permitir rerrolagem gratuita para escapar regra.",
+    "impacto_ou_limite": "Nenhum número alterado.",
+    "status": "candidata revisada; não publicada"
+  },
+  {
+    "id": "R08-21",
+    "tipo": "compatibilidade",
+    "secao": "protecao",
+    "antes": "Defesasatualizadas na peça11, diferentesdo rascunho sembarreira.",
+    "depois": "Página de interface, sem copiar as aptidões: proteção anula apenas o alcance previsto; regra contínua volta ao fim da proteção; Acerto já suspenso por disputa não consome relógio defensivo.",
+    "motivo": "Não reintroduzir Simples antigo ilimitado ou fazer proteção funcionar contra Incompleta sempermissão.",
+    "impacto_ou_limite": "Custos/quedas particulares pertencem a Aptidões; não duplicados aqui.",
+    "status": "candidata revisada; não publicada"
+  },
+  {
+    "id": "R08-22",
+    "tipo": "mecânica de fechamento",
+    "secao": "disputa",
+    "antes": "Perdedor recebe Acerto, abertura tambémaplica.",
+    "depois": "Mesmoevento de abertura não duplica; derrota fora de turno éextra; apenasdono recebeextra, sujeitosalcance/proteções.",
+    "motivo": "Evitar dois Acertos gratuitos na abertura e imunidade ignorada pela palavra garantido.",
+    "impacto_ou_limite": "Demaisocupantes recebem aplicaçõesnormais, sem danoextra por cadaderrota de um rival.",
+    "status": "candidata revisada; não publicada"
+  },
+  {
+    "id": "R08-23",
+    "tipo": "preservação",
+    "secao": "disputa",
+    "antes": "Refino→sem dano→d12 margem4→corrida, umarolagem.",
+    "depois": "Mesma ordem; mover e voltar mesmaExpansão não rerrola.",
+    "motivo": "Preservar72/144 resoluções imediatas e impedir pesca de resultado.",
+    "impacto_ou_limite": "Nenhum número alterado.",
+    "status": "candidata revisada; não publicada"
+  },
+  {
+    "id": "R08-24",
+    "tipo": "mecânica de fechamento",
+    "secao": "manterdisputa",
+    "antes": "Inimigo um TR porjogador porrodada vsmaiorCD; momento desconhecido.",
+    "depois": "Primeirodano rola e conserva total; CD posterior maior reavalia esse total; no máximo umafalha.",
+    "motivo": "Respeitar maiorCD sem exigir prever futurosataques ou dar testesextras.",
+    "impacto_ou_limite": "Bônus/ vantagem são os do primeiroteste. A falha pode surgir no ataque posterior; registrar em mesa.",
+    "status": "candidata revisada; não publicada"
+  },
+  {
+    "id": "R08-25",
+    "tipo": "compatibilidade",
+    "secao": "manterdisputa",
+    "antes": "Tododano causa TR; seminvocações contra inimigo; separadoConcentração.",
+    "depois": "Mantido; dano0 nãopede; absorçãoporPVtemp ainda dano.",
+    "motivo": "Alinhar resolução a Dano sem penalizar uma aplicação totalmente impedida.",
+    "impacto_ou_limite": "Nenhum número alterado.",
+    "status": "candidata revisada; não publicada"
+  },
+  {
+    "id": "R08-26",
+    "tipo": "mecânica de fechamento",
+    "secao": "sobreposicao",
+    "antes": "Incompleta interferesemvencer, abrepassagem; abertoafetaexterior.",
+    "depois": "Procedimentoporpares e área; casca recebeumaaplicação porpulso e não causaTR no dono; fimIncompleta não criaAcertoextra.",
+    "motivo": "Separar vida da casca e dono; impedir multiplicação pelo número deocupantes.",
+    "impacto_ou_limite": "Nenhum número alterado.",
+    "status": "candidata revisada; não publicada"
+  },
+  {
+    "id": "R08-27",
+    "tipo": "mecânica de fechamento",
+    "secao": "multiplos",
+    "antes": "3+barreiras caem; aberto não conta; falta geometriadecadeia.",
+    "depois": "Exige regiãocomum; abertas/incompletas não contam; queda conjunta não dáextra aoaberto remanescente.",
+    "motivo": "Evitar cadeia deáreasdisjuntas derrubar barreiras que nunca se encontraram.",
+    "impacto_ou_limite": "Casos de geometria complexa continuam requerendo mapa, não novo poder de barreira.",
+    "status": "candidata revisada; não publicada"
+  },
+  {
+    "id": "R08-28",
+    "tipo": "mecânica de fechamento",
+    "secao": "multiplos",
+    "antes": "Maisdedoisabertos e váriascomparações não definidos.",
+    "depois": "Resolver pares simultâneos; umd12 porparticipante; perdas calculadas antesderetirar; umAcerto porvencedor/derrotado/evento.",
+    "motivo": "Evitar decisão pela ordem administrativa da mesa.",
+    "impacto_ou_limite": "Novo procedimento para caso raro. Testado combinatoriamente; ainda não testado comjogadores.",
+    "status": "candidata revisada; não publicada"
+  },
+  {
+    "id": "R08-29",
+    "tipo": "editorial/cânone",
+    "secao": "galeriavidro",
+    "antes": "Tabela atribui regras a nove personagens, algumas semverificação primária acessível.",
+    "depois": "Removida da candidata; exemplosoriginais Galeria, Sala e confrontocomnúmeros.",
+    "motivo": "Não vender adaptação como cânone nem certificaro que sóumíndice confirma.",
+    "impacto_ou_limite": "FonteVIZ225 pede assinatura; siteanime7 é sinopse, nãoexplica regras. Revisão canônica limitada declaradamente.",
+    "status": "candidata revisada; não publicada"
+  },
+  {
+    "id": "R08-30",
+    "tipo": "editorial/número",
+    "secao": "confronto",
+    "antes": "CascaR10 cai4ºAcerto médio, conta no script sem exemplo completo no capítulo.",
+    "depois": "Abertura+três turnos:250→187→124→61→0; perdedor recebeAcertopróprio separado.",
+    "motivo": "Mostrar tempo para contrajogo e perda peloTR sem confundir dano na casca com dano recebido.",
+    "impacto_ou_limite": "Nenhum número alterado.",
+    "status": "candidata revisada; não publicada"
+  }
+]

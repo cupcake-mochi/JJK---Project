@@ -1,0 +1,343 @@
+<!-- page:ab-apresentacao|Projeto - M -->
+# Projeto - M
+
+**Um RPG de mesa no universo de Jujutsu Kaisen.**
+
+Crie um personagem, desenvolva suas capacidades e participe de missões com outros jogadores. Seu grupo pode investigar desaparecimentos, proteger alguém perseguido por uma maldição ou recuperar um objeto perigoso antes que caia nas mãos erradas. Ao longo dessas aventuras, as escolhas do personagem, seus companheiros e seus inimigos passam a fazer parte de uma história própria.
+
+Projeto - M oferece regras para criar técnicas, lutar com armas, comandar invocações e explorar outras formas de enfrentar o sobrenatural. Você decide quem é seu personagem e como ele usa o que sabe. Uma mesma técnica pode sustentar aplicações diferentes: fios podem cortar, prender ou puxar, conforme os efeitos que você construir para eles.
+
+## Jogadores e mestre
+
+Cada jogador interpreta um personagem. Você descreve o que ele diz e tenta fazer, escolhe suas ações e registra suas capacidades na **ficha**. Uma pessoa assume o papel de **mestre**: apresenta os lugares, interpreta as outras pessoas e criaturas, conduz os perigos e aplica as regras quando o resultado de uma tentativa precisa ser decidido.
+
+O grupo conversa para descobrir o que acontece. Se você disser que procura uma entrada para o prédio, o mestre descreve o que consegue ver. Arrombar uma porta sob pressão pode pedir uma rolagem. Abrir uma porta destrancada normalmente só exige chegar até ela e abri-la. As regras entram conforme a situação.
+
+## Campanhas e guildas
+
+Uma **sessão** é um encontro para jogar. Várias sessões ligadas pelos mesmos personagens e acontecimentos formam uma **campanha**. Vocês podem jogar presencialmente ou pela internet.
+
+Este sistema foi preparado também para **guildas**: comunidades, muitas vezes organizadas em um servidor, nas quais diferentes mestres oferecem missões e os jogadores continuam usando os mesmos personagens. Nesse formato, a ficha, os recursos gastos e as consequências de cada missão precisam permanecer registrados. A organização informa quais personagens podem participar de cada mesa e como registrar os resultados.
+
+Guilda é uma forma de organizar o jogo. A instituição a que os personagens pertencem dentro da história pode ser uma escola, um grupo independente ou outra organização definida pela campanha.
+
+> Projeto - M é um material de fã baseado na obra de Gege Akutami. Suas regras, personagens de exemplo e missões são criações para este jogo. As escolhas de adaptação estão reunidas em Referências e adaptação.
+
+<!-- page:ab-primeira-sessao|Primeira sessão -->
+# Primeira sessão
+
+Para jogar, reúna o grupo, uma ficha por personagem e acesso a este livro. Use lápis e papel ou ferramentas digitais para anotar vida, energia, equipamento e condições durante a missão.
+
+## Dados
+
+O jogo usa dados de **4, 6, 8, 10, 12 e 20 faces**, abreviados como d4, d6, d8, d10, d12 e d20. Um aplicativo de dados também serve.
+
+**3d8** significa rolar três dados de oito faces e somar os resultados. **1d6 + 2** significa rolar um dado de seis faces e acrescentar 2. A regra que pede a rolagem informa quais modificadores entram. Em Testes, você encontrará o procedimento completo para resolver uma tentativa.
+
+## Combinados do grupo
+
+Antes de criar as fichas, conversem sobre a campanha: onde e quando ela acontece, quem reúne os personagens e qual será a primeira missão. Decidam também o espaço de cenas violentas, terror e conflitos entre personagens. Qualquer participante pode pedir uma pausa ou a mudança de um conteúdo que o incomode. Acordos entre jogadores não precisam ser resolvidos com dados.
+
+O mestre informa o nível e os recursos iniciais. O padrão deste livro é **nível 2**, com personagens que já escolheram sua primeira Trilha. Uma campanha pode começar no nível 1, antes dessas habilidades. A patente inicial padrão é Grau 4. Nível e patente têm funções diferentes, explicadas em Progressão.
+
+## Seu começo
+
+Se você está conhecendo o universo, leia **Mundo jujutsu**. Para preencher a ficha, siga **Criar um personagem**, consultando as opções nos capítulos de Origens e Caminhos. O exemplo **Resgate na ala oeste** mostra uma cena resolvida com dados e recursos já anotados.
+
+Durante a sessão, consulte Regras gerais para testes, movimento e ataques, Dano e recuperação para as consequências e Equipamento para os itens. As regras para montar uma técnica ficam no Fundamento. Você pode aprender suas próprias escolhas primeiro e consultar os demais catálogos quando precisar deles.
+
+<!-- page:ab-mundo|Mundo jujutsu -->
+# Mundo jujutsu
+
+Jujutsu Kaisen se passa num mundo de escolas, hospitais, estações e ruas familiares, onde as pessoas também convivem com ameaças que a maioria não consegue enxergar. Medo, rancor e outras emoções negativas estão na origem das maldições. Uma investigação pode começar com relatos de acidentes, um objeto encontrado por estudantes ou uma pessoa que parou de voltar para casa.
+
+## Maldições
+
+As maldições são seres sobrenaturais capazes de ferir pessoas. Suas formas e seu comportamento variam. Algumas atacam como animais. Outras falam, planejam e usam capacidades próprias. Encontrar uma criatura que conversa pode mudar uma investigação, mas não revela de imediato suas intenções.
+
+**Exorcizar** é eliminar uma maldição. O trabalho também pode envolver encontrar vítimas, retirar pessoas de uma área perigosa e descobrir o que está atraindo ou sustentando aquela ameaça. O objetivo de uma missão determina o que precisa ser resolvido.
+
+## Energia e técnicas
+
+A **energia amaldiçoada** permite enfrentar essas ameaças. Feiticeiros aprendem a empregá-la em suas capacidades. Uma **técnica amaldiçoada** tem um funcionamento próprio, como controlar sombras ou alterar uma propriedade daquilo que alcança. Entender esse funcionamento ajuda a decidir o que tentar e a reconhecer seus limites.
+
+No jogo, você descreve sua técnica e monta suas aplicações usando o Fundamento. Chamamos cada aplicação preparada de **feitiço**. Pontos de energia, Classes, espaços conhecidos e demais valores são regras do Projeto - M para organizar seu uso na mesa.
+
+## Ver e perceber
+
+Pessoas comuns normalmente não veem maldições. A obra apresenta circunstâncias e personagens que fogem desse padrão. Para jogar, confira as capacidades da sua ficha e os procedimentos de Percepção e energia.
+
+Perceber um vestígio não significa conhecer seu autor, sua distância exata ou a intenção de quem o deixou. O mestre informa o que a observação permite descobrir. A procura por pistas pode continuar por testemunhas, marcas no lugar e informações recolhidas durante a missão.
+
+<!-- page:ab-sociedade|Sociedade jujutsu -->
+# Sociedade jujutsu
+
+As escolas jujutsu de **Tóquio e Kyoto** fazem parte da formação e da atuação dos feiticeiros. Estudantes, professores e outros profissionais lidam com missões, treinamento e os interesses de quem dirige essa sociedade. Também há feiticeiros que trabalham de forma independente.
+
+## Famílias e instituições
+
+Algumas famílias transmitem conhecimentos, técnicas e posições de influência. Pertencer a uma delas pode abrir portas e criar obrigações. A história de um personagem pode envolver aprender uma tradição, disputar seu lugar na família ou se afastar dela.
+
+Na campanha, o mestre apresenta as pessoas e organizações que importam para o grupo. Uma audiência com um superior, uma ordem de missão e um pedido de ajuda podem levar a decisões diferentes. Os vínculos do personagem ajudam a explicar por que ele aceita um trabalho e o que arrisca ao recusá-lo.
+
+## Pessoas e poderes
+
+O universo inclui estudantes que aprendem a lidar com seu poder, profissionais experientes, pessoas ligadas a objetos amaldiçoados e corpos criados por jujutsu. Capacidades físicas, ferramentas e conhecimentos também podem ter grande importância numa luta.
+
+As **Origens** do Projeto - M organizam essas possibilidades para a criação de personagens. São categorias do sistema, com escolhas próprias. O grupo define quais estão disponíveis e como elas participam da campanha. Sua ficha informa as capacidades que você possui, mesmo quando sua história menciona mais de uma dessas possibilidades.
+
+## Campanha própria
+
+Vocês podem jogar numa época e num lugar escolhidos pelo grupo, com missões e personagens próprios. Definam antes de começar quanto a história depende dos acontecimentos do mangá e do anime. Isso evita que conhecer uma revelação da obra seja necessário para participar da mesa.
+
+> **Ponto de partida:** três pessoas desapareceram perto de uma estação fechada. Uma delas enviou uma foto de um corredor que não consta da planta do prédio. O grupo recebe o local da última mensagem e o contato de uma funcionária que esteve lá. Descobrir o acesso, encontrar os desaparecidos e sair com eles são objetivos que podem exigir abordagens diferentes.
+
+<!-- page:ab-criacao|Criar um personagem -->
+# Criar um personagem
+
+Comece com uma ideia que você gostaria de interpretar: alguém que herdou uma obrigação familiar, sobreviveu a um encontro com uma maldição ou aprendeu a lutar para proteger outra pessoa. Escolha um nome e pense no motivo para trabalhar com o grupo. Os detalhes podem crescer durante as sessões.
+
+Este roteiro usa a criação padrão no **nível 2**. Se a campanha começar em outro nível, faça as escolhas iniciais e aplique os ganhos correspondentes em Progressão.
+
+| Etapa | Escolha |
+|---|---|
+| 1. Atributos | Distribua seus nove pontos. |
+| 2. Origem | Escolha sua história inicial, seus Legados e os treinos concedidos. |
+| 3. Caminho | Escolha sua forma de atuar e sua primeira Trilha. |
+| 4. Capacidades | Prepare técnica, Manejos ou Katas, conforme sua rota. |
+| 5. Equipamento | Receba o uniforme e faça suas compras. |
+| 6. Ficha | Calcule os valores, confira escolhas e registre recursos. |
+
+## Atributos
+
+Distribua **9 pontos** entre Força, Destreza, Constituição, Inteligência e Essência. Cada ponto aumenta o atributo em 1. Nenhum pode começar abaixo de 0 ou acima de 3. Um valor 0 é permitido.
+
+Os atributos representam capacidades distintas. Força participa do esforço físico. Destreza, da precisão e dos movimentos. Constituição, da resistência corporal. Inteligência, do raciocínio e do conhecimento. Essência, da presença e da relação com energia amaldiçoada. As regras de cada teste indicam qual usar.
+
+Em Projeto - M, o número anotado já é o valor somado quando uma regra pede o atributo. **Força 3 fornece +3**, sem uma conversão adicional.
+
+> **Exemplo:** Kaori recebe Força 3, Destreza 2, Constituição 2, Inteligência 1 e Essência 1. A soma é 9. Ela será forte e resistente desde o começo, conservando alguma capacidade nos demais atributos.
+
+Você pode revisar a distribuição enquanto monta a ficha. Confira os requisitos de suas escolhas antes de concluí-la. Aumentos posteriores de atributo seguem Progressão.
+
+<!-- page:ab-origem|Origem e treinos -->
+# Origem e treinos
+
+Escolha **uma Origem** no capítulo de Origens. Leia sua entrada inteira e anote o traço, os dois Legados iniciais e os treinos que ela concede. Pelo menos um dos Legados deve ser narrativo.
+
+A Origem fornece **uma perícia de sua lista e uma perícia à sua escolha**, além de **dois ofícios**. Você pode trocar os dois ofícios por mais uma perícia livre. Essa troca precisa ser anotada: você deixa de receber ambos os ofícios.
+
+O Caminho acrescentará duas perícias indicadas em sua entrada e cinco escolhas livres. Portanto, antes de trocas específicas, a criação reúne **nove perícias e dois ofícios**, ou **dez perícias sem ofícios** quando usar a troca acima. Repetir um treino não soma Maestria outra vez. Confira a regra de escolhas repetidas em Origens.
+
+## Testes de Resistência
+
+Você recebe **um TR treinado pela Origem e outro pelo Caminho**. Escolha dois diferentes entre Físico, Vigor, Intelecto e Espírito.
+
+Na criação, escolha também se seu **TR Físico** usará Força ou Destreza. A escolha permanece na ficha, mesmo se você não treinar esse TR. Vigor usa Constituição, Intelecto usa Inteligência e Espírito usa Essência.
+
+Treino acrescenta Maestria à rolagem. No nível 2, a Maestria é **1**. Um TR sem treino ainda usa seu atributo.
+
+> **Exemplo:** Kaori escolhe TR Físico com Força e treina Físico e Vigor. Seus bônus são **+4 em Físico**, **+3 em Vigor**, **+1 em Intelecto** e **+1 em Espírito**.
+
+## Registro dos treinos
+
+Marque cada perícia, ofício e TR na ficha, junto de seu atributo. Anote a origem de uma escolha trocada. Isso permite conferir o total e aplicar futuros ganhos sem repetir treinos.
+
+Comprar uma ferramenta ou escrever uma experiência na história não concede automaticamente treino. Use as escolhas da criação para representar o que o personagem aprendeu.
+
+<!-- page:ab-caminho|Caminho e Trilha -->
+# Caminho e Trilha
+
+O **Caminho** reúne suas capacidades principais de combate. A **Trilha** desenvolve uma especialidade dentro dele. Escolha um dos seis Caminhos e, no nível 2, uma de suas três Trilhas.
+
+| Caminho | Proposta de personagem |
+|---|---|
+| Bastião | Proteger companheiros e suportar a pressão dos inimigos. |
+| Vanguarda | Sustentar a ofensiva com armas e golpes. |
+| Guia | Apoiar o grupo, preparar recursos e criar oportunidades. |
+| Emanador | Concentrar sua atuação na conjuração e no controle da energia. |
+| Evocador | Lutar e cumprir tarefas ao lado de entidades. |
+| Incursor | Explorar mobilidade, precisão e oportunidades de combate. |
+
+Leia **Características** e **Progressão** no Caminho escolhido. Registre os treinos, a vida, os **pontos de energia (PE)** e as habilidades recebidas no seu nível. Depois faça o mesmo com a Trilha. As descrições completas permanecem nas respectivas entradas para consulta durante a sessão.
+
+## Treino com armas
+
+O Caminho informa com quais armas você começa treinado. Alguns permitem trocar duas das cinco perícias livres por treino numa arma específica. Essa opção está escrita em sua entrada. Quando fizer a troca, retire as duas perícias da conta e anote a arma escolhida.
+
+Treino não fornece a arma nem dispensa seus requisitos de uso. Você ainda precisa obtê-la e conferir Força, mãos e carga no catálogo de Equipamento.
+
+## Escolhas que se combinam
+
+A Origem e o Caminho cumprem funções diferentes na ficha. Um Descendente pode lutar com os punhos, apoiar companheiros ou comandar entidades, conforme as escolhas disponíveis. Confira também a rota de capacidades permitida pela Origem antes de escrever uma técnica.
+
+Na criação de nível 1, registre as características iniciais do Caminho. As habilidades e a primeira Trilha entregues no nível 2 serão recebidas quando você chegar a ele. Não antecipe essas entregas por já ter escolhido o que pretende seguir.
+
+<!-- page:ab-capacidades|Capacidades iniciais -->
+# Capacidades iniciais
+
+Sua rota determina o que você monta e qual recurso usa. Confira essa escolha em Origens antes de preparar as capacidades.
+
+| Rota | Preparação |
+|---|---|
+| Técnica inata | Escreva o Fundamento e monte seus feitiços. |
+| Sem Técnica | Defina a semente e crie Manejos pelas regras da rota. |
+| Técnica Marcial | Escolha a arma ou ferramenta do estilo e monte Katas. |
+
+As três rotas usam o processo de criação do Fundamento, com as substituições de seus capítulos. Usar um espaço conhecido para uma invocação exige um conceito que preveja entidades. As outras formas de aquisição seguem Criar uma invocação.
+
+## Técnica inata
+
+Escreva uma descrição do poder e uma frase que explique seu funcionamento. Escolha o atributo usado pela técnica, seus tipos de dano, duas Famílias Livres, três Fechadas, o Selo e a Expressão da técnica. O Fundamento explica cada parte e mostra a montagem de um primeiro feitiço.
+
+No nível 2, você tem **três espaços conhecidos**, além de **dois feitiços de Classe 0**. Comece por uma aplicação que gostaria de usar numa missão e complete sua ficha antes de passar à próxima. Confira a conta de espaços caso escolha Talentos pagos ou uma invocação. Os Classe 0 ficam numa contagem separada.
+
+## Aptidões
+
+Confira em Aptidões e Refino quais capacidades sua rota recebe no início. Refino e Lapidação têm progressões próprias. Algumas opções exigem treino, nível ou uma escolha específica. Uma aptidão citada no catálogo não se torna disponível só por estar no livro.
+
+Registre os valores que usa com frequência e o destino de consulta das demais regras. Quando uma habilidade modificar outra, anote a alteração na ficha correspondente. Isso evita esquecer um custo ou somar o mesmo benefício duas vezes.
+
+## Conferência com o mestre
+
+Antes da primeira sessão, confiram se o funcionamento descrito sustenta cada aplicação, se os requisitos podem ser identificados na cena e se as contas cabem nos limites da rota. Decisões sobre capacidades próprias devem ficar anotadas para que outros mestres possam aplicá-las do mesmo modo.
+
+<!-- page:ab-equipamento|Equipamento e valores -->
+# Equipamento e valores
+
+Na criação padrão, você recebe **um Traje 1 e ¥150.000** para comprar os demais itens. Use Equipamento inicial para montar o inventário e conferir acesso, preços de criação e fornecimento de munição.
+
+Anote também ferramentas, suprimentos e onde cada coisa fica guardada. Some o Volume do que leva, inclusive o uniforme vestido. Seu limite de carga normal é **5 + Força**. Possuir um item não permite usar uma peça cujos requisitos você não cumpre.
+
+## Vida e energia
+
+Use a vida inicial e o ganho por nível do seu Caminho. No nível 2, aplique o valor do primeiro nível e o ganho de mais um nível, incluindo Constituição em ambos. Para PE, use o máximo indicado no Caminho e as alterações específicas da sua rota.
+
+> **Exemplo:** o Caminho de Kaori concede **12 + Constituição** no primeiro nível e **7 + Constituição** no seguinte. Com Constituição 2, ela começa no nível 2 com **14 + 9 = 23 pontos de vida (PV)**. Seu PE máximo é **4 × nível = 8**.
+
+## Defesa e deslocamento
+
+Calcule a Defesa com Destreza, proteção e escudo, conforme as peças que você usa. Respeite o teto de Destreza da proteção. Fontes de proteção que não se acumulam não entram duas vezes.
+
+O deslocamento padrão é **9 m**. Aplique qualquer alteração efetivamente recebida pela ficha. Modos diferentes de movimento, terreno e excesso de carga seguem Movimento.
+
+## Ataques e testes
+
+Calcule separadamente o bônus de acerto e o dano de cada ataque. Treino acrescenta Maestria ao acerto quando a regra permitir. Um atributo presente no acerto não entra automaticamente no dano de um feitiço.
+
+Anote a **Classe de Dificuldade (CD)** das capacidades que pedem resistência. CD e bônus de ataque resolvem procedimentos distintos. A ficha da capacidade diz se você rola para acertar ou se o alvo faz um TR.
+
+Conclua os demais campos conforme a ficha, incluindo Integridade, Maestria, Refino ou Lapidação, perícias e TR. Compare cada total com suas escolhas antes de começar a missão.
+
+<!-- page:ab-kaori|Kaori -->
+# Kaori
+
+Kaori foi criada numa família que conserva registros de técnicas amaldiçoadas. Ela conhece as obrigações do sobrenome, mas prefere o trabalho em campo. Na equipe, costuma abrir espaço para que os companheiros alcancem quem precisa de ajuda.
+
+Ela é **Descendente, Bastião da Trilha Muro, nível 2 e Grau 4**. Este quadro reúne as partes de sua ficha usadas no exemplo a seguir. O repertório completo e as demais escolhas de uma personagem jogável devem ser preenchidos pelo roteiro de criação.
+
+| Campo | Valor |
+|---|---|
+| Atributos | Força 3, Destreza 2, Constituição 2, Inteligência 1, Essência 1. |
+| Vida e energia | 23 PV e 8 PE. |
+| Defesa | 13: base 10 + Destreza 2 + proteção 1 do Traje. |
+| Deslocamento | 9 m. |
+| Iniciativa | d20 + 2. |
+| Atletismo treinado | d20 + 4. |
+| Ataque de sua técnica | d20 + 4. |
+| CD de sua técnica | 12. |
+
+## Técnica de Kaori
+
+Sua técnica aumenta o peso daquilo que prende entre as mãos. Ela usa **Força** como atributo e causa **Concussão**. Suas Famílias Livres são Controle e Castigo. Amparo, Área e Auxiliares estão Fechadas. Seu Selo é tocar as palmas antes da conjuração.
+
+Sua Expressão da técnica faz linhas semelhantes a marcas de balança aparecerem nas palmas quando fala de algo importante. É uma manifestação visual. Alterar o peso de um objeto com consequências para a cena exige uma aplicação capaz de fazê-lo.
+
+## Peso nas Mãos
+
+**Classe 1 · Ação Padrão · 3 PE · Toque, até 1,5 m.** Kaori precisa cumprir seu Selo e encostar as duas mãos no alvo. Faça seu ataque de técnica contra a Defesa. No acerto, causa **3d8 de Concussão** e aplica **Derrubado por uma rodada**. No erro, o PE e a ação continuam gastos.
+
+A montagem tem 3 pontos, recebe 1 pela limitação de Corpo a Corpo da Forma Toque e paga 1 por Condição: Derrubado. Sobram 3 dados. O feitiço não soma o dano de um soco nem Força ao resultado dos d8.
+
+Essa ficha demonstra uma aplicação da técnica. As habilidades da Origem, do Caminho e da Trilha continuam com suas regras próprias. O exemplo usa somente a conjuração acima e a Defesa indicada.
+
+<!-- page:ab-resgate|Resgate na ala oeste -->
+# Resgate na ala oeste
+
+Uma funcionária da escola se trancou no arquivo depois de ser atacada no corredor. Ela conseguiu pedir socorro pelo celular. Kaori e sua equipe chegam à ala oeste para buscá-la.
+
+A maldição está diante do arquivo. Tem o tamanho de um cachorro grande, braços compridos e unhas que deixam sulcos na porta. Do outro lado, a funcionária responde quando Kaori chama seu nome.
+
+Kaori pede ao colega que procure uma saída para a funcionária. Ela pretende enfrentar a criatura e abrir o corredor. O mestre descreve o que está ao alcance da personagem e pergunta o que ela faz.
+
+## Antes do corredor
+
+Para chegar à ala oeste, Kaori encontrou uma porta emperrada. O mestre informou que forçá-la antes da chegada da criatura exigia **Atletismo, CD 14**. Kaori tirou 10 no d20. Seu bônus é +4: **10 + 4 = 14**, um sucesso. Ela abriu a passagem.
+
+O teste resolveu aquela tentativa. Se a porta estivesse destrancada e livre, bastaria abri-la. Se Kaori escolhesse procurar outra entrada, o mestre descreveria o caminho e seus obstáculos.
+
+## Posições
+
+Agora, no corredor, Kaori está a **1,5 m da maldição** e a **3 m da porta do arquivo**, numa passagem livre junto à parede. A criatura consegue alcançá-la. Kaori também pode usar Peso nas Mãos dessa posição, desde que tenha as mãos disponíveis.
+
+| Maldição do exemplo | Valor |
+|---|---|
+| Vida | 14 PV. |
+| Defesa | 12. |
+| Iniciativa | d20 + 3. |
+| Ataque de garras | d20 + 3, alcance 1,5 m. |
+| Dano das garras | 1d6 + 2 de Cortante. |
+
+O quadro fornece os valores usados nesta resolução guiada. Para conduzir um encontro com escolhas abertas, o mestre precisa de uma ficha completa, incluindo sentidos, movimento e resistências da criatura.
+
+<!-- page:ab-combate|Combate de exemplo -->
+# Combate de exemplo
+
+## Iniciativa
+
+O mestre pede Iniciativa quando a maldição se prepara para atacar. Kaori tira 11: **11 + 2 = 13**. A criatura tira 16: **16 + 3 = 19**. Ela age primeiro.
+
+## Ataque da maldição
+
+A maldição ataca Kaori com as garras. Tira 14 no d20: **14 + 3 = 17**. Kaori usa sua Defesa 13 para resolver o ataque. O total a supera, então acerta.
+
+O d6 do dano mostra 3. Somando 2, o ataque causa **5 de Cortante**. Nesta resolução, Kaori ainda não ativou outra proteção. Ela desconta 5 dos 23 PV e fica com **18 PV**.
+
+## Turno de Kaori
+
+Kaori escolhe usar **Peso nas Mãos**. A maldição está a 1,5 m e suas mãos estão livres. Ela cumpre o Selo, gasta sua Ação Padrão e paga **3 PE**, passando de 8 para **5 PE**.
+
+Seu d20 mostra 12. O total é **12 + 4 = 16**, suficiente para acertar a Defesa 12. Ela rola 3d8: saem 4, 5 e 5, num total de **14 de Concussão**. A criatura tinha 14 PV e chega a zero. Neste encontro, o mestre descreve seu exorcismo.
+
+Com o corredor livre, Kaori usa 3 m de seu movimento para chegar à porta do arquivo. Ainda teria 6 m disponíveis naquele turno. Ela avisa à funcionária que pode abrir a porta, enquanto o colega prepara a retirada.
+
+## Depois da luta
+
+Kaori termina esta sequência com **18 PV e 5 PE**. O fim do combate não devolve automaticamente os recursos gastos. A equipe ainda precisa tirar a funcionária do prédio e conferir se há outras pessoas em risco.
+
+Os resultados acima mostram uma sequência possível. Se o ataque de Kaori errasse, ela continuaria tendo gasto a ação e o PE. Se a criatura sobrevivesse ao acerto, seria necessário aplicar Derrubado e sua duração. As decisões seguintes dependeriam do que restasse na cena.
+
+<!-- page:ab-conferencia|Ficha pronta -->
+# Ficha pronta
+
+Antes da primeira missão, confira suas escolhas com o mestre. Use esta lista também quando transferir a ficha para outra ferramenta.
+
+- **Identidade:** nome, aparência, história, motivo para acompanhar o grupo, Origem e Legados.
+- **Atributos:** nove pontos na criação padrão, entre 0 e 3 em cada atributo.
+- **Treinos:** perícias, ofícios, dois TR diferentes, atributo permanente do TR Físico e treino com armas.
+- **Caminho:** características, Trilha e todas as escolhas recebidas no nível inicial.
+- **Capacidades:** rota, aplicações completas, espaços ocupados, custos, requisitos e usos limitados.
+- **Valores:** vida, energia, Integridade, Defesa, deslocamento, carga, Maestria e Refino ou Lapidação.
+- **Inventário:** uniforme, compras, munição, ferramentas, dinheiro restante e locais de armazenamento.
+
+## Capacidades na ficha
+
+Uma capacidade que você pretende usar precisa informar **quando pode ser usada, o que gasta e o que acontece**. Anote também alcance, alvos, duração e término quando forem necessários. Use o nome da entrada do livro como referência para detalhes que não couberem na ficha.
+
+Mantenha os valores atuais separados dos máximos. Depois de sofrer 5 de dano, uma personagem com 23 PV máximos fica com 18 atuais. Seu máximo continua 23. A mesma distinção vale para energia e outros recursos que a ficha acompanhar.
+
+## Registro da missão
+
+Ao terminar, registre as recompensas, os gastos e as consequências que persistem. Confira descanso e recuperação antes de restaurar recursos. Se jogar numa guilda, use o procedimento de registro da comunidade para que a próxima mesa receba a ficha atualizada.
+
+As escolhas de crescimento estão em Progressão. Quando receber uma habilidade, prepare suas opções e confira as mudanças na ficha antes de usá-la na próxima missão.

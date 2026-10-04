@@ -1,0 +1,1 @@
+{"total": 30, "falhas": ["Vocabulário e pontuação", "Fontes preservadas desde inventário"], "sha256": "bd3d2cc16b5a6c2b373eba1f0ebfabfbc548bae3d6a7cd2eec6dcbb4bfab95d9"}

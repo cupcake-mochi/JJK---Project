@@ -1,0 +1,25 @@
+{
+  "data": "2026-10-03",
+  "arquivos": {
+    "CONFERENCIA.json": "e3224d82e94bffa4c87f42327c75741b3b5ab4c93e28ad1fbf9ad7d834be048a",
+    "DECISOES.md": "b9d5ef153109e49a28c5cc0bfd52040b164d28d9339169b5a8e5e24dff497714",
+    "ESTRUTURA.json": "334b6e63f82d18805a44309daed713137d433bd20ef78bd4d5e9d66bb9f4253b",
+    "LEIA-ME.md": "47cb28d7bea00f541bec933605910905abc8ff382e37f35bc3128fa46575d13b",
+    "MOVIMENTO-E-CARGA.md": "3f5c19387a7cc120cc05b3d060187025cc25d5ea29c5d231a4b59881b8c7e182",
+    "RELATORIO.md": "e114ae35610ef89e4ca89514b4b91c918381f02281264421234e5e4dc25a49d7",
+    "conferir.py": "7a4c83050e9b40e99315bdf3c0ce951632db1624df97bb855b557d36e70c3e24",
+    "evidencias/LOCALIZACAO-EDITORIAL.json": "3f793ac9906dc645d43a8e4077fbbfd926f1661fb83801bebd344cb3ef41a6b3",
+    "evidencias/REVISAO-EDITORIAL.json": "0e1dbf66128a0beea250c56f3b5f895fce01ef94c82e5698f9cdedaffe23c5bb",
+    "evidencias/REVISAO.md": "d549fe9bf566b5cbe7d264da05412804589e666339bb1390ab0f75056c0b4a26",
+    "evidencias/casos-documentais.json": "7517e4b205840dd3b2d0fdf31a7d5a48d142df648ee59e3ecaa8b96bb111613d",
+    "evidencias/fontes-preservadas.json": "71657db541dd159655d3381ce8fe5cb8fe7e925ede6dd5ba502c8f21fa1fe026",
+    "evidencias/inspecao-visual.json": "7c03c7c636e000b30e083fc4dd1cd44aacfb515cbafd81b9c4cafd454a3cb4e8",
+    "evidencias/pdf-estrutura.json": "a04e931b1744500885623cbd04c5cc982d98e7bb29ddc28f9c70cd2c240d6dad",
+    "evidencias/pdf-texto.txt": "d07406b280df9e900d0b5ec705fe55b051b2d8802a69f1336d77bcc2f677f834",
+    "gerar_pdf.py": "c4f2ad100b43657206756f81aee68d30d9bca6d670ef72ae458fd73e15d43d8e",
+    "output/pdf/Projeto-M-Movimento-e-Carga-Proposta-03.pdf": "dbfce25e5b1b8349706e430694e5e722aa37b56e8069289f57ae0769af23b692",
+    "sincronizacoes/INCURSOR-COMPLETO.md": "2e2472fa5cb15787a853c88beb27df987cab4892aca0104a892aaad9a2007e6c",
+    "sincronizacoes/INCURSOR.patch": "15c939fb9f9d587dbaa03b2a595d2c96739a18e27e178228f58e9920e4522474",
+    "sincronizacoes/LEIA-ME.md": "11f443d7890ddc91f1d1fac837d2e1d1b936466d82e9ef81d1835ef691ab66f6"
+  }
+}

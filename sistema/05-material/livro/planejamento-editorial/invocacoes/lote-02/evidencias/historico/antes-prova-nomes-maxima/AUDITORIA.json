@@ -1,0 +1,1176 @@
+{
+  "sha256_texto": "0e47b1295d76cac0caeadacec227cc37c0221d537b59e89cfa10455c962389d1",
+  "checagens": [
+    {
+      "teste": "IDs únicos",
+      "passou": true,
+      "evidencia": 27
+    },
+    {
+      "teste": "Título coincide com marcador",
+      "passou": true,
+      "evidencia": 27
+    },
+    {
+      "teste": "Faixa editorial 180–400 palavras",
+      "passou": true,
+      "evidencia": [
+        {
+          "id": "entidades-criar",
+          "palavras": 251
+        },
+        {
+          "id": "entidades-aquisicao",
+          "palavras": 297
+        },
+        {
+          "id": "entidade-cao",
+          "palavras": 279
+        },
+        {
+          "id": "entidade-cao-habilidades",
+          "palavras": 292
+        },
+        {
+          "id": "entidades-lista-criacao",
+          "palavras": 296
+        },
+        {
+          "id": "entidades-domar",
+          "palavras": 287
+        },
+        {
+          "id": "entidades-tipos",
+          "palavras": 286
+        },
+        {
+          "id": "entidades-definicao",
+          "palavras": 280
+        },
+        {
+          "id": "entidades-atributos",
+          "palavras": 283
+        },
+        {
+          "id": "entidades-vida-defesa",
+          "palavras": 300
+        },
+        {
+          "id": "entidades-progressao",
+          "palavras": 309
+        },
+        {
+          "id": "entidades-familias",
+          "palavras": 284
+        },
+        {
+          "id": "entidades-basicas",
+          "palavras": 296
+        },
+        {
+          "id": "entidades-especiais",
+          "palavras": 300
+        },
+        {
+          "id": "entidades-formas",
+          "palavras": 314
+        },
+        {
+          "id": "entidades-medidas",
+          "palavras": 304
+        },
+        {
+          "id": "entidades-efeitos-reduzidos",
+          "palavras": 290
+        },
+        {
+          "id": "entidades-saldo",
+          "palavras": 380
+        },
+        {
+          "id": "entidades-controle",
+          "palavras": 307
+        },
+        {
+          "id": "entidades-restricoes",
+          "palavras": 293
+        },
+        {
+          "id": "entidades-passivas",
+          "palavras": 315
+        },
+        {
+          "id": "entidades-passivas-avancadas",
+          "palavras": 331
+        },
+        {
+          "id": "entidades-passiva-propria",
+          "palavras": 283
+        },
+        {
+          "id": "entidades-ampliacao",
+          "palavras": 287
+        },
+        {
+          "id": "entidade-vigia",
+          "palavras": 293
+        },
+        {
+          "id": "entidade-vigia-habilidades",
+          "palavras": 314
+        },
+        {
+          "id": "entidades-conferencia",
+          "palavras": 320
+        }
+      ]
+    },
+    {
+      "teste": "Títulos diretos",
+      "passou": true,
+      "evidencia": []
+    },
+    {
+      "teste": "Remissões internas",
+      "passou": true,
+      "evidencia": [
+        "entidade-cao",
+        "entidade-vigia",
+        "entidades-ampliacao",
+        "entidades-formas",
+        "entidades-progressao",
+        "entidades-medidas",
+        "entidades-passiva-propria"
+      ]
+    },
+    {
+      "teste": "Vocabulário e pontuação",
+      "passou": true,
+      "evidencia": {
+        "legal": 0,
+        "pontos_virgula": 0
+      }
+    },
+    {
+      "teste": "Todas as seções fonte têm dono",
+      "passou": true,
+      "evidencia": 62
+    },
+    {
+      "teste": "Destinos R12 existem",
+      "passou": true,
+      "evidencia": [
+        "entidades-criar",
+        "entidades-aquisicao",
+        "entidades-domar",
+        "entidades-criar",
+        "entidades-definicao",
+        "entidades-familias",
+        "entidades-basicas",
+        "entidades-progressao",
+        "entidades-progressao",
+        "entidades-especiais",
+        "entidades-formas",
+        "entidades-efeitos-reduzidos",
+        "entidades-restricoes",
+        "entidades-passivas",
+        "entidades-atributos",
+        "entidades-vida-defesa",
+        "entidade-cao"
+      ]
+    },
+    {
+      "teste": "Tabela especial preservada",
+      "passou": true,
+      "evidencia": {
+        "1": {
+          "pontos": 2,
+          "pe": 3,
+          "melhorias": 2
+        },
+        "2": {
+          "pontos": 4,
+          "pe": 6,
+          "melhorias": 2
+        },
+        "3": {
+          "pontos": 6,
+          "pe": 9,
+          "melhorias": 3
+        },
+        "4": {
+          "pontos": 9,
+          "pe": 12,
+          "melhorias": 3
+        },
+        "5": {
+          "pontos": 11,
+          "pe": 15,
+          "melhorias": 4
+        },
+        "6": {
+          "pontos": 13,
+          "pe": 18,
+          "melhorias": 4
+        },
+        "7": {
+          "pontos": 16,
+          "pe": 21,
+          "melhorias": 4
+        }
+      }
+    },
+    {
+      "teste": "Custo 3×Classe real",
+      "passou": true,
+      "evidencia": {
+        "1": {
+          "pontos": 2,
+          "pe": 3,
+          "melhorias": 2
+        },
+        "2": {
+          "pontos": 4,
+          "pe": 6,
+          "melhorias": 2
+        },
+        "3": {
+          "pontos": 6,
+          "pe": 9,
+          "melhorias": 3
+        },
+        "4": {
+          "pontos": 9,
+          "pe": 12,
+          "melhorias": 3
+        },
+        "5": {
+          "pontos": 11,
+          "pe": 15,
+          "melhorias": 4
+        },
+        "6": {
+          "pontos": 13,
+          "pe": 18,
+          "melhorias": 4
+        },
+        "7": {
+          "pontos": 16,
+          "pe": 21,
+          "melhorias": 4
+        }
+      }
+    },
+    {
+      "teste": "Básica e faixas preservadas",
+      "passou": true,
+      "evidencia": [
+        [
+          "1",
+          "4",
+          "1",
+          "1",
+          "2"
+        ],
+        [
+          "5",
+          "8",
+          "2",
+          "2",
+          "4"
+        ],
+        [
+          "9",
+          "12",
+          "3",
+          "2",
+          "6"
+        ],
+        [
+          "13",
+          "16",
+          "4",
+          "2",
+          "9"
+        ],
+        [
+          "17",
+          "20",
+          "5",
+          "3",
+          "11"
+        ],
+        [
+          "21",
+          "25",
+          "6",
+          "3",
+          "13"
+        ],
+        [
+          "26",
+          "30",
+          "7",
+          "3",
+          "16"
+        ]
+      ]
+    },
+    {
+      "teste": "Desconto próprio nas Classes ímpares",
+      "passou": true,
+      "evidencia": [
+        {
+          "classe": 1,
+          "especial_d8": 2,
+          "basica_d6": 1,
+          "media_conjunta": 12.5,
+          "feitiço_pessoal_medio": 13.5,
+          "razao": 0.9259259259259259,
+          "desconto_entidade": 1,
+          "desconto_pessoal": 1
+        },
+        {
+          "classe": 2,
+          "especial_d8": 4,
+          "basica_d6": 2,
+          "media_conjunta": 25.0,
+          "feitiço_pessoal_medio": 27.0,
+          "razao": 0.9259259259259259,
+          "desconto_entidade": 1,
+          "desconto_pessoal": 1
+        },
+        {
+          "classe": 3,
+          "especial_d8": 6,
+          "basica_d6": 2,
+          "media_conjunta": 34.0,
+          "feitiço_pessoal_medio": 40.5,
+          "razao": 0.8395061728395061,
+          "desconto_entidade": 1,
+          "desconto_pessoal": 2
+        },
+        {
+          "classe": 4,
+          "especial_d8": 9,
+          "basica_d6": 2,
+          "media_conjunta": 47.5,
+          "feitiço_pessoal_medio": 54.0,
+          "razao": 0.8796296296296297,
+          "desconto_entidade": 2,
+          "desconto_pessoal": 2
+        },
+        {
+          "classe": 5,
+          "especial_d8": 11,
+          "basica_d6": 3,
+          "media_conjunta": 60.0,
+          "feitiço_pessoal_medio": 67.5,
+          "razao": 0.8888888888888888,
+          "desconto_entidade": 2,
+          "desconto_pessoal": 3
+        },
+        {
+          "classe": 6,
+          "especial_d8": 13,
+          "basica_d6": 3,
+          "media_conjunta": 69.0,
+          "feitiço_pessoal_medio": 81.0,
+          "razao": 0.8518518518518519,
+          "desconto_entidade": 3,
+          "desconto_pessoal": 3
+        },
+        {
+          "classe": 7,
+          "especial_d8": 16,
+          "basica_d6": 3,
+          "media_conjunta": 82.5,
+          "feitiço_pessoal_medio": 94.5,
+          "razao": 0.873015873015873,
+          "desconto_entidade": 3,
+          "desconto_pessoal": 4
+        }
+      ]
+    },
+    {
+      "teste": "Onda preserva teto anterior e fica abaixo do pessoal",
+      "passou": true,
+      "evidencia": [
+        {
+          "classe": 1,
+          "antes_limite_sem_reembolso_da_forma": 0,
+          "candidato_limite_util": 0,
+          "pessoal_limite_util": 1,
+          "aumento_de_cura_por_alvo": 0
+        },
+        {
+          "classe": 2,
+          "antes_limite_sem_reembolso_da_forma": 1,
+          "candidato_limite_util": 1,
+          "pessoal_limite_util": 3,
+          "aumento_de_cura_por_alvo": 0
+        },
+        {
+          "classe": 3,
+          "antes_limite_sem_reembolso_da_forma": 1,
+          "candidato_limite_util": 1,
+          "pessoal_limite_util": 4,
+          "aumento_de_cura_por_alvo": 0
+        },
+        {
+          "classe": 4,
+          "antes_limite_sem_reembolso_da_forma": 3,
+          "candidato_limite_util": 3,
+          "pessoal_limite_util": 6,
+          "aumento_de_cura_por_alvo": 0
+        },
+        {
+          "classe": 5,
+          "antes_limite_sem_reembolso_da_forma": 3,
+          "candidato_limite_util": 3,
+          "pessoal_limite_util": 7,
+          "aumento_de_cura_por_alvo": 0
+        },
+        {
+          "classe": 6,
+          "antes_limite_sem_reembolso_da_forma": 4,
+          "candidato_limite_util": 4,
+          "pessoal_limite_util": 9,
+          "aumento_de_cura_por_alvo": 0
+        },
+        {
+          "classe": 7,
+          "antes_limite_sem_reembolso_da_forma": 5,
+          "candidato_limite_util": 5,
+          "pessoal_limite_util": 10,
+          "aumento_de_cura_por_alvo": 0
+        }
+      ]
+    },
+    {
+      "teste": "Cura preserva teto anterior",
+      "passou": true,
+      "evidencia": [
+        {
+          "classe": 1,
+          "antes": 1,
+          "candidato": 1,
+          "pessoal": 2
+        },
+        {
+          "classe": 2,
+          "antes": 2,
+          "candidato": 2,
+          "pessoal": 4
+        },
+        {
+          "classe": 3,
+          "antes": 3,
+          "candidato": 3,
+          "pessoal": 6
+        },
+        {
+          "classe": 4,
+          "antes": 5,
+          "candidato": 5,
+          "pessoal": 8
+        },
+        {
+          "classe": 5,
+          "antes": 6,
+          "candidato": 6,
+          "pessoal": 10
+        },
+        {
+          "classe": 6,
+          "antes": 7,
+          "candidato": 7,
+          "pessoal": 12
+        },
+        {
+          "classe": 7,
+          "antes": 9,
+          "candidato": 9,
+          "pessoal": 14
+        }
+      ]
+    },
+    {
+      "teste": "Conta: Mordida precisa C1",
+      "passou": true,
+      "evidencia": {
+        "nome": "Mordida precisa C1",
+        "classe": 1,
+        "pontos": 2,
+        "gasto": 1,
+        "devolucao": 1,
+        "saldo": 2,
+        "resultado": 2,
+        "unidade": "d8",
+        "PE": 3
+      }
+    },
+    {
+      "teste": "Conta: Mordida precisa C2",
+      "passou": true,
+      "evidencia": {
+        "nome": "Mordida precisa C2",
+        "classe": 2,
+        "pontos": 4,
+        "gasto": 1,
+        "devolucao": 1,
+        "saldo": 4,
+        "resultado": 4,
+        "unidade": "d8",
+        "PE": 6
+      }
+    },
+    {
+      "teste": "Conta: Mordida precisa C3",
+      "passou": true,
+      "evidencia": {
+        "nome": "Mordida precisa C3",
+        "classe": 3,
+        "pontos": 6,
+        "gasto": 1,
+        "devolucao": 1,
+        "saldo": 6,
+        "resultado": 6,
+        "unidade": "d8",
+        "PE": 9
+      }
+    },
+    {
+      "teste": "Conta: Fura C2 Livre",
+      "passou": true,
+      "evidencia": {
+        "nome": "Fura C2 Livre",
+        "classe": 2,
+        "pontos": 4,
+        "gasto": 1,
+        "devolucao": 0,
+        "saldo": 3,
+        "resultado": 3,
+        "unidade": "d8",
+        "PE": 6
+      }
+    },
+    {
+      "teste": "Conta: Tiras de resgate",
+      "passou": true,
+      "evidencia": {
+        "nome": "Tiras de resgate",
+        "classe": 2,
+        "pontos": 4,
+        "gasto": 3,
+        "devolucao": 0,
+        "saldo": 1,
+        "resultado": 3,
+        "unidade": "PV temporária",
+        "PE": 6
+      }
+    },
+    {
+      "teste": "Conta: Remendo de papel",
+      "passou": true,
+      "evidencia": {
+        "nome": "Remendo de papel",
+        "classe": 1,
+        "pontos": 2,
+        "gasto": 1,
+        "devolucao": 0,
+        "saldo": 1,
+        "resultado": 1,
+        "unidade": "d8",
+        "PE": 3
+      }
+    },
+    {
+      "teste": "Conta: Onda C1 com Impulso e Gesto",
+      "passou": true,
+      "evidencia": {
+        "nome": "Onda C1 com Impulso e Gesto",
+        "classe": 1,
+        "pontos": 2,
+        "gasto": 3,
+        "devolucao": 1,
+        "saldo": 0,
+        "resultado": 0,
+        "unidade": "d8",
+        "PE": 3
+      }
+    },
+    {
+      "teste": "Busca de restituição sem criar dados acima do orçamento",
+      "passou": true,
+      "evidencia": {
+        "montagens_aritmeticas": 10996,
+        "excedentes": 0,
+        "limite": "Não substitui requisitos qualitativos das peças."
+      }
+    },
+    {
+      "teste": "Marcos de espaço",
+      "passou": true,
+      "evidencia": [
+        {
+          "nivel": 1,
+          "classe": 1,
+          "espacos": 1,
+          "basicas": 1,
+          "pontos_atributos": 9,
+          "passivas": 1,
+          "CPs_maximas": [
+            1
+          ]
+        },
+        {
+          "nivel": 2,
+          "classe": 1,
+          "espacos": 1,
+          "basicas": 1,
+          "pontos_atributos": 9,
+          "passivas": 1,
+          "CPs_maximas": [
+            1
+          ]
+        },
+        {
+          "nivel": 3,
+          "classe": 1,
+          "espacos": 1,
+          "basicas": 1,
+          "pontos_atributos": 9,
+          "passivas": 1,
+          "CPs_maximas": [
+            1
+          ]
+        },
+        {
+          "nivel": 4,
+          "classe": 1,
+          "espacos": 2,
+          "basicas": 1,
+          "pontos_atributos": 9,
+          "passivas": 1,
+          "CPs_maximas": [
+            1
+          ]
+        },
+        {
+          "nivel": 5,
+          "classe": 2,
+          "espacos": 2,
+          "basicas": 1,
+          "pontos_atributos": 9,
+          "passivas": 1,
+          "CPs_maximas": [
+            1
+          ]
+        },
+        {
+          "nivel": 6,
+          "classe": 2,
+          "espacos": 2,
+          "basicas": 1,
+          "pontos_atributos": 10,
+          "passivas": 2,
+          "CPs_maximas": [
+            1,
+            1
+          ]
+        },
+        {
+          "nivel": 7,
+          "classe": 2,
+          "espacos": 2,
+          "basicas": 1,
+          "pontos_atributos": 10,
+          "passivas": 2,
+          "CPs_maximas": [
+            1,
+            1
+          ]
+        },
+        {
+          "nivel": 8,
+          "classe": 2,
+          "espacos": 3,
+          "basicas": 1,
+          "pontos_atributos": 10,
+          "passivas": 2,
+          "CPs_maximas": [
+            1,
+            1
+          ]
+        },
+        {
+          "nivel": 9,
+          "classe": 3,
+          "espacos": 3,
+          "basicas": 1,
+          "pontos_atributos": 10,
+          "passivas": 2,
+          "CPs_maximas": [
+            1,
+            1
+          ]
+        },
+        {
+          "nivel": 10,
+          "classe": 3,
+          "espacos": 3,
+          "basicas": 1,
+          "pontos_atributos": 11,
+          "passivas": 3,
+          "CPs_maximas": [
+            1,
+            1,
+            2
+          ]
+        },
+        {
+          "nivel": 11,
+          "classe": 3,
+          "espacos": 3,
+          "basicas": 2,
+          "pontos_atributos": 11,
+          "passivas": 3,
+          "CPs_maximas": [
+            1,
+            1,
+            2
+          ]
+        },
+        {
+          "nivel": 12,
+          "classe": 3,
+          "espacos": 4,
+          "basicas": 2,
+          "pontos_atributos": 11,
+          "passivas": 3,
+          "CPs_maximas": [
+            1,
+            1,
+            2
+          ]
+        },
+        {
+          "nivel": 13,
+          "classe": 4,
+          "espacos": 4,
+          "basicas": 2,
+          "pontos_atributos": 11,
+          "passivas": 3,
+          "CPs_maximas": [
+            1,
+            1,
+            2
+          ]
+        },
+        {
+          "nivel": 14,
+          "classe": 4,
+          "espacos": 4,
+          "basicas": 2,
+          "pontos_atributos": 12,
+          "passivas": 4,
+          "CPs_maximas": [
+            1,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "nivel": 15,
+          "classe": 4,
+          "espacos": 4,
+          "basicas": 2,
+          "pontos_atributos": 12,
+          "passivas": 4,
+          "CPs_maximas": [
+            1,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "nivel": 16,
+          "classe": 4,
+          "espacos": 5,
+          "basicas": 2,
+          "pontos_atributos": 12,
+          "passivas": 4,
+          "CPs_maximas": [
+            1,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "nivel": 17,
+          "classe": 5,
+          "espacos": 5,
+          "basicas": 2,
+          "pontos_atributos": 12,
+          "passivas": 4,
+          "CPs_maximas": [
+            1,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "nivel": 18,
+          "classe": 5,
+          "espacos": 5,
+          "basicas": 2,
+          "pontos_atributos": 13,
+          "passivas": 5,
+          "CPs_maximas": [
+            1,
+            1,
+            2,
+            3,
+            3
+          ]
+        },
+        {
+          "nivel": 19,
+          "classe": 5,
+          "espacos": 5,
+          "basicas": 2,
+          "pontos_atributos": 13,
+          "passivas": 5,
+          "CPs_maximas": [
+            1,
+            1,
+            2,
+            3,
+            3
+          ]
+        },
+        {
+          "nivel": 20,
+          "classe": 5,
+          "espacos": 6,
+          "basicas": 2,
+          "pontos_atributos": 13,
+          "passivas": 5,
+          "CPs_maximas": [
+            1,
+            1,
+            2,
+            3,
+            3
+          ]
+        },
+        {
+          "nivel": 21,
+          "classe": 6,
+          "espacos": 6,
+          "basicas": 2,
+          "pontos_atributos": 13,
+          "passivas": 5,
+          "CPs_maximas": [
+            1,
+            1,
+            2,
+            3,
+            3
+          ]
+        },
+        {
+          "nivel": 22,
+          "classe": 6,
+          "espacos": 6,
+          "basicas": 2,
+          "pontos_atributos": 14,
+          "passivas": 6,
+          "CPs_maximas": [
+            1,
+            1,
+            2,
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "nivel": 23,
+          "classe": 6,
+          "espacos": 6,
+          "basicas": 2,
+          "pontos_atributos": 14,
+          "passivas": 6,
+          "CPs_maximas": [
+            1,
+            1,
+            2,
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "nivel": 24,
+          "classe": 6,
+          "espacos": 7,
+          "basicas": 2,
+          "pontos_atributos": 14,
+          "passivas": 6,
+          "CPs_maximas": [
+            1,
+            1,
+            2,
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "nivel": 25,
+          "classe": 6,
+          "espacos": 7,
+          "basicas": 2,
+          "pontos_atributos": 14,
+          "passivas": 6,
+          "CPs_maximas": [
+            1,
+            1,
+            2,
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "nivel": 26,
+          "classe": 7,
+          "espacos": 7,
+          "basicas": 2,
+          "pontos_atributos": 15,
+          "passivas": 7,
+          "CPs_maximas": [
+            1,
+            1,
+            2,
+            3,
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "nivel": 27,
+          "classe": 7,
+          "espacos": 7,
+          "basicas": 2,
+          "pontos_atributos": 15,
+          "passivas": 7,
+          "CPs_maximas": [
+            1,
+            1,
+            2,
+            3,
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "nivel": 28,
+          "classe": 7,
+          "espacos": 8,
+          "basicas": 2,
+          "pontos_atributos": 15,
+          "passivas": 7,
+          "CPs_maximas": [
+            1,
+            1,
+            2,
+            3,
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "nivel": 29,
+          "classe": 7,
+          "espacos": 8,
+          "basicas": 2,
+          "pontos_atributos": 15,
+          "passivas": 7,
+          "CPs_maximas": [
+            1,
+            1,
+            2,
+            3,
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "nivel": 30,
+          "classe": 7,
+          "espacos": 8,
+          "basicas": 2,
+          "pontos_atributos": 16,
+          "passivas": 8,
+          "CPs_maximas": [
+            1,
+            1,
+            2,
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "teste": "30 níveis: 8 espaços, 8 passivas, 2 básicas, 16 atributos",
+      "passou": true,
+      "evidencia": {
+        "nivel": 30,
+        "classe": 7,
+        "espacos": 8,
+        "basicas": 2,
+        "pontos_atributos": 16,
+        "passivas": 8,
+        "CPs_maximas": [
+          1,
+          1,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "teste": "Vida dos exemplos e Constituição retroativa",
+      "passou": true,
+      "evidencia": [
+        {
+          "nivel": 1,
+          "constituicao": 2,
+          "comum": 7,
+          "criada": 7
+        },
+        {
+          "nivel": 2,
+          "constituicao": 2,
+          "comum": 12,
+          "criada": 13
+        },
+        {
+          "nivel": 4,
+          "constituicao": 2,
+          "comum": 22,
+          "criada": 25
+        },
+        {
+          "nivel": 5,
+          "constituicao": 2,
+          "comum": 27,
+          "criada": 31
+        },
+        {
+          "nivel": 6,
+          "constituicao": 3,
+          "comum": 38,
+          "criada": 43
+        },
+        {
+          "nivel": 30,
+          "constituicao": 6,
+          "comum": 272,
+          "criada": 301
+        }
+      ]
+    },
+    {
+      "teste": "Ficha simples/apoio",
+      "passou": true,
+      "evidencia": {
+        "cão": {
+          "atributos": 9,
+          "DEF": 13,
+          "perícias": 4
+        },
+        "vigia": {
+          "atributos": 9,
+          "DEF": 14,
+          "perícias": 5
+        }
+      }
+    },
+    {
+      "teste": "Treze opções preservadas",
+      "passou": true,
+      "evidencia": [
+        "Leitura",
+        "Instinto",
+        "Raiz",
+        "Mão Firme",
+        "Farejador",
+        "Aviso",
+        "Fluxo",
+        "Eco",
+        "Costura",
+        "Contramedida",
+        "Escama",
+        "Afinidade",
+        "Passiva Própria"
+      ]
+    },
+    {
+      "teste": "Domação com bônus iguais: 35% domar, 65% resistir",
+      "passou": true,
+      "evidencia": [
+        {
+          "bonus_equivalente": 2,
+          "CD": 10,
+          "resiste_e_exorciza": 0.65,
+          "domada": 0.35
+        },
+        {
+          "bonus_equivalente": 4,
+          "CD": 12,
+          "resiste_e_exorciza": 0.65,
+          "domada": 0.35
+        },
+        {
+          "bonus_equivalente": 6,
+          "CD": 14,
+          "resiste_e_exorciza": 0.65,
+          "domada": 0.35
+        }
+      ]
+    },
+    {
+      "teste": "Fontes preservadas desde inventário",
+      "passou": true,
+      "evidencia": 7
+    },
+    {
+      "teste": "Manual e integrado idênticos",
+      "passou": true,
+      "evidencia": "Leitura integral manual e equivalência binária integrada."
+    }
+  ],
+  "total": 30,
+  "falhas": 0,
+  "limite": "Testes de estrutura e matemática; não validam sozinhos clareza, cânone, visual ou equilíbrio de toda criação."
+}

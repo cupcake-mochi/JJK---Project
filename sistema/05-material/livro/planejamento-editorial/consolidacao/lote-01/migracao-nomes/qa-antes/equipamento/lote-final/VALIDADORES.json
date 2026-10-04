@@ -1,0 +1,114 @@
+{
+  "sha256_texto": "c5a6b376afdbcc2439f53b270a1e82323ec99575cbdc530ce11cb31101b14f8f",
+  "validadores": [
+    {
+      "id": "V01",
+      "nome": "Cobertura",
+      "estado": "concluido",
+      "evidencia": "COBERTURA.json;52armas,9proteções,9munições,13itens,17efeitos",
+      "limites": ""
+    },
+    {
+      "id": "V02",
+      "nome": "Regras e fontes",
+      "estado": "concluido",
+      "evidencia": "FONTES.json;ALTERACOES.json; sete candidatas intactas",
+      "limites": ""
+    },
+    {
+      "id": "V03",
+      "nome": "Funcionamento",
+      "estado": "concluido",
+      "evidencia": "evidencias/CASOS-CONTEXTUAIS.json;39 casos positivos/negativos e auditar.py",
+      "limites": "Não substitui leitura ou jogo humano."
+    },
+    {
+      "id": "V04",
+      "nome": "Números",
+      "estado": "concluido",
+      "evidencia": "auditar.py;549verificações;3948transições;142688perfis de carga; distribuições exatas",
+      "limites": ""
+    },
+    {
+      "id": "V05",
+      "nome": "Balanceamento",
+      "estado": "concluido",
+      "evidencia": "REVISAO-E-FONTES.md; custo Revólver/Pistola, Par, mãos, ferramentas e limites",
+      "limites": "Não substitui leitura ou jogo humano."
+    },
+    {
+      "id": "V06",
+      "nome": "Compatibilidade",
+      "estado": "concluido",
+      "evidencia": "SINCRONIZACOES.md;R01/R02/R03/R04/R08/R09/R10/R11/R14/R18/R21",
+      "limites": ""
+    },
+    {
+      "id": "V07",
+      "nome": "Títulos e vocabulário",
+      "estado": "concluido",
+      "evidencia": "LOCALIZACAO-EDITORIAL.json;conferir_editorial exportação",
+      "limites": ""
+    },
+    {
+      "id": "V08",
+      "nome": "Clareza e suficiência",
+      "estado": "concluido",
+      "evidencia": "REVISAO-EDITORIAL.json;leitura das39páginas e exemplos",
+      "limites": "Não substitui leitura ou jogo humano."
+    },
+    {
+      "id": "V09",
+      "nome": "Voz e redundância",
+      "estado": "concluido",
+      "evidencia": "REVISAO-E-FONTES.md;D&D/Pathfinder e parecer contextual",
+      "limites": "Não substitui leitura ou jogo humano."
+    },
+    {
+      "id": "V10",
+      "nome": "Localização",
+      "estado": "concluido",
+      "evidencia": "Dono de manipulação/recarga/Emaranha/propriedades aqui;remissões sem copiarCaminhos",
+      "limites": ""
+    },
+    {
+      "id": "V11",
+      "nome": "Obra e referências",
+      "estado": "concluido",
+      "evidencia": "Fonte oficial episódio1 para atração; regra de selos e ferramenta explicitamente autoral",
+      "limites": ""
+    },
+    {
+      "id": "V12",
+      "nome": "Revisão independente",
+      "estado": "executado com limites",
+      "evidencia": "evidencias/REVISAO-INDEPENDENTE-ROTAS.md; evidencias/REVISAO-INDEPENDENTE-ROTAS.json",
+      "limites": "Não substitui leitura ou jogo humano.",
+      "observacao": "342 verificações independentes e leitura integral, sem playtest."
+    },
+    {
+      "id": "V13",
+      "nome": "PDF e navegação",
+      "estado": "executado com limites",
+      "evidencia": "CONFERENCIA.json: 309 verificações completas aprovadas; evidencias/PREFLIGHT-PDF.json: 306 verificações documentais; 39 páginas e 7 grupos.",
+      "limites": ""
+    },
+    {
+      "id": "V14",
+      "nome": "Visual",
+      "estado": "executado com limites",
+      "evidencia": "evidencias/inspecao-visual.json",
+      "limites": "",
+      "observacao": "Inspeção visual de todas as 39 páginas, com reparo da página 38 confirmado."
+    },
+    {
+      "id": "V15",
+      "nome": "Rastreabilidade",
+      "estado": "concluido",
+      "evidencia": "ALTERACOES/FONTES/scripts e manifesto; hashes vinculados",
+      "limites": ""
+    }
+  ],
+  "observacao": "Critérios vinculados ao texto e PDF atuais. Revisão independente e inspeção de todas as páginas executadas por /root/rotas_didatica; não houve teste com leitores humanos nem playtest.",
+  "sha256_pdf": "f7412f2f24163076640d7fe0c8443191fb2ebe4e8b6a2ea72a8561ee35ec1a3a"
+}

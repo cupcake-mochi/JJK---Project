@@ -1,0 +1,147 @@
+{
+  "ordem": [
+    "consulta-glossario-1",
+    "consulta-glossario-2",
+    "consulta-glossario-3",
+    "consulta-glossario-4",
+    "consulta-glossario-5",
+    "consulta-glossario-6",
+    "consulta-testes",
+    "consulta-ataques",
+    "consulta-entidades",
+    "consulta-ficha-personagem",
+    "consulta-ficha-repertorio",
+    "consulta-ficha-feitico",
+    "consulta-ficha-entidade",
+    "consulta-ficha-entidade-capacidades",
+    "consulta-registro-missao",
+    "consulta-missao",
+    "consulta-conduzir",
+    "consulta-referencias",
+    "consulta-indice-1",
+    "consulta-indice-2",
+    "consulta-indice-3",
+    "consulta-indice-4",
+    "consulta-indice-5",
+    "consulta-indice-6",
+    "consulta-indice-7",
+    "consulta-indice-8",
+    "consulta-indice-9",
+    "consulta-indice-10"
+  ],
+  "titulos": {
+    "consulta-glossario-1": "Glossário: Ação a Carga",
+    "consulta-glossario-2": "Glossário: CD a Espaço",
+    "consulta-glossario-3": "Glossário: Especial a Kata",
+    "consulta-glossario-4": "Glossário: Lapidação a Passiva",
+    "consulta-glossario-5": "Glossário: Patente a Rodada",
+    "consulta-glossario-6": "Glossário: Selo a Volume",
+    "consulta-testes": "Testes na mesa",
+    "consulta-ataques": "Ataques e efeitos",
+    "consulta-entidades": "Entidades na mesa",
+    "consulta-ficha-personagem": "Ficha de personagem",
+    "consulta-ficha-repertorio": "Repertório e inventário",
+    "consulta-ficha-feitico": "Ficha de aplicação",
+    "consulta-ficha-entidade": "Ficha de entidade",
+    "consulta-ficha-entidade-capacidades": "Ficha de capacidades da entidade",
+    "consulta-registro-missao": "Registro de missão",
+    "consulta-missao": "Preparar uma missão",
+    "consulta-conduzir": "Mestrar uma sessão",
+    "consulta-referencias": "Referências e adaptação",
+    "consulta-indice-1": "Índice 1: A–A",
+    "consulta-indice-2": "Índice 2: A–C",
+    "consulta-indice-3": "Índice 3: C–D",
+    "consulta-indice-4": "Índice 4: E–E",
+    "consulta-indice-5": "Índice 5: F–I",
+    "consulta-indice-6": "Índice 6: I–M",
+    "consulta-indice-7": "Índice 7: M–P",
+    "consulta-indice-8": "Índice 8: P–R",
+    "consulta-indice-9": "Índice 9: R–T",
+    "consulta-indice-10": "Índice 10: T–X"
+  },
+  "paginas": {
+    "consulta-glossario-1": 1,
+    "consulta-glossario-2": 2,
+    "consulta-glossario-3": 3,
+    "consulta-glossario-4": 4,
+    "consulta-glossario-5": 5,
+    "consulta-glossario-6": 6,
+    "consulta-testes": 7,
+    "consulta-ataques": 8,
+    "consulta-entidades": 9,
+    "consulta-ficha-personagem": 10,
+    "consulta-ficha-repertorio": 11,
+    "consulta-ficha-feitico": 12,
+    "consulta-ficha-entidade": 13,
+    "consulta-ficha-entidade-capacidades": 14,
+    "consulta-registro-missao": 15,
+    "consulta-missao": 16,
+    "consulta-conduzir": 17,
+    "consulta-referencias": 18,
+    "consulta-indice-1": 19,
+    "consulta-indice-2": 20,
+    "consulta-indice-3": 21,
+    "consulta-indice-4": 22,
+    "consulta-indice-5": 23,
+    "consulta-indice-6": 24,
+    "consulta-indice-7": 25,
+    "consulta-indice-8": 26,
+    "consulta-indice-9": 27,
+    "consulta-indice-10": 28
+  },
+  "grupos": [
+    [
+      "Glossário",
+      [
+        "consulta-glossario-1",
+        "consulta-glossario-2",
+        "consulta-glossario-3",
+        "consulta-glossario-4",
+        "consulta-glossario-5",
+        "consulta-glossario-6"
+      ]
+    ],
+    [
+      "Referências rápidas",
+      [
+        "consulta-testes",
+        "consulta-ataques",
+        "consulta-entidades"
+      ]
+    ],
+    [
+      "Modelos de ficha",
+      [
+        "consulta-ficha-personagem",
+        "consulta-ficha-repertorio",
+        "consulta-ficha-feitico",
+        "consulta-ficha-entidade",
+        "consulta-ficha-entidade-capacidades",
+        "consulta-registro-missao"
+      ]
+    ],
+    [
+      "Mestre e referências",
+      [
+        "consulta-missao",
+        "consulta-conduzir",
+        "consulta-referencias"
+      ]
+    ],
+    [
+      "Índice",
+      [
+        "consulta-indice-1",
+        "consulta-indice-2",
+        "consulta-indice-3",
+        "consulta-indice-4",
+        "consulta-indice-5",
+        "consulta-indice-6",
+        "consulta-indice-7",
+        "consulta-indice-8",
+        "consulta-indice-9",
+        "consulta-indice-10"
+      ]
+    ]
+  ]
+}

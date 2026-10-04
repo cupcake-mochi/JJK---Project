@@ -1,0 +1,6 @@
+{
+  "ok": true,
+  "sha256_texto": "0e47b1295d76cac0caeadacec227cc37c0221d537b59e89cfa10455c962389d1",
+  "casos_raciocinados": "casos-raciocinados.json",
+  "auditoria": "../AUDITORIA.json"
+}

@@ -1,0 +1,75 @@
+{
+  "sha256_texto": "1bc29a638b68f985a296a5e960290ea4b0325e33b7db41e6a86da5eb830be3a2",
+  "interfaces": [
+    {
+      "id": "ORI-I01",
+      "dono": "R10",
+      "tema": "SemTécnica, TécnicaMarcial, Bênçãos",
+      "contrato": "Usar Encarnado/narrativo nas referências, conservar sementes atuais e requisitos; catálogo fica em R10.",
+      "estado": "registrada_para_consolidacao"
+    },
+    {
+      "id": "ORI-I02",
+      "dono": "R21/R22",
+      "tema": "Criação e Progressão",
+      "contrato": "9perícias+2ofícios ou10perícias,1TR distinto;2Legados/≥1narrativo,umcustom;ganhos sócriação.",
+      "estado": "registrada_para_consolidacao"
+    },
+    {
+      "id": "ORI-I03",
+      "dono": "R11",
+      "tema": "Reparo de corpos invocados",
+      "contrato": "Sincronizar CD8+atributoOfício+maestriaReparador+ajusteClasse com a linguagem da Fabricação. Texto R11 ainda genérico, não foi editado nesta unidade.",
+      "estado": "registrada_para_consolidacao"
+    },
+    {
+      "id": "ORI-I04",
+      "dono": "R04",
+      "tema": "Morrendo/Integridade",
+      "contrato": "Revezamento não impede Inconsciente; FerroVelho mantém PVoculto com informação de escolhas; reparo a zero não cria regra de retorno. Revalidar após redesenho de morte/Integridade.",
+      "estado": "registrada_para_consolidacao"
+    },
+    {
+      "id": "ORI-I05",
+      "dono": "R05",
+      "tema": "Sentir Energia, Furtividade",
+      "contrato": "Substituições Instinto/Faro/Sentido preservam sentidos/ação/alcance. Testemunha civil não é semenergia literal.",
+      "estado": "registrada_para_consolidacao"
+    },
+    {
+      "id": "ORI-I06",
+      "dono": "R09",
+      "tema": "Barreiras",
+      "contrato": "Máscara não atravessa critérioindependente nem obstaclefísico; ausênciaenergia e equipamento seguem dono de rota semduplicação.",
+      "estado": "registrada_para_consolidacao"
+    },
+    {
+      "id": "ORI-I07",
+      "dono": "R19",
+      "tema": "Promessa",
+      "contrato": "Passagem define prazo antes ou usa acordo existente; não replica pactos.",
+      "estado": "registrada_para_consolidacao"
+    },
+    {
+      "id": "ORI-I08",
+      "dono": "R03",
+      "tema": "Condições",
+      "contrato": "Revezamento=Incapacitado Leve; Usado/Talhe/Cabo Leves e AssinadoCegoPesada; imunidade Envenenado não imunidade Veneno.",
+      "estado": "registrada_para_consolidacao"
+    },
+    {
+      "id": "ORI-I09",
+      "dono": "Equipamentos",
+      "tema": "Armaria/Enterrado/DesdeCriança",
+      "contrato": "Narrativa não fornece item superior ou inventário gratuito.",
+      "estado": "registrada_para_consolidacao"
+    },
+    {
+      "id": "ORI-I10",
+      "dono": "Revisão global",
+      "tema": "Nomes",
+      "contrato": "Aplicar MAPA-DE-NOMES fora desta unidade durante consolidação, sem reescrever fontes publicadas agora.",
+      "estado": "registrada_para_consolidacao"
+    }
+  ]
+}

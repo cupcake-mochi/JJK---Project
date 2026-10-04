@@ -1,0 +1,139 @@
+<!-- page:manobras|Agarrar, derrubar e empurrar -->
+# Agarrar, derrubar e empurrar
+
+**Proposta sobre a v0.331.** Procedimentos candidatos de manobras, informação e respostas preparadas.
+
+Um golpe pode servir para impedir a fuga, tirar alguém do caminho ou colocá-lo no chão. Ao realizar a **Ação Atacar**, você pode substituir um de seus ataques por uma das manobras abaixo.
+
+## Faça a manobra
+
+Escolha uma criatura **ao alcance do seu ataque desarmado**, normalmente 1,5 m, e de **até uma categoria de tamanho maior que você**. Você precisa conseguir alcançá-la fisicamente. Depois, declare a manobra. A ordem de tamanhos do projeto é **Minúsculo, Pequeno, Médio, Grande, Imenso e Colossal**. Um humano comum é Médio; o tamanho do alvo é o indicado em sua ficha.
+
+O alvo faz um **TR Físico contra CD 8 + sua Força + sua maestria**. Ele usa o atributo de TR Físico escolhido na criação. Igualar ou superar a CD evita a manobra; falhar aplica o efeito escolhido.
+
+| Manobra | Efeito na falha do alvo |
+|---|---|
+| **Agarrar** | O alvo fica **Agarrado por você**, com deslocamento zero. Você precisa de uma mão livre, que fica ocupada enquanto mantiver a contenção. |
+| **Derrubar** | O alvo fica **Derrubado**. |
+| **Empurrar** | O alvo é afastado **1,5 m de você**, por um percurso possível. Uma parede ou outro obstáculo sólido interrompe o movimento. |
+
+**Cada tentativa substitui um ataque, mesmo quando o alvo resiste.** Se sua Ação Atacar permite dois ataques, você pode tentar agarrar com um e golpear com o outro, ou fazer duas manobras.
+
+A manobra substitui o dano: não há rolagem de ataque, crítico nem dano de Canalizar. Ela não conta como acerto ou erro e não ativa efeitos que dependem deles, como ganhar Fluidez por acertar. Proteções contra TR Físico provocado por ataque podem se aplicar; defesas que exijam rolagem de ataque ou acerto não. Ainda faz parte da **Ação Atacar**.
+
+**Pugilista:** nas manobras desarmadas desta ação, pode usar sua **CD de Trilha** no lugar da CD comum. Os custos e efeitos da manobra permanecem os mesmos.
+
+## Mãos, armas e alcance
+
+Cada mão pode manter uma criatura agarrada. Você pode atacar com outra mão, uma arma disponível ou outras partes do corpo. A contenção comum não prende uma arma ou um membro específico do alvo.
+
+**Emaranha** permite agarrar com a arma sem largá-la, usando o alcance **corpo a corpo** dela. A arma e as mãos necessárias para empunhá-la ficam ocupadas nessa contenção; solte o alvo antes de voltar a atacar com ela.
+
+Essas opções pertencem à Ação Atacar. Um ataque concedido por **Ação Bônus ou ataque de oportunidade** não pode ser trocado por elas sem uma permissão específica. Uma habilidade que já empurra, derruba ou agarra usa seus próprios requisitos e efeitos.
+
+> **Exemplo:** Rina tem Força 3 e maestria 1: sua CD é 12. Ela troca um ataque por Agarrar. A maldição soma 10 no TR e fica agarrada. Rina não causa dano com essa tentativa, mas pode usar outro ataque disponível para golpeá-la.
+
+<!-- page:contencoes|Escapar e manter uma contenção -->
+# Escapar e manter uma contenção
+
+**Agarrado** deixa seu deslocamento em zero. Você ainda pode atacar, conjurar e Bloquear, respeitando as exigências de cada ação. Prender uma arma ou impedir um ataque exige um efeito que diga isso.
+
+## Escapar
+
+No seu turno, gaste uma **Ação Padrão** e faça um **TR Físico contra a CD da contenção**. Use a CD com que ela foi aplicada: normalmente **8 + Força + maestria de quem agarrou você**. No sucesso, a contenção termina; na falha, você permanece agarrado. Se duas criaturas o seguram, escolha de qual contenção tenta escapar.
+
+Escapar não concede ataque nem movimento. Depois do sucesso, você pode usar o movimento que ainda tiver disponível. Contenções criadas por feitiços ou habilidades seguem as formas de saída indicadas nelas.
+
+Quem agarrou pode soltar o alvo **sem gastar ação**. A contenção também termina se essa pessoa ficar Incapacitada, deixar de manter a mão ou arma ocupada, ou se as duas criaturas forem separadas além do alcance da contenção.
+
+## Arrastar
+
+Ao se mover pelo chão, você pode arrastar **uma criatura agarrada por você**, dentro do limite de tamanho da manobra. Cada trecho de **1,5 m custa 3 m do seu movimento**; terreno difícil acrescenta mais 1,5 m ao custo desse trecho. As duas criaturas precisam caber no percurso e permanecer ao alcance uma da outra.
+
+O arrasto não consome movimento da vítima nem provoca ataques de oportunidade contra ela. Você ainda pode provocá-los por seus próprios movimentos. Isso não permite arremessar o alvo, causar dano de colisão ou ganhar ataques. Quedas e perigos reais do cenário seguem suas regras. Para erguer ou carregar alguém, confira os limites de **Peso**.
+
+## No chão e sob ataque
+
+Estar Agarrado não impede gastar sua **Ação de Movimento para levantar** de um Derrubado comum. Você continua agarrado e no mesmo espaço. Uma habilidade que permita levantar de outro modo conserva essa permissão.
+
+Um tiro contra alguém envolvido na contenção é resolvido contra esse alvo. Se outra criatura estiver entre o atacante e ele, aplique a cobertura correspondente. O agarrão não redireciona o ataque aleatoriamente.
+
+## O que muda com uma Trilha
+
+| Habilidade | Sua vantagem específica |
+|---|---|
+| **Recuperar a Base** | Permite tentar escapar com Fluidez, sem Ação Padrão, e inverter nas condições da habilidade. |
+| **Interceptar e Prender** | Usa a Reação no momento indicado e pode inutilizar a arma ou o membro preso. |
+| **Projeção Marcial** | Lança o alvo e resolve dano, queda e colisão pelos próprios custos e testes. |
+| **Mão Pesada / Cortar a Fuga** | Acrescentam controle ao golpe nas condições das habilidades. |
+
+Esses benefícios dependem das respectivas habilidades. A manobra comum não os concede.
+
+<!-- page:estudar|Estudar uma criatura ou objeto -->
+# Estudar uma criatura ou objeto
+
+Estudar permite compreender algo que você consegue observar: reconhecer um selo, avaliar um ferimento ou identificar um sinal da energia de uma criatura. **Em combate, custa uma Ação Padrão.**
+
+## Diga o que procura entender
+
+Escolha uma criatura ou objeto que você consiga enxergar e faça uma pergunta concreta. O mestre indica a perícia adequada ao assunto. A distância só importa se impedir observar os detalhes necessários.
+
+| Perícia | Exemplos do que examinar |
+|---|---|
+| **Sentir Energia** | A manifestação de energia que você consegue perceber e os sinais que ela apresenta. |
+| **Ocultismo** | A função reconhecível de um símbolo, selo ou procedimento de feitiçaria. |
+| **Medicina** | Um ferimento, sintoma ou indício da condição física de alguém. |
+| **História** | Um emblema, objeto ou referência que você possa reconhecer pelo conhecimento do passado. |
+
+Estudar não amplia os seus sentidos. Uma criatura escondida precisa ser localizada antes; uma superfície opaca continua impedindo examinar o que há atrás dela.
+
+## Resolva a pergunta
+
+Quando houver incerteza, role a perícia contra a CD indicada pelo mestre. Conhecimento e tarefas sem nível usam a escada **6, 10, 14, 18, 22 e 26**. Entender um efeito cuja dificuldade dependa do poder de seu criador usa a CD correspondente, conforme as regras de testes.
+
+No sucesso, o mestre responde com **uma informação útil que os sinais ou seu conhecimento permitam descobrir**. Ela pode explicar um risco ou orientar sua próxima decisão. Uma informação evidente ou já conhecida não exige teste apenas por ter sido mencionada em combate.
+
+Na falha, a Ação Padrão foi gasta e a observação não basta para responder com segurança. Repetir a mesma pergunta sem nova pista ou mudança de abordagem não dá outra tentativa.
+
+> **Exemplo:** Kaito encontra alguém caído ao lado de um frasco vazio e pergunta se a pessoa parece envenenada. O mestre pede Medicina. Com sucesso, descreve os sinais identificáveis e o que eles indicam. O teste não revela automaticamente quem deixou o frasco nem prevê o que a vítima fará ao acordar.
+
+## Encontrar, compreender ou explorar o lugar
+
+**Vasculhar** procura uma criatura, um objeto ou uma pista. **Estudar** procura compreender aquilo que você já observa. **Ler o Ambiente** procura algo aproveitável do lugar, seguindo seu custo e limite próprios.
+
+Estudar não concede vantagem no ataque, acesso à ficha inteira do alvo nem certeza sobre sua próxima decisão. **Estudar a Guarda**, do Assassino, e as previsões do Analista são habilidades específicas: usam seus próprios custos e concedem os benefícios escritos nelas.
+
+<!-- page:preparar|Preparar uma resposta -->
+# Preparar uma resposta
+
+**Preparar custa uma Ação Padrão agora e sua Reação ao executar a resposta.** Use para esperar alguém cruzar uma porta ou aguardar um sinal para correr.
+
+## Escolha o gatilho e a resposta
+
+No seu turno, declare um **evento perceptível**, como alguém entrar ao seu alcance, e sua **resposta**: uma ação que custe Padrão ou um deslocamento. Conjurações seguem a regra abaixo.
+
+Você mantém uma preparação por vez. Ela dura até o **começo do seu próximo turno**. Se preparar outra, a anterior termina.
+
+## Espere o evento terminar
+
+Quando o gatilho acontecer, você pode gastar sua **Reação imediatamente depois de ele terminar**. Confira então alcance, alvo, percurso e os demais requisitos da resposta. Custos adicionais são pagos quando ela é executada.
+
+Preparar não interrompe o evento. Se o gatilho for um ataque, espere esse ataque terminar, sem precisar esperar os outros da mesma ação. Para “entrar ao meu alcance”, responda depois que a criatura entrar.
+
+Você pode ignorar o gatilho e continuar esperando. Gastar a Reação em outra coisa **encerra a preparação**. Se o prazo acabar sem resposta, perde a Padrão investida, mas não gasta a Reação.
+
+## Atacar ou se mover
+
+Ao preparar **Atacar**, realize a ação com os ataques que suas habilidades permitem, respeitando seus limites por rodada. Preparar não renova um ataque extra já utilizado nem libera efeitos restritos ao seu próprio turno. Você não recebe junto uma Ação Bônus ou uma Ação de Movimento.
+
+O deslocamento preparado concede metros adicionais iguais ao seu deslocamento **no momento da resposta**. Não usa o saldo do turno anterior, não renova o limite de Movimento Acrobático nem inclui ataque. Terreno, condições e ataques de oportunidade continuam valendo.
+
+> **Exemplo:** Rina prepara Agarrar quem entrar ao seu alcance pela porta. Quando isso acontece, gasta a Reação e resolve a manobra. Se já tivesse gasto a Reação para assumir outro golpe, a preparação teria terminado.
+
+## Conjuração preparada
+
+Para conjurar como resposta, use a **Melhoria Reação** ou uma habilidade que permita fazê-lo. Cumpra seu gatilho e requisitos. Essa permissão já permite a resposta: você não precisa gastar também uma Ação Padrão em Preparar. Preparar não torna reativo qualquer feitiço nem troca o gatilho da montagem.
+
+Para deixar um feitiço esperando um evento pelas regras de **Armado**, use essa Melhoria e seus próprios custos, prazo e forma de ativação.
+
+**Invocações** usam os procedimentos de Preparar do próprio capítulo: básica investida, comando, Reação coletiva e limites de ataque. As permissões desta página não substituem essas regras.

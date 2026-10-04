@@ -90,8 +90,8 @@ CAPITULOS = [
     "45-aptidoes-e-refino.md",
     "46-ritual.md",
     "47-bencaos-e-lapidacao.md", "50-equipamento.md",
-    # o 60-invocacoes.md saiu na v0.270, com o Evocador: a lista e a ordem do build
-    "55-ferramenta-amaldicoada.md", "65-pactos.md",
+    # v0.331: Invocacoes retorna na ordem aprovada do build
+    "55-ferramenta-amaldicoada.md", "60-invocacoes.md", "65-pactos.md",
     "80-experiencia-e-progressao.md",
 ]
 

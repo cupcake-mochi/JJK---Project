@@ -1,0 +1,354 @@
+{
+  "data": "2026-10-03",
+  "ok": true,
+  "verificacoes": 48,
+  "sha256_pdf": "de4e732ebc6e81a8f8955d68e4f76c2c42b9c144d6a34a328c9a6babd76f72aa",
+  "sha256_texto": "d4975075179e3756f0c96bed948a267725485b0fcb01e5598403e0fe364c4125",
+  "checks": [
+    {
+      "verificacao": "Quantidade de páginas e seções",
+      "obtido": [
+        4,
+        4
+      ],
+      "esperado": [
+        4,
+        4
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Sequência",
+      "obtido": [
+        "espacos",
+        "rastejar",
+        "voo",
+        "carga"
+      ],
+      "esperado": [
+        "espacos",
+        "rastejar",
+        "voo",
+        "carga"
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Títulos correspondem ao mapa",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entradas principais",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "verificacao": "Grupos recolhidos",
+      "obtido": [
+        -2,
+        -2
+      ],
+      "esperado": [
+        -2,
+        -2
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Destinos de marcadores válidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: texto completo",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p1: texto dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: corpo separado de rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p1: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: remissões existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p1: links corretos",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p2: texto completo",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p2: texto dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p2: corpo separado de rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p2: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p2: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p2: remissões existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p2: links corretos",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p3: texto completo",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p3: texto dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p3: corpo separado de rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p3: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p3: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p3: remissões existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p3: links corretos",
+      "obtido": [
+        4
+      ],
+      "esperado": [
+        4
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "p3: página citada carga",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p4: texto completo",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p4: texto dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p4: corpo separado de rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p4: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p4: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p4: remissões existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p4: links corretos",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Fontes e versões anteriores preservadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Livro e exportações preservados",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Revisão do texto atual",
+      "obtido": "d4975075179e3756f0c96bed948a267725485b0fcb01e5598403e0fe364c4125",
+      "esperado": "d4975075179e3756f0c96bed948a267725485b0fcb01e5598403e0fe364c4125",
+      "ok": true
+    },
+    {
+      "verificacao": "Seções lidas",
+      "obtido": 4,
+      "esperado": 4,
+      "ok": true
+    },
+    {
+      "verificacao": "Inspeção do PDF atual",
+      "obtido": "de4e732ebc6e81a8f8955d68e4f76c2c42b9c144d6a34a328c9a6babd76f72aa",
+      "esperado": "de4e732ebc6e81a8f8955d68e4f76c2c42b9c144d6a34a328c9a6babd76f72aa",
+      "ok": true
+    },
+    {
+      "verificacao": "Todas páginas visualmente examinadas",
+      "obtido": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "esperado": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Inspeção sem defeitos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Bloqueio editorial e revisão contextual",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Cenários mecânicos e interfaces",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Cenários usam o manuscrito atual",
+      "obtido": "d4975075179e3756f0c96bed948a267725485b0fcb01e5598403e0fe364c4125",
+      "esperado": "d4975075179e3756f0c96bed948a267725485b0fcb01e5598403e0fe364c4125",
+      "ok": true
+    },
+    {
+      "verificacao": "Auditoria numérica concluída",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Auditoria inclui este manuscrito",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Números vinculados a textos atuais",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    }
+  ],
+  "geometria": [
+    {
+      "pagina": 1,
+      "final_corpo": 705.52
+    },
+    {
+      "pagina": 2,
+      "final_corpo": 713.47
+    },
+    {
+      "pagina": 3,
+      "final_corpo": 648.52
+    },
+    {
+      "pagina": 4,
+      "final_corpo": 755.92
+    }
+  ],
+  "limites": [
+    "Modelos e conferências documentais não substituem teste com leitores e jogadores."
+  ]
+}

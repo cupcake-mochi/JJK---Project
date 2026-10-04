@@ -1,0 +1,167 @@
+{
+  "habilidades": [
+    {
+      "nome": "Olhos Em Mim",
+      "nivel": 2,
+      "pagina": "bas-olhos",
+      "fonte": "integrado",
+      "linha": 40
+    },
+    {
+      "nome": "Ataque Extra",
+      "nivel": 7,
+      "pagina": "bas-defesa",
+      "fonte": "integrado",
+      "linha": 50
+    },
+    {
+      "nome": "Nem Um Arranhão",
+      "nivel": 7,
+      "pagina": "bas-defesa",
+      "fonte": "integrado",
+      "linha": 54
+    },
+    {
+      "nome": "Ainda de Pé",
+      "nivel": 7,
+      "pagina": "bas-defesa",
+      "fonte": "integrado",
+      "linha": 56
+    },
+    {
+      "nome": "Duro de Matar",
+      "nivel": 15,
+      "pagina": "bas-defesa",
+      "fonte": "integrado",
+      "linha": 58
+    },
+    {
+      "nome": "Chega Mais",
+      "nivel": 23,
+      "pagina": "bas-aliados",
+      "fonte": "integrado",
+      "linha": 62
+    },
+    {
+      "nome": "Passa Pra Mim",
+      "nivel": 30,
+      "pagina": "bas-aliados",
+      "fonte": "integrado",
+      "linha": 66
+    },
+    {
+      "nome": "Alicerce",
+      "nivel": 2,
+      "pagina": "bas-muro",
+      "fonte": "integrado",
+      "linha": 86
+    },
+    {
+      "nome": "Guarda-Costas",
+      "nivel": 11,
+      "pagina": "bas-muro",
+      "fonte": "integrado",
+      "linha": 88
+    },
+    {
+      "nome": "Casca Grossa",
+      "nivel": 19,
+      "pagina": "bas-casca",
+      "fonte": "integrado",
+      "linha": 90
+    },
+    {
+      "nome": "Inabalável",
+      "nivel": 27,
+      "pagina": "bas-casca",
+      "fonte": "integrado",
+      "linha": 94
+    },
+    {
+      "nome": "Trocação Franca",
+      "nivel": 2,
+      "pagina": "bas-punho",
+      "fonte": "integrado",
+      "linha": 112
+    },
+    {
+      "nome": "Mão Pesada",
+      "nivel": 11,
+      "pagina": "bas-mao",
+      "fonte": "integrado",
+      "linha": 116
+    },
+    {
+      "nome": "Minha Vez",
+      "nivel": 19,
+      "pagina": "bas-mao",
+      "fonte": "integrado",
+      "linha": 120
+    },
+    {
+      "nome": "Arrastão",
+      "nivel": 27,
+      "pagina": "bas-arrastao",
+      "fonte": "integrado",
+      "linha": 122
+    },
+    {
+      "nome": "Retaliação",
+      "nivel": 2,
+      "pagina": "bas-combatente",
+      "fonte": "integrado",
+      "linha": 144
+    },
+    {
+      "nome": "Embalo",
+      "nivel": 11,
+      "pagina": "bas-combatente",
+      "fonte": "integrado",
+      "linha": 148
+    },
+    {
+      "nome": "Oportunista",
+      "nivel": 19,
+      "pagina": "bas-oportunista",
+      "fonte": "integrado",
+      "linha": 152
+    },
+    {
+      "nome": "Contra a Parede",
+      "nivel": 27,
+      "pagina": "bas-oportunista",
+      "fonte": "integrado",
+      "linha": 158
+    }
+  ],
+  "caracteristicas": {
+    "fonte": "integrado + criacao + progressao",
+    "pagina": "bas-bastiao",
+    "itens": [
+      "Vida inicial",
+      "Vida por nível",
+      "PE",
+      "Força e Constituição",
+      "2 perícias fixas",
+      "5 perícias livres",
+      "2 ofícios da Origem",
+      "1 TR",
+      "13 categorias de armas",
+      "escolha e troca de Trilha",
+      "progressão do Caminho e das 3 Trilhas"
+    ]
+  },
+  "exemplos": [
+    {
+      "origem": "Passa Pra Mim 10/16",
+      "destino": "bas-aliados",
+      "resultado": "preservado: aliado1, Bastião7 antes de suas defesas"
+    },
+    {
+      "origem": "Arrastão 3 e 5 alvos",
+      "destino": "bas-arrastao",
+      "resultado": "preservado em tabela:4PE/8PE"
+    }
+  ],
+  "nomes_alterados": []
+}

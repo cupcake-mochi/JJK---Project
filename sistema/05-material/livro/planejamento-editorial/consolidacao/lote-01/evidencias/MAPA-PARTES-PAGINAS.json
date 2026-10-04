@@ -1,0 +1,180 @@
+{
+  "sha256_pdf": "565e98135d44f9788cb6b4f65054916c094d1b6976ff5dbacd5f5f246ebc1c08",
+  "preliminares": {
+    "inicio": 1,
+    "fim": 2
+  },
+  "partes": [
+    {
+      "parte": 1,
+      "titulo": "Jogo e mundo",
+      "inicio": 3,
+      "fim": 55,
+      "paginas": 53,
+      "capitulos": [
+        {
+          "capitulo": 1,
+          "titulo": "Projeto - M",
+          "inicio": 3,
+          "fim": 5
+        },
+        {
+          "capitulo": 2,
+          "titulo": "Regras gerais",
+          "inicio": 6,
+          "fim": 39
+        },
+        {
+          "capitulo": 3,
+          "titulo": "Dano e recuperação",
+          "inicio": 40,
+          "fim": 55
+        }
+      ]
+    },
+    {
+      "parte": 2,
+      "titulo": "Personagens",
+      "inicio": 56,
+      "fim": 217,
+      "paginas": 162,
+      "capitulos": [
+        {
+          "capitulo": 4,
+          "titulo": "Criar um personagem",
+          "inicio": 56,
+          "fim": 62
+        },
+        {
+          "capitulo": 5,
+          "titulo": "Origens e Legados",
+          "inicio": 63,
+          "fim": 78
+        },
+        {
+          "capitulo": 6,
+          "titulo": "Caminhos e Trilhas",
+          "inicio": 79,
+          "fim": 164
+        },
+        {
+          "capitulo": 7,
+          "titulo": "Perícias e Ofícios",
+          "inicio": 165,
+          "fim": 173
+        },
+        {
+          "capitulo": 8,
+          "titulo": "Equipamento",
+          "inicio": 174,
+          "fim": 207
+        },
+        {
+          "capitulo": 9,
+          "titulo": "Progressão",
+          "inicio": 208,
+          "fim": 217
+        }
+      ]
+    },
+    {
+      "parte": 3,
+      "titulo": "Técnicas e poderes",
+      "inicio": 218,
+      "fim": 315,
+      "paginas": 98,
+      "capitulos": [
+        {
+          "capitulo": 10,
+          "titulo": "Fundamento",
+          "inicio": 218,
+          "fim": 242
+        },
+        {
+          "capitulo": 11,
+          "titulo": "Catálogo de criação",
+          "inicio": 243,
+          "fim": 264
+        },
+        {
+          "capitulo": 12,
+          "titulo": "Aptidões e Refino",
+          "inicio": 265,
+          "fim": 278
+        },
+        {
+          "capitulo": 13,
+          "titulo": "Rotas de criação",
+          "inicio": 279,
+          "fim": 295
+        },
+        {
+          "capitulo": 14,
+          "titulo": "Poderes avançados",
+          "inicio": 296,
+          "fim": 306
+        },
+        {
+          "capitulo": 15,
+          "titulo": "Ritual e Pactos",
+          "inicio": 307,
+          "fim": 315
+        }
+      ]
+    },
+    {
+      "parte": 4,
+      "titulo": "Invocações",
+      "inicio": 316,
+      "fim": 354,
+      "paginas": 39,
+      "capitulos": [
+        {
+          "capitulo": 16,
+          "titulo": "Invocações em campo",
+          "inicio": 316,
+          "fim": 332
+        },
+        {
+          "capitulo": 17,
+          "titulo": "Construir invocações",
+          "inicio": 333,
+          "fim": 354
+        }
+      ]
+    },
+    {
+      "parte": 5,
+      "titulo": "Mestrar e consultar",
+      "inicio": 355,
+      "fim": 383,
+      "paginas": 29,
+      "capitulos": [
+        {
+          "capitulo": 18,
+          "titulo": "Mestrar",
+          "inicio": 355,
+          "fim": 356
+        },
+        {
+          "capitulo": 19,
+          "titulo": "Glossário",
+          "inicio": 357,
+          "fim": 361
+        },
+        {
+          "capitulo": 20,
+          "titulo": "Referências e fichas",
+          "inicio": 362,
+          "fim": 372
+        },
+        {
+          "capitulo": 21,
+          "titulo": "Índice",
+          "inicio": 373,
+          "fim": 383
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,496 @@
+[
+  {
+    "id": "R11-01",
+    "tipo": "editorial",
+    "secao": "inv-campo",
+    "antes": "Montagem, catálogo e uso em capítulo extenso.",
+    "depois": "Uso em 30 blocos consultáveis, aquisição e ficha remetidas a R12.",
+    "motivo": "Evitar reapresentar todo o catálogo antes de jogar.",
+    "impacto_ou_limite": "Títulos por tarefa; mesmos tipos e teto de duas ativas.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-02",
+    "tipo": "preservação",
+    "secao": "inv-ciclo",
+    "antes": "Ciclo no começo do turno, básica/Movimento em campo e reação coletiva única.",
+    "depois": "Expõe renovação e histórico individual em uma página.",
+    "motivo": "Separar rodada, iniciativa e recurso compartilhado.",
+    "impacto_ou_limite": "Trocas/reserva nunca copiam uma básica.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-03",
+    "tipo": "preservação",
+    "secao": "inv-entrada",
+    "antes": "Bônus, PE igual à Classe; entrada comum sem básica e primeira tarefa por outra Bônus.",
+    "depois": "Mesmo custo, posição1,5m, duração e conversão de ações.",
+    "motivo": "Não confundir aquisição, entrada e ordem.",
+    "impacto_ou_limite": "Custos de entrada não passam à reserva própria.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-04",
+    "tipo": "preservação",
+    "secao": "inv-troca",
+    "antes": "Transfere uma básica não gasta/usável; recebedora não gastou básica no ciclo.",
+    "depois": "Lista as três verificações, entradas múltiplas e posição.",
+    "motivo": "Evitar cadeias que recuperem a atuação já usada.",
+    "impacto_ou_limite": "Cadeia sem gasto pode mover um recurso; nunca copiá-lo.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-05",
+    "tipo": "preservação",
+    "secao": "inv-ciclo",
+    "antes": "Reserva limpa histórico no ciclo, mas não renova Movimento.",
+    "depois": "Corpo guardado não recebe básica; só volta a poder receber transferência.",
+    "motivo": "Separar elegibilidade de recurso disponível.",
+    "impacto_ou_limite": "Sem recuperação de metros por passar rodadas guardado.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-06",
+    "tipo": "editorial",
+    "secao": "inv-intencao",
+    "antes": "Intenção, redirecionamento e impedimentos longos.",
+    "depois": "Tarefas concretas, tarefa concluída e autopreservação.",
+    "motivo": "Dar critério de autonomia sem ordens oniscientes.",
+    "impacto_ou_limite": "Não cria aggro, interceptação ou escolha autônoma de especial.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-07",
+    "tipo": "mecânica de fechamento",
+    "secao": "inv-comunicacao",
+    "antes": "Vínculo não tinha distância geral, sem telepatia implícita.",
+    "depois": "Comunicação usa os sentidos e condições normais; sobrenatural exige ficha.",
+    "motivo": "Não inventar rádio mental de alcance ilimitado.",
+    "impacto_ou_limite": "Descrição de corpo não compra sentidos especiais; R12 define.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-08",
+    "tipo": "compatibilidade",
+    "secao": "inv-basica",
+    "antes": "Manobras/Estudar declaradas lacunas.",
+    "depois": "Remissão ao procedimento corrente de Ações, anatomia, alcance e tamanho.",
+    "motivo": "R01/R04 já definem estas ações.",
+    "impacto_ou_limite": "Não cria ataques adicionais nem mãos para mordida.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-09",
+    "tipo": "preservação",
+    "secao": "inv-basica",
+    "antes": "Duas entidades causando dano no turno, exceto especiais comandadas; Média/Pesada só especial ativa.",
+    "depois": "Conserva teto por corpo e vedações em básica, reação autônoma, passiva e aura.",
+    "motivo": "Impedir que mais invocações ou reação copiem Controle pesado.",
+    "impacto_ou_limite": "Auras continuam na vedação literal histórica; R12 precisa preservar.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-10",
+    "tipo": "mecânica de fechamento",
+    "secao": "inv-especial",
+    "antes": "ComandoPadrão sem explicitar integração ao limite pessoal de conjuração.",
+    "depois": "Comando ocupa conjuração na emissão; básicos não; execução posterior não cobra outra.",
+    "motivo": "Alinhar R06 com preparação histórica e ações de múltiplas entidades.",
+    "impacto_ou_limite": "Root confirmou; permite concentrar ordens pagas em turnos anteriores. Risco documentado e caso executado.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-11",
+    "tipo": "compatibilidade",
+    "secao": "inv-especial",
+    "antes": "Evocador contém exceções positivas expressas.",
+    "depois": "Preserva remissão geral a permissões explícitas, sem copiar habilidades.",
+    "motivo": "Não retirar Especial Combinada, Especial de Continuidade, Técnicas em Conjunto, Resposta Técnica da Dupla ou respostas de Guia.",
+    "impacto_ou_limite": "Casos de limite normais e exceção modelados; habilidades completas pertencem ao Caminho.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-12",
+    "tipo": "mecânica de fechamento",
+    "secao": "inv-energia",
+    "antes": "Divisão de especial definida; outras capacidades comPE sem pagador explícito.",
+    "depois": "Reativas comPE usam mesmo pagador e divisão; Contramedida2PE+coletiva.",
+    "motivo": "R07 passou a exigir os2PE; não criar PE autônomo gratuito.",
+    "impacto_ou_limite": "Entrada/retorno/carga permanecem pagos pelo invocador.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-13",
+    "tipo": "mecânica de fechamento",
+    "secao": "inv-energia",
+    "antes": "DC recupera quarto, sem especificar mínimo em reserva1–3.",
+    "depois": "Arredonda benefício para baixo com mínimo1 e teto da reserva.",
+    "motivo": "Aplicar convenção geral do sistema; evitar descanso sem recuperação em entidade inicial.",
+    "impacto_ou_limite": "Máximo+1PE frente à leitura floor puro para reservas1–3; não altera exemplo20→5.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-14",
+    "tipo": "mecânica de fechamento",
+    "secao": "inv-energia",
+    "antes": "Fonte não nomeia quem sustenta concentração da especial.",
+    "depois": "Entidade executora concentra e testa seu TR quando sofre dano.",
+    "motivo": "Concentração pertence a quem conjura; invocador paga comando.",
+    "impacto_ou_limite": "Mantém independência corporal e evita dois testes pelo mesmo efeito.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-15",
+    "tipo": "preservação",
+    "secao": "inv-antecipada",
+    "antes": "Ordem só com impedimento real, primeira janela, duração sem próximo-turno.",
+    "depois": "Procedimento separa emissão, execução dentro/fora do turno e custos.",
+    "motivo": "Não transformar ordem em reação gratuita nem preferência de espera.",
+    "impacto_ou_limite": "Fora exige básica+coletiva após a resolução que removeu o bloqueio.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-16",
+    "tipo": "preservação",
+    "secao": "inv-pendentes",
+    "antes": "Antecipada e preparada disputam uma especial pendente por corpo.",
+    "depois": "Mantém cancelamento/ajuste/ordens simultâneas e modalidades.",
+    "motivo": "Não restaurar comando ou básica ao trocar tipo de ordem.",
+    "impacto_ou_limite": "Escolha do jogador inconsciente só entre autorizações anteriores.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-17",
+    "tipo": "preservação",
+    "secao": "inv-preparar",
+    "antes": "Preparar básica agora e coletiva no gatilho; especial também comando.",
+    "depois": "Momento de recursos, expiração e perda da coletiva separados.",
+    "motivo": "Impedir pagamento duplo da básica ou conservação depois do prazo.",
+    "impacto_ou_limite": "Especial preparada usa coletiva até dentro do turno.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-18",
+    "tipo": "compatibilidade",
+    "secao": "inv-gatilhos",
+    "antes": "Preparada cruza porta no gatilho; antecipada espera resolução terminar.",
+    "depois": "Mantém dois momentos, ajuste apenas no turno de emissão e recusa da especial preparada.",
+    "motivo": "Não usar entrada passada ou recuperar um gatilho perdido.",
+    "impacto_ou_limite": "Recusar não é permitido à básica preparada nem à antecipada.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-19",
+    "tipo": "mecânica de fechamento",
+    "secao": "inv-tempo",
+    "antes": "R07 pediu tradução explícita de Tempo para invocações.",
+    "depois": "Rápido muda comando para Bônus; Reação paga pessoal+básica+coletiva; Segura paga tudo agora e resolve próximo turno.",
+    "motivo": "Não confundir ação do invocador com básica e reação da executora.",
+    "impacto_ou_limite": "Custo de Reação é conservador; requer uso em mesa para medir atratividade.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-20",
+    "tipo": "mecânica de fechamento",
+    "secao": "inv-pendentes",
+    "antes": "Armado/Segura não contavam explicitamente no teto pendente.",
+    "depois": "Uma especial aguardando inclui as quatro modalidades; sair/cair encerra adiantadas.",
+    "motivo": "Evitar estoque de corpos preparados na reserva.",
+    "impacto_ou_limite": "No máximo corpos ativos permitidos sustentam disparos.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-21",
+    "tipo": "mecânica de fechamento",
+    "secao": "inv-armado",
+    "antes": "Armado comum um por conjurador, sem recurso de entidade.",
+    "depois": "Um por corpo, comando+básica+PE antecipados; sem coletiva ao disparar.",
+    "motivo": "Preservar o benefício comprado pela peça sem gerar nova básica.",
+    "impacto_ou_limite": "Preparar comum exige coletiva; Armado é melhoria paga e não Máxima.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-22",
+    "tipo": "mecânica de fechamento",
+    "secao": "inv-armado",
+    "antes": "Devolução metade do custo com um pagador.",
+    "depois": "Totalfloor(PE/2); entidadefloor(suaParcela/2); restante ao invocador.",
+    "motivo": "Conservar devolução total em pagamentos divididos.",
+    "impacto_ou_limite": "6.370 distribuições conferidas, nunca mais que cada contribuição.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-23",
+    "tipo": "compatibilidade",
+    "secao": "inv-armado",
+    "antes": "Liberação com Armado poderia aparentar pagar só Padrão.",
+    "depois": "Exige Completa, básica, PE e preço já ao armar.",
+    "motivo": "Preservar contrato R06/R07.",
+    "impacto_ou_limite": "Não adia Sangue/Peso/Vazio nem usa Máxima; outras incompatibilidades remetidas.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-24",
+    "tipo": "editorial",
+    "secao": "inv-respostas",
+    "antes": "Manual repetia habilidades do Guia.",
+    "depois": "Explica somente consumo de recursos por ataque/movimento/conjuração concedidos.",
+    "motivo": "Habilidades têm dono em Caminhos; retirar explicação duplicada.",
+    "impacto_ou_limite": "Sem mudança no Guia; catálogo de poderes não aparece aqui.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-25",
+    "tipo": "preservação",
+    "secao": "inv-defesa",
+    "antes": "Bloquear não gasta coletiva; contra-ataque usa; condição de um corpo não retira pool.",
+    "depois": "Explicita remissão à defesa geral e exceção de Atordoado sobre uma básica.",
+    "motivo": "Não copiar ficha inteira de condições.",
+    "impacto_ou_limite": "Incapacitado/Lento seguem regras gerais; não concedem impedimentos extras.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-26",
+    "tipo": "mecânica de fechamento",
+    "secao": "inv-talisma",
+    "antes": "Carga metade normal; interação com retorno em dobro sem regra.",
+    "depois": "Crédito fixo adiantado abate apenas seu valor do retorno2C.",
+    "motivo": "Preservar soma total paga, sem meio custo sobre retorno nem perder adiantamento.",
+    "impacto_ou_limite": "C4:2antes+6no retorno=8, igual ao retorno normal; mudança candidata.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-27",
+    "tipo": "preservação",
+    "secao": "inv-corpos",
+    "antes": "Corpo ativo/inativo/desligado; inativos=atributoDEF.",
+    "depois": "Separa estados, posição real e ativação sem teletransporte.",
+    "motivo": "Desligada não é inativo saudável.",
+    "impacto_ou_limite": "R12 define atributo único; vida e metros não renovam por desativar.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-28",
+    "tipo": "mecânica de fechamento",
+    "secao": "inv-reparo",
+    "antes": "Difícil mesma Classe; Média uma abaixo; Fácil duas abaixo. Sem caso acima.",
+    "depois": "Exige reparador de Classe ao menos igual à do corpo.",
+    "motivo": "Não inventar CD acima da escada; root confirmou fechamento.",
+    "impacto_ou_limite": "Ferramentas/materiais R04, sem confundir Grau; restringe reparos antes indefinidos.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-29",
+    "tipo": "editorial",
+    "secao": "inv-reparo",
+    "antes": "Panda como exemplo de corpo autônomo/alma.",
+    "depois": "Regra de tipo da ficha sem nome de personagem.",
+    "motivo": "Não declarar cânone sem evidência primária.",
+    "impacto_ou_limite": "Características são regras do Projeto-M; sem pesquisa canônica nova necessária.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-30",
+    "tipo": "compatibilidade",
+    "secao": "inv-liberacao",
+    "antes": "Texto anterior sugeria orçamento especial e+C.",
+    "depois": "Usa pontos reais2/4/6/9/11/13/16 e+C, nunca supõe2C em níveis altos.",
+    "motivo": "Preservar progressão aprovada.",
+    "impacto_ou_limite": "C4=13d8, C7=23d8 antes das peças; preçoceil4,5C.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-31",
+    "tipo": "compatibilidade",
+    "secao": "inv-maxima",
+    "antes": "Máxima antiga8/8/12, recarga opcional cena.",
+    "depois": "PatchR06:8/12/16; mantém19/22/26d8,25/30/35PE e três turnos seguintes.",
+    "motivo": "Sincronizar correção de regressão e contrato comum sem dar dados pessoais.",
+    "impacto_ou_limite": "Potencial de mais peças aumenta emC6/C7, como candidato já registrado emR06.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-32",
+    "tipo": "mecânica de fechamento",
+    "secao": "inv-dominio",
+    "antes": "Acerto pela régua Inescapável da domada, sem dado explícito.",
+    "depois": "Cd8 fixo como escala específica.",
+    "motivo": "Decisão root para preservar redução própria, sem transportar2Cd8 pessoal.",
+    "impacto_ou_limite": "Não se deriva de2C nos níveis altos: tabela real especial tem9/11/13/16. Redução é explícita e precisa avaliação em mesa.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-33",
+    "tipo": "compatibilidade",
+    "secao": "inv-dominio",
+    "antes": "Cópia integral e antiga de regras de Domínio.",
+    "depois": "Remissão R08 com requisitos, pagadores, atributos da domada/refino do invocador e escala própria.",
+    "motivo": "Ter apenas um dono para disputas/duração/barreira; aplicar199,5m atual sem reimprimir.",
+    "impacto_ou_limite": "ExemploR6=abertura+3começos de turno; contra NPC ataques de invocação não provocam teste.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-34",
+    "tipo": "mecânica de fechamento",
+    "secao": "inv-dominio",
+    "antes": "Domada não identificada como personagem ou inimigo no limite de testes.",
+    "depois": "Sustentadora do lado jogador testa a cada dano.",
+    "motivo": "Não herdar arbitrariamente proteção NPC1teste/jogador/rodada.",
+    "impacto_ou_limite": "Procedimento mais vulnerável que tratar domada como NPC inimigo.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-35",
+    "tipo": "mecânica de fechamento",
+    "secao": "inv-dominio",
+    "antes": "Saída da domada e desconto compartilhado sem interface explícita.",
+    "depois": "Recolher/desativar/zero encerra; Rescaldo nela; desconto só nos feitiços dela.",
+    "motivo": "Evitar domínios guardados liberando teto de corpos e desconto pessoal sem ser dono.",
+    "impacto_ou_limite": "Inconsciência do invocador sozinha não encerra domínio dela.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-36",
+    "tipo": "preservação",
+    "secao": "inv-queda",
+    "antes": "Morte por dano≥PVmax ou excedente>metade; área não destrói.",
+    "depois": "Procedimento com valores e fronteira de igualdade.",
+    "motivo": "Separar cair, recolher, retornar e destruição definitiva.",
+    "impacto_ou_limite": "Limite será reavaliado junto de morte/Integridade gerais, não alterado agora.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-37",
+    "tipo": "mecânica de fechamento",
+    "secao": "inv-retorno",
+    "antes": "Dano em Desligada soma ao excedente; área não destrói.",
+    "depois": "Área entra na soma sem destruir; parcela direta posterior confere soma; retorno zera excedente.",
+    "motivo": "Fechar sequência mista mantendo literalmente soma e proteção de área.",
+    "impacto_ou_limite": "Após área pesada,1dano direto pode destruir; risco explícito preservado para playtest.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-38",
+    "tipo": "preservação",
+    "secao": "inv-fora",
+    "antes": "Recolhimento não limpa condições ou recupera vida.",
+    "depois": "Mantém periodicidade e recuperação, sem posição/aura da entidade guardada.",
+    "motivo": "Evitar uso da reserva para apagar efeitos.",
+    "impacto_ou_limite": "Áreas independentes continuam; durações não reiniciam.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-39",
+    "tipo": "editorial",
+    "secao": "inv-inconsciente",
+    "antes": "Cópia de Insistir/Aguentar e nomes do sistema de morte.",
+    "depois": "Remete às regras de queda, conserva autonomia e vedações de novos comandos.",
+    "motivo": "Usuário pediu rever Morrendo depois; evitar criar outra versão aqui.",
+    "impacto_ou_limite": "Não muda gatilho de inconsciência; mantém ordens previamente pagas.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-40",
+    "tipo": "mecânica de fechamento",
+    "secao": "inv-manutencao",
+    "antes": "Fonte declara lacuna quando manutenção não desligável e energia das duas fontes acabam.",
+    "depois": "Suspende efeito sem dívida nem débito parcial; novo pagamento no próximo vencimento.",
+    "motivo": "Oferecer desfecho jogável sem matar entidade ou permitir benefício gratuito.",
+    "impacto_ou_limite": "Pode reativar após recuperarPE, apenas no vencimento; candidata precisa teste de manutenção concreta.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-41",
+    "tipo": "editorial",
+    "secao": "inv-morte",
+    "antes": "Gatilho fixado em estágio4Alma ou narrativa, acoplado a morte em revisão.",
+    "depois": "Morte confirmada pelas regras gerais; mesmos destinos por origem.",
+    "motivo": "Evitar contradizer a revisão de morte/Integridade pendente.",
+    "impacto_ou_limite": "Transição na morte preservada; herança/criação continuaR12.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-42",
+    "tipo": "preservação",
+    "secao": "inv-carga",
+    "antes": "Passiva para armazenamento/passageiros;5+For; carga alheia cai.",
+    "depois": "Mantém custo de passiva, regras de saída e necessidade de acesso físico ao equipamento.",
+    "motivo": "Não criar mochila extradimensional gratuita.",
+    "impacto_ou_limite": "Sem adaptar volumes de armas já revisados; aplica Volume atual do item.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-43",
+    "tipo": "compatibilidade",
+    "secao": "inv-basica",
+    "antes": "Leitura inicial de R11 vedava qualquer aura com condições Médias/Pesadas.",
+    "depois": "Aura de especial comandada e Reação comandada podem aplicar essas condições; aura/resposta autônoma não.",
+    "motivo": "Conferência de manual60:423 e nota autoral§52 distingue efeito comandado de atuação autônoma.",
+    "impacto_ou_limite": "Correção de leitura, não concessão gratuita de condição; Forma/peças continuam pagas.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-44",
+    "tipo": "mecânica de fechamento",
+    "secao": "inv-restricoes-tempo",
+    "antes": "Atrasar não dizia como cobrava dois atores.",
+    "depois": "Completa do invocador, básica da entidade e nenhum movimento voluntário de ambos no turno.",
+    "motivo": "Traduzir custo real; impedir entidade móvel de ganhar devolução sem restrição própria.",
+    "impacto_ou_limite": "Não combina com Parado/Rápido/Reação. Liberação não possui Atrasar automaticamente e mantém Movimento da domada, embora Atrasar/Parado não devolvam pontos nela por incompatibilidade expressa.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-45",
+    "tipo": "mecânica de fechamento",
+    "secao": "inv-restricoes-tempo",
+    "antes": "Carregar sem tradução de comando/básica/PE.",
+    "depois": "Primeiro turno Padrão+básica+PE; seguinte ação indicada+básica, liberando até o fim.",
+    "motivo": "Preservar duas etapas e permitir Rápido somente no segundo comando, como R07.",
+    "impacto_ou_limite": "Dano da entidade exige Espírito; sair/cair/prazo perde; não combina Armado. Segura compatível só adia a resolução após liberação válida.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-46",
+    "tipo": "compatibilidade",
+    "secao": "inv-pendentes",
+    "antes": "Quatro modalidades de uma especial pendente por corpo.",
+    "depois": "Carregar também ocupa essa única especial pendente.",
+    "motivo": "Não criar armazém de cargas e ordens no mesmo corpo.",
+    "impacto_ou_limite": "Carga não ocupa concentração; efeito posterior segue sua concentração normal.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-47",
+    "tipo": "compatibilidade",
+    "secao": "inv-liberacao",
+    "antes": "Trunfos remetiam ao Fundamento sem explicitar as escalas de entidade preservadas.",
+    "depois": "Preços, Livre e escalas próprias de alcance/área/efeitos continuam; exceções expressas da Máxima prevalecem. Catálogo de criação corrigido e Refino real não substituído por Lapidação.",
+    "motivo": "Revisão independente de rotas_didatica identificou ambiguidade; root confirmou preservação da régua domada.",
+    "impacto_ou_limite": "Sem aumento para escala pessoal. Cura/Efeito Máxima seguem exceções próprias.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-48",
+    "tipo": "fechamento mecânico",
+    "secao": "inv-corpos",
+    "antes": "Reserva inativa limitada ao atributo, além dos ativos. Todo ativo ficava inativo ao terminar o combate, podendo exceder o teto sem procedimento.",
+    "depois": "Limite total de corpos mantidos igual ao atributo de Defesa + maior capacidade ativa em combate. Ativos e inativos contam juntos; a transição não muda o total. Corpos deixados sem controle continuam no mundo.",
+    "motivo": "Resolver a transição pós-combate sem destruir, recolher ou impedir a reativação de corpos válidos. Achado independente de R17.",
+    "impacto_ou_limite": "Preserva o máximo total anteriormente permitido. Aumenta a reserva inativa quando há menos corpos ativos; não concede ação, teste, capacidade ou manutenção gratuita de efeito. Múltiplas usa capacidade4 na reserva, mesmo com atuação2 fora de combate.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-49",
+    "tipo": "sincronização mecânica e fechamento de CD",
+    "secao": "inv-reparo",
+    "antes": "No descanso curto, quem possui o ofício **Entalhador ou Forja**, com ferramentas e materiais adequados ao corpo, pode fazer uma tentativa de reparo por corpo, desde que ele esteja acima de zero. Use a escada de CD dos testes de ofício para o nível de quem repara. Compare as Classes de capacidade permitidas pelos níveis, sem usar Grau de item:\n\n| Classe do corpo em relação ao reparador | Dificuldade |\n|---|---|\n| Igual | Difícil. |\n| Uma abaixo | Média. |\n| Duas ou mais abaixo | Fácil. |\n| Acima | Requer reparador de Classe suficiente. |\n\n> **Exemplo.** Um corpo criado tem 31 PV máximos e está com 8. O reparo recupera 15 PV: termina com 23. A zero, precisaria primeiro ser religado.",
+    "depois": "No descanso curto, uma pessoa treinada em **Entalhador ou Forja**, com ferramentas e materiais adequados, pode fazer **uma tentativa por corpo**, mesmo que haja outros reparadores. O corpo precisa estar acima de zero. Compare as Classes de capacidade permitidas pelos níveis do corpo e de quem repara, sem usar Grau de item:\n\n| Classe do corpo em relação ao reparador | Dificuldade | Ajuste |\n|---|---|---|\n| Igual | Difícil. | 0 |\n| Uma abaixo | Média. | −2 |\n| Duas ou mais abaixo | Fácil. | −4 |\n| Acima | Requer reparador de Classe suficiente. | — |\n\nA CD é **8 + atributo usado no ofício + Maestria de quem repara + ajuste**. Defina o atributo antes do teste. Especialização e outros modificadores entram na rolagem, sem aumentar a base da CD.\n\n> **Exemplo.** Um corpo tem 31 PV máximos e está com 8. Quem o repara é da mesma Classe, com atributo 3 e Maestria 2: CD 13 e teste +5. Um 8 no d20 basta. Recupera 15 PV e termina com 23. A zero, precisaria primeiro ser religado.",
+    "motivo": "A referência a uma escada de ofício não informava a CD. R20 Reparo do corpo e Fabricação já fecharam a mesma fórmula e os ajustes.",
+    "fontes": [
+      "origens/lote-01/ORIGENS-E-LEGADOS.md#origem-reparo",
+      "invocacoes/fabricacao/lote-01/FABRICACAO-DE-ENTIDADES.md#fab-teste"
+    ],
+    "impacto_ou_limite": "Treinado sem modificadores: 65%, 75% e 85% nas três dificuldades. Preservados vida acima de zero, uma tentativa por corpo/descanso, recuperação de metade e proibição de religar por reparo. Não concede cura comum a corpo nem procedimento de socorro do personagem jogador.",
+    "status": "candidata; não publicada"
+  }
+]

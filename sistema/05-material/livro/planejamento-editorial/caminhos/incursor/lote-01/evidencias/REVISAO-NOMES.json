@@ -1,0 +1,25 @@
+{
+  "unidade": "caminhos/incursor/lote-01",
+  "sha256_texto": "3705e460791db6ae03b79eb2f7b25d13936a1c1ab54ddba616fa3872407f09f1",
+  "sha256_pdf": "cd47ec69eb86f24df55f4ad545320d02a992869412687b87282f184669b58b5a",
+  "escopo": "Releitura contextual das linhas alteradas; a revisão integral anterior permanece em seus relatórios históricos.",
+  "invariantes": "IDs, numerais, alcance, custos, procedimentos e tabelas conservados. Nomes aprovados e concordância uniformizados.",
+  "historico": "consolidacao/lote-01/migracao-nomes/qa-antes/caminhos/incursor/lote-01",
+  "auditoria_numerica": "Execuções novamente concluídas após os nomes; outputs locais vinculados à versão atual.",
+  "paginas_reabertas": [
+    3,
+    16
+  ],
+  "paginas_preservadas": 24,
+  "equivalencia_visual": "Hashes de pixels por página, COMPARACAO-NOMES-PDF.json",
+  "revisao_independente_delta": {
+    "revisor": "/root",
+    "resultado": "Sem bloqueador nos diffs nominais completos de Regras gerais, Equipamento, Aptidões, Incursor e Origens, conforme confirmação direta do revisor; unidades de texto idêntico preservam o parecer anterior.",
+    "complemento": "não aplicável"
+  },
+  "limites": [
+    "Sem novo cânone, redesign ou afirmação de equilíbrio final.",
+    "Leitura por modelo não equivale a teste com pessoas.",
+    "Adjetivos passivo/passiva comuns mantidos."
+  ]
+}

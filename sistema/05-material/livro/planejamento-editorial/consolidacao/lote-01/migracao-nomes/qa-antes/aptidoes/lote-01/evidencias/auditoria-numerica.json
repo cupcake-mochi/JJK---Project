@@ -1,0 +1,5186 @@
+{
+  "sha256_texto": "dec4688ba921e2a8655e190b363c862d237b9be10dc960449ba91c47a27aae51",
+  "contrato": [],
+  "checks": [
+    {
+      "caso": "Contrato completo",
+      "obtido": [],
+      "esperado": [],
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "2187 sequências de marcos",
+      "obtido": 2187,
+      "esperado": 2187,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "limite Refino todas sequências",
+      "obtido": 10,
+      "esperado": 10,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "máximo escolhas aptidões",
+      "obtido": 10,
+      "esperado": 10,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "sempre Refino",
+      "obtido": [
+        [
+          6,
+          3,
+          1,
+          1
+        ],
+        [
+          10,
+          5,
+          2,
+          1
+        ],
+        [
+          14,
+          7,
+          3,
+          1
+        ],
+        [
+          18,
+          9,
+          4,
+          1
+        ],
+        [
+          22,
+          10,
+          6,
+          2
+        ],
+        [
+          26,
+          10,
+          8,
+          2
+        ],
+        [
+          30,
+          10,
+          10,
+          2
+        ]
+      ],
+      "esperado": [
+        [
+          6,
+          3,
+          1,
+          1
+        ],
+        [
+          10,
+          5,
+          2,
+          1
+        ],
+        [
+          14,
+          7,
+          3,
+          1
+        ],
+        [
+          18,
+          9,
+          4,
+          1
+        ],
+        [
+          22,
+          10,
+          6,
+          2
+        ],
+        [
+          26,
+          10,
+          8,
+          2
+        ],
+        [
+          30,
+          10,
+          10,
+          2
+        ]
+      ],
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "sem escolha ainda Refino8",
+      "obtido": [
+        8,
+        0,
+        0
+      ],
+      "esperado": [
+        8,
+        0,
+        0
+      ],
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "meio a meio",
+      "obtido": [
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          10,
+          3
+        ],
+        [
+          10,
+          3
+        ]
+      ],
+      "esperado": [
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          10,
+          3
+        ],
+        [
+          10,
+          3
+        ]
+      ],
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Essência0 vs atributo6, maestria4, Defesa20",
+      "obtido": [
+        0.25,
+        0.55
+      ],
+      "esperado": [
+        0.25,
+        0.55
+      ],
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Canalizar R6",
+      "obtido": [
+        3,
+        4
+      ],
+      "esperado": [
+        3,
+        4
+      ],
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Canalizar R10",
+      "obtido": [
+        4,
+        6
+      ],
+      "esperado": [
+        4,
+        6
+      ],
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "arma +Canalizar R6 crítico",
+      "obtido": 18.5,
+      "esperado": 18.5,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Cirúrgico Dex5 R6 normal",
+      "obtido": {
+        "arma_dados": 1,
+        "arma_d": 8,
+        "canal_dados": 3,
+        "extras": 4,
+        "canal_d": 4,
+        "custo_PE": 4
+      },
+      "esperado": {
+        "arma_dados": 1,
+        "arma_d": 8,
+        "canal_dados": 3,
+        "extras": 4,
+        "canal_d": 4,
+        "custo_PE": 4
+      },
+      "passou": true,
+      "fonte": "35 caminhos / Incursor aprovado"
+    },
+    {
+      "caso": "Cirúrgico Dex5 R6 crítico",
+      "obtido": {
+        "arma_dados": 2,
+        "arma_d": 8,
+        "canal_dados": 6,
+        "extras": 8,
+        "canal_d": 4,
+        "custo_PE": 4
+      },
+      "esperado": {
+        "arma_dados": 2,
+        "arma_d": 8,
+        "canal_dados": 6,
+        "extras": 8,
+        "canal_d": 4,
+        "custo_PE": 4
+      },
+      "passou": true,
+      "fonte": "35 caminhos / Incursor aprovado"
+    },
+    {
+      "caso": "proteção R1",
+      "obtido": 1,
+      "esperado": 1,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "raio R1 múltiplo1,5",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "raio R1 arredondado próximo",
+      "obtido": 1.5,
+      "esperado": 1.5,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "proteção R2",
+      "obtido": 1,
+      "esperado": 1,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "raio R2 múltiplo1,5",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "raio R2 arredondado próximo",
+      "obtido": 3.0,
+      "esperado": 3.0,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "proteção R3",
+      "obtido": 2,
+      "esperado": 2,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "raio R3 múltiplo1,5",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "raio R3 arredondado próximo",
+      "obtido": 3.0,
+      "esperado": 3.0,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "proteção R4",
+      "obtido": 2,
+      "esperado": 2,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "raio R4 múltiplo1,5",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "raio R4 arredondado próximo",
+      "obtido": 3.0,
+      "esperado": 3.0,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "proteção R5",
+      "obtido": 2,
+      "esperado": 2,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "raio R5 múltiplo1,5",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "raio R5 arredondado próximo",
+      "obtido": 3.0,
+      "esperado": 3.0,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "proteção R6",
+      "obtido": 3,
+      "esperado": 3,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "raio R6 múltiplo1,5",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "raio R6 arredondado próximo",
+      "obtido": 4.5,
+      "esperado": 4.5,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "proteção R7",
+      "obtido": 3,
+      "esperado": 3,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "raio R7 múltiplo1,5",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "raio R7 arredondado próximo",
+      "obtido": 4.5,
+      "esperado": 4.5,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "proteção R8",
+      "obtido": 3,
+      "esperado": 3,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "raio R8 múltiplo1,5",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "raio R8 arredondado próximo",
+      "obtido": 6.0,
+      "esperado": 6.0,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "proteção R9",
+      "obtido": 4,
+      "esperado": 4,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "raio R9 múltiplo1,5",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "raio R9 arredondado próximo",
+      "obtido": 6.0,
+      "esperado": 6.0,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "proteção R10",
+      "obtido": 4,
+      "esperado": 4,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "raio R10 múltiplo1,5",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "raio R10 arredondado próximo",
+      "obtido": 6.0,
+      "esperado": 6.0,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Kokusen10 básico",
+      "obtido": 0.2,
+      "esperado": 0.2,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Kokusen10 Melhorado",
+      "obtido": 0.36,
+      "esperado": 0.36,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Kokusen10 Constante",
+      "obtido": 0.3,
+      "esperado": 0.3,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Kokusen10 duas",
+      "obtido": 0.51,
+      "esperado": 0.51,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Kokusen limite nunca excede100",
+      "obtido": 1.0,
+      "esperado": 1.0,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Kokusen no dano final21",
+      "obtido": 32,
+      "esperado": 32,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "zero continua zero",
+      "obtido": 0,
+      "esperado": 0,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "DS Ess4 igualdade duas falhas e terceiro",
+      "obtido": [
+        2,
+        2,
+        [
+          "impedido",
+          "impedido",
+          "passa"
+        ]
+      ],
+      "esperado": [
+        2,
+        2,
+        [
+          "impedido",
+          "impedido",
+          "passa"
+        ]
+      ],
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "DS reaberto1 Ess6 não vira3",
+      "obtido": [
+        1,
+        1,
+        [
+          "impedido",
+          "passa"
+        ]
+      ],
+      "esperado": [
+        1,
+        1,
+        [
+          "impedido",
+          "passa"
+        ]
+      ],
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "DS Ess6 igualdade falhas não renovam",
+      "obtido": [
+        3,
+        3,
+        [
+          "impedido",
+          "impedido",
+          "impedido",
+          "passa"
+        ]
+      ],
+      "esperado": [
+        3,
+        3,
+        [
+          "impedido",
+          "impedido",
+          "impedido",
+          "passa"
+        ]
+      ],
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "DS Ess2 menor tudo falha",
+      "obtido": [
+        1,
+        1,
+        [
+          "impedido",
+          "passa"
+        ]
+      ],
+      "esperado": [
+        1,
+        1,
+        [
+          "impedido",
+          "passa"
+        ]
+      ],
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "DS sequências exatas testadas",
+      "obtido": 1792,
+      "esperado": 1792,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "trocar adversário não aumenta capacidade",
+      "obtido": 2,
+      "esperado": 2,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "adversário maisforte reduz capacidade",
+      "obtido": 2,
+      "esperado": 2,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Cesta Ess0 mínimo",
+      "obtido": 1,
+      "esperado": 1,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Cesta Ess4 limiar",
+      "obtido": 2,
+      "esperado": 2,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Pétala igualdade recebe quarto",
+      "obtido": 6,
+      "esperado": 6,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Extensão C5 R9 total",
+      "obtido": 77,
+      "esperado": 77,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Extensão C7 R10 total",
+      "obtido": 117,
+      "esperado": 117,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Extensão R7 neutraliza máximo3",
+      "obtido": 3,
+      "esperado": 3,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Extensão R10 neutraliza máximo4",
+      "obtido": 4,
+      "esperado": 4,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Energia Reversa C4 PE3 média",
+      "obtido": 13.5,
+      "esperado": 13.5,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Circulação C5 teto",
+      "obtido": 7,
+      "esperado": 7,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Circulação C7 teto",
+      "obtido": 10,
+      "esperado": 10,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Regravação INT5 M3 metades separadas",
+      "obtido": 3,
+      "esperado": 3,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Regravação INT5 M4",
+      "obtido": 4,
+      "esperado": 4,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Cura convertida26",
+      "obtido": 39,
+      "esperado": 39,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Cura C3 teto6d8 máximo permitido",
+      "obtido": 6,
+      "esperado": 6,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Barreira R6",
+      "obtido": 30,
+      "esperado": 30,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Cortina R6",
+      "obtido": 240,
+      "esperado": 240,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Cortina raio90 é60quadrados",
+      "obtido": 60.0,
+      "esperado": 60.0,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    }
+  ],
+  "contagem_checks": 74,
+  "falhas": [],
+  "rotas_enumeradas": 2187,
+  "sequencias_ds": 1792,
+  "mutacoes": [
+    {
+      "nome": "Canalizar apagado noRefino1",
+      "detectada": true,
+      "achados": [
+        "curva Canalizar"
+      ]
+    },
+    {
+      "nome": "Projetar gratuito",
+      "detectada": true,
+      "achados": [
+        "1 PE até seu Refino"
+      ]
+    },
+    {
+      "nome": "Cortina ilimitada",
+      "detectada": true,
+      "achados": [
+        "90 m de você ao concluir"
+      ]
+    },
+    {
+      "nome": "relógio DS reinicia",
+      "detectada": true,
+      "achados": [
+        "Sair e voltar não o zera"
+      ]
+    },
+    {
+      "nome": "título artigo",
+      "detectada": true,
+      "achados": [
+        "título apt-circulacao",
+        "artigo inicial"
+      ]
+    },
+    {
+      "nome": "Cura hostil torna-se automático",
+      "detectada": true,
+      "achados": [
+        "dano de Energia Reversa, com 50% a mais"
+      ]
+    },
+    {
+      "nome": "Permitir pilha de barreiras",
+      "detectada": true,
+      "achados": [
+        "uma Barreira Simples ou uma Cortina de cada vez"
+      ]
+    },
+    {
+      "nome": "dobrar Canalizar geral",
+      "detectada": true,
+      "achados": [
+        "os dados adicionais de Canalizar não dobram"
+      ]
+    }
+  ],
+  "editorial_sem_registry_alterado": [],
+  "projetar": [
+    {
+      "nivel": 2,
+      "rota": "especialista",
+      "refino": 1,
+      "classe": 1,
+      "pe": 1,
+      "acesso_ordinario": false,
+      "defesa_cenario": 17,
+      "atributo_cenario": 3,
+      "maestria_cenario": 1,
+      "dano_pago_medio": 3.5,
+      "antigo_fixo": 1,
+      "classe0_dados": 2,
+      "classe0_media": 9.0,
+      "projetil_vazio_media": 13.5,
+      "pago_esperado": 1.575,
+      "classe0_esperado": 4.05,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": true,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 2,
+      "rota": "generalista",
+      "refino": 1,
+      "classe": 1,
+      "pe": 1,
+      "acesso_ordinario": false,
+      "defesa_cenario": 17,
+      "atributo_cenario": 3,
+      "maestria_cenario": 1,
+      "dano_pago_medio": 3.5,
+      "antigo_fixo": 1,
+      "classe0_dados": 2,
+      "classe0_media": 9.0,
+      "projetil_vazio_media": 13.5,
+      "pago_esperado": 1.575,
+      "classe0_esperado": 4.05,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": true,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 3,
+      "rota": "especialista",
+      "refino": 1,
+      "classe": 1,
+      "pe": 1,
+      "acesso_ordinario": false,
+      "defesa_cenario": 17,
+      "atributo_cenario": 3,
+      "maestria_cenario": 1,
+      "dano_pago_medio": 3.5,
+      "antigo_fixo": 1,
+      "classe0_dados": 2,
+      "classe0_media": 9.0,
+      "projetil_vazio_media": 13.5,
+      "pago_esperado": 1.575,
+      "classe0_esperado": 4.05,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": true,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 3,
+      "rota": "generalista",
+      "refino": 1,
+      "classe": 1,
+      "pe": 1,
+      "acesso_ordinario": false,
+      "defesa_cenario": 17,
+      "atributo_cenario": 3,
+      "maestria_cenario": 1,
+      "dano_pago_medio": 3.5,
+      "antigo_fixo": 1,
+      "classe0_dados": 2,
+      "classe0_media": 9.0,
+      "projetil_vazio_media": 13.5,
+      "pago_esperado": 1.575,
+      "classe0_esperado": 4.05,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": true,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 4,
+      "rota": "especialista",
+      "refino": 1,
+      "classe": 1,
+      "pe": 1,
+      "acesso_ordinario": false,
+      "defesa_cenario": 17,
+      "atributo_cenario": 3,
+      "maestria_cenario": 1,
+      "dano_pago_medio": 3.5,
+      "antigo_fixo": 1,
+      "classe0_dados": 2,
+      "classe0_media": 9.0,
+      "projetil_vazio_media": 13.5,
+      "pago_esperado": 1.575,
+      "classe0_esperado": 4.05,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": true,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 4,
+      "rota": "generalista",
+      "refino": 1,
+      "classe": 1,
+      "pe": 1,
+      "acesso_ordinario": false,
+      "defesa_cenario": 17,
+      "atributo_cenario": 3,
+      "maestria_cenario": 1,
+      "dano_pago_medio": 3.5,
+      "antigo_fixo": 1,
+      "classe0_dados": 2,
+      "classe0_media": 9.0,
+      "projetil_vazio_media": 13.5,
+      "pago_esperado": 1.575,
+      "classe0_esperado": 4.05,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": true,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 5,
+      "rota": "especialista",
+      "refino": 1,
+      "classe": 2,
+      "pe": 1,
+      "acesso_ordinario": false,
+      "defesa_cenario": 17,
+      "atributo_cenario": 3,
+      "maestria_cenario": 1,
+      "dano_pago_medio": 3.5,
+      "antigo_fixo": 1,
+      "classe0_dados": 3,
+      "classe0_media": 13.5,
+      "projetil_vazio_media": 27.0,
+      "pago_esperado": 1.575,
+      "classe0_esperado": 6.074999999999999,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": true,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 5,
+      "rota": "generalista",
+      "refino": 1,
+      "classe": 2,
+      "pe": 1,
+      "acesso_ordinario": false,
+      "defesa_cenario": 17,
+      "atributo_cenario": 3,
+      "maestria_cenario": 1,
+      "dano_pago_medio": 3.5,
+      "antigo_fixo": 1,
+      "classe0_dados": 3,
+      "classe0_media": 13.5,
+      "projetil_vazio_media": 27.0,
+      "pago_esperado": 1.575,
+      "classe0_esperado": 6.074999999999999,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": true,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 6,
+      "rota": "especialista",
+      "refino": 3,
+      "classe": 2,
+      "pe": 3,
+      "acesso_ordinario": true,
+      "defesa_cenario": 17,
+      "atributo_cenario": 3,
+      "maestria_cenario": 1,
+      "dano_pago_medio": 10.5,
+      "antigo_fixo": 3,
+      "classe0_dados": 3,
+      "classe0_media": 13.5,
+      "projetil_vazio_media": 27.0,
+      "pago_esperado": 4.725,
+      "classe0_esperado": 6.074999999999999,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": true,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 6,
+      "rota": "generalista",
+      "refino": 2,
+      "classe": 2,
+      "pe": 2,
+      "acesso_ordinario": true,
+      "defesa_cenario": 17,
+      "atributo_cenario": 3,
+      "maestria_cenario": 1,
+      "dano_pago_medio": 7.0,
+      "antigo_fixo": 2,
+      "classe0_dados": 3,
+      "classe0_media": 13.5,
+      "projetil_vazio_media": 27.0,
+      "pago_esperado": 3.15,
+      "classe0_esperado": 6.074999999999999,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": true,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 7,
+      "rota": "especialista",
+      "refino": 3,
+      "classe": 2,
+      "pe": 3,
+      "acesso_ordinario": true,
+      "defesa_cenario": 17,
+      "atributo_cenario": 3,
+      "maestria_cenario": 1,
+      "dano_pago_medio": 10.5,
+      "antigo_fixo": 3,
+      "classe0_dados": 3,
+      "classe0_media": 13.5,
+      "projetil_vazio_media": 27.0,
+      "pago_esperado": 4.725,
+      "classe0_esperado": 6.074999999999999,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": true,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 7,
+      "rota": "generalista",
+      "refino": 2,
+      "classe": 2,
+      "pe": 2,
+      "acesso_ordinario": true,
+      "defesa_cenario": 17,
+      "atributo_cenario": 3,
+      "maestria_cenario": 1,
+      "dano_pago_medio": 7.0,
+      "antigo_fixo": 2,
+      "classe0_dados": 3,
+      "classe0_media": 13.5,
+      "projetil_vazio_media": 27.0,
+      "pago_esperado": 3.15,
+      "classe0_esperado": 6.074999999999999,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": true,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 8,
+      "rota": "especialista",
+      "refino": 3,
+      "classe": 2,
+      "pe": 3,
+      "acesso_ordinario": true,
+      "defesa_cenario": 17,
+      "atributo_cenario": 3,
+      "maestria_cenario": 1,
+      "dano_pago_medio": 10.5,
+      "antigo_fixo": 3,
+      "classe0_dados": 3,
+      "classe0_media": 13.5,
+      "projetil_vazio_media": 27.0,
+      "pago_esperado": 4.725,
+      "classe0_esperado": 6.074999999999999,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": true,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 8,
+      "rota": "generalista",
+      "refino": 2,
+      "classe": 2,
+      "pe": 2,
+      "acesso_ordinario": true,
+      "defesa_cenario": 17,
+      "atributo_cenario": 3,
+      "maestria_cenario": 1,
+      "dano_pago_medio": 7.0,
+      "antigo_fixo": 2,
+      "classe0_dados": 3,
+      "classe0_media": 13.5,
+      "projetil_vazio_media": 27.0,
+      "pago_esperado": 3.15,
+      "classe0_esperado": 6.074999999999999,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": true,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 9,
+      "rota": "especialista",
+      "refino": 3,
+      "classe": 3,
+      "pe": 3,
+      "acesso_ordinario": true,
+      "defesa_cenario": 17,
+      "atributo_cenario": 3,
+      "maestria_cenario": 1,
+      "dano_pago_medio": 10.5,
+      "antigo_fixo": 3,
+      "classe0_dados": 3,
+      "classe0_media": 13.5,
+      "projetil_vazio_media": 40.5,
+      "pago_esperado": 4.725,
+      "classe0_esperado": 6.074999999999999,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": true,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 9,
+      "rota": "generalista",
+      "refino": 2,
+      "classe": 3,
+      "pe": 2,
+      "acesso_ordinario": true,
+      "defesa_cenario": 17,
+      "atributo_cenario": 3,
+      "maestria_cenario": 1,
+      "dano_pago_medio": 7.0,
+      "antigo_fixo": 2,
+      "classe0_dados": 3,
+      "classe0_media": 13.5,
+      "projetil_vazio_media": 40.5,
+      "pago_esperado": 3.15,
+      "classe0_esperado": 6.074999999999999,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": true,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 10,
+      "rota": "especialista",
+      "refino": 5,
+      "classe": 3,
+      "pe": 5,
+      "acesso_ordinario": true,
+      "defesa_cenario": 18,
+      "atributo_cenario": 4,
+      "maestria_cenario": 2,
+      "dano_pago_medio": 17.5,
+      "antigo_fixo": 5,
+      "classe0_dados": 3,
+      "classe0_media": 13.5,
+      "projetil_vazio_media": 40.5,
+      "pago_esperado": 8.75,
+      "classe0_esperado": 6.75,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": false,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 10,
+      "rota": "generalista",
+      "refino": 3,
+      "classe": 3,
+      "pe": 3,
+      "acesso_ordinario": true,
+      "defesa_cenario": 18,
+      "atributo_cenario": 4,
+      "maestria_cenario": 2,
+      "dano_pago_medio": 10.5,
+      "antigo_fixo": 3,
+      "classe0_dados": 3,
+      "classe0_media": 13.5,
+      "projetil_vazio_media": 40.5,
+      "pago_esperado": 5.25,
+      "classe0_esperado": 6.75,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": true,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 11,
+      "rota": "especialista",
+      "refino": 5,
+      "classe": 3,
+      "pe": 5,
+      "acesso_ordinario": true,
+      "defesa_cenario": 18,
+      "atributo_cenario": 4,
+      "maestria_cenario": 2,
+      "dano_pago_medio": 17.5,
+      "antigo_fixo": 5,
+      "classe0_dados": 4,
+      "classe0_media": 18.0,
+      "projetil_vazio_media": 40.5,
+      "pago_esperado": 8.75,
+      "classe0_esperado": 9.0,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": true,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 11,
+      "rota": "generalista",
+      "refino": 3,
+      "classe": 3,
+      "pe": 3,
+      "acesso_ordinario": true,
+      "defesa_cenario": 18,
+      "atributo_cenario": 4,
+      "maestria_cenario": 2,
+      "dano_pago_medio": 10.5,
+      "antigo_fixo": 3,
+      "classe0_dados": 4,
+      "classe0_media": 18.0,
+      "projetil_vazio_media": 40.5,
+      "pago_esperado": 5.25,
+      "classe0_esperado": 9.0,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": true,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 12,
+      "rota": "especialista",
+      "refino": 5,
+      "classe": 3,
+      "pe": 5,
+      "acesso_ordinario": true,
+      "defesa_cenario": 18,
+      "atributo_cenario": 4,
+      "maestria_cenario": 2,
+      "dano_pago_medio": 17.5,
+      "antigo_fixo": 5,
+      "classe0_dados": 4,
+      "classe0_media": 18.0,
+      "projetil_vazio_media": 40.5,
+      "pago_esperado": 8.75,
+      "classe0_esperado": 9.0,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": true,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 12,
+      "rota": "generalista",
+      "refino": 3,
+      "classe": 3,
+      "pe": 3,
+      "acesso_ordinario": true,
+      "defesa_cenario": 18,
+      "atributo_cenario": 4,
+      "maestria_cenario": 2,
+      "dano_pago_medio": 10.5,
+      "antigo_fixo": 3,
+      "classe0_dados": 4,
+      "classe0_media": 18.0,
+      "projetil_vazio_media": 40.5,
+      "pago_esperado": 5.25,
+      "classe0_esperado": 9.0,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": true,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 13,
+      "rota": "especialista",
+      "refino": 5,
+      "classe": 4,
+      "pe": 5,
+      "acesso_ordinario": true,
+      "defesa_cenario": 18,
+      "atributo_cenario": 4,
+      "maestria_cenario": 2,
+      "dano_pago_medio": 17.5,
+      "antigo_fixo": 5,
+      "classe0_dados": 4,
+      "classe0_media": 18.0,
+      "projetil_vazio_media": 54.0,
+      "pago_esperado": 8.75,
+      "classe0_esperado": 9.0,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": true,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 13,
+      "rota": "generalista",
+      "refino": 3,
+      "classe": 4,
+      "pe": 3,
+      "acesso_ordinario": true,
+      "defesa_cenario": 18,
+      "atributo_cenario": 4,
+      "maestria_cenario": 2,
+      "dano_pago_medio": 10.5,
+      "antigo_fixo": 3,
+      "classe0_dados": 4,
+      "classe0_media": 18.0,
+      "projetil_vazio_media": 54.0,
+      "pago_esperado": 5.25,
+      "classe0_esperado": 9.0,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": true,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 14,
+      "rota": "especialista",
+      "refino": 7,
+      "classe": 4,
+      "pe": 7,
+      "acesso_ordinario": true,
+      "defesa_cenario": 18,
+      "atributo_cenario": 4,
+      "maestria_cenario": 2,
+      "dano_pago_medio": 24.5,
+      "antigo_fixo": 7,
+      "classe0_dados": 4,
+      "classe0_media": 18.0,
+      "projetil_vazio_media": 54.0,
+      "pago_esperado": 12.25,
+      "classe0_esperado": 9.0,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": false,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 14,
+      "rota": "generalista",
+      "refino": 4,
+      "classe": 4,
+      "pe": 4,
+      "acesso_ordinario": true,
+      "defesa_cenario": 18,
+      "atributo_cenario": 4,
+      "maestria_cenario": 2,
+      "dano_pago_medio": 14.0,
+      "antigo_fixo": 4,
+      "classe0_dados": 4,
+      "classe0_media": 18.0,
+      "projetil_vazio_media": 54.0,
+      "pago_esperado": 7.0,
+      "classe0_esperado": 9.0,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": true,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 15,
+      "rota": "especialista",
+      "refino": 7,
+      "classe": 4,
+      "pe": 7,
+      "acesso_ordinario": true,
+      "defesa_cenario": 18,
+      "atributo_cenario": 4,
+      "maestria_cenario": 2,
+      "dano_pago_medio": 24.5,
+      "antigo_fixo": 7,
+      "classe0_dados": 4,
+      "classe0_media": 18.0,
+      "projetil_vazio_media": 54.0,
+      "pago_esperado": 12.25,
+      "classe0_esperado": 9.0,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": false,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 15,
+      "rota": "generalista",
+      "refino": 4,
+      "classe": 4,
+      "pe": 4,
+      "acesso_ordinario": true,
+      "defesa_cenario": 18,
+      "atributo_cenario": 4,
+      "maestria_cenario": 2,
+      "dano_pago_medio": 14.0,
+      "antigo_fixo": 4,
+      "classe0_dados": 4,
+      "classe0_media": 18.0,
+      "projetil_vazio_media": 54.0,
+      "pago_esperado": 7.0,
+      "classe0_esperado": 9.0,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": true,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 16,
+      "rota": "especialista",
+      "refino": 7,
+      "classe": 4,
+      "pe": 7,
+      "acesso_ordinario": true,
+      "defesa_cenario": 18,
+      "atributo_cenario": 4,
+      "maestria_cenario": 2,
+      "dano_pago_medio": 24.5,
+      "antigo_fixo": 7,
+      "classe0_dados": 4,
+      "classe0_media": 18.0,
+      "projetil_vazio_media": 54.0,
+      "pago_esperado": 12.25,
+      "classe0_esperado": 9.0,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": false,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 16,
+      "rota": "generalista",
+      "refino": 4,
+      "classe": 4,
+      "pe": 4,
+      "acesso_ordinario": true,
+      "defesa_cenario": 18,
+      "atributo_cenario": 4,
+      "maestria_cenario": 2,
+      "dano_pago_medio": 14.0,
+      "antigo_fixo": 4,
+      "classe0_dados": 4,
+      "classe0_media": 18.0,
+      "projetil_vazio_media": 54.0,
+      "pago_esperado": 7.0,
+      "classe0_esperado": 9.0,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": true,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 17,
+      "rota": "especialista",
+      "refino": 7,
+      "classe": 5,
+      "pe": 7,
+      "acesso_ordinario": true,
+      "defesa_cenario": 18,
+      "atributo_cenario": 4,
+      "maestria_cenario": 2,
+      "dano_pago_medio": 24.5,
+      "antigo_fixo": 7,
+      "classe0_dados": 5,
+      "classe0_media": 22.5,
+      "projetil_vazio_media": 67.5,
+      "pago_esperado": 12.25,
+      "classe0_esperado": 11.25,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": false,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 17,
+      "rota": "generalista",
+      "refino": 4,
+      "classe": 5,
+      "pe": 4,
+      "acesso_ordinario": true,
+      "defesa_cenario": 18,
+      "atributo_cenario": 4,
+      "maestria_cenario": 2,
+      "dano_pago_medio": 14.0,
+      "antigo_fixo": 4,
+      "classe0_dados": 5,
+      "classe0_media": 22.5,
+      "projetil_vazio_media": 67.5,
+      "pago_esperado": 7.0,
+      "classe0_esperado": 11.25,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": true,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 18,
+      "rota": "especialista",
+      "refino": 9,
+      "classe": 5,
+      "pe": 9,
+      "acesso_ordinario": true,
+      "defesa_cenario": 19,
+      "atributo_cenario": 5,
+      "maestria_cenario": 3,
+      "dano_pago_medio": 31.5,
+      "antigo_fixo": 9,
+      "classe0_dados": 5,
+      "classe0_media": 22.5,
+      "projetil_vazio_media": 67.5,
+      "pago_esperado": 17.325000000000003,
+      "classe0_esperado": 12.375,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": false,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 18,
+      "rota": "generalista",
+      "refino": 5,
+      "classe": 5,
+      "pe": 5,
+      "acesso_ordinario": true,
+      "defesa_cenario": 19,
+      "atributo_cenario": 5,
+      "maestria_cenario": 3,
+      "dano_pago_medio": 17.5,
+      "antigo_fixo": 5,
+      "classe0_dados": 5,
+      "classe0_media": 22.5,
+      "projetil_vazio_media": 67.5,
+      "pago_esperado": 9.625000000000002,
+      "classe0_esperado": 12.375,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": true,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 19,
+      "rota": "especialista",
+      "refino": 9,
+      "classe": 5,
+      "pe": 9,
+      "acesso_ordinario": true,
+      "defesa_cenario": 19,
+      "atributo_cenario": 5,
+      "maestria_cenario": 3,
+      "dano_pago_medio": 31.5,
+      "antigo_fixo": 9,
+      "classe0_dados": 5,
+      "classe0_media": 22.5,
+      "projetil_vazio_media": 67.5,
+      "pago_esperado": 17.325000000000003,
+      "classe0_esperado": 12.375,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": false,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 19,
+      "rota": "generalista",
+      "refino": 5,
+      "classe": 5,
+      "pe": 5,
+      "acesso_ordinario": true,
+      "defesa_cenario": 19,
+      "atributo_cenario": 5,
+      "maestria_cenario": 3,
+      "dano_pago_medio": 17.5,
+      "antigo_fixo": 5,
+      "classe0_dados": 5,
+      "classe0_media": 22.5,
+      "projetil_vazio_media": 67.5,
+      "pago_esperado": 9.625000000000002,
+      "classe0_esperado": 12.375,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": true,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 20,
+      "rota": "especialista",
+      "refino": 9,
+      "classe": 5,
+      "pe": 9,
+      "acesso_ordinario": true,
+      "defesa_cenario": 19,
+      "atributo_cenario": 5,
+      "maestria_cenario": 3,
+      "dano_pago_medio": 31.5,
+      "antigo_fixo": 9,
+      "classe0_dados": 5,
+      "classe0_media": 22.5,
+      "projetil_vazio_media": 67.5,
+      "pago_esperado": 17.325000000000003,
+      "classe0_esperado": 12.375,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": false,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 20,
+      "rota": "generalista",
+      "refino": 5,
+      "classe": 5,
+      "pe": 5,
+      "acesso_ordinario": true,
+      "defesa_cenario": 19,
+      "atributo_cenario": 5,
+      "maestria_cenario": 3,
+      "dano_pago_medio": 17.5,
+      "antigo_fixo": 5,
+      "classe0_dados": 5,
+      "classe0_media": 22.5,
+      "projetil_vazio_media": 67.5,
+      "pago_esperado": 9.625000000000002,
+      "classe0_esperado": 12.375,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": true,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 21,
+      "rota": "especialista",
+      "refino": 9,
+      "classe": 6,
+      "pe": 9,
+      "acesso_ordinario": true,
+      "defesa_cenario": 19,
+      "atributo_cenario": 5,
+      "maestria_cenario": 3,
+      "dano_pago_medio": 31.5,
+      "antigo_fixo": 9,
+      "classe0_dados": 5,
+      "classe0_media": 22.5,
+      "projetil_vazio_media": 81.0,
+      "pago_esperado": 17.325000000000003,
+      "classe0_esperado": 12.375,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": false,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 21,
+      "rota": "generalista",
+      "refino": 5,
+      "classe": 6,
+      "pe": 5,
+      "acesso_ordinario": true,
+      "defesa_cenario": 19,
+      "atributo_cenario": 5,
+      "maestria_cenario": 3,
+      "dano_pago_medio": 17.5,
+      "antigo_fixo": 5,
+      "classe0_dados": 5,
+      "classe0_media": 22.5,
+      "projetil_vazio_media": 81.0,
+      "pago_esperado": 9.625000000000002,
+      "classe0_esperado": 12.375,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": true,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 22,
+      "rota": "especialista",
+      "refino": 10,
+      "classe": 6,
+      "pe": 10,
+      "acesso_ordinario": true,
+      "defesa_cenario": 19,
+      "atributo_cenario": 5,
+      "maestria_cenario": 3,
+      "dano_pago_medio": 35.0,
+      "antigo_fixo": 10,
+      "classe0_dados": 5,
+      "classe0_media": 22.5,
+      "projetil_vazio_media": 81.0,
+      "pago_esperado": 19.250000000000004,
+      "classe0_esperado": 12.375,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": false,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 22,
+      "rota": "generalista",
+      "refino": 6,
+      "classe": 6,
+      "pe": 6,
+      "acesso_ordinario": true,
+      "defesa_cenario": 19,
+      "atributo_cenario": 5,
+      "maestria_cenario": 3,
+      "dano_pago_medio": 21.0,
+      "antigo_fixo": 6,
+      "classe0_dados": 5,
+      "classe0_media": 22.5,
+      "projetil_vazio_media": 81.0,
+      "pago_esperado": 11.55,
+      "classe0_esperado": 12.375,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": true,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 23,
+      "rota": "especialista",
+      "refino": 10,
+      "classe": 6,
+      "pe": 10,
+      "acesso_ordinario": true,
+      "defesa_cenario": 19,
+      "atributo_cenario": 5,
+      "maestria_cenario": 3,
+      "dano_pago_medio": 35.0,
+      "antigo_fixo": 10,
+      "classe0_dados": 6,
+      "classe0_media": 27.0,
+      "projetil_vazio_media": 81.0,
+      "pago_esperado": 19.250000000000004,
+      "classe0_esperado": 14.850000000000001,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": false,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 23,
+      "rota": "generalista",
+      "refino": 6,
+      "classe": 6,
+      "pe": 6,
+      "acesso_ordinario": true,
+      "defesa_cenario": 19,
+      "atributo_cenario": 5,
+      "maestria_cenario": 3,
+      "dano_pago_medio": 21.0,
+      "antigo_fixo": 6,
+      "classe0_dados": 6,
+      "classe0_media": 27.0,
+      "projetil_vazio_media": 81.0,
+      "pago_esperado": 11.55,
+      "classe0_esperado": 14.850000000000001,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": true,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 24,
+      "rota": "especialista",
+      "refino": 10,
+      "classe": 6,
+      "pe": 10,
+      "acesso_ordinario": true,
+      "defesa_cenario": 19,
+      "atributo_cenario": 5,
+      "maestria_cenario": 3,
+      "dano_pago_medio": 35.0,
+      "antigo_fixo": 10,
+      "classe0_dados": 6,
+      "classe0_media": 27.0,
+      "projetil_vazio_media": 81.0,
+      "pago_esperado": 19.250000000000004,
+      "classe0_esperado": 14.850000000000001,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": false,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 24,
+      "rota": "generalista",
+      "refino": 6,
+      "classe": 6,
+      "pe": 6,
+      "acesso_ordinario": true,
+      "defesa_cenario": 19,
+      "atributo_cenario": 5,
+      "maestria_cenario": 3,
+      "dano_pago_medio": 21.0,
+      "antigo_fixo": 6,
+      "classe0_dados": 6,
+      "classe0_media": 27.0,
+      "projetil_vazio_media": 81.0,
+      "pago_esperado": 11.55,
+      "classe0_esperado": 14.850000000000001,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": true,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 25,
+      "rota": "especialista",
+      "refino": 10,
+      "classe": 6,
+      "pe": 10,
+      "acesso_ordinario": true,
+      "defesa_cenario": 19,
+      "atributo_cenario": 5,
+      "maestria_cenario": 3,
+      "dano_pago_medio": 35.0,
+      "antigo_fixo": 10,
+      "classe0_dados": 6,
+      "classe0_media": 27.0,
+      "projetil_vazio_media": 81.0,
+      "pago_esperado": 19.250000000000004,
+      "classe0_esperado": 14.850000000000001,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": false,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 25,
+      "rota": "generalista",
+      "refino": 6,
+      "classe": 6,
+      "pe": 6,
+      "acesso_ordinario": true,
+      "defesa_cenario": 19,
+      "atributo_cenario": 5,
+      "maestria_cenario": 3,
+      "dano_pago_medio": 21.0,
+      "antigo_fixo": 6,
+      "classe0_dados": 6,
+      "classe0_media": 27.0,
+      "projetil_vazio_media": 81.0,
+      "pago_esperado": 11.55,
+      "classe0_esperado": 14.850000000000001,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": true,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 26,
+      "rota": "especialista",
+      "refino": 10,
+      "classe": 7,
+      "pe": 10,
+      "acesso_ordinario": true,
+      "defesa_cenario": 20,
+      "atributo_cenario": 6,
+      "maestria_cenario": 4,
+      "dano_pago_medio": 35.0,
+      "antigo_fixo": 10,
+      "classe0_dados": 6,
+      "classe0_media": 27.0,
+      "projetil_vazio_media": 94.5,
+      "pago_esperado": 21.0,
+      "classe0_esperado": 16.2,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": false,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 26,
+      "rota": "generalista",
+      "refino": 7,
+      "classe": 7,
+      "pe": 7,
+      "acesso_ordinario": true,
+      "defesa_cenario": 20,
+      "atributo_cenario": 6,
+      "maestria_cenario": 4,
+      "dano_pago_medio": 24.5,
+      "antigo_fixo": 7,
+      "classe0_dados": 6,
+      "classe0_media": 27.0,
+      "projetil_vazio_media": 94.5,
+      "pago_esperado": 14.700000000000001,
+      "classe0_esperado": 16.2,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": true,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 27,
+      "rota": "especialista",
+      "refino": 10,
+      "classe": 7,
+      "pe": 10,
+      "acesso_ordinario": true,
+      "defesa_cenario": 20,
+      "atributo_cenario": 6,
+      "maestria_cenario": 4,
+      "dano_pago_medio": 35.0,
+      "antigo_fixo": 10,
+      "classe0_dados": 6,
+      "classe0_media": 27.0,
+      "projetil_vazio_media": 94.5,
+      "pago_esperado": 21.0,
+      "classe0_esperado": 16.2,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": false,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 27,
+      "rota": "generalista",
+      "refino": 7,
+      "classe": 7,
+      "pe": 7,
+      "acesso_ordinario": true,
+      "defesa_cenario": 20,
+      "atributo_cenario": 6,
+      "maestria_cenario": 4,
+      "dano_pago_medio": 24.5,
+      "antigo_fixo": 7,
+      "classe0_dados": 6,
+      "classe0_media": 27.0,
+      "projetil_vazio_media": 94.5,
+      "pago_esperado": 14.700000000000001,
+      "classe0_esperado": 16.2,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": true,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 28,
+      "rota": "especialista",
+      "refino": 10,
+      "classe": 7,
+      "pe": 10,
+      "acesso_ordinario": true,
+      "defesa_cenario": 20,
+      "atributo_cenario": 6,
+      "maestria_cenario": 4,
+      "dano_pago_medio": 35.0,
+      "antigo_fixo": 10,
+      "classe0_dados": 6,
+      "classe0_media": 27.0,
+      "projetil_vazio_media": 94.5,
+      "pago_esperado": 21.0,
+      "classe0_esperado": 16.2,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": false,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 28,
+      "rota": "generalista",
+      "refino": 7,
+      "classe": 7,
+      "pe": 7,
+      "acesso_ordinario": true,
+      "defesa_cenario": 20,
+      "atributo_cenario": 6,
+      "maestria_cenario": 4,
+      "dano_pago_medio": 24.5,
+      "antigo_fixo": 7,
+      "classe0_dados": 6,
+      "classe0_media": 27.0,
+      "projetil_vazio_media": 94.5,
+      "pago_esperado": 14.700000000000001,
+      "classe0_esperado": 16.2,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": true,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 29,
+      "rota": "especialista",
+      "refino": 10,
+      "classe": 7,
+      "pe": 10,
+      "acesso_ordinario": true,
+      "defesa_cenario": 20,
+      "atributo_cenario": 6,
+      "maestria_cenario": 4,
+      "dano_pago_medio": 35.0,
+      "antigo_fixo": 10,
+      "classe0_dados": 6,
+      "classe0_media": 27.0,
+      "projetil_vazio_media": 94.5,
+      "pago_esperado": 21.0,
+      "classe0_esperado": 16.2,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": false,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 29,
+      "rota": "generalista",
+      "refino": 7,
+      "classe": 7,
+      "pe": 7,
+      "acesso_ordinario": true,
+      "defesa_cenario": 20,
+      "atributo_cenario": 6,
+      "maestria_cenario": 4,
+      "dano_pago_medio": 24.5,
+      "antigo_fixo": 7,
+      "classe0_dados": 6,
+      "classe0_media": 27.0,
+      "projetil_vazio_media": 94.5,
+      "pago_esperado": 14.700000000000001,
+      "classe0_esperado": 16.2,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": true,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 30,
+      "rota": "especialista",
+      "refino": 10,
+      "classe": 7,
+      "pe": 10,
+      "acesso_ordinario": true,
+      "defesa_cenario": 20,
+      "atributo_cenario": 6,
+      "maestria_cenario": 4,
+      "dano_pago_medio": 35.0,
+      "antigo_fixo": 10,
+      "classe0_dados": 6,
+      "classe0_media": 27.0,
+      "projetil_vazio_media": 94.5,
+      "pago_esperado": 21.0,
+      "classe0_esperado": 16.2,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": false,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    },
+    {
+      "nivel": 30,
+      "rota": "generalista",
+      "refino": 8,
+      "classe": 7,
+      "pe": 8,
+      "acesso_ordinario": true,
+      "defesa_cenario": 20,
+      "atributo_cenario": 6,
+      "maestria_cenario": 4,
+      "dano_pago_medio": 28.0,
+      "antigo_fixo": 8,
+      "classe0_dados": 6,
+      "classe0_media": 27.0,
+      "projetil_vazio_media": 94.5,
+      "pago_esperado": 16.8,
+      "classe0_esperado": 16.2,
+      "eficiencia_pago": 3.5,
+      "eficiencia_feitico_vazio": 4.5,
+      "dominado_apenas_em_custo_dano": false,
+      "nota": "Projetar independe do Selo/Famílias/tipos da técnica; diferença de acesso impede declarar dominância completa."
+    }
+  ],
+  "canalizar_rodadas": [
+    {
+      "nivel": 2,
+      "rota": "especialista",
+      "refino": 1,
+      "ataques": 1,
+      "publicado_v176": 3.325,
+      "peca11_desatualizada": 2.325,
+      "extras_can_por_conjurar_outro_turno": 1.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 2,
+      "rota": "especialista",
+      "refino": 1,
+      "ataques": 2,
+      "publicado_v176": 6.65,
+      "peca11_desatualizada": 4.65,
+      "extras_can_por_conjurar_outro_turno": 2.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 2,
+      "rota": "especialista",
+      "refino": 1,
+      "ataques": 3,
+      "publicado_v176": 9.975,
+      "peca11_desatualizada": 6.975,
+      "extras_can_por_conjurar_outro_turno": 3.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 2,
+      "rota": "especialista",
+      "refino": 1,
+      "ataques": 4,
+      "publicado_v176": 13.3,
+      "peca11_desatualizada": 9.3,
+      "extras_can_por_conjurar_outro_turno": 4.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 2,
+      "rota": "especialista",
+      "refino": 1,
+      "ataques": 5,
+      "publicado_v176": 16.625,
+      "peca11_desatualizada": 11.625,
+      "extras_can_por_conjurar_outro_turno": 5.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 2,
+      "rota": "generalista",
+      "refino": 1,
+      "ataques": 1,
+      "publicado_v176": 3.325,
+      "peca11_desatualizada": 2.325,
+      "extras_can_por_conjurar_outro_turno": 1.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 2,
+      "rota": "generalista",
+      "refino": 1,
+      "ataques": 2,
+      "publicado_v176": 6.65,
+      "peca11_desatualizada": 4.65,
+      "extras_can_por_conjurar_outro_turno": 2.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 2,
+      "rota": "generalista",
+      "refino": 1,
+      "ataques": 3,
+      "publicado_v176": 9.975,
+      "peca11_desatualizada": 6.975,
+      "extras_can_por_conjurar_outro_turno": 3.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 2,
+      "rota": "generalista",
+      "refino": 1,
+      "ataques": 4,
+      "publicado_v176": 13.3,
+      "peca11_desatualizada": 9.3,
+      "extras_can_por_conjurar_outro_turno": 4.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 2,
+      "rota": "generalista",
+      "refino": 1,
+      "ataques": 5,
+      "publicado_v176": 16.625,
+      "peca11_desatualizada": 11.625,
+      "extras_can_por_conjurar_outro_turno": 5.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 3,
+      "rota": "especialista",
+      "refino": 1,
+      "ataques": 1,
+      "publicado_v176": 3.325,
+      "peca11_desatualizada": 2.325,
+      "extras_can_por_conjurar_outro_turno": 1.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 3,
+      "rota": "especialista",
+      "refino": 1,
+      "ataques": 2,
+      "publicado_v176": 6.65,
+      "peca11_desatualizada": 4.65,
+      "extras_can_por_conjurar_outro_turno": 2.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 3,
+      "rota": "especialista",
+      "refino": 1,
+      "ataques": 3,
+      "publicado_v176": 9.975,
+      "peca11_desatualizada": 6.975,
+      "extras_can_por_conjurar_outro_turno": 3.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 3,
+      "rota": "especialista",
+      "refino": 1,
+      "ataques": 4,
+      "publicado_v176": 13.3,
+      "peca11_desatualizada": 9.3,
+      "extras_can_por_conjurar_outro_turno": 4.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 3,
+      "rota": "especialista",
+      "refino": 1,
+      "ataques": 5,
+      "publicado_v176": 16.625,
+      "peca11_desatualizada": 11.625,
+      "extras_can_por_conjurar_outro_turno": 5.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 3,
+      "rota": "generalista",
+      "refino": 1,
+      "ataques": 1,
+      "publicado_v176": 3.325,
+      "peca11_desatualizada": 2.325,
+      "extras_can_por_conjurar_outro_turno": 1.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 3,
+      "rota": "generalista",
+      "refino": 1,
+      "ataques": 2,
+      "publicado_v176": 6.65,
+      "peca11_desatualizada": 4.65,
+      "extras_can_por_conjurar_outro_turno": 2.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 3,
+      "rota": "generalista",
+      "refino": 1,
+      "ataques": 3,
+      "publicado_v176": 9.975,
+      "peca11_desatualizada": 6.975,
+      "extras_can_por_conjurar_outro_turno": 3.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 3,
+      "rota": "generalista",
+      "refino": 1,
+      "ataques": 4,
+      "publicado_v176": 13.3,
+      "peca11_desatualizada": 9.3,
+      "extras_can_por_conjurar_outro_turno": 4.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 3,
+      "rota": "generalista",
+      "refino": 1,
+      "ataques": 5,
+      "publicado_v176": 16.625,
+      "peca11_desatualizada": 11.625,
+      "extras_can_por_conjurar_outro_turno": 5.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 4,
+      "rota": "especialista",
+      "refino": 1,
+      "ataques": 1,
+      "publicado_v176": 3.325,
+      "peca11_desatualizada": 2.325,
+      "extras_can_por_conjurar_outro_turno": 1.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 4,
+      "rota": "especialista",
+      "refino": 1,
+      "ataques": 2,
+      "publicado_v176": 6.65,
+      "peca11_desatualizada": 4.65,
+      "extras_can_por_conjurar_outro_turno": 2.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 4,
+      "rota": "especialista",
+      "refino": 1,
+      "ataques": 3,
+      "publicado_v176": 9.975,
+      "peca11_desatualizada": 6.975,
+      "extras_can_por_conjurar_outro_turno": 3.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 4,
+      "rota": "especialista",
+      "refino": 1,
+      "ataques": 4,
+      "publicado_v176": 13.3,
+      "peca11_desatualizada": 9.3,
+      "extras_can_por_conjurar_outro_turno": 4.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 4,
+      "rota": "especialista",
+      "refino": 1,
+      "ataques": 5,
+      "publicado_v176": 16.625,
+      "peca11_desatualizada": 11.625,
+      "extras_can_por_conjurar_outro_turno": 5.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 4,
+      "rota": "generalista",
+      "refino": 1,
+      "ataques": 1,
+      "publicado_v176": 3.325,
+      "peca11_desatualizada": 2.325,
+      "extras_can_por_conjurar_outro_turno": 1.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 4,
+      "rota": "generalista",
+      "refino": 1,
+      "ataques": 2,
+      "publicado_v176": 6.65,
+      "peca11_desatualizada": 4.65,
+      "extras_can_por_conjurar_outro_turno": 2.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 4,
+      "rota": "generalista",
+      "refino": 1,
+      "ataques": 3,
+      "publicado_v176": 9.975,
+      "peca11_desatualizada": 6.975,
+      "extras_can_por_conjurar_outro_turno": 3.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 4,
+      "rota": "generalista",
+      "refino": 1,
+      "ataques": 4,
+      "publicado_v176": 13.3,
+      "peca11_desatualizada": 9.3,
+      "extras_can_por_conjurar_outro_turno": 4.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 4,
+      "rota": "generalista",
+      "refino": 1,
+      "ataques": 5,
+      "publicado_v176": 16.625,
+      "peca11_desatualizada": 11.625,
+      "extras_can_por_conjurar_outro_turno": 5.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 5,
+      "rota": "especialista",
+      "refino": 1,
+      "ataques": 1,
+      "publicado_v176": 3.325,
+      "peca11_desatualizada": 2.325,
+      "extras_can_por_conjurar_outro_turno": 1.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 5,
+      "rota": "especialista",
+      "refino": 1,
+      "ataques": 2,
+      "publicado_v176": 6.65,
+      "peca11_desatualizada": 4.65,
+      "extras_can_por_conjurar_outro_turno": 2.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 5,
+      "rota": "especialista",
+      "refino": 1,
+      "ataques": 3,
+      "publicado_v176": 9.975,
+      "peca11_desatualizada": 6.975,
+      "extras_can_por_conjurar_outro_turno": 3.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 5,
+      "rota": "especialista",
+      "refino": 1,
+      "ataques": 4,
+      "publicado_v176": 13.3,
+      "peca11_desatualizada": 9.3,
+      "extras_can_por_conjurar_outro_turno": 4.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 5,
+      "rota": "especialista",
+      "refino": 1,
+      "ataques": 5,
+      "publicado_v176": 16.625,
+      "peca11_desatualizada": 11.625,
+      "extras_can_por_conjurar_outro_turno": 5.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 5,
+      "rota": "generalista",
+      "refino": 1,
+      "ataques": 1,
+      "publicado_v176": 3.325,
+      "peca11_desatualizada": 2.325,
+      "extras_can_por_conjurar_outro_turno": 1.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 5,
+      "rota": "generalista",
+      "refino": 1,
+      "ataques": 2,
+      "publicado_v176": 6.65,
+      "peca11_desatualizada": 4.65,
+      "extras_can_por_conjurar_outro_turno": 2.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 5,
+      "rota": "generalista",
+      "refino": 1,
+      "ataques": 3,
+      "publicado_v176": 9.975,
+      "peca11_desatualizada": 6.975,
+      "extras_can_por_conjurar_outro_turno": 3.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 5,
+      "rota": "generalista",
+      "refino": 1,
+      "ataques": 4,
+      "publicado_v176": 13.3,
+      "peca11_desatualizada": 9.3,
+      "extras_can_por_conjurar_outro_turno": 4.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 5,
+      "rota": "generalista",
+      "refino": 1,
+      "ataques": 5,
+      "publicado_v176": 16.625,
+      "peca11_desatualizada": 11.625,
+      "extras_can_por_conjurar_outro_turno": 5.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 6,
+      "rota": "especialista",
+      "refino": 3,
+      "ataques": 1,
+      "publicado_v176": 4.325,
+      "peca11_desatualizada": 3.325,
+      "extras_can_por_conjurar_outro_turno": 2.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 6,
+      "rota": "especialista",
+      "refino": 3,
+      "ataques": 2,
+      "publicado_v176": 8.65,
+      "peca11_desatualizada": 6.65,
+      "extras_can_por_conjurar_outro_turno": 4.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 6,
+      "rota": "especialista",
+      "refino": 3,
+      "ataques": 3,
+      "publicado_v176": 12.975,
+      "peca11_desatualizada": 9.975,
+      "extras_can_por_conjurar_outro_turno": 6.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 6,
+      "rota": "especialista",
+      "refino": 3,
+      "ataques": 4,
+      "publicado_v176": 17.3,
+      "peca11_desatualizada": 13.3,
+      "extras_can_por_conjurar_outro_turno": 8.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 6,
+      "rota": "especialista",
+      "refino": 3,
+      "ataques": 5,
+      "publicado_v176": 21.625,
+      "peca11_desatualizada": 16.625,
+      "extras_can_por_conjurar_outro_turno": 10.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 6,
+      "rota": "generalista",
+      "refino": 2,
+      "ataques": 1,
+      "publicado_v176": 3.325,
+      "peca11_desatualizada": 2.325,
+      "extras_can_por_conjurar_outro_turno": 1.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 6,
+      "rota": "generalista",
+      "refino": 2,
+      "ataques": 2,
+      "publicado_v176": 6.65,
+      "peca11_desatualizada": 4.65,
+      "extras_can_por_conjurar_outro_turno": 2.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 6,
+      "rota": "generalista",
+      "refino": 2,
+      "ataques": 3,
+      "publicado_v176": 9.975,
+      "peca11_desatualizada": 6.975,
+      "extras_can_por_conjurar_outro_turno": 3.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 6,
+      "rota": "generalista",
+      "refino": 2,
+      "ataques": 4,
+      "publicado_v176": 13.3,
+      "peca11_desatualizada": 9.3,
+      "extras_can_por_conjurar_outro_turno": 4.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 6,
+      "rota": "generalista",
+      "refino": 2,
+      "ataques": 5,
+      "publicado_v176": 16.625,
+      "peca11_desatualizada": 11.625,
+      "extras_can_por_conjurar_outro_turno": 5.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 7,
+      "rota": "especialista",
+      "refino": 3,
+      "ataques": 1,
+      "publicado_v176": 4.325,
+      "peca11_desatualizada": 3.325,
+      "extras_can_por_conjurar_outro_turno": 2.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 7,
+      "rota": "especialista",
+      "refino": 3,
+      "ataques": 2,
+      "publicado_v176": 8.65,
+      "peca11_desatualizada": 6.65,
+      "extras_can_por_conjurar_outro_turno": 4.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 7,
+      "rota": "especialista",
+      "refino": 3,
+      "ataques": 3,
+      "publicado_v176": 12.975,
+      "peca11_desatualizada": 9.975,
+      "extras_can_por_conjurar_outro_turno": 6.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 7,
+      "rota": "especialista",
+      "refino": 3,
+      "ataques": 4,
+      "publicado_v176": 17.3,
+      "peca11_desatualizada": 13.3,
+      "extras_can_por_conjurar_outro_turno": 8.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 7,
+      "rota": "especialista",
+      "refino": 3,
+      "ataques": 5,
+      "publicado_v176": 21.625,
+      "peca11_desatualizada": 16.625,
+      "extras_can_por_conjurar_outro_turno": 10.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 7,
+      "rota": "generalista",
+      "refino": 2,
+      "ataques": 1,
+      "publicado_v176": 3.325,
+      "peca11_desatualizada": 2.325,
+      "extras_can_por_conjurar_outro_turno": 1.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 7,
+      "rota": "generalista",
+      "refino": 2,
+      "ataques": 2,
+      "publicado_v176": 6.65,
+      "peca11_desatualizada": 4.65,
+      "extras_can_por_conjurar_outro_turno": 2.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 7,
+      "rota": "generalista",
+      "refino": 2,
+      "ataques": 3,
+      "publicado_v176": 9.975,
+      "peca11_desatualizada": 6.975,
+      "extras_can_por_conjurar_outro_turno": 3.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 7,
+      "rota": "generalista",
+      "refino": 2,
+      "ataques": 4,
+      "publicado_v176": 13.3,
+      "peca11_desatualizada": 9.3,
+      "extras_can_por_conjurar_outro_turno": 4.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 7,
+      "rota": "generalista",
+      "refino": 2,
+      "ataques": 5,
+      "publicado_v176": 16.625,
+      "peca11_desatualizada": 11.625,
+      "extras_can_por_conjurar_outro_turno": 5.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 8,
+      "rota": "especialista",
+      "refino": 3,
+      "ataques": 1,
+      "publicado_v176": 4.325,
+      "peca11_desatualizada": 3.325,
+      "extras_can_por_conjurar_outro_turno": 2.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 8,
+      "rota": "especialista",
+      "refino": 3,
+      "ataques": 2,
+      "publicado_v176": 8.65,
+      "peca11_desatualizada": 6.65,
+      "extras_can_por_conjurar_outro_turno": 4.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 8,
+      "rota": "especialista",
+      "refino": 3,
+      "ataques": 3,
+      "publicado_v176": 12.975,
+      "peca11_desatualizada": 9.975,
+      "extras_can_por_conjurar_outro_turno": 6.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 8,
+      "rota": "especialista",
+      "refino": 3,
+      "ataques": 4,
+      "publicado_v176": 17.3,
+      "peca11_desatualizada": 13.3,
+      "extras_can_por_conjurar_outro_turno": 8.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 8,
+      "rota": "especialista",
+      "refino": 3,
+      "ataques": 5,
+      "publicado_v176": 21.625,
+      "peca11_desatualizada": 16.625,
+      "extras_can_por_conjurar_outro_turno": 10.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 8,
+      "rota": "generalista",
+      "refino": 2,
+      "ataques": 1,
+      "publicado_v176": 3.325,
+      "peca11_desatualizada": 2.325,
+      "extras_can_por_conjurar_outro_turno": 1.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 8,
+      "rota": "generalista",
+      "refino": 2,
+      "ataques": 2,
+      "publicado_v176": 6.65,
+      "peca11_desatualizada": 4.65,
+      "extras_can_por_conjurar_outro_turno": 2.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 8,
+      "rota": "generalista",
+      "refino": 2,
+      "ataques": 3,
+      "publicado_v176": 9.975,
+      "peca11_desatualizada": 6.975,
+      "extras_can_por_conjurar_outro_turno": 3.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 8,
+      "rota": "generalista",
+      "refino": 2,
+      "ataques": 4,
+      "publicado_v176": 13.3,
+      "peca11_desatualizada": 9.3,
+      "extras_can_por_conjurar_outro_turno": 4.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 8,
+      "rota": "generalista",
+      "refino": 2,
+      "ataques": 5,
+      "publicado_v176": 16.625,
+      "peca11_desatualizada": 11.625,
+      "extras_can_por_conjurar_outro_turno": 5.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 9,
+      "rota": "especialista",
+      "refino": 3,
+      "ataques": 1,
+      "publicado_v176": 4.325,
+      "peca11_desatualizada": 3.325,
+      "extras_can_por_conjurar_outro_turno": 2.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 9,
+      "rota": "especialista",
+      "refino": 3,
+      "ataques": 2,
+      "publicado_v176": 8.65,
+      "peca11_desatualizada": 6.65,
+      "extras_can_por_conjurar_outro_turno": 4.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 9,
+      "rota": "especialista",
+      "refino": 3,
+      "ataques": 3,
+      "publicado_v176": 12.975,
+      "peca11_desatualizada": 9.975,
+      "extras_can_por_conjurar_outro_turno": 6.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 9,
+      "rota": "especialista",
+      "refino": 3,
+      "ataques": 4,
+      "publicado_v176": 17.3,
+      "peca11_desatualizada": 13.3,
+      "extras_can_por_conjurar_outro_turno": 8.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 9,
+      "rota": "especialista",
+      "refino": 3,
+      "ataques": 5,
+      "publicado_v176": 21.625,
+      "peca11_desatualizada": 16.625,
+      "extras_can_por_conjurar_outro_turno": 10.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 9,
+      "rota": "generalista",
+      "refino": 2,
+      "ataques": 1,
+      "publicado_v176": 3.325,
+      "peca11_desatualizada": 2.325,
+      "extras_can_por_conjurar_outro_turno": 1.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 9,
+      "rota": "generalista",
+      "refino": 2,
+      "ataques": 2,
+      "publicado_v176": 6.65,
+      "peca11_desatualizada": 4.65,
+      "extras_can_por_conjurar_outro_turno": 2.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 9,
+      "rota": "generalista",
+      "refino": 2,
+      "ataques": 3,
+      "publicado_v176": 9.975,
+      "peca11_desatualizada": 6.975,
+      "extras_can_por_conjurar_outro_turno": 3.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 9,
+      "rota": "generalista",
+      "refino": 2,
+      "ataques": 4,
+      "publicado_v176": 13.3,
+      "peca11_desatualizada": 9.3,
+      "extras_can_por_conjurar_outro_turno": 4.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 9,
+      "rota": "generalista",
+      "refino": 2,
+      "ataques": 5,
+      "publicado_v176": 16.625,
+      "peca11_desatualizada": 11.625,
+      "extras_can_por_conjurar_outro_turno": 5.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 10,
+      "rota": "especialista",
+      "refino": 5,
+      "ataques": 1,
+      "publicado_v176": 5.8,
+      "peca11_desatualizada": 4.675,
+      "extras_can_por_conjurar_outro_turno": 2.25,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 10,
+      "rota": "especialista",
+      "refino": 5,
+      "ataques": 2,
+      "publicado_v176": 11.6,
+      "peca11_desatualizada": 9.35,
+      "extras_can_por_conjurar_outro_turno": 4.5,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 10,
+      "rota": "especialista",
+      "refino": 5,
+      "ataques": 3,
+      "publicado_v176": 17.4,
+      "peca11_desatualizada": 14.025,
+      "extras_can_por_conjurar_outro_turno": 6.75,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 10,
+      "rota": "especialista",
+      "refino": 5,
+      "ataques": 4,
+      "publicado_v176": 23.2,
+      "peca11_desatualizada": 18.7,
+      "extras_can_por_conjurar_outro_turno": 9.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 10,
+      "rota": "especialista",
+      "refino": 5,
+      "ataques": 5,
+      "publicado_v176": 29.0,
+      "peca11_desatualizada": 23.375,
+      "extras_can_por_conjurar_outro_turno": 11.25,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 10,
+      "rota": "generalista",
+      "refino": 3,
+      "ataques": 1,
+      "publicado_v176": 5.8,
+      "peca11_desatualizada": 4.675,
+      "extras_can_por_conjurar_outro_turno": 2.25,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 10,
+      "rota": "generalista",
+      "refino": 3,
+      "ataques": 2,
+      "publicado_v176": 11.6,
+      "peca11_desatualizada": 9.35,
+      "extras_can_por_conjurar_outro_turno": 4.5,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 10,
+      "rota": "generalista",
+      "refino": 3,
+      "ataques": 3,
+      "publicado_v176": 17.4,
+      "peca11_desatualizada": 14.025,
+      "extras_can_por_conjurar_outro_turno": 6.75,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 10,
+      "rota": "generalista",
+      "refino": 3,
+      "ataques": 4,
+      "publicado_v176": 23.2,
+      "peca11_desatualizada": 18.7,
+      "extras_can_por_conjurar_outro_turno": 9.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 10,
+      "rota": "generalista",
+      "refino": 3,
+      "ataques": 5,
+      "publicado_v176": 29.0,
+      "peca11_desatualizada": 23.375,
+      "extras_can_por_conjurar_outro_turno": 11.25,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 11,
+      "rota": "especialista",
+      "refino": 5,
+      "ataques": 1,
+      "publicado_v176": 5.8,
+      "peca11_desatualizada": 4.675,
+      "extras_can_por_conjurar_outro_turno": 2.25,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 11,
+      "rota": "especialista",
+      "refino": 5,
+      "ataques": 2,
+      "publicado_v176": 11.6,
+      "peca11_desatualizada": 9.35,
+      "extras_can_por_conjurar_outro_turno": 4.5,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 11,
+      "rota": "especialista",
+      "refino": 5,
+      "ataques": 3,
+      "publicado_v176": 17.4,
+      "peca11_desatualizada": 14.025,
+      "extras_can_por_conjurar_outro_turno": 6.75,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 11,
+      "rota": "especialista",
+      "refino": 5,
+      "ataques": 4,
+      "publicado_v176": 23.2,
+      "peca11_desatualizada": 18.7,
+      "extras_can_por_conjurar_outro_turno": 9.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 11,
+      "rota": "especialista",
+      "refino": 5,
+      "ataques": 5,
+      "publicado_v176": 29.0,
+      "peca11_desatualizada": 23.375,
+      "extras_can_por_conjurar_outro_turno": 11.25,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 11,
+      "rota": "generalista",
+      "refino": 3,
+      "ataques": 1,
+      "publicado_v176": 5.8,
+      "peca11_desatualizada": 4.675,
+      "extras_can_por_conjurar_outro_turno": 2.25,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 11,
+      "rota": "generalista",
+      "refino": 3,
+      "ataques": 2,
+      "publicado_v176": 11.6,
+      "peca11_desatualizada": 9.35,
+      "extras_can_por_conjurar_outro_turno": 4.5,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 11,
+      "rota": "generalista",
+      "refino": 3,
+      "ataques": 3,
+      "publicado_v176": 17.4,
+      "peca11_desatualizada": 14.025,
+      "extras_can_por_conjurar_outro_turno": 6.75,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 11,
+      "rota": "generalista",
+      "refino": 3,
+      "ataques": 4,
+      "publicado_v176": 23.2,
+      "peca11_desatualizada": 18.7,
+      "extras_can_por_conjurar_outro_turno": 9.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 11,
+      "rota": "generalista",
+      "refino": 3,
+      "ataques": 5,
+      "publicado_v176": 29.0,
+      "peca11_desatualizada": 23.375,
+      "extras_can_por_conjurar_outro_turno": 11.25,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 12,
+      "rota": "especialista",
+      "refino": 5,
+      "ataques": 1,
+      "publicado_v176": 5.8,
+      "peca11_desatualizada": 4.675,
+      "extras_can_por_conjurar_outro_turno": 2.25,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 12,
+      "rota": "especialista",
+      "refino": 5,
+      "ataques": 2,
+      "publicado_v176": 11.6,
+      "peca11_desatualizada": 9.35,
+      "extras_can_por_conjurar_outro_turno": 4.5,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 12,
+      "rota": "especialista",
+      "refino": 5,
+      "ataques": 3,
+      "publicado_v176": 17.4,
+      "peca11_desatualizada": 14.025,
+      "extras_can_por_conjurar_outro_turno": 6.75,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 12,
+      "rota": "especialista",
+      "refino": 5,
+      "ataques": 4,
+      "publicado_v176": 23.2,
+      "peca11_desatualizada": 18.7,
+      "extras_can_por_conjurar_outro_turno": 9.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 12,
+      "rota": "especialista",
+      "refino": 5,
+      "ataques": 5,
+      "publicado_v176": 29.0,
+      "peca11_desatualizada": 23.375,
+      "extras_can_por_conjurar_outro_turno": 11.25,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 12,
+      "rota": "generalista",
+      "refino": 3,
+      "ataques": 1,
+      "publicado_v176": 5.8,
+      "peca11_desatualizada": 4.675,
+      "extras_can_por_conjurar_outro_turno": 2.25,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 12,
+      "rota": "generalista",
+      "refino": 3,
+      "ataques": 2,
+      "publicado_v176": 11.6,
+      "peca11_desatualizada": 9.35,
+      "extras_can_por_conjurar_outro_turno": 4.5,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 12,
+      "rota": "generalista",
+      "refino": 3,
+      "ataques": 3,
+      "publicado_v176": 17.4,
+      "peca11_desatualizada": 14.025,
+      "extras_can_por_conjurar_outro_turno": 6.75,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 12,
+      "rota": "generalista",
+      "refino": 3,
+      "ataques": 4,
+      "publicado_v176": 23.2,
+      "peca11_desatualizada": 18.7,
+      "extras_can_por_conjurar_outro_turno": 9.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 12,
+      "rota": "generalista",
+      "refino": 3,
+      "ataques": 5,
+      "publicado_v176": 29.0,
+      "peca11_desatualizada": 23.375,
+      "extras_can_por_conjurar_outro_turno": 11.25,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 13,
+      "rota": "especialista",
+      "refino": 5,
+      "ataques": 1,
+      "publicado_v176": 5.8,
+      "peca11_desatualizada": 4.675,
+      "extras_can_por_conjurar_outro_turno": 2.25,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 13,
+      "rota": "especialista",
+      "refino": 5,
+      "ataques": 2,
+      "publicado_v176": 11.6,
+      "peca11_desatualizada": 9.35,
+      "extras_can_por_conjurar_outro_turno": 4.5,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 13,
+      "rota": "especialista",
+      "refino": 5,
+      "ataques": 3,
+      "publicado_v176": 17.4,
+      "peca11_desatualizada": 14.025,
+      "extras_can_por_conjurar_outro_turno": 6.75,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 13,
+      "rota": "especialista",
+      "refino": 5,
+      "ataques": 4,
+      "publicado_v176": 23.2,
+      "peca11_desatualizada": 18.7,
+      "extras_can_por_conjurar_outro_turno": 9.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 13,
+      "rota": "especialista",
+      "refino": 5,
+      "ataques": 5,
+      "publicado_v176": 29.0,
+      "peca11_desatualizada": 23.375,
+      "extras_can_por_conjurar_outro_turno": 11.25,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 13,
+      "rota": "generalista",
+      "refino": 3,
+      "ataques": 1,
+      "publicado_v176": 5.8,
+      "peca11_desatualizada": 4.675,
+      "extras_can_por_conjurar_outro_turno": 2.25,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 13,
+      "rota": "generalista",
+      "refino": 3,
+      "ataques": 2,
+      "publicado_v176": 11.6,
+      "peca11_desatualizada": 9.35,
+      "extras_can_por_conjurar_outro_turno": 4.5,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 13,
+      "rota": "generalista",
+      "refino": 3,
+      "ataques": 3,
+      "publicado_v176": 17.4,
+      "peca11_desatualizada": 14.025,
+      "extras_can_por_conjurar_outro_turno": 6.75,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 13,
+      "rota": "generalista",
+      "refino": 3,
+      "ataques": 4,
+      "publicado_v176": 23.2,
+      "peca11_desatualizada": 18.7,
+      "extras_can_por_conjurar_outro_turno": 9.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 13,
+      "rota": "generalista",
+      "refino": 3,
+      "ataques": 5,
+      "publicado_v176": 29.0,
+      "peca11_desatualizada": 23.375,
+      "extras_can_por_conjurar_outro_turno": 11.25,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 14,
+      "rota": "especialista",
+      "refino": 7,
+      "ataques": 1,
+      "publicado_v176": 6.925,
+      "peca11_desatualizada": 5.8,
+      "extras_can_por_conjurar_outro_turno": 3.375,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 14,
+      "rota": "especialista",
+      "refino": 7,
+      "ataques": 2,
+      "publicado_v176": 13.85,
+      "peca11_desatualizada": 11.6,
+      "extras_can_por_conjurar_outro_turno": 6.75,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 14,
+      "rota": "especialista",
+      "refino": 7,
+      "ataques": 3,
+      "publicado_v176": 20.775,
+      "peca11_desatualizada": 17.4,
+      "extras_can_por_conjurar_outro_turno": 10.125,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 14,
+      "rota": "especialista",
+      "refino": 7,
+      "ataques": 4,
+      "publicado_v176": 27.7,
+      "peca11_desatualizada": 23.2,
+      "extras_can_por_conjurar_outro_turno": 13.5,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 14,
+      "rota": "especialista",
+      "refino": 7,
+      "ataques": 5,
+      "publicado_v176": 34.625,
+      "peca11_desatualizada": 29.0,
+      "extras_can_por_conjurar_outro_turno": 16.875,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 14,
+      "rota": "generalista",
+      "refino": 4,
+      "ataques": 1,
+      "publicado_v176": 5.8,
+      "peca11_desatualizada": 4.675,
+      "extras_can_por_conjurar_outro_turno": 2.25,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 14,
+      "rota": "generalista",
+      "refino": 4,
+      "ataques": 2,
+      "publicado_v176": 11.6,
+      "peca11_desatualizada": 9.35,
+      "extras_can_por_conjurar_outro_turno": 4.5,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 14,
+      "rota": "generalista",
+      "refino": 4,
+      "ataques": 3,
+      "publicado_v176": 17.4,
+      "peca11_desatualizada": 14.025,
+      "extras_can_por_conjurar_outro_turno": 6.75,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 14,
+      "rota": "generalista",
+      "refino": 4,
+      "ataques": 4,
+      "publicado_v176": 23.2,
+      "peca11_desatualizada": 18.7,
+      "extras_can_por_conjurar_outro_turno": 9.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 14,
+      "rota": "generalista",
+      "refino": 4,
+      "ataques": 5,
+      "publicado_v176": 29.0,
+      "peca11_desatualizada": 23.375,
+      "extras_can_por_conjurar_outro_turno": 11.25,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 15,
+      "rota": "especialista",
+      "refino": 7,
+      "ataques": 1,
+      "publicado_v176": 6.925,
+      "peca11_desatualizada": 5.8,
+      "extras_can_por_conjurar_outro_turno": 3.375,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 15,
+      "rota": "especialista",
+      "refino": 7,
+      "ataques": 2,
+      "publicado_v176": 13.85,
+      "peca11_desatualizada": 11.6,
+      "extras_can_por_conjurar_outro_turno": 6.75,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 15,
+      "rota": "especialista",
+      "refino": 7,
+      "ataques": 3,
+      "publicado_v176": 20.775,
+      "peca11_desatualizada": 17.4,
+      "extras_can_por_conjurar_outro_turno": 10.125,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 15,
+      "rota": "especialista",
+      "refino": 7,
+      "ataques": 4,
+      "publicado_v176": 27.7,
+      "peca11_desatualizada": 23.2,
+      "extras_can_por_conjurar_outro_turno": 13.5,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 15,
+      "rota": "especialista",
+      "refino": 7,
+      "ataques": 5,
+      "publicado_v176": 34.625,
+      "peca11_desatualizada": 29.0,
+      "extras_can_por_conjurar_outro_turno": 16.875,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 15,
+      "rota": "generalista",
+      "refino": 4,
+      "ataques": 1,
+      "publicado_v176": 5.8,
+      "peca11_desatualizada": 4.675,
+      "extras_can_por_conjurar_outro_turno": 2.25,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 15,
+      "rota": "generalista",
+      "refino": 4,
+      "ataques": 2,
+      "publicado_v176": 11.6,
+      "peca11_desatualizada": 9.35,
+      "extras_can_por_conjurar_outro_turno": 4.5,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 15,
+      "rota": "generalista",
+      "refino": 4,
+      "ataques": 3,
+      "publicado_v176": 17.4,
+      "peca11_desatualizada": 14.025,
+      "extras_can_por_conjurar_outro_turno": 6.75,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 15,
+      "rota": "generalista",
+      "refino": 4,
+      "ataques": 4,
+      "publicado_v176": 23.2,
+      "peca11_desatualizada": 18.7,
+      "extras_can_por_conjurar_outro_turno": 9.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 15,
+      "rota": "generalista",
+      "refino": 4,
+      "ataques": 5,
+      "publicado_v176": 29.0,
+      "peca11_desatualizada": 23.375,
+      "extras_can_por_conjurar_outro_turno": 11.25,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 16,
+      "rota": "especialista",
+      "refino": 7,
+      "ataques": 1,
+      "publicado_v176": 6.925,
+      "peca11_desatualizada": 5.8,
+      "extras_can_por_conjurar_outro_turno": 3.375,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 16,
+      "rota": "especialista",
+      "refino": 7,
+      "ataques": 2,
+      "publicado_v176": 13.85,
+      "peca11_desatualizada": 11.6,
+      "extras_can_por_conjurar_outro_turno": 6.75,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 16,
+      "rota": "especialista",
+      "refino": 7,
+      "ataques": 3,
+      "publicado_v176": 20.775,
+      "peca11_desatualizada": 17.4,
+      "extras_can_por_conjurar_outro_turno": 10.125,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 16,
+      "rota": "especialista",
+      "refino": 7,
+      "ataques": 4,
+      "publicado_v176": 27.7,
+      "peca11_desatualizada": 23.2,
+      "extras_can_por_conjurar_outro_turno": 13.5,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 16,
+      "rota": "especialista",
+      "refino": 7,
+      "ataques": 5,
+      "publicado_v176": 34.625,
+      "peca11_desatualizada": 29.0,
+      "extras_can_por_conjurar_outro_turno": 16.875,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 16,
+      "rota": "generalista",
+      "refino": 4,
+      "ataques": 1,
+      "publicado_v176": 5.8,
+      "peca11_desatualizada": 4.675,
+      "extras_can_por_conjurar_outro_turno": 2.25,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 16,
+      "rota": "generalista",
+      "refino": 4,
+      "ataques": 2,
+      "publicado_v176": 11.6,
+      "peca11_desatualizada": 9.35,
+      "extras_can_por_conjurar_outro_turno": 4.5,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 16,
+      "rota": "generalista",
+      "refino": 4,
+      "ataques": 3,
+      "publicado_v176": 17.4,
+      "peca11_desatualizada": 14.025,
+      "extras_can_por_conjurar_outro_turno": 6.75,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 16,
+      "rota": "generalista",
+      "refino": 4,
+      "ataques": 4,
+      "publicado_v176": 23.2,
+      "peca11_desatualizada": 18.7,
+      "extras_can_por_conjurar_outro_turno": 9.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 16,
+      "rota": "generalista",
+      "refino": 4,
+      "ataques": 5,
+      "publicado_v176": 29.0,
+      "peca11_desatualizada": 23.375,
+      "extras_can_por_conjurar_outro_turno": 11.25,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 17,
+      "rota": "especialista",
+      "refino": 7,
+      "ataques": 1,
+      "publicado_v176": 6.925,
+      "peca11_desatualizada": 5.8,
+      "extras_can_por_conjurar_outro_turno": 3.375,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 17,
+      "rota": "especialista",
+      "refino": 7,
+      "ataques": 2,
+      "publicado_v176": 13.85,
+      "peca11_desatualizada": 11.6,
+      "extras_can_por_conjurar_outro_turno": 6.75,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 17,
+      "rota": "especialista",
+      "refino": 7,
+      "ataques": 3,
+      "publicado_v176": 20.775,
+      "peca11_desatualizada": 17.4,
+      "extras_can_por_conjurar_outro_turno": 10.125,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 17,
+      "rota": "especialista",
+      "refino": 7,
+      "ataques": 4,
+      "publicado_v176": 27.7,
+      "peca11_desatualizada": 23.2,
+      "extras_can_por_conjurar_outro_turno": 13.5,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 17,
+      "rota": "especialista",
+      "refino": 7,
+      "ataques": 5,
+      "publicado_v176": 34.625,
+      "peca11_desatualizada": 29.0,
+      "extras_can_por_conjurar_outro_turno": 16.875,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 17,
+      "rota": "generalista",
+      "refino": 4,
+      "ataques": 1,
+      "publicado_v176": 5.8,
+      "peca11_desatualizada": 4.675,
+      "extras_can_por_conjurar_outro_turno": 2.25,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 17,
+      "rota": "generalista",
+      "refino": 4,
+      "ataques": 2,
+      "publicado_v176": 11.6,
+      "peca11_desatualizada": 9.35,
+      "extras_can_por_conjurar_outro_turno": 4.5,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 17,
+      "rota": "generalista",
+      "refino": 4,
+      "ataques": 3,
+      "publicado_v176": 17.4,
+      "peca11_desatualizada": 14.025,
+      "extras_can_por_conjurar_outro_turno": 6.75,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 17,
+      "rota": "generalista",
+      "refino": 4,
+      "ataques": 4,
+      "publicado_v176": 23.2,
+      "peca11_desatualizada": 18.7,
+      "extras_can_por_conjurar_outro_turno": 9.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 17,
+      "rota": "generalista",
+      "refino": 4,
+      "ataques": 5,
+      "publicado_v176": 29.0,
+      "peca11_desatualizada": 23.375,
+      "extras_can_por_conjurar_outro_turno": 11.25,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 18,
+      "rota": "especialista",
+      "refino": 9,
+      "ataques": 1,
+      "publicado_v176": 9.975,
+      "peca11_desatualizada": 8.725,
+      "extras_can_por_conjurar_outro_turno": 5.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 18,
+      "rota": "especialista",
+      "refino": 9,
+      "ataques": 2,
+      "publicado_v176": 19.95,
+      "peca11_desatualizada": 17.45,
+      "extras_can_por_conjurar_outro_turno": 10.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 18,
+      "rota": "especialista",
+      "refino": 9,
+      "ataques": 3,
+      "publicado_v176": 29.925,
+      "peca11_desatualizada": 26.175,
+      "extras_can_por_conjurar_outro_turno": 15.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 18,
+      "rota": "especialista",
+      "refino": 9,
+      "ataques": 4,
+      "publicado_v176": 39.9,
+      "peca11_desatualizada": 34.9,
+      "extras_can_por_conjurar_outro_turno": 20.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 18,
+      "rota": "especialista",
+      "refino": 9,
+      "ataques": 5,
+      "publicado_v176": 49.875,
+      "peca11_desatualizada": 43.625,
+      "extras_can_por_conjurar_outro_turno": 25.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 18,
+      "rota": "generalista",
+      "refino": 5,
+      "ataques": 1,
+      "publicado_v176": 7.475,
+      "peca11_desatualizada": 6.225,
+      "extras_can_por_conjurar_outro_turno": 2.5,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 18,
+      "rota": "generalista",
+      "refino": 5,
+      "ataques": 2,
+      "publicado_v176": 14.95,
+      "peca11_desatualizada": 12.45,
+      "extras_can_por_conjurar_outro_turno": 5.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 18,
+      "rota": "generalista",
+      "refino": 5,
+      "ataques": 3,
+      "publicado_v176": 22.425,
+      "peca11_desatualizada": 18.675,
+      "extras_can_por_conjurar_outro_turno": 7.5,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 18,
+      "rota": "generalista",
+      "refino": 5,
+      "ataques": 4,
+      "publicado_v176": 29.9,
+      "peca11_desatualizada": 24.9,
+      "extras_can_por_conjurar_outro_turno": 10.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 18,
+      "rota": "generalista",
+      "refino": 5,
+      "ataques": 5,
+      "publicado_v176": 37.375,
+      "peca11_desatualizada": 31.125,
+      "extras_can_por_conjurar_outro_turno": 12.5,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 19,
+      "rota": "especialista",
+      "refino": 9,
+      "ataques": 1,
+      "publicado_v176": 9.975,
+      "peca11_desatualizada": 8.725,
+      "extras_can_por_conjurar_outro_turno": 5.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 19,
+      "rota": "especialista",
+      "refino": 9,
+      "ataques": 2,
+      "publicado_v176": 19.95,
+      "peca11_desatualizada": 17.45,
+      "extras_can_por_conjurar_outro_turno": 10.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 19,
+      "rota": "especialista",
+      "refino": 9,
+      "ataques": 3,
+      "publicado_v176": 29.925,
+      "peca11_desatualizada": 26.175,
+      "extras_can_por_conjurar_outro_turno": 15.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 19,
+      "rota": "especialista",
+      "refino": 9,
+      "ataques": 4,
+      "publicado_v176": 39.9,
+      "peca11_desatualizada": 34.9,
+      "extras_can_por_conjurar_outro_turno": 20.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 19,
+      "rota": "especialista",
+      "refino": 9,
+      "ataques": 5,
+      "publicado_v176": 49.875,
+      "peca11_desatualizada": 43.625,
+      "extras_can_por_conjurar_outro_turno": 25.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 19,
+      "rota": "generalista",
+      "refino": 5,
+      "ataques": 1,
+      "publicado_v176": 7.475,
+      "peca11_desatualizada": 6.225,
+      "extras_can_por_conjurar_outro_turno": 2.5,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 19,
+      "rota": "generalista",
+      "refino": 5,
+      "ataques": 2,
+      "publicado_v176": 14.95,
+      "peca11_desatualizada": 12.45,
+      "extras_can_por_conjurar_outro_turno": 5.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 19,
+      "rota": "generalista",
+      "refino": 5,
+      "ataques": 3,
+      "publicado_v176": 22.425,
+      "peca11_desatualizada": 18.675,
+      "extras_can_por_conjurar_outro_turno": 7.5,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 19,
+      "rota": "generalista",
+      "refino": 5,
+      "ataques": 4,
+      "publicado_v176": 29.9,
+      "peca11_desatualizada": 24.9,
+      "extras_can_por_conjurar_outro_turno": 10.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 19,
+      "rota": "generalista",
+      "refino": 5,
+      "ataques": 5,
+      "publicado_v176": 37.375,
+      "peca11_desatualizada": 31.125,
+      "extras_can_por_conjurar_outro_turno": 12.5,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 20,
+      "rota": "especialista",
+      "refino": 9,
+      "ataques": 1,
+      "publicado_v176": 9.975,
+      "peca11_desatualizada": 8.725,
+      "extras_can_por_conjurar_outro_turno": 5.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 20,
+      "rota": "especialista",
+      "refino": 9,
+      "ataques": 2,
+      "publicado_v176": 19.95,
+      "peca11_desatualizada": 17.45,
+      "extras_can_por_conjurar_outro_turno": 10.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 20,
+      "rota": "especialista",
+      "refino": 9,
+      "ataques": 3,
+      "publicado_v176": 29.925,
+      "peca11_desatualizada": 26.175,
+      "extras_can_por_conjurar_outro_turno": 15.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 20,
+      "rota": "especialista",
+      "refino": 9,
+      "ataques": 4,
+      "publicado_v176": 39.9,
+      "peca11_desatualizada": 34.9,
+      "extras_can_por_conjurar_outro_turno": 20.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 20,
+      "rota": "especialista",
+      "refino": 9,
+      "ataques": 5,
+      "publicado_v176": 49.875,
+      "peca11_desatualizada": 43.625,
+      "extras_can_por_conjurar_outro_turno": 25.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 20,
+      "rota": "generalista",
+      "refino": 5,
+      "ataques": 1,
+      "publicado_v176": 7.475,
+      "peca11_desatualizada": 6.225,
+      "extras_can_por_conjurar_outro_turno": 2.5,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 20,
+      "rota": "generalista",
+      "refino": 5,
+      "ataques": 2,
+      "publicado_v176": 14.95,
+      "peca11_desatualizada": 12.45,
+      "extras_can_por_conjurar_outro_turno": 5.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 20,
+      "rota": "generalista",
+      "refino": 5,
+      "ataques": 3,
+      "publicado_v176": 22.425,
+      "peca11_desatualizada": 18.675,
+      "extras_can_por_conjurar_outro_turno": 7.5,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 20,
+      "rota": "generalista",
+      "refino": 5,
+      "ataques": 4,
+      "publicado_v176": 29.9,
+      "peca11_desatualizada": 24.9,
+      "extras_can_por_conjurar_outro_turno": 10.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 20,
+      "rota": "generalista",
+      "refino": 5,
+      "ataques": 5,
+      "publicado_v176": 37.375,
+      "peca11_desatualizada": 31.125,
+      "extras_can_por_conjurar_outro_turno": 12.5,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 21,
+      "rota": "especialista",
+      "refino": 9,
+      "ataques": 1,
+      "publicado_v176": 9.975,
+      "peca11_desatualizada": 8.725,
+      "extras_can_por_conjurar_outro_turno": 5.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 21,
+      "rota": "especialista",
+      "refino": 9,
+      "ataques": 2,
+      "publicado_v176": 19.95,
+      "peca11_desatualizada": 17.45,
+      "extras_can_por_conjurar_outro_turno": 10.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 21,
+      "rota": "especialista",
+      "refino": 9,
+      "ataques": 3,
+      "publicado_v176": 29.925,
+      "peca11_desatualizada": 26.175,
+      "extras_can_por_conjurar_outro_turno": 15.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 21,
+      "rota": "especialista",
+      "refino": 9,
+      "ataques": 4,
+      "publicado_v176": 39.9,
+      "peca11_desatualizada": 34.9,
+      "extras_can_por_conjurar_outro_turno": 20.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 21,
+      "rota": "especialista",
+      "refino": 9,
+      "ataques": 5,
+      "publicado_v176": 49.875,
+      "peca11_desatualizada": 43.625,
+      "extras_can_por_conjurar_outro_turno": 25.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 21,
+      "rota": "generalista",
+      "refino": 5,
+      "ataques": 1,
+      "publicado_v176": 7.475,
+      "peca11_desatualizada": 6.225,
+      "extras_can_por_conjurar_outro_turno": 2.5,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 21,
+      "rota": "generalista",
+      "refino": 5,
+      "ataques": 2,
+      "publicado_v176": 14.95,
+      "peca11_desatualizada": 12.45,
+      "extras_can_por_conjurar_outro_turno": 5.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 21,
+      "rota": "generalista",
+      "refino": 5,
+      "ataques": 3,
+      "publicado_v176": 22.425,
+      "peca11_desatualizada": 18.675,
+      "extras_can_por_conjurar_outro_turno": 7.5,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 21,
+      "rota": "generalista",
+      "refino": 5,
+      "ataques": 4,
+      "publicado_v176": 29.9,
+      "peca11_desatualizada": 24.9,
+      "extras_can_por_conjurar_outro_turno": 10.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 21,
+      "rota": "generalista",
+      "refino": 5,
+      "ataques": 5,
+      "publicado_v176": 37.375,
+      "peca11_desatualizada": 31.125,
+      "extras_can_por_conjurar_outro_turno": 12.5,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 22,
+      "rota": "especialista",
+      "refino": 10,
+      "ataques": 1,
+      "publicado_v176": 11.975,
+      "peca11_desatualizada": 11.975,
+      "extras_can_por_conjurar_outro_turno": 7.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 22,
+      "rota": "especialista",
+      "refino": 10,
+      "ataques": 2,
+      "publicado_v176": 23.95,
+      "peca11_desatualizada": 23.95,
+      "extras_can_por_conjurar_outro_turno": 14.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 22,
+      "rota": "especialista",
+      "refino": 10,
+      "ataques": 3,
+      "publicado_v176": 35.925,
+      "peca11_desatualizada": 35.925,
+      "extras_can_por_conjurar_outro_turno": 21.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 22,
+      "rota": "especialista",
+      "refino": 10,
+      "ataques": 4,
+      "publicado_v176": 47.9,
+      "peca11_desatualizada": 47.9,
+      "extras_can_por_conjurar_outro_turno": 28.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 22,
+      "rota": "especialista",
+      "refino": 10,
+      "ataques": 5,
+      "publicado_v176": 59.875,
+      "peca11_desatualizada": 59.875,
+      "extras_can_por_conjurar_outro_turno": 35.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 22,
+      "rota": "generalista",
+      "refino": 6,
+      "ataques": 1,
+      "publicado_v176": 8.725,
+      "peca11_desatualizada": 7.475,
+      "extras_can_por_conjurar_outro_turno": 3.75,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 22,
+      "rota": "generalista",
+      "refino": 6,
+      "ataques": 2,
+      "publicado_v176": 17.45,
+      "peca11_desatualizada": 14.95,
+      "extras_can_por_conjurar_outro_turno": 7.5,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 22,
+      "rota": "generalista",
+      "refino": 6,
+      "ataques": 3,
+      "publicado_v176": 26.175,
+      "peca11_desatualizada": 22.425,
+      "extras_can_por_conjurar_outro_turno": 11.25,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 22,
+      "rota": "generalista",
+      "refino": 6,
+      "ataques": 4,
+      "publicado_v176": 34.9,
+      "peca11_desatualizada": 29.9,
+      "extras_can_por_conjurar_outro_turno": 15.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 22,
+      "rota": "generalista",
+      "refino": 6,
+      "ataques": 5,
+      "publicado_v176": 43.625,
+      "peca11_desatualizada": 37.375,
+      "extras_can_por_conjurar_outro_turno": 18.75,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 23,
+      "rota": "especialista",
+      "refino": 10,
+      "ataques": 1,
+      "publicado_v176": 11.975,
+      "peca11_desatualizada": 11.975,
+      "extras_can_por_conjurar_outro_turno": 7.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 23,
+      "rota": "especialista",
+      "refino": 10,
+      "ataques": 2,
+      "publicado_v176": 23.95,
+      "peca11_desatualizada": 23.95,
+      "extras_can_por_conjurar_outro_turno": 14.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 23,
+      "rota": "especialista",
+      "refino": 10,
+      "ataques": 3,
+      "publicado_v176": 35.925,
+      "peca11_desatualizada": 35.925,
+      "extras_can_por_conjurar_outro_turno": 21.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 23,
+      "rota": "especialista",
+      "refino": 10,
+      "ataques": 4,
+      "publicado_v176": 47.9,
+      "peca11_desatualizada": 47.9,
+      "extras_can_por_conjurar_outro_turno": 28.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 23,
+      "rota": "especialista",
+      "refino": 10,
+      "ataques": 5,
+      "publicado_v176": 59.875,
+      "peca11_desatualizada": 59.875,
+      "extras_can_por_conjurar_outro_turno": 35.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 23,
+      "rota": "generalista",
+      "refino": 6,
+      "ataques": 1,
+      "publicado_v176": 8.725,
+      "peca11_desatualizada": 7.475,
+      "extras_can_por_conjurar_outro_turno": 3.75,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 23,
+      "rota": "generalista",
+      "refino": 6,
+      "ataques": 2,
+      "publicado_v176": 17.45,
+      "peca11_desatualizada": 14.95,
+      "extras_can_por_conjurar_outro_turno": 7.5,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 23,
+      "rota": "generalista",
+      "refino": 6,
+      "ataques": 3,
+      "publicado_v176": 26.175,
+      "peca11_desatualizada": 22.425,
+      "extras_can_por_conjurar_outro_turno": 11.25,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 23,
+      "rota": "generalista",
+      "refino": 6,
+      "ataques": 4,
+      "publicado_v176": 34.9,
+      "peca11_desatualizada": 29.9,
+      "extras_can_por_conjurar_outro_turno": 15.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 23,
+      "rota": "generalista",
+      "refino": 6,
+      "ataques": 5,
+      "publicado_v176": 43.625,
+      "peca11_desatualizada": 37.375,
+      "extras_can_por_conjurar_outro_turno": 18.75,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 24,
+      "rota": "especialista",
+      "refino": 10,
+      "ataques": 1,
+      "publicado_v176": 11.975,
+      "peca11_desatualizada": 11.975,
+      "extras_can_por_conjurar_outro_turno": 7.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 24,
+      "rota": "especialista",
+      "refino": 10,
+      "ataques": 2,
+      "publicado_v176": 23.95,
+      "peca11_desatualizada": 23.95,
+      "extras_can_por_conjurar_outro_turno": 14.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 24,
+      "rota": "especialista",
+      "refino": 10,
+      "ataques": 3,
+      "publicado_v176": 35.925,
+      "peca11_desatualizada": 35.925,
+      "extras_can_por_conjurar_outro_turno": 21.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 24,
+      "rota": "especialista",
+      "refino": 10,
+      "ataques": 4,
+      "publicado_v176": 47.9,
+      "peca11_desatualizada": 47.9,
+      "extras_can_por_conjurar_outro_turno": 28.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 24,
+      "rota": "especialista",
+      "refino": 10,
+      "ataques": 5,
+      "publicado_v176": 59.875,
+      "peca11_desatualizada": 59.875,
+      "extras_can_por_conjurar_outro_turno": 35.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 24,
+      "rota": "generalista",
+      "refino": 6,
+      "ataques": 1,
+      "publicado_v176": 8.725,
+      "peca11_desatualizada": 7.475,
+      "extras_can_por_conjurar_outro_turno": 3.75,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 24,
+      "rota": "generalista",
+      "refino": 6,
+      "ataques": 2,
+      "publicado_v176": 17.45,
+      "peca11_desatualizada": 14.95,
+      "extras_can_por_conjurar_outro_turno": 7.5,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 24,
+      "rota": "generalista",
+      "refino": 6,
+      "ataques": 3,
+      "publicado_v176": 26.175,
+      "peca11_desatualizada": 22.425,
+      "extras_can_por_conjurar_outro_turno": 11.25,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 24,
+      "rota": "generalista",
+      "refino": 6,
+      "ataques": 4,
+      "publicado_v176": 34.9,
+      "peca11_desatualizada": 29.9,
+      "extras_can_por_conjurar_outro_turno": 15.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 24,
+      "rota": "generalista",
+      "refino": 6,
+      "ataques": 5,
+      "publicado_v176": 43.625,
+      "peca11_desatualizada": 37.375,
+      "extras_can_por_conjurar_outro_turno": 18.75,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 25,
+      "rota": "especialista",
+      "refino": 10,
+      "ataques": 1,
+      "publicado_v176": 11.975,
+      "peca11_desatualizada": 11.975,
+      "extras_can_por_conjurar_outro_turno": 7.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 25,
+      "rota": "especialista",
+      "refino": 10,
+      "ataques": 2,
+      "publicado_v176": 23.95,
+      "peca11_desatualizada": 23.95,
+      "extras_can_por_conjurar_outro_turno": 14.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 25,
+      "rota": "especialista",
+      "refino": 10,
+      "ataques": 3,
+      "publicado_v176": 35.925,
+      "peca11_desatualizada": 35.925,
+      "extras_can_por_conjurar_outro_turno": 21.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 25,
+      "rota": "especialista",
+      "refino": 10,
+      "ataques": 4,
+      "publicado_v176": 47.9,
+      "peca11_desatualizada": 47.9,
+      "extras_can_por_conjurar_outro_turno": 28.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 25,
+      "rota": "especialista",
+      "refino": 10,
+      "ataques": 5,
+      "publicado_v176": 59.875,
+      "peca11_desatualizada": 59.875,
+      "extras_can_por_conjurar_outro_turno": 35.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 25,
+      "rota": "generalista",
+      "refino": 6,
+      "ataques": 1,
+      "publicado_v176": 8.725,
+      "peca11_desatualizada": 7.475,
+      "extras_can_por_conjurar_outro_turno": 3.75,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 25,
+      "rota": "generalista",
+      "refino": 6,
+      "ataques": 2,
+      "publicado_v176": 17.45,
+      "peca11_desatualizada": 14.95,
+      "extras_can_por_conjurar_outro_turno": 7.5,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 25,
+      "rota": "generalista",
+      "refino": 6,
+      "ataques": 3,
+      "publicado_v176": 26.175,
+      "peca11_desatualizada": 22.425,
+      "extras_can_por_conjurar_outro_turno": 11.25,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 25,
+      "rota": "generalista",
+      "refino": 6,
+      "ataques": 4,
+      "publicado_v176": 34.9,
+      "peca11_desatualizada": 29.9,
+      "extras_can_por_conjurar_outro_turno": 15.0,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 25,
+      "rota": "generalista",
+      "refino": 6,
+      "ataques": 5,
+      "publicado_v176": 43.625,
+      "peca11_desatualizada": 37.375,
+      "extras_can_por_conjurar_outro_turno": 18.75,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 26,
+      "rota": "especialista",
+      "refino": 10,
+      "ataques": 1,
+      "publicado_v176": 14.3,
+      "peca11_desatualizada": 14.3,
+      "extras_can_por_conjurar_outro_turno": 7.7,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 26,
+      "rota": "especialista",
+      "refino": 10,
+      "ataques": 2,
+      "publicado_v176": 28.6,
+      "peca11_desatualizada": 28.6,
+      "extras_can_por_conjurar_outro_turno": 15.4,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 26,
+      "rota": "especialista",
+      "refino": 10,
+      "ataques": 3,
+      "publicado_v176": 42.9,
+      "peca11_desatualizada": 42.9,
+      "extras_can_por_conjurar_outro_turno": 23.1,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 26,
+      "rota": "especialista",
+      "refino": 10,
+      "ataques": 4,
+      "publicado_v176": 57.2,
+      "peca11_desatualizada": 57.2,
+      "extras_can_por_conjurar_outro_turno": 30.8,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 26,
+      "rota": "especialista",
+      "refino": 10,
+      "ataques": 5,
+      "publicado_v176": 71.5,
+      "peca11_desatualizada": 71.5,
+      "extras_can_por_conjurar_outro_turno": 38.5,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 26,
+      "rota": "generalista",
+      "refino": 7,
+      "ataques": 1,
+      "publicado_v176": 10.725,
+      "peca11_desatualizada": 9.35,
+      "extras_can_por_conjurar_outro_turno": 4.125,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 26,
+      "rota": "generalista",
+      "refino": 7,
+      "ataques": 2,
+      "publicado_v176": 21.45,
+      "peca11_desatualizada": 18.7,
+      "extras_can_por_conjurar_outro_turno": 8.25,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 26,
+      "rota": "generalista",
+      "refino": 7,
+      "ataques": 3,
+      "publicado_v176": 32.175,
+      "peca11_desatualizada": 28.05,
+      "extras_can_por_conjurar_outro_turno": 12.375,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 26,
+      "rota": "generalista",
+      "refino": 7,
+      "ataques": 4,
+      "publicado_v176": 42.9,
+      "peca11_desatualizada": 37.4,
+      "extras_can_por_conjurar_outro_turno": 16.5,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 26,
+      "rota": "generalista",
+      "refino": 7,
+      "ataques": 5,
+      "publicado_v176": 53.625,
+      "peca11_desatualizada": 46.75,
+      "extras_can_por_conjurar_outro_turno": 20.625,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 27,
+      "rota": "especialista",
+      "refino": 10,
+      "ataques": 1,
+      "publicado_v176": 14.3,
+      "peca11_desatualizada": 14.3,
+      "extras_can_por_conjurar_outro_turno": 7.7,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 27,
+      "rota": "especialista",
+      "refino": 10,
+      "ataques": 2,
+      "publicado_v176": 28.6,
+      "peca11_desatualizada": 28.6,
+      "extras_can_por_conjurar_outro_turno": 15.4,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 27,
+      "rota": "especialista",
+      "refino": 10,
+      "ataques": 3,
+      "publicado_v176": 42.9,
+      "peca11_desatualizada": 42.9,
+      "extras_can_por_conjurar_outro_turno": 23.1,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 27,
+      "rota": "especialista",
+      "refino": 10,
+      "ataques": 4,
+      "publicado_v176": 57.2,
+      "peca11_desatualizada": 57.2,
+      "extras_can_por_conjurar_outro_turno": 30.8,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 27,
+      "rota": "especialista",
+      "refino": 10,
+      "ataques": 5,
+      "publicado_v176": 71.5,
+      "peca11_desatualizada": 71.5,
+      "extras_can_por_conjurar_outro_turno": 38.5,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 27,
+      "rota": "generalista",
+      "refino": 7,
+      "ataques": 1,
+      "publicado_v176": 10.725,
+      "peca11_desatualizada": 9.35,
+      "extras_can_por_conjurar_outro_turno": 4.125,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 27,
+      "rota": "generalista",
+      "refino": 7,
+      "ataques": 2,
+      "publicado_v176": 21.45,
+      "peca11_desatualizada": 18.7,
+      "extras_can_por_conjurar_outro_turno": 8.25,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 27,
+      "rota": "generalista",
+      "refino": 7,
+      "ataques": 3,
+      "publicado_v176": 32.175,
+      "peca11_desatualizada": 28.05,
+      "extras_can_por_conjurar_outro_turno": 12.375,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 27,
+      "rota": "generalista",
+      "refino": 7,
+      "ataques": 4,
+      "publicado_v176": 42.9,
+      "peca11_desatualizada": 37.4,
+      "extras_can_por_conjurar_outro_turno": 16.5,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 27,
+      "rota": "generalista",
+      "refino": 7,
+      "ataques": 5,
+      "publicado_v176": 53.625,
+      "peca11_desatualizada": 46.75,
+      "extras_can_por_conjurar_outro_turno": 20.625,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 28,
+      "rota": "especialista",
+      "refino": 10,
+      "ataques": 1,
+      "publicado_v176": 14.3,
+      "peca11_desatualizada": 14.3,
+      "extras_can_por_conjurar_outro_turno": 7.7,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 28,
+      "rota": "especialista",
+      "refino": 10,
+      "ataques": 2,
+      "publicado_v176": 28.6,
+      "peca11_desatualizada": 28.6,
+      "extras_can_por_conjurar_outro_turno": 15.4,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 28,
+      "rota": "especialista",
+      "refino": 10,
+      "ataques": 3,
+      "publicado_v176": 42.9,
+      "peca11_desatualizada": 42.9,
+      "extras_can_por_conjurar_outro_turno": 23.1,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 28,
+      "rota": "especialista",
+      "refino": 10,
+      "ataques": 4,
+      "publicado_v176": 57.2,
+      "peca11_desatualizada": 57.2,
+      "extras_can_por_conjurar_outro_turno": 30.8,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 28,
+      "rota": "especialista",
+      "refino": 10,
+      "ataques": 5,
+      "publicado_v176": 71.5,
+      "peca11_desatualizada": 71.5,
+      "extras_can_por_conjurar_outro_turno": 38.5,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 28,
+      "rota": "generalista",
+      "refino": 7,
+      "ataques": 1,
+      "publicado_v176": 10.725,
+      "peca11_desatualizada": 9.35,
+      "extras_can_por_conjurar_outro_turno": 4.125,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 28,
+      "rota": "generalista",
+      "refino": 7,
+      "ataques": 2,
+      "publicado_v176": 21.45,
+      "peca11_desatualizada": 18.7,
+      "extras_can_por_conjurar_outro_turno": 8.25,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 28,
+      "rota": "generalista",
+      "refino": 7,
+      "ataques": 3,
+      "publicado_v176": 32.175,
+      "peca11_desatualizada": 28.05,
+      "extras_can_por_conjurar_outro_turno": 12.375,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 28,
+      "rota": "generalista",
+      "refino": 7,
+      "ataques": 4,
+      "publicado_v176": 42.9,
+      "peca11_desatualizada": 37.4,
+      "extras_can_por_conjurar_outro_turno": 16.5,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 28,
+      "rota": "generalista",
+      "refino": 7,
+      "ataques": 5,
+      "publicado_v176": 53.625,
+      "peca11_desatualizada": 46.75,
+      "extras_can_por_conjurar_outro_turno": 20.625,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 29,
+      "rota": "especialista",
+      "refino": 10,
+      "ataques": 1,
+      "publicado_v176": 14.3,
+      "peca11_desatualizada": 14.3,
+      "extras_can_por_conjurar_outro_turno": 7.7,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 29,
+      "rota": "especialista",
+      "refino": 10,
+      "ataques": 2,
+      "publicado_v176": 28.6,
+      "peca11_desatualizada": 28.6,
+      "extras_can_por_conjurar_outro_turno": 15.4,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 29,
+      "rota": "especialista",
+      "refino": 10,
+      "ataques": 3,
+      "publicado_v176": 42.9,
+      "peca11_desatualizada": 42.9,
+      "extras_can_por_conjurar_outro_turno": 23.1,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 29,
+      "rota": "especialista",
+      "refino": 10,
+      "ataques": 4,
+      "publicado_v176": 57.2,
+      "peca11_desatualizada": 57.2,
+      "extras_can_por_conjurar_outro_turno": 30.8,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 29,
+      "rota": "especialista",
+      "refino": 10,
+      "ataques": 5,
+      "publicado_v176": 71.5,
+      "peca11_desatualizada": 71.5,
+      "extras_can_por_conjurar_outro_turno": 38.5,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 29,
+      "rota": "generalista",
+      "refino": 7,
+      "ataques": 1,
+      "publicado_v176": 10.725,
+      "peca11_desatualizada": 9.35,
+      "extras_can_por_conjurar_outro_turno": 4.125,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 29,
+      "rota": "generalista",
+      "refino": 7,
+      "ataques": 2,
+      "publicado_v176": 21.45,
+      "peca11_desatualizada": 18.7,
+      "extras_can_por_conjurar_outro_turno": 8.25,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 29,
+      "rota": "generalista",
+      "refino": 7,
+      "ataques": 3,
+      "publicado_v176": 32.175,
+      "peca11_desatualizada": 28.05,
+      "extras_can_por_conjurar_outro_turno": 12.375,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 29,
+      "rota": "generalista",
+      "refino": 7,
+      "ataques": 4,
+      "publicado_v176": 42.9,
+      "peca11_desatualizada": 37.4,
+      "extras_can_por_conjurar_outro_turno": 16.5,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 29,
+      "rota": "generalista",
+      "refino": 7,
+      "ataques": 5,
+      "publicado_v176": 53.625,
+      "peca11_desatualizada": 46.75,
+      "extras_can_por_conjurar_outro_turno": 20.625,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 30,
+      "rota": "especialista",
+      "refino": 10,
+      "ataques": 1,
+      "publicado_v176": 14.3,
+      "peca11_desatualizada": 14.3,
+      "extras_can_por_conjurar_outro_turno": 7.7,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 30,
+      "rota": "especialista",
+      "refino": 10,
+      "ataques": 2,
+      "publicado_v176": 28.6,
+      "peca11_desatualizada": 28.6,
+      "extras_can_por_conjurar_outro_turno": 15.4,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 30,
+      "rota": "especialista",
+      "refino": 10,
+      "ataques": 3,
+      "publicado_v176": 42.9,
+      "peca11_desatualizada": 42.9,
+      "extras_can_por_conjurar_outro_turno": 23.1,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 30,
+      "rota": "especialista",
+      "refino": 10,
+      "ataques": 4,
+      "publicado_v176": 57.2,
+      "peca11_desatualizada": 57.2,
+      "extras_can_por_conjurar_outro_turno": 30.8,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 30,
+      "rota": "especialista",
+      "refino": 10,
+      "ataques": 5,
+      "publicado_v176": 71.5,
+      "peca11_desatualizada": 71.5,
+      "extras_can_por_conjurar_outro_turno": 38.5,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 30,
+      "rota": "generalista",
+      "refino": 8,
+      "ataques": 1,
+      "publicado_v176": 10.725,
+      "peca11_desatualizada": 9.35,
+      "extras_can_por_conjurar_outro_turno": 4.125,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 30,
+      "rota": "generalista",
+      "refino": 8,
+      "ataques": 2,
+      "publicado_v176": 21.45,
+      "peca11_desatualizada": 18.7,
+      "extras_can_por_conjurar_outro_turno": 8.25,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 30,
+      "rota": "generalista",
+      "refino": 8,
+      "ataques": 3,
+      "publicado_v176": 32.175,
+      "peca11_desatualizada": 28.05,
+      "extras_can_por_conjurar_outro_turno": 12.375,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 30,
+      "rota": "generalista",
+      "refino": 8,
+      "ataques": 4,
+      "publicado_v176": 42.9,
+      "peca11_desatualizada": 37.4,
+      "extras_can_por_conjurar_outro_turno": 16.5,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    },
+    {
+      "nivel": 30,
+      "rota": "generalista",
+      "refino": 8,
+      "ataques": 5,
+      "publicado_v176": 53.625,
+      "peca11_desatualizada": 46.75,
+      "extras_can_por_conjurar_outro_turno": 20.625,
+      "pressuposto": "Sem custos/limites que concedem ataques, sem Kokusen/Manhas/Fluidez: não é rodada realizável garantida."
+    }
+  ],
+  "raios": [
+    {
+      "refino": 1,
+      "raio_antigo": 1.5,
+      "raio_novo": 1.5,
+      "razao_area": 1.0
+    },
+    {
+      "refino": 2,
+      "raio_antigo": 2.5,
+      "raio_novo": 3.0,
+      "razao_area": 1.44
+    },
+    {
+      "refino": 3,
+      "raio_antigo": 2.5,
+      "raio_novo": 3.0,
+      "razao_area": 1.44
+    },
+    {
+      "refino": 4,
+      "raio_antigo": 3.5,
+      "raio_novo": 3.0,
+      "razao_area": 0.734694
+    },
+    {
+      "refino": 5,
+      "raio_antigo": 3.5,
+      "raio_novo": 3.0,
+      "razao_area": 0.734694
+    },
+    {
+      "refino": 6,
+      "raio_antigo": 4.5,
+      "raio_novo": 4.5,
+      "razao_area": 1.0
+    },
+    {
+      "refino": 7,
+      "raio_antigo": 4.5,
+      "raio_novo": 4.5,
+      "razao_area": 1.0
+    },
+    {
+      "refino": 8,
+      "raio_antigo": 5.5,
+      "raio_novo": 6.0,
+      "razao_area": 1.190083
+    },
+    {
+      "refino": 9,
+      "raio_antigo": 5.5,
+      "raio_novo": 6.0,
+      "razao_area": 1.190083
+    },
+    {
+      "refino": 10,
+      "raio_antigo": 6.5,
+      "raio_novo": 6.0,
+      "razao_area": 0.852071
+    }
+  ],
+  "cura": [
+    {
+      "classe": 1,
+      "reversa_max": 1,
+      "reversa_media": 4.5,
+      "circulacao_max": 1,
+      "circulacao_padrao_media": 4.5,
+      "circulacao_bonus_media": 2.5,
+      "forma_cura_dados": 2,
+      "forma_cura_ofensiva_media_antes_arredondar": 13.5,
+      "forma_cura_ofensiva_media_exata_sem_defesas": 13.75,
+      "projetil_vazio_media": 13.5
+    },
+    {
+      "classe": 2,
+      "reversa_max": 2,
+      "reversa_media": 9.0,
+      "circulacao_max": 3,
+      "circulacao_padrao_media": 13.5,
+      "circulacao_bonus_media": 7.5,
+      "forma_cura_dados": 4,
+      "forma_cura_ofensiva_media_antes_arredondar": 27.0,
+      "forma_cura_ofensiva_media_exata_sem_defesas": 27.25,
+      "projetil_vazio_media": 27.0
+    },
+    {
+      "classe": 3,
+      "reversa_max": 3,
+      "reversa_media": 13.5,
+      "circulacao_max": 4,
+      "circulacao_padrao_media": 18.0,
+      "circulacao_bonus_media": 10.0,
+      "forma_cura_dados": 6,
+      "forma_cura_ofensiva_media_antes_arredondar": 40.5,
+      "forma_cura_ofensiva_media_exata_sem_defesas": 40.75,
+      "projetil_vazio_media": 40.5
+    },
+    {
+      "classe": 4,
+      "reversa_max": 4,
+      "reversa_media": 18.0,
+      "circulacao_max": 6,
+      "circulacao_padrao_media": 27.0,
+      "circulacao_bonus_media": 15.0,
+      "forma_cura_dados": 8,
+      "forma_cura_ofensiva_media_antes_arredondar": 54.0,
+      "forma_cura_ofensiva_media_exata_sem_defesas": 54.25,
+      "projetil_vazio_media": 54.0
+    },
+    {
+      "classe": 5,
+      "reversa_max": 5,
+      "reversa_media": 22.5,
+      "circulacao_max": 7,
+      "circulacao_padrao_media": 31.5,
+      "circulacao_bonus_media": 17.5,
+      "forma_cura_dados": 10,
+      "forma_cura_ofensiva_media_antes_arredondar": 67.5,
+      "forma_cura_ofensiva_media_exata_sem_defesas": 67.75,
+      "projetil_vazio_media": 67.5
+    },
+    {
+      "classe": 6,
+      "reversa_max": 6,
+      "reversa_media": 27.0,
+      "circulacao_max": 9,
+      "circulacao_padrao_media": 40.5,
+      "circulacao_bonus_media": 22.5,
+      "forma_cura_dados": 12,
+      "forma_cura_ofensiva_media_antes_arredondar": 81.0,
+      "forma_cura_ofensiva_media_exata_sem_defesas": 81.25,
+      "projetil_vazio_media": 81.0
+    },
+    {
+      "classe": 7,
+      "reversa_max": 7,
+      "reversa_media": 31.5,
+      "circulacao_max": 10,
+      "circulacao_padrao_media": 45.0,
+      "circulacao_bonus_media": 25.0,
+      "forma_cura_dados": 14,
+      "forma_cura_ofensiva_media_antes_arredondar": 94.5,
+      "forma_cura_ofensiva_media_exata_sem_defesas": 94.75,
+      "projetil_vazio_media": 94.5
+    }
+  ],
+  "limites": [
+    "Nenhum teste humano foi realizado.",
+    "Modelo ofensivo não agrega todas as habilidades de Caminho/Trilha nem duração do combate.",
+    "Opções com gatilhos diferentes não são chamadas dominadas pelo dano isolado.",
+    "Inspeção visual PDF é responsabilidade da exportação e ainda não consta deste script."
+  ],
+  "ok": true,
+  "manuscritos_auditados": {
+    "sistema/05-material/livro/planejamento-editorial/aptidoes/lote-01/APTIDOES-E-REFINO.md": "dec4688ba921e2a8655e190b363c862d237b9be10dc960449ba91c47a27aae51"
+  }
+}

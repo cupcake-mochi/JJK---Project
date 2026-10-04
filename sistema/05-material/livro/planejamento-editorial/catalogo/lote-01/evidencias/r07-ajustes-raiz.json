@@ -1,0 +1,65 @@
+[
+  {
+    "arquivo": "/tmp/r07-parte-a.md",
+    "antes": "Não combina com resolução só por TR nem transforma uma área em várias áreas.",
+    "depois": "Não combina com resolução só por TR nem transforma uma área em várias áreas.\n\nCada alvo ou tiro com dados pode aplicar suas Melhorias quando sua resolução permitir. Os demais tiros desta conjuração não acumulam nem renovam a mesma condição no mesmo alvo. Limites próprios, como uma Troca ou um Empurrão por conjuração, permanecem.",
+    "motivo": "Revisão cruzada A-R01: oposição por tiro e limites de peças explícitos. Probabilidade de controle fica registrada na análise numérica.",
+    "tipo": "M"
+  },
+  {
+    "arquivo": "/tmp/r07-parte-a.md",
+    "antes": "A área fica no local, inclusive se começou como Aura.",
+    "depois": "Use os dados anteriores ao crítico. Se Acúmulo acrescentou dados apenas a um alvo, mantenha essa base separada das demais criaturas.\n\nA área fica no local, inclusive se começou como Aura.",
+    "motivo": "Revisão cruzada A-R02: não herdar crítico nem transferir Acúmulo a outros alvos.",
+    "tipo": "S"
+  },
+  {
+    "arquivo": "/tmp/r07-parte-a.md",
+    "antes": "Metade dos dados iniciais **destinados a esse alvo**, para baixo,",
+    "depois": "Metade dos dados iniciais **destinados a esse alvo**, antes do crítico e arredondada para baixo,",
+    "motivo": "Salto usa a parcela inicial de origem, sem herdar dados de crítico.",
+    "tipo": "S"
+  },
+  {
+    "arquivo": "/tmp/r07-parte-a.md",
+    "antes": "**Uma vez por cena**, depois de um ataque deste feitiço errar,",
+    "depois": "**Uma vez por cena, compartilhando esse uso entre suas fichas**, depois de um ataque deste feitiço errar,",
+    "motivo": "Fecha unidade de De Novo por personagem, evitando renovar limite por ficha copiada.",
+    "tipo": "M"
+  },
+  {
+    "arquivo": "/tmp/r07-parte-b.md",
+    "antes": "Se a ficha reunir estados de categorias diferentes, todos usam o menor prazo aplicável.",
+    "depois": "Se a ficha reunir estados de categorias diferentes, todos usam o menor prazo aplicável. Escolha Concentrada ou Duradoura para a ficha, nunca as duas.",
+    "motivo": "F38: uma ficha usa um procedimento de duração, sem cancelar concentração pelo segundo.",
+    "tipo": "S"
+  },
+  {
+    "arquivo": "/tmp/r07-parte-c.md",
+    "antes": "Cone e Linha não podem recebê-la.",
+    "depois": "Cone, Linha e Onda não podem recebê-la.",
+    "motivo": "F05: Onda autocentrada não converte em Aura para receber devolução.",
+    "tipo": "S"
+  },
+  {
+    "arquivo": "/tmp/r07-parte-c.md",
+    "antes": "A restrição não cancela efeitos anteriores que você ainda mantenha.",
+    "depois": "A restrição não cancela efeitos anteriores que você ainda mantenha. Numa Liberação Máxima, escolha Sangue ou Peso como preço de uso: Vazio repetiria a proibição de conjurar.",
+    "motivo": "F51: proibir dupla remuneração de Sem Volta com Vazio.",
+    "tipo": "M"
+  },
+  {
+    "arquivo": "/tmp/r07-abertura.md",
+    "antes": "## A ficha pronta",
+    "depois": "## Ficha pronta",
+    "motivo": "Pedido do usuário: títulos diretos, sem artigo introdutório.",
+    "tipo": "E"
+  },
+  {
+    "arquivo": "/tmp/r07-parte-c.md",
+    "antes": "Fonte v0.331 proíbe duas condições próprias ou duas exposições; rascunho permitia custos independentes sem lista.",
+    "depois": "Barulho e Assinatura são duas formas de exposição: escolha no máximo uma delas. Recuo, Fraqueza e Peso Morto também não se combinam entre si, pois cobram penalidades do próprio conjurador.\n\nSe a proposta reunir duas dificuldades independentes, registre duas Restrições e respeite o limite.",
+    "tipo": "M",
+    "motivo": "Preservar proibição de exposições da fonte e fechar nominalmente a categoria de penalidades próprias, evitando desconto por interpretações diferentes do mesmo custo."
+  }
+]

@@ -1,0 +1,110 @@
+{
+  "sha256_pdf": "86d20cce7d046ec0b0791c4dd844229656b3893e9bdd91c174b8dcdfc33ee7ec",
+  "metodo": "Todas as treze páginas inspecionadas pelo principal. A tabela de tempo foi ampliada e a página 7 reinspecionada. As outras doze permaneceram idênticas em pixels.",
+  "paginas": [
+    {
+      "pagina": 1,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, exemplos e limites da página completos e legíveis.",
+      "sha256_png": "2f44c24533d3ba87b52280806c417bbbbf5204dcaae773a329cd027aa04dd61e",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 2,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, exemplos e limites da página completos e legíveis.",
+      "sha256_png": "cfd44fe2c408ad7a5464cfa3aa3e69d68efe23e1122db5cd0d64c559407c46e5",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 3,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, exemplos e limites da página completos e legíveis.",
+      "sha256_png": "da75908d81bce2edf53315f63322f1c0d1dd845e453505836f9c421677d26a88",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 4,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, exemplos e limites da página completos e legíveis.",
+      "sha256_png": "abdc54d8ead118bc6682bf28b40f16966b2b27dc5c332e62113f8089be194a70",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 5,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, exemplos e limites da página completos e legíveis.",
+      "sha256_png": "b1a9918d3b4ac23011deee82a9f0aee2cbfc3487976d47c579ab8c479138584e",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 6,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, exemplos e limites da página completos e legíveis.",
+      "sha256_png": "a21ff9f3df9061461440b41cec915d4ac5f709e6774fa12d30b19ec3152a16a3",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 7,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, exemplos e limites da página completos e legíveis.",
+      "sha256_png": "96d6b6be6d83282b75d96db548a931e0d22120c262d6392677ac310fb195d8d8",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": false
+    },
+    {
+      "pagina": 8,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, exemplos e limites da página completos e legíveis.",
+      "sha256_png": "809d998d4891f03b3f3843c0c7272bd40252bbcbc2fe2c51877318f26d9e9a80",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 9,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, exemplos e limites da página completos e legíveis.",
+      "sha256_png": "e12dc995b677a22e634ee349c907fce37d768feecf8aa5dfde9f3308c8b33a22",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 10,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, exemplos e limites da página completos e legíveis.",
+      "sha256_png": "938e64013ede8425d0d12015db2675163433071c206c9b73b4f3bd35fd08f0f9",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 11,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, exemplos e limites da página completos e legíveis.",
+      "sha256_png": "51aa4466505c4c7bf7f1b79e02c8c7997bec539b9fb9ee459ffabafbd6d9822b",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 12,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, exemplos e limites da página completos e legíveis.",
+      "sha256_png": "735aeb34d85859bfefbbdbba15dc2ab1a5a7a5859d5d8474b6080390dedc6168",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 13,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, exemplos e limites da página completos e legíveis.",
+      "sha256_png": "b70d043887d2d2a94a0bf6894555dedf08fb5dc8a94da04b0cb5c21c0b70b045",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    }
+  ]
+}

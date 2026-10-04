@@ -1,0 +1,24 @@
+{
+  "sha256_texto": "0c65b7d17dc1ee911e292711bbc68330fb70e248390293ee09f8a0bace0d2fe5",
+  "secoes": [
+    {
+      "id": "dinheiro",
+      "parecer": "Texto relido: títulos de assunto, regras no dono, compra e manejo separados; exemplos conferidos contra tabelas correntes."
+    },
+    {
+      "id": "precos",
+      "parecer": "Texto relido: títulos de assunto, regras no dono, compra e manejo separados; exemplos conferidos contra tabelas correntes."
+    },
+    {
+      "id": "inicial",
+      "parecer": "Texto relido: títulos de assunto, regras no dono, compra e manejo separados; exemplos conferidos contra tabelas correntes."
+    },
+    {
+      "id": "compras",
+      "parecer": "Texto relido: títulos de assunto, regras no dono, compra e manejo separados; exemplos conferidos contra tabelas correntes."
+    }
+  ],
+  "independente": false,
+  "teste_humano": false,
+  "revisao_complementar": "Texto relido; somente Volume e exemplos recalculados, ou separação da conversão de corpos. Demais regras herdadas da candidata anterior."
+}

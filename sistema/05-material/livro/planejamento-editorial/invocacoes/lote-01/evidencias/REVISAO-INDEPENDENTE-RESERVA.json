@@ -1,0 +1,11 @@
+{
+  "revisor": "/root/rotas_didatica",
+  "sha256_anterior": "baf821fbcb12f848e8b17615ebfee01ec9406166fe4475c00af4693c508da1f4",
+  "sha256_texto": "fcddc35982314ea73607bdf76f2e851836c2a72a801e53b33008aad1af9e733a",
+  "escopo": "Interface R11/R17 sobre término do combate e reserva de corpos; demais seções cobertas no parecer anterior.",
+  "achado": "Dois ativos além da reserva permitida produziam excesso ao terminar o combate.",
+  "solucao": "Reserva total = atributo + capacidade máxima em combate; agentes confirmaram ausência de manutenção geral por corpo inativo.",
+  "caso": "Atributo2 e Múltiplas4: ativos4/inativos2 → ativos0/inativos6 → ativos2/inativos4 fora do combate.",
+  "impacto": "Aumenta reserva inativa sem aumentar o máximo total nem ações.",
+  "limite": "Sem playtest ou leitores humanos. A raiz revisou a redação final."
+}

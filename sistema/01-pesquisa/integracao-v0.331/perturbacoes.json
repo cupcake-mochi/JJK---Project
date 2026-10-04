@@ -1,0 +1,91 @@
+[
+  {
+    "caso": "base isolada",
+    "resultado": "3 validadores passam"
+  },
+  {
+    "caso": "custo somente no livro",
+    "validador": "conferir-catalogo.py",
+    "resultado": "falha detectada"
+  },
+  {
+    "caso": "custo alterado em duas copias",
+    "validador": "conferir-catalogo.py",
+    "resultado": "falha detectada"
+  },
+  {
+    "caso": "limite antigo em Duro de Matar",
+    "validador": "conferir-catalogo.py",
+    "resultado": "falha detectada"
+  },
+  {
+    "caso": "janela errada de Assumir",
+    "validador": "conferir-catalogo.py",
+    "resultado": "falha detectada"
+  },
+  {
+    "caso": "Nem Um Arranhao gasta reacao",
+    "validador": "conferir-catalogo.py",
+    "resultado": "falha detectada"
+  },
+  {
+    "caso": "Mao Pesada perde agarrar",
+    "validador": "conferir-catalogo.py",
+    "resultado": "falha detectada"
+  },
+  {
+    "caso": "Contra a Parede acumula Canalizar",
+    "validador": "conferir-catalogo.py",
+    "resultado": "falha detectada"
+  },
+  {
+    "caso": "Evocador aumenta alcance",
+    "validador": "conferir-catalogo.py",
+    "resultado": "falha detectada"
+  },
+  {
+    "caso": "Incursor acumula Fluidez",
+    "validador": "conferir-catalogo.py",
+    "resultado": "falha detectada"
+  },
+  {
+    "caso": "nome do Malabarista diverge",
+    "validador": "conferir-catalogo.py",
+    "resultado": "falha detectada"
+  },
+  {
+    "caso": "Invocacoes ganha corpo a mais",
+    "validador": "conferir-invocacoes.py",
+    "resultado": "falha detectada"
+  },
+  {
+    "caso": "pericias da entidade aumentam",
+    "validador": "conferir-invocacoes.py",
+    "resultado": "falha detectada"
+  },
+  {
+    "caso": "CD de Mao Pesada alterada",
+    "validador": "conferir-catalogo.py",
+    "resultado": "falha detectada"
+  },
+  {
+    "caso": "Como Jogar omite Incursor",
+    "validador": "conferir-ficha.py",
+    "resultado": "falha detectada"
+  },
+  {
+    "caso": "Pericias omite Evocador",
+    "validador": "conferir-ficha.py",
+    "resultado": "falha detectada"
+  },
+  {
+    "caso": "calendario sem habilidade nv23",
+    "validador": "conferir-progressao.py",
+    "resultado": "falha detectada"
+  },
+  {
+    "caso": "Equipamento omite Incursor na frase de treino",
+    "validador": "conferir-equipamento.py",
+    "resultado": "falha detectada; base isolada passa"
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "data": "2026-10-03",
+  "sha256_pdf": "117bdb381f559f13013186ef79ff83c6892fc1487227e5513b868cc5deec0568",
+  "paginas": [
+    {
+      "pagina": 1,
+      "arquivo": "/tmp/projeto-m-editorial-final/protecao-1.png",
+      "sha256_png": "fecac58d2f52cfe1921035449a28d0f4304d6766899f43e03b2565e614572269",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 2,
+      "arquivo": "/tmp/projeto-m-editorial-final/protecao-2.png",
+      "sha256_png": "3dde1f5a34bd8856a4c19d5bf925278a25828044f7eb802d146985034dedc6c0",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 3,
+      "arquivo": "/tmp/projeto-m-editorial-final/protecao-3.png",
+      "sha256_png": "d59df4bd274057a7c37755eabcebee3560d8e3c4cff530470899123b11e80a51",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 4,
+      "arquivo": "/tmp/projeto-m-editorial-final/protecao-4.png",
+      "sha256_png": "0f86f7b3e583757d2ab1737d95a038608a1470a04abad3d7d19f037bbb179ede",
+      "resultado": "sem defeito visual observado"
+    }
+  ],
+  "metodo": "Inspeção visual de todas as páginas pelo autor. Proteção2/4 reexaminadas após correção de largura da tabela e frase durante retirada."
+}

@@ -1,0 +1,45 @@
+{
+  "sha256_texto": "d5a7af1b3715f695ad8dae3baa7e22a04f23f0c5b692687bdab6d74323a6f489",
+  "interfaces": [
+    {
+      "dono": "R03",
+      "contrato": "Incapacitado conserva ações, impede Bloquear e não encerra concentração por si. Vantagem por não ser visto exige enxergar o alvo. Derrubado exige Movimento inteiro para levantar e custo adicional para rastejar, sem reduzir a reserva duas vezes. Inconsciente encerra concentração. A contenção termina nos estados expressos de quem a mantém.",
+      "estado": "confirmado raiz; revalidar texto final R03"
+    },
+    {
+      "dono": "R05",
+      "contrato": "Sacar, guardar e manipular têm Equipamento como dono. Rodada inteira consome Padrão, Bônus e Movimento, conservando Reação. Ataques exigem alcance real. Talha impõe −1 somente ao Bloquear. Proteção passiva abrange todas as rotas, inclusive sem energia. Recarga comum usa Bônus.",
+      "estado": "coordenado compatibilidade"
+    },
+    {
+      "dono": "R06/R07",
+      "contrato": "Crítico dobra os dados básicos; dados adicionais dependem de exceção expressa. Feitiço transportado por ataque segue sua própria regra. Preparar não concede conjuração por Reação gratuitamente. Carregar mantém teste específico de Espírito, distinto do teste de Vigor da concentração.",
+      "estado": "preservado"
+    },
+    {
+      "dono": "R11",
+      "contrato": "Montaria que seja entidade conserva comandos e cotas próprios; o controle de montaria comum não fornece ações gratuitas à entidade. Preparação de especiais fica no dono.",
+      "estado": "preservado"
+    },
+    {
+      "dono": "R18",
+      "contrato": "Movimento Acrobático, Parkour e CD do Pugilista ficam em Incursor. Queda comum não duplica a colisão da Projeção Marcial no mesmo impacto; uma queda posterior de altura real é outro evento.",
+      "estado": "confirmado raiz"
+    },
+    {
+      "dono": "R20",
+      "contrato": "Substituir a perícia de um procedimento não muda seus custos, alcance ou sinais perceptíveis. Teste gratuito de Esconder exige regra expressa. Exemplos gerais não concedem Legados.",
+      "estado": "preservado"
+    },
+    {
+      "dono": "R22",
+      "contrato": "Apresentação do mundo fica no capítulo próprio; percepção de energia nas regras gerais contém os procedimentos de jogo.",
+      "estado": "remissões"
+    },
+    {
+      "dono": "R23",
+      "contrato": "Sínteses de consulta devem apontar para os 40 identificadores atuais, usar as medidas tabeladas e preservar que o empate no TR resiste a Provocar.",
+      "estado": "informar autor"
+    }
+  ]
+}

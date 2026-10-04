@@ -1,0 +1,50 @@
+{
+  "sha256_texto": "d12d9ac37c5d5aa230c3fe7f6bdebdb3ac11a2f074f0017ce71042bd65fcfc68",
+  "interfaces": [
+    {
+      "dono": "R01 Ações/turnos",
+      "regra": "Aberturas não mudam ações das tentativas. Resposta concedida é ataque único ou conjuração permitida; recursos por rodada do Guia renovam no começo do seu turno."
+    },
+    {
+      "dono": "R03 Condições",
+      "regra": "Cuidado trata somente fontes permitidas; Derrubado exige apoio e nenhuma outra causa mantendo. Estado a0 não é morto por inferência."
+    },
+    {
+      "dono": "R04 Perícias/ofícios",
+      "regra": "Leitura de Equipe requer treino em duas das seis perícias e não cria treino; preencher seleção apenas com perícia adquirida."
+    },
+    {
+      "dono": "R05 Itens/objetos",
+      "regra": "Obras usam ficha própria DEF10+M/PV10+N+5A. Atacar segue Danificar objetos, sem Bloquear/RD por aparência."
+    },
+    {
+      "dono": "R06 Fundamento",
+      "regra": "Feitiço breve somente Classe0 conhecido, normalmentePadrão, respeitando limite de conjuração no turno; não cria exceção positiva."
+    },
+    {
+      "dono": "R07 Catálogo",
+      "regra": "Vantagem não empilha; Analista repete procedimento do teste, inclusive vantagem externa. Não copia melhoria nem muda aquisição da magia."
+    },
+    {
+      "dono": "R08/R09/R10",
+      "regra": "Nenhum novo poder de domínio/refino ou bypass de rota. Resguardar só ajuda TR provocado pela ameaça indicada; sem substituir testes por atributo novo."
+    },
+    {
+      "dono": "R11 Invocações",
+      "regra": "Beneficiária entidade usa coletiva quando a habilidade pedir Reação; Guia usa pessoal. Nível30 dispensa só pessoal. Golpe não é básica nem AçãoAtacar; cura respeita proibição de0/corpos."
+    },
+    {
+      "dono": "R12 Construção de entidades",
+      "regra": "Não concede poderes/treinos novos à entidade. Feitiço breve exige capacidade conhecida correspondente; anatomia/alcance continuam."
+    },
+    {
+      "dono": "R03 Socorro",
+      "regra": "GUIA-38: Ainda Há Tempo é exceção ao limiar apenas enquanto Morrendo. Tratamento acumulado e Sequela seguem Socorro; Derrotado não retorna à cena."
+    }
+  ],
+  "pendencias": [
+    "Carga em kg das Obras não estabelece conversão geral entre kg e Volume; quando o peso do grupo não estiver registrado, o mestre precisa determinar se cabe antes da travessia.",
+    "Força real do Golpe concedido depende da arma e dos efeitos do aliado; este lote não audita toda técnica de todo personagem.",
+    "GUIA-38 confirmada pela revisão independente da raiz; aguarda atualização da prova após nomenclatura de R03."
+  ]
+}

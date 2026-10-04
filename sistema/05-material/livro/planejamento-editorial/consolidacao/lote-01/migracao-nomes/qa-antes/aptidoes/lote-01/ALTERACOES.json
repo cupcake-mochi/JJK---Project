@@ -1,0 +1,387 @@
+[
+  {
+    "id": "A01",
+    "pagina": "apt-refino",
+    "antes": "A abertura tratava vazamento e detecção a um quarteirão como universais.",
+    "depois": "A abertura apresenta treinamento e uso da ficha, distinguindo PE disponíveis de possuir energia.",
+    "motivo": "Evitar ensinar uma regra sensorial não comprovada e duplicar Sentir Energia.",
+    "tipo": "Editorial",
+    "fontes": [
+      "manual45: introdução/Refino",
+      "Regras Comuns: Sentir Energia"
+    ]
+  },
+  {
+    "id": "A02",
+    "pagina": "apt-marcos",
+    "antes": "O teto podia ser verificado antes do aumento básico do marco.",
+    "depois": "Aplicar primeiro o aumento básico; depois, resolver a escolha de Refino.",
+    "motivo": "Preservar as dez escolhas de aptidão da rota que sempre investe em Refino.",
+    "tipo": "Esclarecimento",
+    "fontes": [
+      "peça11§3",
+      "conferir-aptidoes.py§5.2"
+    ]
+  },
+  {
+    "id": "A03",
+    "pagina": "apt-marcos",
+    "antes": "Compras encadeadas no mesmo marco não tinham ordem declarada.",
+    "depois": "Resolver as duas escolhas em ordem, exigindo o requisito quando cada uma for adquirida.",
+    "motivo": "Permitir uma compra válida sem usar um requisito que só viria de uma escolha futura.",
+    "tipo": "Esclarecimento",
+    "fontes": [
+      "peça11§3/5"
+    ]
+  },
+  {
+    "id": "A04",
+    "pagina": "apt-catalogo",
+    "antes": "O índice chamava as melhorias de Kokusen de alternativas.",
+    "depois": "O catálogo contém quinze entradas; as duas melhorias de Kokusen funcionam juntas.",
+    "motivo": "A regra operacional e os 51% publicados com as duas melhorias demonstram que a exclusão era indevida.",
+    "tipo": "Correção de divergência",
+    "fontes": [
+      "manual45§Catálogo",
+      "peça11§Kokusen Constante",
+      "conferir-aptidoes.py§11"
+    ]
+  },
+  {
+    "id": "A05",
+    "pagina": "apt-cobrir",
+    "antes": "A perda de proteção podia ser lida como exclusiva da aptidão.",
+    "depois": "Cobrir-se remove também a proteção de equipamento e escudo pelo prazo indicado.",
+    "motivo": "Preservar a decisão da v0.42, que impede usar equipamento para evitar o custo da Reação.",
+    "tipo": "Esclarecimento",
+    "fontes": [
+      "peça11:285–297",
+      "R02 Defesa",
+      "R03 Redução de Dano"
+    ]
+  },
+  {
+    "id": "A06",
+    "pagina": "apt-canalizar",
+    "antes": "A peça antiga começava em zero dados; o livro começava em 1d4.",
+    "depois": "Preservada a escala 1d4, 2d4, 3d4, 4d4 e 4d6, nas faixas publicadas no livro.",
+    "motivo": "O aumento inicial foi uma edição autoral expressa da v0.176, posterior à tabela matemática antiga.",
+    "tipo": "Conciliação de fonte autoral",
+    "fontes": [
+      "logs/CHANGELOG.md§0.176 tabela",
+      "manual45§Canalizar",
+      "manual47§Estímulo"
+    ]
+  },
+  {
+    "id": "A07",
+    "pagina": "apt-canalizar",
+    "antes": "Só arma parecia excluir o soco, embora os exemplos o incluíssem.",
+    "depois": "Canalizar beneficia ataques com arma e desarmados.",
+    "motivo": "O ataque desarmado conta como arma para essa regra; os Caminhos aprovados também usam essa interface.",
+    "tipo": "Esclarecimento",
+    "fontes": [
+      "peça14§5.0.6",
+      "35 Caminhos",
+      "peça11§6.9 exemplo soco"
+    ]
+  },
+  {
+    "id": "A08",
+    "pagina": "apt-canalizar",
+    "antes": "A prosa vedava Canalizar na rodada com conjuração; a caixa vedava apenas o mesmo ataque.",
+    "depois": "A exclusão vale para o ataque que transporta um feitiço de dano; outros ataques conservam suas regras.",
+    "motivo": "A versão aprovada de Contra a Parede explicita que o outro ataque continua normal. A vedação global contradizia essa decisão.",
+    "tipo": "Conciliação mecânica",
+    "fontes": [
+      "manual35§Contra a Parede",
+      "caminhos/05-Edicao-Integrada/01-Bastião-Caminho-e-Trilhas.md",
+      "peça11§6.9"
+    ]
+  },
+  {
+    "id": "A09",
+    "pagina": "apt-canalizar",
+    "antes": "Canalizar Energia, dano na arma e Canalizar em Golpe pareciam funções distintas.",
+    "depois": "Canalizar Energia é a aptidão; Canalizar em Golpe é seu dano adicional.",
+    "motivo": "Relacionar os termos existentes sem criar um novo benefício ou renomear habilidades aprovadas.",
+    "tipo": "Editorial",
+    "fontes": [
+      "PAUTA-DE-DECISOES.md N06",
+      "manual35 Incursor"
+    ]
+  },
+  {
+    "id": "A10",
+    "pagina": "apt-projetar",
+    "antes": "A peça mantinha Projetar gratuito e fixo; o livro cobrava PE por d6 e ainda prometia funcionar sem PE.",
+    "depois": "Preservado o disparo pago, de 1 PE a Refino, com um d6 por PE.",
+    "motivo": "A regra paga pertence à revisão autoral da v0.176. A prosa gratuita era uma sobra da versão anterior.",
+    "tipo": "Conciliação de fonte autoral",
+    "fontes": [
+      "manual45:165",
+      "logs/CHANGELOG.md§0.176",
+      "peça11§Projetar"
+    ]
+  },
+  {
+    "id": "A11",
+    "pagina": "apt-projetar",
+    "antes": "Projetar não declarava ação, atributo, resolução ou alvo completos.",
+    "depois": "Ação Padrão, um alvo visível, ataque de conjuração habitual, alcance 18 ou 36 m e gasto antes da rolagem.",
+    "motivo": "Impor Essência criaria uma segunda exigência de atributo. Na comparação indicada, reduziria o acerto de 55% a 25%.",
+    "tipo": "Mecânica: fechamento de lacuna",
+    "fontes": [
+      "R02 Ataques/Crítico",
+      "R06 Projétil alcance",
+      "manual45§Projetar"
+    ]
+  },
+  {
+    "id": "A12",
+    "pagina": "apt-projetar",
+    "antes": "Projetar não tinha um tipo de dano definido na entrada.",
+    "depois": "Projetar causa dano de Força.",
+    "motivo": "Sincronizar o pedido do usuário já aplicado em Dano e Condições, sem criar outro tipo chamado Energético.",
+    "tipo": "Sincronização",
+    "fontes": [
+      "R03 DanoeCondições§Força"
+    ]
+  },
+  {
+    "id": "A13",
+    "pagina": "apt-reversa",
+    "antes": "Energia Reversa omitira a incompatibilidade de cura do Corpo Amaldiçoado.",
+    "depois": "O alvo próprio e a incompatibilidade ficam explícitos; reparos continuam com a Origem.",
+    "motivo": "Preservar a decisão da v0.318 sem transformar uma incompatibilidade de alvo em veto a aprender aptidões.",
+    "tipo": "Sincronização",
+    "fontes": [
+      "peça09§Corpo Amaldiçoado",
+      "manual40§Cura",
+      "peça11§Energia Reversa"
+    ]
+  },
+  {
+    "id": "A14",
+    "pagina": "apt-energia-positiva",
+    "antes": "A exceção ofensiva de Cura desaparecera na candidata do Fundamento.",
+    "depois": "Forma Cura exige Energia Reversa, ataque contra Defesa e alvo maldição; converte os dados em dano com 50% adicional.",
+    "motivo": "Restaurar a regra publicada, impedindo dano automático e uso ofensivo contra pessoas.",
+    "tipo": "Restauração e esclarecimento",
+    "fontes": [
+      "manual40:549–553",
+      "R03 tiposEspeciais",
+      "peça11§Ferir maldição"
+    ]
+  },
+  {
+    "id": "A15",
+    "pagina": "apt-energia-positiva",
+    "antes": "O uso ofensivo da aptidão fora de um feitiço só aparecia na peça de design.",
+    "depois": "Aptidão aplicada por contato exige uma permissão expressa de alcançar outra criatura.",
+    "motivo": "Não conceder cura externa gratuitamente nem criar uma aptidão nova a partir de um ponteiro órfão.",
+    "tipo": "Esclarecimento mecânico",
+    "fontes": [
+      "peça11§Ferir maldição",
+      "manual43 referênciaúnicaórfã",
+      "R10 coordenação"
+    ]
+  },
+  {
+    "id": "A16",
+    "pagina": "apt-circulacao",
+    "antes": "A opção de Ação Bônus podia ser estendida à reconstrução de membro.",
+    "depois": "Reconstruir exige Ação Padrão e o teto de PE, sem recuperar vida nesse uso.",
+    "motivo": "A Ação Bônus foi precificada para cura em d4; reconstrução possui finalidade e custo próprios.",
+    "tipo": "Esclarecimento",
+    "fontes": [
+      "peça11§Circulação e membro",
+      "manual45§Circulação"
+    ]
+  },
+  {
+    "id": "A17",
+    "pagina": "apt-kokusen",
+    "antes": "Melhor de dois d100 e contagem de falhas não explicavam todas as etapas.",
+    "depois": "Usa o menor resultado; uma tentativa falhada acrescenta +2, mesmo com dois dados. Sucesso não apaga o acumulado.",
+    "motivo": "A fonte só determina o descanso longo como encerramento desse bônus. A vantagem não duplica o número de tentativas.",
+    "tipo": "Esclarecimento",
+    "fontes": [
+      "manual45 Kokusen",
+      "peça11§KokusenConstante/Melhorado"
+    ]
+  },
+  {
+    "id": "A18",
+    "pagina": "apt-protecao-dominios",
+    "antes": "A manutenção por rodada não tinha instante de cobrança nem encerramento operacional completo.",
+    "depois": "Cobrança na ativação e no começo de cada turno, com encerramento por falta de pagamento, decisão ou inconsciência.",
+    "motivo": "Evitar ativações gratuitas entre turnos e reproduzir os totais de 77 e 117 PE da Extensão.",
+    "tipo": "Mecânica: fechamento de lacuna",
+    "fontes": [
+      "peça11§6.5 tabelas de custo",
+      "R01 durações",
+      "R08 coordenação"
+    ]
+  },
+  {
+    "id": "A19",
+    "pagina": "apt-cesta",
+    "antes": "Soltar e retomar o símbolo da Cesta não tinha tratamento completo.",
+    "depois": "Retomar não apaga falhas. Golpe que acerta exige teste, mesmo reduzido a zero; Acerto anulado pela Cesta não é golpe recebido.",
+    "motivo": "Preservar o gatilho de acerto sem permitir reiniciar a barreira gratuitamente.",
+    "tipo": "Esclarecimento",
+    "fontes": [
+      "peça11§Cesta",
+      "R03 Acertoedano"
+    ]
+  },
+  {
+    "id": "A20",
+    "pagina": "apt-simples",
+    "antes": "O raio do Domínio Simples produzia medidas como 3,5 e 6,5 m.",
+    "depois": "A tabela usa o múltiplo de 1,5 m mais próximo do resultado antigo.",
+    "motivo": "Cumprir a diretriz de medidas do usuário, registrando também a mudança de área geométrica.",
+    "tipo": "Mecânica: padronização de medidas",
+    "fontes": [
+      "manual45§DomínioSimples",
+      "pedido humano múltiplos1,5"
+    ]
+  },
+  {
+    "id": "A21",
+    "pagina": "apt-simples-duracao",
+    "antes": "Rodadas, Acertos e piso de duração podiam ser confundidos.",
+    "depois": "A capacidade total é comparada com o número de Acertos já impedidos; falhas reduzem capacidade, não restauram saldo.",
+    "motivo": "Reproduzir o modelo matemático publicado e impedir duração infinita por interpretação do piso.",
+    "tipo": "Esclarecimento",
+    "fontes": [
+      "conta-dominio-simples.py função simples V",
+      "peça11§DomínioSimples"
+    ]
+  },
+  {
+    "id": "A22",
+    "pagina": "apt-simples-duracao",
+    "antes": "Não havia procedimento para mudar de Expansão durante a mesma ativação.",
+    "depois": "Um contador global por ativação; sair e voltar não o zera. Um novo adversário pode reduzir a capacidade, nunca aumentá-la.",
+    "motivo": "Fechar a renovação indevida por movimento e evitar cobrar várias vezes por um único Acerto que afete o grupo.",
+    "tipo": "Mecânica: fechamento de lacuna",
+    "fontes": [
+      "R08 disputa de domínios",
+      "peça11§6.5"
+    ]
+  },
+  {
+    "id": "A23",
+    "pagina": "apt-cesta/apt-simples",
+    "antes": "As consequências de queda tratavam principalmente falhas e voto.",
+    "depois": "Encerramentos precoces da Cesta ou do Domínio Simples provocam o Acerto imediato. Esgotamento do contador do Simples deixa passar apenas o Acerto atual.",
+    "motivo": "Cancelar voluntariamente antes da queda não pode evitar a consequência. O mesmo Acerto não deve ser aplicado duas vezes.",
+    "tipo": "Mecânica: fechamento de lacuna",
+    "fontes": [
+      "decisão v0.274 Acertoextra",
+      "R08 coordenação"
+    ]
+  },
+  {
+    "id": "A24",
+    "pagina": "apt-petala",
+    "antes": "Queda da Pétala e contra-ataque podiam competir pelo mesmo gatilho.",
+    "depois": "A Pétala precisa estar ativa no acerto. O golpe é resolvido primeiro; a queda da proteção não apaga a resposta já desencadeada.",
+    "motivo": "Preservar a função da habilidade, sem permitir agir depois de ficar incapaz de usar a Reação.",
+    "tipo": "Mecânica: resolução simultânea",
+    "fontes": [
+      "manual45§Pétala",
+      "R02 Resolução"
+    ]
+  },
+  {
+    "id": "A25",
+    "pagina": "apt-barreira",
+    "antes": "Um minuto de preparação não especificava ações nem quantidade de barreiras simultâneas.",
+    "depois": "Dez turnos com Ação Padrão no ponto; uma Barreira Simples ou Cortina ativa por criador.",
+    "motivo": "Impedir reservas ilimitadas de PV por preparação, mantendo os valores de cada barreira.",
+    "tipo": "Mecânica",
+    "fontes": [
+      "peça11§6.6",
+      "R01 rodada6segundos"
+    ]
+  },
+  {
+    "id": "A26",
+    "pagina": "apt-barreira",
+    "antes": "Barreiras tinham PV sem um procedimento para receber ataques ou TRs.",
+    "depois": "Ataques que alcançam a superfície acertam sem crítico; barreiras falham nos TRs de efeitos capazes de afetá-las.",
+    "motivo": "Evitar que cada mestre invente Defesa e testes, alinhando Anteparo e a barreira da Expansão.",
+    "tipo": "Mecânica: fechamento de lacuna",
+    "fontes": [
+      "R07 Anteparo",
+      "R08 barreira",
+      "R02 ataque"
+    ]
+  },
+  {
+    "id": "A27",
+    "pagina": "apt-cortina",
+    "antes": "Cortina tinha 20 vezes Refino no dono antigo, 40 no livro e área sem teto.",
+    "depois": "Preservados 40 vezes Refino de PV; o local escolhido deve caber a até 90 m do ponto de conclusão.",
+    "motivo": "O aumento de PV veio do usuário na v0.176. O limite territorial impede tratar uma cidade ou país como um único local gratuito.",
+    "tipo": "Conciliação + mudança mecânica",
+    "fontes": [
+      "logs/CHANGELOG.md§0.176",
+      "manual45§Cortina"
+    ]
+  },
+  {
+    "id": "A28",
+    "pagina": "apt-cortina",
+    "antes": "A Cortina podia ser interpretada como uma Barreira Simples com oito vezes mais vida.",
+    "depois": "Ela regula passagem de criaturas e ocultação visual; não herda a vedação completa de ataques.",
+    "motivo": "Preservar funções distintas e tornar seu custo de oportunidade real.",
+    "tipo": "Esclarecimento mecânico",
+    "fontes": [
+      "peça11§Cortina tabela de condições",
+      "RegrasComuns barreiras/sinais"
+    ]
+  },
+  {
+    "id": "A29",
+    "pagina": "apt-propria",
+    "antes": "Frequência e permanência determinavam a Classe sozinhas; a rerrolagem de exemplo não tinha ação.",
+    "depois": "A comparação considera magnitude, ação, alvos e alcance. A rerrolagem exige Reação e conserva o segundo resultado.",
+    "motivo": "Alinhar a criação própria com R07 e fechar um benefício antes incompleto, sem proclamar que todo efeito permanente é Classe 3.",
+    "tipo": "Mecânica/editorial",
+    "fontes": [
+      "R07 PassivaPrópria",
+      "manual45 AptidãoPrópria"
+    ]
+  },
+  {
+    "id": "A30",
+    "pagina": "apt-barreira",
+    "antes": "A vedação geral poderia apagar a exceção de passagem da rota sem energia.",
+    "depois": "Remissão explícita à exceção da Origem para Barreira Simples e Cortina, incluindo o tratamento próprio de objetos carregados.",
+    "motivo": "Preservar a identidade e o benefício da Origem, sem conceder passagem através de estruturas físicas ou Anteparo.",
+    "tipo": "Sincronização",
+    "fontes": [
+      "peça09 Restrição Celestial",
+      "R10 coordenação de Bênçãos e rota sem energia"
+    ]
+  },
+  {
+    "id": "A31",
+    "tipo": "Editorial",
+    "antes": "Acerto letal e tabela ambígua sobre raio do Acerto.",
+    "depois": "Acerto que causa dano; no raio do Domínio Simples, impedir Acerto/Efeito.",
+    "motivo": "Lethalidade não é critério de desgaste; a área é da defesa, não da Expansão. Mecânicas preservadas.",
+    "revisor": "Agente principal"
+  },
+  {
+    "id": "A32",
+    "tipo": "Editorial/cobertura",
+    "antes": "Catálogo tinha apenas as15entradas com regra neste capítulo.",
+    "depois": "Índice de16entradas inclui Ritual e remete ao capítulo próprio.",
+    "motivo": "Ritual também usa escolha de aptidão. Sua ausência no índice dificultava encontrá-lo."
+  }
+]

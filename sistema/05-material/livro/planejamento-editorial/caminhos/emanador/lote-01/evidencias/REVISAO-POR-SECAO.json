@@ -1,0 +1,348 @@
+{
+  "sha256_texto": "b71b2d1424a0b48971fee676d791cd9e1b9ca40207ea6b40f95344bdff31d48e",
+  "revisor": "compatibilidade — autor, não independente",
+  "secoes": [
+    {
+      "pagina": "ema-base",
+      "parecer_editorial": "Apresenta a função do Caminho antes da ficha e progressão. Cinco escolhas de perícia não confundem treinos fixos com a troca por arma. Vida inicial e PE vêm dos donos da criação.",
+      "interfaces": "Criação, progressão e Origem.",
+      "caso_positivo": "Primeiro nível com Constituição 2: 8 PV; nível 2 acrescenta 6, total 14; 12 PE antes de benefícios.",
+      "caso_negativo": "Trocar duas escolhas não compra treino numa categoria inteira.",
+      "criterios": [
+        "gatilho",
+        "ação/custo",
+        "alvo ou peça",
+        "resultado",
+        "prazo e saída quando há recurso persistente",
+        "suficiência sem catálogo duplicado"
+      ],
+      "canon": "Não apresenta afirmação factual da obra; regras autorais do Projeto M.",
+      "validacao_visual": "Pendente após gerar PDF.",
+      "validacao_independente": "Maxima concluiu leitura integral e 35 verificações: REVISAO-INDEPENDENTE-MAXIMA.json/.md. Não substitui PDF/visual."
+    },
+    {
+      "pagina": "ema-desdobramento",
+      "parecer_editorial": "Enuncia o momento anterior a alvos/rolagens e separa escolher Classe, alterar, recalcular e pagar. Não reproduz o catálogo.",
+      "interfaces": "R06 e R07.",
+      "caso_positivo": "Classe 3 com Família Livre usa preço dessa Classe e seu desconto.",
+      "caso_negativo": "Classe 0, Máxima, Família Fechada e gatilho de Reação improvisado ficam excluídos.",
+      "criterios": [
+        "gatilho",
+        "ação/custo",
+        "alvo ou peça",
+        "resultado",
+        "prazo e saída quando há recurso persistente",
+        "suficiência sem catálogo duplicado"
+      ],
+      "canon": "Não apresenta afirmação factual da obra; regras autorais do Projeto M.",
+      "validacao_visual": "Pendente após gerar PDF.",
+      "validacao_independente": "Maxima concluiu leitura integral e 35 verificações: REVISAO-INDEPENDENTE-MAXIMA.json/.md. Não substitui PDF/visual."
+    },
+    {
+      "pagina": "ema-remodelar",
+      "parecer_editorial": "Explica a troca com o resultado que a paga e conserva o custo adicional em PE. O exemplo Fura→Rápido fecha as duas contas.",
+      "interfaces": "R06 orçamento e R07 preço.",
+      "caso_positivo": "Classe 3: 6d8, preço 3→5, termina 4d8 e 11 PE.",
+      "caso_negativo": "Sobra de devolução não restaura o dado retirado; saldo insuficiente impede a versão.",
+      "criterios": [
+        "gatilho",
+        "ação/custo",
+        "alvo ou peça",
+        "resultado",
+        "prazo e saída quando há recurso persistente",
+        "suficiência sem catálogo duplicado"
+      ],
+      "canon": "Não apresenta afirmação factual da obra; regras autorais do Projeto M.",
+      "validacao_visual": "Pendente após gerar PDF.",
+      "validacao_independente": "Maxima concluiu leitura integral e 35 verificações: REVISAO-INDEPENDENTE-MAXIMA.json/.md. Não substitui PDF/visual."
+    },
+    {
+      "pagina": "ema-modulacoes",
+      "parecer_editorial": "Lista as dez escolhas com seus nomes e equivalentes do catálogo, mais acesso em 2/7/15/23. A regra Forçar esclarece o que o PE substitui.",
+      "interfaces": "R07 categorias, família e incompatibilidade.",
+      "caso_positivo": "Longe na Classe 3 custa 2 PE, ou 1 com Alcance Livre.",
+      "caso_negativo": "Pagar PE não permite Toque+Longe nem uma segunda Modulação Forçada.",
+      "criterios": [
+        "gatilho",
+        "ação/custo",
+        "alvo ou peça",
+        "resultado",
+        "prazo e saída quando há recurso persistente",
+        "suficiência sem catálogo duplicado"
+      ],
+      "canon": "Não apresenta afirmação factual da obra; regras autorais do Projeto M.",
+      "validacao_visual": "Pendente após gerar PDF.",
+      "validacao_independente": "Maxima concluiu leitura integral e 35 verificações: REVISAO-INDEPENDENTE-MAXIMA.json/.md. Não substitui PDF/visual."
+    },
+    {
+      "pagina": "ema-familiares",
+      "parecer_editorial": "Diferencia a alternativa registrada do desconto por primeira conjuração. Duas versões não criam outro espaço nem reiniciam usos.",
+      "interfaces": "R06 Ampliar e R07 Único.",
+      "caso_positivo": "Classe 2 com Afinidade Ampliado para 4 custa 9.",
+      "caso_negativo": "Errar ou usar a versão Familiar não conserva a primeira conjuração da ficha.",
+      "criterios": [
+        "gatilho",
+        "ação/custo",
+        "alvo ou peça",
+        "resultado",
+        "prazo e saída quando há recurso persistente",
+        "suficiência sem catálogo duplicado"
+      ],
+      "canon": "Não apresenta afirmação factual da obra; regras autorais do Projeto M.",
+      "validacao_visual": "Pendente após gerar PDF.",
+      "validacao_independente": "Maxima concluiu leitura integral e 35 verificações: REVISAO-INDEPENDENTE-MAXIMA.json/.md. Não substitui PDF/visual."
+    },
+    {
+      "pagina": "ema-forma",
+      "parecer_editorial": "Concentra duas aquisições que mudam a mesma operação: Forma no 15, duas alterações no 23. A conversão passa por pontos úteis, não por PV bruto.",
+      "interfaces": "R06 Formas, tetos e R07 Corpo a Corpo.",
+      "caso_positivo": "Aura C3 com Fura passa de 7d8 a 4d8 ao virar Explosão sem a devolução.",
+      "caso_negativo": "Apoio não converte cada PV temporário em um dado; duas trocas não criam saldo.",
+      "criterios": [
+        "gatilho",
+        "ação/custo",
+        "alvo ou peça",
+        "resultado",
+        "prazo e saída quando há recurso persistente",
+        "suficiência sem catálogo duplicado"
+      ],
+      "canon": "Não apresenta afirmação factual da obra; regras autorais do Projeto M.",
+      "validacao_visual": "Pendente após gerar PDF.",
+      "validacao_independente": "Maxima concluiu leitura integral e 35 verificações: REVISAO-INDEPENDENTE-MAXIMA.json/.md. Não substitui PDF/visual."
+    },
+    {
+      "pagina": "ema-instintiva",
+      "parecer_editorial": "Mantém a entrega de nível 30 e explica alternativas de custo por fórmula completa. Exemplos separam Ampliar, ação e metades.",
+      "interfaces": "R07 Eco/Cobrança e R19 Ritual.",
+      "caso_positivo": "C2→C4: Afinidade 9 ou Eco 6; C2→C5: Instintiva 10 ou Eco 8.",
+      "caso_negativo": "Não dividir 9 por dois; Instintiva não recebe abatimento em sua base de 1 nem funciona com Bônus.",
+      "criterios": [
+        "gatilho",
+        "ação/custo",
+        "alvo ou peça",
+        "resultado",
+        "prazo e saída quando há recurso persistente",
+        "suficiência sem catálogo duplicado"
+      ],
+      "canon": "Não apresenta afirmação factual da obra; regras autorais do Projeto M.",
+      "validacao_visual": "Pendente após gerar PDF.",
+      "validacao_independente": "Maxima concluiu leitura integral e 35 verificações: REVISAO-INDEPENDENTE-MAXIMA.json/.md. Não substitui PDF/visual."
+    },
+    {
+      "pagina": "ema-condutor",
+      "parecer_editorial": "Identidade curta, aquisição e tabela ligam Padrão/Bônus sem confundir feitiço com dano carregado.",
+      "interfaces": "R01 ações, R05 mãos, R09 Canalizar.",
+      "caso_positivo": "Arma primeiro ou Classe 0 primeiro, consumindo duas ações disponíveis.",
+      "caso_negativo": "Errar não apaga a segunda parte; empunhar a arma não dispensa Selo ou Gesto.",
+      "criterios": [
+        "gatilho",
+        "ação/custo",
+        "alvo ou peça",
+        "resultado",
+        "prazo e saída quando há recurso persistente",
+        "suficiência sem catálogo duplicado"
+      ],
+      "canon": "Não apresenta afirmação factual da obra; regras autorais do Projeto M.",
+      "validacao_visual": "Pendente após gerar PDF.",
+      "validacao_independente": "Maxima concluiu leitura integral e 35 verificações: REVISAO-INDEPENDENTE-MAXIMA.json/.md. Não substitui PDF/visual."
+    },
+    {
+      "pagina": "ema-artes",
+      "parecer_editorial": "Escolhe uma Arte e uma Propriedade no 11, preservando a segunda escolha no 19. Ambas as Artes têm limites claros.",
+      "interfaces": "R01 Ação Atacar e R06 Classe efetiva.",
+      "caso_positivo": "Classe máxima 7 permite Classe 3 na Expandida.",
+      "caso_negativo": "Dois ataques pela Marcial impedem feitiço pela Cadência, não concedem terceira ação.",
+      "criterios": [
+        "gatilho",
+        "ação/custo",
+        "alvo ou peça",
+        "resultado",
+        "prazo e saída quando há recurso persistente",
+        "suficiência sem catálogo duplicado"
+      ],
+      "canon": "Não apresenta afirmação factual da obra; regras autorais do Projeto M.",
+      "validacao_visual": "Pendente após gerar PDF.",
+      "validacao_independente": "Maxima concluiu leitura integral e 35 verificações: REVISAO-INDEPENDENTE-MAXIMA.json/.md. Não substitui PDF/visual."
+    },
+    {
+      "pagina": "ema-propriedades",
+      "parecer_editorial": "Quatro propriedades físicas têm custo, alcance e requisito de item. Forma Mutável declara conservação de inventário e fim do vínculo.",
+      "interfaces": "R05 munição, Integridade e manipulação.",
+      "caso_positivo": "Mudar para perfil compatível mantém duas unidades já carregadas.",
+      "caso_negativo": "Perfil que não aceita a carga exige descarregar; arma em mão alheia não volta por Chamado.",
+      "criterios": [
+        "gatilho",
+        "ação/custo",
+        "alvo ou peça",
+        "resultado",
+        "prazo e saída quando há recurso persistente",
+        "suficiência sem catálogo duplicado"
+      ],
+      "canon": "Não apresenta afirmação factual da obra; regras autorais do Projeto M.",
+      "validacao_visual": "Pendente após gerar PDF.",
+      "validacao_independente": "Maxima concluiu leitura integral e 35 verificações: REVISAO-INDEPENDENTE-MAXIMA.json/.md. Não substitui PDF/visual."
+    },
+    {
+      "pagina": "ema-propriedades-apoio",
+      "parecer_editorial": "Quatro propriedades de apoio distinguem percepção, gravação e manipulação. Limites por cena são do personagem.",
+      "interfaces": "R05 objetos e condições de percepção.",
+      "caso_positivo": "Sentido informa direção e empunhadura a 1 km, medida narrativa aprovada.",
+      "caso_negativo": "Direção não fornece visão do espaço para teleportar nem grava através de obstáculo.",
+      "criterios": [
+        "gatilho",
+        "ação/custo",
+        "alvo ou peça",
+        "resultado",
+        "prazo e saída quando há recurso persistente",
+        "suficiência sem catálogo duplicado"
+      ],
+      "canon": "Não apresenta afirmação factual da obra; regras autorais do Projeto M.",
+      "validacao_visual": "Pendente após gerar PDF.",
+      "validacao_independente": "Maxima concluiu leitura integral e 35 verificações: REVISAO-INDEPENDENTE-MAXIMA.json/.md. Não substitui PDF/visual."
+    },
+    {
+      "pagina": "ema-manifestacao",
+      "parecer_editorial": "Arma primeiro e feitiço primeiro têm parágrafos distintos. A entrega 27 abre Classe maior por uma cena sem alterar a economia de ações.",
+      "interfaces": "R07 Corpo a Corpo e Formas centradas; R06 limite de conjuração.",
+      "caso_positivo": "Cone parte do espaço atingido em até 9 m; Ritmo com Classe máxima 7 aceita 6.",
+      "caso_negativo": "Origem remota não conserva devolução Corpo a Corpo distante; Ritmo não combina dois ataques Marcial mais feitiço.",
+      "criterios": [
+        "gatilho",
+        "ação/custo",
+        "alvo ou peça",
+        "resultado",
+        "prazo e saída quando há recurso persistente",
+        "suficiência sem catálogo duplicado"
+      ],
+      "canon": "Não apresenta afirmação factual da obra; regras autorais do Projeto M.",
+      "validacao_visual": "Pendente após gerar PDF.",
+      "validacao_independente": "Maxima concluiu leitura integral e 35 verificações: REVISAO-INDEPENDENTE-MAXIMA.json/.md. Não substitui PDF/visual."
+    },
+    {
+      "pagina": "ema-eco",
+      "parecer_editorial": "Define o recurso guardado como alteração e registra peça+método, momento, capacidade e prazo.",
+      "interfaces": "R07 preparação e persistência.",
+      "caso_positivo": "Nova Remodelagem Leve resolve e guarda um Eco até fim do próximo turno.",
+      "caso_negativo": "Familiar sozinha, reaplicação de Fica e preparo sem disparo não geram novos Ecos.",
+      "criterios": [
+        "gatilho",
+        "ação/custo",
+        "alvo ou peça",
+        "resultado",
+        "prazo e saída quando há recurso persistente",
+        "suficiência sem catálogo duplicado"
+      ],
+      "canon": "Não apresenta afirmação factual da obra; regras autorais do Projeto M.",
+      "validacao_visual": "Pendente após gerar PDF.",
+      "validacao_independente": "Maxima concluiu leitura integral e 35 verificações: REVISAO-INDEPENDENTE-MAXIMA.json/.md. Não substitui PDF/visual."
+    },
+    {
+      "pagina": "ema-repetir",
+      "parecer_editorial": "Distingue custo por repetição de Remodelagem e de Modulação, mantendo a exigência da troca e o limite de peça.",
+      "interfaces": "R06 orçamento e R07 categorias/preços.",
+      "caso_positivo": "Longe C3 sem família custa 2 como Modulação e 1 ao repetir por Eco.",
+      "caso_negativo": "Eco de Longe não cabe em Toque e não se reproduz sozinho.",
+      "criterios": [
+        "gatilho",
+        "ação/custo",
+        "alvo ou peça",
+        "resultado",
+        "prazo e saída quando há recurso persistente",
+        "suficiência sem catálogo duplicado"
+      ],
+      "canon": "Não apresenta afirmação factual da obra; regras autorais do Projeto M.",
+      "validacao_visual": "Pendente após gerar PDF.",
+      "validacao_independente": "Maxima concluiu leitura integral e 35 verificações: REVISAO-INDEPENDENTE-MAXIMA.json/.md. Não substitui PDF/visual."
+    },
+    {
+      "pagina": "ema-contraponto",
+      "parecer_editorial": "Apresenta ganho de uma alteração nova no 11 e categoria Média no 19 com reação de conservação.",
+      "interfaces": "R01 Reação e R02 ataque/TR.",
+      "caso_positivo": "Eco Leve + novo Desdobramento pode guardar a nova peça; no 23, chega a três alterações.",
+      "caso_negativo": "Preço reduzido de peça Pesada não a torna Média; erro não devolve PE.",
+      "criterios": [
+        "gatilho",
+        "ação/custo",
+        "alvo ou peça",
+        "resultado",
+        "prazo e saída quando há recurso persistente",
+        "suficiência sem catálogo duplicado"
+      ],
+      "canon": "Não apresenta afirmação factual da obra; regras autorais do Projeto M.",
+      "validacao_visual": "Pendente após gerar PDF.",
+      "validacao_independente": "Maxima concluiu leitura integral e 35 verificações: REVISAO-INDEPENDENTE-MAXIMA.json/.md. Não substitui PDF/visual."
+    },
+    {
+      "pagina": "ema-acorde",
+      "parecer_editorial": "Dois prazos separados, identidade do registro e gasto conjunto impedem duplicar recurso ou fazer quatro alterações.",
+      "interfaces": "Composição do próprio Caminho e Reação geral.",
+      "caso_positivo": "Longe criado no turno 1 e Contorno no 2 ainda podem ser usados juntos no 3.",
+      "caso_negativo": "No 4, o primeiro expirou; dois Ecos mais duas alterações não são permitidos.",
+      "criterios": [
+        "gatilho",
+        "ação/custo",
+        "alvo ou peça",
+        "resultado",
+        "prazo e saída quando há recurso persistente",
+        "suficiência sem catálogo duplicado"
+      ],
+      "canon": "Não apresenta afirmação factual da obra; regras autorais do Projeto M.",
+      "validacao_visual": "Pendente após gerar PDF.",
+      "validacao_independente": "Maxima concluiu leitura integral e 35 verificações: REVISAO-INDEPENDENTE-MAXIMA.json/.md. Não substitui PDF/visual."
+    },
+    {
+      "pagina": "ema-impulso",
+      "parecer_editorial": "Distingue condições de gerar e gastar e mostra as duas opções do nível 2. O prazo e a não regeneração estão junto do uso.",
+      "interfaces": "R06 limite de conjuração e R07 Rápido.",
+      "caso_positivo": "Padrão qualificada gera Impulso para gastar em aplicação posterior.",
+      "caso_negativo": "Acelerar para Bônus não libera outro feitiço de Classe 1+ no turno nem ignora Restrição de tempo.",
+      "criterios": [
+        "gatilho",
+        "ação/custo",
+        "alvo ou peça",
+        "resultado",
+        "prazo e saída quando há recurso persistente",
+        "suficiência sem catálogo duplicado"
+      ],
+      "canon": "Não apresenta afirmação factual da obra; regras autorais do Projeto M.",
+      "validacao_visual": "Pendente após gerar PDF.",
+      "validacao_independente": "Maxima concluiu leitura integral e 35 verificações: REVISAO-INDEPENDENTE-MAXIMA.json/.md. Não substitui PDF/visual."
+    },
+    {
+      "pagina": "ema-correcao",
+      "parecer_editorial": "Escolha antes dos dados, gasto condicional e manutenção do segundo resultado evitam seleção retroativa de alvos. Dano é outra opção de Intensificar.",
+      "interfaces": "R02 vantagem e conjuntos; R03 rolagem compartilhada.",
+      "caso_positivo": "d8 com uma repetição obrigatória de 1/2 passa de média 4,5 a 5,25.",
+      "caso_negativo": "Não repetir todos os ataques, não ficar com melhor entre duas rolagens, não repetir os novos 1/2.",
+      "criterios": [
+        "gatilho",
+        "ação/custo",
+        "alvo ou peça",
+        "resultado",
+        "prazo e saída quando há recurso persistente",
+        "suficiência sem catálogo duplicado"
+      ],
+      "canon": "Não apresenta afirmação factual da obra; regras autorais do Projeto M.",
+      "validacao_visual": "Pendente após gerar PDF.",
+      "validacao_independente": "Maxima concluiu leitura integral e 35 verificações: REVISAO-INDEPENDENTE-MAXIMA.json/.md. Não substitui PDF/visual."
+    },
+    {
+      "pagina": "ema-fluxo",
+      "parecer_editorial": "Expõe combinação de duas opções, momento do custo condicional e bloqueio posterior. Fluxo recupera uma vez sem driblar o bloqueio.",
+      "interfaces": "R01 turnos e recursos de cena.",
+      "caso_positivo": "Classe 4 Acelerar+Aperfeiçoar custa 4 PE extras; Intensificar+Corrigir custa 2 e mais 4 se corrigir.",
+      "caso_negativo": "Reservar Correção ainda gasta o uso de Sobrecarga; Fluxo não pode gerar durante vedação expressa.",
+      "criterios": [
+        "gatilho",
+        "ação/custo",
+        "alvo ou peça",
+        "resultado",
+        "prazo e saída quando há recurso persistente",
+        "suficiência sem catálogo duplicado"
+      ],
+      "canon": "Não apresenta afirmação factual da obra; regras autorais do Projeto M.",
+      "validacao_visual": "Pendente após gerar PDF.",
+      "validacao_independente": "Maxima concluiu leitura integral e 35 verificações: REVISAO-INDEPENDENTE-MAXIMA.json/.md. Não substitui PDF/visual."
+    }
+  ]
+}

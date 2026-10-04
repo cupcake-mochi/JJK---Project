@@ -1,0 +1,212 @@
+[
+  {
+    "arquivo": "sistema/03-mecanica/conferir-acao.py",
+    "codigo": 0,
+    "segundos": 6.9,
+    "puladas": [],
+    "log": "/tmp/projeto-m-regressao-ultima331/conferir-acao.txt"
+  },
+  {
+    "arquivo": "sistema/03-mecanica/conferir-alma.py",
+    "codigo": 0,
+    "segundos": 0.5,
+    "puladas": [],
+    "log": "/tmp/projeto-m-regressao-ultima331/conferir-alma.txt"
+  },
+  {
+    "arquivo": "sistema/03-mecanica/conferir-aptidoes.py",
+    "codigo": 0,
+    "segundos": 0.3,
+    "puladas": [],
+    "log": "/tmp/projeto-m-regressao-ultima331/conferir-aptidoes.txt"
+  },
+  {
+    "arquivo": "sistema/03-mecanica/conferir-atributos.py",
+    "codigo": 0,
+    "segundos": 0.2,
+    "puladas": [],
+    "log": "/tmp/projeto-m-regressao-ultima331/conferir-atributos.txt"
+  },
+  {
+    "arquivo": "sistema/03-mecanica/conferir-bestiario.py",
+    "codigo": 0,
+    "segundos": 4.3,
+    "puladas": [],
+    "log": "/tmp/projeto-m-regressao-ultima331/conferir-bestiario.txt"
+  },
+  {
+    "arquivo": "sistema/03-mecanica/conferir-bloquear.py",
+    "codigo": 0,
+    "segundos": 0.5,
+    "puladas": [],
+    "log": "/tmp/projeto-m-regressao-ultima331/conferir-bloquear.txt"
+  },
+  {
+    "arquivo": "sistema/03-mecanica/conferir-catalogo.py",
+    "codigo": 0,
+    "segundos": 1.2,
+    "puladas": [],
+    "log": "/tmp/projeto-m-regressao-ultima331/conferir-catalogo.txt"
+  },
+  {
+    "arquivo": "sistema/03-mecanica/conferir-criacao.py",
+    "codigo": 0,
+    "segundos": 0.1,
+    "puladas": [],
+    "log": "/tmp/projeto-m-regressao-ultima331/conferir-criacao.txt"
+  },
+  {
+    "arquivo": "sistema/03-mecanica/conferir-dano.py",
+    "codigo": 0,
+    "segundos": 2.8,
+    "puladas": [],
+    "log": "/tmp/projeto-m-regressao-ultima331/conferir-dano.txt"
+  },
+  {
+    "arquivo": "sistema/03-mecanica/conferir-descanso.py",
+    "codigo": 0,
+    "segundos": 0.1,
+    "puladas": [],
+    "log": "/tmp/projeto-m-regressao-ultima331/conferir-descanso.txt"
+  },
+  {
+    "arquivo": "sistema/03-mecanica/conferir-equipamento.py",
+    "codigo": 0,
+    "segundos": 1.0,
+    "puladas": [],
+    "log": "/tmp/projeto-m-regressao-ultima331/conferir-equipamento.txt"
+  },
+  {
+    "arquivo": "sistema/03-mecanica/conferir-expansao.py",
+    "codigo": 0,
+    "segundos": 0.2,
+    "puladas": [],
+    "log": "/tmp/projeto-m-regressao-ultima331/conferir-expansao.txt"
+  },
+  {
+    "arquivo": "sistema/03-mecanica/conferir-ferramenta.py",
+    "codigo": 0,
+    "segundos": 0.5,
+    "puladas": [],
+    "log": "/tmp/projeto-m-regressao-ultima331/conferir-ferramenta.txt"
+  },
+  {
+    "arquivo": "sistema/03-mecanica/conferir-ficha.py",
+    "codigo": 0,
+    "segundos": 0.4,
+    "puladas": [],
+    "log": "/tmp/projeto-m-regressao-ultima331/conferir-ficha.txt"
+  },
+  {
+    "arquivo": "sistema/03-mecanica/conferir-invocacoes.py",
+    "codigo": 0,
+    "segundos": 0.6,
+    "puladas": [],
+    "log": "/tmp/projeto-m-regressao-ultima331/conferir-invocacoes.txt"
+  },
+  {
+    "arquivo": "sistema/03-mecanica/conferir-legados.py",
+    "codigo": 0,
+    "segundos": 0.2,
+    "puladas": [],
+    "log": "/tmp/projeto-m-regressao-ultima331/conferir-legados.txt"
+  },
+  {
+    "arquivo": "sistema/03-mecanica/conferir-manual.py",
+    "codigo": 0,
+    "segundos": 9.7,
+    "puladas": [],
+    "log": "/tmp/projeto-m-regressao-ultima331/conferir-manual.txt"
+  },
+  {
+    "arquivo": "sistema/03-mecanica/conferir-marcial.py",
+    "codigo": 0,
+    "segundos": 76.2,
+    "puladas": [],
+    "log": "/tmp/projeto-m-regressao-ultima331/conferir-marcial.txt"
+  },
+  {
+    "arquivo": "sistema/03-mecanica/conferir-nomes.py",
+    "codigo": 0,
+    "segundos": 75.6,
+    "puladas": [],
+    "log": "/tmp/projeto-m-regressao-ultima331/conferir-nomes.txt"
+  },
+  {
+    "arquivo": "sistema/03-mecanica/conferir-objeto.py",
+    "codigo": 0,
+    "segundos": 0.3,
+    "puladas": [],
+    "log": "/tmp/projeto-m-regressao-ultima331/conferir-objeto.txt"
+  },
+  {
+    "arquivo": "sistema/03-mecanica/conferir-orcamento.py",
+    "codigo": 0,
+    "segundos": 0.3,
+    "puladas": [],
+    "log": "/tmp/projeto-m-regressao-ultima331/conferir-orcamento.txt"
+  },
+  {
+    "arquivo": "sistema/03-mecanica/conferir-pactos.py",
+    "codigo": 0,
+    "segundos": 0.3,
+    "puladas": [],
+    "log": "/tmp/projeto-m-regressao-ultima331/conferir-pactos.txt"
+  },
+  {
+    "arquivo": "sistema/03-mecanica/conferir-pericias.py",
+    "codigo": 0,
+    "segundos": 3.4,
+    "puladas": [],
+    "log": "/tmp/projeto-m-regressao-ultima331/conferir-pericias.txt"
+  },
+  {
+    "arquivo": "sistema/03-mecanica/conferir-progressao.py",
+    "codigo": 0,
+    "segundos": 0.6,
+    "puladas": [],
+    "log": "/tmp/projeto-m-regressao-ultima331/conferir-progressao.txt"
+  },
+  {
+    "arquivo": "sistema/03-mecanica/conferir-ritual.py",
+    "codigo": 0,
+    "segundos": 0.1,
+    "puladas": [],
+    "log": "/tmp/projeto-m-regressao-ultima331/conferir-ritual.txt"
+  },
+  {
+    "arquivo": "sistema/03-mecanica/conferir-sem-tecnica.py",
+    "codigo": 0,
+    "segundos": 70.3,
+    "puladas": [],
+    "log": "/tmp/projeto-m-regressao-ultima331/conferir-sem-tecnica.txt"
+  },
+  {
+    "arquivo": "sistema/03-mecanica/conferir-xp.py",
+    "codigo": 0,
+    "segundos": 0.2,
+    "puladas": [],
+    "log": "/tmp/projeto-m-regressao-ultima331/conferir-xp.txt"
+  },
+  {
+    "arquivo": "conferir-repositorio.py",
+    "codigo": 0,
+    "segundos": 84.4,
+    "puladas": [],
+    "log": "/tmp/projeto-m-regressao-ultima331/conferir-repositorio.txt"
+  },
+  {
+    "arquivo": "manual/matematica/pac7.py",
+    "codigo": 0,
+    "segundos": 0.1,
+    "puladas": [],
+    "log": "/tmp/projeto-m-regressao-ultima331/pac7.txt"
+  },
+  {
+    "arquivo": "manual/matematica/v7.py",
+    "codigo": 0,
+    "segundos": 0.1,
+    "puladas": [],
+    "log": "/tmp/projeto-m-regressao-ultima331/v7.txt"
+  }
+]

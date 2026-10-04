@@ -1,0 +1,17 @@
+{
+  "sistema/05-material/livro/planejamento-editorial/invocacoes/lote-02/CONSTRUIR-INVOCACOES.md": {
+    "sha256_final": "bd3d2cc16b5a6c2b373eba1f0ebfabfbc548bae3d6a7cd2eec6dcbb4bfab95d9",
+    "motivo": "Atualização concorrente cotejada: reserva e remissões previamente aprovadas em R11/R12, seguida da migração nominal. R04 REM03/12 somente referências textuais; regras de fabricação intactas.",
+    "evidencia": "MIGRACAO.json e REMISSOES-FINAIS.json dos donos; fontes originais preservadas."
+  },
+  "sistema/05-material/livro/planejamento-editorial/pericias-e-oficios/lote-01/PERICIAS-E-OFICIOS.md": {
+    "sha256_final": "016423f17da7111635e8d9973afd6c810bfb7f5d7f93c3f1e235bf91d0385fdc",
+    "motivo": "Atualização concorrente cotejada: reserva e remissões previamente aprovadas em R11/R12, seguida da migração nominal. R04 REM03/12 somente referências textuais; regras de fabricação intactas.",
+    "evidencia": "MIGRACAO.json e REMISSOES-FINAIS.json dos donos; fontes originais preservadas."
+  },
+  "sistema/05-material/livro/planejamento-editorial/invocacoes/lote-01/INVOCACOES-EM-CAMPO.md": {
+    "sha256_final": "297d96084502eb65780b9ed2ac4f7e121a235cfdbb6e41db254f980e55393dcd",
+    "motivo": "Atualização concorrente cotejada: reserva e remissões previamente aprovadas em R11/R12, seguida da migração nominal. R04 REM03/12 somente referências textuais; regras de fabricação intactas.",
+    "evidencia": "MIGRACAO.json e REMISSOES-FINAIS.json dos donos; fontes originais preservadas."
+  }
+}

@@ -1,0 +1,4887 @@
+{
+  "ok": true,
+  "sha256_texto": "b4035a501c87ada84e73e5951cdf41639c850d644cfe4cb8812575d8a0bc1c43",
+  "snapshot_integral_previo": "15ed0d3535dd08c546cc4d3de9e4385746c73eae15267b6fd14f2db553617908",
+  "revisor": "/root/maxima",
+  "escopo": "Releitura localizada após revisão integral de20 blocos; delta completo conferido contra snapshot. Não declara nova leitura integral.",
+  "resolucao_achados": "Cinco achados resolvidos; GUIA38 tem confirmação independente da raiz porque maxima é autor do Guia.",
+  "verificacoes": 811,
+  "casos": [
+    {
+      "caso": "Diff completo limitado às seis substituições lidas",
+      "obtido": "Texto atual igual ao snapshot após seis substituições documentadas.",
+      "esperado": "Texto atual igual ao snapshot após seis substituições documentadas.",
+      "ok": true
+    },
+    {
+      "caso": "Efeito GuardaAberta preservado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Fórmula dos personagens preservada",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida1: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida1: só1PV difere da metade",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida2: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida2: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida3: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida3: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida4: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida4: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida5: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida5: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida6: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida6: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida7: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida7: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida8: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida8: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida9: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida9: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida10: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida10: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida11: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida11: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida12: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida12: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida13: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida13: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida14: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida14: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida15: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida15: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida16: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida16: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida17: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida17: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida18: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida18: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida19: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida19: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida20: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida20: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida21: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida21: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida22: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida22: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida23: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida23: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida24: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida24: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida25: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida25: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida26: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida26: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida27: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida27: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida28: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida28: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida29: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida29: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida30: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida30: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida31: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida31: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida32: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida32: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida33: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida33: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida34: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida34: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida35: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida35: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida36: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida36: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida37: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida37: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida38: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida38: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida39: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida39: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida40: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida40: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida41: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida41: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida42: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida42: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida43: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida43: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida44: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida44: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida45: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida45: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida46: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida46: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida47: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida47: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida48: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida48: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida49: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida49: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida50: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida50: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida51: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida51: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida52: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida52: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida53: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida53: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida54: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida54: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida55: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida55: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida56: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida56: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida57: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida57: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida58: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida58: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida59: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida59: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida60: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida60: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida61: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida61: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida62: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida62: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida63: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida63: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida64: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida64: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida65: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida65: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida66: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida66: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida67: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida67: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida68: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida68: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida69: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida69: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida70: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida70: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida71: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida71: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida72: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida72: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida73: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida73: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida74: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida74: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida75: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida75: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida76: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida76: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida77: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida77: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida78: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida78: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida79: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida79: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida80: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida80: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida81: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida81: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida82: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida82: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida83: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida83: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida84: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida84: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida85: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida85: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida86: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida86: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida87: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida87: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida88: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida88: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida89: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida89: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida90: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida90: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida91: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida91: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida92: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida92: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida93: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida93: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida94: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida94: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida95: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida95: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida96: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida96: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida97: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida97: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida98: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida98: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida99: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida99: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida100: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida100: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida101: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida101: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida102: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida102: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida103: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida103: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida104: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida104: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida105: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida105: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida106: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida106: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida107: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida107: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida108: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida108: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida109: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida109: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida110: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida110: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida111: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida111: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida112: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida112: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida113: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida113: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida114: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida114: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida115: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida115: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida116: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida116: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida117: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida117: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida118: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida118: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida119: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida119: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida120: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida120: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida121: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida121: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida122: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida122: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida123: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida123: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida124: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida124: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida125: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida125: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida126: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida126: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida127: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida127: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida128: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida128: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida129: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida129: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida130: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida130: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida131: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida131: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida132: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida132: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida133: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida133: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida134: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida134: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida135: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida135: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida136: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida136: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida137: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida137: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida138: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida138: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida139: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida139: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida140: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida140: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida141: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida141: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida142: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida142: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida143: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida143: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida144: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida144: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida145: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida145: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida146: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida146: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida147: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida147: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida148: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida148: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida149: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida149: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida150: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida150: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida151: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida151: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida152: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida152: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida153: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida153: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida154: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida154: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida155: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida155: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida156: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida156: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida157: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida157: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida158: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida158: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida159: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida159: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida160: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida160: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida161: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida161: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida162: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida162: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida163: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida163: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida164: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida164: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida165: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida165: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida166: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida166: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida167: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida167: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida168: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida168: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida169: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida169: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida170: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida170: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida171: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida171: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida172: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida172: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida173: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida173: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida174: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida174: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida175: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida175: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida176: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida176: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida177: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida177: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida178: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida178: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida179: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida179: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida180: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida180: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida181: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida181: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida182: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida182: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida183: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida183: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida184: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida184: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida185: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida185: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida186: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida186: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida187: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida187: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida188: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida188: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida189: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida189: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida190: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida190: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida191: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida191: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida192: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida192: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida193: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida193: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida194: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida194: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida195: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida195: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida196: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida196: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida197: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida197: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida198: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida198: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida199: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida199: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida200: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida200: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida201: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida201: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida202: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida202: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida203: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida203: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida204: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida204: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida205: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida205: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida206: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida206: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida207: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida207: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida208: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida208: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida209: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida209: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida210: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida210: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida211: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida211: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida212: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida212: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida213: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida213: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida214: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida214: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida215: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida215: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida216: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida216: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida217: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida217: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida218: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida218: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida219: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida219: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida220: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida220: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida221: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida221: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida222: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida222: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida223: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida223: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida224: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida224: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida225: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida225: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida226: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida226: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida227: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida227: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida228: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida228: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida229: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida229: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida230: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida230: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida231: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida231: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida232: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida232: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida233: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida233: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida234: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida234: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida235: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida235: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida236: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida236: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida237: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida237: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida238: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida238: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida239: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida239: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida240: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida240: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida241: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida241: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida242: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida242: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida243: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida243: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida244: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida244: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida245: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida245: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida246: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida246: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida247: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida247: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida248: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida248: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida249: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida249: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida250: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida250: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida251: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida251: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida252: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida252: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida253: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida253: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida254: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida254: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida255: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida255: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida256: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida256: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida257: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida257: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida258: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida258: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida259: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida259: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida260: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida260: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida261: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida261: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida262: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida262: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida263: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida263: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida264: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida264: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida265: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida265: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida266: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida266: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida267: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida267: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida268: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida268: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida269: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida269: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida270: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida270: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida271: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida271: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida272: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida272: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida273: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida273: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida274: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida274: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida275: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida275: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida276: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida276: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida277: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida277: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida278: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida278: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida279: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida279: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida280: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida280: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida281: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida281: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida282: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida282: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida283: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida283: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida284: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida284: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida285: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida285: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida286: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida286: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida287: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida287: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida288: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida288: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida289: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida289: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida290: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida290: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida291: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida291: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida292: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida292: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida293: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida293: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida294: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida294: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida295: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida295: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida296: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida296: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida297: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida297: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida298: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida298: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida299: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida299: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida300: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida300: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida301: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida301: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida302: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida302: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida303: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida303: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida304: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida304: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida305: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida305: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida306: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida306: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida307: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida307: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida308: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida308: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida309: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida309: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida310: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida310: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida311: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida311: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida312: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida312: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida313: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida313: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida314: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida314: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida315: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida315: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida316: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida316: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida317: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida317: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida318: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida318: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida319: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida319: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida320: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida320: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida321: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida321: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida322: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida322: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida323: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida323: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida324: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida324: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida325: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida325: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida326: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida326: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida327: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida327: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida328: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida328: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida329: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida329: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida330: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida330: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida331: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida331: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida332: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida332: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida333: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida333: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida334: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida334: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida335: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida335: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida336: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida336: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida337: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida337: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida338: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida338: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida339: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida339: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida340: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida340: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida341: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida341: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida342: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida342: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida343: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida343: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida344: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida344: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida345: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida345: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida346: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida346: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida347: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida347: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida348: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida348: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida349: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida349: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida350: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida350: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida351: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida351: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida352: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida352: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida353: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida353: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida354: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida354: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida355: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida355: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida356: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida356: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida357: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida357: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida358: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida358: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida359: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida359: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida360: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida360: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida361: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida361: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida362: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida362: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida363: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida363: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida364: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida364: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida365: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida365: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida366: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida366: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida367: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida367: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida368: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida368: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida369: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida369: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida370: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida370: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida371: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida371: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida372: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida372: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida373: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida373: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida374: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida374: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida375: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida375: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida376: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida376: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida377: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida377: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida378: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida378: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida379: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida379: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida380: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida380: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida381: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida381: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida382: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida382: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida383: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida383: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida384: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida384: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida385: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida385: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida386: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida386: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida387: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida387: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida388: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida388: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida389: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida389: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida390: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida390: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida391: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida391: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida392: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida392: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida393: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida393: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida394: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida394: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida395: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida395: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida396: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida396: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida397: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida397: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida398: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida398: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida399: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida399: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida400: Integridade positiva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida400: só1PV difere da metade",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Exceção de ficha conservada",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "R03-IM02 queda fora de iniciativa",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "R03-IM03 apósDerrota",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "R03-IM04 descanso longo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "R03-IM05 atendimento",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "R03-IM01 exceçãoGUIA38",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "GUIA38 recebeu revisão independente da raiz antes dos nomes",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "GUIA38 parágrafo/requisitos idênticos após nomes",
+      "obtido": "\n\n**Uma vez por cena, Reação e 2 PE adicionais.** Quando um aliado com um Cuidado seu ainda disponível for reduzido a **zero de vida**, você pode ativar imediatamente a cura de emergência.\n\nVocê precisa perceber o aliado a até **18 m**. Ele deve continuar vivo e poder recuperar vida. A cura não ignora impedimentos do beneficiário nem reverte uma morte já confirmada. A ajuda não exige que ele veja, ouça ou reaja.\n\nConsuma a Abertura e o Cuidado. Role **um d8 para cada dois pontos do atributo escolhido, arredondando para baixo, com mínimo de um dado**, e acrescente o atributo ao resultado.\n\nEssa é a cura completa da emergência, no lugar de 1d8 + atributo. Se a Abertura já tiver sido usada na tentativa em que ele caiu, ative apenas o Cuidado ainda não resolvido; não há um segundo consumo da Abertura.\n\nResolva primeiro o dano e os efeitos do golpe. Neste uso, o aliado recupera vida em vez de retirar uma condição.\n\nEnquanto o aliado ainda estiver **Morrendo**, esta cura encerra a queda mesmo abaixo do limiar normal de recuperação. Tratamento já acumulado e Sequela seguem **Socorro**, em Dano e Recuperação. Ela não permite voltar à cena depois de **Derrotado**.\n\n**Exemplo.** Com Essência 6, a cura de emergência é **3d8 + 6**. É preciso que o Cuidado já estivesse preparado antes do golpe.\n\n",
+      "esperado": "\n\n**Uma vez por cena, Reação e 2 PE adicionais.** Quando um aliado com um Cuidado seu ainda disponível for reduzido a **zero de vida**, você pode ativar imediatamente a cura de emergência.\n\nVocê precisa perceber o aliado a até **18 m**. Ele deve continuar vivo e poder recuperar vida. A cura não ignora impedimentos do beneficiário nem reverte uma morte já confirmada. A ajuda não exige que ele veja, ouça ou reaja.\n\nConsuma a Abertura e o Cuidado. Role **um d8 para cada dois pontos do atributo escolhido, arredondando para baixo, com mínimo de um dado**, e acrescente o atributo ao resultado.\n\nEssa é a cura completa da emergência, no lugar de 1d8 + atributo. Se a Abertura já tiver sido usada na tentativa em que ele caiu, ative apenas o Cuidado ainda não resolvido; não há um segundo consumo da Abertura.\n\nResolva primeiro o dano e os efeitos do golpe. Neste uso, o aliado recupera vida em vez de retirar uma condição.\n\nEnquanto o aliado ainda estiver **Morrendo**, esta cura encerra a queda mesmo abaixo do limiar normal de recuperação. Tratamento já acumulado e Sequela seguem **Socorro**, em Dano e Recuperação. Ela não permite voltar à cena depois de **Derrotado**.\n\n**Exemplo.** Com Essência 6, a cura de emergência é **3d8 + 6**. É preciso que o Cuidado já estivesse preparado antes do golpe.\n\n",
+      "ok": true
+    }
+  ],
+  "mudancas": [
+    "Retirada da referência a Projetar Energia do tipoForça, conservando definição e regra no dono.",
+    "NomeGuardaAberta substituiIncapacitado em título, contenção e exemplo; efeitos idênticos.",
+    "DR31 mínimo1 para NPC com PV máximo positivo; somente NPC1PV muda frente à metade arredondada."
+  ],
+  "limites": [
+    "Modelo matemático e comparação documental; não é playtest ou teste humano.",
+    "PDF/visual cabem à raiz.",
+    "A aprovação da mecânica original continua condicionada aos riscos descritos no parecer integral; renome e correção de borda não eliminam a necessidade de teste de mesa."
+  ]
+}

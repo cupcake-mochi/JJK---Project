@@ -1,0 +1,4018 @@
+{
+  "ok": true,
+  "manuscritos_auditados": {
+    "sistema/05-material/livro/planejamento-editorial/caminhos/guia/lote-01/GUIA.md": "5bf3964d6d8c233069b9f2569fe9487361f9dec0c6473579f594d71c217cca5c"
+  },
+  "fontes": {
+    "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md": "775ae4c7655d724b08805226f84b851ada467cd1290047aa13bdbb5dbfc1d53f",
+    "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md": "948dc94babd1d17022e5a3b5b817e160d2cf1e92c61d37d02462f412ff4e1e44",
+    "caminhos/05-Edicao-Integrada/contratos-v0.331.json": "df0471f49959c86c585944137a95d5b355003105de66acd0aeed4afb74358594",
+    "sistema/03-mecanica/18-progressao.md": "3074b345db8915d2101741ee07790a22e7a98c95ecc4a76ae72803573793dd51",
+    "sistema/05-material/livro/planejamento-editorial/regras-comuns/consolidado-r1/REGRAS-COMUNS.md": "3a7c2783e8f07a1d0de20317d1115d592d45c8b96cbbf7452e28d970ef03bb06",
+    "sistema/05-material/livro/planejamento-editorial/dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md": "b4035a501c87ada84e73e5951cdf41639c850d644cfe4cb8812575d8a0bc1c43",
+    "sistema/05-material/livro/planejamento-editorial/equipamento/lote-05-r1/ITENS-E-OBJETOS.md": "1781aaf0047bc2789e48c8de0741c6d8b8470b123c311b39f2a423ead0c5413c",
+    "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md": "0160f774f5ea87f4ffd29bb7f7e3335dead51677bf2b894041aa61e2c5041273",
+    "sistema/05-material/livro/planejamento-editorial/invocacoes/lote-01/INVOCACOES-EM-CAMPO.md": "297d96084502eb65780b9ed2ac4f7e121a235cfdbb6e41db254f980e55393dcd"
+  },
+  "verificacoes": [
+    {
+      "id": "fontes-identicas",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "ancora-Vida por nível",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "caracteristica-Vida por nível",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "candidata-Vida por nível",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "ancora-PE por nível",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "caracteristica-PE por nível",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "candidata-PE por nível",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "ancora-Perícias à sua escolha",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "caracteristica-Perícias à sua escolha",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "candidata-Perícias à sua escolha",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "vida-inicial-completa",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "ganho-Constituicao",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "obras-maiores-nivel11",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "17-habilidades",
+      "passou": true,
+      "detalhe": [
+        [
+          "2",
+          "Abrir Caminho"
+        ],
+        [
+          "7",
+          "Resposta Coordenada"
+        ],
+        [
+          "15",
+          "Reajustar o Plano"
+        ],
+        [
+          "23",
+          "Passar a Oportunidade"
+        ],
+        [
+          "30",
+          "Todos no Mesmo Plano"
+        ],
+        [
+          "2",
+          "Obras de Apoio"
+        ],
+        [
+          "11",
+          "Obra em Uso"
+        ],
+        [
+          "19",
+          "Obra de Emergência"
+        ],
+        [
+          "27",
+          "Plano Construído"
+        ],
+        [
+          "2",
+          "Ler a Resposta"
+        ],
+        [
+          "11",
+          "Apontar a Brecha"
+        ],
+        [
+          "19",
+          "Rever a Leitura"
+        ],
+        [
+          "27",
+          "Padrão Decifrado"
+        ],
+        [
+          "2",
+          "Cuidado Preparado"
+        ],
+        [
+          "11",
+          "Tratar e Retomar"
+        ],
+        [
+          "19",
+          "Ainda Há Tempo"
+        ],
+        [
+          "27",
+          "Atendimento em Cadeia"
+        ]
+      ]
+    },
+    {
+      "id": "nome-preservado-Abrir Caminho",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-preservado-Resposta Coordenada",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-preservado-Reajustar o Plano",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-preservado-Passar a Oportunidade",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-preservado-Todos no Mesmo Plano",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-preservado-Obras de Apoio",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-preservado-Obra em Uso",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-preservado-Obra de Emergência",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-preservado-Plano Construído",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-preservado-Ler a Resposta",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-preservado-Apontar a Brecha",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-preservado-Rever a Leitura",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-preservado-Padrão Decifrado",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-preservado-Cuidado Preparado",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-preservado-Tratar e Retomar",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-preservado-Ainda Há Tempo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-preservado-Atendimento em Cadeia",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "contrato-sem-guia",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "17-blocos",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "ids-unicos",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulo-guia",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulo-guia-progressao",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia-progressao",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia-progressao",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia-progressao",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia-progressao",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia-progressao",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia-progressao",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia-progressao",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulo-guia-aberturas",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulo-guia-resposta",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia-resposta",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia-resposta",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia-resposta",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia-resposta",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulo-guia-planos",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulo-guia-plano-conjunto",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulo-guia-arquiteto",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia-arquiteto",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia-arquiteto",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia-arquiteto",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia-arquiteto",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia-arquiteto",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia-arquiteto",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia-arquiteto",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulo-guia-modelos",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia-modelos",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia-modelos",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia-modelos",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia-modelos",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia-modelos",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulo-guia-obra-uso",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulo-guia-obras-maiores",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia-obras-maiores",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia-obras-maiores",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia-obras-maiores",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia-obras-maiores",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia-obras-maiores",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulo-guia-emergencia",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulo-guia-analista",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia-analista",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia-analista",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia-analista",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia-analista",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia-analista",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulo-guia-brecha",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulo-guia-padrao",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulo-guia-socorrista",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulo-guia-tratamento",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia-tratamento",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia-tratamento",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia-tratamento",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia-tratamento",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia-tratamento",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-guia-tratamento",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulo-guia-emergencia-cuidado",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulos-diretos",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "sem-legal",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "sem-simetria-forcada",
+      "passou": true,
+      "detalhe": {
+        "guia": 249,
+        "guia-progressao": 247,
+        "guia-aberturas": 273,
+        "guia-resposta": 360,
+        "guia-planos": 328,
+        "guia-plano-conjunto": 330,
+        "guia-arquiteto": 236,
+        "guia-modelos": 334,
+        "guia-obra-uso": 153,
+        "guia-obras-maiores": 318,
+        "guia-emergencia": 332,
+        "guia-analista": 309,
+        "guia-brecha": 280,
+        "guia-padrao": 160,
+        "guia-socorrista": 360,
+        "guia-tratamento": 297,
+        "guia-emergencia-cuidado": 387
+      }
+    },
+    {
+      "id": "sem-repeticao-caminhos",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "texto-0",
+      "passou": true,
+      "detalhe": "Ação Bônus, 1 PE, uma vez por turno seu"
+    },
+    {
+      "id": "texto-1",
+      "passou": true,
+      "detalhe": "até **18 m**"
+    },
+    {
+      "id": "texto-2",
+      "passou": true,
+      "detalhe": "até 3 m de movimento"
+    },
+    {
+      "id": "texto-3",
+      "passou": true,
+      "detalhe": "uma vez por rodada"
+    },
+    {
+      "id": "texto-4",
+      "passou": true,
+      "detalhe": "início de um turno do Guia até o início do seguinte"
+    },
+    {
+      "id": "texto-5",
+      "passou": true,
+      "detalhe": "sem novo gasto de PE"
+    },
+    {
+      "id": "texto-6",
+      "passou": true,
+      "detalhe": "um tipo diferente do já utilizado"
+    },
+    {
+      "id": "texto-7",
+      "passou": true,
+      "detalhe": "mantém o prazo original"
+    },
+    {
+      "id": "texto-8",
+      "passou": true,
+      "detalhe": "primeira exige sua Reação normalmente"
+    },
+    {
+      "id": "texto-9",
+      "passou": true,
+      "detalhe": "segunda dispensa somente a sua Reação"
+    },
+    {
+      "id": "texto-10",
+      "passou": true,
+      "detalhe": "uma mesma criatura não pode realizar as duas respostas"
+    },
+    {
+      "id": "texto-11",
+      "passou": true,
+      "detalhe": "100 kg × atributo escolhido"
+    },
+    {
+      "id": "texto-12",
+      "passou": true,
+      "detalhe": "10 + seu nível + 5 × atributo escolhido"
+    },
+    {
+      "id": "texto-13",
+      "passou": true,
+      "detalhe": "10 + sua maestria"
+    },
+    {
+      "id": "texto-14",
+      "passou": true,
+      "detalhe": "3 PE**"
+    },
+    {
+      "id": "texto-15",
+      "passou": true,
+      "detalhe": "um d8 para cada dois pontos do atributo escolhido"
+    },
+    {
+      "id": "texto-16",
+      "passou": true,
+      "detalhe": "não cria uma Abertura nova"
+    },
+    {
+      "id": "texto-17",
+      "passou": true,
+      "detalhe": "antes das consequências"
+    },
+    {
+      "id": "texto-18",
+      "passou": true,
+      "detalhe": "não repete um teste que já tenha sido repetido"
+    },
+    {
+      "id": "texto-19",
+      "passou": true,
+      "detalhe": "até o começo do seu terceiro turno seguinte"
+    },
+    {
+      "id": "texto-20",
+      "passou": true,
+      "detalhe": "se ainda estiver nessa faixa de vida"
+    },
+    {
+      "id": "texto-21",
+      "passou": true,
+      "detalhe": "Em Desarmado, é necessário que exista uma arma disponível"
+    },
+    {
+      "id": "texto-22",
+      "passou": true,
+      "detalhe": "sem repetir o custo de 2 PE"
+    },
+    {
+      "id": "texto-23",
+      "passou": true,
+      "detalhe": "Cada Abertura consumida permite uma resposta"
+    },
+    {
+      "id": "emergencia-texto-uma vez por cena",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "emergencia-texto-Reação e 2 PE adicionais",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "emergencia-texto-18 m",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "emergencia-texto-Consuma a Abertura e o Cuidado",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "emergencia-texto-enquanto o aliado ainda estiver **morrendo**",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "emergencia-texto-abaixo do limiar normal de recuperação",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "emergencia-texto-não permite voltar à cena depois de **derrotado**",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "ancora-limiar-resgate",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "limiar-geral20",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "socorro-tratamento-excecao",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "ancora-vida-obra",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "ancora-vida-atributo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "ancora-duracao",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "ancora-peso",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "ancora-defesa",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "ancora-cap",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "ancora-precos",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "custos2-6-10",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "maestria30",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "exemplo-arquiteto11A4",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "conserto-precos",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "ampliacao-diferenca",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "mureta-antiga1m",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "mureta-nova1-5",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "medidas-grade1-5",
+      "passou": true,
+      "detalhe": [
+        "18",
+        "3",
+        "3/2",
+        "6",
+        "9",
+        "9/2"
+      ]
+    },
+    {
+      "id": "analista-mais-vantagem-93-75",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "metade-exata100-50",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "45-mais10",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "emergencia-A6",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "tres-cadeia-40-5",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "cadeia-3-custo5-emergencia",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "81-cadeias-distintas",
+      "passou": true,
+      "detalhe": 81
+    },
+    {
+      "id": "36-perfis-resgate",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "resgate-195-era-impossivel",
+      "passou": true,
+      "detalhe": null
+    }
+  ],
+  "casos_executados": [
+    {
+      "id": "abertura-alvo-distancia-limite-proprio-turno",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "avancar-fora-consome-reacao-nao-pode-responder-mesmo-aliado",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "plano-tres-aberturas-duas-respostas",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "cadeia-sem-repetir-pessoa-ou-tipo",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "reajuste-gasta-reacao-nao-inicia-resposta-gratis",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "estado-limite-artificial-resposta-anterior-conta-teto",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "duas-entidades-compartilham-coletiva-mas-renovacao-outro-invocador-permite",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "guia-invocador-nao-usa-renovacao-para-prolongar-cadeia",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "resposta-nao-gera-outra-acao-concedida",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "uma-resposta-por-abertura-consumida",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "prazo-encerra-cadeia-e-janela-de-resposta",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "outra-abertura-substitui-sem-consumo",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "obra-ampliar-preserva-dano-prazo-e-conserto-sem-excesso",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "limite-obras-nao-apaga-apoio-ocupado",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "rever-leitura-custa-reacao-e1pe-padrao-dois-proximos-turnos",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "emergencia-com-abertura-consumida-nao-consome-segunda",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "emergencia-nao-revive-morto-nem-ignora-proibicao-de-cura",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "cuidado-cura-ou-condicao-elegivel-na-preparacao",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "GUIA38-resgate-9-abaixo39-com-consumo",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "GUIA38-tratamento-soma-respeita-maximo-atual",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "GUIA38-abertura-ja-consumida-sem-consumo-duplo",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "GUIA38-nao-retorna-apos-derrotado",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "GUIA38-preserva-impedimentos-e-requisitos",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "GUIA38-alcance-percepcao-preservados",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "GUIA38-uma-vez-cena-mesmo-em-nova-queda",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "GUIA38-dois-PE-adicionais-obrigatorios",
+      "passou": true,
+      "tipo": "modelo executado"
+    }
+  ],
+  "contagens": {
+    "verificacoes": 163,
+    "casos_dirigidos": 26,
+    "perfis_obras": 203,
+    "pares_d20": 8400,
+    "quatro_d20": 160000,
+    "cenarios_cura": 41608,
+    "cadeias_ordenadas": 81,
+    "perfis_resgate_GUIA38": 36
+  },
+  "tabelas": {
+    "obras": [
+      {
+        "nivel": 2,
+        "atributo": 0,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 17,
+        "defesa": 11,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 2,
+        "atributo": 1,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 17,
+        "defesa": 11,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 2,
+        "atributo": 2,
+        "efetivo": 2,
+        "limite": 3,
+        "vida": 22,
+        "defesa": 11,
+        "minutos": 20,
+        "kg": 200,
+        "conserto": 10
+      },
+      {
+        "nivel": 2,
+        "atributo": 3,
+        "efetivo": 3,
+        "limite": 3,
+        "vida": 27,
+        "defesa": 11,
+        "minutos": 30,
+        "kg": 300,
+        "conserto": 15
+      },
+      {
+        "nivel": 2,
+        "atributo": 4,
+        "efetivo": 4,
+        "limite": 4,
+        "vida": 32,
+        "defesa": 11,
+        "minutos": 40,
+        "kg": 400,
+        "conserto": 20
+      },
+      {
+        "nivel": 2,
+        "atributo": 5,
+        "efetivo": 5,
+        "limite": 4,
+        "vida": 37,
+        "defesa": 11,
+        "minutos": 50,
+        "kg": 500,
+        "conserto": 25
+      },
+      {
+        "nivel": 2,
+        "atributo": 6,
+        "efetivo": 6,
+        "limite": 5,
+        "vida": 42,
+        "defesa": 11,
+        "minutos": 60,
+        "kg": 600,
+        "conserto": 30
+      },
+      {
+        "nivel": 3,
+        "atributo": 0,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 18,
+        "defesa": 11,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 3,
+        "atributo": 1,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 18,
+        "defesa": 11,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 3,
+        "atributo": 2,
+        "efetivo": 2,
+        "limite": 3,
+        "vida": 23,
+        "defesa": 11,
+        "minutos": 20,
+        "kg": 200,
+        "conserto": 10
+      },
+      {
+        "nivel": 3,
+        "atributo": 3,
+        "efetivo": 3,
+        "limite": 3,
+        "vida": 28,
+        "defesa": 11,
+        "minutos": 30,
+        "kg": 300,
+        "conserto": 15
+      },
+      {
+        "nivel": 3,
+        "atributo": 4,
+        "efetivo": 4,
+        "limite": 4,
+        "vida": 33,
+        "defesa": 11,
+        "minutos": 40,
+        "kg": 400,
+        "conserto": 20
+      },
+      {
+        "nivel": 3,
+        "atributo": 5,
+        "efetivo": 5,
+        "limite": 4,
+        "vida": 38,
+        "defesa": 11,
+        "minutos": 50,
+        "kg": 500,
+        "conserto": 25
+      },
+      {
+        "nivel": 3,
+        "atributo": 6,
+        "efetivo": 6,
+        "limite": 5,
+        "vida": 43,
+        "defesa": 11,
+        "minutos": 60,
+        "kg": 600,
+        "conserto": 30
+      },
+      {
+        "nivel": 4,
+        "atributo": 0,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 19,
+        "defesa": 11,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 4,
+        "atributo": 1,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 19,
+        "defesa": 11,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 4,
+        "atributo": 2,
+        "efetivo": 2,
+        "limite": 3,
+        "vida": 24,
+        "defesa": 11,
+        "minutos": 20,
+        "kg": 200,
+        "conserto": 10
+      },
+      {
+        "nivel": 4,
+        "atributo": 3,
+        "efetivo": 3,
+        "limite": 3,
+        "vida": 29,
+        "defesa": 11,
+        "minutos": 30,
+        "kg": 300,
+        "conserto": 15
+      },
+      {
+        "nivel": 4,
+        "atributo": 4,
+        "efetivo": 4,
+        "limite": 4,
+        "vida": 34,
+        "defesa": 11,
+        "minutos": 40,
+        "kg": 400,
+        "conserto": 20
+      },
+      {
+        "nivel": 4,
+        "atributo": 5,
+        "efetivo": 5,
+        "limite": 4,
+        "vida": 39,
+        "defesa": 11,
+        "minutos": 50,
+        "kg": 500,
+        "conserto": 25
+      },
+      {
+        "nivel": 4,
+        "atributo": 6,
+        "efetivo": 6,
+        "limite": 5,
+        "vida": 44,
+        "defesa": 11,
+        "minutos": 60,
+        "kg": 600,
+        "conserto": 30
+      },
+      {
+        "nivel": 5,
+        "atributo": 0,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 20,
+        "defesa": 11,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 5,
+        "atributo": 1,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 20,
+        "defesa": 11,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 5,
+        "atributo": 2,
+        "efetivo": 2,
+        "limite": 3,
+        "vida": 25,
+        "defesa": 11,
+        "minutos": 20,
+        "kg": 200,
+        "conserto": 10
+      },
+      {
+        "nivel": 5,
+        "atributo": 3,
+        "efetivo": 3,
+        "limite": 3,
+        "vida": 30,
+        "defesa": 11,
+        "minutos": 30,
+        "kg": 300,
+        "conserto": 15
+      },
+      {
+        "nivel": 5,
+        "atributo": 4,
+        "efetivo": 4,
+        "limite": 4,
+        "vida": 35,
+        "defesa": 11,
+        "minutos": 40,
+        "kg": 400,
+        "conserto": 20
+      },
+      {
+        "nivel": 5,
+        "atributo": 5,
+        "efetivo": 5,
+        "limite": 4,
+        "vida": 40,
+        "defesa": 11,
+        "minutos": 50,
+        "kg": 500,
+        "conserto": 25
+      },
+      {
+        "nivel": 5,
+        "atributo": 6,
+        "efetivo": 6,
+        "limite": 5,
+        "vida": 45,
+        "defesa": 11,
+        "minutos": 60,
+        "kg": 600,
+        "conserto": 30
+      },
+      {
+        "nivel": 6,
+        "atributo": 0,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 21,
+        "defesa": 11,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 6,
+        "atributo": 1,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 21,
+        "defesa": 11,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 6,
+        "atributo": 2,
+        "efetivo": 2,
+        "limite": 3,
+        "vida": 26,
+        "defesa": 11,
+        "minutos": 20,
+        "kg": 200,
+        "conserto": 10
+      },
+      {
+        "nivel": 6,
+        "atributo": 3,
+        "efetivo": 3,
+        "limite": 3,
+        "vida": 31,
+        "defesa": 11,
+        "minutos": 30,
+        "kg": 300,
+        "conserto": 15
+      },
+      {
+        "nivel": 6,
+        "atributo": 4,
+        "efetivo": 4,
+        "limite": 4,
+        "vida": 36,
+        "defesa": 11,
+        "minutos": 40,
+        "kg": 400,
+        "conserto": 20
+      },
+      {
+        "nivel": 6,
+        "atributo": 5,
+        "efetivo": 5,
+        "limite": 4,
+        "vida": 41,
+        "defesa": 11,
+        "minutos": 50,
+        "kg": 500,
+        "conserto": 25
+      },
+      {
+        "nivel": 6,
+        "atributo": 6,
+        "efetivo": 6,
+        "limite": 5,
+        "vida": 46,
+        "defesa": 11,
+        "minutos": 60,
+        "kg": 600,
+        "conserto": 30
+      },
+      {
+        "nivel": 7,
+        "atributo": 0,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 22,
+        "defesa": 11,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 7,
+        "atributo": 1,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 22,
+        "defesa": 11,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 7,
+        "atributo": 2,
+        "efetivo": 2,
+        "limite": 3,
+        "vida": 27,
+        "defesa": 11,
+        "minutos": 20,
+        "kg": 200,
+        "conserto": 10
+      },
+      {
+        "nivel": 7,
+        "atributo": 3,
+        "efetivo": 3,
+        "limite": 3,
+        "vida": 32,
+        "defesa": 11,
+        "minutos": 30,
+        "kg": 300,
+        "conserto": 15
+      },
+      {
+        "nivel": 7,
+        "atributo": 4,
+        "efetivo": 4,
+        "limite": 4,
+        "vida": 37,
+        "defesa": 11,
+        "minutos": 40,
+        "kg": 400,
+        "conserto": 20
+      },
+      {
+        "nivel": 7,
+        "atributo": 5,
+        "efetivo": 5,
+        "limite": 4,
+        "vida": 42,
+        "defesa": 11,
+        "minutos": 50,
+        "kg": 500,
+        "conserto": 25
+      },
+      {
+        "nivel": 7,
+        "atributo": 6,
+        "efetivo": 6,
+        "limite": 5,
+        "vida": 47,
+        "defesa": 11,
+        "minutos": 60,
+        "kg": 600,
+        "conserto": 30
+      },
+      {
+        "nivel": 8,
+        "atributo": 0,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 23,
+        "defesa": 11,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 8,
+        "atributo": 1,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 23,
+        "defesa": 11,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 8,
+        "atributo": 2,
+        "efetivo": 2,
+        "limite": 3,
+        "vida": 28,
+        "defesa": 11,
+        "minutos": 20,
+        "kg": 200,
+        "conserto": 10
+      },
+      {
+        "nivel": 8,
+        "atributo": 3,
+        "efetivo": 3,
+        "limite": 3,
+        "vida": 33,
+        "defesa": 11,
+        "minutos": 30,
+        "kg": 300,
+        "conserto": 15
+      },
+      {
+        "nivel": 8,
+        "atributo": 4,
+        "efetivo": 4,
+        "limite": 4,
+        "vida": 38,
+        "defesa": 11,
+        "minutos": 40,
+        "kg": 400,
+        "conserto": 20
+      },
+      {
+        "nivel": 8,
+        "atributo": 5,
+        "efetivo": 5,
+        "limite": 4,
+        "vida": 43,
+        "defesa": 11,
+        "minutos": 50,
+        "kg": 500,
+        "conserto": 25
+      },
+      {
+        "nivel": 8,
+        "atributo": 6,
+        "efetivo": 6,
+        "limite": 5,
+        "vida": 48,
+        "defesa": 11,
+        "minutos": 60,
+        "kg": 600,
+        "conserto": 30
+      },
+      {
+        "nivel": 9,
+        "atributo": 0,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 24,
+        "defesa": 11,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 9,
+        "atributo": 1,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 24,
+        "defesa": 11,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 9,
+        "atributo": 2,
+        "efetivo": 2,
+        "limite": 3,
+        "vida": 29,
+        "defesa": 11,
+        "minutos": 20,
+        "kg": 200,
+        "conserto": 10
+      },
+      {
+        "nivel": 9,
+        "atributo": 3,
+        "efetivo": 3,
+        "limite": 3,
+        "vida": 34,
+        "defesa": 11,
+        "minutos": 30,
+        "kg": 300,
+        "conserto": 15
+      },
+      {
+        "nivel": 9,
+        "atributo": 4,
+        "efetivo": 4,
+        "limite": 4,
+        "vida": 39,
+        "defesa": 11,
+        "minutos": 40,
+        "kg": 400,
+        "conserto": 20
+      },
+      {
+        "nivel": 9,
+        "atributo": 5,
+        "efetivo": 5,
+        "limite": 4,
+        "vida": 44,
+        "defesa": 11,
+        "minutos": 50,
+        "kg": 500,
+        "conserto": 25
+      },
+      {
+        "nivel": 9,
+        "atributo": 6,
+        "efetivo": 6,
+        "limite": 5,
+        "vida": 49,
+        "defesa": 11,
+        "minutos": 60,
+        "kg": 600,
+        "conserto": 30
+      },
+      {
+        "nivel": 10,
+        "atributo": 0,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 25,
+        "defesa": 12,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 10,
+        "atributo": 1,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 25,
+        "defesa": 12,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 10,
+        "atributo": 2,
+        "efetivo": 2,
+        "limite": 3,
+        "vida": 30,
+        "defesa": 12,
+        "minutos": 20,
+        "kg": 200,
+        "conserto": 10
+      },
+      {
+        "nivel": 10,
+        "atributo": 3,
+        "efetivo": 3,
+        "limite": 3,
+        "vida": 35,
+        "defesa": 12,
+        "minutos": 30,
+        "kg": 300,
+        "conserto": 15
+      },
+      {
+        "nivel": 10,
+        "atributo": 4,
+        "efetivo": 4,
+        "limite": 4,
+        "vida": 40,
+        "defesa": 12,
+        "minutos": 40,
+        "kg": 400,
+        "conserto": 20
+      },
+      {
+        "nivel": 10,
+        "atributo": 5,
+        "efetivo": 5,
+        "limite": 4,
+        "vida": 45,
+        "defesa": 12,
+        "minutos": 50,
+        "kg": 500,
+        "conserto": 25
+      },
+      {
+        "nivel": 10,
+        "atributo": 6,
+        "efetivo": 6,
+        "limite": 5,
+        "vida": 50,
+        "defesa": 12,
+        "minutos": 60,
+        "kg": 600,
+        "conserto": 30
+      },
+      {
+        "nivel": 11,
+        "atributo": 0,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 26,
+        "defesa": 12,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 11,
+        "atributo": 1,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 26,
+        "defesa": 12,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 11,
+        "atributo": 2,
+        "efetivo": 2,
+        "limite": 3,
+        "vida": 31,
+        "defesa": 12,
+        "minutos": 20,
+        "kg": 200,
+        "conserto": 10
+      },
+      {
+        "nivel": 11,
+        "atributo": 3,
+        "efetivo": 3,
+        "limite": 3,
+        "vida": 36,
+        "defesa": 12,
+        "minutos": 30,
+        "kg": 300,
+        "conserto": 15
+      },
+      {
+        "nivel": 11,
+        "atributo": 4,
+        "efetivo": 4,
+        "limite": 4,
+        "vida": 41,
+        "defesa": 12,
+        "minutos": 40,
+        "kg": 400,
+        "conserto": 20
+      },
+      {
+        "nivel": 11,
+        "atributo": 5,
+        "efetivo": 5,
+        "limite": 4,
+        "vida": 46,
+        "defesa": 12,
+        "minutos": 50,
+        "kg": 500,
+        "conserto": 25
+      },
+      {
+        "nivel": 11,
+        "atributo": 6,
+        "efetivo": 6,
+        "limite": 5,
+        "vida": 51,
+        "defesa": 12,
+        "minutos": 60,
+        "kg": 600,
+        "conserto": 30
+      },
+      {
+        "nivel": 12,
+        "atributo": 0,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 27,
+        "defesa": 12,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 12,
+        "atributo": 1,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 27,
+        "defesa": 12,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 12,
+        "atributo": 2,
+        "efetivo": 2,
+        "limite": 3,
+        "vida": 32,
+        "defesa": 12,
+        "minutos": 20,
+        "kg": 200,
+        "conserto": 10
+      },
+      {
+        "nivel": 12,
+        "atributo": 3,
+        "efetivo": 3,
+        "limite": 3,
+        "vida": 37,
+        "defesa": 12,
+        "minutos": 30,
+        "kg": 300,
+        "conserto": 15
+      },
+      {
+        "nivel": 12,
+        "atributo": 4,
+        "efetivo": 4,
+        "limite": 4,
+        "vida": 42,
+        "defesa": 12,
+        "minutos": 40,
+        "kg": 400,
+        "conserto": 20
+      },
+      {
+        "nivel": 12,
+        "atributo": 5,
+        "efetivo": 5,
+        "limite": 4,
+        "vida": 47,
+        "defesa": 12,
+        "minutos": 50,
+        "kg": 500,
+        "conserto": 25
+      },
+      {
+        "nivel": 12,
+        "atributo": 6,
+        "efetivo": 6,
+        "limite": 5,
+        "vida": 52,
+        "defesa": 12,
+        "minutos": 60,
+        "kg": 600,
+        "conserto": 30
+      },
+      {
+        "nivel": 13,
+        "atributo": 0,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 28,
+        "defesa": 12,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 13,
+        "atributo": 1,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 28,
+        "defesa": 12,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 13,
+        "atributo": 2,
+        "efetivo": 2,
+        "limite": 3,
+        "vida": 33,
+        "defesa": 12,
+        "minutos": 20,
+        "kg": 200,
+        "conserto": 10
+      },
+      {
+        "nivel": 13,
+        "atributo": 3,
+        "efetivo": 3,
+        "limite": 3,
+        "vida": 38,
+        "defesa": 12,
+        "minutos": 30,
+        "kg": 300,
+        "conserto": 15
+      },
+      {
+        "nivel": 13,
+        "atributo": 4,
+        "efetivo": 4,
+        "limite": 4,
+        "vida": 43,
+        "defesa": 12,
+        "minutos": 40,
+        "kg": 400,
+        "conserto": 20
+      },
+      {
+        "nivel": 13,
+        "atributo": 5,
+        "efetivo": 5,
+        "limite": 4,
+        "vida": 48,
+        "defesa": 12,
+        "minutos": 50,
+        "kg": 500,
+        "conserto": 25
+      },
+      {
+        "nivel": 13,
+        "atributo": 6,
+        "efetivo": 6,
+        "limite": 5,
+        "vida": 53,
+        "defesa": 12,
+        "minutos": 60,
+        "kg": 600,
+        "conserto": 30
+      },
+      {
+        "nivel": 14,
+        "atributo": 0,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 29,
+        "defesa": 12,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 14,
+        "atributo": 1,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 29,
+        "defesa": 12,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 14,
+        "atributo": 2,
+        "efetivo": 2,
+        "limite": 3,
+        "vida": 34,
+        "defesa": 12,
+        "minutos": 20,
+        "kg": 200,
+        "conserto": 10
+      },
+      {
+        "nivel": 14,
+        "atributo": 3,
+        "efetivo": 3,
+        "limite": 3,
+        "vida": 39,
+        "defesa": 12,
+        "minutos": 30,
+        "kg": 300,
+        "conserto": 15
+      },
+      {
+        "nivel": 14,
+        "atributo": 4,
+        "efetivo": 4,
+        "limite": 4,
+        "vida": 44,
+        "defesa": 12,
+        "minutos": 40,
+        "kg": 400,
+        "conserto": 20
+      },
+      {
+        "nivel": 14,
+        "atributo": 5,
+        "efetivo": 5,
+        "limite": 4,
+        "vida": 49,
+        "defesa": 12,
+        "minutos": 50,
+        "kg": 500,
+        "conserto": 25
+      },
+      {
+        "nivel": 14,
+        "atributo": 6,
+        "efetivo": 6,
+        "limite": 5,
+        "vida": 54,
+        "defesa": 12,
+        "minutos": 60,
+        "kg": 600,
+        "conserto": 30
+      },
+      {
+        "nivel": 15,
+        "atributo": 0,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 30,
+        "defesa": 12,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 15,
+        "atributo": 1,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 30,
+        "defesa": 12,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 15,
+        "atributo": 2,
+        "efetivo": 2,
+        "limite": 3,
+        "vida": 35,
+        "defesa": 12,
+        "minutos": 20,
+        "kg": 200,
+        "conserto": 10
+      },
+      {
+        "nivel": 15,
+        "atributo": 3,
+        "efetivo": 3,
+        "limite": 3,
+        "vida": 40,
+        "defesa": 12,
+        "minutos": 30,
+        "kg": 300,
+        "conserto": 15
+      },
+      {
+        "nivel": 15,
+        "atributo": 4,
+        "efetivo": 4,
+        "limite": 4,
+        "vida": 45,
+        "defesa": 12,
+        "minutos": 40,
+        "kg": 400,
+        "conserto": 20
+      },
+      {
+        "nivel": 15,
+        "atributo": 5,
+        "efetivo": 5,
+        "limite": 4,
+        "vida": 50,
+        "defesa": 12,
+        "minutos": 50,
+        "kg": 500,
+        "conserto": 25
+      },
+      {
+        "nivel": 15,
+        "atributo": 6,
+        "efetivo": 6,
+        "limite": 5,
+        "vida": 55,
+        "defesa": 12,
+        "minutos": 60,
+        "kg": 600,
+        "conserto": 30
+      },
+      {
+        "nivel": 16,
+        "atributo": 0,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 31,
+        "defesa": 12,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 16,
+        "atributo": 1,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 31,
+        "defesa": 12,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 16,
+        "atributo": 2,
+        "efetivo": 2,
+        "limite": 3,
+        "vida": 36,
+        "defesa": 12,
+        "minutos": 20,
+        "kg": 200,
+        "conserto": 10
+      },
+      {
+        "nivel": 16,
+        "atributo": 3,
+        "efetivo": 3,
+        "limite": 3,
+        "vida": 41,
+        "defesa": 12,
+        "minutos": 30,
+        "kg": 300,
+        "conserto": 15
+      },
+      {
+        "nivel": 16,
+        "atributo": 4,
+        "efetivo": 4,
+        "limite": 4,
+        "vida": 46,
+        "defesa": 12,
+        "minutos": 40,
+        "kg": 400,
+        "conserto": 20
+      },
+      {
+        "nivel": 16,
+        "atributo": 5,
+        "efetivo": 5,
+        "limite": 4,
+        "vida": 51,
+        "defesa": 12,
+        "minutos": 50,
+        "kg": 500,
+        "conserto": 25
+      },
+      {
+        "nivel": 16,
+        "atributo": 6,
+        "efetivo": 6,
+        "limite": 5,
+        "vida": 56,
+        "defesa": 12,
+        "minutos": 60,
+        "kg": 600,
+        "conserto": 30
+      },
+      {
+        "nivel": 17,
+        "atributo": 0,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 32,
+        "defesa": 12,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 17,
+        "atributo": 1,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 32,
+        "defesa": 12,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 17,
+        "atributo": 2,
+        "efetivo": 2,
+        "limite": 3,
+        "vida": 37,
+        "defesa": 12,
+        "minutos": 20,
+        "kg": 200,
+        "conserto": 10
+      },
+      {
+        "nivel": 17,
+        "atributo": 3,
+        "efetivo": 3,
+        "limite": 3,
+        "vida": 42,
+        "defesa": 12,
+        "minutos": 30,
+        "kg": 300,
+        "conserto": 15
+      },
+      {
+        "nivel": 17,
+        "atributo": 4,
+        "efetivo": 4,
+        "limite": 4,
+        "vida": 47,
+        "defesa": 12,
+        "minutos": 40,
+        "kg": 400,
+        "conserto": 20
+      },
+      {
+        "nivel": 17,
+        "atributo": 5,
+        "efetivo": 5,
+        "limite": 4,
+        "vida": 52,
+        "defesa": 12,
+        "minutos": 50,
+        "kg": 500,
+        "conserto": 25
+      },
+      {
+        "nivel": 17,
+        "atributo": 6,
+        "efetivo": 6,
+        "limite": 5,
+        "vida": 57,
+        "defesa": 12,
+        "minutos": 60,
+        "kg": 600,
+        "conserto": 30
+      },
+      {
+        "nivel": 18,
+        "atributo": 0,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 33,
+        "defesa": 13,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 18,
+        "atributo": 1,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 33,
+        "defesa": 13,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 18,
+        "atributo": 2,
+        "efetivo": 2,
+        "limite": 3,
+        "vida": 38,
+        "defesa": 13,
+        "minutos": 20,
+        "kg": 200,
+        "conserto": 10
+      },
+      {
+        "nivel": 18,
+        "atributo": 3,
+        "efetivo": 3,
+        "limite": 3,
+        "vida": 43,
+        "defesa": 13,
+        "minutos": 30,
+        "kg": 300,
+        "conserto": 15
+      },
+      {
+        "nivel": 18,
+        "atributo": 4,
+        "efetivo": 4,
+        "limite": 4,
+        "vida": 48,
+        "defesa": 13,
+        "minutos": 40,
+        "kg": 400,
+        "conserto": 20
+      },
+      {
+        "nivel": 18,
+        "atributo": 5,
+        "efetivo": 5,
+        "limite": 4,
+        "vida": 53,
+        "defesa": 13,
+        "minutos": 50,
+        "kg": 500,
+        "conserto": 25
+      },
+      {
+        "nivel": 18,
+        "atributo": 6,
+        "efetivo": 6,
+        "limite": 5,
+        "vida": 58,
+        "defesa": 13,
+        "minutos": 60,
+        "kg": 600,
+        "conserto": 30
+      },
+      {
+        "nivel": 19,
+        "atributo": 0,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 34,
+        "defesa": 13,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 19,
+        "atributo": 1,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 34,
+        "defesa": 13,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 19,
+        "atributo": 2,
+        "efetivo": 2,
+        "limite": 3,
+        "vida": 39,
+        "defesa": 13,
+        "minutos": 20,
+        "kg": 200,
+        "conserto": 10
+      },
+      {
+        "nivel": 19,
+        "atributo": 3,
+        "efetivo": 3,
+        "limite": 3,
+        "vida": 44,
+        "defesa": 13,
+        "minutos": 30,
+        "kg": 300,
+        "conserto": 15
+      },
+      {
+        "nivel": 19,
+        "atributo": 4,
+        "efetivo": 4,
+        "limite": 4,
+        "vida": 49,
+        "defesa": 13,
+        "minutos": 40,
+        "kg": 400,
+        "conserto": 20
+      },
+      {
+        "nivel": 19,
+        "atributo": 5,
+        "efetivo": 5,
+        "limite": 4,
+        "vida": 54,
+        "defesa": 13,
+        "minutos": 50,
+        "kg": 500,
+        "conserto": 25
+      },
+      {
+        "nivel": 19,
+        "atributo": 6,
+        "efetivo": 6,
+        "limite": 5,
+        "vida": 59,
+        "defesa": 13,
+        "minutos": 60,
+        "kg": 600,
+        "conserto": 30
+      },
+      {
+        "nivel": 20,
+        "atributo": 0,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 35,
+        "defesa": 13,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 20,
+        "atributo": 1,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 35,
+        "defesa": 13,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 20,
+        "atributo": 2,
+        "efetivo": 2,
+        "limite": 3,
+        "vida": 40,
+        "defesa": 13,
+        "minutos": 20,
+        "kg": 200,
+        "conserto": 10
+      },
+      {
+        "nivel": 20,
+        "atributo": 3,
+        "efetivo": 3,
+        "limite": 3,
+        "vida": 45,
+        "defesa": 13,
+        "minutos": 30,
+        "kg": 300,
+        "conserto": 15
+      },
+      {
+        "nivel": 20,
+        "atributo": 4,
+        "efetivo": 4,
+        "limite": 4,
+        "vida": 50,
+        "defesa": 13,
+        "minutos": 40,
+        "kg": 400,
+        "conserto": 20
+      },
+      {
+        "nivel": 20,
+        "atributo": 5,
+        "efetivo": 5,
+        "limite": 4,
+        "vida": 55,
+        "defesa": 13,
+        "minutos": 50,
+        "kg": 500,
+        "conserto": 25
+      },
+      {
+        "nivel": 20,
+        "atributo": 6,
+        "efetivo": 6,
+        "limite": 5,
+        "vida": 60,
+        "defesa": 13,
+        "minutos": 60,
+        "kg": 600,
+        "conserto": 30
+      },
+      {
+        "nivel": 21,
+        "atributo": 0,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 36,
+        "defesa": 13,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 21,
+        "atributo": 1,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 36,
+        "defesa": 13,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 21,
+        "atributo": 2,
+        "efetivo": 2,
+        "limite": 3,
+        "vida": 41,
+        "defesa": 13,
+        "minutos": 20,
+        "kg": 200,
+        "conserto": 10
+      },
+      {
+        "nivel": 21,
+        "atributo": 3,
+        "efetivo": 3,
+        "limite": 3,
+        "vida": 46,
+        "defesa": 13,
+        "minutos": 30,
+        "kg": 300,
+        "conserto": 15
+      },
+      {
+        "nivel": 21,
+        "atributo": 4,
+        "efetivo": 4,
+        "limite": 4,
+        "vida": 51,
+        "defesa": 13,
+        "minutos": 40,
+        "kg": 400,
+        "conserto": 20
+      },
+      {
+        "nivel": 21,
+        "atributo": 5,
+        "efetivo": 5,
+        "limite": 4,
+        "vida": 56,
+        "defesa": 13,
+        "minutos": 50,
+        "kg": 500,
+        "conserto": 25
+      },
+      {
+        "nivel": 21,
+        "atributo": 6,
+        "efetivo": 6,
+        "limite": 5,
+        "vida": 61,
+        "defesa": 13,
+        "minutos": 60,
+        "kg": 600,
+        "conserto": 30
+      },
+      {
+        "nivel": 22,
+        "atributo": 0,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 37,
+        "defesa": 13,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 22,
+        "atributo": 1,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 37,
+        "defesa": 13,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 22,
+        "atributo": 2,
+        "efetivo": 2,
+        "limite": 3,
+        "vida": 42,
+        "defesa": 13,
+        "minutos": 20,
+        "kg": 200,
+        "conserto": 10
+      },
+      {
+        "nivel": 22,
+        "atributo": 3,
+        "efetivo": 3,
+        "limite": 3,
+        "vida": 47,
+        "defesa": 13,
+        "minutos": 30,
+        "kg": 300,
+        "conserto": 15
+      },
+      {
+        "nivel": 22,
+        "atributo": 4,
+        "efetivo": 4,
+        "limite": 4,
+        "vida": 52,
+        "defesa": 13,
+        "minutos": 40,
+        "kg": 400,
+        "conserto": 20
+      },
+      {
+        "nivel": 22,
+        "atributo": 5,
+        "efetivo": 5,
+        "limite": 4,
+        "vida": 57,
+        "defesa": 13,
+        "minutos": 50,
+        "kg": 500,
+        "conserto": 25
+      },
+      {
+        "nivel": 22,
+        "atributo": 6,
+        "efetivo": 6,
+        "limite": 5,
+        "vida": 62,
+        "defesa": 13,
+        "minutos": 60,
+        "kg": 600,
+        "conserto": 30
+      },
+      {
+        "nivel": 23,
+        "atributo": 0,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 38,
+        "defesa": 13,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 23,
+        "atributo": 1,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 38,
+        "defesa": 13,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 23,
+        "atributo": 2,
+        "efetivo": 2,
+        "limite": 3,
+        "vida": 43,
+        "defesa": 13,
+        "minutos": 20,
+        "kg": 200,
+        "conserto": 10
+      },
+      {
+        "nivel": 23,
+        "atributo": 3,
+        "efetivo": 3,
+        "limite": 3,
+        "vida": 48,
+        "defesa": 13,
+        "minutos": 30,
+        "kg": 300,
+        "conserto": 15
+      },
+      {
+        "nivel": 23,
+        "atributo": 4,
+        "efetivo": 4,
+        "limite": 4,
+        "vida": 53,
+        "defesa": 13,
+        "minutos": 40,
+        "kg": 400,
+        "conserto": 20
+      },
+      {
+        "nivel": 23,
+        "atributo": 5,
+        "efetivo": 5,
+        "limite": 4,
+        "vida": 58,
+        "defesa": 13,
+        "minutos": 50,
+        "kg": 500,
+        "conserto": 25
+      },
+      {
+        "nivel": 23,
+        "atributo": 6,
+        "efetivo": 6,
+        "limite": 5,
+        "vida": 63,
+        "defesa": 13,
+        "minutos": 60,
+        "kg": 600,
+        "conserto": 30
+      },
+      {
+        "nivel": 24,
+        "atributo": 0,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 39,
+        "defesa": 13,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 24,
+        "atributo": 1,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 39,
+        "defesa": 13,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 24,
+        "atributo": 2,
+        "efetivo": 2,
+        "limite": 3,
+        "vida": 44,
+        "defesa": 13,
+        "minutos": 20,
+        "kg": 200,
+        "conserto": 10
+      },
+      {
+        "nivel": 24,
+        "atributo": 3,
+        "efetivo": 3,
+        "limite": 3,
+        "vida": 49,
+        "defesa": 13,
+        "minutos": 30,
+        "kg": 300,
+        "conserto": 15
+      },
+      {
+        "nivel": 24,
+        "atributo": 4,
+        "efetivo": 4,
+        "limite": 4,
+        "vida": 54,
+        "defesa": 13,
+        "minutos": 40,
+        "kg": 400,
+        "conserto": 20
+      },
+      {
+        "nivel": 24,
+        "atributo": 5,
+        "efetivo": 5,
+        "limite": 4,
+        "vida": 59,
+        "defesa": 13,
+        "minutos": 50,
+        "kg": 500,
+        "conserto": 25
+      },
+      {
+        "nivel": 24,
+        "atributo": 6,
+        "efetivo": 6,
+        "limite": 5,
+        "vida": 64,
+        "defesa": 13,
+        "minutos": 60,
+        "kg": 600,
+        "conserto": 30
+      },
+      {
+        "nivel": 25,
+        "atributo": 0,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 40,
+        "defesa": 13,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 25,
+        "atributo": 1,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 40,
+        "defesa": 13,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 25,
+        "atributo": 2,
+        "efetivo": 2,
+        "limite": 3,
+        "vida": 45,
+        "defesa": 13,
+        "minutos": 20,
+        "kg": 200,
+        "conserto": 10
+      },
+      {
+        "nivel": 25,
+        "atributo": 3,
+        "efetivo": 3,
+        "limite": 3,
+        "vida": 50,
+        "defesa": 13,
+        "minutos": 30,
+        "kg": 300,
+        "conserto": 15
+      },
+      {
+        "nivel": 25,
+        "atributo": 4,
+        "efetivo": 4,
+        "limite": 4,
+        "vida": 55,
+        "defesa": 13,
+        "minutos": 40,
+        "kg": 400,
+        "conserto": 20
+      },
+      {
+        "nivel": 25,
+        "atributo": 5,
+        "efetivo": 5,
+        "limite": 4,
+        "vida": 60,
+        "defesa": 13,
+        "minutos": 50,
+        "kg": 500,
+        "conserto": 25
+      },
+      {
+        "nivel": 25,
+        "atributo": 6,
+        "efetivo": 6,
+        "limite": 5,
+        "vida": 65,
+        "defesa": 13,
+        "minutos": 60,
+        "kg": 600,
+        "conserto": 30
+      },
+      {
+        "nivel": 26,
+        "atributo": 0,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 41,
+        "defesa": 14,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 26,
+        "atributo": 1,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 41,
+        "defesa": 14,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 26,
+        "atributo": 2,
+        "efetivo": 2,
+        "limite": 3,
+        "vida": 46,
+        "defesa": 14,
+        "minutos": 20,
+        "kg": 200,
+        "conserto": 10
+      },
+      {
+        "nivel": 26,
+        "atributo": 3,
+        "efetivo": 3,
+        "limite": 3,
+        "vida": 51,
+        "defesa": 14,
+        "minutos": 30,
+        "kg": 300,
+        "conserto": 15
+      },
+      {
+        "nivel": 26,
+        "atributo": 4,
+        "efetivo": 4,
+        "limite": 4,
+        "vida": 56,
+        "defesa": 14,
+        "minutos": 40,
+        "kg": 400,
+        "conserto": 20
+      },
+      {
+        "nivel": 26,
+        "atributo": 5,
+        "efetivo": 5,
+        "limite": 4,
+        "vida": 61,
+        "defesa": 14,
+        "minutos": 50,
+        "kg": 500,
+        "conserto": 25
+      },
+      {
+        "nivel": 26,
+        "atributo": 6,
+        "efetivo": 6,
+        "limite": 5,
+        "vida": 66,
+        "defesa": 14,
+        "minutos": 60,
+        "kg": 600,
+        "conserto": 30
+      },
+      {
+        "nivel": 27,
+        "atributo": 0,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 42,
+        "defesa": 14,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 27,
+        "atributo": 1,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 42,
+        "defesa": 14,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 27,
+        "atributo": 2,
+        "efetivo": 2,
+        "limite": 3,
+        "vida": 47,
+        "defesa": 14,
+        "minutos": 20,
+        "kg": 200,
+        "conserto": 10
+      },
+      {
+        "nivel": 27,
+        "atributo": 3,
+        "efetivo": 3,
+        "limite": 3,
+        "vida": 52,
+        "defesa": 14,
+        "minutos": 30,
+        "kg": 300,
+        "conserto": 15
+      },
+      {
+        "nivel": 27,
+        "atributo": 4,
+        "efetivo": 4,
+        "limite": 4,
+        "vida": 57,
+        "defesa": 14,
+        "minutos": 40,
+        "kg": 400,
+        "conserto": 20
+      },
+      {
+        "nivel": 27,
+        "atributo": 5,
+        "efetivo": 5,
+        "limite": 4,
+        "vida": 62,
+        "defesa": 14,
+        "minutos": 50,
+        "kg": 500,
+        "conserto": 25
+      },
+      {
+        "nivel": 27,
+        "atributo": 6,
+        "efetivo": 6,
+        "limite": 5,
+        "vida": 67,
+        "defesa": 14,
+        "minutos": 60,
+        "kg": 600,
+        "conserto": 30
+      },
+      {
+        "nivel": 28,
+        "atributo": 0,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 43,
+        "defesa": 14,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 28,
+        "atributo": 1,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 43,
+        "defesa": 14,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 28,
+        "atributo": 2,
+        "efetivo": 2,
+        "limite": 3,
+        "vida": 48,
+        "defesa": 14,
+        "minutos": 20,
+        "kg": 200,
+        "conserto": 10
+      },
+      {
+        "nivel": 28,
+        "atributo": 3,
+        "efetivo": 3,
+        "limite": 3,
+        "vida": 53,
+        "defesa": 14,
+        "minutos": 30,
+        "kg": 300,
+        "conserto": 15
+      },
+      {
+        "nivel": 28,
+        "atributo": 4,
+        "efetivo": 4,
+        "limite": 4,
+        "vida": 58,
+        "defesa": 14,
+        "minutos": 40,
+        "kg": 400,
+        "conserto": 20
+      },
+      {
+        "nivel": 28,
+        "atributo": 5,
+        "efetivo": 5,
+        "limite": 4,
+        "vida": 63,
+        "defesa": 14,
+        "minutos": 50,
+        "kg": 500,
+        "conserto": 25
+      },
+      {
+        "nivel": 28,
+        "atributo": 6,
+        "efetivo": 6,
+        "limite": 5,
+        "vida": 68,
+        "defesa": 14,
+        "minutos": 60,
+        "kg": 600,
+        "conserto": 30
+      },
+      {
+        "nivel": 29,
+        "atributo": 0,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 44,
+        "defesa": 14,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 29,
+        "atributo": 1,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 44,
+        "defesa": 14,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 29,
+        "atributo": 2,
+        "efetivo": 2,
+        "limite": 3,
+        "vida": 49,
+        "defesa": 14,
+        "minutos": 20,
+        "kg": 200,
+        "conserto": 10
+      },
+      {
+        "nivel": 29,
+        "atributo": 3,
+        "efetivo": 3,
+        "limite": 3,
+        "vida": 54,
+        "defesa": 14,
+        "minutos": 30,
+        "kg": 300,
+        "conserto": 15
+      },
+      {
+        "nivel": 29,
+        "atributo": 4,
+        "efetivo": 4,
+        "limite": 4,
+        "vida": 59,
+        "defesa": 14,
+        "minutos": 40,
+        "kg": 400,
+        "conserto": 20
+      },
+      {
+        "nivel": 29,
+        "atributo": 5,
+        "efetivo": 5,
+        "limite": 4,
+        "vida": 64,
+        "defesa": 14,
+        "minutos": 50,
+        "kg": 500,
+        "conserto": 25
+      },
+      {
+        "nivel": 29,
+        "atributo": 6,
+        "efetivo": 6,
+        "limite": 5,
+        "vida": 69,
+        "defesa": 14,
+        "minutos": 60,
+        "kg": 600,
+        "conserto": 30
+      },
+      {
+        "nivel": 30,
+        "atributo": 0,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 45,
+        "defesa": 14,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 30,
+        "atributo": 1,
+        "efetivo": 1,
+        "limite": 2,
+        "vida": 45,
+        "defesa": 14,
+        "minutos": 10,
+        "kg": 100,
+        "conserto": 5
+      },
+      {
+        "nivel": 30,
+        "atributo": 2,
+        "efetivo": 2,
+        "limite": 3,
+        "vida": 50,
+        "defesa": 14,
+        "minutos": 20,
+        "kg": 200,
+        "conserto": 10
+      },
+      {
+        "nivel": 30,
+        "atributo": 3,
+        "efetivo": 3,
+        "limite": 3,
+        "vida": 55,
+        "defesa": 14,
+        "minutos": 30,
+        "kg": 300,
+        "conserto": 15
+      },
+      {
+        "nivel": 30,
+        "atributo": 4,
+        "efetivo": 4,
+        "limite": 4,
+        "vida": 60,
+        "defesa": 14,
+        "minutos": 40,
+        "kg": 400,
+        "conserto": 20
+      },
+      {
+        "nivel": 30,
+        "atributo": 5,
+        "efetivo": 5,
+        "limite": 4,
+        "vida": 65,
+        "defesa": 14,
+        "minutos": 50,
+        "kg": 500,
+        "conserto": 25
+      },
+      {
+        "nivel": 30,
+        "atributo": 6,
+        "efetivo": 6,
+        "limite": 5,
+        "vida": 70,
+        "defesa": 14,
+        "minutos": 60,
+        "kg": 600,
+        "conserto": 30
+      }
+    ],
+    "repeticoes": [
+      {
+        "faces_sucesso": 0,
+        "normal": 0.0,
+        "vantagem": 0.0,
+        "repetir_falha": 0.0,
+        "falha_inimiga_com_brecha": 1.0
+      },
+      {
+        "faces_sucesso": 1,
+        "normal": 0.05,
+        "vantagem": 0.0975,
+        "repetir_falha": 0.0975,
+        "falha_inimiga_com_brecha": 0.9975
+      },
+      {
+        "faces_sucesso": 2,
+        "normal": 0.1,
+        "vantagem": 0.19,
+        "repetir_falha": 0.19,
+        "falha_inimiga_com_brecha": 0.99
+      },
+      {
+        "faces_sucesso": 3,
+        "normal": 0.15,
+        "vantagem": 0.2775,
+        "repetir_falha": 0.2775,
+        "falha_inimiga_com_brecha": 0.9775
+      },
+      {
+        "faces_sucesso": 4,
+        "normal": 0.2,
+        "vantagem": 0.36,
+        "repetir_falha": 0.36,
+        "falha_inimiga_com_brecha": 0.96
+      },
+      {
+        "faces_sucesso": 5,
+        "normal": 0.25,
+        "vantagem": 0.4375,
+        "repetir_falha": 0.4375,
+        "falha_inimiga_com_brecha": 0.9375
+      },
+      {
+        "faces_sucesso": 6,
+        "normal": 0.3,
+        "vantagem": 0.51,
+        "repetir_falha": 0.51,
+        "falha_inimiga_com_brecha": 0.91
+      },
+      {
+        "faces_sucesso": 7,
+        "normal": 0.35,
+        "vantagem": 0.5775,
+        "repetir_falha": 0.5775,
+        "falha_inimiga_com_brecha": 0.8775
+      },
+      {
+        "faces_sucesso": 8,
+        "normal": 0.4,
+        "vantagem": 0.64,
+        "repetir_falha": 0.64,
+        "falha_inimiga_com_brecha": 0.84
+      },
+      {
+        "faces_sucesso": 9,
+        "normal": 0.45,
+        "vantagem": 0.6975,
+        "repetir_falha": 0.6975,
+        "falha_inimiga_com_brecha": 0.7975
+      },
+      {
+        "faces_sucesso": 10,
+        "normal": 0.5,
+        "vantagem": 0.75,
+        "repetir_falha": 0.75,
+        "falha_inimiga_com_brecha": 0.75
+      },
+      {
+        "faces_sucesso": 11,
+        "normal": 0.55,
+        "vantagem": 0.7975,
+        "repetir_falha": 0.7975,
+        "falha_inimiga_com_brecha": 0.6975
+      },
+      {
+        "faces_sucesso": 12,
+        "normal": 0.6,
+        "vantagem": 0.84,
+        "repetir_falha": 0.84,
+        "falha_inimiga_com_brecha": 0.64
+      },
+      {
+        "faces_sucesso": 13,
+        "normal": 0.65,
+        "vantagem": 0.8775,
+        "repetir_falha": 0.8775,
+        "falha_inimiga_com_brecha": 0.5775
+      },
+      {
+        "faces_sucesso": 14,
+        "normal": 0.7,
+        "vantagem": 0.91,
+        "repetir_falha": 0.91,
+        "falha_inimiga_com_brecha": 0.51
+      },
+      {
+        "faces_sucesso": 15,
+        "normal": 0.75,
+        "vantagem": 0.9375,
+        "repetir_falha": 0.9375,
+        "falha_inimiga_com_brecha": 0.4375
+      },
+      {
+        "faces_sucesso": 16,
+        "normal": 0.8,
+        "vantagem": 0.96,
+        "repetir_falha": 0.96,
+        "falha_inimiga_com_brecha": 0.36
+      },
+      {
+        "faces_sucesso": 17,
+        "normal": 0.85,
+        "vantagem": 0.9775,
+        "repetir_falha": 0.9775,
+        "falha_inimiga_com_brecha": 0.2775
+      },
+      {
+        "faces_sucesso": 18,
+        "normal": 0.9,
+        "vantagem": 0.99,
+        "repetir_falha": 0.99,
+        "falha_inimiga_com_brecha": 0.19
+      },
+      {
+        "faces_sucesso": 19,
+        "normal": 0.95,
+        "vantagem": 0.9975,
+        "repetir_falha": 0.9975,
+        "falha_inimiga_com_brecha": 0.0975
+      },
+      {
+        "faces_sucesso": 20,
+        "normal": 1.0,
+        "vantagem": 1.0,
+        "repetir_falha": 1.0,
+        "falha_inimiga_com_brecha": 0.0
+      }
+    ],
+    "curas": [
+      {
+        "atributo": 0,
+        "efetivo": 1,
+        "cura_media": 5.5,
+        "emergencia_dados": 1,
+        "emergencia_min": 2,
+        "emergencia_max": 9,
+        "emergencia_media": 5.5,
+        "tres_cuidados_media": 16.5,
+        "cadeia_emergencia_media": 16.5
+      },
+      {
+        "atributo": 1,
+        "efetivo": 1,
+        "cura_media": 5.5,
+        "emergencia_dados": 1,
+        "emergencia_min": 2,
+        "emergencia_max": 9,
+        "emergencia_media": 5.5,
+        "tres_cuidados_media": 16.5,
+        "cadeia_emergencia_media": 16.5
+      },
+      {
+        "atributo": 2,
+        "efetivo": 2,
+        "cura_media": 6.5,
+        "emergencia_dados": 1,
+        "emergencia_min": 3,
+        "emergencia_max": 10,
+        "emergencia_media": 6.5,
+        "tres_cuidados_media": 19.5,
+        "cadeia_emergencia_media": 19.5
+      },
+      {
+        "atributo": 3,
+        "efetivo": 3,
+        "cura_media": 7.5,
+        "emergencia_dados": 1,
+        "emergencia_min": 4,
+        "emergencia_max": 11,
+        "emergencia_media": 7.5,
+        "tres_cuidados_media": 22.5,
+        "cadeia_emergencia_media": 22.5
+      },
+      {
+        "atributo": 4,
+        "efetivo": 4,
+        "cura_media": 8.5,
+        "emergencia_dados": 2,
+        "emergencia_min": 6,
+        "emergencia_max": 20,
+        "emergencia_media": 13.0,
+        "tres_cuidados_media": 25.5,
+        "cadeia_emergencia_media": 30.0
+      },
+      {
+        "atributo": 5,
+        "efetivo": 5,
+        "cura_media": 9.5,
+        "emergencia_dados": 2,
+        "emergencia_min": 7,
+        "emergencia_max": 21,
+        "emergencia_media": 14.0,
+        "tres_cuidados_media": 28.5,
+        "cadeia_emergencia_media": 33.0
+      },
+      {
+        "atributo": 6,
+        "efetivo": 6,
+        "cura_media": 10.5,
+        "emergencia_dados": 3,
+        "emergencia_min": 9,
+        "emergencia_max": 30,
+        "emergencia_media": 19.5,
+        "tres_cuidados_media": 31.5,
+        "cadeia_emergencia_media": 40.5
+      }
+    ],
+    "custos_cadeia": [
+      {
+        "participantes": 1,
+        "comum": 3,
+        "atendimento_cadeia": 3,
+        "economia": 0,
+        "com_emergencia": 5
+      },
+      {
+        "participantes": 2,
+        "comum": 5,
+        "atendimento_cadeia": 3,
+        "economia": 2,
+        "com_emergencia": 5
+      },
+      {
+        "participantes": 3,
+        "comum": 7,
+        "atendimento_cadeia": 3,
+        "economia": 4,
+        "com_emergencia": 5
+      }
+    ],
+    "resgate_GUIA38": [
+      {
+        "referencia": 80,
+        "atributo": 1,
+        "dados": 1,
+        "limiar_comum": 16,
+        "minimo": 2,
+        "maximo": 9,
+        "media": 5.5,
+        "probabilidade_sem_excecao": 0.0,
+        "probabilidade_com_excecao": 1.0,
+        "condicoes": "Alvo vivo, Morrendo e curável; preparo, alcance, percepção e recursos válidos."
+      },
+      {
+        "referencia": 80,
+        "atributo": 2,
+        "dados": 1,
+        "limiar_comum": 16,
+        "minimo": 3,
+        "maximo": 10,
+        "media": 6.5,
+        "probabilidade_sem_excecao": 0.0,
+        "probabilidade_com_excecao": 1.0,
+        "condicoes": "Alvo vivo, Morrendo e curável; preparo, alcance, percepção e recursos válidos."
+      },
+      {
+        "referencia": 80,
+        "atributo": 3,
+        "dados": 1,
+        "limiar_comum": 16,
+        "minimo": 4,
+        "maximo": 11,
+        "media": 7.5,
+        "probabilidade_sem_excecao": 0.0,
+        "probabilidade_com_excecao": 1.0,
+        "condicoes": "Alvo vivo, Morrendo e curável; preparo, alcance, percepção e recursos válidos."
+      },
+      {
+        "referencia": 80,
+        "atributo": 4,
+        "dados": 2,
+        "limiar_comum": 16,
+        "minimo": 6,
+        "maximo": 20,
+        "media": 13.0,
+        "probabilidade_sem_excecao": 0.234375,
+        "probabilidade_com_excecao": 1.0,
+        "condicoes": "Alvo vivo, Morrendo e curável; preparo, alcance, percepção e recursos válidos."
+      },
+      {
+        "referencia": 80,
+        "atributo": 5,
+        "dados": 2,
+        "limiar_comum": 16,
+        "minimo": 7,
+        "maximo": 21,
+        "media": 14.0,
+        "probabilidade_sem_excecao": 0.328125,
+        "probabilidade_com_excecao": 1.0,
+        "condicoes": "Alvo vivo, Morrendo e curável; preparo, alcance, percepção e recursos válidos."
+      },
+      {
+        "referencia": 80,
+        "atributo": 6,
+        "dados": 3,
+        "limiar_comum": 16,
+        "minimo": 9,
+        "maximo": 30,
+        "media": 19.5,
+        "probabilidade_sem_excecao": 0.8359375,
+        "probabilidade_com_excecao": 1.0,
+        "condicoes": "Alvo vivo, Morrendo e curável; preparo, alcance, percepção e recursos válidos."
+      },
+      {
+        "referencia": 195,
+        "atributo": 1,
+        "dados": 1,
+        "limiar_comum": 39,
+        "minimo": 2,
+        "maximo": 9,
+        "media": 5.5,
+        "probabilidade_sem_excecao": 0.0,
+        "probabilidade_com_excecao": 1.0,
+        "condicoes": "Alvo vivo, Morrendo e curável; preparo, alcance, percepção e recursos válidos."
+      },
+      {
+        "referencia": 195,
+        "atributo": 2,
+        "dados": 1,
+        "limiar_comum": 39,
+        "minimo": 3,
+        "maximo": 10,
+        "media": 6.5,
+        "probabilidade_sem_excecao": 0.0,
+        "probabilidade_com_excecao": 1.0,
+        "condicoes": "Alvo vivo, Morrendo e curável; preparo, alcance, percepção e recursos válidos."
+      },
+      {
+        "referencia": 195,
+        "atributo": 3,
+        "dados": 1,
+        "limiar_comum": 39,
+        "minimo": 4,
+        "maximo": 11,
+        "media": 7.5,
+        "probabilidade_sem_excecao": 0.0,
+        "probabilidade_com_excecao": 1.0,
+        "condicoes": "Alvo vivo, Morrendo e curável; preparo, alcance, percepção e recursos válidos."
+      },
+      {
+        "referencia": 195,
+        "atributo": 4,
+        "dados": 2,
+        "limiar_comum": 39,
+        "minimo": 6,
+        "maximo": 20,
+        "media": 13.0,
+        "probabilidade_sem_excecao": 0.0,
+        "probabilidade_com_excecao": 1.0,
+        "condicoes": "Alvo vivo, Morrendo e curável; preparo, alcance, percepção e recursos válidos."
+      },
+      {
+        "referencia": 195,
+        "atributo": 5,
+        "dados": 2,
+        "limiar_comum": 39,
+        "minimo": 7,
+        "maximo": 21,
+        "media": 14.0,
+        "probabilidade_sem_excecao": 0.0,
+        "probabilidade_com_excecao": 1.0,
+        "condicoes": "Alvo vivo, Morrendo e curável; preparo, alcance, percepção e recursos válidos."
+      },
+      {
+        "referencia": 195,
+        "atributo": 6,
+        "dados": 3,
+        "limiar_comum": 39,
+        "minimo": 9,
+        "maximo": 30,
+        "media": 19.5,
+        "probabilidade_sem_excecao": 0.0,
+        "probabilidade_com_excecao": 1.0,
+        "condicoes": "Alvo vivo, Morrendo e curável; preparo, alcance, percepção e recursos válidos."
+      },
+      {
+        "referencia": 212,
+        "atributo": 1,
+        "dados": 1,
+        "limiar_comum": 43,
+        "minimo": 2,
+        "maximo": 9,
+        "media": 5.5,
+        "probabilidade_sem_excecao": 0.0,
+        "probabilidade_com_excecao": 1.0,
+        "condicoes": "Alvo vivo, Morrendo e curável; preparo, alcance, percepção e recursos válidos."
+      },
+      {
+        "referencia": 212,
+        "atributo": 2,
+        "dados": 1,
+        "limiar_comum": 43,
+        "minimo": 3,
+        "maximo": 10,
+        "media": 6.5,
+        "probabilidade_sem_excecao": 0.0,
+        "probabilidade_com_excecao": 1.0,
+        "condicoes": "Alvo vivo, Morrendo e curável; preparo, alcance, percepção e recursos válidos."
+      },
+      {
+        "referencia": 212,
+        "atributo": 3,
+        "dados": 1,
+        "limiar_comum": 43,
+        "minimo": 4,
+        "maximo": 11,
+        "media": 7.5,
+        "probabilidade_sem_excecao": 0.0,
+        "probabilidade_com_excecao": 1.0,
+        "condicoes": "Alvo vivo, Morrendo e curável; preparo, alcance, percepção e recursos válidos."
+      },
+      {
+        "referencia": 212,
+        "atributo": 4,
+        "dados": 2,
+        "limiar_comum": 43,
+        "minimo": 6,
+        "maximo": 20,
+        "media": 13.0,
+        "probabilidade_sem_excecao": 0.0,
+        "probabilidade_com_excecao": 1.0,
+        "condicoes": "Alvo vivo, Morrendo e curável; preparo, alcance, percepção e recursos válidos."
+      },
+      {
+        "referencia": 212,
+        "atributo": 5,
+        "dados": 2,
+        "limiar_comum": 43,
+        "minimo": 7,
+        "maximo": 21,
+        "media": 14.0,
+        "probabilidade_sem_excecao": 0.0,
+        "probabilidade_com_excecao": 1.0,
+        "condicoes": "Alvo vivo, Morrendo e curável; preparo, alcance, percepção e recursos válidos."
+      },
+      {
+        "referencia": 212,
+        "atributo": 6,
+        "dados": 3,
+        "limiar_comum": 43,
+        "minimo": 9,
+        "maximo": 30,
+        "media": 19.5,
+        "probabilidade_sem_excecao": 0.0,
+        "probabilidade_com_excecao": 1.0,
+        "condicoes": "Alvo vivo, Morrendo e curável; preparo, alcance, percepção e recursos válidos."
+      },
+      {
+        "referencia": 302,
+        "atributo": 1,
+        "dados": 1,
+        "limiar_comum": 61,
+        "minimo": 2,
+        "maximo": 9,
+        "media": 5.5,
+        "probabilidade_sem_excecao": 0.0,
+        "probabilidade_com_excecao": 1.0,
+        "condicoes": "Alvo vivo, Morrendo e curável; preparo, alcance, percepção e recursos válidos."
+      },
+      {
+        "referencia": 302,
+        "atributo": 2,
+        "dados": 1,
+        "limiar_comum": 61,
+        "minimo": 3,
+        "maximo": 10,
+        "media": 6.5,
+        "probabilidade_sem_excecao": 0.0,
+        "probabilidade_com_excecao": 1.0,
+        "condicoes": "Alvo vivo, Morrendo e curável; preparo, alcance, percepção e recursos válidos."
+      },
+      {
+        "referencia": 302,
+        "atributo": 3,
+        "dados": 1,
+        "limiar_comum": 61,
+        "minimo": 4,
+        "maximo": 11,
+        "media": 7.5,
+        "probabilidade_sem_excecao": 0.0,
+        "probabilidade_com_excecao": 1.0,
+        "condicoes": "Alvo vivo, Morrendo e curável; preparo, alcance, percepção e recursos válidos."
+      },
+      {
+        "referencia": 302,
+        "atributo": 4,
+        "dados": 2,
+        "limiar_comum": 61,
+        "minimo": 6,
+        "maximo": 20,
+        "media": 13.0,
+        "probabilidade_sem_excecao": 0.0,
+        "probabilidade_com_excecao": 1.0,
+        "condicoes": "Alvo vivo, Morrendo e curável; preparo, alcance, percepção e recursos válidos."
+      },
+      {
+        "referencia": 302,
+        "atributo": 5,
+        "dados": 2,
+        "limiar_comum": 61,
+        "minimo": 7,
+        "maximo": 21,
+        "media": 14.0,
+        "probabilidade_sem_excecao": 0.0,
+        "probabilidade_com_excecao": 1.0,
+        "condicoes": "Alvo vivo, Morrendo e curável; preparo, alcance, percepção e recursos válidos."
+      },
+      {
+        "referencia": 302,
+        "atributo": 6,
+        "dados": 3,
+        "limiar_comum": 61,
+        "minimo": 9,
+        "maximo": 30,
+        "media": 19.5,
+        "probabilidade_sem_excecao": 0.0,
+        "probabilidade_com_excecao": 1.0,
+        "condicoes": "Alvo vivo, Morrendo e curável; preparo, alcance, percepção e recursos válidos."
+      },
+      {
+        "referencia": 305,
+        "atributo": 1,
+        "dados": 1,
+        "limiar_comum": 61,
+        "minimo": 2,
+        "maximo": 9,
+        "media": 5.5,
+        "probabilidade_sem_excecao": 0.0,
+        "probabilidade_com_excecao": 1.0,
+        "condicoes": "Alvo vivo, Morrendo e curável; preparo, alcance, percepção e recursos válidos."
+      },
+      {
+        "referencia": 305,
+        "atributo": 2,
+        "dados": 1,
+        "limiar_comum": 61,
+        "minimo": 3,
+        "maximo": 10,
+        "media": 6.5,
+        "probabilidade_sem_excecao": 0.0,
+        "probabilidade_com_excecao": 1.0,
+        "condicoes": "Alvo vivo, Morrendo e curável; preparo, alcance, percepção e recursos válidos."
+      },
+      {
+        "referencia": 305,
+        "atributo": 3,
+        "dados": 1,
+        "limiar_comum": 61,
+        "minimo": 4,
+        "maximo": 11,
+        "media": 7.5,
+        "probabilidade_sem_excecao": 0.0,
+        "probabilidade_com_excecao": 1.0,
+        "condicoes": "Alvo vivo, Morrendo e curável; preparo, alcance, percepção e recursos válidos."
+      },
+      {
+        "referencia": 305,
+        "atributo": 4,
+        "dados": 2,
+        "limiar_comum": 61,
+        "minimo": 6,
+        "maximo": 20,
+        "media": 13.0,
+        "probabilidade_sem_excecao": 0.0,
+        "probabilidade_com_excecao": 1.0,
+        "condicoes": "Alvo vivo, Morrendo e curável; preparo, alcance, percepção e recursos válidos."
+      },
+      {
+        "referencia": 305,
+        "atributo": 5,
+        "dados": 2,
+        "limiar_comum": 61,
+        "minimo": 7,
+        "maximo": 21,
+        "media": 14.0,
+        "probabilidade_sem_excecao": 0.0,
+        "probabilidade_com_excecao": 1.0,
+        "condicoes": "Alvo vivo, Morrendo e curável; preparo, alcance, percepção e recursos válidos."
+      },
+      {
+        "referencia": 305,
+        "atributo": 6,
+        "dados": 3,
+        "limiar_comum": 61,
+        "minimo": 9,
+        "maximo": 30,
+        "media": 19.5,
+        "probabilidade_sem_excecao": 0.0,
+        "probabilidade_com_excecao": 1.0,
+        "condicoes": "Alvo vivo, Morrendo e curável; preparo, alcance, percepção e recursos válidos."
+      },
+      {
+        "referencia": 395,
+        "atributo": 1,
+        "dados": 1,
+        "limiar_comum": 79,
+        "minimo": 2,
+        "maximo": 9,
+        "media": 5.5,
+        "probabilidade_sem_excecao": 0.0,
+        "probabilidade_com_excecao": 1.0,
+        "condicoes": "Alvo vivo, Morrendo e curável; preparo, alcance, percepção e recursos válidos."
+      },
+      {
+        "referencia": 395,
+        "atributo": 2,
+        "dados": 1,
+        "limiar_comum": 79,
+        "minimo": 3,
+        "maximo": 10,
+        "media": 6.5,
+        "probabilidade_sem_excecao": 0.0,
+        "probabilidade_com_excecao": 1.0,
+        "condicoes": "Alvo vivo, Morrendo e curável; preparo, alcance, percepção e recursos válidos."
+      },
+      {
+        "referencia": 395,
+        "atributo": 3,
+        "dados": 1,
+        "limiar_comum": 79,
+        "minimo": 4,
+        "maximo": 11,
+        "media": 7.5,
+        "probabilidade_sem_excecao": 0.0,
+        "probabilidade_com_excecao": 1.0,
+        "condicoes": "Alvo vivo, Morrendo e curável; preparo, alcance, percepção e recursos válidos."
+      },
+      {
+        "referencia": 395,
+        "atributo": 4,
+        "dados": 2,
+        "limiar_comum": 79,
+        "minimo": 6,
+        "maximo": 20,
+        "media": 13.0,
+        "probabilidade_sem_excecao": 0.0,
+        "probabilidade_com_excecao": 1.0,
+        "condicoes": "Alvo vivo, Morrendo e curável; preparo, alcance, percepção e recursos válidos."
+      },
+      {
+        "referencia": 395,
+        "atributo": 5,
+        "dados": 2,
+        "limiar_comum": 79,
+        "minimo": 7,
+        "maximo": 21,
+        "media": 14.0,
+        "probabilidade_sem_excecao": 0.0,
+        "probabilidade_com_excecao": 1.0,
+        "condicoes": "Alvo vivo, Morrendo e curável; preparo, alcance, percepção e recursos válidos."
+      },
+      {
+        "referencia": 395,
+        "atributo": 6,
+        "dados": 3,
+        "limiar_comum": 79,
+        "minimo": 9,
+        "maximo": 30,
+        "media": 19.5,
+        "probabilidade_sem_excecao": 0.0,
+        "probabilidade_com_excecao": 1.0,
+        "condicoes": "Alvo vivo, Morrendo e curável; preparo, alcance, percepção e recursos válidos."
+      }
+    ]
+  },
+  "palavras_por_pagina": {
+    "guia": 249,
+    "guia-progressao": 247,
+    "guia-aberturas": 273,
+    "guia-resposta": 360,
+    "guia-planos": 328,
+    "guia-plano-conjunto": 330,
+    "guia-arquiteto": 236,
+    "guia-modelos": 334,
+    "guia-obra-uso": 153,
+    "guia-obras-maiores": 318,
+    "guia-emergencia": 332,
+    "guia-analista": 309,
+    "guia-brecha": 280,
+    "guia-padrao": 160,
+    "guia-socorrista": 360,
+    "guia-tratamento": 297,
+    "guia-emergencia-cuidado": 387
+  },
+  "limites": [
+    "Modelos dirigidos e distribuições exatas; não são sessões humanas ou motor completo de combate.",
+    "O risco de suporte forte depende das fichas dos aliados e da disponibilidade de reações, não é determinado por uma média de cura.",
+    "Medidas da Mureta foram adaptadas à grade por pedido do usuário; cobertura da versão básica permanece Parcial.",
+    "O caso de teto com resposta prévia injeta estado artificial para isolar o limite; não é sequência de duas Aberturas permitidas no mesmo turno.",
+    "A confirmação de compreensão e diagramação depende de leitura independente e PDF, ainda não executados aqui."
+  ]
+}

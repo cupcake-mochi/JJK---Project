@@ -1,0 +1,31 @@
+{
+  "ordem": [
+    "dinheiro",
+    "precos",
+    "inicial",
+    "compras"
+  ],
+  "titulos": {
+    "dinheiro": "Dinheiro e acesso",
+    "precos": "Preços de proteção",
+    "inicial": "Equipamento inicial",
+    "compras": "Compras e reposição"
+  },
+  "paginas": {
+    "dinheiro": 1,
+    "precos": 2,
+    "inicial": 3,
+    "compras": 4
+  },
+  "grupos": [
+    [
+      "Dinheiro e equipamento",
+      [
+        "dinheiro",
+        "precos",
+        "inicial",
+        "compras"
+      ]
+    ]
+  ]
+}

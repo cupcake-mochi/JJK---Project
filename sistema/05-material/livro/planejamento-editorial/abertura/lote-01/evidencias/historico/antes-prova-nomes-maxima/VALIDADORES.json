@@ -1,0 +1,95 @@
+{
+  "sha256_texto": "dbb34c8384587288ccebca3a7c4932f90c377ad0751677b48ede38f596f4dd29",
+  "validadores": [
+    {
+      "id": "V01",
+      "nome": "Cobertura",
+      "estado": "executado",
+      "evidencia": "COBERTURA.json;fontes05/08/20,pilotor2e retorno do usuário."
+    },
+    {
+      "id": "V02",
+      "nome": "Regras e fontes",
+      "estado": "executado",
+      "evidencia": "Fontes preservadas e reconciliação de9+2treinos,nível2/Grau4,repertório3+2."
+    },
+    {
+      "id": "V03",
+      "nome": "Funcionamento",
+      "estado": "executado",
+      "evidencia": "60checagens da autoria e40casos independentes ligados ao texto."
+    },
+    {
+      "id": "V04",
+      "nome": "Números",
+      "estado": "executado",
+      "evidencia": "135distribuições de atributo,512estados3d8,262144estados6d8;contasKaori."
+    },
+    {
+      "id": "V05",
+      "nome": "Balanceamento",
+      "estado": "executado-com-limites",
+      "evidencia": "Cena parcial:65%acerto,34,97%exorcismo em um ataque semBloquear; médias9,45vs3,2. Não encontro calibrado nem playtest."
+    },
+    {
+      "id": "V06",
+      "nome": "Compatibilidade",
+      "estado": "executado-com-limites",
+      "evidencia": "Requisito de entidades limitado à aquisição por espaço;alteraçõesAB21/22 e fontes de aquisição."
+    },
+    {
+      "id": "V07",
+      "nome": "Títulos e vocabulário",
+      "estado": "executado",
+      "evidencia": "Validador editorial,13seções revistas,0ponto e vírgula, siglas expandidas."
+    },
+    {
+      "id": "V08",
+      "nome": "Clareza e suficiência",
+      "estado": "executado",
+      "evidencia": "Leitura por seção,tipos de ficha explicitamente parciais,procedimentos dos catálogos no dono."
+    },
+    {
+      "id": "V09",
+      "nome": "Voz e redundância",
+      "estado": "executado",
+      "evidencia": "PHB2024introdução/criação,antigaaberturaeretorno pós-piloto;semtransporredação."
+    },
+    {
+      "id": "V10",
+      "nome": "Localização",
+      "estado": "executado",
+      "evidencia": "Seis remissões revisadas,semhabilidade deCaminho descrita externamente."
+    },
+    {
+      "id": "V11",
+      "nome": "Obra e referências",
+      "estado": "executado-com-limites",
+      "evidencia": "FONTES-CANONE:cap1imagemlegível,perfisoficiais;regra mecânica separada."
+    },
+    {
+      "id": "V12",
+      "nome": "Revisão independente",
+      "estado": "executado",
+      "evidencia": "maxima:13seções,40casos,3achados corrigidos;hash atual."
+    },
+    {
+      "id": "V13",
+      "nome": "PDF e navegação",
+      "estado": "executado",
+      "evidencia": "13páginas,5gruposrecolhidos17marcadores;conferência doPDF atual."
+    },
+    {
+      "id": "V14",
+      "nome": "Visual",
+      "estado": "executado",
+      "evidencia": "Treze páginas abertas,hashPDF ePNG,sem defeitos observados."
+    },
+    {
+      "id": "V15",
+      "nome": "Rastreabilidade",
+      "estado": "executado",
+      "evidencia": "22decisões,antes/depois/motivo,fontes,script,hashes e manifesto."
+    }
+  ]
+}

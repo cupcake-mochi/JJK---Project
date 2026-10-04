@@ -1,0 +1,10 @@
+{
+  "aprovado": true,
+  "quantidades": {
+    "verificacoes": 126,
+    "casos": 73,
+    "perfis_probabilidade": 19,
+    "mutacoes": 6
+  },
+  "falhas": []
+}

@@ -5,15 +5,11 @@ Versão v0.14, corrigida na v0.15, na v0.16 e na v0.24 — 08/08/2026
 
 Esta peça revisa e substitui a seção 4 da peça anterior.
 
-> **⚠ v0.270 — o texto dos quatro Caminhos mudou de dono.** *O Mizuki refez as habilidades base e as Trilhas do Bastião, da Vanguarda, do Emanador e do Guia fora desta pasta, na **coleção v0.4**, e pediu ela no livro "exatamente" como ela é:* **"Todas as trilhas e caminhos foram refeitos, menos os evocadores, e as partes base deles não mudaram, só as habilidades base e trilhas mesmo."** *A coleção mora em `caminhos/`, com as ideias reservadas e as notas dela, e o capítulo 8 do livro é a cópia jogável.*
->
-> **O que continua valendo daqui é a base:** *vida, PE, atributos naturais, perícias, treino de arma e Teste de Resistência (§1, §5 a §8) — e a coleção v0.4 não mexe em nenhum deles, com uma exceção decidida na v0.271: a perícia fixa do Bastião, que era `Intimidação` e passou a `Provocar`, como a v0.4 escreve.* **O que ficou como registro é o §2 e o §3:** *as quinze Trilhas e o argumento de preço delas descrevem a coleção que valia até a v0.269, com o preço nos `DESENHO-*.md` da raiz.* **A v0.4 não tem preço medido** — *"Não é necessário medir cada fatia ou certificar novamente o orçamento para implementar. […] Isso não autoriza declarar que o equilíbrio foi comprovado." A medição está na fila do `ESTADO-ATUAL`.*
->
-> **O Evocador não mudou, e saiu da edição jogável.** *As regras dele e das invocações continuam aqui e na peça 15 como desenho, fora do livro até o subsistema de Invocações fechar; o desenvolvimento novo mora em `invocacoes/`.*
+> **Edição atual: v0.331, integrada em 02/10/2026.** Os seis Caminhos e suas dezoito Trilhas estão em `caminhos/05-Edicao-Integrada/` e no capítulo 8 do livro. Evocador, Incursor e Invocações foram autorizados pelo Mizuki, juntamente com os cinco ajustes do Bastião. A coleção v0.4 e os desenhos de preço permanecem como registros históricos; seus orçamentos não certificam as habilidades atuais. A base de vida, PE, perícias, armas e TR continua nesta peça e nas peças 1, 7 e 8.
 
 ---
 
-## 1. Os cinco Caminhos
+## 1. Os seis Caminhos
 
 Nomes conferidos contra o manual — nenhum é termo definido lá. *Linha de Frente*, *Ponta de Lança*, *Retaguarda* e *Leitura* eram rótulos de rascunho; **Leitura** em particular já aparecia três vezes no Fundamento e precisava sair.
 
@@ -23,7 +19,8 @@ Nomes conferidos contra o manual — nenhum é termo definido lá. *Linha de Fre
 | **Vanguarda** | a arma como resposta: alcançar, cortar, acabar | Destreza, Força |
 | **Guia** | o outro como resposta: estender, recuperar, reposicionar | Essência |
 | **Emanador** | a técnica como resposta: mais feitiço, mais aptidão | Inteligência, Essência |
-| **Evocador** | o que você trouxe como resposta: invocações — *fora da edição jogável desde a v0.270* | Inteligência, Essência |
+| **Evocador** | o que você trouxe como resposta: invocações | Inteligência, Essência |
+| **Incursor** | movimento, abertura e domínio da própria arma | Destreza, Força |
 
 ### Uma colisão que a checagem pegou
 
@@ -49,9 +46,9 @@ Renomear a aptidão sairia mais caro: *canalizar energia* é termo da própria o
 
 ## 2. As Trilhas
 
-### A coleção v0.4 — a edição jogável desde a v0.270
+### A edição integrada v0.331 — regras atuais
 
-**Três por Caminho**, e o texto de cada uma mora em `caminhos/01-Caminhos-e-Trilhas/`, um arquivo por Caminho.
+**Três por Caminho**, e o texto de cada uma mora em `caminhos/05-Edicao-Integrada/`, um arquivo por Caminho. A coleção v0.4 em `01-Caminhos-e-Trilhas/` é a origem histórica.
 
 | Caminho | Trilhas |
 |---|---|
@@ -59,6 +56,31 @@ Renomear a aptidão sairia mais caro: *canalizar energia* é termo da própria o
 | **Vanguarda** | Estocada · Batedor, com as rotas Yumi, Besta e Arma de Fogo · Executor |
 | **Emanador** | Condutor Armado · Ressonante · Catalisador |
 | **Guia** | Arquiteto · Analista · Socorrista |
+| **Evocador** | Invocação Principal · Parceria · Múltiplas Invocações |
+| **Incursor** | Assassino · Pugilista · Malabarista |
+
+**Trilhas atuais por Caminho**
+
+| Trilha | Caminho |
+|---|---|
+| **Muro** | Bastião |
+| **Punho** | Bastião |
+| **Combatente Amaldiçoado** | Bastião |
+| **Estocada** | Vanguarda |
+| **Batedor** | Vanguarda |
+| **Executor** | Vanguarda |
+| **Condutor Armado** | Emanador |
+| **Ressonante** | Emanador |
+| **Catalisador** | Emanador |
+| **Arquiteto** | Guia |
+| **Analista** | Guia |
+| **Socorrista** | Guia |
+| **Invocação Principal** | Evocador |
+| **Parceria** | Evocador |
+| **Múltiplas Invocações** | Evocador |
+| **Assassino** | Incursor |
+| **Pugilista** | Incursor |
+| **Malabarista** | Incursor |
 
 **O calendário da coleção:** Caminho em `2 · 7 · 15 · 23 · 30`, Trilha em `2 · 11 · 19 · 27`.
 
@@ -91,7 +113,7 @@ Renomear a aptidão sairia mais caro: *canalizar energia* é termo da própria o
 | entrega | a v0.4 deixou aberto | o livro diz | decisão |
 |---|---|---|---|
 | `Oportunista` | o prazo da preparação, e a abrangência num feitiço com vários ataques, testes ou alvos | "A preparação dura até o fim do seu próximo turno, e vale para um ataque do feitiço ou para o primeiro TR de uma criatura contra ele." | v0.280, "2 - A": um ataque ou um alvo, até o fim do próximo turno |
-| `Contra a Parede` | a ordem de ataque e feitiço, o custo da conjuração e o arredondamento da metade da maior Classe | "A metade arredonda para baixo. Pague o feitiço normalmente, sem PE a mais pela habilidade. O feitiço vem depois do primeiro golpe, e não pode ser crítico." | v0.280: a habilidade não custa PE, a metade arredonda para baixo, e "o custo desse 'feitiço que acompanha', é o custo do feitiço mesmo"; a ordem: "Depois do primeiro golpe e n crita" |
+| `Contra a Parede` | a ordem de ataque e feitiço, o custo da conjuração e o arredondamento da metade da maior Classe | "O feitiço não pode ser crítico, mesmo que o ataque seja. Você não pode usar Canalizar em Golpe no ataque escolhido." | v0.280: a habilidade não custa PE, a metade arredonda para baixo, e "o custo desse 'feitiço que acompanha', é o custo do feitiço mesmo"; a ordem: "Depois do primeiro golpe e n crita" |
 
 *As pendências são as que a própria coleção anotou, na nota que veio com ela. A frase decidida mora nesta tabela e no quadro da entrega no livro, e a sub-checagem 10.5 do `conferir-catalogo.py` cobra que o quadro diga a frase.* **A redação segue a da v0.4:** *o `Intensificar` do Catalisador já escolhe "um ataque do feitiço" ou "o primeiro TR de uma criatura contra ele", e o `Ritmo Convergente` do Condutor Armado já manda pagar o feitiço "normalmente".* **A terceira pendência, as conversões do nível 15 do Emanador, fechou na v0.281 sem frase nova:** *o texto fica como está, porque a troca entre dano, cura e vida temporária já vem na tabela do Remodelar, no próprio Caminho — "Pode manter como tem, pq evita da galera ir até a pagina do construtor".*
 
@@ -359,6 +381,8 @@ Com um golpe na Ação Bônus, o conjurador de perto cai exatamente na linha do 
 
 ## 4. Invocação: não passa como está
 
+**Registro histórico anterior à v0.331.** A divisão de Rotina descrita nesta seção foi substituída pelo capítulo 17 e pelas três Trilhas atuais do Evocador. Os validadores ainda conferem estes cálculos como regressão histórica, não como orçamento da edição integrada.
+
 Este é o risco maior do pacote inteiro, e ele não tem conserto por preço.
 
 | nível | Rotina do dono | + 1 invocação que age | + 3 (horda) |
@@ -393,11 +417,11 @@ E é a leitura correta da obra: as maldições do Geto individualmente são frá
 
 *A fórmula do máximo entrou na v0.26*, e está na peça 1, seção 5.3. A tabela de *"quantas vezes você lança o seu melhor feitiço"* do manual já é `6 × nível` nos seis pontos que mostra, então ela concorda — mas concordar não é a mesma coisa que mandar, e a seção 5.3 explica por quê.
 
-| | Bastião | Vanguarda | Guia | Evocador | Emanador |
-|---|---|---|---|---|---|
-| vida por nível | 7 | 5 | 5 | 4 | 4 |
-| PE por nível | 4 | 5 | 5 | 6 | 6 |
-| **soma** | **11** | **10** | **10** | **10** | **10** |
+| | Bastião | Vanguarda | Guia | Evocador | Emanador | Incursor |
+|---|---|---|---|---|---|---|
+| vida por nível | 7 | 5 | 5 | 4 | 4 | 4 |
+| PE por nível | 4 | 5 | 5 | 6 | 6 | 6 |
+| **soma** | **11** | **10** | **10** | **10** | **10** | **10** |
 
 **A soma é o número que importa.** Com ela praticamente igual nos cinco, a troca "couro contra combustível" é escolha de sabor e não degrau de poder — e o validador falha se a diferença passar de 2.
 
@@ -483,7 +507,7 @@ A lista definitiva sai junto com o quadro de perícias completo, que é peça pr
 
 | Caminho | treina | quais categorias |
 |---|---|---|
-| **Bastião** · **Vanguarda** | **as treze** | Simples, Marciais e Arma de Fogo |
+| **Bastião** · **Vanguarda** · **Incursor** | **as treze** | Simples, Marciais e Arma de Fogo |
 | **Guia** · **Emanador** · **Evocador** | **duas** | `Arma de Fogo` e `Balestra` |
 
 > **Para um conjurador empunhar o resto, a porta é a Trilha.** *É o que faz a `Arma Condutora` do Condutor Armado, no nível 2: ela concede uma categoria (Grupo das Armas) à escolha e troca Força por Essência ou Inteligência naquela categoria.* **Um Emanador de espadão existe, e paga com a escolha de Trilha.** *A porta mudou de Trilha na v0.270, com a coleção v0.4; até ali ela era a `Empunhadura` do `Arremate`, com o mesmo efeito.*

@@ -1,0 +1,43 @@
+{
+  "sha256_texto": "fec7b78ed68c2ebdfc47aae059de9c713249f36d76b137e3baa858238cfde8b6",
+  "secoes": [
+    {
+      "id": "pericias",
+      "parecer": "Definição operacional e diferença entre treino, atributo e ferramenta. Exemplo +5/+3 corrigido; escolha de personagem remetida a seus donos."
+    },
+    {
+      "id": "tarefas",
+      "parecer": "Uma tarefa por resultado; procedimentos específicos têm prioridade nas novas tentativas. Ajuda não compra treino obrigatório."
+    },
+    {
+      "id": "fisicas",
+      "parecer": "Cinco perícias e atributos preservados. Contenções/queda/carga não são dispensadas. Pontaria não substitui ataque."
+    },
+    {
+      "id": "conhecimento",
+      "parecer": "Seis perícias de Inteligência com diferenças entre detectar e interpretar. Não promete ficha de técnica ou pensamentos."
+    },
+    {
+      "id": "ambiente",
+      "parecer": "Cinco perícias de Inteligência; energia depende de sentido adequado, domar e socorro têm donos, sem antecipar Morrendo."
+    },
+    {
+      "id": "essencia",
+      "parecer": "Sete perícias de Essência. Sensoriamento remete ao procedimento já validado; sem promessas canônicas novas."
+    },
+    {
+      "id": "oficios",
+      "parecer": "Onze ofícios com seus atributos padrão restaurados da peça07; uso, material e decisão prévia do atributo."
+    },
+    {
+      "id": "fabricacao",
+      "parecer": "Novo procedimento candidato de projeto; não concede desconto, lucro ou poder gratuitamente. Custos e prazo definidos antes."
+    },
+    {
+      "id": "reparos",
+      "parecer": "Reparo da base separado de poder; nenhum reset de uso/Desgaste. Exemplo local de preço/tempo, sem impor tabela universal."
+    }
+  ],
+  "independente": false,
+  "teste_humano": false
+}

@@ -1,0 +1,120 @@
+{
+  "ordem": [
+    "dano",
+    "tipos",
+    "reducao",
+    "alma",
+    "integridade",
+    "condicoes",
+    "leves",
+    "medias",
+    "pesadas",
+    "cura",
+    "temporarios",
+    "zero",
+    "insistir",
+    "socorro",
+    "sequelas",
+    "derrota",
+    "inconsciente",
+    "descansos",
+    "exaustao",
+    "usos"
+  ],
+  "titulos": {
+    "dano": "Dano",
+    "tipos": "Tipos de dano",
+    "reducao": "Redução de Dano",
+    "alma": "Dano na alma",
+    "integridade": "Estágios de Integridade",
+    "condicoes": "Condições",
+    "leves": "Condições leves",
+    "medias": "Condições médias",
+    "pesadas": "Condições pesadas",
+    "cura": "Cura",
+    "temporarios": "Vida e energia temporárias",
+    "zero": "Vida a zero",
+    "insistir": "Insistir",
+    "socorro": "Socorro",
+    "sequelas": "Sequelas e Cicatrizes",
+    "derrota": "Derrota e morte",
+    "inconsciente": "Inconsciente",
+    "descansos": "Descansos",
+    "exaustao": "Exaustão",
+    "usos": "Cena e usos de habilidades"
+  },
+  "paginas": {
+    "dano": 1,
+    "tipos": 2,
+    "reducao": 3,
+    "alma": 4,
+    "integridade": 5,
+    "condicoes": 6,
+    "leves": 7,
+    "medias": 8,
+    "pesadas": 9,
+    "cura": 10,
+    "temporarios": 11,
+    "zero": 12,
+    "insistir": 13,
+    "socorro": 14,
+    "sequelas": 15,
+    "derrota": 16,
+    "inconsciente": 17,
+    "descansos": 18,
+    "exaustao": 19,
+    "usos": 20
+  },
+  "grupos": [
+    [
+      "Dano",
+      [
+        "dano",
+        "tipos",
+        "reducao"
+      ]
+    ],
+    [
+      "Alma",
+      [
+        "alma",
+        "integridade"
+      ]
+    ],
+    [
+      "Condições",
+      [
+        "condicoes",
+        "leves",
+        "medias",
+        "pesadas"
+      ]
+    ],
+    [
+      "Cura",
+      [
+        "cura",
+        "temporarios"
+      ]
+    ],
+    [
+      "Queda e socorro",
+      [
+        "zero",
+        "insistir",
+        "socorro",
+        "sequelas",
+        "derrota",
+        "inconsciente"
+      ]
+    ],
+    [
+      "Descanso",
+      [
+        "descansos",
+        "exaustao",
+        "usos"
+      ]
+    ]
+  ]
+}

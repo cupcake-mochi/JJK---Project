@@ -1,0 +1,1 @@
+{"ok": true, "verificacoes": 176, "contagens": {"precos": 19383, "devolucoes_armado": 6370, "reservas": 210, "sobrevivencia": 3786, "reparos": 900, "transicoes_nomeadas": 17}, "sha256": "297d96084502eb65780b9ed2ac4f7e121a235cfdbb6e41db254f980e55393dcd"}

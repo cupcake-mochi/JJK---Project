@@ -1,0 +1,141 @@
+{
+  "ok": true,
+  "sha256_texto": "6fa7ebf79d5e05dc62ca419c4fb5395925a919bc1bb17e694c8bc2a54710b25c",
+  "casos": [
+    {
+      "caso": "Maestria 1: exatamente esse número de perícias",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "caso": "Maestria 1: só um tipo de TR",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "caso": "Maestria 2: exatamente esse número de perícias",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "caso": "Maestria 2: só um tipo de TR",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "caso": "Maestria 3: exatamente esse número de perícias",
+      "obtido": 3,
+      "esperado": 3,
+      "ok": true
+    },
+    {
+      "caso": "Maestria 3: só um tipo de TR",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "caso": "Maestria 4: exatamente esse número de perícias",
+      "obtido": 4,
+      "esperado": 4,
+      "ok": true
+    },
+    {
+      "caso": "Maestria 4: só um tipo de TR",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "caso": "Sem situação não concede vantagem",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Sem Traje não concede vantagem",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Ataque usando Pontaria não é teste de perícia beneficiado",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Ofício não é beneficiado",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "TR de Vigor não selecionado",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Perda de Maestria suspende mais recentes",
+      "obtido": [
+        true,
+        false
+      ],
+      "esperado": [
+        true,
+        false
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Troca de Traje não altera escolhas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Vantagem não concede treino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Aumento acrescenta sem substituir",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Nomes dos quatro TR correspondem ao sistema",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Maior aumento absoluto da chance de sucesso",
+      "obtido": "1/4",
+      "esperado": "1/4",
+      "ok": true
+    }
+  ],
+  "pericias_no_catalogo": 23,
+  "comparacao": {
+    "antes_TR": 4,
+    "depois_TR": 1,
+    "antes_pericias": 23,
+    "depois_por_maestria": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "limites": [
+    "Reduz abrangência, não a força da vantagem por teste. Frequência da situação e escolhas preferidas ainda pedem mesa. Não presume distribuição uniforme de TR/perícias em jogo."
+  ]
+}

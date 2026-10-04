@@ -32,7 +32,7 @@ Uma ferramenta carrega no máximo **um** `Estigma`.
 |---|---|---|
 | ferramenta amaldiçoada | foi forjada para canalizar energia. Você empunha, e ela fere maldição | este capítulo |
 | objeto amaldiçoado | é a maldição presa numa forma de objeto. Você carrega, e o que está dentro dele age | este capítulo, *Objeto amaldiçoado* |
-| cadáver amaldiçoado | coisa sem vida que ganhou movimento próprio, com um núcleo no lugar do coração | as regras de invocação, fora desta edição |
+| cadáver amaldiçoado | coisa sem vida que ganhou movimento próprio, com um núcleo no lugar do coração | capítulo 17, Invocações |
 | maldição solta | a maldição sem forma de coisa nenhuma. É o que se exorciza | capítulo 4, *Dano, Condições e Cobertura* |
 
 Ferramenta e objeto são ranqueados pela mesma escada, pela força da energia que carregam: grau 4 a grau 1, mais o especial.

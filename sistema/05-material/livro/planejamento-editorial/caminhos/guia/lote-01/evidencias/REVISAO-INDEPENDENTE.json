@@ -1,0 +1,1874 @@
+{
+  "revisor": "compatibilidade, independente da autoria maxima",
+  "sha256_texto": "ea450639368f916c37a6a17de3112a6e2365db575aa8c4953a7a2f7429db941a",
+  "sha256_fonte": "775ae4c7655d724b08805226f84b851ada467cd1290047aa13bdbb5dbfc1d53f",
+  "leitura": [
+    "Fonte integrada inteira",
+    "Candidata17p inteira",
+    "35 decisões",
+    "R01 ações/reações",
+    "R03 condições/recuperação",
+    "R05 equipamento e cobertura",
+    "R11 Ações concedidas, Vida e cura, queda"
+  ],
+  "achados": [
+    {
+      "id": "GUI-I01",
+      "prioridade": "P2",
+      "pagina": "guia",
+      "problema": "Ficha omite vida inicial e Constituição; Vida por nível5 parece valor final.",
+      "fonte": "manual/20-criacao-de-personagem.md:92–101,186; manual80 Vida e PE.",
+      "correcao": "8+Con inicial, +5+Con por nível seguinte; PE5×nível.",
+      "estado": "resolvido na candidata ea450639368f916c37a6a17de3112a6e2365db575aa8c4953a7a2f7429db941a"
+    },
+    {
+      "id": "GUI-I02",
+      "prioridade": "P2",
+      "pagina": "guia-obras-maiores",
+      "problema": "Página independente não enuncia nível11 de aquisição, podendo parecer disponível com Obras de Apoio2.",
+      "fonte": "Fonte integrada: Obras maiores é extensão de Obra em Uso nível11.",
+      "correcao": "Declarar Nível11 no começo da página.",
+      "estado": "resolvido na candidata ea450639368f916c37a6a17de3112a6e2365db575aa8c4953a7a2f7429db941a"
+    }
+  ],
+  "verificacoes": [
+    {
+      "nome": "Consumo não é substituição",
+      "passou": true,
+      "motivo": "Duas origens de Abertura não criam respostas por substituir ajuda."
+    },
+    {
+      "nome": "Sem autoapoio",
+      "passou": true,
+      "motivo": "Caminho continua sem ataque concedido ao próprio Guia."
+    },
+    {
+      "nome": "Resposta uma tentativa",
+      "passou": true,
+      "motivo": "Intercala entre ataques, somente depois das consequências da tentativa."
+    },
+    {
+      "nome": "Uma resposta por parte",
+      "passou": true,
+      "motivo": "Nível30 não oferece dois convites sobre o mesmo consumo."
+    },
+    {
+      "nome": "Sem corrente de Guias",
+      "passou": true,
+      "motivo": "Resposta não inicia outro ciclo de ação concedida."
+    },
+    {
+      "nome": "Reações de beneficiários",
+      "passou": true,
+      "motivo": "Segunda resposta dispensa só Guia, não coletiva de entidade."
+    },
+    {
+      "nome": "Não transforma Golpe em básica",
+      "passou": true,
+      "motivo": "Recurso comum concedido não recarrega economia R11."
+    },
+    {
+      "nome": "Prazo não renovado por repasse",
+      "passou": true,
+      "motivo": "Cadeia não atravessa começo do próximo turno indefinidamente."
+    },
+    {
+      "nome": "Padrão prazo independente",
+      "passou": true,
+      "motivo": "Novas Aberturas têm seu próprio prazo."
+    },
+    {
+      "nome": "Cura comum não desde zero",
+      "passou": true,
+      "motivo": "Socorro comum não contorna Ainda Há Tempo/R11."
+    },
+    {
+      "nome": "Morte não revertida",
+      "passou": true,
+      "motivo": "Emergência resolve depois do dano e respeita curabilidade."
+    },
+    {
+      "nome": "Não cria abertura na emergência",
+      "passou": true,
+      "motivo": "Obra reativa não oferece Abrir Caminho fora do turno."
+    },
+    {
+      "nome": "Obra conserva prazo",
+      "passou": true,
+      "motivo": "Mover/ampliar não reconstrói PV ou tempo."
+    },
+    {
+      "nome": "Condição única",
+      "passou": true,
+      "motivo": "Remover uma causa não apaga outras nem cria apoio."
+    },
+    {
+      "nome": "Não desconta investimento destruído",
+      "passou": true,
+      "motivo": "Reconstrução paga versão inteira."
+    },
+    {
+      "nome": "Fórmula obra exemplo",
+      "passou": true,
+      "motivo": "Conta independente em203perfis; ganho deatributo altera teto, nãoPVdeobrajácriada."
+    },
+    {
+      "nome": "Consertar custo 2",
+      "passou": true,
+      "motivo": "Metade da versão atual."
+    },
+    {
+      "nome": "Consertar custo 6",
+      "passou": true,
+      "motivo": "Metade da versão atual."
+    },
+    {
+      "nome": "Consertar custo 10",
+      "passou": true,
+      "motivo": "Metade da versão atual."
+    },
+    {
+      "nome": "Ampliada para Grande",
+      "passou": true,
+      "motivo": "Sem pagar de novo o total."
+    },
+    {
+      "nome": "Cadeia A6 normal",
+      "passou": true,
+      "motivo": "Três curas, três aliados distintos elegíveis, custo3PE no nível30."
+    },
+    {
+      "nome": "Cadeia A6 emergência",
+      "passou": true,
+      "motivo": "Substituiuma cura, não soma; custo5PE e Reação."
+    },
+    {
+      "nome": "Duas entidades uma coletiva",
+      "passou": true,
+      "motivo": "Representa uma coletiva disponível, não uma por corpo."
+    },
+    {
+      "nome": "Plano três aliados respostas duas",
+      "passou": true,
+      "motivo": "TrêsAberturas não dão três respostas."
+    },
+    {
+      "nome": "Reajuste gastou reação",
+      "passou": true,
+      "motivo": "Não pula direto à segunda resposta dispensada."
+    },
+    {
+      "nome": "Um consumo dois convites",
+      "passou": true,
+      "motivo": "Fonteexemplo e candidata exigem partes distintas."
+    },
+    {
+      "nome": "Nível23 teto um",
+      "passou": true,
+      "motivo": "Repasse não renova teto de rodada."
+    },
+    {
+      "nome": "Vida nível2 Con2",
+      "passou": true,
+      "motivo": "Fonte20 e80: vida inicial8, ganho5,Con emambos."
+    },
+    {
+      "nome": "PV comum limiar exato",
+      "passou": true,
+      "motivo": "Metade exata não é abaixo da metade."
+    },
+    {
+      "nome": "PV supera metade",
+      "passou": true,
+      "motivo": "Elegibilidade não corta cura em50."
+    },
+    {
+      "nome": "Vida e PE corrigidos",
+      "passou": true,
+      "motivo": "GUI-I01 resolvido no quadro."
+    },
+    {
+      "nome": "Gate Obras maiores corrigido",
+      "passou": true,
+      "motivo": "GUI-I02 resolvido na página própria."
+    }
+  ],
+  "modelos": {
+    "obras": [
+      {
+        "nivel": 2,
+        "atributo": 0,
+        "vida": 17,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 2,
+        "atributo": 1,
+        "vida": 17,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 2,
+        "atributo": 2,
+        "vida": 22,
+        "limite": 3,
+        "minutos": 20,
+        "peso_kg": 200
+      },
+      {
+        "nivel": 2,
+        "atributo": 3,
+        "vida": 27,
+        "limite": 3,
+        "minutos": 30,
+        "peso_kg": 300
+      },
+      {
+        "nivel": 2,
+        "atributo": 4,
+        "vida": 32,
+        "limite": 4,
+        "minutos": 40,
+        "peso_kg": 400
+      },
+      {
+        "nivel": 2,
+        "atributo": 5,
+        "vida": 37,
+        "limite": 4,
+        "minutos": 50,
+        "peso_kg": 500
+      },
+      {
+        "nivel": 2,
+        "atributo": 6,
+        "vida": 42,
+        "limite": 5,
+        "minutos": 60,
+        "peso_kg": 600
+      },
+      {
+        "nivel": 3,
+        "atributo": 0,
+        "vida": 18,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 3,
+        "atributo": 1,
+        "vida": 18,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 3,
+        "atributo": 2,
+        "vida": 23,
+        "limite": 3,
+        "minutos": 20,
+        "peso_kg": 200
+      },
+      {
+        "nivel": 3,
+        "atributo": 3,
+        "vida": 28,
+        "limite": 3,
+        "minutos": 30,
+        "peso_kg": 300
+      },
+      {
+        "nivel": 3,
+        "atributo": 4,
+        "vida": 33,
+        "limite": 4,
+        "minutos": 40,
+        "peso_kg": 400
+      },
+      {
+        "nivel": 3,
+        "atributo": 5,
+        "vida": 38,
+        "limite": 4,
+        "minutos": 50,
+        "peso_kg": 500
+      },
+      {
+        "nivel": 3,
+        "atributo": 6,
+        "vida": 43,
+        "limite": 5,
+        "minutos": 60,
+        "peso_kg": 600
+      },
+      {
+        "nivel": 4,
+        "atributo": 0,
+        "vida": 19,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 4,
+        "atributo": 1,
+        "vida": 19,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 4,
+        "atributo": 2,
+        "vida": 24,
+        "limite": 3,
+        "minutos": 20,
+        "peso_kg": 200
+      },
+      {
+        "nivel": 4,
+        "atributo": 3,
+        "vida": 29,
+        "limite": 3,
+        "minutos": 30,
+        "peso_kg": 300
+      },
+      {
+        "nivel": 4,
+        "atributo": 4,
+        "vida": 34,
+        "limite": 4,
+        "minutos": 40,
+        "peso_kg": 400
+      },
+      {
+        "nivel": 4,
+        "atributo": 5,
+        "vida": 39,
+        "limite": 4,
+        "minutos": 50,
+        "peso_kg": 500
+      },
+      {
+        "nivel": 4,
+        "atributo": 6,
+        "vida": 44,
+        "limite": 5,
+        "minutos": 60,
+        "peso_kg": 600
+      },
+      {
+        "nivel": 5,
+        "atributo": 0,
+        "vida": 20,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 5,
+        "atributo": 1,
+        "vida": 20,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 5,
+        "atributo": 2,
+        "vida": 25,
+        "limite": 3,
+        "minutos": 20,
+        "peso_kg": 200
+      },
+      {
+        "nivel": 5,
+        "atributo": 3,
+        "vida": 30,
+        "limite": 3,
+        "minutos": 30,
+        "peso_kg": 300
+      },
+      {
+        "nivel": 5,
+        "atributo": 4,
+        "vida": 35,
+        "limite": 4,
+        "minutos": 40,
+        "peso_kg": 400
+      },
+      {
+        "nivel": 5,
+        "atributo": 5,
+        "vida": 40,
+        "limite": 4,
+        "minutos": 50,
+        "peso_kg": 500
+      },
+      {
+        "nivel": 5,
+        "atributo": 6,
+        "vida": 45,
+        "limite": 5,
+        "minutos": 60,
+        "peso_kg": 600
+      },
+      {
+        "nivel": 6,
+        "atributo": 0,
+        "vida": 21,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 6,
+        "atributo": 1,
+        "vida": 21,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 6,
+        "atributo": 2,
+        "vida": 26,
+        "limite": 3,
+        "minutos": 20,
+        "peso_kg": 200
+      },
+      {
+        "nivel": 6,
+        "atributo": 3,
+        "vida": 31,
+        "limite": 3,
+        "minutos": 30,
+        "peso_kg": 300
+      },
+      {
+        "nivel": 6,
+        "atributo": 4,
+        "vida": 36,
+        "limite": 4,
+        "minutos": 40,
+        "peso_kg": 400
+      },
+      {
+        "nivel": 6,
+        "atributo": 5,
+        "vida": 41,
+        "limite": 4,
+        "minutos": 50,
+        "peso_kg": 500
+      },
+      {
+        "nivel": 6,
+        "atributo": 6,
+        "vida": 46,
+        "limite": 5,
+        "minutos": 60,
+        "peso_kg": 600
+      },
+      {
+        "nivel": 7,
+        "atributo": 0,
+        "vida": 22,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 7,
+        "atributo": 1,
+        "vida": 22,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 7,
+        "atributo": 2,
+        "vida": 27,
+        "limite": 3,
+        "minutos": 20,
+        "peso_kg": 200
+      },
+      {
+        "nivel": 7,
+        "atributo": 3,
+        "vida": 32,
+        "limite": 3,
+        "minutos": 30,
+        "peso_kg": 300
+      },
+      {
+        "nivel": 7,
+        "atributo": 4,
+        "vida": 37,
+        "limite": 4,
+        "minutos": 40,
+        "peso_kg": 400
+      },
+      {
+        "nivel": 7,
+        "atributo": 5,
+        "vida": 42,
+        "limite": 4,
+        "minutos": 50,
+        "peso_kg": 500
+      },
+      {
+        "nivel": 7,
+        "atributo": 6,
+        "vida": 47,
+        "limite": 5,
+        "minutos": 60,
+        "peso_kg": 600
+      },
+      {
+        "nivel": 8,
+        "atributo": 0,
+        "vida": 23,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 8,
+        "atributo": 1,
+        "vida": 23,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 8,
+        "atributo": 2,
+        "vida": 28,
+        "limite": 3,
+        "minutos": 20,
+        "peso_kg": 200
+      },
+      {
+        "nivel": 8,
+        "atributo": 3,
+        "vida": 33,
+        "limite": 3,
+        "minutos": 30,
+        "peso_kg": 300
+      },
+      {
+        "nivel": 8,
+        "atributo": 4,
+        "vida": 38,
+        "limite": 4,
+        "minutos": 40,
+        "peso_kg": 400
+      },
+      {
+        "nivel": 8,
+        "atributo": 5,
+        "vida": 43,
+        "limite": 4,
+        "minutos": 50,
+        "peso_kg": 500
+      },
+      {
+        "nivel": 8,
+        "atributo": 6,
+        "vida": 48,
+        "limite": 5,
+        "minutos": 60,
+        "peso_kg": 600
+      },
+      {
+        "nivel": 9,
+        "atributo": 0,
+        "vida": 24,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 9,
+        "atributo": 1,
+        "vida": 24,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 9,
+        "atributo": 2,
+        "vida": 29,
+        "limite": 3,
+        "minutos": 20,
+        "peso_kg": 200
+      },
+      {
+        "nivel": 9,
+        "atributo": 3,
+        "vida": 34,
+        "limite": 3,
+        "minutos": 30,
+        "peso_kg": 300
+      },
+      {
+        "nivel": 9,
+        "atributo": 4,
+        "vida": 39,
+        "limite": 4,
+        "minutos": 40,
+        "peso_kg": 400
+      },
+      {
+        "nivel": 9,
+        "atributo": 5,
+        "vida": 44,
+        "limite": 4,
+        "minutos": 50,
+        "peso_kg": 500
+      },
+      {
+        "nivel": 9,
+        "atributo": 6,
+        "vida": 49,
+        "limite": 5,
+        "minutos": 60,
+        "peso_kg": 600
+      },
+      {
+        "nivel": 10,
+        "atributo": 0,
+        "vida": 25,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 10,
+        "atributo": 1,
+        "vida": 25,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 10,
+        "atributo": 2,
+        "vida": 30,
+        "limite": 3,
+        "minutos": 20,
+        "peso_kg": 200
+      },
+      {
+        "nivel": 10,
+        "atributo": 3,
+        "vida": 35,
+        "limite": 3,
+        "minutos": 30,
+        "peso_kg": 300
+      },
+      {
+        "nivel": 10,
+        "atributo": 4,
+        "vida": 40,
+        "limite": 4,
+        "minutos": 40,
+        "peso_kg": 400
+      },
+      {
+        "nivel": 10,
+        "atributo": 5,
+        "vida": 45,
+        "limite": 4,
+        "minutos": 50,
+        "peso_kg": 500
+      },
+      {
+        "nivel": 10,
+        "atributo": 6,
+        "vida": 50,
+        "limite": 5,
+        "minutos": 60,
+        "peso_kg": 600
+      },
+      {
+        "nivel": 11,
+        "atributo": 0,
+        "vida": 26,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 11,
+        "atributo": 1,
+        "vida": 26,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 11,
+        "atributo": 2,
+        "vida": 31,
+        "limite": 3,
+        "minutos": 20,
+        "peso_kg": 200
+      },
+      {
+        "nivel": 11,
+        "atributo": 3,
+        "vida": 36,
+        "limite": 3,
+        "minutos": 30,
+        "peso_kg": 300
+      },
+      {
+        "nivel": 11,
+        "atributo": 4,
+        "vida": 41,
+        "limite": 4,
+        "minutos": 40,
+        "peso_kg": 400
+      },
+      {
+        "nivel": 11,
+        "atributo": 5,
+        "vida": 46,
+        "limite": 4,
+        "minutos": 50,
+        "peso_kg": 500
+      },
+      {
+        "nivel": 11,
+        "atributo": 6,
+        "vida": 51,
+        "limite": 5,
+        "minutos": 60,
+        "peso_kg": 600
+      },
+      {
+        "nivel": 12,
+        "atributo": 0,
+        "vida": 27,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 12,
+        "atributo": 1,
+        "vida": 27,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 12,
+        "atributo": 2,
+        "vida": 32,
+        "limite": 3,
+        "minutos": 20,
+        "peso_kg": 200
+      },
+      {
+        "nivel": 12,
+        "atributo": 3,
+        "vida": 37,
+        "limite": 3,
+        "minutos": 30,
+        "peso_kg": 300
+      },
+      {
+        "nivel": 12,
+        "atributo": 4,
+        "vida": 42,
+        "limite": 4,
+        "minutos": 40,
+        "peso_kg": 400
+      },
+      {
+        "nivel": 12,
+        "atributo": 5,
+        "vida": 47,
+        "limite": 4,
+        "minutos": 50,
+        "peso_kg": 500
+      },
+      {
+        "nivel": 12,
+        "atributo": 6,
+        "vida": 52,
+        "limite": 5,
+        "minutos": 60,
+        "peso_kg": 600
+      },
+      {
+        "nivel": 13,
+        "atributo": 0,
+        "vida": 28,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 13,
+        "atributo": 1,
+        "vida": 28,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 13,
+        "atributo": 2,
+        "vida": 33,
+        "limite": 3,
+        "minutos": 20,
+        "peso_kg": 200
+      },
+      {
+        "nivel": 13,
+        "atributo": 3,
+        "vida": 38,
+        "limite": 3,
+        "minutos": 30,
+        "peso_kg": 300
+      },
+      {
+        "nivel": 13,
+        "atributo": 4,
+        "vida": 43,
+        "limite": 4,
+        "minutos": 40,
+        "peso_kg": 400
+      },
+      {
+        "nivel": 13,
+        "atributo": 5,
+        "vida": 48,
+        "limite": 4,
+        "minutos": 50,
+        "peso_kg": 500
+      },
+      {
+        "nivel": 13,
+        "atributo": 6,
+        "vida": 53,
+        "limite": 5,
+        "minutos": 60,
+        "peso_kg": 600
+      },
+      {
+        "nivel": 14,
+        "atributo": 0,
+        "vida": 29,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 14,
+        "atributo": 1,
+        "vida": 29,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 14,
+        "atributo": 2,
+        "vida": 34,
+        "limite": 3,
+        "minutos": 20,
+        "peso_kg": 200
+      },
+      {
+        "nivel": 14,
+        "atributo": 3,
+        "vida": 39,
+        "limite": 3,
+        "minutos": 30,
+        "peso_kg": 300
+      },
+      {
+        "nivel": 14,
+        "atributo": 4,
+        "vida": 44,
+        "limite": 4,
+        "minutos": 40,
+        "peso_kg": 400
+      },
+      {
+        "nivel": 14,
+        "atributo": 5,
+        "vida": 49,
+        "limite": 4,
+        "minutos": 50,
+        "peso_kg": 500
+      },
+      {
+        "nivel": 14,
+        "atributo": 6,
+        "vida": 54,
+        "limite": 5,
+        "minutos": 60,
+        "peso_kg": 600
+      },
+      {
+        "nivel": 15,
+        "atributo": 0,
+        "vida": 30,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 15,
+        "atributo": 1,
+        "vida": 30,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 15,
+        "atributo": 2,
+        "vida": 35,
+        "limite": 3,
+        "minutos": 20,
+        "peso_kg": 200
+      },
+      {
+        "nivel": 15,
+        "atributo": 3,
+        "vida": 40,
+        "limite": 3,
+        "minutos": 30,
+        "peso_kg": 300
+      },
+      {
+        "nivel": 15,
+        "atributo": 4,
+        "vida": 45,
+        "limite": 4,
+        "minutos": 40,
+        "peso_kg": 400
+      },
+      {
+        "nivel": 15,
+        "atributo": 5,
+        "vida": 50,
+        "limite": 4,
+        "minutos": 50,
+        "peso_kg": 500
+      },
+      {
+        "nivel": 15,
+        "atributo": 6,
+        "vida": 55,
+        "limite": 5,
+        "minutos": 60,
+        "peso_kg": 600
+      },
+      {
+        "nivel": 16,
+        "atributo": 0,
+        "vida": 31,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 16,
+        "atributo": 1,
+        "vida": 31,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 16,
+        "atributo": 2,
+        "vida": 36,
+        "limite": 3,
+        "minutos": 20,
+        "peso_kg": 200
+      },
+      {
+        "nivel": 16,
+        "atributo": 3,
+        "vida": 41,
+        "limite": 3,
+        "minutos": 30,
+        "peso_kg": 300
+      },
+      {
+        "nivel": 16,
+        "atributo": 4,
+        "vida": 46,
+        "limite": 4,
+        "minutos": 40,
+        "peso_kg": 400
+      },
+      {
+        "nivel": 16,
+        "atributo": 5,
+        "vida": 51,
+        "limite": 4,
+        "minutos": 50,
+        "peso_kg": 500
+      },
+      {
+        "nivel": 16,
+        "atributo": 6,
+        "vida": 56,
+        "limite": 5,
+        "minutos": 60,
+        "peso_kg": 600
+      },
+      {
+        "nivel": 17,
+        "atributo": 0,
+        "vida": 32,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 17,
+        "atributo": 1,
+        "vida": 32,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 17,
+        "atributo": 2,
+        "vida": 37,
+        "limite": 3,
+        "minutos": 20,
+        "peso_kg": 200
+      },
+      {
+        "nivel": 17,
+        "atributo": 3,
+        "vida": 42,
+        "limite": 3,
+        "minutos": 30,
+        "peso_kg": 300
+      },
+      {
+        "nivel": 17,
+        "atributo": 4,
+        "vida": 47,
+        "limite": 4,
+        "minutos": 40,
+        "peso_kg": 400
+      },
+      {
+        "nivel": 17,
+        "atributo": 5,
+        "vida": 52,
+        "limite": 4,
+        "minutos": 50,
+        "peso_kg": 500
+      },
+      {
+        "nivel": 17,
+        "atributo": 6,
+        "vida": 57,
+        "limite": 5,
+        "minutos": 60,
+        "peso_kg": 600
+      },
+      {
+        "nivel": 18,
+        "atributo": 0,
+        "vida": 33,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 18,
+        "atributo": 1,
+        "vida": 33,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 18,
+        "atributo": 2,
+        "vida": 38,
+        "limite": 3,
+        "minutos": 20,
+        "peso_kg": 200
+      },
+      {
+        "nivel": 18,
+        "atributo": 3,
+        "vida": 43,
+        "limite": 3,
+        "minutos": 30,
+        "peso_kg": 300
+      },
+      {
+        "nivel": 18,
+        "atributo": 4,
+        "vida": 48,
+        "limite": 4,
+        "minutos": 40,
+        "peso_kg": 400
+      },
+      {
+        "nivel": 18,
+        "atributo": 5,
+        "vida": 53,
+        "limite": 4,
+        "minutos": 50,
+        "peso_kg": 500
+      },
+      {
+        "nivel": 18,
+        "atributo": 6,
+        "vida": 58,
+        "limite": 5,
+        "minutos": 60,
+        "peso_kg": 600
+      },
+      {
+        "nivel": 19,
+        "atributo": 0,
+        "vida": 34,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 19,
+        "atributo": 1,
+        "vida": 34,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 19,
+        "atributo": 2,
+        "vida": 39,
+        "limite": 3,
+        "minutos": 20,
+        "peso_kg": 200
+      },
+      {
+        "nivel": 19,
+        "atributo": 3,
+        "vida": 44,
+        "limite": 3,
+        "minutos": 30,
+        "peso_kg": 300
+      },
+      {
+        "nivel": 19,
+        "atributo": 4,
+        "vida": 49,
+        "limite": 4,
+        "minutos": 40,
+        "peso_kg": 400
+      },
+      {
+        "nivel": 19,
+        "atributo": 5,
+        "vida": 54,
+        "limite": 4,
+        "minutos": 50,
+        "peso_kg": 500
+      },
+      {
+        "nivel": 19,
+        "atributo": 6,
+        "vida": 59,
+        "limite": 5,
+        "minutos": 60,
+        "peso_kg": 600
+      },
+      {
+        "nivel": 20,
+        "atributo": 0,
+        "vida": 35,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 20,
+        "atributo": 1,
+        "vida": 35,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 20,
+        "atributo": 2,
+        "vida": 40,
+        "limite": 3,
+        "minutos": 20,
+        "peso_kg": 200
+      },
+      {
+        "nivel": 20,
+        "atributo": 3,
+        "vida": 45,
+        "limite": 3,
+        "minutos": 30,
+        "peso_kg": 300
+      },
+      {
+        "nivel": 20,
+        "atributo": 4,
+        "vida": 50,
+        "limite": 4,
+        "minutos": 40,
+        "peso_kg": 400
+      },
+      {
+        "nivel": 20,
+        "atributo": 5,
+        "vida": 55,
+        "limite": 4,
+        "minutos": 50,
+        "peso_kg": 500
+      },
+      {
+        "nivel": 20,
+        "atributo": 6,
+        "vida": 60,
+        "limite": 5,
+        "minutos": 60,
+        "peso_kg": 600
+      },
+      {
+        "nivel": 21,
+        "atributo": 0,
+        "vida": 36,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 21,
+        "atributo": 1,
+        "vida": 36,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 21,
+        "atributo": 2,
+        "vida": 41,
+        "limite": 3,
+        "minutos": 20,
+        "peso_kg": 200
+      },
+      {
+        "nivel": 21,
+        "atributo": 3,
+        "vida": 46,
+        "limite": 3,
+        "minutos": 30,
+        "peso_kg": 300
+      },
+      {
+        "nivel": 21,
+        "atributo": 4,
+        "vida": 51,
+        "limite": 4,
+        "minutos": 40,
+        "peso_kg": 400
+      },
+      {
+        "nivel": 21,
+        "atributo": 5,
+        "vida": 56,
+        "limite": 4,
+        "minutos": 50,
+        "peso_kg": 500
+      },
+      {
+        "nivel": 21,
+        "atributo": 6,
+        "vida": 61,
+        "limite": 5,
+        "minutos": 60,
+        "peso_kg": 600
+      },
+      {
+        "nivel": 22,
+        "atributo": 0,
+        "vida": 37,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 22,
+        "atributo": 1,
+        "vida": 37,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 22,
+        "atributo": 2,
+        "vida": 42,
+        "limite": 3,
+        "minutos": 20,
+        "peso_kg": 200
+      },
+      {
+        "nivel": 22,
+        "atributo": 3,
+        "vida": 47,
+        "limite": 3,
+        "minutos": 30,
+        "peso_kg": 300
+      },
+      {
+        "nivel": 22,
+        "atributo": 4,
+        "vida": 52,
+        "limite": 4,
+        "minutos": 40,
+        "peso_kg": 400
+      },
+      {
+        "nivel": 22,
+        "atributo": 5,
+        "vida": 57,
+        "limite": 4,
+        "minutos": 50,
+        "peso_kg": 500
+      },
+      {
+        "nivel": 22,
+        "atributo": 6,
+        "vida": 62,
+        "limite": 5,
+        "minutos": 60,
+        "peso_kg": 600
+      },
+      {
+        "nivel": 23,
+        "atributo": 0,
+        "vida": 38,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 23,
+        "atributo": 1,
+        "vida": 38,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 23,
+        "atributo": 2,
+        "vida": 43,
+        "limite": 3,
+        "minutos": 20,
+        "peso_kg": 200
+      },
+      {
+        "nivel": 23,
+        "atributo": 3,
+        "vida": 48,
+        "limite": 3,
+        "minutos": 30,
+        "peso_kg": 300
+      },
+      {
+        "nivel": 23,
+        "atributo": 4,
+        "vida": 53,
+        "limite": 4,
+        "minutos": 40,
+        "peso_kg": 400
+      },
+      {
+        "nivel": 23,
+        "atributo": 5,
+        "vida": 58,
+        "limite": 4,
+        "minutos": 50,
+        "peso_kg": 500
+      },
+      {
+        "nivel": 23,
+        "atributo": 6,
+        "vida": 63,
+        "limite": 5,
+        "minutos": 60,
+        "peso_kg": 600
+      },
+      {
+        "nivel": 24,
+        "atributo": 0,
+        "vida": 39,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 24,
+        "atributo": 1,
+        "vida": 39,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 24,
+        "atributo": 2,
+        "vida": 44,
+        "limite": 3,
+        "minutos": 20,
+        "peso_kg": 200
+      },
+      {
+        "nivel": 24,
+        "atributo": 3,
+        "vida": 49,
+        "limite": 3,
+        "minutos": 30,
+        "peso_kg": 300
+      },
+      {
+        "nivel": 24,
+        "atributo": 4,
+        "vida": 54,
+        "limite": 4,
+        "minutos": 40,
+        "peso_kg": 400
+      },
+      {
+        "nivel": 24,
+        "atributo": 5,
+        "vida": 59,
+        "limite": 4,
+        "minutos": 50,
+        "peso_kg": 500
+      },
+      {
+        "nivel": 24,
+        "atributo": 6,
+        "vida": 64,
+        "limite": 5,
+        "minutos": 60,
+        "peso_kg": 600
+      },
+      {
+        "nivel": 25,
+        "atributo": 0,
+        "vida": 40,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 25,
+        "atributo": 1,
+        "vida": 40,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 25,
+        "atributo": 2,
+        "vida": 45,
+        "limite": 3,
+        "minutos": 20,
+        "peso_kg": 200
+      },
+      {
+        "nivel": 25,
+        "atributo": 3,
+        "vida": 50,
+        "limite": 3,
+        "minutos": 30,
+        "peso_kg": 300
+      },
+      {
+        "nivel": 25,
+        "atributo": 4,
+        "vida": 55,
+        "limite": 4,
+        "minutos": 40,
+        "peso_kg": 400
+      },
+      {
+        "nivel": 25,
+        "atributo": 5,
+        "vida": 60,
+        "limite": 4,
+        "minutos": 50,
+        "peso_kg": 500
+      },
+      {
+        "nivel": 25,
+        "atributo": 6,
+        "vida": 65,
+        "limite": 5,
+        "minutos": 60,
+        "peso_kg": 600
+      },
+      {
+        "nivel": 26,
+        "atributo": 0,
+        "vida": 41,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 26,
+        "atributo": 1,
+        "vida": 41,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 26,
+        "atributo": 2,
+        "vida": 46,
+        "limite": 3,
+        "minutos": 20,
+        "peso_kg": 200
+      },
+      {
+        "nivel": 26,
+        "atributo": 3,
+        "vida": 51,
+        "limite": 3,
+        "minutos": 30,
+        "peso_kg": 300
+      },
+      {
+        "nivel": 26,
+        "atributo": 4,
+        "vida": 56,
+        "limite": 4,
+        "minutos": 40,
+        "peso_kg": 400
+      },
+      {
+        "nivel": 26,
+        "atributo": 5,
+        "vida": 61,
+        "limite": 4,
+        "minutos": 50,
+        "peso_kg": 500
+      },
+      {
+        "nivel": 26,
+        "atributo": 6,
+        "vida": 66,
+        "limite": 5,
+        "minutos": 60,
+        "peso_kg": 600
+      },
+      {
+        "nivel": 27,
+        "atributo": 0,
+        "vida": 42,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 27,
+        "atributo": 1,
+        "vida": 42,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 27,
+        "atributo": 2,
+        "vida": 47,
+        "limite": 3,
+        "minutos": 20,
+        "peso_kg": 200
+      },
+      {
+        "nivel": 27,
+        "atributo": 3,
+        "vida": 52,
+        "limite": 3,
+        "minutos": 30,
+        "peso_kg": 300
+      },
+      {
+        "nivel": 27,
+        "atributo": 4,
+        "vida": 57,
+        "limite": 4,
+        "minutos": 40,
+        "peso_kg": 400
+      },
+      {
+        "nivel": 27,
+        "atributo": 5,
+        "vida": 62,
+        "limite": 4,
+        "minutos": 50,
+        "peso_kg": 500
+      },
+      {
+        "nivel": 27,
+        "atributo": 6,
+        "vida": 67,
+        "limite": 5,
+        "minutos": 60,
+        "peso_kg": 600
+      },
+      {
+        "nivel": 28,
+        "atributo": 0,
+        "vida": 43,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 28,
+        "atributo": 1,
+        "vida": 43,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 28,
+        "atributo": 2,
+        "vida": 48,
+        "limite": 3,
+        "minutos": 20,
+        "peso_kg": 200
+      },
+      {
+        "nivel": 28,
+        "atributo": 3,
+        "vida": 53,
+        "limite": 3,
+        "minutos": 30,
+        "peso_kg": 300
+      },
+      {
+        "nivel": 28,
+        "atributo": 4,
+        "vida": 58,
+        "limite": 4,
+        "minutos": 40,
+        "peso_kg": 400
+      },
+      {
+        "nivel": 28,
+        "atributo": 5,
+        "vida": 63,
+        "limite": 4,
+        "minutos": 50,
+        "peso_kg": 500
+      },
+      {
+        "nivel": 28,
+        "atributo": 6,
+        "vida": 68,
+        "limite": 5,
+        "minutos": 60,
+        "peso_kg": 600
+      },
+      {
+        "nivel": 29,
+        "atributo": 0,
+        "vida": 44,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 29,
+        "atributo": 1,
+        "vida": 44,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 29,
+        "atributo": 2,
+        "vida": 49,
+        "limite": 3,
+        "minutos": 20,
+        "peso_kg": 200
+      },
+      {
+        "nivel": 29,
+        "atributo": 3,
+        "vida": 54,
+        "limite": 3,
+        "minutos": 30,
+        "peso_kg": 300
+      },
+      {
+        "nivel": 29,
+        "atributo": 4,
+        "vida": 59,
+        "limite": 4,
+        "minutos": 40,
+        "peso_kg": 400
+      },
+      {
+        "nivel": 29,
+        "atributo": 5,
+        "vida": 64,
+        "limite": 4,
+        "minutos": 50,
+        "peso_kg": 500
+      },
+      {
+        "nivel": 29,
+        "atributo": 6,
+        "vida": 69,
+        "limite": 5,
+        "minutos": 60,
+        "peso_kg": 600
+      },
+      {
+        "nivel": 30,
+        "atributo": 0,
+        "vida": 45,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 30,
+        "atributo": 1,
+        "vida": 45,
+        "limite": 2,
+        "minutos": 10,
+        "peso_kg": 100
+      },
+      {
+        "nivel": 30,
+        "atributo": 2,
+        "vida": 50,
+        "limite": 3,
+        "minutos": 20,
+        "peso_kg": 200
+      },
+      {
+        "nivel": 30,
+        "atributo": 3,
+        "vida": 55,
+        "limite": 3,
+        "minutos": 30,
+        "peso_kg": 300
+      },
+      {
+        "nivel": 30,
+        "atributo": 4,
+        "vida": 60,
+        "limite": 4,
+        "minutos": 40,
+        "peso_kg": 400
+      },
+      {
+        "nivel": 30,
+        "atributo": 5,
+        "vida": 65,
+        "limite": 4,
+        "minutos": 50,
+        "peso_kg": 500
+      },
+      {
+        "nivel": 30,
+        "atributo": 6,
+        "vida": 70,
+        "limite": 5,
+        "minutos": 60,
+        "peso_kg": 600
+      }
+    ],
+    "curas": [
+      {
+        "atributo": 1,
+        "normal": 5.5,
+        "emergencia": 5.5,
+        "cadeia3": 16.5,
+        "cadeia2e_emergencia": 16.5
+      },
+      {
+        "atributo": 2,
+        "normal": 6.5,
+        "emergencia": 6.5,
+        "cadeia3": 19.5,
+        "cadeia2e_emergencia": 19.5
+      },
+      {
+        "atributo": 3,
+        "normal": 7.5,
+        "emergencia": 7.5,
+        "cadeia3": 22.5,
+        "cadeia2e_emergencia": 22.5
+      },
+      {
+        "atributo": 4,
+        "normal": 8.5,
+        "emergencia": 13.0,
+        "cadeia3": 25.5,
+        "cadeia2e_emergencia": 30.0
+      },
+      {
+        "atributo": 5,
+        "normal": 9.5,
+        "emergencia": 14.0,
+        "cadeia3": 28.5,
+        "cadeia2e_emergencia": 33.0
+      },
+      {
+        "atributo": 6,
+        "normal": 10.5,
+        "emergencia": 19.5,
+        "cadeia3": 31.5,
+        "cadeia2e_emergencia": 40.5
+      }
+    ]
+  },
+  "limites": [
+    "Sem inspeção PDF ou playtest.",
+    "Golpe concedido depende do equipamento do aliado; não é DPR de todos os Caminhos.",
+    "Peso real das obras não converte Volume em kg; pendência já consta da autoria.",
+    "R01 contém remissão obsoleta a Mão na Roda, enviada à raiz para consolidação."
+  ]
+}

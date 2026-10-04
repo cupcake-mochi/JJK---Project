@@ -1,0 +1,128 @@
+[
+  {
+    "id": "I01",
+    "destino": "R01",
+    "assunto": "Turnos e duração",
+    "contrato": "1minuto=10rodadas; manutenção inicioTurno; concluirpreparo após10turnosPadrão. Não altera R01."
+  },
+  {
+    "id": "I02",
+    "destino": "R02",
+    "assunto": "Crítico",
+    "contrato": "Canalizaradicionalnãodobra; Projetarbaseprópriodobra; exceções deCirúrgicointactas."
+  },
+  {
+    "id": "I03",
+    "destino": "R03",
+    "assunto": "Força",
+    "contrato": "ProjetarForça; curaofensivaEnergiaReversa jáemtipos; revestimento conserva tipoarma."
+  },
+  {
+    "id": "I04",
+    "destino": "R03",
+    "assunto": "Dano e proteção",
+    "contrato": "RDdeCobrirse mantém fonteagulhov0.42 e preço2PE; removercópialongadeR03naintegração e ligar donoR09."
+  },
+  {
+    "id": "I05",
+    "destino": "R04",
+    "assunto": "Sentir Energia",
+    "contrato": "AberturaretirasupostasregrasdeRefinoesconder/rastrearquarteirão; sentidosmoramR04."
+  },
+  {
+    "id": "I06",
+    "destino": "R06",
+    "assunto": "Cura hostil",
+    "contrato": "Remissão exceção para apt-energia-positiva. Fora daformaCura/Ondanãosobeataquegratis."
+  },
+  {
+    "id": "I07",
+    "destino": "R06",
+    "assunto": "Manejos/Katas",
+    "contrato": "Aptidãonãofeitiço nemrecebepeças;CanalizarsemKata/Manejo; Projetaratributoconjuraçãoexistentenaficha."
+  },
+  {
+    "id": "I08",
+    "destino": "R07",
+    "assunto": "Mão Firme",
+    "contrato": "NãodispensaTRprópriodeCesta/Pétala/Simples, mesmo10dano; nãoreproduzefeitoPassivatodonaR09."
+  },
+  {
+    "id": "I09",
+    "destino": "R07",
+    "assunto": "Aptidão Própria",
+    "contrato": "ClassePassivanãofrequênciaautomática; mantém limitaçãoCP1/2 e gatilhocenaCP2."
+  },
+  {
+    "id": "I10",
+    "destino": "R08",
+    "assunto": "Acertos periódicos",
+    "contrato": "R09nãoalteranúmerodepulsos;DScontaum pulsoquepartilhasváriosalvosumasóvez."
+  },
+  {
+    "id": "I11",
+    "destino": "R08",
+    "assunto": "Quedas",
+    "contrato": "CestaeDSprecocefimmeioAcertoextra; DSrelógiopassaatualsemextra; Pétalacaínãoextra; Extensãoimuniza."
+  },
+  {
+    "id": "I12",
+    "destino": "R08",
+    "assunto": "Regravação",
+    "contrato": "FloorInt/2+floorMaestria/2;limitefecha novasexpansõesmasúltimoregravarfunciona."
+  },
+  {
+    "id": "I13",
+    "destino": "R08",
+    "assunto": "Barreiras",
+    "contrato": "Acertoautomático/semcrit/TRfalha emsuperfícieatingível; fontePVExpansãoseparada5RBarreira/40RCortina."
+  },
+  {
+    "id": "I14",
+    "destino": "R10",
+    "assunto": "Lapidação",
+    "contrato": "Estímulo copia curvaautorv176;Crítico e exclusãomesmoataque iguais; DefesaSemArmadurapreservaperdaproteçãoeescudo."
+  },
+  {
+    "id": "I15",
+    "destino": "R10",
+    "assunto": "Sementes",
+    "contrato": "ConcessõesbypassnívelRefinoexpressas; aprendidoinicialnãoconsumemarco;CuraManejoalcançaaliado conformeForma, aptidãocruaexigepermissãoextra."
+  },
+  {
+    "id": "I16",
+    "destino": "R11",
+    "assunto": "Corpo Amaldiçoado",
+    "contrato": "NãoadquireExtensão; ERnãoocura. Origensmantémreparo; R09nãocopiareparo."
+  },
+  {
+    "id": "I17",
+    "destino": "R11",
+    "assunto": "Semente e Regra Própria",
+    "contrato": "CritériosdeaprendizadoReencarnado/Descendente/Históriaapenasnosrequisitos, semcopiarcatálogo."
+  },
+  {
+    "id": "I18",
+    "destino": "R12",
+    "assunto": "Caminhos",
+    "contrato": "ContraParedeoutroataqueCanaliza; golpesMalabarista/Pugilista seguemação+PE próprios."
+  },
+  {
+    "id": "I19",
+    "destino": "R12",
+    "assunto": "Assassino",
+    "contrato": "Dadosnormais+adicionais deCirúrgicodobramporexceção; atributoDex/Int−1nãofoirevogado; R09nãoensinaTrilha."
+  },
+  {
+    "id": "I20",
+    "destino": "R13",
+    "assunto": "Progressão",
+    "contrato": "GanhosCorpo/Leque não reescritos; R09aplicaRefinopassivoantesdaopção,teto10 e10escolhaspuras."
+  },
+  {
+    "id": "I21",
+    "destino": "Integridade",
+    "assunto": "Morte e sequelas",
+    "contrato": "ReversaPVnãoapagaSequela/Integridadepelaausênciatexto; remissãona consolidaçãosobrecurasemreabrirmortesagora."
+  }
+]

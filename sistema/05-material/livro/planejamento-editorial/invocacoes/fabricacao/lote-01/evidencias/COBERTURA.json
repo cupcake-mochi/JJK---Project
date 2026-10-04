@@ -1,0 +1,166 @@
+{
+  "sha256_texto": "6b0c6fdc6690e154c064c44ddad58e02593fb3c1a38da3f3ba097e376fc471b0",
+  "inventario": [
+    {
+      "fonte": "invocacoes/DECISOES-A-PARTIR-DO-46.md",
+      "linha": 1053,
+      "conteudo": "Aquisição com troca; criação sem técnica",
+      "destino": "fab-entidades",
+      "status": "preservado"
+    },
+    {
+      "fonte": "invocacoes/DECISOES-A-PARTIR-DO-46.md",
+      "linha": 1286,
+      "conteudo": "Tempo/testes/materiais, corpo e cura",
+      "destino": "fab-projeto",
+      "status": "preservado/remissão"
+    },
+    {
+      "fonte": "invocacoes/DECISOES-A-PARTIR-DO-46.md",
+      "linha": 1332,
+      "conteudo": "Talismã adiantamento",
+      "destino": "fab-conclusao",
+      "status": "remissão; não reexplicar pagamento"
+    },
+    {
+      "fonte": "invocacoes/DECISOES-A-PARTIR-DO-46.md",
+      "linha": 1374,
+      "conteudo": "Carga preservada até uso",
+      "destino": "fab-conclusao",
+      "status": "preservado"
+    },
+    {
+      "fonte": "invocacoes/DECISOES-A-PARTIR-DO-46.md",
+      "linha": 1404,
+      "conteudo": "Reserva/técnica só domada",
+      "destino": "fab-entidades",
+      "status": "não conceder por criação"
+    },
+    {
+      "fonte": "invocacoes/DECISOES-A-PARTIR-DO-46.md",
+      "linha": 1447,
+      "conteudo": "Custo de aquisição e nível parado",
+      "destino": "fab-projeto",
+      "status": "preservado; custo por projeto não calibrado universalmente"
+    },
+    {
+      "fonte": "invocacoes/DECISOES-A-PARTIR-DO-46.md",
+      "linha": 1473,
+      "conteudo": "Tipos; alma não inerente a todo corpo",
+      "destino": "fab-entidades",
+      "status": "preservado sem afirmar cânone"
+    },
+    {
+      "fonte": "invocacoes/DECISOES-A-PARTIR-DO-46.md",
+      "linha": 1621,
+      "conteudo": "Herança pendente",
+      "destino": "fab-conclusao",
+      "status": "fechado por candidatoFAB09/10"
+    },
+    {
+      "fonte": "invocacoes/DECISOES-A-PARTIR-DO-46.md",
+      "linha": 2452,
+      "conteudo": "Criação por ofício, teste único, níveis",
+      "destino": "fab-teste",
+      "status": "preservado; recursos delegados a projetoR04"
+    },
+    {
+      "fonte": "invocacoes/DECISOES-A-PARTIR-DO-46.md",
+      "linha": 2480,
+      "conteudo": "Ofícios e reparo",
+      "destino": "fab-entidades",
+      "status": "ofícios preservados; reparo permaneceR11"
+    },
+    {
+      "fonte": "invocacoes/DECISOES-A-PARTIR-DO-46.md",
+      "linha": 2516,
+      "conteudo": "Posse ilimitada",
+      "destino": "fab-conclusao",
+      "status": "preservado"
+    },
+    {
+      "fonte": "invocacoes/DECISOES-A-PARTIR-DO-46.md",
+      "linha": 2552,
+      "conteudo": "Talismã0,5Volume",
+      "destino": "fab-conclusao",
+      "status": "preservado"
+    },
+    {
+      "fonte": "sistema/05-material/livro/planejamento-editorial/regras-basicas/lote-01/TESTES-E-TURNOS.md",
+      "linha": 48,
+      "conteudo": "CD/ajustes",
+      "destino": "fab-teste",
+      "status": "preservado"
+    },
+    {
+      "fonte": "sistema/05-material/livro/planejamento-editorial/pericias-e-oficios/lote-01/PERICIAS-E-OFICIOS.md",
+      "linha": 60,
+      "conteudo": "Responsável e ajuda",
+      "destino": "fab-teste",
+      "status": "remissão"
+    },
+    {
+      "fonte": "sistema/05-material/livro/planejamento-editorial/pericias-e-oficios/lote-01/PERICIAS-E-OFICIOS.md",
+      "linha": 260,
+      "conteudo": "Projeto, materiais,tempo,risco e preço",
+      "destino": "fab-projeto",
+      "status": "aplicado"
+    },
+    {
+      "fonte": "sistema/05-material/livro/planejamento-editorial/pericias-e-oficios/lote-01/PERICIAS-E-OFICIOS.md",
+      "linha": 295,
+      "conteudo": "Restauração não melhora poder",
+      "destino": "fab-conclusao",
+      "status": "remissão/exceção criaturasR11"
+    },
+    {
+      "fonte": "sistema/05-material/livro/planejamento-editorial/equipamento/lote-05-r1/ITENS-E-OBJETOS.md",
+      "linha": 22,
+      "conteudo": "Estojo10000/0,5",
+      "destino": "fab-exemplo",
+      "status": "preço preservado"
+    },
+    {
+      "fonte": "sistema/05-material/livro/planejamento-editorial/equipamento/lote-06-r1/COMPRAS-E-EQUIPAMENTO-INICIAL.md",
+      "linha": 12,
+      "conteudo": "Acesso por componentes",
+      "destino": "fab-projeto",
+      "status": "remissão sem licença inventada"
+    },
+    {
+      "fonte": "sistema/05-material/livro/planejamento-editorial/equipamento/lote-08/EQUIPAMENTO-AMALDICOADO.md",
+      "linha": 106,
+      "conteudo": "Ficha vs fabricação; Graus/efeitos não transferidos",
+      "destino": "fab-projeto",
+      "status": "compatibilidade"
+    },
+    {
+      "fonte": "sistema/05-material/livro/planejamento-editorial/invocacoes/lote-02/CONSTRUIR-INVOCACOES.md",
+      "linha": 114,
+      "conteudo": "Interface de aquisição/nível/ficha",
+      "destino": "fab-entidades",
+      "status": "resolvida"
+    },
+    {
+      "fonte": "sistema/05-material/livro/planejamento-editorial/invocacoes/lote-02/CONSTRUIR-INVOCACOES.md",
+      "linha": 249,
+      "conteudo": "Classes1–7 por nível",
+      "destino": "fab-teste",
+      "status": "remissão auditada; sem repetir tabela"
+    },
+    {
+      "fonte": "sistema/05-material/livro/planejamento-editorial/invocacoes/lote-01/INVOCACOES-EM-CAMPO.md",
+      "linha": 339,
+      "conteudo": "Controle de corpos; revisão48",
+      "destino": "fab-conclusao",
+      "status": "preservado/remissão"
+    },
+    {
+      "fonte": "sistema/05-material/livro/planejamento-editorial/invocacoes/lote-01/INVOCACOES-EM-CAMPO.md",
+      "linha": 356,
+      "conteudo": "Corpoa0/Desligada não religa por reparo",
+      "destino": "fab-conclusao",
+      "status": "preservado"
+    }
+  ]
+}

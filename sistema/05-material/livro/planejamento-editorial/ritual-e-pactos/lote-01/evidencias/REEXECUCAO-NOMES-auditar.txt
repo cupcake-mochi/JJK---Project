@@ -1,0 +1,1 @@
+{"ok": true, "verificacoes": 36, "casos": 18, "modelos": {"perfis_teste": 441, "perfis_compra": 147456, "montagens_por_orcamento": {"2": 22, "6": 1026, "10": 10410, "14": 42598}, "particoes": 4943, "perfis_cura": 25760}, "falhas": []}

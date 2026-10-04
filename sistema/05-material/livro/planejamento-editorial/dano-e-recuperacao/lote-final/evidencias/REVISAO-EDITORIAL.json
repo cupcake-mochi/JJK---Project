@@ -1,0 +1,255 @@
+{
+  "sha256_texto": "b4035a501c87ada84e73e5951cdf41639c850d644cfe4cb8812575d8a0bc1c43",
+  "revisor": "/root",
+  "conclusao": "Leitura integral, correções independentes e deltas finais conferidos. Prova completa inspecionada.",
+  "secoes": [
+    {
+      "pagina": "dano",
+      "parecer_editorial": "Ordem de resolução separa tipo, redução e reservas. Exemplo fecha21→11→7→4PV.",
+      "caso_limite": "RD zera dano sem descer abaixo de0; acerto com dano0 pode aplicar efeito por acerto.",
+      "canon": "Regra de adaptação; não afirma fisiologia ou protocolo canônico.",
+      "criterios": [
+        "título direto",
+        "ação/tempo/custo/alvo/resultado/saída pertinentes",
+        "localização",
+        "suficiência sem reprodução de Caminho"
+      ]
+    },
+    {
+      "pagina": "tipos",
+      "parecer_editorial": "Quinze tipos em três grupos. Força é energia pura, sem exigir atributo; propriedades extras dependem da fonte.",
+      "caso_limite": "Imunidade ao tipoVeneno não concede Envenenado, e vice-versa.",
+      "canon": "Regra de adaptação; não afirma fisiologia ou protocolo canônico.",
+      "criterios": [
+        "título direto",
+        "ação/tempo/custo/alvo/resultado/saída pertinentes",
+        "localização",
+        "suficiência sem reprodução de Caminho"
+      ]
+    },
+    {
+      "pagina": "reducao",
+      "parecer_editorial": "Uma redução do golpe inteiro é aplicada uma vez, depois das parcelas por tipo.",
+      "caso_limite": "30Fogo,resistência eRD6 resultam9.",
+      "canon": "Regra de adaptação; não afirma fisiologia ou protocolo canônico.",
+      "criterios": [
+        "título direto",
+        "ação/tempo/custo/alvo/resultado/saída pertinentes",
+        "localização",
+        "suficiência sem reprodução de Caminho"
+      ]
+    },
+    {
+      "pagina": "alma",
+      "parecer_editorial": "Fórmula e perdas de duas reservas precedem os estágios. Exceção Integridadeapenas preservada.",
+      "caso_limite": "8Alma,RD3,temporário3:2PV e5Integridade.",
+      "canon": "Regra de adaptação; não afirma fisiologia ou protocolo canônico.",
+      "criterios": [
+        "título direto",
+        "ação/tempo/custo/alvo/resultado/saída pertinentes",
+        "localização",
+        "suficiência sem reprodução de Caminho"
+      ]
+    },
+    {
+      "pagina": "integridade",
+      "parecer_editorial": "Reserva atual define estágio. Recuperação remove penalidades; estágio4 encerra cena por Derrotado.",
+      "caso_limite": "Máximo26 perder6 não chega1/4; perder7 chega. Recuperar17/26 reduz ao1.",
+      "canon": "Regra de adaptação; não afirma fisiologia ou protocolo canônico.",
+      "criterios": [
+        "título direto",
+        "ação/tempo/custo/alvo/resultado/saída pertinentes",
+        "localização",
+        "suficiência sem reprodução de Caminho"
+      ]
+    },
+    {
+      "pagina": "condicoes",
+      "parecer_editorial": "Treze condições compráveis separadas de estados. Aplicação,duração,saída e custo de remover têm campos diferentes.",
+      "caso_limite": "Ter3PE não concede habilidade de remover; condiçãoPesada precisaTR eCD.",
+      "canon": "Regra de adaptação; não afirma fisiologia ou protocolo canônico.",
+      "criterios": [
+        "título direto",
+        "ação/tempo/custo/alvo/resultado/saída pertinentes",
+        "localização",
+        "suficiência sem reprodução de Caminho"
+      ]
+    },
+    {
+      "pagina": "leves",
+      "parecer_editorial": "Seis condições preservadas e explicitadas; rastejo evita cobrança dupla. Fuga de agarrão remete ao dono.",
+      "caso_limite": "Surdo depois da iniciativa não refaz ordem; Desarmado permite arma reserva.",
+      "canon": "Regra de adaptação; não afirma fisiologia ou protocolo canônico.",
+      "criterios": [
+        "título direto",
+        "ação/tempo/custo/alvo/resultado/saída pertinentes",
+        "localização",
+        "suficiência sem reprodução de Caminho"
+      ]
+    },
+    {
+      "pagina": "medias",
+      "parecer_editorial": "Voz é requisito concreto; encanto restringe alvos sem transferir autoria do personagem.",
+      "caso_limite": "Ataque que erra encerra Enfeitiçado; dano inicial precede aplicação.",
+      "canon": "Regra de adaptação; não afirma fisiologia ou protocolo canônico.",
+      "criterios": [
+        "título direto",
+        "ação/tempo/custo/alvo/resultado/saída pertinentes",
+        "localização",
+        "suficiência sem reprodução de Caminho"
+      ]
+    },
+    {
+      "pagina": "pesadas",
+      "parecer_editorial": "Cinco condições preservadas, teste de saída e penalidade do próprio teste definidos.",
+      "caso_limite": "Atordoado perde umaPadrão, não todas;ImpeditodesvantagemFísico também na saída.",
+      "canon": "Regra de adaptação; não afirma fisiologia ou protocolo canônico.",
+      "criterios": [
+        "título direto",
+        "ação/tempo/custo/alvo/resultado/saída pertinentes",
+        "localização",
+        "suficiência sem reprodução de Caminho"
+      ]
+    },
+    {
+      "pagina": "cura",
+      "parecer_editorial": "Cura,condição eIntegridade são procedimentos distintos. Compatibilidade fica com corpo e fonte.",
+      "caso_limite": "SemCura não guarda tratamento para depois.",
+      "canon": "Regra de adaptação; não afirma fisiologia ou protocolo canônico.",
+      "criterios": [
+        "título direto",
+        "ação/tempo/custo/alvo/resultado/saída pertinentes",
+        "localização",
+        "suficiência sem reprodução de Caminho"
+      ]
+    },
+    {
+      "pagina": "temporarios",
+      "parecer_editorial": "Teto,substituição e duração definidos sem acumulação.",
+      "caso_limite": "23máximo permite11temporários;max0 não cria1.",
+      "canon": "Regra de adaptação; não afirma fisiologia ou protocolo canônico.",
+      "criterios": [
+        "título direto",
+        "ação/tempo/custo/alvo/resultado/saída pertinentes",
+        "localização",
+        "suficiência sem reprodução de Caminho"
+      ]
+    },
+    {
+      "pagina": "zero",
+      "parecer_editorial": "Escolha imediata,referência estável,janela comum e prazo fora decombate.",
+      "caso_limite": "Dano positivo depois de defesa/temp consome1janela,tiposmistos mesmo golpe sóuma.",
+      "canon": "Regra de adaptação; não afirma fisiologia ou protocolo canônico.",
+      "criterios": [
+        "título direto",
+        "ação/tempo/custo/alvo/resultado/saída pertinentes",
+        "localização",
+        "suficiência sem reprodução de Caminho"
+      ]
+    },
+    {
+      "pagina": "insistir",
+      "parecer_editorial": "Tabela preserva frações fixas; não gera outra janela quando acaba nem máximo negativo.",
+      "caso_limite": "80comumaSequela:10e20pagos,termina antes de terceiro custo.",
+      "canon": "Regra de adaptação; não afirma fisiologia ou protocolo canônico.",
+      "criterios": [
+        "título direto",
+        "ação/tempo/custo/alvo/resultado/saída pertinentes",
+        "localização",
+        "suficiência sem reprodução de Caminho"
+      ]
+    },
+    {
+      "pagina": "socorro",
+      "parecer_editorial": "Acumulação de cura e estabilização com ação,distância,mão,CD e dano posterior.",
+      "caso_limite": "23referência,curas3+3:retorna6PV eumaSequela.",
+      "canon": "Regra de adaptação; não afirma fisiologia ou protocolo canônico.",
+      "criterios": [
+        "título direto",
+        "ação/tempo/custo/alvo/resultado/saída pertinentes",
+        "localização",
+        "suficiência sem reprodução de Caminho"
+      ]
+    },
+    {
+      "pagina": "sequelas",
+      "parecer_editorial": "Custo de quedas repetidas comum às duas escolhas. Marcas visuais não compram vantagem social.",
+      "caso_limite": "TrêsSequelas fazem novaqueda Derrotado;cura acima de0 não criaSequela.",
+      "canon": "Regra de adaptação; não afirma fisiologia ou protocolo canônico.",
+      "criterios": [
+        "título direto",
+        "ação/tempo/custo/alvo/resultado/saída pertinentes",
+        "localização",
+        "suficiência sem reprodução de Caminho"
+      ]
+    },
+    {
+      "pagina": "derrota",
+      "parecer_editorial": "Derrota corporal e da alma não se convertem. Saída distingue pausa,cura e morte.",
+      "caso_limite": "Tratamento10apósderrota vira10PV sem agir;cura5posterior torna15PV,consciência aguarda saída.",
+      "canon": "Regra de adaptação; não afirma fisiologia ou protocolo canônico.",
+      "criterios": [
+        "título direto",
+        "ação/tempo/custo/alvo/resultado/saída pertinentes",
+        "localização",
+        "suficiência sem reprodução de Caminho"
+      ]
+    },
+    {
+      "pagina": "inconsciente",
+      "parecer_editorial": "Ações,percepção,defesa,teste e saída pela causa.",
+      "caso_limite": "Sono comPV>0 não iniciaMorrendo;cura não remove todo sono.",
+      "canon": "Regra de adaptação; não afirma fisiologia ou protocolo canônico.",
+      "criterios": [
+        "título direto",
+        "ação/tempo/custo/alvo/resultado/saída pertinentes",
+        "localização",
+        "suficiência sem reprodução de Caminho"
+      ]
+    },
+    {
+      "pagina": "descansos",
+      "parecer_editorial": "Curto e longo definidos por situação. Lugarpropício não depende só de rótulo.",
+      "caso_limite": "Longoforabase preserva saldoacimametade e max1 fica1.",
+      "canon": "Regra de adaptação; não afirma fisiologia ou protocolo canônico.",
+      "criterios": [
+        "título direto",
+        "ação/tempo/custo/alvo/resultado/saída pertinentes",
+        "localização",
+        "suficiência sem reprodução de Caminho"
+      ]
+    },
+    {
+      "pagina": "exaustao",
+      "parecer_editorial": "Gatilho porlutas,patamares e recuperação separados.",
+      "caso_limite": "Integridade2 eExaustão2 não cortam duasvezes deslocamento9.",
+      "canon": "Regra de adaptação; não afirma fisiologia ou protocolo canônico.",
+      "criterios": [
+        "título direto",
+        "ação/tempo/custo/alvo/resultado/saída pertinentes",
+        "localização",
+        "suficiência sem reprodução de Caminho"
+      ]
+    },
+    {
+      "pagina": "usos",
+      "parecer_editorial": "Recuperações por cena/dia/pausa/missão distintas.",
+      "caso_limite": "Fim de sessão não é descanso longo nem recupera todososusos.",
+      "canon": "Regra de adaptação; não afirma fisiologia ou protocolo canônico.",
+      "criterios": [
+        "título direto",
+        "ação/tempo/custo/alvo/resultado/saída pertinentes",
+        "localização",
+        "suficiência sem reprodução de Caminho"
+      ]
+    }
+  ],
+  "delta_final": {
+    "revisor": "/root",
+    "escopo": [
+      "Migração nominal para Guarda Aberta, sem alterar os efeitos.",
+      "Integridade de NPC com vida positiva nunca começa em zero por arredondamento."
+    ],
+    "evidencia": "consolidacao/lote-01/migracao-nomes/diffs/dano.diff e ALTERACOES.json DR31"
+  }
+}

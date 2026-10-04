@@ -1,0 +1,1531 @@
+{
+  "sha256_texto": "3705e460791db6ae03b79eb2f7b25d13936a1c1ab54ddba616fa3872407f09f1",
+  "ok": true,
+  "checks": [
+    {
+      "id": "publicados-identicos",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "fonte-preservada-caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "fonte-preservada-sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "fonte-preservada-sistema/05-material/livro/manual/50-equipamento.md",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "fonte-preservada-sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-06-r3/sincronizacoes/INCURSOR-COMPLETO.md",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "fonte-preservada-sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-06-r6/MOVIMENTO-E-CARGA.md",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "fonte-preservada-sistema/05-material/livro/planejamento-editorial/equipamento/lote-04-r4/ARMAS.md",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "26-paginas",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulo-inc-caminho",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "tabelas-inc-caminho",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulo-inc-movimento",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "tabelas-inc-movimento",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulo-inc-fluidez",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "tabelas-inc-fluidez",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulo-inc-respostas",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "tabelas-inc-respostas",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulo-inc-fluidez-avancada",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "tabelas-inc-fluidez-avancada",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulo-inc-ritmo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "tabelas-inc-ritmo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulo-inc-assassino",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "tabelas-inc-assassino",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulo-inc-guarda",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "tabelas-inc-guarda",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulo-inc-cirurgico",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "tabelas-inc-cirurgico",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulo-inc-cortar",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "tabelas-inc-cortar",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulo-inc-parkour",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "tabelas-inc-parkour",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulo-inc-brecha",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "tabelas-inc-brecha",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulo-inc-pugilista",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "tabelas-inc-pugilista",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulo-inc-corpo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "tabelas-inc-corpo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulo-inc-base",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "tabelas-inc-base",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulo-inc-interceptar",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "tabelas-inc-interceptar",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulo-inc-projecao",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "tabelas-inc-projecao",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulo-inc-redirecionar",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "tabelas-inc-redirecionar",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulo-inc-redirecionar-resolucao",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "tabelas-inc-redirecionar-resolucao",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulo-inc-malabarista",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "tabelas-inc-malabarista",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulo-inc-continuacoes",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "tabelas-inc-continuacoes",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulo-inc-ricochete",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "tabelas-inc-ricochete",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulo-inc-destino",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "tabelas-inc-destino",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulo-inc-retorno",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "tabelas-inc-retorno",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulo-inc-finta",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "tabelas-inc-finta",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulo-inc-perfeita",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "tabelas-inc-perfeita",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulos-diretos",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "sem-volume-leve",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "sem-legal",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "sem-bold-quebrado",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-Agilidade de Combate",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-Movimento Acrobático",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-Fluidez",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-Investida",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-Instante Decisivo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-Passo Rápido",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-Evasão",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-Reflexo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-Esquiva Instintiva",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-Passo Guardado",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-Retomar o Ritmo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-Um Passo à Frente",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-Alvo Estudado",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-Estudar a Guarda",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-Golpe Cirúrgico",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-Cortar a Fuga",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-Parkour",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-Desaparecer no Percurso",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-Escolher a Próxima Vítima",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-Brecha Fatal",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-Sentença Final",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-Corpo Treinado",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-Rajada Marcial",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-Quebrar o Compasso",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-Recuperar a Base",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-Guarda Marcial",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-Interceptar e Prender",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-Movimento sobre líquidos",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-Golpe Desarticulador",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-Projeção Marcial",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-Corpo em Harmonia",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-Redirecionar a Força",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-Manejo de Combate",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-Ofensiva em Movimento",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-Ricochete",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-Lançamento Cruzado",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-Mudar o Destino",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-Trajetória de Retorno",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-Manejo Contínuo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-Finta de Retorno",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "nome-Trajetória Perfeita",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "ancora-vida",
+      "passou": true,
+      "detalhe": "Vida inicial \\| (\\d+) \\+ Constituição"
+    },
+    {
+      "id": "ancora-vida-ganho",
+      "passou": true,
+      "detalhe": "Vida por nível seguinte \\| (\\d+) \\+ Constituição"
+    },
+    {
+      "id": "ancora-energia",
+      "passou": true,
+      "detalhe": "\\| PE \\| (\\d+) por nível"
+    },
+    {
+      "id": "ancora-movimento",
+      "passou": true,
+      "detalhe": "Seu deslocamento aumenta em (\\d+) m"
+    },
+    {
+      "id": "GC-base-atributo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "ancora-combo",
+      "passou": true,
+      "detalhe": "mais (\\d+) PE"
+    },
+    {
+      "id": "ancora-rajada",
+      "passou": true,
+      "detalhe": "gastar (\\d+) PE.*?dois ataques desarmados"
+    },
+    {
+      "id": "ancora-guarda",
+      "passou": true,
+      "detalhe": "gastar (\\d+) PE.*?um ataque desarmado e"
+    },
+    {
+      "id": "ancora-harmonia",
+      "passou": true,
+      "detalhe": "gastar (\\d+) PE ao todo"
+    },
+    {
+      "id": "ancora-projecao",
+      "passou": true,
+      "detalhe": "(\\d+) PE · Uma vez"
+    },
+    {
+      "id": "ancora-projecao-dist",
+      "passou": true,
+      "detalhe": "livre a até (\\d+) m"
+    },
+    {
+      "id": "ancora-ofensiva",
+      "passou": true,
+      "detalhe": "Ofensiva em Movimento.*?(\\d+) PE · Uma vez"
+    },
+    {
+      "id": "ancora-cruzado",
+      "passou": true,
+      "detalhe": "\\| Lançamento Cruzado \\| Fluidez e (\\d+) PE"
+    },
+    {
+      "id": "ancora-retorno",
+      "passou": true,
+      "detalhe": "\\| Trajetória de Retorno, nível 11 \\| Fluidez e (\\d+) PE"
+    },
+    {
+      "id": "ancora-finta",
+      "passou": true,
+      "detalhe": "\\| Finta de Retorno, nível 19 \\| Fluidez e (\\d+) PE"
+    },
+    {
+      "id": "ancora-perfeita",
+      "passou": true,
+      "detalhe": "Fluidez e (\\d+) PE"
+    },
+    {
+      "id": "ancora-ricochete",
+      "passou": true,
+      "detalhe": "arma recebe (\\d+) m adicionais"
+    },
+    {
+      "id": "contrato-ciclo1",
+      "passou": true,
+      "detalhe": "uma vez entre o começo de um turno seu e o começo do próximo"
+    },
+    {
+      "id": "contrato-ciclo2",
+      "passou": true,
+      "detalhe": "duas vezes entre o começo de um turno seu e o começo do próximo"
+    },
+    {
+      "id": "contrato-uma",
+      "passou": true,
+      "detalhe": "uma Fluidez por vez"
+    },
+    {
+      "id": "contrato-estado",
+      "passou": true,
+      "detalhe": "Enquanto estiver com a Guarda Aberta, não pode ganhar ou manter Fluidez"
+    },
+    {
+      "id": "contrato-evento",
+      "passou": true,
+      "detalhe": "mesmo acontecimento para recuperá-la"
+    },
+    {
+      "id": "contrato-retomar",
+      "passou": true,
+      "detalhe": "não conta no limite das duas obtenções normais"
+    },
+    {
+      "id": "contrato-regenerar",
+      "passou": true,
+      "detalhe": "se estiver sem Fluidez"
+    },
+    {
+      "id": "contrato-critico",
+      "passou": true,
+      "detalhe": "dobra tanto os dados normais de Canalizar em Golpe quanto os dados adicionais"
+    },
+    {
+      "id": "contrato-reacao",
+      "passou": true,
+      "detalhe": "uma Reação pessoal"
+    },
+    {
+      "id": "contrato-instante",
+      "passou": true,
+      "detalhe": "Esse mesmo acerto não pode recuperar Fluidez"
+    },
+    {
+      "id": "contrato-guardada",
+      "passou": true,
+      "detalhe": "enquanto tiver Fluidez"
+    },
+    {
+      "id": "contrato-turno",
+      "passou": true,
+      "detalhe": "Não pode usar se seu turno já ocorreu naquela rodada"
+    },
+    {
+      "id": "contrato-qualquer",
+      "passou": true,
+      "detalhe": "criaturas de qualquer tamanho"
+    },
+    {
+      "id": "contrato-compartilhado",
+      "passou": true,
+      "detalhe": "compartilham uma utilização por turno seu"
+    },
+    {
+      "id": "contrato-projecao",
+      "passou": true,
+      "detalhe": "sem rolagem de ataque"
+    },
+    {
+      "id": "contrato-perfeita",
+      "passou": true,
+      "detalhe": "Uma mesma criatura só pode ser atacada uma vez nessa execução"
+    },
+    {
+      "id": "contrato-aprovado",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "ganho-nivel2",
+      "passou": true,
+      "detalhe": {
+        "obtido": [
+          true,
+          1
+        ],
+        "esperado": [
+          true,
+          1
+        ]
+      }
+    },
+    {
+      "id": "cheia-sem-banco",
+      "passou": true,
+      "detalhe": {
+        "obtido": [
+          true,
+          1
+        ],
+        "esperado": [
+          true,
+          1
+        ]
+      }
+    },
+    {
+      "id": "evento-nao-repetido",
+      "passou": true,
+      "detalhe": {
+        "obtido": [
+          false,
+          1
+        ],
+        "esperado": [
+          false,
+          1
+        ]
+      }
+    },
+    {
+      "id": "cap2-saturado",
+      "passou": true,
+      "detalhe": {
+        "obtido": false,
+        "esperado": false
+      }
+    },
+    {
+      "id": "nivel7-duas",
+      "passou": true,
+      "detalhe": {
+        "obtido": [
+          true,
+          2
+        ],
+        "esperado": [
+          true,
+          2
+        ]
+      }
+    },
+    {
+      "id": "fora-turno-sem-ganho",
+      "passou": true,
+      "detalhe": {
+        "obtido": false,
+        "esperado": false
+      }
+    },
+    {
+      "id": "instante-nao-retorna",
+      "passou": true,
+      "detalhe": {
+        "obtido": false,
+        "esperado": false
+      }
+    },
+    {
+      "id": "incap-sem-fluidez",
+      "passou": true,
+      "detalhe": {
+        "obtido": false,
+        "esperado": false
+      }
+    },
+    {
+      "id": "retomar-mais2",
+      "passou": true,
+      "detalhe": {
+        "obtido": [
+          true,
+          2,
+          true
+        ],
+        "esperado": [
+          true,
+          2,
+          true
+        ]
+      }
+    },
+    {
+      "id": "retomar-sem-fabrica",
+      "passou": true,
+      "detalhe": {
+        "obtido": false,
+        "esperado": false
+      }
+    },
+    {
+      "id": "retomar-fora-comeco",
+      "passou": true,
+      "detalhe": {
+        "obtido": false,
+        "esperado": false
+      }
+    },
+    {
+      "id": "retomar-sem-movimento",
+      "passou": true,
+      "detalhe": {
+        "obtido": false,
+        "esperado": false
+      }
+    },
+    {
+      "id": "reacao-compartilhada",
+      "passou": true,
+      "detalhe": {
+        "obtido": false,
+        "esperado": false
+      }
+    },
+    {
+      "id": "reflexo-posterior-invalido",
+      "passou": true,
+      "detalhe": {
+        "obtido": false,
+        "esperado": false
+      }
+    },
+    {
+      "id": "enumeracao-fluidez",
+      "passou": true,
+      "detalhe": 46875
+    },
+    {
+      "id": "acro12-n2",
+      "passou": true,
+      "detalhe": {
+        "obtido": "6",
+        "esperado": "6"
+      }
+    },
+    {
+      "id": "acro12-n23",
+      "passou": true,
+      "detalhe": {
+        "obtido": "12",
+        "esperado": "12"
+      }
+    },
+    {
+      "id": "acro-dificil6",
+      "passou": true,
+      "detalhe": {
+        "obtido": 12,
+        "esperado": 12
+      }
+    },
+    {
+      "id": "parkour-salto",
+      "passou": true,
+      "detalhe": {
+        "obtido": 1.5,
+        "esperado": 1.5
+      }
+    },
+    {
+      "id": "correr-nao-renova",
+      "passou": true,
+      "detalhe": {
+        "obtido": "0",
+        "esperado": "0"
+      }
+    },
+    {
+      "id": "retomar-correr",
+      "passou": true,
+      "detalhe": {
+        "obtido": 12,
+        "esperado": 12
+      }
+    },
+    {
+      "id": "adiantar-duplo",
+      "passou": true,
+      "detalhe": {
+        "obtido": "24",
+        "esperado": 24
+      }
+    },
+    {
+      "id": "empurrao6-retorno6",
+      "passou": true,
+      "detalhe": {
+        "obtido": "6",
+        "esperado": 6
+      }
+    },
+    {
+      "id": "empurrao9-retorno6",
+      "passou": true,
+      "detalhe": {
+        "obtido": "6",
+        "esperado": 6
+      }
+    },
+    {
+      "id": "empurrao-lento",
+      "passou": true,
+      "detalhe": {
+        "obtido": "3",
+        "esperado": 3
+      }
+    },
+    {
+      "id": "queda-nao-soma",
+      "passou": true,
+      "detalhe": {
+        "obtido": "0",
+        "esperado": 0
+      }
+    },
+    {
+      "id": "dez-refinos",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "estimulo-tabela-1",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "estimulo-tabela-2",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "estimulo-tabela-3",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "estimulo-tabela-4",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "estimulo-tabela-5",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "estimulo-tabela-6",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "estimulo-tabela-7",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "estimulo-tabela-8",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "estimulo-tabela-9",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "estimulo-tabela-10",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "cirurgico-exemplo-dados",
+      "passou": true,
+      "detalhe": {
+        "obtido": 7,
+        "esperado": 7
+      }
+    },
+    {
+      "id": "cirurgico-exemplo-critico",
+      "passou": true,
+      "detalhe": {
+        "obtido": 49.0,
+        "esperado": 49.0
+      }
+    },
+    {
+      "id": "cirurgico-atributo0",
+      "passou": true,
+      "detalhe": {
+        "obtido": 0,
+        "esperado": 0
+      }
+    },
+    {
+      "id": "cirurgico-atributo5-combo",
+      "passou": true,
+      "detalhe": {
+        "obtido": 8,
+        "esperado": 8
+      }
+    },
+    {
+      "id": "cirurgico-nao-maximiza",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "pug2-ataques",
+      "passou": true,
+      "detalhe": {
+        "obtido": 2,
+        "esperado": 2
+      }
+    },
+    {
+      "id": "pug7-ataques",
+      "passou": true,
+      "detalhe": {
+        "obtido": 3,
+        "esperado": 3
+      }
+    },
+    {
+      "id": "pug11-guarda",
+      "passou": true,
+      "detalhe": {
+        "obtido": 2,
+        "esperado": 2
+      }
+    },
+    {
+      "id": "pug27-ataques",
+      "passou": true,
+      "detalhe": {
+        "obtido": 3,
+        "esperado": 3
+      }
+    },
+    {
+      "id": "pug27-custo",
+      "passou": true,
+      "detalhe": {
+        "obtido": 6,
+        "esperado": 6
+      }
+    },
+    {
+      "id": "mala-cruzado",
+      "passou": true,
+      "detalhe": {
+        "obtido": 6,
+        "esperado": 6
+      }
+    },
+    {
+      "id": "mala-retorno",
+      "passou": true,
+      "detalhe": {
+        "obtido": 7,
+        "esperado": 7
+      }
+    },
+    {
+      "id": "mala-finta",
+      "passou": true,
+      "detalhe": {
+        "obtido": 9,
+        "esperado": 9
+      }
+    },
+    {
+      "id": "mala-perfeita-total",
+      "passou": true,
+      "detalhe": {
+        "obtido": 5,
+        "esperado": 5
+      }
+    },
+    {
+      "id": "mala-perfeita-mesmoalvo",
+      "passou": true,
+      "detalhe": {
+        "obtido": 2,
+        "esperado": 2
+      }
+    },
+    {
+      "id": "mala-com-reacao",
+      "passou": true,
+      "detalhe": {
+        "obtido": 4,
+        "esperado": 4
+      }
+    },
+    {
+      "id": "mala-perfeita-custo",
+      "passou": true,
+      "detalhe": {
+        "obtido": 15,
+        "esperado": 15
+      }
+    },
+    {
+      "id": "ricochete-exemplo",
+      "passou": true,
+      "detalhe": {
+        "obtido": "normal",
+        "esperado": "normal"
+      }
+    },
+    {
+      "id": "ricochete-parede-longa",
+      "passou": true,
+      "detalhe": {
+        "obtido": "longa",
+        "esperado": "longa"
+      }
+    },
+    {
+      "id": "ricochete-max",
+      "passou": true,
+      "detalhe": {
+        "obtido": "longa",
+        "esperado": "longa"
+      }
+    },
+    {
+      "id": "ricochete-acima-max",
+      "passou": true,
+      "detalhe": {
+        "obtido": "inviavel",
+        "esperado": "inviavel"
+      }
+    },
+    {
+      "id": "ricochete-ponto-invalido",
+      "passou": true,
+      "detalhe": {
+        "obtido": "inviavel",
+        "esperado": "inviavel"
+      }
+    },
+    {
+      "id": "ricochete-parede-bloqueia",
+      "passou": true,
+      "detalhe": {
+        "obtido": "inviavel",
+        "esperado": "inviavel"
+      }
+    },
+    {
+      "id": "retorno-parede1-5",
+      "passou": true,
+      "detalhe": {
+        "obtido": true,
+        "esperado": true
+      }
+    },
+    {
+      "id": "retorno-parede4-5",
+      "passou": true,
+      "detalhe": {
+        "obtido": false,
+        "esperado": false
+      }
+    },
+    {
+      "id": "mudar-destino-valido",
+      "passou": true,
+      "detalhe": {
+        "obtido": true,
+        "esperado": true
+      }
+    },
+    {
+      "id": "mudar-destino-alcance",
+      "passou": true,
+      "detalhe": {
+        "obtido": false,
+        "esperado": false
+      }
+    },
+    {
+      "id": "mudar-destino-repetir",
+      "passou": true,
+      "detalhe": {
+        "obtido": false,
+        "esperado": false
+      }
+    },
+    {
+      "id": "mudar-destino-mesmo",
+      "passou": true,
+      "detalhe": {
+        "obtido": false,
+        "esperado": false
+      }
+    },
+    {
+      "id": "TR-cd16-bonus6",
+      "passou": true,
+      "detalhe": {
+        "obtido": 9,
+        "esperado": 9
+      }
+    },
+    {
+      "id": "redirect-d20-mantido",
+      "passou": true,
+      "detalhe": {
+        "obtido": true,
+        "esperado": true
+      }
+    },
+    {
+      "id": "redirect-sem-alcance",
+      "passou": true,
+      "detalhe": {
+        "obtido": false,
+        "esperado": false
+      }
+    },
+    {
+      "id": "critico19-vantagem",
+      "passou": true,
+      "detalhe": {
+        "obtido": 0.19,
+        "esperado": 0.19
+      }
+    },
+    {
+      "id": "52armas",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "armas22para21",
+      "passou": true,
+      "detalhe": {
+        "obtido": [
+          22,
+          21
+        ],
+        "esperado": [
+          22,
+          21
+        ]
+      }
+    },
+    {
+      "id": "unico-corte",
+      "passou": true,
+      "detalhe": {
+        "obtido": [
+          "Taco"
+        ],
+        "esperado": [
+          "Taco"
+        ]
+      }
+    },
+    {
+      "id": "acesso-Pistola",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "acesso-Revólver",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "acesso-Besta de Uma Mão",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "acesso-Wakizashi",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "acesso-Soqueira",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "acesso-Punhal",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "grade1-5",
+      "passou": true,
+      "detalhe": [
+        "1,5",
+        "10,5",
+        "12",
+        "18",
+        "24",
+        "3",
+        "4,5",
+        "6",
+        "9"
+      ]
+    },
+    {
+      "id": "inventario-integral",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "manobras-CD-propria",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "queda-nao-copia",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "sem-duplicar-condicao",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "interface-guarda-rodada",
+      "passou": true,
+      "detalhe": "ainda não tiver se deslocado por vontade própria naquela rodada"
+    },
+    {
+      "id": "interface-guarda-proibe",
+      "passou": true,
+      "detalhe": "não pode se deslocar por vontade própria até o fim da rodada"
+    },
+    {
+      "id": "interface-sentenca",
+      "passou": true,
+      "detalhe": "oculto do Alvo Estudado no momento em que declara o ataque"
+    },
+    {
+      "id": "interface-execucao-ciclo",
+      "passou": true,
+      "detalhe": "o limite de cada um desses usos passa a ser uma vez entre o começo de um turno seu e o começo do próximo"
+    },
+    {
+      "id": "interface-maos",
+      "passou": true,
+      "detalhe": "Você precisa de uma mão livre"
+    },
+    {
+      "id": "interface-liquidos",
+      "passou": true,
+      "detalhe": "compartilha o limite de distância"
+    },
+    {
+      "id": "interface-redirecionar",
+      "passou": true,
+      "detalhe": "ao alcance da arma ou do membro utilizado naquele ataque"
+    },
+    {
+      "id": "interface-Finta",
+      "passou": true,
+      "detalhe": "valem somente contra o alvo original desse retorno"
+    },
+    {
+      "id": "guarda-sem-mover",
+      "passou": true,
+      "detalhe": {
+        "obtido": true,
+        "esperado": true
+      }
+    },
+    {
+      "id": "guarda-passoguardado-anterior",
+      "passou": true,
+      "detalhe": {
+        "obtido": false,
+        "esperado": false
+      }
+    },
+    {
+      "id": "guarda-empurrao-anterior",
+      "passou": true,
+      "detalhe": {
+        "obtido": true,
+        "esperado": true
+      }
+    },
+    {
+      "id": "guarda-fora18",
+      "passou": true,
+      "detalhe": {
+        "obtido": false,
+        "esperado": false
+      }
+    },
+    {
+      "id": "GC-sem-acerto",
+      "passou": true,
+      "detalhe": {
+        "obtido": false,
+        "esperado": false
+      }
+    },
+    {
+      "id": "GC-sem-base",
+      "passou": true,
+      "detalhe": {
+        "obtido": false,
+        "esperado": false
+      }
+    },
+    {
+      "id": "GC-reacao-antes19",
+      "passou": true,
+      "detalhe": {
+        "obtido": false,
+        "esperado": false
+      }
+    },
+    {
+      "id": "GC-reacao19",
+      "passou": true,
+      "detalhe": {
+        "obtido": true,
+        "esperado": true
+      }
+    },
+    {
+      "id": "GC-ciclo-consumido",
+      "passou": true,
+      "detalhe": {
+        "obtido": false,
+        "esperado": false
+      }
+    },
+    {
+      "id": "perfeita-quatro24",
+      "passou": true,
+      "detalhe": {
+        "obtido": true,
+        "esperado": true
+      }
+    },
+    {
+      "id": "perfeita-repetir",
+      "passou": true,
+      "detalhe": {
+        "obtido": false,
+        "esperado": false
+      }
+    },
+    {
+      "id": "perfeita-continua-usada",
+      "passou": true,
+      "detalhe": {
+        "obtido": false,
+        "esperado": false
+      }
+    },
+    {
+      "id": "perfeita-sem-fluidez",
+      "passou": true,
+      "detalhe": {
+        "obtido": false,
+        "esperado": false
+      }
+    },
+    {
+      "id": "perfeita-alem24",
+      "passou": true,
+      "detalhe": {
+        "obtido": false,
+        "esperado": false
+      }
+    },
+    {
+      "id": "colisao-sem-falha-inicial",
+      "passou": true,
+      "detalhe": {
+        "obtido": false,
+        "esperado": false
+      }
+    },
+    {
+      "id": "colisao-dano-sem-queda",
+      "passou": true,
+      "detalhe": {
+        "obtido": 14,
+        "esperado": 14
+      }
+    },
+    {
+      "id": "direcao-sentenca",
+      "passou": true,
+      "detalhe": {
+        "obtido": true,
+        "esperado": true
+      }
+    },
+    {
+      "id": "energia-n30",
+      "passou": true,
+      "detalhe": null
+    }
+  ]
+}

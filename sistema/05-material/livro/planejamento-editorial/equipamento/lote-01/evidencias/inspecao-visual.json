@@ -1,0 +1,43 @@
+{
+  "data": "2026-10-03",
+  "sha256_pdf": "2dbb3bc751aeeebdd18db78417ea759f10214b48f31ce1d4f75f76454c6b36ed",
+  "paginas": [
+    {
+      "pagina": 1,
+      "arquivo": "/tmp/projeto-m-revisao-equipamento/equipamento-1.png",
+      "sha256_png": "189dce6b2113bea38ab4ae118d540acfa027dc56b23ebeb1204dad454ed3e975",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 2,
+      "arquivo": "/tmp/projeto-m-revisao-equipamento/equipamento-2.png",
+      "sha256_png": "c1d1b8297710f612d16471407fb57447a7272f005bf2d8937899f28ea5257c76",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 3,
+      "arquivo": "/tmp/projeto-m-revisao-equipamento/equipamento-3.png",
+      "sha256_png": "86e399d306394188ed6472d03d836e24d11f0deba295fa2d9a3d96e3aa6d6e65",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 4,
+      "arquivo": "/tmp/projeto-m-revisao-equipamento/equipamento-4.png",
+      "sha256_png": "a78082ae5506486e410b6fbb66bebfc6d9069fb411bfa3f27bcf3e7f76435820",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 5,
+      "arquivo": "/tmp/projeto-m-revisao-equipamento/equipamento-5.png",
+      "sha256_png": "90ad6e8e4354db583676d0d0445b0b65bfcb3cad15c53cf83980400787c14d44",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 6,
+      "arquivo": "/tmp/projeto-m-revisao-equipamento/equipamento-6.png",
+      "sha256_png": "525db74c51960828c0e5e926fbd6c136416124343857a90f654fdfe28bc0487c",
+      "resultado": "sem defeito visual observado"
+    }
+  ],
+  "metodo": "Todas as páginas renderizadas com Poppler e inspecionadas visualmente pelo autor. Equipamento p5 reexaminada após a última correção; demais páginas não alteradas pela edição."
+}

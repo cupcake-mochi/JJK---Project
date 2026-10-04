@@ -1,0 +1,566 @@
+{
+  "sha256_manuscrito": "98c294a6412d62f819c9e6131de4412e97c03d0775e001cd8416aec6c1f4927b",
+  "casos": [
+    {
+      "id": "R10-C01",
+      "pagina": "rotas",
+      "positivo": {
+        "cenario": "Restrito paga 6 PE por uma Kata de Classe 2.",
+        "esperado": "O gasto é esforço, na quantidade normal."
+      },
+      "negativo": {
+        "cenario": "Possuir PE permitiria comprar Sentir Energia.",
+        "esperado": "Não concede energia ou sentidos pessoais."
+      },
+      "metodo": "revisão semântica de cenário pelo autor-modelo, não playtest",
+      "resultado": "o texto candidato fornece a distinção; revisar independentemente"
+    },
+    {
+      "id": "R10-C02",
+      "pagina": "rota-marcial",
+      "positivo": {
+        "cenario": "Corpo cria Ōgi de apoio no nível 17.",
+        "esperado": "Usa o procedimento da Máxima e respeita equipamento e Regra."
+      },
+      "negativo": {
+        "cenario": "Ōgi abre uma Expansão de Domínio.",
+        "esperado": "A rota continua sem acesso à Expansão."
+      },
+      "metodo": "revisão semântica de cenário pelo autor-modelo, não playtest",
+      "resultado": "o texto candidato fornece a distinção; revisar independentemente"
+    },
+    {
+      "id": "R10-C03",
+      "pagina": "rota-marcial",
+      "positivo": {
+        "cenario": "Projétil descreve uma Kata a 18 m, coerente com o estilo.",
+        "esperado": "Usa alcance e orçamento da Forma."
+      },
+      "negativo": {
+        "cenario": "Kata recebe também o dado da arma usada como Selo.",
+        "esperado": "O dano vem da montagem, sem somar o dado da arma."
+      },
+      "metodo": "revisão semântica de cenário pelo autor-modelo, não playtest",
+      "resultado": "o texto candidato fornece a distinção; revisar independentemente"
+    },
+    {
+      "id": "R10-C04",
+      "pagina": "rota-armas",
+      "positivo": {
+        "cenario": "Personagem com Força 3 e Destreza 2 troca machado por rifle.",
+        "esperado": "Ataque e CD da próxima Kata usam o atributo da nova arma."
+      },
+      "negativo": {
+        "cenario": "Troca de arma altera a CD de uma contenção já aplicada.",
+        "esperado": "Conserva a CD original daquela aplicação."
+      },
+      "metodo": "revisão semântica de cenário pelo autor-modelo, não playtest",
+      "resultado": "o texto candidato fornece a distinção; revisar independentemente"
+    },
+    {
+      "id": "R10-C05",
+      "pagina": "rota-ferramenta",
+      "positivo": {
+        "cenario": "Ferramenta vestida funciona com ambas as mãos livres.",
+        "esperado": "Pode cumprir Gesto se também houver voz audível."
+      },
+      "negativo": {
+        "cenario": "Arma de duas mãos permanece empunhada durante Gesto.",
+        "esperado": "Não cumpre a exigência de mãos livres."
+      },
+      "metodo": "revisão semântica de cenário pelo autor-modelo, não playtest",
+      "resultado": "o texto candidato fornece a distinção; revisar independentemente"
+    },
+    {
+      "id": "R10-C06",
+      "pagina": "rota-ferramenta",
+      "positivo": {
+        "cenario": "Câmera de grau 4 executa uma Kata contra uma maldição.",
+        "esperado": "A Kata pode ferir a maldição."
+      },
+      "negativo": {
+        "cenario": "Restrito soca enquanto apenas carrega a câmera.",
+        "esperado": "Carregar a câmera não transmite energia ao soco."
+      },
+      "metodo": "revisão semântica de cenário pelo autor-modelo, não playtest",
+      "resultado": "o texto candidato fornece a distinção; revisar independentemente"
+    },
+    {
+      "id": "R10-C07",
+      "pagina": "rota-passivas-marciais",
+      "positivo": {
+        "cenario": "Calo reconhece o encaixe familiar de uma arma.",
+        "esperado": "Detalhe de familiaridade permitido."
+      },
+      "negativo": {
+        "cenario": "Calo identifica automaticamente uma substituição disfarçada.",
+        "esperado": "Informação escondida segue o procedimento da cena."
+      },
+      "metodo": "revisão semântica de cenário pelo autor-modelo, não playtest",
+      "resultado": "o texto candidato fornece a distinção; revisar independentemente"
+    },
+    {
+      "id": "R10-C08",
+      "pagina": "rota-passivas-marciais",
+      "positivo": {
+        "cenario": "Inventário saca uma espada e guarda uma faca no turno.",
+        "esperado": "São duas interações gratuitas, somadas."
+      },
+      "negativo": {
+        "cenario": "Objetos guardados deixam de contar na carga.",
+        "esperado": "A carga permanece normalmente."
+      },
+      "metodo": "revisão semântica de cenário pelo autor-modelo, não playtest",
+      "resultado": "o texto candidato fornece a distinção; revisar independentemente"
+    },
+    {
+      "id": "R10-C09",
+      "pagina": "rota-passivas-marciais",
+      "positivo": {
+        "cenario": "Pequena maldição representa o armazenamento da Passiva.",
+        "esperado": "Entrega apenas armazenamento e interações escritos."
+      },
+      "negativo": {
+        "cenario": "Pequena maldição ataca sem ter sido adquirida como entidade.",
+        "esperado": "Exige aquisição e conceito de invocação."
+      },
+      "metodo": "revisão semântica de cenário pelo autor-modelo, não playtest",
+      "resultado": "o texto candidato fornece a distinção; revisar independentemente"
+    },
+    {
+      "id": "R10-C10",
+      "pagina": "rota-passivas-marciais",
+      "positivo": {
+        "cenario": "Leitura usa ferramenta com sensores previstos na ficha.",
+        "esperado": "Identifica apenas Classe e Forma a até 18 m."
+      },
+      "negativo": {
+        "cenario": "Leitura concede Sentir Energia ao Restrito.",
+        "esperado": "Não concede a perícia nem energia pessoal."
+      },
+      "metodo": "revisão semântica de cenário pelo autor-modelo, não playtest",
+      "resultado": "o texto candidato fornece a distinção; revisar independentemente"
+    },
+    {
+      "id": "R10-C11",
+      "pagina": "rota-passivas-resposta",
+      "positivo": {
+        "cenario": "Segundo Fôlego é usado a 0 PV com carga disponível.",
+        "esperado": "Insistir dispensa a rodada, mantendo suas outras regras."
+      },
+      "negativo": {
+        "cenario": "Segundo Fôlego restaura PV e ações já gastas.",
+        "esperado": "Esses benefícios não fazem parte da Passiva."
+      },
+      "metodo": "revisão semântica de cenário pelo autor-modelo, não playtest",
+      "resultado": "o texto candidato fornece a distinção; revisar independentemente"
+    },
+    {
+      "id": "R10-C12",
+      "pagina": "rota-passivas-resposta",
+      "positivo": {
+        "cenario": "Um agressor erra um ataque corpo a corpo.",
+        "esperado": "Contragolpe guarda vantagem para a próxima rolagem de Kata contra ele."
+      },
+      "negativo": {
+        "cenario": "A próxima Kata por TR impõe desvantagem ao alvo.",
+        "esperado": "Contragolpe modifica uma rolagem de ataque, não o TR."
+      },
+      "metodo": "revisão semântica de cenário pelo autor-modelo, não playtest",
+      "resultado": "o texto candidato fornece a distinção; revisar independentemente"
+    },
+    {
+      "id": "R10-C13",
+      "pagina": "rota-passivas-resposta",
+      "positivo": {
+        "cenario": "Aliado transporta uma arma vinculada que caiu.",
+        "esperado": "Pode carregá-la sem utilizá-la."
+      },
+      "negativo": {
+        "cenario": "Aliança teleporta a arma guardada para a mão.",
+        "esperado": "O vínculo não concede transporte instantâneo."
+      },
+      "metodo": "revisão semântica de cenário pelo autor-modelo, não playtest",
+      "resultado": "o texto candidato fornece a distinção; revisar independentemente"
+    },
+    {
+      "id": "R10-C14",
+      "pagina": "rota-fisga",
+      "positivo": {
+        "cenario": "Força 3 e maestria 1 executam Gancho fechado no nível 2.",
+        "esperado": "Ataque +4, CD 12, 3d8 por 3 PE; montagem 3 − 1 + 1."
+      },
+      "negativo": {
+        "cenario": "Arma longa permite alcançar alvo a 3 m com esse Toque.",
+        "esperado": "Toque permanece limitado a 1,5 m."
+      },
+      "metodo": "revisão semântica de cenário pelo autor-modelo, não playtest",
+      "resultado": "o texto candidato fornece a distinção; revisar independentemente"
+    },
+    {
+      "id": "R10-C15",
+      "pagina": "rota-bancada",
+      "positivo": {
+        "cenario": "Aliado aceita Placas de apoio.",
+        "esperado": "Recebe 6 PV temporária e Defesa +2 pelo prazo de Guarda."
+      },
+      "negativo": {
+        "cenario": "Reserva de 6 é somada a uma reserva prévia de 9.",
+        "esperado": "Reservas temporárias seguem a regra comum, sem somar."
+      },
+      "metodo": "revisão semântica de cenário pelo autor-modelo, não playtest",
+      "resultado": "o texto candidato fornece a distinção; revisar independentemente"
+    },
+    {
+      "id": "R10-C16",
+      "pagina": "rota-invocacoes",
+      "positivo": {
+        "cenario": "Ferramenta prevê criar corpos auxiliares e ocupa um espaço.",
+        "esperado": "Adquire uma entidade do nível do usuário, com custos próprios."
+      },
+      "negativo": {
+        "cenario": "Uma espada de cortes recebe entidade por sobrar espaço.",
+        "esperado": "Falta o requisito temático explícito."
+      },
+      "metodo": "revisão semântica de cenário pelo autor-modelo, não playtest",
+      "resultado": "o texto candidato fornece a distinção; revisar independentemente"
+    },
+    {
+      "id": "R10-C17",
+      "pagina": "rota-invocacoes",
+      "positivo": {
+        "cenario": "Personagem preenche um espaço novo com entidade justificada.",
+        "esperado": "Não consome a revisão de um espaço no nível."
+      },
+      "negativo": {
+        "cenario": "Troca um espaço antigo por entidade e reescreve outra Kata no mesmo nível.",
+        "esperado": "As duas mudanças excedem a revisão única."
+      },
+      "metodo": "revisão semântica de cenário pelo autor-modelo, não playtest",
+      "resultado": "o texto candidato fornece a distinção; revisar independentemente"
+    },
+    {
+      "id": "R10-C18",
+      "pagina": "rota-sem-tecnica",
+      "positivo": {
+        "cenario": "Semente Energia Reversa é recebida no nível 2.",
+        "esperado": "Concessão específica dispensa nível e refino daquela aptidão."
+      },
+      "negativo": {
+        "cenario": "A semente também entrega Circulação e Regravação.",
+        "esperado": "São outras aquisições, com requisitos próprios."
+      },
+      "metodo": "revisão semântica de cenário pelo autor-modelo, não playtest",
+      "resultado": "o texto candidato fornece a distinção; revisar independentemente"
+    },
+    {
+      "id": "R10-C19",
+      "pagina": "rota-sementes",
+      "positivo": {
+        "cenario": "Personagem aprende Pétala com requisito narrativo registrado.",
+        "esperado": "A semente pode sustentar Manejos próximos e reativos."
+      },
+      "negativo": {
+        "cenario": "Pétala se torna um disparo distante independente de agressão.",
+        "esperado": "Esse funcionamento não cabe na semente descrita."
+      },
+      "metodo": "revisão semântica de cenário pelo autor-modelo, não playtest",
+      "resultado": "o texto candidato fornece a distinção; revisar independentemente"
+    },
+    {
+      "id": "R10-C20",
+      "pagina": "rota-cura",
+      "positivo": {
+        "cenario": "Refino 3 produz uma cura de 2d8 em si mesmo.",
+        "esperado": "Recupera 2d8 + 1."
+      },
+      "negativo": {
+        "cenario": "O mesmo bônus seria somado ao curar um aliado.",
+        "esperado": "No aliado, continua sendo 2d8."
+      },
+      "metodo": "revisão semântica de cenário pelo autor-modelo, não playtest",
+      "resultado": "o texto candidato fornece a distinção; revisar independentemente"
+    },
+    {
+      "id": "R10-C21",
+      "pagina": "rota-cura",
+      "positivo": {
+        "cenario": "Semente Energia Reversa monta Forma Cura com Amparo disponível.",
+        "esperado": "Manejo cura aliados com sua ação e seu custo."
+      },
+      "negativo": {
+        "cenario": "Aptidão crua é enviada a terceiro sem permissão específica.",
+        "esperado": "A semente sozinha continua limitada à autocura."
+      },
+      "metodo": "revisão semântica de cenário pelo autor-modelo, não playtest",
+      "resultado": "o texto candidato fornece a distinção; revisar independentemente"
+    },
+    {
+      "id": "R10-C22",
+      "pagina": "rota-cura",
+      "positivo": {
+        "cenario": "Corpo recebe um reparo cujo funcionamento prevê corpos construídos.",
+        "esperado": "A aplicação pode tratá-lo conforme sua regra."
+      },
+      "negativo": {
+        "cenario": "Corpo recebe recuperação por energia positiva.",
+        "esperado": "Energia Reversa é incompatível com esse alvo."
+      },
+      "metodo": "revisão semântica de cenário pelo autor-modelo, não playtest",
+      "resultado": "o texto candidato fornece a distinção; revisar independentemente"
+    },
+    {
+      "id": "R10-C23",
+      "pagina": "rota-redoma",
+      "positivo": {
+        "cenario": "Linha de contenção é usada sem Domínio Simples ativo.",
+        "esperado": "O exemplo não exige a aptidão ativa."
+      },
+      "negativo": {
+        "cenario": "Selo de firmar os pés devolve automaticamente pontos de Parado.",
+        "esperado": "O Selo não exige o turno inteiro e não devolve pontos."
+      },
+      "metodo": "revisão semântica de cenário pelo autor-modelo, não playtest",
+      "resultado": "o texto candidato fornece a distinção; revisar independentemente"
+    },
+    {
+      "id": "R10-C24",
+      "pagina": "rota-sutura",
+      "positivo": {
+        "cenario": "Sutura compra Recomposição no nível 7 com dois espaços.",
+        "esperado": "Aquisição disponível."
+      },
+      "negativo": {
+        "cenario": "Tema curativo entrega Recomposição de graça no nível 2.",
+        "esperado": "Tema não dispensa nível ou preço."
+      },
+      "metodo": "revisão semântica de cenário pelo autor-modelo, não playtest",
+      "resultado": "o texto candidato fornece a distinção; revisar independentemente"
+    },
+    {
+      "id": "R10-C25",
+      "pagina": "rota-espinho",
+      "positivo": {
+        "cenario": "Hana tem Reação, 6 PE e o agressor permanece a 1,5 m.",
+        "esperado": "Pode responder depois do dano original, com 6d8 no acerto."
+      },
+      "negativo": {
+        "cenario": "Duas opções diferentes gastam a mesma Reação para o gatilho.",
+        "esperado": "Deve escolher uma delas."
+      },
+      "metodo": "revisão semântica de cenário pelo autor-modelo, não playtest",
+      "resultado": "o texto candidato fornece a distinção; revisar independentemente"
+    },
+    {
+      "id": "R10-C26",
+      "pagina": "rota-lapidacao",
+      "positivo": {
+        "cenario": "Lapidação 9 recebe o ganho básico no marco 22.",
+        "esperado": "Chega a 10 antes da escolha e pode receber duas Bênçãos."
+      },
+      "negativo": {
+        "cenario": "A ordem é invertida para receber apenas uma Bênção nesse marco.",
+        "esperado": "Confira o teto depois do ganho básico."
+      },
+      "metodo": "revisão semântica de cenário pelo autor-modelo, não playtest",
+      "resultado": "o texto candidato fornece a distinção; revisar independentemente"
+    },
+    {
+      "id": "R10-C27",
+      "pagina": "rota-bencaos",
+      "positivo": {
+        "cenario": "Lapidação 3 compra Faro no marco 6.",
+        "esperado": "Classe Passiva 1 disponível."
+      },
+      "negativo": {
+        "cenario": "Lapidação 3 compra Ímpeto por já ter Destreza 4.",
+        "esperado": "Ainda falta Lapidação 4 para Classe Passiva 2."
+      },
+      "metodo": "revisão semântica de cenário pelo autor-modelo, não playtest",
+      "resultado": "o texto candidato fornece a distinção; revisar independentemente"
+    },
+    {
+      "id": "R10-C28",
+      "pagina": "rota-bencaos",
+      "positivo": {
+        "cenario": "Leque no marco 6 concede uma Passiva de Classe 1.",
+        "esperado": "Sem gasto de espaços, em vaga adicional às cinco pagas."
+      },
+      "negativo": {
+        "cenario": "Leque no marco 6 antecipa uma Passiva de Classe 2.",
+        "esperado": "A Classe Passiva 2 exige nível 7 nessa aquisição."
+      },
+      "metodo": "revisão semântica de cenário pelo autor-modelo, não playtest",
+      "resultado": "o texto candidato fornece a distinção; revisar independentemente"
+    },
+    {
+      "id": "R10-C29",
+      "pagina": "rota-defesa",
+      "positivo": {
+        "cenario": "Lapidação 6, usando colete, paga Reação e 2 PE contra dano 17.",
+        "esperado": "Reduz 9, recebe 8 e perde proteção inclusive equipamento e escudo pelo prazo."
+      },
+      "negativo": {
+        "cenario": "Perder proteção também apaga atributo e toda Defesa.",
+        "esperado": "Demais componentes da Defesa permanecem."
+      },
+      "metodo": "revisão semântica de cenário pelo autor-modelo, não playtest",
+      "resultado": "o texto candidato fornece a distinção; revisar independentemente"
+    },
+    {
+      "id": "R10-C30",
+      "pagina": "rota-defesa",
+      "positivo": {
+        "cenario": "Corpo sem energia atravessa Cortina carregando item que emite energia.",
+        "esperado": "O corpo não é reconhecido por energia pessoal, mas o item pode ser detectado ou barrado."
+      },
+      "negativo": {
+        "cenario": "Isso concede imunidade a efeitos ambientais de todo domínio.",
+        "esperado": "As permissões são específicas."
+      },
+      "metodo": "revisão semântica de cenário pelo autor-modelo, não playtest",
+      "resultado": "o texto candidato fornece a distinção; revisar independentemente"
+    },
+    {
+      "id": "R10-C31",
+      "pagina": "rota-estimulo",
+      "positivo": {
+        "cenario": "Lapidação 6 faz um golpe comum e uma Kata separada.",
+        "esperado": "O golpe pode receber 3d4; a Kata não."
+      },
+      "negativo": {
+        "cenario": "O mesmo ataque transporta Kata de dano e recebe outros 3d4.",
+        "esperado": "A exclusão vale naquele ataque."
+      },
+      "metodo": "revisão semântica de cenário pelo autor-modelo, não playtest",
+      "resultado": "o texto candidato fornece a distinção; revisar independentemente"
+    },
+    {
+      "id": "R10-C32",
+      "pagina": "rota-corpo",
+      "positivo": {
+        "cenario": "Alvo passa no TR que evita uma manobra de Presilha.",
+        "esperado": "Repete o TR uma vez por rodada, para decidir a contenção ou movimento."
+      },
+      "negativo": {
+        "cenario": "Repetição de TR também aumenta o dano ligado à mesma aplicação.",
+        "esperado": "O dano conserva o resultado original."
+      },
+      "metodo": "revisão semântica de cenário pelo autor-modelo, não playtest",
+      "resultado": "o texto candidato fornece a distinção; revisar independentemente"
+    },
+    {
+      "id": "R10-C33",
+      "pagina": "rota-corpo",
+      "positivo": {
+        "cenario": "Ímpeto cruza o ar e termina num apoio ao alcance.",
+        "esperado": "Uso permitido da Ação Bônus."
+      },
+      "negativo": {
+        "cenario": "Ímpeto termina sem apoio e deixa o usuário flutuando.",
+        "esperado": "O personagem cai ao terminar o movimento."
+      },
+      "metodo": "revisão semântica de cenário pelo autor-modelo, não playtest",
+      "resultado": "o texto candidato fornece a distinção; revisar independentemente"
+    },
+    {
+      "id": "R10-C34",
+      "pagina": "rota-corpo",
+      "positivo": {
+        "cenario": "Vigília atua em Exaustão 1.",
+        "esperado": "Consequências efetivas de estágio zero; marca real continua 1."
+      },
+      "negativo": {
+        "cenario": "O descanso remove estágios adicionais graças a Vigília.",
+        "esperado": "A recuperação usa o estágio real e seu ritmo normal."
+      },
+      "metodo": "revisão semântica de cenário pelo autor-modelo, não playtest",
+      "resultado": "o texto candidato fornece a distinção; revisar independentemente"
+    },
+    {
+      "id": "R10-C35",
+      "pagina": "rota-perseguicao",
+      "positivo": {
+        "cenario": "Vulto com Lapidação 4 percebe criatura acessível a 3 m no escuro.",
+        "esperado": "Percepção por som e movimento funciona no alcance."
+      },
+      "negativo": {
+        "cenario": "Vulto revela o interior de uma sala atrás de parede sólida.",
+        "esperado": "Obstáculo sólido bloqueia a percepção."
+      },
+      "metodo": "revisão semântica de cenário pelo autor-modelo, não playtest",
+      "resultado": "o texto candidato fornece a distinção; revisar independentemente"
+    },
+    {
+      "id": "R10-C36",
+      "pagina": "rota-perseguicao",
+      "positivo": {
+        "cenario": "Sem Pegada evita que adversários sigam seus passos.",
+        "esperado": "Esses vestígios não permitem rastrear o percurso."
+      },
+      "negativo": {
+        "cenario": "Arma discreta concede nova Furtividade gratuita por Sem Pegada.",
+        "esperado": "A ação e os requisitos de ocultação continuam os mesmos."
+      },
+      "metodo": "revisão semântica de cenário pelo autor-modelo, não playtest",
+      "resultado": "o texto candidato fornece a distinção; revisar independentemente"
+    },
+    {
+      "id": "R10-C37",
+      "pagina": "rota-combate",
+      "positivo": {
+        "cenario": "Esteio em TR Físico de Força 4, Lapidação 7, d20 igual a 2.",
+        "esperado": "O valor usado é 6 antes dos bônus, sem mudar o resultado natural."
+      },
+      "negativo": {
+        "cenario": "Escolhe Força para o piso de uma ficha cujo TR Físico usa Destreza.",
+        "esperado": "Use o atributo fixo do TR escolhido."
+      },
+      "metodo": "revisão semântica de cenário pelo autor-modelo, não playtest",
+      "resultado": "o texto candidato fornece a distinção; revisar independentemente"
+    },
+    {
+      "id": "R10-C38",
+      "pagina": "rota-combate",
+      "positivo": {
+        "cenario": "Antecipar falha contra uma explosão da criatura A, que depois repete o efeito.",
+        "esperado": "Os próximos TRs contra esse efeito de A têm vantagem na cena."
+      },
+      "negativo": {
+        "cenario": "Criatura B usa a mesma Classe ou o mesmo tipo de TR.",
+        "esperado": "Precisa de uma falha ligada àquela fonte."
+      },
+      "metodo": "revisão semântica de cenário pelo autor-modelo, não playtest",
+      "resultado": "o texto candidato fornece a distinção; revisar independentemente"
+    },
+    {
+      "id": "R10-C39",
+      "pagina": "rota-combate",
+      "positivo": {
+        "cenario": "Assombro com Essência 4, maestria 2 e Lapidação 6, sem arma.",
+        "esperado": "CD 14, até três alvos, uma vez por cena pelo prazo escrito."
+      },
+      "negativo": {
+        "cenario": "Usa Força 6 no lugar de Essência por ser uma rota de arma.",
+        "esperado": "A nova fórmula usa expressamente Essência."
+      },
+      "metodo": "revisão semântica de cenário pelo autor-modelo, não playtest",
+      "resultado": "o texto candidato fornece a distinção; revisar independentemente"
+    },
+    {
+      "id": "R10-C40",
+      "pagina": "rota-propria",
+      "positivo": {
+        "cenario": "Marca do pulso toca estrutura enquanto a vibração ainda ocorre.",
+        "esperado": "Informa a parte que recebeu o impacto até 3 m na estrutura."
+      },
+      "negativo": {
+        "cenario": "Marca do pulso localiza criatura e permite atacá-la através da parede.",
+        "esperado": "Não revela criatura nem dispensa visão e trajetória."
+      },
+      "metodo": "revisão semântica de cenário pelo autor-modelo, não playtest",
+      "resultado": "o texto candidato fornece a distinção; revisar independentemente"
+    }
+  ],
+  "total_pares": 40
+}

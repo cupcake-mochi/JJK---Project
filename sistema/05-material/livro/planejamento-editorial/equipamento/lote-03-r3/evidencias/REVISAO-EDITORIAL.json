@@ -1,0 +1,19 @@
+{
+  "sha256_texto": "92e654311449d09c118eff20cfa7d986e8a12232af21bfd2d1d094c685a05012",
+  "secoes": [
+    {
+      "id": "municao",
+      "parecer": "Leitura contextual: título direto; procedimentos no dono; valores e exemplos conferidos na auditoria da rodada."
+    },
+    {
+      "id": "recarga",
+      "parecer": "Leitura contextual: título direto; procedimentos no dono; valores e exemplos conferidos na auditoria da rodada."
+    },
+    {
+      "id": "reserva",
+      "parecer": "Leitura contextual: título direto; procedimentos no dono; valores e exemplos conferidos na auditoria da rodada."
+    }
+  ],
+  "independente": false,
+  "teste_humano": false
+}

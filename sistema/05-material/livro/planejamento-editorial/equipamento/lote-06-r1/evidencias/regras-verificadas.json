@@ -1,0 +1,367 @@
+{
+  "ok": true,
+  "sha256_texto": "0c65b7d17dc1ee911e292711bbc68330fb70e248390293ee09f8a0bace0d2fe5",
+  "casos": [
+    {
+      "caso": "Nove peças",
+      "obtido": 9,
+      "esperado": 9,
+      "ok": true
+    },
+    {
+      "caso": "Traje 1: estatísticas fora de carga preservadas",
+      "obtido": {
+        "protecao": "1",
+        "dex": "99",
+        "forca": "0"
+      },
+      "esperado": {
+        "protecao": "1",
+        "dex": "99",
+        "forca": "0"
+      },
+      "ok": true
+    },
+    {
+      "caso": "Traje 1: Volume",
+      "obtido": "3/10",
+      "esperado": "3/10",
+      "ok": true
+    },
+    {
+      "caso": "Traje 2: estatísticas fora de carga preservadas",
+      "obtido": {
+        "protecao": "2",
+        "dex": "99",
+        "forca": "0"
+      },
+      "esperado": {
+        "protecao": "2",
+        "dex": "99",
+        "forca": "0"
+      },
+      "ok": true
+    },
+    {
+      "caso": "Traje 2: Volume",
+      "obtido": "1",
+      "esperado": "1",
+      "ok": true
+    },
+    {
+      "caso": "Traje 3: estatísticas fora de carga preservadas",
+      "obtido": {
+        "protecao": "3",
+        "dex": "99",
+        "forca": "3"
+      },
+      "esperado": {
+        "protecao": "3",
+        "dex": "99",
+        "forca": "3"
+      },
+      "ok": true
+    },
+    {
+      "caso": "Traje 3: Volume",
+      "obtido": "2",
+      "esperado": "2",
+      "ok": true
+    },
+    {
+      "caso": "Revestimento 1: estatísticas fora de carga preservadas",
+      "obtido": {
+        "protecao": "4",
+        "dex": "0",
+        "forca": "3"
+      },
+      "esperado": {
+        "protecao": "4",
+        "dex": "0",
+        "forca": "3"
+      },
+      "ok": true
+    },
+    {
+      "caso": "Revestimento 1: Volume",
+      "obtido": "2",
+      "esperado": "2",
+      "ok": true
+    },
+    {
+      "caso": "Revestimento 2: estatísticas fora de carga preservadas",
+      "obtido": {
+        "protecao": "5",
+        "dex": "0",
+        "forca": "4"
+      },
+      "esperado": {
+        "protecao": "5",
+        "dex": "0",
+        "forca": "4"
+      },
+      "ok": true
+    },
+    {
+      "caso": "Revestimento 2: Volume",
+      "obtido": "3",
+      "esperado": "3",
+      "ok": true
+    },
+    {
+      "caso": "Revestimento 3: estatísticas fora de carga preservadas",
+      "obtido": {
+        "protecao": "6",
+        "dex": "0",
+        "forca": "6"
+      },
+      "esperado": {
+        "protecao": "6",
+        "dex": "0",
+        "forca": "6"
+      },
+      "ok": true
+    },
+    {
+      "caso": "Revestimento 3: Volume",
+      "obtido": "4",
+      "esperado": "4",
+      "ok": true
+    },
+    {
+      "caso": "Broquel: estatísticas fora de carga preservadas",
+      "obtido": {
+        "protecao": "1",
+        "dex": "5",
+        "forca": "0"
+      },
+      "esperado": {
+        "protecao": "1",
+        "dex": "5",
+        "forca": "0"
+      },
+      "ok": true
+    },
+    {
+      "caso": "Broquel: Volume",
+      "obtido": "1/2",
+      "esperado": "1/2",
+      "ok": true
+    },
+    {
+      "caso": "Médio: estatísticas fora de carga preservadas",
+      "obtido": {
+        "protecao": "2",
+        "dex": "3",
+        "forca": "3"
+      },
+      "esperado": {
+        "protecao": "2",
+        "dex": "3",
+        "forca": "3"
+      },
+      "ok": true
+    },
+    {
+      "caso": "Médio: Volume",
+      "obtido": "1",
+      "esperado": "1",
+      "ok": true
+    },
+    {
+      "caso": "Torre: estatísticas fora de carga preservadas",
+      "obtido": {
+        "protecao": "3",
+        "dex": "1",
+        "forca": "5"
+      },
+      "esperado": {
+        "protecao": "3",
+        "dex": "1",
+        "forca": "5"
+      },
+      "ok": true
+    },
+    {
+      "caso": "Torre: Volume",
+      "obtido": "2",
+      "esperado": "2",
+      "ok": true
+    },
+    {
+      "caso": "Treze itens comuns",
+      "obtido": 13,
+      "esperado": 13,
+      "ok": true
+    },
+    {
+      "caso": "Cantil 0,3",
+      "obtido": "3/10",
+      "esperado": "3/10",
+      "ok": true
+    },
+    {
+      "caso": "Pacote exploração",
+      "obtido": "13/10",
+      "esperado": "13/10",
+      "ok": true
+    },
+    {
+      "caso": "Pacote com ração",
+      "obtido": "7/5",
+      "esperado": "7/5",
+      "ok": true
+    },
+    {
+      "caso": "Preço pacote preservado",
+      "obtido": 13000,
+      "esperado": 13000,
+      "ok": true
+    },
+    {
+      "caso": "Katana+Broquel+Traje1",
+      "obtido": "9/5",
+      "esperado": "9/5",
+      "ok": true
+    },
+    {
+      "caso": "Hankyu+flechas+Traje1",
+      "obtido": "9/5",
+      "esperado": "9/5",
+      "ok": true
+    },
+    {
+      "caso": "Naginata+Traje1",
+      "obtido": "23/10",
+      "esperado": "23/10",
+      "ok": true
+    },
+    {
+      "caso": "Pistola+duas reservas+Traje1",
+      "obtido": "6/5",
+      "esperado": "6/5",
+      "ok": true
+    },
+    {
+      "caso": "Compra completa Katana",
+      "obtido": "31/10",
+      "esperado": "31/10",
+      "ok": true
+    },
+    {
+      "caso": "Metralhadora+duas reservas+Traje1+exploração",
+      "obtido": "33/5",
+      "esperado": "33/5",
+      "ok": true
+    },
+    {
+      "caso": "Metralhadora conjunto atende STR3",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Mesmo conjunto não atende STR0",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Fonte de munição existe",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Nenhum item muda carga por ter grau",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Mei60kg com equipamento falha",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Mei redistribui1",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "60kg sem equipamento STR0",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "61kg sem equipamento STR0 não arredonda",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Mochila na criatura não desconta Volume",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Arrasto até dobro / Força2",
+      "obtido": 14,
+      "esperado": 14,
+      "ok": true
+    },
+    {
+      "caso": "Texto: PROTECAO.md",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Negativo: PROTECAO.md",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Texto: ITENS-E-OBJETOS.md",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Negativo: ITENS-E-OBJETOS.md",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Texto: COMPRAS-E-EQUIPAMENTO-INICIAL.md",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Negativo: COMPRAS-E-EQUIPAMENTO-INICIAL.md",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Texto: MOVIMENTO-E-CARGA.md",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Negativo: MOVIMENTO-E-CARGA.md",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    }
+  ],
+  "escopo": "Calibração de carga desta rodada. Demais cenários na revisão anterior preservada."
+}

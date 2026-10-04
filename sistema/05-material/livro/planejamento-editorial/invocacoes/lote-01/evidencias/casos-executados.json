@@ -1,0 +1,105 @@
+{
+  "ok": true,
+  "sha256_texto": "297d96084502eb65780b9ed2ac4f7e121a235cfdbb6e41db254f980e55393dcd",
+  "casos": [
+    {
+      "id": "troca-nao-duplica-basica-nem-movimento",
+      "resultado": "passou",
+      "tipo": "modelo de transições executado"
+    },
+    {
+      "id": "reserva-nao-renova-metros",
+      "resultado": "passou",
+      "tipo": "modelo de transições executado"
+    },
+    {
+      "id": "cadeia-transferencia-conserva-um-recurso",
+      "resultado": "passou",
+      "tipo": "modelo de transições executado"
+    },
+    {
+      "id": "duas-antecipadas-coletiva-renovacao-magia-pessoal",
+      "resultado": "passou",
+      "tipo": "modelo de transições executado"
+    },
+    {
+      "id": "preparada-inviavel-conserva-prazo-e-cobra-uma-basica",
+      "resultado": "passou",
+      "tipo": "modelo de transições executado"
+    },
+    {
+      "id": "coletiva-externa-encerra-preparada",
+      "resultado": "passou",
+      "tipo": "modelo de transições executado"
+    },
+    {
+      "id": "preparada-expira-mesmo-nao-tendo-disparado",
+      "resultado": "passou",
+      "tipo": "modelo de transições executado"
+    },
+    {
+      "id": "uma-especial-pendente-por-corpo",
+      "resultado": "passou",
+      "tipo": "modelo de transições executado"
+    },
+    {
+      "id": "basica-impedida-nao-transfere",
+      "resultado": "passou",
+      "tipo": "modelo de transições executado"
+    },
+    {
+      "id": "especial-imediata-feitico-positivo-negado-classezero-possivel",
+      "resultado": "passou",
+      "tipo": "modelo de transições executado"
+    },
+    {
+      "id": "preparacao-positiva-bloqueia-feitico-positivo-na-emissao",
+      "resultado": "passou",
+      "tipo": "modelo de transições executado"
+    },
+    {
+      "id": "limite-generico-classezero-com-magica-pessoal-positiva",
+      "resultado": "passou",
+      "tipo": "modelo de transições executado"
+    },
+    {
+      "id": "duas-basicas-nao-ocupam-conjuracoes-pessoais",
+      "resultado": "passou",
+      "tipo": "modelo de transições executado"
+    },
+    {
+      "id": "excecao-evocador-combinacao-ocupa-duas",
+      "resultado": "passou",
+      "tipo": "modelo de transições executado"
+    },
+    {
+      "id": "concentracao-temporal-duas-ordens-pagas-mais-feitico-pessoal",
+      "resultado": "passou",
+      "tipo": "modelo de transições executado"
+    },
+    {
+      "id": "armado-consome-basica-antes-sem-coletiva-disparo-sair-encerra",
+      "resultado": "passou",
+      "tipo": "modelo de transições executado"
+    },
+    {
+      "id": "terceiro-corpo-dano-nega-basica-permite-especial",
+      "resultado": "passou",
+      "tipo": "modelo de transições executado"
+    }
+  ],
+  "contagens": {
+    "precos": 19383,
+    "devolucoes_armado": 6370,
+    "reservas": 210,
+    "sobrevivencia": 3786,
+    "reparos": 900,
+    "transicoes_nomeadas": 17
+  },
+  "limites": [
+    "Modelo dirigido das regras de R11; não executa a ficha completa, cenas humanas ou regras de toda habilidade de Caminho.",
+    "Exceção Evocador é parâmetro explícito do modelo; validação textual de gatilhos e custos permanece indispensável.",
+    "Dano em área acumulado e comando no turno de emissão são decisões mecânicas candidatas registradas, não fatos de cânone.",
+    "Vários casos são enumerações do modelo; não equivalem a partidas ou medições empíricas de equilíbrio."
+  ]
+}

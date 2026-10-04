@@ -1,0 +1,71 @@
+{
+  "sha256_texto": "dccb0dcf2744679c51051bcd1abe0f665f61295136837febc69f9815670f822c",
+  "casos_documentais": 31,
+  "secoes": [
+    {
+      "id": "cura",
+      "titulo": "Cura",
+      "objetivo": "Regra de recuperação e elegibilidade da fonte.",
+      "adequacao_suficiencia": "Cura é título convencional; dois exemplos ensinam teto e elegibilidade.",
+      "redundancia_destino": "Origens e Fundamento guardam procedimentos próprios.",
+      "pendencia": "Sem Cura/Levanta e Remenda ainda exigem conciliação de exceções."
+    },
+    {
+      "id": "temporarios",
+      "titulo": "Vida e energia temporárias",
+      "objetivo": "Reservas separadas e ordem de consumo.",
+      "adequacao_suficiencia": "Vida e energia temporárias nomeia os dois recursos; tabela evita duplicar capítulos.",
+      "redundancia_destino": "Dano só recebe remissão de aplicação, sem repetir seu cálculo inteiro.",
+      "pendencia": "Conservar ou ajustar teto após mudança de máximo precisa definição."
+    },
+    {
+      "id": "zero",
+      "titulo": "Vida a zero",
+      "objetivo": "Escolha ao cair e socorro por Aguentar.",
+      "adequacao_suficiencia": "Vida a zero é busca comum; tabela apresenta as escolhas antes das exceções.",
+      "redundancia_destino": "Inconsciente é definido aqui; condições não herdam automaticamente D&D.",
+      "pendencia": "Contagem, cura insuficiente e excesso inicial são propostas, marcadas no texto."
+    },
+    {
+      "id": "insistir",
+      "titulo": "Insistir",
+      "objetivo": "Custos e duas situações de cura em Insistir.",
+      "adequacao_suficiencia": "Nome da habilidade mantido; exemplos completos80→70→50→10.",
+      "redundancia_destino": "Limite de dano a zero remete à página3.",
+      "pendencia": "R19 propõe base sem as perdas de Insistir e interrupção antes de zerar o máximo. Dano após colapso e equilíbrio seguem pendentes."
+    },
+    {
+      "id": "sequelas",
+      "titulo": "Sequelas e Cicatrizes",
+      "objetivo": "Consequências de quedas e desfecho.",
+      "adequacao_suficiencia": "Nomes atuais com diferenças explícitas; não reconta decisões históricas.",
+      "redundancia_destino": "Repetição breve de descanso necessária para consulta da marca.",
+      "pendencia": "Período da Cicatriz e efeito da Sequela em Insistir são interpretações."
+    },
+    {
+      "id": "descansos",
+      "titulo": "Descansos",
+      "objetivo": "Recuperar recursos por descanso.",
+      "adequacao_suficiencia": "Descansos, Curto, Longo: títulos familiares sem importar horas de D&D.",
+      "redundancia_destino": "Tabela reúne recursos; Exaustão recebe remissão.",
+      "pendencia": "Piso fora da base e sono em missão ainda precisam decisão."
+    },
+    {
+      "id": "exaustao",
+      "titulo": "Exaustão",
+      "objetivo": "Aplicar Exaustão e combiná-la com Integridade.",
+      "adequacao_suficiencia": "Tabela com degrau/efeito/PE; exemplos mostram mínimo 1 e pior corte.",
+      "redundancia_destino": "Não repete tabela de estágios de Alma.",
+      "pendencia": "4,5 m aprovado no histórico; validador legado está desatualizado."
+    },
+    {
+      "id": "usos",
+      "titulo": "Cena e usos de habilidades",
+      "objetivo": "Saber quando usos voltam.",
+      "adequacao_suficiencia": "Cena e usos de habilidades é previsível; exemplo do próprio catálogo.",
+      "redundancia_destino": "Sem títulos metafóricos de relógios; tutorial recebe apenas remissão.",
+      "pendencia": "Por descanso sem espécie e usos de curto após longo exigem conferir donos."
+    }
+  ],
+  "tipo": "Revisão pelo autor; sem teste humano ou avaliador independente."
+}

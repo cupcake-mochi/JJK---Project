@@ -1,0 +1,187 @@
+========================================================================================
+0. RITMOS — o que cresce, e quanto
+========================================================================================
+  nv2: M1/atr3  nv6: M1/atr3  nv10: M2/atr4  nv14: M2/atr4  nv18: M3/atr5  nv22: M3/atr5  nv26: M4/atr6  nv30: M4/atr6
+  maestria cresce +3 · atributo investido cresce +3
+
+========================================================================================
+1. ACERTO — alvo que INVESTE em Destreza (3->6) E carrega refino (protecao 1->4)
+========================================================================================
+  Defesa do alvo dificil, nivel a nivel: 14 15 16 17 18 19 20 20
+  quem ataca                            nv2   nv6   nv10  nv14  nv18  nv22  nv26  nv30    deriva
+  corpo a corpo (Forca investida, treinado) 55%   50%   55%   50%   55%   50%   55%   55%    5pp
+  a distancia (Destreza investida, treinado) 55%   50%   55%   50%   55%   50%   55%   55%    5pp
+  conjuracao (atributo da tecnica no teto) 55%   50%   55%   50%   55%   50%   55%   55%    5pp
+  [base antiga: 2 + maestria]            50%   45%   45%   40%   40%   35%   35%   35%    -15pp
+  A base antiga cai 15pp na campanha, e e por isso que ela morreu na v0.117.
+
+========================================================================================
+2. TESTE DE RESISTENCIA — o resistente tambem investe (3 -> 6)
+========================================================================================
+  estado                                nv2   nv6   nv10  nv14  nv18  nv22  nv26  nv30    deriva
+  sem treino (so o atributo)             60%   60%   55%   55%   50%   50%   45%   45%    -15pp
+  treinado (atributo + maestria)         65%   65%   65%   65%   65%   65%   65%   65%    0pp
+  o treinado fica plano em 65%, que e p(d20 >= 8) — a base da CD E essa chance.
+  treinar vale 10pp em todos os niveis.
+
+========================================================================================
+3. PRECISAO (+2 na CD) — 10 pontos percentuais em todo nivel?
+========================================================================================
+  Conferido em todos os niveis e estados de treino: 10 pp sempre.
+
+========================================================================================
+4. PERICIA — aqui a deriva para CIMA e o objetivo
+========================================================================================
+  dificuldade                           nv2   nv6   nv10  nv14  nv18  nv22  nv26  nv30    ganho
+  CD 10 (rotina)                         75%   75%   85%   85%   95%   95%  100%  100%    +25pp
+  CD 14 (facil)                          55%   55%   65%   65%   75%   75%   85%   85%    +30pp
+  CD 18 (media)                          35%   35%   45%   45%   55%   55%   65%   65%    +30pp
+  CD 22 (dificil)                        15%   15%   25%   25%   35%   35%   45%   45%    +30pp
+  CD 26 (quase impossivel)                0%    0%    5%    5%   15%   15%   25%   25%    +25pp
+
+========================================================================================
+5. NENHUM TERMO DOS DOIS LADOS DA MESMA ROLAGEM
+========================================================================================
+  acerto de conjuracao     ataque ['atributo da tecnica', 'maestria']  vs  defesa ['Destreza', 'protecao']   ok
+  acerto fisico            ataque ['Forca ou Destreza do atacante', 'maestria']  vs  defesa ['Destreza do alvo', 'protecao']   ok
+  Teste de Resistencia     ataque ['atributo da tecnica', 'maestria de quem conjura']  vs  defesa ['atributo do TR', 'maestria de quem resiste']   ok
+  pericia                  ataque ['CD da dificuldade']  vs  defesa ['atributo', 'maestria']   ok
+
+========================================================================================
+6. VIDA — Constituicao compra o mesmo tanto de sobrevivencia que a Destreza?
+========================================================================================
+  A referencia NAO e a tabela do manual, que nao tem atributo nenhum.
+  E o outro atributo que ja compra sobrevivencia: Destreza, pela Defesa.
+
+  nivel     Des 1->6 (erra mais)   Con 1->6 (aguenta mais)    razao
+  nv2                       56%                       67%     1.07
+  nv6                       56%                       77%     1.14
+  nv10                      45%                       79%     1.23
+  nv14                      45%                       80%     1.24
+  nv18                      38%                       81%     1.31
+  nv22                      38%                       81%     1.31
+  nv26                      33%                       82%     1.36
+  nv30                      33%                       82%     1.36
+
+  Razao 1,00 = os dois compram igual. As duas correm em sentidos opostos:
+  Destreza protege mais cedo (a Defesa nao cresce), Constituicao mais tarde
+  (a vida cresce). E por isso que uma nao domina a outra a campanha inteira.
+
+========================================================================================
+7. VIDA POR CAMINHO
+========================================================================================
+  Caminho       dado   nv1  /nivel   PE   vida+PE      nv2     nv10     nv30
+  Bastiao     d12       12       7    4        11       25      105      305
+  Vanguarda   d8         8       5    5        10       19       83      243
+  Guia        d8         8       5    5        10       19       83      243
+  Emanador    d6         6       4    6        10       16       72      212
+  media do ganho dos Caminhos de referencia + Constituicao: 8.25
+  [x] 7.1: chefe nivel 2: 18, media 19.75
+  [x] 7.1: chefe nivel 5: 40, media 44.5
+  [x] 7.1: chefe nivel 10: 77, media 85.75
+  [x] 7.1: chefe nivel 15: 114, media 127
+  [x] 7.1: chefe nivel 20: 151, media 168.25
+  [x] 7.1: chefe nivel 25: 189, media 209.5
+  [x] 7.1: chefe nivel 30: 226, media 250.75
+
+  rodadas para cair sob foco (a linha do manual poe a media em 1.11):
+                      nv2      nv5     nv10     nv20     nv30
+  Bastiao             1.4      1.4      1.4      1.4      1.3
+  Vanguarda           1.1      1.1      1.1      1.1      1.1
+  Guia                1.1      1.1      1.1      1.1      1.1
+  Emanador            0.9      0.9      0.9      0.9      0.9
+  MEDIA               1.1      1.1      1.1      1.1      1.1
+  [x] a media cai em 1.11 rodadas, dentro de 20% do 1.11 que a linha do manual pede
+
+  espalhamento no nv30: 122 (Emanador Con 0) a 395 (Bastiao Con 6)  ->  3.2x
+  (0.5 rodadas contra 1.7)
+  Largo de proposito: a Constituicao entra ja no nivel 1, entao ela multiplica
+  por NIVEL em vez de (nivel-1). Teto do validador em 3,5x por causa disso.
+
+  soma vida+PE por Caminho: 10 a 11
+  Parelha: a troca couro-contra-combustivel e sabor, nao degrau de poder.
+
+  as tres alavancas de sobrevivencia, no nv10, do menor valor ao maior:
+    Caminho     46%     Constituicao    113%     Destreza     45%
+
+========================================================================================
+8. INTEGRIDADE NAO LEVA CAMINHO NEM CONSTITUICAO — E LEVA ESSENCIA
+========================================================================================
+  nivel     Integridade   Emanador Con3   Bastiao Con3   quem acaba primeiro
+  nv2                28              16             25   o corpo, nos dois
+  nv10               92              72            105   a alma do Bastiao, so ele
+  nv18              156             128            185   a alma do Bastiao, so ele
+  nv30              252             212            305   a alma do Bastiao, so ele
+
+  Com Essencia 3 — o meio da escala 0-6 — a formula reproduz
+  exatamente a curva do manual, entao a tabela de estagios continua calibrada.
+  A coluna acima usa Essencia 3; Essencia 0 da 165 no nv30 e
+  Essencia 6 da 339.
+
+  A dona da maquina de alma inteira e a PECA 24, desde a v0.145: a formula, os
+  quatro estagios, o acoplamento com a vida e o Teste de Resistencia de Espirito.
+  Esta checagem so guarda o que e desta peca — que a Integridade nao leva Caminho
+  nem Constituicao. Quem mede a consequencia da Essencia e o conferir-alma.py.
+
+========================================================================================
+PONTOS DE ENERGIA — a formula que estava no manual e ninguem tinha lido
+========================================================================================
+  Escrita na v0.26. Ate ali so existia a instancia do nivel 2 na peca 8, e ela
+  nao da para generalizar sozinha: a vida ao lado dela multiplica por (nivel-1)
+  e ainda soma atributo, entao as duas leituras obvias eram plausiveis.
+
+  nivel   PE do manual    6 x nivel   bate?
+  1       6               6           sim
+  5       30              30          sim
+  9       54              54          sim
+  13      78              78          sim
+  17      102             102         sim
+  20      120             120         sim
+
+  Sem atributo dentro, e isso e decisao: um atributo na conta de PE viraria o
+  atributo obrigatorio de todo conjurador pela porta dos fundos.
+
+  Caminho         nv2    nv6   nv10   nv14   nv18   nv22   nv26   nv30
+  Bastiao           8     24     40     56     72     88    104    120
+  Vanguarda        10     30     50     70     90    110    130    150
+  Guia             10     30     50     70     90    110    130    150
+  Emanador         12     36     60     84    108    132    156    180
+
+  O passo e constante em todos os cinco: o PE e a unica reserva do sistema que
+  cresce em linha reta desde o nivel 1, e e por isso que a ficha de nivel 2 ja
+  tem combustivel para uma missao sem ter couro para ela.
+
+========================================================================================
+9. INCONSCIENTE — a maquina de estado de 0 de vida (secao 5.5)
+========================================================================================
+  janela do Aguentar: 3 rodadas, num combate de 3.4 a 4.0.
+  Insistir: 0.875 da maxima no total, e 3 rodadas para os 4 Caminhos x 3 Constituicoes x 8 niveis.
+  contra-teste: cobrar o dano que entra daria 1 a 4 rodadas conforme o corpo. Por isso a escada e fracao.
+  Cicatriz na 2a queda; o perfil mais fragil cai 3.43 vez(es) por missao padrao.
+  a Sequela so encurta a janela: espiral de letalidade, nunca de competencia.
+  Cicatriz: vantagem em Intimidação e desvantagem em Persuasão, as duas em Essência — troca dentro de um poco so.
+  a Cicatriz nao nomeia nenhuma rolagem do laco da queda.
+  o teto de 1 Cicatriz deriva da peca 4 §5: vantagem nao empilha.
+  Aguentar e Insistir: nenhum contem o outro. A escolha existe nos dois sentidos.
+========================================================================================
+9.8 O SOCORRO A 0 — o %, a porta do Levanta, o dano que entra, e a copia do livro
+========================================================================================
+  o socorro e 20% da maxima, e a peca e o livro dizem a mesma coisa nas seis frases.
+  a tabela do socorro reconstroi nas 4 linhas, da vida da §5.1, da Cura do manual e da Classe por nivel.
+  o acumulado fecha em 1.8 a 2.5 golpes de chefe, pela banda da peca 26 §6.5.
+========================================================================================
+10. O ESCOPO DO CRITICO — a secao 5.2, e o que ele NAO dobra
+========================================================================================
+  a linha de regra tem 3 de 3 exigencias: o principio e as duas exclusoes que a v0.151 nomeou.
+  (lida do bloco de citacao, nao da secao — a prosa repete as mesmas
+   palavras, e procurar nela faria a checagem passar em si mesma.)
+  o 20 natural continua escrito, e e dele que a peca 19 tira a taxa de 5%.
+========================================================================================
+11. TEMPORARIOS — a vida e a energia temporarias seguem uma regra so (5.1.1 e 5.1.2)
+========================================================================================
+  [x] a vida e a energia temporarias dizem nao acumula, metade do maximo e fim da cena,
+      na peca, no capitulo 1 do livro e no glossario
+  [x] `Embalo` (Bastião, Combatente Amaldiçoado, nivel 11): entrega 2, teto 22
+  [x] `Refluxo` (Vanguarda, Estocada, nivel 11): entrega 1, teto 27
+========================================================================================
+>>> TUDO OK — nada deriva onde nao deve, e a pericia deriva onde deve.

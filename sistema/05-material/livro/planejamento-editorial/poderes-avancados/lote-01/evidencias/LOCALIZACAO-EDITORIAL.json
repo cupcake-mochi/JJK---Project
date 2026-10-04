@@ -1,0 +1,26 @@
+{
+  "sha256_texto": "2b1c02cb3407a7aec6ef385a00726e1d131020b3f2b110b433bfcedf28f2854f",
+  "titulos_revisto": true,
+  "sem_explicacao_alheia": true,
+  "vocabulario_revisto": true,
+  "excecoes_vocabulario": [],
+  "excecoes_localizacao": [
+    {
+      "termo": "Regravação",
+      "trecho": "A aptidão Regravação, em Aptidões, permite encerrar o Rescaldo antecipadamente e tem seus próprios custos e limites. A recuperação da técnica não dispensa os requisitos de uma nova Expansão.",
+      "papel": "remissao",
+      "justificativa": "O leitor precisa encontrar a exceção que encerra Rescaldo; a frase não repete ação, custo, aquisição nem contador da aptidão.",
+      "nao_reproduz_regra": true
+    }
+  ],
+  "revisor": "Subagente maxima; revisão contextual integral",
+  "notas": "Resguardar foi substituído por proteger para evitar colisão desnecessária; Regravação é remissão indispensável. Artigos iniciais e Como ler não aparecem nos títulos.",
+  "revisao_raiz": "Leitura integral anterior e reinspeção dos trechos alterados em acerto, degraus, rescaldo e exemplo de vidro. Revisão independente preservada em REVISAO-INDEPENDENTE.md.",
+  "revisao_delta_nomes": {
+    "revisor": "/root/compatibilidade",
+    "sha256_previo": "2b1c02cb3407a7aec6ef385a00726e1d131020b3f2b110b433bfcedf28f2854f",
+    "sha256_atual": "2b1c02cb3407a7aec6ef385a00726e1d131020b3f2b110b433bfcedf28f2854f",
+    "escopo": "Somente o delta nominal foi relido nesta etapa; leitura integral anterior preservada no snapshot. Números e âncoras idênticos.",
+    "evidencia": "consolidacao/lote-01/migracao-nomes/MIGRACAO.json"
+  }
+}

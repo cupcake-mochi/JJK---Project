@@ -23,7 +23,7 @@ Dez checagens
   2. OFICIOS — os da ficha sao os da peca 7 (a contagem sai da peca).
   3. CAMINHOS — nome, vida inicial, vida por nivel e PE por nivel batem com a
      peca 8, e as pericias fixas batem com a peca 7.
-  4. TRILHAS — as 15 da ficha existem na peca 6, no Caminho certo.
+  4. TRILHAS — as 18 da ficha existem na peca 6, no Caminho certo.
   5. AS CONSTANTES DO NIVEL 2 — maestria, refino, protecao, Classe, feiticos
      conhecidos, Classe 0, Integridade, XP do proximo nivel e os pontos de
      atributo batem com as pecas donas.
@@ -275,7 +275,7 @@ else:
               f'a troca continua sendo sabor')
 
 # ==========================================================================
-bloco('4. TRILHAS — as 15 da ficha existem na peca 6?')
+bloco('4. TRILHAS — as 18 da ficha existem na peca 6?')
 
 total_tr = 0
 for nome, c in sorted(ficha_cam.items()):
@@ -287,10 +287,29 @@ for nome, c in sorted(ficha_cam.items()):
         print(f'    [x] {nome:<11} {", ".join(c["trilhas"])}')
 if total_tr:
     print(f'  {total_tr} Trilhas ao todo, tres por Caminho.')
-if total_tr != 15:
-    erro(f'esperava 15 Trilhas (3 x 5 Caminhos) e a ficha imprime {total_tr}')
+if total_tr != 3 * len(peca_cam):
+    erro(f'esperava tres Trilhas por Caminho e a ficha imprime {total_tr}')
 
 # ==========================================================================
+# v0.331: tabelas do livro tambem devem mostrar os seis Caminhos.
+_raiz331 = os.path.dirname(os.path.dirname(AQUI))
+for _file331, _cols331 in [('10-como-jogar.md',5),('12-pericias-e-oficios.md',2)]:
+    _path331 = os.path.join(_raiz331, 'sistema', '05-material', 'livro', 'manual', _file331)
+    _txt331 = open(_path331, encoding='utf-8').read()
+    _rows331 = {}
+    for _line331 in _txt331.splitlines():
+        _mat331 = re.match(r'^\| \*\*([^*]+)\*\* \| (.+)$', _line331)
+        if _mat331 and _mat331[1] in peca_cam:
+            _rows331[_mat331[1]] = [x.strip() for x in _mat331[2].strip('|').split('|')]
+    if set(_rows331) != set(peca_cam):
+        erro(f'{_file331}: tabela do livro omite Caminho atual')
+    for _name331, _values331 in _rows331.items():
+        _p331 = peca_cam[_name331]
+        _expected331 = ([_p331['dado'],str(_p331['vida1']),str(_p331['vidaNv']),str(_p331['peNv'])]
+                       if _cols331 == 5 else [' · '.join(_p331['pericias'])])
+        if _values331 != _expected331:
+            erro(f'{_file331}: {_name331} diverge da base mecanica')
+
 bloco('5. AS CONSTANTES DO NIVEL 2')
 
 NIVEL = const_js_simples('NIVEL')

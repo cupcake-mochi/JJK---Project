@@ -1,0 +1,144 @@
+{
+  "sha256_texto": "4ad33a8841c7b77bc38af1852b6cbd5d8eec9b4e1aff7791a1629bfb9d371831",
+  "titulos_revisto": true,
+  "sem_explicacao_alheia": true,
+  "vocabulario_revisto": true,
+  "excecoes_vocabulario": [],
+  "revisor": "Agente principal; leitura integral e revisão localizada após exportação bloqueada",
+  "excecoes_localizacao": [
+    {
+      "termo": "Energia Reversa",
+      "trecho": "Uma Técnica Marcial reúne o que você consegue fazer com seu corpo e seu equipamento. Um Manejo desenvolve uma aptidão aprendida, como Energia Reversa. Ambas usam o procedimento de Fundamento, com as diferenças apresentadas neste capítulo.",
+      "papel": "remissao",
+      "justificativa": "Aptidão apenas identifica a origem possível de um Manejo. A regra de usar a aptidão não é reproduzida.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Corpo Amaldiçoado",
+      "trecho": "| Técnica Marcial | Corpo Amaldiçoado. | Katas. | Refino e aptidões. |",
+      "papel": "requisito",
+      "justificativa": "Tabela de acesso à rota precisa nomear a Origem contemplada.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Corpo Amaldiçoado",
+      "trecho": "Você desenvolve um estilo ligado a armas ou a uma ferramenta amaldiçoada. Uma lutadora pode conduzir suas Katas pela lâmina. Um Corpo Amaldiçoado pode usar uma armadura de engenharia para proteger os companheiros. Descreva primeiro o funcionamento desse estilo.",
+      "papel": "requisito",
+      "justificativa": "Exemplo identifica qual Origem pode usar a rota; não explica sua ficha ou habilidades.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Corpo Amaldiçoado",
+      "trecho": "Esta rota não concede Expansão de Domínio, incompleta ou completa, nem Extensão de Domínio. Também não permite aprender ou auxiliar Ritual. Essas exceções continuam valendo para o Corpo Amaldiçoado, embora ele possua energia e aptidões.",
+      "papel": "incompatibilidade",
+      "justificativa": "Enumera exclusões próprias da rota, inclusive para quem possui energia; necessária para a aquisição.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Canalizar energia",
+      "trecho": "Esse registro decide se o equipamento permite ao seu ataque desarmado ferir maldições. Todas as Katas válidas já podem feri-las, pois passam pela ferramenta amaldiçoada. O Corpo Amaldiçoado também pode usar Canalizar Energia nos ataques comuns, pelas regras da aptidão.",
+      "papel": "remissao",
+      "justificativa": "Remissão explícita à aptidão para ataques comuns, distinguindo-os das Katas da ferramenta.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Corpo Amaldiçoado",
+      "trecho": "Esse registro decide se o equipamento permite ao seu ataque desarmado ferir maldições. Todas as Katas válidas já podem feri-las, pois passam pela ferramenta amaldiçoada. O Corpo Amaldiçoado também pode usar Canalizar Energia nos ataques comuns, pelas regras da aptidão.",
+      "papel": "remissao",
+      "justificativa": "Remissão explícita à aptidão para ataques comuns, distinguindo-os das Katas da ferramenta.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Energia Reversa",
+      "trecho": "As Famílias escolhidas também permitem criar uma Kata de cura baseada em reparo. Na ficha dela, será necessário declarar os corpos e materiais que a ferramenta consegue reparar. Essa cura não se torna Energia Reversa pela escolha da Forma Cura.",
+      "papel": "incompatibilidade",
+      "justificativa": "Distingue reparo por ferramenta de energia positiva sem reimprimir cura da aptidão.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Energia Reversa",
+      "trecho": "A Regra explica uma aplicação da semente. Domínio Simples pode sustentar um estilo de contenção próximo de você. Energia Reversa pode sustentar um estilo de cura. Transformar a semente em fogo, viagem no tempo ou leitura de memória exigiria um funcionamento que ela não fornece.",
+      "papel": "requisito",
+      "justificativa": "Identifica a semente e o tipo de criação compatível; regra própria da rota.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Energia Reversa",
+      "trecho": "## Energia Reversa",
+      "papel": "remissao",
+      "justificativa": "Subtítulo seleciona a semente. Introdução da página aponta a entrada de Aptidões.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Energia Reversa",
+      "trecho": "Escolher Energia Reversa como semente concede um bônus às suas curas em si mesmo. Some um terço do refino, arredondado para baixo, ao total de cada rolagem de cura que você produzir e aplicar em você. No refino 10, esse bônus é +4.",
+      "papel": "requisito",
+      "justificativa": "Define bônus exclusivo de selecionar essa semente, inexistente na aptidão comum.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Energia Reversa",
+      "trecho": "Energia Reversa, a aptidão, cura você. Aplicá-la diretamente em outra criatura exige uma regra que conceda essa permissão. A semente, sozinha, não a fornece.",
+      "papel": "incompatibilidade",
+      "justificativa": "Distingue os alvos do Manejo dos alvos da aptidão para evitar transferir uma permissão.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Energia Reversa",
+      "trecho": "Energia Reversa e curas construídas a partir dela não curam Corpo Amaldiçoado, conforme essa Origem. Um efeito de reparo apropriado usa sua própria capacidade. Escolher Forma Cura não muda o material ou o tipo de corpo que a Regra consegue tratar.",
+      "papel": "incompatibilidade",
+      "justificativa": "Incompatibilidade de alvo necessária à construção da cura desta rota.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Corpo Amaldiçoado",
+      "trecho": "Energia Reversa e curas construídas a partir dela não curam Corpo Amaldiçoado, conforme essa Origem. Um efeito de reparo apropriado usa sua própria capacidade. Escolher Forma Cura não muda o material ou o tipo de corpo que a Regra consegue tratar.",
+      "papel": "incompatibilidade",
+      "justificativa": "Incompatibilidade de alvo necessária à construção da cura desta rota.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Energia Reversa",
+      "trecho": "Um Manejo de Forma Cura produzido por Energia Reversa pode ser usado contra uma maldição hostil pelo procedimento de Aptidões e Refino — Ferir maldições. Confira ali o ataque, a conversão dos dados em dano e o aumento próprio dessa aplicação.",
+      "papel": "remissao",
+      "justificativa": "Aponta o procedimento ofensivo no dono Ferir maldições sem reproduzir sua conta.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Energia Reversa",
+      "trecho": "O bônus de autocura desta rota não entra nesse dano de Energia Reversa. Usar diretamente a aptidão sobre outro alvo continua exigindo uma permissão expressa. A Forma Cura e a aptidão conservam suas diferentes ações, custos e requisitos.",
+      "papel": "incompatibilidade",
+      "justificativa": "Exclui bônus de autocura próprio da rota da aplicação ofensiva.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Energia Reversa",
+      "trecho": "Exemplo de Sem Técnica com Energia Reversa, no nível 2. Caio aprendeu a fechar ferimentos conduzindo energia positiva pelas regiões lesionadas. Ele cria Manejos para tratar a equipe e usa a aptidão quando precisa recuperar o próprio corpo.",
+      "papel": "requisito",
+      "justificativa": "A semente identificada é a aquisição usada no exemplo completo.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Energia Reversa",
+      "trecho": "| Semente | Energia Reversa. |",
+      "papel": "requisito",
+      "justificativa": "Campo da ficha exemplo registra a escolha da semente.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Corpo Amaldiçoado",
+      "trecho": "Esse Manejo ocupa um espaço. Ele não precisa de uma permissão para aplicar diretamente a aptidão em outras pessoas: utiliza a Forma Cura com seus próprios custos. Um Corpo Amaldiçoado continua incompatível com essa energia.",
+      "papel": "incompatibilidade",
+      "justificativa": "Exemplo aplica a incompatibilidade de alvo já definida para esta rota.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Corpo Amaldiçoado",
+      "trecho": "Personagens com Restrição Celestial sem energia usam Lapidação e Bênçãos no lugar de refino e aptidões. Corpo Amaldiçoado conserva refino e aptidões, pois produz energia amaldiçoada.",
+      "papel": "requisito",
+      "justificativa": "Distingue quem troca refino por Lapidação sem presumir ausência de energia pela aparência da Origem.",
+      "nao_reproduz_regra": true
+    }
+  ],
+  "notas": "Referências nominais foram classificadas individualmente. Regra completa do voto removida em favor do dono. A mesma regra não é copiada para liberar exportação."
+}

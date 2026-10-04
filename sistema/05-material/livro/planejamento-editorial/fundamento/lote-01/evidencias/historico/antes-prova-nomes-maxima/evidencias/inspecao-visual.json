@@ -1,0 +1,240 @@
+{
+  "sha256_pdf": "e2e38afc2e58cfeac7dd7b1f778f3583beb8572c8de38dedf6ac654ef3001281",
+  "paginas": [
+    {
+      "pagina": 1,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Título, introdução, caixa de exemplo, tabela e remissões legíveis. Margens e rodapé preservados. Branco inferior compatível com a separação de assunto.",
+      "sha256_png": "1a1ea7c194e2ef86f9ecd5943fd54bf2878eae15bafff6529710bb6221e81090",
+      "pixels_iguais_a_rodada_de_voz": true,
+      "pixels_iguais_antes_remissao": true
+    },
+    {
+      "pagina": 2,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Tabela Fios de Tensão contém todas as linhas visíveis. Texto das células quebra dentro da coluna, sem colisão. Seção Tipos de dano permanece inteira.",
+      "sha256_png": "67fe533ee8a1992b78b1ed1680caa445517b351f6c9e6bc166cee7e51649e5a4",
+      "pixels_iguais_a_rodada_de_voz": true,
+      "pixels_iguais_antes_remissao": true
+    },
+    {
+      "pagina": 3,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Cinco passos da montagem e ficha final completos. Cabeçalho escuro da tabela tem contraste visual suficiente nesta renderização. Texto posterior e exemplo de rolagem íntegros.",
+      "sha256_png": "f525c5231f27fded77449b28949c5dc4c5522f03e636f8abb4d278bfbd5f4b37",
+      "pixels_iguais_a_rodada_de_voz": true,
+      "pixels_iguais_antes_remissao": true
+    },
+    {
+      "pagina": 4,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Nove Famílias visíveis na tabela. Exemplo e seções Livres/Fechadas separados com espaçamento consistente. Nenhuma célula vazando.",
+      "sha256_png": "ed4589951270b8aa2790cc1622be9ce47dbae3d1d073149bd7fa205191e63e5a",
+      "pixels_iguais_a_rodada_de_voz": true,
+      "pixels_iguais_antes_remissao": true
+    },
+    {
+      "pagina": 5,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Negação desambiguada e reinspecionada; Teatro de sombras e limites completos, sem corte.",
+      "sha256_png": "3895d89511aa2497e10e9ad541cf7c67c584b5395c722d8c2b781e7e01e279d4",
+      "pixels_iguais_a_rodada_de_voz": false,
+      "pixels_iguais_antes_remissao": true
+    },
+    {
+      "pagina": 6,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Tabela de espaços, requisito temático de invocação, exemplo e seção Fora da conta legíveis. Bloco mais denso, mas sem apertar rodapé nem cortar linha.",
+      "sha256_png": "1a859c409a3b352814baa5f5e9e9768e33705fc83932b5b1b94b52b08715e237",
+      "pixels_iguais_a_rodada_de_voz": true,
+      "pixels_iguais_antes_remissao": true
+    },
+    {
+      "pagina": 7,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Parágrafo encurtado; remissão junto ao título e sem linha isolada. Tabelas e quadro íntegros.",
+      "sha256_png": "85278ec3a2c09dc9f58ace6ffedfefbcdec33cf14d0cb4f62d2dd3058443a767",
+      "pixels_iguais_a_rodada_de_voz": false,
+      "pixels_iguais_antes_remissao": true
+    },
+    {
+      "pagina": 8,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Tabela de Formas de ataque íntegra, inclusive resoluções que ocupam duas linhas. Seções Toque e Aura e Áreas mantêm espaçamento e leitura.",
+      "sha256_png": "819b720bc3d4cf65be6c49007418adce529a1fe00f82d2554a306aa523b76495",
+      "pixels_iguais_a_rodada_de_voz": true,
+      "pixels_iguais_antes_remissao": true
+    },
+    {
+      "pagina": 9,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Formas, limites e nova remissão completos. Nenhum corte ou colisão. Inspeção final pelo principal.",
+      "sha256_png": "006ec0db2aee775f1b983b0ccf93f1bed7ec14c3d8a9e03fb94ba10da1e58e90",
+      "pixels_iguais_a_rodada_de_voz": true,
+      "pixels_iguais_antes_remissao": false
+    },
+    {
+      "pagina": 10,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Tabelas de alcance e aumentos completas. Medidas, multiplicações e vírgulas decimais legíveis. Exemplo em caixa e ressalva posterior não invadem o rodapé.",
+      "sha256_png": "aea892e05557ad94d48fa07fb79bc213736c415cc18e54779a4f6f9e378803c8",
+      "pixels_iguais_a_rodada_de_voz": true,
+      "pixels_iguais_antes_remissao": true
+    },
+    {
+      "pagina": 11,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Título Conjurar e três blocos de procedimento claramente hierarquizados. Fórmulas em negrito legíveis, sem colagem de caracteres. Todos os parágrafos da página aparecem completos.",
+      "sha256_png": "c9f8b3571ee5b21fd4a4c9165cf9046ed1615edf0cabf9a5285bf22c5b4096d8",
+      "pixels_iguais_a_rodada_de_voz": true,
+      "pixels_iguais_antes_remissao": true
+    },
+    {
+      "pagina": 12,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Tabela de Restrições, combinações e revisão cabem inteiras. Célula Atrasar ocupa duas linhas sem atingir bordas. Não há cabeçalho isolado.",
+      "sha256_png": "c195acb57323e51ecb34c09310bd90e5b47a00eebe02db298c3c00f556b3db2b",
+      "pixels_iguais_a_rodada_de_voz": true,
+      "pixels_iguais_antes_remissao": true
+    },
+    {
+      "pagina": 13,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Tabela de compatibilidade extensa, mas todas as dez linhas estão visíveis. Colunas permanecem separadas, inclusive na linha Reação. Caixa final tem respiro e não invade rodapé.",
+      "sha256_png": "40d16d0c7e2a9e0b64ece8024e87caa3aa2f145d52c573909cf667ff4956d55e",
+      "pixels_iguais_a_rodada_de_voz": true,
+      "pixels_iguais_antes_remissao": true
+    },
+    {
+      "pagina": 14,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Tabela de objetivos e texto de Controle completos. Rede de contenção e ficha em caixa não são partidos. Último parágrafo permanece legível e dentro da margem.",
+      "sha256_png": "4cdd2367f54e8d2516c72f9400cf8b4bd1e1c2c7824830c0068324e8ba36c536",
+      "pixels_iguais_a_rodada_de_voz": true,
+      "pixels_iguais_antes_remissao": true
+    },
+    {
+      "pagina": 15,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Três aplicações com seus próprios subtítulos, parágrafos e números. Sem tabelas ou caixas cortadas. Branco inferior não separa conteúdo dependente.",
+      "sha256_png": "317446333c8964aa2b3370cad4723d93185acfb19bb8593619b77d7f46c8a37e",
+      "pixels_iguais_a_rodada_de_voz": true,
+      "pixels_iguais_antes_remissao": true
+    },
+    {
+      "pagina": 16,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, títulos e margens legíveis; corpo e rodapé separados.",
+      "sha256_png": "b507cfcbe2dc762986bea864184f2bff60ce254c0ea227b8778a0922ce47775c",
+      "pixels_iguais_a_rodada_de_voz": true,
+      "pixels_iguais_antes_remissao": true
+    },
+    {
+      "pagina": 17,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, títulos e margens legíveis; corpo e rodapé separados.",
+      "sha256_png": "532191d248c2c72251856ba5992c86111f396e4f6a56b82ee6c223f5f7037998",
+      "pixels_iguais_a_rodada_de_voz": true,
+      "pixels_iguais_antes_remissao": true
+    },
+    {
+      "pagina": 18,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, títulos e margens legíveis; corpo e rodapé separados.",
+      "sha256_png": "d952588a3911e268412fa2e92d6938dc31b92509de2cf2aa97c0f3f7ff97170a",
+      "pixels_iguais_a_rodada_de_voz": true,
+      "pixels_iguais_antes_remissao": true
+    },
+    {
+      "pagina": 19,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, títulos e margens legíveis; corpo e rodapé separados.",
+      "sha256_png": "9184d0c008e37e8ccaa1e0b78d1edd9f8d2c23a343d9226facc8c31d1e33b7d0",
+      "pixels_iguais_a_rodada_de_voz": true,
+      "pixels_iguais_antes_remissao": true
+    },
+    {
+      "pagina": 20,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, títulos e margens legíveis; corpo e rodapé separados.",
+      "sha256_png": "b7e44c78a72759b6729cae31f2d024d89aca62986bf2a4e9174a347e3903cf58",
+      "pixels_iguais_a_rodada_de_voz": true,
+      "pixels_iguais_antes_remissao": true
+    },
+    {
+      "pagina": 21,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, títulos e margens legíveis; corpo e rodapé separados.",
+      "sha256_png": "4053c9fe816c1eed0299b6e61dfb93cb40d107f980aa508806da2e9ce40e7a3c",
+      "pixels_iguais_a_rodada_de_voz": true,
+      "pixels_iguais_antes_remissao": true
+    },
+    {
+      "pagina": 22,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, títulos e margens legíveis; corpo e rodapé separados.",
+      "sha256_png": "6b648421e1d6b789828c18796193dc4e372e18c82957bf7bad603950f67eab0f",
+      "pixels_iguais_a_rodada_de_voz": true,
+      "pixels_iguais_antes_remissao": true
+    },
+    {
+      "pagina": 23,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, títulos e margens legíveis; corpo e rodapé separados.",
+      "sha256_png": "c17f3cab188ecc8d8a9060d4a43fe33acaba130e47ea9da2b26b91107a78a13e",
+      "pixels_iguais_a_rodada_de_voz": true,
+      "pixels_iguais_antes_remissao": true
+    },
+    {
+      "pagina": 24,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, títulos e margens legíveis; corpo e rodapé separados.",
+      "sha256_png": "3e7c7f79d60b93d634fd5d18783311c75fa254d61800509833b38c6690605dbb",
+      "pixels_iguais_a_rodada_de_voz": true,
+      "pixels_iguais_antes_remissao": true
+    },
+    {
+      "pagina": 25,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, títulos e margens legíveis; corpo e rodapé separados.",
+      "sha256_png": "a5fb35fd2372a84f46e92b313bb7e337d79f2cab540191ddd3695a05c6574070",
+      "pixels_iguais_a_rodada_de_voz": true,
+      "pixels_iguais_antes_remissao": true
+    },
+    {
+      "pagina": 26,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, títulos e margens legíveis; corpo e rodapé separados.",
+      "sha256_png": "1249e17ad6b42c132507b08ff2208932d1c3c8f6b5bf9a6d0457db31d4a85478",
+      "pixels_iguais_a_rodada_de_voz": true,
+      "pixels_iguais_antes_remissao": true
+    },
+    {
+      "pagina": 27,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, títulos e margens legíveis; corpo e rodapé separados.",
+      "sha256_png": "660a2eb8afc27c6575763b03e839aa08c469b6610208485ce856a54615f9d870",
+      "pixels_iguais_a_rodada_de_voz": true,
+      "pixels_iguais_antes_remissao": true
+    },
+    {
+      "pagina": 28,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, títulos e margens legíveis; corpo e rodapé separados.",
+      "sha256_png": "85fb6f27e5fc81511a542862c15a2159c7804be2df1990e7bd952c0a33bef1de",
+      "pixels_iguais_a_rodada_de_voz": true,
+      "pixels_iguais_antes_remissao": true
+    },
+    {
+      "pagina": 29,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, títulos e margens legíveis; corpo e rodapé separados.",
+      "sha256_png": "3963b3d51606c03d61c9c6b7ed1367581ca23d815799a55dd8b77663dace673d",
+      "pixels_iguais_a_rodada_de_voz": true,
+      "pixels_iguais_antes_remissao": true
+    }
+  ],
+  "metodo": "Todas29páginas abertas: agente1–15, principal16–29. Após correções5/7, render completo comparado:27páginas idênticas,5/7 abertas novamente pelo principal.",
+  "limites": "Não certifica impressão física, leitor de tela ou balanceamento. Nenhuma imagem deIA.",
+  "revisao_adicional": "Página9 reinspecionada após remissão à Cura ofensiva. Outras28 páginas tiveram igualdade de pixels comprovada com a rodada aprovada anterior."
+}

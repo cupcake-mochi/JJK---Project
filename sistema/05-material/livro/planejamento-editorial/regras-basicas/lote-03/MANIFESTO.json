@@ -1,0 +1,101 @@
+{
+  "data": "2026-10-03",
+  "escopo": "Candidata Dano e Condições; sem integração",
+  "arquivos": [
+    {
+      "arquivo": "CONFERENCIA.json",
+      "sha256": "77a3d941461307e2e38d1d1a4ae19011289315961efbc06af0d7b4f38928ad00",
+      "bytes": 17637
+    },
+    {
+      "arquivo": "DANO-E-CONDICOES.md",
+      "sha256": "0abe2cda2ee076f7a0507c5ea9420bf91c66e078ece52f4ea506bf1d93a07ac6",
+      "bytes": 21837
+    },
+    {
+      "arquivo": "DECISOES.md",
+      "sha256": "8b72302d9f4a55e2d7c51270b9d5a2509f7d5b8330421c33a40d450232bbbfc2",
+      "bytes": 8330
+    },
+    {
+      "arquivo": "ESTRUTURA.json",
+      "sha256": "190d1995f6ca374379e3c38c6b105fd51aaf03b486c0e1fcd6c0853bf75f235e",
+      "bytes": 811
+    },
+    {
+      "arquivo": "LEIA-ME.md",
+      "sha256": "2807986767c36a9d9894a6e65a6543db97c999ac6cb266370901c682d9390379",
+      "bytes": 1176
+    },
+    {
+      "arquivo": "RELATORIO.md",
+      "sha256": "23e12de6f14648883634b6b8b2db6b66b3560b6dd7d9040761614f62704f7a21",
+      "bytes": 2752
+    },
+    {
+      "arquivo": "conferir.py",
+      "sha256": "4ab582969720cf90570ed18e584d700e9356af42e177154e157ed58d0e57a7d7",
+      "bytes": 9781
+    },
+    {
+      "arquivo": "evidencias/FONTES-E-DESTINOS.md",
+      "sha256": "7c1e194581e6fbb53a7d158234d2ee27ee79e4eaf6f90cee0a728a3e7eaf6240",
+      "bytes": 4762
+    },
+    {
+      "arquivo": "evidencias/REVISAO-EDITORIAL.json",
+      "sha256": "aeb1f51c89788da0aa88da16d218809d03415fe818da28924a8819be2a951d4d",
+      "bytes": 4589
+    },
+    {
+      "arquivo": "evidencias/REVISAO.md",
+      "sha256": "2b5262ef3ab1e7c3f74c9e555ab6818a0e358ad1d78513006a7bfe71d2f3ec78",
+      "bytes": 9543
+    },
+    {
+      "arquivo": "evidencias/casos-documentais.json",
+      "sha256": "a5c0c980151d9e12c780b68a65d5258c6339fda48b96ac13b587ed02a46608d8",
+      "bytes": 7763
+    },
+    {
+      "arquivo": "evidencias/fontes-preservadas.json",
+      "sha256": "9b8e73ee60de4f4d2631e898afb33d6b64b47890cb5b28dc963d282bab162e52",
+      "bytes": 18748
+    },
+    {
+      "arquivo": "evidencias/inspecao-visual.json",
+      "sha256": "cec030b95718ae2bd85b012898ab7ae57cce582d34a024caa76cde27ca7c5556",
+      "bytes": 3020
+    },
+    {
+      "arquivo": "evidencias/pdf-estrutura.json",
+      "sha256": "cf82f7b37b1085125b72834872b9228196ef7c1d4506cd7ce7bbf7f6e6b06fb2",
+      "bytes": 204
+    },
+    {
+      "arquivo": "evidencias/pdf-texto.txt",
+      "sha256": "f6ac216c9541d3f2d5133c079c5f211d94dd1284b365c3064301f13d4ffd18f7",
+      "bytes": 21490
+    },
+    {
+      "arquivo": "evidencias/validador-publicado-alma.txt",
+      "sha256": "66e58d07c6324c488e0273f92dbb0ffa06e50bd688a96ffb7bfb6b241035e896",
+      "bytes": 6961
+    },
+    {
+      "arquivo": "evidencias/validador-publicado-dano.txt",
+      "sha256": "57721c79a7d3192c874dc87f0cc4d2c495f24126842b3819653283859e141c95",
+      "bytes": 9672
+    },
+    {
+      "arquivo": "gerar_pdf.py",
+      "sha256": "a7206cc75cc0e718e7cd585c4adf30e2c5c6fbb952457017495d9acfa62e8bff",
+      "bytes": 6263
+    },
+    {
+      "arquivo": "output/pdf/Projeto-M-Dano-e-Condicoes-Proposta-01.pdf",
+      "sha256": "22a508c6d5873a1bc9adcd8ac4c4bba332332864bc6979c2eb33e8c5df4cd8a6",
+      "bytes": 73343
+    }
+  ]
+}

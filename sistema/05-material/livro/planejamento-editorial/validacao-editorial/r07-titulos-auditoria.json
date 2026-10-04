@@ -1,0 +1,3547 @@
+{
+  "data": "2026-10-03T17:30:34-03:00",
+  "regra": "E007",
+  "escopo": "Todos os .md de planejamento-editorial, incluindo o cadastro corrente, versões anteriores/pilotos e documentação/evidências separados. Não altera os arquivos.",
+  "classificacao": "Corrente é determinado exclusivamente por MANUSCRITOS.json. Histórico/piloto usa nome de manuscrito corrente, marcador de página ou caminho contendo piloto; os demais permanecem em documentação/evidências, sem ocultar achados.",
+  "limites": "Sugestões são propostas para edição contextual. Não há troca automática, atualização de evidências ou aprovação global de conteúdo. Citações, código e comentários são ignorados. À e Às não são artigos desta regra.",
+  "contagens": {
+    "corrente_cadastrado": {
+      "arquivos": 17,
+      "arquivos_com_achados": 0,
+      "titulos": 0
+    },
+    "historico_ou_piloto": {
+      "arquivos": 34,
+      "arquivos_com_achados": 9,
+      "titulos": 19
+    },
+    "documentacao_ou_evidencia": {
+      "arquivos": 243,
+      "arquivos_com_achados": 37,
+      "titulos": 57
+    }
+  },
+  "arquivos": [
+    {
+      "arquivo": "ADENDO-REGRAS-COMUNS.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "80ec1f41972b119c5f548d487cee0789b79f2c02714611c2427759a66c01144c",
+      "titulos_lidos": 5,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "AUDITORIA-DO-PDF.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "10280cfc2fffaea1c4b63fc261f480455eada56447094a6f7c7ca988d5170874",
+      "titulos_lidos": 12,
+      "quantidade": 1,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 93,
+          "termo": "O",
+          "titulo": "O que preservar das cores",
+          "trecho": "O que preservar das cores",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O que preservar das cores",
+          "depois_sugerido": null,
+          "orientacao": "pergunta exige escolher assunto; não basta retirar o artigo",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "DIAGNOSTICO-DO-LEITOR.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "a320b58f6c1f72788423f38814d49ef27a85294c5894eb416e334811f3922158",
+      "titulos_lidos": 12,
+      "quantidade": 6,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 7,
+          "termo": "O",
+          "titulo": "O resultado que procuramos",
+          "trecho": "O resultado que procuramos",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O resultado que procuramos",
+          "depois_sugerido": "Resultado que procuramos",
+          "orientacao": "sugestão inicial; revisar sentido, não aplicar automaticamente",
+          "aplicado": false
+        },
+        {
+          "codigo": "E007",
+          "linha": 13,
+          "termo": "O",
+          "titulo": "O que os comentários revelam",
+          "trecho": "O que os comentários revelam",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O que os comentários revelam",
+          "depois_sugerido": null,
+          "orientacao": "pergunta exige escolher assunto; não basta retirar o artigo",
+          "aplicado": false
+        },
+        {
+          "codigo": "E007",
+          "linha": 32,
+          "termo": "A",
+          "titulo": "1. A abertura anuncia o formato antes de desenvolver a experiência",
+          "trecho": "1. A abertura anuncia o formato antes de desenvolver a experiência",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "1. A abertura anuncia o formato antes de desenvolver a experiência",
+          "depois_sugerido": "1. Abertura anuncia o formato antes de desenvolver a experiência",
+          "orientacao": "sugestão inicial; revisar sentido, não aplicar automaticamente",
+          "aplicado": false
+        },
+        {
+          "codigo": "E007",
+          "linha": 54,
+          "termo": "O",
+          "titulo": "4. O glossário também precisa de revisão semântica",
+          "trecho": "4. O glossário também precisa de revisão semântica",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "4. O glossário também precisa de revisão semântica",
+          "depois_sugerido": "4. Glossário também precisa de revisão semântica",
+          "orientacao": "sugestão inicial; revisar sentido, não aplicar automaticamente",
+          "aplicado": false
+        },
+        {
+          "codigo": "E007",
+          "linha": 66,
+          "termo": "A",
+          "titulo": "6. A navegação exporta a estrutura de títulos inteira",
+          "trecho": "6. A navegação exporta a estrutura de títulos inteira",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "6. A navegação exporta a estrutura de títulos inteira",
+          "depois_sugerido": "6. Navegação exporta a estrutura de títulos inteira",
+          "orientacao": "sugestão inicial; revisar sentido, não aplicar automaticamente",
+          "aplicado": false
+        },
+        {
+          "codigo": "E007",
+          "linha": 74,
+          "termo": "O",
+          "titulo": "O que a automação atual detectou",
+          "trecho": "O que a automação atual detectou",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O que a automação atual detectou",
+          "depois_sugerido": null,
+          "orientacao": "pergunta exige escolher assunto; não basta retirar o artigo",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "ESTUDO-DOS-LIVROS.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "6301d530a3abebda562af2651c4cc768125037b8b2ccf242637a28980ed121f7",
+      "titulos_lidos": 7,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "FILA-COMPLETA.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "a8ce5eaff785adeceb611fc02cc8d22a29a5e7e6537f38a4769cd41be16413e3",
+      "titulos_lidos": 11,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "48725e29d87300ee3ac182216ee7d7bc8b5dbbd4c410c93cd993b8fc5549176f",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "MAPA-DE-MIGRACAO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "e5ce3f0fc88bd32265a2bff54f1b72f5d6fcd894ed58cd3c5fcd3dfc93ccc71e",
+      "titulos_lidos": 9,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "METODO-E-TESTES-COM-LEITORES.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "293d3cabfcece30ce31292bb0e3e4248a93857c2e32645d7775a7ac2a9657476",
+      "titulos_lidos": 13,
+      "quantidade": 1,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 5,
+          "termo": "O",
+          "titulo": "O que a pesquisa sustenta",
+          "trecho": "O que a pesquisa sustenta",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O que a pesquisa sustenta",
+          "depois_sugerido": null,
+          "orientacao": "pergunta exige escolher assunto; não basta retirar o artigo",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "NOMES-PRIMEIRA-RODADA.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "bc33b03587e8dfd5df518a2b73a0d22fa860d5f761507f7ea6b48e35a39c457f",
+      "titulos_lidos": 7,
+      "quantidade": 2,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 5,
+          "termo": "O",
+          "titulo": "O tamanho real da mudança",
+          "trecho": "O tamanho real da mudança",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O tamanho real da mudança",
+          "depois_sugerido": "Tamanho real da mudança",
+          "orientacao": "sugestão inicial; revisar sentido, não aplicar automaticamente",
+          "aplicado": false
+        },
+        {
+          "codigo": "E007",
+          "linha": 89,
+          "termo": "O",
+          "titulo": "O piloto pode avançar com os termos atuais",
+          "trecho": "O piloto pode avançar com os termos atuais",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O piloto pode avançar com os termos atuais",
+          "depois_sugerido": "Piloto pode avançar com os termos atuais",
+          "orientacao": "sugestão inicial; revisar sentido, não aplicar automaticamente",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "PAUTA-DE-DECISOES.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "df6d7d20770f8b195a0c519395bb75a2548656b0250e03c9af6d8d235ce8ee57",
+      "titulos_lidos": 8,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "PILOTO-EDITORIAL.md",
+      "categoria": "historico_ou_piloto",
+      "sha256": "9c449b476b3e74766515bf36d1c428cdde8f7239cb604318f8eb552586a8278b",
+      "titulos_lidos": 12,
+      "quantidade": 5,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 7,
+          "termo": "O",
+          "titulo": "O que o piloto deve demonstrar",
+          "trecho": "O que o piloto deve demonstrar",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O que o piloto deve demonstrar",
+          "depois_sugerido": null,
+          "orientacao": "pergunta exige escolher assunto; não basta retirar o artigo",
+          "aplicado": false
+        },
+        {
+          "codigo": "E007",
+          "linha": 15,
+          "termo": "A",
+          "titulo": "A sequência para o leitor",
+          "trecho": "A sequência para o leitor",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "A sequência para o leitor",
+          "depois_sugerido": "Sequência para o leitor",
+          "orientacao": "sugestão inicial; revisar sentido, não aplicar automaticamente",
+          "aplicado": false
+        },
+        {
+          "codigo": "E007",
+          "linha": 32,
+          "termo": "O",
+          "titulo": "O conteúdo de mundo a preparar",
+          "trecho": "O conteúdo de mundo a preparar",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O conteúdo de mundo a preparar",
+          "depois_sugerido": "Conteúdo de mundo a preparar",
+          "orientacao": "sugestão inicial; revisar sentido, não aplicar automaticamente",
+          "aplicado": false
+        },
+        {
+          "codigo": "E007",
+          "linha": 60,
+          "termo": "A",
+          "titulo": "A prova visual",
+          "trecho": "A prova visual",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "A prova visual",
+          "depois_sugerido": "Prova visual",
+          "orientacao": "sugestão inicial; revisar sentido, não aplicar automaticamente",
+          "aplicado": false
+        },
+        {
+          "codigo": "E007",
+          "linha": 82,
+          "termo": "As",
+          "titulo": "As amostras técnicas complementares",
+          "trecho": "As amostras técnicas complementares",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "As amostras técnicas complementares",
+          "depois_sugerido": "Amostras técnicas complementares",
+          "orientacao": "sugestão inicial; revisar sentido, não aplicar automaticamente",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "PLANO-EDITORIAL.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "ce10fac81eb89966092971db9dec991495a228ed5e675dba72d370b9022156f5",
+      "titulos_lidos": 23,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "REFERENCIAS-E-DIAGNOSTICO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "fb76470144096bbe8fae56ef1a10888741d94c024e10b4b695b69fc30e195f7d",
+      "titulos_lidos": 5,
+      "quantidade": 2,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 7,
+          "termo": "O",
+          "titulo": "O que foi consultado",
+          "trecho": "O que foi consultado",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O que foi consultado",
+          "depois_sugerido": null,
+          "orientacao": "pergunta exige escolher assunto; não basta retirar o artigo",
+          "aplicado": false
+        },
+        {
+          "codigo": "E007",
+          "linha": 22,
+          "termo": "O",
+          "titulo": "O que já existe no projeto",
+          "trecho": "O que já existe no projeto",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O que já existe no projeto",
+          "depois_sugerido": null,
+          "orientacao": "pergunta exige escolher assunto; não basta retirar o artigo",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "REVISAO-MORRENDO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "9b726b116266cca09309021c91f3343cc265757f5aca35417a8f134470f37bf8",
+      "titulos_lidos": 4,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "ROTEIRO-DE-EXECUCAO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "592e6c87a150fe469a4d6f1535f120ed5d115bf24428f04ce46dfcf8e1e1f1fb",
+      "titulos_lidos": 11,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "catalogo/lote-01/ALTERACOES.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "0a955b3aa4c4f36a768512645107e844612d2be7f71dd61853797553511512f8",
+      "titulos_lidos": 120,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "catalogo/lote-01/CATALOGO.md",
+      "categoria": "corrente_cadastrado",
+      "sha256": "682b239b4f582912d47b0c8cb14f0df70592f8b5c631f01240f0c4d853c8471e",
+      "titulos_lidos": 142,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "catalogo/lote-01/REVISAO-DE-VOZ.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "4e37b4ab3c33c3a30728c69fbee0eabd61b3c7c0d976a1831cd8fb745da947f6",
+      "titulos_lidos": 10,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "catalogo/lote-01/sincronizacoes/INVOCACOES.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "79e6c2f903b15543a396ca966389b8a13b7742a5578d02626c7299fd97088186",
+      "titulos_lidos": 6,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/PENDENCIAS-DE-ITENS.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "2c566838e0e3b931a3e454b0674ef1863eee070b013e4c139277dcd9b0348383",
+      "titulos_lidos": 5,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-01/DECISOES.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "2a03c3150697fe7cbe21c1d87f7920a53041756f2f18bf6cc801dcd9821e52e8",
+      "titulos_lidos": 6,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-01/EQUIPAMENTO-EM-JOGO.md",
+      "categoria": "historico_ou_piloto",
+      "sha256": "9dc903c65ae220246f0ecbf59398d411e5df467ab3baf10dd8b7749fc130e775",
+      "titulos_lidos": 21,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-01/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "a4cc51b6a49b1c548c4eb0c04a97326cf971a4936db939679e0c5daa0988a1c2",
+      "titulos_lidos": 2,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-01/RELATORIO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "4c5f6e2042d609521aba0a994d51912c0a3cb3842605b5b60884a7cf6b4cc5fe",
+      "titulos_lidos": 2,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-01/evidencias/REVISAO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "644015d6d9ccf01a243fccf525e65fd4524036f4ff35da6073c5d42adb34ba7d",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-01-r2/DECISOES.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "ba9caf27cd5a21b1fc0f97043e8dc9064ed0310ca69f6ac417d749c7a3273dff",
+      "titulos_lidos": 7,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-01-r2/EQUIPAMENTO-EM-JOGO.md",
+      "categoria": "historico_ou_piloto",
+      "sha256": "0929e2f148e457cb77ba8ef100dd1018528c4166ba8c1179a9f6ca4d764a1f37",
+      "titulos_lidos": 20,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-01-r2/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "ba93a0e5e173e702a14de20d785d4407df2ae5400fcf402a78eb9197ce554bf9",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-01-r2/RELATORIO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "c9b698127f1c574e175ad3a3c819b930f27dc279b841f08f7fa622e83979a2a5",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-01-r2/evidencias/REVISAO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "9f7dc6a31828864bb95405f2ab8f6c624899f6d3cfe63a04d4f4b0b7f0951033",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-01-r3/DECISOES.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "b1fbc7a274dde9197addf9aa7dfb82c4cb53fd6ac985eaecc44b769c53645fdf",
+      "titulos_lidos": 8,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-01-r3/EQUIPAMENTO-EM-JOGO.md",
+      "categoria": "historico_ou_piloto",
+      "sha256": "8d8311f3777014ea84df2b531f64d91540b3885cf2930a3cb071eebf21e3d7a1",
+      "titulos_lidos": 17,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-01-r3/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "b24785391dde5a648033bf32d6bd18418d94a3ee5298a3424dd7b2708378bd43",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-01-r3/RELATORIO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "574512262bc6b7b95d0c6d12956ddb3b33d47f422e327a0eeed28b7292ad2ac5",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-01-r3/evidencias/REVISAO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "574512262bc6b7b95d0c6d12956ddb3b33d47f422e327a0eeed28b7292ad2ac5",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-01-r4/DECISOES.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "df22467d7047a4168b96d4394692352f1bc464de2f41a85287686526f6fd421e",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-01-r4/EQUIPAMENTO-EM-JOGO.md",
+      "categoria": "historico_ou_piloto",
+      "sha256": "933bdd89b08ba15b59d0aaa8e5ea1dbc2466accd3c37739ce7302261a4a84d60",
+      "titulos_lidos": 17,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-01-r4/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "c61b4d3a989b7e562434b85f31229a5950be2fdda47ffd2b700e1c9879601f21",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-01-r4/RELATORIO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "b43843b16ecc9a15792b76ae8f55acd1cf56018a9d3df4fcddbda26ad69fe4a5",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-01-r5/DECISOES.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "4790095dddfd3fd8da794d3a02ce67468aedcb52d6b352ef4f099714f35e798c",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-01-r5/EQUIPAMENTO-EM-JOGO.md",
+      "categoria": "corrente_cadastrado",
+      "sha256": "55c434659e311604659d7e2bb9edd3a56975966b0a57942ec28e07152d8bf3cb",
+      "titulos_lidos": 16,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-01-r5/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "4790095dddfd3fd8da794d3a02ce67468aedcb52d6b352ef4f099714f35e798c",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-01-r5/RELATORIO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "4790095dddfd3fd8da794d3a02ce67468aedcb52d6b352ef4f099714f35e798c",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-02/DECISOES.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "4ab0d9a13f1634895abd925e6c82055d89bdb695d8976c2ee2112e02afcc0ac0",
+      "titulos_lidos": 3,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-02/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "c2126e352f06a4304f7c3dfaa0b50a8244dc84cce58dc8075ee26d639632365f",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-02/PROTECAO.md",
+      "categoria": "historico_ou_piloto",
+      "sha256": "674f3dc2e4da97f79860af3b12a8b452d99409d98a7a5a33ae48279d8ecfc427",
+      "titulos_lidos": 14,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-02/RELATORIO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "71f2a8e717d2616b3795bc49af01593c18dffdababad039793055515f1cdb2dd",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-02/evidencias/REVISAO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "7802bf4fc2875a02117ab4ca31a8b0da00b33b2c7029320ff09706b414a13fb0",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-02-r2/DECISOES.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "1ed6e43d50b15c5cc042792a72b06e3662f77f0a5e2eae5f7f1d92e21f4996e3",
+      "titulos_lidos": 4,
+      "quantidade": 1,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 9,
+          "termo": "O",
+          "titulo": "O que se conserva",
+          "trecho": "O que se conserva",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O que se conserva",
+          "depois_sugerido": null,
+          "orientacao": "pergunta exige escolher assunto; não basta retirar o artigo",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "equipamento/lote-02-r2/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "4d1284ecd607b6c03901b9a9aad9145e0516f2fe8111114f8759bd47f8bbc1d2",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-02-r2/PROTECAO.md",
+      "categoria": "historico_ou_piloto",
+      "sha256": "6fa7ebf79d5e05dc62ca419c4fb5395925a919bc1bb17e694c8bc2a54710b25c",
+      "titulos_lidos": 15,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-02-r2/RELATORIO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "863133c7c31243e33a97d9e97597711f88aa737eaa9dd1966aac1a872a7d81ba",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-02-r2/evidencias/REVISAO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "863133c7c31243e33a97d9e97597711f88aa737eaa9dd1966aac1a872a7d81ba",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-02-r3/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "fffd6825e036522c8409c397a2fb780efc25fdee582f99afd8cc11f31227e938",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-02-r3/PROTECAO.md",
+      "categoria": "corrente_cadastrado",
+      "sha256": "18cbff010ba9848b39346d6b77037c3b1b7ec1bbe7f75ae5e36486ac54c679a5",
+      "titulos_lidos": 15,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-03/DECISOES.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "a63ad314c161eed6cbb3bfe3bcee728e29e40869cb877291f8e8854f6eabfad5",
+      "titulos_lidos": 4,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-03/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "b1dcc70bb30b2ef987692c6533fb761fa0be4e40dcfb06b5e98f80e9a520ffc7",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-03/MUNICAO.md",
+      "categoria": "historico_ou_piloto",
+      "sha256": "c82734f8bf73a10fcb3ea6d12c0a30b516f835d68b4ebf2c194ef6cad55c9937",
+      "titulos_lidos": 12,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-03/RELATORIO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "e446ed58d2b68ed8eab561cfda789be79ceeea352a2a26bb8b3c296893ef2be1",
+      "titulos_lidos": 5,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-03/evidencias/REVISAO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "e446ed58d2b68ed8eab561cfda789be79ceeea352a2a26bb8b3c296893ef2be1",
+      "titulos_lidos": 5,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-03-r2/DECISOES.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "c51846c672ce157929676ce6d884598991537a59065f929e8ed8304e79f97703",
+      "titulos_lidos": 5,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-03-r2/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "0200a36d92d4b668e9a2491010108af7877a8d3216d24f75be6602bc23037b66",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-03-r2/MUNICAO.md",
+      "categoria": "historico_ou_piloto",
+      "sha256": "1eb8ff3bde5dede4ae9f87b5ce28196ad5b37658d47d296f0854bf4eae34918c",
+      "titulos_lidos": 12,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-03-r2/RELATORIO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "7dd86a3d2764732305c00872a0184ca6537dfc9ce963367112f97ea69db59171",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-03-r3/DECISOES.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "a09d378478513217c5ad00320bdeb2309b274d6b58a76bcd6762e485c277db3f",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-03-r3/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "a09d378478513217c5ad00320bdeb2309b274d6b58a76bcd6762e485c277db3f",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-03-r3/MUNICAO.md",
+      "categoria": "historico_ou_piloto",
+      "sha256": "92e654311449d09c118eff20cfa7d986e8a12232af21bfd2d1d094c685a05012",
+      "titulos_lidos": 12,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-03-r3/RELATORIO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "a09d378478513217c5ad00320bdeb2309b274d6b58a76bcd6762e485c277db3f",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-03-r4/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "b750381d56c0bc957efa4ad387a9bb3bdeecec5d4fa5dc0627a48525a6c111bc",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-03-r4/MUNICAO.md",
+      "categoria": "historico_ou_piloto",
+      "sha256": "2b9d7ea9c9f57a2e1653fce9e74dff02baf5699cc93917db225ea513e3c698d7",
+      "titulos_lidos": 12,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-03-r5/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "614f88bd36f8442a9e107041ce2b776c85a914be34ead9c3af704e93c4b71a9f",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-03-r5/MUNICAO.md",
+      "categoria": "corrente_cadastrado",
+      "sha256": "802e883a22b8571d28dfd518c7d646dbc649cff1c442035b18bbbeb9fced17e7",
+      "titulos_lidos": 12,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-04/ARMAS.md",
+      "categoria": "historico_ou_piloto",
+      "sha256": "8fdda195acf479e335fe518cf51ccae32cbbf9735b94b25856642d94e995e48c",
+      "titulos_lidos": 22,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-04/CONTRATO-NUMERICO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "c57017c6c4616240aca7fe772a6ec7530c35d9dbfc81b3125085ad5122a5c461",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-04/DECISOES.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "03369367dcd1f166f459a115be994a66379ca5bf293c6ffe03f764eb469a08cb",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-04/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "3122b461752e4eab13b9ac2c104533934a77c38ea932f3411ba0f5fdf316f562",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-04/PESQUISA-E-BALANCEAMENTO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "52ea83d5a5cb38ba1f6d8beea2a925227a53bc8d778f52c7a602f3451f8bb191",
+      "titulos_lidos": 8,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-04/RELATORIO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "64b702c59e1c105db0d01b131a589c80393d82e37bb4085e31596ee0eb9d8379",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-04-r2/ARMAS.md",
+      "categoria": "historico_ou_piloto",
+      "sha256": "c0839cd1a0e14f87785895cc144a844ae23ec8aee0eb40a678bb7470b5764520",
+      "titulos_lidos": 22,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-04-r2/CONTRATO-NUMERICO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "1f157ef9399e666a29681f204905fde2c68eb88b4d2b71e41863ae0abb3ef4c7",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-04-r2/DECISOES.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "1f157ef9399e666a29681f204905fde2c68eb88b4d2b71e41863ae0abb3ef4c7",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-04-r2/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "1f157ef9399e666a29681f204905fde2c68eb88b4d2b71e41863ae0abb3ef4c7",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-04-r2/PESQUISA-E-BALANCEAMENTO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "1f157ef9399e666a29681f204905fde2c68eb88b4d2b71e41863ae0abb3ef4c7",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-04-r2/RELATORIO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "1f157ef9399e666a29681f204905fde2c68eb88b4d2b71e41863ae0abb3ef4c7",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-04-r3/ARMAS.md",
+      "categoria": "historico_ou_piloto",
+      "sha256": "3cd20725feb548bc2d33c1e92106c0dafb8b3a418b0c06c6c2095fdfcd426327",
+      "titulos_lidos": 22,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-04-r3/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "34ceffa75949cb9c952fe59b33cff956e1fc0d9443cae3d79ec8ca4c33477d76",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-04-r4/ARMAS.md",
+      "categoria": "corrente_cadastrado",
+      "sha256": "ef4cfe39859124fac44744b59d7b4a91bd1effdd54f24ebc8e0d4fb511daaf49",
+      "titulos_lidos": 22,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-04-r4/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "2ee5d158b55ff7dc0cb7cdd9450a5fc79cacf996d3b33a34ee8a9158c14a014d",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-05/CONTRATO-NUMERICO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "382e15a40b8b867d37a85c69bb9cff4aadd7cc24bf649dce54b2604a70a9c385",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-05/DECISOES.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "a9c1c917005db06638878a544ce657f4055b06850c5a7bbb4b556cb30d4c1b26",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-05/ITENS-E-OBJETOS.md",
+      "categoria": "historico_ou_piloto",
+      "sha256": "4dc3392edf34e8e3c6d19af00afe44f2aa7b008c1c81f8598dde6d83a6bb3668",
+      "titulos_lidos": 19,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-05/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "9ba4ec4abecc53c30e90c3f4654581aed12e5bd431a7daa291fe10c5882f215c",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-05/PESQUISA-E-BALANCEAMENTO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "f85d502214eafe87400b59cb63316e9fa9435d9b0535fc12aa52f94784babcdd",
+      "titulos_lidos": 8,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-05/RELATORIO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "2b4ee238c8e490d4af27ed307f77623f8f26ef41303161dad0ff82afc85c7e28",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-05-r1/ITENS-E-OBJETOS.md",
+      "categoria": "corrente_cadastrado",
+      "sha256": "1781aaf0047bc2789e48c8de0741c6d8b8470b123c311b39f2a423ead0c5413c",
+      "titulos_lidos": 19,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-05-r1/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "915c1175de77b155d5d18f07acf794d6ed68ae997398702465f3722eb406df87",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-06/COMPRAS-E-EQUIPAMENTO-INICIAL.md",
+      "categoria": "historico_ou_piloto",
+      "sha256": "672f7edc520e7cdb22c6ea7544e48d886586b2ff94e352f72d619041d039408e",
+      "titulos_lidos": 14,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-06/CONTRATO-NUMERICO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "738ae05b00890ad8caca8d0e4b3964621330ad8e2d53e1bd58bf9df382114061",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-06/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "510f3c3771cfacd394a4db01027084ab246295863c720ad960b34774897db617",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-06/PESQUISA-E-BALANCEAMENTO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "bb0da44f28ffcca36e8139a5dc7a28b974e16c8f51636eff75c097596792f1c8",
+      "titulos_lidos": 8,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-06-r1/COMPRAS-E-EQUIPAMENTO-INICIAL.md",
+      "categoria": "corrente_cadastrado",
+      "sha256": "0c65b7d17dc1ee911e292711bbc68330fb70e248390293ee09f8a0bace0d2fe5",
+      "titulos_lidos": 14,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-06-r1/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "df02a48fdf44c2bf7b72ece5e60117da126a271c79ad2bc8c92db9cd6308d852",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-07/FERRAMENTAS-E-OBJETOS.md",
+      "categoria": "historico_ou_piloto",
+      "sha256": "d2fd74cb4329d5d7080c3b553698eb7a32fb77f230dba47c5fd815c89dd907f6",
+      "titulos_lidos": 15,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-07/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "be362a3118e6dde845074a8ee5d5c78eccbfc07862496cdb84ee50a8d270e91f",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-07/REVISAO-E-FONTES.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "1ca6f8502fa9fe8e31e6e5b03ea043193203a22185fd506436cb4274a5c45128",
+      "titulos_lidos": 8,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-08/CONTRATO-NUMERICO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "4b91de5a4f878d4ea8dd1426dbcb51a7455377a2e8310e80a691cb8bddd35f8d",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-08/EQUIPAMENTO-AMALDICOADO.md",
+      "categoria": "corrente_cadastrado",
+      "sha256": "f6966f9810cb27193c671a692d475d88c341f9833938d7aa1fda646df4724d13",
+      "titulos_lidos": 43,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-08/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "6bcec4ad77025de8b30b4bc06fe50aacaf5bbc0767bc9fc156061f30790b56bf",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/lote-08/REVISAO-E-FONTES.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "b35c0fd3b685c532e8433cdf61bb1b0244ce8542472bd4793908bb4dcdedb3c6",
+      "titulos_lidos": 7,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/revisao-carga-r3/CONTRATO-NUMERICO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "ea9d53c833d7cba07c8504ce935f2cc1b2734f527da04016ecb579af4dcc0c63",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/revisao-carga-r3/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "25cfdac1dca057f0b042af3c41e4d892877a5886d7f47df3277b4f4d8bc59245",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/revisao-carga-r3/PESQUISA-E-BALANCEAMENTO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "8a7cda7d0af04052e02d1075043ef39ad02de165406c080cd3f624d396f9fd57",
+      "titulos_lidos": 10,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/revisao-carga-r5/CONTRATO-NUMERICO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "1bf1cfd3273f1ac98dc871091989243ccac34a2ac87b358e9944da456c685c21",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/revisao-carga-r5/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "e1629c429f8441eb6e83fbe279bd5faa904fb43c72388f19cf3dd77998a0177f",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "equipamento/revisao-carga-r5/REVISAO-E-FONTES.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "230de4019ba1118acf222fcf07130c98a896a2896a4091fa81c90002825f52e9",
+      "titulos_lidos": 5,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "evidencias/abertura-retorno-pos-r2.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "99a89b736764902b8c9da2377c5bd57f28138b676ac4b53df41b89d78f398825",
+      "titulos_lidos": 5,
+      "quantidade": 1,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 5,
+          "termo": "O",
+          "titulo": "O retorno do leitor tem fundamento identificável",
+          "trecho": "O retorno do leitor tem fundamento identificável",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O retorno do leitor tem fundamento identificável",
+          "depois_sugerido": "Retorno do leitor tem fundamento identificável",
+          "orientacao": "sugestão inicial; revisar sentido, não aplicar automaticamente",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "evidencias/preparacao-kaori.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "b8f34eff38e3797a1d4b7ec87fd95e8d9eb424e0291dbff90b29e9bdaedf4716",
+      "titulos_lidos": 16,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "fundamento/lote-01/ALTERACOES.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "27826000c9c4340e38fe69cf7cd12ee98b146f54b1d4cffa8b2e561ebec0d5b1",
+      "titulos_lidos": 56,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "categoria": "corrente_cadastrado",
+      "sha256": "622637dfbf13a0afbaf12a34f3121e3e8faa701062d9815bfee3f5cbcd767f18",
+      "titulos_lidos": 100,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "fundamento/lote-01/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "3ab47e3ef9a1044ac69f20b91a9b083670697b4fff86c4f51de715e819bbcf24",
+      "titulos_lidos": 7,
+      "quantidade": 1,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 15,
+          "termo": "O",
+          "titulo": "O que foi trabalhado",
+          "trecho": "O que foi trabalhado",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O que foi trabalhado",
+          "depois_sugerido": null,
+          "orientacao": "pergunta exige escolher assunto; não basta retirar o artigo",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "fundamento/lote-01/REVISAO-DE-VOZ.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "4e37b4ab3c33c3a30728c69fbee0eabd61b3c7c0d976a1831cd8fb745da947f6",
+      "titulos_lidos": 10,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "fundamento/lote-01/REVISAO-E-FONTES.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "b5362d1d74797649314093a157d04db4dbe0e764cfe7cf8f4b471127144a71bc",
+      "titulos_lidos": 11,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "fundamento/lote-01/TESTE-DE-MESA.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "8371a5d431804f9de893c0ceedbecb690bf216f173390a5dc0a4e8b624fbb65c",
+      "titulos_lidos": 4,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "fundamento/lote-01/evidencias/fundamento-compatibilidade.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "59c26ae738c0d718c4185415e78eb348ce86c857536bfdc0d4d19f9beee197c0",
+      "titulos_lidos": 27,
+      "quantidade": 3,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 24,
+          "termo": "A",
+          "titulo": "1. A fórmula omite a Forma, e o texto de reembolso diverge dos exemplos",
+          "trecho": "1. A fórmula omite a Forma, e o texto de reembolso diverge dos exemplos",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "1. A fórmula omite a Forma, e o texto de reembolso diverge dos exemplos",
+          "depois_sugerido": "1. Fórmula omite a Forma, e o texto de reembolso diverge dos exemplos",
+          "orientacao": "sugestão inicial; revisar sentido, não aplicar automaticamente",
+          "aplicado": false
+        },
+        {
+          "codigo": "E007",
+          "linha": 54,
+          "termo": "O",
+          "titulo": "5. O teto agregado escrito não existe no modelo que calcula áreas",
+          "trecho": "5. O teto agregado escrito não existe no modelo que calcula áreas",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "5. O teto agregado escrito não existe no modelo que calcula áreas",
+          "depois_sugerido": "5. Teto agregado escrito não existe no modelo que calcula áreas",
+          "orientacao": "sugestão inicial; revisar sentido, não aplicar automaticamente",
+          "aplicado": false
+        },
+        {
+          "codigo": "E007",
+          "linha": 228,
+          "termo": "O",
+          "titulo": "O que resolver em R06 e o que pertence a R07",
+          "trecho": "O que resolver em R06 e o que pertence a R07",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O que resolver em R06 e o que pertence a R07",
+          "depois_sugerido": null,
+          "orientacao": "pergunta exige escolher assunto; não basta retirar o artigo",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "fundamento/lote-01/evidencias/fundamento-leitura-candidata.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "b6aaeddd9259ef5bd926038f046c7a73795c0e74b147a8e6eab5d0b0ea1320c2",
+      "titulos_lidos": 14,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "fundamento/lote-01/evidencias/fundamento-maxima-checklist-final.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "0809cbc3520c10356186cf3753304f406c0f29d75665f75d2d1c62f459372bf0",
+      "titulos_lidos": 10,
+      "quantidade": 1,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 5,
+          "termo": "O",
+          "titulo": "1. O que o original realmente assegura",
+          "trecho": "1. O que o original realmente assegura",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "1. O que o original realmente assegura",
+          "depois_sugerido": null,
+          "orientacao": "pergunta exige escolher assunto; não basta retirar o artigo",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "fundamento/lote-01/evidencias/fundamento-maxima-limites-final.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "08d2808d881ef1fe0c2454667d2081900c9796bb7a314a0dde06f508cfd80cfd",
+      "titulos_lidos": 10,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "fundamento/lote-01/evidencias/fundamento-maxima-retirada.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "359005f72e18fb2908ad94ad97eea5618f56cbcefdb62669ae16f77f43178766",
+      "titulos_lidos": 12,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "fundamento/lote-01/evidencias/fundamento-maxima-ultima-leitura.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "e139e1fa16457839f8315c56b1b88b58089dfeda4ea9e20666232defed5e7c72",
+      "titulos_lidos": 7,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "fundamento/lote-01/evidencias/fundamento-maxima.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "e39e80edc2ecf405fa1e17f973eb699b07bd40a2a6f375ede92e63a5844b1d9f",
+      "titulos_lidos": 22,
+      "quantidade": 1,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 213,
+          "termo": "O",
+          "titulo": "O que o próximo validador deve cobrir",
+          "trecho": "O que o próximo validador deve cobrir",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O que o próximo validador deve cobrir",
+          "depois_sugerido": null,
+          "orientacao": "pergunta exige escolher assunto; não basta retirar o artigo",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "fundamento/lote-01/evidencias/fundamento-revisao-regras.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "be98c625e31ecc046ebdaeb8b69d2d1e1d7dd543b6dd6c3b87ac66289ae5460f",
+      "titulos_lidos": 13,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "fundamento/lote-01/evidencias/fundamento-rotas-didatica.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "831bfbdd3c15ed0af71b4848e8b325454390f7bf132fad77de9218f0393c2507",
+      "titulos_lidos": 16,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "fundamento/lote-01/sincronizacoes/40-CATALOGO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "eea4e32024b441f45a0b0674bb8b9b1406664b6b9016a13e0bb16b513be45b45",
+      "titulos_lidos": 11,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "fundamento/lote-01/sincronizacoes/42-TECNICA-MARCIAL.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "43a7442c59ba2b195c35a3a303d3301c381d4317e20ebc25ac594a75b1631fd0",
+      "titulos_lidos": 5,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "fundamento/lote-01/sincronizacoes/43-SEM-TECNICA.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "e0ac3ad7b2937db7b7ff3dd8678ecf5d191608060b218ad8479bbbbd0cce6542",
+      "titulos_lidos": 6,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "fundamento/lote-01/sincronizacoes/60-INVOCACOES.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "7955b87a30c199f4d1c6b1e4abcc2969cb60e08532def0412529a20aeb48f0ed",
+      "titulos_lidos": 6,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "fundamento/lote-01/sincronizacoes/80-PROGRESSAO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "fba760d258043da460b4a9d29910706bb249b430dac9f11c28a60dca9792ec9d",
+      "titulos_lidos": 4,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "pericias-e-oficios/lote-01/CONTRATO-NUMERICO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "a3caf197976bf27a35379030375d9818cf3a4b3de187a35bcc4294cb4e45d053",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "pericias-e-oficios/lote-01/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "ff5d5a10811ce6ccfc39ed781587a22b3790f08f781f8e55cfa35a05f6b2dc11",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "pericias-e-oficios/lote-01/PERICIAS-E-OFICIOS.md",
+      "categoria": "corrente_cadastrado",
+      "sha256": "fec7b78ed68c2ebdfc47aae059de9c713249f36d76b137e3baa858238cfde8b6",
+      "titulos_lidos": 49,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "pericias-e-oficios/lote-01/REVISAO-E-FONTES.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "8c5b361d06929056498466b5892beaffb8401554af88e73635c545de3c5fe7c2",
+      "titulos_lidos": 9,
+      "quantidade": 1,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 5,
+          "termo": "O",
+          "titulo": "O que mudou",
+          "trecho": "O que mudou",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O que mudou",
+          "depois_sugerido": null,
+          "orientacao": "pergunta exige escolher assunto; não basta retirar o artigo",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "regras-basicas/lote-01/DECISOES.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "926eabe04555db26756af6c0bd688bde7d51ab24cbcca56826e10392485f35b8",
+      "titulos_lidos": 8,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-basicas/lote-01/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "4610097817a88a97a88667adc4cd7ae0883768fd19cb6aa021df6a9910ddaf47",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-basicas/lote-01/RELATORIO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "d766f287d0b2b00b740505f2b35c3b41eca8bb2e41e070cca110beaeffe55965",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+      "categoria": "corrente_cadastrado",
+      "sha256": "6398c036f821c98ab1c83241eb76c91f0ef2b29d108ba8335b6ae794eb180b35",
+      "titulos_lidos": 28,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-basicas/lote-01/evidencias/FONTES-E-DESTINOS.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "b963c54b1af1ac396749251f4753bcb364060b4cc1ec0f65c293c3338b0bf468",
+      "titulos_lidos": 4,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-basicas/lote-01/evidencias/REVISAO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "e8cc008c4d986ba747915c0d8b85bbde72c577407b4e4725e883ea1e93748c1d",
+      "titulos_lidos": 4,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-basicas/lote-02/ATAQUES-E-DEFESA.md",
+      "categoria": "corrente_cadastrado",
+      "sha256": "afd311cfde0914af381f09cee3e756138a6ddb976a4c6276e4f6b378b2eac477",
+      "titulos_lidos": 23,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-basicas/lote-02/DECISOES.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "e4a3f3ffbe39ce72fb5397b5241e3ceff30932a61d21e33c5c14ab4fd4b24fe2",
+      "titulos_lidos": 3,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-basicas/lote-02/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "d799fbd8fd7856e1ee8bca7aef30e59b2c830bf8405c809130b47c7b440177d3",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-basicas/lote-02/RELATORIO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "87d9b37d5f7eeec1836e29fc999d502ebced0c3a653abae5ff3cbf8c963404b3",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-basicas/lote-02/evidencias/FONTES-E-DESTINOS.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "df50dfe7d5f9fb13216b4a4a9bf8c50d7e4ea60d3c4cb10fb90233b025135763",
+      "titulos_lidos": 4,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-basicas/lote-02/evidencias/REVISAO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "98c44201954399f79c9db81f7b9ed19c8abb3551a5b51816de64f2969b070c62",
+      "titulos_lidos": 4,
+      "quantidade": 1,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 51,
+          "termo": "O",
+          "titulo": "O que os resultados não certificam",
+          "trecho": "O que os resultados não certificam",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O que os resultados não certificam",
+          "depois_sugerido": null,
+          "orientacao": "pergunta exige escolher assunto; não basta retirar o artigo",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "regras-basicas/lote-03/DANO-E-CONDICOES.md",
+      "categoria": "historico_ou_piloto",
+      "sha256": "0abe2cda2ee076f7a0507c5ea9420bf91c66e078ece52f4ea506bf1d93a07ac6",
+      "titulos_lidos": 38,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-basicas/lote-03/DECISOES.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "8b72302d9f4a55e2d7c51270b9d5a2509f7d5b8330421c33a40d450232bbbfc2",
+      "titulos_lidos": 2,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-basicas/lote-03/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "2807986767c36a9d9894a6e65a6543db97c999ac6cb266370901c682d9390379",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-basicas/lote-03/RELATORIO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "23e12de6f14648883634b6b8b2db6b66b3560b6dd7d9040761614f62704f7a21",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-basicas/lote-03/evidencias/FONTES-E-DESTINOS.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "7c1e194581e6fbb53a7d158234d2ee27ee79e4eaf6f90cee0a728a3e7eaf6240",
+      "titulos_lidos": 3,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-basicas/lote-03/evidencias/REVISAO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "2b5262ef3ab1e7c3f74c9e555ab6818a0e358ad1d78513006a7bfe71d2f3ec78",
+      "titulos_lidos": 4,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-basicas/lote-03-r2/DANO-E-CONDICOES.md",
+      "categoria": "historico_ou_piloto",
+      "sha256": "5bd0b17ee255e29e1ff20a3a17eef5d1f80f5e02b0392364c0f4760108310137",
+      "titulos_lidos": 39,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-basicas/lote-03-r2/DECISOES.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "f257d138e779e3b6587056193f2efc0e5d6d58c0602644ac2ab0cc7e6a571b6e",
+      "titulos_lidos": 3,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-basicas/lote-03-r2/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "5cd30c3bcc8808e06cafc38906c3bb8d3130ba952271d2fc6d7d654f34e9e2aa",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-basicas/lote-03-r2/RELATORIO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "81f28de7ed43475032973193704275360e3d931c1056fab0a2a4f2bcdf580f7d",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-basicas/lote-03-r2/evidencias/FONTES-E-DESTINOS.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "c9aa7cf3b2b263602263dc683318f8d7b1a6b4bb76bed59d27e6a5eba1912b62",
+      "titulos_lidos": 4,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-basicas/lote-03-r2/evidencias/REVISAO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "b6c13641d2f902ac93465a7fa4ed7b9c1744fa722648d5a4fa576deba79c0f26",
+      "titulos_lidos": 5,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+      "categoria": "corrente_cadastrado",
+      "sha256": "b902a11dc5bca2fc78b9c3a8daf87dbdb276185da48a699637946bf7654a531d",
+      "titulos_lidos": 39,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-basicas/lote-03-r3/DECISOES.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "0ea0e6740da2e7a34ffd30d1fff84e1cc0a8c603bce694b9b2af7e774c2bbb50",
+      "titulos_lidos": 4,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-basicas/lote-03-r3/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "5745dede234cb0e55427d7a6bd198970dcbca97252dbc3b590d4123147cccc8e",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-basicas/lote-03-r3/RELATORIO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "7a19838365aa180cf2abf46c1a228b4453fce4d9c8041c2db1992fca116ca02d",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-basicas/lote-03-r3/SINCRONIZACOES-PROPOSTAS.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "c7accdcb1aca3ed5cc241ff3b639288d44fd31cde8235c8a2191e9d461fecd2c",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-basicas/lote-03-r3/evidencias/FONTES-E-DESTINOS.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "045e8f125efa2b20b4fbcbf8fa32903837be379b2083553f0c62581980946113",
+      "titulos_lidos": 4,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-basicas/lote-03-r3/evidencias/REVISAO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "5d1e908004af6df11313d63a4defdda63e3d7ef890ebc5dd81f775051db142b8",
+      "titulos_lidos": 5,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-basicas/lote-04/DECISOES.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "b86effa331baf2176140f1a5e63a4942b6536354b08ffccb7c74c213b85cd277",
+      "titulos_lidos": 2,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-basicas/lote-04/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "65dfc99fd29658c0ea5ebe8a6066ea44b5b1b79304f974d8f26204ecf71c11a0",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-basicas/lote-04/RECUPERACAO.md",
+      "categoria": "corrente_cadastrado",
+      "sha256": "c7a7b7ce0366fcaf7cc88282b755f5bd59ee60efef376db218d50aa2e50dc22c",
+      "titulos_lidos": 30,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-basicas/lote-04/RELATORIO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "24fb7b9ab97b53dd92583136171a0e7162fb1c3573ba72d5a8d3becffacc157c",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-basicas/lote-04/evidencias/FONTES-E-DESTINOS.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "d72beb906043978a28c7eb53b0c87bf308362c12013732e8fb34e9097a1e2fd0",
+      "titulos_lidos": 4,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-basicas/lote-04/evidencias/REVISAO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "3b509a3af7e3e8f45b9ce45f22095b2e639b1708a4828bea1d11b340838a6da9",
+      "titulos_lidos": 4,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-basicas/lote-04-r2/DECISOES.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "cf74240885c1d0b0c5d52e15a26fb3c0e312cfb495e84e256645481192c62e9f",
+      "titulos_lidos": 3,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-basicas/lote-04-r2/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "720df8b0d144a00a22e244453eb1a9c71cca32bd24c4116d6f7e67e2b173ac5d",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-basicas/lote-04-r2/RECUPERACAO.md",
+      "categoria": "historico_ou_piloto",
+      "sha256": "dccb0dcf2744679c51051bcd1abe0f665f61295136837febc69f9815670f822c",
+      "titulos_lidos": 30,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-basicas/lote-04-r2/RELATORIO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "1ec7a38a1b004275ac7452757b22e40d48c4ed44146cdd5f760593134f641731",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-basicas/lote-04-r2/evidencias/FONTES-E-DESTINOS.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "53c44b56321b5677e5ca2826cdf9a893d84f15146bcfc09e22ddce66e2bd6137",
+      "titulos_lidos": 4,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-basicas/lote-04-r2/evidencias/REVISAO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "6c2f71e33c63da3885caf68bc09ab131abb50955ef67957aa6de372f29c26d89",
+      "titulos_lidos": 5,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/01-DECISOES.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "11ea6f72931bebe98fbdb6a5c56a64254c936eedcc7f175e7aed8f3dcd577c91",
+      "titulos_lidos": 8,
+      "quantidade": 1,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 5,
+          "termo": "O",
+          "titulo": "O que se quer produzir em jogo",
+          "trecho": "O que se quer produzir em jogo",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O que se quer produzir em jogo",
+          "depois_sugerido": null,
+          "orientacao": "pergunta exige escolher assunto; não basta retirar o artigo",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "regras-comuns/01-MOVIMENTO-MINUTA.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "aaeb506ba6f1e4a93ba1695eea8dafc76dc5d9c28b162abf19ed5707c3230deb",
+      "titulos_lidos": 11,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/EVIDENCIA-ESCALA.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "4f3357b3fe21d0ff3a1d9052f3eba90e856655e26ce04471396d4231b6bf0c28",
+      "titulos_lidos": 15,
+      "quantidade": 2,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 7,
+          "termo": "O",
+          "titulo": "1. O que a nova regra precisa preservar",
+          "trecho": "1. O que a nova regra precisa preservar",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "1. O que a nova regra precisa preservar",
+          "depois_sugerido": null,
+          "orientacao": "pergunta exige escolher assunto; não basta retirar o artigo",
+          "aplicado": false
+        },
+        {
+          "codigo": "E007",
+          "linha": 60,
+          "termo": "A",
+          "titulo": "3. A interação mais sensível: parede, salto e abate",
+          "trecho": "3. A interação mais sensível: parede, salto e abate",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "3. A interação mais sensível: parede, salto e abate",
+          "depois_sugerido": "3. Interação mais sensível: parede, salto e abate",
+          "orientacao": "sugestão inicial; revisar sentido, não aplicar automaticamente",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "regras-comuns/EVIDENCIA-INTERACOES.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "76ad91bcf997d9af0f560c5747d49ff9e29fa545214a15b9480fa9f4abdcec13",
+      "titulos_lidos": 11,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/FICHA-DE-REVISAO-EDITORIAL.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "a5af956d656c7adda9c8cf524120179a323e5518a52fc9e4a3944358ad820111",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/PROTOCOLO-DE-VALIDACAO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "5ae68248d6eb5cf60feaf9fe001eecdac330a924287721331f77c5296cdb6bd7",
+      "titulos_lidos": 13,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/RELATORIO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "5836e44993891102198c9aeb28420a2312da6e08d9fee3585e94cb80dd12effb",
+      "titulos_lidos": 5,
+      "quantidade": 1,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 5,
+          "termo": "O",
+          "titulo": "O que foi entregue",
+          "trecho": "O que foi entregue",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O que foi entregue",
+          "depois_sugerido": null,
+          "orientacao": "pergunta exige escolher assunto; não basta retirar o artigo",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "regras-comuns/REVISAO-EDITORIAL.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "24571fee5beebb98b74eb6708802e5bc98ce8158f44baaaa12e372355054a767",
+      "titulos_lidos": 3,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/REVISAO-MECANICA.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "5b948cc7e625daef71c6439e2bac49267d68e2d2f2d6b678adf199a20fe6fd0d",
+      "titulos_lidos": 5,
+      "quantidade": 2,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 21,
+          "termo": "A",
+          "titulo": "2. A afirmação de que o kit aprovado não muda é mais forte que a validação feita",
+          "trecho": "2. A afirmação de que o kit aprovado não muda é mais forte que a validação feita",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "2. A afirmação de que o kit aprovado não muda é mais forte que a validação feita",
+          "depois_sugerido": "2. Afirmação de que o kit aprovado não muda é mais forte que a validação feita",
+          "orientacao": "sugestão inicial; revisar sentido, não aplicar automaticamente",
+          "aplicado": false
+        },
+        {
+          "codigo": "E007",
+          "linha": 31,
+          "termo": "O",
+          "titulo": "O que foi efetivamente conferido",
+          "trecho": "O que foi efetivamente conferido",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O que foi efetivamente conferido",
+          "depois_sugerido": null,
+          "orientacao": "pergunta exige escolher assunto; não basta retirar o artigo",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "regras-comuns/consolidado-r1/DEPENDENCIAS-PARA-INTEGRACAO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "0303dc83954617c7246da426dd33584acf4dcdd51d7af96ca64c976a0f2f4016",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/consolidado-r1/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "e51bb943032e329d0f7095e1a38830816ebf35849ffc873fff72732f426a11ee",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md",
+      "categoria": "corrente_cadastrado",
+      "sha256": "3a7c2783e8f07a1d0de20317d1115d592d45c8b96cbbf7452e28d970ef03bb06",
+      "titulos_lidos": 67,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/consolidado-r1/RELATORIO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "cc1638cc6700c8da3a69409440c7f9e720b30beda8e9b6d6af28f72787b06844",
+      "titulos_lidos": 4,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/consolidado-r1/evidencias/CENARIOS-CONSOLIDADOS.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "57159cc3cf3591b0a8ef7bf6e7183752593c6553c8c2bf3e62f066fa0ddba0f9",
+      "titulos_lidos": 2,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/consolidado-r1/evidencias/REFERENCIAS-EDITORIAIS.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "1ed43e78e478e70e3e08c74fa5c06b01a83a7abc275f74fa5812f3eac7301e20",
+      "titulos_lidos": 4,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/consolidado-r1/evidencias/REVISAO-EDITORIAL.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "2caef47c8ce9057079aaf7f25aa880a0b6c9086eef74e40ae49f2cbe2edd67dc",
+      "titulos_lidos": 5,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/historico/lote-02-r1/02-DECISOES.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "17c16244e200f8bf770e7768ae33c794334ed9fef4371bf6e101a1c2539668dd",
+      "titulos_lidos": 6,
+      "quantidade": 1,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 36,
+          "termo": "O",
+          "titulo": "O que a comparação numérica mostra",
+          "trecho": "O que a comparação numérica mostra",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O que a comparação numérica mostra",
+          "depois_sugerido": null,
+          "orientacao": "pergunta exige escolher assunto; não basta retirar o artigo",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "regras-comuns/historico/lote-02-r1/02-SALTOS-E-QUEDAS.md",
+      "categoria": "historico_ou_piloto",
+      "sha256": "f549e00e0e3a3199d042ec94d1687557b6f7479e9fc6b0cbd1532fec43c992f0",
+      "titulos_lidos": 27,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/historico/lote-02-r1/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "0f2f0548aee8fe9395c462deaf5e3782f0c563a43ca8d8805bba030a50c10539",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/historico/lote-02-r1/RELATORIO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "17a5b6416dbdcba4989c9946f67dd8fa093c2d56070430d5598dd1375f4696e8",
+      "titulos_lidos": 6,
+      "quantidade": 1,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 42,
+          "termo": "O",
+          "titulo": "O que ainda precisa ser avaliado",
+          "trecho": "O que ainda precisa ser avaliado",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O que ainda precisa ser avaliado",
+          "depois_sugerido": null,
+          "orientacao": "pergunta exige escolher assunto; não basta retirar o artigo",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "regras-comuns/historico/lote-02-r1/evidencias/comparacao-matematica.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "329a33e502b5afbd5ea181aca85e57b9b979b1e7f5dd7b6abb846a785ed80bfe",
+      "titulos_lidos": 15,
+      "quantidade": 2,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 77,
+          "termo": "Os",
+          "titulo": "3. Os três perfis de queda",
+          "trecho": "3. Os três perfis de queda",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "3. Os três perfis de queda",
+          "depois_sugerido": "3. Três perfis de queda",
+          "orientacao": "sugestão inicial; revisar sentido, não aplicar automaticamente",
+          "aplicado": false
+        },
+        {
+          "codigo": "E007",
+          "linha": 139,
+          "termo": "O",
+          "titulo": "6. O Bastião resistente deve continuar resistente",
+          "trecho": "6. O Bastião resistente deve continuar resistente",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "6. O Bastião resistente deve continuar resistente",
+          "depois_sugerido": "6. Bastião resistente deve continuar resistente",
+          "orientacao": "sugestão inicial; revisar sentido, não aplicar automaticamente",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "regras-comuns/historico/lote-02-r1/evidencias/interacoes-antes-da-minuta.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "5862520fb320ce02a7f13af0a42d8127193a82f8a88d4c8965cd6e087ee8a7b6",
+      "titulos_lidos": 7,
+      "quantidade": 1,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 20,
+          "termo": "O",
+          "titulo": "2. O que cada capacidade conserva",
+          "trecho": "2. O que cada capacidade conserva",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "2. O que cada capacidade conserva",
+          "depois_sugerido": null,
+          "orientacao": "pergunta exige escolher assunto; não basta retirar o artigo",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "regras-comuns/historico/lote-02-r1/evidencias/referencias-primarias.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "3c6fb96810586612c054460c540fd0c3122154fa96381f02748d675758dca377",
+      "titulos_lidos": 5,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/historico/lote-02-r1/evidencias/revisao-editorial.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "2fbddaec44b7366378987eba10fb65db1e2d890c1e838ad5c537f6b0a6deb2f9",
+      "titulos_lidos": 3,
+      "quantidade": 1,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 17,
+          "termo": "O",
+          "titulo": "O que conservar e verificar na prova",
+          "trecho": "O que conservar e verificar na prova",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O que conservar e verificar na prova",
+          "depois_sugerido": null,
+          "orientacao": "pergunta exige escolher assunto; não basta retirar o artigo",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "regras-comuns/historico/lote-02-r1/evidencias/revisao-mecanica.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "a73a94b9978cf1e6b3dd116d97d32876a316deb8bea4552b28d47349f296f458",
+      "titulos_lidos": 8,
+      "quantidade": 2,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 29,
+          "termo": "O",
+          "titulo": "4. O exemplo de Recuperar a Base depende de um momento de medição não declarado",
+          "trecho": "4. O exemplo de Recuperar a Base depende de um momento de medição não declarado",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "4. O exemplo de Recuperar a Base depende de um momento de medição não declarado",
+          "depois_sugerido": "4. Exemplo de Recuperar a Base depende de um momento de medição não declarado",
+          "orientacao": "sugestão inicial; revisar sentido, não aplicar automaticamente",
+          "aplicado": false
+        },
+        {
+          "codigo": "E007",
+          "linha": 45,
+          "termo": "O",
+          "titulo": "6. O Movimento Acrobático continua sem uso definido fora da iniciativa",
+          "trecho": "6. O Movimento Acrobático continua sem uso definido fora da iniciativa",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "6. O Movimento Acrobático continua sem uso definido fora da iniciativa",
+          "depois_sugerido": "6. Movimento Acrobático continua sem uso definido fora da iniciativa",
+          "orientacao": "sugestão inicial; revisar sentido, não aplicar automaticamente",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "regras-comuns/historico/lote-02-r2/02-DECISOES.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "f9a5089abd036618fd9a9063089eacb29d981f9bc0f55aeb8c43953ebd4879ee",
+      "titulos_lidos": 4,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/historico/lote-02-r2/02-SALTOS-E-QUEDAS.md",
+      "categoria": "historico_ou_piloto",
+      "sha256": "f583b3ecdaa038dda5e38b2179ee3e2e1a2a274c7c8e92cbdcd18998f8ab2a12",
+      "titulos_lidos": 15,
+      "quantidade": 1,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 119,
+          "termo": "Os",
+          "titulo": "Os apoios do Parkour",
+          "trecho": "Os apoios do Parkour",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "Os apoios do Parkour",
+          "depois_sugerido": "Apoios do Parkour",
+          "orientacao": "proposta contextual; confirmar no capítulo",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "regras-comuns/historico/lote-02-r2/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "b361d11f4446ece804ce0ce3dda786371b0687ec07bb950032ef7a9b7e2466b4",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/historico/lote-02-r2/RELATORIO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "9fe1f919bf8b0f0210ad42f5f4298c3e6769311651076dd5edcec45e385fc1b8",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/historico/lote-03-r1/03-DECISOES.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "79b776f1cdd1dda4e30d0595b3d1527bc87bd759e55f15d3c8604b03e3936bb6",
+      "titulos_lidos": 6,
+      "quantidade": 1,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 5,
+          "termo": "O",
+          "titulo": "O que veio das fontes atuais",
+          "trecho": "O que veio das fontes atuais",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O que veio das fontes atuais",
+          "depois_sugerido": null,
+          "orientacao": "pergunta exige escolher assunto; não basta retirar o artigo",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "regras-comuns/historico/lote-03-r1/03-PERCEPCAO-E-FURTIVIDADE.md",
+      "categoria": "historico_ou_piloto",
+      "sha256": "6b84a92c296d46bfc8ad5a41621e60a4e74921e35542019ce8ab51a11adb7765",
+      "titulos_lidos": 15,
+      "quantidade": 2,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 2,
+          "termo": "O",
+          "titulo": "O que você percebe",
+          "trecho": "O que você percebe",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O que você percebe",
+          "depois_sugerido": null,
+          "orientacao": "pergunta exige escolher assunto; não basta retirar o artigo",
+          "aplicado": false
+        },
+        {
+          "codigo": "E007",
+          "linha": 104,
+          "termo": "O",
+          "titulo": "O ataque revela você?",
+          "trecho": "O ataque revela você?",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O ataque revela você?",
+          "depois_sugerido": "Ataques e posição revelada",
+          "orientacao": "proposta contextual; confirmar no capítulo",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "regras-comuns/historico/lote-03-r1/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "ecdc1d7775987704a6320e3436b0b2dc4131172c97d9eb49b0d9da882cbe7d95",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/historico/lote-03-r1/RELATORIO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "e212c0d8ffac8de6be181ef454a9dbe0cdf4481f34ba05bd4fcda48c61a65f53",
+      "titulos_lidos": 6,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/historico/lote-03-r1/evidencias/auditoria-fontes.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "4d70a8b60191e918cf45afa612d62ba79542c68553bc6f3aa6ba092095fbd9cd",
+      "titulos_lidos": 9,
+      "quantidade": 1,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 15,
+          "termo": "O",
+          "titulo": "O que está escrito hoje",
+          "trecho": "O que está escrito hoje",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O que está escrito hoje",
+          "depois_sugerido": null,
+          "orientacao": "pergunta exige escolher assunto; não basta retirar o artigo",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "regras-comuns/historico/lote-03-r1/evidencias/escala-saltos-quedas.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "ef5d60e463da403bbe519097206a6095e8346192014cedb7a76fb44198f178bd",
+      "titulos_lidos": 7,
+      "quantidade": 1,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 70,
+          "termo": "O",
+          "titulo": "5. O que retirar do lote 02 para realmente simplificar",
+          "trecho": "5. O que retirar do lote 02 para realmente simplificar",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "5. O que retirar do lote 02 para realmente simplificar",
+          "depois_sugerido": null,
+          "orientacao": "pergunta exige escolher assunto; não basta retirar o artigo",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "regras-comuns/historico/lote-03-r1/evidencias/referencias-dnd.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "e96c51db73dcf94f3bdcf66507dfcdee5c514b7a8f6699f43edd859322e953c7",
+      "titulos_lidos": 12,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/historico/lote-03-r1/evidencias/retorno-de-leitores-publicos.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "7cf9fa6bbd387081b7b4044c9b4d9a6fe4eaa0115fb4bb9c4fe5282aa752a747",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/historico/lote-03-r1/evidencias/revisao-editorial.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "d709216abca4af4b831d7b7d0b924bdda2bf7164db99f91a3787aa45e11c5870",
+      "titulos_lidos": 10,
+      "quantidade": 2,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 49,
+          "termo": "A",
+          "titulo": "5. A referência de Faro usa um nome que não existe na fonte conferida",
+          "trecho": "5. A referência de Faro usa um nome que não existe na fonte conferida",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "5. A referência de Faro usa um nome que não existe na fonte conferida",
+          "depois_sugerido": "5. Referência de Faro usa um nome que não existe na fonte conferida",
+          "orientacao": "sugestão inicial; revisar sentido, não aplicar automaticamente",
+          "aplicado": false
+        },
+        {
+          "codigo": "E007",
+          "linha": 63,
+          "termo": "O",
+          "titulo": "O que manter",
+          "trecho": "O que manter",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O que manter",
+          "depois_sugerido": null,
+          "orientacao": "pergunta exige escolher assunto; não basta retirar o artigo",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "regras-comuns/historico/lote-03-r1/evidencias/revisao-mecanica.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "8ab47835d11b95f001511cf70ce9ee6905b3dd78fce235e730024b479d1eb07f",
+      "titulos_lidos": 9,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/historico/lote-03-r1/evidencias/revisao-movimento.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "8d2407e24126e19f6cbd07e2af1c3a1f7c86f617cac6b6f6aeebfa59282ba850",
+      "titulos_lidos": 8,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-02/02-DECISOES.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "f45ed725398aa28c8970e01113be3cb5b1da26a92efe25a728958fcf95305cb6",
+      "titulos_lidos": 5,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-02/02-SALTOS-E-QUEDAS.md",
+      "categoria": "historico_ou_piloto",
+      "sha256": "cbad66f1845bf59084b379b246d19c11d04364c37550d01a288d6bd57f3452c9",
+      "titulos_lidos": 15,
+      "quantidade": 1,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 121,
+          "termo": "Os",
+          "titulo": "Os apoios do Parkour",
+          "trecho": "Os apoios do Parkour",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "Os apoios do Parkour",
+          "depois_sugerido": "Apoios do Parkour",
+          "orientacao": "proposta contextual; confirmar no capítulo",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "regras-comuns/lote-02/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "8fa8a29009e2d5903b82a22ffa8bab4675e3463d5437d5f18e11280c50e391bf",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-02/RELATORIO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "12d62b6f9f51a95338f7babf0da02aca42155cdb75ca9fbbe650a1d144276907",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-03/03-DECISOES.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "04538ae0be3115d5c1b33b9a2b9f1a9bf26331ac8b35a6d39d89b9d7d88c5684",
+      "titulos_lidos": 5,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-03/03-PERCEPCAO-E-FURTIVIDADE.md",
+      "categoria": "historico_ou_piloto",
+      "sha256": "55cb314a5bd0d420a3be0f8fcdb77ccbe27628604242573288a99a2a4e1ea02b",
+      "titulos_lidos": 14,
+      "quantidade": 2,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 2,
+          "termo": "O",
+          "titulo": "O que você percebe",
+          "trecho": "O que você percebe",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O que você percebe",
+          "depois_sugerido": null,
+          "orientacao": "pergunta exige escolher assunto; não basta retirar o artigo",
+          "aplicado": false
+        },
+        {
+          "codigo": "E007",
+          "linha": 102,
+          "termo": "O",
+          "titulo": "O ataque revela você?",
+          "trecho": "O ataque revela você?",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O ataque revela você?",
+          "depois_sugerido": "Ataques e posição revelada",
+          "orientacao": "proposta contextual; confirmar no capítulo",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "regras-comuns/lote-03/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "7b01d6cf4d45029327e58a205f6a17089b2809e511f84ed21a9b423e3e61468f",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-03/RELATORIO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "eb59d680d93b4b4dba9ea483bd56272e534c6fe1ab1a3e6a1bb1350bd163b5b8",
+      "titulos_lidos": 5,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-03/evidencias/CENARIOS-REAVALIADOS.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "9bf97b81eee8568779a90d752e045abb056c36ae6edf751c5fd983af7f8076e5",
+      "titulos_lidos": 2,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-03/evidencias/auditoria-fontes.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "4d70a8b60191e918cf45afa612d62ba79542c68553bc6f3aa6ba092095fbd9cd",
+      "titulos_lidos": 9,
+      "quantidade": 1,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 15,
+          "termo": "O",
+          "titulo": "O que está escrito hoje",
+          "trecho": "O que está escrito hoje",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O que está escrito hoje",
+          "depois_sugerido": null,
+          "orientacao": "pergunta exige escolher assunto; não basta retirar o artigo",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "regras-comuns/lote-03/evidencias/escala-saltos-quedas.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "ef5d60e463da403bbe519097206a6095e8346192014cedb7a76fb44198f178bd",
+      "titulos_lidos": 7,
+      "quantidade": 1,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 70,
+          "termo": "O",
+          "titulo": "5. O que retirar do lote 02 para realmente simplificar",
+          "trecho": "5. O que retirar do lote 02 para realmente simplificar",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "5. O que retirar do lote 02 para realmente simplificar",
+          "depois_sugerido": null,
+          "orientacao": "pergunta exige escolher assunto; não basta retirar o artigo",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "regras-comuns/lote-03/evidencias/reavaliacao04-furtividade-matematica.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "b974280e54eaf8c829ab7115b5aeb1626f58eacd62c9d4a1b1cc5a7860d7fe60",
+      "titulos_lidos": 15,
+      "quantidade": 3,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 30,
+          "termo": "As",
+          "titulo": "1. As duas CDs na escala real",
+          "trecho": "1. As duas CDs na escala real",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "1. As duas CDs na escala real",
+          "depois_sugerido": "1. Duas CDs na escala real",
+          "orientacao": "sugestão inicial; revisar sentido, não aplicar automaticamente",
+          "aplicado": false
+        },
+        {
+          "codigo": "E007",
+          "linha": 58,
+          "termo": "As",
+          "titulo": "2. As chances continuadas mudam a avaliação",
+          "trecho": "2. As chances continuadas mudam a avaliação",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "2. As chances continuadas mudam a avaliação",
+          "depois_sugerido": "2. Chances continuadas mudam a avaliação",
+          "orientacao": "sugestão inicial; revisar sentido, não aplicar automaticamente",
+          "aplicado": false
+        },
+        {
+          "codigo": "E007",
+          "linha": 77,
+          "termo": "O",
+          "titulo": "3. O que está sendo concedido além de uma porcentagem",
+          "trecho": "3. O que está sendo concedido além de uma porcentagem",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "3. O que está sendo concedido além de uma porcentagem",
+          "depois_sugerido": null,
+          "orientacao": "pergunta exige escolher assunto; não basta retirar o artigo",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "regras-comuns/lote-03/evidencias/reavaliacao04-regras.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "2d9d1ab388af2abbe447bdf57cc2ff50b27e0e3a9634dfd39e34ebb293267a87",
+      "titulos_lidos": 10,
+      "quantidade": 3,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 56,
+          "termo": "A",
+          "titulo": "3. A fórmula de Furtividade perde especialização",
+          "trecho": "3. A fórmula de Furtividade perde especialização",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "3. A fórmula de Furtividade perde especialização",
+          "depois_sugerido": "3. Fórmula de Furtividade perde especialização",
+          "orientacao": "sugestão inicial; revisar sentido, não aplicar automaticamente",
+          "aplicado": false
+        },
+        {
+          "codigo": "E007",
+          "linha": 68,
+          "termo": "A",
+          "titulo": "4. A nova fumaça e o Cego vigente invertem o resultado quando ambos ficam Cegos",
+          "trecho": "4. A nova fumaça e o Cego vigente invertem o resultado quando ambos ficam Cegos",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "4. A nova fumaça e o Cego vigente invertem o resultado quando ambos ficam Cegos",
+          "depois_sugerido": "4. Nova fumaça e o Cego vigente invertem o resultado quando ambos ficam Cegos",
+          "orientacao": "sugestão inicial; revisar sentido, não aplicar automaticamente",
+          "aplicado": false
+        },
+        {
+          "codigo": "E007",
+          "linha": 100,
+          "termo": "O",
+          "titulo": "O que não se demonstrou como problema",
+          "trecho": "O que não se demonstrou como problema",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O que não se demonstrou como problema",
+          "depois_sugerido": null,
+          "orientacao": "pergunta exige escolher assunto; não basta retirar o artigo",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "regras-comuns/lote-03/evidencias/referencias-dnd.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "e96c51db73dcf94f3bdcf66507dfcdee5c514b7a8f6699f43edd859322e953c7",
+      "titulos_lidos": 12,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-03/evidencias/retorno-de-leitores-publicos.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "7cf9fa6bbd387081b7b4044c9b4d9a6fe4eaa0115fb4bb9c4fe5282aa752a747",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-03/evidencias/revisao-editorial.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "d709216abca4af4b831d7b7d0b924bdda2bf7164db99f91a3787aa45e11c5870",
+      "titulos_lidos": 10,
+      "quantidade": 2,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 49,
+          "termo": "A",
+          "titulo": "5. A referência de Faro usa um nome que não existe na fonte conferida",
+          "trecho": "5. A referência de Faro usa um nome que não existe na fonte conferida",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "5. A referência de Faro usa um nome que não existe na fonte conferida",
+          "depois_sugerido": "5. Referência de Faro usa um nome que não existe na fonte conferida",
+          "orientacao": "sugestão inicial; revisar sentido, não aplicar automaticamente",
+          "aplicado": false
+        },
+        {
+          "codigo": "E007",
+          "linha": 63,
+          "termo": "O",
+          "titulo": "O que manter",
+          "trecho": "O que manter",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O que manter",
+          "depois_sugerido": null,
+          "orientacao": "pergunta exige escolher assunto; não basta retirar o artigo",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "regras-comuns/lote-03/evidencias/revisao-mecanica.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "8ab47835d11b95f001511cf70ce9ee6905b3dd78fce235e730024b479d1eb07f",
+      "titulos_lidos": 9,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-03/evidencias/revisao-movimento.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "8d2407e24126e19f6cbd07e2af1c3a1f7c86f617cac6b6f6aeebfa59282ba850",
+      "titulos_lidos": 8,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-04/04-DECISOES.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "c40c1f65db4d2b536a1c8510a748858c22c75abc41bcbe6c721e0e4ea26fb015",
+      "titulos_lidos": 4,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-04/04-MANOBRAS-E-INFORMACAO.md",
+      "categoria": "historico_ou_piloto",
+      "sha256": "1ea15259408bc967d24476b594f272b406f37b5a72d1585308b2a3558d7a7c80",
+      "titulos_lidos": 17,
+      "quantidade": 1,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 61,
+          "termo": "O",
+          "titulo": "O que muda com uma Trilha",
+          "trecho": "O que muda com uma Trilha",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O que muda com uma Trilha",
+          "depois_sugerido": "Trilhas e usos específicos",
+          "orientacao": "proposta contextual; confirmar no capítulo",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "regras-comuns/lote-04/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "0d5b851b4d2e3ec71d1dad191744543899dc4a98806349224640d8ef7594a094",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-04/evidencias/auditoria-fontes.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "58051dc1cf8a65c0c171b19d4bfc56a175d7db321674d3df92be2cc2f8157d57",
+      "titulos_lidos": 7,
+      "quantidade": 1,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 5,
+          "termo": "O",
+          "titulo": "O que as fontes vigentes realmente estabelecem",
+          "trecho": "O que as fontes vigentes realmente estabelecem",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O que as fontes vigentes realmente estabelecem",
+          "depois_sugerido": null,
+          "orientacao": "pergunta exige escolher assunto; não basta retirar o artigo",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "regras-comuns/lote-04/evidencias/leitura-final.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "59a3763f1de5992739d50b08ca7c66c92c588e35696dec796702632a98f71338",
+      "titulos_lidos": 4,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-04/evidencias/testes-adversariais.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "d07094dc651fe6eefb5793606df2451244ce6f54446c16b5548d0bb043ef0e40",
+      "titulos_lidos": 8,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-05/05-DECISOES.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "75faae5fc234b6fb5030e7df3ba55dbb720d06a1c7d8bdb871a37bc77e119636",
+      "titulos_lidos": 5,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-05/05-ENERGIA-E-VESTIGIOS.md",
+      "categoria": "historico_ou_piloto",
+      "sha256": "e492d40892b28830d9a0a31f301bf7d0a96016f88b4bd2a36d2011fbe19c2d26",
+      "titulos_lidos": 15,
+      "quantidade": 2,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 24,
+          "termo": "O",
+          "titulo": "O que o sucesso entrega",
+          "trecho": "O que o sucesso entrega",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O que o sucesso entrega",
+          "depois_sugerido": "Resultados",
+          "orientacao": "proposta contextual; confirmar no capítulo",
+          "aplicado": false
+        },
+        {
+          "codigo": "E007",
+          "linha": 51,
+          "termo": "O",
+          "titulo": "O alvo não tem energia",
+          "trecho": "O alvo não tem energia",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O alvo não tem energia",
+          "depois_sugerido": "Alvos sem energia",
+          "orientacao": "proposta contextual; confirmar no capítulo",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "regras-comuns/lote-05/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "9af12d816250221cca0a3b27190963df1c69eb784c530047dbc4163671555aa1",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-05/RELATORIO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "507b1085ec61af23834dc2d876736be3f09b437766e874adb070a770f9af03e2",
+      "titulos_lidos": 5,
+      "quantidade": 1,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 34,
+          "termo": "O",
+          "titulo": "O que ainda precisa de decisão ou prova",
+          "trecho": "O que ainda precisa de decisão ou prova",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O que ainda precisa de decisão ou prova",
+          "depois_sugerido": null,
+          "orientacao": "pergunta exige escolher assunto; não basta retirar o artigo",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "regras-comuns/lote-05/evidencias/CENARIOS.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "a42fe1bb748f7b97e33840e092a19bac0615c13cbe82881342799c56b6cfdc1c",
+      "titulos_lidos": 6,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-05/evidencias/auditoria-dependencias.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "46f22cbdabb057ccb42023c9f9519bb3bab072f7b2641d93eff1a365b8331923",
+      "titulos_lidos": 16,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-05/evidencias/deteccao-contas.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "5f883827c4e293ca281d08fce1d5e80cbb6520d052630c4f6837ce6d82f2537d",
+      "titulos_lidos": 7,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-05/evidencias/leitura-inicial.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "09642dbaade7b7b7a3c2c93d0c0eb48fa37d945b96a5d04a983e31833efb49cd",
+      "titulos_lidos": 5,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-05/evidencias/pesquisa-primaria.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "7ec0afd8cc2385cb78914bb7334075076ec094bdf12f056df79a630d73a1f324",
+      "titulos_lidos": 10,
+      "quantidade": 1,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 24,
+          "termo": "O",
+          "titulo": "O que as fontes públicas de JJK sustentaram nesta consulta",
+          "trecho": "O que as fontes públicas de JJK sustentaram nesta consulta",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O que as fontes públicas de JJK sustentaram nesta consulta",
+          "depois_sugerido": null,
+          "orientacao": "pergunta exige escolher assunto; não basta retirar o artigo",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "regras-comuns/lote-05/evidencias/revisao-leitura-r1.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "13135337f45f506d5e543019dc7a4414ed841b27c3348a74db6f8f1453e34249",
+      "titulos_lidos": 9,
+      "quantidade": 1,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 21,
+          "termo": "A",
+          "titulo": "2. A lista de bloqueios deixa cobertura sólida móvel sem resposta explícita",
+          "trecho": "2. A lista de bloqueios deixa cobertura sólida móvel sem resposta explícita",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "2. A lista de bloqueios deixa cobertura sólida móvel sem resposta explícita",
+          "depois_sugerido": "2. Lista de bloqueios deixa cobertura sólida móvel sem resposta explícita",
+          "orientacao": "sugestão inicial; revisar sentido, não aplicar automaticamente",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "regras-comuns/lote-05/evidencias/revisao-mecanica-r1.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "885e33d8acada4d236d81dfcea48c15d36cbf69aed3b57d8364923741e2cefea",
+      "titulos_lidos": 12,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-05-r2/05-DECISOES.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "784b1c15f6b9729546c163bf7bc2be870321a9931d5697f79bdcdea52f92065b",
+      "titulos_lidos": 5,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-05-r2/05-ENERGIA-E-VESTIGIOS.md",
+      "categoria": "historico_ou_piloto",
+      "sha256": "8c10c18f03d549f9af401c668910c74f8921a9069882405cd708087b23f7581d",
+      "titulos_lidos": 19,
+      "quantidade": 4,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 8,
+          "termo": "O",
+          "titulo": "O que ficou no lugar",
+          "trecho": "O que ficou no lugar",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O que ficou no lugar",
+          "depois_sugerido": "Vestígios",
+          "orientacao": "proposta contextual; confirmar no capítulo",
+          "aplicado": false
+        },
+        {
+          "codigo": "E007",
+          "linha": 14,
+          "termo": "O",
+          "titulo": "O corpo e o que ele carrega",
+          "trecho": "O corpo e o que ele carrega",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O corpo e o que ele carrega",
+          "depois_sugerido": "Corpos e equipamento",
+          "orientacao": "proposta contextual; confirmar no capítulo",
+          "aplicado": false
+        },
+        {
+          "codigo": "E007",
+          "linha": 47,
+          "termo": "O",
+          "titulo": "O que o sucesso entrega",
+          "trecho": "O que o sucesso entrega",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O que o sucesso entrega",
+          "depois_sugerido": "Resultados",
+          "orientacao": "proposta contextual; confirmar no capítulo",
+          "aplicado": false
+        },
+        {
+          "codigo": "E007",
+          "linha": 74,
+          "termo": "O",
+          "titulo": "O alvo não tem energia",
+          "trecho": "O alvo não tem energia",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O alvo não tem energia",
+          "depois_sugerido": "Alvos sem energia",
+          "orientacao": "proposta contextual; confirmar no capítulo",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "regras-comuns/lote-05-r2/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "37c904db8403b08b788144ce545363204ea02169e3269055335392bdf006ae8c",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-05-r2/RELATORIO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "b6e9dddf13dac3ee767e60b89ad16c033f66ffea4a85ffe1a58e43e304a74d43",
+      "titulos_lidos": 5,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-05-r2/SINCRONIZACOES-PROPOSTAS.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "f7e4af43679d4109a51ffc30ca4947c9d587f077c83a57a75df3c8191771bccd",
+      "titulos_lidos": 4,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-05-r2/evidencias/CANONE-E-ADAPTACAO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "c50e10e93517fe98b70bcabb9d19804566f37bd6e8edd02b4d46dadb1783a371",
+      "titulos_lidos": 5,
+      "quantidade": 2,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 5,
+          "termo": "O",
+          "titulo": "O que foi conferido diretamente",
+          "trecho": "O que foi conferido diretamente",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O que foi conferido diretamente",
+          "depois_sugerido": null,
+          "orientacao": "pergunta exige escolher assunto; não basta retirar o artigo",
+          "aplicado": false
+        },
+        {
+          "codigo": "E007",
+          "linha": 19,
+          "termo": "O",
+          "titulo": "O que continua sendo escolha do Projeto M",
+          "trecho": "O que continua sendo escolha do Projeto M",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "O que continua sendo escolha do Projeto M",
+          "depois_sugerido": null,
+          "orientacao": "pergunta exige escolher assunto; não basta retirar o artigo",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "regras-comuns/lote-05-r2/evidencias/CENARIOS-R2.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "c8ad707688a1645889adf35db595a8d62f596f4b005e6d8481bd7801e81171ea",
+      "titulos_lidos": 2,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-06/DECISOES.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "15b4634478a0d24961ebe5883ec94f6c7487db9b55989ddb5fb160b0b31a8174",
+      "titulos_lidos": 4,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-06/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "65800bb0a683e8f2f553070f7dca86827d7884d157e0b29746d709f03ca4c843",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-06/MOVIMENTO-E-CARGA.md",
+      "categoria": "historico_ou_piloto",
+      "sha256": "674d9fac25d2238fa22b5e0331e4e0b25ea7aa52801392d4734e354213db9272",
+      "titulos_lidos": 15,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-06/RELATORIO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "ac7379643a1a845de054931dbfd940e94d801d0dcaf0c57167a93ddcfd7ead71",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-06/evidencias/REVISAO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "0c9193ccd3dc4113b02e714c151698f9f7b3b0e73108edd9b2a335af5eec5520",
+      "titulos_lidos": 3,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-06-r2/DECISOES.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "fbf6841ac54c9dd638963f4d9246de55c29177937c0f7ef1307548fd7bdc88dd",
+      "titulos_lidos": 5,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-06-r2/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "2d093195ac0597f6f840bee04d84ecda73d2c4766b4f660712cf634e3e7e843e",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-06-r2/MOVIMENTO-E-CARGA.md",
+      "categoria": "historico_ou_piloto",
+      "sha256": "63b1bafebf7b458ec752117944ce0e00154f53ced784dd1e93685c1b76c01c48",
+      "titulos_lidos": 19,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-06-r2/RELATORIO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "a109d260c8ad2c5708e2449485aa3caeea1b550258f1c1010d93f78489385c0e",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-06-r2/evidencias/REVISAO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "3ce7b2068c56b7a2214e64c2e1acf2934d1e73bedd831c68916c4e022704d76e",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-06-r2/sincronizacoes/INCURSOR-COMPLETO.md",
+      "categoria": "historico_ou_piloto",
+      "sha256": "2e2472fa5cb15787a853c88beb27df987cab4892aca0104a892aaad9a2007e6c",
+      "titulos_lidos": 65,
+      "quantidade": 1,
+      "itens": [
+        {
+          "codigo": "E007",
+          "linha": 242,
+          "termo": "A",
+          "titulo": "A vítima como apoio",
+          "trecho": "A vítima como apoio",
+          "formato": "atx",
+          "motivo": "Título começa com artigo definido A, O, As ou Os; usar um título direto, com revisão contextual.",
+          "antes": "A vítima como apoio",
+          "depois_sugerido": "Vítima como apoio",
+          "orientacao": "proposta contextual; confirmar no capítulo",
+          "aplicado": false
+        }
+      ]
+    },
+    {
+      "arquivo": "regras-comuns/lote-06-r2/sincronizacoes/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "bc1759b6647b97a598d52079e6ce1e2b2c00946f8f0abb8b629fdd0881a70937",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-06-r3/DECISOES.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "b9d5ef153109e49a28c5cc0bfd52040b164d28d9339169b5a8e5e24dff497714",
+      "titulos_lidos": 6,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-06-r3/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "47cb28d7bea00f541bec933605910905abc8ff382e37f35bc3128fa46575d13b",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-06-r3/MOVIMENTO-E-CARGA.md",
+      "categoria": "historico_ou_piloto",
+      "sha256": "3f5c19387a7cc120cc05b3d060187025cc25d5ea29c5d231a4b59881b8c7e182",
+      "titulos_lidos": 15,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-06-r3/RELATORIO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "e114ae35610ef89e4ca89514b4b91c918381f02281264421234e5e4dc25a49d7",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-06-r3/evidencias/REVISAO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "d549fe9bf566b5cbe7d264da05412804589e666339bb1390ab0f75056c0b4a26",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-06-r3/sincronizacoes/INCURSOR-COMPLETO.md",
+      "categoria": "corrente_cadastrado",
+      "sha256": "f99aa89ec9c38a3e6a4b0da8c64fa3f18f6d72fd87f1e9a485d620166c94b5f3",
+      "titulos_lidos": 65,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-06-r3/sincronizacoes/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "11f443d7890ddc91f1d1fac837d2e1d1b936466d82e9ef81d1835ef691ab66f6",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-06-r4/DECISOES.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "232c00b30079565ea50f63af8c0031cb5373940240696a7acea95e5ba24af2de",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-06-r4/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "232c00b30079565ea50f63af8c0031cb5373940240696a7acea95e5ba24af2de",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-06-r4/MOVIMENTO-E-CARGA.md",
+      "categoria": "historico_ou_piloto",
+      "sha256": "289b9ab73547dd7db84327966b8d3a2ac39434d698c4388f843c991948d2e6d0",
+      "titulos_lidos": 15,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-06-r4/RELATORIO.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "232c00b30079565ea50f63af8c0031cb5373940240696a7acea95e5ba24af2de",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-06-r5/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "17222ff387b20783c41965836823d321eca5e709a3571768c47679feaf1b2b33",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-06-r5/MOVIMENTO-E-CARGA.md",
+      "categoria": "historico_ou_piloto",
+      "sha256": "d4975075179e3756f0c96bed948a267725485b0fcb01e5598403e0fe364c4125",
+      "titulos_lidos": 15,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-06-r6/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "581067e61b677e0c497d1b63d58e41cbca639f869b6ba22e9caf7d9db7844799",
+      "titulos_lidos": 1,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "regras-comuns/lote-06-r6/MOVIMENTO-E-CARGA.md",
+      "categoria": "corrente_cadastrado",
+      "sha256": "2b2a7a7379cf81a78bc53ccad0f9f415f4c4c5e393895395c787ed318847d3a4",
+      "titulos_lidos": 15,
+      "quantidade": 0,
+      "itens": []
+    },
+    {
+      "arquivo": "validacao-editorial/LEIA-ME.md",
+      "categoria": "documentacao_ou_evidencia",
+      "sha256": "4e7758d1a6326f79d9a0ce7bb8393bcb923f9c6de2b2d38d6f059f70b397b9b4",
+      "titulos_lidos": 7,
+      "quantidade": 0,
+      "itens": []
+    }
+  ],
+  "erros": [],
+  "pontos_de_contagem": [
+    {
+      "momento": "primeira leitura dos correntes nesta tarefa, antes das alterações do root",
+      "correntes": 17,
+      "arquivos_com_achados": 4,
+      "titulos": 15,
+      "origem": "scan_title_articles executado sobre todo MANUSCRITOS.json; títulos e linhas devolvidos no registro da ferramenta"
+    },
+    {
+      "momento": "inventário completo salvo antes das oito alterações sob responsabilidade desta auditoria",
+      "contagens": {
+        "corrente_cadastrado": {
+          "arquivos": 17,
+          "arquivos_com_achados": 2,
+          "titulos": 8
+        },
+        "historico_ou_piloto": {
+          "arquivos": 34,
+          "arquivos_com_achados": 9,
+          "titulos": 19
+        },
+        "documentacao_ou_evidencia": {
+          "arquivos": 239,
+          "arquivos_com_achados": 37,
+          "titulos": 57
+        }
+      },
+      "arquivo": "/tmp/r07-titulos-auditoria-antes.json"
+    },
+    {
+      "momento": "inventário final, após edições coordenadas",
+      "contagens": {
+        "corrente_cadastrado": {
+          "arquivos": 17,
+          "arquivos_com_achados": 0,
+          "titulos": 0
+        },
+        "historico_ou_piloto": {
+          "arquivos": 34,
+          "arquivos_com_achados": 9,
+          "titulos": 19
+        },
+        "documentacao_ou_evidencia": {
+          "arquivos": 243,
+          "arquivos_com_achados": 37,
+          "titulos": 57
+        }
+      }
+    }
+  ],
+  "alteracoes_aplicadas_nesta_tarefa": [
+    {
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md",
+      "sha256_antes": "9934a70de9062e1a182d1ef594863c6fff830559f3bcea33cb4b6da84f43c086",
+      "sha256_depois": "3a7c2783e8f07a1d0de20317d1115d592d45c8b96cbbf7452e28d970ef03bb06",
+      "somente_cabecalhos": true,
+      "alteracoes": [
+        {
+          "linha": 237,
+          "antes": "O ataque revela você?",
+          "depois": "Ataques e posição revelada",
+          "pagina_id": "atacar"
+        },
+        {
+          "linha": 313,
+          "antes": "O que muda com uma Trilha",
+          "depois": "Trilhas e usos específicos",
+          "pagina_id": "contencoes"
+        },
+        {
+          "linha": 400,
+          "antes": "O que ficou no lugar",
+          "depois": "Vestígios",
+          "pagina_id": "mundo"
+        },
+        {
+          "linha": 406,
+          "antes": "O corpo e o que ele carrega",
+          "depois": "Corpos e equipamento",
+          "pagina_id": "mundo"
+        },
+        {
+          "linha": 435,
+          "antes": "O que o sucesso entrega",
+          "depois": "Resultados",
+          "pagina_id": "buscar"
+        },
+        {
+          "linha": 462,
+          "antes": "O alvo não tem energia",
+          "depois": "Alvos sem energia",
+          "pagina_id": "pressao"
+        },
+        {
+          "linha": 533,
+          "antes": "Os apoios do Parkour",
+          "depois": "Apoios do Parkour",
+          "pagina_id": "habilidades"
+        }
+      ],
+      "diff": "--- antes\n+++ depois\n@@ -234,7 +234,7 @@\n \n **Cego:** falha em testes que dependam da visão e ataca com desvantagem os alvos que não consegue perceber por um sentido equivalente. Quem o ataca tem vantagem por sua cegueira apenas se conseguir enxergá-lo. Visão às cegas substitui a visão para esses ataques dentro de seus limites; não restaura a leitura ou outros usos exclusivos dos olhos. Outras fontes de vantagem e desvantagem continuam seguindo as regras comuns.\n \n-## O ataque revela você?\n+## Ataques e posição revelada\n \n Se estiver oculto do alvo ao declarar o ataque, você pode expor-se pela lateral do esconderijo como parte do golpe. Precisa obter visão, alcance e passagem livre; nesse ataque, recebe a vantagem de atacar sem ser visto. **Depois de resolvê-lo, acertando ou errando, sua posição é revelada a quem puder perceber o ataque.** Resolva isso antes do próximo ataque.\n \n@@ -310,7 +310,7 @@\n \n Um tiro contra alguém envolvido na contenção é resolvido contra esse alvo. Se outra criatura estiver entre o atacante e ele, aplique a cobertura correspondente. O agarrão não redireciona o ataque aleatoriamente.\n \n-## O que muda com uma Trilha\n+## Trilhas e usos específicos\n \n | Habilidade | Sua vantagem específica |\n |---|---|\n@@ -397,13 +397,13 @@\n \n Pessoas comuns normalmente não enxergam maldições. A obra mostra exceções em circunstâncias especiais, como a proximidade da morte. Feiticeiros convivem com perigos que as outras pessoas muitas vezes sequer percebem; nas missões do Projeto M, você precisa descobrir onde esses perigos estão e como enfrentá-los.\n \n-## O que ficou no lugar\n+## Vestígios\n \n Uma fonte de energia pode deixar vestígios. No primeiro capítulo do mangá, Megumi segue a energia de uma caixa e a encontra vazia: o objeto que procurava já havia sido retirado. O sinal ainda estava ali.\n \n Essa diferença importa durante uma investigação. Energia numa sala pode vir de uma criatura presente, de um objeto carregado ou de resíduos deixados para trás. Encontrar o sinal dá ao grupo uma pista. Saber quem o deixou, quando passou por ali e para onde foi exige examinar o que a cena oferece.\n \n-## O corpo e o que ele carrega\n+## Corpos e equipamento\n \n Existem exceções importantes. Toji não possui energia amaldiçoada; a maldição que ele transporta, porém, pode ser percebida. No confronto do capítulo 71, Gojo tenta acompanhá-la para localizar o adversário. A cena também mostra como outras maldições podem atrapalhar essa leitura.\n \n@@ -432,7 +432,7 @@\n \n Uma fonte alcançada, sem ocultação nem interferência, é localizada sem rolagem **depois de gastar a ação**. Se houver interferência, o mestre anuncia sua dificuldade antes do dado. Para uma fonte também oculta, compare a mesma rolagem à **maior entre a CD da interferência e a Furtividade**, sem somá-las. Uma rolagem alta nunca atravessa o bloqueio ou amplia o alcance. Se nenhum sinal for encontrado, isso não comprova que o lugar esteja vazio.\n \n-## O que o sucesso entrega\n+## Resultados\n \n Você conhece o **espaço atual da fonte** e pode indicá-lo a um aliado. Se ela for uma criatura ou algo que a criatura carrega, encontrar esse sinal encerra a ocultação dela em relação a você. Um resíduo abandonado localiza apenas o vestígio: não revela seu antigo portador. A busca não fornece visão, identidade, grau, valores da ficha ou conhecimento da técnica.\n \n@@ -459,7 +459,7 @@\n \n **Antena** permite refazer um teste falho uma vez por cena, sem pagar outra ação para essa rerrolagem. Refaça a mesma tentativa, com os mesmos limites. Se a busca resolveu apenas parte do pedido declarado, refaça a parte que falhou, preservando as posições já descobertas. O mestre não revela a existência de alvos desconhecidos para oferecer essa rerrolagem. Um sucesso completo não pode ser refeito apenas para procurar algo a mais.\n \n-## O alvo não tem energia\n+## Alvos sem energia\n \n Uma criatura sem energia amaldiçoada não é encontrada pela busca energética. Gastar seus PE até chegar a zero não torna um feiticeiro uma criatura sem energia. Percepção ainda pode notar seu corpo, passos ou outros sinais. Ferramentas e objetos amaldiçoados que ela carrega continuam sendo fontes de energia, conforme seus próprios textos.\n \n@@ -530,7 +530,7 @@\n \n Se seu deslocamento mudar, recalcule o limite. Se já o tiver consumido, termine o trecho acrobático; sem apoio permitido, você cai. Um Passo à Frente antecipa seu turno e renova o limite ali, substituindo a renovação da posição habitual naquela rodada.\n \n-## Os apoios do Parkour\n+## Apoios do Parkour\n \n **Terminar o percurso acrobático pendurado numa borda ou sustentado por apoios especiais pertence ao Parkour do Assassino.** A habilidade também permite usar a vítima como apoio e trocar Atletismo por Acrobacia nos testes previstos. As regras comuns não concedem esses benefícios nem uma Reação geral para agarrar uma borda durante a queda.\n "
+    },
+    {
+      "arquivo": "regras-comuns/lote-06-r3/sincronizacoes/INCURSOR-COMPLETO.md",
+      "sha256_antes": "2e2472fa5cb15787a853c88beb27df987cab4892aca0104a892aaad9a2007e6c",
+      "sha256_depois": "f99aa89ec9c38a3e6a4b0da8c64fa3f18f6d72fd87f1e9a485d620166c94b5f3",
+      "somente_cabecalhos": true,
+      "alteracoes": [
+        {
+          "linha": 242,
+          "antes": "A vítima como apoio",
+          "depois": "Vítima como apoio",
+          "pagina_id": null
+        }
+      ],
+      "diff": "--- antes\n+++ depois\n@@ -239,7 +239,7 @@\n \n A aproximação usa seu movimento disponível. Os trechos de Movimento Acrobático respeitam o limite da habilidade, e os saltos seguem suas regras normais.\n \n-##### A vítima como apoio\n+##### Vítima como apoio\n \n **Uma vez por turno seu**, depois de acertar um ataque corpo a corpo contra uma criatura hostil durante seu Movimento Acrobático, você pode usar o corpo dela como apoio para **saltar até uma borda, superfície com apoios ou posição elevada**.\n "
+    }
+  ],
+  "preservacao": "Arquivos históricos/pilotos não foram editados. Somente oito cabeçalhos correntes atribuídos a esta auditoria foram alterados; o root tratou os títulos de Fundamento/Catálogo.",
+  "qa_regras_comuns": {
+    "conferencia": 185,
+    "falhas": 0,
+    "paginas": 18,
+    "paginas_vistas": [
+      8,
+      10,
+      13,
+      14,
+      15,
+      18
+    ],
+    "paginas_identicas_pixels": 12,
+    "relatorio": "/tmp/r07-titulos-comparacao-pdf.json"
+  }
+}

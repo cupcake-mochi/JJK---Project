@@ -1,0 +1,3910 @@
+{
+  "sha256_texto": "d432caecc9f2c63b0f355ad70a6e74251ae51044a8ac5840a35b7fd6d182484d",
+  "aprovado": true,
+  "quantidades": {
+    "verificacoes": 333,
+    "casos": 35,
+    "pares_legados": 268,
+    "perfis_reparo": 105,
+    "perfis_probabilidade": 19,
+    "mutacoes": 6
+  },
+  "verificacoes": [
+    {
+      "id": "inventario_hash",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "85entradas",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_O Jeito Errado",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_O Professor Que Você Não Teve",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_A Testemunha",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Aprendi Apanhando",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Instinto Bruto",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Gambiarra",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Desconfiado",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Inédito",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Chão Duro",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_A Voz de Dentro",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_De Antes de Você",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Alcunha",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_O Que Ele Quer",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Não Sou Só Eu",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Costume Antigo",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Tranco",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Passagem",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Máscara",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Revezamento",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_O Sobrenome",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Armaria",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Arquivo",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Palavra Dada",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Treino de Berço",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Conversa de Jantar",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Etiqueta",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Repetição",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Biblioteca",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Coleira",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Cabo",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_O Que Ninguém Lembra",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Encomenda",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Quem Morava Aqui",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Enterrado",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Corpo Emprestado",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Espasmo",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Já Morri",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Método Velho",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Conhecimento Antigo",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Usado",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Irmãos",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Numeração",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Guardado",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Devagar",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Meio e Meio",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Como Se Monta",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Faro",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Paciência",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Sangue que Não é Sangue",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Talhe",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Sem Técnica",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Ninhada",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Gêmeos",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Inteiro",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Manutenção",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Rodízio",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Vigília",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Desempate",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Cabeça Trocada",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Nunca os Dois",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Palpite",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Feito de Uma Peça",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Teimosia",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Peça Única",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Ajuste Fino",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Recarga",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Fiado",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Ferro Velho",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Nasci Assim",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_O Substituto",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_A Oferta",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Antena",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Do Meu Canto",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Insônia",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Li Tudo",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Descartado",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Dividido",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Desde Criança",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Aprendi a Ver",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Sentido Treinado",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Couro",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Ninguém Viu",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_No Braço",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Peso Real",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "entrada_Assinado",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "tipos",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "paginas",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "IDs_unicos",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "extensao_paginas",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "titulos_diretos",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "nomes_antigos_ausentes",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "sem_metatexto",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_Aprendi Apanhando",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_Gambiarra",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_Instinto Bruto",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_Desconfiado",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_Não Sou Só Eu",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_Costume Antigo",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_Tranco",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_Passagem",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_Revezamento",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_Conversa de Jantar",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_Etiqueta",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_Repetição",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_Biblioteca",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_Cabo",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_Corpo Emprestado",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_Espasmo",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_Já Morri",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_Método Velho",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_Usado",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_Meio e Meio",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_Como Se Monta",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_Faro",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_Paciência",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_Talhe",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_Rodízio",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_Vigília",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_Desempate",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_Cabeça Trocada",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_Nunca os Dois",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_Palpite",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_Feito de Uma Peça",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_Teimosia",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_Peça Única",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_Ajuste Fino",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_Recarga",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_Fiado",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_Antena",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_Do Meu Canto",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_Insônia",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_Li Tudo",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_Sentido Treinado",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_Couro",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_Ninguém Viu",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_No Braço",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_Assinado",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_A Voz de Dentro",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_O Que Ele Quer",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_O Que Ninguém Lembra",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "frequencia_O Jeito Errado",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "pares_catalogo",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "par_Latente_A Testemunha,Aprendi Apanhando",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "par_Descendente_O Sobrenome,Biblioteca",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "par_Descendente_Sem Técnica,Arquivo",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "par_Descendente_Biblioteca,Repetição",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "par_Latente_Sem Técnica,Sem Técnica",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "par_Corpo Amaldiçoado_Ninhada,Rodízio",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "par_Corpo Amaldiçoado_Ninhada,Palpite",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "par_Corpo Amaldiçoado_Ninhada,Gêmeos",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "par_Corpo Amaldiçoado_Sem Técnica,Ferro Velho",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "par_Restrição Celestial_Nasci Assim,Couro",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "par_Restrição Celestial_Descartado,Peso Real",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "par_Restrição Celestial_Sem Técnica,Couro",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "pericias_com_oficios",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "pericias_sem_oficios",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "tabela_reparo",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "formula_reparo",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_exemplo",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_falha",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_maximo",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_especializacao",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_bloqueio_trained",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_bloqueio_done",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_bloqueio_above",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_0_1_0",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_0_1_-2",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_0_1_-4",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_0_2_0",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_0_2_-2",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_0_2_-4",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_0_3_0",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_0_3_-2",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_0_3_-4",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_0_4_0",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_0_4_-2",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_0_4_-4",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_0_5_0",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_0_5_-2",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_0_5_-4",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_1_1_0",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_1_1_-2",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_1_1_-4",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_1_2_0",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_1_2_-2",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_1_2_-4",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_1_3_0",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_1_3_-2",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_1_3_-4",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_1_4_0",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_1_4_-2",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_1_4_-4",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_1_5_0",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_1_5_-2",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_1_5_-4",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_2_1_0",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_2_1_-2",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_2_1_-4",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_2_2_0",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_2_2_-2",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_2_2_-4",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_2_3_0",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_2_3_-2",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_2_3_-4",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_2_4_0",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_2_4_-2",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_2_4_-4",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_2_5_0",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_2_5_-2",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_2_5_-4",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_3_1_0",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_3_1_-2",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_3_1_-4",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_3_2_0",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_3_2_-2",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_3_2_-4",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_3_3_0",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_3_3_-2",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_3_3_-4",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_3_4_0",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_3_4_-2",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_3_4_-4",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_3_5_0",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_3_5_-2",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_3_5_-4",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_4_1_0",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_4_1_-2",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_4_1_-4",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_4_2_0",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_4_2_-2",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_4_2_-4",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_4_3_0",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_4_3_-2",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_4_3_-4",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_4_4_0",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_4_4_-2",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_4_4_-4",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_4_5_0",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_4_5_-2",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_4_5_-4",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_5_1_0",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_5_1_-2",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_5_1_-4",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_5_2_0",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_5_2_-2",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_5_2_-4",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_5_3_0",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_5_3_-2",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_5_3_-4",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_5_4_0",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_5_4_-2",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_5_4_-4",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_5_5_0",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_5_5_-2",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_5_5_-4",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_6_1_0",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_6_1_-2",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_6_1_-4",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_6_2_0",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_6_2_-2",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_6_2_-4",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_6_3_0",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_6_3_-2",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_6_3_-4",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_6_4_0",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_6_4_-2",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_6_4_-4",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_6_5_0",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_6_5_-2",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_6_5_-4",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "prob_2",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "prob_3",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "prob_4",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "prob_5",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "prob_6",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "prob_7",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "prob_8",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "prob_9",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "prob_10",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "prob_11",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "prob_12",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "prob_13",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "prob_14",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "prob_15",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "prob_16",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "prob_17",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "prob_18",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "prob_19",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "prob_20",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "p50vantagem",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "condicao_Revezamento",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "nao_troca_Revezamento",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "condicao_Corpo Emprestado",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "nao_troca_Corpo Emprestado",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "condicao_Talhe",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "nao_troca_Talhe",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "talhe_False_False",
+      "passou": true,
+      "detalhe": "Escolha adversária entre opções possíveis; ambas impossíveis impedem uso."
+    },
+    {
+      "id": "talhe_False_True",
+      "passou": true,
+      "detalhe": "Escolha adversária entre opções possíveis; ambas impossíveis impedem uso."
+    },
+    {
+      "id": "talhe_True_False",
+      "passou": true,
+      "detalhe": "Escolha adversária entre opções possíveis; ambas impossíveis impedem uso."
+    },
+    {
+      "id": "talhe_True_True",
+      "passou": true,
+      "detalhe": "Escolha adversária entre opções possíveis; ambas impossíveis impedem uso."
+    },
+    {
+      "id": "canto_movel",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "canto_parado",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "canto_fora",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "sangue_descanso_satisfeito",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "sangue_descanso_nao_satisfeito",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "contrato_Sangue que Não é Sangue_vida e PE",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "contrato_Sangue que Não é Sangue_descanso longo",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "contrato_Sangue que Não é Sangue_sem ferir outra pessoa",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "contrato_Sangue que Não é Sangue_não substitui o tempo",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "contrato_Talhe_Se nenhuma for possível",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "contrato_Talhe_não provoca ataques de oportunidade",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "contrato_Do Meu Canto_não pode ter se deslocado voluntariamente",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "contrato_Do Meu Canto_até o começo do próximo",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "contrato_Ninguém Viu_não concede uma nova tentativa gratuita",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "contrato_O Que Ele Quer_não concede ataques, acertos, técnicas",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "contrato_Passagem_antes de usá-la",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "contrato_Ferro Velho_não adquire estágios",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "contrato_Ferro Velho_o mestre registra",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "contrato_Ferro Velho_permite usar uma habilidade",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "contrato_Peso Real_indício físico acessível",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "contrato_Aprendi a Ver_sem conceder percepção irrestrita",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "contrato_Aprendi a Ver_Bênção gratuita",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "feto_categoria",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "feto_cura",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "treino_atual",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "mutacao_metade_cura",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "mutacao_frequencia_couro",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "mutacao_morte_revezamento",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "mutacao_talhe_sem_pagamento",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "mutacao_imunidade_condicao",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "mutacao_narrativo",
+      "passou": true,
+      "detalhe": ""
+    }
+  ],
+  "casos": [
+    {
+      "id": "tipos",
+      "obtido": [
+        32,
+        40,
+        13
+      ],
+      "esperado": [
+        32,
+        40,
+        13
+      ],
+      "detalhe": ""
+    },
+    {
+      "id": "paginas",
+      "obtido": 26,
+      "esperado": 26,
+      "detalhe": ""
+    },
+    {
+      "id": "pares_catalogo",
+      "obtido": [
+        30,
+        40,
+        51,
+        40,
+        40,
+        16,
+        21,
+        30
+      ],
+      "esperado": [
+        30,
+        40,
+        51,
+        40,
+        40,
+        16,
+        21,
+        30
+      ],
+      "detalhe": ""
+    },
+    {
+      "id": "par_Latente_A Testemunha,Aprendi Apanhando",
+      "obtido": true,
+      "esperado": true,
+      "detalhe": ""
+    },
+    {
+      "id": "par_Descendente_O Sobrenome,Biblioteca",
+      "obtido": true,
+      "esperado": true,
+      "detalhe": ""
+    },
+    {
+      "id": "par_Descendente_Sem Técnica,Arquivo",
+      "obtido": true,
+      "esperado": true,
+      "detalhe": ""
+    },
+    {
+      "id": "par_Descendente_Biblioteca,Repetição",
+      "obtido": false,
+      "esperado": false,
+      "detalhe": ""
+    },
+    {
+      "id": "par_Latente_Sem Técnica,Sem Técnica",
+      "obtido": false,
+      "esperado": false,
+      "detalhe": ""
+    },
+    {
+      "id": "par_Corpo Amaldiçoado_Ninhada,Rodízio",
+      "obtido": true,
+      "esperado": true,
+      "detalhe": ""
+    },
+    {
+      "id": "par_Corpo Amaldiçoado_Ninhada,Palpite",
+      "obtido": false,
+      "esperado": false,
+      "detalhe": ""
+    },
+    {
+      "id": "par_Corpo Amaldiçoado_Ninhada,Gêmeos",
+      "obtido": false,
+      "esperado": false,
+      "detalhe": ""
+    },
+    {
+      "id": "par_Corpo Amaldiçoado_Sem Técnica,Ferro Velho",
+      "obtido": false,
+      "esperado": false,
+      "detalhe": ""
+    },
+    {
+      "id": "par_Restrição Celestial_Nasci Assim,Couro",
+      "obtido": false,
+      "esperado": false,
+      "detalhe": ""
+    },
+    {
+      "id": "par_Restrição Celestial_Descartado,Peso Real",
+      "obtido": true,
+      "esperado": true,
+      "detalhe": ""
+    },
+    {
+      "id": "par_Restrição Celestial_Sem Técnica,Couro",
+      "obtido": false,
+      "esperado": false,
+      "detalhe": ""
+    },
+    {
+      "id": "pericias_com_oficios",
+      "obtido": [
+        9,
+        2
+      ],
+      "esperado": [
+        9,
+        2
+      ],
+      "detalhe": ""
+    },
+    {
+      "id": "pericias_sem_oficios",
+      "obtido": [
+        10,
+        0
+      ],
+      "esperado": [
+        10,
+        0
+      ],
+      "detalhe": ""
+    },
+    {
+      "id": "tabela_reparo",
+      "obtido": {
+        "Igual": 0,
+        "Uma abaixo": -2,
+        "Duas ou mais abaixo": -4
+      },
+      "esperado": {
+        "Igual": 0,
+        "Uma abaixo": -2,
+        "Duas ou mais abaixo": -4
+      },
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_exemplo",
+      "obtido": {
+        "permitido": true,
+        "cd": 13,
+        "total": 13,
+        "sucesso": true,
+        "pv": 23
+      },
+      "esperado": {
+        "permitido": true,
+        "cd": 13,
+        "total": 13,
+        "sucesso": true,
+        "pv": 23
+      },
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_falha",
+      "obtido": 8,
+      "esperado": 8,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_maximo",
+      "obtido": 31,
+      "esperado": 31,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_especializacao",
+      "obtido": true,
+      "esperado": true,
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_bloqueio_trained",
+      "obtido": {
+        "permitido": false
+      },
+      "esperado": {
+        "permitido": false
+      },
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_bloqueio_done",
+      "obtido": {
+        "permitido": false
+      },
+      "esperado": {
+        "permitido": false
+      },
+      "detalhe": ""
+    },
+    {
+      "id": "reparo_bloqueio_above",
+      "obtido": {
+        "permitido": false
+      },
+      "esperado": {
+        "permitido": false
+      },
+      "detalhe": ""
+    },
+    {
+      "id": "p50vantagem",
+      "obtido": 0.75,
+      "esperado": 0.75,
+      "detalhe": ""
+    },
+    {
+      "id": "talhe_False_False",
+      "obtido": false,
+      "esperado": false,
+      "detalhe": "Escolha adversária entre opções possíveis; ambas impossíveis impedem uso."
+    },
+    {
+      "id": "talhe_False_True",
+      "obtido": true,
+      "esperado": true,
+      "detalhe": "Escolha adversária entre opções possíveis; ambas impossíveis impedem uso."
+    },
+    {
+      "id": "talhe_True_False",
+      "obtido": true,
+      "esperado": true,
+      "detalhe": "Escolha adversária entre opções possíveis; ambas impossíveis impedem uso."
+    },
+    {
+      "id": "talhe_True_True",
+      "obtido": true,
+      "esperado": true,
+      "detalhe": "Escolha adversária entre opções possíveis; ambas impossíveis impedem uso."
+    },
+    {
+      "id": "canto_movel",
+      "obtido": false,
+      "esperado": false,
+      "detalhe": ""
+    },
+    {
+      "id": "canto_parado",
+      "obtido": true,
+      "esperado": true,
+      "detalhe": ""
+    },
+    {
+      "id": "canto_fora",
+      "obtido": false,
+      "esperado": false,
+      "detalhe": ""
+    },
+    {
+      "id": "sangue_descanso_satisfeito",
+      "obtido": true,
+      "esperado": true,
+      "detalhe": ""
+    },
+    {
+      "id": "sangue_descanso_nao_satisfeito",
+      "obtido": false,
+      "esperado": false,
+      "detalhe": ""
+    }
+  ],
+  "pares_por_origem": [
+    {
+      "origem": "Latente",
+      "ramo": null,
+      "quantidade": 30,
+      "pares": [
+        [
+          "O Jeito Errado",
+          "O Professor Que Você Não Teve"
+        ],
+        [
+          "O Jeito Errado",
+          "A Testemunha"
+        ],
+        [
+          "O Jeito Errado",
+          "Aprendi Apanhando"
+        ],
+        [
+          "O Jeito Errado",
+          "Instinto Bruto"
+        ],
+        [
+          "O Jeito Errado",
+          "Gambiarra"
+        ],
+        [
+          "O Jeito Errado",
+          "Desconfiado"
+        ],
+        [
+          "O Jeito Errado",
+          "Inédito"
+        ],
+        [
+          "O Jeito Errado",
+          "Chão Duro"
+        ],
+        [
+          "O Jeito Errado",
+          "Sem Técnica"
+        ],
+        [
+          "O Professor Que Você Não Teve",
+          "A Testemunha"
+        ],
+        [
+          "O Professor Que Você Não Teve",
+          "Aprendi Apanhando"
+        ],
+        [
+          "O Professor Que Você Não Teve",
+          "Instinto Bruto"
+        ],
+        [
+          "O Professor Que Você Não Teve",
+          "Gambiarra"
+        ],
+        [
+          "O Professor Que Você Não Teve",
+          "Desconfiado"
+        ],
+        [
+          "O Professor Que Você Não Teve",
+          "Inédito"
+        ],
+        [
+          "O Professor Que Você Não Teve",
+          "Chão Duro"
+        ],
+        [
+          "O Professor Que Você Não Teve",
+          "Sem Técnica"
+        ],
+        [
+          "A Testemunha",
+          "Aprendi Apanhando"
+        ],
+        [
+          "A Testemunha",
+          "Instinto Bruto"
+        ],
+        [
+          "A Testemunha",
+          "Gambiarra"
+        ],
+        [
+          "A Testemunha",
+          "Desconfiado"
+        ],
+        [
+          "A Testemunha",
+          "Inédito"
+        ],
+        [
+          "A Testemunha",
+          "Chão Duro"
+        ],
+        [
+          "A Testemunha",
+          "Sem Técnica"
+        ],
+        [
+          "Aprendi Apanhando",
+          "Sem Técnica"
+        ],
+        [
+          "Instinto Bruto",
+          "Sem Técnica"
+        ],
+        [
+          "Gambiarra",
+          "Sem Técnica"
+        ],
+        [
+          "Desconfiado",
+          "Sem Técnica"
+        ],
+        [
+          "Inédito",
+          "Sem Técnica"
+        ],
+        [
+          "Chão Duro",
+          "Sem Técnica"
+        ]
+      ]
+    },
+    {
+      "origem": "Receptáculo",
+      "ramo": null,
+      "quantidade": 40,
+      "pares": [
+        [
+          "A Voz de Dentro",
+          "De Antes de Você"
+        ],
+        [
+          "A Voz de Dentro",
+          "Alcunha"
+        ],
+        [
+          "A Voz de Dentro",
+          "O Que Ele Quer"
+        ],
+        [
+          "A Voz de Dentro",
+          "Não Sou Só Eu"
+        ],
+        [
+          "A Voz de Dentro",
+          "Costume Antigo"
+        ],
+        [
+          "A Voz de Dentro",
+          "Tranco"
+        ],
+        [
+          "A Voz de Dentro",
+          "Passagem"
+        ],
+        [
+          "A Voz de Dentro",
+          "Máscara"
+        ],
+        [
+          "A Voz de Dentro",
+          "Revezamento"
+        ],
+        [
+          "A Voz de Dentro",
+          "Sem Técnica"
+        ],
+        [
+          "De Antes de Você",
+          "Alcunha"
+        ],
+        [
+          "De Antes de Você",
+          "O Que Ele Quer"
+        ],
+        [
+          "De Antes de Você",
+          "Não Sou Só Eu"
+        ],
+        [
+          "De Antes de Você",
+          "Costume Antigo"
+        ],
+        [
+          "De Antes de Você",
+          "Tranco"
+        ],
+        [
+          "De Antes de Você",
+          "Passagem"
+        ],
+        [
+          "De Antes de Você",
+          "Máscara"
+        ],
+        [
+          "De Antes de Você",
+          "Revezamento"
+        ],
+        [
+          "De Antes de Você",
+          "Sem Técnica"
+        ],
+        [
+          "Alcunha",
+          "O Que Ele Quer"
+        ],
+        [
+          "Alcunha",
+          "Não Sou Só Eu"
+        ],
+        [
+          "Alcunha",
+          "Costume Antigo"
+        ],
+        [
+          "Alcunha",
+          "Tranco"
+        ],
+        [
+          "Alcunha",
+          "Passagem"
+        ],
+        [
+          "Alcunha",
+          "Máscara"
+        ],
+        [
+          "Alcunha",
+          "Revezamento"
+        ],
+        [
+          "Alcunha",
+          "Sem Técnica"
+        ],
+        [
+          "O Que Ele Quer",
+          "Não Sou Só Eu"
+        ],
+        [
+          "O Que Ele Quer",
+          "Costume Antigo"
+        ],
+        [
+          "O Que Ele Quer",
+          "Tranco"
+        ],
+        [
+          "O Que Ele Quer",
+          "Passagem"
+        ],
+        [
+          "O Que Ele Quer",
+          "Máscara"
+        ],
+        [
+          "O Que Ele Quer",
+          "Revezamento"
+        ],
+        [
+          "O Que Ele Quer",
+          "Sem Técnica"
+        ],
+        [
+          "Não Sou Só Eu",
+          "Sem Técnica"
+        ],
+        [
+          "Costume Antigo",
+          "Sem Técnica"
+        ],
+        [
+          "Tranco",
+          "Sem Técnica"
+        ],
+        [
+          "Passagem",
+          "Sem Técnica"
+        ],
+        [
+          "Máscara",
+          "Sem Técnica"
+        ],
+        [
+          "Revezamento",
+          "Sem Técnica"
+        ]
+      ]
+    },
+    {
+      "origem": "Descendente",
+      "ramo": null,
+      "quantidade": 51,
+      "pares": [
+        [
+          "O Sobrenome",
+          "Armaria"
+        ],
+        [
+          "O Sobrenome",
+          "Arquivo"
+        ],
+        [
+          "O Sobrenome",
+          "Palavra Dada"
+        ],
+        [
+          "O Sobrenome",
+          "Treino de Berço"
+        ],
+        [
+          "O Sobrenome",
+          "Conversa de Jantar"
+        ],
+        [
+          "O Sobrenome",
+          "Etiqueta"
+        ],
+        [
+          "O Sobrenome",
+          "Repetição"
+        ],
+        [
+          "O Sobrenome",
+          "Biblioteca"
+        ],
+        [
+          "O Sobrenome",
+          "Coleira"
+        ],
+        [
+          "O Sobrenome",
+          "Cabo"
+        ],
+        [
+          "O Sobrenome",
+          "Sem Técnica"
+        ],
+        [
+          "Armaria",
+          "Arquivo"
+        ],
+        [
+          "Armaria",
+          "Palavra Dada"
+        ],
+        [
+          "Armaria",
+          "Treino de Berço"
+        ],
+        [
+          "Armaria",
+          "Conversa de Jantar"
+        ],
+        [
+          "Armaria",
+          "Etiqueta"
+        ],
+        [
+          "Armaria",
+          "Repetição"
+        ],
+        [
+          "Armaria",
+          "Biblioteca"
+        ],
+        [
+          "Armaria",
+          "Coleira"
+        ],
+        [
+          "Armaria",
+          "Cabo"
+        ],
+        [
+          "Armaria",
+          "Sem Técnica"
+        ],
+        [
+          "Arquivo",
+          "Palavra Dada"
+        ],
+        [
+          "Arquivo",
+          "Treino de Berço"
+        ],
+        [
+          "Arquivo",
+          "Conversa de Jantar"
+        ],
+        [
+          "Arquivo",
+          "Etiqueta"
+        ],
+        [
+          "Arquivo",
+          "Repetição"
+        ],
+        [
+          "Arquivo",
+          "Biblioteca"
+        ],
+        [
+          "Arquivo",
+          "Coleira"
+        ],
+        [
+          "Arquivo",
+          "Cabo"
+        ],
+        [
+          "Arquivo",
+          "Sem Técnica"
+        ],
+        [
+          "Palavra Dada",
+          "Treino de Berço"
+        ],
+        [
+          "Palavra Dada",
+          "Conversa de Jantar"
+        ],
+        [
+          "Palavra Dada",
+          "Etiqueta"
+        ],
+        [
+          "Palavra Dada",
+          "Repetição"
+        ],
+        [
+          "Palavra Dada",
+          "Biblioteca"
+        ],
+        [
+          "Palavra Dada",
+          "Coleira"
+        ],
+        [
+          "Palavra Dada",
+          "Cabo"
+        ],
+        [
+          "Palavra Dada",
+          "Sem Técnica"
+        ],
+        [
+          "Treino de Berço",
+          "Conversa de Jantar"
+        ],
+        [
+          "Treino de Berço",
+          "Etiqueta"
+        ],
+        [
+          "Treino de Berço",
+          "Repetição"
+        ],
+        [
+          "Treino de Berço",
+          "Biblioteca"
+        ],
+        [
+          "Treino de Berço",
+          "Coleira"
+        ],
+        [
+          "Treino de Berço",
+          "Cabo"
+        ],
+        [
+          "Treino de Berço",
+          "Sem Técnica"
+        ],
+        [
+          "Conversa de Jantar",
+          "Sem Técnica"
+        ],
+        [
+          "Etiqueta",
+          "Sem Técnica"
+        ],
+        [
+          "Repetição",
+          "Sem Técnica"
+        ],
+        [
+          "Biblioteca",
+          "Sem Técnica"
+        ],
+        [
+          "Coleira",
+          "Sem Técnica"
+        ],
+        [
+          "Cabo",
+          "Sem Técnica"
+        ]
+      ]
+    },
+    {
+      "origem": "Reencarnado",
+      "ramo": null,
+      "quantidade": 40,
+      "pares": [
+        [
+          "O Que Ninguém Lembra",
+          "Encomenda"
+        ],
+        [
+          "O Que Ninguém Lembra",
+          "Quem Morava Aqui"
+        ],
+        [
+          "O Que Ninguém Lembra",
+          "Enterrado"
+        ],
+        [
+          "O Que Ninguém Lembra",
+          "Corpo Emprestado"
+        ],
+        [
+          "O Que Ninguém Lembra",
+          "Espasmo"
+        ],
+        [
+          "O Que Ninguém Lembra",
+          "Já Morri"
+        ],
+        [
+          "O Que Ninguém Lembra",
+          "Método Velho"
+        ],
+        [
+          "O Que Ninguém Lembra",
+          "Conhecimento Antigo"
+        ],
+        [
+          "O Que Ninguém Lembra",
+          "Usado"
+        ],
+        [
+          "O Que Ninguém Lembra",
+          "Sem Técnica"
+        ],
+        [
+          "Encomenda",
+          "Quem Morava Aqui"
+        ],
+        [
+          "Encomenda",
+          "Enterrado"
+        ],
+        [
+          "Encomenda",
+          "Corpo Emprestado"
+        ],
+        [
+          "Encomenda",
+          "Espasmo"
+        ],
+        [
+          "Encomenda",
+          "Já Morri"
+        ],
+        [
+          "Encomenda",
+          "Método Velho"
+        ],
+        [
+          "Encomenda",
+          "Conhecimento Antigo"
+        ],
+        [
+          "Encomenda",
+          "Usado"
+        ],
+        [
+          "Encomenda",
+          "Sem Técnica"
+        ],
+        [
+          "Quem Morava Aqui",
+          "Enterrado"
+        ],
+        [
+          "Quem Morava Aqui",
+          "Corpo Emprestado"
+        ],
+        [
+          "Quem Morava Aqui",
+          "Espasmo"
+        ],
+        [
+          "Quem Morava Aqui",
+          "Já Morri"
+        ],
+        [
+          "Quem Morava Aqui",
+          "Método Velho"
+        ],
+        [
+          "Quem Morava Aqui",
+          "Conhecimento Antigo"
+        ],
+        [
+          "Quem Morava Aqui",
+          "Usado"
+        ],
+        [
+          "Quem Morava Aqui",
+          "Sem Técnica"
+        ],
+        [
+          "Enterrado",
+          "Corpo Emprestado"
+        ],
+        [
+          "Enterrado",
+          "Espasmo"
+        ],
+        [
+          "Enterrado",
+          "Já Morri"
+        ],
+        [
+          "Enterrado",
+          "Método Velho"
+        ],
+        [
+          "Enterrado",
+          "Conhecimento Antigo"
+        ],
+        [
+          "Enterrado",
+          "Usado"
+        ],
+        [
+          "Enterrado",
+          "Sem Técnica"
+        ],
+        [
+          "Corpo Emprestado",
+          "Sem Técnica"
+        ],
+        [
+          "Espasmo",
+          "Sem Técnica"
+        ],
+        [
+          "Já Morri",
+          "Sem Técnica"
+        ],
+        [
+          "Método Velho",
+          "Sem Técnica"
+        ],
+        [
+          "Conhecimento Antigo",
+          "Sem Técnica"
+        ],
+        [
+          "Usado",
+          "Sem Técnica"
+        ]
+      ]
+    },
+    {
+      "origem": "Feto",
+      "ramo": null,
+      "quantidade": 40,
+      "pares": [
+        [
+          "Irmãos",
+          "Numeração"
+        ],
+        [
+          "Irmãos",
+          "Guardado"
+        ],
+        [
+          "Irmãos",
+          "Devagar"
+        ],
+        [
+          "Irmãos",
+          "Meio e Meio"
+        ],
+        [
+          "Irmãos",
+          "Como Se Monta"
+        ],
+        [
+          "Irmãos",
+          "Faro"
+        ],
+        [
+          "Irmãos",
+          "Paciência"
+        ],
+        [
+          "Irmãos",
+          "Sangue que Não é Sangue"
+        ],
+        [
+          "Irmãos",
+          "Talhe"
+        ],
+        [
+          "Irmãos",
+          "Sem Técnica"
+        ],
+        [
+          "Numeração",
+          "Guardado"
+        ],
+        [
+          "Numeração",
+          "Devagar"
+        ],
+        [
+          "Numeração",
+          "Meio e Meio"
+        ],
+        [
+          "Numeração",
+          "Como Se Monta"
+        ],
+        [
+          "Numeração",
+          "Faro"
+        ],
+        [
+          "Numeração",
+          "Paciência"
+        ],
+        [
+          "Numeração",
+          "Sangue que Não é Sangue"
+        ],
+        [
+          "Numeração",
+          "Talhe"
+        ],
+        [
+          "Numeração",
+          "Sem Técnica"
+        ],
+        [
+          "Guardado",
+          "Devagar"
+        ],
+        [
+          "Guardado",
+          "Meio e Meio"
+        ],
+        [
+          "Guardado",
+          "Como Se Monta"
+        ],
+        [
+          "Guardado",
+          "Faro"
+        ],
+        [
+          "Guardado",
+          "Paciência"
+        ],
+        [
+          "Guardado",
+          "Sangue que Não é Sangue"
+        ],
+        [
+          "Guardado",
+          "Talhe"
+        ],
+        [
+          "Guardado",
+          "Sem Técnica"
+        ],
+        [
+          "Devagar",
+          "Meio e Meio"
+        ],
+        [
+          "Devagar",
+          "Como Se Monta"
+        ],
+        [
+          "Devagar",
+          "Faro"
+        ],
+        [
+          "Devagar",
+          "Paciência"
+        ],
+        [
+          "Devagar",
+          "Sangue que Não é Sangue"
+        ],
+        [
+          "Devagar",
+          "Talhe"
+        ],
+        [
+          "Devagar",
+          "Sem Técnica"
+        ],
+        [
+          "Meio e Meio",
+          "Sem Técnica"
+        ],
+        [
+          "Como Se Monta",
+          "Sem Técnica"
+        ],
+        [
+          "Faro",
+          "Sem Técnica"
+        ],
+        [
+          "Paciência",
+          "Sem Técnica"
+        ],
+        [
+          "Sangue que Não é Sangue",
+          "Sem Técnica"
+        ],
+        [
+          "Talhe",
+          "Sem Técnica"
+        ]
+      ]
+    },
+    {
+      "origem": "Corpo Amaldiçoado",
+      "ramo": null,
+      "quantidade": 16,
+      "pares": [
+        [
+          "Ninhada",
+          "Rodízio"
+        ],
+        [
+          "Ninhada",
+          "Vigília"
+        ],
+        [
+          "Ninhada",
+          "Desempate"
+        ],
+        [
+          "Ninhada",
+          "Ferro Velho"
+        ],
+        [
+          "Gêmeos",
+          "Cabeça Trocada"
+        ],
+        [
+          "Gêmeos",
+          "Nunca os Dois"
+        ],
+        [
+          "Gêmeos",
+          "Palpite"
+        ],
+        [
+          "Gêmeos",
+          "Ferro Velho"
+        ],
+        [
+          "Inteiro",
+          "Feito de Uma Peça"
+        ],
+        [
+          "Inteiro",
+          "Teimosia"
+        ],
+        [
+          "Inteiro",
+          "Peça Única"
+        ],
+        [
+          "Inteiro",
+          "Ferro Velho"
+        ],
+        [
+          "Manutenção",
+          "Ajuste Fino"
+        ],
+        [
+          "Manutenção",
+          "Recarga"
+        ],
+        [
+          "Manutenção",
+          "Fiado"
+        ],
+        [
+          "Manutenção",
+          "Ferro Velho"
+        ]
+      ]
+    },
+    {
+      "origem": "Restrição Celestial",
+      "ramo": "corpo",
+      "quantidade": 21,
+      "pares": [
+        [
+          "Nasci Assim",
+          "O Substituto"
+        ],
+        [
+          "Nasci Assim",
+          "A Oferta"
+        ],
+        [
+          "Nasci Assim",
+          "Antena"
+        ],
+        [
+          "Nasci Assim",
+          "Do Meu Canto"
+        ],
+        [
+          "Nasci Assim",
+          "Insônia"
+        ],
+        [
+          "Nasci Assim",
+          "Li Tudo"
+        ],
+        [
+          "Nasci Assim",
+          "Peso Real"
+        ],
+        [
+          "Nasci Assim",
+          "Assinado"
+        ],
+        [
+          "O Substituto",
+          "A Oferta"
+        ],
+        [
+          "O Substituto",
+          "Antena"
+        ],
+        [
+          "O Substituto",
+          "Do Meu Canto"
+        ],
+        [
+          "O Substituto",
+          "Insônia"
+        ],
+        [
+          "O Substituto",
+          "Li Tudo"
+        ],
+        [
+          "O Substituto",
+          "Peso Real"
+        ],
+        [
+          "O Substituto",
+          "Assinado"
+        ],
+        [
+          "A Oferta",
+          "Antena"
+        ],
+        [
+          "A Oferta",
+          "Do Meu Canto"
+        ],
+        [
+          "A Oferta",
+          "Insônia"
+        ],
+        [
+          "A Oferta",
+          "Li Tudo"
+        ],
+        [
+          "A Oferta",
+          "Peso Real"
+        ],
+        [
+          "A Oferta",
+          "Assinado"
+        ]
+      ]
+    },
+    {
+      "origem": "Restrição Celestial",
+      "ramo": "zero",
+      "quantidade": 30,
+      "pares": [
+        [
+          "Descartado",
+          "Dividido"
+        ],
+        [
+          "Descartado",
+          "Desde Criança"
+        ],
+        [
+          "Descartado",
+          "Aprendi a Ver"
+        ],
+        [
+          "Descartado",
+          "Sentido Treinado"
+        ],
+        [
+          "Descartado",
+          "Couro"
+        ],
+        [
+          "Descartado",
+          "Ninguém Viu"
+        ],
+        [
+          "Descartado",
+          "No Braço"
+        ],
+        [
+          "Descartado",
+          "Peso Real"
+        ],
+        [
+          "Descartado",
+          "Assinado"
+        ],
+        [
+          "Dividido",
+          "Desde Criança"
+        ],
+        [
+          "Dividido",
+          "Aprendi a Ver"
+        ],
+        [
+          "Dividido",
+          "Sentido Treinado"
+        ],
+        [
+          "Dividido",
+          "Couro"
+        ],
+        [
+          "Dividido",
+          "Ninguém Viu"
+        ],
+        [
+          "Dividido",
+          "No Braço"
+        ],
+        [
+          "Dividido",
+          "Peso Real"
+        ],
+        [
+          "Dividido",
+          "Assinado"
+        ],
+        [
+          "Desde Criança",
+          "Aprendi a Ver"
+        ],
+        [
+          "Desde Criança",
+          "Sentido Treinado"
+        ],
+        [
+          "Desde Criança",
+          "Couro"
+        ],
+        [
+          "Desde Criança",
+          "Ninguém Viu"
+        ],
+        [
+          "Desde Criança",
+          "No Braço"
+        ],
+        [
+          "Desde Criança",
+          "Peso Real"
+        ],
+        [
+          "Desde Criança",
+          "Assinado"
+        ],
+        [
+          "Aprendi a Ver",
+          "Sentido Treinado"
+        ],
+        [
+          "Aprendi a Ver",
+          "Couro"
+        ],
+        [
+          "Aprendi a Ver",
+          "Ninguém Viu"
+        ],
+        [
+          "Aprendi a Ver",
+          "No Braço"
+        ],
+        [
+          "Aprendi a Ver",
+          "Peso Real"
+        ],
+        [
+          "Aprendi a Ver",
+          "Assinado"
+        ]
+      ]
+    }
+  ],
+  "reparos": [
+    {
+      "atributo": 0,
+      "maestria": 1,
+      "ajuste": 0,
+      "sucesso": 0.65
+    },
+    {
+      "atributo": 0,
+      "maestria": 1,
+      "ajuste": -2,
+      "sucesso": 0.75
+    },
+    {
+      "atributo": 0,
+      "maestria": 1,
+      "ajuste": -4,
+      "sucesso": 0.85
+    },
+    {
+      "atributo": 0,
+      "maestria": 2,
+      "ajuste": 0,
+      "sucesso": 0.65
+    },
+    {
+      "atributo": 0,
+      "maestria": 2,
+      "ajuste": -2,
+      "sucesso": 0.75
+    },
+    {
+      "atributo": 0,
+      "maestria": 2,
+      "ajuste": -4,
+      "sucesso": 0.85
+    },
+    {
+      "atributo": 0,
+      "maestria": 3,
+      "ajuste": 0,
+      "sucesso": 0.65
+    },
+    {
+      "atributo": 0,
+      "maestria": 3,
+      "ajuste": -2,
+      "sucesso": 0.75
+    },
+    {
+      "atributo": 0,
+      "maestria": 3,
+      "ajuste": -4,
+      "sucesso": 0.85
+    },
+    {
+      "atributo": 0,
+      "maestria": 4,
+      "ajuste": 0,
+      "sucesso": 0.65
+    },
+    {
+      "atributo": 0,
+      "maestria": 4,
+      "ajuste": -2,
+      "sucesso": 0.75
+    },
+    {
+      "atributo": 0,
+      "maestria": 4,
+      "ajuste": -4,
+      "sucesso": 0.85
+    },
+    {
+      "atributo": 0,
+      "maestria": 5,
+      "ajuste": 0,
+      "sucesso": 0.65
+    },
+    {
+      "atributo": 0,
+      "maestria": 5,
+      "ajuste": -2,
+      "sucesso": 0.75
+    },
+    {
+      "atributo": 0,
+      "maestria": 5,
+      "ajuste": -4,
+      "sucesso": 0.85
+    },
+    {
+      "atributo": 1,
+      "maestria": 1,
+      "ajuste": 0,
+      "sucesso": 0.65
+    },
+    {
+      "atributo": 1,
+      "maestria": 1,
+      "ajuste": -2,
+      "sucesso": 0.75
+    },
+    {
+      "atributo": 1,
+      "maestria": 1,
+      "ajuste": -4,
+      "sucesso": 0.85
+    },
+    {
+      "atributo": 1,
+      "maestria": 2,
+      "ajuste": 0,
+      "sucesso": 0.65
+    },
+    {
+      "atributo": 1,
+      "maestria": 2,
+      "ajuste": -2,
+      "sucesso": 0.75
+    },
+    {
+      "atributo": 1,
+      "maestria": 2,
+      "ajuste": -4,
+      "sucesso": 0.85
+    },
+    {
+      "atributo": 1,
+      "maestria": 3,
+      "ajuste": 0,
+      "sucesso": 0.65
+    },
+    {
+      "atributo": 1,
+      "maestria": 3,
+      "ajuste": -2,
+      "sucesso": 0.75
+    },
+    {
+      "atributo": 1,
+      "maestria": 3,
+      "ajuste": -4,
+      "sucesso": 0.85
+    },
+    {
+      "atributo": 1,
+      "maestria": 4,
+      "ajuste": 0,
+      "sucesso": 0.65
+    },
+    {
+      "atributo": 1,
+      "maestria": 4,
+      "ajuste": -2,
+      "sucesso": 0.75
+    },
+    {
+      "atributo": 1,
+      "maestria": 4,
+      "ajuste": -4,
+      "sucesso": 0.85
+    },
+    {
+      "atributo": 1,
+      "maestria": 5,
+      "ajuste": 0,
+      "sucesso": 0.65
+    },
+    {
+      "atributo": 1,
+      "maestria": 5,
+      "ajuste": -2,
+      "sucesso": 0.75
+    },
+    {
+      "atributo": 1,
+      "maestria": 5,
+      "ajuste": -4,
+      "sucesso": 0.85
+    },
+    {
+      "atributo": 2,
+      "maestria": 1,
+      "ajuste": 0,
+      "sucesso": 0.65
+    },
+    {
+      "atributo": 2,
+      "maestria": 1,
+      "ajuste": -2,
+      "sucesso": 0.75
+    },
+    {
+      "atributo": 2,
+      "maestria": 1,
+      "ajuste": -4,
+      "sucesso": 0.85
+    },
+    {
+      "atributo": 2,
+      "maestria": 2,
+      "ajuste": 0,
+      "sucesso": 0.65
+    },
+    {
+      "atributo": 2,
+      "maestria": 2,
+      "ajuste": -2,
+      "sucesso": 0.75
+    },
+    {
+      "atributo": 2,
+      "maestria": 2,
+      "ajuste": -4,
+      "sucesso": 0.85
+    },
+    {
+      "atributo": 2,
+      "maestria": 3,
+      "ajuste": 0,
+      "sucesso": 0.65
+    },
+    {
+      "atributo": 2,
+      "maestria": 3,
+      "ajuste": -2,
+      "sucesso": 0.75
+    },
+    {
+      "atributo": 2,
+      "maestria": 3,
+      "ajuste": -4,
+      "sucesso": 0.85
+    },
+    {
+      "atributo": 2,
+      "maestria": 4,
+      "ajuste": 0,
+      "sucesso": 0.65
+    },
+    {
+      "atributo": 2,
+      "maestria": 4,
+      "ajuste": -2,
+      "sucesso": 0.75
+    },
+    {
+      "atributo": 2,
+      "maestria": 4,
+      "ajuste": -4,
+      "sucesso": 0.85
+    },
+    {
+      "atributo": 2,
+      "maestria": 5,
+      "ajuste": 0,
+      "sucesso": 0.65
+    },
+    {
+      "atributo": 2,
+      "maestria": 5,
+      "ajuste": -2,
+      "sucesso": 0.75
+    },
+    {
+      "atributo": 2,
+      "maestria": 5,
+      "ajuste": -4,
+      "sucesso": 0.85
+    },
+    {
+      "atributo": 3,
+      "maestria": 1,
+      "ajuste": 0,
+      "sucesso": 0.65
+    },
+    {
+      "atributo": 3,
+      "maestria": 1,
+      "ajuste": -2,
+      "sucesso": 0.75
+    },
+    {
+      "atributo": 3,
+      "maestria": 1,
+      "ajuste": -4,
+      "sucesso": 0.85
+    },
+    {
+      "atributo": 3,
+      "maestria": 2,
+      "ajuste": 0,
+      "sucesso": 0.65
+    },
+    {
+      "atributo": 3,
+      "maestria": 2,
+      "ajuste": -2,
+      "sucesso": 0.75
+    },
+    {
+      "atributo": 3,
+      "maestria": 2,
+      "ajuste": -4,
+      "sucesso": 0.85
+    },
+    {
+      "atributo": 3,
+      "maestria": 3,
+      "ajuste": 0,
+      "sucesso": 0.65
+    },
+    {
+      "atributo": 3,
+      "maestria": 3,
+      "ajuste": -2,
+      "sucesso": 0.75
+    },
+    {
+      "atributo": 3,
+      "maestria": 3,
+      "ajuste": -4,
+      "sucesso": 0.85
+    },
+    {
+      "atributo": 3,
+      "maestria": 4,
+      "ajuste": 0,
+      "sucesso": 0.65
+    },
+    {
+      "atributo": 3,
+      "maestria": 4,
+      "ajuste": -2,
+      "sucesso": 0.75
+    },
+    {
+      "atributo": 3,
+      "maestria": 4,
+      "ajuste": -4,
+      "sucesso": 0.85
+    },
+    {
+      "atributo": 3,
+      "maestria": 5,
+      "ajuste": 0,
+      "sucesso": 0.65
+    },
+    {
+      "atributo": 3,
+      "maestria": 5,
+      "ajuste": -2,
+      "sucesso": 0.75
+    },
+    {
+      "atributo": 3,
+      "maestria": 5,
+      "ajuste": -4,
+      "sucesso": 0.85
+    },
+    {
+      "atributo": 4,
+      "maestria": 1,
+      "ajuste": 0,
+      "sucesso": 0.65
+    },
+    {
+      "atributo": 4,
+      "maestria": 1,
+      "ajuste": -2,
+      "sucesso": 0.75
+    },
+    {
+      "atributo": 4,
+      "maestria": 1,
+      "ajuste": -4,
+      "sucesso": 0.85
+    },
+    {
+      "atributo": 4,
+      "maestria": 2,
+      "ajuste": 0,
+      "sucesso": 0.65
+    },
+    {
+      "atributo": 4,
+      "maestria": 2,
+      "ajuste": -2,
+      "sucesso": 0.75
+    },
+    {
+      "atributo": 4,
+      "maestria": 2,
+      "ajuste": -4,
+      "sucesso": 0.85
+    },
+    {
+      "atributo": 4,
+      "maestria": 3,
+      "ajuste": 0,
+      "sucesso": 0.65
+    },
+    {
+      "atributo": 4,
+      "maestria": 3,
+      "ajuste": -2,
+      "sucesso": 0.75
+    },
+    {
+      "atributo": 4,
+      "maestria": 3,
+      "ajuste": -4,
+      "sucesso": 0.85
+    },
+    {
+      "atributo": 4,
+      "maestria": 4,
+      "ajuste": 0,
+      "sucesso": 0.65
+    },
+    {
+      "atributo": 4,
+      "maestria": 4,
+      "ajuste": -2,
+      "sucesso": 0.75
+    },
+    {
+      "atributo": 4,
+      "maestria": 4,
+      "ajuste": -4,
+      "sucesso": 0.85
+    },
+    {
+      "atributo": 4,
+      "maestria": 5,
+      "ajuste": 0,
+      "sucesso": 0.65
+    },
+    {
+      "atributo": 4,
+      "maestria": 5,
+      "ajuste": -2,
+      "sucesso": 0.75
+    },
+    {
+      "atributo": 4,
+      "maestria": 5,
+      "ajuste": -4,
+      "sucesso": 0.85
+    },
+    {
+      "atributo": 5,
+      "maestria": 1,
+      "ajuste": 0,
+      "sucesso": 0.65
+    },
+    {
+      "atributo": 5,
+      "maestria": 1,
+      "ajuste": -2,
+      "sucesso": 0.75
+    },
+    {
+      "atributo": 5,
+      "maestria": 1,
+      "ajuste": -4,
+      "sucesso": 0.85
+    },
+    {
+      "atributo": 5,
+      "maestria": 2,
+      "ajuste": 0,
+      "sucesso": 0.65
+    },
+    {
+      "atributo": 5,
+      "maestria": 2,
+      "ajuste": -2,
+      "sucesso": 0.75
+    },
+    {
+      "atributo": 5,
+      "maestria": 2,
+      "ajuste": -4,
+      "sucesso": 0.85
+    },
+    {
+      "atributo": 5,
+      "maestria": 3,
+      "ajuste": 0,
+      "sucesso": 0.65
+    },
+    {
+      "atributo": 5,
+      "maestria": 3,
+      "ajuste": -2,
+      "sucesso": 0.75
+    },
+    {
+      "atributo": 5,
+      "maestria": 3,
+      "ajuste": -4,
+      "sucesso": 0.85
+    },
+    {
+      "atributo": 5,
+      "maestria": 4,
+      "ajuste": 0,
+      "sucesso": 0.65
+    },
+    {
+      "atributo": 5,
+      "maestria": 4,
+      "ajuste": -2,
+      "sucesso": 0.75
+    },
+    {
+      "atributo": 5,
+      "maestria": 4,
+      "ajuste": -4,
+      "sucesso": 0.85
+    },
+    {
+      "atributo": 5,
+      "maestria": 5,
+      "ajuste": 0,
+      "sucesso": 0.65
+    },
+    {
+      "atributo": 5,
+      "maestria": 5,
+      "ajuste": -2,
+      "sucesso": 0.75
+    },
+    {
+      "atributo": 5,
+      "maestria": 5,
+      "ajuste": -4,
+      "sucesso": 0.85
+    },
+    {
+      "atributo": 6,
+      "maestria": 1,
+      "ajuste": 0,
+      "sucesso": 0.65
+    },
+    {
+      "atributo": 6,
+      "maestria": 1,
+      "ajuste": -2,
+      "sucesso": 0.75
+    },
+    {
+      "atributo": 6,
+      "maestria": 1,
+      "ajuste": -4,
+      "sucesso": 0.85
+    },
+    {
+      "atributo": 6,
+      "maestria": 2,
+      "ajuste": 0,
+      "sucesso": 0.65
+    },
+    {
+      "atributo": 6,
+      "maestria": 2,
+      "ajuste": -2,
+      "sucesso": 0.75
+    },
+    {
+      "atributo": 6,
+      "maestria": 2,
+      "ajuste": -4,
+      "sucesso": 0.85
+    },
+    {
+      "atributo": 6,
+      "maestria": 3,
+      "ajuste": 0,
+      "sucesso": 0.65
+    },
+    {
+      "atributo": 6,
+      "maestria": 3,
+      "ajuste": -2,
+      "sucesso": 0.75
+    },
+    {
+      "atributo": 6,
+      "maestria": 3,
+      "ajuste": -4,
+      "sucesso": 0.85
+    },
+    {
+      "atributo": 6,
+      "maestria": 4,
+      "ajuste": 0,
+      "sucesso": 0.65
+    },
+    {
+      "atributo": 6,
+      "maestria": 4,
+      "ajuste": -2,
+      "sucesso": 0.75
+    },
+    {
+      "atributo": 6,
+      "maestria": 4,
+      "ajuste": -4,
+      "sucesso": 0.85
+    },
+    {
+      "atributo": 6,
+      "maestria": 5,
+      "ajuste": 0,
+      "sucesso": 0.65
+    },
+    {
+      "atributo": 6,
+      "maestria": 5,
+      "ajuste": -2,
+      "sucesso": 0.75
+    },
+    {
+      "atributo": 6,
+      "maestria": 5,
+      "ajuste": -4,
+      "sucesso": 0.85
+    }
+  ],
+  "probabilidades": [
+    {
+      "d20_minimo": 2,
+      "normal": 0.95,
+      "vantagem": 0.9975,
+      "repeticao_de_falha": 0.9975,
+      "desvantagem": 0.9025,
+      "prob_gastar_repeticao": 0.050000000000000044
+    },
+    {
+      "d20_minimo": 3,
+      "normal": 0.9,
+      "vantagem": 0.99,
+      "repeticao_de_falha": 0.99,
+      "desvantagem": 0.81,
+      "prob_gastar_repeticao": 0.09999999999999998
+    },
+    {
+      "d20_minimo": 4,
+      "normal": 0.85,
+      "vantagem": 0.9775,
+      "repeticao_de_falha": 0.9775,
+      "desvantagem": 0.7225,
+      "prob_gastar_repeticao": 0.15000000000000002
+    },
+    {
+      "d20_minimo": 5,
+      "normal": 0.8,
+      "vantagem": 0.96,
+      "repeticao_de_falha": 0.96,
+      "desvantagem": 0.64,
+      "prob_gastar_repeticao": 0.19999999999999996
+    },
+    {
+      "d20_minimo": 6,
+      "normal": 0.75,
+      "vantagem": 0.9375,
+      "repeticao_de_falha": 0.9375,
+      "desvantagem": 0.5625,
+      "prob_gastar_repeticao": 0.25
+    },
+    {
+      "d20_minimo": 7,
+      "normal": 0.7,
+      "vantagem": 0.91,
+      "repeticao_de_falha": 0.91,
+      "desvantagem": 0.49,
+      "prob_gastar_repeticao": 0.30000000000000004
+    },
+    {
+      "d20_minimo": 8,
+      "normal": 0.65,
+      "vantagem": 0.8775,
+      "repeticao_de_falha": 0.8775,
+      "desvantagem": 0.4225,
+      "prob_gastar_repeticao": 0.35
+    },
+    {
+      "d20_minimo": 9,
+      "normal": 0.6,
+      "vantagem": 0.84,
+      "repeticao_de_falha": 0.84,
+      "desvantagem": 0.36,
+      "prob_gastar_repeticao": 0.4
+    },
+    {
+      "d20_minimo": 10,
+      "normal": 0.55,
+      "vantagem": 0.7975,
+      "repeticao_de_falha": 0.7975,
+      "desvantagem": 0.3025,
+      "prob_gastar_repeticao": 0.44999999999999996
+    },
+    {
+      "d20_minimo": 11,
+      "normal": 0.5,
+      "vantagem": 0.75,
+      "repeticao_de_falha": 0.75,
+      "desvantagem": 0.25,
+      "prob_gastar_repeticao": 0.5
+    },
+    {
+      "d20_minimo": 12,
+      "normal": 0.45,
+      "vantagem": 0.6975,
+      "repeticao_de_falha": 0.6975,
+      "desvantagem": 0.2025,
+      "prob_gastar_repeticao": 0.55
+    },
+    {
+      "d20_minimo": 13,
+      "normal": 0.4,
+      "vantagem": 0.64,
+      "repeticao_de_falha": 0.64,
+      "desvantagem": 0.16,
+      "prob_gastar_repeticao": 0.6
+    },
+    {
+      "d20_minimo": 14,
+      "normal": 0.35,
+      "vantagem": 0.5775,
+      "repeticao_de_falha": 0.5775,
+      "desvantagem": 0.1225,
+      "prob_gastar_repeticao": 0.65
+    },
+    {
+      "d20_minimo": 15,
+      "normal": 0.3,
+      "vantagem": 0.51,
+      "repeticao_de_falha": 0.51,
+      "desvantagem": 0.09,
+      "prob_gastar_repeticao": 0.7
+    },
+    {
+      "d20_minimo": 16,
+      "normal": 0.25,
+      "vantagem": 0.4375,
+      "repeticao_de_falha": 0.4375,
+      "desvantagem": 0.0625,
+      "prob_gastar_repeticao": 0.75
+    },
+    {
+      "d20_minimo": 17,
+      "normal": 0.2,
+      "vantagem": 0.36,
+      "repeticao_de_falha": 0.36,
+      "desvantagem": 0.04,
+      "prob_gastar_repeticao": 0.8
+    },
+    {
+      "d20_minimo": 18,
+      "normal": 0.15,
+      "vantagem": 0.2775,
+      "repeticao_de_falha": 0.2775,
+      "desvantagem": 0.0225,
+      "prob_gastar_repeticao": 0.85
+    },
+    {
+      "d20_minimo": 19,
+      "normal": 0.1,
+      "vantagem": 0.19,
+      "repeticao_de_falha": 0.19,
+      "desvantagem": 0.01,
+      "prob_gastar_repeticao": 0.9
+    },
+    {
+      "d20_minimo": 20,
+      "normal": 0.05,
+      "vantagem": 0.0975,
+      "repeticao_de_falha": 0.0975,
+      "desvantagem": 0.0025,
+      "prob_gastar_repeticao": 0.95
+    }
+  ],
+  "mutacoes": [
+    {
+      "id": "metade_cura",
+      "detectada": true
+    },
+    {
+      "id": "frequencia_couro",
+      "detectada": true
+    },
+    {
+      "id": "morte_revezamento",
+      "detectada": true
+    },
+    {
+      "id": "talhe_sem_pagamento",
+      "detectada": true
+    },
+    {
+      "id": "imunidade_condicao",
+      "detectada": true
+    },
+    {
+      "id": "narrativo",
+      "detectada": true
+    }
+  ],
+  "limites": [
+    "Modelos do texto candidato, não motor geral do sistema ou playtest.",
+    "Pares de Legados personalizados não enumeráveis; verificados por casos e leitura.",
+    "Custos narrativos não convertidos em porcentagem de equilíbrio.",
+    "Morte/Integridade adiadas, exige repetir interfaces depois.",
+    "V12/V13/V14 não são realizados por este script."
+  ]
+}

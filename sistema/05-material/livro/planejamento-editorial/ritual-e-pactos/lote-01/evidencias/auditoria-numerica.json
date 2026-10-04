@@ -1,0 +1,735 @@
+{
+  "ok": true,
+  "sha256_texto": "a7681d1808a2ccb1cfdf0164119cadcae34f0012bf6a4353bdea6fa366e61ee2",
+  "manuscritos_auditados": {
+    "sistema/05-material/livro/planejamento-editorial/ritual-e-pactos/lote-01/RITUAL-E-PACTOS.md": "a7681d1808a2ccb1cfdf0164119cadcae34f0012bf6a4353bdea6fa366e61ee2"
+  },
+  "verificacoes": [
+    {
+      "verificacao": "16 entradas de Ritual",
+      "obtido": 16,
+      "esperado": 16,
+      "ok": true
+    },
+    {
+      "verificacao": "Preços preservados por entrada",
+      "obtido": {
+        "Ritual de Acerto": 1,
+        "Ritual de Dificuldade": 1,
+        "Ritual de Defesa": 1,
+        "Ritual de Rerrolagem": 1,
+        "Ritual de Energia": 2,
+        "Ritual de Tamanho": 2,
+        "Ritual de Alcance": 2,
+        "Ritual de Perseguição": 2,
+        "Ritual de Excedente": 2,
+        "Ritual de Compartilhamento": 2,
+        "Ritual de Duração": 2,
+        "Ritual de Cobertura": 2,
+        "Ritual de Transmutação": 2,
+        "Ritual de Meio Acerto": 3,
+        "Ritual de Seleção": 3,
+        "Ritual de Tiros": 4
+      },
+      "esperado": {
+        "Ritual de Acerto": 1,
+        "Ritual de Dificuldade": 1,
+        "Ritual de Defesa": 1,
+        "Ritual de Rerrolagem": 1,
+        "Ritual de Energia": 2,
+        "Ritual de Tamanho": 2,
+        "Ritual de Alcance": 2,
+        "Ritual de Perseguição": 2,
+        "Ritual de Excedente": 2,
+        "Ritual de Compartilhamento": 2,
+        "Ritual de Duração": 2,
+        "Ritual de Cobertura": 2,
+        "Ritual de Transmutação": 2,
+        "Ritual de Meio Acerto": 3,
+        "Ritual de Seleção": 3,
+        "Ritual de Tiros": 4
+      },
+      "ok": true
+    },
+    {
+      "verificacao": "Três modalidades com orçamento",
+      "obtido": [
+        2,
+        6,
+        10
+      ],
+      "esperado": [
+        2,
+        6,
+        10
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Fórmula preservada",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "21 células corrigidas por fórmula",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Perfis exatos de teste",
+      "obtido": 441,
+      "esperado": 441,
+      "ok": true
+    },
+    {
+      "verificacao": "Orçamentos alcançáveis",
+      "obtido": {
+        "2": 2,
+        "6": 6,
+        "10": 10,
+        "14": 14
+      },
+      "esperado": {
+        "2": 2,
+        "6": 6,
+        "10": 10,
+        "14": 14
+      },
+      "ok": true
+    },
+    {
+      "verificacao": "Sem ritual nas duas rotas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Calado impede",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Uma ajuda",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Máxima sem estocagem",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Parcelas conservadas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Decisão anterior à rolagem",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Duração não recursa",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Pacto não cria Estilo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Ideia não é regra pronta",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Sem punição canônica inventada",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Acerto classe0 não abre ritual",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Perseguição sem teleporte",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Falha não restaura devolução incompatível",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Ajuda atende uma conjuração",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Ajuda consumida mesmo na falha",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Alcance de auxílio mantido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Energia não retroage",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Remissão atual Perseguir",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Concentrada é nome da peça",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Pacto PE usa Classe",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Pacto PE não recupera ao variar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Sem geração de PE por turno",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Cópia herda peças do beneficiário de origem",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Cópias excepcionam total da Máxima",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Bônus exclusivo não amplia cópia",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Tiroextra aplica Queima mas não multiplica Salto",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Três linhas de tempo extraídas",
+      "obtido": 3,
+      "esperado": 3,
+      "ok": true
+    },
+    {
+      "verificacao": "Nove combinações de tempo extraídas",
+      "obtido": 9,
+      "esperado": 9,
+      "ok": true
+    },
+    {
+      "verificacao": "19 Restrições lidas do catálogo vigente",
+      "obtido": 19,
+      "esperado": 19,
+      "ok": true
+    }
+  ],
+  "casos": [
+    {
+      "caso": "Exemplo CD de Kaito",
+      "obtido": 16,
+      "esperado": 16,
+      "ok": true
+    },
+    {
+      "caso": "Kaito chance exata",
+      "obtido": 0.65,
+      "esperado": 0.65,
+      "ok": true
+    },
+    {
+      "caso": "Kaito falha, PE",
+      "obtido": 16,
+      "esperado": 16,
+      "ok": true
+    },
+    {
+      "caso": "Kaito sucesso com Energia",
+      "obtido": 10,
+      "esperado": 10,
+      "ok": true
+    },
+    {
+      "caso": "Ritual completo exemplo soma",
+      "obtido": 6,
+      "esperado": 6,
+      "ok": true
+    },
+    {
+      "caso": "Exemplo em conjunto soma",
+      "obtido": 10,
+      "esperado": 10,
+      "ok": true
+    },
+    {
+      "caso": "Tiros desiguais4/2/1",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "caso": "Tiros equilibrados3/2/2",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "caso": "Nunca copia parcela grande18/1/1",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "caso": "Cura32, faltam2: excesso limitado",
+      "obtido": 8,
+      "esperado": 8,
+      "ok": true
+    },
+    {
+      "caso": "Cura3, alvo cheio: fração para baixo",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Essência0..6 pactos",
+      "obtido": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        2,
+        3
+      ],
+      "esperado": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        2,
+        3
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Pacto perdido não libera escolha",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Essência4para6 após2pactos",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "caso": "Liberação Classe3..7 bônus",
+      "obtido": [
+        1,
+        2,
+        2,
+        3,
+        3
+      ],
+      "esperado": [
+        1,
+        2,
+        2,
+        3,
+        3
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Liberação Classe3..7 teto excepcional",
+      "obtido": [
+        13,
+        18,
+        22,
+        27,
+        31
+      ],
+      "esperado": [
+        13,
+        18,
+        22,
+        27,
+        31
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Parcela zero em Junto conserva zero",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Matriz nominal16x19",
+      "obtido": 304,
+      "esperado": 304,
+      "ok": true
+    }
+  ],
+  "modelos": {
+    "perfis_teste": 441,
+    "perfis_compra": 147456,
+    "montagens_por_orcamento": {
+      "2": 22,
+      "6": 1026,
+      "10": 10410,
+      "14": 42598
+    },
+    "particoes": 4943,
+    "perfis_cura": 25760
+  },
+  "chances_corrigidas": [
+    {
+      "classe": 1,
+      "destreza": 0,
+      "chance": 0.6,
+      "tabela_antiga": 0.5,
+      "correcao_pp": 10.0
+    },
+    {
+      "classe": 2,
+      "destreza": 0,
+      "chance": 0.55,
+      "tabela_antiga": 0.45,
+      "correcao_pp": 10.0
+    },
+    {
+      "classe": 3,
+      "destreza": 0,
+      "chance": 0.5,
+      "tabela_antiga": 0.4,
+      "correcao_pp": 10.0
+    },
+    {
+      "classe": 4,
+      "destreza": 0,
+      "chance": 0.45,
+      "tabela_antiga": 0.35,
+      "correcao_pp": 10.0
+    },
+    {
+      "classe": 5,
+      "destreza": 0,
+      "chance": 0.4,
+      "tabela_antiga": 0.3,
+      "correcao_pp": 10.0
+    },
+    {
+      "classe": 6,
+      "destreza": 0,
+      "chance": 0.35,
+      "tabela_antiga": 0.25,
+      "correcao_pp": 10.0
+    },
+    {
+      "classe": 7,
+      "destreza": 0,
+      "chance": 0.3,
+      "tabela_antiga": 0.2,
+      "correcao_pp": 10.0
+    },
+    {
+      "classe": 1,
+      "destreza": 3,
+      "chance": 0.75,
+      "tabela_antiga": 0.65,
+      "correcao_pp": 10.0
+    },
+    {
+      "classe": 2,
+      "destreza": 3,
+      "chance": 0.7,
+      "tabela_antiga": 0.6,
+      "correcao_pp": 10.0
+    },
+    {
+      "classe": 3,
+      "destreza": 3,
+      "chance": 0.65,
+      "tabela_antiga": 0.55,
+      "correcao_pp": 10.0
+    },
+    {
+      "classe": 4,
+      "destreza": 3,
+      "chance": 0.6,
+      "tabela_antiga": 0.5,
+      "correcao_pp": 10.0
+    },
+    {
+      "classe": 5,
+      "destreza": 3,
+      "chance": 0.55,
+      "tabela_antiga": 0.45,
+      "correcao_pp": 10.0
+    },
+    {
+      "classe": 6,
+      "destreza": 3,
+      "chance": 0.5,
+      "tabela_antiga": 0.4,
+      "correcao_pp": 10.0
+    },
+    {
+      "classe": 7,
+      "destreza": 3,
+      "chance": 0.45,
+      "tabela_antiga": 0.35,
+      "correcao_pp": 10.0
+    },
+    {
+      "classe": 1,
+      "destreza": 6,
+      "chance": 0.9,
+      "tabela_antiga": 0.8,
+      "correcao_pp": 10.0
+    },
+    {
+      "classe": 2,
+      "destreza": 6,
+      "chance": 0.85,
+      "tabela_antiga": 0.75,
+      "correcao_pp": 10.0
+    },
+    {
+      "classe": 3,
+      "destreza": 6,
+      "chance": 0.8,
+      "tabela_antiga": 0.7,
+      "correcao_pp": 10.0
+    },
+    {
+      "classe": 4,
+      "destreza": 6,
+      "chance": 0.75,
+      "tabela_antiga": 0.65,
+      "correcao_pp": 10.0
+    },
+    {
+      "classe": 5,
+      "destreza": 6,
+      "chance": 0.7,
+      "tabela_antiga": 0.6,
+      "correcao_pp": 10.0
+    },
+    {
+      "classe": 6,
+      "destreza": 6,
+      "chance": 0.65,
+      "tabela_antiga": 0.55,
+      "correcao_pp": 10.0
+    },
+    {
+      "classe": 7,
+      "destreza": 6,
+      "chance": 0.6,
+      "tabela_antiga": 0.5,
+      "correcao_pp": 10.0
+    }
+  ],
+  "ganho_rerrolagem": [
+    {
+      "classe": 1,
+      "dados": 1,
+      "ganho_medio_d8": 0.4375
+    },
+    {
+      "classe": 1,
+      "dados": 2,
+      "ganho_medio_d8": 0.875
+    },
+    {
+      "classe": 1,
+      "dados": 3,
+      "ganho_medio_d8": 1.3056640625
+    },
+    {
+      "classe": 1,
+      "dados": 4,
+      "ganho_medio_d8": 1.724365234375
+    },
+    {
+      "classe": 2,
+      "dados": 2,
+      "ganho_medio_d8": 0.875
+    },
+    {
+      "classe": 2,
+      "dados": 4,
+      "ganho_medio_d8": 1.7491455078125
+    },
+    {
+      "classe": 2,
+      "dados": 6,
+      "ganho_medio_d8": 2.614025115966797
+    },
+    {
+      "classe": 2,
+      "dados": 8,
+      "ganho_medio_d8": 3.4560172259807587
+    },
+    {
+      "classe": 3,
+      "dados": 3,
+      "ganho_medio_d8": 1.3125
+    },
+    {
+      "classe": 3,
+      "dados": 6,
+      "ganho_medio_d8": 2.6244125366210938
+    },
+    {
+      "classe": 3,
+      "dados": 9,
+      "ganho_medio_d8": 3.9279636554419994
+    },
+    {
+      "classe": 3,
+      "dados": 12,
+      "ganho_medio_d8": 5.203410422021989
+    },
+    {
+      "classe": 4,
+      "dados": 4,
+      "ganho_medio_d8": 1.75
+    },
+    {
+      "classe": 4,
+      "dados": 8,
+      "ganho_medio_d8": 3.4996897876262665
+    },
+    {
+      "classe": 4,
+      "dados": 12,
+      "ganho_medio_d8": 5.242909595384845
+    },
+    {
+      "classe": 4,
+      "dados": 16,
+      "ganho_medio_d8": 6.95709103548012
+    },
+    {
+      "classe": 5,
+      "dados": 5,
+      "ganho_medio_d8": 2.1875
+    },
+    {
+      "classe": 5,
+      "dados": 10,
+      "ganho_medio_d8": 4.374850761145353
+    },
+    {
+      "classe": 5,
+      "dados": 15,
+      "ganho_medio_d8": 6.557557909978854
+    },
+    {
+      "classe": 5,
+      "dados": 20,
+      "ganho_medio_d8": 8.712836657623614
+    },
+    {
+      "classe": 6,
+      "dados": 6,
+      "ganho_medio_d8": 2.625
+    },
+    {
+      "classe": 6,
+      "dados": 12,
+      "ganho_medio_d8": 5.249931269805529
+    },
+    {
+      "classe": 6,
+      "dados": 18,
+      "ganho_medio_d8": 7.871666393335168
+    },
+    {
+      "classe": 6,
+      "dados": 24,
+      "ganho_medio_d8": 10.468845027080068
+    },
+    {
+      "classe": 7,
+      "dados": 7,
+      "ganho_medio_d8": 3.0625
+    },
+    {
+      "classe": 7,
+      "dados": 14,
+      "ganho_medio_d8": 6.12496908500998
+    },
+    {
+      "classe": 7,
+      "dados": 21,
+      "ganho_medio_d8": 9.185292970814114
+    },
+    {
+      "classe": 7,
+      "dados": 28,
+      "ganho_medio_d8": 12.224381224702734
+    }
+  ],
+  "limites": [
+    "Modelo exato das contas descritas, não simulação de combate completo nem playtest humano.",
+    "Combinações de utilidade exigem a compatibilidade semântica; perfis de compra medem só orçamento.",
+    "Pactos temporários próprios não têm balanceamento universal: ficam limitados pelo acordo concreto."
+  ]
+}

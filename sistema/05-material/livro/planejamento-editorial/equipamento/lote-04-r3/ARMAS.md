@@ -1,0 +1,193 @@
+<!-- page:armas|Armas -->
+# Armas
+
+Uma arma pode servir para lutar de perto, alcançar um inimigo mais distante ou manter uma mão livre. Antes de escolhê-la, confira seu treino, a Força exigida e o espaço que ela ocupa no inventário.
+
+## Treino por categoria
+
+O treino em uma categoria permite usar todas as armas dela. As categorias estão reunidas em três listas; confira na ficha quais você possui.
+
+| Lista | Categorias |
+|---|---|
+| Simples | Lâmina Curta, Porrete, Ceifa, Arremesso, Manopla, Massa e Balestra. |
+| Marcial | Lâmina Longa, Machado, Armas Longas, Flexível e Yumi. |
+| Arma de Fogo | Arma de Fogo. |
+
+Yumi reúne os arcos; Balestra reúne as bestas. Nas páginas seguintes, cada tabela informa a categoria e a lista de treino.
+
+## Dados da arma
+
+**Dano** informa os dados próprios e o tipo causado pelo ataque comum daquela arma. A aplicação de atributos e críticos está em Combate. Usar uma arma para outra finalidade, como golpear com a coronha, segue as regras de armas improvisadas.
+
+**Força** é o valor mínimo exigido para empunhar a arma sem a penalidade descrita em Equipamento em jogo. Um traço indica que não há requisito. **Volume** é a parcela da carga ocupada pela arma; os valores de munição de reserva ficam em Munição.
+
+As propriedades e restrições são explicadas em Equipamento em jogo. **Alcance** indica 3 m no corpo a corpo; o alcance comum é 1,5 m. Quando houver **Longo Alcance**, os dois números são as faixas normal e longa, em metros. As regras de distância e obstáculos ficam em Combate.
+
+## Preços
+
+Os preços estão em ienes (¥). Nas armas de fogo, a tabela traz dois valores: **criação / compra posterior**. O valor de criação vale uma vez, ao montar a ficha. Nas demais armas, o preço é o mesmo nos dois momentos.
+
+Armas de fogo exigem **Grau 2 ou autorização prévia**. Ter dinheiro ou treino não dispensa esse acesso. O estoque inicial e a reposição de projéteis estão em Munição; uma compra posterior da arma não renova o fornecimento inicial.
+
+> **Exemplo:** Rina quer uma arma para uma mão e tem treino em Lâmina Longa. A Katana custa ¥48.000, ocupa 1 Volume e não exige Força mínima. Sua linha informa 1d8 de Cortante e as propriedades Fineza e Versátil. Rina escolhe como empunhá-la e anota na ficha o dano com os modificadores que se aplicam.
+
+<!-- page:laminas|Lâminas -->
+# Lâminas
+
+## Lâmina Curta
+
+Treino simples. Lâminas pequenas, para golpes próximos.
+
+| Arma | Mãos | Dano | Propriedades | Força | Volume | Preço (¥) |
+|---|---|---|---|---|---|---|
+| Canivete | 1 | 1d4 Cortante | Fineza · Oculta · Rompe | — | 0,1 | 8.000 |
+| Faca | 1 | 1d6 Cortante | Fineza · Rompe | — | 0,2 | 16.000 |
+| Punhal | 1 | 1d6 Perfurante | Fineza · Longo Alcance 6/18 m | — | 0,3 | 16.000 |
+| Sai (arma de três pontas) | 1 | 1d6 Perfurante | Fineza · Par | — | 0,5 | 16.000 |
+| Tanto (lâmina curta) | 1 | 1d6 Cortante | Fineza · Oculta | — | 0,3 | 32.000 |
+
+## Lâmina Longa
+
+Treino marcial. Espadas de diferentes tamanhos e formas.
+
+| Arma | Mãos | Dano | Propriedades | Força | Volume | Preço (¥) |
+|---|---|---|---|---|---|---|
+| Espada Longa | 1 | 1d8 Cortante | Versátil · Rompe | — | 1 | 48.000 |
+| Espadão | 2 | 1d12 Cortante | Alcance 3 m | 3 | 2 | 60.000 |
+| Katana (espada curva) | 1 | 1d8 Cortante | Versátil · Fineza | — | 1 | 48.000 |
+| Machete | 1 | 1d8 Cortante | Rompe | — | 0,5 | 16.000 |
+| Nodachi (espada grande) | 2 | 1d12 Cortante | Alcance 3 m · Rompe · Volumosa | 3 | 2 | 60.000 |
+| Odachi (espada grande) | 2 | 1d12 Cortante | Alcance 3 m · Talha · Embainhada | 3 | 2 | 90.000 |
+| Rapieira | 1 | 1d6 Perfurante | Fineza · Talha | — | 1 | 32.000 |
+| Wakizashi (espada curta) | 1 | 1d8 Cortante | Oculta | — | 0,5 | 32.000 |
+
+<!-- page:impacto|Armas de impacto -->
+# Armas de impacto
+
+## Massa
+
+Treino simples. Maças, martelos e clavas que ferem pelo impacto.
+
+| Arma | Mãos | Dano | Propriedades | Força | Volume | Preço (¥) |
+|---|---|---|---|---|---|---|
+| Kanabō (clava pesada) | 2 | 1d12 Concussão | Talha | 3 | 3 | 36.000 |
+| Maça | 1 | 1d8 Concussão | Talha | — | 1 | 32.000 |
+| Marreta | 2 | 1d10 Concussão | Rompe · Talha | 3 | 3 | 36.000 |
+| Maul (martelo de combate) | 2 | 1d12 Concussão | Rompe | 3 | 3 | 36.000 |
+| Taco | 1 | 1d8 Concussão | Versátil · Discreta | — | 1 | 16.000 |
+
+## Porrete
+
+Treino simples. Bastões e armas de golpes curtos.
+
+| Arma | Mãos | Dano | Propriedades | Força | Volume | Preço (¥) |
+|---|---|---|---|---|---|---|
+| Bastão | 1 | 1d6 Concussão | Versátil · Alcance 3 m · Rompe | — | 1 | 16.000 |
+| Bō (bastão longo) | 2 | 1d10 Concussão | Alcance 3 m · Emaranha | 3 | 2 | 20.000 |
+| Cassetete | 1 | 1d6 Concussão | Oculta · Vestida | — | 0,3 | 8.000 |
+| Nunchaku (bastões ligados) | 1 | 1d6 Concussão | Par · Emaranha | — | 0,5 | 16.000 |
+| Tonfa (bastão com cabo lateral) | 1 | 1d6 Concussão | Par · Vestida | — | 0,5 | 16.000 |
+
+## Manopla
+
+Treino simples. Armas usadas sobre as mãos.
+
+| Arma | Mãos | Dano | Propriedades | Força | Volume | Preço (¥) |
+|---|---|---|---|---|---|---|
+| Soqueira | 1 | 1d4 Concussão | Vestida · Oculta · Par | — | 0,2 | 8.000 |
+| Tekko (proteção de punho) | 1 | 1d4 Concussão | Vestida · Par · Oculta | — | 0,2 | 8.000 |
+
+<!-- page:hastes|Machados, foices e hastes -->
+# Machados, foices e hastes
+
+## Machado
+
+Treino marcial. Lâminas montadas em cabos curtos ou longos.
+
+| Arma | Mãos | Dano | Propriedades | Força | Volume | Preço (¥) |
+|---|---|---|---|---|---|---|
+| Machadinha | 1 | 1d6 Cortante | Longo Alcance 6/18 m · Rompe | — | 0,5 | 16.000 |
+| Machado | 1 | 1d8 Cortante | Rompe | — | 1 | 32.000 |
+| Machado de Guerra | 2 | 1d12 Cortante | Rompe · Talha · Volumosa | 3 | 2 | 60.000 |
+
+## Ceifa
+
+Treino simples. Foices e armas de lâmina curva.
+
+| Arma | Mãos | Dano | Propriedades | Força | Volume | Preço (¥) |
+|---|---|---|---|---|---|---|
+| Foice | 2 | 1d10 Cortante | Emaranha · Talha | 3 | 2 | 36.000 |
+| Kama (foice curta) | 1 | 1d6 Cortante | Par · Rompe | — | 0,5 | 16.000 |
+| Kusarigama (foice com corrente) | 2 | 1d8 Cortante | Alcance 3 m · Emaranha · Longo Alcance 6/18 m | — | 2 | 20.000 |
+
+## Armas Longas
+
+Treino marcial. Lanças e hastes para atingir a distância.
+
+| Arma | Mãos | Dano | Propriedades | Força | Volume | Preço (¥) |
+|---|---|---|---|---|---|---|
+| Lança | 1 | 1d6 Perfurante | Alcance 3 m · Longo Alcance 6/18 m | — | 2 | 16.000 |
+| Naginata (haste com lâmina) | 2 | 1d10 Cortante | Alcance 3 m · Rompe | 3 | 2 | 36.000 |
+| Yari (lança longa) | 2 | 1d10 Perfurante | Alcance 3 m · Talha | 3 | 2 | 36.000 |
+
+<!-- page:flexiveis|Armas flexíveis e de arremesso -->
+# Armas flexíveis e de arremesso
+
+## Flexível
+
+Treino marcial. Correntes e chicotes.
+
+| Arma | Mãos | Dano | Propriedades | Força | Volume | Preço (¥) |
+|---|---|---|---|---|---|---|
+| Chicote | 1 | 1d4 Concussão | Alcance 3 m · Emaranha · Oculta | — | 0,5 | 16.000 |
+| Corrente | 2 | 1d8 Concussão | Alcance 3 m · Emaranha · Rompe | — | 2 | 20.000 |
+| Manriki (corrente com pesos) | 1 | 1d6 Concussão | Emaranha · Oculta | — | 0,5 | 8.000 |
+
+## Arremesso
+
+Treino simples. Armas feitas para serem lançadas.
+
+| Arma | Mãos | Dano | Propriedades | Força | Volume | Preço (¥) |
+|---|---|---|---|---|---|---|
+| Chakram (anel cortante) | 1 | 1d4 Cortante | Longo Alcance 6/18 m · Fineza · Oculta | — | 0,2 | 8.000 |
+| Kunai (lâmina de arremesso) | 1 | 1d6 Perfurante | Longo Alcance 6/18 m · Oculta | — | 0,2 | 8.000 |
+| Shuriken (lâmina de arremesso) | 1 | 1d4 Perfurante | Longo Alcance 6/18 m · Oculta · Par | — | 0,1 | 8.000 |
+| Tessen (leque de combate) | 1 | 1d4 Concussão | Longo Alcance 6/18 m · Oculta · Vestida | — | 0,3 | 8.000 |
+
+Uma arma arremessada sai de sua mão e fica onde o ataque a deixou. Pegá-la novamente segue Sacar e guardar, em Equipamento em jogo.
+
+<!-- page:tiro|Armas de disparo -->
+# Armas de disparo
+
+## Yumi
+
+Treino marcial. Arcos curtos e longos.
+
+| Arma | Mãos | Dano | Propriedades | Força | Volume | Preço (¥) |
+|---|---|---|---|---|---|---|
+| Daikyū (arco longo) | 2 | 1d10 Perfurante | Longo Alcance 45/180 m | — | 2 | 60.000 |
+| Hankyū (arco curto) | 2 | 1d8 Perfurante | Longo Alcance 24/96 m · Oculta | — | 1 | 40.000 |
+
+## Balestra
+
+Treino simples. Bestas de uma ou duas mãos.
+
+| Arma | Mãos | Dano | Propriedades | Força | Volume | Preço (¥) |
+|---|---|---|---|---|---|---|
+| Besta | 2 | 2d8 Perfurante | Longo Alcance 30/120 m · Munição · Rompe | 3 | 2 | 80.000 |
+| Besta de Uma Mão | 1 | 1d10 Perfurante | Longo Alcance 9/36 m · Munição · Oculta | — | 1 | 50.000 |
+
+## Arma de Fogo
+
+Treino em Arma de Fogo. O Volume inclui a carga instalada. **Metralhadora Pesada**, nesta tabela, representa uma metralhadora portátil de apoio. Armas pesadas instaladas em tripés ou veículos exigem ficha própria.
+
+| Arma | Mãos | Dano | Propriedades | Força | Volume | Preço (¥) |
+|---|---|---|---|---|---|---|
+| Espingarda | 2 | 2d8 Perfurante | Longo Alcance 9/27 m · Munição · Rompe | 1 | 2 | 150.000 / 300.000 |
+| Metralhadora Pesada | 2 | 2d10 Perfurante | Longo Alcance 24/72 m · Munição · Rompe · Volumosa | 3 | 7 | 450.000 / 900.000 |
+| Pistola | 1 | 1d10 Perfurante | Longo Alcance 9/27 m · Munição · Oculta | — | 0,5 | 125.000 / 250.000 |
+| Revólver | 1 | 1d10 Perfurante | Longo Alcance 12/36 m · Munição · Oculta | — | 0,5 | 125.000 / 250.000 |
+| Rifle | 2 | 2d8 Perfurante | Longo Alcance 24/72 m · Munição · Talha | 1 | 2 | 175.000 / 350.000 |
+| Rifle de Precisão | 2 | 2d10 Perfurante | Longo Alcance 24/72 m · Munição | 3 | 4 | 300.000 / 600.000 |
+| Submetralhadora | 2 | 2d6 Perfurante | Longo Alcance 15/45 m · Munição · Par · Oculta | — | 2 | 200.000 / 400.000 |
+

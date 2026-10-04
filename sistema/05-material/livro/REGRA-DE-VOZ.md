@@ -85,7 +85,9 @@ palavras.* **As catorze condições deste livro foram reescritas nessa forma na 
 
 *A v0.141 mediu **nove entradas com doze rótulos**, seis delas no capítulo 12, e publicou o par sem escrever a definição.* **Sem definição escrita, duas versões seguidas tentaram remedir e acharam outra coisa:** *a v0.149 contou o fenômeno errado e foi descartada; a v0.152 achou `209` com um regex que pega toda caixa de regra do livro, parou, e com um recorte próprio chegou a `4`.*
 
-> **O livro carrega `0` rótulos longos demais, em `50` entradas de catálogo.** *Os dois números são o dono, e o `conferir-voz.py` reconta e falha nos dois sentidos.*
+> **O livro carrega `0` rótulos longos demais, em `51` entradas de catálogo.** *Os dois números são o dono, e o `conferir-voz.py` reconta e falha nos dois sentidos.*
+
+> **v0.331:** o retorno do capítulo de Invocações acrescenta uma entrada reconhecida (51 ao todo); os rótulos longos permanecem em zero. A contagem é recontada pelo validador, não estimada pela quantidade de habilidades.
 
 > **Eram `53` até a v0.269, e a v0.270 desceu para `50`.** *As três que saíram são o `Servo`, a `Matilha` e o `Coro` do capítulo 8, que saíram do livro junto com o Evocador: o Mizuki tirou o Caminho e as invocações da edição jogável até o subsistema fechar.* **Nenhuma entrada dos quatro Caminhos novos se qualifica**, *porque as entregas de Trilha se escrevem em caixa compartilhada, pela fronteira abaixo.*
 
@@ -102,7 +104,7 @@ palavras.* **As catorze condições deste livro foram reescritas nessa forma na 
 | **entrada de catálogo** | seção-folha `###` ou `####` cujo nome está publicado numa **tabela do próprio capítulo**, e que abre pela camada 1 — `**<o nome dela>** — âncora` dentro da caixa de regra, ou uma âncora em prosa que a nomeia |
 | **rótulo longo demais** | negrito **abrindo parágrafo**, com mais de `6` palavras, na seção daquela entrada |
 
-**A lista das entradas não mora no validador: ela mora na tabela que o livro publica** — a `Como ler uma Bênção`, a `Condições em uma linha`, a `Como ler uma aptidão`. *Renomeie uma entrada e a checagem para de achar ela, então a contagem de `50` é guarda: ela falha se subir e se descer.*
+**A lista das entradas não mora no validador: ela mora na tabela que o livro publica** — a `Como ler uma Bênção`, a `Condições em uma linha`, a `Como ler uma aptidão`. *Renomeie uma entrada e a checagem para de achar ela, então a contagem de `51` é guarda: ela falha se subir e se descer.*
 
 **O que NÃO conta, e a fronteira é escrita para não virar discussão:**
 

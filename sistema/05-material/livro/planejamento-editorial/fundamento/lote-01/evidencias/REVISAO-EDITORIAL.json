@@ -1,0 +1,127 @@
+{
+  "sha256_texto": "0160f774f5ea87f4ffd29bb7f7e3335dead51677bf2b894041aa61e2c5041273",
+  "revisor": "Agente principal, após três auditorias independentes por modelos",
+  "teste_humano": false,
+  "limites": "Leitura editorial documentada não demonstra compreensão de jogadores reais. Relatórios de agentes registram snapshots anteriores e suas ressalvas.",
+  "secoes": [
+    {
+      "id": "fundamento",
+      "parecer": "Abre com finalidade e percurso; três rotas somente para acesso e contabilidade. Sem apresentar uma capacidade canônica como regra universal. Revisto após requisito temático explícito pedido pelo usuário; exemplo positivo/negativo coerentes com invocação."
+    },
+    {
+      "id": "tecnica",
+      "parecer": "Fundamento original completo, com Regra, limites, famílias e tipo de dano. A descrição não substitui as compras."
+    },
+    {
+      "id": "primeiro",
+      "parecer": "Exemplo movido para antes das tabelas extensas; custo, ação, alcance, resolução, erro e dados executáveis."
+    },
+    {
+      "id": "familias",
+      "parecer": "Nove famílias e escolhas 2/3/4; desconto somente nas melhorias. Fechadas impedem formas vinculadas."
+    },
+    {
+      "id": "selo",
+      "parecer": "Separa requisito, aparência gratuita e passivas pagas. Catálogo não duplicado. Passiva Livre agora abre com identidade e tem Faíscas/Teatro de sombras antes dos limites compartilhados, após cotejo com PHB/DMG locais."
+    },
+    {
+      "id": "repertorio",
+      "parecer": "Vaga conhecida distinta de PE; troca por entidade explícita nas três rotas; benefícios gratuitos separados. Revisto após requisito temático explícito pedido pelo usuário; exemplo positivo/negativo coerentes com invocação."
+    },
+    {
+      "id": "pontos",
+      "parecer": "Tabela confrontada com fonte mecânica; devolução não ultrapassa gasto nem cria dados acima da base."
+    },
+    {
+      "id": "formas",
+      "parecer": "Custo, alvos e origem no mesmo lugar; Toque/Aura ocupam restrição. Áreas conservam dano por alvo."
+    },
+    {
+      "id": "amparoformas",
+      "parecer": "Conversões de cura e vida temporária separadas; tetos finais explícitos. Pendências de recuperação não alteradas."
+    },
+    {
+      "id": "alcance",
+      "parecer": "Distância à origem separada de tamanho; escadas próprias, aumentos e limites para contato."
+    },
+    {
+      "id": "conjurar",
+      "parecer": "Atributo, CD, decisão de TR na montagem; crítico individual de área e metade de dados. Interfaces com Turnos."
+    },
+    {
+      "id": "restricoes",
+      "parecer": "Exigência real, grupos de frequência e dupla cobrança impedida. Atrasar/Parado não devolvem no custo completo já obrigatório."
+    },
+    {
+      "id": "combinacoes",
+      "parecer": "Casos de Toque/Longe, duração, ação e família reparados sem apagar identidade das formas."
+    },
+    {
+      "id": "controle",
+      "parecer": "Exemplo de condição pesada sem dano, CD, teste de saída, terreno e reaplicação distintos."
+    },
+    {
+      "id": "aplicacoes",
+      "parecer": "Três usos diferentes; movimento físico e Anteparo com geometria completa; apoio com prazos definidos."
+    },
+    {
+      "id": "danolimites",
+      "parecer": "Divisão vs área; secundários únicos sem recursão, crítico ou gatilhos externos; exceção histórica Acúmulo mantida."
+    },
+    {
+      "id": "persistente",
+      "parecer": "Seis rodadas incluindo atual, concentração, uma resolução mesmo em falha, posição fixa e efeitos não repetidos. Mudança mecânica registrada."
+    },
+    {
+      "id": "livre",
+      "parecer": "Aparência e pequena escala distintas de informação/controle/furtividade pagos."
+    },
+    {
+      "id": "efeito",
+      "parecer": "Escala e duração não compram capacidades arbitrárias; restrição de uso hostil evita resolver combate antes da iniciativa."
+    },
+    {
+      "id": "ampliar",
+      "parecer": "Mesmas peças e fórmula recalculada em três Classes; não muda ficha a cada alvo."
+    },
+    {
+      "id": "classezero",
+      "parecer": "Quantidade, dados e preços próprios; duas lacunas solucionadas como candidata (restrição não devolve dado e Apoio sem PV)."
+    },
+    {
+      "id": "proprio",
+      "parecer": "Procedimento com requisito, função, comparador e limite; não burla família fechada."
+    },
+    {
+      "id": "liberacao",
+      "parecer": "Dados e PE recalculados sem reembolso duplicado de Ação Completa; custo extra preservado."
+    },
+    {
+      "id": "maxima",
+      "parecer": "Duas contas separadas; orçamento 8/12/16 testado por perfil, sem alegar equilíbrio final; recarga explícita."
+    },
+    {
+      "id": "maximadano",
+      "parecer": "Dano/cura e função auxiliar exemplificados; arredondamento de resultado próprio da Máxima. Sem converter sobra em PV."
+    },
+    {
+      "id": "limitesmaxima",
+      "parecer": "Peças que repetem/multiplicam dados tratadas expressamente; Efeito em combate somente exclusivo; progressão sem troca ao vivo. Linha Armado/Segura revisada após fechamento do catálogo; não permite estoque de Máximas durante recarga."
+    },
+    {
+      "id": "passagem",
+      "parecer": "Exemplo original fora de combate com preparação, par único, travessia, interrupções e barreiras; sem alegação canônica."
+    },
+    {
+      "id": "retirada",
+      "parecer": "Exemplo original em combate; alvos e destinos antes de mover, seis trajetos independentes, contenções e dificuldades preservadas."
+    },
+    {
+      "id": "ficha",
+      "parecer": "Modelo consultável e conferência de acerto/erro/alcance; não reproduz uma habilidade de caminho."
+    }
+  ],
+  "notas_estilo": "Seis subtítulos sem artigo; ponto e vírgula reduzido na prosa, conservado em tabelas. Texto semanticamente preservado, salvo sincronização Sem Volta/Vazio documentada.",
+  "revisao_remissao": "Parágrafo de Cura relido com o dono R09 Ferir maldições. Apenas remissão nominal adicionada. Custo, alvo e resolução permanecem no dono, sem cópia.",
+  "delta_nominal_final": "DELTA-QA-FINAL.json"
+}

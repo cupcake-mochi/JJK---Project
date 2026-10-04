@@ -1,0 +1,22 @@
+{
+  "consulta": "2026-10-03",
+  "itens": [
+    {
+      "fonte": "PHB2024 fornecido pelo usuário",
+      "arquivo": "PDFs - Sistemas Extras/PDF_Sistemas/Player_Hand_Book_DnD_2024.pdf",
+      "recorte": "página impressa233, Fabricação de Itens Não Mágicos; extração textual em/tmp/r15-phb2024.txt",
+      "uso": "Ordem de apresentação ferramentas/matériasprimas/tempo. Tradução local de fãs não tratada como oficial; confirmação emfonteprimáriaabaixo."
+    },
+    {
+      "url": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+      "secao": "Crafting Nonmagical Items",
+      "uso": "Comparação editorial de campos/requisitos; custos pela metade/tempo porpreço não importados porqueR04 veda."
+    },
+    {
+      "url": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items",
+      "secao": "Crafting Magic Items",
+      "uso": "Comparação qualitativa: prérequisitos e custo separado da base. Não converter raridade emClasse/Grau."
+    }
+  ],
+  "canon": "Nenhuma nova afirmação factual sobreJJK. Procedimento original deProjetoM; decisões internas são autoridade de regras, não prova do mangá."
+}

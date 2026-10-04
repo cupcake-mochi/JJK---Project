@@ -1,0 +1,320 @@
+{
+  "sha256_texto": "dbb34c8384587288ccebca3a7c4932f90c377ad0751677b48ede38f596f4dd29",
+  "ok": true,
+  "casos": [
+    {
+      "caso": "Treze páginas autorais",
+      "obtido": 13,
+      "esperado": 13,
+      "passou": true,
+      "fundamento": "Marcadores do manuscrito"
+    },
+    {
+      "caso": "Âncora ab-capacidades: Usar um espaço conhecido para uma invocação e",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "fundamento": "Leitura textual da candidata"
+    },
+    {
+      "caso": "Âncora ab-capacidades: As outras formas de aquisição seguem Criar um",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "fundamento": "Leitura textual da candidata"
+    },
+    {
+      "caso": "Âncora ab-caminho: pontos de energia (PE)",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "fundamento": "Leitura textual da candidata"
+    },
+    {
+      "caso": "Âncora ab-equipamento: pontos de vida (PV)",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "fundamento": "Leitura textual da candidata"
+    },
+    {
+      "caso": "Âncora ab-equipamento: Classe de Dificuldade (CD)",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "fundamento": "Leitura textual da candidata"
+    },
+    {
+      "caso": "Âncora ab-conferencia: atributo permanente do TR Físico e treino com",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "fundamento": "Leitura textual da candidata"
+    },
+    {
+      "caso": "Âncora ab-kaori: O repertório completo e as demais escolhas de",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "fundamento": "Leitura textual da candidata"
+    },
+    {
+      "caso": "Âncora ab-resgate: o mestre precisa de uma ficha completa",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "fundamento": "Leitura textual da candidata"
+    },
+    {
+      "caso": "Âncora ab-combate: Se o ataque de Kaori errasse, ela continuaria",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "fundamento": "Leitura textual da candidata"
+    },
+    {
+      "caso": "Nove pontos",
+      "obtido": 9,
+      "esperado": 9,
+      "passou": true,
+      "fundamento": "Criação, Kaori"
+    },
+    {
+      "caso": "Teto inicial",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "fundamento": "Criação padrão"
+    },
+    {
+      "caso": "PV no segundo nível",
+      "obtido": 23,
+      "esperado": 23,
+      "passou": true,
+      "fundamento": "Bastião: vida inicial e ganho com Constituição"
+    },
+    {
+      "caso": "Energia no segundo nível",
+      "obtido": 8,
+      "esperado": 8,
+      "passou": true,
+      "fundamento": "Bastião: 4 PE por nível"
+    },
+    {
+      "caso": "Defesa com Traje 1",
+      "obtido": 13,
+      "esperado": 13,
+      "passou": true,
+      "fundamento": "Proteção: proteção substitui proteção passiva; sem outro bônus ativo"
+    },
+    {
+      "caso": "Carga normal",
+      "obtido": 8,
+      "esperado": 8,
+      "passou": true,
+      "fundamento": "Equipamento inicial: 5 + Força"
+    },
+    {
+      "caso": "Atletismo e ataque da técnica",
+      "obtido": 4,
+      "esperado": 4,
+      "passou": true,
+      "fundamento": "Força + Maestria"
+    },
+    {
+      "caso": "CD da técnica",
+      "obtido": 12,
+      "esperado": 12,
+      "passou": true,
+      "fundamento": "Fundamento: 8 + atributo + Maestria"
+    },
+    {
+      "caso": "Quatro TR",
+      "obtido": [
+        4,
+        3,
+        1,
+        1
+      ],
+      "esperado": [
+        4,
+        3,
+        1,
+        1
+      ],
+      "passou": true,
+      "fundamento": "Dois treinos distintos, sem somar Maestria aos demais"
+    },
+    {
+      "caso": "Treinos antes das trocas",
+      "obtido": [
+        9,
+        2
+      ],
+      "esperado": [
+        9,
+        2
+      ],
+      "passou": true,
+      "fundamento": "Origem: duas perícias; Caminho: duas indicadas e cinco livres; dois ofícios"
+    },
+    {
+      "caso": "Troca de dois ofícios",
+      "obtido": [
+        10,
+        0
+      ],
+      "esperado": [
+        10,
+        0
+      ],
+      "passou": true,
+      "fundamento": "Troca pelos dois, não por um ofício"
+    },
+    {
+      "caso": "Arma com custo de dois treinos",
+      "obtido": 7,
+      "esperado": 7,
+      "passou": true,
+      "fundamento": "Somente onde o Caminho permite a troca"
+    },
+    {
+      "caso": "Espaços N2 e Classe0 separados",
+      "obtido": [
+        3,
+        2
+      ],
+      "esperado": [
+        3,
+        2
+      ],
+      "passou": true,
+      "fundamento": "R06/R21: não empregar fórmula antiga 2 + nível + Maestria"
+    },
+    {
+      "caso": "Condição Livre mantém preço mínimo",
+      "obtido": 1,
+      "esperado": 1,
+      "passou": true,
+      "fundamento": "Controle Livre desconta, mas melhoria custa no mínimo 1"
+    },
+    {
+      "caso": "Reembolso Toque cabe no gasto",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "fundamento": "Fundamento: devolução não ultrapassa pontos gastos"
+    },
+    {
+      "caso": "Pool do Toque com Derrubado",
+      "obtido": 3,
+      "esperado": 3,
+      "passou": true,
+      "fundamento": "Classe1, Toque sem preço, Corpo a Corpo devolve1, Condição custa1"
+    },
+    {
+      "caso": "Sem Condição não há quarto dado grátis",
+      "obtido": 3,
+      "esperado": 3,
+      "passou": true,
+      "fundamento": "Controle negativo: sem compra não recebe devolução1"
+    },
+    {
+      "caso": "Sem adicionar Força ao feitiço",
+      "obtido": 14,
+      "esperado": 14,
+      "passou": true,
+      "fundamento": "Dano só3d8; Força entra no ataque, não no dano"
+    },
+    {
+      "caso": "Furtivo Gesto não devolvido",
+      "obtido": false,
+      "esperado": false,
+      "passou": true,
+      "fundamento": "Selo narrado sem compra ou devolução extra"
+    },
+    {
+      "caso": "Porta empatando CD",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "fundamento": "Testes: alcançar a CD é sucesso"
+    },
+    {
+      "caso": "Iniciativa",
+      "obtido": [
+        13,
+        19
+      ],
+      "esperado": [
+        13,
+        19
+      ],
+      "passou": true,
+      "fundamento": "Exemplo de combate"
+    },
+    {
+      "caso": "Acerto da criatura",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "fundamento": "Ataque +3 contra DEF13"
+    },
+    {
+      "caso": "PV após garras",
+      "obtido": 18,
+      "esperado": 18,
+      "passou": true,
+      "fundamento": "1d6+2, dado3; nenhuma outra proteção ativa"
+    },
+    {
+      "caso": "PE após conjurar",
+      "obtido": 5,
+      "esperado": 5,
+      "passou": true,
+      "fundamento": "Custo3 também no erro"
+    },
+    {
+      "caso": "Acerto de Kaori",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "fundamento": "Ataque da técnica +4 contra DEF12"
+    },
+    {
+      "caso": "Maldição chega a zero",
+      "obtido": 0,
+      "esperado": 0,
+      "passou": true,
+      "fundamento": "Exorcismo determinado neste exemplo, não nova regra universal"
+    },
+    {
+      "caso": "Movimento restante",
+      "obtido": 6,
+      "esperado": 6,
+      "passou": true,
+      "fundamento": "Movimento de3m após conjuração"
+    },
+    {
+      "caso": "Distâncias em quadrados",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "fundamento": "Múltiplos de1,5m"
+    },
+    {
+      "caso": "Passiva Livre puramente visual",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "fundamento": "Sem antigo conhecimento exato de peso gratuito"
+    },
+    {
+      "caso": "Introdução nomeia seis Caminhos",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "fundamento": "Tabela de orientação, sem copiar habilidades"
+    }
+  ]
+}

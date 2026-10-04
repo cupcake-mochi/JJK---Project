@@ -1,0 +1,1447 @@
+{
+  "data": "2026-10-03",
+  "fonte_matriz": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/MATRIZ-AUDITADA.json",
+  "sha256_matriz_r06": "12194d8ce9d4dd4ae08bd8eaf33c47b0337c7680e9dc7b782314b18353642f10",
+  "fontes_lidas": {
+    "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md": "682b239b4f582912d47b0c8cb14f0df70592f8b5c631f01240f0c4d853c8471e",
+    "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md": "a381ff3ae9a8460732658875a63e61caa604c12f617b86be0ac78409a334e7b8"
+  },
+  "total": 54,
+  "contagens": {
+    "consolidado_candidato": 53,
+    "interface_condicoes_R03_preservada": 1
+  },
+  "linhas": [
+    {
+      "id": "F01",
+      "combinacao": "Toque + Longe/Muito Longe",
+      "r06": {
+        "estado": "consolidado_candidato",
+        "decisao": "Toque não aceita Longe/Muito Longe; trocar Forma e retirar devolução para atacar à distância.",
+        "tipo": "M"
+      },
+      "decisao_r07": "Toque não aceita Longe/Muito Longe; mudar Forma e perder devolução de contato.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Longe",
+          "linha": 37,
+          "evidencia": "**Preço: Leve.** Aumenta o alcance em **um degrau**. Pode comprar duas vezes. Use a escada de distância da Forma. Em Cone e Linha, aumente o comprimento pela escada própria. Não aumenta o raio nem muda a origem de uma área centrada em você. Não combina com Toque, Aura ou Onda."
+        },
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Muito Longe",
+          "linha": 41,
+          "evidencia": "**Preço: Média.** Aumenta o alcance em **três degraus**, pelas mesmas escadas e limites de Longe. Não ultrapassa o último degrau. Não combina com Toque, Aura ou Onda."
+        },
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Corpo a Corpo",
+          "linha": 489,
+          "evidencia": "**Devolução: Média.** Projétil se torna **Toque**, com alcance de 1,5 m. Explosão se torna **Aura**, centrada em você. A Restrição já faz parte dessas duas Formas e ocupa uma das duas escolhas disponíveis. Cone, Linha e Onda não podem recebê-la. Uma Melhoria ou outro benefício não pode ampliar a distância do Toque nem afastar a origem da Aura mantendo essa devolução. Classe 0 e Técnica Máxima conservam essas exigências, mas não recebem "
+        }
+      ],
+      "publicado": false
+    },
+    {
+      "id": "F02",
+      "combinacao": "Toque/Aura + Corpo a Corpo outra vez",
+      "r06": {
+        "estado": "consolidado_candidato",
+        "decisao": "Restrição embutida de Toque/Aura conta no limite de duas e não devolve novamente.",
+        "tipo": "E"
+      },
+      "decisao_r07": "Corpo a Corpo já integra Toque/Aura e ocupa uma das duas restrições; não duplicar devolução.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Corpo a Corpo",
+          "linha": 489,
+          "evidencia": "**Devolução: Média.** Projétil se torna **Toque**, com alcance de 1,5 m. Explosão se torna **Aura**, centrada em você. A Restrição já faz parte dessas duas Formas e ocupa uma das duas escolhas disponíveis. Cone, Linha e Onda não podem recebê-la. Uma Melhoria ou outro benefício não pode ampliar a distância do Toque nem afastar a origem da Aura mantendo essa devolução. Classe 0 e Técnica Máxima conservam essas exigências, mas não recebem "
+        },
+        {
+          "arquivo": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md",
+          "titulo": "Toque e Aura",
+          "linha": 241,
+          "evidencia": "As duas já incluem a Restrição **Corpo a Corpo**, que devolve o valor Médio. Ela ocupa uma das duas Restrições permitidas e entra no limite de devolução. Não a anote uma segunda vez. Toque permanece a 1,5 m. Aura permanece centrada em você. Nenhuma aceita Longe ou Muito Longe. Para lançar de longe uma esfera que nasce sobre um ponto escolhido, use Explosão; para atingir um alvo distante, use Projétil. Nesse caso, a devolução de Corpo a "
+        }
+      ],
+      "publicado": false
+    },
+    {
+      "id": "F03",
+      "combinacao": "Aura/Onda + Longe/Muito Longe",
+      "r06": {
+        "estado": "consolidado_candidato",
+        "decisao": "Aumentar distância não desloca a origem de Aura/Onda; usar aumento de área para raio.",
+        "tipo": "I"
+      },
+      "decisao_r07": "Longe não desloca origem de Aura/Onda; Maior aumenta raio.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Longe",
+          "linha": 37,
+          "evidencia": "**Preço: Leve.** Aumenta o alcance em **um degrau**. Pode comprar duas vezes. Use a escada de distância da Forma. Em Cone e Linha, aumente o comprimento pela escada própria. Não aumenta o raio nem muda a origem de uma área centrada em você. Não combina com Toque, Aura ou Onda."
+        },
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Maior",
+          "linha": 71,
+          "evidencia": "**Preço: Leve.** Aumenta o tamanho de uma área em **um degrau**. Pode comprar duas vezes. Use a escada de raio ou de comprimento da Forma. Na Linha, aumente primeiro o comprimento até 60 m. Depois a largura para 3 m e então 4,5 m. Não cria área numa Forma de alvo individual nem aumenta a distância até seu ponto de origem."
+        }
+      ],
+      "publicado": false
+    },
+    {
+      "id": "F04",
+      "combinacao": "Cone/Linha + Corpo a Corpo",
+      "r06": {
+        "estado": "pendente_R07",
+        "decisao": null,
+        "tipo": "E"
+      },
+      "decisao_r07": "Cone e Linha não recebem Corpo a Corpo.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Corpo a Corpo",
+          "linha": 489,
+          "evidencia": "**Devolução: Média.** Projétil se torna **Toque**, com alcance de 1,5 m. Explosão se torna **Aura**, centrada em você. A Restrição já faz parte dessas duas Formas e ocupa uma das duas escolhas disponíveis. Cone, Linha e Onda não podem recebê-la. Uma Melhoria ou outro benefício não pode ampliar a distância do Toque nem afastar a origem da Aura mantendo essa devolução. Classe 0 e Técnica Máxima conservam essas exigências, mas não recebem "
+        }
+      ],
+      "publicado": false
+    },
+    {
+      "id": "F05",
+      "combinacao": "Onda + Corpo a Corpo",
+      "r06": {
+        "estado": "pendente_R07",
+        "decisao": null,
+        "tipo": "I"
+      },
+      "decisao_r07": "Corpo a Corpo só converte Projétil/Explosão em Toque/Aura; Onda não está entre conversões e não dá devolução.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Corpo a Corpo",
+          "linha": 489,
+          "evidencia": "**Devolução: Média.** Projétil se torna **Toque**, com alcance de 1,5 m. Explosão se torna **Aura**, centrada em você. A Restrição já faz parte dessas duas Formas e ocupa uma das duas escolhas disponíveis. Cone, Linha e Onda não podem recebê-la. Uma Melhoria ou outro benefício não pode ampliar a distância do Toque nem afastar a origem da Aura mantendo essa devolução. Classe 0 e Técnica Máxima conservam essas exigências, mas não recebem "
+        }
+      ],
+      "publicado": false,
+      "observacao": "Incorporado expressamente: Cone, Linha e Onda não recebem Corpo a Corpo."
+    },
+    {
+      "id": "F06",
+      "combinacao": "Explosão + Longe",
+      "r06": {
+        "estado": "consolidado_candidato",
+        "decisao": "Explosão pode combinar Longe e Maior; distância até o centro e raio são contas diferentes.",
+        "tipo": "I"
+      },
+      "decisao_r07": "Longe aumenta distância ao centro de Explosão; não aumenta raio.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Longe",
+          "linha": 37,
+          "evidencia": "**Preço: Leve.** Aumenta o alcance em **um degrau**. Pode comprar duas vezes. Use a escada de distância da Forma. Em Cone e Linha, aumente o comprimento pela escada própria. Não aumenta o raio nem muda a origem de uma área centrada em você. Não combina com Toque, Aura ou Onda."
+        },
+        {
+          "arquivo": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md",
+          "titulo": "Alcance e área",
+          "linha": 287,
+          "evidencia": "**Alcance** é a distância até o alvo ou a origem escolhida. **Área** é o espaço que o efeito ocupa. Uma Explosão pode chegar mais longe sem aumentar seu raio; uma Aura pode crescer sem sair de você. | Forma | Classe 0 | Classes 1 a 5 | Classes 6 e 7 | |---|---|---|---| | Projétil | 9 m | 18 m | 36 m | | Toque | 1,5 m | 1,5 m | 1,5 m | | Explosão | Alcance 9 m; raio 3 m. | Alcance 18 m; raio 3 m. | Alcance 36 m; raio 4,5 m. | | Aura | Em"
+        }
+      ],
+      "publicado": false
+    },
+    {
+      "id": "F07",
+      "combinacao": "Explosão/Aura/Onda + Maior",
+      "r06": {
+        "estado": "consolidado_candidato",
+        "decisao": "Maior altera raio das áreas e não desloca origem autocentrada.",
+        "tipo": "E/I"
+      },
+      "decisao_r07": "Maior aumenta raio de Explosão/Aura/Onda sem alterar origem.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Maior",
+          "linha": 71,
+          "evidencia": "**Preço: Leve.** Aumenta o tamanho de uma área em **um degrau**. Pode comprar duas vezes. Use a escada de raio ou de comprimento da Forma. Na Linha, aumente primeiro o comprimento até 60 m. Depois a largura para 3 m e então 4,5 m. Não cria área numa Forma de alvo individual nem aumenta a distância até seu ponto de origem."
+        },
+        {
+          "arquivo": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md",
+          "titulo": "Onda",
+          "linha": 269,
+          "evidencia": "A Onda aplica o efeito inteiro a cada aliado na área, sem dividir. O seu centro permanece em você; não recebe Longe. Maior aumenta o raio. Na Classe 6, a base do raio passa a 4,5 m. Seu saldo útil tem limite de **3 × Classe − custo Pesado da Forma**. Se for cura, cada ponto útil vira 1d8; se for apoio, vira 3 pontos de vida temporária. Restrições podem pagar outras peças, mas não ultrapassam esse limite. | Classe | 1 | 2 | 3 | 4 | 5 | 6"
+        }
+      ],
+      "publicado": false
+    },
+    {
+      "id": "F08",
+      "combinacao": "Cone/Linha + Longe/Muito Longe",
+      "r06": {
+        "estado": "consolidado_candidato",
+        "decisao": "Longe/Muito Longe podem subir comprimento de Cone/Linha pela escada própria.",
+        "tipo": "E"
+      },
+      "decisao_r07": "Longe/Muito Longe podem aumentar comprimento de Cone/Linha, sem mudar origem.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Longe",
+          "linha": 37,
+          "evidencia": "**Preço: Leve.** Aumenta o alcance em **um degrau**. Pode comprar duas vezes. Use a escada de distância da Forma. Em Cone e Linha, aumente o comprimento pela escada própria. Não aumenta o raio nem muda a origem de uma área centrada em você. Não combina com Toque, Aura ou Onda."
+        },
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Muito Longe",
+          "linha": 41,
+          "evidencia": "**Preço: Média.** Aumenta o alcance em **três degraus**, pelas mesmas escadas e limites de Longe. Não ultrapassa o último degrau. Não combina com Toque, Aura ou Onda."
+        }
+      ],
+      "publicado": false
+    },
+    {
+      "id": "F09",
+      "combinacao": "Linha + Maior no comprimento máximo",
+      "r06": {
+        "estado": "consolidado_candidato",
+        "decisao": "Maior na Linha aumenta comprimento até 60 m e só depois a largura até 4,5 m.",
+        "tipo": "E"
+      },
+      "decisao_r07": "Linha usa comprimento até60m e depois largura1,5→3→4,5m.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Maior",
+          "linha": 71,
+          "evidencia": "**Preço: Leve.** Aumenta o tamanho de uma área em **um degrau**. Pode comprar duas vezes. Use a escada de raio ou de comprimento da Forma. Na Linha, aumente primeiro o comprimento até 60 m. Depois a largura para 3 m e então 4,5 m. Não cria área numa Forma de alvo individual nem aumenta a distância até seu ponto de origem."
+        }
+      ],
+      "publicado": false
+    },
+    {
+      "id": "F10",
+      "combinacao": "Maior/Muito Maior + Projétil/Toque/Cura/Apoio sem área",
+      "r06": {
+        "estado": "parcial_candidato_R07_pendente",
+        "decisao": "Sem área para modificar, Maior não cria uma; a candidata demonstra Projétil. Explicitar no catálogo as outras Formas sem área.",
+        "tipo": "I"
+      },
+      "decisao_r07": "Maior/Muito Maior não criam área em Forma individual, incluindo Projétil/Toque/Cura/Apoio.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Maior",
+          "linha": 71,
+          "evidencia": "**Preço: Leve.** Aumenta o tamanho de uma área em **um degrau**. Pode comprar duas vezes. Use a escada de raio ou de comprimento da Forma. Na Linha, aumente primeiro o comprimento até 60 m. Depois a largura para 3 m e então 4,5 m. Não cria área numa Forma de alvo individual nem aumenta a distância até seu ponto de origem."
+        },
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Muito Maior",
+          "linha": 75,
+          "evidencia": "**Preço: Pesada.** Aumenta o tamanho da área em **três degraus**, seguindo a mesma ordem e os mesmos limites de Maior. Não ultrapassa o último degrau nem cria área onde não existe."
+        }
+      ],
+      "publicado": false
+    },
+    {
+      "id": "F11",
+      "combinacao": "Mais Um + Toque",
+      "r06": {
+        "estado": "pendente_R07",
+        "decisao": null,
+        "tipo": "I"
+      },
+      "decisao_r07": "Mais Um pode usar Toque, mantendo todos os alvos a1,5m e dividindo dados.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Mais Um",
+          "linha": 83,
+          "evidencia": "**Preço: Leve.** Acrescenta **um alvo individual** ao feitiço. Pode comprar duas vezes. Divida os dados disponíveis em parcelas inteiras antes de rolar, com pelo menos um dado para cada alvo que receber o efeito. Confira alcance, visão e resolução para cada um. Não duplica uma área nem substitui Junto nas Formas Cura e Apoio. Toque exige todos os alvos a até 1,5 m de você."
+        }
+      ],
+      "publicado": false
+    },
+    {
+      "id": "F12",
+      "combinacao": "Salto + Toque",
+      "r06": {
+        "estado": "parcial_candidato_R07_pendente",
+        "decisao": "Salto com Toque exige ambos os alvos a até 1,5 m do conjurador; teto e resolução secundária seguem CAT-03.",
+        "tipo": "I/M"
+      },
+      "decisao_r07": "Salto com Toque exige os dois alvos a1,5m do usuário.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Salto",
+          "linha": 104,
+          "evidencia": "**Preço: Média.** **Uma vez por conjuração**, após a resolução inicial, escolha um alvo que tenha sido acertado ou falhado no TR. Metade dos dados iniciais **destinados a esse alvo**, antes do crítico e arredondada para baixo, salta para outro inimigo: o mais próximo dele a até **9 m**, por trajeto aberto. Escolha em caso de empate. Faça o ataque com o mesmo bônus ou o TR da ficha contra esse segundo alvo. O ataque secundário pode errar"
+        }
+      ],
+      "publicado": false
+    },
+    {
+      "id": "F13",
+      "combinacao": "Sem Ver + Toque",
+      "r06": {
+        "estado": "pendente_R07",
+        "decisao": null,
+        "tipo": "I"
+      },
+      "decisao_r07": "Sem Ver dispensa visão de alvo conhecido, não distância ou trajeto de Toque.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Sem Ver",
+          "linha": 45,
+          "evidencia": "**Preço: Pesada.** Permite escolher um alvo ou ponto de origem que você não enxerga, desde que **saiba sua posição atual**. Mantém alcance e trajetória da Forma. Não localiza criaturas nem atravessa um obstáculo sólido. Uma parede ainda pode impedir a aplicação. Não dispensa um Selo que exija usar os próprios olhos."
+        }
+      ],
+      "publicado": false
+    },
+    {
+      "id": "F14",
+      "combinacao": "Sem Ver + cobertura total",
+      "r06": {
+        "estado": "pendente_R07",
+        "decisao": null,
+        "tipo": "I"
+      },
+      "decisao_r07": "Sem Ver não atravessa sólido; pode conhecer posição sem ter passagem.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Sem Ver",
+          "linha": 45,
+          "evidencia": "**Preço: Pesada.** Permite escolher um alvo ou ponto de origem que você não enxerga, desde que **saiba sua posição atual**. Mantém alcance e trajetória da Forma. Não localiza criaturas nem atravessa um obstáculo sólido. Uma parede ainda pode impedir a aplicação. Não dispensa um Selo que exija usar os próprios olhos."
+        }
+      ],
+      "publicado": false
+    },
+    {
+      "id": "F15",
+      "combinacao": "Contorno + cobertura total",
+      "r06": {
+        "estado": "pendente_R07",
+        "decisao": null,
+        "tipo": "I"
+      },
+      "decisao_r07": "Contorno segue trajeto aberto nas medidas da área, não perfura parede.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Contorno",
+          "linha": 110,
+          "evidencia": "**Preço: Leve.** Permite à **área seguir um percurso aberto**, dobrando esquinas e passando ao redor de cobertura. Meça alcance e extensão pelo percurso real, respeitando comprimento, largura ou raio da Forma. Ignore a proteção de uma cobertura somente quando o efeito conseguir contorná-la. Não atravessa sólido nem enche outro cômodo além dessas medidas. Não concede visão: o alvo ou ponto de origem escolhido ainda precisa ser válido, ou"
+        }
+      ],
+      "publicado": false
+    },
+    {
+      "id": "F16",
+      "combinacao": "Sem Cobertura + cobertura total",
+      "r06": {
+        "estado": "pendente_R07",
+        "decisao": null,
+        "tipo": "E"
+      },
+      "decisao_r07": "Sem Cobertura não ignora cobertura Total nem cria visão.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Sem Cobertura",
+          "linha": 146,
+          "evidencia": "**Preço: Leve.** Ignore os bônus de **Cobertura Parcial** contra este feitiço. Cobertura Boa mantém seus bônus; Cobertura Total continua impedindo escolher diretamente o alvo. Esta peça não concede visão nem muda a trajetória."
+        }
+      ],
+      "publicado": false
+    },
+    {
+      "id": "F17",
+      "combinacao": "Inescapável + outra Melhoria ou Restrição, inclusive Corpo a Corpo de Toque/Aura",
+      "r06": {
+        "estado": "pendente_R07",
+        "decisao": null,
+        "tipo": "E"
+      },
+      "decisao_r07": "Inescapável não aceita outra Melhoria ou Restrição, incluindo embutida.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Inescapável",
+          "linha": 127,
+          "evidencia": "**Preço: Média.** Só em **Projétil de dano**. O dano é automático, sem ataque nem TR, e não pode ser crítico. Esta é a única Melhoria da ficha. Não aceita Restrição, incluindo uma embutida na Forma. Você ainda precisa escolher alvo válido, dentro do alcance e com visão e trajeto exigidos. Não se combina com área, Controle, outras Formas, Liberação Máxima ou Técnica Máxima."
+        }
+      ],
+      "publicado": false
+    },
+    {
+      "id": "F18",
+      "combinacao": "Inescapável + Liberação Máxima",
+      "r06": {
+        "estado": "pendente_R07",
+        "decisao": null,
+        "tipo": "E"
+      },
+      "decisao_r07": "Inescapável não combina com Liberação Máxima.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Inescapável",
+          "linha": 127,
+          "evidencia": "**Preço: Média.** Só em **Projétil de dano**. O dano é automático, sem ataque nem TR, e não pode ser crítico. Esta é a única Melhoria da ficha. Não aceita Restrição, incluindo uma embutida na Forma. Você ainda precisa escolher alvo válido, dentro do alcance e com visão e trajeto exigidos. Não se combina com área, Controle, outras Formas, Liberação Máxima ou Técnica Máxima."
+        }
+      ],
+      "publicado": false
+    },
+    {
+      "id": "F19",
+      "combinacao": "Inescapável + Forma paga/área",
+      "r06": {
+        "estado": "pendente_R07",
+        "decisao": null,
+        "tipo": "M se restringir"
+      },
+      "decisao_r07": "Inescapável restrito a Projétil de dano; exclui Formas pagas/área e demais Formas.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Inescapável",
+          "linha": 127,
+          "evidencia": "**Preço: Média.** Só em **Projétil de dano**. O dano é automático, sem ataque nem TR, e não pode ser crítico. Esta é a única Melhoria da ficha. Não aceita Restrição, incluindo uma embutida na Forma. Você ainda precisa escolher alvo válido, dentro do alcance e com visão e trajeto exigidos. Não se combina com área, Controle, outras Formas, Liberação Máxima ou Técnica Máxima."
+        }
+      ],
+      "publicado": false,
+      "observacao": "Mudança mecânica candidata, registrada em R07-A-18; não afirmar redação antiga inequívoca."
+    },
+    {
+      "id": "F20",
+      "combinacao": "Precisão + efeito inteiramente automático aliado",
+      "r06": {
+        "estado": "parcial_candidato_R07_pendente",
+        "decisao": "A peça precisa encontrar a rolagem que modifica; não há bônus de Precisão em efeito inteiramente automático. Entrada individual ainda exige R07.",
+        "tipo": "I"
+      },
+      "decisao_r07": "Precisão modifica ataque/CD e não efeito inteiramente automático.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Precisão",
+          "linha": 119,
+          "evidencia": "**Preço: Leve.** Concede **+2 no ataque ou +2 na CD do TR** que resolve o feitiço, conforme a resolução da ficha. Não concede bônus a efeito inteiramente automático. Um TR de saída que use a mesma CD conserva esse valor. Não aumenta cura, dano ou testes de perícia."
+        }
+      ],
+      "publicado": false
+    },
+    {
+      "id": "F21",
+      "combinacao": "Tudo ou Nada + efeito sem TR, ou TR que já elimina todo dano",
+      "r06": {
+        "estado": "parcial_candidato_R07_pendente",
+        "decisao": "Tudo ou Nada sem TR é incompatível. Ausência de devolução quando o sucesso já causava zero decorre da dificuldade real; faltam os casos completos no catálogo.",
+        "tipo": "E/I"
+      },
+      "decisao_r07": "Tudo ou Nada requer dano porTR cujo sucesso antes causava dano; sem alteração real não devolve.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Tudo ou Nada",
+          "linha": 583,
+          "evidencia": "**Devolução: Leve.** Num feitiço que causa dano por TR, um alvo que passe no teste **não sofre dano**, em vez de sofrer metade. Os demais efeitos seguem sua própria resolução. Não cabe em ataques contra Defesa, em aplicações sem dano ou quando um sucesso no TR já evitava todo o dano: nesses casos, não acrescentaria uma dificuldade."
+        }
+      ],
+      "publicado": false
+    },
+    {
+      "id": "F22",
+      "combinacao": "De Novo + efeito que usa apenas TR",
+      "r06": {
+        "estado": "pendente_R07",
+        "decisao": null,
+        "tipo": "I"
+      },
+      "decisao_r07": "De Novo repete ataque, não força novo TR nem repete conjuração inteira.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "De Novo",
+          "linha": 131,
+          "evidencia": "**Preço: Média.** **Uma vez por cena, compartilhando esse uso entre suas fichas**, depois de um ataque deste feitiço errar, repita essa rolagem de ataque, com os mesmos modificadores e o mesmo alvo. Use o novo resultado. Em Rajada, repete somente um tiro. Não obriga alguém a repetir TR nem repete o feitiço inteiro. Alvo e requisitos precisam continuar válidos."
+        }
+      ],
+      "publicado": false,
+      "observacao": "De Novo também declara agora um uso por cena compartilhado entre todas as fichas do personagem, mudança mecânica registrada pelo principal."
+    },
+    {
+      "id": "F23",
+      "combinacao": "Rajada + troca para TR",
+      "r06": {
+        "estado": "consolidado_candidato",
+        "decisao": "Rajada usa ataques individuais e reparte os dados; não cabe em ficha resolvida integralmente por TR.",
+        "tipo": "I"
+      },
+      "decisao_r07": "Rajada exige ataques individuais, dados positivos por tiro e divisão do total; não múltiplosTRs.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Rajada",
+          "linha": 87,
+          "evidencia": "**Preço: Leve.** Divide o feitiço em **Classe + 1 tiros**, cada um com ataque próprio. Só em Forma de alvo individual com ataque. Distribua os dados e indique os alvos antes de rolar. Cada tiro precisa de pelo menos um dado. Se faltarem dados, reduza o número de tiros. Você pode dirigir vários ao mesmo alvo. Todos cumprem alcance e requisitos da Forma. Não combina com resolução só por TR nem transforma uma área em várias áreas. Cada alv"
+        }
+      ],
+      "publicado": false,
+      "observacao": "Incorporado sob Rajada: tiros iniciais aplicam peças quando sua resolução permite, sem acumular/renovar a mesma condição no alvo pela mesma conjuração; limites de cada peça prevalecem."
+    },
+    {
+      "id": "F24",
+      "combinacao": "Salto + Salto / Estilhaço + Estilhaço / Queima gerando outra Queima",
+      "r06": {
+        "estado": "consolidado_candidato",
+        "decisao": "Não há recursão nem reaplicação automática de peças. Salto/Estilhaço recebem um disparo secundário de cada peça por conjuração conforme CAT-03/CAT-04.",
+        "tipo": "I"
+      },
+      "decisao_r07": "Salto/Estilhaço têm um secundário por conjuração, não propagam; Queima uma repetição por parcela inicial válida sem reaplicar peças.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Salto",
+          "linha": 104,
+          "evidencia": "**Preço: Média.** **Uma vez por conjuração**, após a resolução inicial, escolha um alvo que tenha sido acertado ou falhado no TR. Metade dos dados iniciais **destinados a esse alvo**, antes do crítico e arredondada para baixo, salta para outro inimigo: o mais próximo dele a até **9 m**, por trajeto aberto. Escolha em caso de empate. Faça o ataque com o mesmo bônus ou o TR da ficha contra esse segundo alvo. O ataque secundário pode errar"
+        },
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Estilhaço",
+          "linha": 285,
+          "evidencia": "Uma vez por conjuração, depois da resolução inicial, escolha um alvo que sofreu crítico ou falhou no TR por 5 ou mais. Metade dos dados iniciais destinados àquela origem, arredondada para baixo e sem os dados adicionais do crítico, atinge as outras criaturas a até **1,5 m** dele, respeitando obstáculos. Em Rajada, escolha um tiro que cumpriu o gatilho e use apenas os dados dele. O respingo não exige outro ataque ou TR. Pode atingir alia"
+        },
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Queima",
+          "linha": 258,
+          "evidencia": "Se o alvo for acertado ou falhar no TR inicial, recebe novamente metade dos dados daquela parcela inicial, arredondada para baixo, no começo do próximo turno dele. Em Rajada ou Mais Um, use somente os dados destinados àquela aplicação no alvo, nunca os dados de todos os tiros ou alvos. Use a quantidade anterior ao crítico. O dano conserva seu tipo, não exige outro ataque ou TR e não aplica as outras peças da ficha. A Queima acontece uma"
+        }
+      ],
+      "publicado": false
+    },
+    {
+      "id": "F25",
+      "combinacao": "Condição Pesada + outra Condição Pesada",
+      "r06": {
+        "estado": "consolidado_candidato",
+        "decisao": "No máximo uma condição Pesada por feitiço; somente ela recebe o TR geral de saída ao fim do turno.",
+        "tipo": "E"
+      },
+      "decisao_r07": "Só uma condição Pesada por feitiço; mantém TR de saída.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Condição",
+          "linha": 157,
+          "evidencia": "**Preço: Nível da condição.** Escolha na montagem **uma das treze condições compráveis** de Condições. Pague seu nível: Leve, Média ou Pesada. Ela se aplica no acerto ou na falha do TR, dura **uma rodada** e termina no começo do seu próximo turno, salvo duração diferente da ficha. Só pode haver uma Pesada por feitiço. Uma Pesada permite ao alvo repetir o TR registrado no fim de cada turno dele, sem ação, encerrando aquela aplicação no s"
+        }
+      ],
+      "publicado": false
+    },
+    {
+      "id": "F26",
+      "combinacao": "Condição + Amparo automático em aliado disposto",
+      "r06": {
+        "estado": "parcial_candidato_R07_pendente",
+        "decisao": "Cura/Apoio benéficos não viram imposição automática hostil ao mudar resolução; benefícios por condições específicas ainda exigem catálogo.",
+        "tipo": "I"
+      },
+      "decisao_r07": "Condição conserva integralmente seu efeito, inclusive as partes nocivas: não inverter para criar benefício. Amparo exige alvo disposto para benefício e não impõe automaticamente condição hostil.",
+      "estado_r07": "interface_condicoes_R03_preservada",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Condição",
+          "linha": 157,
+          "evidencia": "**Preço: Nível da condição.** Escolha na montagem **uma das treze condições compráveis** de Condições. Pague seu nível: Leve, Média ou Pesada. Ela se aplica no acerto ou na falha do TR, dura **uma rodada** e termina no começo do seu próximo turno, salvo duração diferente da ficha. Só pode haver uma Pesada por feitiço. Uma Pesada permite ao alvo repetir o TR registrado no fim de cada turno dele, sem ação, encerrando aquela aplicação no s"
+        },
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Amparo",
+          "linha": 414,
+          "evidencia": "Estas Melhorias usam Cura, Apoio ou Onda para ajudar criaturas dispostas. Também podem acompanhar um feitiço que atinja um aliado, quando o alvo e a resolução permitirem. Se a ficha causar dano, resolva-o antes do benefício. Receber ajuda não evita esse dano."
+        },
+        {
+          "arquivo": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md",
+          "titulo": "Resultados",
+          "linha": 333,
+          "evidencia": "Num feitiço ofensivo resolvido por TR, falhar aplica dano e efeitos nocivos; passar evita os efeitos nocivos e recebe metade dos dados de dano, arredondada para baixo, salvo indicação específica. O teste de saída de uma condição Pesada continua existindo mesmo depois da falha inicial. Na criação, você pode trocar ataque por TR, ou o contrário, sem mudar pontos. **São versões diferentes:** cada uma ocupa seu espaço, ou substitui a anteri"
+        }
+      ],
+      "publicado": false,
+      "observacao": "Catálogo não inventa condições benéficas nem autoriza inverter partes nocivas. Amparo em disposto não impõe condição automática em hostil. Eventual efeito benéfico específico exige regra própria e a interface com o capítulo de Condições permanece registrada."
+    },
+    {
+      "id": "F27",
+      "combinacao": "Junto + dano",
+      "r06": {
+        "estado": "pendente_R07",
+        "decisao": null,
+        "tipo": "E"
+      },
+      "decisao_r07": "Junto aplica-se a Cura/Apoio, não a dano; para alvos ofensivos adicionais use Mais Um.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Junto",
+          "linha": 445,
+          "evidencia": "Cura ou Apoio alcança mais um aliado dentro do alcance da Forma. Pode comprar esta peça duas vezes, para acrescentar até dois aliados. **Antes de resolver**, distribua os dados de cura ou os pontos de vida temporária entre todos os beneficiários, em quantidades inteiras, sem ultrapassar o total da ficha. Um efeito indivisível, como Guarda, Pressa ou remover uma condição, é destinado a **um só** desses beneficiários. Escolha o destinatár"
+        },
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Mais Um",
+          "linha": 83,
+          "evidencia": "**Preço: Leve.** Acrescenta **um alvo individual** ao feitiço. Pode comprar duas vezes. Divida os dados disponíveis em parcelas inteiras antes de rolar, com pelo menos um dado para cada alvo que receber o efeito. Confira alcance, visão e resolução para cada um. Não duplica uma área nem substitui Junto nas Formas Cura e Apoio. Toque exige todos os alvos a até 1,5 m de você."
+        }
+      ],
+      "publicado": false
+    },
+    {
+      "id": "F28",
+      "combinacao": "Junto + Onda",
+      "r06": {
+        "estado": "pendente_R07",
+        "decisao": null,
+        "tipo": "I"
+      },
+      "decisao_r07": "Junto não aumenta Onda nem duplica sua área.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Junto",
+          "linha": 445,
+          "evidencia": "Cura ou Apoio alcança mais um aliado dentro do alcance da Forma. Pode comprar esta peça duas vezes, para acrescentar até dois aliados. **Antes de resolver**, distribua os dados de cura ou os pontos de vida temporária entre todos os beneficiários, em quantidades inteiras, sem ultrapassar o total da ficha. Um efeito indivisível, como Guarda, Pressa ou remover uma condição, é destinado a **um só** desses beneficiários. Escolha o destinatár"
+        }
+      ],
+      "publicado": false
+    },
+    {
+      "id": "F29",
+      "combinacao": "Reserva + cura imediata integral",
+      "r06": {
+        "estado": "pendente_R07",
+        "decisao": null,
+        "tipo": "I"
+      },
+      "decisao_r07": "Reserva substitui cura imediata por valor guardado; não cura integralmente nas duas etapas.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Reserva",
+          "linha": 453,
+          "evidencia": "Adie a cura da ficha: role os dados agora e anote o valor no aliado, em vez de recuperar vida. Na próxima vez, ainda nesta cena, em que ele passar de pelo menos metade da vida para abaixo dela, aplique a cura guardada depois de resolver o dano que provocou a queda, sem gastar ação. A reserva é consumida nesse disparo, mesmo se a cura for impedida. O valor não volta ao conjurador. Se a cena terminar antes, ela se perde. Cada aliado manté"
+        }
+      ],
+      "publicado": false
+    },
+    {
+      "id": "F30",
+      "combinacao": "Rápido + Reação",
+      "r06": {
+        "estado": "consolidado_candidato",
+        "decisao": "Rápido e Reação não se combinam.",
+        "tipo": "E"
+      },
+      "decisao_r07": "Rápido e Reação não se combinam.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Rápido",
+          "linha": 308,
+          "evidencia": "Use Ação Bônus no lugar da Padrão. Não combina com Reação ou Atrasar, e não substitui a Ação Completa de uma Liberação Máxima ou Técnica Máxima. O limite de conjuração no turno permanece."
+        },
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Reação",
+          "linha": 312,
+          "evidencia": "Conjure com sua Reação quando ocorrer um gatilho perceptível, definido na criação. Resolva depois de o gatilho terminar, salvo regra expressa que permita intervir antes. Um gatilho de sofrer dano não evita o dano que já aconteceu. Cumpra alvo, alcance, visão, Selo e os outros requisitos nesse momento. Não combina com Rápido, Armado, Atrasar ou Parado, nem substitui a Ação Completa das aplicações máximas."
+        }
+      ],
+      "publicado": false
+    },
+    {
+      "id": "F31",
+      "combinacao": "Rápido + Atrasar",
+      "r06": {
+        "estado": "consolidado_candidato",
+        "decisao": "Rápido e Atrasar não se combinam.",
+        "tipo": "E"
+      },
+      "decisao_r07": "Rápido e Atrasar não se combinam.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Rápido",
+          "linha": 308,
+          "evidencia": "Use Ação Bônus no lugar da Padrão. Não combina com Reação ou Atrasar, e não substitui a Ação Completa de uma Liberação Máxima ou Técnica Máxima. O limite de conjuração no turno permanece."
+        },
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Atrasar",
+          "linha": 495,
+          "evidencia": "**Devolução: Média.** A conjuração exige **Ação Completa**: compromete sua Ação Padrão, sua Ação Bônus e sua Ação de Movimento daquele turno. Você precisa ter esses recursos disponíveis e não pode se deslocar voluntariamente nesse turno, antes ou depois da conjuração. Sua Reação permanece disponível. Não combina com Parado, Rápido ou Reação. Uma Liberação Máxima já exige Ação Completa. Atrasar não lhe concede devolução adicional."
+        }
+      ],
+      "publicado": false
+    },
+    {
+      "id": "F32",
+      "combinacao": "Reação + Atrasar/Parado/Armado",
+      "r06": {
+        "estado": "consolidado_candidato",
+        "decisao": "Reação não combina com Rápido, Armado, Atrasar ou Parado.",
+        "tipo": "E"
+      },
+      "decisao_r07": "Reação não combina com Atrasar, Parado ou Armado.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Reação",
+          "linha": 312,
+          "evidencia": "Conjure com sua Reação quando ocorrer um gatilho perceptível, definido na criação. Resolva depois de o gatilho terminar, salvo regra expressa que permita intervir antes. Um gatilho de sofrer dano não evita o dano que já aconteceu. Cumpra alvo, alcance, visão, Selo e os outros requisitos nesse momento. Não combina com Rápido, Armado, Atrasar ou Parado, nem substitui a Ação Completa das aplicações máximas."
+        }
+      ],
+      "publicado": false
+    },
+    {
+      "id": "F33",
+      "combinacao": "Armado + Carregar",
+      "r06": {
+        "estado": "consolidado_candidato",
+        "decisao": "Armado e Carregar não se combinam.",
+        "tipo": "E"
+      },
+      "decisao_r07": "Armado e Carregar não se combinam.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Armado",
+          "linha": 318,
+          "evidencia": "No seu turno, gaste a ação, o PE e os demais custos da ficha e cumpra seus requisitos de conjuração. Escolha um gatilho que você possa perceber, fora do seu próprio turno. O feitiço fica preparado até o fim da cena. Você só mantém um feitiço Armado por vez. Na primeira ocorrência do gatilho que você perceber, resolva o feitiço depois dela, sem gastar Reação. Você precisa perceber o acontecimento e poder escolher alvos. Confira visão, al"
+        },
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Carregar",
+          "linha": 513,
+          "evidencia": "**Devolução: Média.** No primeiro turno, gaste **Ação Padrão** para iniciar a carga e pague o PE do feitiço. Você conserva Movimento e Bônus. No seu turno seguinte, use a ação de conjuração indicada na ficha para liberar o feitiço. Se não o liberar até o fim desse turno, perde a carga e o que pagou por ela. Enquanto carrega, cada ocorrência de dano exige um **TR Espírito contra a CD de quem o feriu**. Uma falha perde a carga e os recurs"
+        }
+      ],
+      "publicado": false
+    },
+    {
+      "id": "F34",
+      "combinacao": "Armado + Rápido",
+      "r06": {
+        "estado": "pendente_R07",
+        "decisao": null,
+        "tipo": "I"
+      },
+      "decisao_r07": "Armado com Rápido paga Bônus ao preparar; disparo resolve conjuração paga sem nova ação.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Armado",
+          "linha": 318,
+          "evidencia": "No seu turno, gaste a ação, o PE e os demais custos da ficha e cumpra seus requisitos de conjuração. Escolha um gatilho que você possa perceber, fora do seu próprio turno. O feitiço fica preparado até o fim da cena. Você só mantém um feitiço Armado por vez. Na primeira ocorrência do gatilho que você perceber, resolva o feitiço depois dela, sem gastar Reação. Você precisa perceber o acontecimento e poder escolher alvos. Confira visão, al"
+        },
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Rápido",
+          "linha": 308,
+          "evidencia": "Use Ação Bônus no lugar da Padrão. Não combina com Reação ou Atrasar, e não substitui a Ação Completa de uma Liberação Máxima ou Técnica Máxima. O limite de conjuração no turno permanece."
+        }
+      ],
+      "publicado": false,
+      "observacao": "Permitido por composição dos procedimentos; não há dispensa dos custos, dos requisitos nem do limite de conjuração no turno do preparo."
+    },
+    {
+      "id": "F35",
+      "combinacao": "Atrasar/Parado + Passo",
+      "r06": {
+        "estado": "sincronizacao_candidata_R07_pendente",
+        "decisao": "Atrasar/Parado impedem Passo. Ação Completa sem essas restrições não impede o deslocamento específico de Passo; não devolve Ação de Movimento.",
+        "tipo": "I"
+      },
+      "decisao_r07": "Passo não permite contornar Parado/Atrasar; Ação Completa sozinha não proíbe deslocamento específico.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Passo",
+          "linha": 56,
+          "evidencia": "**Preço: Leve.** Antes ou depois de resolver o feitiço, você pode se deslocar **até 6 m**, sem ataques de oportunidade e sem gastar outra Ação de Movimento. Escolha o momento ao usar. Terreno, limites e condições do seu movimento continuam valendo. Não concede voo, escalada nem teleporte. Ação Completa, sozinha, não impede esse deslocamento. **Atrasar e Parado impedem usar Passo no turno.**"
+        },
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Parado",
+          "linha": 501,
+          "evidencia": "**Devolução: Leve.** Você não pode ter se deslocado voluntariamente no turno da conjuração, nem fazê-lo depois dela nesse turno. Conserva sua Ação Bônus. Movimento imposto por outra criatura não impede o uso nem desfaz um feitiço já resolvido. Não combina com Atrasar ou com a Melhoria Reação. Também não devolve pontos quando outra exigência da própria aplicação já impede seu movimento durante todo o turno. Em conjurações adiadas, confir"
+        },
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Atrasar",
+          "linha": 495,
+          "evidencia": "**Devolução: Média.** A conjuração exige **Ação Completa**: compromete sua Ação Padrão, sua Ação Bônus e sua Ação de Movimento daquele turno. Você precisa ter esses recursos disponíveis e não pode se deslocar voluntariamente nesse turno, antes ou depois da conjuração. Sua Reação permanece disponível. Não combina com Parado, Rápido ou Reação. Uma Liberação Máxima já exige Ação Completa. Atrasar não lhe concede devolução adicional."
+        }
+      ],
+      "publicado": false
+    },
+    {
+      "id": "F36",
+      "combinacao": "Silencioso + Gesto",
+      "r06": {
+        "estado": "consolidado_candidato",
+        "decisao": "Silencioso não pode eliminar exigências de Gesto e conservar sua devolução.",
+        "tipo": "I"
+      },
+      "decisao_r07": "Silencioso não elimina Gesto mantendo devolução.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Silencioso",
+          "linha": 331,
+          "evidencia": "A conjuração dispensa gesto e palavra. O uso não revela automaticamente sua posição, e perceber o efeito não localiza sua origem. Isso não torna invisível um corpo exposto nem impede uma busca independente. Dispensa o Selo de gesto ou som. Requisitos de condição, como enxergar o alvo, continuam. Não cancela uma Restrição mantendo sua devolução: Gesto e Barulho conservam suas exigências quando presentes na ficha."
+        },
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Gesto",
+          "linha": 507,
+          "evidencia": "**Devolução: Leve.** A conjuração exige **as duas mãos livres e fala audível**. Se não puder cumprir as duas partes, não pode usar o feitiço. Um Selo que exige um gesto simples com uma mão ainda pode receber essa exigência adicional. Se o Selo já exige as duas mãos livres e a fala, não há devolução. Silencioso não pode retirar essas exigências mantendo os pontos de Gesto."
+        }
+      ],
+      "publicado": false
+    },
+    {
+      "id": "F37",
+      "combinacao": "Silencioso + Barulho",
+      "r06": {
+        "estado": "consolidado_candidato",
+        "decisao": "Silencioso pode coexistir com Barulho; o Barulho exigido continua revelando a origem.",
+        "tipo": "I"
+      },
+      "decisao_r07": "Silencioso convive com Barulho, mas o ruído de90m e revelação continuam.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Silencioso",
+          "linha": 331,
+          "evidencia": "A conjuração dispensa gesto e palavra. O uso não revela automaticamente sua posição, e perceber o efeito não localiza sua origem. Isso não torna invisível um corpo exposto nem impede uma busca independente. Dispensa o Selo de gesto ou som. Requisitos de condição, como enxergar o alvo, continuam. Não cancela uma Restrição mantendo sua devolução: Gesto e Barulho conservam suas exigências quando presentes na ficha."
+        },
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Barulho",
+          "linha": 592,
+          "evidencia": "**Devolução: Leve.** Ao conjurar, você produz um som que pode ser ouvido **a até 90 m** e denuncia de onde veio. Quem puder ouvi-lo identifica a origem. A Restrição não concede audição a uma criatura surda nem faz o som atravessar um bloqueio que o impeça por completo. Uma fala audível nas proximidades, como a de Gesto, não equivale automaticamente a esse alcance. Se seu Selo ou o próprio efeito já produz esse mesmo aviso a 90 m, Barulh"
+        }
+      ],
+      "publicado": false
+    },
+    {
+      "id": "F38",
+      "combinacao": "Concentrada + Duradoura",
+      "r06": {
+        "estado": "pendente_R07",
+        "decisao": null,
+        "tipo": "I"
+      },
+      "decisao_r07": "Concentrada e Duradoura não se combinam na mesma ficha; escolha um procedimento único.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Concentrada",
+          "linha": 347,
+          "evidencia": "Amplie efeitos de estado que normalmente durariam uma rodada ou até o fim do próximo turno. Concentrada exige concentração; Duradoura usa a coluna sem concentração. Se a ficha reunir estados de categorias diferentes, todos usam o menor prazo aplicável. Escolha Concentrada ou Duradoura para a ficha, nunca as duas. | Efeito prolongado | Concentrada | Duradoura | |---|---|---| | Condição, benefício ofensivo ou penalidade. | 1 minuto. | 1 m"
+        }
+      ],
+      "publicado": false,
+      "observacao": "Incorporado: escolha Concentrada ou Duradoura para a ficha, nunca ambas."
+    },
+    {
+      "id": "F39",
+      "combinacao": "Concentrada/Duradoura + dano instantâneo",
+      "r06": {
+        "estado": "pendente_R07",
+        "decisao": null,
+        "tipo": "E"
+      },
+      "decisao_r07": "Concentrada/Duradoura só prolongam estados compatíveis e não repetem dano instantâneo.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Concentrada",
+          "linha": 347,
+          "evidencia": "Amplie efeitos de estado que normalmente durariam uma rodada ou até o fim do próximo turno. Concentrada exige concentração; Duradoura usa a coluna sem concentração. Se a ficha reunir estados de categorias diferentes, todos usam o menor prazo aplicável. Escolha Concentrada ou Duradoura para a ficha, nunca as duas. | Efeito prolongado | Concentrada | Duradoura | |---|---|---| | Condição, benefício ofensivo ou penalidade. | 1 minuto. | 1 m"
+        }
+      ],
+      "publicado": false
+    },
+    {
+      "id": "F40",
+      "combinacao": "Concentrada/Duradoura + Fica/Anteparo",
+      "r06": {
+        "estado": "pendente_R07",
+        "decisao": null,
+        "tipo": "E"
+      },
+      "decisao_r07": "Concentrada/Duradoura não prolongam Fica/Anteparo, que têm prazos próprios.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Concentrada",
+          "linha": 347,
+          "evidencia": "Amplie efeitos de estado que normalmente durariam uma rodada ou até o fim do próximo turno. Concentrada exige concentração; Duradoura usa a coluna sem concentração. Se a ficha reunir estados de categorias diferentes, todos usam o menor prazo aplicável. Escolha Concentrada ou Duradoura para a ficha, nunca as duas. | Efeito prolongado | Concentrada | Duradoura | |---|---|---| | Condição, benefício ofensivo ou penalidade. | 1 minuto. | 1 m"
+        },
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Fica",
+          "linha": 96,
+          "evidencia": "**Preço: Média.** Mantém a área **na rodada da conjuração e nas cinco seguintes**, com concentração, até o fim da última. A aplicação inicial resolve normalmente. Depois, entrar na área ou começar o turno nela resolve metade dos dados iniciais, para baixo, pelo ataque ou TR da ficha. **Uma resolução por criatura por rodada**, incluindo a inicial, mesmo se o ataque errar ou o TR evitar o dano. Use os dados anteriores ao crítico. Se Acúmu"
+        },
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Anteparo",
+          "linha": 180,
+          "evidencia": "**Preço: Média.** Cria uma **barreira fixa**, num ponto válido ao alcance do feitiço, com **10 × Classe PV** e duração de **1 minuto**. Seus painéis de 1,5 m usam a quantidade de quadrados da Linha básica da Classe, distribuídos numa superfície vertical contínua. Cada painel compartilha um lado com outro e a altura mínima é **3 m**. Registre o formato. Coloque-a em espaços livres, sem atravessar criaturas nem empurrá-las. Ela impede pas"
+        }
+      ],
+      "publicado": false
+    },
+    {
+      "id": "F41",
+      "combinacao": "Frágil + efeito instantâneo",
+      "r06": {
+        "estado": "consolidado_candidato",
+        "decisao": "Frágil não se aplica a um efeito instantâneo.",
+        "tipo": "E"
+      },
+      "decisao_r07": "Frágil não dá pontos em efeito totalmente instantâneo, sem duração a perder.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Frágil",
+          "linha": 544,
+          "evidencia": "**Devolução: Leve.** Se você sofrer dano **antes do começo do seu próximo turno**, o efeito que este feitiço mantém termina imediatamente. Só cabe em uma aplicação que deixe um efeito em andamento. Não há teste para impedir esse encerramento. Frágil não é Concentração e Mão Firme não o protege. Encerrar o efeito não desfaz dano ou deslocamento que já tenha ocorrido. Num feitiço inteiramente instantâneo, não há efeito futuro a perder nem"
+        }
+      ],
+      "publicado": false
+    },
+    {
+      "id": "F42",
+      "combinacao": "Atrasar + Parado",
+      "r06": {
+        "estado": "consolidado_candidato",
+        "decisao": "Atrasar já impede deslocamento; não combinar com devolução adicional de Parado.",
+        "tipo": "E/I"
+      },
+      "decisao_r07": "Atrasar não combina com Parado nem duplica sua devolução.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Atrasar",
+          "linha": 495,
+          "evidencia": "**Devolução: Média.** A conjuração exige **Ação Completa**: compromete sua Ação Padrão, sua Ação Bônus e sua Ação de Movimento daquele turno. Você precisa ter esses recursos disponíveis e não pode se deslocar voluntariamente nesse turno, antes ou depois da conjuração. Sua Reação permanece disponível. Não combina com Parado, Rápido ou Reação. Uma Liberação Máxima já exige Ação Completa. Atrasar não lhe concede devolução adicional."
+        },
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Parado",
+          "linha": 501,
+          "evidencia": "**Devolução: Leve.** Você não pode ter se deslocado voluntariamente no turno da conjuração, nem fazê-lo depois dela nesse turno. Conserva sua Ação Bônus. Movimento imposto por outra criatura não impede o uso nem desfaz um feitiço já resolvido. Não combina com Atrasar ou com a Melhoria Reação. Também não devolve pontos quando outra exigência da própria aplicação já impede seu movimento durante todo o turno. Em conjurações adiadas, confir"
+        }
+      ],
+      "publicado": false
+    },
+    {
+      "id": "F43",
+      "combinacao": "Duas de Uma Vez/Condicional/Aquecer/Dívida (ou Própria equivalente)",
+      "r06": {
+        "estado": "consolidado_candidato",
+        "decisao": "No máximo uma de Uma Vez/Condicional/Aquecer/Dívida ou equivalente própria.",
+        "tipo": "E"
+      },
+      "decisao_r07": "No máximo uma de Uma Vez/Condicional/Aquecer/Dívida ou própria equivalente.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Condições de uso",
+          "linha": 557,
+          "evidencia": "**Uma Vez, Condicional, Aquecer e Dívida** pertencem ao grupo de frequência. Escolha no máximo uma delas por feitiço, incluindo uma Restrição Própria equivalente."
+        },
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Restrição Própria",
+          "linha": 604,
+          "evidencia": "**Devolução: Leve ou Média.** Escreva com o mestre uma dificuldade que as outras entradas não representem. Ela vale para o feitiço em que foi criada, ocupa uma das duas Restrições e precisa estar definida **antes da sessão**. | Campo | O que definir | |---|---| | Exigência ou consequência | O que a criatura precisa fazer ou sofrer. | | Momento | Quando conferir a exigência ou aplicar o custo. | | Duração | Até quando a consequência perm"
+        }
+      ],
+      "publicado": false
+    },
+    {
+      "id": "F44",
+      "combinacao": "Restrição equivalente ao Selo/rota exigida",
+      "r06": {
+        "estado": "consolidado_candidato",
+        "decisao": "Exigência já imposta por Selo, Forma ou rota não oferece devolução repetida.",
+        "tipo": "E/I"
+      },
+      "decisao_r07": "Exigência já obrigatória de Selo/Forma/rota não devolve outra vez; Gesto e Barulho têm exemplos.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Restrições de conjuração",
+          "linha": 485,
+          "evidencia": "As devoluções abaixo usam o preço **Leve ou Médio da Classe do feitiço**. O limite de duas Restrições, o teto da devolução e os requisitos de Selo seguem **Restrições**, no capítulo Fundamento. Uma exigência que já fazia parte do feitiço não devolve pontos outra vez."
+        },
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Gesto",
+          "linha": 507,
+          "evidencia": "**Devolução: Leve.** A conjuração exige **as duas mãos livres e fala audível**. Se não puder cumprir as duas partes, não pode usar o feitiço. Um Selo que exige um gesto simples com uma mão ainda pode receber essa exigência adicional. Se o Selo já exige as duas mãos livres e a fala, não há devolução. Silencioso não pode retirar essas exigências mantendo os pontos de Gesto."
+        },
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Barulho",
+          "linha": 592,
+          "evidencia": "**Devolução: Leve.** Ao conjurar, você produz um som que pode ser ouvido **a até 90 m** e denuncia de onde veio. Quem puder ouvi-lo identifica a origem. A Restrição não concede audição a uma criatura surda nem faz o som atravessar um bloqueio que o impeça por completo. Uma fala audível nas proximidades, como a de Gesto, não equivale automaticamente a esse alcance. Se seu Selo ou o próprio efeito já produz esse mesmo aviso a 90 m, Barulh"
+        },
+        {
+          "arquivo": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md",
+          "titulo": "Escolha uma dificuldade real",
+          "linha": 356,
+          "evidencia": "| Exemplo | Exigência | Devolução | |---|---|---| | Parado | Não se deslocar no turno da conjuração. | Leve. | | Atrasar | Usar Ação Completa, comprometendo o turno inteiro. | Média. | | Gesto | Duas mãos livres e voz audível. | Leve. | | Sangra | Sofrer 2 × Classe de dano irredutível. | Média. | | Tudo ou Nada | Quem passa no TR evita todo o dano. | Leve. | | Uma Vez | Usar o feitiço uma vez por cena. | Leve. | O catálogo traz as demai"
+        }
+      ],
+      "publicado": false
+    },
+    {
+      "id": "F45",
+      "combinacao": "Remate + Aquecer/Condicional de vida ou duração",
+      "r06": {
+        "estado": "pendente_R07",
+        "decisao": null,
+        "tipo": "E"
+      },
+      "decisao_r07": "Remate não combina com Aquecer nem Condicional ligada a vida/duração.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Remate",
+          "linha": 279,
+          "evidencia": "Aumente em 25% o dano inicial deste uso contra uma criatura que esteja **abaixo da metade da vida**, conferida antes da parcela de dano. O multiplicador entra antes das defesas. Um tiro de Rajada que leve o alvo abaixo da metade pode habilitar os tiros seguintes. Queima, Fica, Salto e Estilhaço não reaplicam este multiplicador. Não combina com Condicional ligada à vida do alvo ou à duração, nem com Aquecer. Na montagem, conte seu multip"
+        }
+      ],
+      "publicado": false
+    },
+    {
+      "id": "F46",
+      "combinacao": "Sem Volta + cura/apoio inteiramente automático",
+      "r06": {
+        "estado": "pendente_R07",
+        "decisao": null,
+        "tipo": "I"
+      },
+      "decisao_r07": "Sem Volta não devolve quando a resolução é automática ou não pode falhar completamente.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Sem Volta",
+          "linha": 550,
+          "evidencia": "**Devolução: Média.** Se a resolução do feitiço terminar sem acertar nem afetar nenhum alvo, você **não pode conjurar no seu próximo turno**, nem mesmo Classe 0. Basta um ataque acertar. Numa aplicação por TR, basta um alvo sofrer um dos efeitos. Não cabe numa aplicação automática nem quando um efeito garantido no erro ou no sucesso do TR impede a falha completa. Por exemplo, causar metade do dano a todos que resistem elimina esse risco"
+        }
+      ],
+      "publicado": false
+    },
+    {
+      "id": "F47",
+      "combinacao": "Liberação + Atrasar/Parado",
+      "r06": {
+        "estado": "consolidado_candidato",
+        "decisao": "Atrasar e Parado não devolvem pontos em Liberação Máxima; substituir exemplos históricos que devolviam.",
+        "tipo": "M"
+      },
+      "decisao_r07": "Liberação já exige Completa; Atrasar/Parado não dão devolução por custo já cobrado.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Atrasar",
+          "linha": 495,
+          "evidencia": "**Devolução: Média.** A conjuração exige **Ação Completa**: compromete sua Ação Padrão, sua Ação Bônus e sua Ação de Movimento daquele turno. Você precisa ter esses recursos disponíveis e não pode se deslocar voluntariamente nesse turno, antes ou depois da conjuração. Sua Reação permanece disponível. Não combina com Parado, Rápido ou Reação. Uma Liberação Máxima já exige Ação Completa. Atrasar não lhe concede devolução adicional."
+        },
+        {
+          "arquivo": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md",
+          "titulo": "Liberação Máxima",
+          "linha": 676,
+          "evidencia": "Uma **Liberação Máxima** concentra mais dano num feitiço preparado. Você recebe uma no nível **10**, outra no **20** e outra no **30**. Elas não ocupam espaços de feitiços conhecidos. Monte a Liberação antes da sessão, em Classe 3 ou maior, dentro da Classe máxima do personagem. Use o procedimento comum e acrescente **+Classe em d8** ao dano da montagem. Ela não serve para cura."
+        }
+      ],
+      "publicado": false
+    },
+    {
+      "id": "F48",
+      "combinacao": "Liberação + Rápido/Reação",
+      "r06": {
+        "estado": "consolidado_candidato",
+        "decisao": "Rápido/Reação não substituem a Ação Completa da Liberação.",
+        "tipo": "I/M"
+      },
+      "decisao_r07": "Rápido/Reação não substituem Completa da Liberação.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Rápido",
+          "linha": 308,
+          "evidencia": "Use Ação Bônus no lugar da Padrão. Não combina com Reação ou Atrasar, e não substitui a Ação Completa de uma Liberação Máxima ou Técnica Máxima. O limite de conjuração no turno permanece."
+        },
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Reação",
+          "linha": 312,
+          "evidencia": "Conjure com sua Reação quando ocorrer um gatilho perceptível, definido na criação. Resolva depois de o gatilho terminar, salvo regra expressa que permita intervir antes. Um gatilho de sofrer dano não evita o dano que já aconteceu. Cumpra alvo, alcance, visão, Selo e os outros requisitos nesse momento. Não combina com Rápido, Armado, Atrasar ou Parado, nem substitui a Ação Completa das aplicações máximas."
+        },
+        {
+          "arquivo": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md",
+          "titulo": "Liberação Máxima",
+          "linha": 676,
+          "evidencia": "Uma **Liberação Máxima** concentra mais dano num feitiço preparado. Você recebe uma no nível **10**, outra no **20** e outra no **30**. Elas não ocupam espaços de feitiços conhecidos. Monte a Liberação antes da sessão, em Classe 3 ou maior, dentro da Classe máxima do personagem. Use o procedimento comum e acrescente **+Classe em d8** ao dano da montagem. Ela não serve para cura."
+        }
+      ],
+      "publicado": false
+    },
+    {
+      "id": "F49",
+      "combinacao": "Liberação + Toca a Alma",
+      "r06": {
+        "estado": "pendente_R07",
+        "decisao": null,
+        "tipo": "E"
+      },
+      "decisao_r07": "Toca a Alma não combina com Liberação.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Toca a Alma",
+          "linha": 150,
+          "evidencia": "**Preço: Leve.** Requer **Classe 3 ou superior** e Fundamento cuja Regra trate diretamente da alma. Troque os dados de dano do feitiço por dano de Alma e reduza sua quantidade à metade, para baixo. Aplique depois **Dano na alma**, inclusive suas defesas e Integridade. Não combina com Liberação Máxima. Na Técnica Máxima, conserva a redução e os requisitos."
+        }
+      ],
+      "publicado": false
+    },
+    {
+      "id": "F50",
+      "combinacao": "Liberação + Cura/Onda de cura",
+      "r06": {
+        "estado": "pendente_R07",
+        "decisao": null,
+        "tipo": "E"
+      },
+      "decisao_r07": "Liberação acrescenta dados somente ao dano e não serve para cura, inclusive Onda de cura.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md",
+          "titulo": "Liberação Máxima",
+          "linha": 676,
+          "evidencia": "Uma **Liberação Máxima** concentra mais dano num feitiço preparado. Você recebe uma no nível **10**, outra no **20** e outra no **30**. Elas não ocupam espaços de feitiços conhecidos. Monte a Liberação antes da sessão, em Classe 3 ou maior, dentro da Classe máxima do personagem. Use o procedimento comum e acrescente **+Classe em d8** ao dano da montagem. Ela não serve para cura."
+        }
+      ],
+      "publicado": false,
+      "observacao": "Regra central R06 continua normativa; não é necessário copiá-la em todas as peças."
+    },
+    {
+      "id": "F51",
+      "combinacao": "Liberação + Sem Volta, quando escolher Vazio",
+      "r06": {
+        "estado": "pendente_R07",
+        "decisao": null,
+        "tipo": "I/M"
+      },
+      "decisao_r07": "Liberação Máxima com Sem Volta não pode escolher Vazio; Sangue e Peso continuam disponíveis.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Sem Volta",
+          "linha": 550,
+          "evidencia": "**Devolução: Média.** Se a resolução do feitiço terminar sem acertar nem afetar nenhum alvo, você **não pode conjurar no seu próximo turno**, nem mesmo Classe 0. Basta um ataque acertar. Numa aplicação por TR, basta um alvo sofrer um dos efeitos. Não cabe numa aplicação automática nem quando um efeito garantido no erro ou no sucesso do TR impede a falha completa. Por exemplo, causar metade do dano a todos que resistem elimina esse risco"
+        },
+        {
+          "arquivo": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md",
+          "titulo": "Liberação Máxima",
+          "linha": 676,
+          "evidencia": "Uma **Liberação Máxima** concentra mais dano num feitiço preparado. Você recebe uma no nível **10**, outra no **20** e outra no **30**. Elas não ocupam espaços de feitiços conhecidos. Monte a Liberação antes da sessão, em Classe 3 ou maior, dentro da Classe máxima do personagem. Use o procedimento comum e acrescente **+Classe em d8** ao dano da montagem. Ela não serve para cura."
+        },
+        {
+          "arquivo": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md",
+          "titulo": "Escolha uma dificuldade real",
+          "linha": 356,
+          "evidencia": "| Exemplo | Exigência | Devolução | |---|---|---| | Parado | Não se deslocar no turno da conjuração. | Leve. | | Atrasar | Usar Ação Completa, comprometendo o turno inteiro. | Média. | | Gesto | Duas mãos livres e voz audível. | Leve. | | Sangra | Sofrer 2 × Classe de dano irredutível. | Média. | | Tudo ou Nada | Quem passa no TR evita todo o dano. | Leve. | | Uma Vez | Usar o feitiço uma vez por cena. | Leve. | O catálogo traz as demai"
+        }
+      ],
+      "publicado": false,
+      "observacao": "Incorporado em Sem Volta: Liberação escolhe Sangue/Peso; Vazio não é opção nessa combinação."
+    },
+    {
+      "id": "F52",
+      "combinacao": "Recuo + Limpa sobre o próprio conjurador",
+      "r06": {
+        "estado": "pendente_R07",
+        "decisao": null,
+        "tipo": "I"
+      },
+      "decisao_r07": "Recuo não ganha devolução se a própria montagem remove sempre a condição que pagou os pontos.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Recuo",
+          "linha": 528,
+          "evidencia": "**Devolução: Leve ou Média.** Escolha uma condição na montagem. Ao conjurar, você recebe essa condição até o fim do seu próximo turno, mesmo se o feitiço não afetar ninguém. A devolução tem a gravidade da condição escolhida. Condições Pesadas não entram. Use as condições de **Dano e condições**. A escolha precisa prejudicar o personagem: uma imunidade que impeça a condição elimina a possibilidade de receber pontos por ela. Não some outr"
+        },
+        {
+          "arquivo": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md",
+          "titulo": "Combinações",
+          "linha": 369,
+          "evidencia": "Uma Vez, Condicional, Aquecer, Dívida e Restrições próprias equivalentes pertencem ao mesmo grupo de frequência. Escolha no máximo uma desse grupo. Não some duas devoluções pelo mesmo impedimento. Atrasar já impede o deslocamento e não se combina com Parado. Uma Liberação Máxima já exige Ação Completa: Atrasar e Parado não lhe devolvem pontos. Uma Melhoria também não pode cancelar a dificuldade que pagou por ela. Silencioso não elimina "
+        }
+      ],
+      "publicado": false,
+      "observacao": "Aplicação direta do princípio que Melhoria não cancela dificuldade paga; não proíbe socorro posterior independente."
+    },
+    {
+      "id": "F53",
+      "combinacao": "Efeito Próprio repetindo função fechada ou aumento de dano conhecido",
+      "r06": {
+        "estado": "consolidado_candidato",
+        "decisao": "Efeito Próprio não copia Família Fechada, não reúne benefícios sem pagar e não renomeia peça existente para evitá-la.",
+        "tipo": "I"
+      },
+      "decisao_r07": "Efeito Próprio não copia Família Fechada, nem renomeia peça, nem reúne benefícios sem pagar.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Efeito Próprio",
+          "linha": 463,
+          "evidencia": "**Preço: definido com o mestre, antes da sessão.** Esta Melhoria cria uma capacidade que não existe no catálogo. Você pode ter **um Efeito Próprio por ficha**, contando no limite de Melhorias da Classe. Procure uma entrada que já faça o que você quer. Movimentar-se junto da conjuração, por exemplo, pode ser resolvido por Passo. Mudar a aparência desse movimento não exige comprar uma segunda capacidade."
+        },
+        {
+          "arquivo": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md",
+          "titulo": "Efeitos próprios",
+          "linha": 644,
+          "evidencia": "Quando o catálogo não contém a mecânica que você imaginou, proponha um **Efeito Próprio** ao mestre, antes da sessão. Ele conta como uma Melhoria, com preço definido na criação. Há no máximo um por feitiço."
+        },
+        {
+          "arquivo": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md",
+          "titulo": "Preço e comparação",
+          "linha": 661,
+          "evidencia": "Procure primeiro a peça que mais se aproxima. Se já existe uma Melhoria que entrega o resultado, use seu preço e suas limitações. Um nome original não muda essa conta. Um efeito realmente novo não recebe desconto de Família Livre. Ele também não pode reproduzir o que uma Família Fechada impediria. Se reunir benefícios independentes, separe e pague as partes: chamar de uma única habilidade não reduz o limite de Melhorias. Compare uma sit"
+        },
+        {
+          "arquivo": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md",
+          "titulo": "Semelhança de descrição",
+          "linha": 407,
+          "evidencia": "Se uma proposta faz exatamente o que uma peça já faz, use a peça existente. Um Efeito Próprio permite escrever uma mecânica ausente do catálogo; não permite copiar uma Família Fechada ou reunir efeitos com desconto. > **Corrigindo uma ideia.** Mei quer golpear com um fio comprido e havia escolhido Toque + Longe. Ela troca para Projétil: os 18 m já atendem à ideia. Perde a devolução de Corpo a Corpo, refaz a conta e mantém a descrição do"
+        }
+      ],
+      "publicado": false
+    },
+    {
+      "id": "F54",
+      "combinacao": "Efeito/uso fora de iniciativa + condição ou informação hostil",
+      "r06": {
+        "estado": "consolidado_candidato",
+        "decisao": "Estar fora de iniciativa não torna oposição automática nem permite Uso Livre conceder mecânica, informação hostil ou condição gratuitamente.",
+        "tipo": "M"
+      },
+      "decisao_r07": "Estar fora de iniciativa não torna oposição automática; Uso Livre não cria informação protegida ou vantagem mecânica gratuita.",
+      "estado_r07": "consolidado_candidato",
+      "ancoras": [
+        {
+          "arquivo": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md",
+          "titulo": "Uso Livre",
+          "linha": 520,
+          "evidencia": "Pequenas manifestações da técnica podem acontecer sem preparar um feitiço ou gastar PE. Elas precisam caber na Regra e não podem conceder o resultado de uma regra mecânica sem pagar por ele."
+        },
+        {
+          "arquivo": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md",
+          "titulo": "Efeitos fora de combate",
+          "linha": 552,
+          "evidencia": "A Forma **Efeito** prepara uma alteração de cena sem dano: manter uma sala iluminada, transmitir um aviso ou mudar a aparência de um lugar. A aplicação precisa caber no Fundamento e ter sua extensão e duração escritas antes da sessão. | Classe | Abrangência de referência | Duração máxima de referência | |---|---|---| | 0 | Um objeto pequeno, manipulável com as mãos. | Até ser desfeito. | | 1 | Uma pessoa disposta, objeto pequeno ou cômo"
+        },
+        {
+          "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+          "titulo": "Passiva Própria",
+          "linha": 771,
+          "evidencia": "**Classe Passiva 1, 2 ou 3. Custos e níveis da Classe escolhida.** Se o catálogo não representar a ideia, escreva o efeito com o mestre antes da sessão. Ele ocupa os espaços correspondentes e conta no máximo de cinco Passivas pagas."
+        }
+      ],
+      "publicado": false
+    }
+  ],
+  "numeros_e_conflitos_especificos": [
+    {
+      "id": "N23",
+      "linhas": [
+        "F23",
+        "F25"
+      ],
+      "tema": "Rajada e condição por ataque inicial",
+      "conta": {
+        "classe": 5,
+        "orcamento": 15,
+        "condicao_pesada_neutra": 8,
+        "rajada_neutra": 3,
+        "dados_restantes": 4,
+        "tiros_efetivos": 4,
+        "chance_por_tiro": 0.5,
+        "chance_ao_menos_um": 0.9375,
+        "dano_esperado_sem_critico": 9.0,
+        "sem_rajada_dados": 7,
+        "sem_rajada_chance": 0.5,
+        "sem_rajada_dano_esperado_sem_critico": 15.75
+      },
+      "interpretacao": "Chance de aplicar condição sobe50%→93,75%, dano esperado cai15,75→9. Aritmética não é playtest; manter saída da condição e não empilhar o mesmo estado no alvo."
+    },
+    {
+      "id": "N24",
+      "linhas": [
+        "F24"
+      ],
+      "tema": "Divisão dos dados antes do secundário",
+      "conta": {
+        "pool_rajada": 12,
+        "tiros": 3,
+        "dados_por_tiro": 4,
+        "queima_por_acerto": 2,
+        "estilhaco_origem_unica": 2,
+        "erro_se_copiar_metade_pool_por_tiro": 6
+      },
+      "interpretacao": "Metade pertence à parcela de origem, não ao total da ficha. Queima soma apenas aplicações válidas; Estilhaço/Salto têm uma origem por conjuração."
+    },
+    {
+      "id": "N28",
+      "linhas": [
+        "F27",
+        "F28",
+        "F29"
+      ],
+      "tema": "Junto não multiplica benefício indivisível",
+      "conta": {
+        "pool_pvtemporario": 9,
+        "distribuicao": [
+          6,
+          3
+        ],
+        "guarda_destinatarios": 1
+      },
+      "interpretacao": "Cada peça indivisível recebe um destinatário, escolhidos antes da resolução. Onda tem operação de área própria."
+    },
+    {
+      "id": "N38",
+      "linhas": [
+        "F38",
+        "F39",
+        "F40"
+      ],
+      "tema": "Duração sob relógio6s",
+      "conta": {
+        "um_minuto_rodadas": 10,
+        "dez_minutos_rodadas": 100,
+        "Fica_janelas": 6
+      },
+      "interpretacao": "Fica conserva seis janelas. O catálogo agora proíbe expressamente Concentrada e Duradoura na mesma ficha; não somar suas colunas. Outros prazos próprios de um minuto continuam dez rodadas."
+    },
+    {
+      "id": "N51",
+      "linhas": [
+        "F47",
+        "F51",
+        "F52"
+      ],
+      "tema": "Devolução por dificuldade duplicada",
+      "conta": {
+        "classe3_devolucao_Atrasar_ou_SemVolta_Media": 3,
+        "dados_indevidos_se_creditar_duas_vezes": 3,
+        "media_dano_extra_indevida": 13.5
+      },
+      "interpretacao": "Uma devolução indevida de preço Médio na Classe3 libera3d8; checagem de dificuldade não é apenas estilo de texto."
+    }
+  ],
+  "pendencias_externas": [
+    {
+      "tema": "Morrendo e Integridade",
+      "status": "revisão global posterior",
+      "efeito_nesta_matriz": "Não inventa novo procedimento de morte; Levanta/Remenda permanecem dependentes dos donos de recuperação. Não bloqueia os fechamentos de combinação aqui declarados."
+    },
+    {
+      "tema": "Integração publicada e catálogo espelhado",
+      "status": "não aplicado",
+      "efeito_nesta_matriz": "Todos os54registros são candidatos; aplicar em Invocações preservando preços/parâmetros próprios e atualizar contrato de Máxima para Armado/Segura."
+    }
+  ],
+  "limites": [
+    "Rastreabilidade não equivale a teste de mesa; as âncoras são de manuscritos temporários e R06, com hashes do momento da leitura.",
+    "Nenhum arquivo R06 foi modificado.",
+    "F38/F51 incorporados e reconferidos no catálogo consolidado. F26 permanece como interface com Condições R03, sem criação fictícia de benefícios e sem bloquear o catálogo existente."
+  ],
+  "manuscrito_consolidado_sha256": "682b239b4f582912d47b0c8cb14f0df70592f8b5c631f01240f0c4d853c8471e"
+}

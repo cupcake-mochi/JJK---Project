@@ -1,0 +1,4329 @@
+{
+  "data_utc": "2026-10-04T01:24:07.643057+00:00",
+  "escopo": "Auditoria leve de metadados dos23donos de ORDEM.json; valida presença V01–V15, hashes do texto/PDF e índice crítico do manifesto. Não relê regras, não executa testes novamente e não altera documentos de outros donos.",
+  "sha256_ordem": "02ad73793f3db9805ba980c68926d3a8ebb175ce1d2f685b94087e24c91c3daf",
+  "fontes": 23,
+  "decisoes_registradas": 772,
+  "donos_com_registro_contavel": 22,
+  "checks_registrados": 4076,
+  "unidades": [
+    {
+      "id": "ab",
+      "arquivo": "abertura/lote-01/ABERTURA-E-CRIACAO.md",
+      "sha256_texto": "8c0e790f36fdffca4b5c148b7bcdfc2376a7bdcf65b2c5867c7a126c8ac1f887",
+      "sha256_pdf": "010071601ddd59860a113451b3ed7831c0234db4edec58f3fcd0e8b6cdbb553f",
+      "paginas": 13,
+      "validadores_presentes": 15,
+      "conferencia_checks": 110,
+      "conferencia_ok": true,
+      "decisoes": 23,
+      "resumo_decisoes": [
+        {
+          "id": "AB-01",
+          "tema": "Apresentação de RPG, mundo, criação e depois cena.",
+          "tipo": "editorial ou reconciliação candidata"
+        },
+        {
+          "id": "AB-02",
+          "tema": "Papéis, exemplo da porta e materiais.",
+          "tipo": "editorial ou reconciliação candidata"
+        },
+        {
+          "id": "AB-03",
+          "tema": "Uma definição inicial e remissões de registro.",
+          "tipo": "editorial ou reconciliação candidata"
+        },
+        {
+          "id": "AB-04",
+          "tema": "Possibilidades remetem às Origens.",
+          "tipo": "editorial ou reconciliação candidata"
+        },
+        {
+          "id": "AB-05",
+          "tema": "Duas seções com fatos primários verificados.",
+          "tipo": "editorial ou reconciliação candidata"
+        },
+        {
+          "id": "AB-06",
+          "tema": "Exemplo guiado explicitamente parcial.",
+          "tipo": "editorial ou reconciliação candidata"
+        },
+        {
+          "id": "AB-07",
+          "tema": "Marcas de balança visuais nas palmas.",
+          "tipo": "editorial ou reconciliação candidata"
+        },
+        {
+          "id": "AB-08",
+          "tema": "Quadro parcial, sem inventar cinco feitiços na abertura.",
+          "tipo": "editorial ou reconciliação candidata"
+        },
+        {
+          "id": "AB-09",
+          "tema": "Dois Ofícios da Origem,9+2ou10+0treinos.",
+          "tipo": "editorial ou reconciliação candidata"
+        },
+        {
+          "id": "AB-10",
+          "tema": "Escolha explícita antes de acerto e CD.",
+          "tipo": "editorial ou reconciliação candidata"
+        },
+        {
+          "id": "AB-11",
+          "tema": "Três espaços e doisClasse0 no nível2.",
+          "tipo": "editorial ou reconciliação candidata"
+        },
+        {
+          "id": "AB-12",
+          "tema": "Tabela com destinos Manejos/Katas/Fundamento.",
+          "tipo": "editorial ou reconciliação candidata"
+        },
+        {
+          "id": "AB-13",
+          "tema": "Padrão nível2/Grau4,distinção expressa.",
+          "tipo": "editorial ou reconciliação candidata"
+        },
+        {
+          "id": "AB-14",
+          "tema": "d6=3,+2,total5.",
+          "tipo": "editorial ou reconciliação candidata"
+        },
+        {
+          "id": "AB-15",
+          "tema": "Alvo1,5m,porta3m,passagemlivre.",
+          "tipo": "editorial ou reconciliação candidata"
+        },
+        {
+          "id": "AB-16",
+          "tema": "3PE,Toque,3d8+Derrubado;3+1−1=3.",
+          "tipo": "editorial ou reconciliação candidata"
+        },
+        {
+          "id": "AB-17",
+          "tema": "Só aplicação própria e valores usados na cena.",
+          "tipo": "editorial ou reconciliação candidata"
+        },
+        {
+          "id": "AB-18",
+          "tema": "18PV/5PEconservados,retirada ainda necessária.",
+          "tipo": "editorial ou reconciliação candidata"
+        },
+        {
+          "id": "AB-19",
+          "tema": "Destinos curtos por tarefa.",
+          "tipo": "editorial ou reconciliação candidata"
+        },
+        {
+          "id": "AB-20",
+          "tema": "Evidências à parte.",
+          "tipo": "editorial ou reconciliação candidata"
+        },
+        {
+          "id": "AB-21",
+          "tema": "Só troca por espaço exige conceito;outrasformasremetem ao dono.",
+          "tipo": "editorial ou reconciliação candidata"
+        },
+        {
+          "id": "AB-22",
+          "tema": "Siglas expandidas na primeira ocorrência;treino com armas.",
+          "tipo": "editorial"
+        },
+        {
+          "id": "REM11",
+          "tema": "Durante a sessão, consulte Regras gerais para testes, movimento e ataques, Dano e recuperação para as consequências e Eq",
+          "tipo": "editorial"
+        }
+      ],
+      "achados": [
+        "VALIDADORES com hash de texto anterior",
+        "CONFERENCIA com texto anterior",
+        "CONFERENCIA com PDF anterior",
+        "MANIFESTO desatualizado/sem ABERTURA-E-CRIACAO.md",
+        "MANIFESTO desatualizado/sem output/pdf/Projeto-M-Abertura-e-Criacao-Proposta-01.pdf",
+        "MANIFESTO desatualizado/sem VALIDADORES.json"
+      ],
+      "estado": "pendência documental",
+      "gravacao_em_curso": false
+    },
+    {
+      "id": "geral",
+      "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+      "sha256_texto": "009036700319e1d3371ef84f6889539416bb0130d494dc40a316bebf08b1d18c",
+      "sha256_pdf": "04ba3959d13aa4b6f032a172ee5200d9c94f28748d127c2f9c3b16a9d75cea81",
+      "paginas": 40,
+      "validadores_presentes": 15,
+      "conferencia_checks": 314,
+      "conferencia_ok": true,
+      "decisoes": 38,
+      "resumo_decisoes": [
+        {
+          "id": "GER01",
+          "tema": "geral",
+          "tipo": "editorial"
+        },
+        {
+          "id": "GER02",
+          "tema": "geral",
+          "tipo": "localização"
+        },
+        {
+          "id": "GER03",
+          "tema": "bloquear",
+          "tipo": "preservação + análise"
+        },
+        {
+          "id": "GER04",
+          "tema": "critico",
+          "tipo": "esclarecimento"
+        },
+        {
+          "id": "GER05",
+          "tema": "bloquear",
+          "tipo": "mecânica / fechamento"
+        },
+        {
+          "id": "GER06",
+          "tema": "aparar",
+          "tipo": "preservação"
+        },
+        {
+          "id": "GER07",
+          "tema": "ajudar",
+          "tipo": "mecânica / fechamento"
+        },
+        {
+          "id": "GER08",
+          "tema": "ajudar",
+          "tipo": "mecânica / fechamento"
+        },
+        {
+          "id": "GER09",
+          "tema": "ajudar",
+          "tipo": "esclarecimento"
+        },
+        {
+          "id": "GER10",
+          "tema": "interacao",
+          "tipo": "mecânica / fechamento"
+        },
+        {
+          "id": "GER11",
+          "tema": "interacao",
+          "tipo": "mecânica / fechamento"
+        },
+        {
+          "id": "GER12",
+          "tema": "interacao",
+          "tipo": "mecânica / fechamento"
+        },
+        {
+          "id": "GER13",
+          "tema": "interacao",
+          "tipo": "reposição / esclarecimento"
+        },
+        {
+          "id": "GER14",
+          "tema": "turnos",
+          "tipo": "esclarecimento"
+        },
+        {
+          "id": "GER15",
+          "tema": "acoes",
+          "tipo": "localização"
+        },
+        {
+          "id": "GER16",
+          "tema": "oportunidade",
+          "tipo": "mecânica / fechamento"
+        },
+        {
+          "id": "GER17",
+          "tema": "oportunidade",
+          "tipo": "mecânica / fechamento"
+        },
+        {
+          "id": "GER18",
+          "tema": "concentracao",
+          "tipo": "mecânica / fechamento"
+        },
+        {
+          "id": "GER19",
+          "tema": "concentracao",
+          "tipo": "mecânica / fechamento"
+        },
+        {
+          "id": "GER20",
+          "tema": "alcance",
+          "tipo": "mecânica / fechamento"
+        },
+        {
+          "id": "GER21",
+          "tema": "espacos",
+          "tipo": "mecânica / fechamento"
+        },
+        {
+          "id": "GER22",
+          "tema": "distancias",
+          "tipo": "esclarecimento"
+        },
+        {
+          "id": "GER23",
+          "tema": "rastejar",
+          "tipo": "preservação"
+        },
+        {
+          "id": "GER24",
+          "tema": "voo",
+          "tipo": "mecânica / fechamento"
+        },
+        {
+          "id": "GER25",
+          "tema": "arrasto",
+          "tipo": "mecânica / fechamento"
+        },
+        {
+          "id": "GER26",
+          "tema": "arrasto",
+          "tipo": "mecânica / criação"
+        },
+        {
+          "id": "GER27",
+          "tema": "montaria",
+          "tipo": "mecânica / criação"
+        },
+        {
+          "id": "GER28",
+          "tema": "montaria",
+          "tipo": "mecânica / criação"
+        },
+        {
+          "id": "GER29",
+          "tema": "queda-criatura",
+          "tipo": "mecânica / criação"
+        },
+        {
+          "id": "GER30",
+          "tema": "mundo",
+          "tipo": "localização"
+        },
+        {
+          "id": "GER31",
+          "tema": "esconder",
+          "tipo": "preservação"
+        },
+        {
+          "id": "GER32",
+          "tema": "buscar",
+          "tipo": "preservação + localização"
+        },
+        {
+          "id": "GER33",
+          "tema": "manobras",
+          "tipo": "preservação + localização"
+        },
+        {
+          "id": "GER34",
+          "tema": "preparar",
+          "tipo": "preservação + localização"
+        },
+        {
+          "id": "GER35",
+          "tema": "testes",
+          "tipo": "esclarecimento"
+        },
+        {
+          "id": "GER36",
+          "tema": "defesa",
+          "tipo": "correção editorial de interface"
+        },
+        {
+          "id": "GER37",
+          "tema": "movimento",
+          "tipo": "correção editorial de interface"
+        },
+        {
+          "id": "GER38",
+          "tema": "ler",
+          "tipo": "correção editorial de interface"
+        }
+      ],
+      "achados": [],
+      "estado": "metadados coerentes nesta fotografia",
+      "gravacao_em_curso": false
+    },
+    {
+      "id": "dano",
+      "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+      "sha256_texto": "b4035a501c87ada84e73e5951cdf41639c850d644cfe4cb8812575d8a0bc1c43",
+      "sha256_pdf": "4c791840f00996685edc13c806c7b33a453c94679399763cb9ec495d33ddc753",
+      "paginas": 20,
+      "validadores_presentes": 15,
+      "conferencia_checks": 163,
+      "conferencia_ok": true,
+      "decisoes": 32,
+      "resumo_decisoes": [
+        {
+          "id": "DR01",
+          "tema": "Reduções próprias",
+          "tipo": "editorial"
+        },
+        {
+          "id": "DR02",
+          "tema": "Cura e corpos",
+          "tipo": "editorial"
+        },
+        {
+          "id": "DR03",
+          "tema": "Rastejar",
+          "tipo": "correcao"
+        },
+        {
+          "id": "DR04",
+          "tema": "Condição Incapacitado",
+          "tipo": "clareza"
+        },
+        {
+          "id": "DR05",
+          "tema": "Janela de queda",
+          "tipo": "mecanica"
+        },
+        {
+          "id": "DR06",
+          "tema": "Cura a zero",
+          "tipo": "mecanica"
+        },
+        {
+          "id": "DR07",
+          "tema": "Dano a zero",
+          "tipo": "mecanica"
+        },
+        {
+          "id": "DR08",
+          "tema": "Colapso de Insistir",
+          "tipo": "mecanica"
+        },
+        {
+          "id": "DR09",
+          "tema": "Custo de Insistir",
+          "tipo": "correcao"
+        },
+        {
+          "id": "DR10",
+          "tema": "Troca de escolha",
+          "tipo": "mecanica"
+        },
+        {
+          "id": "DR11",
+          "tema": "Estabilização",
+          "tipo": "mecanica"
+        },
+        {
+          "id": "DR12",
+          "tema": "Recuperação estável",
+          "tipo": "mecanica"
+        },
+        {
+          "id": "DR13",
+          "tema": "Derrota corporal e alma",
+          "tipo": "mecanica"
+        },
+        {
+          "id": "DR14",
+          "tema": "Mortalidade",
+          "tipo": "mudança de consequência e política mecânica"
+        },
+        {
+          "id": "DR15",
+          "tema": "Cicatrizes",
+          "tipo": "mecanica"
+        },
+        {
+          "id": "DR16",
+          "tema": "Integridade por falhas",
+          "tipo": "mecanica"
+        },
+        {
+          "id": "DR17",
+          "tema": "Recuperação de Integridade",
+          "tipo": "mecanica"
+        },
+        {
+          "id": "DR18",
+          "tema": "Zero de Integridade",
+          "tipo": "mecanica"
+        },
+        {
+          "id": "DR19",
+          "tema": "Inconsciente",
+          "tipo": "clarificacao"
+        },
+        {
+          "id": "DR20",
+          "tema": "Segundo Fôlego",
+          "tipo": "interface"
+        },
+        {
+          "id": "DR21",
+          "tema": "Descanso longo fora da base",
+          "tipo": "preservacao"
+        },
+        {
+          "id": "DR22",
+          "tema": "Reservas temporárias muito pequenas",
+          "tipo": "clarificacao"
+        },
+        {
+          "id": "DR23",
+          "tema": "Queda sem combate",
+          "tipo": "correcao/interface"
+        },
+        {
+          "id": "DR24",
+          "tema": "Tratamento após derrota",
+          "tipo": "correcao/interface"
+        },
+        {
+          "id": "DR25",
+          "tema": "Consciência e descanso longo",
+          "tipo": "correcao/interface"
+        },
+        {
+          "id": "DR26",
+          "tema": "Contato de estabilização",
+          "tipo": "correcao/interface"
+        },
+        {
+          "id": "DR27",
+          "tema": "Resgate do Socorrista",
+          "tipo": "correcao/interface"
+        },
+        {
+          "id": "DR28",
+          "tema": "Feitos de progressão",
+          "tipo": "correcao/interface"
+        },
+        {
+          "id": "DR29",
+          "tema": "Agarrado e localização",
+          "tipo": "correcao/interface"
+        },
+        {
+          "id": "DR30",
+          "tema": "Piso de descanso",
+          "tipo": "correcao/interface"
+        },
+        {
+          "id": "DR31",
+          "tema": "Integridade de criaturas muito pequenas",
+          "tipo": "correcao"
+        },
+        {
+          "id": "DR32",
+          "tema": "Guarda Aberta, com os mesmos efeitos, condições de saída e interfaces.",
+          "tipo": "Nomenclatura"
+        }
+      ],
+      "achados": [
+        "MANIFESTO ausente"
+      ],
+      "estado": "transiente informado pela raiz",
+      "gravacao_em_curso": true
+    },
+    {
+      "id": "origens",
+      "arquivo": "origens/lote-01/ORIGENS-E-LEGADOS.md",
+      "sha256_texto": "d432caecc9f2c63b0f355ad70a6e74251ae51044a8ac5840a35b7fd6d182484d",
+      "sha256_pdf": "9794238a24a5ca41232384b15bd50fca03b698223481864339cfd7440f102e09",
+      "paginas": 26,
+      "validadores_presentes": 15,
+      "conferencia_checks": 204,
+      "conferencia_ok": true,
+      "decisoes": 35,
+      "resumo_decisoes": [
+        {
+          "id": "ORI01",
+          "tema": "Legado narrativo/Legado de rolagem/Legado de exceção.",
+          "tipo": "editorial"
+        },
+        {
+          "id": "ORI02",
+          "tema": "Encarnado; ponto de vista da consciência retornada, destino do hospedeiro é história combinada.",
+          "tipo": "terminologia_e_delimitacao_de_canon"
+        },
+        {
+          "id": "ORI03",
+          "tema": "Duas escolhas, pelo menos uma narrativa; duas narrativas permitidas.",
+          "tipo": "esclarecimento_com_impacto"
+        },
+        {
+          "id": "ORI04",
+          "tema": "No máximo um personalizado; outro catálogo, configuração/ramo preservados.",
+          "tipo": "fechamento_de_limite"
+        },
+        {
+          "id": "ORI05",
+          "tema": "Uma tabela comum e listas próprias; traços exemplificados em cada Origem.",
+          "tipo": "editorial"
+        },
+        {
+          "id": "ORI06",
+          "tema": "Manual vigente prevalece: Revezamento Incapacitado; Repetição/Espasmo/Nunca os Dois/Feito de Uma Peça/Couro por descanso",
+          "tipo": "precedencia"
+        },
+        {
+          "id": "ORI07",
+          "tema": "Vantagem antes, repetir falha antes das consequências, rolagem completa e novo resultado; exceção impede nova aplicação,",
+          "tipo": "fechamento_procedimental"
+        },
+        {
+          "id": "ORI08",
+          "tema": "Escreva uma pessoa fora do meio jujutsu que conhece seu segredo e nunca o revelou",
+          "tipo": "correcao_de_ambientacao"
+        },
+        {
+          "id": "ORI09",
+          "tema": "**Uma vez por cena**, use Sentir Energia no lugar de Intuição",
+          "tipo": "esclarecimento"
+        },
+        {
+          "id": "ORI10",
+          "tema": "Qualquer lugar conta como **ambiente propício** para sua recuperação em Descansos",
+          "tipo": "esclarecimento"
+        },
+        {
+          "id": "ORI11",
+          "tema": "Escreva um desejo do passageiro que contrarie o seu",
+          "tipo": "mecanica"
+        },
+        {
+          "id": "ORI12",
+          "tema": "**Uma vez por dia**, permita que o passageiro assuma o corpo e refaça qualquer rolagem",
+          "tipo": "mecanica_de_janela"
+        },
+        {
+          "id": "ORI13",
+          "tema": "Quem percebe sua energia amaldiçoada identifica a energia do passageiro",
+          "tipo": "esclarecimento_com_impacto"
+        },
+        {
+          "id": "ORI14",
+          "tema": "**Uma vez por cena**, faça com vantagem um Teste de Resistência contra uma técnica conhecida no mundo jujutsu",
+          "tipo": "fechamento_de_requisito"
+        },
+        {
+          "id": "ORI15",
+          "tema": "**Uma vez por cena**, impeça uma aplicação de Derrubado",
+          "tipo": "mecanica"
+        },
+        {
+          "id": "ORI16",
+          "tema": "Escreva quantos irmãos tem e o que aconteceu com eles",
+          "tipo": "esclarecimento_de_autoria"
+        },
+        {
+          "id": "ORI17",
+          "tema": "Você dispensa comida, sono e respiração humanos",
+          "tipo": "mecanica"
+        },
+        {
+          "id": "ORI18",
+          "tema": "**Uma vez por cena**, impeça uma aplicação de Agarrado",
+          "tipo": "mecanica"
+        },
+        {
+          "id": "ORI19",
+          "tema": "Você não adquire estágios de Exaustão",
+          "tipo": "esclarecimento_com_impacto"
+        },
+        {
+          "id": "ORI20",
+          "tema": "**Uma vez por cena**, faça um teste com vantagem enquanto permanece no mesmo lugar",
+          "tipo": "mecanica"
+        },
+        {
+          "id": "ORI21",
+          "tema": "Escreva pelo que o meio jujutsu conhece você: um nome, uma voz, uma representação ou outro meio diferente do seu corpo",
+          "tipo": "esclarecimento"
+        },
+        {
+          "id": "ORI22",
+          "tema": "Escreva quem nasceu junto de você e a ligação dessa pessoa com sua Restrição Celestial",
+          "tipo": "esclarecimento_de_canon_e_mecanica"
+        },
+        {
+          "id": "ORI23",
+          "tema": "Escreva como aprendeu a perceber maldições sem o sentido de energia: um equipamento ou um método de observação",
+          "tipo": "esclarecimento_com_impacto"
+        },
+        {
+          "id": "ORI24",
+          "tema": "Você percebe a presença de ferramenta amaldiçoada, barreira ou véu pelo tato, pelo peso e pelos efeitos físicos que prod",
+          "tipo": "fechamento_de_alcance"
+        },
+        {
+          "id": "ORI25",
+          "tema": "**Uma vez por descanso longo**, impeça uma aplicação de Cego",
+          "tipo": "esclarecimento"
+        },
+        {
+          "id": "ORI26",
+          "tema": "CD8+atributo do ofício+maestria do reparador +0/−2/−4 porClasse; especialização só na rolagem.",
+          "tipo": "mecanica_aprovada_pelo_coordenador"
+        },
+        {
+          "id": "ORI27",
+          "tema": "Mantida; tipo Veneno não ganha resistência/imunidade.",
+          "tipo": "preservacao"
+        },
+        {
+          "id": "ORI28",
+          "tema": "Panda referência, configurações do sistema explicitadas; prazo universal removido.",
+          "tipo": "editorial_de_canon"
+        },
+        {
+          "id": "ORI29",
+          "tema": "Proibição de energia pessoal preservada, Katas de contato compatíveis permitidas.",
+          "tipo": "sincronizacao"
+        },
+        {
+          "id": "ORI30",
+          "tema": "Uma entrada compartilhada e remissão a R10 atual com quatro opções.",
+          "tipo": "sincronizacao"
+        },
+        {
+          "id": "ORI31",
+          "tema": "Descansos efetivos necessários entre utilizações.",
+          "tipo": "editorial"
+        },
+        {
+          "id": "ORI32",
+          "tema": "Exemplos limitados ao TR pedido, sentidos disponíveis e ação de esconder-se preservada.",
+          "tipo": "editorial_e_funcional"
+        },
+        {
+          "id": "ORI33",
+          "tema": "Para as regras do Projeto M, escolher Feto não classifica seu personagem como uma maldição",
+          "tipo": "fechamento_mecanico_aprovado"
+        },
+        {
+          "id": "ORI34",
+          "tema": "Legados não causam dano nem concedem novas entregas ou usos por nível",
+          "tipo": "esclarecimento"
+        },
+        {
+          "id": "OR35",
+          "tema": "Grau4 na criação padrão; exceções e promoção remetem a Patentes.",
+          "tipo": "C"
+        }
+      ],
+      "achados": [],
+      "estado": "metadados coerentes nesta fotografia",
+      "gravacao_em_curso": false
+    },
+    {
+      "id": "pericias",
+      "arquivo": "pericias-e-oficios/lote-01/PERICIAS-E-OFICIOS.md",
+      "sha256_texto": "016423f17da7111635e8d9973afd6c810bfb7f5d7f93c3f1e235bf91d0385fdc",
+      "sha256_pdf": "8f23c332359e69d433d192905a523ef14c028a0adf09596278d2436ea3473401",
+      "paginas": 9,
+      "validadores_presentes": 0,
+      "conferencia_checks": 83,
+      "conferencia_ok": false,
+      "decisoes": null,
+      "resumo_decisoes": [],
+      "achados": [
+        "VALIDADORES.json ausente",
+        "CONFERENCIA não aprovada",
+        "MANIFESTO desatualizado/sem PERICIAS-E-OFICIOS.md",
+        "MANIFESTO desatualizado/sem output/pdf/Projeto-M-Pericias-e-Oficios-Proposta-01.pdf",
+        "MANIFESTO desatualizado/sem CONFERENCIA.json"
+      ],
+      "estado": "pendência documental",
+      "gravacao_em_curso": false,
+      "alternativa_registro": "pericias-e-oficios/lote-01/REVISAO-E-FONTES.md",
+      "contagem_limite": "Não foi inventada uma contagem de decisões a partir de prosa."
+    },
+    {
+      "id": "equip",
+      "arquivo": "equipamento/lote-final/EQUIPAMENTO.md",
+      "sha256_texto": "85b38026ae96486a1db359ddf81157d482b4e03bb7fe4c70c2bb17ab5755a77b",
+      "sha256_pdf": "62143fe6e30b67d42e37242de11c8badcbdc64e3b51d33d6f2cbe74bf7e7d646",
+      "paginas": 39,
+      "validadores_presentes": 15,
+      "conferencia_checks": 309,
+      "conferencia_ok": true,
+      "decisoes": 24,
+      "resumo_decisoes": [
+        {
+          "id": "EQ01",
+          "tema": "As tabelas deste capítulo apresentam armas, proteção, suprimentos e preços",
+          "tipo": "E"
+        },
+        {
+          "id": "EQ02",
+          "tema": "| Leve | Atende aos requisitos que peçam arma Leve",
+          "tipo": "M autorizada"
+        },
+        {
+          "id": "EQ03",
+          "tema": "Par e Leve não concedem outro ataque nem uma Ação Bônus",
+          "tipo": "E"
+        },
+        {
+          "id": "EQ04",
+          "tema": "Dados adicionais seguem suas próprias regras e não entram na escolha de Par",
+          "tipo": "E"
+        },
+        {
+          "id": "EQ05",
+          "tema": "Treino simples",
+          "tipo": "E"
+        },
+        {
+          "id": "EQ06",
+          "tema": "**Embainhada:** sacar sozinho exige uma Ação de Movimento inteira, mesmo que ainda tenha a manipulação gratuita",
+          "tipo": "M de fechamento"
+        },
+        {
+          "id": "EQ07",
+          "tema": "Enquanto usar um uniforme, a proteção dele substitui a proteção passiva da sua rota.",
+          "tipo": "E"
+        },
+        {
+          "id": "EQ08",
+          "tema": "Confira a Força mínima antes de escolher a peça",
+          "tipo": "M de fechamento"
+        },
+        {
+          "id": "EQ09",
+          "tema": "Você precisa alcançar a peça, seus fechos e apoios",
+          "tipo": "M de fechamento"
+        },
+        {
+          "id": "EQ10",
+          "tema": "A proteção passiva da sua rota volta a ficar disponível depois de terminar de retirar o uniforme",
+          "tipo": "M de fechamento"
+        },
+        {
+          "id": "EQ11",
+          "tema": "**Cada ataque à distância com uma dessas armas consome uma unidade de disparo, acertando ou errando**, salvo uma regra q",
+          "tipo": "E"
+        },
+        {
+          "id": "EQ12",
+          "tema": "Você precisa alcançar a munição e ter uma mão disponível para manipulá-la",
+          "tipo": "E"
+        },
+        {
+          "id": "EQ13",
+          "tema": "> **Exemplo:** Kaori começa no Grau 4 e tem dinheiro suficiente para uma Pistola.",
+          "tipo": "E"
+        },
+        {
+          "id": "EQ14",
+          "tema": "Remissão interna a Sacar e guardar; proteção passiva da rota, incluindo rotas sem energia.",
+          "tipo": "E"
+        },
+        {
+          "id": "EQ15",
+          "tema": "Atacar um objeto usa [Danificar objetos](#eqi-objetos)",
+          "tipo": "E"
+        },
+        {
+          "id": "EQ16",
+          "tema": "Objetos comuns inanimados ignoram Veneno e efeitos de mente ou alma",
+          "tipo": "E"
+        },
+        {
+          "id": "EQ17",
+          "tema": "Objetos com ficha própria usam seus valores.\n\n## Barreiras de energia\n\nSe a ficha da barreira oferece uma reserva de vid",
+          "tipo": "E de sincronização"
+        },
+        {
+          "id": "EQ18",
+          "tema": "Uma arma não recebe a propriedade Leve por ser amaldiçoada; um escudo continua ocupando a mão até uma regra permitir sol",
+          "tipo": "E"
+        },
+        {
+          "id": "EQ19",
+          "tema": "O ataque ainda exige as mãos indicadas pela arma, livres de outros objetos ou tarefas.",
+          "tipo": "E operacional"
+        },
+        {
+          "id": "EQ20",
+          "tema": "Preparar proteção leva tempo",
+          "tipo": "E operacional"
+        },
+        {
+          "id": "EQ21",
+          "tema": "Permite Agarrar com o alcance corpo a corpo da arma, mantendo teste, custo e limites da manobra",
+          "tipo": "Conciliação"
+        },
+        {
+          "id": "EQ22",
+          "tema": "| Revólver | 1 | 1d10 Perfurante | Longo Alcance 12/36 m · Munição · Oculta · Leve | — | 0,5 | 150.000 / 300.000 |",
+          "tipo": "M autorizada"
+        },
+        {
+          "id": "EQ23",
+          "tema": "Confira o limite e o transporte de criaturas em Carga, no capítulo de Regras gerais.",
+          "tipo": "E remissão"
+        },
+        {
+          "id": "EQ24",
+          "tema": "Página Objetos e efeitos recebe a parte de alvos, equipamento carregado e barreiras, com exemplo local.",
+          "tipo": "E diagramação"
+        }
+      ],
+      "achados": [],
+      "estado": "metadados coerentes nesta fotografia",
+      "gravacao_em_curso": false
+    },
+    {
+      "id": "progressao",
+      "arquivo": "progressao/lote-01/PROGRESSAO.md",
+      "sha256_texto": "483925447a9de1d0bc32fa2dfe46af1b079438106881b67ced66f0fefe10e653",
+      "sha256_pdf": "e895505a4f862aabc64324131b367d3c8151d2f002414cb9d92326f37131b4a8",
+      "paginas": 14,
+      "validadores_presentes": 15,
+      "conferencia_checks": 110,
+      "conferencia_ok": true,
+      "decisoes": 36,
+      "resumo_decisoes": [
+        {
+          "id": "PRO01",
+          "tema": "Treze páginas organizadas por recompensa, conta, limiar, escolhas e administração.",
+          "tipo": "E"
+        },
+        {
+          "id": "PRO02",
+          "tema": "Usa 14.300 XP gastos desde o nível2.",
+          "tipo": "C"
+        },
+        {
+          "id": "PRO03",
+          "tema": "Preserva os oito feitos fechados, com evidência verificável.",
+          "tipo": "C"
+        },
+        {
+          "id": "PRO04",
+          "tema": "Mesmo após o feito, só um avanço por encerramento de missão.",
+          "tipo": "M"
+        },
+        {
+          "id": "PRO05",
+          "tema": "Usa12,5% e6,25%, frações exatas, arredondando apenas o XP final.",
+          "tipo": "C"
+        },
+        {
+          "id": "PRO06",
+          "tema": "Uma recompensa positiva paga ao menos1XP; recompensa deliberadamente nula continua0.",
+          "tipo": "M"
+        },
+        {
+          "id": "PRO07",
+          "tema": "Campanha fixa dia e horário; missão conta na conclusão, uma vez.",
+          "tipo": "M"
+        },
+        {
+          "id": "PRO08",
+          "tema": "Contagem por jogador dentro da campanha; trocar de ficha não reinicia.",
+          "tipo": "E"
+        },
+        {
+          "id": "PRO09",
+          "tema": "Missão concluída ocupa posição mesmo com0XP.",
+          "tipo": "M"
+        },
+        {
+          "id": "PRO10",
+          "tema": "Duas tabelas de sete colunas numéricas, com eventos em prosa e XP em tabela própria.",
+          "tipo": "E"
+        },
+        {
+          "id": "PRO11",
+          "tema": "Mantém as faixas reais da tabela: três níveis, exceções iniciais e teto23–29.",
+          "tipo": "E"
+        },
+        {
+          "id": "PRO12",
+          "tema": "Campanha define o fim da etapa introdutória; a curva começa no2.",
+          "tipo": "M"
+        },
+        {
+          "id": "PRO13",
+          "tema": "Tabela inclui ganhos comuns; escolhas entram depois.",
+          "tipo": "E"
+        },
+        {
+          "id": "PRO14",
+          "tema": "Ganho básico primeiro; se já chegou ao teto, a escolha concede duas.",
+          "tipo": "E"
+        },
+        {
+          "id": "PRO15",
+          "tema": "Concede uma aplicação e uma Passiva sem pagar espaços; cinco Passivas pagas continuam sendo o máximo comum.",
+          "tipo": "E"
+        },
+        {
+          "id": "PRO16",
+          "tema": "Especialização desde10, metade da maestria para baixo, sem comprar a mesma de novo.",
+          "tipo": "E"
+        },
+        {
+          "id": "PRO17",
+          "tema": "Usa Constituição atual em todos os níveis.",
+          "tipo": "E"
+        },
+        {
+          "id": "PRO18",
+          "tema": "Soma só o aumento do máximo ao atual",
+          "tipo": "M"
+        },
+        {
+          "id": "PRO19",
+          "tema": "Uma revisão entre as opções; inclui a dupla do mesmo espaço",
+          "tipo": "E"
+        },
+        {
+          "id": "PRO20",
+          "tema": "Ao receber11/19/27, entre missões: retira entregas antigas e recebe a nova desde a base.",
+          "tipo": "M"
+        },
+        {
+          "id": "PRO21",
+          "tema": "Ajustes obrigatórios gratuitos somente nas partes afetadas; custos e ferimentos permanecem.",
+          "tipo": "M"
+        },
+        {
+          "id": "PRO22",
+          "tema": "Uma entidade por vaga; usar livres e manter excessos registrados, mas indisponíveis.",
+          "tipo": "M"
+        },
+        {
+          "id": "PRO23",
+          "tema": "Seleção fixa na troca; recuperar escolha exige vaga livre ou revisão permitida.",
+          "tipo": "M"
+        },
+        {
+          "id": "PRO24",
+          "tema": "Recalcula atributo de Defesa+capacidade, contando ativos e inativos",
+          "tipo": "E"
+        },
+        {
+          "id": "PRO25",
+          "tema": "Retira capacidades e Famílias concedidas só pela Trilha; preserva aquisição e nível das domadas ou fabricadas.",
+          "tipo": "E"
+        },
+        {
+          "id": "PRO26",
+          "tema": "Expõe médias106,25/240, calendário52/12 e uma missão a cada duas semanas; acrescenta cenário só padrão.",
+          "tipo": "C"
+        },
+        {
+          "id": "PRO27",
+          "tema": "Políticas opcionais com valores anunciados; não alteram curva ou teto automaticamente.",
+          "tipo": "E"
+        },
+        {
+          "id": "PRO28",
+          "tema": "Tabela autoral do projeto, sem alegação de salário oficial.",
+          "tipo": "C"
+        },
+        {
+          "id": "PRO29",
+          "tema": "Mínimo1/4, mais3/4 proporcionais às participações exigidas, até100%; Grau no fechamento.",
+          "tipo": "M"
+        },
+        {
+          "id": "PRO30",
+          "tema": "Tempo esperado éX/Y meses.",
+          "tipo": "C"
+        },
+        {
+          "id": "PRO31",
+          "tema": "São escolhas da criação; os efeitos seguem seu dono, sem novos Legados por XP.",
+          "tipo": "E"
+        },
+        {
+          "id": "PRO32",
+          "tema": "Basta estar consciente e capaz de agir ao sair da Expansão completa ou quando ela termina",
+          "tipo": "E"
+        },
+        {
+          "id": "PRO33",
+          "tema": "Acréscimo só pelo crescimento do novo nível e marco, calculado antes da troca",
+          "tipo": "M"
+        },
+        {
+          "id": "PRO34",
+          "tema": "Seleção fica registrada; retomada exige aquisição ou transferência permitida e procedimentos R11/Fabricação",
+          "tipo": "E"
+        },
+        {
+          "id": "PRO35",
+          "tema": "Seção Patentes distingue níveis, reconhecimento e ferramentas",
+          "tipo": "E/C"
+        },
+        {
+          "id": "PRO36",
+          "tema": "Retorno acompanha saída de Derrotado",
+          "tipo": "M/C"
+        }
+      ],
+      "achados": [
+        "VALIDADORES com hash de texto anterior",
+        "CONFERENCIA com texto anterior",
+        "CONFERENCIA com PDF anterior",
+        "MANIFESTO desatualizado/sem PROGRESSAO.md",
+        "MANIFESTO desatualizado/sem output/pdf/Projeto-M-Progressao-Proposta-01.pdf",
+        "MANIFESTO desatualizado/sem VALIDADORES.json"
+      ],
+      "estado": "pendência documental",
+      "gravacao_em_curso": false
+    },
+    {
+      "id": "fundamento",
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "sha256_texto": "0160f774f5ea87f4ffd29bb7f7e3335dead51677bf2b894041aa61e2c5041273",
+      "sha256_pdf": "2d8ecd738ae4e0e3a2b101527f13d0020727bb9c6ac28e5ef482bcc8f6fbf634",
+      "paginas": 29,
+      "validadores_presentes": 15,
+      "conferencia_checks": 233,
+      "conferencia_ok": true,
+      "decisoes": 56,
+      "resumo_decisoes": [
+        {
+          "id": "FU-01",
+          "tema": "Ordem de ensino",
+          "tipo": "E"
+        },
+        {
+          "id": "FU-02",
+          "tema": "Três recursos",
+          "tipo": "E"
+        },
+        {
+          "id": "FU-03",
+          "tema": "Entidade por espaço",
+          "tipo": "S"
+        },
+        {
+          "id": "FU-04",
+          "tema": "Revisão compartilhada",
+          "tipo": "M"
+        },
+        {
+          "id": "FU-05",
+          "tema": "Benefícios fora do repertório",
+          "tipo": "S"
+        },
+        {
+          "id": "FU-06",
+          "tema": "Manejo de cura",
+          "tipo": "S"
+        },
+        {
+          "id": "FU-07",
+          "tema": "Selo marcial",
+          "tipo": "S"
+        },
+        {
+          "id": "FU-08",
+          "tema": "Poderes da obra",
+          "tipo": "E"
+        },
+        {
+          "id": "FU-09",
+          "tema": "Distribuição de tipos",
+          "tipo": "M"
+        },
+        {
+          "id": "FU-10",
+          "tema": "Desconto das Formas",
+          "tipo": "S"
+        },
+        {
+          "id": "FU-11",
+          "tema": "Devolução de pontos",
+          "tipo": "S"
+        },
+        {
+          "id": "FU-12",
+          "tema": "Restrições embutidas",
+          "tipo": "S"
+        },
+        {
+          "id": "FU-13",
+          "tema": "Tetos finais de cura",
+          "tipo": "M"
+        },
+        {
+          "id": "FU-14",
+          "tema": "Onda em Classes6/7",
+          "tipo": "M"
+        },
+        {
+          "id": "FU-15",
+          "tema": "Toque e Longe",
+          "tipo": "S"
+        },
+        {
+          "id": "FU-16",
+          "tema": "Aumentos de alcance",
+          "tipo": "S"
+        },
+        {
+          "id": "FU-17",
+          "tema": "Conjuração e TR",
+          "tipo": "S"
+        },
+        {
+          "id": "FU-18",
+          "tema": "Metade e crítico de área",
+          "tipo": "S"
+        },
+        {
+          "id": "FU-19",
+          "tema": "Limite de conjuração",
+          "tipo": "S"
+        },
+        {
+          "id": "FU-20",
+          "tema": "Certeiro",
+          "tipo": "M"
+        },
+        {
+          "id": "FU-21",
+          "tema": "Silencioso",
+          "tipo": "S"
+        },
+        {
+          "id": "FU-22",
+          "tema": "Controle sem dano",
+          "tipo": "S"
+        },
+        {
+          "id": "FU-23",
+          "tema": "Saída de condições",
+          "tipo": "S"
+        },
+        {
+          "id": "FU-24",
+          "tema": "Anteparo",
+          "tipo": "M"
+        },
+        {
+          "id": "FU-25",
+          "tema": "Passo e Ação Completa",
+          "tipo": "S"
+        },
+        {
+          "id": "FU-26",
+          "tema": "Condição sobre distância concedida",
+          "tipo": "M"
+        },
+        {
+          "id": "FU-27",
+          "tema": "Teto de dano",
+          "tipo": "M"
+        },
+        {
+          "id": "FU-28",
+          "tema": "Dados adicionais e Remate",
+          "tipo": "M"
+        },
+        {
+          "id": "FU-29",
+          "tema": "Acúmulo",
+          "tipo": "S"
+        },
+        {
+          "id": "FU-30",
+          "tema": "Salto e Estilhaço",
+          "tipo": "M"
+        },
+        {
+          "id": "FU-31",
+          "tema": "Fica",
+          "tipo": "M"
+        },
+        {
+          "id": "FU-32",
+          "tema": "Divisão e dados zero",
+          "tipo": "M"
+        },
+        {
+          "id": "FU-33",
+          "tema": "Uso Livre e oposição",
+          "tipo": "S"
+        },
+        {
+          "id": "FU-34",
+          "tema": "Escala de Efeito6/7",
+          "tipo": "M"
+        },
+        {
+          "id": "FU-35",
+          "tema": "Efeito sobre hostis",
+          "tipo": "M"
+        },
+        {
+          "id": "FU-36",
+          "tema": "Classe0 e Restrições",
+          "tipo": "M"
+        },
+        {
+          "id": "FU-37",
+          "tema": "Apoio Classe0",
+          "tipo": "M"
+        },
+        {
+          "id": "FU-38",
+          "tema": "Efeito Próprio",
+          "tipo": "M"
+        },
+        {
+          "id": "FU-39",
+          "tema": "Liberação e Atrasar",
+          "tipo": "M"
+        },
+        {
+          "id": "FU-40",
+          "tema": "Máxima: orçamento",
+          "tipo": "M"
+        },
+        {
+          "id": "FU-41",
+          "tema": "Máxima: dados separados",
+          "tipo": "S"
+        },
+        {
+          "id": "FU-42",
+          "tema": "Máxima: compatibilidades",
+          "tipo": "M"
+        },
+        {
+          "id": "FU-43",
+          "tema": "Máxima: Apoio",
+          "tipo": "M"
+        },
+        {
+          "id": "FU-44",
+          "tema": "Máxima: revisão",
+          "tipo": "M"
+        },
+        {
+          "id": "FU-45",
+          "tema": "Máxima: utilidade em combate",
+          "tipo": "M"
+        },
+        {
+          "id": "FU-46",
+          "tema": "Passagem de Papel",
+          "tipo": "M"
+        },
+        {
+          "id": "FU-47",
+          "tema": "Retirada de Emergência",
+          "tipo": "M"
+        },
+        {
+          "id": "FU-48",
+          "tema": "Navegação e títulos",
+          "tipo": "E"
+        },
+        {
+          "id": "FU-49",
+          "tema": "Repetição de aptidões",
+          "tipo": "E"
+        },
+        {
+          "id": "FU-50",
+          "tema": "Integridade e morte",
+          "tipo": "F"
+        },
+        {
+          "id": "FU-51",
+          "tema": "Requisito temático da invocação por espaço",
+          "tipo": "M"
+        },
+        {
+          "id": "FU-52",
+          "tema": "Máxima e disparo adiado",
+          "tipo": "M"
+        },
+        {
+          "id": "FU-53",
+          "tema": "Sem Volta e Vazio",
+          "tipo": "M"
+        },
+        {
+          "id": "FU-54",
+          "tema": "Títulos e ritmo de leitura",
+          "tipo": "E"
+        },
+        {
+          "id": "FU-55",
+          "tema": "Exemplo criativo de Passiva Livre",
+          "tipo": "E"
+        },
+        {
+          "id": "FU-56",
+          "tema": "Cura contra maldições",
+          "tipo": "E"
+        }
+      ],
+      "achados": [
+        "VALIDADORES com hash de texto anterior",
+        "MANIFESTO desatualizado/sem FUNDAMENTO.md",
+        "MANIFESTO desatualizado/sem output/pdf/Projeto-M-Fundamento-Proposta-01.pdf",
+        "MANIFESTO desatualizado/sem VALIDADORES.json",
+        "MANIFESTO desatualizado/sem CONFERENCIA.json"
+      ],
+      "estado": "pendência documental",
+      "gravacao_em_curso": false
+    },
+    {
+      "id": "catalogo",
+      "arquivo": "catalogo/lote-01/CATALOGO.md",
+      "sha256_texto": "3ff14332800456da87ee8c49fa9648596003e332291823abe24dcf8fa5afe785",
+      "sha256_pdf": "c1bd7b39198e104cef38345e43483b754c1c4694c43b1cc6ef260757e12204c8",
+      "paginas": 30,
+      "validadores_presentes": 15,
+      "conferencia_checks": 242,
+      "conferencia_ok": true,
+      "decisoes": 118,
+      "resumo_decisoes": [
+        {
+          "id": "R07-A-01",
+          "tema": "Longe",
+          "tipo": "E/I"
+        },
+        {
+          "id": "R07-A-02",
+          "tema": "Muito Longe",
+          "tipo": "E"
+        },
+        {
+          "id": "R07-A-03",
+          "tema": "Sem Ver",
+          "tipo": "I/M"
+        },
+        {
+          "id": "R07-A-04",
+          "tema": "Perseguir",
+          "tipo": "M/I"
+        },
+        {
+          "id": "R07-A-05",
+          "tema": "Passo",
+          "tipo": "I/E"
+        },
+        {
+          "id": "R07-A-06",
+          "tema": "Empurrão",
+          "tipo": "M/I"
+        },
+        {
+          "id": "R07-A-07",
+          "tema": "Troca",
+          "tipo": "M/I"
+        },
+        {
+          "id": "R07-A-08",
+          "tema": "Maior",
+          "tipo": "E/I"
+        },
+        {
+          "id": "R07-A-09",
+          "tema": "Muito Maior",
+          "tipo": "E"
+        },
+        {
+          "id": "R07-A-10",
+          "tema": "Escolher",
+          "tipo": "M/I"
+        },
+        {
+          "id": "R07-A-11",
+          "tema": "Mais Um",
+          "tipo": "I/M"
+        },
+        {
+          "id": "R07-A-12",
+          "tema": "Rajada",
+          "tipo": "M/I"
+        },
+        {
+          "id": "R07-A-13",
+          "tema": "Fica",
+          "tipo": "M/E"
+        },
+        {
+          "id": "R07-A-14",
+          "tema": "Salto",
+          "tipo": "M/I"
+        },
+        {
+          "id": "R07-A-15",
+          "tema": "Contorno",
+          "tipo": "I/M"
+        },
+        {
+          "id": "R07-A-16",
+          "tema": "Precisão",
+          "tipo": "I/E"
+        },
+        {
+          "id": "R07-A-17",
+          "tema": "Certeiro",
+          "tipo": "M/E"
+        },
+        {
+          "id": "R07-A-18",
+          "tema": "Inescapável",
+          "tipo": "M"
+        },
+        {
+          "id": "R07-A-19",
+          "tema": "De Novo",
+          "tipo": "I/M"
+        },
+        {
+          "id": "R07-A-20",
+          "tema": "Fura",
+          "tipo": "E/I"
+        },
+        {
+          "id": "R07-A-21",
+          "tema": "Corrói",
+          "tipo": "E/I"
+        },
+        {
+          "id": "R07-A-22",
+          "tema": "Sem Cobertura",
+          "tipo": "E/I"
+        },
+        {
+          "id": "R07-A-23",
+          "tema": "Toca a Alma",
+          "tipo": "E/I"
+        },
+        {
+          "id": "R07-A-24",
+          "tema": "Condição",
+          "tipo": "E"
+        },
+        {
+          "id": "R07-A-25",
+          "tema": "Terreno",
+          "tipo": "M/I"
+        },
+        {
+          "id": "R07-A-26",
+          "tema": "Cerca",
+          "tipo": "I/E"
+        },
+        {
+          "id": "R07-A-27",
+          "tema": "Desarma o Feitiço",
+          "tipo": "I/M"
+        },
+        {
+          "id": "R07-A-28",
+          "tema": "Anteparo",
+          "tipo": "I/M"
+        },
+        {
+          "id": "R07-A-29",
+          "tema": "Prende",
+          "tipo": "M/I"
+        },
+        {
+          "id": "R07-A-30",
+          "tema": "Puxa",
+          "tipo": "I/M"
+        },
+        {
+          "id": "R07-B-01",
+          "tema": "Impulso",
+          "tipo": "E"
+        },
+        {
+          "id": "R07-B-02",
+          "tema": "Trava",
+          "tipo": "I"
+        },
+        {
+          "id": "R07-B-03",
+          "tema": "Abre Ferida",
+          "tipo": "I"
+        },
+        {
+          "id": "R07-B-04",
+          "tema": "Sobrecarga",
+          "tipo": "I"
+        },
+        {
+          "id": "R07-B-05",
+          "tema": "Firmeza",
+          "tipo": "I"
+        },
+        {
+          "id": "R07-B-06",
+          "tema": "Guarda",
+          "tipo": "E"
+        },
+        {
+          "id": "R07-B-07",
+          "tema": "Pressa",
+          "tipo": "E"
+        },
+        {
+          "id": "R07-B-08",
+          "tema": "Enfraquece",
+          "tipo": "I/M"
+        },
+        {
+          "id": "R07-B-09",
+          "tema": "Ecoa",
+          "tipo": "I"
+        },
+        {
+          "id": "R07-B-10",
+          "tema": "Queima",
+          "tipo": "I"
+        },
+        {
+          "id": "R07-B-11",
+          "tema": "Acúmulo",
+          "tipo": "I"
+        },
+        {
+          "id": "R07-B-12",
+          "tema": "Remate",
+          "tipo": "I/M"
+        },
+        {
+          "id": "R07-B-13",
+          "tema": "Estilhaço",
+          "tipo": "M/I R06"
+        },
+        {
+          "id": "R07-B-14",
+          "tema": "Quebra Coisa",
+          "tipo": "I/M"
+        },
+        {
+          "id": "R07-B-15",
+          "tema": "Rasga Escudo",
+          "tipo": "I"
+        },
+        {
+          "id": "R07-B-16",
+          "tema": "Sem Cura",
+          "tipo": "I"
+        },
+        {
+          "id": "R07-B-17",
+          "tema": "Rápido",
+          "tipo": "E R06"
+        },
+        {
+          "id": "R07-B-18",
+          "tema": "Reação",
+          "tipo": "I"
+        },
+        {
+          "id": "R07-B-19",
+          "tema": "Armado",
+          "tipo": "I/M"
+        },
+        {
+          "id": "R07-B-20",
+          "tema": "Silencioso",
+          "tipo": "E"
+        },
+        {
+          "id": "R07-B-21",
+          "tema": "Adianta",
+          "tipo": "I"
+        },
+        {
+          "id": "R07-B-22",
+          "tema": "Segura",
+          "tipo": "I/M"
+        },
+        {
+          "id": "R07-B-23",
+          "tema": "Concentrada",
+          "tipo": "I"
+        },
+        {
+          "id": "R07-B-24",
+          "tema": "Duradoura",
+          "tipo": "I"
+        },
+        {
+          "id": "R07-B-25",
+          "tema": "Marca",
+          "tipo": "I"
+        },
+        {
+          "id": "R07-B-26",
+          "tema": "Alvo de Caça",
+          "tipo": "E/I"
+        },
+        {
+          "id": "R07-B-27",
+          "tema": "Rastro",
+          "tipo": "I"
+        },
+        {
+          "id": "R07-B-28",
+          "tema": "Sugar",
+          "tipo": "I"
+        },
+        {
+          "id": "R07-B-29",
+          "tema": "Isca",
+          "tipo": "I"
+        },
+        {
+          "id": "R07-B-30",
+          "tema": "Cobrança",
+          "tipo": "I/M"
+        },
+        {
+          "id": "R07-B-31",
+          "tema": "Aviso",
+          "tipo": "I"
+        },
+        {
+          "id": "R07-B-32",
+          "tema": "Limpa",
+          "tipo": "E"
+        },
+        {
+          "id": "R07-B-33",
+          "tema": "Limpa Fundo",
+          "tipo": "E"
+        },
+        {
+          "id": "R07-B-34",
+          "tema": "Levanta",
+          "tipo": "I/M"
+        },
+        {
+          "id": "R07-B-35",
+          "tema": "Divide",
+          "tipo": "I/M"
+        },
+        {
+          "id": "R07-B-36",
+          "tema": "Junto",
+          "tipo": "M/I R06"
+        },
+        {
+          "id": "R07-B-37",
+          "tema": "Reserva",
+          "tipo": "I/M"
+        },
+        {
+          "id": "R07-B-38",
+          "tema": "Remenda",
+          "tipo": "E/I"
+        },
+        {
+          "id": "R07-C-01",
+          "tema": "Corpo a Corpo",
+          "tipo": "E/I"
+        },
+        {
+          "id": "R07-C-02",
+          "tema": "Atrasar",
+          "tipo": "M/sincronização"
+        },
+        {
+          "id": "R07-C-03",
+          "tema": "Parado",
+          "tipo": "I/M"
+        },
+        {
+          "id": "R07-C-04",
+          "tema": "Gesto",
+          "tipo": "E/I"
+        },
+        {
+          "id": "R07-C-05",
+          "tema": "Carregar",
+          "tipo": "M"
+        },
+        {
+          "id": "R07-C-06",
+          "tema": "Sangra",
+          "tipo": "I"
+        },
+        {
+          "id": "R07-C-07",
+          "tema": "Recuo",
+          "tipo": "E/I"
+        },
+        {
+          "id": "R07-C-08",
+          "tema": "Fraqueza",
+          "tipo": "E/I"
+        },
+        {
+          "id": "R07-C-09",
+          "tema": "Peso Morto",
+          "tipo": "I"
+        },
+        {
+          "id": "R07-C-10",
+          "tema": "Frágil",
+          "tipo": "E/I"
+        },
+        {
+          "id": "R07-C-11",
+          "tema": "Sem Volta",
+          "tipo": "I/M"
+        },
+        {
+          "id": "R07-C-12",
+          "tema": "Uma Vez",
+          "tipo": "I"
+        },
+        {
+          "id": "R07-C-13",
+          "tema": "Condicional",
+          "tipo": "M"
+        },
+        {
+          "id": "R07-C-14",
+          "tema": "Aquecer",
+          "tipo": "I"
+        },
+        {
+          "id": "R07-C-15",
+          "tema": "Dívida",
+          "tipo": "M/I"
+        },
+        {
+          "id": "R07-C-16",
+          "tema": "Tudo ou Nada",
+          "tipo": "E/I"
+        },
+        {
+          "id": "R07-C-17",
+          "tema": "Barulho",
+          "tipo": "I"
+        },
+        {
+          "id": "R07-C-18",
+          "tema": "Assinatura",
+          "tipo": "M"
+        },
+        {
+          "id": "R07-C-19",
+          "tema": "Restrição Própria",
+          "tipo": "M/I"
+        },
+        {
+          "id": "R07-C-20",
+          "tema": "Leitura",
+          "tipo": "I"
+        },
+        {
+          "id": "R07-C-21",
+          "tema": "Instinto",
+          "tipo": "E/I"
+        },
+        {
+          "id": "R07-C-22",
+          "tema": "Raiz",
+          "tipo": "I"
+        },
+        {
+          "id": "R07-C-23",
+          "tema": "Mão Firme",
+          "tipo": "E/I"
+        },
+        {
+          "id": "R07-C-24",
+          "tema": "Farejador",
+          "tipo": "I"
+        },
+        {
+          "id": "R07-C-25",
+          "tema": "Aviso",
+          "tipo": "I"
+        },
+        {
+          "id": "R07-C-26",
+          "tema": "Fluxo",
+          "tipo": "E/I"
+        },
+        {
+          "id": "R07-C-27",
+          "tema": "Recomposição",
+          "tipo": "E"
+        },
+        {
+          "id": "R07-C-28",
+          "tema": "Segunda Natureza",
+          "tipo": "E/M"
+        },
+        {
+          "id": "R07-C-29",
+          "tema": "Eco",
+          "tipo": "M/I"
+        },
+        {
+          "id": "R07-C-30",
+          "tema": "Costura",
+          "tipo": "I"
+        },
+        {
+          "id": "R07-C-31",
+          "tema": "Contramedida",
+          "tipo": "M"
+        },
+        {
+          "id": "R07-C-32",
+          "tema": "Peso da Presença",
+          "tipo": "M"
+        },
+        {
+          "id": "R07-C-33",
+          "tema": "Escama",
+          "tipo": "E/I"
+        },
+        {
+          "id": "R07-C-34",
+          "tema": "Afinidade",
+          "tipo": "E/I"
+        },
+        {
+          "id": "R07-C-35",
+          "tema": "Reserva Profunda",
+          "tipo": "E/I"
+        },
+        {
+          "id": "R07-C-36",
+          "tema": "Regra Própria",
+          "tipo": "M/I"
+        },
+        {
+          "id": "R07-C-37",
+          "tema": "Passiva Própria",
+          "tipo": "E/I"
+        },
+        {
+          "id": "R07-R-01",
+          "tema": "Fechamento de revisão cruzada",
+          "tipo": "M"
+        },
+        {
+          "id": "R07-R-02",
+          "tema": "Fechamento de revisão cruzada",
+          "tipo": "S"
+        },
+        {
+          "id": "R07-R-03",
+          "tema": "Fechamento de revisão cruzada",
+          "tipo": "S"
+        },
+        {
+          "id": "R07-R-04",
+          "tema": "Fechamento de revisão cruzada",
+          "tipo": "M"
+        },
+        {
+          "id": "R07-R-05",
+          "tema": "Fechamento de revisão cruzada",
+          "tipo": "S"
+        },
+        {
+          "id": "R07-R-06",
+          "tema": "Fechamento de revisão cruzada",
+          "tipo": "S"
+        },
+        {
+          "id": "R07-R-07",
+          "tema": "Fechamento de revisão cruzada",
+          "tipo": "M"
+        },
+        {
+          "id": "R07-R-08",
+          "tema": "Fechamento de revisão cruzada",
+          "tipo": "E"
+        },
+        {
+          "id": "R07-R-09",
+          "tema": "Fechamento de revisão cruzada",
+          "tipo": "M"
+        },
+        {
+          "id": "R07-R-EP",
+          "tema": "Efeito Próprio",
+          "tipo": "S/E"
+        },
+        {
+          "id": "CAT116",
+          "tema": "Levanta tem alvo ainda Morrendo",
+          "tipo": "interface"
+        },
+        {
+          "id": "REM04",
+          "tema": "A zero de vida, a cura segue Socorro, em Dano e recuperação;",
+          "tipo": "editorial"
+        },
+        {
+          "id": "REM05",
+          "tema": "Use as condições da seção **Condições, em Dano e recuperação**.",
+          "tipo": "editorial"
+        }
+      ],
+      "achados": [
+        "VALIDADORES com hash de texto anterior",
+        "MANIFESTO desatualizado/sem CATALOGO.md",
+        "MANIFESTO desatualizado/sem output/pdf/Projeto-M-Catalogo-de-Criacao-Proposta-01.pdf",
+        "MANIFESTO desatualizado/sem VALIDADORES.json",
+        "MANIFESTO desatualizado/sem CONFERENCIA.json"
+      ],
+      "estado": "pendência documental",
+      "gravacao_em_curso": false
+    },
+    {
+      "id": "aptidoes",
+      "arquivo": "aptidoes/lote-01/APTIDOES-E-REFINO.md",
+      "sha256_texto": "8ab8f1322ac42fd54c72a45549b1e3df6c64a75399950e2c249919bf8f0cf80c",
+      "sha256_pdf": "9f2409bf6aec6a57a9502de2880235589fbafe676124928532d5a788a11cb0c3",
+      "paginas": 20,
+      "validadores_presentes": 15,
+      "conferencia_checks": 159,
+      "conferencia_ok": true,
+      "decisoes": 32,
+      "resumo_decisoes": [
+        {
+          "id": "A01",
+          "tema": "apt-refino",
+          "tipo": "Editorial"
+        },
+        {
+          "id": "A02",
+          "tema": "apt-marcos",
+          "tipo": "Esclarecimento"
+        },
+        {
+          "id": "A03",
+          "tema": "apt-marcos",
+          "tipo": "Esclarecimento"
+        },
+        {
+          "id": "A04",
+          "tema": "apt-catalogo",
+          "tipo": "Correção de divergência"
+        },
+        {
+          "id": "A05",
+          "tema": "apt-cobrir",
+          "tipo": "Esclarecimento"
+        },
+        {
+          "id": "A06",
+          "tema": "apt-canalizar",
+          "tipo": "Conciliação de fonte autoral"
+        },
+        {
+          "id": "A07",
+          "tema": "apt-canalizar",
+          "tipo": "Esclarecimento"
+        },
+        {
+          "id": "A08",
+          "tema": "apt-canalizar",
+          "tipo": "Conciliação mecânica"
+        },
+        {
+          "id": "A09",
+          "tema": "apt-canalizar",
+          "tipo": "Editorial"
+        },
+        {
+          "id": "A10",
+          "tema": "apt-projetar",
+          "tipo": "Conciliação de fonte autoral"
+        },
+        {
+          "id": "A11",
+          "tema": "apt-projetar",
+          "tipo": "Mecânica: fechamento de lacuna"
+        },
+        {
+          "id": "A12",
+          "tema": "apt-projetar",
+          "tipo": "Sincronização"
+        },
+        {
+          "id": "A13",
+          "tema": "apt-reversa",
+          "tipo": "Sincronização"
+        },
+        {
+          "id": "A14",
+          "tema": "apt-energia-positiva",
+          "tipo": "Restauração e esclarecimento"
+        },
+        {
+          "id": "A15",
+          "tema": "apt-energia-positiva",
+          "tipo": "Esclarecimento mecânico"
+        },
+        {
+          "id": "A16",
+          "tema": "apt-circulacao",
+          "tipo": "Esclarecimento"
+        },
+        {
+          "id": "A17",
+          "tema": "apt-kokusen",
+          "tipo": "Esclarecimento"
+        },
+        {
+          "id": "A18",
+          "tema": "apt-protecao-dominios",
+          "tipo": "Mecânica: fechamento de lacuna"
+        },
+        {
+          "id": "A19",
+          "tema": "apt-cesta",
+          "tipo": "Esclarecimento"
+        },
+        {
+          "id": "A20",
+          "tema": "apt-simples",
+          "tipo": "Mecânica: padronização de medidas"
+        },
+        {
+          "id": "A21",
+          "tema": "apt-simples-duracao",
+          "tipo": "Esclarecimento"
+        },
+        {
+          "id": "A22",
+          "tema": "apt-simples-duracao",
+          "tipo": "Mecânica: fechamento de lacuna"
+        },
+        {
+          "id": "A23",
+          "tema": "apt-cesta/apt-simples",
+          "tipo": "Mecânica: fechamento de lacuna"
+        },
+        {
+          "id": "A24",
+          "tema": "apt-petala",
+          "tipo": "Mecânica: resolução simultânea"
+        },
+        {
+          "id": "A25",
+          "tema": "apt-barreira",
+          "tipo": "Mecânica"
+        },
+        {
+          "id": "A26",
+          "tema": "apt-barreira",
+          "tipo": "Mecânica: fechamento de lacuna"
+        },
+        {
+          "id": "A27",
+          "tema": "apt-cortina",
+          "tipo": "Conciliação + mudança mecânica"
+        },
+        {
+          "id": "A28",
+          "tema": "apt-cortina",
+          "tipo": "Esclarecimento mecânico"
+        },
+        {
+          "id": "A29",
+          "tema": "apt-propria",
+          "tipo": "Mecânica/editorial"
+        },
+        {
+          "id": "A30",
+          "tema": "apt-barreira",
+          "tipo": "Sincronização"
+        },
+        {
+          "id": "A31",
+          "tema": "Acerto que causa dano; no raio do Domínio Simples, impedir Acerto/Efeito.",
+          "tipo": "Editorial"
+        },
+        {
+          "id": "A32",
+          "tema": "Índice de16entradas inclui Ritual e remete ao capítulo próprio.",
+          "tipo": "Editorial/cobertura"
+        }
+      ],
+      "achados": [],
+      "estado": "metadados coerentes nesta fotografia",
+      "gravacao_em_curso": false
+    },
+    {
+      "id": "rotas",
+      "arquivo": "rotas/lote-01/ROTAS.md",
+      "sha256_texto": "cbdc3648f5faa76a3973fd1dc9b8d196a5e46d5508163bc2e3720b33c2512a40",
+      "sha256_pdf": "730e0c332b656fc621056d13553fd402e628053ba93f7981903b37dcec248ad6",
+      "paginas": 23,
+      "validadores_presentes": 15,
+      "conferencia_checks": 185,
+      "conferencia_ok": true,
+      "decisoes": 32,
+      "resumo_decisoes": [
+        {
+          "id": "R10-01",
+          "tema": "Glossário local distingue Kata, Manejo, energia pessoal e PE de esforço",
+          "tipo": "editorial e sincronização"
+        },
+        {
+          "id": "R10-02",
+          "tema": "Preservada regra manual42: ataque e CD usam atributo da arma na execução",
+          "tipo": "sincronização de decisão vigente"
+        },
+        {
+          "id": "R10-03",
+          "tema": "Equipamento em uso é Selo; não devolve pontos novamente",
+          "tipo": "correção de contradição"
+        },
+        {
+          "id": "R10-04",
+          "tema": "Um espaço comum por uma entidade somente se Descrição/Regra/semente/equipamento prevê criação, chamada ou controle",
+          "tipo": "sincronização autorizada R06"
+        },
+        {
+          "id": "R10-05",
+          "tema": "Aplicação máxima pode ataque, cura ou utilidade pelo procedimento R06",
+          "tipo": "sincronização autorizada R06"
+        },
+        {
+          "id": "R10-06",
+          "tema": "Restaurada quarta semente e exemplo Espinho; mantém acesso2 e funcionamento reativo próximo.",
+          "tipo": "restauração de conteúdo vigente"
+        },
+        {
+          "id": "R10-07",
+          "tema": "Manejo Cura pode curar aliado com Amparo disponível",
+          "tipo": "correção de compatibilidade"
+        },
+        {
+          "id": "R10-08",
+          "tema": "Tabela0/1/2/3/4 por faixa; uma soma ao total de cada cura sua em você.",
+          "tipo": "clareza numérica"
+        },
+        {
+          "id": "R10-09",
+          "tema": "Energia Reversa e curas construídas com ela não recuperam Corpo Amaldiçoado; reparos apropriados têm outro funcionamento",
+          "tipo": "compatibilidade de alvo"
+        },
+        {
+          "id": "R10-10",
+          "tema": "Calo Livre reconhece textura/encaixe familiar sem resolver informação escondida; identificação disfarçada segue cena.",
+          "tipo": "mecânica candidata; redução de efeito Livre"
+        },
+        {
+          "id": "R10-11",
+          "tema": "Dois itens gratuitos somados, carga normal, item guardado fora de uso, criatura sem turno/ficha autônoma.",
+          "tipo": "fechamento de escopo"
+        },
+        {
+          "id": "R10-12",
+          "tema": "Passiva Leitura tem seu próprio efeito",
+          "tipo": "mecânica candidata; requisito temático"
+        },
+        {
+          "id": "R10-13",
+          "tema": "A próxima rolagem de ataque contra o agressor tem vantagem, até o fim da cena",
+          "tipo": "mecânica candidata; fechamento de frequência"
+        },
+        {
+          "id": "R10-14",
+          "tema": "Veta desarme involuntário e uso por terceiro, permite transportar; não imuniza destruição ou teleporta de volta.",
+          "tipo": "mecânica candidata; alcance da exclusividade"
+        },
+        {
+          "id": "R10-15",
+          "tema": "Recupera treino/ofício e especialização10+, Passiva de Leque sem espaços e vaga adicional; só aplicação no outro benefíc",
+          "tipo": "sincronização de progressão"
+        },
+        {
+          "id": "R10-16",
+          "tema": "CP1 exige Lapidação 1, CP2 exige 4 e CP3 exige 7",
+          "tipo": "clareza de acesso"
+        },
+        {
+          "id": "R10-17",
+          "tema": "Espelho de Cobrir-se vigente: Reação e 2 PE, redução de 1,5 × Lapidação arredondada para baixo, perda da proteção de qua",
+          "tipo": "sincronização; sem novo desenho"
+        },
+        {
+          "id": "R10-18",
+          "tema": "Armas e ataques desarmados usam a curva atual: 1d4, 2d4, 3d4, 4d4 e 4d6",
+          "tipo": "sincronização de regra vigente"
+        },
+        {
+          "id": "R10-19",
+          "tema": "Uma vez por rodada, exige repetir o TR que evitou agarrar, derrubar ou deslocar",
+          "tipo": "mecânica candidata; aprovada para candidata pela raiz"
+        },
+        {
+          "id": "R10-20",
+          "tema": "Escolhe um TR",
+          "tipo": "correção de referente e precisão"
+        },
+        {
+          "id": "R10-21",
+          "tema": "CD 8 + Essência + maestria",
+          "tipo": "mecânica candidata; fechada com a raiz"
+        },
+        {
+          "id": "R10-22",
+          "tema": "Aumenta o máximo em metade do nível, arredondada para baixo: nível 14 concede 7 e nível 30 concede 15.",
+          "tipo": "correção aritmética"
+        },
+        {
+          "id": "R10-23",
+          "tema": "As consequências usam o estágio real menos um, com mínimo zero",
+          "tipo": "clareza de limite"
+        },
+        {
+          "id": "R10-24",
+          "tema": "Obstáculo sólido bloqueia a percepção",
+          "tipo": "mecânica candidata; delimitador sensorial"
+        },
+        {
+          "id": "R10-25",
+          "tema": "Vale para a mesma capacidade da mesma criatura ou fonte, incluindo aplicações posteriores",
+          "tipo": "mecânica candidata; escopo temporal"
+        },
+        {
+          "id": "R10-26",
+          "tema": "Sem Técnica e Técnica Marcial não aprendem nem auxiliam Ritual",
+          "tipo": "sincronização e preservação"
+        },
+        {
+          "id": "R10-27",
+          "tema": "Cinco exemplos incluem ficha de uso, custo e conta",
+          "tipo": "didática e correção de exemplo"
+        },
+        {
+          "id": "R10-28",
+          "tema": "O personagem cai ao terminar o movimento sem apoio",
+          "tipo": "mecânica candidata; precisão de uso"
+        },
+        {
+          "id": "R10-29",
+          "tema": "Suprime vestígios corporais de passagem, sem silenciar armas ou voz, tornar invisível ou conceder uma ação gratuita de o",
+          "tipo": "preservação com interface"
+        },
+        {
+          "id": "R10-30",
+          "tema": "Marca do pulso é proposta de Classe Passiva 1: contato durante a vibração revela a parte atingida de uma estrutura até 3",
+          "tipo": "exemplo original, sujeito à validação"
+        },
+        {
+          "id": "R10-31",
+          "tema": "Sementes remete à entrada que contém o voto",
+          "tipo": "editorial"
+        },
+        {
+          "id": "R10-32",
+          "tema": "**Uma vez por descanso longo**, ao escolher **Insistir**, você pode dispensar o **primeiro custo de vida máxima**, corre",
+          "tipo": "sincronização mecânica autorizada"
+        }
+      ],
+      "achados": [
+        "VALIDADORES com hash de PDF anterior",
+        "MANIFESTO desatualizado/sem ROTAS.md",
+        "MANIFESTO desatualizado/sem output/pdf/Projeto-M-Rotas-Proposta-01.pdf",
+        "MANIFESTO desatualizado/sem VALIDADORES.json",
+        "MANIFESTO desatualizado/sem CONFERENCIA.json"
+      ],
+      "estado": "transiente informado pela raiz",
+      "gravacao_em_curso": true
+    },
+    {
+      "id": "poderes",
+      "arquivo": "poderes-avancados/lote-01/PODERES-AVANCADOS.md",
+      "sha256_texto": "2b1c02cb3407a7aec6ef385a00726e1d131020b3f2b110b433bfcedf28f2854f",
+      "sha256_pdf": "fe220c707ef23e311c37c0da1d31ac6068a1f0dd40ee933dc6bad3d754393641",
+      "paginas": 15,
+      "validadores_presentes": 15,
+      "conferencia_checks": 124,
+      "conferencia_ok": true,
+      "decisoes": 33,
+      "resumo_decisoes": [
+        {
+          "id": "R08-01",
+          "tema": "degraus",
+          "tipo": "editorial"
+        },
+        {
+          "id": "R08-02",
+          "tema": "degraus",
+          "tipo": "preservação"
+        },
+        {
+          "id": "R08-03",
+          "tema": "criardominio",
+          "tipo": "editorial"
+        },
+        {
+          "id": "R08-04",
+          "tema": "acerto",
+          "tipo": "mecânica de fechamento"
+        },
+        {
+          "id": "R08-05",
+          "tema": "acerto",
+          "tipo": "mecânica de fechamento"
+        },
+        {
+          "id": "R08-06",
+          "tema": "acerto",
+          "tipo": "mecânica de fechamento"
+        },
+        {
+          "id": "R08-07",
+          "tema": "acerto",
+          "tipo": "compatibilidade"
+        },
+        {
+          "id": "R08-08",
+          "tema": "criardominio",
+          "tipo": "mecânica de fechamento"
+        },
+        {
+          "id": "R08-09",
+          "tema": "abertura",
+          "tipo": "mecânica de fechamento"
+        },
+        {
+          "id": "R08-10",
+          "tema": "sembarreiras",
+          "tipo": "mecânica solicitada"
+        },
+        {
+          "id": "R08-11",
+          "tema": "abertura",
+          "tipo": "compatibilidade"
+        },
+        {
+          "id": "R08-12",
+          "tema": "abertura",
+          "tipo": "mecânica de fechamento"
+        },
+        {
+          "id": "R08-13",
+          "tema": "abertura",
+          "tipo": "mecânica de fechamento"
+        },
+        {
+          "id": "R08-14",
+          "tema": "barreira",
+          "tipo": "mecânica de fechamento"
+        },
+        {
+          "id": "R08-15",
+          "tema": "barreira",
+          "tipo": "mecânica de simplificação"
+        },
+        {
+          "id": "R08-16",
+          "tema": "barreira",
+          "tipo": "mecânica de fechamento"
+        },
+        {
+          "id": "R08-17",
+          "tema": "barreira",
+          "tipo": "mecânica de fechamento"
+        },
+        {
+          "id": "R08-18",
+          "tema": "rescaldo",
+          "tipo": "editorial/compatibilidade"
+        },
+        {
+          "id": "R08-19",
+          "tema": "rescaldo",
+          "tipo": "mecânica de fechamento"
+        },
+        {
+          "id": "R08-20",
+          "tema": "sembarreiras",
+          "tipo": "mecânica de fechamento"
+        },
+        {
+          "id": "R08-21",
+          "tema": "protecao",
+          "tipo": "compatibilidade"
+        },
+        {
+          "id": "R08-22",
+          "tema": "disputa",
+          "tipo": "mecânica de fechamento"
+        },
+        {
+          "id": "R08-23",
+          "tema": "disputa",
+          "tipo": "preservação"
+        },
+        {
+          "id": "R08-24",
+          "tema": "manterdisputa",
+          "tipo": "mecânica de fechamento"
+        },
+        {
+          "id": "R08-25",
+          "tema": "manterdisputa",
+          "tipo": "compatibilidade"
+        },
+        {
+          "id": "R08-26",
+          "tema": "sobreposicao",
+          "tipo": "mecânica de fechamento"
+        },
+        {
+          "id": "R08-27",
+          "tema": "multiplos",
+          "tipo": "mecânica de fechamento"
+        },
+        {
+          "id": "R08-28",
+          "tema": "multiplos",
+          "tipo": "mecânica de fechamento"
+        },
+        {
+          "id": "R08-29",
+          "tema": "galeriavidro",
+          "tipo": "editorial/cânone"
+        },
+        {
+          "id": "R08-30",
+          "tema": "confronto",
+          "tipo": "editorial/número"
+        },
+        {
+          "id": "R08-31",
+          "tema": "acerto",
+          "tipo": "compatibilidade"
+        },
+        {
+          "id": "R08-32",
+          "tema": "acerto",
+          "tipo": "mecânica de fechamento"
+        },
+        {
+          "id": "R08-33",
+          "tema": "exemplos",
+          "tipo": "editorial"
+        }
+      ],
+      "achados": [],
+      "estado": "metadados coerentes nesta fotografia",
+      "gravacao_em_curso": false
+    },
+    {
+      "id": "ritual",
+      "arquivo": "ritual-e-pactos/lote-01/RITUAL-E-PACTOS.md",
+      "sha256_texto": "a7681d1808a2ccb1cfdf0164119cadcae34f0012bf6a4353bdea6fa366e61ee2",
+      "sha256_pdf": "a4ecb43c721c906a5fcf79b05d1a1b49088f205daef45960ae7889b5568fb7f6",
+      "paginas": 13,
+      "validadores_presentes": 15,
+      "conferencia_checks": 110,
+      "conferencia_ok": true,
+      "decisoes": 32,
+      "resumo_decisoes": [
+        {
+          "id": "RP-01",
+          "tema": "Procedimento, requisitos, ação e efeito apresentados antes dos exemplos.",
+          "tipo": "E"
+        },
+        {
+          "id": "RP-02",
+          "tema": "Fórmula preservada e chances recalculadas",
+          "tipo": "M"
+        },
+        {
+          "id": "RP-03",
+          "tema": "Penalidade igual à Classe em PE, cobrada separadamente de conjurador e auxiliar",
+          "tipo": "M"
+        },
+        {
+          "id": "RP-04",
+          "tema": "Duas Ações Completas",
+          "tipo": "M"
+        },
+        {
+          "id": "RP-05",
+          "tema": "Exige Classe 1 ou superior",
+          "tipo": "M"
+        },
+        {
+          "id": "RP-06",
+          "tema": "Voz e gestos são necessários",
+          "tipo": "M"
+        },
+        {
+          "id": "RP-07",
+          "tema": "Liberação ritualizada recebe seis ou dez pontos",
+          "tipo": "M"
+        },
+        {
+          "id": "RP-08",
+          "tema": "Uma compra por benefício",
+          "tipo": "M"
+        },
+        {
+          "id": "RP-09",
+          "tema": "Aplica-se ao dano ou cura iniciais",
+          "tipo": "M"
+        },
+        {
+          "id": "RP-10",
+          "tema": "Arredondar para baixo, mínimo de um",
+          "tipo": "M"
+        },
+        {
+          "id": "RP-11",
+          "tema": "Alcance não aumenta Toque",
+          "tipo": "M"
+        },
+        {
+          "id": "RP-12",
+          "tema": "Permissão delimitada pela Melhoria Perseguir",
+          "tipo": "M"
+        },
+        {
+          "id": "RP-13",
+          "tema": "Cópia da menor parcela após a divisão, para um aliado adicional válido",
+          "tipo": "M"
+        },
+        {
+          "id": "RP-14",
+          "tema": "Cópia da menor parcela, declarada antes das rolagens, para alvo diferente dos tiros originais.",
+          "tipo": "M"
+        },
+        {
+          "id": "RP-15",
+          "tema": "Mais uma rodada para estados com duração em rodadas, sem repetição do benefício",
+          "tipo": "M"
+        },
+        {
+          "id": "RP-16",
+          "tema": "O mesmo custo de tempo ou imobilidade não devolve pontos duas vezes",
+          "tipo": "M"
+        },
+        {
+          "id": "RP-17",
+          "tema": "Um auxiliar, a até 9 m, com percepção mútua e Ação Completa",
+          "tipo": "M"
+        },
+        {
+          "id": "RP-18",
+          "tema": "Consentimento dos jogadores, termos verificáveis e sanções registradas como regras do jogo.",
+          "tipo": "M"
+        },
+        {
+          "id": "RP-19",
+          "tema": "Benefícios limitados a Aptidão, espaço conhecido ou PE",
+          "tipo": "M"
+        },
+        {
+          "id": "RP-20",
+          "tema": "Sem conversão livre de pactos em dano no texto do jogador",
+          "tipo": "M"
+        },
+        {
+          "id": "RP-21",
+          "tema": "Escolhas gastas não retornam",
+          "tipo": "M"
+        },
+        {
+          "id": "RP-22",
+          "tema": "Exemplos próprios com Hana e Mei",
+          "tipo": "E"
+        },
+        {
+          "id": "RP-23",
+          "tema": "Quadro de conceitos com perguntas para implementação",
+          "tipo": "M"
+        },
+        {
+          "id": "RP-24",
+          "tema": "Energia alternada, Despertar do corpo e Reserva vital nos conceitos.",
+          "tipo": "E"
+        },
+        {
+          "id": "RP-25",
+          "tema": "Sucesso e falha usam a mesma montagem já ajustada ao Ritual; uma devolução retirada não retorna.",
+          "tipo": "E/M"
+        },
+        {
+          "id": "RP-26",
+          "tema": "Uma conjuração indicada; consome na tentativa inclusive falha ou interrupção",
+          "tipo": "E/M"
+        },
+        {
+          "id": "RP-27",
+          "tema": "Ajuda posterior ao pagamento não compra Energia nem devolve PE; pode acrescentar benefícios ainda não resolvidos.",
+          "tipo": "E/M"
+        },
+        {
+          "id": "RP-28",
+          "tema": "Usa Perseguir e Concentrada, correspondentes ao catálogo vigente.",
+          "tipo": "E"
+        },
+        {
+          "id": "RP-29",
+          "tema": "Cada pacto de energia aumenta o PE máximo em sua maior Classe, sem recuperação imediata nem geração por turno.",
+          "tipo": "M"
+        },
+        {
+          "id": "RP-30",
+          "tema": "Origem escolhida na menor parcela; copia seus benefícios, sem reunir efeitos distribuídos",
+          "tipo": "M"
+        },
+        {
+          "id": "RP-31",
+          "tema": "Breve não aceita Atrasar; Completo/Recitação não o reembolsam",
+          "tipo": "E/M"
+        },
+        {
+          "id": "RP-32",
+          "tema": "Somam à quantidade inicial antes da divisão; derivados permitidos usam essa base, sem multiplicar bônus inteiro por tiro",
+          "tipo": "E/M"
+        }
+      ],
+      "achados": [
+        "MANIFESTO desatualizado/sem RITUAL-E-PACTOS.md",
+        "MANIFESTO desatualizado/sem output/pdf/Projeto-M-Ritual-e-Pactos-Proposta-01.pdf",
+        "MANIFESTO desatualizado/sem VALIDADORES.json",
+        "MANIFESTO desatualizado/sem CONFERENCIA.json"
+      ],
+      "estado": "transiente informado pela raiz",
+      "gravacao_em_curso": true
+    },
+    {
+      "id": "campo",
+      "arquivo": "invocacoes/lote-01/INVOCACOES-EM-CAMPO.md",
+      "sha256_texto": "297d96084502eb65780b9ed2ac4f7e121a235cfdbb6e41db254f980e55393dcd",
+      "sha256_pdf": "6b25769360dbf54652b762880cfebcebdd61be30f6d8aa666ee35465d083c8b3",
+      "paginas": 31,
+      "validadores_presentes": 15,
+      "conferencia_checks": 236,
+      "conferencia_ok": true,
+      "decisoes": 49,
+      "resumo_decisoes": [
+        {
+          "id": "R11-01",
+          "tema": "inv-campo",
+          "tipo": "editorial"
+        },
+        {
+          "id": "R11-02",
+          "tema": "inv-ciclo",
+          "tipo": "preservação"
+        },
+        {
+          "id": "R11-03",
+          "tema": "inv-entrada",
+          "tipo": "preservação"
+        },
+        {
+          "id": "R11-04",
+          "tema": "inv-troca",
+          "tipo": "preservação"
+        },
+        {
+          "id": "R11-05",
+          "tema": "inv-ciclo",
+          "tipo": "preservação"
+        },
+        {
+          "id": "R11-06",
+          "tema": "inv-intencao",
+          "tipo": "editorial"
+        },
+        {
+          "id": "R11-07",
+          "tema": "inv-comunicacao",
+          "tipo": "mecânica de fechamento"
+        },
+        {
+          "id": "R11-08",
+          "tema": "inv-basica",
+          "tipo": "compatibilidade"
+        },
+        {
+          "id": "R11-09",
+          "tema": "inv-basica",
+          "tipo": "preservação"
+        },
+        {
+          "id": "R11-10",
+          "tema": "inv-especial",
+          "tipo": "mecânica de fechamento"
+        },
+        {
+          "id": "R11-11",
+          "tema": "inv-especial",
+          "tipo": "compatibilidade"
+        },
+        {
+          "id": "R11-12",
+          "tema": "inv-energia",
+          "tipo": "mecânica de fechamento"
+        },
+        {
+          "id": "R11-13",
+          "tema": "inv-energia",
+          "tipo": "mecânica de fechamento"
+        },
+        {
+          "id": "R11-14",
+          "tema": "inv-energia",
+          "tipo": "mecânica de fechamento"
+        },
+        {
+          "id": "R11-15",
+          "tema": "inv-antecipada",
+          "tipo": "preservação"
+        },
+        {
+          "id": "R11-16",
+          "tema": "inv-pendentes",
+          "tipo": "preservação"
+        },
+        {
+          "id": "R11-17",
+          "tema": "inv-preparar",
+          "tipo": "preservação"
+        },
+        {
+          "id": "R11-18",
+          "tema": "inv-gatilhos",
+          "tipo": "compatibilidade"
+        },
+        {
+          "id": "R11-19",
+          "tema": "inv-tempo",
+          "tipo": "mecânica de fechamento"
+        },
+        {
+          "id": "R11-20",
+          "tema": "inv-pendentes",
+          "tipo": "mecânica de fechamento"
+        },
+        {
+          "id": "R11-21",
+          "tema": "inv-armado",
+          "tipo": "mecânica de fechamento"
+        },
+        {
+          "id": "R11-22",
+          "tema": "inv-armado",
+          "tipo": "mecânica de fechamento"
+        },
+        {
+          "id": "R11-23",
+          "tema": "inv-armado",
+          "tipo": "compatibilidade"
+        },
+        {
+          "id": "R11-24",
+          "tema": "inv-respostas",
+          "tipo": "editorial"
+        },
+        {
+          "id": "R11-25",
+          "tema": "inv-defesa",
+          "tipo": "preservação"
+        },
+        {
+          "id": "R11-26",
+          "tema": "inv-talisma",
+          "tipo": "mecânica de fechamento"
+        },
+        {
+          "id": "R11-27",
+          "tema": "inv-corpos",
+          "tipo": "preservação"
+        },
+        {
+          "id": "R11-28",
+          "tema": "inv-reparo",
+          "tipo": "mecânica de fechamento"
+        },
+        {
+          "id": "R11-29",
+          "tema": "inv-reparo",
+          "tipo": "editorial"
+        },
+        {
+          "id": "R11-30",
+          "tema": "inv-liberacao",
+          "tipo": "compatibilidade"
+        },
+        {
+          "id": "R11-31",
+          "tema": "inv-maxima",
+          "tipo": "compatibilidade"
+        },
+        {
+          "id": "R11-32",
+          "tema": "inv-dominio",
+          "tipo": "mecânica de fechamento"
+        },
+        {
+          "id": "R11-33",
+          "tema": "inv-dominio",
+          "tipo": "compatibilidade"
+        },
+        {
+          "id": "R11-34",
+          "tema": "inv-dominio",
+          "tipo": "mecânica de fechamento"
+        },
+        {
+          "id": "R11-35",
+          "tema": "inv-dominio",
+          "tipo": "mecânica de fechamento"
+        },
+        {
+          "id": "R11-36",
+          "tema": "inv-queda",
+          "tipo": "preservação"
+        },
+        {
+          "id": "R11-37",
+          "tema": "inv-retorno",
+          "tipo": "mecânica de fechamento"
+        },
+        {
+          "id": "R11-38",
+          "tema": "inv-fora",
+          "tipo": "preservação"
+        },
+        {
+          "id": "R11-39",
+          "tema": "inv-inconsciente",
+          "tipo": "editorial"
+        },
+        {
+          "id": "R11-40",
+          "tema": "inv-manutencao",
+          "tipo": "mecânica de fechamento"
+        },
+        {
+          "id": "R11-41",
+          "tema": "inv-morte",
+          "tipo": "editorial"
+        },
+        {
+          "id": "R11-42",
+          "tema": "inv-carga",
+          "tipo": "preservação"
+        },
+        {
+          "id": "R11-43",
+          "tema": "inv-basica",
+          "tipo": "compatibilidade"
+        },
+        {
+          "id": "R11-44",
+          "tema": "inv-restricoes-tempo",
+          "tipo": "mecânica de fechamento"
+        },
+        {
+          "id": "R11-45",
+          "tema": "inv-restricoes-tempo",
+          "tipo": "mecânica de fechamento"
+        },
+        {
+          "id": "R11-46",
+          "tema": "inv-pendentes",
+          "tipo": "compatibilidade"
+        },
+        {
+          "id": "R11-47",
+          "tema": "inv-liberacao",
+          "tipo": "compatibilidade"
+        },
+        {
+          "id": "R11-48",
+          "tema": "inv-corpos",
+          "tipo": "fechamento mecânico"
+        },
+        {
+          "id": "R11-49",
+          "tema": "inv-reparo",
+          "tipo": "sincronização mecânica e fechamento de CD"
+        }
+      ],
+      "achados": [
+        "VALIDADORES com hash de PDF anterior",
+        "MANIFESTO desatualizado/sem INVOCACOES-EM-CAMPO.md",
+        "MANIFESTO desatualizado/sem output/pdf/Projeto-M-Invocacoes-em-Campo-Proposta-01.pdf",
+        "MANIFESTO desatualizado/sem VALIDADORES.json",
+        "MANIFESTO desatualizado/sem CONFERENCIA.json"
+      ],
+      "estado": "transiente informado pela raiz",
+      "gravacao_em_curso": true
+    },
+    {
+      "id": "construcao",
+      "arquivo": "invocacoes/lote-02/CONSTRUIR-INVOCACOES.md",
+      "sha256_texto": "bd3d2cc16b5a6c2b373eba1f0ebfabfbc548bae3d6a7cd2eec6dcbb4bfab95d9",
+      "sha256_pdf": "b7a07837d82cb444719a08a5697b6399355ba880af611c567b46bbdc5791fcf3",
+      "paginas": 27,
+      "validadores_presentes": 15,
+      "conferencia_checks": 215,
+      "conferencia_ok": true,
+      "decisoes": 31,
+      "resumo_decisoes": [
+        {
+          "id": "R12-01",
+          "tema": "27 seções de construção, mais R11 de campo e R07 consultável",
+          "tipo": "editorial"
+        },
+        {
+          "id": "R12-02",
+          "tema": "1 espaço por entidade, conceito explícito nas três rotas e uma revisão ocupada por nível",
+          "tipo": "sincronizacao"
+        },
+        {
+          "id": "R12-03",
+          "tema": "Aquisição externa disponível sem técnica; conceito exigido para a troca de espaço",
+          "tipo": "preservacao"
+        },
+        {
+          "id": "R12-04",
+          "tema": "Alvo de nível superior fica inelegível; sem reduzir magicamente seu nível",
+          "tipo": "esclarecimento"
+        },
+        {
+          "id": "R12-05",
+          "tema": "Mestre apresenta ficha convertida antes do risco; identidade/capacidades adaptadas à escala e ações de entidade",
+          "tipo": "mecanica"
+        },
+        {
+          "id": "R12-06",
+          "tema": "Lista pertence a feitiço de aquisição e desafio sozinho; rito definido antes da sessão",
+          "tipo": "esclarecimento"
+        },
+        {
+          "id": "R12-07",
+          "tema": "Interface nomeada Fabricação de entidades, ofícios preservados, dependência pendente registrada",
+          "tipo": "preservacao"
+        },
+        {
+          "id": "R12-08",
+          "tema": "9 m terrestres; modos extraordinários exigem capacidade registrada",
+          "tipo": "mecanica"
+        },
+        {
+          "id": "R12-09",
+          "tema": "Escolha única do invocador na primeira entidade, aplicada às fichas e inativos",
+          "tipo": "esclarecimento"
+        },
+        {
+          "id": "R12-10",
+          "tema": "Proteção usa equipamento vigente, substitui metade do atributo, sem declarar teto19",
+          "tipo": "sincronizacao"
+        },
+        {
+          "id": "R12-11",
+          "tema": "Entidade de nível alto recebe marcos anteriores; Constituição atual recalcula vida inteira",
+          "tipo": "esclarecimento"
+        },
+        {
+          "id": "R12-12",
+          "tema": "Tabela própria1/1/1/2/2/3/3, não ceil pessoal",
+          "tipo": "preservacao"
+        },
+        {
+          "id": "R12-13",
+          "tema": "Tabelas próprias completas e comparação com feitiço pessoal",
+          "tipo": "preservacao"
+        },
+        {
+          "id": "R12-14",
+          "tema": "Melhoria paga um d6; Restrição não restitui esse dado; ApoioC0 não fornece PV temporária",
+          "tipo": "sincronizacao"
+        },
+        {
+          "id": "R12-15",
+          "tema": "Forma+Melhorias podem receber devolução, com saldo limitado ao orçamento próprio",
+          "tipo": "sincronizacao"
+        },
+        {
+          "id": "R12-16",
+          "tema": "Onda só cresce para raio4,5m na C7",
+          "tipo": "esclarecimento"
+        },
+        {
+          "id": "R12-17",
+          "tema": "Teto útil explícito0/1/1/3/3/4/5 preserva a saída antiga após reembolso de Forma",
+          "tipo": "mecanica"
+        },
+        {
+          "id": "R12-18",
+          "tema": "Catálogo R07 fornece efeitos comuns e incompatibilidades; R12 guarda números próprios e acesso",
+          "tipo": "sincronizacao"
+        },
+        {
+          "id": "R12-19",
+          "tema": "Escolha até CP do marco, sem promoção das antigas",
+          "tipo": "mecanica"
+        },
+        {
+          "id": "R12-20",
+          "tema": "As mesmas13 com referência ao texto comum e aquisição própria",
+          "tipo": "preservacao"
+        },
+        {
+          "id": "R12-21",
+          "tema": "Contramedida2PE e coletiva, divisão normal; Eco+Cobrança uma metade antes da divisão",
+          "tipo": "sincronizacao"
+        },
+        {
+          "id": "R12-22",
+          "tema": "Registro de cenaCP1 armazena sons percebidos e reproduz usando básica",
+          "tipo": "exemplo_original"
+        },
+        {
+          "id": "R12-23",
+          "tema": "Cão completo e Vigia de papel com2especiais,1básica e passiva",
+          "tipo": "exemplo_original"
+        },
+        {
+          "id": "R12-24",
+          "tema": "R12 remete às seções específicas da nova R11",
+          "tipo": "interface"
+        },
+        {
+          "id": "R12-25",
+          "tema": "Condições Médias/Pesadas permitidas em especiais comandadas de Aura ou Reação; vedadas em respostas e auras autônomas",
+          "tipo": "esclarecimento"
+        },
+        {
+          "id": "R12-26",
+          "tema": "Cão completo nas páginas lógicas 3 e 4, logo após aquisição por espaço",
+          "tipo": "editorial"
+        },
+        {
+          "id": "R12-27",
+          "tema": "Cura comum limitada a orçamento reduzido menos preço Médio:1/2/3/5/6/7/9d8",
+          "tipo": "correcao_de_sincronizacao"
+        },
+        {
+          "id": "R12-28",
+          "tema": "Exigência da Forma conservada sem ocupar a opção adicional Leve.",
+          "tipo": "esclarecimento mecânico"
+        },
+        {
+          "id": "R12-29",
+          "tema": "Ritual e Pactos e Ferir maldições apontam os destinos atuais.",
+          "tipo": "editorial"
+        },
+        {
+          "id": "R12-30",
+          "tema": "Remissão ao dono da adaptação de ações, preservados alcance e requisito de alvo.",
+          "tipo": "editorial"
+        },
+        {
+          "id": "R12-31",
+          "tema": "Limite de corpos mantidos remete ao novo dono R11; reparo remete ao título Cura e reparo.",
+          "tipo": "compatibilidade e consulta"
+        }
+      ],
+      "achados": [
+        "VALIDADORES com hash de texto anterior",
+        "MANIFESTO desatualizado/sem CONSTRUIR-INVOCACOES.md",
+        "MANIFESTO desatualizado/sem output/pdf/Projeto-M-Construir-Invocacoes-Proposta-01.pdf",
+        "MANIFESTO desatualizado/sem VALIDADORES.json",
+        "MANIFESTO desatualizado/sem CONFERENCIA.json"
+      ],
+      "estado": "pendência documental",
+      "gravacao_em_curso": false
+    },
+    {
+      "id": "fabricacao",
+      "arquivo": "invocacoes/fabricacao/lote-01/FABRICACAO-DE-ENTIDADES.md",
+      "sha256_texto": "61920e6d08f0cae38bf03d2ed27a0e5df06dd9d4f7f780495453bd47fb29847a",
+      "sha256_pdf": "f4a1fcbc2825b556ad2d2cbd3cab598372f89d2b36827d11c67fee0c71de2e40",
+      "paginas": 5,
+      "validadores_presentes": 15,
+      "conferencia_checks": 54,
+      "conferencia_ok": true,
+      "decisoes": 15,
+      "resumo_decisoes": [
+        {
+          "id": "FAB-01",
+          "tema": "Aplicar o projeto R04 à criação, com exceção específica de teste final obrigatório.",
+          "tipo": "integração"
+        },
+        {
+          "id": "FAB-02",
+          "tema": "Responsável treinado, ofício pelo trabalho principal; outros participantes cuidam de etapas pertinentes.",
+          "tipo": "esclarecimento"
+        },
+        {
+          "id": "FAB-03",
+          "tema": "Nível máximo é o menor entre responsável e futuro invocador.",
+          "tipo": "mecânica candidata"
+        },
+        {
+          "id": "FAB-04",
+          "tema": "Receita/processo aprendido, fonte de energia e participantes definidos; dispensa técnica inata e slot.",
+          "tipo": "compatibilidade"
+        },
+        {
+          "id": "FAB-05",
+          "tema": "Materiais/tempo/custos definidos por projeto antes de gastar; sem tabela por nível/Grau, PE adicional só se receita decl",
+          "tipo": "integração"
+        },
+        {
+          "id": "FAB-06",
+          "tema": "CD8+atributo+Maestria do responsável, ajustes0/−2/−4; extras só no teste.",
+          "tipo": "editorial"
+        },
+        {
+          "id": "FAB-07",
+          "tema": "Um teste por entidade ao concluir; falha entrega peça não funcional e retrabalho previsto, sem rolagem por participante.",
+          "tipo": "fechamento operacional"
+        },
+        {
+          "id": "FAB-08",
+          "tema": "Vida máxima; talismã recolhido sem adiantamento de carga; corpo inativo na oficina.",
+          "tipo": "mecânica candidata"
+        },
+        {
+          "id": "FAB-09",
+          "tema": "Transferir via projeto fora de combate, objeto presente, consentimento anterior ou morte, responsável/novo dono de nível",
+          "tipo": "mecânica candidata"
+        },
+        {
+          "id": "FAB-10",
+          "tema": "Conservar nível/ficha/PV/queda/carga/usos, único invocador; trocar só valores do dono; falha conserva vínculo antigo.",
+          "tipo": "mecânica candidata"
+        },
+        {
+          "id": "FAB-11",
+          "tema": "Excedente permanece sem controle até caber; não repetir fórmula neste texto.",
+          "tipo": "compatibilidade"
+        },
+        {
+          "id": "FAB-12",
+          "tema": "Exemplo local:30000/16h, retrabalho6000/4h, nível13→9, bônus6/CD12; 1falha+1sucesso=36000/20h.",
+          "tipo": "exemplo candidato"
+        },
+        {
+          "id": "FAB-13",
+          "tema": "Separar Classe da entidade de Grau de equipamento; não conceder Origem/aptidão ou equipamento pelo material.",
+          "tipo": "editorial/compatibilidade"
+        },
+        {
+          "id": "GRAM01",
+          "tema": "o corpo, inativo ou na condição Desligada.",
+          "tipo": "editorial"
+        },
+        {
+          "id": "GRAM02",
+          "tema": "não religa um corpo na condição Desligada.",
+          "tipo": "editorial"
+        }
+      ],
+      "achados": [
+        "VALIDADORES com hash de texto anterior",
+        "MANIFESTO desatualizado/sem FABRICACAO-DE-ENTIDADES.md",
+        "MANIFESTO desatualizado/sem output/pdf/Projeto-M-Fabricacao-de-Entidades-Proposta-01.pdf",
+        "MANIFESTO desatualizado/sem VALIDADORES.json",
+        "MANIFESTO desatualizado/sem CONFERENCIA.json"
+      ],
+      "estado": "pendência documental",
+      "gravacao_em_curso": false
+    },
+    {
+      "id": "consulta",
+      "arquivo": "consulta/lote-01/CONSULTA.md",
+      "sha256_texto": "a4d4b68bbed3c62efdc849ab32a08350694f6653bdeea08ec71874b5aada4980",
+      "sha256_pdf": "3466b4066609bd841683fced382098abe3b6cc747296f0c3a636ef5a081dabde",
+      "paginas": 30,
+      "validadores_presentes": 15,
+      "conferencia_checks": 229,
+      "conferencia_ok": true,
+      "decisoes": 30,
+      "resumo_decisoes": [
+        {
+          "id": "R23-01",
+          "tema": "Glossário para definições, índice para capacidades específicas, quadros para procedimentos.",
+          "tipo": "editorial"
+        },
+        {
+          "id": "R23-02",
+          "tema": "Todas as ocorrências recebem destino no mapa; 85 conceitos breves e 248 entradas no índice.",
+          "tipo": "editorial"
+        },
+        {
+          "id": "R23-03",
+          "tema": "Definição cobre ataque, cura e utilidade e remete ao Fundamento atual.",
+          "tipo": "sincronizacao"
+        },
+        {
+          "id": "R23-04",
+          "tema": "Índice conserva aliases para Incursor e Pugilista.",
+          "tipo": "editorial"
+        },
+        {
+          "id": "R23-05",
+          "tema": "Entradas separadas: orçamento de montagem, custo de uso e vaga conhecida.",
+          "tipo": "editorial"
+        },
+        {
+          "id": "R23-06",
+          "tema": "Definições e remissões sem copiar prazos, testes ou percentuais.",
+          "tipo": "interface"
+        },
+        {
+          "id": "R23-07",
+          "tema": "Campos separados; Patente remete Progressão, com dependência de explicação curta registrada.",
+          "tipo": "interface"
+        },
+        {
+          "id": "R23-08",
+          "tema": "Quadro informa começo do próprio turno, não rodada.",
+          "tipo": "editorial"
+        },
+        {
+          "id": "R23-09",
+          "tema": "Registro da especial começa no pagamento da ordem; resolução posterior conserva esse histórico.",
+          "tipo": "sincronizacao"
+        },
+        {
+          "id": "R23-10",
+          "tema": "Modelos editoriais em branco com origem do cálculo e referência; nenhum valor padrão embutido.",
+          "tipo": "editorial"
+        },
+        {
+          "id": "R23-11",
+          "tema": "Atributos aparecem fora do quadro de TR; cada TR recebe atributo, treino e bônus próprios.",
+          "tipo": "editorial"
+        },
+        {
+          "id": "R23-12",
+          "tema": "Ficha distingue ocupações, opções fora da conta e forma de aquisição.",
+          "tipo": "editorial"
+        },
+        {
+          "id": "R23-13",
+          "tema": "Entrada/saída, posição semanal, ajuste, XP gasto e saldo, recursos, empréstimos e decisões de regra.",
+          "tipo": "editorial"
+        },
+        {
+          "id": "R23-14",
+          "tema": "Duas páginas com situação, objetivo, informação, escolhas, fichas completas e registro.",
+          "tipo": "editorial"
+        },
+        {
+          "id": "R23-15",
+          "tema": "Página identifica obra, procedimentos originais e função editorial dos dois livros consultados.",
+          "tipo": "editorial"
+        },
+        {
+          "id": "R23-16",
+          "tema": "Índice guarda arquivo, âncora e título verificáveis, sem números físicos inventados.",
+          "tipo": "interface"
+        },
+        {
+          "id": "R23-17",
+          "tema": "Exceções editoriais permitem somente linhas de remissão, sem explicar a habilidade.",
+          "tipo": "editorial"
+        },
+        {
+          "id": "R23-18",
+          "tema": "Glossário distingue Volume de propriedade e o índice aponta os contextos; lista de armas fica no equipamento.",
+          "tipo": "interface"
+        },
+        {
+          "id": "R23-19",
+          "tema": "Índice numerado com faixa alfabética; títulos gerais curtos.",
+          "tipo": "editorial"
+        },
+        {
+          "id": "R23-20",
+          "tema": "Patente e Grau (patente) remetem a prog-patentes, integrada pela raiz.",
+          "tipo": "sincronizacao"
+        },
+        {
+          "id": "R23-21",
+          "tema": "Cura (recuperação) e Cura (Forma) recebem destinos distintos.",
+          "tipo": "correcao-editorial"
+        },
+        {
+          "id": "R23-22",
+          "tema": "Campo atual/máximo, quando aplicável, sem conceder alma ou reserva por existir um campo.",
+          "tipo": "correcao-editorial"
+        },
+        {
+          "id": "R23-23",
+          "tema": "Ficha de recuperação reúne referência, janela, tratamento, Sequelas, custos, Integridade e desfecho; Derrotado, Estabili",
+          "tipo": "sincronizacao"
+        },
+        {
+          "id": "R23-24",
+          "tema": "Consulta atual usa os dois donos consolidados: Regras gerais e Dano e Recuperação.",
+          "tipo": "sincronizacao"
+        },
+        {
+          "id": "R23-25",
+          "tema": "Nome anterior permanece somente como alias no índice, apontando para Guarda Aberta após a renomeação transversal.",
+          "tipo": "sincronizacao"
+        },
+        {
+          "id": "R23-26",
+          "tema": "Até26 linhas por página; nova ficha acrescenta uma página principal e novos aliases ampliam o índice em uma página.",
+          "tipo": "diagramacao"
+        },
+        {
+          "id": "R23-27",
+          "tema": "Talento e Categoria de Efeito (CE) são os termos atuais; Expressão da técnica identifica o benefício gratuito; Identific",
+          "tipo": "sincronizacao"
+        },
+        {
+          "id": "R23-28",
+          "tema": "Destinos usam EQUIPAMENTO.md e o mapa de âncoras do dono; Volumosa remete Armas escondidas.",
+          "tipo": "sincronizacao"
+        },
+        {
+          "id": "R23-29",
+          "tema": "Títulos exibem Índice:A ou Índice:A–B conforme a faixa, mantendo os IDs internos.",
+          "tipo": "diagramacao"
+        },
+        {
+          "id": "R23-30",
+          "tema": "Definição inclui Talentos, Aptidões e Bênçãos e remete à aquisição de cada entrada",
+          "tipo": "correcao-editorial"
+        }
+      ],
+      "achados": [
+        "MANIFESTO desatualizado/sem CONSULTA.md",
+        "MANIFESTO desatualizado/sem output/pdf/Projeto-M-Consulta-Proposta-01.pdf",
+        "MANIFESTO desatualizado/sem VALIDADORES.json",
+        "MANIFESTO desatualizado/sem CONFERENCIA.json"
+      ],
+      "estado": "pendência documental",
+      "gravacao_em_curso": false
+    },
+    {
+      "id": "bastiao",
+      "arquivo": "caminhos/bastiao/lote-01/BASTIAO.md",
+      "sha256_texto": "b1632e1f57b9892b35c66cf00d852621af5a237bcd6ebb214980a0fcea8469da",
+      "sha256_pdf": "9af156ddf544432441319a3622b58144fa23a71c335cebfb619ff5a2776682bc",
+      "paginas": 11,
+      "validadores_presentes": 15,
+      "conferencia_checks": 96,
+      "conferencia_ok": true,
+      "decisoes": 26,
+      "resumo_decisoes": [
+        {
+          "id": "BAS01",
+          "tema": "Tabela inclui vida inicial 12 + Con e fórmula PE4×nível.",
+          "tipo": "Editorial"
+        },
+        {
+          "id": "BAS02",
+          "tema": "Níveis e troca integral de Trilha explícitos.",
+          "tipo": "Editorial"
+        },
+        {
+          "id": "BAS03",
+          "tema": "Aura base termina Inconsciente, mas não ao cair/agarrar; Inabalável conserva passivos sem conceder ações.",
+          "tipo": "Esclarecimento mecânico"
+        },
+        {
+          "id": "BAS04",
+          "tema": "Um total de Provocar vira CD; cada Espírito igual ou maior resiste.",
+          "tipo": "Esclarecimento mecânico"
+        },
+        {
+          "id": "BAS05",
+          "tema": "Assumir antes da rolagem com Defesa/Bloquear própria; Duro em cada falha sem limite.",
+          "tipo": "Preservação humana"
+        },
+        {
+          "id": "BAS06",
+          "tema": "Precisa perceber aliado/ataque",
+          "tipo": "Esclarecimento mecânico"
+        },
+        {
+          "id": "BAS07",
+          "tema": "Vantagem passiva no TR Físico de ataque por criatura dentro da aura.",
+          "tipo": "Preservação humana"
+        },
+        {
+          "id": "BAS08",
+          "tema": "Perda de vida termina≤metade; pode já estar abaixo; não só vida temporária; metade nível para baixo; zero segue Recupera",
+          "tipo": "Esclarecimento mecânico"
+        },
+        {
+          "id": "BAS09",
+          "tema": "Não dispara por empurrão nem aura passando sobre alvo; reentrada real pode disparar.",
+          "tipo": "Editorial"
+        },
+        {
+          "id": "BAS10",
+          "tema": "Resolve proteções/reservas aliado; preserva1; transfere excedente com tipos; aplica proteções próprias do Bastião, sem r",
+          "tipo": "Esclarecimento mecânico"
+        },
+        {
+          "id": "BAS11",
+          "tema": "Trata como resistência, não empilha metades equivalentes e respeita Alma.",
+          "tipo": "Esclarecimento mecânico"
+        },
+        {
+          "id": "BAS12",
+          "tema": "1,5m; cobertura maior não soma; ao interceptar não leva cobertura concedida ao aliado.",
+          "tipo": "Editorial"
+        },
+        {
+          "id": "BAS13",
+          "tema": "Explica dados novos de Casca versus dados já rolados de Duro; resistência vem antes.",
+          "tipo": "Editorial"
+        },
+        {
+          "id": "BAS14",
+          "tema": "Trocação/Retaliação resolvem após golpe recebido, se ainda puder agir; conservam alcance e limite conjuração.",
+          "tipo": "Esclarecimento mecânico"
+        },
+        {
+          "id": "BAS15",
+          "tema": "Vigor8+For+M; falha escolhe Derrubado ou Agarrado com mão e alcance.",
+          "tipo": "Preservação humana"
+        },
+        {
+          "id": "BAS16",
+          "tema": "Obstáculo interrompe, queda real usa dono, sem dano colisão automático; escape usa CD inicial; não importa limite tamanh",
+          "tipo": "Esclarecimento mecânico"
+        },
+        {
+          "id": "BAS17",
+          "tema": "2PE por alvo tentado após primeiro, antes rolar.",
+          "tipo": "Preservação humana"
+        },
+        {
+          "id": "BAS18",
+          "tema": "Só seus golpes usam alcance aura; sem atravessar sólido, agarrar continua alcance normal",
+          "tipo": "Esclarecimento mecânico"
+        },
+        {
+          "id": "BAS19",
+          "tema": "Minha Vez gasta2PE por nova tentativa após sucessoBlock,1/rodada; AtaqueExtra não é ação e não renova com Padrão extra.",
+          "tipo": "Editorial"
+        },
+        {
+          "id": "BAS20",
+          "tema": "Atualiza máximo com atributo, não recupera energia ao variar.",
+          "tipo": "Esclarecimento mecânico"
+        },
+        {
+          "id": "BAS21",
+          "tema": "Explicita reposição após gasto e nenhum empilhamento; TR não depende aura.",
+          "tipo": "Editorial"
+        },
+        {
+          "id": "BAS22",
+          "tema": "Escolhe ataque/TR antes da rolagem; próxima conjuração consome mesmo se automática, erro ou resistência; Class0 não cons",
+          "tipo": "Esclarecimento mecânico"
+        },
+        {
+          "id": "BAS23",
+          "tema": "Escolha primeiro/segundo antes rolar; feitiço separado sem crítico; escolhido sem Canalizar nem Estímulo; outro ataque n",
+          "tipo": "Preservação humana"
+        },
+        {
+          "id": "BAS24",
+          "tema": "Conferir≤metade na declaração, Classfloor(max/2) igual, mesmo se físico erra; PE normal, limite turno e preparo não são ",
+          "tipo": "Esclarecimento mecânico"
+        },
+        {
+          "id": "BAS25",
+          "tema": "Fonte fixa a ordem de suas parcelas antes da rolagem; proteções/reservas consomem nessa ordem; transfere somente parcela",
+          "tipo": "Esclarecimento mecânico / sincronização"
+        },
+        {
+          "id": "BAS26",
+          "tema": "Enquanto Olhos Em Mim estiver ativo, você tem **vantagem em TR Físico exigido por um ataque ou efeito ofensivo de uma cr",
+          "tipo": "Esclarecimento com impacto mecânico"
+        }
+      ],
+      "achados": [],
+      "estado": "metadados coerentes nesta fotografia",
+      "gravacao_em_curso": false
+    },
+    {
+      "id": "vanguarda",
+      "arquivo": "caminhos/vanguarda/lote-01/VANGUARDA.md",
+      "sha256_texto": "743f954c5be1033034a71bbae0e8383bffdb82944e28341e5ee089338bb0b85b",
+      "sha256_pdf": "8833082ea50f001bdbd154d08388b44d136ebceabdbae1957173f3acaa97da31",
+      "paginas": 20,
+      "validadores_presentes": 15,
+      "conferencia_checks": 159,
+      "conferencia_ok": true,
+      "decisoes": 15,
+      "resumo_decisoes": [
+        {
+          "id": "VG-01",
+          "tema": "Vinte páginas por procedimento, com seis grupos de consulta",
+          "tipo": "E"
+        },
+        {
+          "id": "VG-02",
+          "tema": "Remissões por título para Perícias e Ofícios e Compras e equipamento inicial.",
+          "tipo": "E"
+        },
+        {
+          "id": "VG-03",
+          "tema": "Identificado o turno do usuário ou do alvo em cada efeito.",
+          "tipo": "E"
+        },
+        {
+          "id": "VG-04",
+          "tema": "Regra base menciona uma exceção expressa sem explicar outra habilidade.",
+          "tipo": "E"
+        },
+        {
+          "id": "VG-05",
+          "tema": "Acrescenta categorias até a Maestria atual quando ela sobe.",
+          "tipo": "M"
+        },
+        {
+          "id": "VG-06",
+          "tema": "Substitui dados de Canalizar em Golpe ou Estímulo Muscular naquele golpe, conforme a opção que seria aplicada.",
+          "tipo": "E"
+        },
+        {
+          "id": "VG-07",
+          "tema": "Classe 0 de Ferrão é exceção ao limite do turno e não ativa outro Compasso.",
+          "tipo": "M"
+        },
+        {
+          "id": "VG-08",
+          "tema": "Flecha separada ao armar, consumida no disparo",
+          "tipo": "M"
+        },
+        {
+          "id": "VG-09",
+          "tema": "Colocar virote integra cada ataque e ainda exige mão",
+          "tipo": "M"
+        },
+        {
+          "id": "VG-10",
+          "tema": "Capacidade adicional preenchida com munição do inventário",
+          "tipo": "M"
+        },
+        {
+          "id": "VG-11",
+          "tema": "Preserva o cálculo específico e remete ao procedimento geral.",
+          "tipo": "E"
+        },
+        {
+          "id": "VG-12",
+          "tema": "Frases curtas e campos separados por ponto.",
+          "tipo": "E"
+        },
+        {
+          "id": "VG-13",
+          "tema": "Emi de nível 10 abre e Conduz com dois ataques, depois Conclui.",
+          "tipo": "E"
+        },
+        {
+          "id": "VG-14",
+          "tema": "Colocar virote exige mão quando houver recarga",
+          "tipo": "E/M"
+        },
+        {
+          "id": "VG-15",
+          "tema": "A arma precisa estar pronta e ter duas unidades carregadas para o disparo e a compra da Oportunidade.",
+          "tipo": "E/M"
+        }
+      ],
+      "achados": [],
+      "estado": "metadados coerentes nesta fotografia",
+      "gravacao_em_curso": false
+    },
+    {
+      "id": "guia",
+      "arquivo": "caminhos/guia/lote-01/GUIA.md",
+      "sha256_texto": "5bf3964d6d8c233069b9f2569fe9487361f9dec0c6473579f594d71c217cca5c",
+      "sha256_pdf": "3d0e955534d0b8bb42fcab9abf8ab2bbe5ca15f33e8fbe7d2a469677ffd1dc7f",
+      "paginas": 17,
+      "validadores_presentes": 15,
+      "conferencia_checks": 138,
+      "conferencia_ok": true,
+      "decisoes": 38,
+      "resumo_decisoes": [
+        {
+          "id": "R15-01",
+          "tema": "guia",
+          "tipo": "editorial"
+        },
+        {
+          "id": "R15-02",
+          "tema": "guia",
+          "tipo": "preservação"
+        },
+        {
+          "id": "R15-03",
+          "tema": "guia",
+          "tipo": "compatibilidade"
+        },
+        {
+          "id": "R15-04",
+          "tema": "guia-progressao",
+          "tipo": "editorial"
+        },
+        {
+          "id": "R15-05",
+          "tema": "guia-progressao",
+          "tipo": "preservação"
+        },
+        {
+          "id": "R15-06",
+          "tema": "guia-progressao",
+          "tipo": "mecânica de fechamento"
+        },
+        {
+          "id": "R15-07",
+          "tema": "guia-progressao",
+          "tipo": "compatibilidade"
+        },
+        {
+          "id": "R15-08",
+          "tema": "guia-aberturas",
+          "tipo": "preservação"
+        },
+        {
+          "id": "R15-09",
+          "tema": "guia-resposta",
+          "tipo": "mecânica de fechamento"
+        },
+        {
+          "id": "R15-10",
+          "tema": "guia-resposta",
+          "tipo": "compatibilidade"
+        },
+        {
+          "id": "R15-11",
+          "tema": "guia-resposta",
+          "tipo": "editorial"
+        },
+        {
+          "id": "R15-12",
+          "tema": "guia-resposta",
+          "tipo": "compatibilidade"
+        },
+        {
+          "id": "R15-13",
+          "tema": "guia-resposta",
+          "tipo": "mecânica de fechamento"
+        },
+        {
+          "id": "R15-14",
+          "tema": "guia-planos",
+          "tipo": "preservação"
+        },
+        {
+          "id": "R15-15",
+          "tema": "guia-plano-conjunto",
+          "tipo": "preservação"
+        },
+        {
+          "id": "R15-16",
+          "tema": "guia-plano-conjunto",
+          "tipo": "preservação"
+        },
+        {
+          "id": "R15-17",
+          "tema": "guia-arquiteto",
+          "tipo": "preservação"
+        },
+        {
+          "id": "R15-18",
+          "tema": "guia-modelos",
+          "tipo": "mecânica solicitada"
+        },
+        {
+          "id": "R15-19",
+          "tema": "guia-modelos",
+          "tipo": "compatibilidade"
+        },
+        {
+          "id": "R15-20",
+          "tema": "guia-modelos",
+          "tipo": "compatibilidade"
+        },
+        {
+          "id": "R15-21",
+          "tema": "guia-obra-uso",
+          "tipo": "editorial"
+        },
+        {
+          "id": "R15-22",
+          "tema": "guia-obras-maiores",
+          "tipo": "preservação"
+        },
+        {
+          "id": "R15-23",
+          "tema": "guia-emergencia",
+          "tipo": "mecânica de fechamento"
+        },
+        {
+          "id": "R15-24",
+          "tema": "guia-emergencia",
+          "tipo": "compatibilidade"
+        },
+        {
+          "id": "R15-25",
+          "tema": "guia-analista",
+          "tipo": "preservação"
+        },
+        {
+          "id": "R15-26",
+          "tema": "guia-analista",
+          "tipo": "compatibilidade"
+        },
+        {
+          "id": "R15-27",
+          "tema": "guia-brecha",
+          "tipo": "preservação"
+        },
+        {
+          "id": "R15-28",
+          "tema": "guia-brecha",
+          "tipo": "preservação"
+        },
+        {
+          "id": "R15-29",
+          "tema": "guia-padrao",
+          "tipo": "preservação"
+        },
+        {
+          "id": "R15-30",
+          "tema": "guia-socorrista",
+          "tipo": "preservação"
+        },
+        {
+          "id": "R15-31",
+          "tema": "guia-tratamento",
+          "tipo": "compatibilidade"
+        },
+        {
+          "id": "R15-32",
+          "tema": "guia-tratamento",
+          "tipo": "compatibilidade"
+        },
+        {
+          "id": "R15-33",
+          "tema": "guia-emergencia-cuidado",
+          "tipo": "preservação"
+        },
+        {
+          "id": "R15-34",
+          "tema": "guia-emergencia-cuidado",
+          "tipo": "preservação"
+        },
+        {
+          "id": "R15-35",
+          "tema": "guia-plano-conjunto",
+          "tipo": "mecânica de fechamento"
+        },
+        {
+          "id": "GUIA-36",
+          "tema": "8 + Constituição inicial e 5 + Constituição seguintes; PE 5 × nível.",
+          "tipo": "correção editorial"
+        },
+        {
+          "id": "GUIA-37",
+          "tema": "A partir do nível 11 na frase inicial.",
+          "tipo": "correção editorial/funcional"
+        },
+        {
+          "id": "GUIA-38",
+          "tema": "Enquanto o aliado ainda estiver **Morrendo**, esta cura encerra a queda mesmo abaixo do limiar normal de recuperação",
+          "tipo": "ajuste mecânico de compatibilidade"
+        }
+      ],
+      "achados": [
+        "VALIDADORES com hash de texto anterior",
+        "CONFERENCIA com texto anterior",
+        "CONFERENCIA com PDF anterior",
+        "MANIFESTO desatualizado/sem output/pdf/Projeto-M-Guia-Proposta-01.pdf",
+        "MANIFESTO desatualizado/sem VALIDADORES.json"
+      ],
+      "estado": "pendência documental",
+      "gravacao_em_curso": false
+    },
+    {
+      "id": "emanador",
+      "arquivo": "caminhos/emanador/lote-01/EMANADOR.md",
+      "sha256_texto": "027d4f93d4d59d6674cf3d0ac7f380bd387c367d1e012740b6d25e71b744ba1f",
+      "sha256_pdf": "6db0a02aea443bbc77bcfabe519beff6585c2c37a241fe625cd199b73e8a6667",
+      "paginas": 19,
+      "validadores_presentes": 15,
+      "conferencia_checks": 152,
+      "conferencia_ok": true,
+      "decisoes": 29,
+      "resumo_decisoes": [
+        {
+          "id": "EMA01",
+          "tema": "Dezenove páginas por procedimento, preservando nomes e entregas.",
+          "tipo": "E"
+        },
+        {
+          "id": "EMA02",
+          "tema": "Inclui6+Con inicial,4+Con por nível e6×nívelPE.",
+          "tipo": "E"
+        },
+        {
+          "id": "EMA03",
+          "tema": "Concede Arma de Fogo/Balestra sem dizer que não exigem treino de verdade.",
+          "tipo": "E"
+        },
+        {
+          "id": "EMA04",
+          "tema": "Paga diferença positiva dos preços trocados com resultado; recálculo do orçamento pode retirar mais, nunca devolver o qu",
+          "tipo": "M"
+        },
+        {
+          "id": "EMA05",
+          "tema": "Explicita que PE adicional paga a peça, sem descontá-la novamente dos dados.",
+          "tipo": "E"
+        },
+        {
+          "id": "EMA06",
+          "tema": "Famílias Fechadas, Selo, Reação pré-definida e Efeito Próprio preservados; sem Toque+Longe ou Gesto dispensado.",
+          "tipo": "E"
+        },
+        {
+          "id": "EMA07",
+          "tema": "Compara saldo útil em pontos antes de converter, sem crescimento, aplicando teto da nova Forma.",
+          "tipo": "M"
+        },
+        {
+          "id": "EMA08",
+          "tema": "Em Composição, compara preço conjunto das peças trocadas, paga diferença positiva e descarta sobra.",
+          "tipo": "M"
+        },
+        {
+          "id": "EMA09",
+          "tema": "Original/Familiar compartilham usos por ficha como Único.",
+          "tipo": "M"
+        },
+        {
+          "id": "EMA10",
+          "tema": "Escolha uma fórmula completa: Afinidade reduz a base original e soma a diferença integral de Ampliar; Eco/Cobrança reduz",
+          "tipo": "M"
+        },
+        {
+          "id": "EMA11",
+          "tema": "O desconto fixo de Ritual reduz a base pertinente à alternativa escolhida antes de calcular a metade, com mínimo 1: base",
+          "tipo": "M"
+        },
+        {
+          "id": "EMA12",
+          "tema": "A base de 1 PE de Instintiva não recebe novos abatimentos e exige Padrão",
+          "tipo": "M"
+        },
+        {
+          "id": "EMA13",
+          "tema": "Ataque e conjuração são resoluções separadas; ataque pode usar Canalizar.",
+          "tipo": "E"
+        },
+        {
+          "id": "EMA14",
+          "tema": "Guardar/sacar usam manipulação normal; retornoBônus sóarma solta e mão disponível.",
+          "tipo": "M"
+        },
+        {
+          "id": "EMA15",
+          "tema": "Não converte, repõe ou repara",
+          "tipo": "M"
+        },
+        {
+          "id": "EMA16",
+          "tema": "Exige perceber espaço livre e arma, com mão para recebê-la; não leva criaturas.",
+          "tipo": "M"
+        },
+        {
+          "id": "EMA17",
+          "tema": "Liberar sem ação no próprio turno; destruir arma/apoio também encerra.",
+          "tipo": "M"
+        },
+        {
+          "id": "EMA18",
+          "tema": "Paga uma manipulação para ambas; limites por cena compartilhados.",
+          "tipo": "E"
+        },
+        {
+          "id": "EMA19",
+          "tema": "Preserva1km como distância narrativa, não como alcance de ataque/área.",
+          "tipo": "Exceção de medida"
+        },
+        {
+          "id": "EMA20",
+          "tema": "Cone/Linha podem partir do ponto, mas Toque/Aura não afastam aplicação mantendo devolução e Forma que exige centroprópri",
+          "tipo": "M"
+        },
+        {
+          "id": "EMA21",
+          "tema": "Familiar sozinha não geraEco; alteração adicionalporDesdobramento pode gerar.",
+          "tipo": "M"
+        },
+        {
+          "id": "EMA22",
+          "tema": "Geração única apósresoluçãoinicial; preparaçãoadiada só gera apósdisparo; parcelas posteriores não geram.",
+          "tipo": "M"
+        },
+        {
+          "id": "EMA23",
+          "tema": "Registro usa peça+maneira",
+          "tipo": "M"
+        },
+        {
+          "id": "EMA24",
+          "tema": "DoisEcos deixam espaço para apenas uma nova alteração, mesmo comComposição.",
+          "tipo": "E"
+        },
+        {
+          "id": "EMA25",
+          "tema": "Geração exigePadrão; gasto exigeClasse1+alterada/Familiar",
+          "tipo": "M"
+        },
+        {
+          "id": "EMA26",
+          "tema": "Umataque ouprimeiroTRdecriaturapreselecionado, repetindoprocedimento e usandosegundo; dano repete cada1/2 sóuma vez.",
+          "tipo": "E"
+        },
+        {
+          "id": "EMA27",
+          "tema": "Sobrecarregar Energia.",
+          "tipo": "Correção ortográfica"
+        },
+        {
+          "id": "EMA28",
+          "tema": "GastaImpulso e uso de cena ao declararcombinação; parcelaCorreçãosósererrolar.",
+          "tipo": "M"
+        },
+        {
+          "id": "EMA29",
+          "tema": "Não ignora bloqueiodeganho atéfimpróximoturno imposto porSobrecarga.",
+          "tipo": "M"
+        }
+      ],
+      "achados": [
+        "MANIFESTO desatualizado/sem EMANADOR.md",
+        "MANIFESTO desatualizado/sem output/pdf/Projeto-M-Emanador-Proposta-01.pdf",
+        "MANIFESTO desatualizado/sem VALIDADORES.json",
+        "MANIFESTO desatualizado/sem CONFERENCIA.json"
+      ],
+      "estado": "transiente informado pela raiz",
+      "gravacao_em_curso": true
+    },
+    {
+      "id": "evocador",
+      "arquivo": "caminhos/evocador/lote-01/EVOCADOR.md",
+      "sha256_texto": "77e47e82794850bf8e051fab789fe1e6acfa8f545a9b18d41f4f8f4bc8b45083",
+      "sha256_pdf": "4baacca9419f61e2fe6d796212f75b0e608ef0124554b6aee79f9ac9f8b49f0e",
+      "paginas": 33,
+      "validadores_presentes": 15,
+      "conferencia_checks": 250,
+      "conferencia_ok": true,
+      "decisoes": 27,
+      "resumo_decisoes": [
+        {
+          "id": "EV01",
+          "tema": "33 páginas lógicas com títulos de assunto, exemplos próximos e quadro de características.",
+          "tipo": "Editorial"
+        },
+        {
+          "id": "EV02",
+          "tema": "PE máximos6×nível, vida inicial6+Con, progressão4+Con.",
+          "tipo": "Esclarecimento editorial"
+        },
+        {
+          "id": "EV03",
+          "tema": "Especial normal é a capacidade da ficha; trunfos separados não entram quando a regra exigir normal.",
+          "tipo": "Esclarecimento de acesso"
+        },
+        {
+          "id": "EV04",
+          "tema": "Mantida renovação por começo de turno, mesmo em turnos de outras criaturas.",
+          "tipo": "Sincronização"
+        },
+        {
+          "id": "EV05",
+          "tema": "Escolha gratuita também exige estar consciente.",
+          "tipo": "Esclarecimento"
+        },
+        {
+          "id": "EV06",
+          "tema": "TR e deslocamento pertencem explicitamente à invocação.",
+          "tipo": "Correção de referência"
+        },
+        {
+          "id": "EV07",
+          "tema": "Mantidos saldos e vínculo do benefício de movimento à primeira entidade que o usar.",
+          "tipo": "Preservação"
+        },
+        {
+          "id": "EV08",
+          "tema": "Não gasta outra básica nem outro PE; uma única repetição entre todas as fontes.",
+          "tipo": "Esclarecimento"
+        },
+        {
+          "id": "EV09",
+          "tema": "Valores, prazos e desconto atézero preservados.",
+          "tipo": "Preservação"
+        },
+        {
+          "id": "EV10",
+          "tema": "Básica gasta, investida ou perdida impede; zero não cumpre requisito.",
+          "tipo": "Esclarecimento de requisito"
+        },
+        {
+          "id": "EV11",
+          "tema": "Troca transmite saldo, não fabrica segunda básica depois da entrada.",
+          "tipo": "Preservação"
+        },
+        {
+          "id": "EV12",
+          "tema": "Básica é Classe0 com escala de nível; especial usa maiorClasse permitida.",
+          "tipo": "Correção de classificação"
+        },
+        {
+          "id": "EV13",
+          "tema": "Só passivas permitidas para entidades, com requisitos, inclusive as extras de Múltiplas.",
+          "tipo": "Sincronização de acesso"
+        },
+        {
+          "id": "EV14",
+          "tema": "Exemplo57PV,Con2,proteção15,danode20→52PV.",
+          "tipo": "Correção de exemplo"
+        },
+        {
+          "id": "EV15",
+          "tema": "Limites e janelas preservados, sem conceder Trilha diferente.",
+          "tipo": "Preservação"
+        },
+        {
+          "id": "EV16",
+          "tema": "Todas as entregas mantidas.",
+          "tipo": "Preservação"
+        },
+        {
+          "id": "EV17",
+          "tema": "Uma execução marca uso, mesmo com erro",
+          "tipo": "Preservação"
+        },
+        {
+          "id": "EV18",
+          "tema": "Exemplo mostra que pagar2dispensa saldo, mas não a aptidão de reagir.",
+          "tipo": "Preservação"
+        },
+        {
+          "id": "EV19",
+          "tema": "Escalas e custos preservados, incluídaClasseefetiva apósAmpliar.",
+          "tipo": "Preservação"
+        },
+        {
+          "id": "EV20",
+          "tema": "Básica preparada comdano também conta fora doturno; comando marca especial na emissão, disparo não cobra outra permissão",
+          "tipo": "Esclarecimento de tempo"
+        },
+        {
+          "id": "EV21",
+          "tema": "Exige conceito com entidades nas três rotas; espaços beneficiados identificados; demais1porvaga.",
+          "tipo": "Sincronização de aquisição"
+        },
+        {
+          "id": "EV22",
+          "tema": "Uma reescrita do espaço revisa a dupla desse espaço; não migra bônus para novas vagas.",
+          "tipo": "Fechamento de reescrita"
+        },
+        {
+          "id": "EV23",
+          "tema": "Total de corpos mantidos = atributo + capacidade de controle",
+          "tipo": "Mecânica autorizada: contabilização de corpos"
+        },
+        {
+          "id": "EV24",
+          "tema": "Duploalcance e requisito18mpermanecem; precisão tem uso próprio separado dos aprimoramentos.",
+          "tipo": "Preservação"
+        },
+        {
+          "id": "EV25",
+          "tema": "Mantidos todos os requisitos.",
+          "tipo": "Preservação"
+        },
+        {
+          "id": "EV26",
+          "tema": "Exemplos locais e três turnos completos; permitido/condições em lugar de vocabulário jurídico.",
+          "tipo": "Editorial e validação"
+        },
+        {
+          "id": "EV27",
+          "tema": "Explicita contato e origem corporal preservados, permitindo origem externa de Cone/Linha quando compatível",
+          "tipo": "Esclarecimento de compatibilidade e editorial"
+        }
+      ],
+      "achados": [
+        "MANIFESTO desatualizado/sem EVOCADOR.md",
+        "MANIFESTO desatualizado/sem output/pdf/Projeto-M-Evocador-Proposta-01.pdf",
+        "MANIFESTO desatualizado/sem VALIDADORES.json",
+        "MANIFESTO desatualizado/sem CONFERENCIA.json"
+      ],
+      "estado": "transiente informado pela raiz",
+      "gravacao_em_curso": true
+    },
+    {
+      "id": "incursor",
+      "arquivo": "caminhos/incursor/lote-01/INCURSOR.md",
+      "sha256_texto": "3705e460791db6ae03b79eb2f7b25d13936a1c1ab54ddba616fa3872407f09f1",
+      "sha256_pdf": "cd47ec69eb86f24df55f4ad545320d02a992869412687b87282f184669b58b5a",
+      "paginas": 26,
+      "validadores_presentes": 15,
+      "conferencia_checks": 201,
+      "conferencia_ok": true,
+      "decisoes": 21,
+      "resumo_decisoes": [
+        {
+          "id": "INC-01",
+          "tema": "inc-caminho",
+          "tipo": "editorial"
+        },
+        {
+          "id": "INC-02",
+          "tema": "inc-caminho",
+          "tipo": "editorial"
+        },
+        {
+          "id": "INC-03",
+          "tema": "inc-movimento",
+          "tipo": "sincronizacao-aprovada"
+        },
+        {
+          "id": "INC-04",
+          "tema": "inc-movimento",
+          "tipo": "localizacao"
+        },
+        {
+          "id": "INC-05",
+          "tema": "inc-fluidez",
+          "tipo": "fechamento-mecanico"
+        },
+        {
+          "id": "INC-06",
+          "tema": "inc-respostas",
+          "tipo": "editorial"
+        },
+        {
+          "id": "INC-07",
+          "tema": "inc-base",
+          "tipo": "editorial"
+        },
+        {
+          "id": "INC-08",
+          "tema": "inc-assassino",
+          "tipo": "mecanica-autorizada"
+        },
+        {
+          "id": "INC-09",
+          "tema": "inc-assassino",
+          "tipo": "mecanica-autorizada"
+        },
+        {
+          "id": "INC-10",
+          "tema": "inc-assassino",
+          "tipo": "preservacao-deliberada"
+        },
+        {
+          "id": "INC-11",
+          "tema": "inc-cortar",
+          "tipo": "editorial"
+        },
+        {
+          "id": "INC-12",
+          "tema": "inc-brecha",
+          "tipo": "sincronizacao"
+        },
+        {
+          "id": "INC-13",
+          "tema": "inc-parkour",
+          "tipo": "editorial"
+        },
+        {
+          "id": "INC-14",
+          "tema": "inc-pugilista",
+          "tipo": "localizacao"
+        },
+        {
+          "id": "INC-15",
+          "tema": "inc-base",
+          "tipo": "compatibilidade"
+        },
+        {
+          "id": "INC-16",
+          "tema": "inc-projecao",
+          "tipo": "localizacao"
+        },
+        {
+          "id": "INC-17",
+          "tema": "inc-interceptar",
+          "tipo": "editorial"
+        },
+        {
+          "id": "INC-18",
+          "tema": "inc-redirecionar-resolucao",
+          "tipo": "editorial"
+        },
+        {
+          "id": "INC-19",
+          "tema": "inc-continuacoes",
+          "tipo": "editorial"
+        },
+        {
+          "id": "INC-20",
+          "tema": "inc-cirurgico",
+          "tipo": "preservacao"
+        },
+        {
+          "id": "INC-21",
+          "tema": "inc-caminho",
+          "tipo": "editorial"
+        }
+      ],
+      "achados": [],
+      "estado": "metadados coerentes nesta fotografia",
+      "gravacao_em_curso": false
+    }
+  ],
+  "limites": [
+    "Fotografia suscetível a gravações concorrentes identificadas.",
+    "O número de decisões inclui editoriais, sincronizações e alterações mecânicas; não equivale a quantidade de mudanças de regra.",
+    "Registros transversais de nomes/remissões são adicionais e não foram somados para evitar duplicação."
+  ]
+}

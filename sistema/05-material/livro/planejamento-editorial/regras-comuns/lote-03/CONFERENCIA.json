@@ -1,0 +1,961 @@
+{
+  "data": "2026-10-02",
+  "base": "v0.331",
+  "status": "candidatas de integração",
+  "ok": true,
+  "verificacoes": [
+    {
+      "verificacao": "Sete valores de Força na tabela",
+      "obtido": 7,
+      "esperado": 7,
+      "ok": true
+    },
+    {
+      "verificacao": "Salto por Força 0",
+      "obtido": [
+        "3",
+        "3/2"
+      ],
+      "esperado": [
+        "3",
+        "3/2"
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Salto por Força 1",
+      "obtido": [
+        "9/2",
+        "3/2"
+      ],
+      "esperado": [
+        "9/2",
+        "3/2"
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Salto por Força 2",
+      "obtido": [
+        "6",
+        "3"
+      ],
+      "esperado": [
+        "6",
+        "3"
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Salto por Força 3",
+      "obtido": [
+        "15/2",
+        "3"
+      ],
+      "esperado": [
+        "15/2",
+        "3"
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Salto por Força 4",
+      "obtido": [
+        "9",
+        "9/2"
+      ],
+      "esperado": [
+        "9",
+        "9/2"
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Salto por Força 5",
+      "obtido": [
+        "21/2",
+        "9/2"
+      ],
+      "esperado": [
+        "21/2",
+        "9/2"
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Salto por Força 6",
+      "obtido": [
+        "12",
+        "6"
+      ],
+      "esperado": [
+        "12",
+        "6"
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Queda 1.5",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "Queda 3",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Queda 4.5",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Queda 6",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "verificacao": "Queda 7.5",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "verificacao": "Queda 9",
+      "obtido": 3,
+      "esperado": 3,
+      "ok": true
+    },
+    {
+      "verificacao": "Queda 10.5",
+      "obtido": 3,
+      "esperado": 3,
+      "ok": true
+    },
+    {
+      "verificacao": "Queda 30",
+      "obtido": 10,
+      "esperado": 10,
+      "ok": true
+    },
+    {
+      "verificacao": "Queda 60",
+      "obtido": 20,
+      "esperado": 20,
+      "ok": true
+    },
+    {
+      "verificacao": "Queda 150",
+      "obtido": 20,
+      "esperado": 20,
+      "ok": true
+    },
+    {
+      "verificacao": "Múltiplos de 1,5 m em 02-SALTOS-E-QUEDAS.md",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Múltiplos de 1,5 m em 03-PERCEPCAO-E-FURTIVIDADE.md",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Rina, percurso simples",
+      "obtido": [
+        7.5,
+        1.5
+      ],
+      "esperado": [
+        7.5,
+        1.5
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Assassino, percurso e teste",
+      "obtido": [
+        10.5,
+        1.5,
+        true
+      ],
+      "esperado": [
+        10.5,
+        1.5,
+        true
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Queda curta, Vida final",
+      "obtido": 10,
+      "esperado": 10,
+      "ok": true
+    },
+    {
+      "verificacao": "Ocultação por observador",
+      "obtido": [
+        true,
+        false
+      ],
+      "esperado": [
+        true,
+        false
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Busca e empate",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Busca múltipla",
+      "obtido": [
+        true,
+        false
+      ],
+      "esperado": [
+        true,
+        false
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Ataque oculto exige revelar antes do seguinte",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Extensão CD 14, bônus 4",
+      "obtido": "11/20",
+      "esperado": "11/20",
+      "ok": true
+    },
+    {
+      "verificacao": "Extensão CD 14, bônus 7",
+      "obtido": "7/10",
+      "esperado": "7/10",
+      "ok": true
+    },
+    {
+      "verificacao": "Extensão CD 14, bônus 10",
+      "obtido": "17/20",
+      "esperado": "17/20",
+      "ok": true
+    },
+    {
+      "verificacao": "Esconder, bônus iguais",
+      "obtido": "11/20",
+      "esperado": "11/20",
+      "ok": true
+    },
+    {
+      "verificacao": "Comparação matemática CD14/desvantagem",
+      "obtido": "121/400",
+      "esperado": "121/400",
+      "ok": true
+    },
+    {
+      "verificacao": "Queda 3d6 contra 14 de Vida",
+      "obtido": "35/216",
+      "esperado": "35/216",
+      "ok": true
+    },
+    {
+      "verificacao": "Teto 20d6 não zera Incursor30 CON0",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Integridade textual: Dois limites de salto",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Integridade textual: Falha combinada anunciada",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Integridade textual: Apoios especiais reservados",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Integridade textual: Terreno não é removido por saltinhos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Integridade textual: Ação parcialmente usada não paga tarefa inteira",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Integridade textual: Bônus completo de Furtividade",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Integridade textual: Silencioso conserva exceção",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Integridade textual: Busca impossível exige método diferente",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Integridade textual: Retirada da manutenção",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Integridade textual: Vulto",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Integridade textual: Cego alinhado com falta de visão",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Integridade textual: Novo esconderijo substitui total anterior",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Integridade textual: Faro distinguido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Integridade textual: Faro bênção distinguido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Integridade textual: Radar universal retirado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Movimento: distâncias múltiplas de 1,5 m",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Furtividade: distâncias múltiplas de 1,5 m",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Manobras: distâncias múltiplas de 1,5 m",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Manobra: FOR3 e maestria1, TR10",
+      "obtido": [
+        12,
+        false
+      ],
+      "esperado": [
+        12,
+        false
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Manobra: empate defende",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Arrasto normal: custo de 4,5m",
+      "obtido": 9,
+      "esperado": 9,
+      "ok": true
+    },
+    {
+      "verificacao": "Arrasto difícil: custo de 4,5m",
+      "obtido": 13.5,
+      "esperado": 13.5,
+      "ok": true
+    },
+    {
+      "verificacao": "Saltinhos em 9m difíceis",
+      "obtido": 18,
+      "esperado": 18,
+      "ok": true
+    },
+    {
+      "verificacao": "CD 10: especialista +12 contra percepção +4",
+      "obtido": "19/20",
+      "esperado": "19/20",
+      "ok": true
+    },
+    {
+      "verificacao": "Manutenção descartada ainda daria 90,25%",
+      "obtido": "361/400",
+      "esperado": "361/400",
+      "ok": true
+    },
+    {
+      "verificacao": "movimento: páginas",
+      "obtido": 4,
+      "esperado": 4,
+      "ok": true
+    },
+    {
+      "verificacao": "movimento: marcadores",
+      "obtido": 4,
+      "esperado": 4,
+      "ok": true
+    },
+    {
+      "verificacao": "movimento: destinos",
+      "obtido": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "esperado": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "movimento p1: texto ausente",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "movimento p1: limites",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "movimento p1: rodapé separado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "movimento p1: fontes usadas incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "movimento p2: texto ausente",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "movimento p2: limites",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "movimento p2: rodapé separado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "movimento p2: fontes usadas incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "movimento p3: texto ausente",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "movimento p3: limites",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "movimento p3: rodapé separado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "movimento p3: fontes usadas incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "movimento p4: texto ausente",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "movimento p4: limites",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "movimento p4: rodapé separado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "movimento p4: fontes usadas incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "movimento: sem bitmap",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "percepcao: páginas",
+      "obtido": 4,
+      "esperado": 4,
+      "ok": true
+    },
+    {
+      "verificacao": "percepcao: marcadores",
+      "obtido": 4,
+      "esperado": 4,
+      "ok": true
+    },
+    {
+      "verificacao": "percepcao: destinos",
+      "obtido": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "esperado": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "percepcao p1: texto ausente",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "percepcao p1: limites",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "percepcao p1: rodapé separado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "percepcao p1: fontes usadas incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "percepcao p2: texto ausente",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "percepcao p2: limites",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "percepcao p2: rodapé separado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "percepcao p2: fontes usadas incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "percepcao p3: texto ausente",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "percepcao p3: limites",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "percepcao p3: rodapé separado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "percepcao p3: fontes usadas incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "percepcao p4: texto ausente",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "percepcao p4: limites",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "percepcao p4: rodapé separado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "percepcao p4: fontes usadas incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "percepcao: sem bitmap",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "manobras: páginas",
+      "obtido": 4,
+      "esperado": 4,
+      "ok": true
+    },
+    {
+      "verificacao": "manobras: marcadores",
+      "obtido": 4,
+      "esperado": 4,
+      "ok": true
+    },
+    {
+      "verificacao": "manobras: destinos",
+      "obtido": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "esperado": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "manobras p1: texto ausente",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "manobras p1: limites",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "manobras p1: rodapé separado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "manobras p1: fontes usadas incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "manobras p2: texto ausente",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "manobras p2: limites",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "manobras p2: rodapé separado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "manobras p2: fontes usadas incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "manobras p3: texto ausente",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "manobras p3: limites",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "manobras p3: rodapé separado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "manobras p3: fontes usadas incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "manobras p4: texto ausente",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "manobras p4: limites",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "manobras p4: rodapé separado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "manobras p4: fontes usadas incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "manobras: sem bitmap",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "Fontes e exportações da v0.331 preservadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Retrato de arquivos protegidos preservado",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Links locais da entrega",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    }
+  ],
+  "documentos": {
+    "movimento": {
+      "fonte": "sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-02/02-SALTOS-E-QUEDAS.md",
+      "pdf": "sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-02/output/pdf/Projeto-M-Movimento-Saltos-e-Quedas-Proposta-02.pdf",
+      "hash_fonte": "cbad66f1845bf59084b379b246d19c11d04364c37550d01a288d6bd57f3452c9",
+      "hash_pdf": "ff5dca8dabfedff0e4dc73713002fa09d2140febc9de49e0f07ef04147fccc35",
+      "paginas": [
+        {
+          "pagina": 1,
+          "final_corpo": 735.57,
+          "bitmap": 0
+        },
+        {
+          "pagina": 2,
+          "final_corpo": 745.77,
+          "bitmap": 0
+        },
+        {
+          "pagina": 3,
+          "final_corpo": 725.72,
+          "bitmap": 0
+        },
+        {
+          "pagina": 4,
+          "final_corpo": 713.02,
+          "bitmap": 0
+        }
+      ],
+      "marcadores": [
+        "Movimento e terreno",
+        "Saltos",
+        "Quedas e empurrões",
+        "Movimento das Trilhas"
+      ]
+    },
+    "percepcao": {
+      "fonte": "sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-03/03-PERCEPCAO-E-FURTIVIDADE.md",
+      "pdf": "sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-03/output/pdf/Projeto-M-Percepcao-e-Furtividade-Proposta-03.pdf",
+      "hash_fonte": "55cb314a5bd0d420a3be0f8fcdb77ccbe27628604242573288a99a2a4e1ea02b",
+      "hash_pdf": "9b78aa17a8396dd17c14c794a7602948f4b42ed8b5bdaa9725ed3f0966d239b4",
+      "paginas": [
+        {
+          "pagina": 1,
+          "final_corpo": 764.97,
+          "bitmap": 0
+        },
+        {
+          "pagina": 2,
+          "final_corpo": 728.62,
+          "bitmap": 0
+        },
+        {
+          "pagina": 3,
+          "final_corpo": 673.47,
+          "bitmap": 0
+        },
+        {
+          "pagina": 4,
+          "final_corpo": 764.57,
+          "bitmap": 0
+        }
+      ],
+      "marcadores": [
+        "O que você percebe",
+        "Esconder",
+        "Procurar e detectar",
+        "Atacar sem ser visto"
+      ]
+    },
+    "manobras": {
+      "fonte": "sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-04/04-MANOBRAS-E-INFORMACAO.md",
+      "pdf": "sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-04/output/pdf/Projeto-M-Manobras-e-Informacao-Proposta-04.pdf",
+      "hash_fonte": "1ea15259408bc967d24476b594f272b406f37b5a72d1585308b2a3558d7a7c80",
+      "hash_pdf": "13fa80f753732dc423f65f610c1a2a6bf8911fbafe976265a546b5266ef76673",
+      "paginas": [
+        {
+          "pagina": 1,
+          "final_corpo": 758.27,
+          "bitmap": 0
+        },
+        {
+          "pagina": 2,
+          "final_corpo": 764.72,
+          "bitmap": 0
+        },
+        {
+          "pagina": 3,
+          "final_corpo": 738.32,
+          "bitmap": 0
+        },
+        {
+          "pagina": 4,
+          "final_corpo": 702.82,
+          "bitmap": 0
+        }
+      ],
+      "marcadores": [
+        "Agarrar, derrubar e empurrar",
+        "Escapar e manter uma contenção",
+        "Estudar uma criatura ou objeto",
+        "Preparar uma resposta"
+      ]
+    }
+  },
+  "preservacao": {
+    "fontes": 22,
+    "exportacoes": 5,
+    "retrato": 137,
+    "conjuntos_sobrepostos": true
+  },
+  "inspecao_visual": "Doze páginas renderizadas e examinadas pelo autor; cabeçalho antigo de movimento corrigido. Sem cortes, tabelas quebradas ou títulos órfãos encontrados. Detalhes em RELATORIO.md.",
+  "limites": [
+    "Testes conferem contas e integridade; não provam compreensão humana.",
+    "Pareceres independentes incluem reavaliação dirigida das correções; cenários manuais complementam contas.",
+    "Não houve teste humano ou validação integral de equilíbrio.",
+    "Detecção comum de energia permanece aberta; radar universal descartado."
+  ]
+}

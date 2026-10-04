@@ -1,0 +1,164 @@
+{
+  "estado": "Inventário atual após integração; provas individuais são históricas",
+  "sha256_texto": "b1632e1f57b9892b35c66cf00d852621af5a237bcd6ebb214980a0fcea8469da",
+  "pdf_vigente": "consolidacao/lote-01/output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
+  "sha256_pdf_vigente": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8",
+  "arquivos": [
+    {
+      "arquivo": "ALTERACOES.json",
+      "sha256": "3fc6c5f3c18e6c6b78a2048f6a0081982ee84b24d7e2b67a28c87335f450f0ee",
+      "bytes": 11919
+    },
+    {
+      "arquivo": "ALTERACOES.md",
+      "sha256": "b0492eb00593d81602277a30e61463b3a433c74e052a2b164693a50bd344695e",
+      "bytes": 8879
+    },
+    {
+      "arquivo": "BASTIAO.md",
+      "sha256": "b1632e1f57b9892b35c66cf00d852621af5a237bcd6ebb214980a0fcea8469da",
+      "bytes": 20544
+    },
+    {
+      "arquivo": "COBERTURA.json",
+      "sha256": "9f3fcb9babe421af1248e94838a534f6518644d01a290b1a292630f298355caf",
+      "bytes": 3423
+    },
+    {
+      "arquivo": "CONFERENCIA.json",
+      "sha256": "9e831092a8f8565e360b7860c9a849a5820f3022ed5842219ee9b3a5ecba4e41",
+      "bytes": 14080
+    },
+    {
+      "arquivo": "ESTRUTURA.json",
+      "sha256": "ac7fa0f4a9cc6a3d1dfd944dfe18366f2c450488ce20f0b8253d4825db48049f",
+      "bytes": 1385
+    },
+    {
+      "arquivo": "FECHAMENTO-INTEGRACAO.json",
+      "sha256": "e6f71c60084159b758e9687c31187c1cb497f61f659f56a37df0c7b4305a03cc",
+      "bytes": 790
+    },
+    {
+      "arquivo": "FONTES.json",
+      "sha256": "8b15074d583dbe20ae873396821461ca1a9a4aa377c522a082276904d5f29a2d",
+      "bytes": 4253
+    },
+    {
+      "arquivo": "INTERFACES.json",
+      "sha256": "af1ca1ae6a6b0770917d0eb8c0da16f96d911983855e085309c81ffdd41c60ad",
+      "bytes": 2572
+    },
+    {
+      "arquivo": "LEIA-ME.md",
+      "sha256": "a4fd8421abeeb22b1bd83999783e966d1c0b6634ef7c96dcdce452d0d414abdc",
+      "bytes": 944
+    },
+    {
+      "arquivo": "REVISAO-E-FONTES.md",
+      "sha256": "0e8e32c5054e0f629c1f2bc6ed55acf9faf1fe37f6d367cf2b7579d3d9e2bc6b",
+      "bytes": 8322
+    },
+    {
+      "arquivo": "VALIDACAO.json",
+      "sha256": "96f11ddf80d6da724c9f060d0cf0b67bdddaed186ac99498ed0671a6df5970d4",
+      "bytes": 158
+    },
+    {
+      "arquivo": "VALIDADORES.json",
+      "sha256": "1b6d93faacca16f1e4ce74cce050eeddc1a18728901536bdc158143d69c83b99",
+      "bytes": 15196
+    },
+    {
+      "arquivo": "conferir.py",
+      "sha256": "bd7e33553e9bc990ea13155b44042bb27fe394f20e732ab9ccc161fac1536466",
+      "bytes": 286
+    },
+    {
+      "arquivo": "evidencias/AUDITORIA.json",
+      "sha256": "d503f65d878f32219e7dca513d103124f06fc2d074756d7d03aab5732ef1bbd8",
+      "bytes": 120939
+    },
+    {
+      "arquivo": "evidencias/COMPARACAO-REMISSOES-PDF.json",
+      "sha256": "e2bade77115b82ee1ef65356db146b86f0aa1b431cc26882c8514270819e6760",
+      "bytes": 3804
+    },
+    {
+      "arquivo": "evidencias/LOCALIZACAO-EDITORIAL.json",
+      "sha256": "a56debcf774503e9e53fd806280a71eb9af59adc5fb4b0910908c936e946633b",
+      "bytes": 1829
+    },
+    {
+      "arquivo": "evidencias/REVISAO-EDITORIAL.json",
+      "sha256": "22bf00b9a512b16ff8d89e1ac337d23213ddfac6d687f974d61c31979de0b2a1",
+      "bytes": 11167
+    },
+    {
+      "arquivo": "evidencias/REVISAO-INDEPENDENTE.md",
+      "sha256": "2184232dfe2cf337df1959d01d8212c50e30d4e374b4621fb699b6b5fd9aa81e",
+      "bytes": 7655
+    },
+    {
+      "arquivo": "evidencias/REVISAO-NOMES.json",
+      "sha256": "0cd67db25eda021a69be129e0eb020aa7133dca74382845a76200bbc7b45300a",
+      "bytes": 1322
+    },
+    {
+      "arquivo": "evidencias/REVISAO-POR-SECAO.json",
+      "sha256": "a6feeaf6c2f41e81fd05050c1a4d51bf0390473f77b800eec8281bdbc9dd2a80",
+      "bytes": 8541
+    },
+    {
+      "arquivo": "evidencias/REVISAO-REMISSOES.json",
+      "sha256": "43cb08210c52edf3463310ae3204d4943ee365a7503d9312a8049d085209af12",
+      "bytes": 652
+    },
+    {
+      "arquivo": "evidencias/auditoria-numerica.json",
+      "sha256": "2a8c45f3c137cad89ad7c2003dd9cb8b4001f9b4dfc5c683d01b0d014a99521d",
+      "bytes": 1082
+    },
+    {
+      "arquivo": "evidencias/conferir_bastiao.py",
+      "sha256": "015eb8c3857ac701620d655ddfca56a3bb205fe3129236f1766b6c0cd347c71b",
+      "bytes": 16670
+    },
+    {
+      "arquivo": "evidencias/editorial-exportacao.json",
+      "sha256": "4d68214eefe7a9ebff3351374a51c9119efffc7ef657db014ced8304e9fdff1b",
+      "bytes": 284
+    },
+    {
+      "arquivo": "evidencias/fontes-preservadas-autoria.json",
+      "sha256": "d54303685a7336c6c7338d34da1bc393c8186b669e5044d7957bb95bf6c22039",
+      "bytes": 1766
+    },
+    {
+      "arquivo": "evidencias/fontes-preservadas.json",
+      "sha256": "724d8171a70bc18d7171666ce22aa5fb90227dccf704454b18ef62722dfd0cd7",
+      "bytes": 755
+    },
+    {
+      "arquivo": "evidencias/inspecao-visual.json",
+      "sha256": "019684efe4336d7cfad2729cad16d76e56c3c25f01792ba87f3b2b6b1cc8c81f",
+      "bytes": 6374
+    },
+    {
+      "arquivo": "evidencias/pdf-estrutura.json",
+      "sha256": "631803009bca8140062f7bb9f27e26c3396bdf5ab86212859969473f42afbb90",
+      "bytes": 235
+    },
+    {
+      "arquivo": "evidencias/regras-verificadas.json",
+      "sha256": "2cdf710f636f528aeff698ed4b3ba859b5fd493de0aaa44ea0a1c626f41dfd8b",
+      "bytes": 11758
+    },
+    {
+      "arquivo": "gerar_pdf.py",
+      "sha256": "5b71a2abb1fd9848b679ac956fb140a24419c23c2f7d6d197af90379cc1051a5",
+      "bytes": 7984
+    }
+  ],
+  "limite": "Inventário de integridade não equivale a reexecutar testes. Consulte VALIDADORES e FECHAMENTO-INTEGRACAO."
+}

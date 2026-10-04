@@ -1,0 +1,218 @@
+[
+  {
+    "id": "CASO-01",
+    "secao": "entidades-criar",
+    "positivo": "Começar pela função de um cão.",
+    "negativo": "Pagar manifestação não adquire ficha.",
+    "tipo": "casos raciocinados",
+    "fonte": "CONSTRUIR-INVOCACOES.md#entidades-criar"
+  },
+  {
+    "id": "CASO-02",
+    "secao": "entidades-aquisicao",
+    "positivo": "Técnica de papel ocupa uma vaga.",
+    "negativo": "Técnica só de afiar não chama entidade pela vaga.",
+    "tipo": "casos raciocinados",
+    "fonte": "CONSTRUIR-INVOCACOES.md#entidades-aquisicao"
+  },
+  {
+    "id": "CASO-03",
+    "secao": "entidades-lista-criacao",
+    "positivo": "Lista previamente registrada, vitória sozinho.",
+    "negativo": "Ajuda invalida conquista solo; falta preço de fabricação no dono futuro.",
+    "tipo": "casos raciocinados",
+    "fonte": "CONSTRUIR-INVOCACOES.md#entidades-lista-criacao"
+  },
+  {
+    "id": "CASO-04",
+    "secao": "entidades-domar",
+    "positivo": "CD12 e total11 doma.",
+    "negativo": "Total12 exorciza; nível6 não cabe invocador5.",
+    "tipo": "casos raciocinados",
+    "fonte": "CONSTRUIR-INVOCACOES.md#entidades-domar"
+  },
+  {
+    "id": "CASO-05",
+    "secao": "entidades-tipos",
+    "positivo": "Corpo criado usa4 por nível.",
+    "negativo": "Corpo de técnica não ganha vida criada.",
+    "tipo": "casos raciocinados",
+    "fonte": "CONSTRUIR-INVOCACOES.md#entidades-tipos"
+  },
+  {
+    "id": "CASO-06",
+    "secao": "entidades-definicao",
+    "positivo": "Cão tem boca e compra Farejador.",
+    "negativo": "Asas decorativas não dão voo funcional sem ficha.",
+    "tipo": "casos raciocinados",
+    "fonte": "CONSTRUIR-INVOCACOES.md#entidades-definicao"
+  },
+  {
+    "id": "CASO-07",
+    "secao": "entidades-atributos",
+    "positivo": "Uma entidade de nível 10 distribui 9 pontos iniciais e recebe 2 aumentos.",
+    "negativo": "Maestria não entra no TR não treinado.",
+    "tipo": "casos raciocinados",
+    "fonte": "CONSTRUIR-INVOCACOES.md#entidades-atributos"
+  },
+  {
+    "id": "CASO-08",
+    "secao": "entidades-vida-defesa",
+    "positivo": "Constituição 2 no nível 5 resulta em 27 PV comuns ou 31 no corpo criado.",
+    "negativo": "Somar proteção e parcela do invocador proibido.",
+    "tipo": "casos raciocinados",
+    "fonte": "CONSTRUIR-INVOCACOES.md#entidades-vida-defesa"
+  },
+  {
+    "id": "CASO-09",
+    "secao": "entidades-progressao",
+    "positivo": "Nível 4 concede o segundo espaço.",
+    "negativo": "A segunda básica só chega no nível 11.",
+    "tipo": "casos raciocinados",
+    "fonte": "CONSTRUIR-INVOCACOES.md#entidades-progressao"
+  },
+  {
+    "id": "CASO-10",
+    "secao": "entidades-familias",
+    "positivo": "Na Classe 3, uma Média de custo 3 passa a 2 na Livre.",
+    "negativo": "Não usar o desconto pessoal para cima, que daria preço 1.",
+    "tipo": "casos raciocinados",
+    "fonte": "CONSTRUIR-INVOCACOES.md#entidades-familias"
+  },
+  {
+    "id": "CASO-11",
+    "secao": "entidades-basicas",
+    "positivo": "A básica de 2d6 paga uma Leve e fica com 1d6.",
+    "negativo": "Restrição não recupera o dado.",
+    "tipo": "casos raciocinados",
+    "fonte": "CONSTRUIR-INVOCACOES.md#entidades-basicas"
+  },
+  {
+    "id": "CASO-12",
+    "secao": "entidades-especiais",
+    "positivo": "Classe 4 oferece 9 pontos de montagem e cobra 12 PE.",
+    "negativo": "Não inferir 8 pontos pela conta linear 2 × Classe.",
+    "tipo": "casos raciocinados",
+    "fonte": "CONSTRUIR-INVOCACOES.md#entidades-especiais"
+  },
+  {
+    "id": "CASO-13",
+    "secao": "entidades-formas",
+    "positivo": "Aura inclui Corpo a Corpo uma vez.",
+    "negativo": "Toque não recebe Longe.",
+    "tipo": "casos raciocinados",
+    "fonte": "CONSTRUIR-INVOCACOES.md#entidades-formas"
+  },
+  {
+    "id": "CASO-14",
+    "secao": "entidades-medidas",
+    "positivo": "Explosão de Classe 6: ponto a 36 m, raio de 3 m.",
+    "negativo": "O raio de 4,5 m só chega na Classe 7.",
+    "tipo": "casos raciocinados",
+    "fonte": "CONSTRUIR-INVOCACOES.md#entidades-medidas"
+  },
+  {
+    "id": "CASO-15",
+    "secao": "entidades-efeitos-reduzidos",
+    "positivo": "Fura de Classe 2 ignora 2 de Redução de Dano.",
+    "negativo": "Precisão continua concedendo +2.",
+    "tipo": "casos raciocinados",
+    "fonte": "CONSTRUIR-INVOCACOES.md#entidades-efeitos-reduzidos"
+  },
+  {
+    "id": "CASO-16",
+    "secao": "entidades-saldo",
+    "positivo": "Onda de Classe 1 com Impulso e Gesto funciona com saldo zero.",
+    "negativo": "Onda sem saldo nem benefício aplicável não produz efeito útil.",
+    "tipo": "casos raciocinados",
+    "fonte": "CONSTRUIR-INVOCACOES.md#entidades-saldo"
+  },
+  {
+    "id": "CASO-17",
+    "secao": "entidades-controle",
+    "positivo": "Prende de Classe 2 sem dano recebe +2 na CD de Controle.",
+    "negativo": "Uma resposta autônoma ou passiva não aplica condição Média. Uma Reação comprada e comandada segue sua permissão própria.",
+    "tipo": "casos raciocinados",
+    "fonte": "CONSTRUIR-INVOCACOES.md#entidades-controle"
+  },
+  {
+    "id": "CASO-18",
+    "secao": "entidades-restricoes",
+    "positivo": "Parado vende movimento da entidade.",
+    "negativo": "Não vende movimento do dono.",
+    "tipo": "casos raciocinados",
+    "fonte": "CONSTRUIR-INVOCACOES.md#entidades-restricoes"
+  },
+  {
+    "id": "CASO-19",
+    "secao": "entidades-passivas",
+    "positivo": "Farejador de CP1 usa a escolha de passiva, sem gastar especial.",
+    "negativo": "Um marco com CP maior não promove uma escolha antiga.",
+    "tipo": "casos raciocinados",
+    "fonte": "CONSTRUIR-INVOCACOES.md#entidades-passivas"
+  },
+  {
+    "id": "CASO-20",
+    "secao": "entidades-passivas-avancadas",
+    "positivo": "Contramedida paga 2 PE e a coletiva.",
+    "negativo": "Reserva Profunda não entra nas opções da entidade.",
+    "tipo": "casos raciocinados",
+    "fonte": "CONSTRUIR-INVOCACOES.md#entidades-passivas-avancadas"
+  },
+  {
+    "id": "CASO-21",
+    "secao": "entidades-passiva-propria",
+    "positivo": "Reproduz até 1 minuto de sons que a entidade ouviu.",
+    "negativo": "Não edita, traduz ou revela sons que não tenha ouvido.",
+    "tipo": "casos raciocinados",
+    "fonte": "CONSTRUIR-INVOCACOES.md#entidades-passiva-propria"
+  },
+  {
+    "id": "CASO-22",
+    "secao": "entidades-ampliacao",
+    "positivo": "Mordida precisa de Classe 3 usa 6d8 e custa 9 PE.",
+    "negativo": "A ampliação não acrescenta uma condição nova.",
+    "tipo": "casos raciocinados",
+    "fonte": "CONSTRUIR-INVOCACOES.md#entidades-ampliacao"
+  },
+  {
+    "id": "CASO-23",
+    "secao": "entidade-cao",
+    "positivo": "A ficha soma 9 atributos, 12 PV e Defesa 13.",
+    "negativo": "Mãos/telepatia ausentes.",
+    "tipo": "casos raciocinados",
+    "fonte": "CONSTRUIR-INVOCACOES.md#entidade-cao"
+  },
+  {
+    "id": "CASO-24",
+    "secao": "entidade-cao-habilidades",
+    "positivo": "A especial causa 2d8, usa ataque +6 e custa 3 PE.",
+    "negativo": "A mesma entidade não faz básica e especial no mesmo ciclo comum.",
+    "tipo": "casos raciocinados",
+    "fonte": "CONSTRUIR-INVOCACOES.md#entidade-cao-habilidades"
+  },
+  {
+    "id": "CASO-25",
+    "secao": "entidade-vigia",
+    "positivo": "Inteligência 3 fornece cinco perícias. A Defesa do exemplo é 14.",
+    "negativo": "Figura não voa.",
+    "tipo": "casos raciocinados",
+    "fonte": "CONSTRUIR-INVOCACOES.md#entidade-vigia"
+  },
+  {
+    "id": "CASO-26",
+    "secao": "entidade-vigia-habilidades",
+    "positivo": "Apoio com Guarda e Empurrão tem saldo 1, convertido em 3 PV temporários.",
+    "negativo": "O resgate não atravessa paredes nem teleporta.",
+    "tipo": "casos raciocinados",
+    "fonte": "CONSTRUIR-INVOCACOES.md#entidade-vigia-habilidades"
+  },
+  {
+    "id": "CASO-27",
+    "secao": "entidades-conferencia",
+    "positivo": "A ficha resultante deve ser conhecida antes da domação.",
+    "negativo": "Descrever um efeito sem investimento não constitui aquisição.",
+    "tipo": "casos raciocinados",
+    "fonte": "CONSTRUIR-INVOCACOES.md#entidades-conferencia"
+  }
+]

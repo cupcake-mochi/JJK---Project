@@ -196,6 +196,7 @@ Perícia              = d20 + atributo + maestria   (a maestria só entra se tre
 | **Vanguarda** | d8 | 8 | 5 | 5 | meio a meio |
 | **Guia** | d8 | 8 | 5 | 5 | meio a meio |
 | **Evocador** | d6 | 6 | 4 | 6 | combustível cheio, e corpos na frente |
+| **Incursor** | d6 | 6 | 4 | 6 | combustível cheio, e corpos na frente |
 | **Emanador** | d6 | 6 | 4 | 6 | combustível cheio, canhão de vidro |
 
 **A vida inicial é o máximo do dado; a vida por nível é a metade dele arredondando para cima.** Se a sua mesa preferir, role o dado em cada nível em vez de pegar o valor fixo — só saiba que rolar rende meio ponto a menos por nível na média, e é essa a aposta.
@@ -205,6 +206,8 @@ Perícia              = d20 + atributo + maestria   (a maestria só entra se tre
 ### A vida média dos quatro Caminhos jogáveis
 
 ***Decisão do Mizuki, 28/09/2026:*** "remove, porque não temos evocador". O Evocador permanece como registro na tabela acima e fica fora da média usada para calibrar os inimigos.
+
+**Referência de calibração v0.330 mantida na v0.331.** A chegada de Evocador e Incursor não recalcula automaticamente o dano dos inimigos. A média abaixo conserva os quatro Caminhos usados na calibração já publicada; incluir os seis requer nova medição e está na fila.
 
 **Caminhos da média:** Bastião, Vanguarda, Guia e Emanador. Cada um tem o mesmo peso. **Constituição típica: 3.** A vida de cada Caminho continua seguindo a fórmula desta seção.
 

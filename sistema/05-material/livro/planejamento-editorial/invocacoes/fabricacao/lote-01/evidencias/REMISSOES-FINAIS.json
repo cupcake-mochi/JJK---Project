@@ -1,0 +1,20 @@
+{
+  "sha256_antes": "6b0c6fdc6690e154c064c44ddad58e02593fb3c1a38da3f3ba097e376fc471b0",
+  "sha256_depois": "61920e6d08f0cae38bf03d2ed27a0e5df06dd9d4f7f780495453bd47fb29847a",
+  "alteracoes": [
+    {
+      "id": "GRAM01",
+      "antes": "o corpo, inativo ou Desligada.",
+      "depois": "o corpo, inativo ou na condição Desligada.",
+      "motivo": "Correção localizada aprovada pela raiz após auditoria de remissões; mantém mecânica e valores.",
+      "tipo": "editorial"
+    },
+    {
+      "id": "GRAM02",
+      "antes": "não religa um corpo Desligada.",
+      "depois": "não religa um corpo na condição Desligada.",
+      "motivo": "Correção localizada aprovada pela raiz após auditoria de remissões; mantém mecânica e valores.",
+      "tipo": "editorial"
+    }
+  ]
+}

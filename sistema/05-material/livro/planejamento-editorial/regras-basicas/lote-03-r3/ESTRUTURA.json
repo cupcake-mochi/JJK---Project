@@ -1,0 +1,52 @@
+{
+  "ordem": [
+    "dano",
+    "tipos",
+    "reducao",
+    "alma",
+    "condicoes",
+    "leves",
+    "medias",
+    "pesadas"
+  ],
+  "titulos": {
+    "dano": "Dano",
+    "tipos": "Tipos de dano",
+    "reducao": "Redução de Dano",
+    "alma": "Dano na alma",
+    "condicoes": "Condições",
+    "leves": "Condições leves",
+    "medias": "Condições médias",
+    "pesadas": "Condições pesadas"
+  },
+  "paginas": {
+    "dano": 1,
+    "tipos": 2,
+    "reducao": 3,
+    "alma": 4,
+    "condicoes": 5,
+    "leves": 6,
+    "medias": 7,
+    "pesadas": 8
+  },
+  "grupos": [
+    [
+      "Dano",
+      [
+        "dano",
+        "tipos",
+        "reducao",
+        "alma"
+      ]
+    ],
+    [
+      "Condições",
+      [
+        "condicoes",
+        "leves",
+        "medias",
+        "pesadas"
+      ]
+    ]
+  ]
+}

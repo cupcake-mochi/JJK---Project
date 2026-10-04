@@ -1,0 +1,1066 @@
+[
+  {
+    "pagina": 1,
+    "texto": "PROVA A · UMA COLUNA · MESMO TEXTO DA PROVA B",
+    "x": 86.93,
+    "y": 75.59,
+    "largura": 225.66,
+    "altura": 16.0
+  },
+  {
+    "pagina": 1,
+    "texto": "AMOSTRA DE REGRA PARA CONSULTA",
+    "x": 75.59,
+    "y": 121.83,
+    "largura": 215.17,
+    "altura": 14.4
+  },
+  {
+    "pagina": 1,
+    "texto": "Proteção do Bastião",
+    "x": 75.59,
+    "y": 145.68,
+    "largura": 287.17,
+    "altura": 48.0
+  },
+  {
+    "pagina": 1,
+    "texto": "Kaori recebeu ",
+    "x": 75.59,
+    "y": 227.07,
+    "largura": 86.07,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": "Olhos Em Mim",
+    "x": 161.66,
+    "y": 227.07,
+    "largura": 93.36,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": ", do Bastião, e ",
+    "x": 255.02,
+    "y": 227.07,
+    "largura": 85.34,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": "Alicerce",
+    "x": 340.36,
+    "y": 227.07,
+    "largura": 50.46,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": ", da Trilha Muro, no nível 2. A área permite proteger",
+    "x": 390.82,
+    "y": 227.07,
+    "largura": 310.53,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": "um aliado; Alicerce reduz determinados danos que ela própria recebe. Esta página reúne as regras usadas no",
+    "x": 75.59,
+    "y": 245.79,
+    "largura": 640.53,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": "exemplo seguinte.",
+    "x": 75.59,
+    "y": 264.51,
+    "largura": 107.07,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": "Olhos Em Mim",
+    "x": 92.04,
+    "y": 308.57,
+    "largura": 129.41,
+    "altura": 32.0
+  },
+  {
+    "pagina": 1,
+    "texto": "Ação Bônus · raio de 6 m · até o fim da cena",
+    "x": 92.04,
+    "y": 347.66,
+    "largura": 263.06,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": "Você usa ",
+    "x": 92.04,
+    "y": 376.96,
+    "largura": 56.29,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": "Força nos testes de Provocar e Intimidação",
+    "x": 148.33,
+    "y": 376.96,
+    "largura": 260.29,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": ", no lugar de Essência.",
+    "x": 408.62,
+    "y": 376.96,
+    "largura": 131.9,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": "Com uma Ação Bônus, estabeleça uma área de 6 m ao seu redor. Ela acompanha você e pode ser",
+    "x": 92.04,
+    "y": 406.27,
+    "largura": 566.14,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": "encerrada como ação livre no seu turno.",
+    "x": 92.04,
+    "y": 424.98,
+    "largura": 236.01,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": "Provocação inicial, uma vez por cena.",
+    "x": 92.04,
+    "y": 454.29,
+    "largura": 226.94,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": " Ao ativar a área, escolha inimigos dentro dela, até o limite de",
+    "x": 318.98,
+    "y": 454.29,
+    "largura": 364.84,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": "metade da sua Força, arredondada para baixo, mais um. Faça um teste de Provocar contra o TR de",
+    "x": 92.04,
+    "y": 473.0,
+    "largura": 578.89,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": "Espírito de cada um. Quem falhar sofre o efeito de Provocar até o começo do seu próximo turno.",
+    "x": 92.04,
+    "y": 491.72,
+    "largura": 569.53,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": "Inimigos que entrarem depois não recebem essa provocação inicial.",
+    "x": 92.04,
+    "y": 510.44,
+    "largura": 400.47,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": "Assumir um golpe.",
+    "x": 92.04,
+    "y": 539.74,
+    "largura": 114.5,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": " Com a área ativa, quando uma criatura declarar um ataque com rolagem contra um",
+    "x": 206.54,
+    "y": 539.74,
+    "largura": 494.83,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": "aliado dentro dela, você pode gastar sua ",
+    "x": 92.04,
+    "y": 558.46,
+    "largura": 238.99,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": "Reação, antes da rolagem de acerto",
+    "x": 331.03,
+    "y": 558.46,
+    "largura": 212.08,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": ", para se tornar o alvo",
+    "x": 543.12,
+    "y": 558.46,
+    "largura": 127.45,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": "desse ataque.",
+    "x": 92.04,
+    "y": 577.18,
+    "largura": 78.18,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": "O atacante compara sua rolagem com sua Defesa, ou com seu Bloquear, se você escolher bloquear.",
+    "x": 92.04,
+    "y": 606.48,
+    "largura": 580.84,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": "Bloquear não exige outra Reação. O ataque conserva o alcance já declarado contra o aliado, e você o",
+    "x": 92.04,
+    "y": 625.2,
+    "largura": 589.52,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": "intercepta sem se mover.",
+    "x": 92.04,
+    "y": 643.92,
+    "largura": 146.86,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": "Se acertar, você recebe o dano e os efeitos do golpe, inclusive o crítico. Se errar, nenhum dos dois",
+    "x": 92.04,
+    "y": 673.22,
+    "largura": 573.95,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": "recebe o golpe. A Reação protege ",
+    "x": 92.04,
+    "y": 691.94,
+    "largura": 200.07,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": "somente o ataque declarado",
+    "x": 292.12,
+    "y": 691.94,
+    "largura": 168.83,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": ", não os demais ataques da ação.",
+    "x": 460.95,
+    "y": 691.94,
+    "largura": 190.03,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": "Alicerce",
+    "x": 92.04,
+    "y": 751.7,
+    "largura": 76.61,
+    "altura": 32.0
+  },
+  {
+    "pagina": 1,
+    "texto": "Trilha Muro · benefício do nível 2",
+    "x": 92.04,
+    "y": 790.79,
+    "largura": 204.02,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": "Ao fim de cada descanso longo, escolha ",
+    "x": 92.04,
+    "y": 820.09,
+    "largura": 237.17,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": "dois tipos de dano",
+    "x": 329.21,
+    "y": 820.09,
+    "largura": 110.17,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": ". Enquanto Olhos Em Mim estiver ativo,",
+    "x": 439.39,
+    "y": 820.09,
+    "largura": 238.57,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": "você recebe ",
+    "x": 92.04,
+    "y": 838.81,
+    "largura": 72.46,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": "metade do dano",
+    "x": 164.5,
+    "y": 838.81,
+    "largura": 96.37,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": " desses tipos. Kaori escolheu Cortante e Concussão para estes exemplos.",
+    "x": 260.88,
+    "y": 838.81,
+    "largura": 427.52,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": "O efeito de Provocar:",
+    "x": 75.59,
+    "y": 884.56,
+    "largura": 127.83,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": " até o começo do próximo turno de quem provocou, o alvo afetado ataca essa pessoa",
+    "x": 203.42,
+    "y": 884.56,
+    "largura": 494.95,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": "com vantagem e as outras criaturas com desvantagem. Para Kaori, a provocação inicial alcança até ",
+    "x": 75.59,
+    "y": 903.28,
+    "largura": 585.37,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": "2 inimi‐",
+    "x": 660.96,
+    "y": 903.28,
+    "largura": 48.65,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": "gos",
+    "x": 75.59,
+    "y": 922.0,
+    "largura": 20.41,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": "; seu teste é ",
+    "x": 96.0,
+    "y": 922.0,
+    "largura": 71.49,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": "d20 + 4",
+    "x": 167.49,
+    "y": 922.0,
+    "largura": 43.32,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": " contra o TR de Espírito de cada um.",
+    "x": 210.81,
+    "y": 922.0,
+    "largura": 216.49,
+    "altura": 20.5
+  },
+  {
+    "pagina": 1,
+    "texto": "O exemplo seguinte começa com a área já ativa e a provocação inicial encerrada. Ele demonstra a proteção de um aliado,",
+    "x": 75.59,
+    "y": 952.06,
+    "largura": 635.87,
+    "altura": 18.26
+  },
+  {
+    "pagina": 1,
+    "texto": "sem precisar resolver outra tentativa de Provocar.",
+    "x": 75.59,
+    "y": 968.26,
+    "largura": 261.6,
+    "altura": 18.26
+  },
+  {
+    "pagina": 1,
+    "texto": "PROJETO - M",
+    "x": 75.59,
+    "y": 32.56,
+    "largura": 70.41,
+    "altura": 12.8
+  },
+  {
+    "pagina": 1,
+    "texto": "Proteção do Bastião",
+    "x": 633.93,
+    "y": 32.56,
+    "largura": 87.96,
+    "altura": 12.8
+  },
+  {
+    "pagina": 1,
+    "texto": "PILOTO EDITORIAL 1 · REGRAS v0.331",
+    "x": 75.59,
+    "y": 1069.61,
+    "largura": 160.74,
+    "altura": 11.68
+  },
+  {
+    "pagina": 1,
+    "texto": "1",
+    "x": 717.79,
+    "y": 1065.83,
+    "largura": 4.1,
+    "altura": 19.2
+  },
+  {
+    "pagina": 2,
+    "texto": "PROVA B · DUAS COLUNAS · MESMO TEXTO DA PROVA A",
+    "x": 86.93,
+    "y": 75.59,
+    "largura": 235.39,
+    "altura": 16.0
+  },
+  {
+    "pagina": 2,
+    "texto": "AMOSTRA DE REGRA PARA CONSULTA",
+    "x": 75.59,
+    "y": 121.83,
+    "largura": 215.17,
+    "altura": 14.4
+  },
+  {
+    "pagina": 2,
+    "texto": "Proteção do Bastião",
+    "x": 75.59,
+    "y": 145.68,
+    "largura": 287.17,
+    "altura": 48.0
+  },
+  {
+    "pagina": 2,
+    "texto": "Kaori recebeu ",
+    "x": 75.59,
+    "y": 227.07,
+    "largura": 86.07,
+    "altura": 20.5
+  },
+  {
+    "pagina": 2,
+    "texto": "Olhos Em Mim",
+    "x": 161.66,
+    "y": 227.07,
+    "largura": 93.36,
+    "altura": 20.5
+  },
+  {
+    "pagina": 2,
+    "texto": ", do Bastião, e ",
+    "x": 255.02,
+    "y": 227.07,
+    "largura": 85.34,
+    "altura": 20.5
+  },
+  {
+    "pagina": 2,
+    "texto": "Alicerce",
+    "x": 340.36,
+    "y": 227.07,
+    "largura": 50.46,
+    "altura": 20.5
+  },
+  {
+    "pagina": 2,
+    "texto": ", da Trilha Muro, no nível 2. A área permite proteger",
+    "x": 390.82,
+    "y": 227.07,
+    "largura": 310.53,
+    "altura": 20.5
+  },
+  {
+    "pagina": 2,
+    "texto": "um aliado; Alicerce reduz determinados danos que ela própria recebe. Esta página reúne as regras usadas no",
+    "x": 75.59,
+    "y": 245.79,
+    "largura": 640.53,
+    "altura": 20.5
+  },
+  {
+    "pagina": 2,
+    "texto": "exemplo seguinte.",
+    "x": 75.59,
+    "y": 264.51,
+    "largura": 107.07,
+    "altura": 20.5
+  },
+  {
+    "pagina": 2,
+    "texto": "Olhos Em Mim",
+    "x": 88.26,
+    "y": 319.15,
+    "largura": 116.47,
+    "altura": 28.8
+  },
+  {
+    "pagina": 2,
+    "texto": "Ação Bônus · raio de 6 m · até o fim da cena",
+    "x": 88.26,
+    "y": 355.21,
+    "largura": 255.27,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": "Você usa ",
+    "x": 88.26,
+    "y": 383.95,
+    "largura": 54.62,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": "Força nos testes de Provocar e Intimi‐",
+    "x": 142.88,
+    "y": 383.95,
+    "largura": 223.36,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": "dação",
+    "x": 88.26,
+    "y": 402.11,
+    "largura": 34.07,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": ", no lugar de Essência.",
+    "x": 122.33,
+    "y": 402.11,
+    "largura": 127.98,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": "Com uma Ação Bônus, estabeleça uma área de 6",
+    "x": 88.26,
+    "y": 430.86,
+    "largura": 276.26,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": "m ao seu redor. Ela acompanha você e pode ser",
+    "x": 88.26,
+    "y": 449.02,
+    "largura": 269.82,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": "encerrada como ação livre no seu turno.",
+    "x": 88.26,
+    "y": 467.18,
+    "largura": 229.01,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": "Provocação inicial, uma vez por cena.",
+    "x": 88.26,
+    "y": 495.93,
+    "largura": 220.21,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": " Ao ativar a",
+    "x": 308.47,
+    "y": 495.93,
+    "largura": 65.74,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": "área, escolha inimigos dentro dela, até o limite de",
+    "x": 88.26,
+    "y": 514.09,
+    "largura": 285.02,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": "metade da sua Força, arredondada para baixo,",
+    "x": 88.26,
+    "y": 532.26,
+    "largura": 263.07,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": "mais um. Faça um teste de Provocar contra o TR",
+    "x": 88.26,
+    "y": 550.42,
+    "largura": 278.5,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": "de Espírito de cada um. Quem falhar sofre o efei‐",
+    "x": 88.26,
+    "y": 568.58,
+    "largura": 282.48,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": "to de Provocar até o começo do seu próximo tur‐",
+    "x": 88.26,
+    "y": 586.74,
+    "largura": 279.06,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": "no. Inimigos que entrarem depois não recebem",
+    "x": 88.26,
+    "y": 604.91,
+    "largura": 271.09,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": "essa provocação inicial.",
+    "x": 88.26,
+    "y": 623.07,
+    "largura": 135.3,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": "Assumir um golpe.",
+    "x": 88.26,
+    "y": 651.81,
+    "largura": 111.1,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": " Com a área ativa, quando",
+    "x": 199.37,
+    "y": 651.81,
+    "largura": 148.87,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": "uma criatura declarar um ataque com rolagem",
+    "x": 88.26,
+    "y": 669.98,
+    "largura": 265.54,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": "contra um aliado dentro dela, você pode gastar",
+    "x": 88.26,
+    "y": 688.14,
+    "largura": 268.49,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": "sua ",
+    "x": 88.26,
+    "y": 706.3,
+    "largura": 22.63,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": "Reação, antes da rolagem de acerto",
+    "x": 110.89,
+    "y": 706.3,
+    "largura": 205.8,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": ", para se",
+    "x": 316.69,
+    "y": 706.3,
+    "largura": 47.34,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": "tornar o alvo desse ataque.",
+    "x": 88.26,
+    "y": 724.46,
+    "largura": 152.2,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": "O atacante compara sua rolagem com sua Defesa,",
+    "x": 88.26,
+    "y": 753.21,
+    "largura": 284.94,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": "ou com seu Bloquear, se você escolher bloquear.",
+    "x": 88.26,
+    "y": 771.37,
+    "largura": 275.4,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": "Bloquear não exige outra Reação. O ataque con‐",
+    "x": 88.26,
+    "y": 789.54,
+    "largura": 275.78,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": "serva o alcance já declarado contra o aliado, e",
+    "x": 88.26,
+    "y": 807.7,
+    "largura": 261.59,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": "você o intercepta sem se mover.",
+    "x": 88.26,
+    "y": 825.86,
+    "largura": 182.07,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": "Se acertar, você recebe o dano e os efeitos do",
+    "x": 88.26,
+    "y": 854.61,
+    "largura": 257.0,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": "golpe, inclusive o crítico. Se errar, nenhum dos",
+    "x": 88.26,
+    "y": 872.77,
+    "largura": 269.3,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": "dois recebe o golpe. A Reação protege ",
+    "x": 88.26,
+    "y": 890.93,
+    "largura": 221.5,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": "somente o",
+    "x": 309.76,
+    "y": 890.93,
+    "largura": 60.25,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": "ataque declarado",
+    "x": 88.26,
+    "y": 909.09,
+    "largura": 100.31,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": ", não os demais ataques da ação.",
+    "x": 188.58,
+    "y": 909.09,
+    "largura": 184.39,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": "Alicerce",
+    "x": 422.75,
+    "y": 319.15,
+    "largura": 68.95,
+    "altura": 28.8
+  },
+  {
+    "pagina": 2,
+    "texto": "Trilha Muro · benefício do nível 2",
+    "x": 422.75,
+    "y": 355.21,
+    "largura": 197.97,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": "Ao fim de cada descanso longo, escolha ",
+    "x": 422.75,
+    "y": 383.95,
+    "largura": 230.14,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": "dois ti‐",
+    "x": 652.89,
+    "y": 383.95,
+    "largura": 41.76,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": "pos de dano",
+    "x": 422.75,
+    "y": 402.11,
+    "largura": 70.0,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": ". Enquanto Olhos Em Mim estiver",
+    "x": 492.75,
+    "y": 402.11,
+    "largura": 196.66,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": "ativo, você recebe ",
+    "x": 422.75,
+    "y": 420.28,
+    "largura": 105.15,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": "metade do dano",
+    "x": 527.9,
+    "y": 420.28,
+    "largura": 93.52,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": " desses tipos.",
+    "x": 621.42,
+    "y": 420.28,
+    "largura": 75.31,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": "Kaori escolheu Cortante e Concussão para estes",
+    "x": 422.75,
+    "y": 438.44,
+    "largura": 275.81,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": "exemplos.",
+    "x": 422.75,
+    "y": 456.6,
+    "largura": 57.19,
+    "altura": 19.89
+  },
+  {
+    "pagina": 2,
+    "texto": "O efeito de Provocar:",
+    "x": 410.08,
+    "y": 509.36,
+    "largura": 127.83,
+    "altura": 20.5
+  },
+  {
+    "pagina": 2,
+    "texto": " até o começo do próximo tur‐",
+    "x": 537.91,
+    "y": 509.36,
+    "largura": 178.26,
+    "altura": 20.5
+  },
+  {
+    "pagina": 2,
+    "texto": "no de quem provocou, o alvo afetado ataca essa pes‐",
+    "x": 410.08,
+    "y": 528.08,
+    "largura": 307.18,
+    "altura": 20.5
+  },
+  {
+    "pagina": 2,
+    "texto": "soa com vantagem e as outras criaturas com desvan‐",
+    "x": 410.08,
+    "y": 546.8,
+    "largura": 309.89,
+    "altura": 20.5
+  },
+  {
+    "pagina": 2,
+    "texto": "tagem. Para Kaori, a provocação inicial alcança até ",
+    "x": 410.08,
+    "y": 565.51,
+    "largura": 303.64,
+    "altura": 20.5
+  },
+  {
+    "pagina": 2,
+    "texto": "2",
+    "x": 713.72,
+    "y": 565.51,
+    "largura": 7.22,
+    "altura": 20.5
+  },
+  {
+    "pagina": 2,
+    "texto": "inimigos",
+    "x": 410.08,
+    "y": 584.23,
+    "largura": 53.48,
+    "altura": 20.5
+  },
+  {
+    "pagina": 2,
+    "texto": "; seu teste é ",
+    "x": 463.56,
+    "y": 584.23,
+    "largura": 71.49,
+    "altura": 20.5
+  },
+  {
+    "pagina": 2,
+    "texto": "d20 + 4",
+    "x": 535.05,
+    "y": 584.23,
+    "largura": 43.32,
+    "altura": 20.5
+  },
+  {
+    "pagina": 2,
+    "texto": " contra o TR de Espírito",
+    "x": 578.37,
+    "y": 584.23,
+    "largura": 142.7,
+    "altura": 20.5
+  },
+  {
+    "pagina": 2,
+    "texto": "de cada um.",
+    "x": 410.08,
+    "y": 602.95,
+    "largura": 70.43,
+    "altura": 20.5
+  },
+  {
+    "pagina": 2,
+    "texto": "O exemplo seguinte começa com a área já ativa e a provo‐",
+    "x": 410.08,
+    "y": 633.01,
+    "largura": 304.57,
+    "altura": 18.26
+  },
+  {
+    "pagina": 2,
+    "texto": "cação inicial encerrada. Ele demonstra a proteção de um",
+    "x": 410.08,
+    "y": 649.21,
+    "largura": 297.71,
+    "altura": 18.26
+  },
+  {
+    "pagina": 2,
+    "texto": "aliado, sem precisar resolver outra tentativa de Provocar.",
+    "x": 410.08,
+    "y": 665.41,
+    "largura": 299.63,
+    "altura": 18.26
+  },
+  {
+    "pagina": 2,
+    "texto": "PROJETO - M",
+    "x": 75.59,
+    "y": 32.56,
+    "largura": 70.41,
+    "altura": 12.8
+  },
+  {
+    "pagina": 2,
+    "texto": "Proteção do Bastião",
+    "x": 633.93,
+    "y": 32.56,
+    "largura": 87.96,
+    "altura": 12.8
+  },
+  {
+    "pagina": 2,
+    "texto": "PILOTO EDITORIAL 1 · REGRAS v0.331",
+    "x": 75.59,
+    "y": 1069.61,
+    "largura": 160.74,
+    "altura": 11.68
+  },
+  {
+    "pagina": 2,
+    "texto": "2",
+    "x": 715.46,
+    "y": 1065.83,
+    "largura": 6.43,
+    "altura": 19.2
+  }
+]

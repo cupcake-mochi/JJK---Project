@@ -1,0 +1,599 @@
+{
+  "data": "2026-10-03",
+  "escopo": "Auxiliares, Castigo, Tempo, Marca e Amparo: 38 entradas completas",
+  "fontes": [
+    {
+      "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+      "sha256": "8ec6cd54f8fbb0cc7e98874a5242890a3b3392a792ec1cdef959abcec4b70d96"
+    },
+    {
+      "caminho": "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md",
+      "sha256": "a381ff3ae9a8460732658875a63e61caa604c12f617b86be0ac78409a334e7b8"
+    },
+    {
+      "caminho": "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/sincronizacoes/40-CATALOGO.md",
+      "sha256": "eea4e32024b441f45a0b0674bb8b9b1406664b6b9016a13e0bb16b513be45b45"
+    }
+  ],
+  "leitura_adicional": [
+    "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+    "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+    "regras-basicas/lote-04-r2/RECUPERACAO.md",
+    "regras-comuns/consolidado-r1/REGRAS-COMUNS.md",
+    "sistema/ESTADO-ATUAL.md:1856"
+  ],
+  "decisoes": [
+    {
+      "id": "R07-B-01",
+      "familia": "Auxiliares",
+      "nome": "Impulso",
+      "preco_antes": "Leve",
+      "preco_depois": "Leve",
+      "antes": "O alvo tem vantagem no próximo teste dele, até o fim do próximo turno.",
+      "depois": "O alvo tem vantagem no próximo teste que fizer até o fim do próximo turno dele. O benefício termina depois desse teste, mesmo se ele falhar. Não modifica rolagens de dano.",
+      "motivo": "Prazo refere-se ao alvo; próximo teste é um consumo, não dano.",
+      "tipo": "E",
+      "estado": "candidata; não aplicada ao publicado"
+    },
+    {
+      "id": "R07-B-02",
+      "familia": "Auxiliares",
+      "nome": "Trava",
+      "preco_antes": "Leve",
+      "preco_depois": "Leve",
+      "antes": "O alvo tem desvantagem no próximo ataque dele.",
+      "depois": "O alvo tem desvantagem no próximo ataque que fizer. A peça termina depois dessa tentativa ou no começo do seu próximo turno, o que acontecer primeiro.",
+      "motivo": "Fonte omite prazo: aplica convenção geral de uma rodada, sem criar penalidade permanente.",
+      "tipo": "I",
+      "estado": "candidata; não aplicada ao publicado"
+    },
+    {
+      "id": "R07-B-03",
+      "familia": "Auxiliares",
+      "nome": "Abre Ferida",
+      "preco_antes": "Leve",
+      "preco_depois": "Leve",
+      "antes": "O alvo fica com −2 em um Teste de Resistência até o fim do próximo turno dele.",
+      "depois": "Escolha um dos quatro TRs na criação. Até o fim do próximo turno do alvo, ele sofre −2 nesse tipo de TR. A penalidade só entra depois da resolução que aplicou a peça: não reduz o próprio TR usado para resistir a este feitiço.",
+      "motivo": "Interpreta um TR como um dos quatro tipos, fixado na criação; impede penalidade retroativa na própria resistência.",
+      "tipo": "I",
+      "estado": "candidata; não aplicada ao publicado"
+    },
+    {
+      "id": "R07-B-04",
+      "familia": "Auxiliares",
+      "nome": "Sobrecarga",
+      "preco_antes": "Leve",
+      "preco_depois": "Leve",
+      "antes": "Até o fim do próximo turno do alvo, ele não usa Reação, e o feitiço dele sai com a CD 2 menor.",
+      "depois": "Até o fim do próximo turno dele, o alvo não pode usar Reação e a CD dos feitiços que conjurar diminui em 2. Não altera o bônus de ataque nem a CD de efeitos que ele já havia aplicado.",
+      "motivo": "Separa CD de conjurações futuras de bônus de ataque e de efeitos existentes.",
+      "tipo": "I",
+      "estado": "candidata; não aplicada ao publicado"
+    },
+    {
+      "id": "R07-B-05",
+      "familia": "Auxiliares",
+      "nome": "Firmeza",
+      "preco_antes": "Média",
+      "preco_depois": "Média",
+      "antes": "O alvo tem vantagem no próximo Teste de Resistência dele.",
+      "depois": "O alvo tem vantagem no próximo TR que fizer. O benefício termina depois desse teste ou no começo do seu próximo turno, o que acontecer primeiro. Ele não substitui o TR por sucesso automático.\n\n> **Exemplo:** uma criatura falha no TR de um feitiço com Abre Ferida, escolhido para afetar TR Físico. A penalidade não muda aquela falha. Um novo TR Físico feito dentro do prazo recebe −2; seu TR de Vigor continua igual.",
+      "motivo": "Fonte omite prazo: uma rodada; vantagem não se renova com extensão.",
+      "tipo": "I",
+      "estado": "candidata; não aplicada ao publicado"
+    },
+    {
+      "id": "R07-B-06",
+      "familia": "Auxiliares",
+      "nome": "Guarda",
+      "preco_antes": "Média",
+      "preco_depois": "Média",
+      "antes": "Até o fim do próximo turno, o alvo tem +2 de defesa.",
+      "depois": "O alvo recebe +2 na Defesa até o fim do próximo turno dele. O bônus não altera seus TRs. A relação entre Defesa e Bloquear segue o procedimento de combate.",
+      "motivo": "Turno é do alvo; remete a combate em vez de duplicar Bloquear.",
+      "tipo": "E",
+      "estado": "candidata; não aplicada ao publicado"
+    },
+    {
+      "id": "R07-B-07",
+      "familia": "Auxiliares",
+      "nome": "Pressa",
+      "preco_antes": "Média",
+      "preco_depois": "Média",
+      "antes": "O alvo ganha +6 m de deslocamento e não provoca ataques de oportunidade até o fim do próximo turno.",
+      "depois": "O alvo recebe +6 m de deslocamento e seus movimentos não provocam ataques de oportunidade até o fim do próximo turno dele. A peça não concede um movimento imediato nem ações adicionais. Terreno e condições continuam afetando o movimento disponível.",
+      "motivo": "Bônus de deslocamento não é movimento imediato nem ação adicional.",
+      "tipo": "E",
+      "estado": "candidata; não aplicada ao publicado"
+    },
+    {
+      "id": "R07-B-08",
+      "familia": "Auxiliares",
+      "nome": "Enfraquece",
+      "preco_antes": "Média",
+      "preco_depois": "Média",
+      "antes": "O dano do alvo cai `Xd4` até o fim do próximo turno dele, com X sendo metade do seu atributo de técnica.",
+      "depois": "Até o fim do próximo turno do alvo, reduza o dano que ele causar em **Xd4**, sendo X metade do seu atributo da técnica, arredondada para baixo, mínimo zero.\n\nRole a redução ao resolver cada ataque ou aplicação de dano dele, antes das defesas de quem recebe. Numa mesma área, use uma única rolagem da redução para todas as criaturas. O resultado não pode reduzir o dano abaixo de zero. A peça não modifica custos que o alvo paga em vida nem dano de outras criaturas que ele comande.",
+      "motivo": "Fecha arredondamento, mínimo zero e frequência por ataque/aplicação; não reduz pagamentos em vida nem dano de outra criatura.",
+      "tipo": "I/M",
+      "estado": "candidata; não aplicada ao publicado"
+    },
+    {
+      "id": "R07-B-09",
+      "familia": "Auxiliares",
+      "nome": "Ecoa",
+      "preco_antes": "Média",
+      "preco_depois": "Média",
+      "antes": "O próximo ataque de um aliado contra o alvo tem vantagem.",
+      "depois": "O próximo ataque de um aliado seu, diferente de você, contra o alvo tem vantagem. A peça termina depois dessa tentativa, mesmo se errar, ou no começo do seu próximo turno. Não beneficia TRs nem rolagens feitas apenas para resolver um dano secundário.",
+      "motivo": "Uma rodada, uma tentativa, beneficiário aliado diferente do criador; não consome em secundários.",
+      "tipo": "I",
+      "estado": "candidata; não aplicada ao publicado"
+    },
+    {
+      "id": "R07-B-10",
+      "familia": "Castigo",
+      "nome": "Queima",
+      "preco_antes": "Média",
+      "preco_depois": "Média",
+      "antes": "Metade dos dados de novo, no começo do próximo turno do alvo.",
+      "depois": "",
+      "motivo": "Um dano adiado por parcela inicial no alvo (em Rajada não copia pool); sem crítico, novo teste ou reaplicação de peças. Depende de acerto/falha inicial.",
+      "tipo": "I",
+      "estado": "candidata; não aplicada ao publicado"
+    },
+    {
+      "id": "R07-B-11",
+      "familia": "Castigo",
+      "nome": "Acúmulo",
+      "preco_antes": "Média",
+      "preco_depois": "Média",
+      "antes": "+1 dado por rodada seguida usando este feitiço no mesmo alvo. Para de somar em +3.",
+      "depois": "Mantenha uma sequência deste feitiço contra um alvo escolhido. Usá-lo em rodadas seguidas contra esse alvo dá **+1d8 no segundo uso, +2d8 no terceiro e +3d8 no quarto e nos seguintes**. O primeiro começa sem bônus. Um ataque que erre ainda conta como uso; uma tentativa sem alvo válido não conta.\n\nA sequência aumenta no máximo uma vez por rodada. Repetir o feitiço na mesma rodada usa o bônus já alcançado. Se passar uma rodada inteira sem usá-lo contra o alvo, ou se você escolher outro alvo para a sequência, o próximo uso começa sem bônus. Mantenha uma sequência por ficha de feitiço.\n\nNuma área ou em ataques divididos, indique qual alvo acompanha a sequência. O bônus pertence apenas ao dano inicial destinado a ele; em vários tiros, distribua os dados adicionais entre os tiros dirigidos a esse alvo. Não some o bônus inteiro em cada tiro.\n\nOs dados deste uso entram na base de seus próprios efeitos derivados, mas não alteram Queima, Fica, Salto ou Estilhaço de usos anteriores. Em Fica, o bônus pertence apenas ao alvo acompanhado: as outras criaturas na área usam a base sem esse acréscimo. Remate pode aumentar esse dano normalmente. O crescimento de Acúmulo, inclusive seus efeitos derivados, pode ultrapassar o teto conferido na montagem; não exige reduzir retroativamente o feitiço.",
+      "motivo": "Preserva exceção histórica e Remate; fecha um alvo acompanhado, reinício por rodada omitida e crescimento máximo um por rodada. Bônus dos usos atuais entra em derivados; não altera usos anteriores.",
+      "tipo": "I",
+      "estado": "candidata; não aplicada ao publicado"
+    },
+    {
+      "id": "R07-B-12",
+      "familia": "Castigo",
+      "nome": "Remate",
+      "preco_antes": "Média",
+      "preco_depois": "Média",
+      "antes": "+25% de dano contra alvo abaixo de metade da vida. Não entra num feitiço que tenha uma `Condicional` ligada à vida do alvo ou à duração, nem num feitiço com a Restrição `Aquecer`.",
+      "depois": "Aumente em 25% o dano inicial deste uso contra uma criatura que esteja **abaixo da metade da vida**, conferida antes da parcela de dano. O multiplicador entra antes das defesas. Um tiro de Rajada que leve o alvo abaixo da metade pode habilitar os tiros seguintes. Queima, Fica, Salto e Estilhaço não reaplicam este multiplicador.\n\nNão combina com Condicional ligada à vida do alvo ou à duração, nem com Aquecer. Na montagem, conte seu multiplicador ao verificar o teto. Crítico e Acúmulo conservam suas regras próprias.",
+      "motivo": "Limiar conferido antes de cada parcela inicial; Remate não reaplicado em Queima/Fica/Salto/Estilhaço, coerência com exclusão R06 de herança de peças. Exclui incompatibilidades da fonte.",
+      "tipo": "I/M",
+      "estado": "candidata; não aplicada ao publicado"
+    },
+    {
+      "id": "R07-B-13",
+      "familia": "Castigo",
+      "nome": "Estilhaço",
+      "preco_antes": "Leve",
+      "preco_depois": "Leve",
+      "antes": "Em crítico, ou quando o alvo falha o Teste de Resistência por 5 ou mais, metade dos dados respinga em quem estiver do lado.",
+      "depois": "Uma vez por conjuração, depois da resolução inicial, escolha um alvo que sofreu crítico ou falhou no TR por 5 ou mais. Metade dos dados iniciais destinados àquela origem, arredondada para baixo e sem os dados adicionais do crítico, atinge as outras criaturas a até **1,5 m** dele, respeitando obstáculos.\n\nEm Rajada, escolha um tiro que cumpriu o gatilho e use apenas os dados dele. O respingo não exige outro ataque ou TR. Pode atingir aliados e você; não herda Escolher. Não aplica outras peças, não ativa benefícios por ataque nem produz outro respingo. Vários alvos iniciais que cumpram o gatilho continuam produzindo apenas um Estilhaço.",
+      "motivo": "Aplica CAT-04: um secundário automático, 1,5 m, sem dados do crítico nem peças herdadas.",
+      "tipo": "M/I R06",
+      "estado": "candidata; não aplicada ao publicado"
+    },
+    {
+      "id": "R07-B-14",
+      "familia": "Castigo",
+      "nome": "Quebra Coisa",
+      "preco_antes": "Leve",
+      "preco_depois": "Leve",
+      "antes": "Dano dobrado contra barreiras, objetos e estruturas.",
+      "depois": "Dobre o dano inicial contra barreiras, objetos e estruturas que possam ser afetados pela ficha. Queima, Fica, Salto e Estilhaço não reaplicam o multiplicador. Isso não permite atingir algo sem alcance ou passagem, nem tratar uma criatura como objeto. Conte o multiplicador na montagem e mantenha as defesas do objeto que a peça não ignora.",
+      "motivo": "Dobra somente dano inicial contra objetos válidos; multiplicador passa pela mesma regra de teto R06, fechamento de uma omissão de enumeração. Não herda para repetições.",
+      "tipo": "I/M",
+      "estado": "candidata; não aplicada ao publicado"
+    },
+    {
+      "id": "R07-B-15",
+      "familia": "Castigo",
+      "nome": "Rasga Escudo",
+      "preco_antes": "Média",
+      "preco_depois": "Média",
+      "antes": "O dano ignora `vida temporária` e barreiras: bate direto na vida. Não ignora Redução de Dano.",
+      "depois": "O dano ignora a vida temporária e uma barreira que esteja absorvendo dano no lugar do alvo: desconte diretamente da vida. Não ignora RD, resistência, imunidade, cobertura ou uma parede que impeça o feitiço de alcançar o alvo.",
+      "motivo": "Barreira absorvente não equivale a atravessar uma parede ou ignorar requisito de alvo.",
+      "tipo": "I",
+      "estado": "candidata; não aplicada ao publicado"
+    },
+    {
+      "id": "R07-B-16",
+      "familia": "Castigo",
+      "nome": "Sem Cura",
+      "preco_antes": "Média",
+      "preco_depois": "Média",
+      "antes": "O alvo não pode receber cura até o fim do próximo turno dele.",
+      "depois": "O alvo não pode recuperar vida até o fim do próximo turno dele. Isso não remove vida temporária já recebida, não impede uma concessão de vida temporária e não retira condições por si só. Integridade usa seu procedimento próprio.",
+      "motivo": "Cura refere-se à vida; reserva temporária e Integridade não são redefinidas.",
+      "tipo": "I",
+      "estado": "candidata; não aplicada ao publicado"
+    },
+    {
+      "id": "R07-B-17",
+      "familia": "Tempo",
+      "nome": "Rápido",
+      "preco_antes": "Pesada",
+      "preco_depois": "Pesada",
+      "antes": "Custa Ação Bônus em vez de Ação Padrão. Não entra no mesmo feitiço que `Reação` nem com a Restrição `Atrasar`.",
+      "depois": "Use Ação Bônus no lugar da Padrão. Não combina com Reação ou Atrasar, e não substitui a Ação Completa de uma Liberação Máxima ou Técnica Máxima. O limite de conjuração no turno permanece.",
+      "motivo": "Preserva economia; não substitui Ação Completa.",
+      "tipo": "E R06",
+      "estado": "candidata; não aplicada ao publicado"
+    },
+    {
+      "id": "R07-B-18",
+      "familia": "Tempo",
+      "nome": "Reação",
+      "preco_antes": "Pesada",
+      "preco_depois": "Pesada",
+      "antes": "Você conjura como Reação, a um gatilho que você declara quando monta o feitiço. Não entra no mesmo feitiço que `Rápido` nem que `Armado`, nem com as Restrições `Atrasar` e `Parado`.",
+      "depois": "Conjure com sua Reação quando ocorrer um gatilho perceptível, definido na criação. Resolva depois de o gatilho terminar, salvo regra expressa que permita intervir antes. Um gatilho de sofrer dano não evita o dano que já aconteceu.\n\nCumpra alvo, alcance, visão, Selo e os outros requisitos nesse momento. Não combina com Rápido, Armado, Atrasar ou Parado, nem substitui a Ação Completa das aplicações máximas.",
+      "motivo": "Gatilho vem da criação, resolução posterior por padrão; não impede retroativamente dano já sofrido.",
+      "tipo": "I",
+      "estado": "candidata; não aplicada ao publicado"
+    },
+    {
+      "id": "R07-B-19",
+      "familia": "Tempo",
+      "nome": "Armado",
+      "preco_antes": "Leve",
+      "preco_depois": "Leve",
+      "antes": "Você gasta a ação e o PE do feitiço, e ele fica armado até o fim da cena. Na hora de armar, escolha um gatilho que a mesa consiga ver acontecer e que não seja um momento do seu próprio turno. Quando ele acontece, o feitiço sai sem gastar Reação, com alcance e alvo conferidos naquela hora. Um armado por vez. Se ele não sair, porque a cena acabou ou porque você armou outro, metade do PE volta. Não entra no mesmo feitiço que `Reação` nem com a Restrição `Carregar`.",
+      "depois": "No seu turno, gaste a ação, o PE e os demais custos da ficha e cumpra seus requisitos de conjuração. Escolha um gatilho que você possa perceber, fora do seu próprio turno. O feitiço fica preparado até o fim da cena; você só mantém um feitiço Armado por vez.\n\nNa primeira ocorrência do gatilho que você perceber, resolva o feitiço depois dela, sem gastar Reação. Você precisa perceber o acontecimento e poder escolher alvos; confira visão, alcance e obstáculos na posição que ocupa ao disparar. O preparo é consumido mesmo se o ataque errar ou o alvo resistir.\n\nSe não houver alvo válido nessa ocorrência, o preparo se encerra sem disparar. Quando um preparo termina sem disparar — inclusive pelo fim da cena ou por preparar outro — recupere metade do PE efetivamente pago, arredondada para baixo. Outros custos não voltam. Armar conta como conjuração no turno do pagamento; o disparo é a resolução dessa mesma conjuração.\n\nNão combina com Reação ou Carregar. Não pode preparar uma Técnica Máxima. Numa Liberação Máxima, pague a Ação Completa, o PE e o preço escolhido ao armar; a preparação não devolve essas ações nem adia esse preço.",
+      "motivo": "Um preparo, percebe gatilho, paga conjuração ao armar, resolve depois. Falta de alvo encerra. Liberação mantém ação/PE/preço no preparo; Parado/Atrasar conservados também no turno do disparo. Exclui Técnica Máxima para evitar estoque e contagem dupla de recarga; requer sincronizar R06.",
+      "tipo": "I/M",
+      "estado": "candidata; não aplicada ao publicado"
+    },
+    {
+      "id": "R07-B-20",
+      "familia": "Tempo",
+      "nome": "Silencioso",
+      "preco_antes": "Leve",
+      "preco_depois": "Leve",
+      "antes": "Sem gesto, sem palavra. Usar não revela a sua posição e não exige nenhum sinal. Dispensa Selo de gesto ou de som; Selo de condição, como enxergar o alvo, continua valendo.",
+      "depois": "A conjuração dispensa gesto e palavra. O uso não revela automaticamente sua posição, e perceber o efeito não localiza sua origem. Isso não torna invisível um corpo exposto nem impede uma busca independente.\n\nDispensa o Selo de gesto ou som; requisitos de condição, como enxergar o alvo, continuam. Não cancela uma Restrição mantendo sua devolução: Gesto e Barulho conservam suas exigências quando presentes na ficha.",
+      "motivo": "Concilia ocultação candidata e Selo sem teste gratuito ou dispensa de restrição paga.",
+      "tipo": "E",
+      "estado": "candidata; não aplicada ao publicado"
+    },
+    {
+      "id": "R07-B-21",
+      "familia": "Tempo",
+      "nome": "Adianta",
+      "preco_antes": "Média",
+      "preco_depois": "Média",
+      "antes": "Se você conjurar antes de qualquer inimigo agir na rodada, +2 na CD.",
+      "depois": "Se conjurar antes de qualquer inimigo ter agido na rodada, a CD deste uso aumenta em 2. Uma ação ou Reação inimiga já conta como ter agido; apenas receber um ataque ou fazer o TR exigido por ele não conta. O benefício não modifica ataques. Com Armado ou Segura, confira a exigência também ao disparar; o bônus não fica guardado para uma rodada posterior.",
+      "motivo": "Define agir e fixa bônus ao momento de conjuração; não guarda +2 para disparo adiado em outra rodada.",
+      "tipo": "I",
+      "estado": "candidata; não aplicada ao publicado"
+    },
+    {
+      "id": "R07-B-22",
+      "familia": "Tempo",
+      "nome": "Segura",
+      "preco_antes": "Leve",
+      "preco_depois": "Leve",
+      "antes": "Você pode adiar o efeito por até uma rodada e disparar no seu próximo turno, de graça.",
+      "depois": "Ao conjurar, pague os custos e adie a resolução. Dispare em qualquer momento do seu próximo turno, sem gastar outra ação, conferindo alvo, visão, alcance e obstáculos a partir da posição que ocupa então. Se não disparar até o fim desse turno, perde a aplicação, sem recuperar PE.\n\nO disparo resolve a conjuração já paga; não concede ações ou outro uso dela. Não combina com Armado, pois são dois procedimentos para adiar o mesmo disparo. Não pode adiar uma Técnica Máxima.",
+      "motivo": "Fecha término no fim do turno seguinte, sem refund; não combina com Armado; exclui Técnica Máxima em vez de inventar nova recarga.",
+      "tipo": "I/M",
+      "estado": "candidata; não aplicada ao publicado"
+    },
+    {
+      "id": "R07-B-23",
+      "familia": "Tempo",
+      "nome": "Concentrada",
+      "preco_antes": "Leve",
+      "preco_depois": "Leve",
+      "antes": "Os efeitos de estado do feitiço, que hoje duram uma rodada ou até o fim do próximo turno, passam a durar o tempo da tabela `Quanto dura`. Exige concentração. Não vale para o dano, para a `Fica` nem para o `Anteparo`.",
+      "depois": "Amplie efeitos de estado que normalmente durariam uma rodada ou até o fim do próximo turno. Concentrada exige concentração; Duradoura usa a coluna sem concentração. Se a ficha reunir estados de categorias diferentes, todos usam o menor prazo aplicável.\n\n| Efeito prolongado | Concentrada | Duradoura |\n|---|---|---|\n| Condição, benefício ofensivo ou penalidade. | 1 minuto. | 1 minuto. |\n| Bônus numérico de Defesa ou TR. | 10 minutos. | 1 minuto. |\n| Proteção mecânica: resistência, imunidade, vida temporária ou Divide. | 10 minutos. | Classes 1–2: 1 hora; Classe 3: 8 horas; Classes 4–7: 24 horas. |\n\nUm minuto equivale a **dez rodadas de 6 segundos**. Marque o ponto da iniciativa em que o efeito começou; termine após dez voltas completas, antes de resolver algo naquele mesmo ponto. Fora do combate, use o tempo transcorrido.\n\nAs peças não repetem dano, não renovam um uso consumido e não prolongam Fica, Anteparo, Rastro, reservas de cura ou um prazo próprio de outra regra. Aplicam-se a estados da ficha, não à duração de um artefato. Fica conserva suas seis janelas de resolução.",
+      "motivo": "Mantém duração de um minuto como dez rodadas, só Fica usa seis janelas; não renova usos nem prazos próprios de artefatos.",
+      "tipo": "I",
+      "estado": "candidata; não aplicada ao publicado"
+    },
+    {
+      "id": "R07-B-24",
+      "familia": "Tempo",
+      "nome": "Duradoura",
+      "preco_antes": "Média",
+      "preco_depois": "Média",
+      "antes": "A mesma coisa que a `Concentrada`, só que sem exigir concentração, e com o tempo da coluna `Duradoura` da tabela `Quanto dura`.",
+      "depois": "Amplie efeitos de estado que normalmente durariam uma rodada ou até o fim do próximo turno. Concentrada exige concentração; Duradoura usa a coluna sem concentração. Se a ficha reunir estados de categorias diferentes, todos usam o menor prazo aplicável.\n\n| Efeito prolongado | Concentrada | Duradoura |\n|---|---|---|\n| Condição, benefício ofensivo ou penalidade. | 1 minuto. | 1 minuto. |\n| Bônus numérico de Defesa ou TR. | 10 minutos. | 1 minuto. |\n| Proteção mecânica: resistência, imunidade, vida temporária ou Divide. | 10 minutos. | Classes 1–2: 1 hora; Classe 3: 8 horas; Classes 4–7: 24 horas. |\n\nUm minuto equivale a **dez rodadas de 6 segundos**. Marque o ponto da iniciativa em que o efeito começou; termine após dez voltas completas, antes de resolver algo naquele mesmo ponto. Fora do combate, use o tempo transcorrido.\n\nAs peças não repetem dano, não renovam um uso consumido e não prolongam Fica, Anteparo, Rastro, reservas de cura ou um prazo próprio de outra regra. Aplicam-se a estados da ficha, não à duração de um artefato. Fica conserva suas seis janelas de resolução.",
+      "motivo": "Conserva as três linhas e escalas da fonte; não aumenta duração própria nem consumos.",
+      "tipo": "I",
+      "estado": "candidata; não aplicada ao publicado"
+    },
+    {
+      "id": "R07-B-25",
+      "familia": "Marca",
+      "nome": "Marca",
+      "preco_antes": "Leve",
+      "preco_depois": "Leve",
+      "antes": "O alvo fica marcado até o fim do seu próximo turno. **Você** tem vantagem no seu próximo ataque contra ele. Só você.",
+      "depois": "Até o fim do seu próximo turno, você tem vantagem no próximo ataque contra o alvo. A vantagem se encerra depois dessa tentativa, mesmo se errar. Só você a recebe; a conjuração que aplicou Marca não se beneficia dela.",
+      "motivo": "Consome na próxima tentativa; não beneficia a mesma conjuração nem secundários.",
+      "tipo": "I",
+      "estado": "candidata; não aplicada ao publicado"
+    },
+    {
+      "id": "R07-B-26",
+      "familia": "Marca",
+      "nome": "Alvo de Caça",
+      "preco_antes": "Leve",
+      "preco_depois": "Leve",
+      "antes": "O alvo fica marcado até o fim do seu próximo turno. Daí em diante, cada ataque **seu** que acertar ele causa 1d4 a mais, e o feitiço que marcou não ganha o dado. Vale arma, desarmado e feitiço com rolagem de acerto, e cada tiro da `Rajada` conta. Se este feitiço tiver o `Rápido`, o dado é 1d8. Não entram feitiço de Teste de Resistência, dano que volta em rodada seguinte como o da `Queima`, respingo, nem ataque da sua invocação. Um alvo marcado por vez: marcar outro apaga a marca anterior.",
+      "depois": "Até o fim do seu próximo turno, cada ataque **seu** que acertar o alvo causa **+1d4**. Se a ficha que aplica a marca tiver Rápido, o dado é **1d8**. O feitiço que marcou não recebe esse adicional, incluindo seus demais tiros.\n\nO bônus vale para arma, desarmado e feitiço com ataque; cada tiro elegível de Rajada conta. Não vale para TR, Queima, Fica, Salto, Estilhaço ou ataques de criaturas que você comande. Mantenha um alvo de caça por vez: aplicar a marca em outro encerra a anterior. Se a ficha alcançar várias criaturas, escolha uma que tenha recebido a peça.",
+      "motivo": "Preserva 1d4/1d8 e gatilhos históricos, um alvo por vez; vários tiros da conjuração aplicadora não recebem bônus.",
+      "tipo": "E/I",
+      "estado": "candidata; não aplicada ao publicado"
+    },
+    {
+      "id": "R07-B-27",
+      "familia": "Marca",
+      "nome": "Rastro",
+      "preco_antes": "Leve",
+      "preco_depois": "Leve",
+      "antes": "Você sabe onde o alvo está por 1 hora, desde que ele esteja no mesmo plano.",
+      "depois": "Por 1 hora, você sabe a posição atual do alvo enquanto ele permanecer no mesmo plano. Se sair, a informação para; volta se ele retornar dentro do prazo. Saber a posição não concede visão, passagem por obstáculos ou conhecimento do caminho até ela.",
+      "motivo": "Posição não é visão nem trajeto; suspensão da informação noutro plano não pausa a hora.",
+      "tipo": "I",
+      "estado": "candidata; não aplicada ao publicado"
+    },
+    {
+      "id": "R07-B-28",
+      "familia": "Marca",
+      "nome": "Sugar",
+      "preco_antes": "Média",
+      "preco_depois": "Média",
+      "antes": "Você recupera um quarto do dano causado, até no máximo 5 × Classe.",
+      "depois": "",
+      "motivo": "Limite por conjuração, soma inicial após defesas somente onde houve acerto/falhaTR; exclui dano parcial de Certeiro/sucessoTR, repetições, objetos, cura de vida para baixo.",
+      "tipo": "I",
+      "estado": "candidata; não aplicada ao publicado"
+    },
+    {
+      "id": "R07-B-29",
+      "familia": "Marca",
+      "nome": "Isca",
+      "preco_antes": "Leve",
+      "preco_depois": "Leve",
+      "antes": "Até o fim do próximo turno do alvo, ele tem desvantagem em qualquer ataque que não mire você.",
+      "depois": "Até o fim do próximo turno do alvo, ele tem desvantagem em ataques que não incluam você como alvo. Num ataque dirigido a várias criaturas, confira cada rolagem: apenas a dirigida a você fica sem essa penalidade. A peça não modifica um efeito resolvido só por TR.",
+      "motivo": "Ataques divididos conferidos por rolagem, sem modificar TR.",
+      "tipo": "I",
+      "estado": "candidata; não aplicada ao publicado"
+    },
+    {
+      "id": "R07-B-30",
+      "familia": "Marca",
+      "nome": "Cobrança",
+      "preco_antes": "Média",
+      "preco_depois": "Média",
+      "antes": "Se o alvo cair nesta cena, o seu próximo feitiço custa metade.",
+      "depois": "Escolha uma criatura que recebeu a peça. Se ela passar de vida positiva para zero ainda nesta cena, seu próximo feitiço custa metade do PE, arredondada para cima. A queda provocada pelo dano inicial que aplica Cobrança também conta. A queda consome esta marca; recuperar vida e cair novamente não dá outro desconto.\n\nVocê mantém uma Cobrança por vez. Marcar outra criatura encerra a marca anterior. Não acumule descontos de Cobrança: receber outro enquanto houver um disponível não reduz o custo novamente. O benefício se perde no fim da cena ou após a próxima conjuração, mesmo que ela custe 0 PE.\n\nCobrança e a Passiva Eco não se multiplicam: quando ambos estiverem disponíveis, aplique uma única redução à metade e consuma os dois na próxima conjuração, inclusive se ela custar 0 PE. O desconto modifica apenas PE; não reduz ação, outros custos ou recarga. Um efeito de dano que começou depois pode derrubar a criatura e cumprir a marca já aplicada, mas não cria uma nova Cobrança.",
+      "motivo": "Define cair como passar de vida positiva para zero, incluindo queda inicial; uma marca/desconto por vez. Decisão do agente principal: não multiplica Eco e consome ambos; expira na cena e gasta na próxima conjuração inclusive Classe0.",
+      "tipo": "I/M",
+      "estado": "candidata; não aplicada ao publicado"
+    },
+    {
+      "id": "R07-B-31",
+      "familia": "Marca",
+      "nome": "Aviso",
+      "preco_antes": "Leve",
+      "preco_depois": "Leve",
+      "antes": "Você sabe qual foi o último feitiço que o alvo usou e de que Classe ele era.",
+      "depois": "Você descobre qual foi o último feitiço conjurado pelo alvo e sua Classe. Se ele ainda não conjurou nenhum, recebe essa informação. O resultado identifica aquela aplicação; não entrega a lista inteira de feitiços, as Famílias ou a ficha de criação.\n\nAviso é uma informação obtida naquele instante. Concentrada e Duradoura não o transformam em acompanhamento automático das conjurações seguintes.",
+      "motivo": "Informação instantânea do último feitiço; não conhecimento integral da ficha nem vigilância contínua.",
+      "tipo": "I",
+      "estado": "candidata; não aplicada ao publicado"
+    },
+    {
+      "id": "R07-B-32",
+      "familia": "Amparo",
+      "nome": "Limpa",
+      "preco_antes": "Média",
+      "preco_depois": "Média",
+      "antes": "Remove de um aliado uma condição de nível `Leve` ou `Média`.",
+      "depois": "Remova do aliado uma condição Leve ou Média. Escolha a condição ao resolver a ficha. Isso encerra aquela aplicação, sem impedir que uma fonte ainda ativa a aplique novamente por seu próprio procedimento.",
+      "motivo": "Uma condição escolhida na resolução; não é imunidade à fonte.",
+      "tipo": "E",
+      "estado": "candidata; não aplicada ao publicado"
+    },
+    {
+      "id": "R07-B-33",
+      "familia": "Amparo",
+      "nome": "Limpa Fundo",
+      "preco_antes": "Pesada",
+      "preco_depois": "Pesada",
+      "antes": "Remove de um aliado uma condição de qualquer nível.",
+      "depois": "Remova uma condição de qualquer nível. O efeito não é uma imunidade nem remove todas as condições do aliado de uma vez.",
+      "motivo": "Uma condição, não todas.",
+      "tipo": "E",
+      "estado": "candidata; não aplicada ao publicado"
+    },
+    {
+      "id": "R07-B-34",
+      "familia": "Amparo",
+      "nome": "Levanta",
+      "preco_antes": "Pesada",
+      "preco_depois": "Pesada",
+      "antes": "Um aliado caído em 0 pontos de vida volta de pé com 5 × Classe, seja qual for a vida máxima dele. Uma vez por cena.",
+      "depois": "Um aliado a **0 de vida**, ainda capaz de ser socorrido, recupera **5 × Classe de vida**, limitado à vida máxima, e pode voltar a agir mesmo abaixo do limiar normal de recuperação. Ele fica de pé se tiver apoio e não houver outro efeito que o mantenha Derrubado. A peça não encerra esse impedimento.\n\nVocê pode aplicar Levanta **uma vez por cena**, compartilhando esse limite entre suas fichas. A peça alcança um aliado escolhido, mesmo numa Onda. Não ressuscita uma criatura morta, não recupera Integridade e não elimina as demais condições. Consulte Recuperação para as consequências da queda.",
+      "motivo": "Preserva 5×Classe e exceção ao limiar; fixa uso global do conjurador por cena e um aliado mesmo em Onda, sem multiplicar via catálogo. Integração da revisão Morrendo permanece dependência.",
+      "tipo": "I/M",
+      "estado": "candidata; não aplicada ao publicado"
+    },
+    {
+      "id": "R07-B-35",
+      "familia": "Amparo",
+      "nome": "Divide",
+      "preco_antes": "Média",
+      "preco_depois": "Média",
+      "antes": "Um aliado a até 9 m passa a receber metade do dano que você receberia, até o fim do próximo turno. Você escolhe na hora de conjurar.",
+      "depois": "Escolha um aliado disposto a até 9 m ao conjurar. Até o fim do próximo turno dele, ele recebe metade do dano que você receberia. Depois das suas defesas e antes de gastar suas reservas, envie metade do valor restante, arredondada para cima, ao aliado; desconte de você somente o restante.\n\nO dano enviado conserva o tipo e recebe as defesas do aliado. Ele não pode ser transferido ou dividido de novo. Se mais de um vínculo puder dividir o mesmo dano, use apenas um. O vínculo não exige que vocês permaneçam a 9 m; essa distância é conferida na aplicação. Junto não cria outro parceiro para a mesma divisão.",
+      "motivo": "Ordem de redução, arredondamento conservando total antes de defesas do parceiro, sem transferência recursiva; alcance só na aplicação, um vínculo aplicável por dano.",
+      "tipo": "I/M",
+      "estado": "candidata; não aplicada ao publicado"
+    },
+    {
+      "id": "R07-B-36",
+      "familia": "Amparo",
+      "nome": "Junto",
+      "preco_antes": "Leve",
+      "preco_depois": "Leve",
+      "antes": "A cura ou o apoio pega um aliado a mais. O efeito é dividido entre eles. Pode comprar duas vezes.",
+      "depois": "Cura ou Apoio alcança mais um aliado dentro do alcance da Forma. Pode comprar esta peça duas vezes, para acrescentar até dois aliados. **Antes de resolver**, distribua os dados de cura ou os pontos de vida temporária entre todos os beneficiários, em quantidades inteiras, sem ultrapassar o total da ficha.\n\nUm efeito indivisível, como Guarda, Pressa ou remover uma condição, é destinado a **um só** desses beneficiários. Escolha o destinatário de cada peça antes da resolução; não copie o efeito nem divida um bônus +2 em dois bônus +1. Onda já aplica seu efeito inteiro na área e não usa Junto para ampliar essa área.\n\n> **Exemplo:** Apoio com 9 de vida temporária, Guarda e Junto pode conceder 6 de vida temporária a uma aliada e 3 a outra. Só uma recebe Guarda. A distribuição 9 para cada uma não cabe.",
+      "motivo": "Divide quantidades antes de resolver; cada efeito indivisível para um beneficiário, nunca copia bônus/condições; não aumenta Onda.",
+      "tipo": "M/I R06",
+      "estado": "candidata; não aplicada ao publicado"
+    },
+    {
+      "id": "R07-B-37",
+      "familia": "Amparo",
+      "nome": "Reserva",
+      "preco_antes": "Média",
+      "preco_depois": "Média",
+      "antes": "A cura fica guardada no aliado e é usada sozinha quando ele cair abaixo da metade da vida. Dura até o fim da cena.",
+      "depois": "Adie a cura da ficha: role os dados agora e anote o valor no aliado, em vez de recuperar vida. Na próxima vez, ainda nesta cena, em que ele passar de pelo menos metade da vida para abaixo dela, aplique a cura guardada depois de resolver o dano que provocou a queda, sem gastar ação.\n\nA reserva é consumida nesse disparo, mesmo se a cura for impedida; o valor não volta ao conjurador. Se a cena terminar antes, ela se perde. Cada aliado mantém uma reserva: receber outra substitui a anterior, sem somar valores. Estar abaixo da metade ao recebê-la não a dispara imediatamente.\n\nA peça não adia as outras Melhorias. Junto divide a cura antes de guardá-la; Onda pode guardar sua cura em cada aliado alcançado. A zero de vida, a cura segue Recuperação; Reserva não concede o efeito de Levanta por conta própria.",
+      "motivo": "Fixa transição de metade para menos, valor rolado ao guardar, uma reserva por alvo, sem soma, consumo mesmo impedido; não adia outras melhorias.",
+      "tipo": "I/M",
+      "estado": "candidata; não aplicada ao publicado"
+    },
+    {
+      "id": "R07-B-38",
+      "familia": "Amparo",
+      "nome": "Remenda",
+      "preco_antes": "Pesada",
+      "preco_depois": "Pesada",
+      "antes": "Devolve 5 × Classe de Integridade a um aliado. Uma vez por cena, por alvo.",
+      "depois": "Recupere **5 × Classe de Integridade** de um aliado, sem ultrapassar seu máximo. O mesmo alvo só pode receber Remenda uma vez por cena, independentemente de quem a use. A peça não recupera vida nem permite voltar a agir a zero de vida por si só.",
+      "motivo": "Concilia Recuperação: limite por alvo/cena compartilhado e máximo de Integridade, sem curar vida.",
+      "tipo": "E/I",
+      "estado": "candidata; não aplicada ao publicado"
+    }
+  ],
+  "comparacoes_numericas": {
+    "tempo_1_minuto": {
+      "antes_segundos_rodada": 10,
+      "depois_segundos_rodada": 6,
+      "antes_rodadas": 6,
+      "depois_rodadas": 10,
+      "aumento_janelas_percentual": 66.66666666666667,
+      "observacao": "Mantém unidade publicada; não afirma que mais janelas seja neutro em equilíbrio. Fica é exceção R06."
+    },
+    "enfraquece_atributos": [
+      {
+        "atributo": 0,
+        "Xd4": 0,
+        "reducao_media_antes_do_piso": 0.0
+      },
+      {
+        "atributo": 1,
+        "Xd4": 0,
+        "reducao_media_antes_do_piso": 0.0
+      },
+      {
+        "atributo": 2,
+        "Xd4": 1,
+        "reducao_media_antes_do_piso": 2.5
+      },
+      {
+        "atributo": 3,
+        "Xd4": 1,
+        "reducao_media_antes_do_piso": 2.5
+      },
+      {
+        "atributo": 4,
+        "Xd4": 2,
+        "reducao_media_antes_do_piso": 5.0
+      },
+      {
+        "atributo": 5,
+        "Xd4": 2,
+        "reducao_media_antes_do_piso": 5.0
+      },
+      {
+        "atributo": 6,
+        "Xd4": 3,
+        "reducao_media_antes_do_piso": 7.5
+      },
+      {
+        "atributo": 7,
+        "Xd4": 3,
+        "reducao_media_antes_do_piso": 7.5
+      },
+      {
+        "atributo": 8,
+        "Xd4": 4,
+        "reducao_media_antes_do_piso": 10.0
+      }
+    ],
+    "acumulo_com_remate_C3": {
+      "base_dados": 9,
+      "bonus_quarto_uso": 3,
+      "media_base": 40.5,
+      "media_sem_remate_com_bonus": 54.0,
+      "media_antes_defesas_e_arredondamentos": 67.5,
+      "teto_base_4C_media": 54.0,
+      "nota": "Não limitar crescimento histórico pelo teto; 67,5 é média sem arredondamento de parcelas."
+    },
+    "remate_com_queima_C5": {
+      "base_dados": 8,
+      "remate_inicial_equivalente": 10.0,
+      "queima_dados": 4,
+      "total_montagem": 14.0,
+      "se_multiplicasse_tambem_queima": 15.0,
+      "nota": "Regra final: 14 dados equivalentes, não15. Multiplicador só inicial; crítico fora da conta de montagem."
+    },
+    "queima_e_estilhaco_C5": {
+      "base_dados": 10,
+      "queima_dados": 5,
+      "estilhaco_dados": 5,
+      "total_montagem": 20,
+      "teto": 20,
+      "max_media_pacotes_antes_acerto": 90.0,
+      "nota": "Estilhaço contingente e por área, não DPR; não multiplica teto por alvos."
+    },
+    "quebra_coisa_C5": {
+      "max_base_dados_para_dobrar_no_teto": 10,
+      "equivalente_com_dobro": 20,
+      "sem_contar_dobro_15dados": 30,
+      "efeito_da_interpretacao": "fecha potencial excesso 30 > teto20; dano contra criaturas fica10d8 neste exemplo especializado."
+    },
+    "cobranca_em_maxima": {
+      "marcar_C1_PE": 3,
+      "maxima_base_PE": 25,
+      "maxima_com_desconto_PE": 13,
+      "total_PE_com_marca": 16,
+      "economia_liquida": 9,
+      "nota": "Preservada abrangência original do desconto. Grande economia após queda de alvo; registrar para teste, sem criar teto arbitrário novo."
+    },
+    "divide_impar": {
+      "dano_apos_defesas_origem": 21,
+      "parcela_enviada_antes_defesas_aliado": 11,
+      "resta_na_origem": 10,
+      "total_antes_defesas_destino": 21
+    },
+    "junto_apoio": {
+      "vida_temporaria_total": 9,
+      "aliadoA": 6,
+      "aliadoB": 3,
+      "guarda_destinatarios": 1
+    }
+  },
+  "dependencias": [
+    "Sincronizar R06 e contrato incompatibilidades de Técnica Máxima acrescentando Armado e Segura.",
+    "Integrar catálogo espelhado de Invocações sem substituir dados/PE próprios da entidade.",
+    "Revisão de Morrendo/Integridade já está na fila: Levanta e Remenda preservam resultado atual, não criam novo sistema de morte.",
+    "Durações defensivas longas e desconto Cobrança exigem teste de mesa; contas não certificam equilíbrio."
+  ],
+  "limites": "Redação candidata auditada por leitura e exemplos; não playtest ou prova de todas as combinações. Nenhuma alegação de cânone e nenhuma nova pesquisa externa necessária para as regras originais deste catálogo."
+}

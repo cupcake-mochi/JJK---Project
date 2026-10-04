@@ -1,0 +1,818 @@
+[
+  {
+    "id": "R10-01",
+    "tipo": "editorial e sincronização",
+    "antes": "Rotas repetem orçamento, slots e fórmulas do Fundamento; PE sem energia mistura proibição e equivalência.",
+    "depois": "Glossário local distingue Kata, Manejo, energia pessoal e PE de esforço. Tabelas comuns têm um dono.",
+    "motivo": "Reduz divergência sem criar moeda ou conceder energia ao Restrito.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/manual/42-tecnica-marcial.md",
+        "ancora": "## Máquina herdada",
+        "linhas": [
+          9
+        ]
+      },
+      {
+        "arquivo": "sistema/03-mecanica/09-origens.md",
+        "ancora": "O que o Caminho entrega a quem não tem PE",
+        "linhas": [
+          267
+        ]
+      }
+    ],
+    "paginas": [
+      "rotas",
+      "rota-marcial",
+      "rota-sem-tecnica"
+    ],
+    "estado": "candidata; revisão independente e integração pela raiz"
+  },
+  {
+    "id": "R10-02",
+    "tipo": "sincronização de decisão vigente",
+    "antes": "Peça20 contém trava de um atributo e revisão em aberto v133; manual42 já usa atributo da arma.",
+    "depois": "Preservada regra manual42: ataque e CD usam atributo da arma na execução. Efeito duradouro conserva sua CD.",
+    "motivo": "A peça histórica não reverte regra publicada mais recente; fixar CD evita mudar efeito aplicado ao trocar arma.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/manual/42-tecnica-marcial.md",
+        "ancora": "**Atributo de arma.**",
+        "linhas": [
+          62
+        ]
+      },
+      {
+        "arquivo": "sistema/03-mecanica/20-tecnica-marcial.md",
+        "ancora": "ABERTO na v0.133",
+        "linhas": [
+          236
+        ]
+      }
+    ],
+    "paginas": [
+      "rota-armas"
+    ],
+    "estado": "candidata; revisão independente e integração pela raiz"
+  },
+  {
+    "id": "R10-03",
+    "tipo": "correção de contradição",
+    "antes": "Não tem Selo / equipamento é seu Selo.",
+    "depois": "Equipamento em uso é Selo; não devolve pontos novamente. Gesto exige mãos livres e voz.",
+    "motivo": "O próprio capítulo dava duas respostas. Mantida a exigência material.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/manual/42-tecnica-marcial.md",
+        "ancora": "Você não tem Selo",
+        "linhas": [
+          33
+        ]
+      },
+      {
+        "arquivo": "sistema/05-material/livro/manual/42-tecnica-marcial.md",
+        "ancora": "## Selo",
+        "linhas": [
+          31,
+          88
+        ]
+      }
+    ],
+    "paginas": [
+      "rota-marcial",
+      "rota-ferramenta"
+    ],
+    "estado": "candidata; revisão independente e integração pela raiz"
+  },
+  {
+    "id": "R10-04",
+    "tipo": "sincronização autorizada R06",
+    "antes": "Troca por invocação aparecia sem ponte clara em todas as rotas.",
+    "depois": "Um espaço comum por uma entidade somente se Descrição/Regra/semente/equipamento prevê criação, chamada ou controle. Troca usa uma revisão por nível, espaço novo não.",
+    "motivo": "Preserva requisito temático explícito do usuário; não transforma espaço em poder universal.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md",
+        "ancora": "## Invocação por espaço",
+        "linhas": [
+          178
+        ]
+      }
+    ],
+    "paginas": [
+      "rota-invocacoes"
+    ],
+    "estado": "candidata; revisão independente e integração pela raiz"
+  },
+  {
+    "id": "R10-05",
+    "tipo": "sincronização autorizada R06",
+    "antes": "Ōgi e Auge são apresentados como golpe de dano fixo.",
+    "depois": "Aplicação máxima pode ataque, cura ou utilidade pelo procedimento R06. Ruptura e Liberação remetem a ele.",
+    "motivo": "Mantém a criação criativa e orçamento único, sem inventar outra Máxima.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/manual/42-tecnica-marcial.md",
+        "ancora": "### `Ōgi`",
+        "linhas": [
+          25
+        ]
+      },
+      {
+        "arquivo": "sistema/05-material/livro/manual/43-sem-tecnica.md",
+        "ancora": "### `Auge`",
+        "linhas": [
+          23
+        ]
+      },
+      {
+        "arquivo": "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md",
+        "ancora": "# Técnica Máxima",
+        "linhas": [
+          713
+        ]
+      }
+    ],
+    "paginas": [
+      "rota-marcial",
+      "rota-sem-tecnica"
+    ],
+    "estado": "candidata; revisão independente e integração pela raiz"
+  },
+  {
+    "id": "R10-06",
+    "tipo": "restauração de conteúdo vigente",
+    "antes": "Manual43 omite Pétala na lista de sementes.",
+    "depois": "Restaurada quarta semente e exemplo Espinho; mantém acesso2 e funcionamento reativo próximo.",
+    "motivo": "Peça25 registra autorização v190 e conclusão v272, não proposta pendente.",
+    "fontes": [
+      {
+        "arquivo": "sistema/03-mecanica/25-sem-tecnica.md",
+        "ancora": "Decisão do Mizuki na v0.190",
+        "linhas": [
+          115,
+          135
+        ]
+      },
+      {
+        "arquivo": "sistema/03-mecanica/25-sem-tecnica.md",
+        "ancora": "### Espinho",
+        "linhas": [
+          286
+        ]
+      }
+    ],
+    "paginas": [
+      "rota-sementes",
+      "rota-espinho"
+    ],
+    "estado": "candidata; revisão independente e integração pela raiz"
+  },
+  {
+    "id": "R10-07",
+    "tipo": "correção de compatibilidade",
+    "antes": "Manual43 nega curar terceiros e cita Liberação de Energia Reversa sem entrada correspondente.",
+    "depois": "Manejo Cura pode curar aliado com Amparo disponível. Aptidão só envia a terceiros se outra regra permitir. Cura hostil remete R09.",
+    "motivo": "Peça25v194 já corrigiu a diferença. Nenhuma aptidão nova foi inventada para preencher ponteiro órfão.",
+    "fontes": [
+      {
+        "arquivo": "sistema/03-mecanica/25-sem-tecnica.md",
+        "ancora": "O que fica de fora da criação",
+        "linhas": [
+          185
+        ]
+      },
+      {
+        "arquivo": "sistema/05-material/livro/manual/43-sem-tecnica.md",
+        "ancora": "## Cura",
+        "linhas": [
+          93
+        ]
+      },
+      {
+        "arquivo": "sistema/05-material/livro/planejamento-editorial/aptidoes/lote-01/APTIDOES-E-REFINO.md",
+        "ancora": "# Energia Reversa",
+        "linhas": [
+          159
+        ]
+      }
+    ],
+    "paginas": [
+      "rota-cura",
+      "rota-sutura"
+    ],
+    "estado": "candidata; revisão independente e integração pela raiz"
+  },
+  {
+    "id": "R10-08",
+    "tipo": "clareza numérica",
+    "antes": "Um terço refino com exceção10+4 podia parecer +por dado ou em terceiros.",
+    "depois": "Tabela0/1/2/3/4 por faixa; uma soma ao total de cada cura sua em você.",
+    "motivo": "Mantém exceção publicada no manual, não histórico+3 da peça25.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/manual/43-sem-tecnica.md",
+        "ancora": "No refino 10 são",
+        "linhas": [
+          97
+        ]
+      }
+    ],
+    "paginas": [
+      "rota-cura"
+    ],
+    "estado": "candidata; revisão independente e integração pela raiz"
+  },
+  {
+    "id": "R10-09",
+    "tipo": "compatibilidade de alvo",
+    "antes": "Rotas explicavam criação sem reforçar incompatibilidade atual de Corpo com ER.",
+    "depois": "Energia Reversa e curas construídas com ela não recuperam Corpo Amaldiçoado; reparos apropriados têm outro funcionamento.",
+    "motivo": "Preserva decisão autoral v318 sem vetar aquisição de toda aptidão pela Origem.",
+    "fontes": [
+      {
+        "arquivo": "sistema/03-mecanica/09-origens.md",
+        "ancora": "v0.318",
+        "linhas": [
+          186
+        ]
+      }
+    ],
+    "paginas": [
+      "rota-cura",
+      "rota-bancada"
+    ],
+    "estado": "candidata; revisão independente e integração pela raiz"
+  },
+  {
+    "id": "R10-10",
+    "tipo": "mecânica candidata; redução de efeito Livre",
+    "antes": "Calo identifica sem visão qualquer arma empunhada uma vez.",
+    "depois": "Calo Livre reconhece textura/encaixe familiar sem resolver informação escondida; identificação disfarçada segue cena.",
+    "motivo": "Reconhecimento infalível contra disfarce é informação protegida pelo R06/R07 e não cabe na Livre. Nome preservado.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/manual/42-tecnica-marcial.md",
+        "ancora": "### `Calo`",
+        "linhas": [
+          131
+        ]
+      },
+      {
+        "arquivo": "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md",
+        "ancora": "## Passiva Livre",
+        "linhas": [
+          149
+        ]
+      }
+    ],
+    "paginas": [
+      "rota-passivas-marciais"
+    ],
+    "estado": "candidata; revisão independente e integração pela raiz"
+  },
+  {
+    "id": "R10-11",
+    "tipo": "fechamento de escopo",
+    "antes": "Maldição do Inventário não explicita carga, Selo, turno nem fronteira com invocação.",
+    "depois": "Dois itens gratuitos somados, carga normal, item guardado fora de uso, criatura sem turno/ficha autônoma.",
+    "motivo": "Preserva saque e ocultação de energia; evita entity gratuita e inventário de carga infinita. A exceção de barreira continua do sistema.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/manual/42-tecnica-marcial.md",
+        "ancora": "### `Maldição do Inventário`",
+        "linhas": [
+          139
+        ]
+      },
+      {
+        "arquivo": "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md",
+        "ancora": "## Invocação por espaço",
+        "linhas": [
+          178
+        ]
+      }
+    ],
+    "paginas": [
+      "rota-passivas-marciais"
+    ],
+    "estado": "candidata; revisão independente e integração pela raiz"
+  },
+  {
+    "id": "R10-12",
+    "tipo": "mecânica candidata; requisito temático",
+    "antes": "Leitura de energia em rota sem energia parecia converter conteúdo de aptidão só por trocar nome.",
+    "depois": "Passiva Leitura tem seu próprio efeito. Sem energia exige ferramenta explicitamente capaz dessa leitura. Não concede Sentir Energia ou aptidão.",
+    "motivo": "Coerência da Origem e requisito explícito de poder comprado; consulta qualifica Passiva, evitando colisão de nomes.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/manual/42-tecnica-marcial.md",
+        "ancora": "### `Leitura`",
+        "linhas": [
+          154
+        ]
+      },
+      {
+        "arquivo": "sistema/03-mecanica/11-aptidoes-e-refino.md",
+        "ancora": "a `Leitura` lê energia",
+        "linhas": [
+          1139
+        ]
+      }
+    ],
+    "paginas": [
+      "rota-passivas-marciais"
+    ],
+    "estado": "candidata; revisão independente e integração pela raiz"
+  },
+  {
+    "id": "R10-13",
+    "tipo": "mecânica candidata; fechamento de frequência",
+    "antes": "Contragolpe dá vantagem na próxima Kata, sem prazo ou tratamento de múltiplos ataques e TR.",
+    "depois": "A próxima rolagem de ataque contra o agressor tem vantagem, até o fim da cena. Uma resposta guardada por vez, maestria usos por cena. Não afeta TR.",
+    "motivo": "Mantém a frequência publicada e impede guardar o benefício indefinidamente ou estendê-lo a uma Rajada inteira.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/manual/42-tecnica-marcial.md",
+        "ancora": "### `Contragolpe`",
+        "linhas": [
+          172
+        ]
+      }
+    ],
+    "paginas": [
+      "rota-passivas-resposta"
+    ],
+    "estado": "candidata; revisão independente e integração pela raiz"
+  },
+  {
+    "id": "R10-14",
+    "tipo": "mecânica candidata; alcance da exclusividade",
+    "antes": "Aliança: ninguém além de você empunha, sem distinguir transporte/uso.",
+    "depois": "Veta desarme involuntário e uso por terceiro, permite transportar; não imuniza destruição ou teleporta de volta.",
+    "motivo": "Transforma exclusividade em operação verificável, preserva proteger arma.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/manual/42-tecnica-marcial.md",
+        "ancora": "### `Aliança`",
+        "linhas": [
+          182
+        ]
+      }
+    ],
+    "paginas": [
+      "rota-passivas-resposta"
+    ],
+    "estado": "candidata; revisão independente e integração pela raiz"
+  },
+  {
+    "id": "R10-15",
+    "tipo": "sincronização de progressão",
+    "antes": "Manual47 Corpo só atributo e Leque incompleto.",
+    "depois": "Recupera treino/ofício e especialização10+, Passiva de Leque sem espaços e vaga adicional; só aplicação no outro benefício.",
+    "motivo": "Manual80 e peça11 atuais são donos do marco. O ramo sem energia não perde benefícios comuns.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/manual/47-bencaos-e-lapidacao.md",
+        "ancora": "## Marco",
+        "linhas": [
+          21
+        ]
+      },
+      {
+        "arquivo": "sistema/05-material/livro/manual/80-experiencia-e-progressao.md",
+        "ancora": "### Teto de Passivas",
+        "linhas": [
+          337
+        ]
+      },
+      {
+        "arquivo": "sistema/03-mecanica/11-aptidoes-e-refino.md",
+        "ancora": "**Corpo** — mais um ponto",
+        "linhas": [
+          82
+        ]
+      }
+    ],
+    "paginas": [
+      "rota-lapidacao"
+    ],
+    "estado": "candidata; revisão independente e integração pela raiz"
+  },
+  {
+    "id": "R10-16",
+    "tipo": "clareza de acesso",
+    "antes": "Manual47 informa requisitos de atributo, mas omite a tabela de Lapidação mínima.",
+    "depois": "CP1 exige Lapidação 1, CP2 exige 4 e CP3 exige 7. Os atributos adicionais continuam exigidos. Os níveis 7 e 13 das Passivas por espaços não se aplicam a Bênçãos.",
+    "motivo": "Peça09 declara a escala própria do ramo. Pagar a escolha não dispensa o requisito.",
+    "fontes": [
+      {
+        "arquivo": "sistema/03-mecanica/09-origens.md",
+        "ancora": "Classe Passiva 2 na Lapidação 4",
+        "linhas": [
+          238
+        ]
+      }
+    ],
+    "paginas": [
+      "rota-bencaos"
+    ],
+    "estado": "candidata; revisão independente e integração pela raiz"
+  },
+  {
+    "id": "R10-17",
+    "tipo": "sincronização; sem novo desenho",
+    "antes": "O texto da reação pode sugerir que apenas a própria proteção é perdida.",
+    "depois": "Espelho de Cobrir-se vigente: Reação e 2 PE, redução de 1,5 × Lapidação arredondada para baixo, perda da proteção de qualquer fonte até o fim do próximo turno. Pode usar com armadura.",
+    "motivo": "A decisão da v0.42 é explicitamente independente da fonte de proteção. Revisão com o autor de R09 evitou alterar esse desenho.",
+    "fontes": [
+      {
+        "arquivo": "sistema/03-mecanica/11-aptidoes-e-refino.md",
+        "ancora": "preço da Reação virou agnóstico de fonte",
+        "linhas": [
+          290
+        ]
+      },
+      {
+        "arquivo": "sistema/03-mecanica/11-aptidoes-e-refino.md",
+        "ancora": "A Reação ficou de fora até a v0.165",
+        "linhas": [
+          1001
+        ]
+      }
+    ],
+    "paginas": [
+      "rota-defesa"
+    ],
+    "estado": "candidata; revisão independente e integração pela raiz"
+  },
+  {
+    "id": "R10-18",
+    "tipo": "sincronização de regra vigente",
+    "antes": "Manual47 escreve só arma, mas o exemplo inclui soco. A peça histórica mostra uma curva anterior, com zero nos primeiros valores.",
+    "depois": "Armas e ataques desarmados usam a curva atual: 1d4, 2d4, 3d4, 4d4 e 4d6. O adicional não dobra no crítico comum. A exclusão vale no mesmo ataque que transporta Kata de dano.",
+    "motivo": "Preserva a curva autoral vigente e a interface com Canalizar em R09. Não usa a régua histórica para substituir os números atuais.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/manual/47-bencaos-e-lapidacao.md",
+        "ancora": "### Estímulo Muscular",
+        "linhas": [
+          109
+        ]
+      },
+      {
+        "arquivo": "sistema/05-material/livro/planejamento-editorial/aptidoes/lote-01/APTIDOES-E-REFINO.md",
+        "ancora": "## Feitiços e crítico",
+        "linhas": [
+          124
+        ]
+      }
+    ],
+    "paginas": [
+      "rota-estimulo"
+    ],
+    "estado": "candidata; revisão independente e integração pela raiz"
+  },
+  {
+    "id": "R10-19",
+    "tipo": "mecânica candidata; aprovada para candidata pela raiz",
+    "antes": "Presilha repete uma rolagem do usuário, mas as manobras candidatas de R04 agora exigem TR do alvo.",
+    "depois": "Uma vez por rodada, exige repetir o TR que evitou agarrar, derrubar ou deslocar. O novo resultado decide apenas essa consequência. Dano ligado ao mesmo TR mantém o resultado original.",
+    "motivo": "Restaura a funcionalidade. Para a mesma chance de oposição, a probabilidade é equivalente a repetir uma tentativa falhada. O auditor registra a comparação.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/manual/47-bencaos-e-lapidacao.md",
+        "ancora": "### Presilha",
+        "linhas": [
+          141
+        ]
+      },
+      {
+        "arquivo": "sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-04/04-MANOBRAS-E-INFORMACAO.md",
+        "ancora": "O alvo faz um",
+        "linhas": [
+          12
+        ]
+      }
+    ],
+    "paginas": [
+      "rota-corpo"
+    ],
+    "estado": "candidata; revisão independente e integração pela raiz"
+  },
+  {
+    "id": "R10-20",
+    "tipo": "correção de referente e precisão",
+    "antes": "Esteio escolhe um atributo, embora existam cinco atributos e quatro TRs.",
+    "depois": "Escolhe um TR. Físico usa a escolha fixa de Força ou Destreza. O piso é o menor entre Lapidação e atributo do TR +2. O resultado natural não muda.",
+    "motivo": "Elimina uma escolha sem efeito e preserva a fórmula e sua magnitude.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/manual/47-bencaos-e-lapidacao.md",
+        "ancora": "### Esteio",
+        "linhas": [
+          157
+        ]
+      },
+      {
+        "arquivo": "sistema/05-material/livro/manual/10-como-jogar.md",
+        "ancora": "Só o TR Físico escolhe",
+        "linhas": [
+          205
+        ]
+      }
+    ],
+    "paginas": [
+      "rota-combate"
+    ],
+    "estado": "candidata; revisão independente e integração pela raiz"
+  },
+  {
+    "id": "R10-21",
+    "tipo": "mecânica candidata; fechada com a raiz",
+    "antes": "Assombro usa CD da técnica, ambígua para a rota de arma sem equipamento em uso.",
+    "depois": "CD 8 + Essência + maestria. Preserva Essência 4, metade da Lapidação em alvos, mínimo 1, uma vez por cena e duração original.",
+    "motivo": "A presença corporal não exige arma. A coordenação escolheu Essência como atributo já exigido pela Bênção. Comparada a atributos 4–6, a mudança varia no máximo 10 pontos percentuais.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/manual/47-bencaos-e-lapidacao.md",
+        "ancora": "### Assombro",
+        "linhas": [
+          203
+        ]
+      },
+      {
+        "arquivo": "sistema/03-mecanica/11-aptidoes-e-refino.md",
+        "ancora": "a Essência não entra duas vezes",
+        "linhas": [
+          1143
+        ]
+      }
+    ],
+    "paginas": [
+      "rota-combate"
+    ],
+    "estado": "candidata; revisão independente e integração pela raiz"
+  },
+  {
+    "id": "R10-22",
+    "tipo": "correção aritmética",
+    "antes": "Casco concede +1 PV por dois níveis, mas uma conta histórica afirma +14 no nível 30.",
+    "depois": "Aumenta o máximo em metade do nível, arredondada para baixo: nível 14 concede 7 e nível 30 concede 15.",
+    "motivo": "Segue a fórmula publicada no manual e corrige a contagem antiga. O benefício acompanha o nível atual.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/manual/47-bencaos-e-lapidacao.md",
+        "ancora": "### Casco",
+        "linhas": [
+          135
+        ]
+      },
+      {
+        "arquivo": "sistema/03-mecanica/11-aptidoes-e-refino.md",
+        "ancora": "No nível 30 são",
+        "linhas": [
+          523,
+          1091
+        ]
+      }
+    ],
+    "paginas": [
+      "rota-corpo"
+    ],
+    "estado": "candidata; revisão independente e integração pela raiz"
+  },
+  {
+    "id": "R10-23",
+    "tipo": "clareza de limite",
+    "antes": "Vigília manda contar um estágio a menos, mas a explicação afirma que não existe estágio zero.",
+    "depois": "As consequências usam o estágio real menos um, com mínimo zero. A marca real permanece para ganho e recuperação.",
+    "motivo": "Faz a habilidade funcionar em Exaustão 1 sem apagar a marca ou acelerar descanso.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/manual/47-bencaos-e-lapidacao.md",
+        "ancora": "### Vigília",
+        "linhas": [
+          147
+        ]
+      }
+    ],
+    "paginas": [
+      "rota-corpo"
+    ],
+    "estado": "candidata; revisão independente e integração pela raiz"
+  },
+  {
+    "id": "R10-24",
+    "tipo": "mecânica candidata; delimitador sensorial",
+    "antes": "Vulto percebe tudo na área por som e movimento, sem dizer o que ocorre com paredes.",
+    "depois": "Obstáculo sólido bloqueia a percepção. Se som e sinais de movimento não chegarem ao usuário, não há informação. O alcance dos ataques não muda.",
+    "motivo": "Evita percepção através de paredes e descoberta de informações sem meio sensorial.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/manual/47-bencaos-e-lapidacao.md",
+        "ancora": "### Vulto",
+        "linhas": [
+          185
+        ]
+      }
+    ],
+    "paginas": [
+      "rota-perseguicao"
+    ],
+    "estado": "candidata; revisão independente e integração pela raiz"
+  },
+  {
+    "id": "R10-25",
+    "tipo": "mecânica candidata; escopo temporal",
+    "antes": "Antecipar concede vantagem contra aquele efeito pelo resto da cena, sem identificar a fonte.",
+    "depois": "Vale para a mesma capacidade da mesma criatura ou fonte, incluindo aplicações posteriores. Não refaz a falha inicial.",
+    "motivo": "Evita transformar uma falha em vantagem contra todo um tipo de TR ou contra qualquer criatura que tenha efeito semelhante.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/manual/47-bencaos-e-lapidacao.md",
+        "ancora": "### Antecipar",
+        "linhas": [
+          191
+        ]
+      }
+    ],
+    "paginas": [
+      "rota-combate"
+    ],
+    "estado": "candidata; revisão independente e integração pela raiz"
+  },
+  {
+    "id": "R10-26",
+    "tipo": "sincronização e preservação",
+    "antes": "A equivalência genérica de Kata e Manejo a feitiço poderia permitir Ritual.",
+    "depois": "Sem Técnica e Técnica Marcial não aprendem nem auxiliam Ritual. Ruptura, Auge e Ōgi conservam o veto.",
+    "motivo": "Decisão autoral explícita da v0.283. Ter PE e uma aplicação equivalente a feitiço não concede acesso.",
+    "fontes": [
+      {
+        "arquivo": "sistema/03-mecanica/27-ritual.md",
+        "ancora": "Decisão do Mizuki na v0.283",
+        "linhas": [
+          196
+        ]
+      }
+    ],
+    "paginas": [
+      "rota-marcial",
+      "rota-sem-tecnica"
+    ],
+    "estado": "candidata; revisão independente e integração pela raiz"
+  },
+  {
+    "id": "R10-27",
+    "tipo": "didática e correção de exemplo",
+    "antes": "Exemplos param no conceito. Recomposição de Classe Passiva 2 aparece sem nível de acesso. Nomes de dano antigos persistem.",
+    "depois": "Cinco exemplos incluem ficha de uso, custo e conta. Recomposição exige nível 7 e dois espaços. Tipos são Cortante, Concussão e Força.",
+    "motivo": "Ajuda a montar sem receber benefícios gratuitos pelo tema. Nenhum exemplo adapta um personagem canônico. O exemplo Espinho foi normalizado para Força após a revisão independente localizar o dono atual em Dano e Condições. Energético não é um segundo tipo.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/manual/42-tecnica-marcial.md",
+        "ancora": "## Técnicas Marciais prontas",
+        "linhas": [
+          192
+        ]
+      },
+      {
+        "arquivo": "sistema/05-material/livro/manual/43-sem-tecnica.md",
+        "ancora": "## Fundamentos prontos",
+        "linhas": [
+          107
+        ]
+      },
+      {
+        "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+        "ancora": "## Recomposição",
+        "linhas": [
+          674
+        ]
+      },
+      {
+        "arquivo": "sistema/05-material/livro/planejamento-editorial/regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+        "ancora": "Energético",
+        "linhas": [
+          52
+        ]
+      }
+    ],
+    "paginas": [
+      "rota-fisga",
+      "rota-bancada",
+      "rota-redoma",
+      "rota-sutura",
+      "rota-espinho"
+    ],
+    "estado": "candidata; revisão independente e integração pela raiz"
+  },
+  {
+    "id": "R10-28",
+    "tipo": "mecânica candidata; precisão de uso",
+    "antes": "Ímpeto fala em terminar turno e movimento sem apoio, enquanto sua peça proprietária manda cair ao fim do movimento.",
+    "depois": "O personagem cai ao terminar o movimento sem apoio. A Ação Bônus, distância e permissões de travessia permanecem.",
+    "motivo": "Segue a peça proprietária e elimina a interpretação de pairar até o fim do turno.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/manual/47-bencaos-e-lapidacao.md",
+        "ancora": "### Ímpeto",
+        "linhas": [
+          127
+        ]
+      },
+      {
+        "arquivo": "sistema/03-mecanica/11-aptidoes-e-refino.md",
+        "ancora": "Se terminar o movimento sem apoio",
+        "linhas": [
+          1087
+        ]
+      }
+    ],
+    "paginas": [
+      "rota-corpo"
+    ],
+    "estado": "candidata; revisão independente e integração pela raiz"
+  },
+  {
+    "id": "R10-29",
+    "tipo": "preservação com interface",
+    "antes": "Sem Pegada nega bônus de Furtividade, mas não distingue passos, voz, armas e ações de ocultação.",
+    "depois": "Suprime vestígios corporais de passagem, sem silenciar armas ou voz, tornar invisível ou conceder uma ação gratuita de ocultação.",
+    "motivo": "Preserva a supressão do rastro e mantém os custos de Esconder-se.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/manual/47-bencaos-e-lapidacao.md",
+        "ancora": "### Sem Pegada",
+        "linhas": [
+          175
+        ]
+      }
+    ],
+    "paginas": [
+      "rota-perseguicao"
+    ],
+    "estado": "candidata; revisão independente e integração pela raiz"
+  },
+  {
+    "id": "R10-30",
+    "tipo": "exemplo original, sujeito à validação",
+    "antes": "Bênção Própria não oferece um exemplo operacional completo.",
+    "depois": "Marca do pulso é proposta de Classe Passiva 1: contato durante a vibração revela a parte atingida de uma estrutura até 3 m, sem identificar autor ou criatura.",
+    "motivo": "Demonstra informação corporal estreita. Não copia Faro nem fornece localização de alvos através de paredes.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/manual/47-bencaos-e-lapidacao.md",
+        "ancora": "### Bênção Própria",
+        "linhas": [
+          215
+        ]
+      }
+    ],
+    "paginas": [
+      "rota-propria"
+    ],
+    "estado": "candidata; revisão independente e integração pela raiz"
+  },
+  {
+    "id": "R10-31",
+    "tipo": "editorial",
+    "antes": "Sementes reproduzia as condições completas de deslocamento e abandono do Voto do iniciante. Cura remetia apenas ao nome geral da aptidão.",
+    "depois": "Sementes remete à entrada que contém o voto. Cura aponta Ferir maldições.",
+    "motivo": "Concentrar a regra em seu dono e permitir encontrar a exceção ofensiva exata.",
+    "fontes": [
+      {
+        "arquivo": "aptidoes/lote-01/APTIDOES-E-REFINO.md",
+        "linhas": "Voto do iniciante; Ferir maldições"
+      }
+    ]
+  },
+  {
+    "id": "R10-32",
+    "tipo": "sincronização mecânica autorizada",
+    "paginas": [
+      "rota-passivas-resposta"
+    ],
+    "antes": "**Uma vez por descanso longo**, ao chegar a 0 pontos de vida, você pode escolher **Insistir** sem gastar a rodada exigida por essa escolha.\n\nResolva os demais efeitos de Insistir pelas regras de **Recuperação — Morrendo**. A Passiva não recupera pontos de vida ou Integridade por si só. Ela altera o custo da escolha, sem devolver ações que você já tenha usado.",
+    "depois": "**Uma vez por descanso longo**, ao escolher **Insistir**, você pode dispensar o **primeiro custo de vida máxima**, correspondente a **1/8 do máximo de referência** daquela queda.\n\nOs custos posteriores e a janela de socorro continuam normais. A Passiva não concede rodada ou ação adicional nem recupera vida ou Integridade. A escolha, os pagamentos seguintes e o socorro seguem **Insistir, em Dano e recuperação**.",
+    "motivo": "Insistir não cobra rodada pela escolha na revisão R03. Preservar uma dispensa inicial útil, sem ampliar a janela nem recuperar ações.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/planejamento-editorial/dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+        "ancora": "# Insistir; # Vida a zero; # Socorro",
+        "linhas": [
+          321,
+          350,
+          357,
+          361,
+          369,
+          382
+        ]
+      }
+    ],
+    "impacto": "Economiza apenas ceil(referência/8) de vida máxima uma vez por descanso longo. Custos seguintes de 1/4 e 1/2 usam a referência original. Frequência, acesso CP2, janela e socorro preservados.",
+    "estado": "candidata; não publicada",
+    "autorizacao": "Raiz autorizou sincronização: dispensa somente primeiro custo de 1/8."
+  }
+]

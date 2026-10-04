@@ -1,0 +1,495 @@
+{
+  "unidade": "R16 — Emanador e Trilhas",
+  "sha256_texto": "027d4f93d4d59d6674cf3d0ac7f380bd387c367d1e012740b6d25e71b744ba1f",
+  "estado": "Candidata revisada com prova, não integrada.",
+  "validadores": [
+    {
+      "id": "V01",
+      "estado": "concluido",
+      "evidencia": "COBERTURA.json: 48 entradas e 19 páginas; fonte integrada inteira lida."
+    },
+    {
+      "id": "V02",
+      "estado": "concluido",
+      "evidencia": "FONTES.json e 29 decisões com antes/depois/motivo; hashes das cinco fontes publicadas preservados."
+    },
+    {
+      "id": "V03",
+      "estado": "concluido",
+      "evidencia": "AUDITORIA.json: 92 verificações, 62 casos e cinco mutações; inclui prazos, gastos, compatibilidades e estoque."
+    },
+    {
+      "id": "V04",
+      "estado": "concluido",
+      "evidencia": "35.553 cenários de orçamento, 72 perfis de custo e 133 perfis probabilísticos exatos."
+    },
+    {
+      "id": "V05",
+      "estado": "concluido_com_limites",
+      "evidencia": "REVISAO-E-FONTES.md distingue economia, confiabilidade e utilidade; não houve playtest ou comparação exaustiva de todos os Caminhos."
+    },
+    {
+      "id": "V06",
+      "estado": "concluido_com_sincronizacoes",
+      "evidencia": "INTERFACES.json registra descontos R07/R19, peças R06/R07, munição R05 e aquisição; integração final ainda é da raiz."
+    },
+    {
+      "id": "V07",
+      "estado": "concluido",
+      "evidencia": "Leitura contextual dos títulos/vocabulário e exportador editorial, com uma referência de requisito justificada."
+    },
+    {
+      "id": "V08",
+      "estado": "concluido",
+      "evidencia": "REVISAO-POR-SECAO.json: 19 pareceres, exemplos positivos e negativos, gatilhos, custos e prazos."
+    },
+    {
+      "id": "V09",
+      "estado": "concluido",
+      "evidencia": "Leitura editorial e comparação de estrutura com D&D Basic Rules 2024; sem copiar redação nem alegar teste de leitor."
+    },
+    {
+      "id": "V10",
+      "estado": "concluido_com_sincronizacoes",
+      "evidencia": "LOCALIZACAO-EDITORIAL.json: capítulo dono das habilidades, catálogo remete ao dono; Canalizar é só requisito local necessário."
+    },
+    {
+      "id": "V11",
+      "estado": "nao_aplicavel_ao_canone",
+      "evidencia": "Não há alegação canônica de JJK; as três Trilhas e suas fórmulas são regras do Projeto M."
+    },
+    {
+      "id": "V12",
+      "estado": "concluido",
+      "evidencia": "evidencias/REVISAO-INDEPENDENTE-MAXIMA.json/.md: 35 verificações, fonte e manuscrito integrais lidos; nenhum bloqueador concreto."
+    },
+    {
+      "id": "V13",
+      "estado": "concluido",
+      "evidencia": "CONFERENCIA.json",
+      "fechamento": "Prova atual inspecionada, conferência estrutural reexecutada; manifesto emitido depois da conferência."
+    },
+    {
+      "id": "V14",
+      "estado": "concluido",
+      "evidencia": "evidencias/inspecao-visual.json",
+      "fechamento": "Prova atual inspecionada, conferência estrutural reexecutada; manifesto emitido depois da conferência."
+    },
+    {
+      "id": "V15",
+      "estado": "concluido",
+      "evidencia": "FONTES, COBERTURA, ALTERACOES, INTERFACES, auditor reproduzível e manifesto de arquivos.",
+      "fechamento": "Prova atual inspecionada, conferência estrutural reexecutada; manifesto emitido depois da conferência."
+    }
+  ],
+  "por_pagina": [
+    {
+      "pagina": "ema-base",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_sincronizacoes",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido",
+        "V10": "concluido_com_sincronizacoes",
+        "V11": "nao_aplicavel_ao_canone",
+        "V12": "concluido",
+        "V13": "concluido",
+        "V14": "concluido",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "ema-desdobramento",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_sincronizacoes",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido",
+        "V10": "concluido_com_sincronizacoes",
+        "V11": "nao_aplicavel_ao_canone",
+        "V12": "concluido",
+        "V13": "concluido",
+        "V14": "concluido",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "ema-remodelar",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_sincronizacoes",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido",
+        "V10": "concluido_com_sincronizacoes",
+        "V11": "nao_aplicavel_ao_canone",
+        "V12": "concluido",
+        "V13": "concluido",
+        "V14": "concluido",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "ema-modulacoes",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_sincronizacoes",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido",
+        "V10": "concluido_com_sincronizacoes",
+        "V11": "nao_aplicavel_ao_canone",
+        "V12": "concluido",
+        "V13": "concluido",
+        "V14": "concluido",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "ema-familiares",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_sincronizacoes",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido",
+        "V10": "concluido_com_sincronizacoes",
+        "V11": "nao_aplicavel_ao_canone",
+        "V12": "concluido",
+        "V13": "concluido",
+        "V14": "concluido",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "ema-forma",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_sincronizacoes",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido",
+        "V10": "concluido_com_sincronizacoes",
+        "V11": "nao_aplicavel_ao_canone",
+        "V12": "concluido",
+        "V13": "concluido",
+        "V14": "concluido",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "ema-instintiva",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_sincronizacoes",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido",
+        "V10": "concluido_com_sincronizacoes",
+        "V11": "nao_aplicavel_ao_canone",
+        "V12": "concluido",
+        "V13": "concluido",
+        "V14": "concluido",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "ema-condutor",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_sincronizacoes",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido",
+        "V10": "concluido_com_sincronizacoes",
+        "V11": "nao_aplicavel_ao_canone",
+        "V12": "concluido",
+        "V13": "concluido",
+        "V14": "concluido",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "ema-artes",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_sincronizacoes",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido",
+        "V10": "concluido_com_sincronizacoes",
+        "V11": "nao_aplicavel_ao_canone",
+        "V12": "concluido",
+        "V13": "concluido",
+        "V14": "concluido",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "ema-propriedades",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_sincronizacoes",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido",
+        "V10": "concluido_com_sincronizacoes",
+        "V11": "nao_aplicavel_ao_canone",
+        "V12": "concluido",
+        "V13": "concluido",
+        "V14": "concluido",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "ema-propriedades-apoio",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_sincronizacoes",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido",
+        "V10": "concluido_com_sincronizacoes",
+        "V11": "nao_aplicavel_ao_canone",
+        "V12": "concluido",
+        "V13": "concluido",
+        "V14": "concluido",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "ema-manifestacao",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_sincronizacoes",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido",
+        "V10": "concluido_com_sincronizacoes",
+        "V11": "nao_aplicavel_ao_canone",
+        "V12": "concluido",
+        "V13": "concluido",
+        "V14": "concluido",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "ema-eco",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_sincronizacoes",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido",
+        "V10": "concluido_com_sincronizacoes",
+        "V11": "nao_aplicavel_ao_canone",
+        "V12": "concluido",
+        "V13": "concluido",
+        "V14": "concluido",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "ema-repetir",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_sincronizacoes",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido",
+        "V10": "concluido_com_sincronizacoes",
+        "V11": "nao_aplicavel_ao_canone",
+        "V12": "concluido",
+        "V13": "concluido",
+        "V14": "concluido",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "ema-contraponto",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_sincronizacoes",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido",
+        "V10": "concluido_com_sincronizacoes",
+        "V11": "nao_aplicavel_ao_canone",
+        "V12": "concluido",
+        "V13": "concluido",
+        "V14": "concluido",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "ema-acorde",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_sincronizacoes",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido",
+        "V10": "concluido_com_sincronizacoes",
+        "V11": "nao_aplicavel_ao_canone",
+        "V12": "concluido",
+        "V13": "concluido",
+        "V14": "concluido",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "ema-impulso",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_sincronizacoes",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido",
+        "V10": "concluido_com_sincronizacoes",
+        "V11": "nao_aplicavel_ao_canone",
+        "V12": "concluido",
+        "V13": "concluido",
+        "V14": "concluido",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "ema-correcao",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_sincronizacoes",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido",
+        "V10": "concluido_com_sincronizacoes",
+        "V11": "nao_aplicavel_ao_canone",
+        "V12": "concluido",
+        "V13": "concluido",
+        "V14": "concluido",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "ema-fluxo",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_sincronizacoes",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido",
+        "V10": "concluido_com_sincronizacoes",
+        "V11": "nao_aplicavel_ao_canone",
+        "V12": "concluido",
+        "V13": "concluido",
+        "V14": "concluido",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    }
+  ],
+  "sem_playtest": true,
+  "fechamento_nominal": {
+    "autor_migracao": "/root/compatibilidade",
+    "leitor_independente": "/root",
+    "fonte": "consolidacao/lote-01/migracao-nomes/diffs/emanador.diff",
+    "prova_visual": "evidencias/inspecao-visual.json",
+    "invariantes": "Custos, efeitos, limites e ações preservados. R10/R19 também receberam remissões aos donos atuais.",
+    "limite": "Revisões anteriores mantidas com escopo e hash próprios; não alegada nova leitura integral dos textos idênticos."
+  }
+}

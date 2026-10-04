@@ -1,0 +1,20 @@
+--- caminhos/emanador/lote-01/EMANADOR.md
+
++++ caminhos/emanador/lote-01/EMANADOR.md
+
+@@ -43,5 +43,5 @@
+
+ A versão alterada continua respeitando o Fundamento, as Famílias Fechadas, as incompatibilidades e os limites de dados. Conserve suas Restrições e seu Efeito Próprio. Trocar uma peça não pode dispensar uma obrigação e manter os pontos devolvidos por ela.
+ 
+-Classe 0, Passivas, Liberações Máximas, Técnica Máxima e Expansão de Domínio não recebem Desdobramento. Um gatilho de Reação ou um Efeito Próprio precisa estar registrado previamente. Esta habilidade não permite inventá-lo durante o uso.
++Classe 0, Talentos, Liberações Máximas, Técnica Máxima e Expansão de Domínio não recebem Desdobramento. Um gatilho de Reação ou um Efeito Próprio precisa estar registrado previamente. Esta habilidade não permite inventá-lo durante o uso.
+ 
+ ## Escolha e pagamento
+@@ -172,5 +172,5 @@
+
+ ## Reduções de custo
+ 
+-Escolha **uma alternativa completa de custo**, sem aplicar uma redução sobre outra. Afinidade e Instintiva usam a Classe original mais a diferença integral de Ampliar. Cobrança ou a Passiva Eco usam a metade do custo normal da Classe conjurada. Consuma os benefícios cujo gatilho seja aquela primeira ou próxima conjuração, mesmo se escolher outro desconto.
++Escolha **uma alternativa completa de custo**, sem aplicar uma redução sobre outra. Afinidade e Instintiva usam a Classe original mais a diferença integral de Ampliar. Cobrança ou o Talento Eco usam a metade do custo normal da Classe conjurada. Consuma os benefícios cujo gatilho seja aquela primeira ou próxima conjuração, mesmo se escolher outro desconto.
+ 
+ Um desconto fixo de Ritual entra antes da metade, na base da alternativa escolhida, com mínimo de 1. A base de 1 PE de Instintiva não recebe novos abatimentos. Some Desdobramento, Impulso, Dívida e outros custos independentes depois.

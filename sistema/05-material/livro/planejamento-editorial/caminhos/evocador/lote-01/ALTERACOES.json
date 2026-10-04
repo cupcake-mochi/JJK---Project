@@ -1,0 +1,221 @@
+{
+  "sha256_texto": "f16e12fb1445657ca5cab2466bc8c9a8b85c40b49789ebb414472872a6491645",
+  "decisoes": [
+    {
+      "id": "EV01",
+      "tipo": "Editorial",
+      "antes": "Um bloco de 8.768 palavras com 94 títulos de diferentes níveis.",
+      "depois": "33 páginas lógicas com títulos de assunto, exemplos próximos e quadro de características.",
+      "motivo": "Consulta por habilidade e progressão, preservando os três conjuntos de Trilha.",
+      "fontes": "integrado/manual35; R11/R12 quando indicado"
+    },
+    {
+      "id": "EV02",
+      "tipo": "Esclarecimento editorial",
+      "antes": "PE por nível6; vida inicial antes deCon.",
+      "depois": "PE máximos6×nível, vida inicial6+Con, progressão4+Con.",
+      "motivo": "Explicitar campos da ficha sem criar ganho adicional.",
+      "fontes": "integrado/manual35; R11/R12 quando indicado"
+    },
+    {
+      "id": "EV03",
+      "tipo": "Esclarecimento de acesso",
+      "antes": "Especial normal aparece em várias permissões sem definição reunida.",
+      "depois": "Especial normal é a capacidade da ficha; trunfos separados não entram quando a regra exigir normal.",
+      "motivo": "Evitar aplicar dupla especial à Máxima, Liberação ou Domínio. Dificultar a Resistência conserva a expressão mais ampla especial ativa comandada da fonte.",
+      "fontes": "integrado/manual35; R11/R12 quando indicado"
+    },
+    {
+      "id": "EV04",
+      "tipo": "Sincronização",
+      "antes": "Usos por rodada renovam no começo do turno.",
+      "depois": "Mantida renovação por começo de turno, mesmo em turnos de outras criaturas.",
+      "motivo": "Corresponde ao ciclo de R11, sem reinício pela mudança do número da rodada.",
+      "fontes": "integrado/manual35; R11/R12 quando indicado"
+    },
+    {
+      "id": "EV05",
+      "tipo": "Esclarecimento",
+      "antes": "Escolher aprimoramento não repetia consciência; intervenções já exigiam.",
+      "depois": "Escolha gratuita também exige estar consciente.",
+      "motivo": "R11 já proíbe ajustar ou orientar sob inconsciência. Efeitos existentes conservam duração.",
+      "fontes": "integrado/manual35; R11/R12 quando indicado"
+    },
+    {
+      "id": "EV06",
+      "tipo": "Correção de referência",
+      "antes": "Proteção: faça um TR próprio; Tarefas: todo seu deslocamento.",
+      "depois": "TR e deslocamento pertencem explicitamente à invocação.",
+      "motivo": "O leitor é o invocador, logo próprio podia favorecer a ficha errada.",
+      "fontes": "integrado/manual35; R11/R12 quando indicado"
+    },
+    {
+      "id": "EV07",
+      "tipo": "Preservação",
+      "antes": "Uso ofensivo, defensivo, perícia e movimento pertencem ao conjunto.",
+      "depois": "Mantidos saldos e vínculo do benefício de movimento à primeira entidade que o usar.",
+      "motivo": "Não duplicar vantagens ao mudar beneficiária ou aprimoramento.",
+      "fontes": "integrado/manual35; R11/R12 quando indicado"
+    },
+    {
+      "id": "EV08",
+      "tipo": "Esclarecimento",
+      "antes": "Corrigir repete a tentativa, sem comentário sobre custos já pagos.",
+      "depois": "Não gasta outra básica nem outro PE; uma única repetição entre todas as fontes.",
+      "motivo": "Trata-se da mesma execução, e não de ataque adicional.",
+      "fontes": "integrado/manual35; R11/R12 quando indicado"
+    },
+    {
+      "id": "EV09",
+      "tipo": "Preservação",
+      "antes": "Combinar4PE e principal/adicional; Eficiente metadeatrib mínimo1.",
+      "depois": "Valores, prazos e desconto atézero preservados.",
+      "motivo": "Combinar não concede duas ações auxiliares; desconto não substitui coletiva.",
+      "fontes": "integrado/manual35; R11/R12 quando indicado"
+    },
+    {
+      "id": "EV10",
+      "tipo": "Esclarecimento de requisito",
+      "antes": "Especial Combinada pede todas as básicas disponíveis.",
+      "depois": "Básica gasta, investida ou perdida impede; zero não cumpre requisito.",
+      "motivo": "Fecha leitura vazia que permitiria duas especiais sem nenhuma básica disponível.",
+      "fontes": "integrado/manual35; R11/R12 quando indicado"
+    },
+    {
+      "id": "EV11",
+      "tipo": "Preservação",
+      "antes": "Principal exige exatamenteumaativa e disponibiliza adicional na abertura.",
+      "depois": "Troca transmite saldo, não fabrica segunda básica depois da entrada.",
+      "motivo": "Identidade de cada corpo e perda dos benefícios com segunda ativa preservadas.",
+      "fontes": "integrado/manual35; R11/R12 quando indicado"
+    },
+    {
+      "id": "EV12",
+      "tipo": "Correção de classificação",
+      "antes": "Repertório Ampliado diz que básica ou especial segue Classe do nível.",
+      "depois": "Básica é Classe0 com escala de nível; especial usa maiorClasse permitida.",
+      "motivo": "R12 não concede básicas de Classe positiva.",
+      "fontes": "integrado/manual35; R11/R12 quando indicado"
+    },
+    {
+      "id": "EV13",
+      "tipo": "Sincronização de acesso",
+      "antes": "PassivaCP1 adicional sem remissão expressa à lista de entidades.",
+      "depois": "Só passivas permitidas para entidades, com requisitos, inclusive as extras de Múltiplas.",
+      "motivo": "PreçoCP1 não abre passiva pessoal excluída da lista de13 do R12.",
+      "fontes": "integrado/manual35; R11/R12 quando indicado"
+    },
+    {
+      "id": "EV14",
+      "tipo": "Correção de exemplo",
+      "antes": "Proteção usava entidade nível11 com40PV máximos.",
+      "depois": "Exemplo57PV,Con2,proteção15,danode20→52PV.",
+      "motivo": "57 é uma ficha comum realizável pela fórmula de R12; funcionamento não muda.",
+      "fontes": "integrado/manual35; R11/R12 quando indicado"
+    },
+    {
+      "id": "EV15",
+      "tipo": "Preservação",
+      "antes": "Continuidade usa metadeClassepara baixo mínimo1, ReaçãoReflexa substitui pontos.",
+      "depois": "Limites e janelas preservados, sem conceder Trilha diferente.",
+      "motivo": "Entidade de nível baixo usa sua escala real e precisa conhecer as capacidades.",
+      "fontes": "integrado/manual35; R11/R12 quando indicado"
+    },
+    {
+      "id": "EV16",
+      "tipo": "Preservação",
+      "antes": "Parceria ganha categoria de armas, abreumaFamília, entrada porMovimento.",
+      "depois": "Todas as entregas mantidas.",
+      "motivo": "Entrada Ágil só para adicionar corpo, não substituir ou recolher.",
+      "fontes": "integrado/manual35; R11/R12 quando indicado"
+    },
+    {
+      "id": "EV17",
+      "tipo": "Preservação",
+      "antes": "Três aprimoramentos da Parceria dividem uso ofensivo.",
+      "depois": "Uma execução marca uso, mesmo com erro. Resposta exige entidade sem atuação ofensiva anterior.",
+      "motivo": "Preserva o custo de oportunidade entre ataque próprio e resposta da entidade.",
+      "fontes": "integrado/manual35; R11/R12 quando indicado"
+    },
+    {
+      "id": "EV18",
+      "tipo": "Preservação",
+      "antes": "Cobrir por1ponto+Reação ou2pontos semreserva; aptidão para reagir permanece.",
+      "depois": "Exemplo mostra que pagar2dispensa saldo, mas não a aptidão de reagir.",
+      "motivo": "Atordoado não pode contornar a incapacidade por pagar mais.",
+      "fontes": "integrado/manual35; R11/R12 quando indicado"
+    },
+    {
+      "id": "EV19",
+      "tipo": "Preservação",
+      "antes": "TécnicasemConjunto atémetadeClasseparabaixo; RespostaDupla entidadeC−1/pessoalmetadeparacima.",
+      "depois": "Escalas e custos preservados, incluídaClasseefetiva apósAmpliar.",
+      "motivo": "Evita aplicar o limite apenas à ficha base e ampliar acima depois.",
+      "fontes": "integrado/manual35; R11/R12 quando indicado"
+    },
+    {
+      "id": "EV20",
+      "tipo": "Esclarecimento de tempo",
+      "antes": "Múltiplas limita básica com dano e especial porrodada.",
+      "depois": "Básica preparada comdano também conta fora doturno; comando marca especial na emissão, disparo não cobra outra permissão.",
+      "motivo": "A restrição específica por ciclo é mais estreita que o limite de corpos ofensivos de R11.",
+      "fontes": "integrado/manual35; R11/R12 quando indicado"
+    },
+    {
+      "id": "EV21",
+      "tipo": "Sincronização de aquisição",
+      "antes": "Dois espaços dão duas entidades cada.",
+      "depois": "Exige conceito com entidades nas três rotas; espaços beneficiados identificados; demais1porvaga.",
+      "motivo": "Não conceder acesso a invocação por escolher Caminho/Trilha.",
+      "fontes": "integrado/manual35; R11/R12 quando indicado"
+    },
+    {
+      "id": "EV22",
+      "tipo": "Fechamento de reescrita",
+      "antes": "Dupla identifica um espaço, sem explicar revisão pornível.",
+      "depois": "Uma reescrita do espaço revisa a dupla desse espaço; não migra bônus para novas vagas.",
+      "motivo": "Usa a mesma unidade de revisão de R06/R12. Novo espaço não consome revisão. Não concede entidades extras por ciclar vagas.",
+      "fontes": "integrado/manual35; R11/R12 quando indicado"
+    },
+    {
+      "id": "EV23",
+      "tipo": "Mecânica autorizada: contabilização de corpos",
+      "antes": "Teto de inativos = atributo, separado do teto ativo; fimcombate torna todosinativos e pode exceder.",
+      "depois": "Total de corpos mantidos = atributo + capacidade de controle. Múltiplas usa4nessa conta inclusive fora decombate, mantendo só2ativos fora.",
+      "motivo": "Preserva máximo de corpos antes possível e evita sumiço/Desligada artificial. Aumenta reserva de inativos quando menoscorpos atuam. Nãohá manutenção geral porinativo. Regra completa sincronizada noR11 pelo coordenador emR11-48.",
+      "fontes": "manual60:873–885,1057–1059; R11 Corpos/Manutenção; decisão expressa /root; R11-48"
+    },
+    {
+      "id": "EV24",
+      "tipo": "Preservação",
+      "antes": "Conduzir mede alcance atéapoiadora antes de mudar origem, paga segunda básica.",
+      "depois": "Duploalcance e requisito18mpermanecem; precisão tem uso próprio separado dos aprimoramentos.",
+      "motivo": "Dois benefícios sobre mesmoroll seguem regra geral de vantagens, sem empilhar dados.",
+      "fontes": "integrado/manual35; R11/R12 quando indicado"
+    },
+    {
+      "id": "EV25",
+      "tipo": "Preservação",
+      "antes": "Dois principais diferentes, um adicional por4PE, usoscompartilhados; Formaçãonãoapaga identidade.",
+      "depois": "Mantidos todos os requisitos.",
+      "motivo": "Distribuir efeitos e entrar gratuitamente em ações não gera pontos, PE ou básicas ilimitados.",
+      "fontes": "integrado/manual35; R11/R12 quando indicado"
+    },
+    {
+      "id": "EV26",
+      "tipo": "Editorial e validação",
+      "antes": "Exemplos dispersos e termos legal/legalmente.",
+      "depois": "Exemplos locais e três turnos completos; permitido/condições em lugar de vocabulário jurídico.",
+      "motivo": "Acessibilidade sem renomear habilidades aprovadas.",
+      "fontes": "integrado/manual35; R11/R12 quando indicado"
+    },
+    {
+      "id": "EV27",
+      "tipo": "Esclarecimento de compatibilidade e editorial",
+      "antes": "Conduzir menciona genericamente Forma/Restrições; tabela de parceria usa metatexto novos cartões.",
+      "depois": "Explicita contato e origem corporal preservados, permitindo origem externa de Cone/Linha quando compatível. Retira metatexto da tabela.",
+      "motivo": "Mesmo fechamento adotado no Emanador, sem converter Corpo a Corpo em desconto gratuito para ataque remoto. Fonte já exige cumprir Forma/Restrições.",
+      "fontes": "manual35:2197–2203; R06/R12; confirmação independente do autor R17."
+    }
+  ]
+}

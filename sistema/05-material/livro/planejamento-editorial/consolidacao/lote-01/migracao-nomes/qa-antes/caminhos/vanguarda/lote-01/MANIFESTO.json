@@ -1,0 +1,129 @@
+{
+  "data": "2026-10-03",
+  "status": "candidata revisada, não integrada",
+  "manuscrito": "VANGUARDA.md",
+  "sha256_texto": "743f954c5be1033034a71bbae0e8383bffdb82944e28341e5ee089338bb0b85b",
+  "paginas": 20,
+  "arquivos": [
+    {
+      "arquivo": "ALTERACOES.json",
+      "sha256": "77552f13eb5c567e03d94c7e5b48572c46f3dff675977a22bccab865e4202838",
+      "bytes": 5017
+    },
+    {
+      "arquivo": "ALTERACOES.md",
+      "sha256": "619a6709413e7b37863f8ab6b36d0ef355de34fa17282e052c17855e4d90d368",
+      "bytes": 4442
+    },
+    {
+      "arquivo": "CONFERENCIA.json",
+      "sha256": "a2c6f5464919b7aacc9e0d66d6ae603d83194671ae24d762822190cb9e766d65",
+      "bytes": 23075
+    },
+    {
+      "arquivo": "ESTRUTURA.json",
+      "sha256": "eb2b6a9fda560a73d477449f26481ab22f29dd4af45a5848539afa3ec6f153bb",
+      "bytes": 2650
+    },
+    {
+      "arquivo": "LEIA-ME.md",
+      "sha256": "f7f986aab9bcc543a333d3b7e6217a6ae8b83d9cce798cc80d75205a79e88eb0",
+      "bytes": 1125
+    },
+    {
+      "arquivo": "REVISAO-E-FONTES.md",
+      "sha256": "6d2727a1e20d463f96ade87b126a9465ec262b44fca07d7944c19be9ff1d1cd6",
+      "bytes": 4184
+    },
+    {
+      "arquivo": "VALIDACAO.json",
+      "sha256": "10c9914ed84d3fb12879d49e37b8b9bc053fff84f250ad79b2b56b0401bb8541",
+      "bytes": 162
+    },
+    {
+      "arquivo": "VALIDADORES.json",
+      "sha256": "37cd50b7df7935f0a73d9741c5ffb848785a92e0301c11d0e020a688b1ab729e",
+      "bytes": 4797
+    },
+    {
+      "arquivo": "VANGUARDA.md",
+      "sha256": "743f954c5be1033034a71bbae0e8383bffdb82944e28341e5ee089338bb0b85b",
+      "bytes": 39499
+    },
+    {
+      "arquivo": "auditar.py",
+      "sha256": "f549d03a325369c3092e5a227f1b78b2a84717727936795d70de8007fc08e56f",
+      "bytes": 10070
+    },
+    {
+      "arquivo": "conferir.py",
+      "sha256": "bd7e33553e9bc990ea13155b44042bb27fe394f20e732ab9ccc161fac1536466",
+      "bytes": 286
+    },
+    {
+      "arquivo": "evidencias/COBERTURA.json",
+      "sha256": "29ac2312b3eacf8861d784717ca6eb9034a2b7a7e1eb05c9af2560d3b7f4b883",
+      "bytes": 7169
+    },
+    {
+      "arquivo": "evidencias/LOCALIZACAO-EDITORIAL.json",
+      "sha256": "676d28ff4a22865c4fd29a22beaa54a7b1753629556446de33a0b48c2d89de8f",
+      "bytes": 1248
+    },
+    {
+      "arquivo": "evidencias/REVISAO-EDITORIAL.json",
+      "sha256": "8e527fb9b10072f7444d73b4963257d95b4e5eddf62d33001be7690cb6653ead",
+      "bytes": 13346
+    },
+    {
+      "arquivo": "evidencias/REVISAO-INDEPENDENTE.json",
+      "sha256": "5baeee68113708ace8ea9fc1463bfe992f0209788d6e59561a98bc03e54b586a",
+      "bytes": 13611
+    },
+    {
+      "arquivo": "evidencias/auditoria-numerica.json",
+      "sha256": "a4f2f0b6a41a0be5b8ca747b615f94a6800b8d60365a4ecec3e956e6d8dc635d",
+      "bytes": 23229
+    },
+    {
+      "arquivo": "evidencias/fonte-vs-candidata.diff",
+      "sha256": "8b3aebce3016b6e95b77aa0735afabd6802f6faacf3ae3c4eb5287f7ba98e13a",
+      "bytes": 70511
+    },
+    {
+      "arquivo": "evidencias/fontes-preservadas.json",
+      "sha256": "a674ea7b18373cb5fda23aca46b62fa2d02927ed4e77361d15de6e9aca804799",
+      "bytes": 394
+    },
+    {
+      "arquivo": "evidencias/inspecao-visual.json",
+      "sha256": "e629beb9d62c7d02b3cf2071a5443e024b85c6372801c7a7a7c908da64e410f2",
+      "bytes": 6974
+    },
+    {
+      "arquivo": "evidencias/pdf-estrutura.json",
+      "sha256": "f2e5393a8bbe824c6ea3dbaea4ad30cdcee0f1e311a6c30642d3e48bd855d263",
+      "bytes": 324
+    },
+    {
+      "arquivo": "evidencias/pdf-texto.txt",
+      "sha256": "e950021d22cc4f24534430b6f33552181a858ee7fe150867ba33a8d4bef88d96",
+      "bytes": 38268
+    },
+    {
+      "arquivo": "evidencias/regras-verificadas.json",
+      "sha256": "637265bab41ff724cdc83b1a140be56de2c8b3c478f1b694c213cfa0a7edb62d",
+      "bytes": 5126
+    },
+    {
+      "arquivo": "gerar_pdf.py",
+      "sha256": "626e0b3a9bb7c96adad074b90922d0ef745aff18be417036d514db24046d72cb",
+      "bytes": 7953
+    },
+    {
+      "arquivo": "output/pdf/Projeto-M-Vanguarda-Proposta-01.pdf",
+      "sha256": "8833082ea50f001bdbd154d08388b44d136ebceabdbae1957173f3acaa97da31",
+      "bytes": 97867
+    }
+  ]
+}

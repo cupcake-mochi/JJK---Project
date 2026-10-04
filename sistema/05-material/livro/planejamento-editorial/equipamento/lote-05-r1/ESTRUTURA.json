@@ -1,0 +1,40 @@
+{
+  "ordem": [
+    "itens",
+    "exploracao",
+    "fechaduras",
+    "objetos",
+    "improvisadas"
+  ],
+  "titulos": {
+    "itens": "Itens comuns",
+    "exploracao": "Exploração e ferramentas",
+    "fechaduras": "Fechaduras e contenção",
+    "objetos": "Danificar objetos",
+    "improvisadas": "Armas improvisadas"
+  },
+  "paginas": {
+    "itens": 1,
+    "exploracao": 2,
+    "fechaduras": 3,
+    "objetos": 4,
+    "improvisadas": 5
+  },
+  "grupos": [
+    [
+      "Itens e ferramentas",
+      [
+        "itens",
+        "exploracao",
+        "fechaduras"
+      ]
+    ],
+    [
+      "Objetos e armas improvisadas",
+      [
+        "objetos",
+        "improvisadas"
+      ]
+    ]
+  ]
+}

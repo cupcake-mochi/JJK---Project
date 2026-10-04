@@ -1,0 +1,148 @@
+{
+  "ok": true,
+  "sha256_texto": "a740f3f8c1112408d19f351204768e99a8799edc4c8fbe88449207a2abe09b96",
+  "casos": [
+    {
+      "caso": "Exemplo CD de Kaito",
+      "obtido": 16,
+      "esperado": 16,
+      "ok": true
+    },
+    {
+      "caso": "Kaito chance exata",
+      "obtido": 0.65,
+      "esperado": 0.65,
+      "ok": true
+    },
+    {
+      "caso": "Kaito falha, PE",
+      "obtido": 16,
+      "esperado": 16,
+      "ok": true
+    },
+    {
+      "caso": "Kaito sucesso com Energia",
+      "obtido": 10,
+      "esperado": 10,
+      "ok": true
+    },
+    {
+      "caso": "Ritual completo exemplo soma",
+      "obtido": 6,
+      "esperado": 6,
+      "ok": true
+    },
+    {
+      "caso": "Exemplo em conjunto soma",
+      "obtido": 10,
+      "esperado": 10,
+      "ok": true
+    },
+    {
+      "caso": "Tiros desiguais4/2/1",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "caso": "Tiros equilibrados3/2/2",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "caso": "Nunca copia parcela grande18/1/1",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "caso": "Cura32, faltam2: excesso limitado",
+      "obtido": 8,
+      "esperado": 8,
+      "ok": true
+    },
+    {
+      "caso": "Cura3, alvo cheio: fração para baixo",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Essência0..6 pactos",
+      "obtido": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        2,
+        3
+      ],
+      "esperado": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        2,
+        3
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Pacto perdido não libera escolha",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Essência4para6 após2pactos",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "caso": "Liberação Classe3..7 bônus",
+      "obtido": [
+        1,
+        2,
+        2,
+        3,
+        3
+      ],
+      "esperado": [
+        1,
+        2,
+        2,
+        3,
+        3
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Liberação Classe3..7 teto excepcional",
+      "obtido": [
+        13,
+        18,
+        22,
+        27,
+        31
+      ],
+      "esperado": [
+        13,
+        18,
+        22,
+        27,
+        31
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Matriz nominal16x19",
+      "obtido": 304,
+      "esperado": 304,
+      "ok": true
+    }
+  ]
+}

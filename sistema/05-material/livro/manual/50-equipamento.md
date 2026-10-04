@@ -221,9 +221,9 @@ O `Yumi` não carrega `Munição`. Uma flecha se encaixa como parte do disparo: 
 | **Marciais** | Lâmina Longa · Machado · Armas Longas · Flexível · Yumi | 19 |
 | **Arma de Fogo** | Arma de Fogo | 7 |
 
-> **Bastião e Vanguarda treinam as treze categorias.** Qualquer arma deste catálogo é deles.
+> **Bastião, Vanguarda e Incursor treinam as treze categorias.** Qualquer arma deste catálogo é deles.
 >
-> **Guia e Emanador treinam Arma de Fogo e Balestra**, as duas que se aponta e dispara sem precisar de anos de treinamento.
+> **Guia, Emanador e Evocador treinam Arma de Fogo e Balestra**, as duas que se aponta e dispara sem precisar de anos de treinamento.
 
 Um Caminho conjurador não pega espadão de graça: ele precisa da Trilha que concede a categoria, como a `Arma Condutora` do Condutor Armado. O quadro de cada Caminho está no capítulo 8, *Caminhos e Trilhas*.
 
@@ -410,7 +410,7 @@ Item comum — pé de cabra, lanterna, corda, o que estiver na mochila — é **
 
 ## Dinheiro e acesso
 
-> **A moeda é o iene. Você recebe um salário mensal da instituição, e o valor sai da sua patente** — a tabela **Salário por patente** está no capítulo 18, *Experiência e Progressão*.
+> **A moeda é o iene. Você recebe um salário mensal da instituição, e o valor sai da sua patente** — a tabela **Salário por patente** está no capítulo 19, *Experiência e Progressão*.
 >
 > **Dinheiro compra o que está à venda. O seu Grau libera o que não está.**
 
@@ -494,6 +494,6 @@ As linhas de baixo não são enfeite: o fundo da criação é uma mensalidade da
 
 > **Você começa Grau 4, com o `Traje` degrau 1 da instituição e ¥150.000 para comprar o resto.** São uma mensalidade de um Grau 4, que é o que você é.
 
-**O fundo é sempre uma mensalidade da patente em que o personagem começa**, e não um valor fixo. Quase toda ficha começa Grau 4 e por isso o número é ¥150.000, mas numa campanha que abre acima do nível 2, ou quando o mestre decide que o grupo já é gente da casa, a patente inicial sobe e o fundo sobe junto — é a tabela `Salário por patente`, no capítulo 18, que diz quanto.
+**O fundo é sempre uma mensalidade da patente em que o personagem começa**, e não um valor fixo. Quase toda ficha começa Grau 4 e por isso o número é ¥150.000, mas numa campanha que abre acima do nível 2, ou quando o mestre decide que o grupo já é gente da casa, a patente inicial sobe e o fundo sobe junto — é a tabela `Salário por patente`, no capítulo 19, que diz quanto.
 
 É isso que mantém a coluna de criação da arma de fogo viva inteira. **No Grau 4 cabem três das sete — a Pistola, o Revólver e a Espingarda; no Grau 3 entram o Rifle, a Submetralhadora e o Rifle de Precisão; e no Grau 2 a tabela `Arma de fogo` fecha, com a Metralhadora Pesada.** Não por acaso: o Grau 2 é a patente em que a arma de fogo deixa de precisar de autorização.

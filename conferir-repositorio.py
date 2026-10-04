@@ -112,6 +112,13 @@ def recorte_da_entrega():
             if f.endswith('.md'):
                 pares.append((os.path.join(v04, f),
                               os.path.join(ent, 'caminhos', '01-Caminhos-e-Trilhas', f)))
+    # v0.331: fontes atuais de Caminhos e Invocacoes, incluindo contratos e referencias.
+    for sub in ('caminhos/05-Edicao-Integrada', 'invocacoes/05-Edicao-Integrada'):
+        base = os.path.join(RAIZ, sub)
+        for pasta, _, arquivos in os.walk(base):
+            for arquivo in sorted(arquivos):
+                fonte = os.path.join(pasta, arquivo)
+                pares.append((fonte, os.path.join(ent, os.path.relpath(fonte, RAIZ))))
     # A fonte do livro e' o ARTEFATO que o build gera, e nao o .md — o que a
     # entrega carrega e' o compilado, e e' ele que envelhece calado (v0.114).
     livro = os.path.join(RAIZ, 'sistema', '05-material', 'livro')

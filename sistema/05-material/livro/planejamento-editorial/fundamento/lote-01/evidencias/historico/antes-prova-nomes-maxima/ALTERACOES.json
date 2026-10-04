@@ -1,0 +1,572 @@
+{
+  "data": "2026-10-03",
+  "sha256_texto": "91db84efd1813de6f85f4ea30daf01528d0bdf60cfb47ce7cf512ed3121ca5b0",
+  "legenda": {
+    "E": "editorial/organização",
+    "S": "sincronização ou esclarecimento apoiado nas fontes",
+    "M": "mudança mecânica ou fechamento de lacuna, sujeito a revisão",
+    "F": "fila futura"
+  },
+  "alteracoes": [
+    {
+      "id": "FU-01",
+      "natureza": "E",
+      "assunto": "Ordem de ensino",
+      "antes": "Catálogo e procedimentos extensos antes de uma montagem completa.",
+      "candidata": "Ideia → Fundamento de Mei → primeiro feitiço na página3 → consulta de regras.",
+      "motivo": "Permitir executar uma criação antes de estudar todas as opções.",
+      "sincronizar": "Fundamento; futuro tutorial.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-02",
+      "natureza": "E",
+      "assunto": "Três recursos",
+      "antes": "Vaga conhecida, pontos e PE próximos, sem contraste operacional suficiente.",
+      "candidata": "Vaga fica ocupada; pontos montam a ficha; PE paga cada uso.",
+      "motivo": "Evitar interpretar repertório como conjuração por descanso.",
+      "sincronizar": "Fundamento, Criação, ficha.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-03",
+      "natureza": "S",
+      "assunto": "Entidade por espaço",
+      "antes": "Invocações integrado já autoriza uma entidade por espaço; Fundamento e rotas não expõem a entrada com a mesma clareza.",
+      "candidata": "Uma entidade de nível igual ao personagem por espaço de feitiço, Manejo ou Kata.",
+      "motivo": "Tornar a aquisição encontrável em todos os procedimentos, sem conceder uma entidade gratuita.",
+      "sincronizar": "Patches42/43/60/80.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-04",
+      "natureza": "M",
+      "assunto": "Revisão compartilhada",
+      "antes": "Troca de entidade ao subir de nível e reescrita não têm relação inequívoca.",
+      "candidata": "Refazer a troca disputa a única revisão por nível; preencher vaga nova não.",
+      "motivo": "Evitar duas revisões independentes implícitas. Decisão candidata conservadora.",
+      "sincronizar": "Patches42/43/60/80.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-05",
+      "natureza": "S",
+      "assunto": "Benefícios fora do repertório",
+      "antes": "Classe0, Liberação e Máxima têm progressão própria, nem sempre explicitada junto da troca.",
+      "candidata": "Não fornecem vagas para converter em entidades; marcos comuns integram a fórmula.",
+      "motivo": "Impedir transformar benefício gratuito em nova aquisição.",
+      "sincronizar": "Fundamento; Progressão; Invocações.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-06",
+      "natureza": "S",
+      "assunto": "Manejo de cura",
+      "antes": "Manual43 dizia não curar outros; peça25 corrigida permite.",
+      "candidata": "Sincronização admite Cura de terceiros via Manejo, sem conceder aptidão pessoal.",
+      "motivo": "Eliminar divergência entre manual e dono mecânico posterior.",
+      "sincronizar": "Patch43.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-07",
+      "natureza": "S",
+      "assunto": "Selo marcial",
+      "antes": "Manual42 diz que Kata não tem Selo e depois define equipamento como Selo.",
+      "candidata": "Requisito de arma/ferramenta ocupa essa função na rota.",
+      "motivo": "Eliminar contradição sem conceder energia pessoal.",
+      "sincronizar": "Patch42.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-08",
+      "natureza": "E",
+      "assunto": "Poderes da obra",
+      "antes": "Quadro de selos e afirmações canônicas sem validação direta suficiente.",
+      "candidata": "Exemplos originais identificados; alegações não comprovadas retiradas desta candidata.",
+      "motivo": "Não transformar interpretação de fã em fato da obra. Cap134 não foi acessível integralmente.",
+      "sincronizar": "Fundamento; futura revisão de Mundo.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-09",
+      "natureza": "M",
+      "assunto": "Distribuição de tipos",
+      "antes": "Escolha de tipos sem momento inequívoco de distribuição em uma ficha.",
+      "candidata": "Fixar distribuição na criação; não escolher depois de conhecer resistência.",
+      "motivo": "Evitar alteração oportunista de uma mesma aplicação.",
+      "sincronizar": "Fundamento; Dano.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-10",
+      "natureza": "S",
+      "assunto": "Desconto das Formas",
+      "antes": "Dúvida se Família Livre desconta Forma vinculada.",
+      "candidata": "Desconto somente em Melhorias; Formas pagam tabela.",
+      "motivo": "Preservar conta das fontes e impedir abatimento duplicado.",
+      "sincronizar": "Fundamento; R07.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-11",
+      "natureza": "S",
+      "assunto": "Devolução de pontos",
+      "antes": "Uma frase limita devolução a Melhorias; matemática e exemplos também pagam Forma.",
+      "candidata": "Gasto é Forma+Melhorias; devolução aproveitada ≤gasto e ≤2C.",
+      "motivo": "Escolher procedimento confirmado pelo modelo publicado, impedir pontos excedentes.",
+      "sincronizar": "Fundamento; geradores históricos somente na integração.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-12",
+      "natureza": "S",
+      "assunto": "Restrições embutidas",
+      "antes": "Toque/Aura embutem Corpo a Corpo sem clareza uniforme na contagem.",
+      "candidata": "Ocupam uma das duas Restrições; não podem ser compradas novamente.",
+      "motivo": "Não duplicar devolução pela mesma dificuldade.",
+      "sincronizar": "Fundamento; R07; Invocações.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-13",
+      "natureza": "M",
+      "assunto": "Tetos finais de cura",
+      "antes": "Tetos aparecem próximos de conversões sem dizer o efeito do reembolso final.",
+      "candidata": "Cura ≤2C dados; Onda cura ≤3C−Pesada mesmo com devolução.",
+      "motivo": "Evitar Restrição apagar custo intrínseco da Forma. Consolidação restritiva candidata.",
+      "sincronizar": "Fundamento; R07; matemática de cura.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-14",
+      "natureza": "M",
+      "assunto": "Onda em Classes6/7",
+      "antes": "Tabela mistura alcance de Cura e Onda.",
+      "candidata": "Onda permanece centrada no usuário, raio4,5m na faixa alta.",
+      "motivo": "Preservar identidade de área própria e fechar valor ausente/ambíguo; inferência de design, não correção tipográfica demonstrada.",
+      "sincronizar": "Fundamento; R07; Invocações.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-15",
+      "natureza": "S",
+      "assunto": "Toque e Longe",
+      "antes": "Catálogo não mostra claramente a incompatibilidade.",
+      "candidata": "Toque fica em1,5m; Longe não o converte em Projétil. Aura/Onda não mudam origem.",
+      "motivo": "A peça só altera medida que sua Forma admite.",
+      "sincronizar": "Fundamento; matriz; patch40; R07.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-16",
+      "natureza": "S",
+      "assunto": "Aumentos de alcance",
+      "antes": "Alcance ao centro confundido com raio.",
+      "candidata": "Escadas distintas para alvo, raio e comprimento; exemplos Longe/Maior.",
+      "motivo": "Evitar aumento de distância conceder área gratuitamente.",
+      "sincronizar": "Fundamento; R07.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-17",
+      "natureza": "S",
+      "assunto": "Conjuração e TR",
+      "antes": "Montagem/uso deixam dúvida sobre troca ao conhecer o alvo.",
+      "candidata": "Ataque/TR e atributo de resistência escolhidos na montagem; versão nova exige espaço/revisão.",
+      "motivo": "Preservar ficha estável e custo de flexibilidade.",
+      "sincronizar": "Fundamento; R07.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-18",
+      "natureza": "S",
+      "assunto": "Metade e crítico de área",
+      "antes": "Metade do dano pode ser lida como metade do resultado; crítico de um alvo pode parecer global.",
+      "candidata": "TR comum reduz quantidade de dados para baixo; crítico amplia somente contra alvo específico. Máxima reduz resultado em3/4, arredondamento geral de dano.",
+      "motivo": "Conciliar com Dano atual e evitar rolagem crítica compartilhada para todos.",
+      "sincronizar": "Fundamento; Dano; Ataques.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-19",
+      "natureza": "S",
+      "assunto": "Limite de conjuração",
+      "antes": "Regra curta de Bônus/Reação não abrange limite revisado de todo turno.",
+      "candidata": "Uma Classe positiva permite apenas mais uma Classe0 no seu turno; regra Bônus/Reação também preservada.",
+      "motivo": "Não abrir segunda conjuração por converter ações.",
+      "sincronizar": "Fundamento; Testes e Turnos.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-20",
+      "natureza": "M",
+      "assunto": "Certeiro",
+      "antes": "Média troca ataque por TR/metade, função já gratuita no procedimento geral.",
+      "candidata": "Ataque permanece; erro final causa metade dos dados para baixo, sem efeitos nem crítico; acerto normal.",
+      "motivo": "Dar função própria à compra.63 comparações mostram nicho e perda de dano em outros cenários; Bloquear ainda exige avaliação ampla.",
+      "sincronizar": "Patch40; catálogo; espelho de Invocações.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-21",
+      "natureza": "S",
+      "assunto": "Silencioso",
+      "antes": "Confusão entre eliminar Selo e apagar toda consequência sonora.",
+      "candidata": "Não neutraliza uma Restrição que esteja cobrando voz. Com Barulho, ruído/revelação permanecem.",
+      "motivo": "Impedir devolução por custo cancelado sem proibir combinação com efeitos distintos.",
+      "sincronizar": "Fundamento; R07.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-22",
+      "natureza": "S",
+      "assunto": "Controle sem dano",
+      "antes": "Descartar dados pode parecer comprar bônus de Controle.",
+      "candidata": "Bônus depende do saldo calculado antes do descarte; somente família Controle.",
+      "motivo": "Não conceder +2CD por abandonar dano que não seria usado.",
+      "sincronizar": "Fundamento; R07.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-23",
+      "natureza": "S",
+      "assunto": "Saída de condições",
+      "antes": "TR de saída pode parecer repetir para toda condição.",
+      "candidata": "Repetição no fim do turno para Pesadas; duração específica respeitada.",
+      "motivo": "Preservar procedimento de Condições sem inventar saída universal.",
+      "sincronizar": "Fundamento; Condições.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-24",
+      "natureza": "M",
+      "assunto": "Anteparo",
+      "antes": "Quantidade de PV sem distribuição inequívoca pela parede.",
+      "candidata": "Uma reserva compartilhada; destruição encerra todo Anteparo. Exemplo define12quadrados,9×3m.",
+      "motivo": "Impedir multiplicar30PV por cada quadrado e tornar exemplo executável.",
+      "sincronizar": "Fundamento; R07.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-25",
+      "natureza": "S",
+      "assunto": "Passo e Ação Completa",
+      "antes": "A proibição de movimento de Atrasar/Parado parece associada a toda Ação Completa.",
+      "candidata": "Completa consome ações; Passo pode conceder movimento específico. Atrasar/Parado assumidos o impedem.",
+      "motivo": "Separar custo de ação de uma proibição expressa de mover.",
+      "sincronizar": "Patch40; Turnos; Fundamento.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-26",
+      "natureza": "M",
+      "assunto": "Condição sobre distância concedida",
+      "antes": "Lento define metade do deslocamento, mas interface com distâncias específicas não é explícita.",
+      "candidata": "Reduz também movimento específico de Passo/Retirada; impedimento total continua impedindo.",
+      "motivo": "Evitar duas leituras por nome do efeito. Decisão candidata que deve ser sincronizada ao dono.",
+      "sincronizar": "Fundamento; Condições; Movimento; R07.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-27",
+      "natureza": "M",
+      "assunto": "Teto de dano",
+      "antes": "Texto fala em4C somando todos os alvos; áreas/exemplos/modelo aplicam base a cada um.",
+      "candidata": "Teto por quantidade comprada na montagem, sem multiplicar pelo número de criaturas na área.",
+      "motivo": "Eliminar contradição e preservar áreas funcionais; agregado da área pode superar4C.",
+      "sincronizar": "Fundamento; patch40; Invocações.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-28",
+      "natureza": "M",
+      "assunto": "Dados adicionais e Remate",
+      "antes": "Interações do teto com multiplicador não têm procedimento suficiente.",
+      "candidata": "Somar adicionais e considerar multiplicador; reduzir dados iniciais se exceder4C, sem devolver pontos.",
+      "motivo": "Impedir que compra adicional torne o teto inaplicável. Redução candidata precisa teste.",
+      "sincronizar": "Fundamento; patch40; R07.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-29",
+      "natureza": "S",
+      "assunto": "Acúmulo",
+      "antes": "Auditoria inicial poderia aplicar teto por inferência.",
+      "candidata": "Exceção histórica preservada: até+3 em usos seguidos podem ultrapassar limite.",
+      "motivo": "Respeitar decisão aprovada v0.259, localizada na segunda revisão.",
+      "sincronizar": "Fundamento; patch40; revisão R07.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-30",
+      "natureza": "M",
+      "assunto": "Salto e Estilhaço",
+      "antes": "Áreas podem disparar secundário por cada alvo e sobrepor dano; Salto não explicita oposição.",
+      "candidata": "Uma ocorrência de cada peça por conjuração; sem recursão/crítico/gatilhos externos; Salto tem rolagem própria e mantém9m/alvo mais próximo.",
+      "motivo": "Fechar multiplicação por número de alvos e preservar exclusões de gatilhos de classe. Estilhaço mantém resolução própria no catálogo.",
+      "sincronizar": "Fundamento; patch40; Invocações.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-31",
+      "natureza": "M",
+      "assunto": "Fica",
+      "antes": "1min; entrada/start sem limite por rodada; rodada antiga10s e candidata6s.",
+      "candidata": "Rodada da conjuração+cinco; uma resolução/criatura/rodada, inclusive erro; origem fixa; não repete outras peças.",
+      "motivo": "Evitar buff involuntário de duração e entradas repetidas. Não alegar que fonte antiga já limitava a seis aplicações.",
+      "sincronizar": "Fundamento; patch40; Invocações; Turnos.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-32",
+      "natureza": "M",
+      "assunto": "Divisão e dados zero",
+      "antes": "Dividir pode produzir ataques de0dados que só transportam efeitos.",
+      "candidata": "Partes sem dados não recebem efeitos de acerto; Junto só reparte benefícios quantitativos compatíveis.",
+      "motivo": "Impedir multiplicação de condições por tiros vazios ou duplicação gratuita de bônus.",
+      "sincronizar": "Fundamento; R07.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-33",
+      "natureza": "S",
+      "assunto": "Uso Livre e oposição",
+      "antes": "Narrativa livre pode ser confundida com percepção ou furtividade mecânica.",
+      "candidata": "Pequena manifestação não concede informação protegida, teste gratuito nem controle hostil.",
+      "motivo": "Conservar criatividade sem apagar custo das capacidades.",
+      "sincronizar": "Fundamento; Percepção; R07.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-34",
+      "natureza": "M",
+      "assunto": "Escala de Efeito6/7",
+      "antes": "Tabela salta Classe5 para Máxima sem faixa6/7.",
+      "candidata": "Classes6/7 conservam escala5, com orçamento maior; função e término definidos.",
+      "motivo": "Preencher lacuna conservadoramente, sem conceder cidade inteira por extrapolação.",
+      "sincronizar": "Fundamento; R07.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-35",
+      "natureza": "M",
+      "assunto": "Efeito sobre hostis",
+      "antes": "Alguns exemplos publicados deixam parecer prisão/alteração automática pela escala.",
+      "candidata": "Escala não substitui controle e resistência; mesmo antes da iniciativa.",
+      "motivo": "Impedir ultrapassar regras de oposição por declarar fora de combate.",
+      "sincronizar": "Fundamento; R07.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-36",
+      "natureza": "M",
+      "assunto": "Classe0 e Restrições",
+      "antes": "Permite Leve e Restrição sem explicar conversão no orçamento sem pontos.",
+      "candidata": "Melhoria custa1dado; Restrição não devolve dado. Toque/Aura sem reembolso Médio.",
+      "motivo": "Evitar Classe0 escapar de seu preço próprio.",
+      "sincronizar": "Fundamento; R07; Progressão.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-37",
+      "natureza": "M",
+      "assunto": "Apoio Classe0",
+      "antes": "Forma permitida mas não há saldo de pontos definido.",
+      "candidata": "Sem PV temporário; pode entregar única Leve compatível, como Impulso.",
+      "motivo": "Fechar lacuna sem inventar fórmula de PV ilimitada.",
+      "sincronizar": "Fundamento; R07.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-38",
+      "natureza": "M",
+      "assunto": "Efeito Próprio",
+      "antes": "Critério de preço e descontos pouco delimitado.",
+      "candidata": "Uma peça própria, sem desconto Livre; não contorna Fechadas; benefícios independentes separados; ficha e comparador.",
+      "motivo": "Tornar decisão revisável e impedir juntar várias peças num preço único.",
+      "sincronizar": "Fundamento; R07.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-39",
+      "natureza": "M",
+      "assunto": "Liberação e Atrasar",
+      "antes": "Exemplos recebem reembolso de Atrasar mesmo quando Liberação já custa Completa.",
+      "candidata": "Sem devolução de Atrasar/Parado por custo já obrigatório; exemploLinhaC3 fica10d8,14PE.",
+      "motivo": "Eliminar dupla compensação. Passo específico não devolve ações.",
+      "sincronizar": "Fundamento; patch40; R08; exemplos/geradores.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-40",
+      "natureza": "M",
+      "assunto": "Máxima: orçamento",
+      "antes": "8/8/12; preços sobem e combinações deixam de caber.",
+      "candidata": "8/12/16 nos níveis17/21/26; dados24/28/32 e PE25/30/35 mantidos.",
+      "motivo": "840perfis de custo mostram mínimo monotônico incluindo escolhas novas aos21. É aumento real de opções e requer teste.",
+      "sincronizar": "Fundamento; R08; patch60 domada8/12/16 com19/22/26d8.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-41",
+      "natureza": "S",
+      "assunto": "Máxima: dados separados",
+      "antes": "Jogadores interpretam Melhorias como redução dos dados fixos.",
+      "candidata": "Dados e pontos são contas distintas; sobras não viram dano nem PV.",
+      "motivo": "Deixar regra operacional e evitar aplicar saldo comum a outra economia.",
+      "sincronizar": "Fundamento; R08; rotas.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-42",
+      "natureza": "M",
+      "assunto": "Máxima: compatibilidades",
+      "antes": "Peças comuns não delimitam cópias/repetições do conjunto fixo.",
+      "candidata": "Vedadas Salto/Queima/Estilhaço/Acúmulo/Remate/QuebraCoisa/Fica/Inescapável; partições não copiam; modificadores gerais preservados.",
+      "motivo": "Evitar dano extra sem perder dados-base. Inclui redução explícita de especialização contra objetos.",
+      "sincronizar": "Fundamento; matriz; R07/R08; Invocações.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-43",
+      "natureza": "M",
+      "assunto": "Máxima: Apoio",
+      "antes": "Não define transformação do conjunto fixo em proteção.",
+      "candidata": "Não converte dados ou sobras emPV temporário; proteção própria precisa quantidade registrada.",
+      "motivo": "Não extrapolar fórmula comum para multiplicação sem preço.",
+      "sincronizar": "Fundamento; R08.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-44",
+      "natureza": "M",
+      "assunto": "Máxima: revisão",
+      "antes": "Aumento de faixa não explica uso dos novos pontos e reescrita.",
+      "candidata": "Atualiza preços e preserva peças; acrescenta peças compatíveis nos marcos; trocar função usa revisão por nível.",
+      "motivo": "Permitir aproveitar progressão sem trocar aplicação a cada uso.",
+      "sincronizar": "Fundamento; patch80 a complementar na integração.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-45",
+      "natureza": "M",
+      "assunto": "Máxima: utilidade em combate",
+      "antes": "FormaEfeito comum é fora de combate; falta exemplo avançado que justifique custo.",
+      "candidata": "Efeito próprio exclusivo de Máxima pode autorizar combate, com ficha fechada.",
+      "motivo": "Criar função extraordinária sem liberar o mesmo pacote numa Classe comum.",
+      "sincronizar": "Fundamento; R08.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-46",
+      "natureza": "M",
+      "assunto": "Passagem de Papel",
+      "antes": "Exemplo novo.",
+      "candidata": "Duas marcas preparadas,1500m,3×3m,1min/concentração,par único,encerra em combate/barreira/interrupção.",
+      "motivo": "Mostrar utilidade concreta com preparação, limites físicos e saída; números candidatos.",
+      "sincronizar": "Fundamento; futura bateria de mesa.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-47",
+      "natureza": "M",
+      "assunto": "Retirada de Emergência",
+      "antes": "Exemplo novo.",
+      "candidata": "Até6dispostos vistos a18m, cada um move até18m físico sem oportunidade; escolha inicial e custoMáxima.",
+      "motivo": "Função imediata diferente de Pressa. Exemplo original, não equivalência demonstrada de metros e dano.",
+      "sincronizar": "Fundamento; futura bateria de mesa.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-48",
+      "natureza": "E",
+      "assunto": "Navegação e títulos",
+      "antes": "Catálogo comprido e muitos tópicos concorrentes.",
+      "candidata": "29páginas,5grupos principais recolhidos, remissões internas e ficha final.",
+      "motivo": "Reduzir painel lateral sem esconder destinos de consulta; preservar tema e evitar títulos proibidos.",
+      "sincronizar": "PDF candidato; integração final.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-49",
+      "natureza": "E",
+      "assunto": "Repetição de aptidões",
+      "antes": "Regra ofensiva de cura é repetida em Fundamento.",
+      "candidata": "Remissão curta à capacidade que a concede, sem republicar nome/efeito.",
+      "motivo": "Cumprir dono editorial e evitar versões divergentes.",
+      "sincronizar": "Fundamento; Aptidões em R09.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-50",
+      "natureza": "F",
+      "assunto": "Integridade e morte",
+      "antes": "Morrendo já adiado, Integridade sem vínculo explícito na fila.",
+      "candidata": "Revisão de Integridade vinculada à futura revisão de morte.",
+      "motivo": "Atender pedido sem alterar desfecho/estágios agora.",
+      "sincronizar": "FILA-COMPLETA; REVISAO-MORRENDO.",
+      "status": "fila registrada"
+    },
+    {
+      "id": "FU-51",
+      "natureza": "M",
+      "assunto": "Requisito temático da invocação por espaço",
+      "antes": "Troca autorizada nas três rotas com compatibilidade descrita de modo genérico; exemplo usava técnica sem invocações expressas.",
+      "candidata": "Exige criar, chamar ou controlar entidades entre as capacidades declaradas da técnica, semente ou estilo. Ter espaço não cria esse acesso. Exemplo trocado por animais de papel.",
+      "motivo": "Instrução explícita do usuário em03/10/2026: a troca só existe quando faz sentido no funcionamento da técnica.",
+      "sincronizar": "Fundamento; patches42/43/60/80; Criação e ficha na integração.",
+      "status": "correção solicitada aplicada à candidata; não integrada ao publicado"
+    },
+    {
+      "id": "FU-52",
+      "natureza": "M",
+      "assunto": "Máxima e disparo adiado",
+      "antes": "A lista de compatibilidade não resolvia Armado e Segura; seria possível iniciar recarga antes do disparo.",
+      "candidata": "Armado e Segura não preparam nem adiam Técnica Máxima.",
+      "motivo": "Fechamento de R07: preservar o turno de Ação Completa e a recarga do uso efetivo, sem acumular disparos de Máxima.",
+      "sincronizar": "Catálogo R07; Máximas e rotas em R08/R10/R12.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-53",
+      "natureza": "M",
+      "assunto": "Sem Volta e Vazio",
+      "antes": "A proibição de conjurar poderia pagar Restrição e preço da Liberação no mesmo uso.",
+      "candidata": "Liberação com Sem Volta escolhe Sangue ou Peso.",
+      "motivo": "Fechamento F51, sem cobrar duas vezes a mesma dificuldade.",
+      "sincronizar": "Catálogo R07; Liberação; rotas.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-54",
+      "natureza": "E",
+      "assunto": "Títulos e ritmo de leitura",
+      "antes": "Artigos introdutórios em seis subtítulos e uso frequente de ponto e vírgula.",
+      "candidata": "Títulos diretos, períodos completos na prosa; separadores preservados onde úteis em tabelas.",
+      "motivo": "Feedback de leitor trazido pelo usuário; revisão contextual sem avaliação automática de humanidade.",
+      "sincronizar": "Validador recorrente e revisão retroativa dos outros documentos.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-55",
+      "natureza": "E",
+      "assunto": "Exemplo criativo de Passiva Livre",
+      "antes": "## Passiva Livre\n\nVocê começa com uma **Passiva Livre**, ligada à Descrição. Ela expressa a presença da técnica sem mudar números, conceder ações, aplicar condições ou resolver testes automaticamente. Pode fazer seu reflexo se atrasar ou desenhar pequenas faíscas nos cabelos.\n\nSe a ideia revela informação protegida, concede vantagem ou permite vencer um obstáculo que normalmente exige teste, examine as Passivas pagas ou monte um feitiço. A aparência dos fios de Mei não revela armadilhas nem torna sua Furtividade melhor.\n\n",
+      "candidata": "## Passiva Livre\n\nVocê começa com uma **Passiva Livre**, uma manifestação ligada à Descrição da técnica. Escolha algo que ajude a reconhecer o personagem: o brilho de sua energia, um detalhe estranho em seu reflexo ou uma cena que acompanha seus gestos.\n\n**Faíscas.** Fios de luz percorrem seu cabelo quando você demonstra entusiasmo.\n\n**Teatro de sombras.** Quando você conta uma história, sua sombra encena o relato. Uma perseguição ganha corredores e telhados em miniatura. Uma criatura inventada toma forma entre as figuras. Você escolhe o que a cena representa, inclusive ao contar uma história que inventou.\n\nA Passiva Livre cuida da aparência e da expressão do personagem. Ela não concede vantagem nem resolve testes automaticamente. Também não revela informações que ele desconhece. Iluminar um lugar ou criar uma ilusão capaz de enganar exige uma capacidade que conceda esse efeito.\n\n",
+      "motivo": "Pedido do usuário após feedback externo; exemplo imaginável além de efeitos mínimos, mantendo os limites de benefício gratuito. Comparação dirigida com PHB/DMG locais, sem importar Prestidigitação.",
+      "sincronizar": "Tutorial e revisão de voz posterior; nome Fundamento apenas registrado como proposta.",
+      "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-56",
+      "natureza": "E",
+      "assunto": "Cura contra maldições",
+      "antes": "Referência genérica a usos ofensivos de outras capacidades.",
+      "candidata": "Remissão nominal a Energia Reversa e Ferir maldições em Aptidões.",
+      "motivo": "Ajudar a localizar a exceção sem reproduzir custos, alcance ou cálculo de dano.",
+      "sincronizar": "R09; R10",
+      "status": "candidata, não integrada"
+    }
+  ]
+}

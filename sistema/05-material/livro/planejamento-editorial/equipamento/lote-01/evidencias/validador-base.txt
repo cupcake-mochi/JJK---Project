@@ -1,0 +1,132 @@
+
+========================================================================================
+1. ORCAMENTO — toda arma gasta o fundo exato
+========================================================================================
+  52 armas, 41 de corpo a corpo (fundo 3/5) e 11 de tiro (fundo 2/4).
+  52 fecham exato.
+
+========================================================================================
+2. DOMINANCIA — a matriz sobre arma, uma vez por escada
+========================================================================================
+  corpo a corpo: 1640 pares, 3 dominancia(s), 3 declarada(s) como ACEITA.
+  tiro: 110 pares, 0 dominancia(s), 0 declarada(s) como ACEITA.
+
+========================================================================================
+3. PROPRIEDADE — toda propriedade usada tem texto no SS5.2
+========================================================================================
+  13 propriedades em uso no catalogo.
+  Todas com texto.
+
+========================================================================================
+4. FORCA — o requisito pega os dois degraus de cima de cada escada
+========================================================================================
+  familia Forca    : d4 · d6 · d8 · d10 · d12 — gate em ['d10', 'd12']
+  familia Destreza : 1d8 · 1d10 — sem gate: paga em Destreza
+  familia nenhuma  : 1d10 · 2d6 · 2d8 · 2d10 — gate em ['2d10', '2d8']
+  o requisito pega 16 de 52 armas.
+  Nenhuma arma de Destreza cai no requisito, nas tres familias.
+
+========================================================================================
+5. TETO DE DEFESA — derivado de tres donos, nunca lido de constante
+========================================================================================
+  10 (peca 1) + 6 (peca 2) + 4 (peca 11: 1/3 de 10 + 1) = 20
+  busca exaustiva: 7 rotas de protecao x 4 escudos x 7 Destrezas = 196 montagens
+  pico da busca: 20 (cobrir-se + sem escudo, Destreza 6) — e o teto derivado e 20.
+
+========================================================================================
+6. BALDES — os dois lados do treino de arma
+========================================================================================
+  simples 24 armas / marcial 17 armas
+  teto: 1 mao 4.5 = 4.5 | 2 maos 6.5 = 6.5
+  sob o requisito de Forca, o simples mantem 1 arma(s) de duas maos.
+
+========================================================================================
+7. TALHA — ela nao pode ser a unica identidade paga de uma arma
+========================================================================================
+  9 armas com Talha, 2 dependendo so dela (2 declarada(s)).
+
+========================================================================================
+8. VERSATIL — o passo de graca so nas armas declaradas
+========================================================================================
+  4 armas com Versatil, todas declaradas.
+
+========================================================================================
+9. DESLIGA — a frase do desligamento nao cita escudo
+========================================================================================
+  peca 8 e peca 11 conferidas.
+
+========================================================================================
+10. TRIAGEM — todo nome do catalogo aparece no documento que o define
+========================================================================================
+  52 nomes de arma conferidos contra o corpo do documento.
+
+========================================================================================
+11. SOCO — o punho vazio nunca passa do fundo, e fecha exato no topo
+========================================================================================
+  fundo de uma mao: 3 (lido do SS5.0.1) · zero propriedade custa 0
+  maestria  dado   gasta   fundo   sobra
+  1         d4     0       3       +3
+  2         d6     1       3       +2
+  3         d8     2       3       +1
+  4         d10    3       3       +0
+  O topo fecha exato: o soco chega a paridade com arma de uma mao e nao passa.
+  E ele esta FORA do SS5.3: as 52 do catalogo nao se moveram.
+  A isencao do requisito de Forca esta escrita.
+
+========================================================================================
+12. TREINO POR CAMINHO — quem alcanca qual balde, lido da peca 6
+========================================================================================
+  Bastião · Vanguarda · Incursor as treze
+  Guia · Emanador · Evocador Arma de Fogo, Balestra
+  2 categoria(s) nomeada(s), todas conferidas contra a peca 14.
+  Os 6 Caminhos aparecem na tabela.
+  A porta da Trilha (`Arma Condutora` do Condutor Armado) esta escrita.
+  O livro repete a mesma regra, conferido nas tres linhas.
+
+========================================================================================
+12.1 PONTEIRO DE EQUIPAMENTO — os Caminhos da edicao jogavel mandam o leitor comprar
+========================================================================================
+  [x] os 6 Caminhos publicam o mesmo ponteiro para o catalogo, e nenhum repete o fundo da criacao.
+
+========================================================================================
+13. O DINHEIRO — o preco e a terceira trava, e ele so sabe atrasar
+========================================================================================
+  escada: 150,000 -> 300,000 -> 600,000 -> 1,200,000 -> 2,400,000
+  base derivada do canon: 154,219/mes; publicada: 150,000 (2.7% de arredondamento)
+  62 entradas com preco no SS6.5
+  [x] as 52 armas do catalogo tem preco.
+  [x] preco nenhum inventa degrau de protecao: a busca do bloco 5 continua cobrindo tudo.
+  [x] dinheiro inicial 150,000 = uma mensalidade da linha Grau 4 da peca 12.
+  [x] os 8 kits de referencia reconstroem da tabela, e o cabe/nao cabe bate com os 150,000.
+
+========================================================================================
+
+========================================================================================
+14. A COLUNA DE CRIACAO — a metade que abre a rota de Arma de Fogo
+========================================================================================
+  armas com preco de criacao: 7
+  razao criacao/mercado     : 1/2 para todas as 7
+  [x] 14.1 a coluna e derivada: uma razao so, lida da tabela.
+  piso de arma branca/escudo: 108,000
+  [x] 14.2 nenhuma arma de fogo desce abaixo de arma branca ou escudo.
+  cabem em 150,000 na criacao: ['Espingarda', 'Pistola', 'Revólver']
+  [x] 14.3 3 entram e 4 ficam fora: a criacao escolhe.
+  a peca diz que abrem   : {'Grau 4': 3, 'Grau 3': 6, 'Grau 2': 7}
+  a conta contra a peca 12: {'Grau 4': 3, 'Grau 3': 6, 'Grau 2': 7}
+  [x] 14.5 o degrau em que cada arma abre bate com a peca 12.
+  [x] 14.4 duas armas de fogo nunca cabem juntas no dinheiro inicial.
+
+========================================================================================
+15. O PESO — o `Volume` sai das propriedades que o SS5.3 ja publica
+========================================================================================
+  [x] o limite 5 + Força, a 12 kg cada, da 60 a 132 kg.
+  [x] as 52 celulas da coluna `Volume` batem com a regua.
+  [x] a regua reconstroi o catalogo: 17 leves, 14 de 1, 21 de 2.
+  [x] as 52 celulas do capitulo 50 do livro batem com a mesma regua.
+  [x] a escada do uniforme sobe: Traje 1 2% · Traje 2 20% · Traje 3 25% · Revestimento 1 25% · Revestimento 2 33% · Revestimento 3 36%
+  [x] o uniforme e o escudo do livro batem com a peca, degrau a degrau.
+  [x] o Revestimento 3 em 4 sai da media 36% dos sistemas de limite unico.
+>>> TUDO OK — toda arma fecha o fundo, a matriz so tem as dominancias
+    declaradas, o teto de Defesa e derivado dos tres donos e nenhuma
+    montagem de equipamento passa da rota que nao usa equipamento.
+========================================================================================

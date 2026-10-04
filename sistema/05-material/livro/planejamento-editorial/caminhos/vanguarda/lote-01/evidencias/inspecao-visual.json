@@ -1,0 +1,166 @@
+{
+  "sha256_pdf": "8833082ea50f001bdbd154d08388b44d136ebceabdbae1957173f3acaa97da31",
+  "metodo": "Vinte páginas inspecionadas. Após correções independentes, páginas 4, 5, 13, 16 e 18 reinspecionadas; igualdade de pixels comprovada nas outras quinze.",
+  "paginas": [
+    {
+      "pagina": 1,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, exemplos e limites completos e legíveis.",
+      "sha256_png": "b67270a21492339fcb5c9881d18b20749fe84aa1a7ba6c424bc009582b7d635f",
+      "pixels_iguais_rodada_anterior": true,
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 2,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, exemplos e limites completos e legíveis.",
+      "sha256_png": "51e1ea11bba084f8a06ad2c19ae2f3bc2158c2f6f721f155598df6d99fecaf59",
+      "pixels_iguais_rodada_anterior": true,
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 3,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, exemplos e limites completos e legíveis.",
+      "sha256_png": "84837caff2353a6ad8c0375e8ef20c880ec37df82c46ff0164949f5ccf6c523d",
+      "pixels_iguais_rodada_anterior": true,
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 4,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, exemplos e limites completos e legíveis.",
+      "sha256_png": "7c3a2c58e4780f45b205746e79850a19c31ec11e5d1a5bf598b5519271d10324",
+      "pixels_iguais_rodada_anterior": false,
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 5,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, exemplos e limites completos e legíveis.",
+      "sha256_png": "17980625597c86c81b0a42fe1c26db9f625f1dc228834c3be5e80ba81f20a9ce",
+      "pixels_iguais_rodada_anterior": false,
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 6,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, exemplos e limites completos e legíveis.",
+      "sha256_png": "31aa01abb7c1736526fc650ad59e4b849595b02eaf9180865ca32792ea188e62",
+      "pixels_iguais_rodada_anterior": true,
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 7,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, exemplos e limites completos e legíveis.",
+      "sha256_png": "6e6f21cc04a3801ab7debfcd6dd8d59634ce98c1e445109282a0370fdc2c2b09",
+      "pixels_iguais_rodada_anterior": true,
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 8,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, exemplos e limites completos e legíveis.",
+      "sha256_png": "9f68c6a67b457c7a725c28f65ee84fcb9d4662985a835b710ac7f0cb9e890179",
+      "pixels_iguais_rodada_anterior": true,
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 9,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, exemplos e limites completos e legíveis.",
+      "sha256_png": "d24e0d8a512fc5221d0ea66d72a22baf49d81a98966d49f13eb2ce9345fbdca0",
+      "pixels_iguais_rodada_anterior": true,
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 10,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, exemplos e limites completos e legíveis.",
+      "sha256_png": "0fa80f31c8a68ae553564cecd8db64e80c1d910fd2962094282cdc6821e1d834",
+      "pixels_iguais_rodada_anterior": true,
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 11,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, exemplos e limites completos e legíveis.",
+      "sha256_png": "deab43b0cf7710751e36d291897bc0f00b38a979de12212130c26896f37fb049",
+      "pixels_iguais_rodada_anterior": true,
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 12,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, exemplos e limites completos e legíveis.",
+      "sha256_png": "9a0ceba9396c6673a776891772f7a704c3e06b12796c325b116cbd91cdd6aee2",
+      "pixels_iguais_rodada_anterior": true,
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 13,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, exemplos e limites completos e legíveis.",
+      "sha256_png": "2b721419afc4137e9726c463fa444f2dad6408d83a1fe2b4ba349a715abc3465",
+      "pixels_iguais_rodada_anterior": false,
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 14,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, exemplos e limites completos e legíveis.",
+      "sha256_png": "e57b38759404614e1b1997408207ea2e72e45364df1905189be1c99276c99698",
+      "pixels_iguais_rodada_anterior": true,
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 15,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, exemplos e limites completos e legíveis.",
+      "sha256_png": "2989761448da9d2fdfd8cc11d4f69bb2fa7480110784da2f7067298dfe68fb68",
+      "pixels_iguais_rodada_anterior": true,
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 16,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, exemplos e limites completos e legíveis.",
+      "sha256_png": "d0725e4beb2ff66c6189630ee56634e26814064e690b8fa38a700e411fb4fdd6",
+      "pixels_iguais_rodada_anterior": false,
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 17,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, exemplos e limites completos e legíveis.",
+      "sha256_png": "e0ca73a5076f1035f81dac8c2f4e349631b09fba01b08499b3da3363a7fdd271",
+      "pixels_iguais_rodada_anterior": true,
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 18,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, exemplos e limites completos e legíveis.",
+      "sha256_png": "9a3eeb0977df0e35e0a050b6a26c40c8615111c814724378edddff96d3d49762",
+      "pixels_iguais_rodada_anterior": false,
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 19,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, exemplos e limites completos e legíveis.",
+      "sha256_png": "d5522f633295b0e02fecb69dbdd7920958e621564fef51bbebfac346e7038c11",
+      "pixels_iguais_rodada_anterior": true,
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 20,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas, exemplos e limites completos e legíveis.",
+      "sha256_png": "f2c446a36cfb279612d98a9be64cba274b26ca9624b2e988bff5eae73e5b3fbe",
+      "pixels_iguais_rodada_anterior": true,
+      "revisor": "Agente principal"
+    }
+  ]
+}

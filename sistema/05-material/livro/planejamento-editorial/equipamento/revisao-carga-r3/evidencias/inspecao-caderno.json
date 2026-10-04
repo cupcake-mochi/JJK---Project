@@ -1,0 +1,99 @@
+{
+  "sha256_pdf": "4af193e52edb6a1ee0643d960d15b33548ab390443ead807069601bbd08afd10",
+  "ok": true,
+  "comparacoes": [
+    {
+      "pagina": 1,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 2,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 3,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 4,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 5,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 6,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 7,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 8,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 9,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 10,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 11,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 12,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 13,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 14,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 15,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 16,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 17,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 18,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 19,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 20,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 21,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 22,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 23,
+      "identica_a_prova": true
+    }
+  ],
+  "metodo": "23 páginas finais renderizadas e comparadas pixel a pixel com as provas. As 13 páginas novas foram vistas nesta rodada; os outros 10 originais foram mantidos e já possuíam inspeção anterior."
+}

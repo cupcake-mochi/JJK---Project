@@ -1,0 +1,1360 @@
+{
+  "revisor": "/root/compatibilidade",
+  "escopo": "Revisão independente localizada da sincronização final, sem substituir a revisão integral do capítulo.",
+  "sha256_texto": "4ad33a8841c7b77bc38af1852b6cbd5d8eec9b4e1aff7791a1629bfb9d371831",
+  "secao": "rota-passivas-resposta",
+  "fontes": {
+    "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md": "b10dd5e5bfa90efbcc15bc52f127f8a75c14c6f639e70c44ce2f7965dd0e17ed"
+  },
+  "resultado": "apto",
+  "conclusao": "Exceção dispensa só o custo inicial e mantém janela, gatilhos, socorro, recursos e custos posteriores. 40 perfis de referência/Sequelas e casos extremos recalculados independentemente. O benefício em máximos pequenos é consequência legítima da dispensa, sem rodadas extras.",
+  "verificacoes": 129,
+  "casos": [
+    {
+      "teste": "Uma vez por descanso longo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "ao escolher **Insistir**",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "primeiro custo de vida máxima",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "1/8 do máximo de referência",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "custos posteriores e a janela de socorro continuam normais",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "não concede rodada ou ação adicional nem recupera vida ou Integridade",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "economia-inicial-1-0",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "teste": "posteriores-intactos-1-0",
+      "obtido": [
+        1,
+        1
+      ],
+      "esperado": [
+        1,
+        1
+      ],
+      "ok": true
+    },
+    {
+      "teste": "janela-intacta-1-0",
+      "obtido": 3,
+      "esperado": 3,
+      "ok": true
+    },
+    {
+      "teste": "economia-inicial-1-1",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "teste": "posteriores-intactos-1-1",
+      "obtido": [
+        1
+      ],
+      "esperado": [
+        1
+      ],
+      "ok": true
+    },
+    {
+      "teste": "janela-intacta-1-1",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "teste": "economia-inicial-1-2",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "teste": "posteriores-intactos-1-2",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "teste": "janela-intacta-1-2",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "teste": "economia-inicial-1-3",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "teste": "posteriores-intactos-1-3",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "teste": "janela-intacta-1-3",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "teste": "economia-inicial-2-0",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "teste": "posteriores-intactos-2-0",
+      "obtido": [
+        1,
+        1
+      ],
+      "esperado": [
+        1,
+        1
+      ],
+      "ok": true
+    },
+    {
+      "teste": "janela-intacta-2-0",
+      "obtido": 3,
+      "esperado": 3,
+      "ok": true
+    },
+    {
+      "teste": "economia-inicial-2-1",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "teste": "posteriores-intactos-2-1",
+      "obtido": [
+        1
+      ],
+      "esperado": [
+        1
+      ],
+      "ok": true
+    },
+    {
+      "teste": "janela-intacta-2-1",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "teste": "economia-inicial-2-2",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "teste": "posteriores-intactos-2-2",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "teste": "janela-intacta-2-2",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "teste": "economia-inicial-2-3",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "teste": "posteriores-intactos-2-3",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "teste": "janela-intacta-2-3",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "teste": "economia-inicial-7-0",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "teste": "posteriores-intactos-7-0",
+      "obtido": [
+        2,
+        4
+      ],
+      "esperado": [
+        2,
+        4
+      ],
+      "ok": true
+    },
+    {
+      "teste": "janela-intacta-7-0",
+      "obtido": 3,
+      "esperado": 3,
+      "ok": true
+    },
+    {
+      "teste": "economia-inicial-7-1",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "teste": "posteriores-intactos-7-1",
+      "obtido": [
+        2
+      ],
+      "esperado": [
+        2
+      ],
+      "ok": true
+    },
+    {
+      "teste": "janela-intacta-7-1",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "teste": "economia-inicial-7-2",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "teste": "posteriores-intactos-7-2",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "teste": "janela-intacta-7-2",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "teste": "economia-inicial-7-3",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "teste": "posteriores-intactos-7-3",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "teste": "janela-intacta-7-3",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "teste": "economia-inicial-8-0",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "teste": "posteriores-intactos-8-0",
+      "obtido": [
+        2,
+        4
+      ],
+      "esperado": [
+        2,
+        4
+      ],
+      "ok": true
+    },
+    {
+      "teste": "janela-intacta-8-0",
+      "obtido": 3,
+      "esperado": 3,
+      "ok": true
+    },
+    {
+      "teste": "economia-inicial-8-1",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "teste": "posteriores-intactos-8-1",
+      "obtido": [
+        2
+      ],
+      "esperado": [
+        2
+      ],
+      "ok": true
+    },
+    {
+      "teste": "janela-intacta-8-1",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "teste": "economia-inicial-8-2",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "teste": "posteriores-intactos-8-2",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "teste": "janela-intacta-8-2",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "teste": "economia-inicial-8-3",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "teste": "posteriores-intactos-8-3",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "teste": "janela-intacta-8-3",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "teste": "economia-inicial-9-0",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "teste": "posteriores-intactos-9-0",
+      "obtido": [
+        3,
+        5
+      ],
+      "esperado": [
+        3,
+        5
+      ],
+      "ok": true
+    },
+    {
+      "teste": "janela-intacta-9-0",
+      "obtido": 3,
+      "esperado": 3,
+      "ok": true
+    },
+    {
+      "teste": "economia-inicial-9-1",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "teste": "posteriores-intactos-9-1",
+      "obtido": [
+        3
+      ],
+      "esperado": [
+        3
+      ],
+      "ok": true
+    },
+    {
+      "teste": "janela-intacta-9-1",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "teste": "economia-inicial-9-2",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "teste": "posteriores-intactos-9-2",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "teste": "janela-intacta-9-2",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "teste": "economia-inicial-9-3",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "teste": "posteriores-intactos-9-3",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "teste": "janela-intacta-9-3",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "teste": "economia-inicial-31-0",
+      "obtido": 4,
+      "esperado": 4,
+      "ok": true
+    },
+    {
+      "teste": "posteriores-intactos-31-0",
+      "obtido": [
+        8,
+        16
+      ],
+      "esperado": [
+        8,
+        16
+      ],
+      "ok": true
+    },
+    {
+      "teste": "janela-intacta-31-0",
+      "obtido": 3,
+      "esperado": 3,
+      "ok": true
+    },
+    {
+      "teste": "economia-inicial-31-1",
+      "obtido": 4,
+      "esperado": 4,
+      "ok": true
+    },
+    {
+      "teste": "posteriores-intactos-31-1",
+      "obtido": [
+        8
+      ],
+      "esperado": [
+        8
+      ],
+      "ok": true
+    },
+    {
+      "teste": "janela-intacta-31-1",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "teste": "economia-inicial-31-2",
+      "obtido": 4,
+      "esperado": 4,
+      "ok": true
+    },
+    {
+      "teste": "posteriores-intactos-31-2",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "teste": "janela-intacta-31-2",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "teste": "economia-inicial-31-3",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "teste": "posteriores-intactos-31-3",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "teste": "janela-intacta-31-3",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "teste": "economia-inicial-79-0",
+      "obtido": 10,
+      "esperado": 10,
+      "ok": true
+    },
+    {
+      "teste": "posteriores-intactos-79-0",
+      "obtido": [
+        20,
+        40
+      ],
+      "esperado": [
+        20,
+        40
+      ],
+      "ok": true
+    },
+    {
+      "teste": "janela-intacta-79-0",
+      "obtido": 3,
+      "esperado": 3,
+      "ok": true
+    },
+    {
+      "teste": "economia-inicial-79-1",
+      "obtido": 10,
+      "esperado": 10,
+      "ok": true
+    },
+    {
+      "teste": "posteriores-intactos-79-1",
+      "obtido": [
+        20
+      ],
+      "esperado": [
+        20
+      ],
+      "ok": true
+    },
+    {
+      "teste": "janela-intacta-79-1",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "teste": "economia-inicial-79-2",
+      "obtido": 10,
+      "esperado": 10,
+      "ok": true
+    },
+    {
+      "teste": "posteriores-intactos-79-2",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "teste": "janela-intacta-79-2",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "teste": "economia-inicial-79-3",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "teste": "posteriores-intactos-79-3",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "teste": "janela-intacta-79-3",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "teste": "economia-inicial-80-0",
+      "obtido": 10,
+      "esperado": 10,
+      "ok": true
+    },
+    {
+      "teste": "posteriores-intactos-80-0",
+      "obtido": [
+        20,
+        40
+      ],
+      "esperado": [
+        20,
+        40
+      ],
+      "ok": true
+    },
+    {
+      "teste": "janela-intacta-80-0",
+      "obtido": 3,
+      "esperado": 3,
+      "ok": true
+    },
+    {
+      "teste": "economia-inicial-80-1",
+      "obtido": 10,
+      "esperado": 10,
+      "ok": true
+    },
+    {
+      "teste": "posteriores-intactos-80-1",
+      "obtido": [
+        20
+      ],
+      "esperado": [
+        20
+      ],
+      "ok": true
+    },
+    {
+      "teste": "janela-intacta-80-1",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "teste": "economia-inicial-80-2",
+      "obtido": 10,
+      "esperado": 10,
+      "ok": true
+    },
+    {
+      "teste": "posteriores-intactos-80-2",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "teste": "janela-intacta-80-2",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "teste": "economia-inicial-80-3",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "teste": "posteriores-intactos-80-3",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "teste": "janela-intacta-80-3",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "teste": "economia-inicial-81-0",
+      "obtido": 11,
+      "esperado": 11,
+      "ok": true
+    },
+    {
+      "teste": "posteriores-intactos-81-0",
+      "obtido": [
+        21,
+        41
+      ],
+      "esperado": [
+        21,
+        41
+      ],
+      "ok": true
+    },
+    {
+      "teste": "janela-intacta-81-0",
+      "obtido": 3,
+      "esperado": 3,
+      "ok": true
+    },
+    {
+      "teste": "economia-inicial-81-1",
+      "obtido": 11,
+      "esperado": 11,
+      "ok": true
+    },
+    {
+      "teste": "posteriores-intactos-81-1",
+      "obtido": [
+        21
+      ],
+      "esperado": [
+        21
+      ],
+      "ok": true
+    },
+    {
+      "teste": "janela-intacta-81-1",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "teste": "economia-inicial-81-2",
+      "obtido": 11,
+      "esperado": 11,
+      "ok": true
+    },
+    {
+      "teste": "posteriores-intactos-81-2",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "teste": "janela-intacta-81-2",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "teste": "economia-inicial-81-3",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "teste": "posteriores-intactos-81-3",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "teste": "janela-intacta-81-3",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "teste": "economia-inicial-160-0",
+      "obtido": 20,
+      "esperado": 20,
+      "ok": true
+    },
+    {
+      "teste": "posteriores-intactos-160-0",
+      "obtido": [
+        40,
+        80
+      ],
+      "esperado": [
+        40,
+        80
+      ],
+      "ok": true
+    },
+    {
+      "teste": "janela-intacta-160-0",
+      "obtido": 3,
+      "esperado": 3,
+      "ok": true
+    },
+    {
+      "teste": "economia-inicial-160-1",
+      "obtido": 20,
+      "esperado": 20,
+      "ok": true
+    },
+    {
+      "teste": "posteriores-intactos-160-1",
+      "obtido": [
+        40
+      ],
+      "esperado": [
+        40
+      ],
+      "ok": true
+    },
+    {
+      "teste": "janela-intacta-160-1",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "teste": "economia-inicial-160-2",
+      "obtido": 20,
+      "esperado": 20,
+      "ok": true
+    },
+    {
+      "teste": "posteriores-intactos-160-2",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "teste": "janela-intacta-160-2",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "teste": "economia-inicial-160-3",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "teste": "posteriores-intactos-160-3",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "teste": "janela-intacta-160-3",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "teste": "80-semsequelas",
+      "obtido": [
+        60,
+        20
+      ],
+      "esperado": [
+        60,
+        20
+      ],
+      "ok": true
+    },
+    {
+      "teste": "1-naopagasegundo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "segundaqueda-semrecuperar-uso",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    }
+  ],
+  "modelos": [
+    {
+      "referencia": 1,
+      "sequelas": 0,
+      "comum": [
+        1,
+        1,
+        1
+      ],
+      "segundo_folego": [
+        0,
+        1,
+        1
+      ],
+      "nota": "Pagamentos futuros só acontecem se ainda couberem no máximo atual, mantendo pelo menos 1."
+    },
+    {
+      "referencia": 1,
+      "sequelas": 1,
+      "comum": [
+        1,
+        1
+      ],
+      "segundo_folego": [
+        0,
+        1
+      ],
+      "nota": "Pagamentos futuros só acontecem se ainda couberem no máximo atual, mantendo pelo menos 1."
+    },
+    {
+      "referencia": 1,
+      "sequelas": 2,
+      "comum": [
+        1
+      ],
+      "segundo_folego": [
+        0
+      ],
+      "nota": "Pagamentos futuros só acontecem se ainda couberem no máximo atual, mantendo pelo menos 1."
+    },
+    {
+      "referencia": 1,
+      "sequelas": 3,
+      "comum": [],
+      "segundo_folego": [],
+      "nota": "Pagamentos futuros só acontecem se ainda couberem no máximo atual, mantendo pelo menos 1."
+    },
+    {
+      "referencia": 2,
+      "sequelas": 0,
+      "comum": [
+        1,
+        1,
+        1
+      ],
+      "segundo_folego": [
+        0,
+        1,
+        1
+      ],
+      "nota": "Pagamentos futuros só acontecem se ainda couberem no máximo atual, mantendo pelo menos 1."
+    },
+    {
+      "referencia": 2,
+      "sequelas": 1,
+      "comum": [
+        1,
+        1
+      ],
+      "segundo_folego": [
+        0,
+        1
+      ],
+      "nota": "Pagamentos futuros só acontecem se ainda couberem no máximo atual, mantendo pelo menos 1."
+    },
+    {
+      "referencia": 2,
+      "sequelas": 2,
+      "comum": [
+        1
+      ],
+      "segundo_folego": [
+        0
+      ],
+      "nota": "Pagamentos futuros só acontecem se ainda couberem no máximo atual, mantendo pelo menos 1."
+    },
+    {
+      "referencia": 2,
+      "sequelas": 3,
+      "comum": [],
+      "segundo_folego": [],
+      "nota": "Pagamentos futuros só acontecem se ainda couberem no máximo atual, mantendo pelo menos 1."
+    },
+    {
+      "referencia": 7,
+      "sequelas": 0,
+      "comum": [
+        1,
+        2,
+        4
+      ],
+      "segundo_folego": [
+        0,
+        2,
+        4
+      ],
+      "nota": "Pagamentos futuros só acontecem se ainda couberem no máximo atual, mantendo pelo menos 1."
+    },
+    {
+      "referencia": 7,
+      "sequelas": 1,
+      "comum": [
+        1,
+        2
+      ],
+      "segundo_folego": [
+        0,
+        2
+      ],
+      "nota": "Pagamentos futuros só acontecem se ainda couberem no máximo atual, mantendo pelo menos 1."
+    },
+    {
+      "referencia": 7,
+      "sequelas": 2,
+      "comum": [
+        1
+      ],
+      "segundo_folego": [
+        0
+      ],
+      "nota": "Pagamentos futuros só acontecem se ainda couberem no máximo atual, mantendo pelo menos 1."
+    },
+    {
+      "referencia": 7,
+      "sequelas": 3,
+      "comum": [],
+      "segundo_folego": [],
+      "nota": "Pagamentos futuros só acontecem se ainda couberem no máximo atual, mantendo pelo menos 1."
+    },
+    {
+      "referencia": 8,
+      "sequelas": 0,
+      "comum": [
+        1,
+        2,
+        4
+      ],
+      "segundo_folego": [
+        0,
+        2,
+        4
+      ],
+      "nota": "Pagamentos futuros só acontecem se ainda couberem no máximo atual, mantendo pelo menos 1."
+    },
+    {
+      "referencia": 8,
+      "sequelas": 1,
+      "comum": [
+        1,
+        2
+      ],
+      "segundo_folego": [
+        0,
+        2
+      ],
+      "nota": "Pagamentos futuros só acontecem se ainda couberem no máximo atual, mantendo pelo menos 1."
+    },
+    {
+      "referencia": 8,
+      "sequelas": 2,
+      "comum": [
+        1
+      ],
+      "segundo_folego": [
+        0
+      ],
+      "nota": "Pagamentos futuros só acontecem se ainda couberem no máximo atual, mantendo pelo menos 1."
+    },
+    {
+      "referencia": 8,
+      "sequelas": 3,
+      "comum": [],
+      "segundo_folego": [],
+      "nota": "Pagamentos futuros só acontecem se ainda couberem no máximo atual, mantendo pelo menos 1."
+    },
+    {
+      "referencia": 9,
+      "sequelas": 0,
+      "comum": [
+        2,
+        3,
+        5
+      ],
+      "segundo_folego": [
+        0,
+        3,
+        5
+      ],
+      "nota": "Pagamentos futuros só acontecem se ainda couberem no máximo atual, mantendo pelo menos 1."
+    },
+    {
+      "referencia": 9,
+      "sequelas": 1,
+      "comum": [
+        2,
+        3
+      ],
+      "segundo_folego": [
+        0,
+        3
+      ],
+      "nota": "Pagamentos futuros só acontecem se ainda couberem no máximo atual, mantendo pelo menos 1."
+    },
+    {
+      "referencia": 9,
+      "sequelas": 2,
+      "comum": [
+        2
+      ],
+      "segundo_folego": [
+        0
+      ],
+      "nota": "Pagamentos futuros só acontecem se ainda couberem no máximo atual, mantendo pelo menos 1."
+    },
+    {
+      "referencia": 9,
+      "sequelas": 3,
+      "comum": [],
+      "segundo_folego": [],
+      "nota": "Pagamentos futuros só acontecem se ainda couberem no máximo atual, mantendo pelo menos 1."
+    },
+    {
+      "referencia": 31,
+      "sequelas": 0,
+      "comum": [
+        4,
+        8,
+        16
+      ],
+      "segundo_folego": [
+        0,
+        8,
+        16
+      ],
+      "nota": "Pagamentos futuros só acontecem se ainda couberem no máximo atual, mantendo pelo menos 1."
+    },
+    {
+      "referencia": 31,
+      "sequelas": 1,
+      "comum": [
+        4,
+        8
+      ],
+      "segundo_folego": [
+        0,
+        8
+      ],
+      "nota": "Pagamentos futuros só acontecem se ainda couberem no máximo atual, mantendo pelo menos 1."
+    },
+    {
+      "referencia": 31,
+      "sequelas": 2,
+      "comum": [
+        4
+      ],
+      "segundo_folego": [
+        0
+      ],
+      "nota": "Pagamentos futuros só acontecem se ainda couberem no máximo atual, mantendo pelo menos 1."
+    },
+    {
+      "referencia": 31,
+      "sequelas": 3,
+      "comum": [],
+      "segundo_folego": [],
+      "nota": "Pagamentos futuros só acontecem se ainda couberem no máximo atual, mantendo pelo menos 1."
+    },
+    {
+      "referencia": 79,
+      "sequelas": 0,
+      "comum": [
+        10,
+        20,
+        40
+      ],
+      "segundo_folego": [
+        0,
+        20,
+        40
+      ],
+      "nota": "Pagamentos futuros só acontecem se ainda couberem no máximo atual, mantendo pelo menos 1."
+    },
+    {
+      "referencia": 79,
+      "sequelas": 1,
+      "comum": [
+        10,
+        20
+      ],
+      "segundo_folego": [
+        0,
+        20
+      ],
+      "nota": "Pagamentos futuros só acontecem se ainda couberem no máximo atual, mantendo pelo menos 1."
+    },
+    {
+      "referencia": 79,
+      "sequelas": 2,
+      "comum": [
+        10
+      ],
+      "segundo_folego": [
+        0
+      ],
+      "nota": "Pagamentos futuros só acontecem se ainda couberem no máximo atual, mantendo pelo menos 1."
+    },
+    {
+      "referencia": 79,
+      "sequelas": 3,
+      "comum": [],
+      "segundo_folego": [],
+      "nota": "Pagamentos futuros só acontecem se ainda couberem no máximo atual, mantendo pelo menos 1."
+    },
+    {
+      "referencia": 80,
+      "sequelas": 0,
+      "comum": [
+        10,
+        20,
+        40
+      ],
+      "segundo_folego": [
+        0,
+        20,
+        40
+      ],
+      "nota": "Pagamentos futuros só acontecem se ainda couberem no máximo atual, mantendo pelo menos 1."
+    },
+    {
+      "referencia": 80,
+      "sequelas": 1,
+      "comum": [
+        10,
+        20
+      ],
+      "segundo_folego": [
+        0,
+        20
+      ],
+      "nota": "Pagamentos futuros só acontecem se ainda couberem no máximo atual, mantendo pelo menos 1."
+    },
+    {
+      "referencia": 80,
+      "sequelas": 2,
+      "comum": [
+        10
+      ],
+      "segundo_folego": [
+        0
+      ],
+      "nota": "Pagamentos futuros só acontecem se ainda couberem no máximo atual, mantendo pelo menos 1."
+    },
+    {
+      "referencia": 80,
+      "sequelas": 3,
+      "comum": [],
+      "segundo_folego": [],
+      "nota": "Pagamentos futuros só acontecem se ainda couberem no máximo atual, mantendo pelo menos 1."
+    },
+    {
+      "referencia": 81,
+      "sequelas": 0,
+      "comum": [
+        11,
+        21,
+        41
+      ],
+      "segundo_folego": [
+        0,
+        21,
+        41
+      ],
+      "nota": "Pagamentos futuros só acontecem se ainda couberem no máximo atual, mantendo pelo menos 1."
+    },
+    {
+      "referencia": 81,
+      "sequelas": 1,
+      "comum": [
+        11,
+        21
+      ],
+      "segundo_folego": [
+        0,
+        21
+      ],
+      "nota": "Pagamentos futuros só acontecem se ainda couberem no máximo atual, mantendo pelo menos 1."
+    },
+    {
+      "referencia": 81,
+      "sequelas": 2,
+      "comum": [
+        11
+      ],
+      "segundo_folego": [
+        0
+      ],
+      "nota": "Pagamentos futuros só acontecem se ainda couberem no máximo atual, mantendo pelo menos 1."
+    },
+    {
+      "referencia": 81,
+      "sequelas": 3,
+      "comum": [],
+      "segundo_folego": [],
+      "nota": "Pagamentos futuros só acontecem se ainda couberem no máximo atual, mantendo pelo menos 1."
+    },
+    {
+      "referencia": 160,
+      "sequelas": 0,
+      "comum": [
+        20,
+        40,
+        80
+      ],
+      "segundo_folego": [
+        0,
+        40,
+        80
+      ],
+      "nota": "Pagamentos futuros só acontecem se ainda couberem no máximo atual, mantendo pelo menos 1."
+    },
+    {
+      "referencia": 160,
+      "sequelas": 1,
+      "comum": [
+        20,
+        40
+      ],
+      "segundo_folego": [
+        0,
+        40
+      ],
+      "nota": "Pagamentos futuros só acontecem se ainda couberem no máximo atual, mantendo pelo menos 1."
+    },
+    {
+      "referencia": 160,
+      "sequelas": 2,
+      "comum": [
+        20
+      ],
+      "segundo_folego": [
+        0
+      ],
+      "nota": "Pagamentos futuros só acontecem se ainda couberem no máximo atual, mantendo pelo menos 1."
+    },
+    {
+      "referencia": 160,
+      "sequelas": 3,
+      "comum": [],
+      "segundo_folego": [],
+      "nota": "Pagamentos futuros só acontecem se ainda couberem no máximo atual, mantendo pelo menos 1."
+    }
+  ],
+  "limites": [
+    "Sem playtest ou leitura humana.",
+    "Inspeção visual do delta e comparação de pixels executadas pelo autor, documentadas em SINCRONIZACAO-FINAL; não são atribuídas a esta revisão."
+  ]
+}

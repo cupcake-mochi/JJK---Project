@@ -1,0 +1,2773 @@
+{
+  "sha256_texto": "89a3f7bb705a7c931a3c69f4f051fb98d62acbc065ffa42dc48275f00e2afec1",
+  "armas": 52,
+  "leves": [
+    "Besta de Uma Mão",
+    "Canivete",
+    "Cassetete",
+    "Chakram",
+    "Chicote",
+    "Faca",
+    "Kunai",
+    "Manriki",
+    "Pistola",
+    "Punhal",
+    "Revólver",
+    "Sai",
+    "Shuriken",
+    "Soqueira",
+    "Tanto",
+    "Tekko",
+    "Tessen",
+    "Tonfa",
+    "Wakizashi"
+  ],
+  "elegiveis": [
+    "Canivete",
+    "Faca",
+    "Punhal",
+    "Sai",
+    "Tanto",
+    "Katana",
+    "Rapieira",
+    "Wakizashi",
+    "Cassetete",
+    "Tonfa",
+    "Soqueira",
+    "Tekko",
+    "Chicote",
+    "Manriki",
+    "Chakram",
+    "Kunai",
+    "Shuriken",
+    "Tessen",
+    "Besta de Uma Mão",
+    "Pistola",
+    "Revólver"
+  ],
+  "modelos_par": [
+    {
+      "dados": "1d4",
+      "normal": 2.5,
+      "par": 3.125,
+      "ganho": 0.625
+    },
+    {
+      "dados": "1d6",
+      "normal": 3.5,
+      "par": 4.472222222222222,
+      "ganho": 0.9722222222222222
+    },
+    {
+      "dados": "1d8",
+      "normal": 4.5,
+      "par": 5.8125,
+      "ganho": 1.3125
+    },
+    {
+      "dados": "1d10",
+      "normal": 5.5,
+      "par": 7.15,
+      "ganho": 1.65
+    },
+    {
+      "dados": "1d12",
+      "normal": 6.5,
+      "par": 8.48611111111111,
+      "ganho": 1.9861111111111112
+    },
+    {
+      "dados": "2d6",
+      "normal": 7.0,
+      "par": 8.371913580246913,
+      "ganho": 1.3719135802469136
+    },
+    {
+      "dados": "2d8",
+      "normal": 9.0,
+      "par": 10.845703125,
+      "ganho": 1.845703125
+    },
+    {
+      "dados": "2d10",
+      "normal": 11.0,
+      "par": 13.3166,
+      "ganho": 2.3166
+    },
+    {
+      "dados": "4d6",
+      "normal": 14.0,
+      "par": 15.933358577198598,
+      "ganho": 1.9333585771985977
+    },
+    {
+      "dados": "4d8",
+      "normal": 18.0,
+      "par": 20.59748935699463,
+      "ganho": 2.597489356994629
+    },
+    {
+      "dados": "4d10",
+      "normal": 22.0,
+      "par": 25.2581846,
+      "ganho": 3.2581846
+    }
+  ],
+  "transicoes_municao": 3848,
+  "conjuntos_itens": 6561,
+  "conjuntos_permitidos": 74,
+  "matriz_carga": 142688,
+  "perfis_utilizaveis": 52556,
+  "probabilidade_recarga": {
+    "vantagem": "1/100",
+    "desvantagem": "19/100"
+  },
+  "defesas_TR": [
+    {
+      "dados": 1,
+      "diferenca": -10,
+      "normal": 3.825,
+      "quebranto": 0.0,
+      "anatema": 3.25125
+    },
+    {
+      "dados": 1,
+      "diferenca": -9,
+      "normal": 3.6,
+      "quebranto": 0.0,
+      "anatema": 2.88
+    },
+    {
+      "dados": 1,
+      "diferenca": -8,
+      "normal": 3.375,
+      "quebranto": 0.0,
+      "anatema": 2.53125
+    },
+    {
+      "dados": 1,
+      "diferenca": -7,
+      "normal": 3.15,
+      "quebranto": 0.0,
+      "anatema": 2.205
+    },
+    {
+      "dados": 1,
+      "diferenca": -6,
+      "normal": 2.925,
+      "quebranto": 0.0,
+      "anatema": 1.90125
+    },
+    {
+      "dados": 1,
+      "diferenca": -5,
+      "normal": 2.7,
+      "quebranto": 0.0,
+      "anatema": 1.62
+    },
+    {
+      "dados": 1,
+      "diferenca": -4,
+      "normal": 2.475,
+      "quebranto": 0.0,
+      "anatema": 1.36125
+    },
+    {
+      "dados": 1,
+      "diferenca": -3,
+      "normal": 2.25,
+      "quebranto": 0.0,
+      "anatema": 1.125
+    },
+    {
+      "dados": 1,
+      "diferenca": -2,
+      "normal": 2.025,
+      "quebranto": 0.0,
+      "anatema": 0.91125
+    },
+    {
+      "dados": 1,
+      "diferenca": -1,
+      "normal": 1.8,
+      "quebranto": 0.0,
+      "anatema": 0.72
+    },
+    {
+      "dados": 1,
+      "diferenca": 0,
+      "normal": 1.575,
+      "quebranto": 0.0,
+      "anatema": 0.55125
+    },
+    {
+      "dados": 1,
+      "diferenca": 1,
+      "normal": 1.35,
+      "quebranto": 0.0,
+      "anatema": 0.405
+    },
+    {
+      "dados": 1,
+      "diferenca": 2,
+      "normal": 1.125,
+      "quebranto": 0.0,
+      "anatema": 0.28125
+    },
+    {
+      "dados": 1,
+      "diferenca": 3,
+      "normal": 0.9,
+      "quebranto": 0.0,
+      "anatema": 0.18
+    },
+    {
+      "dados": 1,
+      "diferenca": 4,
+      "normal": 0.675,
+      "quebranto": 0.0,
+      "anatema": 0.10125
+    },
+    {
+      "dados": 1,
+      "diferenca": 5,
+      "normal": 0.45,
+      "quebranto": 0.0,
+      "anatema": 0.045
+    },
+    {
+      "dados": 1,
+      "diferenca": 6,
+      "normal": 0.225,
+      "quebranto": 0.0,
+      "anatema": 0.01125
+    },
+    {
+      "dados": 1,
+      "diferenca": 7,
+      "normal": 0.0,
+      "quebranto": 0.0,
+      "anatema": 0.0
+    },
+    {
+      "dados": 1,
+      "diferenca": 8,
+      "normal": 0.0,
+      "quebranto": 0.0,
+      "anatema": 0.0
+    },
+    {
+      "dados": 1,
+      "diferenca": 9,
+      "normal": 0.0,
+      "quebranto": 0.0,
+      "anatema": 0.0
+    },
+    {
+      "dados": 1,
+      "diferenca": 10,
+      "normal": 0.0,
+      "quebranto": 0.0,
+      "anatema": 0.0
+    },
+    {
+      "dados": 2,
+      "diferenca": -10,
+      "normal": 8.325,
+      "quebranto": 4.5,
+      "anatema": 7.07625
+    },
+    {
+      "dados": 2,
+      "diferenca": -9,
+      "normal": 8.1,
+      "quebranto": 4.5,
+      "anatema": 6.48
+    },
+    {
+      "dados": 2,
+      "diferenca": -8,
+      "normal": 7.875,
+      "quebranto": 4.5,
+      "anatema": 5.90625
+    },
+    {
+      "dados": 2,
+      "diferenca": -7,
+      "normal": 7.65,
+      "quebranto": 4.5,
+      "anatema": 5.355
+    },
+    {
+      "dados": 2,
+      "diferenca": -6,
+      "normal": 7.425,
+      "quebranto": 4.5,
+      "anatema": 4.82625
+    },
+    {
+      "dados": 2,
+      "diferenca": -5,
+      "normal": 7.2,
+      "quebranto": 4.5,
+      "anatema": 4.32
+    },
+    {
+      "dados": 2,
+      "diferenca": -4,
+      "normal": 6.975,
+      "quebranto": 4.5,
+      "anatema": 3.83625
+    },
+    {
+      "dados": 2,
+      "diferenca": -3,
+      "normal": 6.75,
+      "quebranto": 4.5,
+      "anatema": 3.375
+    },
+    {
+      "dados": 2,
+      "diferenca": -2,
+      "normal": 6.525,
+      "quebranto": 4.5,
+      "anatema": 2.93625
+    },
+    {
+      "dados": 2,
+      "diferenca": -1,
+      "normal": 6.3,
+      "quebranto": 4.5,
+      "anatema": 2.52
+    },
+    {
+      "dados": 2,
+      "diferenca": 0,
+      "normal": 6.075,
+      "quebranto": 4.5,
+      "anatema": 2.12625
+    },
+    {
+      "dados": 2,
+      "diferenca": 1,
+      "normal": 5.85,
+      "quebranto": 4.5,
+      "anatema": 1.755
+    },
+    {
+      "dados": 2,
+      "diferenca": 2,
+      "normal": 5.625,
+      "quebranto": 4.5,
+      "anatema": 1.40625
+    },
+    {
+      "dados": 2,
+      "diferenca": 3,
+      "normal": 5.4,
+      "quebranto": 4.5,
+      "anatema": 1.08
+    },
+    {
+      "dados": 2,
+      "diferenca": 4,
+      "normal": 5.175,
+      "quebranto": 4.5,
+      "anatema": 0.77625
+    },
+    {
+      "dados": 2,
+      "diferenca": 5,
+      "normal": 4.95,
+      "quebranto": 4.5,
+      "anatema": 0.495
+    },
+    {
+      "dados": 2,
+      "diferenca": 6,
+      "normal": 4.725,
+      "quebranto": 4.5,
+      "anatema": 0.23625
+    },
+    {
+      "dados": 2,
+      "diferenca": 7,
+      "normal": 4.5,
+      "quebranto": 4.5,
+      "anatema": 0.0
+    },
+    {
+      "dados": 2,
+      "diferenca": 8,
+      "normal": 4.5,
+      "quebranto": 4.5,
+      "anatema": 0.0
+    },
+    {
+      "dados": 2,
+      "diferenca": 9,
+      "normal": 4.5,
+      "quebranto": 4.5,
+      "anatema": 0.0
+    },
+    {
+      "dados": 2,
+      "diferenca": 10,
+      "normal": 4.5,
+      "quebranto": 4.5,
+      "anatema": 0.0
+    },
+    {
+      "dados": 3,
+      "diferenca": -10,
+      "normal": 12.15,
+      "quebranto": 4.5,
+      "anatema": 10.3275
+    },
+    {
+      "dados": 3,
+      "diferenca": -9,
+      "normal": 11.7,
+      "quebranto": 4.5,
+      "anatema": 9.36
+    },
+    {
+      "dados": 3,
+      "diferenca": -8,
+      "normal": 11.25,
+      "quebranto": 4.5,
+      "anatema": 8.4375
+    },
+    {
+      "dados": 3,
+      "diferenca": -7,
+      "normal": 10.8,
+      "quebranto": 4.5,
+      "anatema": 7.56
+    },
+    {
+      "dados": 3,
+      "diferenca": -6,
+      "normal": 10.35,
+      "quebranto": 4.5,
+      "anatema": 6.7275
+    },
+    {
+      "dados": 3,
+      "diferenca": -5,
+      "normal": 9.9,
+      "quebranto": 4.5,
+      "anatema": 5.94
+    },
+    {
+      "dados": 3,
+      "diferenca": -4,
+      "normal": 9.45,
+      "quebranto": 4.5,
+      "anatema": 5.1975
+    },
+    {
+      "dados": 3,
+      "diferenca": -3,
+      "normal": 9.0,
+      "quebranto": 4.5,
+      "anatema": 4.5
+    },
+    {
+      "dados": 3,
+      "diferenca": -2,
+      "normal": 8.55,
+      "quebranto": 4.5,
+      "anatema": 3.8475
+    },
+    {
+      "dados": 3,
+      "diferenca": -1,
+      "normal": 8.1,
+      "quebranto": 4.5,
+      "anatema": 3.24
+    },
+    {
+      "dados": 3,
+      "diferenca": 0,
+      "normal": 7.65,
+      "quebranto": 4.5,
+      "anatema": 2.6775
+    },
+    {
+      "dados": 3,
+      "diferenca": 1,
+      "normal": 7.2,
+      "quebranto": 4.5,
+      "anatema": 2.16
+    },
+    {
+      "dados": 3,
+      "diferenca": 2,
+      "normal": 6.75,
+      "quebranto": 4.5,
+      "anatema": 1.6875
+    },
+    {
+      "dados": 3,
+      "diferenca": 3,
+      "normal": 6.3,
+      "quebranto": 4.5,
+      "anatema": 1.26
+    },
+    {
+      "dados": 3,
+      "diferenca": 4,
+      "normal": 5.85,
+      "quebranto": 4.5,
+      "anatema": 0.8775
+    },
+    {
+      "dados": 3,
+      "diferenca": 5,
+      "normal": 5.4,
+      "quebranto": 4.5,
+      "anatema": 0.54
+    },
+    {
+      "dados": 3,
+      "diferenca": 6,
+      "normal": 4.95,
+      "quebranto": 4.5,
+      "anatema": 0.2475
+    },
+    {
+      "dados": 3,
+      "diferenca": 7,
+      "normal": 4.5,
+      "quebranto": 4.5,
+      "anatema": 0.0
+    },
+    {
+      "dados": 3,
+      "diferenca": 8,
+      "normal": 4.5,
+      "quebranto": 4.5,
+      "anatema": 0.0
+    },
+    {
+      "dados": 3,
+      "diferenca": 9,
+      "normal": 4.5,
+      "quebranto": 4.5,
+      "anatema": 0.0
+    },
+    {
+      "dados": 3,
+      "diferenca": 10,
+      "normal": 4.5,
+      "quebranto": 4.5,
+      "anatema": 0.0
+    },
+    {
+      "dados": 4,
+      "diferenca": -10,
+      "normal": 16.65,
+      "quebranto": 9.0,
+      "anatema": 14.1525
+    },
+    {
+      "dados": 4,
+      "diferenca": -9,
+      "normal": 16.2,
+      "quebranto": 9.0,
+      "anatema": 12.96
+    },
+    {
+      "dados": 4,
+      "diferenca": -8,
+      "normal": 15.75,
+      "quebranto": 9.0,
+      "anatema": 11.8125
+    },
+    {
+      "dados": 4,
+      "diferenca": -7,
+      "normal": 15.3,
+      "quebranto": 9.0,
+      "anatema": 10.71
+    },
+    {
+      "dados": 4,
+      "diferenca": -6,
+      "normal": 14.85,
+      "quebranto": 9.0,
+      "anatema": 9.6525
+    },
+    {
+      "dados": 4,
+      "diferenca": -5,
+      "normal": 14.4,
+      "quebranto": 9.0,
+      "anatema": 8.64
+    },
+    {
+      "dados": 4,
+      "diferenca": -4,
+      "normal": 13.95,
+      "quebranto": 9.0,
+      "anatema": 7.6725
+    },
+    {
+      "dados": 4,
+      "diferenca": -3,
+      "normal": 13.5,
+      "quebranto": 9.0,
+      "anatema": 6.75
+    },
+    {
+      "dados": 4,
+      "diferenca": -2,
+      "normal": 13.05,
+      "quebranto": 9.0,
+      "anatema": 5.8725
+    },
+    {
+      "dados": 4,
+      "diferenca": -1,
+      "normal": 12.6,
+      "quebranto": 9.0,
+      "anatema": 5.04
+    },
+    {
+      "dados": 4,
+      "diferenca": 0,
+      "normal": 12.15,
+      "quebranto": 9.0,
+      "anatema": 4.2525
+    },
+    {
+      "dados": 4,
+      "diferenca": 1,
+      "normal": 11.7,
+      "quebranto": 9.0,
+      "anatema": 3.51
+    },
+    {
+      "dados": 4,
+      "diferenca": 2,
+      "normal": 11.25,
+      "quebranto": 9.0,
+      "anatema": 2.8125
+    },
+    {
+      "dados": 4,
+      "diferenca": 3,
+      "normal": 10.8,
+      "quebranto": 9.0,
+      "anatema": 2.16
+    },
+    {
+      "dados": 4,
+      "diferenca": 4,
+      "normal": 10.35,
+      "quebranto": 9.0,
+      "anatema": 1.5525
+    },
+    {
+      "dados": 4,
+      "diferenca": 5,
+      "normal": 9.9,
+      "quebranto": 9.0,
+      "anatema": 0.99
+    },
+    {
+      "dados": 4,
+      "diferenca": 6,
+      "normal": 9.45,
+      "quebranto": 9.0,
+      "anatema": 0.4725
+    },
+    {
+      "dados": 4,
+      "diferenca": 7,
+      "normal": 9.0,
+      "quebranto": 9.0,
+      "anatema": 0.0
+    },
+    {
+      "dados": 4,
+      "diferenca": 8,
+      "normal": 9.0,
+      "quebranto": 9.0,
+      "anatema": 0.0
+    },
+    {
+      "dados": 4,
+      "diferenca": 9,
+      "normal": 9.0,
+      "quebranto": 9.0,
+      "anatema": 0.0
+    },
+    {
+      "dados": 4,
+      "diferenca": 10,
+      "normal": 9.0,
+      "quebranto": 9.0,
+      "anatema": 0.0
+    },
+    {
+      "dados": 5,
+      "diferenca": -10,
+      "normal": 20.475,
+      "quebranto": 9.0,
+      "anatema": 17.40375
+    },
+    {
+      "dados": 5,
+      "diferenca": -9,
+      "normal": 19.8,
+      "quebranto": 9.0,
+      "anatema": 15.84
+    },
+    {
+      "dados": 5,
+      "diferenca": -8,
+      "normal": 19.125,
+      "quebranto": 9.0,
+      "anatema": 14.34375
+    },
+    {
+      "dados": 5,
+      "diferenca": -7,
+      "normal": 18.45,
+      "quebranto": 9.0,
+      "anatema": 12.915
+    },
+    {
+      "dados": 5,
+      "diferenca": -6,
+      "normal": 17.775,
+      "quebranto": 9.0,
+      "anatema": 11.55375
+    },
+    {
+      "dados": 5,
+      "diferenca": -5,
+      "normal": 17.1,
+      "quebranto": 9.0,
+      "anatema": 10.26
+    },
+    {
+      "dados": 5,
+      "diferenca": -4,
+      "normal": 16.425,
+      "quebranto": 9.0,
+      "anatema": 9.03375
+    },
+    {
+      "dados": 5,
+      "diferenca": -3,
+      "normal": 15.75,
+      "quebranto": 9.0,
+      "anatema": 7.875
+    },
+    {
+      "dados": 5,
+      "diferenca": -2,
+      "normal": 15.075,
+      "quebranto": 9.0,
+      "anatema": 6.78375
+    },
+    {
+      "dados": 5,
+      "diferenca": -1,
+      "normal": 14.4,
+      "quebranto": 9.0,
+      "anatema": 5.76
+    },
+    {
+      "dados": 5,
+      "diferenca": 0,
+      "normal": 13.725,
+      "quebranto": 9.0,
+      "anatema": 4.80375
+    },
+    {
+      "dados": 5,
+      "diferenca": 1,
+      "normal": 13.05,
+      "quebranto": 9.0,
+      "anatema": 3.915
+    },
+    {
+      "dados": 5,
+      "diferenca": 2,
+      "normal": 12.375,
+      "quebranto": 9.0,
+      "anatema": 3.09375
+    },
+    {
+      "dados": 5,
+      "diferenca": 3,
+      "normal": 11.7,
+      "quebranto": 9.0,
+      "anatema": 2.34
+    },
+    {
+      "dados": 5,
+      "diferenca": 4,
+      "normal": 11.025,
+      "quebranto": 9.0,
+      "anatema": 1.65375
+    },
+    {
+      "dados": 5,
+      "diferenca": 5,
+      "normal": 10.35,
+      "quebranto": 9.0,
+      "anatema": 1.035
+    },
+    {
+      "dados": 5,
+      "diferenca": 6,
+      "normal": 9.675,
+      "quebranto": 9.0,
+      "anatema": 0.48375
+    },
+    {
+      "dados": 5,
+      "diferenca": 7,
+      "normal": 9.0,
+      "quebranto": 9.0,
+      "anatema": 0.0
+    },
+    {
+      "dados": 5,
+      "diferenca": 8,
+      "normal": 9.0,
+      "quebranto": 9.0,
+      "anatema": 0.0
+    },
+    {
+      "dados": 5,
+      "diferenca": 9,
+      "normal": 9.0,
+      "quebranto": 9.0,
+      "anatema": 0.0
+    },
+    {
+      "dados": 5,
+      "diferenca": 10,
+      "normal": 9.0,
+      "quebranto": 9.0,
+      "anatema": 0.0
+    },
+    {
+      "dados": 6,
+      "diferenca": -10,
+      "normal": 24.975,
+      "quebranto": 13.5,
+      "anatema": 21.22875
+    },
+    {
+      "dados": 6,
+      "diferenca": -9,
+      "normal": 24.3,
+      "quebranto": 13.5,
+      "anatema": 19.44
+    },
+    {
+      "dados": 6,
+      "diferenca": -8,
+      "normal": 23.625,
+      "quebranto": 13.5,
+      "anatema": 17.71875
+    },
+    {
+      "dados": 6,
+      "diferenca": -7,
+      "normal": 22.95,
+      "quebranto": 13.5,
+      "anatema": 16.065
+    },
+    {
+      "dados": 6,
+      "diferenca": -6,
+      "normal": 22.275,
+      "quebranto": 13.5,
+      "anatema": 14.47875
+    },
+    {
+      "dados": 6,
+      "diferenca": -5,
+      "normal": 21.6,
+      "quebranto": 13.5,
+      "anatema": 12.96
+    },
+    {
+      "dados": 6,
+      "diferenca": -4,
+      "normal": 20.925,
+      "quebranto": 13.5,
+      "anatema": 11.50875
+    },
+    {
+      "dados": 6,
+      "diferenca": -3,
+      "normal": 20.25,
+      "quebranto": 13.5,
+      "anatema": 10.125
+    },
+    {
+      "dados": 6,
+      "diferenca": -2,
+      "normal": 19.575,
+      "quebranto": 13.5,
+      "anatema": 8.80875
+    },
+    {
+      "dados": 6,
+      "diferenca": -1,
+      "normal": 18.9,
+      "quebranto": 13.5,
+      "anatema": 7.56
+    },
+    {
+      "dados": 6,
+      "diferenca": 0,
+      "normal": 18.225,
+      "quebranto": 13.5,
+      "anatema": 6.37875
+    },
+    {
+      "dados": 6,
+      "diferenca": 1,
+      "normal": 17.55,
+      "quebranto": 13.5,
+      "anatema": 5.265
+    },
+    {
+      "dados": 6,
+      "diferenca": 2,
+      "normal": 16.875,
+      "quebranto": 13.5,
+      "anatema": 4.21875
+    },
+    {
+      "dados": 6,
+      "diferenca": 3,
+      "normal": 16.2,
+      "quebranto": 13.5,
+      "anatema": 3.24
+    },
+    {
+      "dados": 6,
+      "diferenca": 4,
+      "normal": 15.525,
+      "quebranto": 13.5,
+      "anatema": 2.32875
+    },
+    {
+      "dados": 6,
+      "diferenca": 5,
+      "normal": 14.85,
+      "quebranto": 13.5,
+      "anatema": 1.485
+    },
+    {
+      "dados": 6,
+      "diferenca": 6,
+      "normal": 14.175,
+      "quebranto": 13.5,
+      "anatema": 0.70875
+    },
+    {
+      "dados": 6,
+      "diferenca": 7,
+      "normal": 13.5,
+      "quebranto": 13.5,
+      "anatema": 0.0
+    },
+    {
+      "dados": 6,
+      "diferenca": 8,
+      "normal": 13.5,
+      "quebranto": 13.5,
+      "anatema": 0.0
+    },
+    {
+      "dados": 6,
+      "diferenca": 9,
+      "normal": 13.5,
+      "quebranto": 13.5,
+      "anatema": 0.0
+    },
+    {
+      "dados": 6,
+      "diferenca": 10,
+      "normal": 13.5,
+      "quebranto": 13.5,
+      "anatema": 0.0
+    },
+    {
+      "dados": 7,
+      "diferenca": -10,
+      "normal": 28.8,
+      "quebranto": 13.5,
+      "anatema": 24.48
+    },
+    {
+      "dados": 7,
+      "diferenca": -9,
+      "normal": 27.9,
+      "quebranto": 13.5,
+      "anatema": 22.32
+    },
+    {
+      "dados": 7,
+      "diferenca": -8,
+      "normal": 27.0,
+      "quebranto": 13.5,
+      "anatema": 20.25
+    },
+    {
+      "dados": 7,
+      "diferenca": -7,
+      "normal": 26.1,
+      "quebranto": 13.5,
+      "anatema": 18.27
+    },
+    {
+      "dados": 7,
+      "diferenca": -6,
+      "normal": 25.2,
+      "quebranto": 13.5,
+      "anatema": 16.38
+    },
+    {
+      "dados": 7,
+      "diferenca": -5,
+      "normal": 24.3,
+      "quebranto": 13.5,
+      "anatema": 14.58
+    },
+    {
+      "dados": 7,
+      "diferenca": -4,
+      "normal": 23.4,
+      "quebranto": 13.5,
+      "anatema": 12.87
+    },
+    {
+      "dados": 7,
+      "diferenca": -3,
+      "normal": 22.5,
+      "quebranto": 13.5,
+      "anatema": 11.25
+    },
+    {
+      "dados": 7,
+      "diferenca": -2,
+      "normal": 21.6,
+      "quebranto": 13.5,
+      "anatema": 9.72
+    },
+    {
+      "dados": 7,
+      "diferenca": -1,
+      "normal": 20.7,
+      "quebranto": 13.5,
+      "anatema": 8.28
+    },
+    {
+      "dados": 7,
+      "diferenca": 0,
+      "normal": 19.8,
+      "quebranto": 13.5,
+      "anatema": 6.93
+    },
+    {
+      "dados": 7,
+      "diferenca": 1,
+      "normal": 18.9,
+      "quebranto": 13.5,
+      "anatema": 5.67
+    },
+    {
+      "dados": 7,
+      "diferenca": 2,
+      "normal": 18.0,
+      "quebranto": 13.5,
+      "anatema": 4.5
+    },
+    {
+      "dados": 7,
+      "diferenca": 3,
+      "normal": 17.1,
+      "quebranto": 13.5,
+      "anatema": 3.42
+    },
+    {
+      "dados": 7,
+      "diferenca": 4,
+      "normal": 16.2,
+      "quebranto": 13.5,
+      "anatema": 2.43
+    },
+    {
+      "dados": 7,
+      "diferenca": 5,
+      "normal": 15.3,
+      "quebranto": 13.5,
+      "anatema": 1.53
+    },
+    {
+      "dados": 7,
+      "diferenca": 6,
+      "normal": 14.4,
+      "quebranto": 13.5,
+      "anatema": 0.72
+    },
+    {
+      "dados": 7,
+      "diferenca": 7,
+      "normal": 13.5,
+      "quebranto": 13.5,
+      "anatema": 0.0
+    },
+    {
+      "dados": 7,
+      "diferenca": 8,
+      "normal": 13.5,
+      "quebranto": 13.5,
+      "anatema": 0.0
+    },
+    {
+      "dados": 7,
+      "diferenca": 9,
+      "normal": 13.5,
+      "quebranto": 13.5,
+      "anatema": 0.0
+    },
+    {
+      "dados": 7,
+      "diferenca": 10,
+      "normal": 13.5,
+      "quebranto": 13.5,
+      "anatema": 0.0
+    },
+    {
+      "dados": 8,
+      "diferenca": -10,
+      "normal": 33.3,
+      "quebranto": 18.0,
+      "anatema": 28.305
+    },
+    {
+      "dados": 8,
+      "diferenca": -9,
+      "normal": 32.4,
+      "quebranto": 18.0,
+      "anatema": 25.92
+    },
+    {
+      "dados": 8,
+      "diferenca": -8,
+      "normal": 31.5,
+      "quebranto": 18.0,
+      "anatema": 23.625
+    },
+    {
+      "dados": 8,
+      "diferenca": -7,
+      "normal": 30.6,
+      "quebranto": 18.0,
+      "anatema": 21.42
+    },
+    {
+      "dados": 8,
+      "diferenca": -6,
+      "normal": 29.7,
+      "quebranto": 18.0,
+      "anatema": 19.305
+    },
+    {
+      "dados": 8,
+      "diferenca": -5,
+      "normal": 28.8,
+      "quebranto": 18.0,
+      "anatema": 17.28
+    },
+    {
+      "dados": 8,
+      "diferenca": -4,
+      "normal": 27.9,
+      "quebranto": 18.0,
+      "anatema": 15.345
+    },
+    {
+      "dados": 8,
+      "diferenca": -3,
+      "normal": 27.0,
+      "quebranto": 18.0,
+      "anatema": 13.5
+    },
+    {
+      "dados": 8,
+      "diferenca": -2,
+      "normal": 26.1,
+      "quebranto": 18.0,
+      "anatema": 11.745
+    },
+    {
+      "dados": 8,
+      "diferenca": -1,
+      "normal": 25.2,
+      "quebranto": 18.0,
+      "anatema": 10.08
+    },
+    {
+      "dados": 8,
+      "diferenca": 0,
+      "normal": 24.3,
+      "quebranto": 18.0,
+      "anatema": 8.505
+    },
+    {
+      "dados": 8,
+      "diferenca": 1,
+      "normal": 23.4,
+      "quebranto": 18.0,
+      "anatema": 7.02
+    },
+    {
+      "dados": 8,
+      "diferenca": 2,
+      "normal": 22.5,
+      "quebranto": 18.0,
+      "anatema": 5.625
+    },
+    {
+      "dados": 8,
+      "diferenca": 3,
+      "normal": 21.6,
+      "quebranto": 18.0,
+      "anatema": 4.32
+    },
+    {
+      "dados": 8,
+      "diferenca": 4,
+      "normal": 20.7,
+      "quebranto": 18.0,
+      "anatema": 3.105
+    },
+    {
+      "dados": 8,
+      "diferenca": 5,
+      "normal": 19.8,
+      "quebranto": 18.0,
+      "anatema": 1.98
+    },
+    {
+      "dados": 8,
+      "diferenca": 6,
+      "normal": 18.9,
+      "quebranto": 18.0,
+      "anatema": 0.945
+    },
+    {
+      "dados": 8,
+      "diferenca": 7,
+      "normal": 18.0,
+      "quebranto": 18.0,
+      "anatema": 0.0
+    },
+    {
+      "dados": 8,
+      "diferenca": 8,
+      "normal": 18.0,
+      "quebranto": 18.0,
+      "anatema": 0.0
+    },
+    {
+      "dados": 8,
+      "diferenca": 9,
+      "normal": 18.0,
+      "quebranto": 18.0,
+      "anatema": 0.0
+    },
+    {
+      "dados": 8,
+      "diferenca": 10,
+      "normal": 18.0,
+      "quebranto": 18.0,
+      "anatema": 0.0
+    },
+    {
+      "dados": 9,
+      "diferenca": -10,
+      "normal": 37.125,
+      "quebranto": 18.0,
+      "anatema": 31.55625
+    },
+    {
+      "dados": 9,
+      "diferenca": -9,
+      "normal": 36.0,
+      "quebranto": 18.0,
+      "anatema": 28.8
+    },
+    {
+      "dados": 9,
+      "diferenca": -8,
+      "normal": 34.875,
+      "quebranto": 18.0,
+      "anatema": 26.15625
+    },
+    {
+      "dados": 9,
+      "diferenca": -7,
+      "normal": 33.75,
+      "quebranto": 18.0,
+      "anatema": 23.625
+    },
+    {
+      "dados": 9,
+      "diferenca": -6,
+      "normal": 32.625,
+      "quebranto": 18.0,
+      "anatema": 21.20625
+    },
+    {
+      "dados": 9,
+      "diferenca": -5,
+      "normal": 31.5,
+      "quebranto": 18.0,
+      "anatema": 18.9
+    },
+    {
+      "dados": 9,
+      "diferenca": -4,
+      "normal": 30.375,
+      "quebranto": 18.0,
+      "anatema": 16.70625
+    },
+    {
+      "dados": 9,
+      "diferenca": -3,
+      "normal": 29.25,
+      "quebranto": 18.0,
+      "anatema": 14.625
+    },
+    {
+      "dados": 9,
+      "diferenca": -2,
+      "normal": 28.125,
+      "quebranto": 18.0,
+      "anatema": 12.65625
+    },
+    {
+      "dados": 9,
+      "diferenca": -1,
+      "normal": 27.0,
+      "quebranto": 18.0,
+      "anatema": 10.8
+    },
+    {
+      "dados": 9,
+      "diferenca": 0,
+      "normal": 25.875,
+      "quebranto": 18.0,
+      "anatema": 9.05625
+    },
+    {
+      "dados": 9,
+      "diferenca": 1,
+      "normal": 24.75,
+      "quebranto": 18.0,
+      "anatema": 7.425
+    },
+    {
+      "dados": 9,
+      "diferenca": 2,
+      "normal": 23.625,
+      "quebranto": 18.0,
+      "anatema": 5.90625
+    },
+    {
+      "dados": 9,
+      "diferenca": 3,
+      "normal": 22.5,
+      "quebranto": 18.0,
+      "anatema": 4.5
+    },
+    {
+      "dados": 9,
+      "diferenca": 4,
+      "normal": 21.375,
+      "quebranto": 18.0,
+      "anatema": 3.20625
+    },
+    {
+      "dados": 9,
+      "diferenca": 5,
+      "normal": 20.25,
+      "quebranto": 18.0,
+      "anatema": 2.025
+    },
+    {
+      "dados": 9,
+      "diferenca": 6,
+      "normal": 19.125,
+      "quebranto": 18.0,
+      "anatema": 0.95625
+    },
+    {
+      "dados": 9,
+      "diferenca": 7,
+      "normal": 18.0,
+      "quebranto": 18.0,
+      "anatema": 0.0
+    },
+    {
+      "dados": 9,
+      "diferenca": 8,
+      "normal": 18.0,
+      "quebranto": 18.0,
+      "anatema": 0.0
+    },
+    {
+      "dados": 9,
+      "diferenca": 9,
+      "normal": 18.0,
+      "quebranto": 18.0,
+      "anatema": 0.0
+    },
+    {
+      "dados": 9,
+      "diferenca": 10,
+      "normal": 18.0,
+      "quebranto": 18.0,
+      "anatema": 0.0
+    },
+    {
+      "dados": 10,
+      "diferenca": -10,
+      "normal": 41.625,
+      "quebranto": 22.5,
+      "anatema": 35.38125
+    },
+    {
+      "dados": 10,
+      "diferenca": -9,
+      "normal": 40.5,
+      "quebranto": 22.5,
+      "anatema": 32.4
+    },
+    {
+      "dados": 10,
+      "diferenca": -8,
+      "normal": 39.375,
+      "quebranto": 22.5,
+      "anatema": 29.53125
+    },
+    {
+      "dados": 10,
+      "diferenca": -7,
+      "normal": 38.25,
+      "quebranto": 22.5,
+      "anatema": 26.775
+    },
+    {
+      "dados": 10,
+      "diferenca": -6,
+      "normal": 37.125,
+      "quebranto": 22.5,
+      "anatema": 24.13125
+    },
+    {
+      "dados": 10,
+      "diferenca": -5,
+      "normal": 36.0,
+      "quebranto": 22.5,
+      "anatema": 21.6
+    },
+    {
+      "dados": 10,
+      "diferenca": -4,
+      "normal": 34.875,
+      "quebranto": 22.5,
+      "anatema": 19.18125
+    },
+    {
+      "dados": 10,
+      "diferenca": -3,
+      "normal": 33.75,
+      "quebranto": 22.5,
+      "anatema": 16.875
+    },
+    {
+      "dados": 10,
+      "diferenca": -2,
+      "normal": 32.625,
+      "quebranto": 22.5,
+      "anatema": 14.68125
+    },
+    {
+      "dados": 10,
+      "diferenca": -1,
+      "normal": 31.5,
+      "quebranto": 22.5,
+      "anatema": 12.6
+    },
+    {
+      "dados": 10,
+      "diferenca": 0,
+      "normal": 30.375,
+      "quebranto": 22.5,
+      "anatema": 10.63125
+    },
+    {
+      "dados": 10,
+      "diferenca": 1,
+      "normal": 29.25,
+      "quebranto": 22.5,
+      "anatema": 8.775
+    },
+    {
+      "dados": 10,
+      "diferenca": 2,
+      "normal": 28.125,
+      "quebranto": 22.5,
+      "anatema": 7.03125
+    },
+    {
+      "dados": 10,
+      "diferenca": 3,
+      "normal": 27.0,
+      "quebranto": 22.5,
+      "anatema": 5.4
+    },
+    {
+      "dados": 10,
+      "diferenca": 4,
+      "normal": 25.875,
+      "quebranto": 22.5,
+      "anatema": 3.88125
+    },
+    {
+      "dados": 10,
+      "diferenca": 5,
+      "normal": 24.75,
+      "quebranto": 22.5,
+      "anatema": 2.475
+    },
+    {
+      "dados": 10,
+      "diferenca": 6,
+      "normal": 23.625,
+      "quebranto": 22.5,
+      "anatema": 1.18125
+    },
+    {
+      "dados": 10,
+      "diferenca": 7,
+      "normal": 22.5,
+      "quebranto": 22.5,
+      "anatema": 0.0
+    },
+    {
+      "dados": 10,
+      "diferenca": 8,
+      "normal": 22.5,
+      "quebranto": 22.5,
+      "anatema": 0.0
+    },
+    {
+      "dados": 10,
+      "diferenca": 9,
+      "normal": 22.5,
+      "quebranto": 22.5,
+      "anatema": 0.0
+    },
+    {
+      "dados": 10,
+      "diferenca": 10,
+      "normal": 22.5,
+      "quebranto": 22.5,
+      "anatema": 0.0
+    },
+    {
+      "dados": 11,
+      "diferenca": -10,
+      "normal": 45.45,
+      "quebranto": 22.5,
+      "anatema": 38.6325
+    },
+    {
+      "dados": 11,
+      "diferenca": -9,
+      "normal": 44.1,
+      "quebranto": 22.5,
+      "anatema": 35.28
+    },
+    {
+      "dados": 11,
+      "diferenca": -8,
+      "normal": 42.75,
+      "quebranto": 22.5,
+      "anatema": 32.0625
+    },
+    {
+      "dados": 11,
+      "diferenca": -7,
+      "normal": 41.4,
+      "quebranto": 22.5,
+      "anatema": 28.98
+    },
+    {
+      "dados": 11,
+      "diferenca": -6,
+      "normal": 40.05,
+      "quebranto": 22.5,
+      "anatema": 26.0325
+    },
+    {
+      "dados": 11,
+      "diferenca": -5,
+      "normal": 38.7,
+      "quebranto": 22.5,
+      "anatema": 23.22
+    },
+    {
+      "dados": 11,
+      "diferenca": -4,
+      "normal": 37.35,
+      "quebranto": 22.5,
+      "anatema": 20.5425
+    },
+    {
+      "dados": 11,
+      "diferenca": -3,
+      "normal": 36.0,
+      "quebranto": 22.5,
+      "anatema": 18.0
+    },
+    {
+      "dados": 11,
+      "diferenca": -2,
+      "normal": 34.65,
+      "quebranto": 22.5,
+      "anatema": 15.5925
+    },
+    {
+      "dados": 11,
+      "diferenca": -1,
+      "normal": 33.3,
+      "quebranto": 22.5,
+      "anatema": 13.32
+    },
+    {
+      "dados": 11,
+      "diferenca": 0,
+      "normal": 31.95,
+      "quebranto": 22.5,
+      "anatema": 11.1825
+    },
+    {
+      "dados": 11,
+      "diferenca": 1,
+      "normal": 30.6,
+      "quebranto": 22.5,
+      "anatema": 9.18
+    },
+    {
+      "dados": 11,
+      "diferenca": 2,
+      "normal": 29.25,
+      "quebranto": 22.5,
+      "anatema": 7.3125
+    },
+    {
+      "dados": 11,
+      "diferenca": 3,
+      "normal": 27.9,
+      "quebranto": 22.5,
+      "anatema": 5.58
+    },
+    {
+      "dados": 11,
+      "diferenca": 4,
+      "normal": 26.55,
+      "quebranto": 22.5,
+      "anatema": 3.9825
+    },
+    {
+      "dados": 11,
+      "diferenca": 5,
+      "normal": 25.2,
+      "quebranto": 22.5,
+      "anatema": 2.52
+    },
+    {
+      "dados": 11,
+      "diferenca": 6,
+      "normal": 23.85,
+      "quebranto": 22.5,
+      "anatema": 1.1925
+    },
+    {
+      "dados": 11,
+      "diferenca": 7,
+      "normal": 22.5,
+      "quebranto": 22.5,
+      "anatema": 0.0
+    },
+    {
+      "dados": 11,
+      "diferenca": 8,
+      "normal": 22.5,
+      "quebranto": 22.5,
+      "anatema": 0.0
+    },
+    {
+      "dados": 11,
+      "diferenca": 9,
+      "normal": 22.5,
+      "quebranto": 22.5,
+      "anatema": 0.0
+    },
+    {
+      "dados": 11,
+      "diferenca": 10,
+      "normal": 22.5,
+      "quebranto": 22.5,
+      "anatema": 0.0
+    },
+    {
+      "dados": 12,
+      "diferenca": -10,
+      "normal": 49.95,
+      "quebranto": 27.0,
+      "anatema": 42.4575
+    },
+    {
+      "dados": 12,
+      "diferenca": -9,
+      "normal": 48.6,
+      "quebranto": 27.0,
+      "anatema": 38.88
+    },
+    {
+      "dados": 12,
+      "diferenca": -8,
+      "normal": 47.25,
+      "quebranto": 27.0,
+      "anatema": 35.4375
+    },
+    {
+      "dados": 12,
+      "diferenca": -7,
+      "normal": 45.9,
+      "quebranto": 27.0,
+      "anatema": 32.13
+    },
+    {
+      "dados": 12,
+      "diferenca": -6,
+      "normal": 44.55,
+      "quebranto": 27.0,
+      "anatema": 28.9575
+    },
+    {
+      "dados": 12,
+      "diferenca": -5,
+      "normal": 43.2,
+      "quebranto": 27.0,
+      "anatema": 25.92
+    },
+    {
+      "dados": 12,
+      "diferenca": -4,
+      "normal": 41.85,
+      "quebranto": 27.0,
+      "anatema": 23.0175
+    },
+    {
+      "dados": 12,
+      "diferenca": -3,
+      "normal": 40.5,
+      "quebranto": 27.0,
+      "anatema": 20.25
+    },
+    {
+      "dados": 12,
+      "diferenca": -2,
+      "normal": 39.15,
+      "quebranto": 27.0,
+      "anatema": 17.6175
+    },
+    {
+      "dados": 12,
+      "diferenca": -1,
+      "normal": 37.8,
+      "quebranto": 27.0,
+      "anatema": 15.12
+    },
+    {
+      "dados": 12,
+      "diferenca": 0,
+      "normal": 36.45,
+      "quebranto": 27.0,
+      "anatema": 12.7575
+    },
+    {
+      "dados": 12,
+      "diferenca": 1,
+      "normal": 35.1,
+      "quebranto": 27.0,
+      "anatema": 10.53
+    },
+    {
+      "dados": 12,
+      "diferenca": 2,
+      "normal": 33.75,
+      "quebranto": 27.0,
+      "anatema": 8.4375
+    },
+    {
+      "dados": 12,
+      "diferenca": 3,
+      "normal": 32.4,
+      "quebranto": 27.0,
+      "anatema": 6.48
+    },
+    {
+      "dados": 12,
+      "diferenca": 4,
+      "normal": 31.05,
+      "quebranto": 27.0,
+      "anatema": 4.6575
+    },
+    {
+      "dados": 12,
+      "diferenca": 5,
+      "normal": 29.7,
+      "quebranto": 27.0,
+      "anatema": 2.97
+    },
+    {
+      "dados": 12,
+      "diferenca": 6,
+      "normal": 28.35,
+      "quebranto": 27.0,
+      "anatema": 1.4175
+    },
+    {
+      "dados": 12,
+      "diferenca": 7,
+      "normal": 27.0,
+      "quebranto": 27.0,
+      "anatema": 0.0
+    },
+    {
+      "dados": 12,
+      "diferenca": 8,
+      "normal": 27.0,
+      "quebranto": 27.0,
+      "anatema": 0.0
+    },
+    {
+      "dados": 12,
+      "diferenca": 9,
+      "normal": 27.0,
+      "quebranto": 27.0,
+      "anatema": 0.0
+    },
+    {
+      "dados": 12,
+      "diferenca": 10,
+      "normal": 27.0,
+      "quebranto": 27.0,
+      "anatema": 0.0
+    },
+    {
+      "dados": 13,
+      "diferenca": -10,
+      "normal": 53.775,
+      "quebranto": 27.0,
+      "anatema": 45.70875
+    },
+    {
+      "dados": 13,
+      "diferenca": -9,
+      "normal": 52.2,
+      "quebranto": 27.0,
+      "anatema": 41.76
+    },
+    {
+      "dados": 13,
+      "diferenca": -8,
+      "normal": 50.625,
+      "quebranto": 27.0,
+      "anatema": 37.96875
+    },
+    {
+      "dados": 13,
+      "diferenca": -7,
+      "normal": 49.05,
+      "quebranto": 27.0,
+      "anatema": 34.335
+    },
+    {
+      "dados": 13,
+      "diferenca": -6,
+      "normal": 47.475,
+      "quebranto": 27.0,
+      "anatema": 30.85875
+    },
+    {
+      "dados": 13,
+      "diferenca": -5,
+      "normal": 45.9,
+      "quebranto": 27.0,
+      "anatema": 27.54
+    },
+    {
+      "dados": 13,
+      "diferenca": -4,
+      "normal": 44.325,
+      "quebranto": 27.0,
+      "anatema": 24.37875
+    },
+    {
+      "dados": 13,
+      "diferenca": -3,
+      "normal": 42.75,
+      "quebranto": 27.0,
+      "anatema": 21.375
+    },
+    {
+      "dados": 13,
+      "diferenca": -2,
+      "normal": 41.175,
+      "quebranto": 27.0,
+      "anatema": 18.52875
+    },
+    {
+      "dados": 13,
+      "diferenca": -1,
+      "normal": 39.6,
+      "quebranto": 27.0,
+      "anatema": 15.84
+    },
+    {
+      "dados": 13,
+      "diferenca": 0,
+      "normal": 38.025,
+      "quebranto": 27.0,
+      "anatema": 13.30875
+    },
+    {
+      "dados": 13,
+      "diferenca": 1,
+      "normal": 36.45,
+      "quebranto": 27.0,
+      "anatema": 10.935
+    },
+    {
+      "dados": 13,
+      "diferenca": 2,
+      "normal": 34.875,
+      "quebranto": 27.0,
+      "anatema": 8.71875
+    },
+    {
+      "dados": 13,
+      "diferenca": 3,
+      "normal": 33.3,
+      "quebranto": 27.0,
+      "anatema": 6.66
+    },
+    {
+      "dados": 13,
+      "diferenca": 4,
+      "normal": 31.725,
+      "quebranto": 27.0,
+      "anatema": 4.75875
+    },
+    {
+      "dados": 13,
+      "diferenca": 5,
+      "normal": 30.15,
+      "quebranto": 27.0,
+      "anatema": 3.015
+    },
+    {
+      "dados": 13,
+      "diferenca": 6,
+      "normal": 28.575,
+      "quebranto": 27.0,
+      "anatema": 1.42875
+    },
+    {
+      "dados": 13,
+      "diferenca": 7,
+      "normal": 27.0,
+      "quebranto": 27.0,
+      "anatema": 0.0
+    },
+    {
+      "dados": 13,
+      "diferenca": 8,
+      "normal": 27.0,
+      "quebranto": 27.0,
+      "anatema": 0.0
+    },
+    {
+      "dados": 13,
+      "diferenca": 9,
+      "normal": 27.0,
+      "quebranto": 27.0,
+      "anatema": 0.0
+    },
+    {
+      "dados": 13,
+      "diferenca": 10,
+      "normal": 27.0,
+      "quebranto": 27.0,
+      "anatema": 0.0
+    },
+    {
+      "dados": 14,
+      "diferenca": -10,
+      "normal": 58.275,
+      "quebranto": 31.5,
+      "anatema": 49.53375
+    },
+    {
+      "dados": 14,
+      "diferenca": -9,
+      "normal": 56.7,
+      "quebranto": 31.5,
+      "anatema": 45.36
+    },
+    {
+      "dados": 14,
+      "diferenca": -8,
+      "normal": 55.125,
+      "quebranto": 31.5,
+      "anatema": 41.34375
+    },
+    {
+      "dados": 14,
+      "diferenca": -7,
+      "normal": 53.55,
+      "quebranto": 31.5,
+      "anatema": 37.485
+    },
+    {
+      "dados": 14,
+      "diferenca": -6,
+      "normal": 51.975,
+      "quebranto": 31.5,
+      "anatema": 33.78375
+    },
+    {
+      "dados": 14,
+      "diferenca": -5,
+      "normal": 50.4,
+      "quebranto": 31.5,
+      "anatema": 30.24
+    },
+    {
+      "dados": 14,
+      "diferenca": -4,
+      "normal": 48.825,
+      "quebranto": 31.5,
+      "anatema": 26.85375
+    },
+    {
+      "dados": 14,
+      "diferenca": -3,
+      "normal": 47.25,
+      "quebranto": 31.5,
+      "anatema": 23.625
+    },
+    {
+      "dados": 14,
+      "diferenca": -2,
+      "normal": 45.675,
+      "quebranto": 31.5,
+      "anatema": 20.55375
+    },
+    {
+      "dados": 14,
+      "diferenca": -1,
+      "normal": 44.1,
+      "quebranto": 31.5,
+      "anatema": 17.64
+    },
+    {
+      "dados": 14,
+      "diferenca": 0,
+      "normal": 42.525,
+      "quebranto": 31.5,
+      "anatema": 14.88375
+    },
+    {
+      "dados": 14,
+      "diferenca": 1,
+      "normal": 40.95,
+      "quebranto": 31.5,
+      "anatema": 12.285
+    },
+    {
+      "dados": 14,
+      "diferenca": 2,
+      "normal": 39.375,
+      "quebranto": 31.5,
+      "anatema": 9.84375
+    },
+    {
+      "dados": 14,
+      "diferenca": 3,
+      "normal": 37.8,
+      "quebranto": 31.5,
+      "anatema": 7.56
+    },
+    {
+      "dados": 14,
+      "diferenca": 4,
+      "normal": 36.225,
+      "quebranto": 31.5,
+      "anatema": 5.43375
+    },
+    {
+      "dados": 14,
+      "diferenca": 5,
+      "normal": 34.65,
+      "quebranto": 31.5,
+      "anatema": 3.465
+    },
+    {
+      "dados": 14,
+      "diferenca": 6,
+      "normal": 33.075,
+      "quebranto": 31.5,
+      "anatema": 1.65375
+    },
+    {
+      "dados": 14,
+      "diferenca": 7,
+      "normal": 31.5,
+      "quebranto": 31.5,
+      "anatema": 0.0
+    },
+    {
+      "dados": 14,
+      "diferenca": 8,
+      "normal": 31.5,
+      "quebranto": 31.5,
+      "anatema": 0.0
+    },
+    {
+      "dados": 14,
+      "diferenca": 9,
+      "normal": 31.5,
+      "quebranto": 31.5,
+      "anatema": 0.0
+    },
+    {
+      "dados": 14,
+      "diferenca": 10,
+      "normal": 31.5,
+      "quebranto": 31.5,
+      "anatema": 0.0
+    },
+    {
+      "dados": 15,
+      "diferenca": -10,
+      "normal": 62.1,
+      "quebranto": 31.5,
+      "anatema": 52.785
+    },
+    {
+      "dados": 15,
+      "diferenca": -9,
+      "normal": 60.3,
+      "quebranto": 31.5,
+      "anatema": 48.24
+    },
+    {
+      "dados": 15,
+      "diferenca": -8,
+      "normal": 58.5,
+      "quebranto": 31.5,
+      "anatema": 43.875
+    },
+    {
+      "dados": 15,
+      "diferenca": -7,
+      "normal": 56.7,
+      "quebranto": 31.5,
+      "anatema": 39.69
+    },
+    {
+      "dados": 15,
+      "diferenca": -6,
+      "normal": 54.9,
+      "quebranto": 31.5,
+      "anatema": 35.685
+    },
+    {
+      "dados": 15,
+      "diferenca": -5,
+      "normal": 53.1,
+      "quebranto": 31.5,
+      "anatema": 31.86
+    },
+    {
+      "dados": 15,
+      "diferenca": -4,
+      "normal": 51.3,
+      "quebranto": 31.5,
+      "anatema": 28.215
+    },
+    {
+      "dados": 15,
+      "diferenca": -3,
+      "normal": 49.5,
+      "quebranto": 31.5,
+      "anatema": 24.75
+    },
+    {
+      "dados": 15,
+      "diferenca": -2,
+      "normal": 47.7,
+      "quebranto": 31.5,
+      "anatema": 21.465
+    },
+    {
+      "dados": 15,
+      "diferenca": -1,
+      "normal": 45.9,
+      "quebranto": 31.5,
+      "anatema": 18.36
+    },
+    {
+      "dados": 15,
+      "diferenca": 0,
+      "normal": 44.1,
+      "quebranto": 31.5,
+      "anatema": 15.435
+    },
+    {
+      "dados": 15,
+      "diferenca": 1,
+      "normal": 42.3,
+      "quebranto": 31.5,
+      "anatema": 12.69
+    },
+    {
+      "dados": 15,
+      "diferenca": 2,
+      "normal": 40.5,
+      "quebranto": 31.5,
+      "anatema": 10.125
+    },
+    {
+      "dados": 15,
+      "diferenca": 3,
+      "normal": 38.7,
+      "quebranto": 31.5,
+      "anatema": 7.74
+    },
+    {
+      "dados": 15,
+      "diferenca": 4,
+      "normal": 36.9,
+      "quebranto": 31.5,
+      "anatema": 5.535
+    },
+    {
+      "dados": 15,
+      "diferenca": 5,
+      "normal": 35.1,
+      "quebranto": 31.5,
+      "anatema": 3.51
+    },
+    {
+      "dados": 15,
+      "diferenca": 6,
+      "normal": 33.3,
+      "quebranto": 31.5,
+      "anatema": 1.665
+    },
+    {
+      "dados": 15,
+      "diferenca": 7,
+      "normal": 31.5,
+      "quebranto": 31.5,
+      "anatema": 0.0
+    },
+    {
+      "dados": 15,
+      "diferenca": 8,
+      "normal": 31.5,
+      "quebranto": 31.5,
+      "anatema": 0.0
+    },
+    {
+      "dados": 15,
+      "diferenca": 9,
+      "normal": 31.5,
+      "quebranto": 31.5,
+      "anatema": 0.0
+    },
+    {
+      "dados": 15,
+      "diferenca": 10,
+      "normal": 31.5,
+      "quebranto": 31.5,
+      "anatema": 0.0
+    },
+    {
+      "dados": 16,
+      "diferenca": -10,
+      "normal": 66.6,
+      "quebranto": 36.0,
+      "anatema": 56.61
+    },
+    {
+      "dados": 16,
+      "diferenca": -9,
+      "normal": 64.8,
+      "quebranto": 36.0,
+      "anatema": 51.84
+    },
+    {
+      "dados": 16,
+      "diferenca": -8,
+      "normal": 63.0,
+      "quebranto": 36.0,
+      "anatema": 47.25
+    },
+    {
+      "dados": 16,
+      "diferenca": -7,
+      "normal": 61.2,
+      "quebranto": 36.0,
+      "anatema": 42.84
+    },
+    {
+      "dados": 16,
+      "diferenca": -6,
+      "normal": 59.4,
+      "quebranto": 36.0,
+      "anatema": 38.61
+    },
+    {
+      "dados": 16,
+      "diferenca": -5,
+      "normal": 57.6,
+      "quebranto": 36.0,
+      "anatema": 34.56
+    },
+    {
+      "dados": 16,
+      "diferenca": -4,
+      "normal": 55.8,
+      "quebranto": 36.0,
+      "anatema": 30.69
+    },
+    {
+      "dados": 16,
+      "diferenca": -3,
+      "normal": 54.0,
+      "quebranto": 36.0,
+      "anatema": 27.0
+    },
+    {
+      "dados": 16,
+      "diferenca": -2,
+      "normal": 52.2,
+      "quebranto": 36.0,
+      "anatema": 23.49
+    },
+    {
+      "dados": 16,
+      "diferenca": -1,
+      "normal": 50.4,
+      "quebranto": 36.0,
+      "anatema": 20.16
+    },
+    {
+      "dados": 16,
+      "diferenca": 0,
+      "normal": 48.6,
+      "quebranto": 36.0,
+      "anatema": 17.01
+    },
+    {
+      "dados": 16,
+      "diferenca": 1,
+      "normal": 46.8,
+      "quebranto": 36.0,
+      "anatema": 14.04
+    },
+    {
+      "dados": 16,
+      "diferenca": 2,
+      "normal": 45.0,
+      "quebranto": 36.0,
+      "anatema": 11.25
+    },
+    {
+      "dados": 16,
+      "diferenca": 3,
+      "normal": 43.2,
+      "quebranto": 36.0,
+      "anatema": 8.64
+    },
+    {
+      "dados": 16,
+      "diferenca": 4,
+      "normal": 41.4,
+      "quebranto": 36.0,
+      "anatema": 6.21
+    },
+    {
+      "dados": 16,
+      "diferenca": 5,
+      "normal": 39.6,
+      "quebranto": 36.0,
+      "anatema": 3.96
+    },
+    {
+      "dados": 16,
+      "diferenca": 6,
+      "normal": 37.8,
+      "quebranto": 36.0,
+      "anatema": 1.89
+    },
+    {
+      "dados": 16,
+      "diferenca": 7,
+      "normal": 36.0,
+      "quebranto": 36.0,
+      "anatema": 0.0
+    },
+    {
+      "dados": 16,
+      "diferenca": 8,
+      "normal": 36.0,
+      "quebranto": 36.0,
+      "anatema": 0.0
+    },
+    {
+      "dados": 16,
+      "diferenca": 9,
+      "normal": 36.0,
+      "quebranto": 36.0,
+      "anatema": 0.0
+    },
+    {
+      "dados": 16,
+      "diferenca": 10,
+      "normal": 36.0,
+      "quebranto": 36.0,
+      "anatema": 0.0
+    },
+    {
+      "dados": 17,
+      "diferenca": -10,
+      "normal": 70.425,
+      "quebranto": 36.0,
+      "anatema": 59.86125
+    },
+    {
+      "dados": 17,
+      "diferenca": -9,
+      "normal": 68.4,
+      "quebranto": 36.0,
+      "anatema": 54.72
+    },
+    {
+      "dados": 17,
+      "diferenca": -8,
+      "normal": 66.375,
+      "quebranto": 36.0,
+      "anatema": 49.78125
+    },
+    {
+      "dados": 17,
+      "diferenca": -7,
+      "normal": 64.35,
+      "quebranto": 36.0,
+      "anatema": 45.045
+    },
+    {
+      "dados": 17,
+      "diferenca": -6,
+      "normal": 62.325,
+      "quebranto": 36.0,
+      "anatema": 40.51125
+    },
+    {
+      "dados": 17,
+      "diferenca": -5,
+      "normal": 60.3,
+      "quebranto": 36.0,
+      "anatema": 36.18
+    },
+    {
+      "dados": 17,
+      "diferenca": -4,
+      "normal": 58.275,
+      "quebranto": 36.0,
+      "anatema": 32.05125
+    },
+    {
+      "dados": 17,
+      "diferenca": -3,
+      "normal": 56.25,
+      "quebranto": 36.0,
+      "anatema": 28.125
+    },
+    {
+      "dados": 17,
+      "diferenca": -2,
+      "normal": 54.225,
+      "quebranto": 36.0,
+      "anatema": 24.40125
+    },
+    {
+      "dados": 17,
+      "diferenca": -1,
+      "normal": 52.2,
+      "quebranto": 36.0,
+      "anatema": 20.88
+    },
+    {
+      "dados": 17,
+      "diferenca": 0,
+      "normal": 50.175,
+      "quebranto": 36.0,
+      "anatema": 17.56125
+    },
+    {
+      "dados": 17,
+      "diferenca": 1,
+      "normal": 48.15,
+      "quebranto": 36.0,
+      "anatema": 14.445
+    },
+    {
+      "dados": 17,
+      "diferenca": 2,
+      "normal": 46.125,
+      "quebranto": 36.0,
+      "anatema": 11.53125
+    },
+    {
+      "dados": 17,
+      "diferenca": 3,
+      "normal": 44.1,
+      "quebranto": 36.0,
+      "anatema": 8.82
+    },
+    {
+      "dados": 17,
+      "diferenca": 4,
+      "normal": 42.075,
+      "quebranto": 36.0,
+      "anatema": 6.31125
+    },
+    {
+      "dados": 17,
+      "diferenca": 5,
+      "normal": 40.05,
+      "quebranto": 36.0,
+      "anatema": 4.005
+    },
+    {
+      "dados": 17,
+      "diferenca": 6,
+      "normal": 38.025,
+      "quebranto": 36.0,
+      "anatema": 1.90125
+    },
+    {
+      "dados": 17,
+      "diferenca": 7,
+      "normal": 36.0,
+      "quebranto": 36.0,
+      "anatema": 0.0
+    },
+    {
+      "dados": 17,
+      "diferenca": 8,
+      "normal": 36.0,
+      "quebranto": 36.0,
+      "anatema": 0.0
+    },
+    {
+      "dados": 17,
+      "diferenca": 9,
+      "normal": 36.0,
+      "quebranto": 36.0,
+      "anatema": 0.0
+    },
+    {
+      "dados": 17,
+      "diferenca": 10,
+      "normal": 36.0,
+      "quebranto": 36.0,
+      "anatema": 0.0
+    },
+    {
+      "dados": 18,
+      "diferenca": -10,
+      "normal": 74.925,
+      "quebranto": 40.5,
+      "anatema": 63.68625
+    },
+    {
+      "dados": 18,
+      "diferenca": -9,
+      "normal": 72.9,
+      "quebranto": 40.5,
+      "anatema": 58.32
+    },
+    {
+      "dados": 18,
+      "diferenca": -8,
+      "normal": 70.875,
+      "quebranto": 40.5,
+      "anatema": 53.15625
+    },
+    {
+      "dados": 18,
+      "diferenca": -7,
+      "normal": 68.85,
+      "quebranto": 40.5,
+      "anatema": 48.195
+    },
+    {
+      "dados": 18,
+      "diferenca": -6,
+      "normal": 66.825,
+      "quebranto": 40.5,
+      "anatema": 43.43625
+    },
+    {
+      "dados": 18,
+      "diferenca": -5,
+      "normal": 64.8,
+      "quebranto": 40.5,
+      "anatema": 38.88
+    },
+    {
+      "dados": 18,
+      "diferenca": -4,
+      "normal": 62.775,
+      "quebranto": 40.5,
+      "anatema": 34.52625
+    },
+    {
+      "dados": 18,
+      "diferenca": -3,
+      "normal": 60.75,
+      "quebranto": 40.5,
+      "anatema": 30.375
+    },
+    {
+      "dados": 18,
+      "diferenca": -2,
+      "normal": 58.725,
+      "quebranto": 40.5,
+      "anatema": 26.42625
+    },
+    {
+      "dados": 18,
+      "diferenca": -1,
+      "normal": 56.7,
+      "quebranto": 40.5,
+      "anatema": 22.68
+    },
+    {
+      "dados": 18,
+      "diferenca": 0,
+      "normal": 54.675,
+      "quebranto": 40.5,
+      "anatema": 19.13625
+    },
+    {
+      "dados": 18,
+      "diferenca": 1,
+      "normal": 52.65,
+      "quebranto": 40.5,
+      "anatema": 15.795
+    },
+    {
+      "dados": 18,
+      "diferenca": 2,
+      "normal": 50.625,
+      "quebranto": 40.5,
+      "anatema": 12.65625
+    },
+    {
+      "dados": 18,
+      "diferenca": 3,
+      "normal": 48.6,
+      "quebranto": 40.5,
+      "anatema": 9.72
+    },
+    {
+      "dados": 18,
+      "diferenca": 4,
+      "normal": 46.575,
+      "quebranto": 40.5,
+      "anatema": 6.98625
+    },
+    {
+      "dados": 18,
+      "diferenca": 5,
+      "normal": 44.55,
+      "quebranto": 40.5,
+      "anatema": 4.455
+    },
+    {
+      "dados": 18,
+      "diferenca": 6,
+      "normal": 42.525,
+      "quebranto": 40.5,
+      "anatema": 2.12625
+    },
+    {
+      "dados": 18,
+      "diferenca": 7,
+      "normal": 40.5,
+      "quebranto": 40.5,
+      "anatema": 0.0
+    },
+    {
+      "dados": 18,
+      "diferenca": 8,
+      "normal": 40.5,
+      "quebranto": 40.5,
+      "anatema": 0.0
+    },
+    {
+      "dados": 18,
+      "diferenca": 9,
+      "normal": 40.5,
+      "quebranto": 40.5,
+      "anatema": 0.0
+    },
+    {
+      "dados": 18,
+      "diferenca": 10,
+      "normal": 40.5,
+      "quebranto": 40.5,
+      "anatema": 0.0
+    }
+  ]
+}

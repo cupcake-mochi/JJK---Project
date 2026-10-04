@@ -1,0 +1,126 @@
+{
+  "sha256_texto": "5bf3964d6d8c233069b9f2569fe9487361f9dec0c6473579f594d71c217cca5c",
+  "validadores": [
+    {
+      "id": "V01",
+      "nome": "Cobertura",
+      "status": "executado",
+      "evidencia": "evidencias/COBERTURA.json",
+      "observacao": "17 habilidades e todos os títulos fonte mapeados."
+    },
+    {
+      "id": "V02",
+      "nome": "Regras/fontes",
+      "status": "executado",
+      "evidencia": "ALTERACOES.json",
+      "observacao": "Fonte integrada e manual idênticos, contrato Bastião sem efeito sobre Guia."
+    },
+    {
+      "id": "V03",
+      "nome": "Funcionalidade",
+      "status": "executado",
+      "evidencia": "evidencias/casos-executados.json",
+      "observacao": "26 modelos dirigidos, oito novos sobre GUIA-38. Estados de tratamento acumulado são casos artificiais de interface; não adiam o gatilho da habilidade."
+    },
+    {
+      "id": "V04",
+      "nome": "Números",
+      "status": "executado",
+      "evidencia": "auditar.py",
+      "observacao": "Contas exatas de dados, custos, fórmulas e fronteiras de cura."
+    },
+    {
+      "id": "V05",
+      "nome": "Balanço",
+      "status": "parecer autoral",
+      "evidencia": "RELATORIO-DE-REVISAO.md",
+      "observacao": "Riscos quantificados; não declarado playtest ou equilíbrio confirmado."
+    },
+    {
+      "id": "V06",
+      "nome": "Compatibilidade",
+      "status": "executado",
+      "evidencia": "evidencias/INTERFACES.json",
+      "observacao": "R01–R12 confrontados; GUIA-38 sincroniza Socorro da candidata R03 final sem alterar cura comum."
+    },
+    {
+      "id": "V07",
+      "nome": "Títulos/vocabulário",
+      "status": "executado",
+      "evidencia": "evidencias/LOCALIZACAO-EDITORIAL.json",
+      "observacao": "Leitura contextual e validador automático passaram sem achados."
+    },
+    {
+      "id": "V08",
+      "nome": "Clareza",
+      "status": "parecer autoral",
+      "evidencia": "evidencias/REVISAO-EDITORIAL.json",
+      "observacao": "Campos de execução e exemplos; compreensão humana ainda não medida."
+    },
+    {
+      "id": "V09",
+      "nome": "Voz/redundância",
+      "status": "parecer autoral",
+      "evidencia": "evidencias/REVISAO-EDITORIAL.json",
+      "observacao": "Sem narrativa de cânone nem metatexto promocional."
+    },
+    {
+      "id": "V10",
+      "nome": "Localização",
+      "status": "parecer autoral",
+      "evidencia": "evidencias/LOCALIZACAO-EDITORIAL.json",
+      "observacao": "Exemplos retiram Condução/Vanguarda/Emanador; condição/objeto têm seus donos."
+    },
+    {
+      "id": "V11",
+      "nome": "Cânone e referências",
+      "status": "executado no recorte editorial",
+      "evidencia": "evidencias/REFERENCIAS.json",
+      "observacao": "Sem afirmações novas sobre JJK. Fonte externa usada para comparar procedimento, não copiar poderes."
+    },
+    {
+      "id": "V12",
+      "nome": "Revisão independente",
+      "status": "concluido no delta",
+      "evidencia": "evidencias/REVISAO-INDEPENDENTE.json; evidencias/REVISAO-INDEPENDENTE-GUIA38.json",
+      "observacao": "GUIA-38 revisada pela raiz. Prova nominal e páginas finais109–110 inspecionadas; referência no fechamento do livro."
+    },
+    {
+      "id": "V13",
+      "nome": "PDF e navegação",
+      "status": "concluido",
+      "evidencia": "CONFERENCIA.json",
+      "observacao": "Prova anterior preservada, não corresponde ao hash com GUIA-38. Aguardar nomenclatura de R03 e reinspecionar página alterada."
+    },
+    {
+      "id": "V14",
+      "nome": "Visual",
+      "status": "concluido",
+      "evidencia": "evidencias/inspecao-visual.json e COMPARACAO-PIXELS-FINAL.json",
+      "observacao": "Prova anterior preservada, não corresponde ao hash com GUIA-38. Aguardar nomenclatura de R03 e reinspecionar página alterada."
+    },
+    {
+      "id": "V15",
+      "nome": "Rastreabilidade",
+      "status": "executado",
+      "evidencia": "ALTERACOES.json",
+      "observacao": "Antes/depois/motivo/impacto e hashes; publicados preservados."
+    }
+  ],
+  "estado": "Revisão documental e prova nominal concluídas; integrado ao livro final.",
+  "fechamento_nominal": {
+    "sha256_texto": "5bf3964d6d8c233069b9f2569fe9487361f9dec0c6473579f594d71c217cca5c",
+    "evidencia": "evidencias/FECHAMENTO-NOMES-E-REMISSOES.md",
+    "visual": "concluido"
+  },
+  "integracao_final": {
+    "sha256_texto_atual": "5bf3964d6d8c233069b9f2569fe9487361f9dec0c6473579f594d71c217cca5c",
+    "sha256_texto_revisado_antes_da_montagem": "5bf3964d6d8c233069b9f2569fe9487361f9dec0c6473579f594d71c217cca5c",
+    "alteracoes_de_integracao": 0,
+    "mudancas_mecanicas_nesta_etapa": false,
+    "evidencia_delta": "consolidacao/lote-01/evidencias/AJUSTES-FINAIS-INTEGRACAO.json",
+    "pdf_vigente": "consolidacao/lote-01/output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
+    "sha256_pdf_vigente": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8",
+    "escopo": "V01–V12 reaproveitados das revisões registradas com revisão do delta de remissões; V13–V15 do PDF entregue estão no dossiê da consolidação. Provas individuais são históricas, não uma segunda edição final."
+  }
+}

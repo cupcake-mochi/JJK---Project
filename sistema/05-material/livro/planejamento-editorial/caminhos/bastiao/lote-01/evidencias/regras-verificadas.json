@@ -1,0 +1,513 @@
+{
+  "sha256_texto": "b1632e1f57b9892b35c66cf00d852621af5a237bcd6ebb214980a0fcea8469da",
+  "ok": true,
+  "origem": "evidencias/AUDITORIA.json",
+  "verificacoes": 113,
+  "casos": [
+    {
+      "nome": "Nem Um Arranhão: golpe exige TR",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "motivo": "BAS26; origem hostil na área, TR Físico e aura ativa."
+    },
+    {
+      "nome": "Nem Um Arranhão: explosão sem acerto",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "motivo": "BAS26; origem hostil na área, TR Físico e aura ativa."
+    },
+    {
+      "nome": "Nem Um Arranhão: queda causada por hostil na área",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "motivo": "BAS26; origem hostil na área, TR Físico e aura ativa."
+    },
+    {
+      "nome": "Nem Um Arranhão: queda ambiental",
+      "obtido": false,
+      "esperado": false,
+      "passou": true,
+      "motivo": "BAS26; origem hostil na área, TR Físico e aura ativa."
+    },
+    {
+      "nome": "Nem Um Arranhão: conjurador fora da área",
+      "obtido": false,
+      "esperado": false,
+      "passou": true,
+      "motivo": "BAS26; origem hostil na área, TR Físico e aura ativa."
+    },
+    {
+      "nome": "Nem Um Arranhão: TR Espírito",
+      "obtido": false,
+      "esperado": false,
+      "passou": true,
+      "motivo": "BAS26; origem hostil na área, TR Físico e aura ativa."
+    },
+    {
+      "nome": "Nem Um Arranhão: aura inativa",
+      "obtido": false,
+      "esperado": false,
+      "passou": true,
+      "motivo": "BAS26; origem hostil na área, TR Físico e aura ativa."
+    },
+    {
+      "nome": "Nem Um Arranhão: efeito de aliado",
+      "obtido": false,
+      "esperado": false,
+      "passou": true,
+      "motivo": "BAS26; origem hostil na área, TR Físico e aura ativa."
+    },
+    {
+      "nome": "Bloquear igualdade acerta",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "motivo": "Total17 contra17."
+    },
+    {
+      "nome": "Aparar impede total alto",
+      "obtido": false,
+      "esperado": false,
+      "passou": true,
+      "motivo": "Duplo10 vence total, exceto20natural."
+    },
+    {
+      "nome": "20 vence Aparar",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "motivo": "Crítico tem precedência."
+    },
+    {
+      "nome": "Brecha vence total baixo",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "motivo": "D20=1 não tem falha automática geral na candidataR02."
+    },
+    {
+      "nome": "Resposta por hit interceptado",
+      "obtido": [
+        "Trocação"
+      ],
+      "esperado": [
+        "Trocação"
+      ],
+      "passou": true,
+      "motivo": "Bloquear falhou, não ativa Minha Vez."
+    },
+    {
+      "nome": "Resposta por defesa",
+      "obtido": [
+        "Minha Vez"
+      ],
+      "esperado": [
+        "Minha Vez"
+      ],
+      "passou": true,
+      "motivo": "SucessoBlock não ativa Trocação."
+    },
+    {
+      "nome": "Resposta distante negada",
+      "obtido": [],
+      "esperado": [],
+      "passou": true,
+      "motivo": "Alcance de interceptação não é alcance de resposta."
+    },
+    {
+      "nome": "Resposta incapaz negada",
+      "obtido": [],
+      "esperado": [],
+      "passou": true,
+      "motivo": "Resolver dano antes de responder."
+    },
+    {
+      "nome": "Casca com Duro exemplo",
+      "obtido": 13,
+      "esperado": 13,
+      "passou": true,
+      "motivo": "Duro usa dados já rolados; Casca novos."
+    },
+    {
+      "nome": "Casca com resistência exemplo",
+      "obtido": 0,
+      "esperado": 0,
+      "passou": true,
+      "motivo": "Resistência antecede RD."
+    },
+    {
+      "nome": "Passa exemplo fonte",
+      "obtido": {
+        "vida_aliado": 1,
+        "perda_aliado": 9,
+        "transferido": [
+          [
+            "Cortante",
+            7
+          ]
+        ]
+      },
+      "esperado": {
+        "vida_aliado": 1,
+        "perda_aliado": 9,
+        "transferido": [
+          [
+            "Cortante",
+            7
+          ]
+        ]
+      },
+      "passou": true,
+      "motivo": "Conserva exemplo10/16."
+    },
+    {
+      "nome": "Passa resistência receptor",
+      "obtido": [
+        [
+          "Cortante",
+          4
+        ]
+      ],
+      "esperado": [
+        [
+          "Cortante",
+          4
+        ]
+      ],
+      "passou": true,
+      "motivo": "Arredonda dano recebido para cima."
+    },
+    {
+      "nome": "Passa não necessário",
+      "obtido": null,
+      "esperado": null,
+      "passou": true,
+      "motivo": "Aliado não cairia."
+    },
+    {
+      "nome": "Passa aliado já zero",
+      "obtido": null,
+      "esperado": null,
+      "passou": true,
+      "motivo": "Não recupera quem já caiu."
+    },
+    {
+      "nome": "Passa dois tipos após aliado",
+      "obtido": [
+        [
+          "Cortante",
+          15
+        ],
+        [
+          "Fogo",
+          6
+        ]
+      ],
+      "esperado": [
+        [
+          "Cortante",
+          15
+        ],
+        [
+          "Fogo",
+          6
+        ]
+      ],
+      "passou": true,
+      "motivo": "ResistênciaFogo; RD4 e reserva3 consomemCortante primeiro."
+    },
+    {
+      "nome": "Passa conserva tipos",
+      "obtido": [
+        [
+          "Cortante",
+          6
+        ],
+        [
+          "Fogo",
+          6
+        ]
+      ],
+      "esperado": [
+        [
+          "Cortante",
+          6
+        ],
+        [
+          "Fogo",
+          6
+        ]
+      ],
+      "passou": true,
+      "motivo": "Perdaaliado9 na primeira parcela."
+    },
+    {
+      "nome": "Passa próprias resistências",
+      "obtido": [
+        [
+          "Cortante",
+          3
+        ],
+        [
+          "Fogo",
+          6
+        ]
+      ],
+      "esperado": [
+        [
+          "Cortante",
+          3
+        ],
+        [
+          "Fogo",
+          6
+        ]
+      ],
+      "passou": true,
+      "motivo": "Transferência12 vira9; não é novo ataque."
+    },
+    {
+      "nome": "Passa redução pessoal nova",
+      "obtido": [
+        [
+          "Cortante",
+          0
+        ],
+        [
+          "Fogo",
+          5
+        ]
+      ],
+      "esperado": [
+        [
+          "Cortante",
+          0
+        ],
+        [
+          "Fogo",
+          5
+        ]
+      ],
+      "passou": true,
+      "motivo": "Uso distinto que protege dano transferido; nenhuma nova Reação."
+    },
+    {
+      "nome": "Passa Alma não metade",
+      "obtido": [
+        [
+          "Alma",
+          7
+        ]
+      ],
+      "esperado": [
+        [
+          "Alma",
+          7
+        ]
+      ],
+      "passou": true,
+      "motivo": "Alicerce não revoga dono do tipo."
+    },
+    {
+      "nome": "Dano zero ainda hit",
+      "obtido": [
+        "Trocação"
+      ],
+      "esperado": [
+        "Trocação"
+      ],
+      "passou": true,
+      "motivo": "Proteções de dano não alteram resultado de acerto."
+    },
+    {
+      "nome": "Reação antes e depois do próprio turno",
+      "obtido": [
+        1,
+        2,
+        false
+      ],
+      "esperado": [
+        1,
+        2,
+        false
+      ],
+      "passou": true,
+      "motivo": "Não afirmar um teto absoluto de interceptações por rodada civil."
+    },
+    {
+      "nome": "Punho turno comum nível7",
+      "obtido": 3,
+      "esperado": 3,
+      "passou": true,
+      "motivo": "Uma Padrão, AtaqueExtra e Bônus apósacerto."
+    },
+    {
+      "nome": "Duas Padrões não repetem AtaqueExtra",
+      "obtido": 4,
+      "esperado": 4,
+      "passou": true,
+      "motivo": "2 ataquesbase +1extra porrodada +1Bônus."
+    },
+    {
+      "nome": "Arrastão custo 1",
+      "obtido": 0,
+      "esperado": 0,
+      "passou": true,
+      "motivo": "Paga por tentativa, não por acerto."
+    },
+    {
+      "nome": "Arrastão custo 2",
+      "obtido": 2,
+      "esperado": 2,
+      "passou": true,
+      "motivo": "Paga por tentativa, não por acerto."
+    },
+    {
+      "nome": "Arrastão custo 3",
+      "obtido": 4,
+      "esperado": 4,
+      "passou": true,
+      "motivo": "Paga por tentativa, não por acerto."
+    },
+    {
+      "nome": "Arrastão custo 4",
+      "obtido": 6,
+      "esperado": 6,
+      "passou": true,
+      "motivo": "Paga por tentativa, não por acerto."
+    },
+    {
+      "nome": "Arrastão custo 5",
+      "obtido": 8,
+      "esperado": 8,
+      "passou": true,
+      "motivo": "Paga por tentativa, não por acerto."
+    },
+    {
+      "nome": "Arrastão custo 6",
+      "obtido": 10,
+      "esperado": 10,
+      "passou": true,
+      "motivo": "Paga por tentativa, não por acerto."
+    },
+    {
+      "nome": "Arrastão gratuito após controle",
+      "obtido": 0,
+      "esperado": 0,
+      "passou": true,
+      "motivo": "A habilidade continua disponível, sem outro controle."
+    },
+    {
+      "nome": "Arrastão turno For6",
+      "obtido": 7,
+      "esperado": 7,
+      "passou": true,
+      "motivo": "Seis alvos e Bônus; não sete num mesmo alvo."
+    },
+    {
+      "nome": "Arrastão mesmo alvo",
+      "obtido": 2,
+      "esperado": 2,
+      "passou": true,
+      "motivo": "Um golpeArrastão e no máximoBônus, sem extras externos."
+    },
+    {
+      "nome": "Contra classe/custo",
+      "obtido": {
+        "classe": 3,
+        "pe": 9,
+        "canalizar_excluido": 2,
+        "critico_feitico": false
+      },
+      "esperado": {
+        "classe": 3,
+        "pe": 9,
+        "canalizar_excluido": 2,
+        "critico_feitico": false
+      },
+      "passou": true,
+      "motivo": "Nível27:maiorClasse7."
+    },
+    {
+      "nome": "Contra rejeita vida acima",
+      "obtido": null,
+      "esperado": null,
+      "passou": true,
+      "motivo": "Conserva requisitos do feitiço e limite do turno."
+    },
+    {
+      "nome": "Contra rejeita terceiro ataque",
+      "obtido": null,
+      "esperado": null,
+      "passou": true,
+      "motivo": "Conserva requisitos do feitiço e limite do turno."
+    },
+    {
+      "nome": "Contra rejeita segundo inexistente",
+      "obtido": null,
+      "esperado": null,
+      "passou": true,
+      "motivo": "Conserva requisitos do feitiço e limite do turno."
+    },
+    {
+      "nome": "Contra rejeita limite feitiço usado",
+      "obtido": null,
+      "esperado": null,
+      "passou": true,
+      "motivo": "Conserva requisitos do feitiço e limite do turno."
+    },
+    {
+      "nome": "Contra rejeita Carregar incompleto",
+      "obtido": null,
+      "esperado": null,
+      "passou": true,
+      "motivo": "Conserva requisitos do feitiço e limite do turno."
+    },
+    {
+      "nome": "Contra único ataque válido",
+      "obtido": 3,
+      "esperado": 3,
+      "passou": true,
+      "motivo": "Primeiro ataque basta."
+    },
+    {
+      "nome": "Ainda de Pé nível7 média",
+      "obtido": 7.5,
+      "esperado": 7.5,
+      "passou": true,
+      "motivo": "Metade do nível para baixo."
+    },
+    {
+      "nome": "Ainda de Pé nível30 média",
+      "obtido": 19.5,
+      "esperado": 19.5,
+      "passou": true,
+      "motivo": "Não libera ação a0 automaticamente."
+    },
+    {
+      "nome": "Embalo não acumula",
+      "obtido": 4,
+      "esperado": 4,
+      "passou": true,
+      "motivo": "Sem gasto intermediário, gatilhos repetidos mantêm4."
+    },
+    {
+      "nome": "Embalo repõe após gasto",
+      "obtido": 4,
+      "esperado": 4,
+      "passou": true,
+      "motivo": "Repor4 não significa somar4."
+    },
+    {
+      "nome": "Guarda-Costas não soma coberturas",
+      "obtido": 5,
+      "esperado": 5,
+      "passou": true,
+      "motivo": "Cobertura maior prevalece."
+    }
+  ],
+  "observacao": "Auditoria autoral reproduzível e revisão independente já concluídas."
+}

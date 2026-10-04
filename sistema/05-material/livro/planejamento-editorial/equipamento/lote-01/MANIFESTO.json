@@ -1,0 +1,23 @@
+{
+  "data": "2026-10-03",
+  "arquivos": {
+    "CONFERENCIA.json": "0b106fc4be4a33481070f37fac74bf08bb8a621b5d12abe1d7b61ce285ff6830",
+    "DECISOES.md": "2a03c3150697fe7cbe21c1d87f7920a53041756f2f18bf6cc801dcd9821e52e8",
+    "EQUIPAMENTO-EM-JOGO.md": "9dc903c65ae220246f0ecbf59398d411e5df467ab3baf10dd8b7749fc130e775",
+    "ESTRUTURA.json": "23ecd70420a5e778c065aaf3a6607b55325ce360ad2fd8779b9e2af9634086a6",
+    "LEIA-ME.md": "a4cc51b6a49b1c548c4eb0c04a97326cf971a4936db939679e0c5daa0988a1c2",
+    "RELATORIO.md": "4c5f6e2042d609521aba0a994d51912c0a3cb3842605b5b60884a7cf6b4cc5fe",
+    "conferir.py": "6402238b213d3631298e9fda40b4f9f8458b3b123799d1e0f244e34160a6e4a0",
+    "evidencias/REVISAO-EDITORIAL.json": "75c7b975a3d98615d7ad6464cb8fab52d9e3b98f0a5ce086c0d0205b61e8ef9e",
+    "evidencias/REVISAO.md": "644015d6d9ccf01a243fccf525e65fd4524036f4ff35da6073c5d42adb34ba7d",
+    "evidencias/analise-numerica.json": "2cbbde3d1c53963a9a43ecc1a18abf8f784af7fbc99256d8dbe91825c1b4f09e",
+    "evidencias/casos-documentais.json": "be4063b238b06a97ce720b7d5e158ed75de8cc7a30a083f2d14541a30f07bbb3",
+    "evidencias/fontes-preservadas.json": "53f2c1f7d8e7c0c851f384a5739bc8847ff293fb1837a56a255cf5aca2b019f5",
+    "evidencias/inspecao-visual.json": "f5a35123ebad79e62250486d50d17b8c329ad629d54675358486f948843bd664",
+    "evidencias/pdf-estrutura.json": "856eea547ba93c5e6388045cf8cf6b7b170b2975daae4cfc02bb990d9ffca0df",
+    "evidencias/pdf-texto.txt": "76c4c3bbab385ed3f3ebd315458f12ba5d672b2b8466a7d4403700b5be217c43",
+    "evidencias/validador-base.txt": "94217152e97945d0e217c88124e5a08a374773dcd743a0a0219bd61e28256fca",
+    "gerar_pdf.py": "5721351d0353e96987ea6052e909469f56fd7e539b57c5f9aae25962e3f3e04c",
+    "output/pdf/Projeto-M-Equipamento-em-Jogo-Proposta-01.pdf": "2dbb3bc751aeeebdd18db78417ea759f10214b48f31ce1d4f75f76454c6b36ed"
+  }
+}

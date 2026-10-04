@@ -1,0 +1,289 @@
+[
+  {
+    "id": "DR01",
+    "assunto": "Reduções próprias",
+    "antes": "Capítulo geral reproduzia Cobrir-se de Energia, Duro de Matar, Casca Grossa e suas contas.",
+    "depois": "Redução geral conserva ordem e exemplo sem habilidade nomeada. Capacidades permanecem nos capítulos responsáveis.",
+    "motivo": "Cumprir localização única e evitar divergência quando um Caminho mudar.",
+    "tipo": "editorial",
+    "estado": "revisado por maxima; fechamento das interfaces e prova em andamento"
+  },
+  {
+    "id": "DR02",
+    "assunto": "Cura e corpos",
+    "antes": "Repetia Sutura, Corpo Amaldiçoado, Remenda e Rasga Escudo.",
+    "depois": "Procedimento geral explica compatibilidade e remete ao dono sem replicar habilidades.",
+    "motivo": "Separar tratamento comum e exceções, conforme pedido do usuário.",
+    "tipo": "editorial",
+    "estado": "revisado por maxima; fechamento das interfaces e prova em andamento"
+  },
+  {
+    "id": "DR03",
+    "assunto": "Rastejar",
+    "antes": "Condição cortava deslocamento, e Movimento cobrava custo adicional.",
+    "depois": "Cada trecho cobra1,5m adicional sem também reduzir a reserva.",
+    "motivo": "Impedir cobrança dupla pelo mesmo rastejo.",
+    "tipo": "correcao",
+    "estado": "revisado por maxima; fechamento das interfaces e prova em andamento"
+  },
+  {
+    "id": "DR04",
+    "assunto": "Condição Incapacitado",
+    "antes": "Termo podia ser interpretado como impedir ações.",
+    "depois": "Efeitos próprios preservados: sem Bloquear, crítico corpo a corpo quando acerta, ações e Defesa conservadas.",
+    "motivo": "Não importar o significado de D&D silenciosamente. Nome será avaliado na revisão global.",
+    "tipo": "clareza",
+    "estado": "revisado por maxima; fechamento das interfaces e prova em andamento"
+  },
+  {
+    "id": "DR05",
+    "assunto": "Janela de queda",
+    "antes": "Sequelas limitavam Aguentar, mas Insistir mantinha suas três rodadas.",
+    "depois": "Janela única3−Sequelas para ambas.",
+    "motivo": "Quedas repetidas precisam pesar nas duas escolhas, para não transformar Insistir em resposta automática depois das primeiras quedas.",
+    "tipo": "mecanica",
+    "estado": "revisado por maxima; fechamento das interfaces e prova em andamento"
+  },
+  {
+    "id": "DR06",
+    "assunto": "Cura a zero",
+    "antes": "Aguentar exigia20% de uma vez, curas menores eram perdidas; Insistir saía com1PV.",
+    "depois": "Ambas exigem20% da referência em cura acumulável; exceção Levanta preservada.",
+    "motivo": "Eliminar dominância de Insistir por eficiência de cura e desperdício dos pequenos socorros.",
+    "tipo": "mecanica",
+    "estado": "revisado por maxima; fechamento das interfaces e prova em andamento"
+  },
+  {
+    "id": "DR07",
+    "assunto": "Dano a zero",
+    "antes": "Contador de dano superior a50% coexistia com janela, custos, Sequelas e tratamento. Só Aguentar perdia rodada por cada golpe.",
+    "depois": "Uma ocorrência positiva à vida consome uma rodada em ambas. Não há contador paralelo de dano acumulado.",
+    "motivo": "Menos um contador e mesma urgência para quem segue lutando. Dano absorvido integralmente não consome rodada.",
+    "tipo": "mecanica",
+    "estado": "revisado por maxima; fechamento das interfaces e prova em andamento"
+  },
+  {
+    "id": "DR08",
+    "assunto": "Colapso de Insistir",
+    "antes": "Após três rodadas surgia outro estado, cura50% acumulável e dano posterior sem resolução.",
+    "depois": "Esgotar a janela causa Derrotado. Não abre outra janela ou outro limiar de cura.",
+    "motivo": "Fechar o estado indefinido e impedir prolongamento de atuação sem custo claro.",
+    "tipo": "mecanica",
+    "estado": "revisado por maxima; fechamento das interfaces e prova em andamento"
+  },
+  {
+    "id": "DR09",
+    "assunto": "Custo de Insistir",
+    "antes": "Frações1/8,1/4,1/2 podiam reduzir máximos muito pequenos a zero ou negativo.",
+    "depois": "Frações conservadas, pagamento apenas se máximo permanecer≥1; impossibilidade passa a Aguentar com tempo restante.",
+    "motivo": "Proteger limite de recurso sem adicionar derrota automática pelo arredondamento.",
+    "tipo": "correcao",
+    "estado": "revisado por maxima; fechamento das interfaces e prova em andamento"
+  },
+  {
+    "id": "DR10",
+    "assunto": "Troca de escolha",
+    "antes": "Transição entre escolhas não estava definida.",
+    "depois": "Pode desistir de Insistir para Aguentar, sem restituição ou reinício. Quem Aguenta não passa depois a Insistir na mesma queda.",
+    "motivo": "Escolha inicial continua importante e não cria ciclos de custo/tempo.",
+    "tipo": "mecanica",
+    "estado": "revisado por maxima; fechamento das interfaces e prova em andamento"
+  },
+  {
+    "id": "DR11",
+    "assunto": "Estabilização",
+    "antes": "Não havia socorro geral executável sem fonte de cura.",
+    "depois": "Padrão, mão livre e atendimento, MedicinaCD14; corpo construído usa Entalhador/Forja. Sucesso suspende tempo, dano encerra estabilidade e consome rodada.",
+    "motivo": "Oferecer resgate a grupos sem curador, conservando ação e vulnerabilidade do paciente.",
+    "tipo": "mecanica",
+    "estado": "revisado por maxima; fechamento das interfaces e prova em andamento"
+  },
+  {
+    "id": "DR12",
+    "assunto": "Recuperação estável",
+    "antes": "Curto não recuperava vida mesmo de personagem socorrido, deixando zero sem saída comum.",
+    "depois": "Após retirada do perigo e descanso curto estável, retorna com1PV eSequela. Não restaura Integridade.",
+    "motivo": "Concluir procedimento de resgate sem gerar cura substancial ou retorno imediato à luta.",
+    "tipo": "mecanica",
+    "estado": "revisado por maxima; fechamento das interfaces e prova em andamento"
+  },
+  {
+    "id": "DR13",
+    "assunto": "Derrota corporal e alma",
+    "antes": "Fim de Aguentar aplicava estágio4 deAlma mesmo sem dano nessa reserva.",
+    "depois": "Derrota corporal não altera Integridade. Derrotado encerra atuação naquela cena.",
+    "motivo": "Separar causas, recursos e tratamento. Nenhuma ligação automática inventada com cânone.",
+    "tipo": "mecanica",
+    "estado": "revisado por maxima; fechamento das interfaces e prova em andamento"
+  },
+  {
+    "id": "DR14",
+    "assunto": "Mortalidade",
+    "antes": "Desfecho de estágio4 entregue ao mestre, apesar de livros usarem morte e recuperação de modo distinto.",
+    "depois": "Padrão sem morte automática; campanha pode anunciar morte no limiar antes da missão. Socorro não desfaz consequência fatal.",
+    "motivo": "Tornar acordo prévio aplicável por vários mestres sem fingir que toda derrota é ressuscitável. É alteração mecânica real, não apenas esclarecimento editorial.",
+    "tipo": "mudança de consequência e política mecânica",
+    "estado": "revisado por maxima; fechamento das interfaces e prova em andamento"
+  },
+  {
+    "id": "DR15",
+    "assunto": "Cicatrizes",
+    "antes": "Vantagem universal emIntimidação, desvantagem universal emPersuasão, curador próprio privilegiado.",
+    "depois": "Marcas narrativas sem modificador universal; tratamento próprio/aliado não cria tabela social diferente.",
+    "motivo": "Evitar incentivo a obter cicatriz como melhoria e punição mecânica permanente por receber socorro aliado.",
+    "tipo": "mecanica",
+    "estado": "revisado por maxima; fechamento das interfaces e prova em andamento"
+  },
+  {
+    "id": "DR16",
+    "assunto": "Integridade por falhas",
+    "antes": "UmTRporrodada podia avançar estágio além da perda e manter punição mesmo após cura.",
+    "depois": "Estágio calculado somente pela reserva atual. Sem TR adicional de estágio.",
+    "motivo": "Quatro pequenas ocorrências não retiram personagem só por falhas, e a reserva volta a medir a gravidade do dano.",
+    "tipo": "mecanica",
+    "estado": "revisado por maxima; fechamento das interfaces e prova em andamento"
+  },
+  {
+    "id": "DR17",
+    "assunto": "Recuperação de Integridade",
+    "antes": "Remenda recuperava pontos, mas não diminuía estágio atingido.",
+    "depois": "Recuperar pontos recalcula o estágio. Estágio4 ainda encerra participação na cena.",
+    "motivo": "Dar utilidade de recuperação às peças já pagas sem criar retorno instantâneo após derrota.",
+    "tipo": "mecanica",
+    "estado": "revisado por maxima; fechamento das interfaces e prova em andamento"
+  },
+  {
+    "id": "DR18",
+    "assunto": "Zero de Integridade",
+    "antes": "Texto dizia que personagem deixava de ser ele próprio e mestre decidia o que sobrava.",
+    "depois": "Inconsciente eDerrotado com saída e limites explícitos. Sem transformação automática.",
+    "motivo": "Transformação de identidade não deve decorrer de um contador universal nem ser alegada como cânone.",
+    "tipo": "mecanica",
+    "estado": "revisado por maxima; fechamento das interfaces e prova em andamento"
+  },
+  {
+    "id": "DR19",
+    "assunto": "Inconsciente",
+    "antes": "Definição tratava zero como equivalente, deixando outras causas e respostas incompletas.",
+    "depois": "Condição com ações, percepção, Bloquear, posição, concentração, testes e saída pela causa.",
+    "motivo": "Impedir confusão com Incapacitado e sono de quem ainda tem vida.",
+    "tipo": "clarificacao",
+    "estado": "revisado por maxima; fechamento das interfaces e prova em andamento"
+  },
+  {
+    "id": "DR20",
+    "assunto": "Segundo Fôlego",
+    "antes": "Dispensava rodada para escolher Insistir, embora regra geral nunca cobrasse essa rodada.",
+    "depois": "Sincronização proposta: dispensa primeiro custo de vida máxima daquela queda, uma vez por descanso longo.",
+    "motivo": "Dar efeito concreto sem conceder uma rodada extra nem restaurar ações. Ainda será alterado no capítulo dono e revalidado.",
+    "tipo": "interface",
+    "estado": "revisado por maxima; fechamento das interfaces e prova em andamento"
+  },
+  {
+    "id": "DR21",
+    "assunto": "Descanso longo fora da base",
+    "antes": "Candidata já corrigiu metade como mínimo, não perda de vida se acima.",
+    "depois": "Preservado piso após restaurar máximo perdido por Insistir.",
+    "motivo": "Conservar correção útil e integrá-la ao novo procedimento.",
+    "tipo": "preservacao",
+    "estado": "revisado por maxima; fechamento das interfaces e prova em andamento"
+  },
+  {
+    "id": "DR22",
+    "assunto": "Reservas temporárias muito pequenas",
+    "antes": "Texto arredondava metades para baixo mas citava mínimo1 de forma incompleta.",
+    "depois": "Máximo positivo conserva mínimo1. Máximo zero não cria recurso.",
+    "motivo": "Aplicar arredondamento geral e impedir benefício em recurso ausente.",
+    "tipo": "clarificacao",
+    "estado": "revisado por maxima; fechamento das interfaces e prova em andamento"
+  },
+  {
+    "id": "DR23",
+    "assunto": "Queda sem combate",
+    "antes": "A janela exigia iniciativa preexistente.",
+    "depois": "Organiza turnos na queda, com começo da primeira rodada como marco.",
+    "motivo": "R03-IM02: a urgência precisa de procedimento também em queda ou armadilha fora de combate.",
+    "tipo": "correcao/interface",
+    "estado": "revisado; interfaces em conferência final"
+  },
+  {
+    "id": "DR24",
+    "assunto": "Tratamento após derrota",
+    "antes": "Destino do tratamento acumulado e limiar depois de Derrotado eram ambíguos.",
+    "depois": "Tratamento vira PV, curas seguintes funcionam normalmente, sem devolver cena; Sequela única ao sair da derrota.",
+    "motivo": "R03-IM03: fechar estado com referência80/tratamento10/cura5, sem duas reservas concorrentes.",
+    "tipo": "correcao/interface",
+    "estado": "revisado; interfaces em conferência final"
+  },
+  {
+    "id": "DR25",
+    "assunto": "Consciência e descanso longo",
+    "antes": "Saída de Derrotado citava apenas descanso curto com atendimento.",
+    "depois": "Longo também encerra inconsciência da derrota se vida e Integridade positivas. Outras causas continuam.",
+    "motivo": "R03-IM04: evitar paradoxo de máximos restaurados e necessidade de outra pausa para acordar.",
+    "tipo": "correcao/interface",
+    "estado": "revisado; interfaces em conferência final"
+  },
+  {
+    "id": "DR26",
+    "assunto": "Contato de estabilização",
+    "antes": "Ao alcance poderia ser lido como alcance de ataque aumentado.",
+    "depois": "Atendimento a até1,5m com acesso físico, mão livre e meios adequados.",
+    "motivo": "R03-IM05: alcance delimitado sem conceder tratamento por arma de alcance.",
+    "tipo": "correcao/interface",
+    "estado": "revisado; interfaces em conferência final"
+  },
+  {
+    "id": "DR27",
+    "assunto": "Resgate do Socorrista",
+    "antes": "Limiar20% impediria Ainda Há Tempo de levantar certas fichas com qualquer dado.",
+    "depois": "Exceção no dono GUIA-38 encerra Morrendo abaixo do limiar, preservando custos e frequência e sem encerrar Derrotado.",
+    "motivo": "R03-IM01: preservar função de habilidade dedicada; referência195,limiar39,cura3d8+6 com máximo30.",
+    "tipo": "correcao/interface",
+    "estado": "revisado; interfaces em conferência final"
+  },
+  {
+    "id": "DR28",
+    "assunto": "Feitos de progressão",
+    "antes": "Retorno de estágio4 não tinha saída operacional; queda fabricada poderia cumprir limiar.",
+    "depois": "PRO36 usa saída de Derrotado e exige ameaça real na missão para socorro,Alma eDomínio.",
+    "motivo": "Compatibilidade com nova consequência e proteção da função de conquista.",
+    "tipo": "correcao/interface",
+    "estado": "revisado; interfaces em conferência final"
+  },
+  {
+    "id": "DR29",
+    "assunto": "Agarrado e localização",
+    "antes": "Condição repetia ação e TR de fuga e não citava Inconsciente.",
+    "depois": "Condição remete a Escapar de uma contenção e Arrastar e transportar; perda consciente encerra manutenção.",
+    "motivo": "Conservar um dono do procedimento e não permitir agarrão ativo durante inconsciência.",
+    "tipo": "correcao/interface",
+    "estado": "revisado; interfaces em conferência final"
+  },
+  {
+    "id": "DR30",
+    "assunto": "Piso de descanso",
+    "antes": "Metade de máximo1 fora de base produziria0PV após longo.",
+    "depois": "Arredondar para baixo com mínimo1 para máximo positivo.",
+    "motivo": "Compatibilidade da recuperação longa com saída da derrota e recursos pequenos.",
+    "tipo": "correcao/interface",
+    "estado": "revisado; interfaces em conferência final"
+  },
+  {
+    "id": "DR31",
+    "assunto": "Integridade de criaturas muito pequenas",
+    "antes": "Uma criatura de1PVmáximo teria0Integridade pelo arredondamento da metade.",
+    "depois": "Integridade de criaturas nãojogadoras conserva mínimo1 quandoPVmáximopositivo; ficha própria continua prevalecendo.",
+    "motivo": "Evita entidadejásemIntegridade aopreencherficha;nãoaltera fórmula dospersonagensjogadores.",
+    "tipo": "correcao",
+    "estado": "aplicado e em conferência de prova"
+  },
+  {
+    "id": "DR32",
+    "antes": "Condição Incapacitado, embora permitisse ações.",
+    "depois": "Guarda Aberta, com os mesmos efeitos, condições de saída e interfaces.",
+    "motivo": "Evitar o sentido cotidiano de incapacidade e a confusão com Inconsciente.",
+    "tipo": "Nomenclatura",
+    "rastreio": "consolidacao/lote-01/migracao-nomes/MIGRACAO.json"
+  }
+]

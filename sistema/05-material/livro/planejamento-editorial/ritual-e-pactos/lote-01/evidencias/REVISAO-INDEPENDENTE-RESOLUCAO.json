@@ -1,0 +1,84 @@
+{
+  "sha256_texto": "7ce3150e4d26d747f5088bcd2b3117b621feb42d52ecc1c4bc4a548d53eb531c",
+  "revisor": "compatibilidade",
+  "parecer_original": "historico/revisao-independente-01/r19-revisao-independente.json",
+  "achados": [
+    {
+      "id": "RI-01",
+      "estado": "corrigido",
+      "decisoes": [
+        "RP-25"
+      ]
+    },
+    {
+      "id": "RI-02",
+      "estado": "corrigido",
+      "decisoes": [
+        "RP-30",
+        "RP-32"
+      ]
+    },
+    {
+      "id": "RI-03",
+      "estado": "corrigido",
+      "decisoes": [
+        "RP-29"
+      ]
+    },
+    {
+      "id": "RI-04",
+      "estado": "corrigido",
+      "decisoes": [
+        "RP-28"
+      ]
+    },
+    {
+      "id": "RI-05",
+      "estado": "corrigido",
+      "decisoes": [
+        "RP-26"
+      ]
+    },
+    {
+      "id": "RI-06",
+      "estado": "corrigido",
+      "decisoes": [
+        "RP-30"
+      ]
+    },
+    {
+      "id": "RI-07",
+      "estado": "corrigido",
+      "decisoes": [
+        "RP-28",
+        "RP-31"
+      ]
+    },
+    {
+      "id": "RI-08",
+      "estado": "corrigido",
+      "decisoes": [
+        "RP-27"
+      ]
+    }
+  ],
+  "aprovado_texto_com_limites": true,
+  "pdf_atualizado_pendente": false,
+  "playtest_humano": false,
+  "bateria": {
+    "clareza": "Parágrafos com ação, alcance, fonte da cópia e momento de cobrança. Casos de erro e distribuição acompanham o texto.",
+    "suficiencia": "Todas16entradasRitual,3modalidades,4tiposPacto e limites próprios presentes.",
+    "titulos": "Diretos, sem artigos iniciais ouComoLer.",
+    "vocabulario": "Troca de agregado por total de dados; parcelas definidas com exemplos.",
+    "voz": "Sem alegar cânone por analogia e sem comentários de projeto dentro da regra.",
+    "redundancia": "Uma página adicional separa cópias do quadro de preços; não repete habilidades de Caminhos.",
+    "localizacao": "Apenas remissões necessárias a limites de peças; teste editorial em separado.",
+    "regras_funcionalidade": "8achados originais resolvidos;9interfacesdeTempo modeladas; ajuda consumida e desconto não retroativo.",
+    "compatibilidade": "R06,R07,R09,R10 e fontes22/27 lidos nos recortes pertinentes.",
+    "numero_balanceamento": "Modelos exatos com custos,chances,cópias e1440perfisPE. Não prova equilíbrio de todas as mesas.",
+    "comparacao_RPG": "Usa evidência primária editorial PHB/DMG já documentada pelo root, sem nova alegação de leitura integral.",
+    "canone": "Nenhuma nova alegação sobre capítulo de mangá; tabelas são adaptação doProjetoM.",
+    "visual": "Pendente de root; não marcado aprovado."
+  },
+  "complemento_visual_principal": "Treze páginas inspecionadas, tabela da página 7 corrigida e reinspecionada. Ver inspecao-visual.json."
+}

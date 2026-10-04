@@ -1,0 +1,79 @@
+REGRESSAO — o modelo reproduz o que ja esta publicado antes de medir coisa nova
+  [x] R1 Acerto Classe 6 / 7: (54.0, 63.0)
+  [x] R3 Petala (solta, devolve) refino 4/6/8/10: [(3, 2), (4, 3), (5, 4), (6, 5)]
+  [x] R4 Dominio Simples nv22 (PE, evitado): (30, 324.0)
+  [x] R4 Dominio Simples nv26 (PE, evitado): (35, 378.0)
+  [x] R5 Cesta, turnos gastos 1/2/3 rodadas: [29, 57, 86]
+  [x] R6 Extensao nv14 r7 / nv20 r9 / nv26 r10: (42, 72, 110)
+  [x] R7 perfis nv26 (Con6 tr, Con3 tr, Con0): (0.35, 0.5, 0.85)
+  [x] R8 peca 11, Espírito treinado Ess 6 (T=3): [3.0, 4.0, 5.6]
+  [x] R8 peca 11, Espírito treinado Ess 4 (T=2): [2.8, 3.4, 4.0]
+  [x] R8 peca 11, sem treino Ess 2 (T=1): [1.5, 1.4, 1.3]
+>>> TUDO OK — o modelo reproduz os numeros publicados, e a tabela da Cesta na peca 11.
+
+====================================================================================================
+COMO ESTAVAM ANTES DA REVISAO — a Cesta ate a v0.266, o Simples ate a v0.267: como caiam, quanto duravam
+====================================================================================================
+nv 14: Expansao de refino 5 solta 3 Acertos de 36 (108 no total) em 2 rodada(s); quem defende tem refino ~4, Classe 4
+  Cesta Oca     segura 3/3 · nao cai · custa 2 rodada(s) de turno = 57% da luta · 0 PE
+  Dom. Simples  segura 3/3 no raio, pra todo mundo · cai se os pes sairem do chao · 8 PE
+  Petala        segura 2/3 (refino 4 -> 2, sempre sobra um) · cai na 1a falha de concentracao · 8 PE
+  Extensao      segura 3/3 · dura 4 rodadas · 12 PE e sem tecnica enquanto de pe · (gate refino 7: ainda nao tem)
+nv 20: Expansao de refino 7 solta 4 Acertos de 45 (180 no total) em 3 rodada(s); quem defende tem refino ~5, Classe 5
+  Cesta Oca     segura 4/4 · nao cai · custa 3 rodada(s) de turno = 86% da luta · 0 PE
+  Dom. Simples  segura 4/4 no raio, pra todo mundo · cai se os pes sairem do chao · 15 PE
+  Petala        segura 2/4 (refino 5 -> 2, sempre sobra um) · cai na 1a falha de concentracao · 15 PE
+  Extensao      segura 4/4 · dura 5 rodadas · 24 PE e sem tecnica enquanto de pe · (gate refino 7: ainda nao tem)
+nv 26: Expansao de refino 10 solta 6 Acertos de 63 (378 no total) em 5 rodada(s); quem defende tem refino ~7, Classe 7
+  Cesta Oca     segura 6/6 · nao cai · custa 5 rodada(s) de turno = 100% da luta · 0 PE
+  Dom. Simples  segura 6/6 no raio, pra todo mundo · cai se os pes sairem do chao · 35 PE
+  Petala        segura 3/6 (refino 7 -> 3, sempre sobra um) · cai na 1a falha de concentracao · 35 PE
+  Extensao      segura 6/6 · dura 7 rodadas · 55 PE e sem tecnica enquanto de pe
+
+====================================================================================================
+OPCAO 3 — a Cesta que CAI: quantos Acertos ela segura, em media (e a chance de segurar todos)
+  A = a obra 266, golpe no dono: cada golpe que ele toma e um teste de Vigor; T falhas desfazem
+  B = a obra 266, pressao: cada Acerto segurado e um teste de Vigor contra a CD do dono da Expansao
+  T = falhas que desfazem: 1 (como a concentracao) ou metade da Essencia (como a corrida)
+====================================================================================================
+
+nv 14 · Expansao refino 5 · 3 Acertos · CD do dono 16
+  perfil                         A, 1 golpe/rod A, 2 golpes/rod   B, so pressao    A+B, 1 golpe
+  Con 6 treinado     T=1           2.1/3 ( 42%)    1.6/3 ( 18%)    1.3/3 ( 27%)    1.0/3 ( 12%)
+  Con 6 treinado     T=2 (Ess 4)    2.9/3 ( 88%)    2.4/3 ( 56%)    2.6/3 ( 72%)    2.1/3 ( 43%)
+  Con 6 treinado     T=3 (Ess 6)    3.0/3 (100%)    2.9/3 ( 87%)    3.0/3 ( 96%)    2.7/3 ( 76%)
+  Con 3 treinado     T=1           1.8/3 ( 25%)    1.3/3 (  6%)    0.9/3 ( 12%)    0.7/3 (  3%)
+  Con 3 treinado     T=2 (Ess 4)    2.8/3 ( 75%)    2.1/3 ( 31%)    2.2/3 ( 50%)    1.7/3 ( 19%)
+  Con 3 treinado     T=3 (Ess 6)    3.0/3 (100%)    2.7/3 ( 69%)    2.9/3 ( 88%)    2.4/3 ( 50%)
+  Con 0 sem treino   T=1           1.3/3 (  6%)    1.1/3 (  0%)    0.3/3 (  2%)    0.3/3 (  0%)
+  Con 0 sem treino   T=2 (Ess 4)    2.4/3 ( 44%)    1.5/3 (  5%)    1.6/3 ( 16%)    1.2/3 (  2%)
+  Con 0 sem treino   T=3 (Ess 6)    3.0/3 (100%)    2.3/3 ( 26%)    2.6/3 ( 58%)    1.7/3 ( 10%)
+  fixo, segura 2                         2/3   · fixo, segura 3: 3/3
+
+nv 20 · Expansao refino 7 · 4 Acertos · CD do dono 17
+  perfil                         A, 1 golpe/rod A, 2 golpes/rod   B, so pressao    A+B, 1 golpe
+  Con 6 treinado     T=1           2.3/4 ( 27%)    1.7/4 (  8%)    1.5/4 ( 18%)    1.1/4 (  5%)
+  Con 6 treinado     T=2 (Ess 4)    3.6/4 ( 72%)    2.8/4 ( 32%)    3.2/4 ( 56%)    2.4/4 ( 23%)
+  Con 6 treinado     T=3 (Ess 6)    4.0/4 ( 96%)    3.5/4 ( 65%)    3.8/4 ( 87%)    3.3/4 ( 53%)
+  Con 3 treinado     T=1           1.9/4 ( 12%)    1.3/4 (  2%)    0.9/4 (  6%)    0.7/4 (  1%)
+  Con 3 treinado     T=2 (Ess 4)    3.2/4 ( 50%)    2.2/4 ( 11%)    2.6/4 ( 31%)    1.8/4 (  6%)
+  Con 3 treinado     T=3 (Ess 6)    3.9/4 ( 88%)    3.0/4 ( 34%)    3.6/4 ( 69%)    2.6/4 ( 23%)
+  Con 0 sem treino   T=1           1.2/4 (  1%)    1.0/4 (  0%)    0.2/4 (  0%)    0.2/4 (  0%)
+  Con 0 sem treino   T=2 (Ess 4)    2.5/4 ( 10%)    1.4/4 (  0%)    1.5/4 (  3%)    1.1/4 (  0%)
+  Con 0 sem treino   T=3 (Ess 6)    3.5/4 ( 49%)    2.2/4 (  2%)    2.7/4 ( 18%)    1.6/4 (  0%)
+  fixo, segura 2                         2/4   · fixo, segura 3: 3/4
+
+nv 26 · Expansao refino 10 · 6 Acertos · CD do dono 18
+  perfil                         A, 1 golpe/rod A, 2 golpes/rod   B, so pressao    A+B, 1 golpe
+  Con 6 treinado     T=1           2.6/6 ( 12%)    1.7/6 (  1%)    1.7/6 (  8%)    1.1/6 (  1%)
+  Con 6 treinado     T=2 (Ess 4)    4.6/6 ( 43%)    3.0/6 (  9%)    3.9/6 ( 32%)    2.6/6 (  6%)
+  Con 6 treinado     T=3 (Ess 6)    5.6/6 ( 76%)    4.2/6 ( 26%)    5.2/6 ( 65%)    3.8/6 ( 20%)
+  Con 3 treinado     T=1           2.0/6 (  3%)    1.3/6 (  0%)    1.0/6 (  2%)    0.7/6 (  0%)
+  Con 3 treinado     T=2 (Ess 4)    3.8/6 ( 19%)    2.2/6 (  1%)    2.9/6 ( 11%)    1.8/6 (  1%)
+  Con 3 treinado     T=3 (Ess 6)    5.1/6 ( 50%)    3.2/6 (  5%)    4.4/6 ( 34%)    2.7/6 (  3%)
+  Con 0 sem treino   T=1           1.2/6 (  0%)    1.0/6 (  0%)    0.2/6 (  0%)    0.2/6 (  0%)
+  Con 0 sem treino   T=2 (Ess 4)    2.4/6 (  0%)    1.3/6 (  0%)    1.4/6 (  0%)    1.1/6 (  0%)
+  Con 0 sem treino   T=3 (Ess 6)    3.5/6 (  3%)    2.1/6 (  0%)    2.5/6 (  1%)    1.4/6 (  0%)
+  fixo, segura 2                         2/6   · fixo, segura 3: 3/6
+
+(o primeiro Acerto sempre sai ao abrir, antes de qualquer golpe; por isso "A" nunca desce de 1)

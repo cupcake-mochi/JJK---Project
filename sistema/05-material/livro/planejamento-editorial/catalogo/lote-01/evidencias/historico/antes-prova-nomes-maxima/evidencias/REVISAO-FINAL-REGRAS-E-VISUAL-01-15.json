@@ -1,0 +1,297 @@
+{
+  "data": "2026-10-03",
+  "manuscrito": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+  "sha256_manuscrito": "682b239b4f582912d47b0c8cb14f0df70592f8b5c631f01240f0c4d853c8471e",
+  "sha256_pdf": "f92d6c62b447389ded4235113759fa37d51a2f96b172316cf7bb7d54fedc20e0",
+  "resultado": "Nenhum bloqueador concreto identificado nesta conferência.",
+  "leitura_mecanica": "Releitura dos fechamentos incorporados das partes A/B/C e conferência das54linhas da matriz; não substitui leitura humana/playtest de todas as combinações.",
+  "matriz": {
+    "arquivo": "evidencias/MATRIZ-R06-R07.json",
+    "total": 54,
+    "contagens": {
+      "consolidado_candidato": 53,
+      "interface_condicoes_R03_preservada": 1
+    }
+  },
+  "checagens_textuais": [
+    {
+      "regra": "Rajada não renova condição",
+      "presente": true
+    },
+    {
+      "regra": "De Novo global",
+      "presente": true
+    },
+    {
+      "regra": "Fica antes do crítico",
+      "presente": true
+    },
+    {
+      "regra": "Concentrada exclui Duradoura",
+      "presente": true
+    },
+    {
+      "regra": "Corpo a Corpo exclui Onda",
+      "presente": true
+    },
+    {
+      "regra": "Sem Volta exclui Vazio",
+      "presente": true
+    },
+    {
+      "regra": "Sugar sem dano parcial",
+      "presente": true
+    },
+    {
+      "regra": "Cobrança + Eco",
+      "presente": true
+    },
+    {
+      "regra": "Armado exclui Máxima",
+      "presente": true
+    },
+    {
+      "regra": "Segura exclui Máxima",
+      "presente": true
+    }
+  ],
+  "contas_independentes": [
+    {
+      "nome": "Rajada Condição C5 orçamento",
+      "obtido": 4,
+      "esperado": 4,
+      "ok": true,
+      "hipotese": "Preços neutros, sem Restrições, quatro tiros1d8dosseis possíveis."
+    },
+    {
+      "nome": "Rajada Condição quatro tentativas",
+      "obtido": 0.9375,
+      "esperado": 0.9375,
+      "ok": true,
+      "hipotese": "Cada tentativa tem50%deacerto; nenhum alvo inválido ou defesa reativa considerada."
+    },
+    {
+      "nome": "Dano médio Rajada sem crítico",
+      "obtido": 9.0,
+      "esperado": 9,
+      "ok": true,
+      "hipotese": "Quatro tiros1d8; não calcula crítico nem interações adicionais."
+    },
+    {
+      "nome": "Dano médio sem Rajada",
+      "obtido": 15.75,
+      "esperado": 15.75,
+      "ok": true,
+      "hipotese": "Retirar Rajada devolve três dados à mesma montagem com Condição."
+    },
+    {
+      "nome": "Eco + Cobrança25PE",
+      "obtido": 13,
+      "esperado": 13,
+      "ok": true,
+      "hipotese": "Uma metade, consome ambos; não quarto."
+    },
+    {
+      "nome": "Eco + Cobrança + Dívida4",
+      "obtido": 9,
+      "esperado": 9,
+      "ok": true,
+      "hipotese": "Metade do custo normal9, dívida4sódepois."
+    },
+    {
+      "nome": "Classe0 consome descontos",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true,
+      "hipotese": "Consumo consta do texto; a aritmética não simula contador."
+    },
+    {
+      "nome": "Sugar exclui parcela parcial",
+      "obtido": 5,
+      "esperado": 5,
+      "ok": true,
+      "hipotese": "Inicial elegível20;10deCerteironãoaplicamSugar."
+    },
+    {
+      "nome": "Queima dois tiros4d8 válidos",
+      "obtido": 4,
+      "esperado": 4,
+      "ok": true,
+      "hipotese": "Dois pacotes2d8, não metade do pool total por tiro."
+    },
+    {
+      "nome": "Estilhaço origem4d8",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true,
+      "hipotese": "Uma origem4d8antesdocrítico; sem multiplicar pelo número de acertos iniciais."
+    },
+    {
+      "nome": "Remate inicial + Queima",
+      "obtido": 14.0,
+      "esperado": 14,
+      "ok": true,
+      "hipotese": "Multiplicador só inicial; quatro dados na repetição."
+    },
+    {
+      "nome": "Divide preserva total ímpar",
+      "obtido": 21,
+      "esperado": 21,
+      "ok": true,
+      "hipotese": "Antes das defesas próprias do destinatário; sem retransferência."
+    },
+    {
+      "nome": "Minuto em seis segundos",
+      "obtido": 10,
+      "esperado": 10,
+      "ok": true,
+      "hipotese": "Prazo cronológico do efeito; Fica é exceção expressa."
+    },
+    {
+      "nome": "Fica seis janelas",
+      "obtido": 6,
+      "esperado": 6,
+      "ok": true,
+      "hipotese": "Rodada inicial e cinco seguintes; uma resolução por alvo por rodada."
+    }
+  ],
+  "resultado_contas": {
+    "executadas": 14,
+    "aprovadas": 14
+  },
+  "visual_paginas_1_a_15": [
+    {
+      "pagina": 1,
+      "arquivo_renderizado": "/tmp/catalogo-qa-final/pagina-01.png",
+      "sha256_png": "be12884202d3a3a9e6b0d73d098fd197f44a52bb4c2c5e1fa5f0c10a526ba823",
+      "inspecao_real": "Imagem aberta e examinada por view_image.",
+      "resultado": "sem corte, sobreposição, glifo quebrado ou invasão de margem/rodapé observados",
+      "nota": "Tabela e destinos de navegação legíveis."
+    },
+    {
+      "pagina": 2,
+      "arquivo_renderizado": "/tmp/catalogo-qa-final/pagina-02.png",
+      "sha256_png": "2e8ff7c63dcc857d02cb22848b2e148de7497fc8a8ae34a6bf1337bd5abdaae4",
+      "inspecao_real": "Imagem aberta e examinada por view_image.",
+      "resultado": "sem corte, sobreposição, glifo quebrado ou invasão de margem/rodapé observados",
+      "nota": "Espaço inferior amplo; preserva a página temática e não prejudica a leitura."
+    },
+    {
+      "pagina": 3,
+      "arquivo_renderizado": "/tmp/catalogo-qa-final/pagina-03.png",
+      "sha256_png": "cf3cf38c7da4fe719b2797b352edbbce5b2575e09e89165f023619728ecbfb50",
+      "inspecao_real": "Imagem aberta e examinada por view_image.",
+      "resultado": "sem corte, sobreposição, glifo quebrado ou invasão de margem/rodapé observados",
+      "nota": "Espaço inferior amplo; preserva a página temática e não prejudica a leitura."
+    },
+    {
+      "pagina": 4,
+      "arquivo_renderizado": "/tmp/catalogo-qa-final/pagina-04.png",
+      "sha256_png": "450176ed5813d759db2296134ae0e133c36c50214317c3c03327be37393ee09b",
+      "inspecao_real": "Imagem aberta e examinada por view_image.",
+      "resultado": "sem corte, sobreposição, glifo quebrado ou invasão de margem/rodapé observados",
+      "nota": "Hierarquia de títulos, parágrafos e margens consistente."
+    },
+    {
+      "pagina": 5,
+      "arquivo_renderizado": "/tmp/catalogo-qa-final/pagina-05.png",
+      "sha256_png": "27c099c7c75844238169aa3f0ec12b1c390cb1f3103851530b516e9bd45cc602",
+      "inspecao_real": "Imagem aberta e examinada por view_image.",
+      "resultado": "sem corte, sobreposição, glifo quebrado ou invasão de margem/rodapé observados",
+      "nota": "Hierarquia de títulos, parágrafos e margens consistente."
+    },
+    {
+      "pagina": 6,
+      "arquivo_renderizado": "/tmp/catalogo-qa-final/pagina-06.png",
+      "sha256_png": "f4ce3c09417fdacfea8c58183718494088a3c0fbf67ff427337eb95fbe97b32c",
+      "inspecao_real": "Imagem aberta e examinada por view_image.",
+      "resultado": "sem corte, sobreposição, glifo quebrado ou invasão de margem/rodapé observados",
+      "nota": "Espaço inferior amplo; preserva a página temática e não prejudica a leitura."
+    },
+    {
+      "pagina": 7,
+      "arquivo_renderizado": "/tmp/catalogo-qa-final/pagina-07.png",
+      "sha256_png": "406f3aff5c9505664a4df05cea126cfd9f01fe58aabbbeb45bd3fbfd46bde097",
+      "inspecao_real": "Imagem aberta e examinada por view_image.",
+      "resultado": "sem corte, sobreposição, glifo quebrado ou invasão de margem/rodapé observados",
+      "nota": "Espaço inferior amplo; preserva a página temática e não prejudica a leitura."
+    },
+    {
+      "pagina": 8,
+      "arquivo_renderizado": "/tmp/catalogo-qa-final/pagina-08.png",
+      "sha256_png": "eed62cc2f1fefd7b836aac20d5d85a6ee0d89b29b501d71b46d7a9bb0f8db03c",
+      "inspecao_real": "Imagem aberta e examinada por view_image.",
+      "resultado": "sem corte, sobreposição, glifo quebrado ou invasão de margem/rodapé observados",
+      "nota": "Hierarquia de títulos, parágrafos e margens consistente."
+    },
+    {
+      "pagina": 9,
+      "arquivo_renderizado": "/tmp/catalogo-qa-final/pagina-09.png",
+      "sha256_png": "c282b82ba793524feeea9fafa4821f7ab4c98cad1b05cea237087daedc4de090",
+      "inspecao_real": "Imagem aberta e examinada por view_image.",
+      "resultado": "sem corte, sobreposição, glifo quebrado ou invasão de margem/rodapé observados",
+      "nota": "Hierarquia de títulos, parágrafos e margens consistente."
+    },
+    {
+      "pagina": 10,
+      "arquivo_renderizado": "/tmp/catalogo-qa-final/pagina-10.png",
+      "sha256_png": "dc6afcb9a08671a0b264d5d0ddd290916f590cfe397b2b5670a2b65b13f13d70",
+      "inspecao_real": "Imagem aberta e examinada por view_image.",
+      "resultado": "sem corte, sobreposição, glifo quebrado ou invasão de margem/rodapé observados",
+      "nota": "Hierarquia de títulos, parágrafos e margens consistente."
+    },
+    {
+      "pagina": 11,
+      "arquivo_renderizado": "/tmp/catalogo-qa-final/pagina-11.png",
+      "sha256_png": "daeda7abd36a8667b526ab7df289d3c98983cde8e56f3275fc359a96e9bfe139",
+      "inspecao_real": "Imagem aberta e examinada por view_image.",
+      "resultado": "sem corte, sobreposição, glifo quebrado ou invasão de margem/rodapé observados",
+      "nota": "Hierarquia de títulos, parágrafos e margens consistente."
+    },
+    {
+      "pagina": 12,
+      "arquivo_renderizado": "/tmp/catalogo-qa-final/pagina-12.png",
+      "sha256_png": "fd68d4c3d4baaa341e2fb88bb40fb304612207212661e5ffd59d4064a52e9d01",
+      "inspecao_real": "Imagem aberta e examinada por view_image.",
+      "resultado": "sem corte, sobreposição, glifo quebrado ou invasão de margem/rodapé observados",
+      "nota": "Hierarquia de títulos, parágrafos e margens consistente."
+    },
+    {
+      "pagina": 13,
+      "arquivo_renderizado": "/tmp/catalogo-qa-final/pagina-13.png",
+      "sha256_png": "dbffd17faa7bd5a1d69a93263973cf16a4a33425e531c3dbc6a9451ed47b4e6c",
+      "inspecao_real": "Imagem aberta e examinada por view_image.",
+      "resultado": "sem corte, sobreposição, glifo quebrado ou invasão de margem/rodapé observados",
+      "nota": "Hierarquia de títulos, parágrafos e margens consistente."
+    },
+    {
+      "pagina": 14,
+      "arquivo_renderizado": "/tmp/catalogo-qa-final/pagina-14.png",
+      "sha256_png": "1ad088891399bd2060f31df1e218c1565fb91a1e82476f546ff5d0b240f87407",
+      "inspecao_real": "Imagem aberta e examinada por view_image.",
+      "resultado": "sem corte, sobreposição, glifo quebrado ou invasão de margem/rodapé observados",
+      "nota": "Hierarquia de títulos, parágrafos e margens consistente."
+    },
+    {
+      "pagina": 15,
+      "arquivo_renderizado": "/tmp/catalogo-qa-final/pagina-15.png",
+      "sha256_png": "5e046408f6da8adba69d5844b405150f4e0ef89c2a772249c7c664187b45810b",
+      "inspecao_real": "Imagem aberta e examinada por view_image.",
+      "resultado": "sem corte, sobreposição, glifo quebrado ou invasão de margem/rodapé observados",
+      "nota": "Página mais densa; tabela completa e último parágrafo acima do rodapé, legíveis."
+    }
+  ],
+  "problemas_visuais": [],
+  "riscos_mantidos": [
+    "Rajada aumenta bastante a chance de aplicar Controle; quatro tentativas50%têm93,75%de pelo menos um acerto. Preservado por decisão, sem certificação de equilíbrio de mesa.",
+    "Durações de um minuto são dez rodadas; isso amplia janelas em relação ao relógio antigo. Somente Fica recebeu exceção mecânica própria.",
+    "F26 não cria uma lista de condições benéficas; a interface com Condições R03 permanece explícita na matriz.",
+    "Morrendo/Integridade continuam revisão posterior e afetam a interpretação futura de Levanta/Remenda."
+  ],
+  "limites": [
+    "Inspeção visual somente páginas1–15; páginas16–30 sob responsabilidade do principal.",
+    "Não foram executados jogadores, inimigos, mapas, iniciativa, Bloquear ou combate completo. Contas usam hipóteses explícitas.",
+    "O relatório não aprova efeitos próprios futuros nem combinatórias fora dos casos examinados.",
+    "Nenhum manuscrito ou fonte R06 foi alterado. Gravações limitadas à matriz e a este relatório de evidências."
+  ]
+}

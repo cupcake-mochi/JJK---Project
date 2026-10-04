@@ -1,0 +1,166 @@
+{
+  "sha256_texto": "dbb34c8384587288ccebca3a7c4932f90c377ad0751677b48ede38f596f4dd29",
+  "decisoes": [
+    {
+      "id": "AB-01",
+      "antes": "Abertura pela cena, sem apresentação suficiente do jogo.",
+      "depois": "Apresentação de RPG, mundo, criação e depois cena.",
+      "motivo": "Pedido do usuário: recuperar voz e identidade de livro de RPG.",
+      "tipo": "editorial ou reconciliação candidata"
+    },
+    {
+      "id": "AB-02",
+      "antes": "Parágrafos genéricos sobre escolha e história.",
+      "depois": "Papéis, exemplo da porta e materiais.",
+      "motivo": "Concretude e procedimento sem repetir a mesma promessa.",
+      "tipo": "editorial ou reconciliação candidata"
+    },
+    {
+      "id": "AB-03",
+      "antes": "Guilda repetida em várias páginas.",
+      "depois": "Uma definição inicial e remissões de registro.",
+      "motivo": "Distinguir comunidade de instituição fictícia.",
+      "tipo": "editorial ou reconciliação candidata"
+    },
+    {
+      "id": "AB-04",
+      "antes": "Leitor presumido como feiticeiro humano.",
+      "depois": "Possibilidades remetem às Origens.",
+      "motivo": "Incluir opções já permitidas pelo sistema.",
+      "tipo": "editorial ou reconciliação candidata"
+    },
+    {
+      "id": "AB-05",
+      "antes": "Mundo explicado quase só por regras.",
+      "depois": "Duas seções com fatos primários verificados.",
+      "motivo": "Acolher leitor sem inventar cânone.",
+      "tipo": "editorial ou reconciliação candidata"
+    },
+    {
+      "id": "AB-06",
+      "antes": "Promessa de jogar sem outras partes.",
+      "depois": "Exemplo guiado explicitamente parcial.",
+      "motivo": "Criatura e personagem não têm fichas completas para escolhas abertas.",
+      "tipo": "editorial ou reconciliação candidata"
+    },
+    {
+      "id": "AB-07",
+      "antes": "Passiva Livre de Kaori alterava peso sem limite.",
+      "depois": "Marcas de balança visuais nas palmas.",
+      "motivo": "Passiva visual revisada não concede Controle gratuito.",
+      "tipo": "editorial ou reconciliação candidata"
+    },
+    {
+      "id": "AB-08",
+      "antes": "Ficha dita completa omitia quatro aplicações.",
+      "depois": "Quadro parcial, sem inventar cinco feitiços na abertura.",
+      "motivo": "Transparência de escopo e carga de leitura.",
+      "tipo": "editorial ou reconciliação candidata"
+    },
+    {
+      "id": "AB-09",
+      "antes": "Tabela punha Ofícios no Caminho.",
+      "depois": "Dois Ofícios da Origem,9+2ou10+0treinos.",
+      "motivo": "Reconciliar fonte e dono.",
+      "tipo": "editorial ou reconciliação candidata"
+    },
+    {
+      "id": "AB-10",
+      "antes": "Atributo da técnica omitido no roteiro.",
+      "depois": "Escolha explícita antes de acerto e CD.",
+      "motivo": "Conta reproduzível.",
+      "tipo": "editorial ou reconciliação candidata"
+    },
+    {
+      "id": "AB-11",
+      "antes": "Classe0 confundida com espaços.",
+      "depois": "Três espaços e doisClasse0 no nível2.",
+      "motivo": "Aquisições têm contagens distintas.",
+      "tipo": "editorial ou reconciliação candidata"
+    },
+    {
+      "id": "AB-12",
+      "antes": "Rotas sem orientação inicial.",
+      "depois": "Tabela com destinos Manejos/Katas/Fundamento.",
+      "motivo": "Localizar sem duplicar catálogo.",
+      "tipo": "editorial ou reconciliação candidata"
+    },
+    {
+      "id": "AB-13",
+      "antes": "Nível e patente confundidos.",
+      "depois": "Padrão nível2/Grau4,distinção expressa.",
+      "motivo": "Impedir acesso de compra automático.",
+      "tipo": "editorial ou reconciliação candidata"
+    },
+    {
+      "id": "AB-14",
+      "antes": "Garras diziam sai5 de dano.",
+      "depois": "d6=3,+2,total5.",
+      "motivo": "Preservar18PVcom dado e total separados.",
+      "tipo": "editorial ou reconciliação candidata"
+    },
+    {
+      "id": "AB-15",
+      "antes": "Posições vagas.",
+      "depois": "Alvo1,5m,porta3m,passagemlivre.",
+      "motivo": "Provar alcance e saldo de movimento.",
+      "tipo": "editorial ou reconciliação candidata"
+    },
+    {
+      "id": "AB-16",
+      "antes": "Feitiço sem custo e orçamento.",
+      "depois": "3PE,Toque,3d8+Derrubado;3+1−1=3.",
+      "motivo": "Funcionalidade verificável.",
+      "tipo": "editorial ou reconciliação candidata"
+    },
+    {
+      "id": "AB-17",
+      "antes": "Habilidades do Bastião repetidas no tutorial.",
+      "depois": "Só aplicação própria e valores usados na cena.",
+      "motivo": "Regras de habilidades nos seus donos.",
+      "tipo": "editorial ou reconciliação candidata"
+    },
+    {
+      "id": "AB-18",
+      "antes": "Fim de combate ambíguo sobre recuperação.",
+      "depois": "18PV/5PEconservados,retirada ainda necessária.",
+      "motivo": "Separar combate,missão e descanso.",
+      "tipo": "editorial ou reconciliação candidata"
+    },
+    {
+      "id": "AB-19",
+      "antes": "Mini-sumário extenso duplicado.",
+      "depois": "Destinos curtos por tarefa.",
+      "motivo": "Índice completo terá donoR23.",
+      "tipo": "editorial ou reconciliação candidata"
+    },
+    {
+      "id": "AB-20",
+      "antes": "Pesquisa e decisões técnicas na prosa.",
+      "depois": "Evidências à parte.",
+      "motivo": "Texto voltado ao jogador.",
+      "tipo": "editorial ou reconciliação candidata"
+    },
+    {
+      "id": "AB-21",
+      "antes": "Primeira redação generalizou conceito de invocação a toda aquisição.",
+      "depois": "Só troca por espaço exige conceito;outrasformasremetem ao dono.",
+      "motivo": "Achado independenteR22-P2:domar/fabricar não exigem técnica de invocação.",
+      "tipo": "editorial ou reconciliação candidata"
+    },
+    {
+      "id": "AB-22",
+      "tipo": "editorial",
+      "antes": "PV,PE e CD pressupostos;armas chamadas permitidas.",
+      "depois": "Siglas expandidas na primeira ocorrência;treino com armas.",
+      "motivo": "Dois achados do leitor independente para iniciante e distinção entre treino e requisito de uso."
+    },
+    {
+      "id": "REM11",
+      "antes": "Durante a sessão, consulte os capítulos pelo assunto: Testes, Movimento, Combate, Dano e recuperação ou Equipamento.",
+      "depois": "Durante a sessão, consulte Regras gerais para testes, movimento e ataques, Dano e recuperação para as consequências e Equipamento para os itens.",
+      "motivo": "Correção localizada aprovada pela raiz após auditoria de remissões; mantém mecânica e valores.",
+      "tipo": "editorial"
+    }
+  ]
+}

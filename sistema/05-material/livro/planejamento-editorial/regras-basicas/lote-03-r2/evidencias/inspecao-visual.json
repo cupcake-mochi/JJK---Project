@@ -1,0 +1,63 @@
+{
+  "data": "2026-10-03",
+  "sha256_pdf": "f30a3f135e61c93fb5d3afacce325061abbb143f4083541e960af28fddf9adb5",
+  "metodo": "Renderização completa; página 2 inspecionada nesta revisão, demais sete imagens idênticas às já inspecionadas, por SHA-256.",
+  "paginas": [
+    {
+      "pagina": 1,
+      "imagem": "/tmp/projeto-m-forca-1.png",
+      "sha256_png": "2dcf9cee2b83d040ddc5ae54733071c754726159c751883db1c0b860b036c3ad",
+      "resultado": "sem defeito visual observado",
+      "observacao": "Títulos, tabelas, exemplos, margens e rodapé legíveis; sem recorte ou sobreposição."
+    },
+    {
+      "pagina": 2,
+      "imagem": "/tmp/projeto-m-forca-2.png",
+      "sha256_png": "09a8286684a1d4d4fafadcaa5b52f3f776a4389f90beba48fa1b88fb3a085830",
+      "resultado": "sem defeito visual observado",
+      "observacao": "Títulos, tabelas, exemplos, margens e rodapé legíveis; sem recorte ou sobreposição."
+    },
+    {
+      "pagina": 3,
+      "imagem": "/tmp/projeto-m-forca-3.png",
+      "sha256_png": "d4a7e463c546f0beb37eed03a4d55e967d46db8c7c65349509d2f10ea684766b",
+      "resultado": "sem defeito visual observado",
+      "observacao": "Títulos, tabelas, exemplos, margens e rodapé legíveis; sem recorte ou sobreposição."
+    },
+    {
+      "pagina": 4,
+      "imagem": "/tmp/projeto-m-forca-4.png",
+      "sha256_png": "3bc770376bb1eb39d0355888a32511c210be38c7fd213d418660ce9ecf28f36f",
+      "resultado": "sem defeito visual observado",
+      "observacao": "Títulos, tabelas, exemplos, margens e rodapé legíveis; sem recorte ou sobreposição."
+    },
+    {
+      "pagina": 5,
+      "imagem": "/tmp/projeto-m-forca-5.png",
+      "sha256_png": "0c7995e4a6c8bbaa0fa3e338c67c888415faa7f405f4800c3bbb729d51dde090",
+      "resultado": "sem defeito visual observado",
+      "observacao": "Títulos, tabelas, exemplos, margens e rodapé legíveis; sem recorte ou sobreposição."
+    },
+    {
+      "pagina": 6,
+      "imagem": "/tmp/projeto-m-forca-6.png",
+      "sha256_png": "9fa01037fef63b0d64c589542d2fc54e7cf08078532fb3264073033d33c10efd",
+      "resultado": "sem defeito visual observado",
+      "observacao": "Títulos, tabelas, exemplos, margens e rodapé legíveis; sem recorte ou sobreposição."
+    },
+    {
+      "pagina": 7,
+      "imagem": "/tmp/projeto-m-forca-7.png",
+      "sha256_png": "dfb911f714848121a7393897eeafee5d6a2ef1fbde98406f854133d13944f213",
+      "resultado": "sem defeito visual observado",
+      "observacao": "Títulos, tabelas, exemplos, margens e rodapé legíveis; sem recorte ou sobreposição."
+    },
+    {
+      "pagina": 8,
+      "imagem": "/tmp/projeto-m-forca-8.png",
+      "sha256_png": "8fbe2133a17ba92e700ceaa0093a8a43edb06ea376ec6c5cb588b2e6b2a0ddc4",
+      "resultado": "sem defeito visual observado",
+      "observacao": "Títulos, tabelas, exemplos, margens e rodapé legíveis; sem recorte ou sobreposição."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "sha256_texto": "743f954c5be1033034a71bbae0e8383bffdb82944e28341e5ee089338bb0b85b",
+  "titulos_revisto": true,
+  "sem_explicacao_alheia": true,
+  "vocabulario_revisto": true,
+  "excecoes_vocabulario": [],
+  "excecoes_localizacao": [
+    {
+      "termo": "Canalizar em Golpe",
+      "trecho": "Se o Classe 0 causar dano, substitui os dados de Canalizar em Golpe ou Estímulo Muscular naquele golpe, em vez de somar-se a esses dados. O ataque mantém o dano próprio da arma e seu atributo.",
+      "papel": "incompatibilidade",
+      "justificativa": "Ferrão substitui estes dados no golpe. Identifica a exclusão sem reproduzir o procedimento da aptidão.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Estímulo Muscular",
+      "trecho": "Se o Classe 0 causar dano, substitui os dados de Canalizar em Golpe ou Estímulo Muscular naquele golpe, em vez de somar-se a esses dados. O ataque mantém o dano próprio da arma e seu atributo.",
+      "papel": "incompatibilidade",
+      "justificativa": "Ferrão substitui estes dados no golpe. Identifica a exclusão sem reproduzir o procedimento da aptidão.",
+      "nao_reproduz_regra": true
+    }
+  ],
+  "revisor": "Agente principal; fonte completa e candidata confrontadas"
+}

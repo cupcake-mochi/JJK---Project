@@ -1,0 +1,74 @@
+{
+  "ordem": [
+    "equipamento",
+    "graus",
+    "uso",
+    "aquisicao",
+    "armas",
+    "roupas",
+    "protecao",
+    "acessorios",
+    "reliquias",
+    "desgaste",
+    "objetos"
+  ],
+  "titulos": {
+    "equipamento": "Equipamento amaldiçoado",
+    "graus": "Graus das ferramentas",
+    "uso": "Itens em uso",
+    "aquisicao": "Aquisição e criação",
+    "armas": "Armas amaldiçoadas",
+    "roupas": "Roupas e trajes",
+    "protecao": "Proteções amaldiçoadas",
+    "acessorios": "Acessórios e outros efeitos",
+    "reliquias": "Armas de grau elevado",
+    "desgaste": "Desgaste",
+    "objetos": "Objetos amaldiçoados"
+  },
+  "paginas": {
+    "equipamento": 1,
+    "graus": 2,
+    "uso": 3,
+    "aquisicao": 4,
+    "armas": 5,
+    "roupas": 6,
+    "protecao": 7,
+    "acessorios": 8,
+    "reliquias": 9,
+    "desgaste": 10,
+    "objetos": 11
+  },
+  "grupos": [
+    [
+      "Ferramentas",
+      [
+        "equipamento",
+        "graus",
+        "uso",
+        "aquisicao"
+      ]
+    ],
+    [
+      "Catálogo",
+      [
+        "armas",
+        "roupas",
+        "protecao",
+        "acessorios",
+        "reliquias"
+      ]
+    ],
+    [
+      "Desgaste",
+      [
+        "desgaste"
+      ]
+    ],
+    [
+      "Objetos amaldiçoados",
+      [
+        "objetos"
+      ]
+    ]
+  ]
+}

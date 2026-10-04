@@ -1,0 +1,288 @@
+{
+  "issues": [
+    {
+      "codigo": "E002",
+      "linha": 615,
+      "termo": "Incursor",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "| Ágil (nome anterior) | Incursor |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono."
+    },
+    {
+      "codigo": "E002",
+      "linha": 621,
+      "termo": "Analista",
+      "donos": [
+        "guia"
+      ],
+      "trecho": "| Analista | Analista |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono."
+    },
+    {
+      "codigo": "E002",
+      "linha": 629,
+      "termo": "Arquiteto",
+      "donos": [
+        "guia"
+      ],
+      "trecho": "| Arquiteto | Arquiteto |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono."
+    },
+    {
+      "codigo": "E002",
+      "linha": 631,
+      "termo": "Assassino",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "| Assassino | Assassino |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono."
+    },
+    {
+      "codigo": "E002",
+      "linha": 646,
+      "termo": "Bastião",
+      "donos": [
+        "bastião"
+      ],
+      "trecho": "| Bastião | Bastião |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono."
+    },
+    {
+      "codigo": "E002",
+      "linha": 652,
+      "termo": "Canalizar em Golpe",
+      "donos": [
+        "aptidoes"
+      ],
+      "trecho": "| Canalizar em Golpe | Canalizar Energia |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono."
+    },
+    {
+      "codigo": "E002",
+      "linha": 652,
+      "termo": "Canalizar energia",
+      "donos": [
+        "aptidoes"
+      ],
+      "trecho": "| Canalizar em Golpe | Canalizar Energia |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono."
+    },
+    {
+      "codigo": "E002",
+      "linha": 654,
+      "termo": "Catalisador",
+      "donos": [
+        "emanador"
+      ],
+      "trecho": "| Catalisador | Catalisador |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono."
+    },
+    {
+      "codigo": "E002",
+      "linha": 663,
+      "termo": "Combatente Amaldiçoado",
+      "donos": [
+        "bastião"
+      ],
+      "trecho": "| Combatente Amaldiçoado | Combatente Amaldiçoado |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono."
+    },
+    {
+      "codigo": "E002",
+      "linha": 670,
+      "termo": "Combinar Aprimoramentos",
+      "donos": [
+        "evocador"
+      ],
+      "trecho": "| Combinar Aprimoramentos | Combinar Aprimoramentos |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono."
+    },
+    {
+      "codigo": "E002",
+      "linha": 675,
+      "termo": "Condutor Armado",
+      "donos": [
+        "emanador"
+      ],
+      "trecho": "| Condutor Armado | Condutor Armado |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono."
+    },
+    {
+      "codigo": "E002",
+      "linha": 679,
+      "termo": "Corpo Amaldiçoado",
+      "donos": [
+        "origens",
+        "invocacoes"
+      ],
+      "trecho": "| Corpo amaldiçoado | Invocações: Corpos amaldiçoados |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono."
+    },
+    {
+      "codigo": "E002",
+      "linha": 680,
+      "termo": "Corpo Amaldiçoado",
+      "donos": [
+        "origens",
+        "invocacoes"
+      ],
+      "trecho": "| Corpo Amaldiçoado (Origem) | Corpo Amaldiçoado |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono."
+    },
+    {
+      "codigo": "E002",
+      "linha": 703,
+      "termo": "Emanador",
+      "donos": [
+        "emanador"
+      ],
+      "trecho": "| Emanador | Emanador |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono."
+    },
+    {
+      "codigo": "E002",
+      "linha": 720,
+      "termo": "Evocador",
+      "donos": [
+        "evocador"
+      ],
+      "trecho": "| Evocador | Evocador |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono."
+    },
+    {
+      "codigo": "E002",
+      "linha": 739,
+      "termo": "Fluidez",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "| Fluidez | Fluidez |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono."
+    },
+    {
+      "codigo": "E002",
+      "linha": 755,
+      "termo": "Incursor",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "| Incursor | Incursor |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono."
+    },
+    {
+      "codigo": "E002",
+      "linha": 782,
+      "termo": "Malabarista",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "| Malabarista | Malabarista |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono."
+    },
+    {
+      "codigo": "E002",
+      "linha": 785,
+      "termo": "Manifestação em Grupo",
+      "donos": [
+        "evocador"
+      ],
+      "trecho": "| Manifestação em Grupo | Manifestação em Grupo |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono."
+    },
+    {
+      "codigo": "E002",
+      "linha": 787,
+      "termo": "Mão Firme",
+      "donos": [
+        "aptidoes",
+        "fundamento"
+      ],
+      "trecho": "| Mão Firme | Catálogo: Passivas de Classe 1 |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono."
+    },
+    {
+      "codigo": "E002",
+      "linha": 797,
+      "termo": "Pugilista",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "| Monge (nome anterior) | Pugilista |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono."
+    },
+    {
+      "codigo": "E002",
+      "linha": 800,
+      "termo": "Múltiplas Invocações",
+      "donos": [
+        "evocador"
+      ],
+      "trecho": "| Múltiplas Invocações | Múltiplas Invocações |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono."
+    },
+    {
+      "codigo": "E002",
+      "linha": 832,
+      "termo": "Pontos de Vínculo",
+      "donos": [
+        "evocador"
+      ],
+      "trecho": "| Pontos de Vínculo | Vínculo |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono."
+    },
+    {
+      "codigo": "E002",
+      "linha": 840,
+      "termo": "Pugilista",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "| Pugilista | Pugilista |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono."
+    },
+    {
+      "codigo": "E002",
+      "linha": 860,
+      "termo": "Ressonante",
+      "donos": [
+        "emanador"
+      ],
+      "trecho": "| Ressonante | Ressonante |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono."
+    },
+    {
+      "codigo": "E002",
+      "linha": 873,
+      "termo": "Socorrista",
+      "donos": [
+        "guia"
+      ],
+      "trecho": "| Socorrista | Socorrista |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono."
+    },
+    {
+      "codigo": "E002",
+      "linha": 900,
+      "termo": "Vanguarda",
+      "donos": [
+        "vanguarda"
+      ],
+      "trecho": "| Vanguarda | Vanguarda |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono."
+    },
+    {
+      "codigo": "E002",
+      "linha": 903,
+      "termo": "Escola de Arma",
+      "donos": [
+        "vanguarda"
+      ],
+      "trecho": "| Versado | Prazo e Escola de Arma |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono."
+    }
+  ],
+  "vocabulario": []
+}

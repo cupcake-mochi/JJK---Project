@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "sha256_texto": "297d96084502eb65780b9ed2ac4f7e121a235cfdbb6e41db254f980e55393dcd",
+  "revisor": "subagente maxima",
+  "cobertura": "COBERTURA.json",
+  "decisoes": "../ALTERACOES.json",
+  "limites": [
+    "Validação autoral contra fonte; não revisão independente.",
+    "Decisões candidatas resolvem lacunas, não são fatos da obra.",
+    "Revisão de morte/Integridade continua pendente."
+  ],
+  "sincronizacao_final": {
+    "arquivo": "SINCRONIZACAO-FINAL.json",
+    "ok": true,
+    "verificacoes": 187
+  },
+  "delta_nominal": {
+    "leitor": "/root",
+    "alteracoes": "Migração de nomes, concordância e remissões atuais; fórmulas e procedimentos invariantes.",
+    "evidencia": "consolidacao/lote-01/migracao-nomes/diffs/campo.diff",
+    "auditoria_reexecutada": "evidencias/auditoria-numerica.json"
+  }
+}

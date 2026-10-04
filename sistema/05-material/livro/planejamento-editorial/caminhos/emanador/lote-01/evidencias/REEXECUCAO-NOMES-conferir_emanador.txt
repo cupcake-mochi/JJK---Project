@@ -1,0 +1,12 @@
+{
+  "aprovado": true,
+  "quantidades": {
+    "checks": 92,
+    "casos": 62,
+    "orcamentos": 35553,
+    "perfis_custo": 72,
+    "perfis_probabilidade": 133,
+    "mutacoes": 5
+  },
+  "falhas": []
+}

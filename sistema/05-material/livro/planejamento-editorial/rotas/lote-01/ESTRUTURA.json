@@ -1,0 +1,117 @@
+{
+  "ordem": [
+    "rotas",
+    "rota-marcial",
+    "rota-armas",
+    "rota-ferramenta",
+    "rota-passivas-marciais",
+    "rota-passivas-resposta",
+    "rota-fisga",
+    "rota-bancada",
+    "rota-invocacoes",
+    "rota-sem-tecnica",
+    "rota-sementes",
+    "rota-cura",
+    "rota-redoma",
+    "rota-sutura",
+    "rota-espinho",
+    "rota-lapidacao",
+    "rota-bencaos",
+    "rota-defesa",
+    "rota-estimulo",
+    "rota-corpo",
+    "rota-perseguicao",
+    "rota-combate",
+    "rota-propria"
+  ],
+  "titulos": {
+    "rotas": "Rotas de criação",
+    "rota-marcial": "Técnica Marcial",
+    "rota-armas": "Armas",
+    "rota-ferramenta": "Ferramenta",
+    "rota-passivas-marciais": "Talentos marciais",
+    "rota-passivas-resposta": "Talentos de resposta",
+    "rota-fisga": "Fisga",
+    "rota-bancada": "Bancada",
+    "rota-invocacoes": "Invocações nas rotas",
+    "rota-sem-tecnica": "Sem Técnica",
+    "rota-sementes": "Sementes",
+    "rota-cura": "Cura",
+    "rota-redoma": "Redoma",
+    "rota-sutura": "Sutura Fria",
+    "rota-espinho": "Espinho",
+    "rota-lapidacao": "Lapidação",
+    "rota-bencaos": "Bênçãos",
+    "rota-defesa": "Defesa sem Armadura",
+    "rota-estimulo": "Estímulo Muscular",
+    "rota-corpo": "Bênçãos de corpo",
+    "rota-perseguicao": "Bênçãos de perseguição",
+    "rota-combate": "Bênçãos de combate",
+    "rota-propria": "Bênção Própria"
+  },
+  "paginas": {
+    "rotas": 1,
+    "rota-marcial": 2,
+    "rota-armas": 3,
+    "rota-ferramenta": 4,
+    "rota-passivas-marciais": 5,
+    "rota-passivas-resposta": 6,
+    "rota-fisga": 7,
+    "rota-bancada": 8,
+    "rota-invocacoes": 9,
+    "rota-sem-tecnica": 10,
+    "rota-sementes": 11,
+    "rota-cura": 12,
+    "rota-redoma": 13,
+    "rota-sutura": 14,
+    "rota-espinho": 15,
+    "rota-lapidacao": 16,
+    "rota-bencaos": 17,
+    "rota-defesa": 18,
+    "rota-estimulo": 19,
+    "rota-corpo": 20,
+    "rota-perseguicao": 21,
+    "rota-combate": 22,
+    "rota-propria": 23
+  },
+  "grupos": [
+    [
+      "Rotas e Técnica Marcial",
+      [
+        "rotas",
+        "rota-marcial",
+        "rota-armas",
+        "rota-ferramenta",
+        "rota-passivas-marciais",
+        "rota-passivas-resposta",
+        "rota-fisga",
+        "rota-bancada",
+        "rota-invocacoes"
+      ]
+    ],
+    [
+      "Sem Técnica e sementes",
+      [
+        "rota-sem-tecnica",
+        "rota-sementes",
+        "rota-cura",
+        "rota-redoma",
+        "rota-sutura",
+        "rota-espinho"
+      ]
+    ],
+    [
+      "Lapidação e Bênçãos",
+      [
+        "rota-lapidacao",
+        "rota-bencaos",
+        "rota-defesa",
+        "rota-estimulo",
+        "rota-corpo",
+        "rota-perseguicao",
+        "rota-combate",
+        "rota-propria"
+      ]
+    ]
+  ]
+}

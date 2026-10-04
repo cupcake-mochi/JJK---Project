@@ -1,0 +1,1 @@
+{"paginas": 23, "marcadores_principais": 3, "marcadores_totais": 26, "grupos_recolhidos": 1, "caracteres": [1767, 1684, 1752, 1887, 1967, 1829, 1603, 1889, 1825, 1991, 1885, 1795, 1674, 1740, 1682, 2280, 1615, 2120, 1705, 2033, 1921, 1909, 2019]}

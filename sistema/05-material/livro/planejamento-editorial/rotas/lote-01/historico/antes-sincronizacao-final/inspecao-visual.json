@@ -1,0 +1,190 @@
+{
+  "sha256_pdf": "055176c0480599d4374970f88f004ce53a0b75b4b618e39c24e9e61623e05b42",
+  "metodo": "Todas as23 páginas foram inspecionadas em pares de PNG pelo principal. Página1 reinspecionada após melhorar tabela; outras22 idênticas pixel a pixel.",
+  "paginas": [
+    {
+      "pagina": 1,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, tabela, corpo e exemplo legíveis, sem colisão ou corte.",
+      "sha256_png": "53d0140cc928191280951c2346e4ab087397dd553203ecd42a71a7c166cb1a1f",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": false
+    },
+    {
+      "pagina": 2,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, tabela, corpo e exemplo legíveis, sem colisão ou corte.",
+      "sha256_png": "6a7035057d55e7045981650c6c3794e6df071d1462a300c4b32aa72e860a0ac4",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 3,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, tabela, corpo e exemplo legíveis, sem colisão ou corte.",
+      "sha256_png": "b8bf06d976c149201facfdaa3fb73690029e136f113d96c05612541b835b58ad",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 4,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, tabela, corpo e exemplo legíveis, sem colisão ou corte.",
+      "sha256_png": "ce77ecd0202c85882fa48bee57c9ea0a303687407c4eb4abf5ed6e252df84544",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 5,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, tabela, corpo e exemplo legíveis, sem colisão ou corte.",
+      "sha256_png": "a4d8364cf2b8f43f131d14545e1735c59fca1b206aabb1f7b31aab0b93374451",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 6,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, tabela, corpo e exemplo legíveis, sem colisão ou corte.",
+      "sha256_png": "49c2c74d5c126ff52ae0b53a0d56cd0d6fe75f9568768b4dc1ad0bcf1c5a9f03",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 7,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, tabela, corpo e exemplo legíveis, sem colisão ou corte.",
+      "sha256_png": "0b9fe7c60a69e18a9c764078849f2dfb7f2baeddbf59f37d42f48afbc3be805f",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 8,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, tabela, corpo e exemplo legíveis, sem colisão ou corte.",
+      "sha256_png": "a84660bac3a5e5dd3db4ac5a35d57968324b4a9e270a8a427d97826f4ba79fb4",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 9,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, tabela, corpo e exemplo legíveis, sem colisão ou corte.",
+      "sha256_png": "661c9ab0317f42c81ba84e9f2b240394ff40f8f33dd77f6a96cb7960e742c49e",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 10,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, tabela, corpo e exemplo legíveis, sem colisão ou corte.",
+      "sha256_png": "d85498e5514f6f312c9b951ff5d023d6bbaa530c921bf69ffbd34dc35a6aaeb6",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 11,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, tabela, corpo e exemplo legíveis, sem colisão ou corte.",
+      "sha256_png": "0717432097d890fa1f5e8f6b81708017964354828bf82ee60b2341b65847a370",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 12,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, tabela, corpo e exemplo legíveis, sem colisão ou corte.",
+      "sha256_png": "275e262f4d522c7af240c591178518e7493218e7309df92636a1eaf4fe2792d3",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 13,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, tabela, corpo e exemplo legíveis, sem colisão ou corte.",
+      "sha256_png": "9fb231ca809eb0cef3ce98d301a9c05e6aaee394ca1c125872572c573d08bb7d",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 14,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, tabela, corpo e exemplo legíveis, sem colisão ou corte.",
+      "sha256_png": "001464669b994b5296bcd8ef679cbc39b09be5ffe2fca29c08e89dc84c40483a",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 15,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, tabela, corpo e exemplo legíveis, sem colisão ou corte.",
+      "sha256_png": "b9fcd6fefce1278028de8ced39158c7b1c907ef2993eea1e480ad00c50851dea",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 16,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, tabela, corpo e exemplo legíveis, sem colisão ou corte.",
+      "sha256_png": "38efcd2391ae92b9e24a6bc144cef6814eb5ee6a9f221032c66b734e162da4db",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 17,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, tabela, corpo e exemplo legíveis, sem colisão ou corte.",
+      "sha256_png": "34d32d859bb4d3eff90247b6d9f23f03b41c94e925d205b2503ca0e2ff4e708d",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 18,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, tabela, corpo e exemplo legíveis, sem colisão ou corte.",
+      "sha256_png": "2fce0dcf28533fcee238140e5c81530c3a3d67e5832e2e1f1b6dd891c26b3d8c",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 19,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, tabela, corpo e exemplo legíveis, sem colisão ou corte.",
+      "sha256_png": "a50598c7474b3e28aa68a4674beee6199797fbcf4c8ae7c5454c0c62348fefaf",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 20,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, tabela, corpo e exemplo legíveis, sem colisão ou corte.",
+      "sha256_png": "a7d25e844a2a0c7e69226eb7d0964e450d10c6610094b67c528c0c43e158024b",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 21,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, tabela, corpo e exemplo legíveis, sem colisão ou corte.",
+      "sha256_png": "944e48f03115fe28138f14ce5212d1ff6e0523664073bada2401d3e5cd27d0ed",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 22,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, tabela, corpo e exemplo legíveis, sem colisão ou corte.",
+      "sha256_png": "dc013bb8aabc1d7b0861a712435af2a745e1e84f580935341a56fbc8a50ec0bb",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 23,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, tabela, corpo e exemplo legíveis, sem colisão ou corte.",
+      "sha256_png": "ef05cce7c5f90585b70ca2e73bfeb18643c7c36d9b0bc9296a39340cccd68e75",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    }
+  ]
+}

@@ -1,0 +1,639 @@
+{
+  "sha256_texto": "89a3f7bb705a7c931a3c69f4f051fb98d62acbc065ffa42dc48275f00e2afec1",
+  "revisor": "compatibilidade — releitura integral da consolidação",
+  "conclusao": "Autoria revisada. Revisão independente e visual ainda pendentes.",
+  "secoes": [
+    {
+      "pagina": "eq-equipamento",
+      "parecer_editorial": "Apresenta posição dos itens e os campos antes das tabelas. Separa treino de Força e carga.",
+      "caso_positivo": "Katana com Fineza usa Destreza sem requisito de Força.",
+      "caso_negativo": "Treino não elimina penalidade por Força insuficiente.",
+      "interfaces": "Combate e Movimento e Carga",
+      "criterios": [
+        "título e assunto",
+        "requisitos e momento",
+        "resultado e exceções",
+        "duração/saída quando aplicável",
+        "suficiência sem copiar capítulo alheio"
+      ],
+      "validacao_independente": "Pendente de revisor externo à autoria.",
+      "validacao_visual": "Pendente de prova e inspeção visual."
+    },
+    {
+      "pagina": "eq-manipular",
+      "parecer_editorial": "Custo aparece no primeiro parágrafo. Quadro cobre guardar, largar, sacar e item no chão.",
+      "caso_positivo": "Guardar grátis e sacar com Movimento inteiro são duas manipulações.",
+      "caso_negativo": "Metade do Movimento restante não paga outra manipulação.",
+      "interfaces": "R01 conversão e ações fora do turno",
+      "criterios": [
+        "título e assunto",
+        "requisitos e momento",
+        "resultado e exceções",
+        "duração/saída quando aplicável",
+        "suficiência sem copiar capítulo alheio"
+      ],
+      "validacao_independente": "Pendente de revisor externo à autoria.",
+      "validacao_visual": "Pendente de prova e inspeção visual."
+    },
+    {
+      "pagina": "eq-objetos",
+      "parecer_editorial": "Exemplos distinguem manipular de realizar tarefa, com risco declarado.",
+      "caso_positivo": "Vasculhar uma gaveta inclui abri-la.",
+      "caso_negativo": "Usar objeto não substitui ativação própria de uma ferramenta.",
+      "interfaces": "R04 testes e Ofícios",
+      "criterios": [
+        "título e assunto",
+        "requisitos e momento",
+        "resultado e exceções",
+        "duração/saída quando aplicável",
+        "suficiência sem copiar capítulo alheio"
+      ],
+      "validacao_independente": "Pendente de revisor externo à autoria.",
+      "validacao_visual": "Pendente de prova e inspeção visual."
+    },
+    {
+      "pagina": "eq-propriedades",
+      "parecer_editorial": "Cada propriedade tem função local; exemplo de Par distingue conjunto de soma de vantagem por dado.",
+      "caso_positivo": "Par com2d6 compara duas somas; atributo apenas uma vez.",
+      "caso_negativo": "Dados adicionais de um feitiço não entram nos conjuntos de Par.",
+      "interfaces": "R02 crítico, R18 Leve",
+      "criterios": [
+        "título e assunto",
+        "requisitos e momento",
+        "resultado e exceções",
+        "duração/saída quando aplicável",
+        "suficiência sem copiar capítulo alheio"
+      ],
+      "validacao_independente": "Pendente de revisor externo à autoria.",
+      "validacao_visual": "Pendente de prova e inspeção visual."
+    },
+    {
+      "pagina": "eq-oculta",
+      "parecer_editorial": "Oculta e Discreta são distinguíveis por inspeção e aparência, não por peso. Mantido total único por esconderijo.",
+      "caso_positivo": "Prestidigitação15 vence observação14 mas Investigação15 descobre.",
+      "caso_negativo": "Taco Discreto visível não é automaticamente oculto nas roupas.",
+      "interfaces": "R01 percepção passiva, investigação e tamanho",
+      "criterios": [
+        "título e assunto",
+        "requisitos e momento",
+        "resultado e exceções",
+        "duração/saída quando aplicável",
+        "suficiência sem copiar capítulo alheio"
+      ],
+      "validacao_independente": "Pendente de revisor externo à autoria.",
+      "validacao_visual": "Pendente de prova e inspeção visual."
+    },
+    {
+      "pagina": "eqp-protecao",
+      "parecer_editorial": "Fórmula e prioridades dos tetos antecedem escolha de peça. Perda temporária de Força tem saída.",
+      "caso_positivo": "Traje2+Médio comDex4 dáDefesa17.",
+      "caso_negativo": "Perder requisito não devolve defesa passiva sob uniforme.",
+      "interfaces": "R09/R10 proteção passiva",
+      "criterios": [
+        "título e assunto",
+        "requisitos e momento",
+        "resultado e exceções",
+        "duração/saída quando aplicável",
+        "suficiência sem copiar capítulo alheio"
+      ],
+      "validacao_independente": "Pendente de revisor externo à autoria.",
+      "validacao_visual": "Pendente de prova e inspeção visual."
+    },
+    {
+      "pagina": "eqp-traje",
+      "parecer_editorial": "Vantagem tem uma situação, um TR e perícias registradas, sem lista aberta por contexto.",
+      "caso_positivo": "Maestria2 permite acrescentar segunda perícia.",
+      "caso_negativo": "Trocar de Traje não troca as perícias da ficha.",
+      "interfaces": "R04 perícias, R21 Maestria",
+      "criterios": [
+        "título e assunto",
+        "requisitos e momento",
+        "resultado e exceções",
+        "duração/saída quando aplicável",
+        "suficiência sem copiar capítulo alheio"
+      ],
+      "validacao_independente": "Pendente de revisor externo à autoria.",
+      "validacao_visual": "Pendente de prova e inspeção visual."
+    },
+    {
+      "pagina": "eqp-escudo",
+      "parecer_editorial": "Tabelas separam escudo de uniforme; mão e teto aparecem junto do uso.",
+      "caso_positivo": "Revest3+Torre soma19 comDex2.",
+      "caso_negativo": "Escudo preso ao braço não deixa a mão livre para arma2mãos.",
+      "interfaces": "R01 mãos",
+      "criterios": [
+        "título e assunto",
+        "requisitos e momento",
+        "resultado e exceções",
+        "duração/saída quando aplicável",
+        "suficiência sem copiar capítulo alheio"
+      ],
+      "validacao_independente": "Pendente de revisor externo à autoria.",
+      "validacao_visual": "Pendente de prova e inspeção visual."
+    },
+    {
+      "pagina": "eqp-vestir",
+      "parecer_editorial": "Tempos conservados e convertidos a rodadas de6segundos. Pausa e abandono recebem resultados distintos.",
+      "caso_positivo": "Quatro rodadas e depois seis completamTraje.",
+      "caso_negativo": "Abandonar retirada não recupera proteção instantânea.",
+      "interfaces": "R01 Rodada inteira",
+      "criterios": [
+        "título e assunto",
+        "requisitos e momento",
+        "resultado e exceções",
+        "duração/saída quando aplicável",
+        "suficiência sem copiar capítulo alheio"
+      ],
+      "validacao_independente": "Pendente de revisor externo à autoria.",
+      "validacao_visual": "Pendente de prova e inspeção visual."
+    },
+    {
+      "pagina": "eqm-municao",
+      "parecer_editorial": "Unidade de disparo autoral definida antes das capacidades, sem alegação de cartuchos reais.",
+      "caso_positivo": "Pistola inicialmente carregada permite dois ataques.",
+      "caso_negativo": "Sem munição não existe disparo, mesmo com ação disponível.",
+      "interfaces": "R14 ataques que consomemmais",
+      "criterios": [
+        "título e assunto",
+        "requisitos e momento",
+        "resultado e exceções",
+        "duração/saída quando aplicável",
+        "suficiência sem copiar capítulo alheio"
+      ],
+      "validacao_independente": "Pendente de revisor externo à autoria.",
+      "validacao_visual": "Pendente de prova e inspeção visual."
+    },
+    {
+      "pagina": "eqm-recarga",
+      "parecer_editorial": "Ordem de gasto/ataque/gatilho clara; estado separado da quantidade.",
+      "caso_positivo": "Rifle3+reserva3,ataque2natural,repor1→arma3reserva2.",
+      "caso_negativo": "Guardar arma com gatilho1/2 não a prepara.",
+      "interfaces": "R01 mãos e Bônus,R14 Besta",
+      "criterios": [
+        "título e assunto",
+        "requisitos e momento",
+        "resultado e exceções",
+        "duração/saída quando aplicável",
+        "suficiência sem copiar capítulo alheio"
+      ],
+      "validacao_independente": "Pendente de revisor externo à autoria.",
+      "validacao_visual": "Pendente de prova e inspeção visual."
+    },
+    {
+      "pagina": "eqm-reserva",
+      "parecer_editorial": "Recipiente e estoque têm contagem distinta. Transferência preserva estado e evita duplicação.",
+      "caso_positivo": "Besta de criação tem1instalado+19noestojo.",
+      "caso_negativo": "Dois personagens não recuperam duas metades dos mesmos projéteis.",
+      "interfaces": "R21 criação",
+      "criterios": [
+        "título e assunto",
+        "requisitos e momento",
+        "resultado e exceções",
+        "duração/saída quando aplicável",
+        "suficiência sem copiar capítulo alheio"
+      ],
+      "validacao_independente": "Pendente de revisor externo à autoria.",
+      "validacao_visual": "Pendente de prova e inspeção visual."
+    },
+    {
+      "pagina": "eqa-armas",
+      "parecer_editorial": "Orientação curta para treino, dano, Força, alcance e preços; procedimentos permanecem nos donos.",
+      "caso_positivo": "EscolherKatana por48mil inclui sua linha inteira.",
+      "caso_negativo": "Desconto de criação não retorna depois de perder arma.",
+      "interfaces": "R02 ataque,R05compras",
+      "criterios": [
+        "título e assunto",
+        "requisitos e momento",
+        "resultado e exceções",
+        "duração/saída quando aplicável",
+        "suficiência sem copiar capítulo alheio"
+      ],
+      "validacao_independente": "Pendente de revisor externo à autoria.",
+      "validacao_visual": "Pendente de prova e inspeção visual."
+    },
+    {
+      "pagina": "eqa-laminas",
+      "parecer_editorial": "Treino por família e glosas de armas japonesas preservados.19Leves registrados sem mudar dado/mãos.",
+      "caso_positivo": "Faca tem Leve e Fineza.",
+      "caso_negativo": "Tanto não ganha novo ataque por Leve.",
+      "interfaces": "R18 usos que exigem Leve/Fineza",
+      "criterios": [
+        "título e assunto",
+        "requisitos e momento",
+        "resultado e exceções",
+        "duração/saída quando aplicável",
+        "suficiência sem copiar capítulo alheio"
+      ],
+      "validacao_independente": "Pendente de revisor externo à autoria.",
+      "validacao_visual": "Pendente de prova e inspeção visual."
+    },
+    {
+      "pagina": "eqa-impacto",
+      "parecer_editorial": "Massa, Porrete e Manopla mantêm dados e preços. Manopla explicitamente arma.",
+      "caso_positivo": "Soqueira vestida usa mão livre no golpe.",
+      "caso_negativo": "Soqueira não recebe benefícios que exijam ataque desarmado.",
+      "interfaces": "R18Pugilista sem cópia de habilidade",
+      "criterios": [
+        "título e assunto",
+        "requisitos e momento",
+        "resultado e exceções",
+        "duração/saída quando aplicável",
+        "suficiência sem copiar capítulo alheio"
+      ],
+      "validacao_independente": "Pendente de revisor externo à autoria.",
+      "validacao_visual": "Pendente de prova e inspeção visual."
+    },
+    {
+      "pagina": "eqa-hastes",
+      "parecer_editorial": "Três categorias por tabela; requisitos e alcance preservados.",
+      "caso_positivo": "Naginata cabe na carga deForça0, mas exigeForça3 para uso sempenalidade.",
+      "caso_negativo": "Kusarigama não agarra por sua faixa de arremesso.",
+      "interfaces": "Emaranha e R01Agarrar",
+      "criterios": [
+        "título e assunto",
+        "requisitos e momento",
+        "resultado e exceções",
+        "duração/saída quando aplicável",
+        "suficiência sem copiar capítulo alheio"
+      ],
+      "validacao_independente": "Pendente de revisor externo à autoria.",
+      "validacao_visual": "Pendente de prova e inspeção visual."
+    },
+    {
+      "pagina": "eqa-flexiveis",
+      "parecer_editorial": "Arremesso informa destino físico da arma com remissão de recolha.",
+      "caso_positivo": "Kunai arremessado deixa a mão.",
+      "caso_negativo": "Arma não volta automaticamente por ser de arremesso.",
+      "interfaces": "R18Malabarista conserva exceções próprias",
+      "criterios": [
+        "título e assunto",
+        "requisitos e momento",
+        "resultado e exceções",
+        "duração/saída quando aplicável",
+        "suficiência sem copiar capítulo alheio"
+      ],
+      "validacao_independente": "Pendente de revisor externo à autoria.",
+      "validacao_visual": "Pendente de prova e inspeção visual."
+    },
+    {
+      "pagina": "eqa-tiro",
+      "parecer_editorial": "Arcos/bestas/fogo com mesmos campos. Preço doRevólver é a única mudança além Leve.",
+      "caso_positivo": "Pistola deixa25mil no fundo padrão;Revólver deixa0.",
+      "caso_negativo": "Preço maior não prova equivalência quando dinheiro é irrelevante.",
+      "interfaces": "Munição e R14Yumi/Balestra",
+      "criterios": [
+        "título e assunto",
+        "requisitos e momento",
+        "resultado e exceções",
+        "duração/saída quando aplicável",
+        "suficiência sem copiar capítulo alheio"
+      ],
+      "validacao_independente": "Pendente de revisor externo à autoria.",
+      "validacao_visual": "Pendente de prova e inspeção visual."
+    },
+    {
+      "pagina": "eqi-itens",
+      "parecer_editorial": "Quantidades, preço e Volume definidos por linha. Consumo não repõe entrecenas.",
+      "caso_positivo": "Kitexploração13mil1,3Volume.",
+      "caso_negativo": "Mochila não aumenta capacidade nem faz haste caber no bolso.",
+      "interfaces": "R01Carga",
+      "criterios": [
+        "título e assunto",
+        "requisitos e momento",
+        "resultado e exceções",
+        "duração/saída quando aplicável",
+        "suficiência sem copiar capítulo alheio"
+      ],
+      "validacao_independente": "Pendente de revisor externo à autoria.",
+      "validacao_visual": "Pendente de prova e inspeção visual."
+    },
+    {
+      "pagina": "eqi-exploracao",
+      "parecer_editorial": "Tarefas definem ação/mãos/tempo e limites físicos, com ferramenta permitindo tentativa.",
+      "caso_positivo": "Lanterna mão fornece9m plena+9m penumbra.",
+      "caso_negativo": "Kit não oferece Reação para prender após cair.",
+      "interfaces": "R01Escalar/Queda, R04Ofícios",
+      "criterios": [
+        "título e assunto",
+        "requisitos e momento",
+        "resultado e exceções",
+        "duração/saída quando aplicável",
+        "suficiência sem copiar capítulo alheio"
+      ],
+      "validacao_independente": "Pendente de revisor externo à autoria.",
+      "validacao_visual": "Pendente de prova e inspeção visual."
+    },
+    {
+      "pagina": "eqi-fechaduras",
+      "parecer_editorial": "Abrir, forçar e conter separados. Condições rápidas não viram amarra garantida.",
+      "caso_positivo": "Chave acessível usa manipulação;gazuas1min.",
+      "caso_negativo": "Agarrado sozinho não basta para algemar alguém.",
+      "interfaces": "R04Arrombamento, R03condições",
+      "criterios": [
+        "título e assunto",
+        "requisitos e momento",
+        "resultado e exceções",
+        "duração/saída quando aplicável",
+        "suficiência sem copiar capítulo alheio"
+      ],
+      "validacao_independente": "Pendente de revisor externo à autoria.",
+      "validacao_visual": "Pendente de prova e inspeção visual."
+    },
+    {
+      "pagina": "eqi-objetos",
+      "parecer_editorial": "Objeto imóvel comum ainda possuiDefesa;barreira extensa tem procedimento específico. Corpo construído é criatura.",
+      "caso_positivo": "PortaVida20 recebe8+12 e abre.",
+      "caso_negativo": "Uma dobradiça não derruba prédio;atingir portador não destrói inventário.",
+      "interfaces": "R08/R09barreiras,R11corpos",
+      "criterios": [
+        "título e assunto",
+        "requisitos e momento",
+        "resultado e exceções",
+        "duração/saída quando aplicável",
+        "suficiência sem copiar capítulo alheio"
+      ],
+      "validacao_independente": "Pendente de revisor externo à autoria.",
+      "validacao_visual": "Pendente de prova e inspeção visual."
+    },
+    {
+      "pagina": "eqi-efeitos",
+      "parecer_editorial": "Separa alvos de efeitos, equipamento carregado e barreira extensa, com exemplo de permissão de alvo.",
+      "caso_positivo": "Ataque capaz atinge barreira extensa semcrítico.",
+      "caso_negativo": "Feitiço exclusivo para criatura não passa a atingir barreira.",
+      "interfaces": "R06alvos,R08/R09barreiras,R11corpos",
+      "criterios": [
+        "título e assunto",
+        "requisitos e momento",
+        "resultado e exceções",
+        "duração/saída quando aplicável",
+        "suficiência sem copiar capítulo alheio"
+      ],
+      "validacao_independente": "Pendente de revisor externo à autoria.",
+      "validacao_visual": "Pendente de prova e inspeção visual."
+    },
+    {
+      "pagina": "eqi-improvisadas",
+      "parecer_editorial": "Referência semelhante vem antes do caso genérico; tipo depende do objeto.",
+      "caso_positivo": "GarrafaDex4+Maestria1 acerto+5 comdesvantagem,dano1d4+Força2.",
+      "caso_negativo": "Coronhada não leva dados e propriedades do disparo.",
+      "interfaces": "R02atributos e crítico",
+      "criterios": [
+        "título e assunto",
+        "requisitos e momento",
+        "resultado e exceções",
+        "duração/saída quando aplicável",
+        "suficiência sem copiar capítulo alheio"
+      ],
+      "validacao_independente": "Pendente de revisor externo à autoria.",
+      "validacao_visual": "Pendente de prova e inspeção visual."
+    },
+    {
+      "pagina": "eqc-dinheiro",
+      "parecer_editorial": "Compra, patente e uso separam permissões. Exemplo corrigido aoGrau4 e fundo disponível.",
+      "caso_positivo": "KaoriGrau4 pode comprarPistola apenas comautorização.",
+      "caso_negativo": "Treino não concede autorização administrativa.",
+      "interfaces": "R21Patentes/recompensas",
+      "criterios": [
+        "título e assunto",
+        "requisitos e momento",
+        "resultado e exceções",
+        "duração/saída quando aplicável",
+        "suficiência sem copiar capítulo alheio"
+      ],
+      "validacao_independente": "Pendente de revisor externo à autoria.",
+      "validacao_visual": "Pendente de prova e inspeção visual."
+    },
+    {
+      "pagina": "eqc-precos",
+      "parecer_editorial": "Traje gratuito e seu preço posterior não viram crédito inicial.",
+      "caso_positivo": "90milTraje2+48milKatana deixam12mil.",
+      "caso_negativo": "Traje1gratuito não se converte em30mil de saldo.",
+      "interfaces": "R21 criação",
+      "criterios": [
+        "título e assunto",
+        "requisitos e momento",
+        "resultado e exceções",
+        "duração/saída quando aplicável",
+        "suficiência sem copiar capítulo alheio"
+      ],
+      "validacao_independente": "Pendente de revisor externo à autoria.",
+      "validacao_visual": "Pendente de prova e inspeção visual."
+    },
+    {
+      "pagina": "eqc-inicial",
+      "parecer_editorial": "Quatro passos e quatro kits preservam carga e requisito mínimo distintos.",
+      "caso_positivo": "KatanaBroquel+exploração73mil3,1Volume.",
+      "caso_negativo": "Todo kit não precisa funcionar comForça0.",
+      "interfaces": "R21nível/patente",
+      "criterios": [
+        "título e assunto",
+        "requisitos e momento",
+        "resultado e exceções",
+        "duração/saída quando aplicável",
+        "suficiência sem copiar capítulo alheio"
+      ],
+      "validacao_independente": "Pendente de revisor externo à autoria.",
+      "validacao_visual": "Pendente de prova e inspeção visual."
+    },
+    {
+      "pagina": "eqc-compras",
+      "parecer_editorial": "Reposição, empréstimo e conserto têm registro e dono.",
+      "caso_positivo": "Três reservasRifle+lanterna+pilhas8mil1,2Volume.",
+      "caso_negativo": "Emprestar não duplica suprimentos nem recupera item danificado.",
+      "interfaces": "R04Fabricação",
+      "criterios": [
+        "título e assunto",
+        "requisitos e momento",
+        "resultado e exceções",
+        "duração/saída quando aplicável",
+        "suficiência sem copiar capítulo alheio"
+      ],
+      "validacao_independente": "Pendente de revisor externo à autoria.",
+      "validacao_visual": "Pendente de prova e inspeção visual."
+    },
+    {
+      "pagina": "eqf-equipamento",
+      "parecer_editorial": "Expõe função de ferramenta antes das regras; roupa semDefesa é categoria própria.",
+      "caso_positivo": "Roupa comefeito não substitui passiva da rota.",
+      "caso_negativo": "Grau2não transformaTraje1 emTraje2.",
+      "interfaces": "R09/R10passiva",
+      "criterios": [
+        "título e assunto",
+        "requisitos e momento",
+        "resultado e exceções",
+        "duração/saída quando aplicável",
+        "suficiência sem copiar capítulo alheio"
+      ],
+      "validacao_independente": "Pendente de revisor externo à autoria.",
+      "validacao_visual": "Pendente de prova e inspeção visual."
+    },
+    {
+      "pagina": "eqf-graus",
+      "parecer_editorial": "Escala explicitamente autoral, níveis e Desgaste juntos.",
+      "caso_positivo": "Grau3efeito semmínimo;Grau2normalmenteN7.",
+      "caso_negativo": "Patente não substitui nível para efeito.",
+      "interfaces": "R21Grau/Nível",
+      "criterios": [
+        "título e assunto",
+        "requisitos e momento",
+        "resultado e exceções",
+        "duração/saída quando aplicável",
+        "suficiência sem copiar capítulo alheio"
+      ],
+      "validacao_independente": "Pendente de revisor externo à autoria.",
+      "validacao_visual": "Pendente de prova e inspeção visual."
+    },
+    {
+      "pagina": "eqf-uso",
+      "parecer_editorial": "Mãos e dois itens vestidos são limites observáveis; dois relógios impedem exploração de cópias.",
+      "caso_positivo": "Espada,escudo,Traje,anel atéquatroefeitos.",
+      "caso_negativo": "Trocar ferramenta por cópia não renova limite da pessoa.",
+      "interfaces": "R01ações/Reação",
+      "criterios": [
+        "título e assunto",
+        "requisitos e momento",
+        "resultado e exceções",
+        "duração/saída quando aplicável",
+        "suficiência sem copiar capítulo alheio"
+      ],
+      "validacao_independente": "Pendente de revisor externo à autoria.",
+      "validacao_visual": "Pendente de prova e inspeção visual."
+    },
+    {
+      "pagina": "eqf-aquisicao",
+      "parecer_editorial": "Ficha, disponibilidade e fabricação são procedimentos diferentes.",
+      "caso_positivo": "Roupa completaVol0,3,acessório0,1.",
+      "caso_negativo": "Comprar base não dá efeito gratuito.",
+      "interfaces": "R04Fabricação",
+      "criterios": [
+        "título e assunto",
+        "requisitos e momento",
+        "resultado e exceções",
+        "duração/saída quando aplicável",
+        "suficiência sem copiar capítulo alheio"
+      ],
+      "validacao_independente": "Pendente de revisor externo à autoria.",
+      "validacao_visual": "Pendente de prova e inspeção visual."
+    },
+    {
+      "pagina": "eqf-armas",
+      "parecer_editorial": "Quatro fichas com gatilho e restrições locais. Retorno não é telecinese geral.",
+      "caso_positivo": "Fiel volta após próprioarremesso se mãolivre/caminholivre.",
+      "caso_negativo": "Avulsa falha se ataque recebido deixou incapaz ou tirou arma.",
+      "interfaces": "R02ataques/R01alcance",
+      "criterios": [
+        "título e assunto",
+        "requisitos e momento",
+        "resultado e exceções",
+        "duração/saída quando aplicável",
+        "suficiência sem copiar capítulo alheio"
+      ],
+      "validacao_independente": "Pendente de revisor externo à autoria.",
+      "validacao_visual": "Pendente de prova e inspeção visual."
+    },
+    {
+      "pagina": "eqf-roupas",
+      "parecer_editorial": "Três efeitos distinguem aparência, fuga e transporte.",
+      "caso_positivo": "Passagemleva equipamento9m para espaço visto comapoio.",
+      "caso_negativo": "Ligação presa a algo não transportável impede Passagem.",
+      "interfaces": "R01movimento/R03agarrão",
+      "criterios": [
+        "título e assunto",
+        "requisitos e momento",
+        "resultado e exceções",
+        "duração/saída quando aplicável",
+        "suficiência sem copiar capítulo alheio"
+      ],
+      "validacao_independente": "Pendente de revisor externo à autoria.",
+      "validacao_visual": "Pendente de prova e inspeção visual."
+    },
+    {
+      "pagina": "eqf-protecao",
+      "parecer_editorial": "Reações têm momento antes/depois explícito; escudo flutuante mantém requisitos.",
+      "caso_positivo": "Quebranto obtém sucesso comum antesdoTR.",
+      "caso_negativo": "Âncora não nega dano/queda semchão;Quebranto não serve paraBloquear.",
+      "interfaces": "R03TR,R06feitiço",
+      "criterios": [
+        "título e assunto",
+        "requisitos e momento",
+        "resultado e exceções",
+        "duração/saída quando aplicável",
+        "suficiência sem copiar capítulo alheio"
+      ],
+      "validacao_independente": "Pendente de revisor externo à autoria.",
+      "validacao_visual": "Pendente de prova e inspeção visual."
+    },
+    {
+      "pagina": "eqf-acessorios",
+      "parecer_editorial": "Informação limitada, manutenção superficial, isenção local e respiração têm escopo.",
+      "caso_positivo": "Contrapeso dispensa Força do próprioitem.",
+      "caso_negativo": "ReservaAr não concede natação nem filtra gases.",
+      "interfaces": "R01ambiente/condições",
+      "criterios": [
+        "título e assunto",
+        "requisitos e momento",
+        "resultado e exceções",
+        "duração/saída quando aplicável",
+        "suficiência sem copiar capítulo alheio"
+      ],
+      "validacao_independente": "Pendente de revisor externo à autoria.",
+      "validacao_visual": "Pendente de prova e inspeção visual."
+    },
+    {
+      "pagina": "eqf-reliquias",
+      "parecer_editorial": "Cisão possui uma barra de destino e Anátema duas aplicações separadas.",
+      "caso_positivo": "Anátema sucesso protege apenas portador da explosão.",
+      "caso_negativo": "Cisão não desconta PV junto comIntegridade;Anátema não derrubaDomínio.",
+      "interfaces": "R03Integridade em reconciliação;R06feitiços",
+      "criterios": [
+        "título e assunto",
+        "requisitos e momento",
+        "resultado e exceções",
+        "duração/saída quando aplicável",
+        "suficiência sem copiar capítulo alheio"
+      ],
+      "validacao_independente": "Pendente de revisor externo à autoria.",
+      "validacao_visual": "Pendente de prova e inspeção visual."
+    },
+    {
+      "pagina": "eqf-desgaste",
+      "parecer_editorial": "Contador por missão e frequência de ativação separados; exemplo inclui empréstimo.",
+      "caso_positivo": "Usar/guardar/usar/usar termina3missões após4missõescalendário.",
+      "caso_negativo": "Empréstimo não restaura missões;última missãonão termina na primeira ativação.",
+      "interfaces": "R21missão",
+      "criterios": [
+        "título e assunto",
+        "requisitos e momento",
+        "resultado e exceções",
+        "duração/saída quando aplicável",
+        "suficiência sem copiar capítulo alheio"
+      ],
+      "validacao_independente": "Pendente de revisor externo à autoria.",
+      "validacao_visual": "Pendente de prova e inspeção visual."
+    },
+    {
+      "pagina": "eqf-objetos",
+      "parecer_editorial": "Distingue risco de objeto de benefício equipável; alcance de selo é decisão de campanha.",
+      "caso_positivo": "Objeto semselo pode atrair maldições.",
+      "caso_negativo": "Ingerir não compra automaticamente Origem nemcontrole.",
+      "interfaces": "R20Encarnação; cânone episódio1",
+      "criterios": [
+        "título e assunto",
+        "requisitos e momento",
+        "resultado e exceções",
+        "duração/saída quando aplicável",
+        "suficiência sem copiar capítulo alheio"
+      ],
+      "validacao_independente": "Pendente de revisor externo à autoria.",
+      "validacao_visual": "Pendente de prova e inspeção visual."
+    }
+  ],
+  "excecoes": [],
+  "revisao_delta_nomes": {
+    "revisor": "/root/compatibilidade",
+    "sha256_previo": "c5a6b376afdbcc2439f53b270a1e82323ec99575cbdc530ce11cb31101b14f8f",
+    "sha256_atual": "89a3f7bb705a7c931a3c69f4f051fb98d62acbc065ffa42dc48275f00e2afec1",
+    "escopo": "Somente o delta nominal foi relido nesta etapa; leitura integral anterior preservada no snapshot. Números e âncoras idênticos.",
+    "evidencia": "consolidacao/lote-01/migracao-nomes/MIGRACAO.json"
+  }
+}

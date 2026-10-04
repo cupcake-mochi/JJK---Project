@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "sha256_texto": "8d8311f3777014ea84df2b531f64d91540b3885cf2930a3cb071eebf21e3d7a1",
+  "casos": [
+    {
+      "caso": "Demais cinco páginas preservadas, exceto remissão da propriedade",
+      "ok": true
+    }
+  ],
+  "limites": [
+    "Testes mecânicos anteriores dos temas não alterados permanecem em lote-01-r2. Procedimento novo de munição testado no lote-03."
+  ]
+}

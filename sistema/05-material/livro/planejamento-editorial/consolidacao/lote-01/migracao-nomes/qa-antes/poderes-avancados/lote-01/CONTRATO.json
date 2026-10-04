@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "scope": "R08 candidato",
+  "duration_divisor": 2,
+  "damage_multiplier": 2,
+  "barrier_factor": 50,
+  "interior_divisor": 4,
+  "closed_radius_factor": 1.5,
+  "incomplete_radius_cap": 7.5,
+  "open_radius": 199.5,
+  "closed_open_cost_multiplier": 6,
+  "open_cost_multiplier": 7,
+  "incomplete_discount_divisor": 3,
+  "closed_discount_divisor": 2,
+  "open_discount_mastery_multiplier": 2,
+  "clash_die": 12,
+  "clash_margin": 4,
+  "failure_divisor": 2,
+  "slots": [
+    2,
+    3,
+    5
+  ],
+  "max_tables_source": "fundamento/lote-01/FUNDAMENTO.md",
+  "source_snapshot": "evidencias/FONTES-LIDAS.json"
+}

@@ -1,0 +1,412 @@
+[
+  {
+    "nome_fonte": "Longe",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Muito Longe",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Sem Ver",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Passo",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Empurrão",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Troca",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Perseguir",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Maior",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Muito Maior",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Escolher",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Fica",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Mais Um",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Rajada",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Classe reduzida"
+  },
+  {
+    "nome_fonte": "Salto",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Contorno",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Precisão",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Certeiro",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Inescapável",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Fura",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Classe reduzida"
+  },
+  {
+    "nome_fonte": "Corrói",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Sem Cobertura",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "De Novo",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Toca a Alma",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Condição",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Terreno",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Anteparo",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Classe reduzida"
+  },
+  {
+    "nome_fonte": "Prende",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Cerca",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Puxa",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Desarma o Feitiço",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Classe reduzida"
+  },
+  {
+    "nome_fonte": "Impulso",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Trava",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Abre Ferida",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Sobrecarga",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Firmeza",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Guarda",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Pressa",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Enfraquece",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Ecoa",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Queima",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Acúmulo",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Remate",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Estilhaço",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Quebra Coisa",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Rasga Escudo",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Sem Cura",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Rápido",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Tempo traduzido em R11"
+  },
+  {
+    "nome_fonte": "Reação",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Tempo traduzido em R11"
+  },
+  {
+    "nome_fonte": "Armado",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Tempo traduzido em R11"
+  },
+  {
+    "nome_fonte": "Silencioso",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Adianta",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Segura",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Tempo traduzido em R11"
+  },
+  {
+    "nome_fonte": "Concentrada",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Tempo traduzido em R11"
+  },
+  {
+    "nome_fonte": "Duradoura",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Tempo traduzido em R11"
+  },
+  {
+    "nome_fonte": "Marca",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Alvo de Caça",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Rastro",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Sugar",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Classe reduzida"
+  },
+  {
+    "nome_fonte": "Isca",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Cobrança",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Aviso",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Limpa",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Limpa Fundo",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Levanta",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Classe reduzida"
+  },
+  {
+    "nome_fonte": "Divide",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Junto",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Reserva",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Remenda",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Classe reduzida"
+  },
+  {
+    "nome_fonte": "Efeito Próprio",
+    "dono": "R07 Catálogo",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Lento",
+    "dono": "Condições",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Incapacitado",
+    "dono": "Condições",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Derrubado",
+    "dono": "Condições",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Agarrado",
+    "dono": "Condições",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Desarmado",
+    "dono": "Condições",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Surdo",
+    "dono": "Condições",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Calado",
+    "dono": "Condições",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Enfeitiçado",
+    "dono": "Condições",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Impedido",
+    "dono": "Condições",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Cego",
+    "dono": "Condições",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Amedrontado",
+    "dono": "Condições",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Envenenado",
+    "dono": "Condições",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  },
+  {
+    "nome_fonte": "Atordoado",
+    "dono": "Condições",
+    "alteracao_propria": "Efeito comum, sujeito a acesso e economia da entidade"
+  }
+]

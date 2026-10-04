@@ -1,0 +1,11 @@
+{
+  "sha256_texto": "5bf3964d6d8c233069b9f2569fe9487361f9dec0c6473579f594d71c217cca5c",
+  "titulos_revisto": true,
+  "sem_explicacao_alheia": true,
+  "vocabulario_revisto": true,
+  "excecoes_vocabulario": [],
+  "excecoes_localizacao": [],
+  "revisor": "subagente maxima",
+  "notas": "Não reproduz habilidades de outro Caminho. Regras de objetos/condições são remetidas aos donos; R11 explica a coletiva das entidades.",
+  "delta_nominal_final": "DELTA-QA-FINAL.json"
+}

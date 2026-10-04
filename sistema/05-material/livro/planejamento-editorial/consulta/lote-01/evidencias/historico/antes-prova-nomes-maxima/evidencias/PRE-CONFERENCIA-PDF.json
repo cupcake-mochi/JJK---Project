@@ -1,0 +1,1475 @@
+{
+  "data": "2026-10-03",
+  "ok": true,
+  "verificacoes": 212,
+  "sha256_pdf": "8aad2272fa2ecd912d87b9a984bf465517789f2bb09e8d1ecda94042046fc72d",
+  "sha256_texto": "148ebf0e59568ebf42626f53bc149875c3614d631a71e255fe1dfd8f8f36122a",
+  "checks": [
+    {
+      "verificacao": "Quantidade de páginas e seções",
+      "obtido": [
+        28,
+        28
+      ],
+      "esperado": [
+        28,
+        28
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Sequência",
+      "obtido": [
+        "consulta-glossario-1",
+        "consulta-glossario-2",
+        "consulta-glossario-3",
+        "consulta-glossario-4",
+        "consulta-glossario-5",
+        "consulta-glossario-6",
+        "consulta-testes",
+        "consulta-ataques",
+        "consulta-entidades",
+        "consulta-ficha-personagem",
+        "consulta-ficha-repertorio",
+        "consulta-ficha-feitico",
+        "consulta-ficha-entidade",
+        "consulta-ficha-entidade-capacidades",
+        "consulta-registro-missao",
+        "consulta-missao",
+        "consulta-conduzir",
+        "consulta-referencias",
+        "consulta-indice-1",
+        "consulta-indice-2",
+        "consulta-indice-3",
+        "consulta-indice-4",
+        "consulta-indice-5",
+        "consulta-indice-6",
+        "consulta-indice-7",
+        "consulta-indice-8",
+        "consulta-indice-9",
+        "consulta-indice-10"
+      ],
+      "esperado": [
+        "consulta-glossario-1",
+        "consulta-glossario-2",
+        "consulta-glossario-3",
+        "consulta-glossario-4",
+        "consulta-glossario-5",
+        "consulta-glossario-6",
+        "consulta-testes",
+        "consulta-ataques",
+        "consulta-entidades",
+        "consulta-ficha-personagem",
+        "consulta-ficha-repertorio",
+        "consulta-ficha-feitico",
+        "consulta-ficha-entidade",
+        "consulta-ficha-entidade-capacidades",
+        "consulta-registro-missao",
+        "consulta-missao",
+        "consulta-conduzir",
+        "consulta-referencias",
+        "consulta-indice-1",
+        "consulta-indice-2",
+        "consulta-indice-3",
+        "consulta-indice-4",
+        "consulta-indice-5",
+        "consulta-indice-6",
+        "consulta-indice-7",
+        "consulta-indice-8",
+        "consulta-indice-9",
+        "consulta-indice-10"
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Títulos correspondem ao mapa",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entradas principais",
+      "obtido": 5,
+      "esperado": 5,
+      "ok": true
+    },
+    {
+      "verificacao": "Grupos recolhidos",
+      "obtido": [
+        -6,
+        -3,
+        -6,
+        -3,
+        -10
+      ],
+      "esperado": [
+        -6,
+        -3,
+        -6,
+        -3,
+        -10
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Destinos de marcadores válidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: texto completo",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p1: texto dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: corpo separado de rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p1: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: remissões existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p1: links corretos",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p2: texto completo",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p2: texto dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p2: corpo separado de rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p2: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p2: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p2: remissões existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p2: links corretos",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p3: texto completo",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p3: texto dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p3: corpo separado de rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p3: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p3: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p3: remissões existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p3: links corretos",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p4: texto completo",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p4: texto dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p4: corpo separado de rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p4: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p4: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p4: remissões existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p4: links corretos",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p5: texto completo",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p5: texto dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p5: corpo separado de rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p5: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p5: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p5: remissões existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p5: links corretos",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p6: texto completo",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p6: texto dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p6: corpo separado de rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p6: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p6: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p6: remissões existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p6: links corretos",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p7: texto completo",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p7: texto dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p7: corpo separado de rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p7: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p7: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p7: remissões existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p7: links corretos",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p8: texto completo",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p8: texto dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p8: corpo separado de rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p8: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p8: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p8: remissões existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p8: links corretos",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p9: texto completo",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p9: texto dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p9: corpo separado de rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p9: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p9: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p9: remissões existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p9: links corretos",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p10: texto completo",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p10: texto dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p10: corpo separado de rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p10: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p10: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p10: remissões existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p10: links corretos",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p11: texto completo",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p11: texto dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p11: corpo separado de rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p11: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p11: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p11: remissões existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p11: links corretos",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p12: texto completo",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p12: texto dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p12: corpo separado de rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p12: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p12: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p12: remissões existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p12: links corretos",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p13: texto completo",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p13: texto dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p13: corpo separado de rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p13: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p13: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p13: remissões existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p13: links corretos",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p14: texto completo",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p14: texto dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p14: corpo separado de rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p14: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p14: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p14: remissões existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p14: links corretos",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p15: texto completo",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p15: texto dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p15: corpo separado de rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p15: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p15: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p15: remissões existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p15: links corretos",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p16: texto completo",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p16: texto dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p16: corpo separado de rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p16: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p16: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p16: remissões existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p16: links corretos",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p17: texto completo",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p17: texto dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p17: corpo separado de rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p17: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p17: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p17: remissões existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p17: links corretos",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p18: texto completo",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p18: texto dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p18: corpo separado de rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p18: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p18: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p18: remissões existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p18: links corretos",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p19: texto completo",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p19: texto dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p19: corpo separado de rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p19: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p19: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p19: remissões existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p19: links corretos",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p20: texto completo",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p20: texto dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p20: corpo separado de rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p20: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p20: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p20: remissões existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p20: links corretos",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p21: texto completo",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p21: texto dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p21: corpo separado de rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p21: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p21: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p21: remissões existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p21: links corretos",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p22: texto completo",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p22: texto dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p22: corpo separado de rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p22: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p22: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p22: remissões existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p22: links corretos",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p23: texto completo",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p23: texto dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p23: corpo separado de rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p23: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p23: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p23: remissões existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p23: links corretos",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p24: texto completo",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p24: texto dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p24: corpo separado de rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p24: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p24: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p24: remissões existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p24: links corretos",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p25: texto completo",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p25: texto dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p25: corpo separado de rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p25: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p25: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p25: remissões existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p25: links corretos",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p26: texto completo",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p26: texto dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p26: corpo separado de rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p26: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p26: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p26: remissões existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p26: links corretos",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p27: texto completo",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p27: texto dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p27: corpo separado de rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p27: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p27: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p27: remissões existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p27: links corretos",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p28: texto completo",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p28: texto dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p28: corpo separado de rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p28: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p28: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p28: remissões existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p28: links corretos",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Fontes e versões anteriores preservadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Livro e exportações preservados",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Revisão do texto atual",
+      "obtido": "148ebf0e59568ebf42626f53bc149875c3614d631a71e255fe1dfd8f8f36122a",
+      "esperado": "148ebf0e59568ebf42626f53bc149875c3614d631a71e255fe1dfd8f8f36122a",
+      "ok": true
+    },
+    {
+      "verificacao": "Seções lidas",
+      "obtido": 28,
+      "esperado": 28,
+      "ok": true
+    },
+    {
+      "verificacao": "Bloqueio editorial e revisão contextual",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Cenários mecânicos e interfaces",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Cenários usam o manuscrito atual",
+      "obtido": "148ebf0e59568ebf42626f53bc149875c3614d631a71e255fe1dfd8f8f36122a",
+      "esperado": "148ebf0e59568ebf42626f53bc149875c3614d631a71e255fe1dfd8f8f36122a",
+      "ok": true
+    },
+    {
+      "verificacao": "Auditoria numérica concluída",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Auditoria inclui este manuscrito",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Números vinculados a textos atuais",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    }
+  ],
+  "geometria": [
+    {
+      "pagina": 1,
+      "final_corpo": 587.82
+    },
+    {
+      "pagina": 2,
+      "final_corpo": 568.32
+    },
+    {
+      "pagina": 3,
+      "final_corpo": 554.62
+    },
+    {
+      "pagina": 4,
+      "final_corpo": 554.62
+    },
+    {
+      "pagina": 5,
+      "final_corpo": 568.32
+    },
+    {
+      "pagina": 6,
+      "final_corpo": 554.62
+    },
+    {
+      "pagina": 7,
+      "final_corpo": 511.52
+    },
+    {
+      "pagina": 8,
+      "final_corpo": 546.32
+    },
+    {
+      "pagina": 9,
+      "final_corpo": 501.72
+    },
+    {
+      "pagina": 10,
+      "final_corpo": 667.72
+    },
+    {
+      "pagina": 11,
+      "final_corpo": 766.52
+    },
+    {
+      "pagina": 12,
+      "final_corpo": 687.62
+    },
+    {
+      "pagina": 13,
+      "final_corpo": 634.92
+    },
+    {
+      "pagina": 14,
+      "final_corpo": 702.92
+    },
+    {
+      "pagina": 15,
+      "final_corpo": 743.12
+    },
+    {
+      "pagina": 16,
+      "final_corpo": 563.32
+    },
+    {
+      "pagina": 17,
+      "final_corpo": 528.82
+    },
+    {
+      "pagina": 18,
+      "final_corpo": 431.32
+    },
+    {
+      "pagina": 19,
+      "final_corpo": 577.56
+    },
+    {
+      "pagina": 20,
+      "final_corpo": 577.56
+    },
+    {
+      "pagina": 21,
+      "final_corpo": 577.56
+    },
+    {
+      "pagina": 22,
+      "final_corpo": 589.56
+    },
+    {
+      "pagina": 23,
+      "final_corpo": 577.56
+    },
+    {
+      "pagina": 24,
+      "final_corpo": 589.56
+    },
+    {
+      "pagina": 25,
+      "final_corpo": 589.56
+    },
+    {
+      "pagina": 26,
+      "final_corpo": 589.56
+    },
+    {
+      "pagina": 27,
+      "final_corpo": 577.56
+    },
+    {
+      "pagina": 28,
+      "final_corpo": 541.56
+    }
+  ],
+  "estado_visual": "pendente — não verificado por este script",
+  "limites": [
+    "Modelos e conferências documentais não substituem teste com leitores e jogadores."
+  ]
+}

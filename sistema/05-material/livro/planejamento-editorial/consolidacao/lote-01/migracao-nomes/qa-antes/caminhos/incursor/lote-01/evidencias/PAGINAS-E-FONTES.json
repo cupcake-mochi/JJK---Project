@@ -1,0 +1,304 @@
+[
+  {
+    "id": "inc-caminho",
+    "titulo": "Incursor",
+    "fonte_linhas": [
+      [
+        1,
+        39
+      ]
+    ],
+    "palavras": 287
+  },
+  {
+    "id": "inc-movimento",
+    "titulo": "Movimento Acrobático",
+    "fonte_linhas": [
+      [
+        40,
+        51
+      ]
+    ],
+    "palavras": 261
+  },
+  {
+    "id": "inc-fluidez",
+    "titulo": "Fluidez",
+    "fonte_linhas": [
+      [
+        52,
+        75
+      ]
+    ],
+    "palavras": 252
+  },
+  {
+    "id": "inc-respostas",
+    "titulo": "Respostas de Fluidez",
+    "fonte_linhas": [
+      [
+        70,
+        92
+      ]
+    ],
+    "palavras": 271
+  },
+  {
+    "id": "inc-fluidez-avancada",
+    "titulo": "Fluidez no nível 15",
+    "fonte_linhas": [
+      [
+        93,
+        107
+      ]
+    ],
+    "palavras": 296
+  },
+  {
+    "id": "inc-ritmo",
+    "titulo": "Retomar o Ritmo",
+    "fonte_linhas": [
+      [
+        108,
+        132
+      ]
+    ],
+    "palavras": 219
+  },
+  {
+    "id": "inc-assassino",
+    "titulo": "Assassino",
+    "fonte_linhas": [
+      [
+        134,
+        160
+      ]
+    ],
+    "palavras": 239
+  },
+  {
+    "id": "inc-guarda",
+    "titulo": "Estudar a Guarda",
+    "fonte_linhas": [
+      [
+        162,
+        172
+      ],
+      [
+        261,
+        271
+      ]
+    ],
+    "palavras": 372
+  },
+  {
+    "id": "inc-cirurgico",
+    "titulo": "Golpe Cirúrgico",
+    "fonte_linhas": [
+      [
+        174,
+        192
+      ]
+    ],
+    "palavras": 343
+  },
+  {
+    "id": "inc-cortar",
+    "titulo": "Cortar a Fuga",
+    "fonte_linhas": [
+      [
+        194,
+        218
+      ]
+    ],
+    "palavras": 228
+  },
+  {
+    "id": "inc-parkour",
+    "titulo": "Parkour",
+    "fonte_linhas": [
+      [
+        220,
+        259
+      ]
+    ],
+    "palavras": 400
+  },
+  {
+    "id": "inc-brecha",
+    "titulo": "Brecha Fatal",
+    "fonte_linhas": [
+      [
+        273,
+        305
+      ]
+    ],
+    "palavras": 319
+  },
+  {
+    "id": "inc-pugilista",
+    "titulo": "Pugilista",
+    "fonte_linhas": [
+      [
+        307,
+        331
+      ]
+    ],
+    "palavras": 254
+  },
+  {
+    "id": "inc-corpo",
+    "titulo": "Corpo Treinado",
+    "fonte_linhas": [
+      [
+        333,
+        364
+      ]
+    ],
+    "palavras": 265
+  },
+  {
+    "id": "inc-base",
+    "titulo": "Recuperar a Base",
+    "fonte_linhas": [
+      [
+        366,
+        391
+      ]
+    ],
+    "palavras": 331
+  },
+  {
+    "id": "inc-interceptar",
+    "titulo": "Interceptar e Prender",
+    "fonte_linhas": [
+      [
+        393,
+        411
+      ],
+      [
+        413,
+        423
+      ]
+    ],
+    "palavras": 372
+  },
+  {
+    "id": "inc-projecao",
+    "titulo": "Projeção Marcial",
+    "fonte_linhas": [
+      [
+        425,
+        449
+      ]
+    ],
+    "palavras": 314
+  },
+  {
+    "id": "inc-redirecionar",
+    "titulo": "Corpo em Harmonia",
+    "fonte_linhas": [
+      [
+        451,
+        481
+      ]
+    ],
+    "palavras": 298
+  },
+  {
+    "id": "inc-redirecionar-resolucao",
+    "titulo": "Redirecionar a Força",
+    "fonte_linhas": [
+      [
+        473,
+        481
+      ]
+    ],
+    "palavras": 239
+  },
+  {
+    "id": "inc-malabarista",
+    "titulo": "Malabarista",
+    "fonte_linhas": [
+      [
+        483,
+        494
+      ],
+      [
+        510,
+        524
+      ]
+    ],
+    "palavras": 295
+  },
+  {
+    "id": "inc-continuacoes",
+    "titulo": "Lançamento Cruzado",
+    "fonte_linhas": [
+      [
+        496,
+        508
+      ],
+      [
+        546,
+        554
+      ]
+    ],
+    "palavras": 406
+  },
+  {
+    "id": "inc-ricochete",
+    "titulo": "Ricochete",
+    "fonte_linhas": [
+      [
+        526,
+        542
+      ]
+    ],
+    "palavras": 415
+  },
+  {
+    "id": "inc-destino",
+    "titulo": "Mudar o Destino",
+    "fonte_linhas": [
+      [
+        556,
+        564
+      ]
+    ],
+    "palavras": 297
+  },
+  {
+    "id": "inc-retorno",
+    "titulo": "Trajetória de Retorno",
+    "fonte_linhas": [
+      [
+        566,
+        586
+      ]
+    ],
+    "palavras": 322
+  },
+  {
+    "id": "inc-finta",
+    "titulo": "Finta de Retorno",
+    "fonte_linhas": [
+      [
+        588,
+        608
+      ]
+    ],
+    "palavras": 398
+  },
+  {
+    "id": "inc-perfeita",
+    "titulo": "Trajetória Perfeita",
+    "fonte_linhas": [
+      [
+        610,
+        629
+      ]
+    ],
+    "palavras": 396
+  }
+]

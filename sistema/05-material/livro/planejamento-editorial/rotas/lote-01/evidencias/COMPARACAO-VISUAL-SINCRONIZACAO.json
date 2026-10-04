@@ -1,0 +1,169 @@
+{
+  "metodo": "Mesma rasterização Poppler 100dpi; diferença exata dos pixels RGB.",
+  "paginas": [
+    {
+      "pagina": 1,
+      "pixels_iguais": true,
+      "png_anterior": "/tmp/r10-antes-sync/pagina-01.png",
+      "png_atual": "/tmp/r10-depois-sync/pagina-01.png",
+      "sha256_png": "a3507c94e5fd8e761e16060358909593e677a368d1e866a6319e4d636808a46e"
+    },
+    {
+      "pagina": 2,
+      "pixels_iguais": true,
+      "png_anterior": "/tmp/r10-antes-sync/pagina-02.png",
+      "png_atual": "/tmp/r10-depois-sync/pagina-02.png",
+      "sha256_png": "c1fd47cc8283348b24c8f268ca123651f9327a6c4e160b234d211dddb1966a0d"
+    },
+    {
+      "pagina": 3,
+      "pixels_iguais": true,
+      "png_anterior": "/tmp/r10-antes-sync/pagina-03.png",
+      "png_atual": "/tmp/r10-depois-sync/pagina-03.png",
+      "sha256_png": "2b1f6f8da5cafdc569c8617f4da6447c9feee58adf9f3b0a56454a7f8a2c3b3d"
+    },
+    {
+      "pagina": 4,
+      "pixels_iguais": true,
+      "png_anterior": "/tmp/r10-antes-sync/pagina-04.png",
+      "png_atual": "/tmp/r10-depois-sync/pagina-04.png",
+      "sha256_png": "1ee3fe152270e8d2f65c8cbd5799b0363db62787810ae9aedbd7eaa63c865693"
+    },
+    {
+      "pagina": 5,
+      "pixels_iguais": true,
+      "png_anterior": "/tmp/r10-antes-sync/pagina-05.png",
+      "png_atual": "/tmp/r10-depois-sync/pagina-05.png",
+      "sha256_png": "0d1457dc330c748183784ca02fda18e55d61c8ceb2c4b05efaaf477554af91cf"
+    },
+    {
+      "pagina": 6,
+      "pixels_iguais": false,
+      "png_anterior": "/tmp/r10-antes-sync/pagina-06.png",
+      "png_atual": "/tmp/r10-depois-sync/pagina-06.png",
+      "sha256_png": "4f3e0592ac7d02a172fbb7901babc4dd70958e333cf34836754f6908936c838a"
+    },
+    {
+      "pagina": 7,
+      "pixels_iguais": true,
+      "png_anterior": "/tmp/r10-antes-sync/pagina-07.png",
+      "png_atual": "/tmp/r10-depois-sync/pagina-07.png",
+      "sha256_png": "382d833dc1a979bfb3b85ebe97578a94f01e46d7a0af5beaed3d3bdd8609eb7b"
+    },
+    {
+      "pagina": 8,
+      "pixels_iguais": true,
+      "png_anterior": "/tmp/r10-antes-sync/pagina-08.png",
+      "png_atual": "/tmp/r10-depois-sync/pagina-08.png",
+      "sha256_png": "b7764a745436427661f4d673b5409ba061410d44555843ed3416433ed3a9753a"
+    },
+    {
+      "pagina": 9,
+      "pixels_iguais": true,
+      "png_anterior": "/tmp/r10-antes-sync/pagina-09.png",
+      "png_atual": "/tmp/r10-depois-sync/pagina-09.png",
+      "sha256_png": "b21cb800c78a2878c5856c72dc82366d2b89ff58633e0e63a2f1716980f9bd5c"
+    },
+    {
+      "pagina": 10,
+      "pixels_iguais": true,
+      "png_anterior": "/tmp/r10-antes-sync/pagina-10.png",
+      "png_atual": "/tmp/r10-depois-sync/pagina-10.png",
+      "sha256_png": "24852caf26f310469a7db88169e37ba38ca266ff0680d523a6171c0f0870ea13"
+    },
+    {
+      "pagina": 11,
+      "pixels_iguais": true,
+      "png_anterior": "/tmp/r10-antes-sync/pagina-11.png",
+      "png_atual": "/tmp/r10-depois-sync/pagina-11.png",
+      "sha256_png": "c8637ea8a2a14cf978b8a4cc0b86752b0095d917e54f9808fbf90189063487bb"
+    },
+    {
+      "pagina": 12,
+      "pixels_iguais": true,
+      "png_anterior": "/tmp/r10-antes-sync/pagina-12.png",
+      "png_atual": "/tmp/r10-depois-sync/pagina-12.png",
+      "sha256_png": "a3cb79ccf72c48b69a9f0ae0fabac611c88baaa0dc98e3271fa25fab07ba6cd3"
+    },
+    {
+      "pagina": 13,
+      "pixels_iguais": true,
+      "png_anterior": "/tmp/r10-antes-sync/pagina-13.png",
+      "png_atual": "/tmp/r10-depois-sync/pagina-13.png",
+      "sha256_png": "a9b3ec422aba58c1f2649e7e193e719e2b01f701e04ae2c8863588a044470549"
+    },
+    {
+      "pagina": 14,
+      "pixels_iguais": true,
+      "png_anterior": "/tmp/r10-antes-sync/pagina-14.png",
+      "png_atual": "/tmp/r10-depois-sync/pagina-14.png",
+      "sha256_png": "ab9192111bee9737bf685005eee98314967b19d0e5374b9bafad5f6382b32a81"
+    },
+    {
+      "pagina": 15,
+      "pixels_iguais": true,
+      "png_anterior": "/tmp/r10-antes-sync/pagina-15.png",
+      "png_atual": "/tmp/r10-depois-sync/pagina-15.png",
+      "sha256_png": "f0a511262de3f63d410ff34ab5e7f0bf8becffb2209953c3e6ddb2cb044df5a0"
+    },
+    {
+      "pagina": 16,
+      "pixels_iguais": true,
+      "png_anterior": "/tmp/r10-antes-sync/pagina-16.png",
+      "png_atual": "/tmp/r10-depois-sync/pagina-16.png",
+      "sha256_png": "b6dc7b022be7b585c317b8c724e34369fd224612111de2b2df5f1bfea70b02be"
+    },
+    {
+      "pagina": 17,
+      "pixels_iguais": true,
+      "png_anterior": "/tmp/r10-antes-sync/pagina-17.png",
+      "png_atual": "/tmp/r10-depois-sync/pagina-17.png",
+      "sha256_png": "c148f4ecbd20514a89f59ca05ab5821f91d82f01c91fdd634eea3a12822af3af"
+    },
+    {
+      "pagina": 18,
+      "pixels_iguais": true,
+      "png_anterior": "/tmp/r10-antes-sync/pagina-18.png",
+      "png_atual": "/tmp/r10-depois-sync/pagina-18.png",
+      "sha256_png": "aae2a51b3996744abae80ab62e0db3a4bd660acdb00c6a8a6d93ae59546d9a32"
+    },
+    {
+      "pagina": 19,
+      "pixels_iguais": true,
+      "png_anterior": "/tmp/r10-antes-sync/pagina-19.png",
+      "png_atual": "/tmp/r10-depois-sync/pagina-19.png",
+      "sha256_png": "ef4f813504a22f6510097778c9c7a4d14177f50efaa9f988cd5215a4d48b5ede"
+    },
+    {
+      "pagina": 20,
+      "pixels_iguais": true,
+      "png_anterior": "/tmp/r10-antes-sync/pagina-20.png",
+      "png_atual": "/tmp/r10-depois-sync/pagina-20.png",
+      "sha256_png": "c6d62d13184ab5435d445c6079123f23a33a9effbc675bd4e3b1a39cf0a36a7e"
+    },
+    {
+      "pagina": 21,
+      "pixels_iguais": true,
+      "png_anterior": "/tmp/r10-antes-sync/pagina-21.png",
+      "png_atual": "/tmp/r10-depois-sync/pagina-21.png",
+      "sha256_png": "70e033494ca3f26d2b8ecb8a24e03900b6524208637db1a945c468917bde61e9"
+    },
+    {
+      "pagina": 22,
+      "pixels_iguais": true,
+      "png_anterior": "/tmp/r10-antes-sync/pagina-22.png",
+      "png_atual": "/tmp/r10-depois-sync/pagina-22.png",
+      "sha256_png": "ac2a539e5de304875ee9b166914ca280fa5c6ba34b32582e38ab3f2e2c168d7f"
+    },
+    {
+      "pagina": 23,
+      "pixels_iguais": true,
+      "png_anterior": "/tmp/r10-antes-sync/pagina-23.png",
+      "png_atual": "/tmp/r10-depois-sync/pagina-23.png",
+      "sha256_png": "b7e16497bd2fea1d3787d01b43f13eabf99c5ee6f92d9987ecdd4217b49bbb12"
+    }
+  ],
+  "paginas_alteradas": [
+    6
+  ]
+}

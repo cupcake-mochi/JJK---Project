@@ -1,0 +1,199 @@
+
+========================================================================================
+1. O PISO FORA DA BASE E ESTAVEL?
+========================================================================================
+  A regra diz "metade do SEU MAXIMO". A leitura errada — "metade do que voce
+  tem" — colapsa. Os dois modelos, com o grupo gastando tudo todo dia:
+
+  Emanador nv10, pool 60 PE. Descanso longo sempre fora de ambiente propicio:
+                                 dia 1   dia 2   dia 3   dia 4   dia 5
+  metade do MAXIMO (a regra)        30      30      30      30      30
+  metade do ATUAL (a leitura r      30      15       7       3       1
+
+  Piso estavel em 30 PE (50% do maximo). Quem nunca volta para
+  casa vive nesse numero, e o mestre sabe de cabeca com quanto o grupo acorda.
+
+========================================================================================
+2. A EXAUSTAO ESPIRALA?
+========================================================================================
+  missao                      lutas  sem teto  com teto 3
+  1 dia(s) x 3 lutas              3         0           0
+  1 dia(s) x 4 lutas              4         1           1
+  2 dia(s) x 4 lutas              8         2           2
+  3 dia(s) x 4 lutas             12         3           3
+  5 dia(s) x 4 lutas             20         5           3
+  10 dia(s) x 5 lutas            50        20           3
+
+  Nada passa de 3. Dez dias de campo doem igual a tres, e isso e o preco
+  aceito por nao ter espiral. Esta registrado como coisa a olhar em playtest.
+
+========================================================================================
+3. OS DEGRAUS TOCAM A ROLAGEM DE LUTA CEDO DEMAIS?
+========================================================================================
+  degrau  o que pega                                        curto fora  toca luta?
+  0       —                                                       25%  nao
+  1       desvantagem em pericia e oficio                         15%  nao
+  2       deslocamento cai para 6 m                                5%  nao
+  3       desvantagem em ataque e Teste de Resistencia             0%  SIM
+
+  So o ultimo degrau toca a rolagem. Antes dele a exaustao pega fora de combate
+  e depois pega posicionamento: falha primeiro no que nao mata.
+
+========================================================================================
+4. O ORCAMENTO DE UM DIA
+========================================================================================
+  PE acumulado ao longo do dia, com descanso curto de 25% entre lutas,
+  em ambiente propicio (onde a exaustao nao corta):
+
+  lutas no dia        x pool
+  1                    1.00x
+  2                    1.25x
+  3                    1.50x
+  4                    1.75x   <- a exaustao entra aqui
+  5                    2.00x
+
+  Antes da exaustao o teto e 1.75x o pool.
+  A coluna do manual ("quantas vezes voce lanca o seu melhor feitico") vira o
+  PISO por missao em vez do teto, e o desvio e pequeno o bastante para estimar.
+
+  Caminho       pool nv2  25% dele  pool nv30  25% dele
+  Bastiao              8         2        120        30
+  Vanguarda           10         2        150        37
+  Guia                10         2        150        37
+  Evocador            12         3        180        45
+  Emanador            12         3        180        45
+
+========================================================================================
+5. OS QUATRO RELOGIOS ESTAO ORDENADOS?
+========================================================================================
+  1. por cena
+  2. por descanso curto
+  3. por dia
+  4. por descanso longo
+
+  Do mais frequente ao menos frequente. E por isso que "uma vez por dia" e
+  "uma vez por descanso longo" nao sao a mesma coisa no manual: numa missao de
+  cinco dias, o primeiro recarrega cinco vezes e o segundo uma.
+
+========================================================================================
+6. ARREDONDAMENTO — para o lado que nao te favorece, piso de 1
+========================================================================================
+  Regra geral na peca 1, secao 5.4. Aqui e tudo recuperacao, entao e tudo
+  para baixo. O piso de 1 vale para a conta que deu fracao, e NAO para a
+  regra que diz "nada".
+
+  Caminho       nv  pool       deg 0    deg 1    deg 2    deg 3
+  Bastiao        2     8           2        1        1        0
+  Bastiao        3    12           3        1        1        0
+  Bastiao        4    16           4        2        1        0
+  Vanguarda      2    10           2        1        1        0
+  Vanguarda      3    15           3        2        1        0
+  Vanguarda      4    20           5        3        1        0
+  Guia           2    10           2        1        1        0
+  Guia           3    15           3        2        1        0
+  Guia           4    20           5        3        1        0
+  Evocador       2    12           3        1        1        0
+  Evocador       3    18           4        2        1        0
+  Evocador       4    24           6        3        1        0
+  Emanador       2    12           3        1        1        0
+  Emanador       3    18           4        2        1        0
+  Emanador       4    24           6        3        1        0
+
+  Os degraus 1 e 2 empatam enquanto a pool e pequena, e o texto diz isso.
+  Em que nivel a coluna separa:
+    Bastiao      nivel 4  (pool 16)
+    Vanguarda    nivel 3  (pool 15)
+    Guia         nivel 3  (pool 15)
+    Evocador     nivel 3  (pool 18)
+    Emanador     nivel 3  (pool 18)
+
+  A coluna e nao crescente em todo Caminho e em todo nivel testado.
+
+  A regra vale nos dois sentidos, e o manual ja usa o lado do preco:
+    Melhoria Leve numa Classe 3 (metade da Classe)     1.5 -> 2   ok
+    PE da Liberacao Classe 5 (15 + 50%)               22.5 -> 23  ok
+    descanso curto do Guia nv2 (25% de 10)             2.5 -> 2   ok
+    metade da vida do Bastiao nv2 (23 / 2)            11.5 -> 11  ok
+    metade do PE da Vanguarda nv7 (35 / 2)            17.5 -> 17  ok
+
+  E o caso que parece excecao e nao e — a vida por nivel do Caminho:
+    Bastiao     d12   media 6.5   -> 7   ok
+    Vanguarda   d8    media 4.5   -> 5   ok
+    Guia        d8    media 4.5   -> 5   ok
+    Evocador    d6    media 3.5   -> 4   ok
+    Emanador    d6    media 3.5   -> 4   ok
+    Ganho subindo, e nao e excecao: e valor de tabela, nao conta de mesa.
+
+========================================================================================
+7. O TAMANHO DE CADA DEGRAU, e nao so o eixo que ele toca
+========================================================================================
+  Desvantagem = 2d20 e pega o menor. A chance p vira p^2, e a perda p - p^2
+  e MAXIMA em p = 50%. Nenhum degrau de desvantagem e "leve".
+
+  chance sem desvantagem         com     perda
+         25%                    6.2%     18.8 pp
+         40%                   16.0%     24.0 pp
+         50%                   25.0%     25.0 pp
+         60%                   36.0%     24.0 pp
+         75%                   56.2%     18.8 pp
+         90%                   81.0%      9.0 pp
+
+  degrau  eixo                              tamanho no pico   a falha custa
+  1       pericia e oficio                  -25 pp            a cena anda
+  2       deslocamento 9 m -> 6 m           -33% de alcance   posicao
+  3       ataque e Teste de Resistencia     -25 pp            dano, e as vezes a vida
+
+  Os degraus 1 e 3 sao os dois desvantagem e valem os MESMOS
+  25 pp. A escada e ordenada por CONSEQUENCIA, nao por peso — e o texto da
+  peca 10 precisa dizer isso, senao promete "leve" onde nao e.
+
+  Para comparar, o que 25 pp valem no resto do sistema:
+    treinar um Teste de Resistencia                     10 pp
+    a maestria de uma campanha inteira (nv 2 ao 30)     20 pp
+    sair de atributo 0 para 3                           15 pp
+    UM DEGRAU DE EXAUSTAO                               25 pp
+
+========================================================================================
+8. EXAUSTAO E INTEGRIDADE AO MESMO TEMPO — pega o pior, nao soma
+========================================================================================
+            exaustao (peca 10)                    Integridade (manual)
+  degrau 1  desvantagem em pericia                desvantagem em pericia
+  degrau 2  deslocamento cai para 6 m             deslocamento cai para 4.5 m + custo +1 PE por Classe
+  degrau 3  desvantagem em ataque e TR            desvantagem em ataque e TR + teto de Classe
+
+  Eixos que as duas escadas tocam (3): deslocamento, desvantagem:ataque e TR, desvantagem:pericia
+  Eixos so da Integridade (2): custo +1 PE por Classe, teto de Classe
+
+  Nos eixos compartilhados vale o PIOR dos dois; nos eixos que so a
+  Integridade tem, nao ha com o que competir e eles simplesmente acontecem.
+
+  Se somasse: acerto de 50% cairia para 6.2% em vez de 25%.
+  Pegando o pior, ele para em 25% — que e o que qualquer mesa faria.
+
+  Deslocamento: exaustao deixa 6 m, Integridade deixa 4.5 m, de uma base de 9.
+  A alma corta mais que o cansaco, e e por isso que os dois numeros diferem.
+
+========================================================================================
+9. A ESCADA DE RELOGIOS ESTA DEFINIDA?
+========================================================================================
+  os 4 degraus, lidos da tabela desta secao:
+    por cena              recarrega quando: a cena acaba
+    por descanso curto    recarrega quando: você para entre lutas
+    por dia               recarrega quando: você dorme
+    por descanso longo    recarrega quando: a missão acaba
+  [x] o degrau "por cena" tem secao propria dizendo o que conta como uma.
+  rolagens por cena: peca 13 SS7 diz 4.7, esta secao usa 4.7
+  [x] a base da tabela de leituras sai do dono, e as outras duas
+      linhas dela sao 2x e 3x essa base.
+
+========================================================================================
+10. O TETO SATURA A DISCORDANCIA — o filtro multi-mestre da peca 10 SS4
+========================================================================================
+  3 lutas de graca, teto 3 -> a contagem so move a ficha entre 4 e 6 lutas
+  [x] abaixo de 4 lutas discordar nao separa as fichas
+  [x] de 6 lutas em diante o teto empata os dois mestres no degrau 3
+  [x] contra-teste: com o teto a separacao maxima e 3 degrau(s); sem ele seria 16
+  [x] a peca escreve as DUAS metades do motivo do teto
+
+========================================================================================
+>>> TUDO OK — o piso e estavel, a exaustao nao espirala e o orcamento fecha.

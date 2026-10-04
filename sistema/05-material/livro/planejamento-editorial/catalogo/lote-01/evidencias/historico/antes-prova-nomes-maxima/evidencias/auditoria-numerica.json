@@ -1,0 +1,1581 @@
+{
+  "ok": true,
+  "manuscritos_auditados": {
+    "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md": "682b239b4f582912d47b0c8cb14f0df70592f8b5c631f01240f0c4d853c8471e"
+  },
+  "checks": [
+    {
+      "verificacao": "Entrada presente: melhoria/Longe",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Muito Longe",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Sem Ver",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Passo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Empurrão",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Troca",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Perseguir",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Maior",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Muito Maior",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Escolher",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Fica",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Mais Um",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Rajada",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Salto",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Contorno",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Precisão",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Certeiro",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Inescapável",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Fura",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Corrói",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Sem Cobertura",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/De Novo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Toca a Alma",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Condição",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Terreno",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Anteparo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Prende",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Cerca",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Puxa",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Desarma o Feitiço",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Impulso",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Trava",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Abre Ferida",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Sobrecarga",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Firmeza",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Guarda",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Pressa",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Enfraquece",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Ecoa",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Queima",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Acúmulo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Remate",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Estilhaço",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Quebra Coisa",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Rasga Escudo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Sem Cura",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Rápido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Reação",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Armado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Silencioso",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Adianta",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Segura",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Concentrada",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Duradoura",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Marca",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Alvo de Caça",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Rastro",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Sugar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Isca",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Cobrança",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Aviso",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Limpa",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Limpa Fundo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Levanta",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Divide",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Junto",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Reserva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Remenda",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: melhoria/Efeito Próprio",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: restricao/Corpo a Corpo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: restricao/Atrasar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: restricao/Parado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: restricao/Gesto",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: restricao/Sangra",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: restricao/Recuo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: restricao/Carregar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: restricao/Tudo ou Nada",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: restricao/Uma Vez",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: restricao/Condicional",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: restricao/Fraqueza",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: restricao/Frágil",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: restricao/Barulho",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: restricao/Assinatura",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: restricao/Aquecer",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: restricao/Dívida",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: restricao/Peso Morto",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: restricao/Sem Volta",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: restricao/Restrição Própria",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: passiva/Leitura",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: passiva/Instinto",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: passiva/Raiz",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: passiva/Mão Firme",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: passiva/Farejador",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: passiva/Aviso",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: passiva/Fluxo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: passiva/Recomposição",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: passiva/Segunda Natureza",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: passiva/Eco",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: passiva/Costura",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: passiva/Contramedida",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: passiva/Peso da Presença",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: passiva/Escama",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: passiva/Afinidade",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: passiva/Reserva Profunda",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: passiva/Regra Própria",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entrada presente: passiva/Passiva Própria",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "106 entradas no inventário",
+      "obtido": 106,
+      "esperado": 106,
+      "ok": true
+    },
+    {
+      "verificacao": "Aviso tem duas entradas distintas",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "verificacao": "Formas têm dono único",
+      "obtido": 10,
+      "esperado": 10,
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Longe",
+      "obtido": "Leve",
+      "esperado": "Leve",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Muito Longe",
+      "obtido": "Média",
+      "esperado": "Média",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Sem Ver",
+      "obtido": "Pesada",
+      "esperado": "Pesada",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Passo",
+      "obtido": "Leve",
+      "esperado": "Leve",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Empurrão",
+      "obtido": "Leve",
+      "esperado": "Leve",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Troca",
+      "obtido": "Média",
+      "esperado": "Média",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Perseguir",
+      "obtido": "Média",
+      "esperado": "Média",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Maior",
+      "obtido": "Leve",
+      "esperado": "Leve",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Muito Maior",
+      "obtido": "Pesada",
+      "esperado": "Pesada",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Escolher",
+      "obtido": "Média",
+      "esperado": "Média",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Fica",
+      "obtido": "Média",
+      "esperado": "Média",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Mais Um",
+      "obtido": "Leve",
+      "esperado": "Leve",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Rajada",
+      "obtido": "Leve",
+      "esperado": "Leve",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Salto",
+      "obtido": "Média",
+      "esperado": "Média",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Contorno",
+      "obtido": "Leve",
+      "esperado": "Leve",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Precisão",
+      "obtido": "Leve",
+      "esperado": "Leve",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Certeiro",
+      "obtido": "Média",
+      "esperado": "Média",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Inescapável",
+      "obtido": "Média",
+      "esperado": "Média",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Fura",
+      "obtido": "Média",
+      "esperado": "Média",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Corrói",
+      "obtido": "Pesada",
+      "esperado": "Pesada",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Sem Cobertura",
+      "obtido": "Leve",
+      "esperado": "Leve",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/De Novo",
+      "obtido": "Média",
+      "esperado": "Média",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Toca a Alma",
+      "obtido": "Leve",
+      "esperado": "Leve",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Condição",
+      "obtido": "o nível dela",
+      "esperado": "o nível dela",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Terreno",
+      "obtido": "Leve",
+      "esperado": "Leve",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Anteparo",
+      "obtido": "Média",
+      "esperado": "Média",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Prende",
+      "obtido": "Média",
+      "esperado": "Média",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Cerca",
+      "obtido": "Leve",
+      "esperado": "Leve",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Puxa",
+      "obtido": "Média",
+      "esperado": "Média",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Desarma o Feitiço",
+      "obtido": "Média",
+      "esperado": "Média",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Impulso",
+      "obtido": "Leve",
+      "esperado": "Leve",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Trava",
+      "obtido": "Leve",
+      "esperado": "Leve",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Abre Ferida",
+      "obtido": "Leve",
+      "esperado": "Leve",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Sobrecarga",
+      "obtido": "Leve",
+      "esperado": "Leve",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Firmeza",
+      "obtido": "Média",
+      "esperado": "Média",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Guarda",
+      "obtido": "Média",
+      "esperado": "Média",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Pressa",
+      "obtido": "Média",
+      "esperado": "Média",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Enfraquece",
+      "obtido": "Média",
+      "esperado": "Média",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Ecoa",
+      "obtido": "Média",
+      "esperado": "Média",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Queima",
+      "obtido": "Média",
+      "esperado": "Média",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Acúmulo",
+      "obtido": "Média",
+      "esperado": "Média",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Remate",
+      "obtido": "Média",
+      "esperado": "Média",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Estilhaço",
+      "obtido": "Leve",
+      "esperado": "Leve",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Quebra Coisa",
+      "obtido": "Leve",
+      "esperado": "Leve",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Rasga Escudo",
+      "obtido": "Média",
+      "esperado": "Média",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Sem Cura",
+      "obtido": "Média",
+      "esperado": "Média",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Rápido",
+      "obtido": "Pesada",
+      "esperado": "Pesada",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Reação",
+      "obtido": "Pesada",
+      "esperado": "Pesada",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Armado",
+      "obtido": "Leve",
+      "esperado": "Leve",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Silencioso",
+      "obtido": "Leve",
+      "esperado": "Leve",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Adianta",
+      "obtido": "Média",
+      "esperado": "Média",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Segura",
+      "obtido": "Leve",
+      "esperado": "Leve",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Concentrada",
+      "obtido": "Leve",
+      "esperado": "Leve",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Duradoura",
+      "obtido": "Média",
+      "esperado": "Média",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Marca",
+      "obtido": "Leve",
+      "esperado": "Leve",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Alvo de Caça",
+      "obtido": "Leve",
+      "esperado": "Leve",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Rastro",
+      "obtido": "Leve",
+      "esperado": "Leve",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Sugar",
+      "obtido": "Média",
+      "esperado": "Média",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Isca",
+      "obtido": "Leve",
+      "esperado": "Leve",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Cobrança",
+      "obtido": "Média",
+      "esperado": "Média",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Aviso",
+      "obtido": "Leve",
+      "esperado": "Leve",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Limpa",
+      "obtido": "Média",
+      "esperado": "Média",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Limpa Fundo",
+      "obtido": "Pesada",
+      "esperado": "Pesada",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Levanta",
+      "obtido": "Pesada",
+      "esperado": "Pesada",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Divide",
+      "obtido": "Média",
+      "esperado": "Média",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Junto",
+      "obtido": "Leve",
+      "esperado": "Leve",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Reserva",
+      "obtido": "Média",
+      "esperado": "Média",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Remenda",
+      "obtido": "Pesada",
+      "esperado": "Pesada",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: melhoria/Efeito Próprio",
+      "obtido": "o mestre decide",
+      "esperado": "o mestre decide",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: restricao/Corpo a Corpo",
+      "obtido": "Média",
+      "esperado": "Média",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: restricao/Atrasar",
+      "obtido": "Média",
+      "esperado": "Média",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: restricao/Parado",
+      "obtido": "Leve",
+      "esperado": "Leve",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: restricao/Gesto",
+      "obtido": "Leve",
+      "esperado": "Leve",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: restricao/Sangra",
+      "obtido": "Média",
+      "esperado": "Média",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: restricao/Recuo",
+      "obtido": "Leve ou Média",
+      "esperado": "Leve ou Média",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: restricao/Carregar",
+      "obtido": "Média",
+      "esperado": "Média",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: restricao/Tudo ou Nada",
+      "obtido": "Leve",
+      "esperado": "Leve",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: restricao/Uma Vez",
+      "obtido": "Leve",
+      "esperado": "Leve",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: restricao/Condicional",
+      "obtido": "Leve ou Média",
+      "esperado": "Leve ou Média",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: restricao/Fraqueza",
+      "obtido": "Leve ou Média",
+      "esperado": "Leve ou Média",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: restricao/Frágil",
+      "obtido": "Leve",
+      "esperado": "Leve",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: restricao/Barulho",
+      "obtido": "Leve",
+      "esperado": "Leve",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: restricao/Assinatura",
+      "obtido": "Leve",
+      "esperado": "Leve",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: restricao/Aquecer",
+      "obtido": "Leve",
+      "esperado": "Leve",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: restricao/Dívida",
+      "obtido": "Média",
+      "esperado": "Média",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: restricao/Peso Morto",
+      "obtido": "Leve",
+      "esperado": "Leve",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: restricao/Sem Volta",
+      "obtido": "Média",
+      "esperado": "Média",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: restricao/Restrição Própria",
+      "obtido": "Leve ou Média",
+      "esperado": "Leve ou Média",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: passiva/Leitura",
+      "obtido": "1",
+      "esperado": "1",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: passiva/Instinto",
+      "obtido": "1",
+      "esperado": "1",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: passiva/Raiz",
+      "obtido": "1",
+      "esperado": "1",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: passiva/Mão Firme",
+      "obtido": "1",
+      "esperado": "1",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: passiva/Farejador",
+      "obtido": "1",
+      "esperado": "1",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: passiva/Aviso",
+      "obtido": "1",
+      "esperado": "1",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: passiva/Fluxo",
+      "obtido": "2",
+      "esperado": "2",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: passiva/Recomposição",
+      "obtido": "2",
+      "esperado": "2",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: passiva/Segunda Natureza",
+      "obtido": "2",
+      "esperado": "2",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: passiva/Eco",
+      "obtido": "2",
+      "esperado": "2",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: passiva/Costura",
+      "obtido": "2",
+      "esperado": "2",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: passiva/Contramedida",
+      "obtido": "2",
+      "esperado": "2",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: passiva/Peso da Presença",
+      "obtido": "2",
+      "esperado": "2",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: passiva/Escama",
+      "obtido": "3",
+      "esperado": "3",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: passiva/Afinidade",
+      "obtido": "3",
+      "esperado": "3",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: passiva/Reserva Profunda",
+      "obtido": "3",
+      "esperado": "3",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: passiva/Regra Própria",
+      "obtido": "1 a 3",
+      "esperado": "1 a 3",
+      "ok": true
+    },
+    {
+      "verificacao": "Preço de aquisição preservado: passiva/Passiva Própria",
+      "obtido": "1 a 3",
+      "esperado": "1 a 3",
+      "ok": true
+    },
+    {
+      "verificacao": "Curva normal 1-7",
+      "obtido": [
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          2,
+          3,
+          5
+        ],
+        [
+          2,
+          4,
+          6
+        ],
+        [
+          3,
+          5,
+          8
+        ],
+        [
+          3,
+          6,
+          9
+        ],
+        [
+          4,
+          7,
+          11
+        ]
+      ],
+      "esperado": [
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          2,
+          3,
+          5
+        ],
+        [
+          2,
+          4,
+          6
+        ],
+        [
+          3,
+          5,
+          8
+        ],
+        [
+          3,
+          6,
+          9
+        ],
+        [
+          4,
+          7,
+          11
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Livre nunca aumenta preço",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Dados divididos: conservação e metades",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Âncora 1Projétil automático",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Âncora Sugar teto compartilhado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Âncora Máxima semestoque",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Âncora Junto atribuição",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Âncora Capanga objetivo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Âncora Contramedida preço",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Âncora Registro entidades",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Âncora Concentração não renova benefício",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    }
+  ],
+  "verificacoes": 226,
+  "cenarios_executados": 36,
+  "estados_divisao_dados": 7546,
+  "estados_recursos": 4320,
+  "estados_transferencia": 8241,
+  "precos": [
+    {
+      "classe": 1,
+      "normal": [
+        1,
+        1,
+        2
+      ],
+      "livre": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "classe": 2,
+      "normal": [
+        1,
+        2,
+        3
+      ],
+      "livre": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "classe": 3,
+      "normal": [
+        2,
+        3,
+        5
+      ],
+      "livre": [
+        1,
+        1,
+        3
+      ]
+    },
+    {
+      "classe": 4,
+      "normal": [
+        2,
+        4,
+        6
+      ],
+      "livre": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "classe": 5,
+      "normal": [
+        3,
+        5,
+        8
+      ],
+      "livre": [
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "classe": 6,
+      "normal": [
+        3,
+        6,
+        9
+      ],
+      "livre": [
+        1,
+        3,
+        6
+      ]
+    },
+    {
+      "classe": 7,
+      "normal": [
+        4,
+        7,
+        11
+      ],
+      "livre": [
+        1,
+        3,
+        7
+      ]
+    }
+  ],
+  "risco_rajada_controle": [
+    {
+      "ataques": 1,
+      "chance_acerto_por_tiro": 0.5,
+      "chance_ao_menos_um": 0.5
+    },
+    {
+      "ataques": 2,
+      "chance_acerto_por_tiro": 0.5,
+      "chance_ao_menos_um": 0.75
+    },
+    {
+      "ataques": 3,
+      "chance_acerto_por_tiro": 0.5,
+      "chance_ao_menos_um": 0.875
+    },
+    {
+      "ataques": 4,
+      "chance_acerto_por_tiro": 0.5,
+      "chance_ao_menos_um": 0.9375
+    },
+    {
+      "ataques": 5,
+      "chance_acerto_por_tiro": 0.5,
+      "chance_ao_menos_um": 0.96875
+    },
+    {
+      "ataques": 6,
+      "chance_acerto_por_tiro": 0.5,
+      "chance_ao_menos_um": 0.984375
+    },
+    {
+      "ataques": 7,
+      "chance_acerto_por_tiro": 0.5,
+      "chance_ao_menos_um": 0.9921875
+    },
+    {
+      "ataques": 8,
+      "chance_acerto_por_tiro": 0.5,
+      "chance_ao_menos_um": 0.99609375
+    }
+  ],
+  "limites": [
+    "Catálogo inteiro coberto quanto a nomes; cobertura funcional é dirigida, não exaustiva.",
+    "A chance de controle crescente com tiros permanece e exige mesa/ajuste posterior, não foi escondida como só redação.",
+    "Passivas novas ou aclaradas, alvos múltiplos e duração precisam combate real."
+  ]
+}

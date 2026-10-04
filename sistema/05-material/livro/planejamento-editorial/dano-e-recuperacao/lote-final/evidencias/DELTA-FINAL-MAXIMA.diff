@@ -1,0 +1,47 @@
+--- snapshot-lido
++++ R03-final
+@@ -45,7 +45,7 @@
+ 
+ ## Força
+ 
+-**Força** é o tipo usado para **energia amaldiçoada pura**, projetada como um impacto ou disparo, sem outro tipo indicado pelo efeito. **Projetar Energia causa dano de Força.** Ele pertence ao grupo **Especiais**.
++**Força** é o tipo usado para **energia amaldiçoada pura**, projetada como um impacto ou disparo, sem outro tipo indicado pelo efeito. Ele pertence ao grupo **Especiais**.
+ 
+ Soco, queda e impacto de objeto usam Concussão conforme sua regra. Revestir uma arma com energia não muda sozinho o tipo de seu dano. Uma técnica que cause Fogo continua usando Fogo, mesmo alimentada por energia amaldiçoada.
+ 
+@@ -91,7 +91,7 @@
+ 
+ > **Integridade máxima do personagem = 20 + (Essência + 5) × (nível − 1).**
+ 
+-Criaturas que não sejam personagens jogadores usam metade da vida máxima, arredondada para baixo, salvo uma regra própria de sua ficha. Uma criatura sem alma só recebe dano de Alma se alguma regra permitir.
++Criaturas que não sejam personagens jogadores usam metade da vida máxima, arredondada para baixo, com mínimo 1 quando a vida máxima for positiva, salvo uma regra própria de sua ficha. Uma criatura sem alma só recebe dano de Alma se alguma regra permitir.
+ 
+ ## Receber dano de Alma
+ 
+@@ -170,7 +170,7 @@
+ 
+ Seu deslocamento cai pela metade e você não pode usar Ação Bônus. Converter outra ação em Bônus não permite usá-la enquanto essa proibição durar.
+ 
+-## Incapacitado
++## Guarda Aberta
+ 
+ Você **não pode Bloquear**. Ataques corpo a corpo com arma ou desarmados **que acertarem você** são críticos. Ataques à distância e de conjuração não ganham crítico por essa condição; um feitiço de Toque continua sendo conjuração.
+ 
+@@ -184,7 +184,7 @@
+ 
+ ## Agarrado
+ 
+-Seu deslocamento é **zero**. Você ainda pode atacar, conjurar e Bloquear, cumprindo os requisitos dessas ações. A contenção termina se quem o segura ficar Incapacitado ou Inconsciente, soltar você ou deixar de mantê-lo ao alcance.
++Seu deslocamento é **zero**. Você ainda pode atacar, conjurar e Bloquear, cumprindo os requisitos dessas ações. A contenção termina se quem o segura ficar com a Guarda Aberta ou Inconsciente, soltar você ou deixar de mantê-lo ao alcance.
+ 
+ Para encerrar um agarrão comum, consulte **Escapar de uma contenção**, nas regras de combate. O procedimento também explica múltiplas contenções. O movimento de quem segura outra criatura é tratado em **Arrastar e transportar**. Feitiços e habilidades seguem suas saídas próprias.
+ 
+@@ -198,7 +198,7 @@
+ 
+ Você não ouve e falha automaticamente em testes que precisem de audição. Recebe **-2 na iniciativa**. A penalidade entra quando rolar iniciativa; receber Surdo no meio do combate não muda retroativamente a ordem já registrada.
+ 
+-> **Exemplo:** um inimigo Incapacitado ainda pode atacar Rina. Se também ficar Atordoado, perde uma Ação Padrão e não usa Reações por causa de Atordoado; sua Defesa estática permanece, e Incapacitado continua impedindo Bloquear.
++> **Exemplo:** um inimigo com a Guarda Aberta ainda pode atacar Rina. Se também ficar Atordoado, perde uma Ação Padrão e não usa Reações por causa de Atordoado; sua Defesa estática permanece, e Guarda Aberta continua impedindo Bloquear.
+ 
+ <!-- page:medias|Condições médias -->
+ # Condições médias

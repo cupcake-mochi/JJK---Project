@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "sha256_texto": "5483e73807bc165e05d82faf458b2740aefe68217e5a7ae0cb052e96d18e00d2",
+  "revisor": "subagente maxima",
+  "cobertura": "COBERTURA.json",
+  "decisoes": "../ALTERACOES.json",
+  "limites": [
+    "Validação autoral contra fonte; não revisão independente.",
+    "Decisões candidatas resolvem lacunas, não são fatos da obra.",
+    "Revisão de morte/Integridade continua pendente."
+  ],
+  "sincronizacao_final": {
+    "arquivo": "SINCRONIZACAO-FINAL.json",
+    "ok": true,
+    "verificacoes": 187
+  }
+}

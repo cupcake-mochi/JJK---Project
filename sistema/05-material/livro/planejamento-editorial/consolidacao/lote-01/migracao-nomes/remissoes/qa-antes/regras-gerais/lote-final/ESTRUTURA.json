@@ -1,0 +1,210 @@
+{
+  "ordem": [
+    "atributos",
+    "testes",
+    "pericias",
+    "resistencia",
+    "turnos",
+    "acoes",
+    "ajudar",
+    "interacao",
+    "preparar",
+    "oportunidade",
+    "concentracao",
+    "ataques",
+    "alcance",
+    "critico",
+    "defesa",
+    "bloquear",
+    "aparar",
+    "movimento",
+    "espacos",
+    "distancias",
+    "saltos",
+    "quedas",
+    "queda-criatura",
+    "rastejar",
+    "voo",
+    "carga",
+    "arrasto",
+    "montaria",
+    "perceber",
+    "esconder",
+    "procurar",
+    "ocultacao-ataque",
+    "manobras",
+    "contencoes",
+    "estudar",
+    "mundo",
+    "buscar",
+    "pressao",
+    "ler",
+    "energia-exemplo"
+  ],
+  "titulos": {
+    "atributos": "Atributos",
+    "testes": "Testes",
+    "pericias": "Treino e modificadores",
+    "resistencia": "Testes de Resistência",
+    "turnos": "Turnos",
+    "acoes": "Ações",
+    "ajudar": "Ajudar",
+    "interacao": "Interação durante o combate",
+    "preparar": "Preparar",
+    "oportunidade": "Reações e ataques de oportunidade",
+    "concentracao": "Concentração",
+    "ataques": "Ataques",
+    "alcance": "Alcance",
+    "critico": "Dano e crítico",
+    "defesa": "Defesa e cobertura",
+    "bloquear": "Bloquear",
+    "aparar": "Aparar e Brecha",
+    "movimento": "Movimento e terreno",
+    "espacos": "Espaço e posição",
+    "distancias": "Distâncias e altura",
+    "saltos": "Saltos",
+    "quedas": "Quedas e movimento imposto",
+    "queda-criatura": "Quedas sobre criaturas",
+    "rastejar": "Rastejar e passagens estreitas",
+    "voo": "Voo",
+    "carga": "Carga",
+    "arrasto": "Arrastar e transportar",
+    "montaria": "Combate montado",
+    "perceber": "Percepção e visibilidade",
+    "esconder": "Esconder",
+    "procurar": "Vasculhar",
+    "ocultacao-ataque": "Ataques e ocultação",
+    "manobras": "Agarrar, derrubar e empurrar",
+    "contencoes": "Escapar de uma contenção",
+    "estudar": "Estudar",
+    "mundo": "Percepção de energia",
+    "buscar": "Vasculhar com Sentir Energia",
+    "pressao": "Sinais de energia no ambiente",
+    "ler": "Examinar energia e vestígios",
+    "energia-exemplo": "Busca numa sala escura"
+  },
+  "paginas": {
+    "atributos": 1,
+    "testes": 2,
+    "pericias": 3,
+    "resistencia": 4,
+    "turnos": 5,
+    "acoes": 6,
+    "ajudar": 7,
+    "interacao": 8,
+    "preparar": 9,
+    "oportunidade": 10,
+    "concentracao": 11,
+    "ataques": 12,
+    "alcance": 13,
+    "critico": 14,
+    "defesa": 15,
+    "bloquear": 16,
+    "aparar": 17,
+    "movimento": 18,
+    "espacos": 19,
+    "distancias": 20,
+    "saltos": 21,
+    "quedas": 22,
+    "queda-criatura": 23,
+    "rastejar": 24,
+    "voo": 25,
+    "carga": 26,
+    "arrasto": 27,
+    "montaria": 28,
+    "perceber": 29,
+    "esconder": 30,
+    "procurar": 31,
+    "ocultacao-ataque": 32,
+    "manobras": 33,
+    "contencoes": 34,
+    "estudar": 35,
+    "mundo": 36,
+    "buscar": 37,
+    "pressao": 38,
+    "ler": 39,
+    "energia-exemplo": 40
+  },
+  "grupos": [
+    [
+      "Testes",
+      [
+        "atributos",
+        "testes",
+        "pericias",
+        "resistencia"
+      ]
+    ],
+    [
+      "Turnos e ações",
+      [
+        "turnos",
+        "acoes",
+        "ajudar",
+        "interacao",
+        "preparar",
+        "oportunidade",
+        "concentracao"
+      ]
+    ],
+    [
+      "Ataques e defesa",
+      [
+        "ataques",
+        "alcance",
+        "critico",
+        "defesa",
+        "bloquear",
+        "aparar"
+      ]
+    ],
+    [
+      "Movimento e quedas",
+      [
+        "movimento",
+        "espacos",
+        "distancias",
+        "saltos",
+        "quedas",
+        "queda-criatura",
+        "rastejar",
+        "voo"
+      ]
+    ],
+    [
+      "Carga e montarias",
+      [
+        "carga",
+        "arrasto",
+        "montaria"
+      ]
+    ],
+    [
+      "Percepção e ocultação",
+      [
+        "perceber",
+        "esconder",
+        "procurar",
+        "ocultacao-ataque"
+      ]
+    ],
+    [
+      "Manobras e informação",
+      [
+        "manobras",
+        "contencoes",
+        "estudar"
+      ]
+    ],
+    [
+      "Energia e vestígios",
+      [
+        "mundo",
+        "buscar",
+        "pressao",
+        "ler",
+        "energia-exemplo"
+      ]
+    ]
+  ]
+}

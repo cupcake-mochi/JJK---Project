@@ -120,6 +120,8 @@ O motivo da primeira é o pilar 1: a técnica é a identidade. Se o Caminho dess
 
 > **Esta seção era uma lista fechada de sete linhas até a v0.71, e ela tinha dois defeitos medidos.** A frase-trava enumerava **quatro** coisas enquanto a lista abaixo tinha **sete** — as duas nunca bateram. E o desenho dos cinco Caminhos usou **oito** entregas que nenhuma das sete autorizava, incluindo três que o próprio projeto já tinha aprovado. *Enumerar no topo é o que envelhece; a cerca não.*
 
+> **Exceções atuais da v0.331.** O conjunto aprovado do Incursor também permite o dano adicional de Golpe Cirúrgico, a progressão do dado desarmado do Pugilista e o deslocamento de Movimento Acrobático. O Evocador concede os aprimoramentos e as intervenções escritos em seu catálogo. Estes textos específicos prevalecem sobre a cerca histórica abaixo somente no que autorizam; não liberam aumentos genéricos para outras habilidades. Seus preços antigos não medem as novas Trilhas.
+
 ### A cerca — seis coisas que um Caminho nunca dá
 
 - **Dado de dano.** O dado do soco e o da arma são **equipamento**; o Caminho mexe no que se faz com eles.

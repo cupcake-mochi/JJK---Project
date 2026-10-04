@@ -1,0 +1,708 @@
+{
+  "unidade": "R20 — Origens e Legados",
+  "sha256_texto": "d432caecc9f2c63b0f355ad70a6e74251ae51044a8ac5840a35b7fd6d182484d",
+  "estado": "Candidata com leitura independente, PDF e inspeção visual concluídos. Interfaces serão reconferidas na consolidação.",
+  "validadores": [
+    {
+      "id": "V01",
+      "estado": "concluido",
+      "evidencia": "INVENTARIO.json:85 entradas+regras comuns.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json",
+      "delta_remissoes": "evidencias/REVISAO-REMISSOES.json"
+    },
+    {
+      "id": "V02",
+      "estado": "concluido",
+      "evidencia": "FONTES/ALTERACOES:precedência e hashes.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json",
+      "delta_remissoes": "evidencias/REVISAO-REMISSOES.json"
+    },
+    {
+      "id": "V03",
+      "estado": "concluido",
+      "evidencia": "auditar.py; evidencias/AUDITORIA.json.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json",
+      "delta_remissoes": "evidencias/REVISAO-REMISSOES.json"
+    },
+    {
+      "id": "V04",
+      "estado": "concluido_com_limites",
+      "evidencia": "Enumeração d20/reparo/seleções com limites registrados.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json",
+      "delta_remissoes": "evidencias/REVISAO-REMISSOES.json"
+    },
+    {
+      "id": "V05",
+      "estado": "concluido_com_limites",
+      "evidencia": "REVISAO-E-FONTES:alternativas e riscos.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json",
+      "delta_remissoes": "evidencias/REVISAO-REMISSOES.json"
+    },
+    {
+      "id": "V06",
+      "estado": "concluido_com_interfaces",
+      "evidencia": "INTERFACES.json, R11reparopendente.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json",
+      "delta_remissoes": "evidencias/REVISAO-REMISSOES.json"
+    },
+    {
+      "id": "V07",
+      "estado": "concluido",
+      "evidencia": "Checker editorial + leitura contextual.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json",
+      "delta_remissoes": "evidencias/REVISAO-REMISSOES.json"
+    },
+    {
+      "id": "V08",
+      "estado": "concluido",
+      "evidencia": "REVISAO-POR-SECAO.json.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json",
+      "delta_remissoes": "evidencias/REVISAO-REMISSOES.json"
+    },
+    {
+      "id": "V09",
+      "estado": "concluido_com_limites",
+      "evidencia": "Leitura dirigida PHB/DMG local, não integral.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json",
+      "delta_remissoes": "evidencias/REVISAO-REMISSOES.json"
+    },
+    {
+      "id": "V10",
+      "estado": "concluido",
+      "evidencia": "Donos por remissão, incompatibilidades justificadas.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json",
+      "delta_remissoes": "evidencias/REVISAO-REMISSOES.json"
+    },
+    {
+      "id": "V11",
+      "estado": "concluido_com_limites",
+      "evidencia": "CANONE.md:primária limitada, regras autorais distinguidas.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json",
+      "delta_remissoes": "evidencias/REVISAO-REMISSOES.json"
+    },
+    {
+      "id": "V12",
+      "estado": "concluido",
+      "evidencia": "evidencias/REVISAO-INDEPENDENTE-COMPATIBILIDADE.md/json, leitura independente e achados tratados no hash atual.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json",
+      "delta_remissoes": "evidencias/REVISAO-REMISSOES.json"
+    },
+    {
+      "id": "V13",
+      "estado": "concluido",
+      "evidencia": "CONFERENCIA.json: 204 verificações completas aprovadas, 26 páginas.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json",
+      "delta_remissoes": "evidencias/REVISAO-REMISSOES.json"
+    },
+    {
+      "id": "V14",
+      "estado": "executado",
+      "evidencia": "Todas as 26 páginas renderizadas abertas e inspecionadas pela raiz. Hashes em evidencias/inspecao-visual.json. Sem defeito visual observado na prova.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json",
+      "limite_delta": "2 páginas abertas; 24 preservadas por identidade da prova.",
+      "delta_remissoes": "evidencias/REVISAO-REMISSOES.json"
+    },
+    {
+      "id": "V15",
+      "estado": "concluido",
+      "evidencia": "Antes/depois, scripts, hashes, manifesto.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json",
+      "delta_remissoes": "evidencias/REVISAO-REMISSOES.json"
+    }
+  ],
+  "por_pagina": [
+    {
+      "pagina": "origens",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido_com_limites",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_interfaces",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido_com_limites",
+        "V10": "concluido",
+        "V11": "concluido_com_limites",
+        "V12": "concluido",
+        "V13": "concluido",
+        "V14": "pendente_coordenador",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "origem-escolhas",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido_com_limites",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_interfaces",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido_com_limites",
+        "V10": "concluido",
+        "V11": "concluido_com_limites",
+        "V12": "concluido",
+        "V13": "concluido",
+        "V14": "pendente_coordenador",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "legados",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido_com_limites",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_interfaces",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido_com_limites",
+        "V10": "concluido",
+        "V11": "concluido_com_limites",
+        "V12": "concluido",
+        "V13": "concluido",
+        "V14": "pendente_coordenador",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "origem-latente",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido_com_limites",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_interfaces",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido_com_limites",
+        "V10": "concluido",
+        "V11": "concluido_com_limites",
+        "V12": "concluido",
+        "V13": "concluido",
+        "V14": "pendente_coordenador",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "latente-beneficios",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido_com_limites",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_interfaces",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido_com_limites",
+        "V10": "concluido",
+        "V11": "concluido_com_limites",
+        "V12": "concluido",
+        "V13": "concluido",
+        "V14": "pendente_coordenador",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "origem-receptaculo",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido_com_limites",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_interfaces",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido_com_limites",
+        "V10": "concluido",
+        "V11": "concluido_com_limites",
+        "V12": "concluido",
+        "V13": "concluido",
+        "V14": "pendente_coordenador",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "receptaculo-acordos",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido_com_limites",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_interfaces",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido_com_limites",
+        "V10": "concluido",
+        "V11": "concluido_com_limites",
+        "V12": "concluido",
+        "V13": "concluido",
+        "V14": "pendente_coordenador",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "receptaculo-excecoes",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido_com_limites",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_interfaces",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido_com_limites",
+        "V10": "concluido",
+        "V11": "concluido_com_limites",
+        "V12": "concluido",
+        "V13": "concluido",
+        "V14": "pendente_coordenador",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "origem-descendente",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido_com_limites",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_interfaces",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido_com_limites",
+        "V10": "concluido",
+        "V11": "concluido_com_limites",
+        "V12": "concluido",
+        "V13": "concluido",
+        "V14": "pendente_coordenador",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "descendente-beneficios",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido_com_limites",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_interfaces",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido_com_limites",
+        "V10": "concluido",
+        "V11": "concluido_com_limites",
+        "V12": "concluido",
+        "V13": "concluido",
+        "V14": "pendente_coordenador",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "origem-encarnado",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido_com_limites",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_interfaces",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido_com_limites",
+        "V10": "concluido",
+        "V11": "concluido_com_limites",
+        "V12": "concluido",
+        "V13": "concluido",
+        "V14": "pendente_coordenador",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "encarnado-beneficios",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido_com_limites",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_interfaces",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido_com_limites",
+        "V10": "concluido",
+        "V11": "concluido_com_limites",
+        "V12": "concluido",
+        "V13": "concluido",
+        "V14": "pendente_coordenador",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "origem-feto",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido_com_limites",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_interfaces",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido_com_limites",
+        "V10": "concluido",
+        "V11": "concluido_com_limites",
+        "V12": "concluido",
+        "V13": "concluido",
+        "V14": "pendente_coordenador",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "feto-beneficios",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido_com_limites",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_interfaces",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido_com_limites",
+        "V10": "concluido",
+        "V11": "concluido_com_limites",
+        "V12": "concluido",
+        "V13": "concluido",
+        "V14": "pendente_coordenador",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "origem-sem-tecnica",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido_com_limites",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_interfaces",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido_com_limites",
+        "V10": "concluido",
+        "V11": "concluido_com_limites",
+        "V12": "concluido",
+        "V13": "concluido",
+        "V14": "pendente_coordenador",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "origem-corpo",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido_com_limites",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_interfaces",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido_com_limites",
+        "V10": "concluido",
+        "V11": "concluido_com_limites",
+        "V12": "concluido",
+        "V13": "concluido",
+        "V14": "pendente_coordenador",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "origem-reparo",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido_com_limites",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_interfaces",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido_com_limites",
+        "V10": "concluido",
+        "V11": "concluido_com_limites",
+        "V12": "concluido",
+        "V13": "concluido",
+        "V14": "pendente_coordenador",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "corpo-configuracoes",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido_com_limites",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_interfaces",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido_com_limites",
+        "V10": "concluido",
+        "V11": "concluido_com_limites",
+        "V12": "concluido",
+        "V13": "concluido",
+        "V14": "pendente_coordenador",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "corpo-ninhada-gemeos",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido_com_limites",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_interfaces",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido_com_limites",
+        "V10": "concluido",
+        "V11": "concluido_com_limites",
+        "V12": "concluido",
+        "V13": "concluido",
+        "V14": "pendente_coordenador",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "corpo-inteiro-manutencao",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido_com_limites",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_interfaces",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido_com_limites",
+        "V10": "concluido",
+        "V11": "concluido_com_limites",
+        "V12": "concluido",
+        "V13": "concluido",
+        "V14": "pendente_coordenador",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "origem-restricao",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido_com_limites",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_interfaces",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido_com_limites",
+        "V10": "concluido",
+        "V11": "concluido_com_limites",
+        "V12": "concluido",
+        "V13": "concluido",
+        "V14": "pendente_coordenador",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "restricao-corpo",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido_com_limites",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_interfaces",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido_com_limites",
+        "V10": "concluido",
+        "V11": "concluido_com_limites",
+        "V12": "concluido",
+        "V13": "concluido",
+        "V14": "pendente_coordenador",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "restricao-sem-energia",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido_com_limites",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_interfaces",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido_com_limites",
+        "V10": "concluido",
+        "V11": "concluido_com_limites",
+        "V12": "concluido",
+        "V13": "concluido",
+        "V14": "pendente_coordenador",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "restricao-beneficios",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido_com_limites",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_interfaces",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido_com_limites",
+        "V10": "concluido",
+        "V11": "concluido_com_limites",
+        "V12": "concluido",
+        "V13": "concluido",
+        "V14": "pendente_coordenador",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "legado-criar",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido_com_limites",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_interfaces",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido_com_limites",
+        "V10": "concluido",
+        "V11": "concluido_com_limites",
+        "V12": "concluido",
+        "V13": "concluido",
+        "V14": "pendente_coordenador",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "legados-exemplos",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido_com_limites",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_interfaces",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido_com_limites",
+        "V10": "concluido",
+        "V11": "concluido_com_limites",
+        "V12": "concluido",
+        "V13": "concluido",
+        "V14": "pendente_coordenador",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    }
+  ],
+  "sha256_pdf": "9794238a24a5ca41232384b15bd50fca03b698223481864339cfd7440f102e09",
+  "revalidacao_nomes": {
+    "unidade": "origens/lote-01",
+    "sha256_texto": "fcdf3dfb581d2cd625746ab76ee581e025a023666c5e93a45187aa3328dd2403",
+    "sha256_pdf": "b9ddb33e9c3fbb1ebe9e2458c07d2eb13fb0e3f58f0aab3add96467dfc7cdb04",
+    "escopo": "Releitura contextual das linhas alteradas; a revisão integral anterior permanece em seus relatórios históricos.",
+    "invariantes": "IDs, numerais, alcance, custos, procedimentos e tabelas conservados. Nomes aprovados e concordância uniformizados.",
+    "historico": "consolidacao/lote-01/migracao-nomes/qa-antes/origens/lote-01",
+    "auditoria_numerica": "Execuções novamente concluídas após os nomes; outputs locais vinculados à versão atual.",
+    "paginas_reabertas": [
+      8,
+      12
+    ],
+    "paginas_preservadas": 24,
+    "equivalencia_visual": "Hashes de pixels por página, COMPARACAO-NOMES-PDF.json",
+    "revisao_independente_delta": {
+      "revisor": "/root",
+      "resultado": "Sem bloqueador nos diffs nominais completos de Regras gerais, Equipamento, Aptidões, Incursor e Origens, conforme confirmação direta do revisor; unidades de texto idêntico preservam o parecer anterior.",
+      "complemento": "Aprovado por /root após leitura de COMPLEMENTO.json."
+    },
+    "limites": [
+      "Sem novo cânone, redesign ou afirmação de equilíbrio final.",
+      "Leitura por modelo não equivale a teste com pessoas.",
+      "Adjetivos passivo/passiva comuns mantidos."
+    ]
+  },
+  "revalidacao_remissoes": {
+    "sha256_texto": "d432caecc9f2c63b0f355ad70a6e74251ae51044a8ac5840a35b7fd6d182484d",
+    "sha256_pdf": "9794238a24a5ca41232384b15bd50fca03b698223481864339cfd7440f102e09",
+    "alteracoes": "consolidacao/lote-01/migracao-nomes/remissoes/ALTERACOES.json",
+    "revisao_independente": "/root aprovou as remissões propostas e seus antes/depois em REMISSOES-TEXTUAIS.md; leitura contextual e execução por /root/compatibilidade.",
+    "regra": "Nenhum dado, custo, ação, gatilho ou requisito alterado. Uniforme refere a proteção disponível na ficha sem presumir energia.",
+    "visual_paginas_abertas": [
+      17
+    ],
+    "visual_identicas": 25
+  },
+  "fechamento_migracao": {
+    "estado": "concluído no escopo nominal e remissões",
+    "conferencia": "CONFERENCIA.json",
+    "limites": "Evidências mecânicas anteriores preservadas e execuções repetidas nos textos atuais. Revisão de nomes/remissões não é novo playtest.",
+    "paginas_abertas": [
+      8,
+      12,
+      17
+    ]
+  }
+}

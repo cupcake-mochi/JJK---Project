@@ -1,0 +1,291 @@
+{
+  "decisoes": [
+    {
+      "id": "BAS01",
+      "tipo": "Editorial",
+      "antes": "Características dispersas",
+      "depois": "Tabela inclui vida inicial 12 + Con e fórmula PE4×nível.",
+      "motivo": "Ensinar aquisição sem obrigar três consultas.",
+      "fontes": [
+        "criacao",
+        "progressao"
+      ]
+    },
+    {
+      "id": "BAS02",
+      "tipo": "Editorial",
+      "antes": "Entregas sem quadro único de permanência/troca",
+      "depois": "Níveis e troca integral de Trilha explícitos.",
+      "motivo": "Evitar misturar duas Trilhas; não cria multiclasse.",
+      "fontes": [
+        "integrado",
+        "manual35"
+      ]
+    },
+    {
+      "id": "BAS03",
+      "tipo": "Esclarecimento mecânico",
+      "antes": "Aura dura cena; Inabalável diz que permanece Inconsciente",
+      "depois": "Aura base termina Inconsciente, mas não ao cair/agarrar; Inabalável conserva passivos sem conceder ações.",
+      "motivo": "Fecha pré-condição implícita da habilidade27 sem inventar encerramento por Derrubado.",
+      "fontes": [
+        "integrado",
+        "R03"
+      ]
+    },
+    {
+      "id": "BAS04",
+      "tipo": "Esclarecimento mecânico",
+      "antes": "Provocar contra TR de cada alvo, empate indefinido",
+      "depois": "Um total de Provocar vira CD; cada Espírito igual ou maior resiste.",
+      "motivo": "Procedimento reproduzível; dono geral R01 precisa sincronização. Root aprovou.",
+      "fontes": [
+        "integrado",
+        "R01"
+      ]
+    },
+    {
+      "id": "BAS05",
+      "tipo": "Preservação humana",
+      "antes": "Interceptação anterior recebia acerto já resolvido; Duro antigo1/rodada",
+      "depois": "Assumir antes da rolagem com Defesa/Bloquear própria; Duro em cada falha sem limite.",
+      "motivo": "Preserva pedido humano e contrato0.331.",
+      "fontes": [
+        "integrado",
+        "contrato"
+      ]
+    },
+    {
+      "id": "BAS06",
+      "tipo": "Esclarecimento mecânico",
+      "antes": "Intercepção não mencionava percepção nem dano no erro",
+      "depois": "Precisa perceber aliado/ataque. Erro não é acerto, mas eventual dano no erro permanece no Bastião.",
+      "motivo": "Uma resposta depende de perceber gatilho. Certeiro não cria acerto para Casca, Trocação ou Retaliação.",
+      "fontes": [
+        "R01",
+        "R02",
+        "R07"
+      ]
+    },
+    {
+      "id": "BAS07",
+      "tipo": "Preservação humana",
+      "antes": "Nem Um Arranhão era Reação",
+      "depois": "Vantagem passiva no TR Físico de ataque por criatura dentro da aura.",
+      "motivo": "Evita disputar Reação de proteção; posição conferida na rolagem.",
+      "fontes": [
+        "integrado",
+        "contrato"
+      ]
+    },
+    {
+      "id": "BAS08",
+      "tipo": "Esclarecimento mecânico",
+      "antes": "Ainda de Pé: ao ser reduzido à metade",
+      "depois": "Perda de vida termina≤metade; pode já estar abaixo; não só vida temporária; metade nível para baixo; zero segue Recuperação.",
+      "motivo": "Evita disparar por perder somente reserva ou levantar automaticamente com cura insuficiente.",
+      "fontes": [
+        "integrado",
+        "R04"
+      ]
+    },
+    {
+      "id": "BAS09",
+      "tipo": "Editorial",
+      "antes": "Chega Mais: entrada voluntária",
+      "depois": "Não dispara por empurrão nem aura passando sobre alvo; reentrada real pode disparar.",
+      "motivo": "Explica gatilho sem acrescentar limite1/rodada inexistente.",
+      "fontes": [
+        "integrado",
+        "comuns"
+      ]
+    },
+    {
+      "id": "BAS10",
+      "tipo": "Esclarecimento mecânico",
+      "antes": "Passa Pra Mim não dizia sequência ou defesas do receptor",
+      "depois": "Resolve proteções/reservas aliado; preserva1; transfere excedente com tipos; aplica proteções próprias do Bastião, sem reutilizar uso de redução; sem retransmissão.",
+      "motivo": "Completa procedimento; ação livre fora turno explícita; não gera interceptação/Block. Mudança candidata de resolução, não texto histórico garantido.",
+      "fontes": [
+        "integrado",
+        "R03",
+        "R04"
+      ]
+    },
+    {
+      "id": "BAS11",
+      "tipo": "Esclarecimento mecânico",
+      "antes": "Alicerce: metade de2tipos, sem nome de defesa",
+      "depois": "Trata como resistência, não empilha metades equivalentes e respeita Alma.",
+      "motivo": "Compatibiliza dono de tipos; Alma continua exceção e não deve ser escolhida esperando metade.",
+      "fontes": [
+        "integrado",
+        "R03"
+      ]
+    },
+    {
+      "id": "BAS12",
+      "tipo": "Editorial",
+      "antes": "Guarda-Costas adjacente",
+      "depois": "1,5m; cobertura maior não soma; ao interceptar não leva cobertura concedida ao aliado.",
+      "motivo": "Medida comum e alvo da proteção claros. Não impõe aura ativa, ausente na fonte.",
+      "fontes": [
+        "integrado",
+        "R02"
+      ]
+    },
+    {
+      "id": "BAS13",
+      "tipo": "Editorial",
+      "antes": "Casca: depois Defesa/Bloquear e soma RD",
+      "depois": "Explica dados novos de Casca versus dados já rolados de Duro; resistência vem antes.",
+      "motivo": "Não repetir rolagem defensiva nem ativar por erro.",
+      "fontes": [
+        "integrado",
+        "R03"
+      ]
+    },
+    {
+      "id": "BAS14",
+      "tipo": "Esclarecimento mecânico",
+      "antes": "Respostas ao ser acertado sem ordem",
+      "depois": "Trocação/Retaliação resolvem após golpe recebido, se ainda puder agir; conservam alcance e limite conjuração.",
+      "motivo": "Evita atacar depois de perder capacidade e usar alcance da interceptação no revide.",
+      "fontes": [
+        "integrado",
+        "R01",
+        "R02",
+        "R06"
+      ]
+    },
+    {
+      "id": "BAS15",
+      "tipo": "Preservação humana",
+      "antes": "Mão Pesada apenas Derrubado em versão antiga",
+      "depois": "Vigor8+For+M; falha escolhe Derrubado ou Agarrado com mão e alcance.",
+      "motivo": "Preserva pedido humano0.331.",
+      "fontes": [
+        "integrado",
+        "contrato"
+      ]
+    },
+    {
+      "id": "BAS16",
+      "tipo": "Esclarecimento mecânico",
+      "antes": "Mão: direção escolhida, sem interação obstáculo/escape",
+      "depois": "Obstáculo interrompe, queda real usa dono, sem dano colisão automático; escape usa CD inicial; não importa limite tamanho de manobra geral.",
+      "motivo": "Não retirar efeito próprio por regra de outra ação; não inventar dano ou prisão ilimitada.",
+      "fontes": [
+        "integrado",
+        "comuns",
+        "R03"
+      ]
+    },
+    {
+      "id": "BAS17",
+      "tipo": "Preservação humana",
+      "antes": "Arrastão8PE fixos antes0.331",
+      "depois": "2PE por alvo tentado após primeiro, antes rolar.",
+      "motivo": "Preserva pedido e custo mesmo em erro.",
+      "fontes": [
+        "integrado",
+        "contrato"
+      ]
+    },
+    {
+      "id": "BAS18",
+      "tipo": "Esclarecimento mecânico",
+      "antes": "Arrastão aura9m versus soco1,5m; controle sem repetir limite",
+      "depois": "Só seus golpes usam alcance aura; sem atravessar sólido, agarrar continua alcance normal. Ampliação exige/reserva uso Mão da rodada.",
+      "motivo": "Fecha alcance excepcional e impede repetir controle da rodada; root aprovou decisão operacional.",
+      "fontes": [
+        "integrado",
+        "R02",
+        "comuns"
+      ]
+    },
+    {
+      "id": "BAS19",
+      "tipo": "Editorial",
+      "antes": "Minha Vez livre2PE; ataque extra porrodada",
+      "depois": "Minha Vez gasta2PE por nova tentativa após sucessoBlock,1/rodada; AtaqueExtra não é ação e não renova com Padrão extra.",
+      "motivo": "Contagem de ações sem antecipar máximo falso por rodada.",
+      "fontes": [
+        "integrado",
+        "R01",
+        "R02"
+      ]
+    },
+    {
+      "id": "BAS20",
+      "tipo": "Esclarecimento mecânico",
+      "antes": "Retaliação+ForPE",
+      "depois": "Atualiza máximo com atributo, não recupera energia ao variar.",
+      "motivo": "Previne recarga ao trocar Trilha/atributo.",
+      "fontes": [
+        "integrado",
+        "R04"
+      ]
+    },
+    {
+      "id": "BAS21",
+      "tipo": "Editorial",
+      "antes": "Embalo mantém maior reserva",
+      "depois": "Explicita reposição após gasto e nenhum empilhamento; TR não depende aura.",
+      "motivo": "Preserva frequência sem limite por rodada inventado.",
+      "fontes": [
+        "integrado",
+        "R04"
+      ]
+    },
+    {
+      "id": "BAS22",
+      "tipo": "Esclarecimento mecânico",
+      "antes": "Oportunista próximo feitiço>0",
+      "depois": "Escolhe ataque/TR antes da rolagem; próxima conjuração consome mesmo se automática, erro ou resistência; Class0 não consome.",
+      "motivo": "Evita manter benefício até acertar; não converte automático em ataque.",
+      "fontes": [
+        "integrado",
+        "R06"
+      ]
+    },
+    {
+      "id": "BAS23",
+      "tipo": "Preservação humana",
+      "antes": "Contra a Parede ambígua no ataque/dados",
+      "depois": "Escolha primeiro/segundo antes rolar; feitiço separado sem crítico; escolhido sem Canalizar nem Estímulo; outro ataque normal.",
+      "motivo": "Preserva pedido humano e equivalência de rotas.",
+      "fontes": [
+        "integrado",
+        "contrato",
+        "R09",
+        "R10"
+      ]
+    },
+    {
+      "id": "BAS24",
+      "tipo": "Esclarecimento mecânico",
+      "antes": "Contra requisito vida/Classe/preparo não explicitado",
+      "depois": "Conferir≤metade na declaração, Classfloor(max/2) igual, mesmo se físico erra; PE normal, limite turno e preparo não são abolidos.",
+      "motivo": "Evita liberar feitiço carregado instantâneo ou duas conjuraçõesClasse>0 por ação extra.",
+      "fontes": [
+        "integrado",
+        "R06",
+        "R07"
+      ]
+    },
+    {
+      "id": "BAS25",
+      "tipo": "Esclarecimento mecânico / sincronização",
+      "antes": "Dano misto perde sua identidade depois de somar RD e vida temporária; transferência não define parcelas.",
+      "depois": "Fonte fixa a ordem de suas parcelas antes da rolagem; proteções/reservas consomem nessa ordem; transfere somente parcelas restantes e preserva tipos. R13 remete ao dono R03.",
+      "motivo": "Exemplo com dois tipos sem escolha oportunista depois dos números. Receptor não vira alvo/acertado de outro ataque e não recebe outra tentativa de Bloquear. Root aprovou como nova candidata geral, não como história.",
+      "fontes": [
+        "R03",
+        "integrado"
+      ],
+      "destino_sincronizacao": "Dano e Condições — Golpes com vários tipos"
+    }
+  ],
+  "publicacao": "Candidata isolada; fontes publicadas preservadas."
+}

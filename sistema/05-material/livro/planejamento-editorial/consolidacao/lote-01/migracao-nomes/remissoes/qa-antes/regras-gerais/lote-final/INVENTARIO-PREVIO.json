@@ -1,0 +1,197 @@
+[
+  {
+    "arquivo": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+    "sha256": "6398c036f821c98ab1c83241eb76c91f0ef2b29d108ba8335b6ae794eb180b35",
+    "secoes": [
+      {
+        "id": "atributos",
+        "titulo": "Atributos"
+      },
+      {
+        "id": "testes",
+        "titulo": "Testes"
+      },
+      {
+        "id": "pericias",
+        "titulo": "Perícias e ofícios"
+      },
+      {
+        "id": "resistencia",
+        "titulo": "Testes de Resistência"
+      },
+      {
+        "id": "turnos",
+        "titulo": "Turnos"
+      },
+      {
+        "id": "acoes",
+        "titulo": "Ações"
+      },
+      {
+        "id": "reacoes",
+        "titulo": "Reações e concentração"
+      }
+    ],
+    "precedencia": "MOVIMENTO-E-CARGA complementa e prevalece sobre versões anteriores de espaço/carga; Energia r2 foi incorporada ao consolidado. Atualizar interfaces nos donos, sem copiar habilidades."
+  },
+  {
+    "arquivo": "regras-basicas/lote-02/ATAQUES-E-DEFESA.md",
+    "sha256": "afd311cfde0914af381f09cee3e756138a6ddb976a4c6276e4f6b378b2eac477",
+    "secoes": [
+      {
+        "id": "ataques",
+        "titulo": "Ataques"
+      },
+      {
+        "id": "alcance",
+        "titulo": "Alcance"
+      },
+      {
+        "id": "critico",
+        "titulo": "Dano e crítico"
+      },
+      {
+        "id": "defesa",
+        "titulo": "Defesa e cobertura"
+      },
+      {
+        "id": "bloquear",
+        "titulo": "Bloquear"
+      },
+      {
+        "id": "aparar",
+        "titulo": "Aparar e Brecha"
+      }
+    ],
+    "precedencia": "MOVIMENTO-E-CARGA complementa e prevalece sobre versões anteriores de espaço/carga; Energia r2 foi incorporada ao consolidado. Atualizar interfaces nos donos, sem copiar habilidades."
+  },
+  {
+    "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md",
+    "sha256": "3a7c2783e8f07a1d0de20317d1115d592d45c8b96cbbf7452e28d970ef03bb06",
+    "secoes": [
+      {
+        "id": "guia",
+        "titulo": "Regras comuns em jogo"
+      },
+      {
+        "id": "movimento",
+        "titulo": "Movimento e terreno"
+      },
+      {
+        "id": "saltos",
+        "titulo": "Saltos"
+      },
+      {
+        "id": "quedas",
+        "titulo": "Quedas e movimento imposto"
+      },
+      {
+        "id": "perceber",
+        "titulo": "Percepção e visibilidade"
+      },
+      {
+        "id": "esconder",
+        "titulo": "Esconder"
+      },
+      {
+        "id": "procurar",
+        "titulo": "Vasculhar"
+      },
+      {
+        "id": "atacar",
+        "titulo": "Ataques e ocultação"
+      },
+      {
+        "id": "manobras",
+        "titulo": "Agarrar, derrubar e empurrar"
+      },
+      {
+        "id": "contencoes",
+        "titulo": "Agarrado: escapar e arrastar"
+      },
+      {
+        "id": "estudar",
+        "titulo": "Estudar"
+      },
+      {
+        "id": "preparar",
+        "titulo": "Preparar"
+      },
+      {
+        "id": "mundo",
+        "titulo": "Energia e seus sinais"
+      },
+      {
+        "id": "buscar",
+        "titulo": "Vasculhar com Sentir Energia"
+      },
+      {
+        "id": "pressao",
+        "titulo": "Sinais de energia no ambiente"
+      },
+      {
+        "id": "ler",
+        "titulo": "Ler energia e examinar vestígios"
+      },
+      {
+        "id": "usar",
+        "titulo": "Localização e ataques"
+      },
+      {
+        "id": "habilidades",
+        "titulo": "Movimento Acrobático e Parkour"
+      }
+    ],
+    "precedencia": "MOVIMENTO-E-CARGA complementa e prevalece sobre versões anteriores de espaço/carga; Energia r2 foi incorporada ao consolidado. Atualizar interfaces nos donos, sem copiar habilidades."
+  },
+  {
+    "arquivo": "regras-comuns/lote-06-r6/MOVIMENTO-E-CARGA.md",
+    "sha256": "2b2a7a7379cf81a78bc53ccad0f9f415f4c4c5e393895395c787ed318847d3a4",
+    "secoes": [
+      {
+        "id": "espacos",
+        "titulo": "Espaço e posição"
+      },
+      {
+        "id": "rastejar",
+        "titulo": "Rastejar e passagens estreitas"
+      },
+      {
+        "id": "voo",
+        "titulo": "Voo"
+      },
+      {
+        "id": "carga",
+        "titulo": "Carga"
+      }
+    ],
+    "precedencia": "MOVIMENTO-E-CARGA complementa e prevalece sobre versões anteriores de espaço/carga; Energia r2 foi incorporada ao consolidado. Atualizar interfaces nos donos, sem copiar habilidades."
+  },
+  {
+    "arquivo": "regras-comuns/lote-05-r2/05-ENERGIA-E-VESTIGIOS.md",
+    "sha256": "8c10c18f03d549f9af401c668910c74f8921a9069882405cd708087b23f7581d",
+    "secoes": [
+      {
+        "id": "mundo",
+        "titulo": "Energia e seus sinais"
+      },
+      {
+        "id": "buscar",
+        "titulo": "Procurar energia"
+      },
+      {
+        "id": "pressao",
+        "titulo": "Energia além do esconderijo"
+      },
+      {
+        "id": "ler",
+        "titulo": "Ler energia e seguir vestígios"
+      },
+      {
+        "id": "usar",
+        "titulo": "Depois de encontrar"
+      }
+    ],
+    "precedencia": "MOVIMENTO-E-CARGA complementa e prevalece sobre versões anteriores de espaço/carga; Energia r2 foi incorporada ao consolidado. Atualizar interfaces nos donos, sem copiar habilidades."
+  }
+]

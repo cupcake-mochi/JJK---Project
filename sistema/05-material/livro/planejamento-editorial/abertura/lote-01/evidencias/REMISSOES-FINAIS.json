@@ -1,0 +1,13 @@
+{
+  "sha256_antes": "33036eda547311f2658bf5e241b1dc0f0483fd99e02d3a5b1225b48838216974",
+  "sha256_depois": "8c0e790f36fdffca4b5c148b7bcdfc2376a7bdcf65b2c5867c7a126c8ac1f887",
+  "alteracoes": [
+    {
+      "id": "REM11",
+      "antes": "Durante a sessão, consulte os capítulos pelo assunto: Testes, Movimento, Combate, Dano e recuperação ou Equipamento.",
+      "depois": "Durante a sessão, consulte Regras gerais para testes, movimento e ataques, Dano e recuperação para as consequências e Equipamento para os itens.",
+      "motivo": "Correção localizada aprovada pela raiz após auditoria de remissões; mantém mecânica e valores.",
+      "tipo": "editorial"
+    }
+  ]
+}

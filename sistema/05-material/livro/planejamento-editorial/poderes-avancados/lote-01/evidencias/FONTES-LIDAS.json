@@ -1,0 +1,46 @@
+[
+  {
+    "path": "sistema/05-material/livro/manual/40-fundamento.md",
+    "sha256": "8ec6cd54f8fbb0cc7e98874a5242890a3b3392a792ec1cdef959abcec4b70d96"
+  },
+  {
+    "path": "sistema/03-mecanica/18-progressao.md",
+    "sha256": "3074b345db8915d2101741ee07790a22e7a98c95ecc4a76ae72803573793dd51"
+  },
+  {
+    "path": "sistema/03-mecanica/17-catalogo-de-entregas.md",
+    "sha256": "6f454dfedf9634317de5edd331bfbc263f4908d438c54626ca7801f682adaf3b"
+  },
+  {
+    "path": "sistema/03-mecanica/11-aptidoes-e-refino.md",
+    "sha256": "6526b5d6c860765f0da6c0ce05053c862d922097ab3a02de8e79d1a281a8f2a7"
+  },
+  {
+    "path": "sistema/03-mecanica/RASCUNHO-expansao-sem-barreira.md",
+    "sha256": "442ada29168c141d0cfbdf43304f0211b30710576df86b903fbab2a9317a6001"
+  },
+  {
+    "path": "manual/matematica/casca-sem-barreira.py",
+    "sha256": "56ac7221e89bdcae4fd15f4d6e2c0b550c188cb175d5d74db313d0a5525074dd"
+  },
+  {
+    "path": "sistema/05-material/livro/manual/42-tecnica-marcial.md",
+    "sha256": "d3dcdd307d4542219d8f279a6f7f32da04ae4edc953872e312a4e410911042e5"
+  },
+  {
+    "path": "sistema/05-material/livro/manual/43-sem-tecnica.md",
+    "sha256": "bf4296c61b167717bffc98459ba26bce8c1b0a46fc8de1230df833486b8c70b7"
+  },
+  {
+    "path": "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md",
+    "sha256": "a873604a9b9887800a7ac51c961c67939ee15781da7db7506a30c9f347512a1f"
+  },
+  {
+    "path": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+    "sha256": "682b239b4f582912d47b0c8cb14f0df70592f8b5c631f01240f0c4d853c8471e"
+  },
+  {
+    "path": "sistema/05-material/livro/planejamento-editorial/regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+    "sha256": "b902a11dc5bca2fc78b9c3a8daf87dbdb276185da48a699637946bf7654a531d"
+  }
+]

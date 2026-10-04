@@ -287,7 +287,7 @@ bloco('6. CAMINHO E TRILHA — dono: a colecao v0.4, em caminhos/')
 # A colecao v0.4 dos Caminhos, que o Mizuki mandou pôr no livro "exatamente" como
 # ela e', deu aos quatro Caminhos um degrau no nivel 23, e ela passou a ser a dona
 # do texto dos quatro — o DESENHO ficou como o registro com preco da colecao
-# anterior. O calendario e' lido daqui, dos quadros de nivel dos quatro arquivos,
+# anterior. O calendario e' lido daqui, dos quadros de nivel dos seis arquivos,
 # e os quatro tem de concordar entre si: se um Caminho ganhar um degrau que os
 # outros nao tem, a tabela da peca 18 nao tem como dizer "degrau de Caminho".
 #
@@ -295,30 +295,33 @@ bloco('6. CAMINHO E TRILHA — dono: a colecao v0.4, em caminhos/')
 # arquivo (o do Caminho base), e a Trilha sai dos titulos `### Nivel N` de cada
 # secao `## Trilha`, rota do Batedor incluida.
 import glob as _glob
-_V04 = os.path.join(RAIZ, 'caminhos', '01-Caminhos-e-Trilhas')
+_V04 = os.path.join(RAIZ, 'caminhos', '05-Edicao-Integrada')
 _cams, _tris = [], []
-for _a in sorted(_glob.glob(os.path.join(_V04, '*.md'))):
+for _a in sorted(_glob.glob(os.path.join(_V04, '*-Caminho-e-Trilhas.md'))):
     _txt6 = open(_a, encoding='utf-8').read()
-    _blocos = re.split(r'\n(?=## Trilha )', _txt6)
-    _mq = re.search(r'^\| \*\*Nível\*\* \|[^\n]*\n\|[- |]+\|\n((?:\|[^\n]*\n)+)', _blocos[0], re.M)
+    _blocos = re.split(r'\n(?=### Trilha: )', _txt6)
+    _mq = re.search(r'^\| (?:\*\*)?Nível(?:\*\*)? \|[^\n]*\n\|[- |]+\|\n((?:\|[^\n]*\n)+)', _blocos[0], re.M)
     _cams.append((os.path.basename(_a),
                   [int(x) for x in re.findall(r'^\| (\d+) \|', _mq.group(1), re.M)] if _mq else []))
+    _reais6 = sorted({int(x) for x in re.findall(r'^(?:> \*\*)?(?:#{3,4} )?Nível (\d+)', _blocos[0], re.M)})
+    if sorted(_cams[-1][1]) != _reais6:
+        erro(f'{os.path.basename(_a)}: calendario da tabela {_cams[-1][1]} diverge das habilidades {_reais6}')
     for _b in _blocos[1:]:
-        _tris.append((_b.split('\n')[0].replace('## Trilha ', ''),
-                      sorted({int(x) for x in re.findall(r'^#{3,4} Nível (\d+)', _b, re.M)})))
+        _tris.append((_b.split('\n')[0].replace('### Trilha: ', ''),
+                      sorted({int(x) for x in re.findall(r'^(?:> \*\*)?(?:#{3,4} )?Nível (\d+)', _b, re.M)})))
 _cal_cam = {tuple(n) for _, n in _cams}
 _cal_tri = {tuple(n) for _, n in _tris}
-if len(_cams) != 4 or len(_tris) != 12:
-    erro(f'esperava os quatro arquivos da colecao v0.4 e doze Trilhas, li {len(_cams)} e '
+if len(_cams) != 6 or len(_tris) != 18:
+    erro(f'esperava os seis arquivos da colecao v0.4 e dezoito Trilhas, li {len(_cams)} e '
          f'{len(_tris)} — a pasta caminhos/ mudou e esta checagem parou de conferir')
 elif len(_cal_cam) != 1 or not next(iter(_cal_cam)):
-    erro(f'os quatro Caminhos da v0.4 nao concordam no calendario: {_cams}')
+    erro(f'os seis Caminhos da v0.331 nao concordam no calendario: {_cams}')
 elif len(_cal_tri) != 1 or not next(iter(_cal_tri)):
-    erro(f'as doze Trilhas da v0.4 nao concordam no calendario: {_tris}')
+    erro(f'as dezoito Trilhas da v0.4 nao concordam no calendario: {_tris}')
 else:
     CAMINHO = list(next(iter(_cal_cam)))
     TRILHA = list(next(iter(_cal_tri)))
-    print(f'  Caminho em {CAMINHO} · Trilha em {TRILHA}  (os quatro arquivos e as doze Trilhas concordam)')
+    print(f'  Caminho em {CAMINHO} · Trilha em {TRILHA}  (os seis arquivos e as dezoito Trilhas concordam)')
     for rotulo, calendario, marca in (('Caminho', CAMINHO, 'degrau de **Caminho**'),
                                       ('Trilha', TRILHA, 'entrega de **Trilha**')):
         na_peca = sorted(nv for nv in TABELA if marca in TABELA[nv][8])

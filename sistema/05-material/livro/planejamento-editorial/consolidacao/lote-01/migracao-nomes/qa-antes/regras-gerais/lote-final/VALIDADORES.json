@@ -1,0 +1,97 @@
+{
+  "sha256_texto": "d5a7af1b3715f695ad8dae3baa7e22a04f23f0c5b692687bdab6d74323a6f489",
+  "sha256_pdf": "7dc390692a7e76c577c5c4d0110323e3a20846121b44d1a18c9e349914e457ce",
+  "validadores": [
+    {
+      "id": "V01",
+      "estado": "executado com limites",
+      "evidencia": "INVENTARIO.json",
+      "limites": "Reexecutar após mudança de texto ou PDF."
+    },
+    {
+      "id": "V02",
+      "estado": "executado com limites",
+      "evidencia": "FONTES.json; ALTERACOES.json",
+      "limites": "Reexecutar após mudança de texto ou PDF."
+    },
+    {
+      "id": "V03",
+      "estado": "executado com limites",
+      "evidencia": "evidencias/CASOS-EXECUTADOS.json",
+      "limites": "Sem teste com leitores humanos ou playtest; modelos não comprovam diversão ou equilíbrio final."
+    },
+    {
+      "id": "V04",
+      "estado": "executado com limites",
+      "evidencia": "evidencias/auditoria-numerica.json",
+      "limites": "Sem teste com leitores humanos ou playtest; modelos não comprovam diversão ou equilíbrio final."
+    },
+    {
+      "id": "V05",
+      "estado": "executado com limites",
+      "evidencia": "evidencias/BALANCEAMENTO.md",
+      "limites": "Sem teste com leitores humanos ou playtest; modelos não comprovam diversão ou equilíbrio final."
+    },
+    {
+      "id": "V06",
+      "estado": "executado com limites",
+      "evidencia": "INTERFACES.json",
+      "limites": "Reexecutar após mudança de texto ou PDF."
+    },
+    {
+      "id": "V07",
+      "estado": "executado com limites",
+      "evidencia": "evidencias/EDITORIAL-AUTOMATICO.json",
+      "limites": "Reexecutar após mudança de texto ou PDF."
+    },
+    {
+      "id": "V08",
+      "estado": "executado com limites",
+      "evidencia": "evidencias/REVISAO-POR-SECAO.json",
+      "limites": "Sem teste com leitores humanos ou playtest; modelos não comprovam diversão ou equilíbrio final."
+    },
+    {
+      "id": "V09",
+      "estado": "executado com limites",
+      "evidencia": "REVISAO-E-FONTES.md; evidencias/REVISAO-POR-SECAO.json",
+      "limites": "Sem teste com leitores humanos ou playtest; modelos não comprovam diversão ou equilíbrio final."
+    },
+    {
+      "id": "V10",
+      "estado": "executado com limites",
+      "evidencia": "evidencias/LOCALIZACAO-EDITORIAL.json",
+      "limites": "Reexecutar após mudança de texto ou PDF."
+    },
+    {
+      "id": "V11",
+      "estado": "executado com limites",
+      "evidencia": "FONTES.json; regras-comuns/lote-05-r2/evidencias/CANONE-E-ADAPTACAO.md",
+      "limites": "Reexecutar após mudança de texto ou PDF."
+    },
+    {
+      "id": "V12",
+      "estado": "executado com limites",
+      "evidencia": "evidencias/REVISAO-INDEPENDENTE-COMPATIBILIDADE.md; evidencias/REVISAO-INDEPENDENTE-COMPATIBILIDADE.json",
+      "limites": "Revisão independente por modelo, sem leitores humanos ou playtest."
+    },
+    {
+      "id": "V13",
+      "estado": "executado com limites",
+      "evidencia": "evidencias/PREFLIGHT-PDF.json",
+      "limites": "Reexecutar após mudança de texto ou PDF."
+    },
+    {
+      "id": "V14",
+      "estado": "executado com limites",
+      "evidencia": "evidencias/inspecao-visual.json",
+      "limites": "Todas as 40 páginas abertas pelo revisor independente compatibilidade; sem teste com leitores humanos ou impressão física."
+    },
+    {
+      "id": "V15",
+      "estado": "executado com limites",
+      "evidencia": "ALTERACOES.json; MANIFESTO.json",
+      "limites": "Reexecutar após mudança de texto ou PDF."
+    }
+  ],
+  "paginas": 40
+}

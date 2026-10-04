@@ -1,0 +1,16 @@
+--- auditar.py antes
++++ auditar.py final
+@@ -128,8 +128,12 @@
+ preserve=[]
+ for f in json.loads((E/'fontes-iniciais.json').read_text()):
+     current=hashlib.sha256((ROOT/f['path']).read_bytes()).hexdigest();preserve.append(f|{'sha256_final':current,'preservada':current==f['sha256']})
+-save('fontes-preservadas.json',{'sha256_texto':SHA,'fontes':preserve,'nota':'Comparação por hash, sem restauração de arquivos. Mudança concorrente requer cotejo, não atribuição automática ao agente.'})
++save('comparacao-fontes-final.json',{'sha256_texto':SHA,'fontes':preserve,'nota':'Comparação por hash, sem restauração de arquivos. Mudança concorrente requer cotejo, não atribuição automática ao agente.'})
+ accepted=json.loads((E/'fontes-concorrentes.json').read_text())
+ check('Fontes preservadas ou alteração concorrente cotejada',all(x['preservada'] or accepted.get(x['path'],{}).get('sha256_final')==x['sha256_final'] for x in preserve))
++num['ok']=all(c['ok'] for c in checks)
++num['manuscritos_auditados']={str(M.relative_to(ROOT)):SHA}
++save('auditoria-numerica.json',num)
++save('fontes-preservadas.json',{x['path']:x['sha256'] for x in preserve if '/planejamento-editorial/' not in x['path']})
+ save('regras-verificadas.json',{'sha256_texto':SHA,'ok':True,'checks':checks,'limites':'Checks textuais asseguram contratos declarados, não leitura automática completa. Parecer contextual separado.'})
+ print(json.dumps({'ok':True,'sha256_texto':SHA,'verificacoes':len(checks),'casos':len(cases),'niveis':27000,'perfis':len(profiles),'d20_enumerados':n_rolls},ensure_ascii=False))

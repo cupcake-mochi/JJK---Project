@@ -1,0 +1,52 @@
+arquivo                              ARTIGO   PERGUNTA      FRASE   CONTAGEM    MOLDURA  TABELA-SE  TABELA-VA
+05-introducao.md                          .          .          .          .          .          .          .  limpo
+07-glossario.md                           .          .          .          .          .          .          .  limpo
+08-inicio-rapido.md                       .          .          .          .          .          .          .  limpo
+10-como-jogar.md                          .          .          .          .          .          .          .  limpo
+11-o-turno.md                             .          .          .          .          .          .          .  limpo
+12-pericias-e-oficios.md                  .          .          .          .          .          .          .  limpo
+15-dano-e-condicoes.md                    .          .          .          .          .          .          .  limpo
+20-criacao-de-personagem.md               .          .          .          .          .          .          .  limpo
+25-origens.md                             .          .          .          .          .          .          .  limpo
+35-caminhos-e-trilhas.md                  3          2          .          2          .         24          2
+40-fundamento.md                          .          .          .          .          .          .          .  limpo
+42-tecnica-marcial.md                     .          .          .          .          .          .          .  limpo
+43-sem-tecnica.md                         .          .          .          .          .          .          .  limpo
+45-aptidoes-e-refino.md                   .          .          .          .          .          .          .  limpo
+46-ritual.md                              .          .          .          .          .          .          .  limpo
+47-bencaos-e-lapidacao.md                 .          .          .          .          .          .          .  limpo
+50-equipamento.md                         .          .          .          .          .          .          .  limpo
+55-ferramenta-amaldicoada.md              .          .          .          .          .          .          .  limpo
+60-invocacoes.md                          .          .          1          .          .          .          .
+65-pactos.md                              .          .          .          .          .          .          .  limpo
+70-descanso-e-recuperacao.md              .          .          .          .          .          .          .  limpo
+80-experiencia-e-progressao.md            .          .          .          .          .          .          .  limpo
+TOTAL                                     3          2          1          2          0         24          2
+
+  ARTIGO               título começa com artigo
+  PERGUNTA             título é pergunta
+  FRASE                título é frase, não nome
+  CONTAGEM             contagem por extenso no título
+  MOLDURA              o texto fala do próprio livro
+  TABELA-SEM-NOME      tabela sem {: .tab-titulo }
+  TABELA-VAGA          cita tabela sem nome próprio
+
+  34 achados. h1 (título de capítulo) fica de fora por causa das referências cruzadas.
+
+  7 trecho(s) para triar à mão (o validador não julga: 'por que o mundo é assim' fica, 'por que o livro é assim' sai).
+  681 títulos de seção; 0 referência(s) apontando para título que não existe.
+
+  117 termos passam o corte de 5 usos ou 3 capítulos; 0 sem destino — nem entrada no vocabulário, nem estreia definida.
+
+  0 marca(s) de regra que ainda não existe; o dono diz 0.
+
+  51 entrada(s) de catálogo; 0 rótulo(s) em negrito com mais de 6 palavras. O dono diz 0 em 51.
+
+  2 título(s) em pergunta aceito(s) pela REGRA-DE-VOZ.md; o dono diz 2 e lista 2.
+      !! 35-caminhos-e-trilhas.md:1474  TABELA-SEM-NOME  | Nível | Habilidade |
+      !! 35-caminhos-e-trilhas.md:1634  TABELA-SEM-NOME  | Aprimoramento principal | Escolha uma ação complementa
+      !! 35-caminhos-e-trilhas.md:1645  TABELA-VAGA  **Principal e adicional.** A tabela é determinada somente pe
+      !! 35-caminhos-e-trilhas.md:1668  TABELA-SEM-NOME  | Atributo escolhido | Usos por descanso longo |
+      !! 35-caminhos-e-trilhas.md:1680  TABELA-SEM-NOME  | Forma | Execuções |
+      !! 35-caminhos-e-trilhas.md:1721  TABELA-SEM-NOME  | Nível | Habilidade |
+>>> --estrito reprovou: 34 achado(s) de título ou de texto, 0 referência(s) quebrada(s); rode --inventario para o resto

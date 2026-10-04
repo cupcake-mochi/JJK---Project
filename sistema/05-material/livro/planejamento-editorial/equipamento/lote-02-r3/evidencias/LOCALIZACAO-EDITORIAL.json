@@ -1,0 +1,14 @@
+{
+  "sha256_texto": "18cbff010ba9848b39346d6b77037c3b1b7ec1bbe7f75ae5e36486ac54c679a5",
+  "titulos_revisto": true,
+  "sem_explicacao_alheia": true,
+  "revisor": "autor da calibração complementar",
+  "vocabulario_revisto": true,
+  "excecoes_vocabulario": [],
+  "criterios_vocabulario": [
+    "Sentido cotidiano e ausência de ambiguidade no contexto.",
+    "Termos do sistema mantidos com definição no dono.",
+    "Sem explicar novamente regras já apresentadas.",
+    "Leitura contextual não equivale a teste com iniciantes."
+  ]
+}

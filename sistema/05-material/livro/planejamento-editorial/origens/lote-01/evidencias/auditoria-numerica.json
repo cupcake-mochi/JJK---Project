@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "manuscritos_auditados": {
+    "sistema/05-material/livro/planejamento-editorial/origens/lote-01/ORIGENS-E-LEGADOS.md": "d432caecc9f2c63b0f355ad70a6e74251ae51044a8ac5840a35b7fd6d182484d"
+  },
+  "fonte": "AUDITORIA.json",
+  "quantidades": {
+    "verificacoes": 333,
+    "casos": 35,
+    "pares_legados": 268,
+    "perfis_reparo": 105,
+    "perfis_probabilidade": 19,
+    "mutacoes": 6
+  },
+  "observacao": "Wrapper regenerado da execução após os renomes e a sincronização da remissão. Resultados anteriores preservados no snapshot de QA."
+}

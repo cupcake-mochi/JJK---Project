@@ -1,0 +1,31 @@
+{
+  "data": "2026-10-03",
+  "sha256_pdf": "49204867ac009600c5a60d5e97e04f9a97b659544fa688b96565b8d265497bba",
+  "paginas": [
+    {
+      "pagina": 1,
+      "arquivo": "/tmp/projeto-m-trajes-municao/protecao-1.png",
+      "sha256_png": "99d89dc5f84aa6f6e148de615ebbab87ea6775ff67d39a5c6537ee3ccefbe023",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 2,
+      "arquivo": "/tmp/projeto-m-trajes-municao/protecao-2.png",
+      "sha256_png": "8a4f7f3f1015dfbda61da12b0793699e0f9ef82f02eeb09ef32c0204bfd44dd0",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 3,
+      "arquivo": "/tmp/projeto-m-trajes-municao/protecao-3.png",
+      "sha256_png": "308511cb0a5cd71cd7a0760e4a07aba72985bc57acd02f66a55d5b00c02c033a",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 4,
+      "arquivo": "/tmp/projeto-m-trajes-municao/protecao-4.png",
+      "sha256_png": "c9bd5194787703426f5545fd6c29f8f1430bbaa2a546ec9e79e7df46587f324e",
+      "resultado": "sem defeito visual observado"
+    }
+  ],
+  "metodo": "Todas as páginas da exportação final renderizadas com Poppler e examinadas visualmente pelo autor. Não é revisão independente."
+}

@@ -1,0 +1,204 @@
+{
+  "ok": true,
+  "sha256": {
+    "R19": "a740f3f8c1112408d19f351204768e99a8799edc4c8fbe88449207a2abe09b96",
+    "R06": "a873604a9b9887800a7ac51c961c67939ee15781da7db7506a30c9f347512a1f",
+    "R07": "682b239b4f582912d47b0c8cb14f0df70592f8b5c631f01240f0c4d853c8471e"
+  },
+  "checagens": [
+    {
+      "caso": "CD exemplo: INT6/DES4/M2/C4",
+      "obtido": 16,
+      "esperado": 16,
+      "ok": true
+    },
+    {
+      "caso": "Probabilidade por enumeração de vinte faces",
+      "obtido": "13/20",
+      "esperado": "13/20",
+      "ok": true
+    },
+    {
+      "caso": "Custo médio C4, desconto2 no sucesso, penalidade4 na falha",
+      "obtido": "121/10",
+      "esperado": "121/10",
+      "ok": true
+    },
+    {
+      "caso": "Probabilidade C1/DES6",
+      "obtido": "9/10",
+      "esperado": "9/10",
+      "ok": true
+    },
+    {
+      "caso": "Recitação não rola Ocultismo; energia antes de dano",
+      "obtido": 10,
+      "esperado": 10,
+      "ok": true
+    },
+    {
+      "caso": "C3 Precisão+Atrasar normal",
+      "obtido": 9,
+      "esperado": 9,
+      "ok": true
+    },
+    {
+      "caso": "Mesma montagem sem devolução de Atrasar",
+      "obtido": 7,
+      "esperado": 7,
+      "ok": true
+    },
+    {
+      "caso": "Montagem inicial dentro do teto C3",
+      "obtido": 12,
+      "esperado": 12,
+      "ok": true
+    },
+    {
+      "caso": "Tiros ritualizado, se repetir Queima no tiro novo",
+      "obtido": 15,
+      "esperado": 15,
+      "ok": true
+    },
+    {
+      "caso": "Máxima C5,24d8 divididos6 vezes + Tiros",
+      "obtido": 28,
+      "esperado": 28,
+      "ok": true
+    },
+    {
+      "caso": "Máxima C7,32d8 divididos8 vezes + Tiros",
+      "obtido": 36,
+      "esperado": 36,
+      "ok": true
+    },
+    {
+      "caso": "Compartilhamento C4, Cura8d8 em dois aliados",
+      "obtido": 16,
+      "esperado": 16,
+      "ok": true
+    },
+    {
+      "caso": "Junto de9PV em parcelas9/0 produz cópia mínima0",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Ganho condicional por rerrolar1d8=1",
+      "obtido": "7/2",
+      "esperado": "7/2",
+      "ok": true
+    },
+    {
+      "caso": "Pacto, Essência0..6",
+      "obtido": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        2,
+        3
+      ],
+      "esperado": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        2,
+        3
+      ],
+      "ok": true
+    },
+    {
+      "caso": "PE por rodada de fonte histórica: 0,50 fatia com câmbio1,01",
+      "obtido": 0.495,
+      "esperado": 0.495,
+      "ok": true
+    }
+  ],
+  "interrupcao_sensibilidade": [
+    {
+      "fontes_de_dano": 0,
+      "falha_TR_por_ocorrencia": 0.2,
+      "chance_manter": 1.0
+    },
+    {
+      "fontes_de_dano": 1,
+      "falha_TR_por_ocorrencia": 0.2,
+      "chance_manter": 0.8
+    },
+    {
+      "fontes_de_dano": 2,
+      "falha_TR_por_ocorrencia": 0.2,
+      "chance_manter": 0.64
+    },
+    {
+      "fontes_de_dano": 3,
+      "falha_TR_por_ocorrencia": 0.2,
+      "chance_manter": 0.512
+    },
+    {
+      "fontes_de_dano": 5,
+      "falha_TR_por_ocorrencia": 0.2,
+      "chance_manter": 0.32768
+    },
+    {
+      "fontes_de_dano": 0,
+      "falha_TR_por_ocorrencia": 0.35,
+      "chance_manter": 1.0
+    },
+    {
+      "fontes_de_dano": 1,
+      "falha_TR_por_ocorrencia": 0.35,
+      "chance_manter": 0.65
+    },
+    {
+      "fontes_de_dano": 2,
+      "falha_TR_por_ocorrencia": 0.35,
+      "chance_manter": 0.4225
+    },
+    {
+      "fontes_de_dano": 3,
+      "falha_TR_por_ocorrencia": 0.35,
+      "chance_manter": 0.274625
+    },
+    {
+      "fontes_de_dano": 5,
+      "falha_TR_por_ocorrencia": 0.35,
+      "chance_manter": 0.116029
+    },
+    {
+      "fontes_de_dano": 0,
+      "falha_TR_por_ocorrencia": 0.5,
+      "chance_manter": 1.0
+    },
+    {
+      "fontes_de_dano": 1,
+      "falha_TR_por_ocorrencia": 0.5,
+      "chance_manter": 0.5
+    },
+    {
+      "fontes_de_dano": 2,
+      "falha_TR_por_ocorrencia": 0.5,
+      "chance_manter": 0.25
+    },
+    {
+      "fontes_de_dano": 3,
+      "falha_TR_por_ocorrencia": 0.5,
+      "chance_manter": 0.125
+    },
+    {
+      "fontes_de_dano": 5,
+      "falha_TR_por_ocorrencia": 0.5,
+      "chance_manter": 0.03125
+    }
+  ],
+  "limites": [
+    "Não mede combate completo nem substitui playtest humano.",
+    "Tiros e Compartilhamento mostram necessidade de exceção explícita, não conclusão automática de excesso de poder.",
+    "O teto histórico de PE usa parâmetros antigos e não foi validado para todos os níveis atuais."
+  ]
+}

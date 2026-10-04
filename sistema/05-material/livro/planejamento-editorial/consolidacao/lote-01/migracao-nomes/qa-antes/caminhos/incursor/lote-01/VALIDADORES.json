@@ -1,0 +1,95 @@
+{
+  "sha256_texto": "cd608cb7a2ad671becaef2da0b56ee77229a24f8212df1dbbbf7b002e9f268d4",
+  "validadores": [
+    {
+      "id": "V01",
+      "nome": "Cobertura",
+      "estado": "executado",
+      "evidencia": "65 headings e41 nomes; inventário por âncora."
+    },
+    {
+      "id": "V02",
+      "nome": "Fidelidade",
+      "estado": "executado",
+      "evidencia": "Publicado e integrada idênticos; hashes preservados; alterações explícitas."
+    },
+    {
+      "id": "V03",
+      "nome": "Funcionalidade",
+      "estado": "executado",
+      "evidencia": "76 casos dirigidos positivos/negativos/limites; não simulação integral."
+    },
+    {
+      "id": "V04",
+      "nome": "Números",
+      "estado": "executado",
+      "evidencia": "46.875 sequências,70perfisdeGolpe,400trajetórias,364TR; script reproduzível."
+    },
+    {
+      "id": "V05",
+      "nome": "Balanceamento",
+      "estado": "executado-com-limites",
+      "evidencia": "Pressão em5perfis; custos e oportunidades, sem certificação global."
+    },
+    {
+      "id": "V06",
+      "nome": "Compatibilidade",
+      "estado": "executado-com-interfaces",
+      "evidencia": "Leve exige sincronizarR05; permissões deR01 migradas sem duplicar catálogo."
+    },
+    {
+      "id": "V07",
+      "nome": "Títulos e vocabulário",
+      "estado": "autorrevisado",
+      "evidencia": "26seções, sem títulos Como ler ou artigos iniciais; validador separado."
+    },
+    {
+      "id": "V08",
+      "nome": "Clareza e suficiência",
+      "estado": "autorrevisado",
+      "evidencia": "Parecer contextual por página; requer leitor externo para medir compreensão."
+    },
+    {
+      "id": "V09",
+      "nome": "Voz e comparação RPG",
+      "estado": "autorrevisado",
+      "evidencia": "PHB local como estrutura; sem adaptar narrativa ou números."
+    },
+    {
+      "id": "V10",
+      "nome": "Localização",
+      "estado": "autorrevisado-com-interfaces",
+      "evidencia": "Canalizar referido por necessidade de cálculo; explicações próprias de movimento migradas."
+    },
+    {
+      "id": "V11",
+      "nome": "Cânone",
+      "estado": "nao-aplicavel",
+      "evidencia": "Sem nova alegação factual sobre JJK; identidades e habilidades de sistema."
+    },
+    {
+      "id": "V12",
+      "nome": "Revisão independente",
+      "estado": "executado",
+      "evidencia": "Leitura independente e casos dirigidos registrados em evidencias/REVISAO-INDEPENDENTE-RAIZ ou FECHAMENTO-INDEPENDENTE-ROTAS, conforme o capítulo. Correções verificadas no hash final."
+    },
+    {
+      "id": "V13",
+      "nome": "Exportação PDF",
+      "estado": "executado",
+      "evidencia": "PDF26p;198 verificações documentais/estruturais em PRE-CONFERENCIA-PDF.json; inspeção visual separada."
+    },
+    {
+      "id": "V14",
+      "nome": "Inspeção visual",
+      "estado": "executado",
+      "evidencia": "Todas as 26 páginas renderizadas abertas e inspecionadas pela raiz. Hashes em evidencias/inspecao-visual.json. Sem defeito visual observado na prova."
+    },
+    {
+      "id": "V15",
+      "nome": "Rastreabilidade",
+      "estado": "executado",
+      "evidencia": "SHA, fontes,21 decisões, inventário e casos salvos."
+    }
+  ]
+}

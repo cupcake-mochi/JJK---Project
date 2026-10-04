@@ -1,0 +1,18 @@
+{
+  "sha256_texto": "bb29892e3f665781a5533ea772af39a8de1518d3c0ce751b7658b4fc18d403fc",
+  "titulos_revisto": true,
+  "sem_explicacao_alheia": true,
+  "vocabulario_revisto": true,
+  "excecoes_vocabulario": [],
+  "excecoes_localizacao": [
+    {
+      "termo": "Regravação",
+      "trecho": "A aptidão Regravação, em Aptidões, permite encerrar o Rescaldo antecipadamente e tem seus próprios custos e limites. A recuperação da técnica não dispensa os requisitos de uma nova Expansão.",
+      "papel": "remissao",
+      "justificativa": "O leitor precisa encontrar a exceção que encerra Rescaldo; a frase não repete ação, custo, aquisição nem contador da aptidão.",
+      "nao_reproduz_regra": true
+    }
+  ],
+  "revisor": "Subagente maxima; revisão contextual integral",
+  "notas": "Resguardar foi substituído por proteger para evitar colisão desnecessária; Regravação é remissão indispensável. Artigos iniciais e Como ler não aparecem nos títulos."
+}

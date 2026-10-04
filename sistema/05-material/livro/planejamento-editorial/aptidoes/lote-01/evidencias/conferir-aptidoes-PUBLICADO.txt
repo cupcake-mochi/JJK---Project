@@ -1,0 +1,388 @@
+
+==========================================================================================
+1. A TRAVA DO REFINO — o que ele pode e nao pode escalar
+==========================================================================================
+  O refino cresce muito mais rapido que o resto. Se ele aparecer de um lado
+  de uma rolagem disputada, a chance deriva.
+
+  o que cresce                      do nivel 2 ao 30    cresce
+  atributo investido                3 -> 6              +3
+  maestria                          1 -> 4              +3
+  refino, generalista               1 -> 8              +7
+  refino, especialista              1 -> 10             +9
+
+  aptidao                     eixo que ela escala             passa?
+  cobrir-se, protecao         magnitude fora de disputa       sim
+  cobrir-se, RD da Reacao     magnitude fora de disputa       sim
+  canalizar, Toque            nenhum — teto zero              sim
+  canalizar, dano na arma     magnitude fora de disputa       sim
+  estimulo, dano na arma      magnitude fora de disputa       sim
+  projetar energia            magnitude fora de disputa       sim
+  kokusen, a chance           frequencia                      sim
+  kokusen melhorado           frequencia                      sim
+  clash de expansao           disputa contra outro refino     sim
+
+  Nenhuma aptidao escrita toca um eixo proibido.
+
+==========================================================================================
+2. COBRIR-SE — o 1/3 nao deriva, e a Reacao nao inverte de sinal
+==========================================================================================
+  Protecao = 1/3 do refino + 1, arredondando para baixo.
+
+  refino   1    2    3    4    5    6    7    8    9    10   
+  protecao 1    1    2    2    2    3    3    3    4    4    
+
+  Ela cresce +3 na campanha. Um atributo investido cresce +3.
+  Bate exatamente. Com 1/2 seriam +5, e com o refino cheio +9.
+
+  O que aconteceria sem o divisor, com protecao = refino:
+  nivel   ataque   Defesa com 1/3    acerta    Defesa com refino cheio   acerta
+  2       d20+3    14                50%       14                        50%
+  10      d20+4    16                45%       19                        30%
+  22      d20+5    19                35%       25                        5%
+  30      d20+6    20                35%       26                        5%
+
+  A Reacao: Reducao de Dano de 1.5 x refino, ao custo da protecao por um turno.
+
+  nivel   refino   RD     golpe de chefe   custo esperado   saldo
+  6       3        4      15               1.5              +2.5
+  10      5        7      25               2.5              +4.5
+  14      7        10     35               5.2              +4.8
+  18      9        13     44               8.8              +4.2
+  22      10       15     54               10.8             +4.2
+  26      10       15     63               12.7             +2.3
+  30      10       15     73               14.6             +0.4
+
+  Positiva em todo nivel, e o saldo ENCOLHE em vez de virar — forte quando
+  voce nao tem outra resposta, e so mais uma opcao quando ja tem.
+
+==========================================================================================
+3. PROJETAR — nao compete com feitico, e deriva para baixo
+==========================================================================================
+  Dano = refino, sem PE. O arquitetura pede: "fixo e baixo, para quem ficou
+  sem PE, nao para competir com feitico".
+
+  nivel   Rotina    Classe 0    projetar   % da Rotina
+  2       13        69%         1          8%
+  6       31        42%         3          10%
+  10      45        29%         5          11%
+  14      63        29%         7          11%
+  18      76        29%         9          12%
+  22      94        23%         10         11%
+  26      108       25%         10         9%
+  30      108       25%         10         9%
+
+  Faixa: de 8% a 12% da Rotina.
+  Ela deriva para BAIXO, que e o lado seguro para errar.
+
+==========================================================================================
+4. KOKUSEN — pequeno, e a cascata nao espirala
+==========================================================================================
+  Linha de base sem kokusen: 0.5500 D por golpe.
+
+  refino   chance no d100   dano por rodada   x um ponto de atributo
+  1        2%               +0.2%             0.02x
+  5        10%              +0.9%             0.09x
+  10       20%              +1.8%             0.18x
+
+  Teto de 1.8%, menos de um quinto de um ponto de atributo.
+  Ele existe pelo grito na mesa, e o texto precisa dizer isso.
+
+  a `Circulação`: teto 1.5x a maior Classe · d8 na Padrao e d4 na Bonus · gate refino 8
+  [x] as 3 linhas da tabela da `Circulação` reconstroem da formula
+  na Bonus, cura de graca por rodada: d4 da 2.39x um ponto de atributo · d8 daria 4.31x
+  [x] o d4 segura a Acao Bonus dentro do filtro de 3.00x, e o d8 nao seguraria
+  [x] o refino 8 e alcancavel pelas tres rotas
+  a `Regravação`: chega no nivel 22 (14 -> 18 -> 22), maestria 3 ali, marcas = Inteligência // 2 + maestria // 2
+  [x] o nivel de chegada reconstroi dos gates, e a marca minima e 1
+  [x] a corrente custa 3 marcos, contados dos gates nos titulos
+  [x] as 2 linhas da tabela das marcas reconstroem em todo nivel de 22 a 30
+  [x] Inteligência 6 no nivel 30 da 5 marcas, o numero da obra
+  [x] a leitura recusada da uma marca a mais so com Inteligência impar, do nivel 22 ao 25
+  [x] o PE do dia paga 2, 3 e 4 reaberturas, em todo nivel de 22 a 30
+  [x] com Inteligência 0 o contador segura antes do PE nos tres grupos de Caminho
+  [x] as 4 reaberturas saem so com Inteligência 6 do nivel 26, e so Evocador e Emanador paga
+  [x] a peca 26 §6.4 carrega a `Regravação` no inimigo, com as marcas pela Inteligência
+  [x] o livro publica a mesma formula, o requisito e a linha da tabela, e o exemplo do nivel 26 fecha em 4
+  [x] o kokusen do livro bate com o da peca nos tres eixos: gatilho, relogio e requisito
+  [x] os 3 gates de aptidao moram no mesmo grupo do livro que a aptidao que eles exigem
+  a ficha tem                           chance no d100   dano por rodada   marcos   x atributo, POR marco
+  so o Kokusen (de graca)               20%              +1.82%            0        —  (de graca)
+  Kokusen + Constante                   30%              +2.73%            1        0.27x
+  Kokusen + Melhorado                   36%              +3.27%            1        0.33x
+  as TRES empilhadas                    51%              +4.64%            2        0.23x
+
+  A pilha inteira rende +4.64% por 2 marcos.
+  Os mesmos 2 marcos em Corpo comprariam +20% — 4.3x mais.
+  Continua sendo escolha pelo grito, e nao pela planilha.
+
+  A cascata mexe SO na chance. O que aconteceria mexendo na margem:
+
+  escada                            dano por golpe    contra a base
+  nada muda (refino 5)              0.5550            +0.9%
+  dobra a chance                    0.5600            +1.8%
+  margem cai para 19                0.6100            +10.9%
+  margem cai para 18                0.6650            +20.9%
+
+  Dos +10.9% da margem 19, 9.1 pontos vem do DADO A MAIS,
+  antes de o kokusen entrar. A margem carrega o critico inteiro junto.
+
+==========================================================================================
+5. AS TRES ROTAS DO MARCO — nenhuma domina
+==========================================================================================
+  rota              atributo   refino   aptidoes   Passivas   feiticos a mais   espacos totais
+  regra lida da peca 11: no teto, a escolha de Refino da 2 aptidoes
+
+  sempre Corpo      14         8        0          5          0                 24
+  sempre Refino     7          10       10         5          0                 24
+  sempre Leque      7          8        0          12         7                 31
+  meio a meio       9          10       3          7          2                 26
+
+  Onde cada rota lidera:
+    atributo    sempre Corpo  (14)
+    refino      sempre Refino, meio a meio  (10)
+    aptidoes    sempre Refino  (10)
+    Passivas    sempre Leque  (12)
+    feiticos    sempre Leque  (7)
+
+  Cada rota lidera em pelo menos um dos cinco e perde nos outros.
+  Nenhuma esta dominada, e nenhuma domina.
+
+  A moeda de feitico, medida de frente:
+    lista mais longa (sempre Leque)   31
+    lista mais curta (sem Leque)      24
+    espalhamento                      +7 espacos, 29%
+
+    A rota de Leque termina com no maximo UM feitico por marco a mais.
+    Essa e a trava: a moeda nao infla sem que esta linha acenda.
+
+  E o que faz as tres se equilibrarem sem trava:
+    Passiva e aptidao vivem na MESMA escada de Classe, entao "+1 feitico e
+    1 Passiva" empata com "+1 refino e 1 aptidao". O que sobra dos dois lados
+    e "+1 feitico" contra "+1 refino" — e refino nao vale NADA para quem nao
+    tem aptidao. Quem escolhe Leque nao quer refino; quem escolhe refino nao
+    quer Passiva. Nenhuma compra o que a outra compra.
+
+  O orcamento de espaco cobre a montagem mais pesada que o manual permite?
+
+  montagem                                    nv14     nv20     nv26     nv30     
+  so feitico                                  12       16       21       24       
+  3 Passivas Classe 2                         6        10       15       18       
+  3 Passivas Classe 2 + Expansao completa     3        7        12       15       
+  5 Passivas Classe 3 + Expansao completa     0        0        3        6        
+
+  A montagem mais pesada cabe a partir do nivel 22. Antes da v0.27 ela
+  nao cabia em nivel nenhum, e o teto do manual era letra morta.
+
+==========================================================================================
+5.2. MARCO A MARCO — nenhuma das tres opcoes fica dominada em nenhum marco
+==========================================================================================
+  Em cada marco, o que CADA opcao daria ao jogador daquela rota.
+  aptidao e Passiva entram na mesma componente, que e o que a peca 11 afirma.
+
+  rota            marco   Corpo         Refino          Leque         veredito
+  sempre Corpo    nv6     1/0/0/0       0/1/1/0         0/0/1/1       nenhuma domina
+  sempre Corpo    nv10    1/0/0/0       0/1/1/0         0/0/1/1       nenhuma domina
+  sempre Corpo    nv14    1/0/0/0       0/1/1/0         0/0/1/1       nenhuma domina
+  sempre Corpo    nv18    1/0/0/0       0/1/1/0         0/0/1/1       nenhuma domina
+  sempre Corpo    nv22    1/0/0/0       0/1/1/0         0/0/1/1       nenhuma domina
+  sempre Corpo    nv26    1/0/0/0       0/1/1/0         0/0/1/1       nenhuma domina
+  sempre Corpo    nv30    1/0/0/0       0/1/1/0         0/0/1/1       nenhuma domina
+  sempre Refino   nv6     1/0/0/0       0/1/1/0         0/0/1/1       nenhuma domina
+  sempre Refino   nv10    1/0/0/0       0/1/1/0         0/0/1/1       nenhuma domina
+  sempre Refino   nv14    1/0/0/0       0/1/1/0         0/0/1/1       nenhuma domina
+  sempre Refino   nv18    1/0/0/0       0/1/1/0         0/0/1/1       nenhuma domina
+  sempre Refino   nv22    1/0/0/0       0/0/2/0         0/0/1/1       nenhuma domina
+  sempre Refino   nv26    1/0/0/0       0/0/2/0         0/0/1/1       nenhuma domina
+  sempre Refino   nv30    1/0/0/0       0/0/2/0         0/0/1/1       nenhuma domina
+  sempre Leque    nv6     1/0/0/0       0/1/1/0         0/0/1/1       nenhuma domina
+  sempre Leque    nv10    1/0/0/0       0/1/1/0         0/0/1/1       nenhuma domina
+  sempre Leque    nv14    1/0/0/0       0/1/1/0         0/0/1/1       nenhuma domina
+  sempre Leque    nv18    1/0/0/0       0/1/1/0         0/0/1/1       nenhuma domina
+  sempre Leque    nv22    1/0/0/0       0/1/1/0         0/0/1/1       nenhuma domina
+  sempre Leque    nv26    1/0/0/0       0/1/1/0         0/0/1/1       nenhuma domina
+  sempre Leque    nv30    1/0/0/0       0/1/1/0         0/0/1/1       nenhuma domina
+  meio a meio     nv6     1/0/0/0       0/1/1/0         0/0/1/1       nenhuma domina
+  meio a meio     nv10    1/0/0/0       0/1/1/0         0/0/1/1       nenhuma domina
+  meio a meio     nv14    1/0/0/0       0/1/1/0         0/0/1/1       nenhuma domina
+  meio a meio     nv18    1/0/0/0       0/1/1/0         0/0/1/1       nenhuma domina
+  meio a meio     nv22    1/0/0/0       0/1/1/0         0/0/1/1       nenhuma domina
+  meio a meio     nv26    1/0/0/0       0/0/2/0         0/0/1/1       nenhuma domina
+  meio a meio     nv30    1/0/0/0       0/0/2/0         0/0/1/1       nenhuma domina
+
+  [x] Nos 7 marcos das 4 rotas, nenhuma das
+      tres opcoes fica atras das outras em todas as componentes.
+      A regra do teto — no maximo, Refino da 2 aptidoes — e o
+      que segura os tres ultimos marcos da rota que sempre escolhe Refino.
+
+==========================================================================================
+5.3. AS DUAS BARREIRAS — o relogio e o que tira as duas da luta
+==========================================================================================
+  levantar custa 10 rodadas; uma luta dura no maximo 4.0.
+  [x] o minuto nao cabe numa luta: 10 contra 4.0 rodadas.
+
+  se coubesse numa luta       evita         por rodada    em fatias
+  Barreira Simples            50 de dano    12.5          2.46
+  Cortina                     200 de dano   50.0          9.84
+  (uma Trilha inteira leva 5,00 fatias — e por isso que o relogio existe)
+
+  [x] a `Barreira Simples` tem 50 no teto, abaixo dos 70 da maior parede do manual.
+  [x] o quinto formato de gate esta declarado na secao 5.
+
+==========================================================================================
+5.4. APTIDAO PROPRIA — a unica entrada escrita NA MESA
+==========================================================================================
+  [x] o teto e `Classe Passiva 1 ou 2, nunca 3`.
+  [x] as tres faixas de frequencia caem nos tres degraus da secao 4.
+  [x] os cinco requisitos estao escritos: Uma frase., Verificável, Não é atalho, Sem dado de dano, Com limite por cena.
+  [x] na duvida a proposta e recusada, e nao aceita.
+
+==========================================================================================
+6. O TETO DE PASSIVAS — a gratis traz a propria vaga
+==========================================================================================
+  escolhas de Leque   teto    gratis   pagas que sobram
+  0                   5       0        5
+  1                   6       1        5
+  2                   7       2        5
+  3                   8       3        5
+  4                   9       4        5
+  5                   10      5        5
+  6                   11      6        5
+  7                   12      7        5
+
+  As pagas continuam sendo 5 em toda a escada. O teto nao cresce:
+  ele abre lugar para o que a rota concede.
+
+==========================================================================================
+7. OS GATES DE REFINO separam as rotas?
+==========================================================================================
+  gate                        especialista    meio a meio     generalista
+  Classe 1 (refino 1, nivel 1)   nv 6            nv 6            nv 6            
+  Classe 2 (refino 4, nivel 7)   nv 10           nv 10           nv 14           
+  Classe 3 (refino 7, nivel 13)   nv 14           nv 18           nv 26           
+
+  12 niveis entre quem investiu e quem nao investiu na Classe 3.
+  Com gate SO de nivel, as tres rotas abririam a Classe 3 no mesmo nivel (14) — e ai o refino nao compraria acesso nenhum.
+
+==========================================================================================
+N. O NOME DA ESCADA DE FORMATO
+==========================================================================================
+  [x] a regra do nome esta escrita: `Classe Passiva 1 · 2 · 3`. Sempre com as duas palavras, e nunca `Classe` solt
+  [x] cabecalho "Classe Passiva" e as tres alturas na tabela.
+  [x] nenhuma "Classe N" solta na secao 4 fora das 3 linha(s) que citam o manual.
+
+==========================================================================================
+N+1. A APTIDAO `Energia Reversa` — v0.78
+==========================================================================================
+  [x] gate no titulo: Classe Passiva 3, refino 7 e nivel 14.
+  [x] o gate bate com o da Extensão de Domínio, a outra Classe Passiva 3.
+  [x] no nivel 30: Energia Reversa 7d8 = 31.5 de cura, Recomposicao = 35.
+
+  nv   teto   cura     a rodada tira   cobre   
+  14   4      18.0     17.3            104%    
+  18   5      22.5     22.1            102%    
+  22   6      27.0     26.9            100%    
+  26   7      31.5     31.7            99%     
+  30   7      31.5     36.5            86%     
+  [x] o teto em `maior Classe` empata a faixa inteira, dentro de 80%-110%.
+  [x] as 5 linhas publicadas da tabela do empate reconstroem da tabela de inimigo e da escada de Classe.
+  [x] as 15 entradas com secao repetem o gate dela no catalogo.
+  [x] ela saiu da lista das que faltam: restam 0.
+
+==========================================================================================
+A CLASSE PASSIVA NUNCA VEM SOZINHA — a secao 4 conferida contra a peca inteira
+==========================================================================================
+  a escada da secao 4 tem os degraus [1, 2, 3]; fora deles, `Classe N` e feitico
+  82 ocorrencia(s) na forma correta, e 0 solta(s) fora da secao 4
+  [x] nenhuma Classe de Passiva aparece sem as duas palavras.
+
+==========================================================================================
+8. A CURVA DAS TRES ROTAS — ela cai da regra, e nao da tabela
+==========================================================================================
+  marcos lidos da regra: [6, 10, 14, 18, 22, 26, 30], teto 10
+     especialista   [3, 5, 7, 9, 10, 10, 10]
+     meio a meio    [3, 4, 6, 7, 9, 10, 10]
+     generalista    [2, 3, 4, 5, 6, 7, 8]
+  [x] as duas rotas puras reconstroem da regra, e o meio a meio fica entre elas
+  [x] o refino 7 cai no nivel 14 e no 26, que e o gate que a secao 5 publica
+
+==========================================================================================
+9. LAPIDACAO — a contraparte le os mesmos numeros do refino, ou diverge
+==========================================================================================
+              refino    Lapidacao   
+  inicio      1         1           ok
+  passo       1         1           ok
+  teto        10        10          ok
+  gates       4 e 7    4 e 7       ok
+  Nenhum destes valores esta escrito dentro deste validador: os do
+  refino sao derivados da CURVA e os da Lapidacao sao lidos do texto.
+  [x] a Reacao sem energia e 1,5 x Lapidacao por 2 PE na peca 11 e no capitulo 47, igual ao cobrir-se do capitulo 45
+
+==========================================================================================
+10. O DANO NA ARMA — a excecao da SS2, medida contra as duas condicoes
+==========================================================================================
+  refino   a peca publica    a regra reconstroi    
+  1        — = 0.0           — = 0.0               ok
+  2        — = 0.0           — = 0.0               ok
+  3        1d4 = 2.5         1d4 = 2.5             ok
+  4        1d4 = 2.5         1d4 = 2.5             ok
+  5        1d4 = 2.5         1d4 = 2.5             ok
+  6        2d4 = 5.0         2d4 = 5.0             ok
+  7        2d4 = 5.0         2d4 = 5.0             ok
+  8        2d4 = 5.0         2d4 = 5.0             ok
+  9        3d4 = 7.5         3d4 = 7.5             ok
+  10       4d6 = 14.0        4d6 = 14.0            ok
+  [x] os dez degraus reconstroem da linha de regra, e nenhum deles
+      esta escrito dentro deste validador.
+
+  A Acao Atacar com o dano na arma inteiro, contra a Rotina:
+  pior nivel 7 com 51.6% · nivel 30 com 47.2%
+  [x] o pior nivel e a fracao publicados reconstroem dos donos.
+
+  Nivel 30: pior rota 33.00 · melhor rota 51.00 · razao 1.55x
+  [x] a razao reconstroi, e ela cabe no filtro de 3.00x
+
+  [x] a SS2 tira `dano` da lista dos quatro, escreve as duas condicoes
+      em linha de regra, e aponta para a SS6.9.
+  [x] o teto do refino chega no nivel 22 (especialista) e 26 (meio a meio), e a rota que
+      nunca escolhe Refino nao alcanca ele — o degrau e do eixo, nao da graca.
+  [x] 45-aptidoes-e-refino.md publica a mesma escada que a SS6.9
+  [x] 47-bencaos-e-lapidacao.md publica a mesma escada que a SS6.9
+
+==========================================================================================
+11. AS CONTAGENS DE APTIDAO — a rota pura publica o que a regra produz
+==========================================================================================
+  a regra: +1 aptidao por escolha de Refino, e +2 quando o refino ja esta no teto
+  aptidoes da rota pura, marco a marco: [1, 2, 3, 4, 6, 8, 10]
+  a rota que nunca escolhe Refino: 0
+
+  onde                                            publica   a regra
+  peca 11 §3, a tabela das tres rotas puras       10        10  ok
+  peca 11, o cardapio contra a rota pura          10        10  ok
+  peca 11, o argumento das tres nao se substituirem10        10  ok
+  peca 11, a troca escrita na cara do jogador     10        10  ok
+  peca 11, o preco da Vantagem no d100            10        10  ok
+  peca 2 §3, a tabela das tres fichas             10        10  ok
+  peca 2 §3, a leitura embaixo da tabela          10        10  ok
+  o ESTADO-ATUAL, a tabela das quatro rotas       10        10  ok
+  [x] as 8 publicacoes dizem 10, e o numero nao
+      esta escrito dentro deste validador.
+  [x] o catalogo tem 15 entradas, 13 pagas contra 10 picks: folga de 3, e as 16 frases que publicam isso batem
+
+  meio a meio: 2 Corpo · 3 Refino · 2 Leque = 7 escolhas, de 7 marcos
+  [x] a curva [3, 4, 6, 7, 9, 10, 10] da peca 11 e a linha do ESTADO-ATUAL (3 aptidoes,
+      refino 10) sao a MESMA rota — um nome, uma leitura.
+
+==========================================================================================
+12. O TETO DO QUE A `Extensao de Dominio` ANULA
+==========================================================================================
+  teto declarado: 1/3 do refino + 1
+  no gate (refino 7) ele para em 3; no teto de refino (10) ele chega em 4
+  a maior Classe do sistema e 7
+  [x] 12.1 o teto para em 4 de 7: ha Classe que passa por ela em todo refino.
+  [x] 12.2 o teto cresce de 3 para 4 com o refino, que e a metrica das aptidoes.
+  [x] 12.3 a peca declara o invariante e diz que ela nao e da categoria.
+
+==========================================================================================
+>>> TUDO OK — o refino nao deriva onde nao pode, as tres rotas do marco nao se
+    dominam, e o orcamento de espaco cobre a montagem mais pesada.

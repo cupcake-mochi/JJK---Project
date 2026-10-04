@@ -1,0 +1,713 @@
+[
+  {
+    "id": "F01",
+    "combinacao": "Toque + Longe/Muito Longe",
+    "recomendacao_auditor": "Não combinar; trocar por Projétil, sem devolução de Corpo a Corpo",
+    "motivo": "Contato fixo F:482,511; correção solicitada pelo usuário",
+    "tipo": "M",
+    "decisao_final": "Toque não aceita Longe/Muito Longe; trocar Forma e retirar devolução para atacar à distância.",
+    "estado": "consolidado_candidato",
+    "cobertura": "Regra ou princípio expresso no lote 01; integração publicada ainda pendente.",
+    "ancoras_candidatas": [
+      "FUNDAMENTO.md — Combinar peças"
+    ],
+    "publicado": false
+  },
+  {
+    "id": "F02",
+    "combinacao": "Toque/Aura + Corpo a Corpo outra vez",
+    "recomendacao_auditor": "Não contar duas vezes",
+    "motivo": "Restrição já embutida, P:54; limite total de duas",
+    "tipo": "E",
+    "decisao_final": "Restrição embutida de Toque/Aura conta no limite de duas e não devolve novamente.",
+    "estado": "consolidado_candidato",
+    "cobertura": "Regra ou princípio expresso no lote 01; integração publicada ainda pendente.",
+    "ancoras_candidatas": [
+      "FUNDAMENTO.md — Restrições"
+    ],
+    "publicado": false
+  },
+  {
+    "id": "F03",
+    "combinacao": "Aura/Onda + Longe/Muito Longe",
+    "recomendacao_auditor": "Sem aplicação para deslocar a origem; usar Maior para raio",
+    "motivo": "Origem centrada no usuário, F:484,489",
+    "tipo": "I",
+    "decisao_final": "Aumentar distância não desloca a origem de Aura/Onda; usar aumento de área para raio.",
+    "estado": "consolidado_candidato",
+    "cobertura": "Regra ou princípio expresso no lote 01; integração publicada ainda pendente.",
+    "ancoras_candidatas": [
+      "FUNDAMENTO.md — Alcance e área"
+    ],
+    "publicado": false
+  },
+  {
+    "id": "F04",
+    "combinacao": "Cone/Linha + Corpo a Corpo",
+    "recomendacao_auditor": "Não combinar",
+    "motivo": "Proibição explícita F:823",
+    "tipo": "E",
+    "decisao_final": null,
+    "estado": "pendente_R07",
+    "cobertura": "Recomendação de auditoria preservada; não consolidada integralmente neste manuscrito.",
+    "ancoras_candidatas": [],
+    "publicado": false
+  },
+  {
+    "id": "F05",
+    "combinacao": "Onda + Corpo a Corpo",
+    "recomendacao_auditor": "Não devolve",
+    "motivo": "Onda já é autocentrada e a conversão de F:823 só cita Projétil/Explosão",
+    "tipo": "I",
+    "decisao_final": null,
+    "estado": "pendente_R07",
+    "cobertura": "Recomendação de auditoria preservada; não consolidada integralmente neste manuscrito.",
+    "ancoras_candidatas": [],
+    "publicado": false
+  },
+  {
+    "id": "F06",
+    "combinacao": "Explosão + Longe",
+    "recomendacao_auditor": "Permitido: muda distância até o centro, não raio",
+    "motivo": "Separação das escadas F:481–525",
+    "tipo": "I",
+    "decisao_final": "Explosão pode combinar Longe e Maior; distância até o centro e raio são contas diferentes.",
+    "estado": "consolidado_candidato",
+    "cobertura": "Regra ou princípio expresso no lote 01; integração publicada ainda pendente.",
+    "ancoras_candidatas": [
+      "FUNDAMENTO.md — Combinar peças"
+    ],
+    "publicado": false
+  },
+  {
+    "id": "F07",
+    "combinacao": "Explosão/Aura/Onda + Maior",
+    "recomendacao_auditor": "Permitido: sobe raio; não muda distância da origem",
+    "motivo": "Escada Esfera F:523 e Maior F:621",
+    "tipo": "E/I",
+    "decisao_final": "Maior altera raio das áreas e não desloca origem autocentrada.",
+    "estado": "consolidado_candidato",
+    "cobertura": "Regra ou princípio expresso no lote 01; integração publicada ainda pendente.",
+    "ancoras_candidatas": [
+      "FUNDAMENTO.md — Alcance e área"
+    ],
+    "publicado": false
+  },
+  {
+    "id": "F08",
+    "combinacao": "Cone/Linha + Longe/Muito Longe",
+    "recomendacao_auditor": "Permitido para comprimento, sem mover origem; documentar exceção",
+    "motivo": "Exemplo F:995; P:186–193",
+    "tipo": "E",
+    "decisao_final": "Longe/Muito Longe podem subir comprimento de Cone/Linha pela escada própria.",
+    "estado": "consolidado_candidato",
+    "cobertura": "Regra ou princípio expresso no lote 01; integração publicada ainda pendente.",
+    "ancoras_candidatas": [
+      "FUNDAMENTO.md — Alcance e área"
+    ],
+    "publicado": false
+  },
+  {
+    "id": "F09",
+    "combinacao": "Linha + Maior no comprimento máximo",
+    "recomendacao_auditor": "Sobe largura 1,5→3→4,5 m; não reinicia comprimento",
+    "motivo": "F:486",
+    "tipo": "E",
+    "decisao_final": "Maior na Linha aumenta comprimento até 60 m e só depois a largura até 4,5 m.",
+    "estado": "consolidado_candidato",
+    "cobertura": "Regra ou princípio expresso no lote 01; integração publicada ainda pendente.",
+    "ancoras_candidatas": [
+      "FUNDAMENTO.md — Alcance e área"
+    ],
+    "publicado": false
+  },
+  {
+    "id": "F10",
+    "combinacao": "Maior/Muito Maior + Projétil/Toque/Cura/Apoio sem área",
+    "recomendacao_auditor": "Sem aplicação; uma área precisa de Forma adequada",
+    "motivo": "Entrada pede tamanho de área F:621–622",
+    "tipo": "I",
+    "decisao_final": "Sem área para modificar, Maior não cria uma; a candidata demonstra Projétil. Explicitar no catálogo as outras Formas sem área.",
+    "estado": "parcial_candidato_R07_pendente",
+    "cobertura": "Núcleo tratado; linha completa ainda não certificada.",
+    "ancoras_candidatas": [
+      "FUNDAMENTO.md — Combinar peças"
+    ],
+    "publicado": false
+  },
+  {
+    "id": "F11",
+    "combinacao": "Mais Um + Toque",
+    "recomendacao_auditor": "Permitido se todos os alvos forem alcançáveis a 1,5 m; divide dados",
+    "motivo": "F:482,625; preservar exigência de contato",
+    "tipo": "I",
+    "decisao_final": null,
+    "estado": "pendente_R07",
+    "cobertura": "Recomendação de auditoria preservada; não consolidada integralmente neste manuscrito.",
+    "ancoras_candidatas": [],
+    "publicado": false
+  },
+  {
+    "id": "F12",
+    "combinacao": "Salto + Toque",
+    "recomendacao_auditor": "Não usar Salto para acertar o segundo alvo além de 1,5 m enquanto retém devolução de contato",
+    "motivo": "Limite por alvo de Toque e não anular Restrição",
+    "tipo": "I/M",
+    "decisao_final": "Salto com Toque exige ambos os alvos a até 1,5 m do conjurador; teto e resolução secundária seguem CAT-03.",
+    "estado": "parcial_candidato_R07_pendente",
+    "cobertura": "Núcleo tratado; linha completa ainda não certificada.",
+    "ancoras_candidatas": [
+      "FUNDAMENTO.md — Dano e repetições"
+    ],
+    "publicado": false
+  },
+  {
+    "id": "F13",
+    "combinacao": "Sem Ver + Toque",
+    "recomendacao_auditor": "Permitido para alvo cuja posição conhece dentro de 1,5 m, sem parede; não aumenta alcance",
+    "motivo": "F:606 e 482",
+    "tipo": "I",
+    "decisao_final": null,
+    "estado": "pendente_R07",
+    "cobertura": "Recomendação de auditoria preservada; não consolidada integralmente neste manuscrito.",
+    "ancoras_candidatas": [],
+    "publicado": false
+  },
+  {
+    "id": "F14",
+    "combinacao": "Sem Ver + cobertura total",
+    "recomendacao_auditor": "Não atravessa obstáculo sólido por si",
+    "motivo": "Saber posição não cria passagem; F:644 mantém total sem alvo",
+    "tipo": "I",
+    "decisao_final": null,
+    "estado": "pendente_R07",
+    "cobertura": "Recomendação de auditoria preservada; não consolidada integralmente neste manuscrito.",
+    "ancoras_candidatas": [],
+    "publicado": false
+  },
+  {
+    "id": "F15",
+    "combinacao": "Contorno + cobertura total",
+    "recomendacao_auditor": "Pode contornar por trajeto aberto dentro da geometria; não atravessa sólido",
+    "motivo": "F:628 permite curva; exige distinção entre contornar e perfurar",
+    "tipo": "I",
+    "decisao_final": null,
+    "estado": "pendente_R07",
+    "cobertura": "Recomendação de auditoria preservada; não consolidada integralmente neste manuscrito.",
+    "ancoras_candidatas": [],
+    "publicado": false
+  },
+  {
+    "id": "F16",
+    "combinacao": "Sem Cobertura + cobertura total",
+    "recomendacao_auditor": "Não ignora",
+    "motivo": "F:644 explícito",
+    "tipo": "E",
+    "decisao_final": null,
+    "estado": "pendente_R07",
+    "cobertura": "Recomendação de auditoria preservada; não consolidada integralmente neste manuscrito.",
+    "ancoras_candidatas": [],
+    "publicado": false
+  },
+  {
+    "id": "F17",
+    "combinacao": "Inescapável + outra Melhoria ou Restrição, inclusive Corpo a Corpo de Toque/Aura",
+    "recomendacao_auditor": "Não combinar",
+    "motivo": "F:641; Restrição embutida é Restrição",
+    "tipo": "E",
+    "decisao_final": null,
+    "estado": "pendente_R07",
+    "cobertura": "Recomendação de auditoria preservada; não consolidada integralmente neste manuscrito.",
+    "ancoras_candidatas": [],
+    "publicado": false
+  },
+  {
+    "id": "F18",
+    "combinacao": "Inescapável + Liberação Máxima",
+    "recomendacao_auditor": "Não combinar",
+    "motivo": "F:641 explícito",
+    "tipo": "E",
+    "decisao_final": null,
+    "estado": "pendente_R07",
+    "cobertura": "Recomendação de auditoria preservada; não consolidada integralmente neste manuscrito.",
+    "ancoras_candidatas": [],
+    "publicado": false
+  },
+  {
+    "id": "F19",
+    "combinacao": "Inescapável + Forma paga/área",
+    "recomendacao_auditor": "Lacuna: resolver expressamente em R07; candidato conservador só Projétil",
+    "motivo": "“Mais nenhuma peça” não enumera Formas; só exemplo Projétil em F:1288",
+    "tipo": "M se restringir",
+    "decisao_final": null,
+    "estado": "pendente_R07",
+    "cobertura": "Recomendação de auditoria preservada; não consolidada integralmente neste manuscrito.",
+    "ancoras_candidatas": [],
+    "publicado": false
+  },
+  {
+    "id": "F20",
+    "combinacao": "Precisão + efeito inteiramente automático aliado",
+    "recomendacao_auditor": "Sem aplicação, salvo existir outro teste comprado na mesma montagem",
+    "motivo": "Bônus só existe em acerto/CD F:639",
+    "tipo": "I",
+    "decisao_final": "A peça precisa encontrar a rolagem que modifica; não há bônus de Precisão em efeito inteiramente automático. Entrada individual ainda exige R07.",
+    "estado": "parcial_candidato_R07_pendente",
+    "cobertura": "Núcleo tratado; linha completa ainda não certificada.",
+    "ancoras_candidatas": [
+      "FUNDAMENTO.md — Combinar peças"
+    ],
+    "publicado": false
+  },
+  {
+    "id": "F21",
+    "combinacao": "Tudo ou Nada + efeito sem TR, ou TR que já elimina todo dano",
+    "recomendacao_auditor": "Não devolve",
+    "motivo": "F:830 troca metade por zero; não pode devolver sem piorar",
+    "tipo": "E/I",
+    "decisao_final": "Tudo ou Nada sem TR é incompatível. Ausência de devolução quando o sucesso já causava zero decorre da dificuldade real; faltam os casos completos no catálogo.",
+    "estado": "parcial_candidato_R07_pendente",
+    "cobertura": "Núcleo tratado; linha completa ainda não certificada.",
+    "ancoras_candidatas": [
+      "FUNDAMENTO.md — Combinar peças; Restrições"
+    ],
+    "publicado": false
+  },
+  {
+    "id": "F22",
+    "combinacao": "De Novo + efeito que usa apenas TR",
+    "recomendacao_auditor": "Sem aplicação",
+    "motivo": "F:645 exige você errar a rolagem; não obriga inimigo a repetir TR",
+    "tipo": "I",
+    "decisao_final": null,
+    "estado": "pendente_R07",
+    "cobertura": "Recomendação de auditoria preservada; não consolidada integralmente neste manuscrito.",
+    "ancoras_candidatas": [],
+    "publicado": false
+  },
+  {
+    "id": "F23",
+    "combinacao": "Rajada + troca para TR",
+    "recomendacao_auditor": "Não conceder vários TRs/copiar dano automaticamente; Rajada opera com ataques individuais",
+    "motivo": "F:626 exige cada tiro com rolagem de acerto; adaptação nova precisa projeto próprio",
+    "tipo": "I",
+    "decisao_final": "Rajada usa ataques individuais e reparte os dados; não cabe em ficha resolvida integralmente por TR.",
+    "estado": "consolidado_candidato",
+    "cobertura": "Regra ou princípio expresso no lote 01; integração publicada ainda pendente.",
+    "ancoras_candidatas": [
+      "FUNDAMENTO.md — Combinar peças"
+    ],
+    "publicado": false
+  },
+  {
+    "id": "F24",
+    "combinacao": "Salto + Salto / Estilhaço + Estilhaço / Queima gerando outra Queima",
+    "recomendacao_auditor": "Não propagam recursivamente",
+    "motivo": "F:627,730,733 só definem aplicação derivada, não nova conjuração",
+    "tipo": "I",
+    "decisao_final": "Não há recursão nem reaplicação automática de peças. Salto/Estilhaço recebem um disparo secundário de cada peça por conjuração conforme CAT-03/CAT-04.",
+    "estado": "consolidado_candidato",
+    "cobertura": "Antirrecursão, um secundário por peça/conjuração e exclusão de gatilhos/crítico constam de Dano e repetições. Resoluções e preços finais do catálogo ainda exigem R07.",
+    "ancoras_candidatas": [
+      "FUNDAMENTO.md — Dano e repetições",
+      "sincronizacoes/40-CATALOGO.md — CAT-03/CAT-04"
+    ],
+    "publicado": false
+  },
+  {
+    "id": "F25",
+    "combinacao": "Condição Pesada + outra Condição Pesada",
+    "recomendacao_auditor": "Não combinar",
+    "motivo": "Uma por feitiço, F:657",
+    "tipo": "E",
+    "decisao_final": "No máximo uma condição Pesada por feitiço; somente ela recebe o TR geral de saída ao fim do turno.",
+    "estado": "consolidado_candidato",
+    "cobertura": "Regra ou princípio expresso no lote 01; integração publicada ainda pendente.",
+    "ancoras_candidatas": [
+      "FUNDAMENTO.md — Controle"
+    ],
+    "publicado": false
+  },
+  {
+    "id": "F26",
+    "combinacao": "Condição + Amparo automático em aliado disposto",
+    "recomendacao_auditor": "Permitido somente para benefício previsto; não cria imposição automática em hostil",
+    "motivo": "F:488–489,788; alvo precisa ser elegível e aceitar o benefício",
+    "tipo": "I",
+    "decisao_final": "Cura/Apoio benéficos não viram imposição automática hostil ao mudar resolução; benefícios por condições específicas ainda exigem catálogo.",
+    "estado": "parcial_candidato_R07_pendente",
+    "cobertura": "Núcleo tratado; linha completa ainda não certificada.",
+    "ancoras_candidatas": [
+      "FUNDAMENTO.md — Conjurar"
+    ],
+    "publicado": false
+  },
+  {
+    "id": "F27",
+    "combinacao": "Junto + dano",
+    "recomendacao_auditor": "Sem aplicação; usar Mais Um",
+    "motivo": "Junto só cura/apoio, F:799",
+    "tipo": "E",
+    "decisao_final": null,
+    "estado": "pendente_R07",
+    "cobertura": "Recomendação de auditoria preservada; não consolidada integralmente neste manuscrito.",
+    "ancoras_candidatas": [],
+    "publicado": false
+  },
+  {
+    "id": "F28",
+    "combinacao": "Junto + Onda",
+    "recomendacao_auditor": "Sem benefício adicional automático: Onda já pega todos os aliados; não gera segunda onda",
+    "motivo": "F:489,799",
+    "tipo": "I",
+    "decisao_final": null,
+    "estado": "pendente_R07",
+    "cobertura": "Recomendação de auditoria preservada; não consolidada integralmente neste manuscrito.",
+    "ancoras_candidatas": [],
+    "publicado": false
+  },
+  {
+    "id": "F29",
+    "combinacao": "Reserva + cura imediata integral",
+    "recomendacao_auditor": "Escolhe cura guardada, não duplica cura agora e depois",
+    "motivo": "F:800",
+    "tipo": "I",
+    "decisao_final": null,
+    "estado": "pendente_R07",
+    "cobertura": "Recomendação de auditoria preservada; não consolidada integralmente neste manuscrito.",
+    "ancoras_candidatas": [],
+    "publicado": false
+  },
+  {
+    "id": "F30",
+    "combinacao": "Rápido + Reação",
+    "recomendacao_auditor": "Não combinar",
+    "motivo": "F:747–748 explícito",
+    "tipo": "E",
+    "decisao_final": "Rápido e Reação não se combinam.",
+    "estado": "consolidado_candidato",
+    "cobertura": "Regra ou princípio expresso no lote 01; integração publicada ainda pendente.",
+    "ancoras_candidatas": [
+      "FUNDAMENTO.md — Combinar peças"
+    ],
+    "publicado": false
+  },
+  {
+    "id": "F31",
+    "combinacao": "Rápido + Atrasar",
+    "recomendacao_auditor": "Não combinar",
+    "motivo": "F:747 explícito",
+    "tipo": "E",
+    "decisao_final": "Rápido e Atrasar não se combinam.",
+    "estado": "consolidado_candidato",
+    "cobertura": "Regra ou princípio expresso no lote 01; integração publicada ainda pendente.",
+    "ancoras_candidatas": [
+      "FUNDAMENTO.md — Combinar peças"
+    ],
+    "publicado": false
+  },
+  {
+    "id": "F32",
+    "combinacao": "Reação + Atrasar/Parado/Armado",
+    "recomendacao_auditor": "Não combinar",
+    "motivo": "F:748 explícito",
+    "tipo": "E",
+    "decisao_final": "Reação não combina com Rápido, Armado, Atrasar ou Parado.",
+    "estado": "consolidado_candidato",
+    "cobertura": "Regra ou princípio expresso no lote 01; integração publicada ainda pendente.",
+    "ancoras_candidatas": [
+      "FUNDAMENTO.md — Combinar peças"
+    ],
+    "publicado": false
+  },
+  {
+    "id": "F33",
+    "combinacao": "Armado + Carregar",
+    "recomendacao_auditor": "Não combinar",
+    "motivo": "F:749 explícito",
+    "tipo": "E",
+    "decisao_final": "Armado e Carregar não se combinam.",
+    "estado": "consolidado_candidato",
+    "cobertura": "Regra ou princípio expresso no lote 01; integração publicada ainda pendente.",
+    "ancoras_candidatas": [
+      "FUNDAMENTO.md — Combinar peças"
+    ],
+    "publicado": false
+  },
+  {
+    "id": "F34",
+    "combinacao": "Armado + Rápido",
+    "recomendacao_auditor": "Permitido: a preparação usa Bônus; o gatilho não cria uma segunda ação imediata",
+    "motivo": "Nenhuma proibição; F:747,749. Mantém limites do turno que arma e da peça",
+    "tipo": "I",
+    "decisao_final": null,
+    "estado": "pendente_R07",
+    "cobertura": "Recomendação de auditoria preservada; não consolidada integralmente neste manuscrito.",
+    "ancoras_candidatas": [],
+    "publicado": false
+  },
+  {
+    "id": "F35",
+    "combinacao": "Atrasar/Parado + Passo",
+    "recomendacao_auditor": "Não recebe o movimento de Passo; não comprar como gasto funcional",
+    "motivo": "Restrição proíbe mover no turno, Passo move antes/depois no mesmo turno",
+    "tipo": "I",
+    "decisao_final": "Atrasar/Parado impedem Passo. Ação Completa sem essas restrições não impede o deslocamento específico de Passo; não devolve Ação de Movimento.",
+    "estado": "sincronizacao_candidata_R07_pendente",
+    "cobertura": "Interface decidida e patch CAT-07 preparado; fonte publicada intacta.",
+    "ancoras_candidatas": [
+      "sincronizacoes/40-CATALOGO.md — CAT-07",
+      "FUNDAMENTO.md — Fenda de Arrasto",
+      "regras-basicas/lote-01/TESTES-E-TURNOS.md — custo Rodada inteira"
+    ],
+    "publicado": false
+  },
+  {
+    "id": "F36",
+    "combinacao": "Silencioso + Gesto",
+    "recomendacao_auditor": "Não combinar mantendo devolução: a melhoria remove o requisito da Restrição",
+    "motivo": "F:750 vs826",
+    "tipo": "I",
+    "decisao_final": "Silencioso não pode eliminar exigências de Gesto e conservar sua devolução.",
+    "estado": "consolidado_candidato",
+    "cobertura": "Regra ou princípio expresso no lote 01; integração publicada ainda pendente.",
+    "ancoras_candidatas": [
+      "FUNDAMENTO.md — Restrições"
+    ],
+    "publicado": false
+  },
+  {
+    "id": "F37",
+    "combinacao": "Silencioso + Barulho",
+    "recomendacao_auditor": "Permitido; oculta gesto/palavra, mas o Barulho continua revelando origem",
+    "motivo": "Barulho é efeito sonoro explícito F:835. Escrever precedência",
+    "tipo": "I",
+    "decisao_final": "Silencioso pode coexistir com Barulho; o Barulho exigido continua revelando a origem.",
+    "estado": "consolidado_candidato",
+    "cobertura": "Regra ou princípio expresso no lote 01; integração publicada ainda pendente.",
+    "ancoras_candidatas": [
+      "FUNDAMENTO.md — Restrições"
+    ],
+    "publicado": false
+  },
+  {
+    "id": "F38",
+    "combinacao": "Concentrada + Duradoura",
+    "recomendacao_auditor": "Escolher uma para o mesmo efeito; não somar tempos",
+    "motivo": "F:753–754 define alternativas",
+    "tipo": "I",
+    "decisao_final": null,
+    "estado": "pendente_R07",
+    "cobertura": "Recomendação de auditoria preservada; não consolidada integralmente neste manuscrito.",
+    "ancoras_candidatas": [],
+    "publicado": false
+  },
+  {
+    "id": "F39",
+    "combinacao": "Concentrada/Duradoura + dano instantâneo",
+    "recomendacao_auditor": "Sem aplicação; não repete dano",
+    "motivo": "F:753 explícito",
+    "tipo": "E",
+    "decisao_final": null,
+    "estado": "pendente_R07",
+    "cobertura": "Recomendação de auditoria preservada; não consolidada integralmente neste manuscrito.",
+    "ancoras_candidatas": [],
+    "publicado": false
+  },
+  {
+    "id": "F40",
+    "combinacao": "Concentrada/Duradoura + Fica/Anteparo",
+    "recomendacao_auditor": "Não estende essas durações",
+    "motivo": "F:753 exclui ambos, F:754 mesma coisa",
+    "tipo": "E",
+    "decisao_final": null,
+    "estado": "pendente_R07",
+    "cobertura": "Recomendação de auditoria preservada; não consolidada integralmente neste manuscrito.",
+    "ancoras_candidatas": [],
+    "publicado": false
+  },
+  {
+    "id": "F41",
+    "combinacao": "Frágil + efeito instantâneo",
+    "recomendacao_auditor": "Não devolve",
+    "motivo": "F:834 exige algo durando",
+    "tipo": "E",
+    "decisao_final": "Frágil não se aplica a um efeito instantâneo.",
+    "estado": "consolidado_candidato",
+    "cobertura": "Regra ou princípio expresso no lote 01; integração publicada ainda pendente.",
+    "ancoras_candidatas": [
+      "FUNDAMENTO.md — Combinar peças"
+    ],
+    "publicado": false
+  },
+  {
+    "id": "F42",
+    "combinacao": "Atrasar + Parado",
+    "recomendacao_auditor": "Só Atrasar pode devolver; Parado já incluído",
+    "motivo": "F:824–825 e regra contra mesma cobrança F:872",
+    "tipo": "E/I",
+    "decisao_final": "Atrasar já impede deslocamento; não combinar com devolução adicional de Parado.",
+    "estado": "consolidado_candidato",
+    "cobertura": "Regra ou princípio expresso no lote 01; integração publicada ainda pendente.",
+    "ancoras_candidatas": [
+      "FUNDAMENTO.md — Restrições"
+    ],
+    "publicado": false
+  },
+  {
+    "id": "F43",
+    "combinacao": "Duas de Uma Vez/Condicional/Aquecer/Dívida (ou Própria equivalente)",
+    "recomendacao_auditor": "No máximo uma",
+    "motivo": "F:870 explícito",
+    "tipo": "E",
+    "decisao_final": "No máximo uma de Uma Vez/Condicional/Aquecer/Dívida ou equivalente própria.",
+    "estado": "consolidado_candidato",
+    "cobertura": "Regra ou princípio expresso no lote 01; integração publicada ainda pendente.",
+    "ancoras_candidatas": [
+      "FUNDAMENTO.md — Restrições"
+    ],
+    "publicado": false
+  },
+  {
+    "id": "F44",
+    "combinacao": "Restrição equivalente ao Selo/rota exigida",
+    "recomendacao_auditor": "Não devolve",
+    "motivo": "F:250,874; estender à rota é inferência de custo já obrigatório",
+    "tipo": "E/I",
+    "decisao_final": "Exigência já imposta por Selo, Forma ou rota não oferece devolução repetida.",
+    "estado": "consolidado_candidato",
+    "cobertura": "Regra ou princípio expresso no lote 01; integração publicada ainda pendente.",
+    "ancoras_candidatas": [
+      "FUNDAMENTO.md — Restrições"
+    ],
+    "publicado": false
+  },
+  {
+    "id": "F45",
+    "combinacao": "Remate + Aquecer/Condicional de vida ou duração",
+    "recomendacao_auditor": "Não combinar",
+    "motivo": "F:732 explícito",
+    "tipo": "E",
+    "decisao_final": null,
+    "estado": "pendente_R07",
+    "cobertura": "Recomendação de auditoria preservada; não consolidada integralmente neste manuscrito.",
+    "ancoras_candidatas": [],
+    "publicado": false
+  },
+  {
+    "id": "F46",
+    "combinacao": "Sem Volta + cura/apoio inteiramente automático",
+    "recomendacao_auditor": "Não devolve se a falha de acertar ninguém for impossível",
+    "motivo": "F:839 exige risco de errar todos; alvo fora do alcance escolhido voluntariamente não legitima desconto",
+    "tipo": "I",
+    "decisao_final": null,
+    "estado": "pendente_R07",
+    "cobertura": "Recomendação de auditoria preservada; não consolidada integralmente neste manuscrito.",
+    "ancoras_candidatas": [],
+    "publicado": false
+  },
+  {
+    "id": "F47",
+    "combinacao": "Liberação + Atrasar/Parado",
+    "recomendacao_auditor": "Não devolvem",
+    "motivo": "Rodada inteira já obrigatória F:947; corrige exemplos históricos",
+    "tipo": "M",
+    "decisao_final": "Atrasar e Parado não devolvem pontos em Liberação Máxima; substituir exemplos históricos que devolviam.",
+    "estado": "consolidado_candidato",
+    "cobertura": "Regra ou princípio expresso no lote 01; integração publicada ainda pendente.",
+    "ancoras_candidatas": [
+      "FUNDAMENTO.md — Liberação Máxima"
+    ],
+    "publicado": false
+  },
+  {
+    "id": "F48",
+    "combinacao": "Liberação + Rápido/Reação",
+    "recomendacao_auditor": "Não mudam ação completa; não comprar nesse perfil",
+    "motivo": "Exigência fixa F:947",
+    "tipo": "I/M",
+    "decisao_final": "Rápido/Reação não substituem a Ação Completa da Liberação.",
+    "estado": "consolidado_candidato",
+    "cobertura": "Regra ou princípio expresso no lote 01; integração publicada ainda pendente.",
+    "ancoras_candidatas": [
+      "FUNDAMENTO.md — Liberação Máxima"
+    ],
+    "publicado": false
+  },
+  {
+    "id": "F49",
+    "combinacao": "Liberação + Toca a Alma",
+    "recomendacao_auditor": "Não combinar",
+    "motivo": "F:646 explícito",
+    "tipo": "E",
+    "decisao_final": null,
+    "estado": "pendente_R07",
+    "cobertura": "Recomendação de auditoria preservada; não consolidada integralmente neste manuscrito.",
+    "ancoras_candidatas": [],
+    "publicado": false
+  },
+  {
+    "id": "F50",
+    "combinacao": "Liberação + Cura/Onda de cura",
+    "recomendacao_auditor": "Não combinar",
+    "motivo": "F:547,952 explícito",
+    "tipo": "E",
+    "decisao_final": null,
+    "estado": "pendente_R07",
+    "cobertura": "Recomendação de auditoria preservada; não consolidada integralmente neste manuscrito.",
+    "ancoras_candidatas": [],
+    "publicado": false
+  },
+  {
+    "id": "F51",
+    "combinacao": "Liberação + Sem Volta, quando escolher Vazio",
+    "recomendacao_auditor": "Não pagar duas vezes pela mesma proibição; rever a Restrição na montagem ou usar um preço realmente distinto",
+    "motivo": "F:948 e839; preço da Liberação é escolhido no uso",
+    "tipo": "I/M",
+    "decisao_final": null,
+    "estado": "pendente_R07",
+    "cobertura": "Recomendação de auditoria preservada; não consolidada integralmente neste manuscrito.",
+    "ancoras_candidatas": [],
+    "publicado": false
+  },
+  {
+    "id": "F52",
+    "combinacao": "Recuo + Limpa sobre o próprio conjurador",
+    "recomendacao_auditor": "Não manter reembolso se o próprio feitiço limpa a condição que acabaria de causar",
+    "motivo": "F:828,795; não anular a desvantagem comprada",
+    "tipo": "I",
+    "decisao_final": null,
+    "estado": "pendente_R07",
+    "cobertura": "Recomendação de auditoria preservada; não consolidada integralmente neste manuscrito.",
+    "ancoras_candidatas": [],
+    "publicado": false
+  },
+  {
+    "id": "F53",
+    "combinacao": "Efeito Próprio repetindo função fechada ou aumento de dano conhecido",
+    "recomendacao_auditor": "Não pode servir de nome alternativo para peça bloqueada",
+    "motivo": "Só mecânica inexistente, F:810",
+    "tipo": "I",
+    "decisao_final": "Efeito Próprio não copia Família Fechada, não reúne benefícios sem pagar e não renomeia peça existente para evitá-la.",
+    "estado": "consolidado_candidato",
+    "cobertura": "Regra ou princípio expresso no lote 01; integração publicada ainda pendente.",
+    "ancoras_candidatas": [
+      "FUNDAMENTO.md — Efeitos próprios"
+    ],
+    "publicado": false
+  },
+  {
+    "id": "F54",
+    "combinacao": "Efeito/uso fora de iniciativa + condição ou informação hostil",
+    "recomendacao_auditor": "Não se torna automático só porque ainda não há iniciativa",
+    "motivo": "Compatibilizar F:889,914 com procedimentos e resistência",
+    "tipo": "M",
+    "decisao_final": "Estar fora de iniciativa não torna oposição automática nem permite Uso Livre conceder mecânica, informação hostil ou condição gratuitamente.",
+    "estado": "consolidado_candidato",
+    "cobertura": "Regra ou princípio expresso no lote 01; integração publicada ainda pendente.",
+    "ancoras_candidatas": [
+      "FUNDAMENTO.md — Uso Livre; Forma Efeito"
+    ],
+    "publicado": false
+  }
+]

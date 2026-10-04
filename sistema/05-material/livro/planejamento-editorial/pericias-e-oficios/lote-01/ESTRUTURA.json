@@ -1,0 +1,61 @@
+{
+  "ordem": [
+    "pericias",
+    "tarefas",
+    "fisicas",
+    "conhecimento",
+    "ambiente",
+    "essencia",
+    "oficios",
+    "fabricacao",
+    "reparos"
+  ],
+  "titulos": {
+    "pericias": "Perícias e ofícios",
+    "tarefas": "Tarefas e testes",
+    "fisicas": "Perícias físicas",
+    "conhecimento": "Investigação e conhecimento",
+    "ambiente": "Ambiente e saúde",
+    "essencia": "Percepção e influência",
+    "oficios": "Ofícios",
+    "fabricacao": "Fabricação",
+    "reparos": "Reparos"
+  },
+  "paginas": {
+    "pericias": 1,
+    "tarefas": 2,
+    "fisicas": 3,
+    "conhecimento": 4,
+    "ambiente": 5,
+    "essencia": 6,
+    "oficios": 7,
+    "fabricacao": 8,
+    "reparos": 9
+  },
+  "grupos": [
+    [
+      "Testes e tarefas",
+      [
+        "pericias",
+        "tarefas"
+      ]
+    ],
+    [
+      "Perícias",
+      [
+        "fisicas",
+        "conhecimento",
+        "ambiente",
+        "essencia"
+      ]
+    ],
+    [
+      "Ofícios e produção",
+      [
+        "oficios",
+        "fabricacao",
+        "reparos"
+      ]
+    ]
+  ]
+}

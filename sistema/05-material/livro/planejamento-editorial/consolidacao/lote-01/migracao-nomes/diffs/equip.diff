@@ -1,0 +1,12 @@
+--- equipamento/lote-final/EQUIPAMENTO.md
+
++++ equipamento/lote-final/EQUIPAMENTO.md
+
+@@ -658,5 +658,5 @@
+
+ ## Prender alguém
+ 
+-Para amarrar as mãos ou colocar algemas, você precisa de **1 minuto, duas mãos e acesso aos pulsos**. A criatura deve permitir a tarefa ou estar inconsciente ou impedida de resistir durante todo o procedimento. Estar apenas Agarrado, Derrubado, Atordoado ou Incapacitado não basta. Se ela voltar a resistir antes do fim, o procedimento não se conclui.
++Para amarrar as mãos ou colocar algemas, você precisa de **1 minuto, duas mãos e acesso aos pulsos**. A criatura deve permitir a tarefa ou estar inconsciente ou impedida de resistir durante todo o procedimento. Estar apenas Agarrado, Derrubado, Atordoado ou com a Guarda Aberta não basta. Se ela voltar a resistir antes do fim, o procedimento não se conclui.
+ 
+ Mãos presas não podem empunhar armas ou manipular itens; a criatura ainda pode andar, falar e executar ações que não dependam dessas mãos. A contenção não suprime energia nem acrescenta outra condição inteira. A corda pode também prender os tornozelos: nesse caso, o deslocamento fica zero até soltar essa amarra. O mestre precisa confirmar se o material serve para o tamanho e o corpo do alvo.

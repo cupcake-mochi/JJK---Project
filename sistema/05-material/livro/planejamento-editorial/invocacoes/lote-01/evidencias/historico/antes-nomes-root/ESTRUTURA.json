@@ -1,0 +1,159 @@
+{
+  "ordem": [
+    "inv-campo",
+    "inv-ciclo",
+    "inv-entrada",
+    "inv-troca",
+    "inv-intencao",
+    "inv-comunicacao",
+    "inv-basica",
+    "inv-especial",
+    "inv-energia",
+    "inv-antecipada",
+    "inv-pendentes",
+    "inv-preparar",
+    "inv-gatilhos",
+    "inv-tempo",
+    "inv-restricoes-tempo",
+    "inv-armado",
+    "inv-defesa",
+    "inv-respostas",
+    "inv-talisma",
+    "inv-corpos",
+    "inv-reparo",
+    "inv-liberacao",
+    "inv-maxima",
+    "inv-dominio",
+    "inv-queda",
+    "inv-retorno",
+    "inv-fora",
+    "inv-inconsciente",
+    "inv-manutencao",
+    "inv-morte",
+    "inv-carga"
+  ],
+  "titulos": {
+    "inv-campo": "Invocações em campo",
+    "inv-ciclo": "Turnos das entidades",
+    "inv-entrada": "Manifestar e recolher",
+    "inv-troca": "Trocar de entidade",
+    "inv-intencao": "Dar uma tarefa",
+    "inv-comunicacao": "Comunicação",
+    "inv-basica": "Atuação básica",
+    "inv-especial": "Comandar uma especial",
+    "inv-energia": "Energia das entidades",
+    "inv-antecipada": "Ordem antecipada",
+    "inv-pendentes": "Ordens pendentes",
+    "inv-preparar": "Preparar uma ação",
+    "inv-gatilhos": "Gatilhos e ajustes",
+    "inv-tempo": "Especiais de execução rápida",
+    "inv-restricoes-tempo": "Especiais com preparação prolongada",
+    "inv-armado": "Especiais armadas",
+    "inv-defesa": "Movimento e defesa",
+    "inv-respostas": "Ações concedidas por aliados",
+    "inv-talisma": "Talismãs",
+    "inv-corpos": "Corpos amaldiçoados",
+    "inv-reparo": "Cura e reparo",
+    "inv-liberacao": "Trunfos das domadas",
+    "inv-maxima": "Técnica Máxima da domada",
+    "inv-dominio": "Expansão da domada",
+    "inv-queda": "Queda e destruição",
+    "inv-retorno": "Retorno e corpos caídos",
+    "inv-fora": "Efeitos fora de campo",
+    "inv-inconsciente": "Invocador inconsciente",
+    "inv-manutencao": "Manutenção",
+    "inv-morte": "Morte do invocador",
+    "inv-carga": "Carga e equipamento"
+  },
+  "paginas": {
+    "inv-campo": 1,
+    "inv-ciclo": 2,
+    "inv-entrada": 3,
+    "inv-troca": 4,
+    "inv-intencao": 5,
+    "inv-comunicacao": 6,
+    "inv-basica": 7,
+    "inv-especial": 8,
+    "inv-energia": 9,
+    "inv-antecipada": 10,
+    "inv-pendentes": 11,
+    "inv-preparar": 12,
+    "inv-gatilhos": 13,
+    "inv-tempo": 14,
+    "inv-restricoes-tempo": 15,
+    "inv-armado": 16,
+    "inv-defesa": 17,
+    "inv-respostas": 18,
+    "inv-talisma": 19,
+    "inv-corpos": 20,
+    "inv-reparo": 21,
+    "inv-liberacao": 22,
+    "inv-maxima": 23,
+    "inv-dominio": 24,
+    "inv-queda": 25,
+    "inv-retorno": 26,
+    "inv-fora": 27,
+    "inv-inconsciente": 28,
+    "inv-manutencao": 29,
+    "inv-morte": 30,
+    "inv-carga": 31
+  },
+  "grupos": [
+    [
+      "Presença e atuação",
+      [
+        "inv-campo",
+        "inv-ciclo",
+        "inv-entrada",
+        "inv-troca",
+        "inv-intencao",
+        "inv-comunicacao",
+        "inv-basica",
+        "inv-especial",
+        "inv-energia"
+      ]
+    ],
+    [
+      "Comandos e preparação",
+      [
+        "inv-antecipada",
+        "inv-pendentes",
+        "inv-preparar",
+        "inv-gatilhos",
+        "inv-tempo",
+        "inv-restricoes-tempo",
+        "inv-armado"
+      ]
+    ],
+    [
+      "Movimento e tipos",
+      [
+        "inv-defesa",
+        "inv-respostas",
+        "inv-talisma",
+        "inv-corpos",
+        "inv-reparo"
+      ]
+    ],
+    [
+      "Trunfos",
+      [
+        "inv-liberacao",
+        "inv-maxima",
+        "inv-dominio"
+      ]
+    ],
+    [
+      "Queda, manutenção e carga",
+      [
+        "inv-queda",
+        "inv-retorno",
+        "inv-fora",
+        "inv-inconsciente",
+        "inv-manutencao",
+        "inv-morte",
+        "inv-carga"
+      ]
+    ]
+  ]
+}

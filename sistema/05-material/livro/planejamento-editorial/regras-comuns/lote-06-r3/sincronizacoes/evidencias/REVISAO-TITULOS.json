@@ -1,0 +1,21 @@
+{
+  "data": "2026-10-03T17:30:33-03:00",
+  "escopo": "Somente um cabeçalho em Markdown; restante do texto idêntico. Sem reexportação de PDF e sem revalidação mecânica integral.",
+  "arquivo": {
+    "arquivo": "regras-comuns/lote-06-r3/sincronizacoes/INCURSOR-COMPLETO.md",
+    "sha256_antes": "2e2472fa5cb15787a853c88beb27df987cab4892aca0104a892aaad9a2007e6c",
+    "sha256_depois": "f99aa89ec9c38a3e6a4b0da8c64fa3f18f6d72fd87f1e9a485d620166c94b5f3",
+    "somente_cabecalhos": true,
+    "alteracoes": [
+      {
+        "linha": 242,
+        "antes": "A vítima como apoio",
+        "depois": "Vítima como apoio",
+        "pagina_id": null
+      }
+    ],
+    "diff": "--- antes\n+++ depois\n@@ -239,7 +239,7 @@\n \n A aproximação usa seu movimento disponível. Os trechos de Movimento Acrobático respeitam o limite da habilidade, e os saltos seguem suas regras normais.\n \n-##### A vítima como apoio\n+##### Vítima como apoio\n \n **Uma vez por turno seu**, depois de acertar um ataque corpo a corpo contra uma criatura hostil durante seu Movimento Acrobático, você pode usar o corpo dela como apoio para **saltar até uma borda, superfície com apoios ou posição elevada**.\n "
+  },
+  "backup": "/tmp/r07-titulos-backup",
+  "revisor": "auditoria de compatibilidade R07"
+}

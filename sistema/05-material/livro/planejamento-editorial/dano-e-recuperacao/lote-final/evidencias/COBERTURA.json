@@ -1,0 +1,98 @@
+{
+  "sha256_texto": "b10dd5e5bfa90efbcc15bc52f127f8a75c14c6f639e70c44ce2f7965dd0e17ed",
+  "fontes": [
+    {
+      "arquivo": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+      "sha256": "b902a11dc5bca2fc78b9c3a8daf87dbdb276185da48a699637946bf7654a531d",
+      "snapshot": "sistema/05-material/livro/planejamento-editorial/dano-e-recuperacao/lote-final/fontes-preservadas/01-DANO-E-CONDICOES.md",
+      "nota": "Cópia de hash idêntico à fonte capturada na abertura do lote; fonte mutável pode ter recebido reparo de interface posterior."
+    },
+    {
+      "arquivo": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/regras-basicas/lote-04/RECUPERACAO.md",
+      "sha256": "c7a7b7ce0366fcaf7cc88282b755f5bd59ee60efef376db218d50aa2e50dc22c",
+      "snapshot": "sistema/05-material/livro/planejamento-editorial/dano-e-recuperacao/lote-final/fontes-preservadas/02-RECUPERACAO.md",
+      "nota": "Cópia de hash idêntico à fonte capturada na abertura do lote; fonte mutável pode ter recebido reparo de interface posterior."
+    },
+    {
+      "arquivo": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/manual/15-dano-e-condicoes.md",
+      "sha256": "ff5bc2d0b953cda1c70f57a345d1946b789541236a6971cc5f4bac3862831cfb",
+      "snapshot": "sistema/05-material/livro/planejamento-editorial/dano-e-recuperacao/lote-final/fontes-preservadas/03-15-dano-e-condicoes.md",
+      "nota": "Cópia de hash idêntico à fonte capturada na abertura do lote; fonte mutável pode ter recebido reparo de interface posterior."
+    },
+    {
+      "arquivo": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/manual/10-como-jogar.md",
+      "sha256": "12296c9fca2d0033ca0f2116991c5f4ea2fd57ff3cc7e7fc28845923e076c4f5",
+      "snapshot": "sistema/05-material/livro/planejamento-editorial/dano-e-recuperacao/lote-final/fontes-preservadas/04-10-como-jogar.md",
+      "nota": "Cópia de hash idêntico à fonte capturada na abertura do lote; fonte mutável pode ter recebido reparo de interface posterior."
+    },
+    {
+      "arquivo": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/manual/70-descanso-e-recuperacao.md",
+      "sha256": "4efd5d5ec7cceef4f3840d2b2f19be777cf01ab7b5081e309f44b1abbc919dc0",
+      "snapshot": "sistema/05-material/livro/planejamento-editorial/dano-e-recuperacao/lote-final/fontes-preservadas/05-70-descanso-e-recuperacao.md",
+      "nota": "Cópia de hash idêntico à fonte capturada na abertura do lote; fonte mutável pode ter recebido reparo de interface posterior."
+    },
+    {
+      "arquivo": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+      "sha256": "682b239b4f582912d47b0c8cb14f0df70592f8b5c631f01240f0c4d853c8471e",
+      "snapshot": "sistema/05-material/livro/planejamento-editorial/dano-e-recuperacao/lote-final/fontes-preservadas/06-CATALOGO.md",
+      "nota": "Cópia de hash idêntico à fonte capturada na abertura do lote; fonte mutável pode ter recebido reparo de interface posterior."
+    },
+    {
+      "arquivo": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/rotas/lote-01/ROTAS.md",
+      "sha256": "d4ac61d33127980c24ce6b9acbcb12458dce4633a5f96db3f1ba9263c354c811",
+      "snapshot": "sistema/05-material/livro/planejamento-editorial/dano-e-recuperacao/lote-final/fontes-preservadas/07-ROTAS.md",
+      "nota": "Cópia de hash idêntico à fonte capturada na abertura do lote; fonte mutável pode ter recebido reparo de interface posterior."
+    }
+  ],
+  "destinos": {
+    "dano": "Ordem de resolução separa tipo, redução e reservas. Exemplo fecha21→11→7→4PV.",
+    "tipos": "Quinze tipos em três grupos. Força é energia pura, sem exigir atributo; propriedades extras dependem da fonte.",
+    "reducao": "Uma redução do golpe inteiro é aplicada uma vez, depois das parcelas por tipo.",
+    "alma": "Fórmula e perdas de duas reservas precedem os estágios. Exceção Integridadeapenas preservada.",
+    "integridade": "Reserva atual define estágio. Recuperação remove penalidades; estágio4 encerra cena por Derrotado.",
+    "condicoes": "Treze condições compráveis separadas de estados. Aplicação,duração,saída e custo de remover têm campos diferentes.",
+    "leves": "Seis condições preservadas e explicitadas; rastejo evita cobrança dupla. Fuga de agarrão remete ao dono.",
+    "medias": "Voz é requisito concreto; encanto restringe alvos sem transferir autoria do personagem.",
+    "pesadas": "Cinco condições preservadas, teste de saída e penalidade do próprio teste definidos.",
+    "cura": "Cura,condição eIntegridade são procedimentos distintos. Compatibilidade fica com corpo e fonte.",
+    "temporarios": "Teto,substituição e duração definidos sem acumulação.",
+    "zero": "Escolha imediata,referência estável,janela comum e prazo fora decombate.",
+    "insistir": "Tabela preserva frações fixas; não gera outra janela quando acaba nem máximo negativo.",
+    "socorro": "Acumulação de cura e estabilização com ação,distância,mão,CD e dano posterior.",
+    "sequelas": "Custo de quedas repetidas comum às duas escolhas. Marcas visuais não compram vantagem social.",
+    "derrota": "Derrota corporal e da alma não se convertem. Saída distingue pausa,cura e morte.",
+    "inconsciente": "Ações,percepção,defesa,teste e saída pela causa.",
+    "descansos": "Curto e longo definidos por situação. Lugarpropício não depende só de rótulo.",
+    "exaustao": "Gatilho porlutas,patamares e recuperação separados.",
+    "usos": "Recuperações por cena/dia/pausa/missão distintas."
+  },
+  "condicoes_preservadas": [
+    "Lento",
+    "Incapacitado",
+    "Derrubado",
+    "Agarrado",
+    "Desarmado",
+    "Surdo",
+    "Calado",
+    "Enfeitiçado",
+    "Impedido",
+    "Cego",
+    "Amedrontado",
+    "Envenenado",
+    "Atordoado"
+  ],
+  "movidos_ao_dono": [
+    "Cobrir-se de Energia→Aptidões",
+    "Duro de Matar/CascaGrossa→Bastião",
+    "Cura de técnica e Sutura→Rotas",
+    "Reparo de CorpoAmaldiçoado→Origens/Invocações",
+    "Fuga e arrasto→Regrasgerais"
+  ],
+  "substituicoes": [
+    "Colapso/apósInsistir→Derrotado",
+    "TRextraAlma→reserva atual",
+    "Cicatrizsocialautomática→marca narrativa",
+    "Segunda janela econta50%→janela comum"
+  ],
+  "decisoes": 30
+}

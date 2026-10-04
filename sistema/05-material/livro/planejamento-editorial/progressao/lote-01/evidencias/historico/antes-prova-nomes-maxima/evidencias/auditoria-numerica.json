@@ -1,0 +1,20 @@
+{
+  "ok": true,
+  "manuscritos_auditados": {
+    "sistema/05-material/livro/planejamento-editorial/progressao/lote-01/PROGRESSAO.md": "f357c3008c2493965e1cf32bf1339a3921abe0b9f8fc9ad49b6524383d45aa57"
+  },
+  "quantidades": {
+    "checks": 102,
+    "casos": 73,
+    "sequencias_marcos": 2187,
+    "perfis_ritmo": 5,
+    "mutacoes": 4,
+    "perfis_saldo": 808
+  },
+  "evidencia": "AUDITORIA.json",
+  "limites": [
+    "Sem playtest; tempos são modelos de média e não calendário simulado.",
+    "Conservação de recursos e regularização de ficha são fechamentos candidatos, registrados em alterações.",
+    "Conferidores legados verificam fontes históricas, não certificam este manuscrito."
+  ]
+}

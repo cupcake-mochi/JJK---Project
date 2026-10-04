@@ -1,0 +1,6204 @@
+{
+  "ok": true,
+  "sha256_texto": "8fdda195acf479e335fe518cf51ccae32cbbf9735b94b25856642d94e995e48c",
+  "casos": [
+    {
+      "caso": "52 identidades, sem duplicação",
+      "obtido": 52,
+      "esperado": 52,
+      "ok": true
+    },
+    {
+      "caso": "Conjunto de armas",
+      "obtido": [
+        "Bastão",
+        "Besta",
+        "Besta de Uma Mão",
+        "Bō",
+        "Canivete",
+        "Cassetete",
+        "Chakram",
+        "Chicote",
+        "Corrente",
+        "Daikyū",
+        "Espada Longa",
+        "Espadão",
+        "Espingarda",
+        "Faca",
+        "Foice",
+        "Hankyū",
+        "Kama",
+        "Kanabō",
+        "Katana",
+        "Kunai",
+        "Kusarigama",
+        "Lança",
+        "Machadinha",
+        "Machado",
+        "Machado de Guerra",
+        "Machete",
+        "Manriki",
+        "Marreta",
+        "Maul",
+        "Maça",
+        "Metralhadora Pesada",
+        "Naginata",
+        "Nodachi",
+        "Nunchaku",
+        "Odachi",
+        "Pistola",
+        "Punhal",
+        "Rapieira",
+        "Revólver",
+        "Rifle",
+        "Rifle de Precisão",
+        "Sai",
+        "Shuriken",
+        "Soqueira",
+        "Submetralhadora",
+        "Taco",
+        "Tanto",
+        "Tekko",
+        "Tessen",
+        "Tonfa",
+        "Wakizashi",
+        "Yari"
+      ],
+      "esperado": [
+        "Bastão",
+        "Besta",
+        "Besta de Uma Mão",
+        "Bō",
+        "Canivete",
+        "Cassetete",
+        "Chakram",
+        "Chicote",
+        "Corrente",
+        "Daikyū",
+        "Espada Longa",
+        "Espadão",
+        "Espingarda",
+        "Faca",
+        "Foice",
+        "Hankyū",
+        "Kama",
+        "Kanabō",
+        "Katana",
+        "Kunai",
+        "Kusarigama",
+        "Lança",
+        "Machadinha",
+        "Machado",
+        "Machado de Guerra",
+        "Machete",
+        "Manriki",
+        "Marreta",
+        "Maul",
+        "Maça",
+        "Metralhadora Pesada",
+        "Naginata",
+        "Nodachi",
+        "Nunchaku",
+        "Odachi",
+        "Pistola",
+        "Punhal",
+        "Rapieira",
+        "Revólver",
+        "Rifle",
+        "Rifle de Precisão",
+        "Sai",
+        "Shuriken",
+        "Soqueira",
+        "Submetralhadora",
+        "Taco",
+        "Tanto",
+        "Tekko",
+        "Tessen",
+        "Tonfa",
+        "Wakizashi",
+        "Yari"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "52 linhas no manuscrito",
+      "obtido": 52,
+      "esperado": 52,
+      "ok": true
+    },
+    {
+      "caso": "Bastão: colunas da base",
+      "obtido": [
+        "Porrete",
+        "Treino simples",
+        1,
+        "1d6",
+        [
+          "Alcance",
+          "Rompe",
+          "Versátil"
+        ],
+        0,
+        1,
+        16000,
+        16000
+      ],
+      "esperado": [
+        "Porrete",
+        "Treino simples",
+        1,
+        "1d6",
+        [
+          "Alcance",
+          "Rompe",
+          "Versátil"
+        ],
+        0,
+        1,
+        16000,
+        16000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Bastão: tabela do leitor",
+      "obtido": [
+        1,
+        "1d6 Concussão",
+        [
+          "Versátil",
+          "Alcance 3 m",
+          "Rompe"
+        ],
+        "—",
+        1.0,
+        [
+          16000
+        ]
+      ],
+      "esperado": [
+        1,
+        "1d6 Concussão",
+        [
+          "Versátil",
+          "Alcance 3 m",
+          "Rompe"
+        ],
+        "—",
+        1,
+        [
+          16000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Bastão: distância preservada",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "caso": "Bastão: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Bastão: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Besta: colunas da base",
+      "obtido": [
+        "Balestra",
+        "Treino simples",
+        2,
+        "2d8",
+        [
+          "Longo Alcance",
+          "Munição",
+          "Rompe"
+        ],
+        3,
+        2,
+        80000,
+        80000
+      ],
+      "esperado": [
+        "Balestra",
+        "Treino simples",
+        2,
+        "2d8",
+        [
+          "Longo Alcance",
+          "Munição",
+          "Rompe"
+        ],
+        3,
+        2,
+        80000,
+        80000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Besta: tabela do leitor",
+      "obtido": [
+        2,
+        "2d8 Perfurante",
+        [
+          "Longo Alcance 30/120 m",
+          "Munição",
+          "Rompe"
+        ],
+        "3",
+        2.0,
+        [
+          80000
+        ]
+      ],
+      "esperado": [
+        2,
+        "2d8 Perfurante",
+        [
+          "Longo Alcance 30/120 m",
+          "Munição",
+          "Rompe"
+        ],
+        "3",
+        2,
+        [
+          80000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Besta: distância preservada",
+      "obtido": [
+        30,
+        120
+      ],
+      "esperado": [
+        30,
+        120
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Besta: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Besta: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Besta de Uma Mão: colunas da base",
+      "obtido": [
+        "Balestra",
+        "Treino simples",
+        1,
+        "1d10",
+        [
+          "Longo Alcance",
+          "Munição",
+          "Oculta"
+        ],
+        0,
+        0.1,
+        50000,
+        50000
+      ],
+      "esperado": [
+        "Balestra",
+        "Treino simples",
+        1,
+        "1d10",
+        [
+          "Longo Alcance",
+          "Munição",
+          "Oculta"
+        ],
+        0,
+        0.1,
+        50000,
+        50000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Besta de Uma Mão: tabela do leitor",
+      "obtido": [
+        1,
+        "1d10 Perfurante",
+        [
+          "Longo Alcance 9/36 m",
+          "Munição",
+          "Oculta"
+        ],
+        "—",
+        0.1,
+        [
+          50000
+        ]
+      ],
+      "esperado": [
+        1,
+        "1d10 Perfurante",
+        [
+          "Longo Alcance 9/36 m",
+          "Munição",
+          "Oculta"
+        ],
+        "—",
+        0.1,
+        [
+          50000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Besta de Uma Mão: distância preservada",
+      "obtido": [
+        9,
+        36
+      ],
+      "esperado": [
+        9,
+        36
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Besta de Uma Mão: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Besta de Uma Mão: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Bō: colunas da base",
+      "obtido": [
+        "Porrete",
+        "Treino simples",
+        2,
+        "1d10",
+        [
+          "Alcance",
+          "Emaranha"
+        ],
+        3,
+        2,
+        20000,
+        20000
+      ],
+      "esperado": [
+        "Porrete",
+        "Treino simples",
+        2,
+        "1d10",
+        [
+          "Alcance",
+          "Emaranha"
+        ],
+        3,
+        2,
+        20000,
+        20000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Bō: tabela do leitor",
+      "obtido": [
+        2,
+        "1d10 Concussão",
+        [
+          "Alcance 3 m",
+          "Emaranha"
+        ],
+        "3",
+        2.0,
+        [
+          20000
+        ]
+      ],
+      "esperado": [
+        2,
+        "1d10 Concussão",
+        [
+          "Alcance 3 m",
+          "Emaranha"
+        ],
+        "3",
+        2,
+        [
+          20000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Bō: distância preservada",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "caso": "Bō: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Bō: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Canivete: colunas da base",
+      "obtido": [
+        "Lâmina Curta",
+        "Treino simples",
+        1,
+        "1d4",
+        [
+          "Fineza",
+          "Oculta",
+          "Rompe"
+        ],
+        0,
+        0.1,
+        8000,
+        8000
+      ],
+      "esperado": [
+        "Lâmina Curta",
+        "Treino simples",
+        1,
+        "1d4",
+        [
+          "Fineza",
+          "Oculta",
+          "Rompe"
+        ],
+        0,
+        0.1,
+        8000,
+        8000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Canivete: tabela do leitor",
+      "obtido": [
+        1,
+        "1d4 Cortante",
+        [
+          "Fineza",
+          "Oculta",
+          "Rompe"
+        ],
+        "—",
+        0.1,
+        [
+          8000
+        ]
+      ],
+      "esperado": [
+        1,
+        "1d4 Cortante",
+        [
+          "Fineza",
+          "Oculta",
+          "Rompe"
+        ],
+        "—",
+        0.1,
+        [
+          8000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Canivete: distância preservada",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "caso": "Canivete: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Canivete: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Cassetete: colunas da base",
+      "obtido": [
+        "Porrete",
+        "Treino simples",
+        1,
+        "1d6",
+        [
+          "Oculta",
+          "Vestida"
+        ],
+        0,
+        0.1,
+        8000,
+        8000
+      ],
+      "esperado": [
+        "Porrete",
+        "Treino simples",
+        1,
+        "1d6",
+        [
+          "Oculta",
+          "Vestida"
+        ],
+        0,
+        0.1,
+        8000,
+        8000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Cassetete: tabela do leitor",
+      "obtido": [
+        1,
+        "1d6 Concussão",
+        [
+          "Oculta",
+          "Vestida"
+        ],
+        "—",
+        0.1,
+        [
+          8000
+        ]
+      ],
+      "esperado": [
+        1,
+        "1d6 Concussão",
+        [
+          "Oculta",
+          "Vestida"
+        ],
+        "—",
+        0.1,
+        [
+          8000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Cassetete: distância preservada",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "caso": "Cassetete: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Cassetete: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Chakram: colunas da base",
+      "obtido": [
+        "Arremesso",
+        "Treino simples",
+        1,
+        "1d4",
+        [
+          "Fineza",
+          "Longo Alcance",
+          "Oculta"
+        ],
+        0,
+        0.1,
+        8000,
+        8000
+      ],
+      "esperado": [
+        "Arremesso",
+        "Treino simples",
+        1,
+        "1d4",
+        [
+          "Fineza",
+          "Longo Alcance",
+          "Oculta"
+        ],
+        0,
+        0.1,
+        8000,
+        8000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Chakram: tabela do leitor",
+      "obtido": [
+        1,
+        "1d4 Cortante",
+        [
+          "Longo Alcance 6/18 m",
+          "Fineza",
+          "Oculta"
+        ],
+        "—",
+        0.1,
+        [
+          8000
+        ]
+      ],
+      "esperado": [
+        1,
+        "1d4 Cortante",
+        [
+          "Longo Alcance 6/18 m",
+          "Fineza",
+          "Oculta"
+        ],
+        "—",
+        0.1,
+        [
+          8000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Chakram: distância preservada",
+      "obtido": [
+        6,
+        18
+      ],
+      "esperado": [
+        6,
+        18
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Chakram: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Chakram: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Faca: colunas da base",
+      "obtido": [
+        "Lâmina Curta",
+        "Treino simples",
+        1,
+        "1d6",
+        [
+          "Fineza",
+          "Rompe"
+        ],
+        0,
+        1,
+        16000,
+        16000
+      ],
+      "esperado": [
+        "Lâmina Curta",
+        "Treino simples",
+        1,
+        "1d6",
+        [
+          "Fineza",
+          "Rompe"
+        ],
+        0,
+        1,
+        16000,
+        16000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Faca: tabela do leitor",
+      "obtido": [
+        1,
+        "1d6 Cortante",
+        [
+          "Fineza",
+          "Rompe"
+        ],
+        "—",
+        1.0,
+        [
+          16000
+        ]
+      ],
+      "esperado": [
+        1,
+        "1d6 Cortante",
+        [
+          "Fineza",
+          "Rompe"
+        ],
+        "—",
+        1,
+        [
+          16000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Faca: distância preservada",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "caso": "Faca: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Faca: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Foice: colunas da base",
+      "obtido": [
+        "Ceifa",
+        "Treino simples",
+        2,
+        "1d10",
+        [
+          "Emaranha",
+          "Talha"
+        ],
+        3,
+        2,
+        36000,
+        36000
+      ],
+      "esperado": [
+        "Ceifa",
+        "Treino simples",
+        2,
+        "1d10",
+        [
+          "Emaranha",
+          "Talha"
+        ],
+        3,
+        2,
+        36000,
+        36000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Foice: tabela do leitor",
+      "obtido": [
+        2,
+        "1d10 Cortante",
+        [
+          "Emaranha",
+          "Talha"
+        ],
+        "3",
+        2.0,
+        [
+          36000
+        ]
+      ],
+      "esperado": [
+        2,
+        "1d10 Cortante",
+        [
+          "Emaranha",
+          "Talha"
+        ],
+        "3",
+        2,
+        [
+          36000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Foice: distância preservada",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "caso": "Foice: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Foice: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Kama: colunas da base",
+      "obtido": [
+        "Ceifa",
+        "Treino simples",
+        1,
+        "1d6",
+        [
+          "Par",
+          "Rompe"
+        ],
+        0,
+        1,
+        16000,
+        16000
+      ],
+      "esperado": [
+        "Ceifa",
+        "Treino simples",
+        1,
+        "1d6",
+        [
+          "Par",
+          "Rompe"
+        ],
+        0,
+        1,
+        16000,
+        16000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Kama: tabela do leitor",
+      "obtido": [
+        1,
+        "1d6 Cortante",
+        [
+          "Par",
+          "Rompe"
+        ],
+        "—",
+        1.0,
+        [
+          16000
+        ]
+      ],
+      "esperado": [
+        1,
+        "1d6 Cortante",
+        [
+          "Par",
+          "Rompe"
+        ],
+        "—",
+        1,
+        [
+          16000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Kama: distância preservada",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "caso": "Kama: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Kama: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Kanabō: colunas da base",
+      "obtido": [
+        "Massa",
+        "Treino simples",
+        2,
+        "1d12",
+        [
+          "Talha"
+        ],
+        3,
+        2,
+        36000,
+        36000
+      ],
+      "esperado": [
+        "Massa",
+        "Treino simples",
+        2,
+        "1d12",
+        [
+          "Talha"
+        ],
+        3,
+        2,
+        36000,
+        36000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Kanabō: tabela do leitor",
+      "obtido": [
+        2,
+        "1d12 Concussão",
+        [
+          "Talha"
+        ],
+        "3",
+        2.0,
+        [
+          36000
+        ]
+      ],
+      "esperado": [
+        2,
+        "1d12 Concussão",
+        [
+          "Talha"
+        ],
+        "3",
+        2,
+        [
+          36000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Kanabō: distância preservada",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "caso": "Kanabō: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Kanabō: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Kunai: colunas da base",
+      "obtido": [
+        "Arremesso",
+        "Treino simples",
+        1,
+        "1d6",
+        [
+          "Longo Alcance",
+          "Oculta"
+        ],
+        0,
+        0.1,
+        8000,
+        8000
+      ],
+      "esperado": [
+        "Arremesso",
+        "Treino simples",
+        1,
+        "1d6",
+        [
+          "Longo Alcance",
+          "Oculta"
+        ],
+        0,
+        0.1,
+        8000,
+        8000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Kunai: tabela do leitor",
+      "obtido": [
+        1,
+        "1d6 Perfurante",
+        [
+          "Longo Alcance 6/18 m",
+          "Oculta"
+        ],
+        "—",
+        0.1,
+        [
+          8000
+        ]
+      ],
+      "esperado": [
+        1,
+        "1d6 Perfurante",
+        [
+          "Longo Alcance 6/18 m",
+          "Oculta"
+        ],
+        "—",
+        0.1,
+        [
+          8000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Kunai: distância preservada",
+      "obtido": [
+        6,
+        18
+      ],
+      "esperado": [
+        6,
+        18
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Kunai: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Kunai: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Kusarigama: colunas da base",
+      "obtido": [
+        "Ceifa",
+        "Treino simples",
+        2,
+        "1d8",
+        [
+          "Alcance",
+          "Emaranha",
+          "Longo Alcance"
+        ],
+        0,
+        2,
+        20000,
+        20000
+      ],
+      "esperado": [
+        "Ceifa",
+        "Treino simples",
+        2,
+        "1d8",
+        [
+          "Alcance",
+          "Emaranha",
+          "Longo Alcance"
+        ],
+        0,
+        2,
+        20000,
+        20000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Kusarigama: tabela do leitor",
+      "obtido": [
+        2,
+        "1d8 Cortante",
+        [
+          "Alcance 3 m",
+          "Emaranha",
+          "Longo Alcance 6/18 m"
+        ],
+        "—",
+        2.0,
+        [
+          20000
+        ]
+      ],
+      "esperado": [
+        2,
+        "1d8 Cortante",
+        [
+          "Alcance 3 m",
+          "Emaranha",
+          "Longo Alcance 6/18 m"
+        ],
+        "—",
+        2,
+        [
+          20000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Kusarigama: distância preservada",
+      "obtido": [
+        6,
+        18
+      ],
+      "esperado": [
+        6,
+        18
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Kusarigama: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Kusarigama: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Maça: colunas da base",
+      "obtido": [
+        "Massa",
+        "Treino simples",
+        1,
+        "1d8",
+        [
+          "Talha"
+        ],
+        0,
+        1,
+        32000,
+        32000
+      ],
+      "esperado": [
+        "Massa",
+        "Treino simples",
+        1,
+        "1d8",
+        [
+          "Talha"
+        ],
+        0,
+        1,
+        32000,
+        32000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Maça: tabela do leitor",
+      "obtido": [
+        1,
+        "1d8 Concussão",
+        [
+          "Talha"
+        ],
+        "—",
+        1.0,
+        [
+          32000
+        ]
+      ],
+      "esperado": [
+        1,
+        "1d8 Concussão",
+        [
+          "Talha"
+        ],
+        "—",
+        1,
+        [
+          32000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Maça: distância preservada",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "caso": "Maça: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Maça: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Marreta: colunas da base",
+      "obtido": [
+        "Massa",
+        "Treino simples",
+        2,
+        "1d10",
+        [
+          "Rompe",
+          "Talha"
+        ],
+        3,
+        2,
+        36000,
+        36000
+      ],
+      "esperado": [
+        "Massa",
+        "Treino simples",
+        2,
+        "1d10",
+        [
+          "Rompe",
+          "Talha"
+        ],
+        3,
+        2,
+        36000,
+        36000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Marreta: tabela do leitor",
+      "obtido": [
+        2,
+        "1d10 Concussão",
+        [
+          "Rompe",
+          "Talha"
+        ],
+        "3",
+        2.0,
+        [
+          36000
+        ]
+      ],
+      "esperado": [
+        2,
+        "1d10 Concussão",
+        [
+          "Rompe",
+          "Talha"
+        ],
+        "3",
+        2,
+        [
+          36000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Marreta: distância preservada",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "caso": "Marreta: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Marreta: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Maul: colunas da base",
+      "obtido": [
+        "Massa",
+        "Treino simples",
+        2,
+        "1d12",
+        [
+          "Rompe"
+        ],
+        3,
+        2,
+        36000,
+        36000
+      ],
+      "esperado": [
+        "Massa",
+        "Treino simples",
+        2,
+        "1d12",
+        [
+          "Rompe"
+        ],
+        3,
+        2,
+        36000,
+        36000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Maul: tabela do leitor",
+      "obtido": [
+        2,
+        "1d12 Concussão",
+        [
+          "Rompe"
+        ],
+        "3",
+        2.0,
+        [
+          36000
+        ]
+      ],
+      "esperado": [
+        2,
+        "1d12 Concussão",
+        [
+          "Rompe"
+        ],
+        "3",
+        2,
+        [
+          36000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Maul: distância preservada",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "caso": "Maul: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Maul: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Nunchaku: colunas da base",
+      "obtido": [
+        "Porrete",
+        "Treino simples",
+        1,
+        "1d6",
+        [
+          "Emaranha",
+          "Par"
+        ],
+        0,
+        1,
+        16000,
+        16000
+      ],
+      "esperado": [
+        "Porrete",
+        "Treino simples",
+        1,
+        "1d6",
+        [
+          "Emaranha",
+          "Par"
+        ],
+        0,
+        1,
+        16000,
+        16000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Nunchaku: tabela do leitor",
+      "obtido": [
+        1,
+        "1d6 Concussão",
+        [
+          "Par",
+          "Emaranha"
+        ],
+        "—",
+        1.0,
+        [
+          16000
+        ]
+      ],
+      "esperado": [
+        1,
+        "1d6 Concussão",
+        [
+          "Par",
+          "Emaranha"
+        ],
+        "—",
+        1,
+        [
+          16000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Nunchaku: distância preservada",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "caso": "Nunchaku: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Nunchaku: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Punhal: colunas da base",
+      "obtido": [
+        "Lâmina Curta",
+        "Treino simples",
+        1,
+        "1d6",
+        [
+          "Fineza",
+          "Longo Alcance"
+        ],
+        0,
+        1,
+        16000,
+        16000
+      ],
+      "esperado": [
+        "Lâmina Curta",
+        "Treino simples",
+        1,
+        "1d6",
+        [
+          "Fineza",
+          "Longo Alcance"
+        ],
+        0,
+        1,
+        16000,
+        16000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Punhal: tabela do leitor",
+      "obtido": [
+        1,
+        "1d6 Perfurante",
+        [
+          "Fineza",
+          "Longo Alcance 6/18 m"
+        ],
+        "—",
+        1.0,
+        [
+          16000
+        ]
+      ],
+      "esperado": [
+        1,
+        "1d6 Perfurante",
+        [
+          "Fineza",
+          "Longo Alcance 6/18 m"
+        ],
+        "—",
+        1,
+        [
+          16000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Punhal: distância preservada",
+      "obtido": [
+        6,
+        18
+      ],
+      "esperado": [
+        6,
+        18
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Punhal: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Punhal: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Sai: colunas da base",
+      "obtido": [
+        "Lâmina Curta",
+        "Treino simples",
+        1,
+        "1d6",
+        [
+          "Fineza",
+          "Par"
+        ],
+        0,
+        1,
+        16000,
+        16000
+      ],
+      "esperado": [
+        "Lâmina Curta",
+        "Treino simples",
+        1,
+        "1d6",
+        [
+          "Fineza",
+          "Par"
+        ],
+        0,
+        1,
+        16000,
+        16000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Sai: tabela do leitor",
+      "obtido": [
+        1,
+        "1d6 Perfurante",
+        [
+          "Fineza",
+          "Par"
+        ],
+        "—",
+        1.0,
+        [
+          16000
+        ]
+      ],
+      "esperado": [
+        1,
+        "1d6 Perfurante",
+        [
+          "Fineza",
+          "Par"
+        ],
+        "—",
+        1,
+        [
+          16000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Sai: distância preservada",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "caso": "Sai: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Sai: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Shuriken: colunas da base",
+      "obtido": [
+        "Arremesso",
+        "Treino simples",
+        1,
+        "1d4",
+        [
+          "Longo Alcance",
+          "Oculta",
+          "Par"
+        ],
+        0,
+        0.1,
+        8000,
+        8000
+      ],
+      "esperado": [
+        "Arremesso",
+        "Treino simples",
+        1,
+        "1d4",
+        [
+          "Longo Alcance",
+          "Oculta",
+          "Par"
+        ],
+        0,
+        0.1,
+        8000,
+        8000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Shuriken: tabela do leitor",
+      "obtido": [
+        1,
+        "1d4 Perfurante",
+        [
+          "Longo Alcance 6/18 m",
+          "Oculta",
+          "Par"
+        ],
+        "—",
+        0.1,
+        [
+          8000
+        ]
+      ],
+      "esperado": [
+        1,
+        "1d4 Perfurante",
+        [
+          "Longo Alcance 6/18 m",
+          "Oculta",
+          "Par"
+        ],
+        "—",
+        0.1,
+        [
+          8000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Shuriken: distância preservada",
+      "obtido": [
+        6,
+        18
+      ],
+      "esperado": [
+        6,
+        18
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Shuriken: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Shuriken: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Soqueira: colunas da base",
+      "obtido": [
+        "Manopla",
+        "Treino simples",
+        1,
+        "1d4",
+        [
+          "Oculta",
+          "Par",
+          "Vestida"
+        ],
+        0,
+        0.1,
+        8000,
+        8000
+      ],
+      "esperado": [
+        "Manopla",
+        "Treino simples",
+        1,
+        "1d4",
+        [
+          "Oculta",
+          "Par",
+          "Vestida"
+        ],
+        0,
+        0.1,
+        8000,
+        8000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Soqueira: tabela do leitor",
+      "obtido": [
+        1,
+        "1d4 Concussão",
+        [
+          "Vestida",
+          "Oculta",
+          "Par"
+        ],
+        "—",
+        0.1,
+        [
+          8000
+        ]
+      ],
+      "esperado": [
+        1,
+        "1d4 Concussão",
+        [
+          "Vestida",
+          "Oculta",
+          "Par"
+        ],
+        "—",
+        0.1,
+        [
+          8000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Soqueira: distância preservada",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "caso": "Soqueira: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Soqueira: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Taco: colunas da base",
+      "obtido": [
+        "Massa",
+        "Treino simples",
+        1,
+        "1d8",
+        [
+          "Oculta",
+          "Versátil"
+        ],
+        0,
+        0.1,
+        16000,
+        16000
+      ],
+      "esperado": [
+        "Massa",
+        "Treino simples",
+        1,
+        "1d8",
+        [
+          "Oculta",
+          "Versátil"
+        ],
+        0,
+        0.1,
+        16000,
+        16000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Taco: tabela do leitor",
+      "obtido": [
+        1,
+        "1d8 Concussão",
+        [
+          "Versátil",
+          "Oculta"
+        ],
+        "—",
+        0.1,
+        [
+          16000
+        ]
+      ],
+      "esperado": [
+        1,
+        "1d8 Concussão",
+        [
+          "Versátil",
+          "Oculta"
+        ],
+        "—",
+        0.1,
+        [
+          16000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Taco: distância preservada",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "caso": "Taco: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Taco: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tanto: colunas da base",
+      "obtido": [
+        "Lâmina Curta",
+        "Treino simples",
+        1,
+        "1d6",
+        [
+          "Fineza",
+          "Oculta"
+        ],
+        0,
+        0.1,
+        32000,
+        32000
+      ],
+      "esperado": [
+        "Lâmina Curta",
+        "Treino simples",
+        1,
+        "1d6",
+        [
+          "Fineza",
+          "Oculta"
+        ],
+        0,
+        0.1,
+        32000,
+        32000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Tanto: tabela do leitor",
+      "obtido": [
+        1,
+        "1d6 Cortante",
+        [
+          "Fineza",
+          "Oculta"
+        ],
+        "—",
+        0.1,
+        [
+          32000
+        ]
+      ],
+      "esperado": [
+        1,
+        "1d6 Cortante",
+        [
+          "Fineza",
+          "Oculta"
+        ],
+        "—",
+        0.1,
+        [
+          32000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Tanto: distância preservada",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "caso": "Tanto: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tanto: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tekko: colunas da base",
+      "obtido": [
+        "Manopla",
+        "Treino simples",
+        1,
+        "1d4",
+        [
+          "Oculta",
+          "Par",
+          "Vestida"
+        ],
+        0,
+        0.1,
+        8000,
+        8000
+      ],
+      "esperado": [
+        "Manopla",
+        "Treino simples",
+        1,
+        "1d4",
+        [
+          "Oculta",
+          "Par",
+          "Vestida"
+        ],
+        0,
+        0.1,
+        8000,
+        8000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Tekko: tabela do leitor",
+      "obtido": [
+        1,
+        "1d4 Concussão",
+        [
+          "Vestida",
+          "Par",
+          "Oculta"
+        ],
+        "—",
+        0.1,
+        [
+          8000
+        ]
+      ],
+      "esperado": [
+        1,
+        "1d4 Concussão",
+        [
+          "Vestida",
+          "Par",
+          "Oculta"
+        ],
+        "—",
+        0.1,
+        [
+          8000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Tekko: distância preservada",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "caso": "Tekko: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tekko: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tessen: colunas da base",
+      "obtido": [
+        "Arremesso",
+        "Treino simples",
+        1,
+        "1d4",
+        [
+          "Longo Alcance",
+          "Oculta",
+          "Vestida"
+        ],
+        0,
+        0.1,
+        8000,
+        8000
+      ],
+      "esperado": [
+        "Arremesso",
+        "Treino simples",
+        1,
+        "1d4",
+        [
+          "Longo Alcance",
+          "Oculta",
+          "Vestida"
+        ],
+        0,
+        0.1,
+        8000,
+        8000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Tessen: tabela do leitor",
+      "obtido": [
+        1,
+        "1d4 Concussão",
+        [
+          "Longo Alcance 6/18 m",
+          "Oculta",
+          "Vestida"
+        ],
+        "—",
+        0.1,
+        [
+          8000
+        ]
+      ],
+      "esperado": [
+        1,
+        "1d4 Concussão",
+        [
+          "Longo Alcance 6/18 m",
+          "Oculta",
+          "Vestida"
+        ],
+        "—",
+        0.1,
+        [
+          8000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Tessen: distância preservada",
+      "obtido": [
+        6,
+        18
+      ],
+      "esperado": [
+        6,
+        18
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Tessen: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tessen: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tonfa: colunas da base",
+      "obtido": [
+        "Porrete",
+        "Treino simples",
+        1,
+        "1d6",
+        [
+          "Par",
+          "Vestida"
+        ],
+        0,
+        0.1,
+        16000,
+        16000
+      ],
+      "esperado": [
+        "Porrete",
+        "Treino simples",
+        1,
+        "1d6",
+        [
+          "Par",
+          "Vestida"
+        ],
+        0,
+        0.1,
+        16000,
+        16000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Tonfa: tabela do leitor",
+      "obtido": [
+        1,
+        "1d6 Concussão",
+        [
+          "Par",
+          "Vestida"
+        ],
+        "—",
+        0.1,
+        [
+          16000
+        ]
+      ],
+      "esperado": [
+        1,
+        "1d6 Concussão",
+        [
+          "Par",
+          "Vestida"
+        ],
+        "—",
+        0.1,
+        [
+          16000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Tonfa: distância preservada",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "caso": "Tonfa: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tonfa: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Chicote: colunas da base",
+      "obtido": [
+        "Flexível",
+        "Treino marcial",
+        1,
+        "1d4",
+        [
+          "Alcance",
+          "Emaranha",
+          "Oculta"
+        ],
+        0,
+        0.1,
+        16000,
+        16000
+      ],
+      "esperado": [
+        "Flexível",
+        "Treino marcial",
+        1,
+        "1d4",
+        [
+          "Alcance",
+          "Emaranha",
+          "Oculta"
+        ],
+        0,
+        0.1,
+        16000,
+        16000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Chicote: tabela do leitor",
+      "obtido": [
+        1,
+        "1d4 Concussão",
+        [
+          "Alcance 3 m",
+          "Emaranha",
+          "Oculta"
+        ],
+        "—",
+        0.1,
+        [
+          16000
+        ]
+      ],
+      "esperado": [
+        1,
+        "1d4 Concussão",
+        [
+          "Alcance 3 m",
+          "Emaranha",
+          "Oculta"
+        ],
+        "—",
+        0.1,
+        [
+          16000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Chicote: distância preservada",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "caso": "Chicote: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Chicote: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Corrente: colunas da base",
+      "obtido": [
+        "Flexível",
+        "Treino marcial",
+        2,
+        "1d8",
+        [
+          "Alcance",
+          "Emaranha",
+          "Rompe"
+        ],
+        0,
+        2,
+        20000,
+        20000
+      ],
+      "esperado": [
+        "Flexível",
+        "Treino marcial",
+        2,
+        "1d8",
+        [
+          "Alcance",
+          "Emaranha",
+          "Rompe"
+        ],
+        0,
+        2,
+        20000,
+        20000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Corrente: tabela do leitor",
+      "obtido": [
+        2,
+        "1d8 Concussão",
+        [
+          "Alcance 3 m",
+          "Emaranha",
+          "Rompe"
+        ],
+        "—",
+        2.0,
+        [
+          20000
+        ]
+      ],
+      "esperado": [
+        2,
+        "1d8 Concussão",
+        [
+          "Alcance 3 m",
+          "Emaranha",
+          "Rompe"
+        ],
+        "—",
+        2,
+        [
+          20000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Corrente: distância preservada",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "caso": "Corrente: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Corrente: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Daikyū: colunas da base",
+      "obtido": [
+        "Yumi",
+        "Treino marcial",
+        2,
+        "1d10",
+        [
+          "Longo Alcance"
+        ],
+        0,
+        2,
+        60000,
+        60000
+      ],
+      "esperado": [
+        "Yumi",
+        "Treino marcial",
+        2,
+        "1d10",
+        [
+          "Longo Alcance"
+        ],
+        0,
+        2,
+        60000,
+        60000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Daikyū: tabela do leitor",
+      "obtido": [
+        2,
+        "1d10 Perfurante",
+        [
+          "Longo Alcance 45/180 m"
+        ],
+        "—",
+        2.0,
+        [
+          60000
+        ]
+      ],
+      "esperado": [
+        2,
+        "1d10 Perfurante",
+        [
+          "Longo Alcance 45/180 m"
+        ],
+        "—",
+        2,
+        [
+          60000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Daikyū: distância preservada",
+      "obtido": [
+        45,
+        180
+      ],
+      "esperado": [
+        45,
+        180
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Daikyū: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Daikyū: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Espada Longa: colunas da base",
+      "obtido": [
+        "Lâmina Longa",
+        "Treino marcial",
+        1,
+        "1d8",
+        [
+          "Rompe",
+          "Versátil"
+        ],
+        0,
+        1,
+        48000,
+        48000
+      ],
+      "esperado": [
+        "Lâmina Longa",
+        "Treino marcial",
+        1,
+        "1d8",
+        [
+          "Rompe",
+          "Versátil"
+        ],
+        0,
+        1,
+        48000,
+        48000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Espada Longa: tabela do leitor",
+      "obtido": [
+        1,
+        "1d8 Cortante",
+        [
+          "Versátil",
+          "Rompe"
+        ],
+        "—",
+        1.0,
+        [
+          48000
+        ]
+      ],
+      "esperado": [
+        1,
+        "1d8 Cortante",
+        [
+          "Versátil",
+          "Rompe"
+        ],
+        "—",
+        1,
+        [
+          48000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Espada Longa: distância preservada",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "caso": "Espada Longa: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Espada Longa: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Espadão: colunas da base",
+      "obtido": [
+        "Lâmina Longa",
+        "Treino marcial",
+        2,
+        "1d12",
+        [
+          "Alcance"
+        ],
+        3,
+        2,
+        60000,
+        60000
+      ],
+      "esperado": [
+        "Lâmina Longa",
+        "Treino marcial",
+        2,
+        "1d12",
+        [
+          "Alcance"
+        ],
+        3,
+        2,
+        60000,
+        60000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Espadão: tabela do leitor",
+      "obtido": [
+        2,
+        "1d12 Cortante",
+        [
+          "Alcance 3 m"
+        ],
+        "3",
+        2.0,
+        [
+          60000
+        ]
+      ],
+      "esperado": [
+        2,
+        "1d12 Cortante",
+        [
+          "Alcance 3 m"
+        ],
+        "3",
+        2,
+        [
+          60000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Espadão: distância preservada",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "caso": "Espadão: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Espadão: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Hankyū: colunas da base",
+      "obtido": [
+        "Yumi",
+        "Treino marcial",
+        2,
+        "1d8",
+        [
+          "Longo Alcance",
+          "Oculta"
+        ],
+        0,
+        2,
+        40000,
+        40000
+      ],
+      "esperado": [
+        "Yumi",
+        "Treino marcial",
+        2,
+        "1d8",
+        [
+          "Longo Alcance",
+          "Oculta"
+        ],
+        0,
+        2,
+        40000,
+        40000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Hankyū: tabela do leitor",
+      "obtido": [
+        2,
+        "1d8 Perfurante",
+        [
+          "Longo Alcance 24/96 m",
+          "Oculta"
+        ],
+        "—",
+        2.0,
+        [
+          40000
+        ]
+      ],
+      "esperado": [
+        2,
+        "1d8 Perfurante",
+        [
+          "Longo Alcance 24/96 m",
+          "Oculta"
+        ],
+        "—",
+        2,
+        [
+          40000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Hankyū: distância preservada",
+      "obtido": [
+        24,
+        96
+      ],
+      "esperado": [
+        24,
+        96
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Hankyū: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Hankyū: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Katana: colunas da base",
+      "obtido": [
+        "Lâmina Longa",
+        "Treino marcial",
+        1,
+        "1d8",
+        [
+          "Fineza",
+          "Versátil"
+        ],
+        0,
+        1,
+        48000,
+        48000
+      ],
+      "esperado": [
+        "Lâmina Longa",
+        "Treino marcial",
+        1,
+        "1d8",
+        [
+          "Fineza",
+          "Versátil"
+        ],
+        0,
+        1,
+        48000,
+        48000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Katana: tabela do leitor",
+      "obtido": [
+        1,
+        "1d8 Cortante",
+        [
+          "Versátil",
+          "Fineza"
+        ],
+        "—",
+        1.0,
+        [
+          48000
+        ]
+      ],
+      "esperado": [
+        1,
+        "1d8 Cortante",
+        [
+          "Versátil",
+          "Fineza"
+        ],
+        "—",
+        1,
+        [
+          48000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Katana: distância preservada",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "caso": "Katana: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Katana: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Lança: colunas da base",
+      "obtido": [
+        "Armas Longas",
+        "Treino marcial",
+        1,
+        "1d6",
+        [
+          "Alcance",
+          "Longo Alcance"
+        ],
+        0,
+        1,
+        16000,
+        16000
+      ],
+      "esperado": [
+        "Armas Longas",
+        "Treino marcial",
+        1,
+        "1d6",
+        [
+          "Alcance",
+          "Longo Alcance"
+        ],
+        0,
+        1,
+        16000,
+        16000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Lança: tabela do leitor",
+      "obtido": [
+        1,
+        "1d6 Perfurante",
+        [
+          "Alcance 3 m",
+          "Longo Alcance 6/18 m"
+        ],
+        "—",
+        1.0,
+        [
+          16000
+        ]
+      ],
+      "esperado": [
+        1,
+        "1d6 Perfurante",
+        [
+          "Alcance 3 m",
+          "Longo Alcance 6/18 m"
+        ],
+        "—",
+        1,
+        [
+          16000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Lança: distância preservada",
+      "obtido": [
+        6,
+        18
+      ],
+      "esperado": [
+        6,
+        18
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Lança: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Lança: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Machadinha: colunas da base",
+      "obtido": [
+        "Machado",
+        "Treino marcial",
+        1,
+        "1d6",
+        [
+          "Longo Alcance",
+          "Rompe"
+        ],
+        0,
+        1,
+        16000,
+        16000
+      ],
+      "esperado": [
+        "Machado",
+        "Treino marcial",
+        1,
+        "1d6",
+        [
+          "Longo Alcance",
+          "Rompe"
+        ],
+        0,
+        1,
+        16000,
+        16000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Machadinha: tabela do leitor",
+      "obtido": [
+        1,
+        "1d6 Cortante",
+        [
+          "Longo Alcance 6/18 m",
+          "Rompe"
+        ],
+        "—",
+        1.0,
+        [
+          16000
+        ]
+      ],
+      "esperado": [
+        1,
+        "1d6 Cortante",
+        [
+          "Longo Alcance 6/18 m",
+          "Rompe"
+        ],
+        "—",
+        1,
+        [
+          16000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Machadinha: distância preservada",
+      "obtido": [
+        6,
+        18
+      ],
+      "esperado": [
+        6,
+        18
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Machadinha: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Machadinha: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Machado: colunas da base",
+      "obtido": [
+        "Machado",
+        "Treino marcial",
+        1,
+        "1d8",
+        [
+          "Rompe"
+        ],
+        0,
+        1,
+        32000,
+        32000
+      ],
+      "esperado": [
+        "Machado",
+        "Treino marcial",
+        1,
+        "1d8",
+        [
+          "Rompe"
+        ],
+        0,
+        1,
+        32000,
+        32000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Machado: tabela do leitor",
+      "obtido": [
+        1,
+        "1d8 Cortante",
+        [
+          "Rompe"
+        ],
+        "—",
+        1.0,
+        [
+          32000
+        ]
+      ],
+      "esperado": [
+        1,
+        "1d8 Cortante",
+        [
+          "Rompe"
+        ],
+        "—",
+        1,
+        [
+          32000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Machado: distância preservada",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "caso": "Machado: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Machado: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Machado de Guerra: colunas da base",
+      "obtido": [
+        "Machado",
+        "Treino marcial",
+        2,
+        "1d12",
+        [
+          "Rompe",
+          "Talha",
+          "Volumosa"
+        ],
+        3,
+        2,
+        60000,
+        60000
+      ],
+      "esperado": [
+        "Machado",
+        "Treino marcial",
+        2,
+        "1d12",
+        [
+          "Rompe",
+          "Talha",
+          "Volumosa"
+        ],
+        3,
+        2,
+        60000,
+        60000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Machado de Guerra: tabela do leitor",
+      "obtido": [
+        2,
+        "1d12 Cortante",
+        [
+          "Rompe",
+          "Talha",
+          "Volumosa"
+        ],
+        "3",
+        2.0,
+        [
+          60000
+        ]
+      ],
+      "esperado": [
+        2,
+        "1d12 Cortante",
+        [
+          "Rompe",
+          "Talha",
+          "Volumosa"
+        ],
+        "3",
+        2,
+        [
+          60000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Machado de Guerra: distância preservada",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "caso": "Machado de Guerra: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Machado de Guerra: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Machete: colunas da base",
+      "obtido": [
+        "Lâmina Longa",
+        "Treino marcial",
+        1,
+        "1d8",
+        [
+          "Rompe"
+        ],
+        0,
+        1,
+        16000,
+        16000
+      ],
+      "esperado": [
+        "Lâmina Longa",
+        "Treino marcial",
+        1,
+        "1d8",
+        [
+          "Rompe"
+        ],
+        0,
+        1,
+        16000,
+        16000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Machete: tabela do leitor",
+      "obtido": [
+        1,
+        "1d8 Cortante",
+        [
+          "Rompe"
+        ],
+        "—",
+        1.0,
+        [
+          16000
+        ]
+      ],
+      "esperado": [
+        1,
+        "1d8 Cortante",
+        [
+          "Rompe"
+        ],
+        "—",
+        1,
+        [
+          16000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Machete: distância preservada",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "caso": "Machete: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Machete: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Manriki: colunas da base",
+      "obtido": [
+        "Flexível",
+        "Treino marcial",
+        1,
+        "1d6",
+        [
+          "Emaranha",
+          "Oculta"
+        ],
+        0,
+        0.1,
+        8000,
+        8000
+      ],
+      "esperado": [
+        "Flexível",
+        "Treino marcial",
+        1,
+        "1d6",
+        [
+          "Emaranha",
+          "Oculta"
+        ],
+        0,
+        0.1,
+        8000,
+        8000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Manriki: tabela do leitor",
+      "obtido": [
+        1,
+        "1d6 Concussão",
+        [
+          "Emaranha",
+          "Oculta"
+        ],
+        "—",
+        0.1,
+        [
+          8000
+        ]
+      ],
+      "esperado": [
+        1,
+        "1d6 Concussão",
+        [
+          "Emaranha",
+          "Oculta"
+        ],
+        "—",
+        0.1,
+        [
+          8000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Manriki: distância preservada",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "caso": "Manriki: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Manriki: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Naginata: colunas da base",
+      "obtido": [
+        "Armas Longas",
+        "Treino marcial",
+        2,
+        "1d10",
+        [
+          "Alcance",
+          "Rompe"
+        ],
+        3,
+        2,
+        36000,
+        36000
+      ],
+      "esperado": [
+        "Armas Longas",
+        "Treino marcial",
+        2,
+        "1d10",
+        [
+          "Alcance",
+          "Rompe"
+        ],
+        3,
+        2,
+        36000,
+        36000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Naginata: tabela do leitor",
+      "obtido": [
+        2,
+        "1d10 Cortante",
+        [
+          "Alcance 3 m",
+          "Rompe"
+        ],
+        "3",
+        2.0,
+        [
+          36000
+        ]
+      ],
+      "esperado": [
+        2,
+        "1d10 Cortante",
+        [
+          "Alcance 3 m",
+          "Rompe"
+        ],
+        "3",
+        2,
+        [
+          36000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Naginata: distância preservada",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "caso": "Naginata: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Naginata: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Nodachi: colunas da base",
+      "obtido": [
+        "Lâmina Longa",
+        "Treino marcial",
+        2,
+        "1d12",
+        [
+          "Alcance",
+          "Rompe",
+          "Volumosa"
+        ],
+        3,
+        2,
+        60000,
+        60000
+      ],
+      "esperado": [
+        "Lâmina Longa",
+        "Treino marcial",
+        2,
+        "1d12",
+        [
+          "Alcance",
+          "Rompe",
+          "Volumosa"
+        ],
+        3,
+        2,
+        60000,
+        60000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Nodachi: tabela do leitor",
+      "obtido": [
+        2,
+        "1d12 Cortante",
+        [
+          "Alcance 3 m",
+          "Rompe",
+          "Volumosa"
+        ],
+        "3",
+        2.0,
+        [
+          60000
+        ]
+      ],
+      "esperado": [
+        2,
+        "1d12 Cortante",
+        [
+          "Alcance 3 m",
+          "Rompe",
+          "Volumosa"
+        ],
+        "3",
+        2,
+        [
+          60000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Nodachi: distância preservada",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "caso": "Nodachi: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Nodachi: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Odachi: colunas da base",
+      "obtido": [
+        "Lâmina Longa",
+        "Treino marcial",
+        2,
+        "1d12",
+        [
+          "Alcance",
+          "Embainhada",
+          "Talha"
+        ],
+        3,
+        2,
+        90000,
+        90000
+      ],
+      "esperado": [
+        "Lâmina Longa",
+        "Treino marcial",
+        2,
+        "1d12",
+        [
+          "Alcance",
+          "Embainhada",
+          "Talha"
+        ],
+        3,
+        2,
+        90000,
+        90000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Odachi: tabela do leitor",
+      "obtido": [
+        2,
+        "1d12 Cortante",
+        [
+          "Alcance 3 m",
+          "Talha",
+          "Embainhada"
+        ],
+        "3",
+        2.0,
+        [
+          90000
+        ]
+      ],
+      "esperado": [
+        2,
+        "1d12 Cortante",
+        [
+          "Alcance 3 m",
+          "Talha",
+          "Embainhada"
+        ],
+        "3",
+        2,
+        [
+          90000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Odachi: distância preservada",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "caso": "Odachi: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Odachi: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Rapieira: colunas da base",
+      "obtido": [
+        "Lâmina Longa",
+        "Treino marcial",
+        1,
+        "1d6",
+        [
+          "Fineza",
+          "Talha"
+        ],
+        0,
+        1,
+        32000,
+        32000
+      ],
+      "esperado": [
+        "Lâmina Longa",
+        "Treino marcial",
+        1,
+        "1d6",
+        [
+          "Fineza",
+          "Talha"
+        ],
+        0,
+        1,
+        32000,
+        32000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Rapieira: tabela do leitor",
+      "obtido": [
+        1,
+        "1d6 Perfurante",
+        [
+          "Fineza",
+          "Talha"
+        ],
+        "—",
+        1.0,
+        [
+          32000
+        ]
+      ],
+      "esperado": [
+        1,
+        "1d6 Perfurante",
+        [
+          "Fineza",
+          "Talha"
+        ],
+        "—",
+        1,
+        [
+          32000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Rapieira: distância preservada",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "caso": "Rapieira: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Rapieira: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Wakizashi: colunas da base",
+      "obtido": [
+        "Lâmina Longa",
+        "Treino marcial",
+        1,
+        "1d8",
+        [
+          "Oculta"
+        ],
+        0,
+        0.1,
+        32000,
+        32000
+      ],
+      "esperado": [
+        "Lâmina Longa",
+        "Treino marcial",
+        1,
+        "1d8",
+        [
+          "Oculta"
+        ],
+        0,
+        0.1,
+        32000,
+        32000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Wakizashi: tabela do leitor",
+      "obtido": [
+        1,
+        "1d8 Cortante",
+        [
+          "Oculta"
+        ],
+        "—",
+        0.1,
+        [
+          32000
+        ]
+      ],
+      "esperado": [
+        1,
+        "1d8 Cortante",
+        [
+          "Oculta"
+        ],
+        "—",
+        0.1,
+        [
+          32000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Wakizashi: distância preservada",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "caso": "Wakizashi: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Wakizashi: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Yari: colunas da base",
+      "obtido": [
+        "Armas Longas",
+        "Treino marcial",
+        2,
+        "1d10",
+        [
+          "Alcance",
+          "Talha"
+        ],
+        3,
+        2,
+        36000,
+        36000
+      ],
+      "esperado": [
+        "Armas Longas",
+        "Treino marcial",
+        2,
+        "1d10",
+        [
+          "Alcance",
+          "Talha"
+        ],
+        3,
+        2,
+        36000,
+        36000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Yari: tabela do leitor",
+      "obtido": [
+        2,
+        "1d10 Perfurante",
+        [
+          "Alcance 3 m",
+          "Talha"
+        ],
+        "3",
+        2.0,
+        [
+          36000
+        ]
+      ],
+      "esperado": [
+        2,
+        "1d10 Perfurante",
+        [
+          "Alcance 3 m",
+          "Talha"
+        ],
+        "3",
+        2,
+        [
+          36000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Yari: distância preservada",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "caso": "Yari: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Yari: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Espingarda: colunas da base",
+      "obtido": [
+        "Arma de Fogo",
+        "Treino de fogo",
+        2,
+        "2d8",
+        [
+          "Longo Alcance",
+          "Munição",
+          "Rompe"
+        ],
+        1,
+        2,
+        300000,
+        150000
+      ],
+      "esperado": [
+        "Arma de Fogo",
+        "Treino de fogo",
+        2,
+        "2d8",
+        [
+          "Longo Alcance",
+          "Munição",
+          "Rompe"
+        ],
+        1,
+        2,
+        300000,
+        150000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Espingarda: tabela do leitor",
+      "obtido": [
+        2,
+        "2d8 Perfurante",
+        [
+          "Longo Alcance 9/27 m",
+          "Munição",
+          "Rompe"
+        ],
+        "1",
+        2.0,
+        [
+          150000,
+          300000
+        ]
+      ],
+      "esperado": [
+        2,
+        "2d8 Perfurante",
+        [
+          "Longo Alcance 9/27 m",
+          "Munição",
+          "Rompe"
+        ],
+        "1",
+        2,
+        [
+          150000,
+          300000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Espingarda: distância preservada",
+      "obtido": [
+        9,
+        27
+      ],
+      "esperado": [
+        9,
+        27
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Espingarda: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Espingarda: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Metralhadora Pesada: colunas da base",
+      "obtido": [
+        "Arma de Fogo",
+        "Treino de fogo",
+        2,
+        "2d10",
+        [
+          "Longo Alcance",
+          "Munição",
+          "Rompe",
+          "Volumosa"
+        ],
+        3,
+        2,
+        900000,
+        450000
+      ],
+      "esperado": [
+        "Arma de Fogo",
+        "Treino de fogo",
+        2,
+        "2d10",
+        [
+          "Longo Alcance",
+          "Munição",
+          "Rompe",
+          "Volumosa"
+        ],
+        3,
+        2,
+        900000,
+        450000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Metralhadora Pesada: tabela do leitor",
+      "obtido": [
+        2,
+        "2d10 Perfurante",
+        [
+          "Longo Alcance 24/72 m",
+          "Munição",
+          "Rompe",
+          "Volumosa"
+        ],
+        "3",
+        2.0,
+        [
+          450000,
+          900000
+        ]
+      ],
+      "esperado": [
+        2,
+        "2d10 Perfurante",
+        [
+          "Longo Alcance 24/72 m",
+          "Munição",
+          "Rompe",
+          "Volumosa"
+        ],
+        "3",
+        2,
+        [
+          450000,
+          900000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Metralhadora Pesada: distância preservada",
+      "obtido": [
+        24,
+        72
+      ],
+      "esperado": [
+        24,
+        72
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Metralhadora Pesada: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Metralhadora Pesada: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Pistola: colunas da base",
+      "obtido": [
+        "Arma de Fogo",
+        "Treino de fogo",
+        1,
+        "1d10",
+        [
+          "Longo Alcance",
+          "Munição",
+          "Oculta"
+        ],
+        0,
+        0.1,
+        250000,
+        125000
+      ],
+      "esperado": [
+        "Arma de Fogo",
+        "Treino de fogo",
+        1,
+        "1d10",
+        [
+          "Longo Alcance",
+          "Munição",
+          "Oculta"
+        ],
+        0,
+        0.1,
+        250000,
+        125000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Pistola: tabela do leitor",
+      "obtido": [
+        1,
+        "1d10 Perfurante",
+        [
+          "Longo Alcance 9/27 m",
+          "Munição",
+          "Oculta"
+        ],
+        "—",
+        0.1,
+        [
+          125000,
+          250000
+        ]
+      ],
+      "esperado": [
+        1,
+        "1d10 Perfurante",
+        [
+          "Longo Alcance 9/27 m",
+          "Munição",
+          "Oculta"
+        ],
+        "—",
+        0.1,
+        [
+          125000,
+          250000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Pistola: distância preservada",
+      "obtido": [
+        9,
+        27
+      ],
+      "esperado": [
+        9,
+        27
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Pistola: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Pistola: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Revólver: colunas da base",
+      "obtido": [
+        "Arma de Fogo",
+        "Treino de fogo",
+        1,
+        "1d10",
+        [
+          "Longo Alcance",
+          "Munição",
+          "Oculta"
+        ],
+        0,
+        0.1,
+        250000,
+        125000
+      ],
+      "esperado": [
+        "Arma de Fogo",
+        "Treino de fogo",
+        1,
+        "1d10",
+        [
+          "Longo Alcance",
+          "Munição",
+          "Oculta"
+        ],
+        0,
+        0.1,
+        250000,
+        125000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Revólver: tabela do leitor",
+      "obtido": [
+        1,
+        "1d10 Perfurante",
+        [
+          "Longo Alcance 12/36 m",
+          "Munição",
+          "Oculta"
+        ],
+        "—",
+        0.1,
+        [
+          125000,
+          250000
+        ]
+      ],
+      "esperado": [
+        1,
+        "1d10 Perfurante",
+        [
+          "Longo Alcance 12/36 m",
+          "Munição",
+          "Oculta"
+        ],
+        "—",
+        0.1,
+        [
+          125000,
+          250000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Revólver: distância preservada",
+      "obtido": [
+        12,
+        36
+      ],
+      "esperado": [
+        12,
+        36
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Revólver: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Revólver: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Rifle: colunas da base",
+      "obtido": [
+        "Arma de Fogo",
+        "Treino de fogo",
+        2,
+        "2d8",
+        [
+          "Longo Alcance",
+          "Munição",
+          "Talha"
+        ],
+        1,
+        2,
+        350000,
+        175000
+      ],
+      "esperado": [
+        "Arma de Fogo",
+        "Treino de fogo",
+        2,
+        "2d8",
+        [
+          "Longo Alcance",
+          "Munição",
+          "Talha"
+        ],
+        1,
+        2,
+        350000,
+        175000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Rifle: tabela do leitor",
+      "obtido": [
+        2,
+        "2d8 Perfurante",
+        [
+          "Longo Alcance 24/72 m",
+          "Munição",
+          "Talha"
+        ],
+        "1",
+        2.0,
+        [
+          175000,
+          350000
+        ]
+      ],
+      "esperado": [
+        2,
+        "2d8 Perfurante",
+        [
+          "Longo Alcance 24/72 m",
+          "Munição",
+          "Talha"
+        ],
+        "1",
+        2,
+        [
+          175000,
+          350000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Rifle: distância preservada",
+      "obtido": [
+        24,
+        72
+      ],
+      "esperado": [
+        24,
+        72
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Rifle: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Rifle: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Rifle de Precisão: colunas da base",
+      "obtido": [
+        "Arma de Fogo",
+        "Treino de fogo",
+        2,
+        "2d10",
+        [
+          "Longo Alcance",
+          "Munição"
+        ],
+        3,
+        2,
+        600000,
+        300000
+      ],
+      "esperado": [
+        "Arma de Fogo",
+        "Treino de fogo",
+        2,
+        "2d10",
+        [
+          "Longo Alcance",
+          "Munição"
+        ],
+        3,
+        2,
+        600000,
+        300000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Rifle de Precisão: tabela do leitor",
+      "obtido": [
+        2,
+        "2d10 Perfurante",
+        [
+          "Longo Alcance 24/72 m",
+          "Munição"
+        ],
+        "3",
+        2.0,
+        [
+          300000,
+          600000
+        ]
+      ],
+      "esperado": [
+        2,
+        "2d10 Perfurante",
+        [
+          "Longo Alcance 24/72 m",
+          "Munição"
+        ],
+        "3",
+        2,
+        [
+          300000,
+          600000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Rifle de Precisão: distância preservada",
+      "obtido": [
+        24,
+        72
+      ],
+      "esperado": [
+        24,
+        72
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Rifle de Precisão: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Rifle de Precisão: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Submetralhadora: colunas da base",
+      "obtido": [
+        "Arma de Fogo",
+        "Treino de fogo",
+        2,
+        "2d6",
+        [
+          "Longo Alcance",
+          "Munição",
+          "Oculta",
+          "Par"
+        ],
+        0,
+        2,
+        400000,
+        200000
+      ],
+      "esperado": [
+        "Arma de Fogo",
+        "Treino de fogo",
+        2,
+        "2d6",
+        [
+          "Longo Alcance",
+          "Munição",
+          "Oculta",
+          "Par"
+        ],
+        0,
+        2,
+        400000,
+        200000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Submetralhadora: tabela do leitor",
+      "obtido": [
+        2,
+        "2d6 Perfurante",
+        [
+          "Longo Alcance 15/45 m",
+          "Munição",
+          "Par",
+          "Oculta"
+        ],
+        "—",
+        2.0,
+        [
+          200000,
+          400000
+        ]
+      ],
+      "esperado": [
+        2,
+        "2d6 Perfurante",
+        [
+          "Longo Alcance 15/45 m",
+          "Munição",
+          "Par",
+          "Oculta"
+        ],
+        "—",
+        2,
+        [
+          200000,
+          400000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Submetralhadora: distância preservada",
+      "obtido": [
+        15,
+        45
+      ],
+      "esperado": [
+        15,
+        45
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Submetralhadora: tipo físico válido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Submetralhadora: medidas múltiplas de 1,5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Oito correções de alcance",
+      "obtido": 8,
+      "esperado": 8,
+      "ok": true
+    },
+    {
+      "caso": "Treinos preservados",
+      "obtido": {
+        "Treino simples": 26,
+        "Treino marcial": 19,
+        "Treino de fogo": 7
+      },
+      "esperado": {
+        "Treino simples": 26,
+        "Treino marcial": 19,
+        "Treino de fogo": 7
+      },
+      "ok": true
+    },
+    {
+      "caso": "Oráculo d6",
+      "obtido": "7/2",
+      "esperado": "7/2",
+      "ok": true
+    },
+    {
+      "caso": "Oráculo Par d6",
+      "obtido": "161/36",
+      "esperado": "161/36",
+      "ok": true
+    },
+    {
+      "caso": "Par multidados 2d6",
+      "obtido": "5425/648",
+      "esperado": "5425/648",
+      "ok": true
+    },
+    {
+      "caso": "Caso conhecido: revólver supera pistola no alcance",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Munição: somente dois Volumes alterados",
+      "obtido": [
+        [
+          "Item",
+          "Armas compatíveis",
+          "Conteúdo",
+          "Preço",
+          "Volume"
+        ],
+        [
+          "---",
+          "---",
+          "---",
+          "---",
+          "---"
+        ],
+        [
+          "Aljava de flechas",
+          "Hankyū e Daikyū",
+          "20 flechas",
+          "¥3.000",
+          "0,2"
+        ],
+        [
+          "Estojo de virotes",
+          "Besta e Besta de Uma Mão",
+          "20 virotes",
+          "¥3.000",
+          "0,2"
+        ],
+        [
+          "Arma e carga correspondente",
+          "Ataques por carga",
+          "Preço",
+          "Volume"
+        ],
+        [
+          "---",
+          "---",
+          "---",
+          "---"
+        ],
+        [
+          "Pistola: carregador",
+          "2",
+          "¥1.000",
+          "0,1"
+        ],
+        [
+          "Revólver: conjunto de cartuchos",
+          "2",
+          "¥1.000",
+          "0,1"
+        ],
+        [
+          "Espingarda: conjunto de cartuchos",
+          "2",
+          "¥1.000",
+          "0,1"
+        ],
+        [
+          "Rifle: carregador",
+          "3",
+          "¥1.500",
+          "0,1"
+        ],
+        [
+          "Submetralhadora: carregador",
+          "3",
+          "¥1.500",
+          "0,1"
+        ],
+        [
+          "Rifle de Precisão: carregador",
+          "2",
+          "¥2.000",
+          "0,1"
+        ],
+        [
+          "Metralhadora Pesada: caixa de munição",
+          "4",
+          "¥4.000",
+          "0,2"
+        ]
+      ],
+      "esperado": [
+        [
+          "Item",
+          "Armas compatíveis",
+          "Conteúdo",
+          "Preço",
+          "Volume"
+        ],
+        [
+          "---",
+          "---",
+          "---",
+          "---",
+          "---"
+        ],
+        [
+          "Aljava de flechas",
+          "Hankyū e Daikyū",
+          "20 flechas",
+          "¥3.000",
+          "0,2"
+        ],
+        [
+          "Estojo de virotes",
+          "Besta e Besta de Uma Mão",
+          "20 virotes",
+          "¥3.000",
+          "0,2"
+        ],
+        [
+          "Arma e carga correspondente",
+          "Ataques por carga",
+          "Preço",
+          "Volume"
+        ],
+        [
+          "---",
+          "---",
+          "---",
+          "---"
+        ],
+        [
+          "Pistola: carregador",
+          "2",
+          "¥1.000",
+          "0,1"
+        ],
+        [
+          "Revólver: conjunto de cartuchos",
+          "2",
+          "¥1.000",
+          "0,1"
+        ],
+        [
+          "Espingarda: conjunto de cartuchos",
+          "2",
+          "¥1.000",
+          "0,1"
+        ],
+        [
+          "Rifle: carregador",
+          "3",
+          "¥1.500",
+          "0,1"
+        ],
+        [
+          "Submetralhadora: carregador",
+          "3",
+          "¥1.500",
+          "0,1"
+        ],
+        [
+          "Rifle de Precisão: carregador",
+          "2",
+          "¥2.000",
+          "0,1"
+        ],
+        [
+          "Metralhadora Pesada: caixa de munição",
+          "4",
+          "¥4.000",
+          "0,2"
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Sem panes: besta três oportunidades por turno",
+      "obtido": 7.0,
+      "esperado": 7.0,
+      "ok": true
+    },
+    {
+      "caso": "Pistola + traje + duas reservas",
+      "obtido": 0.4,
+      "esperado": 0.4,
+      "ok": true
+    },
+    {
+      "caso": "Conservação e recarga anteriores permanecem válidas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Equipamento: só Alcance alterado",
+      "obtido": "<!-- page:equipamento|Equipamento -->\n# Equipamento\n\nAntes de entrar numa missão, escolha o que vai levar e anote onde cada item está: vestido, na mão, preso ao cinto ou guardado na mochila. Durante uma luta, essa posição determina o que você consegue alcançar e quais mãos estão disponíveis.\n\nEste trecho ensina a usar os itens da ficha. As tabelas de armas, uniformes, escudos e preços ficam no catálogo de Equipamento; os ataques seguem o capítulo de Combate. Para pegar ou trocar um item, consulte [Sacar e guardar](#manipular).\n\n## Características das armas\n\n| Campo | O que consultar |\n|---|---|\n| Categoria | A família em que a arma está incluída. O treino vale para a categoria inteira. |\n| Mãos | Quantas mãos são necessárias para atacar com ela. |\n| Dado | O dano próprio da arma. Atributo e outros acréscimos seguem suas regras. |\n| Propriedades | Benefícios e restrições, explicados em [Propriedades](#propriedades). |\n| Requer Força | O valor mínimo de Força para empunhar sem a penalidade abaixo. |\n| Volume | Quanto o item ocupa na sua capacidade de carga. |\n\n## Treino e Força\n\n**Sem treino na categoria**, você tem desvantagem nos ataques com aquela arma. Consulte as categorias treinadas na sua ficha.\n\n**Sem a Força exigida**, seu deslocamento cai pela metade e você não soma Destreza à Defesa enquanto empunhar a arma. Essa penalidade e a falta de treino podem ocorrer juntas. Carregá-la guardada conta para a carga, mas não é empunhá-la.\n\nFineza permite usar Destreza no ataque corpo a corpo e no dano, sem dispensar um requisito de Força.\n\n> **Exemplo:** Rina tem Destreza 4, Força 0 e treino em Lâmina Longa. Sua Katana não exige Força e tem Fineza: ela pode usá-la com Destreza sem essas penalidades. Um Espadão exige Força 3; o treino na categoria não elimina essa exigência.\n\n## Carga\n\nSome o Volume de tudo que carrega, inclusive itens vestidos e empunhados. Cada item **leve vale 0,1**, sem arredondar a soma. Confira o limite e o transporte de criaturas na seção Carga de Movimento e Carga.\n\nA propriedade Volumosa é uma restrição de uso, explicada em [Armas escondidas](#oculta). Use o Volume impresso na ficha do item, sem cobrar um acréscimo pelo nome da propriedade.\n\n<!-- page:manipular|Sacar e guardar -->\n# Sacar e guardar\n\n**Durante seu turno, você pode fazer uma manipulação simples de item gratuitamente.** Sacar uma arma, guardar um item, recolher algo solto ao seu alcance, abrir uma porta destrancada ou acionar um interruptor acessível usam essa mesma oportunidade.\n\nDepois dela, **cada nova manipulação simples exige uma Ação de Movimento inteira**. Se já usou parte dessa ação para se deslocar, não pode gastar o restante como se ela ainda estivesse inteira. A conversão de ações segue as regras do turno.\n\n## Trocar de arma\n\nGuardar uma arma e sacar outra são duas manipulações. **Largar um item é gratuito e não conta como guardar.** O item fica onde caiu; recolhê-lo depois conta como uma nova manipulação.\n\n| Situação no começo do turno | Escolha e custo |\n|---|---|\n| Arma na mão; quer trocá-la | Guarda de graça e saca a outra com Movimento inteiro. |\n| Arma na mão; aceita deixá-la no chão | Larga de graça e usa a manipulação gratuita para sacar a outra. |\n| Arma no chão ao alcance; mão livre | Recolhe com a manipulação gratuita, se ainda a tiver. |\n| Precisa abrir uma porta e sacar | Uma das manipulações é gratuita; a outra exige Movimento inteiro. |\n\n## Mãos disponíveis\n\nVocê precisa alcançar o item e ter as mãos necessárias para manejá-lo. Sacar uma arma não permite retirar um objeto de uma mão resistente: isso exige a manobra ou habilidade apropriada.\n\nPode sustentar uma arma de duas mãos com uma só enquanto usa a outra para uma tarefa. Para atacar com ela, precisa voltar a usar ambas. Soltar ou recolocar a mão na mesma arma não conta como sacar; isso não permite realizar ao mesmo tempo uma tarefa que ocupe essa mão. Uma habilidade com exigência de mão livre continua exigindo que ela esteja livre no momento indicado.\n\n> **Exemplo:** Mei guarda uma faca com sua manipulação gratuita e saca um Kunai usando a Ação de Movimento inteira. Ainda pode atacar se tiver sua Ação Padrão disponível. Se já tivesse usado o Movimento para andar, precisaria obter outra ação por conversão ou esperar para sacar.\n\nFora do seu turno, uma Reação ou habilidade só permite as manipulações incluídas em seu próprio efeito. Você não recebe outra manipulação gratuita a cada turno alheio.\n\n<!-- page:objetos|Usar objetos -->\n# Usar objetos\n\nUma lanterna ilumina, uma corda prende e um pé de cabra ajuda a fazer força. Declare o que pretende fazer com o item; o mestre confere se ele serve para a tarefa e se você consegue usá-lo naquela posição.\n\n## Ação e teste\n\nUma manipulação simples segue [Sacar e guardar](#manipular). Uma tarefa que exige esforço, cuidado ou uma sequência de movimentos usa **Usar objeto, uma Ação Padrão**. Se a tarefa durar mais de um turno, o mestre informa o tempo necessário antes da tentativa.\n\n**Só faça teste quando houver incerteza e uma consequência para a falha.** O mestre indica a perícia e a CD antes da rolagem. A ação paga o tempo da tentativa; o teste determina se ela funciona. Ter a ferramenta necessária não concede vantagem ou sucesso automático, a menos que a regra dela diga isso.\n\n| Tarefa | Resolução |\n|---|---|\n| Acionar uma lanterna já na mão | Manipulação simples. Sem teste em condições normais. |\n| Abrir uma porta destrancada e livre | Manipulação simples. |\n| Forçar uma porta emperrada com um pé de cabra | Usar objeto e o teste apropriado ao obstáculo. |\n| Examinar uma gaveta em busca de uma chave | Vasculhar. Abrir a gaveta faz parte dessa busca. |\n| Ativar um item com custo próprio | Pagar o custo indicado pelo item. |\n\nPreparar o equipamento pode exigir uma manipulação antes da tarefa. Abrir ou mover algo que seja parte direta do procedimento já pago não cobra outra ação só por envolver a mão. Vasculhar uma gaveta não exige pagar separadamente para abrir cada compartimento examinado.\n\n## Falha e repetição\n\nAntes do teste, o mestre explica o risco perceptível: perder tempo, fazer barulho ou danificar uma peça frágil, por exemplo. A falha consome a ação e aplica a consequência estabelecida. Repetir uma tentativa exige a ação novamente; fora de combate, uma nova abordagem, informação ou consequência pelo tempo gasto deve justificar outro teste.\n\n> **Exemplo:** Kaori já segura um pé de cabra. Quer abrir a porta emperrada antes de o perseguidor chegar. O mestre pede Atletismo CD 14 e avisa que cada tentativa custa uma Ação Padrão e faz barulho. Com total 12, ela falha e a porta permanece fechada; não recebe outra rolagem gratuita naquele turno.\n\n## Ferramentas amaldiçoadas e objetos resistentes\n\nUma ferramenta amaldiçoada segue sua ficha ao ser ativada. Usar objeto não substitui o custo de um feitiço, tratamento, técnica ou habilidade.\n\nAtacar um objeto usa as regras de ataque. O mestre precisa definir quais golpes podem danificá-lo e seus valores de resistência antes da resolução. Rompe concede a vantagem descrita em [Propriedades](#propriedades), sem permitir destruir qualquer material com um único acerto.\n\n<!-- page:propriedades|Propriedades -->\n# Propriedades\n\nAs propriedades modificam o uso da arma. Elas valem quando a arma é utilizada no ataque ou procedimento correspondente; carregar outra arma guardada não acrescenta as propriedades dela ao golpe.\n\n| Propriedade | Efeito |\n|---|---|\n| Fineza | Em ataques corpo a corpo, pode usar Destreza no lugar de Força no acerto e no dano. |\n| Versátil | Ao atacar com as duas mãos, aumenta o dado: d6 para d8, d8 para d10 ou d10 para d12. |\n| Par | Role duas vezes os dados de dano próprios da arma e use o conjunto de maior soma. Aplique os demais acréscimos uma única vez. |\n| Alcance | O alcance corpo a corpo da arma é 3 m. Sem essa propriedade, o alcance comum é 1,5 m. |\n| Longo Alcance | Permite o disparo ou arremesso indicado pela arma. Use suas faixas normal e longa. |\n| Duas mãos | Exige ambas as mãos para atacar. Aparece como 2 na coluna Mãos. |\n| Vestida | A arma equipada não ocupa a mão. Outros objetos e tarefas ainda podem ocupá-la. |\n| Emaranha | Permite executar Agarrar sem largar a arma. Mantém o teste, o custo e os limites da manobra. |\n| Rompe | Concede vantagem nos ataques contra objetos e estruturas que a arma possa danificar. |\n| Talha | Impõe −1 ao Bloquear feito contra o ataque dessa arma. |\n| Oculta | Permite esconder a arma nas vestes ou junto ao corpo. Veja [Armas escondidas](#oculta). |\n| Munição | Exige recarga. O procedimento, a capacidade e os suprimentos estão em Munição. |\n\n## Par e crítico\n\nOs dois conjuntos de Par incluem somente os dados próprios da arma. Em um crítico, dobre esses dados antes de formar os conjuntos. Dados adicionais seguem suas próprias regras e não entram na escolha de Par.\n\n> **Exemplo:** com uma Kama de d6 e Força 3, Mei rola 2 e 5, escolhe 5 e soma 3: 8 de dano, antes de outros efeitos. Com uma arma de 2d6 e Par, rolaria dois conjuntos de 2d6 e escolheria a maior soma. Em um crítico que dobre esses dados, seriam dois conjuntos de 4d6.\n\n## Ataques adicionais\n\nPar não concede outro ataque, e Volume leve não concede um ataque de Ação Bônus. Arremessos seguem os atributos de acerto e dano do capítulo de Combate.\n\n<!-- page:oculta|Armas escondidas -->\n# Armas escondidas\n\n**Oculta** permite acomodar a arma nas vestes ou junto ao corpo sem deixá-la evidente. Você precisa de um lugar capaz de encobri-la. Preparar esse esconderijo sem observadores e sem pressão dispensa teste; escondê-la de alguém que possa perceber a manobra ou descobri-la numa inspeção exige resolver a oposição abaixo.\n\nA propriedade esconde a arma, não o portador. Ela não concede vantagem no ataque nem mantém você escondido ao atacar.\n\n## Observação e revista\n\nQuando houver risco de descoberta, faça **Prestidigitação** e guarde o total enquanto o esconderijo permanecer igual. Se a arma foi escondida sem teste, role na primeira situação em que a descoberta se tornar incerta. Essa rolagem resolve o preparo anterior, sem cobrar uma nova ação naquele momento.\n\nContra quem apenas observa, compare o total com **10 + bônus de Percepção** de cada observador que tenha acesso aos sinais. Igualar a CD basta para esconder a arma dele. Aplique os ajustes de luz e sentidos da seção Percepção; sem acesso ao sinal, não há descoberta por esse sentido. Quem examina o corpo, as vestes ou a bagagem usa **Vasculhar**, com Investigação e Ação Padrão em combate. Igualar ou superar o total guardado descobre a arma.\n\nSe a busca expõe diretamente o esconderijo, a descoberta é automática. Uma inspeção que só examine a mochila não encontra, por essa busca, uma arma escondida no casaco. Oculta não suprime energia amaldiçoada.\n\nReutilize o resultado enquanto o esconderijo permanecer igual. Uma busca não concede outro teste gratuito a quem escondeu a arma. Esconder a arma novamente de um observador que a viu exige uma nova oportunidade real, com o custo da manipulação e um novo teste.\n\n> **Exemplo:** Rina esconde um Tanto no casaco. Obtém 15 em Prestidigitação. Um vigia com Percepção +4 tem CD 14 e não o nota. Ao revistar o casaco, consegue Investigação 15 e encontra a arma. Rina continua visível durante toda a cena: só a arma estava escondida.\n\n## Outras armas e restrições\n\nSem Oculta, você ainda pode guardar uma arma num recipiente que realmente a comporte. Isso não permite escondê-la junto ao corpo nas mesmas condições. Armas Volumosas não podem ser escondidas dessa maneira.\n\n**Volumosa:** não pode ser escondida e atrapalha em espaços apertados. Se o lugar não permite manejar a arma, você não pode atacar com ela dali. Se houver passagem suficiente para se espremer, aplique as regras de passagens estreitas, sem acrescentar outra penalidade pelo mesmo aperto.\n\n**Embainhada:** sacar sozinho exige uma Ação de Movimento inteira. No turno dele, com a arma ao alcance de ambos, um aliado pode gastar a própria manipulação para ajudar; você precisa ter as mãos disponíveis para recebê-la. A ajuda não concede um ataque e não pode reutilizar uma manipulação já gasta.\n",
+      "esperado": "<!-- page:equipamento|Equipamento -->\n# Equipamento\n\nAntes de entrar numa missão, escolha o que vai levar e anote onde cada item está: vestido, na mão, preso ao cinto ou guardado na mochila. Durante uma luta, essa posição determina o que você consegue alcançar e quais mãos estão disponíveis.\n\nEste trecho ensina a usar os itens da ficha. As tabelas de armas, uniformes, escudos e preços ficam no catálogo de Equipamento; os ataques seguem o capítulo de Combate. Para pegar ou trocar um item, consulte [Sacar e guardar](#manipular).\n\n## Características das armas\n\n| Campo | O que consultar |\n|---|---|\n| Categoria | A família em que a arma está incluída. O treino vale para a categoria inteira. |\n| Mãos | Quantas mãos são necessárias para atacar com ela. |\n| Dado | O dano próprio da arma. Atributo e outros acréscimos seguem suas regras. |\n| Propriedades | Benefícios e restrições, explicados em [Propriedades](#propriedades). |\n| Requer Força | O valor mínimo de Força para empunhar sem a penalidade abaixo. |\n| Volume | Quanto o item ocupa na sua capacidade de carga. |\n\n## Treino e Força\n\n**Sem treino na categoria**, você tem desvantagem nos ataques com aquela arma. Consulte as categorias treinadas na sua ficha.\n\n**Sem a Força exigida**, seu deslocamento cai pela metade e você não soma Destreza à Defesa enquanto empunhar a arma. Essa penalidade e a falta de treino podem ocorrer juntas. Carregá-la guardada conta para a carga, mas não é empunhá-la.\n\nFineza permite usar Destreza no ataque corpo a corpo e no dano, sem dispensar um requisito de Força.\n\n> **Exemplo:** Rina tem Destreza 4, Força 0 e treino em Lâmina Longa. Sua Katana não exige Força e tem Fineza: ela pode usá-la com Destreza sem essas penalidades. Um Espadão exige Força 3; o treino na categoria não elimina essa exigência.\n\n## Carga\n\nSome o Volume de tudo que carrega, inclusive itens vestidos e empunhados. Cada item **leve vale 0,1**, sem arredondar a soma. Confira o limite e o transporte de criaturas na seção Carga de Movimento e Carga.\n\nA propriedade Volumosa é uma restrição de uso, explicada em [Armas escondidas](#oculta). Use o Volume impresso na ficha do item, sem cobrar um acréscimo pelo nome da propriedade.\n\n<!-- page:manipular|Sacar e guardar -->\n# Sacar e guardar\n\n**Durante seu turno, você pode fazer uma manipulação simples de item gratuitamente.** Sacar uma arma, guardar um item, recolher algo solto ao seu alcance, abrir uma porta destrancada ou acionar um interruptor acessível usam essa mesma oportunidade.\n\nDepois dela, **cada nova manipulação simples exige uma Ação de Movimento inteira**. Se já usou parte dessa ação para se deslocar, não pode gastar o restante como se ela ainda estivesse inteira. A conversão de ações segue as regras do turno.\n\n## Trocar de arma\n\nGuardar uma arma e sacar outra são duas manipulações. **Largar um item é gratuito e não conta como guardar.** O item fica onde caiu; recolhê-lo depois conta como uma nova manipulação.\n\n| Situação no começo do turno | Escolha e custo |\n|---|---|\n| Arma na mão; quer trocá-la | Guarda de graça e saca a outra com Movimento inteiro. |\n| Arma na mão; aceita deixá-la no chão | Larga de graça e usa a manipulação gratuita para sacar a outra. |\n| Arma no chão ao alcance; mão livre | Recolhe com a manipulação gratuita, se ainda a tiver. |\n| Precisa abrir uma porta e sacar | Uma das manipulações é gratuita; a outra exige Movimento inteiro. |\n\n## Mãos disponíveis\n\nVocê precisa alcançar o item e ter as mãos necessárias para manejá-lo. Sacar uma arma não permite retirar um objeto de uma mão resistente: isso exige a manobra ou habilidade apropriada.\n\nPode sustentar uma arma de duas mãos com uma só enquanto usa a outra para uma tarefa. Para atacar com ela, precisa voltar a usar ambas. Soltar ou recolocar a mão na mesma arma não conta como sacar; isso não permite realizar ao mesmo tempo uma tarefa que ocupe essa mão. Uma habilidade com exigência de mão livre continua exigindo que ela esteja livre no momento indicado.\n\n> **Exemplo:** Mei guarda uma faca com sua manipulação gratuita e saca um Kunai usando a Ação de Movimento inteira. Ainda pode atacar se tiver sua Ação Padrão disponível. Se já tivesse usado o Movimento para andar, precisaria obter outra ação por conversão ou esperar para sacar.\n\nFora do seu turno, uma Reação ou habilidade só permite as manipulações incluídas em seu próprio efeito. Você não recebe outra manipulação gratuita a cada turno alheio.\n\n<!-- page:objetos|Usar objetos -->\n# Usar objetos\n\nUma lanterna ilumina, uma corda prende e um pé de cabra ajuda a fazer força. Declare o que pretende fazer com o item; o mestre confere se ele serve para a tarefa e se você consegue usá-lo naquela posição.\n\n## Ação e teste\n\nUma manipulação simples segue [Sacar e guardar](#manipular). Uma tarefa que exige esforço, cuidado ou uma sequência de movimentos usa **Usar objeto, uma Ação Padrão**. Se a tarefa durar mais de um turno, o mestre informa o tempo necessário antes da tentativa.\n\n**Só faça teste quando houver incerteza e uma consequência para a falha.** O mestre indica a perícia e a CD antes da rolagem. A ação paga o tempo da tentativa; o teste determina se ela funciona. Ter a ferramenta necessária não concede vantagem ou sucesso automático, a menos que a regra dela diga isso.\n\n| Tarefa | Resolução |\n|---|---|\n| Acionar uma lanterna já na mão | Manipulação simples. Sem teste em condições normais. |\n| Abrir uma porta destrancada e livre | Manipulação simples. |\n| Forçar uma porta emperrada com um pé de cabra | Usar objeto e o teste apropriado ao obstáculo. |\n| Examinar uma gaveta em busca de uma chave | Vasculhar. Abrir a gaveta faz parte dessa busca. |\n| Ativar um item com custo próprio | Pagar o custo indicado pelo item. |\n\nPreparar o equipamento pode exigir uma manipulação antes da tarefa. Abrir ou mover algo que seja parte direta do procedimento já pago não cobra outra ação só por envolver a mão. Vasculhar uma gaveta não exige pagar separadamente para abrir cada compartimento examinado.\n\n## Falha e repetição\n\nAntes do teste, o mestre explica o risco perceptível: perder tempo, fazer barulho ou danificar uma peça frágil, por exemplo. A falha consome a ação e aplica a consequência estabelecida. Repetir uma tentativa exige a ação novamente; fora de combate, uma nova abordagem, informação ou consequência pelo tempo gasto deve justificar outro teste.\n\n> **Exemplo:** Kaori já segura um pé de cabra. Quer abrir a porta emperrada antes de o perseguidor chegar. O mestre pede Atletismo CD 14 e avisa que cada tentativa custa uma Ação Padrão e faz barulho. Com total 12, ela falha e a porta permanece fechada; não recebe outra rolagem gratuita naquele turno.\n\n## Ferramentas amaldiçoadas e objetos resistentes\n\nUma ferramenta amaldiçoada segue sua ficha ao ser ativada. Usar objeto não substitui o custo de um feitiço, tratamento, técnica ou habilidade.\n\nAtacar um objeto usa as regras de ataque. O mestre precisa definir quais golpes podem danificá-lo e seus valores de resistência antes da resolução. Rompe concede a vantagem descrita em [Propriedades](#propriedades), sem permitir destruir qualquer material com um único acerto.\n\n<!-- page:propriedades|Propriedades -->\n# Propriedades\n\nAs propriedades modificam o uso da arma. Elas valem quando a arma é utilizada no ataque ou procedimento correspondente; carregar outra arma guardada não acrescenta as propriedades dela ao golpe.\n\n| Propriedade | Efeito |\n|---|---|\n| Fineza | Em ataques corpo a corpo, pode usar Destreza no lugar de Força no acerto e no dano. |\n| Versátil | Ao atacar com as duas mãos, aumenta o dado: d6 para d8, d8 para d10 ou d10 para d12. |\n| Par | Role duas vezes os dados de dano próprios da arma e use o conjunto de maior soma. Aplique os demais acréscimos uma única vez. |\n| Alcance | O alcance corpo a corpo da arma é 3 m. Sem essa propriedade, o alcance comum é 1,5 m. |\n| Longo Alcance | Permite o disparo ou arremesso indicado pela arma. Use suas faixas normal e longa. |\n| Duas mãos | Exige ambas as mãos para atacar. Aparece como 2 na coluna Mãos. |\n| Vestida | A arma equipada não ocupa a mão. Outros objetos e tarefas ainda podem ocupá-la. |\n| Emaranha | Permite executar Agarrar sem largar a arma. Mantém o teste, o custo e os limites da manobra. |\n| Rompe | Concede vantagem nos ataques contra objetos e estruturas que a arma possa danificar. |\n| Talha | Impõe −1 ao Bloquear feito contra o ataque dessa arma. |\n| Oculta | Permite esconder a arma nas vestes ou junto ao corpo. Veja [Armas escondidas](#oculta). |\n| Munição | Exige recarga. O procedimento, a capacidade e os suprimentos estão em Munição. |\n\n## Par e crítico\n\nOs dois conjuntos de Par incluem somente os dados próprios da arma. Em um crítico, dobre esses dados antes de formar os conjuntos. Dados adicionais seguem suas próprias regras e não entram na escolha de Par.\n\n> **Exemplo:** com uma Kama de d6 e Força 3, Mei rola 2 e 5, escolhe 5 e soma 3: 8 de dano, antes de outros efeitos. Com uma arma de 2d6 e Par, rolaria dois conjuntos de 2d6 e escolheria a maior soma. Em um crítico que dobre esses dados, seriam dois conjuntos de 4d6.\n\n## Ataques adicionais\n\nPar não concede outro ataque, e Volume leve não concede um ataque de Ação Bônus. Arremessos seguem os atributos de acerto e dano do capítulo de Combate.\n\n<!-- page:oculta|Armas escondidas -->\n# Armas escondidas\n\n**Oculta** permite acomodar a arma nas vestes ou junto ao corpo sem deixá-la evidente. Você precisa de um lugar capaz de encobri-la. Preparar esse esconderijo sem observadores e sem pressão dispensa teste; escondê-la de alguém que possa perceber a manobra ou descobri-la numa inspeção exige resolver a oposição abaixo.\n\nA propriedade esconde a arma, não o portador. Ela não concede vantagem no ataque nem mantém você escondido ao atacar.\n\n## Observação e revista\n\nQuando houver risco de descoberta, faça **Prestidigitação** e guarde o total enquanto o esconderijo permanecer igual. Se a arma foi escondida sem teste, role na primeira situação em que a descoberta se tornar incerta. Essa rolagem resolve o preparo anterior, sem cobrar uma nova ação naquele momento.\n\nContra quem apenas observa, compare o total com **10 + bônus de Percepção** de cada observador que tenha acesso aos sinais. Igualar a CD basta para esconder a arma dele. Aplique os ajustes de luz e sentidos da seção Percepção; sem acesso ao sinal, não há descoberta por esse sentido. Quem examina o corpo, as vestes ou a bagagem usa **Vasculhar**, com Investigação e Ação Padrão em combate. Igualar ou superar o total guardado descobre a arma.\n\nSe a busca expõe diretamente o esconderijo, a descoberta é automática. Uma inspeção que só examine a mochila não encontra, por essa busca, uma arma escondida no casaco. Oculta não suprime energia amaldiçoada.\n\nReutilize o resultado enquanto o esconderijo permanecer igual. Uma busca não concede outro teste gratuito a quem escondeu a arma. Esconder a arma novamente de um observador que a viu exige uma nova oportunidade real, com o custo da manipulação e um novo teste.\n\n> **Exemplo:** Rina esconde um Tanto no casaco. Obtém 15 em Prestidigitação. Um vigia com Percepção +4 tem CD 14 e não o nota. Ao revistar o casaco, consegue Investigação 15 e encontra a arma. Rina continua visível durante toda a cena: só a arma estava escondida.\n\n## Outras armas e restrições\n\nSem Oculta, você ainda pode guardar uma arma num recipiente que realmente a comporte. Isso não permite escondê-la junto ao corpo nas mesmas condições. Armas Volumosas não podem ser escondidas dessa maneira.\n\n**Volumosa:** não pode ser escondida e atrapalha em espaços apertados. Se o lugar não permite manejar a arma, você não pode atacar com ela dali. Se houver passagem suficiente para se espremer, aplique as regras de passagens estreitas, sem acrescentar outra penalidade pelo mesmo aperto.\n\n**Embainhada:** sacar sozinho exige uma Ação de Movimento inteira. No turno dele, com a arma ao alcance de ambos, um aliado pode gastar a própria manipulação para ajudar; você precisa ter as mãos disponíveis para recebê-la. A ajuda não concede um ataque e não pode reutilizar uma manipulação já gasta.\n",
+      "ok": true
+    }
+  ],
+  "alcance_alterado": [
+    "Bastão",
+    "Bō",
+    "Kusarigama",
+    "Chicote",
+    "Corrente",
+    "Espadão",
+    "Nodachi",
+    "Odachi"
+  ],
+  "dados": [
+    {
+      "arma": "Bastão",
+      "normal": 3.5,
+      "critico": 7.0,
+      "exato_normal": "7/2",
+      "exato_critico": "7",
+      "com_atributo_0_a_6": [
+        3.5,
+        4.5,
+        5.5,
+        6.5,
+        7.5,
+        8.5,
+        9.5
+      ],
+      "versatil_2_maos": 4.5
+    },
+    {
+      "arma": "Besta",
+      "normal": 9.0,
+      "critico": 18.0,
+      "exato_normal": "9",
+      "exato_critico": "18",
+      "com_atributo_0_a_6": [
+        9.0,
+        9.0,
+        9.0,
+        9.0,
+        9.0,
+        9.0,
+        9.0
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Besta de Uma Mão",
+      "normal": 5.5,
+      "critico": 11.0,
+      "exato_normal": "11/2",
+      "exato_critico": "11",
+      "com_atributo_0_a_6": [
+        5.5,
+        5.5,
+        5.5,
+        5.5,
+        5.5,
+        5.5,
+        5.5
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Bō",
+      "normal": 5.5,
+      "critico": 11.0,
+      "exato_normal": "11/2",
+      "exato_critico": "11",
+      "com_atributo_0_a_6": [
+        5.5,
+        6.5,
+        7.5,
+        8.5,
+        9.5,
+        10.5,
+        11.5
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Canivete",
+      "normal": 2.5,
+      "critico": 5.0,
+      "exato_normal": "5/2",
+      "exato_critico": "5",
+      "com_atributo_0_a_6": [
+        2.5,
+        3.5,
+        4.5,
+        5.5,
+        6.5,
+        7.5,
+        8.5
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Cassetete",
+      "normal": 3.5,
+      "critico": 7.0,
+      "exato_normal": "7/2",
+      "exato_critico": "7",
+      "com_atributo_0_a_6": [
+        3.5,
+        4.5,
+        5.5,
+        6.5,
+        7.5,
+        8.5,
+        9.5
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Chakram",
+      "normal": 2.5,
+      "critico": 5.0,
+      "exato_normal": "5/2",
+      "exato_critico": "5",
+      "com_atributo_0_a_6": [
+        2.5,
+        3.5,
+        4.5,
+        5.5,
+        6.5,
+        7.5,
+        8.5
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Faca",
+      "normal": 3.5,
+      "critico": 7.0,
+      "exato_normal": "7/2",
+      "exato_critico": "7",
+      "com_atributo_0_a_6": [
+        3.5,
+        4.5,
+        5.5,
+        6.5,
+        7.5,
+        8.5,
+        9.5
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Foice",
+      "normal": 5.5,
+      "critico": 11.0,
+      "exato_normal": "11/2",
+      "exato_critico": "11",
+      "com_atributo_0_a_6": [
+        5.5,
+        6.5,
+        7.5,
+        8.5,
+        9.5,
+        10.5,
+        11.5
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Kama",
+      "normal": 4.472222222222222,
+      "critico": 8.371913580246913,
+      "exato_normal": "161/36",
+      "exato_critico": "5425/648",
+      "com_atributo_0_a_6": [
+        4.472222222222222,
+        5.472222222222222,
+        6.472222222222222,
+        7.472222222222222,
+        8.472222222222221,
+        9.472222222222221,
+        10.472222222222221
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Kanabō",
+      "normal": 6.5,
+      "critico": 13.0,
+      "exato_normal": "13/2",
+      "exato_critico": "13",
+      "com_atributo_0_a_6": [
+        6.5,
+        7.5,
+        8.5,
+        9.5,
+        10.5,
+        11.5,
+        12.5
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Kunai",
+      "normal": 3.5,
+      "critico": 7.0,
+      "exato_normal": "7/2",
+      "exato_critico": "7",
+      "com_atributo_0_a_6": [
+        3.5,
+        4.5,
+        5.5,
+        6.5,
+        7.5,
+        8.5,
+        9.5
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Kusarigama",
+      "normal": 4.5,
+      "critico": 9.0,
+      "exato_normal": "9/2",
+      "exato_critico": "9",
+      "com_atributo_0_a_6": [
+        4.5,
+        5.5,
+        6.5,
+        7.5,
+        8.5,
+        9.5,
+        10.5
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Maça",
+      "normal": 4.5,
+      "critico": 9.0,
+      "exato_normal": "9/2",
+      "exato_critico": "9",
+      "com_atributo_0_a_6": [
+        4.5,
+        5.5,
+        6.5,
+        7.5,
+        8.5,
+        9.5,
+        10.5
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Marreta",
+      "normal": 5.5,
+      "critico": 11.0,
+      "exato_normal": "11/2",
+      "exato_critico": "11",
+      "com_atributo_0_a_6": [
+        5.5,
+        6.5,
+        7.5,
+        8.5,
+        9.5,
+        10.5,
+        11.5
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Maul",
+      "normal": 6.5,
+      "critico": 13.0,
+      "exato_normal": "13/2",
+      "exato_critico": "13",
+      "com_atributo_0_a_6": [
+        6.5,
+        7.5,
+        8.5,
+        9.5,
+        10.5,
+        11.5,
+        12.5
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Nunchaku",
+      "normal": 4.472222222222222,
+      "critico": 8.371913580246913,
+      "exato_normal": "161/36",
+      "exato_critico": "5425/648",
+      "com_atributo_0_a_6": [
+        4.472222222222222,
+        5.472222222222222,
+        6.472222222222222,
+        7.472222222222222,
+        8.472222222222221,
+        9.472222222222221,
+        10.472222222222221
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Punhal",
+      "normal": 3.5,
+      "critico": 7.0,
+      "exato_normal": "7/2",
+      "exato_critico": "7",
+      "com_atributo_0_a_6": [
+        3.5,
+        4.5,
+        5.5,
+        6.5,
+        7.5,
+        8.5,
+        9.5
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Sai",
+      "normal": 4.472222222222222,
+      "critico": 8.371913580246913,
+      "exato_normal": "161/36",
+      "exato_critico": "5425/648",
+      "com_atributo_0_a_6": [
+        4.472222222222222,
+        5.472222222222222,
+        6.472222222222222,
+        7.472222222222222,
+        8.472222222222221,
+        9.472222222222221,
+        10.472222222222221
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Shuriken",
+      "normal": 3.125,
+      "critico": 5.890625,
+      "exato_normal": "25/8",
+      "exato_critico": "377/64",
+      "com_atributo_0_a_6": [
+        3.125,
+        4.125,
+        5.125,
+        6.125,
+        7.125,
+        8.125,
+        9.125
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Soqueira",
+      "normal": 3.125,
+      "critico": 5.890625,
+      "exato_normal": "25/8",
+      "exato_critico": "377/64",
+      "com_atributo_0_a_6": [
+        3.125,
+        4.125,
+        5.125,
+        6.125,
+        7.125,
+        8.125,
+        9.125
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Taco",
+      "normal": 4.5,
+      "critico": 9.0,
+      "exato_normal": "9/2",
+      "exato_critico": "9",
+      "com_atributo_0_a_6": [
+        4.5,
+        5.5,
+        6.5,
+        7.5,
+        8.5,
+        9.5,
+        10.5
+      ],
+      "versatil_2_maos": 5.5
+    },
+    {
+      "arma": "Tanto",
+      "normal": 3.5,
+      "critico": 7.0,
+      "exato_normal": "7/2",
+      "exato_critico": "7",
+      "com_atributo_0_a_6": [
+        3.5,
+        4.5,
+        5.5,
+        6.5,
+        7.5,
+        8.5,
+        9.5
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Tekko",
+      "normal": 3.125,
+      "critico": 5.890625,
+      "exato_normal": "25/8",
+      "exato_critico": "377/64",
+      "com_atributo_0_a_6": [
+        3.125,
+        4.125,
+        5.125,
+        6.125,
+        7.125,
+        8.125,
+        9.125
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Tessen",
+      "normal": 2.5,
+      "critico": 5.0,
+      "exato_normal": "5/2",
+      "exato_critico": "5",
+      "com_atributo_0_a_6": [
+        2.5,
+        3.5,
+        4.5,
+        5.5,
+        6.5,
+        7.5,
+        8.5
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Tonfa",
+      "normal": 4.472222222222222,
+      "critico": 8.371913580246913,
+      "exato_normal": "161/36",
+      "exato_critico": "5425/648",
+      "com_atributo_0_a_6": [
+        4.472222222222222,
+        5.472222222222222,
+        6.472222222222222,
+        7.472222222222222,
+        8.472222222222221,
+        9.472222222222221,
+        10.472222222222221
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Chicote",
+      "normal": 2.5,
+      "critico": 5.0,
+      "exato_normal": "5/2",
+      "exato_critico": "5",
+      "com_atributo_0_a_6": [
+        2.5,
+        3.5,
+        4.5,
+        5.5,
+        6.5,
+        7.5,
+        8.5
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Corrente",
+      "normal": 4.5,
+      "critico": 9.0,
+      "exato_normal": "9/2",
+      "exato_critico": "9",
+      "com_atributo_0_a_6": [
+        4.5,
+        5.5,
+        6.5,
+        7.5,
+        8.5,
+        9.5,
+        10.5
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Daikyū",
+      "normal": 5.5,
+      "critico": 11.0,
+      "exato_normal": "11/2",
+      "exato_critico": "11",
+      "com_atributo_0_a_6": [
+        5.5,
+        6.5,
+        7.5,
+        8.5,
+        9.5,
+        10.5,
+        11.5
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Espada Longa",
+      "normal": 4.5,
+      "critico": 9.0,
+      "exato_normal": "9/2",
+      "exato_critico": "9",
+      "com_atributo_0_a_6": [
+        4.5,
+        5.5,
+        6.5,
+        7.5,
+        8.5,
+        9.5,
+        10.5
+      ],
+      "versatil_2_maos": 5.5
+    },
+    {
+      "arma": "Espadão",
+      "normal": 6.5,
+      "critico": 13.0,
+      "exato_normal": "13/2",
+      "exato_critico": "13",
+      "com_atributo_0_a_6": [
+        6.5,
+        7.5,
+        8.5,
+        9.5,
+        10.5,
+        11.5,
+        12.5
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Hankyū",
+      "normal": 4.5,
+      "critico": 9.0,
+      "exato_normal": "9/2",
+      "exato_critico": "9",
+      "com_atributo_0_a_6": [
+        4.5,
+        5.5,
+        6.5,
+        7.5,
+        8.5,
+        9.5,
+        10.5
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Katana",
+      "normal": 4.5,
+      "critico": 9.0,
+      "exato_normal": "9/2",
+      "exato_critico": "9",
+      "com_atributo_0_a_6": [
+        4.5,
+        5.5,
+        6.5,
+        7.5,
+        8.5,
+        9.5,
+        10.5
+      ],
+      "versatil_2_maos": 5.5
+    },
+    {
+      "arma": "Lança",
+      "normal": 3.5,
+      "critico": 7.0,
+      "exato_normal": "7/2",
+      "exato_critico": "7",
+      "com_atributo_0_a_6": [
+        3.5,
+        4.5,
+        5.5,
+        6.5,
+        7.5,
+        8.5,
+        9.5
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Machadinha",
+      "normal": 3.5,
+      "critico": 7.0,
+      "exato_normal": "7/2",
+      "exato_critico": "7",
+      "com_atributo_0_a_6": [
+        3.5,
+        4.5,
+        5.5,
+        6.5,
+        7.5,
+        8.5,
+        9.5
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Machado",
+      "normal": 4.5,
+      "critico": 9.0,
+      "exato_normal": "9/2",
+      "exato_critico": "9",
+      "com_atributo_0_a_6": [
+        4.5,
+        5.5,
+        6.5,
+        7.5,
+        8.5,
+        9.5,
+        10.5
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Machado de Guerra",
+      "normal": 6.5,
+      "critico": 13.0,
+      "exato_normal": "13/2",
+      "exato_critico": "13",
+      "com_atributo_0_a_6": [
+        6.5,
+        7.5,
+        8.5,
+        9.5,
+        10.5,
+        11.5,
+        12.5
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Machete",
+      "normal": 4.5,
+      "critico": 9.0,
+      "exato_normal": "9/2",
+      "exato_critico": "9",
+      "com_atributo_0_a_6": [
+        4.5,
+        5.5,
+        6.5,
+        7.5,
+        8.5,
+        9.5,
+        10.5
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Manriki",
+      "normal": 3.5,
+      "critico": 7.0,
+      "exato_normal": "7/2",
+      "exato_critico": "7",
+      "com_atributo_0_a_6": [
+        3.5,
+        4.5,
+        5.5,
+        6.5,
+        7.5,
+        8.5,
+        9.5
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Naginata",
+      "normal": 5.5,
+      "critico": 11.0,
+      "exato_normal": "11/2",
+      "exato_critico": "11",
+      "com_atributo_0_a_6": [
+        5.5,
+        6.5,
+        7.5,
+        8.5,
+        9.5,
+        10.5,
+        11.5
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Nodachi",
+      "normal": 6.5,
+      "critico": 13.0,
+      "exato_normal": "13/2",
+      "exato_critico": "13",
+      "com_atributo_0_a_6": [
+        6.5,
+        7.5,
+        8.5,
+        9.5,
+        10.5,
+        11.5,
+        12.5
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Odachi",
+      "normal": 6.5,
+      "critico": 13.0,
+      "exato_normal": "13/2",
+      "exato_critico": "13",
+      "com_atributo_0_a_6": [
+        6.5,
+        7.5,
+        8.5,
+        9.5,
+        10.5,
+        11.5,
+        12.5
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Rapieira",
+      "normal": 3.5,
+      "critico": 7.0,
+      "exato_normal": "7/2",
+      "exato_critico": "7",
+      "com_atributo_0_a_6": [
+        3.5,
+        4.5,
+        5.5,
+        6.5,
+        7.5,
+        8.5,
+        9.5
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Wakizashi",
+      "normal": 4.5,
+      "critico": 9.0,
+      "exato_normal": "9/2",
+      "exato_critico": "9",
+      "com_atributo_0_a_6": [
+        4.5,
+        5.5,
+        6.5,
+        7.5,
+        8.5,
+        9.5,
+        10.5
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Yari",
+      "normal": 5.5,
+      "critico": 11.0,
+      "exato_normal": "11/2",
+      "exato_critico": "11",
+      "com_atributo_0_a_6": [
+        5.5,
+        6.5,
+        7.5,
+        8.5,
+        9.5,
+        10.5,
+        11.5
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Espingarda",
+      "normal": 9.0,
+      "critico": 18.0,
+      "exato_normal": "9",
+      "exato_critico": "18",
+      "com_atributo_0_a_6": [
+        9.0,
+        9.0,
+        9.0,
+        9.0,
+        9.0,
+        9.0,
+        9.0
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Metralhadora Pesada",
+      "normal": 11.0,
+      "critico": 22.0,
+      "exato_normal": "11",
+      "exato_critico": "22",
+      "com_atributo_0_a_6": [
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Pistola",
+      "normal": 5.5,
+      "critico": 11.0,
+      "exato_normal": "11/2",
+      "exato_critico": "11",
+      "com_atributo_0_a_6": [
+        5.5,
+        5.5,
+        5.5,
+        5.5,
+        5.5,
+        5.5,
+        5.5
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Revólver",
+      "normal": 5.5,
+      "critico": 11.0,
+      "exato_normal": "11/2",
+      "exato_critico": "11",
+      "com_atributo_0_a_6": [
+        5.5,
+        5.5,
+        5.5,
+        5.5,
+        5.5,
+        5.5,
+        5.5
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Rifle",
+      "normal": 9.0,
+      "critico": 18.0,
+      "exato_normal": "9",
+      "exato_critico": "18",
+      "com_atributo_0_a_6": [
+        9.0,
+        9.0,
+        9.0,
+        9.0,
+        9.0,
+        9.0,
+        9.0
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Rifle de Precisão",
+      "normal": 11.0,
+      "critico": 22.0,
+      "exato_normal": "11",
+      "exato_critico": "22",
+      "com_atributo_0_a_6": [
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0
+      ],
+      "versatil_2_maos": null
+    },
+    {
+      "arma": "Submetralhadora",
+      "normal": 8.371913580246913,
+      "critico": 15.933358577198598,
+      "exato_normal": "5425/648",
+      "exato_critico": "6690481/419904",
+      "com_atributo_0_a_6": [
+        8.371913580246913,
+        8.371913580246913,
+        8.371913580246913,
+        8.371913580246913,
+        8.371913580246913,
+        8.371913580246913,
+        8.371913580246913
+      ],
+      "versatil_2_maos": null
+    }
+  ],
+  "dominancia_parcial": [
+    [
+      "Revólver",
+      "Pistola"
+    ]
+  ],
+  "equivalentes": [
+    [
+      "Soqueira",
+      "Tekko"
+    ]
+  ],
+  "municao": [
+    {
+      "arma": "Pistola",
+      "cap": 2,
+      "preco": 1000,
+      "volume": 0.1,
+      "custo_por_disparo": 500.0,
+      "disparos_reserva_por_volume": 20.0,
+      "estoque_inicial": 6,
+      "disparos_com_20000": 40
+    },
+    {
+      "arma": "Revólver",
+      "cap": 2,
+      "preco": 1000,
+      "volume": 0.1,
+      "custo_por_disparo": 500.0,
+      "disparos_reserva_por_volume": 20.0,
+      "estoque_inicial": 6,
+      "disparos_com_20000": 40
+    },
+    {
+      "arma": "Espingarda",
+      "cap": 2,
+      "preco": 1000,
+      "volume": 0.1,
+      "custo_por_disparo": 500.0,
+      "disparos_reserva_por_volume": 20.0,
+      "estoque_inicial": 6,
+      "disparos_com_20000": 40
+    },
+    {
+      "arma": "Rifle",
+      "cap": 3,
+      "preco": 1500,
+      "volume": 0.1,
+      "custo_por_disparo": 500.0,
+      "disparos_reserva_por_volume": 30.0,
+      "estoque_inicial": 9,
+      "disparos_com_20000": 39
+    },
+    {
+      "arma": "Submetralhadora",
+      "cap": 3,
+      "preco": 1500,
+      "volume": 0.1,
+      "custo_por_disparo": 500.0,
+      "disparos_reserva_por_volume": 30.0,
+      "estoque_inicial": 9,
+      "disparos_com_20000": 39
+    },
+    {
+      "arma": "Rifle de Precisão",
+      "cap": 2,
+      "preco": 2000,
+      "volume": 0.1,
+      "custo_por_disparo": 1000.0,
+      "disparos_reserva_por_volume": 20.0,
+      "estoque_inicial": 6,
+      "disparos_com_20000": 20
+    },
+    {
+      "arma": "Metralhadora Pesada",
+      "cap": 4,
+      "preco": 4000,
+      "volume": 0.2,
+      "custo_por_disparo": 1000.0,
+      "disparos_reserva_por_volume": 20.0,
+      "estoque_inicial": 12,
+      "disparos_com_20000": 20
+    }
+  ],
+  "sensibilidade": [
+    {
+      "volume_por_recipiente": 0.1,
+      "recipientes_por_volume": 10,
+      "flechas_ou_virotes": 200,
+      "pistola_disparos_reserva": 20
+    },
+    {
+      "volume_por_recipiente": 0.2,
+      "recipientes_por_volume": 5,
+      "flechas_ou_virotes": 100,
+      "pistola_disparos_reserva": 10
+    },
+    {
+      "volume_por_recipiente": 0.5,
+      "recipientes_por_volume": 2,
+      "flechas_ou_virotes": 40,
+      "pistola_disparos_reserva": 4
+    },
+    {
+      "volume_por_recipiente": 1,
+      "recipientes_por_volume": 1,
+      "flechas_ou_virotes": 20,
+      "pistola_disparos_reserva": 2
+    }
+  ],
+  "inventarios": [
+    {
+      "forca": 0,
+      "arma": "Hankyū",
+      "traje_1": 0.1,
+      "reserva_volume": 0.2,
+      "volume_conjunto": 2.3,
+      "capacidade": 5,
+      "restante_para_outros_itens": 2.7
+    },
+    {
+      "forca": 0,
+      "arma": "Pistola",
+      "traje_1": 0.1,
+      "reserva_volume": 0.2,
+      "volume_conjunto": 0.4,
+      "capacidade": 5,
+      "restante_para_outros_itens": 4.6
+    },
+    {
+      "forca": 1,
+      "arma": "Hankyū",
+      "traje_1": 0.1,
+      "reserva_volume": 0.2,
+      "volume_conjunto": 2.3,
+      "capacidade": 6,
+      "restante_para_outros_itens": 3.7
+    },
+    {
+      "forca": 1,
+      "arma": "Pistola",
+      "traje_1": 0.1,
+      "reserva_volume": 0.2,
+      "volume_conjunto": 0.4,
+      "capacidade": 6,
+      "restante_para_outros_itens": 5.6
+    },
+    {
+      "forca": 1,
+      "arma": "Rifle",
+      "traje_1": 0.1,
+      "reserva_volume": 0.2,
+      "volume_conjunto": 2.3,
+      "capacidade": 6,
+      "restante_para_outros_itens": 3.7
+    },
+    {
+      "forca": 2,
+      "arma": "Hankyū",
+      "traje_1": 0.1,
+      "reserva_volume": 0.2,
+      "volume_conjunto": 2.3,
+      "capacidade": 7,
+      "restante_para_outros_itens": 4.7
+    },
+    {
+      "forca": 2,
+      "arma": "Pistola",
+      "traje_1": 0.1,
+      "reserva_volume": 0.2,
+      "volume_conjunto": 0.4,
+      "capacidade": 7,
+      "restante_para_outros_itens": 6.6
+    },
+    {
+      "forca": 2,
+      "arma": "Rifle",
+      "traje_1": 0.1,
+      "reserva_volume": 0.2,
+      "volume_conjunto": 2.3,
+      "capacidade": 7,
+      "restante_para_outros_itens": 4.7
+    },
+    {
+      "forca": 3,
+      "arma": "Hankyū",
+      "traje_1": 0.1,
+      "reserva_volume": 0.2,
+      "volume_conjunto": 2.3,
+      "capacidade": 8,
+      "restante_para_outros_itens": 5.7
+    },
+    {
+      "forca": 3,
+      "arma": "Pistola",
+      "traje_1": 0.1,
+      "reserva_volume": 0.2,
+      "volume_conjunto": 0.4,
+      "capacidade": 8,
+      "restante_para_outros_itens": 7.6
+    },
+    {
+      "forca": 3,
+      "arma": "Rifle",
+      "traje_1": 0.1,
+      "reserva_volume": 0.2,
+      "volume_conjunto": 2.3,
+      "capacidade": 8,
+      "restante_para_outros_itens": 5.7
+    },
+    {
+      "forca": 3,
+      "arma": "Besta",
+      "traje_1": 0.1,
+      "reserva_volume": 0.2,
+      "volume_conjunto": 2.3,
+      "capacidade": 8,
+      "restante_para_outros_itens": 5.7
+    },
+    {
+      "forca": 4,
+      "arma": "Hankyū",
+      "traje_1": 0.1,
+      "reserva_volume": 0.2,
+      "volume_conjunto": 2.3,
+      "capacidade": 9,
+      "restante_para_outros_itens": 6.7
+    },
+    {
+      "forca": 4,
+      "arma": "Pistola",
+      "traje_1": 0.1,
+      "reserva_volume": 0.2,
+      "volume_conjunto": 0.4,
+      "capacidade": 9,
+      "restante_para_outros_itens": 8.6
+    },
+    {
+      "forca": 4,
+      "arma": "Rifle",
+      "traje_1": 0.1,
+      "reserva_volume": 0.2,
+      "volume_conjunto": 2.3,
+      "capacidade": 9,
+      "restante_para_outros_itens": 6.7
+    },
+    {
+      "forca": 4,
+      "arma": "Besta",
+      "traje_1": 0.1,
+      "reserva_volume": 0.2,
+      "volume_conjunto": 2.3,
+      "capacidade": 9,
+      "restante_para_outros_itens": 6.7
+    },
+    {
+      "forca": 5,
+      "arma": "Hankyū",
+      "traje_1": 0.1,
+      "reserva_volume": 0.2,
+      "volume_conjunto": 2.3,
+      "capacidade": 10,
+      "restante_para_outros_itens": 7.7
+    },
+    {
+      "forca": 5,
+      "arma": "Pistola",
+      "traje_1": 0.1,
+      "reserva_volume": 0.2,
+      "volume_conjunto": 0.4,
+      "capacidade": 10,
+      "restante_para_outros_itens": 9.6
+    },
+    {
+      "forca": 5,
+      "arma": "Rifle",
+      "traje_1": 0.1,
+      "reserva_volume": 0.2,
+      "volume_conjunto": 2.3,
+      "capacidade": 10,
+      "restante_para_outros_itens": 7.7
+    },
+    {
+      "forca": 5,
+      "arma": "Besta",
+      "traje_1": 0.1,
+      "reserva_volume": 0.2,
+      "volume_conjunto": 2.3,
+      "capacidade": 10,
+      "restante_para_outros_itens": 7.7
+    },
+    {
+      "forca": 6,
+      "arma": "Hankyū",
+      "traje_1": 0.1,
+      "reserva_volume": 0.2,
+      "volume_conjunto": 2.3,
+      "capacidade": 11,
+      "restante_para_outros_itens": 8.7
+    },
+    {
+      "forca": 6,
+      "arma": "Pistola",
+      "traje_1": 0.1,
+      "reserva_volume": 0.2,
+      "volume_conjunto": 0.4,
+      "capacidade": 11,
+      "restante_para_outros_itens": 10.6
+    },
+    {
+      "forca": 6,
+      "arma": "Rifle",
+      "traje_1": 0.1,
+      "reserva_volume": 0.2,
+      "volume_conjunto": 2.3,
+      "capacidade": 11,
+      "restante_para_outros_itens": 8.7
+    },
+    {
+      "forca": 6,
+      "arma": "Besta",
+      "traje_1": 0.1,
+      "reserva_volume": 0.2,
+      "volume_conjunto": 2.3,
+      "capacidade": 11,
+      "restante_para_outros_itens": 8.7
+    }
+  ],
+  "sequencias": [
+    {
+      "capacidade": 1,
+      "ataques_por_turno": 1,
+      "d20": "vantagem",
+      "disparos_em_6_turnos": 6.0,
+      "recargas_medias": 5.0
+    },
+    {
+      "capacidade": 1,
+      "ataques_por_turno": 1,
+      "d20": "normal",
+      "disparos_em_6_turnos": 6.0,
+      "recargas_medias": 5.0
+    },
+    {
+      "capacidade": 1,
+      "ataques_por_turno": 1,
+      "d20": "desvantagem",
+      "disparos_em_6_turnos": 6.0,
+      "recargas_medias": 5.0
+    },
+    {
+      "capacidade": 1,
+      "ataques_por_turno": 2,
+      "d20": "vantagem",
+      "disparos_em_6_turnos": 7.0,
+      "recargas_medias": 6.0
+    },
+    {
+      "capacidade": 1,
+      "ataques_por_turno": 2,
+      "d20": "normal",
+      "disparos_em_6_turnos": 7.0,
+      "recargas_medias": 6.0
+    },
+    {
+      "capacidade": 1,
+      "ataques_por_turno": 2,
+      "d20": "desvantagem",
+      "disparos_em_6_turnos": 7.0,
+      "recargas_medias": 6.0
+    },
+    {
+      "capacidade": 1,
+      "ataques_por_turno": 3,
+      "d20": "vantagem",
+      "disparos_em_6_turnos": 7.0,
+      "recargas_medias": 6.0
+    },
+    {
+      "capacidade": 1,
+      "ataques_por_turno": 3,
+      "d20": "normal",
+      "disparos_em_6_turnos": 7.0,
+      "recargas_medias": 6.0
+    },
+    {
+      "capacidade": 1,
+      "ataques_por_turno": 3,
+      "d20": "desvantagem",
+      "disparos_em_6_turnos": 7.0,
+      "recargas_medias": 6.0
+    },
+    {
+      "capacidade": 2,
+      "ataques_por_turno": 1,
+      "d20": "vantagem",
+      "disparos_em_6_turnos": 6.0,
+      "recargas_medias": 5.0
+    },
+    {
+      "capacidade": 2,
+      "ataques_por_turno": 1,
+      "d20": "normal",
+      "disparos_em_6_turnos": 6.0,
+      "recargas_medias": 5.0
+    },
+    {
+      "capacidade": 2,
+      "ataques_por_turno": 1,
+      "d20": "desvantagem",
+      "disparos_em_6_turnos": 6.0,
+      "recargas_medias": 5.0
+    },
+    {
+      "capacidade": 2,
+      "ataques_por_turno": 2,
+      "d20": "vantagem",
+      "disparos_em_6_turnos": 11.99996569372795,
+      "recargas_medias": 5.058519850599
+    },
+    {
+      "capacidade": 2,
+      "ataques_por_turno": 2,
+      "d20": "normal",
+      "disparos_em_6_turnos": 11.9713975,
+      "recargas_medias": 5.468559
+    },
+    {
+      "capacidade": 2,
+      "ataques_por_turno": 2,
+      "d20": "desvantagem",
+      "disparos_em_6_turnos": 11.83683286738105,
+      "recargas_medias": 5.717570463519
+    },
+    {
+      "capacidade": 2,
+      "ataques_por_turno": 3,
+      "d20": "vantagem",
+      "disparos_em_6_turnos": 13.93,
+      "recargas_medias": 6.0
+    },
+    {
+      "capacidade": 2,
+      "ataques_por_turno": 3,
+      "d20": "normal",
+      "disparos_em_6_turnos": 13.3,
+      "recargas_medias": 6.0
+    },
+    {
+      "capacidade": 2,
+      "ataques_por_turno": 3,
+      "d20": "desvantagem",
+      "disparos_em_6_turnos": 12.67,
+      "recargas_medias": 6.0
+    },
+    {
+      "capacidade": 3,
+      "ataques_por_turno": 1,
+      "d20": "vantagem",
+      "disparos_em_6_turnos": 6.0,
+      "recargas_medias": 5.0
+    },
+    {
+      "capacidade": 3,
+      "ataques_por_turno": 1,
+      "d20": "normal",
+      "disparos_em_6_turnos": 6.0,
+      "recargas_medias": 5.0
+    },
+    {
+      "capacidade": 3,
+      "ataques_por_turno": 1,
+      "d20": "desvantagem",
+      "disparos_em_6_turnos": 6.0,
+      "recargas_medias": 5.0
+    },
+    {
+      "capacidade": 3,
+      "ataques_por_turno": 2,
+      "d20": "vantagem",
+      "disparos_em_6_turnos": 11.999994889625194,
+      "recargas_medias": 5.010201977529264
+    },
+    {
+      "capacidade": 3,
+      "ataques_por_turno": 2,
+      "d20": "normal",
+      "disparos_em_6_turnos": 11.99388649795,
+      "recargas_medias": 5.12158110549
+    },
+    {
+      "capacidade": 3,
+      "ataques_por_turno": 2,
+      "d20": "desvantagem",
+      "disparos_em_6_turnos": 11.951651897797346,
+      "recargas_medias": 5.268631310526153
+    },
+    {
+      "capacidade": 3,
+      "ataques_por_turno": 3,
+      "d20": "vantagem",
+      "disparos_em_6_turnos": 17.99770126922248,
+      "recargas_medias": 5.113615128283871
+    },
+    {
+      "capacidade": 3,
+      "ataques_por_turno": 3,
+      "d20": "normal",
+      "disparos_em_6_turnos": 17.6708241321874,
+      "recargas_medias": 5.717570463519
+    },
+    {
+      "capacidade": 3,
+      "ataques_por_turno": 3,
+      "d20": "desvantagem",
+      "disparos_em_6_turnos": 16.767270622049544,
+      "recargas_medias": 5.920233556923128
+    },
+    {
+      "capacidade": 4,
+      "ataques_por_turno": 1,
+      "d20": "vantagem",
+      "disparos_em_6_turnos": 6.0,
+      "recargas_medias": 5.0
+    },
+    {
+      "capacidade": 4,
+      "ataques_por_turno": 1,
+      "d20": "normal",
+      "disparos_em_6_turnos": 6.0,
+      "recargas_medias": 5.0
+    },
+    {
+      "capacidade": 4,
+      "ataques_por_turno": 1,
+      "d20": "desvantagem",
+      "disparos_em_6_turnos": 6.0,
+      "recargas_medias": 5.0
+    },
+    {
+      "capacidade": 4,
+      "ataques_por_turno": 2,
+      "d20": "vantagem",
+      "disparos_em_6_turnos": 11.999994919608202,
+      "recargas_medias": 5.010100999795653
+    },
+    {
+      "capacidade": 4,
+      "ataques_por_turno": 2,
+      "d20": "normal",
+      "disparos_em_6_turnos": 11.99417008624,
+      "recargas_medias": 5.11097353584
+    },
+    {
+      "capacidade": 4,
+      "ataques_por_turno": 2,
+      "d20": "desvantagem",
+      "disparos_em_6_turnos": 11.954849117978833,
+      "recargas_medias": 5.232126862395415
+    },
+    {
+      "capacidade": 4,
+      "ataques_por_turno": 3,
+      "d20": "vantagem",
+      "disparos_em_6_turnos": 17.999327301528105,
+      "recargas_medias": 5.030687324089927
+    },
+    {
+      "capacidade": 4,
+      "ataques_por_turno": 3,
+      "d20": "normal",
+      "disparos_em_6_turnos": 17.866360904505754,
+      "recargas_medias": 5.34742242353839
+    },
+    {
+      "capacidade": 4,
+      "ataques_por_turno": 3,
+      "d20": "desvantagem",
+      "disparos_em_6_turnos": 17.324697185516957,
+      "recargas_medias": 5.6477855364427105
+    }
+  ],
+  "limites": [
+    "Sem playtest humano. Distribuições exatas sob hipóteses registradas; não estimam dano final de classes. Tipos físicos são proposta nova. Dominância tem eixos restritos."
+  ],
+  "manuscritos_auditados": {
+    "sistema/05-material/livro/planejamento-editorial/equipamento/lote-04/ARMAS.md": "8fdda195acf479e335fe518cf51ccae32cbbf9735b94b25856642d94e995e48c",
+    "sistema/05-material/livro/planejamento-editorial/equipamento/lote-03-r2/MUNICAO.md": "1eb8ff3bde5dede4ae9f87b5ce28196ad5b37658d47d296f0854bf4eae34918c",
+    "sistema/05-material/livro/planejamento-editorial/equipamento/lote-01-r4/EQUIPAMENTO-EM-JOGO.md": "933bdd89b08ba15b59d0aaa8e5ea1dbc2466accd3c37739ce7302261a4a84d60"
+  }
+}

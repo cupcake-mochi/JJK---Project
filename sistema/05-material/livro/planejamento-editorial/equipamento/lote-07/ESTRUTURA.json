@@ -1,0 +1,36 @@
+{
+  "ordem": [
+    "ferramentas",
+    "graus",
+    "desgaste",
+    "objetos"
+  ],
+  "titulos": {
+    "ferramentas": "Ferramentas amaldiçoadas",
+    "graus": "Graus e aquisição",
+    "desgaste": "Desgaste",
+    "objetos": "Objetos amaldiçoados"
+  },
+  "paginas": {
+    "ferramentas": 1,
+    "graus": 2,
+    "desgaste": 3,
+    "objetos": 4
+  },
+  "grupos": [
+    [
+      "Ferramentas amaldiçoadas",
+      [
+        "ferramentas",
+        "graus",
+        "desgaste"
+      ]
+    ],
+    [
+      "Objetos amaldiçoados",
+      [
+        "objetos"
+      ]
+    ]
+  ]
+}

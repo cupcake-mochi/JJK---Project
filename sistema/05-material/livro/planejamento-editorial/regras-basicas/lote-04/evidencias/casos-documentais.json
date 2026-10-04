@@ -1,0 +1,170 @@
+[
+  {
+    "id": "R01",
+    "situacao": "Cura acima do máximo",
+    "resolucao": "14/20 recebe8: termina20, excesso2 descartado.",
+    "status": "R01"
+  },
+  {
+    "id": "R02",
+    "situacao": "Cuidado em45/100",
+    "resolucao": "Cura10 chega55; não pode receber outro Cuidado comum nessa faixa.",
+    "status": "Fonte integrada"
+  },
+  {
+    "id": "R03",
+    "situacao": "Cuidado em zero",
+    "resolucao": "Não elegível; precisa outro socorro.",
+    "status": "Fonte integrada"
+  },
+  {
+    "id": "R04",
+    "situacao": "Corpo Amaldiçoado",
+    "resolucao": "Energia Reversa não cura; técnica de reparo permitida por sua Regra pode curar em combate.",
+    "status": "Fonte v0.326"
+  },
+  {
+    "id": "R05",
+    "situacao": "Temporários max23",
+    "resolucao": "Receber15 dá11; restando3, receber9 troca para9.",
+    "status": "R03"
+  },
+  {
+    "id": "R06",
+    "situacao": "Dano12 com9 temporários",
+    "resolucao": "Perde9 temporários e3 reais.",
+    "status": "Fonte geral"
+  },
+  {
+    "id": "R07",
+    "situacao": "Energia max8",
+    "resolucao": "2 comuns +4 temporários; paga5 e sobra1 comum.",
+    "status": "Fonte geral"
+  },
+  {
+    "id": "R08",
+    "situacao": "Temporário a zero",
+    "resolucao": "Não acorda nem aumenta referência de Insistir.",
+    "status": "Fonte geral"
+  },
+  {
+    "id": "R09",
+    "situacao": "Fim da cena",
+    "resolucao": "Saldo temporário some, salvo permissão de preparação; não renova valor gasto.",
+    "status": "R03"
+  },
+  {
+    "id": "R10",
+    "situacao": "Aguentar max23",
+    "resolucao": "Exige5 numa cura; duas de3 não levantam na candidata.",
+    "status": "R06 pendente"
+  },
+  {
+    "id": "R11",
+    "situacao": "Dano acumulado referência40",
+    "resolucao": "20 não ultrapassa metade;21 ultrapassa.",
+    "status": "R07"
+  },
+  {
+    "id": "R12",
+    "situacao": "Ataque reduzido a zero",
+    "resolucao": "Não consome rodada por dano nesta interpretação.",
+    "status": "R05"
+  },
+  {
+    "id": "R13",
+    "situacao": "Golpe que causa a queda",
+    "resolucao": "Excesso não entra novamente na contagem a zero desta candidata.",
+    "status": "R07 pendente"
+  },
+  {
+    "id": "R14",
+    "situacao": "Insistir referência80",
+    "resolucao": "Paga10,20,40; máximos70,50,10.",
+    "status": "Fonte matemática; R08 temporal"
+  },
+  {
+    "id": "R15",
+    "situacao": "Insistir ativo e cura8",
+    "resolucao": "Sai de zero; mantém máximo reduzido e ganha Sequela.",
+    "status": "R09 pendente"
+  },
+  {
+    "id": "R16",
+    "situacao": "Insistir colapsado ref80/max10",
+    "resolucao": "Cura25+15 atinge40; volta com10.",
+    "status": "R10 interpretação"
+  },
+  {
+    "id": "R17",
+    "situacao": "Insistir repetido ref10",
+    "resolucao": "Custos2+3+5 zeram máximo; sem consequência completa definida.",
+    "status": "Bloqueio de integração"
+  },
+  {
+    "id": "R18",
+    "situacao": "Aguentar com2Sequelas",
+    "resolucao": "Janela1; dano positivo pode encerrá-la.",
+    "status": "R11"
+  },
+  {
+    "id": "R19",
+    "situacao": "Segunda queda e autocura Reversa",
+    "resolucao": "Ganha Sequela; evita nova Cicatriz.",
+    "status": "R11 delimita período"
+  },
+  {
+    "id": "R20",
+    "situacao": "Cicatriz antiga e cura própria",
+    "resolucao": "Não apaga a marca existente.",
+    "status": "Fonte"
+  },
+  {
+    "id": "R21",
+    "situacao": "Curto max10 saldo1",
+    "resolucao": "Ganha2, termina3; vida não volta sozinha.",
+    "status": "Fonte"
+  },
+  {
+    "id": "R22",
+    "situacao": "Curto max8 fora emexaustão0/1/2/3",
+    "resolucao": "Recupera2/1/1/0.",
+    "status": "Fonte"
+  },
+  {
+    "id": "R23",
+    "situacao": "Curto propício no degrau3",
+    "resolucao": "Recupera25%; mantém Exaustão.",
+    "status": "Fonte"
+  },
+  {
+    "id": "R24",
+    "situacao": "Longo fora max23 saldo3/18",
+    "resolucao": "Fica11/18, respectivamente.",
+    "status": "R13 proposto"
+  },
+  {
+    "id": "R25",
+    "situacao": "Exaustão movimento9 eIntegridade2",
+    "resolucao": "Menor entre4,5 e4,5 resulta4,5, sem multiplicação.",
+    "status": "R15 aprovado; combinação publicada"
+  },
+  {
+    "id": "R26",
+    "situacao": "Novo dia mantendoExaustão",
+    "resolucao": "Contagem de lutas reinicia; degraus permanecem.",
+    "status": "Fonte/explicitação"
+  },
+  {
+    "id": "R27",
+    "situacao": "Noite em missão",
+    "resolucao": "Renova por dia; candidata não concede longo; exemplo antigo diverge.",
+    "status": "R14 pendente"
+  },
+  {
+    "id": "R28",
+    "situacao": "Remenda e estágio anterior",
+    "resolucao": "Pontos voltam; estágio não limpa nesta candidata. Longo limpa para quem pode descansar.",
+    "status": "D10/R18 pendentes"
+  }
+]

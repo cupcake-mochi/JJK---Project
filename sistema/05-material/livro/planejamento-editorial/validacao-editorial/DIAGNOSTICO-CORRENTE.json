@@ -1,0 +1,1094 @@
+{
+  "ok": false,
+  "documentos": 10,
+  "achados": 99,
+  "itens": [
+    {
+      "codigo": "E002",
+      "linha": 99,
+      "termo": "Mão na Roda",
+      "donos": [
+        "guia"
+      ],
+      "trecho": "Uma habilidade pode mudar o custo, como Mão na Roda, do Guia. Ajudar não substitui o teste do aliado nem concede sucesso automático.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-basicas/lote-01/TESTES-E-TURNOS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 232,
+      "termo": "Mão Firme",
+      "donos": [
+        "aptidoes"
+      ],
+      "trecho": "Mão Firme dispensa o teste por dano de 10 ou menos. Outras exceções seguem suas descrições. As regras específicas de disputa entre domínios conservam sua própria contagem de falhas.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-basicas/lote-01/TESTES-E-TURNOS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 236,
+      "termo": "Carregar",
+      "donos": [
+        "fundamento"
+      ],
+      "trecho": "## Carregar",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-basicas/lote-01/TESTES-E-TURNOS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 238,
+      "termo": "Carregar",
+      "donos": [
+        "fundamento"
+      ],
+      "trecho": "A Restrição Carregar mantém um feitiço em preparação e usa TR de Espírito, conforme suas regras. Falhar perde o feitiço e o que foi pago por ele. A carga consome a Ação Padrão do turno de carga; Movimento e Ação Bônus permanecem. Esse teste não deve ser trocado pelo TR de Vigor da concentração.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-basicas/lote-01/TESTES-E-TURNOS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 99,
+      "termo": "Golpe Cirúrgico",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "> Exemplo: a Espada Longa de Sousuke causa 1d8 + 4. Num crítico, ele rola 2d8 + 4. Se Canalizar em Golpe acrescentar 3d4, o total será 2d8 + 4 + 3d4. Golpe Cirúrgico tem uma exceção própria que também dobra os dados de Canalizar e os dados adicionais daquela habilidade.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-basicas/lote-02/ATAQUES-E-DEFESA.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 99,
+      "termo": "Canalizar em Golpe",
+      "donos": [
+        "aptidoes"
+      ],
+      "trecho": "> Exemplo: a Espada Longa de Sousuke causa 1d8 + 4. Num crítico, ele rola 2d8 + 4. Se Canalizar em Golpe acrescentar 3d4, o total será 2d8 + 4 + 3d4. Golpe Cirúrgico tem uma exceção própria que também dobra os dados de Canalizar e os dados adicionais daquela habilidade.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-basicas/lote-02/ATAQUES-E-DEFESA.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 163,
+      "termo": "Duro de Matar",
+      "donos": [
+        "bastião"
+      ],
+      "trecho": "Bloquear não pode ser usado contra um Teste de Resistência nem contra um efeito Automático. Um 20 natural continua sendo um acerto crítico, independentemente do resultado de Bloquear. Uma habilidade pode ainda usar os dados dessa rolagem, como Duro de Matar, seguindo seu próprio texto.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-basicas/lote-02/ATAQUES-E-DEFESA.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 42,
+      "termo": "Energia Reversa",
+      "donos": [
+        "aptidoes"
+      ],
+      "trecho": "| Especiais | Radiante, Necrótico, Psíquico, Energia Reversa, Força e Alma. |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 48,
+      "termo": "Projetar Energia",
+      "donos": [
+        "aptidoes"
+      ],
+      "trecho": "Força é o tipo usado para energia amaldiçoada pura, projetada como um impacto ou disparo, sem outro tipo indicado pelo efeito. Projetar Energia causa dano de Força. Ele pertence ao grupo Especiais.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 66,
+      "termo": "Energia Reversa",
+      "donos": [
+        "aptidoes"
+      ],
+      "trecho": "Alma afeta uma reserva adicional, a Integridade, conforme a regra de dano na alma. Energia Reversa permanece um tipo de dano distinto de Alma e de Radiante; a aptidão ou o feitiço que o usar informa seus alvos e efeitos. Esses nomes não concedem novas permissões de conjuração.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 79,
+      "termo": "Cobrir-se de energia",
+      "donos": [
+        "aptidoes"
+      ],
+      "trecho": "## Cobrir-se de energia",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 87,
+      "termo": "Bastião",
+      "donos": [
+        "bastião"
+      ],
+      "trecho": "## Reduções do Bastião",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 89,
+      "termo": "Duro de Matar",
+      "donos": [
+        "bastião"
+      ],
+      "trecho": "Duro de Matar funciona sempre que seu Bloquear falhar. Some os dois dados de Bloquear e sua Constituição, sem incluir o modificador de Defesa. A habilidade não tem limite de uma vez por rodada.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 91,
+      "termo": "Olhos Em Mim",
+      "donos": [
+        "bastião"
+      ],
+      "trecho": "Casca Grossa tem outro gatilho: um ataque assumido por Olhos Em Mim acertou você. Depois da resolução da Defesa ou de Bloquear, role 2d10 - 1 + Constituição e reduza esse valor. Ela se soma às reduções aplicáveis, inclusive Duro de Matar quando Bloquear tiver falhado.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 91,
+      "termo": "Duro de Matar",
+      "donos": [
+        "bastião"
+      ],
+      "trecho": "Casca Grossa tem outro gatilho: um ataque assumido por Olhos Em Mim acertou você. Depois da resolução da Defesa ou de Bloquear, role 2d10 - 1 + Constituição e reduza esse valor. Ela se soma às reduções aplicáveis, inclusive Duro de Matar quando Bloquear tiver falhado.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 91,
+      "termo": "Casca Grossa",
+      "donos": [
+        "bastião"
+      ],
+      "trecho": "Casca Grossa tem outro gatilho: um ataque assumido por Olhos Em Mim acertou você. Depois da resolução da Defesa ou de Bloquear, role 2d10 - 1 + Constituição e reduza esse valor. Ela se soma às reduções aplicáveis, inclusive Duro de Matar quando Bloquear tiver falhado.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 93,
+      "termo": "Duro de Matar",
+      "donos": [
+        "bastião"
+      ],
+      "trecho": "> Exemplo: um Muro com Constituição 3 assume um golpe e falha em Bloquear, cujos dados foram 7 e 4. Duro de Matar reduz 14. Casca Grossa resulta em 6 e 5: 6 + 5 - 1 + 3 = 13. Se o golpe causaria 40, restam 13 de dano. Se Alicerce desse resistência ao tipo, os 40 cairiam primeiro para 20, e as duas reduções zerariam o dano.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 93,
+      "termo": "Alicerce",
+      "donos": [
+        "bastião"
+      ],
+      "trecho": "> Exemplo: um Muro com Constituição 3 assume um golpe e falha em Bloquear, cujos dados foram 7 e 4. Duro de Matar reduz 14. Casca Grossa resulta em 6 e 5: 6 + 5 - 1 + 3 = 13. Se o golpe causaria 40, restam 13 de dano. Se Alicerce desse resistência ao tipo, os 40 cairiam primeiro para 20, e as duas reduções zerariam o dano.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 93,
+      "termo": "Casca Grossa",
+      "donos": [
+        "bastião"
+      ],
+      "trecho": "> Exemplo: um Muro com Constituição 3 assume um golpe e falha em Bloquear, cujos dados foram 7 e 4. Duro de Matar reduz 14. Casca Grossa resulta em 6 e 5: 6 + 5 - 1 + 3 = 13. Se o golpe causaria 40, restam 13 de dano. Se Alicerce desse resistência ao tipo, os 40 cairiam primeiro para 20, e as duas reduções zerariam o dano.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 95,
+      "termo": "Duro de Matar",
+      "donos": [
+        "bastião"
+      ],
+      "trecho": "Assumir um golpe já gasta sua Reação antes da rolagem. Se essa for a única Reação disponível, você não pode também pagar Cobrir-se de energia contra ele. Bloquear, Duro de Matar e Casca Grossa não exigem essa segunda Reação.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 95,
+      "termo": "Casca Grossa",
+      "donos": [
+        "bastião"
+      ],
+      "trecho": "Assumir um golpe já gasta sua Reação antes da rolagem. Se essa for a única Reação disponível, você não pode também pagar Cobrir-se de energia contra ele. Bloquear, Duro de Matar e Casca Grossa não exigem essa segunda Reação.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 95,
+      "termo": "Assumir um golpe",
+      "donos": [
+        "bastião"
+      ],
+      "trecho": "Assumir um golpe já gasta sua Reação antes da rolagem. Se essa for a única Reação disponível, você não pode também pagar Cobrir-se de energia contra ele. Bloquear, Duro de Matar e Casca Grossa não exigem essa segunda Reação.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 95,
+      "termo": "Cobrir-se de energia",
+      "donos": [
+        "aptidoes"
+      ],
+      "trecho": "Assumir um golpe já gasta sua Reação antes da rolagem. Se essa for a única Reação disponível, você não pode também pagar Cobrir-se de energia contra ele. Bloquear, Duro de Matar e Casca Grossa não exigem essa segunda Reação.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 135,
+      "termo": "Remenda",
+      "donos": [
+        "fundamento"
+      ],
+      "trecho": "Cura comum devolve vida, sem restaurar Integridade. O descanso longo devolve toda a Integridade e limpa os estágios. Remenda recupera Integridade conforme sua descrição; recuperar pontos não remove, por si só, um estágio já atingido. Ao chegar a zero de vida, resolva também Aguentar e Insistir. O estágio 4 encerra a possibilidade de Aguentar.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 183,
+      "termo": "Golpe Cirúrgico",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "Você conserva suas ações e sua Defesa estática. O crítico segue a regra de dados dobrados e suas exceções expressas, como Golpe Cirúrgico. A condição não faz o ataque acertar automaticamente.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 14,
+      "termo": "Cuidado Preparado",
+      "donos": [
+        "guia"
+      ],
+      "trecho": "> Exemplo: Cuidado Preparado, da Trilha Sutura, atende um aliado com pelo menos 1 de vida e menos da metade da vida máxima atual. Um aliado com 45 de 100 pode recebê-lo. Se recuperar 10, fica com 55; já não cumpre o requisito para outra cura desse Cuidado. Com zero de vida, precisa de outro recurso de socorro.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-basicas/lote-04/RECUPERACAO.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 18,
+      "termo": "Energia Reversa",
+      "donos": [
+        "aptidoes"
+      ],
+      "trecho": "A fonte e o alvo precisam ser compatíveis. Pela regra da Origem Corpo Amaldiçoado, Energia Reversa não recupera sua vida. Essa Origem admite técnicas cuja Regra alcance o reparo de um corpo construído; não existe proibição geral de curá-la em combate.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-basicas/lote-04/RECUPERACAO.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 18,
+      "termo": "Corpo Amaldiçoado",
+      "donos": [
+        "origens"
+      ],
+      "trecho": "A fonte e o alvo precisam ser compatíveis. Pela regra da Origem Corpo Amaldiçoado, Energia Reversa não recupera sua vida. Essa Origem admite técnicas cuja Regra alcance o reparo de um corpo construído; não existe proibição geral de curá-la em combate.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-basicas/lote-04/RECUPERACAO.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 24,
+      "termo": "Remenda",
+      "donos": [
+        "fundamento"
+      ],
+      "trecho": "Cura de vida não recupera Integridade. A Melhoria Remenda devolve 5 × Classe de Integridade a um aliado, limitada a uma vez por cena por alvo e ao máximo dessa reserva. Ela não é Levanta e não socorre alguém a zero de vida por si só.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-basicas/lote-04/RECUPERACAO.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 82,
+      "termo": "Levanta",
+      "donos": [
+        "fundamento"
+      ],
+      "trecho": "Uma cura de 20% ou mais da máxima de referência, de uma vez, permite voltar a agir. Arredonde o valor exigido para cima. A Melhoria Levanta permite o retorno com seu próprio valor de cura, mesmo abaixo desse limiar.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-basicas/lote-04/RECUPERACAO.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 131,
+      "termo": "Energia Reversa",
+      "donos": [
+        "aptidoes"
+      ],
+      "trecho": "Levantar de uma queda deixa uma Sequela. Registre uma sempre que sair do estado causado por chegar a zero, inclusive com Levanta ou cura própria. As Sequelas desaparecem no descanso longo; cura comum e Energia Reversa não as removem antes disso.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-basicas/lote-04/RECUPERACAO.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 152,
+      "termo": "Energia Reversa",
+      "donos": [
+        "aptidoes"
+      ],
+      "trecho": "A Cicatriz dessa queda não se forma se quem fechar o ferimento for sua própria Energia Reversa. Cura de outra fonte, inclusive Energia Reversa de outra pessoa, deixa a marca. A exceção evita a nova Cicatriz; não apaga uma que já exista.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-basicas/lote-04/RECUPERACAO.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 154,
+      "termo": "Energia Reversa",
+      "donos": [
+        "aptidoes"
+      ],
+      "trecho": "> Exemplo: na segunda queda, Kaito escolhe Insistir e usa sua própria Energia Reversa para sair de zero. Ganha a Sequela, mas evita a Cicatriz dessa queda. Se fosse levantado pela cura de um aliado, receberia ambas.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-basicas/lote-04/RECUPERACAO.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 18,
+      "termo": "Movimento Acrobático",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "| Conferir movimento especial de uma Trilha | Movimento Acrobático e Parkour. |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 18,
+      "termo": "Parkour",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "| Conferir movimento especial de uma Trilha | Movimento Acrobático e Parkour. |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 66,
+      "termo": "Incursor",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "As travessias especiais do Incursor e suas Trilhas estão em Movimento Acrobático e Parkour.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 66,
+      "termo": "Movimento Acrobático",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "As travessias especiais do Incursor e suas Trilhas estão em Movimento Acrobático e Parkour.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 66,
+      "termo": "Parkour",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "As travessias especiais do Incursor e suas Trilhas estão em Movimento Acrobático e Parkour.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 125,
+      "termo": "Incursor",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "> Exemplo: um Incursor com 14 de Vida cai 4,5 m. O d6 resulta em 4: ele fica com 10 de Vida e Derrubado. As regras comuns não concedem uma tentativa gratuita de anular essa queda com Acrobacia.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 198,
+      "termo": "Incursor",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "Incursor: pode usar Esconder como Ação Bônus desde o nível 2. Assassino de nível 11: Desaparecer no Percurso permite a tentativa sem ação nas condições da Trilha. Ambos continuam precisando de posição adequada e teste. Essas permissões não são concedidas pela regra comum.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 198,
+      "termo": "Assassino",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "Incursor: pode usar Esconder como Ação Bônus desde o nível 2. Assassino de nível 11: Desaparecer no Percurso permite a tentativa sem ação nas condições da Trilha. Ambos continuam precisando de posição adequada e teste. Essas permissões não são concedidas pela regra comum.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 198,
+      "termo": "Desaparecer no Percurso",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "Incursor: pode usar Esconder como Ação Bônus desde o nível 2. Assassino de nível 11: Desaparecer no Percurso permite a tentativa sem ação nas condições da Trilha. Ambos continuam precisando de posição adequada e teste. Essas permissões não são concedidas pela regra comum.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 249,
+      "termo": "Assassino",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "## Oportunidades do Assassino",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 251,
+      "termo": "Alvo Estudado",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "Golpe Cirúrgico e Cortar a Fuga continuam exigindo os requisitos e custos próprios. Estar oculto é uma das oportunidades de abate, e Parkour fornece outras. Sentença Final exige estar oculto do Alvo Estudado ao declarar o ataque. Descoberta posterior não desfaz um ataque já resolvido.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 251,
+      "termo": "Golpe Cirúrgico",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "Golpe Cirúrgico e Cortar a Fuga continuam exigindo os requisitos e custos próprios. Estar oculto é uma das oportunidades de abate, e Parkour fornece outras. Sentença Final exige estar oculto do Alvo Estudado ao declarar o ataque. Descoberta posterior não desfaz um ataque já resolvido.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 251,
+      "termo": "Cortar a Fuga",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "Golpe Cirúrgico e Cortar a Fuga continuam exigindo os requisitos e custos próprios. Estar oculto é uma das oportunidades de abate, e Parkour fornece outras. Sentença Final exige estar oculto do Alvo Estudado ao declarar o ataque. Descoberta posterior não desfaz um ataque já resolvido.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 251,
+      "termo": "Parkour",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "Golpe Cirúrgico e Cortar a Fuga continuam exigindo os requisitos e custos próprios. Estar oculto é uma das oportunidades de abate, e Parkour fornece outras. Sentença Final exige estar oculto do Alvo Estudado ao declarar o ataque. Descoberta posterior não desfaz um ataque já resolvido.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 251,
+      "termo": "Sentença Final",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "Golpe Cirúrgico e Cortar a Fuga continuam exigindo os requisitos e custos próprios. Estar oculto é uma das oportunidades de abate, e Parkour fornece outras. Sentença Final exige estar oculto do Alvo Estudado ao declarar o ataque. Descoberta posterior não desfaz um ataque já resolvido.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 253,
+      "termo": "Incursor",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "> Exemplo: Rina se esconde atrás das caixas e dispara um arco pela lateral. Ataca com vantagem, mas o disparo revela sua posição aos vigias que o percebem. Voltar atrás das caixas não recupera a ocultação. Ela precisa usar Esconder de novo; um Incursor pode fazê-lo com Ação Bônus. Um Assassino de nível 11 pode usar Desaparecer no Percurso, no momento e nas condições da Trilha.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 253,
+      "termo": "Assassino",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "> Exemplo: Rina se esconde atrás das caixas e dispara um arco pela lateral. Ataca com vantagem, mas o disparo revela sua posição aos vigias que o percebem. Voltar atrás das caixas não recupera a ocultação. Ela precisa usar Esconder de novo; um Incursor pode fazê-lo com Ação Bônus. Um Assassino de nível 11 pode usar Desaparecer no Percurso, no momento e nas condições da Trilha.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 253,
+      "termo": "Desaparecer no Percurso",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "> Exemplo: Rina se esconde atrás das caixas e dispara um arco pela lateral. Ataca com vantagem, mas o disparo revela sua posição aos vigias que o percebem. Voltar atrás das caixas não recupera a ocultação. Ela precisa usar Esconder de novo; um Incursor pode fazê-lo com Ação Bônus. Um Assassino de nível 11 pode usar Desaparecer no Percurso, no momento e nas condições da Trilha.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 274,
+      "termo": "Fluidez",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "A manobra substitui o dano: não há rolagem de ataque, crítico nem dano de Canalizar. Ela não conta como acerto ou erro e não ativa efeitos que dependem deles, como ganhar Fluidez por acertar. Proteções contra TR Físico provocado por ataque podem se aplicar; defesas que exijam rolagem de ataque ou acerto não. Ainda faz parte da Ação Atacar.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 276,
+      "termo": "Pugilista",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "Pugilista: nas manobras desarmadas desta ação, pode usar sua CD de Trilha no lugar da CD comum. Os custos e efeitos da manobra permanecem os mesmos.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 317,
+      "termo": "Fluidez",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "| Recuperar a Base | Permite tentar escapar com Fluidez, sem Ação Padrão, e inverter nas condições da habilidade. |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 317,
+      "termo": "Recuperar a Base",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "| Recuperar a Base | Permite tentar escapar com Fluidez, sem Ação Padrão, e inverter nas condições da habilidade. |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 318,
+      "termo": "Interceptar e Prender",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "| Interceptar e Prender | Usa a Reação no momento indicado e pode inutilizar a arma ou o membro preso. |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 319,
+      "termo": "Projeção Marcial",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "| Projeção Marcial | Lança o alvo e resolve dano, queda e colisão pelos próprios custos e testes. |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 320,
+      "termo": "Mão Pesada",
+      "donos": [
+        "bastião"
+      ],
+      "trecho": "| Mão Pesada / Cortar a Fuga | Acrescentam controle ao golpe nas condições das habilidades. |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 320,
+      "termo": "Cortar a Fuga",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "| Mão Pesada / Cortar a Fuga | Acrescentam controle ao golpe nas condições das habilidades. |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 356,
+      "termo": "Analista",
+      "donos": [
+        "guia"
+      ],
+      "trecho": "Estudar não concede vantagem no ataque, acesso à ficha inteira do alvo nem certeza sobre sua próxima decisão. Estudar a Guarda, do Assassino, e as previsões do Analista são habilidades específicas: usam seus próprios custos e concedem os benefícios escritos nelas.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 356,
+      "termo": "Assassino",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "Estudar não concede vantagem no ataque, acesso à ficha inteira do alvo nem certeza sobre sua próxima decisão. Estudar a Guarda, do Assassino, e as previsões do Analista são habilidades específicas: usam seus próprios custos e concedem os benefícios escritos nelas.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 356,
+      "termo": "Estudar a Guarda",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "Estudar não concede vantagem no ataque, acesso à ficha inteira do alvo nem certeza sobre sua próxima decisão. Estudar a Guarda, do Assassino, e as previsões do Analista são habilidades específicas: usam seus próprios custos e concedem os benefícios escritos nelas.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 379,
+      "termo": "Ataque Extra",
+      "donos": [
+        "bastião",
+        "vanguarda"
+      ],
+      "trecho": "Ao preparar Atacar, realize a ação com os ataques que suas habilidades permitem, respeitando seus limites por rodada. Preparar não renova um ataque extra já utilizado nem libera efeitos restritos ao seu próprio turno. Você não recebe junto uma Ação Bônus ou uma Ação de Movimento.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 381,
+      "termo": "Movimento Acrobático",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "O deslocamento preparado concede metros adicionais iguais ao seu deslocamento no momento da resposta. Não usa o saldo do turno anterior, não renova o limite de Movimento Acrobático nem inclui ataque. Terreno, condições e ataques de oportunidade continuam valendo.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 508,
+      "termo": "Assassino",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "Rina pode indicar o primeiro espaço a Kaori. Se Kaori arremessar uma arma que dispense visão e a trajetória estiver livre, ainda terá desvantagem por não enxergar. Sentir Energia não fornece a Rina o benefício de Vulto nem permite ao Assassino escolher um Alvo Estudado que ele não consiga enxergar.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 508,
+      "termo": "Alvo Estudado",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "Rina pode indicar o primeiro espaço a Kaori. Se Kaori arremessar uma arma que dispense visão e a trajetória estiver livre, ainda terá desvantagem por não enxergar. Sentir Energia não fornece a Rina o benefício de Vulto nem permite ao Assassino escolher um Alvo Estudado que ele não consiga enxergar.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 521,
+      "termo": "Movimento Acrobático",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "# Movimento Acrobático e Parkour",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 521,
+      "termo": "Parkour",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "# Movimento Acrobático e Parkour",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 523,
+      "termo": "Incursor",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "## Incursor e Movimento Acrobático",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 523,
+      "termo": "Movimento Acrobático",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "## Incursor e Movimento Acrobático",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 525,
+      "termo": "Incursor",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "O Incursor recebe 3 m adicionais de deslocamento. Seu Movimento Acrobático permite as travessias descritas na habilidade, usando movimento disponível: cada 1,5 m custa 1,5 m, ou 3 m em terreno difícil. Não some o custo da escalada comum.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 525,
+      "termo": "Movimento Acrobático",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "O Incursor recebe 3 m adicionais de deslocamento. Seu Movimento Acrobático permite as travessias descritas na habilidade, usando movimento disponível: cada 1,5 m custa 1,5 m, ou 3 m em terreno difícil. Não some o custo da escalada comum.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 529,
+      "termo": "Passo Guardado",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "O limite começa completo no combate e renova no começo do seu turno. Correr não o renova. Passo Rápido e Passo Guardado usam o mesmo limite até o próximo turno. Fora de combate, conte um percurso contínuo entre apoios permitidos; cenas que precisem de controle de tempo usam turnos.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 529,
+      "termo": "Passo Rápido",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "O limite começa completo no combate e renova no começo do seu turno. Correr não o renova. Passo Rápido e Passo Guardado usam o mesmo limite até o próximo turno. Fora de combate, conte um percurso contínuo entre apoios permitidos; cenas que precisem de controle de tempo usam turnos.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 531,
+      "termo": "Um Passo à Frente",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "Se seu deslocamento mudar, recalcule o limite. Se já o tiver consumido, termine o trecho acrobático; sem apoio permitido, você cai. Um Passo à Frente antecipa seu turno e renova o limite ali, substituindo a renovação da posição habitual naquela rodada.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 533,
+      "termo": "Parkour",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "## Os apoios do Parkour",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 535,
+      "termo": "Assassino",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "Terminar o percurso acrobático pendurado numa borda ou sustentado por apoios especiais pertence ao Parkour do Assassino. A habilidade também permite usar a vítima como apoio e trocar Atletismo por Acrobacia nos testes previstos. As regras comuns não concedem esses benefícios nem uma Reação geral para agarrar uma borda durante a queda.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 535,
+      "termo": "Parkour",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "Terminar o percurso acrobático pendurado numa borda ou sustentado por apoios especiais pertence ao Parkour do Assassino. A habilidade também permite usar a vítima como apoio e trocar Atletismo por Acrobacia nos testes previstos. As regras comuns não concedem esses benefícios nem uma Reação geral para agarrar uma borda durante a queda.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 539,
+      "termo": "Assassino",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "> Exemplo: um Assassino de Força 0 e Acrobacia +4 tem deslocamento 12 m. Percorre 6 m de parede e tenta saltar 4,5 m. Seu salto normal é 3 m: precisa do esforço adicional. Tira 10 e soma 4, alcançando a CD 14. Gastou 10,5 m e restam 1,5 m. O ataque de aproximação segue os custos da Trilha; o percurso não concede outro ataque.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 543,
+      "termo": "Recuperar a Base",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "Recuperar a Base: confira a distância empurrada contra metade do deslocamento anterior ao efeito, sem somar a altura da queda. Resolva o retorno com as condições atuais e por um caminho possível. Ele não desfaz dano nem devolve automaticamente alguém à plataforma.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 545,
+      "termo": "Passo Guardado",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "Passo Guardado: o movimento vem depois do ataque ou TR que o permite. Mantém seus metros adicionais e sua proteção específica contra oportunidade; precisa de um percurso possível.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 547,
+      "termo": "Projeção Marcial",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "Projeção Marcial: a colisão copia somente o dano próprio da habilidade. Se uma criatura cair de uma beirada, só ela recebe o dano dessa queda.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 549,
+      "termo": "Pugilista",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "Movimento sobre líquidos: o Pugilista usa o mesmo limite acrobático. Ao terminar, precisa de apoio normal; se ficar na água, passa a nadar.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 91,
+      "termo": "Ataque Extra",
+      "donos": [
+        "bastião",
+        "vanguarda"
+      ],
+      "trecho": "Passo Rápido continua separado. O Caminho base não recebe Ataque Extra.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/lote-06-r3/sincronizacoes/INCURSOR-COMPLETO.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 181,
+      "termo": "Canalizar em Golpe",
+      "donos": [
+        "aptidoes"
+      ],
+      "trecho": "Além disso, acrescente X dados ao dano normal de Canalizar em Golpe. Os dados adicionais têm o mesmo tamanho dos dados utilizados normalmente em Canalizar e são rolados normalmente.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/lote-06-r3/sincronizacoes/INCURSOR-COMPLETO.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 185,
+      "termo": "Canalizar em Golpe",
+      "donos": [
+        "aptidoes"
+      ],
+      "trecho": "Em um crítico com Golpe Cirúrgico, a arma segue a regra normal de crítico, com seus dados dobrados e rolados, e você dobra tanto os dados normais de Canalizar em Golpe quanto os dados adicionais concedidos por esta habilidade. Role todos esses dados normalmente. Os demais efeitos seguem suas próprias regras.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/lote-06-r3/sincronizacoes/INCURSOR-COMPLETO.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 314,
+      "termo": "Compasso",
+      "donos": [
+        "vanguarda"
+      ],
+      "trecho": "| 2 | Corpo Treinado, Quebrar o Compasso e Recuperar a Base. |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/lote-06-r3/sincronizacoes/INCURSOR-COMPLETO.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 357,
+      "termo": "Compasso",
+      "donos": [
+        "vanguarda"
+      ],
+      "trecho": "#### Nível 2 Quebrar o Compasso",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/lote-06-r3/sincronizacoes/INCURSOR-COMPLETO.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 416,
+      "termo": "Compasso",
+      "donos": [
+        "vanguarda"
+      ],
+      "trecho": "Ao utilizar Quebrar o Compasso, você pode gastar 6 PE adicionais para tentar bloquear os movimentos do alvo. Declare e pague esse custo antes do TR de Vigor.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/lote-06-r3/sincronizacoes/INCURSOR-COMPLETO.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 420,
+      "termo": "Compasso",
+      "donos": [
+        "vanguarda"
+      ],
+      "trecho": "O efeito utiliza o mesmo acerto, gasto de Fluidez, TR de Vigor e limite de uso de Quebrar o Compasso. O dano do ataque é resolvido normalmente; o alvo não precisa estar Agarrado. No sucesso do TR, o bloqueio não se aplica e os custos permanecem gastos.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/lote-06-r3/sincronizacoes/INCURSOR-COMPLETO.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 436,
+      "termo": "Compasso",
+      "donos": [
+        "vanguarda"
+      ],
+      "trecho": "Projeção Marcial é resolvida pelo TR do alvo, sem rolagem de ataque. Ela não causa crítico, não gera Fluidez por acerto e não ativa efeitos que exigem acertar um ataque, como Quebrar o Compasso.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/lote-06-r3/sincronizacoes/INCURSOR-COMPLETO.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 521,
+      "termo": "Canalizar em Golpe",
+      "donos": [
+        "aptidoes"
+      ],
+      "trecho": "Pode combinar ataques corpo a corpo e arremessos, usar a mesma arma ou armas diferentes e atacar a mesma criatura ou criaturas diferentes. Cada ataque é resolvido separadamente, com seu dano e seus requisitos normais. Canalizar em Golpe ou Estímulo permanece sujeito às próprias regras.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/lote-06-r3/sincronizacoes/INCURSOR-COMPLETO.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 549,
+      "termo": "Canalizar em Golpe",
+      "donos": [
+        "aptidoes"
+      ],
+      "trecho": "Essa continuação é um ataque adicional, sem consumir outro ataque disponível nem exigir uma ação, resolvido imediatamente. Pague antes da nova rolagem. O ataque causa o dano normal da arma, incluindo Canalizar em Golpe ou Estímulo quando aplicável, e resolve seu crítico normalmente. A distância e a cobertura são conferidas a partir da primeira criatura; o trajeto precisa estar livre. Os 6 m são o limite dessa continuação e não recebem outro acréscimo de Ricochete. As demais condições da sua posição continuam relevantes, inclusive estar colado a um inimigo ao arremessar.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/lote-06-r3/sincronizacoes/INCURSOR-COMPLETO.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 621,
+      "termo": "Canalizar em Golpe",
+      "donos": [
+        "aptidoes"
+      ],
+      "trecho": "- Cada acerto causa o dano normal da arma, incluindo Canalizar em Golpe ou Estímulo quando aplicável, e resolve seu crítico normalmente.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "regras-comuns/lote-06-r3/sincronizacoes/INCURSOR-COMPLETO.md"
+    },
+    {
+      "codigo": "E003",
+      "linha": null,
+      "termo": "Trecho repetido",
+      "dono": "bastião",
+      "fonte": "caminhos/05-Edicao-Integrada/01-Bastião-Caminho-e-Trilhas.md",
+      "trecho": "o caminho treina voce nessa lista de armas ele nao te da a arma o que voce leva na mao voce compra na criacao",
+      "motivo": "Sequência de24 palavras de texto de habilidade repetida fora do dono.",
+      "arquivo": "regras-comuns/lote-06-r3/sincronizacoes/INCURSOR-COMPLETO.md"
+    },
+    {
+      "codigo": "E003",
+      "linha": null,
+      "termo": "Trecho repetido",
+      "dono": "vanguarda",
+      "fonte": "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md",
+      "trecho": "o caminho treina voce nessa lista de armas ele nao te da a arma o que voce leva na mao voce compra na criacao",
+      "motivo": "Sequência de24 palavras de texto de habilidade repetida fora do dono.",
+      "arquivo": "regras-comuns/lote-06-r3/sincronizacoes/INCURSOR-COMPLETO.md"
+    },
+    {
+      "codigo": "E003",
+      "linha": null,
+      "termo": "Trecho repetido",
+      "dono": "emanador",
+      "fonte": "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md",
+      "trecho": "o caminho treina voce nessa lista de armas ele nao te da a arma o que voce leva na mao voce compra na criacao",
+      "motivo": "Sequência de24 palavras de texto de habilidade repetida fora do dono.",
+      "arquivo": "regras-comuns/lote-06-r3/sincronizacoes/INCURSOR-COMPLETO.md"
+    },
+    {
+      "codigo": "E003",
+      "linha": null,
+      "termo": "Trecho repetido",
+      "dono": "guia",
+      "fonte": "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md",
+      "trecho": "o caminho treina voce nessa lista de armas ele nao te da a arma o que voce leva na mao voce compra na criacao",
+      "motivo": "Sequência de24 palavras de texto de habilidade repetida fora do dono.",
+      "arquivo": "regras-comuns/lote-06-r3/sincronizacoes/INCURSOR-COMPLETO.md"
+    },
+    {
+      "codigo": "E003",
+      "linha": null,
+      "termo": "Trecho repetido",
+      "dono": "evocador",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "trecho": "o caminho treina voce nessa lista de armas ele nao te da a arma o que voce leva na mao voce compra na criacao",
+      "motivo": "Sequência de24 palavras de texto de habilidade repetida fora do dono.",
+      "arquivo": "regras-comuns/lote-06-r3/sincronizacoes/INCURSOR-COMPLETO.md"
+    }
+  ],
+  "limites": "Nomes dependem do cadastro; cópia detectada por24 palavras; paráfrases exigem revisão contextual. O parecer exigido na exportação é evidência de leitura, não prova automática de compreensão."
+}

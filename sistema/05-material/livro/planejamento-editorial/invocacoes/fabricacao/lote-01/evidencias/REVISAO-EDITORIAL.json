@@ -1,0 +1,52 @@
+{
+  "sha256_texto": "61920e6d08f0cae38bf03d2ed27a0e5df06dd9d4f7f780495453bd47fb29847a",
+  "revisor": "maxima; autorrevisão contextual, não leitor independente",
+  "secoes": [
+    {
+      "pagina": "fab-entidades",
+      "titulo": "Fabricação de entidades",
+      "clareza": "Abre resultado e separa aquisição da montagem. Define quem fabrica e para quem antes de teste.",
+      "redundancia_localizacao": "Limite por dois níveis fecha contratação indevida; sem lista de poderes alheios. Receita necessária não exige origem/técnica.",
+      "suficiencia": "Suficiente para escolher responsável; receita detalhada depende da campanha, declarado.",
+      "vocabulario": "Termos de sistema já definidos nos donos; títulos diretos; nenhuma narrativa ornamental.",
+      "comparacao_RPG": "Sequência requisitos→materiais/tempo→resolução→exemplo; comparação documental com PHB2024, sem copiar prosa ou economia."
+    },
+    {
+      "pagina": "fab-projeto",
+      "titulo": "Projeto de fabricação",
+      "clareza": "Campos visíveis, itens concretos e dinheiro antes do gasto.",
+      "redundancia_localizacao": "Material/tempo não repetem catálogo. Distingue componente físico de poder e compra de ferramenta.",
+      "suficiencia": "Suficiente para combinar orçamento; não vende exemplo como preço universal. Risco entre mesas permanece.",
+      "vocabulario": "Termos de sistema já definidos nos donos; títulos diretos; nenhuma narrativa ornamental.",
+      "comparacao_RPG": "Sequência requisitos→materiais/tempo→resolução→exemplo; comparação documental com PHB2024, sem copiar prosa ou economia."
+    },
+    {
+      "pagina": "fab-teste",
+      "titulo": "Teste de fabricação",
+      "clareza": "Procedimento principal e depois falha. Tabela de três situações, fórmula e exemplo limiar.",
+      "redundancia_localizacao": "CD do criador, não CD fixa; bônus adicionais apenas no teste. Não repete a lista de Ofícios.",
+      "suficiencia": "Leitor pode rolar sem inventar estágio extra; responsável único e retrabalho impedem repetição gratuita.",
+      "vocabulario": "Termos de sistema já definidos nos donos; títulos diretos; nenhuma narrativa ornamental.",
+      "comparacao_RPG": "Sequência requisitos→materiais/tempo→resolução→exemplo; comparação documental com PHB2024, sem copiar prosa ou economia."
+    },
+    {
+      "pagina": "fab-conclusao",
+      "titulo": "Conclusão e transferência",
+      "clareza": "Estados finais antes da exceção de herança; mantém quem controla e quando muda.",
+      "redundancia_localizacao": "Uma só regra de transferência e limites de campo remetidos. Vida e carga não renovam pela troca.",
+      "suficiencia": "Página mais densa: conferir visual. Controle, propriedade e objeto sem controlador vivos distintos no texto.",
+      "vocabulario": "Termos de sistema já definidos nos donos; títulos diretos; nenhuma narrativa ornamental.",
+      "comparacao_RPG": "Sequência requisitos→materiais/tempo→resolução→exemplo; comparação documental com PHB2024, sem copiar prosa ou economia."
+    },
+    {
+      "pagina": "fab-exemplo",
+      "titulo": "Talismã de vigia",
+      "clareza": "Demonstra falha e decisão de continuar; total de tempo/dinheiro fica visível.",
+      "redundancia_localizacao": "Não repete montagem completa nem inventa habilidade; objeto9 e criadora13 remetem àregra já ensinada.",
+      "suficiencia": "Suficiente como projeto demonstrativo, com aviso de valores locais. Não certifica disponibilidade/gasto em mesa.",
+      "vocabulario": "Termos de sistema já definidos nos donos; títulos diretos; nenhuma narrativa ornamental.",
+      "comparacao_RPG": "Sequência requisitos→materiais/tempo→resolução→exemplo; comparação documental com PHB2024, sem copiar prosa ou economia."
+    }
+  ],
+  "delta_nominal_final": "DELTA-QA-FINAL.json"
+}

@@ -1,0 +1,11 @@
+{
+  "sha256_texto": "483925447a9de1d0bc32fa2dfe46af1b079438106881b67ced66f0fefe10e653",
+  "titulos_revisto": true,
+  "sem_explicacao_alheia": true,
+  "vocabulario_revisto": true,
+  "revisor": "compatibilidade — releitura integral das 13 páginas",
+  "excecoes_vocabulario": [],
+  "excecoes_localizacao": [],
+  "revisao_adicional": "Raiz leu PRO35/OR35: títulos diretos, patente definida no dono, remissões sem repetir bônus ou procedimentos externos. Vocabulário reconhecimento/instituição/Grau explicitado. Nenhum artigo inicial novo.",
+  "delta_nominal_final": "DELTA-QA-FINAL.json"
+}

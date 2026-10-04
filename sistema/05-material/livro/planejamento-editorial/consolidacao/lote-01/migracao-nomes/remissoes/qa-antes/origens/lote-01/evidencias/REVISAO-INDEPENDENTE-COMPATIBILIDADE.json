@@ -1,0 +1,3296 @@
+{
+  "revisor": "compatibilidade — independente da autoria R20",
+  "sha256_texto": "1bc29a638b68f985a296a5e960290ea4b0325e33b7db41e6a86da5eb830be3a2",
+  "sha256_snapshot_inicial": "7685a83172db598c7d9add34767ef8fabc851a43952ae599d0552cd9819d62ff",
+  "escopo": "Leitura integral da candidata (26 páginas lógicas) e manual25; leitura dirigida das decisões/regras de peça09/13 e interfaces R01/R03/R04/R09/R10/R11. Não equivale a leitura integral de toda fonte de interface.",
+  "conclusao": "Cobertura e frequências preservadas. Dois achados resolvidos pelo autor, conferidos na leitura dos parágrafos finais. Não restam bloqueadores identificados nesta revisão. Prova visual não revisada.",
+  "quantidades": {
+    "nomes_publicados": 85,
+    "frequencias": 49,
+    "checks": 167,
+    "perfis_reparo": 252,
+    "limiares_probabilidade": 21
+  },
+  "checks": [
+    {
+      "nome": "85 nomes únicos publicados",
+      "passou": true,
+      "motivo": "Extraídos diretamente de manual25, consolidando repetições de Sem Técnica."
+    },
+    {
+      "nome": "Cobertura O Jeito Errado",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura O Professor Que Você Não Teve",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura A Testemunha",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Sem Técnica",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Aprendi Apanhando",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Instinto Bruto",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Gambiarra",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Desconfiado",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Inédito",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Chão Duro",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura A Voz de Dentro",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura De Antes de Você",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Alcunha",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura O Que Ele Quer",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Não Sou Só Eu",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Costume Antigo",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Tranco",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Passagem",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Máscara",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Revezamento",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura O Sobrenome",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Armaria",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Arquivo",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Palavra Dada",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Treino de Berço",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Conversa de Jantar",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Etiqueta",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Repetição",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Biblioteca",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Coleira",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Cabo",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura O Que Ninguém Lembra",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Encomenda",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Quem Morava Aqui",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Enterrado",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Corpo Emprestado",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Espasmo",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Já Morri",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Método Velho",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Conhecimento Antigo",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Usado",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Irmãos",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Numeração",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Guardado",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Devagar",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Meio e Meio",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Como Se Monta",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Faro",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Paciência",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Sangue que Não é Sangue",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Talhe",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Ninhada",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Gêmeos",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Inteiro",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Manutenção",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Rodízio",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Vigília",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Desempate",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Cabeça Trocada",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Nunca os Dois",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Palpite",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Feito de Uma Peça",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Teimosia",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Peça Única",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Ajuste Fino",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Recarga",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Fiado",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Ferro Velho",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Nasci Assim",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura O Substituto",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura A Oferta",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Antena",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Do Meu Canto",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Insônia",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Li Tudo",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Descartado",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Dividido",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Desde Criança",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Aprendi a Ver",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Sentido Treinado",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Couro",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Ninguém Viu",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura No Braço",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Peso Real",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Cobertura Assinado",
+      "passou": true,
+      "motivo": "Nome publicado preservado; conteúdo também conferido na leitura integral."
+    },
+    {
+      "nome": "Frequência O Jeito Errado",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência Aprendi Apanhando",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência Instinto Bruto",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência Gambiarra",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência Desconfiado",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência A Voz de Dentro",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência O Que Ele Quer",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência Não Sou Só Eu",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência Costume Antigo",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência Tranco",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência Passagem",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência Revezamento",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência Conversa de Jantar",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência Etiqueta",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência Repetição",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência Biblioteca",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência Cabo",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência O Que Ninguém Lembra",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência Corpo Emprestado",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência Espasmo",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência Já Morri",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência Método Velho",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência Usado",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência Meio e Meio",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência Como Se Monta",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência Faro",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência Paciência",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência Talhe",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência Rodízio",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência Vigília",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência Desempate",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência Cabeça Trocada",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência Nunca os Dois",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência Palpite",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência Feito de Uma Peça",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência Teimosia",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência Peça Única",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência Ajuste Fino",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência Recarga",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência Fiado",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência Antena",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência Do Meu Canto",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência Insônia",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência Li Tudo",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência Sentido Treinado",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência Couro",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência Ninguém Viu",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência No Braço",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Frequência Assinado",
+      "passou": true,
+      "motivo": "Não adotar relógio histórico anterior ao manual vigente."
+    },
+    {
+      "nome": "Duas escolhas",
+      "passou": true,
+      "motivo": "Dois narrativos são permitidos, dois mecânicos não."
+    },
+    {
+      "nome": "Sem Técnica ocupa vaga",
+      "passou": true,
+      "motivo": "Origem principal conserva seus benefícios comuns."
+    },
+    {
+      "nome": "Sem Técnica limitada",
+      "passou": true,
+      "motivo": "Não combinação com as duas rotas especiais."
+    },
+    {
+      "nome": "Corpo uma configuração",
+      "passou": true,
+      "motivo": "Ninhada e Gêmeos não entregam listas juntas."
+    },
+    {
+      "nome": "Personalizado único",
+      "passou": true,
+      "motivo": "Preserva peça13§6."
+    },
+    {
+      "nome": "Imunidade329",
+      "passou": true,
+      "motivo": "Condição e tipo são separados."
+    },
+    {
+      "nome": "Cura326",
+      "passou": true,
+      "motivo": "Reparo por descanso curto; nenhuma cura por origem de energia."
+    },
+    {
+      "nome": "Reparo referência",
+      "passou": true,
+      "motivo": "Base não cresce com especialização."
+    },
+    {
+      "nome": "Mais alto exige reparador",
+      "passou": true,
+      "motivo": "Usa acesso de Classe por nível, não Grau da ferramenta."
+    },
+    {
+      "nome": "Rerrolar conserva resultado",
+      "passou": true,
+      "motivo": "Não permite selecionar melhor depois de ver ambos."
+    },
+    {
+      "nome": "Gambiarra exige material",
+      "passou": true,
+      "motivo": "Treino temporário não cria equipamento."
+    },
+    {
+      "nome": "Máscara tem energia",
+      "passou": true,
+      "motivo": "Não contorna bloqueio universal de energia."
+    },
+    {
+      "nome": "Revezamento nomeado",
+      "passou": true,
+      "motivo": "Não salva automaticamente queda a zero."
+    },
+    {
+      "nome": "Conversa precisa conhecimento",
+      "passou": true,
+      "motivo": "Não transforma observar uma vez em vantagem universal."
+    },
+    {
+      "nome": "Sangue necessita cuidado",
+      "passou": true,
+      "motivo": "Dispensa de respiração não é imunidade a gás por contato."
+    },
+    {
+      "nome": "Talhe impossível",
+      "passou": true,
+      "motivo": "Sem objeto e sem espaço não recebe saída gratuita."
+    },
+    {
+      "nome": "Ferro Velho aviso",
+      "passou": true,
+      "motivo": "Ocultar PV não apaga uma escolha válida do jogador."
+    },
+    {
+      "nome": "Não energia não perícia",
+      "passou": true,
+      "motivo": "Substituição não concede energia pessoal."
+    },
+    {
+      "nome": "Ninguém Viu sem tentativa nova",
+      "passou": true,
+      "motivo": "Repetição não substitui futura ação para esconder."
+    },
+    {
+      "nome": "Do Meu Canto prazo",
+      "passou": true,
+      "motivo": "Moveu antes não recebe benefício; compromisso após uso."
+    },
+    {
+      "nome": "Condição só aplicação",
+      "passou": true,
+      "motivo": "Exceção não cura estado existente nem zera dano."
+    },
+    {
+      "nome": "Personagens uma economia",
+      "passou": true,
+      "motivo": "Consciências não ganham iniciativas/ações extras."
+    },
+    {
+      "nome": "Sem autoitens",
+      "passou": true,
+      "motivo": "Direito, história e posse inicial são registros distintos."
+    },
+    {
+      "nome": "Exaustão não destruição",
+      "passou": true,
+      "motivo": "Benefício forte antigo preservado com limites."
+    },
+    {
+      "nome": "Relógios distintos",
+      "passou": true,
+      "motivo": "Descanso e cena não se renovam só por trocar combate."
+    },
+    {
+      "nome": "Cânone não universal",
+      "passou": true,
+      "motivo": "Configurações e Feto autorais não alegados universais."
+    },
+    {
+      "nome": "Legado não remove NPC",
+      "passou": true,
+      "motivo": "Afeta próprio personagem; decisões alheias não são automáticas."
+    },
+    {
+      "nome": "Reparo 252 perfis",
+      "passou": true,
+      "motivo": "7 atributos × 4 maestrias × 3 especializações × 3 ajustes; a CD base independente do atributo dá65/75/85% sem especialização."
+    },
+    {
+      "nome": "Probabilidades 21 limiares",
+      "passou": true,
+      "motivo": "Enumeração dos400pares de d20, não simulação aleatória; repetição tem vantagem de poupar recurso, não modelada como ganho fixo."
+    },
+    {
+      "nome": "Feto corrigido",
+      "passou": true,
+      "motivo": "Fecha o alvo da Energia Reversa sem afirmar cânone universal."
+    },
+    {
+      "nome": "Legados corrigidos",
+      "passou": true,
+      "motivo": "Conserva treino temporário com valores atuais."
+    },
+    {
+      "nome": "Cura 31PV",
+      "passou": true,
+      "motivo": "Metade arredondada para baixo, sem ultrapassar máximo."
+    }
+  ],
+  "relogios": [
+    {
+      "nome": "O Jeito Errado",
+      "fonte": "dia",
+      "candidata": "dia"
+    },
+    {
+      "nome": "Aprendi Apanhando",
+      "fonte": "dia",
+      "candidata": "dia"
+    },
+    {
+      "nome": "Instinto Bruto",
+      "fonte": "cena",
+      "candidata": "cena"
+    },
+    {
+      "nome": "Gambiarra",
+      "fonte": "dia",
+      "candidata": "dia"
+    },
+    {
+      "nome": "Desconfiado",
+      "fonte": "cena",
+      "candidata": "cena"
+    },
+    {
+      "nome": "A Voz de Dentro",
+      "fonte": "dia",
+      "candidata": "dia"
+    },
+    {
+      "nome": "O Que Ele Quer",
+      "fonte": "descanso longo",
+      "candidata": "descanso longo"
+    },
+    {
+      "nome": "Não Sou Só Eu",
+      "fonte": "cena",
+      "candidata": "cena"
+    },
+    {
+      "nome": "Costume Antigo",
+      "fonte": "cena",
+      "candidata": "cena"
+    },
+    {
+      "nome": "Tranco",
+      "fonte": "cena",
+      "candidata": "cena"
+    },
+    {
+      "nome": "Passagem",
+      "fonte": "dia",
+      "candidata": "dia"
+    },
+    {
+      "nome": "Revezamento",
+      "fonte": "descanso longo",
+      "candidata": "descanso longo"
+    },
+    {
+      "nome": "Conversa de Jantar",
+      "fonte": "cena",
+      "candidata": "cena"
+    },
+    {
+      "nome": "Etiqueta",
+      "fonte": "cena",
+      "candidata": "cena"
+    },
+    {
+      "nome": "Repetição",
+      "fonte": "descanso curto",
+      "candidata": "descanso curto"
+    },
+    {
+      "nome": "Biblioteca",
+      "fonte": "cena",
+      "candidata": "cena"
+    },
+    {
+      "nome": "Cabo",
+      "fonte": "cena",
+      "candidata": "cena"
+    },
+    {
+      "nome": "O Que Ninguém Lembra",
+      "fonte": "descanso longo",
+      "candidata": "descanso longo"
+    },
+    {
+      "nome": "Corpo Emprestado",
+      "fonte": "cena",
+      "candidata": "cena"
+    },
+    {
+      "nome": "Espasmo",
+      "fonte": "descanso curto",
+      "candidata": "descanso curto"
+    },
+    {
+      "nome": "Já Morri",
+      "fonte": "cena",
+      "candidata": "cena"
+    },
+    {
+      "nome": "Método Velho",
+      "fonte": "cena",
+      "candidata": "cena"
+    },
+    {
+      "nome": "Usado",
+      "fonte": "cena",
+      "candidata": "cena"
+    },
+    {
+      "nome": "Meio e Meio",
+      "fonte": "cena",
+      "candidata": "cena"
+    },
+    {
+      "nome": "Como Se Monta",
+      "fonte": "cena",
+      "candidata": "cena"
+    },
+    {
+      "nome": "Faro",
+      "fonte": "cena",
+      "candidata": "cena"
+    },
+    {
+      "nome": "Paciência",
+      "fonte": "dia",
+      "candidata": "dia"
+    },
+    {
+      "nome": "Talhe",
+      "fonte": "cena",
+      "candidata": "cena"
+    },
+    {
+      "nome": "Rodízio",
+      "fonte": "cena",
+      "candidata": "cena"
+    },
+    {
+      "nome": "Vigília",
+      "fonte": "cena",
+      "candidata": "cena"
+    },
+    {
+      "nome": "Desempate",
+      "fonte": "dia",
+      "candidata": "dia"
+    },
+    {
+      "nome": "Cabeça Trocada",
+      "fonte": "cena",
+      "candidata": "cena"
+    },
+    {
+      "nome": "Nunca os Dois",
+      "fonte": "descanso curto",
+      "candidata": "descanso curto"
+    },
+    {
+      "nome": "Palpite",
+      "fonte": "dia",
+      "candidata": "dia"
+    },
+    {
+      "nome": "Feito de Uma Peça",
+      "fonte": "descanso curto",
+      "candidata": "descanso curto"
+    },
+    {
+      "nome": "Teimosia",
+      "fonte": "cena",
+      "candidata": "cena"
+    },
+    {
+      "nome": "Peça Única",
+      "fonte": "cena",
+      "candidata": "cena"
+    },
+    {
+      "nome": "Ajuste Fino",
+      "fonte": "cena",
+      "candidata": "cena"
+    },
+    {
+      "nome": "Recarga",
+      "fonte": "descanso curto",
+      "candidata": "descanso curto"
+    },
+    {
+      "nome": "Fiado",
+      "fonte": "dia",
+      "candidata": "dia"
+    },
+    {
+      "nome": "Antena",
+      "fonte": "cena",
+      "candidata": "cena"
+    },
+    {
+      "nome": "Do Meu Canto",
+      "fonte": "cena",
+      "candidata": "cena"
+    },
+    {
+      "nome": "Insônia",
+      "fonte": "dia",
+      "candidata": "dia"
+    },
+    {
+      "nome": "Li Tudo",
+      "fonte": "cena",
+      "candidata": "cena"
+    },
+    {
+      "nome": "Sentido Treinado",
+      "fonte": "cena",
+      "candidata": "cena"
+    },
+    {
+      "nome": "Couro",
+      "fonte": "descanso curto",
+      "candidata": "descanso curto"
+    },
+    {
+      "nome": "Ninguém Viu",
+      "fonte": "cena",
+      "candidata": "cena"
+    },
+    {
+      "nome": "No Braço",
+      "fonte": "dia",
+      "candidata": "dia"
+    },
+    {
+      "nome": "Assinado",
+      "fonte": "descanso longo",
+      "candidata": "descanso longo"
+    }
+  ],
+  "perfis_reparo": [
+    {
+      "atributo": 0,
+      "maestria": 1,
+      "especializacao": 0,
+      "ajuste": 0,
+      "sucessos_d20": 13,
+      "probabilidade": 0.65
+    },
+    {
+      "atributo": 0,
+      "maestria": 1,
+      "especializacao": 0,
+      "ajuste": -2,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 0,
+      "maestria": 1,
+      "especializacao": 0,
+      "ajuste": -4,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 0,
+      "maestria": 1,
+      "especializacao": 1,
+      "ajuste": 0,
+      "sucessos_d20": 14,
+      "probabilidade": 0.7
+    },
+    {
+      "atributo": 0,
+      "maestria": 1,
+      "especializacao": 1,
+      "ajuste": -2,
+      "sucessos_d20": 16,
+      "probabilidade": 0.8
+    },
+    {
+      "atributo": 0,
+      "maestria": 1,
+      "especializacao": 1,
+      "ajuste": -4,
+      "sucessos_d20": 18,
+      "probabilidade": 0.9
+    },
+    {
+      "atributo": 0,
+      "maestria": 1,
+      "especializacao": 2,
+      "ajuste": 0,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 0,
+      "maestria": 1,
+      "especializacao": 2,
+      "ajuste": -2,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 0,
+      "maestria": 1,
+      "especializacao": 2,
+      "ajuste": -4,
+      "sucessos_d20": 19,
+      "probabilidade": 0.95
+    },
+    {
+      "atributo": 0,
+      "maestria": 2,
+      "especializacao": 0,
+      "ajuste": 0,
+      "sucessos_d20": 13,
+      "probabilidade": 0.65
+    },
+    {
+      "atributo": 0,
+      "maestria": 2,
+      "especializacao": 0,
+      "ajuste": -2,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 0,
+      "maestria": 2,
+      "especializacao": 0,
+      "ajuste": -4,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 0,
+      "maestria": 2,
+      "especializacao": 1,
+      "ajuste": 0,
+      "sucessos_d20": 14,
+      "probabilidade": 0.7
+    },
+    {
+      "atributo": 0,
+      "maestria": 2,
+      "especializacao": 1,
+      "ajuste": -2,
+      "sucessos_d20": 16,
+      "probabilidade": 0.8
+    },
+    {
+      "atributo": 0,
+      "maestria": 2,
+      "especializacao": 1,
+      "ajuste": -4,
+      "sucessos_d20": 18,
+      "probabilidade": 0.9
+    },
+    {
+      "atributo": 0,
+      "maestria": 2,
+      "especializacao": 2,
+      "ajuste": 0,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 0,
+      "maestria": 2,
+      "especializacao": 2,
+      "ajuste": -2,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 0,
+      "maestria": 2,
+      "especializacao": 2,
+      "ajuste": -4,
+      "sucessos_d20": 19,
+      "probabilidade": 0.95
+    },
+    {
+      "atributo": 0,
+      "maestria": 3,
+      "especializacao": 0,
+      "ajuste": 0,
+      "sucessos_d20": 13,
+      "probabilidade": 0.65
+    },
+    {
+      "atributo": 0,
+      "maestria": 3,
+      "especializacao": 0,
+      "ajuste": -2,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 0,
+      "maestria": 3,
+      "especializacao": 0,
+      "ajuste": -4,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 0,
+      "maestria": 3,
+      "especializacao": 1,
+      "ajuste": 0,
+      "sucessos_d20": 14,
+      "probabilidade": 0.7
+    },
+    {
+      "atributo": 0,
+      "maestria": 3,
+      "especializacao": 1,
+      "ajuste": -2,
+      "sucessos_d20": 16,
+      "probabilidade": 0.8
+    },
+    {
+      "atributo": 0,
+      "maestria": 3,
+      "especializacao": 1,
+      "ajuste": -4,
+      "sucessos_d20": 18,
+      "probabilidade": 0.9
+    },
+    {
+      "atributo": 0,
+      "maestria": 3,
+      "especializacao": 2,
+      "ajuste": 0,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 0,
+      "maestria": 3,
+      "especializacao": 2,
+      "ajuste": -2,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 0,
+      "maestria": 3,
+      "especializacao": 2,
+      "ajuste": -4,
+      "sucessos_d20": 19,
+      "probabilidade": 0.95
+    },
+    {
+      "atributo": 0,
+      "maestria": 4,
+      "especializacao": 0,
+      "ajuste": 0,
+      "sucessos_d20": 13,
+      "probabilidade": 0.65
+    },
+    {
+      "atributo": 0,
+      "maestria": 4,
+      "especializacao": 0,
+      "ajuste": -2,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 0,
+      "maestria": 4,
+      "especializacao": 0,
+      "ajuste": -4,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 0,
+      "maestria": 4,
+      "especializacao": 1,
+      "ajuste": 0,
+      "sucessos_d20": 14,
+      "probabilidade": 0.7
+    },
+    {
+      "atributo": 0,
+      "maestria": 4,
+      "especializacao": 1,
+      "ajuste": -2,
+      "sucessos_d20": 16,
+      "probabilidade": 0.8
+    },
+    {
+      "atributo": 0,
+      "maestria": 4,
+      "especializacao": 1,
+      "ajuste": -4,
+      "sucessos_d20": 18,
+      "probabilidade": 0.9
+    },
+    {
+      "atributo": 0,
+      "maestria": 4,
+      "especializacao": 2,
+      "ajuste": 0,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 0,
+      "maestria": 4,
+      "especializacao": 2,
+      "ajuste": -2,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 0,
+      "maestria": 4,
+      "especializacao": 2,
+      "ajuste": -4,
+      "sucessos_d20": 19,
+      "probabilidade": 0.95
+    },
+    {
+      "atributo": 1,
+      "maestria": 1,
+      "especializacao": 0,
+      "ajuste": 0,
+      "sucessos_d20": 13,
+      "probabilidade": 0.65
+    },
+    {
+      "atributo": 1,
+      "maestria": 1,
+      "especializacao": 0,
+      "ajuste": -2,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 1,
+      "maestria": 1,
+      "especializacao": 0,
+      "ajuste": -4,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 1,
+      "maestria": 1,
+      "especializacao": 1,
+      "ajuste": 0,
+      "sucessos_d20": 14,
+      "probabilidade": 0.7
+    },
+    {
+      "atributo": 1,
+      "maestria": 1,
+      "especializacao": 1,
+      "ajuste": -2,
+      "sucessos_d20": 16,
+      "probabilidade": 0.8
+    },
+    {
+      "atributo": 1,
+      "maestria": 1,
+      "especializacao": 1,
+      "ajuste": -4,
+      "sucessos_d20": 18,
+      "probabilidade": 0.9
+    },
+    {
+      "atributo": 1,
+      "maestria": 1,
+      "especializacao": 2,
+      "ajuste": 0,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 1,
+      "maestria": 1,
+      "especializacao": 2,
+      "ajuste": -2,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 1,
+      "maestria": 1,
+      "especializacao": 2,
+      "ajuste": -4,
+      "sucessos_d20": 19,
+      "probabilidade": 0.95
+    },
+    {
+      "atributo": 1,
+      "maestria": 2,
+      "especializacao": 0,
+      "ajuste": 0,
+      "sucessos_d20": 13,
+      "probabilidade": 0.65
+    },
+    {
+      "atributo": 1,
+      "maestria": 2,
+      "especializacao": 0,
+      "ajuste": -2,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 1,
+      "maestria": 2,
+      "especializacao": 0,
+      "ajuste": -4,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 1,
+      "maestria": 2,
+      "especializacao": 1,
+      "ajuste": 0,
+      "sucessos_d20": 14,
+      "probabilidade": 0.7
+    },
+    {
+      "atributo": 1,
+      "maestria": 2,
+      "especializacao": 1,
+      "ajuste": -2,
+      "sucessos_d20": 16,
+      "probabilidade": 0.8
+    },
+    {
+      "atributo": 1,
+      "maestria": 2,
+      "especializacao": 1,
+      "ajuste": -4,
+      "sucessos_d20": 18,
+      "probabilidade": 0.9
+    },
+    {
+      "atributo": 1,
+      "maestria": 2,
+      "especializacao": 2,
+      "ajuste": 0,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 1,
+      "maestria": 2,
+      "especializacao": 2,
+      "ajuste": -2,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 1,
+      "maestria": 2,
+      "especializacao": 2,
+      "ajuste": -4,
+      "sucessos_d20": 19,
+      "probabilidade": 0.95
+    },
+    {
+      "atributo": 1,
+      "maestria": 3,
+      "especializacao": 0,
+      "ajuste": 0,
+      "sucessos_d20": 13,
+      "probabilidade": 0.65
+    },
+    {
+      "atributo": 1,
+      "maestria": 3,
+      "especializacao": 0,
+      "ajuste": -2,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 1,
+      "maestria": 3,
+      "especializacao": 0,
+      "ajuste": -4,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 1,
+      "maestria": 3,
+      "especializacao": 1,
+      "ajuste": 0,
+      "sucessos_d20": 14,
+      "probabilidade": 0.7
+    },
+    {
+      "atributo": 1,
+      "maestria": 3,
+      "especializacao": 1,
+      "ajuste": -2,
+      "sucessos_d20": 16,
+      "probabilidade": 0.8
+    },
+    {
+      "atributo": 1,
+      "maestria": 3,
+      "especializacao": 1,
+      "ajuste": -4,
+      "sucessos_d20": 18,
+      "probabilidade": 0.9
+    },
+    {
+      "atributo": 1,
+      "maestria": 3,
+      "especializacao": 2,
+      "ajuste": 0,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 1,
+      "maestria": 3,
+      "especializacao": 2,
+      "ajuste": -2,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 1,
+      "maestria": 3,
+      "especializacao": 2,
+      "ajuste": -4,
+      "sucessos_d20": 19,
+      "probabilidade": 0.95
+    },
+    {
+      "atributo": 1,
+      "maestria": 4,
+      "especializacao": 0,
+      "ajuste": 0,
+      "sucessos_d20": 13,
+      "probabilidade": 0.65
+    },
+    {
+      "atributo": 1,
+      "maestria": 4,
+      "especializacao": 0,
+      "ajuste": -2,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 1,
+      "maestria": 4,
+      "especializacao": 0,
+      "ajuste": -4,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 1,
+      "maestria": 4,
+      "especializacao": 1,
+      "ajuste": 0,
+      "sucessos_d20": 14,
+      "probabilidade": 0.7
+    },
+    {
+      "atributo": 1,
+      "maestria": 4,
+      "especializacao": 1,
+      "ajuste": -2,
+      "sucessos_d20": 16,
+      "probabilidade": 0.8
+    },
+    {
+      "atributo": 1,
+      "maestria": 4,
+      "especializacao": 1,
+      "ajuste": -4,
+      "sucessos_d20": 18,
+      "probabilidade": 0.9
+    },
+    {
+      "atributo": 1,
+      "maestria": 4,
+      "especializacao": 2,
+      "ajuste": 0,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 1,
+      "maestria": 4,
+      "especializacao": 2,
+      "ajuste": -2,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 1,
+      "maestria": 4,
+      "especializacao": 2,
+      "ajuste": -4,
+      "sucessos_d20": 19,
+      "probabilidade": 0.95
+    },
+    {
+      "atributo": 2,
+      "maestria": 1,
+      "especializacao": 0,
+      "ajuste": 0,
+      "sucessos_d20": 13,
+      "probabilidade": 0.65
+    },
+    {
+      "atributo": 2,
+      "maestria": 1,
+      "especializacao": 0,
+      "ajuste": -2,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 2,
+      "maestria": 1,
+      "especializacao": 0,
+      "ajuste": -4,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 2,
+      "maestria": 1,
+      "especializacao": 1,
+      "ajuste": 0,
+      "sucessos_d20": 14,
+      "probabilidade": 0.7
+    },
+    {
+      "atributo": 2,
+      "maestria": 1,
+      "especializacao": 1,
+      "ajuste": -2,
+      "sucessos_d20": 16,
+      "probabilidade": 0.8
+    },
+    {
+      "atributo": 2,
+      "maestria": 1,
+      "especializacao": 1,
+      "ajuste": -4,
+      "sucessos_d20": 18,
+      "probabilidade": 0.9
+    },
+    {
+      "atributo": 2,
+      "maestria": 1,
+      "especializacao": 2,
+      "ajuste": 0,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 2,
+      "maestria": 1,
+      "especializacao": 2,
+      "ajuste": -2,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 2,
+      "maestria": 1,
+      "especializacao": 2,
+      "ajuste": -4,
+      "sucessos_d20": 19,
+      "probabilidade": 0.95
+    },
+    {
+      "atributo": 2,
+      "maestria": 2,
+      "especializacao": 0,
+      "ajuste": 0,
+      "sucessos_d20": 13,
+      "probabilidade": 0.65
+    },
+    {
+      "atributo": 2,
+      "maestria": 2,
+      "especializacao": 0,
+      "ajuste": -2,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 2,
+      "maestria": 2,
+      "especializacao": 0,
+      "ajuste": -4,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 2,
+      "maestria": 2,
+      "especializacao": 1,
+      "ajuste": 0,
+      "sucessos_d20": 14,
+      "probabilidade": 0.7
+    },
+    {
+      "atributo": 2,
+      "maestria": 2,
+      "especializacao": 1,
+      "ajuste": -2,
+      "sucessos_d20": 16,
+      "probabilidade": 0.8
+    },
+    {
+      "atributo": 2,
+      "maestria": 2,
+      "especializacao": 1,
+      "ajuste": -4,
+      "sucessos_d20": 18,
+      "probabilidade": 0.9
+    },
+    {
+      "atributo": 2,
+      "maestria": 2,
+      "especializacao": 2,
+      "ajuste": 0,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 2,
+      "maestria": 2,
+      "especializacao": 2,
+      "ajuste": -2,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 2,
+      "maestria": 2,
+      "especializacao": 2,
+      "ajuste": -4,
+      "sucessos_d20": 19,
+      "probabilidade": 0.95
+    },
+    {
+      "atributo": 2,
+      "maestria": 3,
+      "especializacao": 0,
+      "ajuste": 0,
+      "sucessos_d20": 13,
+      "probabilidade": 0.65
+    },
+    {
+      "atributo": 2,
+      "maestria": 3,
+      "especializacao": 0,
+      "ajuste": -2,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 2,
+      "maestria": 3,
+      "especializacao": 0,
+      "ajuste": -4,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 2,
+      "maestria": 3,
+      "especializacao": 1,
+      "ajuste": 0,
+      "sucessos_d20": 14,
+      "probabilidade": 0.7
+    },
+    {
+      "atributo": 2,
+      "maestria": 3,
+      "especializacao": 1,
+      "ajuste": -2,
+      "sucessos_d20": 16,
+      "probabilidade": 0.8
+    },
+    {
+      "atributo": 2,
+      "maestria": 3,
+      "especializacao": 1,
+      "ajuste": -4,
+      "sucessos_d20": 18,
+      "probabilidade": 0.9
+    },
+    {
+      "atributo": 2,
+      "maestria": 3,
+      "especializacao": 2,
+      "ajuste": 0,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 2,
+      "maestria": 3,
+      "especializacao": 2,
+      "ajuste": -2,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 2,
+      "maestria": 3,
+      "especializacao": 2,
+      "ajuste": -4,
+      "sucessos_d20": 19,
+      "probabilidade": 0.95
+    },
+    {
+      "atributo": 2,
+      "maestria": 4,
+      "especializacao": 0,
+      "ajuste": 0,
+      "sucessos_d20": 13,
+      "probabilidade": 0.65
+    },
+    {
+      "atributo": 2,
+      "maestria": 4,
+      "especializacao": 0,
+      "ajuste": -2,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 2,
+      "maestria": 4,
+      "especializacao": 0,
+      "ajuste": -4,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 2,
+      "maestria": 4,
+      "especializacao": 1,
+      "ajuste": 0,
+      "sucessos_d20": 14,
+      "probabilidade": 0.7
+    },
+    {
+      "atributo": 2,
+      "maestria": 4,
+      "especializacao": 1,
+      "ajuste": -2,
+      "sucessos_d20": 16,
+      "probabilidade": 0.8
+    },
+    {
+      "atributo": 2,
+      "maestria": 4,
+      "especializacao": 1,
+      "ajuste": -4,
+      "sucessos_d20": 18,
+      "probabilidade": 0.9
+    },
+    {
+      "atributo": 2,
+      "maestria": 4,
+      "especializacao": 2,
+      "ajuste": 0,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 2,
+      "maestria": 4,
+      "especializacao": 2,
+      "ajuste": -2,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 2,
+      "maestria": 4,
+      "especializacao": 2,
+      "ajuste": -4,
+      "sucessos_d20": 19,
+      "probabilidade": 0.95
+    },
+    {
+      "atributo": 3,
+      "maestria": 1,
+      "especializacao": 0,
+      "ajuste": 0,
+      "sucessos_d20": 13,
+      "probabilidade": 0.65
+    },
+    {
+      "atributo": 3,
+      "maestria": 1,
+      "especializacao": 0,
+      "ajuste": -2,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 3,
+      "maestria": 1,
+      "especializacao": 0,
+      "ajuste": -4,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 3,
+      "maestria": 1,
+      "especializacao": 1,
+      "ajuste": 0,
+      "sucessos_d20": 14,
+      "probabilidade": 0.7
+    },
+    {
+      "atributo": 3,
+      "maestria": 1,
+      "especializacao": 1,
+      "ajuste": -2,
+      "sucessos_d20": 16,
+      "probabilidade": 0.8
+    },
+    {
+      "atributo": 3,
+      "maestria": 1,
+      "especializacao": 1,
+      "ajuste": -4,
+      "sucessos_d20": 18,
+      "probabilidade": 0.9
+    },
+    {
+      "atributo": 3,
+      "maestria": 1,
+      "especializacao": 2,
+      "ajuste": 0,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 3,
+      "maestria": 1,
+      "especializacao": 2,
+      "ajuste": -2,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 3,
+      "maestria": 1,
+      "especializacao": 2,
+      "ajuste": -4,
+      "sucessos_d20": 19,
+      "probabilidade": 0.95
+    },
+    {
+      "atributo": 3,
+      "maestria": 2,
+      "especializacao": 0,
+      "ajuste": 0,
+      "sucessos_d20": 13,
+      "probabilidade": 0.65
+    },
+    {
+      "atributo": 3,
+      "maestria": 2,
+      "especializacao": 0,
+      "ajuste": -2,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 3,
+      "maestria": 2,
+      "especializacao": 0,
+      "ajuste": -4,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 3,
+      "maestria": 2,
+      "especializacao": 1,
+      "ajuste": 0,
+      "sucessos_d20": 14,
+      "probabilidade": 0.7
+    },
+    {
+      "atributo": 3,
+      "maestria": 2,
+      "especializacao": 1,
+      "ajuste": -2,
+      "sucessos_d20": 16,
+      "probabilidade": 0.8
+    },
+    {
+      "atributo": 3,
+      "maestria": 2,
+      "especializacao": 1,
+      "ajuste": -4,
+      "sucessos_d20": 18,
+      "probabilidade": 0.9
+    },
+    {
+      "atributo": 3,
+      "maestria": 2,
+      "especializacao": 2,
+      "ajuste": 0,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 3,
+      "maestria": 2,
+      "especializacao": 2,
+      "ajuste": -2,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 3,
+      "maestria": 2,
+      "especializacao": 2,
+      "ajuste": -4,
+      "sucessos_d20": 19,
+      "probabilidade": 0.95
+    },
+    {
+      "atributo": 3,
+      "maestria": 3,
+      "especializacao": 0,
+      "ajuste": 0,
+      "sucessos_d20": 13,
+      "probabilidade": 0.65
+    },
+    {
+      "atributo": 3,
+      "maestria": 3,
+      "especializacao": 0,
+      "ajuste": -2,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 3,
+      "maestria": 3,
+      "especializacao": 0,
+      "ajuste": -4,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 3,
+      "maestria": 3,
+      "especializacao": 1,
+      "ajuste": 0,
+      "sucessos_d20": 14,
+      "probabilidade": 0.7
+    },
+    {
+      "atributo": 3,
+      "maestria": 3,
+      "especializacao": 1,
+      "ajuste": -2,
+      "sucessos_d20": 16,
+      "probabilidade": 0.8
+    },
+    {
+      "atributo": 3,
+      "maestria": 3,
+      "especializacao": 1,
+      "ajuste": -4,
+      "sucessos_d20": 18,
+      "probabilidade": 0.9
+    },
+    {
+      "atributo": 3,
+      "maestria": 3,
+      "especializacao": 2,
+      "ajuste": 0,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 3,
+      "maestria": 3,
+      "especializacao": 2,
+      "ajuste": -2,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 3,
+      "maestria": 3,
+      "especializacao": 2,
+      "ajuste": -4,
+      "sucessos_d20": 19,
+      "probabilidade": 0.95
+    },
+    {
+      "atributo": 3,
+      "maestria": 4,
+      "especializacao": 0,
+      "ajuste": 0,
+      "sucessos_d20": 13,
+      "probabilidade": 0.65
+    },
+    {
+      "atributo": 3,
+      "maestria": 4,
+      "especializacao": 0,
+      "ajuste": -2,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 3,
+      "maestria": 4,
+      "especializacao": 0,
+      "ajuste": -4,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 3,
+      "maestria": 4,
+      "especializacao": 1,
+      "ajuste": 0,
+      "sucessos_d20": 14,
+      "probabilidade": 0.7
+    },
+    {
+      "atributo": 3,
+      "maestria": 4,
+      "especializacao": 1,
+      "ajuste": -2,
+      "sucessos_d20": 16,
+      "probabilidade": 0.8
+    },
+    {
+      "atributo": 3,
+      "maestria": 4,
+      "especializacao": 1,
+      "ajuste": -4,
+      "sucessos_d20": 18,
+      "probabilidade": 0.9
+    },
+    {
+      "atributo": 3,
+      "maestria": 4,
+      "especializacao": 2,
+      "ajuste": 0,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 3,
+      "maestria": 4,
+      "especializacao": 2,
+      "ajuste": -2,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 3,
+      "maestria": 4,
+      "especializacao": 2,
+      "ajuste": -4,
+      "sucessos_d20": 19,
+      "probabilidade": 0.95
+    },
+    {
+      "atributo": 4,
+      "maestria": 1,
+      "especializacao": 0,
+      "ajuste": 0,
+      "sucessos_d20": 13,
+      "probabilidade": 0.65
+    },
+    {
+      "atributo": 4,
+      "maestria": 1,
+      "especializacao": 0,
+      "ajuste": -2,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 4,
+      "maestria": 1,
+      "especializacao": 0,
+      "ajuste": -4,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 4,
+      "maestria": 1,
+      "especializacao": 1,
+      "ajuste": 0,
+      "sucessos_d20": 14,
+      "probabilidade": 0.7
+    },
+    {
+      "atributo": 4,
+      "maestria": 1,
+      "especializacao": 1,
+      "ajuste": -2,
+      "sucessos_d20": 16,
+      "probabilidade": 0.8
+    },
+    {
+      "atributo": 4,
+      "maestria": 1,
+      "especializacao": 1,
+      "ajuste": -4,
+      "sucessos_d20": 18,
+      "probabilidade": 0.9
+    },
+    {
+      "atributo": 4,
+      "maestria": 1,
+      "especializacao": 2,
+      "ajuste": 0,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 4,
+      "maestria": 1,
+      "especializacao": 2,
+      "ajuste": -2,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 4,
+      "maestria": 1,
+      "especializacao": 2,
+      "ajuste": -4,
+      "sucessos_d20": 19,
+      "probabilidade": 0.95
+    },
+    {
+      "atributo": 4,
+      "maestria": 2,
+      "especializacao": 0,
+      "ajuste": 0,
+      "sucessos_d20": 13,
+      "probabilidade": 0.65
+    },
+    {
+      "atributo": 4,
+      "maestria": 2,
+      "especializacao": 0,
+      "ajuste": -2,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 4,
+      "maestria": 2,
+      "especializacao": 0,
+      "ajuste": -4,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 4,
+      "maestria": 2,
+      "especializacao": 1,
+      "ajuste": 0,
+      "sucessos_d20": 14,
+      "probabilidade": 0.7
+    },
+    {
+      "atributo": 4,
+      "maestria": 2,
+      "especializacao": 1,
+      "ajuste": -2,
+      "sucessos_d20": 16,
+      "probabilidade": 0.8
+    },
+    {
+      "atributo": 4,
+      "maestria": 2,
+      "especializacao": 1,
+      "ajuste": -4,
+      "sucessos_d20": 18,
+      "probabilidade": 0.9
+    },
+    {
+      "atributo": 4,
+      "maestria": 2,
+      "especializacao": 2,
+      "ajuste": 0,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 4,
+      "maestria": 2,
+      "especializacao": 2,
+      "ajuste": -2,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 4,
+      "maestria": 2,
+      "especializacao": 2,
+      "ajuste": -4,
+      "sucessos_d20": 19,
+      "probabilidade": 0.95
+    },
+    {
+      "atributo": 4,
+      "maestria": 3,
+      "especializacao": 0,
+      "ajuste": 0,
+      "sucessos_d20": 13,
+      "probabilidade": 0.65
+    },
+    {
+      "atributo": 4,
+      "maestria": 3,
+      "especializacao": 0,
+      "ajuste": -2,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 4,
+      "maestria": 3,
+      "especializacao": 0,
+      "ajuste": -4,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 4,
+      "maestria": 3,
+      "especializacao": 1,
+      "ajuste": 0,
+      "sucessos_d20": 14,
+      "probabilidade": 0.7
+    },
+    {
+      "atributo": 4,
+      "maestria": 3,
+      "especializacao": 1,
+      "ajuste": -2,
+      "sucessos_d20": 16,
+      "probabilidade": 0.8
+    },
+    {
+      "atributo": 4,
+      "maestria": 3,
+      "especializacao": 1,
+      "ajuste": -4,
+      "sucessos_d20": 18,
+      "probabilidade": 0.9
+    },
+    {
+      "atributo": 4,
+      "maestria": 3,
+      "especializacao": 2,
+      "ajuste": 0,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 4,
+      "maestria": 3,
+      "especializacao": 2,
+      "ajuste": -2,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 4,
+      "maestria": 3,
+      "especializacao": 2,
+      "ajuste": -4,
+      "sucessos_d20": 19,
+      "probabilidade": 0.95
+    },
+    {
+      "atributo": 4,
+      "maestria": 4,
+      "especializacao": 0,
+      "ajuste": 0,
+      "sucessos_d20": 13,
+      "probabilidade": 0.65
+    },
+    {
+      "atributo": 4,
+      "maestria": 4,
+      "especializacao": 0,
+      "ajuste": -2,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 4,
+      "maestria": 4,
+      "especializacao": 0,
+      "ajuste": -4,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 4,
+      "maestria": 4,
+      "especializacao": 1,
+      "ajuste": 0,
+      "sucessos_d20": 14,
+      "probabilidade": 0.7
+    },
+    {
+      "atributo": 4,
+      "maestria": 4,
+      "especializacao": 1,
+      "ajuste": -2,
+      "sucessos_d20": 16,
+      "probabilidade": 0.8
+    },
+    {
+      "atributo": 4,
+      "maestria": 4,
+      "especializacao": 1,
+      "ajuste": -4,
+      "sucessos_d20": 18,
+      "probabilidade": 0.9
+    },
+    {
+      "atributo": 4,
+      "maestria": 4,
+      "especializacao": 2,
+      "ajuste": 0,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 4,
+      "maestria": 4,
+      "especializacao": 2,
+      "ajuste": -2,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 4,
+      "maestria": 4,
+      "especializacao": 2,
+      "ajuste": -4,
+      "sucessos_d20": 19,
+      "probabilidade": 0.95
+    },
+    {
+      "atributo": 5,
+      "maestria": 1,
+      "especializacao": 0,
+      "ajuste": 0,
+      "sucessos_d20": 13,
+      "probabilidade": 0.65
+    },
+    {
+      "atributo": 5,
+      "maestria": 1,
+      "especializacao": 0,
+      "ajuste": -2,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 5,
+      "maestria": 1,
+      "especializacao": 0,
+      "ajuste": -4,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 5,
+      "maestria": 1,
+      "especializacao": 1,
+      "ajuste": 0,
+      "sucessos_d20": 14,
+      "probabilidade": 0.7
+    },
+    {
+      "atributo": 5,
+      "maestria": 1,
+      "especializacao": 1,
+      "ajuste": -2,
+      "sucessos_d20": 16,
+      "probabilidade": 0.8
+    },
+    {
+      "atributo": 5,
+      "maestria": 1,
+      "especializacao": 1,
+      "ajuste": -4,
+      "sucessos_d20": 18,
+      "probabilidade": 0.9
+    },
+    {
+      "atributo": 5,
+      "maestria": 1,
+      "especializacao": 2,
+      "ajuste": 0,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 5,
+      "maestria": 1,
+      "especializacao": 2,
+      "ajuste": -2,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 5,
+      "maestria": 1,
+      "especializacao": 2,
+      "ajuste": -4,
+      "sucessos_d20": 19,
+      "probabilidade": 0.95
+    },
+    {
+      "atributo": 5,
+      "maestria": 2,
+      "especializacao": 0,
+      "ajuste": 0,
+      "sucessos_d20": 13,
+      "probabilidade": 0.65
+    },
+    {
+      "atributo": 5,
+      "maestria": 2,
+      "especializacao": 0,
+      "ajuste": -2,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 5,
+      "maestria": 2,
+      "especializacao": 0,
+      "ajuste": -4,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 5,
+      "maestria": 2,
+      "especializacao": 1,
+      "ajuste": 0,
+      "sucessos_d20": 14,
+      "probabilidade": 0.7
+    },
+    {
+      "atributo": 5,
+      "maestria": 2,
+      "especializacao": 1,
+      "ajuste": -2,
+      "sucessos_d20": 16,
+      "probabilidade": 0.8
+    },
+    {
+      "atributo": 5,
+      "maestria": 2,
+      "especializacao": 1,
+      "ajuste": -4,
+      "sucessos_d20": 18,
+      "probabilidade": 0.9
+    },
+    {
+      "atributo": 5,
+      "maestria": 2,
+      "especializacao": 2,
+      "ajuste": 0,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 5,
+      "maestria": 2,
+      "especializacao": 2,
+      "ajuste": -2,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 5,
+      "maestria": 2,
+      "especializacao": 2,
+      "ajuste": -4,
+      "sucessos_d20": 19,
+      "probabilidade": 0.95
+    },
+    {
+      "atributo": 5,
+      "maestria": 3,
+      "especializacao": 0,
+      "ajuste": 0,
+      "sucessos_d20": 13,
+      "probabilidade": 0.65
+    },
+    {
+      "atributo": 5,
+      "maestria": 3,
+      "especializacao": 0,
+      "ajuste": -2,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 5,
+      "maestria": 3,
+      "especializacao": 0,
+      "ajuste": -4,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 5,
+      "maestria": 3,
+      "especializacao": 1,
+      "ajuste": 0,
+      "sucessos_d20": 14,
+      "probabilidade": 0.7
+    },
+    {
+      "atributo": 5,
+      "maestria": 3,
+      "especializacao": 1,
+      "ajuste": -2,
+      "sucessos_d20": 16,
+      "probabilidade": 0.8
+    },
+    {
+      "atributo": 5,
+      "maestria": 3,
+      "especializacao": 1,
+      "ajuste": -4,
+      "sucessos_d20": 18,
+      "probabilidade": 0.9
+    },
+    {
+      "atributo": 5,
+      "maestria": 3,
+      "especializacao": 2,
+      "ajuste": 0,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 5,
+      "maestria": 3,
+      "especializacao": 2,
+      "ajuste": -2,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 5,
+      "maestria": 3,
+      "especializacao": 2,
+      "ajuste": -4,
+      "sucessos_d20": 19,
+      "probabilidade": 0.95
+    },
+    {
+      "atributo": 5,
+      "maestria": 4,
+      "especializacao": 0,
+      "ajuste": 0,
+      "sucessos_d20": 13,
+      "probabilidade": 0.65
+    },
+    {
+      "atributo": 5,
+      "maestria": 4,
+      "especializacao": 0,
+      "ajuste": -2,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 5,
+      "maestria": 4,
+      "especializacao": 0,
+      "ajuste": -4,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 5,
+      "maestria": 4,
+      "especializacao": 1,
+      "ajuste": 0,
+      "sucessos_d20": 14,
+      "probabilidade": 0.7
+    },
+    {
+      "atributo": 5,
+      "maestria": 4,
+      "especializacao": 1,
+      "ajuste": -2,
+      "sucessos_d20": 16,
+      "probabilidade": 0.8
+    },
+    {
+      "atributo": 5,
+      "maestria": 4,
+      "especializacao": 1,
+      "ajuste": -4,
+      "sucessos_d20": 18,
+      "probabilidade": 0.9
+    },
+    {
+      "atributo": 5,
+      "maestria": 4,
+      "especializacao": 2,
+      "ajuste": 0,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 5,
+      "maestria": 4,
+      "especializacao": 2,
+      "ajuste": -2,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 5,
+      "maestria": 4,
+      "especializacao": 2,
+      "ajuste": -4,
+      "sucessos_d20": 19,
+      "probabilidade": 0.95
+    },
+    {
+      "atributo": 6,
+      "maestria": 1,
+      "especializacao": 0,
+      "ajuste": 0,
+      "sucessos_d20": 13,
+      "probabilidade": 0.65
+    },
+    {
+      "atributo": 6,
+      "maestria": 1,
+      "especializacao": 0,
+      "ajuste": -2,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 6,
+      "maestria": 1,
+      "especializacao": 0,
+      "ajuste": -4,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 6,
+      "maestria": 1,
+      "especializacao": 1,
+      "ajuste": 0,
+      "sucessos_d20": 14,
+      "probabilidade": 0.7
+    },
+    {
+      "atributo": 6,
+      "maestria": 1,
+      "especializacao": 1,
+      "ajuste": -2,
+      "sucessos_d20": 16,
+      "probabilidade": 0.8
+    },
+    {
+      "atributo": 6,
+      "maestria": 1,
+      "especializacao": 1,
+      "ajuste": -4,
+      "sucessos_d20": 18,
+      "probabilidade": 0.9
+    },
+    {
+      "atributo": 6,
+      "maestria": 1,
+      "especializacao": 2,
+      "ajuste": 0,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 6,
+      "maestria": 1,
+      "especializacao": 2,
+      "ajuste": -2,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 6,
+      "maestria": 1,
+      "especializacao": 2,
+      "ajuste": -4,
+      "sucessos_d20": 19,
+      "probabilidade": 0.95
+    },
+    {
+      "atributo": 6,
+      "maestria": 2,
+      "especializacao": 0,
+      "ajuste": 0,
+      "sucessos_d20": 13,
+      "probabilidade": 0.65
+    },
+    {
+      "atributo": 6,
+      "maestria": 2,
+      "especializacao": 0,
+      "ajuste": -2,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 6,
+      "maestria": 2,
+      "especializacao": 0,
+      "ajuste": -4,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 6,
+      "maestria": 2,
+      "especializacao": 1,
+      "ajuste": 0,
+      "sucessos_d20": 14,
+      "probabilidade": 0.7
+    },
+    {
+      "atributo": 6,
+      "maestria": 2,
+      "especializacao": 1,
+      "ajuste": -2,
+      "sucessos_d20": 16,
+      "probabilidade": 0.8
+    },
+    {
+      "atributo": 6,
+      "maestria": 2,
+      "especializacao": 1,
+      "ajuste": -4,
+      "sucessos_d20": 18,
+      "probabilidade": 0.9
+    },
+    {
+      "atributo": 6,
+      "maestria": 2,
+      "especializacao": 2,
+      "ajuste": 0,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 6,
+      "maestria": 2,
+      "especializacao": 2,
+      "ajuste": -2,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 6,
+      "maestria": 2,
+      "especializacao": 2,
+      "ajuste": -4,
+      "sucessos_d20": 19,
+      "probabilidade": 0.95
+    },
+    {
+      "atributo": 6,
+      "maestria": 3,
+      "especializacao": 0,
+      "ajuste": 0,
+      "sucessos_d20": 13,
+      "probabilidade": 0.65
+    },
+    {
+      "atributo": 6,
+      "maestria": 3,
+      "especializacao": 0,
+      "ajuste": -2,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 6,
+      "maestria": 3,
+      "especializacao": 0,
+      "ajuste": -4,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 6,
+      "maestria": 3,
+      "especializacao": 1,
+      "ajuste": 0,
+      "sucessos_d20": 14,
+      "probabilidade": 0.7
+    },
+    {
+      "atributo": 6,
+      "maestria": 3,
+      "especializacao": 1,
+      "ajuste": -2,
+      "sucessos_d20": 16,
+      "probabilidade": 0.8
+    },
+    {
+      "atributo": 6,
+      "maestria": 3,
+      "especializacao": 1,
+      "ajuste": -4,
+      "sucessos_d20": 18,
+      "probabilidade": 0.9
+    },
+    {
+      "atributo": 6,
+      "maestria": 3,
+      "especializacao": 2,
+      "ajuste": 0,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 6,
+      "maestria": 3,
+      "especializacao": 2,
+      "ajuste": -2,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 6,
+      "maestria": 3,
+      "especializacao": 2,
+      "ajuste": -4,
+      "sucessos_d20": 19,
+      "probabilidade": 0.95
+    },
+    {
+      "atributo": 6,
+      "maestria": 4,
+      "especializacao": 0,
+      "ajuste": 0,
+      "sucessos_d20": 13,
+      "probabilidade": 0.65
+    },
+    {
+      "atributo": 6,
+      "maestria": 4,
+      "especializacao": 0,
+      "ajuste": -2,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 6,
+      "maestria": 4,
+      "especializacao": 0,
+      "ajuste": -4,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 6,
+      "maestria": 4,
+      "especializacao": 1,
+      "ajuste": 0,
+      "sucessos_d20": 14,
+      "probabilidade": 0.7
+    },
+    {
+      "atributo": 6,
+      "maestria": 4,
+      "especializacao": 1,
+      "ajuste": -2,
+      "sucessos_d20": 16,
+      "probabilidade": 0.8
+    },
+    {
+      "atributo": 6,
+      "maestria": 4,
+      "especializacao": 1,
+      "ajuste": -4,
+      "sucessos_d20": 18,
+      "probabilidade": 0.9
+    },
+    {
+      "atributo": 6,
+      "maestria": 4,
+      "especializacao": 2,
+      "ajuste": 0,
+      "sucessos_d20": 15,
+      "probabilidade": 0.75
+    },
+    {
+      "atributo": 6,
+      "maestria": 4,
+      "especializacao": 2,
+      "ajuste": -2,
+      "sucessos_d20": 17,
+      "probabilidade": 0.85
+    },
+    {
+      "atributo": 6,
+      "maestria": 4,
+      "especializacao": 2,
+      "ajuste": -4,
+      "sucessos_d20": 19,
+      "probabilidade": 0.95
+    }
+  ],
+  "probabilidades": [
+    {
+      "limiar_d20": 1,
+      "base": 1.0,
+      "vantagem": 1.0,
+      "repeticao_falha": 1.0,
+      "ganho": 0.0
+    },
+    {
+      "limiar_d20": 2,
+      "base": 0.95,
+      "vantagem": 0.9975,
+      "repeticao_falha": 0.9975,
+      "ganho": 0.0475000000000001
+    },
+    {
+      "limiar_d20": 3,
+      "base": 0.9,
+      "vantagem": 0.99,
+      "repeticao_falha": 0.99,
+      "ganho": 0.08999999999999997
+    },
+    {
+      "limiar_d20": 4,
+      "base": 0.85,
+      "vantagem": 0.9775,
+      "repeticao_falha": 0.9775,
+      "ganho": 0.12750000000000006
+    },
+    {
+      "limiar_d20": 5,
+      "base": 0.8,
+      "vantagem": 0.96,
+      "repeticao_falha": 0.96,
+      "ganho": 0.15999999999999992
+    },
+    {
+      "limiar_d20": 6,
+      "base": 0.75,
+      "vantagem": 0.9375,
+      "repeticao_falha": 0.9375,
+      "ganho": 0.1875
+    },
+    {
+      "limiar_d20": 7,
+      "base": 0.7,
+      "vantagem": 0.91,
+      "repeticao_falha": 0.91,
+      "ganho": 0.21000000000000008
+    },
+    {
+      "limiar_d20": 8,
+      "base": 0.65,
+      "vantagem": 0.8775,
+      "repeticao_falha": 0.8775,
+      "ganho": 0.22749999999999992
+    },
+    {
+      "limiar_d20": 9,
+      "base": 0.6,
+      "vantagem": 0.84,
+      "repeticao_falha": 0.84,
+      "ganho": 0.24
+    },
+    {
+      "limiar_d20": 10,
+      "base": 0.55,
+      "vantagem": 0.7975,
+      "repeticao_falha": 0.7975,
+      "ganho": 0.24749999999999994
+    },
+    {
+      "limiar_d20": 11,
+      "base": 0.5,
+      "vantagem": 0.75,
+      "repeticao_falha": 0.75,
+      "ganho": 0.25
+    },
+    {
+      "limiar_d20": 12,
+      "base": 0.45,
+      "vantagem": 0.6975,
+      "repeticao_falha": 0.6975,
+      "ganho": 0.2475
+    },
+    {
+      "limiar_d20": 13,
+      "base": 0.4,
+      "vantagem": 0.64,
+      "repeticao_falha": 0.64,
+      "ganho": 0.24
+    },
+    {
+      "limiar_d20": 14,
+      "base": 0.35,
+      "vantagem": 0.5775,
+      "repeticao_falha": 0.5775,
+      "ganho": 0.22750000000000004
+    },
+    {
+      "limiar_d20": 15,
+      "base": 0.3,
+      "vantagem": 0.51,
+      "repeticao_falha": 0.51,
+      "ganho": 0.21000000000000002
+    },
+    {
+      "limiar_d20": 16,
+      "base": 0.25,
+      "vantagem": 0.4375,
+      "repeticao_falha": 0.4375,
+      "ganho": 0.1875
+    },
+    {
+      "limiar_d20": 17,
+      "base": 0.2,
+      "vantagem": 0.36,
+      "repeticao_falha": 0.36,
+      "ganho": 0.15999999999999998
+    },
+    {
+      "limiar_d20": 18,
+      "base": 0.15,
+      "vantagem": 0.2775,
+      "repeticao_falha": 0.2775,
+      "ganho": 0.12750000000000003
+    },
+    {
+      "limiar_d20": 19,
+      "base": 0.1,
+      "vantagem": 0.19,
+      "repeticao_falha": 0.19,
+      "ganho": 0.09
+    },
+    {
+      "limiar_d20": 20,
+      "base": 0.05,
+      "vantagem": 0.0975,
+      "repeticao_falha": 0.0975,
+      "ganho": 0.0475
+    },
+    {
+      "limiar_d20": 21,
+      "base": 0.0,
+      "vantagem": 0.0,
+      "repeticao_falha": 0.0,
+      "ganho": 0.0
+    }
+  ],
+  "achados": [
+    {
+      "id": "ORI-IND-01",
+      "prioridade": "P2",
+      "estado": "resolvido",
+      "local": "origem-feto, linhas252–256; R09 apt-energia-positiva, linhas191–205",
+      "problema": "Natureza humana e amaldiçoada não define se o personagem satisfaz o requisito maldição da Energia Reversa ofensiva. O leitor pode concluir que o Feto é alvo válido e que a cura o fere. Não encontrei classificação ou exceção explícita nos donos consultados.",
+      "caso": "Um Feto hostil é alvo de Cura de6d8+50%. Uma mesa converte em dano; outra mantém a exclusão de alvo.",
+      "proposta": "Explicitar que escolher Feto não torna o personagem uma maldição para requisitos e efeitos; recuperação de personagem comum permanece salvo exceção expressa. Registrar fechamento mecânico candidato, sem alegação de cânone.",
+      "impacto": "Fecha vulnerabilidade que não foi concedida pela Origem, sem dar imunidade a efeitos dirigidos a qualquer criatura."
+    },
+    {
+      "id": "ORI-IND-02",
+      "prioridade": "P3",
+      "estado": "resolvido",
+      "local": "legados, linha77",
+      "problema": "A frase não aumentam com o nível pode sugerir congelamento da maestria dos Legados que fornecem treinamento temporário. O restante do capítulo indica usar os modificadores atuais.",
+      "proposta": "Dizer que não recebem novas entregas, vagas ou usos ao subir de nível; treinamento temporário segue maestria atual.",
+      "impacto": "Editorial, sem elevar a quantidade de Legados ou de usos."
+    }
+  ],
+  "fontes_primarias": [
+    "https://jujutsukaisen.jp/character/",
+    "https://jujutsukaisen.jp/character/category2.php"
+  ],
+  "limites": [
+    "Panda criado por Yaga, Choso e Pinturas da Morte, Kashimo encarnado e Kokichi remoto confirmados nas páginas oficiais. Não se validou mangá integral.",
+    "Ferro Velho pode ser dominante em missões longas com Exaustão; foi preservado da fonte e depende de playtest, sem conversão artificial de PV oculto em porcentagem.",
+    "Por dia para quem dispensa sono precisa manter sua remissão ao repouso compatível na consolidação de Descansos.",
+    "PDF e navegação não foram examinados por este parecer."
+  ]
+}

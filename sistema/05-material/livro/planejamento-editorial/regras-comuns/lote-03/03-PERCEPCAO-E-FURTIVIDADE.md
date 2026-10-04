@@ -1,0 +1,118 @@
+<!-- page:perceber|O que você percebe -->
+# O que você percebe
+
+**Proposta de regras comuns sobre a v0.331.** Revisão 2: procedimentos de visão, ocultação e busca. As correções e as lacunas que ainda dependem de decisão estão registradas à parte.
+
+Uma porta batendo no corredor é perceptível sem teste. Um fio preso ao batente pode passar despercebido. Peça uma rolagem quando houver algo incerto a descobrir e uma consequência para não notar.
+
+## Ver, localizar e estar oculto
+
+Você **enxerga** uma criatura quando consegue vê-la com clareza suficiente para acompanhar suas ações. Você **localiza** uma criatura quando sabe o espaço que ela ocupa, mesmo sem enxergá-la: passos na sala escura podem denunciar esse espaço.
+
+Uma criatura está **oculta de você** quando escondeu sua presença ou posição e você ainda não a localizou. Isso é verificado para cada observador. Um vigia pode descobri-la enquanto outro continua sem saber onde ela está.
+
+Cobertura, escuridão e invisibilidade podem impedir que você veja alguém, mas não apagam automaticamente barulho, pegadas ou a posição que acabou de observar. Perder alguém de vista não exige esquecer seu último espaço conhecido; acompanhar um deslocamento escondido pode exigir uma busca.
+
+## Luz e obstáculos
+
+| Situação | O que muda |
+|---|---|
+| Visão livre e luz suficiente | Você percebe o que estiver evidente. Um detalhe escondido ainda pode exigir teste. |
+| Penumbra, fumaça leve ou vegetação rala | Percepção baseada na visão tem desvantagem. Isso, sozinho, não esconde um corpo claramente exposto. |
+| Escuridão | Você não enxerga o que estiver sem luz. Um alvo iluminado além do trecho escuro ainda pode ser visto. |
+| Fumaça densa ou obstáculo opaco | Bloqueia a visão através dele. Ouvir ou usar um sentido apropriado continua possível. |
+
+**Cobertura** protege de ataques conforme a regra já existente: Parcial concede +2, Boa concede +5 à Defesa e ao TR Físico contra o que vem do outro lado. Total impede escolher diretamente o alvo. Apenas a maior cobertura conta.
+
+Fumaça não segura uma flecha. Uma parede pode bloquear visão e ataques. Quando ambos existirem, aplique cada efeito uma vez. Uma técnica que exija enxergar o alvo continua exigindo isso mesmo que você saiba onde ele está.
+
+**Visão às cegas**, como a de Vulto, substitui a visão para perceber e atacar dentro dos limites próprios. Não concede leitura fina, visão através de paredes ou dispensa de um Selo que exija especificamente usar os olhos. Sentir Energia não recebe esses benefícios.
+
+> **Exemplo:** Kaori ouve uma gaveta fechar numa sala escura. Percepção pode localizar quem se moveu ali. Investigar a mesa pode revelar o documento retirado. Nenhuma dessas descobertas permite enxergar através da parede.
+
+<!-- page:esconder|Esconder -->
+# Esconder
+
+**Ação Padrão.** Escolha um lugar ou percurso que permita esconder seu corpo e reduzir os sinais da sua passagem. Faça um teste de **Furtividade: d20 + seu bônus completo na perícia**. Some Destreza, maestria se treinado, especialização e outros modificadores aplicáveis, conforme a ficha.
+
+## Quando é possível
+
+Uma parede, caixas que cubram seu corpo ou escuridão suficiente podem permitir a tentativa. Não é possível se esconder de alguém que o vê claramente. Estar atrás de uma cobertura Parcial ou Boa só permite a tentativa se a posição e sua postura realmente esconderem o corpo daquele observador.
+
+Você pode se esconder de uma criatura e continuar visível para outra. O mestre indica quais observadores podem perceber a tentativa e por quais sentidos; uma criatura sem acesso a nenhum sinal não faz uma detecção automática só por estar no combate.
+
+## Uma rolagem, vários observadores
+
+Compare seu resultado à **CD 10 + o bônus completo de Percepção de cada observador** capaz de perceber sua tentativa. Inclua Essência, treino, especialização e modificadores fixos aplicáveis. Dados adicionais de um efeito só entram se ele permitir afetar uma CD passiva. Empatar com a CD basta.
+
+Se o observador tiver vantagem ou desvantagem na percepção relevante, ajuste a CD em **+5 ou -5**, respectivamente. Use o sentido disponível: penumbra não prejudica alguém que pode ouvir claramente seus passos.
+
+Ao passar, você fica oculto daquele observador. Ao falhar, ele percebe onde você está. **Anote o total de Furtividade:** ele será a CD de uma busca posterior. Um novo observador compara sua CD de percepção a esse total quando passar a ter acesso aos sinais; se o total de Furtividade for menor, ele o localiza.
+
+> **Exemplo:** Rina obtém 15 em Furtividade. Um vigia tem Percepção +4, portanto CD 14; outro tem +8, portanto CD 18. Ela fica oculta do primeiro, mas o segundo a localiza. O resultado guardado para uma busca do primeiro é 15.
+
+## Enquanto você permanece escondido
+
+Não refaça o teste a cada turno ou quadrado. O resultado continua valendo enquanto você conservar um percurso que esconda sua passagem. Entrar em visão livre, produzir um ruído que denuncie seu espaço ou ser localizado encerra a ocultação para quem percebeu esse sinal.
+
+Depois de perder a ocultação, você pode usar Esconder novamente se estiver fora da visão direta e puder disfarçar seus sinais, mesmo atrás das mesmas caixas. Pague a ação ou use a permissão da habilidade. O novo teste substitui o anterior, mesmo se for menor; compare novamente os observadores com acesso aos sinais. Não é possível apagar a visão de quem continua olhando diretamente para você.
+
+**Travessia em grupo:** fora do combate, quando todos precisam passar juntos sem serem notados, use a regra existente de teste de grupo: pelo menos metade precisa passar. Em combate, resolva a ocultação de cada personagem.
+
+**Incursor:** pode usar Esconder como Ação Bônus desde o nível 2. **Assassino de nível 11:** Desaparecer no Percurso permite a tentativa sem ação nas condições da Trilha. Ambos continuam precisando de posição adequada e teste. Essas permissões não são concedidas pela regra comum.
+
+<!-- page:procurar|Procurar e detectar -->
+# Procurar e detectar
+
+## Vasculhar
+
+**Ação Padrão.** Diga o que procura e em qual lugar. Use **Percepção** para notar uma presença ou detalhe e **Investigação** para examinar pistas. Uma habilidade pode permitir outra perícia ou outro sentido. **Ler o Ambiente** informa sobre o lugar; não substitui procurar criaturas.
+
+Percepção depende de sinais que alcancem seus sentidos. Investigação pode exigir abrir uma gaveta, tocar o objeto ou aproximar-se. Uma rolagem alta não encontra alguém numa sala que você não procurou nem atravessa um obstáculo que bloqueie o sentido usado.
+
+Faça **uma rolagem por busca** e compare-a aos resultados de Furtividade guardados de todas as criaturas com sinais acessíveis no lugar declarado. Você localiza aquelas cuja CD alcançar, encerrando a ocultação em relação a você. Escuridão, invisibilidade e cobertura continuam valendo. As demais permanecem ocultas; em combate, a ação foi gasta. Se o total necessário estiver fora do alcance da rolagem, outra tentativa idêntica não resolve: procure outra pista ou exponha o esconderijo.
+
+Fora do combate, o mestre informa o tempo e o risco da busca. Repita o teste apenas com nova abordagem, nova informação ou uma nova consequência pelo tempo gasto. Quem se esconde também não recebe uma rolagem nova simplesmente porque foi procurado.
+
+> **Exemplo:** o vigia procura Rina atrás das caixas. Ela guardou Furtividade 15. Ele tem Percepção +4 e tira 11: total 15, suficiente para localizá-la. Pode avisar um aliado onde ela está. O aviso informa o espaço de Rina naquele momento, sem acompanhar seus movimentos futuros. A parede continua bloqueando ataques que precisem de passagem livre.
+
+## Energia e sentidos especiais
+
+Uma habilidade que detecte uma presença informa o que seu texto permitir: notar energia, conhecer a posição e enxergar são resultados diferentes. **Sentir Energia não concede, por si só, visão às cegas ou localização automática através de paredes.** A perícia mantém suas aplicações existentes, sem o radar universal de 9 m da versão anterior.
+
+**Vulto** fornece visão às cegas em seu alcance. **Rastro** acompanha o alvo afetado, pela duração própria. Nenhum desses efeitos atravessa obstáculos com um ataque ou dispensa a Melhoria **Sem Ver** quando a conjuração exigir essa adaptação.
+
+**Faro, o Legado**, conserva sua substituição específica de Investigação por Sentir Energia ao procurar uma maldição. **Faro, a Bênção**, trata de rastros e vestígios de técnica. **Sem Pegada** elimina os vestígios descritos na Bênção, mas não apaga a presença vista por uma testemunha. Nenhuma dessas permissões se torna geral.
+
+> **Ainda fora desta proposta:** falta definir o alcance e o resultado da detecção comum de energia. Até essa revisão, não use o raio descartado nem trate a perícia como um sentido que revela todas as criaturas da área.
+
+<!-- page:atacar|Atacar sem ser visto -->
+# Atacar sem ser visto
+
+## Visão e posição do alvo
+
+Se você **enxerga o alvo e ele não enxerga você**, seu ataque tem vantagem. Se você **não enxerga o alvo**, seu ataque tem desvantagem. Saber o espaço por som ou energia permite tentar um ataque que não exija visão, sem retirar essa desvantagem.
+
+Se nem sabe o espaço, escolha onde atacar. Se a criatura não estiver ali, o ataque erra. Alcance, cobertura e exigências de visão continuam valendo. Um efeito que localize alguém não permite atravessar uma parede com a arma.
+
+Quando ambos deixam de se enxergar, cada um ataca com desvantagem: a vantagem acima exige enxergar o alvo.
+
+**Cego:** falha em testes que dependam da visão e ataca com desvantagem os alvos que não consegue perceber por um sentido equivalente. Quem o ataca tem vantagem por sua cegueira apenas se conseguir enxergá-lo. Visão às cegas substitui a visão para esses ataques dentro de seus limites; não restaura a leitura ou outros usos exclusivos dos olhos. Outras fontes de vantagem e desvantagem continuam seguindo as regras comuns.
+
+## O ataque revela você?
+
+Se estiver oculto do alvo ao declarar o ataque, você pode expor-se pela lateral do esconderijo como parte do golpe. Precisa obter visão, alcance e passagem livre; nesse ataque, recebe a vantagem de atacar sem ser visto. **Depois de resolvê-lo, acertando ou errando, sua posição é revelada a quem puder perceber o ataque.** Resolva isso antes do próximo ataque.
+
+Essa regra vale para armas de fogo, arremessos, outras armas e ataques desarmados. Uma arma discreta pode evitar chamar pessoas distantes, mas não concede um teste gratuito para continuar oculto dos envolvidos no ataque. Uma criatura sem acesso aos sinais não descobre sua posição apenas porque outra a descobriu.
+
+Se sua posição já era conhecida e você precisa expor-se para atacar, espiar e voltar atrás da mesma caixa não concede vantagem. Esconder de novo exige **posição adequada e a ação correspondente**, ou uma habilidade que permita outra forma. Cruzar um corredor aberto antes de declarar o ataque pode revelá-lo antes do golpe.
+
+Revelar a posição não remove cobertura, escuridão ou invisibilidade. Quem continua sem conseguir vê-lo segue as regras de visão acima. Estar invisível não garante estar oculto, e estar oculto não torna você invisível.
+
+**Conjuração:** revela sua posição a quem percebe os gestos, a voz ou outros sinais da execução. A Melhoria **Silencioso** impede a revelação pelo uso: perceber o efeito não revela automaticamente sua origem. Expor o corpo, uma busca bem-sucedida ou outra pista independente ainda pode localizá-lo.
+
+## Oportunidades do Assassino
+
+Golpe Cirúrgico e Cortar a Fuga continuam exigindo os requisitos e custos próprios. Estar oculto é uma das oportunidades de abate, e Parkour fornece outras. **Sentença Final exige estar oculto do Alvo Estudado ao declarar o ataque.** Descoberta posterior não desfaz um ataque já resolvido.
+
+> **Exemplo:** Rina se esconde atrás das caixas e dispara um arco pela lateral. Ataca com vantagem, mas o disparo revela sua posição aos vigias que o percebem. Voltar atrás das caixas não recupera a ocultação. Ela precisa usar Esconder de novo; um Incursor pode fazê-lo com Ação Bônus. Um Assassino de nível 11 pode usar Desaparecer no Percurso, no momento e nas condições da Trilha.

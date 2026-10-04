@@ -79,6 +79,7 @@ CAMINHOS = {
     'Guia':      {'pericias': ['Persuasao', 'Medicina']},
     'Emanador':  {'pericias': ['Ocultismo', 'Investigacao']},
     'Evocador':  {'pericias': ['Religiao', 'Lidar com Animais']},
+    'Incursor': {'pericias': ['Acrobacia', 'Intuicao']},
 }
 # Sentir Energia NAO e fixa de ninguem, de proposito: ela e a mais rolada da mesa,
 # e fixa-la em um Caminho daria a ele uma escolha livre a mais na pratica. Livre

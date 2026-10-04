@@ -1,0 +1,130 @@
+{
+  "sha256_texto": "297d96084502eb65780b9ed2ac4f7e121a235cfdbb6e41db254f980e55393dcd",
+  "validadores": [
+    {
+      "id": "V01",
+      "nome": "Cobertura",
+      "status": "executado",
+      "evidencia": "evidencias/COBERTURA.json",
+      "observacao": "44 cabeçalhos do uso mapeados; aquisição e montagem R12."
+    },
+    {
+      "id": "V02",
+      "nome": "Regras e fontes",
+      "status": "executado",
+      "evidencia": "ALTERACOES.json",
+      "observacao": "Sem alterar publicados; fechamentos candidatos separados de preservação."
+    },
+    {
+      "id": "V03",
+      "nome": "Funcionalidade",
+      "status": "executado",
+      "evidencia": "evidencias/casos-executados.json",
+      "observacao": "Modelos de transição dirigidos; não motor integral ou teste com humanos."
+    },
+    {
+      "id": "V04",
+      "nome": "Números",
+      "status": "executado",
+      "evidencia": "auditar.py",
+      "observacao": "Tabelas lidas das fontes e exemplos calculados."
+    },
+    {
+      "id": "V05",
+      "nome": "Balanço",
+      "status": "parecer autoral",
+      "evidencia": "RELATORIO-DE-REVISAO.md",
+      "observacao": "Custos conservados e riscos de explosão temporal, manutenção e tempo explícitos."
+    },
+    {
+      "id": "V06",
+      "nome": "Compatibilidade",
+      "status": "executado",
+      "evidencia": "evidencias/INTERFACES.json",
+      "observacao": "R01/R03/R04/R06/R07/R08/R12 e Evocador/Guia."
+    },
+    {
+      "id": "V07",
+      "nome": "Títulos e palavras",
+      "status": "executado",
+      "evidencia": "evidencias/LOCALIZACAO-EDITORIAL.json",
+      "observacao": "Leitura contextual e validador automático; falsas colisões de homônimo e incompatibilidade necessária registradas individualmente."
+    },
+    {
+      "id": "V08",
+      "nome": "Clareza",
+      "status": "parecer autoral",
+      "evidencia": "evidencias/REVISAO-EDITORIAL.json",
+      "observacao": "31 páginas, campos operacionais conferidos; não mede compreensão humana."
+    },
+    {
+      "id": "V09",
+      "nome": "Voz e redundância",
+      "status": "parecer autoral",
+      "evidencia": "evidencias/REVISAO-EDITORIAL.json",
+      "observacao": "PHB/DMG como estrutura de procedimento, exemplos originais; nenhum texto copiado."
+    },
+    {
+      "id": "V10",
+      "nome": "Localização",
+      "status": "parecer autoral",
+      "evidencia": "evidencias/LOCALIZACAO-EDITORIAL.json",
+      "observacao": "Remove cópia de Guia e domínios completos; remissões indispensáveis."
+    },
+    {
+      "id": "V11",
+      "nome": "Cânone",
+      "status": "não se aplica a novas afirmações",
+      "evidencia": "ESCOPO-E-FONTES.md",
+      "observacao": "Regras de RPG próprias. Não afirma cânone dePanda/Nue, que foram removidos dos exemplos."
+    },
+    {
+      "id": "V12",
+      "nome": "Revisão independente",
+      "status": "revisado_no_escopo",
+      "evidencia": "evidencias/REVISAO-INDEPENDENTE.md",
+      "observacao": "Revisor diferente do autor, correções verificadas. R11 inclui revisão independente complementar da reserva total. Não equivale a playtest.",
+      "revisao_delta": "Concluída por compatibilidade sobre o hash atual; parecer localizado complementa a revisão integral anterior.",
+      "evidencia_delta": "evidencias/REVISAO-SINCRONIZACAO-COMPATIBILIDADE.md; evidencias/REVISAO-SINCRONIZACAO-COMPATIBILIDADE.json"
+    },
+    {
+      "id": "V13",
+      "nome": "PDF/texto/navegação",
+      "status": "executado",
+      "evidencia": "CONFERENCIA.json",
+      "observacao": "Conferência final atual com 236 verificações, todas aprovadas.",
+      "fechamento": "Prova atual inspecionada, conferência estrutural reexecutada; manifesto emitido depois da conferência."
+    },
+    {
+      "id": "V14",
+      "nome": "Inspeção visual",
+      "status": "executado com limites",
+      "evidencia": "evidencias/inspecao-visual.json",
+      "observacao": "Inspeção integral anterior preservada em historico/antes-sincronizacao-final; comparação exata de pixels de todas as páginas com a mesma rasterização confirmou alteração somente na página 21, aberta e inspecionada com view_image nesta rodada.",
+      "fechamento": "Prova atual inspecionada, conferência estrutural reexecutada; manifesto emitido depois da conferência."
+    },
+    {
+      "id": "V15",
+      "nome": "Rastreabilidade",
+      "status": "executado",
+      "evidencia": "ALTERACOES.json",
+      "observacao": "48 decisões registradas; hashes de texto, fontes e prova preservados.",
+      "fechamento": "Prova atual inspecionada, conferência estrutural reexecutada; manifesto emitido depois da conferência."
+    }
+  ],
+  "sha256_pdf": "8843a6c0db4bb0766831a0c94c22e248887dbbd3fa0823894abfcb29d21b3535",
+  "sincronizacao_final": {
+    "relatorio": "evidencias/SINCRONIZACAO-FINAL.md",
+    "casos": "evidencias/SINCRONIZACAO-FINAL.json",
+    "escopo": "Revisão localizada da seção alterada; demais conteúdos preservados, sem alegar nova leitura integral.",
+    "concluida": true
+  },
+  "fechamento_nominal": {
+    "autor_migracao": "/root/compatibilidade",
+    "leitor_independente": "/root",
+    "fonte": "consolidacao/lote-01/migracao-nomes/diffs/campo.diff",
+    "prova_visual": "evidencias/inspecao-visual.json",
+    "invariantes": "Custos, efeitos, limites e ações preservados. R10/R19 também receberam remissões aos donos atuais.",
+    "limite": "Revisões anteriores mantidas com escopo e hash próprios; não alegada nova leitura integral dos textos idênticos."
+  }
+}

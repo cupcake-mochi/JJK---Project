@@ -1,0 +1,21 @@
+{
+  "sha256_pdf": "bf9b3c219f4e351f86f2c19a10ca15dccd7f8bf7c10ecbcc86d5384ed94b6643",
+  "revisor": "autor da rodada; inspeção de PNGs renderizados",
+  "paginas": [
+    {
+      "pagina": 1,
+      "resultado": "sem defeito visual observado",
+      "observacao": "Texto, cabeçalho, tabelas, quebras e rodapé conferidos."
+    },
+    {
+      "pagina": 2,
+      "resultado": "sem defeito visual observado",
+      "observacao": "Texto, cabeçalho, tabelas, quebras e rodapé conferidos."
+    },
+    {
+      "pagina": 3,
+      "resultado": "sem defeito visual observado",
+      "observacao": "Texto, cabeçalho, tabelas, quebras e rodapé conferidos."
+    }
+  ]
+}

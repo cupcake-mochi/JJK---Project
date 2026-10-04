@@ -1,0 +1,28 @@
+{
+  "data": "2026-10-03",
+  "sha256_pdf": "e4cfb7f9d033bc5da8d20f4c3bf0426b526bffc0efbb7bb531572d6f0a772c6b",
+  "metodo": "Poppler, PNG com lado máximo de 1350 px; cinco páginas vistas pelo autor.",
+  "paginas": [
+    {
+      "pagina": 1,
+      "resultado": "Sem cortes, sobreposição, texto perdido ou títulos órfãos observados; margens, tabelas, tipografia e rodapé legíveis."
+    },
+    {
+      "pagina": 2,
+      "resultado": "Sem cortes, sobreposição, texto perdido ou títulos órfãos observados; margens, tabelas, tipografia e rodapé legíveis."
+    },
+    {
+      "pagina": 3,
+      "resultado": "Sem cortes, sobreposição, texto perdido ou títulos órfãos observados; margens, tabelas, tipografia e rodapé legíveis."
+    },
+    {
+      "pagina": 4,
+      "resultado": "Sem cortes, sobreposição, texto perdido ou títulos órfãos observados; margens, tabelas, tipografia e rodapé legíveis."
+    },
+    {
+      "pagina": 5,
+      "resultado": "Sem cortes, sobreposição, texto perdido ou títulos órfãos observados; margens, tabelas, tipografia e rodapé legíveis."
+    }
+  ],
+  "limites": "Prova curta com quebras editoriais intencionais; não substitui leitura humana nem valida a diagramação do livro inteiro."
+}

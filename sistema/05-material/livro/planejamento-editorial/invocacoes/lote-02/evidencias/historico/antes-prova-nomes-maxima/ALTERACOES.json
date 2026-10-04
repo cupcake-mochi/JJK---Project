@@ -1,0 +1,494 @@
+[
+  {
+    "id": "R12-01",
+    "tipo": "editorial",
+    "antes": "manual inteiro alterna construção, catálogo copiado e campo",
+    "depois": "27 seções de construção, mais R11 de campo e R07 consultável",
+    "motivo": "Ensinar na ordem aquisição→corpo→ficha→escolhas→exemplos. Preservar tabelas modificadas locais.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/manual/60-invocacoes.md",
+        "ancora": "## Montagem da entidade",
+        "linhas": [
+          67
+        ],
+        "sha256": "4df82e672d063b4d4bfe3394d93bb75052ec3e07d44d90b83c0ea32f10439f82"
+      }
+    ]
+  },
+  {
+    "id": "R12-02",
+    "tipo": "sincronizacao",
+    "antes": "Espaço conhecido sem requisito expresso de conceito nem custo de revisão",
+    "depois": "1 espaço por entidade, conceito explícito nas três rotas e uma revisão ocupada por nível",
+    "motivo": "Aplica R06 autorizado pelo usuário. Vagas novas não gastam revisão.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md",
+        "ancora": "A troca exige que invocações façam parte",
+        "linhas": [
+          180
+        ],
+        "sha256": "91db84efd1813de6f85f4ea30daf01528d0bdf60cfb47ce7cf512ed3121ca5b0"
+      }
+    ]
+  },
+  {
+    "id": "R12-03",
+    "tipo": "preservacao",
+    "antes": "Domar/criar não dependem de técnica na decisão autoral",
+    "depois": "Aquisição externa disponível sem técnica; conceito exigido para a troca de espaço",
+    "motivo": "Evitar estender indevidamente a nova restrição de acesso à domação/fabricação.",
+    "fontes": [
+      {
+        "arquivo": "invocacoes/DECISOES-A-PARTIR-DO-46.md",
+        "ancora": "1. **domar**",
+        "linhas": [
+          1067
+        ],
+        "sha256": "8c9dd35aa0cc496fa9767c5240629321c3706f446e4a3376b4009043c8f43dd5"
+      }
+    ]
+  },
+  {
+    "id": "R12-04",
+    "tipo": "esclarecimento",
+    "antes": "O nível da domada é o da maldição, até o seu nível",
+    "depois": "Alvo de nível superior fica inelegível; sem reduzir magicamente seu nível",
+    "motivo": "Explicita teto aprovado sem reinterpretá-lo como rebaixamento de inimigo.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/manual/60-invocacoes.md",
+        "ancora": "O nível da domada",
+        "linhas": [
+          61
+        ],
+        "sha256": "4df82e672d063b4d4bfe3394d93bb75052ec3e07d44d90b83c0ea32f10439f82"
+      }
+    ]
+  },
+  {
+    "id": "R12-05",
+    "tipo": "mecanica",
+    "antes": "Domada conserva kit, mas ficha de inimigo pode trazer ações e números de chefe",
+    "depois": "Mestre apresenta ficha convertida antes do risco; identidade/capacidades adaptadas à escala e ações de entidade",
+    "motivo": "Fechamento autorizado por raiz. Evita importação de múltiplos turnos e HP de Chefe. Diferenças conhecidas antes da aquisição.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/manual/60-invocacoes.md",
+        "ancora": "conserva o nível e o conjunto de habilidades",
+        "linhas": [
+          49
+        ],
+        "sha256": "4df82e672d063b4d4bfe3394d93bb75052ec3e07d44d90b83c0ea32f10439f82"
+      }
+    ]
+  },
+  {
+    "id": "R12-06",
+    "tipo": "esclarecimento",
+    "antes": "Lista de ritual sem distinção do procedimento de Pontos de Ritual",
+    "depois": "Lista pertence a feitiço de aquisição e desafio sozinho; rito definido antes da sessão",
+    "motivo": "Não conceder essa lista por ritualizar qualquer feitiço. Kata/Manejo recebem entidade por espaço, não Ritual que sua rota veda.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/manual/60-invocacoes.md",
+        "ancora": "**Lista de ritual.**",
+        "linhas": [
+          47
+        ],
+        "sha256": "4df82e672d063b4d4bfe3394d93bb75052ec3e07d44d90b83c0ea32f10439f82"
+      }
+    ]
+  },
+  {
+    "id": "R12-07",
+    "tipo": "preservacao",
+    "antes": "Custos completos de fabricar deliberadamente fora de Invocações",
+    "depois": "Interface nomeada Fabricação de entidades, ofícios preservados, dependência pendente registrada",
+    "motivo": "§107 manda tempo/materiais para criação. Não inventar preço/campanha neste lote.",
+    "fontes": [
+      {
+        "arquivo": "invocacoes/DECISOES-A-PARTIR-DO-46.md",
+        "ancora": "Criar uma entidade é do sistema de criação",
+        "linhas": [
+          2462
+        ],
+        "sha256": "8c9dd35aa0cc496fa9767c5240629321c3706f446e4a3376b4009043c8f43dd5"
+      }
+    ]
+  },
+  {
+    "id": "R12-08",
+    "tipo": "mecanica",
+    "antes": "Manual atual usa Movimento mas não informa deslocamento-base da ficha",
+    "depois": "9 m terrestres; modos extraordinários exigem capacidade registrada",
+    "motivo": "Fecha valor ausente pela regra geral, sem ressuscitar sistema antigo de Traços. A definição não compra percepção ou voo.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/manual/60-invocacoes.md",
+        "ancora": "A definição também precisa sustentar a anatomia",
+        "linhas": [
+          77
+        ],
+        "sha256": "4df82e672d063b4d4bfe3394d93bb75052ec3e07d44d90b83c0ea32f10439f82"
+      }
+    ]
+  },
+  {
+    "id": "R12-09",
+    "tipo": "esclarecimento",
+    "antes": "DEF permite metade Essência ou Inteligência, inativos pedem mesma escolha",
+    "depois": "Escolha única do invocador na primeira entidade, aplicada às fichas e inativos",
+    "motivo": "Fecha momento da escolha e impede alternância por ataque sem autorização.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/manual/60-invocacoes.md",
+        "ancora": "Defesa sem uniforme",
+        "linhas": [
+          507
+        ],
+        "sha256": "4df82e672d063b4d4bfe3394d93bb75052ec3e07d44d90b83c0ea32f10439f82"
+      }
+    ]
+  },
+  {
+    "id": "R12-10",
+    "tipo": "sincronizacao",
+    "antes": "Possível teto fixo de Defesa do equipamento antigo",
+    "depois": "Proteção usa equipamento vigente, substitui metade do atributo, sem declarar teto19",
+    "motivo": "Preserva fórmula e requisitos da entidade sem congelar catálogo de equipamento anterior.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/manual/60-invocacoes.md",
+        "ancora": "### Traje e Revestimento",
+        "linhas": [
+          519
+        ],
+        "sha256": "4df82e672d063b4d4bfe3394d93bb75052ec3e07d44d90b83c0ea32f10439f82"
+      }
+    ]
+  },
+  {
+    "id": "R12-11",
+    "tipo": "esclarecimento",
+    "antes": "Distribuição9, marcos, habilidades por nível espalhados",
+    "depois": "Entidade de nível alto recebe marcos anteriores; Constituição atual recalcula vida inteira",
+    "motivo": "Torna ficha inicial de nível10 executável. Mantém exemplo autoral de Constituição e vida.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/manual/60-invocacoes.md",
+        "ancora": "Distribua 9 pontos",
+        "linhas": [
+          497
+        ],
+        "sha256": "4df82e672d063b4d4bfe3394d93bb75052ec3e07d44d90b83c0ea32f10439f82"
+      }
+    ]
+  },
+  {
+    "id": "R12-12",
+    "tipo": "preservacao",
+    "antes": "Desconto próprio da Livre arredondado para baixo",
+    "depois": "Tabela própria1/1/1/2/2/3/3, não ceil pessoal",
+    "motivo": "Diferença aprovada preservada explicitamente nas Classes ímpares.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/manual/60-invocacoes.md",
+        "ancora": "Arredonde o desconto para baixo",
+        "linhas": [
+          85
+        ],
+        "sha256": "4df82e672d063b4d4bfe3394d93bb75052ec3e07d44d90b83c0ea32f10439f82"
+      }
+    ]
+  },
+  {
+    "id": "R12-13",
+    "tipo": "preservacao",
+    "antes": "Orçamento especial reduzido2/4/6/9/11/13/16 e básica1/2/2/2/3/3/3d6",
+    "depois": "Tabelas próprias completas e comparação com feitiço pessoal",
+    "motivo": "Não substituir por2C ou outro ajuste linear.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/manual/60-invocacoes.md",
+        "ancora": "| 7 (26–30) |",
+        "linhas": [
+          125
+        ],
+        "sha256": "4df82e672d063b4d4bfe3394d93bb75052ec3e07d44d90b83c0ea32f10439f82"
+      }
+    ]
+  },
+  {
+    "id": "R12-14",
+    "tipo": "sincronizacao",
+    "antes": "Básica menciona uma Leve e Restrição sem explicar devolução",
+    "depois": "Melhoria paga um d6; Restrição não restitui esse dado; ApoioC0 não fornece PV temporária",
+    "motivo": "Aplica R06 mantendo dados menores e aquisição própria.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md",
+        "ancora": "Pode haver uma Restrição Leve",
+        "linhas": [
+          633
+        ],
+        "sha256": "91db84efd1813de6f85f4ea30daf01528d0bdf60cfb47ce7cf512ed3121ca5b0"
+      }
+    ]
+  },
+  {
+    "id": "R12-15",
+    "tipo": "sincronizacao",
+    "antes": "Restrição de entidade devolve apenas gasto em Melhoria",
+    "depois": "Forma+Melhorias podem receber devolução, com saldo limitado ao orçamento próprio",
+    "motivo": "Aplica dono comum R06/R07. Reforça diferença da Onda para não gerar cura acima da redução aprovada.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/manual/60-invocacoes.md",
+        "ancora": "use os pontos devolvidos para pagar Melhoria",
+        "linhas": [
+          156
+        ],
+        "sha256": "4df82e672d063b4d4bfe3394d93bb75052ec3e07d44d90b83c0ea32f10439f82"
+      }
+    ]
+  },
+  {
+    "id": "R12-16",
+    "tipo": "esclarecimento",
+    "antes": "Onda dizia base3m apesar da regra de área usar C−1",
+    "depois": "Onda só cresce para raio4,5m na C7",
+    "motivo": "Concilia regra específica da redução com escala comum, sem usar raio4,5m emC6.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/manual/60-invocacoes.md",
+        "ancora": "O raio básico de `Onda`",
+        "linhas": [
+          204
+        ],
+        "sha256": "4df82e672d063b4d4bfe3394d93bb75052ec3e07d44d90b83c0ea32f10439f82"
+      }
+    ]
+  },
+  {
+    "id": "R12-17",
+    "tipo": "mecanica",
+    "antes": "Onda antiga não reembolsava Forma, portanto máximo era orçamento−Pesada",
+    "depois": "Teto útil explícito0/1/1/3/3/4/5 preserva a saída antiga após reembolso de Forma",
+    "motivo": "Raiz aprovou. C1 funciona com Onda+Impulso+Gesto e zero dados. Exigir benefício útil, sem buff arbitrário para1d8.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/manual/60-invocacoes.md",
+        "ancora": "use os pontos devolvidos para pagar Melhoria",
+        "linhas": [
+          156
+        ],
+        "sha256": "4df82e672d063b4d4bfe3394d93bb75052ec3e07d44d90b83c0ea32f10439f82"
+      }
+    ]
+  },
+  {
+    "id": "R12-18",
+    "tipo": "sincronizacao",
+    "antes": "Catálogo copiado com lacunas anteriores",
+    "depois": "Catálogo R07 fornece efeitos comuns e incompatibilidades; R12 guarda números próprios e acesso",
+    "motivo": "Não importar Passivas extras nem retirar preços ou Famílias de entidade. Condições completas ficam no dono.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+        "ancora": "# Passiva Própria",
+        "linhas": [
+          771
+        ],
+        "sha256": "682b239b4f582912d47b0c8cb14f0df70592f8b5c631f01240f0c4d853c8471e"
+      }
+    ]
+  },
+  {
+    "id": "R12-19",
+    "tipo": "mecanica",
+    "antes": "Passivas entram na CP mais alta do marco, com somente2 opções fixas CP3 para5ganhos tardios",
+    "depois": "Escolha até CP do marco, sem promoção das antigas",
+    "motivo": "Autorizado por raiz. Aumenta flexibilidade sem aumentar benefício máximo ou número de escolhas.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/manual/60-invocacoes.md",
+        "ancora": "Cada passiva entra na Classe Passiva mais alta",
+        "linhas": [
+          139
+        ],
+        "sha256": "4df82e672d063b4d4bfe3394d93bb75052ec3e07d44d90b83c0ea32f10439f82"
+      }
+    ]
+  },
+  {
+    "id": "R12-20",
+    "tipo": "preservacao",
+    "antes": "13opções de Passiva, incluindo Própria, fora de espaços",
+    "depois": "As mesmas13 com referência ao texto comum e aquisição própria",
+    "motivo": "Recomposição, Segunda Natureza, Peso da Presença, Reserva Profunda e Regra Própria não ganham acesso por tabela pessoal.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/manual/60-invocacoes.md",
+        "ancora": "**Passivas de referência**",
+        "linhas": [
+          472
+        ],
+        "sha256": "4df82e672d063b4d4bfe3394d93bb75052ec3e07d44d90b83c0ea32f10439f82"
+      }
+    ]
+  },
+  {
+    "id": "R12-21",
+    "tipo": "sincronizacao",
+    "antes": "Contramedida tinha PE indeterminado; Eco sem trava conjunta",
+    "depois": "Contramedida2PE e coletiva, divisão normal; Eco+Cobrança uma metade antes da divisão",
+    "motivo": "Aplica R07 e R11. Benefício pertence à entidade e não ao invocador.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+        "ancora": "## Contramedida",
+        "linhas": [
+          703
+        ],
+        "sha256": "682b239b4f582912d47b0c8cb14f0df70592f8b5c631f01240f0c4d853c8471e"
+      }
+    ]
+  },
+  {
+    "id": "R12-22",
+    "tipo": "exemplo_original",
+    "antes": "Sem exemplo criativo próprio de informação",
+    "depois": "Registro de cenaCP1 armazena sons percebidos e reproduz usando básica",
+    "motivo": "Comparada a Farejador, com uma gravação, som comum, interrupção e sem edição/tradução. Não é nova opção automática de catálogo.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+        "ancora": "## Farejador",
+        "linhas": [
+          651
+        ],
+        "sha256": "682b239b4f582912d47b0c8cb14f0df70592f8b5c631f01240f0c4d853c8471e"
+      }
+    ]
+  },
+  {
+    "id": "R12-23",
+    "tipo": "exemplo_original",
+    "antes": "Cão fonte sem deslocamento e ficha criativa incompleta",
+    "depois": "Cão completo e Vigia de papel com2especiais,1básica e passiva",
+    "motivo": "Mostra resgate/investigação sem depender de grande dano. Todos os preços e limites auditados.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/manual/60-invocacoes.md",
+        "ancora": "## Exemplo de montagem",
+        "linhas": [
+          529
+        ],
+        "sha256": "4df82e672d063b4d4bfe3394d93bb75052ec3e07d44d90b83c0ea32f10439f82"
+      }
+    ]
+  },
+  {
+    "id": "R12-24",
+    "tipo": "interface",
+    "antes": "Tempo mantém menção a orçamento de personagem sem tradução completa",
+    "depois": "R12 remete às seções específicas da nova R11",
+    "motivo": "R11 é dono da tradução de Rápido/Reação/Armado/Segura/Atrasar/Carregar, não converter por inferência.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/manual/60-invocacoes.md",
+        "ancora": "A relação dessas montagens com as ações de comando",
+        "linhas": [
+          342
+        ],
+        "sha256": "4df82e672d063b4d4bfe3394d93bb75052ec3e07d44d90b83c0ea32f10439f82"
+      }
+    ]
+  },
+  {
+    "id": "R12-25",
+    "tipo": "esclarecimento",
+    "antes": "Veto amplo a Reação e risco de interpretar aura como qualquer Forma Aura",
+    "depois": "Condições Médias/Pesadas permitidas em especiais comandadas de Aura ou Reação; vedadas em respostas e auras autônomas",
+    "motivo": "Fonte §52 diferencia especial comandada de aplicação autônoma. Coordenação expressa com R11 e agente raiz.",
+    "fontes": [
+      {
+        "arquivo": "invocacoes/DECISOES-A-PARTIR-DO-46.md",
+        "ancora": "A regra da Média e da Pesada vale para tudo que não é especial comandada",
+        "linhas": [
+          320
+        ]
+      }
+    ]
+  },
+  {
+    "id": "R12-26",
+    "tipo": "editorial",
+    "antes": "Exemplo completo do cão após a consulta de construção",
+    "depois": "Cão completo nas páginas lógicas 3 e 4, logo após aquisição por espaço",
+    "motivo": "Mostrar o resultado antes da sequência de cálculos e do catálogo. Mantidos IDs e remissões.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/manual/60-invocacoes.md",
+        "ancora": "## Exemplo de montagem",
+        "linhas": [
+          529
+        ]
+      }
+    ]
+  },
+  {
+    "id": "R12-27",
+    "tipo": "correcao_de_sincronizacao",
+    "antes": "Primeira candidata R12 usava teto pessoal 2×Classe para Cura, permitindo recuperar Forma e elevar cura da entidade",
+    "depois": "Cura comum limitada a orçamento reduzido menos preço Médio:1/2/3/5/6/7/9d8. Máxima conserva os dados fixos próprios e sua exceção",
+    "motivo": "Mantém o máximo implícito da fonte atual, que não reembolsava Forma. A primeira sincronização candidata ampliava cura silenciosamente. Coordenação e aprovação explícita da raiz nesta rodada.",
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/manual/60-invocacoes.md",
+        "ancora": "use os pontos devolvidos para pagar Melhoria",
+        "linhas": [
+          156
+        ]
+      },
+      {
+        "arquivo": "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md",
+        "ancora": "Cura: máximo de d8",
+        "linhas": [
+          281
+        ]
+      }
+    ]
+  },
+  {
+    "id": "R12-28",
+    "tipo": "esclarecimento mecânico",
+    "antes": "Toque e Aura não devolviam pontos em básica, sem dizer se ocupavam sua opção de Restrição Leve.",
+    "depois": "Exigência da Forma conservada sem ocupar a opção adicional Leve.",
+    "motivo": "Evitar que a Restrição embutida Média tornasse uma básica padrão incompatível com a própria regra de escolha."
+  },
+  {
+    "id": "R12-29",
+    "tipo": "editorial",
+    "antes": "Remissões a Rituais e Energia Reversa genéricas.",
+    "depois": "Ritual e Pactos e Ferir maldições apontam os destinos atuais.",
+    "motivo": "Permitir localizar o procedimento exato e distingui-lo da aquisição por submissão."
+  },
+  {
+    "id": "R12-30",
+    "tipo": "editorial",
+    "antes": "Contramedida repetia os mesmos custos operacionais de R11.",
+    "depois": "Remissão ao dono da adaptação de ações, preservados alcance e requisito de alvo.",
+    "motivo": "Evitar duas cópias editáveis da mesma cobrança."
+  },
+  {
+    "id": "R12-31",
+    "tipo": "compatibilidade e consulta",
+    "antes": "Remissões falavam de limite de inativos e direcionavam reparo a Corpos amaldiçoados.",
+    "depois": "Limite de corpos mantidos remete ao novo dono R11; reparo remete ao título Cura e reparo.",
+    "motivo": "Sincronizar R11-48 e indicar o destino exato sem repetir procedimentos.",
+    "impacto": "Nenhuma regra adicional além da mudança R11-48 já registrada."
+  }
+]

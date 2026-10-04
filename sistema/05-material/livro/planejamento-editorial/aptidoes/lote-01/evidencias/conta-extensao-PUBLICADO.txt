@@ -1,0 +1,4 @@
+REGRESSAO — o modelo reproduz o que ja esta publicado antes de medir coisa nova
+  [x] R1 a tabela da Extensao na peca 11 (nv, refino, duracao, PE, erguer e ate o fim, % do dia): [(18, 9, 9, 8, 77, 107), (20, 9, 9, 8, 77, 96), (26, 10, 10, 11, 117, 112), (30, 10, 10, 11, 117, 98)]
+  [x] R2 o teto do que encosta no refino 7 e 10: (3, 4)
+ANCORA PERDIDA: o fator da Intervencao na peca 26

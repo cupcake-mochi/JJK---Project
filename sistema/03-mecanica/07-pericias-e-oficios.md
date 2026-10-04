@@ -184,6 +184,7 @@ As duas fixas são a assinatura do Caminho — o que qualquer um daquele Caminho
 | **Guia** | Persuasão · Medicina |
 | **Emanador** | Ocultismo · Investigação |
 | **Evocador** | Religião · Lidar com Animais |
+| **Incursor** | Acrobacia · Intuição |
 
 **O Caminho não dá ofício, e quem dá é a Origem.** *Os dois ofícios moraram no Caminho da v0.105 até aqui, e antes disso cada Caminho fixava um — Forja no Bastião, Arrombamento na Vanguarda, Herbalismo no Guia, Caligrafia no Emanador, Entalhador no Evocador.*
 

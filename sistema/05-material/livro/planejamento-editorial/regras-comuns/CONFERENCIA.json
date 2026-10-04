@@ -1,0 +1,147 @@
+{
+  "base": "v0.331",
+  "escopo": "minuta parcial; não valida regras ainda abertas nem legibilidade por humanos",
+  "arquivos_protegidos_conferidos": 137,
+  "arquivos_protegidos_alterados": [],
+  "fontes_e_artefatos_comparados_com_inventario": 27,
+  "divergencias_publicadas": [],
+  "percursos": [
+    {
+      "caso": "chão 3 + entulho 1,5 + chão 3",
+      "disponivel": 9,
+      "distancia": 7.5,
+      "custo": 9.0,
+      "esperado": 9,
+      "saldo": 0.0,
+      "ok": true
+    },
+    {
+      "caso": "Incursor Lento cruza 1,5 difícil",
+      "disponivel": 6.0,
+      "distancia": 1.5,
+      "custo": 3.0,
+      "esperado": 3,
+      "saldo": 3.0,
+      "ok": true
+    },
+    {
+      "caso": "escalada comum 4,5",
+      "disponivel": 9,
+      "distancia": 4.5,
+      "custo": 9.0,
+      "esperado": 9,
+      "saldo": 0.0,
+      "ok": true
+    },
+    {
+      "caso": "escalada específica 9",
+      "disponivel": 9,
+      "distancia": 9,
+      "custo": 9,
+      "esperado": 9,
+      "saldo": 0,
+      "ok": true
+    },
+    {
+      "caso": "escalada comum em terreno difícil 3",
+      "disponivel": 9,
+      "distancia": 3,
+      "custo": 9,
+      "esperado": 9,
+      "saldo": 0,
+      "ok": true
+    },
+    {
+      "caso": "escalada específica em terreno difícil 3",
+      "disponivel": 9,
+      "distancia": 3,
+      "custo": 6,
+      "esperado": 6,
+      "saldo": 3,
+      "ok": true
+    },
+    {
+      "caso": "parede acrobática regular 6",
+      "disponivel": 12,
+      "distancia": 6,
+      "custo": 6,
+      "esperado": 6,
+      "saldo": 6,
+      "ok": true
+    },
+    {
+      "caso": "parede acrobática difícil 3",
+      "disponivel": 12,
+      "distancia": 3,
+      "custo": 6,
+      "esperado": 6,
+      "saldo": 6,
+      "ok": true
+    }
+  ],
+  "vida_e_sensibilidade": [
+    {
+      "caminho": "Incursor",
+      "nivel": 2,
+      "constituicao": 2,
+      "vida": 14,
+      "impacto_medio_hipotetico": 14,
+      "fracao_percentual": 100.0
+    },
+    {
+      "caminho": "Incursor",
+      "nivel": 30,
+      "constituicao": 2,
+      "vida": 182,
+      "impacto_medio_hipotetico": 14,
+      "fracao_percentual": 7.7
+    },
+    {
+      "caminho": "Bastião",
+      "nivel": 2,
+      "constituicao": 2,
+      "vida": 23,
+      "impacto_medio_hipotetico": 14,
+      "fracao_percentual": 60.9
+    },
+    {
+      "caminho": "Bastião",
+      "nivel": 30,
+      "constituicao": 2,
+      "vida": 275,
+      "impacto_medio_hipotetico": 14,
+      "fracao_percentual": 5.1
+    }
+  ],
+  "probabilidades_pericia": {
+    "0": {
+      "6": 0.75,
+      "10": 0.55,
+      "14": 0.35,
+      "18": 0.15,
+      "22": 0.0,
+      "26": 0.0
+    },
+    "4": {
+      "6": 0.95,
+      "10": 0.75,
+      "14": 0.55,
+      "18": 0.35,
+      "22": 0.15,
+      "26": 0.0
+    },
+    "10": {
+      "6": 1.0,
+      "10": 1.0,
+      "14": 0.85,
+      "18": 0.65,
+      "22": 0.45,
+      "26": 0.25
+    }
+  },
+  "links_locais_inexistentes": [],
+  "hashes_minuta": {
+    "01-MOVIMENTO-MINUTA.md": "5c0acd6db8ab87111e0b050e39d72db4cbcf6ea5eb4c8494b80f33e1a651aa79",
+    "01-DECISOES.md": "11ea6f72931bebe98fbdb6a5c56a64254c936eedcc7f175e7aed8f3dcd577c91"
+  }
+}

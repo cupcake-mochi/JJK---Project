@@ -1,0 +1,83 @@
+{
+  "sha256_pdf": "05471747af60a9761bb5403db0b060bb555b100c518d081b85cdb8def74ef81a",
+  "metodo": "Todas as 11 páginas abertas e inspecionadas pelo agente principal após leitura integral do texto. Prova de capítulo com composição final ainda sujeita à integração.",
+  "paginas": [
+    {
+      "pagina": 1,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, títulos, exemplos e tabelas completos, legíveis e sem colisões observadas.",
+      "sha256_png": "f40432165f7645f6179c290c46809dd935129b128ef4ebef34cf70d13d6b4852",
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 2,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, títulos, exemplos e tabelas completos, legíveis e sem colisões observadas.",
+      "sha256_png": "ea037ba3dcf7485d8c990a102c8f45d89aa4e27a454474257c68b86568a4557a",
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 3,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, títulos, exemplos e tabelas completos, legíveis e sem colisões observadas.",
+      "sha256_png": "c833b40aa661ec735b3d2dfecf528dd6600ad407ec6d5566dc73fc0ffc379de2",
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 4,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, títulos, exemplos e tabelas completos, legíveis e sem colisões observadas.",
+      "sha256_png": "b45326e50d773663e7e7349d0ccadd0b2ca2b3f010045edae73a8d5feec3594d",
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 5,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, títulos, exemplos e tabelas completos, legíveis e sem colisões observadas.",
+      "sha256_png": "44ad3887aaa56f9a345f64ea2e28360989fe11e024252634bfc6d5c13ff19b06",
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 6,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, títulos, exemplos e tabelas completos, legíveis e sem colisões observadas.",
+      "sha256_png": "875a3f8323dfbdadfe306b83d18bbf8ae7465604ccdc3f20d9473e5d221d2940",
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 7,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, títulos, exemplos e tabelas completos, legíveis e sem colisões observadas.",
+      "sha256_png": "fbca0e1408d5e39ef51d8705545f41c81d8f76d32b212a92530f1843e89b3c71",
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 8,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, títulos, exemplos e tabelas completos, legíveis e sem colisões observadas.",
+      "sha256_png": "a773b4d0b54426ef84442abc5185cafaa21d75a62580ee0566c32376d8745dfa",
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 9,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, títulos, exemplos e tabelas completos, legíveis e sem colisões observadas.",
+      "sha256_png": "3a5ca980abc359f0ec8ee7e0a7e29bc2dc0ddb90c630c7779d5f41c2c6f77759",
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 10,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, títulos, exemplos e tabelas completos, legíveis e sem colisões observadas.",
+      "sha256_png": "69631d7d1f14a6693f3e36549985b3d55c9762456b2058e78ac0a57cf59d02c3",
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 11,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, títulos, exemplos e tabelas completos, legíveis e sem colisões observadas.",
+      "sha256_png": "30cbb47350836bc6984c80e4fb87ad9d719f6370eef2686e3e7dcda9de1d2a57",
+      "revisor": "Agente principal"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "sha256_texto": "b1632e1f57b9892b35c66cf00d852621af5a237bcd6ebb214980a0fcea8469da",
+  "conclusao": "Leitura contextual, independente e prova concluídas. Dano misto precisa sincronização R03 na consolidação.",
+  "itens": [
+    "Títulos nomeiam o assunto ou habilidade e não começam com artigos definidos.",
+    "Identidades curtas apresentam decisões do jogador; não alegam cânone.",
+    "Cada gatilho distingue Ação Atacar de ataque concedido por outro recurso.",
+    "Exemplos resolvem combinação concreta; não repetem lista genérica de regras.",
+    "Capítulo conserva nomes aprovados e explica termos necessários pelo próprio uso.",
+    "Não há detector automático que prove ausência de escrita artificial; julgamento editorial humano continua recomendável."
+  ],
+  "excecoes": [
+    {
+      "termo": "Canalizar em Golpe",
+      "trecho": "Antes de rolar, escolha o primeiro ou o segundo ataque da ação para acompanhar o feitiço. Confira a vida nesse momento. Se só tiver um ataque, escolha esse primeiro. O ataque escolhido não recebe Canalizar em Golpe, nem o benefício correspondente da rota sem energia.",
+      "papel": "incompatibilidade",
+      "justificativa": "Contra a Parede precisa excluir nominalmente Canalizar no ataque escolhido, decisão humana expressa; não explica dados, aquisição ou uso da aptidão.",
+      "nao_reproduz_regra": true
+    }
+  ],
+  "secoes": [
+    {
+      "pagina": "bas-bastiao",
+      "titulo": "Características e progressão",
+      "clareza_suficiencia": "Adquisição, nível inicial, treinos e troca integral presentes.",
+      "numeros": "Vida/PE conferidos com criação/progressão; 3Trilhas×4entregas.",
+      "compatibilidade": "Não reproduz catálogo da Origem; segue dono sobre rotas.",
+      "voz_rpg": "Consulta por tabelas, identidade em quatro frases; linguagem de ficha.",
+      "canone": "Não aplicável: regras originais de Caminho, sem alegação sobre fatos de JJK.",
+      "revisao_independente": "Concluída por /root/rotas_didatica; evidencias/REVISAO-INDEPENDENTE.md. Auditoria por modelo, sem leitores humanos.",
+      "pdf_visual": "Todas as páginas inspecionadas; evidência vinculada ao PDF atual."
+    },
+    {
+      "pagina": "bas-olhos",
+      "titulo": "Olhos Em Mim",
+      "clareza_suficiencia": "Ativação, duração, alvo, percepção, escolha antes do acerto e saída definidos.",
+      "numeros": "For/2+1 para baixo; um totalProvocar compartilhado; Alcance6m.",
+      "compatibilidade": "Certeiro preserva dano no erro sem gerarhit; Bloquear depois rolagem e semnovaReação.",
+      "voz_rpg": "Explica primeiro ativar, depois provocar, depois interceptar; exceções necessárias locais.",
+      "canone": "Não aplicável: regras originais de Caminho, sem alegação sobre fatos de JJK.",
+      "revisao_independente": "Concluída por /root/rotas_didatica; evidencias/REVISAO-INDEPENDENTE.md. Auditoria por modelo, sem leitores humanos.",
+      "pdf_visual": "Todas as páginas inspecionadas; evidência vinculada ao PDF atual."
+    },
+    {
+      "pagina": "bas-defesa",
+      "titulo": "Defesa e recuperação",
+      "clareza_suficiencia": "Quatro efeitos curtos e separados por nível.",
+      "numeros": "1extra/rodada; vantagemTR;1d8+floorL/2;Duro sódados+Con.",
+      "compatibilidade": "Zero segue Recuperação; vantagem exige ataque ou efeito ofensivo de hostil na área; Duro não muda resultado de acerto.",
+      "voz_rpg": "Cada habilidade começa pelo gatilho e benefício, sem metáfora para operar regra.",
+      "canone": "Não aplicável: regras originais de Caminho, sem alegação sobre fatos de JJK.",
+      "revisao_independente": "Concluída por /root/rotas_didatica; evidencias/REVISAO-INDEPENDENTE.md. Auditoria por modelo, sem leitores humanos.",
+      "pdf_visual": "Todas as páginas inspecionadas; evidência vinculada ao PDF atual."
+    },
+    {
+      "pagina": "bas-aliados",
+      "titulo": "Proteção de aliados",
+      "clareza_suficiencia": "Entrada voluntária e sequência de transferência com dois exemplos.",
+      "numeros": "10/16→1e7;mistos15+6→6+6receptor;duasproteçõesemordem.",
+      "compatibilidade": "RD usada não repete; semnovoBlock,semretransmissão,semtransferircondições.",
+      "voz_rpg": "Página mais densa por interação de dano; fragmentada em passos de leitura natural, verificar PDF.",
+      "canone": "Não aplicável: regras originais de Caminho, sem alegação sobre fatos de JJK.",
+      "revisao_independente": "Concluída por /root/rotas_didatica; evidencias/REVISAO-INDEPENDENTE.md. Auditoria por modelo, sem leitores humanos.",
+      "pdf_visual": "Todas as páginas inspecionadas; evidência vinculada ao PDF atual."
+    },
+    {
+      "pagina": "bas-muro",
+      "titulo": "Muro e proteção",
+      "clareza_suficiencia": "Escolha de tipos e cobertura contextual completas.",
+      "numeros": "2tipos;1,5m;+2Def/TR;resistênciametadecomexceções.",
+      "compatibilidade": "Alma ignora resistência; cobertura maior não soma; protegealiado semaura.",
+      "voz_rpg": "Tabela quatro níveis; cenário ranged/armaalcance demonstra diferença relevante.",
+      "canone": "Não aplicável: regras originais de Caminho, sem alegação sobre fatos de JJK.",
+      "revisao_independente": "Concluída por /root/rotas_didatica; evidencias/REVISAO-INDEPENDENTE.md. Auditoria por modelo, sem leitores humanos.",
+      "pdf_visual": "Todas as páginas inspecionadas; evidência vinculada ao PDF atual."
+    },
+    {
+      "pagina": "bas-casca",
+      "titulo": "Casca Grossa e Inabalável",
+      "clareza_suficiencia": "Casca exige interceptação acertada; Inabalável conserva aura, não ações.",
+      "numeros": "36−12−11=13;18−23=0;quatro tipos.",
+      "compatibilidade": "Duro usa rolagem passada, Casca nova. Não aciona em dano de erro.",
+      "voz_rpg": "Comparação do mesmo golpe com/sem resistência prepara consulta rápida.",
+      "canone": "Não aplicável: regras originais de Caminho, sem alegação sobre fatos de JJK.",
+      "revisao_independente": "Concluída por /root/rotas_didatica; evidencias/REVISAO-INDEPENDENTE.md. Auditoria por modelo, sem leitores humanos.",
+      "pdf_visual": "Todas as páginas inspecionadas; evidência vinculada ao PDF atual."
+    },
+    {
+      "pagina": "bas-punho",
+      "titulo": "Punho e Trocação",
+      "clareza_suficiencia": "Gatilhos de Bônus e de interceptação separados.",
+      "numeros": "Bônus não duplicada; resposta usaReaçãojáconsumida.",
+      "compatibilidade": "Alcance normal; resolverrecebidoantes;hitdamage0stillhit.",
+      "voz_rpg": "Exemplo de ativação da aura consome Bônus evita erro provável de nível2.",
+      "canone": "Não aplicável: regras originais de Caminho, sem alegação sobre fatos de JJK.",
+      "revisao_independente": "Concluída por /root/rotas_didatica; evidencias/REVISAO-INDEPENDENTE.md. Auditoria por modelo, sem leitores humanos.",
+      "pdf_visual": "Todas as páginas inspecionadas; evidência vinculada ao PDF atual."
+    },
+    {
+      "pagina": "bas-mao",
+      "titulo": "Mão Pesada e Minha Vez",
+      "clareza_suficiencia": "Empurrão, controle e contra-ataque apresentam requisitos próprios.",
+      "numeros": "4,5m/alvo/rodada;CD8ForM;controle1/rodada;Minha2PE.",
+      "compatibilidade": "Mão livre/alcance/escape; parede interrompe, não dá dano novo.",
+      "voz_rpg": "Distingue empurrar muitos de controlar um; sem reimprimir condiçãoAgarrado.",
+      "canone": "Não aplicável: regras originais de Caminho, sem alegação sobre fatos de JJK.",
+      "revisao_independente": "Concluída por /root/rotas_didatica; evidencias/REVISAO-INDEPENDENTE.md. Auditoria por modelo, sem leitores humanos.",
+      "pdf_visual": "Todas as páginas inspecionadas; evidência vinculada ao PDF atual."
+    },
+    {
+      "pagina": "bas-arrastao",
+      "titulo": "Arrastão",
+      "clareza_suficiencia": "Substituição da AçãoAtacar, alvos e pagamento antecipado claros.",
+      "numeros": "N≤For;2(N−1);1ataque/alvo;1usocontrole reservado.",
+      "compatibilidade": "Raio especial sógolpes, nãoBônus/grapple;obstáculos sólidos.",
+      "voz_rpg": "Tabela preço elimina conta recorrente; dois subtítulos operacionais.",
+      "canone": "Não aplicável: regras originais de Caminho, sem alegação sobre fatos de JJK.",
+      "revisao_independente": "Concluída por /root/rotas_didatica; evidencias/REVISAO-INDEPENDENTE.md. Auditoria por modelo, sem leitores humanos.",
+      "pdf_visual": "Todas as páginas inspecionadas; evidência vinculada ao PDF atual."
+    },
+    {
+      "pagina": "bas-combatente",
+      "titulo": "Combatente, Retaliação e Embalo",
+      "clareza_suficiencia": "Conjuração de resposta e máximo/reserva energética separados.",
+      "numeros": "For ao máximo, não recarga; Embalo max(reserva,M), não soma.",
+      "compatibilidade": "Classe0 respeita requisitos/limites; críticoAB não éAçãoAtacar;TRnãoexigeaura.",
+      "voz_rpg": "Sem nomes de outrasTrilhas; identidade traduzida em sequência jogável.",
+      "canone": "Não aplicável: regras originais de Caminho, sem alegação sobre fatos de JJK.",
+      "revisao_independente": "Concluída por /root/rotas_didatica; evidencias/REVISAO-INDEPENDENTE.md. Auditoria por modelo, sem leitores humanos.",
+      "pdf_visual": "Todas as páginas inspecionadas; evidência vinculada ao PDF atual."
+    },
+    {
+      "pagina": "bas-oportunista",
+      "titulo": "Oportunista e Contra a Parede",
+      "clareza_suficiencia": "Conferência, consumo, prazo, ataque escolhido e custo presentes.",
+      "numeros": "Cmax7→C3→9PE;umataqueouumTR;semCritspell/Canalizarselected.",
+      "compatibilidade": "Lib/Máxima não entram porClasse7; Carregar não abrevia; turno1Classe>0.",
+      "voz_rpg": "Texto necessário para evitar três leituras antigas; compacto com exemplo de nível27.",
+      "canone": "Não aplicável: regras originais de Caminho, sem alegação sobre fatos de JJK.",
+      "revisao_independente": "Concluída por /root/rotas_didatica; evidencias/REVISAO-INDEPENDENTE.md. Auditoria por modelo, sem leitores humanos.",
+      "pdf_visual": "Todas as páginas inspecionadas; evidência vinculada ao PDF atual."
+    }
+  ],
+  "revisao_delta_nomes": {
+    "revisor": "/root/compatibilidade",
+    "sha256_previo": "3334f5e2ff950bc79bbad12ae3f4c2b902e8fbf1539a22e64af7e8826cd14e9d",
+    "sha256_atual": "3334f5e2ff950bc79bbad12ae3f4c2b902e8fbf1539a22e64af7e8826cd14e9d",
+    "escopo": "Somente o delta nominal foi relido nesta etapa; leitura integral anterior preservada no snapshot. Números e âncoras idênticos.",
+    "evidencia": "consolidacao/lote-01/migracao-nomes/MIGRACAO.json"
+  },
+  "revisao_remissoes": {
+    "revisor": "/root/compatibilidade",
+    "sha256_antes": "3334f5e2ff950bc79bbad12ae3f4c2b902e8fbf1539a22e64af7e8826cd14e9d",
+    "sha256_depois": "b1632e1f57b9892b35c66cf00d852621af5a237bcd6ebb214980a0fcea8469da",
+    "ids": [
+      "REM-08",
+      "REM-09",
+      "REM-10"
+    ],
+    "independente": "/root aprovou o relatório de /root/rotas_didatica e os antes/depois."
+  }
+}

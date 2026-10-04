@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "verificacoes": 60,
+  "falhas": [],
+  "resultados": {
+    "distribuicoes_atributos": 135,
+    "estados_dano_3d8": 512,
+    "estados_dano_critico_6d8": 262144,
+    "chance_acerto_kaori_sem_bloquear": 0.65,
+    "chance_exorcismo_um_ataque_sem_bloquear": 0.3496726989746094,
+    "dano_medio_por_ataque_kaori": 9.45,
+    "dano_medio_por_ataque_criatura": 3.2
+  }
+}

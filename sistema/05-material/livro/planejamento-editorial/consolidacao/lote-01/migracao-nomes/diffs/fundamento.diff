@@ -1,0 +1,70 @@
+--- fundamento/lote-01/FUNDAMENTO.md
+
++++ fundamento/lote-01/FUNDAMENTO.md
+
+@@ -55,5 +55,5 @@
+
+ | Selo | Deslizar o polegar contra o indicador. |
+ | Atributo | Destreza. |
+-| Passiva Livre | Os fios inativos aparecem como linhas prateadas entre os dedos. |
++| Expressão da técnica | Os fios inativos aparecem como linhas prateadas entre os dedos. |
+ 
+ Mei pode conceber uma rede para prender alguém ou um fio que puxe um objeto. Curar um ferimento, ler uma lembrança ou voltar no tempo exigiria outro funcionamento. Essas propostas não cabem neste Fundamento.
+@@ -128,6 +128,6 @@
+
+ **Formas não recebem desconto de Família Livre.** Elas têm os preços da tabela de Formas. A liberdade da Família reduz somente suas Melhorias.
+ 
+-<!-- page:selo|Selo e Passivas -->
+-# Selo e Passivas
++<!-- page:selo|Selo e Talentos -->
++# Selo e Talentos
+ 
+ ## Selo
+@@ -147,7 +147,7 @@
+
+ Um Selo inviável impede a conjuração. Alterá-lo exige revisar a técnica com o mestre. Trocar sua descrição não permite ignorar uma mão presa ou outro impedimento durante o uso. A Melhoria Silencioso tem suas próprias permissões para gesto e som.
+ 
+-## Passiva Livre
+-
+-Você começa com uma **Passiva Livre**, uma manifestação ligada à Descrição da técnica. Escolha algo que ajude a reconhecer o personagem: o brilho de sua energia, um detalhe estranho em seu reflexo ou uma cena que acompanha seus gestos.
++## Expressão da técnica
++
++Você começa com uma **Expressão da técnica**, uma manifestação ligada à Descrição da técnica. Escolha algo que ajude a reconhecer o personagem: o brilho de sua energia, um detalhe estranho em seu reflexo ou uma cena que acompanha seus gestos.
+ 
+ **Faíscas.** Fios de luz percorrem seu cabelo quando você demonstra entusiasmo.
+@@ -155,11 +155,11 @@
+
+ **Teatro de sombras.** Quando você conta uma história, sua sombra encena o relato. Uma perseguição ganha corredores e telhados em miniatura. Uma criatura inventada toma forma entre as figuras. Você escolhe o que a cena representa, inclusive ao contar uma história que inventou.
+ 
+-A Passiva Livre cuida da aparência e da expressão do personagem. Ela não concede vantagem nem resolve testes automaticamente. Também não revela informações que ele desconhece. Iluminar um lugar ou criar uma ilusão capaz de enganar exige uma capacidade que conceda esse efeito.
+-
+-## Passivas pagas
+-
+-As Passivas pagas ocupam espaços de feitiço. Suas Classes Passivas 1, 2 e 3 custam respectivamente 1, 2 e 3 espaços e ficam disponíveis nos níveis 1, 7 e 13. O máximo é cinco Passivas pagas.
+-
+-O catálogo de Passivas traz seus efeitos e a Regra Própria. A Livre não ocupa espaço; Regra Própria segue o custo específico de sua progressão. Nenhuma delas permite comprar efeitos de uma Família Fechada por outro nome.
++A Expressão da técnica cuida da aparência e da expressão do personagem. Ela não concede vantagem nem resolve testes automaticamente. Também não revela informações que ele desconhece. Iluminar um lugar ou criar uma ilusão capaz de enganar exige uma capacidade que conceda esse efeito.
++
++## Talentos pagos
++
++Os Talentos pagos ocupam espaços de feitiço. Suas **Categorias de Efeito (CE)** 1, 2 e 3 custam respectivamente 1, 2 e 3 espaços e ficam disponíveis nos níveis 1, 7 e 13. O máximo é cinco Talentos pagos.
++
++O catálogo de Talentos traz seus efeitos e a Regra Própria. A Expressão da técnica não ocupa espaço; Regra Própria segue o custo específico de sua progressão. Nenhuma dessas opções permite comprar efeitos de uma Família Fechada por outro nome.
+ 
+ <!-- page:repertorio|Feitiços conhecidos -->
+@@ -174,5 +174,5 @@
+
+ | Espaços | 2 | 3 | 4 | 9 | 12 | 16 | 21 | 24 |
+ 
+-Passivas pagas, a Regra Própria quando aprimorada e a Expansão de Domínio também usam esse repertório. Anote cada compra na mesma conta. A expansão ocupa 2 espaços na incompleta, 3 no total na completa e 5 no total na versão sem barreiras, respeitando os requisitos do capítulo de Domínio.
++Talentos pagos, a Regra Própria quando aprimorada e a Expansão de Domínio também usam esse repertório. Anote cada compra na mesma conta. A expansão ocupa 2 espaços na incompleta, 3 no total na completa e 5 no total na versão sem barreiras, respeitando os requisitos do capítulo de Domínio.
+ 
+ ## Invocação por espaço
+@@ -643,5 +643,5 @@
+
+ ## Uso e progressão
+ 
+-O uso normal custa Ação Padrão. O aumento do dano pela tabela é automático. Você não compra uma segunda versão quando sobe de faixa. Mudar as peças exige reescrita. Os Classe 0 não fornecem espaços para adquirir invocações ou Passivas pagas.
++O uso normal custa Ação Padrão. O aumento do dano pela tabela é automático. Você não compra uma segunda versão quando sobe de faixa. Mudar as peças exige reescrita. Os Classe 0 não fornecem espaços para adquirir invocações ou Talentos pagos.
+ 
+ <!-- page:proprio|Efeitos próprios -->

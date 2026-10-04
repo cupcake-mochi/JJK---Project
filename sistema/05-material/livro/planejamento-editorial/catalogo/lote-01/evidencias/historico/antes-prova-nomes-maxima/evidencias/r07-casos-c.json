@@ -1,0 +1,1041 @@
+{
+  "metodo": "Casos positivos e negativos de leitura e interação. Conferência sem jogadores e sem declarar equilíbrio empírico. Critérios cobrem custo real, frequência, Selo, ações, informações protegidas, morte sem redesenho e restrição temática de invocações.",
+  "casos": [
+    {
+      "id": "R07-C-01-positivo",
+      "peca": "Corpo a Corpo",
+      "tipo": "valido",
+      "cenario": "Projétil de Classe 3 vira Toque e compra uma Melhoria de custo 3.",
+      "resultado_esperado": "Toque alcança 1,5 m; a Restrição ocupa uma das duas vagas e pode devolver até 3 pontos efetivamente gastos.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 823,
+        "ancora": "Corpo a Corpo"
+      },
+      "decisao": "R07-C-01",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-01-negativo",
+      "peca": "Corpo a Corpo",
+      "tipo": "invalido",
+      "cenario": "Toque de Classe 0 pede devolução Média e compra Longe.",
+      "resultado_esperado": "Não recebe pontos na Classe 0; Longe é incompatível com Toque.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 823,
+        "ancora": "Corpo a Corpo"
+      },
+      "decisao": "R07-C-01",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-02-positivo",
+      "peca": "Atrasar",
+      "tipo": "valido",
+      "cenario": "Conjurador ainda tem Padrão, Bônus e Movimento e não andou neste turno.",
+      "resultado_esperado": "Pode conjurar com Ação Completa; conserva Reação, sem movimento voluntário.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 824,
+        "ancora": "Atrasar"
+      },
+      "decisao": "R07-C-02",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-02-negativo",
+      "peca": "Atrasar",
+      "tipo": "invalido",
+      "cenario": "Liberação Máxima recebe Atrasar e Parado para recuperar pontos.",
+      "resultado_esperado": "Custos já obrigatórios não dão devolução e as duas Restrições repetem impedimento.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 824,
+        "ancora": "Atrasar"
+      },
+      "decisao": "R07-C-02",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-03-positivo",
+      "peca": "Parado",
+      "tipo": "valido",
+      "cenario": "Uma criatura empurra o conjurador, que não fez movimento voluntário no próprio turno.",
+      "resultado_esperado": "O movimento imposto não invalida Parado.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 825,
+        "ancora": "Parado"
+      },
+      "decisao": "R07-C-03",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-03-negativo",
+      "peca": "Parado",
+      "tipo": "invalido",
+      "cenario": "Conjurador anda 1,5 m e depois anuncia feitiço com Parado.",
+      "resultado_esperado": "Não pode conjurar com Parado nesse turno.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 825,
+        "ancora": "Parado"
+      },
+      "decisao": "R07-C-03",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-04-positivo",
+      "peca": "Gesto",
+      "tipo": "valido",
+      "cenario": "Selo exige um gesto de uma mão; o feitiço acrescenta duas mãos livres e fala audível.",
+      "resultado_esperado": "Pode haver devolução por dificuldade adicional efetiva.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 826,
+        "ancora": "Gesto"
+      },
+      "decisao": "R07-C-04",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-04-negativo",
+      "peca": "Gesto",
+      "tipo": "invalido",
+      "cenario": "Selo já exige exatamente as duas mãos livres e fala; Gesto tenta devolver Leve.",
+      "resultado_esperado": "Não há devolução duplicada. Silencioso também não pode eliminar Gesto mantendo seus pontos.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 826,
+        "ancora": "Gesto"
+      },
+      "decisao": "R07-C-04",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-05-positivo",
+      "peca": "Carregar",
+      "tipo": "valido",
+      "cenario": "Turno 1: Padrão e PE para carregar. Sofre 12 de dano e passa no TR Espírito. Turno 2: usa ação da ficha.",
+      "resultado_esperado": "Feitiço é liberado com requisitos válidos. Carregar não ocupa Concentração.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 829,
+        "ancora": "Carregar"
+      },
+      "decisao": "R07-C-05",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-05-negativo",
+      "peca": "Carregar",
+      "tipo": "invalido",
+      "cenario": "Após pagar a carga, falha no TR Espírito ou não libera até fim do turno seguinte.",
+      "resultado_esperado": "Perde carga e PE já pago, sem conjuração gratuita posterior.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 829,
+        "ancora": "Carregar"
+      },
+      "decisao": "R07-C-05",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-06-positivo",
+      "peca": "Sangra",
+      "tipo": "valido",
+      "cenario": "Feitiço de Classe 3 com Sangra erra o alvo.",
+      "resultado_esperado": "O conjurador sofre 6 de dano irredutível apesar do erro.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 827,
+        "ancora": "Sangra"
+      },
+      "decisao": "R07-C-06",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-06-negativo",
+      "peca": "Sangra",
+      "tipo": "invalido",
+      "cenario": "Redução de Dano tenta reduzir a zero o custo de Sangra.",
+      "resultado_esperado": "O dano cobrado não pode ser reduzido.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 827,
+        "ancora": "Sangra"
+      },
+      "decisao": "R07-C-06",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-07-positivo",
+      "peca": "Recuo",
+      "tipo": "valido",
+      "cenario": "Escolhe uma condição Média aplicável ao próprio personagem.",
+      "resultado_esperado": "Recebe a condição até fim do próprio próximo turno e devolução Média.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 828,
+        "ancora": "Recuo"
+      },
+      "decisao": "R07-C-07",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-07-negativo",
+      "peca": "Recuo",
+      "tipo": "invalido",
+      "cenario": "Escolhe condição Pesada ou condição à qual é sempre imune.",
+      "resultado_esperado": "Não constitui a compra válida indicada pela entrada.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 828,
+        "ancora": "Recuo"
+      },
+      "decisao": "R07-C-07",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-08-positivo",
+      "peca": "Fraqueza",
+      "tipo": "valido",
+      "cenario": "Escolhe TR Espírito ao montar o feitiço.",
+      "resultado_esperado": "Devolução Média; desvantagem em Espírito depois do uso até fim da cena.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 833,
+        "ancora": "Fraqueza"
+      },
+      "decisao": "R07-C-08",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-08-negativo",
+      "peca": "Fraqueza",
+      "tipo": "invalido",
+      "cenario": "Troca Espírito por Vigor a cada uso ou mantém duas desvantagens acumuladas por repetir.",
+      "resultado_esperado": "Escolha é fixa; Vigor teria devolução Leve; a própria desvantagem não acumula.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 833,
+        "ancora": "Fraqueza"
+      },
+      "decisao": "R07-C-08",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-09-positivo",
+      "peca": "Peso Morto",
+      "tipo": "valido",
+      "cenario": "Usa o feitiço com deslocamento 9 m.",
+      "resultado_esperado": "Fica com 4,5 m e −1 nos TR Físicos até fim do próximo turno.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 839,
+        "ancora": "Peso Morto"
+      },
+      "decisao": "R07-C-09",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-09-negativo",
+      "peca": "Peso Morto",
+      "tipo": "invalido",
+      "cenario": "Repete o feitiço e divide o deslocamento sucessivamente por dois.",
+      "resultado_esperado": "Renova o prazo; não multiplica a própria penalidade.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 839,
+        "ancora": "Peso Morto"
+      },
+      "decisao": "R07-C-09",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-10-positivo",
+      "peca": "Frágil",
+      "tipo": "valido",
+      "cenario": "Mantém uma área e sofre 1 de dano antes do próximo turno, mesmo com Mão Firme.",
+      "resultado_esperado": "O efeito termina imediatamente sem TR.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 834,
+        "ancora": "Frágil"
+      },
+      "decisao": "R07-C-10",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-10-negativo",
+      "peca": "Frágil",
+      "tipo": "invalido",
+      "cenario": "Põe Frágil num feitiço inteiramente instantâneo.",
+      "resultado_esperado": "Não há efeito contínuo a perder; Restrição não concede devolução.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 834,
+        "ancora": "Frágil"
+      },
+      "decisao": "R07-C-10",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-11-positivo",
+      "peca": "Sem Volta",
+      "tipo": "valido",
+      "cenario": "Feitiço por TR com Tudo ou Nada: todos passam e não sofrem nenhum efeito.",
+      "resultado_esperado": "Não conjura no próximo turno, inclusive Classe 0.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 840,
+        "ancora": "Sem Volta"
+      },
+      "decisao": "R07-C-11",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-11-negativo",
+      "peca": "Sem Volta",
+      "tipo": "invalido",
+      "cenario": "Certeiro garante dano no erro e tenta vender Sem Volta.",
+      "resultado_esperado": "Combinação não tem o risco de falha completa cobrado; não permite a Restrição.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 840,
+        "ancora": "Sem Volta"
+      },
+      "decisao": "R07-C-11",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-12-positivo",
+      "peca": "Uma Vez",
+      "tipo": "valido",
+      "cenario": "Uma tentativa erra todos os alvos.",
+      "resultado_esperado": "Uso da cena foi gasto.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 831,
+        "ancora": "Uma Vez"
+      },
+      "decisao": "R07-C-12",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-12-negativo",
+      "peca": "Uma Vez",
+      "tipo": "invalido",
+      "cenario": "Tenta Ampliar e usar outra vez na mesma cena.",
+      "resultado_esperado": "É o mesmo feitiço e o mesmo limite.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 831,
+        "ancora": "Uma Vez"
+      },
+      "decisao": "R07-C-12",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-13-positivo",
+      "peca": "Condicional",
+      "tipo": "valido",
+      "cenario": "Condição escrita e mensurável impede o uso em metade das cenas previstas.",
+      "resultado_esperado": "Pode devolver Média; deve ser revista após uso real.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 832,
+        "ancora": "Condicional"
+      },
+      "decisao": "R07-C-13",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-13-negativo",
+      "peca": "Condicional",
+      "tipo": "invalido",
+      "cenario": "Condição é sempre produzida sem custo pelo próprio Selo.",
+      "resultado_esperado": "Sem dificuldade real nova, não há devolução.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 832,
+        "ancora": "Condicional"
+      },
+      "decisao": "R07-C-13",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-14-positivo",
+      "peca": "Aquecer",
+      "tipo": "valido",
+      "cenario": "Combate já está na segunda rodada.",
+      "resultado_esperado": "Restrição não impede conjurar.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 837,
+        "ancora": "Aquecer"
+      },
+      "decisao": "R07-C-14",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-14-negativo",
+      "peca": "Aquecer",
+      "tipo": "invalido",
+      "cenario": "Aplicação só funciona fora de combate e usa Aquecer para financiar uma Melhoria.",
+      "resultado_esperado": "Não há impedimento aplicável; não recebe pontos por isso.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 837,
+        "ancora": "Aquecer"
+      },
+      "decisao": "R07-C-14",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-15-positivo",
+      "peca": "Dívida",
+      "tipo": "valido",
+      "cenario": "Classe 3 gera dívida de 6 PE; próxima conjuração é Classe 0.",
+      "resultado_esperado": "Classe 0 exige 6 PE e consome a dívida.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 838,
+        "ancora": "Dívida"
+      },
+      "decisao": "R07-C-15",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-15-negativo",
+      "peca": "Dívida",
+      "tipo": "invalido",
+      "cenario": "Segunda Natureza ou Eco tenta apagar também a dívida pendente.",
+      "resultado_esperado": "Dispensa/desconto atinge somente custo normal; a dívida continua devida.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 838,
+        "ancora": "Dívida"
+      },
+      "decisao": "R07-C-15",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-16-positivo",
+      "peca": "Tudo ou Nada",
+      "tipo": "valido",
+      "cenario": "Feitiço de TR normalmente causaria metade do dano no sucesso.",
+      "resultado_esperado": "Sucesso passa a evitar esse dano; outras peças conservam resolução.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 830,
+        "ancora": "Tudo ou Nada"
+      },
+      "decisao": "R07-C-16",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-16-negativo",
+      "peca": "Tudo ou Nada",
+      "tipo": "invalido",
+      "cenario": "Feitiço sem dano ou com ataque contra Defesa compra a Restrição.",
+      "resultado_esperado": "Não há metade de dano no sucesso do TR para retirar; compra inválida.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 830,
+        "ancora": "Tudo ou Nada"
+      },
+      "decisao": "R07-C-16",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-17-positivo",
+      "peca": "Barulho",
+      "tipo": "valido",
+      "cenario": "Gesto exige fala comum; Barulho amplia aviso até 90 m.",
+      "resultado_esperado": "Exposição adicional é real se não já inerente à técnica; identifica origem a quem ouve.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 835,
+        "ancora": "Barulho"
+      },
+      "decisao": "R07-C-17",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-17-negativo",
+      "peca": "Barulho",
+      "tipo": "invalido",
+      "cenario": "Silencioso elimina o ruído e o autor mantém pontos de Barulho.",
+      "resultado_esperado": "Ruído da Restrição precisa permanecer. Selo que já produz mesmo aviso não devolve pontos outra vez.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 835,
+        "ancora": "Barulho"
+      },
+      "decisao": "R07-C-17",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-18-positivo",
+      "peca": "Assinatura",
+      "tipo": "valido",
+      "cenario": "Marca visível identifica o autor por 1 hora.",
+      "resultado_esperado": "Cumpre a consequência escrita de exposição.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 836,
+        "ancora": "Assinatura"
+      },
+      "decisao": "R07-C-18",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-18-negativo",
+      "peca": "Assinatura",
+      "tipo": "invalido",
+      "cenario": "Escreve marca invisível escondida ou usa benefício permanente que elimina a autoria.",
+      "resultado_esperado": "Dificuldade deixa de ocorrer e perde devolução. A marca não vira rastreador de posição por conta própria.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 836,
+        "ancora": "Assinatura"
+      },
+      "decisao": "R07-C-18",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-19-positivo",
+      "peca": "Restrição Própria",
+      "tipo": "valido",
+      "cenario": "Propõe impedimento observável, com prazo, que atrapalha em metade das cenas.",
+      "resultado_esperado": "Pode receber Média e ocupa uma das duas vagas.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 851,
+        "ancora": "Restrição Própria"
+      },
+      "decisao": "R07-C-19",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-19-negativo",
+      "peca": "Restrição Própria",
+      "tipo": "invalido",
+      "cenario": "Junta Uma Vez e uma Restrição Própria que igualmente limita frequência, ou pede devolução Pesada.",
+      "resultado_esperado": "As combinações e o preço são inválidos.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 851,
+        "ancora": "Restrição Própria"
+      },
+      "decisao": "R07-C-19",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-20-positivo",
+      "peca": "Leitura",
+      "tipo": "valido",
+      "cenario": "Conjuração a 18 m usa Explosão de Classe 3.",
+      "resultado_esperado": "Identifica Forma e Classe, sem receber lista de Melhorias.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 319,
+        "ancora": "Leitura"
+      },
+      "decisao": "R07-C-20",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-20-negativo",
+      "peca": "Leitura",
+      "tipo": "invalido",
+      "cenario": "Pede ficha inteira de técnica ou identidade/posição de alvo oculto.",
+      "resultado_esperado": "Essas informações não estão concedidas.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 319,
+        "ancora": "Leitura"
+      },
+      "decisao": "R07-C-20",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-21-positivo",
+      "peca": "Instinto",
+      "tipo": "valido",
+      "cenario": "Personagem está acordado e alguém tenta surpreendê-lo.",
+      "resultado_esperado": "Não sofre surpresa.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 320,
+        "ancora": "Instinto"
+      },
+      "decisao": "R07-C-21",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-21-negativo",
+      "peca": "Instinto",
+      "tipo": "invalido",
+      "cenario": "Está dormindo ou exige localizar automaticamente inimigo oculto.",
+      "resultado_esperado": "Dormindo não recebe a proteção; a Passiva não revela localização.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 320,
+        "ancora": "Instinto"
+      },
+      "decisao": "R07-C-21",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-22-positivo",
+      "peca": "Raiz",
+      "tipo": "valido",
+      "cenario": "Ataque causa dano e empurra.",
+      "resultado_esperado": "Pode impedir empurrão; o dano segue normalmente.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 321,
+        "ancora": "Raiz"
+      },
+      "decisao": "R07-C-22",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-22-negativo",
+      "peca": "Raiz",
+      "tipo": "invalido",
+      "cenario": "Usa Raiz para flutuar quando o chão desaparece.",
+      "resultado_esperado": "Não cria apoio; a queda segue as regras comuns.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 321,
+        "ancora": "Raiz"
+      },
+      "decisao": "R07-C-22",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-23-positivo",
+      "peca": "Mão Firme",
+      "tipo": "valido",
+      "cenario": "Sofre duas ocorrências separadas de 7 de dano durante Carregar.",
+      "resultado_esperado": "Não soma 14; dispensa os dois TR de carga.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 322,
+        "ancora": "Mão Firme"
+      },
+      "decisao": "R07-C-23",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-23-negativo",
+      "peca": "Mão Firme",
+      "tipo": "invalido",
+      "cenario": "Sofre 11 ou usa Frágil e sofre 1.",
+      "resultado_esperado": "11 exige TR normal; Frágil termina sem ser protegido pela Passiva.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 322,
+        "ancora": "Mão Firme"
+      },
+      "decisao": "R07-C-23",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-24-positivo",
+      "peca": "Farejador",
+      "tipo": "valido",
+      "cenario": "Há resíduos de conjuração de Classe 2 no local, feita há 12 horas.",
+      "resultado_esperado": "Reconhece vestígio e Classe.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 323,
+        "ancora": "Farejador"
+      },
+      "decisao": "R07-C-24",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-24-negativo",
+      "peca": "Farejador",
+      "tipo": "invalido",
+      "cenario": "Pede nome do autor e caminho tomado há 30 horas.",
+      "resultado_esperado": "Nenhuma dessas informações está no efeito de 24 horas.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 323,
+        "ancora": "Farejador"
+      },
+      "decisao": "R07-C-24",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-25-positivo",
+      "peca": "Aviso",
+      "tipo": "valido",
+      "cenario": "Vê inimigo que conjurou um feitiço anteriormente.",
+      "resultado_esperado": "Identifica a última aplicação, sem aprender sua receita.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 324,
+        "ancora": "Aviso"
+      },
+      "decisao": "R07-C-25",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-25-negativo",
+      "peca": "Aviso",
+      "tipo": "invalido",
+      "cenario": "Tenta obter toda a lista conhecida ou confunde com Melhoria Aviso.",
+      "resultado_esperado": "Passiva e Melhoria são compras distintas; só última aplicação é revelada.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 324,
+        "ancora": "Aviso"
+      },
+      "decisao": "R07-C-25",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-26-positivo",
+      "peca": "Fluxo",
+      "tipo": "valido",
+      "cenario": "Conjura Classe 3 em Rajada com vários ataques.",
+      "resultado_esperado": "Recebe uma reserva de 6 PV temporários, sujeita ao teto geral e sem somar reservas.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 325,
+        "ancora": "Fluxo"
+      },
+      "decisao": "R07-C-26",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-26-negativo",
+      "peca": "Fluxo",
+      "tipo": "invalido",
+      "cenario": "Técnica Máxima usa maior Classe 5 para pagar Melhorias e pede 10 PV temporários.",
+      "resultado_esperado": "Referência de preço não lhe concede Classe nem ativa Fluxo.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 325,
+        "ancora": "Fluxo"
+      },
+      "decisao": "R07-C-26",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-27-positivo",
+      "peca": "Recomposição",
+      "tipo": "valido",
+      "cenario": "Maior Classe 3, falta ao menos 15 PV; uso disponível.",
+      "resultado_esperado": "Ação Padrão recupera 15 PV; não gasta PE.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 326,
+        "ancora": "Recomposição"
+      },
+      "decisao": "R07-C-27",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-27-negativo",
+      "peca": "Recomposição",
+      "tipo": "invalido",
+      "cenario": "Tenta segundo uso antes de descanso curto ou usa para remover condição.",
+      "resultado_esperado": "Sem outro uso disponível; recuperação de PV não remove condição.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 326,
+        "ancora": "Recomposição"
+      },
+      "decisao": "R07-C-27",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-28-positivo",
+      "peca": "Segunda Natureza",
+      "tipo": "valido",
+      "cenario": "Maior Classe 5; feitiço conhecido de Classe 2.",
+      "resultado_esperado": "Uma vez no dia pode dispensar custo normal de PE; mantém ações e requisitos.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 327,
+        "ancora": "Segunda Natureza"
+      },
+      "decisao": "R07-C-28",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-28-negativo",
+      "peca": "Segunda Natureza",
+      "tipo": "invalido",
+      "cenario": "Escolhe Classe 3 ou descansa no mesmo dia para repetir.",
+      "resultado_esperado": "Metade para baixo é 2; descanso não redefine o limite diário.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 327,
+        "ancora": "Segunda Natureza"
+      },
+      "decisao": "R07-C-28",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-29-positivo",
+      "peca": "Eco",
+      "tipo": "valido",
+      "cenario": "Feitiço reduz inimigo a 0; próximo feitiço custa 9 PE normalmente.",
+      "resultado_esperado": "Paga 5 PE, antes de custos independentes.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 328,
+        "ancora": "Eco"
+      },
+      "decisao": "R07-C-29",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-29-negativo",
+      "peca": "Eco",
+      "tipo": "invalido",
+      "cenario": "Apenas aplica Derrubado, ou junta Eco e Cobrança para pagar um quarto.",
+      "resultado_esperado": "Derrubado não ativa Eco; as duas metades juntas aplicam uma metade e ambas são consumidas.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 328,
+        "ancora": "Eco"
+      },
+      "decisao": "R07-C-29",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-30-positivo",
+      "peca": "Costura",
+      "tipo": "valido",
+      "cenario": "Aliado a 9 m, com PV positivos, receberia dano que o reduziria a 0.",
+      "resultado_esperado": "Pode permanecer com 1 PV; consome uso da cena sem Reação.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 329,
+        "ancora": "Costura"
+      },
+      "decisao": "R07-C-30",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-30-negativo",
+      "peca": "Costura",
+      "tipo": "invalido",
+      "cenario": "Aliado já está a 0 ou perdeu Integridade, e o usuário quer recuperá-lo.",
+      "resultado_esperado": "Não é cura retroativa nem recuperação de Integridade.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 329,
+        "ancora": "Costura"
+      },
+      "decisao": "R07-C-30",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-31-positivo",
+      "peca": "Contramedida",
+      "tipo": "valido",
+      "cenario": "Outra criatura a 9 m anuncia feitiço com TR, antes dos dados.",
+      "resultado_esperado": "Pode pagar Reação e 2 PE para aumentar CD em 2.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 330,
+        "ancora": "Contramedida"
+      },
+      "decisao": "R07-C-31",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-31-negativo",
+      "peca": "Contramedida",
+      "tipo": "invalido",
+      "cenario": "Usa no próprio feitiço, após ver TR ou para melhorar ataque contra Defesa.",
+      "resultado_esperado": "Gatilho é outra criatura, janela anterior aos TR e benefício só na CD.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 330,
+        "ancora": "Contramedida"
+      },
+      "decisao": "R07-C-31",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-32-positivo",
+      "peca": "Peso da Presença",
+      "tipo": "valido",
+      "cenario": "Capanga começa turno a 6 m e falha em Espírito contra CD da técnica.",
+      "resultado_esperado": "Fica Amedrontado até começo do próximo turno, com TR de saída no fim do turno por ser Pesada; repetirá teste se ainda na área.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 331,
+        "ancora": "Peso da Presença"
+      },
+      "decisao": "R07-C-32",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-32-negativo",
+      "peca": "Peso da Presença",
+      "tipo": "invalido",
+      "cenario": "Ameaça de nível menor entra na área fora do início do turno.",
+      "resultado_esperado": "Categoria Ameaça é inelegível e entrar não dispara o teste.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 331,
+        "ancora": "Peso da Presença"
+      },
+      "decisao": "R07-C-32",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-33-positivo",
+      "peca": "Escama",
+      "tipo": "valido",
+      "cenario": "Regra justifica resistência a Fogo.",
+      "resultado_esperado": "Aplica metade do dano Fogo conforme regra de dano.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 332,
+        "ancora": "Escama"
+      },
+      "decisao": "R07-C-33",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-33-negativo",
+      "peca": "Escama",
+      "tipo": "invalido",
+      "cenario": "Recebe outra resistência e tenta dividir novamente, ou estende a todo dano.",
+      "resultado_esperado": "Resistências iguais não se acumulam e o tipo escolhido continua único.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 332,
+        "ancora": "Escama"
+      },
+      "decisao": "R07-C-33",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-34-positivo",
+      "peca": "Afinidade",
+      "tipo": "valido",
+      "cenario": "Feitiço do tema registrado ataca alvo com cobertura Parcial e resistência ao seu dano.",
+      "resultado_esperado": "Ignora ambas nessa aplicação.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 333,
+        "ancora": "Afinidade"
+      },
+      "decisao": "R07-C-34",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-34-negativo",
+      "peca": "Afinidade",
+      "tipo": "invalido",
+      "cenario": "Pede ignorar cobertura Boa/Total, RD ou imunidade.",
+      "resultado_esperado": "Benefícios não incluem essas defesas.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 333,
+        "ancora": "Afinidade"
+      },
+      "decisao": "R07-C-34",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-35-positivo",
+      "peca": "Reserva Profunda",
+      "tipo": "valido",
+      "cenario": "Maior Classe sobe de 3 para 4.",
+      "resultado_esperado": "Acréscimo ao PE máximo muda de 9 para 12.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 334,
+        "ancora": "Reserva Profunda"
+      },
+      "decisao": "R07-C-35",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-35-negativo",
+      "peca": "Reserva Profunda",
+      "tipo": "invalido",
+      "cenario": "Tenta ativar Passiva várias vezes para recuperar PE gasto.",
+      "resultado_esperado": "Não é ação de recuperação; aplica somente aumento do máximo.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 334,
+        "ancora": "Reserva Profunda"
+      },
+      "decisao": "R07-C-35",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-36-positivo",
+      "peca": "Regra Própria",
+      "tipo": "valido",
+      "cenario": "CP2 já ocupa 1 espaço; alcança nível 13 e melhora para CP3.",
+      "resultado_esperado": "Ocupa 2 espaços no total, somente mais 1, sem entrar no máximo de cinco pagas.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 335,
+        "ancora": "Regra Própria"
+      },
+      "decisao": "R07-C-36",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-36-negativo",
+      "peca": "Regra Própria",
+      "tipo": "invalido",
+      "cenario": "Regra pune só o adversário, causa dano direto ou não tem limite por cena.",
+      "resultado_esperado": "Proposta viola simetria, ausência de dano direto ou limite obrigatório.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 335,
+        "ancora": "Regra Própria"
+      },
+      "decisao": "R07-C-36",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-37-positivo",
+      "peca": "Passiva Própria",
+      "tipo": "valido",
+      "cenario": "Ideia tem benefício, gatilho, alcance, resolução e referência do mesmo CP.",
+      "resultado_esperado": "Pode ser avaliada antes da sessão, com custo e nível correspondentes.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 336,
+        "ancora": "Passiva Própria"
+      },
+      "decisao": "R07-C-37",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    },
+    {
+      "id": "R07-C-37-negativo",
+      "peca": "Passiva Própria",
+      "tipo": "invalido",
+      "cenario": "Compra imunidade completa, ação extra toda rodada ou invocação sem previsão temática explícita.",
+      "resultado_esperado": "Não autorizado pelas regras de criação da Passiva; acesso à entidade continua condicionado ao conceito e aquisição própria.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 336,
+        "ancora": "Passiva Própria"
+      },
+      "decisao": "R07-C-37",
+      "natureza": "Caso de mesa teórico; não é relato de playtest nem execução de simulador."
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "escopo": "Prova candidata; sem integração",
+  "arquivos": [
+    {
+      "arquivo": "CONFERENCIA.json",
+      "sha256": "57ea5c277572f38380b871879c12e6bac42216e1a8b65d85516fb97188bf3ed4"
+    },
+    {
+      "arquivo": "DECISOES.md",
+      "sha256": "15b4634478a0d24961ebe5883ec94f6c7487db9b55989ddb5fb160b0b31a8174"
+    },
+    {
+      "arquivo": "ESTRUTURA.json",
+      "sha256": "334b6e63f82d18805a44309daed713137d433bd20ef78bd4d5e9d66bb9f4253b"
+    },
+    {
+      "arquivo": "LEIA-ME.md",
+      "sha256": "65800bb0a683e8f2f553070f7dca86827d7884d157e0b29746d709f03ca4c843"
+    },
+    {
+      "arquivo": "MOVIMENTO-E-CARGA.md",
+      "sha256": "674d9fac25d2238fa22b5e0331e4e0b25ea7aa52801392d4734e354213db9272"
+    },
+    {
+      "arquivo": "RELATORIO.md",
+      "sha256": "ac7379643a1a845de054931dbfd940e94d801d0dcaf0c57167a93ddcfd7ead71"
+    },
+    {
+      "arquivo": "conferir.py",
+      "sha256": "45e691254543aad5e781a93da27efd5f43c5649218ef8feb3c6f7bc72d6dc8be"
+    },
+    {
+      "arquivo": "evidencias/REVISAO-EDITORIAL.json",
+      "sha256": "0e17f58f9c5691cd09eabc0a0e3725098185278931452b865bec1f9e618463b7"
+    },
+    {
+      "arquivo": "evidencias/REVISAO.md",
+      "sha256": "0c9193ccd3dc4113b02e714c151698f9f7b3b0e73108edd9b2a335af5eec5520"
+    },
+    {
+      "arquivo": "evidencias/casos-documentais.json",
+      "sha256": "a472ba38b38d2f77b07f70e427f7f8cb7f96dc22dadc7bdb31bdf5986484f402"
+    },
+    {
+      "arquivo": "evidencias/fontes-preservadas.json",
+      "sha256": "ed418872369fd3ece24133c307918b7c9b51277cc8590c55f3799b568294425d"
+    },
+    {
+      "arquivo": "evidencias/inspecao-visual.json",
+      "sha256": "d5bdaad2c9a86a2d51d09e5bddcef8b55dc0a34389dea81f46d36e4df86e2804"
+    },
+    {
+      "arquivo": "evidencias/pdf-estrutura.json",
+      "sha256": "3f51a24cd67599f66a996a0b4612423e4cec7078464dd217334c9ea9e3421ed4"
+    },
+    {
+      "arquivo": "evidencias/pdf-texto.txt",
+      "sha256": "3cd43ee63535f7ae29028ec81c543ac5bba1240fa11cce202836036465cfc392"
+    },
+    {
+      "arquivo": "gerar_pdf.py",
+      "sha256": "b64e78737d688b69ea4eb93de041cb07a680fb4e9b56d2dc8fa7f0da7dd78309"
+    },
+    {
+      "arquivo": "output/pdf/Projeto-M-Movimento-e-Carga-Proposta-01.pdf",
+      "sha256": "b7ac6f611b36310785e085130b3c62574ed75637a3ef53ca5fe7b2f378b91e4a"
+    }
+  ]
+}

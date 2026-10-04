@@ -1,0 +1,102 @@
+{
+  "data": "2026-10-03",
+  "sha256_pdf": "a88a12691244efa8035e7ccbe4a2465cca70ce7e4175896bec189d14a8c83cf4",
+  "metodo": "18 páginas renderizadas com Poppler a1300px e vistas pelo autor; páginas7e14 revistas após retirar subtítulos repetidos; demais PNGs finais idênticos aos já inspecionados.",
+  "paginas": [
+    {
+      "pagina": 1,
+      "sha256_png": "031a779af3fe03449fa0b7c4124fffa03408a22bb8c0d3519cbf72e7db9ebee4",
+      "resultado": "Sem cortes, sobreposição, títulos órfãos ou quebra de tabela observados; cores, números e links legíveis."
+    },
+    {
+      "pagina": 2,
+      "sha256_png": "483bcab64ea32dc5cabf3ce1e956f680bbb72a7d549f5b8d4a2828cfbb61029c",
+      "resultado": "Sem cortes, sobreposição, títulos órfãos ou quebra de tabela observados; cores, números e links legíveis."
+    },
+    {
+      "pagina": 3,
+      "sha256_png": "2437e20a38a35652cd0deed5f80298b9341be4ff48d2f6d5f4ad43dc7d3a919d",
+      "resultado": "Sem cortes, sobreposição, títulos órfãos ou quebra de tabela observados; cores, números e links legíveis."
+    },
+    {
+      "pagina": 4,
+      "sha256_png": "4623ced11158efd11781f12f3d0a409033e8e89335fe20e910ee9b4e40280f0f",
+      "resultado": "Sem cortes, sobreposição, títulos órfãos ou quebra de tabela observados; cores, números e links legíveis."
+    },
+    {
+      "pagina": 5,
+      "sha256_png": "094a81a857aa87fcb358aa91257acd55b78576b9d0aa75c362c2f4ef3c8764cc",
+      "resultado": "Sem cortes, sobreposição, títulos órfãos ou quebra de tabela observados; cores, números e links legíveis."
+    },
+    {
+      "pagina": 6,
+      "sha256_png": "90b3d36c2abe06ea6da4141d5186e5f03dab8a9527d9e8ae83404d1efa9baa5e",
+      "resultado": "Sem cortes, sobreposição, títulos órfãos ou quebra de tabela observados; cores, números e links legíveis."
+    },
+    {
+      "pagina": 7,
+      "sha256_png": "3d4928970461cac393d4ee2cf509ede0d93f4165ccf87d1422dbd6960a8f4b6d",
+      "resultado": "Sem cortes, sobreposição, títulos órfãos ou quebra de tabela observados; cores, números e links legíveis."
+    },
+    {
+      "pagina": 8,
+      "sha256_png": "f76ded5d28510acea1d223c034ab346a3484b8d338f3a26a7d3e6f54f783d2dc",
+      "resultado": "Sem cortes, sobreposição, títulos órfãos ou quebra de tabela observados; cores, números e links legíveis."
+    },
+    {
+      "pagina": 9,
+      "sha256_png": "416b4ddcda2501f7bd29f0399910e73d981bb285bf0ccb58b46cffdc7180da42",
+      "resultado": "Sem cortes, sobreposição, títulos órfãos ou quebra de tabela observados; cores, números e links legíveis."
+    },
+    {
+      "pagina": 10,
+      "sha256_png": "ca4601f05d2f3d652075cf02bf59c1e65761cf3ea08e79800d0c46b9b24d43c2",
+      "resultado": "Sem cortes, sobreposição, títulos órfãos ou quebra de tabela observados; cores, números e links legíveis."
+    },
+    {
+      "pagina": 11,
+      "sha256_png": "5a67b4181d172c0211e3392c536f768b1b5ec3b9075fa17ca3cf8aeab100dec0",
+      "resultado": "Sem cortes, sobreposição, títulos órfãos ou quebra de tabela observados; cores, números e links legíveis."
+    },
+    {
+      "pagina": 12,
+      "sha256_png": "fa84daa06a0d360cdd75712dfe725e784bee45e54f98bab67fe0f6e4efdddc8d",
+      "resultado": "Sem cortes, sobreposição, títulos órfãos ou quebra de tabela observados; cores, números e links legíveis."
+    },
+    {
+      "pagina": 13,
+      "sha256_png": "7e9839949e955114ecdfc36b47157724e407a43064456b43d0f48ffe1e53fd1c",
+      "resultado": "Sem cortes, sobreposição, títulos órfãos ou quebra de tabela observados; cores, números e links legíveis."
+    },
+    {
+      "pagina": 14,
+      "sha256_png": "e228f98debc2f0ab18db2cbf7565728474ad2331a0a5915532193c286fc587cb",
+      "resultado": "Sem cortes, sobreposição, títulos órfãos ou quebra de tabela observados; cores, números e links legíveis."
+    },
+    {
+      "pagina": 15,
+      "sha256_png": "7c705c758d47891fd2ecccb9a0baf0265daeb261bfe5fefb5674573032a380fe",
+      "resultado": "Sem cortes, sobreposição, títulos órfãos ou quebra de tabela observados; cores, números e links legíveis."
+    },
+    {
+      "pagina": 16,
+      "sha256_png": "d6b76256b5ee87a04d7bd43e4e190952f5f572ed4a9c963007bcbccbdfc6ec84",
+      "resultado": "Sem cortes, sobreposição, títulos órfãos ou quebra de tabela observados; cores, números e links legíveis."
+    },
+    {
+      "pagina": 17,
+      "sha256_png": "2d66526caaf77a39b9a90a8c76a3461ca14d2499e88c289c126b1a7457757624",
+      "resultado": "Sem cortes, sobreposição, títulos órfãos ou quebra de tabela observados; cores, números e links legíveis."
+    },
+    {
+      "pagina": 18,
+      "sha256_png": "0e0e51463f3a8f4f81eb88ddcab45d960d4a584a21c5e1fc18b46b28d4dcb951",
+      "resultado": "Sem cortes, sobreposição, títulos órfãos ou quebra de tabela observados; cores, números e links legíveis."
+    }
+  ],
+  "limites": [
+    "Prova de leitura por unidades, não diagramação final do livro.",
+    "Respiro maior nas aberturas preservado; não acrescentar texto apenas para preencher.",
+    "Teste com leitores e revisão independente desta versão não realizados."
+  ]
+}

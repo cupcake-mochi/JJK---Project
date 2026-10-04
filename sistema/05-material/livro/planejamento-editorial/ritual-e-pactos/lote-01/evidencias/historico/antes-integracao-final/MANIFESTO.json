@@ -1,0 +1,134 @@
+{
+  "data": "2026-10-03",
+  "status": "candidata revisada, não integrada",
+  "manuscrito": "RITUAL-E-PACTOS.md",
+  "sha256_texto": "7ce3150e4d26d747f5088bcd2b3117b621feb42d52ecc1c4bc4a548d53eb531c",
+  "paginas": 13,
+  "arquivos": [
+    {
+      "arquivo": "ALTERACOES.json",
+      "sha256": "77f9fc60449169280fee8307fd6a69227c88f888fcf9af3d7fbdc10029ce21c8",
+      "bytes": 13724
+    },
+    {
+      "arquivo": "ALTERACOES.md",
+      "sha256": "407e925ffa4d3ae289cc1aeecf9fdc98745b7cbb244942d96dca2f0d73092153",
+      "bytes": 12599
+    },
+    {
+      "arquivo": "CONFERENCIA.json",
+      "sha256": "cc0b6ef005da5f0677c2b8cf37e5edf8180f330d10698ff19fc99c4729022561",
+      "bytes": 16019
+    },
+    {
+      "arquivo": "ESTRUTURA.json",
+      "sha256": "2e0d7ebd5948797c5fb2895fe8bdf92907dfdac8c3cbe2ca645b7abc33241c6e",
+      "bytes": 1524
+    },
+    {
+      "arquivo": "LEIA-ME.md",
+      "sha256": "e85e09b0765020ba13b1fde59d9ebefaf8466c967382dc3ae8ac79276ab81f39",
+      "bytes": 660
+    },
+    {
+      "arquivo": "REVISAO-E-FONTES.md",
+      "sha256": "8f8963b0eb00363e2288fa9c0cc4fd9eab0b42ae7be2327cefd8f50dd9165453",
+      "bytes": 5533
+    },
+    {
+      "arquivo": "RITUAL-E-PACTOS.md",
+      "sha256": "7ce3150e4d26d747f5088bcd2b3117b621feb42d52ecc1c4bc4a548d53eb531c",
+      "bytes": 26747
+    },
+    {
+      "arquivo": "VALIDACAO.json",
+      "sha256": "98c9c44c1aba7f9ad5922ea88bd87261034a7bd92753b47ca7bbb68836022649",
+      "bytes": 174
+    },
+    {
+      "arquivo": "VALIDADORES.json",
+      "sha256": "70d2c89e991f276556c50789f3435e06f3a0ec750762cbc4e975a48061015ec7",
+      "bytes": 4742
+    },
+    {
+      "arquivo": "auditar.py",
+      "sha256": "65a9609d267db378c4e121064d9baa02639d9f0c53aa3a2983b4dd22917032d5",
+      "bytes": 11127
+    },
+    {
+      "arquivo": "conferir.py",
+      "sha256": "8f257eb44ebb5f896aaa1426b39aebc719004c53fc504da01c63853fd5ad62e7",
+      "bytes": 208
+    },
+    {
+      "arquivo": "evidencias/LOCALIZACAO-EDITORIAL.json",
+      "sha256": "46cd65da86731e8d82b71709fc82af106528273f11dec10e98dac098a288ee11",
+      "bytes": 1166
+    },
+    {
+      "arquivo": "evidencias/MATRIZ-RITUAL-RESTRICOES.json",
+      "sha256": "691a6be00d8d2895661b5a64d5fbe3d209d064cac2aa41766c47713ab61202df",
+      "bytes": 64008
+    },
+    {
+      "arquivo": "evidencias/REVISAO-EDITORIAL.json",
+      "sha256": "dd5f3334202a298b9ae451e8f95a10fa4ba54a8bd998d75d9184d9125e6f8e55",
+      "bytes": 3562
+    },
+    {
+      "arquivo": "evidencias/REVISAO-INDEPENDENTE-MODELOS.json",
+      "sha256": "1dfc45311122af0858e81b2f6ddfe74764409b42b5359ee606453a9236c272f5",
+      "bytes": 423847
+    },
+    {
+      "arquivo": "evidencias/REVISAO-INDEPENDENTE-RESOLUCAO.json",
+      "sha256": "a139988629125670df6e538f81377e62843fcd1928a07ccc0f52fcc8096642d5",
+      "bytes": 2742
+    },
+    {
+      "arquivo": "evidencias/auditoria-numerica.json",
+      "sha256": "b17b70dffcb1aeda961c3284b9dde5feb77275d5672097b649bd8f0f3a905179",
+      "bytes": 14640
+    },
+    {
+      "arquivo": "evidencias/conferir_revisao_independente.py",
+      "sha256": "a3ae55a2c053e66a64fd731b616b57c96da40ecbe3d462bec45c13dc53148137",
+      "bytes": 5862
+    },
+    {
+      "arquivo": "evidencias/fontes-preservadas.json",
+      "sha256": "afbf35777135485b5c4d66b402058d523e9b6591bfd93d4e672d49419d0e8752",
+      "bytes": 590
+    },
+    {
+      "arquivo": "evidencias/inspecao-visual.json",
+      "sha256": "a1d2cf05b181f6bbeadecbe19fb332b544c99dcbcc4ace49f0570c1ef0d91094",
+      "bytes": 4776
+    },
+    {
+      "arquivo": "evidencias/pdf-estrutura.json",
+      "sha256": "c376d92a12a5d19b493e98dad3fd4ce60b03947fc8467b22cc4e9ace76275a18",
+      "bytes": 255
+    },
+    {
+      "arquivo": "evidencias/pdf-texto.txt",
+      "sha256": "c521d6bf199c8a0b41bd469c7eac3b6d2085af5b60ec4ed74fef1091d9038c05",
+      "bytes": 26229
+    },
+    {
+      "arquivo": "evidencias/regras-verificadas.json",
+      "sha256": "9344503768cd1fa3f9bd883e0fb438bb417054f3ba672088f6879c83034c8d8e",
+      "bytes": 2626
+    },
+    {
+      "arquivo": "gerar_pdf.py",
+      "sha256": "8e1a42f53dde2d9868c2f7c37285cf52b7578da4af02ff918b793c6a9afcb49f",
+      "bytes": 7995
+    },
+    {
+      "arquivo": "output/pdf/Projeto-M-Ritual-e-Pactos-Proposta-01.pdf",
+      "sha256": "86d20cce7d046ec0b0791c4dd844229656b3893e9bdd91c174b8dcdfc33ee7ec",
+      "bytes": 82298
+    }
+  ]
+}

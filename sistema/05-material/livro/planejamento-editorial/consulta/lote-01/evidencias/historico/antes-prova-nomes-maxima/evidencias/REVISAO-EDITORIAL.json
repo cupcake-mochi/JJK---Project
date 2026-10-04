@@ -1,0 +1,313 @@
+{
+  "sha256_texto": "148ebf0e59568ebf42626f53bc149875c3614d631a71e255fe1dfd8f8f36122a",
+  "secoes": [
+    {
+      "ancora": "consulta-glossario-1",
+      "titulo": "Glossário: Ação a Carga",
+      "clareza_suficiencia": "Conceitos em ordem alfabética, definição curta e destino por título.",
+      "redundancia_localizacao": "Capacidades específicas saem para índice; conceitos não recebem tabelas de seu dono.",
+      "regra_exemplo": "Sentidos ambíguos de Classe, PE, espaço, Grau e tempo foram distinguidos quando presentes.",
+      "vocabulario_voz": "Autorrevisão contextual: título informa assunto; termos técnicos são definidos ou nomes do sistema; sem legal no sentido de permitido e sem contraste ornamental. A precisão de negativas funcionais foi mantida.",
+      "palavras": 313,
+      "autor": "maxima",
+      "tipo": "autorrevisao-contextual"
+    },
+    {
+      "ancora": "consulta-glossario-2",
+      "titulo": "Glossário: CD a Espaço",
+      "clareza_suficiencia": "Conceitos em ordem alfabética, definição curta e destino por título.",
+      "redundancia_localizacao": "Capacidades específicas saem para índice; conceitos não recebem tabelas de seu dono.",
+      "regra_exemplo": "Sentidos ambíguos de Classe, PE, espaço, Grau e tempo foram distinguidos quando presentes.",
+      "vocabulario_voz": "Autorrevisão contextual: título informa assunto; termos técnicos são definidos ou nomes do sistema; sem legal no sentido de permitido e sem contraste ornamental. A precisão de negativas funcionais foi mantida.",
+      "palavras": 323,
+      "autor": "maxima",
+      "tipo": "autorrevisao-contextual"
+    },
+    {
+      "ancora": "consulta-glossario-3",
+      "titulo": "Glossário: Especial a Kata",
+      "clareza_suficiencia": "Conceitos em ordem alfabética, definição curta e destino por título.",
+      "redundancia_localizacao": "Capacidades específicas saem para índice; conceitos não recebem tabelas de seu dono.",
+      "regra_exemplo": "Sentidos ambíguos de Classe, PE, espaço, Grau e tempo foram distinguidos quando presentes.",
+      "vocabulario_voz": "Autorrevisão contextual: título informa assunto; termos técnicos são definidos ou nomes do sistema; sem legal no sentido de permitido e sem contraste ornamental. A precisão de negativas funcionais foi mantida.",
+      "palavras": 277,
+      "autor": "maxima",
+      "tipo": "autorrevisao-contextual"
+    },
+    {
+      "ancora": "consulta-glossario-4",
+      "titulo": "Glossário: Lapidação a Passiva",
+      "clareza_suficiencia": "Conceitos em ordem alfabética, definição curta e destino por título.",
+      "redundancia_localizacao": "Capacidades específicas saem para índice; conceitos não recebem tabelas de seu dono.",
+      "regra_exemplo": "Sentidos ambíguos de Classe, PE, espaço, Grau e tempo foram distinguidos quando presentes.",
+      "vocabulario_voz": "Autorrevisão contextual: título informa assunto; termos técnicos são definidos ou nomes do sistema; sem legal no sentido de permitido e sem contraste ornamental. A precisão de negativas funcionais foi mantida.",
+      "palavras": 284,
+      "autor": "maxima",
+      "tipo": "autorrevisao-contextual"
+    },
+    {
+      "ancora": "consulta-glossario-5",
+      "titulo": "Glossário: Patente a Rodada",
+      "clareza_suficiencia": "Conceitos em ordem alfabética, definição curta e destino por título.",
+      "redundancia_localizacao": "Capacidades específicas saem para índice; conceitos não recebem tabelas de seu dono.",
+      "regra_exemplo": "Sentidos ambíguos de Classe, PE, espaço, Grau e tempo foram distinguidos quando presentes.",
+      "vocabulario_voz": "Autorrevisão contextual: título informa assunto; termos técnicos são definidos ou nomes do sistema; sem legal no sentido de permitido e sem contraste ornamental. A precisão de negativas funcionais foi mantida.",
+      "palavras": 286,
+      "autor": "maxima",
+      "tipo": "autorrevisao-contextual"
+    },
+    {
+      "ancora": "consulta-glossario-6",
+      "titulo": "Glossário: Selo a Volume",
+      "clareza_suficiencia": "Conceitos em ordem alfabética, definição curta e destino por título.",
+      "redundancia_localizacao": "Capacidades específicas saem para índice; conceitos não recebem tabelas de seu dono.",
+      "regra_exemplo": "Sentidos ambíguos de Classe, PE, espaço, Grau e tempo foram distinguidos quando presentes.",
+      "vocabulario_voz": "Autorrevisão contextual: título informa assunto; termos técnicos são definidos ou nomes do sistema; sem legal no sentido de permitido e sem contraste ornamental. A precisão de negativas funcionais foi mantida.",
+      "palavras": 296,
+      "autor": "maxima",
+      "tipo": "autorrevisao-contextual"
+    },
+    {
+      "ancora": "consulta-testes",
+      "titulo": "Testes na mesa",
+      "clareza_suficiencia": "Organiza tentativa, ataque e TR por quem rola e valor-alvo; bônus pronto somado uma vez.",
+      "redundancia_localizacao": "Só o procedimento geral cabe nesta folha; capacidades e exceções remetidas.",
+      "regra_exemplo": "Conversões não geram recursos; extremos e exceções continuam no dono.",
+      "vocabulario_voz": "Autorrevisão contextual: título informa assunto; termos técnicos são definidos ou nomes do sistema; sem legal no sentido de permitido e sem contraste ornamental. A precisão de negativas funcionais foi mantida.",
+      "palavras": 232,
+      "autor": "maxima",
+      "tipo": "autorrevisao-contextual"
+    },
+    {
+      "ancora": "consulta-ataques",
+      "titulo": "Ataques e efeitos",
+      "clareza_suficiencia": "Sequência preserva resposta antes da rolagem, defesa e respostas depois do resultado.",
+      "redundancia_localizacao": "Não reproduz fórmula de Bloquear, crítico, morte ou tabela de condições.",
+      "regra_exemplo": "Duração distingue começo de fim de turno e fonte do prazo.",
+      "vocabulario_voz": "Autorrevisão contextual: título informa assunto; termos técnicos são definidos ou nomes do sistema; sem legal no sentido de permitido e sem contraste ornamental. A precisão de negativas funcionais foi mantida.",
+      "palavras": 254,
+      "autor": "maxima",
+      "tipo": "autorrevisao-contextual"
+    },
+    {
+      "ancora": "consulta-entidades",
+      "titulo": "Entidades na mesa",
+      "clareza_suficiencia": "Identifica corpo, básica, tarefa, momento de pagamento e reserva de reações.",
+      "redundancia_localizacao": "Não copia custo de domadas, limites de Caminho ou catálogo.",
+      "regra_exemplo": "As quatro linhas não concedem quatro entidades; troca não renova recursos.",
+      "vocabulario_voz": "Autorrevisão contextual: título informa assunto; termos técnicos são definidos ou nomes do sistema; sem legal no sentido de permitido e sem contraste ornamental. A precisão de negativas funcionais foi mantida.",
+      "palavras": 236,
+      "autor": "maxima",
+      "tipo": "autorrevisao-contextual"
+    },
+    {
+      "ancora": "consulta-ficha-personagem",
+      "titulo": "Ficha de personagem",
+      "clareza_suficiencia": "Campos de identidade e recursos separados de atributos e TR, sem vínculo visual enganoso.",
+      "redundancia_localizacao": "Fórmulas permanecem na criação; modelo registra origem e máximo.",
+      "regra_exemplo": "Refino/Lapidação, energia/esforço e campos inaplicáveis não concedem poderes.",
+      "vocabulario_voz": "Autorrevisão contextual: título informa assunto; termos técnicos são definidos ou nomes do sistema; sem legal no sentido de permitido e sem contraste ornamental. A precisão de negativas funcionais foi mantida.",
+      "palavras": 181,
+      "autor": "maxima",
+      "tipo": "autorrevisao-contextual"
+    },
+    {
+      "ancora": "consulta-ficha-repertorio",
+      "titulo": "Repertório e inventário",
+      "clareza_suficiencia": "Dois lados da ficha: repertório e estoque, com treino e cálculos consultáveis.",
+      "redundancia_localizacao": "Não copia lista completa de habilidades nem catálogo de armas.",
+      "regra_exemplo": "Espaços comuns, Classe0 e exceções são registrados separadamente.",
+      "vocabulario_voz": "Autorrevisão contextual: título informa assunto; termos técnicos são definidos ou nomes do sistema; sem legal no sentido de permitido e sem contraste ornamental. A precisão de negativas funcionais foi mantida.",
+      "palavras": 207,
+      "autor": "maxima",
+      "tipo": "autorrevisao-contextual"
+    },
+    {
+      "ancora": "consulta-ficha-feitico",
+      "titulo": "Ficha de aplicação",
+      "clareza_suficiencia": "Montagem e execução têm quadros distintos; efeito completo não é trocado por abreviação.",
+      "redundancia_localizacao": "Nenhuma tabela de orçamento repetida; invocação possui outro modelo.",
+      "regra_exemplo": "Custo de PE, pontos, requisito, duração e recarga não se fundem.",
+      "vocabulario_voz": "Autorrevisão contextual: título informa assunto; termos técnicos são definidos ou nomes do sistema; sem legal no sentido de permitido e sem contraste ornamental. A precisão de negativas funcionais foi mantida.",
+      "palavras": 191,
+      "autor": "maxima",
+      "tipo": "autorrevisao-contextual"
+    },
+    {
+      "ancora": "consulta-ficha-entidade",
+      "titulo": "Ficha de entidade",
+      "clareza_suficiencia": "Aquisição, corpo, sentidos, testes e reserva própria são rastreáveis.",
+      "redundancia_localizacao": "R12 permanece dono dos números; este modelo não preenche anatomia extraordinária de graça.",
+      "regra_exemplo": "Entidade sem PE próprio mantém campo sem recurso, não ganha valor.",
+      "vocabulario_voz": "Autorrevisão contextual: título informa assunto; termos técnicos são definidos ou nomes do sistema; sem legal no sentido de permitido e sem contraste ornamental. A precisão de negativas funcionais foi mantida.",
+      "palavras": 167,
+      "autor": "maxima",
+      "tipo": "autorrevisao-contextual"
+    },
+    {
+      "ancora": "consulta-ficha-entidade-capacidades",
+      "titulo": "Ficha de capacidades da entidade",
+      "clareza_suficiencia": "Separa básico/especial/passiva e custos da entidade e invocador.",
+      "redundancia_localizacao": "Nenhuma tabela comum é imposta às escalas reduzidas.",
+      "regra_exemplo": "Formulário registra preparação e efeito que termina fora do campo.",
+      "vocabulario_voz": "Autorrevisão contextual: título informa assunto; termos técnicos são definidos ou nomes do sistema; sem legal no sentido de permitido e sem contraste ornamental. A precisão de negativas funcionais foi mantida.",
+      "palavras": 176,
+      "autor": "maxima",
+      "tipo": "autorrevisao-contextual"
+    },
+    {
+      "ancora": "consulta-registro-missao",
+      "titulo": "Registro de missão",
+      "clareza_suficiencia": "Registra entrada/saída e responsáveis; XP da missão, ajustes e avanço são campos diferentes.",
+      "redundancia_localizacao": "Recuperação e progressão só por seus procedimentos.",
+      "regra_exemplo": "Fechar sessão não concede descanso; mesmo item não pertence a duas fichas.",
+      "vocabulario_voz": "Autorrevisão contextual: título informa assunto; termos técnicos são definidos ou nomes do sistema; sem legal no sentido de permitido e sem contraste ornamental. A precisão de negativas funcionais foi mantida.",
+      "palavras": 186,
+      "autor": "maxima",
+      "tipo": "autorrevisao-contextual"
+    },
+    {
+      "ancora": "consulta-missao",
+      "titulo": "Preparar uma missão",
+      "clareza_suficiencia": "Objetivo concreto e tabela de preparação com exemplo de resgate.",
+      "redundancia_localizacao": "Orientação curta: não é módulo de encontros, catálogo ou regulamento de guilda.",
+      "regra_exemplo": "Múltiplas pistas orientam preparação sem conceder sucesso automático.",
+      "vocabulario_voz": "Autorrevisão contextual: título informa assunto; termos técnicos são definidos ou nomes do sistema; sem legal no sentido de permitido e sem contraste ornamental. A precisão de negativas funcionais foi mantida.",
+      "palavras": 329,
+      "autor": "maxima",
+      "tipo": "autorrevisao-contextual"
+    },
+    {
+      "ancora": "consulta-conduzir",
+      "titulo": "Mestrar uma sessão",
+      "clareza_suficiencia": "Descrição, ação, procedimento, resultado e registro em sequência; vocabulário cotidiano.",
+      "redundancia_localizacao": "Sem habilidades particulares e sem repetir conceitos de jogador além do necessário ao mestre.",
+      "regra_exemplo": "Ficção informada por capacidade; decisões provisórias registradas e comunicadas.",
+      "vocabulario_voz": "Autorrevisão contextual: título informa assunto; termos técnicos são definidos ou nomes do sistema; sem legal no sentido de permitido e sem contraste ornamental. A precisão de negativas funcionais foi mantida.",
+      "palavras": 315,
+      "autor": "maxima",
+      "tipo": "autorrevisao-contextual"
+    },
+    {
+      "ancora": "consulta-referencias",
+      "titulo": "Referências e adaptação",
+      "clareza_suficiencia": "Distingue inspiração, cânone e autoria; escopo real das leituras.",
+      "redundancia_localizacao": "Não oferece catálogo de obras não lidas nem documentação interna da produção.",
+      "regra_exemplo": "Custos e alcance são adaptação; época e spoilers são acordo de campanha.",
+      "vocabulario_voz": "Autorrevisão contextual: título informa assunto; termos técnicos são definidos ou nomes do sistema; sem legal no sentido de permitido e sem contraste ornamental. A precisão de negativas funcionais foi mantida.",
+      "palavras": 260,
+      "autor": "maxima",
+      "tipo": "autorrevisao-contextual"
+    },
+    {
+      "ancora": "consulta-indice-1",
+      "titulo": "Índice 1: A–A",
+      "clareza_suficiencia": "Assunto e destino em duas colunas; aliases e homônimos recebem contexto.",
+      "redundancia_localizacao": "Somente nomes e remissões, sem resumir efeitos de habilidades.",
+      "regra_exemplo": "Destino validado por arquivo, âncora e título; página física e hiperlink global ficam para integração.",
+      "vocabulario_voz": "Autorrevisão contextual: título informa assunto; termos técnicos são definidos ou nomes do sistema; sem legal no sentido de permitido e sem contraste ornamental. A precisão de negativas funcionais foi mantida.",
+      "palavras": 125,
+      "autor": "maxima",
+      "tipo": "autorrevisao-contextual"
+    },
+    {
+      "ancora": "consulta-indice-2",
+      "titulo": "Índice 2: A–C",
+      "clareza_suficiencia": "Assunto e destino em duas colunas; aliases e homônimos recebem contexto.",
+      "redundancia_localizacao": "Somente nomes e remissões, sem resumir efeitos de habilidades.",
+      "regra_exemplo": "Destino validado por arquivo, âncora e título; página física e hiperlink global ficam para integração.",
+      "vocabulario_voz": "Autorrevisão contextual: título informa assunto; termos técnicos são definidos ou nomes do sistema; sem legal no sentido de permitido e sem contraste ornamental. A precisão de negativas funcionais foi mantida.",
+      "palavras": 117,
+      "autor": "maxima",
+      "tipo": "autorrevisao-contextual"
+    },
+    {
+      "ancora": "consulta-indice-3",
+      "titulo": "Índice 3: C–D",
+      "clareza_suficiencia": "Assunto e destino em duas colunas; aliases e homônimos recebem contexto.",
+      "redundancia_localizacao": "Somente nomes e remissões, sem resumir efeitos de habilidades.",
+      "regra_exemplo": "Destino validado por arquivo, âncora e título; página física e hiperlink global ficam para integração.",
+      "vocabulario_voz": "Autorrevisão contextual: título informa assunto; termos técnicos são definidos ou nomes do sistema; sem legal no sentido de permitido e sem contraste ornamental. A precisão de negativas funcionais foi mantida.",
+      "palavras": 139,
+      "autor": "maxima",
+      "tipo": "autorrevisao-contextual"
+    },
+    {
+      "ancora": "consulta-indice-4",
+      "titulo": "Índice 4: E–E",
+      "clareza_suficiencia": "Assunto e destino em duas colunas; aliases e homônimos recebem contexto.",
+      "redundancia_localizacao": "Somente nomes e remissões, sem resumir efeitos de habilidades.",
+      "regra_exemplo": "Destino validado por arquivo, âncora e título; página física e hiperlink global ficam para integração.",
+      "vocabulario_voz": "Autorrevisão contextual: título informa assunto; termos técnicos são definidos ou nomes do sistema; sem legal no sentido de permitido e sem contraste ornamental. A precisão de negativas funcionais foi mantida.",
+      "palavras": 141,
+      "autor": "maxima",
+      "tipo": "autorrevisao-contextual"
+    },
+    {
+      "ancora": "consulta-indice-5",
+      "titulo": "Índice 5: F–I",
+      "clareza_suficiencia": "Assunto e destino em duas colunas; aliases e homônimos recebem contexto.",
+      "redundancia_localizacao": "Somente nomes e remissões, sem resumir efeitos de habilidades.",
+      "regra_exemplo": "Destino validado por arquivo, âncora e título; página física e hiperlink global ficam para integração.",
+      "vocabulario_voz": "Autorrevisão contextual: título informa assunto; termos técnicos são definidos ou nomes do sistema; sem legal no sentido de permitido e sem contraste ornamental. A precisão de negativas funcionais foi mantida.",
+      "palavras": 121,
+      "autor": "maxima",
+      "tipo": "autorrevisao-contextual"
+    },
+    {
+      "ancora": "consulta-indice-6",
+      "titulo": "Índice 6: I–M",
+      "clareza_suficiencia": "Assunto e destino em duas colunas; aliases e homônimos recebem contexto.",
+      "redundancia_localizacao": "Somente nomes e remissões, sem resumir efeitos de habilidades.",
+      "regra_exemplo": "Destino validado por arquivo, âncora e título; página física e hiperlink global ficam para integração.",
+      "vocabulario_voz": "Autorrevisão contextual: título informa assunto; termos técnicos são definidos ou nomes do sistema; sem legal no sentido de permitido e sem contraste ornamental. A precisão de negativas funcionais foi mantida.",
+      "palavras": 133,
+      "autor": "maxima",
+      "tipo": "autorrevisao-contextual"
+    },
+    {
+      "ancora": "consulta-indice-7",
+      "titulo": "Índice 7: M–P",
+      "clareza_suficiencia": "Assunto e destino em duas colunas; aliases e homônimos recebem contexto.",
+      "redundancia_localizacao": "Somente nomes e remissões, sem resumir efeitos de habilidades.",
+      "regra_exemplo": "Destino validado por arquivo, âncora e título; página física e hiperlink global ficam para integração.",
+      "vocabulario_voz": "Autorrevisão contextual: título informa assunto; termos técnicos são definidos ou nomes do sistema; sem legal no sentido de permitido e sem contraste ornamental. A precisão de negativas funcionais foi mantida.",
+      "palavras": 117,
+      "autor": "maxima",
+      "tipo": "autorrevisao-contextual"
+    },
+    {
+      "ancora": "consulta-indice-8",
+      "titulo": "Índice 8: P–R",
+      "clareza_suficiencia": "Assunto e destino em duas colunas; aliases e homônimos recebem contexto.",
+      "redundancia_localizacao": "Somente nomes e remissões, sem resumir efeitos de habilidades.",
+      "regra_exemplo": "Destino validado por arquivo, âncora e título; página física e hiperlink global ficam para integração.",
+      "vocabulario_voz": "Autorrevisão contextual: título informa assunto; termos técnicos são definidos ou nomes do sistema; sem legal no sentido de permitido e sem contraste ornamental. A precisão de negativas funcionais foi mantida.",
+      "palavras": 130,
+      "autor": "maxima",
+      "tipo": "autorrevisao-contextual"
+    },
+    {
+      "ancora": "consulta-indice-9",
+      "titulo": "Índice 9: R–T",
+      "clareza_suficiencia": "Assunto e destino em duas colunas; aliases e homônimos recebem contexto.",
+      "redundancia_localizacao": "Somente nomes e remissões, sem resumir efeitos de habilidades.",
+      "regra_exemplo": "Destino validado por arquivo, âncora e título; página física e hiperlink global ficam para integração.",
+      "vocabulario_voz": "Autorrevisão contextual: título informa assunto; termos técnicos são definidos ou nomes do sistema; sem legal no sentido de permitido e sem contraste ornamental. A precisão de negativas funcionais foi mantida.",
+      "palavras": 115,
+      "autor": "maxima",
+      "tipo": "autorrevisao-contextual"
+    },
+    {
+      "ancora": "consulta-indice-10",
+      "titulo": "Índice 10: T–X",
+      "clareza_suficiencia": "Assunto e destino em duas colunas; aliases e homônimos recebem contexto.",
+      "redundancia_localizacao": "Somente nomes e remissões, sem resumir efeitos de habilidades.",
+      "regra_exemplo": "Destino validado por arquivo, âncora e título; página física e hiperlink global ficam para integração.",
+      "vocabulario_voz": "Autorrevisão contextual: título informa assunto; termos técnicos são definidos ou nomes do sistema; sem legal no sentido de permitido e sem contraste ornamental. A precisão de negativas funcionais foi mantida.",
+      "palavras": 117,
+      "autor": "maxima",
+      "tipo": "autorrevisao-contextual"
+    }
+  ]
+}

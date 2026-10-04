@@ -1,0 +1,132 @@
+{
+  "ordem": [
+    "guia",
+    "movimento",
+    "saltos",
+    "quedas",
+    "perceber",
+    "esconder",
+    "procurar",
+    "atacar",
+    "manobras",
+    "contencoes",
+    "estudar",
+    "preparar",
+    "mundo",
+    "buscar",
+    "pressao",
+    "ler",
+    "usar",
+    "habilidades"
+  ],
+  "titulos": {
+    "movimento": "Movimento e terreno",
+    "saltos": "Saltos",
+    "quedas": "Quedas e movimento imposto",
+    "perceber": "Percepção e visibilidade",
+    "esconder": "Esconder",
+    "procurar": "Vasculhar",
+    "atacar": "Ataques e ocultação",
+    "manobras": "Agarrar, derrubar e empurrar",
+    "contencoes": "Agarrado: escapar e arrastar",
+    "estudar": "Estudar",
+    "preparar": "Preparar",
+    "mundo": "Energia e seus sinais",
+    "buscar": "Vasculhar com Sentir Energia",
+    "pressao": "Sinais de energia no ambiente",
+    "ler": "Ler energia e examinar vestígios",
+    "usar": "Localização e ataques",
+    "habilidades": "Movimento Acrobático e Parkour",
+    "guia": "Regras comuns em jogo"
+  },
+  "grupos": [
+    [
+      "Consulta",
+      [
+        "guia"
+      ]
+    ],
+    [
+      "Movimento",
+      [
+        "movimento",
+        "saltos",
+        "quedas"
+      ]
+    ],
+    [
+      "Percepção e furtividade",
+      [
+        "perceber",
+        "esconder",
+        "procurar",
+        "atacar"
+      ]
+    ],
+    [
+      "Manobras e ações",
+      [
+        "manobras",
+        "contencoes",
+        "estudar",
+        "preparar"
+      ]
+    ],
+    [
+      "Energia e vestígios",
+      [
+        "mundo",
+        "buscar",
+        "pressao",
+        "ler",
+        "usar"
+      ]
+    ],
+    [
+      "Movimento das Trilhas",
+      [
+        "habilidades"
+      ]
+    ]
+  ],
+  "origens": {
+    "movimento": "lote-02/02-SALTOS-E-QUEDAS.md",
+    "saltos": "lote-02/02-SALTOS-E-QUEDAS.md",
+    "quedas": "lote-02/02-SALTOS-E-QUEDAS.md",
+    "habilidades": "lote-02/02-SALTOS-E-QUEDAS.md",
+    "perceber": "lote-03/03-PERCEPCAO-E-FURTIVIDADE.md",
+    "esconder": "lote-03/03-PERCEPCAO-E-FURTIVIDADE.md",
+    "procurar": "lote-03/03-PERCEPCAO-E-FURTIVIDADE.md",
+    "atacar": "lote-03/03-PERCEPCAO-E-FURTIVIDADE.md",
+    "manobras": "lote-04/04-MANOBRAS-E-INFORMACAO.md",
+    "contencoes": "lote-04/04-MANOBRAS-E-INFORMACAO.md",
+    "estudar": "lote-04/04-MANOBRAS-E-INFORMACAO.md",
+    "preparar": "lote-04/04-MANOBRAS-E-INFORMACAO.md",
+    "mundo": "lote-05-r2/05-ENERGIA-E-VESTIGIOS.md",
+    "buscar": "lote-05-r2/05-ENERGIA-E-VESTIGIOS.md",
+    "pressao": "lote-05-r2/05-ENERGIA-E-VESTIGIOS.md",
+    "ler": "lote-05-r2/05-ENERGIA-E-VESTIGIOS.md",
+    "usar": "lote-05-r2/05-ENERGIA-E-VESTIGIOS.md",
+    "guia": "novo guia de consulta"
+  },
+  "paginas": {
+    "guia": 1,
+    "movimento": 2,
+    "saltos": 3,
+    "quedas": 4,
+    "perceber": 5,
+    "esconder": 6,
+    "procurar": 7,
+    "atacar": 8,
+    "manobras": 9,
+    "contencoes": 10,
+    "estudar": 11,
+    "preparar": 12,
+    "mundo": 13,
+    "buscar": 14,
+    "pressao": 15,
+    "ler": 16,
+    "usar": 17,
+    "habilidades": 18
+  }
+}

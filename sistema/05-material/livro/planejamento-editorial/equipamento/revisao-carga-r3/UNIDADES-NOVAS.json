@@ -1,0 +1,23 @@
+[
+  {
+    "pasta": "equipamento/lote-04-r3",
+    "manuscrito": "ARMAS.md",
+    "pdf": "Projeto-M-Catalogo-de-Armas-Proposta-03.pdf",
+    "paginas": 6,
+    "titulo": "Catálogo de armas, proposta 3"
+  },
+  {
+    "pasta": "equipamento/lote-03-r4",
+    "manuscrito": "MUNICAO.md",
+    "pdf": "Projeto-M-Municao-Proposta-04.pdf",
+    "paginas": 3,
+    "titulo": "Munição, proposta 4"
+  },
+  {
+    "pasta": "regras-comuns/lote-06-r5",
+    "manuscrito": "MOVIMENTO-E-CARGA.md",
+    "pdf": "Projeto-M-Movimento-e-Carga-Proposta-05.pdf",
+    "paginas": 4,
+    "titulo": "Movimento e carga, proposta 5"
+  }
+]

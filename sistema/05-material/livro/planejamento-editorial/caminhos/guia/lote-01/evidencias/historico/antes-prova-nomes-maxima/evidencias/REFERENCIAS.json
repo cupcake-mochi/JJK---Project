@@ -1,0 +1,17 @@
+[
+  {
+    "titulo": "D&D2024 — Character Classes",
+    "url": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+    "consultado_em": "2026-10-03",
+    "recorte": "Bardic Inspiration, linhas359–367; Countercharm,412–414",
+    "tipo": "fonte primária oficial",
+    "uso": "Estrutura de ajuda: custo e alcance do emissor, um benefício guardado por criatura, decisão do recebedor e momento de gasto; Countercharm separa gatilho de falha de uma reação do apoiador. Não foram importados dados, duração ou usos."
+  },
+  {
+    "titulo": "Player_Hand_Book_DnD_2024.pdf",
+    "arquivo": "PDFs - Sistemas Extras/PDF_Sistemas/Player_Hand_Book_DnD_2024.pdf",
+    "tipo": "arquivo fornecido; tradução comunitária conforme prefácio",
+    "recorte": "Trecho Bardo, Inspiração de Bardo, linhas3716–3740 da extração /tmp/r15-phb2024.txt",
+    "uso": "Comparação da apresentação em português; informações mecânicas externas conferidas na fonte oficial acima."
+  }
+]

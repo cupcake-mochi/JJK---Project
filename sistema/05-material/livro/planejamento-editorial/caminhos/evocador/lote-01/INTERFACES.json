@@ -1,0 +1,83 @@
+{
+  "sha256_texto": "f16e12fb1445657ca5cab2466bc8c9a8b85c40b49789ebb414472872a6491645",
+  "interfaces": [
+    {
+      "id": "R17-I01",
+      "dono": "R11",
+      "assunto": "Corpos mantidos",
+      "estado": "sincronizado pelo coordenador em R11-48",
+      "regra": "atributoDef+capacidadeControle; Múltiplas4 inclusivefora; ativosfora2, inativossematuações",
+      "impacto": "Reserva inativa aumenta. PE de entrada e manutenção individual conservados."
+    },
+    {
+      "id": "R17-I02",
+      "dono": "R12/R06/R10",
+      "assunto": "Aquisição por espaço",
+      "estado": "compatível",
+      "regra": "Conceito explícito com entidades; dois primeirosespaços dão duplas; demaisum; mesmosPE/esforço; uma reescrita revisaumavaga."
+    },
+    {
+      "id": "R17-I03",
+      "dono": "R12/R07",
+      "assunto": "Catálogo e passivas",
+      "estado": "compatível",
+      "regra": "AdicionaisCP1apenas13permitidas; básicaC0; Famílias9; LivreentidadeusaR12."
+    },
+    {
+      "id": "R17-I04",
+      "dono": "R11/R06",
+      "assunto": "Conjuração e comandos",
+      "estado": "compatível",
+      "regra": "Command conta emissão; dupla expressa no30 e continuações19; trunfos não normais; não soma permissões para terceirofeitiço."
+    },
+    {
+      "id": "R17-I05",
+      "dono": "R11",
+      "assunto": "Múltiplas e limite ofensivo",
+      "estado": "fechamento documentado",
+      "regra": "Uma básica comdano por ciclo inclui preparada fora turno; uma especialcontanocomando; disparo posterior não repete; exceçãoEspecialCombinada."
+    },
+    {
+      "id": "R17-I06",
+      "dono": "R02/R03",
+      "assunto": "Reações e dano",
+      "estado": "compatível",
+      "regra": "Benefício reage só no gatilho descrito, após consequências quando manda; pagar2pontos Cobrir dispensa saldo mas exige aptidão de reagir; zeroPV não recolhe."
+    },
+    {
+      "id": "R17-I07",
+      "dono": "Fabricação de entidades",
+      "assunto": "Obter novos corpos",
+      "estado": "remissão futura já noR12",
+      "regra": "Evocador não fabrica automaticamente, não inventa materiais, custo ou procedimento."
+    },
+    {
+      "id": "R17-I08",
+      "dono": "Revisão global de nomes/Morrendo/Integridade",
+      "assunto": "Pendências globais",
+      "estado": "preservadas na fila",
+      "regra": "Não redesenha morte nem integridade. Nomes atuais mantidos; colisãoConduzir reconhecida pelo checker como nomecompleto distinto."
+    },
+    {
+      "id": "R17-I09",
+      "dono": "R11/R08",
+      "assunto": "Dificultar a Resistência",
+      "estado": "preservação literal",
+      "regra": "Fonte diz especial ativa comandada, sem normal; não acrescentada restrição global. Uma execução,umprimeiroTRdeumalvo,usocompartilhado."
+    },
+    {
+      "id": "R17-I10",
+      "dono": "Progressão",
+      "assunto": "Quantidade de vagas",
+      "estado": "confirmado comR12/manual80",
+      "regra": "No nível2,três espaços; doiscomprometidos sobTrilhadão4entidades e sobra1; nãoquatroentidadesautomáticassemcusto."
+    },
+    {
+      "id": "R17-I11",
+      "dono": "Progressão/R11",
+      "assunto": "Troca de Trilha e redução da capacidade de controle",
+      "estado": "comunicação ao coordenador para consolidação",
+      "regra": "Trocar Múltiplas reduzcapacidade4para2. Escolher corposquecontinuarámantendoantes deconcluir troca. Não destruirnemsumir comexcedentes, nem tornarDesligadaaPVpositivo automaticamente. Destino dos corposfora dovínculo deve seguir aquisição/controle."
+    }
+  ]
+}

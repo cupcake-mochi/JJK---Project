@@ -1,0 +1,13 @@
+{
+  "data": "2026-10-03",
+  "sha256_pdf": "c9858a872981114a3ec791ce826c33584ef26d23183600e8bae1ca9ce7ee64bf",
+  "paginas_examinadas": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "metodo": "Renderização PNG em 1250px e inspeção de cada página pelo autor",
+  "resultado": "Sem cortes, sobreposição, tabela dividida ou títulos órfãos encontrados. Cabeçalhos, rodapés e hierarquia conferidos.",
+  "limites": "Inspeção visual da prova; não é teste humano de compreensão ou playtest."
+}

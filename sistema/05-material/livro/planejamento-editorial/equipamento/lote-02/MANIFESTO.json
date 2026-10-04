@@ -1,0 +1,23 @@
+{
+  "data": "2026-10-03",
+  "arquivos": {
+    "CONFERENCIA.json": "db13c838905ade93d3b48b4542ac566bf7351fc79306a57a6018814c085267a5",
+    "DECISOES.md": "4ab0d9a13f1634895abd925e6c82055d89bdb695d8976c2ee2112e02afcc0ac0",
+    "ESTRUTURA.json": "b71ba0cf2b74ad37289f2024ddac65ff2e77c9e57e90a73908e8694378db6511",
+    "LEIA-ME.md": "c2126e352f06a4304f7c3dfaa0b50a8244dc84cce58dc8075ee26d639632365f",
+    "PROTECAO.md": "674f3dc2e4da97f79860af3b12a8b452d99409d98a7a5a33ae48279d8ecfc427",
+    "RELATORIO.md": "71f2a8e717d2616b3795bc49af01593c18dffdababad039793055515f1cdb2dd",
+    "conferir.py": "ca60d9e15dc16d2c72682a365af3fe2b5e6bbdaeaf25bc3e83d278d9358db85a",
+    "evidencias/LOCALIZACAO-EDITORIAL.json": "f3932d6dbd47425299f6ca2801b93011f53cf5d18b02a291f14a09da90d50642",
+    "evidencias/REVISAO-EDITORIAL.json": "89d6cd3b80537e11bc46ae1a99c80dd3ce8a6f14c0c0aab64e3797e08bd5903f",
+    "evidencias/REVISAO.md": "7802bf4fc2875a02117ab4ca31a8b0da00b33b2c7029320ff09706b414a13fb0",
+    "evidencias/calculos.json": "f01c1ffec9cf8062f572141d739785df387cfc5b70d59999dd38296cbc2261d4",
+    "evidencias/casos-documentais.json": "a1aa8e7135cab636228f3536337e0ae7c824e0583e2ca0d8e45f7e049492c869",
+    "evidencias/fontes-preservadas.json": "a2f2c486d2d6b4371a7fcf02f4269a5d365d7d43a5b6a20c42d465e49be62104",
+    "evidencias/inspecao-visual.json": "35ca88eb01743463c0cc4bee30b505b7a914b50a8f18032b8c2cc2f258cf057f",
+    "evidencias/pdf-estrutura.json": "43be77e14e73c627a1d3df204f3a2ae3148f37fac3cf7eac88c6b280d9dc17c8",
+    "evidencias/pdf-texto.txt": "55ed3be43789e030694fbf83a5572c3e50f4bec92acdc45d2b09f55d6f50297c",
+    "gerar_pdf.py": "b4bce3f1fc2a885a2e47bf3e8e0587201b6a9d3605e00e9e25767b79f324ccc2",
+    "output/pdf/Projeto-M-Protecao-Proposta-01.pdf": "117bdb381f559f13013186ef79ff83c6892fc1487227e5513b868cc5deec0568"
+  }
+}

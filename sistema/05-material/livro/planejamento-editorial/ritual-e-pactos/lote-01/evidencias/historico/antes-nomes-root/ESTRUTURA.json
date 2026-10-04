@@ -1,0 +1,72 @@
+{
+  "ordem": [
+    "ritual",
+    "rit-teste",
+    "rit-recitar",
+    "rit-melhorias",
+    "rit-beneficios",
+    "rit-parcelas",
+    "rit-limites",
+    "rit-ajuda",
+    "pactos",
+    "pacto-permanente",
+    "pacto-temporario",
+    "promessa",
+    "pacto-restricao"
+  ],
+  "titulos": {
+    "ritual": "Ritual",
+    "rit-teste": "Teste de Ritual",
+    "rit-recitar": "Recitação Prolongada",
+    "rit-melhorias": "Melhorias de Ritual",
+    "rit-beneficios": "Alvos e efeitos do Ritual",
+    "rit-parcelas": "Parcelas adicionais",
+    "rit-limites": "Combinações de Ritual",
+    "rit-ajuda": "Ritual em conjunto",
+    "pactos": "Pactos",
+    "pacto-permanente": "Pacto permanente",
+    "pacto-temporario": "Pacto temporário",
+    "promessa": "Promessa",
+    "pacto-restricao": "Pactos na criação"
+  },
+  "paginas": {
+    "ritual": 1,
+    "rit-teste": 2,
+    "rit-recitar": 3,
+    "rit-melhorias": 4,
+    "rit-beneficios": 5,
+    "rit-parcelas": 6,
+    "rit-limites": 7,
+    "rit-ajuda": 8,
+    "pactos": 9,
+    "pacto-permanente": 10,
+    "pacto-temporario": 11,
+    "promessa": 12,
+    "pacto-restricao": 13
+  },
+  "grupos": [
+    [
+      "Ritual",
+      [
+        "ritual",
+        "rit-teste",
+        "rit-recitar",
+        "rit-melhorias",
+        "rit-beneficios",
+        "rit-parcelas",
+        "rit-limites",
+        "rit-ajuda"
+      ]
+    ],
+    [
+      "Pactos",
+      [
+        "pactos",
+        "pacto-permanente",
+        "pacto-temporario",
+        "promessa",
+        "pacto-restricao"
+      ]
+    ]
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "data": "2026-10-03",
+  "metodo": "Inspeção de páginas selecionadas de amostras públicas oficiais em japonês e páginas oficiais de apoio; paráfrases de trabalho, sem transcrever ou redistribuir os painéis.",
+  "afirmacoes": [
+    {
+      "id": "C01",
+      "afirmacao": "Emoções negativas humanas ligam-se à origem das maldições.",
+      "fonte": "https://shonenjumpplus.com/volume/4856001361007377299/trial",
+      "localizador": "cap. 1, p. 27 do volume 1",
+      "status": "primaria_inspecionada",
+      "limite": "Não demonstra que cada emoção produza imediatamente uma criatura."
+    },
+    {
+      "id": "C02",
+      "afirmacao": "A caixa conserva resíduos quando o objeto procurado já foi retirado.",
+      "fonte": "https://shonenjumpplus.com/volume/4856001361007377299/trial",
+      "localizador": "cap. 1, p. 29 do volume 1",
+      "status": "primaria_inspecionada",
+      "limite": "Não fornece duração universal, alcance ou identificação automática de autor."
+    },
+    {
+      "id": "C03",
+      "afirmacao": "A percepção de uma pressão próxima à escola não fornece a Yuji e Megumi toda a localização que precisam.",
+      "fonte": "https://shonenjumpplus.com/volume/4856001361007377299/trial",
+      "localizador": "cap. 1, p. 33 do volume 1",
+      "status": "primaria_inspecionada",
+      "limite": "Não prova que percepção energética jamais localize; sustenta distinguir pista e localização nesta adaptação."
+    },
+    {
+      "id": "C04",
+      "afirmacao": "Pessoas comuns normalmente não veem maldições, com exceções em circunstâncias especiais.",
+      "fonte": "https://shonenjumpplus.com/volume/4856001361007377299/trial",
+      "localizador": "cap. 1, p. 43 do volume 1",
+      "status": "primaria_inspecionada",
+      "limite": "Não concede a todo personagem visão por estar assustado; não quantifica exceções."
+    },
+    {
+      "id": "C05",
+      "afirmacao": "Toji não tem energia amaldiçoada; Gojo tenta acompanhar a maldição que ele carrega.",
+      "fonte": "https://shonenjumpplus.com/volume/4856001361007392860/trial",
+      "localizador": "cap. 71, pp. 16 e 19 do volume 9",
+      "status": "primaria_inspecionada",
+      "limite": "Observador excepcional, portador excepcional. Não demonstra rastreamento contínuo comum nem toda mochila suprimindo emissão."
+    },
+    {
+      "id": "C06",
+      "afirmacao": "O enxame de maldições atrapalha Gojo a determinar a posição de Toji.",
+      "fonte": "https://shonenjumpplus.com/volume/4856001361007392860/trial",
+      "localizador": "cap. 71, p. 23 do volume 9",
+      "status": "primaria_inspecionada",
+      "limite": "Não estabelece CD de interferência nem fórmula de oposição."
+    },
+    {
+      "id": "C07",
+      "afirmacao": "Gojo percebeu Toji quando criança. O mecanismo não é explicado nessa página.",
+      "fonte": "https://shonenjumpplus.com/volume/4856001361007392860/trial",
+      "localizador": "cap. 71, p. 7 do volume 9",
+      "status": "primaria_inspecionada",
+      "limite": "Não adotar como fato a teoria de perceber um vazio na energia ambiente."
+    },
+    {
+      "id": "C08",
+      "afirmacao": "Perfil oficial descreve Toji com ausência total de energia e compensação física.",
+      "fonte": "https://jujutsukaisen.jp/character/category4.php",
+      "localizador": "perfil de Toji Fushiguro",
+      "status": "oficial_secundaria_consultada",
+      "limite": "Não estabelece imunidade genérica a barreiras ou percepção."
+    },
+    {
+      "id": "C09",
+      "afirmacao": "Ação Padrão, 18 m, paredes, Furtividade guardada e leitura instantânea.",
+      "fonte": "05-DECISOES.md",
+      "localizador": "E15 e decisões anteriores E01–E14",
+      "status": "adaptacao_projeto_m",
+      "limite": "Não são leis de Jujutsu Kaisen; alcance permanece experimental."
+    },
+    {
+      "id": "C10",
+      "afirmacao": "Qualquer usuário pode comparar assinaturas conhecidas nos limites do exame.",
+      "fonte": "05-ENERGIA-E-VESTIGIOS.md",
+      "localizador": "Vestígios",
+      "status": "adaptacao_projeto_m",
+      "limite": "Não foi confirmada como capacidade canônica universal; preserva Máscara e referências do próprio sistema."
+    },
+    {
+      "id": "C11",
+      "afirmacao": "Treinamento para perceber resíduos e sua precisão no caso de Nanami.",
+      "fonte": "https://jujutsukaisen.jp/episodes/09.php",
+      "localizador": "pista de pesquisa: cap. 19 / episódio 9",
+      "status": "pendente",
+      "limite": "Sinopse oficial lida não contém a explicação. Painéis pertinentes e cena completa não foram inspecionados nesta rodada."
+    },
+    {
+      "id": "C12",
+      "afirmacao": "Supressão ao guardar a maldição e rastreamento de Toji pelos sentidos físicos.",
+      "fonte": "https://shonenjumpplus.com/volume/4856001361007392860/trial",
+      "localizador": "pista de pesquisa: cap. 73",
+      "status": "pendente",
+      "limite": "A amostra consultada sustenta o cap. 71; não foi lido o cap. 73. Não transportar essa explicação para a regra comum."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "data": "2026-10-03",
+  "arquivos": {
+    "CONFERENCIA.json": "e2c15849f05a2f56e7c8a6aee8f9eb95fc522105c4750b76cb26f3419fded039",
+    "DECISOES.md": "a63ad314c161eed6cbb3bfe3bcee728e29e40869cb877291f8e8854f6eabfad5",
+    "ESTRUTURA.json": "dacf1813ac30a941281ea2718a082648f1a180aa578152704ecba7771d8bce6f",
+    "LEIA-ME.md": "b1dcc70bb30b2ef987692c6533fb761fa0be4e40dcfb06b5e98f80e9a520ffc7",
+    "MUNICAO.md": "c82734f8bf73a10fcb3ea6d12c0a30b516f835d68b4ebf2c194ef6cad55c9937",
+    "RELATORIO.md": "e446ed58d2b68ed8eab561cfda789be79ceeea352a2a26bb8b3c296893ef2be1",
+    "VALIDACAO.json": "c97ee377792338acad90646ad9e0b262fad0f800cfb6fd39f018ef4cfdac3246",
+    "conferir.py": "8f257eb44ebb5f896aaa1426b39aebc719004c53fc504da01c63853fd5ad62e7",
+    "evidencias/LOCALIZACAO-EDITORIAL.json": "d0346429e13940e99ec165db2d1ddb82b43d6c0e45390fc49edf71fcb7282556",
+    "evidencias/REVISAO-EDITORIAL.json": "853df02af5c67c1a38308d6f7f22c28ac45db5e7f87022bb16345a7e98761dc1",
+    "evidencias/REVISAO.md": "e446ed58d2b68ed8eab561cfda789be79ceeea352a2a26bb8b3c296893ef2be1",
+    "evidencias/fontes-preservadas.json": "b7646bff8b276c694d6764ffe05a7d8d2287d0dac36e88ca71f61b111be032f4",
+    "evidencias/inspecao-visual.json": "b812ff46de677eae757393c19962e06fe0f19b17376890029ff3fbc09c597a3d",
+    "evidencias/pdf-estrutura.json": "cff87f742c844b070bc0f8a896179a8a38ada29464bd3fd82f8c8b54eba460f4",
+    "evidencias/pdf-texto.txt": "2f8187740f1d0a3c12739dee7971b3ee8c7eb7d904937559214d60a225dc4f66",
+    "evidencias/regras-verificadas.json": "697a2694c433c49881c65c0646be48995e3da191007701949c19a3c6f9823ac8",
+    "gerar_pdf.py": "ed2676a3c2b437f9179741412193ad30462a4fc755371c7c61a878348fa0f009",
+    "output/pdf/Projeto-M-Municao-Proposta-01.pdf": "e61cfbb1e4368e2afb325c18db9a41849b31964a08c597e54f6f70a07868d093",
+    "validar_regras.py": "a5289add7b0b00e09968bab41abb6e1aa7f13500548c8cf03ad2ebb76f13e86e"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "manuscrito": "INVOCACOES-EM-CAMPO.md",
+  "sha256_texto": "baf821fbcb12f848e8b17615ebfee01ec9406166fe4475c00af4693c508da1f4",
+  "paginas": 31,
+  "estado": "redação e auditoria autoral concluídas; aguarda revisão independente e exportação pelo root",
+  "script": "auditar.py",
+  "cobertura": "evidencias/COBERTURA.json",
+  "alteracoes": 46,
+  "fontes_preservadas": true,
+  "validador_editorial_automatico": "passou com zero achados",
+  "pendentes": [
+    "revisão independente",
+    "exportação PDF",
+    "extração de texto/navegação",
+    "visual de todas as páginas"
+  ]
+}

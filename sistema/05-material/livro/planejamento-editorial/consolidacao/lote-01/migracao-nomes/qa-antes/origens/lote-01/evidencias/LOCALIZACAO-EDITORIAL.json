@@ -1,0 +1,24 @@
+{
+  "sha256_texto": "efc95812ecf049e756416e15d996399fff98ff465f3aedb981742b4f8a32d292",
+  "titulos_revisto": true,
+  "sem_explicacao_alheia": true,
+  "vocabulario_revisto": true,
+  "revisor": "/root/rotas_didatica — modelo, revisão de autoria",
+  "excecoes_localizacao": [
+    {
+      "termo": "Energia Reversa",
+      "trecho": "Você é imune a Envenenado. Essa imunidade à condição não concede resistência ao tipo de dano Veneno nem dispensa outras consequências de uma capacidade. Energia Reversa não cura você. Consulte Reparo do corpo para recuperação e para as curas compatíveis.",
+      "papel": "incompatibilidade",
+      "justificativa": "Origem é dona da incompatibilidade de cura; não reproduz aptidão.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Energia Reversa",
+      "trecho": "Uma técnica cuja Regra alcance um corpo construído também pode curar você. Energia Reversa e curas derivadas dela continuam incompatíveis. Descanso longo segue Descansos. Chegar a zero de vida segue Recuperação, sem exceção concedida por este reparo.",
+      "papel": "incompatibilidade",
+      "justificativa": "Origem é dona da incompatibilidade de cura; não reproduz aptidão.",
+      "nao_reproduz_regra": true
+    }
+  ],
+  "revisao_adicional": "Raiz leu PRO35/OR35: títulos diretos, patente definida no dono, remissões sem repetir bônus ou procedimentos externos. Vocabulário reconhecimento/instituição/Grau explicitado. Nenhum artigo inicial novo."
+}

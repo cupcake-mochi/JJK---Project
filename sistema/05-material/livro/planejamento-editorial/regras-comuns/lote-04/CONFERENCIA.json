@@ -1,0 +1,39 @@
+{
+  "revisao": 1,
+  "ok": true,
+  "documento": {
+    "fonte": "sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-04/04-MANOBRAS-E-INFORMACAO.md",
+    "pdf": "sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-04/output/pdf/Projeto-M-Manobras-e-Informacao-Proposta-04.pdf",
+    "hash_fonte": "1ea15259408bc967d24476b594f272b406f37b5a72d1585308b2a3558d7a7c80",
+    "hash_pdf": "13fa80f753732dc423f65f610c1a2a6bf8911fbafe976265a546b5266ef76673",
+    "paginas": [
+      {
+        "pagina": 1,
+        "final_corpo": 758.27,
+        "bitmap": 0
+      },
+      {
+        "pagina": 2,
+        "final_corpo": 764.72,
+        "bitmap": 0
+      },
+      {
+        "pagina": 3,
+        "final_corpo": 738.32,
+        "bitmap": 0
+      },
+      {
+        "pagina": 4,
+        "final_corpo": 702.82,
+        "bitmap": 0
+      }
+    ],
+    "marcadores": [
+      "Agarrar, derrubar e empurrar",
+      "Escapar e manter uma contenção",
+      "Estudar uma criatura ou objeto",
+      "Preparar uma resposta"
+    ]
+  },
+  "conferencia_completa": "../lote-03/CONFERENCIA.json"
+}

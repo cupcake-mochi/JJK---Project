@@ -1,0 +1,51 @@
+{
+  "sha256_texto": "dbb34c8384587288ccebca3a7c4932f90c377ad0751677b48ede38f596f4dd29",
+  "titulos_revisto": true,
+  "sem_explicacao_alheia": true,
+  "vocabulario_revisto": true,
+  "revisor": "/root,autorrevisão integral,não teste humano",
+  "excecoes_localizacao": [
+    {
+      "termo": "Bastião",
+      "trecho": "| Bastião | Proteger companheiros e suportar a pressão dos inimigos. |",
+      "papel": "remissao",
+      "nao_reproduz_regra": true,
+      "justificativa": "Tabela orienta escolha do capítulo de Caminho por proposta, sem copiar habilidade ou regra. Identidade da ficha Kaori informa escolhas necessárias ao exemplo e remete ao dono."
+    },
+    {
+      "termo": "Vanguarda",
+      "trecho": "| Vanguarda | Sustentar a ofensiva com armas e golpes. |",
+      "papel": "remissao",
+      "nao_reproduz_regra": true,
+      "justificativa": "Tabela orienta escolha do capítulo de Caminho por proposta, sem copiar habilidade ou regra. Identidade da ficha Kaori informa escolhas necessárias ao exemplo e remete ao dono."
+    },
+    {
+      "termo": "Emanador",
+      "trecho": "| Emanador | Concentrar sua atuação na conjuração e no controle da energia. |",
+      "papel": "remissao",
+      "nao_reproduz_regra": true,
+      "justificativa": "Tabela orienta escolha do capítulo de Caminho por proposta, sem copiar habilidade ou regra. Identidade da ficha Kaori informa escolhas necessárias ao exemplo e remete ao dono."
+    },
+    {
+      "termo": "Evocador",
+      "trecho": "| Evocador | Lutar e cumprir tarefas ao lado de entidades. |",
+      "papel": "remissao",
+      "nao_reproduz_regra": true,
+      "justificativa": "Tabela orienta escolha do capítulo de Caminho por proposta, sem copiar habilidade ou regra. Identidade da ficha Kaori informa escolhas necessárias ao exemplo e remete ao dono."
+    },
+    {
+      "termo": "Incursor",
+      "trecho": "| Incursor | Explorar mobilidade, precisão e oportunidades de combate. |",
+      "papel": "remissao",
+      "nao_reproduz_regra": true,
+      "justificativa": "Tabela orienta escolha do capítulo de Caminho por proposta, sem copiar habilidade ou regra. Identidade da ficha Kaori informa escolhas necessárias ao exemplo e remete ao dono."
+    },
+    {
+      "termo": "Bastião",
+      "trecho": "Ela é Descendente, Bastião da Trilha Muro, nível 2 e Grau 4. Este quadro reúne as partes de sua ficha usadas no exemplo a seguir. O repertório completo e as demais escolhas de uma personagem jogável devem ser preenchidos pelo roteiro de criação.",
+      "papel": "remissao",
+      "nao_reproduz_regra": true,
+      "justificativa": "Tabela orienta escolha do capítulo de Caminho por proposta, sem copiar habilidade ou regra. Identidade da ficha Kaori informa escolhas necessárias ao exemplo e remete ao dono."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "revisao": 3,
+  "ok": true,
+  "documento": {
+    "fonte": "sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-02/02-SALTOS-E-QUEDAS.md",
+    "pdf": "sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-02/output/pdf/Projeto-M-Movimento-Saltos-e-Quedas-Proposta-02.pdf",
+    "hash_fonte": "cbad66f1845bf59084b379b246d19c11d04364c37550d01a288d6bd57f3452c9",
+    "hash_pdf": "ff5dca8dabfedff0e4dc73713002fa09d2140febc9de49e0f07ef04147fccc35",
+    "paginas": [
+      {
+        "pagina": 1,
+        "final_corpo": 735.57,
+        "bitmap": 0
+      },
+      {
+        "pagina": 2,
+        "final_corpo": 745.77,
+        "bitmap": 0
+      },
+      {
+        "pagina": 3,
+        "final_corpo": 725.72,
+        "bitmap": 0
+      },
+      {
+        "pagina": 4,
+        "final_corpo": 713.02,
+        "bitmap": 0
+      }
+    ],
+    "marcadores": [
+      "Movimento e terreno",
+      "Saltos",
+      "Quedas e empurrões",
+      "Movimento das Trilhas"
+    ]
+  },
+  "conferencia_completa": "../lote-03/CONFERENCIA.json"
+}

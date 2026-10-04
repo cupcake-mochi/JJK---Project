@@ -1,0 +1,30 @@
+{
+  "sha256_pdf": "b7ac6f611b36310785e085130b3c62574ed75637a3ef53ca5fe7b2f378b91e4a",
+  "metodo": "Quatro páginas renderizadas por Poppler e inspecionadas a1300px.",
+  "paginas": [
+    {
+      "pagina": 1,
+      "imagem": "/tmp/projeto-m-movimentocarga-1.png",
+      "sha256_png": "0ba7a0b9b2219eef09f6de5492a1f884e9ca033d4a1027c943e5e99b86009bb2",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 2,
+      "imagem": "/tmp/projeto-m-movimentocarga-2.png",
+      "sha256_png": "e298d7232ac024461e31aaa3aa15fcd2c73e0afc2cba7f397b8a56fccebcd292",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 3,
+      "imagem": "/tmp/projeto-m-movimentocarga-3.png",
+      "sha256_png": "880e12ce9c4700f721d018000548836115847c6cbae7a7405d2f533d931898ff",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 4,
+      "imagem": "/tmp/projeto-m-movimentocarga-4.png",
+      "sha256_png": "9b51c85afd1fd2c51bb6c6d006209c00760121792fa79d410f0213d1eab79967",
+      "resultado": "sem defeito visual observado"
+    }
+  ]
+}

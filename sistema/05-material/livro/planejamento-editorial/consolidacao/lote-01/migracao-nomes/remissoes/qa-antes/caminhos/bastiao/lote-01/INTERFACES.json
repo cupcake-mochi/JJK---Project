@@ -1,0 +1,58 @@
+{
+  "itens": [
+    {
+      "dono": "R01",
+      "tema": "Provocar",
+      "acao": "Sincronizar teste único como CD do TR Espírito; empate resiste.",
+      "estado": "aprovado pelo root; fora do destino desta unidade"
+    },
+    {
+      "dono": "R02",
+      "tema": "Bloquear / Reação / danos no erro",
+      "acao": "Manter escolha depois rolagem, sem Reação. Certeiro não vira acerto para gatilhos.",
+      "estado": "compatível"
+    },
+    {
+      "dono": "R03",
+      "tema": "Duplicação Duro/Casca",
+      "acao": "Retirar explicações de habilidades específicas e exemplo do Muro de Dano e Condições na consolidação; substituir exemplo genérico se necessário.",
+      "estado": "root confirmou"
+    },
+    {
+      "dono": "R03",
+      "tema": "Dano misto transferido",
+      "acao": "Fonte declara ordem das parcelas antes da rolagem. Depois das defesas por tipo, RD genérica e vida temporária consomem nessa ordem. Transferência conserva os tipos restantes. R13 só remete ao procedimento.",
+      "estado": "root aprovou como regra candidata nova; sincronizar R03 na consolidação"
+    },
+    {
+      "dono": "R04",
+      "tema": "Morrendo e Integridade",
+      "acao": "Revisão futura do sistema de morte pode alterar Ainda de Pé e Passa Pra Mim; hoje não dão autorização para agir a zero.",
+      "estado": "fila conhecida, candidata segue dono atual"
+    },
+    {
+      "dono": "R06/R07",
+      "tema": "Conjuração",
+      "acao": "RetaliaçãoClass0 e ContraClass>0 contam limite turno, conservam requisitos; Contra não reduz preparo.",
+      "estado": "compatível"
+    },
+    {
+      "dono": "R09/R10",
+      "tema": "Canalizar/Estímulo e rotas",
+      "acao": "Contra exclui incremento equivalente só no ataque escolhido. Feitiço pode ser Manejo/Kata pelas substituições do dono. Energia temporária segue rota.",
+      "estado": "compatível, repetir na consolidação"
+    },
+    {
+      "dono": "Criação / progressão",
+      "tema": "Origem e troca",
+      "acao": "Não duplicar textos de Origem. Criacao antiga diz escolher Trilha na criação; integrado diz2. R13 dá benefícios2 e informa troca11/19/27.",
+      "estado": "harmonizar capítulo de criação na revisão global"
+    },
+    {
+      "dono": "Incursor / Vanguarda / Evocador",
+      "tema": "Comparação final de Caminhos",
+      "acao": "R13 não renomeia nem ajusta esses kits. Modelos de ataque/defesa locais precisam integrar ensaio final com origens, equipamentos e demais Caminhos.",
+      "estado": "validação global pendente"
+    }
+  ]
+}

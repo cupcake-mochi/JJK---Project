@@ -1,0 +1,31 @@
+{
+  "data": "2026-10-03",
+  "sha256_pdf": "dbfce25e5b1b8349706e430694e5e722aa37b56e8069289f57ae0769af23b692",
+  "paginas": [
+    {
+      "pagina": 1,
+      "arquivo": "/tmp/projeto-m-editorial-final/movimento-1.png",
+      "sha256_png": "315c318ccbd5c089cdfc93a3aee66e947ff5151169e92fb6bf67edae8cf49d49",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 2,
+      "arquivo": "/tmp/projeto-m-editorial-final/movimento-2.png",
+      "sha256_png": "4658ccb19c915bd04dfd3db4067ff5c99294fb47090f1f2dccf154c1651ffc94",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 3,
+      "arquivo": "/tmp/projeto-m-editorial-final/movimento-3.png",
+      "sha256_png": "1565093ce7112bb386c45d644722699ef099dd3d7885048be57d594836ab97bc",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 4,
+      "arquivo": "/tmp/projeto-m-editorial-final/movimento-4.png",
+      "sha256_png": "38e747ba53ca8b14b8c1613c6329b5d7222b651db139ad4d0ed864aba3a55919",
+      "resultado": "sem defeito visual observado"
+    }
+  ],
+  "metodo": "Inspeção visual de todas as páginas pelo autor. Proteção2/4 reexaminadas após correção de largura da tabela e frase durante retirada."
+}

@@ -1,0 +1,16 @@
+{
+  "sha256_texto": "89a3f7bb705a7c931a3c69f4f051fb98d62acbc065ffa42dc48275f00e2afec1",
+  "titulos_revisto": true,
+  "sem_explicacao_alheia": true,
+  "vocabulario_revisto": true,
+  "revisor": "compatibilidade — leitura integral39p e comparação das sete candidatas",
+  "excecoes_vocabulario": [],
+  "excecoes_localizacao": [],
+  "revisao_delta_nomes": {
+    "revisor": "/root/compatibilidade",
+    "sha256_previo": "c5a6b376afdbcc2439f53b270a1e82323ec99575cbdc530ce11cb31101b14f8f",
+    "sha256_atual": "89a3f7bb705a7c931a3c69f4f051fb98d62acbc065ffa42dc48275f00e2afec1",
+    "escopo": "Somente o delta nominal foi relido nesta etapa; leitura integral anterior preservada no snapshot. Números e âncoras idênticos.",
+    "evidencia": "consolidacao/lote-01/migracao-nomes/MIGRACAO.json"
+  }
+}

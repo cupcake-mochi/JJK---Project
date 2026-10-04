@@ -1,0 +1,239 @@
+{
+  "sha256_texto": "c5a6b376afdbcc2439f53b270a1e82323ec99575cbdc530ce11cb31101b14f8f",
+  "casos": [
+    {
+      "pagina": "eq-equipamento",
+      "valido": "Katana com Fineza usa Destreza sem requisito de Força.",
+      "invalido": "Treino não elimina penalidade por Força insuficiente.",
+      "resolucao": "Conferido na leitura da regra e interfaces, não teste com leitores."
+    },
+    {
+      "pagina": "eq-manipular",
+      "valido": "Guardar grátis e sacar com Movimento inteiro são duas manipulações.",
+      "invalido": "Metade do Movimento restante não paga outra manipulação.",
+      "resolucao": "Conferido na leitura da regra e interfaces, não teste com leitores."
+    },
+    {
+      "pagina": "eq-objetos",
+      "valido": "Vasculhar uma gaveta inclui abri-la.",
+      "invalido": "Usar objeto não substitui ativação própria de uma ferramenta.",
+      "resolucao": "Conferido na leitura da regra e interfaces, não teste com leitores."
+    },
+    {
+      "pagina": "eq-propriedades",
+      "valido": "Par com2d6 compara duas somas; atributo apenas uma vez.",
+      "invalido": "Dados adicionais de um feitiço não entram nos conjuntos de Par.",
+      "resolucao": "Conferido na leitura da regra e interfaces, não teste com leitores."
+    },
+    {
+      "pagina": "eq-oculta",
+      "valido": "Prestidigitação15 vence observação14 mas Investigação15 descobre.",
+      "invalido": "Taco Discreto visível não é automaticamente oculto nas roupas.",
+      "resolucao": "Conferido na leitura da regra e interfaces, não teste com leitores."
+    },
+    {
+      "pagina": "eqp-protecao",
+      "valido": "Traje2+Médio comDex4 dáDefesa17.",
+      "invalido": "Perder requisito não devolve defesa passiva sob uniforme.",
+      "resolucao": "Conferido na leitura da regra e interfaces, não teste com leitores."
+    },
+    {
+      "pagina": "eqp-traje",
+      "valido": "Maestria2 permite acrescentar segunda perícia.",
+      "invalido": "Trocar de Traje não troca as perícias da ficha.",
+      "resolucao": "Conferido na leitura da regra e interfaces, não teste com leitores."
+    },
+    {
+      "pagina": "eqp-escudo",
+      "valido": "Revest3+Torre soma19 comDex2.",
+      "invalido": "Escudo preso ao braço não deixa a mão livre para arma2mãos.",
+      "resolucao": "Conferido na leitura da regra e interfaces, não teste com leitores."
+    },
+    {
+      "pagina": "eqp-vestir",
+      "valido": "Quatro rodadas e depois seis completamTraje.",
+      "invalido": "Abandonar retirada não recupera proteção instantânea.",
+      "resolucao": "Conferido na leitura da regra e interfaces, não teste com leitores."
+    },
+    {
+      "pagina": "eqm-municao",
+      "valido": "Pistola inicialmente carregada permite dois ataques.",
+      "invalido": "Sem munição não existe disparo, mesmo com ação disponível.",
+      "resolucao": "Conferido na leitura da regra e interfaces, não teste com leitores."
+    },
+    {
+      "pagina": "eqm-recarga",
+      "valido": "Rifle3+reserva3,ataque2natural,repor1→arma3reserva2.",
+      "invalido": "Guardar arma com gatilho1/2 não a prepara.",
+      "resolucao": "Conferido na leitura da regra e interfaces, não teste com leitores."
+    },
+    {
+      "pagina": "eqm-reserva",
+      "valido": "Besta de criação tem1instalado+19noestojo.",
+      "invalido": "Dois personagens não recuperam duas metades dos mesmos projéteis.",
+      "resolucao": "Conferido na leitura da regra e interfaces, não teste com leitores."
+    },
+    {
+      "pagina": "eqa-armas",
+      "valido": "EscolherKatana por48mil inclui sua linha inteira.",
+      "invalido": "Desconto de criação não retorna depois de perder arma.",
+      "resolucao": "Conferido na leitura da regra e interfaces, não teste com leitores."
+    },
+    {
+      "pagina": "eqa-laminas",
+      "valido": "Faca tem Leve e Fineza.",
+      "invalido": "Tanto não ganha novo ataque por Leve.",
+      "resolucao": "Conferido na leitura da regra e interfaces, não teste com leitores."
+    },
+    {
+      "pagina": "eqa-impacto",
+      "valido": "Soqueira vestida usa mão livre no golpe.",
+      "invalido": "Soqueira não recebe benefícios que exijam ataque desarmado.",
+      "resolucao": "Conferido na leitura da regra e interfaces, não teste com leitores."
+    },
+    {
+      "pagina": "eqa-hastes",
+      "valido": "Naginata cabe na carga deForça0, mas exigeForça3 para uso sempenalidade.",
+      "invalido": "Kusarigama não agarra por sua faixa de arremesso.",
+      "resolucao": "Conferido na leitura da regra e interfaces, não teste com leitores."
+    },
+    {
+      "pagina": "eqa-flexiveis",
+      "valido": "Kunai arremessado deixa a mão.",
+      "invalido": "Arma não volta automaticamente por ser de arremesso.",
+      "resolucao": "Conferido na leitura da regra e interfaces, não teste com leitores."
+    },
+    {
+      "pagina": "eqa-tiro",
+      "valido": "Pistola deixa25mil no fundo padrão;Revólver deixa0.",
+      "invalido": "Preço maior não prova equivalência quando dinheiro é irrelevante.",
+      "resolucao": "Conferido na leitura da regra e interfaces, não teste com leitores."
+    },
+    {
+      "pagina": "eqi-itens",
+      "valido": "Kitexploração13mil1,3Volume.",
+      "invalido": "Mochila não aumenta capacidade nem faz haste caber no bolso.",
+      "resolucao": "Conferido na leitura da regra e interfaces, não teste com leitores."
+    },
+    {
+      "pagina": "eqi-exploracao",
+      "valido": "Lanterna mão fornece9m plena+9m penumbra.",
+      "invalido": "Kit não oferece Reação para prender após cair.",
+      "resolucao": "Conferido na leitura da regra e interfaces, não teste com leitores."
+    },
+    {
+      "pagina": "eqi-fechaduras",
+      "valido": "Chave acessível usa manipulação;gazuas1min.",
+      "invalido": "Agarrado sozinho não basta para algemar alguém.",
+      "resolucao": "Conferido na leitura da regra e interfaces, não teste com leitores."
+    },
+    {
+      "pagina": "eqi-objetos",
+      "valido": "PortaVida20 recebe8+12 e abre.",
+      "invalido": "Uma dobradiça não derruba prédio;atingir portador não destrói inventário.",
+      "resolucao": "Conferido na leitura da regra e interfaces, não teste com leitores."
+    },
+    {
+      "pagina": "eqi-efeitos",
+      "valido": "Ataque capaz atinge barreira extensa semcrítico.",
+      "invalido": "Feitiço exclusivo para criatura não passa a atingir barreira.",
+      "resolucao": "Conferido na leitura da regra e interfaces, não teste com leitores."
+    },
+    {
+      "pagina": "eqi-improvisadas",
+      "valido": "GarrafaDex4+Maestria1 acerto+5 comdesvantagem,dano1d4+Força2.",
+      "invalido": "Coronhada não leva dados e propriedades do disparo.",
+      "resolucao": "Conferido na leitura da regra e interfaces, não teste com leitores."
+    },
+    {
+      "pagina": "eqc-dinheiro",
+      "valido": "KaoriGrau4 pode comprarPistola apenas comautorização.",
+      "invalido": "Treino não concede autorização administrativa.",
+      "resolucao": "Conferido na leitura da regra e interfaces, não teste com leitores."
+    },
+    {
+      "pagina": "eqc-precos",
+      "valido": "90milTraje2+48milKatana deixam12mil.",
+      "invalido": "Traje1gratuito não se converte em30mil de saldo.",
+      "resolucao": "Conferido na leitura da regra e interfaces, não teste com leitores."
+    },
+    {
+      "pagina": "eqc-inicial",
+      "valido": "KatanaBroquel+exploração73mil3,1Volume.",
+      "invalido": "Todo kit não precisa funcionar comForça0.",
+      "resolucao": "Conferido na leitura da regra e interfaces, não teste com leitores."
+    },
+    {
+      "pagina": "eqc-compras",
+      "valido": "Três reservasRifle+lanterna+pilhas8mil1,2Volume.",
+      "invalido": "Emprestar não duplica suprimentos nem recupera item danificado.",
+      "resolucao": "Conferido na leitura da regra e interfaces, não teste com leitores."
+    },
+    {
+      "pagina": "eqf-equipamento",
+      "valido": "Roupa comefeito não substitui passiva da rota.",
+      "invalido": "Grau2não transformaTraje1 emTraje2.",
+      "resolucao": "Conferido na leitura da regra e interfaces, não teste com leitores."
+    },
+    {
+      "pagina": "eqf-graus",
+      "valido": "Grau3efeito semmínimo;Grau2normalmenteN7.",
+      "invalido": "Patente não substitui nível para efeito.",
+      "resolucao": "Conferido na leitura da regra e interfaces, não teste com leitores."
+    },
+    {
+      "pagina": "eqf-uso",
+      "valido": "Espada,escudo,Traje,anel atéquatroefeitos.",
+      "invalido": "Trocar ferramenta por cópia não renova limite da pessoa.",
+      "resolucao": "Conferido na leitura da regra e interfaces, não teste com leitores."
+    },
+    {
+      "pagina": "eqf-aquisicao",
+      "valido": "Roupa completaVol0,3,acessório0,1.",
+      "invalido": "Comprar base não dá efeito gratuito.",
+      "resolucao": "Conferido na leitura da regra e interfaces, não teste com leitores."
+    },
+    {
+      "pagina": "eqf-armas",
+      "valido": "Fiel volta após próprioarremesso se mãolivre/caminholivre.",
+      "invalido": "Avulsa falha se ataque recebido deixou incapaz ou tirou arma.",
+      "resolucao": "Conferido na leitura da regra e interfaces, não teste com leitores."
+    },
+    {
+      "pagina": "eqf-roupas",
+      "valido": "Passagemleva equipamento9m para espaço visto comapoio.",
+      "invalido": "Ligação presa a algo não transportável impede Passagem.",
+      "resolucao": "Conferido na leitura da regra e interfaces, não teste com leitores."
+    },
+    {
+      "pagina": "eqf-protecao",
+      "valido": "Quebranto obtém sucesso comum antesdoTR.",
+      "invalido": "Âncora não nega dano/queda semchão;Quebranto não serve paraBloquear.",
+      "resolucao": "Conferido na leitura da regra e interfaces, não teste com leitores."
+    },
+    {
+      "pagina": "eqf-acessorios",
+      "valido": "Contrapeso dispensa Força do próprioitem.",
+      "invalido": "ReservaAr não concede natação nem filtra gases.",
+      "resolucao": "Conferido na leitura da regra e interfaces, não teste com leitores."
+    },
+    {
+      "pagina": "eqf-reliquias",
+      "valido": "Anátema sucesso protege apenas portador da explosão.",
+      "invalido": "Cisão não desconta PV junto comIntegridade;Anátema não derrubaDomínio.",
+      "resolucao": "Conferido na leitura da regra e interfaces, não teste com leitores."
+    },
+    {
+      "pagina": "eqf-desgaste",
+      "valido": "Usar/guardar/usar/usar termina3missões após4missõescalendário.",
+      "invalido": "Empréstimo não restaura missões;última missãonão termina na primeira ativação.",
+      "resolucao": "Conferido na leitura da regra e interfaces, não teste com leitores."
+    },
+    {
+      "pagina": "eqf-objetos",
+      "valido": "Objeto semselo pode atrair maldições.",
+      "invalido": "Ingerir não compra automaticamente Origem nemcontrole.",
+      "resolucao": "Conferido na leitura da regra e interfaces, não teste com leitores."
+    }
+  ]
+}

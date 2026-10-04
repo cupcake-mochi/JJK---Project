@@ -1,0 +1,21 @@
+{
+  "data": "2026-10-03",
+  "responsavel": "autor desta rodada",
+  "independente": false,
+  "teste_humano": false,
+  "sha256_texto": "c82734f8bf73a10fcb3ea6d12c0a30b516f835d68b4ebf2c194ef6cad55c9937",
+  "secoes": [
+    {
+      "id": "municao",
+      "parecer": "Leitura contextual: assunto de equipamento, título direto, sem explicação de Caminho ou Trilha. Procedimentos e decisões registrados no relatório."
+    },
+    {
+      "id": "recarga",
+      "parecer": "Leitura contextual: assunto de equipamento, título direto, sem explicação de Caminho ou Trilha. Procedimentos e decisões registrados no relatório."
+    },
+    {
+      "id": "reserva",
+      "parecer": "Leitura contextual: assunto de equipamento, título direto, sem explicação de Caminho ou Trilha. Procedimentos e decisões registrados no relatório."
+    }
+  ]
+}

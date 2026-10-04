@@ -1,0 +1,306 @@
+[
+  {
+    "id": "C01",
+    "tema": "Refino1",
+    "positivo": "Recebe Cobrirse e Canalizar semmarco.",
+    "negativo": "PE0nãoapaga origemenergética.",
+    "fonte": "apt-refino",
+    "metodo": "avaliação contextual; casos numéricos executáveis no script próprio"
+  },
+  {
+    "id": "C02",
+    "tema": "Marco22",
+    "positivo": "Refino9+1básico=10,escolhaRrecebe2aptidões.",
+    "negativo": "SomarRantesdobásicoparareceberapenasuma contradizprocedimento.",
+    "fonte": "apt-marcos",
+    "metodo": "avaliação contextual; casos numéricos executáveis no script próprio"
+  },
+  {
+    "id": "C03",
+    "tema": "Compraencadeada",
+    "positivo": "No mesmomarco,primeiracompraBarreira,depoisCortina.",
+    "negativo": "Cortina escolhidaantesdeBarreira ainda nãopreencherequisito.",
+    "fonte": "apt-marcos",
+    "metodo": "avaliação contextual; casos numéricos executáveis no script próprio"
+  },
+  {
+    "id": "C04",
+    "tema": "Cobrirse",
+    "positivo": "Refino6RD9porReação2PE,depoisgolpemesmoequipado.",
+    "negativo": "Não conservarproteçãodoescudoatéfimpróximoturno.",
+    "fonte": "apt-cobrir",
+    "metodo": "avaliação contextual; casos numéricos executáveis no script próprio"
+  },
+  {
+    "id": "C05",
+    "tema": "Canalizardesarmado",
+    "positivo": "Refino1somar1d4nosoco.",
+    "negativo": "Não esperarRefino3 porpeçaantiga.",
+    "fonte": "apt-canalizar",
+    "metodo": "avaliação contextual; casos numéricos executáveis no script próprio"
+  },
+  {
+    "id": "C06",
+    "tema": "Canalizarcrítico",
+    "positivo": "R6soco1d6+4+3d4 vira2d6+4+3d4.",
+    "negativo": "Dobrar3d4sempermissãoespecífica éinválido.",
+    "fonte": "apt-canalizar",
+    "metodo": "avaliação contextual; casos numéricos executáveis no script próprio"
+  },
+  {
+    "id": "C07",
+    "tema": "Conjuração",
+    "positivo": "AtaqueseparadoapósfeitiçopodeCanalizarsepuderusar ações.",
+    "negativo": "Ataquetransportandofeitiçodano nãorecebeCanalizar.",
+    "fonte": "apt-canalizar",
+    "metodo": "avaliação contextual; casos numéricos executáveis no script próprio"
+  },
+  {
+    "id": "C08",
+    "tema": "Cirúrgico",
+    "positivo": "ExceçãoTrilhapermitedobrarnormais+adicionaisX.",
+    "negativo": "R09nãoconcedeexceçãotodogolpe nemvoltaparamaximizardados.",
+    "fonte": "35 Caminhos",
+    "metodo": "avaliação contextual; casos numéricos executáveis no script próprio"
+  },
+  {
+    "id": "C09",
+    "tema": "Projetar",
+    "positivo": "R6escolhe4PEantesrolar,atacae4d6Força.",
+    "negativo": "Com0PEprojetarnãofunciona;nãoconverteAtaqueExtraemmaisdisparo.",
+    "fonte": "apt-projetar",
+    "metodo": "avaliação contextual; casos numéricos executáveis no script próprio"
+  },
+  {
+    "id": "C10",
+    "tema": "Projetaratributo",
+    "positivo": "SemTécnicausaatributoestilojáregistrado.",
+    "negativo": "NãoexigirEssênciaadicionalnemmudaratributodepoisveralvo.",
+    "fonte": "apt-projetar",
+    "metodo": "avaliação contextual; casos numéricos executáveis no script próprio"
+  },
+  {
+    "id": "C11",
+    "tema": "Projetarcrítico",
+    "positivo": "4PEcrítico8d6base.",
+    "negativo": "NãosomarCanalizarouarma.",
+    "fonte": "apt-projetar",
+    "metodo": "avaliação contextual; casos numéricos executáveis no script próprio"
+  },
+  {
+    "id": "C12",
+    "tema": "Reversa",
+    "positivo": "C4escolhe3PEcurar3d8próprio.",
+    "negativo": "Refino7nãopermite7PE semCirculação.",
+    "fonte": "apt-reversa",
+    "metodo": "avaliação contextual; casos numéricos executáveis no script próprio"
+  },
+  {
+    "id": "C13",
+    "tema": "Corpo",
+    "positivo": "MétodoprópriodareparaçãoOrigempodecurar.",
+    "negativo": "ERouCuraerguidadeERnãocuraCorpo.",
+    "fonte": "apt-reversa",
+    "metodo": "avaliação contextual; casos numéricos executáveis no script próprio"
+  },
+  {
+    "id": "C14",
+    "tema": "Energiapositiva",
+    "positivo": "Cura3de6d8viraataque9PEcontraMaldição e1,5×resultado.",
+    "negativo": "FormaCuraautomaticanãocausadanoeOndanãoganharadiaçãohostil.",
+    "fonte": "apt-energia-positiva",
+    "metodo": "avaliação contextual; casos numéricos executáveis no script próprio"
+  },
+  {
+    "id": "C15",
+    "tema": "Contatoexterno",
+    "positivo": "PermissãoexpressaparaERemoutrohabilitaataquemaldição1,5m.",
+    "negativo": "Autocuraaprendidanãoconcedealvoexterno.",
+    "fonte": "apt-energia-positiva",
+    "metodo": "avaliação contextual; casos numéricos executáveis no script próprio"
+  },
+  {
+    "id": "C16",
+    "tema": "Circulação",
+    "positivo": "C7teto10PE,Padrão10d8/Bônus10d4.",
+    "negativo": "Bônusnãocura10d8nemrecompõebraço.",
+    "fonte": "apt-circulacao",
+    "metodo": "avaliação contextual; casos numéricos executáveis no script próprio"
+  },
+  {
+    "id": "C17",
+    "tema": "Reconstrução",
+    "positivo": "PadrãotetoPErestauraparteperdidasemPV.",
+    "negativo": "Recompor nãocuracondiçãoalheianemautorizaamputar.",
+    "fonte": "apt-circulacao",
+    "metodo": "avaliação contextual; casos numéricos executáveis no script próprio"
+  },
+  {
+    "id": "C18",
+    "tema": "Regravação",
+    "positivo": "INT5M4quartausodevolve técnicaeimpededomínio.",
+    "negativo": "SomarmetadesantesarredondarM3INT5daria4mascorreto3.",
+    "fonte": "apt-regravacao",
+    "metodo": "avaliação contextual; casos numéricos executáveis no script próprio"
+  },
+  {
+    "id": "C19",
+    "tema": "Kokusen",
+    "positivo": "CríticoarmaCacpermited100≤2R+bonus.",
+    "negativo": "FeitiçoToquenãogatilho eprojeçãoàdistâncianão.",
+    "fonte": "apt-kokusen",
+    "metodo": "avaliação contextual; casos numéricos executáveis no script próprio"
+  },
+  {
+    "id": "C20",
+    "tema": "Kokusen2melhorias",
+    "positivo": "R10base30menor2d100=51%.",
+    "negativo": "MelhoradonãoimpedeaprenderConstante.",
+    "fonte": "apt-kokusen",
+    "metodo": "avaliação contextual; casos numéricos executáveis no script próprio"
+  },
+  {
+    "id": "C21",
+    "tema": "Kokusenfalhas",
+    "positivo": "Doisresultadosd100falhosnumteste+2.",
+    "negativo": "Não+4nemzerarporsucessosemDL.",
+    "fonte": "apt-kokusen",
+    "metodo": "avaliação contextual; casos numéricos executáveis no script próprio"
+  },
+  {
+    "id": "C22",
+    "tema": "Manutenção",
+    "positivo": "C5DSativar5+2PE,depoiscadaTurno2.",
+    "negativo": "Nãoativar/encerrargratuitoentreturnosparaevitarcusto.",
+    "fonte": "apt-protecao-dominios",
+    "metodo": "avaliação contextual; casos numéricos executáveis no script próprio"
+  },
+  {
+    "id": "C23",
+    "tema": "Cesta",
+    "positivo": "Ess4falha2cai;retomarsímbolonãozera.",
+    "negativo": "AcertoanuladopróprionãogeraTRdegolperecebido.",
+    "fonte": "apt-cesta",
+    "metodo": "avaliação contextual; casos numéricos executáveis no script próprio"
+  },
+  {
+    "id": "C24",
+    "tema": "Cestasoltar",
+    "positivo": "Mãosliberadas,+1falhaautomáticaporrodadadoAcertoletal.",
+    "negativo": "Nãocontarmaisde1automática na mesmarodada, TRdegolpesseparado.",
+    "fonte": "apt-cesta",
+    "metodo": "avaliação contextual; casos numéricos executáveis no script próprio"
+  },
+  {
+    "id": "C25",
+    "tema": "DSraio",
+    "positivo": "R4raio3m,R10raio6m.",
+    "negativo": "Não6,5mnofinalnem+1,5mportarget.",
+    "fonte": "apt-simples",
+    "metodo": "avaliação contextual; casos numéricos executáveis no script próprio"
+  },
+  {
+    "id": "C26",
+    "tema": "DSpiso",
+    "positivo": "Ess4cap3,duasfalhaspermite2Acertos,terceiropassa.",
+    "negativo": "Piso2nãorenova2restanteseternamente.",
+    "fonte": "apt-simples-duracao",
+    "metodo": "avaliação contextual; casos numéricos executáveis no script próprio"
+  },
+  {
+    "id": "C27",
+    "tema": "DSreabrir",
+    "positivo": "MesmadominioPadrãoC+2PE,cap1ou2.",
+    "negativo": "PisoEss6nãotransformaCap1em3.",
+    "fonte": "apt-simples-duracao",
+    "metodo": "avaliação contextual; casos numéricos executáveis no script próprio"
+  },
+  {
+    "id": "C28",
+    "tema": "DSmúltiplos",
+    "positivo": "Mesmapulse4protegidoscontaum;novodono sóreduzcap.",
+    "negativo": "Sairvoltar/novadominiovistofracanãozeraimpedidos.",
+    "fonte": "apt-simples-duracao",
+    "metodo": "avaliação contextual; casos numéricos executáveis no script próprio"
+  },
+  {
+    "id": "C29",
+    "tema": "Quedas",
+    "positivo": "CestaouDSvoto/voluntário imediatoextra.",
+    "negativo": "DSrelógioaplicaapenasAcertoquejávem,nãodois.",
+    "fonte": "apt-cesta/apt-simples",
+    "metodo": "avaliação contextual; casos numéricos executáveis no script próprio"
+  },
+  {
+    "id": "C30",
+    "tema": "Pétala",
+    "positivo": "Essigual21contatorecebe6antesoutrasreduções.",
+    "negativo": "Nãoanularinformaçãosemcontato nemreduzirgolpecomum.",
+    "fonte": "apt-petala",
+    "metodo": "avaliação contextual; casos numéricos executáveis no script próprio"
+  },
+  {
+    "id": "C31",
+    "tema": "Pétalacontra",
+    "positivo": "GatilhodogolpequecaideixaReaçãopermitidasepodeagir.",
+    "negativo": "Nãosoco,foraalcanceounocaute.",
+    "fonte": "apt-petala",
+    "metodo": "avaliação contextual; casos numéricos executáveis no script próprio"
+  },
+  {
+    "id": "C32",
+    "tema": "Extensão",
+    "positivo": "C7R10total117PEdurmáxima,neutralizaClasse4.",
+    "negativo": "NãoClasse7,semremoção globaldetécnicalonge.",
+    "fonte": "apt-extensao",
+    "metodo": "avaliação contextual; casos numéricos executáveis no script próprio"
+  },
+  {
+    "id": "C33",
+    "tema": "Extensãotécnica",
+    "positivo": "Domíniojáabertocontinua,novoabrirderrubaExtensão.",
+    "negativo": "NãoManejoenquantoativa nemCorpoaprendêla.",
+    "fonte": "apt-extensao",
+    "metodo": "avaliação contextual; casos numéricos executáveis no script próprio"
+  },
+  {
+    "id": "C34",
+    "tema": "Barreira",
+    "positivo": "R6PV30,acertoautomáticosealcancesuperfície.",
+    "negativo": "Nãocrítico,nãocondição,nãoduplodomo infinitominuaprédio.",
+    "fonte": "apt-barreira",
+    "metodo": "avaliação contextual; casos numéricos executáveis no script próprio"
+  },
+  {
+    "id": "C35",
+    "tema": "Cortina",
+    "positivo": "R6PV240,raioabrange90m,direção/listapredefinidas.",
+    "negativo": "Nãocidadeinteira,sombrarfeiticeiro,danotraversiapassiva.",
+    "fonte": "apt-cortina",
+    "metodo": "avaliação contextual; casos numéricos executáveis no script próprio"
+  },
+  {
+    "id": "C36",
+    "tema": "Cortinalinha",
+    "positivo": "Aliadonomeadonaexceçãopassa;ataquesegueregrasalcance.",
+    "negativo": "NãoherdarvedaçãoBarreiraSimplesde480PVporapelidocortina.",
+    "fonte": "apt-cortina",
+    "metodo": "avaliação contextual; casos numéricos executáveis no script próprio"
+  },
+  {
+    "id": "C37",
+    "tema": "Própria",
+    "positivo": "UmaúnicaregraCP1/2,comcampospráticos.",
+    "negativo": "Nãorepetiraptidãodegatealtonembonusdano/ataqueextracontínuo.",
+    "fonte": "apt-propria",
+    "metodo": "avaliação contextual; casos numéricos executáveis no script próprio"
+  },
+  {
+    "id": "C38",
+    "tema": "Passagem sem energia",
+    "positivo": "Aplicar a exceção da Origem a Barreira Simples e Cortina, conferindo os objetos carregados.",
+    "negativo": "Não estender essa exceção a paredes físicas ou ao Anteparo.",
+    "fonte": "apt-barreira e Origem",
+    "metodo": "Revisão de interface R09/R10, não playtest."
+  }
+]

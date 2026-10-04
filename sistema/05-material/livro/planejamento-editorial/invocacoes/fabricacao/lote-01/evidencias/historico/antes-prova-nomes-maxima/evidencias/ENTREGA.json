@@ -1,0 +1,18 @@
+{
+  "sha256_texto": "6b0c6fdc6690e154c064c44ddad58e02593fb3c1a38da3f3ba097e376fc471b0",
+  "paginas": 5,
+  "verificacoes": 58,
+  "casos": 27,
+  "combinacoes_niveis": 27000,
+  "perfis_probabilidade": 196,
+  "d20_enumerados": 164640,
+  "alteracoes": 13,
+  "inventario": 23,
+  "editorial_automatico": 0,
+  "pendentes": [
+    "V12",
+    "V13",
+    "V14"
+  ],
+  "estado": "Candidata pronta para revisão independente e renderização pela raiz; não aplicada ao manual."
+}

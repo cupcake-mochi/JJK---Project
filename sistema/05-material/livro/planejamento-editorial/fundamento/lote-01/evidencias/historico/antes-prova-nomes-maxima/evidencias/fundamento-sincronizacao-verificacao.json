@@ -1,0 +1,19 @@
+{
+  "data": "2026-10-03T16:33:51-03:00",
+  "fonte_sha256": "8ec6cd54f8fbb0cc7e98874a5242890a3b3392a792ec1cdef959abcec4b70d96",
+  "catalogo_duplicado_sha256": "4df82e672d063b4d4bfe3394d93bb75052ec3e07d44d90b83c0ea32f10439f82",
+  "patches": 7,
+  "ancoras_antes_unicas": true,
+  "linhas_matriz": 54,
+  "campos_brutos_preservados": true,
+  "estados": {
+    "consolidado_candidato": 24,
+    "pendente_R07": 24,
+    "parcial_candidato_R07_pendente": 5,
+    "sincronizacao_candidata_R07_pendente": 1
+  },
+  "relatorio_bruto_sha256": "59c26ae738c0d718c4185415e78eb348ce86c857536bfdc0d4d19f9beee197c0",
+  "verificacao_final": "2026-10-03T16:35:22-03:00",
+  "fontes_publicadas_preservadas": true,
+  "catalogo_candidato_sha256": "b740b6146a6205d4e6677dddc6b597e1c625619d73cdc10f758de989aa295c68"
+}

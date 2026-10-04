@@ -1,0 +1,210 @@
+{
+  "sha256_texto": "8ab8f1322ac42fd54c72a45549b1e3df6c64a75399950e2c249919bf8f0cf80c",
+  "protocolo": "../../validacao-editorial/PROTOCOLO-COMPLETO.md",
+  "validadores": [
+    {
+      "id": "V01",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "RELATORIO.md",
+        "evidencias/fontes-preservadas.json"
+      ],
+      "observacao": "Critério revisado sobre a candidata atual. Evidência documental e limites estão nos arquivos indicados.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json"
+    },
+    {
+      "id": "V02",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "RELATORIO.md",
+        "ALTERACOES.json"
+      ],
+      "observacao": "Critério revisado sobre a candidata atual. Evidência documental e limites estão nos arquivos indicados.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json"
+    },
+    {
+      "id": "V03",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "evidencias/regras-verificadas.json"
+      ],
+      "observacao": "Critério revisado sobre a candidata atual. Evidência documental e limites estão nos arquivos indicados.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json"
+    },
+    {
+      "id": "V04",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "auditar.py",
+        "evidencias/auditoria-numerica.json"
+      ],
+      "observacao": "Critério revisado sobre a candidata atual. Evidência documental e limites estão nos arquivos indicados.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json"
+    },
+    {
+      "id": "V05",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "RELATORIO.md",
+        "evidencias/auditoria-numerica.json"
+      ],
+      "observacao": "Comparação dirigida de alternativas, custos e interfaces. Não equivale a playtest nem garante equilíbrio de todas as fichas.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json"
+    },
+    {
+      "id": "V06",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "RELATORIO.md",
+        "evidencias/REVISAO-EDITORIAL.json"
+      ],
+      "observacao": "Critério revisado sobre a candidata atual. Evidência documental e limites estão nos arquivos indicados.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json"
+    },
+    {
+      "id": "V07",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "evidencias/LOCALIZACAO-EDITORIAL.json",
+        "CONFERENCIA.json"
+      ],
+      "observacao": "Critério revisado sobre a candidata atual. Evidência documental e limites estão nos arquivos indicados.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json"
+    },
+    {
+      "id": "V08",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "evidencias/REVISAO-EDITORIAL.json"
+      ],
+      "observacao": "Critério revisado sobre a candidata atual. Evidência documental e limites estão nos arquivos indicados.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json"
+    },
+    {
+      "id": "V09",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "evidencias/REVISAO-EDITORIAL.json"
+      ],
+      "observacao": "Critério revisado sobre a candidata atual. Evidência documental e limites estão nos arquivos indicados.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json"
+    },
+    {
+      "id": "V10",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "evidencias/LOCALIZACAO-EDITORIAL.json"
+      ],
+      "observacao": "Critério revisado sobre a candidata atual. Evidência documental e limites estão nos arquivos indicados.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json"
+    },
+    {
+      "id": "V11",
+      "estado": "sem_nova_alegacao_canonica",
+      "evidencias": [
+        "RELATORIO.md"
+      ],
+      "observacao": "Números e procedimentos são regras do Projeto M. Exemplos originais; acesso documental insuficiente não foi apresentado como confirmação da obra.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json"
+    },
+    {
+      "id": "V12",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "evidencias/REVISAO-INDEPENDENTE-RAIZ.md"
+      ],
+      "observacao": "Leitura independente por agente. Não é teste de compreensão com pessoas.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json"
+    },
+    {
+      "id": "V13",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "CONFERENCIA.json"
+      ],
+      "observacao": "Critério revisado sobre a candidata atual. Evidência documental e limites estão nos arquivos indicados.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json"
+    },
+    {
+      "id": "V14",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "evidencias/inspecao-visual.json"
+      ],
+      "observacao": "Todas as páginas renderizadas foram inspecionadas. Mudanças posteriores tiveram reinspeção e comparação de pixels das páginas restantes.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json",
+      "limite_delta": "11 páginas abertas; 9 preservadas por identidade da prova."
+    },
+    {
+      "id": "V15",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "ALTERACOES.json",
+        "MANIFESTO.json"
+      ],
+      "observacao": "Critério revisado sobre a candidata atual. Evidência documental e limites estão nos arquivos indicados.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json"
+    }
+  ],
+  "teste_humano": false,
+  "playtest": false,
+  "integrado": false,
+  "dependencias": [
+    "Revisão conjunta de Morrendo e Integridade",
+    "Consolidação de nomes, progressão e remissões no livro completo"
+  ],
+  "revisao_adicional": "A32 inclui Ritual no índice. Aquisição conferida com R19. PDF e casos são atualizados novamente.",
+  "sha256_pdf": "9f2409bf6aec6a57a9502de2880235589fbafe676124928532d5a788a11cb0c3",
+  "revalidacao_nomes": {
+    "unidade": "aptidoes/lote-01",
+    "sha256_texto": "8ab8f1322ac42fd54c72a45549b1e3df6c64a75399950e2c249919bf8f0cf80c",
+    "sha256_pdf": "9f2409bf6aec6a57a9502de2880235589fbafe676124928532d5a788a11cb0c3",
+    "escopo": "Releitura contextual das linhas alteradas; a revisão integral anterior permanece em seus relatórios históricos.",
+    "invariantes": "IDs, numerais, alcance, custos, procedimentos e tabelas conservados. Nomes aprovados e concordância uniformizados.",
+    "historico": "consolidacao/lote-01/migracao-nomes/qa-antes/aptidoes/lote-01",
+    "auditoria_numerica": "Execuções novamente concluídas após os nomes; outputs locais vinculados à versão atual.",
+    "paginas_reabertas": [
+      3,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13,
+      14,
+      16,
+      17,
+      20
+    ],
+    "paginas_preservadas": 9,
+    "equivalencia_visual": "Hashes de pixels por página, COMPARACAO-NOMES-PDF.json",
+    "revisao_independente_delta": {
+      "revisor": "/root",
+      "resultado": "Sem bloqueador nos diffs nominais completos de Regras gerais, Equipamento, Aptidões, Incursor e Origens, conforme confirmação direta do revisor; unidades de texto idêntico preservam o parecer anterior.",
+      "complemento": "Aprovado por /root após leitura de COMPLEMENTO.json."
+    },
+    "limites": [
+      "Sem novo cânone, redesign ou afirmação de equilíbrio final.",
+      "Leitura por modelo não equivale a teste com pessoas.",
+      "Adjetivos passivo/passiva comuns mantidos."
+    ]
+  },
+  "fechamento_migracao": {
+    "estado": "concluído no escopo nominal e remissões",
+    "conferencia": "CONFERENCIA.json",
+    "limites": "Evidências mecânicas anteriores preservadas e execuções repetidas nos textos atuais. Revisão de nomes/remissões não é novo playtest.",
+    "paginas_abertas": [
+      3,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13,
+      14,
+      16,
+      17,
+      20
+    ]
+  }
+}

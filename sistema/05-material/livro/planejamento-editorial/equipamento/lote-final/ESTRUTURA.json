@@ -1,0 +1,201 @@
+{
+  "ordem": [
+    "eq-equipamento",
+    "eq-manipular",
+    "eq-objetos",
+    "eq-propriedades",
+    "eq-oculta",
+    "eqp-protecao",
+    "eqp-traje",
+    "eqp-escudo",
+    "eqp-vestir",
+    "eqm-municao",
+    "eqm-recarga",
+    "eqm-reserva",
+    "eqa-armas",
+    "eqa-laminas",
+    "eqa-impacto",
+    "eqa-hastes",
+    "eqa-flexiveis",
+    "eqa-tiro",
+    "eqi-itens",
+    "eqi-exploracao",
+    "eqi-fechaduras",
+    "eqi-objetos",
+    "eqi-efeitos",
+    "eqi-improvisadas",
+    "eqc-dinheiro",
+    "eqc-precos",
+    "eqc-inicial",
+    "eqc-compras",
+    "eqf-equipamento",
+    "eqf-graus",
+    "eqf-uso",
+    "eqf-aquisicao",
+    "eqf-armas",
+    "eqf-roupas",
+    "eqf-protecao",
+    "eqf-acessorios",
+    "eqf-reliquias",
+    "eqf-desgaste",
+    "eqf-objetos"
+  ],
+  "titulos": {
+    "eq-equipamento": "Equipamento",
+    "eq-manipular": "Sacar e guardar",
+    "eq-objetos": "Usar objetos",
+    "eq-propriedades": "Propriedades",
+    "eq-oculta": "Armas escondidas",
+    "eqp-protecao": "Proteção",
+    "eqp-traje": "Trajes",
+    "eqp-escudo": "Revestimentos e escudos",
+    "eqp-vestir": "Vestir e retirar equipamento",
+    "eqm-municao": "Munição",
+    "eqm-recarga": "Recarregar",
+    "eqm-reserva": "Reservas e reposição",
+    "eqa-armas": "Armas",
+    "eqa-laminas": "Lâminas",
+    "eqa-impacto": "Armas de impacto",
+    "eqa-hastes": "Machados, foices e hastes",
+    "eqa-flexiveis": "Armas flexíveis e de arremesso",
+    "eqa-tiro": "Armas de disparo",
+    "eqi-itens": "Itens comuns",
+    "eqi-exploracao": "Exploração e ferramentas",
+    "eqi-fechaduras": "Fechaduras e contenção",
+    "eqi-objetos": "Danificar objetos",
+    "eqi-efeitos": "Objetos e efeitos",
+    "eqi-improvisadas": "Armas improvisadas",
+    "eqc-dinheiro": "Dinheiro e acesso",
+    "eqc-precos": "Preços de proteção",
+    "eqc-inicial": "Equipamento inicial",
+    "eqc-compras": "Compras e reposição",
+    "eqf-equipamento": "Equipamento amaldiçoado",
+    "eqf-graus": "Graus das ferramentas",
+    "eqf-uso": "Itens em uso",
+    "eqf-aquisicao": "Aquisição e criação",
+    "eqf-armas": "Armas amaldiçoadas",
+    "eqf-roupas": "Roupas e trajes",
+    "eqf-protecao": "Proteções amaldiçoadas",
+    "eqf-acessorios": "Acessórios e outros efeitos",
+    "eqf-reliquias": "Armas de grau elevado",
+    "eqf-desgaste": "Desgaste",
+    "eqf-objetos": "Objetos amaldiçoados"
+  },
+  "paginas": {
+    "eq-equipamento": 1,
+    "eq-manipular": 2,
+    "eq-objetos": 3,
+    "eq-propriedades": 4,
+    "eq-oculta": 5,
+    "eqp-protecao": 6,
+    "eqp-traje": 7,
+    "eqp-escudo": 8,
+    "eqp-vestir": 9,
+    "eqm-municao": 10,
+    "eqm-recarga": 11,
+    "eqm-reserva": 12,
+    "eqa-armas": 13,
+    "eqa-laminas": 14,
+    "eqa-impacto": 15,
+    "eqa-hastes": 16,
+    "eqa-flexiveis": 17,
+    "eqa-tiro": 18,
+    "eqi-itens": 19,
+    "eqi-exploracao": 20,
+    "eqi-fechaduras": 21,
+    "eqi-objetos": 22,
+    "eqi-efeitos": 23,
+    "eqi-improvisadas": 24,
+    "eqc-dinheiro": 25,
+    "eqc-precos": 26,
+    "eqc-inicial": 27,
+    "eqc-compras": 28,
+    "eqf-equipamento": 29,
+    "eqf-graus": 30,
+    "eqf-uso": 31,
+    "eqf-aquisicao": 32,
+    "eqf-armas": 33,
+    "eqf-roupas": 34,
+    "eqf-protecao": 35,
+    "eqf-acessorios": 36,
+    "eqf-reliquias": 37,
+    "eqf-desgaste": 38,
+    "eqf-objetos": 39
+  },
+  "grupos": [
+    [
+      "Uso de equipamento",
+      [
+        "eq-equipamento",
+        "eq-manipular",
+        "eq-objetos",
+        "eq-propriedades",
+        "eq-oculta"
+      ]
+    ],
+    [
+      "Proteção",
+      [
+        "eqp-protecao",
+        "eqp-traje",
+        "eqp-escudo",
+        "eqp-vestir"
+      ]
+    ],
+    [
+      "Munição",
+      [
+        "eqm-municao",
+        "eqm-recarga",
+        "eqm-reserva"
+      ]
+    ],
+    [
+      "Armas",
+      [
+        "eqa-armas",
+        "eqa-laminas",
+        "eqa-impacto",
+        "eqa-hastes",
+        "eqa-flexiveis",
+        "eqa-tiro"
+      ]
+    ],
+    [
+      "Itens comuns",
+      [
+        "eqi-itens",
+        "eqi-exploracao",
+        "eqi-fechaduras",
+        "eqi-objetos",
+        "eqi-efeitos",
+        "eqi-improvisadas"
+      ]
+    ],
+    [
+      "Compras",
+      [
+        "eqc-dinheiro",
+        "eqc-precos",
+        "eqc-inicial",
+        "eqc-compras"
+      ]
+    ],
+    [
+      "Equipamento amaldiçoado",
+      [
+        "eqf-equipamento",
+        "eqf-graus",
+        "eqf-uso",
+        "eqf-aquisicao",
+        "eqf-armas",
+        "eqf-roupas",
+        "eqf-protecao",
+        "eqf-acessorios",
+        "eqf-reliquias",
+        "eqf-desgaste",
+        "eqf-objetos"
+      ]
+    ]
+  ]
+}

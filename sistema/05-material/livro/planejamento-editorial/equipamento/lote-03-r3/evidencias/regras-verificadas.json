@@ -1,0 +1,5166 @@
+{
+  "ok": true,
+  "sha256_texto": "92e654311449d09c118eff20cfa7d986e8a12232af21bfd2d1d094c685a05012",
+  "casos": [
+    {
+      "caso": "52 armas, sem omissões",
+      "obtido": [
+        "Bastão",
+        "Besta",
+        "Besta de Uma Mão",
+        "Bō",
+        "Canivete",
+        "Cassetete",
+        "Chakram",
+        "Chicote",
+        "Corrente",
+        "Daikyū",
+        "Espada Longa",
+        "Espadão",
+        "Espingarda",
+        "Faca",
+        "Foice",
+        "Hankyū",
+        "Kama",
+        "Kanabō",
+        "Katana",
+        "Kunai",
+        "Kusarigama",
+        "Lança",
+        "Machadinha",
+        "Machado",
+        "Machado de Guerra",
+        "Machete",
+        "Manriki",
+        "Marreta",
+        "Maul",
+        "Maça",
+        "Metralhadora Pesada",
+        "Naginata",
+        "Nodachi",
+        "Nunchaku",
+        "Odachi",
+        "Pistola",
+        "Punhal",
+        "Rapieira",
+        "Revólver",
+        "Rifle",
+        "Rifle de Precisão",
+        "Sai",
+        "Shuriken",
+        "Soqueira",
+        "Submetralhadora",
+        "Taco",
+        "Tanto",
+        "Tekko",
+        "Tessen",
+        "Tonfa",
+        "Wakizashi",
+        "Yari"
+      ],
+      "esperado": [
+        "Bastão",
+        "Besta",
+        "Besta de Uma Mão",
+        "Bō",
+        "Canivete",
+        "Cassetete",
+        "Chakram",
+        "Chicote",
+        "Corrente",
+        "Daikyū",
+        "Espada Longa",
+        "Espadão",
+        "Espingarda",
+        "Faca",
+        "Foice",
+        "Hankyū",
+        "Kama",
+        "Kanabō",
+        "Katana",
+        "Kunai",
+        "Kusarigama",
+        "Lança",
+        "Machadinha",
+        "Machado",
+        "Machado de Guerra",
+        "Machete",
+        "Manriki",
+        "Marreta",
+        "Maul",
+        "Maça",
+        "Metralhadora Pesada",
+        "Naginata",
+        "Nodachi",
+        "Nunchaku",
+        "Odachi",
+        "Pistola",
+        "Punhal",
+        "Rapieira",
+        "Revólver",
+        "Rifle",
+        "Rifle de Precisão",
+        "Sai",
+        "Shuriken",
+        "Soqueira",
+        "Submetralhadora",
+        "Taco",
+        "Tanto",
+        "Tekko",
+        "Tessen",
+        "Tonfa",
+        "Wakizashi",
+        "Yari"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "52 atribuições de Volume",
+      "obtido": [
+        "Bastão",
+        "Besta",
+        "Besta de Uma Mão",
+        "Bō",
+        "Canivete",
+        "Cassetete",
+        "Chakram",
+        "Chicote",
+        "Corrente",
+        "Daikyū",
+        "Espada Longa",
+        "Espadão",
+        "Espingarda",
+        "Faca",
+        "Foice",
+        "Hankyū",
+        "Kama",
+        "Kanabō",
+        "Katana",
+        "Kunai",
+        "Kusarigama",
+        "Lança",
+        "Machadinha",
+        "Machado",
+        "Machado de Guerra",
+        "Machete",
+        "Manriki",
+        "Marreta",
+        "Maul",
+        "Maça",
+        "Metralhadora Pesada",
+        "Naginata",
+        "Nodachi",
+        "Nunchaku",
+        "Odachi",
+        "Pistola",
+        "Punhal",
+        "Rapieira",
+        "Revólver",
+        "Rifle",
+        "Rifle de Precisão",
+        "Sai",
+        "Shuriken",
+        "Soqueira",
+        "Submetralhadora",
+        "Taco",
+        "Tanto",
+        "Tekko",
+        "Tessen",
+        "Tonfa",
+        "Wakizashi",
+        "Yari"
+      ],
+      "esperado": [
+        "Bastão",
+        "Besta",
+        "Besta de Uma Mão",
+        "Bō",
+        "Canivete",
+        "Cassetete",
+        "Chakram",
+        "Chicote",
+        "Corrente",
+        "Daikyū",
+        "Espada Longa",
+        "Espadão",
+        "Espingarda",
+        "Faca",
+        "Foice",
+        "Hankyū",
+        "Kama",
+        "Kanabō",
+        "Katana",
+        "Kunai",
+        "Kusarigama",
+        "Lança",
+        "Machadinha",
+        "Machado",
+        "Machado de Guerra",
+        "Machete",
+        "Manriki",
+        "Marreta",
+        "Maul",
+        "Maça",
+        "Metralhadora Pesada",
+        "Naginata",
+        "Nodachi",
+        "Nunchaku",
+        "Odachi",
+        "Pistola",
+        "Punhal",
+        "Rapieira",
+        "Revólver",
+        "Rifle",
+        "Rifle de Precisão",
+        "Sai",
+        "Shuriken",
+        "Soqueira",
+        "Submetralhadora",
+        "Taco",
+        "Tanto",
+        "Tekko",
+        "Tessen",
+        "Tonfa",
+        "Wakizashi",
+        "Yari"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Bastão: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Bastão",
+        "categoria": "Porrete",
+        "treino": "Treino simples",
+        "maos": 1,
+        "dados": "1d6",
+        "propriedades": [
+          "Versátil",
+          "Alcance",
+          "Rompe"
+        ],
+        "forca": 0,
+        "volume": 1,
+        "preco": 16000,
+        "preco_criacao": 16000,
+        "alcance_ca": 3,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Concussão",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Bastão",
+        "categoria": "Porrete",
+        "treino": "Treino simples",
+        "maos": 1,
+        "dados": "1d6",
+        "propriedades": [
+          "Versátil",
+          "Alcance",
+          "Rompe"
+        ],
+        "forca": 0,
+        "volume": 1,
+        "preco": 16000,
+        "preco_criacao": 16000,
+        "alcance_ca": 3,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Concussão",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Bastão: todas colunas do manuscrito",
+      "obtido": [
+        "Bastão",
+        1,
+        "1d6 Concussão",
+        [
+          "Versátil",
+          "Alcance 3 m",
+          "Rompe"
+        ],
+        "—",
+        1.0,
+        [
+          16000
+        ]
+      ],
+      "esperado": [
+        "Bastão",
+        1,
+        "1d6 Concussão",
+        [
+          "Versátil",
+          "Alcance 3 m",
+          "Rompe"
+        ],
+        "—",
+        1,
+        [
+          16000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Bastão: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Besta: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Besta",
+        "categoria": "Balestra",
+        "treino": "Treino simples",
+        "maos": 2,
+        "dados": "2d8",
+        "propriedades": [
+          "Longo Alcance",
+          "Munição",
+          "Rompe"
+        ],
+        "forca": 3,
+        "volume": 2,
+        "preco": 80000,
+        "preco_criacao": 80000,
+        "alcance_ca": 1.5,
+        "distancia": [
+          30,
+          120
+        ],
+        "modo": "disparo",
+        "tipo": "Perfurante",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Besta",
+        "categoria": "Balestra",
+        "treino": "Treino simples",
+        "maos": 2,
+        "dados": "2d8",
+        "propriedades": [
+          "Longo Alcance",
+          "Munição",
+          "Rompe"
+        ],
+        "forca": 3,
+        "volume": 2,
+        "preco": 80000,
+        "preco_criacao": 80000,
+        "alcance_ca": 1.5,
+        "distancia": [
+          30,
+          120
+        ],
+        "modo": "disparo",
+        "tipo": "Perfurante",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Besta: todas colunas do manuscrito",
+      "obtido": [
+        "Besta",
+        2,
+        "2d8 Perfurante",
+        [
+          "Longo Alcance 30/120 m",
+          "Munição",
+          "Rompe"
+        ],
+        "3",
+        2.0,
+        [
+          80000
+        ]
+      ],
+      "esperado": [
+        "Besta",
+        2,
+        "2d8 Perfurante",
+        [
+          "Longo Alcance 30/120 m",
+          "Munição",
+          "Rompe"
+        ],
+        "3",
+        2,
+        [
+          80000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Besta: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Besta de Uma Mão: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Besta de Uma Mão",
+        "categoria": "Balestra",
+        "treino": "Treino simples",
+        "maos": 1,
+        "dados": "1d10",
+        "propriedades": [
+          "Longo Alcance",
+          "Munição",
+          "Oculta"
+        ],
+        "forca": 0,
+        "volume": 0.5,
+        "preco": 50000,
+        "preco_criacao": 50000,
+        "alcance_ca": 1.5,
+        "distancia": [
+          9,
+          36
+        ],
+        "modo": "disparo",
+        "tipo": "Perfurante",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Besta de Uma Mão",
+        "categoria": "Balestra",
+        "treino": "Treino simples",
+        "maos": 1,
+        "dados": "1d10",
+        "propriedades": [
+          "Longo Alcance",
+          "Munição",
+          "Oculta"
+        ],
+        "forca": 0,
+        "volume": 0.5,
+        "preco": 50000,
+        "preco_criacao": 50000,
+        "alcance_ca": 1.5,
+        "distancia": [
+          9,
+          36
+        ],
+        "modo": "disparo",
+        "tipo": "Perfurante",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Besta de Uma Mão: todas colunas do manuscrito",
+      "obtido": [
+        "Besta de Uma Mão",
+        1,
+        "1d10 Perfurante",
+        [
+          "Longo Alcance 9/36 m",
+          "Munição",
+          "Oculta"
+        ],
+        "—",
+        0.5,
+        [
+          50000
+        ]
+      ],
+      "esperado": [
+        "Besta de Uma Mão",
+        1,
+        "1d10 Perfurante",
+        [
+          "Longo Alcance 9/36 m",
+          "Munição",
+          "Oculta"
+        ],
+        "—",
+        0.5,
+        [
+          50000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Besta de Uma Mão: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Bō: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Bō",
+        "categoria": "Porrete",
+        "treino": "Treino simples",
+        "maos": 2,
+        "dados": "1d10",
+        "propriedades": [
+          "Alcance",
+          "Emaranha"
+        ],
+        "forca": 3,
+        "volume": 2,
+        "preco": 20000,
+        "preco_criacao": 20000,
+        "alcance_ca": 3,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Concussão",
+        "descricao": "bastão longo",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Bō",
+        "categoria": "Porrete",
+        "treino": "Treino simples",
+        "maos": 2,
+        "dados": "1d10",
+        "propriedades": [
+          "Alcance",
+          "Emaranha"
+        ],
+        "forca": 3,
+        "volume": 2,
+        "preco": 20000,
+        "preco_criacao": 20000,
+        "alcance_ca": 3,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Concussão",
+        "descricao": "bastão longo",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Bō: todas colunas do manuscrito",
+      "obtido": [
+        "Bō (bastão longo)",
+        2,
+        "1d10 Concussão",
+        [
+          "Alcance 3 m",
+          "Emaranha"
+        ],
+        "3",
+        2.0,
+        [
+          20000
+        ]
+      ],
+      "esperado": [
+        "Bō (bastão longo)",
+        2,
+        "1d10 Concussão",
+        [
+          "Alcance 3 m",
+          "Emaranha"
+        ],
+        "3",
+        2,
+        [
+          20000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Bō: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Canivete: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Canivete",
+        "categoria": "Lâmina Curta",
+        "treino": "Treino simples",
+        "maos": 1,
+        "dados": "1d4",
+        "propriedades": [
+          "Fineza",
+          "Oculta",
+          "Rompe"
+        ],
+        "forca": 0,
+        "volume": 0.1,
+        "preco": 8000,
+        "preco_criacao": 8000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Cortante",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Canivete",
+        "categoria": "Lâmina Curta",
+        "treino": "Treino simples",
+        "maos": 1,
+        "dados": "1d4",
+        "propriedades": [
+          "Fineza",
+          "Oculta",
+          "Rompe"
+        ],
+        "forca": 0,
+        "volume": 0.1,
+        "preco": 8000,
+        "preco_criacao": 8000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Cortante",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Canivete: todas colunas do manuscrito",
+      "obtido": [
+        "Canivete",
+        1,
+        "1d4 Cortante",
+        [
+          "Fineza",
+          "Oculta",
+          "Rompe"
+        ],
+        "—",
+        0.1,
+        [
+          8000
+        ]
+      ],
+      "esperado": [
+        "Canivete",
+        1,
+        "1d4 Cortante",
+        [
+          "Fineza",
+          "Oculta",
+          "Rompe"
+        ],
+        "—",
+        0.1,
+        [
+          8000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Canivete: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Cassetete: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Cassetete",
+        "categoria": "Porrete",
+        "treino": "Treino simples",
+        "maos": 1,
+        "dados": "1d6",
+        "propriedades": [
+          "Oculta",
+          "Vestida"
+        ],
+        "forca": 0,
+        "volume": 0.5,
+        "preco": 8000,
+        "preco_criacao": 8000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Concussão",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Cassetete",
+        "categoria": "Porrete",
+        "treino": "Treino simples",
+        "maos": 1,
+        "dados": "1d6",
+        "propriedades": [
+          "Oculta",
+          "Vestida"
+        ],
+        "forca": 0,
+        "volume": 0.5,
+        "preco": 8000,
+        "preco_criacao": 8000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Concussão",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Cassetete: todas colunas do manuscrito",
+      "obtido": [
+        "Cassetete",
+        1,
+        "1d6 Concussão",
+        [
+          "Oculta",
+          "Vestida"
+        ],
+        "—",
+        0.5,
+        [
+          8000
+        ]
+      ],
+      "esperado": [
+        "Cassetete",
+        1,
+        "1d6 Concussão",
+        [
+          "Oculta",
+          "Vestida"
+        ],
+        "—",
+        0.5,
+        [
+          8000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Cassetete: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Chakram: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Chakram",
+        "categoria": "Arremesso",
+        "treino": "Treino simples",
+        "maos": 1,
+        "dados": "1d4",
+        "propriedades": [
+          "Longo Alcance",
+          "Fineza",
+          "Oculta"
+        ],
+        "forca": 0,
+        "volume": 0.2,
+        "preco": 8000,
+        "preco_criacao": 8000,
+        "alcance_ca": 1.5,
+        "distancia": [
+          6,
+          18
+        ],
+        "modo": "corpo a corpo",
+        "tipo": "Cortante",
+        "descricao": "anel cortante",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Chakram",
+        "categoria": "Arremesso",
+        "treino": "Treino simples",
+        "maos": 1,
+        "dados": "1d4",
+        "propriedades": [
+          "Longo Alcance",
+          "Fineza",
+          "Oculta"
+        ],
+        "forca": 0,
+        "volume": 0.2,
+        "preco": 8000,
+        "preco_criacao": 8000,
+        "alcance_ca": 1.5,
+        "distancia": [
+          6,
+          18
+        ],
+        "modo": "corpo a corpo",
+        "tipo": "Cortante",
+        "descricao": "anel cortante",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Chakram: todas colunas do manuscrito",
+      "obtido": [
+        "Chakram (anel cortante)",
+        1,
+        "1d4 Cortante",
+        [
+          "Longo Alcance 6/18 m",
+          "Fineza",
+          "Oculta"
+        ],
+        "—",
+        0.2,
+        [
+          8000
+        ]
+      ],
+      "esperado": [
+        "Chakram (anel cortante)",
+        1,
+        "1d4 Cortante",
+        [
+          "Longo Alcance 6/18 m",
+          "Fineza",
+          "Oculta"
+        ],
+        "—",
+        0.2,
+        [
+          8000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Chakram: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Faca: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Faca",
+        "categoria": "Lâmina Curta",
+        "treino": "Treino simples",
+        "maos": 1,
+        "dados": "1d6",
+        "propriedades": [
+          "Fineza",
+          "Rompe"
+        ],
+        "forca": 0,
+        "volume": 0.2,
+        "preco": 16000,
+        "preco_criacao": 16000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Cortante",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Faca",
+        "categoria": "Lâmina Curta",
+        "treino": "Treino simples",
+        "maos": 1,
+        "dados": "1d6",
+        "propriedades": [
+          "Fineza",
+          "Rompe"
+        ],
+        "forca": 0,
+        "volume": 0.2,
+        "preco": 16000,
+        "preco_criacao": 16000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Cortante",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Faca: todas colunas do manuscrito",
+      "obtido": [
+        "Faca",
+        1,
+        "1d6 Cortante",
+        [
+          "Fineza",
+          "Rompe"
+        ],
+        "—",
+        0.2,
+        [
+          16000
+        ]
+      ],
+      "esperado": [
+        "Faca",
+        1,
+        "1d6 Cortante",
+        [
+          "Fineza",
+          "Rompe"
+        ],
+        "—",
+        0.2,
+        [
+          16000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Faca: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Foice: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Foice",
+        "categoria": "Ceifa",
+        "treino": "Treino simples",
+        "maos": 2,
+        "dados": "1d10",
+        "propriedades": [
+          "Emaranha",
+          "Talha"
+        ],
+        "forca": 3,
+        "volume": 2,
+        "preco": 36000,
+        "preco_criacao": 36000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Cortante",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Foice",
+        "categoria": "Ceifa",
+        "treino": "Treino simples",
+        "maos": 2,
+        "dados": "1d10",
+        "propriedades": [
+          "Emaranha",
+          "Talha"
+        ],
+        "forca": 3,
+        "volume": 2,
+        "preco": 36000,
+        "preco_criacao": 36000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Cortante",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Foice: todas colunas do manuscrito",
+      "obtido": [
+        "Foice",
+        2,
+        "1d10 Cortante",
+        [
+          "Emaranha",
+          "Talha"
+        ],
+        "3",
+        2.0,
+        [
+          36000
+        ]
+      ],
+      "esperado": [
+        "Foice",
+        2,
+        "1d10 Cortante",
+        [
+          "Emaranha",
+          "Talha"
+        ],
+        "3",
+        2,
+        [
+          36000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Foice: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Kama: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Kama",
+        "categoria": "Ceifa",
+        "treino": "Treino simples",
+        "maos": 1,
+        "dados": "1d6",
+        "propriedades": [
+          "Par",
+          "Rompe"
+        ],
+        "forca": 0,
+        "volume": 0.5,
+        "preco": 16000,
+        "preco_criacao": 16000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Cortante",
+        "descricao": "foice curta",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Kama",
+        "categoria": "Ceifa",
+        "treino": "Treino simples",
+        "maos": 1,
+        "dados": "1d6",
+        "propriedades": [
+          "Par",
+          "Rompe"
+        ],
+        "forca": 0,
+        "volume": 0.5,
+        "preco": 16000,
+        "preco_criacao": 16000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Cortante",
+        "descricao": "foice curta",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Kama: todas colunas do manuscrito",
+      "obtido": [
+        "Kama (foice curta)",
+        1,
+        "1d6 Cortante",
+        [
+          "Par",
+          "Rompe"
+        ],
+        "—",
+        0.5,
+        [
+          16000
+        ]
+      ],
+      "esperado": [
+        "Kama (foice curta)",
+        1,
+        "1d6 Cortante",
+        [
+          "Par",
+          "Rompe"
+        ],
+        "—",
+        0.5,
+        [
+          16000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Kama: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Kanabō: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Kanabō",
+        "categoria": "Massa",
+        "treino": "Treino simples",
+        "maos": 2,
+        "dados": "1d12",
+        "propriedades": [
+          "Talha"
+        ],
+        "forca": 3,
+        "volume": 2,
+        "preco": 36000,
+        "preco_criacao": 36000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Concussão",
+        "descricao": "clava pesada",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Kanabō",
+        "categoria": "Massa",
+        "treino": "Treino simples",
+        "maos": 2,
+        "dados": "1d12",
+        "propriedades": [
+          "Talha"
+        ],
+        "forca": 3,
+        "volume": 2,
+        "preco": 36000,
+        "preco_criacao": 36000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Concussão",
+        "descricao": "clava pesada",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Kanabō: todas colunas do manuscrito",
+      "obtido": [
+        "Kanabō (clava pesada)",
+        2,
+        "1d12 Concussão",
+        [
+          "Talha"
+        ],
+        "3",
+        2.0,
+        [
+          36000
+        ]
+      ],
+      "esperado": [
+        "Kanabō (clava pesada)",
+        2,
+        "1d12 Concussão",
+        [
+          "Talha"
+        ],
+        "3",
+        2,
+        [
+          36000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Kanabō: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Kunai: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Kunai",
+        "categoria": "Arremesso",
+        "treino": "Treino simples",
+        "maos": 1,
+        "dados": "1d6",
+        "propriedades": [
+          "Longo Alcance",
+          "Oculta"
+        ],
+        "forca": 0,
+        "volume": 0.2,
+        "preco": 8000,
+        "preco_criacao": 8000,
+        "alcance_ca": 1.5,
+        "distancia": [
+          6,
+          18
+        ],
+        "modo": "corpo a corpo",
+        "tipo": "Perfurante",
+        "descricao": "lâmina de arremesso",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Kunai",
+        "categoria": "Arremesso",
+        "treino": "Treino simples",
+        "maos": 1,
+        "dados": "1d6",
+        "propriedades": [
+          "Longo Alcance",
+          "Oculta"
+        ],
+        "forca": 0,
+        "volume": 0.2,
+        "preco": 8000,
+        "preco_criacao": 8000,
+        "alcance_ca": 1.5,
+        "distancia": [
+          6,
+          18
+        ],
+        "modo": "corpo a corpo",
+        "tipo": "Perfurante",
+        "descricao": "lâmina de arremesso",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Kunai: todas colunas do manuscrito",
+      "obtido": [
+        "Kunai (lâmina de arremesso)",
+        1,
+        "1d6 Perfurante",
+        [
+          "Longo Alcance 6/18 m",
+          "Oculta"
+        ],
+        "—",
+        0.2,
+        [
+          8000
+        ]
+      ],
+      "esperado": [
+        "Kunai (lâmina de arremesso)",
+        1,
+        "1d6 Perfurante",
+        [
+          "Longo Alcance 6/18 m",
+          "Oculta"
+        ],
+        "—",
+        0.2,
+        [
+          8000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Kunai: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Kusarigama: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Kusarigama",
+        "categoria": "Ceifa",
+        "treino": "Treino simples",
+        "maos": 2,
+        "dados": "1d8",
+        "propriedades": [
+          "Alcance",
+          "Emaranha",
+          "Longo Alcance"
+        ],
+        "forca": 0,
+        "volume": 2,
+        "preco": 20000,
+        "preco_criacao": 20000,
+        "alcance_ca": 3,
+        "distancia": [
+          6,
+          18
+        ],
+        "modo": "corpo a corpo",
+        "tipo": "Cortante",
+        "descricao": "foice com corrente",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Kusarigama",
+        "categoria": "Ceifa",
+        "treino": "Treino simples",
+        "maos": 2,
+        "dados": "1d8",
+        "propriedades": [
+          "Alcance",
+          "Emaranha",
+          "Longo Alcance"
+        ],
+        "forca": 0,
+        "volume": 2,
+        "preco": 20000,
+        "preco_criacao": 20000,
+        "alcance_ca": 3,
+        "distancia": [
+          6,
+          18
+        ],
+        "modo": "corpo a corpo",
+        "tipo": "Cortante",
+        "descricao": "foice com corrente",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Kusarigama: todas colunas do manuscrito",
+      "obtido": [
+        "Kusarigama (foice com corrente)",
+        2,
+        "1d8 Cortante",
+        [
+          "Alcance 3 m",
+          "Emaranha",
+          "Longo Alcance 6/18 m"
+        ],
+        "—",
+        2.0,
+        [
+          20000
+        ]
+      ],
+      "esperado": [
+        "Kusarigama (foice com corrente)",
+        2,
+        "1d8 Cortante",
+        [
+          "Alcance 3 m",
+          "Emaranha",
+          "Longo Alcance 6/18 m"
+        ],
+        "—",
+        2,
+        [
+          20000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Kusarigama: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Maça: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Maça",
+        "categoria": "Massa",
+        "treino": "Treino simples",
+        "maos": 1,
+        "dados": "1d8",
+        "propriedades": [
+          "Talha"
+        ],
+        "forca": 0,
+        "volume": 1,
+        "preco": 32000,
+        "preco_criacao": 32000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Concussão",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Maça",
+        "categoria": "Massa",
+        "treino": "Treino simples",
+        "maos": 1,
+        "dados": "1d8",
+        "propriedades": [
+          "Talha"
+        ],
+        "forca": 0,
+        "volume": 1,
+        "preco": 32000,
+        "preco_criacao": 32000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Concussão",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Maça: todas colunas do manuscrito",
+      "obtido": [
+        "Maça",
+        1,
+        "1d8 Concussão",
+        [
+          "Talha"
+        ],
+        "—",
+        1.0,
+        [
+          32000
+        ]
+      ],
+      "esperado": [
+        "Maça",
+        1,
+        "1d8 Concussão",
+        [
+          "Talha"
+        ],
+        "—",
+        1,
+        [
+          32000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Maça: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Marreta: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Marreta",
+        "categoria": "Massa",
+        "treino": "Treino simples",
+        "maos": 2,
+        "dados": "1d10",
+        "propriedades": [
+          "Rompe",
+          "Talha"
+        ],
+        "forca": 3,
+        "volume": 2,
+        "preco": 36000,
+        "preco_criacao": 36000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Concussão",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Marreta",
+        "categoria": "Massa",
+        "treino": "Treino simples",
+        "maos": 2,
+        "dados": "1d10",
+        "propriedades": [
+          "Rompe",
+          "Talha"
+        ],
+        "forca": 3,
+        "volume": 2,
+        "preco": 36000,
+        "preco_criacao": 36000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Concussão",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Marreta: todas colunas do manuscrito",
+      "obtido": [
+        "Marreta",
+        2,
+        "1d10 Concussão",
+        [
+          "Rompe",
+          "Talha"
+        ],
+        "3",
+        2.0,
+        [
+          36000
+        ]
+      ],
+      "esperado": [
+        "Marreta",
+        2,
+        "1d10 Concussão",
+        [
+          "Rompe",
+          "Talha"
+        ],
+        "3",
+        2,
+        [
+          36000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Marreta: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Maul: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Maul",
+        "categoria": "Massa",
+        "treino": "Treino simples",
+        "maos": 2,
+        "dados": "1d12",
+        "propriedades": [
+          "Rompe"
+        ],
+        "forca": 3,
+        "volume": 2,
+        "preco": 36000,
+        "preco_criacao": 36000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Concussão",
+        "descricao": "martelo de combate",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Maul",
+        "categoria": "Massa",
+        "treino": "Treino simples",
+        "maos": 2,
+        "dados": "1d12",
+        "propriedades": [
+          "Rompe"
+        ],
+        "forca": 3,
+        "volume": 2,
+        "preco": 36000,
+        "preco_criacao": 36000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Concussão",
+        "descricao": "martelo de combate",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Maul: todas colunas do manuscrito",
+      "obtido": [
+        "Maul (martelo de combate)",
+        2,
+        "1d12 Concussão",
+        [
+          "Rompe"
+        ],
+        "3",
+        2.0,
+        [
+          36000
+        ]
+      ],
+      "esperado": [
+        "Maul (martelo de combate)",
+        2,
+        "1d12 Concussão",
+        [
+          "Rompe"
+        ],
+        "3",
+        2,
+        [
+          36000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Maul: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Nunchaku: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Nunchaku",
+        "categoria": "Porrete",
+        "treino": "Treino simples",
+        "maos": 1,
+        "dados": "1d6",
+        "propriedades": [
+          "Par",
+          "Emaranha"
+        ],
+        "forca": 0,
+        "volume": 0.5,
+        "preco": 16000,
+        "preco_criacao": 16000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Concussão",
+        "descricao": "bastões ligados",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Nunchaku",
+        "categoria": "Porrete",
+        "treino": "Treino simples",
+        "maos": 1,
+        "dados": "1d6",
+        "propriedades": [
+          "Par",
+          "Emaranha"
+        ],
+        "forca": 0,
+        "volume": 0.5,
+        "preco": 16000,
+        "preco_criacao": 16000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Concussão",
+        "descricao": "bastões ligados",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Nunchaku: todas colunas do manuscrito",
+      "obtido": [
+        "Nunchaku (bastões ligados)",
+        1,
+        "1d6 Concussão",
+        [
+          "Par",
+          "Emaranha"
+        ],
+        "—",
+        0.5,
+        [
+          16000
+        ]
+      ],
+      "esperado": [
+        "Nunchaku (bastões ligados)",
+        1,
+        "1d6 Concussão",
+        [
+          "Par",
+          "Emaranha"
+        ],
+        "—",
+        0.5,
+        [
+          16000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Nunchaku: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Punhal: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Punhal",
+        "categoria": "Lâmina Curta",
+        "treino": "Treino simples",
+        "maos": 1,
+        "dados": "1d6",
+        "propriedades": [
+          "Fineza",
+          "Longo Alcance"
+        ],
+        "forca": 0,
+        "volume": 0.2,
+        "preco": 16000,
+        "preco_criacao": 16000,
+        "alcance_ca": 1.5,
+        "distancia": [
+          6,
+          18
+        ],
+        "modo": "corpo a corpo",
+        "tipo": "Perfurante",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Punhal",
+        "categoria": "Lâmina Curta",
+        "treino": "Treino simples",
+        "maos": 1,
+        "dados": "1d6",
+        "propriedades": [
+          "Fineza",
+          "Longo Alcance"
+        ],
+        "forca": 0,
+        "volume": 0.2,
+        "preco": 16000,
+        "preco_criacao": 16000,
+        "alcance_ca": 1.5,
+        "distancia": [
+          6,
+          18
+        ],
+        "modo": "corpo a corpo",
+        "tipo": "Perfurante",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Punhal: todas colunas do manuscrito",
+      "obtido": [
+        "Punhal",
+        1,
+        "1d6 Perfurante",
+        [
+          "Fineza",
+          "Longo Alcance 6/18 m"
+        ],
+        "—",
+        0.2,
+        [
+          16000
+        ]
+      ],
+      "esperado": [
+        "Punhal",
+        1,
+        "1d6 Perfurante",
+        [
+          "Fineza",
+          "Longo Alcance 6/18 m"
+        ],
+        "—",
+        0.2,
+        [
+          16000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Punhal: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Sai: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Sai",
+        "categoria": "Lâmina Curta",
+        "treino": "Treino simples",
+        "maos": 1,
+        "dados": "1d6",
+        "propriedades": [
+          "Fineza",
+          "Par"
+        ],
+        "forca": 0,
+        "volume": 0.5,
+        "preco": 16000,
+        "preco_criacao": 16000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Perfurante",
+        "descricao": "arma de três pontas",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Sai",
+        "categoria": "Lâmina Curta",
+        "treino": "Treino simples",
+        "maos": 1,
+        "dados": "1d6",
+        "propriedades": [
+          "Fineza",
+          "Par"
+        ],
+        "forca": 0,
+        "volume": 0.5,
+        "preco": 16000,
+        "preco_criacao": 16000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Perfurante",
+        "descricao": "arma de três pontas",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Sai: todas colunas do manuscrito",
+      "obtido": [
+        "Sai (arma de três pontas)",
+        1,
+        "1d6 Perfurante",
+        [
+          "Fineza",
+          "Par"
+        ],
+        "—",
+        0.5,
+        [
+          16000
+        ]
+      ],
+      "esperado": [
+        "Sai (arma de três pontas)",
+        1,
+        "1d6 Perfurante",
+        [
+          "Fineza",
+          "Par"
+        ],
+        "—",
+        0.5,
+        [
+          16000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Sai: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Shuriken: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Shuriken",
+        "categoria": "Arremesso",
+        "treino": "Treino simples",
+        "maos": 1,
+        "dados": "1d4",
+        "propriedades": [
+          "Longo Alcance",
+          "Oculta",
+          "Par"
+        ],
+        "forca": 0,
+        "volume": 0.1,
+        "preco": 8000,
+        "preco_criacao": 8000,
+        "alcance_ca": 1.5,
+        "distancia": [
+          6,
+          18
+        ],
+        "modo": "corpo a corpo",
+        "tipo": "Perfurante",
+        "descricao": "lâmina de arremesso",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Shuriken",
+        "categoria": "Arremesso",
+        "treino": "Treino simples",
+        "maos": 1,
+        "dados": "1d4",
+        "propriedades": [
+          "Longo Alcance",
+          "Oculta",
+          "Par"
+        ],
+        "forca": 0,
+        "volume": 0.1,
+        "preco": 8000,
+        "preco_criacao": 8000,
+        "alcance_ca": 1.5,
+        "distancia": [
+          6,
+          18
+        ],
+        "modo": "corpo a corpo",
+        "tipo": "Perfurante",
+        "descricao": "lâmina de arremesso",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Shuriken: todas colunas do manuscrito",
+      "obtido": [
+        "Shuriken (lâmina de arremesso)",
+        1,
+        "1d4 Perfurante",
+        [
+          "Longo Alcance 6/18 m",
+          "Oculta",
+          "Par"
+        ],
+        "—",
+        0.1,
+        [
+          8000
+        ]
+      ],
+      "esperado": [
+        "Shuriken (lâmina de arremesso)",
+        1,
+        "1d4 Perfurante",
+        [
+          "Longo Alcance 6/18 m",
+          "Oculta",
+          "Par"
+        ],
+        "—",
+        0.1,
+        [
+          8000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Shuriken: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Soqueira: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Soqueira",
+        "categoria": "Manopla",
+        "treino": "Treino simples",
+        "maos": 1,
+        "dados": "1d4",
+        "propriedades": [
+          "Vestida",
+          "Oculta",
+          "Par"
+        ],
+        "forca": 0,
+        "volume": 0.1,
+        "preco": 8000,
+        "preco_criacao": 8000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Concussão",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Soqueira",
+        "categoria": "Manopla",
+        "treino": "Treino simples",
+        "maos": 1,
+        "dados": "1d4",
+        "propriedades": [
+          "Vestida",
+          "Oculta",
+          "Par"
+        ],
+        "forca": 0,
+        "volume": 0.1,
+        "preco": 8000,
+        "preco_criacao": 8000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Concussão",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Soqueira: todas colunas do manuscrito",
+      "obtido": [
+        "Soqueira",
+        1,
+        "1d4 Concussão",
+        [
+          "Vestida",
+          "Oculta",
+          "Par"
+        ],
+        "—",
+        0.1,
+        [
+          8000
+        ]
+      ],
+      "esperado": [
+        "Soqueira",
+        1,
+        "1d4 Concussão",
+        [
+          "Vestida",
+          "Oculta",
+          "Par"
+        ],
+        "—",
+        0.1,
+        [
+          8000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Soqueira: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Taco: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Taco",
+        "categoria": "Massa",
+        "treino": "Treino simples",
+        "maos": 1,
+        "dados": "1d8",
+        "propriedades": [
+          "Versátil",
+          "Discreta"
+        ],
+        "forca": 0,
+        "volume": 1,
+        "preco": 16000,
+        "preco_criacao": 16000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Concussão",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Taco",
+        "categoria": "Massa",
+        "treino": "Treino simples",
+        "maos": 1,
+        "dados": "1d8",
+        "propriedades": [
+          "Versátil",
+          "Discreta"
+        ],
+        "forca": 0,
+        "volume": 1,
+        "preco": 16000,
+        "preco_criacao": 16000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Concussão",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Taco: todas colunas do manuscrito",
+      "obtido": [
+        "Taco",
+        1,
+        "1d8 Concussão",
+        [
+          "Versátil",
+          "Discreta"
+        ],
+        "—",
+        1.0,
+        [
+          16000
+        ]
+      ],
+      "esperado": [
+        "Taco",
+        1,
+        "1d8 Concussão",
+        [
+          "Versátil",
+          "Discreta"
+        ],
+        "—",
+        1,
+        [
+          16000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Taco: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Tanto: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Tanto",
+        "categoria": "Lâmina Curta",
+        "treino": "Treino simples",
+        "maos": 1,
+        "dados": "1d6",
+        "propriedades": [
+          "Fineza",
+          "Oculta"
+        ],
+        "forca": 0,
+        "volume": 0.2,
+        "preco": 32000,
+        "preco_criacao": 32000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Cortante",
+        "descricao": "lâmina curta",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Tanto",
+        "categoria": "Lâmina Curta",
+        "treino": "Treino simples",
+        "maos": 1,
+        "dados": "1d6",
+        "propriedades": [
+          "Fineza",
+          "Oculta"
+        ],
+        "forca": 0,
+        "volume": 0.2,
+        "preco": 32000,
+        "preco_criacao": 32000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Cortante",
+        "descricao": "lâmina curta",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Tanto: todas colunas do manuscrito",
+      "obtido": [
+        "Tanto (lâmina curta)",
+        1,
+        "1d6 Cortante",
+        [
+          "Fineza",
+          "Oculta"
+        ],
+        "—",
+        0.2,
+        [
+          32000
+        ]
+      ],
+      "esperado": [
+        "Tanto (lâmina curta)",
+        1,
+        "1d6 Cortante",
+        [
+          "Fineza",
+          "Oculta"
+        ],
+        "—",
+        0.2,
+        [
+          32000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Tanto: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Tekko: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Tekko",
+        "categoria": "Manopla",
+        "treino": "Treino simples",
+        "maos": 1,
+        "dados": "1d4",
+        "propriedades": [
+          "Vestida",
+          "Par",
+          "Oculta"
+        ],
+        "forca": 0,
+        "volume": 0.1,
+        "preco": 8000,
+        "preco_criacao": 8000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Concussão",
+        "descricao": "proteção de punho",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Tekko",
+        "categoria": "Manopla",
+        "treino": "Treino simples",
+        "maos": 1,
+        "dados": "1d4",
+        "propriedades": [
+          "Vestida",
+          "Par",
+          "Oculta"
+        ],
+        "forca": 0,
+        "volume": 0.1,
+        "preco": 8000,
+        "preco_criacao": 8000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Concussão",
+        "descricao": "proteção de punho",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Tekko: todas colunas do manuscrito",
+      "obtido": [
+        "Tekko (proteção de punho)",
+        1,
+        "1d4 Concussão",
+        [
+          "Vestida",
+          "Par",
+          "Oculta"
+        ],
+        "—",
+        0.1,
+        [
+          8000
+        ]
+      ],
+      "esperado": [
+        "Tekko (proteção de punho)",
+        1,
+        "1d4 Concussão",
+        [
+          "Vestida",
+          "Par",
+          "Oculta"
+        ],
+        "—",
+        0.1,
+        [
+          8000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Tekko: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Tessen: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Tessen",
+        "categoria": "Arremesso",
+        "treino": "Treino simples",
+        "maos": 1,
+        "dados": "1d4",
+        "propriedades": [
+          "Longo Alcance",
+          "Oculta",
+          "Vestida"
+        ],
+        "forca": 0,
+        "volume": 0.2,
+        "preco": 8000,
+        "preco_criacao": 8000,
+        "alcance_ca": 1.5,
+        "distancia": [
+          6,
+          18
+        ],
+        "modo": "corpo a corpo",
+        "tipo": "Concussão",
+        "descricao": "leque de combate",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Tessen",
+        "categoria": "Arremesso",
+        "treino": "Treino simples",
+        "maos": 1,
+        "dados": "1d4",
+        "propriedades": [
+          "Longo Alcance",
+          "Oculta",
+          "Vestida"
+        ],
+        "forca": 0,
+        "volume": 0.2,
+        "preco": 8000,
+        "preco_criacao": 8000,
+        "alcance_ca": 1.5,
+        "distancia": [
+          6,
+          18
+        ],
+        "modo": "corpo a corpo",
+        "tipo": "Concussão",
+        "descricao": "leque de combate",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Tessen: todas colunas do manuscrito",
+      "obtido": [
+        "Tessen (leque de combate)",
+        1,
+        "1d4 Concussão",
+        [
+          "Longo Alcance 6/18 m",
+          "Oculta",
+          "Vestida"
+        ],
+        "—",
+        0.2,
+        [
+          8000
+        ]
+      ],
+      "esperado": [
+        "Tessen (leque de combate)",
+        1,
+        "1d4 Concussão",
+        [
+          "Longo Alcance 6/18 m",
+          "Oculta",
+          "Vestida"
+        ],
+        "—",
+        0.2,
+        [
+          8000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Tessen: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Tonfa: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Tonfa",
+        "categoria": "Porrete",
+        "treino": "Treino simples",
+        "maos": 1,
+        "dados": "1d6",
+        "propriedades": [
+          "Par",
+          "Vestida"
+        ],
+        "forca": 0,
+        "volume": 0.5,
+        "preco": 16000,
+        "preco_criacao": 16000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Concussão",
+        "descricao": "bastão com cabo lateral",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Tonfa",
+        "categoria": "Porrete",
+        "treino": "Treino simples",
+        "maos": 1,
+        "dados": "1d6",
+        "propriedades": [
+          "Par",
+          "Vestida"
+        ],
+        "forca": 0,
+        "volume": 0.5,
+        "preco": 16000,
+        "preco_criacao": 16000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Concussão",
+        "descricao": "bastão com cabo lateral",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Tonfa: todas colunas do manuscrito",
+      "obtido": [
+        "Tonfa (bastão com cabo lateral)",
+        1,
+        "1d6 Concussão",
+        [
+          "Par",
+          "Vestida"
+        ],
+        "—",
+        0.5,
+        [
+          16000
+        ]
+      ],
+      "esperado": [
+        "Tonfa (bastão com cabo lateral)",
+        1,
+        "1d6 Concussão",
+        [
+          "Par",
+          "Vestida"
+        ],
+        "—",
+        0.5,
+        [
+          16000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Tonfa: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Chicote: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Chicote",
+        "categoria": "Flexível",
+        "treino": "Treino marcial",
+        "maos": 1,
+        "dados": "1d4",
+        "propriedades": [
+          "Alcance",
+          "Emaranha",
+          "Oculta"
+        ],
+        "forca": 0,
+        "volume": 0.5,
+        "preco": 16000,
+        "preco_criacao": 16000,
+        "alcance_ca": 3,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Concussão",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Chicote",
+        "categoria": "Flexível",
+        "treino": "Treino marcial",
+        "maos": 1,
+        "dados": "1d4",
+        "propriedades": [
+          "Alcance",
+          "Emaranha",
+          "Oculta"
+        ],
+        "forca": 0,
+        "volume": 0.5,
+        "preco": 16000,
+        "preco_criacao": 16000,
+        "alcance_ca": 3,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Concussão",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Chicote: todas colunas do manuscrito",
+      "obtido": [
+        "Chicote",
+        1,
+        "1d4 Concussão",
+        [
+          "Alcance 3 m",
+          "Emaranha",
+          "Oculta"
+        ],
+        "—",
+        0.5,
+        [
+          16000
+        ]
+      ],
+      "esperado": [
+        "Chicote",
+        1,
+        "1d4 Concussão",
+        [
+          "Alcance 3 m",
+          "Emaranha",
+          "Oculta"
+        ],
+        "—",
+        0.5,
+        [
+          16000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Chicote: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Corrente: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Corrente",
+        "categoria": "Flexível",
+        "treino": "Treino marcial",
+        "maos": 2,
+        "dados": "1d8",
+        "propriedades": [
+          "Alcance",
+          "Emaranha",
+          "Rompe"
+        ],
+        "forca": 0,
+        "volume": 2,
+        "preco": 20000,
+        "preco_criacao": 20000,
+        "alcance_ca": 3,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Concussão",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Corrente",
+        "categoria": "Flexível",
+        "treino": "Treino marcial",
+        "maos": 2,
+        "dados": "1d8",
+        "propriedades": [
+          "Alcance",
+          "Emaranha",
+          "Rompe"
+        ],
+        "forca": 0,
+        "volume": 2,
+        "preco": 20000,
+        "preco_criacao": 20000,
+        "alcance_ca": 3,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Concussão",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Corrente: todas colunas do manuscrito",
+      "obtido": [
+        "Corrente",
+        2,
+        "1d8 Concussão",
+        [
+          "Alcance 3 m",
+          "Emaranha",
+          "Rompe"
+        ],
+        "—",
+        2.0,
+        [
+          20000
+        ]
+      ],
+      "esperado": [
+        "Corrente",
+        2,
+        "1d8 Concussão",
+        [
+          "Alcance 3 m",
+          "Emaranha",
+          "Rompe"
+        ],
+        "—",
+        2,
+        [
+          20000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Corrente: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Daikyū: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Daikyū",
+        "categoria": "Yumi",
+        "treino": "Treino marcial",
+        "maos": 2,
+        "dados": "1d10",
+        "propriedades": [
+          "Longo Alcance"
+        ],
+        "forca": 0,
+        "volume": 2,
+        "preco": 60000,
+        "preco_criacao": 60000,
+        "alcance_ca": 1.5,
+        "distancia": [
+          45,
+          180
+        ],
+        "modo": "disparo",
+        "tipo": "Perfurante",
+        "descricao": "arco longo",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Daikyū",
+        "categoria": "Yumi",
+        "treino": "Treino marcial",
+        "maos": 2,
+        "dados": "1d10",
+        "propriedades": [
+          "Longo Alcance"
+        ],
+        "forca": 0,
+        "volume": 2,
+        "preco": 60000,
+        "preco_criacao": 60000,
+        "alcance_ca": 1.5,
+        "distancia": [
+          45,
+          180
+        ],
+        "modo": "disparo",
+        "tipo": "Perfurante",
+        "descricao": "arco longo",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Daikyū: todas colunas do manuscrito",
+      "obtido": [
+        "Daikyū (arco longo)",
+        2,
+        "1d10 Perfurante",
+        [
+          "Longo Alcance 45/180 m"
+        ],
+        "—",
+        2.0,
+        [
+          60000
+        ]
+      ],
+      "esperado": [
+        "Daikyū (arco longo)",
+        2,
+        "1d10 Perfurante",
+        [
+          "Longo Alcance 45/180 m"
+        ],
+        "—",
+        2,
+        [
+          60000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Daikyū: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Espada Longa: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Espada Longa",
+        "categoria": "Lâmina Longa",
+        "treino": "Treino marcial",
+        "maos": 1,
+        "dados": "1d8",
+        "propriedades": [
+          "Versátil",
+          "Rompe"
+        ],
+        "forca": 0,
+        "volume": 1,
+        "preco": 48000,
+        "preco_criacao": 48000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Cortante",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Espada Longa",
+        "categoria": "Lâmina Longa",
+        "treino": "Treino marcial",
+        "maos": 1,
+        "dados": "1d8",
+        "propriedades": [
+          "Versátil",
+          "Rompe"
+        ],
+        "forca": 0,
+        "volume": 1,
+        "preco": 48000,
+        "preco_criacao": 48000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Cortante",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Espada Longa: todas colunas do manuscrito",
+      "obtido": [
+        "Espada Longa",
+        1,
+        "1d8 Cortante",
+        [
+          "Versátil",
+          "Rompe"
+        ],
+        "—",
+        1.0,
+        [
+          48000
+        ]
+      ],
+      "esperado": [
+        "Espada Longa",
+        1,
+        "1d8 Cortante",
+        [
+          "Versátil",
+          "Rompe"
+        ],
+        "—",
+        1,
+        [
+          48000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Espada Longa: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Espadão: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Espadão",
+        "categoria": "Lâmina Longa",
+        "treino": "Treino marcial",
+        "maos": 2,
+        "dados": "1d12",
+        "propriedades": [
+          "Alcance"
+        ],
+        "forca": 3,
+        "volume": 2,
+        "preco": 60000,
+        "preco_criacao": 60000,
+        "alcance_ca": 3,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Cortante",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Espadão",
+        "categoria": "Lâmina Longa",
+        "treino": "Treino marcial",
+        "maos": 2,
+        "dados": "1d12",
+        "propriedades": [
+          "Alcance"
+        ],
+        "forca": 3,
+        "volume": 2,
+        "preco": 60000,
+        "preco_criacao": 60000,
+        "alcance_ca": 3,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Cortante",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Espadão: todas colunas do manuscrito",
+      "obtido": [
+        "Espadão",
+        2,
+        "1d12 Cortante",
+        [
+          "Alcance 3 m"
+        ],
+        "3",
+        2.0,
+        [
+          60000
+        ]
+      ],
+      "esperado": [
+        "Espadão",
+        2,
+        "1d12 Cortante",
+        [
+          "Alcance 3 m"
+        ],
+        "3",
+        2,
+        [
+          60000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Espadão: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Hankyū: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Hankyū",
+        "categoria": "Yumi",
+        "treino": "Treino marcial",
+        "maos": 2,
+        "dados": "1d8",
+        "propriedades": [
+          "Longo Alcance",
+          "Oculta"
+        ],
+        "forca": 0,
+        "volume": 1,
+        "preco": 40000,
+        "preco_criacao": 40000,
+        "alcance_ca": 1.5,
+        "distancia": [
+          24,
+          96
+        ],
+        "modo": "disparo",
+        "tipo": "Perfurante",
+        "descricao": "arco curto",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Hankyū",
+        "categoria": "Yumi",
+        "treino": "Treino marcial",
+        "maos": 2,
+        "dados": "1d8",
+        "propriedades": [
+          "Longo Alcance",
+          "Oculta"
+        ],
+        "forca": 0,
+        "volume": 1,
+        "preco": 40000,
+        "preco_criacao": 40000,
+        "alcance_ca": 1.5,
+        "distancia": [
+          24,
+          96
+        ],
+        "modo": "disparo",
+        "tipo": "Perfurante",
+        "descricao": "arco curto",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Hankyū: todas colunas do manuscrito",
+      "obtido": [
+        "Hankyū (arco curto)",
+        2,
+        "1d8 Perfurante",
+        [
+          "Longo Alcance 24/96 m",
+          "Oculta"
+        ],
+        "—",
+        1.0,
+        [
+          40000
+        ]
+      ],
+      "esperado": [
+        "Hankyū (arco curto)",
+        2,
+        "1d8 Perfurante",
+        [
+          "Longo Alcance 24/96 m",
+          "Oculta"
+        ],
+        "—",
+        1,
+        [
+          40000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Hankyū: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Katana: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Katana",
+        "categoria": "Lâmina Longa",
+        "treino": "Treino marcial",
+        "maos": 1,
+        "dados": "1d8",
+        "propriedades": [
+          "Versátil",
+          "Fineza"
+        ],
+        "forca": 0,
+        "volume": 1,
+        "preco": 48000,
+        "preco_criacao": 48000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Cortante",
+        "descricao": "espada curva",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Katana",
+        "categoria": "Lâmina Longa",
+        "treino": "Treino marcial",
+        "maos": 1,
+        "dados": "1d8",
+        "propriedades": [
+          "Versátil",
+          "Fineza"
+        ],
+        "forca": 0,
+        "volume": 1,
+        "preco": 48000,
+        "preco_criacao": 48000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Cortante",
+        "descricao": "espada curva",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Katana: todas colunas do manuscrito",
+      "obtido": [
+        "Katana (espada curva)",
+        1,
+        "1d8 Cortante",
+        [
+          "Versátil",
+          "Fineza"
+        ],
+        "—",
+        1.0,
+        [
+          48000
+        ]
+      ],
+      "esperado": [
+        "Katana (espada curva)",
+        1,
+        "1d8 Cortante",
+        [
+          "Versátil",
+          "Fineza"
+        ],
+        "—",
+        1,
+        [
+          48000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Katana: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Lança: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Lança",
+        "categoria": "Armas Longas",
+        "treino": "Treino marcial",
+        "maos": 1,
+        "dados": "1d6",
+        "propriedades": [
+          "Alcance",
+          "Longo Alcance"
+        ],
+        "forca": 0,
+        "volume": 1,
+        "preco": 16000,
+        "preco_criacao": 16000,
+        "alcance_ca": 3,
+        "distancia": [
+          6,
+          18
+        ],
+        "modo": "corpo a corpo",
+        "tipo": "Perfurante",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Lança",
+        "categoria": "Armas Longas",
+        "treino": "Treino marcial",
+        "maos": 1,
+        "dados": "1d6",
+        "propriedades": [
+          "Alcance",
+          "Longo Alcance"
+        ],
+        "forca": 0,
+        "volume": 1,
+        "preco": 16000,
+        "preco_criacao": 16000,
+        "alcance_ca": 3,
+        "distancia": [
+          6,
+          18
+        ],
+        "modo": "corpo a corpo",
+        "tipo": "Perfurante",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Lança: todas colunas do manuscrito",
+      "obtido": [
+        "Lança",
+        1,
+        "1d6 Perfurante",
+        [
+          "Alcance 3 m",
+          "Longo Alcance 6/18 m"
+        ],
+        "—",
+        1.0,
+        [
+          16000
+        ]
+      ],
+      "esperado": [
+        "Lança",
+        1,
+        "1d6 Perfurante",
+        [
+          "Alcance 3 m",
+          "Longo Alcance 6/18 m"
+        ],
+        "—",
+        1,
+        [
+          16000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Lança: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Machadinha: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Machadinha",
+        "categoria": "Machado",
+        "treino": "Treino marcial",
+        "maos": 1,
+        "dados": "1d6",
+        "propriedades": [
+          "Longo Alcance",
+          "Rompe"
+        ],
+        "forca": 0,
+        "volume": 0.5,
+        "preco": 16000,
+        "preco_criacao": 16000,
+        "alcance_ca": 1.5,
+        "distancia": [
+          6,
+          18
+        ],
+        "modo": "corpo a corpo",
+        "tipo": "Cortante",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Machadinha",
+        "categoria": "Machado",
+        "treino": "Treino marcial",
+        "maos": 1,
+        "dados": "1d6",
+        "propriedades": [
+          "Longo Alcance",
+          "Rompe"
+        ],
+        "forca": 0,
+        "volume": 0.5,
+        "preco": 16000,
+        "preco_criacao": 16000,
+        "alcance_ca": 1.5,
+        "distancia": [
+          6,
+          18
+        ],
+        "modo": "corpo a corpo",
+        "tipo": "Cortante",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Machadinha: todas colunas do manuscrito",
+      "obtido": [
+        "Machadinha",
+        1,
+        "1d6 Cortante",
+        [
+          "Longo Alcance 6/18 m",
+          "Rompe"
+        ],
+        "—",
+        0.5,
+        [
+          16000
+        ]
+      ],
+      "esperado": [
+        "Machadinha",
+        1,
+        "1d6 Cortante",
+        [
+          "Longo Alcance 6/18 m",
+          "Rompe"
+        ],
+        "—",
+        0.5,
+        [
+          16000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Machadinha: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Machado: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Machado",
+        "categoria": "Machado",
+        "treino": "Treino marcial",
+        "maos": 1,
+        "dados": "1d8",
+        "propriedades": [
+          "Rompe"
+        ],
+        "forca": 0,
+        "volume": 1,
+        "preco": 32000,
+        "preco_criacao": 32000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Cortante",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Machado",
+        "categoria": "Machado",
+        "treino": "Treino marcial",
+        "maos": 1,
+        "dados": "1d8",
+        "propriedades": [
+          "Rompe"
+        ],
+        "forca": 0,
+        "volume": 1,
+        "preco": 32000,
+        "preco_criacao": 32000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Cortante",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Machado: todas colunas do manuscrito",
+      "obtido": [
+        "Machado",
+        1,
+        "1d8 Cortante",
+        [
+          "Rompe"
+        ],
+        "—",
+        1.0,
+        [
+          32000
+        ]
+      ],
+      "esperado": [
+        "Machado",
+        1,
+        "1d8 Cortante",
+        [
+          "Rompe"
+        ],
+        "—",
+        1,
+        [
+          32000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Machado: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Machado de Guerra: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Machado de Guerra",
+        "categoria": "Machado",
+        "treino": "Treino marcial",
+        "maos": 2,
+        "dados": "1d12",
+        "propriedades": [
+          "Rompe",
+          "Talha",
+          "Volumosa"
+        ],
+        "forca": 3,
+        "volume": 2,
+        "preco": 60000,
+        "preco_criacao": 60000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Cortante",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Machado de Guerra",
+        "categoria": "Machado",
+        "treino": "Treino marcial",
+        "maos": 2,
+        "dados": "1d12",
+        "propriedades": [
+          "Rompe",
+          "Talha",
+          "Volumosa"
+        ],
+        "forca": 3,
+        "volume": 2,
+        "preco": 60000,
+        "preco_criacao": 60000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Cortante",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Machado de Guerra: todas colunas do manuscrito",
+      "obtido": [
+        "Machado de Guerra",
+        2,
+        "1d12 Cortante",
+        [
+          "Rompe",
+          "Talha",
+          "Volumosa"
+        ],
+        "3",
+        2.0,
+        [
+          60000
+        ]
+      ],
+      "esperado": [
+        "Machado de Guerra",
+        2,
+        "1d12 Cortante",
+        [
+          "Rompe",
+          "Talha",
+          "Volumosa"
+        ],
+        "3",
+        2,
+        [
+          60000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Machado de Guerra: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Machete: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Machete",
+        "categoria": "Lâmina Longa",
+        "treino": "Treino marcial",
+        "maos": 1,
+        "dados": "1d8",
+        "propriedades": [
+          "Rompe"
+        ],
+        "forca": 0,
+        "volume": 0.5,
+        "preco": 16000,
+        "preco_criacao": 16000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Cortante",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Machete",
+        "categoria": "Lâmina Longa",
+        "treino": "Treino marcial",
+        "maos": 1,
+        "dados": "1d8",
+        "propriedades": [
+          "Rompe"
+        ],
+        "forca": 0,
+        "volume": 0.5,
+        "preco": 16000,
+        "preco_criacao": 16000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Cortante",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Machete: todas colunas do manuscrito",
+      "obtido": [
+        "Machete",
+        1,
+        "1d8 Cortante",
+        [
+          "Rompe"
+        ],
+        "—",
+        0.5,
+        [
+          16000
+        ]
+      ],
+      "esperado": [
+        "Machete",
+        1,
+        "1d8 Cortante",
+        [
+          "Rompe"
+        ],
+        "—",
+        0.5,
+        [
+          16000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Machete: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Manriki: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Manriki",
+        "categoria": "Flexível",
+        "treino": "Treino marcial",
+        "maos": 1,
+        "dados": "1d6",
+        "propriedades": [
+          "Emaranha",
+          "Oculta"
+        ],
+        "forca": 0,
+        "volume": 0.5,
+        "preco": 8000,
+        "preco_criacao": 8000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Concussão",
+        "descricao": "corrente com pesos",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Manriki",
+        "categoria": "Flexível",
+        "treino": "Treino marcial",
+        "maos": 1,
+        "dados": "1d6",
+        "propriedades": [
+          "Emaranha",
+          "Oculta"
+        ],
+        "forca": 0,
+        "volume": 0.5,
+        "preco": 8000,
+        "preco_criacao": 8000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Concussão",
+        "descricao": "corrente com pesos",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Manriki: todas colunas do manuscrito",
+      "obtido": [
+        "Manriki (corrente com pesos)",
+        1,
+        "1d6 Concussão",
+        [
+          "Emaranha",
+          "Oculta"
+        ],
+        "—",
+        0.5,
+        [
+          8000
+        ]
+      ],
+      "esperado": [
+        "Manriki (corrente com pesos)",
+        1,
+        "1d6 Concussão",
+        [
+          "Emaranha",
+          "Oculta"
+        ],
+        "—",
+        0.5,
+        [
+          8000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Manriki: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Naginata: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Naginata",
+        "categoria": "Armas Longas",
+        "treino": "Treino marcial",
+        "maos": 2,
+        "dados": "1d10",
+        "propriedades": [
+          "Alcance",
+          "Rompe"
+        ],
+        "forca": 3,
+        "volume": 2,
+        "preco": 36000,
+        "preco_criacao": 36000,
+        "alcance_ca": 3,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Cortante",
+        "descricao": "haste com lâmina",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Naginata",
+        "categoria": "Armas Longas",
+        "treino": "Treino marcial",
+        "maos": 2,
+        "dados": "1d10",
+        "propriedades": [
+          "Alcance",
+          "Rompe"
+        ],
+        "forca": 3,
+        "volume": 2,
+        "preco": 36000,
+        "preco_criacao": 36000,
+        "alcance_ca": 3,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Cortante",
+        "descricao": "haste com lâmina",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Naginata: todas colunas do manuscrito",
+      "obtido": [
+        "Naginata (haste com lâmina)",
+        2,
+        "1d10 Cortante",
+        [
+          "Alcance 3 m",
+          "Rompe"
+        ],
+        "3",
+        2.0,
+        [
+          36000
+        ]
+      ],
+      "esperado": [
+        "Naginata (haste com lâmina)",
+        2,
+        "1d10 Cortante",
+        [
+          "Alcance 3 m",
+          "Rompe"
+        ],
+        "3",
+        2,
+        [
+          36000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Naginata: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Nodachi: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Nodachi",
+        "categoria": "Lâmina Longa",
+        "treino": "Treino marcial",
+        "maos": 2,
+        "dados": "1d12",
+        "propriedades": [
+          "Alcance",
+          "Rompe",
+          "Volumosa"
+        ],
+        "forca": 3,
+        "volume": 2,
+        "preco": 60000,
+        "preco_criacao": 60000,
+        "alcance_ca": 3,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Cortante",
+        "descricao": "espada grande",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Nodachi",
+        "categoria": "Lâmina Longa",
+        "treino": "Treino marcial",
+        "maos": 2,
+        "dados": "1d12",
+        "propriedades": [
+          "Alcance",
+          "Rompe",
+          "Volumosa"
+        ],
+        "forca": 3,
+        "volume": 2,
+        "preco": 60000,
+        "preco_criacao": 60000,
+        "alcance_ca": 3,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Cortante",
+        "descricao": "espada grande",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Nodachi: todas colunas do manuscrito",
+      "obtido": [
+        "Nodachi (espada grande)",
+        2,
+        "1d12 Cortante",
+        [
+          "Alcance 3 m",
+          "Rompe",
+          "Volumosa"
+        ],
+        "3",
+        2.0,
+        [
+          60000
+        ]
+      ],
+      "esperado": [
+        "Nodachi (espada grande)",
+        2,
+        "1d12 Cortante",
+        [
+          "Alcance 3 m",
+          "Rompe",
+          "Volumosa"
+        ],
+        "3",
+        2,
+        [
+          60000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Nodachi: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Odachi: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Odachi",
+        "categoria": "Lâmina Longa",
+        "treino": "Treino marcial",
+        "maos": 2,
+        "dados": "1d12",
+        "propriedades": [
+          "Alcance",
+          "Talha",
+          "Embainhada"
+        ],
+        "forca": 3,
+        "volume": 2,
+        "preco": 90000,
+        "preco_criacao": 90000,
+        "alcance_ca": 3,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Cortante",
+        "descricao": "espada grande",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Odachi",
+        "categoria": "Lâmina Longa",
+        "treino": "Treino marcial",
+        "maos": 2,
+        "dados": "1d12",
+        "propriedades": [
+          "Alcance",
+          "Talha",
+          "Embainhada"
+        ],
+        "forca": 3,
+        "volume": 2,
+        "preco": 90000,
+        "preco_criacao": 90000,
+        "alcance_ca": 3,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Cortante",
+        "descricao": "espada grande",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Odachi: todas colunas do manuscrito",
+      "obtido": [
+        "Odachi (espada grande)",
+        2,
+        "1d12 Cortante",
+        [
+          "Alcance 3 m",
+          "Talha",
+          "Embainhada"
+        ],
+        "3",
+        2.0,
+        [
+          90000
+        ]
+      ],
+      "esperado": [
+        "Odachi (espada grande)",
+        2,
+        "1d12 Cortante",
+        [
+          "Alcance 3 m",
+          "Talha",
+          "Embainhada"
+        ],
+        "3",
+        2,
+        [
+          90000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Odachi: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Rapieira: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Rapieira",
+        "categoria": "Lâmina Longa",
+        "treino": "Treino marcial",
+        "maos": 1,
+        "dados": "1d6",
+        "propriedades": [
+          "Fineza",
+          "Talha"
+        ],
+        "forca": 0,
+        "volume": 1,
+        "preco": 32000,
+        "preco_criacao": 32000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Perfurante",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Rapieira",
+        "categoria": "Lâmina Longa",
+        "treino": "Treino marcial",
+        "maos": 1,
+        "dados": "1d6",
+        "propriedades": [
+          "Fineza",
+          "Talha"
+        ],
+        "forca": 0,
+        "volume": 1,
+        "preco": 32000,
+        "preco_criacao": 32000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Perfurante",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Rapieira: todas colunas do manuscrito",
+      "obtido": [
+        "Rapieira",
+        1,
+        "1d6 Perfurante",
+        [
+          "Fineza",
+          "Talha"
+        ],
+        "—",
+        1.0,
+        [
+          32000
+        ]
+      ],
+      "esperado": [
+        "Rapieira",
+        1,
+        "1d6 Perfurante",
+        [
+          "Fineza",
+          "Talha"
+        ],
+        "—",
+        1,
+        [
+          32000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Rapieira: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Wakizashi: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Wakizashi",
+        "categoria": "Lâmina Longa",
+        "treino": "Treino marcial",
+        "maos": 1,
+        "dados": "1d8",
+        "propriedades": [
+          "Oculta"
+        ],
+        "forca": 0,
+        "volume": 0.5,
+        "preco": 32000,
+        "preco_criacao": 32000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Cortante",
+        "descricao": "espada curta",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Wakizashi",
+        "categoria": "Lâmina Longa",
+        "treino": "Treino marcial",
+        "maos": 1,
+        "dados": "1d8",
+        "propriedades": [
+          "Oculta"
+        ],
+        "forca": 0,
+        "volume": 0.5,
+        "preco": 32000,
+        "preco_criacao": 32000,
+        "alcance_ca": 1.5,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Cortante",
+        "descricao": "espada curta",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Wakizashi: todas colunas do manuscrito",
+      "obtido": [
+        "Wakizashi (espada curta)",
+        1,
+        "1d8 Cortante",
+        [
+          "Oculta"
+        ],
+        "—",
+        0.5,
+        [
+          32000
+        ]
+      ],
+      "esperado": [
+        "Wakizashi (espada curta)",
+        1,
+        "1d8 Cortante",
+        [
+          "Oculta"
+        ],
+        "—",
+        0.5,
+        [
+          32000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Wakizashi: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Yari: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Yari",
+        "categoria": "Armas Longas",
+        "treino": "Treino marcial",
+        "maos": 2,
+        "dados": "1d10",
+        "propriedades": [
+          "Alcance",
+          "Talha"
+        ],
+        "forca": 3,
+        "volume": 2,
+        "preco": 36000,
+        "preco_criacao": 36000,
+        "alcance_ca": 3,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Perfurante",
+        "descricao": "lança longa",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Yari",
+        "categoria": "Armas Longas",
+        "treino": "Treino marcial",
+        "maos": 2,
+        "dados": "1d10",
+        "propriedades": [
+          "Alcance",
+          "Talha"
+        ],
+        "forca": 3,
+        "volume": 2,
+        "preco": 36000,
+        "preco_criacao": 36000,
+        "alcance_ca": 3,
+        "distancia": null,
+        "modo": "corpo a corpo",
+        "tipo": "Perfurante",
+        "descricao": "lança longa",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Yari: todas colunas do manuscrito",
+      "obtido": [
+        "Yari (lança longa)",
+        2,
+        "1d10 Perfurante",
+        [
+          "Alcance 3 m",
+          "Talha"
+        ],
+        "3",
+        2.0,
+        [
+          36000
+        ]
+      ],
+      "esperado": [
+        "Yari (lança longa)",
+        2,
+        "1d10 Perfurante",
+        [
+          "Alcance 3 m",
+          "Talha"
+        ],
+        "3",
+        2,
+        [
+          36000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Yari: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Espingarda: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Espingarda",
+        "categoria": "Arma de Fogo",
+        "treino": "Treino de fogo",
+        "maos": 2,
+        "dados": "2d8",
+        "propriedades": [
+          "Longo Alcance",
+          "Munição",
+          "Rompe"
+        ],
+        "forca": 1,
+        "volume": 2,
+        "preco": 300000,
+        "preco_criacao": 150000,
+        "alcance_ca": 1.5,
+        "distancia": [
+          9,
+          27
+        ],
+        "modo": "disparo",
+        "tipo": "Perfurante",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Espingarda",
+        "categoria": "Arma de Fogo",
+        "treino": "Treino de fogo",
+        "maos": 2,
+        "dados": "2d8",
+        "propriedades": [
+          "Longo Alcance",
+          "Munição",
+          "Rompe"
+        ],
+        "forca": 1,
+        "volume": 2,
+        "preco": 300000,
+        "preco_criacao": 150000,
+        "alcance_ca": 1.5,
+        "distancia": [
+          9,
+          27
+        ],
+        "modo": "disparo",
+        "tipo": "Perfurante",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Espingarda: todas colunas do manuscrito",
+      "obtido": [
+        "Espingarda",
+        2,
+        "2d8 Perfurante",
+        [
+          "Longo Alcance 9/27 m",
+          "Munição",
+          "Rompe"
+        ],
+        "1",
+        2.0,
+        [
+          150000,
+          300000
+        ]
+      ],
+      "esperado": [
+        "Espingarda",
+        2,
+        "2d8 Perfurante",
+        [
+          "Longo Alcance 9/27 m",
+          "Munição",
+          "Rompe"
+        ],
+        "1",
+        2,
+        [
+          150000,
+          300000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Espingarda: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Metralhadora Pesada: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Metralhadora Pesada",
+        "categoria": "Arma de Fogo",
+        "treino": "Treino de fogo",
+        "maos": 2,
+        "dados": "2d10",
+        "propriedades": [
+          "Longo Alcance",
+          "Munição",
+          "Rompe",
+          "Volumosa"
+        ],
+        "forca": 3,
+        "volume": 2,
+        "preco": 900000,
+        "preco_criacao": 450000,
+        "alcance_ca": 1.5,
+        "distancia": [
+          24,
+          72
+        ],
+        "modo": "disparo",
+        "tipo": "Perfurante",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Metralhadora Pesada",
+        "categoria": "Arma de Fogo",
+        "treino": "Treino de fogo",
+        "maos": 2,
+        "dados": "2d10",
+        "propriedades": [
+          "Longo Alcance",
+          "Munição",
+          "Rompe",
+          "Volumosa"
+        ],
+        "forca": 3,
+        "volume": 2,
+        "preco": 900000,
+        "preco_criacao": 450000,
+        "alcance_ca": 1.5,
+        "distancia": [
+          24,
+          72
+        ],
+        "modo": "disparo",
+        "tipo": "Perfurante",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Metralhadora Pesada: todas colunas do manuscrito",
+      "obtido": [
+        "Metralhadora Pesada",
+        2,
+        "2d10 Perfurante",
+        [
+          "Longo Alcance 24/72 m",
+          "Munição",
+          "Rompe",
+          "Volumosa"
+        ],
+        "3",
+        2.0,
+        [
+          450000,
+          900000
+        ]
+      ],
+      "esperado": [
+        "Metralhadora Pesada",
+        2,
+        "2d10 Perfurante",
+        [
+          "Longo Alcance 24/72 m",
+          "Munição",
+          "Rompe",
+          "Volumosa"
+        ],
+        "3",
+        2,
+        [
+          450000,
+          900000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Metralhadora Pesada: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Pistola: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Pistola",
+        "categoria": "Arma de Fogo",
+        "treino": "Treino de fogo",
+        "maos": 1,
+        "dados": "1d10",
+        "propriedades": [
+          "Longo Alcance",
+          "Munição",
+          "Oculta"
+        ],
+        "forca": 0,
+        "volume": 0.5,
+        "preco": 250000,
+        "preco_criacao": 125000,
+        "alcance_ca": 1.5,
+        "distancia": [
+          9,
+          27
+        ],
+        "modo": "disparo",
+        "tipo": "Perfurante",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Pistola",
+        "categoria": "Arma de Fogo",
+        "treino": "Treino de fogo",
+        "maos": 1,
+        "dados": "1d10",
+        "propriedades": [
+          "Longo Alcance",
+          "Munição",
+          "Oculta"
+        ],
+        "forca": 0,
+        "volume": 0.5,
+        "preco": 250000,
+        "preco_criacao": 125000,
+        "alcance_ca": 1.5,
+        "distancia": [
+          9,
+          27
+        ],
+        "modo": "disparo",
+        "tipo": "Perfurante",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Pistola: todas colunas do manuscrito",
+      "obtido": [
+        "Pistola",
+        1,
+        "1d10 Perfurante",
+        [
+          "Longo Alcance 9/27 m",
+          "Munição",
+          "Oculta"
+        ],
+        "—",
+        0.5,
+        [
+          125000,
+          250000
+        ]
+      ],
+      "esperado": [
+        "Pistola",
+        1,
+        "1d10 Perfurante",
+        [
+          "Longo Alcance 9/27 m",
+          "Munição",
+          "Oculta"
+        ],
+        "—",
+        0.5,
+        [
+          125000,
+          250000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Pistola: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Revólver: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Revólver",
+        "categoria": "Arma de Fogo",
+        "treino": "Treino de fogo",
+        "maos": 1,
+        "dados": "1d10",
+        "propriedades": [
+          "Longo Alcance",
+          "Munição",
+          "Oculta"
+        ],
+        "forca": 0,
+        "volume": 0.5,
+        "preco": 250000,
+        "preco_criacao": 125000,
+        "alcance_ca": 1.5,
+        "distancia": [
+          12,
+          36
+        ],
+        "modo": "disparo",
+        "tipo": "Perfurante",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Revólver",
+        "categoria": "Arma de Fogo",
+        "treino": "Treino de fogo",
+        "maos": 1,
+        "dados": "1d10",
+        "propriedades": [
+          "Longo Alcance",
+          "Munição",
+          "Oculta"
+        ],
+        "forca": 0,
+        "volume": 0.5,
+        "preco": 250000,
+        "preco_criacao": 125000,
+        "alcance_ca": 1.5,
+        "distancia": [
+          12,
+          36
+        ],
+        "modo": "disparo",
+        "tipo": "Perfurante",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Revólver: todas colunas do manuscrito",
+      "obtido": [
+        "Revólver",
+        1,
+        "1d10 Perfurante",
+        [
+          "Longo Alcance 12/36 m",
+          "Munição",
+          "Oculta"
+        ],
+        "—",
+        0.5,
+        [
+          125000,
+          250000
+        ]
+      ],
+      "esperado": [
+        "Revólver",
+        1,
+        "1d10 Perfurante",
+        [
+          "Longo Alcance 12/36 m",
+          "Munição",
+          "Oculta"
+        ],
+        "—",
+        0.5,
+        [
+          125000,
+          250000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Revólver: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Rifle: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Rifle",
+        "categoria": "Arma de Fogo",
+        "treino": "Treino de fogo",
+        "maos": 2,
+        "dados": "2d8",
+        "propriedades": [
+          "Longo Alcance",
+          "Munição",
+          "Talha"
+        ],
+        "forca": 1,
+        "volume": 2,
+        "preco": 350000,
+        "preco_criacao": 175000,
+        "alcance_ca": 1.5,
+        "distancia": [
+          24,
+          72
+        ],
+        "modo": "disparo",
+        "tipo": "Perfurante",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Rifle",
+        "categoria": "Arma de Fogo",
+        "treino": "Treino de fogo",
+        "maos": 2,
+        "dados": "2d8",
+        "propriedades": [
+          "Longo Alcance",
+          "Munição",
+          "Talha"
+        ],
+        "forca": 1,
+        "volume": 2,
+        "preco": 350000,
+        "preco_criacao": 175000,
+        "alcance_ca": 1.5,
+        "distancia": [
+          24,
+          72
+        ],
+        "modo": "disparo",
+        "tipo": "Perfurante",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Rifle: todas colunas do manuscrito",
+      "obtido": [
+        "Rifle",
+        2,
+        "2d8 Perfurante",
+        [
+          "Longo Alcance 24/72 m",
+          "Munição",
+          "Talha"
+        ],
+        "1",
+        2.0,
+        [
+          175000,
+          350000
+        ]
+      ],
+      "esperado": [
+        "Rifle",
+        2,
+        "2d8 Perfurante",
+        [
+          "Longo Alcance 24/72 m",
+          "Munição",
+          "Talha"
+        ],
+        "1",
+        2,
+        [
+          175000,
+          350000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Rifle: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Rifle de Precisão: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Rifle de Precisão",
+        "categoria": "Arma de Fogo",
+        "treino": "Treino de fogo",
+        "maos": 2,
+        "dados": "2d10",
+        "propriedades": [
+          "Longo Alcance",
+          "Munição"
+        ],
+        "forca": 3,
+        "volume": 2,
+        "preco": 600000,
+        "preco_criacao": 300000,
+        "alcance_ca": 1.5,
+        "distancia": [
+          24,
+          72
+        ],
+        "modo": "disparo",
+        "tipo": "Perfurante",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Rifle de Precisão",
+        "categoria": "Arma de Fogo",
+        "treino": "Treino de fogo",
+        "maos": 2,
+        "dados": "2d10",
+        "propriedades": [
+          "Longo Alcance",
+          "Munição"
+        ],
+        "forca": 3,
+        "volume": 2,
+        "preco": 600000,
+        "preco_criacao": 300000,
+        "alcance_ca": 1.5,
+        "distancia": [
+          24,
+          72
+        ],
+        "modo": "disparo",
+        "tipo": "Perfurante",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Rifle de Precisão: todas colunas do manuscrito",
+      "obtido": [
+        "Rifle de Precisão",
+        2,
+        "2d10 Perfurante",
+        [
+          "Longo Alcance 24/72 m",
+          "Munição"
+        ],
+        "3",
+        2.0,
+        [
+          300000,
+          600000
+        ]
+      ],
+      "esperado": [
+        "Rifle de Precisão",
+        2,
+        "2d10 Perfurante",
+        [
+          "Longo Alcance 24/72 m",
+          "Munição"
+        ],
+        "3",
+        2,
+        [
+          300000,
+          600000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Rifle de Precisão: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Submetralhadora: alteração restrita aos eixos autorizados",
+      "obtido": {
+        "nome": "Submetralhadora",
+        "categoria": "Arma de Fogo",
+        "treino": "Treino de fogo",
+        "maos": 2,
+        "dados": "2d6",
+        "propriedades": [
+          "Longo Alcance",
+          "Munição",
+          "Par",
+          "Oculta"
+        ],
+        "forca": 0,
+        "volume": 1,
+        "preco": 400000,
+        "preco_criacao": 200000,
+        "alcance_ca": 1.5,
+        "distancia": [
+          15,
+          45
+        ],
+        "modo": "disparo",
+        "tipo": "Perfurante",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "esperado": {
+        "nome": "Submetralhadora",
+        "categoria": "Arma de Fogo",
+        "treino": "Treino de fogo",
+        "maos": 2,
+        "dados": "2d6",
+        "propriedades": [
+          "Longo Alcance",
+          "Munição",
+          "Par",
+          "Oculta"
+        ],
+        "forca": 0,
+        "volume": 1,
+        "preco": 400000,
+        "preco_criacao": 200000,
+        "alcance_ca": 1.5,
+        "distancia": [
+          15,
+          45
+        ],
+        "modo": "disparo",
+        "tipo": "Perfurante",
+        "descricao": "",
+        "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+      },
+      "ok": true
+    },
+    {
+      "caso": "Submetralhadora: todas colunas do manuscrito",
+      "obtido": [
+        "Submetralhadora",
+        2,
+        "2d6 Perfurante",
+        [
+          "Longo Alcance 15/45 m",
+          "Munição",
+          "Par",
+          "Oculta"
+        ],
+        "—",
+        1.0,
+        [
+          200000,
+          400000
+        ]
+      ],
+      "esperado": [
+        "Submetralhadora",
+        2,
+        "2d6 Perfurante",
+        [
+          "Longo Alcance 15/45 m",
+          "Munição",
+          "Par",
+          "Oculta"
+        ],
+        "—",
+        1,
+        [
+          200000,
+          400000
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Submetralhadora: décimos exatos",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Somente Volume pode mudar nas nove linhas de munição; preços/capacidades intactos",
+      "obtido": [
+        [
+          "Item",
+          "Armas compatíveis",
+          "Conteúdo",
+          "Preço",
+          "Volume"
+        ],
+        [
+          "---",
+          "---",
+          "---",
+          "---",
+          "---"
+        ],
+        [
+          "Aljava de flechas",
+          "Hankyū e Daikyū",
+          "20 flechas",
+          "¥3.000",
+          "0,5"
+        ],
+        [
+          "Estojo de virotes",
+          "Besta e Besta de Uma Mão",
+          "20 virotes",
+          "¥3.000",
+          "0,5"
+        ],
+        [
+          "Arma e carga correspondente",
+          "Ataques por carga",
+          "Preço",
+          "Volume"
+        ],
+        [
+          "---",
+          "---",
+          "---",
+          "---"
+        ],
+        [
+          "Pistola: carregador",
+          "2",
+          "¥1.000",
+          "0,1"
+        ],
+        [
+          "Revólver: conjunto de cartuchos",
+          "2",
+          "¥1.000",
+          "0,1"
+        ],
+        [
+          "Espingarda: conjunto de cartuchos",
+          "2",
+          "¥1.000",
+          "0,2"
+        ],
+        [
+          "Rifle: carregador",
+          "3",
+          "¥1.500",
+          "0,2"
+        ],
+        [
+          "Submetralhadora: carregador",
+          "3",
+          "¥1.500",
+          "0,2"
+        ],
+        [
+          "Rifle de Precisão: carregador",
+          "2",
+          "¥2.000",
+          "0,2"
+        ],
+        [
+          "Metralhadora Pesada: caixa de munição",
+          "4",
+          "¥4.000",
+          "0,5"
+        ]
+      ],
+      "esperado": [
+        [
+          "Item",
+          "Armas compatíveis",
+          "Conteúdo",
+          "Preço",
+          "Volume"
+        ],
+        [
+          "---",
+          "---",
+          "---",
+          "---",
+          "---"
+        ],
+        [
+          "Aljava de flechas",
+          "Hankyū e Daikyū",
+          "20 flechas",
+          "¥3.000",
+          "0,5"
+        ],
+        [
+          "Estojo de virotes",
+          "Besta e Besta de Uma Mão",
+          "20 virotes",
+          "¥3.000",
+          "0,5"
+        ],
+        [
+          "Arma e carga correspondente",
+          "Ataques por carga",
+          "Preço",
+          "Volume"
+        ],
+        [
+          "---",
+          "---",
+          "---",
+          "---"
+        ],
+        [
+          "Pistola: carregador",
+          "2",
+          "¥1.000",
+          "0,1"
+        ],
+        [
+          "Revólver: conjunto de cartuchos",
+          "2",
+          "¥1.000",
+          "0,1"
+        ],
+        [
+          "Espingarda: conjunto de cartuchos",
+          "2",
+          "¥1.000",
+          "0,2"
+        ],
+        [
+          "Rifle: carregador",
+          "3",
+          "¥1.500",
+          "0,2"
+        ],
+        [
+          "Submetralhadora: carregador",
+          "3",
+          "¥1.500",
+          "0,2"
+        ],
+        [
+          "Rifle de Precisão: carregador",
+          "2",
+          "¥2.000",
+          "0,2"
+        ],
+        [
+          "Metralhadora Pesada: caixa de munição",
+          "4",
+          "¥4.000",
+          "0,5"
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Exemplo de pistola corrigido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Instalada incluída, sem duplicação",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Conservação em estados enumerados",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "caso": "34 cenários de recarga atualizados",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Regra automática antiga removida",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Independência no dono",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Independência na interface",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Discreta tem definição",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Carga mantém limite",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Treze itens",
+      "obtido": 13,
+      "esperado": 13,
+      "ok": true
+    },
+    {
+      "caso": "Corda: preço preservado",
+      "obtido": 3000,
+      "esperado": 3000,
+      "ok": true
+    },
+    {
+      "caso": "Lanterna elétrica: preço preservado",
+      "obtido": 3000,
+      "esperado": 3000,
+      "ok": true
+    },
+    {
+      "caso": "Algema: preço preservado",
+      "obtido": 3000,
+      "esperado": 3000,
+      "ok": true
+    },
+    {
+      "caso": "Pé de cabra: preço preservado",
+      "obtido": 3000,
+      "esperado": 3000,
+      "ok": true
+    },
+    {
+      "caso": "Gazuas: preço preservado",
+      "obtido": 3000,
+      "esperado": 3000,
+      "ok": true
+    },
+    {
+      "caso": "Kit de escalada: preço preservado",
+      "obtido": 3000,
+      "esperado": 3000,
+      "ok": true
+    },
+    {
+      "caso": "Exemplo de kit: preço",
+      "obtido": 13000,
+      "esperado": 13000,
+      "ok": true
+    },
+    {
+      "caso": "Exemplo de kit: Volume",
+      "obtido": "6/5",
+      "esperado": "6/5",
+      "ok": true
+    },
+    {
+      "caso": "Adicionar ração",
+      "obtido": "13/10",
+      "esperado": "13/10",
+      "ok": true
+    },
+    {
+      "caso": "Sem mochila que crie capacidade",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Contenção não decorre apenas de Agarrado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Itens vestidos protegidos de uso abusivo da tabela",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Gazuas dependem do Ofício",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Improvisado não remove Maestria",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Improvisado d4 e Força no exemplo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Conjunto do rifle com Força 1",
+      "obtido": 3.7,
+      "esperado": 3.7,
+      "ok": true
+    },
+    {
+      "caso": "Conjunto da pistola com Força 0",
+      "obtido": 2.0,
+      "esperado": 2.0,
+      "ok": true
+    },
+    {
+      "caso": "Oráculo ataques com dano 1 certo",
+      "obtido": "5",
+      "esperado": "5",
+      "ok": true
+    },
+    {
+      "caso": "Oráculo acerto 50%, dano 1",
+      "obtido": "10",
+      "esperado": "10",
+      "ok": true
+    },
+    {
+      "caso": "Exemplo da porta",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "1 natural não ganha falha automática importada",
+      "obtido": "0",
+      "esperado": "0",
+      "ok": true
+    },
+    {
+      "caso": "Improvisado mantém chance entre 0 e 1, Defesa 10",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Improvisado mantém chance entre 0 e 1, Defesa 14",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Improvisado mantém chance entre 0 e 1, Defesa 18",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    }
+  ],
+  "auditoria": "equipamento/lote-05/evidencias/auditoria-numerica.json",
+  "limites": [
+    "Modelo documental, não pesquisa de campo. Carga é convenção por porte, não pesagem. Combos de classes e resistências de monstros não simulados."
+  ]
+}

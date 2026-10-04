@@ -1,0 +1,51 @@
+{
+  "sha256_texto": "6b0c6fdc6690e154c064c44ddad58e02593fb3c1a38da3f3ba097e376fc471b0",
+  "revisor": "Agente principal, distinto do autor",
+  "leitura": "Cinco páginas completas; decisões107/108, aquisição R12, reserva R11 e Ofícios R04 cotejados.",
+  "bloqueadores": [],
+  "checks": [
+    {
+      "caso": "CD14 bônus6",
+      "obtido": 0.65,
+      "esperado": 0.65,
+      "ok": true
+    },
+    {
+      "caso": "CD12 bônus6",
+      "obtido": 0.75,
+      "esperado": 0.75,
+      "ok": true
+    },
+    {
+      "caso": "CD10 bônus6",
+      "obtido": 0.85,
+      "esperado": 0.85,
+      "ok": true
+    },
+    {
+      "caso": "Uma falha e sucesso",
+      "obtido": [
+        36000,
+        20
+      ],
+      "esperado": [
+        36000,
+        20
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Expectativa projeto p=.75",
+      "obtido": [
+        32000.0,
+        17.333333333333332
+      ],
+      "observacao": "32000 ienes e17.333h com tentativas independentes idênticas, não preço médio universal.",
+      "ok": true
+    }
+  ],
+  "limites": [
+    "Sem leitores humanos ou economia testada em mesa.",
+    "Custo e tempo de exemplo pertencem somente ao projeto apresentado."
+  ]
+}

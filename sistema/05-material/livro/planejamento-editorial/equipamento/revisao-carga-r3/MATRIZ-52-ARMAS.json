@@ -1,0 +1,589 @@
+[
+  {
+    "arma": "Bastão",
+    "categoria": "Porrete",
+    "anterior": 1,
+    "volume": 1,
+    "base": "julgamento",
+    "fontes": [],
+    "justificativa": "Formato de transporte: bastão longo, taco comprido, cassetete curto e tonfa com cabo lateral. Não há pesagem direta destes modelos."
+  },
+  {
+    "arma": "Besta",
+    "categoria": "Balestra",
+    "anterior": 2,
+    "volume": 2,
+    "base": "analogia",
+    "fontes": [
+      "R6"
+    ],
+    "justificativa": "Besta moderna representativa: cerca de 3,27 kg. Modelos históricos pesados não definem a entrada genérica. A de mão é menor, mas continua um conjunto rígido."
+  },
+  {
+    "arma": "Besta de Uma Mão",
+    "categoria": "Balestra",
+    "anterior": 0.5,
+    "volume": 1,
+    "base": "analogia",
+    "fontes": [
+      "R6"
+    ],
+    "justificativa": "1 por arma completa, rígida e relativamente larga; estimativa, sem modelo físico verificado."
+  },
+  {
+    "arma": "Bō",
+    "categoria": "Porrete",
+    "anterior": 2,
+    "volume": 2,
+    "base": "julgamento",
+    "fontes": [],
+    "justificativa": "Formato de transporte: bastão longo, taco comprido, cassetete curto e tonfa com cabo lateral. Não há pesagem direta destes modelos."
+  },
+  {
+    "arma": "Canivete",
+    "categoria": "Lâmina Curta",
+    "anterior": 0.1,
+    "volume": 0.1,
+    "base": "analogia",
+    "fontes": [
+      "R15",
+      "R16"
+    ],
+    "justificativa": "Manter 0,1 para exemplar dobrável pequeno; a propriedade Oculta não determina isso."
+  },
+  {
+    "arma": "Cassetete",
+    "categoria": "Porrete",
+    "anterior": 0.5,
+    "volume": 0.3,
+    "base": "julgamento",
+    "fontes": [],
+    "justificativa": "0,3 para modelo curto e compacto; não descreve todo bastão policial. Tonfa permanece 0,5 pelo cabo lateral."
+  },
+  {
+    "arma": "Chakram",
+    "categoria": "Arremesso",
+    "anterior": 0.2,
+    "volume": 0.2,
+    "base": "julgamento",
+    "fontes": [],
+    "justificativa": "Por peça. Discos e lâminas pequenas não recebem carga de faca grande; leque rígido metálico recebe 0,3."
+  },
+  {
+    "arma": "Faca",
+    "categoria": "Lâmina Curta",
+    "anterior": 0.2,
+    "volume": 0.2,
+    "base": "analogia",
+    "fontes": [
+      "R15",
+      "R16"
+    ],
+    "justificativa": "Peças compactas; diferenciar lâmina fina de peças rígidas mais robustas. Valores por unidade, nunca por par."
+  },
+  {
+    "arma": "Foice",
+    "categoria": "Ceifa",
+    "anterior": 2,
+    "volume": 2,
+    "base": "julgamento",
+    "fontes": [
+      "R4",
+      "R5"
+    ],
+    "justificativa": "Comprimento, lâmina saliente e corrente. Sem amostra física específica: conservar faixas coerentes com haste e machadinha."
+  },
+  {
+    "arma": "Kama",
+    "categoria": "Ceifa",
+    "anterior": 0.5,
+    "volume": 0.5,
+    "base": "julgamento",
+    "fontes": [
+      "R4",
+      "R5"
+    ],
+    "justificativa": "Comprimento, lâmina saliente e corrente. Sem amostra física específica: conservar faixas coerentes com haste e machadinha."
+  },
+  {
+    "arma": "Kanabō",
+    "categoria": "Massa",
+    "anterior": 2,
+    "volume": 3,
+    "base": "analogia",
+    "fontes": [
+      "R3"
+    ],
+    "justificativa": "Maça de uma mão não é marreta industrial. Marreta, Maul e Kanabō representam versões pesadas ficcionais de duas mãos."
+  },
+  {
+    "arma": "Kunai",
+    "categoria": "Arremesso",
+    "anterior": 0.2,
+    "volume": 0.2,
+    "base": "julgamento",
+    "fontes": [],
+    "justificativa": "Por peça. Discos e lâminas pequenas não recebem carga de faca grande; leque rígido metálico recebe 0,3."
+  },
+  {
+    "arma": "Kusarigama",
+    "categoria": "Ceifa",
+    "anterior": 2,
+    "volume": 2,
+    "base": "julgamento",
+    "fontes": [
+      "R4",
+      "R5"
+    ],
+    "justificativa": "Comprimento, lâmina saliente e corrente. Sem amostra física específica: conservar faixas coerentes com haste e machadinha."
+  },
+  {
+    "arma": "Maça",
+    "categoria": "Massa",
+    "anterior": 1,
+    "volume": 1,
+    "base": "analogia",
+    "fontes": [
+      "R3"
+    ],
+    "justificativa": "Maça de uma mão não é marreta industrial. Marreta, Maul e Kanabō representam versões pesadas ficcionais de duas mãos."
+  },
+  {
+    "arma": "Marreta",
+    "categoria": "Massa",
+    "anterior": 2,
+    "volume": 3,
+    "base": "analogia",
+    "fontes": [
+      "R14"
+    ],
+    "justificativa": "3 para marreta pesada de duas mãos; referência Tramontina de cabeça nominal 5 kg, total anunciado 5,5 kg com cabo."
+  },
+  {
+    "arma": "Maul",
+    "categoria": "Massa",
+    "anterior": 2,
+    "volume": 3,
+    "base": "analogia",
+    "fontes": [
+      "R3"
+    ],
+    "justificativa": "Maça de uma mão não é marreta industrial. Marreta, Maul e Kanabō representam versões pesadas ficcionais de duas mãos."
+  },
+  {
+    "arma": "Nunchaku",
+    "categoria": "Porrete",
+    "anterior": 0.5,
+    "volume": 0.5,
+    "base": "julgamento",
+    "fontes": [],
+    "justificativa": "Formato de transporte: bastão longo, taco comprido, cassetete curto e tonfa com cabo lateral. Não há pesagem direta destes modelos."
+  },
+  {
+    "arma": "Punhal",
+    "categoria": "Lâmina Curta",
+    "anterior": 0.2,
+    "volume": 0.3,
+    "base": "analogia",
+    "fontes": [
+      "R15",
+      "R16"
+    ],
+    "justificativa": "Peças compactas; diferenciar lâmina fina de peças rígidas mais robustas. Valores por unidade, nunca por par."
+  },
+  {
+    "arma": "Sai",
+    "categoria": "Lâmina Curta",
+    "anterior": 0.5,
+    "volume": 0.5,
+    "base": "analogia",
+    "fontes": [
+      "R15",
+      "R16"
+    ],
+    "justificativa": "Peças compactas; diferenciar lâmina fina de peças rígidas mais robustas. Valores por unidade, nunca por par."
+  },
+  {
+    "arma": "Shuriken",
+    "categoria": "Arremesso",
+    "anterior": 0.1,
+    "volume": 0.1,
+    "base": "julgamento",
+    "fontes": [],
+    "justificativa": "Por peça. Discos e lâminas pequenas não recebem carga de faca grande; leque rígido metálico recebe 0,3."
+  },
+  {
+    "arma": "Soqueira",
+    "categoria": "Manopla",
+    "anterior": 0.1,
+    "volume": 0.2,
+    "base": "julgamento",
+    "fontes": [],
+    "justificativa": "Peça de metal por mão; 0,2 mantém compacta sem equiparar toda proteção de punho a item desprezível."
+  },
+  {
+    "arma": "Taco",
+    "categoria": "Massa",
+    "anterior": 1,
+    "volume": 1,
+    "base": "analogia",
+    "fontes": [
+      "R3"
+    ],
+    "justificativa": "1 pelo comprimento e rigidez. Discreta descreve a aparência esportiva, não a carga."
+  },
+  {
+    "arma": "Tanto",
+    "categoria": "Lâmina Curta",
+    "anterior": 0.2,
+    "volume": 0.3,
+    "base": "analogia",
+    "fontes": [
+      "R15",
+      "R16"
+    ],
+    "justificativa": "Peças compactas; diferenciar lâmina fina de peças rígidas mais robustas. Valores por unidade, nunca por par."
+  },
+  {
+    "arma": "Tekko",
+    "categoria": "Manopla",
+    "anterior": 0.1,
+    "volume": 0.2,
+    "base": "julgamento",
+    "fontes": [],
+    "justificativa": "Peça de metal por mão; 0,2 mantém compacta sem equiparar toda proteção de punho a item desprezível."
+  },
+  {
+    "arma": "Tessen",
+    "categoria": "Arremesso",
+    "anterior": 0.2,
+    "volume": 0.3,
+    "base": "julgamento",
+    "fontes": [],
+    "justificativa": "Por peça. Discos e lâminas pequenas não recebem carga de faca grande; leque rígido metálico recebe 0,3."
+  },
+  {
+    "arma": "Tonfa",
+    "categoria": "Porrete",
+    "anterior": 0.5,
+    "volume": 0.5,
+    "base": "julgamento",
+    "fontes": [],
+    "justificativa": "Formato de transporte: bastão longo, taco comprido, cassetete curto e tonfa com cabo lateral. Não há pesagem direta destes modelos."
+  },
+  {
+    "arma": "Chicote",
+    "categoria": "Flexível",
+    "anterior": 0.5,
+    "volume": 0.5,
+    "base": "julgamento",
+    "fontes": [],
+    "justificativa": "Transporte enrolado reduz comprimento, não massa. Corrente longa de metal permanece acima de chicote e manriki compacto."
+  },
+  {
+    "arma": "Corrente",
+    "categoria": "Flexível",
+    "anterior": 2,
+    "volume": 2,
+    "base": "julgamento",
+    "fontes": [],
+    "justificativa": "Transporte enrolado reduz comprimento, não massa. Corrente longa de metal permanece acima de chicote e manriki compacto."
+  },
+  {
+    "arma": "Daikyū",
+    "categoria": "Yumi",
+    "anterior": 2,
+    "volume": 2,
+    "base": "julgamento",
+    "fontes": [],
+    "justificativa": "Arco longo e arco curto diferenciados pelo porte. Não confundir força de puxada com massa da arma."
+  },
+  {
+    "arma": "Espada Longa",
+    "categoria": "Lâmina Longa",
+    "anterior": 1,
+    "volume": 1,
+    "base": "analogia",
+    "fontes": [
+      "R1",
+      "R2"
+    ],
+    "justificativa": "Massa e comprimento das espadas de referência; espadas grandes permanecem 2 pelo porte, não por usarem duas mãos."
+  },
+  {
+    "arma": "Espadão",
+    "categoria": "Lâmina Longa",
+    "anterior": 2,
+    "volume": 2,
+    "base": "analogia",
+    "fontes": [
+      "R1",
+      "R2"
+    ],
+    "justificativa": "Massa e comprimento das espadas de referência; espadas grandes permanecem 2 pelo porte, não por usarem duas mãos."
+  },
+  {
+    "arma": "Hankyū",
+    "categoria": "Yumi",
+    "anterior": 1,
+    "volume": 1,
+    "base": "julgamento",
+    "fontes": [],
+    "justificativa": "Arco longo e arco curto diferenciados pelo porte. Não confundir força de puxada com massa da arma."
+  },
+  {
+    "arma": "Katana",
+    "categoria": "Lâmina Longa",
+    "anterior": 1,
+    "volume": 1,
+    "base": "analogia",
+    "fontes": [
+      "R1",
+      "R2"
+    ],
+    "justificativa": "Massa e comprimento das espadas de referência; espadas grandes permanecem 2 pelo porte, não por usarem duas mãos."
+  },
+  {
+    "arma": "Lança",
+    "categoria": "Armas Longas",
+    "anterior": 1,
+    "volume": 2,
+    "base": "analogia",
+    "fontes": [
+      "R5"
+    ],
+    "justificativa": "2: corrigida a diferença sem justificativa de transporte em relação às demais hastes longas."
+  },
+  {
+    "arma": "Machadinha",
+    "categoria": "Machado",
+    "anterior": 0.5,
+    "volume": 0.5,
+    "base": "analogia",
+    "fontes": [
+      "R4",
+      "R5"
+    ],
+    "justificativa": "Machadinha de cerca de 1 kg é uma âncora; modelo maior e cabeça volumosa elevam a carga."
+  },
+  {
+    "arma": "Machado",
+    "categoria": "Machado",
+    "anterior": 1,
+    "volume": 1,
+    "base": "analogia",
+    "fontes": [
+      "R4",
+      "R5"
+    ],
+    "justificativa": "Machadinha de cerca de 1 kg é uma âncora; modelo maior e cabeça volumosa elevam a carga."
+  },
+  {
+    "arma": "Machado de Guerra",
+    "categoria": "Machado",
+    "anterior": 2,
+    "volume": 2,
+    "base": "analogia",
+    "fontes": [
+      "R4",
+      "R5"
+    ],
+    "justificativa": "Machadinha de cerca de 1 kg é uma âncora; modelo maior e cabeça volumosa elevam a carga."
+  },
+  {
+    "arma": "Machete",
+    "categoria": "Lâmina Longa",
+    "anterior": 0.5,
+    "volume": 0.5,
+    "base": "analogia",
+    "fontes": [
+      "R1",
+      "R2"
+    ],
+    "justificativa": "Massa e comprimento das espadas de referência; espadas grandes permanecem 2 pelo porte, não por usarem duas mãos."
+  },
+  {
+    "arma": "Manriki",
+    "categoria": "Flexível",
+    "anterior": 0.5,
+    "volume": 0.5,
+    "base": "julgamento",
+    "fontes": [],
+    "justificativa": "Transporte enrolado reduz comprimento, não massa. Corrente longa de metal permanece acima de chicote e manriki compacto."
+  },
+  {
+    "arma": "Naginata",
+    "categoria": "Armas Longas",
+    "anterior": 2,
+    "volume": 2,
+    "base": "analogia",
+    "fontes": [
+      "R5"
+    ],
+    "justificativa": "Haste longa e não dobrável; Lança também exige espaço, apesar do uso com uma mão."
+  },
+  {
+    "arma": "Nodachi",
+    "categoria": "Lâmina Longa",
+    "anterior": 2,
+    "volume": 2,
+    "base": "analogia",
+    "fontes": [
+      "R1",
+      "R2"
+    ],
+    "justificativa": "Massa e comprimento das espadas de referência; espadas grandes permanecem 2 pelo porte, não por usarem duas mãos."
+  },
+  {
+    "arma": "Odachi",
+    "categoria": "Lâmina Longa",
+    "anterior": 2,
+    "volume": 2,
+    "base": "analogia",
+    "fontes": [
+      "R1",
+      "R2"
+    ],
+    "justificativa": "Massa e comprimento das espadas de referência; espadas grandes permanecem 2 pelo porte, não por usarem duas mãos."
+  },
+  {
+    "arma": "Rapieira",
+    "categoria": "Lâmina Longa",
+    "anterior": 1,
+    "volume": 1,
+    "base": "analogia",
+    "fontes": [
+      "R1",
+      "R2"
+    ],
+    "justificativa": "Massa e comprimento das espadas de referência; espadas grandes permanecem 2 pelo porte, não por usarem duas mãos."
+  },
+  {
+    "arma": "Wakizashi",
+    "categoria": "Lâmina Longa",
+    "anterior": 0.5,
+    "volume": 0.5,
+    "base": "analogia",
+    "fontes": [
+      "R1",
+      "R2"
+    ],
+    "justificativa": "Massa e comprimento das espadas de referência; espadas grandes permanecem 2 pelo porte, não por usarem duas mãos."
+  },
+  {
+    "arma": "Yari",
+    "categoria": "Armas Longas",
+    "anterior": 2,
+    "volume": 2,
+    "base": "analogia",
+    "fontes": [
+      "R5"
+    ],
+    "justificativa": "Haste longa e não dobrável; Lança também exige espaço, apesar do uso com uma mão."
+  },
+  {
+    "arma": "Espingarda",
+    "categoria": "Arma de Fogo",
+    "anterior": 2,
+    "volume": 2,
+    "base": "analogia",
+    "fontes": [
+      "R7",
+      "R8",
+      "R9",
+      "R10",
+      "R11"
+    ],
+    "justificativa": "2 mantido: referência Mossberg de 3,18 kg, acrescida de margem para munição dentro da faixa aproximada de 4 kg."
+  },
+  {
+    "arma": "Metralhadora Pesada",
+    "categoria": "Arma de Fogo",
+    "anterior": 2,
+    "volume": 7,
+    "base": "analogia",
+    "fontes": [
+      "R7",
+      "R8",
+      "R9",
+      "R10",
+      "R11"
+    ],
+    "justificativa": "7 para a entrada portátil de apoio, estimando 12–14 kg com alimentação instalada. FN MAG 11,8 kg sem pressupor que isso inclua uma caixa cheia; parcela adicional é hipótese de projeto. M2 de 38 kg excluída desta ficha."
+  },
+  {
+    "arma": "Pistola",
+    "categoria": "Arma de Fogo",
+    "anterior": 0.5,
+    "volume": 0.5,
+    "base": "analogia",
+    "fontes": [
+      "R7",
+      "R8",
+      "R9",
+      "R10",
+      "R11"
+    ],
+    "justificativa": "0,5 mantido: G17 carregada 0,915 kg. Pode pesar menos que uma espada sem incoerência."
+  },
+  {
+    "arma": "Revólver",
+    "categoria": "Arma de Fogo",
+    "anterior": 0.5,
+    "volume": 0.5,
+    "base": "analogia",
+    "fontes": [
+      "R7",
+      "R8",
+      "R9",
+      "R10",
+      "R11"
+    ],
+    "justificativa": "Massa carregada quando disponível; reserva separada. A arma ficcional não reproduz um modelo específico."
+  },
+  {
+    "arma": "Rifle",
+    "categoria": "Arma de Fogo",
+    "anterior": 2,
+    "volume": 2,
+    "base": "analogia",
+    "fontes": [
+      "R7",
+      "R8",
+      "R9",
+      "R10",
+      "R11"
+    ],
+    "justificativa": "2 mantido: Colt M4 carregada 3,48 kg. O porte e a massa não justificam aumentá-lo apenas para dificultar o kit."
+  },
+  {
+    "arma": "Rifle de Precisão",
+    "categoria": "Arma de Fogo",
+    "anterior": 2,
+    "volume": 4,
+    "base": "analogia",
+    "fontes": [
+      "R7",
+      "R8",
+      "R9",
+      "R10",
+      "R11"
+    ],
+    "justificativa": "4: referência Sako 5,3–6,0 kg sem acessórios; margem de projeto para equipamento e carga instalada, não falsa medição de um conjunto."
+  },
+  {
+    "arma": "Submetralhadora",
+    "categoria": "Arma de Fogo",
+    "anterior": 1,
+    "volume": 2,
+    "base": "analogia",
+    "fontes": [
+      "R7",
+      "R8",
+      "R9",
+      "R10",
+      "R11"
+    ],
+    "justificativa": "2: Colt 9 mm carregada fica acima de 3 kg; não é uma pistola com outra aparência."
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "data": "2026-10-03",
+  "sha256_texto": "afd311cfde0914af381f09cee3e756138a6ddb976a4c6276e4f6b378b2eac477",
+  "revisor": "autor",
+  "secoes": [
+    {
+      "id": "ataques",
+      "titulo": "Ataques",
+      "parecer": "Revisada em REVISAO.md; manter com dependências e decisões identificadas."
+    },
+    {
+      "id": "alcance",
+      "titulo": "Alcance",
+      "parecer": "Revisada em REVISAO.md; manter com dependências e decisões identificadas."
+    },
+    {
+      "id": "critico",
+      "titulo": "Dano e crítico",
+      "parecer": "Revisada em REVISAO.md; manter com dependências e decisões identificadas."
+    },
+    {
+      "id": "defesa",
+      "titulo": "Defesa e cobertura",
+      "parecer": "Revisada em REVISAO.md; manter com dependências e decisões identificadas."
+    },
+    {
+      "id": "bloquear",
+      "titulo": "Bloquear",
+      "parecer": "Revisada em REVISAO.md; manter com dependências e decisões identificadas."
+    },
+    {
+      "id": "aparar",
+      "titulo": "Aparar e Brecha",
+      "parecer": "Revisada em REVISAO.md; manter com dependências e decisões identificadas."
+    }
+  ],
+  "casos_documentais": 26,
+  "revisao_independente": false,
+  "teste_humano": false
+}

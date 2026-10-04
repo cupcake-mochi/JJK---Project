@@ -1,0 +1,19 @@
+{
+  "CONFERENCIA.json": "b02f18076ddc563b158cd9f57363caabff66d682cc4d063a9e63c976d7ef99a8",
+  "DECISOES.md": "232c00b30079565ea50f63af8c0031cb5373940240696a7acea95e5ba24af2de",
+  "ESTRUTURA.json": "334b6e63f82d18805a44309daed713137d433bd20ef78bd4d5e9d66bb9f4253b",
+  "LEIA-ME.md": "232c00b30079565ea50f63af8c0031cb5373940240696a7acea95e5ba24af2de",
+  "MOVIMENTO-E-CARGA.md": "289b9ab73547dd7db84327966b8d3a2ac39434d698c4388f843c991948d2e6d0",
+  "RELATORIO.md": "232c00b30079565ea50f63af8c0031cb5373940240696a7acea95e5ba24af2de",
+  "VALIDACAO.json": "17f9a1d0123641c16b4a3dbe8c9df8cde30cde7ca2fb6a5a118ded436867413e",
+  "conferir.py": "8f257eb44ebb5f896aaa1426b39aebc719004c53fc504da01c63853fd5ad62e7",
+  "evidencias/LOCALIZACAO-EDITORIAL.json": "5aa7eacadc603cf07d461b4f74fa1d60685b10152346c85db8371a9be4eb4db8",
+  "evidencias/REVISAO-EDITORIAL.json": "1048b4a4355cbb7599eb54a840653113253ce4a9400397d15d85e8ef5424a1a7",
+  "evidencias/fontes-preservadas.json": "53b112892e861aa399f40f751b18b68b5e3970b31e2e8bf455c274aa57c93187",
+  "evidencias/inspecao-visual.json": "e8d7c4cfc58fdfae5e5e69dd54487d680a885e14c4dc8da357644be667d761fb",
+  "evidencias/pdf-estrutura.json": "c6aecba913596c673f3432287925bace1e879d1bc915f3946aa6f04e45a72752",
+  "evidencias/pdf-texto.txt": "69d824022124b536ca9787abc9e948ea95b342965ab5af9151b93c8b245b06c4",
+  "evidencias/regras-verificadas.json": "5a1ddbce40326ad0b431c15afa6877c8733085aee2140e49587c7ec4dce1b8f7",
+  "gerar_pdf.py": "294572b7c18899c2da7b0e4f69e8e1bdb3955ffd049eb925a71a93011c8ad78d",
+  "output/pdf/Projeto-M-Movimento-e-Carga-Proposta-04.pdf": "910c02224050910e1f34c503f1f861e661d77c0f3a690ab2d5f5935b31e610c2"
+}

@@ -1,0 +1,128 @@
+REGRESSAO — o modelo reproduz o que ja esta publicado antes de medir coisa nova
+  [x] R1 Acerto Classe 6 / 7: (54.0, 63.0)
+  [x] R2 Acertos que a Expansao solta, refino 4/6/8/10: [3, 4, 5, 6]
+  [x] R3 Dominio Simples ate a v0.267, nv22 (PE, evitado): (30, 324.0)
+  [x] R3 Dominio Simples ate a v0.267, nv26 (PE, evitado): (35, 378.0)
+  [x] R4 o rascunho sem teto, s/(1-s), bonus +10/+7/+0 contra a CD do nv26: [1.9, 1.0, 0.2]
+      (com o teto de 6 Acertos do refino 10, a mesma conta da [1.7, 1.0, 0.2] — o rascunho nao tinha o teto)
+  [x] R5 a Cesta publicada, Espírito treinado, Essência 6: [3.0, 4.0, 5.6]
+  [x] R5 a Cesta publicada, Espírito treinado, Essência 4: [2.8, 3.4, 4.0]
+  [x] R5 a Cesta publicada, sem treino, Essência 2: [1.5, 1.4, 1.3]
+  [x] R6 as tres curvas no nv 14 / 20 / 26 (esp, meio, gen): [[7, 6, 4], [9, 7, 5], [10, 10, 7]]
+  [x] R7 o raio no refino 4 e 10: (3.5, 6.5)
+  [x] R8 o cambio de PE e o deslocamento, em dano por rodada: (5.14, 5.4)
+  [x] R9 as rotas nomeadas reproduzem as curvas da peca 11 §3: ([3, 5, 7, 9, 10, 10, 10], [3, 4, 6, 7, 9, 10, 10])
+  [x] R10 rodadas por Essencia (maior, igual, menor; e erguendo de novo), na peca 11: [4, 3, 2, 2, 1, 1]
+  [x] R10 a mesma tabela, no capitulo 45 do livro: [4, 3, 2, 2, 1, 1]
+  [x] R10 medido, Essência 6, maior que a do dono, Espírito treinado: [(3.0, 3.3, 3.3, 5.0)]
+  [x] R10 medido, Essência 6, igual à do dono, com ou sem treino: [(3.0, 3.0, 3.0, 4.0)]
+  [x] R10 medido, Essência 4, igual à do dono, Espírito treinado: [(2.3, 2.3, 2.3, 4.0)]
+  [x] R10 medido, Essência 2, menor que a do dono, sem treino: [(1.4, 1.3, 1.2, 3.2)]
+  [x] R11 o Carregar e Espirito (peca 3), e Espirito e Essencia (peca 1): (True, True)
+>>> TUDO OK — o modelo reproduz os numeros publicados.
+
+==========================================================================================================
+1 · COMO CAI — Essencia contra Essencia, com o teste do Carregar. Acertos segurados, em media, de quantos
+    a Expansao solta; entre parenteses, erguendo de novo sempre que cai, e as Acoes Padrao que isso gasta.
+==========================================================================================================
+  quem segura                                nv 14 (3 Acertos)         nv 20 (4 Acertos)         nv 26 (6 Acertos)
+  Ess 6 maior, treinado                       3.0 (3.0, 0.0 P)          3.3 (3.3, 0.0 P)          3.3 (5.0, 1.0 P)
+  Ess 6 igual, treinado                       3.0 (3.0, 0.0 P)          3.0 (3.0, 0.0 P)          3.0 (4.0, 1.0 P)
+  Ess 6 maior, sem treino                     3.0 (3.0, 0.0 P)          3.1 (3.1, 0.0 P)          3.1 (5.0, 1.0 P)
+  Ess 6 igual, sem treino                     3.0 (3.0, 0.0 P)          3.0 (3.0, 0.0 P)          3.0 (4.0, 1.0 P)
+  Ess 5 maior, treinado                       2.8 (2.8, 0.0 P)          3.1 (3.2, 0.2 P)          3.1 (4.8, 1.0 P)
+  Ess 5 igual, treinado                       2.4 (2.4, 0.0 P)          2.4 (3.0, 0.6 P)          2.4 (4.0, 1.6 P)
+  Ess 5 menor, treinado                       2.0 (2.0, 0.0 P)          2.0 (3.0, 1.0 P)          2.0 (4.0, 2.0 P)
+  Ess 5 maior, sem treino                     2.8 (2.8, 0.0 P)          2.8 (3.1, 0.3 P)          2.7 (4.6, 1.0 P)
+  Ess 5 igual, sem treino                     2.2 (2.2, 0.0 P)          2.2 (3.0, 0.8 P)          2.2 (4.0, 1.8 P)
+  Ess 5 menor, sem treino                     2.0 (2.0, 0.0 P)          2.0 (3.0, 1.0 P)          2.0 (4.0, 2.0 P)
+  Ess 4 maior, treinado                       2.8 (2.8, 0.0 P)          3.0 (3.2, 0.2 P)          3.0 (4.8, 1.0 P)
+  Ess 4 igual, treinado                       2.3 (2.3, 0.0 P)          2.3 (3.0, 0.7 P)          2.3 (4.0, 1.7 P)
+  Ess 4 menor, treinado                       2.0 (2.0, 0.0 P)          2.0 (3.0, 1.0 P)          2.0 (4.0, 2.0 P)
+  Ess 4 maior, sem treino                     2.7 (2.7, 0.0 P)          2.7 (3.1, 0.4 P)          2.6 (4.6, 1.0 P)
+  Ess 4 igual, sem treino                     2.2 (2.2, 0.0 P)          2.2 (3.0, 0.8 P)          2.1 (4.0, 1.9 P)
+  Ess 4 menor, sem treino                     2.0 (2.0, 0.0 P)          2.0 (3.0, 1.0 P)          2.0 (4.0, 2.0 P)
+  Ess 3 maior, treinado                       2.8 (2.8, 0.0 P)          2.9 (3.1, 0.2 P)          2.9 (4.4, 1.1 P)
+  Ess 3 igual, treinado                       2.2 (2.2, 0.0 P)          2.2 (3.0, 0.8 P)          2.2 (4.0, 1.8 P)
+  Ess 3 menor, treinado                       1.5 (2.0, 0.5 P)          1.5 (2.5, 1.0 P)          1.5 (3.5, 2.0 P)
+  Ess 3 maior, sem treino                     2.6 (2.6, 0.0 P)          2.6 (3.0, 0.4 P)          2.5 (4.2, 1.3 P)
+  Ess 3 igual, sem treino                     2.2 (2.2, 0.0 P)          2.1 (3.0, 0.9 P)          2.1 (4.0, 1.9 P)
+  Ess 3 menor, sem treino                     1.4 (2.0, 0.6 P)          1.4 (2.4, 1.0 P)          1.3 (3.3, 2.0 P)
+  Ess 2 maior, treinado                       2.7 (2.7, 0.0 P)          2.8 (3.1, 0.3 P)          2.8 (4.4, 1.2 P)
+  Ess 2 igual, treinado                       2.2 (2.2, 0.0 P)          2.2 (3.0, 0.8 P)          2.2 (4.0, 1.8 P)
+  Ess 2 menor, treinado                       1.4 (2.0, 0.6 P)          1.4 (2.5, 1.0 P)          1.4 (3.4, 2.0 P)
+  Ess 2 maior, sem treino                     2.6 (2.6, 0.0 P)          2.5 (3.0, 0.5 P)          2.5 (4.1, 1.4 P)
+  Ess 2 igual, sem treino                     2.1 (2.1, 0.0 P)          2.1 (3.0, 0.9 P)          2.1 (4.0, 1.9 P)
+  Ess 2 menor, sem treino                     1.4 (2.0, 0.7 P)          1.3 (2.3, 1.0 P)          1.2 (3.2, 2.0 P)
+  Ess 1 maior, treinado                       2.6 (2.6, 0.0 P)          2.7 (3.1, 0.4 P)          2.7 (4.3, 1.2 P)
+  Ess 1 igual, treinado                       2.2 (2.2, 0.0 P)          2.2 (3.0, 0.8 P)          2.2 (4.0, 1.8 P)
+  Ess 1 menor, treinado                       1.4 (2.0, 0.6 P)          1.4 (2.4, 1.0 P)          1.4 (3.4, 2.0 P)
+  Ess 1 maior, sem treino                     2.5 (2.5, 0.0 P)          2.5 (3.0, 0.6 P)          2.4 (4.1, 1.5 P)
+  Ess 1 igual, sem treino                     2.1 (2.1, 0.0 P)          2.1 (3.0, 0.9 P)          2.0 (4.0, 2.0 P)
+  Ess 1 menor, sem treino                     1.3 (2.0, 0.7 P)          1.2 (2.2, 1.0 P)          1.2 (3.2, 2.0 P)
+  Ess 0 igual, treinado                       2.1 (2.1, 0.0 P)          2.1 (3.0, 0.9 P)          2.1 (4.0, 1.9 P)
+  Ess 0 menor, treinado                       1.4 (2.0, 0.7 P)          1.4 (2.4, 1.0 P)          1.4 (3.3, 2.0 P)
+  Ess 0 igual, sem treino                     2.1 (2.1, 0.0 P)          2.0 (3.0, 1.0 P)          2.0 (4.0, 2.0 P)
+  Ess 0 menor, sem treino                     1.2 (2.0, 0.8 P)          1.2 (2.2, 1.0 P)          1.1 (3.2, 2.0 P)
+
+  O que o teste do Carregar tira, no nivel 26 (a Expansao de refino 10), sem erguer de novo:
+    Ess 6 treinado   maior: 4 sem teste → 3.3 · igual: 3 sem teste → 3.0 · menor: 2 sem teste → 2.0
+    Ess 4 treinado   maior: 4 sem teste → 3.0 · igual: 3 sem teste → 2.3 · menor: 2 sem teste → 2.0
+    Ess 2 sem treino maior: 4 sem teste → 2.5 · igual: 3 sem teste → 2.1 · menor: 2 sem teste → 1.2
+    Ess 0 sem treino maior: 4 sem teste → 2.3 · igual: 3 sem teste → 2.0 · menor: 2 sem teste → 1.1
+
+  1b · REGISTRO — as tres formulas das voltas 1 e 2, refino contra refino (o Acerto de abrir nao contava); a 2a foi a da v0.268:
+    especialista                     nv 14: b1 3 · b2 3/3/3 · 2a 3/3/3 | nv 20: b1 4 · b2 4/4/3 · 2a 4/4/3 | nv 26: b1 5 · b2 3/2/1 · 2a 5/4/3   (de 3/4/6; Ess 6/4/2)
+    meio a meio                      nv 14: b1 3 · b2 3/3/2 · 2a 3/3/3 | nv 20: b1 3 · b2 3/2/1 · 2a 4/4/3 | nv 26: b1 5 · b2 3/2/1 · 2a 5/4/3   (de 3/4/6; Ess 6/4/2)
+    Sem Técnica sem escolher Refino  nv 14: b1 1 · b2 2/1/1 · 2a 3/3/2 | nv 20: b1 1 · b2 1/1/1 · 2a 3/2/2 | nv 26: b1 2 · b2 1/1/1 · 2a 2/2/2   (de 3/4/6; Ess 6/4/2)
+
+==========================================================================================================
+2 · A QUEBRA — sem recarga: na quebra a Expansao alcanca quem ele protegia; erguer de novo custa a Acao
+    Padrao e aguenta metade. Quantos Acertos ALCANCAM quem estava no raio, por Expansao.
+==========================================================================================================
+  Ess 6 maior, treinado        nv 14 (3): 0.0 → 0.0 (0.0 P) · nv 20 (4): 0.7 → 0.7 (0.0 P) · nv 26 (6): 2.7 → 1.0 (1.0 P)
+  Ess 6 igual, treinado        nv 14 (3): 0.0 → 0.0 (0.0 P) · nv 20 (4): 1.0 → 1.0 (0.0 P) · nv 26 (6): 3.0 → 2.0 (1.0 P)
+  Ess 4 igual, treinado        nv 14 (3): 0.7 → 0.7 (0.0 P) · nv 20 (4): 1.7 → 1.0 (0.7 P) · nv 26 (6): 3.7 → 2.0 (1.7 P)
+  Ess 2 menor, sem treino      nv 14 (3): 1.6 → 1.0 (0.7 P) · nv 20 (4): 2.7 → 1.7 (1.0 P) · nv 26 (6): 4.8 → 2.8 (2.0 P)
+
+  A CESTA na mesma regra de queda (um golpe por rodada em quem segura), com o teste do Carregar:
+  Acertos que te alcancam, por Expansao — a recarga de ate a v0.267 → a queda na hora da v0.268
+  Espírito treinado, Essência 6      nv 14: 0.0 → 0.0 (2 golpes: 0.1 → 0.1) · nv 20: 0.0 → 0.0 (2 golpes: 0.5 → 0.4) · nv 26: 0.4 → 0.2 (2 golpes: 1.7 → 0.8)
+  Espírito treinado, Essência 4      nv 14: 0.2 → 0.2 (2 golpes: 0.8 → 0.7) · nv 20: 0.6 → 0.4 (2 golpes: 1.5 → 1.1) · nv 26: 1.4 → 0.9 (2 golpes: 2.6 → 1.9)
+  sem treino, Essência 2             nv 14: 1.3 → 1.3 (2 golpes: 1.8 → 1.8) · nv 20: 2.1 → 2.1 (2 golpes: 2.7 → 2.7) · nv 26: 3.8 → 3.8 (2 golpes: 4.7 → 4.7)
+
+  A Cesta com o teste de Vigor (ate a v0.268) e com o do Carregar (v0.269), Acertos segurados, 1 e 2 golpes:
+    Essência 6, treinado     1 golpe(s): Vigor (Con 6) 3.0/4.0/5.6  →  Carregar 3.0/4.0/5.6
+    Essência 6, treinado     2 golpe(s): Vigor (Con 6) 2.9/3.5/4.2  →  Carregar 2.9/3.5/4.2
+    Essência 4, treinado     1 golpe(s): Vigor (Con 3) 2.8/3.2/3.8  →  Carregar 2.8/3.4/4.0
+    Essência 4, treinado     2 golpe(s): Vigor (Con 3) 2.1/2.2/2.2  →  Carregar 2.2/2.4/2.4
+    Essência 2, sem treino   1 golpe(s): Vigor (Con 0) 1.3/1.2/1.2  →  Carregar 1.5/1.4/1.3
+    Essência 2, sem treino   2 golpe(s): Vigor (Con 0) 1.1/1.0/1.0  →  Carregar 1.1/1.1/1.1
+
+==========================================================================================================
+3 · O PE — um valor so. Quanto custa numa luta de 3,5 rodadas, e quantos minutos ele fica de pe fora
+    de combate com o dia inteiro de PE (10 rodadas por minuto). O Bastiao e o menor bolso (4 PE por nivel).
+==========================================================================================================
+  PE por rodada                                          nv 10                     nv 14                     nv 20                     nv 30
+  ate a v0.267: 1 × maior Classe      3 · luta  26% ·  1.3 min  4 · luta  25% ·  1.4 min  5 · luta  22% ·  1.6 min  7 · luta  20% ·  1.7 min
+  2 PE, fixo (a decisao, v0.268)      2 · luta  18% ·  2.0 min  2 · luta  12% ·  2.8 min  2 · luta   9% ·  4.0 min  2 · luta   6% ·  6.0 min
+  metade da maior Classe (mín. 1)     1 · luta   9% ·  4.0 min  2 · luta  12% ·  2.8 min  2 · luta   9% ·  4.0 min  3 · luta   9% ·  4.0 min
+  maestria                            2 · luta  18% ·  2.0 min  2 · luta  12% ·  2.8 min  3 · luta  13% ·  2.7 min  4 · luta  12% ·  3.0 min
+  1 PE, fixo                          1 · luta   9% ·  4.0 min  1 · luta   6% ·  5.6 min  1 · luta   4% ·  8.0 min  1 · luta   3% · 12.0 min
+  (o Emanador tem 6 PE por nivel: os minutos dele sao 1.5x os do Bastiao)
+  Na regua do projeto, 1 PE por rodada vale 5.14 de dano por rodada, e o deslocamento de 9 m, 5.40.
+  No inimigo (peca 26 §6.5) a aptidao come a cota a 5.14 por PE por rodada ligada.
+
+==========================================================================================================
+4 · O GATE, com o voto do iniciante — o marco mais cedo em que cada rota compra o Dominio Simples
+==========================================================================================================
+                                        ate a v0.267: refino 4, nível 10             refino 5, sem nível com o voto: refino 4, sem nível              refino 5, nível 14
+  especialista (Refino em todo marco)                              nv 10                           nv 10                           nv 10                           nv 14
+  Refino no 6 e no 10                                              nv 10                           nv 10                           nv 10       nunca, com essas escolhas
+  meio a meio (Refino no 6, 14 e 22)                               nv 14                           nv 14                           nv 14                           nv 14
+  um Refino só, no marco 10                                        nv 10       nunca, com essas escolhas                           nv 10       nunca, com essas escolhas
+  um Refino só, no marco 14                                        nv 14                           nv 14                           nv 14                           nv 14
+  Refino 3 contra 4 no nivel 10: em 0 das 2187 sequencias de marco o marco de compra muda.
+  Refino 4 contra 5 no nivel 10: em 486 das 2187 ele muda.
+  Tirar o nivel 10 (decisao da v0.268): muda o marco de compra em 0 das 4374 combinacoes de sequencia e gate (refino 4 e 5) — refino 4 so se alcanca no marco 10.
+  O Sem Técnica ganha o Simples na criacao, sem gate; sem escolher Refino, o refino dele chega a 5 no nivel 18.

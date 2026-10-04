@@ -1,0 +1,408 @@
+{
+  "sha256_texto": "ea450639368f916c37a6a17de3112a6e2365db575aa8c4953a7a2f7429db941a",
+  "sha256_fonte": "775ae4c7655d724b08805226f84b851ada467cd1290047aa13bdbb5dbfc1d53f",
+  "inventario": [
+    {
+      "fonte": "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md",
+      "linhas": [
+        1,
+        4
+      ],
+      "titulo": "Guia",
+      "tipo": "seção",
+      "nivel": null,
+      "destino": "guia",
+      "status": "coberto"
+    },
+    {
+      "fonte": "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md",
+      "linhas": [
+        5,
+        28
+      ],
+      "titulo": "Características do Guia",
+      "tipo": "seção",
+      "nivel": null,
+      "destino": "guia",
+      "status": "coberto"
+    },
+    {
+      "fonte": "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md",
+      "linhas": [
+        29,
+        41
+      ],
+      "titulo": "Degraus do Guia",
+      "tipo": "seção",
+      "nivel": null,
+      "destino": "guia-progressao",
+      "status": "coberto"
+    },
+    {
+      "fonte": "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md",
+      "linhas": [
+        42,
+        49
+      ],
+      "titulo": "Abrir Caminho",
+      "tipo": "habilidade",
+      "nivel": 2,
+      "destino": "guia-progressao",
+      "status": "coberto"
+    },
+    {
+      "fonte": "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md",
+      "linhas": [
+        50,
+        57
+      ],
+      "titulo": "Avançar",
+      "tipo": "seção",
+      "nivel": null,
+      "destino": "guia-aberturas",
+      "status": "coberto"
+    },
+    {
+      "fonte": "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md",
+      "linhas": [
+        58,
+        63
+      ],
+      "titulo": "Executar",
+      "tipo": "seção",
+      "nivel": null,
+      "destino": "guia-aberturas",
+      "status": "coberto"
+    },
+    {
+      "fonte": "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md",
+      "linhas": [
+        64,
+        69
+      ],
+      "titulo": "Resguardar",
+      "tipo": "seção",
+      "nivel": null,
+      "destino": "guia-aberturas",
+      "status": "coberto"
+    },
+    {
+      "fonte": "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md",
+      "linhas": [
+        70,
+        75
+      ],
+      "titulo": "Fora de combate",
+      "tipo": "seção",
+      "nivel": null,
+      "destino": "guia-aberturas",
+      "status": "coberto"
+    },
+    {
+      "fonte": "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md",
+      "linhas": [
+        76,
+        95
+      ],
+      "titulo": "Resposta Coordenada",
+      "tipo": "habilidade",
+      "nivel": 7,
+      "destino": "guia-resposta",
+      "status": "coberto"
+    },
+    {
+      "fonte": "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md",
+      "linhas": [
+        96,
+        101
+      ],
+      "titulo": "Leitura de Equipe",
+      "tipo": "seção",
+      "nivel": null,
+      "destino": "guia-resposta",
+      "status": "coberto"
+    },
+    {
+      "fonte": "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md",
+      "linhas": [
+        102,
+        109
+      ],
+      "titulo": "Reajustar o Plano",
+      "tipo": "habilidade",
+      "nivel": 15,
+      "destino": "guia-planos",
+      "status": "coberto"
+    },
+    {
+      "fonte": "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md",
+      "linhas": [
+        110,
+        121
+      ],
+      "titulo": "Passar a Oportunidade",
+      "tipo": "habilidade",
+      "nivel": 23,
+      "destino": "guia-planos",
+      "status": "coberto"
+    },
+    {
+      "fonte": "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md",
+      "linhas": [
+        122,
+        137
+      ],
+      "titulo": "Todos no Mesmo Plano",
+      "tipo": "habilidade",
+      "nivel": 30,
+      "destino": "guia-plano-conjunto",
+      "status": "coberto"
+    },
+    {
+      "fonte": "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md",
+      "linhas": [
+        138,
+        143
+      ],
+      "titulo": "Usando as Trilhas com as Aberturas",
+      "tipo": "seção",
+      "nivel": null,
+      "destino": "guia-plano-conjunto",
+      "status": "coberto"
+    },
+    {
+      "fonte": "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md",
+      "linhas": [
+        144,
+        147
+      ],
+      "titulo": "Trilha: Arquiteto",
+      "tipo": "seção",
+      "nivel": null,
+      "destino": "guia-arquiteto",
+      "status": "coberto"
+    },
+    {
+      "fonte": "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md",
+      "linhas": [
+        148,
+        164
+      ],
+      "titulo": "Obras de Apoio",
+      "tipo": "habilidade",
+      "nivel": 2,
+      "destino": "guia-arquiteto",
+      "status": "coberto"
+    },
+    {
+      "fonte": "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md",
+      "linhas": [
+        165,
+        179
+      ],
+      "titulo": "Modelos de construção",
+      "tipo": "seção",
+      "nivel": null,
+      "destino": "guia-modelos",
+      "status": "coberto"
+    },
+    {
+      "fonte": "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md",
+      "linhas": [
+        180,
+        187
+      ],
+      "titulo": "Aberturas junto das obras",
+      "tipo": "seção",
+      "nivel": null,
+      "destino": "guia-modelos",
+      "status": "coberto"
+    },
+    {
+      "fonte": "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md",
+      "linhas": [
+        188,
+        195
+      ],
+      "titulo": "Obra em Uso",
+      "tipo": "habilidade",
+      "nivel": 11,
+      "destino": "guia-obra-uso",
+      "status": "coberto"
+    },
+    {
+      "fonte": "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md",
+      "linhas": [
+        196,
+        216
+      ],
+      "titulo": "Obras maiores",
+      "tipo": "seção",
+      "nivel": null,
+      "destino": "guia-obras-maiores",
+      "status": "coberto"
+    },
+    {
+      "fonte": "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md",
+      "linhas": [
+        217,
+        224
+      ],
+      "titulo": "Obra de Emergência",
+      "tipo": "habilidade",
+      "nivel": 19,
+      "destino": "guia-emergencia",
+      "status": "coberto"
+    },
+    {
+      "fonte": "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md",
+      "linhas": [
+        225,
+        232
+      ],
+      "titulo": "Plano Construído",
+      "tipo": "habilidade",
+      "nivel": 27,
+      "destino": "guia-emergencia",
+      "status": "coberto"
+    },
+    {
+      "fonte": "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md",
+      "linhas": [
+        233,
+        236
+      ],
+      "titulo": "Trilha: Analista",
+      "tipo": "seção",
+      "nivel": null,
+      "destino": "guia-analista",
+      "status": "coberto"
+    },
+    {
+      "fonte": "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md",
+      "linhas": [
+        237,
+        257
+      ],
+      "titulo": "Ler a Resposta",
+      "tipo": "habilidade",
+      "nivel": 2,
+      "destino": "guia-analista",
+      "status": "coberto"
+    },
+    {
+      "fonte": "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md",
+      "linhas": [
+        258,
+        269
+      ],
+      "titulo": "Apontar a Brecha",
+      "tipo": "habilidade",
+      "nivel": 11,
+      "destino": "guia-brecha",
+      "status": "coberto"
+    },
+    {
+      "fonte": "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md",
+      "linhas": [
+        270,
+        275
+      ],
+      "titulo": "Rever a Leitura",
+      "tipo": "habilidade",
+      "nivel": 19,
+      "destino": "guia-brecha",
+      "status": "coberto"
+    },
+    {
+      "fonte": "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md",
+      "linhas": [
+        276,
+        285
+      ],
+      "titulo": "Padrão Decifrado",
+      "tipo": "habilidade",
+      "nivel": 27,
+      "destino": "guia-padrao",
+      "status": "coberto"
+    },
+    {
+      "fonte": "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md",
+      "linhas": [
+        286,
+        289
+      ],
+      "titulo": "Trilha: Socorrista",
+      "tipo": "seção",
+      "nivel": null,
+      "destino": "guia-socorrista",
+      "status": "coberto"
+    },
+    {
+      "fonte": "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md",
+      "linhas": [
+        290,
+        299
+      ],
+      "titulo": "Cuidado Preparado",
+      "tipo": "habilidade",
+      "nivel": 2,
+      "destino": "guia-socorrista",
+      "status": "coberto"
+    },
+    {
+      "fonte": "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md",
+      "linhas": [
+        300,
+        311
+      ],
+      "titulo": "Receber o socorro antes",
+      "tipo": "seção",
+      "nivel": null,
+      "destino": "guia-socorrista",
+      "status": "coberto"
+    },
+    {
+      "fonte": "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md",
+      "linhas": [
+        312,
+        331
+      ],
+      "titulo": "Tratar e Retomar",
+      "tipo": "habilidade",
+      "nivel": 11,
+      "destino": "guia-tratamento",
+      "status": "coberto"
+    },
+    {
+      "fonte": "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md",
+      "linhas": [
+        332,
+        343
+      ],
+      "titulo": "Ainda Há Tempo",
+      "tipo": "habilidade",
+      "nivel": 19,
+      "destino": "guia-emergencia-cuidado",
+      "status": "coberto"
+    },
+    {
+      "fonte": "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md",
+      "linhas": [
+        344,
+        353
+      ],
+      "titulo": "Atendimento em Cadeia",
+      "tipo": "habilidade",
+      "nivel": 27,
+      "destino": "guia-emergencia-cuidado",
+      "status": "coberto"
+    }
+  ],
+  "habilidades": 17,
+  "secoes_totais": 33,
+  "fora_escopo": [
+    "Progressão geral, compra inicial e explicação integral de armas/perícias/condições, que permanecem com seus donos.",
+    "Reescrita de Morrendo, morte e Integridade, ainda na fila."
+  ]
+}

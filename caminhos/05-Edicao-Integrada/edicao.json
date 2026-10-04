@@ -1,0 +1,17 @@
+{
+  "versao": "0.331",
+  "caminhos": {
+    "Bastião": "01-Bastião-Caminho-e-Trilhas.md",
+    "Vanguarda": "02-Vanguarda-Caminho-e-Trilhas.md",
+    "Emanador": "03-Emanador-Caminho-e-Trilhas.md",
+    "Guia": "04-Guia-Caminho-e-Trilhas.md",
+    "Evocador": "05-Evocador-Caminho-e-Trilhas.md",
+    "Incursor": "06-Incursor-Caminho-e-Trilhas.md"
+  },
+  "origem_novos": "/home/mizuki/CHAT-GPT/RPG -JJK/entregas/evocador-incursor-consolidado-2026-10-02/Projeto-M-Evocador-e-Incursor",
+  "origens_sha256": {
+    "01-EVOCADOR/00-EVOCADOR-COMPLETO.md": "3a056c5e86cb63c78c7633077a77bcd39868a71f8d91a106d1816beebc6ce10c",
+    "02-INCURSOR/00-INCURSOR-COMPLETO.md": "25057eab896a711d8bf2e86a61b9267255a5305be08fa5c52537ede2a2106d64",
+    "04-REFERENCIAS/INVOCACOES-CAPITULO-PARA-REVISAO.md": "0aa6b27c03af88de755cf910ea98e8aeef9fef1e7a20b753944c36fb1a5dbdd4"
+  }
+}

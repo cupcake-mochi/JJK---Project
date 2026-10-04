@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "manuscritos_auditados": {
+    "sistema/05-material/livro/planejamento-editorial/caminhos/evocador/lote-01/EVOCADOR.md": "f16e12fb1445657ca5cab2466bc8c9a8b85c40b49789ebb414472872a6491645"
+  },
+  "origem": "evidencias/AUDITORIA.json",
+  "limites": [
+    "Enumerações locais de regras e recursos, não playtest ou comparação de dano total entre todos os Caminhos.",
+    "Modelos de probabilidade não incluem imunidades, Bloquear, crítico, alcance, dano ou composição de encontro.",
+    "Ação ofensiva e quantidade de ataques não são sinônimos: a ficha de cada capacidade pode conter mais de uma rolagem.",
+    "Modelo de corpos inclui fechamento autorizado pelo coordenador; exige sincronização R11 antes de publicar."
+  ]
+}

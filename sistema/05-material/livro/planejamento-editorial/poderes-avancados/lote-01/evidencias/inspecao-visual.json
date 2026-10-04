@@ -1,0 +1,111 @@
+{
+  "sha256_pdf": "fe220c707ef23e311c37c0da1d31ac6068a1f0dd40ee933dc6bad3d754393641",
+  "metodo": "Todas as quinze páginas finais foram inspecionadas pelo principal em pares renderizados a 1300 px.",
+  "paginas": [
+    {
+      "pagina": 1,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Título, tabela ou exemplo e corpo legíveis; sem cortes, colisões ou páginas vazias indevidas.",
+      "sha256_png": "e0aeef2105a391a99b031bd7fd662bd5d724d70ba07f05d4e15505ce0b5af926",
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 2,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Título, tabela ou exemplo e corpo legíveis; sem cortes, colisões ou páginas vazias indevidas.",
+      "sha256_png": "6324273a8be6759581c592bcf1dc0e32c51db644b1559441eac34a09105e8a4c",
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 3,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Título, tabela ou exemplo e corpo legíveis; sem cortes, colisões ou páginas vazias indevidas.",
+      "sha256_png": "5c9fb5b775b9222ecaf108fd596c985d2f00974d4f7b32849990b7a6bc62b276",
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 4,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Título, tabela ou exemplo e corpo legíveis; sem cortes, colisões ou páginas vazias indevidas.",
+      "sha256_png": "71f66903089320f95fe89633799f40b6e0fa1224b344d4d58cf80bb1c48d3beb",
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 5,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Título, tabela ou exemplo e corpo legíveis; sem cortes, colisões ou páginas vazias indevidas.",
+      "sha256_png": "b52979847b9e7cbe6cfc15dfc14f6114ad7e392a21b55418a054f50a7d770d89",
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 6,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Título, tabela ou exemplo e corpo legíveis; sem cortes, colisões ou páginas vazias indevidas.",
+      "sha256_png": "cb3c2ff15db150be655be029df5b5fd6903dd96c5effb504bcba84f56762f373",
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 7,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Título, tabela ou exemplo e corpo legíveis; sem cortes, colisões ou páginas vazias indevidas.",
+      "sha256_png": "bfcbda1a83021e2fb3459b7998038f4bebb4f73b7e6c7df830b5ba54a7370a8b",
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 8,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Título, tabela ou exemplo e corpo legíveis; sem cortes, colisões ou páginas vazias indevidas.",
+      "sha256_png": "9a6c9caceed68c3571aa2a3fce3fe7fd5426020ca439f81118666eae3c958398",
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 9,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Título, tabela ou exemplo e corpo legíveis; sem cortes, colisões ou páginas vazias indevidas.",
+      "sha256_png": "a2e1c0597437640edacfe9a713e0e45a7504fc04354f696fda0005afb2fc969a",
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 10,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Título, tabela ou exemplo e corpo legíveis; sem cortes, colisões ou páginas vazias indevidas.",
+      "sha256_png": "7e0fb16093d04fa0f1c2238c1c35a19665c3c8f3632ac1baffa189a8658ff985",
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 11,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Título, tabela ou exemplo e corpo legíveis; sem cortes, colisões ou páginas vazias indevidas.",
+      "sha256_png": "be70fac6d906ad3cfeb22517b2e94f854b7d351e36b6eb9e35e008e69c908172",
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 12,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Título, tabela ou exemplo e corpo legíveis; sem cortes, colisões ou páginas vazias indevidas.",
+      "sha256_png": "21209d25a7d237de0b714a4475e679315a1ff2703103d206c0bc62d79e0c1dc2",
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 13,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Título, tabela ou exemplo e corpo legíveis; sem cortes, colisões ou páginas vazias indevidas.",
+      "sha256_png": "3c5a4fee1d14049a16635b84cf669b4bf0680f48eb6970399b516dde294a7f22",
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 14,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Título, tabela ou exemplo e corpo legíveis; sem cortes, colisões ou páginas vazias indevidas.",
+      "sha256_png": "7742a96db584da2819451ee9f99bc48290aaba53be85cabc0fb1bf5c0de73de6",
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 15,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Título, tabela ou exemplo e corpo legíveis; sem cortes, colisões ou páginas vazias indevidas.",
+      "sha256_png": "160ee9e888ad2eaf8c0991630dfc70993110006f3a1127d1df82875c8af2cf24",
+      "revisor": "Agente principal"
+    }
+  ]
+}

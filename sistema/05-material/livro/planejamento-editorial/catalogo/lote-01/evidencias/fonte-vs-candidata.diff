@@ -1,0 +1,2158 @@
+--- manual/40-fundamento.md
++++ CATALOGO.md
+@@ -1,1363 +1,796 @@
+-# Fundamento
+-
+-## Técnica e feitiços
+-
+-Todo personagem nasce com uma única técnica, e ela nunca muda. Essa técnica se chama **Fundamento**, e é uma descrição e uma regra, escritas por você na criação do personagem. Tudo que o personagem faz de único nasce dela.
+-
+-O que você usa em mesa são os **feitiços**: aplicações concretas da técnica, cada uma com nome próprio. Você mesmo monta os seus feitiços, gastando pontos.
+-
+-### Classe do feitiço
+-
+-Todo feitiço tem uma **Classe**, que mede o tamanho dele. A Classe diz quantos pontos você tem para gastar na montagem.
+-
+-> **Pontos = 3 × Classe.**
+-> Um feitiço de Classe 3 tem **9 pontos**.
+-
+-Cada ponto que você não gastar em mais nada vira **1d8 de dano**. Uma Classe 3 que põe tudo em dano causa 9d8.
+-
+-Os pontos também compram **Melhorias**: alcance maior, área, derrubar o alvo, conjurar como ação bônus. E, se quiser recuperar pontos, você pode aceitar **Restrições**, que são desvantagens devolvendo pontos ao orçamento em troca de o feitiço ficar mais difícil de usar.
+-
+-Os pontos devolvidos por Restrição só servem para pagar Melhoria: **Restrição nunca aumenta o dano**. E, contra um alvo só, feitiço comum não passa dos pontos da Classe em dados. Quem rompe esse limite é a **Liberação Máxima**, que chega no nível 10.
+-
+-São oito Classes.
+-
+-**Classe do feitiço**
+-{: .tab-titulo }
+-
+-| Classe | O que é | Quando aparece |
++<!-- page:cat-catalogo|Catálogo de criação -->
++# Catálogo de criação
++
++Uma Melhoria acrescenta um efeito ao feitiço. Uma Restrição aceita uma dificuldade em troca de pontos. Uma Passiva ocupa espaços do repertório e modifica o personagem ou sua técnica. Escolha as entradas que realizam a ideia registrada no seu Fundamento.
++
++As **Formas** definem alcance, área e resolução. Suas tabelas estão em Fundamento, nas seções Formas, Formas de Amparo e Alcance e área. A criação guiada, os preços em pontos e os limites de montagem também ficam nesse capítulo.
++
++## Melhorias por Família
++
++| Família | O que você encontra |
++|---|---|
++| [Alcance](#cat-alcance) | Distância, visão e movimento. |
++| [Área](#cat-area) | Tamanho, alvos, tiros e permanência. |
++| [Mira](#cat-mira) | Acerto, repetições de ataque e defesas. |
++| [Controle](#cat-controle) | Condições, obstáculos e contenção. |
++| [Auxiliares](#cat-auxiliares) | Apoio aos aliados e dificuldades para inimigos. |
++| [Castigo](#cat-castigo) | Dano adicional e efeitos sobre a recuperação. |
++| [Tempo](#cat-tempo) | Ação, momento do disparo e duração. |
++| [Marca](#cat-marca) | Acompanhar um alvo, obter informação e preparar ataques seguintes. |
++| [Amparo](#cat-amparo) | Cura, proteção e remoção de condições. |
++| [Efeito Próprio](#cat-proprio) | Uma capacidade nova, com limites e preço combinados antes da sessão. |
++
++## Ficha pronta
++
++Copie para a ficha somente as peças escolhidas, incluindo seus alvos, prazos e limites. Registre a resolução por ataque ou TR durante a criação; ela não muda a cada uso. Uma peça que exige acerto ou falha no TR não se aplica pelo dano parcial de um erro ou de um TR bem-sucedido.
++
++Uma compra dá o efeito descrito uma vez. Só repita uma peça quando a entrada permitir. Acrescentar alvos, repetir dano e prolongar duração são efeitos diferentes: nenhum deles concede os outros automaticamente.
++
++**Passivas** que exigem ação ou PE conservam esse custo. Seu nome indica uma aquisição duradoura na ficha. Não significa que todos os seus efeitos aconteçam sem ação.
++
++As [Restrições](#cat-restricoes-conjuracao) apresentam os custos e as condições de uso. As [Passivas](#cat-passivas-1) se organizam por Classe Passiva; a [Regra Própria](#cat-regra-propria) tem aquisição específica.
++
++
++<!-- page:cat-alcance|Alcance -->
++# Alcance
++
++## Longe
++
++**Preço: Leve.** Aumenta o alcance em **um degrau**. Pode comprar duas vezes. Use a escada de distância da Forma. Em Cone e Linha, aumente o comprimento pela escada própria. Não aumenta o raio nem muda a origem de uma área centrada em você. Não combina com Toque, Aura ou Onda.
++
++## Muito Longe
++
++**Preço: Média.** Aumenta o alcance em **três degraus**, pelas mesmas escadas e limites de Longe. Não ultrapassa o último degrau. Não combina com Toque, Aura ou Onda.
++
++## Sem Ver
++
++**Preço: Pesada.** Permite escolher um alvo ou ponto de origem que você não enxerga, desde que **saiba sua posição atual**. Mantém alcance e trajetória da Forma. Não localiza criaturas nem atravessa um obstáculo sólido. Uma parede ainda pode impedir a aplicação. Não dispensa um Selo que exija usar os próprios olhos.
++
++## Perseguir
++
++**Preço: Média.** Só se aplica a um feitiço dirigido a um **alvo individual**. Se um deslocamento ocorrido entre a escolha válida desse alvo e a resolução o levar para fora do alcance, a aplicação acompanha esse deslocamento e resolve em seguida. Não adia a resolução, não procura um alvo perdido e não segue teleporte. Visão exigida e trajeto aberto continuam necessários. Não amplia Toque. Em Armado, a escolha do alvo só ocorre quando o gatilho dispara.
++
++<!-- page:cat-movimento|Movimento -->
++# Movimento
++
++## Passo
++
++**Preço: Leve.** Antes ou depois de resolver o feitiço, você pode se deslocar **até 6 m**, sem ataques de oportunidade e sem gastar outra Ação de Movimento. Escolha o momento ao usar. Terreno, limites e condições do seu movimento continuam valendo. Não concede voo, escalada nem teleporte. Ação Completa, sozinha, não impede esse deslocamento. **Atrasar e Parado impedem usar Passo no turno.**
++
++## Empurrão
++
++**Preço: Leve.** Depois da resolução, escolha **um alvo** que tenha sido acertado ou falhado no TR e mova-o **até 6 m**, na direção escolhida por você. Só um alvo por conjuração, mesmo em área, Mais Um ou Rajada. Em benefício aplicado a um aliado disposto, ele aceita o movimento. O percurso precisa estar livre. Pare diante de uma parede ou de um espaço que não comporte o alvo. Não concede dano de colisão nem permite escolher um destino suspenso no ar. Quedas de uma beirada seguem as regras comuns. Se houver Puxa na mesma ficha, escolha para esse alvo qual dos dois movimentos aplicar. Eles não se somam.
++
++## Troca
++
++**Preço: Média.** Escolha um alvo que tenha sido acertado ou falhado no TR: **você e ele trocam de posição** imediatamente. Só uma troca por conjuração, mesmo em área ou com vários alvos. Um alvo disposto aceita a troca. Ambos precisam caber e ter apoio nos espaços de chegada. Se um dos destinos não for possível, ninguém muda de lugar. A troca não percorre os espaços intermediários nem provoca ataques de oportunidade. Ainda exige escolher o alvo com o alcance e a visão permitidos pela ficha e não atravessa uma barreira que proíba esse transporte.
++
++<!-- page:cat-area|Área -->
++# Área
++
++## Maior
++
++**Preço: Leve.** Aumenta o tamanho de uma área em **um degrau**. Pode comprar duas vezes. Use a escada de raio ou de comprimento da Forma. Na Linha, aumente primeiro o comprimento até 60 m. Depois a largura para 3 m e então 4,5 m. Não cria área numa Forma de alvo individual nem aumenta a distância até seu ponto de origem.
++
++## Muito Maior
++
++**Preço: Pesada.** Aumenta o tamanho da área em **três degraus**, seguindo a mesma ordem e os mesmos limites de Maior. Não ultrapassa o último degrau nem cria área onde não existe.
++
++## Escolher
++
++**Preço: Média.** Ao criar a área, escolha quais criaturas presentes ela pode atingir. As demais ficam excluídas daquela aplicação. Não muda o formato, não cria alvos adicionais nem seleciona quem você não consegue distinguir por percepção válida. Com Fica, registre as criaturas excluídas no disparo: novas criaturas não ficam protegidas automaticamente, e a lista não muda a cada entrada.
++
++## Mais Um
++
++**Preço: Leve.** Acrescenta **um alvo individual** ao feitiço. Pode comprar duas vezes. Divida os dados disponíveis em parcelas inteiras antes de rolar, com pelo menos um dado para cada alvo que receber o efeito. Confira alcance, visão e resolução para cada um. Não duplica uma área nem substitui Junto nas Formas Cura e Apoio. Toque exige todos os alvos a até 1,5 m de você.
++
++## Rajada
++
++**Preço: Leve.** Divide o feitiço em **Classe + 1 tiros**, cada um com ataque próprio. Só em Forma de alvo individual com ataque. Distribua os dados e indique os alvos antes de rolar. Cada tiro precisa de pelo menos um dado. Se faltarem dados, reduza o número de tiros. Você pode dirigir vários ao mesmo alvo. Todos cumprem alcance e requisitos da Forma. Não combina com resolução só por TR nem transforma uma área em várias áreas.
++
++Cada alvo ou tiro com dados pode aplicar suas Melhorias quando sua resolução permitir. Os demais tiros desta conjuração não acumulam nem renovam a mesma condição no mesmo alvo. Limites próprios, como uma Troca ou um Empurrão por conjuração, permanecem.
++
++<!-- page:cat-area-continua|Efeitos de área -->
++# Efeitos de área
++
++## Fica
++
++**Preço: Média.** Mantém a área **na rodada da conjuração e nas cinco seguintes**, com concentração, até o fim da última. A aplicação inicial resolve normalmente. Depois, entrar na área ou começar o turno nela resolve metade dos dados iniciais, para baixo, pelo ataque ou TR da ficha. **Uma resolução por criatura por rodada**, incluindo a inicial, mesmo se o ataque errar ou o TR evitar o dano.
++
++Use os dados anteriores ao crítico. Se Acúmulo acrescentou dados apenas a um alvo, mantenha essa base separada das demais criaturas.
++
++A área fica no local, inclusive se começou como Aura. Não reaplica as outras peças. Mover a área por outra capacidade não conta como entrada de uma criatura. Concentrada e Duradoura não prolongam Fica. Ela tem duração própria, sem reserva total de 4 × Classe para todas as rodadas.
++
++## Salto
++
++**Preço: Média.** **Uma vez por conjuração**, após a resolução inicial, escolha um alvo que tenha sido acertado ou falhado no TR. Metade dos dados iniciais **destinados a esse alvo**, antes do crítico e arredondada para baixo, salta para outro inimigo: o mais próximo dele a até **9 m**, por trajeto aberto. Escolha em caso de empate.
++
++Faça o ataque com o mesmo bônus ou o TR da ficha contra esse segundo alvo. O ataque secundário pode errar. O TR reduz ou evita o dano conforme a ficha. Em Rajada, escolha um tiro que acertou como origem e use só os dados desse tiro. O segundo alvo cumpre os requisitos de visão e alvo da ficha. O Salto não causa crítico, não reaplica peças nem ativa benefícios de outro ataque. Não volta a saltar. Em Toque, os dois alvos devem estar a até 1,5 m de você.
++
++## Contorno
++
++**Preço: Leve.** Permite à **área seguir um percurso aberto**, dobrando esquinas e passando ao redor de cobertura. Meça alcance e extensão pelo percurso real, respeitando comprimento, largura ou raio da Forma. Ignore a proteção de uma cobertura somente quando o efeito conseguir contorná-la. Não atravessa sólido nem enche outro cômodo além dessas medidas.
++
++Não concede visão: o alvo ou ponto de origem escolhido ainda precisa ser válido, ou requer Sem Ver. Depois de criada validamente, a área pode alcançar criaturas não vistas pelo percurso permitido.
++
++<!-- page:cat-mira|Mira -->
++# Mira
++
++## Precisão
++
++**Preço: Leve.** Concede **+2 no ataque ou +2 na CD do TR** que resolve o feitiço, conforme a resolução da ficha. Não concede bônus a efeito inteiramente automático. Um TR de saída que use a mesma CD conserva esse valor. Não aumenta cura, dano ou testes de perícia.
++
++## Certeiro
++
++**Preço: Média.** Só em ficha com ataque. Se o **resultado final errar um alvo válido**, causa metade dos dados daquele ataque, para baixo, sem outros efeitos nem crítico. No acerto, aplica dano e crítico normalmente. Resolva De Novo antes de conferir o erro final. Não some uma parcela de erro a outra de acerto. Bloquear ou Aparar pode produzir esse erro final. Uma redução de dano após o acerto não o produz.
++
++## Inescapável
++
++**Preço: Média.** Só em **Projétil de dano**. O dano é automático, sem ataque nem TR, e não pode ser crítico. Esta é a única Melhoria da ficha. Não aceita Restrição, incluindo uma embutida na Forma. Você ainda precisa escolher alvo válido, dentro do alcance e com visão e trajeto exigidos. Não se combina com área, Controle, outras Formas, Liberação Máxima ou Técnica Máxima.
++
++## De Novo
++
++**Preço: Média.** **Uma vez por cena, compartilhando esse uso entre suas fichas**, depois de um ataque deste feitiço errar, repita essa rolagem de ataque, com os mesmos modificadores e o mesmo alvo. Use o novo resultado. Em Rajada, repete somente um tiro. Não obriga alguém a repetir TR nem repete o feitiço inteiro. Alvo e requisitos precisam continuar válidos.
++
++<!-- page:cat-defesas|Defesas -->
++# Defesas
++
++## Fura
++
++**Preço: Média.** Ao causar dano, ignore até **2 × Classe de Redução de Dano** do alvo para este feitiço. Não elimina resistência, imunidade, cobertura ou pontos de vida de uma barreira. Um valor ignorado não se transforma em dano adicional.
++
++## Corrói
++
++**Preço: Pesada.** Só pode ser comprada se **Mira for uma Família Livre**. A resistência ao tipo de dano deste feitiço não reduz seu dano nesta aplicação. Não remove a resistência do alvo contra outras fontes e não ignora imunidade ou Redução de Dano.
++
++## Sem Cobertura
++
++**Preço: Leve.** Ignore os bônus de **Cobertura Parcial** contra este feitiço. Cobertura Boa mantém seus bônus; Cobertura Total continua impedindo escolher diretamente o alvo. Esta peça não concede visão nem muda a trajetória.
++
++## Toca a Alma
++
++**Preço: Leve.** Requer **Classe 3 ou superior** e Fundamento cuja Regra trate diretamente da alma. Troque os dados de dano do feitiço por dano de Alma e reduza sua quantidade à metade, para baixo. Aplique depois **Dano na alma**, inclusive suas defesas e Integridade. Não combina com Liberação Máxima. Na Técnica Máxima, conserva a redução e os requisitos.
++
++<!-- page:cat-controle|Controle -->
++# Controle
++
++## Condição
++
++**Preço: Nível da condição.** Escolha na montagem **uma das treze condições compráveis** de Condições. Pague seu nível: Leve, Média ou Pesada. Ela se aplica no acerto ou na falha do TR, dura **uma rodada** e termina no começo do seu próximo turno, salvo duração diferente da ficha. Só pode haver uma Pesada por feitiço.
++
++Uma Pesada permite ao alvo repetir o TR registrado no fim de cada turno dele, sem ação, encerrando aquela aplicação no sucesso, mesmo que tenha sido aplicada por ataque. Leves e Médias não ganham essa saída por padrão. Concentrada, Duradoura e o bônus de Controle mudam os prazos nos limites próprios. Não retiram as saídas da condição.
++
++## Terreno
++
++**Preço: Leve.** Requer Forma de área. Escolha ao montar: a área vira **terreno difícil** ou recebe **obscurecimento denso**, bloqueando a visão através dela, por uma rodada. O local fica fixo. Afeta quem passar por ele enquanto durar, sem TR por entrada. Não causa dano nem aplica condição. Obscurecimento não cria cobertura física nem deixa alguém Oculto automaticamente.
++
++## Cerca
++
++**Preço: Leve.** No acerto ou na falha do TR, o alvo não pode **se aproximar voluntariamente de você** até o fim do próximo turno dele. Você se mover até ele não o afasta. Movimento imposto continua possível. A aplicação termina assim que você lhe causar dano, **inclusive o dano do feitiço que a aplicou**.
++
++## Desarma o Feitiço
++
++**Preço: Média.** Escolha **um efeito contínuo ou uma barreira com Classe registrada**, ao alcance da Forma. Se sua Classe for igual ou maior, essa aplicação termina, sem ataque ou TR adicional. O efeito precisa ser percebido e ter acesso válido. Não é necessário atingir seu criador. Cancelar o efeito não causa dano nem aplica as outras peças ao criador.
++
++Não desfaz um resultado já concluído, não remove todas as capacidades de uma criatura e não atribui Classe a item, característica inata, Selo ou Domínio. Esses casos só podem ser desfeitos se suas regras concederem essa possibilidade.
++
++<!-- page:cat-obstaculos|Obstáculos e contenção -->
++# Obstáculos e contenção
++
++## Anteparo
++
++**Preço: Média.** Cria uma **barreira fixa**, num ponto válido ao alcance do feitiço, com **10 × Classe PV** e duração de **1 minuto**. Seus painéis de 1,5 m usam a quantidade de quadrados da Linha básica da Classe, distribuídos numa superfície vertical contínua. Cada painel compartilha um lado com outro e a altura mínima é **3 m**. Registre o formato.
++
++Coloque-a em espaços livres, sem atravessar criaturas nem empurrá-las. Ela impede passagem e oferece cobertura conforme a posição. Bloqueia visão se seu material for opaco. Todos os painéis partilham a mesma vida: ao chegar a zero, a barreira inteira termina. Use as regras de objetos para atacá-la. Não concede bônus de escudo equipado nem exige atacar uma criatura para surgir. Concentrada e Duradoura não prolongam sua duração.
++
++## Prende
++
++**Preço: Média.** No acerto ou na falha do TR, o alvo não pode se deslocar voluntariamente até o fim do próximo turno dele. Ainda pode atacar, conjurar e usar outras ações. No próprio turno, pode gastar **Ação Padrão, Ação Bônus ou Ação de Movimento** para fazer o TR de saída registrado na ficha contra sua CD. No sucesso, a aplicação termina. Cada tentativa paga uma dessas ações.
++
++Não concede saída automática no fim do turno. Movimento imposto não é impedido e não encerra o efeito por si. Se o mesmo feitiço também mover o alvo, resolva o movimento antes de prendê-lo.
++
++## Puxa
++
++**Preço: Média.** Requer uma área com **centro definido**. No disparo, cada alvo atingido ou que falhe no TR é movido **até 6 m em direção ao centro**. O trajeto precisa estar livre e a chegada deve comportá-lo. Pare antes de um obstáculo ou de sobrepor criaturas. Quem já chegou ao centro não é arrastado além dele.
++
++Resolva os alvos do mais próximo ao mais distante do centro. Em empate, o conjurador escolhe a ordem. Não repete o movimento quando alguém entra depois na área. Uma criatura não recebe Puxa e Empurrão da mesma conjuração. Escolha qual aplicar a ela. Cone e Linha precisam de outro efeito para puxar a um ponto que sua Forma não define como centro.
++
++
++<!-- page:cat-auxiliares|Auxiliares -->
++# Auxiliares
++
++Estas Melhorias favorecem um aliado ou dificultam as ações de um adversário. Um benefício exige alvo disposto. Contra um alvo hostil, a peça depende do acerto ou da falha no TR da ficha. O efeito não entra só porque houve dano parcial.
++
++## Impulso  -  Leve
++
++O alvo tem vantagem no próximo teste que fizer até o fim do próximo turno dele. O benefício termina depois desse teste, mesmo se ele falhar. Não modifica rolagens de dano.
++
++## Trava  -  Leve
++
++O alvo tem desvantagem no próximo ataque que fizer. A peça termina depois dessa tentativa ou no começo do seu próximo turno, o que acontecer primeiro.
++
++## Abre Ferida  -  Leve
++
++Escolha um dos quatro TRs na criação. Até o fim do próximo turno do alvo, ele sofre -2 nesse tipo de TR. A penalidade só entra depois da resolução que aplicou a peça: não reduz o próprio TR usado para resistir a este feitiço.
++
++## Sobrecarga  -  Leve
++
++Até o fim do próximo turno dele, o alvo não pode usar Reação e a CD dos feitiços que conjurar diminui em 2. Não altera o bônus de ataque nem a CD de efeitos que ele já havia aplicado.
++
++## Firmeza  -  Média
++
++O alvo tem vantagem no próximo TR que fizer. O benefício termina depois desse teste ou no começo do seu próximo turno, o que acontecer primeiro. Ele não substitui o TR por sucesso automático.
++
++> **Exemplo:** uma criatura falha no TR de um feitiço com Abre Ferida, escolhido para afetar TR Físico. A penalidade não muda aquela falha. Um novo TR Físico feito dentro do prazo recebe -2. Seu TR de Vigor continua igual.
++
++<!-- page:cat-auxiliares-apoio|Proteção e apoio -->
++# Proteção e apoio
++
++As peças desta página pertencem à Família Auxiliares. O prazo indicado usa o turno do alvo, salvo Ecoa, que usa o seu.
++
++## Guarda  -  Média
++
++O alvo recebe +2 na Defesa até o fim do próximo turno dele. O bônus não altera seus TRs. A relação entre Defesa e Bloquear segue o procedimento de combate.
++
++## Pressa  -  Média
++
++O alvo recebe +6 m de deslocamento e seus movimentos não provocam ataques de oportunidade até o fim do próximo turno dele. A peça não concede um movimento imediato nem ações adicionais. Terreno e condições continuam afetando o movimento disponível.
++
++## Enfraquece  -  Média
++
++Até o fim do próximo turno do alvo, reduza o dano que ele causar em **Xd4**, sendo X metade do seu atributo da técnica, arredondada para baixo, mínimo zero.
++
++Role a redução ao resolver cada ataque ou aplicação de dano dele, antes das defesas de quem recebe. Numa mesma área, use uma única rolagem da redução para todas as criaturas. O resultado não pode reduzir o dano abaixo de zero. A peça não modifica custos que o alvo paga em vida nem dano de outras criaturas que ele comande.
++
++## Ecoa  -  Média
++
++O próximo ataque de um aliado seu, diferente de você, contra o alvo tem vantagem. A peça termina depois dessa tentativa, mesmo se errar, ou no começo do seu próximo turno. Não beneficia TRs nem rolagens feitas apenas para resolver um dano secundário.
++
++## Duração e usos
++
++Concentrada ou Duradoura podem ampliar o prazo de uma peça compatível. Isso não renova benefícios consumidos: Impulso, Trava, Firmeza e Ecoa continuam valendo para apenas o próximo teste ou ataque. Uma duração maior não oferece uma nova vantagem em cada turno.
++
++<!-- page:cat-castigo|Castigo -->
++# Castigo
++
++Estas Melhorias modificam o dano. Queima, Remate e os pacotes secundários entram na conta de **Dano e repetições**; Acúmulo conserva sua exceção. Aplique as defesas de cada criatura quando ela receber o dano.
++
++## Queima  -  Média
++
++Se o alvo for acertado ou falhar no TR inicial, recebe novamente metade dos dados daquela parcela inicial, arredondada para baixo, no começo do próximo turno dele. Em Rajada ou Mais Um, use somente os dados destinados àquela aplicação no alvo, nunca os dados de todos os tiros ou alvos. Use a quantidade anterior ao crítico. O dano conserva seu tipo, não exige outro ataque ou TR e não aplica as outras peças da ficha.
++
++A Queima acontece uma vez por aplicação inicial no alvo. Não gera outra Queima nem pode ser prolongada por Concentrada ou Duradoura. Dano parcial num erro ou num TR bem-sucedido não aplica a peça.
++
++## Acúmulo  -  Média
++
++Mantenha uma sequência deste feitiço contra um alvo escolhido. Usá-lo em rodadas seguidas contra esse alvo dá **+1d8 no segundo uso, +2d8 no terceiro e +3d8 no quarto e nos seguintes**. O primeiro começa sem bônus. Um ataque que erre ainda conta como uso. Uma tentativa sem alvo válido não conta.
++
++A sequência aumenta no máximo uma vez por rodada. Repetir o feitiço na mesma rodada usa o bônus já alcançado. Se passar uma rodada inteira sem usá-lo contra o alvo, ou se você escolher outro alvo para a sequência, o próximo uso começa sem bônus. Mantenha uma sequência por ficha de feitiço.
++
++Numa área ou em ataques divididos, indique qual alvo acompanha a sequência. O bônus pertence apenas ao dano inicial destinado a ele. Em vários tiros, distribua os dados adicionais entre os tiros dirigidos a esse alvo. Não some o bônus inteiro em cada tiro.
++
++Os dados deste uso entram na base de seus próprios efeitos derivados, mas não alteram Queima, Fica, Salto ou Estilhaço de usos anteriores. Em Fica, o bônus pertence apenas ao alvo acompanhado: as outras criaturas na área usam a base sem esse acréscimo. Remate pode aumentar esse dano normalmente. O crescimento de Acúmulo, inclusive seus efeitos derivados, pode ultrapassar o teto conferido na montagem. Não exige reduzir retroativamente o feitiço.
++
++<!-- page:cat-castigo-dano|Dano adicional -->
++# Dano adicional
++
++Estas peças pertencem à Família Castigo. Dano secundário não é uma nova conjuração, não é crítico e não aplica novamente as outras Melhorias.
++
++## Remate  -  Média
++
++Aumente em 25% o dano inicial deste uso contra uma criatura que esteja **abaixo da metade da vida**, conferida antes da parcela de dano. O multiplicador entra antes das defesas. Um tiro de Rajada que leve o alvo abaixo da metade pode habilitar os tiros seguintes. Queima, Fica, Salto e Estilhaço não reaplicam este multiplicador.
++
++Não combina com Condicional ligada à vida do alvo ou à duração, nem com Aquecer. Na montagem, conte seu multiplicador ao verificar o teto. Crítico e Acúmulo conservam suas regras próprias.
++
++## Estilhaço  -  Leve
++
++Uma vez por conjuração, depois da resolução inicial, escolha um alvo que sofreu crítico ou falhou no TR por 5 ou mais. Metade dos dados iniciais destinados àquela origem, arredondada para baixo e sem os dados adicionais do crítico, atinge as outras criaturas a até **1,5 m** dele, respeitando obstáculos.
++
++Em Rajada, escolha um tiro que cumpriu o gatilho e use apenas os dados dele. O respingo não exige outro ataque ou TR. Pode atingir aliados e você. Não herda Escolher. Não aplica outras peças, não ativa benefícios por ataque nem produz outro respingo. Vários alvos iniciais que cumpram o gatilho continuam produzindo apenas um Estilhaço.
++
++## Quebra Coisa  -  Leve
++
++Dobre o dano inicial contra barreiras, objetos e estruturas que possam ser afetados pela ficha. Queima, Fica, Salto e Estilhaço não reaplicam o multiplicador. Isso não permite atingir algo sem alcance ou passagem, nem tratar uma criatura como objeto. Conte o multiplicador na montagem e mantenha as defesas do objeto que a peça não ignora.
++
++## Rasga Escudo  -  Média
++
++O dano ignora a vida temporária e uma barreira que esteja absorvendo dano no lugar do alvo: desconte diretamente da vida. Não ignora RD, resistência, imunidade, cobertura ou uma parede que impeça o feitiço de alcançar o alvo.
++
++## Sem Cura  -  Média
++
++O alvo não pode recuperar vida até o fim do próximo turno dele. Isso não remove vida temporária já recebida, não impede uma concessão de vida temporária e não retira condições por si só. Integridade usa seu procedimento próprio.
++
++<!-- page:cat-tempo|Tempo -->
++# Tempo
++
++Estas Melhorias alteram a ação ou o momento de resolução. Pague os custos quando conjurar. Um disparo adiado não cria um item e não permite emprestar a ficha a outra criatura. Restrições continuam obrigatórias: Parado e Atrasar proíbem movimento tanto no turno do pagamento quanto no turno do disparo. Requisitos não cumpridos impedem a resolução.
++
++## Rápido  -  Pesada
++
++Use Ação Bônus no lugar da Padrão. Não combina com Reação ou Atrasar, e não substitui a Ação Completa de uma Liberação Máxima ou Técnica Máxima. O limite de conjuração no turno permanece.
++
++## Reação  -  Pesada
++
++Conjure com sua Reação quando ocorrer um gatilho perceptível, definido na criação. Resolva depois de o gatilho terminar, salvo regra expressa que permita intervir antes. Um gatilho de sofrer dano não evita o dano que já aconteceu.
++
++Cumpra alvo, alcance, visão, Selo e os outros requisitos nesse momento. Não combina com Rápido, Armado, Atrasar ou Parado, nem substitui a Ação Completa das aplicações máximas.
++
++## Armado  -  Leve
++
++No seu turno, gaste a ação, o PE e os demais custos da ficha e cumpra seus requisitos de conjuração. Escolha um gatilho que você possa perceber, fora do seu próprio turno. O feitiço fica preparado até o fim da cena. Você só mantém um feitiço Armado por vez.
++
++Na primeira ocorrência do gatilho que você perceber, resolva o feitiço depois dela, sem gastar Reação. Você precisa perceber o acontecimento e poder escolher alvos. Confira visão, alcance e obstáculos na posição que ocupa ao disparar. O preparo é consumido mesmo se o ataque errar ou o alvo resistir.
++
++Se não houver alvo válido nessa ocorrência, o preparo se encerra sem disparar. Quando um preparo termina sem disparar  -  inclusive pelo fim da cena ou por preparar outro  -  recupere metade do PE efetivamente pago, arredondada para baixo. Outros custos não voltam. Armar conta como conjuração no turno do pagamento. O disparo é a resolução dessa mesma conjuração.
++
++Não combina com Reação ou Carregar. Não pode preparar uma Técnica Máxima. Numa Liberação Máxima, pague a Ação Completa, o PE e o preço escolhido ao armar. A preparação não devolve essas ações nem adia esse preço.
++
++<!-- page:cat-tempo-duracao|Momento e duração -->
++# Momento e duração
++
++## Silencioso  -  Leve
++
++A conjuração dispensa gesto e palavra. O uso não revela automaticamente sua posição, e perceber o efeito não localiza sua origem. Isso não torna invisível um corpo exposto nem impede uma busca independente.
++
++Dispensa o Selo de gesto ou som. Requisitos de condição, como enxergar o alvo, continuam. Não cancela uma Restrição mantendo sua devolução: Gesto e Barulho conservam suas exigências quando presentes na ficha.
++
++## Adianta  -  Média
++
++Se conjurar antes de qualquer inimigo ter agido na rodada, a CD deste uso aumenta em 2. Uma ação ou Reação inimiga já conta como ter agido. Apenas receber um ataque ou fazer o TR exigido por ele não conta. O benefício não modifica ataques. Com Armado ou Segura, confira a exigência também ao disparar. O bônus não fica guardado para uma rodada posterior.
++
++## Segura  -  Leve
++
++Ao conjurar, pague os custos e adie a resolução. Dispare em qualquer momento do seu próximo turno, sem gastar outra ação, conferindo alvo, visão, alcance e obstáculos a partir da posição que ocupa então. Se não disparar até o fim desse turno, perde a aplicação, sem recuperar PE.
++
++O disparo resolve a conjuração já paga. Não concede ações ou outro uso dela. Não combina com Armado, pois são dois procedimentos para adiar o mesmo disparo. Não pode adiar uma Técnica Máxima.
++
++## Concentrada  -  Leve / Duradoura  -  Média
++
++Amplie efeitos de estado que normalmente durariam uma rodada ou até o fim do próximo turno. Concentrada exige concentração; Duradoura usa a coluna sem concentração. Se a ficha reunir estados de categorias diferentes, todos usam o menor prazo aplicável. Escolha Concentrada ou Duradoura para a ficha, nunca as duas.
++
++| Efeito prolongado | Concentrada | Duradoura |
+ |---|---|---|
+-| **0** | O feitiço grátis. Não custa PE e não ocupa espaço na lista. | Nível 1 |
+-| **1 a 5** | Os feitiços montados. É onde o jogo acontece, e é o que este capítulo ensina a construir. | Níveis 1 a 20 |
+-| **6 e 7** | A faixa lendária. Mesma montagem, números maiores. | Níveis 21 a 30 |
+-
+-Cada feitiço é montado na Classe que o seu nível já liberou, e *Números da montagem* mostra quando cada uma chega. Daqui para a frente, quando o texto disser só "a Classe", vale para a escala inteira.
+-
+-### Exemplo
+-
+-> **`Lança Negra` · Classe 2 · Projétil**
+-> Classe 2 dá **6 pontos**.
+-> A Melhoria `Fura` custa 2 e faz o feitiço ignorar até 4 de Redução de Dano.
+-> A Restrição `Atrasar` devolve 2, em troca de a conjuração custar a rodada inteira.
+-> 6 − 2 + 2 = **6 pontos sobrando**.
+-> **Dano: 6d8 (média 27). Custo: 6 de PE.**
+->
+-> A Restrição pagou a Melhoria inteira, e o feitiço saiu com o dano cheio da Classe. É exatamente para isso que Restrição serve, e ela para aí: 6 pontos continuam sendo o máximo de dados de uma Classe 2 contra um alvo.
+-
+-### Atributo da técnica
+-
+-**Toda técnica usa um atributo, e você escolhe qual quando escreve ela.** Um dos cinco, na criação, e ele não pode ser mudado depois.
+-
+-> **Ataque de conjuração = d20 + o atributo da sua técnica + maestria**
+-> **Maestria** começa em 1 e sobe um ponto a cada oito níveis.
+-
+-**É recomendado escolher o atributo que o seu personagem já ia querer alto.** As perícias que ele usa, o Teste de Resistência que ele quer aguentar, uma Trilha que soma o mesmo atributo no dano: se alguma dessas coisas já puxa um atributo para cima, aponte a técnica para ele.
+-
+-> Nada te obriga a escolher Inteligência ou Essência. Elas são as mais comuns porque quase toda técnica é análise ou percepção — mas qualquer opção é possível.
+-{: .aviso }
+-
+-### CD de feitiço
+-
+-Alguns feitiços podem fazer com que o alvo tenha de resistir com um teste. O número que ele precisa passar é a sua **CD de feitiço**.
+-
+-> **CD de feitiço = 8 + o atributo da sua técnica + maestria.**
+-
+-Ela não muda de feitiço para feitiço, não sobe com a Classe e não se compra com pontos. É um número da ficha, como a sua Defesa.
+-
+-**O que o alvo rola.** Um **Teste de Resistência**: `d20 + o atributo daquele Teste`, mais a maestria se ele for treinado nele. Igualou ou passou a sua CD, ele resistiu. Nos feitiços de área (`Explosão`, `Aura`, `Cone`, `Linha`) resistir faz o alvo receber metade dos dados, a não ser que uma regra diga o contrário ou que você tenha comprado a Restrição `Tudo ou Nada`.
+-
+-> **Exemplo.** Kaito consegue usar feitiços de Classe 3, maestria 2: CD 14. Ele monta o mesmo feitiço em duas versões, uma de acerto e uma de Teste de Resistência, e escolhe na hora conforme o alvo. Contra a maldição de Defesa 12 e Vigor alto, ele usa a de acerto. Contra a de Defesa 19 e Vigor baixo, a de resistência. **O feitiço é o mesmo; o que muda é qual número do inimigo está mais baixo.**
+-
+-### Peças da técnica
+-
+-**Peças da técnica**
+-{: .tab-titulo }
+-
+-| Peça | O que é |
++| Condição, benefício ofensivo ou penalidade. | 1 minuto. | 1 minuto. |
++| Bônus numérico de Defesa ou TR. | 10 minutos. | 1 minuto. |
++| Proteção mecânica: resistência, imunidade, vida temporária ou Divide. | 10 minutos. | Classes 1-2: 1 hora; Classe 3: 8 horas; Classes 4-7: 24 horas. |
++
++Um minuto equivale a **dez rodadas de 6 segundos**. Marque o ponto da iniciativa em que o efeito começou. Termine após dez voltas completas, antes de resolver algo naquele mesmo ponto. Fora do combate, use o tempo transcorrido.
++
++As peças não repetem dano, não renovam um uso consumido e não prolongam Fica, Anteparo, Rastro, reservas de cura ou um prazo próprio de outra regra. Aplicam-se a estados da ficha, não à duração de um artefato. Fica conserva suas seis janelas de resolução.
++
++<!-- page:cat-marca|Marca -->
++# Marca
++
++Estas Melhorias acompanham um alvo depois da resolução inicial. Contra um inimigo, precisam do acerto ou da falha no TR. O dano parcial de Certeiro ou de um TR bem-sucedido não marca o alvo.
++
++## Marca  -  Leve
++
++Até o fim do seu próximo turno, você tem vantagem no próximo ataque contra o alvo. A vantagem se encerra depois dessa tentativa, mesmo se errar. Só você a recebe. A conjuração que aplicou Marca não se beneficia dela.
++
++## Alvo de Caça  -  Leve
++
++Até o fim do seu próximo turno, cada ataque **seu** que acertar o alvo causa **+1d4**. Se a ficha que aplica a marca tiver Rápido, o dado é **1d8**. O feitiço que marcou não recebe esse adicional, incluindo seus demais tiros.
++
++O bônus vale para arma, desarmado e feitiço com ataque. Cada tiro elegível de Rajada conta. Não vale para TR, Queima, Fica, Salto, Estilhaço ou ataques de criaturas que você comande. Mantenha um alvo de caça por vez: aplicar a marca em outro encerra a anterior. Se a ficha alcançar várias criaturas, escolha uma que tenha recebido a peça.
++
++## Rastro  -  Leve
++
++Por 1 hora, você sabe a posição atual do alvo enquanto ele permanecer no mesmo plano. Se sair, a informação para. Volta se ele retornar dentro do prazo. Saber a posição não concede visão, passagem por obstáculos ou conhecimento do caminho até ela.
++
++## Isca  -  Leve
++
++Até o fim do próximo turno do alvo, ele tem desvantagem em ataques que não incluam você como alvo. Num ataque dirigido a várias criaturas, confira cada rolagem: apenas a dirigida a você fica sem essa penalidade. A peça não modifica um efeito resolvido só por TR.
++
++## Ataques seguintes
++
++Marca e Ecoa não são consumidas por uma rolagem feita apenas para resolver Salto. Esse dano secundário também não ganha Alvo de Caça. Concentrada e Duradoura podem prolongar marcas compatíveis, mas Marca continua fornecendo vantagem para apenas uma tentativa.
++
++<!-- page:cat-marca-recursos|Marcas e recursos -->
++# Marcas e recursos
++
++## Sugar  -  Média
++
++Depois da resolução inicial, recupere vida igual a **um quarto do dano causado a criaturas**, arredondado para baixo, até **5 × Classe**. Some apenas as parcelas iniciais em que Sugar foi aplicado por acerto ou falha no TR. Dano parcial de Certeiro ou de um TR bem-sucedido não entra nessa soma. Depois, reúna o dano elegível de todos os alvos e tiros antes de calcular a cura. O limite pertence à conjuração inteira.
++
++Conte o que saiu da vida ou da vida temporária depois das defesas. Não conte dano impedido, nem dano em objetos ou barreiras. Queima, Fica, Salto e Estilhaço não reaplicam Sugar. A cura respeita sua vida máxima e impedimentos de receber cura.
++
++> **Exemplo:** Classe 3 causa 16 de dano em um alvo e 28 em outro. Sugar recupera um quarto de 44: **11 de vida**, abaixo do limite 15. Se causasse 80 no total, recuperaria 15, e não 15 por alvo.
++
++## Cobrança  -  Média
++
++Escolha uma criatura que recebeu a peça. Se ela passar de vida positiva para zero ainda nesta cena, seu próximo feitiço custa metade do PE, arredondada para cima. A queda provocada pelo dano inicial que aplica Cobrança também conta. A queda consome esta marca. Recuperar vida e cair novamente não dá outro desconto.
++
++Você mantém uma Cobrança por vez. Marcar outra criatura encerra a marca anterior. Não acumule descontos de Cobrança: receber outro enquanto houver um disponível não reduz o custo novamente. O benefício se perde no fim da cena ou após a próxima conjuração, mesmo que ela custe 0 PE.
++
++Cobrança e a Passiva Eco não se multiplicam: quando ambos estiverem disponíveis, aplique uma única redução à metade e consuma os dois na próxima conjuração, inclusive se ela custar 0 PE. O desconto modifica apenas PE. Não reduz ação, outros custos ou recarga. Um efeito de dano que começou depois pode derrubar a criatura e cumprir a marca já aplicada, mas não cria uma nova Cobrança.
++
++## Aviso  -  Leve
++
++Você descobre qual foi o último feitiço conjurado pelo alvo e sua Classe. Se ele ainda não conjurou nenhum, recebe essa informação. O resultado identifica aquela aplicação. Não entrega a lista inteira de feitiços, as Famílias ou a ficha de criação.
++
++Aviso é uma informação obtida naquele instante. Concentrada e Duradoura não o transformam em acompanhamento automático das conjurações seguintes.
++
++<!-- page:cat-amparo|Amparo -->
++# Amparo
++
++Estas Melhorias usam Cura, Apoio ou Onda para ajudar criaturas dispostas. Também podem acompanhar um feitiço que atinja um aliado, quando o alvo e a resolução permitirem. Se a ficha causar dano, resolva-o antes do benefício. Receber ajuda não evita esse dano.
++
++## Limpa  -  Média
++
++Remova do aliado uma condição Leve ou Média. Escolha a condição ao resolver a ficha. Isso encerra aquela aplicação, sem impedir que uma fonte ainda ativa a aplique novamente por seu próprio procedimento.
++
++## Limpa Fundo  -  Pesada
++
++Remova uma condição de qualquer nível. O efeito não é uma imunidade nem remove todas as condições do aliado de uma vez.
++
++## Levanta  -  Pesada
++
++Um aliado a **0 de vida**, ainda capaz de ser socorrido, recupera **5 × Classe de vida**, limitado à vida máxima, e pode voltar a agir mesmo abaixo do limiar normal de recuperação. Ele fica de pé se tiver apoio e não houver outro efeito que o mantenha Derrubado. A peça não encerra esse impedimento.
++
++Você pode aplicar Levanta **uma vez por cena**, compartilhando esse limite entre suas fichas. A peça alcança um aliado escolhido, mesmo numa Onda. Não ressuscita uma criatura morta, não recupera Integridade e não elimina as demais condições. Consulte Recuperação para as consequências da queda.
++
++## Remenda  -  Pesada
++
++Recupere **5 × Classe de Integridade** de um aliado, sem ultrapassar seu máximo. O mesmo alvo só pode receber Remenda uma vez por cena, independentemente de quem a use. A peça não recupera vida nem permite voltar a agir a zero de vida por si só.
++
++<!-- page:cat-amparo-protecao|Proteção compartilhada -->
++# Proteção compartilhada
++
++## Divide  -  Média
++
++Escolha um aliado disposto a até 9 m ao conjurar. Até o fim do próximo turno dele, ele recebe metade do dano que você receberia. Depois das suas defesas e antes de gastar suas reservas, envie metade do valor restante, arredondada para cima, ao aliado. Desconte de você somente o restante.
++
++O dano enviado conserva o tipo e recebe as defesas do aliado. Ele não pode ser transferido ou dividido de novo. Se mais de um vínculo puder dividir o mesmo dano, use apenas um. O vínculo não exige que vocês permaneçam a 9 m. Essa distância é conferida na aplicação. Junto não cria outro parceiro para a mesma divisão.
++
++## Junto  -  Leve
++
++Cura ou Apoio alcança mais um aliado dentro do alcance da Forma. Pode comprar esta peça duas vezes, para acrescentar até dois aliados. **Antes de resolver**, distribua os dados de cura ou os pontos de vida temporária entre todos os beneficiários, em quantidades inteiras, sem ultrapassar o total da ficha.
++
++Um efeito indivisível, como Guarda, Pressa ou remover uma condição, é destinado a **um só** desses beneficiários. Escolha o destinatário de cada peça antes da resolução. Não copie o efeito nem divida um bônus +2 em dois bônus +1. Onda já aplica seu efeito inteiro na área e não usa Junto para ampliar essa área.
++
++> **Exemplo:** Apoio com 9 de vida temporária, Guarda e Junto pode conceder 6 de vida temporária a uma aliada e 3 a outra. Só uma recebe Guarda. A distribuição 9 para cada uma não cabe.
++
++## Reserva  -  Média
++
++Adie a cura da ficha: role os dados agora e anote o valor no aliado, em vez de recuperar vida. Na próxima vez, ainda nesta cena, em que ele passar de pelo menos metade da vida para abaixo dela, aplique a cura guardada depois de resolver o dano que provocou a queda, sem gastar ação.
++
++A reserva é consumida nesse disparo, mesmo se a cura for impedida. O valor não volta ao conjurador. Se a cena terminar antes, ela se perde. Cada aliado mantém uma reserva: receber outra substitui a anterior, sem somar valores. Estar abaixo da metade ao recebê-la não a dispara imediatamente.
++
++A peça não adia as outras Melhorias. Junto divide a cura antes de guardá-la; Onda pode guardar sua cura em cada aliado alcançado. A zero de vida, a cura segue Recuperação; Reserva não concede o efeito de Levanta por conta própria.
++
++
++<!-- page:cat-proprio|Efeito Próprio -->
++# Efeito Próprio
++
++**Preço: definido com o mestre, antes da sessão.** Esta Melhoria cria uma capacidade que não existe no catálogo. Você pode ter **um Efeito Próprio por ficha**, contando no limite de Melhorias da Classe.
++
++Procure uma entrada que já faça o que você quer. Movimentar-se junto da conjuração, por exemplo, pode ser resolvido por Passo. Mudar a aparência desse movimento não exige comprar uma segunda capacidade.
++
++## Uma capacidade nova
++
++Escreva o resultado, os alvos, a distância, a ação, a oposição e a duração. Indique também o que encerra o efeito e uma situação em que ele não funciona. Compare esses campos com as peças de função mais próxima; o mestre define o preço em pontos e registra o motivo na ficha.
++
++O Efeito Próprio não recebe desconto de Família Livre e não contorna uma Família Fechada. Se reunir benefícios independentes, cada parte precisa ser comprada e contar no limite de Melhorias. Um novo nome não reúne várias compras em uma só.
++
++## Limites da técnica
++
++A capacidade precisa caber na Descrição e na Regra do Fundamento. Criar um efeito próprio não acrescenta à técnica uma função que ela não possui. Também não concede espaços de repertório, entidades, ações ou recursos que não estejam expressamente definidos e pagos.
++
++> **Exemplo:** uma técnica que move objetos de papel quer deslocar uma aliada sobre uma plataforma. A ficha deve dizer quanto a plataforma percorre, se precisa de chão, quantas pessoas leva e o que ocorre diante de um obstáculo. “Transporta alguém” ainda não basta para usar a capacidade em jogo.
++
++Os procedimentos e os exemplos completos estão em **Criar um efeito**, no Fundamento. A versão de Técnica Máxima usa seu orçamento e seus requisitos próprios; caber nos pontos de uma Classe comum não remove o requisito de Máxima.
++
++
++<!-- page:cat-restricoes-conjuracao|Restrições de conjuração -->
++# Restrições de conjuração
++
++As devoluções abaixo usam o preço **Leve ou Médio da Classe do feitiço**. O limite de duas Restrições, o teto da devolução e os requisitos de Selo seguem **Restrições**, no capítulo Fundamento. Uma exigência que já fazia parte do feitiço não devolve pontos outra vez.
++
++## Corpo a Corpo
++
++**Devolução: Média.** Projétil se torna **Toque**, com alcance de 1,5 m. Explosão se torna **Aura**, centrada em você. A Restrição já faz parte dessas duas Formas e ocupa uma das duas escolhas disponíveis.
++
++Cone, Linha e Onda não podem recebê-la. Uma Melhoria ou outro benefício não pode ampliar a distância do Toque nem afastar a origem da Aura mantendo essa devolução. Classe 0 e Técnica Máxima conservam essas exigências, mas não recebem os pontos.
++
++## Atrasar
++
++**Devolução: Média.** A conjuração exige **Ação Completa**: compromete sua Ação Padrão, sua Ação Bônus e sua Ação de Movimento daquele turno. Você precisa ter esses recursos disponíveis e não pode se deslocar voluntariamente nesse turno, antes ou depois da conjuração. Sua Reação permanece disponível.
++
++Não combina com Parado, Rápido ou Reação. Uma Liberação Máxima já exige Ação Completa. Atrasar não lhe concede devolução adicional.
++
++## Parado
++
++**Devolução: Leve.** Você não pode ter se deslocado voluntariamente no turno da conjuração, nem fazê-lo depois dela nesse turno. Conserva sua Ação Bônus. Movimento imposto por outra criatura não impede o uso nem desfaz um feitiço já resolvido.
++
++Não combina com Atrasar ou com a Melhoria Reação. Também não devolve pontos quando outra exigência da própria aplicação já impede seu movimento durante todo o turno. Em conjurações adiadas, confira a exigência no turno do pagamento e no do disparo, conforme as Melhorias de Tempo.
++
++## Gesto
++
++**Devolução: Leve.** A conjuração exige **as duas mãos livres e fala audível**. Se não puder cumprir as duas partes, não pode usar o feitiço.
++
++Um Selo que exige um gesto simples com uma mão ainda pode receber essa exigência adicional. Se o Selo já exige as duas mãos livres e a fala, não há devolução. Silencioso não pode retirar essas exigências mantendo os pontos de Gesto.
++
++## Carregar
++
++**Devolução: Média.** No primeiro turno, gaste **Ação Padrão** para iniciar a carga e pague o PE do feitiço. Você conserva Movimento e Bônus. No seu turno seguinte, use a ação de conjuração indicada na ficha para liberar o feitiço. Se não o liberar até o fim desse turno, perde a carga e o que pagou por ela.
++
++Enquanto carrega, cada ocorrência de dano exige um **TR Espírito contra a CD de quem o feriu**. Uma falha perde a carga e os recursos já pagos. Mão Firme dispensa esse teste para dano de até 10, por ocorrência.
++
++Carregar não ocupa sua Concentração. Depois da liberação, um efeito que exija Concentração segue seu procedimento normal, com TR Vigor ao sofrer dano. Carregar não combina com Armado.
++
++<!-- page:cat-restricoes-consequencias|Custos e consequências -->
++# Custos e consequências
++
++## Sangra
++
++**Devolução: Média.** Ao usar o feitiço, você sofre **2 × Classe de dano que não pode ser reduzido**, mesmo se errar ou os alvos resistirem. Esse custo faz parte de cada conjuração.
++
++## Recuo
++
++**Devolução: Leve ou Média.** Escolha uma condição na montagem. Ao conjurar, você recebe essa condição até o fim do seu próximo turno, mesmo se o feitiço não afetar ninguém. A devolução tem a gravidade da condição escolhida. Condições Pesadas não entram.
++
++Use as condições de **Dano e condições**. A escolha precisa prejudicar o personagem: uma imunidade que impeça a condição elimina a possibilidade de receber pontos por ela. Não some outra Restrição que cobre a mesma consequência.
++
++## Fraqueza
++
++**Devolução: Leve ou Média.** Escolha um dos quatro TR na montagem. Depois de conjurar, você faz esse TR com **desvantagem até o fim da cena**. Vigor ou Intelecto devolvem Leve. Físico ou Espírito devolvem Média.
++
++Novos usos mantêm a desvantagem. Não criam outra penalidade. Se outro benefício cancelar sempre a desvantagem, reveja a Restrição: ela precisa continuar cobrando uma dificuldade real.
++
++## Peso Morto
++
++**Devolução: Leve.** Depois de conjurar, seu **deslocamento cai à metade** e você sofre **-1 nos TR Físicos**, até o fim do seu próximo turno. Os dois efeitos pertencem à mesma Restrição. Um novo uso renova o prazo, sem acumular reduções ou penalidades iguais.
++
++## Frágil
++
++**Devolução: Leve.** Se você sofrer dano **antes do começo do seu próximo turno**, o efeito que este feitiço mantém termina imediatamente. Só cabe em uma aplicação que deixe um efeito em andamento.
++
++Não há teste para impedir esse encerramento. Frágil não é Concentração e Mão Firme não o protege. Encerrar o efeito não desfaz dano ou deslocamento que já tenha ocorrido. Num feitiço inteiramente instantâneo, não há efeito futuro a perder nem devolução.
++
++## Sem Volta
++
++**Devolução: Média.** Se a resolução do feitiço terminar sem acertar nem afetar nenhum alvo, você **não pode conjurar no seu próximo turno**, nem mesmo Classe 0. Basta um ataque acertar. Numa aplicação por TR, basta um alvo sofrer um dos efeitos.
++
++Não cabe numa aplicação automática nem quando um efeito garantido no erro ou no sucesso do TR impede a falha completa. Por exemplo, causar metade do dano a todos que resistem elimina esse risco. Tudo ou Nada pode restaurá-lo. A restrição não cancela efeitos anteriores que você ainda mantenha. Numa Liberação Máxima, escolha Sangue ou Peso como preço de uso: Vazio repetiria a proibição de conjurar.
++
++<!-- page:cat-restricoes-uso|Condições de uso -->
++# Condições de uso
++
++**Uma Vez, Condicional, Aquecer e Dívida** pertencem ao grupo de frequência. Escolha no máximo uma delas por feitiço, incluindo uma Restrição Própria equivalente.
++
++## Uma Vez
++
++**Devolução: Leve.** Você pode conjurar este feitiço **uma vez por cena**. A tentativa consome o uso, mesmo se errar, for interrompida ou não afetar ninguém. Ampliar a Classe não cria outro uso.
++
++## Condicional
++
++**Devolução: Leve ou Média.** Escreva uma condição de cena ou de alvo que precisa existir para conjurar: estar no escuro, atacar alguém marcado por você ou estar perto de água corrente, por exemplo. Registre também seus limites; “perto de água” precisa dizer qual distância e o que conta como água corrente.
++
++A devolução depende da frequência com que a exigência **impede o uso** nas cenas da campanha. Se impedir em pelo menos metade delas, devolve Média. Nos demais casos em que houver dificuldade real, devolve Leve. Se a condição estiver sempre garantida, não devolve pontos. Confiram essa estimativa nas sessões seguintes.
++
++## Aquecer
++
++**Devolução: Leve.** Você não pode usar este feitiço **na primeira rodada do combate**. A restrição considera a rodada do combate, não a primeira rodada em que você resolveu participar. Fora de combate, ela não impõe um atraso novo.
++
++Ela não paga pontos de uma aplicação feita exclusivamente fora de combate, pois nunca a impediria.
++
++## Dívida
++
++**Devolução: Média.** Depois de conjurar, anote uma dívida de **2 × a Classe usada neste feitiço**. Seu próximo feitiço nesta cena custa essa quantidade de PE a mais, **mesmo que seja Classe 0**. Pague a dívida junto com a conjuração seguinte e apague a anotação.
++
++Se essa conjuração também tiver Dívida, ela paga a anterior e cria sua própria dívida. A quantia pendente não é reduzida por uma vantagem que diminua ou dispense o custo normal do feitiço seguinte. Se a cena terminar antes de outro feitiço, a dívida termina com ela.
++
++## Tudo ou Nada
++
++**Devolução: Leve.** Num feitiço que causa dano por TR, um alvo que passe no teste **não sofre dano**, em vez de sofrer metade. Os demais efeitos seguem sua própria resolução.
++
++Não cabe em ataques contra Defesa, em aplicações sem dano ou quando um sucesso no TR já evitava todo o dano: nesses casos, não acrescentaria uma dificuldade.
++
++<!-- page:cat-restricoes-proprias|Exposição e novas Restrições -->
++# Exposição e novas Restrições
++
++## Barulho
++
++**Devolução: Leve.** Ao conjurar, você produz um som que pode ser ouvido **a até 90 m** e denuncia de onde veio. Quem puder ouvi-lo identifica a origem. A Restrição não concede audição a uma criatura surda nem faz o som atravessar um bloqueio que o impeça por completo.
++
++Uma fala audível nas proximidades, como a de Gesto, não equivale automaticamente a esse alcance. Se seu Selo ou o próprio efeito já produz esse mesmo aviso a 90 m, Barulho não devolve pontos. Se a ficha tiver Silencioso, o ruído exigido por Barulho continua existindo.
++
++## Assinatura
++
++**Devolução: Leve.** O feitiço deixa uma **marca visível por 1 hora**, que permite reconhecer você como seu autor. Registre na ficha onde a marca aparece e como ela o identifica. A marca não pode ficar deliberadamente escondida na montagem.
++
++Ela denuncia a autoria. Não revela automaticamente sua posição atual nem permite acompanhá-lo à distância. Um efeito que apague ou disfarce sempre essa identificação elimina a dificuldade e sua devolução.
++
++## Restrição Própria
++
++**Devolução: Leve ou Média.** Escreva com o mestre uma dificuldade que as outras entradas não representem. Ela vale para o feitiço em que foi criada, ocupa uma das duas Restrições e precisa estar definida **antes da sessão**.
++
++| Campo | O que definir |
+ |---|---|
+-| **Fundamento** | Sua técnica. Uma descrição, uma Regra, Famílias Livres e Fechadas, um Selo e as Passivas. |
+-| **Feitiços** | As aplicações da técnica. Você monta cada uma. |
+-| **Passivas** | Efeitos que ficam ligados sozinhos. Custam espaços de feitiço. |
+-| **Liberação Máxima** | O feitiço que rompe o limite de dano num alvo só. Nos níveis 10, 20 e 30. |
+-| **Técnica Máxima** | O golpe de dano fixo que carrega o nome da técnica. Do nível 17 em diante. |
+-
+-## Números da montagem
+-
+-> **Pontos** = 3 × Classe
+-> **Teto de dano** = 4 × Classe em dados
+-> **Devolução máxima** = 2 × Classe
+-> **Liberação Máxima** = + Classe em dados
+-> **Custo em PE** = 3 × Classe (o mesmo número dos pontos)
+-> Melhoria `Leve` custa metade da Classe · `Média` custa a Classe · `Pesada` custa Classe e meia. Arredonde para cima.
+-
+-**Números da montagem**
+-{: .tab-titulo }
+-
+-| Classe | Nível | Pontos e PE | Leve | Média | Pesada | Devol. máx | Liberação | Teto | Dano cheio | Cura cheia |
+-|---|---|---|---|---|---|---|---|---|---|---|
+-| **1** | 1 | 3 | 1 | 1 | 2 | 2 | +1 | 4 | 3d8 = 13 | 2d8 = 9 |
+-| **2** | 5 | 6 | 1 | 2 | 3 | 4 | +2 | 8 | 6d8 = 27 | 4d8 = 18 |
+-| **3** | 9 | 9 | 2 | 3 | 5 | 6 | +3 | 12 | 9d8 = 40 | 6d8 = 27 |
+-| **4** | 13 | 12 | 2 | 4 | 6 | 8 | +4 | 16 | 12d8 = 54 | 8d8 = 36 |
+-| **5** | 17 | 15 | 3 | 5 | 8 | 10 | +5 | 20 | 15d8 = 67 | 10d8 = 45 |
+-| **6** | 21 | 18 | 3 | 6 | 9 | 12 | +6 | 24 | 18d8 = 81 | 12d8 = 54 |
+-| **7** | 26 | 21 | 4 | 7 | 11 | 14 | +7 | 28 | 21d8 = 94 | 14d8 = 63 |
+-
+-A coluna **Nível** é quando aquela Classe abre para você. **Leve**, **Média** e **Pesada** são os três preços de Melhoria, e **Devol. máx** é o total que as Restrições de um feitiço podem devolver.
+-
+-A coluna **Teto** é o máximo de dados de dano de um feitiço quando você soma todos os alvos e repetições. Contra um alvo só o limite é mais baixo: um feitiço comum para nos pontos da Classe. Quem alcança o teto num alvo só é a **Liberação Máxima**.
+-
+-### Melhorias e Restrições por Classe
+-
+-**Melhorias e Restrições por Classe**
+-{: .tab-titulo }
+-
+-| Classe do feitiço | Melhorias | Restrições |
++| Exigência ou consequência | O que a criatura precisa fazer ou sofrer. |
++| Momento | Quando conferir a exigência ou aplicar o custo. |
++| Duração | Até quando a consequência permanece. |
++| Devolução | Leve ou Média, conforme a dificuldade real. |
++| Compatibilidade | Se repete Selo, Forma, outra Restrição ou algo já obrigatório. |
++
++Use **Média** quando a dificuldade atrapalhar em pelo menos metade das cenas previstas. Nas demais situações com prejuízo real, use **Leve**. Sem uma situação plausível em que atrapalhe, não há devolução. Na dúvida, escolha Leve ou não conceda pontos. Nenhuma Restrição Própria devolve Pesada.
++
++Uma limitação equivalente a Uma Vez, Condicional, Aquecer ou Dívida entra no grupo de frequência. Uma exigência de preparo ou um custo de vida não entra nesse grupo só por acontecer antes de conjurar.
++
++Barulho e Assinatura são duas formas de exposição: escolha no máximo uma delas. Recuo, Fraqueza e Peso Morto também não se combinam entre si, pois cobram penalidades do próprio conjurador.
++
++Se a proposta reunir duas dificuldades independentes, registre duas Restrições e respeite o limite. Se repetir o mesmo impedimento, conte a devolução uma vez. Ter duas consequências no mesmo instante não basta para torná-las iguais: Sangra e Barulho, por exemplo, cobram vida e exposição.
++
++Depois de três sessões em que o feitiço tenha sido usado, comparem a dificuldade prevista com o que aconteceu. Troquem uma Restrição que nunca tenha atrapalhado, mantendo uma ficha válida antes do próximo uso.
++
++<!-- page:cat-passivas-1|Passivas de Classe 1 -->
++# Passivas de Classe 1
++
++**Nível mínimo 1. Custo: 1 espaço de feitiço por Passiva.** A Classe Passiva é o preço de aquisição, não uma Classe de conjuração. Cada entrada aplica somente os requisitos que declara. Ter uma Passiva não exige Concentração nem repetir o Selo a cada turno.
++
++## Leitura
++
++Você identifica a **Classe e a Forma** de qualquer feitiço conjurado a até **18 m** de você. A informação não fornece a montagem completa, o custo de cada peça ou a localização de um alvo oculto.
++
++## Instinto
++
++Você não é pego de surpresa enquanto estiver **acordado**. Isso não revela criaturas escondidas, não muda sua posição na iniciativa e não concede uma ação adicional.
++
++## Raiz
++
++Você **não é movido à força nem fica Derrubado contra a sua vontade**. Pode aceitar um deslocamento ou se deitar por escolha própria. A Passiva não impede o dano de um efeito que também empurre ou derrube.
++
++Raiz não cria apoio sob seus pés: se o chão desaparecer, a queda segue suas regras. Esta proteção específica é uma exceção expressa do catálogo. Não autoriza criar imunidade a qualquer outra condição pelo mesmo preço.
++
++## Mão Firme
++
++Quando uma ocorrência de dano causar **10 pontos ou menos**, você não precisa fazer o teste para manter **Concentração ou Carregar**. Confira o dano de cada ocorrência depois das reduções aplicáveis. Não some todos os golpes da rodada.
++
++Acima de 10, faça o teste normal: Vigor para Concentração, Espírito para Carregar. A Passiva não protege Frágil nem outro efeito que termine por sofrer dano sem teste. Também não dispensa testes próprios de barreiras ou de disputas de domínio.
++
++## Farejador
++
++Você sente se houve uma conjuração **no local onde está nas últimas 24 horas**, e identifica a Classe deixada por ela. Se houver vestígios de mais de uma Classe, reconhece essas Classes.
++
++A informação não revela quem conjurou, a montagem do feitiço, a hora exata ou o caminho que o autor tomou depois. Investigar essas questões segue as regras da cena.
++
++## Aviso
++
++**Passiva.** Ao ter um inimigo à vista, você sabe **qual foi o último feitiço que ele usou**, mesmo que não tenha presenciado aquela conjuração. Recebe o nome ou uma descrição suficiente para reconhecer a aplicação, não sua ficha completa.
++
++Não aprende esse feitiço nem descobre os demais do repertório. Esta é a Passiva Aviso. A Melhoria de mesmo nome tem outro efeito e é comprada separadamente.
++
++<!-- page:cat-passivas-2-recursos|Passivas de Classe 2 -->
++# Passivas de Classe 2
++
++**Nível mínimo 7. Custo: 2 espaços de feitiço por Passiva.** Algumas atuam por um gatilho. Outras exigem ação, Reação ou PE. Use o custo e o limite de cada entrada.
++
++## Fluxo
++
++Ao conjurar um feitiço de **Classe 3 ou maior**, você recebe **2 × a Classe usada em pontos de vida temporária**. Uma conjuração concede a reserva uma vez, mesmo que alcance vários alvos ou produza vários ataques.
++
++Essa vida segue as regras gerais: não se soma a outra reserva, tem teto de metade da sua vida máxima e termina no fim da cena, salvo a permissão geral de preparação. Técnica Máxima não tem Classe própria e não ativa Fluxo por usar sua maior Classe para calcular preços.
++
++## Recomposição
++
++**Uma vez por descanso curto**, use **Ação Padrão** para recuperar **5 × sua maior Classe em pontos de vida**, até sua vida máxima. Não gasta PE. Recuperar vida não remove condições por conta própria.
++
++## Segunda Natureza
++
++**Uma vez por dia**, você pode conjurar um feitiço conhecido de Classe até **metade da sua maior Classe, arredondada para baixo**, sem pagar seu custo normal de PE. Declare o uso antes de conjurar.
++
++Você ainda gasta a ação indicada, cumpre o Selo e as Restrições e respeita o limite de conjurações do turno. Custos adicionais independentes, como uma Dívida pendente, continuam sendo pagos. O limite é por dia. Realizar um descanso não concede outro uso no mesmo dia.
++
++## Eco
++
++Quando um feitiço seu reduzir um **inimigo a 0 pontos de vida**, o próximo feitiço que você conjurar nesta cena custa **metade do seu PE normal, arredondada para cima**. Derrubado, a condição, não ativa Eco.
++
++Você guarda uma redução por vez. Derrubar outros inimigos antes de gastá-la não acumula metades. Se Eco e Cobrança estiverem disponíveis juntos, aplique **uma única metade e consuma os dois benefícios** na próxima conjuração, inclusive Classe 0. Uma nova derrota provocada por essa conjuração pode conceder outra redução. O benefício não altera custos independentes, como Dívida, e não atravessa o fim da cena.
++
++> **Exemplo.** Um feitiço que custa 9 PE passa a custar 5. Se houver uma Dívida de 4 PE, o total será 9 PE. Dois inimigos derrotados pela mesma conjuração não reduzem o preço seguinte para um quarto.
++
++<!-- page:cat-passivas-2-protecao|Proteção e presença -->
++# Proteção e presença
++
++Estas Passivas também são de **Classe Passiva 2: nível mínimo 7 e 2 espaços cada**.
++
++## Costura
++
++**Uma vez por cena**, quando um aliado a até **9 m** sofreria uma redução de seus pontos de vida a 0, você pode fazer com que ele permaneça com **1 ponto de vida**. Não exige ação nem Reação.
++
++Costura previne essa redução. Não recupera quem já estava a 0, não restaura Integridade e não encerra uma condição. Outras consequências do efeito continuam sendo resolvidas. Uma morte que não dependa de reduzir a vida a 0 não é impedida por esta Passiva.
++
++## Contramedida
++
++Quando outra criatura a até **9 m** conjurar um feitiço, você pode gastar sua **Reação e 2 PE** para aumentar a **CD desse feitiço em 2**. Declare depois que a conjuração for anunciada e antes dos TR. O aumento vale para os TR contra aquela aplicação enquanto ela durar.
++
++A criatura precisa conjurar um feitiço que tenha CD. Contramedida não melhora ataques contra Defesa, não interrompe a conjuração e não reduz a CD de um inimigo. O mesmo feitiço recebe esse aumento no máximo uma vez, mesmo que mais de uma criatura tenha a Passiva.
++
++## Peso da Presença
++
++Um inimigo da categoria **Capanga** que comece o turno a até **6 m** de você faz um **TR Espírito contra a CD da sua técnica**. Se falhar, fica **Amedrontado por você até o começo do próximo turno dele**. Como Amedrontado é uma condição Pesada, ele repete o TR no fim do turno e encerra essa aplicação se passar. Se permanecer na área, faz o teste do novo turno normalmente.
++
++O efeito não exige ação nem PE. A distância é conferida no começo do turno do alvo. Apenas entrar na área não dispara outro teste. Outras categorias de inimigo e personagens que não usam a categoria Capanga não são afetados por esta Passiva.
++
++<!-- page:cat-passivas-3|Passivas de Classe 3 -->
++# Passivas de Classe 3
++
++**Nível mínimo 13. Custo: 3 espaços de feitiço por Passiva.** Escolha os tipos e temas exigidos quando adquirir a Passiva. Eles não mudam a cada uso.
++
++## Escama
++
++Escolha **um tipo de dano** que a Regra da sua técnica justifique. Você tem **resistência** a esse tipo: sofre metade do dano, com o arredondamento das regras de dano.
++
++Duas fontes de resistência ao mesmo tipo não dividem o dano duas vezes. Escama não concede imunidade nem resistência a outros tipos associados apenas pela descrição.
++
++## Afinidade
++
++Escolha **um tema presente na Regra da sua técnica**. Seus feitiços desse tema ignoram **cobertura Parcial e resistência ao tipo de dano que causam**.
++
++Registre quais aplicações pertencem ao tema. Afinidade não ignora coberturas **Boa ou Total**, imunidade, Redução de Dano ou uma passagem bloqueada, nem permite escolher um alvo que você não poderia escolher normalmente.
++
++## Reserva Profunda
++
++Seu **PE máximo aumenta em 3 × sua maior Classe**. Atualize esse acréscimo quando sua maior Classe aumentar.
++
++O aumento é do máximo: a Passiva não é uma ação de recuperação e não pode ser ativada repetidamente para repor PE. Recuperar os pontos segue **Descanso e recuperação**.
++
++<!-- page:cat-regra-propria|Regra Própria -->
++# Regra Própria
++
++Técnicas baseadas em aposta, contrato, julgamento ou obrigação podem ter uma **Regra Própria**, definida com o mestre antes da campanha. Ela é uma Passiva específica, com aquisição diferente das demais.
++
++| Classe Passiva | Nível mínimo | Espaços ocupados |
+ |---|---|---|
+-| **1 e 2** | 2 | 2 |
+-| **3 e 4** | 3 | 2 |
+-| **5 em diante** | 4 | 2 |
+-
+-A Forma não conta como Melhoria. O Efeito Próprio conta como uma Melhoria.
+-
+-**Duas Melhorias escritas como uma** custam a soma dos preços das partes e contam no limite como as partes. É atalho de leitura na ficha, e não desconto. O mestre pode aprovar por menos pontos ou menos espaço, mas é decisão inteiramente dele, por conta e risco, e o manual não recomenda: o limite de Melhorias não segura o pico de dano, ele segura a largura do feitiço — sem ele, toda ficha converge para o mesmo pacote de sinergia.
+-
+-### Energia
+-
+-Conjurar um feitiço custa **3 × Classe** de PE, o mesmo número dos pontos dele. Classe 0 é grátis.
+-
+-**Liberação Máxima** custa 50% a mais que a Classe dela, arredondando para cima. **Técnica Máxima** custa 5 × a sua maior Classe de PE.
+-
+-Com um conjurador ganhando 6 PE por nível, isso dá:
+-
+-**Valores dos feitiços de Classe 1 a 7**
+-{: .tab-titulo }
+-
+-| Nível | PE total | Maior Classe | Custo |
+-|---|---|---|---|
+-| 1 | 6 | 1 | 3 |
+-| 5 | 30 | 2 | 6 |
+-| 9 | 54 | 3 | 9 |
+-| 13 | 78 | 4 | 12 |
+-| 17 | 102 | 5 | 15 |
+-| 20 | 120 | 5 | 15 |
+-
+-### Classe 0
+-
+-Feitiços de Classe 0 não gastam PE e não ocupam espaço na lista: escolha uma Forma e pronto. São o golpe de todo turno em que o PE precisa ser poupado.
+-
+-**Classe 0**
+-{: .tab-titulo }
+-
+-| Seu nível | 1 | 5 | 11 | 17 | 25 |
+-|---|---|---|---|---|---|
+-| Quantos você tem | 2 | 3 | 4 | 5 | 5 |
+-| Dano | 2d8 | 3d8 | 4d8 | 5d8 | 6d8 |
+-
+-Cabe uma Melhoria `Leve` e uma Restrição `Leve` numa Classe 0, tirando um dado para pagar. A base de alcance da Classe 0 fica um degrau abaixo da normal, e o valor está em *Criando feitiços*.
+-
+-**Classe 0 não cura.** As Formas `Cura` e `Onda` ficam de fora dela. A tabela `Cura`, em *Criando feitiços*, começa na Classe 1.
+-
+-### Dado
+-
+-Monte sempre em d8: pontos, Melhorias e Restrições só existem em d8. Se a sua mesa rola outro dado, converta o total final na hora de rolar.
+-
+-**Dado**
+-{: .tab-titulo }
+-
+-| d8 | d6 | d12 | d8 | d6 | d12 | d8 | d6 | d12 |
+-|---|---|---|---|---|---|---|---|---|
+-| 1 | 1 | 1 | 11 | 14 | 8 | 21 | 27 | 15 |
+-| 2 | 3 | 1 | 12 | 15 | 8 | 22 | 28 | 15 |
+-| 3 | 4 | 2 | 13 | 17 | 9 | 23 | 30 | 16 |
+-| 4 | 5 | 3 | 14 | 18 | 10 | 24 | 31 | 17 |
+-| 5 | 6 | 3 | 15 | 19 | 10 | 25 | 32 | 17 |
+-| 6 | 8 | 4 | 16 | 21 | 11 | 26 | 33 | 18 |
+-| 7 | 9 | 5 | 17 | 22 | 12 | 27 | 35 | 19 |
+-| 8 | 10 | 6 | 18 | 23 | 12 | 28 | 36 | 19 |
+-| 9 | 12 | 6 | 19 | 24 | 13 | | | |
+-| 10 | 13 | 7 | 20 | 26 | 14 | | | |
+-
+-A média nunca se afasta mais de 3 pontos da conta em d8.
+-
+-## Escrevendo o seu Fundamento
+-
+-**Você escreve o Fundamento**, na criação, junto com o mestre: o que evolui com os níveis são os feitiços que saem dele. Um Fundamento completo tem cinco partes.
+-
+-> **Na criação, você escreve:**
+-> **1.** A **Descrição** da técnica, com o tipo de dano dela.
+-> **2.** A **Regra**: a frase que resume o que a técnica faz.
+-> **3.** As **Famílias**: duas Livres e três Fechadas.
+-> **4.** O **Selo**: o que você sempre faz para conjurar.
+-> **5.** A **Passiva Livre**, e, se a técnica pedir, uma `Regra Própria`, de graça, em Classe Passiva 1.
+-
+-### Descrição
+-
+-Escreva a sua técnica como quiser: de onde ela veio, como aparece, o que as pessoas veem quando ela age. A Descrição não tem efeito mecânico direto, mas é dela que o mestre vai tirar a régua para aprovar ou recusar os seus feitiços.
+-
+-Anote junto o **tipo de dano** da técnica, um ou dois: corte, fogo, ácido, o que a Descrição trouxer sentido. Esse tipo vale para todos os seus feitiços.
+-
+-> **Exemplo.** *Duas relíquias respondem ao chamado dela: um bastão com uma tranca na ponta, outro com uma chave. A tranca segura o instante: o que ela prende para de acontecer e continua parado até ela soltar. A chave abre distância: o que ela destrava deixa de estar onde estava. Ninguém sabe se os bastões são a técnica ou se a técnica só precisa deles para caber num corpo humano.*
+-
+-### Regra
+-
+-Depois da Descrição, resuma a técnica numa única frase: a Regra. Ela é o contorno da técnica, e todo feitiço que você criar, do primeiro ao último, precisa caber dentro dela.
+-
+-*"Prender um instante no lugar, ou abrir a distância entre duas coisas."*
+-*"Cortar tudo o que eu enxergo em duas metades."*
+-*"Emprestar o meu peso para o que eu encostar."*
+-
+-Uma boa Regra exclui coisas. "Controlar fogo" não exclui nada e vira um cheque em branco; "acender o que já passa pela minha mão" exclui bastante, e é isso que a torna interessante. O limite é o que obriga a criatividade na montagem dos feitiços.
+-
+-Se estiver travado, o **Catálogo de temas** no apêndice traz 70 pontos de partida que podem ajudar.
+-
+-### Famílias
+-
+-As Melhorias, que são as peças que você compra para os seus feitiços, estão divididas em nove Famílias, cada uma cuidando de um tipo de efeito:
+-
+-**Famílias**
+-{: .tab-titulo }
+-
+-| Família | Do que trata |
++| 1 | 1 | Nenhum. É a versão inicial. |
++| 2 | 7 | 1 espaço no total. |
++| 3 | 13 | 2 espaços no total. |
++
++Ao melhorar de Classe Passiva 2 para 3, ocupe somente **mais um espaço**. Regra Própria não conta no máximo de cinco Passivas pagas. O nome se refere a este efeito. A **Regra do Fundamento** continua sendo a frase que define o funcionamento da técnica inteira.
++
++## Escreva o efeito
++
++Comece por uma frase que a mesa consiga aplicar. Depois registre alcance, alvos, consequência e prazo quando forem necessários. A Regra Própria precisa cumprir estas condições:
++
++- **Gatilho verificável.** O grupo identifica quando acontece.
++- **Simetria.** A mesma consequência pode valer contra você, nas mesmas condições.
++- **Sem dano direto.** Ela pode produzir um recurso, uma condição ou uma obrigação com funcionamento definido.
++- **Limite por cena.** Escreva quantas vezes a consequência pode ser aplicada.
++
++Compare seu resultado com as Passivas da mesma Classe. Uma frase como “o alvo fica ligado a mim” ainda precisa dizer o que a ligação faz, quem afeta, quanto dura e como termina. A simetria e o limite não tornam qualquer consequência adequada à Classe Passiva 1.
++
++## Exemplo: aposta entre dois
++
++**Regra:** uma vez por cena, quando você e outra criatura aceitarem uma aposta sobre uma disputa real entre ambos, quem vencer recebe vantagem no próximo teste que fizer antes do fim da cena.
++
++Os dois precisam entender e aceitar a aposta antes da disputa. Registrem um resultado que possa ser verificado. Empate não concede vantagem e consome a aposta da cena. A Passiva não concede ações nem altera testes já resolvidos. Um resultado combinado antecipadamente não é uma disputa. Esta é uma proposta original de **Classe Passiva 1**, sujeita à aprovação da mesa.
++
++Uma regra que imponha uma condição a alguém contra a vontade precisa declarar sua defesa ou seu TR, a CD, a duração e a saída. Não basta escrever a obrigação na narrativa para retirar as ações de outra criatura.
++
++<!-- page:cat-passiva-propria|Passiva Própria -->
++# Passiva Própria
++
++**Classe Passiva 1, 2 ou 3. Custos e níveis da Classe escolhida.** Se o catálogo não representar a ideia, escreva o efeito com o mestre antes da sessão. Ele ocupa os espaços correspondentes e conta no máximo de cinco Passivas pagas.
++
++## Defina a aplicação
++
++| Campo | Pergunta que a ficha responde |
+ |---|---|
+-| **Alcance** | Chegar longe, se mexer, mexer o inimigo de lugar |
+-| **Área** | Pegar mais de um alvo, aumentar tamanho, dividir o ataque |
+-| **Mira** | Acertar, não errar, atravessar defesa |
+-| **Controle** | Derrubar, prender, calar, barreira, terreno |
+-| **Auxiliares** | Somar e tirar número: vantagem, defesa, CD, deslocamento |
+-| **Castigo** | Fazer o dano render mais |
+-| **Tempo** | Ação bônus, reação, deixar armado, conjurar escondido |
+-| **Marca** | Preparar o próximo golpe, roubar vida, rastrear |
+-| **Amparo** | Curar, limpar condição, levantar aliado |
+-
+-Na criação, o seu Fundamento define a relação dele com essas Famílias, e é aqui que duas técnicas com a mesma Regra viram personagens diferentes.
+-
+-**Duas Famílias Livres:** as Melhorias delas custam metade da Classe a menos, com mínimo de 1 ponto — tanto para a redução quanto para o mínimo que ela ainda tem de custar. *Numa Classe 1, uma Melhoria `Leve` e uma `Média` continuam custando 1, e uma `Pesada` custa 1 em vez de 2, pela redução.* É onde a sua técnica é naturalmente boa.
+-
+-**Três Famílias Fechadas:** você nunca compra nada delas, em Classe nenhuma. É o que a sua técnica simplesmente não consegue fazer.
+-
+-As outras quatro ficam no preço normal, e são neutras.
+-
+-Na prática: uma Melhoria `Média` num feitiço de Classe 4 custa 4 pontos. Se ela for de uma Família Livre sua, o desconto de metade da Classe (2) derruba o preço para 2. Se for de uma Família Fechada, ela não está à venda.
+-
+-As Formas, que são o jeito como o feitiço sai, também têm Família: `Explosão`, `Aura`, `Cone` e `Linha` são de **Área**; `Cura`, `Apoio` e `Onda` são de **Amparo**. Fechar uma dessas Famílias bloqueia as Formas dela junto. `Projétil`, `Toque` e `Efeito` são de todo mundo.
+-
+-### Selo
+-
+-Para conjurar, o seu personagem sempre faz a mesma coisa, seja qual for o feitiço: um gesto, um som, uma condição visível. É a assinatura da técnica, o que a mesa vê ou ouve toda vez que ela entra em cena.
+-
+-Bater palma. · Dizer o nome do feitiço. · Estar enxergando o alvo. · Ter tocado no alvo nesta cena. · Estar pisando no chão.
+-
+-O Selo não mexe em ponto nenhum: não custa e não dá bônus. Ele dá corpo à técnica, e quem conhece o seu Selo sabe o que procurar quando você se mexe. A única regra mecânica ligada a ele aparece nas Restrições: como o Selo já é uma obrigação sua, **uma Restrição que cobra a mesma coisa que ele não devolve ponto**.
+-
+-O seu Selo tem de ser uma coisa simples, e a mesa consegue apontar o momento em que ela aconteceu. Se você precisa de mais de uma frase para explicar, aquilo virou condição de cena ou de alvo, e isso se compra por feitiço, com a Restrição `Condicional`.
+-
+-**É Selo ou é `Condicional`**
+-{: .tab-titulo }
+-
+-| É Selo | Vira `Condicional` |
+-|---|---|
+-| Bater palma | Bater palma três vezes no ritmo certo |
+-| Estar enxergando o alvo | Enxergar o alvo sem que ele te enxergue |
+-| Ter tocado no alvo nesta cena | Ter tocado no alvo e saber o nome dele |
+-| Gastar o próprio sangue | Gastar sangue de alguém do seu clã |
+-
+-O Selo pode mudar de forma sem perder a função: se você perde a mão que batia palma, arruma outra coisa que faça o mesmo som.
+-
+-**Selos da obra**
+-{: .tab-titulo }
+-
+-| Selos de Jujutsu Kaisen | O Selo |
+-|---|---|
+-| Nobara (Boneco de Palha) | Martelo e prego na mão. |
+-| Nobara (Ressonância) | Um pedaço do alvo: sangue, cabelo, um membro. |
+-| Todo (Boogie Woogie) | Bater palma. Depois que perdeu a mão, um vibraslap: o som mudou de fonte, o Selo continuou. |
+-| Inumaki (Fala Amaldiçoada) | Falar o comando, e a garganta cobra o preço. |
+-| Megumi (Dez Sombras) | Um sinal de mão para cada shikigami. |
+-| Mahito (Transfiguração Ociosa) | Tocar no alvo. |
+-| Choso (Manipulação de Sangue) | Gastar o próprio sangue. |
+-| Nanami (Proporção) | Mirar o ponto 7:3 do corpo do alvo. |
+-
+-### Passivas
+-
+-Passiva é o que a sua técnica faz sem você exigir uma ação: o efeito que fica ligado enquanto você existe. Cada Passiva tem uma **Classe Passiva**, e é paga com **espaços de feitiço conhecido**. Você abre mão de saber mais feitiços para que a técnica trabalhe sozinha.
+-
+-**Passivas**
+-{: .tab-titulo }
+-
+-| Classe Passiva | Custa | Libera no nível | O que cabe |
+-|---|---|---|---|
+-| **Livre** | nada | 1 | Narrativa pura. Não rola dado, não muda número, não faz ninguém rolar. Todo personagem pode ter uma. |
+-| **1** | 1 espaço | 1 | Efeito pequeno, condicional, ou de informação. |
+-| **2** | 2 espaços | 7 | Efeito reativo, com limite de uso por cena ou por descanso. |
+-| **3** | 3 espaços | 13 | Permanente. Muda como você joga. |
+-
+-Máximo de cinco Passivas pagas. A Passiva Livre e a `Regra Própria` não contam.
+-
+-#### Passiva Livre
+-
+-Todo personagem começa com uma Passiva Livre, de graça. Ela não rola dado, não muda número nenhum e não faz ninguém rolar. Dentro desses limites, use quando e quanto quiser.
+-
+-*"Você enxerga emoção como cor."* · *"Planta murcha quando você passa."* · *"Você nunca se perde."* · *"Seu reflexo aparece um segundo atrasado."* · *"Metal fica frio na sua mão."*
+-
+-A Livre entrega narrativa simples: você vê o medo na cor de alguém, e descobrir o motivo do medo continua dependendo de você.
+-
+-#### Limites
+-
+-- Bônus de dano ou acerto que vale o tempo todo, sem condição.
+-- Uma ação a mais por rodada.
+-- Imunidade completa a um tipo de dano ou condição.
+-- Cura sem limite de uso por descanso.
+-- Redução de Dano passiva, ou seja, descontar um número fixo de todo golpe que te acerta.
+-
+-#### Lista
+-
+-**Lista**
+-{: .tab-titulo }
+-
+-| Passiva | Classe Passiva | O que faz |
+-|---|---|---|
+-| `Leitura` | 1 | Você identifica a Classe e a Forma de qualquer feitiço conjurado a até 18 m. |
+-| `Instinto` | 1 | Você não é pego de surpresa enquanto estiver acordado. |
+-| `Raiz` | 1 | Você não é movido à força nem derrubado contra a sua vontade. |
+-| `Mão Firme` | 1 | Você não perde concentração nem carga por dano de 10 ou menos. |
+-| `Farejador` | 1 | Você sente se alguém conjurou num lugar nas últimas 24 horas, e de que Classe. |
+-| `Aviso` | 1 | Você sabe qual foi o último feitiço que um inimigo à vista usou. |
+-| `Fluxo` | 2 | Ao conjurar Classe 3 ou mais, você ganha 2 × Classe de vida temporária. |
+-| `Recomposição` | 2 | Uma vez por descanso curto, gasta a ação e recupera 5 × a sua maior Classe em vida. |
+-| `Segunda Natureza` | 2 | Uma vez por dia, conjura um feitiço de Classe até metade da sua maior sem gastar PE. |
+-| `Eco` | 2 | Quando você derruba um inimigo com feitiço, o próximo feitiço da cena custa metade. |
+-| `Costura` | 2 | Uma vez por cena, um aliado a até 9 m que cairia a 0 fica com 1. |
+-| `Contramedida` | 2 | Como Reação, quando alguém conjura a até 9 m, gasta PE e sobe em 2 a CD daquele feitiço. |
+-| `Peso da Presença` | 2 | Inimigos fracos que começam o turno a até 6 m fazem Teste de Resistência ou ficam `Amedrontados` por uma rodada. |
+-| `Escama` | 3 | Escolha um tipo de dano que a sua Regra justifique. Você tem resistência a ele: todo dano daquele tipo cai pela metade. |
+-| `Afinidade` | 3 | Escolha um tema da sua Regra. Feitiços daquele tema ignoram cobertura `Parcial` e resistência ao seu tipo de dano. |
+-| `Reserva Profunda` | 3 | Seu PE máximo sobe em 3 × a sua maior Classe. |
+-| `Regra Própria` | 1 a 3 | Sua técnica impõe uma regra ao mundo. Ver abaixo. |
+-| `Passiva Própria` | 1 a 3 | Qualquer outra coisa, montada com o mestre na escala das outras entradas desta tabela. |
+-
+-#### Regra Própria
+-
+-Algumas técnicas funcionam impondo uma regra ao mundo: julgamento, aposta, contrato, dívida, sorte. Para essas existe a `Regra Própria`, escrita junto com o mestre antes de a campanha começar, obedecendo cinco travas:
+-
+-- Uma frase.
+-- Verificável: a mesa aponta o momento em que ela disparou.
+-- Simétrica: vale contra você nas mesmas condições.
+-- Sem dano direto: gera recurso, condição ou obrigação.
+-- Com limite por cena.
+-
+-Na criação, a `Regra Própria` vem de graça em Classe Passiva 1: ela não gasta espaço de feitiço, e a Classe Passiva 1 é o teto dela até os níveis liberarem as alturas maiores. Quando isso acontecer, ela sobe para 2 e 3 pagando só a diferença para a Classe Passiva 1: 1 espaço para a Classe Passiva 2, e 2 para a 3.
+-
+-*"Quem me atacar sabendo que eu não revidei acumula uma Dívida. Cobro uma por cena."*
+-*"Quando eu aposto e ganho, meu próximo teste na cena tem vantagem. Uma vez por cena."*
+-*"Duas coisas que eu tocar na mesma rodada ficam ligadas até o fim da cena."*
+-
+-## Fundamentos prontos
+-
+-Três Fundamentos completos, prontos para usar como estão ou para servir de régua na hora de escrever o seu. A **Régua** volta em *Criando feitiços* para montar o primeiro feitiço do capítulo.
+-
+-Os três param onde a criação de personagem para: Descrição, Regra, Famílias, Selo e, quando a técnica pede, a Passiva.
+-
+-### Régua
+-
+-**Ficha de feitiço**
+-{: .tab-titulo }
+-
+-| | |
+-|---|---|
+-| **Descrição** | Ele mede. Aponta o dedo, calcula a distância até o alvo e cobra essa distância do corpo do outro. A mão dele fica parada, e o corte aparece sozinho no outro lado. Quanto mais longe, mais fundo. Tipo de dano: corte. |
+-| **Regra** | *"Medir a distância entre dois pontos e cobrar por ela."* |
+-| **Livres** | Mira · Alcance |
+-| **Fechadas** | Área · Amparo · Auxiliares |
+-| **Selo** | Apontar com o dedo e falar o alvo em voz alta. |
+-
+-### Sentença
+-
+-**Ficha de feitiço**
+-{: .tab-titulo }
+-
+-| | |
+-|---|---|
+-| **Descrição** | Ela só registra. Cada coisa que acontece perto dela fica anotada em algum lugar que ninguém vê, e uma hora a conta fecha. O que ela cobra quando fecha é o que a pessoa devia. Tipo de dano: psíquico. |
+-| **Regra** | *"Registrar o que foi feito e cobrar quando fechar a conta."* |
+-| **Livres** | Marca · Castigo |
+-| **Fechadas** | Área · Alcance · Amparo |
+-| **Selo** | Ter visto o ato com os próprios olhos. |
+-| **Passiva** | `Regra Própria` (Classe Passiva 3): *"quem ferir alguém desarmado na minha frente acumula uma Dívida. Posso cobrar uma Dívida por cena: o alvo tem desvantagem no próximo teste e eu tenho vantagem contra ele até o fim do meu próximo turno."* |
+-
+-### Banca
+-
+-**Ficha de feitiço**
+-{: .tab-titulo }
+-
+-| | |
+-|---|---|
+-| **Descrição** | Ele joga. É a pura representação de uma aposta: moeda no ar, carta virada, um dado rolando, pura sorte. O golpe em si paga pouco, porque o prêmio de verdade fica guardado com a banca, e a banca fecha a conta quando ele ganha. Tipo de dano: impacto. |
+-| **Regra** | *"Apostar contra a sorte e cobrar o prêmio."* |
+-| **Livres** | Auxiliares · Marca |
+-| **Fechadas** | Área · Alcance · Castigo |
+-| **Selo** | Falar a aposta em voz alta. |
+-| **Passiva** | `Regra Própria` (Classe Passiva 1 na criação, subindo com os níveis): *"quando eu aposto e ganho, meu próximo teste na cena tem vantagem. Uma vez por cena."* |
+-
+-## Criando feitiços
+-
+-Com o Fundamento escrito, os feitiços saem dele. Montar um feitiço é uma conta curta: escolher o tamanho, escolher como ele sai, gastar os pontos e dar um nome.
+-
+-### Teto de feitiços
+-
+-Antes de montar o primeiro, veja quantos você tem direito de escrever. A conta é do capítulo 19, *Experiência e Progressão*.
+-
+-> **Espaços de feitiço conhecido = `2 + (nível ÷ 2)`, arredondando para baixo. Mais um por marco já alcançado.**
+-> Os marcos são os níveis **6, 10, 14, 18, 22, 26 e 30**.
+-
+-Na prática, você abre um espaço novo **a cada nível par**, e nos marcos abre dois de uma vez.
+-
+-**Teto de feitiços**
+-{: .tab-titulo }
+-
+-| Seu nível | 1 | 2 | 5 | 10 | 14 | 20 | 26 | 30 |
+-|---|---|---|---|---|---|---|---|---|
+-| **Espaços** | 2 | 3 | 4 | 9 | 12 | 16 | 21 | 24 |
+-
+-Duas coisas dividem esses espaços com os seus feitiços: cada **Passiva** paga custa de 1 a 3 espaços, e a **Expansão de Domínio** custa 2 ou 3. O resto vira feitiço montado.
+-
+-Ficam **fora** da conta os feitiços de **Classe 0**, que são contados à parte, e as **Liberações Máximas**, que não ocupam espaço nenhum.
+-
+-> **Exemplo.** Mei está no nível 10. São 9 espaços: `2 + 5` da conta, mais 2 dos marcos 6 e 10. Ela já gastou 2 numa **Passiva de Classe Passiva** 2, então tem **7 feitiços montados** na ficha, mais os 3 de **Classe 0** e a **Liberação Máxima** que o nível 10 acabou de dar.
+-
+-### Passos
+-
+-1. Escolha a **Classe**, até a maior que o seu nível liberou. Ela define os pontos (3 × Classe), o custo em PE (o mesmo número) e quantas Melhorias e Restrições cabem.
+-2. Escolha a **Forma**: como o feitiço sai de você. Algumas Formas custam pontos; nenhuma conta no limite de Melhorias.
+-3. Compre **Melhorias** e, se quiser recuperar pontos, venda **Restrições**.
+-4. O que sobrar de ponto vira dado: **1 ponto = 1d8 de dano**.
+-5. Dê um nome e escreva na ficha.
+-
+-> **Dados de dano = Pontos − Melhorias + Devolução**
+-> A devolução das Restrições nunca passa do que você gastou em Melhoria: se devolver mais, o excedente some. É por isso que Restrição barateia o feitiço e nunca aumenta o dano dele.
+-
+-### Exemplo guiado: o primeiro feitiço da Régua
+-
+-A **Régua** mede distâncias e cobra por elas. As Famílias Livres dela são Mira e Alcance; as Fechadas são Área, Amparo e Auxiliares. O jogador quer o golpe básico da técnica: um corte disparado à distância, que atravesse armadura.
+-
+-**Passo 1, Classe.** O personagem está no nível 5, então a maior Classe dele é 2. Isso dá **6 pontos**, custo de 6 PE, e os limites da Classe: até 2 Melhorias, até 2 Restrições, devolução máxima de 4.
+-
+-**Passo 2, Forma.** `Projétil`: 18 m, um alvo, rolagem de acerto. Não custa ponto.
+-
+-**Passo 3, Melhorias e Restrições.** `Fura` (Mira, `Média`) custaria 2 pontos numa Classe 2, mas Mira é Família Livre da Régua: o desconto de metade da Classe (1) derruba o preço para **1 ponto**. `Precisão` (Mira, `Leve`) custa 1 e fica em 1, porque o desconto nunca leva um preço abaixo de 1. Foram 2 pontos em Melhoria, sobrariam 4. Para recuperar um, ele vende `Parado` (devolve 1): a Régua precisa dos pés no chão para medir, então não se move no turno em que conjura. A devolução paga 1 dos 2 pontos gastos.
+-
+-**Passo 4, dano.** 6 − 2 + 1 = **5 pontos sobrando: 5d8 de corte**, uma média de 22.
+-
+-**Passo 5, nome.** Está pronto, e vai para a ficha assim:
+-
+-**Ficha de feitiço**
+-{: .tab-titulo }
+-
+-| | |
+-|---|---|
+-| **Nome** | `Corte Medido` |
+-| **Classe / Pontos / PE** | 2 · 6 pontos · 6 PE |
+-| **Forma** | `Projétil` (18 m, um alvo) |
+-| **Resolve com** | Rolagem de acerto, com +2 da `Precisão` |
+-| **Melhorias** | `Fura` (−1, Livre) · `Precisão` (−1, Livre) |
+-| **Restrições** | `Parado` (+1) |
+-| **Dano** | 5d8 = 22, ignorando até 4 de Redução de Dano (2 × Classe) |
+-| **Ação** | Padrão |
+-| **Como é** | Ele para, aponta, diz o nome do alvo, e a distância medida abre no corpo do outro, como um corte de papel do tamanho do caminho. |
+-
+-> **Erros comuns**
+-> **Vender Restrição sem Melhoria para pagar.** A devolução some. O `Golpe Cru`, em *Feitiços prontos*, é um exemplo disso.
+-> **Contar que Restrição vira dado.** Nunca vira: contra um alvo só, 6 pontos continuam sendo o máximo de dados de uma Classe 2, com ou sem Restrição.
+-> **Empilhar duas Restrições de frequência** (`Uma Vez`, `Condicional`, `Aquecer`, `Dívida`). Não pode, e *Combinações inviáveis* explica a trava.
+-
+-### Formas
+-
+-A Forma define quem o feitiço atinge e como ele se resolve. Escolha uma por feitiço.
+-
+-**Formas**
+-{: .tab-titulo }
+-
+-| Forma | Custa | O que é | Como resolve |
+-|---|---|---|---|
+-| `Projétil` | — | 18 m, um alvo | Rolagem de acerto |
+-| `Toque` | — | 1,5 m, um alvo. `Projétil` com a Restrição `Corpo a Corpo` embutida (devolve `Média`). | Rolagem de acerto |
+-| `Explosão` | `Leve` | Esfera de raio 3 m, num ponto a até 18 m | Teste de Resistência, metade no sucesso |
+-| `Aura` | `Leve` | Esfera de raio 3 m centrada em você. `Explosão` com `Corpo a Corpo` embutida (devolve `Média`). | Teste de Resistência, metade no sucesso |
+-| `Cone` | `Leve` | 4,5 m saindo de você. A largura do cone em qualquer ponto é igual à distância daquele ponto até você. | Teste de Resistência, metade no sucesso |
+-| `Linha` | `Leve` | 18 m por 1,5 m. Quando o comprimento chega ao topo da escada, `Maior` passa a subir a largura: 1,5 m → 3 m → 4,5 m. | Teste de Resistência, metade no sucesso |
+-| `Cura` | `Média` | Um aliado a até 9 m. Os dados viram cura. Pode escolher alvo hostil. | Automático no aliado, acerto no hostil |
+-| `Apoio` | — | Um aliado a até 9 m. Sem dano. Cada ponto que sobra vira 3 de vida temporária. | Automático |
+-| `Onda` | `Pesada` | Esfera de raio 3 m centrada em você. A cura ou o apoio pega todos os aliados dentro, sem dividir. | Automático |
+-| `Efeito` | — | Fora de combate. Sem dano. Ver *Fora de combate*. | Automático |
+-
+-Trocar rolagem de acerto por Teste de Resistência, ou o contrário, é de graça.
+-
+-Cada Forma pertence a uma Família: `Explosão`, `Aura`, `Cone` e `Linha` à **Área**; `Cura`, `Apoio` e `Onda` ao **Amparo**. Fundamento com a Família Fechada fica sem essas Formas. `Projétil`, `Toque` e `Efeito` são de todo mundo.
+-
+-#### Base por Classe
+-
+-**Base por Classe**
+-{: .tab-titulo }
+-
+-| Forma | Classe 0 | Classes 1 a 5 | Classes 6 e 7 |
+-|---|---|---|---|
+-| `Projétil` e `Toque` | 9 m | 18 m | 36 m |
+-| `Explosão` | raio 3 m, a 9 m | raio 3 m, a 18 m | raio 4,5 m, a 36 m |
+-| `Aura` | raio 3 m, em você | raio 3 m, em você | raio 4,5 m, em você |
+-| `Cone` | 3 m | 4,5 m | 9 m |
+-| `Linha` | 9 × 1,5 m | 18 × 1,5 m | 30 × 1,5 m |
+-| `Apoio` | 4,5 m | 9 m | 18 m |
+-| `Cura` e `Onda` | — | 9 m | 18 m |
+-
+-`Toque` fica em 1,5 m em qualquer Classe.
+-
+-### Escadas
+-
+-Alcances e tamanhos crescem por degraus fixos. As Melhorias de Alcance e Área (`Longe`, `Maior` e as irmãs) sobem degraus nestas escadas:
+-
+-**Escadas**
+-{: .tab-titulo }
+-
+-| Escada | Degraus |
+-|---|---|
+-| **Alcance** | 1,5 m → 9 m → 18 m → 36 m → 90 m → o que você enxergar |
+-| **Esfera (raio)** | 3 m → 4,5 m → 6 m → 9 m → 15 m |
+-| **Cone e Linha** | 4,5 m → 9 m → 18 m → 30 m → 60 m |
+-
+-O degrau "o que você enxergar" vale para olho nu. Câmera, luneta, espelho e visão emprestada não contam.
+-
+-Se uma Melhoria subir mais degraus do que a escada tem, ela para no último degrau.
+-
+-### Ampliar
+-
+-Você pode lançar qualquer feitiço que conhece numa Classe maior que a original, até a sua Classe máxima, pagando o PE da Classe nova. Refaça a conta inteira com os números novos: pontos, preços de Melhoria e devoluções de Restrição mudam todos juntos.
+-
+-**Ampliar**
+-{: .tab-titulo }
+-
+-| `Palma Trovejante` · Classe | Pontos | `Cone` (Leve) | `Derrubado` (Leve) | `Atrasar` (devolve) | Dano | PE |
+-|---|---|---|---|---|---|---|
+-| Classe 2 (original) | 6 | −1 | −1 | +2 | 6d8 = 27 | 6 |
+-| Classe 3 | 9 | −2 | −2 | +3 | 8d8 = 36 | 9 |
+-| Classe 5 | 15 | −3 | −3 | +5 | 14d8 = 63 | 15 |
+-
+-Ampliar aumenta o número e não muda a natureza do feitiço.
+-
+-### Cura
+-
+-A Forma `Cura` custa `Média` e transforma em cura os dados que sobrarem, aplicados automaticamente num aliado a até 9 m. Não existe Liberação Máxima de cura: a linha de baixo é o teto por Classe.
+-
+-Para pegar mais gente: `Junto` (Amparo) soma um aliado dividindo o efeito, e a Forma `Onda` cura em área sem dividir.
+-
+-A Forma `Cura` pode escolher um alvo hostil em vez de um aliado. Nesse alvo ela deixa de ser automática e pede rolagem de acerto, como qualquer feitiço de dano. Contra uma maldição os dados viram dano, com `50%` a mais; contra qualquer outra coisa ela não faz nada. É energia positiva machucando maldição, e ela precisa da aptidão `Energia Reversa` para funcionar — sem ela, apontar este feitiço num inimigo não produz nada.
+-
+-Os `50%` não são bônus. A cura já rende dois terços do dano da mesma Classe, e somar metade em cima devolve exatamente a linha cheia: um `Classe 5` assim causa `67`, que é o dano daquela Classe. E esta rota nunca é a melhor escolha, porque ela custa a `Média` da Forma e um `Projétil` custa nada e fere qualquer coisa.
+-
+-**Cura**
+-{: .tab-titulo }
+-
+-| Classe | 1 | 2 | 3 | 4 | 5 |
+-|---|---|---|---|---|---|
+-| **Cura cheia** | 2d8 = 9 | 4d8 = 18 | 6d8 = 27 | 8d8 = 36 | 10d8 = 45 |
+-| **`Onda` (área)** | 1d8 = 4 | 3d8 = 13 | 4d8 = 18 | 6d8 = 27 | 7d8 = 31 |
+-| **Dano da mesma Classe** | 13 | 27 | 40 | 54 | 67 |
+-
+-### Controle
+-
+-Feitiço que carrega pelo menos uma Melhoria da família **Controle** ganha um bônus quando abre mão da maior parte do dano dele.
+-
+-> Se o dano final for **um quarto do teto** (o teto é 4 × Classe): os efeitos de Controle duram uma rodada a mais.
+-> **Sem dano nenhum**, ou seja, o feitiço gastou tudo em Controle e outras Melhorias: além da rodada extra, a CD contra esses efeitos sobe **+2**.
+-
+-O bônus vale só contra os efeitos de Controle do feitiço. O Teste de Resistência do dano, quando existe, fica como está.
+-
+-Por exemplo, num Classe 4 o teto é 16 dados: sobrar até 4 dados de dano já dá a rodada extra, e sobrar zero dá também o `+2` na CD.
+-
+-**Controle**
+-{: .tab-titulo }
+-
+-| Feitiço de Classe 5 · 15 pontos · teto 20 · um quarto = 5 | Dano final | O que ganha |
+-|---|---|---|
+-| 15d8 puro, sem Controle | 15d8 | nada |
+-| `Condição` Leve (−3) | 12d8 | nada: ainda bate como feitiço de dano |
+-| `Condição` Média (−5) | 10d8 | nada |
+-| `Condição` Pesada (−8) | 7d8 | nada |
+-| `Condição` Pesada (−8) · `Condição` Média (−5) | 2d8 | dura uma rodada a mais |
+-| `Explosão` (−3) · `Cond.` Média (−5) · `Prende` (−5) · `Puxa` (−5) · `Parado` (+3) | 0d8 | uma rodada a mais e CD +2 |
+-
+-Uma condição sozinha nunca dispara o bônus. Para chegar no primeiro degrau você compra duas peças de Controle, ou uma condição e alguma outra coisa cara. E para o segundo, o feitiço precisa sair sem um único dado de dano.
+-
+-## Melhorias por família
+-
+-O preço de cada uma depende da Classe do feitiço em que ela entra: `Leve` custa metade da Classe, `Média` custa a Classe inteira, `Pesada` custa Classe e meia, sempre arredondando para cima.
+-
+-Exemplo: num feitiço de Classe 3, uma `Leve` custa 2 pontos, uma `Média` custa 3 e uma `Pesada` custa 5. Nas suas duas Famílias Livres, tire metade da Classe do preço, com mínimo de 1; nas três Fechadas, não há o que comprar.
+-
+-### Alcance
+-
+-Essas Melhorias resolvem distância: o feitiço chega mais longe, ou você se move junto com ele.
+-
+-**Alcance**
+-{: .tab-titulo }
+-
+-| Melhoria | Custo | O que faz |
+-|---|---|---|
+-| `Longe` | `Leve` | Sobe um degrau na escada de alcance. Pode comprar duas vezes. |
+-| `Muito Longe` | `Média` | Sobe três degraus de uma vez. |
+-| `Sem Ver` | `Pesada` | Você conjura contra um alvo fora da sua linha de visão, desde que saiba onde ele está. Alcance normal do feitiço. |
+-| `Passo` | `Leve` | Você anda até 6 m antes ou depois do feitiço, sem provocar ataque de oportunidade. |
+-| `Empurrão` | `Leve` | Move o alvo até 6 m na direção que você quiser. |
+-| `Troca` | `Média` | Você e o alvo trocam de lugar. |
+-| `Perseguir` | `Média` | Se o alvo sair do alcance antes de o feitiço concluir, o feitiço vai atrás. |
+-
+-### Área
+-
+-Aqui o feitiço para de mirar uma pessoa só: ele cresce, se divide em vários tiros, ou pula de alvo em alvo.
+-
+-**Área**
+-{: .tab-titulo }
+-
+-| Melhoria | Custo | O que faz |
+-|---|---|---|
+-| `Maior` | `Leve` | Sobe um degrau de tamanho de área. Pode comprar duas vezes. |
+-| `Muito Maior` | `Pesada` | Sobe três degraus de tamanho de uma vez. |
+-| `Escolher` | `Média` | Você decide quem, dentro da área, é atingido. |
+-| `Fica` | `Média` | A área continua ali por 1 minuto. Quem entrar ou começar o turno nela leva metade dos dados. Exige concentração. |
+-| `Mais Um` | `Leve` | Um alvo a mais. Os dados são divididos entre os alvos. Pode comprar duas vezes. |
+-| `Rajada` | `Leve` | Divide o feitiço em (Classe + 1) tiros, cada um com sua rolagem de acerto, distribuídos como você quiser. |
+-| `Salto` | `Média` | Depois do primeiro alvo, pula para o inimigo mais perto a até 9 m com metade dos dados. |
+-| `Contorno` | `Leve` | A área faz curva. Ignora cobertura e dobra esquinas. |
+-
+-### Mira
+-
+-Garantem o acerto: menos chance de errar, mais chance de atravessar a defesa do outro.
+-
+-**Mira**
+-{: .tab-titulo }
+-
+-| Melhoria | Custo | O que faz |
+-|---|---|---|
+-| `Precisão` | `Leve` | +2 na rolagem de acerto, ou +2 na CD do Teste de Resistência. |
+-| `Certeiro` | `Média` | Sem rolagem de acerto. O alvo ainda faz o Teste de Resistência para metade. |
+-| `Inescapável` | `Média` | Sem acerto e sem Teste de Resistência: o dano é automático. Este feitiço não pode ter mais nenhuma peça, nem Melhoria nem Restrição, e não pode ser uma Liberação Máxima. |
+-| `Fura` | `Média` | Ignora até 2 × Classe de Redução de Dano. |
+-| `Corrói` | `Pesada` | Resistência ao seu tipo de dano deixa de valer neste feitiço. Só pode ser comprada se Mira for uma das suas Famílias Livres. |
+-| `Sem Cobertura` | `Leve` | Cobertura `Parcial` não atrapalha. A `Total` não se fura: ela não é bônus, é a ausência de alvo legal. |
+-| `De Novo` | `Média` | Se você errar, rola de novo. Uma vez por cena. |
+-| `Toca a Alma` | `Leve` | Só da Classe 3 em diante, e só para Fundamento cuja Regra seja direta sobre alma. Os dados de dano deste feitiço viram dano na alma, e você fica com metade deles, arredondando para baixo. Não entra numa Liberação Máxima. |
+-
+-### Controle
+-
+-O inimigo sai da luta sem cair morto: no chão, preso, ou lutando contra o próprio terreno.
+-
+-**Controle**
+-{: .tab-titulo }
+-
+-| Melhoria | Custo | O que faz |
+-|---|---|---|
+-| `Condição` | o nível dela | Aplica uma das treze condições. O preço é o nível dela (`Leve`, `Média` ou `Pesada`), e a seção *Condições* traz as três listas. Dura uma rodada, a não ser que o feitiço tenha a `Concentrada` ou a `Duradoura`. As de nível `Pesada` dão Teste de Resistência no fim de cada turno do alvo, e só pode ser colocada uma delas por feitiço. |
+-| `Terreno` | `Leve` | A área vira terreno difícil, ou fica obscurecida, por uma rodada. |
+-| `Anteparo` | `Média` | Deixa uma parede ou escudo com 10 × Classe de pontos de vida, por 1 minuto. Ocupa os mesmos quadrados que a `Linha` da Classe dele, arrumados como você quiser, cada um partilhando um lado com outro. Altura mínima 2 quadrados. Colocado num ponto a até o alcance do feitiço. |
+-| `Prende` | `Média` | O alvo não sai do lugar até o fim do próximo turno dele. Ele pode gastar uma ação — qualquer uma, menos livre — para tentar um Teste de Resistência e se soltar. O Teste é decidido na criação do feitiço. |
+-| `Cerca` | `Leve` | O alvo não consegue se aproximar de você até o fim do próximo turno dele. Acaba assim que você causar dano a ele — inclusive o dano do próprio feitiço que comprou esta Melhoria. |
+-| `Puxa` | `Média` | Todo mundo na área é puxado 6 m na direção do centro. |
+-| `Desarma o Feitiço` | `Média` | Cancela um efeito contínuo ou uma barreira de Classe igual ou menor que a sua. |
+-
+-### Condições
+-
+-São treze, e cada uma tem um **nível**: `Leve`, `Média` ou `Pesada`. O nível faz duas coisas ao mesmo tempo. Ele é o **preço** da Melhoria `Condição` que aplica ela, e é o que custa em energia para **tirar** ela de alguém (1 ponto por nível). Uma condição dura uma rodada, a não ser que o feitiço tenha a `Concentrada` ou a `Duradoura`.
+-
+-Numa Classe 5, aplicar uma `Leve` custa 3 pontos, uma `Média` custa 5 e uma `Pesada` custa 8.
+-
+-**Condições `Leve`**
+-{: .tab-titulo }
+-
+-| Nível `Leve` | O que faz |
+-|---|---|
+-| `Lento` | Deslocamento pela metade, e sem Ação Bônus. |
+-| `Incapacitado` | Você não pode Bloquear, e todo ataque corpo a corpo que acertar você é crítico. Só ele: conjuração e ataque à distância não, e o feitiço de Toque é conjuração mesmo encostado em você. |
+-| `Derrubado` | No chão. Só se move rastejando, desvantagem nos seus ataques, e quem ataca de até 1,5 m tem vantagem; de longe, desvantagem. |
+-| `Agarrado` | Deslocamento 0. Acaba se quem agarrou ficar `Incapacitado`, ou se algo te tirar do alcance dele. Ataque à distância contra quem está agarrando tem 50% de chance de errar o alvo: role `1d10`, e em 6 ou mais você acerta o alvo desejado; em 5 ou menos, acerta quem está agarrando. |
+-| `Desarmado` | A sua arma está no chão ou na mão de outro. Você bate desarmado até pegar de volta. |
+-| `Surdo` | Não ouve. Falha automática em teste que precise de audição, e −2 na iniciativa. |
+-
+-**Condições `Média`**
+-{: .tab-titulo }
+-
+-| Nível `Média` | O que faz |
+-|---|---|
+-| `Calado` | Você não conjura. Nada que precise de voz, gesto ou Selo que envolva voz sai. |
+-| `Enfeitiçado` | Você não ataca quem enfeitiçou nem mira efeito nocivo nele, e ele tem vantagem em teste social contra você. |
+-
+-**Condições `Pesada`**
+-{: .tab-titulo }
+-
+-| Nível `Pesada` | O que faz |
+-|---|---|
+-| `Impedido` | Deslocamento 0, desvantagem nos seus ataques e no Teste de Resistência Físico, e vantagem para quem te ataca. |
+-| `Cego` | Não enxerga. Falha automática em teste que precise de vista, desvantagem nos seus ataques, vantagem para quem te ataca. |
+-| `Amedrontado` | Desvantagem em ataque e teste enquanto enxergar a fonte do medo, e você não se aproxima dela de vontade própria. |
+-| `Envenenado` | Desvantagem nos seus ataques e em todo teste de perícia. |
+-| `Atordoado` | Você perde a Ação Padrão e não usa reação. Quem tem mais de uma Ação Padrão no turno perde só UMA delas, e guarda as demais. |
+-
+-### Auxiliares
+-
+-Pequenos empurrões de sorte, pros dois lados da mesa: números em cima de alguém. Em feitiço de dano valem contra o alvo; nas Formas de Amparo, valem no aliado.
+-
+-**Auxiliares**
+-{: .tab-titulo }
+-
+-| Melhoria | Custo | O que faz |
+-|---|---|---|
+-| `Impulso` | `Leve` | O alvo tem vantagem no próximo teste dele, até o fim do próximo turno. |
+-| `Trava` | `Leve` | O alvo tem desvantagem no próximo ataque dele. |
+-| `Abre Ferida` | `Leve` | O alvo fica com −2 em um Teste de Resistência até o fim do próximo turno dele. |
+-| `Sobrecarga` | `Leve` | Até o fim do próximo turno do alvo, ele não usa Reação, e o feitiço dele sai com a CD 2 menor. |
+-| `Firmeza` | `Média` | O alvo tem vantagem no próximo Teste de Resistência dele. |
+-| `Guarda` | `Média` | Até o fim do próximo turno, o alvo tem +2 de defesa. |
+-| `Pressa` | `Média` | O alvo ganha +6 m de deslocamento e não provoca ataques de oportunidade até o fim do próximo turno. |
+-| `Enfraquece` | `Média` | O dano do alvo cai `Xd4` até o fim do próximo turno dele, com X sendo metade do seu atributo de técnica. |
+-| `Ecoa` | `Média` | O próximo ataque de um aliado contra o alvo tem vantagem. |
+-
+-### Castigo
+-
+-O dano que continua doendo depois do golpe: queima que volta, corte que piora contra quem já está machucado.
+-
+-**Castigo**
+-{: .tab-titulo }
+-
+-| Melhoria | Custo | O que faz |
+-|---|---|---|
+-| `Queima` | `Média` | Metade dos dados de novo, no começo do próximo turno do alvo. |
+-| `Acúmulo` | `Média` | +1 dado por rodada seguida usando este feitiço no mesmo alvo. Para de somar em +3. |
+-| `Remate` | `Média` | +25% de dano contra alvo abaixo de metade da vida. Não entra num feitiço que tenha uma `Condicional` ligada à vida do alvo ou à duração, nem num feitiço com a Restrição `Aquecer`. |
+-| `Estilhaço` | `Leve` | Em crítico, ou quando o alvo falha o Teste de Resistência por 5 ou mais, metade dos dados respinga em quem estiver do lado. |
+-| `Quebra Coisa` | `Leve` | Dano dobrado contra barreiras, objetos e estruturas. |
+-| `Rasga Escudo` | `Média` | O dano ignora `vida temporária` e barreiras: bate direto na vida. Não ignora Redução de Dano. |
+-| `Sem Cura` | `Média` | O alvo não pode receber cura até o fim do próximo turno dele. |
+-
+-### Tempo
+-
+-Aqui você compra o momento do feitiço: mais rápido que o normal, disparado escondido, ou fora da sua vez.
+-
+-**Tempo**
+-{: .tab-titulo }
+-
+-| Melhoria | Custo | O que faz |
+-|---|---|---|
+-| `Rápido` | `Pesada` | Custa Ação Bônus em vez de Ação Padrão. Não entra no mesmo feitiço que `Reação` nem com a Restrição `Atrasar`. |
+-| `Reação` | `Pesada` | Você conjura como Reação, a um gatilho que você declara quando monta o feitiço. Não entra no mesmo feitiço que `Rápido` nem que `Armado`, nem com as Restrições `Atrasar` e `Parado`. |
+-| `Armado` | `Leve` | Você gasta a ação e o PE do feitiço, e ele fica armado até o fim da cena. Na hora de armar, escolha um gatilho que a mesa consiga ver acontecer e que não seja um momento do seu próprio turno. Quando ele acontece, o feitiço sai sem gastar Reação, com alcance e alvo conferidos naquela hora. Um armado por vez. Se ele não sair, porque a cena acabou ou porque você armou outro, metade do PE volta. Não entra no mesmo feitiço que `Reação` nem com a Restrição `Carregar`. |
+-| `Silencioso` | `Leve` | Sem gesto, sem palavra. Usar não revela a sua posição e não exige nenhum sinal. Dispensa Selo de gesto ou de som; Selo de condição, como enxergar o alvo, continua valendo. |
+-| `Adianta` | `Média` | Se você conjurar antes de qualquer inimigo agir na rodada, +2 na CD. |
+-| `Segura` | `Leve` | Você pode adiar o efeito por até uma rodada e disparar no seu próximo turno, de graça. |
+-| `Concentrada` | `Leve` | Os efeitos de estado do feitiço, que hoje duram uma rodada ou até o fim do próximo turno, passam a durar o tempo da tabela `Quanto dura`. Exige concentração. Não vale para o dano, para a `Fica` nem para o `Anteparo`. |
+-| `Duradoura` | `Média` | A mesma coisa que a `Concentrada`, só que sem exigir concentração, e com o tempo da coluna `Duradoura` da tabela `Quanto dura`. |
+-
+-> Se você conjurar um feitiço como Ação Bônus ou Reação, o único outro feitiço que cabe naquele turno é de **Classe 0**.
+-
+-O tempo depende do que o feitiço faz, e o feitiço inteiro leva a menor duração entre os efeitos dele.
+-
+-**Quanto dura**
+-{: .tab-titulo }
+-
+-| O que o efeito faz | Concentrada | Duradoura |
+-|---|---|---|
+-| Condição, buff ofensivo e debuff | 1 minuto | 1 minuto |
+-| Buff defensivo numérico: um bônus fixo na Defesa ou num Teste de Resistência (a `Guarda`) | 10 minutos | 1 minuto |
+-| Buff defensivo mecânico: resistência, imunidade, pontos de vida ou dividir dano (a `Divide`) | 10 minutos | Classe 1 e 2: 1 hora · Classe 3: 8 horas · Classe 4 em diante: 24 horas |
+-
+-### Marca
+-
+-O que sobra depois que o feitiço passou: uma marca no alvo, um fio que puxa energia de volta pra você.
+-
+-**Marca**
+-{: .tab-titulo }
+-
+-| Melhoria | Custo | O que faz |
+-|---|---|---|
+-| `Marca` | `Leve` | O alvo fica marcado até o fim do seu próximo turno. **Você** tem vantagem no seu próximo ataque contra ele. Só você. |
+-| `Alvo de Caça` | `Leve` | O alvo fica marcado até o fim do seu próximo turno. Daí em diante, cada ataque **seu** que acertar ele causa 1d4 a mais, e o feitiço que marcou não ganha o dado. Vale arma, desarmado e feitiço com rolagem de acerto, e cada tiro da `Rajada` conta. Se este feitiço tiver o `Rápido`, o dado é 1d8. Não entram feitiço de Teste de Resistência, dano que volta em rodada seguinte como o da `Queima`, respingo, nem ataque da sua invocação. Um alvo marcado por vez: marcar outro apaga a marca anterior. |
+-| `Rastro` | `Leve` | Você sabe onde o alvo está por 1 hora, desde que ele esteja no mesmo plano. |
+-| `Sugar` | `Média` | Você recupera um quarto do dano causado, até no máximo 5 × Classe. |
+-| `Isca` | `Leve` | Até o fim do próximo turno do alvo, ele tem desvantagem em qualquer ataque que não mire você. |
+-| `Cobrança` | `Média` | Se o alvo cair nesta cena, o seu próximo feitiço custa metade. |
+-| `Aviso` | `Leve` | Você sabe qual foi o último feitiço que o alvo usou e de que Classe ele era. |
+-
+-### Amparo
+-
+-A mão que segura quem caiu. Funcionam com as Formas `Cura`, `Apoio` e `Onda` e, quando fizer sentido, em feitiço de dano que atinja aliados.
+-
+-**Amparo**
+-{: .tab-titulo }
+-
+-| Melhoria | Custo | O que faz |
+-|---|---|---|
+-| `Limpa` | `Média` | Remove de um aliado uma condição de nível `Leve` ou `Média`. |
+-| `Limpa Fundo` | `Pesada` | Remove de um aliado uma condição de qualquer nível. |
+-| `Levanta` | `Pesada` | Um aliado caído em 0 pontos de vida volta de pé com 5 × Classe, seja qual for a vida máxima dele. Uma vez por cena. |
+-| `Divide` | `Média` | Um aliado a até 9 m passa a receber metade do dano que você receberia, até o fim do próximo turno. Você escolhe na hora de conjurar. |
+-| `Junto` | `Leve` | A cura ou o apoio pega um aliado a mais. O efeito é dividido entre eles. Pode comprar duas vezes. |
+-| `Reserva` | `Média` | A cura fica guardada no aliado e é usada sozinha quando ele cair abaixo da metade da vida. Dura até o fim da cena. |
+-| `Remenda` | `Pesada` | Devolve 5 × Classe de Integridade a um aliado. Uma vez por cena, por alvo. |
+-
+-### Fora de família
+-
+-**Fora de família**
+-{: .tab-titulo }
+-
+-| Melhoria | Custo | O que faz |
+-|---|---|---|
+-| `Efeito Próprio` | o mestre decide | Uma mecânica que não existe em lugar nenhum desta lista. Um deslocamento junto com o dano, um efeito que só funciona em superfície molhada, o que for. Um por feitiço, e ele conta como uma Melhoria no limite da Classe. Combinado antes da sessão e nunca no meio dela. Não pertence a nenhuma Família, então Família Fechada não bloqueia. |
+-
+-## Restrições
+-
+-Restrição é a desvantagem que você aceita em troca de pontos: o preço que a mesa vê o personagem pagando antes do golpe sair, um turno parado, um corte na própria pele, uma condição que sobra pra depois. Um feitiço carrega no máximo duas, e a devolução total não passa de **2 × Classe**. O que a Restrição devolve serve só para pagar Melhoria: se devolver mais do que você gastou, o excedente se perde. Restrição nunca vira dano.
+-
+-Uma Restrição devolve `Leve` ou `Média`, nunca `Pesada`. Duas `Média` já batem no teto de devolução da Classe, então o catálogo inteiro cabe dentro do fecho.
+-
+-**Restrições**
+-{: .tab-titulo }
+-
+-| Restrição | Devolve | O que muda |
+-|---|---|---|
+-| `Corpo a Corpo` | `Média` | `Projétil` vira `Toque` (1,5 m). `Explosão` vira `Aura`, centrada em você. `Cone` e `Linha` já saem de você, então não podem pegar esta. |
+-| `Atrasar` | `Média` | Custa a rodada inteira (Ação Completa): você não se move, não usa ação bônus e não faz mais nada naquele turno. |
+-| `Parado` | `Leve` | Você não se move no turno em que conjura. A ação bônus continua sua. |
+-| `Gesto` | `Leve` | Precisa das duas mãos livres e de falar em voz audível. |
+-| `Sangra` | `Média` | Você toma 2 × Classe de dano que não pode ser reduzido. |
+-| `Recuo` | `Leve` ou `Média` | Você fica com uma condição até o fim do seu próximo turno. Ela devolve o nível dela: uma condição `Leve` devolve `Leve`, uma `Média` devolve `Média`. Nível `Pesada` não entra, porque Restrição nunca devolve `Pesada`. |
+-| `Carregar` | `Média` | Você gasta um turno carregando o feitiço antes de disparar. Se tomar dano nesse meio-tempo, faz um Teste de Resistência de Espírito contra a CD de quem te feriu para manter. Se falhar, perde o feitiço. Carregar não é concentração: o feitiço ainda não saiu. |
+-| `Tudo ou Nada` | `Leve` | Quem passa no Teste de Resistência não toma nada, em vez de tomar metade. Só em feitiços de Teste de Resistência. |
+-| `Uma Vez` | `Leve` | Uma vez por cena. |
+-| `Condicional` | `Leve` ou `Média` | Só funciona quando uma condição de cena ou de alvo, escrita na ficha, é verdadeira: no escuro, marcado por você, abaixo de metade da vida, perto de água corrente. Falha em menos de uma cena a cada três: devolve `Leve`. Falha na maioria das cenas: devolve `Média`. |
+-| `Fraqueza` | `Leve` ou `Média` | Depois de usar, você fica com desvantagem num dos quatro Testes de Resistência, escolhido na montagem, até o fim da cena. Vigor ou Intelecto: `Leve`. Físico ou Espírito: `Média`. |
+-| `Frágil` | `Leve` | Se você tomar dano antes do seu próximo turno, o efeito do feitiço acaba na hora. Só serve em feitiço que deixa algo durando. |
+-| `Barulho` | `Leve` | Todo mundo num raio de 90 m ouve, e sabe de onde veio. |
+-| `Assinatura` | `Leve` | O feitiço deixa uma marca visível que dura 1 hora e aponta para você. |
+-| `Aquecer` | `Leve` | Não pode ser usado na primeira rodada do combate. |
+-| `Dívida` | `Média` | Depois de usar, o próximo feitiço que você conjurar nesta cena custa **`2 ×` a Classe deste feitiço** de energia a mais — **mesmo que ele seja de Classe 0**. |
+-| `Peso Morto` | `Leve` | Seu deslocamento cai pela metade até o fim do próximo turno, e você recebe `−1` no seu Teste de Resistência Físico. |
+-| `Sem Volta` | `Média` | Se o feitiço não acertar ninguém, você não conjura nada no seu próximo turno. |
+-
+-### Restrição Própria
+-
+-Se a desvantagem que você imaginou não está na lista, escreva ela. Você propõe a desvantagem e o mestre define quanto ela devolve, do mesmo jeito que o `Efeito Próprio` funciona do outro lado.
+-
+-**Restrição Própria**
+-{: .tab-titulo }
+-
+-| Restrição | Devolve | O que muda |
+-|---|---|---|
+-| `Restrição Própria` | `Leve` ou `Média` | Uma desvantagem que não existe nesta lista. Escrita com o mestre antes da sessão, nunca no meio dela, e vale só para o feitiço onde nasceu. Conta no limite de duas Restrições e obedece as mesmas travas de todas as outras. |
+-
+-**Quanto ela devolve.** A pergunta é uma só: em quantas cenas isso vai realmente atrapalhar?
+-
+-- Atrapalha em menos de uma cena a cada três: `Leve`.
+-- Atrapalha na metade das cenas ou mais: `Média`.
+-- Não dá para imaginar uma cena em que atrapalhe: **não devolve nada**, e não vale como Restrição.
+-
+-Nenhuma Restrição do capítulo devolve `Pesada`, e a Própria também não. Duas `Média` já batem exatamente no teto de devolução da Classe (2 × Classe). Se a dor que você escreveu parece valer mais que uma `Média`, ela provavelmente são duas Restrições disfarçadas de uma. Separe.
+-
+-> **Na dúvida, para que lado errar.**
+-> `Efeito Próprio` na dúvida é `Pesada`. `Restrição Própria` na dúvida é `Leve`, ou não serve como uma.
+-
+-As travas valem igual: a Própria precisa ser uma coisa que a mesa consegue apontar acontecendo, não pode cobrar o que a outra Restrição do feitiço já cobra, e não pode repetir o que o seu Selo já obriga. Se ela limita **quando** o feitiço sai, ela conta como Restrição de frequência para a regra abaixo.
+-
+-### Combinações inviáveis
+-
+-Restrição precisa ser uma coisa que a mesa consegue apontar acontecendo, e algumas combinações são proibidas de saída.
+-
+-**As suas duas Restrições não podem ser as duas de frequência.** `Uma Vez`, `Condicional`, `Aquecer`, `Dívida` e qualquer `Restrição Própria` que faça a mesma coisa limitam quando o feitiço sai; escolha no máximo uma delas.
+-
+-**Duas Restrições não podem cobrar a mesma coisa:** dois turnos de preparo, duas condições no seu corpo, dois jeitos de te entregar. Se as duas doem no mesmo momento, a segunda não devolve nada.
+-
+-**Restrição que o seu Selo já obriga não devolve ponto.** Você já carrega o Selo de qualquer jeito, e vender a mesma dor duas vezes não vale ponto novo.
+-
+-Depois de três sessões, o mestre revisa as Restrições em jogo. As que nunca atrapalharam são trocadas, a não ser que o feitiço nunca tenha vindo a uso.
+-
+-## Fora de combate
+-
+-Nem tudo que a sua técnica faz precisa de rolagem ou de montagem. Fora de combate, duas regras cobrem o resto: o Uso Livre, para coisa pequena, e a Forma `Efeito`, para coisa grande.
+-
+-### Uso Livre
+-
+-De graça e sem rolar nada, você faz qualquer coisa que caiba na sua Regra e passe nos três testes:
+-
+-1. Não rola dado e não faz ninguém rolar.
+-2. Não tira nem dá vida, não aplica condição, não mexe em rolagem de ninguém e não move nada que resista.
+-3. A escala cabe na Classe 0 da tabela `Forma Efeito`: coisa de mão.
+-
+-Falhou em um dos três, é feitiço: monte e pague. Passou nos três, funciona, mesmo que resolva a cena.
+-
+-A régua geral é essa: **perceber é Livre, interferir é feitiço**. E o que você percebe vem cru: a cor do medo aparece, o motivo continua por sua conta.
+-
+-**Uso Livre**
+-{: .tab-titulo }
+-
+-| Uso Livre | Vira feitiço |
+-|---|---|
+-| Aquecer uma xícara | Aquecer uma sala inteira |
+-| Marcar uma parede | Marcar uma pessoa |
+-| Saber de onde vem o vento | Saber onde está uma pessoa |
+-| Iluminar um corredor | Cegar quem está no corredor |
+-| Ver a cor da emoção de alguém | Saber o que a pessoa vai fazer |
+-| Fazer uma folha cair mais devagar | Fazer uma pessoa cair mais devagar |
+-| Abafar o som dos seus passos | Abafar o som de uma sala |
+-| Achar a fechadura no escuro | Abrir a fechadura sem chave |
+-| Saber se mexeram num objeto seu | Saber quem mexeu |
+-| Estabilizar a própria mão | Estabilizar a mão de outra pessoa |
+-
+-### Forma Efeito
+-
+-Quando a coisa é grande o bastante para mudar uma cena, monte um feitiço com a Forma `Efeito`. Ele não causa dano e não rola dado: a Classe define sozinha o que o efeito alcança e por quanto tempo dura, pela tabela `Forma Efeito`.
+-
+-Em um feitiço de `Efeito`, os pontos da Classe servem só para comprar Melhorias. Ponto que sobrar não vira nada, porque a escala já está paga pela Classe.
+-
+-**Forma Efeito**
+-{: .tab-titulo }
+-
+-| Classe | O que cabe | Quanto dura |
+-|---|---|---|
+-| **0** | Coisa de mão: acender uma vela, trancar uma porta, marcar um objeto. | até você desfazer |
+-| **1** | Uma pessoa, um objeto pequeno, um cômodo apertado. | um minuto |
+-| **2** | Um cômodo grande, uma parede, um carro, meia dúzia de pessoas. | dez minutos |
+-| **3** | Uma casa, um quarteirão, uma dúzia de pessoas. | uma hora |
+-| **4** | Um prédio, uma rua inteira, uma multidão. | um dia |
+-| **5** | Um bairro, uma noite inteira, o clima do lugar. Um prédio dormindo ao mesmo tempo, um rio parando de correr, uma ponte que não deixa ninguém passar. | uma semana |
+-| **Máxima** | Uma cidade, uma coisa que vira notícia. Todo mundo esquecendo um nome, um bairro de onde ninguém sai, uma noite que não amanhece. | até alguém desfazer |
+-
+-Melhorias funcionam normalmente: `Longe` e `Maior` sobem alcance e escala, `Fica` estende a duração para o degrau seguinte da tabela, `Silencioso` esconde a conjuração.
+-
+-Feitiço de `Efeito` custa PE igual a qualquer outro e ocupa espaço na sua lista.
+-
+-> **Exemplo.** `Hora Morta` · Classe 3 · `Efeito` · `Longe` (−2)
+-> Um quarteirão inteiro para de fazer barulho por uma hora. Portas não rangem, tiro não estala, ninguém grita alto o bastante para ser ouvido de fora.
+-> Custa 9 de PE.
+-
+-## Liberação Máxima
+-
+-No nível 10, o personagem aprende a romper o próprio limite. **Só a Liberação Máxima passa dos pontos da Classe em dano contra um alvo só.** É o pico de dano que a ficha alcança, sem uma Técnica Máxima ou bônus.
+-
+-Liberação não se improvisa. Ela é escrita antes da sessão, montada como qualquer feitiço, e fica anotada na ficha com nome próprio.
+-
+-> **Liberação Máxima**
+-> Você ganha uma no **nível 10**, outra no **20** e outra no **30**.
+-> Cada uma é um feitiço de **Classe 3 ou mais**, montado normalmente, que **não ocupa espaço** na sua lista de feitiços conhecidos.
+-> **+Classe em dados de dano** em cima do que a montagem der. Numa Classe 5, +5d8.
+-> Custa a rodada inteira e **+50% de PE**, arredondando para cima.
+-> Escolha o preço na hora de disparar:
+-> **Vazio**: você conjura nada no seu próximo turno.
+-> **Sangue**: você toma 4 × Classe de dano irredutível, direto na vida.
+-> **Peso**: você fica `Lento` e com desvantagem em Testes de Resistência até o fim do seu próximo turno.
+-> Não serve para cura, e a Técnica Máxima não é uma Liberação.
+-
+-Fora isso, ela é um feitiço como os outros: aceita Melhorias e Restrições dentro dos limites da Classe, obedece a Regra e as Famílias Fechadas, e pode ser Ampliada. Ao subir de nível, você pode reescrevê-la do zero, como qualquer feitiço.
+-
+-> **Exemplo.** `Golpe do Voto` · Liberação Máxima · Classe 5 · `Projétil`
+-> Sem Melhoria e sem Restrição: os 15 pontos viram 15d8, e a Liberação soma +5d8.
+-> **20d8 = 90 de dano**, o pico do nível 20.
+-> PE: 15 + 50% = 22,5, arredondando para cima: **23**.
+-> Rodada inteira, mais o preço escolhido na hora.
+-
+-## Técnica Máxima
+-
+-No nível 17, a técnica ganha o golpe que carrega o nome dela. O dano da Técnica Máxima é **fixo**, definido pela sua faixa de nível, e nenhum ponto compra mais dados. O que você monta é a Forma e as Melhorias que vestem esses dados.
+-
+-**Técnica Máxima**
+-{: .tab-titulo }
+-
+-| Nível | Dano (fixo) | Pontos de montagem | PE |
+-|---|---|---|---|
+-| **17 a 20** | 24d8 = 108 | 8 | 25 |
+-| **21 a 25** | 28d8 = 126 | 8 | 30 |
+-| **26 a 30** | 32d8 = 144 | 12 | 35 |
+-
+-> **Três números, três papéis.**
+-> **O dano é fixo.** Os 24d8 da faixa 17 a 20 já vêm prontos: você não compra dado, não vende dado, e Restrição não entra aqui.
+-> **Os pontos de montagem compram só a Forma e as Melhorias.** São um orçamento à parte, gasto nos preços da sua **maior Classe**. Na faixa 17 a 20, isso significa preços de Classe 5: `Leve` 3, `Média` 5, `Pesada` 8. Ponto de montagem que sobrar se perde, e não vira dado.
+-> **O PE tem fórmula própria.** A Técnica Máxima não tem Classe, então não custa 3 × Classe como um feitiço: custa **5 × a sua maior Classe**, ou seja, 25, 30 e 35 PE por faixa.
+-
+-### Montagem
+-
+-1. Escolha a **Forma**. `Projétil` e `Toque` são de graça; as outras custam o preço normal delas, pago do orçamento de montagem.
+-2. Gaste o resto do orçamento em **Melhorias**, nos preços da sua maior Classe. Melhoria que escala com Classe, como `Fura`, que ignora 2 × Classe de RD, também usa a sua maior Classe.
+-3. Dê um nome e escreva na ficha. Como a Liberação, a Técnica Máxima não se improvisa na mesa.
+-
+-Custa **a rodada inteira** e 5 × a sua maior Classe de PE. Depois de usar, você só usa de novo depois do fim do seu **terceiro turno seguinte**.
+-
+-Ela aceita qualquer Forma. Numa Forma que não causa dano, os dados viram escala pela linha `Máxima` da tabela de `Efeito`, ou viram cura.
+-
+-**Não aceita Restrição.** Ela também não conta como Liberação Máxima, porque os dados dela já são fixos. Quem passa no Teste de Resistência reduz o dano em **um quarto**, não pela metade. Famílias Fechadas continuam fechadas.
+-
+-Se a sua mesa quiser que pese mais, use uma vez por cena em vez do recarregamento por turnos.
+-
+-> **Exemplo: duas Técnicas Máximas da faixa 17 a 20.**
+-> `O Fim da Linha`: Forma `Linha` (`Leve` na Classe 5: 3 pontos) + `Muito Longe` (`Média`: 5 pontos) = 8 dos 8 pontos de montagem. A linha sobe da base de 18 m até o fim da escada: 60 m. **24d8 = 108 de dano** em tudo na linha. Rodada inteira, 25 de PE.
+-> `Ponto Final`: `Projétil` (grátis) + `Fura` (`Média`: 5 pontos) = 5 dos 8; os 3 que sobram se perdem. **24d8 = 108**, ignorando 10 de Redução de Dano (2 × Classe 5). Rodada inteira, 25 de PE.
+-
+-## Expandindo o seu Domínio
+-
+-Estender a sua técnica sobre o terreno: por alguns instantes, o lugar em volta deixa de obedecer ao mundo e passa a obedecer a você. É o topo do que um feiticeiro consegue alcançar, e quase nenhum chega lá.
+-
+-Ela é **comprada**, com espaços de feitiço conhecido, e só abre quando o seu nível e o seu **refino** alcançam os dois mínimos.
+-
+-> **Refino, em uma linha.**
+-> O refino é o eixo de controle da sua ficha: quanto da sua energia você não desperdiça. Ele é do capítulo 12, *Aptidões e Refino*, sobe com os seus marcos e vai de 1 a 10.
+-> Aqui ele é lido em cinco lugares e nada mais: **o requisito**, **o tamanho do domínio**, **o desconto lá dentro**, **quanto tempo o domínio fica de pé** e **quem conquista quando dois domínios se sobrepõem.**
+-
+-### Degraus
+-
+-**Degraus**
+-{: .tab-titulo }
+-
+-| Degrau | Custa | Abre em | O Acerto dela |
+-|---|---|---|---|
+-| **Incompleta** | 2 espaços | nível 10 e refino 4 | resolve por rolagem, como um feitiço |
+-| **Completa** | 3 espaços (+1) | nível 14 e refino 5 | **acontece.** Sem rolagem e sem Teste de Resistência |
+-| **Sem Barreiras** | 5 espaços (+2) | refino 10 e especialização em `Ocultismo` | **acontece**, com barreira ou sem, e você escolhe a cada abertura |
+-
+-**A completa exige ter a incompleta**, e paga só a diferença: um espaço a mais, no molde da `Regra Própria`.
+-
+-**A Expansão sem Barreiras exige ter a completa**, e paga só a diferença: dois espaços a mais. O requisito é o refino no teto e **especialização em `Ocultismo`**, a perícia que cobre barreira, sem nível mínimo.
+-
+-**A completa fecha barreira, e a incompleta não:** a incompleta é a técnica derramada no terreno, sem parede em volta. **A Expansão sem Barreiras escolhe a cada abertura.**
+-
+-O teto do feitiço não muda por causa dela, e as três ficam **fora** da conta de Liberações Máximas.
+-
+-### Acerto e Efeito
+-
+-Um domínio tem duas peças, e elas fazem coisas diferentes. Escreva as duas com o mestre antes da campanha, uma frase cada, e as duas precisam caber na **Regra** da sua técnica.
+-
+-**Acerto e Efeito**
+-{: .tab-titulo }
+-
+-| Peça | A pergunta que ela responde |
+-|---|---|
+-| **Acerto** | O que o domínio *garante que acontece* com quem está lá dentro. |
+-| **Efeito** | O que o domínio *permite você fazer* lá dentro que você não faria fora. |
+-
+-**O Acerto vem em três formas, e a sua é uma delas:** o que a sua técnica já faz passa a acertar, todos no ambiente recebem alguma coisa, ninguém no ambiente pode fazer alguma coisa.
+-
+-> **Duas réguas para o Acerto.**
+-> **Se o seu Acerto é dano que sempre acerta**, a régua é a Melhoria `Inescapável`: ela custa uma `Média` e proíbe o feitiço de ter qualquer outra peça. Um Acerto que entrega dano garantido paga o mesmo tipo de preço: ele é o feitiço inteiro, e não sobra orçamento para mais nada em cima.
+-> **Se o seu Acerto é uma regra sobre o ambiente**, a régua são os requisitos da `Regra Própria`: uma frase, verificável, sem número solto. O mestre aponta o momento em que ela vale, e ela vale igual para todo mundo lá dentro, inclusive para você.
+-### Abrir o Domínio
+-
+-**Custa a rodada inteira**, e as duas cobram **6 × a sua maior Classe** de PE.
+-
+-**O Acerto acontece no momento em que você abre**, e de novo no começo de cada turno seu.
+-
+-**Lá dentro os seus feitiços ficam mais baratos:** −⅓ do refino de PE na incompleta, **−metade do refino** na completa. **Nenhum feitiço custa menos de 1 PE.**
+-
+-**Você pode mover o domínio, desde que ele seja o completo.** Se estiver com os pés no chão, gaste o seu deslocamento e a expansão inteira vai junto, e quem está lá dentro não percebe que se mexeu.
+-
+-**Dura metade do refino em rodadas**, no mínimo uma.
+-
+-**O domínio tem raio de `1,5 m` × refino.** A incompleta para em `7,5 m`.
+-
+-**Raio do domínio**
+-{: .tab-titulo }
+-
+-| Refino | 4 | 5 | 6 | 8 | 10 |
+-|---|---|---|---|---|---|
+-| Incompleta | 6 m | 7,5 m | 7,5 m | 7,5 m | 7,5 m |
+-| Completa | — | 7,5 m | 9 m | 12 m | 15 m |
+-
+-> **A expansão conta como feitiço para a regra de ouro nº 6:** *feitiço em Ação Bônus ou Reação só permite mais um de Classe 0 no turno.*
+-
+-### Barreira e Rescaldo
+-
+-Só a completa levanta barreira, e a Expansão sem Barreiras quando você escolhe fechar. Por dentro ela **não quebra**. *A única chance de quebrá-la é achar a borda da expansão, o que é considerado quase impossível. Se o mestre decidir que existe uma borda, a vida do interior é o dobro da do exterior, e ela tem resistência a todos os tipos de dano.* Por fora ela tem 50 × metade do refino de vida, e cair antes da hora é o único jeito de alguém encurtar o seu domínio.
+-
+-*O mestre pode declarar que uma barreira cede fora dessa conta*: três domínios se atravessando, uma fraqueza que a ficção já estabeleceu, uma cena que pede. É exceção declarada, e não a régua.
+-
+-> **Quando o domínio acaba, de qualquer jeito, a sua técnica queima.** Vale igual nos três casos: você desfez por vontade, o tempo correu, ou estilhaçaram a barreira.
+-> Pelo resto da cena a sua técnica não responde, e você fica com o Classe 0, com o corpo e com o que não for técnica.
+-> Isso é **preço**: acontece em todo uso, e você já sabia disso quando abriu.
+-> Rescaldo e a exaustão do descanso não somam: são escadas diferentes, e esta aqui tem um degrau só.
+-> A aptidão `Regravação`, no capítulo 12, *Aptidões e Refino*, acaba com o Rescaldo antes do fim da cena.
+-
+-### Abrir sem barreira
+-
+-**A Expansão sem Barreiras é pintar o domínio no ar, sem tela.** Na obra só dois fazem isso. Quem tem o degrau escolhe a cada abertura: **fecha a barreira e ela é a completa em tudo** — preço, desconto, barreira e mover —, **ou abre sem barreira.**
+-
+-**Sem barreira, abrir cobra `7 ×` a sua maior Classe de PE**, e lá dentro **cada feitiço custa maestria `× 2` a menos**. Nenhum feitiço custa menos de 1 PE.
+-
+-**O raio é de `200 m`, e o centro fica onde você abriu.** Você anda livre, e a área não vai junto.
+-
+-**Ela não prende ninguém.** Quem está lá dentro pode sair andando, e leva o Acerto enquanto estiver no raio.
+-
+-**Quem não tem energia amaldiçoada só é atingido se o seu Acerto alcança o que não tem energia**, como o corte do Sukuna, que alcança objeto.
+-
+-**Ela não tem borda.** Sem barreira não há casca para quebrar nem borda para apagar: ela acaba pelo tempo, pela corrida, pela concentração, ou com você em `0` de vida.
+-
+-> **Exemplo.** No nível 26 a sua maior Classe é 7, a maestria é 4 e o refino é 10. Abrir sem barreira custa 49 PE, e um feitiço de Classe 5, que custaria 15, sai por 7. Fechando a barreira, abrir custa 42 e o mesmo feitiço sai por 10.
+-
+-### Domínios da obra
+-
+-**Domínios da obra**
+-{: .tab-titulo }
+-
+-| Quem | Acerto | Efeito |
+-|---|---|---|
+-| Megumi *(incompleta)* | todas as invocações dele ganham reforço | invocar todos os shikigami de uma vez |
+-| Sukuna *(sem barreiras)* | clivar e desmantelar acertam de forma garantida | alcança todos no ambiente |
+-| Mahito | ninguém desvia do toque dele | alcança todos no ambiente, e o toque dele passa a atravessar a expansão por completo |
+-| Jogo | queima todos no ambiente | amplifica a técnica |
+-| Dagon | os shikigami dele acertam | amplifica a técnica |
+-| Yuta | os feitiços das espadas acertam | todas as técnicas copiadas, em forma de espada |
+-| Gojo | a enxurrada de informação | tocar em alguém para poupá-lo do Acerto |
+-| Hakari | todos recebem a informação do domínio | o pachinko, e a regeneração que ele paga |
+-| Higuruma | ninguém no ambiente pode causar dano | o julgamento, e as punições que ele libera |
+-
+-O Acerto do Megumi *reforça* em vez de *atingir*, e é o que dá para fazer com uma incompleta, cujo Acerto ainda rola. Os completos da lista entregam coisas que não falham.
+-
+-**Efeito quase nunca é dano.** Alcance, repertório, amplificação, uma mecânica nova, controle sobre quem o Acerto pega. O dano, quando existe, mora no Acerto.
+-
+-### Domínios sobrepostos
+-
+-**Só existe disputa quando as áreas se sobrepõem:** você está dentro do domínio dele, ou ele abriu dentro do raio do seu. *Abrir domínio longe de um que já está de pé não encosta nele.*
+-
+-**Enquanto os dois estiverem de pé, nenhum dos dois acerta garantido.** Os dois Acertos ficam desligados, e lá dentro sobra o que não dependia deles: feitiço, corpo, e o Efeito de cada um.
+-
+-**São três perguntas, nesta ordem.** A primeira que separar decide, e as de baixo nem chegam a ser feitas.
+-
+-**Quem conquista o domínio**
+-{: .tab-titulo }
+-
+-| | A pergunta | Quem leva |
+-|---|---|---|
+-| 1 | Quem tem mais refino? | o mais refinado conquista, e o domínio do outro cai na hora |
+-| 2 | Refino igual — o Acerto de um dos dois **não causa dano**? | esse conquista, porque um Acerto que não fere se estabelece antes |
+-| 3 | Iguais nas duas — os dois rolam **1d12** | separaram por **4 ou mais**: o maior conquista |
+-| 4 | O d12 não separou | ninguém conquista ainda, e vale a corrida |
+-
+-**A corrida.** Os dois domínios seguem de pé, os dois Acertos seguem desligados, e a luta corre normal. **O primeiro dos dois que perder o domínio** — barreira derrubada por fora, o tempo acabou, ou falhas de concentração demais — **ou chegar a `0` de vida recebe o Acerto do outro na hora.**
+-
+-**Na corrida, segurar o domínio pede concentração.** Quem mantém um domínio e toma dano faz um **Teste de Resistência de Vigor contra a CD de quem te feriu**, a mesma rolagem da Concentração. Cada falha fica marcada até a corrida acabar, e **quando as falhas chegam a metade da sua Essência, o seu domínio cai**.
+-
+-**Personagem de jogador testa a cada dano que toma, sem limite. Inimigo testa no máximo uma vez por jogador que acertou ele na rodada**, por mais golpes que esse jogador dê, e contra a maior CD entre eles. **Golpe de invocação não conta:** ele tira vida do inimigo, e não faz o inimigo testar.
+-
+-**Este teste não ocupa a sua Concentração, e a Mão Firme não protege dele.** Você pode segurar o domínio na corrida e seguir concentrando num efeito, e as duas rolagens são separadas.
+-
+-**Falhas que derrubam o domínio**
+-{: .tab-titulo }
+-
+-| Essência | 0 a 3 | 4 e 5 | 6 |
+-|---|---|---|---|
+-| Falhas | 1 | 2 | 3 |
+-
+-> **Exemplo.** A sua Essência é 5, então a segunda falha derruba o seu domínio. Na corrida você toma três golpes numa rodada e falha no segundo e no terceiro: o seu domínio cai na terceira rolagem, e o Acerto do outro te pega na hora.
+->
+-> *A metade arredonda para baixo e nunca fica abaixo de 1: é a regra de arredondamento, em que o que você ganha desce.* **É a mesma rolagem de Vigor da Concentração, com a contagem trocada**, e ela só existe enquanto dura a corrida.
+-
+-**Quem perde recebe o Acerto do vencedor, e não tem como recusar.** O domínio dele já caiu, e quem cai não abre saída na barreira que continua de pé.
+-
+-**O Rescaldo dispara dos dois lados**, em toda saída. O domínio acabou, e ele acaba de qualquer jeito.
+-
+-**Contra a Expansão sem Barreiras aberta sem barreira**, os dois Acertos se anulam só dentro da área do outro domínio, e **fora dessa área o Acerto da sem barreiras continua.** Se esse Acerto causa dano, ele **bate na barreira do outro por fora** cada vez que acontece. Acerto que não fere não encosta na barreira.
+-
+-**Uma incompleta entra na disputa e não pode vencer.** Ela não fecha barreira, então não tem barreira para conquistar nem para perder. O que ela faz é o que a sobreposição já faz: desliga o Acerto do completo, **e a barreira do completo deixa de prender — quem está lá dentro pode sair**, e o Acerto dela, que rola, continua rolando. **Custa a sua expansão inteira**, e o que ela compra é desligar o Acerto dele. **Contra a Expansão sem Barreiras aberta sem barreira, ela desliga o Acerto só dentro do próprio raio.**
+-
+-> **A segunda pergunta é uma troca, e ela não paga escrever Acerto inútil.**
+-> Um Acerto que causa dano rende em todo uso do seu domínio, na abertura e no começo de cada turno seu. **O desempate da pergunta 2 só rende contra outro domínio, de refino igual ao seu.**
+-> Quem escreve um Acerto que não fere está comprando o desempate com o que a Melhoria `Inescapável` cobraria, e não ganhando de graça. *É a mesma troca que o Hakari e o Higuruma fizeram.*
+-
+-> **Por que `1d12` e por que `4`.**
+-> **O dado não leva bônus, e não é economia de regra: não sobrou nada para somar nele.** *Refino já empatou — é o que a pergunta 3 quer dizer. Maestria vem do nível, e os dois estão no mesmo. E o atributo da técnica bate no teto de `6` antes do primeiro clash da campanha, pelas três rotas.*
+-> **De todas as combinações de dado e margem, `1d12` separando por `4` é a única que cai na metade exata** — `72` dos `144` resultados. *Metade das vezes o choque resolve, metade continua e vale a corrida.*
+-> **Você rola uma vez**, quando as áreas se sobrepõem, e não a cada rodada. *Rolar toda rodada resolveria o choque em `88%` até a terceira, e aí quem está de fora batendo na barreira deixaria de decidir o combate.*
+-
+-> **Três ou mais domínios com barreira: caem todos.**
+-> Dois domínios se empurram. **Três ou mais não se acomodam:** as condições que cada barreira exige por dentro e por fora não fecham juntas, e **todas as barreiras caem**.
+-> Ninguém conquista, ninguém recebe Acerto, e o Rescaldo pega todo mundo que abriu.
+-> **A Expansão sem Barreiras aberta sem barreira não entra nessa conta.** Com três ou mais barreiras, as barreiras caem e a sem barreiras fica de pé. Com duas barreiras e a sem barreiras, as duas barreiras disputam como sempre, e a sem barreiras ataca as duas por fora.
+-
+-## Regras de ouro
+-
+-Oito regras seguram o sistema inteiro. Se um feitiço passar pelas oito, ele é legal.
+-
+-**Regras de ouro**
+-{: .tab-titulo }
+-
+-| # | Regra |
+-|---|---|
+-| **1** | Restrição paga Melhoria. Nunca vira dado de dano. O excedente some. |
+-| **2** | O dano total, somando alvos e repetições, nunca passa de 4 × Classe em dados. Contra um alvo só, feitiço comum para nos pontos da Classe: 4 × Classe num alvo é coisa de Liberação Máxima. |
+-| **3** | Melhorias: 2 nas Classes 1 e 2, 3 nas Classes 3 e 4, 4 da Classe 5 em diante. Restrições: até 2. A Forma não conta; o Efeito Próprio conta. |
+-| **4** | Restrição devolve no máximo 2 × Classe. |
+-| **5** | Liberação Máxima é Classe 3 ou mais, custa a rodada inteira, e você só tem as que o nível deu. |
+-| **6** | Feitiço em Ação Bônus ou Reação só permite mais um de Classe 0 no turno. |
+-| **7** | Duas Restrições não podem ser as duas de frequência, nem cobrar a mesma coisa. |
+-| **8** | Restrição que não atrapalhou em três sessões é trocada. |
+-
+-## Progressão
+-
+-**Progressão**
+-{: .tab-titulo }
+-
+-| Nível | O que ganha |
+-|---|---|
+-| **1** | Fundamento com três Famílias Fechadas. Dois feitiços de Classe 0 (grátis). Classe 1. Passiva Livre. |
+-| **5** | Classe 2. Um feitiço de Classe 0 a mais. |
+-| **7** | Libera Passiva de Classe Passiva 2. |
+-| **9** | Classe 3. |
+-| **10** | A primeira Liberação Máxima. |
+-| **11** | Um feitiço de Classe 0 a mais. |
+-| **13** | Classe 4. Libera Passiva de Classe Passiva 3. |
+-| **17** | Classe 5. Técnica Máxima. Um feitiço de Classe 0 a mais. |
+-| **20** | A segunda Liberação Máxima. |
+-| **21** | Classe 6. |
+-| **26** | Classe 7. |
+-| **30** | A terceira Liberação Máxima. |
+-
+-O Fundamento manda na Classe, na Liberação Máxima e em quando cada Classe Passiva abre. Quantos feitiços você conhece é conta de *Experiência e Progressão*: a fórmula está resumida em *Criando feitiços*, e a progressão nível a nível mora no capítulo 19, *Experiência e Progressão*.
+-
+-O que continua valendo aqui: **Passiva é paga com espaços dessa lista**, a **Expansão de Domínio** também, e as **Liberações Máximas ficam de fora**, porque elas não ocupam espaço.
+-
+-Ao subir de nível você pode reescrever um feitiço que já conhece, do zero. Uma Liberação Máxima conta como feitiço para isso.
+-
+-Se um feitiço que você conhece deixar de ser legal — ou seja, deixar de seguir as regras —, por regra nova ou revisão da mesa, você o reescreve de graça na hora, sem gastar a troca de nível.
+-
+-## Feitiços prontos
+-
+-Trinta e cinco feitiços montados e conferidos, para usar como estão ou como referência de montagem. Na coluna do meio, **−** é o que a peça custou e **+** é o que ela devolveu.
+-
+-### Classe 1 · 3 pontos · 3 PE
+-
+-**Classe 1 · 3 pontos · 3 PE**
+-{: .tab-titulo }
+-
+-| Nome | Como foi montado | Resultado |
+-|---|---|---|
+-| `Estalo` | `Projétil` | 3d8 = 13 |
+-| `Chicote` | `Linha` (−1) | 2d8 = 9 numa linha de 18 m |
+-| `Perfurar` | `Projétil` · `Precisão` (−1) · `Parado` (+1) | 3d8 = 13, +2 no acerto |
+-| `Golpe Cru` | `Toque` (`Corpo a Corpo` +1), sem Melhoria para pagar | 3d8 = 13 no toque. A devolução some |
+-
+-### Classe 2 · 6 pontos · 6 PE
+-
+-**Classe 2 · 6 pontos · 6 PE**
+-{: .tab-titulo }
+-
+-| Nome | Como foi montado | Resultado |
+-|---|---|---|
+-| `Palma Trovejante` | `Cone` (−1) · `Derrubado` (−1) · `Atrasar` (+2) | 6d8 = 27 + `Derrubado` por uma rodada |
+-| `Lança Negra` | `Projétil` · `Fura` (−2) · `Atrasar` (+2) | 6d8 = 27, fura 4 de RD. O `Atrasar` pagou a `Fura` inteira |
+-| `Faísca em Cadeia` | `Projétil` · `Salto` (−2) · `Gesto` (+1) | 5d8 = 22 e 2d8 = 9 no segundo alvo |
+-| `Sopro` | `Cura` (−2) | cura 4d8 = 18 |
+-| `Vento a Favor` | `Apoio` · `Impulso` (−1) · `Pressa` (−2) | 9 de vida temporária, vantagem no próximo teste, +6 m sem provocar ataque |
+-
+-### Classe 3 · 9 pontos · 9 PE
+-
+-**Classe 3 · 9 pontos · 9 PE**
+-{: .tab-titulo }
+-
+-| Nome | Como foi montado | Resultado |
+-|---|---|---|
+-| `Marca do Carrasco` | `Projétil` · `Marca` (−2) · `Queima` (−3) · `Uma Vez` (+2) | 6d8 = 27 e 3d8 = 13 no turno seguinte |
+-| `Domo de Gelo` | `Explosão` (−2) · `Terreno` (−2) · `Maior` (−2) · `Condicional`: no escuro (+2) | 5d8 = 22 num raio de 4,5 m + terreno difícil por uma rodada |
+-| `Passo Cortante` | `Toque` (`Corpo a Corpo` +3) · `Passo` (−2) · `Precisão` (−2) | 8d8 = 36 no toque, anda 6 m, +2 no acerto |
+-| `Costura` | `Cura` (−3) · `Limpa` (−3) · `Gesto` (+2) | cura 5d8 = 22 e tira uma condição de nível `Leve` ou `Média` |
+-| `Rede` | `Explosão` (−2) · `Atordoado` (−5) · `Terreno` (−2) | zero dano: `Atordoado` + terreno difícil, CD +2, tudo durando uma rodada a mais |
+-| `Hora Morta` | `Efeito` · `Longe` (−2) | um quarteirão em silêncio absoluto por uma hora |
+-| `Fissura` | `Projétil` · `Toca a Alma` (−2) | 7 dados viram 3d8 = 13 na alma |
+-
+-### Classe 4 · 12 pontos · 12 PE
+-
+-**Classe 4 · 12 pontos · 12 PE**
+-{: .tab-titulo }
+-
+-| Nome | Como foi montado | Resultado |
+-|---|---|---|
+-| `Prisão de Sombras` | `Explosão` (−2) · `Atordoado` (−6) · `Escolher` (−4) · `Sangra` (+4) | 4d8 = 18 + `Atordoado` durando uma rodada a mais; você toma 8 |
+-| `Julgamento Vertical` | `Linha` (−2) · `Fura` (−4) · `Precisão` (−2) · `Atrasar` (+4) | 8d8 = 36, fura 8 de RD, +2 na CD |
+-| `Roubo de Fôlego` | `Projétil` · `Sugar` (−4) · `Remate` (−4) · `Condicional`: o alvo te acertou desde o seu último turno (+4) | 8d8 = 36, cura 9, +25% em alvo abaixo de metade |
+-| `Passo do Espelho` | `Toque` (`Corpo a Corpo` +4) · `Rápido` (−6) · `Passo` (−2) · `Recuo` (+4) | 12d8 = 54 como Ação Bônus, no toque |
+-| `Muralha` | `Apoio` · `Anteparo` (−4) · `Guarda` (−4) · `Parado` (+2) | parede com 40 de vida, aliado com +2 de defesa e 18 de vida temporária |
+-| `Maré Branca` | `Onda` (−6) | cura 6d8 = 27 em todos os aliados num raio de 3 m |
+-| `Alinhavo` | `Cura` (−4) · `Remenda` (−6) · `Gesto` (+2) | cura 4d8 = 18 e devolve 20 de Integridade |
+-
+-### Classe 5 · 15 pontos · 15 PE
+-
+-**Classe 5 · 15 pontos · 15 PE**
+-{: .tab-titulo }
+-
+-| Nome | Como foi montado | Resultado |
+-|---|---|---|
+-| `Purga Escarlate` | `Projétil` · `Inescapável` (−5) | 10d8 = 45 automático, sem acerto e sem resistência |
+-| `Chuva de Agulhas` | `Projétil` · `Rajada` (−3) · `Precisão` (−3) · `Parado` (+3) | 12d8 = 54 em 6 tiros, +2 cada |
+-| `Vala Comum` | `Explosão` (−3) · `Maior` (−3) · `Derrubado` (−3) · `Atrasar` (+5) | 11d8 = 49 num raio de 4,5 m, todos `Derrubados` por uma rodada |
+-| `Fim de Turno` | `Explosão` (−3) · `Escolher` (−5) · `Atrasar` (+5) | 12d8 = 54 num raio de 3 m, só em quem você escolher |
+-| `Segunda Vida` | `Cura` (−5) · `Levanta` (−8) · `Uma Vez` (+3) · `Gesto` (+3) | cura 8d8 = 36, ou levanta um aliado caído com 25 |
+-| `Fio Preso` | `Efeito` · `Fica` (−5) | um bairro de onde ninguém sai, até alguém desfazer |
+-| `Sete Palmos` | `Toque` (`Corpo a Corpo` +5) · `Toca a Alma` (−3) | 15 dados viram 7d8 = 31 na alma, no toque |
+-
+-### Liberações Máximas
+-
+-Escritas antes da sessão, Classe 3 ou mais, fora da lista de feitiços conhecidos. Todas custam a rodada inteira, 50% a mais de PE e o preço escolhido na hora.
+-
+-Repare na `Rachadura`: o `Atrasar` devolveria 3 pontos, mas a `Linha` só custou 2, e devolução nunca passa do que foi gasto em Melhoria, então o terceiro ponto some sem virar dado.
+-
+-**Liberações Máximas**
+-{: .tab-titulo }
+-
+-| Nome | Como foi montado | Resultado |
+-|---|---|---|
+-| `Golpe do Voto` | Classe 5 · `Projétil` (nada mais) | 20d8 = 90, o máximo do nível 20. 23 PE |
+-| `Rachadura` | Classe 3 · `Linha` (−2) · `Atrasar` (+3, só 2 aproveitados) | 12d8 = 54 numa linha de 18 m, o teto da Classe 3. 14 PE |
+-| `Sentença Final` | Classe 5 · `Explosão` (−3) · `Escolher` (−5) · `Atrasar` (+5) | 17d8 = 76 num raio de 3 m, só em quem você escolher. 23 PE |
+-
+-### Técnicas Máximas
+-
+-Montadas com o orçamento da faixa 17 a 20: 8 pontos nos preços da Classe 5.
+-
+-**Técnicas Máximas**
+-{: .tab-titulo }
+-
+-| Nome | Como foi montado | Resultado |
+-|---|---|---|
+-| `O Fim da Linha` | `Linha` (−3) · `Muito Longe` (−5), 8 do orçamento | 24d8 = 108 numa linha de 60 m |
+-| `Ponto Final` | `Projétil` · `Fura` (−5), 5 do orçamento, 3 se perdem | 24d8 = 108 furando 10 de RD |
+-
+-## Apêndice
+-
+-*Os termos deste capítulo estão no vocabulário do sistema.*
+-
+-### Ficha de feitiço
+-
+-**Ficha de feitiço**
+-{: .tab-titulo }
+-
+-| | |
+-|---|---|
+-| **Nome** | |
+-| **Classe / Pontos / Teto / PE** | |
+-| **Forma** | `Projétil` · `Toque` · `Explosão` · `Aura` · `Cone` · `Linha` · `Cura` · `Apoio` · `Onda` · `Efeito` |
+-| **Resolve com** | Acerto · Teste de Resistência · Automático |
+-| **Melhorias** | |
+-| **Restrições** | |
+-| **É Liberação Máxima?** | Sim ☐   Não ☐        Preço na hora: Vazio · Sangue · Peso |
+-| **Dano ou cura** | ____ d8  =  ____ |
+-| **Ação** | Padrão · Bônus · Reação · Rodada inteira |
+-| **Como é** | |
+-
+-### Catálogo de temas
+-
+-Não têm regra nenhuma amarrada, são só ideias para ajudar na criação do Fundamento.
+-
+-**Catálogo de temas**
+-{: .tab-titulo }
+-
+-| Grupo | Temas |
+-|---|---|
+-| **Corpo e matéria** | Corte · Impacto · Perfuração · Peso · Elasticidade · Carne · Sangue · Osso · Doença · Crescimento |
+-| **Elementos** | Fogo · Gelo · Raio · Vento · Água · Terra · Metal · Ácido · Veneno · Fumaça |
+-| **Força e movimento** | Gravidade · Vetor · Velocidade · Inércia · Rotação |
+-| **Espaço e tempo** | Distância · Espaço · Tempo · Direção · Reflexo |
+-| **Sentidos** | Som · Silêncio · Luz · Sombra · Cheiro |
+-| **Mente e alma** | Medo · Memória · Sono · Ilusão · Voz · Nome · Emoção · Vontade · Instinto · Loucura |
+-| **Conceito** | Vínculo · Troca · Cópia · Contrato · Dívida · Sorte · Aposta · Julgamento · Regra · Registro · Valor · Verdade · Segredo · Herança · Ausência |
+-| **Criação** | Invocação · Construção · Marionete · Ferramenta · Selamento · Bloqueio · Semente · Enxame · Máquina · Molde |
+-
+-Os do grupo Conceito quase sempre pedem uma Passiva de `Regra Própria` para funcionarem bem, e sempre precisam de uma aprovação bem cuidadosa do mestre.
++| Função | Qual benefício concreto ela concede? |
++| Gatilho | Quando funciona? O efeito é permanente ou depende de um acontecimento? |
++| Uso | Há ação, Reação, PE ou limite por cena, dia ou descanso? |
++| Alvos | Quem é afetado, a que distância e com quais requisitos? |
++| Resolução | Há teste, CD, duração ou forma de encerrar? |
++| Comparação | Qual Passiva da mesma Classe oferece um benefício semelhante? |
++
++Informação limitada ou um efeito pequeno e condicional costuma caber na Classe Passiva 1. Na Classe Passiva 2, compare o benefício e o seu gatilho: nem toda Passiva precisa de um contador, mas uma ativação fácil e repetida exige mais cuidado. A Classe Passiva 3 comporta efeitos permanentes de maior alcance, como resistência a um tipo de dano.
++
++## Limites
++
++Uma criação própria não pode conceder bônus de acerto ou dano permanente e sem condição, uma ação extra por rodada, imunidade completa a um tipo de dano ou condição, cura ilimitada ou redução fixa do dano de todo golpe recebido. Exceções expressas do catálogo, como Raiz, não liberam versões gerais desses benefícios.
++
++A proposta precisa respeitar a Regra e as Famílias disponíveis. Não use uma Passiva própria para obter por outro nome um efeito de Família Fechada, eliminar sempre o custo de uma Restrição ou dispensar o Selo das conjurações sem uma permissão expressa.
++
++Passiva Própria e Regra Própria também não concedem acesso automático a entidades. Uma invocação exige que a técnica, o Manejo ou o Kata a preveja de forma explícita e coerente, além da aquisição e das regras de **Invocações**.
++
++A Passiva Livre permanece uma opção de aparência e expressão da técnica. Revelar informação protegida, vencer um obstáculo sem teste ou obter uma vantagem funcional exige uma escolha paga adequada. Retirar os números da descrição não transforma esse benefício em Livre.

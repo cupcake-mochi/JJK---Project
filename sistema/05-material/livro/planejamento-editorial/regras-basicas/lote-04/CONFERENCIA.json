@@ -1,0 +1,919 @@
+{
+  "data": "2026-10-03",
+  "ok": true,
+  "sha256_texto": "c7a7b7ce0366fcaf7cc88282b755f5bd59ee60efef376db218d50aa2e50dc22c",
+  "sha256_pdf": "b4e355ed95660601fcccd5056ea8a5c3fc3f9bf98491233fa3f5e97e6a7d9a8b",
+  "verificacoes": 106,
+  "checks": [
+    {
+      "verificacao": "Oito páginas e seções",
+      "obtido": [
+        8,
+        8
+      ],
+      "esperado": [
+        8,
+        8
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Ordem de leitura",
+      "obtido": [
+        "cura",
+        "temporarios",
+        "zero",
+        "insistir",
+        "sequelas",
+        "descansos",
+        "exaustao",
+        "usos"
+      ],
+      "esperado": [
+        "cura",
+        "temporarios",
+        "zero",
+        "insistir",
+        "sequelas",
+        "descansos",
+        "exaustao",
+        "usos"
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Subtítulos não repetem título da seção",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Todos os títulos coincidem com o mapa",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Duas entradas principais",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "verificacao": "Grupos iniciam recolhidos",
+      "obtido": [
+        -5,
+        -3
+      ],
+      "esperado": [
+        -5,
+        -3
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Marcadores com destinos válidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: sem palavras perdidas",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p1: limites físicos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: rodapé separado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p1: sem imagens raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: referências existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p1: links PDF para destinos esperados",
+      "obtido": [
+        3,
+        4
+      ],
+      "esperado": [
+        3,
+        4
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "p1: número da remissão insistir",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: número da remissão zero",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p2: sem palavras perdidas",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p2: limites físicos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p2: rodapé separado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p2: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p2: sem imagens raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p2: referências existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p2: links PDF para destinos esperados",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p3: sem palavras perdidas",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p3: limites físicos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p3: rodapé separado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p3: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p3: sem imagens raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p3: referências existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p3: links PDF para destinos esperados",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p4: sem palavras perdidas",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p4: limites físicos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p4: rodapé separado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p4: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p4: sem imagens raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p4: referências existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p4: links PDF para destinos esperados",
+      "obtido": [
+        3
+      ],
+      "esperado": [
+        3
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "p4: número da remissão zero",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p5: sem palavras perdidas",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p5: limites físicos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p5: rodapé separado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p5: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p5: sem imagens raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p5: referências existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p5: links PDF para destinos esperados",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p6: sem palavras perdidas",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p6: limites físicos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p6: rodapé separado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p6: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p6: sem imagens raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p6: referências existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p6: links PDF para destinos esperados",
+      "obtido": [
+        7
+      ],
+      "esperado": [
+        7
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "p6: número da remissão exaustao",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p7: sem palavras perdidas",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p7: limites físicos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p7: rodapé separado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p7: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p7: sem imagens raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p7: referências existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p7: links PDF para destinos esperados",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p8: sem palavras perdidas",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p8: limites físicos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p8: rodapé separado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p8: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p8: sem imagens raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p8: referências existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p8: links PDF para destinos esperados",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Cura sem ultrapassar máximo",
+      "obtido": 20,
+      "esperado": 20,
+      "ok": true
+    },
+    {
+      "verificacao": "Cuidado respeita faixa inicial",
+      "obtido": [
+        false,
+        true,
+        true,
+        false,
+        false
+      ],
+      "esperado": [
+        false,
+        true,
+        true,
+        false,
+        false
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Temporários com teto",
+      "obtido": 11,
+      "esperado": 11,
+      "ok": true
+    },
+    {
+      "verificacao": "Nova concessão compara saldo",
+      "obtido": 9,
+      "esperado": 9,
+      "ok": true
+    },
+    {
+      "verificacao": "Concessão menor não apaga maior",
+      "obtido": 9,
+      "esperado": 9,
+      "ok": true
+    },
+    {
+      "verificacao": "Dano exemplo",
+      "obtido": 3,
+      "esperado": 3,
+      "ok": true
+    },
+    {
+      "verificacao": "Energia temporária paga primeiro",
+      "obtido": [
+        4,
+        1
+      ],
+      "esperado": [
+        4,
+        1
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Sem reserva do nada",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "Aguentar20%ref23",
+      "obtido": 5,
+      "esperado": 5,
+      "ok": true
+    },
+    {
+      "verificacao": "Dano a zero ultrapassa, não iguala",
+      "obtido": [
+        false,
+        false,
+        true
+      ],
+      "esperado": [
+        false,
+        false,
+        true
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Insistir ref80",
+      "obtido": [
+        10,
+        20,
+        40
+      ],
+      "esperado": [
+        10,
+        20,
+        40
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Máximo após parcelas",
+      "obtido": [
+        70,
+        50,
+        10
+      ],
+      "esperado": [
+        70,
+        50,
+        10
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Insistir ref23 arredonda cada custo",
+      "obtido": [
+        3,
+        6,
+        12
+      ],
+      "esperado": [
+        3,
+        6,
+        12
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Cura acumulada após colapso",
+      "obtido": [
+        40,
+        40,
+        10
+      ],
+      "esperado": [
+        40,
+        40,
+        10
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Achado ref10 esgota máximo",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "Achado ref5 não paga todas",
+      "obtido": -1,
+      "esperado": -1,
+      "ok": true
+    },
+    {
+      "verificacao": "Sequela encurta janela",
+      "obtido": [
+        3,
+        2,
+        1,
+        0,
+        0
+      ],
+      "esperado": [
+        3,
+        2,
+        1,
+        0,
+        0
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Curto exemplo10PE",
+      "obtido": 3,
+      "esperado": 3,
+      "ok": true
+    },
+    {
+      "verificacao": "Curto respeita máximo",
+      "obtido": 10,
+      "esperado": 10,
+      "ok": true
+    },
+    {
+      "verificacao": "Exaustão max8",
+      "obtido": [
+        2,
+        1,
+        1,
+        0
+      ],
+      "esperado": [
+        2,
+        1,
+        1,
+        0
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Propício não perdePEpelaExaustão",
+      "obtido": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "esperado": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Longo piso23 preserva18",
+      "obtido": [
+        11,
+        11,
+        18,
+        23
+      ],
+      "esperado": [
+        11,
+        11,
+        18,
+        23
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Longo ref60 saldo8",
+      "obtido": 30,
+      "esperado": 30,
+      "ok": true
+    },
+    {
+      "verificacao": "Exaustão adotou4,5m",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Combinação Exaustão/Integridade",
+      "obtido": [
+        4.5,
+        3.0
+      ],
+      "esperado": [
+        4.5,
+        3.0
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Grade201máximos: descanso não reduz saldo e exaustão não melhora recuperação",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Amostra inclui máximos0a200",
+      "obtido": 600,
+      "esperado": 600,
+      "ok": true
+    },
+    {
+      "verificacao": "Limiares problemáticos de Insistir abaixo81",
+      "obtido": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        13,
+        17
+      ],
+      "esperado": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        13,
+        17
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "28 casos documentais com IDs distintos",
+      "obtido": 28,
+      "esperado": 28,
+      "ok": true
+    },
+    {
+      "verificacao": "Oito seções avaliadas editorialmente",
+      "obtido": [
+        "cura",
+        "descansos",
+        "exaustao",
+        "insistir",
+        "sequelas",
+        "temporarios",
+        "usos",
+        "zero"
+      ],
+      "esperado": [
+        "cura",
+        "descansos",
+        "exaustao",
+        "insistir",
+        "sequelas",
+        "temporarios",
+        "usos",
+        "zero"
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Revisão ligada ao texto",
+      "obtido": "c7a7b7ce0366fcaf7cc88282b755f5bd59ee60efef376db218d50aa2e50dc22c",
+      "esperado": "c7a7b7ce0366fcaf7cc88282b755f5bd59ee60efef376db218d50aa2e50dc22c",
+      "ok": true
+    },
+    {
+      "verificacao": "Fontes e consolidado anterior preservados",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Livro e exportações preservados",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "137 arquivos protegidos",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Inspeção visual ligada ao PDF",
+      "obtido": "b4e355ed95660601fcccd5056ea8a5c3fc3f9bf98491233fa3f5e97e6a7d9a8b",
+      "esperado": "b4e355ed95660601fcccd5056ea8a5c3fc3f9bf98491233fa3f5e97e6a7d9a8b",
+      "ok": true
+    },
+    {
+      "verificacao": "Oito páginas visualmente examinadas",
+      "obtido": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "esperado": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Sem defeitos visuais registrados",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "28 casos documentais",
+      "obtido": 28,
+      "esperado": 28,
+      "ok": true
+    },
+    {
+      "verificacao": "Links do dossiê",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    }
+  ],
+  "geometria": [
+    {
+      "pagina": 1,
+      "secao": "cura",
+      "final_corpo": 639.82,
+      "links": [
+        3,
+        4
+      ]
+    },
+    {
+      "pagina": 2,
+      "secao": "temporarios",
+      "final_corpo": 681.17,
+      "links": []
+    },
+    {
+      "pagina": 3,
+      "secao": "zero",
+      "final_corpo": 657.97,
+      "links": []
+    },
+    {
+      "pagina": 4,
+      "secao": "insistir",
+      "final_corpo": 703.32,
+      "links": [
+        3
+      ]
+    },
+    {
+      "pagina": 5,
+      "secao": "sequelas",
+      "final_corpo": 772.72,
+      "links": []
+    },
+    {
+      "pagina": 6,
+      "secao": "descansos",
+      "final_corpo": 774.12,
+      "links": [
+        7
+      ]
+    },
+    {
+      "pagina": 7,
+      "secao": "exaustao",
+      "final_corpo": 718.62,
+      "links": []
+    },
+    {
+      "pagina": 8,
+      "secao": "usos",
+      "final_corpo": 744.62,
+      "links": []
+    }
+  ],
+  "limites": [
+    "Não é teste humano ou prova de equilíbrio.",
+    "Revisão pelo autor, sem nova revisão independente.",
+    "Decisões candidatas e pendências identificadas em DECISOES.md."
+  ]
+}

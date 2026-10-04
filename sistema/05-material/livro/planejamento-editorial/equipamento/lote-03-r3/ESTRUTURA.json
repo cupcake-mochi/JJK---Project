@@ -1,0 +1,27 @@
+{
+  "ordem": [
+    "municao",
+    "recarga",
+    "reserva"
+  ],
+  "titulos": {
+    "municao": "Munição",
+    "recarga": "Recarregar",
+    "reserva": "Reservas e reposição"
+  },
+  "paginas": {
+    "municao": 1,
+    "recarga": 2,
+    "reserva": 3
+  },
+  "grupos": [
+    [
+      "Munição",
+      [
+        "municao",
+        "recarga",
+        "reserva"
+      ]
+    ]
+  ]
+}

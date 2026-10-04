@@ -1,0 +1,25 @@
+{
+  "sha256_texto": "cd608cb7a2ad671becaef2da0b56ee77229a24f8212df1dbbbf7b002e9f268d4",
+  "titulos_revisto": true,
+  "sem_explicacao_alheia": true,
+  "vocabulario_revisto": true,
+  "excecoes_vocabulario": [],
+  "excecoes_localizacao": [
+    {
+      "termo": "Canalizar em Golpe",
+      "trecho": "Além disso, acrescente X dados ao dano normal de Canalizar em Golpe. Os dados adicionais têm o mesmo tamanho dos dados utilizados normalmente em Canalizar e são rolados normalmente.",
+      "papel": "requisito",
+      "justificativa": "A habilidade do Assassino modifica este dano: referência indispensável ao componente reforçado e à exceção de crítico. Não reproduz a tabela, aquisição ou funcionamento geral da aptidão.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Canalizar em Golpe",
+      "trecho": "Em um crítico com Golpe Cirúrgico, a arma segue a regra normal de crítico, com seus dados dobrados e rolados, e você dobra tanto os dados normais de Canalizar em Golpe quanto os dados adicionais concedidos por esta habilidade. Role todos esses dados normalmente. Outros efeitos mantêm suas regras de crítico.",
+      "papel": "requisito",
+      "justificativa": "A habilidade do Assassino modifica este dano: referência indispensável ao componente reforçado e à exceção de crítico. Não reproduz a tabela, aquisição ou funcionamento geral da aptidão.",
+      "nao_reproduz_regra": true
+    }
+  ],
+  "revisor": "maxima",
+  "notas": "26 seções lidas; exceções necessárias em Golpe Cirúrgico, não simples repetição de aptidão. Sincronizações externas pendentes no arquivo próprio."
+}

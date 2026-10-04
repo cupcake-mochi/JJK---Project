@@ -1,0 +1,107 @@
+{
+  "sha256_pdf": "4c791840f00996685edc13c806c7b33a453c94679399763cb9ec495d33ddc753",
+  "revisor": "/root",
+  "metodo": "Todas20 páginas abertas como imagens. Ajustadas larguras das tabelas de Integridade e Exaustão; páginas5/19 abertas novamente. Fluxo contínuo pertence à montagem do livro.",
+  "paginas": [
+    {
+      "pagina": 1,
+      "resultado": "sem defeito visual observado",
+      "arquivo": "output/png/pagina-01.png"
+    },
+    {
+      "pagina": 2,
+      "resultado": "sem defeito visual observado",
+      "arquivo": "output/png/pagina-02.png"
+    },
+    {
+      "pagina": 3,
+      "resultado": "sem defeito visual observado",
+      "arquivo": "output/png/pagina-03.png"
+    },
+    {
+      "pagina": 4,
+      "resultado": "sem defeito visual observado",
+      "arquivo": "output/png/pagina-04.png"
+    },
+    {
+      "pagina": 5,
+      "resultado": "sem defeito visual observado",
+      "arquivo": "output/png/pagina-05.png"
+    },
+    {
+      "pagina": 6,
+      "resultado": "sem defeito visual observado",
+      "arquivo": "output/png/pagina-06.png"
+    },
+    {
+      "pagina": 7,
+      "resultado": "sem defeito visual observado",
+      "arquivo": "output/png/pagina-07.png"
+    },
+    {
+      "pagina": 8,
+      "resultado": "sem defeito visual observado",
+      "arquivo": "output/png/pagina-08.png"
+    },
+    {
+      "pagina": 9,
+      "resultado": "sem defeito visual observado",
+      "arquivo": "output/png/pagina-09.png"
+    },
+    {
+      "pagina": 10,
+      "resultado": "sem defeito visual observado",
+      "arquivo": "output/png/pagina-10.png"
+    },
+    {
+      "pagina": 11,
+      "resultado": "sem defeito visual observado",
+      "arquivo": "output/png/pagina-11.png"
+    },
+    {
+      "pagina": 12,
+      "resultado": "sem defeito visual observado",
+      "arquivo": "output/png/pagina-12.png"
+    },
+    {
+      "pagina": 13,
+      "resultado": "sem defeito visual observado",
+      "arquivo": "output/png/pagina-13.png"
+    },
+    {
+      "pagina": 14,
+      "resultado": "sem defeito visual observado",
+      "arquivo": "output/png/pagina-14.png"
+    },
+    {
+      "pagina": 15,
+      "resultado": "sem defeito visual observado",
+      "arquivo": "output/png/pagina-15.png"
+    },
+    {
+      "pagina": 16,
+      "resultado": "sem defeito visual observado",
+      "arquivo": "output/png/pagina-16.png"
+    },
+    {
+      "pagina": 17,
+      "resultado": "sem defeito visual observado",
+      "arquivo": "output/png/pagina-17.png"
+    },
+    {
+      "pagina": 18,
+      "resultado": "sem defeito visual observado",
+      "arquivo": "output/png/pagina-18.png"
+    },
+    {
+      "pagina": 19,
+      "resultado": "sem defeito visual observado",
+      "arquivo": "output/png/pagina-19.png"
+    },
+    {
+      "pagina": 20,
+      "resultado": "sem defeito visual observado",
+      "arquivo": "output/png/pagina-20.png"
+    }
+  ]
+}

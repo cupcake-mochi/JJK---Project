@@ -1,0 +1,166 @@
+{
+  "sha256_pdf": "c5905aedb50386d7f7b57b3a013b0e41a809f661df61226da4524fa12f4726a0",
+  "metodo": "Todas as vinte páginas inspecionadas pelo principal. Após ajuste da tabela na página 20, reinspeção dessa página e identidade de pixels das outras 19. Após inclusão da remissão Ritual no índice, reinspeção da página 3 e identidade de pixels das outras 19.",
+  "paginas": [
+    {
+      "pagina": 1,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, cabeçalho, tabelas e exemplos completos e legíveis.",
+      "sha256_png": "b0f6dbc6e9561df09a2e1dd88bda80c37776afeb5b17d7c7da682e62a81bde5a",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 2,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, cabeçalho, tabelas e exemplos completos e legíveis.",
+      "sha256_png": "37883447315858fa1201d22ee2500727b62dfe327a0309e2d9a6896cf6b23bfe",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 3,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, cabeçalho, tabelas e exemplos completos e legíveis.",
+      "sha256_png": "422ee87f74135e6eb2a6876a8f8238e2b7c912ab0b424a925e7dcae282f51b0c",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": false
+    },
+    {
+      "pagina": 4,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, cabeçalho, tabelas e exemplos completos e legíveis.",
+      "sha256_png": "d16fd3fdf081a42e9d6bcbab7b3099b20f04733a37c7a07dcf75b005de3f1632",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 5,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, cabeçalho, tabelas e exemplos completos e legíveis.",
+      "sha256_png": "cb47bc93930d80e1b732b20a5235dfcdfb2803b4f5dc3f8e9f1e5177c913846f",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 6,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, cabeçalho, tabelas e exemplos completos e legíveis.",
+      "sha256_png": "20442af865ef46a277b7f201cd4ffb8a5aadf4d98e008e70463e6f1dbb35bbd0",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 7,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, cabeçalho, tabelas e exemplos completos e legíveis.",
+      "sha256_png": "7bf75a7189429389a7895744481470b217d91248416e7eebaebc32b042975e4a",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 8,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, cabeçalho, tabelas e exemplos completos e legíveis.",
+      "sha256_png": "93d4f7547982425e920e3591e7c889010e4a7b637a37ee015c8293bf4c78ebee",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 9,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, cabeçalho, tabelas e exemplos completos e legíveis.",
+      "sha256_png": "d01a569f009975a6978c89f3d7228b01948f5ad8e8bfc0efa9c9ed9d3562ca3a",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 10,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, cabeçalho, tabelas e exemplos completos e legíveis.",
+      "sha256_png": "6cb15f745905047ffabca0b3c8114b6c89ffe7c316ef623bff5fa20620360053",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 11,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, cabeçalho, tabelas e exemplos completos e legíveis.",
+      "sha256_png": "a5a7c130f2291c62c92cbda7d2016102a0e279e21a3201a41a206a1fbc516b1f",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 12,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, cabeçalho, tabelas e exemplos completos e legíveis.",
+      "sha256_png": "310d6156fb6f8556f74bfe03d037bb0334b9282880c0aac907e95a9c6a6d5694",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 13,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, cabeçalho, tabelas e exemplos completos e legíveis.",
+      "sha256_png": "4e55bc3a0eae3158ae4515856ebc781ad40b8870fc240b26308b649811cd63f9",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 14,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, cabeçalho, tabelas e exemplos completos e legíveis.",
+      "sha256_png": "cc83d0d1ce60c8cf15f152b3f54563a9f147b66f9ca8014e2c7595cd036ca9f3",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 15,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, cabeçalho, tabelas e exemplos completos e legíveis.",
+      "sha256_png": "898bc168b7b8e0b7dde79aee91bdb0b27d66006f1c8243d837e91d16bbbdcddd",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 16,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, cabeçalho, tabelas e exemplos completos e legíveis.",
+      "sha256_png": "fc2d86fc090455c2b52763150c36544e55bba8b45bcc2383e86c7d7cbcf2f327",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 17,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, cabeçalho, tabelas e exemplos completos e legíveis.",
+      "sha256_png": "fedd2dfcefd9a4ed745b220704c3e94daf9124e208d6bac9b770abe8b8108d96",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 18,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, cabeçalho, tabelas e exemplos completos e legíveis.",
+      "sha256_png": "6b6308a060f8f6c7a78f93466e336f97a7efe389dd745da80a7da73154342541",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 19,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, cabeçalho, tabelas e exemplos completos e legíveis.",
+      "sha256_png": "092256286d1e6d14c43691efd7028ac20f39340fb6f737c52f8b91d2ad5f7065",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    },
+    {
+      "pagina": 20,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, cabeçalho, tabelas e exemplos completos e legíveis.",
+      "sha256_png": "6d1eca059bb217d5e857c6946d79262572096459864396ad4e304e25986a5199",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true
+    }
+  ]
+}

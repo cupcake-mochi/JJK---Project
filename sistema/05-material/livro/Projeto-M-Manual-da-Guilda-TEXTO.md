@@ -49,9 +49,10 @@ Nem todo capítulo é para ler do começo ao fim. Metade dos capítulos é catá
 | **13** | Ritual | *consulta* · o que um feitiço ganha quando você para de omitir |
 | **14** | Bênçãos e Lapidação | *consulta* · o que entra no lugar dos dois para quem não tem energia amaldiçoada |
 | **15** a **16** | Equipamento · Ferramenta Amaldiçoada | *consulta* · o que você carrega |
-| **17** | Pactos | *consulta* · o que você troca com a sua própria energia, e o que ela cobra |
+| **17** | Invocações | *consulta* · montar entidades, manifestar e comandar |
+| **18** | Pactos | *consulta* · o que você troca com a sua própria energia, e o que ela cobra |
 | | **A CAMPANHA** | |
-| **18** | Experiência e Progressão | *consulta* · o que cada nível entrega, do 1 ao 30 |
+| **19** | Experiência e Progressão | *consulta* · o que cada nível entrega, do 1 ao 30 |
 | | **Índice remissivo** | no fim: termo, e em que página ele aparece |
 
 **Grupo novo, sem ninguém ter lido nada?** Vá direto para *Antes da primeira sessão*. É uma cena pronta, com ficha e tudo, para jogar antes de estudar o resto.
@@ -116,13 +117,38 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 **Personagem**
 | Termo | O que é | Cap. |
 |---|---|---|
-| **Caminho** | O seu lugar numa equipe. Quatro nesta edição: Bastião, Vanguarda, Guia, Emanador. O Evocador está fora dela. Escolhido na criação, para sempre | 8 |
-| **Trilha** | Quem você é dentro do Caminho. Três por Caminho, doze nesta edição | 8 |
+| **Caminho** | O seu lugar numa equipe. Seis nesta edição: Bastião, Vanguarda, Guia, Emanador, Evocador e Incursor. Escolhido na criação, para sempre | 8 |
+| **Trilha** | Quem você é dentro do Caminho. Três por Caminho, dezoito nesta edição | 8 |
+| **Fluidez** | Estado do Incursor: guarda um por vez e gasta nos usos do Caminho ou da Trilha | 8 |
+| **Canalizar em Golpe** | Nos Caminhos, o dano na arma da aptidão Canalizar energia; cada habilidade declara suas exceções | 12 |
+| **Pontos de Vínculo** | Reserva do Evocador para intervenções; começa em zero e cresce no começo de seus turnos | 8 |
+| **Entidade** | Criatura com ficha própria obtida por técnica, criação ou domínio de uma maldição | 17 |
+| **Básica** | Atuação comum da entidade; conhecer opções não concede atuações adicionais | 17 |
+| **Especial de invocação** | Habilidade que exige seu comando, com custos e requisitos próprios | 17 |
+| **Reação coletiva** | Reserva de Reação compartilhada pelas entidades, separada da sua Reação pessoal | 17 |
+| **`Rápido`** | Melhoria que troca a Ação Padrão do feitiço pela Ação Bônus; requisitos e limites no catálogo | 9 |
+| **`Aquecer`** | Restrição que impede usar o feitiço na primeira rodada do combate; requisitos e limites no catálogo | 9 |
+| **`Levanta`** | Melhoria de Amparo que devolve vida a um aliado caído; requisitos e limites no catálogo | 9 |
+| **`Fica`** | Melhoria que mantém uma área e exige concentração; requisitos e limites no catálogo | 9 |
+| **`Rajada`** | Melhoria que divide o feitiço em tiros com rolagens próprias; requisitos e limites no catálogo | 9 |
+| **`Inescapável`** | Melhoria de dano automático, incompatível com outras peças; requisitos e limites no catálogo | 9 |
+| **`Anteparo`** | Melhoria que cria uma parede ou escudo com vida própria; requisitos e limites no catálogo | 9 |
+| **`Toca a Alma`** | Melhoria que converte dados de dano em dano na alma; requisitos e limites no catálogo | 9 |
+| **`Remenda`** | Melhoria que recupera Integridade de um aliado; requisitos e limites no catálogo | 9 |
+| **`Dívida`** | Restrição que aumenta o PE do próximo feitiço na cena; requisitos e limites no catálogo | 9 |
+| **`Escolher`** | Melhoria que permite escolher quem é atingido na área; requisitos e limites no catálogo | 9 |
+| **`Guarda`** | Melhoria que concede um bônus de Defesa por prazo definido; requisitos e limites no catálogo | 9 |
+| **`Queima`** | Melhoria que repete parte dos dados no começo do turno seguinte do alvo; requisitos e limites no catálogo | 9 |
+| **`Armado`** | Melhoria que reserva um feitiço para um gatilho futuro da cena; requisitos e limites no catálogo | 9 |
+| **`Efeito Próprio`** | Melhoria para uma mecânica definida com o mestre antes da sessão; requisitos e limites no catálogo | 9 |
+| **`Mão Firme`** | Passiva que protege concentração e carga contra dano baixo; requisitos e limites no catálogo | 9 |
+| **`Fluxo`** | Passiva que concede vida temporária ao conjurar uma Classe elegível; requisitos e limites no catálogo | 9 |
+| **`Passiva Própria`** | Passiva definida com o mestre na escala do catálogo; requisitos e limites no catálogo | 9 |
 | **Origem** | De onde vem o seu poder. Sete, mais a sub-origem Sem Técnica | 7 |
 | **Legado** | O que você já trazia, das listas da sua Origem. Dois por ficha | 7 |
 | **Traço** | Marca de história vinda da Origem, sem número | 7 |
-| **Pacto** | O que você trocou por poder. Opcional. Quatro formas: permanente, temporário, `Promessa` e de restrição. Só o permanente tem teto, e ele é metade da Essência | 17 |
-| **`Promessa`** | O pacto entre duas partes, com as duas aceitando. Tem três termos: o que eu dou, o que eu recebo, e a cláusula que eu acrescento | 17 |
+| **Pacto** | O que você trocou por poder. Opcional. Quatro formas: permanente, temporário, `Promessa` e de restrição. Só o permanente tem teto, e ele é metade da Essência | 18 |
+| **`Promessa`** | O pacto entre duas partes, com as duas aceitando. Tem três termos: o que eu dou, o que eu recebo, e a cláusula que eu acrescento | 18 |
 | **Patente** | O seu reconhecimento na instituição, de Grau 4 a Grau 1. Todo personagem começa **Grau 4** | 7 |
 
 > **Cuidado com a palavra `Grau`.** Ela nomeia duas escadas de cinco casas que não se encostam: a **patente** de um feiticeiro e o **grau** de uma ferramenta amaldiçoada. Patente é reconhecimento; grau de ferramenta é a energia que a ferramenta carrega. O capítulo 15 abre a diferença.
@@ -148,7 +174,7 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **Classe 0** | O feitiço grátis: não gasta PE e não ocupa espaço na lista | 9 |
 | **Passiva** | Efeito que fica ligado sozinho. Custa espaço de feitiço | 9 |
 | **Classe Passiva** | A altura de uma Passiva, de Livre a 3. Diz quantos espaços ela cobra e em que nível abre | 9 |
-| **Espaço de feitiço** | `2 + (nível ÷ 2)`, arredondando para baixo, mais um por marco. É a moeda que Passiva e Expansão de Domínio também gastam | 18 |
+| **Espaço de feitiço** | `2 + (nível ÷ 2)`, arredondando para baixo, mais um por marco. É a moeda que Passiva e Expansão de Domínio também gastam | 19 |
 | **Ampliar** | Lançar um feitiço que você conhece numa Classe maior, pagando o PE da Classe nova | 9 |
 | **Liberação Máxima** | Feitiço à parte, escrito antes da sessão, de Classe 3 ou mais. Rompe o limite de dano num alvo só. Nos níveis 10, 20 e 30 | 9 |
 | **Técnica Máxima** | O golpe de dano fixo que carrega o nome da técnica. Do nível 17 em diante | 9 |
@@ -186,10 +212,10 @@ O eixo de controle de quem não tem energia amaldiçoada nenhuma, no lugar do re
 **Progressão**
 | Termo | O que é | Cap. |
 |---|---|---|
-| **Marco** | Um dos sete níveis em que a ficha muda de forma: **6, 10, 14, 18, 22, 26 e 30** | 18 |
+| **Marco** | Um dos sete níveis em que a ficha muda de forma: **6, 10, 14, 18, 22, 26 e 30** | 19 |
 | **Refino** | Quanto da sua energia você não desperdiça. Começa em 1, teto 10. Sobe `+1` de graça em cada marco | 12 |
 | **Aptidão** | O que qualquer feiticeiro pode aprender, independente da técnica. Custa marco, e só marco | 12 |
-| **Corpo**, **Refino**, **Leque** | As três escolhas que um marco oferece: mais atributo e mais uma perícia ou ofício; mais refino e uma aptidão; ou mais feitiço e uma Passiva. Numa ficha sem energia, o eixo do meio é **Lapidação** e entrega Bênção | 18 |
+| **Corpo**, **Refino**, **Leque** | As três escolhas que um marco oferece: mais atributo e mais uma perícia ou ofício; mais refino e uma aptidão; ou mais feitiço e uma Passiva. Numa ficha sem energia, o eixo do meio é **Lapidação** e entrega Bênção | 19 |
 
 ## Turno
 
@@ -358,8 +384,8 @@ físico: as duas mãos precisam se tocar antes de qualquer feitiço sair.
 > **`Olhos Em Mim`** · Ação Bônus, do Caminho Bastião
 > Uma área de `6 m` em volta dela, que anda com ela até o fim da cena. Ao abrir a área, ela
 > tenta Provocar até **dois** inimigos dentro dela — metade da Força, `3 ÷ 2` para baixo, mais
-> um. Enquanto a área estiver aberta, ela pode gastar a **Reação** para receber no lugar de um
-> aliado o golpe que acertou ele.
+> um. Enquanto a área estiver aberta, antes da rolagem de um ataque contra um aliado nela, pode
+> gastar a **Reação** para assumir esse ataque. O atacante rola contra a Defesa dela ou seu Bloquear.
 
 > **`Alicerce`** · da Trilha Muro
 > Ela escolheu `Cortante` e `Concussão` no último descanso longo. Enquanto `Olhos Em Mim`
@@ -629,6 +655,8 @@ Vida é o **corpo**, energia é o **combustível**, Integridade é a **alma**. O
 | **Vanguarda** | d8 | 8 | 5 | 5 |
 | **Guia** | d8 | 8 | 5 | 5 |
 | **Emanador** | d6 | 6 | 4 | 6 |
+| **Evocador** | d6 | 6 | 4 | 6 |
+| **Incursor** | d6 | 6 | 4 | 6 |
 
 > **Exemplo.** Mei é Vanguarda, Constituição 3, nível 4. Nível 1: 8 + 3 = 11. Cada um dos três níveis seguintes: 5 + 3 = 8. Total: 11 + 24 = **35 de vida**.
 
@@ -1107,6 +1135,8 @@ As duas fixas são a assinatura do Caminho, o que qualquer um daquele Caminho sa
 | **Vanguarda** | Acrobacia · Percepção |
 | **Guia** | Persuasão · Medicina |
 | **Emanador** | Ocultismo · Investigação |
+| **Evocador** | Religião · Lidar com Animais |
+| **Incursor** | Acrobacia · Intuição |
 
 ### Perícias da Origem
 
@@ -1696,8 +1726,10 @@ Que lugar você ocupa numa equipe. Um Caminho por personagem, escolhido agora e 
 | **Vanguarda** | a arma como resposta: alcançar, cortar, acabar | Destreza, Força |
 | **Guia** | o outro como resposta: estender, recuperar, reposicionar | Essência |
 | **Emanador** | a técnica como resposta: mais feitiço, e mais barato | Inteligência, Essência |
+| **Evocador** | o vínculo com suas invocações | Inteligência, Essência |
+| **Incursor** | movimento e abertura no confronto | Destreza, Força |
 
-O Caminho mexe em posicionamento, alvo, duração e recuperação. Ele nunca mexe em dados de dano e Classe de feitiço.
+O Caminho mexe em posicionamento, alvo, duração e recuperação. Cada habilidade declara suas exceções de dano, Classe e recuperação; cumpra os custos e requisitos do capítulo 8.
 
 ### Características do Caminho
 
@@ -1708,8 +1740,10 @@ O Caminho mexe em posicionamento, alvo, duração e recuperação. Ele nunca mex
 | **Vanguarda** | 8 (d8) | 5 | 5 | Acrobacia · Percepção |
 | **Guia** | 8 (d8) | 5 | 5 | Persuasão · Medicina |
 | **Emanador** | 6 (d6) | 4 | 6 | Ocultismo · Investigação |
+| **Evocador** | 6 (d6) | 4 | 6 | Religião · Lidar com Animais |
+| **Incursor** | 6 (d6) | 4 | 6 | Acrobacia · Intuição |
 
-Mais **cinco perícias à sua escolha**, de qualquer uma da lista de perícias do sistema, **dois ofícios à sua escolha** e **um Teste de Resistência treinado**. *Os dois ofícios se trocam por mais uma perícia, e no `Guia` e no `Emanador` duas das cinco se trocam por treino em uma arma.*
+Mais **cinco perícias à sua escolha**, de qualquer uma da lista de perícias do sistema, **dois ofícios à sua escolha** e **um Teste de Resistência treinado**. *Os dois ofícios se trocam por mais uma perícia, e no `Guia`, no `Emanador` e no `Evocador` duas das cinco se trocam por treino em uma arma.*
 
 ### Equipamento
 
@@ -1727,7 +1761,7 @@ A Trilha é escolhida agora, junto do Caminho, e nasce com o personagem. São tr
 
 > **A Trilha já entrega no nível 2**, junto do primeiro degrau do Caminho, e volta a entregar nos níveis 11, 19 e 27. O texto de cada uma está no capítulo 8, *Caminhos e Trilhas*.
 >
-> **O Evocador está fora desta edição**, com as três Trilhas dele e as invocações. Ele volta quando o subsistema de Invocações fechar, e até lá nenhuma ficha nova o escolhe.
+> **Para jogar com invocações**, leia também o capítulo 17, *Invocações*. O Evocador aprimora esse subsistema; outros Caminhos podem utilizá-lo seguindo suas regras comuns.
 
 ## Passo 4 · Atributos
 
@@ -1769,7 +1803,7 @@ Os dois ofícios da Origem se trocam por mais uma perícia livre, e as duas rota
 | ficando com os ofícios | 9 de 23 | 2 de 11 |
 | trocando os dois | 10 de 23 | 0 de 11 |
 
-**E nos dois Caminhos que não treinam arma de verdade — `Guia` e `Emanador` — duas das cinco perícias à sua escolha viram treino em uma arma da lista.** *Não a categoria e não o tipo: uma arma.*
+**E nos três Caminhos com treino inicial em Arma de Fogo e Balestra — `Guia`, `Emanador` e `Evocador` — duas das cinco perícias à sua escolha viram treino em uma arma da lista.** *Não a categoria e não o tipo: uma arma.*
 
 Os dois Testes de Resistência treinados saem de quatro: Físico, Vigor, Espírito e Intelecto. Um vem da Origem, o outro do Caminho.
 
@@ -1817,9 +1851,9 @@ Pacto é o que você trocou por poder, e as quatro formas dele têm onde morar:
 | *"a minha técnica fica maior sob uma condição que eu aceitei"* | **Restrição**, por feitiço, no capítulo 9 |
 | *"a minha técnica impõe uma regra ao mundo"* | **`Regra Própria`**, por técnica, no capítulo 9 |
 | *"eu troquei uma coisa antes de a campanha começar"* | **Legado**, na criação, no capítulo 7 |
-| *"eu e mais alguém fechamos um trato, aqui, na mesa"* | **Pactos**, no capítulo 17 |
+| *"eu e mais alguém fechamos um trato, aqui, na mesa"* | **Pactos**, no capítulo 18 |
 
-> **Das quatro formas do capítulo 17, só o pacto de restrição entra na criação**, e ele se escreve junto da Origem ou da técnica. As outras três nascem em jogo.
+> **Das quatro formas do capítulo 18, só o pacto de restrição entra na criação**, e ele se escreve junto da Origem ou da técnica. As outras três nascem em jogo.
 
 ## Exemplo
 
@@ -2618,9 +2652,8 @@ Lembre-se de que os Legados são, no fundo, o que forma a sua história inicial.
 
 *fonte: `manual/35-caminhos-e-trilhas.md`*
 
-**O Caminho diz o seu lugar na equipe**, e você escolhe ele na criação. A Trilha diz quem você é dentro do Caminho, e ela nasce junto com ele, no nível 2. São quatro Caminhos nesta edição, três Trilhas em cada um.
+**O Caminho diz o seu lugar na equipe**, e você escolhe ele na criação. A Trilha diz quem você é dentro do Caminho, e ela nasce junto com ele, no nível 2. São seis Caminhos nesta edição, três Trilhas em cada um.
 
-> **O Evocador está fora desta edição.** O quinto Caminho e as regras de invocação voltam quando o subsistema de Invocações fechar. Até lá, nenhuma ficha nova escolhe o Evocador.
 
 ## Como ler um Caminho
 
@@ -2647,10 +2680,10 @@ Cada Caminho entrega cinco degraus, e eles chegam sempre nos mesmos níveis. A T
 Cada Caminho tem o próprio número de vida por nível e o próprio número de PE por nível, e os dois correm em sentidos contrários: quem tem mais vida por nível tem menos PE por nível.
 
 **Vida e energia por Caminho**
-| | Bastião | Vanguarda | Guia | Emanador |
-|---|---|---|---|---|
-| **Vida por nível** | 7 | 5 | 5 | 4 |
-| **PE por nível** | 4 | 5 | 5 | 6 |
+| | Bastião | Vanguarda | Guia | Emanador | Evocador | Incursor |
+|---|---|---|---|---|---|---|
+| **Vida por nível** | 7 | 5 | 5 | 4 | 4 | 4 |
+| **PE por nível** | 4 | 5 | 5 | 6 | 6 | 6 |
 
 > **O seu PE máximo é o número da tabela vezes o seu nível.** Nenhum atributo entra nessa conta, e não existe valor inicial somado por cima. *Uma Trilha pode somar um atributo por cima dele, e quando soma ela diz qual.*
 
@@ -2666,13 +2699,15 @@ E duas coisas que quase todo degrau daqui menciona:
 
 > **Se a sua ficha monta o poder na Técnica Marcial, onde um degrau daqui diz *feitiço* ou *conjurar*, leia `Kata`.** Mesma Classe, mesmo custo em PE, mesmo degrau. **São as duas rotas do capítulo 10, *Técnica Marcial***, e elas escolhem Caminho e Trilha como todo mundo.
 
+> **Canalizar em Golpe** é o nome usado aqui para o **Dano na arma de Canalizar energia**, no capítulo 12, *Aptidões e Refino*. Use os dados e requisitos daquela aptidão. Uma habilidade que altera esse dano, como Golpe Cirúrgico, declara sua própria exceção. **Estímulo Muscular** é a Bênção correspondente para o personagem sem energia, no capítulo 14.
+
 ### Treino de arma
 
 **O seu Caminho decide quais armas você pode empunhar.** Treino mora na categoria: treinar uma categoria libera todas as armas dela, e o catálogo inteiro está no capítulo 15, *Equipamento*.
 
-> **Os dois Caminhos de corpo a corpo — Bastião e Vanguarda — treinam as treze categorias.** Qualquer arma do catálogo é deles.
+> **Os três Caminhos de corpo a corpo — Bastião, Vanguarda e Incursor — treinam as treze categorias.** Qualquer arma do catálogo é deles.
 >
-> **Os dois Caminhos conjuradores — Guia e Emanador — treinam Arma de Fogo e Balestra**, que são as duas que se aponta e dispara sem anos de forma.
+> **Os três Caminhos conjuradores — Guia, Emanador e Evocador — treinam Arma de Fogo e Balestra**, que são as duas que se aponta e dispara sem anos de forma.
 
 **Para um conjurador empunhar o resto, a porta é a Trilha.** É o que faz a `Arma Condutora` do Condutor Armado, no nível 2: ela concede uma categoria (Grupo das Armas) à sua escolha e ainda troca Força por Essência ou Inteligência naquela categoria. Um Emanador de espadão existe, e paga por isso com a escolha de Trilha.
 
@@ -2680,7 +2715,7 @@ E duas coisas que quase todo degrau daqui menciona:
 
 ### Limites
 
-> **O Caminho mexe em quando, onde e em quem o seu poder acontece.** O tamanho dele é assunto da sua técnica. Nenhum Caminho dá dado de dano, sobe a Classe dos seus feitiços, dá Melhoria de graça, cura, ou desconto de dano em tudo. **Cura é Forma de feitiço**: quem fechou a Família Amparo nunca vai curar, e Caminho nenhum contorna isso — **com exceções declaradas**: o Socorrista, a Trilha do Guia que cura outra pessoa com o `Cuidado Preparado` e o `Ainda Há Tempo`; o `Ainda de Pé` do Bastião, que recupera a própria vida uma vez por cena; e o `Duro de Matar` e a `Casca Grossa`, também do Bastião, que descontam o dano de um golpe.
+> **Cada habilidade altera somente as regras que menciona.** A técnica continua determinando a montagem e a Classe dos seus feitiços. Há exceções expressas para dano, vida temporária, cura e redução de dano: elas conservam os custos e requisitos escritos no próprio Caminho ou Trilha. **Cura é Forma de feitiço**; uma habilidade só contorna essa montagem quando declara sua própria recuperação, como Cuidado Preparado e Ainda Há Tempo, do Socorrista, e Ainda de Pé, do Bastião. Duro de Matar e Casca Grossa descontam dano do Bastião; Alicerce e Cobertura seguem suas próprias regras.
 
 ### Trilhas
 
@@ -2699,6 +2734,12 @@ E duas coisas que quase todo degrau daqui menciona:
 | **Arquiteto** | Guia |
 | **Analista** | Guia |
 | **Socorrista** | Guia |
+| **Invocação Principal** | Evocador |
+| **Parceria** | Evocador |
+| **Múltiplas Invocações** | Evocador |
+| **Assassino** | Incursor |
+| **Pugilista** | Incursor |
+| **Malabarista** | Incursor |
 
 ## Bastião
 
@@ -2741,19 +2782,21 @@ Escolha uma Trilha no nível 2: **Muro, Punho ou Combatente Amaldiçoado**. Suas
 >
 > **Provocação inicial — uma vez por cena.** Ao ativar a área, escolha inimigos dentro dela, até o limite de metade da sua Força, arredondada para baixo, mais um. Faça um teste de Provocar contra o TR de Espírito de cada um. Quem falhar sofre o efeito de Provocar até o começo do seu próximo turno. Inimigos que entrarem depois não recebem essa provocação inicial.
 >
-> **Assumir um golpe.** Enquanto a área estiver ativa, quando um ataque com rolagem acertar um aliado dentro dela, você pode gastar sua **Reação** para receber o golpe no lugar dele. O acerto é transferido, com o dano, o crítico e as condições que acompanhariam aquele golpe. A transferência não faz outra rolagem de acerto ou de Bloquear.
+> **Assumir um golpe.** Enquanto a área estiver ativa, quando uma criatura declarar um ataque com rolagem contra um aliado dentro dela, **antes da rolagem de acerto**, você pode gastar sua **Reação** para se tornar o alvo daquele ataque.
+>
+> O atacante faz a rolagem normalmente e compara o resultado com **sua Defesa**, ou com seu **Bloquear**, se você escolher bloquear. Bloquear não exige outra Reação. O ataque conserva seu alcance já declarado contra o aliado; esta habilidade permite interceptá-lo sem mover você. Se acertar, você recebe o dano e os efeitos que acompanham o golpe, inclusive o crítico. Se errar, nenhum dos dois recebe o golpe. Esta Reação protege somente o ataque declarado, não os demais ataques da ação.
 
 > **Nível 7: Ataque Extra.** Sua Ação Atacar permite **um ataque simples adicional por rodada**.
 >
 > Você também recebe as duas habilidades abaixo.
 >
-> **`Nem Um Arranhão`.** Como **Reação**, ao realizar um TR Físico contra um efeito que causa metade do dano no sucesso, você não sofre dano se passar e sofre metade se falhar. Esta Reação exige que você não esteja Incapacitado.
+> **`Nem Um Arranhão`.** Enquanto Olhos Em Mim estiver ativo, você tem **vantagem no TR Físico provocado por um ataque de uma criatura dentro da área**. Confira a posição do atacante quando fizer o teste. É um benefício passivo, sem gasto de Reação; o resultado e o dano do teste seguem as regras normais do ataque.
 >
 > **`Ainda de Pé`.** **Uma vez por cena**, quando sua vida for reduzida à metade ou menos, recupere **1d8 + metade do seu nível** de vida. Não exige ação.
 
-> **Nível 15: `Duro de Matar`.** **Uma vez por rodada**, quando seu Bloquear falhar, reduza o dano do golpe pelo **resultado dos dados do Bloquear + sua Constituição**.
+> **Nível 15: `Duro de Matar`.** Sempre que seu Bloquear falhar, reduza o dano do golpe pelo **resultado dos dados do Bloquear + sua Constituição**.
 >
-> Use somente os dados, sem os modificadores de Destreza e proteção. Um golpe transferido por Olhos Em Mim não passa por Bloquear e, portanto, não aciona esta habilidade.
+> Use somente os dados, sem os modificadores de Destreza e proteção. Também vale para um ataque assumido por Olhos Em Mim se você escolheu Bloquear e falhou. A redução não pode deixar o dano abaixo de zero.
 
 > **Nível 23: `Chega Mais`.** A área de Olhos Em Mim passa a **9 m**.
 >
@@ -2781,9 +2824,9 @@ Escolha uma Trilha no nível 2: **Muro, Punho ou Combatente Amaldiçoado**. Suas
 >
 > **Nível 11: `Guarda-Costas`.** Um aliado **adjacente a você** recebe **Cobertura Parcial: +2 na Defesa e no TR Físico**, desde que o atacante também esteja adjacente a você **ou** esteja atacando à distância.
 >
-> **Nível 19: `Casca Grossa`.** Quando receber um golpe por Olhos Em Mim, role **2d10 − 1** e acrescente sua Constituição. Reduza esse valor do dano recebido.
+> **Nível 19: `Casca Grossa`.** Quando um ataque assumido por Olhos Em Mim acertar você, depois de resolver sua Defesa ou seu Bloquear, role **2d10 − 1** e acrescente sua Constituição. Reduza esse valor do dano recebido.
 >
-> O golpe continua acertando; esta é uma redução de dano, não uma tentativa de Bloquear.
+> Esta redução se soma às reduções aplicáveis ao golpe, inclusive Duro de Matar quando seu Bloquear falhou; não concede outra tentativa de Bloquear.
 >
 > **Nível 27: `Inabalável`.** Alicerce passa a proteger contra **quatro tipos de dano**, escolhidos ao fim de cada descanso curto ou longo.
 >
@@ -2803,11 +2846,11 @@ Escolha uma Trilha no nível 2: **Muro, Punho ou Combatente Amaldiçoado**. Suas
 
 > **Nível 2: `Trocação Franca`.** Quando acertar um ataque de sua **Ação Atacar**, pode usar a **Ação Bônus** para realizar um golpe desarmado.
 >
-> Quando receber um golpe por **Olhos Em Mim**, também pode realizar um golpe desarmado contra o atacante, se ele estiver ao alcance. Esse golpe integra a Reação já gasta na transferência.
+> Quando um ataque assumido por **Olhos Em Mim** acertar você, também pode realizar um golpe desarmado contra o atacante, se ele estiver ao alcance. Esse golpe integra a Reação já gasta para assumir o ataque.
 >
 > **Nível 11: `Mão Pesada`.** Quando acertar um golpe desarmado, pode empurrar o alvo até **4,5 m** na direção escolhida, **uma vez por alvo por rodada**.
 >
-> Além disso, **uma vez por rodada**, um alvo atingido por seu golpe desarmado faz **TR de Vigor**. Na falha, fica **Derrubado**.
+> Além disso, **uma vez por rodada**, um alvo atingido por seu golpe desarmado faz **TR de Vigor contra CD 8 + sua Força + sua maestria**. Na falha, você escolhe: ele fica **Derrubado** ou **Agarrado por você**. Para agarrá-lo, ele precisa estar ao seu alcance corpo a corpo e você precisa ter uma mão livre para manter a contenção. Se também o empurrar, só pode mantê-lo Agarrado se ele continuar ao seu alcance. A condição segue suas regras normais de duração e término.
 >
 > **Nível 19: `Minha Vez`.** **Uma vez por rodada**, ao ter sucesso em Bloquear, pode gastar **2 PE** para realizar um golpe desarmado contra o atacante como **ação livre**, se ele estiver ao seu alcance.
 >
@@ -2815,7 +2858,9 @@ Escolha uma Trilha no nível 2: **Muro, Punho ou Combatente Amaldiçoado**. Suas
 >
 > Arrastão conta como Ação Atacar, mas substitui o conjunto de ataques dessa ação, sem acrescentar Ataque Extra. O empurrão de Mão Pesada se aplica normalmente.
 >
-> Você pode gastar **8 PE** para que cada alvo acertado faça seu próprio **TR de Vigor contra Derrubado**, em vez de limitar essa parte de Mão Pesada a um alvo por rodada.
+> Ao declarar Arrastão, pode pagar **2 PE por criatura atacada além da primeira** para ampliar o controle de Mão Pesada a todos os alvos acertados. Declare os alvos e pague antes das rolagens: o custo depende dos ataques tentados, mesmo que errem. Cada alvo acertado faz seu próprio **TR de Vigor**; na falha, escolha Derrubado ou Agarrado, cumprindo os requisitos de Mão Pesada.
+>
+> **Exemplo:** atacar três criaturas com a ampliação custa 4 PE; cinco custam 8 PE. O custo não muda o número de ataques permitido por Arrastão.
 
 ### Trilha: Combatente Amaldiçoado
 
@@ -2829,7 +2874,7 @@ Escolha uma Trilha no nível 2: **Muro, Punho ou Combatente Amaldiçoado**. Suas
 | 19 | Oportunista |
 | 27 | Contra a Parede |
 
-> **Nível 2: `Retaliação`.** Quando receber um golpe por **Olhos Em Mim**, pode lançar um feitiço de **Classe 0** contra o atacante, como parte da mesma Reação. O feitiço segue seus requisitos e sua própria resolução.
+> **Nível 2: `Retaliação`.** Quando um ataque assumido por **Olhos Em Mim** acertar você, pode lançar um feitiço de **Classe 0** contra o atacante, como parte da mesma Reação. O feitiço segue seus requisitos e sua própria resolução.
 >
 > Seu **PE máximo aumenta em um valor igual à sua Força**.
 >
@@ -2845,7 +2890,9 @@ Escolha uma Trilha no nível 2: **Muro, Punho ou Combatente Amaldiçoado**. Suas
 >
 > **Nível 27: `Contra a Parede`.** Enquanto estiver com **metade da vida ou menos**, sua **Ação Atacar** vem acompanhada de um feitiço de dano de **metade da sua maior Classe**, desde que você cumpra os requisitos dele.
 >
-> A metade arredonda **para baixo**. Pague o feitiço **normalmente**, sem PE a mais pela habilidade. O feitiço vem **depois do primeiro golpe**, e **não pode ser crítico**.
+> A metade arredonda **para baixo**. Escolha **o primeiro ou o segundo ataque** dessa Ação Atacar para acompanhar o feitiço. Resolva o ataque e depois o feitiço, **uma única vez na ação**, pagando o custo normal de PE e respeitando o alcance, os alvos e a resolução próprios do feitiço.
+>
+> **O feitiço não pode ser crítico, mesmo que o ataque seja. Você não pode usar Canalizar em Golpe no ataque escolhido.** O outro ataque conserva suas regras normais. Se a ação tiver apenas um ataque, o feitiço acompanha esse primeiro ataque.
 
 ## Vanguarda
 
@@ -3978,6 +4025,1495 @@ Há, no máximo, **uma Modulação Forçada por conjuração**, contando o Eco A
 
 > **Exemplo.** Conjure uma Expressão Familiar para reunir Impulso Energético. No turno seguinte, gaste-o e use Fluxo Contínuo para manter o ritmo. Na aplicação posterior, escolha entre outra descarga normal ou a combinação de Sobre Carregar Energia.
 
+## Evocador
+
+*Você conhece o potencial de suas invocações e sabe como fazê-lo aparecer. Escolhe qual delas aprimorar e emprega o vínculo para corrigir falhas, mudar sua atuação e conservar uma resposta para o momento certo.*
+
+### Características do Evocador
+
+**Características do Evocador**
+| | |
+|---|---|
+| **Vida inicial** | 6 (d6), antes da Constituição |
+| **Vida por nível** | 4 |
+| **PE por nível** | 6 |
+| **Atributos naturais** | Inteligência · Essência |
+| **Perícias fixas** | `Religião` · `Lidar com Animais` |
+| **Perícias à sua escolha** | 5, de qualquer uma da lista de perícias do sistema. Você pode trocar duas dessas escolhas por treino em uma arma específica. |
+| **Ofícios** | nenhum. Os dois vêm da sua Origem |
+| **Teste de Resistência** | 1 treinado, à sua escolha. A sua Origem treina o outro |
+| **Treino de arma** | Arma de Fogo e Balestra |
+
+*O Caminho treina você nessa lista de armas; ele não te dá a arma. O que você leva na mão você compra na criação, e as tabelas de `Preços` estão no capítulo 15, __Equipamento__.*
+
+**Vida máxima:** `(6 + Constituição) + (4 + Constituição) × (nível − 1)`.
+
+Escolha uma Trilha no nível 2. Suas entregas chegam nos níveis **2, 11, 19 e 27**. Nos níveis 11, 19 e 27, a troca de Trilha é integral: você substitui as entregas da anterior pelas da nova. Cada personagem possui um Caminho e uma Trilha.
+
+### Progressão do Caminho
+
+| Nível | Habilidade |
+|---|---|
+| 2 | Aprimoramentos e Pontos de Vínculo. |
+| 7 | Atuação Complementar. |
+| 15 | Combinar Aprimoramentos. |
+| 23 | Intervenção Eficiente. |
+| 30 | Especial Combinada. |
+
+### Antes de jogar
+
+**Aprimoramento de Vínculo** é o benefício que você mantém em uma invocação. **Intervenção de Vínculo** é um efeito pontual do catálogo. **Pontos de Vínculo** são a reserva usada para pagar essas intervenções.
+
+**Conjunto** significa você e suas invocações. A **Reação coletiva** pertence às invocações; a **Reação pessoal** pertence a você.
+
+**Usos por rodada:** renovam no começo do seu turno. Até o começo do próximo, conserve os usos marcados, inclusive durante os turnos das outras criaturas.
+
+Cada invocação usa sua ficha e cumpre sua intenção. Entrada, substituição, primeira intenção, redirecionamento, preparo, comando especial e retorno seguem o capítulo 17, *Invocações*. O Caminho altera esses procedimentos somente nos casos escritos nas suas habilidades.
+
+### Nível 2 — Aprimoramentos e Pontos de Vínculo
+
+#### Pontos de Vínculo
+
+Você começa o combate com **0 Pontos de Vínculo**. No começo de cada turno seu, enquanto consciente, recebe **1 ponto**, até o máximo de **3**.
+
+Conserve os pontos não gastos até usá-los ou o combate terminar. A reserva pertence ao conjunto.
+
+#### Escolher o aprimoramento
+
+No começo do seu turno, depois das resoluções obrigatórias de início de turno, escolha **uma invocação sua ativa que perceba a até 18 m** e um aprimoramento conhecido. A escolha é gratuita.
+
+Você mantém um aprimoramento em uma invocação por vez. Na próxima janela, pode conservar a escolha ou mudar a beneficiária, o benefício ou ambos.
+
+**Duração:** até ser substituído, a beneficiária sair do campo ou ficar inativa, ou o combate terminar. Confira alcance e percepção ao escolher ou modificar o aprimoramento.
+
+#### Usos compartilhados dos aprimoramentos
+
+Os usos pertencem ao conjunto. Registre cada benefício quando ele for aproveitado.
+
+**Uso ofensivo.** Precisão à Distância, Avanço Corpo a Corpo e Dificultar a Resistência compartilham **um uso ofensivo por rodada**: vantagem em um ataque elegível ou desvantagem no primeiro TR de um alvo contra uma especial comandada. A tentativa favorecida consome esse uso.
+
+**Proteção e perícia.** Proteção Reforçada tem um uso por rodada. A vantagem em perícia de Execução de Tarefas também tem um uso por rodada.
+
+**Movimento.** Cada benefício fica vinculado à primeira invocação que o aproveitar na rodada, enquanto ela mantiver o aprimoramento correspondente. Precisão oferece um saldo extra de 3 m; Avanço protege um trajeto; Execução de Tarefas beneficia o deslocamento inteiro da destinatária no seu turno.
+
+**Mudanças.** Mudar o aprimoramento ou a beneficiária conserva os usos marcados e os metros gastos. Benefícios diferentes podem ser usados na mesma rodada. A repetição da mesma tentativa por Corrigir uma Falha conserva a vantagem original.
+
+#### Catálogo de aprimoramentos
+
+Você conhece os quatro aprimoramentos de nível 2. No nível 7, acrescenta Dificultar a Resistência.
+
+##### Precisão à Distância — nível 2
+
+**Ataque preciso.** No seu turno, o primeiro ataque à distância de uma básica ou especial normal da invocação recebe **vantagem**, usando o benefício ofensivo da rodada.
+
+**Posicionamento.** Ela pode percorrer **até 3 m extras** no seu turno, usando uma modalidade de movimento que possua. Esse trecho tem saldo próprio, respeita terreno e impedimentos e fica disponível enquanto ela mantiver o aprimoramento. Correr usa o deslocamento normal da ficha, separado desse saldo.
+
+##### Avanço Corpo a Corpo — nível 2
+
+**Ataque preciso.** No seu turno, o primeiro ataque corpo a corpo de uma básica ou especial normal da invocação recebe **vantagem**, usando o benefício ofensivo da rodada.
+
+**Mudar de confronto.** Uma vez por rodada, ao deixar o alcance corpo a corpo de um inimigo, ela pode declarar outro inimigo percebido e um trajeto que termine numa posição de onde consiga atacá-lo corpo a corpo. Sua intenção deve permitir o trajeto, e o Movimento restante precisa bastar para concluí-lo.
+
+Durante o trajeto, ela fica protegida dos ataques de oportunidade das criaturas que está deixando para trás. O novo adversário conserva seus gatilhos normais. Uma interrupção externa encerra a travessia onde ocorrer.
+
+##### Proteção Reforçada — nível 2
+
+Uma vez por rodada, antes dos dados, escolha uma proteção para a invocação:
+
+**Contra um ataque:** imponha desvantagem à rolagem de acerto contra ela.
+
+**Contra um efeito:** faça um Teste de Resistência próprio com vantagem.
+
+As opções compartilham o mesmo uso. A proteção integra aquela tentativa, sem Reação adicional.
+
+##### Execução de Tarefas — nível 2
+
+No seu turno, a invocação recebe **vantagem no primeiro teste de perícia** feito como parte de uma básica que não cause dano.
+
+Durante esse turno, **todo o seu deslocamento ignora o custo adicional de terreno difícil**.
+
+##### Dificultar a Resistência — nível 7
+
+Quando a invocação executar uma especial ativa comandada no seu turno, escolha uma criatura afetada antes das rolagens.
+
+O **primeiro Teste de Resistência desse alvo contra a especial recebe desvantagem**, usando o benefício ofensivo da rodada.
+
+#### Catálogo de Intervenções de Vínculo
+
+Você aprende cada intervenção quando alcança o nível indicado.
+
+**Requisitos comuns:** você está consciente e percebe a destinatária ativa a até **18 m**. Ela pode ser qualquer invocação sua que cumpra os requisitos da intervenção.
+
+Cada intervenção tem **um uso por rodada para o conjunto inteiro**. Intervenções diferentes podem ser combinadas. Elas integram a janela indicada, pagando os custos escritos; as que exigem Reação coletiva indicam isso no custo.
+
+Orientações de movimento, preparo e recolhimento precisam ser percebidas e compreendidas pela invocação. A capacidade original conserva seus custos, seus requisitos e suas durações.
+
+##### Corrigir uma Falha — nível 2
+
+**1 Ponto de Vínculo · Qualquer turno.**
+
+Logo depois que uma invocação falhar num ataque de básica ou especial normal, teste de perícia ou Teste de Resistência, e antes das consequências, repita a rolagem inteira e use obrigatoriamente o novo resultado.
+
+Mantenha os modificadores, a vantagem ou desvantagem, o alvo e a dificuldade da tentativa. Com dois d20, repita os dois. A tentativa admite uma única repetição, considerando todas as fontes.
+
+O preço de **1 ponto** também vale para um ataque de especial.
+
+##### Mudar o Aprimoramento — nível 2
+
+**2 Pontos de Vínculo · Qualquer turno.**
+
+Enquanto mantiver um aprimoramento, use esta intervenção entre resoluções ou depois que uma ação for declarada, antes de sua resolução e dos dados.
+
+Escolha uma invocação sua ativa que perceba a até 18 m e um aprimoramento conhecido. Você pode mudar **a beneficiária, o benefício ou ambos**. A escolha anterior termina, e a nova segue a duração comum.
+
+Conserve os usos já marcados no conjunto.
+
+##### Superar Cobertura — nível 2
+
+**1 Ponto de Vínculo · Seu turno.**
+
+Depois de escolher o alvo e antes dos dados de um ataque à distância de básica ou especial normal da invocação, desconsidere o benefício da **Cobertura Parcial** naquele ataque.
+
+##### Reposicionar a Invocação — nível 2
+
+**1 Ponto de Vínculo e a Reação coletiva · Turno de outra criatura.**
+
+Logo depois que um inimigo percebido por você e pela invocação terminar um deslocamento voluntário, ela pode se mover **até metade de seu deslocamento**, gastando o Movimento que ainda possui.
+
+Use o deslocamento da modalidade escolhida, com seus modificadores atuais. Durante o trecho, ela fica protegida dos ataques de oportunidade daquele inimigo.
+
+Ela precisa poder reagir e cumprir sua intenção pelo trajeto. Gastar a coletiva encerra as preparações que dependiam dessa reserva, pelo procedimento de Preparar.
+
+*Exemplo: com deslocamento de 9 m e 6 m de Movimento restantes, ela pode percorrer até 4,5 m em terreno comum. Se restarem somente 3 m, esse é o limite disponível.*
+
+##### Ajustar a Preparação — nível 7
+
+**1 Ponto de Vínculo · Turno de outra criatura.**
+
+Entre resoluções, escolha uma invocação que mantenha uma especial preparada válida e mude **o alvo ou o gatilho** dessa preparação.
+
+Conserve a destinatária, a especial, o prazo e os recursos investidos. O novo gatilho corresponde a uma ocorrência futura. A execução segue os custos normais do preparo.
+
+##### Recolher sob Ataque — nível 7
+
+**2 Pontos de Vínculo e a Reação coletiva · Turno de outra criatura.**
+
+Depois de resolver inteiramente um ataque que atingiu sua invocação, com dano e consequências, recolha-a antes do próximo ataque separado.
+
+Ela precisa estar ativa, acima de zero de vida, apta a usar a coletiva e pertencer a um tipo que você possa recolher normalmente.
+
+Resolva a saída, os estados da entidade, os compromissos encerrados e sua eventual volta pelos procedimentos de recolhimento e entrada. O aprimoramento termina com a saída.
+
+### Nível 7 — Atuação Complementar
+
+**Ação Bônus · Uma vez por rodada, no seu turno · Alcance de 18 m.**
+
+Gaste sua Ação Bônus para que a invocação beneficiada por seu aprimoramento **principal** realize imediatamente uma ação da tabela.
+
+Você precisa estar consciente e percebê-la. A invocação deve estar ativa, sem Atordoado, compreender sua orientação e cumprir os requisitos da ação e de sua intenção.
+
+| Aprimoramento principal | Escolha uma ação complementar |
+|---|---|
+| Precisão à Distância | Correr, Esconder ou Desengajar. |
+| Avanço Corpo a Corpo | Correr ou Desengajar. |
+| Proteção Reforçada | Esquivar. |
+| Execução de Tarefas | Ajudar, Vasculhar, Estudar ou Usar objeto numa tarefa sem dano. |
+| Dificultar a Resistência | Desengajar ou Estudar. |
+
+Resolva essa ação antes ou depois da atuação básica da invocação, que continua disponível para seu uso normal. Os efeitos e custos próprios seguem a ação comum.
+
+Para receber os benefícios dos aprimoramentos, essa execução conta como uma básica. Registre o uso da habilidade no conjunto, separado das básicas individuais.
+
+**Principal e adicional.** A tabela é determinada somente pelo aprimoramento principal. O adicional de Combinar Aprimoramentos concede seus efeitos próprios. Mudanças de beneficiária ou principal conservam o uso já marcado de Atuação Complementar.
+
+### Nível 15 — Combinar Aprimoramentos
+
+**4 PE · Na janela de escolha ou mudança · Adicional até o começo do seu próximo turno.**
+
+Ao escolher o aprimoramento no começo do seu turno ou ao usar **Mudar o Aprimoramento**, você pode pagar **4 PE** para escolher dois aprimoramentos diferentes para a mesma invocação sua ativa que perceba a até **18 m**.
+
+Indique um como **principal** e outro como **adicional**. A invocação recebe ambos. O principal segue a duração comum; o adicional termina no começo do seu próximo turno. Para manter uma combinação na rodada seguinte, pague novamente.
+
+Enquanto a combinação durar, Mudar o Aprimoramento permite alterar a beneficiária, os dois aprimoramentos ou ambos, pelo custo normal de **2 Pontos de Vínculo**. Indique novamente o principal e conserve o prazo já pago.
+
+Os 4 PE são pagos para iniciar ou renovar a combinação. Reorganizar uma combinação ainda ativa conserva esse pagamento. Os usos dos benefícios permanecem compartilhados pelo conjunto.
+
+### Nível 23 — Intervenção Eficiente
+
+Ao receber a habilidade, escolha **Essência ou Inteligência**. Você tem usos iguais à **metade do atributo escolhido, arredondada para baixo, com mínimo de 1**. Recupere todos os usos ao concluir um descanso longo.
+
+Quando usar uma Intervenção de Vínculo, pode gastar um uso para reduzir seu custo em **1 Ponto de Vínculo, até o mínimo de zero**. Declare o desconto no momento da intervenção, sem ação adicional.
+
+Cada utilização de uma intervenção pode receber um desconto. Ela conserva seus requisitos, demais custos e limite de uso.
+
+| Atributo escolhido | Usos por descanso longo |
+|---|---:|
+| 0 a 3 | 1 |
+| 4 ou 5 | 2 |
+| 6 | 3 |
+
+### Nível 30 — Especial Combinada
+
+**Ação Completa · Uma vez por combate · Participantes a até 18 m.**
+
+Escolha a invocação beneficiada por seu aprimoramento principal e uma destas combinações:
+
+| Forma | Execuções |
+|---|---|
+| Uma invocação | A beneficiária executa duas especiais normais diferentes que conhece. |
+| Duas invocações | A beneficiária e outra invocação sua executam uma especial normal cada. |
+
+Todas as participantes precisam estar ativas, ser percebidas por você a até 18 m, compreender o comando e estar com **todas as suas básicas da rodada disponíveis**.
+
+**Declare a combinação.** Escolha as participantes, as especiais e sua ordem. Use especiais imediatas que, separadamente, seriam comandadas com sua Padrão e a básica da entidade.
+
+**Pague as ações.** Ao começar a primeira especial, gaste sua **Padrão, Bônus, Movimento e todas as básicas das participantes**. Suas três ações precisam estar disponíveis. Marque o uso da habilidade no combate.
+
+**Resolva em sequência.** Pague os PE da primeira especial e resolva-a completamente. Depois das respostas que ela provocar, a segunda começa imediatamente: escolha seus alvos, confira seus requisitos e pague os PE e demais custos dela. Cada capacidade conserva seu alcance e suas propriedades.
+
+Se uma consequência impedir a segunda execução, a combinação termina com os recursos já gastos. A Reação pessoal, a Reação coletiva e o Movimento das invocações seguem seus usos normais.
+
+Esta habilidade permite as duas especiais no mesmo turno, inclusive quando ambas têm Classe positiva. Elas ocupam suas conjurações daquele turno. Conserve os usos compartilhados dos aprimoramentos e intervenções. A orientação posterior de cada especial segue o procedimento de sua destinatária.
+
+### Exemplos de turno
+
+#### Favorecer a ave e depois o lobo
+
+Você começa com a ave aprimorada por Precisão à Distância. Ela ataca com vantagem, e você marca o uso ofensivo. Depois, paga Mudar o Aprimoramento para entregar Proteção Reforçada ao lobo. O benefício defensivo ainda pode ser usado naquela rodada.
+
+#### Combinar sem ampliar a ação auxiliar
+
+Você escolhe Precisão à Distância como principal e paga 4 PE para acrescentar Proteção Reforçada. A ave recebe ambos. Atuação Complementar continua consultando Precisão; para escolher Esquivar pela habilidade, Proteção precisa ser o principal.
+
+#### Intervir sem pontos guardados
+
+Sua invocação erra uma especial, e sua reserva de Pontos de Vínculo está vazia. Gaste um uso de Intervenção Eficiente para usar Corrigir uma Falha por zero. A repetição segue o procedimento normal.
+
+#### Dedicar o turno à combinação
+
+Você posiciona suas invocações usando os Movimentos próprios delas e conserva suas ações. Usa a Ação Completa para combinar duas especiais, pagando também todas as básicas participantes. Os PE são cobrados quando cada execução começa.
+
+### Trilha: Invocação Principal
+
+*Você concentra o potencial das invocações em uma criatura de cada vez. Ela assume mais atuações, desenvolve um repertório amplo e recebe intervenções próprias para permanecer útil na luta.*
+
+#### Progressão da Trilha
+
+| Nível | Habilidade |
+|---|---|
+| 2 | Duas Atuações Básicas e Repertório Ampliado. |
+| 11 | Intervenções da Invocação Principal. |
+| 19 | Especial de Continuidade. |
+| 27 | Intervenção Reflexa. |
+
+#### Quando a Trilha funciona
+
+Os benefícios se aplicam enquanto você mantém **exatamente uma invocação ativa**. Outras invocações podem permanecer no seu repertório.
+
+Registre na ficha de cada possível principal os acréscimos da Trilha. Quando uma capacidade tiver versão comum e versão ampliada, anote ambas e use a correspondente à situação em campo. Efeitos já resolvidos seguem suas próprias durações.
+
+Na abertura de cada turno seu, a única invocação ativa recebe sua básica comum e a atuação adicional da Trilha, desde que possa atuar. Os usos por rodada renovam no começo do seu turno e ficam registrados no conjunto.
+
+**Invocação principal** é sua única invocação ativa. **Aprimoramento principal** é o benefício escolhido pelo Caminho; ele precisa ser atribuído pelos seus próprios procedimentos.
+
+#### Nível 2 — Duas Atuações Básicas
+
+**Duas básicas no seu turno · Uma invocação ativa.**
+
+Sua invocação principal pode realizar **duas atuações básicas** no seu turno. Ela pode repetir uma capacidade conhecida ou escolher opções diferentes, seguindo sua ficha e sua intenção. Conclua uma resolução antes de começar a outra.
+
+##### Especial primeiro
+
+Para combinar uma especial normal imediata com uma básica, comande a especial **antes de gastar qualquer uma das duas básicas**.
+
+Você deve perceber a invocação a até **18 m**, e ela precisa compreender o comando. Gaste sua **Ação Padrão e a primeira básica da entidade**, pagando os PE e demais custos da especial.
+
+Depois de resolver a especial, suas respostas e a orientação posterior, ela pode executar imediatamente **uma capacidade básica própria**, usando a segunda oportunidade. Cada capacidade conserva o alcance e os requisitos escritos em sua ficha.
+
+A sequência **especial → básica** usa as duas atuações da Trilha.
+
+##### Outras escolhas
+
+Você pode usar sua Padrão pessoalmente enquanto a principal realiza duas básicas. Ela pode combinar capacidades próprias com ações gerais permitidas: atacar e Esquivar, Ajudar e realizar outra tarefa, ou outras opções compatíveis.
+
+A partir do nível 7, sua Bônus pode pagar Atuação Complementar, consultando somente o aprimoramento principal. No nível 30, Especial Combinada usa a Ação Completa do dono e todas as básicas participantes.
+
+#### Nível 2 — Repertório Ampliado
+
+A ficha da principal passa a ter **quatro Famílias Fechadas e cinco abertas**. Escolha duas das Famílias que eram Fechadas para abrir.
+
+Entre as abertas, escolha uma **Família Livre adicional**, totalizando duas. Aplique o desconto normal de montagem. As Famílias e capacidades escolhidas continuam respeitando a definição da entidade.
+
+**Nos níveis 8, 16 e 24 da invocação**, acrescente uma escolha à ficha: **uma capacidade básica, uma especial normal ou uma passiva de Classe Passiva 1**, além das quantidades normais do construtor.
+
+Registre seus efeitos, requisitos e custos. A capacidade básica ou especial segue a Classe permitida pelo nível da entidade. Toda passiva concedida por Repertório Ampliado é de **Classe Passiva 1**, inclusive nas escolhas dos níveis 16 e 24. As escolhas seguem os procedimentos normais de revisão da ficha.
+
+Essas três escolhas fazem parte da progressão de Repertório Ampliado. As entregas da Trilha continuam nos níveis 2, 11, 19 e 27.
+
+#### Substituir a principal
+
+Numa substituição direta que mantenha exatamente uma invocação ativa antes e depois, **a substituta assume os benefícios da Trilha e o saldo das duas básicas ainda disponíveis da anterior**.
+
+A substituta usa sua própria ficha. Conserve os gastos, limites compartilhados e registros de identidade. A atuação adicional precisa ter sido disponibilizada no começo do turno; a troca transmite o saldo existente.
+
+| Saldo da anterior | Saldo transmitido à substituta elegível |
+|---|---:|
+| Duas básicas disponíveis | Duas. |
+| Uma básica disponível | Uma. |
+| Ambas gastas | Zero. |
+
+O histórico de cada corpo continua valendo nos retornos, inclusive as travas de uma entidade que já atuou ou transmitiu seu saldo naquela rodada.
+
+**Mais de uma ativa.** Se uma entrada deixar duas ou mais entidades ativas, os benefícios da Trilha terminam e a oportunidade adicional ainda não usada se encerra. A básica comum de cada corpo conserva seu registro.
+
+**Entrada adicional.** A chegada que apenas acrescenta um corpo, inclusive depois de uma queda, segue o procedimento comum. As oportunidades cabíveis à única ativa renovam na próxima abertura do turno.
+
+**Aprimoramento do Caminho.** A saída encerra os aprimoramentos da anterior. A intervenção Preservar o Aprimoramento, recebida no nível 11, trata da transferência desse benefício separado.
+
+#### Nível 11 — Intervenções da Invocação Principal
+
+Você aprende as três intervenções abaixo. Elas ficam disponíveis enquanto houver exatamente uma invocação sua ativa.
+
+**Requisitos comuns:** você está consciente e percebe a destinatária a até **18 m**. Cada intervenção tem **um uso por rodada para o conjunto**, renovado no começo do seu turno.
+
+Pague os Pontos de Vínculo indicados. A intervenção integra sua janela sem outra ação ou Reação; as entradas, trocas e capacidades originais conservam seus custos.
+
+##### Proteger a Manifestação
+
+**2 Pontos de Vínculo · Qualquer turno.**
+
+Use no seu turno, entre resoluções, ou quando um ataque ou efeito que afete sua invocação for declarado, **antes da resolução e dos dados**.
+
+Ela recebe **vida temporária igual a 5 × a Classe correspondente ao nível dela**. A proteção dura **até o começo do seu próximo turno**, enquanto a criatura permanecer sua única invocação ativa.
+
+A vida temporária absorve dano antes dos PV, mantém somente a maior reserva disponível e tem teto de metade da vida máxima, arredondada para baixo.
+
+| Nível da invocação | Classe | Vida temporária antes do teto |
+|---|---:|---:|
+| 1–4 | 1 | 5 |
+| 5–8 | 2 | 10 |
+| 9–12 | 3 | 15 |
+| 13–16 | 4 | 20 |
+| 17–20 | 5 | 25 |
+| 21–25 | 6 | 30 |
+| 26–30 | 7 | 35 |
+
+*Exemplo: uma invocação de nível 11 recebe 15 de vida temporária. Com 40 PV máximos e atuais, se sofre 20 de dano que alcance essa proteção, consome os 15 temporários e fica com 35 PV. O teto de metade da vida máxima permite os 15 temporários nesse exemplo.*
+
+##### Adaptar o Aprimoramento
+
+**1 Ponto de Vínculo · Seu turno.**
+
+Depois que a invocação aprimorada terminar a primeira das duas atuações da Trilha, com suas respostas e a orientação posterior de uma especial, e enquanto a segunda estiver disponível, substitua seu aprimoramento principal por outro conhecido.
+
+Faça a mudança antes da segunda atuação. O novo benefício segue a duração comum; conserve os usos já marcados no conjunto.
+
+Com Combinar Aprimoramentos, mantenha o adicional e seu prazo. Escolha como novo principal um aprimoramento diferente do adicional. Atuação Complementar consulta o principal que estiver ativo quando for usada.
+
+##### Preservar o Aprimoramento
+
+**1 Ponto de Vínculo · Seu turno.**
+
+Quando concluir uma substituição direta da sua única invocação ativa por outra, sendo a anterior beneficiada por seu aprimoramento principal, transfira para a substituta **os aprimoramentos que a anterior mantinha imediatamente antes de sair**.
+
+A substituta deve cumprir o alcance e a percepção da intervenção. Conserve os prazos e os usos já marcados no conjunto. A troca mantém seus custos e o saldo de básicas transmitido.
+
+#### Nível 19 — Especial de Continuidade
+
+**Seu turno · Uma vez por rodada para o conjunto · Alcance do comando de 18 m.**
+
+Depois que sua única invocação ativa concluir uma especial normal imediata comandada por sua Padrão, você pode usar a **segunda básica** dela para executar **outra especial normal diferente e imediata**, em vez da capacidade básica de continuidade.
+
+A segunda especial pode ter Classe até **metade da maior Classe permitida pelo nível da invocação, arredondada para baixo, com mínimo de 1**.
+
+| Nível da entidade, acompanhando o dono | Maior Classe dela | Limite da continuação |
+|---|---:|---:|
+| 19–20 | 5 | Classe 2. |
+| 21–25 | 6 | Classe 3. |
+| 26–30 | 7 | Classe 3. |
+
+Escolha essa especial e seus alvos **depois de resolver a primeira, suas respostas e a orientação posterior**. Você precisa perceber a entidade a até 18 m; ela deve compreender o comando e continuar apta a executar.
+
+Resolva a continuação imediatamente, usando a básica restante e pagando seus PE e demais custos. O comando original cobre as duas especiais. Esta habilidade permite executá-las no mesmo turno, inclusive quando ambas têm Classe positiva, e elas ocupam seu limite de conjurações naquele turno. Cada capacidade conserva seu alcance e suas propriedades.
+
+As duas básicas precisam estar disponíveis antes do comando da primeira especial, como no nível 2. Os usos compartilhados dos aprimoramentos e intervenções continuam marcados.
+
+#### Nível 27 — Intervenção Reflexa
+
+**Reação pessoal · Uma vez por rodada para o conjunto · Alcance de 18 m.**
+
+Enquanto mantiver exatamente uma invocação ativa, você pode gastar sua **Reação pessoal em vez dos Pontos de Vínculo** para usar uma destas intervenções:
+
+| Intervenção elegível | Origem |
+|---|---|
+| Proteger a Manifestação | Trilha. |
+| Adaptar o Aprimoramento | Trilha. |
+| Preservar o Aprimoramento | Trilha. |
+| Corrigir uma Falha | Caminho. |
+
+Use a intervenção na sua janela, cumprindo seus requisitos e limites. O efeito e a duração permanecem iguais.
+
+Marque o uso da intervenção escolhida e de Intervenção Reflexa. Eles renovam no começo do seu próximo turno. A Reação coletiva continua pertencendo às invocações.
+
+#### Exemplos de jogo
+
+##### A principal luta enquanto você age
+
+Você usa sua Padrão para conjurar pessoalmente. A principal realiza suas duas básicas, respeitando sua intenção. Com Atuação Complementar, pode investir sua Bônus numa tarefa auxiliar permitida pelo aprimoramento principal.
+
+##### Especial seguida de escolha
+
+Você comanda a especial antes de gastar as básicas. Depois da resolução, decide conservar energia com a básica própria ou, a partir do nível 19, pagar a especial menor de continuidade.
+
+##### Mudar a função entre atuações
+
+A ave executa a primeira especial com Precisão à Distância. Você usa Adaptar o Aprimoramento para passar a Proteção Reforçada. A ave realiza a segunda atuação e conserva a proteção para a próxima ameaça pertinente.
+
+##### Trocar sem renovar o saldo
+
+Sua principal ainda tem uma básica e mantém dois aprimoramentos. Você paga a substituição: a nova criatura recebe a básica restante pelos benefícios da Trilha. Se também pagar Preservar o Aprimoramento, recebe os dois benefícios com o prazo anterior, mantendo todos os usos já consumidos.
+
+##### Escolher onde gastar sua Reação
+
+No nível 27, você pode dedicar sua Reação pessoal a Proteger a Manifestação antes de um ataque ou a Corrigir uma Falha na janela da tentativa. Depois de utilizá-la, outras intervenções ainda podem ser pagas pelos Pontos de Vínculo disponíveis, respeitando seus usos próprios.
+
+### Trilha: Parceria
+
+*Você e suas invocações combinam atuações diferentes. Uma especial abre espaço para seu golpe; outra escolha concentra o ataque em você; uma criatura que ficou em apoio conserva uma resposta contra quem o atingir.*
+
+#### Progressão da Trilha
+
+| Nível | Habilidade |
+|---|---|
+| 2 | Entrada Ágil, Treino de Combate, Repertório de Parceria e Aprimoramentos de Parceria. |
+| 11 | Intervenções de Parceria. |
+| 19 | Técnicas em Conjunto. |
+| 27 | Resposta Técnica da Dupla. |
+
+A Trilha funciona com uma ou duas invocações, usando o teto comum do Caminho. Seus usos por rodada renovam no começo do turno do invocador e permanecem registrados no conjunto nas mudanças de beneficiária.
+
+#### Nível 2 — Abertura da Parceria
+
+##### Entrada Ágil
+
+No seu turno, você pode usar uma **Ação de Movimento inteira e ainda disponível**, em vez da Ação Bônus, para manifestar ou ativar **uma invocação numa entrada que acrescente um corpo ativo ao campo**.
+
+Pague os PE e siga a posição, a primeira intenção e a disponibilidade de recursos da entrada adicional. Substituição e recolhimento seguem seus procedimentos habituais.
+
+##### Treino de Combate
+
+Escolha uma **categoria de armas** e receba treino com suas armas.
+
+##### Repertório de Parceria
+
+Para cada invocação, escolha uma de suas Famílias Fechadas para abrir. A ficha passa a ter **cinco Famílias Fechadas, quatro abertas e uma Livre**.
+
+Registre a escolha e as capacidades compatíveis com a definição da entidade. As quantidades normais de capacidades e passivas seguem o construtor.
+
+##### Aprimoramentos de Parceria
+
+Acrescente os três aprimoramentos abaixo ao catálogo do Caminho. Cada um é atribuído à invocação pela janela e pela duração normais de Aprimoramentos de Vínculo.
+
+**Usos compartilhados:** os três efeitos usam o benefício ofensivo dos aprimoramentos, uma vez por rodada para o conjunto, renovado no começo do turno do invocador. Marque o uso quando iniciar a execução concedida — o ataque ou, a partir do nível 19, o feitiço que o substitui. Os usos anteriores permanecem registrados nas mudanças e trocas.
+
+Os ataques do invocador usam sua própria posição, ficha e equipamento. São ataques individuais com arma ou desarmados. O uso de Golpe Acompanhado é registrado como básica ofensiva gasta da entidade.
+
+###### Acompanhar a Especial
+
+**Seu turno · Ação Bônus do invocador.**
+
+Depois que a beneficiária concluir uma especial normal no seu turno, incluindo suas respostas e a orientação posterior, você pode gastar sua **Ação Bônus** para realizar imediatamente **um ataque com arma ou desarmado** contra um alvo ao seu alcance.
+
+Confira a capacidade de agir do personagem e resolva o ataque com sua ficha. A especial mantém seus próprios custos.
+
+###### Golpe Acompanhado
+
+**Seu turno · Básica disponível da invocação.**
+
+Escolha um inimigo que você consiga atacar e que a beneficiária possa alcançar com uma capacidade básica ofensiva própria, a partir das posições atuais. A criatura precisa perceber o alvo e poder participar contra ele conforme sua intenção.
+
+Gaste a **básica da invocação** para realizar imediatamente **um ataque seu com arma ou desarmado, com vantagem**.
+
+Resolva uma rolagem e o dano de seu ataque. Registre a básica da entidade como gasta e o uso ofensivo do aprimoramento no conjunto.
+
+###### Resposta ao Agressor
+
+**Turno de outra criatura · Reação coletiva.**
+
+Depois de resolver um ataque que acertou o invocador, a beneficiária pode gastar a **Reação coletiva** para executar imediatamente **uma capacidade básica própria ofensiva contra o agressor**.
+
+A invocação precisa perceber o agressor, poder reagir e alcançá-lo com essa capacidade. Desde o começo do último turno do invocador, ela deve ter permanecido **sem atacar, executar especial ou participar de Golpe Acompanhado**.
+
+A resposta é paga com a Reação coletiva e os custos próprios da capacidade. Uma básica sem ataque realizada anteriormente, como Ajudar ou Esquivar, é compatível com a resposta. A execução reativa é adicional e usa a coletiva; a básica já utilizada permanece gasta.
+
+
+#### Atuação Complementar — interação com o nível 7 do Caminho
+
+A habilidade do Caminho continua consultando somente o aprimoramento principal. Para tornar os novos cartões utilizáveis nela, utilize estas linhas:
+
+| Principal | Ações complementares |
+|---|---|
+| Acompanhar a Especial | Correr ou Desengajar. |
+| Golpe Acompanhado | Correr ou Desengajar. |
+| Resposta ao Agressor | Esquivar. |
+
+Cada utilização continua pagando a Bônus e marcando o uso compartilhado de Atuação Complementar.
+
+#### Exemplos
+
+##### Especial e golpe do dono
+
+A ave mantém Acompanhar a Especial. Você comanda sua especial pela Padrão e pela básica da ave, pagando os PE. Depois, usa sua Bônus para um ataque com sua arma. Se houver uma segunda invocação, ela conserva a básica normal.
+
+##### Técnica e ataque acompanhado
+
+O lobo mantém Golpe Acompanhado. Você usa sua Padrão para uma técnica pessoal. Depois, gasta a básica do lobo para realizar um ataque próprio com vantagem contra um inimigo alcançável pelos dois. A Bônus continua disponível para outra utilização legal.
+
+##### Apoio e resposta
+
+O lobo mantém Resposta ao Agressor. Ele usa a básica em Ajudar numa tentativa que possa apoiar legalmente. Depois, no turno inimigo, você é atingido. Se os requisitos ainda forem cumpridos, o lobo usa a coletiva para executar sua básica ofensiva contra o agressor. A ação de apoio anterior é compatível com essa resposta.
+
+---
+
+#### Nível 11 — Intervenções de Parceria
+
+*Vocês abrem espaço um para o outro, corrigem a execução conjunta e se protegem quando a distância permite.*
+
+Você aprende as três intervenções abaixo.
+
+**Requisitos comuns:** você está consciente e percebe a invocação participante ativa a até **18 m**. Cada uso envolve você e **uma** invocação, que pode ser qualquer uma das suas ativas. A entidade precisa perceber o acontecimento ao qual responde e cumprir os requisitos de sua participação.
+
+**Usos:** cada intervenção fica disponível uma vez por rodada para o conjunto. Os usos renovam no começo do seu turno. Corrigir o Ataque Conjunto compartilha especificamente seu uso com Corrigir uma Falha.
+
+##### Abrir Espaço para o Parceiro
+**1 Ponto de Vínculo · Seu turno · Sem outra ação ou Reação**
+
+Depois que você ou a invocação participante resolver um ataque contra um inimigo, o outro participante pode se mover **até metade de seu deslocamento**, gastando o Movimento que ainda possui.
+
+Durante esse trecho, quem se move fica protegido dos ataques de oportunidade do inimigo atacado. O trajeto respeita terreno, impedimentos e, para a invocação, sua intenção.
+
+Se o ataque fizer parte de uma especial, conclua a especial e suas respostas. Resolva esta movimentação antes do possível **Acompanhar a Especial**.
+
+*Exemplo: a ave executa uma especial ofensiva. Você usa a abertura para percorrer até 4,5 m de seu Movimento restante e alcançar uma posição para o ataque de arma que pretende pagar com a Bônus.*
+
+##### Corrigir o Ataque Conjunto
+**1 Ponto de Vínculo · Seu turno · Sem outra ação ou Reação**
+
+Quando você errar o ataque concedido por **Acompanhar a Especial** ou **Golpe Acompanhado**, antes das consequências, a invocação participante ajuda a corrigir a execução. Repita sua rolagem inteira e use o novo resultado.
+
+Aplique o procedimento de **Corrigir uma Falha**, conservando alvo, dificuldade, modificadores e vantagem ou desvantagem. Marque o uso compartilhado entre estas duas intervenções.
+
+*Exemplo: você erra Golpe Acompanhado mesmo com vantagem. Paga um ponto e repete os dois d20, conservando a mesma tentativa. A correção da rodada fica utilizada pelo conjunto.*
+
+##### Cobrir o Parceiro
+**1 Ponto de Vínculo e a Reação de quem protege, ou 2 Pontos de Vínculo · Qualquer turno**
+
+Quando um inimigo percebido pelos dois declarar um ataque contra você ou contra a invocação participante, **antes da rolagem de acerto**, o outro pode cobrir o alvo se estiver a até **3 m** dele e apto a reagir.
+
+Aquela rolagem de ataque recebe **desvantagem**. Escolha o pagamento ao usar a intervenção:
+
+- **1 Ponto de Vínculo e a Reação de quem cobre:** sua Reação pessoal quando você protege; a Reação coletiva quando a invocação protege.
+- **2 Pontos de Vínculo:** a proteção dispensa o gasto e a disponibilidade dessa reserva de Reação.
+
+A proteção vale para aquela tentativa. Marque o uso de Cobrir o Parceiro no conjunto.
+
+*Exemplo: o lobo ajudou no seu turno e conserva Resposta ao Agressor. Você paga dois pontos para ele cobrir você. Se o ataque ainda acertar, o lobo pode responder pela Reação coletiva, cumprindo os requisitos do aprimoramento.*
+
+
+#### Nível 19 — Técnicas em Conjunto
+
+**Ação Bônus · Seu turno · Integra Acompanhar a Especial.**
+
+Quando a invocação beneficiada por **Acompanhar a Especial** concluir uma especial normal no seu turno, incluindo suas respostas e a orientação posterior, você pode usar a **Ação Bônus para conjurar um feitiço conhecido que normalmente utilize Ação Padrão**, em lugar do ataque concedido por esse aprimoramento.
+
+O feitiço pode ter Classe até **metade da sua maior Classe disponível, arredondada para baixo**. A Classe final utilizada na conjuração, inclusive após Ampliar, precisa caber nesse limite.
+
+Escolha a aplicação e seus alvos depois de resolver a especial e confira os requisitos a partir de sua própria posição. Pague os PE e demais custos normais. A invocação conserva os custos e o alcance da especial que executou.
+
+A continuação usa o mesmo benefício ofensivo compartilhado de Acompanhar a Especial. Quando a continuação for de Classe positiva, esta habilidade autoriza a especial da invocação e o feitiço pessoal no mesmo turno; os dois ocupam suas conjurações daquele turno.
+
+| Nível do invocador | Sua maior Classe | Limite da continuação |
+|---|---:|---:|
+| 19–20 | 5 | Classe 2 |
+| 21–25 | 6 | Classe 3 |
+| 26–30 | 7 | Classe 3 |
+
+**Exemplo:** no nível 19, a invocação executa sua especial de Classe 5. Você escolhe depois uma aplicação pessoal de até Classe 2, paga sua Bônus e o PE do feitiço, e o resolve. Outra invocação conserva sua básica normal.
+
+#### Nível 27 — Resposta Técnica da Dupla
+
+*Quando um de vocês recebe o golpe, o outro responde com uma aplicação da própria técnica.*
+
+**Reação de quem executa · Uma vez por combate · Turno de outra criatura · Invocação a até 18 m.**
+
+Depois de resolver um ataque inimigo que acertou você ou a invocação beneficiada por seu aprimoramento principal, o outro participante pode executar uma resposta técnica contra o agressor.
+
+Você precisa estar consciente. Ambos precisam perceber o agressor; a invocação deve estar ativa e ser percebida por você a até **18 m**. Quem responde precisa estar apto a reagir e ter sua Reação disponível.
+
+| Quem foi atingido | Resposta e pagamento | Limite de Classe |
+|---|---|---|
+| Você | A invocação executa uma especial normal imediata, por seu comando, pagando a **Reação coletiva**. Ela precisa compreender sua condução. | **Maior Classe permitida pelo nível dela menos 1.** |
+| A invocação | Você conjura um feitiço normal imediato que normalmente utilize Ação Padrão, pagando sua **Reação pessoal**. | **Metade da sua maior Classe disponível, arredondada para cima.** |
+
+Escolha uma capacidade conhecida que possa afetar o agressor. Confira a Classe efetivamente utilizada, inclusive após Ampliar, e os requisitos e alcance a partir de quem executa.
+
+A Reação indicada paga essa execução adicional, mesmo depois das atuações anteriores da rodada. Pague os PE e os demais custos próprios da capacidade quando a resposta começar e marque o uso da habilidade no combate.
+
+Resolva a capacidade normalmente. Conserve os usos já marcados dos Aprimoramentos e das Intervenções de Vínculo.
+
+##### Exemplos
+
+**Você foi atingido.** Com a invocação no nível 27, ela conhece especiais de até Classe 7 e pode responder com uma de até **Classe 6**, usando a coletiva e pagando o custo da especial. Sua Reação pessoal permanece disponível se ainda não foi utilizada.
+
+**A invocação foi atingida.** No nível 27, sua maior Classe é 7: você pode responder com um feitiço de até **Classe 4**, usando sua Reação pessoal. A disponibilidade da coletiva não é requisito para essa resposta pessoal.
+
+**Conservar recursos.** Cobrir o Parceiro por dois pontos preserva as Reações. Se o ataque ainda acertar e os requisitos continuarem satisfeitos, a dupla pode responder pela modalidade correspondente. O uso por combate pertence ao conjunto, mesmo que a beneficiária seja substituída.
+
+### Trilha: Múltiplas Invocações
+
+*Você reúne criaturas com funções diferentes. Algumas enfrentam a ameaça; outras preparam posições, protegem o portador e permitem que o repertório do grupo trabalhe em conjunto.*
+
+#### Progressão da Trilha
+
+| Nível | Habilidade |
+|---|---|
+| 2 | Conjunto Ampliado, Famílias do Conjunto, Manifestação em Grupo, Entrada Ágil e Aquisição em Duplas. |
+| 11 | Intervenções do Conjunto. |
+| 19 | Aprimoramentos Distribuídos. |
+| 27 | Formação Renovada e Repertório do Conjunto. |
+
+Os usos por rodada renovam no começo do seu turno. O conjunto conserva esses registros quando as criaturas entram, saem ou são substituídas.
+
+#### Nível 2 — Conjunto Ampliado
+
+**Durante o combate**, seu limite é de **quatro invocações ativas**. Fora dele, use o limite comum de duas.
+
+Cada invocação conserva ficha, básica e Movimento próprios. O conjunto tem uma Reação coletiva, separada da sua Reação pessoal.
+
+##### Atuação ofensiva
+
+O conjunto pode executar **uma atuação básica que cause dano e uma especial comandada por rodada**. A especial ocupa a básica de sua destinatária e cobra a Padrão do invocador e seus custos próprios; outra entidade pode realizar a básica ofensiva. As demais atuações básicas trabalham capacidades e ações sem dano.
+
+Os usos são compartilhados e renovam no começo do turno do invocador. Transferências e substituições conservam os registros.
+
+A exceção expressa de **Especial Combinada**, do nível 30 do Caminho, continua permitindo as duas especiais de seu próprio procedimento.
+
+
+#### Nível 2 — Famílias do Conjunto
+
+Para cada invocação, escolha uma Família Fechada para abrir. Sua ficha passa a ter **cinco Famílias Fechadas e quatro abertas**, mantendo **uma Família Livre**.
+
+Registre a escolha e as capacidades que respeitem a definição da entidade.
+
+#### Nível 2 — Manifestação em Grupo
+
+**Ação Bônus · Seu turno.** Escolha uma operação:
+
+| Operação | Quantidade |
+|---|---|
+| Entrada adicional | Manifestar ou ativar até duas entidades. |
+| Substituição | Realizar até duas substituições diretas. |
+| Recolhimento | Recolher ou desativar até duas entidades, conforme seu tipo. |
+
+Nas duas substituições, declare os pares antes de resolver: quem sai e quem assume seu lugar. Cada par transmite a básica restante e legalmente transferível de sua antecessora. Conserve o histórico de identidade e os usos já marcados do conjunto.
+
+A orientação incluída na substituição acompanha cada par. As entradas adicionais seguem sua própria primeira intenção e a disponibilidade normal de básicas.
+
+Pague o PE de cada entrada ou retorno. Confira a posição e os requisitos de cada entidade.
+
+#### Nível 2 — Entrada Ágil
+
+**Ação de Movimento · Seu turno.** Use uma Ação de Movimento inteira e ainda disponível para manifestar ou ativar uma entidade por entrada adicional, em vez da Bônus.
+
+Pague seu PE e siga os outros procedimentos da entrada. Substituir e recolher usam suas ações próprias.
+
+#### Nível 2 — Aquisição em Duplas
+
+Os **dois primeiros espaços de feitiço conhecido** que você comprometer para obter invocações concedem **duas entidades cada**. Os espaços seguintes seguem a proporção comum.
+
+Identifique os espaços e as respectivas duplas na ficha. As criaturas seguem a origem de aquisição por espaço, inclusive seu nível e sua progressão.
+
+No nível 2, comprometer dois dos três espaços disponíveis permite adquirir quatro entidades e conservar um espaço para outra escolha legal. Ter quatro no repertório é diferente de ter quatro já manifestadas antes da iniciativa.
+
+#### Repertório na abertura
+
+Use as quantidades e a progressão normais das capacidades e passivas da entidade, além da Família aberta por esta Trilha. As escolhas adicionais de Repertório do Conjunto são recebidas no nível 27.
+
+
+---
+
+#### Nível 11 — Intervenções do Conjunto
+
+Você aprende as quatro intervenções abaixo.
+
+**Requisitos comuns:** você está consciente e percebe as invocações participantes ativas a até **18 m**. Elas precisam perceber a situação e compreender a orientação necessária à participação. Cada intervenção tem **um uso por rodada para o conjunto**, renovado no começo do seu turno.
+
+Pague os custos indicados junto dos custos normais das capacidades envolvidas. As intervenções de proteção exigem que a invocação protetora possa reagir. Os aprimoramentos e as outras intervenções conservam seus usos compartilhados.
+
+##### Dificultar o Ataque
+
+**1 Ponto de Vínculo e Reação coletiva · Qualquer turno.**
+
+Quando um ataque contra você ou um aliado seu — incluindo outra invocação — for declarado, **antes da rolagem de acerto**, escolha uma invocação protetora diferente do alvo, que perceba o agressor e esteja a até **4,5 m da criatura atacada**.
+
+A protetora interfere no ataque. Aquela rolagem recebe **desvantagem**.
+
+*Exemplo: a guardiã está a 3 m de um aliado da equipe. Antes dos dados do ataque contra ele, você paga um ponto e ela gasta a coletiva para dificultar a tentativa.*
+
+##### Proteger um Aliado
+
+**1 Ponto de Vínculo e Reação coletiva · Qualquer turno.**
+
+Antes de você ou um aliado seu — incluindo outra invocação — realizar um **Teste de Resistência contra um projétil visível ou um efeito em área**, escolha uma invocação protetora diferente do protegido, que perceba o efeito e esteja a até **4,5 m dele**.
+
+A invocação protege essa criatura durante a resolução. Aquele Teste de Resistência recebe **vantagem**.
+
+*Exemplo: uma explosão alcança dois companheiros. A guardiã cobre um deles, a 4,5 m dela, favorecendo o teste escolhido. A intervenção usa sua única Reação coletiva disponível.*
+
+##### Conduzir a Especial
+
+**1 Ponto de Vínculo e a básica de uma segunda invocação · Seu turno.**
+
+Ao comandar uma especial normal imediata de uma invocação, antes de escolher os alvos, escolha outra participante com uma básica disponível para servir de origem à aplicação.
+
+**A segunda invocação precisa estar dentro do alcance da própria especial, medido a partir da executora, antes de mudar a origem.** A executora precisa perceber esse ponto de manifestação. Ambas também cumprem o alcance comum de 18 m em relação a você.
+
+Gaste a básica da segunda invocação. A especial se manifesta a partir da posição dela: meça dali o alcance até os alvos, a área e a direção.
+
+**Precisão da cooperação.** Depois de escolher os alvos e antes de qualquer rolagem da especial, escolha um dos benefícios: **vantagem em uma rolagem de ataque da especial** ou **desvantagem no primeiro Teste de Resistência de um alvo contra essa execução**.
+
+A executora usa sua ficha e cumpre os requisitos de percepção, trajeto, Forma e Restrições da capacidade. Ela paga sua básica; você paga a Padrão do comando. Os PE e demais custos seguem o procedimento normal da especial.
+
+Cada especial continua sendo uma única execução e marca os usos do conjunto normalmente. A precisão pertence à intervenção Conduzir a Especial; os usos de Aprimoramento de Vínculo continuam em seus registros próprios.
+
+*Exemplo: uma especial com alcance de 9 m pode ser conduzida por uma invocação situada a até 9 m da executora. Seus alvos precisam estar a até 9 m da nova origem. A apoiadora gasta a básica, e você indica antes dos dados o ataque ou TR favorecido.*
+
+##### Retirada em Conjunto
+
+**1 Ponto de Vínculo · Seu turno.**
+
+Depois que uma invocação participante usar sua básica para **Desengajar**, escolha outra invocação sua ativa a até **9 m** dela, também dentro do alcance comum da intervenção.
+
+A segunda recebe o efeito de **Desengajar até o fim do seu turno**. Ela usa seu Movimento e sua básica nos momentos normais.
+
+*Exemplo: a serpente usa sua básica para Desengajar e cobre a retirada da ave, a 7,5 m dela. A ave pode sair do confronto usando seu próprio Movimento e conservar sua básica para uma especial comandada ou outra tarefa.*
+
+---
+
+#### Um turno com quatro corpos
+
+A ave executa a especial, o auxiliar gasta sua básica para conduzi-la e o cão realiza a única básica ofensiva do conjunto. Uma quarta invocação conserva sua atuação para outra tarefa.
+
+Quando surgir uma ameaça, uma protetora pode usar a Reação coletiva em Dificultar o Ataque ou Proteger um Aliado. Os dois usos disputam a mesma reserva coletiva, como as outras respostas das invocações.
+
+Em outra rodada, uma criatura pode usar Desengajar e compartilhar a retirada com outra a até 9 m. A composição do grupo determina quem oferece a capacidade, quem oferece a posição e quem protege o portador.
+
+---
+
+#### Nível 19 — Aprimoramentos Distribuídos
+
+**Escolha gratuita no começo do seu turno · Até duas invocações ativas percebidas a até 18 m.**
+
+Na janela normal de escolha dos Aprimoramentos de Vínculo, atribua **um aprimoramento principal diferente a cada uma de até duas invocações suas**. Cada escolha segue a duração comum do Caminho.
+
+**Usos compartilhados.** Conserve o único uso ofensivo dos aprimoramentos e os registros de proteção, perícia e movimento do conjunto. Marque os benefícios quando forem aproveitados; eles renovam no começo do seu próximo turno.
+
+**Mudar uma escolha.** Pelo custo normal de **2 Pontos de Vínculo**, Mudar o Aprimoramento modifica uma das escolhas por uso. Indique a escolha e altere seu benefício, sua destinatária ou ambos. Se a nova destinatária já mantiver outra escolha, encerre a anterior dela. O novo principal deve ser diferente dos demais principais que permanecerem ativos. A escolha que não for alterada conserva seus efeitos.
+
+**Atuação Complementar.** Ao usar a habilidade, escolha uma das beneficiárias e consulte a tabela do principal dela. O custo continua sendo sua Bônus, com um uso por rodada para o conjunto.
+
+**Combinar Aprimoramentos.** Você pode pagar **4 PE** para manter **um adicional em uma das duas beneficiárias**, até o começo do seu próximo turno. O adicional pode repetir o principal da outra criatura, conservando o mesmo registro compartilhado de uso. Ele deve ser diferente do principal da própria beneficiária. Ao modificar uma combinação pela intervenção, conserve o prazo já pago.
+
+**Entradas e saídas.** A escolha gratuita acontece no começo do seu turno. Quando uma beneficiária sair ou ficar inativa, somente sua escolha termina; as outras continuam pela duração comum. As oportunidades de básica e os saldos de substituição seguem seus próprios procedimentos.
+
+**Especial Combinada.** No nível 30 do Caminho, escolha uma das beneficiárias de principal como a participante exigida pelo comando. A habilidade conserva a Ação Completa, todas as básicas participantes e seus custos normais.
+
+##### Exemplo
+
+A atiradora recebe Precisão à Distância e a executora da especial recebe Proteção Reforçada. Uma terceira invocação pode conduzir a especial, pagando a básica e o ponto da intervenção e oferecendo a precisão própria dela. A atiradora usa a única básica ofensiva; a executora conserva a proteção para uma tentativa posterior. Os usos ofensivos dos aprimoramentos continuam compartilhados.
+
+#### Nível 27 — Formação Renovada
+
+**Uma vez no começo do seu turno, em combate · Sem ação adicional.**
+
+Depois de resolver os efeitos e as atuações obrigatórias de início de turno e antes de escolher seus Aprimoramentos de Vínculo, estando consciente, escolha uma operação:
+
+| Operação | O que você faz |
+|---|---|
+| Entrada adicional | Manifeste ou ative uma invocação dentro do limite de campo. |
+| Substituição direta | Retire uma invocação ativa e coloque outra em seu lugar. |
+
+Pague os **PE normais da entrada ou retorno**. Confira a legalidade, a posição de chegada e os requisitos dos tipos envolvidos pelo capítulo de Invocações.
+
+**Entrada pronta.** Na entrada adicional feita por Formação Renovada, a entidade recebe **uma básica disponível para a rodada**, se suas condições permitirem e ela ainda não tiver usado, investido ou transferido sua básica nessa rodada. A primeira intenção segue seu procedimento normal.
+
+**Substituição.** A substituta recebe somente a básica ainda disponível e legalmente transferível da antecessora. Conserve os registros de identidade, o Movimento de cada corpo e todos os usos compartilhados.
+
+Depois da operação, faça a escolha gratuita dos aprimoramentos; a recém-chegada pode ser uma das duas beneficiárias do nível 19.
+
+##### Exemplo — completar o grupo
+
+Você começa o turno com três invocações ativas. Depois dos efeitos obrigatórios, usa Formação Renovada para trazer uma quarta e paga sua entrada. A nova criatura recebe a básica prevista por esta habilidade e pode ser escolhida para um aprimoramento.
+
+Você pode orientá-la com sua Bônus ou comandar uma especial pela Padrão quando cumprir os requisitos, aplicando a orientação posterior normal. As demais entradas feitas nesse turno seguem seus próprios procedimentos.
+
+##### Exemplo — mudar a composição
+
+Uma invocação ferida já não oferece as capacidades de que você precisa. Na abertura do turno, substitua-a por uma reserva apropriada e pague os PE dessa entrada. A nova criatura assume o saldo de básica elegível; em seguida, escolha os aprimoramentos considerando a nova composição. Sua Bônus permanece disponível para outra utilização legal.
+
+#### Nível 27 — Repertório do Conjunto
+
+Ao receber esta habilidade, escolha **Essência ou Inteligência**. Cada uma de suas invocações recebe uma quantidade de escolhas adicionais igual à **metade do valor permanente do atributo escolhido, arredondada para baixo**.
+
+Para cada escolha, acrescente à ficha **uma capacidade básica de Classe 0, uma especial normal ou uma passiva de Classe Passiva 1**.
+
+As capacidades respeitam a definição, as Famílias, a montagem e a Classe permitida pelo nível da própria entidade. A metade do atributo determina a quantidade de escolhas; a Classe das capacidades ativas continua sendo a que o nível da invocação permite.
+
+| Valor permanente do atributo | Escolhas adicionais por invocação |
+|---|---:|
+| 0 ou 1 | 0 |
+| 2 ou 3 | 1 |
+| 4 ou 5 | 2 |
+| 6 | 3 |
+
+Registre as escolhas na ficha. Ao entrar ou ser substituída, a invocação utiliza esse repertório registrado. A capacidade é executada com suas ações, PE, requisitos e limites próprios.
+
+Uma entidade adquirida depois recebe as escolhas ao ser registrada. Se um aumento permanente do atributo elevar a quantidade, complete as escolhas adicionais. Alterações temporárias conservam o repertório registrado.
+
+##### Exemplo — funções complementares
+
+Com Essência 6 escolhida, cada invocação recebe três escolhas adicionais. Uma pode desenvolver especiais de proteção; outra, capacidades básicas utilitárias; uma terceira, passivas de Classe Passiva 1 coerentes com sua definição.
+
+Em cada rodada, você decide qual composição precisa estar em campo e pode usar Formação Renovada para realizar uma entrada ou substituição. Permanecem o limite de uma básica com dano e uma especial comandada, os usos compartilhados e a exceção de Especial Combinada do nível 30.
+
+## Incursor
+
+*Você atravessa o confronto, aproveita uma abertura e decide quando avançar ou conservar uma resposta. Fluidez sustenta essas escolhas; a Trilha determina como você luta.*
+
+### Características do Incursor
+
+**Características do Incursor**
+| | |
+|---|---|
+| **Vida inicial** | 6 (d6), antes da Constituição |
+| **Vida por nível** | 4 |
+| **PE por nível** | 6 |
+| **Atributos naturais** | Destreza · Força |
+| **Perícias fixas** | `Acrobacia` · `Intuição` |
+| **Perícias à sua escolha** | 5, de qualquer uma da lista de perícias do sistema. |
+| **Ofícios** | nenhum. Os dois vêm da sua Origem |
+| **Teste de Resistência** | 1 treinado, à sua escolha. A sua Origem treina o outro |
+| **Treino de arma** | **as treze categorias**: Simples, Marciais e Arma de Fogo |
+
+*O Caminho treina você nessa lista de armas; ele não te dá a arma. O que você leva na mão você compra na criação, e as tabelas de `Preços` estão no capítulo 15, __Equipamento__.*
+
+**Vida máxima:** `(6 + Constituição) + (4 + Constituição) × (nível − 1)`.
+
+Escolha uma Trilha no nível 2. Suas entregas chegam nos níveis **2, 11, 19 e 27**. A troca de Trilha nos níveis permitidos é integral: substitua os benefícios da anterior pelos da nova. Você mantém um Caminho e uma Trilha.
+
+### Progressão do Caminho
+
+| Nível | Habilidades |
+|---|---|
+| 2 | Agilidade de Combate, Movimento Acrobático e Fluidez. |
+| 7 | Duas obtenções de Fluidez e Correr ou Esquivar pela Bônus. |
+| 15 | Melhorias de Fluidez e Passo Guardado. |
+| 23 | Retomar o Ritmo e Movimento Acrobático ampliado. |
+| 30 | Um Passo à Frente. |
+
+Uma Reação pessoal se renova no começo do seu turno. Os usos que exigem Reação disputam essa mesma reserva. **Bloquear não gasta Reação.** A virada da rodada global não renova Fluidez nem seus usos.
+
+### Nível 2 — Agilidade de Combate
+
+Durante seu turno, você pode usar **Desengajar ou Esconder como Ação Bônus**. Esconder continua exigindo as condições e os testes normais. Essas ações não geram Fluidez por si mesmas.
+
+### Nível 2 — Movimento Acrobático
+
+Seu deslocamento aumenta em **3 m**. Um deslocamento comum de 9 m passa a 12 m.
+
+Durante seu movimento, pode percorrer até **metade do seu deslocamento** por paredes ou atravessando espaços ocupados por criaturas de até uma categoria de tamanho maior que você. Esse limite é compartilhado pelos trechos acrobáticos.
+
+Termine o trecho em um espaço livre com apoio normal. Isso usa seu movimento disponível, não aumenta a distância que pode percorrer e não impede ataques de oportunidade. Não exige PE, Fluidez ou uma ação adicional. Obstáculos, testes necessários e demais regras de movimento continuam valendo.
+
+### Nível 2 — Fluidez
+
+Você ganha Fluidez quando:
+
+- **Acerta uma criatura hostil**, durante seu turno, com um ataque de arma ou desarmado.
+- **Uma criatura hostil erra um ataque contra você.**
+
+Pode ganhar Fluidez **uma vez entre o começo de um turno seu e o começo do próximo**. O limite de obtenções é renovado no começo do seu turno.
+
+Guarda apenas uma Fluidez por vez. Se já estiver com ela, um novo acerto ou erro inimigo não acumula outra nem fica reservado para depois; esse evento não consome uma obtenção. Sofrer dano não remove Fluidez.
+
+Resolva cada gatilho de obtenção uma única vez. Se um acontecimento não forneceu outra Fluidez porque você já a possuía, gastar o estado depois não permite aproveitar esse mesmo acontecimento novamente.
+
+Ela dura até ser gasta, você ficar Incapacitado ou o combate terminar. Os usos abaixo não custam PE.
+
+| Uso | Custo e efeito |
+|---|---|
+| Investida | Antes de um ataque de arma ou desarmado, gaste Fluidez para fazê-lo com vantagem. Se acertar durante seu turno e ainda puder ganhar Fluidez nesse ciclo, pode recuperá-la. |
+| Instante Decisivo | Após rolar o d20, antes de finalizar o ataque, gaste Fluidez para ampliar sua margem de crítico em 1, normalmente de 20 para 19–20. Não pode recuperar Fluidez com esse mesmo acerto. |
+| Passo Rápido | Depois de resolver um ataque seu, durante seu turno, gaste Fluidez para se mover até metade do seu deslocamento como movimento adicional. Esse movimento não provoca oportunidade do alvo daquele ataque; outras criaturas ainda podem reagir normalmente. Não usa sua Bônus. |
+| Evasão | Quando um inimigo declarar um ataque contra você, antes da rolagem, gaste Fluidez e sua Reação para impor desvantagem ao ataque. Se ele errar e você ainda puder ganhar Fluidez nesse ciclo, pode recuperá-la. |
+| Reflexo | Quando um inimigo errar um ataque contra você, gaste Fluidez e sua Reação para fazer um ataque de oportunidade corpo a corpo contra ele, se estiver ao seu alcance. Você precisa já ter Fluidez quando o ataque inimigo foi declarado. |
+| Esquiva Instintiva | Antes de fazer um TR Físico, gaste Fluidez para realizá-lo com vantagem. Esse uso não exige Reação. |
+
+Evasão e Reflexo disputam a mesma Reação. O ataque de Reflexo feito fora do seu turno não gera Fluidez. O erro que acionou Reflexo não repõe a Fluidez gasta nessa resposta.
+
+### Nível 7
+
+#### Mais oportunidades de Fluidez
+
+Passa a poder ganhar Fluidez **duas vezes entre o começo de um turno seu e o começo do próximo**. Continua guardando apenas uma por vez. Os gatilhos permanecem os mesmos.
+
+#### Correr ou Esquivar pela Bônus
+
+Durante seu turno, pode gastar **Fluidez e sua Ação Bônus** para:
+
+- **Correr:** recebe movimento adicional igual ao seu deslocamento, até o fim do turno; oportunidades normais.
+- **Esquivar:** até o começo do seu próximo turno, recebe os benefícios normais de Esquivar: desvantagem nos ataques contra você e vantagem nos seus TR Físicos, respeitando as condições dessa ação.
+
+Passo Rápido continua separado. O Caminho base não recebe Ataque Extra.
+
+### Nível 15 — Melhorias de Fluidez
+
+- **Instante Decisivo:** o crítico realizado com esse uso também impede o alvo de usar Reações até o começo do seu próximo turno.
+- **Evasão:** também pode proteger um aliado voluntário a até 1,5 m de você contra um ataque declarado contra ele. O erro contra o aliado não gera Fluidez para você.
+- **Passo Rápido:** pode ser utilizado em qualquer momento do seu turno, sem precisar atacar antes. Escolha uma criatura percebida; o movimento não provoca oportunidade dela. Mantém custo e distância.
+- **Reflexo — Inverter a Pressão:** também pode ser usado depois de passar num TR Físico provocado por um efeito hostil, fora do seu turno. Você precisa ter Fluidez antes do teste. A resposta pode atacar qualquer criatura hostil ao seu alcance corpo a corpo, mesmo que outra tenha provocado a resposta. Mantém Fluidez e Reação como custos.
+
+#### Passo Guardado
+
+Uma vez entre o começo de um turno seu e o começo do próximo, **fora do seu turno e enquanto tiver Fluidez**, depois de resolver um ataque contra você ou um TR Físico provocado por uma criatura hostil, pode se mover imediatamente até **metade do seu deslocamento**, como movimento adicional.
+
+Não exige Reação nem gasta Fluidez. Esse movimento não provoca oportunidade da criatura responsável pelo ataque ou efeito; outras criaturas podem reagir normalmente. Precisa continuar capaz de se mover após a resolução.
+
+Quando o mesmo acontecimento permitir Passo Guardado e Reflexo, pode primeiro realizar o movimento e depois resolver o contra-ataque. Mantenha os requisitos de Reflexo: depois de um erro de ataque, o alvo continua sendo o inimigo que errou; depois de um TR Físico bem-sucedido, pode escolher uma criatura hostil ao seu alcance. O ataque ou efeito que provocou a resposta é resolvido antes de ambos.
+
+### Nível 23
+
+#### Retomar o Ritmo
+
+No começo do seu turno, se estiver sem Fluidez, pode gastar sua **Ação de Movimento inteira** para ganhar Fluidez. Essa obtenção não conta no limite das duas obtenções normais.
+
+#### Movimento Acrobático ampliado
+
+Passa a poder percorrer paredes e atravessar espaços de criaturas até o limite do **seu deslocamento completo**, mantendo os demais requisitos. Amplia a travessia permitida; não concede movimento adicional. O novo limite também vale para as modalidades acrescentadas ao Movimento Acrobático pela sua Trilha, como a travessia de líquidos do Pugilista.
+
+### Nível 30 — Um Passo à Frente
+
+**Uma vez por combate**, pode ativar imediatamente antes de **outra criatura** começar um turno.
+
+Ao ativar, antecipa seu turno e o realiza imediatamente. Não pode usar se seu turno já ocorreu naquela rodada.
+
+Durante esse turno:
+
+- Seu deslocamento dobra.
+- Seus movimentos não provocam ataques de oportunidade.
+- Movimento Acrobático permite atravessar espaços de criaturas de qualquer tamanho, mantendo a exigência de terminar em espaço livre com apoio.
+
+Esse turno substitui seu turno habitual daquela rodada. Depois de terminá-lo, a criatura que iria agir começa o turno dela. Não joga novamente quando chegar sua posição habitual na iniciativa; nas rodadas seguintes, conserva essa posição.
+
+Suas ações e os demais custos e requisitos das habilidades continuam funcionando normalmente.
+
+### Trilha: Assassino
+
+*Você estuda uma vítima, escolhe o percurso até ela e concentra sua força no momento de atacar. Paredes, bordas e até o corpo do inimigo podem se tornar parte desse percurso.*
+
+#### Progressão da Trilha
+
+| Nível | Habilidades |
+|---|---|
+| 2 | Alvo Estudado, Estudar a Guarda, Golpe Cirúrgico, Cortar a Fuga e Parkour. |
+| 11 | Desaparecer no Percurso e Escolher a Próxima Vítima. |
+| 19 | Brecha Fatal e usos de execução entre começos de turnos. |
+| 27 | Sentença Final. |
+
+#### Nível 2 — Alvo Estudado
+
+**Ação Bônus · Sem custo de PE.**
+
+Escolha uma criatura que você consiga ver a até **18 m**. Ela se torna seu **Alvo Estudado** até o fim da cena ou até você escolher outra criatura. Você só pode manter um Alvo Estudado por vez.
+
+Você possui uma **oportunidade de abate** contra ele quando, ao declarar o ataque, pelo menos uma destas condições estiver presente:
+
+- Você está **oculto dele**.
+- Ele está **sem Reação disponível**.
+- Seu ataque cumpre uma das aproximações descritas em **Parkour**.
+- Seu ataque se beneficia de **Estudar a Guarda**, descrito abaixo.
+
+Ao acertar seu Alvo Estudado com uma **arma de Volume leve ou com Fineza**, havendo uma oportunidade de abate, você pode utilizar **Golpe Cirúrgico** ou **Cortar a Fuga**.
+
+##### Estudar a Guarda
+
+Durante seu turno, você pode usar sua **Ação Bônus** para estudar a guarda de uma criatura que consiga ver a até **18 m**. Você pode escolhê-la como seu Alvo Estudado com essa mesma ação ou estudar novamente seu alvo atual.
+
+Você só pode utilizar essa opção se **ainda não tiver se deslocado por vontade própria naquela rodada**. Depois de utilizá-la, **não pode se deslocar por vontade própria até o fim da rodada**, incluindo movimentos adicionais concedidos por habilidades, como Passo Rápido e Passo Guardado. Deslocamentos forçados continuam sendo resolvidos normalmente.
+
+Seu **próximo ataque corpo a corpo contra esse alvo, antes do fim desse turno, possui uma oportunidade de abate**. A oportunidade é consumida quando você declara o ataque, mesmo que erre.
+
+Estudar a Guarda continua exigindo sua **Ação Bônus** após o nível 11, mesmo quando escolher ou trocar seu Alvo Estudado não exige ação.
+
+**Exemplo.** Se ainda não se moveu naquela rodada e a vítima já está ao alcance da sua arma, pode estudar a guarda e atacá-la sem se mover. Se usou Passo Guardado antes do seu turno naquela rodada, não pode utilizar essa preparação. Depois de estudar, também não pode usar Passo Rápido ou Passo Guardado até a rodada terminar.
+
+##### Golpe Cirúrgico
+
+**Fluidez + PE · Uma vez por turno seu.**
+
+Depois de confirmar o acerto, antes de rolar o dano, escolha **Destreza ou Inteligência**. Calcule **X = atributo escolhido − 1**, com mínimo de zero, e gaste **Fluidez e X PE**.
+
+Role os **dados de dano da arma normalmente**. Golpe Cirúrgico não maximiza dados.
+
+Além disso, acrescente **X dados** ao dano normal de **Canalizar em Golpe**. Os dados adicionais têm o mesmo tamanho dos dados utilizados normalmente em Canalizar e são rolados normalmente.
+
+O atributo escolhido define o custo normal de PE e a quantidade de dados adicionais. O atributo utilizado no acerto e no dano normal da arma continua seguindo suas próprias regras.
+
+**Em um crítico com Golpe Cirúrgico**, a arma segue a regra normal de crítico, com seus dados dobrados e rolados, e você **dobra tanto os dados normais de Canalizar em Golpe quanto os dados adicionais concedidos por esta habilidade**. Role todos esses dados normalmente. Os demais efeitos seguem suas próprias regras.
+
+O reforço vale somente para aquele ataque e exige que ele possa receber o dano de Canalizar normalmente.
+
+**Restringido.** Aplique o reforço ao dano equivalente de **Estímulo Muscular**, seguindo os mesmos cálculos de custo e quantidade por Destreza ou Inteligência − 1. Os dados adicionais têm o mesmo tamanho dos dados normais de Estímulo Muscular. Em um crítico com Golpe Cirúrgico, dobre tanto os dados normais de Estímulo Muscular quanto os dados adicionais da habilidade.
+
+**Exemplo.** Com Destreza 5, Golpe Cirúrgico custa **4 PE e Fluidez** e concede **4 dados adicionais**. Se seu Canalizar normal for `3d4`, uma arma de `1d8` causa **1d8 + atributo do ataque + 7d4**: os `3d4` normais de Canalizar e `4d4` adicionais. Em um crítico que dobre os dados da arma, causa **2d8 + atributo do ataque + 14d4**: os `6d4` normais de Canalizar já dobrados e os `8d4` adicionais também dobrados. Role todos esses dados normalmente. Uma ficha com Inteligência 5 também pode usar esse atributo para obter o mesmo custo e os mesmos 4 dados adicionais.
+
+###### Combinação com Instante Decisivo
+
+Se você utilizou **Instante Decisivo naquele ataque**, pode aplicar **Golpe Cirúrgico sem gastar outra Fluidez**, desde que acerte e cumpra todos os requisitos da habilidade.
+
+Nesse caso, pague o custo normal de Golpe Cirúrgico **mais 4 PE**. O gasto de Fluidez feito em Instante Decisivo paga a combinação.
+
+Esses **4 PE adicionais não concedem dados de dano**. O ataque continua sem poder recuperar Fluidez, e Golpe Cirúrgico mantém seu limite normal de uso.
+
+**Exemplo.** Com Destreza 5, a combinação custa **8 PE ao todo**: 4 PE de Golpe Cirúrgico e 4 PE adicionais. Você gasta uma Fluidez ao utilizar Instante Decisivo. Se seu Canalizar normal for `3d4` e o ataque acertar como crítico, uma arma de `1d8` causa **2d8 + atributo do ataque + 14d4**, como no exemplo anterior; os 4 PE adicionais não acrescentam dados.
+
+##### Cortar a Fuga
+
+**Fluidez · Uma vez por turno seu.**
+
+Depois de resolver o acerto, gaste Fluidez. O alvo realiza um **TR Físico** contra:
+
+**CD = 8 + atributo utilizado no ataque + sua maestria.**
+
+Na falha, fica **Derrubado**, e você pode **empurrá-lo até 3 m para longe de você**, respeitando obstáculos e as regras normais de deslocamento forçado.
+
+##### Obtenção e gasto de Fluidez
+
+Fluidez obtida pelo acerto pode pagar Golpe Cirúrgico ou Cortar a Fuga. Resolva essa obtenção antes do gasto.
+
+Uma mesma Fluidez paga apenas um uso, **exceto pela combinação com Instante Decisivo descrita acima**. O mesmo acerto não gera Fluidez novamente depois de ela ser gasta.
+
+#### Nível 2 — Parkour
+
+Seu **Movimento Acrobático** recebe os benefícios abaixo.
+
+Durante seu Movimento Acrobático, você pode usar **Acrobacia no lugar de Atletismo** nos testes exigidos para saltar ou alcançar os apoios utilizados pelo Parkour.
+
+Os testes continuam usando suas dificuldades normais. Esse benefício não aumenta a distância disponível nem elimina obstáculos ou consequências de uma falha.
+
+##### Apoios de infiltração
+
+Você pode terminar o percurso **pendurado em uma borda ou agarrado a uma superfície com apoios capazes de sustentá-lo**, mantendo pelo menos uma mão ocupada.
+
+Você também pode realizar ataques corpo a corpo durante o percurso, antes de alcançar o apoio final.
+
+##### Aproximação de abate
+
+O primeiro ataque corpo a corpo contra seu Alvo Estudado, realizado durante ou imediatamente ao terminar uma destas aproximações, possui uma **oportunidade de abate**:
+
+- **Percorrer pelo menos metade do seu deslocamento por uma parede e, na sequência, saltar de um ponto de apoio ou borda para alcançar o alvo.**
+- **Descer pelo menos 4,5 m de uma posição elevada com apoio para alcançar o alvo, usando Movimento Acrobático.**
+
+A aproximação usa seu movimento disponível. Os trechos de Movimento Acrobático respeitam o limite da habilidade, e os saltos seguem suas regras normais.
+
+##### A vítima como apoio
+
+**Uma vez por turno seu**, depois de acertar um ataque corpo a corpo contra uma criatura hostil durante seu Movimento Acrobático, você pode usar o corpo dela como apoio para **saltar até uma borda, superfície com apoios ou posição elevada**.
+
+Escolha um destino livre que você possa alcançar com o salto e com o **movimento que ainda tem disponível**. Esse salto **não provoca ataques de oportunidade** e não exige gasto adicional de ação, PE ou Fluidez.
+
+Resolva o ataque e seus efeitos antes do salto. A vítima não precisa ser seu Alvo Estudado.
+
+##### Movimento e aterrissagem
+
+Parkour utiliza os ataques e o movimento que você já possui. Termine o percurso numa posição permitida.
+
+Os testes necessários, obstáculos e regras de queda continuam valendo normalmente. A proteção contra ataques de oportunidade aplica-se somente ao salto feito usando a vítima como apoio.
+
+**Exemplo.** Você desce de uma plataforma para atacar seu Alvo Estudado. A aproximação permite usar Golpe Cirúrgico ou Cortar a Fuga, caso acerte e pague seus custos.
+
+Depois de resolver o ataque, você usa o corpo da vítima como apoio para saltar até uma borda próxima, alcançável com seu movimento restante. Esse salto não provoca ataques de oportunidade.
+
+#### Nível 11 — Desaparecer no Percurso
+
+**Uma vez por turno seu**, depois de realizar um ataque contra seu Alvo Estudado com uma **arma de Volume leve ou com Fineza**, você pode **Esconder sem gastar uma ação**, ao terminar um movimento daquele turno.
+
+Você precisa terminar numa posição que permita Esconder e realizar o teste normal de Furtividade. O movimento usa sua distância disponível e segue normalmente as regras de ataques de oportunidade.
+
+##### Escolher a Próxima Vítima
+
+Durante seu turno, você pode escolher ou trocar seu **Alvo Estudado sem gastar uma ação**, uma vez por turno, mantendo os requisitos normais de alcance e visão.
+
+**Exemplo.** Você escolhe seu Alvo Estudado sem gastar uma ação e usa sua Bônus para Desengajar. Ataca, move-se até uma posição onde possa se esconder e, ao terminar o movimento, faz o teste de Furtividade sem gastar outra ação. Se conseguir permanecer oculto da vítima até o próximo ataque, terá uma oportunidade de abate contra ela.
+
+#### Nível 19 — Brecha Fatal
+
+**Reação + 2 PE.**
+
+Quando seu **Alvo Estudado gastar uma Reação**, depois que ela terminar de ser resolvida, você pode gastar sua Reação e **2 PE** para realizar **um ataque corpo a corpo com uma arma de Volume leve ou com Fineza** contra ele.
+
+O alvo precisa estar ao alcance da arma no momento desse ataque.
+
+##### Execução fora do turno
+
+Você pode utilizar **Golpe Cirúrgico ou Cortar a Fuga nesse ataque**, desde que possua Fluidez e cumpra os requisitos normais, pagando seus respectivos custos.
+
+A partir deste nível, o limite de cada um desses usos passa a ser **uma vez entre o começo de um turno seu e o começo do próximo**, permitindo utilizá-los dentro ou fora do seu turno.
+
+Usar Golpe Cirúrgico na Brecha Fatal consome o mesmo uso que estaria disponível no seu turno. O mesmo vale para Cortar a Fuga.
+
+O ataque segue as regras normais de obtenção de Fluidez: um acerto fora do seu turno não gera Fluidez por si só.
+
+#### Nível 27 — Sentença Final
+
+**Uma vez por combate**, ao utilizar **Golpe Cirúrgico**, pode transformar aquele golpe em uma Sentença Final. **Você deve estar oculto do Alvo Estudado no momento em que declara o ataque.**
+
+O acerto se torna um **crítico**. Resolva o dano seguindo as regras de crítico de Golpe Cirúrgico.
+
+Depois do dano, o alvo realiza um **TR Físico** contra:
+
+**CD = 8 + atributo utilizado no ataque + sua maestria.**
+
+Na falha, fica **Derrubado**, e você pode **empurrá-lo até 3 m**, respeitando obstáculos e as regras normais de deslocamento forçado.
+
+Sentença Final utiliza **uma Fluidez e o custo normal de PE de Golpe Cirúrgico**, consumindo o uso dessa habilidade naquele intervalo. O derrube e o empurrão fazem parte da execução e não exigem outro gasto de Fluidez.
+
+O ataque precisa ser realizado com uma **arma de Volume leve ou com Fineza**.
+
+### Trilha: Pugilista
+
+*Você luta com o corpo inteiro. Seus golpes alternam pressão e guarda, quebram o equilíbrio do adversário e permitem usar o contato sem depender de uma contenção.*
+
+#### Progressão da Trilha
+
+| Nível | Habilidades |
+|---|---|
+| 2 | Corpo Treinado, Quebrar o Compasso e Recuperar a Base. |
+| 7 | Rajada Marcial, evolução de Corpo Treinado. |
+| 11 | Guarda Marcial, Interceptar e Prender e Movimento sobre líquidos. |
+| 19 | Golpe Desarticulador e Projeção Marcial. |
+| 27 | Corpo em Harmonia: Rajada e Guarda, e Redirecionar a Força. |
+
+Rajada Marcial é a evolução da habilidade recebida no nível 2. Não acrescenta um novo degrau de Trilha no nível 7.
+
+#### CD das habilidades da Trilha
+
+Os efeitos da Trilha que exigem resistência são resolvidos por um **TR do adversário contra a CD do Pugilista**, sem teste oposto de Atletismo do Pugilista.
+
+**CD do Pugilista = 8 + Força ou Destreza + maestria.** Escolha o atributo ao utilizar a habilidade. Se o efeito estiver vinculado a um ataque seu, utilize o atributo daquele ataque.
+
+Cada habilidade indica o tipo de TR e as consequências de sucesso ou falha. Esta regra se aplica às habilidades da Trilha; os testes gerais do personagem seguem suas próprias regras.
+
+Tentar escapar de uma contenção criada pela Trilha também exige um **TR Físico contra a CD do Pugilista**, em vez de um teste oposto de Atletismo.
+
+#### Nível 2 Corpo Treinado
+
+Você pode utilizar **Força ou Destreza no acerto e no dano dos ataques desarmados**, escolhendo a cada ataque.
+
+Seu dano desarmado utiliza a progressão abaixo, no lugar da progressão comum:
+
+| Maestria | Níveis | Dano desarmado |
+|---|---|---|
+| 1 | 2 a 9 | 1d6 |
+| 2 | 10 a 17 | 1d8 |
+| 3 | 18 a 25 | 1d10 |
+| 4 | 26 a 30 | 1d12 |
+
+Canalizar ou Estímulo Muscular continua sendo acrescentado normalmente, seguindo seus requisitos e impedimentos.
+
+Depois de realizar a **Ação Atacar**, você pode usar sua **Ação Bônus para realizar um ataque desarmado adicional**, mesmo que o primeiro ataque tenha errado.
+
+##### Rajada Marcial a partir do nível 7
+
+Ao utilizar essa **Ação Bônus**, você pode gastar **3 PE** para realizar **dois ataques desarmados**, em vez de um. Declare e pague o custo antes do primeiro ataque da Bônus.
+
+Cada ataque possui sua própria rolagem e pode atingir uma criatura diferente. Ambos causam seu dano desarmado normal, incluindo Canalizar ou Estímulo Muscular quando aplicável.
+
+Rajada Marcial só pode ser utilizada com a Ação Bônus concedida por Corpo Treinado, depois da Ação Atacar. Ela não exige Fluidez e segue os limites normais de obtenção e gasto desse estado.
+
+#### Nível 2 Quebrar o Compasso
+
+**Fluidez · Uma vez por turno seu.**
+
+Depois de acertar um ataque desarmado, gaste Fluidez. O alvo realiza um **TR de Vigor contra a CD do Pugilista**, utilizando o atributo daquele ataque na CD.
+
+Na falha, fica **Lento até o fim do próximo turno dele**: seu deslocamento fica pela metade e ele não pode utilizar Ação Bônus.
+
+#### Nível 2 Recuperar a Base
+
+Você pode gastar Fluidez para utilizar uma das opções abaixo. Nenhuma delas exige gasto de ação ou Reação.
+
+- **Depois de ficar Derrubado:** levante imediatamente após resolver o efeito que o derrubou, sem gastar sua Ação de Movimento.
+- **Enquanto estiver Agarrado por uma criatura:** ela realiza um **TR Físico contra a CD do Pugilista**. **Na falha, você escapa da contenção e pode deixar o agressor Agarrado por você, sem outro teste, desde que cumpra os requisitos normais para agarrá-lo.** No sucesso, ela mantém a contenção e a Fluidez permanece gasta.
+- **Depois de ser empurrado por um único efeito por uma distância igual ou superior à metade do seu deslocamento:** mova-se imediatamente até **metade do seu deslocamento**, em direção à posição que ocupava antes do empurrão. Esse retorno é movimento adicional; resolva primeiro o efeito que o empurrou. Você precisa conseguir se mover, e o percurso segue as regras normais de movimento e ataques de oportunidade.
+
+**Exemplo.** Com deslocamento de 12 m, um empurrão de 6 m permite gastar Fluidez para retornar até 6 m. Se for empurrado 9 m, também pode retornar até 6 m.
+
+Todos os usos seguem os limites normais de obtenção e gasto de Fluidez do Caminho. Um mesmo acerto não gera Fluidez novamente depois de ela ser gasta.
+
+#### Nível 11 — Guarda, contenção e travessia
+
+##### Guarda Marcial
+
+Você combina seus golpes com movimentos de defesa, mantendo a guarda durante a troca.
+
+Ao utilizar a **Ação Bônus de Corpo Treinado**, pode gastar **3 PE** para realizar **um ataque desarmado e receber os efeitos de Esquivar até o começo do seu próximo turno**:
+
+- Ataques contra você têm **desvantagem**.
+- Seus **TR Físicos têm vantagem**.
+
+Declare e pague o custo antes do ataque. Você recebe os efeitos de Esquivar mesmo que erre.
+
+**Guarda Marcial e Rajada Marcial são alternativas para essa Ação Bônus:** escolha uma delas a cada utilização. Guarda Marcial não exige Fluidez.
+
+##### Interceptar e Prender
+
+**Fluidez e Reação.**
+
+Quando uma criatura errar um ataque corpo a corpo contra você, se você já possuía Fluidez quando o ataque foi declarado, pode gastar Fluidez e sua Reação para tentar prender a arma ou o membro utilizado no ataque.
+
+A criatura precisa estar ao alcance do seu ataque desarmado e ser de até uma categoria de tamanho maior que você. Você precisa de uma mão livre.
+
+O alvo realiza um **TR Físico contra a CD do Pugilista**. Na falha, fica **Agarrado por você** e não pode atacar com a arma ou o membro preso. Você mantém uma mão ocupada na contenção e pode atacar com as outras partes do corpo.
+
+O alvo pode gastar uma **Ação Padrão** para realizar outro **TR Físico contra a CD do Pugilista**, escapando no sucesso. Se a contenção prender uma arma, ele também pode soltá-la: a contenção termina e a arma fica na sua mão.
+
+A contenção termina se você liberar o alvo, deixar de manter a mão ocupada nela, ficar Incapacitado ou o alvo sair do alcance do seu ataque desarmado. Soltar o alvo não exige ação.
+
+##### Movimento sobre líquidos
+
+Seu **Movimento Acrobático também permite percorrer a superfície de líquidos durante o movimento**.
+
+Essa travessia usa seu movimento disponível e compartilha o limite de distância com os demais trechos de Movimento Acrobático. Termine o trecho em uma posição com apoio normal; a superfície do líquido não sustenta você depois que a travessia termina. Os efeitos normais de contato com o líquido continuam valendo.
+
+#### Nível 19 Golpe Desarticulador
+
+Seus golpes comprometem a coordenação do adversário, interrompendo seus movimentos.
+
+Ao utilizar **Quebrar o Compasso**, você pode gastar **6 PE adicionais** para tentar bloquear os movimentos do alvo. Declare e pague esse custo antes do TR de Vigor.
+
+Na falha, o alvo fica **Impedido**, em vez de Lento, até o fim do próximo turno dele: seu deslocamento fica em zero, ele recebe desvantagem nos seus ataques e TR Físicos, e os ataques contra ele têm vantagem.
+
+O efeito utiliza o mesmo acerto, gasto de Fluidez, TR de Vigor e limite de uso de Quebrar o Compasso. O dano do ataque é resolvido normalmente; o alvo não precisa estar Agarrado. No sucesso do TR, o bloqueio não se aplica e os custos permanecem gastos.
+
+O prazo indicado é o limite da condição. As regras gerais de remoção e recuperação continuam valendo; falhar num teste de recuperação não prolonga esse prazo.
+
+#### Nível 19 Projeção Marcial
+
+**3 PE · Uma vez por turno seu.**
+
+Ao realizar a **Ação Atacar**, você pode substituir um de seus ataques por uma projeção de uma criatura **Agarrada por você**, de até uma categoria de tamanho maior que você.
+
+Escolha um espaço livre a até **6 m de você**, alcançável pelo lançamento, e pague **3 PE**. O alvo realiza um **TR Físico contra a CD do Pugilista**.
+
+Na falha, a contenção termina, ele é lançado até o espaço escolhido, sofre **o dano de um golpe desarmado seu**, incluindo Canalizar ou Estímulo Muscular quando aplicável, e fica **Derrubado**. No sucesso, ele permanece na posição original e a contenção continua; os PE ficam gastos.
+
+##### Resolução da projeção
+
+Projeção Marcial é resolvida pelo **TR do alvo, sem rolagem de ataque**. Ela não causa crítico, não gera Fluidez por acerto e não ativa efeitos que exigem acertar um ataque, como Quebrar o Compasso.
+
+Ela continua fazendo parte da **Ação Atacar**. Depois de concluir essa ação, você pode utilizar a **Ação Bônus de Corpo Treinado normalmente**, incluindo Rajada Marcial ou Guarda Marcial quando disponíveis, mesmo que o alvo resista à projeção.
+
+Os ataques realizados com essa Bônus seguem suas próprias regras de acerto, crítico e obtenção de Fluidez.
+
+##### Colisão
+
+Se o espaço escolhido estiver adjacente a outra criatura que possa ser atingida pela trajetória, você pode lançar o alvo contra ela.
+
+Depois que o alvo original falhar no TR, a segunda criatura realiza seu próprio **TR Físico contra a CD do Pugilista**. Na falha, sofre **a mesma quantidade de dano da projeção** e também fica **Derrubada**. No sucesso, evita o impacto.
+
+O alvo lançado termina no espaço livre escolhido em ambos os resultados da segunda criatura. O lançamento precisa de um percurso livre de obstáculos sólidos.
+
+#### Nível 27 Corpo em Harmonia
+
+Você integra seus golpes, sua guarda e o redirecionamento da força adversária.
+
+##### Rajada e Guarda
+
+Ao utilizar a **Ação Bônus de Corpo Treinado**, você pode gastar **6 PE ao todo** para combinar **Rajada Marcial e Guarda Marcial**: realize **dois ataques desarmados** e receba os efeitos de **Esquivar até o começo do seu próximo turno**.
+
+Declare e pague o custo antes do primeiro ataque. Você recebe os efeitos de Esquivar mesmo que erre os ataques. Cada ataque é resolvido normalmente. Essa opção não exige Fluidez e substitui o uso separado de Rajada ou Guarda naquela Bônus.
+
+##### Redirecionar a Força
+
+**Fluidez, Reação e 6 PE.**
+
+Quando uma criatura errar um **ataque corpo a corpo com arma ou desarmado que tenha apenas você como alvo**, você pode redirecionar esse golpe, como alternativa a Interceptar e Prender. Você precisa já possuir Fluidez quando o ataque for declarado.
+
+Para utilizar a habilidade, cumpra os requisitos abaixo:
+
+- **O agressor está ao alcance do seu ataque desarmado**, é de até uma categoria de tamanho maior que você, e você tem uma mão livre.
+- Você percebe **outra criatura hostil**, diferente de você e do agressor, **ao alcance da arma ou do membro utilizado naquele ataque**. Esse alcance é medido a partir do agressor.
+- O ataque pode alcançar o novo alvo sem atravessar obstáculos que impeçam o golpe. A habilidade não aumenta alcances nem movimenta nenhuma criatura.
+
+Escolha o novo alvo e pague os custos. O agressor realiza um **TR Físico contra a CD do Pugilista: 8 + sua Força ou Destreza + sua maestria**. No sucesso, o golpe continua sendo um erro contra você e os custos permanecem gastos.
+
+Na falha, resolva o mesmo ataque contra o novo alvo:
+
+- Reutilize **o resultado do d20 já escolhido**, mantendo a vantagem ou desvantagem já resolvida. Não role novamente o ataque. Mantenha os modificadores do atacante e ajuste somente aqueles que dependam especificamente do alvo.
+- Compare o resultado com a **Defesa do novo alvo**, que pode **Bloquear normalmente**, incluindo as regras de Aparar e Brecha.
+- Se acertar, aplique o dano e os efeitos daquele golpe normalmente. **O agressor continua sendo o autor do ataque**; use os recursos já pagos e as regras de crítico dele. Nenhum custo do ataque original é pago de novo.
+
+**O erro que ativou Redirecionar a Força não pode repor a Fluidez gasta nessa resposta.** O ataque redirecionado não é um ataque seu e não gera Fluidez para você por acerto. Um mesmo ataque só pode ser redirecionado uma vez por esta habilidade. Como o d20 já foi escolhido, o redirecionamento não abre outra janela anterior à rolagem desse d20. Bloquear e as respostas cuja janela ainda seja válida continuam possíveis.
+
+### Trilha: Malabarista
+
+*Você maneja armas de uma mão, mistura contato e arremesso e usa os ângulos do cenário para manter a pressão. A energia amplia sua execução; Fluidez permite escolher o destino de cada lançamento.*
+
+#### Progressão da Trilha
+
+| Nível | Habilidades |
+|---|---|
+| 2 | Manejo de Combate, Ofensiva em Movimento, Ricochete, Lançamento Cruzado e Mudar o Destino. |
+| 11 | Trajetória de Retorno e Manejo Contínuo. |
+| 19 | Finta de Retorno e Manejo Contínuo ampliado. |
+| 27 | Trajetória Perfeita. |
+
+#### Como as continuações funcionam
+
+**Lançamento Cruzado, Trajetória de Retorno e Finta de Retorno compartilham uma utilização por turno seu.** Escolha a forma de execução e pague seu custo; elas não concedem continuações separadas para o mesmo turno.
+
+| Execução | Custo | Destino da continuação |
+|---|---|---|
+| Lançamento Cruzado | Fluidez e 3 PE. | Outra criatura, depois de um arremesso acertar. |
+| Trajetória de Retorno, nível 11 | Fluidez e 4 PE. | A mesma criatura, por uma superfície, depois de acertar. |
+| Finta de Retorno, nível 19 | Fluidez e 6 PE. | A mesma criatura, mesmo depois de errar, com as defesas alteradas pela Finta. |
+
+Uma correção por Mudar o Destino continua sendo parte do ataque corrigido. Depois da correção, considere o alvo final para os requisitos de uma continuação. Fluidez obtida por um acerto só pode ser aproveitada uma vez pelo mesmo acontecimento, conforme o Caminho.
+
+Trajetória Perfeita substitui um ataque da Ação Atacar e consome essa mesma utilização de continuação, com seu próprio procedimento. Os demais ataques disponíveis continuam seguindo suas regras normais.
+
+#### Nível 2 Manejo de Combate
+
+Você pode usar **Força ou Destreza no acerto e no dano dos ataques corpo a corpo e de arremesso com armas de uma mão**, escolhendo a cada ataque. Os demais requisitos da arma continuam valendo.
+
+Durante seu turno, pode realizar **duas manipulações gratuitas de itens, em vez de uma**. A segunda precisa ser usada para **sacar, guardar ou recolher uma arma solta ao seu alcance**, com uma mão disponível. Isso não permite recarregar nem retirar uma arma empunhada por outra criatura. As manipulações seguintes seguem seus custos normais.
+
+#### Nível 2 Ofensiva em Movimento
+
+**3 PE · Uma vez por turno seu.**
+
+Ao realizar a **Ação Atacar**, pode gastar **3 PE antes do primeiro ataque** para realizar **dois ataques com armas de uma mão**, em vez do ataque único normalmente disponível. Se outra regra já conceder mais ataques nessa ação, use a maior quantidade; as quantidades não se somam.
+
+Pode combinar ataques corpo a corpo e arremessos, usar a mesma arma ou armas diferentes e atacar a mesma criatura ou criaturas diferentes. Cada ataque é resolvido separadamente, com seu dano e seus requisitos normais. Canalizar em Golpe ou Estímulo permanece sujeito às próprias regras.
+
+Sua Ação Bônus permanece disponível. Essa execução não exige Fluidez; seus ataques seguem os limites normais de obtenção desse estado.
+
+#### Nível 2 Ricochete
+
+Durante seu turno, **antes de rolar um ataque de arremesso com uma arma de uma mão**, pode gastar **Fluidez** para fazê-la ricochetear em uma superfície sólida do cenário antes de atingir o alvo.
+
+Escolha o alvo que você percebe e o ponto de ricochete antes da rolagem. A arma percorre dois trechos: da sua posição até a superfície e da superfície até o alvo. Ambos precisam estar livres de obstáculos que impeçam sua passagem. O ponto de ricochete precisa estar dentro do alcance original da arma.
+
+**Depois de alcançar o ponto de ricochete, a arma recebe 6 m adicionais de alcance**, além da distância que ainda restava do arremesso. Esse acréscimo vale uma vez no ataque, após um único ricochete.
+
+Some as distâncias dos dois trechos. A faixa normal do percurso completo aumenta em 6 m, e a faixa longa também aumenta em 6 m. O ataque recebe desvantagem por faixa longa se **o primeiro trecho ultrapassar a faixa normal original** ou se **o percurso completo ultrapassar a faixa normal aumentada**. O primeiro trecho nunca pode ultrapassar a faixa longa original, e o percurso completo nunca pode ultrapassar a faixa longa aumentada.
+
+Para determinar a cobertura do alvo, considere a direção do trecho que sai do ponto de ricochete. Isso permite contornar uma cobertura quando existir esse caminho, inclusive se a linha direta estiver bloqueada. Uma trajetória inteiramente bloqueada continua inviável, e o ricochete não revela alvos que você não percebe.
+
+Resolva **um único ataque contra o alvo**, com a rolagem, o dano e o crítico normais da arma. A superfície não recebe um ataque separado. O ricochete não devolve a arma à sua mão. As demais causas de vantagem ou desvantagem continuam valendo, inclusive faixa longa e atacar colado a um inimigo.
+
+Esse gasto modifica um ataque disponível; não acrescenta outro. Um acerto pode gerar Fluidez quando ainda houver uma obtenção disponível, seguindo as regras do Caminho.
+
+**Exemplo.** Seu chakram tem faixas de 6 m e 18 m. Ao atingir uma parede a 3 m, restam 3 m da faixa normal. Ricochete acrescenta 6 m: o alvo pode estar a até 9 m da parede sem desvantagem por distância. O percurso total máximo passa a 24 m, com desvantagem quando a faixa normal é ultrapassada. Se a parede já estiver a 9 m de você, o ataque recebe desvantagem mesmo que o alvo esteja logo depois dela, porque o primeiro trecho ultrapassou os 6 m originais da faixa normal.
+
+#### Outros usos de Fluidez
+
+##### Lançamento Cruzado
+
+**Fluidez + 3 PE · Uma vez por turno seu.** Durante seu turno, depois de resolver um arremesso seu com arma de uma mão que acertou uma criatura hostil, pode gastar Fluidez e **3 PE** para fazer a mesma arma continuar contra **outra criatura hostil percebida a até 6 m da primeira**.
+
+Essa continuação é **um ataque adicional, sem consumir outro ataque disponível nem exigir uma ação**, resolvido imediatamente. Pague antes da nova rolagem. O ataque causa o dano normal da arma, incluindo Canalizar em Golpe ou Estímulo quando aplicável, e resolve seu crítico normalmente. A distância e a cobertura são conferidas a partir da primeira criatura; o trajeto precisa estar livre. Os 6 m são o limite dessa continuação e não recebem outro acréscimo de Ricochete. As demais condições da sua posição continuam relevantes, inclusive estar colado a um inimigo ao arremessar.
+
+A arma utilizada no primeiro ataque pode fazer a continuação sem ter sido recuperada. Isso não devolve a arma à sua mão. Fluidez obtida pelo primeiro acerto pode pagar esse uso, quando ainda houver uma obtenção disponível. O primeiro acerto não gera Fluidez novamente após o gasto. O segundo ataque segue seus próprios gatilhos e os limites do Caminho.
+
+**Exemplo.** Você paga 3 PE pela Ofensiva em Movimento e acerta o primeiro arremesso. Usa a Fluidez obtida nesse acerto e mais 3 PE para continuar com a mesma arma contra outro inimigo a 4,5 m da primeira vítima. Depois da continuação, ainda possui o segundo ataque da Ação Atacar. O total é de três ataques, por 6 PE e Fluidez. O acerto da continuação não permite repetir Lançamento Cruzado naquele turno.
+
+##### Mudar o Destino
+
+**Fluidez · Uma vez por turno seu.** Durante seu turno, depois de errar um arremesso com arma de uma mão contra uma criatura hostil, pode gastar Fluidez para redirecionar a arma contra **outra criatura hostil percebida a até 6 m do alvo original**, realizando uma nova rolagem. A Fluidez precisa estar disponível após o erro; errar não fornece esse estado.
+
+A nova criatura também precisa estar dentro do alcance da arma, medido a partir da origem daquele ataque, com caminho válido. Se o ataque utilizou Ricochete, mantenha o mesmo ponto de ricochete e o mesmo acréscimo de alcance; confira novamente o percurso até o novo alvo. Se estiver corrigindo Lançamento Cruzado, meça desde a primeira vítima e mantenha seu limite de 6 m; a nova criatura também precisa ser diferente dela.
+
+Essa é uma correção da tentativa que errou: não consome outro ataque disponível, não repete a tentativa contra a mesma criatura e não permite outra correção se a nova rolagem também errar. Use a nova rolagem para determinar acerto e crítico, e resolva o dano normal da arma no acerto. Considere a correção como parte do mesmo ataque para gatilhos que contam ataques realizados; o erro contra o primeiro alvo permanece um erro. A correção tem suas próprias condições de vantagem, desvantagem e cobertura. Efeitos escolhidos antes da rolagem continuam sujeitos aos próprios requisitos contra o novo alvo; efeitos vinculados ao resultado do primeiro d20 não são transferidos para o novo resultado.
+
+Um acerto da correção pode gerar Fluidez, respeitando o limite normal do Caminho. Se corrigiu um ataque comum e ainda não usou Lançamento Cruzado, esse acerto pode permitir o lançamento adicional, pagando seus custos normalmente. Se corrigiu o próprio Lançamento Cruzado, o limite de uso já foi consumido.
+
+#### Nível 11 Trajetória de Retorno
+
+Ao utilizar **Lançamento Cruzado**, pode pagar **4 PE, em vez de 3**, para fazer a arma ricochetear em uma superfície sólida e atacar **novamente a criatura atingida pelo primeiro arremesso**.
+
+**Esse ataque substitui a continuação contra outra criatura de Lançamento Cruzado.** Não realiza um ataque de Cruzado e outro de Retorno: escolhe uma das duas formas para a mesma utilização.
+
+Escolha o ponto de ricochete antes da nova rolagem. O percurso **da vítima até a superfície e da superfície de volta à vítima** deve estar livre e somar **até 6 m**. Determine a cobertura pela direção do trecho de retorno.
+
+Essa execução utiliza **a mesma Fluidez e o mesmo limite de uso de Lançamento Cruzado**. Não exige gastar outra Fluidez com Ricochete e não recebe seu alcance adicional. O ataque de retorno tem sua própria rolagem, dano e crítico normais. A vítima conserva suas defesas e respostas normais.
+
+**Exemplo.** Você acerta um inimigo com um kunai. Gasta Fluidez e 4 PE para fazê-lo atingir uma parede a 1,5 m da vítima e voltar contra ela. O percurso de retorno soma 3 m. Faça a nova rolagem de ataque. Se utilizou Ofensiva em Movimento, ainda possui seu outro ataque da Ação Atacar: o pacote completo custa 7 PE e Fluidez e conserva o total de até três ataques próprios.
+
+#### Nível 11 Manejo Contínuo
+
+**Uma vez por turno seu**, ao encerrar um arremesso com uma arma de uma mão, incluindo suas correções e continuações, pode fazê-la **retornar à sua mão**, desde que:
+
+- A arma esteja a até **6 m de você**, com caminho livre até sua posição.
+- Você tenha uma mão livre para recebê-la.
+- Nenhuma criatura esteja empunhando a arma e nenhum efeito impeça sua recuperação.
+
+Esse retorno não exige ação, Fluidez ou PE e **não é um ataque**. Você pode voltar a usar a arma com os ataques que ainda tiver disponíveis.
+
+#### Nível 19 Finta de Retorno
+
+Depois de resolver um ataque de arremesso no seu turno, pode gastar **Fluidez e 6 PE** para utilizar **Trajetória de Retorno contra o alvo desse ataque, mesmo que o arremesso tenha errado**.
+
+Os 6 PE substituem o custo normal de 4 PE de Trajetória de Retorno. Esta execução consome a mesma utilização de Lançamento Cruzado e mantém o limite de uma continuação por turno, seus requisitos de arma, o ricochete em uma superfície sólida, o percurso livre de até 6 m e a nova rolagem de ataque. Não acrescenta outra continuação ao kit.
+
+O alvo **não pode utilizar Bloquear contra o ataque de retorno**; compare a rolagem com sua Defesa normal. Se utilizou Bloquear contra o arremesso inicial, **o ataque de retorno também tem vantagem**, independentemente de o primeiro arremesso ter acertado.
+
+O primeiro arremesso conserva sua resolução, dano e respostas normais. A Finta não desfaz um Aparar ou uma resposta já resolvida contra ele. O retorno continua sujeito às demais defesas, modificadores e efeitos aplicáveis, inclusive cancelamento normal de vantagem e desvantagem. Dano e crítico são normais; não há dados adicionais de dano.
+
+Se o arremesso inicial errar, você precisa ter Fluidez disponível para pagar a Finta: o erro não fornece Fluidez. Se acertar, pode utilizar a Fluidez obtida por esse acerto, respeitando as regras normais de ganho.
+
+Se utilizar Mudar o Destino para redirecionar um retorno que errou, a nova vítima conserva suas defesas normais e não recebe os benefícios específicos desta Finta: a proibição de Bloquear e a vantagem por ter bloqueado o arremesso inicial valem somente contra o alvo original desse retorno.
+
+**Exemplo.** Um inimigo bloqueia seu primeiro arremesso e evita o acerto. Você ainda possui Fluidez e paga 6 PE para utilizar Trajetória de Retorno. A arma ricocheteia em uma parede e volta contra ele. Você faz uma nova rolagem com vantagem, comparada à Defesa normal do alvo, sem outro Bloquear. O arremesso inicial permanece um erro.
+
+#### Nível 19 Manejo Contínuo ampliado
+
+Você também pode utilizar **Manejo Contínuo fora do seu turno**.
+
+O limite passa a ser **uma recuperação entre o começo de um turno seu e o começo do próximo**. Se já recuperou uma arma no seu turno, essa utilização não fica disponível novamente antes do próximo começo de turno. Mantém alcance de 6 m, caminho livre, mão disponível e demais requisitos de recuperação.
+
+#### Nível 27 Trajetória Perfeita
+
+**Uma vez por combate · Fluidez e 12 PE.**
+
+Ao realizar a **Ação Atacar**, pode substituir **um dos seus ataques** por Trajetória Perfeita, utilizando uma **arma de uma mão apropriada para arremesso**. Você precisa ter Fluidez antes da execução e ainda não ter utilizado Lançamento Cruzado, Trajetória de Retorno ou Finta de Retorno naquele turno. Declare o percurso e pague os custos antes de rolar.
+
+Escolha até **quatro criaturas hostis que você percebe** e a ordem em que a arma passará por elas. O percurso completo pode somar **até 24 m**, incluindo todos os trechos desde sua posição, e pode utilizar até **três pontos de ricochete em superfícies sólidas**. Use esses pontos para mudar a direção da arma. Cada trecho precisa estar livre de obstáculos que impeçam sua passagem. Uma mesma criatura só pode ser atacada uma vez nessa execução.
+
+Resolva um ataque contra cada alvo na ordem escolhida:
+
+- **Você tem vantagem nessas rolagens**, sujeita ao cancelamento normal com desvantagem.
+- **Os alvos não podem Bloquear esses ataques**; compare cada rolagem com a Defesa normal da criatura.
+- Cada acerto causa **o dano normal da arma**, incluindo Canalizar em Golpe ou Estímulo quando aplicável, e resolve seu crítico normalmente.
+- **A arma continua pelo percurso mesmo se um ataque errar.** Um erro não fornece Fluidez nem causa dano àquela criatura.
+
+Nesta execução, o limite de 24 m substitui as faixas de alcance da arma e não impõe desvantagem por faixa longa. Determine a cobertura a partir da direção do trecho que alcança cada alvo. As demais condições e defesas continuam aplicáveis, inclusive desvantagem por arremessar colado a um inimigo. A execução não atravessa barreiras, não revela alvos e não ignora efeitos que efetivamente capturem ou impeçam a passagem da arma. Se o percurso deixar de ser viável, encerre os trechos restantes.
+
+Trajetória Perfeita **consome sua utilização de Lançamento Cruzado daquele turno**. Seus ataques não podem receber Ricochete, Lançamento Cruzado, Trajetória de Retorno, Finta de Retorno ou Mudar o Destino. As superfícies e a mudança de defesa descritas acima já fazem parte desta execução, sem novos custos. Não há ataques de continuação depois da sequência.
+
+Ganhos de Fluidez pelos acertos seguem os limites normais do Caminho, sem novas obtenções extras. Manejo Contínuo pode recuperar a arma depois do último ataque, se estiver disponível e a arma cumprir seus requisitos. A execução não garante retorno à mão.
+
 ---
 
 
@@ -4357,7 +5893,7 @@ Com o Fundamento escrito, os feitiços saem dele. Montar um feitiço é uma cont
 
 ### Teto de feitiços
 
-Antes de montar o primeiro, veja quantos você tem direito de escrever. A conta é do capítulo 18, *Experiência e Progressão*.
+Antes de montar o primeiro, veja quantos você tem direito de escrever. A conta é do capítulo 19, *Experiência e Progressão*.
 
 > **Espaços de feitiço conhecido = `2 + (nível ÷ 2)`, arredondando para baixo. Mais um por marco já alcançado.**
 > Os marcos são os níveis **6, 10, 14, 18, 22, 26 e 30**.
@@ -5094,7 +6630,7 @@ Oito regras seguram o sistema inteiro. Se um feitiço passar pelas oito, ele é 
 | **26** | Classe 7. |
 | **30** | A terceira Liberação Máxima. |
 
-O Fundamento manda na Classe, na Liberação Máxima e em quando cada Classe Passiva abre. Quantos feitiços você conhece é conta de *Experiência e Progressão*: a fórmula está resumida em *Criando feitiços*, e a progressão nível a nível mora no capítulo 18, *Experiência e Progressão*.
+O Fundamento manda na Classe, na Liberação Máxima e em quando cada Classe Passiva abre. Quantos feitiços você conhece é conta de *Experiência e Progressão*: a fórmula está resumida em *Criando feitiços*, e a progressão nível a nível mora no capítulo 19, *Experiência e Progressão*.
 
 O que continua valendo aqui: **Passiva é paga com espaços dessa lista**, a **Expansão de Domínio** também, e as **Liberações Máximas ficam de fora**, porque elas não ocupam espaço.
 
@@ -5666,7 +7202,7 @@ Quem escolhe Refino em todo marco bate no teto no nível 22. Dali em diante esco
 > **Quem nunca escolhe Refino termina a campanha com zero aptidões.** A rota existe e é jogável.
 Mesmo essa ficha não fica sem nada. `Cobrir-se de energia` e `Canalizar energia` vêm de graça no refino 1, e a primeira continua crescendo com o refino passivo até 8. O que ela nunca vai ter é `Energia Reversa` nem `Barreira Simples`.
 
-*O marco é do capítulo 18, __Experiência e Progressão__: é lá que estão os sete níveis em que ele cai, quanto refino cada rota junta marco a marco, e o que Corpo e Leque compram.*
+*O marco é do capítulo 19, __Experiência e Progressão__: é lá que estão os sete níveis em que ele cai, quanto refino cada rota junta marco a marco, e o que Corpo e Leque compram.*
 
 ## Aptidões
 
@@ -6560,9 +8096,9 @@ O `Yumi` não carrega `Munição`. Uma flecha se encaixa como parte do disparo: 
 | **Marciais** | Lâmina Longa · Machado · Armas Longas · Flexível · Yumi | 19 |
 | **Arma de Fogo** | Arma de Fogo | 7 |
 
-> **Bastião e Vanguarda treinam as treze categorias.** Qualquer arma deste catálogo é deles.
+> **Bastião, Vanguarda e Incursor treinam as treze categorias.** Qualquer arma deste catálogo é deles.
 >
-> **Guia e Emanador treinam Arma de Fogo e Balestra**, as duas que se aponta e dispara sem precisar de anos de treinamento.
+> **Guia, Emanador e Evocador treinam Arma de Fogo e Balestra**, as duas que se aponta e dispara sem precisar de anos de treinamento.
 
 Um Caminho conjurador não pega espadão de graça: ele precisa da Trilha que concede a categoria, como a `Arma Condutora` do Condutor Armado. O quadro de cada Caminho está no capítulo 8, *Caminhos e Trilhas*.
 
@@ -6745,7 +8281,7 @@ Item comum — pé de cabra, lanterna, corda, o que estiver na mochila — é **
 
 ## Dinheiro e acesso
 
-> **A moeda é o iene. Você recebe um salário mensal da instituição, e o valor sai da sua patente** — a tabela **Salário por patente** está no capítulo 18, *Experiência e Progressão*.
+> **A moeda é o iene. Você recebe um salário mensal da instituição, e o valor sai da sua patente** — a tabela **Salário por patente** está no capítulo 19, *Experiência e Progressão*.
 >
 > **Dinheiro compra o que está à venda. O seu Grau libera o que não está.**
 
@@ -6819,7 +8355,7 @@ As linhas de baixo não são enfeite: o fundo da criação é uma mensalidade da
 
 > **Você começa Grau 4, com o `Traje` degrau 1 da instituição e ¥150.000 para comprar o resto.** São uma mensalidade de um Grau 4, que é o que você é.
 
-**O fundo é sempre uma mensalidade da patente em que o personagem começa**, e não um valor fixo. Quase toda ficha começa Grau 4 e por isso o número é ¥150.000, mas numa campanha que abre acima do nível 2, ou quando o mestre decide que o grupo já é gente da casa, a patente inicial sobe e o fundo sobe junto — é a tabela `Salário por patente`, no capítulo 18, que diz quanto.
+**O fundo é sempre uma mensalidade da patente em que o personagem começa**, e não um valor fixo. Quase toda ficha começa Grau 4 e por isso o número é ¥150.000, mas numa campanha que abre acima do nível 2, ou quando o mestre decide que o grupo já é gente da casa, a patente inicial sobe e o fundo sobe junto — é a tabela `Salário por patente`, no capítulo 19, que diz quanto.
 
 É isso que mantém a coluna de criação da arma de fogo viva inteira. **No Grau 4 cabem três das sete — a Pistola, o Revólver e a Espingarda; no Grau 3 entram o Rifle, a Submetralhadora e o Rifle de Precisão; e no Grau 2 a tabela `Arma de fogo` fecha, com a Metralhadora Pesada.** Não por acaso: o Grau 2 é a patente em que a arma de fogo deixa de precisar de autorização.
 
@@ -6860,7 +8396,7 @@ Uma ferramenta carrega no máximo **um** `Estigma`.
 |---|---|---|
 | ferramenta amaldiçoada | foi forjada para canalizar energia. Você empunha, e ela fere maldição | este capítulo |
 | objeto amaldiçoado | é a maldição presa numa forma de objeto. Você carrega, e o que está dentro dele age | este capítulo, *Objeto amaldiçoado* |
-| cadáver amaldiçoado | coisa sem vida que ganhou movimento próprio, com um núcleo no lugar do coração | as regras de invocação, fora desta edição |
+| cadáver amaldiçoado | coisa sem vida que ganhou movimento próprio, com um núcleo no lugar do coração | capítulo 17, Invocações |
 | maldição solta | a maldição sem forma de coisa nenhuma. É o que se exorciza | capítulo 4, *Dano, Condições e Cobertura* |
 
 Ferramenta e objeto são ranqueados pela mesma escada, pela força da energia que carregam: grau 4 a grau 1, mais o especial.
@@ -6995,7 +8531,1058 @@ Cada entrada abre com o nome e diz **quando o `Estigma` age**: sempre ligado, na
 ---
 
 
-# Capítulo 17 · Pactos
+# Capítulo 17 · Invocações
+
+*fonte: `manual/60-invocacoes.md`*
+
+Invocar põe outra criatura ao seu lado. Ela tem ficha, anda por conta própria e cumpre a tarefa que recebeu. Você continua com as suas ações. Para ela usar uma habilidade especial, você precisa comandar.
+
+Cada criatura é uma **entidade**. O tipo dela vem de duas coisas: a **origem**, que diz como você a conseguiu, e o **corpo**, que diz o que ela é.
+
+- **Técnica:** shikigami ou corpo amaldiçoado, obtido por um espaço de feitiço ou por uma lista de ritual.
+- **Criação:** shikigami guardado num talismã ou corpo amaldiçoado feito de peças.
+- **Maldição domada:** uma maldição que você enfrentou e passou a comandar.
+
+São cinco tipos. O que pertence à origem vale nos dois corpos; o que pertence ao corpo vale nas duas origens. O shikigami de técnica é a base, sem benefício próprio do tipo.
+
+## Entrada rápida
+
+**Você pode ter duas entidades ativas ao mesmo tempo.** Cada uma conserva a ficha inteira. Esse teto vale do nível 1 ao 30, dentro e fora de combate.
+
+Você e as entidades usam a mesma **iniciativa**, o lugar de vocês na ordem da luta. Um **ciclo** vai do começo de um turno seu ao começo do próximo. Nesse começo, cada entidade em campo recupera seu Movimento e uma **atuação básica**: a oportunidade de atacar, ajudar ou fazer outra ação permitida pela ficha. Conhecer duas básicas dá duas opções, não duas atuações.
+
+Todas as suas entidades dividem uma **Reação coletiva**: uma resposta a um acontecimento previsto numa habilidade. Ela também se renova no começo do seu turno. A sua Reação pessoal é separada.
+
+> **Para a primeira luta:**
+>
+> **Antes de começar**, você pode manifestar as entidades pagando os pontos de energia, ou **PE**, da entrada. Elas começam a luta em campo, com as tarefas que já tinham.
+>
+> **No seu turno**, cada entidade segue a tarefa recebida com a básica e o Movimento dela. Termine uma ação antes de começar a seguinte.
+>
+> **Para mudar as tarefas**, gaste a sua Ação Bônus. Ela orienta até todas as entidades em campo, e cada uma pode receber uma tarefa diferente.
+>
+> **Para comandar uma especial**, gaste a sua Ação Padrão. A entidade usa a básica ainda disponível e paga o PE da especial. Ela não faz a básica e a especial no mesmo ciclo.
+>
+> **Para entrar, trocar ou recolher**, gaste a sua Ação Bônus, no seu turno e consciente. Cada entrada também custa PE. Recolher não custa PE.
+
+**Entrar sem substituir não dá básica naquele ciclo.** A primeira tarefa custa outra Bônus. Na troca, a substituta recebe a primeira tarefa junto e pode receber uma básica ainda disponível de quem saiu. Ela só a recebe se ainda não tiver gasto uma básica naquele ciclo.
+
+**Para acertar**, role `d20 + atributo de acerto da entidade + sua maestria`. A maestria é o bônus de treino da sua ficha. Compare com a Defesa do alvo, o número que precisa alcançar para acertá-lo. Num efeito de resistência, é o alvo que rola contra a **CD**, a dificuldade do efeito.
+
+*Na mesa:* Kaito começa a luta com duas entidades de nível 5 manifestadas e orientadas. Cada entrada custou 2 PE. Uma usa sua básica de 2d6. Kaito gasta a Padrão para comandar a especial de Classe 2 da outra: ela ocupa a própria básica e custa 6 PE. A Bônus de Kaito continua disponível. Se o atributo de acerto da entidade é 3 e a maestria dele é 1, um 12 no d20 dá `12 + 3 + 1 = 16`: acerta Defesa 16.
+
+**A manifestação dura até o fim da cena.** Se a cena virar combate, ela continua até o fim da luta. Quando o combate acaba, pague o PE da entrada de novo para mantê-la. Não há cobrança por rodada só para a entidade existir.
+
+## Aquisição
+
+Toda entidade exige uma troca para ser obtida. Pagar pela entrada não compra uma entidade nova.
+
+**Espaço de feitiço.** Você ocupa um espaço da sua lista de feitiços conhecidos. Ele dá uma entidade no seu nível, que sobe de nível junto com você. A troca pode ser refeita quando você sobe de nível.
+
+**Lista de ritual.** Um feitiço de ritual traz uma lista de entidades que você vai domando. Você enfrenta o ritual sozinho. As entidades da lista sobem de nível junto com você.
+
+**Maldição domada.** Você busca e enfrenta a maldição; o grupo pode participar da luta. Ela conserva o nível e o conjunto de habilidades de quando foi domada. Não sobe com você nem recebe compensação por ficar para trás.
+
+**Criação.** A entidade é feita com tempo, testes e os materiais que a criação exigir. As criadas não sobem de nível junto com você. O procedimento de criar pertence ao sistema de criação.
+
+Não há limite de quantas entidades você pode ter. Isso não aumenta o teto de duas ativas. Os talismãs ocupam carga; os corpos amaldiçoados têm limite de inativos; as entidades de técnica ocupam espaço ou pertencem à lista de ritual. Sem técnica para recolhê-la, uma maldição domada fica no mundo.
+
+*Exemplo:* Kaito tem uma entidade de espaço e uma maldição domada, ambas no nível 5. Quando ele chega ao nível 6, a de espaço sobe para 6. A domada continua no 5, com as habilidades que tinha.
+
+### Domar
+
+**Derrote a maldição sem destruí-la. Fora da luta, ela faz um Teste de Resistência de Espírito contra a sua CD.** Se falhar, está domada. Se resistir, é exorcizada.
+
+Chegar a zero de vida não a destrói por si. A morte definitiva usa a vida máxima dela e os limites de *Queda e morte*, adiante. O nível da domada é o da maldição, até o seu nível.
+
+**Durante a luta**, você só tenta se o mestre permitir, na quantidade de vida que ele permitir. A tentativa custa a sua Ação Padrão e usa o mesmo Teste de Resistência. Não existe uma marca fixa de metade da vida para essa permissão.
+
+*Exemplo:* a maldição de nível 5 sobrevive à queda. Kaito, também no nível 5, tem CD 12. Fora da luta, o resultado total do TR de Espírito dela é 11: ela fica domada no nível 5. Um resultado 12 resistiria e a exorcizaria.
+
+## Montagem da entidade
+
+A entidade tem uma definição, atributos, básica, especiais e passivas. **Passiva** é uma característica que funciona sem você ordenar uma especial. **Classe** mede o tamanho de uma habilidade; **Classe Passiva** é a escala própria das passivas.
+
+Tudo que depende de nível usa o nível da entidade, que nunca passa do seu. A maestria usada no acerto, no Teste de Resistência treinado e na CD continua sendo a sua.
+
+### Definição
+
+Escreva o que a entidade é em menos de duas linhas. Toda habilidade e característica precisa caber nessa definição. Ela não ganha a Regra Própria gratuita, a Passiva Livre nem um Selo.
+
+A definição também precisa sustentar a anatomia, os sentidos e a comunicação que você quer usar. Não há mãos, fala, telepatia, visão compartilhada ou ataque implícitos. Uma entidade pode não ter ataque nenhum.
+
+*Exemplo:* Kaito começa pelo corpo: “Um cão de sombra que fareja energia amaldiçoada e morde quem persegue.” A definição sustenta o faro e a mordida; não dá mãos, leitura de pensamentos ou visão compartilhada.
+
+### Famílias
+
+As **Famílias** agrupam as Melhorias, os efeitos que você compra na montagem de uma habilidade. Das nove Famílias, a entidade tem **seis Fechadas e três abertas**. Escolha as abertas conforme a definição.
+
+Entre as três abertas, **uma é Livre**: a que a definição pede. Nela, a Melhoria custa metade da Classe a menos, com mínimo 1 tanto para o desconto quanto para o preço final. Arredonde o desconto para baixo. Nas outras duas, o preço é cheio. Uma Família Fechada não oferece suas opções.
+
+**Famílias da montagem**
+| Família | Do que trata |
+|---|---|
+| **Alcance** | Chegar longe, se mexer, mexer o inimigo de lugar |
+| **Área** | Pegar mais de um alvo, aumentar tamanho, dividir o ataque |
+| **Mira** | Acertar, não errar, atravessar defesa |
+| **Controle** | Derrubar, prender, calar, barreira, terreno |
+| **Auxiliares** | Somar e tirar número: vantagem, defesa, CD, deslocamento |
+| **Castigo** | Fazer o dano render mais |
+| **Tempo** | Ação bônus, reação, deixar armado, conjurar escondido |
+| **Marca** | Preparar o próximo golpe, roubar vida, rastrear |
+| **Amparo** | Curar, limpar condição, levantar aliado |
+
+`Projétil`, `Toque` e `Efeito`, as Formas que dizem como a habilidade sai, ficam disponíveis para todas. O mesmo vale para as Melhorias fora de família. Disponibilidade não dispensa a definição nem dá uma execução adicional.
+
+*Na mesa:* Kaito escolhe a Família Livre pelo que o shikigami faz. O faro e a mordida precisam justificar as Melhorias que ele comprar. Abrir uma Família não permite qualquer poder dentro dela sem relação com a criatura.
+
+### Básica e especial
+
+**A básica própria é de Classe 0, usa d6, não custa PE e não ocupa espaço de especial.** A entidade conhece uma até o nível 10 e duas do nível 11 em diante. Continua tendo uma atuação básica por ciclo.
+
+Uma básica pode receber uma Melhoria `Leve` e uma Restrição `Leve`, tirando um dado para pagar. Restrição é uma exigência aceita na montagem. Do nível 1 ao 4, tirar o único dado deixa a básica sem dado de dano.
+
+**A especial vai da Classe 1 até a Classe liberada pelo nível da entidade.** Ela tem os pontos da tabela e custa `3 × a Classe da especial` em PE. Os pontos montam a habilidade; o PE paga cada uso. São contas separadas.
+
+**Números da entidade**
+| Classe do nível | básica (Classe 0) | pontos da especial | o jogador |
+|---|---|---|---|
+| 1 (1–4) | 1d6 | 2 | 2d8 · 3 pontos |
+| 2 (5–8) | 2d6 | 4 | 3d8 · 6 pontos |
+| 3 (9–12) | 2d6 | 6 | 3d8 a 4d8 · 9 pontos |
+| 4 (13–16) | 2d6 | 9 | 4d8 · 12 pontos |
+| 5 (17–20) | 3d6 | 11 | 5d8 · 15 pontos |
+| 6 (21–25) | 3d6 | 13 | 5d8 a 6d8 · 18 pontos |
+| 7 (26–30) | 3d6 | 16 | 6d8 · 21 pontos |
+
+A primeira coluna mostra a Classe que o nível libera. A básica acompanha o nível da entidade. A especial conserva a Classe em que foi montada: uma entidade de Classe 4 pode conhecer uma especial de Classe 2, com 4 pontos e custo de 6 PE.
+
+O tamanho dos efeitos que crescem com a Classe usa **a Classe da especial menos 1, no mínimo 1**. Isso vale para `Rajada`, `Fura`, `Anteparo`, `Desarma o Feitiço`, `Sugar`, `Levanta`, `Remenda` e o tamanho das Formas de área. Essa redução não muda o acerto, o Teste de Resistência nem a CD da ficha.
+
+*Exemplo:* uma especial de Classe 4 tem 9 pontos e custa 12 PE. Para um dos efeitos dessa lista, ela usa Classe 3. Uma especial de Classe 1 usa Classe 1, pelo mínimo.
+
+### Espaços e passivas
+
+Os **espaços** pagam as especiais conhecidas e, na domada com técnica, a Expansão de Domínio. A conta é `(2 + nível ÷ 2) ÷ 2`, arredondando para baixo, sem somar espaços por marco. Começa com 1 no nível 1 e ganha um no 4, 8, 12, 16, 20, 24 e 28. Chega a 8.
+
+**A entidade ganha uma passiva no nível 1 e outra nos níveis 6, 10, 14, 18, 22, 26 e 30.** São oito no nível 30, fora dos espaços das especiais. Não há teto de cinco.
+
+Cada passiva entra na Classe Passiva mais alta que o nível liberou quando ela foi ganha: Classe Passiva 1 até o nível 6; 2 do 7 ao 12; 3 do 13 em diante. Assim, as passivas dos níveis 1 e 6 são de Classe Passiva 1, a do 10 é de Classe Passiva 2 e as do 14 em diante são de Classe Passiva 3.
+
+*Exemplo:* no nível 10, a entidade tem `(2 + 10 ÷ 2) ÷ 2 = 3,5`, arredondado para 3 espaços. Conhece uma básica e tem três passivas, recebidas nos níveis 1, 6 e 10. A segunda básica vem no 11; o próximo espaço, no 12.
+
+### Progressão
+
+Ao subir de nível, a entidade pode reescrever uma especial do zero. Confira também a vida, a Classe liberada, os dados da básica, os espaços e os marcos alcançados. Uma especial antiga não troca de Classe só porque a entidade subiu.
+
+A básica usa os dados da tabela, esteja a entidade sozinha ou em dupla. A especial também usa os próprios pontos: substituir sua Padrão por um comando não dá uma básica extra à entidade.
+
+### Montagem da habilidade
+
+**Escolha Classe, Forma e Melhorias. O que sobra dos pontos da especial vira d8 de dano.** A básica segue a quantidade de d6 da entidade, com o limite de uma Melhoria e uma Restrição `Leve`.
+
+1. **Classe.** Escolha até a liberada pelo nível da entidade. Separe os pontos da tabela *Números da entidade* e o custo de `3 × Classe` em PE.
+2. **Forma.** Escolha como ela atinge. Pague o preço da Forma quando houver. Ela não ocupa uma Melhoria.
+3. **Melhorias.** Compre efeitos das Famílias disponíveis. Na Livre, aplique o desconto. Uma peça própria conta como Melhoria.
+4. **Restrições.** Se aceitar uma exigência real, use os pontos devolvidos para pagar Melhoria. Devolução que sobrar se perde; não aumenta dano.
+5. **Resultado.** Cada ponto restante da especial vira 1d8. Anote alcance, alvo, resolução, duração, requisitos e custo. Escreva também como a entidade faz aquilo.
+
+**Os preços continuam usando a Classe real da especial.** A Classe menor é usada só no tamanho dos efeitos que escalam com ela. Não diminua o preço junto.
+
+Melhoria `Leve` custa metade da Classe; `Média`, a Classe; `Pesada`, Classe e meia. Arredonde o preço para cima. Restrições devolvem no máximo `2 × Classe` e nunca mais do que o gasto que podem pagar. Uma especial comum não passa dos próprios pontos em dados contra um alvo. Somando alvos e repetições, permanece o teto geral de `4 × Classe` em dados.
+
+**Limites da montagem**
+| Classe do feitiço | Melhorias | Restrições |
+|---|---|---|
+| **1 e 2** | 2 | 2 |
+| **3 e 4** | 3 | 2 |
+| **5 em diante** | 4 | 2 |
+
+Duas Melhorias escritas como uma pagam e contam como as duas. O `Efeito Próprio` conta no limite. Nenhuma montagem dispensa o comando da especial ou permite básica e especial no mesmo corpo no ciclo.
+
+*Exemplo:* a especial de Classe 2 tem 4 pontos. Uma Melhoria `Média` custa 2; na Família Livre, o desconto de 1 a deixa em 1. Sem Restrição, sobram `4 − 1 = 3d8`. Se a peça for `Fura`, ela ignora 2 de Redução de Dano: usa Classe 1 para o efeito, embora continue sendo uma especial de Classe 2 e custe 6 PE.
+
+### Formas
+
+Cada habilidade tem uma Forma. Nas tabelas de montagem, **você é quem executa a habilidade: a entidade**. Custos de comando continuam sendo do invocador. Redução de Dano é o desconto aplicado ao dano recebido; é diferente de proteção, que entra na Defesa.
+
+**Formas da entidade**
+| Forma | Custa | O que é | Como resolve |
+|---|---|---|---|
+| `Projétil` | — | 18 m, um alvo | Rolagem de acerto |
+| `Toque` | — | 1,5 m, um alvo. `Projétil` com a Restrição `Corpo a Corpo` embutida (devolve `Média`). | Rolagem de acerto |
+| `Explosão` | `Leve` | Esfera de raio 3 m, num ponto a até 18 m | Teste de Resistência, metade no sucesso |
+| `Aura` | `Leve` | Esfera de raio 3 m centrada em você. `Explosão` com `Corpo a Corpo` embutida (devolve `Média`). | Teste de Resistência, metade no sucesso |
+| `Cone` | `Leve` | 4,5 m saindo de você. A largura do cone em qualquer ponto é igual à distância daquele ponto até você. | Teste de Resistência, metade no sucesso |
+| `Linha` | `Leve` | 18 m por 1,5 m. Quando o comprimento chega ao topo da escada, `Maior` passa a subir a largura: 1,5 m → 3 m → 4,5 m. | Teste de Resistência, metade no sucesso |
+| `Cura` | `Média` | Um aliado a até 9 m. Os dados viram cura. Pode escolher alvo hostil. | Automático no aliado, acerto no hostil |
+| `Apoio` | — | Um aliado a até 9 m. Sem dano. Cada ponto que sobra vira 3 de vida temporária. | Automático |
+| `Onda` | `Pesada` | Esfera de raio 3 m centrada em você. A cura ou o apoio pega todos os aliados dentro, sem dividir. | Automático |
+| `Efeito` | — | Fora de combate. Sem dano. Ver *Fora de combate*. | Automático |
+
+`Explosão`, `Aura`, `Cone` e `Linha` exigem Área aberta. `Cura`, `Apoio` e `Onda` exigem Amparo aberto. `Projétil`, `Toque` e `Efeito` ficam para todas. Classe 0 não cura: não usa `Cura` nem `Onda`.
+
+Trocar acerto por Teste de Resistência, ou o contrário, é gratuito na montagem. No TR, o alvo rola o atributo pertinente, com maestria se treinado, contra a CD da entidade. Igualar ou passar resiste. As áreas de dano entregam metade no sucesso, salvo regra em contrário.
+
+**Base das Formas.** `Toque` alcança 1,5 m em qualquer Classe. `Projétil` alcança 9 m na Classe 0, 18 m nas Classes 1 a 5 e 36 m nas Classes 6 e 7. `Apoio` alcança 4,5 m, 9 m e 18 m nessas mesmas faixas; `Cura`, indisponível na Classe 0, alcança 9 m e 18 m.
+
+O tamanho de área da especial lê uma Classe abaixo, mínimo 1. `Explosão` e `Aura` têm raio 3 m até a especial de Classe 6 e 4,5 m na 7. `Cone` tem 4,5 m até a especial de Classe 6 e 9 m na 7. `Linha` tem 18 × 1,5 m até a especial de Classe 6 e 30 × 1,5 m na 7. Na Classe 0, `Explosão` e `Aura` têm raio 3 m, `Cone` tem 3 m e `Linha`, 9 × 1,5 m.
+
+O ponto da `Explosão` fica a até 9 m na Classe 0, 18 m nas Classes 1 a 5 e 36 m nas Classes 6 e 7; `Aura` é centrada na entidade. O raio básico de `Onda` é 3 m. Distância até o alvo e tamanho da área são medidas separadas.
+
+**Escadas da montagem**
+| Escada | Degraus |
+|---|---|
+| **Alcance** | 1,5 m → 9 m → 18 m → 36 m → 90 m → o que você enxergar |
+| **Esfera (raio)** | 3 m → 4,5 m → 6 m → 9 m → 15 m |
+| **Cone e Linha** | 4,5 m → 9 m → 18 m → 30 m → 60 m |
+
+As Melhorias que aumentam alcance ou área sobem essas escadas. Ao chegar ao último degrau, param. “O que você enxergar” usa olho nu, sem câmera, luneta, espelho ou visão emprestada.
+
+*Exemplo:* uma especial de Classe 6 usa o tamanho de área da Classe 5: o Cone básico tem 4,5 m. Se comprar um aumento de degrau de tamanho, chega a 9 m. Isso não muda o PE nem os pontos da especial.
+
+**Ampliar.** Uma especial conhecida pode ser usada numa Classe maior, até a maior liberada, pagando o PE novo e refazendo pontos, preços e devoluções. A natureza da habilidade continua a mesma. Isso é diferente de reescrever a especial ao subir de nível.
+
+**Cura.** Pague a Forma e transforme os dados restantes em cura. `Onda` aplica a cura ou o apoio aos aliados na área sem dividir; `Junto` acrescenta aliado dividindo. A Forma `Cura` pode mirar alvo hostil com acerto: contra uma maldição, energia positiva causa os dados como dano com 50% a mais; contra outro alvo hostil, não faz nada. Essa aplicação exige `Energia Reversa`, e a entidade não a recebe por escolher a Forma. Não há Liberação Máxima de cura.
+
+**Controle.** Uma especial com Melhoria de Controle e dano final de até um quarto do teto geral — até a Classe em dados — ganha uma rodada nos efeitos de Controle. Sem dano, ganha também +2 na CD desses efeitos. O TR do dano não recebe esse bônus. O limite que reserva condições `Média` e `Pesada` à especial comandada continua valendo.
+
+**Efeito fora de combate.** A Forma `Efeito` não causa dano nem rola dado. Os pontos compram Melhorias; sobras não viram dano. Custa o PE normal e ocupa espaço quando não é Classe 0.
+
+**Escala da Forma Efeito**
+| Classe | O que cabe | Quanto dura |
+|---|---|---|
+| **0** | Coisa de mão: acender uma vela, trancar uma porta, marcar um objeto. | até você desfazer |
+| **1** | Uma pessoa, um objeto pequeno, um cômodo apertado. | um minuto |
+| **2** | Um cômodo grande, uma parede, um carro, meia dúzia de pessoas. | dez minutos |
+| **3** | Uma casa, um quarteirão, uma dúzia de pessoas. | uma hora |
+| **4** | Um prédio, uma rua inteira, uma multidão. | um dia |
+| **5** | Um bairro, uma noite inteira, o clima do lugar. Um prédio dormindo ao mesmo tempo, um rio parando de correr, uma ponte que não deixa ninguém passar. | uma semana |
+| **Máxima** | Uma cidade, uma coisa que vira notícia. Todo mundo esquecendo um nome, um bairro de onde ninguém sai, uma noite que não amanhece. | até alguém desfazer |
+
+*Na mesa:* um `Efeito` de Classe 1 trabalha na escala de uma pessoa, objeto pequeno ou cômodo apertado por um minuto. A definição da entidade ainda precisa comportar o que será feito; a Forma não lhe dá qualquer poder daquela escala.
+
+### Catálogo de Melhorias
+
+Compre só o que cabe na definição e nas Famílias abertas. As tabelas usam a Classe real para o preço. Nas sete peças que escalam abaixo, **Classe do efeito** significa `Classe da especial − 1`, no mínimo 1.
+
+**Melhorias de Alcance**
+| Melhoria | Custo | O que faz |
+|---|---|---|
+| `Longe` | `Leve` | Sobe um degrau na escada de alcance. Pode comprar duas vezes. |
+| `Muito Longe` | `Média` | Sobe três degraus de uma vez. |
+| `Sem Ver` | `Pesada` | Você conjura contra um alvo fora da sua linha de visão, desde que saiba onde ele está. Alcance normal do feitiço. |
+| `Passo` | `Leve` | Você anda até 6 m antes ou depois do feitiço, sem provocar ataque de oportunidade. |
+| `Empurrão` | `Leve` | Move o alvo até 6 m na direção que você quiser. |
+| `Troca` | `Média` | Você e o alvo trocam de lugar. |
+| `Perseguir` | `Média` | Se o alvo sair do alcance antes de o feitiço concluir, o feitiço vai atrás. |
+
+**Melhorias de Área**
+| Melhoria | Custo | O que faz |
+|---|---|---|
+| `Maior` | `Leve` | Sobe um degrau de tamanho de área. Pode comprar duas vezes. |
+| `Muito Maior` | `Pesada` | Sobe três degraus de tamanho de uma vez. |
+| `Escolher` | `Média` | Você decide quem, dentro da área, é atingido. |
+| `Fica` | `Média` | A área continua ali por 1 minuto. Quem entrar ou começar o turno nela leva metade dos dados. Exige concentração. |
+| `Mais Um` | `Leve` | Um alvo a mais. Os dados são divididos entre os alvos. Pode comprar duas vezes. |
+| `Rajada` | `Leve` | Divide o feitiço em (Classe do efeito + 1) tiros, cada um com sua rolagem de acerto, distribuídos como você quiser. |
+| `Salto` | `Média` | Depois do primeiro alvo, pula para o inimigo mais perto a até 9 m com metade dos dados. |
+| `Contorno` | `Leve` | A área faz curva. Ignora cobertura e dobra esquinas. |
+
+**Melhorias de Mira**
+| Melhoria | Custo | O que faz |
+|---|---|---|
+| `Precisão` | `Leve` | +2 na rolagem de acerto, ou +2 na CD do Teste de Resistência. |
+| `Certeiro` | `Média` | Sem rolagem de acerto. O alvo ainda faz o Teste de Resistência para metade. |
+| `Inescapável` | `Média` | Sem acerto e sem Teste de Resistência: o dano é automático. Este feitiço não pode ter mais nenhuma peça, nem Melhoria nem Restrição, e não pode ser uma Liberação Máxima. |
+| `Fura` | `Média` | Ignora até 2 × Classe do efeito de Redução de Dano. |
+| `Corrói` | `Pesada` | Resistência ao seu tipo de dano deixa de valer neste feitiço. Só pode ser comprada se Mira for uma das suas Famílias Livres. |
+| `Sem Cobertura` | `Leve` | Cobertura `Parcial` não atrapalha. A `Total` não se fura: ela não é bônus, é a ausência de alvo legal. |
+| `De Novo` | `Média` | Se você errar, rola de novo. Uma vez por cena. |
+| `Toca a Alma` | `Leve` | Só da Classe 3 em diante, e só quando a definição da entidade for direta sobre alma. Os dados de dano deste feitiço viram dano na alma, e você fica com metade deles, arredondando para baixo. Não entra numa Liberação Máxima. |
+
+**Melhorias de Controle**
+| Melhoria | Custo | O que faz |
+|---|---|---|
+| `Condição` | o nível dela | Aplica uma das treze condições. O preço é o nível dela (`Leve`, `Média` ou `Pesada`), e a seção *Condições* traz as três listas. Dura uma rodada, a não ser que o feitiço tenha a `Concentrada` ou a `Duradoura`. As de nível `Pesada` dão Teste de Resistência no fim de cada turno do alvo, e só pode ser colocada uma delas por feitiço. |
+| `Terreno` | `Leve` | A área vira terreno difícil, ou fica obscurecida, por uma rodada. |
+| `Anteparo` | `Média` | Deixa uma parede ou escudo com 10 × Classe do efeito de pontos de vida, por 1 minuto. Ocupa os mesmos quadrados que a `Linha` da Classe do efeito, arrumados como você quiser, cada um partilhando um lado com outro. Altura mínima 2 quadrados. Colocado num ponto a até o alcance do feitiço. |
+| `Prende` | `Média` | O alvo não sai do lugar até o fim do próximo turno dele. Ele pode gastar uma ação — qualquer uma, menos livre — para tentar um Teste de Resistência e se soltar. O Teste é decidido na criação do feitiço. |
+| `Cerca` | `Leve` | O alvo não consegue se aproximar de você até o fim do próximo turno dele. Acaba assim que você causar dano a ele — inclusive o dano do próprio feitiço que comprou esta Melhoria. |
+| `Puxa` | `Média` | Todo mundo na área é puxado 6 m na direção do centro. |
+| `Desarma o Feitiço` | `Média` | Cancela um efeito contínuo ou uma barreira de Classe igual ou menor que a Classe do efeito. |
+
+**Melhorias de Auxiliares**
+| Melhoria | Custo | O que faz |
+|---|---|---|
+| `Impulso` | `Leve` | O alvo tem vantagem no próximo teste dele, até o fim do próximo turno. |
+| `Trava` | `Leve` | O alvo tem desvantagem no próximo ataque dele. |
+| `Abre Ferida` | `Leve` | O alvo fica com −2 em um Teste de Resistência até o fim do próximo turno dele. |
+| `Sobrecarga` | `Leve` | Até o fim do próximo turno do alvo, ele não usa Reação, e o feitiço dele sai com a CD 2 menor. |
+| `Firmeza` | `Média` | O alvo tem vantagem no próximo Teste de Resistência dele. |
+| `Guarda` | `Média` | Até o fim do próximo turno, o alvo tem +2 de defesa. |
+| `Pressa` | `Média` | O alvo ganha +6 m de deslocamento e não provoca ataques de oportunidade até o fim do próximo turno. |
+| `Enfraquece` | `Média` | O dano do alvo cai `Xd4` até o fim do próximo turno dele, com X sendo metade do seu atributo de técnica. |
+| `Ecoa` | `Média` | O próximo ataque de um aliado contra o alvo tem vantagem. |
+
+**Melhorias de Castigo**
+| Melhoria | Custo | O que faz |
+|---|---|---|
+| `Queima` | `Média` | Metade dos dados de novo, no começo do próximo turno do alvo. |
+| `Acúmulo` | `Média` | +1 dado por rodada seguida usando este feitiço no mesmo alvo. Para de somar em +3. |
+| `Remate` | `Média` | +25% de dano contra alvo abaixo de metade da vida. Não entra num feitiço que tenha uma `Condicional` ligada à vida do alvo ou à duração, nem num feitiço com a Restrição `Aquecer`. |
+| `Estilhaço` | `Leve` | Em crítico, ou quando o alvo falha o Teste de Resistência por 5 ou mais, metade dos dados respinga em quem estiver do lado. |
+| `Quebra Coisa` | `Leve` | Dano dobrado contra barreiras, objetos e estruturas. |
+| `Rasga Escudo` | `Média` | O dano ignora `vida temporária` e barreiras: bate direto na vida. Não ignora Redução de Dano. |
+| `Sem Cura` | `Média` | O alvo não pode receber cura até o fim do próximo turno dele. |
+
+**Melhorias de Tempo**
+| Melhoria | Custo | O que faz |
+|---|---|---|
+| `Rápido` | `Pesada` | Custa Ação Bônus em vez de Ação Padrão. Não entra no mesmo feitiço que `Reação` nem com a Restrição `Atrasar`. |
+| `Reação` | `Pesada` | Você conjura como Reação, a um gatilho que você declara quando monta o feitiço. Não entra no mesmo feitiço que `Rápido` nem que `Armado`, nem com as Restrições `Atrasar` e `Parado`. |
+| `Armado` | `Leve` | Você gasta a ação e o PE do feitiço, e ele fica armado até o fim da cena. Na hora de armar, escolha um gatilho que a mesa consiga ver acontecer e que não seja um momento do seu próprio turno. Quando ele acontece, o feitiço sai sem gastar Reação, com alcance e alvo conferidos naquela hora. Um armado por vez. Se ele não sair, porque a cena acabou ou porque você armou outro, metade do PE volta. Não entra no mesmo feitiço que `Reação` nem com a Restrição `Carregar`. |
+| `Silencioso` | `Leve` | Sem gesto, sem palavra. Usar não revela a sua posição e não exige nenhum sinal. Dispensa Selo de gesto ou de som; Selo de condição, como enxergar o alvo, continua valendo. |
+| `Adianta` | `Média` | Se você conjurar antes de qualquer inimigo agir na rodada, +2 na CD. |
+| `Segura` | `Leve` | Você pode adiar o efeito por até uma rodada e disparar no seu próximo turno, de graça. |
+| `Concentrada` | `Leve` | Os efeitos de estado do feitiço, que hoje duram uma rodada ou até o fim do próximo turno, passam a durar o tempo da tabela `Quanto dura`. Exige concentração. Não vale para o dano, para a `Fica` nem para o `Anteparo`. |
+| `Duradoura` | `Média` | A mesma coisa que a `Concentrada`, só que sem exigir concentração, e com o tempo da coluna `Duradoura` da tabela `Quanto dura`. |
+
+**O comando continua obrigatório.** `Rápido` não torna uma especial autônoma nem dá Bônus à entidade. `Reação` e `Armado` também não substituem os procedimentos de ordem antecipada e `Preparar`. A relação dessas montagens com as ações de comando precisa estar resolvida no texto da capacidade; não deduza execução gratuita da tabela.
+
+Quando a regra geral de conjuração permitir feitiço por Bônus ou Reação, o único outro feitiço naquele turno é Classe 0. Não use uma opção do catálogo para ignorar o limite de uma básica do corpo ou a coletiva.
+
+**Duração dos efeitos**
+| O que o efeito faz | Concentrada | Duradoura |
+|---|---|---|
+| Condição, buff ofensivo e debuff | 1 minuto | 1 minuto |
+| Buff defensivo numérico: um bônus fixo na Defesa ou num Teste de Resistência (a `Guarda`) | 10 minutos | 1 minuto |
+| Buff defensivo mecânico: resistência, imunidade, pontos de vida ou dividir dano (a `Divide`) | 10 minutos | Classe 1 e 2: 1 hora · Classe 3: 8 horas · Classe 4 em diante: 24 horas |
+
+O feitiço inteiro usa a menor duração entre seus efeitos. Concentração mantém um efeito por vez; sofrer dano exige TR de Vigor contra a CD de quem causou o dano.
+
+**Melhorias de Marca**
+| Melhoria | Custo | O que faz |
+|---|---|---|
+| `Marca` | `Leve` | O alvo fica marcado até o fim do seu próximo turno. **Você** tem vantagem no seu próximo ataque contra ele. Só você. |
+| `Alvo de Caça` | `Leve` | O alvo fica marcado até o fim do seu próximo turno. Daí em diante, cada ataque **seu** que acertar ele causa 1d4 a mais, e o feitiço que marcou não ganha o dado. Vale arma, desarmado e feitiço com rolagem de acerto, e cada tiro da `Rajada` conta. Se este feitiço tiver o `Rápido`, o dado é 1d8. Não entram feitiço de Teste de Resistência, dano que volta em rodada seguinte como o da `Queima`, respingo, nem ataque da sua invocação. Um alvo marcado por vez: marcar outro apaga a marca anterior. |
+| `Rastro` | `Leve` | Você sabe onde o alvo está por 1 hora, desde que ele esteja no mesmo plano. |
+| `Sugar` | `Média` | Você recupera um quarto do dano causado, até no máximo 5 × Classe do efeito. |
+| `Isca` | `Leve` | Até o fim do próximo turno do alvo, ele tem desvantagem em qualquer ataque que não mire você. |
+| `Cobrança` | `Média` | Se o alvo cair nesta cena, o seu próximo feitiço custa metade. |
+| `Aviso` | `Leve` | Você sabe qual foi o último feitiço que o alvo usou e de que Classe ele era. |
+
+**Melhorias de Amparo**
+| Melhoria | Custo | O que faz |
+|---|---|---|
+| `Limpa` | `Média` | Remove de um aliado uma condição de nível `Leve` ou `Média`. |
+| `Limpa Fundo` | `Pesada` | Remove de um aliado uma condição de qualquer nível. |
+| `Levanta` | `Pesada` | Um aliado caído em 0 pontos de vida volta de pé com 5 × Classe do efeito, seja qual for a vida máxima dele. Uma vez por cena. |
+| `Divide` | `Média` | Um aliado a até 9 m passa a receber metade do dano que você receberia, até o fim do próximo turno. Você escolhe na hora de conjurar. |
+| `Junto` | `Leve` | A cura ou o apoio pega um aliado a mais. O efeito é dividido entre eles. Pode comprar duas vezes. |
+| `Reserva` | `Média` | A cura fica guardada no aliado e é usada sozinha quando ele cair abaixo da metade da vida. Dura até o fim da cena. |
+| `Remenda` | `Pesada` | Devolve 5 × Classe do efeito de Integridade a um aliado. Uma vez por cena, por alvo. |
+
+**Melhoria fora de família**
+| Melhoria | Custo | O que faz |
+|---|---|---|
+| `Efeito Próprio` | o mestre decide | Uma mecânica que não existe em lugar nenhum desta lista. Um deslocamento junto com o dano, um efeito que só funciona em superfície molhada, o que for. Um por feitiço, e ele conta como uma Melhoria no limite da Classe. Combinado antes da sessão e nunca no meio dela. Não pertence a nenhuma Família, então Família Fechada não bloqueia. |
+
+Uma condição usa o nível que tem na regra geral. Só uma `Pesada` por habilidade, com TR no fim de cada turno do alvo. O texto abaixo adapta `Atordoado` à atuação da entidade.
+
+**Condições de nível `Leve`**
+| Nível `Leve` | O que faz |
+|---|---|
+| `Lento` | Deslocamento pela metade, e sem Ação Bônus. |
+| `Incapacitado` | Você não pode Bloquear, e todo ataque corpo a corpo que acertar você é crítico. Só ele: conjuração e ataque à distância não, e o feitiço de Toque é conjuração mesmo encostado em você. |
+| `Derrubado` | No chão. Só se move rastejando, desvantagem nos seus ataques, e quem ataca de até 1,5 m tem vantagem; de longe, desvantagem. |
+| `Agarrado` | Deslocamento 0. Acaba se quem agarrou ficar `Incapacitado`, ou se algo te tirar do alcance dele. Ataque à distância contra quem está agarrando tem 50% de chance de errar o alvo: role `1d10`, e em 6 ou mais você acerta o alvo desejado; em 5 ou menos, acerta quem está agarrando. |
+| `Desarmado` | A sua arma está no chão ou na mão de outro. Você bate desarmado até pegar de volta. |
+| `Surdo` | Não ouve. Falha automática em teste que precise de audição, e −2 na iniciativa. |
+
+**Condições de nível `Média`**
+| Nível `Média` | O que faz |
+|---|---|
+| `Calado` | Você não conjura. Nada que precise de voz, gesto ou Selo que envolva voz sai. |
+| `Enfeitiçado` | Você não ataca quem enfeitiçou nem mira efeito nocivo nele, e ele tem vantagem em teste social contra você. |
+
+**Condições de nível `Pesada`**
+| Nível `Pesada` | O que faz |
+|---|---|
+| `Impedido` | Deslocamento 0, desvantagem nos seus ataques e no Teste de Resistência Físico, e vantagem para quem te ataca. |
+| `Cego` | Não enxerga. Falha automática em teste que precise de vista, desvantagem nos seus ataques, vantagem para quem te ataca. |
+| `Amedrontado` | Desvantagem em ataque e teste enquanto enxergar a fonte do medo, e você não se aproxima dela de vontade própria. |
+| `Envenenado` | Desvantagem nos seus ataques e em todo teste de perícia. |
+| `Atordoado` | A entidade perde uma atuação básica e não usa a Reação coletiva enquanto estiver `Atordoado`. A condição não gasta a coletiva das outras entidades. |
+
+*Exemplo:* comprar `Condição` para deixar o alvo `Lento` cabe numa básica, pagando a Melhoria `Leve` com um dado. Deixá-lo `Atordoado` exige especial comandada, mesmo se a definição sugerir uma aura que paralisa.
+
+### Restrições
+
+São exigências reais em troca de pontos para pagar Melhorias. Cabem no máximo duas, devolvendo até `2 × Classe`. Nunca devolvem `Pesada`, nunca viram dano e nunca pagam mais do que foi gasto em Melhorias.
+
+**Restrições da montagem**
+| Restrição | Devolve | O que muda |
+|---|---|---|
+| `Corpo a Corpo` | `Média` | `Projétil` vira `Toque` (1,5 m). `Explosão` vira `Aura`, centrada em você. `Cone` e `Linha` já saem de você, então não podem pegar esta. |
+| `Atrasar` | `Média` | Custa a rodada inteira (Ação Completa): você não se move, não usa ação bônus e não faz mais nada naquele turno. |
+| `Parado` | `Leve` | Você não se move no turno em que conjura. A ação bônus continua sua. |
+| `Gesto` | `Leve` | Precisa das duas mãos livres e de falar em voz audível. |
+| `Sangra` | `Média` | Você toma 2 × Classe de dano que não pode ser reduzido. |
+| `Recuo` | `Leve` ou `Média` | Você fica com uma condição até o fim do seu próximo turno. Ela devolve o nível dela: uma condição `Leve` devolve `Leve`, uma `Média` devolve `Média`. Nível `Pesada` não entra, porque Restrição nunca devolve `Pesada`. |
+| `Carregar` | `Média` | Você gasta um turno carregando o feitiço antes de disparar. Se tomar dano nesse meio-tempo, faz um Teste de Resistência de Espírito contra a CD de quem te feriu para manter. Se falhar, perde o feitiço. Carregar não é concentração: o feitiço ainda não saiu. |
+| `Tudo ou Nada` | `Leve` | Quem passa no Teste de Resistência não toma nada, em vez de tomar metade. Só em feitiços de Teste de Resistência. |
+| `Uma Vez` | `Leve` | Uma vez por cena. |
+| `Condicional` | `Leve` ou `Média` | Só funciona quando uma condição de cena ou de alvo, escrita na ficha, é verdadeira: no escuro, marcado por você, abaixo de metade da vida, perto de água corrente. Falha em menos de uma cena a cada três: devolve `Leve`. Falha na maioria das cenas: devolve `Média`. |
+| `Fraqueza` | `Leve` ou `Média` | Depois de usar, você fica com desvantagem num dos quatro Testes de Resistência, escolhido na montagem, até o fim da cena. Vigor ou Intelecto: `Leve`. Físico ou Espírito: `Média`. |
+| `Frágil` | `Leve` | Se você tomar dano antes do seu próximo turno, o efeito do feitiço acaba na hora. Só serve em feitiço que deixa algo durando. |
+| `Barulho` | `Leve` | Todo mundo num raio de 90 m ouve, e sabe de onde veio. |
+| `Assinatura` | `Leve` | O feitiço deixa uma marca visível que dura 1 hora e aponta para você. |
+| `Aquecer` | `Leve` | Não pode ser usado na primeira rodada do combate. |
+| `Dívida` | `Média` | Depois de usar, o próximo feitiço que você conjurar nesta cena custa **`2 ×` a Classe deste feitiço** de energia a mais — **mesmo que ele seja de Classe 0**. |
+| `Peso Morto` | `Leve` | Seu deslocamento cai pela metade até o fim do próximo turno, e você recebe `−1` no seu Teste de Resistência Físico. |
+| `Sem Volta` | `Média` | Se o feitiço não acertar ninguém, você não conjura nada no seu próximo turno. |
+
+**Restrição própria**
+| Restrição | Devolve | O que muda |
+|---|---|---|
+| `Restrição Própria` | `Leve` ou `Média` | Uma desvantagem que não existe nesta lista. Escrita com o mestre antes da sessão, nunca no meio dela, e vale só para o feitiço onde nasceu. Conta no limite de duas Restrições e obedece as mesmas travas de todas as outras. |
+
+Uma Restrição própria é escrita com o mestre antes da sessão. Se atrapalha em menos de uma cena a cada três, devolve `Leve`; se atrapalha na metade das cenas ou mais, `Média`. Se não há uma cena em que atrapalhe, não devolve ponto. Na dúvida de preço, uma Melhoria própria é `Pesada`; uma Restrição própria é `Leve` ou não serve.
+
+**Escolha no máximo uma Restrição de frequência:** `Uma Vez`, `Condicional`, `Aquecer`, `Dívida` ou uma própria que limite quando a habilidade pode sair. Duas Restrições não podem cobrar a mesma coisa. Depois de três sessões, o mestre revê as que nunca atrapalharam e as troca, salvo se a habilidade nunca foi usada.
+
+*Exemplo:* `Parado` devolve uma `Leve` se a entidade abrir mão de se mover no turno da execução. Ela não vende os metros do invocador. Já `Atrasar` cobra uma rodada inteira: a entidade não recebe suas ações de personagem para pagar isso. A montagem precisa deixar esse custo resolvido antes de ser usada.
+
+### Escolha das passivas
+
+A entidade recebe as passivas nos níveis escritos em *Espaços e passivas*. Elas não gastam os espaços de especial. Classe Passiva 1 comporta efeito pequeno, condicional ou de informação; Classe Passiva 2, efeito reativo com limite de uso; Classe Passiva 3, mudança permanente.
+
+As entradas abaixo são opções da regra comum, sujeitas à definição. Elas não dão técnica, reserva, ações do invocador ou execução adicional à entidade. Uma característica de armazenamento também pode ocupar uma passiva, pelas regras de *Carga e equipamento*.
+
+**Passivas de referência**
+| Passiva | Classe Passiva | O que faz |
+|---|---|---|
+| `Leitura` | 1 | Você identifica a Classe e a Forma de qualquer feitiço conjurado a até 18 m. |
+| `Instinto` | 1 | Você não é pego de surpresa enquanto estiver acordado. |
+| `Raiz` | 1 | Você não é movido à força nem derrubado contra a sua vontade. |
+| `Mão Firme` | 1 | Você não perde concentração nem carga por dano de 10 ou menos. |
+| `Farejador` | 1 | Você sente se alguém conjurou num lugar nas últimas 24 horas, e de que Classe. |
+| `Aviso` | 1 | Você sabe qual foi o último feitiço que um inimigo à vista usou. |
+| `Fluxo` | 2 | Ao conjurar Classe 3 ou mais, você ganha 2 × Classe de vida temporária. |
+| `Eco` | 2 | Quando você derruba um inimigo com feitiço, o próximo feitiço da cena custa metade. |
+| `Costura` | 2 | Uma vez por cena, um aliado a até 9 m que cairia a 0 fica com 1. |
+| `Contramedida` | 2 | Como Reação, quando alguém conjura a até 9 m, gasta PE e sobe em 2 a CD daquele feitiço. |
+| `Escama` | 3 | Escolha um tipo de dano que a definição da entidade justifique. Você tem resistência a ele: todo dano daquele tipo cai pela metade. |
+| `Afinidade` | 3 | Escolha um tema da definição da entidade. Feitiços daquele tema ignoram cobertura `Parcial` e resistência ao seu tipo de dano. |
+| `Passiva Própria` | 1 a 3 | Qualquer outra coisa, montada com o mestre na escala das outras entradas desta tabela. |
+
+O catálogo não autoriza condição `Média` ou `Pesada` por passiva. Uma passiva reativa paga a coletiva quando exigir Reação; não dá outra reserva. Cura continua sem alcançar entidade a zero. Corpo amaldiçoado exige uma técnica feita para curá-lo ou reparo.
+
+*Exemplo:* `Farejador`, Classe Passiva 1, permite ao cão de sombra sentir se alguém conjurou ali nas últimas 24 horas e de que Classe. Isso não mostra ao invocador tudo que o cão percebe nem revela sozinho quem conjurou.
+
+## Ficha da entidade
+
+**Distribua 9 pontos entre Força, Destreza, Constituição, Inteligência e Essência, sem passar de 3 na criação.** A cada marco, some 1 ponto de atributo. O teto depois da criação é 6.
+
+Escolha o atributo de acerto na montagem. A entidade tem um Teste de Resistência treinado; nos outros, a maestria não entra. Físico usa Força ou Destreza, escolhida na criação; Vigor usa Constituição; Intelecto usa Inteligência; Espírito usa Essência. O **Teste de Resistência**, ou **TR**, é a rolagem para resistir a algo que acontece com ela.
+
+> **Acerto:** atributo dela + sua maestria. Role d20 e some esse bônus.
+>
+> **CD:** 8 + atributo dela + sua maestria.
+>
+> **TR treinado:** d20 + atributo dela + sua maestria.
+>
+> **Defesa sem uniforme:** 10 + Destreza dela + metade da sua Essência ou da sua Inteligência, arredondada para baixo.
+>
+> **Vida máxima:** `(5 + Constituição) + (3 + Constituição) × (nível − 1)`.
+
+**Corpo amaldiçoado de criação** usa 4 no lugar do 3 por nível. No nível 1 continua com `5 + Constituição`. O corpo amaldiçoado de técnica usa a vida normal. A vida ganha por nível é inteira.
+
+*Exemplo:* Kaito distribui Força 3, Destreza 2, Constituição 2, Inteligência 1 e Essência 1: `3 + 2 + 2 + 1 + 1 = 9`. Escolhe Força para o acerto. Com maestria 1 e Essência 2 de Kaito, o shikigami tem acerto `3 + 1 = +4`, CD `8 + 3 + 1 = 12` e Defesa `10 + 2 + 2 ÷ 2 = 13`. No nível 1, tem `5 + 2 = 7` de vida. No 5, tem `7 + 5 × 4 = 27`. Se fosse um corpo de criação, teria `7 + 6 × 4 = 31`.
+
+**Perícias treinadas:** escolha um número igual a `4 + metade da Inteligência da entidade`, arredondada para baixo. Use a lista de perícias do sistema e escolhas compatíveis com a definição. Nos testes treinados, some o atributo da perícia e a sua maestria; nos demais, apenas o atributo. **Ofícios exigem permissão expressa na ficha ou na regra de aquisição da entidade**; esses treinos não concedem ofícios automaticamente.
+
+O Movimento é próprio de cada corpo. Os metros disponíveis precisam estar definidos na ficha; a regra de invocações não fixa um valor único.
+
+### Traje e Revestimento
+
+**`Traje` e `Revestimento` são equipamentos normais.** Qualquer entidade pode vestir um que sua anatomia comporte. Eles não vêm das escolhas do construtor.
+
+Com um deles, a Defesa fica `10 + Destreza dela + proteção do item`. A proteção **substitui** a metade do seu atributo; as duas não somam. Requisito de Força, teto de Destreza, penalidade por requisito não cumprido e situação sob medida do `Traje` usam as regras do item, com os atributos da entidade.
+
+Vestir não é carregar. O escudo, por sua vez, precisa ser segurado. Pelas combinações de uniforme e escudo, a Defesa da entidade chega a 19: metade do seu atributo com `Broquel`, `Traje` 3 com `Broquel`, ou `Revestimento` 3 com `Torre`.
+
+*Exemplo:* o shikigami de Kaito tem Destreza 2 e recebia 1 de proteção pela metade da Essência dele. Vestindo um item de proteção 3 e cumprindo seus requisitos, a Defesa passa de 13 para `10 + 2 + 3 = 15`.
+
+## Exemplo de montagem
+
+Kaito quer uma entidade que procure sinais de conjuração e ataque de perto. Está no nível 2, tem maestria 1 e Essência 2. Ele ocupa um espaço de feitiço com um shikigami de técnica. A entidade começa no nível 2 e vai subir junto com ele.
+
+**Definição.** “Um cão de sombra que fareja energia amaldiçoada e morde quem persegue.” Kaito descreve um quadrúpede sem mãos, capaz de perceber e compreender suas ordens faladas. Isso não lhe dá fala ou telepatia.
+
+**Atributos.** Força 3, Destreza 2, Constituição 2, Inteligência 1 e Essência 1. São 9 pontos, nenhum acima de 3. Kaito escolhe Força para o acerto e a CD, e treina o TR Físico pela Força.
+
+**Famílias.** Mira é Livre, para a mordida precisa; Alcance e Controle ficam abertas, a preço normal. Área, Auxiliares, Castigo, Tempo, Marca e Amparo ficam Fechadas. São seis Fechadas e uma Livre entre as três abertas.
+
+**Básica.** Mordida na Forma `Toque`, sem Melhoria: 1d6, alcance 1,5 m, acerto +4 e nenhum PE. Kaito prefere conservar o único dado em vez de trocá-lo por uma condição `Leve`.
+
+**Especial.** Outra mordida, agora de Classe 1, na Forma `Toque`. Tem 2 pontos. Compra `Precisão`, `Leve` de Mira, por 1; o mínimo mantém o preço em 1 mesmo na Livre. O `Toque` traz `Corpo a Corpo`, que devolve 1 e paga a Melhoria. Conta: `2 − 1 + 1 = 2d8`. Custa 3 PE e tem acerto `3 + 1 + 2 = +6` com `Precisão`. Ela ocupa o único espaço da entidade: `(2 + 2 ÷ 2) ÷ 2 = 1,5`, para baixo, 1.
+
+**Passiva.** `Farejador`, a passiva de Classe Passiva 1 que veio no nível 1. Fica fora do espaço da especial. O cão sente conjuração feita no lugar nas últimas 24 horas e a Classe dela.
+
+**Ficha.** Vida `5 + 2 + (3 + 2) × (2 − 1) = 12`; Defesa `10 + 2 + 2 ÷ 2 = 13`; acerto +4; CD 12; TR Físico treinado `d20 + 3 + 1`. Entrada de 1 PE. Volta depois de cair de 2 PE, com 6 de vida. Ele não tem reserva própria nem equipamento. O Movimento ainda precisa receber o valor da ficha; esta regra não fixa os metros.
+
+**Na primeira luta.** Kaito paga a entrada antes da iniciativa e dá a tarefa de proteger a porta. Com o alvo a 1,5 m, no turno de Kaito o cão pode morder pela básica enquanto Kaito usa a Padrão para outra coisa. Ou Kaito pode gastar a Padrão e 3 PE para comandar a mordida especial: o cão usa a mesma oportunidade de básica, sem atacar de novo depois.
+
+**No nível 4**, o cão tem 22 de vida e 2 espaços, mas ainda uma básica conhecida e uma passiva. Kaito pode montar outra especial no espaço novo; ganhar espaço não executa nada de graça.
+
+**No nível 5**, a vida chega a 27, a básica passa a 2d6 e a entrada custa 2 PE. Ao reescrever a especial em Classe 2, ele ganha 4 pontos. `Precisão` custa 1; `Toque` devolve 2, mas só 1 é aproveitado para pagar a Melhoria. Sobram `4 − 1 + 1 = 4d8`, por 6 PE. Sem reescrever nem Ampliar, a versão de Classe 1 continuaria com os números antigos.
+
+**No nível 6**, Kaito põe o ponto de atributo do marco em Constituição, que vai a 3. A vida passa a `(5 + 3) + (3 + 3) × 5 = 38`. A segunda passiva ainda é de Classe Passiva 1: ele escolhe `Instinto`, ligado à atenção do cão durante a vigília. Os espaços continuam 2 e a básica, 2d6. A segunda básica conhecida só chega no nível 11.
+
+## Entidade em campo
+
+### Recursos e ciclo
+
+Você conserva suas ações. Não usar uma delas não a entrega à entidade.
+
+**Recursos do conjunto**
+| Recurso | A quem pertence | O que não concede |
+|---|---|---|
+| Atuação básica | Cada entidade | Não dá outra execução por conhecer outra capacidade. |
+| Movimento | Cada corpo | Não usa nem transfere os metros do invocador ou da criatura substituída. |
+| Reação coletiva | Todas as entidades do mesmo invocador | Não há uma reserva por corpo; a Reação pessoal não a abastece. |
+| Padrão/Bônus do invocador | Personagem | Não passam às criaturas quando ele deixa de usá-las. |
+
+No começo do seu turno, renove os recursos das entidades em campo e resolva os efeitos de começo de turno de cada uma. Organize as ações na ordem que escolher, concluindo uma antes da seguinte. No fim do seu turno, resolva os efeitos de fim de turno e os TR de cada criatura, mesmo das que não conseguiram agir.
+
+**O turno de cada corpo não começa quando ele se move.** Os momentos de começo e fim são os seus. Virar a rodada da luta, trocar, recolher, redirecionar ou comandar não renova recursos.
+
+*Na mesa:* Kaito move uma entidade, resolve sua básica, usa a própria Padrão e depois move a segunda. Nenhuma dessas escolhas abre outra renovação. Se a segunda ainda tiver uma básica disponível, pode usá-la numa oportunidade legal.
+
+### Entrada e recolhimento
+
+**Entrar, trocar e recolher custam a sua Ação Bônus.** Só acontecem no seu turno, com você consciente. Fora da luta, entrar e recolher não custam ação, mas a entrada continua custando PE.
+
+A sua Padrão pode virar Bônus, e a Bônus pode virar Movimento. A conversão nunca anda ao contrário. Se você usar a Padrão como uma segunda Bônus, já gastou a ação que comandaria a especial.
+
+Cada entrada custa a **Classe do nível da entidade** em PE. A tabela *Números da entidade* traz as faixas. Isso vale para manifestação, troca e retorno; voltar depois de cair tem o preço dobrado, explicado em *Queda e morte*. Recolher não custa PE.
+
+**Sem troca**, ela aparece num espaço livre a até 1,5 m de você. **Na troca**, a substituta direta aparece no lugar de quem sai. Se o lugar não comportar a entidade, use o espaço livre mais próximo.
+
+*Exemplo:* Kaito, no nível 13, manifesta uma domada de nível 5. Ela custa 2 PE, pela Classe dela, e aparece junto dele. Não custa 4 PE só porque Kaito já alcançou a Classe 4.
+
+Uma entrada sem substituição dá ao corpo novo seu Movimento, mas não cria básica nem renova a coletiva. Para dar a primeira tarefa, você gasta outra Bônus, que também pode orientar as demais entidades em campo. Sem tarefa executável, ela só preserva a si mesma pelas regras de *Intenção*.
+
+Se houver uma resposta reativa escrita na ficha e a coletiva estiver disponível, a entidade recém-chegada pode usá-la. Isso não cria uma básica nem fornece um ataque que ela não tenha.
+
+*Na mesa:* Kaito usa a Bônus para manifestar. Converte a Padrão em Bônus para orientar a recém-chegada e outra entidade. A nova pode se mover, mas espera a próxima renovação em campo para ter sua básica. Kaito não comanda uma especial com a Padrão que já converteu.
+
+Uma vaga aberta no turno inimigo espera seu turno. A saída por queda ou por morte do invocador pode acontecer a qualquer momento; ela não é um recolhimento voluntário.
+
+### Troca
+
+Trocar tira uma entidade e põe outra no lugar. A que entra para substituir a que sai é a **substituta direta**, escolhida naquela troca.
+
+1. Veja se quem sai tem uma básica ainda disponível e utilizável.
+2. Confira se a substituta ainda não gastou uma básica neste ciclo. Uma especial que ocupou a básica também conta como gasto.
+3. Transfira no máximo uma básica. Ela deixa de pertencer a quem saiu.
+4. Dê a primeira tarefa à substituta sem outra Bônus. Ela precisa receber a orientação, mesmo se não houver básica para transferir.
+5. A substituta usa o Movimento dela. A coletiva conserva o saldo do conjunto.
+
+**Transferir não copia.** Se a entidade que saiu voltar, não traz outra cópia da básica que entregou. Recolher a substituta não estorna a transferência. Trocar de posição, sair e voltar ou passar a oportunidade por vários corpos não apaga o histórico de uso de cada um.
+
+*Exemplo:* uma entidade de Kaito ainda não agiu. Ele a troca por outra que também não gastou básica no ciclo. A substituta recebe a básica e a tarefa “ataque quem está na porta”. Se a primeira já tivesse atacado, a troca ainda daria a tarefa, mas não daria básica.
+
+**Várias entradas.** Se uma troca legal tiver uma saída e várias entradas, escolha uma substituta direta. Só ela recebe a básica transferível e a orientação incluída. As outras entram junto de você, sem básica nem primeira tarefa gratuita.
+
+**Várias saídas.** Se várias saírem para uma entrar, ela recebe no máximo uma básica. Não some as oportunidades. Ela aparece no lugar de uma das que saíram, à sua escolha. Toda troca precisa respeitar o teto de duas ativas.
+
+Uma tarefa não cumprida pode ter deixado a básica sem uso. Já `Preparar`, a ação explicada adiante, gasta a básica na preparação. Recolher quem preparou não devolve nem transfere essa básica.
+
+### Retorno e reserva
+
+Anote por corpo a básica, o Movimento restante, a intenção, a vida, as condições e os usos de habilidade. Anote a coletiva uma vez para o conjunto.
+
+**Sair e voltar não recupera recurso nem cura.** A entidade ferida volta com a vida que tinha. Ordem especial antecipada e preparação acabam na saída e não voltam com ela.
+
+No começo do ciclo seguinte, acaba a trava da básica usada no ciclo anterior, mesmo para quem está recolhida. Ela pode receber uma transferência legal no ciclo novo, mas não ganha uma básica própria na reserva. Oportunidades antigas não se acumulam.
+
+**Movimento não renova enquanto recolhida**, mesmo que passem vários ciclos. Na volta, ela conserva só os metros que ainda tinha. Renova quando chegar ao começo de um turno seu estando em campo.
+
+*Exemplo:* a entidade gastou todo o Movimento, foi recolhida e ficou fora por dois ciclos. Ao voltar, continua sem Movimento restaurado. Se entrar substituindo alguém com básica disponível, pode receber essa básica, desde que cumpra as travas. Movimento e básica são contas separadas.
+
+## Intenção
+
+**Intenção é a tarefa que a entidade continua cumprindo sem você repetir a ordem.** Dê um objetivo concreto, com uma pessoa, alvo, objeto, lugar ou grupo que ela consiga identificar.
+
+“Proteja esta entrada” permite escolher uma ameaça à passagem, aproximar-se, atacar, ajudar ou esquivar, conforme a ficha. Não obriga o inimigo a atacar a entidade, não dá interceptação e não revela alvos escondidos.
+
+“Vença a luta” e “faça o melhor” precisam ser delimitadas. Uma sequência de missões independentes exige novas orientações. Trocar de meio dentro da mesma tarefa não é trocar de tarefa.
+
+### Redirecionamento
+
+**Gaste uma Ação Bônus para dar novas intenções a até todas as suas entidades em campo.** Elas podem receber tarefas diferentes. A Bônus não renova básica, Movimento ou coletiva e não manda usar especial.
+
+Um sinal combinado também custa redirecionamento se comunicar uma nova escolha tática. “Ataque quem eu apontar” não torna gratuitas suas próximas escolhas de alvo. Informar algo do cenário, por si, não cobra uma nova Bônus; a entidade também pode escolher entre ameaças que já pertenciam à tarefa.
+
+*Exemplo:* Kaito muda o plano. Com uma Bônus, manda uma entidade guardar a porta e a outra atacar a maldição junto da escada. Cada uma escolhe um trajeto legal com seu próprio Movimento.
+
+### Impedimento e tarefa concluída
+
+**Impedimento temporário conserva a intenção.** A entidade procura uma rota ou oportunidade possível, com os sentidos e recursos que tem. Quando o impedimento acaba, retoma sem nova Bônus. Esperar não acumula básicas nem autoriza atacar fora do seu turno.
+
+**Tarefa cumprida ou definitivamente sem objeto termina.** A entidade não escolhe outra missão por conta própria. Perder o alvo de vista por um momento não prova que a tarefa acabou.
+
+*Na mesa:* quem recebeu “proteja esta entrada” continua no posto depois de derrubar uma ameaça. Quem recebeu uma tarefa pontual e a concluiu precisa de nova orientação para começar outra.
+
+**Sem tarefa executável**, ela pode preservar a si: usar `Esquivar` se houver básica ou gastar Movimento para sair de um perigo imediato que percebeu. Não sai perseguindo, protegendo terceiros ou usando especiais por conta própria. Isso vale antes da primeira orientação e não apaga uma intenção só temporariamente impedida. Respostas reativas escritas e especiais já ordenadas seguem seus procedimentos.
+
+### Comunicação
+
+**Toda instrução nova precisa ser percebida e compreendida.** Vale para primeira tarefa, redirecionamento, especial, ajuste, cancelamento e orientação depois da especial. Uma orientação gratuita também precisa chegar.
+
+Voz e gesto servem quando os sentidos e a compreensão da criatura permitem. Comunicação mental exige regra expressa. Não há idioma universal, telepatia, sentidos compartilhados nem conhecimento automático de alvos. O alcance próprio do vínculo ainda não está fixado; não use o alcance de uma habilidade como se fosse o vínculo inteiro.
+
+Perder só a comunicação não apaga uma intenção ou ordem recebida. A entidade continua com o que sabe enquanto existir e puder atuar. Recuperar o contato não entrega mensagens que falharam.
+
+**Falha percebida antes da tentativa.** Corrija a declaração sem gasto se um impedimento conhecido for identificado antes de emitir a ordem.
+
+**Falha descoberta depois.** Se você realmente emitiu a ordem e só depois descobriu que ela não chegou, a Padrão ou Bônus fica gasta. A mensagem não fica aguardando recepção. Uma especial que nem começou não gasta básica, coletiva ou custo de ativação, salvo custo que seu texto cobre antecipadamente.
+
+*Exemplo:* Kaito redireciona duas entidades por voz. Só uma ouve e entende: só ela muda de tarefa. A outra conserva o estado anterior. A Bônus foi uma, sem devolução parcial. Tentar de novo custa a ação normal.
+
+A primeira intenção incluída numa troca e a orientação depois de uma especial pertencem àquele evento. Se a orientação não chegar até o evento terminar, ela não vira um crédito gratuito para depois. A troca ou a especial continua resolvida, sem devolver custos nem desfazer uma básica transferida.
+
+## Básica e limite de ataques
+
+**No seu turno, no máximo duas entidades suas atuam causando dano, fora as especiais comandadas.** O limite conta entidades que causam dano. A especial comandada fica de fora nas modalidades imediata, antecipada e preparada. Tudo que acontece fora do seu turno também fica de fora.
+
+Condição sem dano e ações comuns sem dano não contam: `Agarrar`, `Derrubar`, `Provocar`, `Ajudar` e `Esquivar`, por exemplo. Uma básica com dano e condição `Leve` conta pelo dano. Com você inconsciente, o limite continua valendo no seu turno.
+
+Com duas ativas, as duas podem atacar. A ficha delas não cresce nem encolhe com quantas estão em campo.
+
+**Condição de nível `Média` ou `Pesada` só vem de especial ativa comandada.** Básica, ação de Bônus paga com básica, preparação de básica, capacidade reativa, passiva e aura não aplicam essas condições. A condição `Leve` pode vir delas, com os custos da habilidade; na básica própria, paga a Melhoria `Leve` da Classe 0.
+
+*Exemplo:* uma entidade usa uma básica sem dano para impor uma condição `Leve`; isso não conta no limite. Se a montagem também causar dano, conta. Para impor `Atordoado`, precisa de uma especial comandada.
+
+### Ações comuns
+
+Uma ação comum compatível com o corpo não ocupa uma escolha personalizada de habilidade, mas gasta a atuação correspondente. `Atacar`, `Correr`, `Desengajar`, `Esquivar`, `Esconder`, `Ajudar`, `Vasculhar`, `Estudar` e `Usar objeto` exigem os meios e requisitos normais.
+
+`Correr` ocupa a básica para ampliar o deslocamento; não vem de graça junto de um ataque. `Ajudar` exige contribuição real e vale para a tentativa pertinente. Vários ajudantes não acumulam vantagem no mesmo teste. Ajudar a especial de outra entidade gasta a básica da ajudante.
+
+**A entidade pode pagar com sua básica uma ação de Bônus disponível a ela**, como `Provocar` ou `Ler o Ambiente`, quando cumprir os requisitos. Continuam os custos próprios, os limites e a intenção. Isso não lhe dá uma Bônus própria, suas capacidades de personagem ou outra básica.
+
+Se um efeito impedir Ação Bônus, também impede essas opções pagas com básica. Uma entidade `Lento` não usa `Provocar` dessa maneira. Pode gastar a básica em outra opção permitida.
+
+*Na mesa:* Kaito tem duas entidades ajudando o mesmo aliado. Isso não acumula duas vantagens. Se uma delas ajudar a especial da outra, ambas gastam suas básicas: uma para ajudar, outra para executar a especial comandada.
+
+`Agarrar`, `Derrubar` e `Empurrar` ainda não têm resolução completa aqui. Não acrescente teste, CD ou custo por semelhança com outra ação. `Estudar` também conserva a lacuna de qual perícia usar. A lista de ações comuns não dá conjuração autônoma nem os ataques adicionais do seu Caminho.
+
+## Especial
+
+**Você paga a Padrão para comandar; a entidade ocupa a básica disponível para executar.** Ela precisa receber a ordem e cumprir os requisitos da habilidade. As outras entidades conservam suas básicas.
+
+Se a destinatária já gastou a básica, o comando não dá outra naquele ciclo. Se ela executar a especial primeiro, não sobra uma básica depois. Movimento e coletiva são separados, salvo custo ou impedimento escrito.
+
+A especial pode sair contra um alvo fora da intenção atual. **Depois de conhecer o resultado**, você pode manter a intenção anterior ou dar outra à destinatária, sem Bônus adicional. A nova tarefa pode mirar outro alvo, mas não dá execução imediata nem orienta as demais.
+
+*Exemplo:* Nue enfrenta uma maldição junto à porta. Você comanda uma especial contra outra. Depois do resultado, decide que Nue deve proteger a escada. Ele recebeu a tarefa, mas já gastou a básica naquela especial.
+
+### Energia
+
+Sem reserva própria, o PE da especial sai todo de você. **Só a maldição domada pode ter técnica própria** e, se a ficha dela trouxer, a reserva de energia dessa técnica.
+
+Com reserva, divida o custo da especial pela metade. O ímpar fica com você. Se a reserva não cobrir a parte dela, você paga a diferença. Quando ela acaba, você paga tudo.
+
+> **Reserva máxima:** nível da entidade × `(1 + um terço da Essência dela, arredondado para baixo)`.
+>
+> **Recuperação:** cheia no descanso longo; um quarto no descanso curto. Sair e voltar não recarrega.
+
+*Exemplo:* uma domada de nível 10 e Essência 3 tem `10 × (1 + 3 ÷ 3) = 20 PE`. Uma especial de Classe 3 custa 9: 5 seus e 4 da reserva. Se só houver 2 na reserva, você paga 7. No descanso curto, ela recupera um quarto de 20, ou 5 PE.
+
+Ordenar uma execução não autoriza repetir a especial sozinha. Duração, manutenção, usos e custos antecipados seguem o texto dela.
+
+### Ordem antecipada
+
+**Se um impedimento real bloquear a especial agora, você pode pagar a Padrão e ordenar antes.** Diga qual entidade, capacidade e alvo. Ela precisa receber a ordem legalmente.
+
+Básica já gasta ou alcance insuficiente são impedimentos possíveis. Se tudo já permitir executar, a especial sai imediatamente: a ordem não fica guardada só porque você prefere outro momento.
+
+A antecipada aguarda a **primeira oportunidade válida**. Não expira só porque passou seu próximo turno. Emitir a ordem não gasta nem reserva a básica ou os custos da especial; custos expressamente antecipados são exceção.
+
+Enquanto houver impedimento, a entidade pode usar outra básica. Se fizer isso, aquela básica fica indisponível para a especial até uma renovação legítima. A coletiva não substitui uma básica que falta.
+
+**Execução da ordem antecipada**
+| Momento | Recursos consumidos quando a especial começa |
+|---|---|
+| Dentro do turno do invocador | Básica disponível da destinatária e custos próprios de ativação. |
+| Fora do turno do invocador | Básica disponível da destinatária, **Reação coletiva** e custos próprios de ativação. |
+
+Na execução, não pague outra Padrão. Confira básica, aptidão, alvo, alcance, percepção, energia, usos e os demais requisitos. Se faltar algum, a especial não começa e não gasta recursos de ativação ainda não pagos.
+
+**Fora do seu turno**, a janela abre depois de terminar a ação, o movimento ou o efeito que tornou a especial possível. Não interrompa nem desfaça aquela resolução. Confira o estado que ficou depois dela.
+
+*Exemplo:* Kaito ordena uma especial contra um alvo fora do alcance. A ordem fica pendente. No turno inimigo, o alvo termina um movimento dentro do alcance. Se a entidade tiver básica, coletiva e os demais recursos, executa ali, pagando ambos e o PE. Se outra resposta já gastou a coletiva, continua esperando.
+
+**Ajuste.** Você pode pagar uma Bônus para mudar o alvo ou a capacidade da mesma ordem antecipada. A mensagem precisa chegar antes de a execução começar. Isso não muda a destinatária, não cria segunda ordem e não redireciona as outras entidades.
+
+**Desistência.** Antes de começar, você pode comunicar o cancelamento sem nova ação, inclusive na janela que acabou de abrir. A Padrão investida não volta. A ordem termina; não vira crédito para outra especial.
+
+Você não pode deixar passar uma oportunidade válida só para guardar a antecipada. Execute ou desista legalmente. Se ela for executada e errar, a ordem também termina. O resultado ruim não dá repetição.
+
+### Ordens pendentes
+
+**Cada corpo mantém no máximo uma especial aguardando execução:** antecipada ou preparada. Entidades diferentes podem ter suas próprias ordens, cada uma com seu comando pago.
+
+Uma antecipada ainda inviável pode coexistir com a preparação de uma básica. Essa preparação gasta a básica, que então falta para a especial até outra oportunidade legítima.
+
+Se várias respostas possíveis disputarem a coletiva na mesma janela, sem prioridade expressa, você escolhe qual resolve. Reavalie as outras depois. Uma antecipada sem coletiva continua esperando; uma preparação que dependia dela se perde quando a coletiva é gasta em outra resposta.
+
+*Na mesa:* duas entidades têm antecipadas e o mesmo acontecimento torna ambas possíveis fora do seu turno. Você escolhe uma para gastar a coletiva. A outra espera. Isso não dá duas Reações ao conjunto nem permite guardar todas as antecipadas executáveis sem cumprir ou encerrar nenhuma.
+
+Essa escolha também pertence ao jogador enquanto o invocador está inconsciente, mas só entre respostas já autorizadas. Não permite comando, ajuste ou cancelamento novo. A regra não estabelece prioridade para todo efeito simultâneo do jogo.
+
+## Preparar
+
+**Preparar paga agora para responder a um acontecimento definido.** É diferente da ordem antecipada, que espera um impedimento acabar.
+
+Para preparar uma básica, a entidade gasta a básica no seu turno e declara uma ação legal e um gatilho visível ou verificável, dentro da intenção que tem. No gatilho, ela paga a coletiva e os custos próprios; não paga segunda básica.
+
+A preparação expira no começo do seu próximo turno. Recolher a entidade, ela cair a zero ou gastar a coletiva em outra resposta também encerra a preparação. A básica investida não volta nem passa para substituta.
+
+*Exemplo:* a entidade prepara um ataque contra quem cruzar a porta. Ela já gastou a básica. Se usar a coletiva em outro acontecimento antes da passagem, perde a preparação, mesmo que ninguém tenha cruzado ainda.
+
+Uma básica preparada com dano conta no limite de ataques se disparar no seu turno. Fora dele, não conta. Se o limite estiver cheio no seu turno, ela não dispara ali; a preparação continua dentro do prazo para um gatilho fora do turno.
+
+### Especial preparada
+
+**Você paga a Padrão e manda preparar desde o começo.** A entidade recebe a ordem, investe a básica disponível e define a especial e seu gatilho. Sem básica agora, não há preparação pronta para usar depois.
+
+No gatilho, confira os requisitos e pague coletiva e ativação. **A coletiva é exigida mesmo dentro do seu turno.** Não há segunda Padrão nem segunda básica. O prazo e as perdas são os mesmos de `Preparar`.
+
+Depois da execução, você pode dar a orientação posterior à destinatária. Perder a preparação sem executar não dá essa orientação. Errar depois de executar não conserva a especial para outra tentativa.
+
+**Ajustar no turno de emissão.** No mesmo turno em que comandou a preparação, você pode mudar alvo, capacidade ou gatilho sem nova ação. A destinatária é a mesma, precisa receber o ajuste e a execução ainda não pode ter começado. O prazo não muda, os gastos não voltam e o novo gatilho não pode usar um acontecimento passado. Fora daquele turno, não há esse ajuste gratuito.
+
+**Gatilho inviável.** Se o gatilho acontecer sem algum requisito, a ocorrência é descartada. Não gaste coletiva ou ativação ainda não paga. A preparação continua até o prazo original, mas exige outra ocorrência válida. Recuperar alcance ou energia depois não ressuscita o acontecimento perdido.
+
+**Recusar a ocorrência.** Consciente, percebendo o acontecimento e conseguindo comunicar antes da execução, você pode deixá-lo passar sem nova ação. A mesma preparação continua até o prazo original. Isso não troca o gatilho nem guarda um disparo para qualquer hora. Essa permissão é da especial preparada; não vale para a antecipada nem se estende à básica por analogia.
+
+*Exemplo:* o gatilho é “quando o alvo entrar em alcance”. Ele entra, e Kaito recusa a ocorrência. Ficar dentro do alcance não dispara de novo. Se o alvo sair e entrar outra vez antes do prazo, há uma nova ocorrência a conferir. Se já estava no alcance quando a preparação foi feita, aquela entrada passada não conta.
+
+### Cruzamento e movimento
+
+**Se o gatilho for cruzar uma porta, a especial preparada resolve no cruzamento**, antes do resto do deslocamento. Confira os requisitos ali. Não espere o alvo chegar à cobertura para usar a mesma ocorrência.
+
+Depois da especial, o alvo pode continuar com o Movimento que sobrou, se os efeitos permitirem. Acertar ou causar dano não interrompe o deslocamento por si.
+
+*Na mesa:* o alvo cruza a porta e ainda teria caminho até uma parede. A preparada resolve na porta. Se ela só causar dano, ele pode continuar. Se houver um efeito que o impeça de andar, aplique esse efeito. A antecipada conserva sua outra janela: depois de terminar a resolução que a tornou possível.
+
+### Mudança de modalidade
+
+Para trocar uma antecipada por preparada, ou o contrário, **encerre a anterior por comunicação válida e pague outra Padrão para o novo comando**, numa oportunidade legal. Não aproveite o comando antigo.
+
+Encerrar não recupera básica, PE, usos, Padrão nem custo antecipado. Se a preparação já investiu a básica, cancelá-la não permite preparar outra sem básica. Uma nova antecipada pode esperar uma básica elegível, se o novo comando for legal.
+
+*Exemplo:* Kaito cancela uma preparada e quer uma antecipada. Precisa de outra Padrão legitimamente disponível. A básica que a entidade investiu continua gasta. Se a nova mensagem falhar, a ordem encerrada não volta.
+
+## Movimento e defesa
+
+Cada corpo gasta seu próprio Movimento para cumprir a tarefa. Você não precisa ordenar cada passo. Os metros não vêm de você nem de quem foi substituído. Autonomia não dá movimento ilimitado nem acompanhamento fora do turno sem regra escrita.
+
+### Reação coletiva
+
+Uma entidade apta responde sozinha ao gatilho de uma capacidade reativa que conheça. Paga a coletiva e os custos escritos. Continua precisando perceber, alcançar e cumprir as condições da resposta.
+
+Uma condição pode impedir uma entidade de reagir sem gastar a coletiva. Outra entidade apta ainda pode usar a reserva. Trocar de corpo não a recarrega. Ter Reação disponível também não fornece ataque ou interceptação a quem não os tem.
+
+*Na mesa:* uma entidade de Kaito está impedida de reagir. A outra tem uma resposta escrita e percebe o gatilho. Ela pode gastar a coletiva, que não foi perdida só pela condição da primeira.
+
+### Bloquear
+
+**`Bloquear` é gratuito por ataque elegível e não gasta a coletiva.** Role `2d10 + Defesa − 11`, pelas regras gerais. Não serve contra Teste de Resistência.
+
+O duplo 10 de `Aparar` impede o acerto comum, mas não um 20 natural. Revidar com o contra-ataque exige Reação e usa o bônus de dano da regra geral; para a entidade, paga a coletiva. O duplo 1 abre `Brecha`: o ataque adicional é pago com a Reação do agressor. Se ele for outra invocação, paga a coletiva do conjunto dele.
+
+*Exemplo:* a entidade tem Defesa 13 e tira 6 e 8 nos d10: `6 + 8 + 13 − 11 = 16`. Esse é seu resultado de Bloquear. Se a coletiva já tiver sido gasta, ela ainda pode bloquear ataques elegíveis; só não pode pagar o contra-ataque que exige Reação.
+
+### Esquivar e condições
+
+**`Esquivar` gasta a básica.** Até o começo do seu próximo turno, os ataques contra aquela criatura têm a desvantagem prevista pela ação, e seus TR Físicos têm vantagem. Não protege outro alvo. Vantagem usa o melhor de dois dados; desvantagem usa o pior.
+
+**`Atordoado` tira uma básica da entidade e impede aquela criatura de reagir.** Não gasta a coletiva das outras. Se a condição acabar no fim do turno, ela pode voltar a reagir quando surgir uma oportunidade legal, mas não recupera a básica retirada naquele ciclo. Uma ordem antecipada continua esperando.
+
+**`Incapacitado` impede Bloquear** e torna críticos os acertos corpo a corpo previstos no texto da condição. Não apaga todas as ações por si. `Lento` reduz deslocamento e impede Bônus. `Agarrado` e `Impedido` seguem seus próprios impedimentos.
+
+Suas condições não passam às entidades por associação. Se você perder a Padrão, não emite o comando especial comum. Isso não significa que todas as entidades perderam suas básicas.
+
+*Exemplo:* Kaito fica `Atordoado` e perde sua Padrão. A entidade que já guardava a porta continua cumprindo a intenção, se estiver apta. Se quem ficar `Atordoado` for ela, perde a própria básica; a outra entidade ainda pode reagir pela coletiva.
+
+### Respostas do Guia
+
+`Abrir Caminho` fornece uma **Abertura**, a oportunidade escrita na habilidade, a um aliado voluntário que cumpra seus requisitos. Não fornece a ação para aproveitá-la. O alcance e o PE do Guia pertencem à habilidade dele, não ao vínculo entre você e a entidade.
+
+Depois do uso da Abertura, `Resposta Coordenada` pode convidar um aliado elegível. **Na resposta normal, Guia e aliado pagam suas Reações.** A entidade usa a coletiva. Se você for o Guia, paga sua pessoal, e ela paga a coletiva: continuam duas reservas separadas.
+
+O **Golpe** concedido é um ataque comum. Não é básica, especial, Ação Atacar nem etapa de Sequência. Não renova básica, não traz ataques adicionais e não dispara outra ação concedida. Pode acontecer depois de uma básica ou especial, com gatilho, elegibilidade e coletiva disponíveis.
+
+`Feitiço breve`, a outra opção do Guia, usa um Classe 0 conhecido e conserva requisitos, custos e limite geral de conjurações. Não vira Golpe nem fornece uma habilidade desconhecida à entidade.
+
+**`Avançar`.** Seu turno conta como turno da entidade beneficiária. Nele, ela consome a Abertura e faz o trecho concedido antes ou depois de uma ação, sem básica nem coletiva. Fora dele, consome a Abertura e paga a coletiva depois de terminar uma ação ou deslocamento, salvo dispensa expressa da habilidade. O trecho não renova o Movimento próprio. Posição, trajeto, terreno, prazo, percepção e demais requisitos continuam valendo.
+
+**`Todos no Mesmo Plano`.** No nível 30 do Guia, a segunda resposta dispensa só a Reação do Guia. Os aliados ainda pagam as suas, e precisam ser criaturas diferentes. A cadeia conserva seus tipos de Abertura distintos, prazos e limites.
+
+*Exemplo:* um Guia aliado abre uma cadeia. A primeira entidade de Kaito responde antes do começo do turno dele e gasta a coletiva. O turno de Kaito começa e a coletiva renova. Uma segunda entidade pode pagar a segunda resposta, se a cadeia do Guia ainda for válida. Sem essa renovação entre os gatilhos, não poderia. Se Kaito for o próprio Guia, os dois ciclos começam juntos; não há aquela fronteira separada para aproveitar.
+
+*Fora de combate:* tarefas continuam dependendo dos meios e das informações da entidade. Sob pressão de tempo, buscas e tentativas consomem a atuação correspondente. Ter mais corpos não dá tentativas infinitas nem dispensa as regras de ajuda e de testes de grupo.
+
+## Talismã
+
+O talismã é o **shikigami de criação**. Você manifesta a criatura que está guardada nele; o talismã continua com você.
+
+**No descanso longo, escolha quais talismãs carregar.** Pague com o PE que ainda tem antes de o descanso devolver energia. Cada talismã guarda uma carga até ela ser usada.
+
+**A entrada carregada custa metade da entrada normal, arredondada para cima, no mínimo 1 PE.** A carga custa a diferença: 0 PE na Classe 1; 1 nas Classes 2 e 3; 2 nas Classes 4 e 5; 3 nas Classes 6 e 7.
+
+*Exemplo:* um talismã de nível 13 normalmente custa 4 PE para entrar. Kaito paga 2 PE que sobraram antes do descanso longo para carregá-lo. Quando usar a carga, paga os outros 2 PE pela entrada. A carga fica guardada se ele não a usar no dia seguinte.
+
+**Cada talismã ocupa `0,5` de `Volume`, guardado ou com a entidade em campo.** `Volume` é a medida da carga; dois talismãs ocupam 1. Seu limite de carga é `5 + Força`.
+
+*Na mesa:* quatro talismãs ocupam 2 de `Volume`. Manifestar dois shikigami não reduz essa carga: os quatro talismãs continuam com você.
+
+## Corpo amaldiçoado
+
+O corpo amaldiçoado não é recolhido. Isso vale para o de técnica e o de criação. Os dois podem ficar ativos ou **inativos**; a zero de vida, ficam `Desligada`, outro estado, explicado em *Queda e morte*.
+
+### Modo inativo
+
+**Você pode ter tantos corpos inativos quanto sua Essência ou Inteligência**, usando o mesmo atributo escolhido para a Defesa das entidades. Eles ficam além do teto de ativos.
+
+O inativo anda e conserva Defesa, vida e a ficha inteira. Continua sendo alvo. **Falha em toda rolagem, não age e não recebe tarefa**, fora interpretação ou trabalho extremamente simples, sem rolagem. Não conta no teto de duas ativas.
+
+*Na mesa:* um corpo inativo serve de apoio para alcançar uma prateleira. Isso não autoriza mandá-lo fazer um teste de escalada, lutar ou executar uma tarefa difícil. Com o atributo 3, Kaito pode manter três corpos inativos.
+
+**Ativar substitui invocar.** Acontece onde o corpo está e custa a Bônus e o PE da entrada, respeitando o teto. Na troca, desative um e ative outro. O desativado pode andar o Movimento dele até um lugar seguro; isso não renova metros gastos.
+
+No fim do combate, o ativo volta a inativo. O fim da manifestação não recupera vida nem religa um corpo caído. O inativo pode acompanhar você andando, sem precisar ser levado como carga. Se chegar a zero, fica `Desligada`; inativo não é outro nome para um corpo caído.
+
+### Imunidades e cura
+
+Todo corpo amaldiçoado é imune a `Envenenado`. O que não é autônomo não tem alma: é imune ao dano de `Alma` e às consequências que esse dano arrasta. O autônomo, como o Panda, tem alma.
+
+**Corpo amaldiçoado só se cura por técnica feita para isso ou por reparo.** `Energia Reversa` e curas montadas sobre ela não o curam. O descanso longo recupera a vida; uma queda sem destruição também permite a volta paga com metade da vida.
+
+*Exemplo:* uma cura comum alcançaria o shikigami ferido de Kaito, mas não conserta o corpo feito de peças. Se ele ainda estiver acima de zero, pode ser reparado no descanso curto.
+
+### Reparo
+
+**No descanso curto, quem tem `Entalhador` ou `Forja` pode reparar um corpo amaldiçoado.** Faça o teste de ofício na escada de dificuldade que acompanha o nível. Se passar, recupere metade da vida máxima do corpo, arredondando para baixo.
+
+A dificuldade é difícil para corpo do nível de quem repara, média uma Classe abaixo e fácil duas ou mais Classes abaixo. O reparo pode ser feito pelo dono ou por outra pessoa. Há uma tentativa por corpo em cada descanso curto; se falhar, ele não recupera vida naquele descanso.
+
+**Reparo não funciona a zero nem em `Desligada`.** A caída volta pela entrada. Para os outros tipos, o descanso curto não devolve vida.
+
+*Exemplo:* o corpo de criação de nível 5 e Constituição 2 tem 31 de vida máxima. Está com 8. Um reparo bem-sucedido recupera metade de 31, arredondada para 15: ele fica com 23. Se estivesse a zero, o teste de reparo não o religaria.
+
+## Trunfos da domada
+
+**Só a maldição domada com técnica pode ter Liberação Máxima, Técnica Máxima e Expansão de Domínio.** Os outros tipos têm habilidades, mas não esses trunfos.
+
+A domada conserva os trunfos do nível em que foi domada. A Liberação Máxima é montada com os pontos da especial e soma a Classe em d8. A Técnica Máxima usa o dano fixo da faixa.
+
+**Trunfos da domada**
+| | a domada | o jogador |
+|---|---|---|
+| Liberação Máxima (uma no nível 10, duas no 20, três no 30) | os pontos da especial + a Classe em d8 | 3 pontos por Classe + a Classe em d8 |
+| Técnica Máxima, 17 a 20 | 19d8 | 24d8 |
+| Técnica Máxima, 21 a 25 | 22d8 | 28d8 |
+| Técnica Máxima, 26 a 30 | 26d8 | 32d8 |
+
+A **Liberação Máxima** é o feitiço que rompe o limite comum de dano num alvo. A **Técnica Máxima** tem dano fixo e montagem própria. Os custos e requisitos comuns continuam valendo, com os valores da domada acima.
+
+Na **Expansão de Domínio**, que estende a técnica sobre o ambiente, você gasta os espaços da domada. Os requisitos de nível usam o nível dela. Tudo que lê refino usa **seu refino inteiro**: o eixo de controle da energia da sua ficha. A especialização em `Ocultismo` exigida para a Expansão sem Barreiras é sua.
+
+Quando o trunfo cobra a rodada inteira, quem paga é você, que comanda. O PE se divide entre você e a reserva como na especial. Isso não torna gratuita a atuação da entidade.
+
+*Exemplo:* uma domada de nível 17 tem acesso à faixa de 19d8 da Técnica Máxima. Ela não passa para 22d8 quando você chega ao nível 21: continua no nível em que foi domada. Já o refino lido pelo domínio é o seu, inteiro, mesmo que tenha aumentado depois.
+
+### Liberação Máxima
+
+A Liberação é escrita antes da sessão, de Classe 3 ou maior, e não ocupa espaço da lista. Monte com os pontos da especial e some a Classe em d8. Não serve para cura. Aceita Melhorias e Restrições nos limites normais.
+
+**Custa sua rodada inteira e 50% a mais de PE que a especial da Classe**, arredondado para cima. Rodada inteira gasta Movimento, Padrão e Bônus; a Reação pessoal continua separada. Ao disparar, escolha o preço do trunfo para quem o executa:
+
+- **Vazio:** a domada não conjura no próximo turno.
+- **Sangue:** ela recebe `4 × Classe` de dano irredutível.
+- **Peso:** ela fica `Lento` e com desvantagem nos TR até o fim do próximo turno.
+
+*Exemplo:* uma Liberação de Classe 3, só de dano, usa os 6 pontos da especial e soma 3d8: 9d8. O PE é `9 + 50% = 13,5`, arredondado para 14. Você paga a rodada inteira; com reserva suficiente, são 7 PE seus e 7 da domada.
+
+### Técnica Máxima
+
+O dano da Técnica Máxima é fixo. Nas faixas 17 a 20 e 21 a 25, há 8 pontos para Forma e Melhorias; na faixa 26 a 30, 12. Use os preços da maior Classe da entidade. Ponto que sobrar se perde, sem comprar dano. Não aceita Restrição.
+
+**Custa sua rodada inteira e `5 × a maior Classe da domada` em PE:** 25, 30 ou 35. Depois do uso, só fica disponível de novo depois do fim do terceiro turno seguinte. Quem passa no TR reduz o dano em um quarto, não pela metade. Numa Forma sem dano, os dados viram cura ou a escala `Máxima` de `Efeito`. Uma mesa pode adotar o uso uma vez por cena no lugar da recuperação por turnos.
+
+*Exemplo:* uma domada de nível 17 monta a Técnica Máxima com 8 pontos, mas causa os 19d8 fixos da faixa. Os pontos compram a Forma e as Melhorias, não mais dados. O custo é 25 PE, dividido em 13 seus e 12 da reserva quando houver energia suficiente.
+
+### Expansão de Domínio
+
+Escreva com o mestre duas frases dentro da definição da domada: o **Acerto**, o que o domínio garante que acontece, e o **Efeito**, o que ele permite fazer ali dentro. Dano garantido tem a régua de `Inescapável`: ocupa o feitiço inteiro, sem peças extras. Uma regra de ambiente precisa ser verificável e valer para todos, inclusive a entidade.
+
+**Incompleta.** Custa 2 espaços da domada; exige nível 10 dela e seu refino 4. Não fecha barreira. O Acerto ainda resolve por rolagem.
+
+**Completa.** Exige a incompleta, nível 14 da domada e seu refino 5. Custa mais 1 espaço, total 3. Fecha barreira e entrega o Acerto sem rolagem nem TR.
+
+**Sem Barreiras.** Exige a completa, seu refino 10 e sua especialização em `Ocultismo`. Custa mais 2 espaços, total 5. Em cada abertura, escolha fechar a barreira, seguindo a completa, ou abrir sem ela.
+
+Abrir custa sua rodada inteira. Com barreira ou incompleta, pague `6 × a maior Classe da domada` em PE. O Acerto acontece na abertura e no começo de cada turno da entidade, que coincide com o seu.
+
+**Duração e tamanho.** Dura metade do seu refino em rodadas, mínimo uma. O raio é `1,5 m × seu refino`; a incompleta para em 7,5 m. Na completa, a entidade pode gastar seu deslocamento, com os pés no chão, para mover a expansão junto.
+
+**Desconto.** Dentro da incompleta, tire um terço do seu refino do PE de cada feitiço; na completa, metade. Arredonde o benefício para baixo. O custo nunca fica menor que 1 PE.
+
+**Barreira.** Por fora, tem `50 × metade do seu refino` de vida. Por dentro, não se quebra normalmente: se o mestre permitir alcançar a borda, ela tem o dobro da vida exterior e resistência a todos os danos. O mestre pode declarar outra quebra pela ficção.
+
+**Sem barreira aberta.** Custa `7 × a maior Classe da domada` em PE, tem raio 200 m e centro fixo. Não prende ninguém; quem sair do raio deixa de receber o Acerto. Lá dentro, o desconto por feitiço é `maestria × 2`, com mínimo de 1 PE. Quem não tem energia só é atingido se o Acerto alcançar esse tipo de alvo. Sem casca para quebrar, ela pode acabar por tempo, corrida entre domínios, concentração ou pela entidade chegar a zero.
+
+**Rescaldo.** Quando o domínio termina, a técnica da domada queima pelo resto da cena. Ela fica com Classe 0, corpo e o que não depender da técnica. O preço vale se a duração acabar, se ela desfizer ou se a barreira cair. `Regravação`, quando disponível pelas regras próprias, encerra o Rescaldo.
+
+*Exemplo:* uma domada de nível 14 tem 4 espaços. Comprar a completa ocupa 3 e deixa 1 para especial. Com seu refino 6, o raio é 9 m e a duração, 3 rodadas. A Classe máxima dela é 4: abrir custa 24 PE, dividido em 12 seus e 12 da reserva se houver energia.
+
+**Sobreposição.** Dois domínios completos sobrepostos suspendem seus Acertos garantidos enquanto disputam. O maior refino conquista e derruba o outro. Se empatar, um Acerto sem dano vence um com dano. Se continuar igual, cada lado rola 1d12: diferença de 4 ou mais dá a vitória ao maior. Sem essa diferença, começa a corrida; não se repete o desempate a cada rodada.
+
+Na corrida, quem perder o domínio ou chegar a zero recebe o Acerto do outro imediatamente. Dano em quem sustenta exige TR de Vigor contra a CD de quem feriu. O domínio cai quando as falhas chegam a metade da Essência, arredondada para baixo, mínimo uma. Esse teste não ocupa a concentração comum e `Mão Firme` não o protege.
+
+Contra domínio inimigo, há no máximo um desses testes por jogador que o acertou na rodada, pela maior CD entre os golpes dele. **Golpe de invocação não provoca esse teste**, embora tire vida. Quem é personagem de jogador testa a cada dano, sem esse limite.
+
+Uma incompleta entra na disputa, mas não conquista. Ela desliga o Acerto garantido do completo e permite sair da barreira dele enquanto dura; o próprio Acerto da incompleta continua rolando. Contra expansão aberta sem barreira, a anulação só vale dentro do raio sobreposto. Fora dele, o Acerto sem barreira continua e, se causar dano, pode atingir por fora a outra barreira.
+
+Com três ou mais domínios com barreira, todas essas barreiras caem, sem vencedor nem Acerto de conquista. Rescaldo vale para todos. Uma expansão aberta sem barreira não entra nessa contagem e continua de pé. Com duas barreiras e uma sem barreira, as duas disputam e a sem barreira pode atingir ambas por fora.
+
+## Queda e morte
+
+**A zero de vida, a entidade para de atuar.** Se puder recolher, sai de campo. Se não puder, fica no lugar, `Desligada`. Antes disso, confira se o dano a destruiu.
+
+### Morte definitiva
+
+**A entidade morre de vez se um único golpe causar sua vida máxima inteira, ou se o dano que passar do zero for maior que metade da vida máxima.** Dano em área derruba, mas nunca destrói.
+
+O **excedente** é o dano que sobrou depois de zerar a vida atual. A metade é da vida máxima, não da vida que restava. Igualar a metade não basta para destruir por excedente: precisa passar dela.
+
+*Exemplo:* uma entidade tem 52 de vida máxima e está com 8. Recebe um golpe de 30: chega a zero, com `30 − 8 = 22` de excedente. Como 30 não alcança 52 e 22 não passa de 26, ela só cai. Se o golpe fosse 35, o excedente seria 27: maior que 26, e ela morreria de vez. Se fosse dano em área, não seria destruída.
+
+**A destruída não volta.** Na lista de ritual, ela sai da lista e aquela vaga se perde. Na entidade de espaço de feitiço, você pode refazer a troca na próxima subida de nível; isso não ressuscita a entidade perdida.
+
+A morte definitiva vem antes de `Desligada`. Um corpo que não pode recolher também é destruído se o golpe cruzar o limite.
+
+### Queda sem destruição
+
+**Cair não é trocar.** A básica ainda não gasta não passa para outra entidade. Ninguém entra automaticamente e não há primeira intenção gratuita.
+
+A queda encerra ordem antecipada e preparação, sem devolver Padrão, básica ou custo já pago. Ela não gasta a coletiva por si; outra entidade apta ainda pode usá-la. Uma especial que não começou não paga ativação ainda não cobrada.
+
+Isso também vale se um dano persistente levar uma entidade recolhida a zero. Ela continua fora de campo, agora caída. Recolher não a protege desse dano.
+
+*Na mesa:* a entidade de Kaito cai enquanto tem uma especial preparada. A preparação se perde, com Padrão e básica já gastas. A outra entidade não recebe aquela básica, mas conserva acesso à coletiva se ela ainda estiver disponível.
+
+### Volta
+
+**Para trazer de volta quem só caiu, pague o dobro do PE da entrada e a Bônus, no seu turno.** Ela volta com metade da vida máxima. A entrada continua respeitando o teto, a posição e as regras de recursos; voltar não cria básica.
+
+A vida cheia volta no descanso longo. Cura não alcança entidade a zero, esteja recolhida ou no chão. Uma entidade de pé pode receber cura que alcance outra pessoa, com a exceção do corpo amaldiçoado.
+
+*Exemplo:* a entidade de nível 10 e vida máxima 52 caiu sem ser destruída. A entrada normal custaria 3 PE; a volta custa 6 PE e a Bônus. Ela retorna com 26 de vida. Se Kaito apenas a tivesse recolhido com 8 de vida, a entrada normal de 3 PE a traria com os mesmos 8.
+
+### Desligada
+
+**`Desligada`** — a entidade caída que não pode ser recolhida vira um objeto no campo. Isso acontece com corpos amaldiçoados e com maldições domadas sem técnica do invocador que permita recolhê-las.
+
+Ela ocupa o lugar e atrapalha a passagem como um corpo caído. Pode ser carregada. Não age, não recebe ordens, não usa a coletiva e não projeta aura ou passivas. **Não conta no teto de entidades ativas.**
+
+O dano que receber soma ao excedente da queda. Se o total passar de metade da vida máxima, ela é destruída. Dano em área continua sem destruir. Efeitos já aplicados continuam: dano periódico soma, duração passa, e áreas que exigem presença a alcançam porque ela continua ali. Cura periódica não funciona a zero.
+
+**Religar é a volta da caída:** dobro do PE da entrada e Bônus, no seu turno, com metade da vida, no lugar onde o corpo está e respeitando o teto. A cura não religa.
+
+*Exemplo:* um corpo de vida máxima 52 caiu com excedente 22. Outro dano direto de 5 eleva a soma a 27, maior que 26, e o destrói. Se for religado antes disso, a volta põe metade da vida. Com duas entidades já ativas, você precisa respeitar o teto para ativá-lo.
+
+## Efeitos fora de campo
+
+**Recolher não limpa condição nem reinicia duração.** Benefícios e penalidades com prazo continuam contando. Uma condição sem prazo espera seu critério de término.
+
+Efeitos já aplicados que não dependam de presença continuam suas ocorrências: dano, benefícios e testes de recuperação. Use o começo e o fim do seu turno, sem criar ocorrências extras por sair ou voltar. Resolver esses efeitos não exige básica, Movimento ou coletiva só por resolvê-los; custos expressos continuam valendo.
+
+Condições `Pesada` mantêm seus TR pertinentes no fim do turno. `Envenenado` não causa dano periódico só por ter esse nome.
+
+**Uma entidade recolhida não ocupa posição no campo, nem a sua posição.** Não recebe efeito que exija estar numa área ou junto de uma fonte. Não projeta aura que dependa de presença. Um efeito já aplicado com duração independente continua, e uma área independente de quem a criou não desaparece só por recolhê-la.
+
+Na volta, confira os requisitos no lugar onde ela entrou. A duração não recomeça, os usos não renovam e não há ativação gratuita. Gatilhos de entrada e saída só existem quando a capacidade os escrever.
+
+*Exemplo:* a entidade tem um efeito de dano que continua por turnos, sem depender de estar perto do inimigo. Kaito a recolhe, mas resolve o dano nos momentos devidos. A aura que ela projetava no campo para de alcançar os outros. Uma área independente que já criou pode continuar, conforme seu texto.
+
+## Invocador inconsciente
+
+**Você apagar não derruba a sustentação das entidades.** As que estão em campo e funcionais continuam a básica, o Movimento e as respostas autorizadas, com a intenção recebida. Suas ações não usadas não passam para elas.
+
+Zero de vida não significa automaticamente que você apagou: confira `Insistir` e `Aguentar` nas regras de queda. Enquanto você estiver de pé em `Insistir`, age conforme aquelas regras. Em `Aguentar`, ou depois que `Insistir` desaba, as entidades continuam. Quando você levanta, não precisa refazer as ordens que continuaram válidas.
+
+**Inconsciente, você não entra com entidades, recolhe, comanda, ajusta, cancela ou dá orientação nova.** Uma especial ordenada antes continua podendo ser executada se houver requisitos e sustentação. Ela pode gastar seu PE para cumprir aquela ordem, com a divisão normal se houver reserva. Isso não dá acesso livre à sua energia para escolher novas especiais.
+
+Depois da especial, a entidade conserva a intenção anterior, porque você não pode dar outra. Se faltar energia ou outro requisito, a antecipada continua esperando.
+
+*Na mesa:* Kaito apaga depois de antecipar uma especial. Quando o alvo fica ao alcance, a entidade pode executar com a básica, a coletiva se estiver fora do turno e o PE devido. Kaito não pode cancelar ali nem aproveitar o resultado para trocar a tarefa dela.
+
+### Manutenção
+
+**Um efeito com manutenção que possa ser desligado acaba quando você apaga.** A entidade continua atuando.
+
+Uma passiva que não possa ser desligada continua, e paga a manutenção primeiro da reserva da entidade. Sem reserva, ou depois que ela acabar, paga do seu PE. Diferente da especial, essa manutenção não divide o custo pela metade.
+
+O texto da passiva diz se ela pode ser desligada. O caso em que ela não pode e as duas fontes de energia acabam ainda não tem desfecho definido.
+
+*Exemplo:* uma domada mantém uma passiva que não pode desligar. Enquanto tiver reserva, paga dela. Quando a reserva acaba, passa a pagar do PE de Kaito, mesmo que ele continue inconsciente.
+
+## Morte do invocador
+
+**Quando você morre, as entidades saem de campo imediatamente.** Quem não pode recolher fica no lugar, `Desligada`. Preparações e antecipadas acabam sem execução nem devolução. A morte não transfere básica nem coloca outra entidade no lugar.
+
+O gatilho é a morte, pelo estágio 4 de dano de alma ou pela narrativa. Enquanto a janela de `Aguentar` continua aberta, vale a regra do invocador inconsciente.
+
+Depois da saída, cada origem tem seu destino:
+
+- **Técnica:** a entidade desaparece com o dono. O corpo amaldiçoado de técnica autônomo, que tem alma, fica sob controle do mestre.
+- **Criação:** fica no mundo como objeto. O talismã conserva a carga que tinha; o corpo fica parado.
+- **Maldição domada:** fica livre, volta a ser maldição e passa ao mestre. Outro invocador pode domá-la.
+
+É o mestre da mesa em que a morte aconteceu. O invocador morto não traz ninguém de volta. Herdar talismã ou corpo criado pertence às regras de criação.
+
+*Na mesa:* Kaito morre com um talismã carregado e uma maldição domada. O talismã fica com a carga. A maldição fica livre. Nenhum dos dois continua recebendo ordens do personagem morto.
+
+## Carga e equipamento
+
+**A entidade só carrega o que cabe nas mãos que a definição dá.** Sem mãos, não carrega nada por essa regra. Vestir um equipamento compatível com o corpo é outra coisa.
+
+Para carregar mais, precisa de uma característica própria que caiba na definição: armazenamento como o de um personagem ou capacidade de carregar personagens, como o Nue. Essa característica ocupa uma das passivas da entidade.
+
+O armazenamento usa `5 + Força` de `Volume`, com a Força dela. Quantas pessoas uma característica transporta e o que isso custa de Movimento precisam estar escritos na montagem; a regra não dá uma quantidade automática.
+
+*Exemplo:* uma entidade de Força 3 com a passiva de armazenamento tem `5 + 3 = 8` de `Volume`. Sem essa característica, a Força 3 não lhe dá uma mochila inteira de carga: ela fica no que as mãos comportam.
+
+### Saída com equipamento
+
+**O que a entidade veste vai junto quando ela sai de campo; ela volta vestida.** Do que segura, vai junto o equipamento dela: a arma com que luta, seu foco ou ferramenta. O que segura para outra pessoa ou pegou pelo caminho cai onde ela estava.
+
+Isso vale para recolhimento, queda e fim da manifestação dos tipos que recolhem. O corpo amaldiçoado e a `Desligada` ficam no campo com tudo. Uma entidade que deixa de existir, por morte definitiva ou porque a técnica acabou com a morte do dono, larga tudo no lugar.
+
+*Exemplo:* a entidade veste `Revestimento`, segura a arma dela e leva um objeto que pegou para Kaito. Ao recolher, o `Revestimento` e a arma vão junto. O objeto de Kaito cai onde ela estava. Para usar um equipamento que viajou com ela, ele precisa tirá-lo da entidade em campo.
+
+---
+
+
+# Capítulo 18 · Pactos
 
 *fonte: `manual/65-pactos.md`*
 
@@ -7073,7 +9660,7 @@ O ganho morre na cena. A perda, não. Um braço que você entregou no meio da lu
 
 As duas partes não precisam ser dois personagens de jogador, nem dois feiticeiros. Uma delas pode ser a Guilda.
 
-> **Invocação não fecha `Promessa`** — ela não é uma segunda vontade, e a ficha dela sai da sua. *As regras de invocação estão fora desta edição.* **Uma invocação senciente fecha**, e aí ela é uma das duas partes como qualquer outra.
+> **Invocação não fecha `Promessa`** — ela não é uma segunda vontade, e a ficha dela sai da sua. *As regras de invocação estão no capítulo 17, Invocações.* **Uma invocação senciente fecha**, e aí ela é uma das duas partes como qualquer outra.
 
 ### Termos de uma Promessa
 
@@ -7143,7 +9730,7 @@ Quem quiser começar com uma troca já feita tem duas portas que não são Pacto
 ---
 
 
-# Capítulo 18 · Experiência e Progressão
+# Capítulo 19 · Experiência e Progressão
 
 *fonte: `manual/80-experiencia-e-progressao.md`*
 
@@ -7465,4 +10052,4 @@ Você paga por **cinco** Passivas ao longo da campanha, e esse número não muda
 
 ---
 
-<!-- fonte: 98484e1de911e7de71deb81abca8f87a02e5053f -->
+<!-- fonte: da71e05d32c96bbaf1312784fa9cad92f3d9566d -->

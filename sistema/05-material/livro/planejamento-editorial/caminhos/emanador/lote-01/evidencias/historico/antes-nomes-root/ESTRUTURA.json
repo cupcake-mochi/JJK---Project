@@ -1,0 +1,106 @@
+{
+  "ordem": [
+    "ema-base",
+    "ema-desdobramento",
+    "ema-remodelar",
+    "ema-modulacoes",
+    "ema-familiares",
+    "ema-forma",
+    "ema-instintiva",
+    "ema-condutor",
+    "ema-artes",
+    "ema-propriedades",
+    "ema-propriedades-apoio",
+    "ema-manifestacao",
+    "ema-eco",
+    "ema-repetir",
+    "ema-contraponto",
+    "ema-acorde",
+    "ema-impulso",
+    "ema-correcao",
+    "ema-fluxo"
+  ],
+  "titulos": {
+    "ema-base": "Emanador",
+    "ema-desdobramento": "Desdobramento Técnico",
+    "ema-remodelar": "Remodelar",
+    "ema-modulacoes": "Modulações Dominadas",
+    "ema-familiares": "Expressões Familiares",
+    "ema-forma": "Forma Fluida e Composição Técnica",
+    "ema-instintiva": "Expressão Instintiva",
+    "ema-condutor": "Condutor Armado",
+    "ema-artes": "Artes do Vínculo",
+    "ema-propriedades": "Propriedades da arma",
+    "ema-propriedades-apoio": "Vínculo e percepção",
+    "ema-manifestacao": "Manifestação e convergência",
+    "ema-eco": "Ressonante",
+    "ema-repetir": "Reaproveitar alterações",
+    "ema-contraponto": "Contraponto e Reverberação",
+    "ema-acorde": "Acorde Ressonante",
+    "ema-impulso": "Catalisador",
+    "ema-correcao": "Correção de Fluxo",
+    "ema-fluxo": "Sobrecarga e fluxo"
+  },
+  "paginas": {
+    "ema-base": 1,
+    "ema-desdobramento": 2,
+    "ema-remodelar": 3,
+    "ema-modulacoes": 4,
+    "ema-familiares": 5,
+    "ema-forma": 6,
+    "ema-instintiva": 7,
+    "ema-condutor": 8,
+    "ema-artes": 9,
+    "ema-propriedades": 10,
+    "ema-propriedades-apoio": 11,
+    "ema-manifestacao": 12,
+    "ema-eco": 13,
+    "ema-repetir": 14,
+    "ema-contraponto": 15,
+    "ema-acorde": 16,
+    "ema-impulso": 17,
+    "ema-correcao": 18,
+    "ema-fluxo": 19
+  },
+  "grupos": [
+    [
+      "Emanador",
+      [
+        "ema-base",
+        "ema-desdobramento",
+        "ema-remodelar",
+        "ema-modulacoes",
+        "ema-familiares",
+        "ema-forma",
+        "ema-instintiva"
+      ]
+    ],
+    [
+      "Condutor Armado",
+      [
+        "ema-condutor",
+        "ema-artes",
+        "ema-propriedades",
+        "ema-propriedades-apoio",
+        "ema-manifestacao"
+      ]
+    ],
+    [
+      "Ressonante",
+      [
+        "ema-eco",
+        "ema-repetir",
+        "ema-contraponto",
+        "ema-acorde"
+      ]
+    ],
+    [
+      "Catalisador",
+      [
+        "ema-impulso",
+        "ema-correcao",
+        "ema-fluxo"
+      ]
+    ]
+  ]
+}

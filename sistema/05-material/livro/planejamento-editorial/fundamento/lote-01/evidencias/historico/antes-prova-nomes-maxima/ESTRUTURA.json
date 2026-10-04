@@ -1,0 +1,151 @@
+{
+  "ordem": [
+    "fundamento",
+    "tecnica",
+    "primeiro",
+    "familias",
+    "selo",
+    "repertorio",
+    "pontos",
+    "formas",
+    "amparoformas",
+    "alcance",
+    "conjurar",
+    "restricoes",
+    "combinacoes",
+    "controle",
+    "aplicacoes",
+    "danolimites",
+    "persistente",
+    "livre",
+    "efeito",
+    "ampliar",
+    "classezero",
+    "proprio",
+    "liberacao",
+    "maxima",
+    "maximadano",
+    "limitesmaxima",
+    "passagem",
+    "retirada",
+    "ficha"
+  ],
+  "titulos": {
+    "fundamento": "Fundamento",
+    "tecnica": "Sua técnica",
+    "primeiro": "Seu primeiro feitiço",
+    "familias": "Famílias",
+    "selo": "Selo e Passivas",
+    "repertorio": "Feitiços conhecidos",
+    "pontos": "Pontos e preços",
+    "formas": "Formas de ataque",
+    "amparoformas": "Formas de amparo e Efeito",
+    "alcance": "Alcance e área",
+    "conjurar": "Conjurar",
+    "restricoes": "Restrições",
+    "combinacoes": "Combinar peças",
+    "controle": "Controle",
+    "aplicacoes": "Outras aplicações",
+    "danolimites": "Dano e repetições",
+    "persistente": "Áreas persistentes",
+    "livre": "Uso Livre",
+    "efeito": "Efeitos fora de combate",
+    "ampliar": "Ampliar um feitiço",
+    "classezero": "Feitiços de Classe 0",
+    "proprio": "Efeitos próprios",
+    "liberacao": "Liberação Máxima",
+    "maxima": "Técnica Máxima",
+    "maximadano": "Ataque, cura e utilidade",
+    "limitesmaxima": "Melhorias da Técnica Máxima",
+    "passagem": "Passagem de Papel",
+    "retirada": "Retirada de Emergência",
+    "ficha": "Ficha de feitiço"
+  },
+  "paginas": {
+    "fundamento": 1,
+    "tecnica": 2,
+    "primeiro": 3,
+    "familias": 4,
+    "selo": 5,
+    "repertorio": 6,
+    "pontos": 7,
+    "formas": 8,
+    "amparoformas": 9,
+    "alcance": 10,
+    "conjurar": 11,
+    "restricoes": 12,
+    "combinacoes": 13,
+    "controle": 14,
+    "aplicacoes": 15,
+    "danolimites": 16,
+    "persistente": 17,
+    "livre": 18,
+    "efeito": 19,
+    "ampliar": 20,
+    "classezero": 21,
+    "proprio": 22,
+    "liberacao": 23,
+    "maxima": 24,
+    "maximadano": 25,
+    "limitesmaxima": 26,
+    "passagem": 27,
+    "retirada": 28,
+    "ficha": 29
+  },
+  "grupos": [
+    [
+      "Criação",
+      [
+        "fundamento",
+        "tecnica",
+        "primeiro",
+        "familias",
+        "selo",
+        "repertorio"
+      ]
+    ],
+    [
+      "Montagem",
+      [
+        "pontos",
+        "formas",
+        "amparoformas",
+        "alcance",
+        "conjurar",
+        "restricoes",
+        "combinacoes"
+      ]
+    ],
+    [
+      "Aplicações",
+      [
+        "controle",
+        "aplicacoes",
+        "danolimites",
+        "persistente",
+        "livre",
+        "efeito",
+        "ampliar",
+        "classezero",
+        "proprio"
+      ]
+    ],
+    [
+      "Técnicas superiores",
+      [
+        "liberacao",
+        "maxima",
+        "maximadano",
+        "limitesmaxima",
+        "passagem",
+        "retirada"
+      ]
+    ],
+    [
+      "Ficha",
+      [
+        "ficha"
+      ]
+    ]
+  ]
+}

@@ -1,0 +1,310 @@
+{
+  "data": "2026-10-03",
+  "status": "candidata revisada e congelada para consolidação; não publicada",
+  "manuscrito": "BASTIAO.md",
+  "sha256_texto": "b1632e1f57b9892b35c66cf00d852621af5a237bcd6ebb214980a0fcea8469da",
+  "sha256_pdf": "9af156ddf544432441319a3622b58144fa23a71c335cebfb619ff5a2776682bc",
+  "paginas": 11,
+  "arquivos": [
+    {
+      "arquivo": "ALTERACOES.json",
+      "sha256": "3fc6c5f3c18e6c6b78a2048f6a0081982ee84b24d7e2b67a28c87335f450f0ee",
+      "bytes": 11919
+    },
+    {
+      "arquivo": "ALTERACOES.md",
+      "sha256": "b0492eb00593d81602277a30e61463b3a433c74e052a2b164693a50bd344695e",
+      "bytes": 8879
+    },
+    {
+      "arquivo": "BASTIAO.md",
+      "sha256": "b1632e1f57b9892b35c66cf00d852621af5a237bcd6ebb214980a0fcea8469da",
+      "bytes": 20544
+    },
+    {
+      "arquivo": "COBERTURA.json",
+      "sha256": "9f3fcb9babe421af1248e94838a534f6518644d01a290b1a292630f298355caf",
+      "bytes": 3423
+    },
+    {
+      "arquivo": "CONFERENCIA.json",
+      "sha256": "9e831092a8f8565e360b7860c9a849a5820f3022ed5842219ee9b3a5ecba4e41",
+      "bytes": 14080
+    },
+    {
+      "arquivo": "ESTRUTURA.json",
+      "sha256": "ac7fa0f4a9cc6a3d1dfd944dfe18366f2c450488ce20f0b8253d4825db48049f",
+      "bytes": 1385
+    },
+    {
+      "arquivo": "FONTES.json",
+      "sha256": "8b15074d583dbe20ae873396821461ca1a9a4aa377c522a082276904d5f29a2d",
+      "bytes": 4253
+    },
+    {
+      "arquivo": "INTERFACES.json",
+      "sha256": "af1ca1ae6a6b0770917d0eb8c0da16f96d911983855e085309c81ffdd41c60ad",
+      "bytes": 2572
+    },
+    {
+      "arquivo": "LEIA-ME.md",
+      "sha256": "a4fd8421abeeb22b1bd83999783e966d1c0b6634ef7c96dcdce452d0d414abdc",
+      "bytes": 944
+    },
+    {
+      "arquivo": "REVISAO-E-FONTES.md",
+      "sha256": "0e8e32c5054e0f629c1f2bc6ed55acf9faf1fe37f6d367cf2b7579d3d9e2bc6b",
+      "bytes": 8322
+    },
+    {
+      "arquivo": "VALIDACAO.json",
+      "sha256": "96f11ddf80d6da724c9f060d0cf0b67bdddaed186ac99498ed0671a6df5970d4",
+      "bytes": 158
+    },
+    {
+      "arquivo": "VALIDADORES.json",
+      "sha256": "d5caa523a7f1764263474ed58cbffc9f4c3f1370f4422ad5a2ed1d97432ad66f",
+      "bytes": 14397
+    },
+    {
+      "arquivo": "conferir.py",
+      "sha256": "bd7e33553e9bc990ea13155b44042bb27fe394f20e732ab9ccc161fac1536466",
+      "bytes": 286
+    },
+    {
+      "arquivo": "evidencias/AUDITORIA.json",
+      "sha256": "d503f65d878f32219e7dca513d103124f06fc2d074756d7d03aab5732ef1bbd8",
+      "bytes": 120939
+    },
+    {
+      "arquivo": "evidencias/COMPARACAO-REMISSOES-PDF.json",
+      "sha256": "e2bade77115b82ee1ef65356db146b86f0aa1b431cc26882c8514270819e6760",
+      "bytes": 3804
+    },
+    {
+      "arquivo": "evidencias/LOCALIZACAO-EDITORIAL.json",
+      "sha256": "a56debcf774503e9e53fd806280a71eb9af59adc5fb4b0910908c936e946633b",
+      "bytes": 1829
+    },
+    {
+      "arquivo": "evidencias/REVISAO-EDITORIAL.json",
+      "sha256": "22bf00b9a512b16ff8d89e1ac337d23213ddfac6d687f974d61c31979de0b2a1",
+      "bytes": 11167
+    },
+    {
+      "arquivo": "evidencias/REVISAO-INDEPENDENTE.md",
+      "sha256": "2184232dfe2cf337df1959d01d8212c50e30d4e374b4621fb699b6b5fd9aa81e",
+      "bytes": 7655
+    },
+    {
+      "arquivo": "evidencias/REVISAO-NOMES.json",
+      "sha256": "0cd67db25eda021a69be129e0eb020aa7133dca74382845a76200bbc7b45300a",
+      "bytes": 1322
+    },
+    {
+      "arquivo": "evidencias/REVISAO-POR-SECAO.json",
+      "sha256": "a6feeaf6c2f41e81fd05050c1a4d51bf0390473f77b800eec8281bdbc9dd2a80",
+      "bytes": 8541
+    },
+    {
+      "arquivo": "evidencias/REVISAO-REMISSOES.json",
+      "sha256": "43cb08210c52edf3463310ae3204d4943ee365a7503d9312a8049d085209af12",
+      "bytes": 652
+    },
+    {
+      "arquivo": "evidencias/auditoria-numerica.json",
+      "sha256": "2a8c45f3c137cad89ad7c2003dd9cb8b4001f9b4dfc5c683d01b0d014a99521d",
+      "bytes": 1082
+    },
+    {
+      "arquivo": "evidencias/catalogo-legado.log",
+      "sha256": "52385c80653fd8d7cd906826a862b33d4879a3301c3dc5091957e4149407a87b",
+      "bytes": 9394
+    },
+    {
+      "arquivo": "evidencias/conferir_bastiao.py",
+      "sha256": "015eb8c3857ac701620d655ddfca56a3bb205fe3129236f1766b6c0cd347c71b",
+      "bytes": 16670
+    },
+    {
+      "arquivo": "evidencias/editorial-exportacao.json",
+      "sha256": "4d68214eefe7a9ebff3351374a51c9119efffc7ef657db014ced8304e9fdff1b",
+      "bytes": 284
+    },
+    {
+      "arquivo": "evidencias/fontes-preservadas-autoria.json",
+      "sha256": "d54303685a7336c6c7338d34da1bc393c8186b669e5044d7957bb95bf6c22039",
+      "bytes": 1766
+    },
+    {
+      "arquivo": "evidencias/fontes-preservadas.json",
+      "sha256": "724d8171a70bc18d7171666ce22aa5fb90227dccf704454b18ef62722dfd0cd7",
+      "bytes": 755
+    },
+    {
+      "arquivo": "evidencias/inspecao-visual.json",
+      "sha256": "019684efe4336d7cfad2729cad16d76e56c3c25f01792ba87f3b2b6b1cc8c81f",
+      "bytes": 6374
+    },
+    {
+      "arquivo": "evidencias/pdf-estrutura.json",
+      "sha256": "631803009bca8140062f7bb9f27e26c3396bdf5ab86212859969473f42afbb90",
+      "bytes": 235
+    },
+    {
+      "arquivo": "evidencias/pdf-texto.txt",
+      "sha256": "bd5c4bbc7e08a828ccf06a2202165a91f6e297acf81d876e39829c80a5868538",
+      "bytes": 20078
+    },
+    {
+      "arquivo": "evidencias/regras-verificadas.json",
+      "sha256": "2cdf710f636f528aeff698ed4b3ba859b5fd493de0aaa44ea0a1c626f41dfd8b",
+      "bytes": 11758
+    },
+    {
+      "arquivo": "gerar_pdf.py",
+      "sha256": "5b71a2abb1fd9848b679ac956fb140a24419c23c2f7d6d197af90379cc1051a5",
+      "bytes": 7984
+    },
+    {
+      "arquivo": "historico/antes-BAS26/ALTERACOES.json",
+      "sha256": "eb332044e34d040e349637599ed7fbce38a2cd2f1099d4f42eb24762a3efe907",
+      "bytes": 10772
+    },
+    {
+      "arquivo": "historico/antes-BAS26/ALTERACOES.md",
+      "sha256": "9d60c8f63897e76a32b30b75c9bf7b1dcb3bac70534227003865757012fffd53",
+      "bytes": 8351
+    },
+    {
+      "arquivo": "historico/antes-BAS26/BASTIAO.md",
+      "sha256": "9d572799c5d882a8eeae475b648abffc68bb2192a72caca19e435fc0b406c302",
+      "bytes": 20413
+    },
+    {
+      "arquivo": "historico/antes-BAS26/COBERTURA.json",
+      "sha256": "9f3fcb9babe421af1248e94838a534f6518644d01a290b1a292630f298355caf",
+      "bytes": 3423
+    },
+    {
+      "arquivo": "historico/antes-BAS26/FONTES.json",
+      "sha256": "8b15074d583dbe20ae873396821461ca1a9a4aa377c522a082276904d5f29a2d",
+      "bytes": 4253
+    },
+    {
+      "arquivo": "historico/antes-BAS26/INTERFACES.json",
+      "sha256": "af1ca1ae6a6b0770917d0eb8c0da16f96d911983855e085309c81ffdd41c60ad",
+      "bytes": 2572
+    },
+    {
+      "arquivo": "historico/antes-BAS26/REVISAO-E-FONTES.md",
+      "sha256": "404fdb3c95c6a93b1a45bc8a7275a6be177b3a616a437cac2fd97e669861fef8",
+      "bytes": 7554
+    },
+    {
+      "arquivo": "historico/antes-BAS26/VALIDADORES.json",
+      "sha256": "4eaf12b4bf71f2f86ed0f1e4ee7209257f45bb9c9d966a7427f9e32f23e4a156",
+      "bytes": 9655
+    },
+    {
+      "arquivo": "historico/antes-BAS26/evidencias/AUDITORIA.json",
+      "sha256": "a453c97039dedf05a4e0d3882ecb63a56abc82d3222651b6e0a246c91ecc5899",
+      "bytes": 117999
+    },
+    {
+      "arquivo": "historico/antes-BAS26/evidencias/LOCALIZACAO-EDITORIAL.json",
+      "sha256": "51959244b32b9fe0c512adc98884211bbea0736860fc8af72eec4224921d9acf",
+      "bytes": 958
+    },
+    {
+      "arquivo": "historico/antes-BAS26/evidencias/REVISAO-EDITORIAL.json",
+      "sha256": "bb29e487bd344599b537ecc3ce875978245cde3f09c746b41f4227cc6a525d6e",
+      "bytes": 1405
+    },
+    {
+      "arquivo": "historico/antes-BAS26/evidencias/REVISAO-POR-SECAO.json",
+      "sha256": "071a91746f912dfd85be0433dc670de8386c90ebd8423a91aa016e8768456839",
+      "bytes": 7376
+    },
+    {
+      "arquivo": "historico/antes-BAS26/evidencias/catalogo-legado.log",
+      "sha256": "52385c80653fd8d7cd906826a862b33d4879a3301c3dc5091957e4149407a87b",
+      "bytes": 9394
+    },
+    {
+      "arquivo": "historico/antes-BAS26/evidencias/conferir_bastiao.py",
+      "sha256": "eb51979f275cd0e8232d0a0d27af6e6a510f0e889129be023cbff100cf885f30",
+      "bytes": 15548
+    },
+    {
+      "arquivo": "historico/antes-BAS26/evidencias/editorial-exportacao.json",
+      "sha256": "4d68214eefe7a9ebff3351374a51c9119efffc7ef657db014ced8304e9fdff1b",
+      "bytes": 284
+    },
+    {
+      "arquivo": "historico/antes-BAS26/evidencias/fontes-preservadas.json",
+      "sha256": "d54303685a7336c6c7338d34da1bc393c8186b669e5044d7957bb95bf6c22039",
+      "bytes": 1766
+    },
+    {
+      "arquivo": "output/pdf/Projeto-M-Bastiao-Proposta-01.pdf",
+      "sha256": "9af156ddf544432441319a3622b58144fa23a71c335cebfb619ff5a2776682bc",
+      "bytes": 75318
+    },
+    {
+      "arquivo": "output/png/pagina-01.png",
+      "sha256": "a766d2d5e54d6236f50b29dc286a8e1b26db9464379e5a6e1a16ab40811fb883",
+      "bytes": 128723
+    },
+    {
+      "arquivo": "output/png/pagina-02.png",
+      "sha256": "50a762104362b0609f9b8641889776ab092bf3c0079011984a9211216c56bd68",
+      "bytes": 140465
+    },
+    {
+      "arquivo": "output/png/pagina-03.png",
+      "sha256": "07e5c8f726dc3ca68191141dd41e35c581d796bcec638cc8ed8d918d9b3edf66",
+      "bytes": 151021
+    },
+    {
+      "arquivo": "output/png/pagina-04.png",
+      "sha256": "a70be3ac09d9b1c93698d2aa00250eb6ad523924b2b74d661d4ed1d4da13edf6",
+      "bytes": 171590
+    },
+    {
+      "arquivo": "output/png/pagina-05.png",
+      "sha256": "2ca5d7f92b4a1c39ade59dfa10aeb350ebd85580888913eb42ea5ea94ce70c74",
+      "bytes": 131710
+    },
+    {
+      "arquivo": "output/png/pagina-06.png",
+      "sha256": "e5e70379fcb5f8b10126f209113a58a8e5e0908d5e7f248f655117b2746d7d1a",
+      "bytes": 131787
+    },
+    {
+      "arquivo": "output/png/pagina-07.png",
+      "sha256": "40ebe5c1ae945a1b021c33def1fa2242cfed2fa05ed6e33f2eea7cd2d4f5b1cb",
+      "bytes": 108678
+    },
+    {
+      "arquivo": "output/png/pagina-08.png",
+      "sha256": "379d845d05485499a783f74dba94f774e7e87ed8db17fdcff63382cfacdb655a",
+      "bytes": 138411
+    },
+    {
+      "arquivo": "output/png/pagina-09.png",
+      "sha256": "1efccfb9a234394f73a9200d558808e9962c5ab50f1138e9673ae720d63a0f8b",
+      "bytes": 126299
+    },
+    {
+      "arquivo": "output/png/pagina-10.png",
+      "sha256": "b6e7fc661de032bf8cc8320a7b614f4c7188be5d185fe3b213e4e425ad9a3737",
+      "bytes": 139626
+    },
+    {
+      "arquivo": "output/png/pagina-11.png",
+      "sha256": "755a9a886aa209db77ecab151f43d6a812db48363f1546ecc126a490a090d989",
+      "bytes": 161532
+    }
+  ]
+}

@@ -1,0 +1,1166 @@
+[
+  {
+    "nome": "Bastão",
+    "categoria": "Porrete",
+    "treino": "Treino simples",
+    "maos": 1,
+    "dados": "1d6",
+    "propriedades": [
+      "Versátil",
+      "Alcance",
+      "Rompe"
+    ],
+    "forca": 0,
+    "volume": 1,
+    "preco": 16000,
+    "preco_criacao": 16000,
+    "alcance_ca": 3,
+    "distancia": null,
+    "modo": "corpo a corpo",
+    "tipo": "Concussão",
+    "descricao": "",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Besta",
+    "categoria": "Balestra",
+    "treino": "Treino simples",
+    "maos": 2,
+    "dados": "2d8",
+    "propriedades": [
+      "Longo Alcance",
+      "Munição",
+      "Rompe"
+    ],
+    "forca": 3,
+    "volume": 2,
+    "preco": 80000,
+    "preco_criacao": 80000,
+    "alcance_ca": 1.5,
+    "distancia": [
+      30,
+      120
+    ],
+    "modo": "disparo",
+    "tipo": "Perfurante",
+    "descricao": "",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Besta de Uma Mão",
+    "categoria": "Balestra",
+    "treino": "Treino simples",
+    "maos": 1,
+    "dados": "1d10",
+    "propriedades": [
+      "Longo Alcance",
+      "Munição",
+      "Oculta"
+    ],
+    "forca": 0,
+    "volume": 0.1,
+    "preco": 50000,
+    "preco_criacao": 50000,
+    "alcance_ca": 1.5,
+    "distancia": [
+      9,
+      36
+    ],
+    "modo": "disparo",
+    "tipo": "Perfurante",
+    "descricao": "",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Bō",
+    "categoria": "Porrete",
+    "treino": "Treino simples",
+    "maos": 2,
+    "dados": "1d10",
+    "propriedades": [
+      "Alcance",
+      "Emaranha"
+    ],
+    "forca": 3,
+    "volume": 2,
+    "preco": 20000,
+    "preco_criacao": 20000,
+    "alcance_ca": 3,
+    "distancia": null,
+    "modo": "corpo a corpo",
+    "tipo": "Concussão",
+    "descricao": "bastão longo",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Canivete",
+    "categoria": "Lâmina Curta",
+    "treino": "Treino simples",
+    "maos": 1,
+    "dados": "1d4",
+    "propriedades": [
+      "Fineza",
+      "Oculta",
+      "Rompe"
+    ],
+    "forca": 0,
+    "volume": 0.1,
+    "preco": 8000,
+    "preco_criacao": 8000,
+    "alcance_ca": 1.5,
+    "distancia": null,
+    "modo": "corpo a corpo",
+    "tipo": "Cortante",
+    "descricao": "",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Cassetete",
+    "categoria": "Porrete",
+    "treino": "Treino simples",
+    "maos": 1,
+    "dados": "1d6",
+    "propriedades": [
+      "Oculta",
+      "Vestida"
+    ],
+    "forca": 0,
+    "volume": 0.1,
+    "preco": 8000,
+    "preco_criacao": 8000,
+    "alcance_ca": 1.5,
+    "distancia": null,
+    "modo": "corpo a corpo",
+    "tipo": "Concussão",
+    "descricao": "",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Chakram",
+    "categoria": "Arremesso",
+    "treino": "Treino simples",
+    "maos": 1,
+    "dados": "1d4",
+    "propriedades": [
+      "Longo Alcance",
+      "Fineza",
+      "Oculta"
+    ],
+    "forca": 0,
+    "volume": 0.1,
+    "preco": 8000,
+    "preco_criacao": 8000,
+    "alcance_ca": 1.5,
+    "distancia": [
+      6,
+      18
+    ],
+    "modo": "corpo a corpo",
+    "tipo": "Cortante",
+    "descricao": "anel cortante",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Faca",
+    "categoria": "Lâmina Curta",
+    "treino": "Treino simples",
+    "maos": 1,
+    "dados": "1d6",
+    "propriedades": [
+      "Fineza",
+      "Rompe"
+    ],
+    "forca": 0,
+    "volume": 1,
+    "preco": 16000,
+    "preco_criacao": 16000,
+    "alcance_ca": 1.5,
+    "distancia": null,
+    "modo": "corpo a corpo",
+    "tipo": "Cortante",
+    "descricao": "",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Foice",
+    "categoria": "Ceifa",
+    "treino": "Treino simples",
+    "maos": 2,
+    "dados": "1d10",
+    "propriedades": [
+      "Emaranha",
+      "Talha"
+    ],
+    "forca": 3,
+    "volume": 2,
+    "preco": 36000,
+    "preco_criacao": 36000,
+    "alcance_ca": 1.5,
+    "distancia": null,
+    "modo": "corpo a corpo",
+    "tipo": "Cortante",
+    "descricao": "",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Kama",
+    "categoria": "Ceifa",
+    "treino": "Treino simples",
+    "maos": 1,
+    "dados": "1d6",
+    "propriedades": [
+      "Par",
+      "Rompe"
+    ],
+    "forca": 0,
+    "volume": 1,
+    "preco": 16000,
+    "preco_criacao": 16000,
+    "alcance_ca": 1.5,
+    "distancia": null,
+    "modo": "corpo a corpo",
+    "tipo": "Cortante",
+    "descricao": "foice curta",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Kanabō",
+    "categoria": "Massa",
+    "treino": "Treino simples",
+    "maos": 2,
+    "dados": "1d12",
+    "propriedades": [
+      "Talha"
+    ],
+    "forca": 3,
+    "volume": 2,
+    "preco": 36000,
+    "preco_criacao": 36000,
+    "alcance_ca": 1.5,
+    "distancia": null,
+    "modo": "corpo a corpo",
+    "tipo": "Concussão",
+    "descricao": "clava pesada",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Kunai",
+    "categoria": "Arremesso",
+    "treino": "Treino simples",
+    "maos": 1,
+    "dados": "1d6",
+    "propriedades": [
+      "Longo Alcance",
+      "Oculta"
+    ],
+    "forca": 0,
+    "volume": 0.1,
+    "preco": 8000,
+    "preco_criacao": 8000,
+    "alcance_ca": 1.5,
+    "distancia": [
+      6,
+      18
+    ],
+    "modo": "corpo a corpo",
+    "tipo": "Perfurante",
+    "descricao": "lâmina de arremesso",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Kusarigama",
+    "categoria": "Ceifa",
+    "treino": "Treino simples",
+    "maos": 2,
+    "dados": "1d8",
+    "propriedades": [
+      "Alcance",
+      "Emaranha",
+      "Longo Alcance"
+    ],
+    "forca": 0,
+    "volume": 2,
+    "preco": 20000,
+    "preco_criacao": 20000,
+    "alcance_ca": 3,
+    "distancia": [
+      6,
+      18
+    ],
+    "modo": "corpo a corpo",
+    "tipo": "Cortante",
+    "descricao": "foice com corrente",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Maça",
+    "categoria": "Massa",
+    "treino": "Treino simples",
+    "maos": 1,
+    "dados": "1d8",
+    "propriedades": [
+      "Talha"
+    ],
+    "forca": 0,
+    "volume": 1,
+    "preco": 32000,
+    "preco_criacao": 32000,
+    "alcance_ca": 1.5,
+    "distancia": null,
+    "modo": "corpo a corpo",
+    "tipo": "Concussão",
+    "descricao": "",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Marreta",
+    "categoria": "Massa",
+    "treino": "Treino simples",
+    "maos": 2,
+    "dados": "1d10",
+    "propriedades": [
+      "Rompe",
+      "Talha"
+    ],
+    "forca": 3,
+    "volume": 2,
+    "preco": 36000,
+    "preco_criacao": 36000,
+    "alcance_ca": 1.5,
+    "distancia": null,
+    "modo": "corpo a corpo",
+    "tipo": "Concussão",
+    "descricao": "",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Maul",
+    "categoria": "Massa",
+    "treino": "Treino simples",
+    "maos": 2,
+    "dados": "1d12",
+    "propriedades": [
+      "Rompe"
+    ],
+    "forca": 3,
+    "volume": 2,
+    "preco": 36000,
+    "preco_criacao": 36000,
+    "alcance_ca": 1.5,
+    "distancia": null,
+    "modo": "corpo a corpo",
+    "tipo": "Concussão",
+    "descricao": "martelo de combate",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Nunchaku",
+    "categoria": "Porrete",
+    "treino": "Treino simples",
+    "maos": 1,
+    "dados": "1d6",
+    "propriedades": [
+      "Par",
+      "Emaranha"
+    ],
+    "forca": 0,
+    "volume": 1,
+    "preco": 16000,
+    "preco_criacao": 16000,
+    "alcance_ca": 1.5,
+    "distancia": null,
+    "modo": "corpo a corpo",
+    "tipo": "Concussão",
+    "descricao": "bastões ligados",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Punhal",
+    "categoria": "Lâmina Curta",
+    "treino": "Treino simples",
+    "maos": 1,
+    "dados": "1d6",
+    "propriedades": [
+      "Fineza",
+      "Longo Alcance"
+    ],
+    "forca": 0,
+    "volume": 1,
+    "preco": 16000,
+    "preco_criacao": 16000,
+    "alcance_ca": 1.5,
+    "distancia": [
+      6,
+      18
+    ],
+    "modo": "corpo a corpo",
+    "tipo": "Perfurante",
+    "descricao": "",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Sai",
+    "categoria": "Lâmina Curta",
+    "treino": "Treino simples",
+    "maos": 1,
+    "dados": "1d6",
+    "propriedades": [
+      "Fineza",
+      "Par"
+    ],
+    "forca": 0,
+    "volume": 1,
+    "preco": 16000,
+    "preco_criacao": 16000,
+    "alcance_ca": 1.5,
+    "distancia": null,
+    "modo": "corpo a corpo",
+    "tipo": "Perfurante",
+    "descricao": "arma de três pontas",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Shuriken",
+    "categoria": "Arremesso",
+    "treino": "Treino simples",
+    "maos": 1,
+    "dados": "1d4",
+    "propriedades": [
+      "Longo Alcance",
+      "Oculta",
+      "Par"
+    ],
+    "forca": 0,
+    "volume": 0.1,
+    "preco": 8000,
+    "preco_criacao": 8000,
+    "alcance_ca": 1.5,
+    "distancia": [
+      6,
+      18
+    ],
+    "modo": "corpo a corpo",
+    "tipo": "Perfurante",
+    "descricao": "lâmina de arremesso",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Soqueira",
+    "categoria": "Manopla",
+    "treino": "Treino simples",
+    "maos": 1,
+    "dados": "1d4",
+    "propriedades": [
+      "Vestida",
+      "Oculta",
+      "Par"
+    ],
+    "forca": 0,
+    "volume": 0.1,
+    "preco": 8000,
+    "preco_criacao": 8000,
+    "alcance_ca": 1.5,
+    "distancia": null,
+    "modo": "corpo a corpo",
+    "tipo": "Concussão",
+    "descricao": "",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Taco",
+    "categoria": "Massa",
+    "treino": "Treino simples",
+    "maos": 1,
+    "dados": "1d8",
+    "propriedades": [
+      "Versátil",
+      "Oculta"
+    ],
+    "forca": 0,
+    "volume": 0.1,
+    "preco": 16000,
+    "preco_criacao": 16000,
+    "alcance_ca": 1.5,
+    "distancia": null,
+    "modo": "corpo a corpo",
+    "tipo": "Concussão",
+    "descricao": "",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Tanto",
+    "categoria": "Lâmina Curta",
+    "treino": "Treino simples",
+    "maos": 1,
+    "dados": "1d6",
+    "propriedades": [
+      "Fineza",
+      "Oculta"
+    ],
+    "forca": 0,
+    "volume": 0.1,
+    "preco": 32000,
+    "preco_criacao": 32000,
+    "alcance_ca": 1.5,
+    "distancia": null,
+    "modo": "corpo a corpo",
+    "tipo": "Cortante",
+    "descricao": "lâmina curta",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Tekko",
+    "categoria": "Manopla",
+    "treino": "Treino simples",
+    "maos": 1,
+    "dados": "1d4",
+    "propriedades": [
+      "Vestida",
+      "Par",
+      "Oculta"
+    ],
+    "forca": 0,
+    "volume": 0.1,
+    "preco": 8000,
+    "preco_criacao": 8000,
+    "alcance_ca": 1.5,
+    "distancia": null,
+    "modo": "corpo a corpo",
+    "tipo": "Concussão",
+    "descricao": "proteção de punho",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Tessen",
+    "categoria": "Arremesso",
+    "treino": "Treino simples",
+    "maos": 1,
+    "dados": "1d4",
+    "propriedades": [
+      "Longo Alcance",
+      "Oculta",
+      "Vestida"
+    ],
+    "forca": 0,
+    "volume": 0.1,
+    "preco": 8000,
+    "preco_criacao": 8000,
+    "alcance_ca": 1.5,
+    "distancia": [
+      6,
+      18
+    ],
+    "modo": "corpo a corpo",
+    "tipo": "Concussão",
+    "descricao": "leque de combate",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Tonfa",
+    "categoria": "Porrete",
+    "treino": "Treino simples",
+    "maos": 1,
+    "dados": "1d6",
+    "propriedades": [
+      "Par",
+      "Vestida"
+    ],
+    "forca": 0,
+    "volume": 0.1,
+    "preco": 16000,
+    "preco_criacao": 16000,
+    "alcance_ca": 1.5,
+    "distancia": null,
+    "modo": "corpo a corpo",
+    "tipo": "Concussão",
+    "descricao": "bastão com cabo lateral",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Chicote",
+    "categoria": "Flexível",
+    "treino": "Treino marcial",
+    "maos": 1,
+    "dados": "1d4",
+    "propriedades": [
+      "Alcance",
+      "Emaranha",
+      "Oculta"
+    ],
+    "forca": 0,
+    "volume": 0.1,
+    "preco": 16000,
+    "preco_criacao": 16000,
+    "alcance_ca": 3,
+    "distancia": null,
+    "modo": "corpo a corpo",
+    "tipo": "Concussão",
+    "descricao": "",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Corrente",
+    "categoria": "Flexível",
+    "treino": "Treino marcial",
+    "maos": 2,
+    "dados": "1d8",
+    "propriedades": [
+      "Alcance",
+      "Emaranha",
+      "Rompe"
+    ],
+    "forca": 0,
+    "volume": 2,
+    "preco": 20000,
+    "preco_criacao": 20000,
+    "alcance_ca": 3,
+    "distancia": null,
+    "modo": "corpo a corpo",
+    "tipo": "Concussão",
+    "descricao": "",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Daikyū",
+    "categoria": "Yumi",
+    "treino": "Treino marcial",
+    "maos": 2,
+    "dados": "1d10",
+    "propriedades": [
+      "Longo Alcance"
+    ],
+    "forca": 0,
+    "volume": 2,
+    "preco": 60000,
+    "preco_criacao": 60000,
+    "alcance_ca": 1.5,
+    "distancia": [
+      45,
+      180
+    ],
+    "modo": "disparo",
+    "tipo": "Perfurante",
+    "descricao": "arco longo",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Espada Longa",
+    "categoria": "Lâmina Longa",
+    "treino": "Treino marcial",
+    "maos": 1,
+    "dados": "1d8",
+    "propriedades": [
+      "Versátil",
+      "Rompe"
+    ],
+    "forca": 0,
+    "volume": 1,
+    "preco": 48000,
+    "preco_criacao": 48000,
+    "alcance_ca": 1.5,
+    "distancia": null,
+    "modo": "corpo a corpo",
+    "tipo": "Cortante",
+    "descricao": "",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Espadão",
+    "categoria": "Lâmina Longa",
+    "treino": "Treino marcial",
+    "maos": 2,
+    "dados": "1d12",
+    "propriedades": [
+      "Alcance"
+    ],
+    "forca": 3,
+    "volume": 2,
+    "preco": 60000,
+    "preco_criacao": 60000,
+    "alcance_ca": 3,
+    "distancia": null,
+    "modo": "corpo a corpo",
+    "tipo": "Cortante",
+    "descricao": "",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Hankyū",
+    "categoria": "Yumi",
+    "treino": "Treino marcial",
+    "maos": 2,
+    "dados": "1d8",
+    "propriedades": [
+      "Longo Alcance",
+      "Oculta"
+    ],
+    "forca": 0,
+    "volume": 2,
+    "preco": 40000,
+    "preco_criacao": 40000,
+    "alcance_ca": 1.5,
+    "distancia": [
+      24,
+      96
+    ],
+    "modo": "disparo",
+    "tipo": "Perfurante",
+    "descricao": "arco curto",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Katana",
+    "categoria": "Lâmina Longa",
+    "treino": "Treino marcial",
+    "maos": 1,
+    "dados": "1d8",
+    "propriedades": [
+      "Versátil",
+      "Fineza"
+    ],
+    "forca": 0,
+    "volume": 1,
+    "preco": 48000,
+    "preco_criacao": 48000,
+    "alcance_ca": 1.5,
+    "distancia": null,
+    "modo": "corpo a corpo",
+    "tipo": "Cortante",
+    "descricao": "espada curva",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Lança",
+    "categoria": "Armas Longas",
+    "treino": "Treino marcial",
+    "maos": 1,
+    "dados": "1d6",
+    "propriedades": [
+      "Alcance",
+      "Longo Alcance"
+    ],
+    "forca": 0,
+    "volume": 1,
+    "preco": 16000,
+    "preco_criacao": 16000,
+    "alcance_ca": 3,
+    "distancia": [
+      6,
+      18
+    ],
+    "modo": "corpo a corpo",
+    "tipo": "Perfurante",
+    "descricao": "",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Machadinha",
+    "categoria": "Machado",
+    "treino": "Treino marcial",
+    "maos": 1,
+    "dados": "1d6",
+    "propriedades": [
+      "Longo Alcance",
+      "Rompe"
+    ],
+    "forca": 0,
+    "volume": 1,
+    "preco": 16000,
+    "preco_criacao": 16000,
+    "alcance_ca": 1.5,
+    "distancia": [
+      6,
+      18
+    ],
+    "modo": "corpo a corpo",
+    "tipo": "Cortante",
+    "descricao": "",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Machado",
+    "categoria": "Machado",
+    "treino": "Treino marcial",
+    "maos": 1,
+    "dados": "1d8",
+    "propriedades": [
+      "Rompe"
+    ],
+    "forca": 0,
+    "volume": 1,
+    "preco": 32000,
+    "preco_criacao": 32000,
+    "alcance_ca": 1.5,
+    "distancia": null,
+    "modo": "corpo a corpo",
+    "tipo": "Cortante",
+    "descricao": "",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Machado de Guerra",
+    "categoria": "Machado",
+    "treino": "Treino marcial",
+    "maos": 2,
+    "dados": "1d12",
+    "propriedades": [
+      "Rompe",
+      "Talha",
+      "Volumosa"
+    ],
+    "forca": 3,
+    "volume": 2,
+    "preco": 60000,
+    "preco_criacao": 60000,
+    "alcance_ca": 1.5,
+    "distancia": null,
+    "modo": "corpo a corpo",
+    "tipo": "Cortante",
+    "descricao": "",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Machete",
+    "categoria": "Lâmina Longa",
+    "treino": "Treino marcial",
+    "maos": 1,
+    "dados": "1d8",
+    "propriedades": [
+      "Rompe"
+    ],
+    "forca": 0,
+    "volume": 1,
+    "preco": 16000,
+    "preco_criacao": 16000,
+    "alcance_ca": 1.5,
+    "distancia": null,
+    "modo": "corpo a corpo",
+    "tipo": "Cortante",
+    "descricao": "",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Manriki",
+    "categoria": "Flexível",
+    "treino": "Treino marcial",
+    "maos": 1,
+    "dados": "1d6",
+    "propriedades": [
+      "Emaranha",
+      "Oculta"
+    ],
+    "forca": 0,
+    "volume": 0.1,
+    "preco": 8000,
+    "preco_criacao": 8000,
+    "alcance_ca": 1.5,
+    "distancia": null,
+    "modo": "corpo a corpo",
+    "tipo": "Concussão",
+    "descricao": "corrente com pesos",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Naginata",
+    "categoria": "Armas Longas",
+    "treino": "Treino marcial",
+    "maos": 2,
+    "dados": "1d10",
+    "propriedades": [
+      "Alcance",
+      "Rompe"
+    ],
+    "forca": 3,
+    "volume": 2,
+    "preco": 36000,
+    "preco_criacao": 36000,
+    "alcance_ca": 3,
+    "distancia": null,
+    "modo": "corpo a corpo",
+    "tipo": "Cortante",
+    "descricao": "haste com lâmina",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Nodachi",
+    "categoria": "Lâmina Longa",
+    "treino": "Treino marcial",
+    "maos": 2,
+    "dados": "1d12",
+    "propriedades": [
+      "Alcance",
+      "Rompe",
+      "Volumosa"
+    ],
+    "forca": 3,
+    "volume": 2,
+    "preco": 60000,
+    "preco_criacao": 60000,
+    "alcance_ca": 3,
+    "distancia": null,
+    "modo": "corpo a corpo",
+    "tipo": "Cortante",
+    "descricao": "espada grande",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Odachi",
+    "categoria": "Lâmina Longa",
+    "treino": "Treino marcial",
+    "maos": 2,
+    "dados": "1d12",
+    "propriedades": [
+      "Alcance",
+      "Talha",
+      "Embainhada"
+    ],
+    "forca": 3,
+    "volume": 2,
+    "preco": 90000,
+    "preco_criacao": 90000,
+    "alcance_ca": 3,
+    "distancia": null,
+    "modo": "corpo a corpo",
+    "tipo": "Cortante",
+    "descricao": "espada grande",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Rapieira",
+    "categoria": "Lâmina Longa",
+    "treino": "Treino marcial",
+    "maos": 1,
+    "dados": "1d6",
+    "propriedades": [
+      "Fineza",
+      "Talha"
+    ],
+    "forca": 0,
+    "volume": 1,
+    "preco": 32000,
+    "preco_criacao": 32000,
+    "alcance_ca": 1.5,
+    "distancia": null,
+    "modo": "corpo a corpo",
+    "tipo": "Perfurante",
+    "descricao": "",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Wakizashi",
+    "categoria": "Lâmina Longa",
+    "treino": "Treino marcial",
+    "maos": 1,
+    "dados": "1d8",
+    "propriedades": [
+      "Oculta"
+    ],
+    "forca": 0,
+    "volume": 0.1,
+    "preco": 32000,
+    "preco_criacao": 32000,
+    "alcance_ca": 1.5,
+    "distancia": null,
+    "modo": "corpo a corpo",
+    "tipo": "Cortante",
+    "descricao": "espada curta",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Yari",
+    "categoria": "Armas Longas",
+    "treino": "Treino marcial",
+    "maos": 2,
+    "dados": "1d10",
+    "propriedades": [
+      "Alcance",
+      "Talha"
+    ],
+    "forca": 3,
+    "volume": 2,
+    "preco": 36000,
+    "preco_criacao": 36000,
+    "alcance_ca": 3,
+    "distancia": null,
+    "modo": "corpo a corpo",
+    "tipo": "Perfurante",
+    "descricao": "lança longa",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Espingarda",
+    "categoria": "Arma de Fogo",
+    "treino": "Treino de fogo",
+    "maos": 2,
+    "dados": "2d8",
+    "propriedades": [
+      "Longo Alcance",
+      "Munição",
+      "Rompe"
+    ],
+    "forca": 1,
+    "volume": 2,
+    "preco": 300000,
+    "preco_criacao": 150000,
+    "alcance_ca": 1.5,
+    "distancia": [
+      9,
+      27
+    ],
+    "modo": "disparo",
+    "tipo": "Perfurante",
+    "descricao": "",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Metralhadora Pesada",
+    "categoria": "Arma de Fogo",
+    "treino": "Treino de fogo",
+    "maos": 2,
+    "dados": "2d10",
+    "propriedades": [
+      "Longo Alcance",
+      "Munição",
+      "Rompe",
+      "Volumosa"
+    ],
+    "forca": 3,
+    "volume": 2,
+    "preco": 900000,
+    "preco_criacao": 450000,
+    "alcance_ca": 1.5,
+    "distancia": [
+      24,
+      72
+    ],
+    "modo": "disparo",
+    "tipo": "Perfurante",
+    "descricao": "",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Pistola",
+    "categoria": "Arma de Fogo",
+    "treino": "Treino de fogo",
+    "maos": 1,
+    "dados": "1d10",
+    "propriedades": [
+      "Longo Alcance",
+      "Munição",
+      "Oculta"
+    ],
+    "forca": 0,
+    "volume": 0.1,
+    "preco": 250000,
+    "preco_criacao": 125000,
+    "alcance_ca": 1.5,
+    "distancia": [
+      9,
+      27
+    ],
+    "modo": "disparo",
+    "tipo": "Perfurante",
+    "descricao": "",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Revólver",
+    "categoria": "Arma de Fogo",
+    "treino": "Treino de fogo",
+    "maos": 1,
+    "dados": "1d10",
+    "propriedades": [
+      "Longo Alcance",
+      "Munição",
+      "Oculta"
+    ],
+    "forca": 0,
+    "volume": 0.1,
+    "preco": 250000,
+    "preco_criacao": 125000,
+    "alcance_ca": 1.5,
+    "distancia": [
+      12,
+      36
+    ],
+    "modo": "disparo",
+    "tipo": "Perfurante",
+    "descricao": "",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Rifle",
+    "categoria": "Arma de Fogo",
+    "treino": "Treino de fogo",
+    "maos": 2,
+    "dados": "2d8",
+    "propriedades": [
+      "Longo Alcance",
+      "Munição",
+      "Talha"
+    ],
+    "forca": 1,
+    "volume": 2,
+    "preco": 350000,
+    "preco_criacao": 175000,
+    "alcance_ca": 1.5,
+    "distancia": [
+      24,
+      72
+    ],
+    "modo": "disparo",
+    "tipo": "Perfurante",
+    "descricao": "",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Rifle de Precisão",
+    "categoria": "Arma de Fogo",
+    "treino": "Treino de fogo",
+    "maos": 2,
+    "dados": "2d10",
+    "propriedades": [
+      "Longo Alcance",
+      "Munição"
+    ],
+    "forca": 3,
+    "volume": 2,
+    "preco": 600000,
+    "preco_criacao": 300000,
+    "alcance_ca": 1.5,
+    "distancia": [
+      24,
+      72
+    ],
+    "modo": "disparo",
+    "tipo": "Perfurante",
+    "descricao": "",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  },
+  {
+    "nome": "Submetralhadora",
+    "categoria": "Arma de Fogo",
+    "treino": "Treino de fogo",
+    "maos": 2,
+    "dados": "2d6",
+    "propriedades": [
+      "Longo Alcance",
+      "Munição",
+      "Par",
+      "Oculta"
+    ],
+    "forca": 0,
+    "volume": 2,
+    "preco": 400000,
+    "preco_criacao": 200000,
+    "alcance_ca": 1.5,
+    "distancia": [
+      15,
+      45
+    ],
+    "modo": "disparo",
+    "tipo": "Perfurante",
+    "descricao": "",
+    "nota_tipo": "Tipo proposto nesta revisão; tabela antiga não publicava coluna de tipo."
+  }
+]

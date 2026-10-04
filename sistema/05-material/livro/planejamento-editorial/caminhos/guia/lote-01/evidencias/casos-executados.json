@@ -1,0 +1,153 @@
+{
+  "ok": true,
+  "sha256_texto": "5bf3964d6d8c233069b9f2569fe9487361f9dec0c6473579f594d71c217cca5c",
+  "casos": [
+    {
+      "id": "abertura-alvo-distancia-limite-proprio-turno",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "avancar-fora-consome-reacao-nao-pode-responder-mesmo-aliado",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "plano-tres-aberturas-duas-respostas",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "cadeia-sem-repetir-pessoa-ou-tipo",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "reajuste-gasta-reacao-nao-inicia-resposta-gratis",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "estado-limite-artificial-resposta-anterior-conta-teto",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "duas-entidades-compartilham-coletiva-mas-renovacao-outro-invocador-permite",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "guia-invocador-nao-usa-renovacao-para-prolongar-cadeia",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "resposta-nao-gera-outra-acao-concedida",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "uma-resposta-por-abertura-consumida",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "prazo-encerra-cadeia-e-janela-de-resposta",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "outra-abertura-substitui-sem-consumo",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "obra-ampliar-preserva-dano-prazo-e-conserto-sem-excesso",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "limite-obras-nao-apaga-apoio-ocupado",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "rever-leitura-custa-reacao-e1pe-padrao-dois-proximos-turnos",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "emergencia-com-abertura-consumida-nao-consome-segunda",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "emergencia-nao-revive-morto-nem-ignora-proibicao-de-cura",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "cuidado-cura-ou-condicao-elegivel-na-preparacao",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "GUIA38-resgate-9-abaixo39-com-consumo",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "GUIA38-tratamento-soma-respeita-maximo-atual",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "GUIA38-abertura-ja-consumida-sem-consumo-duplo",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "GUIA38-nao-retorna-apos-derrotado",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "GUIA38-preserva-impedimentos-e-requisitos",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "GUIA38-alcance-percepcao-preservados",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "GUIA38-uma-vez-cena-mesmo-em-nova-queda",
+      "passou": true,
+      "tipo": "modelo executado"
+    },
+    {
+      "id": "GUIA38-dois-PE-adicionais-obrigatorios",
+      "passou": true,
+      "tipo": "modelo executado"
+    }
+  ],
+  "contagens": {
+    "verificacoes": 163,
+    "casos_dirigidos": 26,
+    "perfis_obras": 203,
+    "pares_d20": 8400,
+    "quatro_d20": 160000,
+    "cenarios_cura": 41608,
+    "cadeias_ordenadas": 81,
+    "perfis_resgate_GUIA38": 36
+  },
+  "limites": [
+    "Modelos dirigidos e distribuições exatas; não são sessões humanas ou motor completo de combate.",
+    "O risco de suporte forte depende das fichas dos aliados e da disponibilidade de reações, não é determinado por uma média de cura.",
+    "Medidas da Mureta foram adaptadas à grade por pedido do usuário; cobertura da versão básica permanece Parcial.",
+    "O caso de teto com resposta prévia injeta estado artificial para isolar o limite; não é sequência de duas Aberturas permitidas no mesmo turno.",
+    "A confirmação de compreensão e diagramação depende de leitura independente e PDF, ainda não executados aqui."
+  ]
+}

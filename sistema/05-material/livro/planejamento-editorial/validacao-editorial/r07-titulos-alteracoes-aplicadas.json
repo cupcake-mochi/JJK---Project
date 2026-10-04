@@ -1,0 +1,72 @@
+{
+  "data": "2026-10-03T17:26:38-03:00",
+  "backup": "/tmp/r07-titulos-backup",
+  "arquivos": [
+    {
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md",
+      "sha256_antes": "9934a70de9062e1a182d1ef594863c6fff830559f3bcea33cb4b6da84f43c086",
+      "sha256_depois": "3a7c2783e8f07a1d0de20317d1115d592d45c8b96cbbf7452e28d970ef03bb06",
+      "somente_cabecalhos": true,
+      "alteracoes": [
+        {
+          "linha": 237,
+          "antes": "O ataque revela você?",
+          "depois": "Ataques e posição revelada",
+          "pagina_id": "atacar"
+        },
+        {
+          "linha": 313,
+          "antes": "O que muda com uma Trilha",
+          "depois": "Trilhas e usos específicos",
+          "pagina_id": "contencoes"
+        },
+        {
+          "linha": 400,
+          "antes": "O que ficou no lugar",
+          "depois": "Vestígios",
+          "pagina_id": "mundo"
+        },
+        {
+          "linha": 406,
+          "antes": "O corpo e o que ele carrega",
+          "depois": "Corpos e equipamento",
+          "pagina_id": "mundo"
+        },
+        {
+          "linha": 435,
+          "antes": "O que o sucesso entrega",
+          "depois": "Resultados",
+          "pagina_id": "buscar"
+        },
+        {
+          "linha": 462,
+          "antes": "O alvo não tem energia",
+          "depois": "Alvos sem energia",
+          "pagina_id": "pressao"
+        },
+        {
+          "linha": 533,
+          "antes": "Os apoios do Parkour",
+          "depois": "Apoios do Parkour",
+          "pagina_id": "habilidades"
+        }
+      ],
+      "diff": "--- antes\n+++ depois\n@@ -234,7 +234,7 @@\n \n **Cego:** falha em testes que dependam da visão e ataca com desvantagem os alvos que não consegue perceber por um sentido equivalente. Quem o ataca tem vantagem por sua cegueira apenas se conseguir enxergá-lo. Visão às cegas substitui a visão para esses ataques dentro de seus limites; não restaura a leitura ou outros usos exclusivos dos olhos. Outras fontes de vantagem e desvantagem continuam seguindo as regras comuns.\n \n-## O ataque revela você?\n+## Ataques e posição revelada\n \n Se estiver oculto do alvo ao declarar o ataque, você pode expor-se pela lateral do esconderijo como parte do golpe. Precisa obter visão, alcance e passagem livre; nesse ataque, recebe a vantagem de atacar sem ser visto. **Depois de resolvê-lo, acertando ou errando, sua posição é revelada a quem puder perceber o ataque.** Resolva isso antes do próximo ataque.\n \n@@ -310,7 +310,7 @@\n \n Um tiro contra alguém envolvido na contenção é resolvido contra esse alvo. Se outra criatura estiver entre o atacante e ele, aplique a cobertura correspondente. O agarrão não redireciona o ataque aleatoriamente.\n \n-## O que muda com uma Trilha\n+## Trilhas e usos específicos\n \n | Habilidade | Sua vantagem específica |\n |---|---|\n@@ -397,13 +397,13 @@\n \n Pessoas comuns normalmente não enxergam maldições. A obra mostra exceções em circunstâncias especiais, como a proximidade da morte. Feiticeiros convivem com perigos que as outras pessoas muitas vezes sequer percebem; nas missões do Projeto M, você precisa descobrir onde esses perigos estão e como enfrentá-los.\n \n-## O que ficou no lugar\n+## Vestígios\n \n Uma fonte de energia pode deixar vestígios. No primeiro capítulo do mangá, Megumi segue a energia de uma caixa e a encontra vazia: o objeto que procurava já havia sido retirado. O sinal ainda estava ali.\n \n Essa diferença importa durante uma investigação. Energia numa sala pode vir de uma criatura presente, de um objeto carregado ou de resíduos deixados para trás. Encontrar o sinal dá ao grupo uma pista. Saber quem o deixou, quando passou por ali e para onde foi exige examinar o que a cena oferece.\n \n-## O corpo e o que ele carrega\n+## Corpos e equipamento\n \n Existem exceções importantes. Toji não possui energia amaldiçoada; a maldição que ele transporta, porém, pode ser percebida. No confronto do capítulo 71, Gojo tenta acompanhá-la para localizar o adversário. A cena também mostra como outras maldições podem atrapalhar essa leitura.\n \n@@ -432,7 +432,7 @@\n \n Uma fonte alcançada, sem ocultação nem interferência, é localizada sem rolagem **depois de gastar a ação**. Se houver interferência, o mestre anuncia sua dificuldade antes do dado. Para uma fonte também oculta, compare a mesma rolagem à **maior entre a CD da interferência e a Furtividade**, sem somá-las. Uma rolagem alta nunca atravessa o bloqueio ou amplia o alcance. Se nenhum sinal for encontrado, isso não comprova que o lugar esteja vazio.\n \n-## O que o sucesso entrega\n+## Resultados\n \n Você conhece o **espaço atual da fonte** e pode indicá-lo a um aliado. Se ela for uma criatura ou algo que a criatura carrega, encontrar esse sinal encerra a ocultação dela em relação a você. Um resíduo abandonado localiza apenas o vestígio: não revela seu antigo portador. A busca não fornece visão, identidade, grau, valores da ficha ou conhecimento da técnica.\n \n@@ -459,7 +459,7 @@\n \n **Antena** permite refazer um teste falho uma vez por cena, sem pagar outra ação para essa rerrolagem. Refaça a mesma tentativa, com os mesmos limites. Se a busca resolveu apenas parte do pedido declarado, refaça a parte que falhou, preservando as posições já descobertas. O mestre não revela a existência de alvos desconhecidos para oferecer essa rerrolagem. Um sucesso completo não pode ser refeito apenas para procurar algo a mais.\n \n-## O alvo não tem energia\n+## Alvos sem energia\n \n Uma criatura sem energia amaldiçoada não é encontrada pela busca energética. Gastar seus PE até chegar a zero não torna um feiticeiro uma criatura sem energia. Percepção ainda pode notar seu corpo, passos ou outros sinais. Ferramentas e objetos amaldiçoados que ela carrega continuam sendo fontes de energia, conforme seus próprios textos.\n \n@@ -530,7 +530,7 @@\n \n Se seu deslocamento mudar, recalcule o limite. Se já o tiver consumido, termine o trecho acrobático; sem apoio permitido, você cai. Um Passo à Frente antecipa seu turno e renova o limite ali, substituindo a renovação da posição habitual naquela rodada.\n \n-## Os apoios do Parkour\n+## Apoios do Parkour\n \n **Terminar o percurso acrobático pendurado numa borda ou sustentado por apoios especiais pertence ao Parkour do Assassino.** A habilidade também permite usar a vítima como apoio e trocar Atletismo por Acrobacia nos testes previstos. As regras comuns não concedem esses benefícios nem uma Reação geral para agarrar uma borda durante a queda.\n "
+    },
+    {
+      "arquivo": "regras-comuns/lote-06-r3/sincronizacoes/INCURSOR-COMPLETO.md",
+      "sha256_antes": "2e2472fa5cb15787a853c88beb27df987cab4892aca0104a892aaad9a2007e6c",
+      "sha256_depois": "f99aa89ec9c38a3e6a4b0da8c64fa3f18f6d72fd87f1e9a485d620166c94b5f3",
+      "somente_cabecalhos": true,
+      "alteracoes": [
+        {
+          "linha": 242,
+          "antes": "A vítima como apoio",
+          "depois": "Vítima como apoio",
+          "pagina_id": null
+        }
+      ],
+      "diff": "--- antes\n+++ depois\n@@ -239,7 +239,7 @@\n \n A aproximação usa seu movimento disponível. Os trechos de Movimento Acrobático respeitam o limite da habilidade, e os saltos seguem suas regras normais.\n \n-##### A vítima como apoio\n+##### Vítima como apoio\n \n **Uma vez por turno seu**, depois de acertar um ataque corpo a corpo contra uma criatura hostil durante seu Movimento Acrobático, você pode usar o corpo dela como apoio para **saltar até uma borda, superfície com apoios ou posição elevada**.\n "
+    }
+  ]
+}

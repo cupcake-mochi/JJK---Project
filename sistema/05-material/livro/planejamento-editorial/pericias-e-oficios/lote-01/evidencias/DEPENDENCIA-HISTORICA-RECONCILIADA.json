@@ -1,0 +1,8 @@
+{
+  "arquivo": "sistema/05-material/livro/planejamento-editorial/regras-comuns/consolidado-r1/REGRAS-COMUNS.md",
+  "sha256_original": "9934a70de9062e1a182d1ef594863c6fff830559f3bcea33cb4b6da84f43c086",
+  "sha256_atual": "3a7c2783e8f07a1d0de20317d1115d592d45c8b96cbbf7452e28d970ef03bb06",
+  "estado": "Candidata histórica alterada durante a reescrita; não é mais considerada fonte imutável.",
+  "dono_atual": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+  "reconciliacao": "REM03/12 corrigidas e procedimentos de perícia não modificados. Auditoria numérica R04 executada sobre a candidata atual, remissões específicas dirigidas ao dono final. Sem afirmação de preservação binária da candidata histórica."
+}

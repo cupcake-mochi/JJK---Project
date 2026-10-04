@@ -1,0 +1,48 @@
+{
+  "ordem": [
+    "atributos",
+    "testes",
+    "pericias",
+    "resistencia",
+    "turnos",
+    "acoes",
+    "reacoes"
+  ],
+  "titulos": {
+    "atributos": "Atributos",
+    "testes": "Testes",
+    "pericias": "Perícias e ofícios",
+    "resistencia": "Testes de Resistência",
+    "turnos": "Turnos",
+    "acoes": "Ações",
+    "reacoes": "Reações e concentração"
+  },
+  "grupos": [
+    [
+      "Testes",
+      [
+        "atributos",
+        "testes",
+        "pericias",
+        "resistencia"
+      ]
+    ],
+    [
+      "Turnos e ações",
+      [
+        "turnos",
+        "acoes",
+        "reacoes"
+      ]
+    ]
+  ],
+  "paginas": {
+    "atributos": 1,
+    "testes": 2,
+    "pericias": 3,
+    "resistencia": 4,
+    "turnos": 5,
+    "acoes": 6,
+    "reacoes": 7
+  }
+}

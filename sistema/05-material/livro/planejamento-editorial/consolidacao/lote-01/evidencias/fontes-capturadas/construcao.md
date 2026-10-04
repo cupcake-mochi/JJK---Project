@@ -1,0 +1,703 @@
+<!-- page:entidades-criar|Criar uma invocação -->
+# Criar uma invocação
+
+Um cão que fareja vestígios de energia, um boneco que protege uma entrada ou uma maldição capturada têm algo em comum: são **entidades**, criaturas com ficha própria. Este capítulo explica como adquiri-las e preparar suas fichas. **Invocações em campo** reúne as regras de manifestação, comando, recuperação e morte.
+
+Comece pelo trabalho que a entidade terá na equipe. Ela pode lutar, investigar, transportar ou apoiar. Escolher uma função ajuda a decidir suas características sem precisar examinar todo o catálogo de uma vez.
+
+## Etapas da ficha
+
+1. **Aquisição e tipo.** Registre como a entidade foi obtida, sua origem, seu corpo e seu nível.
+2. **Definição.** Descreva o que ela é e o que seu corpo permite fazer.
+3. **Atributos.** Distribua os pontos e calcule acerto, CD, Defesa e vida.
+4. **Famílias.** Escolha três abertas e marque uma delas como Livre.
+5. **Habilidades.** Monte a básica, as especiais e os talentos disponíveis naquele nível.
+6. **Registro.** Anote custos, alcances, requisitos e comunicação. Confira a ficha antes de levá-la à sessão.
+
+**Pontos de montagem** compram partes de uma habilidade. **PE** pagam seu uso. Uma especial pode ter 4 pontos de montagem e custar 6 PE, por exemplo. A **Classe** determina essas contas. **Categoria de Efeito**, abreviada como CE, é uma escala diferente, usada nas características permanentes ou reativas.
+
+O exemplo [Cão de sombra](#entidade-cao) percorre essas etapas com uma entidade de nível 2. [Vigia de papel](#entidade-vigia) mostra uma entidade voltada à investigação e ao apoio. Os efeitos são propostas originais deste sistema.
+
+<!-- page:entidades-aquisicao|Adquirir entidades -->
+# Adquirir entidades
+
+**Cada entidade precisa de uma forma de aquisição.** Pagar o PE para manifestá-la coloca uma entidade conhecida em campo. Esse pagamento não cria uma ficha nova no seu repertório.
+
+| Aquisição | Investimento | Evolução |
+|---|---|---|
+| Espaço conhecido | Uma vaga de feitiço, Manejo ou Kata. | Acompanha seu nível. |
+| Lista de ritual | Um feitiço com uma lista própria e desafios individuais de submissão. | As entidades conquistadas acompanham seu nível. |
+| Maldição domada | Encontrar, derrotar e submeter uma maldição. | Conserva o nível em que foi domada. |
+| Criação | Tempo, testes e materiais de fabricação. | Conserva o nível em que foi criada. |
+
+## Espaço conhecido
+
+Esta opção exige que a técnica ou o estilo **preveja criar, chamar ou controlar entidades**. A Descrição e a Regra, ou a semente e o equipamento de Manejo ou Kata, precisam explicar esse funcionamento.
+
+Cumprido o requisito, **um espaço dá uma entidade do seu nível**. A vaga continua ocupada quando ela está recolhida ou fora da cena. Classe 0 e outros benefícios recebidos fora da lista de espaços não fornecem vagas para essa troca.
+
+Ao subir de nível, você pode rever um espaço ocupado: reescrever seu feitiço, substituir sua entidade ou mudar entre as duas opções. Essas escolhas usam **a mesma revisão de um espaço**. Preencher uma vaga nova não consome essa revisão.
+
+Na rota sem energia, os custos em PE continuam sendo pagos com **Pontos de Esforço**. A aquisição não acrescenta energia amaldiçoada pessoal à ficha do invocador.
+
+> Uma técnica que cria animais de papel pode usar uma vaga para um pássaro de papel. Uma técnica que apenas afia lâminas precisa de outra forma de aquisição, pois sua definição atual não cria ou controla entidades.
+
+<!-- page:entidade-cao|Cão de sombra -->
+# Cão de sombra
+
+Kaito, de nível 2, possui uma técnica que prevê animais de sombra. Ele dedica **um espaço conhecido** ao cão, que começa no nível 2 e acompanha sua evolução.
+
+**Definição:** um cão feito de sombra que reconhece vestígios de energia amaldiçoada e persegue o que seu invocador aponta.
+
+O cão é Médio, tem quatro patas, não possui mãos e usa a boca para segurar objetos compatíveis. Compreende ordens faladas de Kaito e transmite descobertas por latidos e gestos. Tem visão, audição e olfato comuns. A percepção especial virá de Farejador. Seu deslocamento terrestre é 9 m.
+
+## Atributos
+
+| Força | Destreza | Constituição | Inteligência | Essência |
+|---|---|---|---|---|
+| 3 | 2 | 2 | 1 | 1 |
+
+São **9 pontos**. Kaito tem maestria 1 e escolheu Essência, atualmente 2, para a parcela de Defesa de suas entidades.
+
+| Campo | Valor |
+|---|---|
+| Atributo de acerto | Força. |
+| Ataque e CD | +4 e CD 12. |
+| Defesa sem equipamento | 10 + 2 + 1 = 13. |
+| Vida máxima | 7 + 5 × 1 = 12. |
+| TR treinado | Físico, usando Força: +4. |
+| Outros TR | Vigor +2, Intelecto +1, Espírito +1. |
+| Perícias treinadas | Atletismo, Furtividade, Percepção e Sobrevivência. |
+
+A ficha tem **uma básica, um espaço de especial e um talento de CE1**. Mira é Livre. Alcance e Controle são abertas, sem desconto. As seis Famílias restantes ficam Fechadas.
+
+Kaito escolhe esse conjunto para perseguição e combate próximo. A definição não permite ao cão curar, falar pela mente ou compartilhar a visão sem adquirir capacidades adequadas.
+
+<!-- page:entidade-cao-habilidades|Habilidades do cão -->
+# Habilidades do cão
+
+As habilidades completam a ficha anterior. Uma mesma criatura pode ter uma básica econômica e uma especial mais forte. A especial substitui a atuação básica daquele ciclo.
+
+## Mordida
+
+**Básica de Classe 0. Toque, 1,5 m.** Ataque +4. No acerto, causa **1d6 de Perfurante**. Não há Melhoria ou Restrição adicional. Não custa PE e consome a atuação básica do cão.
+
+## Mordida precisa
+
+**Especial de Classe 1. Toque + Precisão.** Começa com 2 pontos. Precisão custa 1, mesmo com Mira Livre, pelo preço mínimo. Corpo a Corpo devolve somente esse ponto gasto. A conta é **2 − 1 + 1 = 2d8**.
+
+Kaito gasta sua Ação Padrão de comando. O cão precisa ter a atuação básica disponível. O uso custa **3 PE de Kaito**, exige um alvo a até **1,5 m** do cão e resolve **ataque +6**, incluindo Precisão. No acerto, causa **2d8 de Perfurante**. Não aplica condição nem deixa efeito contínuo.
+
+## Farejador
+
+**Talento de CE1.** O cão reconhece se houve conjuração onde está nas últimas 24 horas e suas Classes, seguindo a entrada Farejador do Catálogo. A informação é percebida por ele. Kaito precisa interpretar os sinais combinados para recebê-la. O talento não identifica automaticamente o autor nem acompanha sua rota.
+
+## Evolução
+
+No nível 4, o cão terá **22 de vida** e um segundo espaço de especial. No nível 5, terá **27 de vida**, básica de **2d6** e acesso à Classe 2. Sua Mordida precisa poderá ser ampliada para **4d8 por 6 PE**.
+
+No nível 6, Kaito aumenta a Constituição do cão de 2 para 3. A vida inteira é recalculada: **8 + 6 × 5 = 38**. Ele recebe também seu segundo talento, até CE1. A segunda básica conhecida só chegará no nível 11.
+
+<!-- page:entidades-lista-criacao|Lista de ritual e criação -->
+# Lista de ritual e criação
+
+## Lista de ritual
+
+A técnica pode possuir **um feitiço com uma lista própria de entidades**. Registre esse feitiço em um espaço conhecido. A lista e o procedimento de submissão fazem parte de sua ficha e são definidos com o mestre antes do uso.
+
+Cada entrada precisa indicar a entidade, sua ficha, o desafio que libera seu uso e como o ritual começa e termina. **Você enfrenta esse desafio sozinho.** Ajuda de outra criatura não vale como uma vitória individual. O resultado do desafio precisa estar previsto na ficha do ritual.
+
+Conquistar uma entrada libera aquela entidade da lista. Ela acompanha seu nível. Acrescentar uma entidade nova exige a permissão escrita da própria técnica, em vez de ampliar a lista durante a sessão por decisão unilateral.
+
+Este ritual de submissão é parte da aquisição. Os **Pontos de Ritual**, usados para preparar conjurações em **Ritual e Pactos**, não concedem uma lista de entidades nem substituem seus desafios. Manejo e Kata não recebem essa modalidade pela permissão de trocar um espaço por uma entidade.
+
+## Criação
+
+Shikigamis de criação ficam ligados a talismãs. Corpos amaldiçoados de criação são construídos com peças. Ambos dependem de tempo, testes e materiais, conforme **Fabricação de entidades**. Caligrafia é o ofício dos talismãs. Entalhador ou Forja atende aos corpos, conforme o material e o trabalho.
+
+Registre o nível e a ficha resultantes da fabricação. Subir de nível com o invocador não melhora automaticamente essa criatura. O reparo de um corpo existente segue **Invocações em campo — Cura e reparo**.
+
+Domar ou fabricar não exige possuir uma técnica de invocação. Ainda é preciso cumprir os procedimentos de aquisição e pagar os custos de uso. Uma entidade adquirida dessa maneira não ocupa uma vaga de feitiço apenas por existir.
+
+<!-- page:entidades-domar|Domar uma maldição -->
+# Domar uma maldição
+
+Você pode obter uma maldição **de nível igual ou inferior ao seu**. Encontre-a e derrote-a sem destruí-la. Seu grupo pode participar da luta.
+
+Chegar a 0 pontos de vida não é, por si só, destruição definitiva. Confira os limites de **Invocações em campo — Queda e destruição** antes de resolver o ataque que encerra a luta.
+
+## Submissão
+
+Fora do combate, a maldição derrotada faz **um TR Espírito contra sua CD de conjuração**. Use a CD que sua rota fornece para seus poderes: técnica, Manejo ou Kata.
+
+- **Falha:** a maldição é domada.
+- **Sucesso:** a maldição é exorcizada.
+
+Igualar a CD é sucesso. Como resistir exorciza a maldição, esse procedimento não permite repetir tentativas sobre a mesma criatura até obter uma falha.
+
+> Kaito, de nível 5, derrota uma maldição de nível 5 sem destruí-la. Sua CD é 12. A maldição consegue 11 no total do TR e passa a ser uma entidade domada. Se conseguisse 12, seria exorcizada. Uma maldição de nível 6 está acima do limite de aquisição de Kaito.
+
+## Tentativa durante o combate
+
+O mestre pode permitir uma tentativa antes da derrota, quando a vida da maldição atingir a quantidade que ele determinar. Você gasta sua **Ação Padrão** e resolve o mesmo TR Espírito e os mesmos resultados. Não há um requisito geral de metade da vida nem uma penalidade automática por estar ferida.
+
+A domada conserva o nível e as capacidades que possuía. Conheça sua ficha resultante antes da tentativa. Ela precisa estar preparada pelo mestre, com os limites de construção e de atuação deste capítulo. A conversão conserva suas funções e sua identidade. Ações adicionais de uma ficha de inimigo não passam automaticamente para a entidade.
+
+<!-- page:entidades-tipos|Tipos de entidade -->
+# Tipos de entidade
+
+O tipo combina **origem** e **corpo**. A origem indica a aquisição. O corpo determina características como recuperação, recolhimento e equipamento.
+
+| Tipo | Origem e corpo | Característica da ficha |
+|---|---|---|
+| Shikigami de técnica | Criatura ligada à técnica. | Usa a ficha normal de entidade. |
+| Corpo amaldiçoado de técnica | Corpo ligado à técnica. | Usa a vida normal e as regras de corpo amaldiçoado. |
+| Shikigami de criação | Criatura guardada em um talismã. | Registra o talismã e sua carga. |
+| Corpo amaldiçoado de criação | Corpo fabricado. | Ganha 4 + Constituição por nível depois do primeiro. |
+| Maldição domada | Maldição submetida. | Mantém seu nível e suas capacidades de origem. |
+
+O shikigami de técnica é a referência da ficha. Os outros tipos aplicam suas diferenças sobre ela. Corpos amaldiçoados são imunes a **Envenenado**. A distinção entre corpo sem alma e corpo autônomo com alma deve constar na definição, seguindo **Corpos amaldiçoados** em Invocações em campo.
+
+## Quantidade de entidades
+
+Não há limite geral para o total adquirido. **O máximo é duas entidades ativas ao mesmo tempo**, salvo uma permissão específica. Ter mais fichas amplia suas opções, sem ampliar esse limite.
+
+Talismãs ocupam carga. Corpos amaldiçoados permanecem no mundo e possuem um limite próprio de corpos mantidos. Uma maldição domada permanece no mundo se você não tiver uma capacidade que a recolha. Esses procedimentos e os benefícios de cada tipo ficam em **Invocações em campo**.
+
+O nível de qualquer entidade fica limitado ao seu. Nas formas de aquisição que concedem evolução, atualize sua ficha quando ela subir. Criadas e domadas mantêm seus níveis, mesmo que você avance na campanha.
+
+<!-- page:entidades-definicao|Definição e corpo -->
+# Definição e corpo
+
+Escreva **uma ou duas frases curtas** que descrevam a entidade e sua função. Cada característica e habilidade escolhida precisa caber nessa definição.
+
+> **Cão de sombra:** um cão feito de sombra que reconhece vestígios de energia amaldiçoada e persegue o que seu invocador aponta.
+
+Essa frase orienta a escolha de Farejador e das habilidades de perseguição. A capacidade de reconhecer vestígios virá do talento. Mencionar o faro na definição não concede seu efeito antes dessa escolha.
+
+## Anatomia e comunicação
+
+Anote tamanho, forma corporal, membros e sentidos comuns. Registre se ela fala, quais sinais compreende e como transmite uma descoberta. Uma aparência humana pode justificar mãos e voz. Um cão precisa de um meio compatível de segurar objetos e de se comunicar.
+
+Uma entidade não recebe por padrão telepatia, visão compartilhada, percepção especial ou um ataque. Essas capacidades precisam estar na ficha, concedidas por uma habilidade ou pela aquisição. Ela pode ser construída sem ataque, para ajudar de outras maneiras.
+
+**Deslocamento terrestre-base: 9 m.** Voo, travessia de paredes ou outro modo extraordinário exige uma capacidade que o conceda e descreva seus limites. Desenhar asas não estabelece sozinho a velocidade, a sustentação ou as condições desse voo. Registre essas informações na capacidade correspondente.
+
+## Características pagas
+
+A entidade não recebe **Regra Própria gratuita**, **Expressão da técnica** ou **Selo**. Usa a definição para orientar suas escolhas e recebe os talentos da própria progressão.
+
+Um detalhe de aparência pode ser descrito livremente. Quando o detalhe resolve um obstáculo ou concede um benefício, compare-o às opções pagas. Escolha também um tipo de dano permitido pelo catálogo geral para cada ataque. A aparência de energia pura usa **Força**, conforme **Tipos de dano**.
+
+<!-- page:entidades-atributos|Atributos e testes -->
+# Atributos e testes
+
+Distribua **9 pontos** entre Força, Destreza, Constituição, Inteligência e Essência. Cada atributo começa entre 0 e 3. Nos níveis **6, 10, 14, 18, 22, 26 e 30**, acrescente 1 ponto a um atributo, até o máximo de 6.
+
+Ao criar uma entidade de nível maior, distribua os 9 pontos iniciais e depois aplique os aumentos dos marcos que ela já alcançou. Uma entidade de nível 10, por exemplo, tem 11 pontos no total.
+
+## Acerto e dificuldade
+
+Escolha um atributo de acerto que represente suas habilidades. Essa escolha fica registrada na montagem e serve para seu acerto e sua CD.
+
+| Valor | Conta |
+|---|---|
+| Ataque | d20 + atributo de acerto da entidade + maestria do invocador. |
+| CD das habilidades | 8 + atributo de acerto da entidade + maestria do invocador. |
+| TR treinado | d20 + atributo do TR + maestria do invocador. |
+| TR sem treino | d20 + atributo do TR. |
+
+A maestria é sempre a **do invocador**, inclusive para uma domada de nível menor. Os atributos são os **da entidade**.
+
+## Resistências e perícias
+
+Escolha **um TR treinado**. Físico usa Força ou Destreza, escolhida na montagem. Vigor usa Constituição, Intelecto usa Inteligência e Espírito usa Essência.
+
+A entidade tem treino em **4 + metade da Inteligência**, arredondada para baixo, perícias. Escolha-as de acordo com sua definição. Os testes seguem as regras gerais de perícias, usando seus atributos e a maestria do invocador quando houver treino.
+
+Ela não recebe ofícios automaticamente. Um ofício precisa de permissão expressa na capacidade ou no procedimento que criou a entidade. Conhecer uma tarefa e ter anatomia para executá-la são requisitos distintos.
+
+<!-- page:entidades-vida-defesa|Vida e Defesa -->
+# Vida e Defesa
+
+A vida usa a Constituição atual da entidade. Quando esse atributo aumenta, recalcule todos os níveis com o novo valor.
+
+| Ficha | Vida máxima |
+|---|---|
+| Entidade comum | 5 + Constituição + (3 + Constituição) × (nível − 1). |
+| Corpo amaldiçoado de criação | 5 + Constituição + (4 + Constituição) × (nível − 1). |
+
+No primeiro nível, as duas fichas têm **5 + Constituição**. A diferença do corpo de criação começa no segundo nível. O corpo amaldiçoado de técnica usa a primeira linha.
+
+> Com Constituição 2, uma entidade comum de nível 5 tem **7 + 5 × 4 = 27 de vida**. Um corpo de criação do mesmo nível tem **7 + 6 × 4 = 31**.
+
+## Defesa sem uniforme
+
+Some **10 + Destreza da entidade + metade da Essência ou da Inteligência do invocador**, arredondada para baixo.
+
+O invocador escolhe Essência ou Inteligência ao obter sua primeira entidade. Use essa mesma escolha nas suas fichas e no limite de corpos mantidos. Ela não muda a cada ataque recebido.
+
+## Equipamento
+
+Uma entidade pode usar equipamento que comporte sua anatomia. Confira requisitos com os atributos dela. Um escudo exige membros capazes de empunhá-lo. Uma armadura feita para outro corpo pode precisar de adaptação.
+
+Com traje ou revestimento defensivo, a Defesa usa **10 + Destreza da entidade + proteção do equipamento**. A proteção substitui a parcela de Essência ou Inteligência do invocador. Não some as duas fontes. Escudos e demais combinações seguem **Equipamento**.
+
+Registre o equipamento usado, a proteção, os requisitos e a carga. Levar um objeto ao campo ou recolhê-lo junto com a criatura segue **Invocações em campo — Carga e equipamento**. A capacidade de equipar algo não transforma esse objeto em uma parte gratuita da entidade.
+
+<!-- page:entidades-progressao|Progressão da entidade -->
+# Progressão da entidade
+
+A tabela usa **o nível da entidade**. A Classe máxima limita as especiais que ela pode conhecer ou ampliar. Os dados da básica aumentam automaticamente nas faixas indicadas.
+
+| Nível | Classe máxima | Dano-base da básica | Pontos da especial nessa Classe |
+|---|---|---|---|
+| 1–4 | 1 | 1d6 | 2 |
+| 5–8 | 2 | 2d6 | 4 |
+| 9–12 | 3 | 2d6 | 6 |
+| 13–16 | 4 | 2d6 | 9 |
+| 17–20 | 5 | 3d6 | 11 |
+| 21–25 | 6 | 3d6 | 13 |
+| 26–30 | 7 | 3d6 | 16 |
+
+## Habilidades conhecidas
+
+A entidade conhece **uma básica até o nível 10** e **duas a partir do nível 11**. As duas são opções para a atuação básica disponível, e não duas atuações no mesmo ciclo.
+
+Os espaços de especiais são **metade de (2 + nível ÷ 2), arredondada para baixo**. Não há espaços adicionais por marco.
+
+| Nível | 1 | 4 | 8 | 12 | 16 | 20 | 24 | 28 |
+|---|---|---|---|---|---|---|---|---|
+| Espaços de especiais | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
+
+A domada com técnica também usa esses espaços para adquirir seus degraus de Domínio, conforme **Expansão da domada** em Invocações em campo. Talentos têm aquisição própria e ficam fora dessa conta.
+
+## Ao subir de nível
+
+Atualize vida, marcos de atributo, perícias dependentes de Inteligência, dados da básica e novas vagas. Você pode **reescrever uma especial**. A Classe de uma especial antiga permanece registrada. Usá-la ampliada aplica o procedimento de [Ampliação](#entidades-ampliacao).
+
+Uma entidade obtida já em nível maior recebe os ganhos que correspondem a esse nível. Isso não concede níveis de evolução a uma domada ou criada depois da aquisição.
+
+<!-- page:entidades-familias|Famílias da entidade -->
+# Famílias da entidade
+
+As Famílias agrupam as Melhorias compradas nas habilidades. Escolha **três Famílias abertas** que combinem com a definição. As outras seis ficam Fechadas.
+
+| Família | Aplicações comuns |
+|---|---|
+| Alcance | Distância e deslocamento. |
+| Área | Mais alvos e áreas maiores. |
+| Mira | Acerto e superação de defesas. |
+| Controle | Condições, contenção e obstáculos. |
+| Auxiliares | Benefícios e penalidades. |
+| Castigo | Alterações na aplicação do dano. |
+| Tempo | Preparação, duração e momento de uso. |
+| Marca | Identificação e efeitos ligados a um alvo. |
+| Amparo | Cura e remoção de condições. |
+
+## Família Livre
+
+Marque **uma das três abertas como Livre**. Ao comprar uma Melhoria dessa Família, desconte **metade da Classe real, arredondada para baixo**, com desconto mínimo de 1. O preço final também tem mínimo de 1.
+
+| Classe da especial | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|---|---|---|---|---|---|---|---|
+| Desconto da Família Livre | 1 | 1 | 1 | 2 | 2 | 3 | 3 |
+
+As outras duas abertas usam preço normal. Formas não recebem desconto de Família Livre. Efeitos fora de Família continuam disponíveis conforme suas regras, sem desconto e sem permitir copiar uma Família Fechada.
+
+Projétil, Toque e Efeito ficam disponíveis a todas as entidades. As outras Formas dependem de Área ou Amparo, como indicado em [Formas da entidade](#entidades-formas).
+
+> Na Classe 3, uma Melhoria Média custa 3. Na Família Livre da entidade, custa **3 − 1 = 2**. Use a tabela de Família Livre: o desconto de uma entidade não é arredondado como o desconto pessoal de Fundamento.
+
+<!-- page:entidades-basicas|Habilidades básicas -->
+# Habilidades básicas
+
+A básica própria é uma habilidade de **Classe 0**, sem custo de PE. Ela não ocupa espaço de especial. Sua quantidade e seus dados vêm de [Progressão da entidade](#entidades-progressao).
+
+Escolha uma Forma disponível e use as distâncias da Classe 0 em [Alcance e área](#entidades-medidas). Para um ataque, registre tipo de dano e resolução. A mordida de um cão pode ser Toque. Um espinho lançado pode ser Projétil.
+
+## Uma Melhoria Leve
+
+A básica pode ter **uma Melhoria Leve**. Retire um dado de seu dano-base para pagá-la. Se houver um requisito mínimo de Classe na peça, ele continua valendo. Uma referência à Classe usa 0, sem o mínimo de 1 reservado aos efeitos reduzidos das especiais.
+
+Pode haver **uma Restrição Leve**, que precisa ser cumprida, mas não devolve pontos nem o dado gasto. Toque e Aura mantêm sua exigência de alcance ou origem sem devolver pontos na Classe 0. Essa exigência da Forma não ocupa a opção de Restrição Leve.
+
+> No nível 2, uma básica tem 1d6. Acrescentar Precisão retira o único dado. Ela pode resolver seu ataque, mas terá zero dado de dano. No nível 5, a mesma montagem passa a **1d6**, pois o dano-base subiu para 2d6.
+
+## Básica de apoio
+
+Apoio pode entregar sua única Melhoria aplicável, como Impulso. Os dados descartados não se convertem em vida temporária. Cura e Onda não estão disponíveis na Classe 0.
+
+Uma básica de Efeito usa a aplicação pequena registrada, na escala comum de **Fundamento — Efeitos fora de combate**. Ela precisa caber na definição da entidade.
+
+O uso dessas habilidades consome sua atuação básica. Ajudar, Correr e outras atuações simples usam a mesma oportunidade, conforme **Invocações em campo**. Uma capacidade ofensiva precisa estar montada na ficha para que seja usada como ataque próprio.
+
+<!-- page:entidades-especiais|Habilidades especiais -->
+# Habilidades especiais
+
+Cada especial ocupa **um espaço da entidade**. Escolha sua Classe, de 1 até a máxima do nível, e separe os pontos correspondentes. A especial custa **3 × sua Classe real em PE** a cada uso.
+
+| Classe | Pontos | PE | Máximo de Melhorias |
+|---|---|---|---|
+| 1 | 2 | 3 | 2 |
+| 2 | 4 | 6 | 2 |
+| 3 | 6 | 9 | 3 |
+| 4 | 9 | 12 | 3 |
+| 5 | 11 | 15 | 4 |
+| 6 | 13 | 18 | 4 |
+| 7 | 16 | 21 | 4 |
+
+## Montagem
+
+1. **Escolha a Forma.** Pague seu custo, se houver.
+2. **Compre Melhorias.** Use as Famílias disponíveis e aplique o desconto da Livre.
+3. **Escolha Restrições.** Cada exigência deve acrescentar uma dificuldade real. Há no máximo duas, contando Corpo a Corpo embutida.
+4. **Calcule o saldo.** Subtraia Forma e Melhorias. Acrescente a devolução aproveitável das Restrições.
+5. **Registre o resultado.** Cada ponto restante pode virar 1d8 de dano. Apoio, Cura, Onda e Efeito usam seus próprios destinos para esse saldo.
+
+| Preço da peça | Conta na Classe real |
+|---|---|
+| Leve | Metade da Classe, para cima. |
+| Média | Igual à Classe. |
+| Pesada | Uma vez e meia a Classe, para cima. |
+
+A Forma não ocupa uma Melhoria. Uma peça própria ocupa uma. Duas peças reunidas sob um mesmo nome continuam pagando e contando separadamente.
+
+**A entidade executa a habilidade.** Os alcances, atributos e efeitos escritos com “você” no catálogo se referem a ela. O invocador paga as ações de comando e os custos indicados em **Invocações em campo — Comandar uma especial**. A montagem não concede atuação adicional.
+
+<!-- page:entidades-formas|Formas da entidade -->
+# Formas da entidade
+
+Escolha a Forma que entrega o efeito desejado. Esta tabela mantém os preços e as resoluções comuns. As medidas próprias das entidades estão em [Alcance e área](#entidades-medidas).
+
+| Forma | Preço | Aplicação |
+|---|---|---|
+| Projétil | 0 | Um alvo distante, por ataque. |
+| Toque | 0 | Um alvo a 1,5 m, por ataque. Inclui Corpo a Corpo. |
+| Explosão | Leve | Área esférica em um ponto escolhido. |
+| Aura | Leve | Área esférica centrada na entidade. Inclui Corpo a Corpo. |
+| Cone | Leve | Área em cone partindo da entidade. |
+| Linha | Leve | Área em linha partindo da entidade. |
+| Cura | Média | Cura de um aliado. |
+| Apoio | 0 | Vida temporária para um aliado. |
+| Onda | Pesada | Cura ou apoio para aliados na área. |
+| Efeito | 0 | Aplicação registrada fora de combate. |
+
+**Explosão, Aura, Cone e Linha exigem Área aberta. Cura, Apoio e Onda exigem Amparo aberto.** As demais estão disponíveis a todas as entidades. A definição continua limitando o que pode ser montado.
+
+As áreas de dano usam TR e entregam **metade dos dados no sucesso**, arredondada para baixo. Cada alvo recebe a mesma rolagem pertinente. Outros efeitos dependem do resultado exigido por suas peças.
+
+Na montagem, trocar ataque por TR, ou o contrário, não custa pontos. Registre o TR, a resolução e o resultado no sucesso. Essa escolha é fixa para aquela versão. Cura e Apoio seguem suas permissões específicas de alvo.
+
+Toque e Aura incluem **Corpo a Corpo**, com devolução Média nas especiais. Ela conta como uma das duas Restrições permitidas. A habilidade conserva alcance e origem próprios: Toque não recebe Longe, e Aura permanece na entidade. Para criar a área sobre um ponto distante, escolha Explosão e refaça a conta.
+
+<!-- page:entidades-medidas|Alcance e área -->
+# Alcance e área
+
+**Alcance** mede a distância até um alvo ou ponto escolhido. **Área** mede o espaço atingido a partir de uma origem. A redução das entidades muda o tamanho da área, mantendo o alcance pela Classe real.
+
+| Forma | Classe 0 | Classes 1–5 | Classes 6–7 |
+|---|---|---|---|
+| Projétil e ponto de Explosão | 9 m | 18 m | 36 m |
+| Toque | 1,5 m | 1,5 m | 1,5 m |
+| Apoio | 4,5 m | 9 m | 18 m |
+| Cura | Indisponível | 9 m | 18 m |
+| Aura e Onda | Centradas na entidade | Centradas na entidade | Centradas na entidade |
+
+Onda continua indisponível na Classe 0. Consulte a tabela abaixo para o tamanho de cada área.
+
+| Área básica | Classe 0 | Especiais 1–6 | Especial 7 |
+|---|---|---|---|
+| Explosão e Aura: raio | 3 m | 3 m | 4,5 m |
+| Cone: comprimento | 3 m | 4,5 m | 9 m |
+| Linha: comprimento × largura | 9 × 1,5 m | 18 × 1,5 m | 30 × 1,5 m |
+| Onda: raio | Indisponível | 3 m | 4,5 m |
+
+Para comprar um aumento, use a escada pertinente de **Fundamento — Alcance e área**, partindo destes valores. Um Cone de Classe 0 passa de 3 m para 4,5 m no primeiro aumento. Nenhuma medida cresce além do último degrau da escada.
+
+> Uma Explosão de Classe 6 escolhe um ponto a até **36 m**, mas sua área ainda tem **3 m de raio**. Uma Explosão de Classe 7 conserva os 36 m de alcance e passa a 4,5 m de raio. Comprar Maior aumenta o raio, sem aumentar a distância até o ponto.
+
+<!-- page:entidades-efeitos-reduzidos|Efeitos reduzidos -->
+# Efeitos reduzidos
+
+Algumas peças calculam a intensidade pela Classe. Nas especiais da entidade, os efeitos abaixo usam **uma Classe a menos, com mínimo de 1**. Os preços, PE e limites de seleção continuam usando a Classe real.
+
+| Peça | Valor que usa a Classe reduzida |
+|---|---|
+| Rajada | Quantidade de tiros. |
+| Fura | Redução de Dano ignorada. |
+| Anteparo | Vida e quantidade de painéis da barreira. |
+| Desarma o Feitiço | Classe máxima de efeito que pode encerrar. |
+| Sugar | Limite da vida recuperada. |
+| Levanta e Remenda | Valores de recuperação definidos por essas peças. |
+| Formas de área | Tamanho básico, conforme Alcance e área. |
+
+| Classe real | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|---|---|---|---|---|---|---|---|
+| Classe do efeito reduzido | 1 | 1 | 2 | 3 | 4 | 5 | 6 |
+
+Esta redução não muda atributos, maestria, acerto ou CD. Também não reduz requisitos: uma peça que exige Classe 3 continua exigindo uma especial de Classe 3 ou maior.
+
+> **Fura de Classe 2.** A especial tem 4 pontos e custa 6 PE. Fura custa 2, ou 1 se Mira for Livre. Seu efeito usa Classe 1 e ignora **2 de Redução de Dano**. Em Projétil, sem Restrição, a versão com Mira Livre fica com **3d8**.
+
+Efeitos que não aparecem nesta lista conservam os valores do catálogo. Um +2 de Precisão continua sendo +2. Não diminua por conta própria a duração ou a distância de uma peça fixa.
+
+Na básica de Classe 0, use Classe 0 quando a peça pedir esse valor. O mínimo de 1 desta seção pertence às **especiais**.
+
+<!-- page:entidades-saldo|Saldo e limites -->
+# Saldo e limites
+
+As Restrições devolvem pontos para pagar **Forma e Melhorias**, até **2 × a Classe real** e até o total gasto nessas peças. Uma devolução excedente se perde. O saldo de uma especial comum nunca ultrapassa seus pontos iniciais.
+
+> Uma especial de Classe 2 começa com 4 pontos. Projétil custa 0, uma Melhoria Média normal custa 2 e uma Restrição Leve devolve 1. Restam **4 − 2 + 1 = 3 pontos**. Uma segunda devolução que elevasse o saldo acima de 4 perderia o excedente.
+
+Contra um alvo, o dano-base tem esse mesmo limite em d8. Somando alvos adicionais e repetições, conserve o **teto geral de 4 × Classe**. Dividir os dados entre tiros não multiplica os dados disponíveis.
+
+## Amparo
+
+Em **Apoio**, cada ponto útil vira 3 pontos de vida temporária. **Cura** converte o saldo em d8, até os pontos da entidade menos o preço Médio da Forma. A vida temporária também respeita seu teto e sua duração gerais.
+
+**Onda** conserva como saldo útil máximo os pontos da entidade menos o preço Pesado da Forma. Restrições podem pagar outras peças, mas não ultrapassam esse limite. Na cura, cada ponto útil vira 1d8. No apoio, vira 3 pontos de vida temporária para cada aliado alcançado.
+
+| Classe | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|---|---|---|---|---|---|---|---|
+| Cura: d8 máximos | 1 | 2 | 3 | 5 | 6 | 7 | 9 |
+| Onda: pontos úteis máximos | 0 | 1 | 1 | 3 | 3 | 4 | 5 |
+
+**Onda de Classe 1.** Sua utilidade vem das Melhorias: Onda (2) + Impulso (1) + Gesto (devolve 1) cabe nos 2 pontos e concede o benefício de Impulso aos aliados no raio de 3 m por 3 PE. A entidade precisa conseguir cumprir Gesto. O saldo é zero. Sem saldo nem uma Melhoria benéfica aplicável, a montagem não produz efeito útil. Esses tetos comuns não substituem os dados fixos de cura da Técnica Máxima. Cura contra alvo hostil exige acesso efetivo a **Energia Reversa** e segue **Ferir maldições**, em Aptidões e Refino. Escolher a Forma não concede a aptidão. Entidades a zero e corpos amaldiçoados conservam as limitações de recuperação de Invocações em campo.
+
+<!-- page:entidades-controle|Controle e utilidade -->
+# Controle e utilidade
+
+Uma especial pode abrir mão de dano para conter um alvo, retirar uma condição ou criar um obstáculo. A função escolhida deve aparecer na definição da entidade e nas Famílias abertas.
+
+## Controle
+
+Uma especial com Melhoria de Controle e dano final de **até a Classe real em dados** recebe **uma rodada adicional nos efeitos de Controle**. Sem dano, recebe também **+2 na CD desses efeitos**. O TR do dano não recebe esse bônus.
+
+Condições **Médias e Pesadas** são reservadas à **especial comandada ativamente**. Elas não entram na básica, num talento, numa aura autônoma ou numa resposta reativa autônoma. Uma Forma Aura ou uma especial com Reação comprada pode aplicá-las quando executada por comando, pagando todos os recursos exigidos. Uma condição Pesada conserva o TR de saída e o limite de uma por feitiço. Consulte **Condições** para seus efeitos completos.
+
+> Uma especial de Classe 2 com Prende pode ter até 2d8 e receber a rodada adicional. Se a ficha for montada sem dano, ganha também +2 na CD de Prende. O alvo conserva as ações de tentativa de saída indicadas na peça.
+
+## Efeito fora de combate
+
+A Forma **Efeito** realiza a aplicação registrada em sua ficha. Siga as escalas, a duração e os limites de **Fundamento — Efeitos fora de combate**. Os pontos compram as Melhorias necessárias. Sobras não se transformam em dano, cura ou vida temporária.
+
+Uma entidade continua precisando de comando para sua especial, mesmo fora de combate. Uma básica de Efeito consome sua atuação básica. Descrever a capacidade como parte natural do corpo não elimina seus custos.
+
+Para uma proposta ausente do catálogo, use **Efeito Próprio** ou **Talento Próprio**, conforme a forma de uso. Registre um resultado verificável, alcance, alvos, resolução, duração e término. A proposta precisa respeitar as Famílias disponíveis e os limites de atuação da entidade.
+
+<!-- page:entidades-restricoes|Restrições da entidade -->
+# Restrições da entidade
+
+Escolha Restrições no **Catálogo de criação — Restrições**, respeitando suas incompatibilidades e devoluções. Elas pertencem à habilidade em que foram registradas e precisam ser cumpridas a cada uso.
+
+**A dificuldade deve recair sobre quem executa.** Parado limita o movimento da entidade. Sangra cobra vida dela. Uma exigência de palavras ou gestos pressupõe um corpo capaz de cumpri-la. Uma entidade sem voz não pode comprar Gesto de recitação como se fosse uma dificuldade que conseguiria pagar depois.
+
+A entidade não tem Selo por padrão. Uma Restrição pode acrescentar um requisito real à montagem, mas uma exigência já imposta pela definição, pela aquisição ou por outra peça não devolve pontos uma segunda vez.
+
+## Tempo e ações
+
+Atrasar e Carregar precisam usar a tradução de ações de **Invocações em campo — Especiais com preparação prolongada**. O custo deve estar registrado antes da sessão. A entidade não recebe Ação Padrão ou Bônus de personagem apenas para pagar uma Restrição.
+
+O mesmo vale para **Rápido, Reação, Armado e Segura**. Suas peças usam os recursos de comando, atuação básica e Reação coletiva descritos em **Especiais de execução rápida** e **Especiais armadas**. Comprar uma delas não torna toda especial autônoma.
+
+## Conferência da montagem
+
+Conserve as incompatibilidades do catálogo: no máximo uma Restrição de frequência, uma penalidade corporal do grupo correspondente e uma das duas exposições, Barulho ou Assinatura. Duas exigências pelo mesmo impedimento não somam devoluções.
+
+Uma Restrição Própria precisa de situação concreta em que prejudique a entidade. Registre o texto e o motivo do preço. Depois de três sessões de uso, confira as exigências que nunca atrapalharam, conforme o procedimento do catálogo.
+
+Ao revisar, observe também os efeitos dos aliados: se outra regra elimina sempre a desvantagem prometida, aquela devolução precisa ser reavaliada.
+
+<!-- page:entidades-passivas|Talentos da entidade -->
+# Talentos da entidade
+
+Talentos são características da ficha. Alguns funcionam continuamente. Outros possuem gatilhos, ações ou custos. A entidade ganha **um no nível 1** e outro nos níveis **6, 10, 14, 18, 22, 26 e 30**.
+
+| Nível do ganho | CE máxima da escolha |
+|---|---|
+| 1 e 6 | 1 |
+| 10 | 2 |
+| 14, 18, 22, 26 e 30 | 3 |
+
+Escolha um talento até o teto daquele ganho. Ganhar acesso a CE maior não promove automaticamente os talentos antigos. Uma entidade de nível 14 tem quatro escolhas: duas até CE1, uma até CE2 e uma até CE3.
+
+**Essas escolhas não gastam espaços de especial e não têm o limite de cinco Talentos pagos do personagem.** A entidade pode ter oito no nível 30. Esse acesso é restrito aos talentos listados nesta seção e em [Talentos de Categorias 2 e 3](#entidades-passivas-avancadas).
+
+| Talento de CE1 | Função | Texto completo no Catálogo |
+|---|---|---|
+| Leitura | Identifica Classe e Forma de conjurações próximas. | Talentos de Categoria 1. |
+| Instinto | Protege contra surpresa enquanto acordada. | Talentos de Categoria 1. |
+| Raiz | Impede movimento imposto e Derrubado involuntário. | Talentos de Categoria 1. |
+| Mão Firme | Protege Concentração e Carregar de ocorrências pequenas de dano. | Talentos de Categoria 1. |
+| Farejador | Reconhece vestígios locais de conjuração. | Talentos de Categoria 1. |
+| Leitura de Feitiços | Identifica o último feitiço de um inimigo à vista. | Talentos de Categoria 1. |
+
+Use integralmente o efeito, o alcance, o gatilho e os limites da entrada indicada. Aqui, a definição substitui a referência à Regra da técnica. A entidade é quem percebe a informação ou recebe o benefício. Transmitir uma descoberta depende da comunicação que sua ficha oferece.
+
+**Leitura de Feitiços é um Talento; Identificar Feitiço é uma Melhoria de Marca.** Adquirir um desses efeitos não concede o outro.
+
+<!-- page:entidades-passivas-avancadas|Talentos de Categorias 2 e 3 -->
+# Talentos de Categorias 2 e 3
+
+As opções seguintes completam o catálogo permitido para entidades. Somadas às seis de CE1, são **treze opções**, incluindo Talento Próprio.
+
+| Talento | CE | Função e localização no Catálogo |
+|---|---|---|
+| Fluxo | 2 | Vida temporária por conjuração. Talentos de Categoria 2. |
+| Eco | 2 | Redução no custo após reduzir um inimigo a zero. Talentos de Categoria 2. |
+| Costura | 2 | Impede que um aliado caia a zero. Proteção e presença. |
+| Contramedida | 2 | Reação que aumenta a CD de outro feitiço. Proteção e presença. |
+| Escama | 3 | Resistência a um tipo de dano. Talentos de Categoria 3. |
+| Afinidade | 3 | Supera cobertura Parcial e resistência no tema escolhido. Talentos de Categoria 3. |
+| Talento Próprio | 1–3 | Capacidade escrita e comparada antes da sessão. Talento Próprio. |
+
+A CE indicada identifica a Categoria de Efeito da opção. Seu custo de aquisição aqui é **uma escolha recebida pela entidade**, até o teto do marco. Os preços em espaços pessoais do Catálogo não se aplicam a esses ganhos.
+
+## Aplicação na ficha
+
+A execução de Contramedida e a divisão de seus custos estão em **Invocações em campo — Energia das entidades**. O alcance parte da entidade. A exigência de beneficiar outra criatura permanece no Catálogo.
+
+Eco e Cobrança seguem a trava comum de uma única metade no próximo custo. A redução pertence à conjuração da entidade que a obteve, antes da divisão do pagamento. Não reduz o próximo feitiço pessoal do invocador.
+
+Costura previne uma queda dentro de seu gatilho. Não recupera uma entidade que já esteja a zero nem substitui as regras de destruição. Fluxo usa a Classe real da conjuração. Esses quatro talentos não entram na lista de efeitos com Classe reduzida.
+
+Outros Talentos do catálogo pessoal, como Recomposição ou Reserva Profunda, não entram por esta aquisição. O mesmo vale para a Regra Própria gratuita.
+
+<!-- page:entidades-passiva-propria|Características próprias -->
+# Características próprias
+
+Use **Talento Próprio** para uma capacidade que a lista não representa. O Talento ocupa uma das escolhas recebidas pela entidade. Sua Categoria de Efeito é definida por comparação com as opções permitidas.
+
+Registre benefício, gatilho, alcance, requisitos, usos e término. Se houver ação, Reação ou PE, traduza o custo pelos procedimentos de **Invocações em campo**. Um talento reativo não concede uma segunda Reação coletiva.
+
+Capacidades de transporte, armazenamento ou sentidos especiais também precisam desse registro. Um compartimento de objetos segue **Carga e equipamento**: o fato de caber na aparência da criatura não cria espaço de inventário ilimitado.
+
+## Exemplo: Registro de cena
+
+**Proposta de CE1.** Uma entidade feita de papel pode guardar uma única sequência de até **1 minuto de sons que tenha ouvido normalmente**. Escolhe a sequência enquanto a escuta. Uma nova gravação substitui a anterior.
+
+Para reproduzir a gravação, usa sua **atuação básica**. O som sai de seu corpo, com volume de conversa comum. A reprodução dura o tempo gravado e termina se a entidade interromper, ficar Desligada ou sair de campo. Ela repete os sons na ordem original, sem editar vozes ou acrescentar palavras. Guardar o som não fornece tradução de idioma nem permite ouvir através de obstáculos.
+
+A proposta ajuda a relatar conversas e comparar depoimentos. Farejador é a referência de CE1 para informação limitada. Registro de cena conserva uma percepção que aconteceu, em vez de revelar conjurações passadas que a entidade não presenciou.
+
+## Limites da proposta
+
+A aprovação de um efeito informativo não autoriza bônus permanentes de ataque, ações adicionais ou acesso a Famílias Fechadas. Talentos de entidade também não aplicam condições Médias ou Pesadas. Para essas condições, use uma especial comandada e pague sua montagem.
+
+<!-- page:entidades-ampliacao|Ampliar uma especial -->
+# Ampliar uma especial
+
+Você pode usar uma especial conhecida em Classe maior, até a máxima da entidade. **Conserve as mesmas peças e escolhas**. Recalcule orçamento, preços, desconto Livre, devoluções, PE e valores que dependem de Classe.
+
+A ampliação não ocupa outra vaga. Mudar Forma, trocar uma condição ou acrescentar uma peça produz outra montagem, que usa um espaço disponível ou a reescrita permitida ao subir de nível.
+
+## Mordida precisa
+
+Uma entidade tem Mira Livre e conhece **Toque + Precisão**, com Corpo a Corpo embutida.
+
+| Conta | Classe 1 | Classe 2 | Classe 3 |
+|---|---|---|---|
+| Pontos iniciais | 2 | 4 | 6 |
+| Toque | 0 | 0 | 0 |
+| Precisão após Livre | 1 | 1 | 1 |
+| Devolução aproveitada | 1 | 1 | 1 |
+| Dano final | 2d8 | 4d8 | 6d8 |
+| PE | 3 | 6 | 9 |
+
+Corpo a Corpo devolve Média, mas só há 1 ponto gasto para recuperar. O restante da devolução se perde. Precisão conserva +2 no ataque e Toque conserva 1,5 m de alcance.
+
+A Classe 3 só fica disponível a partir do nível 9. Até lá, conhecer a versão de Classe 1 não permite pagar 9 PE para usá-la antecipadamente.
+
+## Conferência dos efeitos
+
+Uma especial com Fura recalcula a redução ignorada pela Classe menor. Uma Explosão de Classe 6 aumenta seu alcance, mas ainda conserva a área reduzida. Compare as duas tabelas deste capítulo antes de usar a conta pessoal de Fundamento.
+
+Se a ampliação ultrapassar algum limite da montagem, corrija a ficha antes do uso. A mesma descrição pode continuar adequada, mas os números precisam respeitar a Classe escolhida.
+
+<!-- page:entidade-vigia|Vigia de papel -->
+# Vigia de papel
+
+Bruna quer uma entidade que ajude a investigar e a retirar pessoas de perigo. Sua técnica cria figuras de papel animadas. Ela usa um espaço conhecido para um **shikigami de técnica de nível 5**.
+
+**Definição:** uma pequena figura de papel que registra os sons da missão e desdobra tiras para amparar pessoas.
+
+A figura é Pequena, caminha sobre duas pernas e tem mãos de papel. Possui visão e audição comuns, entende as ordens faladas de Bruna e reproduz gravações pelo talento. Não voa. Seu deslocamento terrestre é 9 m.
+
+## Ficha
+
+| Força | Destreza | Constituição | Inteligência | Essência |
+|---|---|---|---|---|
+| 0 | 2 | 2 | 3 | 2 |
+
+Bruna tem maestria 1 e usa Inteligência 4 para a Defesa de suas entidades.
+
+| Campo | Valor |
+|---|---|
+| Atributo de acerto | Inteligência. |
+| Ataque e CD | +4 e CD 12. |
+| Defesa sem equipamento | 10 + 2 + 2 = 14. |
+| Vida máxima | 7 + 5 × 4 = 27. |
+| TR treinado | Intelecto: +4. |
+| Outros TR | Físico com Destreza +2, Vigor +2, Espírito +2. |
+| Perícias treinadas | Acrobacia, Furtividade, Investigação, Percepção e Sobrevivência. |
+
+Inteligência 3 fornece **4 + 1 = 5 perícias**. A ficha tem uma básica, dois espaços de especiais e um talento até CE1.
+
+As Famílias abertas são **Amparo Livre**, **Auxiliares** e **Alcance**. As seis restantes ficam Fechadas. A escolha permite amparo e movimento de um aliado, sem transformar a entidade numa combatente de área.
+
+[Habilidades do vigia](#entidade-vigia-habilidades) apresenta as capacidades desta ficha. A proposta de Registro de cena precisa ser aprovada com o mestre antes da sessão, como qualquer Talento Próprio.
+
+<!-- page:entidade-vigia-habilidades|Habilidades do vigia -->
+# Habilidades do vigia
+
+## Orientação
+
+**Básica de Classe 0. Apoio + Impulso.** A base seria 2d6, mas esta Forma não causa dano. Impulso usa a única Melhoria Leve permitida. Um aliado disposto a até **4,5 m** recebe vantagem no próximo teste que fizer até o fim do próximo turno dele. O benefício termina depois desse teste e não modifica dano.
+
+A básica não fornece vida temporária e não custa PE. Consome a atuação básica. Bruna descreve o vigia apontando um apoio seguro com suas tiras.
+
+## Tiras de resgate
+
+**Especial de Classe 2. Apoio + Guarda + Empurrão.** Apoio custa 0. Guarda custa 2, e Empurrão custa 1. Essas Melhorias não pertencem a Amparo e não recebem seu desconto. Sobram **4 − 2 − 1 = 1 ponto**, convertido em **3 de vida temporária**.
+
+Um aliado disposto a até **9 m** recebe essa vida e **+2 na Defesa até o fim do próximo turno dele**. Depois da resolução, pode aceitar ser movido até **6 m**, por um percurso livre e até um espaço que o comporte. Não cria destino suspenso nem dano de colisão.
+
+Bruna paga **6 PE e a Ação Padrão de comando**. O vigia consome sua atuação básica. A vida temporária segue seu teto geral e termina no fim da cena, se não for consumida antes.
+
+## Remendo de papel
+
+**Especial de Classe 1. Cura, sem Melhorias ou Restrições.** A Forma custa 1. Sobram **2 − 1 = 1d8 de cura** para um aliado disposto a até **9 m**. Bruna paga **3 PE e a Padrão de comando**. O vigia usa sua atuação básica. A cura não remove condições e respeita as restrições de alvo de Invocações em campo.
+
+## Registro de cena
+
+O único talento é a proposta de **CE1** descrita em [Características próprias](#entidades-passiva-propria). Reproduzir uma gravação usa a mesma atuação básica que Orientação ou uma especial consumiriam naquele ciclo.
+
+<!-- page:entidades-conferencia|Conferência da ficha -->
+# Conferência da ficha
+
+Antes da primeira sessão com uma entidade nova, confira sua ficha com o mestre. A descrição deve permitir identificar o que ela faz, e cada capacidade precisa ter um lugar nas contas.
+
+| Parte | Conferência |
+|---|---|
+| Aquisição | Forma de obtenção, nível, espaço ocupado ou registro da conquista. |
+| Corpo | Tamanho, anatomia, deslocamento, sentidos e comunicação. |
+| Atributos | 9 pontos iniciais, aumentos dos marcos e tetos. |
+| Testes | Atributo de acerto, CD, TR treinado e perícias. |
+| Defesa e vida | Constituição atual, origem do corpo e equipamento. |
+| Famílias | Três abertas, uma Livre e seis Fechadas. |
+| Básica | Dados por nível, Forma e no máximo uma Melhoria Leve. |
+| Especiais | Espaços, pontos, peças, devoluções, alcance e PE. |
+| Talentos | Ganhos por marco, CE de cada escolha e opção permitida. |
+| Campo | Manifestação, comando, tarefa, custos e recursos compartilhados. |
+
+## Duas situações de exemplo
+
+Teste uma situação em que cada habilidade funciona e outra em que um requisito impede seu uso. Uma mordida precisa de alvo ao alcance. Um efeito de Cura precisa de alvo que possa recebê-lo. Um talento de informação precisa de um meio para comunicar o que foi percebido.
+
+Confira também as escolhas exclusivas. Comprar duas básicas amplia as opções. Comprar uma especial reativa não cria outro recurso de atuação. Abrir Amparo oferece suas peças, mas não fornece Energia Reversa por conta própria.
+
+Para uma maldição domada, conheça **a ficha jogável resultante antes da tentativa de submissão**. O mestre registra a conversão de suas capacidades para a escala da entidade, inclusive eventuais diferenças de dados, ações e alcance em relação ao encontro. Assim, o risco da aquisição tem um resultado conhecido.
+
+Depois da conferência, registre o texto acordado. Ajustes posteriores usam os procedimentos de evolução ou a revisão combinada com a mesa.

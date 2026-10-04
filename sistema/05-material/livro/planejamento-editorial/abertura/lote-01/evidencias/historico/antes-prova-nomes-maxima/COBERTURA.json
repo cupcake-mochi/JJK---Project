@@ -1,0 +1,45 @@
+{
+  "sha256_texto": "dbb34c8384587288ccebca3a7c4932f90c377ad0751677b48ede38f596f4dd29",
+  "itens": [
+    {
+      "fonte": "05-introducao",
+      "conteudo": "Apresentação,mesa,guilda,materiais,dados e navegação",
+      "destino": "ab-apresentacao,ab-primeira-sessao"
+    },
+    {
+      "fonte": "05-introducao",
+      "conteudo": "Sumário anterior de19capítulos e estimativa fixa de mestres",
+      "destino": "Substituídos por consulta de tarefas;sumáriofinalR23"
+    },
+    {
+      "fonte": "08-inicio-rapido",
+      "conteudo": "Kaori e confronto",
+      "destino": "ab-kaori,ab-resgate,ab-combate"
+    },
+    {
+      "fonte": "08-inicio-rapido",
+      "conteudo": "Olhos/Alicerce completos",
+      "destino": "DonoBastião,nãoreproduzir"
+    },
+    {
+      "fonte": "20-criacao",
+      "conteudo": "Atributos,Origem,Caminho,treinos,rotas,equipamento,contas",
+      "destino": "ab-criacao atéab-equipamento"
+    },
+    {
+      "fonte": "20-criacao",
+      "conteudo": "Kaori como gabarito",
+      "destino": "Quadroparcial rotulado;História/Legadoscompletos não ensinados pelo encontro"
+    },
+    {
+      "fonte": "pilotor2",
+      "conteudo": "Mundo,cenaresgate,dados,tarefa,orientação",
+      "destino": "Separação de capítulos ecanonverificado"
+    },
+    {
+      "fonte": "pedidoatual",
+      "conteudo": "Validação de títulos/linguagem,cânone,números,comparação",
+      "destino": "evidências eVALIDADORES"
+    }
+  ]
+}

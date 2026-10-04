@@ -1,0 +1,192 @@
+{
+  "itens": [
+    {
+      "nome": "Kunai Fiel",
+      "tipo": "arma",
+      "grau": "3",
+      "nivel_minimo": 0,
+      "efeito": "Fiel",
+      "cabecalho": "**Arma: Kunai. Grau 3. Efeito: Fiel.** Compatível com armas arremessadas que possuam Longo Alcance.",
+      "ativacao": "retorno",
+      "usos": null,
+      "recuperacao": null
+    },
+    {
+      "nome": "Tanto Aferido",
+      "tipo": "arma",
+      "grau": "3",
+      "nivel_minimo": 0,
+      "efeito": "Aferido",
+      "cabecalho": "**Arma: Tanto. Grau 3. Efeito: Aferido.** Compatível com armas e acessórios pequenos.",
+      "ativacao": "contato",
+      "usos": null,
+      "recuperacao": null
+    },
+    {
+      "nome": "Espada Avulsa",
+      "tipo": "arma",
+      "grau": "2",
+      "nivel_minimo": 7,
+      "efeito": "Avulsa",
+      "cabecalho": "**Arma: Espada Longa. Grau 2. Efeito: Avulsa. Duas vezes por cena.** Compatível com armas de combate corpo a corpo.",
+      "ativacao": "Reação",
+      "usos": 2,
+      "recuperacao": "cena"
+    },
+    {
+      "nome": "Corrente Extensível",
+      "tipo": "arma",
+      "grau": "1",
+      "nivel_minimo": 13,
+      "efeito": "Insondável",
+      "cabecalho": "**Arma: Corrente. Grau 1. Efeito: Insondável.** Compatível com Corrente e Manriki.",
+      "ativacao": "contínuo",
+      "usos": null,
+      "recuperacao": null
+    },
+    {
+      "nome": "Uniforme Mutável",
+      "tipo": "roupa",
+      "grau": "3",
+      "nivel_minimo": 0,
+      "efeito": "Aparência Mutável",
+      "cabecalho": "**Roupa comum. Grau 3. Efeito: Aparência Mutável.** Compatível com roupas, Trajes e Revestimentos.",
+      "ativacao": "Ação Padrão",
+      "usos": null,
+      "recuperacao": null
+    },
+    {
+      "nome": "Traje de Fuga",
+      "tipo": "traje",
+      "grau": "2",
+      "nivel_minimo": 7,
+      "efeito": "Costura de Fuga",
+      "cabecalho": "**Traje 1. Grau 2. Efeito: Costura de Fuga. Uma vez por cena.** Compatível com roupas e Trajes.",
+      "ativacao": "Ação Bônus",
+      "usos": 1,
+      "recuperacao": "cena"
+    },
+    {
+      "nome": "Manto de Passagem",
+      "tipo": "roupa",
+      "grau": "1",
+      "nivel_minimo": 13,
+      "efeito": "Passagem",
+      "cabecalho": "**Roupa comum. Grau 1. Efeito: Passagem. Uma vez por descanso curto.** Compatível com roupas e Trajes.",
+      "ativacao": "Ação Bônus",
+      "usos": 1,
+      "recuperacao": "descanso curto"
+    },
+    {
+      "nome": "Revestimento Ancorado",
+      "tipo": "revestimento",
+      "grau": "2",
+      "nivel_minimo": 7,
+      "efeito": "Âncora",
+      "cabecalho": "**Revestimento 1. Grau 2. Efeito: Âncora. Uma vez por cena.** Compatível com Revestimentos e escudos.",
+      "ativacao": "Reação",
+      "usos": 1,
+      "recuperacao": "cena"
+    },
+    {
+      "nome": "Escudo da Retirada",
+      "tipo": "escudo",
+      "grau": "2",
+      "nivel_minimo": 7,
+      "efeito": "Retirada",
+      "cabecalho": "**Escudo Médio. Grau 2. Efeito: Retirada. Uma vez por cena.** Compatível com escudos.",
+      "ativacao": "Reação",
+      "usos": 1,
+      "recuperacao": "cena"
+    },
+    {
+      "nome": "Escudo Suspenso",
+      "tipo": "escudo",
+      "grau": "1",
+      "nivel_minimo": 13,
+      "efeito": "Suspensão",
+      "cabecalho": "**Escudo Médio. Grau 1. Efeito: Suspensão. Uma vez por descanso curto.** Compatível com escudos.",
+      "ativacao": "Ação Bônus",
+      "usos": 1,
+      "recuperacao": "descanso curto"
+    },
+    {
+      "nome": "Revestimento Quebranto",
+      "tipo": "revestimento",
+      "grau": "2",
+      "nivel_minimo": 7,
+      "efeito": "Quebranto",
+      "cabecalho": "**Revestimento 1. Grau 2. Efeito: Quebranto. Uma vez por cena.** Compatível com Trajes, Revestimentos e escudos.",
+      "ativacao": "Reação",
+      "usos": 1,
+      "recuperacao": "cena"
+    },
+    {
+      "nome": "Medalhão de Presságio",
+      "tipo": "acessório",
+      "grau": "3",
+      "nivel_minimo": 0,
+      "efeito": "Presságio",
+      "cabecalho": "**Acessório pequeno. Grau 3. Efeito: Presságio.** Compatível com acessórios.",
+      "ativacao": "contínuo",
+      "usos": null,
+      "recuperacao": null
+    },
+    {
+      "nome": "Capa Perene",
+      "tipo": "roupa",
+      "grau": "3",
+      "nivel_minimo": 0,
+      "efeito": "Perene",
+      "cabecalho": "**Roupa comum. Grau 3. Efeito: Perene.** Compatível com qualquer tipo de ferramenta.",
+      "ativacao": "contínuo",
+      "usos": null,
+      "recuperacao": null
+    },
+    {
+      "nome": "Machado Contrapeso",
+      "tipo": "arma",
+      "grau": "1",
+      "nivel_minimo": 13,
+      "efeito": "Contrapeso",
+      "cabecalho": "**Arma: Machado de Guerra. Grau 1. Efeito: Contrapeso.** Compatível com armas, Revestimentos e escudos.",
+      "ativacao": "contínuo",
+      "usos": null,
+      "recuperacao": null
+    },
+    {
+      "nome": "Colar de Ar",
+      "tipo": "acessório",
+      "grau": "2",
+      "nivel_minimo": 7,
+      "efeito": "Reserva de Ar",
+      "cabecalho": "**Acessório pequeno. Grau 2. Efeito: Reserva de Ar. Uma vez por descanso curto.** Compatível com acessórios, roupas e Revestimentos.",
+      "ativacao": "Ação Bônus",
+      "usos": 1,
+      "recuperacao": "descanso curto"
+    },
+    {
+      "nome": "Lâmina de Cisão",
+      "tipo": "arma",
+      "grau": "1",
+      "nivel_minimo": 13,
+      "efeito": "Cisão",
+      "cabecalho": "**Arma: Katana. Grau 1. Efeito: Cisão.** Compatível com armas de combate corpo a corpo.",
+      "ativacao": "contínuo",
+      "usos": null,
+      "recuperacao": null
+    },
+    {
+      "nome": "Lança do Anátema",
+      "tipo": "arma",
+      "grau": "especial",
+      "nivel_minimo": 13,
+      "efeito": "Anátema",
+      "cabecalho": "**Arma: Lança. Grau especial. Efeito: Anátema.** Peça única desta campanha.",
+      "ativacao": "Reação ou Ação Padrão",
+      "usos": 1,
+      "recuperacao": "cena para defesa"
+    }
+  ],
+  "sha256_manuscrito": "f6966f9810cb27193c671a692d475d88c341f9833938d7aa1fda646df4724d13"
+}

@@ -1,0 +1,110 @@
+{
+  "sha256_texto": "6b0c6fdc6690e154c064c44ddad58e02593fb3c1a38da3f3ba097e376fc471b0",
+  "validadores": [
+    {
+      "id": "V01",
+      "nome": "Cobertura",
+      "status": "executado",
+      "evidencia": "evidencias/COBERTURA.json",
+      "observacao": "23 recortes mapeados; catálogo/campo fora do escopo com remissão."
+    },
+    {
+      "id": "V02",
+      "nome": "Regras e fontes",
+      "status": "executado",
+      "evidencia": "ALTERACOES.json",
+      "observacao": "Precedência das decisões107/108, R04 e R11/R12 atuais; novos fechamentos nomeados."
+    },
+    {
+      "id": "V03",
+      "nome": "Funcionamento",
+      "status": "executado",
+      "evidencia": "evidencias/casos-executados.json",
+      "observacao": "27 casos em modelo de contrato; não motor integral de jogo."
+    },
+    {
+      "id": "V04",
+      "nome": "Números",
+      "status": "executado",
+      "evidencia": "evidencias/auditoria-numerica.json",
+      "observacao": "Classes/CD/preçoestojo lidos dos donos e valores do exemplo do manuscrito; enumeração exata."
+    },
+    {
+      "id": "V05",
+      "nome": "Balanço",
+      "status": "parecer com limites",
+      "evidencia": "RELATORIO-DE-REVISAO.md",
+      "observacao": "Custos/chance sob hipóteses; orçamento de projeto preservado. Não certifica economia de campanha."
+    },
+    {
+      "id": "V06",
+      "nome": "Compatibilidade",
+      "status": "executado",
+      "evidencia": "evidencias/INTERFACES.json",
+      "observacao": "Ofícios/fabricação, aquisição, campo, equipamentos e limites revisados."
+    },
+    {
+      "id": "V07",
+      "nome": "Títulos/vocabulário",
+      "status": "executado",
+      "evidencia": "evidencias/editorial-automatico.json",
+      "observacao": "Zero achados automáticos; revisão contextual registrada por página."
+    },
+    {
+      "id": "V08",
+      "nome": "Clareza/suficiência",
+      "status": "autorrevisão contextual",
+      "evidencia": "evidencias/REVISAO-EDITORIAL.json",
+      "observacao": "Quem, oque, custo, tempo, teste, sucesso/falha/conclusão explicitados."
+    },
+    {
+      "id": "V09",
+      "nome": "Voz/redundância",
+      "status": "autorrevisão contextual",
+      "evidencia": "ESCOPO-E-FONTES.md",
+      "observacao": "Comparação dirigida PHB e fontes oficiais; prosa original, sem narrativas ornamentais."
+    },
+    {
+      "id": "V10",
+      "nome": "Localização",
+      "status": "executado",
+      "evidencia": "evidencias/LOCALIZACAO-EDITORIAL.json",
+      "observacao": "Regra deve ser subseção deFabricação; R12/R11 remetem ao procedimento."
+    },
+    {
+      "id": "V11",
+      "nome": "Obra/referências",
+      "status": "não aplicável ao cânone; comparação executada",
+      "evidencia": "evidencias/REFERENCIAS.json",
+      "observacao": "Nenhuma afirmação nova sobreJJK; projetooriginal. ComparaçãoRPG em fonteprimária."
+    },
+    {
+      "id": "V12",
+      "nome": "Revisão independente",
+      "status": "revisado_no_escopo",
+      "evidencia": "evidencias/REVISAO-INDEPENDENTE-RAIZ.md",
+      "observacao": "Leitura integral por modelo distinto do autor, recálculo independente e cotejo das decisões. Sem playtest."
+    },
+    {
+      "id": "V13",
+      "nome": "PDF/navegação",
+      "status": "executado",
+      "evidencia": "CONFERENCIA.json",
+      "observacao": "Prova gerada e confrontada com o manuscrito."
+    },
+    {
+      "id": "V14",
+      "nome": "Visual",
+      "status": "revisado_no_escopo",
+      "evidencia": "evidencias/inspecao-visual.json",
+      "observacao": "Todas as cinco páginas inspecionadas."
+    },
+    {
+      "id": "V15",
+      "nome": "Rastreabilidade",
+      "status": "executado",
+      "evidencia": "ALTERACOES.json",
+      "observacao": "13 mudanças, hashes e fonte concorrente identificada; nenhum publicado editado."
+    }
+  ]
+}

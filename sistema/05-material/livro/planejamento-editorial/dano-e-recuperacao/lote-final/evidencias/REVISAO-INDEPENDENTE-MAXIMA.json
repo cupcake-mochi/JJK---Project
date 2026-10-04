@@ -1,0 +1,65 @@
+{
+  "sha256_texto": "15ed0d3535dd08c546cc4d3de9e4385746c73eae15267b6fd14f2db553617908",
+  "leitor": "maxima",
+  "independente_do_autor": true,
+  "escopo": "20 blocos lidos integralmente; foco extra em Morrendo, Integridade, socorro, duração, retomada e fontes de cura.",
+  "achados": [
+    {
+      "id": "R03-IM01",
+      "gravidade": "P2-interface",
+      "local": "Guia — Ainda Há Tempo; R03 Socorro",
+      "linha": 382,
+      "problema": "A regra geral agora impede a habilidade dedicada de emergência de levantar certos aliados com qualquer resultado dos dados, salvo outra cura.",
+      "caso": "No nível19, Bastião Con3 tem195PV e precisa39. Socorrista com atributo6 cura3d8+6, no máximo30; seu Cuidado comum exige alvo acima de zero e não completa esse tratamento.",
+      "recomendacao": "Exceção específica de limiar para Ainda Há Tempo, preservando preparo anterior, Reação, custo e uma vez por cena, sem alterar Cuidado comum. Levanta já possui exceção.",
+      "estado": "Resolvido por GUIA-38: exceção só enquanto Morrendo, aplicada pelo autor do Guia e confirmada independentemente pela raiz no hash d12d9ac37c5d5aa230c3fe7f6bdebdb3ac11a2f074f0017ce71042bd65fcfc68. Prova do delta ainda pendente.",
+      "evidencia_delta": "caminhos/guia/lote-01/evidencias/GUIA38-DELTA.md; GUIA.md SHA d12d9ac37c5d5aa230c3fe7f6bdebdb3ac11a2f074f0017ce71042bd65fcfc68"
+    },
+    {
+      "id": "R03-IM02",
+      "gravidade": "P2-procedimento",
+      "local": "Vida a zero / Janela",
+      "linha": 334,
+      "problema": "O marco da janela só é definido quando já existe iniciativa.",
+      "caso": "Queda ou armadilha reduz personagem a zero fora de combate, sem ordem existente; não é possível localizar três voltas.",
+      "recomendacao": "Organizar turnos de socorro ao ocorrer a queda e definir o marco inicial antes da primeira ação. Conservar rodadas de6s e nenhuma ação gratuita por iniciar a ordem.",
+      "estado": "resolvido no texto relido: iniciativa organizada na queda e primeira volta explicitada"
+    },
+    {
+      "id": "R03-IM03",
+      "gravidade": "P2-procedimento",
+      "local": "Recuperação depois da derrota",
+      "linha": 384,
+      "problema": "Não informa se o limiar ainda rege PV após Derrotado nem o destino do tratamento acumulado.",
+      "caso": "Referência80, tratamento10 e derrota; cura5 posterior. LeituraA: PV0/tratamento15. LeituraB: PV5/tratamento10. Se cura posterior completar20%, também falta deixar evidente quando marcar Sequela sem devolver consciência.",
+      "recomendacao": "Declarar destino do tratamento e regra de conversão depois da derrota. Conservar vedação de retorno à cena e não cobrar segunda Sequela na mesma queda.",
+      "estado": "resolvido no texto relido: tratamento vira PV ao ficar Derrotado; cura posterior normal; Sequela ao sair da derrota"
+    },
+    {
+      "id": "R03-IM04",
+      "gravidade": "P2-procedimento",
+      "local": "Derrota e morte / Descanso longo",
+      "linha": 443,
+      "problema": "A saída da inconsciência exige curto com atendimento, mas o longo restaura reservas sem declarar se satisfaz essa saída.",
+      "caso": "Resgatado chega vivo à base, conclui longo e tem PV/Integridade máximos; a leitura estrita ainda exige outra pausa curta antes de acordar.",
+      "recomendacao": "Dizer se e em quais condições o longo encerra o estado, preservando morte e consequências permanentes. Não presumir que curto e longo são o mesmo evento.",
+      "estado": "resolvido no texto relido: longo encerra inconsciência por derrota com ambas reservas positivas"
+    },
+    {
+      "id": "R03-IM05",
+      "gravidade": "P3-clareza",
+      "local": "Estabilizar",
+      "linha": 394,
+      "problema": "Ao alcance é menos preciso que o contato exigido por atendimento manual.",
+      "caso": "Arma de alcance ou outra habilidade amplia o alcance de ataque, mas não deveria ampliar automaticamente atendimento.",
+      "recomendacao": "Usar até1,5m, contato possível, uma mão livre e meios adequados. Preservar CD14, ação e Ofício correspondente.",
+      "estado": "resolvido no texto relido: 1,5m com acesso físico ao alvo"
+    }
+  ],
+  "limites": [
+    "Não equivale a leitura humana ou partida.",
+    "Não houve inspeção PDF nesta etapa.",
+    "Números independentes estão em arquivo próprio com hash de sua execução.",
+    "A raiz continua autora e pode alterar o manuscrito após este snapshot."
+  ]
+}

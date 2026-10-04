@@ -1,0 +1,48 @@
+--- caminhos/evocador/lote-01/EVOCADOR.md
+
++++ caminhos/evocador/lote-01/EVOCADOR.md
+
+@@ -338,7 +338,7 @@
+
+ Entre as abertas, escolha uma **Família Livre adicional**, totalizando duas. Aplique o desconto normal de montagem. As Famílias e capacidades escolhidas continuam respeitando a definição da entidade.
+ 
+-**Nos níveis 8, 16 e 24 da invocação**, acrescente uma escolha à ficha: **uma capacidade básica de Classe 0, uma especial normal ou uma passiva de Classe Passiva 1**, além das quantidades normais do construtor.
+-
+-Registre seus efeitos, requisitos e custos. A básica continua sendo Classe 0, com a escala do nível da entidade. A especial respeita a maior Classe permitida por esse nível. Toda passiva concedida por Repertório Ampliado é de **Classe Passiva 1**, inclusive nas escolhas dos níveis 16 e 24. Escolha entre as passivas permitidas para entidades em **Criar uma invocação**, cumprindo seus requisitos. As escolhas seguem os procedimentos normais de revisão da ficha.
++**Nos níveis 8, 16 e 24 da invocação**, acrescente uma escolha à ficha: **uma capacidade básica de Classe 0, uma especial normal ou um talento de Categoria de Efeito 1**, além das quantidades normais do construtor.
++
++Registre seus efeitos, requisitos e custos. A básica continua sendo Classe 0, com a escala do nível da entidade. A especial respeita a maior Classe permitida por esse nível. Todo talento concedido por Repertório Ampliado é de **Categoria de Efeito 1**, inclusive nas escolhas dos níveis 16 e 24. Escolha entre os talentos permitidos para entidades em **Criar uma invocação**, cumprindo seus requisitos. As escolhas seguem os procedimentos normais de revisão da ficha.
+ 
+ Essas três escolhas fazem parte da progressão de Repertório Ampliado. As entregas da Trilha continuam nos níveis 2, 11, 19 e 27.
+@@ -511,5 +511,5 @@
+
+ Para cada invocação, escolha uma de suas Famílias Fechadas para abrir. A ficha passa a ter **cinco Famílias Fechadas, quatro abertas e uma Livre**.
+ 
+-Registre a escolha e as capacidades compatíveis com a definição da entidade. As quantidades normais de capacidades e passivas seguem o construtor.
++Registre a escolha e as capacidades compatíveis com a definição da entidade. As quantidades normais de capacidades e talentos seguem o construtor.
+ 
+ <!-- page:ev-parceria-aprimoramentos|Aprimoramentos de Parceria -->
+@@ -761,5 +761,5 @@
+
+ ## Repertório na abertura
+ 
+-Use as quantidades e a progressão normais das capacidades e passivas da entidade, além da Família aberta por esta Trilha. As escolhas adicionais de Repertório do Conjunto são recebidas no nível 27.
++Use as quantidades e a progressão normais das capacidades e talentos da entidade, além da Família aberta por esta Trilha. As escolhas adicionais de Repertório do Conjunto são recebidas no nível 27.
+ 
+ 
+@@ -908,5 +908,5 @@
+
+ Ao receber esta habilidade, escolha **Essência ou Inteligência**. Cada uma de suas invocações recebe uma quantidade de escolhas adicionais igual à **metade do valor permanente do atributo escolhido, arredondada para baixo**.
+ 
+-Para cada escolha, acrescente à ficha **uma capacidade básica de Classe 0, uma especial normal ou uma passiva de Classe Passiva 1**. A passiva precisa pertencer à lista permitida para entidades em **Criar uma invocação** e cumprir seus requisitos.
++Para cada escolha, acrescente à ficha **uma capacidade básica de Classe 0, uma especial normal ou um talento de Categoria de Efeito 1**. O talento precisa pertencer à lista permitida para entidades em **Criar uma invocação** e cumprir seus requisitos.
+ 
+ As capacidades respeitam a definição, as Famílias, a montagem e a Classe permitida pelo nível da própria entidade. A metade do atributo determina a quantidade de escolhas. A Classe das capacidades ativas continua sendo a que o nível da invocação permite.
+@@ -925,5 +925,5 @@
+
+ ## Funções complementares
+ 
+-Com Essência 6 escolhida, cada invocação recebe três escolhas adicionais. Uma pode desenvolver especiais de proteção. Outra, capacidades básicas utilitárias. Uma terceira, passivas de Classe Passiva 1 coerentes com sua definição.
++Com Essência 6 escolhida, cada invocação recebe três escolhas adicionais. Uma pode desenvolver especiais de proteção. Outra, capacidades básicas utilitárias. Uma terceira, talentos de Categoria de Efeito 1 coerentes com sua definição.
+ 
+ Em cada rodada, você decide qual composição precisa estar em campo e pode usar Formação Renovada para realizar uma entrada ou substituição. Permanecem o limite de uma básica com dano e uma especial comandada, os usos compartilhados e a exceção de Especial Combinada do nível 30.

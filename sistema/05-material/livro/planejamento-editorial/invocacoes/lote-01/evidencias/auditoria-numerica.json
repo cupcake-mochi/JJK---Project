@@ -1,0 +1,6925 @@
+{
+  "ok": true,
+  "manuscritos_auditados": {
+    "sistema/05-material/livro/planejamento-editorial/invocacoes/lote-01/INVOCACOES-EM-CAMPO.md": "297d96084502eb65780b9ed2ac4f7e121a235cfdbb6e41db254f980e55393dcd"
+  },
+  "fontes": {
+    "sistema/05-material/livro/manual/60-invocacoes.md": "4df82e672d063b4d4bfe3394d93bb75052ec3e07d44d90b83c0ea32f10439f82",
+    "invocacoes/05-Edicao-Integrada/60-invocacoes.md": "4df82e672d063b4d4bfe3394d93bb75052ec3e07d44d90b83c0ea32f10439f82",
+    "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md": "948dc94babd1d17022e5a3b5b817e160d2cf1e92c61d37d02462f412ff4e1e44",
+    "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md": "0160f774f5ea87f4ffd29bb7f7e3335dead51677bf2b894041aa61e2c5041273",
+    "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md": "bf0d8df8707ecfd43c18e9c32c6295e70a8c692c8513b1692d2f53ca5e706b76",
+    "sistema/05-material/livro/planejamento-editorial/poderes-avancados/lote-01/PODERES-AVANCADOS.md": "2b1c02cb3407a7aec6ef385a00726e1d131020b3f2b110b433bfcedf28f2854f",
+    "sistema/05-material/livro/planejamento-editorial/pericias-e-oficios/lote-01/PERICIAS-E-OFICIOS.md": "fec7b78ed68c2ebdfc47aae059de9c713249f36d76b137e3baa858238cfde8b6"
+  },
+  "verificacoes": [
+    {
+      "id": "30-niveis-da-fonte",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "sete-faixas-reais",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "teto-fonte",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "reserva-exclusiva-fonte",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "reserva-ficha-fonte",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "maxima-faixas",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "maxima-valores",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "texto-limite-pago",
+      "passou": true,
+      "detalhe": "ocupa esse limite na emissão"
+    },
+    {
+      "id": "texto-basicas-sem-conjuracao",
+      "passou": true,
+      "detalhe": "**As básicas das entidades não ocupam suas conjurações pessoais.**"
+    },
+    {
+      "id": "texto-manutencao-suspensa",
+      "passou": true,
+      "detalhe": "**o efeito fica suspenso até um pagamento válido**"
+    },
+    {
+      "id": "texto-nao-divida",
+      "passou": true,
+      "detalhe": "não gera dívida"
+    },
+    {
+      "id": "texto-classe-reparador",
+      "passou": true,
+      "detalhe": "Requer reparador de Classe suficiente."
+    },
+    {
+      "id": "texto-maxdano",
+      "passou": true,
+      "detalhe": "**Um Acerto de dano da domada causa Classe d8.**"
+    },
+    {
+      "id": "texto-trinvocado",
+      "passou": true,
+      "detalhe": "a cada dano, como uma combatente do lado dos jogadores"
+    },
+    {
+      "id": "texto-refino",
+      "passou": true,
+      "detalhe": "Refino, Maestria e especialização exigidos são os do invocador"
+    },
+    {
+      "id": "texto-dom-fim",
+      "passou": true,
+      "detalhe": "Recolher, desativar ou derrubar a domada encerra sua Expansão"
+    },
+    {
+      "id": "texto-sem-comando-inconsciente",
+      "passou": true,
+      "detalhe": "**Inconsciente, você não manifesta, recolhe, comanda, ajusta, cancela nem dá orientação nova.**"
+    },
+    {
+      "id": "texto-area-excedente",
+      "passou": true,
+      "detalhe": "Dano em área entra na soma, mas não provoca a destruição naquele momento."
+    },
+    {
+      "id": "texto-mov-reserva",
+      "passou": true,
+      "detalhe": "Ficar vários ciclos guardada não recupera os metros gastos."
+    },
+    {
+      "id": "texto-ordem-real",
+      "passou": true,
+      "detalhe": "impedimento real"
+    },
+    {
+      "id": "texto-anticipada-primeira",
+      "passou": true,
+      "detalhe": "primeira oportunidade válida"
+    },
+    {
+      "id": "texto-prepared-expira",
+      "passou": true,
+      "detalhe": "A preparação termina no começo do seu próximo turno."
+    },
+    {
+      "id": "texto-arm-refund",
+      "passou": true,
+      "detalhe": "metade do PE efetivamente pago"
+    },
+    {
+      "id": "texto-contramedida",
+      "passou": true,
+      "detalhe": "os 2 PE seguem a divisão acima"
+    },
+    {
+      "id": "texto-arm-max",
+      "passou": true,
+      "detalhe": "Armado não prepara uma Técnica Máxima"
+    },
+    {
+      "id": "texto-seg-max",
+      "passou": true,
+      "detalhe": "Segura não pode adiar uma Técnica Máxima"
+    },
+    {
+      "id": "texto-atrasar-dois-corpos",
+      "passou": true,
+      "detalhe": "Nem você nem ela podem ter se deslocado voluntariamente"
+    },
+    {
+      "id": "texto-carregar-primeiro",
+      "passou": true,
+      "detalhe": "sua Padrão, uma básica da entidade e o PE da especial"
+    },
+    {
+      "id": "texto-carregar-segundo",
+      "passou": true,
+      "detalhe": "Rápido pode tornar esse segundo comando uma Bônus."
+    },
+    {
+      "id": "texto-carregar-espirito",
+      "passou": true,
+      "detalhe": "TR Espírito dela contra a CD de quem a feriu"
+    },
+    {
+      "id": "texto-carregar-armado",
+      "passou": true,
+      "detalhe": "Carregar não combina com Armado."
+    },
+    {
+      "id": "texto-aura-comandada",
+      "passou": true,
+      "detalhe": "Uma Aura montada como especial comandada pode aplicá-las."
+    },
+    {
+      "id": "31-paginas",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "ids-unicos",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "volume-inv-campo",
+      "passou": true,
+      "detalhe": 256
+    },
+    {
+      "id": "titulo-inv-campo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-inv-campo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-inv-campo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-inv-campo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-inv-campo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-inv-campo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "volume-inv-ciclo",
+      "passou": true,
+      "detalhe": 286
+    },
+    {
+      "id": "titulo-inv-ciclo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "volume-inv-entrada",
+      "passou": true,
+      "detalhe": 272
+    },
+    {
+      "id": "titulo-inv-entrada",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "volume-inv-troca",
+      "passou": true,
+      "detalhe": 263
+    },
+    {
+      "id": "titulo-inv-troca",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "volume-inv-intencao",
+      "passou": true,
+      "detalhe": 273
+    },
+    {
+      "id": "titulo-inv-intencao",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "volume-inv-comunicacao",
+      "passou": true,
+      "detalhe": 262
+    },
+    {
+      "id": "titulo-inv-comunicacao",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "volume-inv-basica",
+      "passou": true,
+      "detalhe": 298
+    },
+    {
+      "id": "titulo-inv-basica",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "volume-inv-especial",
+      "passou": true,
+      "detalhe": 258
+    },
+    {
+      "id": "titulo-inv-especial",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "volume-inv-energia",
+      "passou": true,
+      "detalhe": 322
+    },
+    {
+      "id": "titulo-inv-energia",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "volume-inv-antecipada",
+      "passou": true,
+      "detalhe": 264
+    },
+    {
+      "id": "titulo-inv-antecipada",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-inv-antecipada",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-inv-antecipada",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-inv-antecipada",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-inv-antecipada",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "volume-inv-pendentes",
+      "passou": true,
+      "detalhe": 271
+    },
+    {
+      "id": "titulo-inv-pendentes",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "volume-inv-preparar",
+      "passou": true,
+      "detalhe": 281
+    },
+    {
+      "id": "titulo-inv-preparar",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "volume-inv-gatilhos",
+      "passou": true,
+      "detalhe": 269
+    },
+    {
+      "id": "titulo-inv-gatilhos",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "volume-inv-tempo",
+      "passou": true,
+      "detalhe": 280
+    },
+    {
+      "id": "titulo-inv-tempo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-inv-tempo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-inv-tempo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-inv-tempo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-inv-tempo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-inv-tempo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "volume-inv-restricoes-tempo",
+      "passou": true,
+      "detalhe": 375
+    },
+    {
+      "id": "titulo-inv-restricoes-tempo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "volume-inv-armado",
+      "passou": true,
+      "detalhe": 275
+    },
+    {
+      "id": "titulo-inv-armado",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "volume-inv-defesa",
+      "passou": true,
+      "detalhe": 273
+    },
+    {
+      "id": "titulo-inv-defesa",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "volume-inv-respostas",
+      "passou": true,
+      "detalhe": 303
+    },
+    {
+      "id": "titulo-inv-respostas",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "volume-inv-talisma",
+      "passou": true,
+      "detalhe": 259
+    },
+    {
+      "id": "titulo-inv-talisma",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-inv-talisma",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-inv-talisma",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-inv-talisma",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-inv-talisma",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-inv-talisma",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-inv-talisma",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "volume-inv-corpos",
+      "passou": true,
+      "detalhe": 328
+    },
+    {
+      "id": "titulo-inv-corpos",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "volume-inv-reparo",
+      "passou": true,
+      "detalhe": 355
+    },
+    {
+      "id": "titulo-inv-reparo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-inv-reparo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-inv-reparo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-inv-reparo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-inv-reparo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-inv-reparo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-inv-reparo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "volume-inv-liberacao",
+      "passou": true,
+      "detalhe": 334
+    },
+    {
+      "id": "titulo-inv-liberacao",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "volume-inv-maxima",
+      "passou": true,
+      "detalhe": 284
+    },
+    {
+      "id": "titulo-inv-maxima",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-inv-maxima",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-inv-maxima",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-inv-maxima",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-inv-maxima",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-inv-maxima",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "volume-inv-dominio",
+      "passou": true,
+      "detalhe": 322
+    },
+    {
+      "id": "titulo-inv-dominio",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-inv-dominio",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-inv-dominio",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-inv-dominio",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-inv-dominio",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-inv-dominio",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "volume-inv-queda",
+      "passou": true,
+      "detalhe": 276
+    },
+    {
+      "id": "titulo-inv-queda",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "volume-inv-retorno",
+      "passou": true,
+      "detalhe": 286
+    },
+    {
+      "id": "titulo-inv-retorno",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "volume-inv-fora",
+      "passou": true,
+      "detalhe": 267
+    },
+    {
+      "id": "titulo-inv-fora",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "volume-inv-inconsciente",
+      "passou": true,
+      "detalhe": 252
+    },
+    {
+      "id": "titulo-inv-inconsciente",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "volume-inv-manutencao",
+      "passou": true,
+      "detalhe": 258
+    },
+    {
+      "id": "titulo-inv-manutencao",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "volume-inv-morte",
+      "passou": true,
+      "detalhe": 271
+    },
+    {
+      "id": "titulo-inv-morte",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-inv-morte",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-inv-morte",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-inv-morte",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-inv-morte",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-inv-morte",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "volume-inv-carga",
+      "passou": true,
+      "detalhe": 269
+    },
+    {
+      "id": "titulo-inv-carga",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulos-rpg",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "sem-legal-ambiguo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "sem-contraste-cliche",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "precos-divididos",
+      "passou": true,
+      "detalhe": 19383
+    },
+    {
+      "id": "exemplo9res2",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "210-reservas",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "devolucao-armado-conserva-energia",
+      "passou": true,
+      "detalhe": 6370
+    },
+    {
+      "id": "manutencao-prioridade",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "manutencao-nao-paga-parcial",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "manutencao-retoma-vencimento",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "talismas-7classes",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "limiar-52-30",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "limiar-52-35",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "limiar-52-34",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "area35-viva",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "desligada-direto",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "desligada-area",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "area-depois-direto",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "retorno-pv31",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "entrada-sem-basica",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "carregar-rapido-dois-turnos",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "carregar-comum-duas-padroes",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "carregar-dano-falha-perde",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "carregar-empate-passa",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "carregar-sair-perde",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "carregar-prazo-perde",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "atrasar-deslocamento-(False, False)",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "atrasar-deslocamento-(False, True)",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "atrasar-deslocamento-(True, False)",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "atrasar-deslocamento-(True, True)",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "liberacao-classe4-nao-regrede-12",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "exemplo-dominio4-r6",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "900-reparos",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "reparo-exemplo31",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "reserva-total-textual",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "corpos-reserva-6-transicao",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "corpos-sem-acoes-inativas",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "corpos-reserva-enumerada",
+      "passou": true,
+      "detalhe": 671
+    },
+    {
+      "id": "espelho-integrado-igual",
+      "passou": true,
+      "detalhe": null
+    }
+  ],
+  "casos_executados": [
+    {
+      "id": "troca-nao-duplica-basica-nem-movimento",
+      "resultado": "passou",
+      "tipo": "modelo de transições executado"
+    },
+    {
+      "id": "reserva-nao-renova-metros",
+      "resultado": "passou",
+      "tipo": "modelo de transições executado"
+    },
+    {
+      "id": "cadeia-transferencia-conserva-um-recurso",
+      "resultado": "passou",
+      "tipo": "modelo de transições executado"
+    },
+    {
+      "id": "duas-antecipadas-coletiva-renovacao-magia-pessoal",
+      "resultado": "passou",
+      "tipo": "modelo de transições executado"
+    },
+    {
+      "id": "preparada-inviavel-conserva-prazo-e-cobra-uma-basica",
+      "resultado": "passou",
+      "tipo": "modelo de transições executado"
+    },
+    {
+      "id": "coletiva-externa-encerra-preparada",
+      "resultado": "passou",
+      "tipo": "modelo de transições executado"
+    },
+    {
+      "id": "preparada-expira-mesmo-nao-tendo-disparado",
+      "resultado": "passou",
+      "tipo": "modelo de transições executado"
+    },
+    {
+      "id": "uma-especial-pendente-por-corpo",
+      "resultado": "passou",
+      "tipo": "modelo de transições executado"
+    },
+    {
+      "id": "basica-impedida-nao-transfere",
+      "resultado": "passou",
+      "tipo": "modelo de transições executado"
+    },
+    {
+      "id": "especial-imediata-feitico-positivo-negado-classezero-possivel",
+      "resultado": "passou",
+      "tipo": "modelo de transições executado"
+    },
+    {
+      "id": "preparacao-positiva-bloqueia-feitico-positivo-na-emissao",
+      "resultado": "passou",
+      "tipo": "modelo de transições executado"
+    },
+    {
+      "id": "limite-generico-classezero-com-magica-pessoal-positiva",
+      "resultado": "passou",
+      "tipo": "modelo de transições executado"
+    },
+    {
+      "id": "duas-basicas-nao-ocupam-conjuracoes-pessoais",
+      "resultado": "passou",
+      "tipo": "modelo de transições executado"
+    },
+    {
+      "id": "excecao-evocador-combinacao-ocupa-duas",
+      "resultado": "passou",
+      "tipo": "modelo de transições executado"
+    },
+    {
+      "id": "concentracao-temporal-duas-ordens-pagas-mais-feitico-pessoal",
+      "resultado": "passou",
+      "tipo": "modelo de transições executado"
+    },
+    {
+      "id": "armado-consome-basica-antes-sem-coletiva-disparo-sair-encerra",
+      "resultado": "passou",
+      "tipo": "modelo de transições executado"
+    },
+    {
+      "id": "terceiro-corpo-dano-nega-basica-permite-especial",
+      "resultado": "passou",
+      "tipo": "modelo de transições executado"
+    }
+  ],
+  "contagens": {
+    "precos": 19383,
+    "devolucoes_armado": 6370,
+    "reservas": 210,
+    "sobrevivencia": 3786,
+    "reparos": 900,
+    "transicoes_nomeadas": 17
+  },
+  "tabelas": {
+    "maximas": {
+      "17": {
+        "ultimo": 20,
+        "dados": 19,
+        "pontos": 8,
+        "pe": 25
+      },
+      "21": {
+        "ultimo": 25,
+        "dados": 22,
+        "pontos": 12,
+        "pe": 30
+      },
+      "26": {
+        "ultimo": 30,
+        "dados": 26,
+        "pontos": 16,
+        "pe": 35
+      }
+    },
+    "talismas": [
+      {
+        "classe": 1,
+        "carga": 0,
+        "entrada": 1,
+        "retorno": 2,
+        "retorno_total": 2
+      },
+      {
+        "classe": 2,
+        "carga": 1,
+        "entrada": 1,
+        "retorno": 3,
+        "retorno_total": 4
+      },
+      {
+        "classe": 3,
+        "carga": 1,
+        "entrada": 2,
+        "retorno": 5,
+        "retorno_total": 6
+      },
+      {
+        "classe": 4,
+        "carga": 2,
+        "entrada": 2,
+        "retorno": 6,
+        "retorno_total": 8
+      },
+      {
+        "classe": 5,
+        "carga": 2,
+        "entrada": 3,
+        "retorno": 8,
+        "retorno_total": 10
+      },
+      {
+        "classe": 6,
+        "carga": 3,
+        "entrada": 3,
+        "retorno": 9,
+        "retorno_total": 12
+      },
+      {
+        "classe": 7,
+        "carga": 3,
+        "entrada": 4,
+        "retorno": 11,
+        "retorno_total": 14
+      }
+    ],
+    "trunfos": [
+      {
+        "classe": 3,
+        "pontos": 6,
+        "liberacao_dados": 9,
+        "liberacao_media": 40.5,
+        "pe": 14,
+        "dominio_dados": 3,
+        "dominio_media": 13.5,
+        "dominio_fechado_pe": 18,
+        "dominio_aberto_pe": 21
+      },
+      {
+        "classe": 4,
+        "pontos": 9,
+        "liberacao_dados": 13,
+        "liberacao_media": 58.5,
+        "pe": 18,
+        "dominio_dados": 4,
+        "dominio_media": 18.0,
+        "dominio_fechado_pe": 24,
+        "dominio_aberto_pe": 28
+      },
+      {
+        "classe": 5,
+        "pontos": 11,
+        "liberacao_dados": 16,
+        "liberacao_media": 72.0,
+        "pe": 23,
+        "dominio_dados": 5,
+        "dominio_media": 22.5,
+        "dominio_fechado_pe": 30,
+        "dominio_aberto_pe": 35
+      },
+      {
+        "classe": 6,
+        "pontos": 13,
+        "liberacao_dados": 19,
+        "liberacao_media": 85.5,
+        "pe": 27,
+        "dominio_dados": 6,
+        "dominio_media": 27.0,
+        "dominio_fechado_pe": 36,
+        "dominio_aberto_pe": 42
+      },
+      {
+        "classe": 7,
+        "pontos": 16,
+        "liberacao_dados": 23,
+        "liberacao_media": 103.5,
+        "pe": 32,
+        "dominio_dados": 7,
+        "dominio_media": 31.5,
+        "dominio_fechado_pe": 42,
+        "dominio_aberto_pe": 49
+      }
+    ],
+    "reservas": [
+      {
+        "nivel": 1,
+        "essencia": 0,
+        "maximo": 1,
+        "descanso_curto": 1
+      },
+      {
+        "nivel": 1,
+        "essencia": 1,
+        "maximo": 1,
+        "descanso_curto": 1
+      },
+      {
+        "nivel": 1,
+        "essencia": 2,
+        "maximo": 1,
+        "descanso_curto": 1
+      },
+      {
+        "nivel": 1,
+        "essencia": 3,
+        "maximo": 2,
+        "descanso_curto": 1
+      },
+      {
+        "nivel": 1,
+        "essencia": 4,
+        "maximo": 2,
+        "descanso_curto": 1
+      },
+      {
+        "nivel": 1,
+        "essencia": 5,
+        "maximo": 2,
+        "descanso_curto": 1
+      },
+      {
+        "nivel": 1,
+        "essencia": 6,
+        "maximo": 3,
+        "descanso_curto": 1
+      },
+      {
+        "nivel": 2,
+        "essencia": 0,
+        "maximo": 2,
+        "descanso_curto": 1
+      },
+      {
+        "nivel": 2,
+        "essencia": 1,
+        "maximo": 2,
+        "descanso_curto": 1
+      },
+      {
+        "nivel": 2,
+        "essencia": 2,
+        "maximo": 2,
+        "descanso_curto": 1
+      },
+      {
+        "nivel": 2,
+        "essencia": 3,
+        "maximo": 4,
+        "descanso_curto": 1
+      },
+      {
+        "nivel": 2,
+        "essencia": 4,
+        "maximo": 4,
+        "descanso_curto": 1
+      },
+      {
+        "nivel": 2,
+        "essencia": 5,
+        "maximo": 4,
+        "descanso_curto": 1
+      },
+      {
+        "nivel": 2,
+        "essencia": 6,
+        "maximo": 6,
+        "descanso_curto": 1
+      },
+      {
+        "nivel": 3,
+        "essencia": 0,
+        "maximo": 3,
+        "descanso_curto": 1
+      },
+      {
+        "nivel": 3,
+        "essencia": 1,
+        "maximo": 3,
+        "descanso_curto": 1
+      },
+      {
+        "nivel": 3,
+        "essencia": 2,
+        "maximo": 3,
+        "descanso_curto": 1
+      },
+      {
+        "nivel": 3,
+        "essencia": 3,
+        "maximo": 6,
+        "descanso_curto": 1
+      },
+      {
+        "nivel": 3,
+        "essencia": 4,
+        "maximo": 6,
+        "descanso_curto": 1
+      },
+      {
+        "nivel": 3,
+        "essencia": 5,
+        "maximo": 6,
+        "descanso_curto": 1
+      },
+      {
+        "nivel": 3,
+        "essencia": 6,
+        "maximo": 9,
+        "descanso_curto": 2
+      },
+      {
+        "nivel": 4,
+        "essencia": 0,
+        "maximo": 4,
+        "descanso_curto": 1
+      },
+      {
+        "nivel": 4,
+        "essencia": 1,
+        "maximo": 4,
+        "descanso_curto": 1
+      },
+      {
+        "nivel": 4,
+        "essencia": 2,
+        "maximo": 4,
+        "descanso_curto": 1
+      },
+      {
+        "nivel": 4,
+        "essencia": 3,
+        "maximo": 8,
+        "descanso_curto": 2
+      },
+      {
+        "nivel": 4,
+        "essencia": 4,
+        "maximo": 8,
+        "descanso_curto": 2
+      },
+      {
+        "nivel": 4,
+        "essencia": 5,
+        "maximo": 8,
+        "descanso_curto": 2
+      },
+      {
+        "nivel": 4,
+        "essencia": 6,
+        "maximo": 12,
+        "descanso_curto": 3
+      },
+      {
+        "nivel": 5,
+        "essencia": 0,
+        "maximo": 5,
+        "descanso_curto": 1
+      },
+      {
+        "nivel": 5,
+        "essencia": 1,
+        "maximo": 5,
+        "descanso_curto": 1
+      },
+      {
+        "nivel": 5,
+        "essencia": 2,
+        "maximo": 5,
+        "descanso_curto": 1
+      },
+      {
+        "nivel": 5,
+        "essencia": 3,
+        "maximo": 10,
+        "descanso_curto": 2
+      },
+      {
+        "nivel": 5,
+        "essencia": 4,
+        "maximo": 10,
+        "descanso_curto": 2
+      },
+      {
+        "nivel": 5,
+        "essencia": 5,
+        "maximo": 10,
+        "descanso_curto": 2
+      },
+      {
+        "nivel": 5,
+        "essencia": 6,
+        "maximo": 15,
+        "descanso_curto": 3
+      },
+      {
+        "nivel": 6,
+        "essencia": 0,
+        "maximo": 6,
+        "descanso_curto": 1
+      },
+      {
+        "nivel": 6,
+        "essencia": 1,
+        "maximo": 6,
+        "descanso_curto": 1
+      },
+      {
+        "nivel": 6,
+        "essencia": 2,
+        "maximo": 6,
+        "descanso_curto": 1
+      },
+      {
+        "nivel": 6,
+        "essencia": 3,
+        "maximo": 12,
+        "descanso_curto": 3
+      },
+      {
+        "nivel": 6,
+        "essencia": 4,
+        "maximo": 12,
+        "descanso_curto": 3
+      },
+      {
+        "nivel": 6,
+        "essencia": 5,
+        "maximo": 12,
+        "descanso_curto": 3
+      },
+      {
+        "nivel": 6,
+        "essencia": 6,
+        "maximo": 18,
+        "descanso_curto": 4
+      },
+      {
+        "nivel": 7,
+        "essencia": 0,
+        "maximo": 7,
+        "descanso_curto": 1
+      },
+      {
+        "nivel": 7,
+        "essencia": 1,
+        "maximo": 7,
+        "descanso_curto": 1
+      },
+      {
+        "nivel": 7,
+        "essencia": 2,
+        "maximo": 7,
+        "descanso_curto": 1
+      },
+      {
+        "nivel": 7,
+        "essencia": 3,
+        "maximo": 14,
+        "descanso_curto": 3
+      },
+      {
+        "nivel": 7,
+        "essencia": 4,
+        "maximo": 14,
+        "descanso_curto": 3
+      },
+      {
+        "nivel": 7,
+        "essencia": 5,
+        "maximo": 14,
+        "descanso_curto": 3
+      },
+      {
+        "nivel": 7,
+        "essencia": 6,
+        "maximo": 21,
+        "descanso_curto": 5
+      },
+      {
+        "nivel": 8,
+        "essencia": 0,
+        "maximo": 8,
+        "descanso_curto": 2
+      },
+      {
+        "nivel": 8,
+        "essencia": 1,
+        "maximo": 8,
+        "descanso_curto": 2
+      },
+      {
+        "nivel": 8,
+        "essencia": 2,
+        "maximo": 8,
+        "descanso_curto": 2
+      },
+      {
+        "nivel": 8,
+        "essencia": 3,
+        "maximo": 16,
+        "descanso_curto": 4
+      },
+      {
+        "nivel": 8,
+        "essencia": 4,
+        "maximo": 16,
+        "descanso_curto": 4
+      },
+      {
+        "nivel": 8,
+        "essencia": 5,
+        "maximo": 16,
+        "descanso_curto": 4
+      },
+      {
+        "nivel": 8,
+        "essencia": 6,
+        "maximo": 24,
+        "descanso_curto": 6
+      },
+      {
+        "nivel": 9,
+        "essencia": 0,
+        "maximo": 9,
+        "descanso_curto": 2
+      },
+      {
+        "nivel": 9,
+        "essencia": 1,
+        "maximo": 9,
+        "descanso_curto": 2
+      },
+      {
+        "nivel": 9,
+        "essencia": 2,
+        "maximo": 9,
+        "descanso_curto": 2
+      },
+      {
+        "nivel": 9,
+        "essencia": 3,
+        "maximo": 18,
+        "descanso_curto": 4
+      },
+      {
+        "nivel": 9,
+        "essencia": 4,
+        "maximo": 18,
+        "descanso_curto": 4
+      },
+      {
+        "nivel": 9,
+        "essencia": 5,
+        "maximo": 18,
+        "descanso_curto": 4
+      },
+      {
+        "nivel": 9,
+        "essencia": 6,
+        "maximo": 27,
+        "descanso_curto": 6
+      },
+      {
+        "nivel": 10,
+        "essencia": 0,
+        "maximo": 10,
+        "descanso_curto": 2
+      },
+      {
+        "nivel": 10,
+        "essencia": 1,
+        "maximo": 10,
+        "descanso_curto": 2
+      },
+      {
+        "nivel": 10,
+        "essencia": 2,
+        "maximo": 10,
+        "descanso_curto": 2
+      },
+      {
+        "nivel": 10,
+        "essencia": 3,
+        "maximo": 20,
+        "descanso_curto": 5
+      },
+      {
+        "nivel": 10,
+        "essencia": 4,
+        "maximo": 20,
+        "descanso_curto": 5
+      },
+      {
+        "nivel": 10,
+        "essencia": 5,
+        "maximo": 20,
+        "descanso_curto": 5
+      },
+      {
+        "nivel": 10,
+        "essencia": 6,
+        "maximo": 30,
+        "descanso_curto": 7
+      },
+      {
+        "nivel": 11,
+        "essencia": 0,
+        "maximo": 11,
+        "descanso_curto": 2
+      },
+      {
+        "nivel": 11,
+        "essencia": 1,
+        "maximo": 11,
+        "descanso_curto": 2
+      },
+      {
+        "nivel": 11,
+        "essencia": 2,
+        "maximo": 11,
+        "descanso_curto": 2
+      },
+      {
+        "nivel": 11,
+        "essencia": 3,
+        "maximo": 22,
+        "descanso_curto": 5
+      },
+      {
+        "nivel": 11,
+        "essencia": 4,
+        "maximo": 22,
+        "descanso_curto": 5
+      },
+      {
+        "nivel": 11,
+        "essencia": 5,
+        "maximo": 22,
+        "descanso_curto": 5
+      },
+      {
+        "nivel": 11,
+        "essencia": 6,
+        "maximo": 33,
+        "descanso_curto": 8
+      },
+      {
+        "nivel": 12,
+        "essencia": 0,
+        "maximo": 12,
+        "descanso_curto": 3
+      },
+      {
+        "nivel": 12,
+        "essencia": 1,
+        "maximo": 12,
+        "descanso_curto": 3
+      },
+      {
+        "nivel": 12,
+        "essencia": 2,
+        "maximo": 12,
+        "descanso_curto": 3
+      },
+      {
+        "nivel": 12,
+        "essencia": 3,
+        "maximo": 24,
+        "descanso_curto": 6
+      },
+      {
+        "nivel": 12,
+        "essencia": 4,
+        "maximo": 24,
+        "descanso_curto": 6
+      },
+      {
+        "nivel": 12,
+        "essencia": 5,
+        "maximo": 24,
+        "descanso_curto": 6
+      },
+      {
+        "nivel": 12,
+        "essencia": 6,
+        "maximo": 36,
+        "descanso_curto": 9
+      },
+      {
+        "nivel": 13,
+        "essencia": 0,
+        "maximo": 13,
+        "descanso_curto": 3
+      },
+      {
+        "nivel": 13,
+        "essencia": 1,
+        "maximo": 13,
+        "descanso_curto": 3
+      },
+      {
+        "nivel": 13,
+        "essencia": 2,
+        "maximo": 13,
+        "descanso_curto": 3
+      },
+      {
+        "nivel": 13,
+        "essencia": 3,
+        "maximo": 26,
+        "descanso_curto": 6
+      },
+      {
+        "nivel": 13,
+        "essencia": 4,
+        "maximo": 26,
+        "descanso_curto": 6
+      },
+      {
+        "nivel": 13,
+        "essencia": 5,
+        "maximo": 26,
+        "descanso_curto": 6
+      },
+      {
+        "nivel": 13,
+        "essencia": 6,
+        "maximo": 39,
+        "descanso_curto": 9
+      },
+      {
+        "nivel": 14,
+        "essencia": 0,
+        "maximo": 14,
+        "descanso_curto": 3
+      },
+      {
+        "nivel": 14,
+        "essencia": 1,
+        "maximo": 14,
+        "descanso_curto": 3
+      },
+      {
+        "nivel": 14,
+        "essencia": 2,
+        "maximo": 14,
+        "descanso_curto": 3
+      },
+      {
+        "nivel": 14,
+        "essencia": 3,
+        "maximo": 28,
+        "descanso_curto": 7
+      },
+      {
+        "nivel": 14,
+        "essencia": 4,
+        "maximo": 28,
+        "descanso_curto": 7
+      },
+      {
+        "nivel": 14,
+        "essencia": 5,
+        "maximo": 28,
+        "descanso_curto": 7
+      },
+      {
+        "nivel": 14,
+        "essencia": 6,
+        "maximo": 42,
+        "descanso_curto": 10
+      },
+      {
+        "nivel": 15,
+        "essencia": 0,
+        "maximo": 15,
+        "descanso_curto": 3
+      },
+      {
+        "nivel": 15,
+        "essencia": 1,
+        "maximo": 15,
+        "descanso_curto": 3
+      },
+      {
+        "nivel": 15,
+        "essencia": 2,
+        "maximo": 15,
+        "descanso_curto": 3
+      },
+      {
+        "nivel": 15,
+        "essencia": 3,
+        "maximo": 30,
+        "descanso_curto": 7
+      },
+      {
+        "nivel": 15,
+        "essencia": 4,
+        "maximo": 30,
+        "descanso_curto": 7
+      },
+      {
+        "nivel": 15,
+        "essencia": 5,
+        "maximo": 30,
+        "descanso_curto": 7
+      },
+      {
+        "nivel": 15,
+        "essencia": 6,
+        "maximo": 45,
+        "descanso_curto": 11
+      },
+      {
+        "nivel": 16,
+        "essencia": 0,
+        "maximo": 16,
+        "descanso_curto": 4
+      },
+      {
+        "nivel": 16,
+        "essencia": 1,
+        "maximo": 16,
+        "descanso_curto": 4
+      },
+      {
+        "nivel": 16,
+        "essencia": 2,
+        "maximo": 16,
+        "descanso_curto": 4
+      },
+      {
+        "nivel": 16,
+        "essencia": 3,
+        "maximo": 32,
+        "descanso_curto": 8
+      },
+      {
+        "nivel": 16,
+        "essencia": 4,
+        "maximo": 32,
+        "descanso_curto": 8
+      },
+      {
+        "nivel": 16,
+        "essencia": 5,
+        "maximo": 32,
+        "descanso_curto": 8
+      },
+      {
+        "nivel": 16,
+        "essencia": 6,
+        "maximo": 48,
+        "descanso_curto": 12
+      },
+      {
+        "nivel": 17,
+        "essencia": 0,
+        "maximo": 17,
+        "descanso_curto": 4
+      },
+      {
+        "nivel": 17,
+        "essencia": 1,
+        "maximo": 17,
+        "descanso_curto": 4
+      },
+      {
+        "nivel": 17,
+        "essencia": 2,
+        "maximo": 17,
+        "descanso_curto": 4
+      },
+      {
+        "nivel": 17,
+        "essencia": 3,
+        "maximo": 34,
+        "descanso_curto": 8
+      },
+      {
+        "nivel": 17,
+        "essencia": 4,
+        "maximo": 34,
+        "descanso_curto": 8
+      },
+      {
+        "nivel": 17,
+        "essencia": 5,
+        "maximo": 34,
+        "descanso_curto": 8
+      },
+      {
+        "nivel": 17,
+        "essencia": 6,
+        "maximo": 51,
+        "descanso_curto": 12
+      },
+      {
+        "nivel": 18,
+        "essencia": 0,
+        "maximo": 18,
+        "descanso_curto": 4
+      },
+      {
+        "nivel": 18,
+        "essencia": 1,
+        "maximo": 18,
+        "descanso_curto": 4
+      },
+      {
+        "nivel": 18,
+        "essencia": 2,
+        "maximo": 18,
+        "descanso_curto": 4
+      },
+      {
+        "nivel": 18,
+        "essencia": 3,
+        "maximo": 36,
+        "descanso_curto": 9
+      },
+      {
+        "nivel": 18,
+        "essencia": 4,
+        "maximo": 36,
+        "descanso_curto": 9
+      },
+      {
+        "nivel": 18,
+        "essencia": 5,
+        "maximo": 36,
+        "descanso_curto": 9
+      },
+      {
+        "nivel": 18,
+        "essencia": 6,
+        "maximo": 54,
+        "descanso_curto": 13
+      },
+      {
+        "nivel": 19,
+        "essencia": 0,
+        "maximo": 19,
+        "descanso_curto": 4
+      },
+      {
+        "nivel": 19,
+        "essencia": 1,
+        "maximo": 19,
+        "descanso_curto": 4
+      },
+      {
+        "nivel": 19,
+        "essencia": 2,
+        "maximo": 19,
+        "descanso_curto": 4
+      },
+      {
+        "nivel": 19,
+        "essencia": 3,
+        "maximo": 38,
+        "descanso_curto": 9
+      },
+      {
+        "nivel": 19,
+        "essencia": 4,
+        "maximo": 38,
+        "descanso_curto": 9
+      },
+      {
+        "nivel": 19,
+        "essencia": 5,
+        "maximo": 38,
+        "descanso_curto": 9
+      },
+      {
+        "nivel": 19,
+        "essencia": 6,
+        "maximo": 57,
+        "descanso_curto": 14
+      },
+      {
+        "nivel": 20,
+        "essencia": 0,
+        "maximo": 20,
+        "descanso_curto": 5
+      },
+      {
+        "nivel": 20,
+        "essencia": 1,
+        "maximo": 20,
+        "descanso_curto": 5
+      },
+      {
+        "nivel": 20,
+        "essencia": 2,
+        "maximo": 20,
+        "descanso_curto": 5
+      },
+      {
+        "nivel": 20,
+        "essencia": 3,
+        "maximo": 40,
+        "descanso_curto": 10
+      },
+      {
+        "nivel": 20,
+        "essencia": 4,
+        "maximo": 40,
+        "descanso_curto": 10
+      },
+      {
+        "nivel": 20,
+        "essencia": 5,
+        "maximo": 40,
+        "descanso_curto": 10
+      },
+      {
+        "nivel": 20,
+        "essencia": 6,
+        "maximo": 60,
+        "descanso_curto": 15
+      },
+      {
+        "nivel": 21,
+        "essencia": 0,
+        "maximo": 21,
+        "descanso_curto": 5
+      },
+      {
+        "nivel": 21,
+        "essencia": 1,
+        "maximo": 21,
+        "descanso_curto": 5
+      },
+      {
+        "nivel": 21,
+        "essencia": 2,
+        "maximo": 21,
+        "descanso_curto": 5
+      },
+      {
+        "nivel": 21,
+        "essencia": 3,
+        "maximo": 42,
+        "descanso_curto": 10
+      },
+      {
+        "nivel": 21,
+        "essencia": 4,
+        "maximo": 42,
+        "descanso_curto": 10
+      },
+      {
+        "nivel": 21,
+        "essencia": 5,
+        "maximo": 42,
+        "descanso_curto": 10
+      },
+      {
+        "nivel": 21,
+        "essencia": 6,
+        "maximo": 63,
+        "descanso_curto": 15
+      },
+      {
+        "nivel": 22,
+        "essencia": 0,
+        "maximo": 22,
+        "descanso_curto": 5
+      },
+      {
+        "nivel": 22,
+        "essencia": 1,
+        "maximo": 22,
+        "descanso_curto": 5
+      },
+      {
+        "nivel": 22,
+        "essencia": 2,
+        "maximo": 22,
+        "descanso_curto": 5
+      },
+      {
+        "nivel": 22,
+        "essencia": 3,
+        "maximo": 44,
+        "descanso_curto": 11
+      },
+      {
+        "nivel": 22,
+        "essencia": 4,
+        "maximo": 44,
+        "descanso_curto": 11
+      },
+      {
+        "nivel": 22,
+        "essencia": 5,
+        "maximo": 44,
+        "descanso_curto": 11
+      },
+      {
+        "nivel": 22,
+        "essencia": 6,
+        "maximo": 66,
+        "descanso_curto": 16
+      },
+      {
+        "nivel": 23,
+        "essencia": 0,
+        "maximo": 23,
+        "descanso_curto": 5
+      },
+      {
+        "nivel": 23,
+        "essencia": 1,
+        "maximo": 23,
+        "descanso_curto": 5
+      },
+      {
+        "nivel": 23,
+        "essencia": 2,
+        "maximo": 23,
+        "descanso_curto": 5
+      },
+      {
+        "nivel": 23,
+        "essencia": 3,
+        "maximo": 46,
+        "descanso_curto": 11
+      },
+      {
+        "nivel": 23,
+        "essencia": 4,
+        "maximo": 46,
+        "descanso_curto": 11
+      },
+      {
+        "nivel": 23,
+        "essencia": 5,
+        "maximo": 46,
+        "descanso_curto": 11
+      },
+      {
+        "nivel": 23,
+        "essencia": 6,
+        "maximo": 69,
+        "descanso_curto": 17
+      },
+      {
+        "nivel": 24,
+        "essencia": 0,
+        "maximo": 24,
+        "descanso_curto": 6
+      },
+      {
+        "nivel": 24,
+        "essencia": 1,
+        "maximo": 24,
+        "descanso_curto": 6
+      },
+      {
+        "nivel": 24,
+        "essencia": 2,
+        "maximo": 24,
+        "descanso_curto": 6
+      },
+      {
+        "nivel": 24,
+        "essencia": 3,
+        "maximo": 48,
+        "descanso_curto": 12
+      },
+      {
+        "nivel": 24,
+        "essencia": 4,
+        "maximo": 48,
+        "descanso_curto": 12
+      },
+      {
+        "nivel": 24,
+        "essencia": 5,
+        "maximo": 48,
+        "descanso_curto": 12
+      },
+      {
+        "nivel": 24,
+        "essencia": 6,
+        "maximo": 72,
+        "descanso_curto": 18
+      },
+      {
+        "nivel": 25,
+        "essencia": 0,
+        "maximo": 25,
+        "descanso_curto": 6
+      },
+      {
+        "nivel": 25,
+        "essencia": 1,
+        "maximo": 25,
+        "descanso_curto": 6
+      },
+      {
+        "nivel": 25,
+        "essencia": 2,
+        "maximo": 25,
+        "descanso_curto": 6
+      },
+      {
+        "nivel": 25,
+        "essencia": 3,
+        "maximo": 50,
+        "descanso_curto": 12
+      },
+      {
+        "nivel": 25,
+        "essencia": 4,
+        "maximo": 50,
+        "descanso_curto": 12
+      },
+      {
+        "nivel": 25,
+        "essencia": 5,
+        "maximo": 50,
+        "descanso_curto": 12
+      },
+      {
+        "nivel": 25,
+        "essencia": 6,
+        "maximo": 75,
+        "descanso_curto": 18
+      },
+      {
+        "nivel": 26,
+        "essencia": 0,
+        "maximo": 26,
+        "descanso_curto": 6
+      },
+      {
+        "nivel": 26,
+        "essencia": 1,
+        "maximo": 26,
+        "descanso_curto": 6
+      },
+      {
+        "nivel": 26,
+        "essencia": 2,
+        "maximo": 26,
+        "descanso_curto": 6
+      },
+      {
+        "nivel": 26,
+        "essencia": 3,
+        "maximo": 52,
+        "descanso_curto": 13
+      },
+      {
+        "nivel": 26,
+        "essencia": 4,
+        "maximo": 52,
+        "descanso_curto": 13
+      },
+      {
+        "nivel": 26,
+        "essencia": 5,
+        "maximo": 52,
+        "descanso_curto": 13
+      },
+      {
+        "nivel": 26,
+        "essencia": 6,
+        "maximo": 78,
+        "descanso_curto": 19
+      },
+      {
+        "nivel": 27,
+        "essencia": 0,
+        "maximo": 27,
+        "descanso_curto": 6
+      },
+      {
+        "nivel": 27,
+        "essencia": 1,
+        "maximo": 27,
+        "descanso_curto": 6
+      },
+      {
+        "nivel": 27,
+        "essencia": 2,
+        "maximo": 27,
+        "descanso_curto": 6
+      },
+      {
+        "nivel": 27,
+        "essencia": 3,
+        "maximo": 54,
+        "descanso_curto": 13
+      },
+      {
+        "nivel": 27,
+        "essencia": 4,
+        "maximo": 54,
+        "descanso_curto": 13
+      },
+      {
+        "nivel": 27,
+        "essencia": 5,
+        "maximo": 54,
+        "descanso_curto": 13
+      },
+      {
+        "nivel": 27,
+        "essencia": 6,
+        "maximo": 81,
+        "descanso_curto": 20
+      },
+      {
+        "nivel": 28,
+        "essencia": 0,
+        "maximo": 28,
+        "descanso_curto": 7
+      },
+      {
+        "nivel": 28,
+        "essencia": 1,
+        "maximo": 28,
+        "descanso_curto": 7
+      },
+      {
+        "nivel": 28,
+        "essencia": 2,
+        "maximo": 28,
+        "descanso_curto": 7
+      },
+      {
+        "nivel": 28,
+        "essencia": 3,
+        "maximo": 56,
+        "descanso_curto": 14
+      },
+      {
+        "nivel": 28,
+        "essencia": 4,
+        "maximo": 56,
+        "descanso_curto": 14
+      },
+      {
+        "nivel": 28,
+        "essencia": 5,
+        "maximo": 56,
+        "descanso_curto": 14
+      },
+      {
+        "nivel": 28,
+        "essencia": 6,
+        "maximo": 84,
+        "descanso_curto": 21
+      },
+      {
+        "nivel": 29,
+        "essencia": 0,
+        "maximo": 29,
+        "descanso_curto": 7
+      },
+      {
+        "nivel": 29,
+        "essencia": 1,
+        "maximo": 29,
+        "descanso_curto": 7
+      },
+      {
+        "nivel": 29,
+        "essencia": 2,
+        "maximo": 29,
+        "descanso_curto": 7
+      },
+      {
+        "nivel": 29,
+        "essencia": 3,
+        "maximo": 58,
+        "descanso_curto": 14
+      },
+      {
+        "nivel": 29,
+        "essencia": 4,
+        "maximo": 58,
+        "descanso_curto": 14
+      },
+      {
+        "nivel": 29,
+        "essencia": 5,
+        "maximo": 58,
+        "descanso_curto": 14
+      },
+      {
+        "nivel": 29,
+        "essencia": 6,
+        "maximo": 87,
+        "descanso_curto": 21
+      },
+      {
+        "nivel": 30,
+        "essencia": 0,
+        "maximo": 30,
+        "descanso_curto": 7
+      },
+      {
+        "nivel": 30,
+        "essencia": 1,
+        "maximo": 30,
+        "descanso_curto": 7
+      },
+      {
+        "nivel": 30,
+        "essencia": 2,
+        "maximo": 30,
+        "descanso_curto": 7
+      },
+      {
+        "nivel": 30,
+        "essencia": 3,
+        "maximo": 60,
+        "descanso_curto": 15
+      },
+      {
+        "nivel": 30,
+        "essencia": 4,
+        "maximo": 60,
+        "descanso_curto": 15
+      },
+      {
+        "nivel": 30,
+        "essencia": 5,
+        "maximo": 60,
+        "descanso_curto": 15
+      },
+      {
+        "nivel": 30,
+        "essencia": 6,
+        "maximo": 90,
+        "descanso_curto": 22
+      }
+    ],
+    "reparos": [
+      {
+        "corpo": 1,
+        "reparador": 1,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 1,
+        "reparador": 2,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 1,
+        "reparador": 3,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 1,
+        "reparador": 4,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 1,
+        "reparador": 5,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 1,
+        "reparador": 6,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 1,
+        "reparador": 7,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 1,
+        "reparador": 8,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 1,
+        "reparador": 9,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 1,
+        "reparador": 10,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 1,
+        "reparador": 11,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 1,
+        "reparador": 12,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 1,
+        "reparador": 13,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 1,
+        "reparador": 14,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 1,
+        "reparador": 15,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 1,
+        "reparador": 16,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 1,
+        "reparador": 17,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 1,
+        "reparador": 18,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 1,
+        "reparador": 19,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 1,
+        "reparador": 20,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 1,
+        "reparador": 21,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 1,
+        "reparador": 22,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 1,
+        "reparador": 23,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 1,
+        "reparador": 24,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 1,
+        "reparador": 25,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 1,
+        "reparador": 26,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 1,
+        "reparador": 27,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 1,
+        "reparador": 28,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 1,
+        "reparador": 29,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 1,
+        "reparador": 30,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 2,
+        "reparador": 1,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 2,
+        "reparador": 2,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 2,
+        "reparador": 3,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 2,
+        "reparador": 4,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 2,
+        "reparador": 5,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 2,
+        "reparador": 6,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 2,
+        "reparador": 7,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 2,
+        "reparador": 8,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 2,
+        "reparador": 9,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 2,
+        "reparador": 10,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 2,
+        "reparador": 11,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 2,
+        "reparador": 12,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 2,
+        "reparador": 13,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 2,
+        "reparador": 14,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 2,
+        "reparador": 15,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 2,
+        "reparador": 16,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 2,
+        "reparador": 17,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 2,
+        "reparador": 18,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 2,
+        "reparador": 19,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 2,
+        "reparador": 20,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 2,
+        "reparador": 21,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 2,
+        "reparador": 22,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 2,
+        "reparador": 23,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 2,
+        "reparador": 24,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 2,
+        "reparador": 25,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 2,
+        "reparador": 26,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 2,
+        "reparador": 27,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 2,
+        "reparador": 28,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 2,
+        "reparador": 29,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 2,
+        "reparador": 30,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 3,
+        "reparador": 1,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 3,
+        "reparador": 2,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 3,
+        "reparador": 3,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 3,
+        "reparador": 4,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 3,
+        "reparador": 5,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 3,
+        "reparador": 6,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 3,
+        "reparador": 7,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 3,
+        "reparador": 8,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 3,
+        "reparador": 9,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 3,
+        "reparador": 10,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 3,
+        "reparador": 11,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 3,
+        "reparador": 12,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 3,
+        "reparador": 13,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 3,
+        "reparador": 14,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 3,
+        "reparador": 15,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 3,
+        "reparador": 16,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 3,
+        "reparador": 17,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 3,
+        "reparador": 18,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 3,
+        "reparador": 19,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 3,
+        "reparador": 20,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 3,
+        "reparador": 21,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 3,
+        "reparador": 22,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 3,
+        "reparador": 23,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 3,
+        "reparador": 24,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 3,
+        "reparador": 25,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 3,
+        "reparador": 26,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 3,
+        "reparador": 27,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 3,
+        "reparador": 28,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 3,
+        "reparador": 29,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 3,
+        "reparador": 30,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 4,
+        "reparador": 1,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 4,
+        "reparador": 2,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 4,
+        "reparador": 3,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 4,
+        "reparador": 4,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 4,
+        "reparador": 5,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 4,
+        "reparador": 6,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 4,
+        "reparador": 7,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 4,
+        "reparador": 8,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 4,
+        "reparador": 9,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 4,
+        "reparador": 10,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 4,
+        "reparador": 11,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 4,
+        "reparador": 12,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 4,
+        "reparador": 13,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 4,
+        "reparador": 14,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 4,
+        "reparador": 15,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 4,
+        "reparador": 16,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 4,
+        "reparador": 17,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 4,
+        "reparador": 18,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 4,
+        "reparador": 19,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 4,
+        "reparador": 20,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 4,
+        "reparador": 21,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 4,
+        "reparador": 22,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 4,
+        "reparador": 23,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 4,
+        "reparador": 24,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 4,
+        "reparador": 25,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 4,
+        "reparador": 26,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 4,
+        "reparador": 27,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 4,
+        "reparador": 28,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 4,
+        "reparador": 29,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 4,
+        "reparador": 30,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 5,
+        "reparador": 1,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 5,
+        "reparador": 2,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 5,
+        "reparador": 3,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 5,
+        "reparador": 4,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 5,
+        "reparador": 5,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 5,
+        "reparador": 6,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 5,
+        "reparador": 7,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 5,
+        "reparador": 8,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 5,
+        "reparador": 9,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 5,
+        "reparador": 10,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 5,
+        "reparador": 11,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 5,
+        "reparador": 12,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 5,
+        "reparador": 13,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 5,
+        "reparador": 14,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 5,
+        "reparador": 15,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 5,
+        "reparador": 16,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 5,
+        "reparador": 17,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 5,
+        "reparador": 18,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 5,
+        "reparador": 19,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 5,
+        "reparador": 20,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 5,
+        "reparador": 21,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 5,
+        "reparador": 22,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 5,
+        "reparador": 23,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 5,
+        "reparador": 24,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 5,
+        "reparador": 25,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 5,
+        "reparador": 26,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 5,
+        "reparador": 27,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 5,
+        "reparador": 28,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 5,
+        "reparador": 29,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 5,
+        "reparador": 30,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 6,
+        "reparador": 1,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 6,
+        "reparador": 2,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 6,
+        "reparador": 3,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 6,
+        "reparador": 4,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 6,
+        "reparador": 5,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 6,
+        "reparador": 6,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 6,
+        "reparador": 7,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 6,
+        "reparador": 8,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 6,
+        "reparador": 9,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 6,
+        "reparador": 10,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 6,
+        "reparador": 11,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 6,
+        "reparador": 12,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 6,
+        "reparador": 13,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 6,
+        "reparador": 14,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 6,
+        "reparador": 15,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 6,
+        "reparador": 16,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 6,
+        "reparador": 17,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 6,
+        "reparador": 18,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 6,
+        "reparador": 19,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 6,
+        "reparador": 20,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 6,
+        "reparador": 21,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 6,
+        "reparador": 22,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 6,
+        "reparador": 23,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 6,
+        "reparador": 24,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 6,
+        "reparador": 25,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 6,
+        "reparador": 26,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 6,
+        "reparador": 27,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 6,
+        "reparador": 28,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 6,
+        "reparador": 29,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 6,
+        "reparador": 30,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 7,
+        "reparador": 1,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 7,
+        "reparador": 2,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 7,
+        "reparador": 3,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 7,
+        "reparador": 4,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 7,
+        "reparador": 5,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 7,
+        "reparador": 6,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 7,
+        "reparador": 7,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 7,
+        "reparador": 8,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 7,
+        "reparador": 9,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 7,
+        "reparador": 10,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 7,
+        "reparador": 11,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 7,
+        "reparador": 12,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 7,
+        "reparador": 13,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 7,
+        "reparador": 14,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 7,
+        "reparador": 15,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 7,
+        "reparador": 16,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 7,
+        "reparador": 17,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 7,
+        "reparador": 18,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 7,
+        "reparador": 19,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 7,
+        "reparador": 20,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 7,
+        "reparador": 21,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 7,
+        "reparador": 22,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 7,
+        "reparador": 23,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 7,
+        "reparador": 24,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 7,
+        "reparador": 25,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 7,
+        "reparador": 26,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 7,
+        "reparador": 27,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 7,
+        "reparador": 28,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 7,
+        "reparador": 29,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 7,
+        "reparador": 30,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 8,
+        "reparador": 1,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 8,
+        "reparador": 2,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 8,
+        "reparador": 3,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 8,
+        "reparador": 4,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 8,
+        "reparador": 5,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 8,
+        "reparador": 6,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 8,
+        "reparador": 7,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 8,
+        "reparador": 8,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 8,
+        "reparador": 9,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 8,
+        "reparador": 10,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 8,
+        "reparador": 11,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 8,
+        "reparador": 12,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 8,
+        "reparador": 13,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 8,
+        "reparador": 14,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 8,
+        "reparador": 15,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 8,
+        "reparador": 16,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 8,
+        "reparador": 17,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 8,
+        "reparador": 18,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 8,
+        "reparador": 19,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 8,
+        "reparador": 20,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 8,
+        "reparador": 21,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 8,
+        "reparador": 22,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 8,
+        "reparador": 23,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 8,
+        "reparador": 24,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 8,
+        "reparador": 25,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 8,
+        "reparador": 26,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 8,
+        "reparador": 27,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 8,
+        "reparador": 28,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 8,
+        "reparador": 29,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 8,
+        "reparador": 30,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 9,
+        "reparador": 1,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 9,
+        "reparador": 2,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 9,
+        "reparador": 3,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 9,
+        "reparador": 4,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 9,
+        "reparador": 5,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 9,
+        "reparador": 6,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 9,
+        "reparador": 7,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 9,
+        "reparador": 8,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 9,
+        "reparador": 9,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 9,
+        "reparador": 10,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 9,
+        "reparador": 11,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 9,
+        "reparador": 12,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 9,
+        "reparador": 13,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 9,
+        "reparador": 14,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 9,
+        "reparador": 15,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 9,
+        "reparador": 16,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 9,
+        "reparador": 17,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 9,
+        "reparador": 18,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 9,
+        "reparador": 19,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 9,
+        "reparador": 20,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 9,
+        "reparador": 21,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 9,
+        "reparador": 22,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 9,
+        "reparador": 23,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 9,
+        "reparador": 24,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 9,
+        "reparador": 25,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 9,
+        "reparador": 26,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 9,
+        "reparador": 27,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 9,
+        "reparador": 28,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 9,
+        "reparador": 29,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 9,
+        "reparador": 30,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 10,
+        "reparador": 1,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 10,
+        "reparador": 2,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 10,
+        "reparador": 3,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 10,
+        "reparador": 4,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 10,
+        "reparador": 5,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 10,
+        "reparador": 6,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 10,
+        "reparador": 7,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 10,
+        "reparador": 8,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 10,
+        "reparador": 9,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 10,
+        "reparador": 10,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 10,
+        "reparador": 11,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 10,
+        "reparador": 12,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 10,
+        "reparador": 13,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 10,
+        "reparador": 14,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 10,
+        "reparador": 15,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 10,
+        "reparador": 16,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 10,
+        "reparador": 17,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 10,
+        "reparador": 18,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 10,
+        "reparador": 19,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 10,
+        "reparador": 20,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 10,
+        "reparador": 21,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 10,
+        "reparador": 22,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 10,
+        "reparador": 23,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 10,
+        "reparador": 24,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 10,
+        "reparador": 25,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 10,
+        "reparador": 26,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 10,
+        "reparador": 27,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 10,
+        "reparador": 28,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 10,
+        "reparador": 29,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 10,
+        "reparador": 30,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 11,
+        "reparador": 1,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 11,
+        "reparador": 2,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 11,
+        "reparador": 3,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 11,
+        "reparador": 4,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 11,
+        "reparador": 5,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 11,
+        "reparador": 6,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 11,
+        "reparador": 7,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 11,
+        "reparador": 8,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 11,
+        "reparador": 9,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 11,
+        "reparador": 10,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 11,
+        "reparador": 11,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 11,
+        "reparador": 12,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 11,
+        "reparador": 13,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 11,
+        "reparador": 14,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 11,
+        "reparador": 15,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 11,
+        "reparador": 16,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 11,
+        "reparador": 17,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 11,
+        "reparador": 18,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 11,
+        "reparador": 19,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 11,
+        "reparador": 20,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 11,
+        "reparador": 21,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 11,
+        "reparador": 22,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 11,
+        "reparador": 23,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 11,
+        "reparador": 24,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 11,
+        "reparador": 25,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 11,
+        "reparador": 26,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 11,
+        "reparador": 27,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 11,
+        "reparador": 28,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 11,
+        "reparador": 29,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 11,
+        "reparador": 30,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 12,
+        "reparador": 1,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 12,
+        "reparador": 2,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 12,
+        "reparador": 3,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 12,
+        "reparador": 4,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 12,
+        "reparador": 5,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 12,
+        "reparador": 6,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 12,
+        "reparador": 7,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 12,
+        "reparador": 8,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 12,
+        "reparador": 9,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 12,
+        "reparador": 10,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 12,
+        "reparador": 11,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 12,
+        "reparador": 12,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 12,
+        "reparador": 13,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 12,
+        "reparador": 14,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 12,
+        "reparador": 15,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 12,
+        "reparador": 16,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 12,
+        "reparador": 17,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 12,
+        "reparador": 18,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 12,
+        "reparador": 19,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 12,
+        "reparador": 20,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 12,
+        "reparador": 21,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 12,
+        "reparador": 22,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 12,
+        "reparador": 23,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 12,
+        "reparador": 24,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 12,
+        "reparador": 25,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 12,
+        "reparador": 26,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 12,
+        "reparador": 27,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 12,
+        "reparador": 28,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 12,
+        "reparador": 29,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 12,
+        "reparador": 30,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 13,
+        "reparador": 1,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 13,
+        "reparador": 2,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 13,
+        "reparador": 3,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 13,
+        "reparador": 4,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 13,
+        "reparador": 5,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 13,
+        "reparador": 6,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 13,
+        "reparador": 7,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 13,
+        "reparador": 8,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 13,
+        "reparador": 9,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 13,
+        "reparador": 10,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 13,
+        "reparador": 11,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 13,
+        "reparador": 12,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 13,
+        "reparador": 13,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 13,
+        "reparador": 14,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 13,
+        "reparador": 15,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 13,
+        "reparador": 16,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 13,
+        "reparador": 17,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 13,
+        "reparador": 18,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 13,
+        "reparador": 19,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 13,
+        "reparador": 20,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 13,
+        "reparador": 21,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 13,
+        "reparador": 22,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 13,
+        "reparador": 23,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 13,
+        "reparador": 24,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 13,
+        "reparador": 25,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 13,
+        "reparador": 26,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 13,
+        "reparador": 27,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 13,
+        "reparador": 28,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 13,
+        "reparador": 29,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 13,
+        "reparador": 30,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 14,
+        "reparador": 1,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 14,
+        "reparador": 2,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 14,
+        "reparador": 3,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 14,
+        "reparador": 4,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 14,
+        "reparador": 5,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 14,
+        "reparador": 6,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 14,
+        "reparador": 7,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 14,
+        "reparador": 8,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 14,
+        "reparador": 9,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 14,
+        "reparador": 10,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 14,
+        "reparador": 11,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 14,
+        "reparador": 12,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 14,
+        "reparador": 13,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 14,
+        "reparador": 14,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 14,
+        "reparador": 15,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 14,
+        "reparador": 16,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 14,
+        "reparador": 17,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 14,
+        "reparador": 18,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 14,
+        "reparador": 19,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 14,
+        "reparador": 20,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 14,
+        "reparador": 21,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 14,
+        "reparador": 22,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 14,
+        "reparador": 23,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 14,
+        "reparador": 24,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 14,
+        "reparador": 25,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 14,
+        "reparador": 26,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 14,
+        "reparador": 27,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 14,
+        "reparador": 28,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 14,
+        "reparador": 29,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 14,
+        "reparador": 30,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 15,
+        "reparador": 1,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 15,
+        "reparador": 2,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 15,
+        "reparador": 3,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 15,
+        "reparador": 4,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 15,
+        "reparador": 5,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 15,
+        "reparador": 6,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 15,
+        "reparador": 7,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 15,
+        "reparador": 8,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 15,
+        "reparador": 9,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 15,
+        "reparador": 10,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 15,
+        "reparador": 11,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 15,
+        "reparador": 12,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 15,
+        "reparador": 13,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 15,
+        "reparador": 14,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 15,
+        "reparador": 15,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 15,
+        "reparador": 16,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 15,
+        "reparador": 17,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 15,
+        "reparador": 18,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 15,
+        "reparador": 19,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 15,
+        "reparador": 20,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 15,
+        "reparador": 21,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 15,
+        "reparador": 22,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 15,
+        "reparador": 23,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 15,
+        "reparador": 24,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 15,
+        "reparador": 25,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 15,
+        "reparador": 26,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 15,
+        "reparador": 27,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 15,
+        "reparador": 28,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 15,
+        "reparador": 29,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 15,
+        "reparador": 30,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 16,
+        "reparador": 1,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 16,
+        "reparador": 2,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 16,
+        "reparador": 3,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 16,
+        "reparador": 4,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 16,
+        "reparador": 5,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 16,
+        "reparador": 6,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 16,
+        "reparador": 7,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 16,
+        "reparador": 8,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 16,
+        "reparador": 9,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 16,
+        "reparador": 10,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 16,
+        "reparador": 11,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 16,
+        "reparador": 12,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 16,
+        "reparador": 13,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 16,
+        "reparador": 14,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 16,
+        "reparador": 15,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 16,
+        "reparador": 16,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 16,
+        "reparador": 17,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 16,
+        "reparador": 18,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 16,
+        "reparador": 19,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 16,
+        "reparador": 20,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 16,
+        "reparador": 21,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 16,
+        "reparador": 22,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 16,
+        "reparador": 23,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 16,
+        "reparador": 24,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 16,
+        "reparador": 25,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 16,
+        "reparador": 26,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 16,
+        "reparador": 27,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 16,
+        "reparador": 28,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 16,
+        "reparador": 29,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 16,
+        "reparador": 30,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 17,
+        "reparador": 1,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 17,
+        "reparador": 2,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 17,
+        "reparador": 3,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 17,
+        "reparador": 4,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 17,
+        "reparador": 5,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 17,
+        "reparador": 6,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 17,
+        "reparador": 7,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 17,
+        "reparador": 8,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 17,
+        "reparador": 9,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 17,
+        "reparador": 10,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 17,
+        "reparador": 11,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 17,
+        "reparador": 12,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 17,
+        "reparador": 13,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 17,
+        "reparador": 14,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 17,
+        "reparador": 15,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 17,
+        "reparador": 16,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 17,
+        "reparador": 17,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 17,
+        "reparador": 18,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 17,
+        "reparador": 19,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 17,
+        "reparador": 20,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 17,
+        "reparador": 21,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 17,
+        "reparador": 22,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 17,
+        "reparador": 23,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 17,
+        "reparador": 24,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 17,
+        "reparador": 25,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 17,
+        "reparador": 26,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 17,
+        "reparador": 27,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 17,
+        "reparador": 28,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 17,
+        "reparador": 29,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 17,
+        "reparador": 30,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 18,
+        "reparador": 1,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 18,
+        "reparador": 2,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 18,
+        "reparador": 3,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 18,
+        "reparador": 4,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 18,
+        "reparador": 5,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 18,
+        "reparador": 6,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 18,
+        "reparador": 7,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 18,
+        "reparador": 8,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 18,
+        "reparador": 9,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 18,
+        "reparador": 10,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 18,
+        "reparador": 11,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 18,
+        "reparador": 12,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 18,
+        "reparador": 13,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 18,
+        "reparador": 14,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 18,
+        "reparador": 15,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 18,
+        "reparador": 16,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 18,
+        "reparador": 17,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 18,
+        "reparador": 18,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 18,
+        "reparador": 19,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 18,
+        "reparador": 20,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 18,
+        "reparador": 21,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 18,
+        "reparador": 22,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 18,
+        "reparador": 23,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 18,
+        "reparador": 24,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 18,
+        "reparador": 25,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 18,
+        "reparador": 26,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 18,
+        "reparador": 27,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 18,
+        "reparador": 28,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 18,
+        "reparador": 29,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 18,
+        "reparador": 30,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 19,
+        "reparador": 1,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 19,
+        "reparador": 2,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 19,
+        "reparador": 3,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 19,
+        "reparador": 4,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 19,
+        "reparador": 5,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 19,
+        "reparador": 6,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 19,
+        "reparador": 7,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 19,
+        "reparador": 8,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 19,
+        "reparador": 9,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 19,
+        "reparador": 10,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 19,
+        "reparador": 11,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 19,
+        "reparador": 12,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 19,
+        "reparador": 13,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 19,
+        "reparador": 14,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 19,
+        "reparador": 15,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 19,
+        "reparador": 16,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 19,
+        "reparador": 17,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 19,
+        "reparador": 18,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 19,
+        "reparador": 19,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 19,
+        "reparador": 20,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 19,
+        "reparador": 21,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 19,
+        "reparador": 22,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 19,
+        "reparador": 23,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 19,
+        "reparador": 24,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 19,
+        "reparador": 25,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 19,
+        "reparador": 26,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 19,
+        "reparador": 27,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 19,
+        "reparador": 28,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 19,
+        "reparador": 29,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 19,
+        "reparador": 30,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 20,
+        "reparador": 1,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 20,
+        "reparador": 2,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 20,
+        "reparador": 3,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 20,
+        "reparador": 4,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 20,
+        "reparador": 5,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 20,
+        "reparador": 6,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 20,
+        "reparador": 7,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 20,
+        "reparador": 8,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 20,
+        "reparador": 9,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 20,
+        "reparador": 10,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 20,
+        "reparador": 11,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 20,
+        "reparador": 12,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 20,
+        "reparador": 13,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 20,
+        "reparador": 14,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 20,
+        "reparador": 15,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 20,
+        "reparador": 16,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 20,
+        "reparador": 17,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 20,
+        "reparador": 18,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 20,
+        "reparador": 19,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 20,
+        "reparador": 20,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 20,
+        "reparador": 21,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 20,
+        "reparador": 22,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 20,
+        "reparador": 23,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 20,
+        "reparador": 24,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 20,
+        "reparador": 25,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 20,
+        "reparador": 26,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 20,
+        "reparador": 27,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 20,
+        "reparador": 28,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 20,
+        "reparador": 29,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 20,
+        "reparador": 30,
+        "dificuldade": "fácil"
+      },
+      {
+        "corpo": 21,
+        "reparador": 1,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 21,
+        "reparador": 2,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 21,
+        "reparador": 3,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 21,
+        "reparador": 4,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 21,
+        "reparador": 5,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 21,
+        "reparador": 6,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 21,
+        "reparador": 7,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 21,
+        "reparador": 8,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 21,
+        "reparador": 9,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 21,
+        "reparador": 10,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 21,
+        "reparador": 11,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 21,
+        "reparador": 12,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 21,
+        "reparador": 13,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 21,
+        "reparador": 14,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 21,
+        "reparador": 15,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 21,
+        "reparador": 16,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 21,
+        "reparador": 17,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 21,
+        "reparador": 18,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 21,
+        "reparador": 19,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 21,
+        "reparador": 20,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 21,
+        "reparador": 21,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 21,
+        "reparador": 22,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 21,
+        "reparador": 23,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 21,
+        "reparador": 24,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 21,
+        "reparador": 25,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 21,
+        "reparador": 26,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 21,
+        "reparador": 27,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 21,
+        "reparador": 28,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 21,
+        "reparador": 29,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 21,
+        "reparador": 30,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 22,
+        "reparador": 1,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 22,
+        "reparador": 2,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 22,
+        "reparador": 3,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 22,
+        "reparador": 4,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 22,
+        "reparador": 5,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 22,
+        "reparador": 6,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 22,
+        "reparador": 7,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 22,
+        "reparador": 8,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 22,
+        "reparador": 9,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 22,
+        "reparador": 10,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 22,
+        "reparador": 11,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 22,
+        "reparador": 12,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 22,
+        "reparador": 13,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 22,
+        "reparador": 14,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 22,
+        "reparador": 15,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 22,
+        "reparador": 16,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 22,
+        "reparador": 17,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 22,
+        "reparador": 18,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 22,
+        "reparador": 19,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 22,
+        "reparador": 20,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 22,
+        "reparador": 21,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 22,
+        "reparador": 22,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 22,
+        "reparador": 23,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 22,
+        "reparador": 24,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 22,
+        "reparador": 25,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 22,
+        "reparador": 26,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 22,
+        "reparador": 27,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 22,
+        "reparador": 28,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 22,
+        "reparador": 29,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 22,
+        "reparador": 30,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 23,
+        "reparador": 1,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 23,
+        "reparador": 2,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 23,
+        "reparador": 3,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 23,
+        "reparador": 4,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 23,
+        "reparador": 5,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 23,
+        "reparador": 6,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 23,
+        "reparador": 7,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 23,
+        "reparador": 8,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 23,
+        "reparador": 9,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 23,
+        "reparador": 10,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 23,
+        "reparador": 11,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 23,
+        "reparador": 12,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 23,
+        "reparador": 13,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 23,
+        "reparador": 14,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 23,
+        "reparador": 15,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 23,
+        "reparador": 16,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 23,
+        "reparador": 17,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 23,
+        "reparador": 18,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 23,
+        "reparador": 19,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 23,
+        "reparador": 20,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 23,
+        "reparador": 21,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 23,
+        "reparador": 22,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 23,
+        "reparador": 23,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 23,
+        "reparador": 24,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 23,
+        "reparador": 25,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 23,
+        "reparador": 26,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 23,
+        "reparador": 27,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 23,
+        "reparador": 28,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 23,
+        "reparador": 29,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 23,
+        "reparador": 30,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 24,
+        "reparador": 1,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 24,
+        "reparador": 2,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 24,
+        "reparador": 3,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 24,
+        "reparador": 4,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 24,
+        "reparador": 5,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 24,
+        "reparador": 6,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 24,
+        "reparador": 7,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 24,
+        "reparador": 8,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 24,
+        "reparador": 9,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 24,
+        "reparador": 10,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 24,
+        "reparador": 11,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 24,
+        "reparador": 12,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 24,
+        "reparador": 13,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 24,
+        "reparador": 14,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 24,
+        "reparador": 15,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 24,
+        "reparador": 16,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 24,
+        "reparador": 17,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 24,
+        "reparador": 18,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 24,
+        "reparador": 19,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 24,
+        "reparador": 20,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 24,
+        "reparador": 21,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 24,
+        "reparador": 22,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 24,
+        "reparador": 23,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 24,
+        "reparador": 24,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 24,
+        "reparador": 25,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 24,
+        "reparador": 26,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 24,
+        "reparador": 27,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 24,
+        "reparador": 28,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 24,
+        "reparador": 29,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 24,
+        "reparador": 30,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 25,
+        "reparador": 1,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 25,
+        "reparador": 2,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 25,
+        "reparador": 3,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 25,
+        "reparador": 4,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 25,
+        "reparador": 5,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 25,
+        "reparador": 6,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 25,
+        "reparador": 7,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 25,
+        "reparador": 8,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 25,
+        "reparador": 9,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 25,
+        "reparador": 10,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 25,
+        "reparador": 11,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 25,
+        "reparador": 12,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 25,
+        "reparador": 13,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 25,
+        "reparador": 14,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 25,
+        "reparador": 15,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 25,
+        "reparador": 16,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 25,
+        "reparador": 17,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 25,
+        "reparador": 18,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 25,
+        "reparador": 19,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 25,
+        "reparador": 20,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 25,
+        "reparador": 21,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 25,
+        "reparador": 22,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 25,
+        "reparador": 23,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 25,
+        "reparador": 24,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 25,
+        "reparador": 25,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 25,
+        "reparador": 26,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 25,
+        "reparador": 27,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 25,
+        "reparador": 28,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 25,
+        "reparador": 29,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 25,
+        "reparador": 30,
+        "dificuldade": "média"
+      },
+      {
+        "corpo": 26,
+        "reparador": 1,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 26,
+        "reparador": 2,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 26,
+        "reparador": 3,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 26,
+        "reparador": 4,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 26,
+        "reparador": 5,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 26,
+        "reparador": 6,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 26,
+        "reparador": 7,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 26,
+        "reparador": 8,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 26,
+        "reparador": 9,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 26,
+        "reparador": 10,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 26,
+        "reparador": 11,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 26,
+        "reparador": 12,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 26,
+        "reparador": 13,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 26,
+        "reparador": 14,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 26,
+        "reparador": 15,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 26,
+        "reparador": 16,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 26,
+        "reparador": 17,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 26,
+        "reparador": 18,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 26,
+        "reparador": 19,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 26,
+        "reparador": 20,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 26,
+        "reparador": 21,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 26,
+        "reparador": 22,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 26,
+        "reparador": 23,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 26,
+        "reparador": 24,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 26,
+        "reparador": 25,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 26,
+        "reparador": 26,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 26,
+        "reparador": 27,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 26,
+        "reparador": 28,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 26,
+        "reparador": 29,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 26,
+        "reparador": 30,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 27,
+        "reparador": 1,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 27,
+        "reparador": 2,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 27,
+        "reparador": 3,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 27,
+        "reparador": 4,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 27,
+        "reparador": 5,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 27,
+        "reparador": 6,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 27,
+        "reparador": 7,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 27,
+        "reparador": 8,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 27,
+        "reparador": 9,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 27,
+        "reparador": 10,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 27,
+        "reparador": 11,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 27,
+        "reparador": 12,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 27,
+        "reparador": 13,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 27,
+        "reparador": 14,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 27,
+        "reparador": 15,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 27,
+        "reparador": 16,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 27,
+        "reparador": 17,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 27,
+        "reparador": 18,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 27,
+        "reparador": 19,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 27,
+        "reparador": 20,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 27,
+        "reparador": 21,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 27,
+        "reparador": 22,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 27,
+        "reparador": 23,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 27,
+        "reparador": 24,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 27,
+        "reparador": 25,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 27,
+        "reparador": 26,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 27,
+        "reparador": 27,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 27,
+        "reparador": 28,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 27,
+        "reparador": 29,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 27,
+        "reparador": 30,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 28,
+        "reparador": 1,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 28,
+        "reparador": 2,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 28,
+        "reparador": 3,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 28,
+        "reparador": 4,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 28,
+        "reparador": 5,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 28,
+        "reparador": 6,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 28,
+        "reparador": 7,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 28,
+        "reparador": 8,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 28,
+        "reparador": 9,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 28,
+        "reparador": 10,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 28,
+        "reparador": 11,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 28,
+        "reparador": 12,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 28,
+        "reparador": 13,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 28,
+        "reparador": 14,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 28,
+        "reparador": 15,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 28,
+        "reparador": 16,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 28,
+        "reparador": 17,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 28,
+        "reparador": 18,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 28,
+        "reparador": 19,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 28,
+        "reparador": 20,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 28,
+        "reparador": 21,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 28,
+        "reparador": 22,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 28,
+        "reparador": 23,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 28,
+        "reparador": 24,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 28,
+        "reparador": 25,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 28,
+        "reparador": 26,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 28,
+        "reparador": 27,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 28,
+        "reparador": 28,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 28,
+        "reparador": 29,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 28,
+        "reparador": 30,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 29,
+        "reparador": 1,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 29,
+        "reparador": 2,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 29,
+        "reparador": 3,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 29,
+        "reparador": 4,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 29,
+        "reparador": 5,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 29,
+        "reparador": 6,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 29,
+        "reparador": 7,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 29,
+        "reparador": 8,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 29,
+        "reparador": 9,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 29,
+        "reparador": 10,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 29,
+        "reparador": 11,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 29,
+        "reparador": 12,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 29,
+        "reparador": 13,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 29,
+        "reparador": 14,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 29,
+        "reparador": 15,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 29,
+        "reparador": 16,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 29,
+        "reparador": 17,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 29,
+        "reparador": 18,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 29,
+        "reparador": 19,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 29,
+        "reparador": 20,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 29,
+        "reparador": 21,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 29,
+        "reparador": 22,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 29,
+        "reparador": 23,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 29,
+        "reparador": 24,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 29,
+        "reparador": 25,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 29,
+        "reparador": 26,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 29,
+        "reparador": 27,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 29,
+        "reparador": 28,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 29,
+        "reparador": 29,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 29,
+        "reparador": 30,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 30,
+        "reparador": 1,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 30,
+        "reparador": 2,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 30,
+        "reparador": 3,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 30,
+        "reparador": 4,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 30,
+        "reparador": 5,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 30,
+        "reparador": 6,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 30,
+        "reparador": 7,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 30,
+        "reparador": 8,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 30,
+        "reparador": 9,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 30,
+        "reparador": 10,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 30,
+        "reparador": 11,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 30,
+        "reparador": 12,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 30,
+        "reparador": 13,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 30,
+        "reparador": 14,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 30,
+        "reparador": 15,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 30,
+        "reparador": 16,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 30,
+        "reparador": 17,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 30,
+        "reparador": 18,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 30,
+        "reparador": 19,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 30,
+        "reparador": 20,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 30,
+        "reparador": 21,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 30,
+        "reparador": 22,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 30,
+        "reparador": 23,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 30,
+        "reparador": 24,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 30,
+        "reparador": 25,
+        "dificuldade": "impedido"
+      },
+      {
+        "corpo": 30,
+        "reparador": 26,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 30,
+        "reparador": 27,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 30,
+        "reparador": 28,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 30,
+        "reparador": 29,
+        "dificuldade": "difícil"
+      },
+      {
+        "corpo": 30,
+        "reparador": 30,
+        "dificuldade": "difícil"
+      }
+    ]
+  },
+  "palavras_por_pagina": {
+    "inv-campo": 256,
+    "inv-ciclo": 286,
+    "inv-entrada": 272,
+    "inv-troca": 263,
+    "inv-intencao": 273,
+    "inv-comunicacao": 262,
+    "inv-basica": 298,
+    "inv-especial": 258,
+    "inv-energia": 322,
+    "inv-antecipada": 264,
+    "inv-pendentes": 271,
+    "inv-preparar": 281,
+    "inv-gatilhos": 269,
+    "inv-tempo": 280,
+    "inv-restricoes-tempo": 375,
+    "inv-armado": 275,
+    "inv-defesa": 273,
+    "inv-respostas": 303,
+    "inv-talisma": 259,
+    "inv-corpos": 328,
+    "inv-reparo": 355,
+    "inv-liberacao": 334,
+    "inv-maxima": 284,
+    "inv-dominio": 322,
+    "inv-queda": 276,
+    "inv-retorno": 286,
+    "inv-fora": 267,
+    "inv-inconsciente": 252,
+    "inv-manutencao": 258,
+    "inv-morte": 271,
+    "inv-carga": 269
+  },
+  "limites": [
+    "Modelo dirigido das regras de R11; não executa a ficha completa, cenas humanas ou regras de toda habilidade de Caminho.",
+    "Exceção Evocador é parâmetro explícito do modelo; validação textual de gatilhos e custos permanece indispensável.",
+    "Dano em área acumulado e comando no turno de emissão são decisões mecânicas candidatas registradas, não fatos de cânone.",
+    "Vários casos são enumerações do modelo; não equivalem a partidas ou medições empíricas de equilíbrio."
+  ]
+}

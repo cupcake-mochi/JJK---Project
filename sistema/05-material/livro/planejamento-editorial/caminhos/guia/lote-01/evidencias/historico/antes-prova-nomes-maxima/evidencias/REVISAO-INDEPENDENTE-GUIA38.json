@@ -1,0 +1,14 @@
+{
+  "sha256_texto": "d12d9ac37c5d5aa230c3fe7f6bdebdb3ac11a2f074f0017ce71042bd65fcfc68",
+  "revisor": "/root",
+  "independente_do_autor": true,
+  "escopo": "Parágrafo adicionado em GUIA-38 e requisitos circundantes de Ainda Há Tempo. Declaração de revisão recebida por colaboração; não é novo exame integral do lote.",
+  "resultado": "confirmado sem bloqueador no delta",
+  "conferencias": [
+    "Gatilho de redução a zero,preparo anterior e alcance18m preservados.",
+    "Reação+2PE adicionais,consumos e1vezcena preservados.",
+    "Quantidade de dados e atributo preservados.",
+    "Exceção ao limiar restrita a Morrendo,sem retorno após Derrotado."
+  ],
+  "prova": "Não reexportada; aguarda nomenclatura e inspeção da página alterada."
+}

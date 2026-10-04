@@ -1,0 +1,786 @@
+{
+  "ok": true,
+  "sha256_texto": "8ab8f1322ac42fd54c72a45549b1e3df6c64a75399950e2c249919bf8f0cf80c",
+  "casos": [
+    {
+      "caso": "Contrato completo",
+      "obtido": [],
+      "esperado": [],
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "2187 sequências de marcos",
+      "obtido": 2187,
+      "esperado": 2187,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "limite Refino todas sequências",
+      "obtido": 10,
+      "esperado": 10,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "máximo escolhas aptidões",
+      "obtido": 10,
+      "esperado": 10,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "sempre Refino",
+      "obtido": [
+        [
+          6,
+          3,
+          1,
+          1
+        ],
+        [
+          10,
+          5,
+          2,
+          1
+        ],
+        [
+          14,
+          7,
+          3,
+          1
+        ],
+        [
+          18,
+          9,
+          4,
+          1
+        ],
+        [
+          22,
+          10,
+          6,
+          2
+        ],
+        [
+          26,
+          10,
+          8,
+          2
+        ],
+        [
+          30,
+          10,
+          10,
+          2
+        ]
+      ],
+      "esperado": [
+        [
+          6,
+          3,
+          1,
+          1
+        ],
+        [
+          10,
+          5,
+          2,
+          1
+        ],
+        [
+          14,
+          7,
+          3,
+          1
+        ],
+        [
+          18,
+          9,
+          4,
+          1
+        ],
+        [
+          22,
+          10,
+          6,
+          2
+        ],
+        [
+          26,
+          10,
+          8,
+          2
+        ],
+        [
+          30,
+          10,
+          10,
+          2
+        ]
+      ],
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "sem escolha ainda Refino8",
+      "obtido": [
+        8,
+        0,
+        0
+      ],
+      "esperado": [
+        8,
+        0,
+        0
+      ],
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "meio a meio",
+      "obtido": [
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          10,
+          3
+        ],
+        [
+          10,
+          3
+        ]
+      ],
+      "esperado": [
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          10,
+          3
+        ],
+        [
+          10,
+          3
+        ]
+      ],
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Essência0 vs atributo6, maestria4, Defesa20",
+      "obtido": [
+        0.25,
+        0.55
+      ],
+      "esperado": [
+        0.25,
+        0.55
+      ],
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Canalizar R6",
+      "obtido": [
+        3,
+        4
+      ],
+      "esperado": [
+        3,
+        4
+      ],
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Canalizar R10",
+      "obtido": [
+        4,
+        6
+      ],
+      "esperado": [
+        4,
+        6
+      ],
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "arma +Canalizar R6 crítico",
+      "obtido": 18.5,
+      "esperado": 18.5,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Cirúrgico Dex5 R6 normal",
+      "obtido": {
+        "arma_dados": 1,
+        "arma_d": 8,
+        "canal_dados": 3,
+        "extras": 4,
+        "canal_d": 4,
+        "custo_PE": 4
+      },
+      "esperado": {
+        "arma_dados": 1,
+        "arma_d": 8,
+        "canal_dados": 3,
+        "extras": 4,
+        "canal_d": 4,
+        "custo_PE": 4
+      },
+      "passou": true,
+      "fonte": "35 caminhos / Incursor aprovado"
+    },
+    {
+      "caso": "Cirúrgico Dex5 R6 crítico",
+      "obtido": {
+        "arma_dados": 2,
+        "arma_d": 8,
+        "canal_dados": 6,
+        "extras": 8,
+        "canal_d": 4,
+        "custo_PE": 4
+      },
+      "esperado": {
+        "arma_dados": 2,
+        "arma_d": 8,
+        "canal_dados": 6,
+        "extras": 8,
+        "canal_d": 4,
+        "custo_PE": 4
+      },
+      "passou": true,
+      "fonte": "35 caminhos / Incursor aprovado"
+    },
+    {
+      "caso": "proteção R1",
+      "obtido": 1,
+      "esperado": 1,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "raio R1 múltiplo1,5",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "raio R1 arredondado próximo",
+      "obtido": 1.5,
+      "esperado": 1.5,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "proteção R2",
+      "obtido": 1,
+      "esperado": 1,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "raio R2 múltiplo1,5",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "raio R2 arredondado próximo",
+      "obtido": 3.0,
+      "esperado": 3.0,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "proteção R3",
+      "obtido": 2,
+      "esperado": 2,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "raio R3 múltiplo1,5",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "raio R3 arredondado próximo",
+      "obtido": 3.0,
+      "esperado": 3.0,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "proteção R4",
+      "obtido": 2,
+      "esperado": 2,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "raio R4 múltiplo1,5",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "raio R4 arredondado próximo",
+      "obtido": 3.0,
+      "esperado": 3.0,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "proteção R5",
+      "obtido": 2,
+      "esperado": 2,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "raio R5 múltiplo1,5",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "raio R5 arredondado próximo",
+      "obtido": 3.0,
+      "esperado": 3.0,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "proteção R6",
+      "obtido": 3,
+      "esperado": 3,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "raio R6 múltiplo1,5",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "raio R6 arredondado próximo",
+      "obtido": 4.5,
+      "esperado": 4.5,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "proteção R7",
+      "obtido": 3,
+      "esperado": 3,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "raio R7 múltiplo1,5",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "raio R7 arredondado próximo",
+      "obtido": 4.5,
+      "esperado": 4.5,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "proteção R8",
+      "obtido": 3,
+      "esperado": 3,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "raio R8 múltiplo1,5",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "raio R8 arredondado próximo",
+      "obtido": 6.0,
+      "esperado": 6.0,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "proteção R9",
+      "obtido": 4,
+      "esperado": 4,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "raio R9 múltiplo1,5",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "raio R9 arredondado próximo",
+      "obtido": 6.0,
+      "esperado": 6.0,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "proteção R10",
+      "obtido": 4,
+      "esperado": 4,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "raio R10 múltiplo1,5",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "raio R10 arredondado próximo",
+      "obtido": 6.0,
+      "esperado": 6.0,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Kokusen10 básico",
+      "obtido": 0.2,
+      "esperado": 0.2,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Kokusen10 Melhorado",
+      "obtido": 0.36,
+      "esperado": 0.36,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Kokusen10 Constante",
+      "obtido": 0.3,
+      "esperado": 0.3,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Kokusen10 duas",
+      "obtido": 0.51,
+      "esperado": 0.51,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Kokusen limite nunca excede100",
+      "obtido": 1.0,
+      "esperado": 1.0,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Kokusen no dano final21",
+      "obtido": 32,
+      "esperado": 32,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "zero continua zero",
+      "obtido": 0,
+      "esperado": 0,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "DS Ess4 igualdade duas falhas e terceiro",
+      "obtido": [
+        2,
+        2,
+        [
+          "impedido",
+          "impedido",
+          "passa"
+        ]
+      ],
+      "esperado": [
+        2,
+        2,
+        [
+          "impedido",
+          "impedido",
+          "passa"
+        ]
+      ],
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "DS reaberto1 Ess6 não vira3",
+      "obtido": [
+        1,
+        1,
+        [
+          "impedido",
+          "passa"
+        ]
+      ],
+      "esperado": [
+        1,
+        1,
+        [
+          "impedido",
+          "passa"
+        ]
+      ],
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "DS Ess6 igualdade falhas não renovam",
+      "obtido": [
+        3,
+        3,
+        [
+          "impedido",
+          "impedido",
+          "impedido",
+          "passa"
+        ]
+      ],
+      "esperado": [
+        3,
+        3,
+        [
+          "impedido",
+          "impedido",
+          "impedido",
+          "passa"
+        ]
+      ],
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "DS Ess2 menor tudo falha",
+      "obtido": [
+        1,
+        1,
+        [
+          "impedido",
+          "passa"
+        ]
+      ],
+      "esperado": [
+        1,
+        1,
+        [
+          "impedido",
+          "passa"
+        ]
+      ],
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "DS sequências exatas testadas",
+      "obtido": 1792,
+      "esperado": 1792,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "trocar adversário não aumenta capacidade",
+      "obtido": 2,
+      "esperado": 2,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "adversário maisforte reduz capacidade",
+      "obtido": 2,
+      "esperado": 2,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Cesta Ess0 mínimo",
+      "obtido": 1,
+      "esperado": 1,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Cesta Ess4 limiar",
+      "obtido": 2,
+      "esperado": 2,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Pétala igualdade recebe quarto",
+      "obtido": 6,
+      "esperado": 6,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Extensão C5 R9 total",
+      "obtido": 77,
+      "esperado": 77,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Extensão C7 R10 total",
+      "obtido": 117,
+      "esperado": 117,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Extensão R7 neutraliza máximo3",
+      "obtido": 3,
+      "esperado": 3,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Extensão R10 neutraliza máximo4",
+      "obtido": 4,
+      "esperado": 4,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Energia Reversa C4 PE3 média",
+      "obtido": 13.5,
+      "esperado": 13.5,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Circulação C5 teto",
+      "obtido": 7,
+      "esperado": 7,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Circulação C7 teto",
+      "obtido": 10,
+      "esperado": 10,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Regravação INT5 M3 metades separadas",
+      "obtido": 3,
+      "esperado": 3,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Regravação INT5 M4",
+      "obtido": 4,
+      "esperado": 4,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Cura convertida26",
+      "obtido": 39,
+      "esperado": 39,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Cura C3 teto6d8 máximo permitido",
+      "obtido": 6,
+      "esperado": 6,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Barreira R6",
+      "obtido": 30,
+      "esperado": 30,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Cortina R6",
+      "obtido": 240,
+      "esperado": 240,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    },
+    {
+      "caso": "Cortina raio90 é60quadrados",
+      "obtido": 60.0,
+      "esperado": 60.0,
+      "passou": true,
+      "fonte": "APTIDOES-E-REFINO.md"
+    }
+  ],
+  "casos_contextuais": "CASOS.json",
+  "limite": "Casos descritivos lidos não são apresentados como testes executados. Modelos e perturbações executados no script."
+}

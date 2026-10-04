@@ -1,0 +1,112 @@
+{
+  "protecoes": {
+    "Traje 1": {
+      "protecao": "1",
+      "dex": "99",
+      "forca": "0",
+      "volume": "3/10"
+    },
+    "Traje 2": {
+      "protecao": "2",
+      "dex": "99",
+      "forca": "0",
+      "volume": "1"
+    },
+    "Traje 3": {
+      "protecao": "3",
+      "dex": "99",
+      "forca": "3",
+      "volume": "2"
+    },
+    "Revestimento 1": {
+      "protecao": "4",
+      "dex": "0",
+      "forca": "3",
+      "volume": "2"
+    },
+    "Revestimento 2": {
+      "protecao": "5",
+      "dex": "0",
+      "forca": "4",
+      "volume": "3"
+    },
+    "Revestimento 3": {
+      "protecao": "6",
+      "dex": "0",
+      "forca": "6",
+      "volume": "4"
+    },
+    "Broquel": {
+      "protecao": "1",
+      "dex": "5",
+      "forca": "0",
+      "volume": "1/2"
+    },
+    "Médio": {
+      "protecao": "2",
+      "dex": "3",
+      "forca": "3",
+      "volume": "1"
+    },
+    "Torre": {
+      "protecao": "3",
+      "dex": "1",
+      "forca": "5",
+      "volume": "2"
+    }
+  },
+  "comuns": {
+    "Corda": {
+      "preco": "3000",
+      "volume": "1/2"
+    },
+    "Lanterna elétrica": {
+      "preco": "3000",
+      "volume": "1/5"
+    },
+    "Pilhas de reserva": {
+      "preco": "500",
+      "volume": "1/10"
+    },
+    "Algema": {
+      "preco": "3000",
+      "volume": "1/5"
+    },
+    "Pé de cabra": {
+      "preco": "3000",
+      "volume": "1/2"
+    },
+    "Gazuas": {
+      "preco": "3000",
+      "volume": "1/10"
+    },
+    "Kit de escalada": {
+      "preco": "3000",
+      "volume": "1/2"
+    },
+    "Mochila": {
+      "preco": "5000",
+      "volume": "1/5"
+    },
+    "Cantil": {
+      "preco": "1500",
+      "volume": "3/10"
+    },
+    "Ração de viagem": {
+      "preco": "1000",
+      "volume": "1/10"
+    },
+    "Telefone": {
+      "preco": "30000",
+      "volume": "1/10"
+    },
+    "Bateria portátil": {
+      "preco": "3000",
+      "volume": "1/10"
+    },
+    "Ferramentas de ofício": {
+      "preco": "10000",
+      "volume": "1/2"
+    }
+  }
+}

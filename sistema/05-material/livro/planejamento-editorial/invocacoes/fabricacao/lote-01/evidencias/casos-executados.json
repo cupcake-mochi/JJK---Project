@@ -1,0 +1,226 @@
+{
+  "sha256_texto": "61920e6d08f0cae38bf03d2ed27a0e5df06dd9d4f7f780495453bd47fb29847a",
+  "casos": [
+    {
+      "nome": "Primeira falha impede funcionamento",
+      "obtido": "falha",
+      "esperado": "falha",
+      "status": "executado em modelo de contrato"
+    },
+    {
+      "nome": "Falha mantém peça incompleta",
+      "obtido": false,
+      "esperado": false,
+      "status": "executado em modelo de contrato"
+    },
+    {
+      "nome": "Trocar dado sem retrabalho bloqueado",
+      "obtido": "incompleto",
+      "esperado": "incompleto",
+      "status": "executado em modelo de contrato"
+    },
+    {
+      "nome": "Tentativa bloqueada conserva estado",
+      "obtido": {
+        "level": 9,
+        "worked": 16,
+        "needed": 20,
+        "paid": 30000,
+        "due": 36000,
+        "done": false,
+        "life": 0,
+        "maxlife": 47,
+        "active": false,
+        "charge": 0,
+        "owner": null
+      },
+      "esperado": {
+        "level": 9,
+        "worked": 20,
+        "needed": 20,
+        "paid": 36000,
+        "due": 36000,
+        "done": false,
+        "life": 0,
+        "maxlife": 47,
+        "active": false,
+        "charge": 0,
+        "owner": null
+      },
+      "status": "executado em modelo de contrato"
+    },
+    {
+      "nome": "Retrabalho libera novo teste",
+      "obtido": "sucesso",
+      "esperado": "sucesso",
+      "status": "executado em modelo de contrato"
+    },
+    {
+      "nome": "Nova peça cheia e inativa",
+      "obtido": [
+        47,
+        false,
+        0
+      ],
+      "esperado": [
+        47,
+        false,
+        0
+      ],
+      "status": "executado em modelo de contrato"
+    },
+    {
+      "nome": "Concluída não produz cópia por novo dado",
+      "obtido": "ja_concluido",
+      "esperado": "ja_concluido",
+      "status": "executado em modelo de contrato"
+    },
+    {
+      "nome": "Requisito ausente: trained",
+      "obtido": "requisito",
+      "esperado": "requisito",
+      "status": "executado em modelo de contrato"
+    },
+    {
+      "nome": "Requisito ausente: recipe",
+      "obtido": "requisito",
+      "esperado": "requisito",
+      "status": "executado em modelo de contrato"
+    },
+    {
+      "nome": "Requisito ausente: means",
+      "obtido": "requisito",
+      "esperado": "requisito",
+      "status": "executado em modelo de contrato"
+    },
+    {
+      "nome": "Nível13/16 mesmaClasse não remove teto",
+      "obtido": false,
+      "esperado": false,
+      "status": "executado em modelo de contrato"
+    },
+    {
+      "nome": "Responsável alto não ignora nível do dono",
+      "obtido": false,
+      "esperado": false,
+      "status": "executado em modelo de contrato"
+    },
+    {
+      "nome": "Fornecer a outro personagem possível",
+      "obtido": true,
+      "esperado": true,
+      "status": "executado em modelo de contrato"
+    },
+    {
+      "nome": "Herança permitida",
+      "obtido": "sucesso",
+      "esperado": "sucesso",
+      "status": "executado em modelo de contrato"
+    },
+    {
+      "nome": "Transferência preserva level",
+      "obtido": 9,
+      "esperado": 9,
+      "status": "executado em modelo de contrato"
+    },
+    {
+      "nome": "Transferência preserva life",
+      "obtido": 8,
+      "esperado": 8,
+      "status": "executado em modelo de contrato"
+    },
+    {
+      "nome": "Transferência preserva charge",
+      "obtido": 1,
+      "esperado": 1,
+      "status": "executado em modelo de contrato"
+    },
+    {
+      "nome": "Transferência preserva uses",
+      "obtido": 2,
+      "esperado": 2,
+      "status": "executado em modelo de contrato"
+    },
+    {
+      "nome": "Transferência preserva fallen",
+      "obtido": false,
+      "esperado": false,
+      "status": "executado em modelo de contrato"
+    },
+    {
+      "nome": "Vínculo singular",
+      "obtido": "Rina",
+      "esperado": "Rina",
+      "status": "executado em modelo de contrato"
+    },
+    {
+      "nome": "Furto",
+      "obtido": "recusado",
+      "esperado": "recusado",
+      "status": "executado em modelo de contrato"
+    },
+    {
+      "nome": "Objeto distante",
+      "obtido": "recusado",
+      "esperado": "recusado",
+      "status": "executado em modelo de contrato"
+    },
+    {
+      "nome": "Em combate",
+      "obtido": "recusado",
+      "esperado": "recusado",
+      "status": "executado em modelo de contrato"
+    },
+    {
+      "nome": "Novo dono insuficiente",
+      "obtido": "recusado",
+      "esperado": "recusado",
+      "status": "executado em modelo de contrato"
+    },
+    {
+      "nome": "Falha de transferência não desfaz vínculo",
+      "obtido": {
+        "level": 9,
+        "owner": "Morto",
+        "destroyed": false,
+        "active": false,
+        "life": 8,
+        "charge": 1,
+        "uses": 2,
+        "fallen": false,
+        "maxlife": 47
+      },
+      "esperado": {
+        "level": 9,
+        "owner": "Morto",
+        "destroyed": false,
+        "active": false,
+        "life": 8,
+        "charge": 1,
+        "uses": 2,
+        "fallen": false,
+        "maxlife": 47
+      },
+      "status": "executado em modelo de contrato"
+    },
+    {
+      "nome": "Herança não religa Desligada",
+      "obtido": [
+        0,
+        true
+      ],
+      "esperado": [
+        0,
+        true
+      ],
+      "status": "executado em modelo de contrato"
+    },
+    {
+      "nome": "Destruída não transfere",
+      "obtido": "recusado",
+      "esperado": "recusado",
+      "status": "executado em modelo de contrato"
+    }
+  ],
+  "limites": "Modelos de contrato dirigidos à candidata. Não executam um motor do sistema nem partidas. Outros campos não modelados dependem de leitura/contexto."
+}

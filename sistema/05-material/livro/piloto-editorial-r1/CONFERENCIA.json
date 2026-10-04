@@ -1,0 +1,194 @@
+{
+  "base": "v0.331",
+  "entrega": "piloto editorial 1",
+  "estado": "proposta revisada pelo próprio autor",
+  "fontes_preservadas": {
+    "fontes": 22,
+    "artefatos_publicados": 5
+  },
+  "pdfs": [
+    {
+      "arquivo": "output/pdf/Projeto-M-Piloto-Editorial-01.pdf",
+      "sha256": "db652d6e6e04a4781f34726336f5e068df667dd73d8010fda71923b57511d953",
+      "paginas": 10,
+      "marcadores": [
+        {
+          "titulo": "A porta ainda está fechada",
+          "pagina": 1
+        },
+        {
+          "titulo": "O mundo que você vai jogar",
+          "pagina": 2
+        },
+        {
+          "titulo": "Da conversa à rolagem",
+          "pagina": 3
+        },
+        {
+          "titulo": "Kaori, antes de entrar",
+          "pagina": 4
+        },
+        {
+          "titulo": "Uma rodada na ala oeste",
+          "pagina": 5
+        },
+        {
+          "titulo": "Quem vai entrar com você?",
+          "pagina": 6
+        },
+        {
+          "titulo": "Da ideia à ficha",
+          "pagina": 7
+        },
+        {
+          "titulo": "Proteção do Bastião",
+          "pagina": 8
+        },
+        {
+          "titulo": "O ataque contra um aliado",
+          "pagina": 9
+        },
+        {
+          "titulo": "Continue por aqui",
+          "pagina": 10
+        }
+      ],
+      "links_internos": 10,
+      "caixas_texto_fora_da_pagina": 0,
+      "paginas_inspecionadas_visualmente": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "arquivo": "output/pdf/Projeto-M-Prova-Protecao-1e2-colunas.pdf",
+      "sha256": "0c79163314f58dca8ccc5ea6743a6408e966bce4188548cfd0a809c924f191fc",
+      "paginas": 2,
+      "marcadores": [
+        {
+          "titulo": "Proteção: uma coluna",
+          "pagina": 1
+        },
+        {
+          "titulo": "Proteção: duas colunas",
+          "pagina": 2
+        }
+      ],
+      "links_internos": 0,
+      "caixas_texto_fora_da_pagina": 0,
+      "paginas_inspecionadas_visualmente": [
+        1,
+        2
+      ]
+    }
+  ],
+  "comparacao_colunas_mesmo_texto": true,
+  "contas_explicitas_extraidas": [
+    {
+      "expressao": "11 + 2",
+      "resultado": 13
+    },
+    {
+      "expressao": "16 + 3",
+      "resultado": 19
+    },
+    {
+      "expressao": "14+ 3",
+      "resultado": 17
+    },
+    {
+      "expressao": "23 − 5",
+      "resultado": 18
+    },
+    {
+      "expressao": "12+ 4",
+      "resultado": 16
+    },
+    {
+      "expressao": "3 + 2 + 2 + 1 + 1",
+      "resultado": 9
+    },
+    {
+      "expressao": "11+ 3",
+      "resultado": 14
+    },
+    {
+      "expressao": "4+ 2",
+      "resultado": 6
+    },
+    {
+      "expressao": "7 + 6 + 2",
+      "resultado": 15
+    }
+  ],
+  "estados_finais": {
+    "combate": {
+      "vida": 18,
+      "PE": 5
+    },
+    "protecao_defesa": {
+      "vida": 15,
+      "PE": 5,
+      "reacao": "gasta"
+    },
+    "protecao_bloquear": {
+      "vida": 18,
+      "PE": 5,
+      "reacao": "gasta"
+    }
+  },
+  "links_documentais": 8,
+  "imagens_geradas_por_IA_incorporadas": false,
+  "grafico": "diagrama vetorial de posições, SVG",
+  "conferencia_semantica": "Cotejo do próprio autor: momento, ação, custo, alcance, duração, frequência, alvo, recursos e extremos defensivos. Registro em RELATORIO.md.",
+  "leitura_independente": "não realizada nesta entrega",
+  "teste_humano": "não realizado",
+  "acessibilidade": "sem certificação ou teste de leitor de tela",
+  "bateria_mecanica_integral": "não executada; proposta editorial sem mudança de regra ou de arquivos publicados",
+  "fontes_consultadas": [
+    {
+      "arquivo": "sistema/05-material/livro/manual/08-inicio-rapido.md",
+      "sha256": "9a348b4f1eb4bb876c1b6c2ca0db7dde823debcd7cb799d1dda3feb88bea00e6"
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/10-como-jogar.md",
+      "sha256": "12296c9fca2d0033ca0f2116991c5f4ea2fd57ff3cc7e7fc28845923e076c4f5"
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/11-o-turno.md",
+      "sha256": "de552097688d2aefe2f7286f0e3f542ec912cff02cf51a7bf20a1e2d33f2b644"
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/15-dano-e-condicoes.md",
+      "sha256": "ff5bc2d0b953cda1c70f57a345d1946b789541236a6971cc5f4bac3862831cfb"
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/20-criacao-de-personagem.md",
+      "sha256": "bae6e4333d9e13add07696ee6feb383e7a48b6ac34d66887339d87fe826db698"
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/25-origens.md",
+      "sha256": "dac3ae94462e81858c3d7758b938dd5de71870175f811ed1c3b8f341018ac59e"
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/40-fundamento.md",
+      "sha256": "8ec6cd54f8fbb0cc7e98874a5242890a3b3392a792ec1cdef959abcec4b70d96"
+    },
+    {
+      "arquivo": "sistema/03-mecanica/04-pericias-e-testes.md",
+      "sha256": "ffd42fb10621e4c73a0130306a1561b38c4f44973860fc46cc9b6a3e7587918c"
+    },
+    {
+      "arquivo": "caminhos/05-Edicao-Integrada/01-Bastião-Caminho-e-Trilhas.md",
+      "sha256": "330d1420415d7e36bdb35e46ad9a3c0a9d26769556833f7b2c9883886168b19c"
+    }
+  ]
+}

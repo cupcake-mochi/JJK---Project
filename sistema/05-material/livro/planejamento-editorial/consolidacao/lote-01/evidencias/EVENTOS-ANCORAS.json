@@ -1,0 +1,2682 @@
+[
+  {
+    "ancora": "parte-1",
+    "pagina": 3,
+    "y": 776.36
+  },
+  {
+    "ancora": "capitulo-1",
+    "pagina": 3,
+    "y": 756.36
+  },
+  {
+    "ancora": "ab--ab-apresentacao",
+    "pagina": 3,
+    "y": 756.36
+  },
+  {
+    "ancora": "ab--ab-primeira-sessao",
+    "pagina": 3,
+    "y": 201.56
+  },
+  {
+    "ancora": "ab--ab-mundo",
+    "pagina": 4,
+    "y": 457.76
+  },
+  {
+    "ancora": "ab--ab-sociedade",
+    "pagina": 5,
+    "y": 653.56
+  },
+  {
+    "ancora": "capitulo-2",
+    "pagina": 6,
+    "y": 776.36
+  },
+  {
+    "ancora": "geral--atributos",
+    "pagina": 6,
+    "y": 731.36
+  },
+  {
+    "ancora": "geral--testes",
+    "pagina": 7,
+    "y": 776.36
+  },
+  {
+    "ancora": "geral--pericias",
+    "pagina": 8,
+    "y": 776.36
+  },
+  {
+    "ancora": "geral--resistencia",
+    "pagina": 8,
+    "y": 182.76
+  },
+  {
+    "ancora": "geral--turnos",
+    "pagina": 9,
+    "y": 206.16
+  },
+  {
+    "ancora": "geral--acoes",
+    "pagina": 10,
+    "y": 265.56
+  },
+  {
+    "ancora": "geral--ajudar",
+    "pagina": 11,
+    "y": 330.56
+  },
+  {
+    "ancora": "geral--interacao",
+    "pagina": 12,
+    "y": 571.96
+  },
+  {
+    "ancora": "geral--preparar",
+    "pagina": 13,
+    "y": 776.36
+  },
+  {
+    "ancora": "geral--oportunidade",
+    "pagina": 13,
+    "y": 176.76
+  },
+  {
+    "ancora": "geral--concentracao",
+    "pagina": 14,
+    "y": 392.36
+  },
+  {
+    "ancora": "geral--ataques",
+    "pagina": 15,
+    "y": 555.76
+  },
+  {
+    "ancora": "geral--alcance",
+    "pagina": 16,
+    "y": 589.56
+  },
+  {
+    "ancora": "geral--critico",
+    "pagina": 17,
+    "y": 653.56
+  },
+  {
+    "ancora": "geral--defesa",
+    "pagina": 18,
+    "y": 707.36
+  },
+  {
+    "ancora": "geral--bloquear",
+    "pagina": 19,
+    "y": 701.36
+  },
+  {
+    "ancora": "geral--aparar",
+    "pagina": 20,
+    "y": 776.36
+  },
+  {
+    "ancora": "geral--movimento",
+    "pagina": 20,
+    "y": 163.76
+  },
+  {
+    "ancora": "geral--espacos",
+    "pagina": 21,
+    "y": 212.36
+  },
+  {
+    "ancora": "geral--distancias",
+    "pagina": 22,
+    "y": 349.56
+  },
+  {
+    "ancora": "geral--saltos",
+    "pagina": 23,
+    "y": 583.56
+  },
+  {
+    "ancora": "geral--quedas",
+    "pagina": 24,
+    "y": 557.96
+  },
+  {
+    "ancora": "geral--queda-criatura",
+    "pagina": 25,
+    "y": 591.76
+  },
+  {
+    "ancora": "geral--rastejar",
+    "pagina": 25,
+    "y": 185.76
+  },
+  {
+    "ancora": "geral--voo",
+    "pagina": 26,
+    "y": 271.36
+  },
+  {
+    "ancora": "geral--carga",
+    "pagina": 27,
+    "y": 387.96
+  },
+  {
+    "ancora": "geral--arrasto",
+    "pagina": 28,
+    "y": 463.96
+  },
+  {
+    "ancora": "geral--montaria",
+    "pagina": 29,
+    "y": 721.36
+  },
+  {
+    "ancora": "geral--perceber",
+    "pagina": 29,
+    "y": 259.36
+  },
+  {
+    "ancora": "geral--esconder",
+    "pagina": 30,
+    "y": 353.56
+  },
+  {
+    "ancora": "geral--procurar",
+    "pagina": 31,
+    "y": 432.16
+  },
+  {
+    "ancora": "geral--ocultacao-ataque",
+    "pagina": 32,
+    "y": 571.76
+  },
+  {
+    "ancora": "geral--manobras",
+    "pagina": 33,
+    "y": 659.56
+  },
+  {
+    "ancora": "geral--contencoes",
+    "pagina": 34,
+    "y": 776.36
+  },
+  {
+    "ancora": "geral--estudar",
+    "pagina": 34,
+    "y": 353.96
+  },
+  {
+    "ancora": "geral--mundo",
+    "pagina": 35,
+    "y": 404.16
+  },
+  {
+    "ancora": "geral--buscar",
+    "pagina": 36,
+    "y": 653.56
+  },
+  {
+    "ancora": "geral--pressao",
+    "pagina": 37,
+    "y": 776.36
+  },
+  {
+    "ancora": "geral--ler",
+    "pagina": 37,
+    "y": 236.16
+  },
+  {
+    "ancora": "geral--energia-exemplo",
+    "pagina": 39,
+    "y": 776.36
+  },
+  {
+    "ancora": "capitulo-3",
+    "pagina": 40,
+    "y": 776.36
+  },
+  {
+    "ancora": "dano--dano",
+    "pagina": 40,
+    "y": 731.36
+  },
+  {
+    "ancora": "dano--tipos",
+    "pagina": 41,
+    "y": 776.36
+  },
+  {
+    "ancora": "dano--reducao",
+    "pagina": 42,
+    "y": 776.36
+  },
+  {
+    "ancora": "dano--alma",
+    "pagina": 42,
+    "y": 465.96
+  },
+  {
+    "ancora": "dano--integridade",
+    "pagina": 42,
+    "y": 125.76
+  },
+  {
+    "ancora": "dano--condicoes",
+    "pagina": 43,
+    "y": 344.56
+  },
+  {
+    "ancora": "dano--leves",
+    "pagina": 44,
+    "y": 341.56
+  },
+  {
+    "ancora": "dano--medias",
+    "pagina": 45,
+    "y": 354.96
+  },
+  {
+    "ancora": "dano--pesadas",
+    "pagina": 46,
+    "y": 468.16
+  },
+  {
+    "ancora": "dano--cura",
+    "pagina": 47,
+    "y": 479.76
+  },
+  {
+    "ancora": "dano--temporarios",
+    "pagina": 48,
+    "y": 776.36
+  },
+  {
+    "ancora": "dano--zero",
+    "pagina": 48,
+    "y": 285.56
+  },
+  {
+    "ancora": "dano--insistir",
+    "pagina": 49,
+    "y": 426.36
+  },
+  {
+    "ancora": "dano--socorro",
+    "pagina": 50,
+    "y": 606.76
+  },
+  {
+    "ancora": "dano--sequelas",
+    "pagina": 51,
+    "y": 721.36
+  },
+  {
+    "ancora": "dano--derrota",
+    "pagina": 51,
+    "y": 295.96
+  },
+  {
+    "ancora": "dano--inconsciente",
+    "pagina": 52,
+    "y": 482.16
+  },
+  {
+    "ancora": "dano--descansos",
+    "pagina": 52,
+    "y": 213.76
+  },
+  {
+    "ancora": "dano--exaustao",
+    "pagina": 53,
+    "y": 201.36
+  },
+  {
+    "ancora": "dano--usos",
+    "pagina": 54,
+    "y": 266.96
+  },
+  {
+    "ancora": "parte-2",
+    "pagina": 56,
+    "y": 776.36
+  },
+  {
+    "ancora": "capitulo-4",
+    "pagina": 56,
+    "y": 756.36
+  },
+  {
+    "ancora": "ab--ab-criacao",
+    "pagina": 56,
+    "y": 756.36
+  },
+  {
+    "ancora": "ab--ab-origem",
+    "pagina": 56,
+    "y": 254.56
+  },
+  {
+    "ancora": "ab--ab-caminho",
+    "pagina": 57,
+    "y": 495.16
+  },
+  {
+    "ancora": "ab--ab-capacidades",
+    "pagina": 58,
+    "y": 721.36
+  },
+  {
+    "ancora": "ab--ab-equipamento",
+    "pagina": 58,
+    "y": 196.56
+  },
+  {
+    "ancora": "ab--ab-kaori",
+    "pagina": 59,
+    "y": 398.16
+  },
+  {
+    "ancora": "ab--ab-resgate",
+    "pagina": 60,
+    "y": 501.96
+  },
+  {
+    "ancora": "ab--ab-combate",
+    "pagina": 61,
+    "y": 721.36
+  },
+  {
+    "ancora": "ab--ab-conferencia",
+    "pagina": 61,
+    "y": 271.16
+  },
+  {
+    "ancora": "capitulo-5",
+    "pagina": 63,
+    "y": 776.36
+  },
+  {
+    "ancora": "origens--origens",
+    "pagina": 63,
+    "y": 731.36
+  },
+  {
+    "ancora": "origens--origem-escolhas",
+    "pagina": 63,
+    "y": 294.56
+  },
+  {
+    "ancora": "origens--legados",
+    "pagina": 64,
+    "y": 533.56
+  },
+  {
+    "ancora": "origens--origem-latente",
+    "pagina": 65,
+    "y": 776.36
+  },
+  {
+    "ancora": "origens--latente-beneficios",
+    "pagina": 65,
+    "y": 399.36
+  },
+  {
+    "ancora": "origens--origem-receptaculo",
+    "pagina": 66,
+    "y": 708.36
+  },
+  {
+    "ancora": "origens--receptaculo-acordos",
+    "pagina": 66,
+    "y": 317.36
+  },
+  {
+    "ancora": "origens--receptaculo-excecoes",
+    "pagina": 67,
+    "y": 625.76
+  },
+  {
+    "ancora": "origens--origem-descendente",
+    "pagina": 67,
+    "y": 268.56
+  },
+  {
+    "ancora": "origens--descendente-beneficios",
+    "pagina": 68,
+    "y": 510.16
+  },
+  {
+    "ancora": "origens--origem-encarnado",
+    "pagina": 69,
+    "y": 776.36
+  },
+  {
+    "ancora": "origens--encarnado-beneficios",
+    "pagina": 69,
+    "y": 412.36
+  },
+  {
+    "ancora": "origens--origem-feto",
+    "pagina": 70,
+    "y": 708.36
+  },
+  {
+    "ancora": "origens--feto-beneficios",
+    "pagina": 70,
+    "y": 234.76
+  },
+  {
+    "ancora": "origens--origem-sem-tecnica",
+    "pagina": 71,
+    "y": 513.76
+  },
+  {
+    "ancora": "origens--origem-corpo",
+    "pagina": 72,
+    "y": 776.36
+  },
+  {
+    "ancora": "origens--origem-reparo",
+    "pagina": 72,
+    "y": 376.16
+  },
+  {
+    "ancora": "origens--corpo-configuracoes",
+    "pagina": 73,
+    "y": 626.76
+  },
+  {
+    "ancora": "origens--corpo-ninhada-gemeos",
+    "pagina": 73,
+    "y": 249.76
+  },
+  {
+    "ancora": "origens--corpo-inteiro-manutencao",
+    "pagina": 74,
+    "y": 586.96
+  },
+  {
+    "ancora": "origens--origem-restricao",
+    "pagina": 74,
+    "y": 144.96
+  },
+  {
+    "ancora": "origens--restricao-corpo",
+    "pagina": 75,
+    "y": 448.36
+  },
+  {
+    "ancora": "origens--restricao-sem-energia",
+    "pagina": 76,
+    "y": 749.36
+  },
+  {
+    "ancora": "origens--restricao-beneficios",
+    "pagina": 76,
+    "y": 400.36
+  },
+  {
+    "ancora": "origens--legado-criar",
+    "pagina": 77,
+    "y": 646.56
+  },
+  {
+    "ancora": "origens--legados-exemplos",
+    "pagina": 77,
+    "y": 196.16
+  },
+  {
+    "ancora": "capitulo-6",
+    "pagina": 79,
+    "y": 776.36
+  },
+  {
+    "ancora": "bastiao--bas-bastiao",
+    "pagina": 79,
+    "y": 731.36
+  },
+  {
+    "ancora": "bastiao--bas-olhos",
+    "pagina": 79,
+    "y": 146.16
+  },
+  {
+    "ancora": "bastiao--bas-defesa",
+    "pagina": 80,
+    "y": 423.96
+  },
+  {
+    "ancora": "bastiao--bas-aliados",
+    "pagina": 81,
+    "y": 667.56
+  },
+  {
+    "ancora": "bastiao--bas-muro",
+    "pagina": 81,
+    "y": 173.36
+  },
+  {
+    "ancora": "bastiao--bas-casca",
+    "pagina": 82,
+    "y": 357.76
+  },
+  {
+    "ancora": "bastiao--bas-punho",
+    "pagina": 83,
+    "y": 687.56
+  },
+  {
+    "ancora": "bastiao--bas-mao",
+    "pagina": 83,
+    "y": 286.16
+  },
+  {
+    "ancora": "bastiao--bas-arrastao",
+    "pagina": 84,
+    "y": 569.76
+  },
+  {
+    "ancora": "bastiao--bas-combatente",
+    "pagina": 85,
+    "y": 776.36
+  },
+  {
+    "ancora": "bastiao--bas-oportunista",
+    "pagina": 85,
+    "y": 284.16
+  },
+  {
+    "ancora": "vanguarda--van-base",
+    "pagina": 87,
+    "y": 776.36
+  },
+  {
+    "ancora": "vanguarda--van-sequencia",
+    "pagina": 87,
+    "y": 286.56
+  },
+  {
+    "ancora": "vanguarda--van-conducoes",
+    "pagina": 88,
+    "y": 402.96
+  },
+  {
+    "ancora": "vanguarda--van-conclusoes",
+    "pagina": 89,
+    "y": 776.36
+  },
+  {
+    "ancora": "vanguarda--van-escola",
+    "pagina": 89,
+    "y": 389.16
+  },
+  {
+    "ancora": "vanguarda--van-avanco",
+    "pagina": 90,
+    "y": 654.96
+  },
+  {
+    "ancora": "vanguarda--van-estocada",
+    "pagina": 90,
+    "y": 301.56
+  },
+  {
+    "ancora": "vanguarda--van-feiticos",
+    "pagina": 91,
+    "y": 639.76
+  },
+  {
+    "ancora": "vanguarda--van-bote",
+    "pagina": 91,
+    "y": 154.56
+  },
+  {
+    "ancora": "vanguarda--van-yumi",
+    "pagina": 92,
+    "y": 524.36
+  },
+  {
+    "ancora": "vanguarda--van-yumi-conducoes",
+    "pagina": 93,
+    "y": 541.76
+  },
+  {
+    "ancora": "vanguarda--van-yumi-avanco",
+    "pagina": 94,
+    "y": 617.56
+  },
+  {
+    "ancora": "vanguarda--van-besta",
+    "pagina": 94,
+    "y": 147.36
+  },
+  {
+    "ancora": "vanguarda--van-besta-conclusoes",
+    "pagina": 95,
+    "y": 496.36
+  },
+  {
+    "ancora": "vanguarda--van-besta-avanco",
+    "pagina": 95,
+    "y": 204.76
+  },
+  {
+    "ancora": "vanguarda--van-fogo",
+    "pagina": 96,
+    "y": 578.96
+  },
+  {
+    "ancora": "vanguarda--van-fogo-conclusoes",
+    "pagina": 96,
+    "y": 178.76
+  },
+  {
+    "ancora": "vanguarda--van-fogo-avanco",
+    "pagina": 97,
+    "y": 524.36
+  },
+  {
+    "ancora": "vanguarda--van-executor",
+    "pagina": 98,
+    "y": 708.36
+  },
+  {
+    "ancora": "vanguarda--van-executor-avanco",
+    "pagina": 99,
+    "y": 701.56
+  },
+  {
+    "ancora": "guia--guia",
+    "pagina": 100,
+    "y": 776.36
+  },
+  {
+    "ancora": "guia--guia-progressao",
+    "pagina": 100,
+    "y": 343.96
+  },
+  {
+    "ancora": "guia--guia-aberturas",
+    "pagina": 101,
+    "y": 639.76
+  },
+  {
+    "ancora": "guia--guia-resposta",
+    "pagina": 101,
+    "y": 197.76
+  },
+  {
+    "ancora": "guia--guia-planos",
+    "pagina": 102,
+    "y": 393.76
+  },
+  {
+    "ancora": "guia--guia-plano-conjunto",
+    "pagina": 103,
+    "y": 619.96
+  },
+  {
+    "ancora": "guia--guia-arquiteto",
+    "pagina": 103,
+    "y": 132.16
+  },
+  {
+    "ancora": "guia--guia-modelos",
+    "pagina": 104,
+    "y": 479.96
+  },
+  {
+    "ancora": "guia--guia-obra-uso",
+    "pagina": 105,
+    "y": 735.36
+  },
+  {
+    "ancora": "guia--guia-obras-maiores",
+    "pagina": 105,
+    "y": 536.96
+  },
+  {
+    "ancora": "guia--guia-emergencia",
+    "pagina": 105,
+    "y": 173.56
+  },
+  {
+    "ancora": "guia--guia-analista",
+    "pagina": 106,
+    "y": 454.36
+  },
+  {
+    "ancora": "guia--guia-brecha",
+    "pagina": 107,
+    "y": 673.56
+  },
+  {
+    "ancora": "guia--guia-padrao",
+    "pagina": 107,
+    "y": 283.96
+  },
+  {
+    "ancora": "guia--guia-socorrista",
+    "pagina": 108,
+    "y": 721.36
+  },
+  {
+    "ancora": "guia--guia-tratamento",
+    "pagina": 108,
+    "y": 227.96
+  },
+  {
+    "ancora": "guia--guia-emergencia-cuidado",
+    "pagina": 110,
+    "y": 776.36
+  },
+  {
+    "ancora": "emanador--ema-base",
+    "pagina": 111,
+    "y": 776.36
+  },
+  {
+    "ancora": "emanador--ema-desdobramento",
+    "pagina": 111,
+    "y": 193.36
+  },
+  {
+    "ancora": "emanador--ema-remodelar",
+    "pagina": 112,
+    "y": 473.76
+  },
+  {
+    "ancora": "emanador--ema-modulacoes",
+    "pagina": 113,
+    "y": 776.36
+  },
+  {
+    "ancora": "emanador--ema-familiares",
+    "pagina": 113,
+    "y": 218.16
+  },
+  {
+    "ancora": "emanador--ema-forma",
+    "pagina": 114,
+    "y": 531.36
+  },
+  {
+    "ancora": "emanador--ema-instintiva",
+    "pagina": 115,
+    "y": 776.36
+  },
+  {
+    "ancora": "emanador--ema-condutor",
+    "pagina": 115,
+    "y": 260.76
+  },
+  {
+    "ancora": "emanador--ema-artes",
+    "pagina": 116,
+    "y": 455.56
+  },
+  {
+    "ancora": "emanador--ema-propriedades",
+    "pagina": 117,
+    "y": 776.36
+  },
+  {
+    "ancora": "emanador--ema-propriedades-apoio",
+    "pagina": 117,
+    "y": 326.16
+  },
+  {
+    "ancora": "emanador--ema-manifestacao",
+    "pagina": 118,
+    "y": 563.76
+  },
+  {
+    "ancora": "emanador--ema-eco",
+    "pagina": 118,
+    "y": 142.96
+  },
+  {
+    "ancora": "emanador--ema-repetir",
+    "pagina": 119,
+    "y": 429.96
+  },
+  {
+    "ancora": "emanador--ema-contraponto",
+    "pagina": 120,
+    "y": 721.36
+  },
+  {
+    "ancora": "emanador--ema-acorde",
+    "pagina": 120,
+    "y": 301.56
+  },
+  {
+    "ancora": "emanador--ema-impulso",
+    "pagina": 121,
+    "y": 623.56
+  },
+  {
+    "ancora": "emanador--ema-correcao",
+    "pagina": 121,
+    "y": 181.56
+  },
+  {
+    "ancora": "emanador--ema-fluxo",
+    "pagina": 123,
+    "y": 776.36
+  },
+  {
+    "ancora": "evocador--evocador",
+    "pagina": 124,
+    "y": 776.36
+  },
+  {
+    "ancora": "evocador--ev-vinculo",
+    "pagina": 124,
+    "y": 202.56
+  },
+  {
+    "ancora": "evocador--ev-usos",
+    "pagina": 125,
+    "y": 426.36
+  },
+  {
+    "ancora": "evocador--ev-aprimoramentos",
+    "pagina": 126,
+    "y": 721.36
+  },
+  {
+    "ancora": "evocador--ev-intervencoes",
+    "pagina": 126,
+    "y": 267.76
+  },
+  {
+    "ancora": "evocador--ev-posicao",
+    "pagina": 127,
+    "y": 510.36
+  },
+  {
+    "ancora": "evocador--ev-preparacao",
+    "pagina": 127,
+    "y": 140.76
+  },
+  {
+    "ancora": "evocador--ev-complementar",
+    "pagina": 128,
+    "y": 434.56
+  },
+  {
+    "ancora": "evocador--ev-combinar",
+    "pagina": 129,
+    "y": 673.56
+  },
+  {
+    "ancora": "evocador--ev-combinada",
+    "pagina": 129,
+    "y": 161.76
+  },
+  {
+    "ancora": "evocador--ev-principal",
+    "pagina": 130,
+    "y": 393.96
+  },
+  {
+    "ancora": "evocador--ev-principal-especial",
+    "pagina": 131,
+    "y": 502.16
+  },
+  {
+    "ancora": "evocador--ev-principal-troca",
+    "pagina": 132,
+    "y": 776.36
+  },
+  {
+    "ancora": "evocador--ev-principal-protecao",
+    "pagina": 132,
+    "y": 374.16
+  },
+  {
+    "ancora": "evocador--ev-principal-continuidade",
+    "pagina": 133,
+    "y": 382.36
+  },
+  {
+    "ancora": "evocador--ev-principal-reflexa",
+    "pagina": 134,
+    "y": 525.36
+  },
+  {
+    "ancora": "evocador--ev-parceria",
+    "pagina": 135,
+    "y": 631.36
+  },
+  {
+    "ancora": "evocador--ev-parceria-aprimoramentos",
+    "pagina": 135,
+    "y": 126.76
+  },
+  {
+    "ancora": "evocador--ev-parceria-complementar",
+    "pagina": 136,
+    "y": 221.16
+  },
+  {
+    "ancora": "evocador--ev-parceria-intervencoes",
+    "pagina": 137,
+    "y": 501.36
+  },
+  {
+    "ancora": "evocador--ev-parceria-cobrir",
+    "pagina": 138,
+    "y": 701.56
+  },
+  {
+    "ancora": "evocador--ev-parceria-tecnicas",
+    "pagina": 138,
+    "y": 349.76
+  },
+  {
+    "ancora": "evocador--ev-parceria-resposta",
+    "pagina": 139,
+    "y": 632.96
+  },
+  {
+    "ancora": "evocador--ev-multiplas",
+    "pagina": 140,
+    "y": 721.36
+  },
+  {
+    "ancora": "evocador--ev-multiplas-entrada",
+    "pagina": 141,
+    "y": 776.36
+  },
+  {
+    "ancora": "evocador--ev-multiplas-duplas",
+    "pagina": 141,
+    "y": 360.16
+  },
+  {
+    "ancora": "evocador--ev-multiplas-protecao",
+    "pagina": 142,
+    "y": 707.36
+  },
+  {
+    "ancora": "evocador--ev-multiplas-conduzir",
+    "pagina": 142,
+    "y": 250.16
+  },
+  {
+    "ancora": "evocador--ev-multiplas-retirada",
+    "pagina": 143,
+    "y": 549.96
+  },
+  {
+    "ancora": "evocador--ev-multiplas-aprimoramentos",
+    "pagina": 143,
+    "y": 241.96
+  },
+  {
+    "ancora": "evocador--ev-multiplas-formacao",
+    "pagina": 144,
+    "y": 432.16
+  },
+  {
+    "ancora": "evocador--ev-multiplas-repertorio",
+    "pagina": 145,
+    "y": 569.56
+  },
+  {
+    "ancora": "evocador--ev-turnos",
+    "pagina": 146,
+    "y": 776.36
+  },
+  {
+    "ancora": "incursor--inc-caminho",
+    "pagina": 147,
+    "y": 776.36
+  },
+  {
+    "ancora": "incursor--inc-movimento",
+    "pagina": 147,
+    "y": 202.56
+  },
+  {
+    "ancora": "incursor--inc-fluidez",
+    "pagina": 148,
+    "y": 507.96
+  },
+  {
+    "ancora": "incursor--inc-respostas",
+    "pagina": 149,
+    "y": 776.36
+  },
+  {
+    "ancora": "incursor--inc-fluidez-avancada",
+    "pagina": 149,
+    "y": 307.16
+  },
+  {
+    "ancora": "incursor--inc-ritmo",
+    "pagina": 150,
+    "y": 577.76
+  },
+  {
+    "ancora": "incursor--inc-assassino",
+    "pagina": 150,
+    "y": 150.16
+  },
+  {
+    "ancora": "incursor--inc-guarda",
+    "pagina": 151,
+    "y": 370.16
+  },
+  {
+    "ancora": "incursor--inc-cirurgico",
+    "pagina": 152,
+    "y": 498.16
+  },
+  {
+    "ancora": "incursor--inc-cortar",
+    "pagina": 153,
+    "y": 669.36
+  },
+  {
+    "ancora": "incursor--inc-parkour",
+    "pagina": 153,
+    "y": 259.96
+  },
+  {
+    "ancora": "incursor--inc-brecha",
+    "pagina": 154,
+    "y": 335.36
+  },
+  {
+    "ancora": "incursor--inc-pugilista",
+    "pagina": 155,
+    "y": 498.76
+  },
+  {
+    "ancora": "incursor--inc-corpo",
+    "pagina": 156,
+    "y": 776.36
+  },
+  {
+    "ancora": "incursor--inc-base",
+    "pagina": 156,
+    "y": 252.96
+  },
+  {
+    "ancora": "incursor--inc-interceptar",
+    "pagina": 157,
+    "y": 465.96
+  },
+  {
+    "ancora": "incursor--inc-projecao",
+    "pagina": 158,
+    "y": 594.16
+  },
+  {
+    "ancora": "incursor--inc-redirecionar",
+    "pagina": 159,
+    "y": 776.36
+  },
+  {
+    "ancora": "incursor--inc-redirecionar-resolucao",
+    "pagina": 159,
+    "y": 287.76
+  },
+  {
+    "ancora": "incursor--inc-malabarista",
+    "pagina": 160,
+    "y": 660.56
+  },
+  {
+    "ancora": "incursor--inc-continuacoes",
+    "pagina": 161,
+    "y": 776.36
+  },
+  {
+    "ancora": "incursor--inc-ricochete",
+    "pagina": 161,
+    "y": 206.76
+  },
+  {
+    "ancora": "incursor--inc-destino",
+    "pagina": 162,
+    "y": 429.36
+  },
+  {
+    "ancora": "incursor--inc-retorno",
+    "pagina": 163,
+    "y": 776.36
+  },
+  {
+    "ancora": "incursor--inc-finta",
+    "pagina": 163,
+    "y": 316.76
+  },
+  {
+    "ancora": "incursor--inc-perfeita",
+    "pagina": 165,
+    "y": 776.36
+  },
+  {
+    "ancora": "capitulo-7",
+    "pagina": 166,
+    "y": 776.36
+  },
+  {
+    "ancora": "pericias--pericias",
+    "pagina": 166,
+    "y": 776.36
+  },
+  {
+    "ancora": "pericias--tarefas",
+    "pagina": 167,
+    "y": 776.36
+  },
+  {
+    "ancora": "pericias--fisicas",
+    "pagina": 168,
+    "y": 776.36
+  },
+  {
+    "ancora": "pericias--conhecimento",
+    "pagina": 168,
+    "y": 126.56
+  },
+  {
+    "ancora": "pericias--ambiente",
+    "pagina": 169,
+    "y": 204.56
+  },
+  {
+    "ancora": "pericias--essencia",
+    "pagina": 170,
+    "y": 218.36
+  },
+  {
+    "ancora": "pericias--oficios",
+    "pagina": 171,
+    "y": 236.16
+  },
+  {
+    "ancora": "pericias--fabricacao",
+    "pagina": 172,
+    "y": 211.36
+  },
+  {
+    "ancora": "pericias--reparos",
+    "pagina": 173,
+    "y": 276.16
+  },
+  {
+    "ancora": "capitulo-8",
+    "pagina": 175,
+    "y": 776.36
+  },
+  {
+    "ancora": "equip--eq-equipamento",
+    "pagina": 175,
+    "y": 776.36
+  },
+  {
+    "ancora": "equip--eq-manipular",
+    "pagina": 175,
+    "y": 185.56
+  },
+  {
+    "ancora": "equip--eq-objetos",
+    "pagina": 176,
+    "y": 370.16
+  },
+  {
+    "ancora": "equip--eq-propriedades",
+    "pagina": 177,
+    "y": 391.36
+  },
+  {
+    "ancora": "equip--eq-oculta",
+    "pagina": 178,
+    "y": 362.96
+  },
+  {
+    "ancora": "equip--eqp-protecao",
+    "pagina": 179,
+    "y": 368.16
+  },
+  {
+    "ancora": "equip--eqp-traje",
+    "pagina": 180,
+    "y": 478.96
+  },
+  {
+    "ancora": "equip--eqp-escudo",
+    "pagina": 181,
+    "y": 521.76
+  },
+  {
+    "ancora": "equip--eqp-vestir",
+    "pagina": 182,
+    "y": 653.56
+  },
+  {
+    "ancora": "equip--eqm-municao",
+    "pagina": 183,
+    "y": 673.56
+  },
+  {
+    "ancora": "equip--eqm-recarga",
+    "pagina": 184,
+    "y": 776.36
+  },
+  {
+    "ancora": "equip--eqm-reserva",
+    "pagina": 184,
+    "y": 171.96
+  },
+  {
+    "ancora": "equip--eqa-armas",
+    "pagina": 185,
+    "y": 176.56
+  },
+  {
+    "ancora": "equip--eqa-laminas",
+    "pagina": 186,
+    "y": 234.96
+  },
+  {
+    "ancora": "equip--eqa-impacto",
+    "pagina": 187,
+    "y": 417.56
+  },
+  {
+    "ancora": "equip--eqa-hastes",
+    "pagina": 188,
+    "y": 470.96
+  },
+  {
+    "ancora": "equip--eqa-flexiveis",
+    "pagina": 189,
+    "y": 680.16
+  },
+  {
+    "ancora": "equip--eqa-tiro",
+    "pagina": 189,
+    "y": 250.36
+  },
+  {
+    "ancora": "equip--eqi-itens",
+    "pagina": 190,
+    "y": 322.36
+  },
+  {
+    "ancora": "equip--eqi-exploracao",
+    "pagina": 191,
+    "y": 237.56
+  },
+  {
+    "ancora": "equip--eqi-fechaduras",
+    "pagina": 192,
+    "y": 325.96
+  },
+  {
+    "ancora": "equip--eqi-objetos",
+    "pagina": 193,
+    "y": 302.36
+  },
+  {
+    "ancora": "equip--eqi-efeitos",
+    "pagina": 194,
+    "y": 455.76
+  },
+  {
+    "ancora": "equip--eqi-improvisadas",
+    "pagina": 194,
+    "y": 165.16
+  },
+  {
+    "ancora": "equip--eqc-dinheiro",
+    "pagina": 195,
+    "y": 294.36
+  },
+  {
+    "ancora": "equip--eqc-precos",
+    "pagina": 196,
+    "y": 400.56
+  },
+  {
+    "ancora": "equip--eqc-inicial",
+    "pagina": 197,
+    "y": 553.56
+  },
+  {
+    "ancora": "equip--eqc-compras",
+    "pagina": 198,
+    "y": 674.56
+  },
+  {
+    "ancora": "equip--eqf-equipamento",
+    "pagina": 198,
+    "y": 162.36
+  },
+  {
+    "ancora": "equip--eqf-graus",
+    "pagina": 199,
+    "y": 265.96
+  },
+  {
+    "ancora": "equip--eqf-uso",
+    "pagina": 200,
+    "y": 395.96
+  },
+  {
+    "ancora": "equip--eqf-aquisicao",
+    "pagina": 201,
+    "y": 468.16
+  },
+  {
+    "ancora": "equip--eqf-armas",
+    "pagina": 202,
+    "y": 592.76
+  },
+  {
+    "ancora": "equip--eqf-roupas",
+    "pagina": 203,
+    "y": 721.36
+  },
+  {
+    "ancora": "equip--eqf-protecao",
+    "pagina": 203,
+    "y": 178.96
+  },
+  {
+    "ancora": "equip--eqf-acessorios",
+    "pagina": 204,
+    "y": 274.76
+  },
+  {
+    "ancora": "equip--eqf-reliquias",
+    "pagina": 205,
+    "y": 372.56
+  },
+  {
+    "ancora": "equip--eqf-desgaste",
+    "pagina": 206,
+    "y": 517.16
+  },
+  {
+    "ancora": "equip--eqf-objetos",
+    "pagina": 207,
+    "y": 615.36
+  },
+  {
+    "ancora": "capitulo-9",
+    "pagina": 209,
+    "y": 776.36
+  },
+  {
+    "ancora": "progressao--prog-inicio",
+    "pagina": 209,
+    "y": 731.36
+  },
+  {
+    "ancora": "progressao--prog-xp",
+    "pagina": 209,
+    "y": 381.36
+  },
+  {
+    "ancora": "progressao--prog-semana",
+    "pagina": 210,
+    "y": 480.36
+  },
+  {
+    "ancora": "progressao--prog-limiar",
+    "pagina": 211,
+    "y": 776.36
+  },
+  {
+    "ancora": "progressao--prog-tabela-inicial",
+    "pagina": 211,
+    "y": 256.36
+  },
+  {
+    "ancora": "progressao--prog-tabela-avancada",
+    "pagina": 212,
+    "y": 394.96
+  },
+  {
+    "ancora": "progressao--prog-marcos",
+    "pagina": 213,
+    "y": 505.56
+  },
+  {
+    "ancora": "progressao--prog-repertorio",
+    "pagina": 214,
+    "y": 776.36
+  },
+  {
+    "ancora": "progressao--prog-atualizar",
+    "pagina": 214,
+    "y": 398.36
+  },
+  {
+    "ancora": "progressao--prog-trilhas",
+    "pagina": 215,
+    "y": 558.16
+  },
+  {
+    "ancora": "progressao--prog-capacidades",
+    "pagina": 215,
+    "y": 180.16
+  },
+  {
+    "ancora": "progressao--prog-ritmo",
+    "pagina": 216,
+    "y": 406.36
+  },
+  {
+    "ancora": "progressao--prog-guilda",
+    "pagina": 217,
+    "y": 605.76
+  },
+  {
+    "ancora": "progressao--prog-patentes",
+    "pagina": 218,
+    "y": 776.36
+  },
+  {
+    "ancora": "parte-3",
+    "pagina": 219,
+    "y": 776.36
+  },
+  {
+    "ancora": "capitulo-10",
+    "pagina": 219,
+    "y": 756.36
+  },
+  {
+    "ancora": "fundamento--fundamento",
+    "pagina": 219,
+    "y": 756.36
+  },
+  {
+    "ancora": "fundamento--tecnica",
+    "pagina": 219,
+    "y": 183.16
+  },
+  {
+    "ancora": "fundamento--primeiro",
+    "pagina": 220,
+    "y": 328.56
+  },
+  {
+    "ancora": "fundamento--familias",
+    "pagina": 221,
+    "y": 497.76
+  },
+  {
+    "ancora": "fundamento--selo",
+    "pagina": 222,
+    "y": 633.76
+  },
+  {
+    "ancora": "fundamento--repertorio",
+    "pagina": 223,
+    "y": 721.36
+  },
+  {
+    "ancora": "fundamento--pontos",
+    "pagina": 224,
+    "y": 776.36
+  },
+  {
+    "ancora": "fundamento--formas",
+    "pagina": 224,
+    "y": 182.96
+  },
+  {
+    "ancora": "fundamento--amparoformas",
+    "pagina": 225,
+    "y": 304.76
+  },
+  {
+    "ancora": "fundamento--alcance",
+    "pagina": 226,
+    "y": 409.76
+  },
+  {
+    "ancora": "fundamento--conjurar",
+    "pagina": 227,
+    "y": 480.36
+  },
+  {
+    "ancora": "fundamento--restricoes",
+    "pagina": 228,
+    "y": 569.76
+  },
+  {
+    "ancora": "fundamento--combinacoes",
+    "pagina": 229,
+    "y": 651.36
+  },
+  {
+    "ancora": "fundamento--controle",
+    "pagina": 230,
+    "y": 776.36
+  },
+  {
+    "ancora": "fundamento--aplicacoes",
+    "pagina": 230,
+    "y": 144.56
+  },
+  {
+    "ancora": "fundamento--danolimites",
+    "pagina": 231,
+    "y": 308.36
+  },
+  {
+    "ancora": "fundamento--persistente",
+    "pagina": 232,
+    "y": 449.96
+  },
+  {
+    "ancora": "fundamento--livre",
+    "pagina": 233,
+    "y": 591.76
+  },
+  {
+    "ancora": "fundamento--efeito",
+    "pagina": 234,
+    "y": 667.56
+  },
+  {
+    "ancora": "fundamento--ampliar",
+    "pagina": 235,
+    "y": 708.36
+  },
+  {
+    "ancora": "fundamento--classezero",
+    "pagina": 235,
+    "y": 205.76
+  },
+  {
+    "ancora": "fundamento--proprio",
+    "pagina": 236,
+    "y": 395.96
+  },
+  {
+    "ancora": "fundamento--liberacao",
+    "pagina": 237,
+    "y": 475.96
+  },
+  {
+    "ancora": "fundamento--maxima",
+    "pagina": 238,
+    "y": 665.36
+  },
+  {
+    "ancora": "fundamento--maximadano",
+    "pagina": 239,
+    "y": 776.36
+  },
+  {
+    "ancora": "fundamento--limitesmaxima",
+    "pagina": 239,
+    "y": 263.16
+  },
+  {
+    "ancora": "fundamento--passagem",
+    "pagina": 240,
+    "y": 270.76
+  },
+  {
+    "ancora": "fundamento--retirada",
+    "pagina": 241,
+    "y": 306.76
+  },
+  {
+    "ancora": "fundamento--ficha",
+    "pagina": 242,
+    "y": 409.96
+  },
+  {
+    "ancora": "capitulo-11",
+    "pagina": 244,
+    "y": 776.36
+  },
+  {
+    "ancora": "catalogo--cat-catalogo",
+    "pagina": 244,
+    "y": 776.36
+  },
+  {
+    "ancora": "catalogo--cat-alcance",
+    "pagina": 244,
+    "y": 196.16
+  },
+  {
+    "ancora": "catalogo--cat-movimento",
+    "pagina": 245,
+    "y": 533.36
+  },
+  {
+    "ancora": "catalogo--cat-area",
+    "pagina": 245,
+    "y": 190.36
+  },
+  {
+    "ancora": "catalogo--cat-area-continua",
+    "pagina": 246,
+    "y": 401.56
+  },
+  {
+    "ancora": "catalogo--cat-mira",
+    "pagina": 247,
+    "y": 617.56
+  },
+  {
+    "ancora": "catalogo--cat-defesas",
+    "pagina": 247,
+    "y": 260.56
+  },
+  {
+    "ancora": "catalogo--cat-controle",
+    "pagina": 248,
+    "y": 617.36
+  },
+  {
+    "ancora": "catalogo--cat-obstaculos",
+    "pagina": 249,
+    "y": 776.36
+  },
+  {
+    "ancora": "catalogo--cat-auxiliares",
+    "pagina": 249,
+    "y": 331.96
+  },
+  {
+    "ancora": "catalogo--cat-auxiliares-apoio",
+    "pagina": 250,
+    "y": 598.56
+  },
+  {
+    "ancora": "catalogo--cat-castigo",
+    "pagina": 250,
+    "y": 145.76
+  },
+  {
+    "ancora": "catalogo--cat-castigo-dano",
+    "pagina": 251,
+    "y": 384.16
+  },
+  {
+    "ancora": "catalogo--cat-tempo",
+    "pagina": 252,
+    "y": 547.36
+  },
+  {
+    "ancora": "catalogo--cat-tempo-duracao",
+    "pagina": 253,
+    "y": 776.36
+  },
+  {
+    "ancora": "catalogo--cat-marca",
+    "pagina": 253,
+    "y": 146.36
+  },
+  {
+    "ancora": "catalogo--cat-marca-recursos",
+    "pagina": 254,
+    "y": 359.56
+  },
+  {
+    "ancora": "catalogo--cat-amparo",
+    "pagina": 255,
+    "y": 555.76
+  },
+  {
+    "ancora": "catalogo--cat-amparo-protecao",
+    "pagina": 256,
+    "y": 776.36
+  },
+  {
+    "ancora": "catalogo--cat-proprio",
+    "pagina": 256,
+    "y": 263.36
+  },
+  {
+    "ancora": "catalogo--cat-restricoes-conjuracao",
+    "pagina": 257,
+    "y": 539.56
+  },
+  {
+    "ancora": "catalogo--cat-restricoes-consequencias",
+    "pagina": 258,
+    "y": 569.76
+  },
+  {
+    "ancora": "catalogo--cat-restricoes-uso",
+    "pagina": 259,
+    "y": 625.56
+  },
+  {
+    "ancora": "catalogo--cat-restricoes-proprias",
+    "pagina": 260,
+    "y": 776.36
+  },
+  {
+    "ancora": "catalogo--cat-passivas-1",
+    "pagina": 261,
+    "y": 776.36
+  },
+  {
+    "ancora": "catalogo--cat-passivas-2-recursos",
+    "pagina": 261,
+    "y": 152.16
+  },
+  {
+    "ancora": "catalogo--cat-passivas-2-protecao",
+    "pagina": 262,
+    "y": 314.16
+  },
+  {
+    "ancora": "catalogo--cat-passivas-3",
+    "pagina": 263,
+    "y": 589.56
+  },
+  {
+    "ancora": "catalogo--cat-regra-propria",
+    "pagina": 263,
+    "y": 237.16
+  },
+  {
+    "ancora": "catalogo--cat-passiva-propria",
+    "pagina": 264,
+    "y": 361.96
+  },
+  {
+    "ancora": "capitulo-12",
+    "pagina": 266,
+    "y": 776.36
+  },
+  {
+    "ancora": "aptidoes--apt-refino",
+    "pagina": 266,
+    "y": 776.36
+  },
+  {
+    "ancora": "aptidoes--apt-marcos",
+    "pagina": 266,
+    "y": 373.16
+  },
+  {
+    "ancora": "aptidoes--apt-catalogo",
+    "pagina": 267,
+    "y": 580.56
+  },
+  {
+    "ancora": "aptidoes--apt-cobrir",
+    "pagina": 268,
+    "y": 667.56
+  },
+  {
+    "ancora": "aptidoes--apt-canalizar",
+    "pagina": 268,
+    "y": 224.16
+  },
+  {
+    "ancora": "aptidoes--apt-projetar",
+    "pagina": 269,
+    "y": 414.76
+  },
+  {
+    "ancora": "aptidoes--apt-reversa",
+    "pagina": 270,
+    "y": 685.36
+  },
+  {
+    "ancora": "aptidoes--apt-energia-positiva",
+    "pagina": 270,
+    "y": 209.76
+  },
+  {
+    "ancora": "aptidoes--apt-circulacao",
+    "pagina": 271,
+    "y": 527.76
+  },
+  {
+    "ancora": "aptidoes--apt-regravacao",
+    "pagina": 272,
+    "y": 776.36
+  },
+  {
+    "ancora": "aptidoes--apt-kokusen",
+    "pagina": 272,
+    "y": 357.96
+  },
+  {
+    "ancora": "aptidoes--apt-protecao-dominios",
+    "pagina": 273,
+    "y": 625.56
+  },
+  {
+    "ancora": "aptidoes--apt-cesta",
+    "pagina": 273,
+    "y": 189.96
+  },
+  {
+    "ancora": "aptidoes--apt-simples",
+    "pagina": 274,
+    "y": 331.96
+  },
+  {
+    "ancora": "aptidoes--apt-simples-duracao",
+    "pagina": 275,
+    "y": 519.56
+  },
+  {
+    "ancora": "aptidoes--apt-petala",
+    "pagina": 276,
+    "y": 673.36
+  },
+  {
+    "ancora": "aptidoes--apt-extensao",
+    "pagina": 276,
+    "y": 136.96
+  },
+  {
+    "ancora": "aptidoes--apt-barreira",
+    "pagina": 277,
+    "y": 408.96
+  },
+  {
+    "ancora": "aptidoes--apt-cortina",
+    "pagina": 278,
+    "y": 510.16
+  },
+  {
+    "ancora": "aptidoes--apt-propria",
+    "pagina": 279,
+    "y": 721.36
+  },
+  {
+    "ancora": "capitulo-13",
+    "pagina": 280,
+    "y": 776.36
+  },
+  {
+    "ancora": "rotas--rotas",
+    "pagina": 280,
+    "y": 776.36
+  },
+  {
+    "ancora": "rotas--rota-marcial",
+    "pagina": 280,
+    "y": 305.36
+  },
+  {
+    "ancora": "rotas--rota-armas",
+    "pagina": 281,
+    "y": 597.76
+  },
+  {
+    "ancora": "rotas--rota-ferramenta",
+    "pagina": 281,
+    "y": 139.76
+  },
+  {
+    "ancora": "rotas--rota-passivas-marciais",
+    "pagina": 282,
+    "y": 418.16
+  },
+  {
+    "ancora": "rotas--rota-passivas-resposta",
+    "pagina": 283,
+    "y": 667.56
+  },
+  {
+    "ancora": "rotas--rota-fisga",
+    "pagina": 283,
+    "y": 239.36
+  },
+  {
+    "ancora": "rotas--rota-bancada",
+    "pagina": 284,
+    "y": 435.76
+  },
+  {
+    "ancora": "rotas--rota-invocacoes",
+    "pagina": 285,
+    "y": 583.76
+  },
+  {
+    "ancora": "rotas--rota-sem-tecnica",
+    "pagina": 285,
+    "y": 177.76
+  },
+  {
+    "ancora": "rotas--rota-sementes",
+    "pagina": 286,
+    "y": 439.96
+  },
+  {
+    "ancora": "rotas--rota-cura",
+    "pagina": 287,
+    "y": 651.36
+  },
+  {
+    "ancora": "rotas--rota-redoma",
+    "pagina": 287,
+    "y": 190.56
+  },
+  {
+    "ancora": "rotas--rota-sutura",
+    "pagina": 288,
+    "y": 398.56
+  },
+  {
+    "ancora": "rotas--rota-espinho",
+    "pagina": 289,
+    "y": 569.76
+  },
+  {
+    "ancora": "rotas--rota-lapidacao",
+    "pagina": 290,
+    "y": 701.36
+  },
+  {
+    "ancora": "rotas--rota-bencaos",
+    "pagina": 291,
+    "y": 776.36
+  },
+  {
+    "ancora": "rotas--rota-defesa",
+    "pagina": 292,
+    "y": 776.36
+  },
+  {
+    "ancora": "rotas--rota-estimulo",
+    "pagina": 292,
+    "y": 265.36
+  },
+  {
+    "ancora": "rotas--rota-corpo",
+    "pagina": 293,
+    "y": 460.76
+  },
+  {
+    "ancora": "rotas--rota-perseguicao",
+    "pagina": 294,
+    "y": 681.56
+  },
+  {
+    "ancora": "rotas--rota-combate",
+    "pagina": 294,
+    "y": 253.36
+  },
+  {
+    "ancora": "rotas--rota-propria",
+    "pagina": 295,
+    "y": 473.96
+  },
+  {
+    "ancora": "capitulo-14",
+    "pagina": 297,
+    "y": 776.36
+  },
+  {
+    "ancora": "poderes--degraus",
+    "pagina": 297,
+    "y": 731.36
+  },
+  {
+    "ancora": "poderes--criardominio",
+    "pagina": 297,
+    "y": 146.96
+  },
+  {
+    "ancora": "poderes--acerto",
+    "pagina": 298,
+    "y": 398.16
+  },
+  {
+    "ancora": "poderes--protecao",
+    "pagina": 299,
+    "y": 660.56
+  },
+  {
+    "ancora": "poderes--abertura",
+    "pagina": 299,
+    "y": 252.16
+  },
+  {
+    "ancora": "poderes--barreira",
+    "pagina": 300,
+    "y": 521.76
+  },
+  {
+    "ancora": "poderes--rescaldo",
+    "pagina": 301,
+    "y": 707.36
+  },
+  {
+    "ancora": "poderes--sembarreiras",
+    "pagina": 301,
+    "y": 302.36
+  },
+  {
+    "ancora": "poderes--disputa",
+    "pagina": 302,
+    "y": 569.76
+  },
+  {
+    "ancora": "poderes--manterdisputa",
+    "pagina": 303,
+    "y": 776.36
+  },
+  {
+    "ancora": "poderes--sobreposicao",
+    "pagina": 303,
+    "y": 265.76
+  },
+  {
+    "ancora": "poderes--multiplos",
+    "pagina": 304,
+    "y": 493.96
+  },
+  {
+    "ancora": "poderes--galeriavidro",
+    "pagina": 305,
+    "y": 776.36
+  },
+  {
+    "ancora": "poderes--salatregua",
+    "pagina": 305,
+    "y": 287.56
+  },
+  {
+    "ancora": "poderes--confronto",
+    "pagina": 306,
+    "y": 481.76
+  },
+  {
+    "ancora": "capitulo-15",
+    "pagina": 308,
+    "y": 776.36
+  },
+  {
+    "ancora": "ritual--ritual",
+    "pagina": 308,
+    "y": 731.36
+  },
+  {
+    "ancora": "ritual--rit-teste",
+    "pagina": 308,
+    "y": 286.96
+  },
+  {
+    "ancora": "ritual--rit-recitar",
+    "pagina": 309,
+    "y": 507.76
+  },
+  {
+    "ancora": "ritual--rit-melhorias",
+    "pagina": 310,
+    "y": 776.36
+  },
+  {
+    "ancora": "ritual--rit-beneficios",
+    "pagina": 310,
+    "y": 341.16
+  },
+  {
+    "ancora": "ritual--rit-parcelas",
+    "pagina": 311,
+    "y": 605.76
+  },
+  {
+    "ancora": "ritual--rit-limites",
+    "pagina": 312,
+    "y": 776.36
+  },
+  {
+    "ancora": "ritual--rit-ajuda",
+    "pagina": 312,
+    "y": 148.56
+  },
+  {
+    "ancora": "ritual--pactos",
+    "pagina": 313,
+    "y": 409.96
+  },
+  {
+    "ancora": "ritual--pacto-permanente",
+    "pagina": 314,
+    "y": 653.56
+  },
+  {
+    "ancora": "ritual--pacto-temporario",
+    "pagina": 315,
+    "y": 776.36
+  },
+  {
+    "ancora": "ritual--promessa",
+    "pagina": 315,
+    "y": 350.16
+  },
+  {
+    "ancora": "ritual--pacto-restricao",
+    "pagina": 316,
+    "y": 569.76
+  },
+  {
+    "ancora": "parte-4",
+    "pagina": 317,
+    "y": 776.36
+  },
+  {
+    "ancora": "capitulo-16",
+    "pagina": 317,
+    "y": 756.36
+  },
+  {
+    "ancora": "campo--inv-campo",
+    "pagina": 317,
+    "y": 756.36
+  },
+  {
+    "ancora": "campo--inv-ciclo",
+    "pagina": 317,
+    "y": 377.76
+  },
+  {
+    "ancora": "campo--inv-entrada",
+    "pagina": 318,
+    "y": 674.56
+  },
+  {
+    "ancora": "campo--inv-troca",
+    "pagina": 318,
+    "y": 339.56
+  },
+  {
+    "ancora": "campo--inv-intencao",
+    "pagina": 319,
+    "y": 646.56
+  },
+  {
+    "ancora": "campo--inv-comunicacao",
+    "pagina": 319,
+    "y": 277.76
+  },
+  {
+    "ancora": "campo--inv-basica",
+    "pagina": 320,
+    "y": 606.96
+  },
+  {
+    "ancora": "campo--inv-especial",
+    "pagina": 320,
+    "y": 228.96
+  },
+  {
+    "ancora": "campo--inv-energia",
+    "pagina": 321,
+    "y": 598.76
+  },
+  {
+    "ancora": "campo--inv-antecipada",
+    "pagina": 321,
+    "y": 205.96
+  },
+  {
+    "ancora": "campo--inv-pendentes",
+    "pagina": 322,
+    "y": 525.36
+  },
+  {
+    "ancora": "campo--inv-preparar",
+    "pagina": 322,
+    "y": 141.56
+  },
+  {
+    "ancora": "campo--inv-gatilhos",
+    "pagina": 323,
+    "y": 494.16
+  },
+  {
+    "ancora": "campo--inv-tempo",
+    "pagina": 323,
+    "y": 132.16
+  },
+  {
+    "ancora": "campo--inv-restricoes-tempo",
+    "pagina": 324,
+    "y": 438.96
+  },
+  {
+    "ancora": "campo--inv-armado",
+    "pagina": 325,
+    "y": 646.56
+  },
+  {
+    "ancora": "campo--inv-defesa",
+    "pagina": 325,
+    "y": 296.56
+  },
+  {
+    "ancora": "campo--inv-respostas",
+    "pagina": 326,
+    "y": 674.56
+  },
+  {
+    "ancora": "campo--inv-talisma",
+    "pagina": 326,
+    "y": 271.96
+  },
+  {
+    "ancora": "campo--inv-corpos",
+    "pagina": 327,
+    "y": 572.16
+  },
+  {
+    "ancora": "campo--inv-reparo",
+    "pagina": 327,
+    "y": 189.36
+  },
+  {
+    "ancora": "campo--inv-liberacao",
+    "pagina": 328,
+    "y": 408.96
+  },
+  {
+    "ancora": "campo--inv-maxima",
+    "pagina": 329,
+    "y": 660.56
+  },
+  {
+    "ancora": "campo--inv-dominio",
+    "pagina": 329,
+    "y": 284.96
+  },
+  {
+    "ancora": "campo--inv-queda",
+    "pagina": 330,
+    "y": 550.96
+  },
+  {
+    "ancora": "campo--inv-retorno",
+    "pagina": 330,
+    "y": 192.96
+  },
+  {
+    "ancora": "campo--inv-fora",
+    "pagina": 331,
+    "y": 551.96
+  },
+  {
+    "ancora": "campo--inv-inconsciente",
+    "pagina": 331,
+    "y": 214.76
+  },
+  {
+    "ancora": "campo--inv-manutencao",
+    "pagina": 332,
+    "y": 524.96
+  },
+  {
+    "ancora": "campo--inv-morte",
+    "pagina": 332,
+    "y": 190.96
+  },
+  {
+    "ancora": "campo--inv-carga",
+    "pagina": 333,
+    "y": 499.56
+  },
+  {
+    "ancora": "capitulo-17",
+    "pagina": 334,
+    "y": 776.36
+  },
+  {
+    "ancora": "construcao--entidades-criar",
+    "pagina": 334,
+    "y": 731.36
+  },
+  {
+    "ancora": "construcao--entidades-aquisicao",
+    "pagina": 334,
+    "y": 354.76
+  },
+  {
+    "ancora": "construcao--entidade-cao",
+    "pagina": 335,
+    "y": 578.96
+  },
+  {
+    "ancora": "construcao--entidade-cao-habilidades",
+    "pagina": 336,
+    "y": 776.36
+  },
+  {
+    "ancora": "construcao--entidades-lista-criacao",
+    "pagina": 336,
+    "y": 373.76
+  },
+  {
+    "ancora": "construcao--entidades-domar",
+    "pagina": 337,
+    "y": 673.56
+  },
+  {
+    "ancora": "construcao--entidades-tipos",
+    "pagina": 337,
+    "y": 249.36
+  },
+  {
+    "ancora": "construcao--entidades-definicao",
+    "pagina": 338,
+    "y": 477.56
+  },
+  {
+    "ancora": "construcao--entidades-atributos",
+    "pagina": 339,
+    "y": 776.36
+  },
+  {
+    "ancora": "construcao--entidades-vida-defesa",
+    "pagina": 339,
+    "y": 323.96
+  },
+  {
+    "ancora": "construcao--entidades-progressao",
+    "pagina": 340,
+    "y": 515.96
+  },
+  {
+    "ancora": "construcao--entidades-familias",
+    "pagina": 341,
+    "y": 667.56
+  },
+  {
+    "ancora": "construcao--entidades-basicas",
+    "pagina": 341,
+    "y": 147.56
+  },
+  {
+    "ancora": "construcao--entidades-especiais",
+    "pagina": 342,
+    "y": 417.16
+  },
+  {
+    "ancora": "construcao--entidades-formas",
+    "pagina": 343,
+    "y": 566.16
+  },
+  {
+    "ancora": "construcao--entidades-medidas",
+    "pagina": 344,
+    "y": 776.36
+  },
+  {
+    "ancora": "construcao--entidades-efeitos-reduzidos",
+    "pagina": 344,
+    "y": 319.16
+  },
+  {
+    "ancora": "construcao--entidades-saldo",
+    "pagina": 345,
+    "y": 556.16
+  },
+  {
+    "ancora": "construcao--entidades-controle",
+    "pagina": 346,
+    "y": 776.36
+  },
+  {
+    "ancora": "construcao--entidades-restricoes",
+    "pagina": 346,
+    "y": 334.16
+  },
+  {
+    "ancora": "construcao--entidades-passivas",
+    "pagina": 347,
+    "y": 569.76
+  },
+  {
+    "ancora": "construcao--entidades-passivas-avancadas",
+    "pagina": 348,
+    "y": 687.56
+  },
+  {
+    "ancora": "construcao--entidades-passiva-propria",
+    "pagina": 348,
+    "y": 135.16
+  },
+  {
+    "ancora": "construcao--entidades-ampliacao",
+    "pagina": 349,
+    "y": 423.96
+  },
+  {
+    "ancora": "construcao--entidade-vigia",
+    "pagina": 350,
+    "y": 631.56
+  },
+  {
+    "ancora": "construcao--entidade-vigia-habilidades",
+    "pagina": 351,
+    "y": 776.36
+  },
+  {
+    "ancora": "construcao--entidades-conferencia",
+    "pagina": 351,
+    "y": 359.96
+  },
+  {
+    "ancora": "fabricacao--fab-entidades",
+    "pagina": 352,
+    "y": 557.96
+  },
+  {
+    "ancora": "fabricacao--fab-projeto",
+    "pagina": 353,
+    "y": 776.36
+  },
+  {
+    "ancora": "fabricacao--fab-teste",
+    "pagina": 353,
+    "y": 261.96
+  },
+  {
+    "ancora": "fabricacao--fab-conclusao",
+    "pagina": 354,
+    "y": 478.96
+  },
+  {
+    "ancora": "fabricacao--fab-exemplo",
+    "pagina": 355,
+    "y": 721.36
+  },
+  {
+    "ancora": "parte-5",
+    "pagina": 356,
+    "y": 776.36
+  },
+  {
+    "ancora": "capitulo-18",
+    "pagina": 356,
+    "y": 756.36
+  },
+  {
+    "ancora": "consulta--consulta-missao",
+    "pagina": 356,
+    "y": 711.36
+  },
+  {
+    "ancora": "consulta--consulta-conduzir",
+    "pagina": 356,
+    "y": 205.16
+  },
+  {
+    "ancora": "consulta--consulta-referencias",
+    "pagina": 357,
+    "y": 451.76
+  },
+  {
+    "ancora": "capitulo-19",
+    "pagina": 358,
+    "y": 776.36
+  },
+  {
+    "ancora": "consulta--consulta-glossario-1",
+    "pagina": 358,
+    "y": 731.36
+  },
+  {
+    "ancora": "consulta--consulta-glossario-2",
+    "pagina": 358,
+    "y": 203.16
+  },
+  {
+    "ancora": "consulta--consulta-glossario-3",
+    "pagina": 359,
+    "y": 363.56
+  },
+  {
+    "ancora": "consulta--consulta-glossario-4",
+    "pagina": 360,
+    "y": 532.56
+  },
+  {
+    "ancora": "consulta--consulta-glossario-5",
+    "pagina": 361,
+    "y": 701.56
+  },
+  {
+    "ancora": "consulta--consulta-glossario-6",
+    "pagina": 361,
+    "y": 159.36
+  },
+  {
+    "ancora": "capitulo-20",
+    "pagina": 363,
+    "y": 776.36
+  },
+  {
+    "ancora": "consulta--consulta-testes",
+    "pagina": 363,
+    "y": 731.36
+  },
+  {
+    "ancora": "consulta--consulta-ataques",
+    "pagina": 363,
+    "y": 275.16
+  },
+  {
+    "ancora": "consulta--consulta-entidades",
+    "pagina": 365,
+    "y": 776.36
+  },
+  {
+    "ancora": "consulta--consulta-ficha-personagem",
+    "pagina": 366,
+    "y": 776.36
+  },
+  {
+    "ancora": "consulta--consulta-ficha-repertorio",
+    "pagina": 367,
+    "y": 776.36
+  },
+  {
+    "ancora": "consulta--consulta-ficha-feitico",
+    "pagina": 368,
+    "y": 776.36
+  },
+  {
+    "ancora": "consulta--consulta-ficha-entidade",
+    "pagina": 369,
+    "y": 776.36
+  },
+  {
+    "ancora": "consulta--consulta-ficha-entidade-capacidades",
+    "pagina": 370,
+    "y": 776.36
+  },
+  {
+    "ancora": "consulta--consulta-ficha-recuperacao",
+    "pagina": 371,
+    "y": 776.36
+  },
+  {
+    "ancora": "consulta--consulta-registro-missao",
+    "pagina": 372,
+    "y": 776.36
+  },
+  {
+    "ancora": "capitulo-21",
+    "pagina": 373,
+    "y": 776.36
+  },
+  {
+    "ancora": "consulta--consulta-indice-1",
+    "pagina": 373,
+    "y": 731.36
+  },
+  {
+    "ancora": "consulta--consulta-indice-2",
+    "pagina": 374,
+    "y": 776.36
+  },
+  {
+    "ancora": "consulta--consulta-indice-3",
+    "pagina": 375,
+    "y": 776.36
+  },
+  {
+    "ancora": "consulta--consulta-indice-4",
+    "pagina": 376,
+    "y": 776.36
+  },
+  {
+    "ancora": "consulta--consulta-indice-5",
+    "pagina": 377,
+    "y": 776.36
+  },
+  {
+    "ancora": "consulta--consulta-indice-6",
+    "pagina": 378,
+    "y": 776.36
+  },
+  {
+    "ancora": "consulta--consulta-indice-7",
+    "pagina": 379,
+    "y": 776.36
+  },
+  {
+    "ancora": "consulta--consulta-indice-8",
+    "pagina": 380,
+    "y": 776.36
+  },
+  {
+    "ancora": "consulta--consulta-indice-9",
+    "pagina": 381,
+    "y": 776.36
+  },
+  {
+    "ancora": "consulta--consulta-indice-10",
+    "pagina": 382,
+    "y": 776.36
+  },
+  {
+    "ancora": "consulta--consulta-indice-11",
+    "pagina": 383,
+    "y": 776.36
+  }
+]

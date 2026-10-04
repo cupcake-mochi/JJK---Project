@@ -1,0 +1,2375 @@
+{
+  "sha256_pdf": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8",
+  "paginas": [
+    {
+      "pagina": 1,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 1",
+      "sha256_png": "68801dcd7bc18e1a57486dda0a5282c3b612b423c35336e5902ca5ef0bcafb4d",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 2,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "11d03c61196e5d4e062f6fb255c1553f246bcd4f862ac2d3cce1a97e5f5cd716",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 3,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 3",
+      "sha256_png": "673cf327e64486dcd09de5ca13533ae8b4df9754bec4e5d5a776f18f285773f3",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 4,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 4",
+      "sha256_png": "1e085019fd7df6d82fbcd9d1bffdcdfc457dbb25f335806bf9b4d7bde370949b",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 5,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 5",
+      "sha256_png": "2b794d0942655646bb629013a7ab1940a2758831b7505f5b6c258d4bacb6c8c6",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 6,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 6",
+      "sha256_png": "e818cdbb3c65539c79814264a90513524fd5a8edc97ea6be64b9851634cac2a5",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 7,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 7",
+      "sha256_png": "95cded7c37f6b04efceead74bf702e726344a3fff03cbc7b41fdc9538b5b6c35",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 8,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 8",
+      "sha256_png": "433cb9fe4e350ba44e0c3732593817db316fd02494faadef126a11208f65a967",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 9,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 9",
+      "sha256_png": "03f7026ed81a678bb2b50c514fb923e6fc4a72f422fdc79757acfb76b19b6839",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 10,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 10",
+      "sha256_png": "a6ea02120121dfbfb6c449afdb5a491dfa2c235ed0ed0e7bf0bd2fbc70c3396c",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 11,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 11",
+      "sha256_png": "e450e3c9125d0ddf0041054fdfe890ad335b6df066cdb4ba1a9a822b677d73c9",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 12,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 12",
+      "sha256_png": "052f34bdcbc889ed2fbfc8a0bfc9d91b15c0a45c7ad37b36920b901554205e52",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 13,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 13",
+      "sha256_png": "bf3590906b2844dbb6eee7839a2f3474a7d7f16e5a38f0a75c3629642623dca7",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 14,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 14",
+      "sha256_png": "466cdc8b2ad7853f22e9d151c08f6c75b11926a7997c9a0bce1a619f5465da85",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 15,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 15",
+      "sha256_png": "754de81319b3571faf604d32deeb5dc4f4d26e3c8cb21ae810e366e8e1a155c4",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 16,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 16",
+      "sha256_png": "1a25896c0a019bdc15ab18db58568760501517c13c9f07b88f2213a195689f2a",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 17,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 17",
+      "sha256_png": "5faf89bd57949e6f25eaef155565fb6ad05c884aa658326981c32f054f89bdfd",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 18,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 18",
+      "sha256_png": "576c2b454c9138cd5d0b8e27854b99edb3f193833faaf85d5f86bf2b74aa6b3b",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 19,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 19",
+      "sha256_png": "26892d0919f29486a56624e52c52dd05c6eb4497217b66312b59e82f85b9b8df",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 20,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 20",
+      "sha256_png": "5cc51a858bb94792971bbac81596d28862217a71d6fdc99815f050df7d171faa",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 21,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 21",
+      "sha256_png": "f66bb8289f7d7879d42d7cc2c9a3c046cf7dcd204c1624ac6debd7af40f73dbd",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 22,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 22",
+      "sha256_png": "941dca265c767778c697bfd02d6985756c1c09226e3d931a296b099ad59ef1ae",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 23,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 23",
+      "sha256_png": "4803e441ad8fb19c855b796745823c2fd674af3f7358788b2669e278ac6980f8",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 24,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 24",
+      "sha256_png": "58c709eee99048bd1a891b6207bf48ac6e70d5ba8ef7eeb03896d595e7b6a6b4",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 25,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 25",
+      "sha256_png": "a02eddb80b21ffe4acd4667734e3644a5b6fd961186af450f1a0b9fc67b4c756",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 26,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 26",
+      "sha256_png": "6ca5b44b9b60bc9d2e64018e9a26ded307b6b82798cfeb9d10f9759c3664c09e",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 27,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 27",
+      "sha256_png": "ab424897c0d5ebb1b03f800d3554e3d12fa8a34ef10d9ffecd77ca078ee9ac8a",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 28,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 28",
+      "sha256_png": "e02d5bf284590c4e14803128a3b19c979f9353df8f553040a1f3916d36f0cd59",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 29,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 29",
+      "sha256_png": "981e6ac2a394ef9f2fabae2888a203ea23a80069db54f2a36d827ab706414ecc",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 30,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 30",
+      "sha256_png": "d4906550e894213dc344d36756b55bddd205ec7c24c4463106fd2fa5840524dc",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 31,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 31",
+      "sha256_png": "7ad754fbb2f73066864a460d138712ff26ca44093cb97e22349cd371ecdc2435",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 32,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "38107c07eb7ac094dc3d791fd029fa29c2880b74fad1ebbe709297e808566d80",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 33,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 33",
+      "sha256_png": "7aa9fafd2388dd2864823e15b9b1d1dc6042f813a9124a07847c9dfc4e6f51c4",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 34,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 34",
+      "sha256_png": "3fc5aec5744916cbfa7074e6041685d858a2dc6f0113a28c49221a2d97b1e3b8",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 35,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 35",
+      "sha256_png": "3ff1496dbe4ffcdff0feec115e9d7c9c5ef67e622880a7762878383a7c4b0e2e",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 36,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 36",
+      "sha256_png": "7febdf2f729bba1107fe685681bfc8eddab76ad15ddf6ac54e7bfaf6e81c4b87",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 37,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 37",
+      "sha256_png": "f0ac4f6dffbd2783f15f7afce4ecdea0f634895df3a3c551ac31c7c7ccd3f715",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 38,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "c76b71a20cf1e597a660f73448f4263e8447669ca2dad640bbdeb1258cac7daa",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 39,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "fc369ed41e5ff5daf1e3cfdc483270b8d74f14b413547c7dd0eae45d0f78dadb",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 40,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 40",
+      "sha256_png": "58c7e5fe8e0583e6cb64a55b1e4dc257f4e9078928686497c21903ff2c2a29cc",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 41,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 41",
+      "sha256_png": "05493b2d1e831a648c4f853f720390670a8ae6e6bd65218f42be1c58d6ece050",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 42,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 42",
+      "sha256_png": "fe15bd996a0e64f58b620bbc11d85098d7affd7f1a6636830f13869d91622af0",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 43,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "7a26f1ed1303508b0dcfe3a43820c81236462a48b95fc6eeaf1cfebed811216a",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 44,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 44",
+      "sha256_png": "4f68f83fcfbf8deafc668898bdb6bbde78df05d75e605226f9efaf96a91d7daf",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 45,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 45",
+      "sha256_png": "d017ae0ddfc352667def06e14e19a773000b155ab18ff7e2e41bca20239ef55f",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 46,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 46",
+      "sha256_png": "223d9b4c966a1959f89fec373c6e4b8513800acb699c484caeb7b2502b85287a",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 47,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 47",
+      "sha256_png": "29ac4630c53efdfccea6c57b2acc52b360e7ada11580b1e9365d77e4ae8687a2",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 48,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 48",
+      "sha256_png": "f7bc005a2ff64ef8cd8b53b91bc5a0e9a6ecc445e8ec46e40533a6b485f97f30",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 49,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 49",
+      "sha256_png": "21fc560925d7b76a36d578f92eb35a29454dfbe97fcf42b59ddc3cba6c7b0dbb",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 50,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 50",
+      "sha256_png": "035dbb4daadc961b920e7268213b700f2374a5cfd1c11ff795f121849c222fc9",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 51,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 51",
+      "sha256_png": "68204c1ef7ac22fb8c72a0bdb1bea7fd25235cd2939fe14b1258b9fe2d064d61",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 52,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 52",
+      "sha256_png": "94fef35fae86736b2bd170877c64fc598a30f80a487f7af95b343ab8cd75e8fe",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 53,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 53",
+      "sha256_png": "9b513227d9aa0a7654482f5bfd5ad9838991e3d4589863774b32e6f0892d39c9",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 54,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 54",
+      "sha256_png": "667275d9e1a59af0e0a7da0473d3f8d7e89cc8fd0f88f96484af8280cce5d2f3",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 55,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 55",
+      "sha256_png": "ffb1be629c5ee3817075c7508376fe7d048b26cbd55d7d79b5659e9437302d9a",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 56,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 56",
+      "sha256_png": "0b7c08279fad5bdae986ba1d9e43b1381a07df4eb4f382bcd7a0d372f45415a5",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 57,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 57",
+      "sha256_png": "0059249df97e7b0ce108f0437c7b318ee2c4997552c0f679dd3dea62cd10cd1d",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 58,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 58",
+      "sha256_png": "d943dfcacd4bcd812101629921d5fa4aad2081802d6359c2073d82cef091cd07",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 59,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 59",
+      "sha256_png": "9fdb982bce2537fd6a0818850488b9a17b944d34b4d8675a332e4d832bf1ba09",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 60,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 60",
+      "sha256_png": "24333dd52d7977742f361eb6a667354399cf7653a81d7364cba5d57656dec76b",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 61,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 61",
+      "sha256_png": "1b8b33773da9556bd4eac3d36a466b1ff7164f6edd249ebacdc93ae93a1f83e4",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 62,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 62",
+      "sha256_png": "8b45cc6828039bc7db6937bf0ed9e07952bccc48ad134af3a3f619abe0ccb597",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 63,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "3a46c8a76e3f2f0f9cb07134632bf9df5dbe219c6f5042ac27ac9310747453d7",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 64,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 64",
+      "sha256_png": "e2d8d21f16c3be3f7ef567e8b0b4bbb1d8fb31666a3ebe40f5dada9bd35f5f15",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 65,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 65",
+      "sha256_png": "730ee209d49da7ba2a458e90926f19f7b6be7cc86556c37f5b0137187332f681",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 66,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 66",
+      "sha256_png": "ffb86bcd64cddb68c59da46732c265a2dba7a22453bca266934f91fe5dafa142",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 67,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 67",
+      "sha256_png": "a6b94d48c14d1a78beeb8ead76d278cf95ef9a096f505f3a87e6b9282bfc3eda",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 68,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 68",
+      "sha256_png": "f4c844638ac6fa01c3cdfff4ffb4e874c53a1171796021f2eacc0e16aec28392",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 69,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 69",
+      "sha256_png": "3cfaf6903f812946532f8610fbb990475e8fcca5eef8f4efcdb759a8703e4027",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 70,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 70",
+      "sha256_png": "57f69da763f6cdfe5af2ff381ee870e67f8a05a8dc7205add73516f51fbb3889",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 71,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 71",
+      "sha256_png": "b597e4bfceb97b3b91361108e8ea94110eb4a3d85ce0af6100d0f43db911b1d0",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 72,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 72",
+      "sha256_png": "a129b9cb0fc55fce0b30e110bb89a4d8386fd9704f10ad077d32702a2714b6b7",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 73,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 73",
+      "sha256_png": "b7526ecb4b4f3aee6bdf3678529cb1f20173b8dc8d44271ef9c3c4dccb29abdf",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 74,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 74",
+      "sha256_png": "fb1c0c43d7058411da4f73369b0794c9287c9c138a0aa2f6b66238851b8a063c",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 75,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 75",
+      "sha256_png": "b606e3143b353cd451c34e88554aaa9b0b1002c3de320226ba63273371e1f9fd",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 76,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 76",
+      "sha256_png": "439e85b791d2ec5250002a985b6ce280429b6a6b549e282af8b448e1009df8c9",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 77,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 77",
+      "sha256_png": "243d2b4288ca18e9cb3f04168055cca097bc6b716ffc68890cd4e0c65e520659",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 78,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 78",
+      "sha256_png": "41ea66720dfd947cb14431b6c4a2c003e1640756c4725fecadb973345a029a07",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 79,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 79",
+      "sha256_png": "9ba7eeb4694d5ed09a05e7a3b75f32519f2822ae3266daa13ce574403d914ad3",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 80,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 80",
+      "sha256_png": "b546987da38207ee82687056a9cfd90250d611bb51546e93af277c979bb27bd5",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 81,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 81",
+      "sha256_png": "de08b7b645eab37ed7be7f0b9160bf3b29656f1d10bcce986b2f31059582dbc5",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 82,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 82",
+      "sha256_png": "d8a0270606a49471b71c6ba7dd14a99337c39d68251a9dc5aa5fc5330831998e",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 83,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 83",
+      "sha256_png": "a7d6dcf869f57bb3ec1bab062399a943614ceca3c0f204dcc159beac75c7a0e3",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 84,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 84",
+      "sha256_png": "2d890f89474790676b8e988e15fb9758a1bc8c38ceb586b008b2eb26360d3d02",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 85,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 85",
+      "sha256_png": "e5a2bcbb2788a11b0c8f3ce4b8b6aa416c7d5f20bf77a4851ac9c174a39c6090",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 86,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 86",
+      "sha256_png": "f946ab29a093a45a4f3d2e45385e21f89a83c611bd4be6bd848fbdcd4c6375af",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 87,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 87",
+      "sha256_png": "6dc78d549a2d4f30c28361bd15d2028d5e259d84d61abd191519e66b4a5598b6",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 88,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 88",
+      "sha256_png": "62ccd26762fc2ecdfbdd0ba6f4aa983c8e4a9cc1269df540736c57e6044423eb",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 89,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 89",
+      "sha256_png": "55cfdbb82d977817085243a87bf407142e9549d16b5cd4824317e4f677ffd137",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 90,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 90",
+      "sha256_png": "d8260fb5a560db671a3600b5c34b7f202a8cd689627c68bfc9cdbb745fc398dd",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 91,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 91",
+      "sha256_png": "91c3deb3149b3ad1c7d9c7932601f274719654826315d1a3635a25c8254c3177",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 92,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 92",
+      "sha256_png": "7301f1ec5e62155c1ba618478187913aa479ada1d7980716c9a1d07ef1ce4673",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 93,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 93",
+      "sha256_png": "5d5a2789ecce88eee22dc7ae6ed0ca318827c71c057f2fad7636482ad6ae5ebf",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 94,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 94",
+      "sha256_png": "3e4b69c7780b4e7e51a7d94b9f3e6cd15d1f5523ffca565344c5fcd66886ddd4",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 95,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 95",
+      "sha256_png": "33488e74039af1b31f3631ea20fce50e8dd219f210c389cace9de84fee034b76",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 96,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 96",
+      "sha256_png": "844b19c1ae95ea3bf7db6184e3d5298de0ca0ca8ddb5b0edee92d2eefc8cacb5",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 97,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 97",
+      "sha256_png": "18412037f8403a97a2a6719a90af71b64ac1cdebfeab942870b80b3d0c37d087",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 98,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 98",
+      "sha256_png": "5e0cdbf9e31b0fcc48538c0df967233ae5d571b236254aad8c1506e732d9a2b7",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 99,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 99",
+      "sha256_png": "bc686543b983af0278aad803e33e598cdb22e3a6d8be4506dd38616d34a0fe97",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 100,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 100",
+      "sha256_png": "9aed9c0d9c52e990cd15f70192f9394202277a0453fa6eb23d1a196fccbbc054",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 101,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 101",
+      "sha256_png": "3fd7596f2d28b6ec9fa432b0d6dd7f4478367ac657271434d83ae34a3f642b63",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 102,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 102",
+      "sha256_png": "2429e7584d0438325de4c6b386ae6f7c9af4246655d1b174f6ca478423e585ee",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 103,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 103",
+      "sha256_png": "13a0d968fc554373dd324c93ffdd81e9781b59820f479d0a333141ee1b06771f",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 104,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 104",
+      "sha256_png": "5fd570fb5f001c542a6d65d9ed3900074fa346e46441083824c0b24782e3ece2",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 105,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 105",
+      "sha256_png": "e3bcf5815cc76ba93addd0e888600e5131c05e4206ebe71107df3e91c7606e14",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 106,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 106",
+      "sha256_png": "3ac0ebf439640a47020340fe83ddadf5ffa522372e545a7fead4963dd403311d",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 107,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 107",
+      "sha256_png": "17f65b4017a913bbde90e81d34f028f7b4e32bc047f5363d74b07100cafd96d7",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 108,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 108",
+      "sha256_png": "41d9dd4f731bbf96d6456bcac6b91653a1ba55b023e4023c1e3021b8f9fcc61e",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 109,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "be0932beefc293d8499f1b421c4832eae074acd68f6ea843044b5ae12c5983fa",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 110,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "b6a8e6e3c2a00eba72096900c3ac18ff951c87cd66bbdabc246bca6363253783",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 111,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 111",
+      "sha256_png": "9ce6e201c8411ba25630f5645b81d49ed00a3e1d030ec8a3664d8afdc3675fea",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 112,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 112",
+      "sha256_png": "5668b970aebea058035cfbbdae4a47ad624415bf6bdb49ff7e52df000268117c",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 113,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 113",
+      "sha256_png": "34afa4ccea7c453e7a247876c8eff6735b8d42cc034bdccb93672ac5928248c9",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 114,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 114",
+      "sha256_png": "1504e50262949665cd5d94837c1ed57776d3c96ecbd5b8001bb92d644d4481f4",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 115,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 115",
+      "sha256_png": "d0488e494155c0a8c40cebecd1ccceda9fdaea2cfb23b653554d58cd4e2f1eac",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 116,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 116",
+      "sha256_png": "343b6ee23517cc01cbd2679ee3692c1a116095f30f17628ecc7e5ad59a03e500",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 117,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 117",
+      "sha256_png": "4c48b00328deecff7c6bbb2b12dfa73075442fdc9c5cafdd3d7eaa823f4c9984",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 118,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 118",
+      "sha256_png": "54b31a701c971e1c102096bc49539103f6585297364c9c0615f94a302c21354c",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 119,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 119",
+      "sha256_png": "a81138269cbc7fc33fd20b2969381208ecea1f622d06beeb0c2312f43d07f691",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 120,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 120",
+      "sha256_png": "4c30f0b689711505732ed5e94a195bbd060967aa53206e9e0595a16cbc61f85f",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 121,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 121",
+      "sha256_png": "5a96115af146e28d2065b3617bed408c249c131d4bd911b70d4547265cc8d69a",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 122,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "b1959609656f4d2067a3fd2bd384b0ea73d5db0c7684ef898d45396ab22544c9",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 123,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "6d9557ad52e60eff5de84d772248c867e3e690fced527df5d4d34b276ea65ac8",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 124,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 124",
+      "sha256_png": "cd48a49dcd1f9fec2bb6ff53c507b041e8037b54837e5e41207d93ecc88a05f2",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 125,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 125",
+      "sha256_png": "678cb68e12eb6e934a844601a2650a8c8889dfd4c59ee5b79ef58d7e33fa4c86",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 126,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 126",
+      "sha256_png": "34db46bff2ec2613701678c1c18ce89402dcfe11bfa4cff2aa33bde4f5195f0f",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 127,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 127",
+      "sha256_png": "611d7b72ae8d4ce57d3452255c4d0673b1244579a5dffb1bac94b9ab77c797f8",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 128,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 128",
+      "sha256_png": "2e7fde2b4f5c5a919136fa6fa4af227fd539928f6025f5d5d21516357b77dbe3",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 129,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 129",
+      "sha256_png": "f5d1751fb86888f6239f683b0bcbc1bad08bae2fcc4b523da98d411850d755ce",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 130,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 130",
+      "sha256_png": "40915d102bc00955b1c0b3e93cdc541dacfc2c0d5a42d1731f558a6d509011df",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 131,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 131",
+      "sha256_png": "05b140f747a3486d5b4662c672256ffdfed091cb4108cf3948fc70e8b020aafe",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 132,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 132",
+      "sha256_png": "181bcadea4d3920b4060c956ab96e03b795c7a2755635b821ac7cb243a7dea6c",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 133,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 133",
+      "sha256_png": "53f19f9f9058b8e041768789825e275a637b69b4c7685f1dd823ad0a09f906ed",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 134,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 134",
+      "sha256_png": "f1118da0bca1b542049c94126d998995a53d2808a669b9f1255b829279364d46",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 135,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 135",
+      "sha256_png": "ea21ac1fa482189a8cdacc7c167ed147f16f5df851648ae871315f7476327794",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 136,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 136",
+      "sha256_png": "ed59e56289e131e7e604afccc9b53541b7eea5260078fe8834a981a9f694d628",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 137,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "e2291a0e4c348f43b9a49ec7a44cef6bf7550140ca94b918dc2669b933447871",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 138,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "0a8dd4fb6de7570280488eb1662b2c92fe42d9b39c3b22c8a9f1d5031160d775",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 139,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "48a439b80e09184728c723b9662dc37907d741c7f73271d523909420ca29bcb6",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 140,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "ab80eac6c3fd5e0ae85fb74d687285f184e3fe9d68f6789184f1bd86b7295039",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 141,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "38dcc47ae32f52db028f9f67bc0b2e6ad67ecf4c5fa3b4483d0aadad7f855dbf",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 142,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "25fc857fdf732bb9953e1e65b627ae335c19da01382957646f37fcbb82a4a1e3",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 143,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "92f3a26a5cdffeafb512d04ed940dd9d7e6e4c318b0f36c125bed59c05fd955d",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 144,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "e6a9917ba5ef95cde1fcacbd20f588f03940a87a264a95b2babc08adcab39c95",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 145,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "fef49e53dd7c4980133502b4635e6fa9a7c894312f850bee0ac2b02a0fc2b14a",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 146,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "f0ba67eb7359c9cb2f4fbb799b26906859028a0a5e23aad7595dbc4ed02c9404",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 147,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "b435535fe4821173847c3ca5a0dd6b2ed68d094a51a2c0e69d0d0a5ffa2d76cf",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 148,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "a232a1b9cbd8f2f7c8a8a9b3633d714ec44d53121f93ba69c724f21d4c90f5f6",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 149,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "b2ecafb31d795b589caea63e0a98e902e867c83a44520f2ad9a559a7e28ddf8d",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 150,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "bd88976e452ab2b5fbb5b4ad16a3d213f22c4d79e519e19d7b3f52239ff64f68",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 151,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "ca2b59988267858482b8304e4670e4d34ceabdf119ce622e9f172ac33fee803b",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 152,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "1058e46831ced3744df5a17c451a67f6f5cf52bf97f173609df0d5ae5f55f400",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 153,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "e22a561152f2aa064efbc62fe0c96424af738b70ef09256bedcdfa985f69015f",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 154,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "1aa2377a0689f1d7b841d5a238ba0705d76d9fc4b0575d4fe8c2a98985a859ef",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 155,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "71810ea44ee83078e2dbd5af48155e8a83ede5fd6e5311dbe11e037997f2e380",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 156,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "b424a964725d073f61f2d3688c5e6e046e748a55426dc838547eedfb0eecf4c5",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 157,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "cb4ce32bbc6b5acf9073f635cfc7d9b415e5808d87328009b8e9d4a9b85e6232",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 158,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "346c203541f5117da18195701ad5671c9b79128a13081cb73eb928fa2eae5942",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 159,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "3d98d8a8b0800e323c68201dcfaabf38523cd13db18809558fec43133165c06a",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 160,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "74e61ec4c285b5e47374119c1ca842f757c6c214e3ac9efadd948a2bafd1edcb",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 161,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "a9d0e1f23a6d80d356a45aac6013bd0847d533e2973acc8beeceb0a214b3ca64",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 162,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "fd711455b18036fa7fcca9c127b5ff2e0f5023e7a39aad2c62665b5af8282bac",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 163,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "69006f4b3cdb908d40d28a7f391e0c283f98569d165b8c7e3c9f17528550cad7",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 164,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "1c6bb10884dc998ecee115009d3503d9fc28602efa604166de8141529c7aacf2",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 165,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "4a7c0ca1d4236a5006edc573f3645eb226e3396dbb46d9e3351d74f4d30c59a8",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 166,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "05dec04286fffe49a90969215e6da92e59ed2e07e86911baae0d1e573a48f479",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 167,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "17c57ba6f9bc9cb2824ab182e6759c1a5d546f927c93e727e851fa1397bafc4c",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 168,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "a750175f1760094622dc1732102028b88f67e686561b7cdaa708d4826ea4e638",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 169,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "1598242cc2539d2b7bf9a07655dff6e516013aca1667135f269775cfc841895b",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 170,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "4894496703952e74d557895041d606bd4ad81a030678f217967950561fc38dd9",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 171,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "3d2720afc6d67c948f2dead336aa3ebdee7974398777e9c6e9e711bda7977449",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 172,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "acb961951b38bc1a15a83801230b19a12dd77a8a5aaa98cea67225dd45edf3a8",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 173,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "a308a055e5be7cfb2fda2ebf876ba002e1581fd8cc305991771a153a5a87baaf",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 174,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "7286c97609abadd57c6062121c38f1f5647fae1f73f2f8d2937616398d13993e",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 175,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "bda33d885eabe4815f10a886626f3ea112b3e5cfefd477c82710564edd696cfb",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 176,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "e340c87a61ee4e4fc726f02e5f28d635eac23ae225823829e4e924ccb1137324",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 177,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "006ab8355cf01f7a232da192ecac6731a40f1f3beec7f645d4c3cba6c0f7ec7f",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 178,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "ba0e750e3f455f1c34eab2ccbf4b4686e2a4b8fd929cd54941561950591628e5",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 179,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "31c7357ffc6fb1b770d9508a5c09f48f01b9519c6380b6acfff60e9e49539e08",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 180,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "1d5a043a6890f1715748df1b361d992f4520c52000d93a51d27e01f5412bf977",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 181,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "0d221b473f12ae06c53dbf16569274aa76fb7f4cf48ef0cfeba326cef0ba5543",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 182,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "f89c861ab7d65d934a551548c3a48ab54639acc0b24a93103e310e82f31e81cc",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 183,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "5c30594eb842257f60e7c246b7cd004b52cbc14b903e46e8ea4794ae6e6a32ea",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 184,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "a12b119bf9abe733f3448e3b8dc4539c43129b917b98d0c8f6262acde53a7397",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 185,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "73a676bb959614a74c5e58e752a2bbc25fdce9d13febb7cd20db0727e2942933",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 186,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "a96e9615ec97d54a3bf837ce3e7173558f24359a70012387d7c11ff15188f238",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 187,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "bca8183529f3da71cc4eae4994f44b160c57773fd8b61b5230920942711432ec",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 188,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "62726423d1d48a0bd689a1ed639ade3421fc9398fc93f93bcd60b7925c80e5d9",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 189,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "01e487191d0c2cce23290c1a0d39c72364f8452a56362fb90b1806bf5d5c2348",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 190,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "26c729723435d863f481d2e14d1ffecf5227d5e613e9e4810d98df00005362d2",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 191,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "1eb89bfd1daa11b7950285987f7f279caf04ee2bc379ec1bbc23245cc71f35e4",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 192,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "392ded5fe887f2e02bdc86a1fcea6e6f373b288532fa267095169d43de7de9fd",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 193,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "09f7e99ca325fcf1c420e87af8daceaccb7806e74aa03bb28db430321a4d17da",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 194,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "f97c5eebb0bf8b514bff4abf4c7faab9d3a866b2d7c6f3bc5cf12c31697f45ba",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 195,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "007779217e42a5918777b864525674138bb70743e7e0bcd0ed0c07876d75f856",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 196,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "a212b7e529fc9d3ed93fef91be2332691348268dbc475bfebb5836bfbc886cd2",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 197,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "edce5b9fb0a445660062cff9b8b5000738f768f66f8e1b0b91e5c797ae97896b",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 198,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "958c60549466ca5348f6c942d5dbc0103a8d813401c12108f0ef9e094f957438",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 199,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "c95c9df9ead52526687a8402efa6e539563d439d9a34a3bd65b8a6685d0d7186",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 200,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "9d95534abc9381c28d2b54bb805b514b27af3bc88ee6588cbad55c1722294218",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 201,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "47476af54b147c7c286bd6070b141280dfe081232e0ad7e880b13de6b8fe7e6d",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 202,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "a05f49079b1766ea3220f8bcf82e753e3bf41a22869ab19f72cd227d9e997328",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 203,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "7f8655dec879eb55ec6f749762b840eca9f56169a75845d012c16b30c82ab06d",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 204,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "0284aac3344bab2fd99971e8e605e40f8ffebc7c5c90e940d430295e4a3261dc",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 205,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "0b7e3c698df1216a8b004f648e2d4d750d1b79a3cd113689c27f43ad7d3fe379",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 206,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "f78431f6b1c672ee6504bb12c2be5a73e1c069647fa58e8f95deaf4840a8104e",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 207,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "1be3441849fa1c2b2ba4cc6d2fac374e74b3425472e983607b218fdc67aa18aa",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 208,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "de801986bb1c58e4c1dfc6cd938b38f912291fd37f82c0d932f451203f5c6a7c",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 209,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "1824452913c33f7f660f16ac6e9a672a8f9f97997e08ce6e7758d4261dff9f83",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 210,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "be180898a9a3f39949719709d9ef5f375167cd0b75a6f330f37155fda0158936",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 211,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "1bb3ffba7bb03c59b60cea15277dfb953a9e51d34d3edc2e48f2a39e07508474",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 212,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "660f3400aa46abd56f7f6d2f1eb021d9f564f768bfb2dabc0dbd6961768f27fe",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 213,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "baad9abef9a03e097c7b44deb9ce0b833d2af17ad6fbf54d9c8858fea875138e",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 214,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "6fba4ad228e1784fcc180d6b00ce0dbd280129195b56b1f2bb59ceb8b08a8181",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 215,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "4e111813722678c02cf7c262bce75a8657cbde362fe14f78e199b0f08e25c787",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 216,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "6c29e245f76539c2a54d24508648f70dd6010dad0b5631716d76680fac998146",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 217,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "a4b63ecc248459765ec1c10853372e954c81ee084e8b796221003333bcded90c",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 218,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 217",
+      "sha256_png": "718d988db16d059d9fbb79a5e8d3c62131b31361c01dfc7f0404ce9bc4ac6b22",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 219,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "ec73e0a3c53d49f97cc8f2667005baa3e55f0ad508af1c09fe5d2b9333e9bf6d",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 220,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 219",
+      "sha256_png": "e724362a40f4883ed3c7feb48c309c3ad6d98deb5f7baa7bdec950c9927de3b8",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 221,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 220",
+      "sha256_png": "e68b7740db261bf054c0ec321259463a178d64f9f1ed30b80b46b92165cdbf71",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 222,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "ec5503adec54b9d377c349842afcd8268c55c28f740d1cd403eb49d969832fc9",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 223,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 222",
+      "sha256_png": "35d08dae20f7de82ffeb232b06480ea6fa27dc431284a44c4c7a82473ea28f98",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 224,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "3c0f4ef26738f47f5af5a225c13632049642d0aa8f7cabdecf44f9a8a24ae0c5",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 225,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "948942a5235cb1b6bf09b21783ee982b7cb533290c0f7af07ad1ed8033a1d5ca",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 226,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 225",
+      "sha256_png": "fd5c8cde747878c77c15a8dceb2b5fe81f2714f5342eb7b5b620f8742c257dca",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 227,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 226",
+      "sha256_png": "b379f4abab5e5574ae3075f8ef3cd24fe31e433043a13103c3fb28352dd17369",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 228,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 227",
+      "sha256_png": "81f73bf60d0728a15e95cfaf8624f71d289f91045dacfd910b59dc50f5fff93c",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 229,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 228",
+      "sha256_png": "67c2b74db2946a538c0a293bf7d942a46a680deb86f8bd6f633a2c008ec9edae",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 230,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 229",
+      "sha256_png": "1686a9e44d9c5a9684a12e31033ef8e8b45e7d262821847709e92f42aab1de83",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 231,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 230",
+      "sha256_png": "845d871c419cb5e34e97d8f6e85223a52b60e16b898eafc8fbc7778ef24b5922",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 232,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 231",
+      "sha256_png": "9313e90e71129f3b98f75180014751ed711fc3fe2bb30462f386a2fc0547264f",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 233,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 232",
+      "sha256_png": "47ec5311e8570906bebf614f7cc54b554fc9a44e2b3f9c45f7a9faa745bfce02",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 234,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 233",
+      "sha256_png": "d173f6e8be75ef8384ee4caa0d93bb7191376ca4c0ad1cd6c00c6ef8671dc744",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 235,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 234",
+      "sha256_png": "e9ddb03776ad15df793a9dd4ef2a64afe92a3a3074c2afd9cb82595bda202fbc",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 236,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 235",
+      "sha256_png": "52e987aff61ad1380462fa6e8bf7c153ded89e3a19af191a7bf631edb45142a3",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 237,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 236",
+      "sha256_png": "63f368c281e4a2e4e3610fd9e9072c3af8c26a4460fc30c47c2ab12407d79934",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 238,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 237",
+      "sha256_png": "894163c8d395050998516bb5c8cf085d248b98ffd099ed3fe8e3e5e09d537762",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 239,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "98864f24e1ba7c3b3a7f3958c1ff9d11b7c7d036b8c1c441678693c955e00e87",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 240,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 239",
+      "sha256_png": "6b516c597ec88d5f51d5f9f29820354d2710d3919390240c0f3568d70ad9a098",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 241,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 240",
+      "sha256_png": "75f64b83d744678cdba807c3ce0300499c75653b57b1ea395ba1e89d7aa4dd86",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 242,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 241",
+      "sha256_png": "94a085853bfa0cf2257ddeb1397ee3954a75684925dbec3e55dcabab272c58f3",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 243,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 242",
+      "sha256_png": "4d5518e2c7c567fc2fd0edc0f94b67acb0a78b8ec304e853525eb9d3c626c63a",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 244,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "d997cc2c2ab0f56a0793ed8fb139aeadd03e4c141dd2a8b3e8a6731abab7d745",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 245,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 244",
+      "sha256_png": "5ad4f0143459386a6a053f71ea20926f4ae079dc001fc40da46b128b1b09f988",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 246,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 245",
+      "sha256_png": "6fed775efb730676f134e4e5cbca6aa9e5448abe51257b103a15b1edf293ee77",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 247,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 246",
+      "sha256_png": "4f902eeb976cafd00d7449cb6a896e75554cc20817b79999cb20d8864443404e",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 248,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 247",
+      "sha256_png": "fa0826a4dfe4e460a91ff9a3a24ce750fd5cf68c59a53123c38060596364144d",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 249,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 248",
+      "sha256_png": "70d79a4e838636c819a677597ff21299d5e2151eedb7501ae0c30eded0b80ae8",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 250,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "a1362892c34fdcaa12744cb6315fe67c428ac9ffa746afc578395065fbe5dda1",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 251,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 250",
+      "sha256_png": "ea0a497650176518ff92e62d3af480612147ba403aa67f5e3aa697f01b8075a9",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 252,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 251",
+      "sha256_png": "2f53aa20b1b32d11389e5f270cdf5f45d7f3bdaf74456cd131d49b44b60dcd6f",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 253,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 252",
+      "sha256_png": "0e2a5fcbdedd2f5754d1349ec6bc998a2512630dbf7fdf025c165ddae7fc229e",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 254,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 253",
+      "sha256_png": "23b278eee9ccb084d58ad8035fd92351e9f0d3a2d2cc279e6e5e0f0f2282fcda",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 255,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 254",
+      "sha256_png": "119614cfa00bc197b984b40aa22b1f77316f5097a515777c232cf01bfe191c1e",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 256,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 255",
+      "sha256_png": "dffc39fbc44fbffaf31e0b133756d89456a4f9b76f1b7153742ac67f8284f967",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 257,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 256",
+      "sha256_png": "f69d9a56927152def24fc1751db2bf664c62c133f7d08bb446447bdb75cc8cc7",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 258,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 257",
+      "sha256_png": "7ec12bed83e2090ea0c0f3d2bf79cea8706d3b7677351a33999317cae139250f",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 259,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 258",
+      "sha256_png": "035f4dc600e4e50e1998343ac573e98d485144df6e357521ad86d28eda63047e",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 260,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 259",
+      "sha256_png": "b758e1ab592b42d79adebfbcf95ebd59a4c05a473147a7e56b29cfd26164472a",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 261,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 260",
+      "sha256_png": "ccee4d0c2725a1c1d444bdd5c272c7b51271f3abd45a3bffc9f0375c0d5104ef",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 262,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 261",
+      "sha256_png": "0c34d05a7ff0e9979968b16a839dc35eb282f3c146709ea87494abd512b8ceb9",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 263,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 262",
+      "sha256_png": "a34fe4e44fd1a7dd967433a6ad9c798efcf6aed2b0b182d9c7879ee6bbaadd90",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 264,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 263",
+      "sha256_png": "5a61de30ceba9f8c3e01f67880973e25125358e4a5943850b704bd91ee206ac5",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 265,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 264",
+      "sha256_png": "1a68651800742592654e2c2bdab544e97368de20c0c4490bf13828310a70f60c",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 266,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 265",
+      "sha256_png": "795190b4f9dba6ae40ec443ea6e8ba4ba9948bc4156e58460afaefa98ca043ff",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 267,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 266",
+      "sha256_png": "e9bca8a27d7bba99c168de53fd4f97d25ffa6292fc7e00c9acb4806c4cd2899b",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 268,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 267",
+      "sha256_png": "18637e5e36ac4d30a861cc810835dd5431cdea4cfe6b177962beb75f741080b2",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 269,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 268",
+      "sha256_png": "f5ea666e84421b9733b78f7897f43dbf870590fd9f4007a971842d864b022d80",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 270,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 269",
+      "sha256_png": "c7e3b31651ec6b985b756546498066da735e982d8fdbaeb1719c293bf1013695",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 271,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 270",
+      "sha256_png": "cf0568ba7eb435e3f8ab8f8b39a5e5b5132065d72ea9c92c22bb68338a62fc6e",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 272,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 271",
+      "sha256_png": "9b64e79942fd2327a280e3bd9ed07768bb19efcaf748975f2fa3659b1bc6439a",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 273,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 272",
+      "sha256_png": "f5e166e14481c4e7dca00b8c9c87add308b8391684bd0f811aa182b577c8b1cd",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 274,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 273",
+      "sha256_png": "0b6b2cfb56f61732821bdea459532a3b49f74083e4d289881970f46453f0f656",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 275,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "550c7daf1cceae72d6d070b63afe33b225439563c1443eb5446d27b95313a8f4",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 276,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 275",
+      "sha256_png": "f216575a29c3397cc510d35838ba25f9ed357bd5a58f5cabc19ae827ad5b38aa",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 277,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 276",
+      "sha256_png": "6f4830b08c8d337f59b73fd812ac8f8f012037f187512c9c0a9a8d14fe03b5b0",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 278,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 277",
+      "sha256_png": "27f6ffbb550f6894c73f3a647ac7d6a32d3d7efbee67a4e8c89820f10e65d590",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 279,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 278",
+      "sha256_png": "9da578f05f2b3e1e64e7240927565e7abf8f93bec2a63cc5d8cf981ec47834ca",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 280,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "a67140417e1ac7f23f610bf93d9bf678ae5f7c7445e54dd915c090b6b28f7cf3",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 281,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 280",
+      "sha256_png": "2433da861704730326d19dd77340be67a965024a0a751f04919da0c729c76119",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 282,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "5bbd29b885e7a443dbb82b1649d0918d687b9f4e3927552f4d390f3abe732d48",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 283,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 282",
+      "sha256_png": "ba06ea902f8bbac3757355cd08d6da3a75a5395088acb774305bd9d32d1594a5",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 284,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 283",
+      "sha256_png": "090bbbcdfc6bd1f47ca74a7694382dd490b5c33ac4a000f330b783511870f1bf",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 285,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 284",
+      "sha256_png": "0d48bc64bc47cc18899253bf410f119f4b34e9e83ae5020855a7caacf2addee0",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 286,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "48dbd039a3eaa170e8f3520bfa560365eb0259b70e70037bbef9a776e9f77556",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 287,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 286",
+      "sha256_png": "9734319109287388ad16fdcc2e220c4677134916fa976b63104623bb7633bd62",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 288,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 287",
+      "sha256_png": "376925198a71464dc4a7352daf4bb51a6a2a2cebb1b366042b27a84a00386719",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 289,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 288",
+      "sha256_png": "dc060a9de397103b3d80a5bf948d100dc86044d77cebaad5339bd5b859a3d9a7",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 290,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 289",
+      "sha256_png": "36d6f2000fba0471d48190efb778267fecbd3e0588d39bd3e982163667bb9f64",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 291,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 290",
+      "sha256_png": "2078f53a6032e046b52f526ba1c46579552fd29af644bd1af75579715b8c080e",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 292,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 291",
+      "sha256_png": "cbb2af69d16283553a31ebd7a9e3ff1a06351f68290b4d08850a1d62710edc92",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 293,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 292",
+      "sha256_png": "207cc894ddbf800715ba727f978e8b475f3b9d72f8a741a18effab5c5d979133",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 294,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 293",
+      "sha256_png": "12b6c75713588bd2a70140ff391fec732cc4e38d54bef37d8bc935f930e95b37",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 295,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 294",
+      "sha256_png": "ca7a1ab33751f63ebd667d253baeab3df92908d1bce9e88bf6fd196b0cb8c884",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 296,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 295",
+      "sha256_png": "bd5430767fa23d8c7769b174e1c67f72f41c6cf0bc28a42681305346a45f8866",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 297,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 296",
+      "sha256_png": "81a45c298abd48e507913d29ce7284d43ed2d5cea8d0393d8b0482c149e3ee4e",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 298,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "3a4b08a9030f7051b45f7a5c56ba8090db9b73435fb85d24526f7b3480c7c752",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 299,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "509eaad3a8e847e8b28b3d99f96fd1772b16254bf90aa3f3aac8862d2eb7b554",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 300,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 299",
+      "sha256_png": "30e5a2ed8bd8579a33162d9b1fd056d4bd1b7e2f009405a85a075c61a69cfcc6",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 301,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 300",
+      "sha256_png": "001319e65e9fdbc8fd34a5e8fe78708590c2bef016cbf82c4bc1c9f5cd0ebdc0",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 302,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 301",
+      "sha256_png": "5402ef823a99c2518d108aa60274a8d0189eac555264a3e19f8d2d2225db172d",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 303,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 302",
+      "sha256_png": "8165178506ca52f79df8aa75f0f5d0d7482e1c39b7e726fe151486c435db4e8b",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 304,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 303",
+      "sha256_png": "2d8758fce35de2b192c1e22e6c8e592451b1e0b908ee37f4eed61c03640ccce7",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 305,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 304",
+      "sha256_png": "bcde05f7b12677006e6fc6e9dde5cfbced977fd2e530cc076e77a031327e169e",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 306,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 305",
+      "sha256_png": "44114f982cff032c8962961b8ca169bbf84b63bf35a9708b744b04381504d325",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 307,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 306",
+      "sha256_png": "176e2edc342b481f45071d41587ac85819a260d18e0fd518c643a41b98f8dd66",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 308,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 307",
+      "sha256_png": "9a28c81663d9fca03114495bc4ead878cbed22aae951a490d66754372ce28cae",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 309,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 308",
+      "sha256_png": "da037d200b04629fe63591b7a186a54633cd2ade09b4c773d14d369bcb041741",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 310,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 309",
+      "sha256_png": "7e0e400b800585b259115fb855966ce7d107f35a43a80178ea097315b2612f84",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 311,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 310",
+      "sha256_png": "580ebf45286494c1202501771a36a1370c3f14987cdde396fc62cb2e01af9fab",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 312,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 311",
+      "sha256_png": "a134f0116a79050154743597a2712ae8afdf9afece10bf446ad0f8ad427c6ea5",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 313,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 312",
+      "sha256_png": "d9a79700fe82ae38b01fba453c1db8077bed4c8518c7ee63460cc301adefb815",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 314,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 313",
+      "sha256_png": "44eefa66b57792a93070df84788973decea97f61ec6bd9b3778c03d3d4522289",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 315,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 314",
+      "sha256_png": "084b4768b8ba91d9a31418a4d4dc7b01bede1607962e683f2e99f66743550d4b",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 316,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 315",
+      "sha256_png": "49844eed1677f38a5eed6e3d0e4a4382ee96d1b3003df5fe1c51c304c7a457a5",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 317,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 316",
+      "sha256_png": "ece9fc10012875e0c4c15380c5eccb751462c70a3c08944163d4b566ecd814b2",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 318,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 317",
+      "sha256_png": "c9f592b277229d0b2f1127d5e3c99ae8d8c28bcdf406b45f4c729f1727f13cca",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 319,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 318",
+      "sha256_png": "8891d1a5e73e5bdfeb88052f1afb51dd57a64f85e398c5c986a7ffdf97d785cd",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 320,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 319",
+      "sha256_png": "052077b645b5a71e5fe5194df966e57f8ac26be0f42c527fb92f121892896a2e",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 321,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 320",
+      "sha256_png": "d9680a1b4bc6ee8e7f83a2480d8918703f7a4d1345d84f4b82557d0b64c38b3e",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 322,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 321",
+      "sha256_png": "fab866917dcfefdc3eecf2c7fa5d26805021821760aaf8bea631bf98b6e0e64d",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 323,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 322",
+      "sha256_png": "e4d40e440aa79d2262746d1e181e456a42e53ea814be1f9972b5429f623d2cfd",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 324,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 323",
+      "sha256_png": "85313c98c1946f295d13999d77cf17b970c01479e3b73475a05f0cf57f4703c3",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 325,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 324",
+      "sha256_png": "ea763ce59a88ab52018df8db2a36b1f80aa45f885c0f0c67f88e93eb981fe3ce",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 326,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 325",
+      "sha256_png": "0b7e5b70e4fffc04b1eda977440f523ef1d03fabfb5432d17c337375a130c37c",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 327,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 326",
+      "sha256_png": "7f2f06077762043e8dc6df50feae95a9ce8b953b606a5061f2df87bf3b1ea4e9",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 328,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 327",
+      "sha256_png": "f36a681ad81d22cfb0385eb6e196491645bc051a7b5644db272f318b7a0d3825",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 329,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 328",
+      "sha256_png": "f8ac0f65bf065d0313f76003262b9548026f34579ceb8ac3785ee1e6c91393a9",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 330,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 329",
+      "sha256_png": "83a65e6c3582e1b9fb4b6de26d974b4c06cc64bd0e34a0d661476139918592b8",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 331,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 330",
+      "sha256_png": "09b65a939199e305e7761f57f4a2534548f21a4258b353a09630add06b45707b",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 332,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 331",
+      "sha256_png": "2516c6e72dc3d4d343040bcfae518b456be8887c2543f3c339be7299180cd4cd",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 333,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 332",
+      "sha256_png": "190e50c3be7a4ebd6a07b998900fb9993dcd76fd4323b320b5ac06d4af6f712f",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 334,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "23642fbb2eaf35341c62ec6198fbe26d121e6ba7a134ecb5603037e79167033d",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 335,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 334",
+      "sha256_png": "951bde111f1e272f31e8b777a624e123d7acdc629136ea9babc60e9dddd4726b",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 336,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 335",
+      "sha256_png": "f9c43057f091e97de5fa6855f51b5ce84e42e84c78f59bf5c1bc08db9cd80744",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 337,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 336",
+      "sha256_png": "5464ce53408ed4b2338ec6b7b8216437e5048b2d92c0ba34cd464b5f14067e9d",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 338,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 337",
+      "sha256_png": "7f99b573ab365ffd1d45a297dbf55e4eaae9b55c355f8462f27ade6bf5ea5805",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 339,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 338",
+      "sha256_png": "dc986194864261cf97a1933ebc31081f1ac1dad50c00263a8fbf58b4bf6425a2",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 340,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 339",
+      "sha256_png": "ce2ed78ba30cfc25a1185e42be389d0fa49a9bf1868f5f3f5fe38a906d2d3aae",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 341,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "f982fc730ad65b22c72861d6d65d5871c8a8ff6b1f89cf7bd2899c699263b5df",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 342,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "b7963dcc866ab5a1c30cc48cd6d20aa1a60055b1fcdcaee7fb6419a931698819",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 343,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "01ab521a531581248db5d04f13269cc0d00ae1a18554aee35393abb2e29348f7",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 344,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "5639ef8c1e052524bf870fb238f73445dab1f9b5196e2a2ced0ffff20521adc1",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 345,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "a553587688132bc8e85c65d5879abff43b9dcdc340d4746e96fbd60c3f5cd651",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 346,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 345",
+      "sha256_png": "14d729a1bb13324561fbdb09accea3fd23c457ed9a4a1236ec287e2ee7ba3b1a",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 347,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "638701e106210b4e09f44124d77a3dc1ce7ef9f6d9c06ef820a7e1def794ab41",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 348,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 347",
+      "sha256_png": "56d68ddc8919b4e9a0b5fa0acdc7c679477a2a677d626da14bc74c0b4161471e",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 349,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 348",
+      "sha256_png": "b2e724ca247f4fea9c27c421523ad25e9f74acdf4a58fe62696b2e4b32ca0af2",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 350,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "f5e813d305a2a57ce25fabbf83b3f3ff5fbd03d7b0c7593eddd9df9308fe7ae4",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 351,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "b403dc088cd55793ea4a9362c6ba03d2e827f9d9892226390872c2b4d9561cf0",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 352,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 351",
+      "sha256_png": "bb028cf86643ef831e42aa3dc105ab898350d884874bf2ffb786879c22604098",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 353,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 352",
+      "sha256_png": "1f658fd8fce855c2b3ef5f51230042f40a0ac74bceb66cfac6e48b2a627028a6",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 354,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 353",
+      "sha256_png": "f3c592511af2cd445a7ab87b3182094ab95fc886c3245b78756f55a4af959307",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 355,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 354",
+      "sha256_png": "ccb63baffac40446565aa07e6ceaa757aa50dba8f28373b6b68a3ae1e614cf7a",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 356,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 355",
+      "sha256_png": "eca52cc0b96cb3a266cedf6821447dab39a6e86c9f2268263b589b71aeeced4e",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 357,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 356",
+      "sha256_png": "013fad3bb0483b6b22361d7ad2ddcc6604c5a112ec8c03bff2447853383291c1",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 358,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "a6fd1884b10ac31f1ee2ca28083cf56ea3fafe1f41a17c1742aa80b67abb8820",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 359,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "487bc47f99f6891f316413fbc2db0d1f5b7c1a1fc2915adae835947c95a76739",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 360,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "f55a71090dc2f538ad2562e5e05649d6928f84940bf2857bf1ff08595da60bb6",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 361,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "130c279344688dc1651d8ac24ea1c5e1f39860f23f9ca28806b839d8f264802e",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 362,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "890e2784a1edfb19131d83a117296e84424f51031d91aa990baf2158d6582982",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 363,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 362",
+      "sha256_png": "c5b6cd0cdda4e72b1e0971fd36ec5e65b040b5b9b3aa6a9beb9e91adea5ca86f",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 364,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "dce89b981570302b342a50090b86805021fec01d438cd1d1056f14dace367a49",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 365,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "4152f150146e06afc1b64b2e70e1b186bb423d13db6c723ebece1fcb6f652c95",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 366,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 365",
+      "sha256_png": "7cf155217c26bc50d43bcf7cec9450a2e88c1c423f6370edfe2a66e02342489c",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 367,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "94b690183b7352c0e56e6b045a33fee36e460ed32562df52ecfec0fd5d212b24",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 368,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 368",
+      "sha256_png": "3933c49b5dfb003a84d431d999fe4f0a9f173a19e7c55ce04ed5154598f4f642",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 369,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 369",
+      "sha256_png": "cce4e1c484476f0804537dacee3265b9c2a024452bc395c00004082247f4f9d5",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 370,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 370",
+      "sha256_png": "d7090336a05a59a388996bf961b0015af68af4b4d881a86ec5763b6b007ca00f",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 371,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 371",
+      "sha256_png": "0f524f0538a3492d2fcef3acef09aba982e053ceaf06a18bf8ad18c65dd038a9",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 372,
+      "metodo": "corpo pixel a pixel idêntico à página anteriormente inspecionada 372",
+      "sha256_png": "0231aaf8ac55844767aec57cfea10e9dbeaea9ea1a0d587cf00767000e186440",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 373,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "e1b1d0f12846d93c53b36d5939112427fcf4f654b6a131d738e631eb778ef020",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 374,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "3fb6b5f35be9784274dbb0819ef443cf5770c332f9efdc2aa83b54c3cb835515",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 375,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "b3adf6afadd4d12d706da2c89b11ef3d8d69e7d212e616e7fb90719aa94c67a6",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 376,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "074792df22312400a37a82976173d00e240199bb77c78a9c4f317a3be2a541e4",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 377,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "114d26d971d09659501c0a7f6e5347b53a5787961b022fd9d8178419983763e9",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 378,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "80a7ecff7018e9a5e1ed40093c14b45111e73b8a207814e0dd2403fd75c35de9",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 379,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "99ccb8df3644cf42db2634f49179013db090cd57416697758ee430bc859a5367",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 380,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "b993195d003d32e671b39a703fa567cffffdc3d267c2fc4cd204c7e87c056489",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 381,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "a5d374b15fb106d9f79c8329c2249fa84d35f150eb007a6e8cb09ab0b3c27917",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 382,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "d7c7b78b002c302f425724de18b12beeee18cc16cb558f8fe76862f45fea552b",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    },
+    {
+      "pagina": 383,
+      "metodo": "aberta pela raiz na prova final ou na prova intermediária de instruções visuais idênticas",
+      "sha256_png": "225efaadf3b01063d63d268f66e8e286721886ac62d16f89c7a2041ab94540f9",
+      "resultado": "sem corte, sobreposição ou título isolado detectado"
+    }
+  ],
+  "cobertura": 383,
+  "inspecao_complementar": [
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    166,
+    167,
+    171,
+    172,
+    174,
+    181,
+    182,
+    184,
+    185,
+    187,
+    188,
+    191,
+    192,
+    194,
+    197,
+    198,
+    199,
+    202,
+    203,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217
+  ],
+  "ampliadas": [
+    43,
+    164,
+    165,
+    190,
+    344,
+    367
+  ],
+  "evidencias": [
+    "FINAL-V14-ROOT-ANTES.json",
+    "FINAL-V14-COMPATIBILIDADE.json",
+    "FINAL-V14-ROTAS.json",
+    "MOSAICOS-FECHAMENTO.json",
+    "V14-PROVA-INTERMEDIARIA.json",
+    "DELTA-MALABARISTA.json",
+    "COMPLEMENTO-V14.json"
+  ],
+  "correcoes": "Finais de unidades mantidos juntos, títulos ligados ao primeiro efeito/tabela, ficha de repertório numa página e17 remissões estáveis.",
+  "limites": "Revisão visual por modelos; páginas de encerramento podem conservar espaço branco quando contêm uma unidade completa. Não foram acrescentadas ilustrações de IA."
+}

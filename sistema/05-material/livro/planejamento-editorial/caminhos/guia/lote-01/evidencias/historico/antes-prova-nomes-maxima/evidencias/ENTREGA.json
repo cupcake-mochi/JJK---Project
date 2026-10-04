@@ -1,0 +1,11 @@
+{
+  "manuscrito": "GUIA.md",
+  "sha256_texto": "d12d9ac37c5d5aa230c3fe7f6bdebdb3ac11a2f074f0017ce71042bd65fcfc68",
+  "paginas": 17,
+  "alteracoes": 38,
+  "estado": "GUIA-38 auditada e confirmada pela revisão independente da raiz; nova prova pendente",
+  "script": "auditar.py",
+  "fontes_preservadas": true,
+  "verificacoes": 163,
+  "correcoes_independentes": "GUIA-36/37 resolvidas; GUIA-38 confirmada pela raiz"
+}

@@ -1,0 +1,105 @@
+[
+  {
+    "arquivo": "origens/lote-01/ORIGENS-E-LEGADOS.md",
+    "sha256_antes": "fcdf3dfb581d2cd625746ab76ee581e025a023666c5e93a45187aa3328dd2403",
+    "sha256_depois": "d432caecc9f2c63b0f355ad70a6e74251ae51044a8ac5840a35b7fd6d182484d",
+    "alteracoes": [
+      {
+        "id": "REM-02",
+        "antes": "Uma técnica cuja Regra alcance um corpo construído também pode curar você. Energia Reversa e curas derivadas dela continuam incompatíveis. Descanso longo segue Descansos. Chegar a zero de vida segue Recuperação, sem exceção concedida por este reparo.",
+        "depois": "Uma técnica cuja Regra alcance um corpo construído também pode curar você. Energia Reversa e curas derivadas dela continuam incompatíveis. Descanso longo segue Descansos. Chegar a zero de vida segue Vida a zero, em Dano e recuperação, sem exceção concedida por este reparo.",
+        "motivo": "Reparo não dispensa a regra de queda; Recuperação isolado atualmente só nomeia uma subseção de Exaustão."
+      }
+    ],
+    "diff": "--- \n+++ \n@@ -348,7 +348,7 @@\n \n A CD é **8 + atributo usado no ofício + maestria de quem repara + ajuste**. Defina o atributo conforme o trabalho, antes de rolar. Especialização e outros modificadores alteram a rolagem, sem aumentar essa base de CD. No sucesso, recupere **metade da vida máxima**, arredondada para baixo, sem ultrapassar o máximo. A falha consome a tentativa daquele descanso.\n \n-Uma técnica cuja Regra alcance um corpo construído também pode curar você. Energia Reversa e curas derivadas dela continuam incompatíveis. Descanso longo segue Descansos. Chegar a zero de vida segue Recuperação, sem exceção concedida por este reparo.\n+Uma técnica cuja Regra alcance um corpo construído também pode curar você. Energia Reversa e curas derivadas dela continuam incompatíveis. Descanso longo segue Descansos. Chegar a zero de vida segue Vida a zero, em Dano e recuperação, sem exceção concedida por este reparo.\n \n > **Exemplo:** Rui tem 31 PV máximos e está com 8. Um aliado da mesma Classe repara seu corpo com atributo 3 e maestria 2. A CD é 13 e o bônus treinado é +5. Com 8 no d20, alcança 13 e recupera 15 PV. Rui termina com 23.\n \n"
+  },
+  {
+    "arquivo": "equipamento/lote-final/EQUIPAMENTO.md",
+    "sha256_antes": "89a3f7bb705a7c931a3c69f4f051fb98d62acbc065ffa42dc48275f00e2afec1",
+    "sha256_depois": "85b38026ae96486a1db359ddf81157d482b4e03bb7fe4c70c2bb17ab5755a77b",
+    "alteracoes": [
+      {
+        "id": "REM-13",
+        "antes": "As tabelas deste capítulo apresentam armas, proteção, suprimentos e preços. Para pegar ou trocar um item, consulte [Sacar e guardar](#eq-manipular). Os ataques seguem Combate.",
+        "depois": "As tabelas deste capítulo apresentam armas, proteção, suprimentos e preços. Para pegar ou trocar um item, consulte [Sacar e guardar](#eq-manipular). Os ataques seguem Ataques, em Regras gerais.",
+        "motivo": "Remissão ao procedimento geral de ataque."
+      },
+      {
+        "id": "REM-14",
+        "antes": "Par e Leve não concedem outro ataque nem uma Ação Bônus. Oculta, Discreta, Vestida e o Volume não conferem Leve. Arremessos seguem os atributos de acerto e dano de Combate.",
+        "depois": "Par e Leve não concedem outro ataque nem uma Ação Bônus. Oculta, Discreta, Vestida e o Volume não conferem Leve. Arremessos seguem os atributos de acerto e dano das seções **Ataques** e **Dano e crítico**, em Regras gerais.",
+        "motivo": "Dados e atributos ficam nas duas seções indicadas."
+      },
+      {
+        "id": "REM-15",
+        "antes": "**Dano** informa os dados próprios e o tipo causado pelo ataque comum daquela arma. A aplicação de atributos e críticos está em Combate. Usar uma arma para outra finalidade, como golpear com a coronha, segue as regras de armas improvisadas.",
+        "depois": "**Dano** informa os dados próprios e o tipo causado pelo ataque comum daquela arma. A aplicação de atributos e críticos está nas seções **Ataques** e **Dano e crítico**, em Regras gerais. Usar uma arma para outra finalidade, como golpear com a coronha, segue as regras de armas improvisadas.",
+        "motivo": "Mesma remissão acima no início da tabela de armas."
+      },
+      {
+        "id": "REM-16",
+        "antes": "As propriedades e restrições são explicadas neste capítulo. **Alcance** indica 3 m no corpo a corpo; o alcance comum é 1,5 m. Quando houver **Longo Alcance**, os dois números são as faixas normal e longa, em metros. As regras de distância e obstáculos ficam em Combate.",
+        "depois": "As propriedades e restrições são explicadas neste capítulo. **Alcance** indica 3 m no corpo a corpo; o alcance comum é 1,5 m. Quando houver **Longo Alcance**, os dois números são as faixas normal e longa, em metros. As regras de distância e obstáculos ficam nas seções **Alcance** e **Defesa e cobertura**, em Regras gerais.",
+        "motivo": "Alcance trata distância do ataque; Defesa e cobertura reúne os obstáculos. Ambos são títulos existentes, ao contrário de Combate."
+      },
+      {
+        "id": "REM-17",
+        "antes": "Um Revestimento 1 custa todo o fundo padrão de ¥150.000. Quem o escolher não recebe uma arma comprada junto; os ataques desarmados seguem Combate. Essa é uma escolha possível, desde que a ficha cumpra os requisitos da peça.",
+        "depois": "Um Revestimento 1 custa todo o fundo padrão de ¥150.000. Quem o escolher não recebe uma arma comprada junto; os ataques desarmados seguem Ataques, em Regras gerais. Essa é uma escolha possível, desde que a ficha cumpra os requisitos da peça.",
+        "motivo": "O procedimento inclui ataques desarmados."
+      },
+      {
+        "id": "REM-UNIFORME",
+        "antes": "ainda não recupera a proteção passiva de energia:",
+        "depois": "ainda não recupera a proteção passiva disponível na ficha:",
+        "motivo": "Exemplo serve também a rota sem energia; não altera o cálculo."
+      }
+    ],
+    "diff": "--- \n+++ \n@@ -3,7 +3,7 @@\n \n Antes de entrar numa missão, escolha o que vai levar e anote onde cada item está: vestido, na mão, preso ao cinto ou guardado na mochila. Durante uma luta, essa posição determina o que você consegue alcançar e quais mãos estão disponíveis.\n \n-As tabelas deste capítulo apresentam armas, proteção, suprimentos e preços. Para pegar ou trocar um item, consulte [Sacar e guardar](#eq-manipular). Os ataques seguem Combate.\n+As tabelas deste capítulo apresentam armas, proteção, suprimentos e preços. Para pegar ou trocar um item, consulte [Sacar e guardar](#eq-manipular). Os ataques seguem Ataques, em Regras gerais.\n \n ## Características das armas\n \n@@ -121,7 +121,7 @@\n \n > **Exemplo:** com uma Kama de d6 e Força 3, Mei rola 2 e 5, escolhe 5 e soma 3: 8 de dano, antes de outros efeitos. Com uma arma de 2d6 e Par, rolaria dois conjuntos de 2d6 e escolheria a maior soma. Em um crítico que dobre esses dados, seriam dois conjuntos de 4d6.\n \n-Par e Leve não concedem outro ataque nem uma Ação Bônus. Oculta, Discreta, Vestida e o Volume não conferem Leve. Arremessos seguem os atributos de acerto e dano de Combate.\n+Par e Leve não concedem outro ataque nem uma Ação Bônus. Oculta, Discreta, Vestida e o Volume não conferem Leve. Arremessos seguem os atributos de acerto e dano das seções **Ataques** e **Dano e crítico**, em Regras gerais.\n \n <!-- page:eq-oculta|Armas escondidas -->\n # Armas escondidas\n@@ -279,7 +279,7 @@\n \n Começar a vestir um uniforme não concede seus benefícios antes de concluir. Se abandonar esse preparo, a peça não está pronta para uso. Pode guardá-la pelos custos normais de manipulação; uma nova tentativa de preparo começa do início. Até completar o preparo, você conserva a proteção que estava disponível sem ela.\n \n-> **Exemplo:** Rina tem Destreza 4 e Traje 2. Decide retirá-lo. Durante o minuto da tarefa, deixa de receber os 2 pontos do Traje e ainda não recupera a proteção passiva de energia: sua Defesa, sem escudo ou outros efeitos, é **14**. Ao concluir, recalcula a Defesa com a proteção passiva disponível na ficha.\n+> **Exemplo:** Rina tem Destreza 4 e Traje 2. Decide retirá-lo. Durante o minuto da tarefa, deixa de receber os 2 pontos do Traje e ainda não recupera a proteção passiva disponível na ficha: sua Defesa, sem escudo ou outros efeitos, é **14**. Ao concluir, recalcula a Defesa com a proteção passiva disponível na ficha.\n \n ## Preparar e guardar escudo\n \n@@ -400,11 +400,11 @@\n \n ## Dados da arma\n \n-**Dano** informa os dados próprios e o tipo causado pelo ataque comum daquela arma. A aplicação de atributos e críticos está em Combate. Usar uma arma para outra finalidade, como golpear com a coronha, segue as regras de armas improvisadas.\n+**Dano** informa os dados próprios e o tipo causado pelo ataque comum daquela arma. A aplicação de atributos e críticos está nas seções **Ataques** e **Dano e crítico**, em Regras gerais. Usar uma arma para outra finalidade, como golpear com a coronha, segue as regras de armas improvisadas.\n \n **Força** é o valor mínimo exigido para empunhar a arma sem a penalidade descrita neste capítulo. Um traço indica que não há requisito. **Volume** é a parcela da carga ocupada pela arma; os valores de munição de reserva ficam em Munição.\n \n-As propriedades e restrições são explicadas neste capítulo. **Alcance** indica 3 m no corpo a corpo; o alcance comum é 1,5 m. Quando houver **Longo Alcance**, os dois números são as faixas normal e longa, em metros. As regras de distância e obstáculos ficam em Combate.\n+As propriedades e restrições são explicadas neste capítulo. **Alcance** indica 3 m no corpo a corpo; o alcance comum é 1,5 m. Quando houver **Longo Alcance**, os dois números são as faixas normal e longa, em metros. As regras de distância e obstáculos ficam nas seções **Alcance** e **Defesa e cobertura**, em Regras gerais.\n \n ## Preços\n \n@@ -806,7 +806,7 @@\n \n > **Exemplo:** Rina dispõe de ¥150.000. Comprar um Traje 2 por ¥90.000 deixa **¥60.000**. Ela pode usar essa quantia para uma Katana de ¥48.000 e guardar os **¥12.000** restantes, ou escolher outro conjunto. A soma cabe no dinheiro inicial; carga e requisitos ainda precisam ser conferidos.\n \n-Um Revestimento 1 custa todo o fundo padrão de ¥150.000. Quem o escolher não recebe uma arma comprada junto; os ataques desarmados seguem Combate. Essa é uma escolha possível, desde que a ficha cumpra os requisitos da peça.\n+Um Revestimento 1 custa todo o fundo padrão de ¥150.000. Quem o escolher não recebe uma arma comprada junto; os ataques desarmados seguem Ataques, em Regras gerais. Essa é uma escolha possível, desde que a ficha cumpra os requisitos da peça.\n \n <!-- page:eqc-inicial|Equipamento inicial -->\n # Equipamento inicial\n",
+    "ajuste_layout": {
+      "antes": "Par e Leve não concedem outro ataque nem uma Ação Bônus. Oculta, Discreta, Vestida e o Volume não conferem Leve. Arremessos seguem os atributos de acerto e dano das seções **Ataques** e **Dano e crítico**, em Regras gerais.",
+      "depois": "Par e Leve não concedem ataque adicional nem Ação Bônus. Oculta, Discreta, Vestida e Volume não conferem Leve. Arremessos: **Ataques** e **Dano e crítico**, em Regras gerais.",
+      "motivo": "Condensar a remissão sem alterar restrições; impede parágrafo isolado e preserva 39 páginas."
+    }
+  },
+  {
+    "arquivo": "caminhos/bastiao/lote-01/BASTIAO.md",
+    "sha256_antes": "3334f5e2ff950bc79bbad12ae3f4c2b902e8fbf1539a22e64af7e8826cd14e9d",
+    "sha256_depois": "b1632e1f57b9892b35c66cf00d852621af5a237bcd6ebb214980a0fcea8469da",
+    "alteracoes": [
+      {
+        "id": "REM-08",
+        "antes": "Você pode usar mesmo se já estava abaixo da metade antes do golpe. Perder apenas vida temporária não cumpre o gatilho. Se tiver chegado a zero, siga Recuperação: essa cura não substitui seus requisitos para voltar a agir.",
+        "depois": "Você pode usar mesmo se já estava abaixo da metade antes do golpe. Perder apenas vida temporária não cumpre o gatilho. Se tiver chegado a zero, siga Socorro, em Dano e recuperação: essa cura não substitui seus requisitos para voltar a agir.",
+        "motivo": "Cura que não substitui o limiar de recuperação."
+      },
+      {
+        "id": "REM-09",
+        "antes": "Esta habilidade não muda o alvo do ataque nem transfere suas outras consequências. Também não é um Bloquear ou um ataque assumido por Olhos Em Mim. Se a parcela levar você a zero, siga as regras de Recuperação. Um aliado que já estava a zero não pode ser protegido por este gatilho.",
+        "depois": "Esta habilidade não muda o alvo do ataque nem transfere suas outras consequências. Também não é um Bloquear ou um ataque assumido por Olhos Em Mim. Se a parcela levar você a zero, siga Vida a zero, em Dano e recuperação. Um aliado que já estava a zero não pode ser protegido por este gatilho.",
+        "motivo": "Dano recebido causa queda; usar o destino de queda."
+      },
+      {
+        "id": "REM-10",
+        "antes": "A energia é recebida depois de resolver o gatilho e segue Recuperação. Ela não se soma ao que restar de outra reserva temporária. Novos sucessos podem repor o valor até maestria, mas não criar uma reserva crescente. Gastá-la não recupera uma ação ou Reação.",
+        "depois": "A energia é recebida depois de resolver o gatilho e segue Vida e energia temporárias, em Dano e recuperação. Ela não se soma ao que restar de outra reserva temporária. Novos sucessos podem repor o valor até maestria, mas não criar uma reserva crescente. Gastá-la não recupera uma ação ou Reação.",
+        "motivo": "A reserva mencionada é energia temporária."
+      }
+    ],
+    "diff": "--- \n+++ \n@@ -72,7 +72,7 @@\n \n **Uma vez por cena**, quando perder vida e terminar com metade da vida máxima ou menos, pode recuperar **1d8 + metade do seu nível, arredondada para baixo**, até o máximo. Não exige ação. Use depois de resolver o dano.\n \n-Você pode usar mesmo se já estava abaixo da metade antes do golpe. Perder apenas vida temporária não cumpre o gatilho. Se tiver chegado a zero, siga Recuperação: essa cura não substitui seus requisitos para voltar a agir.\n+Você pode usar mesmo se já estava abaixo da metade antes do golpe. Perder apenas vida temporária não cumpre o gatilho. Se tiver chegado a zero, siga Socorro, em Dano e recuperação: essa cura não substitui seus requisitos para voltar a agir.\n \n ## Nível 15 — Duro de Matar\n \n@@ -101,7 +101,7 @@\n \n > **Dano misto.** Depois das proteções e da reserva do aliado, restam 15 de Cortante e 6 de Fogo, nessa ordem. Com 10 de vida, ele perde 9 de Cortante e conserva 1. Você recebe **6 de Cortante e 6 de Fogo**. Resistência a Cortante deixa sua parcela em **3 + 6 = 9**. Sua Reação já gasta não impede Passa Pra Mim, mas a transferência não permite outro Bloquear.\n \n-Esta habilidade não muda o alvo do ataque nem transfere suas outras consequências. Também não é um Bloquear ou um ataque assumido por Olhos Em Mim. Se a parcela levar você a zero, siga as regras de Recuperação. Um aliado que já estava a zero não pode ser protegido por este gatilho.\n+Esta habilidade não muda o alvo do ataque nem transfere suas outras consequências. Também não é um Bloquear ou um ataque assumido por Olhos Em Mim. Se a parcela levar você a zero, siga Vida a zero, em Dano e recuperação. Um aliado que já estava a zero não pode ser protegido por este gatilho.\n \n <!-- page:bas-muro|Muro -->\n # Muro\n@@ -247,7 +247,7 @@\n \n O crítico de um ataque concedido somente por Reação ou Bônus não cumpre o primeiro gatilho. O segundo não exige que o TR venha de uma criatura dentro de Olhos Em Mim: essa área é requisito de Nem Um Arranhão, não de Embalo.\n \n-A energia é recebida depois de resolver o gatilho e segue Recuperação. Ela não se soma ao que restar de outra reserva temporária. Novos sucessos podem repor o valor até maestria, mas não criar uma reserva crescente. Gastá-la não recupera uma ação ou Reação.\n+A energia é recebida depois de resolver o gatilho e segue Vida e energia temporárias, em Dano e recuperação. Ela não se soma ao que restar de outra reserva temporária. Novos sucessos podem repor o valor até maestria, mas não criar uma reserva crescente. Gastá-la não recupera uma ação ou Reação.\n \n <!-- page:bas-oportunista|Oportunista e Contra a Parede -->\n # Oportunista e Contra a Parede\n"
+  },
+  {
+    "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+    "sha256_antes": "423da38b173df0e05f9b07ce1ba2edc1f69ac928cf2a9709da0c33cb5ed93ee9",
+    "sha256_depois": "009036700319e1d3371ef84f6889539416bb0130d494dc40a316bebf08b1d18c",
+    "alteracoes": [
+      {
+        "id": "REM-01",
+        "antes": "Um feitiço que acompanha outro ataque tem sua própria regra de crítico. Uma margem ampliada não transforma um 19 em 20 natural: o ataque ainda precisa acertar e continua sujeito a Aparar, salvo regra específica. Feitiços resolvidos por TR ou de modo Automático não causam crítico. Resistências, reduções e demais consequências do dano são tratadas em **Dano e Condições**.",
+        "depois": "Um feitiço que acompanha outro ataque tem sua própria regra de crítico. Uma margem ampliada não transforma um 19 em 20 natural: o ataque ainda precisa acertar e continua sujeito a Aparar, salvo regra específica. Feitiços resolvidos por TR ou de modo Automático não causam crítico. Resistências, reduções e demais consequências do dano são tratadas em **Dano e recuperação**.",
+        "motivo": "Capítulo renomeado; não existe Dano e Condições no painel."
+      }
+    ],
+    "diff": "--- \n+++ \n@@ -437,7 +437,7 @@\n \n > **Exemplo:** a Espada Longa de Sousuke causa 1d8 + 4. Num crítico, ele rola **2d8 + 4**. Se um benefício acrescentar 3d4, o total será **2d8 + 4 + 3d4**. Uma permissão expressa pode alterar quais dados adicionais dobram.\n \n-Um feitiço que acompanha outro ataque tem sua própria regra de crítico. Uma margem ampliada não transforma um 19 em 20 natural: o ataque ainda precisa acertar e continua sujeito a Aparar, salvo regra específica. Feitiços resolvidos por TR ou de modo Automático não causam crítico. Resistências, reduções e demais consequências do dano são tratadas em **Dano e Condições**.\n+Um feitiço que acompanha outro ataque tem sua própria regra de crítico. Uma margem ampliada não transforma um 19 em 20 natural: o ataque ainda precisa acertar e continua sujeito a Aparar, salvo regra específica. Feitiços resolvidos por TR ou de modo Automático não causam crítico. Resistências, reduções e demais consequências do dano são tratadas em **Dano e recuperação**.\n \n <!-- page:defesa|Defesa e cobertura -->\n # Defesa e cobertura\n"
+  }
+]

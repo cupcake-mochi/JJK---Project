@@ -1,0 +1,42 @@
+{
+  "sha256_pdf": "7ee626496d6b85db087388e174e9be5e83b5a393904cc0535ff5a9ae1a7b1b5e",
+  "metodo": "Renderização PNG e inspeção visual das nove páginas; texto, tabelas, margens, títulos e rodapés.",
+  "paginas": [
+    {
+      "pagina": 1,
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 2,
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 3,
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 4,
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 5,
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 6,
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 7,
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 8,
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 9,
+      "resultado": "sem defeito visual observado"
+    }
+  ]
+}

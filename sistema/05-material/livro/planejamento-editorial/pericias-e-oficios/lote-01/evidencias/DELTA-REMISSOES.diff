@@ -1,0 +1,20 @@
+--- antes
++++ depois
+@@ -66,7 +66,7 @@
+ <!-- page:fisicas|Perícias físicas -->
+ # Perícias físicas
+ 
+-Estas perícias cobrem esforço, equilíbrio e precisão. As regras de Movimento e Combate determinam quando um teste é necessário e o que o sucesso permite.
++Estas perícias cobrem esforço, equilíbrio e precisão. As seções Movimento e terreno e Ataques, em Regras gerais, determinam quando um teste é necessário e o que o sucesso permite.
+ 
+ ## Atletismo · Força
+ 
+@@ -150,7 +150,7 @@
+ 
+ Use Medicina para examinar ferimentos, sintomas e sinais do funcionamento do corpo. Uma observação pode indicar a causa provável de um mal-estar ou orientar a busca por tratamento.
+ 
+-O teste não recupera Vida, remove uma condição ou estabiliza alguém automaticamente. Tratamento e socorro seguem Recuperação e o efeito usado. Herbalismo cobre o preparo de substâncias, quando houver ingredientes e procedimento adequados.
++O teste não recupera Vida, remove uma condição ou estabiliza alguém automaticamente. Tratamento e socorro seguem o efeito usado e a seção Socorro, em Dano e recuperação. Herbalismo cobre o preparo de substâncias, quando houver ingredientes e procedimento adequados.
+ 
+ ## Sobrevivência
+ 

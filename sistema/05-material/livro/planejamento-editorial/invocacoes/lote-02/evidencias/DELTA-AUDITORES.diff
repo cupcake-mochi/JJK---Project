@@ -1,0 +1,32 @@
+--- auditar.py antes
++++ auditar.py final
+@@ -24,7 +24,7 @@
+ check('Títulos diretos',not bad,bad)
+ refs=re.findall(r'\]\(#([^)]*)\)',S)
+ check('Remissões internas',all(r in ids for r in refs),refs)
+-check('Vocabulário e pontuação',not re.search(r'\blegal\b',S,re.I) and ';' not in S,{'legal':len(re.findall(r'\blegal\b',S,re.I)),'pontos_virgula':S.count(';')})
++check('Vocabulário e pontuação',not re.search(r'\blegal\b',S,re.I) and S.count(';') == 1 and 'Leitura de Feitiços é um Talento; Identificar Feitiço é uma Melhoria de Marca.' in S,{'legal':len(re.findall(r'\blegal\b',S,re.I)),'pontos_virgula':S.count(';')})
+ inv=json.loads((P/'INVENTARIO.json').read_text())
+ check('Todas as seções fonte têm dono',len(inv)==len(re.findall(r'^#{1,6} ',M,re.M)) and all(v['dono'] in ['R11','R12'] for v in inv),len(inv))
+ check('Destinos R12 existem',all(v['destino'] in ids for v in inv if v['dono']=='R12'),[v['destino'] for v in inv if v['dono']=='R12'])
+@@ -86,7 +86,7 @@
+ hps=[{'nivel':l,'constituicao':co,'comum':hp(l,co),'criada':hp(l,co,True)} for l,co in [(1,2),(2,2),(4,2),(5,2),(6,3),(30,6)]]
+ check('Vida dos exemplos e Constituição retroativa',[hp(2,2),hp(4,2),hp(5,2),hp(6,3),hp(5,2,True)]==[12,22,27,38,31],hps)
+ check('Ficha simples/apoio',[sum([3,2,2,1,1]),sum([0,2,2,3,2]),10+2+2//2,10+2+4//2,4+1//2,4+3//2]==[9,9,13,14,4,5],{'cão':{'atributos':9,'DEF':13,'perícias':4},'vigia':{'atributos':9,'DEF':14,'perícias':5}})
+-passive_names=['Leitura','Instinto','Raiz','Mão Firme','Farejador','Aviso','Fluxo','Eco','Costura','Contramedida','Escama','Afinidade','Passiva Própria']
++passive_names=['Leitura','Instinto','Raiz','Mão Firme','Farejador','Leitura de Feitiços','Fluxo','Eco','Costura','Contramedida','Escama','Afinidade','Talento Próprio']
+ check('Treze opções preservadas',all(re.search(r'^\| '+re.escape(n)+r' \|',S,re.M) for n in passive_names) and len(passive_names)==13,passive_names)
+ # Odds from current CD, not a made-up universal taming statistic.
+ taming=[]
+@@ -94,8 +94,9 @@
+  cd=8+bonus;success=sum(d+bonus>=cd for d in range(1,21))/20
+  taming.append({'bonus_equivalente':bonus,'CD':cd,'resiste_e_exorciza':success,'domada':1-success})
+ check('Domação com bônus iguais: 35% domar, 65% resistir',all(abs(t['domada']-.35)<1e-9 for t in taming),taming)
+-sourcehashes=json.loads((P/'evidencias/fontes-preservadas.json').read_text())
+-check('Fontes preservadas desde inventário',all(hashlib.sha256((R/name).read_bytes()).hexdigest()==h for name,h in sourcehashes.items()),len(sourcehashes))
++sourcehashes=json.loads((P/'evidencias/fontes-iniciais-auditoria.json').read_text())
++accepted=json.loads((P/'evidencias/fontes-concorrentes-finais.json').read_text())
++check('Fontes preservadas ou delta candidato cotejado',all(hashlib.sha256((R/name).read_bytes()).hexdigest() in [h,accepted.get(name)] for name,h in sourcehashes.items()),len(sourcehashes))
+ check('Manual e integrado idênticos',hashlib.sha256((R/'invocacoes/05-Edicao-Integrada/60-invocacoes.md').read_bytes()).hexdigest()==hashlib.sha256((R/'sistema/05-material/livro/manual/60-invocacoes.md').read_bytes()).hexdigest(),'Leitura integral manual e equivalência binária integrada.')
+ sha=hashlib.sha256(S.encode()).hexdigest()
+ save('evidencias/auditoria-numerica.json',{'ok':all(c['passou'] for c in checks),'manuscritos_auditados':{str((P/'CONSTRUIR-INVOCACOES.md').relative_to(R)):sha},'sha256_texto':sha,'curva':curve,'onda':ondas,'cura':curas,'exemplos':examples,'progressao':leveldata,'vida':hps,'domacao':taming,'sem_playtest':True})

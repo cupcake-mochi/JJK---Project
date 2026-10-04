@@ -1,0 +1,14 @@
+[
+  {
+    "margem": 20,
+    "normal": 0.05,
+    "vantagem": 0.0975,
+    "desvantagem": 0.0025
+  },
+  {
+    "margem": 19,
+    "normal": 0.1,
+    "vantagem": 0.19,
+    "desvantagem": 0.01
+  }
+]

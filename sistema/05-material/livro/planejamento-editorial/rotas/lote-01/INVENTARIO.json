@@ -1,0 +1,457 @@
+[
+  {
+    "fonte": "sistema/05-material/livro/manual/42-tecnica-marcial.md",
+    "linha": 9,
+    "item": "Máquina herdada",
+    "destino": "rotas",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/42-tecnica-marcial.md",
+    "linha": 15,
+    "item": "`Kata`",
+    "destino": "rotas",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/42-tecnica-marcial.md",
+    "linha": 19,
+    "item": "`Ruptura`",
+    "destino": "rota-marcial",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/42-tecnica-marcial.md",
+    "linha": 25,
+    "item": "`Ōgi`",
+    "destino": "rota-marcial",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/42-tecnica-marcial.md",
+    "linha": 31,
+    "item": "Selo e Expansão de Domínio",
+    "destino": "rota-marcial",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/42-tecnica-marcial.md",
+    "linha": 39,
+    "item": "Rotas",
+    "destino": "rota-marcial",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/42-tecnica-marcial.md",
+    "linha": 43,
+    "item": "Rota de arma",
+    "destino": "rota-armas",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/42-tecnica-marcial.md",
+    "linha": 50,
+    "item": "Limites",
+    "destino": "rota-armas",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/42-tecnica-marcial.md",
+    "linha": 58,
+    "item": "Atributo",
+    "destino": "rota-armas",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/42-tecnica-marcial.md",
+    "linha": 74,
+    "item": "Rota de ferramenta",
+    "destino": "rota-ferramenta",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/42-tecnica-marcial.md",
+    "linha": 88,
+    "item": "Selo",
+    "destino": "rota-ferramenta",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/42-tecnica-marcial.md",
+    "linha": 102,
+    "item": "Ferir maldição",
+    "destino": "rota-ferramenta",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/42-tecnica-marcial.md",
+    "linha": 123,
+    "item": "Passivas",
+    "destino": "rota-passivas-marciais",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/42-tecnica-marcial.md",
+    "linha": 131,
+    "item": "`Calo`",
+    "destino": "rota-passivas-marciais",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/42-tecnica-marcial.md",
+    "linha": 139,
+    "item": "`Maldição do Inventário`",
+    "destino": "rota-passivas-marciais",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/42-tecnica-marcial.md",
+    "linha": 154,
+    "item": "`Leitura`",
+    "destino": "rota-passivas-marciais",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/42-tecnica-marcial.md",
+    "linha": 162,
+    "item": "`Segundo Fôlego`",
+    "destino": "rota-passivas-resposta",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/42-tecnica-marcial.md",
+    "linha": 172,
+    "item": "`Contragolpe`",
+    "destino": "rota-passivas-resposta",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/42-tecnica-marcial.md",
+    "linha": 182,
+    "item": "`Aliança`",
+    "destino": "rota-passivas-resposta",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/42-tecnica-marcial.md",
+    "linha": 192,
+    "item": "Técnicas Marciais prontas",
+    "destino": "rota-fisga",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/42-tecnica-marcial.md",
+    "linha": 194,
+    "item": "Fisga",
+    "destino": "rota-fisga",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/42-tecnica-marcial.md",
+    "linha": 210,
+    "item": "Bancada",
+    "destino": "rota-bancada",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/43-sem-tecnica.md",
+    "linha": 11,
+    "item": "Máquina herdada",
+    "destino": "rotas",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/43-sem-tecnica.md",
+    "linha": 17,
+    "item": "`Manejo`",
+    "destino": "rotas",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/43-sem-tecnica.md",
+    "linha": 23,
+    "item": "`Auge`",
+    "destino": "rota-sem-tecnica",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/43-sem-tecnica.md",
+    "linha": 29,
+    "item": "Liberação Máxima",
+    "destino": "rota-sem-tecnica",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/43-sem-tecnica.md",
+    "linha": 35,
+    "item": "Expansão de Domínio",
+    "destino": "rota-sem-tecnica",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/43-sem-tecnica.md",
+    "linha": 43,
+    "item": "Semente",
+    "destino": "rota-sementes",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/43-sem-tecnica.md",
+    "linha": 62,
+    "item": "`Domínio Simples`",
+    "destino": "rota-sementes",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/43-sem-tecnica.md",
+    "linha": 70,
+    "item": "`Energia Reversa`",
+    "destino": "rota-sementes",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/43-sem-tecnica.md",
+    "linha": 76,
+    "item": "Aptidão própria",
+    "destino": "rota-sementes",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/43-sem-tecnica.md",
+    "linha": 82,
+    "item": "Regra",
+    "destino": "rota-sem-tecnica",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/43-sem-tecnica.md",
+    "linha": 93,
+    "item": "Cura",
+    "destino": "rota-cura",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/43-sem-tecnica.md",
+    "linha": 101,
+    "item": "Passivas",
+    "destino": "rota-sem-tecnica",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/43-sem-tecnica.md",
+    "linha": 107,
+    "item": "Fundamentos prontos",
+    "destino": "rota-redoma",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/43-sem-tecnica.md",
+    "linha": 111,
+    "item": "Redoma",
+    "destino": "rota-redoma",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/43-sem-tecnica.md",
+    "linha": 126,
+    "item": "Sutura Fria",
+    "destino": "rota-sutura",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/47-bencaos-e-lapidacao.md",
+    "linha": 7,
+    "item": "Lapidação",
+    "destino": "rota-lapidacao",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/47-bencaos-e-lapidacao.md",
+    "linha": 21,
+    "item": "Marco",
+    "destino": "rota-lapidacao",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/47-bencaos-e-lapidacao.md",
+    "linha": 38,
+    "item": "Bênçãos",
+    "destino": "rota-bencaos",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/47-bencaos-e-lapidacao.md",
+    "linha": 42,
+    "item": "Classe Passiva",
+    "destino": "rota-bencaos",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/47-bencaos-e-lapidacao.md",
+    "linha": 50,
+    "item": "Requisito",
+    "destino": "rota-bencaos",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/47-bencaos-e-lapidacao.md",
+    "linha": 56,
+    "item": "Catálogo",
+    "destino": "rota-bencaos",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/47-bencaos-e-lapidacao.md",
+    "linha": 58,
+    "item": "Como funciona uma Bênção",
+    "destino": "rota-bencaos",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/47-bencaos-e-lapidacao.md",
+    "linha": 84,
+    "item": "Bênçãos de graça",
+    "destino": "rota-defesa",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/47-bencaos-e-lapidacao.md",
+    "linha": 88,
+    "item": "Defesa sem Armadura",
+    "destino": "rota-defesa",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/47-bencaos-e-lapidacao.md",
+    "linha": 109,
+    "item": "Estímulo Muscular",
+    "destino": "rota-estimulo",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/47-bencaos-e-lapidacao.md",
+    "linha": 125,
+    "item": "Bênçãos de corpo",
+    "destino": "rota-corpo",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/47-bencaos-e-lapidacao.md",
+    "linha": 127,
+    "item": "Ímpeto",
+    "destino": "rota-corpo",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/47-bencaos-e-lapidacao.md",
+    "linha": 135,
+    "item": "Casco",
+    "destino": "rota-corpo",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/47-bencaos-e-lapidacao.md",
+    "linha": 141,
+    "item": "Presilha",
+    "destino": "rota-corpo",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/47-bencaos-e-lapidacao.md",
+    "linha": 147,
+    "item": "Vigília",
+    "destino": "rota-corpo",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/47-bencaos-e-lapidacao.md",
+    "linha": 157,
+    "item": "Esteio",
+    "destino": "rota-combate",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/47-bencaos-e-lapidacao.md",
+    "linha": 165,
+    "item": "Bênçãos de perseguição",
+    "destino": "rota-perseguicao",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/47-bencaos-e-lapidacao.md",
+    "linha": 167,
+    "item": "Faro",
+    "destino": "rota-perseguicao",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/47-bencaos-e-lapidacao.md",
+    "linha": 175,
+    "item": "Sem Pegada",
+    "destino": "rota-perseguicao",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/47-bencaos-e-lapidacao.md",
+    "linha": 183,
+    "item": "Bênçãos de combate",
+    "destino": "rota-combate",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/47-bencaos-e-lapidacao.md",
+    "linha": 185,
+    "item": "Vulto",
+    "destino": "rota-perseguicao",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/47-bencaos-e-lapidacao.md",
+    "linha": 191,
+    "item": "Antecipar",
+    "destino": "rota-combate",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/47-bencaos-e-lapidacao.md",
+    "linha": 197,
+    "item": "Campo",
+    "destino": "rota-combate",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/47-bencaos-e-lapidacao.md",
+    "linha": 203,
+    "item": "Assombro",
+    "destino": "rota-combate",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/47-bencaos-e-lapidacao.md",
+    "linha": 213,
+    "item": "Escrever uma Bênção",
+    "destino": "rota-propria",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/47-bencaos-e-lapidacao.md",
+    "linha": 215,
+    "item": "Bênção Própria",
+    "destino": "rota-propria",
+    "disposicao": "consolidado; mudanças nos registros ALTERACOES"
+  },
+  {
+    "fonte": "sistema/03-mecanica/25-sem-tecnica.md",
+    "linha": 112,
+    "item": "Pétala: semente autorizada ausente no manual",
+    "destino": "rota-sementes",
+    "disposicao": "restaurado R10-06"
+  },
+  {
+    "fonte": "sistema/03-mecanica/25-sem-tecnica.md",
+    "linha": 286,
+    "item": "Espinho",
+    "destino": "rota-espinho",
+    "disposicao": "restaurado e ficha completa"
+  }
+]

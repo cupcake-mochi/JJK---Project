@@ -1,0 +1,323 @@
+{
+  "ok": true,
+  "manuscritos_auditados": {
+    "sistema/05-material/livro/planejamento-editorial/abertura/lote-01/ABERTURA-E-CRIACAO.md": "dbb34c8384587288ccebca3a7c4932f90c377ad0751677b48ede38f596f4dd29"
+  },
+  "verificacoes": [
+    {
+      "id": "fonte-preservada:05-introducao.md",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "fonte-preservada:08-inicio-rapido.md",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "fonte-preservada:20-criacao-de-personagem.md",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "fonte-preservada:PILOTO.md",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "fonte-preservada:preparacao-kaori.md",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "fonte-preservada:abertura-retorno-pos-r2.md",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "atributos-nove",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "atributos-limites",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "distribuicao-com-zero-permitida",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "sem-sobrar-pontos",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "pv-kaori",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "pe-kaori",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "defesa-kaori",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "tr-fisico",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "tr-vigor",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "tr-nao-treinado",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "atributo-ja-e-bonus",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "treinos-9-2",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "troca-dois-oficios",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "arma-retira-duas-pericias",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "tr-dois-distintos",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "fisico-permanente",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "espacos-nivel2",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "classezero-separada",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "classezero-fonte",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "toque-pontos",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "melhoria-livre-piso",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "ataque-kaori",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "cd-kaori",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "dano-sem-soco-atributo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "arma-permitida-nao-presumida",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "invocacao-por-espaco-especifica",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "repertorio-nao-completo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "criatura-nao-completa",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "protecao-nao-dupla",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "inicio-nivel-e-patente",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "uniforme-fundo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "carga",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "iniciativa",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "ataque-inimigo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "dano-inimigo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "custo-antes-dado",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "erro-gasta",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "acerto-feitico",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "dados-feitico",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "alcance",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "movimento",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "recursos-finais",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "efeito-sobrevivente",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "sem-restauro-fim-combate",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "sem-copia-habilidades",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "ponto-virgula",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulos-artigos",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulo-como-ler",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "medidas-de-combate",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "media-3d8",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "media-critico-6d8",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "chance-acerto-kaori",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "chance-nao-garantida",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "inimigo-nao-letalo1golpe",
+      "passou": true,
+      "detalhe": null
+    }
+  ],
+  "resultados": {
+    "distribuicoes_atributos": 135,
+    "estados_dano_3d8": 512,
+    "estados_dano_critico_6d8": 262144,
+    "chance_acerto_kaori_sem_bloquear": 0.65,
+    "chance_exorcismo_um_ataque_sem_bloquear": 0.3496726989746094,
+    "dano_medio_por_ataque_kaori": 9.45,
+    "dano_medio_por_ataque_criatura": 3.2
+  },
+  "limites": [
+    "Encontro didático parcial, não ficha de inimigo calibrada para publicação.",
+    "Distribuições não simulam decisões, posicionamento ou combate integral.",
+    "Regras de morte/Integridade ainda serão reconciliadas no livro.",
+    "Nenhum teste com jogadores."
+  ]
+}

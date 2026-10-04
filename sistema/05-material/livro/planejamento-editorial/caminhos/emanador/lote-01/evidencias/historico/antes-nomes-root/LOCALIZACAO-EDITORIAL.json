@@ -1,0 +1,17 @@
+{
+  "sha256_texto": "b71b2d1424a0b48971fee676d791cd9e1b9ca40207ea6b40f95344bdff31d48e",
+  "titulos_revisto": true,
+  "sem_explicacao_alheia": true,
+  "vocabulario_revisto": true,
+  "revisor": "compatibilidade — leitura integral contextual da autoria R16",
+  "excecoes_vocabulario": [],
+  "excecoes_localizacao": [
+    {
+      "termo": "Canalizar em Golpe",
+      "trecho": "São duas resoluções separadas. O feitiço não é acrescentado ao dano da arma, e o ataque conserva Canalizar em Golpe quando seus requisitos permitirem.",
+      "papel": "requisito",
+      "justificativa": "Cadência precisa distinguir sua resolução separada da conjuração transportada por um ataque, incompatível com Canalizar em R09. O trecho apenas conserva o requisito e não reproduz aquisição, dados, preço ou escalas da aptidão.",
+      "nao_reproduz_regra": true
+    }
+  ]
+}

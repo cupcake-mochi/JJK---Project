@@ -1,0 +1,69 @@
+{
+  "data": "2026-10-03",
+  "responsavel": "autor desta rodada",
+  "independente": false,
+  "teste_humano": false,
+  "sha256_texto": "63b1bafebf7b458ec752117944ce0e00154f53ced784dd1e93685c1b76c01c48",
+  "secoes": [
+    {
+      "id": "espacos",
+      "parecer": "Exemplo atualizado para a mudança aprovada; permissão geral continua distinta da habilidade.",
+      "criterios": [
+        "título e função",
+        "suficiência",
+        "excesso e redundância",
+        "localização",
+        "voz",
+        "consulta"
+      ]
+    },
+    {
+      "id": "rastejar",
+      "parecer": "Custo por trecho evita redução dupla; permanência de condições e apoio com procedimento próprio.",
+      "criterios": [
+        "título e função",
+        "suficiência",
+        "excesso e redundância",
+        "localização",
+        "voz",
+        "consulta"
+      ]
+    },
+    {
+      "id": "voo",
+      "parecer": "Modalidade exige fonte; referência cruzada a Carga. Números não atribuídos ao cânone.",
+      "criterios": [
+        "título e função",
+        "suficiência",
+        "excesso e redundância",
+        "localização",
+        "voz",
+        "consulta"
+      ]
+    },
+    {
+      "id": "carga",
+      "parecer": "Lembretes de requisito/Volume úteis; destino final em Equipamento evita duplicação integral.",
+      "criterios": [
+        "título e função",
+        "suficiência",
+        "excesso e redundância",
+        "localização",
+        "voz",
+        "consulta"
+      ]
+    },
+    {
+      "id": "incursor",
+      "parecer": "Referência temporária claramente do Caminho. Nível30 sem repetição; apoio e distância preservados.",
+      "criterios": [
+        "título e função",
+        "suficiência",
+        "excesso e redundância",
+        "localização",
+        "voz",
+        "consulta"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+
+========================================================================================
+1. A FORMULA REPRODUZ A CURVA DO MANUAL, NA ESSENCIA DE REFERENCIA
+========================================================================================
+  peca 24  -> Integridade = 20 + (Essencia + 5) x (nivel - 1)
+  peca 2   -> teto de atributo = 6
+  manual   -> curva original = 20 + 8 x (nivel - 1)
+
+  Essencia de referencia = teto 6 // 2 = 3   (o meio da escala)
+  [x] os 30 niveis coincidem exatamente (20 + (3 + 5) = 20 + 8)
+      nv2 = 28   nv30 = 252
+
+========================================================================================
+2. A REFERENCIA E DERIVADA, E NAO ESCRITA
+========================================================================================
+  [x] a referencia 3 sai de 6 // 2, e nao esta escrita em lugar nenhum como constante
+  [x] a secao 2 declara a derivacao ao lado da formula, e nao so na tabela
+
+========================================================================================
+3. UM PONTO DE ESSENCIA E UM DE CONSTITUICAO VALEM O MESMO
+========================================================================================
+  Constituicao aparece 2x na formula de vida  -> +1 Con vale nv por ponto
+  Essencia     aparece 1x na da Integridade    -> +1 Ess vale nv-1 por ponto
+  [x] a diferenca e exatamente 1 em todo nivel, e ela e a vida inicial
+      que a alma nao tem — nv30: Con vale +30, Essencia vale +29
+
+========================================================================================
+4. O ESTAGIO 4 NAO PODE SUMIR DA CAMPANHA
+========================================================================================
+  vida por Caminho, lida da peca 1 §5.1: Bastião 12/7 · Vanguarda 8/5 · Guia 8/5 · Evocador 6/4 · Emanador 6/4
+
+  grade: 4 niveis x 5 Caminhos x Con 0-6 x Ess 0-6 = 980 fichas
+  a alma e a barra menor em 326 delas (33.3%)
+  com a curva plana anterior seriam 329 (33.6%)
+  [x] a taxa se manteve. A Essencia mudou COM QUEM o estagio 4 acontece,
+      e nao quanto ele acontece
+
+========================================================================================
+5. OS QUATRO ESTAGIOS BATEM COM OS DO MANUAL
+========================================================================================
+  [x] as quatro fracoes, os quatro numeros e os tokens mecanicos de cada
+      linha batem entre a peca 24 §4 e o partF.js do manual
+
+========================================================================================
+6. O TESTE DE RESISTENCIA E UM DOS QUATRO QUE EXISTEM
+========================================================================================
+  a peca 1 §4 declara 4: Físico · Vigor · Intelecto · Espírito
+  [x] o dano de alma forca o TR de Espírito, e ele e um dos quatro
+  [x] o "Teste de Resistência de Integridade" nao existe em lugar nenhum do projeto nem do gerador
+
+========================================================================================
+7. EXATAMENTE UMA ENTRADA ATRAVESSA O CORPO, E ELA E O `Cisao`
+========================================================================================
+  [x] a peca 24 §3.2 declara a excecao
+  [x] o `Cisao` declara as duas metades: tira Integridade, e nao tira vida
+  [x] nenhuma outra entrada da peca 16 reivindica a excecao
+
+========================================================================================
+8. A EXCECAO SO E EXCECAO SE A REGRA GERAL LEVAR O CORPO JUNTO
+========================================================================================
+  [x] o SS3.1 acopla as duas: vida e Integridade
+  [x] o SS3.2 nega a vida que o SS3.1 afirma — as duas leituras se separam
+  [x] nenhum dos 7 documentos que publicam o dano de alma derruba a vida maxima
+  [x] e, com o acoplamento de pe, a excecao e igual ou pior na grade
+      inteira — que e o que faz o preco publicado continuar valendo
+
+========================================================================================
+9. QUEM NAO TEM CAMINHO TEM A LINHA DELE ESCRITA
+========================================================================================
+  [x] a peca 24 §3.3 declara a linha do inimigo
+  [x] e ela diz o motivo: inimigo nao tem Caminho nem Constituicao
+
+========================================================================================
+10. A FICHA DE EXEMPLO DA PECA 8 OBEDECE A FORMULA
+========================================================================================
+  a Kaori tem Essencia 1; a ficha imprime "25 + 1" = 26
+  [x] 26 sai de 20 + (1 + 5) x 1, e a conta esta a vista
+  [x] o Passo 7 escreve `25 + Essencia`, que e a formula no nivel 2
+
+========================================================================================
+11. A RECUPERACAO DAQUI E A DA PECA 10 DIZEM A MESMA COISA
+========================================================================================
+  peca 10 -> descanso curto: "**cheia**, e os estágios limpam"   descanso longo: "**cheia**, e os estágios limpam"
+  [x] a peca 24 §5 aponta para a peca 10 em vez de disputar a posse
+  [x] e a peca 24 carrega a metade que a peca 10 nao tem: cura nao devolve
+
+========================================================================================
+12. O MANUAL IMPRIME AS DUAS LINHAS DO INIMIGO
+========================================================================================
+  [x] a caixa `Integridade` do manual nomeia os dois lados: a regra da caixa e do
+      inimigo, e personagem tem formula propria
+  [x] o manual nao carrega a formula da peca 24 (`(Essência + 5)`): ele aponta
+  [x] a secao `Inimigos` manda anotar a barra, e a coluna de vida que ela cita existe
+
+========================================================================================
+13. A FRACAO DO INIMIGO, E O TERCO DO `Cisao` QUE SAI DELA
+========================================================================================
+  a peca 24 §3.3 publica: Integridade do inimigo = metade da vida maxima (1/2)
+  [x] a peca 26, a caixa e a secao `Inimigos` do manual e o glossario dizem a mesma fracao
+  [x] o gerador de inimigo divide por 2, nas duas fichas que ele imprime
+  [x] limite do `Cisao` = 1/2 / (1 + 1/2) = 1/3, publicado como "um terço"
+  [x] velocidade sozinho = 1 / 1/2 = 2.0x, e a peca 16 traz a mesma
+  [x] mesa padrao 4 (peca 26): a parte de cada um e 1/4, abaixo do limite; o empate cai na mesa de 3
+
+========================================================================================
+>>> TUDO OK — a formula reproduz a curva do manual na Essencia de referencia,
+    a referencia e derivada do teto, as duas reservas custam o mesmo por ponto,
+    o estagio 4 continua disparando, os quatro estagios batem com o manual,
+    o TR e um dos quatro que existem, so o `Cisao` atravessa o corpo e ele nao
+    ficou mais rapido, o inimigo tem alvo, a ficha de exemplo obedece, e a metade
+    do inimigo e a mesma em todo lugar, com o terco do `Cisao` saindo dela.

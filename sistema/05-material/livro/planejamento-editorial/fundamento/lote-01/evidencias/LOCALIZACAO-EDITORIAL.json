@@ -1,0 +1,21 @@
+{
+  "sha256_texto": "0160f774f5ea87f4ffd29bb7f7e3335dead51677bf2b894041aa61e2c5041273",
+  "titulos_revisto": true,
+  "sem_explicacao_alheia": true,
+  "vocabulario_revisto": true,
+  "excecoes_vocabulario": [],
+  "revisor": "Agente principal; leitura de todas as seções após correções dos revisores",
+  "notas": "Nomes de rotas explicam acesso e custo, sem reproduzir habilidades de caminho. Catálogo extensivo reservado a R07.",
+  "notas_estilo": "Seis subtítulos sem artigo; ponto e vírgula reduzido na prosa, conservado em tabelas. Texto semanticamente preservado, salvo sincronização Sem Volta/Vazio documentada.",
+  "revisao_remissao": "Parágrafo de Cura relido com o dono R09 Ferir maldições. Apenas remissão nominal adicionada. Custo, alvo e resolução permanecem no dono, sem cópia.",
+  "excecoes_localizacao": [
+    {
+      "termo": "Energia Reversa",
+      "trecho": "Uma Forma de cura não permite ferir um inimigo por conta própria. Para usar Cura contra uma maldição com Energia Reversa, consulte Ferir maldições, em Aptidões e Refino. Essa exceção tem requisitos e resolução próprios.",
+      "papel": "requisito",
+      "justificativa": "Nomeia requisito da exceção ofensiva e aponta a regra em Aptidões, sem reproduzir dados, alcance, custo ou resolução.",
+      "nao_reproduz_regra": true
+    }
+  ],
+  "delta_nominal_final": "DELTA-QA-FINAL.json"
+}

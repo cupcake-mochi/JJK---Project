@@ -1,0 +1,341 @@
+{
+  "fonte": "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md",
+  "entradas": [
+    {
+      "entrada": "Sequência de Condução",
+      "destino": "van-base",
+      "presente": true
+    },
+    {
+      "entrada": "Escola de Arma",
+      "destino": "van-base",
+      "presente": true
+    },
+    {
+      "entrada": "Versado",
+      "destino": "van-escola",
+      "presente": true
+    },
+    {
+      "entrada": "Não Cede",
+      "destino": "van-base",
+      "presente": true
+    },
+    {
+      "entrada": "Persistência",
+      "destino": "van-base",
+      "presente": true
+    },
+    {
+      "entrada": "Conclusão Dupla",
+      "destino": "van-base",
+      "presente": true
+    },
+    {
+      "entrada": "Compasso",
+      "destino": "van-estocada",
+      "presente": true
+    },
+    {
+      "entrada": "Conclusões de feitiço",
+      "destino": "van-estocada",
+      "presente": true
+    },
+    {
+      "entrada": "Bote",
+      "destino": "van-estocada",
+      "presente": true
+    },
+    {
+      "entrada": "Ferrão",
+      "destino": "van-estocada",
+      "presente": true
+    },
+    {
+      "entrada": "Soltura Preparada",
+      "destino": "van-yumi",
+      "presente": true
+    },
+    {
+      "entrada": "Segunda Leitura",
+      "destino": "van-yumi",
+      "presente": true
+    },
+    {
+      "entrada": "Soltura de Emergência",
+      "destino": "van-yumi",
+      "presente": true
+    },
+    {
+      "entrada": "Última Leitura",
+      "destino": "van-yumi",
+      "presente": true
+    },
+    {
+      "entrada": "Virotes Cravados",
+      "destino": "van-yumi",
+      "presente": true
+    },
+    {
+      "entrada": "Consumir a Farpa",
+      "destino": "van-yumi",
+      "presente": true
+    },
+    {
+      "entrada": "Fixação Cruzada",
+      "destino": "van-yumi",
+      "presente": true
+    },
+    {
+      "entrada": "Preparação Remanescente",
+      "destino": "van-yumi",
+      "presente": true
+    },
+    {
+      "entrada": "Combate Irregular",
+      "destino": "van-yumi",
+      "presente": true
+    },
+    {
+      "entrada": "Reorientar a Pressão",
+      "destino": "van-yumi",
+      "presente": true
+    },
+    {
+      "entrada": "Romper o Contato",
+      "destino": "van-yumi",
+      "presente": true
+    },
+    {
+      "entrada": "Plano de Continuidade",
+      "destino": "van-yumi",
+      "presente": true
+    },
+    {
+      "entrada": "Finta de Execução",
+      "destino": "van-executor",
+      "presente": true
+    },
+    {
+      "entrada": "Troca de Intenção",
+      "destino": "van-executor",
+      "presente": true
+    },
+    {
+      "entrada": "Dobrar a Aposta",
+      "destino": "van-executor",
+      "presente": true
+    },
+    {
+      "entrada": "Duas Intenções",
+      "destino": "van-executor",
+      "presente": true
+    },
+    {
+      "entrada": "Ponto Fraco",
+      "destino": "van-conclusoes",
+      "presente": true
+    },
+    {
+      "entrada": "Explorar a Cobertura",
+      "destino": "van-conclusoes",
+      "presente": true
+    },
+    {
+      "entrada": "Rasteira",
+      "destino": "van-conclusoes",
+      "presente": true
+    },
+    {
+      "entrada": "Desarme",
+      "destino": "van-conclusoes",
+      "presente": true
+    },
+    {
+      "entrada": "Interromper a Resposta",
+      "destino": "van-conclusoes",
+      "presente": true
+    },
+    {
+      "entrada": "Quebrar o Ritmo",
+      "destino": "van-conclusoes",
+      "presente": true
+    },
+    {
+      "entrada": "Fixar o Alvo",
+      "destino": "van-conducoes",
+      "presente": true
+    },
+    {
+      "entrada": "Ataque Extra",
+      "destino": "van-base",
+      "presente": true
+    },
+    {
+      "entrada": "Cortar a Resposta",
+      "destino": "van-feiticos",
+      "presente": true
+    },
+    {
+      "entrada": "Romper Fileira",
+      "destino": "van-feiticos",
+      "presente": true
+    },
+    {
+      "entrada": "Desorientar",
+      "destino": "van-feiticos",
+      "presente": true
+    },
+    {
+      "entrada": "Expor a Guarda",
+      "destino": "van-feiticos",
+      "presente": true
+    },
+    {
+      "entrada": "Ancorar",
+      "destino": "van-feiticos",
+      "presente": true
+    },
+    {
+      "entrada": "Refluxo",
+      "destino": "van-feiticos",
+      "presente": true
+    },
+    {
+      "entrada": "Bote e Ferrão são alternativas no mesmo turno",
+      "destino": "van-bote",
+      "presente": true
+    },
+    {
+      "entrada": "Antecipar o Gesto",
+      "destino": "van-yumi-conducoes",
+      "presente": true
+    },
+    {
+      "entrada": "Acompanhar a Abertura",
+      "destino": "van-yumi-conducoes",
+      "presente": true
+    },
+    {
+      "entrada": "Reter a Soltura",
+      "destino": "van-yumi-conducoes",
+      "presente": true
+    },
+    {
+      "entrada": "Flecha Intercessora",
+      "destino": "van-yumi-conducoes",
+      "presente": true
+    },
+    {
+      "entrada": "Flecha Desestabilizadora",
+      "destino": "van-yumi-conducoes",
+      "presente": true
+    },
+    {
+      "entrada": "Exemplo",
+      "destino": "van-sequencia",
+      "presente": true
+    },
+    {
+      "entrada": "Retirada",
+      "destino": "van-besta",
+      "presente": true
+    },
+    {
+      "entrada": "Cravar",
+      "destino": "van-besta",
+      "presente": true
+    },
+    {
+      "entrada": "Farpar",
+      "destino": "van-besta",
+      "presente": true
+    },
+    {
+      "entrada": "Acionar",
+      "destino": "van-besta",
+      "presente": true
+    },
+    {
+      "entrada": "Interditar a Ferramenta",
+      "destino": "van-besta-conclusoes",
+      "presente": true
+    },
+    {
+      "entrada": "Virote Debilitante",
+      "destino": "van-besta-conclusoes",
+      "presente": true
+    },
+    {
+      "entrada": "Fogo de Supressão",
+      "destino": "van-fogo",
+      "presente": true
+    },
+    {
+      "entrada": "Queima-Roupa",
+      "destino": "van-fogo",
+      "presente": true
+    },
+    {
+      "entrada": "Tiro Controlado",
+      "destino": "van-fogo",
+      "presente": true
+    },
+    {
+      "entrada": "Pressão Dominante",
+      "destino": "van-fogo",
+      "presente": true
+    },
+    {
+      "entrada": "Ruptura Tática",
+      "destino": "van-fogo-conclusoes",
+      "presente": true
+    },
+    {
+      "entrada": "Não Antecipar",
+      "destino": "van-executor",
+      "presente": true
+    },
+    {
+      "entrada": "Antecipar",
+      "destino": "van-yumi-conducoes",
+      "presente": true
+    },
+    {
+      "entrada": "Confirmar",
+      "destino": "van-executor",
+      "presente": true
+    },
+    {
+      "entrada": "Recuar da execução",
+      "destino": "van-executor",
+      "presente": true
+    },
+    {
+      "entrada": "Abalar a Ofensiva",
+      "destino": "van-executor",
+      "presente": true
+    },
+    {
+      "entrada": "Desguarnecer",
+      "destino": "van-executor",
+      "presente": true
+    },
+    {
+      "entrada": "Cortar o Gesto",
+      "destino": "van-executor",
+      "presente": true
+    },
+    {
+      "entrada": "Quebrar a Guarda",
+      "destino": "van-executor",
+      "presente": true
+    },
+    {
+      "entrada": "Dobrar a Aposta não combina com Conclusão Dupla",
+      "destino": "van-executor-avanco",
+      "presente": true
+    }
+  ],
+  "integral": true
+}

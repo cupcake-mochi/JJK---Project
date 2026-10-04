@@ -1,0 +1,217 @@
+{
+  "sha256_pdf": "3466b4066609bd841683fced382098abe3b6cc747296f0c3a636ef5a081dabde",
+  "sha256_texto": "a4d4b68bbed3c62efdc849ab32a08350694f6653bdeea08ec71874b5aada4980",
+  "metodo": "Inspeção efetiva das 30 páginas em provas sucessivas com view_image. Na versão final, reabertas 2 e20–30; 1 e3–19 mantêm pixels idênticos à prova já inspecionada. Comparações preservadas em COMPARACAO-FINAL-CONSULTA.json e registros parciais.",
+  "paginas": [
+    {
+      "pagina": 1,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página inspecionada em prova anterior e confirmada idêntica em pixels na final. Títulos, colunas, linhas, margens e rodapé legíveis; sem cortes ou sobreposição. Índice final curto não foi preenchido artificialmente.",
+      "sha256_png": "777086c974d369a33c03aa579af3a7842fa0534c150a4e7225d95ae7c9e30c21",
+      "revisor": "/root/maxima"
+    },
+    {
+      "pagina": 2,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página final aberta por view_image. Títulos, colunas, linhas, margens e rodapé legíveis; sem cortes ou sobreposição. Índice final curto não foi preenchido artificialmente.",
+      "sha256_png": "d62fae916f22903c751250a6068ef96426b9ccdcc3cdd859bbb9088bf0924fc9",
+      "revisor": "/root/maxima"
+    },
+    {
+      "pagina": 3,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página inspecionada em prova anterior e confirmada idêntica em pixels na final. Títulos, colunas, linhas, margens e rodapé legíveis; sem cortes ou sobreposição. Índice final curto não foi preenchido artificialmente.",
+      "sha256_png": "7e25e7e348582c2ab7381787a8bfd6c7064ee06109ed6029203b1957d6198f37",
+      "revisor": "/root/maxima"
+    },
+    {
+      "pagina": 4,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página inspecionada em prova anterior e confirmada idêntica em pixels na final. Títulos, colunas, linhas, margens e rodapé legíveis; sem cortes ou sobreposição. Índice final curto não foi preenchido artificialmente.",
+      "sha256_png": "0c869fdab339eea4893a72c49082db9e2cf4c01811f289fe153352521cf1d55c",
+      "revisor": "/root/maxima"
+    },
+    {
+      "pagina": 5,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página inspecionada em prova anterior e confirmada idêntica em pixels na final. Títulos, colunas, linhas, margens e rodapé legíveis; sem cortes ou sobreposição. Índice final curto não foi preenchido artificialmente.",
+      "sha256_png": "a5b22b9e9197481428c502c1f9e783fab57d6448498da3cf943a039ab1ba17ba",
+      "revisor": "/root/maxima"
+    },
+    {
+      "pagina": 6,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página inspecionada em prova anterior e confirmada idêntica em pixels na final. Títulos, colunas, linhas, margens e rodapé legíveis; sem cortes ou sobreposição. Índice final curto não foi preenchido artificialmente.",
+      "sha256_png": "de7e8b7b4ac6830d8c4ce92d431cea70c268f473eb6b8c721c4f7e636080cea9",
+      "revisor": "/root/maxima"
+    },
+    {
+      "pagina": 7,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página inspecionada em prova anterior e confirmada idêntica em pixels na final. Títulos, colunas, linhas, margens e rodapé legíveis; sem cortes ou sobreposição. Índice final curto não foi preenchido artificialmente.",
+      "sha256_png": "4f4c9c84ac66a8f2f581225395390db42c496fe17c4a80d56e24b3d294726fe2",
+      "revisor": "/root/maxima"
+    },
+    {
+      "pagina": 8,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página inspecionada em prova anterior e confirmada idêntica em pixels na final. Títulos, colunas, linhas, margens e rodapé legíveis; sem cortes ou sobreposição. Índice final curto não foi preenchido artificialmente.",
+      "sha256_png": "ea1ca1221cb2f3dfa6e81a6804088a4be9da9536b67ebe87f9bef957f22f0f7d",
+      "revisor": "/root/maxima"
+    },
+    {
+      "pagina": 9,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página inspecionada em prova anterior e confirmada idêntica em pixels na final. Títulos, colunas, linhas, margens e rodapé legíveis; sem cortes ou sobreposição. Índice final curto não foi preenchido artificialmente.",
+      "sha256_png": "dae2958b372f63250a7eafc1892165e5a5efec921e70020af3e06d0993751c8f",
+      "revisor": "/root/maxima"
+    },
+    {
+      "pagina": 10,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página inspecionada em prova anterior e confirmada idêntica em pixels na final. Títulos, colunas, linhas, margens e rodapé legíveis; sem cortes ou sobreposição. Índice final curto não foi preenchido artificialmente.",
+      "sha256_png": "1b5d5cab60a07c67234de8ccec089f50e02caa1f17d1ebad8477683bfa01876c",
+      "revisor": "/root/maxima"
+    },
+    {
+      "pagina": 11,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página inspecionada em prova anterior e confirmada idêntica em pixels na final. Títulos, colunas, linhas, margens e rodapé legíveis; sem cortes ou sobreposição. Índice final curto não foi preenchido artificialmente.",
+      "sha256_png": "ba75fec57f4f427ae1c09b2519de26274a21298b8c0139610ff7c7e4283051f0",
+      "revisor": "/root/maxima"
+    },
+    {
+      "pagina": 12,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página inspecionada em prova anterior e confirmada idêntica em pixels na final. Títulos, colunas, linhas, margens e rodapé legíveis; sem cortes ou sobreposição. Índice final curto não foi preenchido artificialmente.",
+      "sha256_png": "1c55c1c5292c408a72720d75b589f7547ab6b43da361551ed200c717fccac373",
+      "revisor": "/root/maxima"
+    },
+    {
+      "pagina": 13,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página inspecionada em prova anterior e confirmada idêntica em pixels na final. Títulos, colunas, linhas, margens e rodapé legíveis; sem cortes ou sobreposição. Índice final curto não foi preenchido artificialmente.",
+      "sha256_png": "e25ba53b8373e0fafaf83bc6380c629b568808b09032846ebd7ebfe9d04e1c54",
+      "revisor": "/root/maxima"
+    },
+    {
+      "pagina": 14,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página inspecionada em prova anterior e confirmada idêntica em pixels na final. Títulos, colunas, linhas, margens e rodapé legíveis; sem cortes ou sobreposição. Índice final curto não foi preenchido artificialmente.",
+      "sha256_png": "2e2d5e3ebc056e39d6fc6f43ab5fb5bbb82e7134dc87d0f6615519b15dd97746",
+      "revisor": "/root/maxima"
+    },
+    {
+      "pagina": 15,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página inspecionada em prova anterior e confirmada idêntica em pixels na final. Títulos, colunas, linhas, margens e rodapé legíveis; sem cortes ou sobreposição. Índice final curto não foi preenchido artificialmente.",
+      "sha256_png": "7b87a81623e4e676c736853a38dd2122d5b6970e00f0e866c8bb07eb417a425f",
+      "revisor": "/root/maxima"
+    },
+    {
+      "pagina": 16,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página inspecionada em prova anterior e confirmada idêntica em pixels na final. Títulos, colunas, linhas, margens e rodapé legíveis; sem cortes ou sobreposição. Índice final curto não foi preenchido artificialmente.",
+      "sha256_png": "ed657906694bdae02a925224f575f5d80e9cde2e721c1223eca8e59e983b01cb",
+      "revisor": "/root/maxima"
+    },
+    {
+      "pagina": 17,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página inspecionada em prova anterior e confirmada idêntica em pixels na final. Títulos, colunas, linhas, margens e rodapé legíveis; sem cortes ou sobreposição. Índice final curto não foi preenchido artificialmente.",
+      "sha256_png": "bf212ed04e394431f234890661cea11857a88bc336486ce83c6f0fa41634f7c2",
+      "revisor": "/root/maxima"
+    },
+    {
+      "pagina": 18,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página inspecionada em prova anterior e confirmada idêntica em pixels na final. Títulos, colunas, linhas, margens e rodapé legíveis; sem cortes ou sobreposição. Índice final curto não foi preenchido artificialmente.",
+      "sha256_png": "fe7297963f396a5705eb6d4995825cdc0649e30a40e6559c97512a046836711b",
+      "revisor": "/root/maxima"
+    },
+    {
+      "pagina": 19,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página inspecionada em prova anterior e confirmada idêntica em pixels na final. Títulos, colunas, linhas, margens e rodapé legíveis; sem cortes ou sobreposição. Índice final curto não foi preenchido artificialmente.",
+      "sha256_png": "e3eeb3da425049953d32590338855bc6c851ad8554e2a2b774d1e2ebaa603091",
+      "revisor": "/root/maxima"
+    },
+    {
+      "pagina": 20,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página final aberta por view_image. Títulos, colunas, linhas, margens e rodapé legíveis; sem cortes ou sobreposição. Índice final curto não foi preenchido artificialmente.",
+      "sha256_png": "aa639ed77ffbdd6ed0f500cdf7d2dde271ac8e55b68426005d4e17096f9e7939",
+      "revisor": "/root/maxima"
+    },
+    {
+      "pagina": 21,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página final aberta por view_image. Títulos, colunas, linhas, margens e rodapé legíveis; sem cortes ou sobreposição. Índice final curto não foi preenchido artificialmente.",
+      "sha256_png": "5383d1b5859193b7ad4ea970b30e7f2e67a7348baabffbb5fe4d9cd79d5a44fd",
+      "revisor": "/root/maxima"
+    },
+    {
+      "pagina": 22,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página final aberta por view_image. Títulos, colunas, linhas, margens e rodapé legíveis; sem cortes ou sobreposição. Índice final curto não foi preenchido artificialmente.",
+      "sha256_png": "7209eb2bd7ef90b35713b611c0be7ab66f6b8bd37cfe7e7cc4b883440459d55c",
+      "revisor": "/root/maxima"
+    },
+    {
+      "pagina": 23,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página final aberta por view_image. Títulos, colunas, linhas, margens e rodapé legíveis; sem cortes ou sobreposição. Índice final curto não foi preenchido artificialmente.",
+      "sha256_png": "e8669a228169d4bea12538542faf5ecd416d8dc7c6bc4939fb5b5414326a0d53",
+      "revisor": "/root/maxima"
+    },
+    {
+      "pagina": 24,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página final aberta por view_image. Títulos, colunas, linhas, margens e rodapé legíveis; sem cortes ou sobreposição. Índice final curto não foi preenchido artificialmente.",
+      "sha256_png": "b22cb9502947f7fbfe68f9dfe6b08f0ece6eed6f8a9a2997dcbbd77e3ac57778",
+      "revisor": "/root/maxima"
+    },
+    {
+      "pagina": 25,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página final aberta por view_image. Títulos, colunas, linhas, margens e rodapé legíveis; sem cortes ou sobreposição. Índice final curto não foi preenchido artificialmente.",
+      "sha256_png": "dcf25f5826cb97e4c0bd3c77be9b80922f1d11fd790faaf11b927be41a4ae094",
+      "revisor": "/root/maxima"
+    },
+    {
+      "pagina": 26,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página final aberta por view_image. Títulos, colunas, linhas, margens e rodapé legíveis; sem cortes ou sobreposição. Índice final curto não foi preenchido artificialmente.",
+      "sha256_png": "ef5bdcb1338f3e2a295196f21b92465b361342dbc3ae3ac227b14be589a34980",
+      "revisor": "/root/maxima"
+    },
+    {
+      "pagina": 27,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página final aberta por view_image. Títulos, colunas, linhas, margens e rodapé legíveis; sem cortes ou sobreposição. Índice final curto não foi preenchido artificialmente.",
+      "sha256_png": "fd36e331f1f7ee3e8abb1bfef4b647b847da56ed831ee0b5dbdc41d0e006cffb",
+      "revisor": "/root/maxima"
+    },
+    {
+      "pagina": 28,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página final aberta por view_image. Títulos, colunas, linhas, margens e rodapé legíveis; sem cortes ou sobreposição. Índice final curto não foi preenchido artificialmente.",
+      "sha256_png": "2de621d543439159400b0cf14b9ca6ac11c9e205337ab47c40455f949580c777",
+      "revisor": "/root/maxima"
+    },
+    {
+      "pagina": 29,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página final aberta por view_image. Títulos, colunas, linhas, margens e rodapé legíveis; sem cortes ou sobreposição. Índice final curto não foi preenchido artificialmente.",
+      "sha256_png": "a7eba519132c50517ec797fab92dea5edb205019a1714b6c9b15db8ca6176298",
+      "revisor": "/root/maxima"
+    },
+    {
+      "pagina": 30,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página final aberta por view_image. Títulos, colunas, linhas, margens e rodapé legíveis; sem cortes ou sobreposição. Índice final curto não foi preenchido artificialmente.",
+      "sha256_png": "8b51f0abc11a795cb6c3daea96ec30cb3ba7d3b8745c1e5ff738133cac08c7bb",
+      "revisor": "/root/maxima"
+    }
+  ]
+}

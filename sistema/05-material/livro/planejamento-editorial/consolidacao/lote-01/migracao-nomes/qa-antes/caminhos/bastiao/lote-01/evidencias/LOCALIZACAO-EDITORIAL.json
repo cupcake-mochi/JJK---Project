@@ -1,0 +1,17 @@
+{
+  "sha256_texto": "3334f5e2ff950bc79bbad12ae3f4c2b902e8fbf1539a22e64af7e8826cd14e9d",
+  "titulos_revisto": true,
+  "sem_explicacao_alheia": true,
+  "vocabulario_revisto": true,
+  "revisor": "/root/compatibilidade — leitura integral da candidata, fontes e interfaces; não representa leitor humano",
+  "excecoes_vocabulario": [],
+  "excecoes_localizacao": [
+    {
+      "termo": "Canalizar em Golpe",
+      "trecho": "Antes de rolar, escolha o primeiro ou o segundo ataque da ação para acompanhar o feitiço. Confira a vida nesse momento. Se só tiver um ataque, escolha esse primeiro. O ataque escolhido não recebe Canalizar em Golpe, nem o benefício correspondente da rota sem energia.",
+      "papel": "incompatibilidade",
+      "justificativa": "Contra a Parede precisa excluir nominalmente Canalizar no ataque escolhido, decisão humana expressa; não explica dados, aquisição ou uso da aptidão.",
+      "nao_reproduz_regra": true
+    }
+  ]
+}

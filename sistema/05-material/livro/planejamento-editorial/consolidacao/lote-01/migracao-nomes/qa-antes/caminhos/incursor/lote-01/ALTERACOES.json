@@ -1,0 +1,194 @@
+{
+  "sha256_texto": "cd608cb7a2ad671becaef2da0b56ee77229a24f8212df1dbbbf7b002e9f268d4",
+  "decisoes": [
+    {
+      "id": "INC-01",
+      "tipo": "editorial",
+      "antes": "Documento corrido, headings profundos e tabelas sem autonomia.",
+      "depois": "26 blocos com títulos diretos e regras agrupadas; mesmos nomes aprovados.",
+      "motivo": "Consulta e navegação; não foi usado mínimo de palavras para preencher página.",
+      "fonte": "Integrada completa",
+      "ancora": "inc-caminho"
+    },
+    {
+      "id": "INC-02",
+      "tipo": "editorial",
+      "antes": "Vida inicial antes da Constituição; ganho4 solto.",
+      "depois": "6+Con inicial,4+Con seguintes,PE6×nível e fórmula completa.",
+      "motivo": "Eliminar leitura de Vida sem Constituição.",
+      "fonte": "Integrada1–26; manual20",
+      "ancora": "inc-caminho"
+    },
+    {
+      "id": "INC-03",
+      "tipo": "sincronizacao-aprovada",
+      "antes": "Movimento Acrobático atravessa até uma categoria maior; nível30qualquer.",
+      "depois": "Qualquer tamanho no nível2; retirar duplicação do nível30.",
+      "motivo": "Pedido expresso do usuário, já presente em sincronização de movimento.",
+      "fonte": "regras-comuns/lote-06-r3/sincronizacoes/INCURSOR-COMPLETO.md",
+      "ancora": "inc-movimento"
+    },
+    {
+      "id": "INC-04",
+      "tipo": "localizacao",
+      "antes": "Cota, renovação, terreno e saltos explicados no capítulo geral.",
+      "depois": "Transferir procedimento ao Incursor; manter salto comum no dono.",
+      "motivo": "Habilidade específica precisa ter um dono; retirar reprodução externa após integração.",
+      "fonte": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md:520–539",
+      "ancora": "inc-movimento"
+    },
+    {
+      "id": "INC-05",
+      "tipo": "fechamento-mecanico",
+      "antes": "Fluidez dura até ficar Incapacitado; obtenção durante estado não explicitada.",
+      "depois": "Não pode ganhar nem manter Fluidez enquanto Incapacitado.",
+      "motivo": "Impede adquirir novamente no evento seguinte enquanto ainda está na condição que encerra o recurso. Não altera a capacidade de agir definida por Incapacitado.",
+      "fonte": "Integrada52–65",
+      "ancora": "inc-fluidez"
+    },
+    {
+      "id": "INC-06",
+      "tipo": "editorial",
+      "antes": "Seis usos na mesma tabela longa.",
+      "depois": "Usos ofensivos e respostas em duas páginas; explicar ciclo e um exemplo temporal.",
+      "motivo": "Evita confundir ganho após erro com requisito de já ter Fluidez antes da declaração.",
+      "fonte": "Integrada52–92",
+      "ancora": "inc-respostas"
+    },
+    {
+      "id": "INC-07",
+      "tipo": "editorial",
+      "antes": "Esquivar repetido no nível7 e Guarda.",
+      "depois": "Remeter à ação, preservando os prazos próprios.",
+      "motivo": "Dono da ação explica benefícios gerais; habilidade explica custo e janela.",
+      "fonte": "Integrada84–92,380–391",
+      "ancora": "inc-base"
+    },
+    {
+      "id": "INC-08",
+      "tipo": "mecanica-autorizada",
+      "antes": "Volume leve ou Fineza usado como requisito; rebalance de carga removeu a antiga classificação.",
+      "depois": "Leve passa a ser propriedade de manejo, independente de Volume/Oculta/Discreta.",
+      "motivo": "Preservar requisito pedido pelo usuário sem confundir carga e elegibilidade. Sincronização proposta em R05, não aplicada aqui.",
+      "fonte": "manual50:245–299; ARMAS.md lote04-r4",
+      "ancora": "inc-assassino"
+    },
+    {
+      "id": "INC-09",
+      "tipo": "mecanica-autorizada",
+      "antes": "Taco elegível por antigo Volume leve decorrente de Oculta.",
+      "depois": "Taco deixa de ser elegível;21das52 armas permanecem;19recebemLeve.",
+      "motivo": "Discrição social não torna um taco ferramenta de execução precisa. Cortes decorrentes do erro anterior autorizados pela raiz.",
+      "fonte": "evidencias/ELEGIBILIDADE-ARMAS.json",
+      "ancora": "inc-assassino"
+    },
+    {
+      "id": "INC-10",
+      "tipo": "preservacao-deliberada",
+      "antes": "Pistola,Revólver,Besta de Uma Mão tinham Volume leve; Golpe/Cortar/Sentença não restringem ataque a corpo a corpo.",
+      "depois": "Três permanecem elegíveis por Leve; procedimentos que exigem corpo a corpo preservam o requisito.",
+      "motivo": "Evitar uma redução de acesso não pedida; separar compatibilidade deliberada de acidente da coluna de peso.",
+      "fonte": "Integrada147–218,261–305",
+      "ancora": "inc-assassino"
+    },
+    {
+      "id": "INC-11",
+      "tipo": "editorial",
+      "antes": "Combinação com Instante Decisivo explicada antes de Cortar e repetia exemplo inteiro de dano.",
+      "depois": "Uma seção de combinação junto do gasto de Fluidez; exemplo curto4ou8PE,mesmosdados.",
+      "motivo": "Tornar explícito que os4PE extras não compram dano e não geram segunda Fluidez.",
+      "fonte": "Integrada194–218",
+      "ancora": "inc-cortar"
+    },
+    {
+      "id": "INC-12",
+      "tipo": "sincronizacao",
+      "antes": "Empurrão de Sentença sem direção explícita.",
+      "depois": "Para longe de você, conforme Empurrar e Cortar a Fuga.",
+      "motivo": "Fecha direção sem inventar puxão ou teletransporte; mantém3m.",
+      "fonte": "Integrada291–305; REGRAS-COMUNS:manobras",
+      "ancora": "inc-brecha"
+    },
+    {
+      "id": "INC-13",
+      "tipo": "editorial",
+      "antes": "Parkour tinha exemplo sem distâncias.",
+      "depois": "Exemplo12m:6parede+4,5salto,CD14comAcrobacia+4;resta1,5.",
+      "motivo": "Mostrar quota separada do movimento e teste de salto, sem criar ataque extra.",
+      "fonte": "REGRAS-COMUNS:537–539; Integrada220–259",
+      "ancora": "inc-parkour"
+    },
+    {
+      "id": "INC-14",
+      "tipo": "localizacao",
+      "antes": "CD do Pugilista para manobras desarmadas escrita só nas regras comuns.",
+      "depois": "Declarada na Trilha, custos e efeitos continuam na manobra geral.",
+      "motivo": "Remover aparente contradição com frase de testes gerais e manter acesso já aprovado.",
+      "fonte": "REGRAS-COMUNS:manobras; Integrada323–331",
+      "ancora": "inc-pugilista"
+    },
+    {
+      "id": "INC-15",
+      "tipo": "compatibilidade",
+      "antes": "Levantar em Recuperar a Base sem menção a Derrubado mantido.",
+      "depois": "Precisa apoio e encerrar efeito que mantenha Derrubado.",
+      "motivo": "Condição sustentada não é removida de graça; respeitar R03 e regra geral de Levantar.",
+      "fonte": "Integrada366–376; DANO-E-CONDICOES:Derrubado",
+      "ancora": "inc-base"
+    },
+    {
+      "id": "INC-16",
+      "tipo": "localizacao",
+      "antes": "Limiar anterior de empurrão e dano de colisão sem queda estavam nas regras comuns.",
+      "depois": "Limiar usa deslocamento anterior; retorno usa atual; colisão copia somente projeção.",
+      "motivo": "Expor cálculos no dono; impedir que queda ampliada de um alvo seja copiada em outro.",
+      "fonte": "REGRAS-COMUNS:Respostas e outras travessias",
+      "ancora": "inc-projecao"
+    },
+    {
+      "id": "INC-17",
+      "tipo": "editorial",
+      "antes": "Lento e Impedido definidos novamente junto do uso.",
+      "depois": "Nome e duração mantidos; descrição completa fica em Condições.",
+      "motivo": "Eliminar cópia e impedir divergência futura, sem alterar efeitos.",
+      "fonte": "Integrada358–364,413–423",
+      "ancora": "inc-interceptar"
+    },
+    {
+      "id": "INC-18",
+      "tipo": "editorial",
+      "antes": "Redirecionar longo com requisitos/resolução juntos.",
+      "depois": "Duas páginas contíguas com custos/requisitos e resolução pelo d20 já escolhido; exemplo17vs18/15.",
+      "motivo": "Manter alcance medido do agressor, autoria, custos já pagos e janelas válidas.",
+      "fonte": "Integrada451–481",
+      "ancora": "inc-redirecionar-resolucao"
+    },
+    {
+      "id": "INC-19",
+      "tipo": "editorial",
+      "antes": "Continuações apresentadas em vários blocos longos.",
+      "depois": "Quadro comum conservado e texto de Cruzado reduzido; custo compartilhado explícito.",
+      "motivo": "Evita somar Cruzado+Retorno+Finta; correção continua pertencendo ao mesmo ataque.",
+      "fonte": "Integrada496–638",
+      "ancora": "inc-continuacoes"
+    },
+    {
+      "id": "INC-20",
+      "tipo": "preservacao",
+      "antes": "X porDex/Int−1,dobraCanalizar,preços3/4/6/12 e progressão d6–d12 aprovados.",
+      "depois": "Valores integralmente mantidos e auditados.",
+      "motivo": "A presente unidade é revisão e compatibilidade; não reabre design aprovado por suspeita sem modelo suficiente.",
+      "fonte": "Integrada completa",
+      "ancora": "inc-cirurgico"
+    },
+    {
+      "id": "INC-21",
+      "tipo": "editorial",
+      "antes": "O treino permite usar as armas; compre seu equipamento conforme as regras de criação.",
+      "depois": "Os treinos entram na criação. Adquira as armas e cumpra os requisitos de cada uma.",
+      "motivo": "Revisão independente identificou que a redação podia sugerir proibição geral de usar armas sem treino. Treino e requisitos de equipamento são regras diferentes.",
+      "fonte": "Revisão independente da raiz e regras correntes de equipamentos",
+      "ancora": "inc-caminho"
+    }
+  ]
+}

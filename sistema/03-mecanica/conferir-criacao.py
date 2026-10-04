@@ -148,8 +148,9 @@ print(f'  maestria inicial:           {MAESTRIA}   (peca 8)')
 print(f'  refino inicial:             {REFINO}   (peca 8)')
 print(f'  protecao de cobrir-se:      {PROTECAO}   (peca 11: 1/3 do refino + {PROT_MAIS})')
 print(f'  Caminhos lidos da peca 8:   {len(CAMINHOS)} — {", ".join(sorted(CAMINHOS))}')
-if len(CAMINHOS) != 5:
-    erro(f'esperava 5 Caminhos na tabela do passo 3 e achei {len(CAMINHOS)}')
+_nomes_cam331 = set(re.findall(r'^\| \*\*([^*]+)\*\* \|', P6.split('## 2.')[0], re.M))
+if not _nomes_cam331 or set(CAMINHOS) != _nomes_cam331:
+    erro(f'Caminhos do passo 3 diferem da peca 6: {sorted(CAMINHOS)} / {sorted(_nomes_cam331)}')
 
 
 # ==========================================================================

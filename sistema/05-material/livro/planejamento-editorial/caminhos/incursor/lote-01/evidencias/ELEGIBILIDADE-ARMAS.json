@@ -1,0 +1,522 @@
+[
+  {
+    "arma": "Bastão",
+    "maos": 1,
+    "propriedades": "Versátil · Alcance · Rompe",
+    "volume": "1",
+    "elegivel": false,
+    "leve_nova": false,
+    "elegivel_nova": false,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Besta",
+    "maos": 2,
+    "propriedades": "Longo Alcance · Munição · Rompe",
+    "volume": "2",
+    "elegivel": false,
+    "leve_nova": false,
+    "elegivel_nova": false,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Besta de Uma Mão",
+    "maos": 1,
+    "propriedades": "Longo Alcance · Munição · Oculta",
+    "volume": "leve",
+    "elegivel": true,
+    "leve_nova": true,
+    "elegivel_nova": true,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Bō",
+    "maos": 2,
+    "propriedades": "Alcance · Emaranha",
+    "volume": "2",
+    "elegivel": false,
+    "leve_nova": false,
+    "elegivel_nova": false,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Canivete",
+    "maos": 1,
+    "propriedades": "Fineza · Oculta · Rompe",
+    "volume": "leve",
+    "elegivel": true,
+    "leve_nova": true,
+    "elegivel_nova": true,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Cassetete",
+    "maos": 1,
+    "propriedades": "Oculta · Vestida",
+    "volume": "leve",
+    "elegivel": true,
+    "leve_nova": true,
+    "elegivel_nova": true,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Chakram",
+    "maos": 1,
+    "propriedades": "Longo Alcance · Fineza · Oculta",
+    "volume": "leve",
+    "elegivel": true,
+    "leve_nova": true,
+    "elegivel_nova": true,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Faca",
+    "maos": 1,
+    "propriedades": "Fineza · Rompe",
+    "volume": "1",
+    "elegivel": true,
+    "leve_nova": true,
+    "elegivel_nova": true,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Foice",
+    "maos": 2,
+    "propriedades": "Emaranha · Talha",
+    "volume": "2",
+    "elegivel": false,
+    "leve_nova": false,
+    "elegivel_nova": false,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Kama",
+    "maos": 1,
+    "propriedades": "Par · Rompe",
+    "volume": "1",
+    "elegivel": false,
+    "leve_nova": false,
+    "elegivel_nova": false,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Kanabō",
+    "maos": 2,
+    "propriedades": "Talha",
+    "volume": "2",
+    "elegivel": false,
+    "leve_nova": false,
+    "elegivel_nova": false,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Kunai",
+    "maos": 1,
+    "propriedades": "Longo Alcance · Oculta",
+    "volume": "leve",
+    "elegivel": true,
+    "leve_nova": true,
+    "elegivel_nova": true,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Kusarigama",
+    "maos": 2,
+    "propriedades": "Alcance · Emaranha · Longo Alcance",
+    "volume": "2",
+    "elegivel": false,
+    "leve_nova": false,
+    "elegivel_nova": false,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Maça",
+    "maos": 1,
+    "propriedades": "Talha",
+    "volume": "1",
+    "elegivel": false,
+    "leve_nova": false,
+    "elegivel_nova": false,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Marreta",
+    "maos": 2,
+    "propriedades": "Rompe · Talha",
+    "volume": "2",
+    "elegivel": false,
+    "leve_nova": false,
+    "elegivel_nova": false,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Maul",
+    "maos": 2,
+    "propriedades": "Rompe",
+    "volume": "2",
+    "elegivel": false,
+    "leve_nova": false,
+    "elegivel_nova": false,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Nunchaku",
+    "maos": 1,
+    "propriedades": "Par · Emaranha",
+    "volume": "1",
+    "elegivel": false,
+    "leve_nova": false,
+    "elegivel_nova": false,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Punhal",
+    "maos": 1,
+    "propriedades": "Fineza · Longo Alcance",
+    "volume": "1",
+    "elegivel": true,
+    "leve_nova": true,
+    "elegivel_nova": true,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Sai",
+    "maos": 1,
+    "propriedades": "Fineza · Par",
+    "volume": "1",
+    "elegivel": true,
+    "leve_nova": true,
+    "elegivel_nova": true,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Shuriken",
+    "maos": 1,
+    "propriedades": "Longo Alcance · Oculta · Par",
+    "volume": "leve",
+    "elegivel": true,
+    "leve_nova": true,
+    "elegivel_nova": true,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Soqueira",
+    "maos": 1,
+    "propriedades": "Vestida · Oculta · Par",
+    "volume": "leve",
+    "elegivel": true,
+    "leve_nova": true,
+    "elegivel_nova": true,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Taco",
+    "maos": 1,
+    "propriedades": "Versátil · Oculta",
+    "volume": "leve",
+    "elegivel": true,
+    "leve_nova": false,
+    "elegivel_nova": false,
+    "mudanca": "retirado"
+  },
+  {
+    "arma": "Tanto",
+    "maos": 1,
+    "propriedades": "Fineza · Oculta",
+    "volume": "leve",
+    "elegivel": true,
+    "leve_nova": true,
+    "elegivel_nova": true,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Tekko",
+    "maos": 1,
+    "propriedades": "Vestida · Par · Oculta",
+    "volume": "leve",
+    "elegivel": true,
+    "leve_nova": true,
+    "elegivel_nova": true,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Tessen",
+    "maos": 1,
+    "propriedades": "Longo Alcance · Oculta · Vestida",
+    "volume": "leve",
+    "elegivel": true,
+    "leve_nova": true,
+    "elegivel_nova": true,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Tonfa",
+    "maos": 1,
+    "propriedades": "Par · Vestida",
+    "volume": "leve",
+    "elegivel": true,
+    "leve_nova": true,
+    "elegivel_nova": true,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Chicote",
+    "maos": 1,
+    "propriedades": "Alcance · Emaranha · Oculta",
+    "volume": "leve",
+    "elegivel": true,
+    "leve_nova": true,
+    "elegivel_nova": true,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Corrente",
+    "maos": 2,
+    "propriedades": "Alcance · Emaranha · Rompe",
+    "volume": "2",
+    "elegivel": false,
+    "leve_nova": false,
+    "elegivel_nova": false,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Daikyū",
+    "maos": 2,
+    "propriedades": "Longo Alcance",
+    "volume": "2",
+    "elegivel": false,
+    "leve_nova": false,
+    "elegivel_nova": false,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Espada Longa",
+    "maos": 1,
+    "propriedades": "Versátil · Rompe",
+    "volume": "1",
+    "elegivel": false,
+    "leve_nova": false,
+    "elegivel_nova": false,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Espadão",
+    "maos": 2,
+    "propriedades": "Alcance",
+    "volume": "2",
+    "elegivel": false,
+    "leve_nova": false,
+    "elegivel_nova": false,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Hankyū",
+    "maos": 2,
+    "propriedades": "Longo Alcance · Oculta",
+    "volume": "2",
+    "elegivel": false,
+    "leve_nova": false,
+    "elegivel_nova": false,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Katana",
+    "maos": 1,
+    "propriedades": "Versátil · Fineza",
+    "volume": "1",
+    "elegivel": true,
+    "leve_nova": false,
+    "elegivel_nova": true,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Lança",
+    "maos": 1,
+    "propriedades": "Alcance · Longo Alcance",
+    "volume": "1",
+    "elegivel": false,
+    "leve_nova": false,
+    "elegivel_nova": false,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Machadinha",
+    "maos": 1,
+    "propriedades": "Longo Alcance · Rompe",
+    "volume": "1",
+    "elegivel": false,
+    "leve_nova": false,
+    "elegivel_nova": false,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Machado",
+    "maos": 1,
+    "propriedades": "Rompe",
+    "volume": "1",
+    "elegivel": false,
+    "leve_nova": false,
+    "elegivel_nova": false,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Machado de Guerra",
+    "maos": 2,
+    "propriedades": "Rompe · Talha · Volumosa",
+    "volume": "2",
+    "elegivel": false,
+    "leve_nova": false,
+    "elegivel_nova": false,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Machete",
+    "maos": 1,
+    "propriedades": "Rompe",
+    "volume": "1",
+    "elegivel": false,
+    "leve_nova": false,
+    "elegivel_nova": false,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Manriki",
+    "maos": 1,
+    "propriedades": "Emaranha · Oculta",
+    "volume": "leve",
+    "elegivel": true,
+    "leve_nova": true,
+    "elegivel_nova": true,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Naginata",
+    "maos": 2,
+    "propriedades": "Alcance · Rompe",
+    "volume": "2",
+    "elegivel": false,
+    "leve_nova": false,
+    "elegivel_nova": false,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Nodachi",
+    "maos": 2,
+    "propriedades": "Alcance · Rompe · Volumosa",
+    "volume": "2",
+    "elegivel": false,
+    "leve_nova": false,
+    "elegivel_nova": false,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Odachi",
+    "maos": 2,
+    "propriedades": "Alcance · Talha · Embainhada",
+    "volume": "2",
+    "elegivel": false,
+    "leve_nova": false,
+    "elegivel_nova": false,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Rapieira",
+    "maos": 1,
+    "propriedades": "Fineza · Talha",
+    "volume": "1",
+    "elegivel": true,
+    "leve_nova": false,
+    "elegivel_nova": true,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Wakizashi",
+    "maos": 1,
+    "propriedades": "Oculta",
+    "volume": "leve",
+    "elegivel": true,
+    "leve_nova": true,
+    "elegivel_nova": true,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Yari",
+    "maos": 2,
+    "propriedades": "Alcance · Talha",
+    "volume": "2",
+    "elegivel": false,
+    "leve_nova": false,
+    "elegivel_nova": false,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Espingarda",
+    "maos": 2,
+    "propriedades": "Longo Alcance · Munição · Rompe",
+    "volume": "2",
+    "elegivel": false,
+    "leve_nova": false,
+    "elegivel_nova": false,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Metralhadora Pesada",
+    "maos": 2,
+    "propriedades": "Longo Alcance · Munição · Rompe · Volumosa",
+    "volume": "2",
+    "elegivel": false,
+    "leve_nova": false,
+    "elegivel_nova": false,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Pistola",
+    "maos": 1,
+    "propriedades": "Longo Alcance · Munição · Oculta",
+    "volume": "leve",
+    "elegivel": true,
+    "leve_nova": true,
+    "elegivel_nova": true,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Revólver",
+    "maos": 1,
+    "propriedades": "Longo Alcance · Munição · Oculta",
+    "volume": "leve",
+    "elegivel": true,
+    "leve_nova": true,
+    "elegivel_nova": true,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Rifle",
+    "maos": 2,
+    "propriedades": "Longo Alcance · Munição · Talha",
+    "volume": "2",
+    "elegivel": false,
+    "leve_nova": false,
+    "elegivel_nova": false,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Rifle de Precisão",
+    "maos": 2,
+    "propriedades": "Longo Alcance · Munição",
+    "volume": "2",
+    "elegivel": false,
+    "leve_nova": false,
+    "elegivel_nova": false,
+    "mudanca": "preservado"
+  },
+  {
+    "arma": "Submetralhadora",
+    "maos": 2,
+    "propriedades": "Longo Alcance · Munição · Par · Oculta",
+    "volume": "2",
+    "elegivel": false,
+    "leve_nova": false,
+    "elegivel_nova": false,
+    "mudanca": "preservado"
+  }
+]

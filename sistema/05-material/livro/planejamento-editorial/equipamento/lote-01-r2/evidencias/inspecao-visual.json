@@ -1,0 +1,43 @@
+{
+  "data": "2026-10-03",
+  "sha256_pdf": "614074e2943f05fbbd43e1026fe1de23572caba80844d3533382f7cf2c766299",
+  "paginas": [
+    {
+      "pagina": 1,
+      "arquivo": "/tmp/projeto-m-editorial-final/equipamento-1.png",
+      "sha256_png": "a483677952c6d536c17b2fe77075d26dcf665005e6beb3c3810ecebadde4d468",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 2,
+      "arquivo": "/tmp/projeto-m-editorial-final/equipamento-2.png",
+      "sha256_png": "6267272247eeadf6d1f5032581da7efd51590ca5d9cc65fb85e53d6d1d062d88",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 3,
+      "arquivo": "/tmp/projeto-m-editorial-final/equipamento-3.png",
+      "sha256_png": "4ea7223c1daf09bb62be9ff1e39665dd20bde865f6c9f0723634954e72c923c9",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 4,
+      "arquivo": "/tmp/projeto-m-editorial-final/equipamento-4.png",
+      "sha256_png": "4a0da71a3e9bd93b28c9c67474524ff3f07079beb7b673308b67fec805d4cc7b",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 5,
+      "arquivo": "/tmp/projeto-m-editorial-final/equipamento-5.png",
+      "sha256_png": "098196f1fee9e19f0fc316c0381bb21b17d67f70d727fdb17ba513c1a1f8b232",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 6,
+      "arquivo": "/tmp/projeto-m-editorial-final/equipamento-6.png",
+      "sha256_png": "8fe4494fc00831df13912e332e1daf92070b503bbb1d5a67dfb75abfb714ec8f",
+      "resultado": "sem defeito visual observado"
+    }
+  ],
+  "metodo": "Inspeção visual de todas as páginas pelo autor. Proteção2/4 reexaminadas após correção de largura da tabela e frase durante retirada."
+}

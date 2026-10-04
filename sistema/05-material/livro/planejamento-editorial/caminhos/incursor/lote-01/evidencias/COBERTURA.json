@@ -1,0 +1,587 @@
+[
+  {
+    "id": "INC-COV-01",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 1,
+    "titulo_fonte": "Incursor",
+    "destino": "inc-caminho",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-02",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 5,
+    "titulo_fonte": "Características do Incursor",
+    "destino": "inc-caminho",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-03",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 28,
+    "titulo_fonte": "Progressão do Caminho",
+    "destino": "inc-caminho",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-04",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 40,
+    "titulo_fonte": "Nível 2 — Agilidade de Combate",
+    "destino": "inc-movimento",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-05",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 44,
+    "titulo_fonte": "Nível 2 — Movimento Acrobático",
+    "destino": "inc-movimento",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-06",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 52,
+    "titulo_fonte": "Nível 2 — Fluidez",
+    "destino": "inc-fluidez",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-07",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 78,
+    "titulo_fonte": "Nível 7",
+    "destino": "inc-respostas",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-08",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 80,
+    "titulo_fonte": "Mais oportunidades de Fluidez",
+    "destino": "inc-respostas",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-09",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 84,
+    "titulo_fonte": "Correr ou Esquivar pela Bônus",
+    "destino": "inc-respostas",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-10",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 93,
+    "titulo_fonte": "Nível 15 — Melhorias de Fluidez",
+    "destino": "inc-fluidez-avancada",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-11",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 100,
+    "titulo_fonte": "Passo Guardado",
+    "destino": "inc-fluidez-avancada",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-12",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 108,
+    "titulo_fonte": "Nível 23",
+    "destino": "inc-ritmo",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-13",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 110,
+    "titulo_fonte": "Retomar o Ritmo",
+    "destino": "inc-ritmo",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-14",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 114,
+    "titulo_fonte": "Movimento Acrobático ampliado",
+    "destino": "inc-ritmo",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-15",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 118,
+    "titulo_fonte": "Nível 30 — Um Passo à Frente",
+    "destino": "inc-ritmo",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-16",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 134,
+    "titulo_fonte": "Trilha: Assassino",
+    "destino": "inc-assassino",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-17",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 138,
+    "titulo_fonte": "Progressão da Trilha",
+    "destino": "inc-assassino",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-18",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 147,
+    "titulo_fonte": "Nível 2 — Alvo Estudado",
+    "destino": "inc-assassino",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-19",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 162,
+    "titulo_fonte": "Estudar a Guarda",
+    "destino": "inc-guarda",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-20",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 174,
+    "titulo_fonte": "Golpe Cirúrgico",
+    "destino": "inc-cirurgico",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-21",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 194,
+    "titulo_fonte": "Combinação com Instante Decisivo",
+    "destino": "inc-cortar",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-22",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 204,
+    "titulo_fonte": "Cortar a Fuga",
+    "destino": "inc-cortar",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-23",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 214,
+    "titulo_fonte": "Obtenção e gasto de Fluidez",
+    "destino": "inc-cortar",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-24",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 220,
+    "titulo_fonte": "Nível 2 — Parkour",
+    "destino": "inc-parkour",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-25",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 228,
+    "titulo_fonte": "Apoios de infiltração",
+    "destino": "inc-parkour",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-26",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 234,
+    "titulo_fonte": "Aproximação de abate",
+    "destino": "inc-parkour",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-27",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 243,
+    "titulo_fonte": "A vítima como apoio",
+    "destino": "inc-parkour",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-28",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 251,
+    "titulo_fonte": "Movimento e aterrissagem",
+    "destino": "inc-parkour",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-29",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 261,
+    "titulo_fonte": "Nível 11 — Desaparecer no Percurso",
+    "destino": "inc-guarda",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-30",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 267,
+    "titulo_fonte": "Escolher a Próxima Vítima",
+    "destino": "inc-guarda",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-31",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 273,
+    "titulo_fonte": "Nível 19 — Brecha Fatal",
+    "destino": "inc-brecha",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-32",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 281,
+    "titulo_fonte": "Execução fora do turno",
+    "destino": "inc-brecha",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-33",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 291,
+    "titulo_fonte": "Nível 27 — Sentença Final",
+    "destino": "inc-brecha",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-34",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 307,
+    "titulo_fonte": "Trilha: Pugilista",
+    "destino": "inc-pugilista",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-35",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 311,
+    "titulo_fonte": "Progressão da Trilha",
+    "destino": "inc-pugilista",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-36",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 323,
+    "titulo_fonte": "CD das habilidades da Trilha",
+    "destino": "inc-pugilista",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-37",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 333,
+    "titulo_fonte": "Nível 2 Corpo Treinado",
+    "destino": "inc-corpo",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-38",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 350,
+    "titulo_fonte": "Rajada Marcial a partir do nível 7",
+    "destino": "inc-corpo",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-39",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 358,
+    "titulo_fonte": "Nível 2 Quebrar o Compasso",
+    "destino": "inc-corpo",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-40",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 366,
+    "titulo_fonte": "Nível 2 Recuperar a Base",
+    "destino": "inc-base",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-41",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 378,
+    "titulo_fonte": "Nível 11 — Guarda, contenção e travessia",
+    "destino": "inc-base",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-42",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 380,
+    "titulo_fonte": "Guarda Marcial",
+    "destino": "inc-base",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-43",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 393,
+    "titulo_fonte": "Interceptar e Prender",
+    "destino": "inc-interceptar",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-44",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 407,
+    "titulo_fonte": "Movimento sobre líquidos",
+    "destino": "inc-interceptar",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-45",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 413,
+    "titulo_fonte": "Nível 19 Golpe Desarticulador",
+    "destino": "inc-interceptar",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-46",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 425,
+    "titulo_fonte": "Nível 19 Projeção Marcial",
+    "destino": "inc-projecao",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-47",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 435,
+    "titulo_fonte": "Resolução da projeção",
+    "destino": "inc-projecao",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-48",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 443,
+    "titulo_fonte": "Colisão",
+    "destino": "inc-projecao",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-49",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 451,
+    "titulo_fonte": "Nível 27 Corpo em Harmonia",
+    "destino": "inc-redirecionar",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-50",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 455,
+    "titulo_fonte": "Rajada e Guarda",
+    "destino": "inc-redirecionar",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-51",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 461,
+    "titulo_fonte": "Redirecionar a Força",
+    "destino": "inc-redirecionar",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-52",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 483,
+    "titulo_fonte": "Trilha: Malabarista",
+    "destino": "inc-malabarista",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-53",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 487,
+    "titulo_fonte": "Progressão da Trilha",
+    "destino": "inc-malabarista",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-54",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 496,
+    "titulo_fonte": "Como as continuações funcionam",
+    "destino": "inc-continuacoes",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-55",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 510,
+    "titulo_fonte": "Nível 2 Manejo de Combate",
+    "destino": "inc-malabarista",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-56",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 516,
+    "titulo_fonte": "Nível 2 Ofensiva em Movimento",
+    "destino": "inc-malabarista",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-57",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 526,
+    "titulo_fonte": "Nível 2 Ricochete",
+    "destino": "inc-ricochete",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-58",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 544,
+    "titulo_fonte": "Outros usos de Fluidez",
+    "destino": "inc-continuacoes",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-59",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 546,
+    "titulo_fonte": "Lançamento Cruzado",
+    "destino": "inc-continuacoes",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-60",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 556,
+    "titulo_fonte": "Mudar o Destino",
+    "destino": "inc-destino",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-61",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 566,
+    "titulo_fonte": "Nível 11 Trajetória de Retorno",
+    "destino": "inc-retorno",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-62",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 578,
+    "titulo_fonte": "Nível 11 Manejo Contínuo",
+    "destino": "inc-retorno",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-63",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 588,
+    "titulo_fonte": "Nível 19 Finta de Retorno",
+    "destino": "inc-finta",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-64",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 604,
+    "titulo_fonte": "Nível 19 Manejo Contínuo ampliado",
+    "destino": "inc-finta",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  },
+  {
+    "id": "INC-COV-65",
+    "fonte": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "linha": 610,
+    "titulo_fonte": "Nível 27 Trajetória Perfeita",
+    "destino": "inc-perfeita",
+    "tratamento": "preservado-ou-reescrito",
+    "regra_preservada": true
+  }
+]

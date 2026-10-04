@@ -1,0 +1,18 @@
+{
+  "COMPRAS-E-EQUIPAMENTO-INICIAL.md": "0c65b7d17dc1ee911e292711bbc68330fb70e248390293ee09f8a0bace0d2fe5",
+  "CONFERENCIA.json": "a173ac8fd9ecc114de8ce4dc9810a55e1d54364a17b335d3cd7f1d24d09c2d14",
+  "ESTRUTURA.json": "a5695c5487645f42fc62306897990f4b51a8bdd1f6b0d482ab27c84987210e09",
+  "LEIA-ME.md": "df02a48fdf44c2bf7b72ece5e60117da126a271c79ad2bc8c92db9cd6308d852",
+  "VALIDACAO.json": "bf4c4d759231f317504deb4394ad1f5dadae1ed04b9b7eaea708d9e5f9b5f5b2",
+  "conferir.py": "8f257eb44ebb5f896aaa1426b39aebc719004c53fc504da01c63853fd5ad62e7",
+  "evidencias/LOCALIZACAO-EDITORIAL.json": "9eb6e629c73b97b5593d4109ab9b214a9f696bf63f8b1e98e4ec58945ad62d88",
+  "evidencias/REVISAO-EDITORIAL.json": "f3b642a76a9a2f304d489033258eb7b80ca11fd713682a33507c9015eb1f9272",
+  "evidencias/auditoria-numerica.json": "c5bca904ce96c9d49bb2f5a4ef917ae9459801ab9198e4f30edaea35531f0c0a",
+  "evidencias/fontes-preservadas.json": "e0d091f90c27eaf8a6f689e657f4fc6f9d7ac66fad79d32a491ef35becec2d24",
+  "evidencias/inspecao-visual.json": "a00afb34feb1a9ba2de95049bf9b5c4bbc09c250d5f7e7795f4258a263a340b3",
+  "evidencias/pdf-estrutura.json": "cc7ab1a7001c8853fb61c6620d40b32d7b95ef4306f9de578a09ce786691ea7d",
+  "evidencias/pdf-texto.txt": "a4a8c677258dd6bc94a7655904e20977a20753e12636f63afdb4e1ab1ed003a3",
+  "evidencias/regras-verificadas.json": "1348ceec1ad324f3fefaece32c0f3454fbf3580a5954fdf591939c0d6e84c8ce",
+  "gerar_pdf.py": "4553766f98981c5a462ae4fe3b639360d17af61b46530f447567f21b3d2c25d7",
+  "output/pdf/Projeto-M-Compras-e-Equipamento-Inicial-Proposta-01-Carga-R5.pdf": "29bf82d9038fe038e68d7bdbaa850c8b43a757585be334e3e60ef7cda6d3dc79"
+}

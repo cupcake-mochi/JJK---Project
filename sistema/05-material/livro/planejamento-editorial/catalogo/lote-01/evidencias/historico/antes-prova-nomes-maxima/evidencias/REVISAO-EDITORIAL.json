@@ -1,0 +1,128 @@
+{
+  "sha256_texto": "682b239b4f582912d47b0c8cb14f0df70592f8b5c631f01240f0c4d853c8471e",
+  "revisor": "Agente principal, com revisão cruzada por agentes registrada separadamente",
+  "teste_humano": false,
+  "limites": "Leitura documental, não teste com jogadores reais.",
+  "secoes": [
+    {
+      "id": "cat-catalogo",
+      "parecer": "Índice funcional remete às Famílias e às regras de montagem sem reimprimir suas tabelas; distingue peças, restrições e repertório."
+    },
+    {
+      "id": "cat-alcance",
+      "parecer": "Separa distância, visão e acompanhamento; Perseguir limitado ao deslocamento entre seleção e resolução."
+    },
+    {
+      "id": "cat-movimento",
+      "parecer": "Distâncias, apoio e custo de movimento especificados; transferência e deslocamento não concedem ataque."
+    },
+    {
+      "id": "cat-area",
+      "parecer": "Distingue tamanho, alvos e tiros; divisão anterior à rolagem e dados inteiros."
+    },
+    {
+      "id": "cat-area-continua",
+      "parecer": "Fica usa relógio de seis rodadas; Salto único e sem recursão; Contorno mantém trajeto aberto."
+    },
+    {
+      "id": "cat-mira",
+      "parecer": "Precisão atua em ataque ou CD; Certeiro mantém ataque; Inescapável tem pacote restrito."
+    },
+    {
+      "id": "cat-defesas",
+      "parecer": "RD, resistência e cobertura separadas; Alma remete ao dono e não redesenha Integridade."
+    },
+    {
+      "id": "cat-controle",
+      "parecer": "Condição mantém oposição e saída; Terreno não cria Oculto; dissipação exige Classe registrada."
+    },
+    {
+      "id": "cat-obstaculos",
+      "parecer": "Anteparo tem geometria e PV compartilhados; Prende lista ações de saída; Puxa usa ordem espacial."
+    },
+    {
+      "id": "cat-auxiliares",
+      "parecer": "Oposição e prazos explícitos; bônus de uma tentativa não vira benefício permanente."
+    },
+    {
+      "id": "cat-auxiliares-apoio",
+      "parecer": "Ataque, dano e Defesa separados; duração prolongada não renova usos consumidos."
+    },
+    {
+      "id": "cat-castigo",
+      "parecer": "Sequência de Acúmulo acompanha um alvo por ficha; não altera aplicações antigas."
+    },
+    {
+      "id": "cat-castigo-dano",
+      "parecer": "Secundários sem crítico ou recursão; efeito em objetos não define criatura como objeto."
+    },
+    {
+      "id": "cat-tempo",
+      "parecer": "Gatilho e pagamento de Armado separados; Máxima não fica estocada durante recarga."
+    },
+    {
+      "id": "cat-tempo-duracao",
+      "parecer": "Duração de estados não repete dano; Fica conserva exceção ao minuto; Selo distinto de Restrição."
+    },
+    {
+      "id": "cat-marca",
+      "parecer": "Marcador, vantagem e dano adicional identificam beneficiário e próximos ataques; informação não dá visão."
+    },
+    {
+      "id": "cat-marca-recursos",
+      "parecer": "Sugar contabiliza uma conjuração; Cobrança uma marca/redução; Aviso obtém informação pontual."
+    },
+    {
+      "id": "cat-amparo",
+      "parecer": "Cura, condição e Integridade separados; Levanta conserva exceção própria e remete recuperação."
+    },
+    {
+      "id": "cat-amparo-protecao",
+      "parecer": "Divide sem ciclo; Junto reparte quantidades e atribui peças indivisíveis; Reserva define disparo e perda."
+    },
+    {
+      "id": "cat-proprio",
+      "parecer": "Entrada aponta processo de criação, não concede acesso por vaga ou nome; exemplo próprio não canônico."
+    },
+    {
+      "id": "cat-restricoes-conjuracao",
+      "parecer": "Corpo a Corpo é transformação já embutida; ação completa, Parado e Carregar têm custos claros."
+    },
+    {
+      "id": "cat-restricoes-consequencias",
+      "parecer": "Custos reais e prazos explícitos; Frágil diferente de Concentração; Sem Volta exige possibilidade de falha."
+    },
+    {
+      "id": "cat-restricoes-uso",
+      "parecer": "Frequência separada de custo; Dívida não desaparece com Classe zero ou gratuidade."
+    },
+    {
+      "id": "cat-restricoes-proprias",
+      "parecer": "Exposição informa autoria sem rastrear posição; restrição própria é combinada e reavaliada."
+    },
+    {
+      "id": "cat-passivas-1",
+      "parecer": "Aquisição distinta de conjuração; informações delimitadas; Raiz como exceção nominal, Mão Firme por dano."
+    },
+    {
+      "id": "cat-passivas-2-recursos",
+      "parecer": "Custos, teto, gatilho e frequência escritos; exemplos de arredondamento e Dívida."
+    },
+    {
+      "id": "cat-passivas-2-protecao",
+      "parecer": "Costura previne queda; Contramedida é apoio à CD; Capanga substitui o alvo indefinido fraco."
+    },
+    {
+      "id": "cat-passivas-3",
+      "parecer": "Resistência, penetração e PE máximo não são cura/recuperação instantânea."
+    },
+    {
+      "id": "cat-regra-propria",
+      "parecer": "Aquisição gratuita inicial e aprimoramentos registrados; regra simétrica com gatilho/limite; exemplo original."
+    },
+    {
+      "id": "cat-passiva-propria",
+      "parecer": "Procedimento e limites para criação; invocação precisa constar da técnica e ser adquirida."
+    }
+  ]
+}

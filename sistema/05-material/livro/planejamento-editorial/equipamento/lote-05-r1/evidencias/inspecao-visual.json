@@ -1,0 +1,26 @@
+{
+  "sha256_pdf": "37bd1a364f0a46671d8dbeb0b28ff1aeb86603ad4487d404eaa53a75ec589b1d",
+  "metodo": "Todas as páginas inspecionadas no caderno reunido; renderização individual comparada pixel a pixel com o caderno.",
+  "paginas": [
+    {
+      "pagina": 1,
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 2,
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 3,
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 4,
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 5,
+      "resultado": "sem defeito visual observado"
+    }
+  ]
+}

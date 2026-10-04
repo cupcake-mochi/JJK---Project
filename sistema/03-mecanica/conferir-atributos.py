@@ -35,7 +35,7 @@ CONTRATO DE INVARIANTES:
      pela Defesa. Nao e o numero do manual que decide isso — e o outro atributo
      que ja mexe em sobrevivencia.
   7. Integridade NAO leva Caminho nem Constituicao: dano de alma ignora o corpo.
-  8. O dano do chefe reproduz a media dos Caminhos jogaveis, com a Constituicao tipica.
+  8. O dano do chefe reproduz a media dos Caminhos de referencia, com a Constituicao tipica.
      Os dados de PV vem da peca 1, a disponibilidade da peca 6 e o percentual do manual.
 
 
@@ -135,12 +135,18 @@ def _cal_nome(nome):
 _cal_p1 = _cal_ler('01-atributos-acerto-defesa.md')
 _cal_p6 = _cal_ler('06-caminhos-e-trilhas.md')
 _cal_sec = _cal_p1.split('## 5.1 Pontos de vida')[1].split('### A vida média')[0]
-_cal_ativos = {_cal_nome(n) for n, resto in _re_cal.findall(r'^\| \*\*([^*]+)\*\* \| (.+)$', _cal_p6.split('## 2.')[0], _re_cal.M) if 'fora da edição jogável' not in resto}
+_cal_reg = _re_cal.search(r'\*\*Caminhos da média:\*\* ([^.]+)', _cal_p1)
+if not _cal_reg:
+    raise ValueError('sem a lista publicada de referencia da calibracao')
+_cal_ativos = {_cal_nome(n.strip()) for n in _cal_reg[1].replace(' e ', ',').split(',')}
+_cal_disponiveis = {_cal_nome(n) for n in _re_cal.findall(r'^\| \*\*([^*]+)\*\* \|', _cal_p6.split('## 2.')[0], _re_cal.M)}
+if not _cal_ativos <= _cal_disponiveis:
+    raise ValueError('calibracao nomeia Caminho ausente da edicao')
 CAMINHO = {_cal_nome(n): tuple(map(int, (d, ini, ganho, pe))) for n, d, ini, ganho, pe in
            _re_cal.findall(r'^\| \*\*([^*]+)\*\* \| d(\d+) \| (\d+) \| (\d+) \| (\d+) \|', _cal_sec, _re_cal.M)
            if _cal_nome(n) in _cal_ativos}
 if not CAMINHO:
-    raise ValueError('7.1: nao encontrei Caminhos jogaveis na peca 6 e PV na peca 1')
+    raise ValueError('7.1: nao encontrei Caminhos de referencia na peca 6 e PV na peca 1')
 CON_TIPICA = int(_re_cal.search(r'Constituição típica: (\d+)', _cal_p1)[1])
 _cal_pf = _cal_ler('../../manual/gerador/partF.js')
 _cal_inim = _cal_pf.split("H2('Inimigos')")[1].split('GAP(')[0]
@@ -399,25 +405,25 @@ _cal_formula = _re_cal.search(r'\*\*`([\d,]+) \+ ([\d,]+) × \(nível − 1\)` p
 _cal_ini = sum(c[1] for c in CAMINHO.values()) / len(CAMINHO) + CON_TIPICA
 _cal_ganho = sum(c[2] for c in CAMINHO.values()) / len(CAMINHO) + CON_TIPICA
 if not _cal_formula or tuple(float(v.replace(',', '.')) for v in _cal_formula.groups()) != (_cal_ini, _cal_ganho):
-    erro('7.1: a formula publicada da vida media nao sai dos Caminhos jogaveis')
+    erro('7.1: a formula publicada da vida media nao sai dos Caminhos de referencia')
 _cal_copia = _re_cal.search(r'A referência é ([\d,]+) \+ ([\d,]+) × \(nível − 1\)', _cal_pf)
 if not _cal_copia or tuple(float(v.replace(',', '.')) for v in _cal_copia.groups()) != (_cal_ini, _cal_ganho):
-    erro('7.1: a formula copiada no manual diverge da media dos Caminhos jogaveis')
+    erro('7.1: a formula copiada no manual diverge da media dos Caminhos de referencia')
 
 # 7.1: os sete danos publicados precisam reproduzir a media atual, sem constante de dano no teste.
 media_dados = sum(c[2] for c in CAMINHO.values()) / len(CAMINHO)
 efetiva = media_dados + CON_TIPICA
-print(f'  media do ganho dos Caminhos jogaveis + Constituicao: {efetiva:.2f}')
+print(f'  media do ganho dos Caminhos de referencia + Constituicao: {efetiva:.2f}')
 for nv, publicado in CHEFE.items():
     media = sum(Decimal(str(vida(nv, CON_TIPICA, c))) for c in CAMINHO) / len(CAMINHO)
     esperado = int((media * Decimal(str(_CAL_PCT))).quantize(Decimal('1'), rounding=ROUND_HALF_DOWN))
     if publicado != esperado:
-        erro(f'7.1: chefe nivel {nv}: manual publica {publicado}, mas a media dos Caminhos jogaveis pede {esperado}')
+        erro(f'7.1: chefe nivel {nv}: manual publica {publicado}, mas a media dos Caminhos de referencia pede {esperado}')
     else:
         print(f'  [x] 7.1: chefe nivel {nv}: {publicado}, media {media}')
 _cal_lista = _re_cal.search(r'\*\*Caminhos da média:\*\* ([^.]+)', _cal_p1)
 if not _cal_lista or set(_cal_nome(n.strip()) for n in _cal_lista[1].replace(' e ', ',').split(',')) != set(CAMINHO):
-    erro('7.1: a lista da media na peca 1 diverge dos Caminhos jogaveis da peca 6')
+    erro('7.1: a lista da media na peca 1 diverge dos Caminhos de referencia da peca 6')
 
 # v0.201: a tabela de inimigo passou a por o chefe em 90% da vida de UM
 # personagem por rodada, medido contra o d20 de 2014 e o chefe solo do PF2e. A

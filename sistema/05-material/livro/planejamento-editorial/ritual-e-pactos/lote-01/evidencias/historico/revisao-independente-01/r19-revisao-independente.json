@@ -1,0 +1,136 @@
+{
+  "arquivo": "sistema/05-material/livro/planejamento-editorial/ritual-e-pactos/lote-01/RITUAL-E-PACTOS.md",
+  "sha256_lido": "a740f3f8c1112408d19f351204768e99a8799edc4c8fbe88449207a2abe09b96",
+  "revisor": "compatibilidade; leitura independente de manuscrito inteiro, fontes22/27, manual65, interfacesR06/R07/R09/R10",
+  "resultado": "Requer ajustes operacionais antes de fechar. A arquitetura e o procedimento principal funcionam; os achados abaixo não justificam abandonar o capítulo.",
+  "achados": [
+    {
+      "id": "RI-01",
+      "prioridade": "P1",
+      "linhas": [
+        37,
+        117,
+        123,
+        156
+      ],
+      "titulo": "Falha pode restaurar indevidamente a devolução retirada da versão ritualizada",
+      "problema": "O capítulo manda ajustar a ficha retirando devoluções antes da sessão, mas depois diz que a falha não diminui dados e que conserva a ficha comum. Não distingue ficha comum original de montagem ajustada ao Ritual.",
+      "caso": "C3, Projétil+Precisão(Leve=2)+Atrasar(Média=3) tem9d8. Ritual completo retira devolução, ficando7d8. A falha usa7 ou9? Ambas as leituras encontram apoio na redação.",
+      "correcao_minima": "Declare que a montagem ajustada à modalidade é usada no sucesso e na falha. Na falha apenas as Melhorias de Ritual são retiradas; a devolução incompatível não retorna. Troque ficha comum por montagem conferida para aquela modalidade nos exemplos.",
+      "tipo": "Esclarecimento mecânico; preserva orçamento estável antes do teste."
+    },
+    {
+      "id": "RI-02",
+      "prioridade": "P1",
+      "linhas": [
+        64,
+        108,
+        110
+      ],
+      "titulo": "Parcelas extras de Ritual precisam de exceção explícita aos tetos e à Máxima",
+      "problema": "R06 limita pacote de dados da própria montagem a4C e fixa os dados da Máxima; R19 autoriza Tiros e Compartilhamento sem dizer se as cópias ficam fora desses limites. Só os dados de Liberação têm exceção explícita.",
+      "caso": "C3 com Rajada+Queima, Gesto+UmaVez: base8d8 em4tiros2d8, Queima4d8, pacote12d8. RitualTiros acrescenta2d8 e, pelas mesmas regras da Rajada, Queima1d8: total15d8. MáximaC5:24d8 em6tiros vira28d8 com alvo adicional. Isso pode ser intencional, mas precisa ser dito.",
+      "correcao_minima": "Conservar a montagem dentro do teto antes do Ritual; declarar as cópias como exceções limitadas do Ritual, inclusive se permitido à Máxima. Dizer se o novo tiro repete Queima e outras peças por tiro e se o dano suplementar de Recitação entra na base dessas peças. Alternativa: vedar Tiros na Máxima, mas isso é decisão nova que deve ser registrada.",
+      "tipo": "Decisão de interface. Não concluo que15d8 divididos sejam excessivos: há custo4pontos, outra vítima e ação maior."
+    },
+    {
+      "id": "RI-03",
+      "prioridade": "P1",
+      "linhas": [
+        196,
+        200
+      ],
+      "titulo": "PE de pacto permanente perdeu seu limite sem uma substituição explícita",
+      "problema": "Fonte22§3.2–3.3 inclui PE sob teto0,50fatia/pacto, cerca0,49PE/rodada no modelo antigo. R19 só recomenda reserva pequena e exige quantidade definida. Uma reserva definida pode ser arbitrariamente grande, e a preferência por descanso não é limite.",
+      "caso": "Pacto que conceda100PE extras por descanso longo cumpre a redação formal, assim como1PE por turno, embora contrariem o teto histórico. Não afirmo que o velho câmbio valha para o jogo atual, apenas que era uma trava explícita removida.",
+      "correcao_minima": "Adotar um limite operacional novo de reserva/recuperação, comparado à progressão vigente, e registrar antes/depois/motivo. Ou reter o veto a recuperação por turno e declarar um limite conservador por descanso sujeito à auditoria global. RP20 precisa abranger PE, não só conversão em dano.",
+      "tipo": "Mudança mecânica não completamente registrada/modelada."
+    },
+    {
+      "id": "RI-04",
+      "prioridade": "P2",
+      "linhas": [
+        125
+      ],
+      "titulo": "Referência aponta a nome antigo de Melhoria",
+      "problema": "Segue não é o nome da entrada vigente. R07 linha49 usa Perseguir.",
+      "correcao_minima": "Trocar Segue por Perseguir no texto, decisãoRP12 e comentários/evidências que pretendam referir-se ao catálogo atual.",
+      "tipo": "Editorial, sem mudança de efeito."
+    },
+    {
+      "id": "RI-05",
+      "prioridade": "P2",
+      "linhas": [
+        140,
+        142,
+        144
+      ],
+      "titulo": "Ajuda não explicita consumo único nem quando se confere o alcance",
+      "problema": "Prazo e limite de um auxiliar por feitiço não dizem que preparar ajuda autoriza somente uma tentativa. Também não está claro se9m e percepção são conferidos no preparo, na resolução ou ambos.",
+      "caso": "Em iniciativa estável normalmente só cabe um turno do conjurador antes do vencimento. Uma antecipação de turno na rodada seguinte pode criar outra janela antes do auxiliar agir; sem consumo explícito, os mesmos4pontos parecem disponíveis. Outra leitura deixa o aliado preparar a9m e afastar-se centenas de metros, conservando gesto e voz.",
+      "correcao_minima": "Uma ajuda atende uma conjuração e é consumida nessa tentativa, inclusive na falha/interrupção. Declare9m e percepção na resolução; defina se romper antes cancela definitivamente ou apenas impede enquanto fora. Manter escolha simples por estado final é suficiente.",
+      "tipo": "Esclarecimento de limite, sem alegar duplicação inevitável no turno normal."
+    },
+    {
+      "id": "RI-06",
+      "prioridade": "P2",
+      "linhas": [
+        108
+      ],
+      "titulo": "Compartilhamento não decide se copia efeitos indivisíveis de Apoio",
+      "problema": "Copiar a parcela não esclarece se Guarda/Pressa/Impulso seguem para o aliado novo. A exclusão de efeitos limitados por conjuração, como Levanta, não cobre todas as peças. R07Junto destina efeitos indivisíveis a um só beneficiário; Ritual é uma cópia excepcional, mas não define seu alcance.",
+      "caso": "Apoio9PV+Guarda, semJunto, comCompartilhamento: o novo aliado recebe9PV eGuarda, ou só9PV? ComJunto6/3, pode copiarGuarda do alvo da parcela maior mesmo copiando só3PV?",
+      "correcao_minima": "Defina um alvo de origem e copie sua parcela quantitativa e suas peças que aceitem cópia, ou limite Compartilhamento só aos dados/PV. Não copie indiscriminadamente o conjunto de Melhorias entregue a pessoas diferentes. Se houver empate na menor parcela, escolha a origem antes de resolver.",
+      "tipo": "Decisão necessária para executar o benefício; preservação do original favorece cópia da parcela e efeitos daquele beneficiário, respeitando limites únicos."
+    },
+    {
+      "id": "RI-07",
+      "prioridade": "P2",
+      "linhas": [
+        123,
+        131
+      ],
+      "titulo": "Tabela genérica de tempo precisa distinguir imobilidade de Ação Completa",
+      "problema": "O critério geral é correto, mas não resolve claramente nove combinações entre3modalidades eAtrasar/Parado/Carregar. EmR07, AçãoCompleta sozinha não impedePasso. LogoParado ainda cobra imobilidade adicional num RitualCompleto comum. Liberação conserva exceção específica sem devoluçãoParado.",
+      "caso": "RitualCompleto comum+Passo+Parado: Parado impedePasso e pode ser custo real, enquantoAtrasar repete a ação. Carregar+RitualCompleto exigePadrão inicial eCompleta seguinte, portanto cobra intervalo adicional; Carregar+Recitação repete o intervalo e não devolve.",
+      "correcao_minima": "Adicionar matriz mínima por modalidade ou exemplos de9casos na evidência. Não equiparar gastarMovimento a estar impedido de se deslocar por qualquer fonte. EmDuração, usar nomeConcentrada para a Melhoria e manterConcentração como procedimento, evitando confundir os dois.",
+      "tipo": "Esclarecimento de aplicação; não peço remover exceção vigente da Liberação."
+    },
+    {
+      "id": "RI-08",
+      "prioridade": "P2",
+      "linhas": [
+        51,
+        59,
+        140
+      ],
+      "titulo": "Pagamento antecipado da Recitação e ajuda tardia deixam desconto sem momento definido",
+      "problema": "Recitação paga no início. Ajuda pode surgir entre os turnos e concede4pontos; Energia reduz custo, mas não há regra de devolução após pagamento. A escolha de benefícios ocorre antes das rolagens, porém poderia ser refeita pela ajuda tardia.",
+      "caso": "Conjurador iniciaRecitaçãoC4 e paga12PE, semEnergia. Aliado ajudaentreturnos; jogador usa2dosnovos4pontos emEnergia. Recebe2PE de volta, não pode escolher esse benefício ou deveria ter previsto o auxílio antes?",
+      "correcao_minima": "Fixar benefícios e desconto ao começar. Ajuda tardia pode acrescentar benefícios que se resolvam depois; não reduz retroativamentePE já pago. Outra opção é restituição expressa na resolução, mas registrar limite real e teto dePE.",
+      "tipo": "Esclarecimento de tempo/custo; requisito concreto para ajuda em Recitação."
+    }
+  ],
+  "pontos_validados": [
+    "Fórmula e exemplo65% são corretos por enumeração independente dos vinte resultados.",
+    "Penalidade de ClassePE é uma decisão mecânica explicitamente marcada. Evita desmontagem de dano na falha e conserva cast principal. ExemploC4 comEnergia custa em média12,1PE a65% de sucesso, antes de vantagem.",
+    "DuasAçõesCompletas emRecitação são procedimento claro e uma mudança registrada. O teste de interrupção por ocorrência, separado deConcentração, é compatível comR07Carregar eMãoFirme.",
+    "Cópia da menor parcela impede18/1/1 gerar18extra. É contenção numérica real, não prova de equilíbrio de todas as combinações.",
+    "RequisitosINT5/nível10/TécnicaInata e exclusãoSemTécnica/Marcial/semenergia concordam comR09/R10 e decisão humana preservada na peça27.",
+    "Pactos porEssência e ocupação porcampanha conservam o teto0,0,1,1,2,2,3 sempiso.",
+    "A narrativa não atribui números próprios ou punição universal à obra. As alegações não verificadas foram retiradas, com limitação de fonte declarada.",
+    "Títulos são diretos, semComoLer/artigosiniciais; divisão12p torna consulta previsível. Há informação suficiente para começarRitual, salvo interfaces listadas."
+  ],
+  "limites_da_validacao": [
+    "Comparação de referência primária aproveita documentação de leitura localPHB/DMG existente; não se afirma nova leitura integral desseslivros.",
+    "Não realizada avaliação visual destePDF: responsabilidade do root e documentação correspondente.",
+    "Não realizado playtest humano.",
+    "Matriz304 cobre nomes, mas suas linhas genéricas não comprovam cada resolução temporal. As8lacunas mostram por que uma contagem nominal não basta.",
+    "Modelo do autor enumera somentepartiçõespositivas; Junto permite quantidadesinteiras e não escreve piso1, portanto9/0 deve ser testado ou vedado expressamente."
+  ],
+  "anexos": [
+    "/tmp/r19-auditoria-independente.py",
+    "/tmp/r19-auditoria-independente.json",
+    "/tmp/r19-revisao-fonte.md"
+  ]
+}

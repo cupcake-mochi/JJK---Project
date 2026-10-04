@@ -1,0 +1,9 @@
+{
+  "entradas": 30,
+  "casos": 64,
+  "paginas_logicas": 8,
+  "nomes_e_precos_preservados": true,
+  "fontes_nao_editadas": true,
+  "r06_sha256_leitura": "a381ff3ae9a8460732658875a63e61caa604c12f617b86be0ac78409a334e7b8",
+  "decisoes_sha256": "60a4dfd814ed52439dcf7eb840480b718519eb0b05a0bad36dd5154fcd7f43f2"
+}

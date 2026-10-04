@@ -1,0 +1,40 @@
+[
+  {
+    "arquivo": "aptidoes/lote-01/APTIDOES-E-REFINO.md",
+    "antes": "d6135572a93bfd3e07864703889a3ce158dc2a1b59215f5f2fb4a03873459fe0",
+    "depois": "8ab8f1322ac42fd54c72a45549b1e3df6c64a75399950e2c249919bf8f0cf80c",
+    "substituicoes": [
+      [
+        "Classe 1, se esse vestígio",
+        "Categoria 1, se esse vestígio"
+      ],
+      [
+        "Classe 2. Tem gatilho",
+        "Categoria 2. Tem gatilho"
+      ],
+      [
+        "Dano e Condições",
+        "Dano e recuperação"
+      ],
+      [
+        "Reencarnado",
+        "Encarnado"
+      ]
+    ],
+    "diff": "--- \n+++ \n@@ -62,7 +62,7 @@\n | Regravação | Circulação. | 3 |\n | Kokusen Melhorado | Refino 5 e nível 14. | — |\n | Kokusen Constante | Refino 5. | — |\n-| Cesta Oca de Vime | Ser Reencarnado ou treinado em História. | 1 |\n+| Cesta Oca de Vime | Ser Encarnado ou treinado em História. | 1 |\n | Domínio Simples | Refino 5, ou 4 com o voto do iniciante; aprendizado registrado. | 2 |\n | Pétala | Refino 4 e nível 10; ser Descendente ou aprendizado com alguém de um clã. | 2 |\n | Extensão de Domínio | Refino 7 e nível 18; aprendizado registrado; indisponível ao Corpo Amaldiçoado. | 3 |\n@@ -194,7 +194,7 @@\n \n Pague a ação e os PE normais do feitiço. Confira seu alcance, seu Selo e seus demais requisitos. Faça **um ataque de conjuração contra a Defesa**, em vez de aplicar a cura automaticamente.\n \n-No acerto, os dados que a Forma destinou à cura viram **dano de Energia Reversa, com 50% a mais**. Resolva o crítico, se houver, dobrando os dados básicos antes de calcular o dano. Aplique a multiplicação e as defesas de Dano e Condições. Bônus que aumentem somente cura não aumentam esse dano.\n+No acerto, os dados que a Forma destinou à cura viram **dano de Energia Reversa, com 50% a mais**. Resolva o crítico, se houver, dobrando os dados básicos antes de calcular o dano. Aplique a multiplicação e as defesas de Dano e recuperação. Bônus que aumentem somente cura não aumentam esse dano.\n \n No erro, não causa dano nem cura. Contra qualquer alvo que não seja uma maldição, esse uso ofensivo não produz efeito. A exceção não autoriza ferir outros tipos de alvo nem transforma automaticamente a Forma Onda em um ataque de área.\n \n@@ -264,7 +264,7 @@\n \n ## Dano\n \n-Resolva o crítico e os demais valores do golpe. O Kokusen acrescenta **50% ao dano final**. Arredonde o dano recebido para cima, conforme Dano e Condições. Não dobre outra vez os dados nem aplique novamente resistências e reduções já consideradas.\n+Resolva o crítico e os demais valores do golpe. O Kokusen acrescenta **50% ao dano final**. Arredonde o dano recebido para cima, conforme Dano e recuperação. Não dobre outra vez os dados nem aplique novamente resistências e reduções já consideradas.\n \n > **Exemplo.** Depois do crítico e das defesas, um golpe causaria 21. Se ocorrer Kokusen, o dano será **32**: 21 × 1,5 = 31,5, arredondado para cima. Se o golpe já foi reduzido a zero, continua causando zero.\n \n@@ -307,7 +307,7 @@\n <!-- page:apt-cesta|Cesta Oca de Vime -->\n # Cesta Oca de Vime\n \n-**Requisito: ser Reencarnado ou treinado em História. Categoria de Efeito 1.** Você forma um símbolo com as duas mãos e cria uma barreira em volta de si.\n+**Requisito: ser Encarnado ou treinado em História. Categoria de Efeito 1.** Você forma um símbolo com as duas mãos e cria uma barreira em volta de si.\n \n Use a ativação de **Proteção contra domínios**. A Cesta não cobra manutenção. Ela anula o Acerto garantido contra você, mas não o Efeito da Expansão.\n \n@@ -523,8 +523,8 @@\n \n | Proposta | Avaliação |\n |---|---|\n-| Com uma Ação Padrão examinando um objeto que toca, identificar se ele recebeu energia amaldiçoada nas últimas 24 horas. | Classe 1, se esse vestígio específico for relevante raramente na campanha. Não revela autor, intenção ou identidade da técnica. |\n-| Uma vez por cena, depois que um aliado a até 9 m falha em um TR, usar sua Reação para ele rolar de novo, conservando o segundo resultado. | Classe 2. Tem gatilho, alcance, custo de ação e limite. |\n+| Com uma Ação Padrão examinando um objeto que toca, identificar se ele recebeu energia amaldiçoada nas últimas 24 horas. | Categoria 1, se esse vestígio específico for relevante raramente na campanha. Não revela autor, intenção ou identidade da técnica. |\n+| Uma vez por cena, depois que um aliado a até 9 m falha em um TR, usar sua Reação para ele rolar de novo, conservando o segundo resultado. | Categoria 2. Tem gatilho, alcance, custo de ação e limite. |\n | Receber um ataque adicional em toda rodada, sem gastar ações. | Recusada: concede ações adicionais contínuas, fora dos limites das criações próprias. |\n \n Aptidão Própria usa uma escolha de aptidão. Uma concessão da criação que já preencha essa opção também consome a escolha única da ficha. Mudanças posteriores precisam ficar registradas junto da regra aprovada.\n",
+    "motivo": "Fechamento de dois exemplos remanescentes de Categoria e sincronização de títulos/Origem com os donos finais. Nenhuma regra ou número mudou."
+  },
+  {
+    "arquivo": "origens/lote-01/ORIGENS-E-LEGADOS.md",
+    "antes": "93300f9489531a3709e28959f673ff7850674218ddacdb734d49643970ce91ae",
+    "depois": "fcdf3dfb581d2cd625746ab76ee581e025a023666c5e93a45187aa3328dd2403",
+    "substituicoes": [
+      [
+        "Dano e Condições",
+        "Dano e recuperação"
+      ]
+    ],
+    "diff": "--- \n+++ \n@@ -156,7 +156,7 @@\n \n **Revezamento.** **Uma vez por descanso longo**, quando você ficaria **com a Guarda Aberta**, impeça essa aplicação. A outra presença sustenta a resposta do corpo. Em troca, quem observa percebe que outra consciência agiu por você. O mestre considera essa revelação nas reações das pessoas presentes.\n \n-Guarda Aberta é a condição nomeada em Dano e Condições. Revezamento não impede Inconsciente, a perda de vida ou as consequências de chegar a zero. Se a mesma capacidade causar dano e Guarda Aberta, o dano continua sendo resolvido.\n+Guarda Aberta é a condição nomeada em Dano e recuperação. Revezamento não impede Inconsciente, a perda de vida ou as consequências de chegar a zero. Se a mesma capacidade causar dano e Guarda Aberta, o dano continua sendo resolvido.\n \n ## Acordos na mesa\n \n",
+    "motivo": "Fechamento de dois exemplos remanescentes de Categoria e sincronização de títulos/Origem com os donos finais. Nenhuma regra ou número mudou."
+  }
+]

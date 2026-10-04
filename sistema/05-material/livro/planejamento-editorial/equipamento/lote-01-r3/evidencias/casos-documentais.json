@@ -1,0 +1,138 @@
+[
+  {
+    "caso": "Guardar+sacar comum",
+    "resultado": "Primeira grátis; segunda Movimento inteiro."
+  },
+  {
+    "caso": "Largar+sacar",
+    "resultado": "Largar não gasta oportunidade; sacar usa a primeira."
+  },
+  {
+    "caso": "Largar+sacar+recolher",
+    "resultado": "Recolher é nova manipulação; Movimento inteiro."
+  },
+  {
+    "caso": "Já andou e precisa de segunda manipulação",
+    "resultado": "Saldo não paga uma ação inteira; precisa de conversão disponível ou esperar."
+  },
+  {
+    "caso": "Malabarista abre porta+sacaKunai",
+    "resultado": "Duas gratuitas válidas; sacar atende restrição da segunda."
+  },
+  {
+    "caso": "Malabarista sacaKunai+abreporta",
+    "resultado": "A segunda abertura não é arma; custa Movimento inteiro. Benefício não vira interação irrestrita."
+  },
+  {
+    "caso": "Malabarista tenta recarregar com segunda manipulação",
+    "resultado": "Não permitido; recarga custa Bônus."
+  },
+  {
+    "caso": "Saque no turno do oponente",
+    "resultado": "Não recebe nova manipulação gratuita; precisa de permissão própria."
+  },
+  {
+    "caso": "Arma nas mãos de inimigo",
+    "resultado": "Não pode tomar como item solto."
+  },
+  {
+    "caso": "Arma2mãos, uma mão ocupaoutra tarefa",
+    "resultado": "Pode sustentar mas não atacar até ter ambas."
+  },
+  {
+    "caso": "Fineza sem requisitoForça",
+    "resultado": "Fineza não dispensa requisito existente."
+  },
+  {
+    "caso": "Prestidigitação14 contra passiva14",
+    "resultado": "Arma escondida daquele observador; empate atende CD."
+  },
+  {
+    "caso": "BuscaInvestigação15 contra escondida15",
+    "resultado": "Arma descoberta; observador alcançouCD."
+  },
+  {
+    "caso": "Revista apenas mochila, arma no casaco",
+    "resultado": "Busca não alcança o esconderijo."
+  },
+  {
+    "caso": "Nova busca contra mesma arma",
+    "resultado": "Mantém total guardado; sem rerrolagem gratuita de esconder."
+  },
+  {
+    "caso": "Oculta no ataque",
+    "resultado": "Não concede vantagem nem exceção à revelação de quem ataca."
+  },
+  {
+    "caso": "Exposição direta do fundo falso",
+    "resultado": "Descoberta automática, sem teste repetido."
+  },
+  {
+    "caso": "Rifle primeirodisparo1",
+    "resultado": "Resolve ataque; contador1, arma descarregada."
+  },
+  {
+    "caso": "Rifle tercdisparo2",
+    "resultado": "Dois gatilhos; só uma recarga necessária."
+  },
+  {
+    "caso": "Vantagem2e14",
+    "resultado": "Usa14; não aciona pelo descartado2."
+  },
+  {
+    "caso": "Desvantagem2e14",
+    "resultado": "Usa2; aciona recarga depois do ataque."
+  },
+  {
+    "caso": "BestaX1, três ataques, umaBônus livre",
+    "resultado": "Com essa arma, só dois disparos; o terceiro exige outra arma/recurso específico."
+  },
+  {
+    "caso": "PistolaX2, doisataques, Bônusjáusada, primeiro1",
+    "resultado": "Só primeiro disparo com ela; trava antes do segundo."
+  },
+  {
+    "caso": "Guardar Rifle vazio e sacar depois",
+    "resultado": "Permanece vazio; troca não reinicia estado."
+  },
+  {
+    "caso": "Trocar duas Pistolas",
+    "resultado": "Cada uma mantém contador; nenhum ataque adicional é concedido."
+  },
+  {
+    "caso": "Rifle carregado contador2, recarga preventiva",
+    "resultado": "GastaBônus e contadorzero."
+  },
+  {
+    "caso": "Pistola+escudo ocupam ambas as mãos",
+    "resultado": "Precisa liberar mão antes da recarga; segunda manipulação Malabarista não paga recarga."
+  },
+  {
+    "caso": "Par, Kama d6, dados2e5 e Força3",
+    "resultado": "Escolhe5, soma3=8; não são dois ataques."
+  },
+  {
+    "caso": "Par2d6, crítico",
+    "resultado": "Duas rolagens de4d6; adicionais fora da escolha."
+  },
+  {
+    "caso": "Usar objeto para abrir gaveta durante Vasculhar",
+    "resultado": "A abertura necessária à busca já está no procedimento; não cobra segunda ação."
+  },
+  {
+    "caso": "Tratamento exige ação própria",
+    "resultado": "Usar objeto não substitui custo do tratamento."
+  },
+  {
+    "caso": "Teste fracassado na porta",
+    "resultado": "Ação consumida; repetição paga outra ação e consequência."
+  },
+  {
+    "caso": "Embainhada com aliado",
+    "resultado": "Aliado gasta manipulação no próprio turno, com alcance e mãos suficientes; sem ataque junto."
+  },
+  {
+    "caso": "Objeto indestrutível pelo golpe",
+    "resultado": "Rompe não autoriza destruição só por vantagem."
+  }
+]

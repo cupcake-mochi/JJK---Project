@@ -1,0 +1,78 @@
+{
+  "sha256_texto": "6b0c6fdc6690e154c064c44ddad58e02593fb3c1a38da3f3ba097e376fc471b0",
+  "fontes": [
+    {
+      "path": "invocacoes/DECISOES-A-PARTIR-DO-46.md",
+      "sha256": "8c9dd35aa0cc496fa9767c5240629321c3706f446e4a3376b4009043c8f43dd5",
+      "sha256_final": "8c9dd35aa0cc496fa9767c5240629321c3706f446e4a3376b4009043c8f43dd5",
+      "preservada": true
+    },
+    {
+      "path": "sistema/03-mecanica/04-pericias-e-testes.md",
+      "sha256": "ffd42fb10621e4c73a0130306a1561b38c4f44973860fc46cc9b6a3e7587918c",
+      "sha256_final": "ffd42fb10621e4c73a0130306a1561b38c4f44973860fc46cc9b6a3e7587918c",
+      "preservada": true
+    },
+    {
+      "path": "sistema/03-mecanica/07-pericias-e-oficios.md",
+      "sha256": "d94a4dc2811757b5d7233e1814eed65b34f8bc561be75939fd0f8a8509d4e127",
+      "sha256_final": "d94a4dc2811757b5d7233e1814eed65b34f8bc561be75939fd0f8a8509d4e127",
+      "preservada": true
+    },
+    {
+      "path": "sistema/03-mecanica/14-equipamento.md",
+      "sha256": "d3c27c82c54a421ee2039f9986002cd879a61fe74291a5dad800631fc4ce32eb",
+      "sha256_final": "d3c27c82c54a421ee2039f9986002cd879a61fe74291a5dad800631fc4ce32eb",
+      "preservada": true
+    },
+    {
+      "path": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "sha256": "4df82e672d063b4d4bfe3394d93bb75052ec3e07d44d90b83c0ea32f10439f82",
+      "sha256_final": "4df82e672d063b4d4bfe3394d93bb75052ec3e07d44d90b83c0ea32f10439f82",
+      "preservada": true
+    },
+    {
+      "path": "sistema/05-material/livro/planejamento-editorial/regras-basicas/lote-01/TESTES-E-TURNOS.md",
+      "sha256": "6398c036f821c98ab1c83241eb76c91f0ef2b29d108ba8335b6ae794eb180b35",
+      "sha256_final": "6398c036f821c98ab1c83241eb76c91f0ef2b29d108ba8335b6ae794eb180b35",
+      "preservada": true
+    },
+    {
+      "path": "sistema/05-material/livro/planejamento-editorial/pericias-e-oficios/lote-01/PERICIAS-E-OFICIOS.md",
+      "sha256": "fec7b78ed68c2ebdfc47aae059de9c713249f36d76b137e3baa858238cfde8b6",
+      "sha256_final": "fec7b78ed68c2ebdfc47aae059de9c713249f36d76b137e3baa858238cfde8b6",
+      "preservada": true
+    },
+    {
+      "path": "sistema/05-material/livro/planejamento-editorial/equipamento/lote-05-r1/ITENS-E-OBJETOS.md",
+      "sha256": "1781aaf0047bc2789e48c8de0741c6d8b8470b123c311b39f2a423ead0c5413c",
+      "sha256_final": "1781aaf0047bc2789e48c8de0741c6d8b8470b123c311b39f2a423ead0c5413c",
+      "preservada": true
+    },
+    {
+      "path": "sistema/05-material/livro/planejamento-editorial/equipamento/lote-06-r1/COMPRAS-E-EQUIPAMENTO-INICIAL.md",
+      "sha256": "0c65b7d17dc1ee911e292711bbc68330fb70e248390293ee09f8a0bace0d2fe5",
+      "sha256_final": "0c65b7d17dc1ee911e292711bbc68330fb70e248390293ee09f8a0bace0d2fe5",
+      "preservada": true
+    },
+    {
+      "path": "sistema/05-material/livro/planejamento-editorial/equipamento/lote-08/EQUIPAMENTO-AMALDICOADO.md",
+      "sha256": "f6966f9810cb27193c671a692d475d88c341f9833938d7aa1fda646df4724d13",
+      "sha256_final": "f6966f9810cb27193c671a692d475d88c341f9833938d7aa1fda646df4724d13",
+      "preservada": true
+    },
+    {
+      "path": "sistema/05-material/livro/planejamento-editorial/invocacoes/lote-01/INVOCACOES-EM-CAMPO.md",
+      "sha256": "fcddc35982314ea73607bdf76f2e851836c2a72a801e53b33008aad1af9e733a",
+      "sha256_final": "fcddc35982314ea73607bdf76f2e851836c2a72a801e53b33008aad1af9e733a",
+      "preservada": true
+    },
+    {
+      "path": "sistema/05-material/livro/planejamento-editorial/invocacoes/lote-02/CONSTRUIR-INVOCACOES.md",
+      "sha256": "b5cdf71d370efc1d32ed005d6abe4099be9e3cdcbda2666f6cf9fb337a1282c0",
+      "sha256_final": "0e47b1295d76cac0caeadacec227cc37c0221d537b59e89cfa10455c962389d1",
+      "preservada": false
+    }
+  ],
+  "nota": "Comparação por hash, sem restauração de arquivos. Mudança concorrente requer cotejo, não atribuição automática ao agente."
+}

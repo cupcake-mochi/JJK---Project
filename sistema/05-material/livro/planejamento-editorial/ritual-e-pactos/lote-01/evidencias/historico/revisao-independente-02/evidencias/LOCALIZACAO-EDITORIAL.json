@@ -1,0 +1,27 @@
+{
+  "sha256_texto": "6f396e09882b7f42768aa5d2e3e2a6f1f68f2214cf1284a3d417c02da1ea21f4",
+  "titulos_revisto": true,
+  "sem_explicacao_alheia": true,
+  "vocabulario_revisto": true,
+  "excecoes_vocabulario": [],
+  "revisor": "Agente principal, autoria e leitura integral da candidata",
+  "notas": "Títulos diretos. Requisitos e incompatibilidades nomeiam peças do catálogo apenas para resolver interação. Leitura independente ainda separada e pendente.",
+  "atualizacao_independente": {
+    "revisor": "compatibilidade",
+    "parecer_original": "historico/revisao-independente-01/r19-revisao-independente.json",
+    "corrigidos": [
+      "RI-01",
+      "RI-04",
+      "RI-05",
+      "RI-08",
+      "RI-07: nome Concentrada"
+    ],
+    "pendentes": [
+      "RI-02",
+      "RI-03",
+      "RI-06",
+      "RI-07: matriz de modalidades"
+    ],
+    "leitura": "Releitura dos parágrafos alterados e comparação com snapshot anterior. Atualização do hash não declara os demais achados resolvidos."
+  }
+}
