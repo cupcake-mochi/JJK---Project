@@ -164,13 +164,13 @@
       "ok": true
     },
     {
-      "verificacao": "p1: página citada entidade-vigia",
+      "verificacao": "p1: página citada entidade-cao",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "verificacao": "p1: página citada entidade-cao",
+      "verificacao": "p1: página citada entidade-vigia",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -706,13 +706,13 @@
       "ok": true
     },
     {
-      "verificacao": "p13: página citada entidades-progressao",
+      "verificacao": "p13: página citada entidades-medidas",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "verificacao": "p13: página citada entidades-medidas",
+      "verificacao": "p13: página citada entidades-progressao",
       "obtido": true,
       "esperado": true,
       "ok": true

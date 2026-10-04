@@ -1,0 +1,13 @@
+BASE na cópia:
+   rc 0 aprovado True falhas []
+PERTURBAÇÃO A: Revezamento volta ao texto antigo, hash atual mantido
+   arquivo mudou
+   rc 1 aprovado False falhas ['texto_Revezamento']
+CONTRA-TESTE: mesma perturbação com o auditor antigo (sem a checagem nova)
+   auditor trocado
+   rc 0 aprovado True falhas []
+PERTURBAÇÃO B: uma palavra trocada em outro Legado (Faro)
+   arquivo mudou
+   rc 1 aprovado False falhas ['texto_Faro']
+DEPOIS de restaurar:
+   rc 0 aprovado True falhas []

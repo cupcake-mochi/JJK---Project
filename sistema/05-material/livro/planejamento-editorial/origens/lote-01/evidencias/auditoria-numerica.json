@@ -5,7 +5,7 @@
   },
   "fonte": "AUDITORIA.json",
   "quantidades": {
-    "verificacoes": 333,
+    "verificacoes": 418,
     "casos": 35,
     "pares_legados": 268,
     "perfis_reparo": 105,
@@ -18,6 +18,7 @@
     "auditoria_reexecutada": "evidencias/AUDITORIA.json",
     "resultado": "aprovado",
     "correcao_de_registro": "INVENTARIO.json: hash atualizado e segundo parágrafo de Revezamento alinhado ao texto já migrado (ver revisao_delta_2026_10_04 do inventário).",
-    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+    "checagem_nova": "auditar.py ganhou 85 checagens texto_<Legado>: o texto de cada entrada do INVENTARIO.json precisa bater com o livro, não só existir (333 para 418 verificações). Teste negativo e contra-teste em publicacao-github/provas-cinco-capitulos-2026-10-04/perturbacao-origens.txt."
   }
 }

@@ -194,13 +194,13 @@
       "ok": true
     },
     {
-      "verificacao": "p2: página citada rota-ferramenta",
+      "verificacao": "p2: página citada rota-armas",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "verificacao": "p2: página citada rota-armas",
+      "verificacao": "p2: página citada rota-ferramenta",
       "obtido": true,
       "esperado": true,
       "ok": true

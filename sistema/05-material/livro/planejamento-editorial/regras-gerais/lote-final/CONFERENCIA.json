@@ -1510,7 +1510,7 @@
       "ok": true
     },
     {
-      "verificacao": "p31: página citada ler",
+      "verificacao": "p31: página citada buscar",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -1522,13 +1522,13 @@
       "ok": true
     },
     {
-      "verificacao": "p31: página citada ocultacao-ataque",
+      "verificacao": "p31: página citada ler",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "verificacao": "p31: página citada buscar",
+      "verificacao": "p31: página citada ocultacao-ataque",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -1762,6 +1762,12 @@
       "ok": true
     },
     {
+      "verificacao": "p36: página citada buscar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
       "verificacao": "p36: página citada ler",
       "obtido": true,
       "esperado": true,
@@ -1769,12 +1775,6 @@
     },
     {
       "verificacao": "p36: página citada pressao",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "verificacao": "p36: página citada buscar",
       "obtido": true,
       "esperado": true,
       "ok": true

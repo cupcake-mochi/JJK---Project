@@ -86,5 +86,11 @@ Numa cópia isolada, sem tocar os arquivos reais. A cópia passou antes de cada 
 ## Limites
 
 - A inspeção nova cobre só as 7 páginas mudadas. As outras herdam a inspeção anterior por igualdade de pixel, sem alegar leitura nova.
-- O auditor de Origens continua sem conferir se o texto de cada entrada do inventário bate com o livro. A perturbação 4 testa só o hash. O auditor não foi mudado nesta rodada; fica a sugestão de uma checagem de conteúdo, que teria pegado o Revezamento.
 - Estes PDFs são provas por capítulo. O PDF que vale é o livro completo, e o fechamento da cadeia de evidência dele é o item 2 da fila.
+- Os `MANIFESTO.json` dos capítulos, que guardam o hash de cada arquivo da unidade, continuam com os hashes de antes. Isso vale para estes cinco e para os 13 da rodada anterior, e entra no item 2.
+
+## Depois, a pedido do Mizuki
+
+**O auditor de Origens passou a conferir o texto do inventário.** Antes ele só via se cada Legado existia no livro. Agora ganhou 85 checagens, uma por Legado, que comparam o texto inteiro (ignorando espaços). Ele vai de 333 para 418 verificações. Com o inventário de antes da correção, a checagem nova acusa só o Revezamento; o auditor antigo deixa passar. Uma palavra trocada no Faro também acende. Saída em `perturbacao-origens.txt`.
+
+**O validador de PDF compartilhado ficou com ordem fixa.** Ele percorria as remissões de cada página num conjunto do Python, cuja ordem muda a cada execução. Com o mesmo livro, o `CONFERENCIA.json` saía diferente toda vez, e o diff mostrava mudança onde não tinha. Agora percorre em ordem alfabética. Antes do conserto, três sementes davam três arquivos diferentes no Catálogo, no Equipamento e nas Regras gerais; depois, sempre o mesmo. Os `CONFERENCIA.json` dos capítulos do livro foram regravados uma vez nessa ordem, e fora destes cinco só a ordem das checagens mudou.

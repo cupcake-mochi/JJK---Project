@@ -190,7 +190,7 @@
       "ok": true
     },
     {
-      "verificacao": "p1: página citada cat-tempo",
+      "verificacao": "p1: página citada cat-alcance",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -202,43 +202,7 @@
       "ok": true
     },
     {
-      "verificacao": "p1: página citada cat-mira",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "verificacao": "p1: página citada cat-castigo",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "verificacao": "p1: página citada cat-proprio",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "verificacao": "p1: página citada cat-restricoes-conjuracao",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
       "verificacao": "p1: página citada cat-area",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "verificacao": "p1: página citada cat-regra-propria",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "verificacao": "p1: página citada cat-passivas-1",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -250,7 +214,13 @@
       "ok": true
     },
     {
-      "verificacao": "p1: página citada cat-alcance",
+      "verificacao": "p1: página citada cat-castigo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: página citada cat-controle",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -262,7 +232,37 @@
       "ok": true
     },
     {
-      "verificacao": "p1: página citada cat-controle",
+      "verificacao": "p1: página citada cat-mira",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: página citada cat-passivas-1",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: página citada cat-proprio",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: página citada cat-regra-propria",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: página citada cat-restricoes-conjuracao",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: página citada cat-tempo",
       "obtido": true,
       "esperado": true,
       "ok": true

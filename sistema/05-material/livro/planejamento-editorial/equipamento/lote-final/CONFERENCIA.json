@@ -200,13 +200,13 @@
       "ok": true
     },
     {
-      "verificacao": "p1: página citada eq-propriedades",
+      "verificacao": "p1: página citada eq-oculta",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "verificacao": "p1: página citada eq-oculta",
+      "verificacao": "p1: página citada eq-propriedades",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -466,12 +466,6 @@
       "ok": true
     },
     {
-      "verificacao": "p6: página citada eqp-vestir",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
       "verificacao": "p6: página citada eqp-escudo",
       "obtido": true,
       "esperado": true,
@@ -479,6 +473,12 @@
     },
     {
       "verificacao": "p6: página citada eqp-traje",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p6: página citada eqp-vestir",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -1538,13 +1538,13 @@
       "ok": true
     },
     {
-      "verificacao": "p30: página citada eqf-uso",
+      "verificacao": "p30: página citada eqf-desgaste",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "verificacao": "p30: página citada eqf-desgaste",
+      "verificacao": "p30: página citada eqf-uso",
       "obtido": true,
       "esperado": true,
       "ok": true

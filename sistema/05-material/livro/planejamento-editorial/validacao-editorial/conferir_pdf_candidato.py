@@ -46,7 +46,7 @@ with pdfplumber.open(B/'output/pdf'/PDF) as doc:
    if a.get('/Subtype')=='/Link':
     d=a.get('/Dest');targets.append(ids.get(d[0].idnum) if d else None)
   ck(f'p{i}: links corretos',sorted(set(targets)),sorted({meta['paginas'][x] for x in refs}))
-  for ref in set(refs):ck(f'p{i}: página citada {ref}',f"(p. {meta['paginas'][ref]})" in re.sub(r'\s+', ' ', t),True)
+  for ref in sorted(set(refs)):ck(f'p{i}: página citada {ref}',f"(p. {meta['paginas'][ref]})" in re.sub(r'\s+', ' ', t),True)
   geom.append({'pagina':i,'final_corpo':round(max(c['bottom'] for c in body),2)})
 snap=json.loads((B/'evidencias/fontes-preservadas.json').read_text());ck('Fontes e versões anteriores preservadas',[n for n,h in snap.items() if sha(R/n)!=h],[])
 inv=json.loads((R/'sistema/05-material/livro/planejamento-editorial/INVENTARIO-BASE.json').read_text());ck('Livro e exportações preservados',[x['arquivo'] for x in inv['fontes']+inv['artefatos_publicados'] if sha(R/x['arquivo'])!=x['sha256']],[])

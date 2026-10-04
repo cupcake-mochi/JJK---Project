@@ -170,25 +170,25 @@
       "ok": true
     },
     {
-      "verificacao": "p1: página citada pontos",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
       "verificacao": "p1: página citada formas",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "verificacao": "p1: página citada repertorio",
+      "verificacao": "p1: página citada pontos",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
       "verificacao": "p1: página citada primeiro",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: página citada repertorio",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -1256,13 +1256,13 @@
       "ok": true
     },
     {
-      "verificacao": "p25: página citada retirada",
+      "verificacao": "p25: página citada passagem",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "verificacao": "p25: página citada passagem",
+      "verificacao": "p25: página citada retirada",
       "obtido": true,
       "esperado": true,
       "ok": true
