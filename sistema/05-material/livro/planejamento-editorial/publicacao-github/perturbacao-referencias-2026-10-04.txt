@@ -1,0 +1,16 @@
+base rc=0
+P1-inexistente rc=1 1 erros;   1797 caminhos citados em .md conferidos, 1 mortos, 37 locais ou temporarios fora do repositorio (aviso).
+  !! sistema/05-material/livro/planejamento-editorial/TESTE.md cita `sistema/nao-existe/X.md`, e nao resolve da pasta do documento nem de nenhuma pasta acima dela
+P2-absoluto rc=1 1 erros;   1797 caminhos citados em .md conferidos, 1 mortos, 37 locais ou temporarios fora do repositorio (aviso).
+  !! sistema/05-material/livro/planejamento-editorial/TESTE.md cita `/home/fulano/y.md`, caminho absoluto fora do repositorio
+P3-tmp-existente rc=0 0 erros;   1797 caminhos citados em .md conferidos, 0 mortos, 38 locais ou temporarios fora do repositorio (aviso).
+P4-ignorado rc=0 0 erros;   1797 caminhos citados em .md conferidos, 0 mortos, 38 locais ou temporarios fora do repositorio (aviso).
+P5-ancestral-falso rc=1 1 erros;   1797 caminhos citados em .md conferidos, 1 mortos, 37 locais ou temporarios fora do repositorio (aviso).
+  !! sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/TESTE.md cita `abertura/lote-01/NAO-EXISTE.md`, e nao resolve da pasta do documento nem de nenhuma pasta acima dela
+P6-nome rc=1 1 erros;   1797 caminhos citados em .md conferidos, 1 mortos, 37 locais ou temporarios fora do repositorio (aviso).
+  !! sistema/05-material/livro/planejamento-editorial/TESTE.md cita `NOME-QUE-NAO-EXISTE.md`, e nenhum arquivo da arvore tem esse nome
+0
+(contra-teste: 0 = o verificador antigo aceitava /tmp que existe na maquina)
+volta rc=0
+
+[exited with code 0]
