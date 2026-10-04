@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "a4d4b68bbed3c62efdc849ab32a08350694f6653bdeea08ec71874b5aada4980",
+  "sha256_texto": "506bb779ba4772add62d7a1d05a399d59739a13bb0a882b5345e5c7e9641548e",
   "validadores": [
     {
       "id": "V01",
@@ -101,5 +101,24 @@
     "pdf_vigente": "consolidacao/lote-01/output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
     "sha256_pdf_vigente": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8",
     "escopo": "V01–V12 reaproveitados das revisões registradas com revisão do delta de remissões; V13–V15 do PDF entregue estão no dossiê da consolidação. Provas individuais são históricas, não uma segunda edição final."
-  }
+  },
+  "revalidacao_2026_10_04": {
+    "sha256_texto_anterior": "a4d4b68bbed3c62efdc849ab32a08350694f6653bdeea08ec71874b5aada4980",
+    "sha256_pdf_anterior": null,
+    "sha256_texto": "506bb779ba4772add62d7a1d05a399d59739a13bb0a882b5345e5c7e9641548e",
+    "sha256_pdf": "08a54a4284bdbba3767ead69c062a33eca0f595035f984a051bb604ee561be68",
+    "conferencia": {
+      "arquivo": "CONFERENCIA.json",
+      "ok": true,
+      "verificacoes": 229
+    },
+    "registros": [
+      "revisao-interfaces/CORRECOES-APLICADAS.md"
+    ],
+    "pdf_vigente": "consolidacao/lote-01/output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
+    "sha256_pdf_vigente": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e",
+    "escopo": "V01–V12 seguem as revisões registradas, renovadas por delta nas evidências da unidade (blocos revisao_delta_2026_10_04 e revisao_delta_2026_10_04_decisoes, quando houver) e no conferir.py verde. V13–V15 do livro estão em consolidacao/lote-01, com a inspeção visual encadeada em FINAL-V14.json. A prova individual corresponde ao texto atual.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "sha256_pdf": "08a54a4284bdbba3767ead69c062a33eca0f595035f984a051bb604ee561be68"
 }

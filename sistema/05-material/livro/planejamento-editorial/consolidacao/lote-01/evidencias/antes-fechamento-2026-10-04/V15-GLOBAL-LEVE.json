@@ -1,17 +1,17 @@
 {
-  "data_utc": "2026-10-04T14:49:57.729386+00:00",
+  "data_utc": "2026-10-04T01:24:07.643057+00:00",
   "escopo": "Auditoria leve de metadados dos23donos de ORDEM.json; valida presença V01–V15, hashes do texto/PDF e índice crítico do manifesto. Não relê regras, não executa testes novamente e não altera documentos de outros donos.",
   "sha256_ordem": "02ad73793f3db9805ba980c68926d3a8ebb175ce1d2f685b94087e24c91c3daf",
   "fontes": 23,
-  "decisoes_registradas": 796,
-  "donos_com_registro_contavel": 23,
-  "checks_registrados": 4082,
+  "decisoes_registradas": 772,
+  "donos_com_registro_contavel": 22,
+  "checks_registrados": 4076,
   "unidades": [
     {
       "id": "ab",
       "arquivo": "abertura/lote-01/ABERTURA-E-CRIACAO.md",
-      "sha256_texto": "6778c50063b3549bce9e8e5c02961ec2aec0a803ceff75844e68fe9d7729bd1e",
-      "sha256_pdf": "50fd43a48197d1bdd583cda25eaac69ff97e477b87f6568fbf4b5bfed11c5b30",
+      "sha256_texto": "8c0e790f36fdffca4b5c148b7bcdfc2376a7bdcf65b2c5867c7a126c8ac1f887",
+      "sha256_pdf": "010071601ddd59860a113451b3ed7831c0234db4edec58f3fcd0e8b6cdbb553f",
       "paginas": 13,
       "validadores_presentes": 15,
       "conferencia_checks": 110,
@@ -134,15 +134,22 @@
           "tipo": "editorial"
         }
       ],
-      "achados": [],
-      "estado": "metadados coerentes nesta fotografia",
+      "achados": [
+        "VALIDADORES com hash de texto anterior",
+        "CONFERENCIA com texto anterior",
+        "CONFERENCIA com PDF anterior",
+        "MANIFESTO desatualizado/sem ABERTURA-E-CRIACAO.md",
+        "MANIFESTO desatualizado/sem output/pdf/Projeto-M-Abertura-e-Criacao-Proposta-01.pdf",
+        "MANIFESTO desatualizado/sem VALIDADORES.json"
+      ],
+      "estado": "pendência documental",
       "gravacao_em_curso": false
     },
     {
       "id": "geral",
       "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
-      "sha256_texto": "60ce622431b0dfeb4f1f6eaad8b8446e71473755a17e55eb3fc0535ce333e7f3",
-      "sha256_pdf": "2d7273c7e59a0d687db8ab06da3d407d110dab1c1dc4e39217e348c2f6157ea4",
+      "sha256_texto": "009036700319e1d3371ef84f6889539416bb0130d494dc40a316bebf08b1d18c",
+      "sha256_pdf": "04ba3959d13aa4b6f032a172ee5200d9c94f28748d127c2f9c3b16a9d75cea81",
       "paginas": 40,
       "validadores_presentes": 15,
       "conferencia_checks": 314,
@@ -347,13 +354,13 @@
     {
       "id": "dano",
       "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
-      "sha256_texto": "44c41c7ce33b68d6284fa55b69d7fb43bc6fc28aa3b86c445007cad1dc807fea",
-      "sha256_pdf": "782c5527f30d05d7b82c2a4b1497648df36c99785ec96d651dce5ae1effaaac7",
+      "sha256_texto": "b4035a501c87ada84e73e5951cdf41639c850d644cfe4cb8812575d8a0bc1c43",
+      "sha256_pdf": "4c791840f00996685edc13c806c7b33a453c94679399763cb9ec495d33ddc753",
       "paginas": 20,
       "validadores_presentes": 15,
       "conferencia_checks": 163,
       "conferencia_ok": true,
-      "decisoes": 33,
+      "decisoes": 32,
       "resumo_decisoes": [
         {
           "id": "DR01",
@@ -514,22 +521,19 @@
           "id": "DR32",
           "tema": "Guarda Aberta, com os mesmos efeitos, condições de saída e interfaces.",
           "tipo": "Nomenclatura"
-        },
-        {
-          "id": "DR33",
-          "tema": "Ao chegar a **zero de vida**, você está **Morrendo**",
-          "tipo": "decisão do autor"
         }
       ],
-      "achados": [],
-      "estado": "metadados coerentes nesta fotografia",
+      "achados": [
+        "MANIFESTO ausente"
+      ],
+      "estado": "transiente informado pela raiz",
       "gravacao_em_curso": true
     },
     {
       "id": "origens",
       "arquivo": "origens/lote-01/ORIGENS-E-LEGADOS.md",
-      "sha256_texto": "0476a3485888acb6e08fc457ce59f7049a5e440f5787c722a9caf062871c91d7",
-      "sha256_pdf": "75dd8939b42906df9324f0a74421d07344f7f95c99526e122d8ebc96a08e93fa",
+      "sha256_texto": "d432caecc9f2c63b0f355ad70a6e74251ae51044a8ac5840a35b7fd6d182484d",
+      "sha256_pdf": "9794238a24a5ca41232384b15bd50fca03b698223481864339cfd7440f102e09",
       "paginas": 26,
       "validadores_presentes": 15,
       "conferencia_checks": 204,
@@ -719,39 +723,36 @@
     {
       "id": "pericias",
       "arquivo": "pericias-e-oficios/lote-01/PERICIAS-E-OFICIOS.md",
-      "sha256_texto": "2d8ba86ef20865c3022197ab4c8027f3b2bf43dde353e35e14d76c0d0e9aafae",
-      "sha256_pdf": "c5c8039cba02704874e45601e05dac850ae59ec742a9c0175dddaff930f3409d",
+      "sha256_texto": "016423f17da7111635e8d9973afd6c810bfb7f5d7f93c3f1e235bf91d0385fdc",
+      "sha256_pdf": "8f23c332359e69d433d192905a523ef14c028a0adf09596278d2436ea3473401",
       "paginas": 9,
-      "validadores_presentes": 15,
+      "validadores_presentes": 0,
       "conferencia_checks": 83,
-      "conferencia_ok": true,
-      "decisoes": 2,
-      "resumo_decisoes": [
-        {
-          "id": "REM03",
-          "tema": "Tratamento e socorro seguem o efeito usado e a seção Socorro, em Dano e recuperação.",
-          "tipo": "editorial"
-        },
-        {
-          "id": "REM12",
-          "tema": "As seções Movimento e terreno e Ataques, em Regras gerais, determinam",
-          "tipo": "editorial"
-        }
+      "conferencia_ok": false,
+      "decisoes": null,
+      "resumo_decisoes": [],
+      "achados": [
+        "VALIDADORES.json ausente",
+        "CONFERENCIA não aprovada",
+        "MANIFESTO desatualizado/sem PERICIAS-E-OFICIOS.md",
+        "MANIFESTO desatualizado/sem output/pdf/Projeto-M-Pericias-e-Oficios-Proposta-01.pdf",
+        "MANIFESTO desatualizado/sem CONFERENCIA.json"
       ],
-      "achados": [],
-      "estado": "metadados coerentes nesta fotografia",
-      "gravacao_em_curso": false
+      "estado": "pendência documental",
+      "gravacao_em_curso": false,
+      "alternativa_registro": "pericias-e-oficios/lote-01/REVISAO-E-FONTES.md",
+      "contagem_limite": "Não foi inventada uma contagem de decisões a partir de prosa."
     },
     {
       "id": "equip",
       "arquivo": "equipamento/lote-final/EQUIPAMENTO.md",
-      "sha256_texto": "691e10b85c01d25f9002bc4b5717b05a947129a2ae22bef3145f83b7dd938f1b",
-      "sha256_pdf": "871267c856b89eb6e2584639f2eec0d0fd5a806670e5038d2ebc07664ec45aa2",
+      "sha256_texto": "85b38026ae96486a1db359ddf81157d482b4e03bb7fe4c70c2bb17ab5755a77b",
+      "sha256_pdf": "62143fe6e30b67d42e37242de11c8badcbdc64e3b51d33d6f2cbe74bf7e7d646",
       "paginas": 39,
       "validadores_presentes": 15,
       "conferencia_checks": 309,
       "conferencia_ok": true,
-      "decisoes": 27,
+      "decisoes": 24,
       "resumo_decisoes": [
         {
           "id": "EQ01",
@@ -872,21 +873,6 @@
           "id": "EQ24",
           "tema": "Página Objetos e efeitos recebe a parte de alvos, equipamento carregado e barreiras, com exemplo local.",
           "tipo": "E diagramação"
-        },
-        {
-          "id": "EQ25",
-          "tema": "Capacidade 1 mantida, sem mudar o texto: cada besta comporta um virote e precisa ser recarregada depois de cada disparo.",
-          "tipo": "M decisão do autor"
-        },
-        {
-          "id": "EQ26",
-          "tema": "A conversão de ações segue as regras do turno.\n\nDuas capacidades que troquem essa manipulação gratuita por duas não se s",
-          "tipo": "decisão do autor"
-        },
-        {
-          "id": "EQ27",
-          "tema": "O dano dos ataques com esta arma é **dano de Alma** e atinge **somente a Integridade** do alvo, conforme Receber dano de",
-          "tipo": "decisão do autor"
         }
       ],
       "achados": [],
@@ -896,13 +882,13 @@
     {
       "id": "progressao",
       "arquivo": "progressao/lote-01/PROGRESSAO.md",
-      "sha256_texto": "6a5d4ecf8c5a8ec7862ce5f42b45981f87e6c1b5f195cf982a79eaf9c2c89474",
-      "sha256_pdf": "8151326e194c5f251ee98aaa88f5f2d57ea99cdd3e58078afcba7632a0a1bd0b",
-      "paginas": 13,
+      "sha256_texto": "483925447a9de1d0bc32fa2dfe46af1b079438106881b67ced66f0fefe10e653",
+      "sha256_pdf": "e895505a4f862aabc64324131b367d3c8151d2f002414cb9d92326f37131b4a8",
+      "paginas": 14,
       "validadores_presentes": 15,
       "conferencia_checks": 110,
       "conferencia_ok": true,
-      "decisoes": 40,
+      "decisoes": 36,
       "resumo_decisoes": [
         {
           "id": "PRO01",
@@ -1083,37 +1069,24 @@
           "id": "PRO36",
           "tema": "Retorno acompanha saída de Derrotado",
           "tipo": "M/C"
-        },
-        {
-          "id": "PRO37",
-          "tema": "Registre a seleção",
-          "tipo": "M decisão do autor"
-        },
-        {
-          "id": "PRO38",
-          "tema": "registre **um dos sete feitos abaixo** / (retirado)",
-          "tipo": "decisão do autor"
-        },
-        {
-          "id": "PRO39",
-          "tema": "(retirado)",
-          "tipo": "retirada a pedido do autor"
-        },
-        {
-          "id": "PRO40",
-          "tema": "(retirado)",
-          "tipo": "retirada a pedido do autor"
         }
       ],
-      "achados": [],
-      "estado": "metadados coerentes nesta fotografia",
+      "achados": [
+        "VALIDADORES com hash de texto anterior",
+        "CONFERENCIA com texto anterior",
+        "CONFERENCIA com PDF anterior",
+        "MANIFESTO desatualizado/sem PROGRESSAO.md",
+        "MANIFESTO desatualizado/sem output/pdf/Projeto-M-Progressao-Proposta-01.pdf",
+        "MANIFESTO desatualizado/sem VALIDADORES.json"
+      ],
+      "estado": "pendência documental",
       "gravacao_em_curso": false
     },
     {
       "id": "fundamento",
       "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
-      "sha256_texto": "066f6e472912083a153f474460ee111a79f37606ab9941ea3322506170847783",
-      "sha256_pdf": "05766e656a3d09b0316a891c69503aa502ac2e43a01a3e131bc020477d712dd1",
+      "sha256_texto": "0160f774f5ea87f4ffd29bb7f7e3335dead51677bf2b894041aa61e2c5041273",
+      "sha256_pdf": "2d8ecd738ae4e0e3a2b101527f13d0020727bb9c6ac28e5ef482bcc8f6fbf634",
       "paginas": 29,
       "validadores_presentes": 15,
       "conferencia_checks": 233,
@@ -1401,15 +1374,21 @@
           "tipo": "E"
         }
       ],
-      "achados": [],
-      "estado": "metadados coerentes nesta fotografia",
+      "achados": [
+        "VALIDADORES com hash de texto anterior",
+        "MANIFESTO desatualizado/sem FUNDAMENTO.md",
+        "MANIFESTO desatualizado/sem output/pdf/Projeto-M-Fundamento-Proposta-01.pdf",
+        "MANIFESTO desatualizado/sem VALIDADORES.json",
+        "MANIFESTO desatualizado/sem CONFERENCIA.json"
+      ],
+      "estado": "pendência documental",
       "gravacao_em_curso": false
     },
     {
       "id": "catalogo",
       "arquivo": "catalogo/lote-01/CATALOGO.md",
-      "sha256_texto": "61f9e65fdfdb59517c710fb6aa6e0e19631823212f3155572b40870c3b2670ff",
-      "sha256_pdf": "55b95d6ca7d37bd4352508b736c530262f3e33fce10dbd532dd23f8e68241006",
+      "sha256_texto": "3ff14332800456da87ee8c49fa9648596003e332291823abe24dcf8fa5afe785",
+      "sha256_pdf": "c1bd7b39198e104cef38345e43483b754c1c4694c43b1cc6ef260757e12204c8",
       "paginas": 30,
       "validadores_presentes": 15,
       "conferencia_checks": 242,
@@ -2007,20 +1986,26 @@
           "tipo": "editorial"
         }
       ],
-      "achados": [],
-      "estado": "metadados coerentes nesta fotografia",
+      "achados": [
+        "VALIDADORES com hash de texto anterior",
+        "MANIFESTO desatualizado/sem CATALOGO.md",
+        "MANIFESTO desatualizado/sem output/pdf/Projeto-M-Catalogo-de-Criacao-Proposta-01.pdf",
+        "MANIFESTO desatualizado/sem VALIDADORES.json",
+        "MANIFESTO desatualizado/sem CONFERENCIA.json"
+      ],
+      "estado": "pendência documental",
       "gravacao_em_curso": false
     },
     {
       "id": "aptidoes",
       "arquivo": "aptidoes/lote-01/APTIDOES-E-REFINO.md",
-      "sha256_texto": "123f777f27638aac11b1c7e984c998503fb84b1eee24a8d80e8e1926880888f0",
-      "sha256_pdf": "6fbda6bc16317e67363de9a8ee2a0bc2fd447dfab31a905987a09262cc42ea93",
+      "sha256_texto": "8ab8f1322ac42fd54c72a45549b1e3df6c64a75399950e2c249919bf8f0cf80c",
+      "sha256_pdf": "9f2409bf6aec6a57a9502de2880235589fbafe676124928532d5a788a11cb0c3",
       "paginas": 20,
       "validadores_presentes": 15,
-      "conferencia_checks": 160,
+      "conferencia_checks": 159,
       "conferencia_ok": true,
-      "decisoes": 33,
+      "decisoes": 32,
       "resumo_decisoes": [
         {
           "id": "A01",
@@ -2181,11 +2166,6 @@
           "id": "A32",
           "tema": "Índice de16entradas inclui Ritual e remete ao capítulo próprio.",
           "tipo": "Editorial/cobertura"
-        },
-        {
-          "id": "A33",
-          "tema": "(retirado)",
-          "tipo": "retirada a pedido do autor"
         }
       ],
       "achados": [],
@@ -2195,13 +2175,13 @@
     {
       "id": "rotas",
       "arquivo": "rotas/lote-01/ROTAS.md",
-      "sha256_texto": "7fb73a56e4a34ce5a50be4357dd4d5987000c15f9cb81af9972ff4833ef23a59",
-      "sha256_pdf": "2e23d140c0f389d5d1ee420a53781d133be7c159354ad899f27190a0b45f43b5",
+      "sha256_texto": "cbdc3648f5faa76a3973fd1dc9b8d196a5e46d5508163bc2e3720b33c2512a40",
+      "sha256_pdf": "730e0c332b656fc621056d13553fd402e628053ba93f7981903b37dcec248ad6",
       "paginas": 23,
       "validadores_presentes": 15,
       "conferencia_checks": 185,
       "conferencia_ok": true,
-      "decisoes": 35,
+      "decisoes": 32,
       "resumo_decisoes": [
         {
           "id": "R10-01",
@@ -2362,35 +2342,26 @@
           "id": "R10-32",
           "tema": "**Uma vez por descanso longo**, ao escolher **Insistir**, você pode dispensar o **primeiro custo de vida máxima**, corre",
           "tipo": "sincronização mecânica autorizada"
-        },
-        {
-          "id": "R10-33",
-          "tema": "(retirado)",
-          "tipo": "decisão do autor"
-        },
-        {
-          "id": "R10-34",
-          "tema": "1",
-          "tipo": "decisão do autor"
-        },
-        {
-          "id": "R10-35",
-          "tema": "(retirado)",
-          "tipo": "retirada a pedido do autor"
         }
       ],
-      "achados": [],
-      "estado": "metadados coerentes nesta fotografia",
+      "achados": [
+        "VALIDADORES com hash de PDF anterior",
+        "MANIFESTO desatualizado/sem ROTAS.md",
+        "MANIFESTO desatualizado/sem output/pdf/Projeto-M-Rotas-Proposta-01.pdf",
+        "MANIFESTO desatualizado/sem VALIDADORES.json",
+        "MANIFESTO desatualizado/sem CONFERENCIA.json"
+      ],
+      "estado": "transiente informado pela raiz",
       "gravacao_em_curso": true
     },
     {
       "id": "poderes",
       "arquivo": "poderes-avancados/lote-01/PODERES-AVANCADOS.md",
-      "sha256_texto": "17331ebd3c99cb822d6b5c62610cc55ab6dfe715f53476835394a36d7a47696d",
-      "sha256_pdf": "6989a9237a936f68870bfeeb2b17c16b9e7180e8616b793a6f13b780f2e7dc11",
+      "sha256_texto": "2b1c02cb3407a7aec6ef385a00726e1d131020b3f2b110b433bfcedf28f2854f",
+      "sha256_pdf": "fe220c707ef23e311c37c0da1d31ac6068a1f0dd40ee933dc6bad3d754393641",
       "paginas": 15,
       "validadores_presentes": 15,
-      "conferencia_checks": 125,
+      "conferencia_checks": 124,
       "conferencia_ok": true,
       "decisoes": 33,
       "resumo_decisoes": [
@@ -2736,20 +2707,25 @@
           "tipo": "E/M"
         }
       ],
-      "achados": [],
-      "estado": "metadados coerentes nesta fotografia",
+      "achados": [
+        "MANIFESTO desatualizado/sem RITUAL-E-PACTOS.md",
+        "MANIFESTO desatualizado/sem output/pdf/Projeto-M-Ritual-e-Pactos-Proposta-01.pdf",
+        "MANIFESTO desatualizado/sem VALIDADORES.json",
+        "MANIFESTO desatualizado/sem CONFERENCIA.json"
+      ],
+      "estado": "transiente informado pela raiz",
       "gravacao_em_curso": true
     },
     {
       "id": "campo",
       "arquivo": "invocacoes/lote-01/INVOCACOES-EM-CAMPO.md",
-      "sha256_texto": "b9ee96c405359f6fe879f55dd972ca8a32cc565c8c318c241be2b73047519d38",
-      "sha256_pdf": "04daa30d72ca2fda9268b0b9ed1e558aae52cc8149eb828e854134ded38c515d",
+      "sha256_texto": "297d96084502eb65780b9ed2ac4f7e121a235cfdbb6e41db254f980e55393dcd",
+      "sha256_pdf": "6b25769360dbf54652b762880cfebcebdd61be30f6d8aa666ee35465d083c8b3",
       "paginas": 31,
       "validadores_presentes": 15,
       "conferencia_checks": 236,
       "conferencia_ok": true,
-      "decisoes": 51,
+      "decisoes": 49,
       "resumo_decisoes": [
         {
           "id": "R11-01",
@@ -2995,32 +2971,28 @@
           "id": "R11-49",
           "tema": "inv-reparo",
           "tipo": "sincronização mecânica e fechamento de CD"
-        },
-        {
-          "id": "R11-50",
-          "tema": "Atacar, Correr, Desengajar, Esquivar, Esconder, Ajudar, Vasculhar, Estudar e Usar um Objeto seguem os procedimentos de *",
-          "tipo": "M decisão do autor"
-        },
-        {
-          "id": "R11-51",
-          "tema": "Corpos adicionais precisam ser deixados sem seu controle",
-          "tipo": "M decisão do autor"
         }
       ],
-      "achados": [],
-      "estado": "metadados coerentes nesta fotografia",
+      "achados": [
+        "VALIDADORES com hash de PDF anterior",
+        "MANIFESTO desatualizado/sem INVOCACOES-EM-CAMPO.md",
+        "MANIFESTO desatualizado/sem output/pdf/Projeto-M-Invocacoes-em-Campo-Proposta-01.pdf",
+        "MANIFESTO desatualizado/sem VALIDADORES.json",
+        "MANIFESTO desatualizado/sem CONFERENCIA.json"
+      ],
+      "estado": "transiente informado pela raiz",
       "gravacao_em_curso": true
     },
     {
       "id": "construcao",
       "arquivo": "invocacoes/lote-02/CONSTRUIR-INVOCACOES.md",
-      "sha256_texto": "a4c48e8a12c39294745c4f575e4db9564c99f8ee83a102a3014ea8188e48a6eb",
-      "sha256_pdf": "997b5a78b95c7295a34381bf83b110dad69a40f8cd5ab76319c481b8f7f9864c",
+      "sha256_texto": "bd3d2cc16b5a6c2b373eba1f0ebfabfbc548bae3d6a7cd2eec6dcbb4bfab95d9",
+      "sha256_pdf": "b7a07837d82cb444719a08a5697b6399355ba880af611c567b46bbdc5791fcf3",
       "paginas": 27,
       "validadores_presentes": 15,
-      "conferencia_checks": 218,
+      "conferencia_checks": 215,
       "conferencia_ok": true,
-      "decisoes": 32,
+      "decisoes": 31,
       "resumo_decisoes": [
         {
           "id": "R12-01",
@@ -3176,27 +3148,28 @@
           "id": "R12-31",
           "tema": "Limite de corpos mantidos remete ao novo dono R11; reparo remete ao título Cura e reparo.",
           "tipo": "compatibilidade e consulta"
-        },
-        {
-          "id": "R12-32",
-          "tema": "A maestria é sempre a **do invocador**, inclusive para uma domada de nível menor",
-          "tipo": "M decisão do autor"
         }
       ],
-      "achados": [],
-      "estado": "metadados coerentes nesta fotografia",
+      "achados": [
+        "VALIDADORES com hash de texto anterior",
+        "MANIFESTO desatualizado/sem CONSTRUIR-INVOCACOES.md",
+        "MANIFESTO desatualizado/sem output/pdf/Projeto-M-Construir-Invocacoes-Proposta-01.pdf",
+        "MANIFESTO desatualizado/sem VALIDADORES.json",
+        "MANIFESTO desatualizado/sem CONFERENCIA.json"
+      ],
+      "estado": "pendência documental",
       "gravacao_em_curso": false
     },
     {
       "id": "fabricacao",
       "arquivo": "invocacoes/fabricacao/lote-01/FABRICACAO-DE-ENTIDADES.md",
-      "sha256_texto": "cd7eb01826e2d5f5ca7205eb6dbbf510cce5e67483207e5bf58aa5b350cb4dfa",
-      "sha256_pdf": "def8f36d5e7447713d06eae47f484399b91517a8cbb5e936c7293ffe8828c9ce",
+      "sha256_texto": "61920e6d08f0cae38bf03d2ed27a0e5df06dd9d4f7f780495453bd47fb29847a",
+      "sha256_pdf": "f4a1fcbc2825b556ad2d2cbd3cab598372f89d2b36827d11c67fee0c71de2e40",
       "paginas": 5,
       "validadores_presentes": 15,
       "conferencia_checks": 54,
       "conferencia_ok": true,
-      "decisoes": 16,
+      "decisoes": 15,
       "resumo_decisoes": [
         {
           "id": "FAB-01",
@@ -3272,27 +3245,28 @@
           "id": "GRAM02",
           "tema": "não religa um corpo na condição Desligada.",
           "tipo": "editorial"
-        },
-        {
-          "id": "FAB-REV-01",
-          "tema": "Um corpo que exceda seu limite permanece no mundo sem controle e volta conforme **Invocações em campo**; fabricar ou rec",
-          "tipo": "remissão de decisão do autor"
         }
       ],
-      "achados": [],
-      "estado": "metadados coerentes nesta fotografia",
+      "achados": [
+        "VALIDADORES com hash de texto anterior",
+        "MANIFESTO desatualizado/sem FABRICACAO-DE-ENTIDADES.md",
+        "MANIFESTO desatualizado/sem output/pdf/Projeto-M-Fabricacao-de-Entidades-Proposta-01.pdf",
+        "MANIFESTO desatualizado/sem VALIDADORES.json",
+        "MANIFESTO desatualizado/sem CONFERENCIA.json"
+      ],
+      "estado": "pendência documental",
       "gravacao_em_curso": false
     },
     {
       "id": "consulta",
       "arquivo": "consulta/lote-01/CONSULTA.md",
-      "sha256_texto": "506bb779ba4772add62d7a1d05a399d59739a13bb0a882b5345e5c7e9641548e",
-      "sha256_pdf": "08a54a4284bdbba3767ead69c062a33eca0f595035f984a051bb604ee561be68",
+      "sha256_texto": "a4d4b68bbed3c62efdc849ab32a08350694f6653bdeea08ec71874b5aada4980",
+      "sha256_pdf": "3466b4066609bd841683fced382098abe3b6cc747296f0c3a636ef5a081dabde",
       "paginas": 30,
       "validadores_presentes": 15,
       "conferencia_checks": 229,
       "conferencia_ok": true,
-      "decisoes": 31,
+      "decisoes": 30,
       "resumo_decisoes": [
         {
           "id": "R23-01",
@@ -3443,15 +3417,15 @@
           "id": "R23-30",
           "tema": "Definição inclui Talentos, Aptidões e Bênçãos e remete à aquisição de cada entrada",
           "tipo": "correcao-editorial"
-        },
-        {
-          "id": "R23-31",
-          "tema": "286 verbetes: entram Auge, Carregar (Restrição), Desligada, Discreta, Embainhada, Escudo, Manutenção (entidades), Ordens",
-          "tipo": "remissão de índice"
         }
       ],
-      "achados": [],
-      "estado": "metadados coerentes nesta fotografia",
+      "achados": [
+        "MANIFESTO desatualizado/sem CONSULTA.md",
+        "MANIFESTO desatualizado/sem output/pdf/Projeto-M-Consulta-Proposta-01.pdf",
+        "MANIFESTO desatualizado/sem VALIDADORES.json",
+        "MANIFESTO desatualizado/sem CONFERENCIA.json"
+      ],
+      "estado": "pendência documental",
       "gravacao_em_curso": false
     },
     {
@@ -3603,13 +3577,13 @@
     {
       "id": "vanguarda",
       "arquivo": "caminhos/vanguarda/lote-01/VANGUARDA.md",
-      "sha256_texto": "a471b8d66ab37a87a26da2fdd4d96625c00ce399f22d9f9ad36ffc68e6c5da37",
-      "sha256_pdf": "ce6d6fde09636fadd0af443f7d32f3aabe7dfd139cfd92977540bae433d8f174",
+      "sha256_texto": "743f954c5be1033034a71bbae0e8383bffdb82944e28341e5ee089338bb0b85b",
+      "sha256_pdf": "8833082ea50f001bdbd154d08388b44d136ebceabdbae1957173f3acaa97da31",
       "paginas": 20,
       "validadores_presentes": 15,
       "conferencia_checks": 159,
       "conferencia_ok": true,
-      "decisoes": 17,
+      "decisoes": 15,
       "resumo_decisoes": [
         {
           "id": "VG-01",
@@ -3685,16 +3659,6 @@
           "id": "VG-15",
           "tema": "A arma precisa estar pronta e ter duas unidades carregadas para o disparo e a compra da Oportunidade.",
           "tipo": "E/M"
-        },
-        {
-          "id": "VG-REV-01",
-          "tema": "A **capacidade da Arma de Fogo** (os ataques por carga, em Munição) **aumenta em um**",
-          "tipo": "M decisão do autor"
-        },
-        {
-          "id": "VG-REV-02",
-          "tema": "Você cria uma Oportunidade, escolhe quando aproveitá-la e mantém meios de continuar o confronto.\n\n**Acesso.** Armas de f",
-          "tipo": "decisão do autor"
         }
       ],
       "achados": [],
@@ -3903,15 +3867,21 @@
           "tipo": "ajuste mecânico de compatibilidade"
         }
       ],
-      "achados": [],
-      "estado": "metadados coerentes nesta fotografia",
+      "achados": [
+        "VALIDADORES com hash de texto anterior",
+        "CONFERENCIA com texto anterior",
+        "CONFERENCIA com PDF anterior",
+        "MANIFESTO desatualizado/sem output/pdf/Projeto-M-Guia-Proposta-01.pdf",
+        "MANIFESTO desatualizado/sem VALIDADORES.json"
+      ],
+      "estado": "pendência documental",
       "gravacao_em_curso": false
     },
     {
       "id": "emanador",
       "arquivo": "caminhos/emanador/lote-01/EMANADOR.md",
-      "sha256_texto": "9c99cc60360abca18c6072753f713c12b9294b9df463ae3d8747d6dc922302aa",
-      "sha256_pdf": "c815b08890b348e0e301d0f791224572e512fa81788043ead683803282213735",
+      "sha256_texto": "027d4f93d4d59d6674cf3d0ac7f380bd387c367d1e012740b6d25e71b744ba1f",
+      "sha256_pdf": "6db0a02aea443bbc77bcfabe519beff6585c2c37a241fe625cd199b73e8a6667",
       "paginas": 19,
       "validadores_presentes": 15,
       "conferencia_checks": 152,
@@ -4064,8 +4034,13 @@
           "tipo": "M"
         }
       ],
-      "achados": [],
-      "estado": "metadados coerentes nesta fotografia",
+      "achados": [
+        "MANIFESTO desatualizado/sem EMANADOR.md",
+        "MANIFESTO desatualizado/sem output/pdf/Projeto-M-Emanador-Proposta-01.pdf",
+        "MANIFESTO desatualizado/sem VALIDADORES.json",
+        "MANIFESTO desatualizado/sem CONFERENCIA.json"
+      ],
+      "estado": "transiente informado pela raiz",
       "gravacao_em_curso": true
     },
     {
@@ -4215,20 +4190,25 @@
           "tipo": "Esclarecimento de compatibilidade e editorial"
         }
       ],
-      "achados": [],
-      "estado": "metadados coerentes nesta fotografia",
+      "achados": [
+        "MANIFESTO desatualizado/sem EVOCADOR.md",
+        "MANIFESTO desatualizado/sem output/pdf/Projeto-M-Evocador-Proposta-01.pdf",
+        "MANIFESTO desatualizado/sem VALIDADORES.json",
+        "MANIFESTO desatualizado/sem CONFERENCIA.json"
+      ],
+      "estado": "transiente informado pela raiz",
       "gravacao_em_curso": true
     },
     {
       "id": "incursor",
       "arquivo": "caminhos/incursor/lote-01/INCURSOR.md",
-      "sha256_texto": "2d9a8395eb486ee0afee78234c8c0ad3e2fd6314ebface6788b6842d85a53268",
-      "sha256_pdf": "fffeabaf0313aa172dfc812884fdbf3992e191b608bce7211cd079ceca531ede",
+      "sha256_texto": "3705e460791db6ae03b79eb2f7b25d13936a1c1ab54ddba616fa3872407f09f1",
+      "sha256_pdf": "cd47ec69eb86f24df55f4ad545320d02a992869412687b87282f184669b58b5a",
       "paginas": 26,
       "validadores_presentes": 15,
-      "conferencia_checks": 202,
+      "conferencia_checks": 201,
       "conferencia_ok": true,
-      "decisoes": 24,
+      "decisoes": 21,
       "resumo_decisoes": [
         {
           "id": "INC-01",
@@ -4334,21 +4314,6 @@
           "id": "INC-21",
           "tema": "inc-caminho",
           "tipo": "editorial"
-        },
-        {
-          "id": "INC-22",
-          "tema": "O segundo ataque precisa ser corpo a corpo ou um arremesso, e nunca um disparo de arma de fogo ou de besta",
-          "tipo": "M decisão do autor"
-        },
-        {
-          "id": "INC-23",
-          "tema": "Anote se já obteve Fluidez nesse intervalo; o limite se renova no começo do seu turno",
-          "tipo": "decisão do autor"
-        },
-        {
-          "id": "INC-24",
-          "tema": "Após rolar o d20 e antes de o alvo escolher entre a Defesa e Bloquear, gaste Fluidez",
-          "tipo": "decisão do autor"
         }
       ],
       "achados": [],

@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "cbdc3648f5faa76a3973fd1dc9b8d196a5e46d5508163bc2e3720b33c2512a40",
+  "sha256_texto": "7fb73a56e4a34ce5a50be4357dd4d5987000c15f9cb81af9972ff4833ef23a59",
   "protocolo": "../../validacao-editorial/PROTOCOLO-COMPLETO.md",
   "validadores": [
     {
@@ -144,7 +144,7 @@
     "Revisão conjunta de Morrendo e Integridade",
     "Consolidação de nomes, progressão e remissões no livro completo"
   ],
-  "sha256_pdf": "6f30a2b7519c99293460cc5062471497c32fd422be28ad836410667978569060",
+  "sha256_pdf": "2e23d140c0f389d5d1ee420a53781d133be7c159354ad899f27190a0b45f43b5",
   "sincronizacao_final": {
     "relatorio": "evidencias/SINCRONIZACAO-FINAL.md",
     "casos": "evidencias/SINCRONIZACAO-FINAL.json",
@@ -168,5 +168,23 @@
     "pdf_vigente": "consolidacao/lote-01/output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
     "sha256_pdf_vigente": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8",
     "escopo": "V01–V12 reaproveitados das revisões registradas com revisão do delta de remissões; V13–V15 do PDF entregue estão no dossiê da consolidação. Provas individuais são históricas, não uma segunda edição final."
+  },
+  "revalidacao_2026_10_04": {
+    "sha256_texto_anterior": "cbdc3648f5faa76a3973fd1dc9b8d196a5e46d5508163bc2e3720b33c2512a40",
+    "sha256_pdf_anterior": "6f30a2b7519c99293460cc5062471497c32fd422be28ad836410667978569060",
+    "sha256_texto": "7fb73a56e4a34ce5a50be4357dd4d5987000c15f9cb81af9972ff4833ef23a59",
+    "sha256_pdf": "2e23d140c0f389d5d1ee420a53781d133be7c159354ad899f27190a0b45f43b5",
+    "conferencia": {
+      "arquivo": "CONFERENCIA.json",
+      "ok": true,
+      "verificacoes": 185
+    },
+    "registros": [
+      "revisao-interfaces/CORRECOES-APLICADAS.md"
+    ],
+    "pdf_vigente": "consolidacao/lote-01/output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
+    "sha256_pdf_vigente": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e",
+    "escopo": "V01–V12 seguem as revisões registradas, renovadas por delta nas evidências da unidade (blocos revisao_delta_2026_10_04 e revisao_delta_2026_10_04_decisoes, quando houver) e no conferir.py verde. V13–V15 do livro estão em consolidacao/lote-01, com a inspeção visual encadeada em FINAL-V14.json. A prova individual corresponde ao texto atual.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
   }
 }

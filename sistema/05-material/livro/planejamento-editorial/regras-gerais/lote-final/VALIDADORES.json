@@ -1,6 +1,6 @@
 {
-  "sha256_texto": "009036700319e1d3371ef84f6889539416bb0130d494dc40a316bebf08b1d18c",
-  "sha256_pdf": "04ba3959d13aa4b6f032a172ee5200d9c94f28748d127c2f9c3b16a9d75cea81",
+  "sha256_texto": "60ce622431b0dfeb4f1f6eaad8b8446e71473755a17e55eb3fc0535ce333e7f3",
+  "sha256_pdf": "2d7273c7e59a0d687db8ab06da3d407d110dab1c1dc4e39217e348c2f6157ea4",
   "validadores": [
     {
       "id": "V01",
@@ -184,5 +184,23 @@
     "pdf_vigente": "consolidacao/lote-01/output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
     "sha256_pdf_vigente": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8",
     "escopo": "V01–V12 reaproveitados das revisões registradas com revisão do delta de remissões; V13–V15 do PDF entregue estão no dossiê da consolidação. Provas individuais são históricas, não uma segunda edição final."
+  },
+  "revalidacao_2026_10_04": {
+    "sha256_texto_anterior": "009036700319e1d3371ef84f6889539416bb0130d494dc40a316bebf08b1d18c",
+    "sha256_pdf_anterior": "04ba3959d13aa4b6f032a172ee5200d9c94f28748d127c2f9c3b16a9d75cea81",
+    "sha256_texto": "60ce622431b0dfeb4f1f6eaad8b8446e71473755a17e55eb3fc0535ce333e7f3",
+    "sha256_pdf": "2d7273c7e59a0d687db8ab06da3d407d110dab1c1dc4e39217e348c2f6157ea4",
+    "conferencia": {
+      "arquivo": "CONFERENCIA.json",
+      "ok": true,
+      "verificacoes": 314
+    },
+    "registros": [
+      "revisao-interfaces/CORRECOES-APLICADAS.md"
+    ],
+    "pdf_vigente": "consolidacao/lote-01/output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
+    "sha256_pdf_vigente": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e",
+    "escopo": "V01–V12 seguem as revisões registradas, renovadas por delta nas evidências da unidade (blocos revisao_delta_2026_10_04 e revisao_delta_2026_10_04_decisoes, quando houver) e no conferir.py verde. V13–V15 do livro estão em consolidacao/lote-01, com a inspeção visual encadeada em FINAL-V14.json. A prova individual corresponde ao texto atual.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
   }
 }

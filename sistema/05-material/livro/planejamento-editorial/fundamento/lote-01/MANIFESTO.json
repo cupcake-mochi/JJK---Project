@@ -1,8 +1,8 @@
 {
-  "estado": "Inventário atual após integração; provas individuais são históricas",
+  "estado": "Inventário atual em 04/10/2026; a prova individual corresponde ao texto atual e passou no conferir.py. O PDF que vale para leitura é o livro completo.",
   "sha256_texto": "066f6e472912083a153f474460ee111a79f37606ab9941ea3322506170847783",
   "pdf_vigente": "consolidacao/lote-01/output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
-  "sha256_pdf_vigente": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8",
+  "sha256_pdf_vigente": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e",
   "arquivos": [
     {
       "arquivo": "ALTERACOES.json",
@@ -16,12 +16,12 @@
     },
     {
       "arquivo": "CONFERENCIA.json",
-      "sha256": "9ba3b13c18ec41ec2e600e45c2e557667357a9db0ffcf3ad9c448bb4de41b04e",
+      "sha256": "22e1e72b2137998111ee9e19740b7dc5a07d98278d120aa228a2c75e447dea2d",
       "bytes": 33386
     },
     {
       "arquivo": "CONTRATO.json",
-      "sha256": "f44d39c8cac6d6ee5dc0a81ec5c6480948055f2b96ae26dece8b6a315700c961",
+      "sha256": "7eb8dde93148ccfdac8e7cb05c3a08f66e9237197bbe2246f57d73d6e0c63403",
       "bytes": 1321
     },
     {
@@ -71,8 +71,8 @@
     },
     {
       "arquivo": "VALIDADORES.json",
-      "sha256": "387c05e89c2df52adb993b60a32185f516031cfc817ffad1cca599759d845af4",
-      "bytes": 5787
+      "sha256": "29bf5858d50ef7d083fdf67887799ec4241b83c098c68fe5d411b105c4f21b35",
+      "bytes": 7155
     },
     {
       "arquivo": "auditar.py",
@@ -101,8 +101,8 @@
     },
     {
       "arquivo": "evidencias/LOCALIZACAO-EDITORIAL.json",
-      "sha256": "bbfa4919b9b99007b03efeb52fe48d80bf7ddeb55fd9c91a9f666104c45ad479",
-      "bytes": 1396
+      "sha256": "457434447d9e5c0d3b5e446833b609ead93eb123a52435f62dba96552505a000",
+      "bytes": 3007
     },
     {
       "arquivo": "evidencias/REVISAO-DE-VOZ-2026-10-03.json",
@@ -111,12 +111,12 @@
     },
     {
       "arquivo": "evidencias/REVISAO-EDITORIAL.json",
-      "sha256": "c2833283c226653903340f225b5c674ff0093711397736f039111f8cd09592ac",
-      "bytes": 6150
+      "sha256": "c9a696e61266cc7faa1a3051478587f43e4ebc2a1e47052245996fcff57d1b49",
+      "bytes": 7398
     },
     {
       "arquivo": "evidencias/auditoria-numerica.json",
-      "sha256": "3f929003967d1dfb355e58b1d4c4d0bb652e55e57494dac49a332723c9e874ae",
+      "sha256": "69ceaf47a1e43bbded0110710c0c795db0050e0dab480ab84111740a37e921ce",
       "bytes": 21195
     },
     {
@@ -206,12 +206,12 @@
     },
     {
       "arquivo": "evidencias/inspecao-visual.json",
-      "sha256": "6b5fbb037b7efdadd2f84899f006310eb0fe9039cabc254deb17c50aa289939e",
-      "bytes": 12569
+      "sha256": "e2b522d27e3418cf5a287cc34731342e94ff0932103d97f697dba7934851a174",
+      "bytes": 13451
     },
     {
       "arquivo": "evidencias/pdf-estrutura.json",
-      "sha256": "67fee2f64aab570fb5178f87a64d67ec8c7a2209ded0943b68a5dd239c711bf6",
+      "sha256": "242c43409d7b4153734daf3d4dcc22f7774605b77caf8d775bceb043c79e5ec4",
       "bytes": 415
     },
     {
@@ -221,7 +221,7 @@
     },
     {
       "arquivo": "evidencias/regras-verificadas.json",
-      "sha256": "52a1b0a69fe115d7b063c9370c0ad14af65223b75520db0025404e2cdaf90755",
+      "sha256": "6f4e4eebf6147475e38dee0913e86f8f5f35f432c5a84e32d77501fad84499b4",
       "bytes": 12769
     },
     {
@@ -263,7 +263,38 @@
       "arquivo": "verificar_sincronizacoes.py",
       "sha256": "675c05c38c7d889cc9deddf9de8c540872c07f1aeec4e0a13d82bfa5c85a78f5",
       "bytes": 1194
+    },
+    {
+      "arquivo": "output/pdf/Projeto-M-Fundamento-Proposta-01.pdf",
+      "sha256": "05766e656a3d09b0316a891c69503aa502ac2e43a01a3e131bc020477d712dd1",
+      "bytes": 136654
+    },
+    {
+      "arquivo": "evidencias/COMPARACAO-VISUAL-2026-10-04.json",
+      "sha256": "69329176897d19dd7f6adaa0e32fa0208cf7ce617112493662d4f408734e12be",
+      "bytes": 760
     }
   ],
-  "limite": "Inventário de integridade não equivale a reexecutar testes. Consulte VALIDADORES e FECHAMENTO-INTEGRACAO."
+  "limite": "Inventário de integridade não equivale a reexecutar testes. Consulte VALIDADORES e FECHAMENTO-INTEGRACAO.",
+  "sha256_pdf_individual": "05766e656a3d09b0316a891c69503aa502ac2e43a01a3e131bc020477d712dd1",
+  "atualizacao_2026_10_04": {
+    "arquivos_com_hash_novo": [
+      "CONFERENCIA.json",
+      "CONTRATO.json",
+      "VALIDADORES.json",
+      "evidencias/LOCALIZACAO-EDITORIAL.json",
+      "evidencias/REVISAO-EDITORIAL.json",
+      "evidencias/auditoria-numerica.json",
+      "evidencias/inspecao-visual.json",
+      "evidencias/pdf-estrutura.json",
+      "evidencias/regras-verificadas.json"
+    ],
+    "arquivos_acrescentados": [
+      "output/pdf/Projeto-M-Fundamento-Proposta-01.pdf",
+      "evidencias/COMPARACAO-VISUAL-2026-10-04.json"
+    ],
+    "arquivos_que_nao_existem_mais": [],
+    "motivo": "Fechamento da cadeia de evidência do livro de 382 páginas (item 2 da fila). O auditor global V15 exige que o manifesto indexe texto, PDF individual, VALIDADORES e CONFERENCIA com os hashes atuais; o fechamento da integração de 03/10 tinha tirado os PDFs individuais do índice.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  }
 }

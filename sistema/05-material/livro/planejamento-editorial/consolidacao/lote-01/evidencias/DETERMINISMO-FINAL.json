@@ -1,5 +1,7 @@
 {
-  "sha256_pdf": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8",
+  "sha256_pdf": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e",
   "reproduzido": true,
-  "metodo": "Duas gerações completas com as mesmas fontes, conteúdo e composição: fontes locais originais e cópias de bytes idênticos incluídas no pacote. Mesmo PDF resultante."
+  "metodo": "Duas gerações completas com as mesmas fontes: uma no repositório e outra numa cópia isolada do pacote. Mesmo PDF resultante.",
+  "antes": "evidencias/antes-fechamento-2026-10-04/DETERMINISMO-FINAL.json",
+  "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
 }

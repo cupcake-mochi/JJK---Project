@@ -1,13 +1,5 @@
 # Revisão final da reconstrução
 
-## Atualização de 04/10/2026
-
-Depois da entrega de 03/10, a revisão pós-reconstrução (PR #2) mudou a candidata. As 19 correções de interface (C01 a C14), as decisões do Mizuki (D01 a D17) e as retiradas de projeções de projetista estão em `../../revisao-interfaces/CORRECOES-APLICADAS.md`, com antes, depois, motivo e efeito na mesa. A pedido do autor, saíram do livro do jogador a tabela de Refino "nunca/sempre", a página Ritmo de campanha e as frases de quem escolhe sempre a mesma opção nos marcos.
-
-O livro tem agora 382 páginas e 509 blocos. A conferência estrutural aprovou 3503 verificações e 526 links. A inspeção visual encadeia cada página até a prova completa de 03/10 ou até a rodada em que foi aberta; nenhuma ficou sem cobertura. Ficam 18 achados de interface que dependem do autor, listados em `../../revisao-interfaces/ACHADOS.md`.
-
-O texto abaixo é o registro da entrega de 03/10 e conserva os números daquele dia.
-
 A rodada de reconstrução foi concluída em 03/10/2026. A entrega é uma candidata editorial completa para revisão do autor, preservando a publicação v0.331. O livro reúne 23 fontes em 5 partes, 21 capítulos e 383 páginas. O painel de navegação tem 32 entradas, com seções acessíveis pelo índice e pelos links internos.
 
 ## Resultado

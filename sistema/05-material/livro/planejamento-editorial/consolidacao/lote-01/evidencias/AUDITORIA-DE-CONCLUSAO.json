@@ -1,12 +1,13 @@
 {
   "concluido": true,
-  "pdf_sha256": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8",
-  "paginas": 383,
-  "blocos": 510,
-  "verificacoes_estruturais": 3492,
+  "pdf_sha256": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e",
+  "paginas": 382,
+  "blocos": 509,
+  "verificacoes_estruturais": 3503,
+  "links_internos": 526,
   "validadores": 15,
   "fontes": 23,
-  "zip_sha256": "9e7f917a0575c368bb166a900252f1d5e51eecdd6d08a20395901f1df649fcfe",
+  "zip_sha256": "5e864342558caf9193540e2e3738080bead59af725a26bed278c1bfccf4be943",
   "entregas": [
     "PDF completo",
     "Markdown único",
@@ -18,6 +19,9 @@
   ],
   "limites": [
     "Sem playtest ou avaliação humana.",
-    "Publicação anterior preservada; entrega candidata para revisão do autor."
-  ]
+    "Publicação anterior preservada; entrega candidata para revisão do autor.",
+    "As rodadas de 04/10 são revisão por modelo; ficam 18 achados de interface para o autor."
+  ],
+  "antes": "evidencias/antes-fechamento-2026-10-04/AUDITORIA-DE-CONCLUSAO.json",
+  "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
 }

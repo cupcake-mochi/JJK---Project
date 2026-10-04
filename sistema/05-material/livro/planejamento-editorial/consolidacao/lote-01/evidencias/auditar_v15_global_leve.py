@@ -1,6 +1,7 @@
 from pathlib import Path
 import json,hashlib,re,datetime
-P=Path('/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial');B=P/'consolidacao/lote-01';sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest();order=json.loads((B/'ORDEM.json').read_text());trans={'dano','rotas','campo','emanador','evocador','ritual'};reports=[]
+# Era o caminho absoluto do HD; relativo ao arquivo desde 04/10/2026, para rodar em qualquer clone.
+P=Path(__file__).resolve().parents[3];B=P/'consolidacao/lote-01';sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest();order=json.loads((B/'ORDEM.json').read_text());trans={'dano','rotas','campo','emanador','evocador','ritual'};reports=[]
 def read(p):
  try:return json.loads(p.read_text())
  except FileNotFoundError:return None

@@ -1,7 +1,7 @@
 {
-  "status": "Candidata editorial revisada em 04/10/2026",
-  "sha256_pdf": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e",
-  "sha256_manuscrito": "f277671bd0901ddfbe1bff5fad91887d60af0084385fd0368cc2b39b7e119412",
+  "status": "Candidata editorial completa revisada",
+  "sha256_pdf": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8",
+  "sha256_manuscrito": "8e5f441e3059f9d78c9892b899671d5e7618b078fd9da3af6ee24829630f378a",
   "arquivos": [
     {
       "arquivo": "DECISOES-DE-MONTAGEM.md",
@@ -10,18 +10,18 @@
     },
     {
       "arquivo": "ESTADO-DA-PROVA.md",
-      "sha256": "1677af7c4c2f5b10da2a10661bd5f985fde2479078137d59c11820a3a711c210",
-      "bytes": 910
+      "sha256": "63173689ab45bcba4519f3e0de750ae2cde00e27431d2f7a89d1e95f7369a6c2",
+      "bytes": 701
     },
     {
       "arquivo": "LEIA-ME.md",
-      "sha256": "3e29dccfb3a8958961fae566faa067b4f447cd9140a1ea1d750e2bb69c8e503a",
-      "bytes": 1845
+      "sha256": "4e2cb20fb97650b6fbf51af0bdd52e4e6e885a4f1366ad08f95760af4a663785",
+      "bytes": 1732
     },
     {
       "arquivo": "LIVRO-COMPLETO.md",
-      "sha256": "f277671bd0901ddfbe1bff5fad91887d60af0084385fd0368cc2b39b7e119412",
-      "bytes": 1084352
+      "sha256": "8e5f441e3059f9d78c9892b899671d5e7618b078fd9da3af6ee24829630f378a",
+      "bytes": 1084006
     },
     {
       "arquivo": "ORDEM.json",
@@ -30,13 +30,13 @@
     },
     {
       "arquivo": "REVISAO-FINAL.md",
-      "sha256": "5755907d8c5c1365e909fbb9959cfe6b076d18657d5e25d80a2b12cb97e79996",
-      "bytes": 7096
+      "sha256": "2b12c3d7a7f82aade7e7a51bf589ec806582bf6796737d4d12a7b6a162635616",
+      "bytes": 6135
     },
     {
       "arquivo": "VALIDADORES.json",
-      "sha256": "ab1fc456110e7a3ea46e98fbb4832e8a4bfa3da99d7118f2a5ac76e4ca5a5279",
-      "bytes": 12051
+      "sha256": "d6cc1e950f2fdfbe7ec2b1a9f0a526d2bdd4f097d1d084eb1c0d09fb34d7ea86",
+      "bytes": 6588
     },
     {
       "arquivo": "conferir_livro.py",
@@ -80,8 +80,8 @@
     },
     {
       "arquivo": "evidencias/DETERMINISMO-FINAL.json",
-      "sha256": "2510165416a60ee457980af8706b74c75bb1f40d6b013ffd0534a70ca3c06e55",
-      "bytes": 464
+      "sha256": "0b36e59fda7e4d79d9f6fdae59dc45e4d7d89aa14db20308bbe1a5f9dffc19ff",
+      "bytes": 297
     },
     {
       "arquivo": "evidencias/DETERMINISMO.json",
@@ -90,13 +90,13 @@
     },
     {
       "arquivo": "evidencias/EVENTOS-ANCORAS.json",
-      "sha256": "b3d18ce69ede9e67b663d27e8cda6f6da0c49eb371071f7e10f066eeda9f7e81",
-      "bytes": 44365
+      "sha256": "5794f53ccc1eae5f360449d580492ea8ea150a4787472433dba7f01fa725d8c2",
+      "bytes": 44449
     },
     {
       "arquivo": "evidencias/FECHAMENTO-DOS-DONOS.json",
-      "sha256": "523aa87031149b339af8323dc56b9b6ca8bdab9bd13f81609a37d404cce001d3",
-      "bytes": 18396
+      "sha256": "1f82fb2f11f16d2bcb9881f6ca869a29b12c391a8b61b6e2a1bd9a2f6cc5af6e",
+      "bytes": 12405
     },
     {
       "arquivo": "evidencias/FINAL-TRANSVERSAL-COMPATIBILIDADE.json",
@@ -125,18 +125,18 @@
     },
     {
       "arquivo": "evidencias/FINAL-V14.json",
-      "sha256": "bcf5342256c7d16d652d67989706e0147b995bb6c188e5448cf0577b366ed7fc",
-      "bytes": 154810
+      "sha256": "ac3fa75e470441dcf4e6a948dbc165346091415ffa6143b896ac6c4272737059",
+      "bytes": 114654
     },
     {
       "arquivo": "evidencias/GERACAO.json",
-      "sha256": "699fe60885d0338bcb2f367cd35dd9d3429be7f5f159dfd14a09baaac9f6cf31",
-      "bytes": 7551
+      "sha256": "7a7b782a8f77e2ef40a4ffaf2a5817de740690964f5058c0992d9b151794c0a5",
+      "bytes": 7658
     },
     {
       "arquivo": "evidencias/MAPA-BLOCOS.json",
-      "sha256": "1142ab3907dc809bf3edd470aabf6bfac0a6e452d3a87d06b786ca81860e6c75",
-      "bytes": 236350
+      "sha256": "a9f5c9886ca082edf063e195eaf990081b4bc43ef88fafecce8f1282186e7dd0",
+      "bytes": 236839
     },
     {
       "arquivo": "evidencias/MAPA-PARTES-PAGINAS.json",
@@ -155,8 +155,8 @@
     },
     {
       "arquivo": "evidencias/PAGINAS-DESTINOS.json",
-      "sha256": "6fba9b9b899ceffead9bad5067ba12e234a05c4b34c009b18544e3f184d1ce59",
-      "bytes": 17080
+      "sha256": "cfe72b69cf08ff3fba0a16df441442a5b68e6dac8aae3b6a92801dab0c3d96a2",
+      "bytes": 17113
     },
     {
       "arquivo": "evidencias/PROVAS-ANTES-DOS-RENOMES.json",
@@ -165,8 +165,8 @@
     },
     {
       "arquivo": "evidencias/QA-ESTRUTURAL.json",
-      "sha256": "8b90c95c321bdf172b5567a569901a8e43b5339a7e6c468029a38be40d1ec352",
-      "bytes": 5839442
+      "sha256": "d0c077255d07721c3a340bac639b198a7021c131f31d97d897243086fe5c1968",
+      "bytes": 5839282
     },
     {
       "arquivo": "evidencias/REMISSOES-RELATIVAS.json",
@@ -205,13 +205,13 @@
     },
     {
       "arquivo": "evidencias/V15-GLOBAL-LEVE.json",
-      "sha256": "e5bb294a520adaf9660f8b352e52ff88883474d9737093102a3bde0e29ee6329",
-      "bytes": 129597
+      "sha256": "f52d39b4f2817e14e8bef14e18eccf228a1e3fc70dd03fe440de140f2bb65b92",
+      "bytes": 129506
     },
     {
       "arquivo": "evidencias/V15-GLOBAL-LEVE.md",
-      "sha256": "da982ddbbe240b8b599c586d8915059818d47229fe41f148a1cd46aba46fa03c",
-      "bytes": 2270
+      "sha256": "46cb49df4372c3e6b6b15b2c076982b7b941a1bcd3271380f1f97e05b211e895",
+      "bytes": 5474
     },
     {
       "arquivo": "fontes-tipograficas/BarlowCondensed-SemiBold.ttf",
@@ -240,50 +240,13 @@
     },
     {
       "arquivo": "output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
-      "sha256": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e",
-      "bytes": 1313151
+      "sha256": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8",
+      "bytes": 1310621
     },
     {
       "arquivo": "evidencias/PACOTE-REPRODUCAO.json",
-      "sha256": "3b84daf50be92900220fb6a84e54a7dc0eb5354bdbe166b10d708f1891d467af",
-      "bytes": 1025
-    },
-    {
-      "arquivo": "evidencias/CADEIA-VISUAL-2026-10-04.json",
-      "sha256": "1aa052ee93430ae023e183c5aa7200256ed494243adc1f61df1817af2e5464d4",
-      "bytes": 63863
-    },
-    {
-      "arquivo": "evidencias/COMPARACAO-VISUAL-2026-10-04-decisoes.json",
-      "sha256": "809ea416b1fab3c069f60a034cad657b84b104f20ff980b4dfda03b8cb47d499",
-      "bytes": 27557
+      "sha256": "678b0716b09da7df7c1f2b786cd77f47828528104cc2c8e84f3763f00b4ba9f4",
+      "bytes": 529
     }
-  ],
-  "atualizacao_2026_10_04": {
-    "arquivos_com_hash_novo": [
-      "ESTADO-DA-PROVA.md",
-      "LEIA-ME.md",
-      "LIVRO-COMPLETO.md",
-      "REVISAO-FINAL.md",
-      "VALIDADORES.json",
-      "evidencias/DETERMINISMO-FINAL.json",
-      "evidencias/EVENTOS-ANCORAS.json",
-      "evidencias/FECHAMENTO-DOS-DONOS.json",
-      "evidencias/FINAL-V14.json",
-      "evidencias/GERACAO.json",
-      "evidencias/MAPA-BLOCOS.json",
-      "evidencias/PAGINAS-DESTINOS.json",
-      "evidencias/QA-ESTRUTURAL.json",
-      "evidencias/V15-GLOBAL-LEVE.json",
-      "evidencias/V15-GLOBAL-LEVE.md",
-      "output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
-      "evidencias/PACOTE-REPRODUCAO.json"
-    ],
-    "arquivos_acrescentados": [
-      "evidencias/CADEIA-VISUAL-2026-10-04.json",
-      "evidencias/COMPARACAO-VISUAL-2026-10-04-decisoes.json"
-    ],
-    "antes": "evidencias/antes-fechamento-2026-10-04/MANIFESTO.json",
-    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
-  }
+  ]
 }

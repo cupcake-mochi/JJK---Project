@@ -1,8 +1,8 @@
 {
-  "estado": "Inventário atual após integração; provas individuais são históricas",
+  "estado": "Inventário atual em 04/10/2026; a prova individual corresponde ao texto atual e passou no conferir.py. O PDF que vale para leitura é o livro completo.",
   "sha256_texto": "77e47e82794850bf8e051fab789fe1e6acfa8f545a9b18d41f4f8f4bc8b45083",
   "pdf_vigente": "consolidacao/lote-01/output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
-  "sha256_pdf_vigente": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8",
+  "sha256_pdf_vigente": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e",
   "arquivos": [
     {
       "arquivo": "ALTERACOES.json",
@@ -148,7 +148,22 @@
       "arquivo": "gerar_pdf.py",
       "sha256": "f558029b035d4a23c4d98d394b4ce21ec55219a611729ce1eb9bd74dbb83c9a7",
       "bytes": 8053
+    },
+    {
+      "arquivo": "output/pdf/Projeto-M-Evocador-Proposta-01.pdf",
+      "sha256": "4baacca9419f61e2fe6d796212f75b0e608ef0124554b6aee79f9ac9f8b49f0e",
+      "bytes": 145515
     }
   ],
-  "limite": "Inventário de integridade não equivale a reexecutar testes. Consulte VALIDADORES e FECHAMENTO-INTEGRACAO."
+  "limite": "Inventário de integridade não equivale a reexecutar testes. Consulte VALIDADORES e FECHAMENTO-INTEGRACAO.",
+  "sha256_pdf_individual": "4baacca9419f61e2fe6d796212f75b0e608ef0124554b6aee79f9ac9f8b49f0e",
+  "atualizacao_2026_10_04": {
+    "arquivos_com_hash_novo": [],
+    "arquivos_acrescentados": [
+      "output/pdf/Projeto-M-Evocador-Proposta-01.pdf"
+    ],
+    "arquivos_que_nao_existem_mais": [],
+    "motivo": "Fechamento da cadeia de evidência do livro de 382 páginas (item 2 da fila). O auditor global V15 exige que o manifesto indexe texto, PDF individual, VALIDADORES e CONFERENCIA com os hashes atuais; o fechamento da integração de 03/10 tinha tirado os PDFs individuais do índice.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  }
 }

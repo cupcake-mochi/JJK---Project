@@ -1,0 +1,1952 @@
+{
+ "rodadas": [
+  {
+   "versao": "e883513",
+   "rodada": "primeira passada (C01–C14)",
+   "paginas": 383,
+   "herdadas_por_corpo_identico": 348,
+   "cobertas_pela_inspecao_da_rodada": 35,
+   "listadas_mas_corpo_identico": [],
+   "sem_cobertura": []
+  },
+  {
+   "versao": "3612e14",
+   "rodada": "segunda passada (D01–D03c)",
+   "paginas": 384,
+   "herdadas_por_corpo_identico": 350,
+   "cobertas_pela_inspecao_da_rodada": 34,
+   "listadas_mas_corpo_identico": [],
+   "sem_cobertura": []
+  },
+  {
+   "versao": "360f7d8",
+   "rodada": "D04",
+   "paginas": 384,
+   "herdadas_por_corpo_identico": 380,
+   "cobertas_pela_inspecao_da_rodada": 4,
+   "listadas_mas_corpo_identico": [],
+   "sem_cobertura": []
+  },
+  {
+   "versao": "atual",
+   "rodada": "terceira passada (D05–D17)",
+   "paginas": 382,
+   "herdadas_por_corpo_identico": 294,
+   "cobertas_pela_inspecao_da_rodada": 88,
+   "listadas_mas_corpo_identico": [],
+   "sem_cobertura": []
+  }
+ ],
+ "cobertura_final": {
+  "1": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 1,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "2": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 2,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "3": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 3,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "4": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 4,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "5": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 5,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "6": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 6,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "7": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 7,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "8": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 8,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "9": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 9,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "10": {
+   "origem": "primeira passada (C01–C14)",
+   "pagina_origem": 10,
+   "pdf_origem": "89f9057b2dec370f1cb057ad7e80574ad0576fc61d54ecb357bc8ba36f5eb9e6"
+  },
+  "11": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 11,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "12": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 12,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "13": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 13,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "14": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 14,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "15": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 15,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "16": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 16,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "17": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 17,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "18": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 18,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "19": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 19,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "20": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 20,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "21": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 21,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "22": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 22,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "23": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 23,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "24": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 24,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "25": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 25,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "26": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 26,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "27": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 27,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "28": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 28,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "29": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 29,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "30": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 30,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "31": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 31,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "32": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 32,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "33": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 33,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "34": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 34,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "35": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 35,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "36": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 36,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "37": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 37,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "38": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 38,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "39": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 39,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "40": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 40,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "41": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 41,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "42": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 42,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "43": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 43,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "44": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 44,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "45": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 45,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "46": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 46,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "47": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 47,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "48": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 48,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "49": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 49,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "50": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 50,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "51": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 51,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "52": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 52,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "53": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 53,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "54": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 54,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "55": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 55,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "56": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 56,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "57": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 57,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "58": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 58,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "59": {
+   "origem": "segunda passada (D01–D03c)",
+   "pagina_origem": 59,
+   "pdf_origem": "adda0770179395f9e6ec498bda2910cfb50b40f1c8892320f0e67b724d8c0c17"
+  },
+  "60": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 60,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "61": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 61,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "62": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 62,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "63": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 63,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "64": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 64,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "65": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 65,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "66": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 66,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "67": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 67,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "68": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 68,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "69": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 69,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "70": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 70,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "71": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 71,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "72": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 72,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "73": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 73,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "74": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 74,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "75": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 75,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "76": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 76,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "77": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 77,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "78": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 78,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "79": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 79,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "80": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 80,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "81": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 81,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "82": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 82,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "83": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 83,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "84": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 84,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "85": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 85,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "86": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 86,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "87": {
+   "origem": "primeira passada (C01–C14)",
+   "pagina_origem": 87,
+   "pdf_origem": "89f9057b2dec370f1cb057ad7e80574ad0576fc61d54ecb357bc8ba36f5eb9e6"
+  },
+  "88": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 88,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "89": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 89,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "90": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 90,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "91": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 91,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "92": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 92,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "93": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 93,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "94": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 94,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "95": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 95,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "96": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 96,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "97": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 97,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "98": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 98,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "99": {
+   "origem": "D04",
+   "pagina_origem": 99,
+   "pdf_origem": "00a207c962c27cdc13c74ef6dff70acea2803f8081a9a8d17b254a2d39b74eda"
+  },
+  "100": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 100,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "101": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 101,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "102": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 102,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "103": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 103,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "104": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 104,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "105": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 105,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "106": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 106,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "107": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 107,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "108": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 108,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "109": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 109,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "110": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 110,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "111": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 111,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "112": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 112,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "113": {
+   "origem": "primeira passada (C01–C14)",
+   "pagina_origem": 113,
+   "pdf_origem": "89f9057b2dec370f1cb057ad7e80574ad0576fc61d54ecb357bc8ba36f5eb9e6"
+  },
+  "114": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 114,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "115": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 115,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "116": {
+   "origem": "primeira passada (C01–C14)",
+   "pagina_origem": 116,
+   "pdf_origem": "89f9057b2dec370f1cb057ad7e80574ad0576fc61d54ecb357bc8ba36f5eb9e6"
+  },
+  "117": {
+   "origem": "primeira passada (C01–C14)",
+   "pagina_origem": 117,
+   "pdf_origem": "89f9057b2dec370f1cb057ad7e80574ad0576fc61d54ecb357bc8ba36f5eb9e6"
+  },
+  "118": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 118,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "119": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 119,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "120": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 120,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "121": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 121,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "122": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 122,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "123": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 123,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "124": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 124,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "125": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 125,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "126": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 126,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "127": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 127,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "128": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 128,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "129": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 129,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "130": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 130,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "131": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 131,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "132": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 132,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "133": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 133,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "134": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 134,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "135": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 135,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "136": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 136,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "137": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 137,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "138": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 138,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "139": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 139,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "140": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 140,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "141": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 141,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "142": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 142,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "143": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 143,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "144": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 144,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "145": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 145,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "146": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 146,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "147": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 147,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "148": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 148,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "149": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 149,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "150": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 150,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "151": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 151,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "152": {
+   "origem": "primeira passada (C01–C14)",
+   "pagina_origem": 152,
+   "pdf_origem": "89f9057b2dec370f1cb057ad7e80574ad0576fc61d54ecb357bc8ba36f5eb9e6"
+  },
+  "153": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 153,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "154": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 154,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "155": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 155,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "156": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 156,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "157": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 157,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "158": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 158,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "159": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 159,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "160": {
+   "origem": "segunda passada (D01–D03c)",
+   "pagina_origem": 160,
+   "pdf_origem": "adda0770179395f9e6ec498bda2910cfb50b40f1c8892320f0e67b724d8c0c17"
+  },
+  "161": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 161,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "162": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 162,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "163": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 163,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "164": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 164,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "165": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 165,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "166": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 166,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "167": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 167,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "168": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 168,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "169": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 169,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "170": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 170,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "171": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 171,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "172": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 172,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "173": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 173,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "174": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 174,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "175": {
+   "origem": "primeira passada (C01–C14)",
+   "pagina_origem": 175,
+   "pdf_origem": "89f9057b2dec370f1cb057ad7e80574ad0576fc61d54ecb357bc8ba36f5eb9e6"
+  },
+  "176": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 176,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "177": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 177,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "178": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 178,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "179": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 179,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "180": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 180,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "181": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 181,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "182": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 182,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "183": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 183,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "184": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 184,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "185": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 185,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "186": {
+   "origem": "primeira passada (C01–C14)",
+   "pagina_origem": 186,
+   "pdf_origem": "89f9057b2dec370f1cb057ad7e80574ad0576fc61d54ecb357bc8ba36f5eb9e6"
+  },
+  "187": {
+   "origem": "primeira passada (C01–C14)",
+   "pagina_origem": 187,
+   "pdf_origem": "89f9057b2dec370f1cb057ad7e80574ad0576fc61d54ecb357bc8ba36f5eb9e6"
+  },
+  "188": {
+   "origem": "primeira passada (C01–C14)",
+   "pagina_origem": 188,
+   "pdf_origem": "89f9057b2dec370f1cb057ad7e80574ad0576fc61d54ecb357bc8ba36f5eb9e6"
+  },
+  "189": {
+   "origem": "primeira passada (C01–C14)",
+   "pagina_origem": 189,
+   "pdf_origem": "89f9057b2dec370f1cb057ad7e80574ad0576fc61d54ecb357bc8ba36f5eb9e6"
+  },
+  "190": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 190,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "191": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 191,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "192": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 192,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "193": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 193,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "194": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 194,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "195": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 195,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "196": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 196,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "197": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 197,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "198": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 198,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "199": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 199,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "200": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 200,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "201": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 201,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "202": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 202,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "203": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 203,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "204": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 204,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "205": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 205,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "206": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 206,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "207": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 207,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "208": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 208,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "209": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 209,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "210": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 210,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "211": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 211,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "212": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 212,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "213": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 213,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "214": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 214,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "215": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 215,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "216": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 216,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "217": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 217,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "218": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 218,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "219": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 220,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "220": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 221,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "221": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 221,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "222": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 223,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "223": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 223,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "224": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 224,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "225": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 226,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "226": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 227,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "227": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 228,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "228": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 229,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "229": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 230,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "230": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 231,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "231": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 232,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "232": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 233,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "233": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 234,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "234": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 235,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "235": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 236,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "236": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 237,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "237": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 238,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "238": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 238,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "239": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 240,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "240": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 241,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "241": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 242,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "242": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 243,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "243": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 243,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "244": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 245,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "245": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 246,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "246": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 247,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "247": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 248,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "248": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 249,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "249": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 250,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "250": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 251,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "251": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 252,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "252": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 253,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "253": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 254,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "254": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 255,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "255": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 256,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "256": {
+   "origem": "primeira passada (C01–C14)",
+   "pagina_origem": 257,
+   "pdf_origem": "89f9057b2dec370f1cb057ad7e80574ad0576fc61d54ecb357bc8ba36f5eb9e6"
+  },
+  "257": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 258,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "258": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 259,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "259": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 260,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "260": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 261,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "261": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 262,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "262": {
+   "origem": "primeira passada (C01–C14)",
+   "pagina_origem": 263,
+   "pdf_origem": "89f9057b2dec370f1cb057ad7e80574ad0576fc61d54ecb357bc8ba36f5eb9e6"
+  },
+  "263": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 264,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "264": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 265,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "265": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 265,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "266": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 266,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "267": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 267,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "268": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 268,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "269": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 269,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "270": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 270,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "271": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 271,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "272": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 272,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "273": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 273,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "274": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 274,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "275": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 275,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "276": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 276,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "277": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 278,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "278": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 279,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "279": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 279,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "280": {
+   "origem": "primeira passada (C01–C14)",
+   "pagina_origem": 281,
+   "pdf_origem": "89f9057b2dec370f1cb057ad7e80574ad0576fc61d54ecb357bc8ba36f5eb9e6"
+  },
+  "281": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 281,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "282": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 282,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "283": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 283,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "284": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 284,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "285": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 285,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "286": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 286,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "287": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 287,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "288": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 288,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "289": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 289,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "290": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 290,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "291": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 291,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "292": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 292,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "293": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 293,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "294": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 294,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "295": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 297,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "296": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 296,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "297": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 299,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "298": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 300,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "299": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 301,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "300": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 302,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "301": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 303,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "302": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 304,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "303": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 305,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "304": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 306,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "305": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 307,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "306": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 308,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "307": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 309,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "308": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 310,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "309": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 311,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "310": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 312,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "311": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 313,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "312": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 314,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "313": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 315,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "314": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 316,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "315": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 317,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "316": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 318,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "317": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 319,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "318": {
+   "origem": "segunda passada (D01–D03c)",
+   "pagina_origem": 320,
+   "pdf_origem": "adda0770179395f9e6ec498bda2910cfb50b40f1c8892320f0e67b724d8c0c17"
+  },
+  "319": {
+   "origem": "segunda passada (D01–D03c)",
+   "pagina_origem": 321,
+   "pdf_origem": "adda0770179395f9e6ec498bda2910cfb50b40f1c8892320f0e67b724d8c0c17"
+  },
+  "320": {
+   "origem": "segunda passada (D01–D03c)",
+   "pagina_origem": 322,
+   "pdf_origem": "adda0770179395f9e6ec498bda2910cfb50b40f1c8892320f0e67b724d8c0c17"
+  },
+  "321": {
+   "origem": "segunda passada (D01–D03c)",
+   "pagina_origem": 323,
+   "pdf_origem": "adda0770179395f9e6ec498bda2910cfb50b40f1c8892320f0e67b724d8c0c17"
+  },
+  "322": {
+   "origem": "segunda passada (D01–D03c)",
+   "pagina_origem": 324,
+   "pdf_origem": "adda0770179395f9e6ec498bda2910cfb50b40f1c8892320f0e67b724d8c0c17"
+  },
+  "323": {
+   "origem": "segunda passada (D01–D03c)",
+   "pagina_origem": 325,
+   "pdf_origem": "adda0770179395f9e6ec498bda2910cfb50b40f1c8892320f0e67b724d8c0c17"
+  },
+  "324": {
+   "origem": "segunda passada (D01–D03c)",
+   "pagina_origem": 326,
+   "pdf_origem": "adda0770179395f9e6ec498bda2910cfb50b40f1c8892320f0e67b724d8c0c17"
+  },
+  "325": {
+   "origem": "segunda passada (D01–D03c)",
+   "pagina_origem": 327,
+   "pdf_origem": "adda0770179395f9e6ec498bda2910cfb50b40f1c8892320f0e67b724d8c0c17"
+  },
+  "326": {
+   "origem": "segunda passada (D01–D03c)",
+   "pagina_origem": 328,
+   "pdf_origem": "adda0770179395f9e6ec498bda2910cfb50b40f1c8892320f0e67b724d8c0c17"
+  },
+  "327": {
+   "origem": "segunda passada (D01–D03c)",
+   "pagina_origem": 329,
+   "pdf_origem": "adda0770179395f9e6ec498bda2910cfb50b40f1c8892320f0e67b724d8c0c17"
+  },
+  "328": {
+   "origem": "segunda passada (D01–D03c)",
+   "pagina_origem": 330,
+   "pdf_origem": "adda0770179395f9e6ec498bda2910cfb50b40f1c8892320f0e67b724d8c0c17"
+  },
+  "329": {
+   "origem": "segunda passada (D01–D03c)",
+   "pagina_origem": 331,
+   "pdf_origem": "adda0770179395f9e6ec498bda2910cfb50b40f1c8892320f0e67b724d8c0c17"
+  },
+  "330": {
+   "origem": "segunda passada (D01–D03c)",
+   "pagina_origem": 332,
+   "pdf_origem": "adda0770179395f9e6ec498bda2910cfb50b40f1c8892320f0e67b724d8c0c17"
+  },
+  "331": {
+   "origem": "segunda passada (D01–D03c)",
+   "pagina_origem": 333,
+   "pdf_origem": "adda0770179395f9e6ec498bda2910cfb50b40f1c8892320f0e67b724d8c0c17"
+  },
+  "332": {
+   "origem": "segunda passada (D01–D03c)",
+   "pagina_origem": 334,
+   "pdf_origem": "adda0770179395f9e6ec498bda2910cfb50b40f1c8892320f0e67b724d8c0c17"
+  },
+  "333": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 333,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "334": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 335,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "335": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 336,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "336": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 337,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "337": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 338,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "338": {
+   "origem": "segunda passada (D01–D03c)",
+   "pagina_origem": 340,
+   "pdf_origem": "adda0770179395f9e6ec498bda2910cfb50b40f1c8892320f0e67b724d8c0c17"
+  },
+  "339": {
+   "origem": "primeira passada (C01–C14)",
+   "pagina_origem": 340,
+   "pdf_origem": "89f9057b2dec370f1cb057ad7e80574ad0576fc61d54ecb357bc8ba36f5eb9e6"
+  },
+  "340": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 340,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "341": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 341,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "342": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 342,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "343": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 344,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "344": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 345,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "345": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 346,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "346": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 346,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "347": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 348,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "348": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 349,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "349": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 349,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "350": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 350,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "351": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 352,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "352": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 353,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "353": {
+   "origem": "segunda passada (D01–D03c)",
+   "pagina_origem": 355,
+   "pdf_origem": "adda0770179395f9e6ec498bda2910cfb50b40f1c8892320f0e67b724d8c0c17"
+  },
+  "354": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 355,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "355": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 356,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "356": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 357,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "357": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 357,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "358": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 358,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "359": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 359,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "360": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 360,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "361": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 361,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "362": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 363,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "363": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 364,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "364": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 365,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "365": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 366,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "366": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 367,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "367": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 368,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "368": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 369,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "369": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 370,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "370": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 371,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "371": {
+   "origem": "V14 completa de 03/10",
+   "pagina_origem": 372,
+   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  },
+  "372": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 372,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "373": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 373,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "374": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 374,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "375": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 375,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "376": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 376,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "377": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 377,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "378": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 378,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "379": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 379,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "380": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 380,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "381": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 381,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  },
+  "382": {
+   "origem": "terceira passada (D05–D17)",
+   "pagina_origem": 382,
+   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+  }
+ }
+}
