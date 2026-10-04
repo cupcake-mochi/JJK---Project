@@ -11,7 +11,7 @@ Leia revisao-interfaces/ACHADOS.md e CORRECOES-APLICADAS.md para decisões e ach
 Leia migracao-pos-candidata/PLANO.md e testes-com-leitores/PLANO.md para os planos preparados, ainda sem execução.
 
 A próxima sequência é:
-1. Atualizar e validar as provas e evidências de Aptidões, Fundamento, Origens, Perícias e Poderes avançados, hoje desatualizadas em relação às fontes.
+1. FEITO em 04/10/2026: provas e evidências de Aptidões, Fundamento, Origens, Perícias e Poderes avançados atualizadas e verdes. Registro em publicacao-github/provas-cinco-capitulos-2026-10-04/LEIA-ME.md.
 2. Consolidar as evidências gerais para o PDF atual de 384 páginas e refazer o ZIP para conter essa mesma versão, conferindo hashes e reprodução.
 3. Resolver os achados restantes de interfaces conforme as decisões do autor e o escopo autorizado. Registrar antes, depois, motivo e efeitos no jogo. Não confundir regra não decidida com erro simples de remissão.
 Depois: executar testes humanos e realizar migração quando a candidata estabilizar e o autor decidir a publicação. A etapa artística foi retirada do PR pelo autor.

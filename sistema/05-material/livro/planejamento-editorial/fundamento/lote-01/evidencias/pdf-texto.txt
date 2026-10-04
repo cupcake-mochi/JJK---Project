@@ -372,7 +372,7 @@ PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 8
 Formas de ataque
 A Forma define por onde o feitiço chega e quem pode atingir. Escolha uma por ficha. As medidas desta
-página valem nas Classes 1 a 5. A progressão está em Alcance e área (p. 10).
+seção valem nas Classes 1 a 5. A progressão está em Alcance e área (p. 10).
 Forma
 Custo
 Alcance e área

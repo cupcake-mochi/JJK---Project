@@ -105,4 +105,4 @@ O critério desta rodada foi corrigir sozinho só o que diverge de uma regra já
 
 Os 13 capítulos que esta rodada mudou passam no `conferir_editorial.py` sem achado e no validador da própria unidade. Cinco deles (Incursor, Catálogo, Equipamento, Construir invocações e Regras gerais) já estavam vermelhos na `main`, com a revisão de localização feita sobre uma versão de antes do fechamento da integração. O diff dessa versão até a `main` é só redação de remissão, e foi relido junto com as correções. Consulta e Fabricação também estavam vermelhas na `main` e ganharam o cotejo das fontes que mudaram. Tudo com antes, depois e motivo em `CORRECOES-APLICADAS.md`.
 
-Aptidões, Fundamento, Origens, Perícias e Poderes avançados continuam vermelhos como na `main`. Nenhuma correção passou por eles.
+Aptidões, Fundamento, Origens, Perícias e Poderes avançados continuavam vermelhos como na `main`, porque nenhuma correção passou por eles. Depois desta rodada, as provas deles foram atualizadas sem mudar o texto e os cinco saem verdes. Registro em `../publicacao-github/provas-cinco-capitulos-2026-10-04/LEIA-ME.md`.

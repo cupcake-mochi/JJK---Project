@@ -1,5 +1,9 @@
 Continuidade pós-revisão — conferência de 04/10/2026
 
+ATUALIZAÇÃO, MESMO DIA: ITEM 1 FEITO
+As provas de Aptidões, Fundamento, Origens, Perícias e Poderes avançados foram atualizadas. Os cinco conferir.py saem com código 0 (805 verificações, nenhuma falha). O texto deles só tinha 7 trocas de remissão da montagem; nenhuma regra mudou. Inventário de Origens: o segundo parágrafo do Revezamento estava atrasado em relação à migração de nomes e foi alinhado ao texto. Registro completo em publicacao-github/provas-cinco-capitulos-2026-10-04/LEIA-ME.md.
+A fila segue no item 2 (evidência geral do PDF de 384 páginas e ZIP). O quadro abaixo, de "CONFIRMADO" em diante, é o retrato de antes desta atualização.
+
 Repositório: https://github.com/cupcake-mochi/JJK---Project
 Branch de trabalho: claude/revisao-pos-reconstrucao-rxwpkq (PR #2, aberto).
 A main contém a reconstrução original de 03/10; a branch contém a revisão do Claude.

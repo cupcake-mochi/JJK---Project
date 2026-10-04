@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "8ab8f1322ac42fd54c72a45549b1e3df6c64a75399950e2c249919bf8f0cf80c",
+  "sha256_texto": "b3f4404b9e9a03df2071ad1b2790163376ab551768b4dd98f32ae66726c5f8ea",
   "titulos_revisto": true,
   "sem_explicacao_alheia": true,
   "vocabulario_revisto": true,
@@ -65,5 +65,21 @@
     "hash_antes": "d6135572a93bfd3e07864703889a3ce158dc2a1b59215f5f2fb4a03873459fe0",
     "hash_depois": "8ab8f1322ac42fd54c72a45549b1e3df6c64a75399950e2c249919bf8f0cf80c",
     "nota": "Fechamento de dois exemplos remanescentes de Categoria e sincronização de títulos/Origem com os donos finais. Nenhuma regra ou número mudou."
+  },
+  "revisao_delta_2026_10_04": {
+    "sha256_anterior": "8ab8f1322ac42fd54c72a45549b1e3df6c64a75399950e2c249919bf8f0cf80c",
+    "sha256_atual": "b3f4404b9e9a03df2071ad1b2790163376ab551768b4dd98f32ae66726c5f8ea",
+    "origem": "Ajustes de remissão feitos na montagem do livro completo (03/10/2026), sem atualização da prova individual.",
+    "mudancas": [
+      {
+        "linha": 362,
+        "secao": "apt-simples",
+        "antes": "Se terminar pelo voto, por encerramento voluntário, falta de manutenção ou inconsciência enquanto segurava uma Expansão, quem perdeu essa proteção recebe um **Acerto adicional imediatamente**, além dos Acertos normais que ainda virão. O fim por esgotar a capacidade segue a regra própria da próxima página.",
+        "depois": "Se terminar pelo voto, por encerramento voluntário, falta de manutenção ou inconsciência enquanto segurava uma Expansão, quem perdeu essa proteção recebe um **Acerto adicional imediatamente**, além dos Acertos normais que ainda virão. O fim por esgotar a capacidade segue [Duração do Domínio Simples](#apt-simples-duracao)."
+      }
+    ],
+    "registro": "consolidacao/lote-01/evidencias/AJUSTES-FINAIS-INTEGRACAO.json",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+    "conferido": "Desfazendo as 1 trocas registradas, o texto volta exatamente ao hash anterior; não há outra diferença. Cada linha trocada foi lida no contexto: a remissão aponta a seção onde a frase está ou um título existente do capítulo. Títulos, seções e número de linhas não mudaram. Com as exceções desta leitura, o conferir_editorial dá 0 achados no texto anterior e 0 no atual; os achados brutos são os mesmos nos dois (mesmo código, termo e trecho), e as exceções de vocabulário continuam na mesma linha."
   }
 }

@@ -1,9 +1,9 @@
 {
   "data": "2026-10-03",
   "ok": true,
-  "verificacoes": 159,
-  "sha256_pdf": "9f2409bf6aec6a57a9502de2880235589fbafe676124928532d5a788a11cb0c3",
-  "sha256_texto": "8ab8f1322ac42fd54c72a45549b1e3df6c64a75399950e2c249919bf8f0cf80c",
+  "verificacoes": 160,
+  "sha256_pdf": "1b1e94802621dd5b49a934eccd10dc9f15399e721caa2690955f512373c54f05",
+  "sha256_texto": "b3f4404b9e9a03df2071ad1b2790163376ab551768b4dd98f32ae66726c5f8ea",
   "checks": [
     {
       "verificacao": "Quantidade de páginas e seções",
@@ -683,8 +683,18 @@
     },
     {
       "verificacao": "p14: links corretos",
-      "obtido": [],
-      "esperado": [],
+      "obtido": [
+        15
+      ],
+      "esperado": [
+        15
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "p14: página citada apt-simples-duracao",
+      "obtido": true,
+      "esperado": true,
       "ok": true
     },
     {
@@ -953,8 +963,8 @@
     },
     {
       "verificacao": "Revisão do texto atual",
-      "obtido": "8ab8f1322ac42fd54c72a45549b1e3df6c64a75399950e2c249919bf8f0cf80c",
-      "esperado": "8ab8f1322ac42fd54c72a45549b1e3df6c64a75399950e2c249919bf8f0cf80c",
+      "obtido": "b3f4404b9e9a03df2071ad1b2790163376ab551768b4dd98f32ae66726c5f8ea",
+      "esperado": "b3f4404b9e9a03df2071ad1b2790163376ab551768b4dd98f32ae66726c5f8ea",
       "ok": true
     },
     {
@@ -965,8 +975,8 @@
     },
     {
       "verificacao": "Inspeção do PDF atual",
-      "obtido": "9f2409bf6aec6a57a9502de2880235589fbafe676124928532d5a788a11cb0c3",
-      "esperado": "9f2409bf6aec6a57a9502de2880235589fbafe676124928532d5a788a11cb0c3",
+      "obtido": "1b1e94802621dd5b49a934eccd10dc9f15399e721caa2690955f512373c54f05",
+      "esperado": "1b1e94802621dd5b49a934eccd10dc9f15399e721caa2690955f512373c54f05",
       "ok": true
     },
     {
@@ -1037,8 +1047,8 @@
     },
     {
       "verificacao": "Cenários usam o manuscrito atual",
-      "obtido": "8ab8f1322ac42fd54c72a45549b1e3df6c64a75399950e2c249919bf8f0cf80c",
-      "esperado": "8ab8f1322ac42fd54c72a45549b1e3df6c64a75399950e2c249919bf8f0cf80c",
+      "obtido": "b3f4404b9e9a03df2071ad1b2790163376ab551768b4dd98f32ae66726c5f8ea",
+      "esperado": "b3f4404b9e9a03df2071ad1b2790163376ab551768b4dd98f32ae66726c5f8ea",
       "ok": true
     },
     {

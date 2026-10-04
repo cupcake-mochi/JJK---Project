@@ -1,9 +1,9 @@
 {
   "data": "2026-10-03",
   "ok": true,
-  "verificacoes": 124,
-  "sha256_pdf": "fe220c707ef23e311c37c0da1d31ac6068a1f0dd40ee933dc6bad3d754393641",
-  "sha256_texto": "2b1c02cb3407a7aec6ef385a00726e1d131020b3f2b110b433bfcedf28f2854f",
+  "verificacoes": 125,
+  "sha256_pdf": "6989a9237a936f68870bfeeb2b17c16b9e7180e8616b793a6f13b780f2e7dc11",
+  "sha256_texto": "17331ebd3c99cb822d6b5c62610cc55ab6dfe715f53476835394a36d7a47696d",
   "checks": [
     {
       "verificacao": "Quantidade de páginas e seções",
@@ -169,8 +169,18 @@
     },
     {
       "verificacao": "p2: links corretos",
-      "obtido": [],
-      "esperado": [],
+      "obtido": [
+        3
+      ],
+      "esperado": [
+        3
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "p2: página citada acerto",
+      "obtido": true,
+      "esperado": true,
       "ok": true
     },
     {
@@ -733,8 +743,8 @@
     },
     {
       "verificacao": "Revisão do texto atual",
-      "obtido": "2b1c02cb3407a7aec6ef385a00726e1d131020b3f2b110b433bfcedf28f2854f",
-      "esperado": "2b1c02cb3407a7aec6ef385a00726e1d131020b3f2b110b433bfcedf28f2854f",
+      "obtido": "17331ebd3c99cb822d6b5c62610cc55ab6dfe715f53476835394a36d7a47696d",
+      "esperado": "17331ebd3c99cb822d6b5c62610cc55ab6dfe715f53476835394a36d7a47696d",
       "ok": true
     },
     {
@@ -745,8 +755,8 @@
     },
     {
       "verificacao": "Inspeção do PDF atual",
-      "obtido": "fe220c707ef23e311c37c0da1d31ac6068a1f0dd40ee933dc6bad3d754393641",
-      "esperado": "fe220c707ef23e311c37c0da1d31ac6068a1f0dd40ee933dc6bad3d754393641",
+      "obtido": "6989a9237a936f68870bfeeb2b17c16b9e7180e8616b793a6f13b780f2e7dc11",
+      "esperado": "6989a9237a936f68870bfeeb2b17c16b9e7180e8616b793a6f13b780f2e7dc11",
       "ok": true
     },
     {
@@ -807,8 +817,8 @@
     },
     {
       "verificacao": "Cenários usam o manuscrito atual",
-      "obtido": "2b1c02cb3407a7aec6ef385a00726e1d131020b3f2b110b433bfcedf28f2854f",
-      "esperado": "2b1c02cb3407a7aec6ef385a00726e1d131020b3f2b110b433bfcedf28f2854f",
+      "obtido": "17331ebd3c99cb822d6b5c62610cc55ab6dfe715f53476835394a36d7a47696d",
+      "esperado": "17331ebd3c99cb822d6b5c62610cc55ab6dfe715f53476835394a36d7a47696d",
       "ok": true
     },
     {
@@ -837,7 +847,7 @@
     },
     {
       "pagina": 2,
-      "final_corpo": 491.92
+      "final_corpo": 505.62
     },
     {
       "pagina": 3,

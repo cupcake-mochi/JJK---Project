@@ -60,8 +60,9 @@ Comece pela Regra da sua técnica e escolha o que ela estabelece sobre o lugar. 
 Efeito que possam ser usados sem inventar uma regra nova a cada turno.
 Acerto
 O Acerto pode causar dano, transmitir uma informação definida ou estabelecer uma regra comum para
-o ambiente. Um Acerto de dano segue a quantidade da próxima página. Uma regra de ambiente precisa
-ser curta, verificável e aplicada igualmente a todos os sujeitos que ela descreve, incluindo você.
+o ambiente. Um Acerto de dano segue a quantidade indicada em Acerto do domínio (p. 3). Uma regra de
+ambiente precisa ser curta, verificável e aplicada igualmente a todos os sujeitos que ela descreve,
+incluindo você.
 “Enquanto estiverem aqui, criaturas não podem causar dano a outras criaturas” descreve uma proibição
 verificável. “Meus inimigos perdem porque estão no meu território” não informa uma resolução. Um
 Acerto informativo transmite apenas o conteúdo registrado: explicar uma regra não revela pensamentos,

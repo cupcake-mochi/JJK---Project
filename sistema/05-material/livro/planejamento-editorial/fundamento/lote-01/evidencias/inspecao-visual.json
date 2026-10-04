@@ -1,6 +1,6 @@
 {
-  "sha256_pdf": "2d8ecd738ae4e0e3a2b101527f13d0020727bb9c6ac28e5ef482bcc8f6fbf634",
-  "sha256_texto": "0160f774f5ea87f4ffd29bb7f7e3335dead51677bf2b894041aa61e2c5041273",
+  "sha256_pdf": "05766e656a3d09b0316a891c69503aa502ac2e43a01a3e131bc020477d712dd1",
+  "sha256_texto": "066f6e472912083a153f474460ee111a79f37606ab9941ea3322506170847783",
   "metodo": "Comparação de todas as páginas a85dpi com PDF anterior inspecionado, seguida de abertura real por view_image de todas as diferenças. Evidências anteriores preservadas.",
   "paginas": [
     {
@@ -55,9 +55,10 @@
     {
       "pagina": 8,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Página final idêntica em pixels à prova já inspecionada; inspeção anterior preservada no histórico. Não se declara uma nova abertura desta página.",
-      "sha256_png": "80ed5159eeac844e3c43559aa9db59ce03d80c5c60d789eb32cd589a6f72b2b3",
-      "revisor": "Inspeção anterior conservada por equivalência de pixels"
+      "observacoes": "Formas de ataque: \"desta seção\" na primeira frase; tabela de Formas, títulos e links (p. 10 e p. 11) legíveis e dentro da margem.",
+      "sha256_png": "abe27c952169c2bc2570d77842990e95750e1593e952f887ce4a1aa4ebc6eff3",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo"
     },
     {
       "pagina": 9,
@@ -206,5 +207,15 @@
       "sha256_png": "baf7ef2517ab362af8e9ea0b66b838175a370092b6c3dc6422d25b851e896540",
       "revisor": "Inspeção anterior conservada por equivalência de pixels"
     }
-  ]
+  ],
+  "metodo_2026_10_04": "Páginas alteradas pelas remissões da montagem abertas e inspecionadas. As demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado, comprovada em COMPARACAO-VISUAL-2026-10-04.json, sem alegar nova leitura visual.",
+  "revisao_delta_2026_10_04": {
+    "sha256_pdf_anterior": "2d8ecd738ae4e0e3a2b101527f13d0020727bb9c6ac28e5ef482bcc8f6fbf634",
+    "sha256_pdf_atual": "05766e656a3d09b0316a891c69503aa502ac2e43a01a3e131bc020477d712dd1",
+    "paginas_alteradas": [
+      8
+    ],
+    "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-04.json",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  }
 }

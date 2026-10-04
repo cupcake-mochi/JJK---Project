@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "8ab8f1322ac42fd54c72a45549b1e3df6c64a75399950e2c249919bf8f0cf80c",
+  "sha256_texto": "b3f4404b9e9a03df2071ad1b2790163376ab551768b4dd98f32ae66726c5f8ea",
   "contrato": [],
   "checks": [
     {
@@ -5181,6 +5181,6 @@
   ],
   "ok": true,
   "manuscritos_auditados": {
-    "sistema/05-material/livro/planejamento-editorial/aptidoes/lote-01/APTIDOES-E-REFINO.md": "8ab8f1322ac42fd54c72a45549b1e3df6c64a75399950e2c249919bf8f0cf80c"
+    "sistema/05-material/livro/planejamento-editorial/aptidoes/lote-01/APTIDOES-E-REFINO.md": "b3f4404b9e9a03df2071ad1b2790163376ab551768b4dd98f32ae66726c5f8ea"
   }
 }

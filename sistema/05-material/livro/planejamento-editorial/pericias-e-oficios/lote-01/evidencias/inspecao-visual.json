@@ -1,6 +1,6 @@
 {
-  "sha256_pdf": "8f23c332359e69d433d192905a523ef14c028a0adf09596278d2436ea3473401",
-  "sha256_texto": "016423f17da7111635e8d9973afd6c810bfb7f5d7f93c3f1e235bf91d0385fdc",
+  "sha256_pdf": "c5c8039cba02704874e45601e05dac850ae59ec742a9c0175dddaff930f3409d",
+  "sha256_texto": "2d8ba86ef20865c3022197ab4c8027f3b2bf43dde353e35e14d76c0d0e9aafae",
   "metodo": "Comparação de todas as páginas a85dpi com PDF anterior inspecionado, seguida de abertura real por view_image de todas as diferenças. Evidências anteriores preservadas.",
   "paginas": [
     {
@@ -27,23 +27,26 @@
     {
       "pagina": 4,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Página final idêntica em pixels à prova já inspecionada; inspeção anterior preservada no histórico. Não se declara uma nova abertura desta página.",
-      "sha256_png": "b87d950956238662e7a594cf592353af21bc08707d7b4f7063660883e0c395aa",
-      "revisor": "Inspeção anterior conservada por equivalência de pixels"
+      "observacoes": "Investigação e conhecimento: \"desta seção\" na primeira frase; seis perícias legíveis, sem corte e com rodapé separado.",
+      "sha256_png": "deb03ba9017b2d386361c669e37a47d4d04c6057202eb46735226099a7c632e0",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo"
     },
     {
       "pagina": 5,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Página aberta integralmente por view_image nesta etapa. Texto, tabelas, títulos e margens legíveis, sem cortes ou sobreposições.",
-      "sha256_png": "cd8778182a84d4952c7b71aa8927098f217e3b749e6e70e8f388453013ba2df3",
-      "revisor": "/root/maxima"
+      "observacoes": "Ambiente e saúde: \"desta seção\" na primeira frase; cinco perícias e quadro de exemplo inteiros, sem corte.",
+      "sha256_png": "d5551dc0845b7f442853802243538d424a429085deec64c678ae44f53c296705",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo"
     },
     {
       "pagina": 6,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Página final idêntica em pixels à prova já inspecionada; inspeção anterior preservada no histórico. Não se declara uma nova abertura desta página.",
-      "sha256_png": "0f306461f05a79c1c9dd9d50175171a906a5885a5d01a437c86c2de5f585d8c6",
-      "revisor": "Inspeção anterior conservada por equivalência de pixels"
+      "observacoes": "Percepção e influência: \"desta seção\" na primeira frase; sete perícias legíveis, sem corte e com rodapé separado.",
+      "sha256_png": "c28c063ae302e79a8fc7eb2388168c2283788f0dff09bd51539d21326b70ffe1",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo"
     },
     {
       "pagina": 7,
@@ -66,5 +69,17 @@
       "sha256_png": "c4e1f64aaec1d6e135547d6949511c920ee90c1fb608f2ea1c4f5a12002da462",
       "revisor": "Inspeção anterior conservada por equivalência de pixels"
     }
-  ]
+  ],
+  "metodo_2026_10_04": "Páginas alteradas pelas remissões da montagem abertas e inspecionadas. As demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado, comprovada em COMPARACAO-VISUAL-2026-10-04.json, sem alegar nova leitura visual.",
+  "revisao_delta_2026_10_04": {
+    "sha256_pdf_anterior": "8f23c332359e69d433d192905a523ef14c028a0adf09596278d2436ea3473401",
+    "sha256_pdf_atual": "c5c8039cba02704874e45601e05dac850ae59ec742a9c0175dddaff930f3409d",
+    "paginas_alteradas": [
+      4,
+      5,
+      6
+    ],
+    "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-04.json",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  }
 }

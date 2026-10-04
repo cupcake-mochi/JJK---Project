@@ -1,7 +1,7 @@
 {
   "data": "2026-10-03",
-  "sha256_texto": "8ab8f1322ac42fd54c72a45549b1e3df6c64a75399950e2c249919bf8f0cf80c",
-  "sha256_pdf": "9f2409bf6aec6a57a9502de2880235589fbafe676124928532d5a788a11cb0c3",
+  "sha256_texto": "b3f4404b9e9a03df2071ad1b2790163376ab551768b4dd98f32ae66726c5f8ea",
+  "sha256_pdf": "1b1e94802621dd5b49a934eccd10dc9f15399e721caa2690955f512373c54f05",
   "metodo": "Todas as páginas alteradas pela migração e seus complementos foram abertas individualmente. As demais conservam a inspeção anterior por igualdade de pixels comprovada, sem alegar nova leitura visual.",
   "prova_anterior": "c5905aedb50386d7f7b57b3a013b0e41a809f661df61226da4524fa12f4726a0",
   "comparacao": "evidencias/COMPARACAO-NOMES-PDF.json",
@@ -139,12 +139,13 @@
     {
       "pagina": 14,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Categoria de Efeito 2 no requisito; tabela, voto e permanência legíveis.",
-      "sha256_png": "414a0830a62ae587e227823be7df4be3788346b0865409c6f6a39e3bfd0ee8c7",
-      "revisor": "/root/compatibilidade",
+      "observacoes": "Domínio Simples: a remissão nova \"Duração do Domínio Simples (p. 15)\" aparece como link, com a página certa; tabela, títulos e corpo dentro da margem, rodapé separado.",
+      "sha256_png": "5c810c393929b90c8762eb311850648d9d9853c17d4f41c0ccb2ff9f332aba0e",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
       "pixels_iguais_rodada_anterior": false,
       "inspecao_realizada": "PNG aberto individualmente na rodada de migração nominal, 2026-10-03",
-      "imagem": "output/png/pagina-14.png"
+      "imagem": "output/png/pagina-14.png",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo"
     },
     {
       "pagina": 15,
@@ -207,5 +208,15 @@
       "imagem": "output/png/pagina-20.png"
     }
   ],
-  "limites": "Inspeção por modelo em PNG a 100 dpi, sem impressão física ou teste com leitores humanos."
+  "limites": "Inspeção por modelo em PNG a 100 dpi, sem impressão física ou teste com leitores humanos.",
+  "metodo_2026_10_04": "Páginas alteradas pelas remissões da montagem abertas e inspecionadas. As demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado, comprovada em COMPARACAO-VISUAL-2026-10-04.json, sem alegar nova leitura visual.",
+  "revisao_delta_2026_10_04": {
+    "sha256_pdf_anterior": "9f2409bf6aec6a57a9502de2880235589fbafe676124928532d5a788a11cb0c3",
+    "sha256_pdf_atual": "1b1e94802621dd5b49a934eccd10dc9f15399e721caa2690955f512373c54f05",
+    "paginas_alteradas": [
+      14
+    ],
+    "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-04.json",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  }
 }

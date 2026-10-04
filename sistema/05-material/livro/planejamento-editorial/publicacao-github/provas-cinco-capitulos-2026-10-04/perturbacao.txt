@@ -1,0 +1,20 @@
+BASE na cópia:
+ aptidoes
+   ok True falhas []
+ origens
+   ok True falhas []
+PERTURBAÇÃO 1: Origens volta a 'desta página'
+   arquivo mudou
+   ok False falhas ['p2: texto completo', 'Revisão do texto atual', 'Bloqueio editorial e revisão contextual', 'Cenários usam o manuscrito atual', 'Números vinculados a textos atuais']
+PERTURBAÇÃO 2: Aptidões perde o link novo
+   arquivo mudou
+   ok False falhas ['p14: texto completo', 'p14: links corretos', 'Revisão do texto atual', 'Bloqueio editorial e revisão contextual', 'Cenários usam o manuscrito atual', 'Números vinculados a textos atuais']
+PERTURBAÇÃO 3: inspeção registra defeito na página 14 de Aptidões
+   arquivo mudou
+   ok False falhas ['Inspeção sem defeitos']
+PERTURBAÇÃO 4: Revezamento volta ao texto velho no inventário de Origens (auditor)
+   auditor rc=1 (esperado 1)
+DEPOIS de restaurar:
+   auditor origens rc=0
+   ok True falhas []
+   ok True falhas []

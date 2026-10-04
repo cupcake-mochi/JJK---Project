@@ -1,9 +1,9 @@
 {
   "data": "2026-10-03",
   "ok": true,
-  "sha256_texto": "0160f774f5ea87f4ffd29bb7f7e3335dead51677bf2b894041aa61e2c5041273",
+  "sha256_texto": "066f6e472912083a153f474460ee111a79f37606ab9941ea3322506170847783",
   "manuscritos_auditados": {
-    "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md": "0160f774f5ea87f4ffd29bb7f7e3335dead51677bf2b894041aa61e2c5041273"
+    "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md": "066f6e472912083a153f474460ee111a79f37606ab9941ea3322506170847783"
   },
   "verificacoes": 68,
   "estados_de_orcamento": 39032,

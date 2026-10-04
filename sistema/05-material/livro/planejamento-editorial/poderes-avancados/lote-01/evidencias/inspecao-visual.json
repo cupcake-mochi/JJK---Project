@@ -1,5 +1,5 @@
 {
-  "sha256_pdf": "fe220c707ef23e311c37c0da1d31ac6068a1f0dd40ee933dc6bad3d754393641",
+  "sha256_pdf": "6989a9237a936f68870bfeeb2b17c16b9e7180e8616b793a6f13b780f2e7dc11",
   "metodo": "Todas as quinze páginas finais foram inspecionadas pelo principal em pares renderizados a 1300 px.",
   "paginas": [
     {
@@ -12,9 +12,10 @@
     {
       "pagina": 2,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Título, tabela ou exemplo e corpo legíveis; sem cortes, colisões ou páginas vazias indevidas.",
-      "sha256_png": "6324273a8be6759581c592bcf1dc0e32c51db644b1559441eac34a09105e8a4c",
-      "revisor": "Agente principal"
+      "observacoes": "Criar um domínio: a remissão nova \"Acerto do domínio (p. 3)\" aparece como link, com a página certa; corpo dentro da margem, rodapé separado.",
+      "sha256_png": "5a828b94f121e47b9e30871b99c94ad1b7c03d2816255f117ac661a2f473f000",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo"
     },
     {
       "pagina": 3,
@@ -107,5 +108,15 @@
       "sha256_png": "160ee9e888ad2eaf8c0991630dfc70993110006f3a1127d1df82875c8af2cf24",
       "revisor": "Agente principal"
     }
-  ]
+  ],
+  "metodo_2026_10_04": "Páginas alteradas pelas remissões da montagem abertas e inspecionadas. As demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado, comprovada em COMPARACAO-VISUAL-2026-10-04.json, sem alegar nova leitura visual.",
+  "revisao_delta_2026_10_04": {
+    "sha256_pdf_anterior": "fe220c707ef23e311c37c0da1d31ac6068a1f0dd40ee933dc6bad3d754393641",
+    "sha256_pdf_atual": "6989a9237a936f68870bfeeb2b17c16b9e7180e8616b793a6f13b780f2e7dc11",
+    "paginas_alteradas": [
+      2
+    ],
+    "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-04.json",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  }
 }

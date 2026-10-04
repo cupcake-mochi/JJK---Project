@@ -566,8 +566,8 @@ no ponto de ativação. Se seus dois pés saírem desse ponto, por movimento pr�
 termina. Ao chegar a Refino 5, você pode abandonar esse voto.
 Se terminar pelo voto, por encerramento voluntário, falta de manutenção ou inconsciência enquanto
 segurava uma Expansão, quem perdeu essa proteção recebe um Acerto adicional imediatamente, além
-dos Acertos normais que ainda virão. O fim por esgotar a capacidade segue a regra própria da próxima
-página.
+dos Acertos normais que ainda virão. O fim por esgotar a capacidade segue Duração do Domínio
+Simples (p. 15).
 Permanência
 Fora de uma Expansão, o Domínio Simples permanece enquanto você pagar a manutenção. Contra uma
 Expansão, sua capacidade de resistir à pressão é limitada pelos Acertos que segura. O procedimento está
