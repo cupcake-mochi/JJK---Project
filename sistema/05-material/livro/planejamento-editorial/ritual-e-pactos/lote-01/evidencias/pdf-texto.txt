@@ -64,9 +64,7 @@ CD é 16 e seu bônus é +8. Ele precisa tirar 8 ou mais: 65% de chance, antes d
 Se falhar, o feitiço de 12 PE custa 16 PE.
 Treino e prática
 Para alguém treinado, Inteligência e maestria aparecem nos dois lados da conta. Destreza e
-especialização melhoram a chance. Sem treino, a maestria permanece na CD, mas não entra na rolagem:
-a diferença é de 10 pontos percentuais com maestria 2, 15 com maestria 3 e 20 com maestria 4, enquanto
-não houver um limite de probabilidade atingido.
+especialização melhoram a chance. Sem treino, a maestria permanece na CD, mas não entra na rolagem.
 
 
 PÁGINA 3
@@ -96,8 +94,9 @@ Uma interrupção já perde a energia, mas não aplica um preço de uma Liberaç
 Só na Recitação Prolongada de uma Liberação, acrescente metade da Classe em d8, para baixo,
 mínimo 1, depois de montar seu dano. Esses dados podem exceder o teto de 4 × Classe. Classe 3 recebe
 +1d8, Classes 4–5 recebem +2d8 e Classes 6–7 recebem +3d8.
-Técnica Máxima pode receber Ritual completo, preservando seu custo, recarga e resolução. Não recebe
-os dados excepcionais da Liberação e não pode ser guardada por Recitação Prolongada.
+Técnica Máxima pode receber Ritual completo, preservando seu custo, recarga e resolução. Use sua
+maior Classe como Classe do feitiço no teste, na penalidade de falha e nas Melhorias de Ritual. Não
+recebe os dados excepcionais da Liberação e não pode ser guardada por Recitação Prolongada.
 
 
 PÁGINA 4

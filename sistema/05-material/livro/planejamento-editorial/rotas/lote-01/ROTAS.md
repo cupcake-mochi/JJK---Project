@@ -28,7 +28,7 @@ Você desenvolve um estilo ligado a armas ou a uma ferramenta amaldiçoada. Uma 
 
 ## Criação
 
-1. Escreva a **Descrição** e a **Regra** pelo procedimento de Fundamento.
+1. Escreva a **Descrição**, a **Regra** e a **Expressão da técnica** pelo procedimento de Fundamento.
 2. Escolha a [rota de arma](#rota-armas) ou a [rota de ferramenta](#rota-ferramenta). Essa escolha é permanente.
 3. Registre o equipamento que permite executar suas Katas e o atributo utilizado.
 4. Escolha as Famílias e monte seu repertório. Talentos e entidades usam os mesmos espaços disponíveis para Katas.
@@ -48,9 +48,11 @@ Esta rota não concede **Expansão de Domínio**, incompleta ou completa, nem **
 <!-- page:rota-armas|Armas -->
 # Armas
 
-Ao escolher esta rota, selecione **três grupos de armas diferentes** entre os grupos de Equipamento. Você recebe uma arma de cada grupo, todas de **grau 4**, e fica treinado nos três grupos, além dos treinos concedidos por outras escolhas.
+Ao escolher esta rota, selecione **três categorias de armas diferentes** entre as categorias de Equipamento. Você recebe uma arma de cada categoria, todas de **grau 4**, e fica treinado nas três categorias, além dos treinos concedidos por outras escolhas.
 
-Você pode executar suas Katas com qualquer **arma amaldiçoada de um desses grupos**, inclusive uma obtida depois. Grau 4 permite ferir maldições. Efeitos especiais de graus maiores seguem **Equipamentos amaldiçoados**.
+**Acesso.** Escolha qualquer arma da categoria que seu acesso permita. As armas recebidas seguem **Equipamento restrito**: Arma de Fogo exige Grau 2 ou autorização prévia do mestre. Uma arma de fogo recebida vem com a munição inicial de uma compra, conforme **Munição inicial**.
+
+Você pode executar suas Katas com qualquer **arma amaldiçoada de uma dessas categorias**, inclusive uma obtida depois. Grau 4 permite ferir maldições. Efeitos especiais de graus maiores seguem **Equipamento amaldiçoado**.
 
 Essa escolha fornece armas, treino e o Selo. Manhas e outras habilidades de combate dependem de suas próprias fontes. As armas não sobem de grau com seu nível.
 
@@ -63,11 +65,11 @@ Use o atributo de ataque da arma empregada naquela execução tanto para o ataqu
 
 Se a arma permitir escolher entre Força e Destreza, declare qual está usando nessa execução. Use o mesmo atributo até terminar de resolvê-la. Um efeito com duração conserva a CD definida ao ser aplicado, mesmo se você trocar de arma depois.
 
-Assim, é possível escolher um grupo de Força e outro de Destreza. O atributo de uma arma não modifica o atributo exigido pela outra. Consulte cada arma em **Equipamento** para treino, mãos ocupadas, alcance e propriedades.
+Assim, é possível escolher uma categoria de Força e outra de Destreza. O atributo de uma arma não modifica o atributo exigido pela outra. Consulte cada arma em **Equipamento** para treino, mãos ocupadas, alcance e propriedades.
 
 ## Equipamento em uso
 
-Sacar uma arma de reserva segue **Ações — Interagir com objetos**. Uma arma guardada não cumpre o Selo de outra que você perdeu. Os efeitos especiais do equipamento seguem seus limites de uso e de itens ativos, sem multiplicar benefícios pelas armas guardadas.
+Sacar uma arma de reserva segue **Sacar e guardar**, em Equipamento. Uma arma guardada não cumpre o Selo de outra que você perdeu. Os efeitos especiais do equipamento seguem seus limites de uso e de itens ativos, sem multiplicar benefícios pelas armas guardadas.
 
 Uma Kata conserva o alcance da Forma escolhida. Empunhar uma arma longa não aumenta, por si só, o alcance de uma Kata de Toque.
 
@@ -80,7 +82,7 @@ Escolha **um dos cinco atributos** para os ataques e a CD de suas Katas. Uma arm
 
 Somente essa ferramenta cumpre o Selo de suas Katas. Ela não possui um dado de arma adicional. Caso seja representada por uma arma do catálogo, use os números daquela arma nos ataques comuns, sem acrescentar um segundo dano por ela também ser sua ferramenta.
 
-Uma ferramenta vestida como armadura ocupa a função de **Traje ou Revestimento**, com as regras dessa categoria. Ela não acrescenta outra camada de proteção. Uma roupa sem proteção continua sendo roupa, conforme Equipamento.
+Uma ferramenta vestida como armadura ocupa a função de **Traje ou Revestimento**, com as regras dessa categoria. Os números de Revestimento 2 ou 3 seguem o acesso de **Equipamento restrito**, salvo permissão do mestre. Ela não acrescenta outra camada de proteção. Uma roupa sem proteção continua sendo roupa, conforme Equipamento.
 
 ## Ataques comuns
 
@@ -98,10 +100,6 @@ Calado impede uma Kata que dependa de fala ou som. Uma ferramenta que funcione s
 # Talentos marciais
 
 Talentos desta seção usam as regras de aquisição de **Fundamento — Selo e Talentos**. Categoria de Efeito 1 ocupa um espaço de Kata e está disponível desde o nível 1. Categoria 2 ocupa dois espaços e exige nível 7. Categoria 3 ocupa três espaços e exige nível 13. Eles contam no máximo de cinco Talentos pagos.
-
-## Calo — Livre
-
-Você reconhece pelo toque o encaixe e a textura familiares de armas que costuma usar. Esse detalhe descreve sua relação com o equipamento. Identificar uma arma disfarçada, detectar uma substituição ou obter informação escondida ainda exige o procedimento da cena.
 
 ## Maldição do Inventário — Categoria de Efeito 1
 
@@ -140,12 +138,12 @@ Escolha uma de suas armas ao adquirir este Talento. Ela **não pode ser desarmad
 
 A arma ainda pode ser carregada ou transportada por outra criatura. O vínculo impede seu uso por terceiros, sem tornar o objeto indestrutível, alterar seu peso ou transportá-lo de volta para sua mão. Guardar ou largar a arma voluntariamente continua possível.
 
-Essas entradas são efeitos específicos do catálogo. Um Talento criado na mesa deve seguir **Catálogo de criação — Criar Talentos**, inclusive os limites de sua Categoria de Efeito.
+Essas entradas são efeitos específicos do catálogo. Um Talento criado na mesa deve seguir **Catálogo de criação — Talento Próprio**, inclusive os limites de sua Categoria de Efeito.
 
 <!-- page:rota-fisga|Fisga -->
 # Fisga
 
-**Exemplo de Técnica Marcial pela rota de arma, no nível 2.** Iori usa ganchos e hastes para ferir um adversário e limitar sua movimentação. Pode executar o estilo com Armas Longas, Ceifa ou Flexível. Começa com uma arma de grau 4 de cada grupo.
+**Exemplo de Técnica Marcial pela rota de arma, no nível 2.** Iori usa ganchos e hastes para ferir um adversário e limitar sua movimentação. Pode executar o estilo com Armas Longas, Ceifa ou Flexível. Começa com uma arma de grau 4 de cada categoria.
 
 | Campo | Escolha |
 |---|---|
@@ -153,7 +151,7 @@ Essas entradas são efeitos específicos do catálogo. Um Talento criado na mesa
 | Regra | Os cabos partem da arma e seguram o que alcançam. |
 | Famílias Livres | Alcance e Controle. |
 | Famílias Fechadas | Amparo, Auxiliares e Área. |
-| Selo | Usar uma arma amaldiçoada de um dos três grupos. |
+| Selo | Usar uma arma amaldiçoada de uma das três categorias. |
 | Atributo | O da arma usada naquela Kata. |
 | Tipo de dano | Cortante. |
 
@@ -232,7 +230,7 @@ Escolha Sem Técnica entre as opções permitidas por **Origens e Legados**. Est
 
 1. Escolha uma das [sementes](#rota-sementes). A escolha é permanente.
 2. Escreva uma Descrição que mostre como você desenvolveu essa aptidão.
-3. Defina sua Regra, atributo e Selo pelo procedimento de Fundamento.
+3. Defina sua Regra, atributo, Selo e **Expressão da técnica** pelo procedimento de Fundamento.
 4. Escolha as Famílias e monte seus Manejos.
 
 A **Regra** explica uma aplicação da semente. Domínio Simples pode sustentar um estilo de contenção próximo de você. Energia Reversa pode sustentar um estilo de cura. Transformar a semente em fogo, viagem no tempo ou leitura de memória exigiria um funcionamento que ela não fornece.
@@ -403,7 +401,7 @@ Em cada marco, receba **+1 ponto de atributo, +1 de Lapidação e +1 espaço de 
 | Lapidação | +1 de Lapidação e uma Bênção. Se já atingiu Lapidação 10, receba duas Bênçãos. |
 | Leque | Uma Kata adicional e um Talento. |
 
-Confira o teto **depois do +1 gratuito**. Quem escolhe Lapidação em todos os marcos recebe duas Bênçãos nos níveis 22, 26 e 30, totalizando dez escolhas pagas. Quem nunca a escolhe termina em Lapidação 8 e conserva apenas as Bênçãos gratuitas.
+Confira o teto **depois do +1 gratuito**.
 
 A Kata concedida por Leque é uma aplicação, não um espaço livre para outra compra. O Talento é concedido sem pagar espaços e respeita seu nível de acesso. Cada Leque abre uma vaga adicional para esse Talento além do máximo de cinco pagos. Consulte **Experiência e Progressão — Marcos** para as regras comuns, incluindo a especialização de perícias e ofícios.
 

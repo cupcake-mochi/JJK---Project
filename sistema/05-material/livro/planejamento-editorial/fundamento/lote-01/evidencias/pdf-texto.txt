@@ -372,7 +372,7 @@ PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 8
 Formas de ataque
 A Forma define por onde o feitiço chega e quem pode atingir. Escolha uma por ficha. As medidas desta
-página valem nas Classes 1 a 5. A progressão está em Alcance e área (p. 10).
+seção valem nas Classes 1 a 5. A progressão está em Alcance e área (p. 10).
 Forma
 Custo
 Alcance e área
@@ -1089,7 +1089,7 @@ de Classe, use 0. Ela não recebe Classe 1 só por ter sido escolhida aqui. Requ
 continuam impedindo a compra.
 Pode haver uma Restrição Leve, mas ela não recupera o dado pago nem cria pontos de montagem.
 Toque e Aura mantêm seu alcance e origem sem produzir a devolução Média de Corpo a Corpo neste
-caso.
+caso. Essa exigência da Forma não ocupa a vaga da Restrição Leve.
 Fio curto. No nível 2, Mei conhece um Projétil de Classe 0. Alcance 9 m, Ação Padrão, 2d8 de Cortante. Se
 montar uma versão com Empurrão, paga um dado: 1d8 e o deslocamento de até 6 m da peça. No nível 5,
 essa mesma versão passa a 2d8, pois a base subiu a 3d8.
@@ -1261,8 +1261,7 @@ Na ficha: Ação Completa e 25 PE. Um alvo a até 18 m. Ataque de conjuração. 
 o alvo até 6 m numa direção permitida. Passo concede a Mei um deslocamento de até 6 m antes ou depois
 da resolução, sem ataques de oportunidade. É o deslocamento específico de Passo: não devolve a Ação de
 Movimento consumida. O Selo continua necessário.
-O ataque abre espaço para uma retirada ou afasta um inimigo de um aliado. Os 24d8 causam média de
-108 de dano. Role os dados normalmente.
+O ataque abre espaço para uma retirada ou afasta um inimigo de um aliado.
 Aplicação sem dano
 Você pode registrar a Máxima sem dano nem cura. Descartar os dados não devolve pontos e não
 concede automaticamente o bônus de Controle dos feitiços comuns. A capacidade precisa ter uma

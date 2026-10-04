@@ -1,6 +1,11 @@
 {
   "ok": true,
-  "sha256_texto": "bd3d2cc16b5a6c2b373eba1f0ebfabfbc548bae3d6a7cd2eec6dcbb4bfab95d9",
+  "sha256_texto": "6f91d9f509a0abbd04912354a51b4f075310ebd79ff07f2b7ecb522bc174a3d2",
   "casos_raciocinados": "casos-raciocinados.json",
-  "auditoria": "../AUDITORIA.json"
+  "auditoria": "../AUDITORIA.json",
+  "revisao_delta_2026_10_04": {
+    "auditoria_reexecutada": "invocacoes/lote-02/auditar.py (reexecutado em 04/10/2026)",
+    "resultado": "ok",
+    "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana."
+  }
 }

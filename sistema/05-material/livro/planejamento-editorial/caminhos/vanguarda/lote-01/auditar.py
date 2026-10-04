@@ -84,6 +84,8 @@ case('Bote transfere adicional à Bônus',attacks(False,True,True),2)
 case('Ataque Extra gasto não reaparece',attacks(False,True,True,False),1)
 case('Ação Atacar normal nível7',attacks(True,False,False),2)
 for c in range(1,8):ck('Classe mínima Compasso '+str(c),(c+1)//2,[1,1,2,2,3,3,4][c-1])
+# Decisão do Mizuki de 04/10/2026 (D04): o +1 de capacidade do Combate Irregular vale só para Arma de Fogo; a besta fica em 1.
+ck('Combate Irregular só aumenta Arma de Fogo','A **capacidade da Arma de Fogo** (os ataques por carga, em Munição) **aumenta em um**. Bestas e outras armas de disparo não recebem esse aumento.' in text,True)
 # Munição: aumento de capacidade não aumenta estoque. Recargas parciais descontam apenas o acréscimo.
 ammo_count=0
 for base in (2,3,4):

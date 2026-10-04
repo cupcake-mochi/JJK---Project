@@ -57,7 +57,7 @@ Se seu deslocamento mudar, recalcule o limite. Se já o tiver consumido, termine
 
 **Nível 2.** Você ganha Fluidez quando acerta uma criatura hostil com arma ou ataque desarmado **durante seu turno**, ou quando uma criatura hostil erra um ataque contra você.
 
-Pode ganhar Fluidez **uma vez entre o começo de um turno seu e o começo do próximo**. Anote se já obteve Fluidez nesse intervalo; o limite se renova no começo do seu turno.
+Pode ganhar Fluidez **uma vez entre o começo de um turno seu e o começo do próximo**. Anote se já obteve Fluidez nesse intervalo; o limite se renova no começo do seu turno. No combate, o primeiro intervalo vai do início do combate até o começo do seu primeiro turno, inclusive para Passo Guardado.
 
 Você guarda **uma Fluidez por vez**. Se já a possui, outro gatilho não acumula uma segunda nem fica reservado. Esse acontecimento também não consome uma obtenção do intervalo. Sofrer dano não remove Fluidez.
 
@@ -71,7 +71,7 @@ Antes de um ataque com arma ou desarmado, gaste Fluidez para realizá-lo **com v
 
 ## Instante Decisivo
 
-Após rolar o d20, antes de finalizar o ataque, gaste Fluidez para **ampliar sua margem de crítico em 1**, normalmente de 20 para 19–20. Esse mesmo acerto não pode recuperar Fluidez.
+Após rolar o d20 e antes de o alvo escolher entre a Defesa e Bloquear, gaste Fluidez para **ampliar sua margem de crítico em 1**, normalmente de 20 para 19–20. Esse mesmo acerto não pode recuperar Fluidez.
 
 ## Passo Rápido
 
@@ -223,7 +223,7 @@ Durante seu turno, você pode escolher ou trocar seu **Alvo Estudado sem gastar 
 
 **Fluidez + PE · Uma vez por turno seu.**
 
-Depois de confirmar o acerto, antes de rolar o dano, escolha **Destreza ou Inteligência**. Calcule **X = atributo escolhido − 1**, com mínimo de zero, e gaste **Fluidez e X PE**.
+Antes do nível 19, só durante seu turno. Depois de confirmar o acerto, antes de rolar o dano, escolha **Destreza ou Inteligência**. Calcule **X = atributo escolhido − 1**, com mínimo de zero, e gaste **Fluidez e X PE**.
 
 Role os **dados de dano da arma normalmente**. Golpe Cirúrgico não maximiza dados.
 
@@ -235,7 +235,7 @@ O atributo escolhido define o custo normal de PE e a quantidade de dados adicion
 
 O reforço vale somente para aquele ataque e exige que ele possa receber o dano de Canalizar normalmente.
 
-**Restringido.** Aplique o reforço ao dano equivalente de **Estímulo Muscular**, seguindo os mesmos cálculos de custo e quantidade por Destreza ou Inteligência − 1. Os dados adicionais têm o mesmo tamanho dos dados normais de Estímulo Muscular. Em um crítico com Golpe Cirúrgico, dobre tanto os dados normais de Estímulo Muscular quanto os dados adicionais da habilidade.
+**Restrição Celestial sem energia.** Aplique o reforço ao dano equivalente de **Estímulo Muscular**, seguindo os mesmos cálculos de custo e quantidade por Destreza ou Inteligência − 1. Os dados adicionais têm o mesmo tamanho dos dados normais de Estímulo Muscular. Em um crítico com Golpe Cirúrgico, dobre tanto os dados normais de Estímulo Muscular quanto os dados adicionais da habilidade.
 
 > **Exemplo.** Com Destreza 5, Golpe Cirúrgico custa **4 PE e Fluidez** e concede **4 dados adicionais**. Se seu Canalizar normal for `3d4`, uma arma de `1d8` causa **1d8 + atributo do ataque + 7d4**: os `3d4` normais de Canalizar e `4d4` adicionais. Em um crítico que dobre os dados da arma, causa **2d8 + atributo do ataque + 14d4**: os `6d4` normais de Canalizar já dobrados e os `8d4` adicionais também dobrados. Role todos esses dados normalmente. Uma ficha com Inteligência 5 também pode usar esse atributo para obter o mesmo custo e os mesmos 4 dados adicionais.
 
@@ -246,7 +246,7 @@ O reforço vale somente para aquele ataque e exige que ele possa receber o dano 
 
 **Fluidez · Uma vez por turno seu.**
 
-Depois de resolver o acerto, gaste Fluidez. O alvo realiza um **TR Físico** contra:
+Antes do nível 19, só durante seu turno. Depois de resolver o acerto, gaste Fluidez. O alvo realiza um **TR Físico** contra:
 
 **CD = 8 + atributo utilizado no ataque + sua maestria.**
 
@@ -406,7 +406,7 @@ Rajada Marcial só pode ser utilizada com a Ação Bônus concedida por Corpo Tr
 
 **Fluidez · Uma vez por turno seu.**
 
-Depois de acertar um ataque desarmado, gaste Fluidez. O alvo realiza um **TR de Vigor contra a CD do Pugilista**, utilizando o atributo daquele ataque na CD.
+Durante seu turno, depois de acertar um ataque desarmado, gaste Fluidez. O alvo realiza um **TR de Vigor contra a CD do Pugilista**, utilizando o atributo daquele ataque na CD.
 
 Na falha, fica **Lento até o fim do próximo turno dele**.
 
@@ -575,7 +575,7 @@ Durante seu turno, pode realizar **duas manipulações gratuitas de itens, em ve
 
 Ao realizar a **Ação Atacar**, pode gastar **3 PE antes do primeiro ataque** para realizar **dois ataques com armas de uma mão**, em vez do ataque único normalmente disponível. Se outra regra já conceder mais ataques nessa ação, use a maior quantidade; as quantidades não se somam.
 
-Pode combinar ataques corpo a corpo e arremessos, usar a mesma arma ou armas diferentes e atacar a mesma criatura ou criaturas diferentes. Cada ataque é resolvido separadamente, com seu dano e seus requisitos normais. Adicionais de dano permanecem sujeitos às próprias regras.
+O segundo ataque precisa ser corpo a corpo ou um arremesso, e nunca um disparo de arma de fogo ou de besta. Pode combinar ataques corpo a corpo e arremessos, usar a mesma arma ou armas diferentes e atacar a mesma criatura ou criaturas diferentes. Cada ataque é resolvido separadamente, com seu dano e seus requisitos normais. Adicionais de dano permanecem sujeitos às próprias regras.
 
 Sua Ação Bônus permanece disponível. Essa execução não exige Fluidez.
 
@@ -703,7 +703,7 @@ O limite passa a ser **uma recuperação entre o começo de um turno seu e o com
 
 **Uma vez por combate · Fluidez e 12 PE.**
 
-Ao realizar a **Ação Atacar**, pode substituir **um dos seus ataques** por Trajetória Perfeita, utilizando uma **arma de uma mão apropriada para arremesso**. Você precisa ter Fluidez antes da execução e ainda não ter utilizado Lançamento Cruzado, Trajetória de Retorno ou Finta de Retorno naquele turno. Declare o percurso e pague os custos antes de rolar.
+Ao realizar a **Ação Atacar**, pode substituir **um dos seus ataques** por Trajetória Perfeita, utilizando uma **arma de uma mão com Longo Alcance de arremesso**. Você precisa ter Fluidez antes da execução e ainda não ter utilizado Lançamento Cruzado, Trajetória de Retorno ou Finta de Retorno naquele turno. Declare o percurso e pague os custos antes de rolar.
 
 Escolha até **quatro criaturas hostis que você percebe** e a ordem em que a arma passará por elas. O percurso completo pode somar **até 24 m**, incluindo todos os trechos desde sua posição, e pode utilizar até **três pontos de ricochete em superfícies sólidas**. Use esses pontos para mudar a direção da arma. Cada trecho precisa estar livre de obstáculos que impeçam sua passagem. Uma mesma criatura só pode ser atacada uma vez nessa execução.
 

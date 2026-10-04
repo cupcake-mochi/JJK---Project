@@ -208,3 +208,55 @@
 **Depois:** Os treinos entram na criação. Adquira as armas e cumpra os requisitos de cada uma.
 
 **Motivo:** a redação anterior podia sugerir proibição geral de usar armas sem treino. Ajuste editorial solicitado na revisão independente; nenhuma propriedade ou penalidade alterada.
+
+## INC-22 — M decisão do autor
+
+**Antes:** Pode combinar ataques corpo a corpo e arremessos, usar a mesma arma ou armas diferentes e atacar a mesma criatura ou criaturas diferentes.
+
+**Depois:** O segundo ataque precisa ser corpo a corpo ou um arremesso, e nunca um disparo de arma de fogo ou de besta. Pode combinar ataques corpo a corpo e arremessos, usar a mesma arma ou armas diferentes e atacar a mesma criatura ou criaturas diferentes.
+
+**Motivo:** Decisão do Mizuki em 04/10/2026, achado G3-07 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md).
+
+## INC-23 — decisão do autor
+
+**Antes:** Anote se já obteve Fluidez nesse intervalo; o limite se renova no começo do seu turno.
+
+**Depois:** Anote se já obteve Fluidez nesse intervalo; o limite se renova no começo do seu turno. No combate, o primeiro intervalo vai do início do combate até o começo do seu primeiro turno, inclusive para Passo Guardado.
+
+**Motivo:** Decisão do Mizuki em 04/10/2026 (opção A), achado G3-04 (revisao-interfaces/CORRECOES-APLICADAS.md). Segue o limite acrobático, que já começa completo no combate.
+
+## INC-24 — decisão do autor
+
+**Antes:** Após rolar o d20, antes de finalizar o ataque, gaste Fluidez
+
+**Depois:** Após rolar o d20 e antes de o alvo escolher entre a Defesa e Bloquear, gaste Fluidez
+
+**Motivo:** Decisão do Mizuki em 04/10/2026 (opção A), achado G3-05 (revisao-interfaces/CORRECOES-APLICADAS.md). Amarra o uso a um passo da Resolução de Regras gerais.
+
+## INC-25 — decisão do autor
+
+**Antes:** **Fluidez + PE · Uma vez por turno seu.**
+
+Depois de confirmar o acerto, / **Fluidez · Uma vez por turno seu.**
+
+Depois de resolver o acerto, gaste Fluidez. / **Fluidez · Uma vez por turno seu.**
+
+Depois de acertar um ataque desarmado, gaste Fluidez.
+
+**Depois:** **Fluidez + PE · Uma vez por turno seu.**
+
+Antes do nível 19, só durante seu turno. Depois de confirmar o acerto, / **Fluidez · Uma vez por turno seu.**
+
+Antes do nível 19, só durante seu turno. Depois de resolver o acerto, gaste Fluidez. / **Fluidez · Uma vez por turno seu.**
+
+Durante seu turno, depois de acertar um ataque desarmado, gaste Fluidez.
+
+**Motivo:** Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G3-02 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D39).
+
+## INC-26 — decisão do autor
+
+**Antes:** uma **arma de uma mão apropriada para arremesso**
+
+**Depois:** uma **arma de uma mão com Longo Alcance de arremesso**
+
+**Motivo:** Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G3-06 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D40).

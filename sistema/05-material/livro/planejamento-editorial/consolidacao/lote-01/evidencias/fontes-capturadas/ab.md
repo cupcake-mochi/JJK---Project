@@ -105,7 +105,7 @@ Este roteiro usa a criação padrão no **nível 2**. Se a campanha começar em 
 | 2. Origem | Escolha sua história inicial, seus Legados e os treinos concedidos. |
 | 3. Caminho | Escolha sua forma de atuar e sua primeira Trilha. |
 | 4. Capacidades | Prepare técnica, Manejos ou Katas, conforme sua rota. |
-| 5. Equipamento | Receba o uniforme e faça suas compras. |
+| 5. Equipamento | Receba o uniforme, faça as escolhas do Traje e faça suas compras. |
 | 6. Ficha | Calcule os valores, confira escolhas e registre recursos. |
 
 ## Atributos
@@ -205,7 +205,7 @@ Antes da primeira sessão, confiram se o funcionamento descrito sustenta cada ap
 <!-- page:ab-equipamento|Equipamento e valores -->
 # Equipamento e valores
 
-Na criação padrão, você recebe **um Traje 1 e ¥150.000** para comprar os demais itens. Use Equipamento inicial para montar o inventário e conferir acesso, preços de criação e fornecimento de munição.
+Na criação padrão, você recebe **um Traje 1 e ¥150.000** para comprar os demais itens. Registre a situação, o tipo de TR e as perícias do Traje, conforme Trajes, em Equipamento. Use Equipamento inicial para montar o inventário e conferir acesso, preços de criação e fornecimento de munição.
 
 Anote também ferramentas, suprimentos e onde cada coisa fica guardada. Some o Volume do que leva, inclusive o uniforme vestido. Seu limite de carga normal é **5 + Força**. Possuir um item não permite usar uma peça cujos requisitos você não cumpre.
 
@@ -219,7 +219,7 @@ Use a vida inicial e o ganho por nível do seu Caminho. No nível 2, aplique o v
 
 Calcule a Defesa com Destreza, proteção e escudo, conforme as peças que você usa. Respeite o teto de Destreza da proteção. Fontes de proteção que não se acumulam não entram duas vezes.
 
-O deslocamento padrão é **9 m**. Aplique qualquer alteração efetivamente recebida pela ficha. Modos diferentes de movimento, terreno e excesso de carga seguem Movimento.
+O deslocamento padrão é **9 m**. Aplique qualquer alteração efetivamente recebida pela ficha. Modos diferentes de movimento e terreno seguem Movimento. Excesso de carga segue Carga, em Regras gerais.
 
 ## Ataques e testes
 
@@ -328,7 +328,7 @@ Antes da primeira missão, confira suas escolhas com o mestre. Use esta lista ta
 - **Caminho:** características, Trilha e todas as escolhas recebidas no nível inicial.
 - **Capacidades:** rota, aplicações completas, espaços ocupados, custos, requisitos e usos limitados.
 - **Valores:** vida, energia, Integridade, Defesa, deslocamento, carga, Maestria e Refino ou Lapidação.
-- **Inventário:** uniforme, compras, munição, ferramentas, dinheiro restante e locais de armazenamento.
+- **Inventário:** uniforme com a situação, o TR e as perícias do Traje, compras, munição, ferramentas, dinheiro restante e locais de armazenamento.
 
 ## Capacidades na ficha
 

@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "8c0e790f36fdffca4b5c148b7bcdfc2376a7bdcf65b2c5867c7a126c8ac1f887",
+  "sha256_texto": "6b91f45d55c3383b014ac27c2c683bc6341533e63e639fd288634ec4e8529ded",
   "conclusao": "Leitura de autoria e independente concluídas. Três achados corrigidos. Treze páginas visualmente inspecionadas.",
   "comparacao_primaria": "PHB2024local,trechos introdução e criação; introduçãoantiga,pilotor2eretorno do usuário. Estrutura, não redação transplantada.",
   "secoes": [
@@ -147,5 +147,45 @@
       "pdf_visual": "Página aberta e conferida;inspecao-visual.json."
     }
   ],
-  "delta_nominal_final": "DELTA-QA-FINAL.json"
+  "delta_nominal_final": "DELTA-QA-FINAL.json",
+  "revisao_delta_2026_10_04": {
+    "sha256_anterior": "8c0e790f36fdffca4b5c148b7bcdfc2376a7bdcf65b2c5867c7a126c8ac1f887",
+    "sha256_atual": "6778c50063b3549bce9e8e5c02961ec2aec0a803ceff75844e68fe9d7729bd1e",
+    "mudancas": [
+      "C08d"
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.json",
+    "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana.",
+    "conferido": "Trechos trocados relidos: nomes, remissões ou regra decidida pelo autor; títulos e seções inalterados."
+  },
+  "revisao_delta_2026_10_04_quinta_passada": {
+    "sha256_anterior": "6778c50063b3549bce9e8e5c02961ec2aec0a803ceff75844e68fe9d7729bd1e",
+    "sha256_atual": "6b91f45d55c3383b014ac27c2c683bc6341533e63e639fd288634ec4e8529ded",
+    "mudancas": [
+      {
+        "codigo": "D41",
+        "achado": "G4-11",
+        "secao": "ab-criacao",
+        "antes": "| 5. Equipamento | Receba o uniforme e faça suas compras. |",
+        "depois": "| 5. Equipamento | Receba o uniforme, faça as escolhas do Traje e faça suas compras. |"
+      },
+      {
+        "codigo": "D41",
+        "achado": "G4-11",
+        "secao": "ab-equipamento",
+        "antes": "Na criação padrão, você recebe **um Traje 1 e ¥150.000** para comprar os demais itens.",
+        "depois": "Na criação padrão, você recebe **um Traje 1 e ¥150.000** para comprar os demais itens. Registre a situação, o tipo de TR e as perícias do Traje, conforme Trajes, em Equipamento."
+      },
+      {
+        "codigo": "D41",
+        "achado": "G4-11",
+        "secao": "ab-conferencia",
+        "antes": "- **Inventário:** uniforme, compras,",
+        "depois": "- **Inventário:** uniforme com a situação, o TR e as perícias do Traje, compras,"
+      }
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+    "conferido": "Trechos trocados relidos: decisões do autor de 04/10/2026 sobre os 18 achados restantes da revisão de interfaces (D25 a D41). Cada frase nova cita a seção dona pelo nome e não copia a regra de outro capítulo. O restante do texto é idêntico e conserva a leitura anterior."
+  }
 }

@@ -126,8 +126,8 @@ Conclusão e transferência
 Uma entidade nova começa com vida máxima. O shikigami fica recolhido em seu talismã, sem carga
 adiantada; o corpo permanece inativo onde foi construído. A conclusão não manifesta, ativa ou
 transporta a entidade. Antes de usá-la, siga Invocações em campo e seus limites de controle. Um corpo
-que exceda seu limite permanece no mundo sem controle até haver espaço; fabricar ou receber outro não
-amplia esse limite.
+que exceda seu limite permanece no mundo sem controle e volta conforme Invocações em campo;
+fabricar ou receber outro não amplia esse limite.
 O talismã ocupa 0,5 de Volume. Transporte, carga de energia e recuperação seguem aquele capítulo. Os
 materiais escolhidos não concedem proteção, resistência, imunidade ou habilidade além da ficha
 conferida. Equipar a criatura também exige obter as peças usadas.

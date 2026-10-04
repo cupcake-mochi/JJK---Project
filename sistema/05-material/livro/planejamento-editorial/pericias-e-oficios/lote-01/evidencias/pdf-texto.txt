@@ -143,7 +143,7 @@ PERÍCIAS E OFÍCIOS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 4
 Investigação e conhecimento
-As perícias desta página usam Inteligência. Elas permitem examinar indícios e recorrer ao que o
+As perícias desta seção usam Inteligência. Elas permitem examinar indícios e recorrer ao que o
 personagem aprendeu. Uma resposta depende dos sinais acessíveis e do conhecimento disponível.
 Investigação
 Use Investigação para vasculhar documentos, examinar uma cena e relacionar pistas. Ela pode revelar
@@ -185,7 +185,7 @@ PERÍCIAS E OFÍCIOS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 5
 Ambiente e saúde
-As perícias desta página usam Inteligência. Servem para compreender o ambiente, os seres vivos e os
+As perícias desta seção usam Inteligência. Servem para compreender o ambiente, os seres vivos e os
 equipamentos encontrados durante uma missão.
 Medicina
 Use Medicina para examinar ferimentos, sintomas e sinais do funcionamento do corpo. Uma
@@ -230,9 +230,8 @@ PERÍCIAS E OFÍCIOS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 6
 Percepção e influência
-As perícias desta página usam Essência. Elas cobrem percepção, expressão e contato com outras
-pessoas. Interações sociais dependem do pedido, da abordagem e do que a outra pessoa está disposta a
-fazer.
+As perícias desta seção usam Essência. Elas cobrem percepção, expressão e contato com outras pessoas.
+Interações sociais dependem do pedido, da abordagem e do que a outra pessoa está disposta a fazer.
 Sentir Energia
 Use Sentir Energia para procurar ou examinar sinais de energia amaldiçoada que sua capacidade de
 percepção alcance. Energia e vestígios determina a ação, as distâncias, os obstáculos e as informações

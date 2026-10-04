@@ -168,7 +168,7 @@ Ter os PE não basta: você precisa de uma habilidade que remova condições e r
 
 ## Lento
 
-Seu deslocamento cai pela metade e você não pode usar Ação Bônus. Converter outra ação em Bônus não permite usá-la enquanto essa proibição durar.
+Seu deslocamento cai pela metade e você não pode usar Ação Bônus. Distâncias concedidas por capacidades, como a de Passo, também caem pela metade. Converter outra ação em Bônus não permite usá-la enquanto essa proibição durar.
 
 ## Guarda Aberta
 
@@ -318,7 +318,7 @@ Energia temporária paga custos de PE permitidos, mas não aumenta seus PE máxi
 <!-- page:zero|Vida a zero -->
 # Vida a zero
 
-Ao chegar a **zero de vida**, você está **Morrendo**. Escolha imediatamente **Aguentar** ou **Insistir**. Estas regras são para personagens jogadores. Inimigos e entidades seguem suas próprias regras de derrota.
+Ao chegar a **zero de vida**, você está **Morrendo**. Resolva primeiro as capacidades disparadas pela própria queda; em seguida, escolha **Aguentar** ou **Insistir**. Se uma dessas capacidades encerrar a queda, não há escolha. Estas regras são para personagens jogadores. Entidades seguem Invocações em campo. Um inimigo a zero de vida ou de Integridade é derrotado, e o mestre descreve o desfecho, como morte, fuga ou exorcismo, salvo uma regra da ficha dele.
 
 | Escolha | Consequência |
 |---|---|

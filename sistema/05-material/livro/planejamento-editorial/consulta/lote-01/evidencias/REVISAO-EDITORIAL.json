@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "a4d4b68bbed3c62efdc849ab32a08350694f6653bdeea08ec71874b5aada4980",
+  "sha256_texto": "279351e084412734977e739a88b06a4142f452d02a21e3cb4c229c0ba7220115",
   "secoes": [
     {
       "ancora": "consulta-glossario-1",
@@ -331,5 +331,62 @@
       "autor": "maxima",
       "tipo": "autorrevisao-contextual"
     }
-  ]
+  ],
+  "revisao_delta_2026_10_04": {
+    "sha256_anterior": "a4d4b68bbed3c62efdc849ab32a08350694f6653bdeea08ec71874b5aada4980",
+    "sha256_atual": "b77230eae945ddb15074bc402faeec98e282471e69485fec7f4964bea7ef83a6",
+    "mudancas": [
+      "C03",
+      "C05"
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.json",
+    "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana.",
+    "conferido": "Trechos trocados relidos: nomes, remissões ou regra decidida pelo autor; títulos e seções inalterados."
+  },
+  "revisao_delta_2026_10_04_decisoes": {
+    "sha256_anterior": "b77230eae945ddb15074bc402faeec98e282471e69485fec7f4964bea7ef83a6",
+    "sha256_atual": "506bb779ba4772add62d7a1d05a399d59739a13bb0a882b5345e5c7e9641548e",
+    "mudancas": [
+      {
+        "codigo": "D13",
+        "achado": "G2-09, G4-12, G5-11",
+        "secao": "consulta-indice-1 a 11",
+        "antes": "268 verbetes",
+        "depois": "286 verbetes: Auge, Carregar (Restrição), Desligada, Discreta, Embainhada, Escudo, Manutenção (entidades), Ordens pendentes, Recarregar, Recolher, Regra Própria, Religar, Retorno, Revestimento, Sacar e guardar, Segura, Talismã e Traje. As 11 páginas foram recompostas com 26 linhas cada, em ordem alfabética sem acento; os títulos de faixa mudaram a partir de E."
+      }
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+    "conferido": "Trechos trocados relidos: decisões do autor de 04/10/2026, retirada de projeções pedida por ele ou verbetes de índice. O restante do texto é idêntico e conserva a leitura anterior."
+  },
+  "revisao_delta_2026_10_04_quinta_passada": {
+    "sha256_anterior": "506bb779ba4772add62d7a1d05a399d59739a13bb0a882b5345e5c7e9641548e",
+    "sha256_atual": "279351e084412734977e739a88b06a4142f452d02a21e3cb4c229c0ba7220115",
+    "mudancas": [
+      {
+        "codigo": "D41",
+        "achado": "G4-11",
+        "secao": "consulta-ficha-repertorio",
+        "antes": "| Item e quantidade | Volume total | Situação e recursos |",
+        "depois": "| Item e quantidade | Volume total | Posição e recursos |"
+      },
+      {
+        "codigo": "D41",
+        "achado": "G4-11",
+        "secao": "consulta-ficha-repertorio",
+        "antes": "**Volume carregado / limite:** ______ / ______ **Dinheiro:** __________________",
+        "depois": "**Volume carregado / limite:** ______ / ______ **Dinheiro:** __________________\n\n**Traje — situação, TR e perícias:** ________________________________________"
+      },
+      {
+        "codigo": "D41",
+        "achado": "G4-11",
+        "secao": "consulta-ficha-repertorio",
+        "antes": "| __________________ | ______ | Vestido, empunhado ou guardado: __________________ |",
+        "depois": "| __________________ | ______ | Vestido, empunhado ou guardado: __________ |"
+      }
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+    "conferido": "Trechos trocados relidos: decisões do autor de 04/10/2026 sobre os 18 achados restantes da revisão de interfaces (D25 a D41). Cada frase nova cita a seção dona pelo nome e não copia a regra de outro capítulo. O restante do texto é idêntico e conserva a leitura anterior."
+  }
 }

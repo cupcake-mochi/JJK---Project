@@ -119,6 +119,13 @@
       "depois": "não religa um corpo na condição Desligada.",
       "motivo": "Correção localizada aprovada pela raiz após auditoria de remissões; mantém mecânica e valores.",
       "tipo": "editorial"
+    },
+    {
+      "id": "FAB-REV-01",
+      "tipo": "remissão de decisão do autor",
+      "antes": "Um corpo que exceda seu limite permanece no mundo sem controle até haver espaço; fabricar ou receber outro não amplia esse limite.",
+      "depois": "Um corpo que exceda seu limite permanece no mundo sem controle e volta conforme **Invocações em campo**; fabricar ou receber outro não amplia esse limite.",
+      "motivo": "Decisão do Mizuki em 04/10/2026, achado G2-03 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md)."
     }
   ]
 }

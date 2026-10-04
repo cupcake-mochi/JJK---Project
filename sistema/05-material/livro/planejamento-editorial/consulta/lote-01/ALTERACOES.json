@@ -210,6 +210,20 @@
       "depois": "Definição inclui Talentos, Aptidões e Bênçãos e remete à aquisição de cada entrada. Os dois aliases usam Aviso, no singular.",
       "motivo": "Leitura independente da raiz apontou suficiência conceitual e grafia histórica. Nenhuma mudança em requisitos ou valores.",
       "tipo": "correcao-editorial"
+    },
+    {
+      "id": "R23-31",
+      "tipo": "remissão de índice",
+      "antes": "268 verbetes no índice, em 11 páginas.",
+      "depois": "286 verbetes: entram Auge, Carregar (Restrição), Desligada, Discreta, Embainhada, Escudo, Manutenção (entidades), Ordens pendentes, Recarregar, Recolher, Regra Própria, Religar, Retorno, Revestimento, Sacar e guardar, Segura, Talismã e Traje. As 11 páginas foram recompostas com 26 linhas cada.",
+      "motivo": "Achados G2-09, G4-12 e G5-11 (revisao-interfaces/CORRECOES-APLICADAS.md): completude do índice, sem decisão de regra."
+    },
+    {
+      "id": "R23-32",
+      "tipo": "decisão do autor",
+      "antes": "| Item e quantidade | Volume total | Situação e recursos | / **Volume carregado / limite:** ______ / ______ **Dinheiro:** __________________ / | __________________ | ______ | Vestido, empunhado ou guardado: __________________ |",
+      "depois": "| Item e quantidade | Volume total | Posição e recursos | / **Volume carregado / limite:** ______ / ______ **Dinheiro:** __________________\n\n**Traje — situação, TR e perícias:** ________________________________________ / | __________________ | ______ | Vestido, empunhado ou guardado: __________ |",
+      "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G4-11 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D41)."
     }
   ]
 }

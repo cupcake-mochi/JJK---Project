@@ -161,6 +161,13 @@
       "depois": "Durante a sessão, consulte Regras gerais para testes, movimento e ataques, Dano e recuperação para as consequências e Equipamento para os itens.",
       "motivo": "Correção localizada aprovada pela raiz após auditoria de remissões; mantém mecânica e valores.",
       "tipo": "editorial"
+    },
+    {
+      "id": "AB24",
+      "tipo": "decisão do autor",
+      "antes": "| 5. Equipamento | Receba o uniforme e faça suas compras. | / Na criação padrão, você recebe **um Traje 1 e ¥150.000** para comprar os demais itens. / - **Inventário:** uniforme, compras,",
+      "depois": "| 5. Equipamento | Receba o uniforme, faça as escolhas do Traje e faça suas compras. | / Na criação padrão, você recebe **um Traje 1 e ¥150.000** para comprar os demais itens. Registre a situação, o tipo de TR e as perícias do Traje, conforme Trajes, em Equipamento. / - **Inventário:** uniforme com a situação, o TR e as perícias do Traje, compras,",
+      "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G4-11 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D41)."
     }
   ]
 }

@@ -492,5 +492,75 @@
     ],
     "impacto_ou_limite": "Treinado sem modificadores: 65%, 75% e 85% nas três dificuldades. Preservados vida acima de zero, uma tentativa por corpo/descanso, recuperação de metade e proibição de religar por reparo. Não concede cura comum a corpo nem procedimento de socorro do personagem jogador.",
     "status": "candidata; não publicada"
+  },
+  {
+    "id": "R11-50",
+    "tipo": "M decisão do autor",
+    "antes": "Atacar, Correr, Desengajar, Esquivar, Esconder, Ajudar, Vasculhar, Estudar e Usar um Objeto seguem os procedimentos de **Ações**.",
+    "depois": "Atacar, Correr, Desengajar, Esquivar, Esconder, Ajudar, Vasculhar, Estudar e Usar um Objeto seguem os procedimentos de **Ações**.\n\nPara Atacar, num revide ou num ataque comum concedido, a entidade usa a **básica ofensiva de Classe 0** da ficha ou uma **arma que ela empunhe**. O acerto com arma está em **Construir invocações — Acerto e dificuldade**. Sem nenhuma das duas, ela não ataca.",
+    "motivo": "Decisão do Mizuki em 04/10/2026, achado G2-04 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md). O acerto com arma segue a peça 15 (a arma muda o acerto e nunca a CD)."
+  },
+  {
+    "id": "R11-51",
+    "tipo": "M decisão do autor",
+    "antes": "Corpos adicionais precisam ser deixados sem seu controle até haver espaço. Não desaparecem nem são destruídos por essa escolha.",
+    "depois": "Corpos adicionais precisam ser deixados sem seu controle. Não desaparecem nem são destruídos por essa escolha. Um corpo deixado assim volta ao seu controle quando uma vaga se abre porque um corpo controlado foi destruído ou porque seu total permitido aumentou. Deixar um corpo sem controle de propósito não abre vaga para trazer outro de volta.",
+    "motivo": "Decisão do Mizuki em 04/10/2026, achado G2-03 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md)."
+  },
+  {
+    "id": "R11-52",
+    "tipo": "retirada a pedido do autor",
+    "antes": "Uma Forma de cura usa 19d8, com média de 85,5 PV antes dos limites aplicáveis.",
+    "depois": "Uma Forma de cura usa 19d8.",
+    "motivo": "Pedido do autor em 04/10/2026 (\"Pode remover, qualquer coisa semelhante tbm\"): conta de projetista retirada do livro do jogador (revisao-interfaces/CORRECOES-APLICADAS.md, D19 a D24). A regra fica."
+  },
+  {
+    "id": "R11-53",
+    "tipo": "decisão do autor",
+    "antes": "A zero de vida, a entidade para de atuar. Se puder ser recolhida, sai de campo. Caso contrário, permanece no lugar como **Desligada**. Confira primeiro se o dano a destruiu.",
+    "depois": "A zero de vida, a entidade para de atuar. Se puder ser recolhida, sai de campo. Caso contrário, permanece no lugar como **Desligada**. Confira primeiro se o dano a destruiu.\n\n**Integridade a zero.** Uma entidade com alma que chega a zero de Integridade cai sem ser destruída, como a zero de vida. O retorno exige pelo menos 1 de Integridade, que volta pelo descanso longo ou por uma capacidade que restaure Integridade. Os estágios de Integridade também valem para ela: o PE adicional e o teto de Classe se aplicam às especiais que ela executa.",
+    "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G1-03 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D25)."
+  },
+  {
+    "id": "R11-54",
+    "tipo": "decisão do autor",
+    "antes": "Corpos amaldiçoados não são recolhidos, sejam de técnica ou de criação. Ficam **ativos ou inativos** no mundo. A zero de vida, passam a Desligada, que tem outras regras.",
+    "depois": "Corpos amaldiçoados não são recolhidos, sejam de técnica ou de criação. Ficam **ativos ou inativos** no mundo. A zero de vida, passam a Desligada, que tem outras regras. Uma domada sem meio de recolhimento segue este modo e entra no total abaixo.",
+    "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G2-02 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D26)."
+  },
+  {
+    "id": "R11-55",
+    "tipo": "decisão do autor",
+    "antes": "Uma especial que exija Concentração é sustentada pela entidade executora. Ela usa seu próprio TR quando sofre dano, seguindo Concentração.",
+    "depois": "Uma especial que exija Concentração é sustentada pela entidade executora. Ela usa seu próprio TR quando sofre dano, seguindo Concentração. Recolher, desativar ou cair a zero encerra essa concentração.",
+    "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G2-05 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D27)."
+  },
+  {
+    "id": "R11-56",
+    "tipo": "decisão do autor",
+    "antes": "Na troca, uma entidade sai e outra entra pagando a Bônus e o PE da entrada. A substituta ocupa o lugar de quem saiu. / Respeite espaço, teto de ativos e recursos já gastos. O retorno não fornece básica.",
+    "depois": "Na troca, uma entidade sai e outra entra pagando a Bônus e o PE da entrada. A substituta ocupa o lugar de quem saiu. Ela pode ser uma entidade caída: nesse caso, pague o retorno no lugar da entrada. / Respeite espaço, teto de ativos e recursos já gastos. O retorno não cria uma básica própria. Feito numa troca, ainda permite receber a básica transferida.",
+    "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G2-06 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D28)."
+  },
+  {
+    "id": "R11-57",
+    "tipo": "decisão do autor",
+    "antes": "Transportar carga adicional ou personagens exige uma característica própria, compatível com a definição da entidade, que ocupe **um de seus talentos**. Armazenamento usa capacidade de **5 + Força da entidade em Volume**. / Uma Força alta não oferece armazenamento por si. Uma entidade de Força 3 com esse talento comporta 8 de Volume. Sem o talento, fica limitada ao que pode segurar e ao equipamento que pode vestir.",
+    "depois": "Uma entidade segue o limite geral de carga de **5 + Força**, em Volume: o que ela veste, empunha ou leva conta nele. Transportar carga adicional ou personagens exige uma característica própria, compatível com a definição da entidade, que ocupe **um de seus talentos**. O armazenamento e os passageiros cabem nesse mesmo limite. / Uma Força alta não oferece armazenamento por si. Uma entidade de Força 3 com esse talento comporta 8 de Volume, somando o que veste e empunha. Sem o talento, fica limitada ao que pode segurar e ao equipamento que pode vestir, dentro do mesmo limite.",
+    "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G2-07, G4-10 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D29)."
+  },
+  {
+    "id": "R11-58",
+    "tipo": "decisão do autor",
+    "antes": "No seu turno, uma entidade pode gastar a básica para preparar uma ação que caiba na tarefa recebida.",
+    "depois": "No seu turno, uma entidade pode gastar a básica para preparar uma ação que caiba na tarefa recebida. Ela também pode preparar um deslocamento, que usa o Movimento que ainda lhe resta e não concede metros novos.",
+    "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G2-08 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D30)."
+  },
+  {
+    "id": "R11-59",
+    "tipo": "decisão do autor",
+    "antes": "devolvê-la à reserva e trazer o cão / O mesmo acompanhamento impede que a reserva se torne um local de recuperação sem custo. / substitua-a por uma reserva apropriada / A reserva não permite sacar equipamento de uma criatura ausente.",
+    "depois": "recolhê-la e trazer o cão / O mesmo acompanhamento impede que ficar recolhida se torne um meio de recuperação sem custo. / substitua-a por uma invocação recolhida apropriada / Estar recolhida não permite sacar equipamento de uma criatura ausente.",
+    "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G2-10 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D31)."
   }
 ]

@@ -4,7 +4,7 @@ Diretriz expressa de03/10/2026: evitar títulos “Como ler...” e não repetir
 
 `conferir_editorial.py` detecta títulos Markdown/Setext/HTML, reconhece nomes cadastrados inclusive com acentos ou quebra de linha, e procura sequências de24 palavras copiadas de prosa dos Caminhos. Arquivo sem domínio cadastrado é erro. O diagnóstico informa arquivo, linha quando identificável, termo e dono.
 
-A chamada `assert_exportable(manuscrito)` foi ligada aos três geradores correntes desta rodada, antes da construção do PDF. Exige também `evidencias/LOCALIZACAO-EDITORIAL.json` com hash do texto e declaração de revisão contextual. Um texto alterado invalida essa leitura. Não basta mudar o título e conservar uma explicação alheia sem nome.
+A chamada `assert_exportable(manuscrito)` foi ligada aos três geradores correntes desta rodada, antes da construção do PDF. Exige também o `LOCALIZACAO-EDITORIAL.json` da pasta de evidências de cada unidade, com hash do texto e declaração de revisão contextual. Um texto alterado invalida essa leitura. Não basta mudar o título e conservar uma explicação alheia sem nome.
 
 ## Execução
 

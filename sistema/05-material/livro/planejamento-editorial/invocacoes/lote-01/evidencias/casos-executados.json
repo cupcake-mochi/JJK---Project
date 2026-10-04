@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "sha256_texto": "297d96084502eb65780b9ed2ac4f7e121a235cfdbb6e41db254f980e55393dcd",
+  "sha256_texto": "c0482965c234fc289822b26be94afaadbc0743c515166fa308fe8ee065d3711b",
   "casos": [
     {
       "id": "troca-nao-duplica-basica-nem-movimento",

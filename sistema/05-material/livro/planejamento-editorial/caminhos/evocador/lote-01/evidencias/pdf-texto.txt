@@ -1133,9 +1133,9 @@ requisitos, aplicando a orientação posterior normal. As demais entradas feitas
 próprios procedimentos.
 Mudar a composição
 Uma invocação ferida já não oferece as capacidades de que você precisa. Na abertura do turno,
-substitua-a por uma reserva apropriada e pague os PE dessa entrada. A nova criatura assume o saldo de
-básica elegível. Em seguida, escolha os aprimoramentos considerando a nova composição. Sua Bônus
-permanece disponível para outra utilização permitida.
+substitua-a por uma invocação recolhida apropriada e pague os PE dessa entrada. A nova criatura
+assume o saldo de básica elegível. Em seguida, escolha os aprimoramentos considerando a nova
+composição. Sua Bônus permanece disponível para outra utilização permitida.
 
 
 PÁGINA 32

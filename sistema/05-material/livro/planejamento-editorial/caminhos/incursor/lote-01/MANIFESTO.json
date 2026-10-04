@@ -1,23 +1,23 @@
 {
-  "estado": "Inventário atual após integração; provas individuais são históricas",
-  "sha256_texto": "bb29c37e9abc8f4b031b530671d3bcf3f67b04bd07600d67398f7440bf33a244",
+  "estado": "Inventário atual em 04/10/2026; a prova individual corresponde ao texto atual e passou no conferir.py. O PDF que vale para leitura é o livro completo.",
+  "sha256_texto": "f611d4df6ac364a9655e7531f0927a5ecf924555e1097bd402db6db45b7a2513",
   "pdf_vigente": "consolidacao/lote-01/output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
-  "sha256_pdf_vigente": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8",
+  "sha256_pdf_vigente": "4ae5931dc24a7ffda17d62460a6a28c9a834d6805fc5e53f7004cd40bb25fae1",
   "arquivos": [
     {
       "arquivo": "ALTERACOES.json",
-      "sha256": "af86f2848cb5d8727f55289361cd9f750952adae34f59071351af995208e7f5d",
-      "bytes": 9350
+      "sha256": "7843f343a662cd5869433ad95081b879263925ad47bf2b84d04bfb287cc1c564",
+      "bytes": 12281
     },
     {
       "arquivo": "ALTERACOES.md",
-      "sha256": "8dfe5fe75a377397d1b6dfa47bc9086cd90739742bcff3bd50995f6511a11d4a",
-      "bytes": 7838
+      "sha256": "fab4777728c25cb78115fb8aa1b653a16ecb2992e9bd2b269fe11b327a561d70",
+      "bytes": 10487
     },
     {
       "arquivo": "CONFERENCIA.json",
-      "sha256": "b12fab6f3f2bcaa73062cab0203442e11e316ec3b6cfb7e2f19d03e33625a660",
-      "bytes": 28941
+      "sha256": "efd112380c0d69d66b320ab40410579faa41a06478e7193cfc88151c2768dfae",
+      "bytes": 29124
     },
     {
       "arquivo": "ESCOPO-E-FONTES.md",
@@ -36,8 +36,8 @@
     },
     {
       "arquivo": "INCURSOR.md",
-      "sha256": "bb29c37e9abc8f4b031b530671d3bcf3f67b04bd07600d67398f7440bf33a244",
-      "bytes": 50956
+      "sha256": "f611d4df6ac364a9655e7531f0927a5ecf924555e1097bd402db6db45b7a2513",
+      "bytes": 51348
     },
     {
       "arquivo": "LEIA-ME.md",
@@ -61,8 +61,8 @@
     },
     {
       "arquivo": "VALIDADORES.json",
-      "sha256": "d337dade90386ecf043cea98d2a057faa74af2459cd6002f2ddfad0339b97fe0",
-      "bytes": 6811
+      "sha256": "0c53162b3df1c9e0d6ef99b74759bd997ff6f656b106707ca854cd412f0804ed",
+      "bytes": 9093
     },
     {
       "arquivo": "auditar.py",
@@ -101,8 +101,8 @@
     },
     {
       "arquivo": "evidencias/LOCALIZACAO-EDITORIAL.json",
-      "sha256": "57464d207439d7c5154a78924dd6c4e963693daa2b334f40ba6d5130362be622",
-      "bytes": 2111
+      "sha256": "a8e256e16476de5cdc2b6683d80d1a6565bb558b54dbdc5dea342d4219e62a43",
+      "bytes": 6876
     },
     {
       "arquivo": "evidencias/PAGINAS-E-FONTES.json",
@@ -126,8 +126,8 @@
     },
     {
       "arquivo": "evidencias/REVISAO-EDITORIAL.json",
-      "sha256": "af3eb717971b89e3b12da8e150a5760ecd5896b4231503cf6eddd4bc26fae7a4",
-      "bytes": 17803
+      "sha256": "e20486010eab548bc9f24b4efa41ae15c65a681f48034b992044cfb1d7f925a3",
+      "bytes": 22159
     },
     {
       "arquivo": "evidencias/REVISAO-INDEPENDENTE-RAIZ.json",
@@ -151,7 +151,7 @@
     },
     {
       "arquivo": "evidencias/auditoria-numerica.json",
-      "sha256": "872e07b385f38d62390f55f8835ac726713f8e2414e6359873c4d332cda287ef",
+      "sha256": "14604c48f2ac4fd97dcd34993587dd2d26fd1bdbff910eb436d487cc9ae4b352",
       "bytes": 1217
     },
     {
@@ -181,12 +181,12 @@
     },
     {
       "arquivo": "evidencias/inspecao-visual.json",
-      "sha256": "820393110dbdd82ed875c5db5fa486c5fcf3c3f4f5fac0d8712c23f84773d083",
-      "bytes": 15691
+      "sha256": "b3e370079a08b69fbe59485386510521a1a8e52a5be13d38071484d0ca22788d",
+      "bytes": 18769
     },
     {
       "arquivo": "evidencias/pdf-estrutura.json",
-      "sha256": "029dbbecf35f611ddf2b86db0c261fbfbd14c107c5be317ee346c9fe0322c938",
+      "sha256": "57b80dcda81a540f17516ce08ff342ddfc3fe9824915ae280267694d42389f0a",
       "bytes": 385
     },
     {
@@ -196,7 +196,7 @@
     },
     {
       "arquivo": "evidencias/regras-verificadas.json",
-      "sha256": "7424d2115bc2d0c184346907ef140bb2fad9c632b76c7a071c93242af5727bfb",
+      "sha256": "88d43860079b7c9ee06f1ad0d220c7fa1fb7b89a1135b283bfdb67c54af1813a",
       "bytes": 29627
     },
     {
@@ -213,7 +213,91 @@
       "arquivo": "gerar_pdf.py",
       "sha256": "f2087bcb10e691a78937bc44049270a7827754dc106da1e8b4b6f76e9ed58405",
       "bytes": 8335
+    },
+    {
+      "arquivo": "output/pdf/Projeto-M-Incursor-Proposta-01.pdf",
+      "sha256": "3395250370e1fe3c7357b1fcc43165d7db23ab3e92776c98a169cf22d2c1fb06",
+      "bytes": 112791
+    },
+    {
+      "arquivo": "evidencias/COMPARACAO-VISUAL-2026-10-04-decisoes.json",
+      "sha256": "3bfb2b673832b392e46703f682b3f52e2239ee7f7813455d4f460203f981c914",
+      "bytes": 657
+    },
+    {
+      "arquivo": "evidencias/COMPARACAO-VISUAL-2026-10-04.json",
+      "sha256": "b2ed87f2f0a2af168f9830970db3393800245eab82eabf56c504a6fb9ccce3e1",
+      "bytes": 487
+    },
+    {
+      "arquivo": "evidencias/COMPARACAO-VISUAL-2026-10-04-quinta.json",
+      "sha256": "75d844d8b886d928250f628b6952f855a04c468df3fd61cffada2bca06a8f9e6",
+      "bytes": 681
     }
   ],
-  "limite": "Inventário de integridade não equivale a reexecutar testes. Consulte VALIDADORES e FECHAMENTO-INTEGRACAO."
+  "limite": "Inventário de integridade não equivale a reexecutar testes. Consulte VALIDADORES e FECHAMENTO-INTEGRACAO.",
+  "sha256_pdf_individual": "3395250370e1fe3c7357b1fcc43165d7db23ab3e92776c98a169cf22d2c1fb06",
+  "atualizacao_2026_10_04": {
+    "arquivos_com_hash_novo": [
+      "ALTERACOES.json",
+      "ALTERACOES.md",
+      "CONFERENCIA.json",
+      "INCURSOR.md",
+      "VALIDADORES.json",
+      "evidencias/LOCALIZACAO-EDITORIAL.json",
+      "evidencias/REVISAO-EDITORIAL.json",
+      "evidencias/auditoria-numerica.json",
+      "evidencias/inspecao-visual.json",
+      "evidencias/pdf-estrutura.json",
+      "evidencias/regras-verificadas.json"
+    ],
+    "arquivos_acrescentados": [
+      "output/pdf/Projeto-M-Incursor-Proposta-01.pdf",
+      "evidencias/COMPARACAO-VISUAL-2026-10-04-decisoes.json",
+      "evidencias/COMPARACAO-VISUAL-2026-10-04.json"
+    ],
+    "arquivos_que_nao_existem_mais": [],
+    "motivo": "Fechamento da cadeia de evidência do livro de 382 páginas (item 2 da fila). O auditor global V15 exige que o manifesto indexe texto, PDF individual, VALIDADORES e CONFERENCIA com os hashes atuais; o fechamento da integração de 03/10 tinha tirado os PDFs individuais do índice.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "atualizacao_2026_10_04_quarta_passada": {
+    "arquivos_com_hash_novo": [
+      "VALIDADORES.json"
+    ],
+    "arquivos_acrescentados": [],
+    "arquivos_que_nao_existem_mais": [],
+    "motivo": "Quarta passada de 04/10/2026 (D18 a D24): Expressão da técnica na Sem Técnica e contas de projetista retiradas, ou registro que acompanha o livro regerado (VALIDADORES aponta para o PDF vigente).",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "atualizacao_2026_10_04_pendencias": {
+    "arquivos_com_hash_novo": [
+      "VALIDADORES.json"
+    ],
+    "arquivos_acrescentados": [],
+    "arquivos_que_nao_existem_mais": [],
+    "motivo": "Pendências de manutenção de 04/10/2026: auditor que preserva os blocos revisao_delta ou ordena conjuntos ao gravar evidência, ou VALIDADORES apontando para o PDF vigente depois da nova paginação de tabelas e títulos. Nenhum texto mudou.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "atualizacao_2026_10_04_quinta_passada": {
+    "arquivos_com_hash_novo": [
+      "ALTERACOES.json",
+      "ALTERACOES.md",
+      "CONFERENCIA.json",
+      "INCURSOR.md",
+      "VALIDADORES.json",
+      "evidencias/LOCALIZACAO-EDITORIAL.json",
+      "evidencias/REVISAO-EDITORIAL.json",
+      "evidencias/auditoria-numerica.json",
+      "evidencias/inspecao-visual.json",
+      "evidencias/pdf-estrutura.json",
+      "evidencias/regras-verificadas.json",
+      "output/pdf/Projeto-M-Incursor-Proposta-01.pdf"
+    ],
+    "arquivos_acrescentados": [
+      "evidencias/COMPARACAO-VISUAL-2026-10-04-quinta.json"
+    ],
+    "arquivos_que_nao_existem_mais": [],
+    "motivo": "Quinta passada de 04/10/2026 (D25 a D41): decisões do autor sobre os 18 achados restantes, ou VALIDADORES apontando para o PDF vigente.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  }
 }

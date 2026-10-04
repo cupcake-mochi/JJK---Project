@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "3ff14332800456da87ee8c49fa9648596003e332291823abe24dcf8fa5afe785",
+  "sha256_texto": "61f9e65fdfdb59517c710fb6aa6e0e19631823212f3155572b40870c3b2670ff",
   "titulos_revisto": true,
   "sem_explicacao_alheia": true,
   "vocabulario_revisto": true,
@@ -7,5 +7,17 @@
   "revisor": "Agente principal; leitura integral dos rascunhos A/B/C e abertura antes da montagem",
   "notas": "Títulos diretos por Família/função; nenhum poder de Caminho reexplicado. Nomes atuais preservados para revisão global posterior.",
   "delta_nominal_final": "DELTA-QA-FINAL.json",
-  "concordancia_final": "Reserva Profunda: ativada→ativado, após renome para Talento; efeito intacto."
+  "concordancia_final": "Reserva Profunda: ativada→ativado, após renome para Talento; efeito intacto.",
+  "revisao_delta_2026_10_04": {
+    "sha256_revisado": "3ff14332800456da87ee8c49fa9648596003e332291823abe24dcf8fa5afe785",
+    "texto_revisado": "consolidacao/lote-01/evidencias/antes-fechamento-integracao/fontes/catalogo/lote-01/CATALOGO.md",
+    "sha256_main": "6d51bf56cfdc5a6c42d75f05e2759ad4ee6dbbd0beb1cc31cf40a3c9e141b39b",
+    "delta_fechamento_integracao": "Entre o texto revisado e a main só mudaram remissões de posição (\"nesta página\", \"na próxima página\") para \"nesta seção\" ou links com o título da seção. Nenhuma regra, título ou nome mudou.",
+    "correcoes": [
+      "C08e"
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.json",
+    "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana.",
+    "conferido": "As duas parcelas do delta foram lidas linha a linha: as remissões do fechamento e as correções e decisões desta rodada. Nenhuma regra alheia reproduzida, nenhum título alterado. Todos os achados E002 coincidem em termo e trecho com excecoes_localizacao já revisadas, e o vocabulário não acusa nada."
+  }
 }

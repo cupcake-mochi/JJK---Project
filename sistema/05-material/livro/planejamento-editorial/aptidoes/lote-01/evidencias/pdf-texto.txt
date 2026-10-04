@@ -38,45 +38,7 @@ progressão, incluindo +1 de Refino, até o limite 10. Depois, faça a escolha d
 Se escolher Refino, receba mais +1 de Refino e uma aptidão. Se o ganho básico já deixou seu Refino em
 10, receba duas aptidões, em vez desse aumento adicional e de uma aptidão. Confira os requisitos com o
 Refino atualizado.
-Nível
-Nunca escolhe Refino
-Sempre escolhe Refino
-Aptidões recebidas pela
-escolha nesse marco
-Início
-1
-1
-—
-6
-2
-3
-1
-10
-3
-5
-1
-14
-4
-7
-1
-18
-5
-9
-1
-22
-6
-10
-2
-26
-7
-10
-2
-30
-8
-10
-2
-A última coluna acompanha quem sempre escolheu Refino. Em outra sequência, verifique seu valor
-naquele marco. Os ganhos de Corpo, Leque e dos espaços conhecidos ficam em Progressão.
+Os ganhos de Corpo, Leque e dos espaços conhecidos ficam em Progressão.
 Escolhas e requisitos
 Uma aptidão comprada não se repete, salvo permissão expressa. Quando receber duas escolhas,
 resolva-as em ordem: a primeira pode atender ao requisito da segunda. Não use uma compra futura para
@@ -566,8 +528,8 @@ no ponto de ativação. Se seus dois pés saírem desse ponto, por movimento pr�
 termina. Ao chegar a Refino 5, você pode abandonar esse voto.
 Se terminar pelo voto, por encerramento voluntário, falta de manutenção ou inconsciência enquanto
 segurava uma Expansão, quem perdeu essa proteção recebe um Acerto adicional imediatamente, além
-dos Acertos normais que ainda virão. O fim por esgotar a capacidade segue a regra própria da próxima
-página.
+dos Acertos normais que ainda virão. O fim por esgotar a capacidade segue Duração do Domínio
+Simples (p. 15).
 Permanência
 Fora de uma Expansão, o Domínio Simples permanece enquanto você pagar a manutenção. Contra uma
 Expansão, sua capacidade de resistir à pressão é limitada pelos Acertos que segura. O procedimento está

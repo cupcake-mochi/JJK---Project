@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "b4035a501c87ada84e73e5951cdf41639c850d644cfe4cb8812575d8a0bc1c43",
+  "sha256_texto": "4876b7e0bfa863f787e73f75e0325174ee05ef520781f2b0f712a15ad1bf11d1",
   "revisor": "/root",
   "titulos_revisto": true,
   "vocabulario_revisto": true,
@@ -34,5 +34,44 @@
       "Integridade de NPC com vida positiva nunca começa em zero por arredondamento."
     ],
     "evidencia": "consolidacao/lote-01/migracao-nomes/diffs/dano.diff e ALTERACOES.json DR31"
+  },
+  "revisao_delta_2026_10_04_decisoes": {
+    "sha256_anterior": "b4035a501c87ada84e73e5951cdf41639c850d644cfe4cb8812575d8a0bc1c43",
+    "sha256_atual": "44c41c7ce33b68d6284fa55b69d7fb43bc6fc28aa3b86c445007cad1dc807fea",
+    "mudancas": [
+      {
+        "codigo": "D05",
+        "achado": "G1-05",
+        "secao": "zero",
+        "antes": "Ao chegar a **zero de vida**, você está **Morrendo**. Escolha imediatamente **Aguentar** ou **Insistir**. Estas regras",
+        "depois": "Ao chegar a **zero de vida**, você está **Morrendo**. Resolva primeiro as capacidades disparadas pela própria queda; em seguida, escolha **Aguentar** ou **Insistir**. Se uma dessas capacidades encerrar a queda, não há escolha. Estas regras"
+      }
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+    "conferido": "Cada trecho trocado foi lido no contexto. Com as exceções desta leitura, o conferir_editorial dá 0 achados no texto anterior e 0 no atual. As frases novas não explicam capacidade de outro dono: citam o procedimento geral ou a seção dona pelo nome. Nenhuma exceção de vocabulário depende de linha nesta unidade."
+  },
+  "revisao_delta_2026_10_04_quinta_passada": {
+    "sha256_anterior": "44c41c7ce33b68d6284fa55b69d7fb43bc6fc28aa3b86c445007cad1dc807fea",
+    "sha256_atual": "4876b7e0bfa863f787e73f75e0325174ee05ef520781f2b0f712a15ad1bf11d1",
+    "mudancas": [
+      {
+        "codigo": "D37",
+        "achado": "G5-07",
+        "secao": "leves",
+        "antes": "Seu deslocamento cai pela metade e você não pode usar Ação Bônus.",
+        "depois": "Seu deslocamento cai pela metade e você não pode usar Ação Bônus. Distâncias concedidas por capacidades, como a de Passo, também caem pela metade."
+      },
+      {
+        "codigo": "D38",
+        "achado": "G1-04",
+        "secao": "zero",
+        "antes": "Estas regras são para personagens jogadores. Inimigos e entidades seguem suas próprias regras de derrota.",
+        "depois": "Estas regras são para personagens jogadores. Entidades seguem Invocações em campo. Um inimigo a zero de vida ou de Integridade é derrotado, e o mestre descreve o desfecho, como morte, fuga ou exorcismo, salvo uma regra da ficha dele."
+      }
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+    "conferido": "Cada trecho trocado foi lido no contexto. Com as exceções desta leitura, o conferir_editorial dá 0 achados no texto anterior e 0 no atual. As frases novas citam a seção dona pelo nome (Equipamento restrito, Munição inicial, Invocações em campo, Trajes). Nenhuma exceção de vocabulário depende de linha nesta unidade."
   }
 }

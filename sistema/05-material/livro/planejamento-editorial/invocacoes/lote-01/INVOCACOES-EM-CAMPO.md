@@ -56,7 +56,7 @@ A conversão normal de ações permite trocar Padrão por Bônus e Bônus por Mo
 <!-- page:inv-troca|Trocar de entidade -->
 # Trocar de entidade
 
-Na troca, uma entidade sai e outra entra pagando a Bônus e o PE da entrada. A substituta ocupa o lugar de quem saiu. Se não couber, use o espaço livre mais próximo. A primeira tarefa vem junto da troca, desde que a entidade consiga receber e entender a orientação.
+Na troca, uma entidade sai e outra entra pagando a Bônus e o PE da entrada. A substituta ocupa o lugar de quem saiu. Ela pode ser uma entidade caída: nesse caso, pague o retorno no lugar da entrada. Se não couber, use o espaço livre mais próximo. A primeira tarefa vem junto da troca, desde que a entidade consiga receber e entender a orientação.
 
 A substituta recebe **no máximo uma básica disponível de quem saiu**, quando todas estas condições forem cumpridas:
 
@@ -70,7 +70,7 @@ Recolher e trazer de volta a mesma criatura não copia o recurso. Uma básica in
 
 Quando uma permissão fizer várias entidades entrarem, escolha **uma** como substituta direta: somente ela recebe a tarefa incluída e a possível básica. As demais entram a até 1,5 m de você, pelas regras de entrada comum. Se várias saírem para uma entrar, escolha uma das posições de saída; ainda há no máximo uma básica transferida.
 
-> **Exemplo.** O cão ainda pode agir. Kaito o troca pela ave, que recebe a básica. Depois que a ave ataca, devolvê-la à reserva e trazer o cão não restaura aquela atuação. Ambos continuam com o histórico daquele ciclo.
+> **Exemplo.** O cão ainda pode agir. Kaito o troca pela ave, que recebe a básica. Depois que a ave ataca, recolhê-la e trazer o cão não restaura aquela atuação. Ambos continuam com o histórico daquele ciclo.
 
 <!-- page:inv-intencao|Dar uma tarefa -->
 # Dar uma tarefa
@@ -110,6 +110,8 @@ A tarefa incluída numa troca e a orientação posterior de uma especial precisa
 # Atuação básica
 
 A entidade usa sua atuação básica para uma capacidade básica conhecida ou para uma ação comum que seu corpo consiga executar. Atacar, Correr, Desengajar, Esquivar, Esconder, Ajudar, Vasculhar, Estudar e Usar um Objeto seguem os procedimentos de **Ações**.
+
+Para Atacar, num revide ou num ataque comum concedido, a entidade usa a **básica ofensiva de Classe 0** da ficha ou uma **arma que ela empunhe**. O acerto com arma está em **Construir invocações — Acerto e dificuldade**. Sem nenhuma das duas, ela não ataca.
 
 Conhecer duas básicas não permite executar ambas no mesmo ciclo. Correr usa a básica; não sobra um ataque depois. Ajudar exige uma contribuição real. Para ajudar uma especial, uma entidade gasta sua básica na ajuda e a executora gasta a própria básica na especial. Várias ajudas não acumulam vantagens.
 
@@ -151,7 +153,7 @@ O descanso longo recupera a reserva inteira. O descanso curto recupera um quarto
 
 Entrada, retorno e carga de talismã são pagamentos seus. A reserva não os divide. Na Contramedida de uma entidade, os 2 PE seguem a divisão acima, e a Reação exigida é a coletiva. Custos de manutenção têm a prioridade descrita em **Manutenção**.
 
-Uma especial que exija Concentração é sustentada pela entidade executora. Ela usa seu próprio TR quando sofre dano, seguindo Concentração. O dano recebido pelo invocador não exige esse teste da entidade. Por exemplo, uma flecha que acerte Kaito não testa a concentração do cão; uma flecha que acerte o cão exige o TR dele.
+Uma especial que exija Concentração é sustentada pela entidade executora. Ela usa seu próprio TR quando sofre dano, seguindo Concentração. Recolher, desativar ou cair a zero encerra essa concentração. O dano recebido pelo invocador não exige esse teste da entidade. Por exemplo, uma flecha que acerte Kaito não testa a concentração do cão; uma flecha que acerte o cão exige o TR dele.
 
 Usos por cena, duração e demais exigências pertencem à ficha que os concede. Mudar a entidade ativa não renova um uso do conjunto nem transforma uma ordem anterior em autorização para repetir uma especial.
 
@@ -195,7 +197,7 @@ Para mudar entre antecipada e preparada, encerre a anterior por comunicação v�
 <!-- page:inv-preparar|Preparar uma ação -->
 # Preparar uma ação
 
-No seu turno, uma entidade pode gastar a básica para preparar uma ação que caiba na tarefa recebida. Escolha um gatilho perceptível e verificável. Quando ele acontecer, confira os requisitos e pague a **Reação coletiva** e os custos próprios da execução. A básica já foi gasta.
+No seu turno, uma entidade pode gastar a básica para preparar uma ação que caiba na tarefa recebida. Ela também pode preparar um deslocamento, que usa o Movimento que ainda lhe resta e não concede metros novos. Escolha um gatilho perceptível e verificável. Quando ele acontecer, confira os requisitos e pague a **Reação coletiva** e os custos próprios da execução. A básica já foi gasta.
 
 Para preparar uma especial, gaste também sua Padrão e comunique a capacidade e o gatilho. A entidade precisa ter a básica disponível agora. Sem essa básica, não existe uma preparação pronta para mais tarde.
 
@@ -338,11 +340,11 @@ Se a próxima entrada for o retorno de uma entidade caída, abata **somente o va
 <!-- page:inv-corpos|Corpos amaldiçoados -->
 # Corpos amaldiçoados
 
-Corpos amaldiçoados não são recolhidos, sejam de técnica ou de criação. Ficam **ativos ou inativos** no mundo. A zero de vida, passam a Desligada, que tem outras regras.
+Corpos amaldiçoados não são recolhidos, sejam de técnica ou de criação. Ficam **ativos ou inativos** no mundo. A zero de vida, passam a Desligada, que tem outras regras. Uma domada sem meio de recolhimento segue este modo e entra no total abaixo.
 
 Você pode manter um **total de corpos igual ao atributo escolhido para a Defesa das entidades + sua capacidade de entidades ativas**. Conte juntos os corpos ativos e inativos. Para essa conta, use a maior capacidade que seu Caminho permite em combate. Ativar ou desativar um corpo não muda esse total. O limite de entidades que podem agir ao mesmo tempo continua valendo.
 
-Com atributo 3 e capacidade de duas entidades, por exemplo, pode manter cinco corpos: dois ativos e três inativos, ou todos os cinco inativos depois da luta. Corpos adicionais precisam ser deixados sem seu controle até haver espaço. Não desaparecem nem são destruídos por essa escolha.
+Com atributo 3 e capacidade de duas entidades, por exemplo, pode manter cinco corpos: dois ativos e três inativos, ou todos os cinco inativos depois da luta. Corpos adicionais precisam ser deixados sem seu controle. Não desaparecem nem são destruídos por essa escolha. Um corpo deixado assim volta ao seu controle quando uma vaga se abre porque um corpo controlado foi destruído ou porque seu total permitido aumentou. Deixar um corpo sem controle de propósito não abre vaga para trazer outro de volta.
 
 Um corpo inativo conserva vida, Defesa e posição. Pode andar para acompanhar você, mas **falha em toda rolagem, não age e não recebe tarefa**. Interpretação e trabalhos extremamente simples que não exijam rolagem são possíveis. Não podem substituir testes, lutar ou executar capacidades.
 
@@ -412,7 +414,7 @@ Comande com sua **Ação Completa** e gaste a básica da domada. Divida o PE com
 
 O sucesso num TR reduz o dano em um quarto, pelo procedimento comum da Máxima. Uma aplicação de cura usa os dados próprios desta tabela. Uma aplicação sem dano exige seu efeito escrito e delimitado antes da sessão; não transforma dados em qualquer benefício escolhido no momento.
 
-> **Exemplo.** A domada de nível 17 causa 19d8 numa montagem ofensiva válida. Paga 25 PE: 13 de Kaito e 12 da reserva, quando houver saldo. Uma Forma de cura usa 19d8, com média de 85,5 PV antes dos limites aplicáveis. Uma Máxima pessoal da mesma faixa usa outra escala; a domada não recebe esses dados maiores.
+> **Exemplo.** A domada de nível 17 causa 19d8 numa montagem ofensiva válida. Paga 25 PE: 13 de Kaito e 12 da reserva, quando houver saldo. Uma Forma de cura usa 19d8. Uma Máxima pessoal da mesma faixa usa outra escala; a domada não recebe esses dados maiores.
 
 <!-- page:inv-dominio|Expansão da domada -->
 # Expansão da domada
@@ -440,6 +442,8 @@ Recolher, desativar ou derrubar a domada encerra sua Expansão e aplica o Rescal
 
 A zero de vida, a entidade para de atuar. Se puder ser recolhida, sai de campo. Caso contrário, permanece no lugar como **Desligada**. Confira primeiro se o dano a destruiu.
 
+**Integridade a zero.** Uma entidade com alma que chega a zero de Integridade cai sem ser destruída, como a zero de vida. O retorno exige pelo menos 1 de Integridade, que volta pelo descanso longo ou por uma capacidade que restaure Integridade. Os estágios de Integridade também valem para ela: o PE adicional e o teto de Classe se aplicam às especiais que ela executa.
+
 **Um dano direto destrói a entidade quando uma única ocorrência alcança sua vida máxima ou quando o excedente além de zero supera metade da vida máxima.** Igualar essa metade não basta. Dano em área pode derrubar, mas nunca destrói por si.
 
 Excedente é quanto do dano sobrou depois de zerar a vida atual. Use o dano efetivamente recebido, depois das defesas. O limite considera a vida máxima, não a vida que restava.
@@ -455,7 +459,7 @@ Essa queda também pode acontecer por dano persistente numa entidade recolhida. 
 <!-- page:inv-retorno|Retorno e corpos caídos -->
 # Retorno e corpos caídos
 
-Para trazer de volta uma entidade que caiu sem ser destruída, pague **o dobro do PE da entrada e sua Bônus**, no seu turno. Ela retorna com metade da vida máxima, arredondada para baixo, com mínimo de 1 PV. Respeite espaço, teto de ativos e recursos já gastos. O retorno não fornece básica.
+Para trazer de volta uma entidade que caiu sem ser destruída, pague **o dobro do PE da entrada e sua Bônus**, no seu turno. Ela retorna com metade da vida máxima, arredondada para baixo, com mínimo de 1 PV. Respeite espaço, teto de ativos e recursos já gastos. O retorno não cria uma básica própria. Feito numa troca, ainda permite receber a básica transferida.
 
 O descanso longo recupera a vida inteira. Cura não funciona a zero, esteja a entidade recolhida ou no chão. Recolher uma entidade que ainda tem vida usa uma entrada normal depois, com os mesmos ferimentos.
 
@@ -480,7 +484,7 @@ Na volta, confira os requisitos a partir do espaço de entrada. Usos não se ren
 
 > **Exemplo.** A ave sofreu um dano que se repete no fim do turno, sem depender da posição. Kaito a recolhe, mas resolve a repetição no momento previsto. Uma área que ela havia criado pode permanecer; a aura que precisava acompanhar o corpo deixa de alcançar outras criaturas. Se voltar ainda sob a condição, conserva o prazo que restava.
 
-O mesmo acompanhamento impede que a reserva se torne um local de recuperação sem custo. Registre vida, efeitos, usos e Movimento antes de retirar a miniatura. Se um efeito levar a entidade a zero enquanto estiver recolhida, aplique a queda e o retorno próprios, sem transportá-la de volta para o campo.
+O mesmo acompanhamento impede que ficar recolhida se torne um meio de recuperação sem custo. Registre vida, efeitos, usos e Movimento antes de retirar a miniatura. Se um efeito levar a entidade a zero enquanto estiver recolhida, aplique a queda e o retorno próprios, sem transportá-la de volta para o campo.
 
 <!-- page:inv-inconsciente|Invocador inconsciente -->
 # Invocador inconsciente
@@ -536,12 +540,12 @@ Enquanto o personagem estiver apenas inconsciente, aplique o procedimento de inc
 
 Uma entidade carrega o que suas mãos permitem segurar. Sem mãos, não recebe essa possibilidade por padrão. Vestir equipamento exige compatibilidade com o corpo e com os requisitos do item.
 
-Transportar carga adicional ou personagens exige uma característica própria, compatível com a definição da entidade, que ocupe **um de seus talentos**. Armazenamento usa capacidade de **5 + Força da entidade em Volume**. Para passageiros, registre quantidade, anatomia necessária e custo de Movimento na montagem; não há uma quantidade automática.
+Uma entidade segue o limite geral de carga de **5 + Força**, em Volume: o que ela veste, empunha ou leva conta nele. Transportar carga adicional ou personagens exige uma característica própria, compatível com a definição da entidade, que ocupe **um de seus talentos**. O armazenamento e os passageiros cabem nesse mesmo limite. Para passageiros, registre quantidade, anatomia necessária e custo de Movimento na montagem; não há uma quantidade automática.
 
-Uma Força alta não oferece armazenamento por si. Uma entidade de Força 3 com esse talento comporta 8 de Volume. Sem o talento, fica limitada ao que pode segurar e ao equipamento que pode vestir.
+Uma Força alta não oferece armazenamento por si. Uma entidade de Força 3 com esse talento comporta 8 de Volume, somando o que veste e empunha. Sem o talento, fica limitada ao que pode segurar e ao equipamento que pode vestir, dentro do mesmo limite.
 
 Na saída de campo, o que a entidade veste vai junto. Entre os objetos que segura, acompanha-a seu próprio equipamento: arma usada por ela, foco ou ferramenta. **Objetos carregados para outra pessoa ou apanhados pelo caminho caem onde ela estava.** Não use um talento de armazenamento para contornar esse destino sem uma permissão expressa.
 
 Essas regras valem para recolhimento, queda e fim da manifestação de quem é recolhido. Corpos amaldiçoados e Desligada permanecem no campo com seus objetos. Quando uma entidade é destruída ou desaparece com a morte do dono, deixa todo o equipamento no lugar.
 
-> **Exemplo.** A entidade veste um revestimento, segura a própria arma e leva um objeto encontrado para Kaito. Ao ser recolhida, conserva revestimento e arma; o objeto cai. Para usar a arma que viajou com ela, Kaito precisa retirá-la enquanto a entidade estiver em campo. A reserva não permite sacar equipamento de uma criatura ausente.
+> **Exemplo.** A entidade veste um revestimento, segura a própria arma e leva um objeto encontrado para Kaito. Ao ser recolhida, conserva revestimento e arma; o objeto cai. Para usar a arma que viajou com ela, Kaito precisa retirá-la enquanto a entidade estiver em campo. Estar recolhida não permite sacar equipamento de uma criatura ausente.

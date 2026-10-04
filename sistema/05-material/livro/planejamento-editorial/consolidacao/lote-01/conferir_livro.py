@@ -64,6 +64,42 @@ for ix,m in enumerate(mapping):
  key=m['id_livro'];source=contents[key];source=re.sub(r'\[([^\]]+)\]\(#[^)]+\)',r'\1',source);source=re.sub(r'<[^>]+>','',source)
  start=m['pagina'];end=mapping[ix+1]['pagina'] if ix+1<len(mapping) else len(reader.pages)
  actual='\n'.join(texts[start-1:end]);missing=Counter(tokens(source))-Counter(tokens(actual));ck('Bloco completo '+key,dict(missing),{})
+# Tabela partida: nenhum pedaço com menos de duas linhas, e título com até quatro linhas não fica no pé longe da tabela.
+INK=(0.145098,0.090196,0.152941);same=lambda c:c is not None and len(c)==3 and all(abs(x-y)<.01 for x,y in zip(c,INK))
+def layout(p):
+ rs=sorted([r for r in p.rects if r['height']>5],key=lambda r:r['top']);fr=[];used=set();words=p.extract_words()
+ for i,r in enumerate(rs):
+  if not same(r.get('non_stroking_color')) or i in used:continue
+  n=0;end=r['bottom'];j=i+1
+  while j<len(rs) and abs(rs[j]['top']-end)<=.6 and abs(rs[j]['x0']-r['x0'])<=.6 and abs(rs[j]['width']-r['width'])<=.6 and not same(rs[j].get('non_stroking_color')):used.add(j);n+=1;end=rs[j]['bottom'];j+=1
+  fr.append({'topo':r['top'],'fim':end,'linhas':n,'cab':' '.join(w['text'] for w in words if w['top']>=r['top']-1 and w['bottom']<=r['bottom']+1 and w['x0']>=r['x0'])})
+ lines={}
+ for c in p.chars:
+  if 45<c['top']<786:lines.setdefault(round(c['top']),[]).append(c)
+ return fr,sorted(lines.items())
+def heading(cs):return all('Barlow' in c['fontname'] for c in cs if c['text'].strip()) and max(c['size'] for c in cs)>=13.5
+with pdfplumber.open(pdf) as doc:L=[layout(p) for p in doc.pages]
+table_issues=[]
+for i in range(len(L)-1):
+ (fr,ln),(nf,nl)=L[i],L[i+1]
+ if not nf:continue
+ g=nf[0];before=[k for k,_ in nl if k<g['topo']-1]
+ if before:continue
+ cut=fr and fr[-1]['cab']==g['cab'] and not [k for k,_ in ln if k>fr[-1]['fim']+1]
+ if cut:
+  if fr[-1]['linhas']<2:table_issues.append(['linha órfã no pé',i+1,g['cab']])
+  nxt=L[i+2] if i+2<len(L) else None
+  goes_on=nxt and nxt[0] and nxt[0][0]['cab']==g['cab'] and not [k for k,_ in nl if k>g['fim']+1] and not [k for k,_ in nxt[1] if k<nxt[0][0]['topo']-1]
+  if g['linhas']<2 and not goes_on:table_issues.append(['linha viúva no alto',i+2,g['cab']])
+ else:
+  top=max([f['fim'] for f in fr],default=0);hs=[n for n,(k,cs) in enumerate(ln) if heading(cs) and k>top]
+  if hs and len(ln)-1-hs[-1]<=4:table_issues.append(['título longe da tabela',i+1,''.join(c['text'] for c in ln[hs[-1]][1]).strip()])
+ck('Tabelas sem linha órfã ou viúva e com o título junto',table_issues,[])
+lone=[]
+for i,(fr,ln) in enumerate(L[:-1]):
+ hs=[n for n,(k,cs) in enumerate(ln) if heading(cs)]
+ if hs and len(ln)-1-hs[-1]<=1 and not [f for f in fr if f['topo']>ln[hs[-1]][0]]:lone.append([i+1,''.join(c['text'] for c in ln[hs[-1]][1]).strip()])
+ck('Nenhum título com uma linha só no pé da página',lone,[])
 # Front index links and page references are generated from this exact map.
 ck('Todas âncoras de bloco possuem página',all(m['id_livro'] in pages and 1<=pages[m['id_livro']]<=len(reader.pages) for m in mapping),True)
 result={'sha256_pdf':sha(pdf),'sha256_manuscrito':sha(B/'LIVRO-COMPLETO.md'),'ok':all(x['ok'] for x in checks),'verificacoes':len(checks),'paginas':len(reader.pages),'blocos':len(mapping),'links_internos':len(links),'caracteres_pdf':chars_count,'checks':checks,'falhas':[x for x in checks if not x['ok']],'painel':outline,'geometria':geometria,'limites':['Verificação estrutural não substitui abrir todas as páginas nem reavaliar regras.','Contagem de palavras por intervalo detecta omissões, mas não comprova ordem semântica ou ausência de redundância autoral.','Não foi executado playtest ou leitura humana.']}

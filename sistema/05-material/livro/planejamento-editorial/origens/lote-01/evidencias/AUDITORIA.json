@@ -1,8 +1,8 @@
 {
-  "sha256_texto": "d432caecc9f2c63b0f355ad70a6e74251ae51044a8ac5840a35b7fd6d182484d",
+  "sha256_texto": "0476a3485888acb6e08fc457ce59f7049a5e440f5787c722a9caf062871c91d7",
   "aprovado": true,
   "quantidades": {
-    "verificacoes": 333,
+    "verificacoes": 418,
     "casos": 35,
     "pares_legados": 268,
     "perfis_reparo": 105,
@@ -442,6 +442,431 @@
     },
     {
       "id": "entrada_Assinado",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_O Jeito Errado",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_O Professor Que Você Não Teve",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_A Testemunha",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Aprendi Apanhando",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Instinto Bruto",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Gambiarra",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Desconfiado",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Inédito",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Chão Duro",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_A Voz de Dentro",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_De Antes de Você",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Alcunha",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_O Que Ele Quer",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Não Sou Só Eu",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Costume Antigo",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Tranco",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Passagem",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Máscara",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Revezamento",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_O Sobrenome",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Armaria",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Arquivo",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Palavra Dada",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Treino de Berço",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Conversa de Jantar",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Etiqueta",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Repetição",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Biblioteca",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Coleira",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Cabo",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_O Que Ninguém Lembra",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Encomenda",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Quem Morava Aqui",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Enterrado",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Corpo Emprestado",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Espasmo",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Já Morri",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Método Velho",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Conhecimento Antigo",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Usado",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Irmãos",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Numeração",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Guardado",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Devagar",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Meio e Meio",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Como Se Monta",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Faro",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Paciência",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Sangue que Não é Sangue",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Talhe",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Sem Técnica",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Ninhada",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Gêmeos",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Inteiro",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Manutenção",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Rodízio",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Vigília",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Desempate",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Cabeça Trocada",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Nunca os Dois",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Palpite",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Feito de Uma Peça",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Teimosia",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Peça Única",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Ajuste Fino",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Recarga",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Fiado",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Ferro Velho",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Nasci Assim",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_O Substituto",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_A Oferta",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Antena",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Do Meu Canto",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Insônia",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Li Tudo",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Descartado",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Dividido",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Desde Criança",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Aprendi a Ver",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Sentido Treinado",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Couro",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Ninguém Viu",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_No Braço",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Peso Real",
+      "passou": true,
+      "detalhe": ""
+    },
+    {
+      "id": "texto_Assinado",
       "passou": true,
       "detalhe": ""
     },

@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "cbdc3648f5faa76a3973fd1dc9b8d196a5e46d5508163bc2e3720b33c2512a40",
+  "sha256_texto": "99c04d78b0d7ac7bff72a75ebb03cd103330f6a84c79aeecf24871f6975456ae",
   "titulos_revisto": true,
   "sem_explicacao_alheia": true,
   "vocabulario_revisto": true,
@@ -146,5 +146,84 @@
     "diff": "consolidacao/lote-01/migracao-nomes/diffs/rotas.diff",
     "conclusao": "Diff completo lido. Preços, ações, limites, acesso e efeitos permanecem iguais. Mudam categoria, nomes e concordância gramatical."
   },
-  "remissao_final": "Destino de montagem separado de manifestação/comando, com títulos atuais."
+  "remissao_final": "Destino de montagem separado de manifestação/comando, com títulos atuais.",
+  "revisao_delta_2026_10_04": {
+    "sha256_anterior": "cbdc3648f5faa76a3973fd1dc9b8d196a5e46d5508163bc2e3720b33c2512a40",
+    "correcoes": [
+      "C08c",
+      "C09"
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.json",
+    "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana.",
+    "conferido": "Trechos trocados lidos um a um: só nomes e remissões ao capítulo dono, nenhuma regra alheia reproduzida, nenhum título alterado. Com o hash anterior, o conferir_editorial dava 0 achados; com o texto novo, todos os achados E002 coincidem em termo e trecho com excecoes_localizacao já revisadas, e o vocabulário não acusa nada."
+  },
+  "revisao_delta_2026_10_04_decisoes": {
+    "sha256_anterior": "b397b7351a1dc477df4fff10dce6ebaccd9e3147913ca9bcef3fc65640e45603",
+    "sha256_atual": "7fb73a56e4a34ce5a50be4357dd4d5987000c15f9cb81af9972ff4833ef23a59",
+    "mudancas": [
+      {
+        "codigo": "D12",
+        "achado": "G5-02",
+        "secao": "rota-passivas-marciais",
+        "antes": "## Calo — Livre\n\nVocê reconhece pelo toque o encaixe e a textura familiares de armas que costuma usar. Esse detalhe descreve sua relação com o equipamento. Identificar uma arma disfarçada, detectar uma substituição ou obter informação escondida ainda exige o procedimento da cena.",
+        "depois": ""
+      },
+      {
+        "codigo": "D12",
+        "achado": "G5-02",
+        "secao": "rota-marcial",
+        "antes": "1. Escreva a **Descrição** e a **Regra** pelo procedimento de Fundamento.",
+        "depois": "1. Escreva a **Descrição**, a **Regra** e a **Expressão da técnica** pelo procedimento de Fundamento."
+      },
+      {
+        "codigo": "D17",
+        "achado": "pedido do autor",
+        "secao": "rota-lapidacao",
+        "antes": "Quem escolhe Lapidação em todos os marcos recebe duas Bênçãos nos níveis 22, 26 e 30, totalizando dez escolhas pagas. Quem nunca a escolhe termina em Lapidação 8 e conserva apenas as Bênçãos gratuitas.",
+        "depois": ""
+      }
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+    "conferido": "Cada trecho trocado foi lido no contexto. Com as exceções desta leitura, o conferir_editorial dá 0 achados no texto anterior e 0 no atual. As frases novas não explicam capacidade de outro dono: citam o procedimento geral ou a seção dona pelo nome. Nenhuma exceção de vocabulário depende de linha nesta unidade."
+  },
+  "revisao_delta_2026_10_04_quarta_passada": {
+    "sha256_anterior": "7fb73a56e4a34ce5a50be4357dd4d5987000c15f9cb81af9972ff4833ef23a59",
+    "sha256_atual": "692a4f70bd144ccb5c7760c303162842fe0e29bdcb712843bc3f7947f2eaa4b6",
+    "mudancas": [
+      {
+        "codigo": "D18",
+        "achado": "decisão do autor (04/10/2026)",
+        "secao": "rota-sem-tecnica",
+        "antes": "3. Defina sua Regra, atributo e Selo pelo procedimento de Fundamento.",
+        "depois": "3. Defina sua Regra, atributo, Selo e **Expressão da técnica** pelo procedimento de Fundamento."
+      }
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+    "conferido": "Cada trecho trocado foi lido no contexto. Com as exceções desta leitura, o conferir_editorial dá 0 achados no texto anterior e 0 no atual. A única frase nova (passo 3 de Sem Técnica) cita o procedimento de Fundamento pelo nome, como o passo 1 da Técnica Marcial. Nenhuma exceção de vocabulário depende de linha nesta unidade."
+  },
+  "revisao_delta_2026_10_04_quinta_passada": {
+    "sha256_anterior": "692a4f70bd144ccb5c7760c303162842fe0e29bdcb712843bc3f7947f2eaa4b6",
+    "sha256_atual": "99c04d78b0d7ac7bff72a75ebb03cd103330f6a84c79aeecf24871f6975456ae",
+    "mudancas": [
+      {
+        "codigo": "D33",
+        "achado": "G4-06",
+        "secao": "rota-armas",
+        "antes": "Você recebe uma arma de cada categoria, todas de **grau 4**, e fica treinado nas três categorias, além dos treinos concedidos por outras escolhas.",
+        "depois": "Você recebe uma arma de cada categoria, todas de **grau 4**, e fica treinado nas três categorias, além dos treinos concedidos por outras escolhas.\n\n**Acesso.** Escolha qualquer arma da categoria que seu acesso permita. As armas recebidas seguem **Equipamento restrito**: Arma de Fogo exige Grau 2 ou autorização prévia do mestre. Uma arma de fogo recebida vem com a munição inicial de uma compra, conforme **Munição inicial**."
+      },
+      {
+        "codigo": "D33",
+        "achado": "G4-06",
+        "secao": "rota-ferramenta",
+        "antes": "Uma ferramenta vestida como armadura ocupa a função de **Traje ou Revestimento**, com as regras dessa categoria.",
+        "depois": "Uma ferramenta vestida como armadura ocupa a função de **Traje ou Revestimento**, com as regras dessa categoria. Os números de Revestimento 2 ou 3 seguem o acesso de **Equipamento restrito**, salvo permissão do mestre."
+      }
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+    "conferido": "Cada trecho trocado foi lido no contexto. Com as exceções desta leitura, o conferir_editorial dá 0 achados no texto anterior e 0 no atual. As frases novas citam a seção dona pelo nome (Equipamento restrito, Munição inicial, Invocações em campo, Trajes). Nenhuma exceção de vocabulário depende de linha nesta unidade."
+  }
 }

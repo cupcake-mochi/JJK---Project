@@ -2,8 +2,8 @@
   "data": "2026-10-03",
   "ok": true,
   "verificacoes": 236,
-  "sha256_pdf": "6b25769360dbf54652b762880cfebcebdd61be30f6d8aa666ee35465d083c8b3",
-  "sha256_texto": "297d96084502eb65780b9ed2ac4f7e121a235cfdbb6e41db254f980e55393dcd",
+  "sha256_pdf": "1231611bc6d94447c9d79d9d958c22435a3c595d1b905d7ebbb761ab985deaa1",
+  "sha256_texto": "c0482965c234fc289822b26be94afaadbc0743c515166fa308fe8ee065d3711b",
   "checks": [
     {
       "verificacao": "Quantidade de páginas e seções",
@@ -1439,8 +1439,8 @@
     },
     {
       "verificacao": "Revisão do texto atual",
-      "obtido": "297d96084502eb65780b9ed2ac4f7e121a235cfdbb6e41db254f980e55393dcd",
-      "esperado": "297d96084502eb65780b9ed2ac4f7e121a235cfdbb6e41db254f980e55393dcd",
+      "obtido": "c0482965c234fc289822b26be94afaadbc0743c515166fa308fe8ee065d3711b",
+      "esperado": "c0482965c234fc289822b26be94afaadbc0743c515166fa308fe8ee065d3711b",
       "ok": true
     },
     {
@@ -1451,8 +1451,8 @@
     },
     {
       "verificacao": "Inspeção do PDF atual",
-      "obtido": "6b25769360dbf54652b762880cfebcebdd61be30f6d8aa666ee35465d083c8b3",
-      "esperado": "6b25769360dbf54652b762880cfebcebdd61be30f6d8aa666ee35465d083c8b3",
+      "obtido": "1231611bc6d94447c9d79d9d958c22435a3c595d1b905d7ebbb761ab985deaa1",
+      "esperado": "1231611bc6d94447c9d79d9d958c22435a3c595d1b905d7ebbb761ab985deaa1",
       "ok": true
     },
     {
@@ -1545,8 +1545,8 @@
     },
     {
       "verificacao": "Cenários usam o manuscrito atual",
-      "obtido": "297d96084502eb65780b9ed2ac4f7e121a235cfdbb6e41db254f980e55393dcd",
-      "esperado": "297d96084502eb65780b9ed2ac4f7e121a235cfdbb6e41db254f980e55393dcd",
+      "obtido": "c0482965c234fc289822b26be94afaadbc0743c515166fa308fe8ee065d3711b",
+      "esperado": "c0482965c234fc289822b26be94afaadbc0743c515166fa308fe8ee065d3711b",
       "ok": true
     },
     {
@@ -1583,7 +1583,7 @@
     },
     {
       "pagina": 4,
-      "final_corpo": 439.27
+      "final_corpo": 439.97
     },
     {
       "pagina": 5,
@@ -1595,7 +1595,7 @@
     },
     {
       "pagina": 7,
-      "final_corpo": 439.72
+      "final_corpo": 486.62
     },
     {
       "pagina": 8,
@@ -1615,7 +1615,7 @@
     },
     {
       "pagina": 12,
-      "final_corpo": 451.92
+      "final_corpo": 465.62
     },
     {
       "pagina": 13,
@@ -1647,7 +1647,7 @@
     },
     {
       "pagina": 20,
-      "final_corpo": 440.77
+      "final_corpo": 495.57
     },
     {
       "pagina": 21,
@@ -1659,7 +1659,7 @@
     },
     {
       "pagina": 23,
-      "final_corpo": 443.97
+      "final_corpo": 430.97
     },
     {
       "pagina": 24,
@@ -1667,11 +1667,11 @@
     },
     {
       "pagina": 25,
-      "final_corpo": 424.52
+      "final_corpo": 485.12
     },
     {
       "pagina": 26,
-      "final_corpo": 406.87
+      "final_corpo": 420.57
     },
     {
       "pagina": 27,
@@ -1691,7 +1691,7 @@
     },
     {
       "pagina": 31,
-      "final_corpo": 406.87
+      "final_corpo": 434.27
     }
   ],
   "limites": [

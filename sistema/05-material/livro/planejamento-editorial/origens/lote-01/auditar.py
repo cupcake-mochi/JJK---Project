@@ -15,6 +15,8 @@ def entry(name,text=s):
 sha=hashlib.sha256(s.encode()).hexdigest()
 ck('inventario_hash',sha==inv['sha256_texto']);ck('85entradas',len(entries)==85)
 for e in entries:ck('entrada_'+e['nome'],bool(entry(e['nome'])))
+# Existir não basta: o hash do inventário já foi atualizado por script com o texto do Revezamento atrasado.
+for e in entries:ck('texto_'+e['nome'],' '.join(entry(e['nome']).split())==' '.join(e['depois'].split()))
 case('tipos',[sum(e['tipo']==t for e in entries) for t in ['narrativo','rolagem','excecao']],[32,40,13])
 parts=re.findall(r'<!-- page:([^|]+)\|([^>]+) -->\n# [^\n]+\n(.*?)(?=<!-- page:|\Z)',s,re.S)
 case('paginas',len(parts),26);ck('IDs_unicos',len(set(x[0] for x in parts))==len(parts));ck('extensao_paginas',all(180<=len(x[2].split())<=400 for x in parts))

@@ -478,7 +478,7 @@ A capacidade precisa caber na Descrição e na Regra do Fundamento. Criar um efe
 
 > **Exemplo:** uma técnica que move objetos de papel quer deslocar uma aliada sobre uma plataforma. A ficha deve dizer quanto a plataforma percorre, se precisa de chão, quantas pessoas leva e o que ocorre diante de um obstáculo. “Transporta alguém” ainda não basta para usar a capacidade em jogo.
 
-Os procedimentos e os exemplos completos estão em **Criar um efeito**, no Fundamento. A versão de Técnica Máxima usa seu orçamento e seus requisitos próprios; caber nos pontos de uma Classe comum não remove o requisito de Máxima.
+Os procedimentos e os exemplos completos estão em **Efeitos próprios**, no Fundamento. A versão de Técnica Máxima usa seu orçamento e seus requisitos próprios; caber nos pontos de uma Classe comum não remove o requisito de Máxima.
 
 
 <!-- page:cat-restricoes-conjuracao|Restrições de conjuração -->
@@ -733,7 +733,7 @@ Registre quais aplicações pertencem ao tema. Afinidade não ignora coberturas 
 
 Seu **PE máximo aumenta em 3 × sua maior Classe**. Atualize esse acréscimo quando sua maior Classe aumentar.
 
-O aumento é do máximo: o Talento não é uma ação de recuperação e não pode ser ativado repetidamente para repor PE. Recuperar os pontos segue **Descanso e recuperação**.
+O aumento é do máximo: o Talento não é uma ação de recuperação e não pode ser ativado repetidamente para repor PE. Recuperar os pontos segue **Descansos**, em Dano e recuperação.
 
 <!-- page:cat-regra-propria|Regra Própria -->
 # Regra Própria

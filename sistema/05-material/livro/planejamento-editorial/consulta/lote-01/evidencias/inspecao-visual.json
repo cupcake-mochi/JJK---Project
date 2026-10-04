@@ -1,7 +1,7 @@
 {
-  "sha256_pdf": "3466b4066609bd841683fced382098abe3b6cc747296f0c3a636ef5a081dabde",
-  "sha256_texto": "a4d4b68bbed3c62efdc849ab32a08350694f6653bdeea08ec71874b5aada4980",
-  "metodo": "Inspeção efetiva das 30 páginas em provas sucessivas com view_image. Na versão final, reabertas 2 e20–30; 1 e3–19 mantêm pixels idênticos à prova já inspecionada. Comparações preservadas em COMPARACAO-FINAL-CONSULTA.json e registros parciais.",
+  "sha256_pdf": "39a4e58ee3c20d9538226accb469604754b603081dfd5fbe47628a92ccada487",
+  "sha256_texto": "279351e084412734977e739a88b06a4142f452d02a21e3cb4c229c0ba7220115",
+  "metodo": "Páginas alteradas abertas e inspecionadas. Demais páginas reutilizam inspeção anterior somente por igualdade de pixels, comprovada em COMPARACAO-VISUAL-2026-10-04.json.",
   "paginas": [
     {
       "pagina": 1,
@@ -29,7 +29,9 @@
       "resultado": "sem defeito visual observado",
       "observacoes": "Página inspecionada em prova anterior e confirmada idêntica em pixels na final. Títulos, colunas, linhas, margens e rodapé legíveis; sem cortes ou sobreposição. Índice final curto não foi preenchido artificialmente.",
       "sha256_png": "0c869fdab339eea4893a72c49082db9e2cf4c01811f289fe153352521cf1d55c",
-      "revisor": "/root/maxima"
+      "revisor": "/root/maxima",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026, revisão por modelo",
+      "arquivo": null
     },
     {
       "pagina": 5,
@@ -76,9 +78,10 @@
     {
       "pagina": 11,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Página inspecionada em prova anterior e confirmada idêntica em pixels na final. Títulos, colunas, linhas, margens e rodapé legíveis; sem cortes ou sobreposição. Índice final curto não foi preenchido artificialmente.",
-      "sha256_png": "ba75fec57f4f427ae1c09b2519de26274a21298b8c0139610ff7c7e4283051f0",
-      "revisor": "/root/maxima"
+      "observacoes": "Ficha de repertório com a coluna Posição e recursos e a linha do Traje, numa página só.",
+      "sha256_png": "19214fac53f820d1e71b334dd11f03311523d64747e253d20dea535aa3a13414",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo"
     },
     {
       "pagina": 12,
@@ -146,72 +149,129 @@
     {
       "pagina": 21,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Página final aberta por view_image. Títulos, colunas, linhas, margens e rodapé legíveis; sem cortes ou sobreposição. Índice final curto não foi preenchido artificialmente.",
-      "sha256_png": "5383d1b5859193b7ad4ea970b30e7f2e67a7348baabffbb5fe4d9cd79d5a44fd",
-      "revisor": "/root/maxima"
+      "observacoes": "Página do índice recomposta: 26 linhas (a última com 26), cabeçalho da tabela e título de faixa coerentes com a primeira e a última letra.",
+      "sha256_png": "d1164510f1a4a54a772660cc5729d343f35723d17a601f80b15fd8d87346e644",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo"
     },
     {
       "pagina": 22,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Página final aberta por view_image. Títulos, colunas, linhas, margens e rodapé legíveis; sem cortes ou sobreposição. Índice final curto não foi preenchido artificialmente.",
-      "sha256_png": "7209eb2bd7ef90b35713b611c0be7ab66f6b8bd37cfe7e7cc4b883440459d55c",
-      "revisor": "/root/maxima"
+      "observacoes": "Página do índice recomposta: 26 linhas (a última com 26), cabeçalho da tabela e título de faixa coerentes com a primeira e a última letra.",
+      "sha256_png": "cc1c35f9f117b55597174a0745cf1350c0ea457c466c1b249b1baca88ca8a02e",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo"
     },
     {
       "pagina": 23,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Página final aberta por view_image. Títulos, colunas, linhas, margens e rodapé legíveis; sem cortes ou sobreposição. Índice final curto não foi preenchido artificialmente.",
-      "sha256_png": "e8669a228169d4bea12538542faf5ecd416d8dc7c6bc4939fb5b5414326a0d53",
-      "revisor": "/root/maxima"
+      "observacoes": "Página do índice recomposta: 26 linhas (a última com 26), cabeçalho da tabela e título de faixa coerentes com a primeira e a última letra.",
+      "sha256_png": "f8cfed4d9d0117be9db109d6a02ad4705b8627229fd5829698a0f586a474ce8c",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo",
+      "arquivo": null
     },
     {
       "pagina": 24,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Página final aberta por view_image. Títulos, colunas, linhas, margens e rodapé legíveis; sem cortes ou sobreposição. Índice final curto não foi preenchido artificialmente.",
-      "sha256_png": "b22cb9502947f7fbfe68f9dfe6b08f0ece6eed6f8a9a2997dcbbd77e3ac57778",
-      "revisor": "/root/maxima"
+      "observacoes": "Página do índice recomposta: 26 linhas (a última com 26), cabeçalho da tabela e título de faixa coerentes com a primeira e a última letra.",
+      "sha256_png": "37d98b9a026225430d80e8c1a46a1abf3c32e063b93c396cfb87efe2e14e181a",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo"
     },
     {
       "pagina": 25,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Página final aberta por view_image. Títulos, colunas, linhas, margens e rodapé legíveis; sem cortes ou sobreposição. Índice final curto não foi preenchido artificialmente.",
-      "sha256_png": "dcf25f5826cb97e4c0bd3c77be9b80922f1d11fd790faaf11b927be41a4ae094",
-      "revisor": "/root/maxima"
+      "observacoes": "Página do índice recomposta: 26 linhas (a última com 26), cabeçalho da tabela e título de faixa coerentes com a primeira e a última letra.",
+      "sha256_png": "63d133ad83a4726859e6bf9f18e91f3c40ad0a3b6136a40dd4ddada054a524b5",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo",
+      "arquivo": null
     },
     {
       "pagina": 26,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Página final aberta por view_image. Títulos, colunas, linhas, margens e rodapé legíveis; sem cortes ou sobreposição. Índice final curto não foi preenchido artificialmente.",
-      "sha256_png": "ef5bdcb1338f3e2a295196f21b92465b361342dbc3ae3ac227b14be589a34980",
-      "revisor": "/root/maxima"
+      "observacoes": "Página do índice recomposta: 26 linhas (a última com 26), cabeçalho da tabela e título de faixa coerentes com a primeira e a última letra.",
+      "sha256_png": "8d436015086ac19673bee6edd2bdc6a840cd27f2d37be53e56da57ad8e2af1eb",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo"
     },
     {
       "pagina": 27,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Página final aberta por view_image. Títulos, colunas, linhas, margens e rodapé legíveis; sem cortes ou sobreposição. Índice final curto não foi preenchido artificialmente.",
-      "sha256_png": "fd36e331f1f7ee3e8abb1bfef4b647b847da56ed831ee0b5dbdc41d0e006cffb",
-      "revisor": "/root/maxima"
+      "observacoes": "Página do índice recomposta: 26 linhas (a última com 26), cabeçalho da tabela e título de faixa coerentes com a primeira e a última letra.",
+      "sha256_png": "b74530ba8b06b12b31fb97b4300d43e5b4fb3009b14f1cdb3363cf82099fd21a",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo"
     },
     {
       "pagina": 28,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Página final aberta por view_image. Títulos, colunas, linhas, margens e rodapé legíveis; sem cortes ou sobreposição. Índice final curto não foi preenchido artificialmente.",
-      "sha256_png": "2de621d543439159400b0cf14b9ca6ac11c9e205337ab47c40455f949580c777",
-      "revisor": "/root/maxima"
+      "observacoes": "Página do índice recomposta: 26 linhas (a última com 26), cabeçalho da tabela e título de faixa coerentes com a primeira e a última letra.",
+      "sha256_png": "327f353a3d560b5a882320fdc3426d26d7477aef1a783e8eb17b8341626f06f2",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo"
     },
     {
       "pagina": 29,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Página final aberta por view_image. Títulos, colunas, linhas, margens e rodapé legíveis; sem cortes ou sobreposição. Índice final curto não foi preenchido artificialmente.",
-      "sha256_png": "a7eba519132c50517ec797fab92dea5edb205019a1714b6c9b15db8ca6176298",
-      "revisor": "/root/maxima"
+      "observacoes": "Página do índice recomposta: 26 linhas (a última com 26), cabeçalho da tabela e título de faixa coerentes com a primeira e a última letra.",
+      "sha256_png": "f901b429e42911f7e3112752175c2b464a3d336fa33f3f7da33d5912f6784af3",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo"
     },
     {
       "pagina": 30,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Página final aberta por view_image. Títulos, colunas, linhas, margens e rodapé legíveis; sem cortes ou sobreposição. Índice final curto não foi preenchido artificialmente.",
-      "sha256_png": "8b51f0abc11a795cb6c3daea96ec30cb3ba7d3b8745c1e5ff738133cac08c7bb",
-      "revisor": "/root/maxima"
+      "observacoes": "Página do índice recomposta: 26 linhas (a última com 26), cabeçalho da tabela e título de faixa coerentes com a primeira e a última letra.",
+      "sha256_png": "70342abd16d7f79d2d752a66726fc7dfeb4f5d2be1346592c05fe7030a87f25d",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo"
     }
-  ]
+  ],
+  "sha256_pdf_anterior": "3466b4066609bd841683fced382098abe3b6cc747296f0c3a636ef5a081dabde",
+  "revisao_delta_2026_10_04": {
+    "sha256_anterior": "a4d4b68bbed3c62efdc849ab32a08350694f6653bdeea08ec71874b5aada4980",
+    "sha256_atual": "b77230eae945ddb15074bc402faeec98e282471e69485fec7f4964bea7ef83a6",
+    "mudancas": [
+      "C03",
+      "C05"
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.json",
+    "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana.",
+    "paginas_alteradas": [
+      4,
+      23,
+      25
+    ]
+  },
+  "revisao_delta_2026_10_04_decisoes": {
+    "sha256_pdf_anterior": "68309e749dbe617cdc8c1468a9ae80e69536a24887ace580818195913e086193",
+    "sha256_pdf_atual": "08a54a4284bdbba3767ead69c062a33eca0f595035f984a051bb604ee561be68",
+    "paginas_alteradas": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-04-decisoes.json",
+    "metodo": "As páginas alteradas foram abertas; as demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "revisao_delta_2026_10_04_quinta_passada": {
+    "sha256_pdf_anterior": "08a54a4284bdbba3767ead69c062a33eca0f595035f984a051bb604ee561be68",
+    "sha256_pdf_atual": "39a4e58ee3c20d9538226accb469604754b603081dfd5fbe47628a92ccada487",
+    "paginas_alteradas": [
+      11
+    ],
+    "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-04-quinta.json",
+    "metodo": "As páginas alteradas foram abertas; as demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  }
 }

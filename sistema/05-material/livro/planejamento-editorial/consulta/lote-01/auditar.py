@@ -22,8 +22,11 @@ def validate_dest(d):
 def table_rows(s):return [x for x in s.splitlines() if x.startswith('|') and not re.match(r'^\|[-:| ]+\|$',x)]
 ck('30 seções previstas',len(S),30);ck('Âncoras únicas',len(set(x['ancora'] for x in S)),30)
 ck('Títulos do mapa',load(B/'ESTRUTURA.json')['titulos'],{s['ancora']:s['titulo'] for s in S})
-ck('89 termos definidos',len(G),89);ck('268 entradas no índice',len(I),268);ck('Índice sem duplicatas',len(set(norm(x['termo']) for x in I)),len(I))
+# 268 até 04/10/2026; os 18 verbetes de G2-09, G4-12 e G5-11 levaram a 286 (revisao-interfaces/CORRECOES-APLICADAS.md, D13).
+ck('89 termos definidos',len(G),89);ck('286 entradas no índice',len(I),286);ck('Índice sem duplicatas',len(set(norm(x['termo']) for x in I)),len(I))
 ck('Índice alfabético',[norm(x['termo']) for x in I],sorted(norm(x['termo']) for x in I))
+# O gerador do livro lê DESTINOS.json, não INDICE.json; as duas cópias precisam ser iguais (os 18 verbetes de D13 ficaram só numa delas).
+D=load(E/'DESTINOS.json');ck('DESTINOS.json espelha o índice',D['indice'],I);ck('DESTINOS.json espelha o glossário',[(x['termo'],x['destino']) for x in D['glossario']],[(x['termo'],x['destino']) for x in G])
 for i,x in enumerate(G):
  ck(f'Glossário {i+1}: destino',validate_dest(x['destino']),True)
  ck(f'Glossário {i+1}: definição e título reproduzidos',f"**{x['termo']}.** {x['definicao']} **Consulta:** {x['destino']['titulo']}." in t,True)

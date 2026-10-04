@@ -60,8 +60,9 @@ Comece pela Regra da sua técnica e escolha o que ela estabelece sobre o lugar. 
 Efeito que possam ser usados sem inventar uma regra nova a cada turno.
 Acerto
 O Acerto pode causar dano, transmitir uma informação definida ou estabelecer uma regra comum para
-o ambiente. Um Acerto de dano segue a quantidade da próxima página. Uma regra de ambiente precisa
-ser curta, verificável e aplicada igualmente a todos os sujeitos que ela descreve, incluindo você.
+o ambiente. Um Acerto de dano segue a quantidade indicada em Acerto do domínio (p. 3). Uma regra de
+ambiente precisa ser curta, verificável e aplicada igualmente a todos os sujeitos que ela descreve,
+incluindo você.
 “Enquanto estiverem aqui, criaturas não podem causar dano a outras criaturas” descreve uma proibição
 verificável. “Meus inimigos perdem porque estão no meu território” não informa uma resolução. Um
 Acerto informativo transmite apenas o conteúdo registrado: explicar uma regra não revela pensamentos,
@@ -230,9 +231,10 @@ PODERES AVANÇADOS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 7
 Encerramento e Rescaldo
-Seu domínio termina quando a duração acaba, você o desfaz, chega a 0 PV, perde uma disputa ou uma
-regra destrói sua barreira. Durante uma disputa prolongada, acumular as falhas necessárias também o
-encerra. Uma Expansão aberta não precisa perder uma barreira para terminar.
+Seu domínio termina quando a duração acaba, você o desfaz, chega a 0 PV, fica Inconsciente ou
+Derrotado, perde uma disputa ou uma regra destrói sua barreira. Durante uma disputa prolongada,
+acumular as falhas necessárias também o encerra. Uma Expansão aberta não precisa perder uma
+barreira para terminar.
 Você pode desfazer voluntariamente o próprio domínio, sem ação. Isso não devolve o custo de abertura.
 Não é possível manter duas Expansões suas: encerrar a primeira impõe seu preço antes que você possa
 tentar abrir outra.
@@ -281,7 +283,8 @@ toda técnica em uma capacidade que corta paredes ou alcança alguém sem energi
 Encerramento
 Este modo não tem uma barreira exterior que possa ser destruída. Um objeto que faça parte da
 aparência do domínio não se torna automaticamente um ponto fraco. Valem a duração, a derrota em
-disputa, as falhas acumuladas nela, o encerramento voluntário e chegar a 0 PV.
+disputa, as falhas acumuladas nela, o encerramento voluntário, chegar a 0 PV e ficar Inconsciente ou
+Derrotado.
 Exemplo. No nível 26, maior Classe 7, Maestria 4 e refino 10, abrir custa 49 PE. Um feitiço de Classe 5
 custa 15 − 8 = 7 PE. Escolhendo o modo fechado, a abertura custaria 42 PE e esse feitiço custaria 15 − 5 = 10
 PE.
@@ -467,8 +470,8 @@ adversário recebe o primeiro Acerto; a aliada permanece protegida. Nos dois tur
 resolve outro Acerto no começo e age normalmente. Seus feitiços com custo positivo recebem desconto
 de 2 PE.
 A barreira tem 100 PV exteriores. Se ela durar até o fim do segundo turno seguinte, serão três
-aplicações, totalizando 24d8 por criatura que tenha recebido todas. A média bruta é 108, distribuída no
-tempo e antes das defesas. Encerrar antes reduz esse total e inicia Rescaldo da mesma maneira.
+aplicações, totalizando 24d8 por criatura que tenha recebido todas. Encerrar antes reduz esse total e
+inicia Rescaldo da mesma maneira.
 
 
 PÁGINA 14

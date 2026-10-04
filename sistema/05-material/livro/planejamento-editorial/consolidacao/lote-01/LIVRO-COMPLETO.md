@@ -281,7 +281,7 @@ Você pode converter **Ação Padrão em Ação Bônus**, e **Ação Bônus em A
 
 A Ação de Movimento oferece os metros indicados no **deslocamento** da ficha, normalmente 9 m. Você pode dividir o percurso antes e depois das outras ações. Uma tarefa que consuma a Ação de Movimento inteira não pode usar a mesma ação já gasta parcialmente para andar.
 
-Um custo de **Rodada inteira** consome Ação Padrão, Ação Bônus e Ação de Movimento de uma vez. A Reação permanece disponível. As regras de Movimento detalham terrenos, saltos, quedas e travessias especiais.
+Um custo de **Ação Completa** consome Ação Padrão, Ação Bônus e Ação de Movimento de uma vez. A Reação permanece disponível. As regras de Movimento detalham terrenos, saltos, quedas e travessias especiais.
 
 <!-- fonte:regras-gerais/lote-final/REGRAS-GERAIS.md#acoes -->
 <a id="geral--acoes"></a>
@@ -1507,7 +1507,7 @@ Ter os PE não basta: você precisa de uma habilidade que remova condições e r
 
 #### Lento
 
-Seu deslocamento cai pela metade e você não pode usar Ação Bônus. Converter outra ação em Bônus não permite usá-la enquanto essa proibição durar.
+Seu deslocamento cai pela metade e você não pode usar Ação Bônus. Distâncias concedidas por capacidades, como a de Passo, também caem pela metade. Converter outra ação em Bônus não permite usá-la enquanto essa proibição durar.
 
 #### Guarda Aberta
 
@@ -1662,7 +1662,7 @@ Energia temporária paga custos de PE permitidos, mas não aumenta seus PE máxi
 <a id="dano--zero"></a>
 ### Vida a zero
 
-Ao chegar a **zero de vida**, você está **Morrendo**. Escolha imediatamente **Aguentar** ou **Insistir**. Estas regras são para personagens jogadores. Inimigos e entidades seguem suas próprias regras de derrota.
+Ao chegar a **zero de vida**, você está **Morrendo**. Resolva primeiro as capacidades disparadas pela própria queda; em seguida, escolha **Aguentar** ou **Insistir**. Se uma dessas capacidades encerrar a queda, não há escolha. Estas regras são para personagens jogadores. Entidades seguem Invocações em campo. Um inimigo a zero de vida ou de Integridade é derrotado, e o mestre descreve o desfecho, como morte, fuga ou exorcismo, salvo uma regra da ficha dele.
 
 | Escolha | Consequência |
 |---|---|
@@ -1941,7 +1941,7 @@ Este roteiro usa a criação padrão no **nível 2**. Se a campanha começar em 
 | 2. Origem | Escolha sua história inicial, seus Legados e os treinos concedidos. |
 | 3. Caminho | Escolha sua forma de atuar e sua primeira Trilha. |
 | 4. Capacidades | Prepare técnica, Manejos ou Katas, conforme sua rota. |
-| 5. Equipamento | Receba o uniforme e faça suas compras. |
+| 5. Equipamento | Receba o uniforme, faça as escolhas do Traje e faça suas compras. |
 | 6. Ficha | Calcule os valores, confira escolhas e registre recursos. |
 
 #### Atributos
@@ -2045,7 +2045,7 @@ Antes da primeira sessão, confiram se o funcionamento descrito sustenta cada ap
 <a id="ab--ab-equipamento"></a>
 ### Equipamento e valores
 
-Na criação padrão, você recebe **um Traje 1 e ¥150.000** para comprar os demais itens. Use Equipamento inicial para montar o inventário e conferir acesso, preços de criação e fornecimento de munição.
+Na criação padrão, você recebe **um Traje 1 e ¥150.000** para comprar os demais itens. Registre a situação, o tipo de TR e as perícias do Traje, conforme Trajes, em Equipamento. Use Equipamento inicial para montar o inventário e conferir acesso, preços de criação e fornecimento de munição.
 
 Anote também ferramentas, suprimentos e onde cada coisa fica guardada. Some o Volume do que leva, inclusive o uniforme vestido. Seu limite de carga normal é **5 + Força**. Possuir um item não permite usar uma peça cujos requisitos você não cumpre.
 
@@ -2059,7 +2059,7 @@ Use a vida inicial e o ganho por nível do seu Caminho. No nível 2, aplique o v
 
 Calcule a Defesa com Destreza, proteção e escudo, conforme as peças que você usa. Respeite o teto de Destreza da proteção. Fontes de proteção que não se acumulam não entram duas vezes.
 
-O deslocamento padrão é **9 m**. Aplique qualquer alteração efetivamente recebida pela ficha. Modos diferentes de movimento, terreno e excesso de carga seguem Movimento.
+O deslocamento padrão é **9 m**. Aplique qualquer alteração efetivamente recebida pela ficha. Modos diferentes de movimento e terreno seguem Movimento. Excesso de carga segue Carga, em Regras gerais.
 
 #### Ataques e testes
 
@@ -2172,7 +2172,7 @@ Antes da primeira missão, confira suas escolhas com o mestre. Use esta lista ta
 - **Caminho:** características, Trilha e todas as escolhas recebidas no nível inicial.
 - **Capacidades:** rota, aplicações completas, espaços ocupados, custos, requisitos e usos limitados.
 - **Valores:** vida, energia, Integridade, Defesa, deslocamento, carga, Maestria e Refino ou Lapidação.
-- **Inventário:** uniforme, compras, munição, ferramentas, dinheiro restante e locais de armazenamento.
+- **Inventário:** uniforme com a situação, o TR e as perícias do Traje, compras, munição, ferramentas, dinheiro restante e locais de armazenamento.
 
 #### Capacidades na ficha
 
@@ -3067,7 +3067,7 @@ Você transforma ataques em preparação contra um adversário. Decide quando ma
 
 Registre os treinos na criação. As opções estão em **Perícias e Ofícios**.
 
-Compre seu equipamento conforme **Compras e equipamento inicial**.
+Compre seu equipamento conforme **Equipamento inicial**, em Equipamento.
 
 Escolha uma Trilha no nível 2: **Estocada, Batedor ou Executor**. O Batedor possui três rotas, das quais você escolhe uma.
 
@@ -3432,7 +3432,9 @@ Abrir contra outro alvo ou com outra categoria abandona a reserva. Um erro não 
 
 Você cria uma Oportunidade, escolhe quando aproveitá-la e mantém meios de continuar o confronto.
 
-**Nível 2: Combate Irregular.** Seus disparos não sofrem a desvantagem causada por inimigo adjacente. O limite **X de disparos antes da recarga aumenta em um**. O gatilho de recarga por **1 ou 2 natural** permanece. A capacidade adicional precisa ser preenchida com munição do inventário. A habilidade não cria uma unidade extra a cada recarga.
+**Acesso.** Armas de fogo exigem Grau 2 ou autorização prévia, conforme Equipamento restrito. Sem esse acesso, confirme a autorização com o mestre antes de escolher esta rota.
+
+**Nível 2: Combate Irregular.** Seus disparos não sofrem a desvantagem causada por inimigo adjacente. A **capacidade da Arma de Fogo** (os ataques por carga, em Munição) **aumenta em um**. Bestas e outras armas de disparo não recebem esse aumento. O gatilho de recarga por **1 ou 2 natural** permanece. A capacidade adicional precisa ser preenchida com munição do inventário. A habilidade não cria uma unidade extra a cada recarga.
 
 #### Oportunidade Tática
 
@@ -3460,7 +3462,7 @@ Após acertar, **TR de Espírito**: na falha, o alvo fica **Amedrontado por voc�
 
 Após acertar, **TR Físico**: na falha, o alvo não pode usar **Reações contra você até o começo do seu próximo turno**.
 
-Se consumiu Oportunidade e ele falhou no TR, pode gastar **uma Ação de Movimento inteira e ainda disponível**, naquele turno, para recarregar parcialmente a mesma arma. Recupere **metade de X, arredondada para baixo**, sem ultrapassar o limite.
+Se consumiu Oportunidade e ele falhou no TR, pode gastar **uma Ação de Movimento inteira e ainda disponível**, naquele turno, para recarregar parcialmente a mesma arma. Recupere **metade da capacidade, arredondada para baixo**, sem ultrapassar o limite.
 
 A recarga exige munição e acontece depois do disparo. Ela satisfaz uma necessidade normal de recarga surgida nesse ataque, mas não permite disparar com uma arma que já precisava ser recarregada. A Ação de Movimento parcialmente usada não pode pagar o custo com os metros restantes.
 
@@ -3476,9 +3478,9 @@ Supressão ainda não respondida, Queima-Roupa antes de receber a Oportunidade e
 
 **Nível 19: Romper o Contato.** **Reação. Consome uma Oportunidade.** Depois que o alvo da Sequência terminar de resolver contra você um ataque ou feitiço que prejudique você, pode mover-se até metade do seu deslocamento nessa situação, já considerando as reduções. Use esse valor, e não os metros que sobraram de um movimento anterior.
 
-A retirada não provoca ataque de oportunidade daquele alvo. Ao terminar um movimento efetivo, pode recarregar a mesma Arma de Fogo, recuperando **uma unidade de munição**, até a capacidade X. A reposição exige munição e capacidade de manusear a arma e integra a mesma Reação.
+A retirada não provoca ataque de oportunidade daquele alvo. Ao terminar um movimento efetivo, pode recarregar a mesma Arma de Fogo, recuperando **uma unidade de munição**, até a capacidade da arma. A reposição exige munição e capacidade de manusear a arma e integra a mesma Reação.
 
-Você pode se retirar com a arma cheia ou sem munição para repor, mas não pode ficar parado e usar a habilidade somente para recarregar. A reposição também resolve a necessidade normal de recarga por X ou pelo gatilho natural.
+Você pode se retirar com a arma cheia ou sem munição para repor, mas não pode ficar parado e usar a habilidade somente para recarregar. A reposição também resolve a necessidade normal de recarga por esvaziar a arma ou pelo gatilho natural.
 
 A ofensiva que ativou a retirada já aconteceu. A Oportunidade é consumida e o preparo que poderia produzi-la novamente é encerrado. A Sequência mantém seus acertos e seu prazo.
 
@@ -4100,7 +4102,7 @@ Os requisitos de cada Melhoria permanecem. Sustentação não transforma um bôn
 
 Ao conjurar, escolha a versão original ou a **Expressão Familiar**. A alternativa não ocupa outro espaço e dispensa o PE adicional de Remodelar. Ela conserva a redução de dados necessária para pagar a troca. Você pode Forçar uma Modulação sobre qualquer versão.
 
-Você também aprende sua **terceira Modulação Dominada**. As duas versões continuam sendo o mesmo feitiço para limites de uso da própria ficha, como a Restrição Único. Uma versão alternativa não concede outro uso por cena.
+Você também aprende sua **terceira Modulação Dominada**. As duas versões continuam sendo o mesmo feitiço para limites de uso da própria ficha, como a Restrição Uma Vez. Uma versão alternativa não concede outro uso por cena.
 
 #### Afinidade Técnica
 
@@ -4224,7 +4226,7 @@ Confira a Classe efetivamente usada, inclusive depois de Ampliar. Com maior Clas
 
 As oito Propriedades estão nas próximas páginas. Você conhece uma no nível 11 e duas a partir do 19. Elas acompanham sua arma vinculada. Com Vínculo Duplo, acompanham ambas, mas **os limites de uso pertencem a você**, não a cada arma.
 
-Trocar de vínculo não restaura usos por cena. A arma continua sendo um item: munição, Integridade, propriedades e efeitos precisam ser registrados. Uma capacidade que a mova não a repara nem a abastece, salvo permissão expressa.
+Trocar de vínculo não restaura usos por cena. A arma continua sendo um item: munição, Vida do objeto, propriedades e efeitos precisam ser registrados. Uma capacidade que a mova não a repara nem a abastece, salvo permissão expressa.
 
 <!-- fonte:caminhos/emanador/lote-01/EMANADOR.md#ema-propriedades -->
 <a id="emanador--ema-propriedades"></a>
@@ -4240,7 +4242,7 @@ O retorno não retira a arma de outra criatura que a esteja empunhando. Você pr
 
 Somente uma arma comum ou de **Grau 4 ou 3** recebe esta Propriedade. Ao sacá-la ou manifestá-la, mude seu perfil para outra arma da mesma categoria, cujo requisito de Força você cumpra.
 
-Conserve Grau, Integridade e efeitos próprios compatíveis. A transformação não repara, não recarrega e não altera o tipo ou a quantidade da munição. Antes de assumir um perfil que não aceite a munição instalada, ou que tenha capacidade menor que ela, descarregue a arma pelo procedimento normal.
+Conserve Grau, Vida do objeto e efeitos próprios compatíveis. A transformação não repara, não recarrega e não altera o tipo ou a quantidade da munição. Antes de assumir um perfil que não aceite a munição instalada, ou que tenha capacidade menor que ela, descarregue a arma pelo procedimento normal.
 
 O perfil escolhido funciona enquanto a arma mantiver este vínculo. Ao terminá-lo, ela volta ao perfil original. Munição que então fique incompatível ou excedente permanece no item, mas impede disparar até ajustar a carga pelo procedimento normal. A mudança não altera permanentemente o valor do item.
 
@@ -4268,7 +4270,7 @@ Você pode liberá-la sem ação no seu turno. Destruí-la ou destruir o apoio t
 
 Mantenha **duas armas vinculadas da categoria**. Pode sacar ou guardar fisicamente ambas no mesmo ato e usar qualquer uma nas habilidades da Trilha. Pague a manipulação exigida por esse ato, sem duplicá-la apenas por serem duas armas.
 
-Cada uma mantém munição, Integridade e efeitos próprios separados. Os limites por cena das suas Propriedades continuam compartilhados.
+Cada uma mantém munição, Vida do objeto e efeitos próprios separados. Os limites por cena das suas Propriedades continuam compartilhados.
 
 #### Sentido do Vínculo
 
@@ -5405,7 +5407,7 @@ Você pode orientá-la com sua Bônus ou comandar uma especial pela Padrão quan
 
 #### Mudar a composição
 
-Uma invocação ferida já não oferece as capacidades de que você precisa. Na abertura do turno, substitua-a por uma reserva apropriada e pague os PE dessa entrada. A nova criatura assume o saldo de básica elegível. Em seguida, escolha os aprimoramentos considerando a nova composição. Sua Bônus permanece disponível para outra utilização permitida.
+Uma invocação ferida já não oferece as capacidades de que você precisa. Na abertura do turno, substitua-a por uma invocação recolhida apropriada e pague os PE dessa entrada. A nova criatura assume o saldo de básica elegível. Em seguida, escolha os aprimoramentos considerando a nova composição. Sua Bônus permanece disponível para outra utilização permitida.
 
 <!-- fonte:caminhos/evocador/lote-01/EVOCADOR.md#ev-multiplas-repertorio -->
 <a id="evocador--ev-multiplas-repertorio"></a>
@@ -5520,7 +5522,7 @@ Se seu deslocamento mudar, recalcule o limite. Se já o tiver consumido, termine
 
 **Nível 2.** Você ganha Fluidez quando acerta uma criatura hostil com arma ou ataque desarmado **durante seu turno**, ou quando uma criatura hostil erra um ataque contra você.
 
-Pode ganhar Fluidez **uma vez entre o começo de um turno seu e o começo do próximo**. Anote se já obteve Fluidez nesse intervalo; o limite se renova no começo do seu turno.
+Pode ganhar Fluidez **uma vez entre o começo de um turno seu e o começo do próximo**. Anote se já obteve Fluidez nesse intervalo; o limite se renova no começo do seu turno. No combate, o primeiro intervalo vai do início do combate até o começo do seu primeiro turno, inclusive para Passo Guardado.
 
 Você guarda **uma Fluidez por vez**. Se já a possui, outro gatilho não acumula uma segunda nem fica reservado. Esse acontecimento também não consome uma obtenção do intervalo. Sofrer dano não remove Fluidez.
 
@@ -5534,7 +5536,7 @@ Antes de um ataque com arma ou desarmado, gaste Fluidez para realizá-lo **com v
 
 #### Instante Decisivo
 
-Após rolar o d20, antes de finalizar o ataque, gaste Fluidez para **ampliar sua margem de crítico em 1**, normalmente de 20 para 19–20. Esse mesmo acerto não pode recuperar Fluidez.
+Após rolar o d20 e antes de o alvo escolher entre a Defesa e Bloquear, gaste Fluidez para **ampliar sua margem de crítico em 1**, normalmente de 20 para 19–20. Esse mesmo acerto não pode recuperar Fluidez.
 
 #### Passo Rápido
 
@@ -5692,7 +5694,7 @@ Durante seu turno, você pode escolher ou trocar seu **Alvo Estudado sem gastar 
 
 **Fluidez + PE · Uma vez por turno seu.**
 
-Depois de confirmar o acerto, antes de rolar o dano, escolha **Destreza ou Inteligência**. Calcule **X = atributo escolhido − 1**, com mínimo de zero, e gaste **Fluidez e X PE**.
+Antes do nível 19, só durante seu turno. Depois de confirmar o acerto, antes de rolar o dano, escolha **Destreza ou Inteligência**. Calcule **X = atributo escolhido − 1**, com mínimo de zero, e gaste **Fluidez e X PE**.
 
 Role os **dados de dano da arma normalmente**. Golpe Cirúrgico não maximiza dados.
 
@@ -5704,7 +5706,7 @@ O atributo escolhido define o custo normal de PE e a quantidade de dados adicion
 
 O reforço vale somente para aquele ataque e exige que ele possa receber o dano de Canalizar normalmente.
 
-**Restringido.** Aplique o reforço ao dano equivalente de **Estímulo Muscular**, seguindo os mesmos cálculos de custo e quantidade por Destreza ou Inteligência − 1. Os dados adicionais têm o mesmo tamanho dos dados normais de Estímulo Muscular. Em um crítico com Golpe Cirúrgico, dobre tanto os dados normais de Estímulo Muscular quanto os dados adicionais da habilidade.
+**Restrição Celestial sem energia.** Aplique o reforço ao dano equivalente de **Estímulo Muscular**, seguindo os mesmos cálculos de custo e quantidade por Destreza ou Inteligência − 1. Os dados adicionais têm o mesmo tamanho dos dados normais de Estímulo Muscular. Em um crítico com Golpe Cirúrgico, dobre tanto os dados normais de Estímulo Muscular quanto os dados adicionais da habilidade.
 
 > **Exemplo.** Com Destreza 5, Golpe Cirúrgico custa **4 PE e Fluidez** e concede **4 dados adicionais**. Se seu Canalizar normal for `3d4`, uma arma de `1d8` causa **1d8 + atributo do ataque + 7d4**: os `3d4` normais de Canalizar e `4d4` adicionais. Em um crítico que dobre os dados da arma, causa **2d8 + atributo do ataque + 14d4**: os `6d4` normais de Canalizar já dobrados e os `8d4` adicionais também dobrados. Role todos esses dados normalmente. Uma ficha com Inteligência 5 também pode usar esse atributo para obter o mesmo custo e os mesmos 4 dados adicionais.
 
@@ -5716,7 +5718,7 @@ O reforço vale somente para aquele ataque e exige que ele possa receber o dano 
 
 **Fluidez · Uma vez por turno seu.**
 
-Depois de resolver o acerto, gaste Fluidez. O alvo realiza um **TR Físico** contra:
+Antes do nível 19, só durante seu turno. Depois de resolver o acerto, gaste Fluidez. O alvo realiza um **TR Físico** contra:
 
 **CD = 8 + atributo utilizado no ataque + sua maestria.**
 
@@ -5880,7 +5882,7 @@ Rajada Marcial só pode ser utilizada com a Ação Bônus concedida por Corpo Tr
 
 **Fluidez · Uma vez por turno seu.**
 
-Depois de acertar um ataque desarmado, gaste Fluidez. O alvo realiza um **TR de Vigor contra a CD do Pugilista**, utilizando o atributo daquele ataque na CD.
+Durante seu turno, depois de acertar um ataque desarmado, gaste Fluidez. O alvo realiza um **TR de Vigor contra a CD do Pugilista**, utilizando o atributo daquele ataque na CD.
 
 Na falha, fica **Lento até o fim do próximo turno dele**.
 
@@ -6055,7 +6057,7 @@ Durante seu turno, pode realizar **duas manipulações gratuitas de itens, em ve
 
 Ao realizar a **Ação Atacar**, pode gastar **3 PE antes do primeiro ataque** para realizar **dois ataques com armas de uma mão**, em vez do ataque único normalmente disponível. Se outra regra já conceder mais ataques nessa ação, use a maior quantidade; as quantidades não se somam.
 
-Pode combinar ataques corpo a corpo e arremessos, usar a mesma arma ou armas diferentes e atacar a mesma criatura ou criaturas diferentes. Cada ataque é resolvido separadamente, com seu dano e seus requisitos normais. Adicionais de dano permanecem sujeitos às próprias regras.
+O segundo ataque precisa ser corpo a corpo ou um arremesso, e nunca um disparo de arma de fogo ou de besta. Pode combinar ataques corpo a corpo e arremessos, usar a mesma arma ou armas diferentes e atacar a mesma criatura ou criaturas diferentes. Cada ataque é resolvido separadamente, com seu dano e seus requisitos normais. Adicionais de dano permanecem sujeitos às próprias regras.
 
 Sua Ação Bônus permanece disponível. Essa execução não exige Fluidez.
 
@@ -6189,7 +6191,7 @@ O limite passa a ser **uma recuperação entre o começo de um turno seu e o com
 
 **Uma vez por combate · Fluidez e 12 PE.**
 
-Ao realizar a **Ação Atacar**, pode substituir **um dos seus ataques** por Trajetória Perfeita, utilizando uma **arma de uma mão apropriada para arremesso**. Você precisa ter Fluidez antes da execução e ainda não ter utilizado Lançamento Cruzado, Trajetória de Retorno ou Finta de Retorno naquele turno. Declare o percurso e pague os custos antes de rolar.
+Ao realizar a **Ação Atacar**, pode substituir **um dos seus ataques** por Trajetória Perfeita, utilizando uma **arma de uma mão com Longo Alcance de arremesso**. Você precisa ter Fluidez antes da execução e ainda não ter utilizado Lançamento Cruzado, Trajetória de Retorno ou Finta de Retorno naquele turno. Declare o percurso e pague os custos antes de rolar.
 
 Escolha até **quatro criaturas hostis que você percebe** e a ordem em que a arma passará por elas. O percurso completo pode somar **até 24 m**, incluindo todos os trechos desde sua posição, e pode utilizar até **três pontos de ricochete em superfícies sólidas**. Use esses pontos para mudar a direção da arma. Cada trecho precisa estar livre de obstáculos que impeçam sua passagem. Uma mesma criatura só pode ser atacada uma vez nessa execução.
 
@@ -6554,13 +6556,13 @@ As tabelas deste capítulo apresentam armas, proteção, suprimentos e preços. 
 | Categoria | A família em que a arma está incluída. O treino vale para a categoria inteira. |
 | Mãos | Quantas mãos são necessárias para atacar com ela. |
 | Dado | O dano próprio da arma. Atributo e outros acréscimos seguem suas regras. |
-| Propriedades | Benefícios e restrições, explicados em [Propriedades](#equip--eq-propriedades). |
+| Propriedades | Benefícios e restrições, explicados em [Propriedades](#equip--eq-propriedades); Volumosa e Embainhada estão em Armas escondidas. |
 | Requer Força | O valor mínimo de Força para empunhar sem a penalidade abaixo. |
 | Volume | Quanto o item ocupa na sua capacidade de carga. |
 
 #### Treino e Força
 
-**Sem treino na categoria**, você tem desvantagem nos ataques com aquela arma. Consulte as categorias treinadas na sua ficha.
+**Sem treino na categoria ou naquela arma específica**, você tem desvantagem nos ataques com aquela arma. Consulte as categorias treinadas na sua ficha.
 
 **Sem a Força exigida**, seu deslocamento cai pela metade e você não soma Destreza à Defesa enquanto empunhar a arma. Essa penalidade e a falta de treino podem ocorrer juntas. Carregá-la guardada conta para a carga, mas não é empunhá-la.
 
@@ -6581,6 +6583,8 @@ Oculta, Discreta e Vestida não determinam o Volume. A propriedade Volumosa tem 
 **Durante seu turno, você pode fazer uma manipulação simples de item gratuitamente.** Sacar uma arma, guardar um item, recolher algo solto ao seu alcance, abrir uma porta destrancada ou acionar um interruptor acessível usam essa mesma oportunidade.
 
 Depois dela, **cada nova manipulação simples exige uma Ação de Movimento inteira**. Se já usou parte dessa ação para se deslocar, não pode gastar o restante como se ela ainda estivesse inteira. A conversão de ações segue as regras do turno.
+
+Duas capacidades que troquem essa manipulação gratuita por duas não se somam. Em cada turno, use uma delas, com as restrições dela.
 
 #### Trocar de arma
 
@@ -6718,7 +6722,7 @@ Enquanto usar um uniforme, a proteção dele substitui a proteção passiva da s
 
 Some a proteção de **um escudo empunhado** à proteção que já utiliza, respeitando o teto de Destreza dele. Isso vale com uniforme ou com a proteção passiva da sua rota. Um escudo guardado não concede proteção.
 
-> **Exemplo:** Rina tem Destreza 4 e usa Traje 2, que fornece proteção 2 sem teto. Sua Defesa é 10 + 4 + 2 = **16**. Com um escudo Médio, recebe mais 2 de proteção, mas só pode contar 3 de Destreza: 10 + 3 + 2 + 2 = **17**.
+> **Exemplo:** Rina tem Destreza 4 e usa Traje 2, que fornece proteção 2 sem teto. Sua Defesa é 10 + 4 + 2 = **16**. Com um Broquel, recebe mais 1 de proteção: 10 + 4 + 2 + 1 = **17**. Um escudo Médio exigiria Força 3; com ele, ela só poderia contar 3 de Destreza.
 
 #### Requisitos e carga
 
@@ -6817,7 +6821,7 @@ Preparar proteção leva tempo. Para trocar de uniforme, termine de retirar o an
 | Revestimento | 10 minutos | 5 minutos |
 | Escudo | Uma Ação Padrão | Uma Ação Padrão |
 
-Você precisa alcançar a peça, seus fechos e apoios. Em combate, cada **Rodada inteira** dedicada a vestir ou retirar um uniforme avança **6 segundos** da tarefa. Ela consome Padrão, Bônus e Movimento, mantendo a Reação disponível. O escudo usa apenas a Ação Padrão da tabela.
+Você precisa alcançar a peça, seus fechos e apoios. Em combate, cada **Ação Completa** dedicada a vestir ou retirar um uniforme avança **6 segundos** da tarefa. Ela consome Padrão, Bônus e Movimento, mantendo a Reação disponível. O escudo usa apenas a Ação Padrão da tabela.
 
 Uma interrupção pausa o trabalho, sem apagar o tempo já concluído. Você pode retomá-lo pelo que falta. Fazer outra tarefa durante a pausa não avança o preparo ou a retirada.
 
@@ -7706,7 +7710,7 @@ O efeito não concede natação, não impede correntes de água e não protege o
 
 **Arma: Katana. Grau 1. Efeito: Cisão.** Compatível com armas de combate corpo a corpo.
 
-O dano dos ataques com esta arma atinge **somente a Integridade** do alvo, seguindo as regras de dano direto à alma. A vida não é descontada por esse dano. Dados e valores adicionais que pertençam ao próprio ataque acompanham a conversão; outro efeito com resolução separada segue sua própria descrição.
+O dano dos ataques com esta arma é **dano de Alma** e atinge **somente a Integridade** do alvo, conforme Receber dano de Alma, em Dano na alma. A vida não é descontada por esse dano. Dados e valores adicionais que pertençam ao próprio ataque acompanham a conversão; outro efeito com resolução separada segue sua própria descrição.
 
 Cisão não acrescenta dano e não permite escolher, a cada golpe, atingir vida em vez de Integridade. Para isso, use outra arma. As consequências da perda de Integridade e os alvos que podem ser afetados são tratados em Dano na alma.
 
@@ -7844,8 +7848,6 @@ A tabela informa quanto custa **sair do nível atual**. Ela não mostra o XP acu
 | 23–29 | 1.700 |
 | 30 | Não há outro nível. |
 
-Partindo do nível 2, chegar ao 20 exige **14.300 XP gastos**. Do 20 ao 30, são mais **16.400**, totalizando **30.700 XP**. O feito do limiar e o limite de um avanço por missão continuam necessários.
-
 Uma linha de missões paga por missão concluída. Quem entra no meio recebe pelo que jogar. Dividir artificialmente uma mesma missão em vários registros não cria novas recompensas: vale a divisão anunciada antes das sessões.
 
 <!-- fonte:progressao/lote-01/PROGRESSAO.md#prog-semana -->
@@ -7876,7 +7878,7 @@ A contagem reinicia no dia e horário definidos pela guilda ou campanha. Use a *
 <a id="progressao--prog-limiar"></a>
 ### Limiar do nível 20
 
-Para avançar do nível **20 para o 21**, reúna o XP necessário e registre **um dos oito feitos abaixo**, realizado entre os níveis **15 e 20**. Um feito reconhecido nessa faixa continua válido quando você chegar ao limiar.
+Para avançar do nível **20 para o 21**, reúna o XP necessário e registre **um dos sete feitos abaixo**, realizado entre os níveis **15 e 20**. Um feito reconhecido nessa faixa continua válido quando você chegar ao limiar.
 
 | Feito | Registro necessário |
 |---|---|
@@ -7887,7 +7889,6 @@ Para avançar do nível **20 para o 21**, reúna o XP necessário e registre **u
 | Voltar do estágio 4 de dano na alma. | Integridade a zero e saída do estado Derrotado registradas, conforme Derrota e morte. |
 | Cumprir uma Promessa até o fim, pagando sua parte. | Termos do pacto e seu cumprimento. |
 | Trazer à guilda uma ferramenta de Grau 1 ou Especial. | Ferramenta obtida e Grau de sua ficha. |
-| Terminar a missão depois de outro personagem jogador chegar ao estágio 4. | Ocorrência na ficha do participante e conclusão da missão. |
 
 A lista é fechada. O mestre confirma se o feito aconteceu e registra a evidência; não precisa avaliar se outra façanha parece equivalente. Os feitos de socorro, dano na alma e saída de Domínio precisam decorrer de uma ameaça hostil real na missão. Treinos e quedas provocadas pelo grupo apenas para cumprir essa lista não contam. Em uma campanha sem guilda, a instituição ou o grupo da campanha recebe a ferramenta do sétimo feito.
 
@@ -7975,7 +7976,7 @@ As aptidões conservam seus requisitos. Quando receber duas, escolha em ordem: a
 
 O feitiço concedido é uma aplicação conhecida, não uma vaga livre para comprar Talento, Domínio ou invocação. O Talento respeita seu nível de acesso e não ocupa espaços. Cada Leque abre uma vaga própria para ele além do limite de **cinco Talentos pagos**. Registre a origem de cada ganho.
 
-No nível 6, por exemplo, Leque concede uma aplicação até Classe 2 e um Talento até Categoria de Efeito 1. Escolher Leque em todos os sete marcos termina em **sete aplicações adicionais e sete Talentos concedidos**, além do repertório comum.
+No nível 6, por exemplo, Leque concede uma aplicação até Classe 2 e um Talento até Categoria de Efeito 1.
 
 Na rota sem energia, substitua Refino e aptidão por **Lapidação e Bênção**, e o feitiço por **Kata**. As outras rotas usam suas aplicações correspondentes.
 
@@ -7991,7 +7992,7 @@ Um feitiço ocupa um espaço. Os Talentos pagos e a Expansão de Domínio usam o
 
 #### Revisão ao subir de nível
 
-Você pode reescrever **um feitiço conhecido**, incluindo uma Liberação Máxima, ou rever **um espaço ocupado por entidade**: trocar sua entidade ou mudar entre entidade e feitiço. É a mesma revisão, não uma para cada opção.
+Você pode reescrever **um feitiço conhecido**, incluindo uma Liberação Máxima, a **Técnica Máxima**, ou rever **um espaço ocupado por entidade**: trocar sua entidade ou mudar entre entidade e feitiço. É a mesma revisão, não uma para cada opção.
 
 Quando uma habilidade concede duas entidades no mesmo espaço, a revisão daquele espaço abrange a dupla. Isso não transfere a duplicação para outros espaços. Preencher um espaço novo não gasta a revisão do nível.
 
@@ -8069,35 +8070,9 @@ Recalcule também o total de corpos permitido em **Invocações em campo**: atri
 
 Se a capacidade cair de quatro para duas e o atributo for 3, o total cai de **sete para cinco corpos**. Escolha os cinco que continuará controlando. Os outros permanecem fisicamente no mundo, sem receber ordens, acompanhar por controle ou usar capacidades para você. Não desaparecem nem são destruídos.
 
-Registre a seleção. Recuperar o controle de um corpo suspenso exige uma aquisição ou transferência de vínculo permitida, com os procedimentos de **Fabricação de entidades** e os limites de **Invocações em campo**. Estar perto dele ou voltar à cidade não permite alternar gratuitamente o grupo controlado.
+Registre a seleção. Um corpo suspenso volta ao seu controle quando uma vaga se abre porque um corpo controlado foi destruído ou porque seu total permitido aumentou, conforme **Invocações em campo**. Soltar um corpo de propósito, estar perto do suspenso ou voltar à cidade não permite alternar o grupo controlado.
 
 Também remova básicas, especiais, Talentos ou Famílias concedidas apenas pela Trilha anterior. Registre versões válidas das fichas afetadas. Entidades domadas ou fabricadas conservam sua aquisição própria; a troca de Trilha não as transforma em entidades por espaço nem aumenta seu nível.
-
-<!-- fonte:progressao/lote-01/PROGRESSAO.md#prog-ritmo -->
-<a id="progressao--prog-ritmo"></a>
-### Ritmo de campanha
-
-A recompensa de cada missão e a frequência das sessões determinam quanto tempo a progressão leva. A tabela abaixo é uma **estimativa**, com 52 semanas por ano, sem faltas, falhas, eventos de XP ou espera pelo feito do nível 20.
-
-| Frequência | Até nível 20 | Até nível 30 |
-|---|---:|---:|
-| Uma missão a cada duas semanas | 62,2 meses | 93,7 meses |
-| Uma por semana | 31,1 meses | 46,9 meses |
-| Duas por semana | 15,5 meses | 23,4 meses |
-| Três por semana | 12,4 meses | 18,7 meses |
-| Quatro por semana | 11,3 meses | 17,0 meses |
-
-Esses valores usam uma mistura de missões: antes do nível 20, a cada oito, uma curta, seis padrões e uma longa, média **106,25 XP**. Depois, três longas e dois finais de arco a cada cinco, média **240 XP**. Os descontos semanais entram na conta.
-
-Se todas as missões forem padrão, duas por semana levam aproximadamente **16,5 meses até o 20 e 35,4 até o 30**. A faixa final não acelera sozinha por causa do nível: a estimativa anterior depende de receber missões maiores.
-
-#### Ajustes opcionais da campanha
-
-A guilda pode anunciar missões de dobro, bônus por objetivos pessoais ou ajuda a participantes que ficaram para trás. Essas são políticas opcionais, definidas antes de aplicar a recompensa. Elas não retiram o desconto semanal nem o limite de um avanço por missão, salvo uma mudança expressa nas regras da campanha.
-
-Uma missão padrão de dobro paga 200 XP antes dos descontos. Outra possibilidade é dobrar a recompensa de quem esteja pelo menos três níveis abaixo do grupo. Defina previamente qual nível de referência será usado; essa compensação não faz parte da regra básica.
-
-Não reduza níveis já recebidos para ajustar o ritmo. Mude as recompensas futuras com o grupo e acompanhe os resultados.
 
 <!-- fonte:progressao/lote-01/PROGRESSAO.md#prog-guilda -->
 <a id="progressao--prog-guilda"></a>
@@ -8125,9 +8100,7 @@ Divida os três quartos restantes igualmente pelo número exigido, até completa
 
 Prefira um registro separado da experiência da ficha. A guilda pode conceder uma moeda própria, recursos ou um bônus a cada quantidade anunciada de missões mestradas.
 
-Se escolher uma mensalidade extra a cada **X missões**, a marca fecha ao completar X e usa o Grau daquele momento. Não guarde uma marca concluída para cobrar depois em outro Grau. A frequência esperada desse bônus é **X dividido pela média de missões mestradas por mês**.
-
-**Exemplo.** Com X igual a 12 e média de três missões mestradas por mês, uma marca leva cerca de quatro meses. A campanha escolhe X; o exemplo não fixa essa quantidade como regra geral.
+Se escolher uma mensalidade extra a cada **X missões**, a marca fecha ao completar X e usa o Grau daquele momento. Não guarde uma marca concluída para cobrar depois em outro Grau.
 
 <!-- fonte:progressao/lote-01/PROGRESSAO.md#prog-patentes -->
 <a id="progressao--prog-patentes"></a>
@@ -8135,7 +8108,7 @@ Se escolher uma mensalidade extra a cada **X missões**, a marca fecha ao comple
 
 A patente registra o reconhecimento do personagem pela instituição. O Projeto M usa os Graus **4, 3, 2, 1 e Especial**, nessa ordem crescente. Ela pode influenciar responsabilidades, acesso a recursos e a remuneração adotada pela campanha.
 
-Na criação padrão, você começa no **Grau 4**, independentemente da Origem. Uma campanha que comece com personagens já reconhecidos pode definir outra patente inicial, conforme **Compras e equipamento inicial**. Começar em um nível maior não concede essa mudança automaticamente.
+Na criação padrão, você começa no **Grau 4**, independentemente da Origem. Uma campanha que comece com personagens já reconhecidos pode definir outra patente inicial, conforme **Equipamento inicial**, em Equipamento. Começar em um nível maior não concede essa mudança automaticamente.
 
 A patente avança pelos feitos reconhecidos na campanha. O mestre, ou a organização da guilda, informa quando uma promoção ocorre e registra o novo Grau e o feito que a motivou. A subida de nível e os feitos do Limiar não concedem uma patente por conta própria.
 
@@ -8800,7 +8773,7 @@ Escolha a Forma e use a base de alcance da Classe 0. A Regra, as Famílias Fecha
 
 Você pode acrescentar **uma Melhoria Leve**, retirando **um dado** do dano-base. Se a peça exigir um valor de Classe, use 0. Ela não recebe Classe 1 só por ter sido escolhida aqui. Requisitos mínimos de Classe continuam impedindo a compra.
 
-Pode haver uma Restrição Leve, mas ela não recupera o dado pago nem cria pontos de montagem. Toque e Aura mantêm seu alcance e origem sem produzir a devolução Média de Corpo a Corpo neste caso.
+Pode haver uma Restrição Leve, mas ela não recupera o dado pago nem cria pontos de montagem. Toque e Aura mantêm seu alcance e origem sem produzir a devolução Média de Corpo a Corpo neste caso. Essa exigência da Forma não ocupa a vaga da Restrição Leve.
 
 > **Fio curto.** No nível 2, Mei conhece um Projétil de Classe 0. Alcance 9 m, Ação Padrão, 2d8 de Cortante. Se montar uma versão com Empurrão, paga um dado: 1d8 e o deslocamento de até 6 m da peça. No nível 5, essa mesma versão passa a 2d8, pois a base subiu a 3d8.
 
@@ -8929,7 +8902,7 @@ Mei monta **Fenda de Arrasto**, na faixa 17 a 20: Projétil (0), Passo (1, Alcan
 
 > **Na ficha:** Ação Completa e 25 PE. Um alvo a até 18 m. Ataque de conjuração. No acerto, causa 24d8 e move o alvo até 6 m numa direção permitida. Passo concede a Mei um deslocamento de até 6 m antes ou depois da resolução, sem ataques de oportunidade. É o deslocamento específico de Passo: não devolve a Ação de Movimento consumida. O Selo continua necessário.
 
-O ataque abre espaço para uma retirada ou afasta um inimigo de um aliado. Os 24d8 causam média de 108 de dano. Role os dados normalmente.
+O ataque abre espaço para uma retirada ou afasta um inimigo de um aliado.
 
 #### Aplicação sem dano
 
@@ -9561,7 +9534,7 @@ A capacidade precisa caber na Descrição e na Regra do Fundamento. Criar um efe
 
 > **Exemplo:** uma técnica que move objetos de papel quer deslocar uma aliada sobre uma plataforma. A ficha deve dizer quanto a plataforma percorre, se precisa de chão, quantas pessoas leva e o que ocorre diante de um obstáculo. “Transporta alguém” ainda não basta para usar a capacidade em jogo.
 
-Os procedimentos e os exemplos completos estão em **Criar um efeito**, no Fundamento. A versão de Técnica Máxima usa seu orçamento e seus requisitos próprios; caber nos pontos de uma Classe comum não remove o requisito de Máxima.
+Os procedimentos e os exemplos completos estão em **Efeitos próprios**, no Fundamento. A versão de Técnica Máxima usa seu orçamento e seus requisitos próprios; caber nos pontos de uma Classe comum não remove o requisito de Máxima.
 
 <!-- fonte:catalogo/lote-01/CATALOGO.md#cat-restricoes-conjuracao -->
 <a id="catalogo--cat-restricoes-conjuracao"></a>
@@ -9823,7 +9796,7 @@ Registre quais aplicações pertencem ao tema. Afinidade não ignora coberturas 
 
 Seu **PE máximo aumenta em 3 × sua maior Classe**. Atualize esse acréscimo quando sua maior Classe aumentar.
 
-O aumento é do máximo: o Talento não é uma ação de recuperação e não pode ser ativado repetidamente para repor PE. Recuperar os pontos segue **Descanso e recuperação**.
+O aumento é do máximo: o Talento não é uma ação de recuperação e não pode ser ativado repetidamente para repor PE. Recuperar os pontos segue **Descansos**, em Dano e recuperação.
 
 <!-- fonte:catalogo/lote-01/CATALOGO.md#cat-regra-propria -->
 <a id="catalogo--cat-regra-propria"></a>
@@ -9918,18 +9891,7 @@ Nos níveis **6, 10, 14, 18, 22, 26 e 30**, você alcança um marco. Cada marco 
 
 Se escolher **Refino**, receba mais **+1 de Refino e uma aptidão**. Se o ganho básico já deixou seu Refino em 10, receba **duas aptidões**, em vez desse aumento adicional e de uma aptidão. Confira os requisitos com o Refino atualizado.
 
-| Nível | Nunca escolhe Refino | Sempre escolhe Refino | Aptidões recebidas pela escolha nesse marco |
-|---|---:|---:|---:|
-| Início | 1 | 1 | — |
-| 6 | 2 | 3 | 1 |
-| 10 | 3 | 5 | 1 |
-| 14 | 4 | 7 | 1 |
-| 18 | 5 | 9 | 1 |
-| 22 | 6 | 10 | 2 |
-| 26 | 7 | 10 | 2 |
-| 30 | 8 | 10 | 2 |
-
-A última coluna acompanha quem sempre escolheu Refino. Em outra sequência, verifique seu valor naquele marco. Os ganhos de Corpo, Leque e dos espaços conhecidos ficam em **Progressão**.
+Os ganhos de Corpo, Leque e dos espaços conhecidos ficam em **Progressão**.
 
 #### Escolhas e requisitos
 
@@ -10472,7 +10434,7 @@ Você desenvolve um estilo ligado a armas ou a uma ferramenta amaldiçoada. Uma 
 
 #### Criação
 
-1. Escreva a **Descrição** e a **Regra** pelo procedimento de Fundamento.
+1. Escreva a **Descrição**, a **Regra** e a **Expressão da técnica** pelo procedimento de Fundamento.
 2. Escolha a [rota de arma](#rotas--rota-armas) ou a [rota de ferramenta](#rotas--rota-ferramenta). Essa escolha é permanente.
 3. Registre o equipamento que permite executar suas Katas e o atributo utilizado.
 4. Escolha as Famílias e monte seu repertório. Talentos e entidades usam os mesmos espaços disponíveis para Katas.
@@ -10493,9 +10455,11 @@ Esta rota não concede **Expansão de Domínio**, incompleta ou completa, nem **
 <a id="rotas--rota-armas"></a>
 ### Armas
 
-Ao escolher esta rota, selecione **três grupos de armas diferentes** entre os grupos de Equipamento. Você recebe uma arma de cada grupo, todas de **grau 4**, e fica treinado nos três grupos, além dos treinos concedidos por outras escolhas.
+Ao escolher esta rota, selecione **três categorias de armas diferentes** entre as categorias de Equipamento. Você recebe uma arma de cada categoria, todas de **grau 4**, e fica treinado nas três categorias, além dos treinos concedidos por outras escolhas.
 
-Você pode executar suas Katas com qualquer **arma amaldiçoada de um desses grupos**, inclusive uma obtida depois. Grau 4 permite ferir maldições. Efeitos especiais de graus maiores seguem **Equipamentos amaldiçoados**.
+**Acesso.** Escolha qualquer arma da categoria que seu acesso permita. As armas recebidas seguem **Equipamento restrito**: Arma de Fogo exige Grau 2 ou autorização prévia do mestre. Uma arma de fogo recebida vem com a munição inicial de uma compra, conforme **Munição inicial**.
+
+Você pode executar suas Katas com qualquer **arma amaldiçoada de uma dessas categorias**, inclusive uma obtida depois. Grau 4 permite ferir maldições. Efeitos especiais de graus maiores seguem **Equipamento amaldiçoado**.
 
 Essa escolha fornece armas, treino e o Selo. Manhas e outras habilidades de combate dependem de suas próprias fontes. As armas não sobem de grau com seu nível.
 
@@ -10508,11 +10472,11 @@ Use o atributo de ataque da arma empregada naquela execução tanto para o ataqu
 
 Se a arma permitir escolher entre Força e Destreza, declare qual está usando nessa execução. Use o mesmo atributo até terminar de resolvê-la. Um efeito com duração conserva a CD definida ao ser aplicado, mesmo se você trocar de arma depois.
 
-Assim, é possível escolher um grupo de Força e outro de Destreza. O atributo de uma arma não modifica o atributo exigido pela outra. Consulte cada arma em **Equipamento** para treino, mãos ocupadas, alcance e propriedades.
+Assim, é possível escolher uma categoria de Força e outra de Destreza. O atributo de uma arma não modifica o atributo exigido pela outra. Consulte cada arma em **Equipamento** para treino, mãos ocupadas, alcance e propriedades.
 
 #### Equipamento em uso
 
-Sacar uma arma de reserva segue **Ações — Interagir com objetos**. Uma arma guardada não cumpre o Selo de outra que você perdeu. Os efeitos especiais do equipamento seguem seus limites de uso e de itens ativos, sem multiplicar benefícios pelas armas guardadas.
+Sacar uma arma de reserva segue **Sacar e guardar**, em Equipamento. Uma arma guardada não cumpre o Selo de outra que você perdeu. Os efeitos especiais do equipamento seguem seus limites de uso e de itens ativos, sem multiplicar benefícios pelas armas guardadas.
 
 Uma Kata conserva o alcance da Forma escolhida. Empunhar uma arma longa não aumenta, por si só, o alcance de uma Kata de Toque.
 
@@ -10526,7 +10490,7 @@ Escolha **um dos cinco atributos** para os ataques e a CD de suas Katas. Uma arm
 
 Somente essa ferramenta cumpre o Selo de suas Katas. Ela não possui um dado de arma adicional. Caso seja representada por uma arma do catálogo, use os números daquela arma nos ataques comuns, sem acrescentar um segundo dano por ela também ser sua ferramenta.
 
-Uma ferramenta vestida como armadura ocupa a função de **Traje ou Revestimento**, com as regras dessa categoria. Ela não acrescenta outra camada de proteção. Uma roupa sem proteção continua sendo roupa, conforme Equipamento.
+Uma ferramenta vestida como armadura ocupa a função de **Traje ou Revestimento**, com as regras dessa categoria. Os números de Revestimento 2 ou 3 seguem o acesso de **Equipamento restrito**, salvo permissão do mestre. Ela não acrescenta outra camada de proteção. Uma roupa sem proteção continua sendo roupa, conforme Equipamento.
 
 #### Ataques comuns
 
@@ -10545,10 +10509,6 @@ Calado impede uma Kata que dependa de fala ou som. Uma ferramenta que funcione s
 ### Talentos marciais
 
 Talentos desta seção usam as regras de aquisição de **Fundamento — Selo e Talentos**. Categoria de Efeito 1 ocupa um espaço de Kata e está disponível desde o nível 1. Categoria 2 ocupa dois espaços e exige nível 7. Categoria 3 ocupa três espaços e exige nível 13. Eles contam no máximo de cinco Talentos pagos.
-
-#### Calo — Livre
-
-Você reconhece pelo toque o encaixe e a textura familiares de armas que costuma usar. Esse detalhe descreve sua relação com o equipamento. Identificar uma arma disfarçada, detectar uma substituição ou obter informação escondida ainda exige o procedimento da cena.
 
 #### Maldição do Inventário — Categoria de Efeito 1
 
@@ -10588,13 +10548,13 @@ Escolha uma de suas armas ao adquirir este Talento. Ela **não pode ser desarmad
 
 A arma ainda pode ser carregada ou transportada por outra criatura. O vínculo impede seu uso por terceiros, sem tornar o objeto indestrutível, alterar seu peso ou transportá-lo de volta para sua mão. Guardar ou largar a arma voluntariamente continua possível.
 
-Essas entradas são efeitos específicos do catálogo. Um Talento criado na mesa deve seguir **Catálogo de criação — Criar Talentos**, inclusive os limites de sua Categoria de Efeito.
+Essas entradas são efeitos específicos do catálogo. Um Talento criado na mesa deve seguir **Catálogo de criação — Talento Próprio**, inclusive os limites de sua Categoria de Efeito.
 
 <!-- fonte:rotas/lote-01/ROTAS.md#rota-fisga -->
 <a id="rotas--rota-fisga"></a>
 ### Fisga
 
-**Exemplo de Técnica Marcial pela rota de arma, no nível 2.** Iori usa ganchos e hastes para ferir um adversário e limitar sua movimentação. Pode executar o estilo com Armas Longas, Ceifa ou Flexível. Começa com uma arma de grau 4 de cada grupo.
+**Exemplo de Técnica Marcial pela rota de arma, no nível 2.** Iori usa ganchos e hastes para ferir um adversário e limitar sua movimentação. Pode executar o estilo com Armas Longas, Ceifa ou Flexível. Começa com uma arma de grau 4 de cada categoria.
 
 | Campo | Escolha |
 |---|---|
@@ -10602,7 +10562,7 @@ Essas entradas são efeitos específicos do catálogo. Um Talento criado na mesa
 | Regra | Os cabos partem da arma e seguram o que alcançam. |
 | Famílias Livres | Alcance e Controle. |
 | Famílias Fechadas | Amparo, Auxiliares e Área. |
-| Selo | Usar uma arma amaldiçoada de um dos três grupos. |
+| Selo | Usar uma arma amaldiçoada de uma das três categorias. |
 | Atributo | O da arma usada naquela Kata. |
 | Tipo de dano | Cortante. |
 
@@ -10684,7 +10644,7 @@ Escolha Sem Técnica entre as opções permitidas por **Origens e Legados**. Est
 
 1. Escolha uma das [sementes](#rotas--rota-sementes). A escolha é permanente.
 2. Escreva uma Descrição que mostre como você desenvolveu essa aptidão.
-3. Defina sua Regra, atributo e Selo pelo procedimento de Fundamento.
+3. Defina sua Regra, atributo, Selo e **Expressão da técnica** pelo procedimento de Fundamento.
 4. Escolha as Famílias e monte seus Manejos.
 
 A **Regra** explica uma aplicação da semente. Domínio Simples pode sustentar um estilo de contenção próximo de você. Energia Reversa pode sustentar um estilo de cura. Transformar a semente em fogo, viagem no tempo ou leitura de memória exigiria um funcionamento que ela não fornece.
@@ -10861,7 +10821,7 @@ Em cada marco, receba **+1 ponto de atributo, +1 de Lapidação e +1 espaço de 
 | Lapidação | +1 de Lapidação e uma Bênção. Se já atingiu Lapidação 10, receba duas Bênçãos. |
 | Leque | Uma Kata adicional e um Talento. |
 
-Confira o teto **depois do +1 gratuito**. Quem escolhe Lapidação em todos os marcos recebe duas Bênçãos nos níveis 22, 26 e 30, totalizando dez escolhas pagas. Quem nunca a escolhe termina em Lapidação 8 e conserva apenas as Bênçãos gratuitas.
+Confira o teto **depois do +1 gratuito**.
 
 A Kata concedida por Leque é uma aplicação, não um espaço livre para outra compra. O Talento é concedido sem pagar espaços e respeita seu nível de acesso. Cada Leque abre uma vaga adicional para esse Talento além do máximo de cinco pagos. Consulte **Experiência e Progressão — Marcos** para as regras comuns, incluindo a especialização de perícias e ofícios.
 
@@ -11231,7 +11191,7 @@ A Incompleta e o modo aberto conservam o centro em que foram criados. Você pode
 <a id="poderes--rescaldo"></a>
 ### Encerramento e Rescaldo
 
-Seu domínio termina quando a duração acaba, você o desfaz, chega a **0 PV**, perde uma disputa ou uma regra destrói sua barreira. Durante uma disputa prolongada, acumular as falhas necessárias também o encerra. Uma Expansão aberta não precisa perder uma barreira para terminar.
+Seu domínio termina quando a duração acaba, você o desfaz, chega a **0 PV**, fica **Inconsciente** ou **Derrotado**, perde uma disputa ou uma regra destrói sua barreira. Durante uma disputa prolongada, acumular as falhas necessárias também o encerra. Uma Expansão aberta não precisa perder uma barreira para terminar.
 
 Você pode desfazer voluntariamente o próprio domínio, sem ação. Isso não devolve o custo de abertura. Não é possível manter duas Expansões suas: encerrar a primeira impõe seu preço antes que você possa tentar abrir outra.
 
@@ -11265,7 +11225,7 @@ A ficha precisa distinguir criaturas, objetos e ausência de energia. Abrir sem 
 
 #### Encerramento
 
-Este modo não tem uma barreira exterior que possa ser destruída. Um objeto que faça parte da aparência do domínio não se torna automaticamente um ponto fraco. Valem a duração, a derrota em disputa, as falhas acumuladas nela, o encerramento voluntário e chegar a 0 PV.
+Este modo não tem uma barreira exterior que possa ser destruída. Um objeto que faça parte da aparência do domínio não se torna automaticamente um ponto fraco. Valem a duração, a derrota em disputa, as falhas acumuladas nela, o encerramento voluntário, chegar a 0 PV e ficar Inconsciente ou Derrotado.
 
 > **Exemplo.** No nível 26, maior Classe 7, Maestria 4 e refino 10, abrir custa 49 PE. Um feitiço de Classe 5 custa 15 − 8 = **7 PE**. Escolhendo o modo fechado, a abertura custaria 42 PE e esse feitiço custaria 15 − 5 = **10 PE**.
 
@@ -11387,7 +11347,7 @@ Este domínio pertence a uma técnica que cria lâminas de vidro a partir de sup
 
 Yuri começa o turno ao lado de uma aliada e estabelece o contato antes de abrir. Paga 24 PE. Um adversário recebe o primeiro Acerto; a aliada permanece protegida. Nos dois turnos seguintes, Yuri resolve outro Acerto no começo e age normalmente. Seus feitiços com custo positivo recebem desconto de 2 PE.
 
-A barreira tem **100 PV exteriores**. Se ela durar até o fim do segundo turno seguinte, serão três aplicações, totalizando 24d8 por criatura que tenha recebido todas. A média bruta é 108, distribuída no tempo e antes das defesas. Encerrar antes reduz esse total e inicia Rescaldo da mesma maneira.
+A barreira tem **100 PV exteriores**. Se ela durar até o fim do segundo turno seguinte, serão três aplicações, totalizando 24d8 por criatura que tenha recebido todas. Encerrar antes reduz esse total e inicia Rescaldo da mesma maneira.
 
 <!-- fonte:poderes-avancados/lote-01/PODERES-AVANCADOS.md#salatregua -->
 <a id="poderes--salatregua"></a>
@@ -11489,7 +11449,7 @@ Você precisa ter energia para o custo sem desconto de Ritual e para essa penali
 
 #### Treino e prática
 
-Para alguém treinado, Inteligência e maestria aparecem nos dois lados da conta. Destreza e especialização melhoram a chance. Sem treino, a maestria permanece na CD, mas não entra na rolagem: a diferença é de 10 pontos percentuais com maestria 2, 15 com maestria 3 e 20 com maestria 4, enquanto não houver um limite de probabilidade atingido.
+Para alguém treinado, Inteligência e maestria aparecem nos dois lados da conta. Destreza e especialização melhoram a chance. Sem treino, a maestria permanece na CD, mas não entra na rolagem.
 
 <!-- fonte:ritual-e-pactos/lote-01/RITUAL-E-PACTOS.md#rit-recitar -->
 <a id="ritual--rit-recitar"></a>
@@ -11511,7 +11471,7 @@ Uma Liberação usa Ritual completo ou Recitação Prolongada. Pague seus PE e e
 
 **Só na Recitação Prolongada de uma Liberação**, acrescente **metade da Classe em d8, para baixo, mínimo 1**, depois de montar seu dano. Esses dados podem exceder o teto de 4 × Classe. Classe 3 recebe +1d8, Classes 4–5 recebem +2d8 e Classes 6–7 recebem +3d8.
 
-Técnica Máxima pode receber Ritual completo, preservando seu custo, recarga e resolução. Não recebe os dados excepcionais da Liberação e não pode ser guardada por Recitação Prolongada.
+Técnica Máxima pode receber Ritual completo, preservando seu custo, recarga e resolução. Use sua maior Classe como Classe do feitiço no teste, na penalidade de falha e nas Melhorias de Ritual. Não recebe os dados excepcionais da Liberação e não pode ser guardada por Recitação Prolongada.
 
 <!-- fonte:ritual-e-pactos/lote-01/RITUAL-E-PACTOS.md#rit-melhorias -->
 <a id="ritual--rit-melhorias"></a>
@@ -11837,7 +11797,7 @@ A conversão normal de ações permite trocar Padrão por Bônus e Bônus por Mo
 <a id="campo--inv-troca"></a>
 ### Trocar de entidade
 
-Na troca, uma entidade sai e outra entra pagando a Bônus e o PE da entrada. A substituta ocupa o lugar de quem saiu. Se não couber, use o espaço livre mais próximo. A primeira tarefa vem junto da troca, desde que a entidade consiga receber e entender a orientação.
+Na troca, uma entidade sai e outra entra pagando a Bônus e o PE da entrada. A substituta ocupa o lugar de quem saiu. Ela pode ser uma entidade caída: nesse caso, pague o retorno no lugar da entrada. Se não couber, use o espaço livre mais próximo. A primeira tarefa vem junto da troca, desde que a entidade consiga receber e entender a orientação.
 
 A substituta recebe **no máximo uma básica disponível de quem saiu**, quando todas estas condições forem cumpridas:
 
@@ -11851,7 +11811,7 @@ Recolher e trazer de volta a mesma criatura não copia o recurso. Uma básica in
 
 Quando uma permissão fizer várias entidades entrarem, escolha **uma** como substituta direta: somente ela recebe a tarefa incluída e a possível básica. As demais entram a até 1,5 m de você, pelas regras de entrada comum. Se várias saírem para uma entrar, escolha uma das posições de saída; ainda há no máximo uma básica transferida.
 
-> **Exemplo.** O cão ainda pode agir. Kaito o troca pela ave, que recebe a básica. Depois que a ave ataca, devolvê-la à reserva e trazer o cão não restaura aquela atuação. Ambos continuam com o histórico daquele ciclo.
+> **Exemplo.** O cão ainda pode agir. Kaito o troca pela ave, que recebe a básica. Depois que a ave ataca, recolhê-la e trazer o cão não restaura aquela atuação. Ambos continuam com o histórico daquele ciclo.
 
 <!-- fonte:invocacoes/lote-01/INVOCACOES-EM-CAMPO.md#inv-intencao -->
 <a id="campo--inv-intencao"></a>
@@ -11895,6 +11855,8 @@ A tarefa incluída numa troca e a orientação posterior de uma especial precisa
 
 A entidade usa sua atuação básica para uma capacidade básica conhecida ou para uma ação comum que seu corpo consiga executar. Atacar, Correr, Desengajar, Esquivar, Esconder, Ajudar, Vasculhar, Estudar e Usar um Objeto seguem os procedimentos de **Ações**.
 
+Para Atacar, num revide ou num ataque comum concedido, a entidade usa a **básica ofensiva de Classe 0** da ficha ou uma **arma que ela empunhe**. O acerto com arma está em **Construir invocações — Acerto e dificuldade**. Sem nenhuma das duas, ela não ataca.
+
 Conhecer duas básicas não permite executar ambas no mesmo ciclo. Correr usa a básica; não sobra um ataque depois. Ajudar exige uma contribuição real. Para ajudar uma especial, uma entidade gasta sua básica na ajuda e a executora gasta a própria básica na especial. Várias ajudas não acumulam vantagens.
 
 Uma ação comum de Bônus disponível à entidade também pode ser paga com sua básica. Isso não lhe cria uma Bônus independente nem concede habilidades de personagem. Uma proibição de usar Bônus continua valendo nessa substituição.
@@ -11937,7 +11899,7 @@ O descanso longo recupera a reserva inteira. O descanso curto recupera um quarto
 
 Entrada, retorno e carga de talismã são pagamentos seus. A reserva não os divide. Na Contramedida de uma entidade, os 2 PE seguem a divisão acima, e a Reação exigida é a coletiva. Custos de manutenção têm a prioridade descrita em **Manutenção**.
 
-Uma especial que exija Concentração é sustentada pela entidade executora. Ela usa seu próprio TR quando sofre dano, seguindo Concentração. O dano recebido pelo invocador não exige esse teste da entidade. Por exemplo, uma flecha que acerte Kaito não testa a concentração do cão; uma flecha que acerte o cão exige o TR dele.
+Uma especial que exija Concentração é sustentada pela entidade executora. Ela usa seu próprio TR quando sofre dano, seguindo Concentração. Recolher, desativar ou cair a zero encerra essa concentração. O dano recebido pelo invocador não exige esse teste da entidade. Por exemplo, uma flecha que acerte Kaito não testa a concentração do cão; uma flecha que acerte o cão exige o TR dele.
 
 Usos por cena, duração e demais exigências pertencem à ficha que os concede. Mudar a entidade ativa não renova um uso do conjunto nem transforma uma ordem anterior em autorização para repetir uma especial.
 
@@ -11984,7 +11946,7 @@ Para mudar entre antecipada e preparada, encerre a anterior por comunicação v�
 <a id="campo--inv-preparar"></a>
 ### Preparar uma ação
 
-No seu turno, uma entidade pode gastar a básica para preparar uma ação que caiba na tarefa recebida. Escolha um gatilho perceptível e verificável. Quando ele acontecer, confira os requisitos e pague a **Reação coletiva** e os custos próprios da execução. A básica já foi gasta.
+No seu turno, uma entidade pode gastar a básica para preparar uma ação que caiba na tarefa recebida. Ela também pode preparar um deslocamento, que usa o Movimento que ainda lhe resta e não concede metros novos. Escolha um gatilho perceptível e verificável. Quando ele acontecer, confira os requisitos e pague a **Reação coletiva** e os custos próprios da execução. A básica já foi gasta.
 
 Para preparar uma especial, gaste também sua Padrão e comunique a capacidade e o gatilho. A entidade precisa ter a básica disponível agora. Sem essa básica, não existe uma preparação pronta para mais tarde.
 
@@ -12135,11 +12097,11 @@ Se a próxima entrada for o retorno de uma entidade caída, abata **somente o va
 <a id="campo--inv-corpos"></a>
 ### Corpos amaldiçoados
 
-Corpos amaldiçoados não são recolhidos, sejam de técnica ou de criação. Ficam **ativos ou inativos** no mundo. A zero de vida, passam a Desligada, que tem outras regras.
+Corpos amaldiçoados não são recolhidos, sejam de técnica ou de criação. Ficam **ativos ou inativos** no mundo. A zero de vida, passam a Desligada, que tem outras regras. Uma domada sem meio de recolhimento segue este modo e entra no total abaixo.
 
 Você pode manter um **total de corpos igual ao atributo escolhido para a Defesa das entidades + sua capacidade de entidades ativas**. Conte juntos os corpos ativos e inativos. Para essa conta, use a maior capacidade que seu Caminho permite em combate. Ativar ou desativar um corpo não muda esse total. O limite de entidades que podem agir ao mesmo tempo continua valendo.
 
-Com atributo 3 e capacidade de duas entidades, por exemplo, pode manter cinco corpos: dois ativos e três inativos, ou todos os cinco inativos depois da luta. Corpos adicionais precisam ser deixados sem seu controle até haver espaço. Não desaparecem nem são destruídos por essa escolha.
+Com atributo 3 e capacidade de duas entidades, por exemplo, pode manter cinco corpos: dois ativos e três inativos, ou todos os cinco inativos depois da luta. Corpos adicionais precisam ser deixados sem seu controle. Não desaparecem nem são destruídos por essa escolha. Um corpo deixado assim volta ao seu controle quando uma vaga se abre porque um corpo controlado foi destruído ou porque seu total permitido aumentou. Deixar um corpo sem controle de propósito não abre vaga para trazer outro de volta.
 
 Um corpo inativo conserva vida, Defesa e posição. Pode andar para acompanhar você, mas **falha em toda rolagem, não age e não recebe tarefa**. Interpretação e trabalhos extremamente simples que não exijam rolagem são possíveis. Não podem substituir testes, lutar ou executar capacidades.
 
@@ -12212,7 +12174,7 @@ Comande com sua **Ação Completa** e gaste a básica da domada. Divida o PE com
 
 O sucesso num TR reduz o dano em um quarto, pelo procedimento comum da Máxima. Uma aplicação de cura usa os dados próprios desta tabela. Uma aplicação sem dano exige seu efeito escrito e delimitado antes da sessão; não transforma dados em qualquer benefício escolhido no momento.
 
-> **Exemplo.** A domada de nível 17 causa 19d8 numa montagem ofensiva válida. Paga 25 PE: 13 de Kaito e 12 da reserva, quando houver saldo. Uma Forma de cura usa 19d8, com média de 85,5 PV antes dos limites aplicáveis. Uma Máxima pessoal da mesma faixa usa outra escala; a domada não recebe esses dados maiores.
+> **Exemplo.** A domada de nível 17 causa 19d8 numa montagem ofensiva válida. Paga 25 PE: 13 de Kaito e 12 da reserva, quando houver saldo. Uma Forma de cura usa 19d8. Uma Máxima pessoal da mesma faixa usa outra escala; a domada não recebe esses dados maiores.
 
 <!-- fonte:invocacoes/lote-01/INVOCACOES-EM-CAMPO.md#inv-dominio -->
 <a id="campo--inv-dominio"></a>
@@ -12242,6 +12204,8 @@ Recolher, desativar ou derrubar a domada encerra sua Expansão e aplica o Rescal
 
 A zero de vida, a entidade para de atuar. Se puder ser recolhida, sai de campo. Caso contrário, permanece no lugar como **Desligada**. Confira primeiro se o dano a destruiu.
 
+**Integridade a zero.** Uma entidade com alma que chega a zero de Integridade cai sem ser destruída, como a zero de vida. O retorno exige pelo menos 1 de Integridade, que volta pelo descanso longo ou por uma capacidade que restaure Integridade. Os estágios de Integridade também valem para ela: o PE adicional e o teto de Classe se aplicam às especiais que ela executa.
+
 **Um dano direto destrói a entidade quando uma única ocorrência alcança sua vida máxima ou quando o excedente além de zero supera metade da vida máxima.** Igualar essa metade não basta. Dano em área pode derrubar, mas nunca destrói por si.
 
 Excedente é quanto do dano sobrou depois de zerar a vida atual. Use o dano efetivamente recebido, depois das defesas. O limite considera a vida máxima, não a vida que restava.
@@ -12258,7 +12222,7 @@ Essa queda também pode acontecer por dano persistente numa entidade recolhida. 
 <a id="campo--inv-retorno"></a>
 ### Retorno e corpos caídos
 
-Para trazer de volta uma entidade que caiu sem ser destruída, pague **o dobro do PE da entrada e sua Bônus**, no seu turno. Ela retorna com metade da vida máxima, arredondada para baixo, com mínimo de 1 PV. Respeite espaço, teto de ativos e recursos já gastos. O retorno não fornece básica.
+Para trazer de volta uma entidade que caiu sem ser destruída, pague **o dobro do PE da entrada e sua Bônus**, no seu turno. Ela retorna com metade da vida máxima, arredondada para baixo, com mínimo de 1 PV. Respeite espaço, teto de ativos e recursos já gastos. O retorno não cria uma básica própria. Feito numa troca, ainda permite receber a básica transferida.
 
 O descanso longo recupera a vida inteira. Cura não funciona a zero, esteja a entidade recolhida ou no chão. Recolher uma entidade que ainda tem vida usa uma entrada normal depois, com os mesmos ferimentos.
 
@@ -12284,7 +12248,7 @@ Na volta, confira os requisitos a partir do espaço de entrada. Usos não se ren
 
 > **Exemplo.** A ave sofreu um dano que se repete no fim do turno, sem depender da posição. Kaito a recolhe, mas resolve a repetição no momento previsto. Uma área que ela havia criado pode permanecer; a aura que precisava acompanhar o corpo deixa de alcançar outras criaturas. Se voltar ainda sob a condição, conserva o prazo que restava.
 
-O mesmo acompanhamento impede que a reserva se torne um local de recuperação sem custo. Registre vida, efeitos, usos e Movimento antes de retirar a miniatura. Se um efeito levar a entidade a zero enquanto estiver recolhida, aplique a queda e o retorno próprios, sem transportá-la de volta para o campo.
+O mesmo acompanhamento impede que ficar recolhida se torne um meio de recuperação sem custo. Registre vida, efeitos, usos e Movimento antes de retirar a miniatura. Se um efeito levar a entidade a zero enquanto estiver recolhida, aplique a queda e o retorno próprios, sem transportá-la de volta para o campo.
 
 <!-- fonte:invocacoes/lote-01/INVOCACOES-EM-CAMPO.md#inv-inconsciente -->
 <a id="campo--inv-inconsciente"></a>
@@ -12344,15 +12308,15 @@ Enquanto o personagem estiver apenas inconsciente, aplique o procedimento de inc
 
 Uma entidade carrega o que suas mãos permitem segurar. Sem mãos, não recebe essa possibilidade por padrão. Vestir equipamento exige compatibilidade com o corpo e com os requisitos do item.
 
-Transportar carga adicional ou personagens exige uma característica própria, compatível com a definição da entidade, que ocupe **um de seus talentos**. Armazenamento usa capacidade de **5 + Força da entidade em Volume**. Para passageiros, registre quantidade, anatomia necessária e custo de Movimento na montagem; não há uma quantidade automática.
+Uma entidade segue o limite geral de carga de **5 + Força**, em Volume: o que ela veste, empunha ou leva conta nele. Transportar carga adicional ou personagens exige uma característica própria, compatível com a definição da entidade, que ocupe **um de seus talentos**. O armazenamento e os passageiros cabem nesse mesmo limite. Para passageiros, registre quantidade, anatomia necessária e custo de Movimento na montagem; não há uma quantidade automática.
 
-Uma Força alta não oferece armazenamento por si. Uma entidade de Força 3 com esse talento comporta 8 de Volume. Sem o talento, fica limitada ao que pode segurar e ao equipamento que pode vestir.
+Uma Força alta não oferece armazenamento por si. Uma entidade de Força 3 com esse talento comporta 8 de Volume, somando o que veste e empunha. Sem o talento, fica limitada ao que pode segurar e ao equipamento que pode vestir, dentro do mesmo limite.
 
 Na saída de campo, o que a entidade veste vai junto. Entre os objetos que segura, acompanha-a seu próprio equipamento: arma usada por ela, foco ou ferramenta. **Objetos carregados para outra pessoa ou apanhados pelo caminho caem onde ela estava.** Não use um talento de armazenamento para contornar esse destino sem uma permissão expressa.
 
 Essas regras valem para recolhimento, queda e fim da manifestação de quem é recolhido. Corpos amaldiçoados e Desligada permanecem no campo com seus objetos. Quando uma entidade é destruída ou desaparece com a morte do dono, deixa todo o equipamento no lugar.
 
-> **Exemplo.** A entidade veste um revestimento, segura a própria arma e leva um objeto encontrado para Kaito. Ao ser recolhida, conserva revestimento e arma; o objeto cai. Para usar a arma que viajou com ela, Kaito precisa retirá-la enquanto a entidade estiver em campo. A reserva não permite sacar equipamento de uma criatura ausente.
+> **Exemplo.** A entidade veste um revestimento, segura a própria arma e leva um objeto encontrado para Kaito. Ao ser recolhida, conserva revestimento e arma; o objeto cai. Para usar a arma que viajou com ela, Kaito precisa retirá-la enquanto a entidade estiver em campo. Estar recolhida não permite sacar equipamento de uma criatura ausente.
 
 <a id="capitulo-17"></a>
 ## 17. Construir invocações
@@ -12577,6 +12541,8 @@ Escolha um atributo de acerto que represente suas habilidades. Essa escolha fica
 
 A maestria é sempre a **do invocador**, inclusive para uma domada de nível menor. Os atributos são os **da entidade**.
 
+Com uma arma empunhada, o ataque usa o atributo que a arma pede no lugar do atributo de acerto. A CD das habilidades não muda. A entidade não tem treino em armas, então ataca com elas com desvantagem. O dano é o da arma, conforme **Equipamento**.
+
 #### Resistências e perícias
 
 Escolha **um TR treinado**. Físico usa Força ou Destreza, escolhida na montagem. Vigor usa Constituição, Intelecto usa Inteligência e Espírito usa Essência.
@@ -12610,7 +12576,7 @@ O invocador escolhe Essência ou Inteligência ao obter sua primeira entidade. U
 
 Uma entidade pode usar equipamento que comporte sua anatomia. Confira requisitos com os atributos dela. Um escudo exige membros capazes de empunhá-lo. Uma armadura feita para outro corpo pode precisar de adaptação.
 
-Com traje ou revestimento defensivo, a Defesa usa **10 + Destreza da entidade + proteção do equipamento**. A proteção substitui a parcela de Essência ou Inteligência do invocador. Não some as duas fontes. Escudos e demais combinações seguem **Equipamento**.
+Com traje ou revestimento defensivo, a Defesa usa **10 + Destreza da entidade permitida pelo teto da peça + proteção do equipamento**. A proteção substitui a parcela de Essência ou Inteligência do invocador. Não some as duas fontes. Escudos e demais combinações seguem **Equipamento**.
 
 Registre o equipamento usado, a proteção, os requisitos e a carga. Levar um objeto ao campo ou recolhê-lo junto com a criatura segue **Invocações em campo — Carga e equipamento**. A capacidade de equipar algo não transforma esse objeto em uma parte gratuita da entidade.
 
@@ -12702,7 +12668,7 @@ Apoio pode entregar sua única Melhoria aplicável, como Impulso. Os dados desca
 
 Uma básica de Efeito usa a aplicação pequena registrada, na escala comum de **Fundamento — Efeitos fora de combate**. Ela precisa caber na definição da entidade.
 
-O uso dessas habilidades consome sua atuação básica. Ajudar, Correr e outras atuações simples usam a mesma oportunidade, conforme **Invocações em campo**. Uma capacidade ofensiva precisa estar montada na ficha para que seja usada como ataque próprio.
+O uso dessas habilidades consome sua atuação básica. Ajudar, Correr e outras atuações simples usam a mesma oportunidade, conforme **Invocações em campo**. Uma capacidade ofensiva precisa estar montada na ficha para que seja usada como ataque próprio. A outra forma de atacar é com uma arma empunhada, conforme **Acerto e dificuldade**.
 
 <!-- fonte:invocacoes/lote-02/CONSTRUIR-INVOCACOES.md#entidades-especiais -->
 <a id="construcao--entidades-especiais"></a>
@@ -12828,7 +12794,7 @@ As Restrições devolvem pontos para pagar **Forma e Melhorias**, até **2 × a 
 
 > Uma especial de Classe 2 começa com 4 pontos. Projétil custa 0, uma Melhoria Média normal custa 2 e uma Restrição Leve devolve 1. Restam **4 − 2 + 1 = 3 pontos**. Uma segunda devolução que elevasse o saldo acima de 4 perderia o excedente.
 
-Contra um alvo, o dano-base tem esse mesmo limite em d8. Somando alvos adicionais e repetições, conserve o **teto geral de 4 × Classe**. Dividir os dados entre tiros não multiplica os dados disponíveis.
+Contra um alvo, o dano-base tem esse mesmo limite em d8. Some os dados iniciais e os adicionais da montagem uma vez, sem multiplicar pelo número de criaturas na área. O total não passa de **4 × Classe**. Dividir os dados entre tiros não multiplica os dados disponíveis.
 
 #### Amparo
 
@@ -13171,7 +13137,7 @@ Uma nova tentativa exige cumprir o retrabalho previsto e pagar seus custos. Repe
 <a id="fabricacao--fab-conclusao"></a>
 ### Conclusão e transferência
 
-Uma entidade nova começa com vida máxima. O shikigami fica recolhido em seu talismã, **sem carga adiantada**; o corpo permanece inativo onde foi construído. A conclusão não manifesta, ativa ou transporta a entidade. Antes de usá-la, siga **Invocações em campo** e seus limites de controle. Um corpo que exceda seu limite permanece no mundo sem controle até haver espaço; fabricar ou receber outro não amplia esse limite.
+Uma entidade nova começa com vida máxima. O shikigami fica recolhido em seu talismã, **sem carga adiantada**; o corpo permanece inativo onde foi construído. A conclusão não manifesta, ativa ou transporta a entidade. Antes de usá-la, siga **Invocações em campo** e seus limites de controle. Um corpo que exceda seu limite permanece no mundo sem controle e volta conforme **Invocações em campo**; fabricar ou receber outro não amplia esse limite.
 
 O talismã ocupa **0,5 de Volume**. Transporte, carga de energia e recuperação seguem aquele capítulo. Os materiais escolhidos não concedem proteção, resistência, imunidade ou habilidade além da ficha conferida. Equipar a criatura também exige obter as peças usadas.
 
@@ -13409,7 +13375,7 @@ As regras e os exemplos deste livro conservam seus próprios procedimentos. Uma 
 
 **Legado.** Escolha da Origem que registra uma capacidade ou vínculo. Cada entrada informa seu tipo e suas consequências. **Consulta:** [Origens](#origens--origens).
 
-**Leve, Média e Pesada.** Nomes de faixas de preço e também de categorias de Condição. Consulte a tabela correspondente; pontos de montagem e PE não são a mesma conta. **Consulta:** [Pontos e preços](#fundamento--pontos).
+**Leve, Média e Pesada.** Nomes de faixas de preço e também de categorias de Condição. Consulte a tabela correspondente; pontos de montagem e PE não são a mesma conta. Leve também é uma propriedade de arma, explicada em Propriedades, no capítulo Equipamento. **Consulta:** [Pontos e preços](#fundamento--pontos).
 
 **Maestria.** Bônus ligado ao nível. Só entra nas rolagens e valores que indiquem seu uso. **Consulta:** [Atributos](#geral--atributos).
 
@@ -13669,13 +13635,15 @@ Use Criar um personagem e os capítulos de sua Origem e Caminho para preencher o
 
 #### Equipamento
 
-| Item e quantidade | Volume total | Situação e recursos |
+| Item e quantidade | Volume total | Posição e recursos |
 |---|---|---|
-| __________________ | ______ | Vestido, empunhado ou guardado: __________________ |
+| __________________ | ______ | Vestido, empunhado ou guardado: __________ |
 | __________________ | ______ | Munição, cargas ou usos: __________________ |
 | __________________ | ______ | Empréstimo e devolução: __________________ |
 
 **Volume carregado / limite:** ______ / ______ **Dinheiro:** __________________
+
+**Traje — situação, TR e perícias:** ________________________________________
 
 Anote munição carregada e reserva separadamente. Ferramentas precisam de grau, efeito, requisitos e usos próprios. Um efeito guardado não deve aparecer como benefício ativo sem permissão.
 
@@ -13950,6 +13918,7 @@ Registre o destino de itens compartilhados para que duas fichas não recebam a m
 | Atrasar | [Catálogo: Restrições de conjuração](#catalogo--cat-restricoes-conjuracao) |
 | Atributo | [Regras gerais: Atributos](#geral--atributos) |
 | Atuação básica | [Invocações: Atuação básica](#campo--inv-basica) |
+| Auge | [Rotas: Sem Técnica](#rotas--rota-sem-tecnica) |
 | Aura | [Fundamento: Formas de ataque](#fundamento--formas) |
 | Aviso (Melhoria; nome anterior) | [Catálogo: Marcas e recursos](#catalogo--cat-marca-recursos) |
 | Aviso (Talento; nome anterior) | [Catálogo: Talentos de Categoria 1](#catalogo--cat-passivas-1) |
@@ -13962,6 +13931,7 @@ Registre o destino de itens compartilhados para que duas fichas não recebam a m
 | Caminho | [Caminho e Trilha](#ab--ab-caminho) |
 | Canalizar em Golpe | [Canalizar Energia](#aptidoes--apt-canalizar) |
 | Carga | [Regras gerais: Carga](#geral--carga) |
+| Carregar (Restrição) | [Catálogo: Restrições de conjuração](#catalogo--cat-restricoes-conjuracao) |
 | Catalisador | [Catalisador](#emanador--ema-impulso) |
 | Categoria de Efeito | [Fundamento: Selo e Talentos](#fundamento--selo) |
 | CD | [Regras gerais: Testes](#geral--testes) |
@@ -13969,8 +13939,6 @@ Registre o destino de itens compartilhados para que duas fichas não recebam a m
 | Cego | [Dano e Recuperação: Condições pesadas](#dano--pesadas) |
 | Cena | [Dano e Recuperação: Cena e usos de habilidades](#dano--usos) |
 | Cicatriz | [Dano e Recuperação: Sequelas e Cicatrizes](#dano--sequelas) |
-| Classe | [Fundamento: Pontos e preços](#fundamento--pontos) |
-| Classe 0 | [Fundamento: Feitiços de Classe 0](#fundamento--classezero) |
 
 <!-- fonte:consulta/lote-01/CONSULTA.md#consulta-indice-3 -->
 <a id="consulta--consulta-indice-3"></a>
@@ -13978,6 +13946,8 @@ Registre o destino de itens compartilhados para que duas fichas não recebam a m
 
 | Assunto | Consulta |
 |---|---|
+| Classe | [Fundamento: Pontos e preços](#fundamento--pontos) |
+| Classe 0 | [Fundamento: Feitiços de Classe 0](#fundamento--classezero) |
 | Classe Passiva (nome anterior) | [Fundamento: Selo e Talentos](#fundamento--selo) |
 | Cobertura | [Regras gerais: Defesa e cobertura](#geral--defesa) |
 | Combatente Amaldiçoado | [Combatente Amaldiçoado](#bastiao--bas-combatente) |
@@ -14002,8 +13972,6 @@ Registre o destino de itens compartilhados para que duas fichas não recebam a m
 | Derrotado | [Dano e Recuperação: Derrota e morte](#dano--derrota) |
 | Derrubado | [Dano e Recuperação: Condições leves](#dano--leves) |
 | Desarmado | [Dano e Recuperação: Condições leves](#dano--leves) |
-| Desgaste | [Equipamento: Desgaste](#equip--eqf-desgaste) |
-| Deslocamento | [Regras gerais: Movimento e terreno](#geral--movimento) |
 
 <!-- fonte:consulta/lote-01/CONSULTA.md#consulta-indice-4 -->
 <a id="consulta--consulta-indice-4"></a>
@@ -14011,39 +13979,45 @@ Registre o destino de itens compartilhados para que duas fichas não recebam a m
 
 | Assunto | Consulta |
 |---|---|
+| Desgaste | [Equipamento: Desgaste](#equip--eqf-desgaste) |
+| Desligada | [Invocações: Retorno e corpos caídos](#campo--inv-retorno) |
+| Deslocamento | [Regras gerais: Movimento e terreno](#geral--movimento) |
 | Desvantagem | [Regras gerais: Treino e modificadores](#geral--pericias) |
+| Discreta | [Equipamento: Armas escondidas](#equip--eq-oculta) |
 | Dívida | [Catálogo: Condições de uso](#catalogo--cat-restricoes-uso) |
-| Domar | [Montagem de entidades: Domar uma maldição](#construcao--entidades-domar) |
+| Domar | [Construir invocações: Domar uma maldição](#construcao--entidades-domar) |
 | Duração | [Fundamento: Conjurar](#fundamento--conjurar) |
 | Duradoura | [Catálogo: Momento e duração](#catalogo--cat-tempo-duracao) |
 | Efeito | [Fundamento: Formas de amparo e Efeito](#fundamento--amparoformas) |
 | Efeito Próprio | [Catálogo: Efeito Próprio](#catalogo--cat-proprio) |
 | Emanador | [Emanador](#emanador--ema-base) |
 | Emaranha | [Equipamento: Propriedades](#equip--eq-propriedades) |
+| Embainhada | [Equipamento: Armas escondidas](#equip--eq-oculta) |
 | Energia amaldiçoada pura (dano) | [Dano e Recuperação: Tipos de dano. Tipo Força.](#dano--tipos) |
 | Energia temporária | [Dano e Recuperação: Vida e energia temporárias](#dano--temporarios) |
 | Enfeitiçado | [Dano e Recuperação: Condições médias](#dano--medias) |
-| Entidade | [Montagem de entidades: Criar uma invocação](#construcao--entidades-criar) |
+| Entidade | [Construir invocações: Criar uma invocação](#construcao--entidades-criar) |
 | Envenenado | [Dano e Recuperação: Condições pesadas](#dano--pesadas) |
 | Escolher | [Catálogo: Área](#catalogo--cat-area) |
 | Esconder | [Regras gerais: Esconder](#geral--esconder) |
+| Escudo | [Equipamento: Revestimentos e escudos](#equip--eqp-escudo) |
 | Espaço conhecido | [Fundamento: Feitiços conhecidos](#fundamento--repertorio) |
 | Espaço de feitiço | [Fundamento: Feitiços conhecidos](#fundamento--repertorio) |
 | Especial de invocação | [Invocações: Comandar uma especial](#campo--inv-especial) |
 | Especial e repertório | [Especial e repertório](#evocador--ev-principal-especial) |
+
+<!-- fonte:consulta/lote-01/CONSULTA.md#consulta-indice-5 -->
+<a id="consulta--consulta-indice-5"></a>
+### Índice: E–F
+
+| Assunto | Consulta |
+|---|---|
 | Essência | [Regras gerais: Atributos](#geral--atributos) |
 | Estabilizar | [Dano e Recuperação: Socorro](#dano--socorro) |
 | Estágios de Integridade | [Dano e Recuperação: Estágios de Integridade](#dano--integridade) |
 | Estigma | [Equipamento: Graus das ferramentas. Efeitos das ferramentas, na organização atual.](#equip--eqf-graus) |
 | Estímulo Muscular | [Rotas: Estímulo Muscular](#rotas--rota-estimulo) |
 | Estudar | [Regras gerais: Estudar](#geral--estudar) |
-
-<!-- fonte:consulta/lote-01/CONSULTA.md#consulta-indice-5 -->
-<a id="consulta--consulta-indice-5"></a>
-### Índice: E–G
-
-| Assunto | Consulta |
-|---|---|
 | Evocador | [Evocador](#evocador--evocador) |
 | Exaustão | [Dano e Recuperação: Exaustão](#dano--exaustao) |
 | Expansão de Domínio | [Expansão de Domínio](#poderes--degraus) |
@@ -14064,19 +14038,19 @@ Registre o destino de itens compartilhados para que duas fichas não recebam a m
 | Força (dano) | [Dano e Recuperação: Tipos de dano](#dano--tipos) |
 | Forma | [Fundamento: Formas de ataque](#fundamento--formas) |
 | Fundamento | [Fundamento](#fundamento--fundamento) |
+
+<!-- fonte:consulta/lote-01/CONSULTA.md#consulta-indice-6 -->
+<a id="consulta--consulta-indice-6"></a>
+### Índice: F–L
+
+| Assunto | Consulta |
+|---|---|
 | Fura | [Catálogo: Defesas](#catalogo--cat-defesas) |
 | Gatilho | [Regras gerais: Reações e ataques de oportunidade](#geral--oportunidade) |
 | Gesto | [Catálogo: Restrições de conjuração](#catalogo--cat-restricoes-conjuracao) |
 | Grau | [Equipamento: Graus das ferramentas](#equip--eqf-graus) |
 | Grau (patente) | [Progressão: Patentes](#progressao--prog-patentes) |
 | Guarda | [Catálogo: Proteção e apoio](#catalogo--cat-auxiliares-apoio) |
-
-<!-- fonte:consulta/lote-01/CONSULTA.md#consulta-indice-6 -->
-<a id="consulta--consulta-indice-6"></a>
-### Índice: G–L
-
-| Assunto | Consulta |
-|---|---|
 | Guarda Aberta | [Dano e Recuperação: Condições leves](#dano--leves) |
 | Guia | [Guia](#guia--guia) |
 | Identificar Feitiço | [Catálogo: Marcas e recursos](#catalogo--cat-marca-recursos) |
@@ -14090,26 +14064,26 @@ Registre o destino de itens compartilhados para que duas fichas não recebam a m
 | Integridade máxima | [Dano e Recuperação: Dano na alma](#dano--alma) |
 | Intenção | [Invocações: Dar uma tarefa](#campo--inv-intencao) |
 | Inventário | [Equipamento](#equip--eq-equipamento) |
-| Invocação | [Montagem de entidades: Adquirir entidades](#construcao--entidades-aquisicao) |
+| Invocação | [Construir invocações: Adquirir entidades](#construcao--entidades-aquisicao) |
 | Invocador | [Invocações: Invocações em campo](#campo--inv-campo) |
 | Kata | [Rotas: Técnica Marcial](#rotas--rota-marcial) |
 | Lapidação | [Rotas: Lapidação](#rotas--rota-lapidacao) |
 | Legado | [Origens](#origens--origens) |
 | Leitura de Feitiços | [Catálogo: Talentos de Categoria 1](#catalogo--cat-passivas-1) |
 | Lento | [Dano e Recuperação: Condições leves](#dano--leves) |
+
+<!-- fonte:consulta/lote-01/CONSULTA.md#consulta-indice-7 -->
+<a id="consulta--consulta-indice-7"></a>
+### Índice: L–M
+
+| Assunto | Consulta |
+|---|---|
 | Leque | [Progressão: Marcos](#progressao--prog-marcos) |
 | Levanta | [Catálogo: Amparo](#catalogo--cat-amparo) |
 | Leve | [Fundamento: Pontos e preços. Preço de montagem; categoria de condição em Condições. Propriedade de arma em Equipamento.](#fundamento--pontos) |
 | Leve, Média e Pesada | [Fundamento: Pontos e preços](#fundamento--pontos) |
 | Liberação Máxima | [Fundamento: Liberação Máxima](#fundamento--liberacao) |
 | Linha | [Fundamento: Formas de ataque](#fundamento--formas) |
-
-<!-- fonte:consulta/lote-01/CONSULTA.md#consulta-indice-7 -->
-<a id="consulta--consulta-indice-7"></a>
-### Índice: L–O
-
-| Assunto | Consulta |
-|---|---|
 | Longe | [Catálogo: Alcance](#catalogo--cat-alcance) |
 | Longo Alcance | [Equipamento: Propriedades](#equip--eq-propriedades) |
 | Maestria | [Regras gerais: Atributos](#geral--atributos) |
@@ -14119,6 +14093,7 @@ Registre o destino de itens compartilhados para que duas fichas não recebam a m
 | Manifestação e convergência | [Manifestação e convergência](#emanador--ema-manifestacao) |
 | Manifestação em Grupo | [Manifestação em Grupo](#evocador--ev-multiplas-entrada) |
 | Manifestar | [Invocações: Manifestar e recolher](#campo--inv-entrada) |
+| Manutenção (entidades) | [Invocações: Manutenção](#campo--inv-manutencao) |
 | Mão Firme | [Catálogo: Talentos de Categoria 1](#catalogo--cat-passivas-1) |
 | Marco | [Progressão: Marcos](#progressao--prog-marcos) |
 | Média | [Fundamento: Pontos e preços. Preço de montagem; categoria de condição em Condições.](#fundamento--pontos) |
@@ -14129,6 +14104,13 @@ Registre o destino de itens compartilhados para que duas fichas não recebam a m
 | Múltiplas Invocações | [Múltiplas Invocações](#evocador--ev-multiplas) |
 | Munição | [Equipamento: Munição](#equip--eqm-municao) |
 | Muro | [Muro](#bastiao--bas-muro) |
+
+<!-- fonte:consulta/lote-01/CONSULTA.md#consulta-indice-8 -->
+<a id="consulta--consulta-indice-8"></a>
+### Índice: N–P
+
+| Assunto | Consulta |
+|---|---|
 | Nível | [Progressão: Experiência e Progressão](#progressao--prog-inicio) |
 | Obras em emergência | [Obras em emergência](#guia--guia-emergencia) |
 | Oculta | [Equipamento: Armas escondidas](#equip--eq-oculta) |
@@ -14136,13 +14118,7 @@ Registre o destino de itens compartilhados para que duas fichas não recebam a m
 | Ōgi | [Rotas: Técnica Marcial](#rotas--rota-marcial) |
 | Onda | [Fundamento: Formas de amparo e Efeito](#fundamento--amparoformas) |
 | Ordem antecipada | [Invocações: Ordem antecipada](#campo--inv-antecipada) |
-
-<!-- fonte:consulta/lote-01/CONSULTA.md#consulta-indice-8 -->
-<a id="consulta--consulta-indice-8"></a>
-### Índice: O–P
-
-| Assunto | Consulta |
-|---|---|
+| Ordens pendentes | [Invocações: Ordens pendentes](#campo--inv-pendentes) |
 | Origem | [Origens](#origens--origens) |
 | Pacto | [Pactos](#ritual--pactos) |
 | Par | [Equipamento: Propriedades](#equip--eq-propriedades) |
@@ -14161,6 +14137,13 @@ Registre o destino de itens compartilhados para que duas fichas não recebam a m
 | Pontos de montagem | [Fundamento: Pontos e preços](#fundamento--pontos) |
 | Pontos de vida | [Dano e Recuperação: Dano](#dano--dano) |
 | Pontos de Vínculo | [Vínculo](#evocador--ev-vinculo) |
+
+<!-- fonte:consulta/lote-01/CONSULTA.md#consulta-indice-9 -->
+<a id="consulta--consulta-indice-9"></a>
+### Índice: P–R
+
+| Assunto | Consulta |
+|---|---|
 | Precisão | [Catálogo: Mira](#catalogo--cat-mira) |
 | Preparar | [Regras gerais: Preparar](#geral--preparar) |
 | Progressão do Guia | [Progressão do Guia](#guia--guia-progressao) |
@@ -14169,13 +14152,6 @@ Registre o destino de itens compartilhados para que duas fichas não recebam a m
 | Proteção | [Equipamento: Proteção](#equip--eqp-protecao) |
 | Proteção de aliados | [Proteção de aliados](#bastiao--bas-aliados) |
 | Pugilista | [Pugilista](#incursor--inc-pugilista) |
-
-<!-- fonte:consulta/lote-01/CONSULTA.md#consulta-indice-9 -->
-<a id="consulta--consulta-indice-9"></a>
-### Índice: P–S
-
-| Assunto | Consulta |
-|---|---|
 | Punho | [Punho](#bastiao--bas-punho) |
 | PV | [Dano e Recuperação: Dano](#dano--dano) |
 | Quedas | [Regras gerais: Quedas e movimento imposto](#geral--quedas) |
@@ -14184,31 +14160,39 @@ Registre o destino de itens compartilhados para que duas fichas não recebam a m
 | Rápido | [Catálogo: Tempo](#catalogo--cat-tempo) |
 | Reação | [Regras gerais: Reações e ataques de oportunidade](#geral--oportunidade) |
 | Reação coletiva | [Invocações: Turnos das entidades](#campo--inv-ciclo) |
+| Recarregar | [Equipamento: Recarregar](#equip--eqm-recarga) |
+| Recolher | [Invocações: Manifestar e recolher](#campo--inv-entrada) |
 | Redução de Dano | [Dano e Recuperação: Redução de Dano](#dano--reducao) |
 | Refino | [Aptidões e Refino](#aptidoes--apt-refino) |
 | Regra | [Fundamento: Sua técnica](#fundamento--tecnica) |
 | Regra da técnica | [Fundamento: Sua técnica](#fundamento--tecnica) |
+| Regra Própria | [Catálogo: Regra Própria](#catalogo--cat-regra-propria) |
+| Religar | [Invocações: Retorno e corpos caídos](#campo--inv-retorno) |
 | Remenda | [Catálogo: Amparo](#catalogo--cat-amparo) |
 | Ressonante | [Ressonante](#emanador--ema-eco) |
+
+<!-- fonte:consulta/lote-01/CONSULTA.md#consulta-indice-10 -->
+<a id="consulta--consulta-indice-10"></a>
+### Índice: R–T
+
+| Assunto | Consulta |
+|---|---|
 | Restrição | [Fundamento: Restrições](#fundamento--restricoes) |
+| Retorno | [Invocações: Retorno e corpos caídos](#campo--inv-retorno) |
+| Revestimento | [Equipamento: Revestimentos e escudos](#equip--eqp-escudo) |
 | Ritual | [Ritual](#ritual--ritual) |
 | Rodada | [Regras gerais: Turnos](#geral--turnos) |
 | Rodada inteira | [Regras gerais: Turnos. Ação Completa.](#geral--turnos) |
 | Rompe | [Equipamento: Propriedades](#equip--eq-propriedades) |
 | Ruptura | [Rotas: Técnica Marcial](#rotas--rota-marcial) |
+| Sacar e guardar | [Equipamento: Sacar e guardar](#equip--eq-manipular) |
 | Saltos | [Regras gerais: Saltos](#geral--saltos) |
+| Segura | [Catálogo: Momento e duração](#catalogo--cat-tempo-duracao) |
 | Selo | [Fundamento: Selo e Talentos](#fundamento--selo) |
 | Sem Técnica | [Rotas: Sem Técnica](#rotas--rota-sem-tecnica) |
 | Sentir Energia | [Regras gerais: Percepção de energia](#geral--mundo) |
 | Sequela | [Dano e Recuperação: Sequelas e Cicatrizes](#dano--sequelas) |
 | Sobrecarga e fluxo | [Sobrecarga e fluxo](#emanador--ema-fluxo) |
-
-<!-- fonte:consulta/lote-01/CONSULTA.md#consulta-indice-10 -->
-<a id="consulta--consulta-indice-10"></a>
-### Índice: S–V
-
-| Assunto | Consulta |
-|---|---|
 | Socorrista | [Socorrista](#guia--guia-socorrista) |
 | Socorro | [Dano e Recuperação: Socorro](#dano--socorro) |
 | Socorro de emergência | [Socorro de emergência](#guia--guia-emergencia-cuidado) |
@@ -14216,8 +14200,16 @@ Registre o destino de itens compartilhados para que duas fichas não recebam a m
 | Talento | [Fundamento: Selo e Talentos](#fundamento--selo) |
 | Talento Próprio | [Catálogo: Talento Próprio](#catalogo--cat-passiva-propria) |
 | Talha | [Equipamento: Propriedades](#equip--eq-propriedades) |
+| Talismã | [Invocações: Talismãs](#campo--inv-talisma) |
 | Técnica amaldiçoada | [Mundo jujutsu](#ab--ab-mundo) |
 | Técnica Marcial | [Rotas: Técnica Marcial](#rotas--rota-marcial) |
+
+<!-- fonte:consulta/lote-01/CONSULTA.md#consulta-indice-11 -->
+<a id="consulta--consulta-indice-11"></a>
+### Índice: T–X
+
+| Assunto | Consulta |
+|---|---|
 | Técnica Máxima | [Fundamento: Técnica Máxima](#fundamento--maxima) |
 | Teste | [Regras gerais: Testes](#geral--testes) |
 | Teste de Resistência | [Regras gerais: Testes de Resistência](#geral--resistencia) |
@@ -14225,6 +14217,7 @@ Registre o destino de itens compartilhados para que duas fichas não recebam a m
 | Toca a Alma | [Catálogo: Defesas](#catalogo--cat-defesas) |
 | Toque | [Fundamento: Formas de ataque](#fundamento--formas) |
 | Traço | [Origens](#origens--origens) |
+| Traje | [Equipamento: Trajes](#equip--eqp-traje) |
 | Treino | [Regras gerais: Treino e modificadores](#geral--pericias) |
 | Trilha | [Caminho e Trilha](#ab--ab-caminho) |
 | Trocar de entidade | [Invocações: Trocar de entidade](#campo--inv-troca) |
@@ -14235,13 +14228,6 @@ Registre o destino de itens compartilhados para que duas fichas não recebam a m
 | Uso Livre | [Fundamento: Uso Livre](#fundamento--livre) |
 | Vanguarda | [Vanguarda](#vanguarda--van-base) |
 | Vantagem | [Regras gerais: Treino e modificadores](#geral--pericias) |
-
-<!-- fonte:consulta/lote-01/CONSULTA.md#consulta-indice-11 -->
-<a id="consulta--consulta-indice-11"></a>
-### Índice: V–X
-
-| Assunto | Consulta |
-|---|---|
 | Vasculhar | [Regras gerais: Vasculhar](#geral--procurar) |
 | Versado | [Prazo e Escola de Arma](#vanguarda--van-escola) |
 | Versátil | [Equipamento: Propriedades](#equip--eq-propriedades) |

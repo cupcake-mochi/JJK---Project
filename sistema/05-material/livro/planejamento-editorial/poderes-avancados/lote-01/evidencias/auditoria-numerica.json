@@ -2,10 +2,10 @@
   "ok": true,
   "status": "passou",
   "manuscritos_auditados": {
-    "sistema/05-material/livro/planejamento-editorial/poderes-avancados/lote-01/PODERES-AVANCADOS.md": "2b1c02cb3407a7aec6ef385a00726e1d131020b3f2b110b433bfcedf28f2854f"
+    "sistema/05-material/livro/planejamento-editorial/poderes-avancados/lote-01/PODERES-AVANCADOS.md": "c0baf131ce40f69b35dc8ec182300f0ce8bec3d52127c3f4e40a53aaefb410d4"
   },
   "limite": "Auditoria matemática e verificação dirigida de texto; não playtest, não teste humano e não prova de balanceamento de toda ficha.",
-  "manuscrito_sha256": "2b1c02cb3407a7aec6ef385a00726e1d131020b3f2b110b433bfcedf28f2854f",
+  "manuscrito_sha256": "c0baf131ce40f69b35dc8ec182300f0ce8bec3d52127c3f4e40a53aaefb410d4",
   "script_sha256": "db4c482664c4d9148a5c50bdc78524b3cc7df660d5fdb9722ac1f27a035b0fa8",
   "contrato_sha256": "5092c7041b4e7d5069cbae465c21bfe0b7be77a3a3267bc49c951dbcc2af51e4",
   "checks": [
@@ -207,7 +207,7 @@
     {
       "id": "palavras-criardominio",
       "passou": true,
-      "detalhe": 310
+      "detalhe": 312
     },
     {
       "id": "titulo-criardominio",
@@ -282,7 +282,7 @@
     {
       "id": "palavras-rescaldo",
       "passou": true,
-      "detalhe": 289
+      "detalhe": 293
     },
     {
       "id": "titulo-rescaldo",
@@ -292,7 +292,7 @@
     {
       "id": "palavras-sembarreiras",
       "passou": true,
-      "detalhe": 354
+      "detalhe": 358
     },
     {
       "id": "titulo-sembarreiras",
@@ -397,7 +397,7 @@
     {
       "id": "palavras-galeriavidro",
       "passou": true,
-      "detalhe": 331
+      "detalhe": 319
     },
     {
       "id": "titulo-galeriavidro",
@@ -783,18 +783,18 @@
   "total_checks": 154,
   "word_counts": {
     "degraus": 385,
-    "criardominio": 310,
+    "criardominio": 312,
     "acerto": 329,
     "protecao": 279,
     "abertura": 323,
     "barreira": 398,
-    "rescaldo": 289,
-    "sembarreiras": 354,
+    "rescaldo": 293,
+    "sembarreiras": 358,
     "disputa": 300,
     "manterdisputa": 338,
     "sobreposicao": 310,
     "multiplos": 308,
-    "galeriavidro": 331,
+    "galeriavidro": 319,
     "salatregua": 325,
     "confronto": 302
   },
@@ -1477,11 +1477,11 @@
     },
     {
       "path": "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md",
-      "sha256": "0160f774f5ea87f4ffd29bb7f7e3335dead51677bf2b894041aa61e2c5041273"
+      "sha256": "7fc58fa8955f2a4f820906d02d1ed78d5d190e4091f4279ab6c0d0050a9a7f9f"
     },
     {
       "path": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
-      "sha256": "bf0d8df8707ecfd43c18e9c32c6295e70a8c692c8513b1692d2f53ca5e706b76"
+      "sha256": "61f9e65fdfdb59517c710fb6aa6e0e19631823212f3155572b40870c3b2670ff"
     }
   ]
 }

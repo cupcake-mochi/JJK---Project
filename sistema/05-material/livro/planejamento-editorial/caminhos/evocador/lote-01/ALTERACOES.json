@@ -216,6 +216,13 @@
       "depois": "Explicita contato e origem corporal preservados, permitindo origem externa de Cone/Linha quando compatível. Retira metatexto da tabela.",
       "motivo": "Mesmo fechamento adotado no Emanador, sem converter Corpo a Corpo em desconto gratuito para ataque remoto. Fonte já exige cumprir Forma/Restrições.",
       "fontes": "manual35:2197–2203; R06/R12; confirmação independente do autor R17."
+    },
+    {
+      "id": "EV28",
+      "tipo": "decisão do autor",
+      "antes": "substitua-a por uma reserva apropriada",
+      "depois": "substitua-a por uma invocação recolhida apropriada",
+      "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G2-10 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D31)."
     }
   ]
 }

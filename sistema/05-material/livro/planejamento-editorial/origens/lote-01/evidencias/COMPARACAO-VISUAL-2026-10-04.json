@@ -1,0 +1,11 @@
+{
+  "pdf_anterior": "9794238a24a5ca41232384b15bd50fca03b698223481864339cfd7440f102e09",
+  "pdf_atual": "75dd8939b42906df9324f0a74421d07344f7f95c99526e122d8ebc96a08e93fa",
+  "paginas": 26,
+  "alteradas": [
+    2
+  ],
+  "metodo": "pdftoppm a 60 dpi, comparação exata de pixels página a página contra o PDF anterior, que é o mesmo da inspeção registrada; as alteradas foram abertas a 80 dpi e inspecionadas.",
+  "ambiente": "reportlab 4.4.9, pypdf 6.16.2 e pdfplumber 0.11.9, as versões de consolidacao/lote-01/evidencias/AMBIENTE.json, com as fontes de consolidacao/lote-01/fontes-tipograficas conferidas por SHA-256.",
+  "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+}

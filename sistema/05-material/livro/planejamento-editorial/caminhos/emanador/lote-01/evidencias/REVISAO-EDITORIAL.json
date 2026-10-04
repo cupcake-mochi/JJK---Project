@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "027d4f93d4d59d6674cf3d0ac7f380bd387c367d1e012740b6d25e71b744ba1f",
+  "sha256_texto": "9c99cc60360abca18c6072753f713c12b9294b9df463ae3d8747d6dc922302aa",
   "conclusao": "Autoria, revisão independente por outro modelo e inspeção da prova final concluídas.",
   "itens": [
     "Títulos identificam assunto ou habilidade, sem artigos definidos iniciais e sem instrução metatextual Como ler.",
@@ -366,5 +366,16 @@
     "revisor": "/root",
     "diff": "consolidacao/lote-01/migracao-nomes/diffs/emanador.diff",
     "conclusao": "Diff completo lido. Preços, ações, limites, acesso e efeitos permanecem iguais. Mudam categoria, nomes e concordância gramatical."
+  },
+  "revisao_delta_2026_10_04": {
+    "sha256_anterior": "027d4f93d4d59d6674cf3d0ac7f380bd387c367d1e012740b6d25e71b744ba1f",
+    "sha256_atual": "9c99cc60360abca18c6072753f713c12b9294b9df463ae3d8747d6dc922302aa",
+    "mudancas": [
+      "C01",
+      "C13"
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.json",
+    "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana.",
+    "conferido": "Trechos trocados relidos: nomes, remissões ou regra decidida pelo autor; títulos e seções inalterados."
   }
 }

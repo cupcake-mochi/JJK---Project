@@ -1,5 +1,5 @@
 {
-  "sha256_pdf": "fe220c707ef23e311c37c0da1d31ac6068a1f0dd40ee933dc6bad3d754393641",
+  "sha256_pdf": "ca95d4275d5a98f31b359bb802411e6e42ec0c3df231639c61b93c28b5dcb8fd",
   "metodo": "Todas as quinze páginas finais foram inspecionadas pelo principal em pares renderizados a 1300 px.",
   "paginas": [
     {
@@ -12,9 +12,10 @@
     {
       "pagina": 2,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Título, tabela ou exemplo e corpo legíveis; sem cortes, colisões ou páginas vazias indevidas.",
-      "sha256_png": "6324273a8be6759581c592bcf1dc0e32c51db644b1559441eac34a09105e8a4c",
-      "revisor": "Agente principal"
+      "observacoes": "Criar um domínio: a remissão nova \"Acerto do domínio (p. 3)\" aparece como link, com a página certa; corpo dentro da margem, rodapé separado.",
+      "sha256_png": "5a828b94f121e47b9e30871b99c94ad1b7c03d2816255f117ac661a2f473f000",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo"
     },
     {
       "pagina": 3,
@@ -47,16 +48,18 @@
     {
       "pagina": 7,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Título, tabela ou exemplo e corpo legíveis; sem cortes, colisões ou páginas vazias indevidas.",
-      "sha256_png": "bfcbda1a83021e2fb3459b7998038f4bebb4f73b7e6c7df830b5ba54a7370a8b",
-      "revisor": "Agente principal"
+      "observacoes": "Encerramento com Inconsciente e Derrotado; exemplo inteiro.",
+      "sha256_png": "1c38ce44658cc4c15dc59e4fa2551b77735ef9bc5182b6dc3469433915ab1a76",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo"
     },
     {
       "pagina": 8,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Título, tabela ou exemplo e corpo legíveis; sem cortes, colisões ou páginas vazias indevidas.",
-      "sha256_png": "9a6c9caceed68c3571aa2a3fce3fe7fd5426020ca439f81118666eae3c958398",
-      "revisor": "Agente principal"
+      "observacoes": "Expansão sem Barreiras, Encerramento com Inconsciente e Derrotado; exemplo inteiro.",
+      "sha256_png": "056898a212e21bde96f1efa49a3a5b39f89ddcfb73e0a966d22ada0a1cc5c9c1",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo"
     },
     {
       "pagina": 9,
@@ -89,9 +92,10 @@
     {
       "pagina": 13,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Título, tabela ou exemplo e corpo legíveis; sem cortes, colisões ou páginas vazias indevidas.",
-      "sha256_png": "3c5a4fee1d14049a16635b84cf669b4bf0680f48eb6970399b516dde294a7f22",
-      "revisor": "Agente principal"
+      "observacoes": "Galeria de Vidro, Durante o combate, sem a média bruta; tabela de registro e seções inteiras.",
+      "sha256_png": "9ef62ac9b51896eea8be9d9a405e2336c12fd4d3c5a66698459a497ca05caa22",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo"
     },
     {
       "pagina": 14,
@@ -107,5 +111,36 @@
       "sha256_png": "160ee9e888ad2eaf8c0991630dfc70993110006f3a1127d1df82875c8af2cf24",
       "revisor": "Agente principal"
     }
-  ]
+  ],
+  "metodo_2026_10_04": "Páginas alteradas pelas remissões da montagem abertas e inspecionadas. As demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado, comprovada em COMPARACAO-VISUAL-2026-10-04.json, sem alegar nova leitura visual.",
+  "revisao_delta_2026_10_04": {
+    "sha256_pdf_anterior": "fe220c707ef23e311c37c0da1d31ac6068a1f0dd40ee933dc6bad3d754393641",
+    "sha256_pdf_atual": "6989a9237a936f68870bfeeb2b17c16b9e7180e8616b793a6f13b780f2e7dc11",
+    "paginas_alteradas": [
+      2
+    ],
+    "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-04.json",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "revisao_delta_2026_10_04_quarta_passada": {
+    "sha256_pdf_anterior": "6989a9237a936f68870bfeeb2b17c16b9e7180e8616b793a6f13b780f2e7dc11",
+    "sha256_pdf_atual": "dc20e2b22d5b968d9ad9af7d24f4eb643c1d35353caf4ec4caf9244f555c5762",
+    "paginas_alteradas": [
+      13
+    ],
+    "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-04-quarta.json",
+    "metodo": "As páginas alteradas foram abertas; as demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "revisao_delta_2026_10_04_quinta_passada": {
+    "sha256_pdf_anterior": "dc20e2b22d5b968d9ad9af7d24f4eb643c1d35353caf4ec4caf9244f555c5762",
+    "sha256_pdf_atual": "ca95d4275d5a98f31b359bb802411e6e42ec0c3df231639c61b93c28b5dcb8fd",
+    "paginas_alteradas": [
+      7,
+      8
+    ],
+    "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-04-quinta.json",
+    "metodo": "As páginas alteradas foram abertas; as demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  }
 }

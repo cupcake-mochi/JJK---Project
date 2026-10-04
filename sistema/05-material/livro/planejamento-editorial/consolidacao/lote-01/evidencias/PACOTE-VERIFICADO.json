@@ -1,11 +1,37 @@
 {
-  "arquivo": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/entrega/Projeto-M-Livro-Reconstruido-2026-10-03.zip",
-  "sha256": "9e7f917a0575c368bb166a900252f1d5e51eecdd6d08a20395901f1df649fcfe",
-  "bytes": 9340923,
-  "arquivos": 1305,
+  "arquivo": "sistema/05-material/livro/planejamento-editorial/entrega/Projeto-M-Livro-Reconstruido-2026-10-04.zip",
+  "sha256": "bda1337af3ef6c965c5da8ac0981a1b424c7737be4c01c63c223abdb8171db54",
+  "bytes": 9528219,
+  "arquivos": 1389,
   "crc_ok": true,
-  "hashes_internos_conferidos": 1304,
+  "hashes_internos_conferidos": 1388,
+  "arquivos_editoriais_iguais_ao_repositorio": 1383,
   "fontes_vigentes_conferidas": 23,
   "pdf_reproduzido_identico": true,
-  "sha256_pdf": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+  "sha256_pdf": "4ae5931dc24a7ffda17d62460a6a28c9a834d6805fc5e53f7004cd40bb25fae1",
+  "metodo": "ZIP montado de forma determinística (ordem e data fixas nas entradas; duas montagens deram o mesmo arquivo). Conferidos o CRC de cada entrada, os hashes contra SHA256SUMS.json, cada arquivo editorial contra o repositório e as 23 fontes de ORDEM.json; depois o ZIP foi desempacotado numa pasta nova e gerar_livro.py --strict reproduziu o PDF byte a byte.",
+  "regra_de_conteudo": "A mesma de 03/10: manifesto e arquivos listados de cada capítulo (sem os PDFs individuais), consolidação sem PDFs de provas antigas e sem os arquivos escritos depois do pacote, validador editorial e seis documentos da raiz. Acrescentados os registros de 04/10: revisao-interfaces/ e publicacao-github/provas-cinco-capitulos-2026-10-04/. A quarta passada acrescentou só as comparações visuais dela (seis capítulos e consolidação) e o registro de testes negativos. A rodada de paginação acrescentou a comparação visual e os testes negativos dela, e o registro de estabilidade dos auditores. A quinta passada acrescentou as comparações visuais dela.",
+  "substitui": {
+    "arquivo": "entrega/Projeto-M-Livro-Reconstruido-2026-10-04.zip",
+    "sha256": "89ccabc479ddb667ad4d60c570a54efb0a7ff5f6dc0936e850c1f0f98bf8669a",
+    "onde_esta": "versão anterior com o mesmo nome, da rodada de paginação (PDF 42d92070…); continua no histórico do git (commit 88113b0)"
+  },
+  "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+  "substitui_antes": [
+    {
+      "arquivo": "entrega/Projeto-M-Livro-Reconstruido-2026-10-03.zip",
+      "sha256": "9e7f917a0575c368bb166a900252f1d5e51eecdd6d08a20395901f1df649fcfe",
+      "onde_esta": "retirado da árvore em 04/10/2026; continua no histórico do git (commit bbc4428)"
+    },
+    {
+      "arquivo": "entrega/Projeto-M-Livro-Reconstruido-2026-10-04.zip",
+      "sha256": "5e864342558caf9193540e2e3738080bead59af725a26bed278c1bfccf4be943",
+      "onde_esta": "versão anterior com o mesmo nome, da terceira passada (PDF 633f85ae…); continua no histórico do git (commit 56108eb)"
+    },
+    {
+      "arquivo": "entrega/Projeto-M-Livro-Reconstruido-2026-10-04.zip",
+      "sha256": "c538cfa32ef2c987cde71656c24ff650f294731faa751f5b4523cebf19b58b1b",
+      "onde_esta": "versão anterior com o mesmo nome, da quarta passada (PDF bceea2d7…); continua no histórico do git (commit fce827c)"
+    }
+  ]
 }

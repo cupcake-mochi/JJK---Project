@@ -1,19 +1,19 @@
 {
   "data": "2026-10-03",
   "ok": true,
-  "verificacoes": 117,
-  "sha256_pdf": "e895505a4f862aabc64324131b367d3c8151d2f002414cb9d92326f37131b4a8",
-  "sha256_texto": "483925447a9de1d0bc32fa2dfe46af1b079438106881b67ced66f0fefe10e653",
+  "verificacoes": 110,
+  "sha256_pdf": "767f76b38b7b3a7e7365c95c84f178796585db13f72338aa838d8fc1118c5819",
+  "sha256_texto": "d4c18b67868f5d9977c1ffb105b13407f217736e272fe3f050fb7a8a90f5435a",
   "checks": [
     {
       "verificacao": "Quantidade de páginas e seções",
       "obtido": [
-        14,
-        14
+        13,
+        13
       ],
       "esperado": [
-        14,
-        14
+        13,
+        13
       ],
       "ok": true
     },
@@ -31,7 +31,6 @@
         "prog-atualizar",
         "prog-trilhas",
         "prog-capacidades",
-        "prog-ritmo",
         "prog-guilda",
         "prog-patentes"
       ],
@@ -47,7 +46,6 @@
         "prog-atualizar",
         "prog-trilhas",
         "prog-capacidades",
-        "prog-ritmo",
         "prog-guilda",
         "prog-patentes"
       ],
@@ -71,13 +69,13 @@
         -4,
         -5,
         -2,
-        -3
+        -2
       ],
       "esperado": [
         -4,
         -5,
         -2,
-        -3
+        -2
       ],
       "ok": true
     },
@@ -634,48 +632,6 @@
       "ok": true
     },
     {
-      "verificacao": "p14: texto completo",
-      "obtido": {},
-      "esperado": {},
-      "ok": true
-    },
-    {
-      "verificacao": "p14: texto dentro da página",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "verificacao": "p14: corpo separado de rodapé",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "verificacao": "p14: fontes incorporadas",
-      "obtido": [],
-      "esperado": [],
-      "ok": true
-    },
-    {
-      "verificacao": "p14: sem imagem raster",
-      "obtido": 0,
-      "esperado": 0,
-      "ok": true
-    },
-    {
-      "verificacao": "p14: remissões existentes",
-      "obtido": [],
-      "esperado": [],
-      "ok": true
-    },
-    {
-      "verificacao": "p14: links corretos",
-      "obtido": [],
-      "esperado": [],
-      "ok": true
-    },
-    {
       "verificacao": "Fontes e versões anteriores preservadas",
       "obtido": [],
       "esperado": [],
@@ -689,20 +645,20 @@
     },
     {
       "verificacao": "Revisão do texto atual",
-      "obtido": "483925447a9de1d0bc32fa2dfe46af1b079438106881b67ced66f0fefe10e653",
-      "esperado": "483925447a9de1d0bc32fa2dfe46af1b079438106881b67ced66f0fefe10e653",
+      "obtido": "d4c18b67868f5d9977c1ffb105b13407f217736e272fe3f050fb7a8a90f5435a",
+      "esperado": "d4c18b67868f5d9977c1ffb105b13407f217736e272fe3f050fb7a8a90f5435a",
       "ok": true
     },
     {
       "verificacao": "Seções lidas",
-      "obtido": 14,
-      "esperado": 14,
+      "obtido": 13,
+      "esperado": 13,
       "ok": true
     },
     {
       "verificacao": "Inspeção do PDF atual",
-      "obtido": "e895505a4f862aabc64324131b367d3c8151d2f002414cb9d92326f37131b4a8",
-      "esperado": "e895505a4f862aabc64324131b367d3c8151d2f002414cb9d92326f37131b4a8",
+      "obtido": "767f76b38b7b3a7e7365c95c84f178796585db13f72338aa838d8fc1118c5819",
+      "esperado": "767f76b38b7b3a7e7365c95c84f178796585db13f72338aa838d8fc1118c5819",
       "ok": true
     },
     {
@@ -720,8 +676,7 @@
         10,
         11,
         12,
-        13,
-        14
+        13
       ],
       "esperado": [
         1,
@@ -736,8 +691,7 @@
         10,
         11,
         12,
-        13,
-        14
+        13
       ],
       "ok": true
     },
@@ -761,8 +715,8 @@
     },
     {
       "verificacao": "Cenários usam o manuscrito atual",
-      "obtido": "483925447a9de1d0bc32fa2dfe46af1b079438106881b67ced66f0fefe10e653",
-      "esperado": "483925447a9de1d0bc32fa2dfe46af1b079438106881b67ced66f0fefe10e653",
+      "obtido": "d4c18b67868f5d9977c1ffb105b13407f217736e272fe3f050fb7a8a90f5435a",
+      "esperado": "d4c18b67868f5d9977c1ffb105b13407f217736e272fe3f050fb7a8a90f5435a",
       "ok": true
     },
     {
@@ -791,7 +745,7 @@
     },
     {
       "pagina": 2,
-      "final_corpo": 654.42
+      "final_corpo": 621.22
     },
     {
       "pagina": 3,
@@ -799,7 +753,7 @@
     },
     {
       "pagina": 4,
-      "final_corpo": 573.12
+      "final_corpo": 531.12
     },
     {
       "pagina": 5,
@@ -811,7 +765,7 @@
     },
     {
       "pagina": 7,
-      "final_corpo": 475.02
+      "final_corpo": 461.32
     },
     {
       "pagina": 8,
@@ -827,18 +781,14 @@
     },
     {
       "pagina": 11,
-      "final_corpo": 511.42
+      "final_corpo": 525.12
     },
     {
       "pagina": 12,
-      "final_corpo": 528.12
+      "final_corpo": 523.92
     },
     {
       "pagina": 13,
-      "final_corpo": 570.82
-    },
-    {
-      "pagina": 14,
       "final_corpo": 324.32
     }
   ],

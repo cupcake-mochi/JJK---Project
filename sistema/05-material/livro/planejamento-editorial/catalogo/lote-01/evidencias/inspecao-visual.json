@@ -1,7 +1,7 @@
 {
-  "sha256_pdf": "c1bd7b39198e104cef38345e43483b754c1c4694c43b1cc6ef260757e12204c8",
+  "sha256_pdf": "55b95d6ca7d37bd4352508b736c530262f3e33fce10dbd532dd23f8e68241006",
   "sha256_texto": "3ff14332800456da87ee8c49fa9648596003e332291823abe24dcf8fa5afe785",
-  "metodo": "Comparação de todas as páginas a85dpi com PDF anterior inspecionado, seguida de abertura real por view_image de todas as diferenças. Evidências anteriores preservadas.",
+  "metodo": "Páginas alteradas abertas e inspecionadas. Demais páginas reutilizam inspeção anterior somente por igualdade de pixels, comprovada em COMPARACAO-VISUAL-2026-10-04.json.",
   "paginas": [
     {
       "pagina": 1,
@@ -78,7 +78,9 @@
       "resultado": "sem defeito visual observado",
       "observacoes": "Página final idêntica em pixels à prova já inspecionada; inspeção anterior preservada no histórico. Não se declara uma nova abertura desta página.",
       "sha256_png": "c92ede23e8465fa663a9429f52eec1dc983968191dacd3450a8147d1b8dad54b",
-      "revisor": "Inspeção anterior conservada por equivalência de pixels"
+      "revisor": "Inspeção anterior conservada por equivalência de pixels",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026, revisão por modelo",
+      "arquivo": null
     },
     {
       "pagina": 12,
@@ -141,7 +143,9 @@
       "resultado": "sem defeito visual observado",
       "observacoes": "Página final idêntica em pixels à prova já inspecionada; inspeção anterior preservada no histórico. Não se declara uma nova abertura desta página.",
       "sha256_png": "914970a1ac0ba9e0bd0af61fe8c0fe52b4886e8522c45357dd8a51bb1eedbdec",
-      "revisor": "Inspeção anterior conservada por equivalência de pixels"
+      "revisor": "Inspeção anterior conservada por equivalência de pixels",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026, revisão por modelo",
+      "arquivo": null
     },
     {
       "pagina": 21,
@@ -197,7 +201,9 @@
       "resultado": "sem defeito visual observado",
       "observacoes": "Página aberta integralmente por view_image nesta etapa. Texto, tabelas, títulos e margens legíveis, sem cortes ou sobreposições.",
       "sha256_png": "bc64e5aeac4003fcd2d07dc49a67a6092af2672bdb4b6918c0299e6d47613b5d",
-      "revisor": "/root/maxima"
+      "revisor": "/root/maxima",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026, revisão por modelo",
+      "arquivo": null
     },
     {
       "pagina": 29,
@@ -213,5 +219,20 @@
       "sha256_png": "5c44d2a141619777982989588b5ec9732a0883c9803e1096b12d7227486b0001",
       "revisor": "/root/maxima"
     }
-  ]
+  ],
+  "sha256_pdf_anterior": "c1bd7b39198e104cef38345e43483b754c1c4694c43b1cc6ef260757e12204c8",
+  "revisao_delta_2026_10_04": {
+    "sha256_anterior": "6d51bf56cfdc5a6c42d75f05e2759ad4ee6dbbd0beb1cc31cf40a3c9e141b39b",
+    "sha256_atual": "61f9e65fdfdb59517c710fb6aa6e0e19631823212f3155572b40870c3b2670ff",
+    "mudancas": [
+      "C08e"
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.json",
+    "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana.",
+    "paginas_alteradas": [
+      11,
+      20,
+      28
+    ]
+  }
 }

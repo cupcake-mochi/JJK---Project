@@ -1,0 +1,13 @@
+{
+  "pdf_anterior": "6db0a02aea443bbc77bcfabe519beff6585c2c37a241fe625cd199b73e8a6667",
+  "pdf_atual": "c815b08890b348e0e301d0f791224572e512fa81788043ead683803282213735",
+  "paginas": 19,
+  "alteradas": [
+    5,
+    9,
+    10,
+    11
+  ],
+  "metodo": "pdftoppm a 60 dpi, comparação exata de pixels página a página; as alteradas foram abertas e inspecionadas.",
+  "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana."
+}

@@ -265,3 +265,11 @@ Candidata R17. Fontes publicadas preservadas.
 ## EV27 — Revisão independente
 
 Conduzir a Especial explicita que mudar origem não dispensa contato, Aura centrada na executora ou Restrição Corpo a Corpo. Cone/Linha continuam possíveis pela apoiadora quando cumprem suas exigências. A fonte já conservava Forma/Restrições; o fechamento evita ignorá-las por alcance composto. Retirado metatexto “novos cartões” de Atuação em parceria. Sem alteração de preço, ações ou número de usos.
+
+## EV28 — decisão do autor
+
+**Antes:** substitua-a por uma reserva apropriada
+
+**Depois:** substitua-a por uma invocação recolhida apropriada
+
+**Motivo:** Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G2-10 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D31).

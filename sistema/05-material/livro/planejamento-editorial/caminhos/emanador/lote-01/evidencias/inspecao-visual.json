@@ -1,8 +1,8 @@
 {
-  "sha256_pdf": "6db0a02aea443bbc77bcfabe519beff6585c2c37a241fe625cd199b73e8a6667",
+  "sha256_pdf": "c815b08890b348e0e301d0f791224572e512fa81788043ead683803282213735",
   "revisor": "/root",
-  "metodo": "Páginas alteradas abertas e inspecionadas. Demais páginas reutilizam inspeção anterior somente por igualdade de pixels, comprovada em COMPARACAO-NOMES-ROOT.json.",
-  "sha256_pdf_anterior": "f323fcb976d408240d490fd3d867bef1625842635910cad0ce32b6a18b0f02a3",
+  "metodo": "Páginas alteradas abertas e inspecionadas. Demais páginas reutilizam inspeção anterior somente por igualdade de pixels, comprovada em COMPARACAO-VISUAL-2026-10-04.json.",
+  "sha256_pdf_anterior": "6db0a02aea443bbc77bcfabe519beff6585c2c37a241fe625cd199b73e8a6667",
   "paginas": [
     {
       "pagina": 1,
@@ -31,8 +31,8 @@
     {
       "pagina": 5,
       "resultado": "sem defeito visual observado",
-      "metodo": "pixels idênticos à prova inspecionada",
-      "arquivo": "output/comparacao-nomes/depois/pagina-05.png"
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026, revisão por modelo",
+      "arquivo": null
     },
     {
       "pagina": 6,
@@ -55,20 +55,20 @@
     {
       "pagina": 9,
       "resultado": "sem defeito visual observado",
-      "metodo": "pixels idênticos à prova inspecionada",
-      "arquivo": "output/comparacao-nomes/depois/pagina-09.png"
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026, revisão por modelo",
+      "arquivo": null
     },
     {
       "pagina": 10,
       "resultado": "sem defeito visual observado",
-      "metodo": "pixels idênticos à prova inspecionada",
-      "arquivo": "output/comparacao-nomes/depois/pagina-10.png"
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026, revisão por modelo",
+      "arquivo": null
     },
     {
       "pagina": 11,
       "resultado": "sem defeito visual observado",
-      "metodo": "pixels idênticos à prova inspecionada",
-      "arquivo": "output/comparacao-nomes/depois/pagina-11.png"
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026, revisão por modelo",
+      "arquivo": null
     },
     {
       "pagina": 12,
@@ -118,5 +118,21 @@
       "metodo": "pixels idênticos à prova inspecionada",
       "arquivo": "output/comparacao-nomes/depois/pagina-19.png"
     }
-  ]
+  ],
+  "revisao_delta_2026_10_04": {
+    "sha256_anterior": "027d4f93d4d59d6674cf3d0ac7f380bd387c367d1e012740b6d25e71b744ba1f",
+    "sha256_atual": "9c99cc60360abca18c6072753f713c12b9294b9df463ae3d8747d6dc922302aa",
+    "mudancas": [
+      "C01",
+      "C13"
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.json",
+    "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana.",
+    "paginas_alteradas": [
+      5,
+      9,
+      10,
+      11
+    ]
+  }
 }

@@ -199,12 +199,44 @@ def widths(rows):
  assert len(w)==n and abs(sum(w)-1)<1e-6,(head,w)
  return [AW*x for x in w]
 
+class TabelaSemOrfa(Table):
+ # Uma quebra de página não deixa só o cabeçalho e uma linha no pé, nem uma linha sozinha sob o cabeçalho repetido.
+ MINIMO=2
+ def split(self,availWidth,availHeight):
+  r=Table.split(self,availWidth,availHeight)
+  if len(r)!=2:return r
+  h=self.repeatRows;a=len(r[0]._cellvalues)-h;b=len(r[1]._cellvalues)-h
+  if a<self.MINIMO:return []
+  if b<self.MINIMO:
+   k=self.MINIMO-b
+   if a-k<self.MINIMO:return []
+   r=Table.split(self,availWidth,sum(self._rowHeights[:h+a-k+1])-0.01)
+  return r
+
+class GrupoComTabela(KeepTogether):
+ # Título e linhas que apresentam uma tabela ou um parágrafo seguem com o começo dele: cabeçalho e duas linhas da tabela, ou duas linhas do texto. O resto pode quebrar.
+ def split(self,aW,aH):
+  t=self._content[-1]
+  if not getattr(t,'apresentada',False):return KeepTogether.split(self,aW,aH)
+  C=self._content;th=t.wrap(aW,H)[1]
+  # Peça curta demais para quebrar sem deixar sobra de uma linha precisa caber inteira.
+  m=TabelaSemOrfa.MINIMO
+  if isinstance(t,TabelaSemOrfa):first=th if len(t._rowHeights)-t.repeatRows<2*m else sum(t._rowHeights[:t.repeatRows+m])
+  elif isinstance(t,Paragraph):first=th if round(th/t.style.leading)<2*m else m*t.style.leading
+  else:first=th
+  # Mesma conta do quadro: alturas, e entre dois elementos o maior dos espaços que se encostam.
+  need=sum(f.wrap(aW,H)[1] for f in C[:-1])+sum(max(C[i].getSpaceAfter(),C[i+1].getSpaceBefore()) for i in range(len(C)-1))+first
+  if aH+0.01>=need:return C[:]
+  return KeepTogether.split(self,aW,aH)
+
 def make_table(lines):
  rows=[[v.strip() for v in line.strip().strip('|').split('|')] for line in lines];rows=[r for r in rows if not all(re.match(r'^:?-+:?$',v) for v in r)]
  n=len(rows[0]);assert all(len(r)==n for r in rows),(current_block,rows)
  ps=[[Paragraph(inline(v),ST['headcell' if j==0 else 'cell']) for v in r] for j,r in enumerate(rows)]
- t=Table(ps,colWidths=widths(rows),repeatRows=1,hAlign='LEFT',spaceBefore=3,spaceAfter=9,splitByRow=1)
+ t=TabelaSemOrfa(ps,colWidths=widths(rows),repeatRows=1,hAlign='LEFT',spaceBefore=3,spaceAfter=9,splitByRow=1)
  t.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,0),INK),('VALIGN',(0,0),(-1,-1),'TOP'),('LEFTPADDING',(0,0),(-1,-1),4),('RIGHTPADDING',(0,0),(-1,-1),4),('TOPPADDING',(0,0),(-1,-1),4),('BOTTOMPADDING',(0,0),(-1,-1),4),('ROWBACKGROUNDS',(0,1),(-1,-1),[white,PALE]),('LINEBELOW',(0,1),(-1,-1),.35,RULE)]));return t
+
+INTEIROS={'geral--energia-exemplo','guia--guia-emergencia-cuidado','emanador--ema-fluxo','consulta--consulta-entidades','incursor--inc-perfeita'}
 
 def add_blocks(story,b,style='section',duplicate=False,outline=None):
  lines=enriched[b.key].splitlines();i=0;attached=False;start=len(story)
@@ -220,6 +252,14 @@ def add_blocks(story,b,style='section',duplicate=False,outline=None):
    f=make_table(group)
    if compact:
     f.setStyle(TableStyle([('TOPPADDING',(0,0),(-1,-1),2.5),('BOTTOMPADDING',(0,0),(-1,-1),2.5)]));f.spaceAfter=6
+   # Título seguido de até quatro linhas e da tabela: essas linhas vão junto, como o título já ia.
+   if b.key not in INTEIROS:
+    j=len(story);linhas=0
+    while j-1>start and isinstance(story[j-1],Paragraph) and story[j-1].style.name in ('body','ficha-body','list'):
+     linhas+=round(story[j-1].wrap(AW,H)[1]/story[j-1].style.leading);j-=1
+    if j<len(story) and linhas<=4 and j-1>=start and isinstance(story[j-1],Paragraph) and getattr(story[j-1].style,'keepWithNext',0):
+     for x in story[j:]:x.keepWithNext=True
+     f.apresentada=True
   elif s.startswith('# '):
    if duplicate:continue
    f=Paragraph(inline(s[2:]),ST[style]);f.keys=[b.key];f.block_key=b.key;f.source_doc=b.doc;attached=True
@@ -234,10 +274,13 @@ def add_blocks(story,b,style='section',duplicate=False,outline=None):
   # Keep short identifying lines with the actual rule or table they introduce.
   if (b.key=='incursor--inc-redirecionar' and s=='**Nível 27.**') or (b.key=='equip--eqa-tiro' and s=='Treino simples. Bestas de uma ou duas mãos.') or (b.key=='equip--eqf-acessorios' and s.startswith('**Roupa comum. Grau 3. Efeito: Perene.**')):
    f.keepWithNext=True
+  # Título com uma linha só embaixo (como a linha de uso de uma habilidade): a linha segue com o começo do texto seguinte.
+  if b.key not in INTEIROS and not getattr(f,'apresentada',False) and isinstance(f,(Paragraph,TabelaSemOrfa)) and len(story)-start>=2 and isinstance(story[-1],Paragraph) and story[-1].style.name in ('body','ficha-body','list') and isinstance(story[-2],Paragraph) and getattr(story[-2].style,'keepWithNext',0) and not getattr(story[-1],'keepWithNext',0) and round(story[-1].wrap(AW,H)[1]/story[-1].style.leading)<=1:
+   story[-1].keepWithNext=True;f.apresentada=True
   f.source_block=b.key;story.append(f)
  assert attached or duplicate,b.key
  # Complete closing units replace isolated tails before a chapter/page break.
- if b.key in {'geral--energia-exemplo','guia--guia-emergencia-cuidado','emanador--ema-fluxo','consulta--consulta-entidades','incursor--inc-perfeita'}:
+ if b.key in INTEIROS:
   story[start:]=[KeepTogether(story[start:])]
 
 def toc_row(label,key,style='toc'):
@@ -272,7 +315,7 @@ pdf=OUT/'Projeto-M-Livro-Completo-Candidata.pdf';previous=None;pass_reports=[]
 for passno in range(1,opt.passes+1):
  events=[];current_chapter='';current_part='';current_source='';current_block=''
  doc=Book(str(pdf),pagesize=A4,leftMargin=M,rightMargin=M,topMargin=21*mm,bottomMargin=21*mm,title='Projeto - M — Livro de regras — candidata editorial',author='Projeto - M',pageCompression=1)
- doc.pages={};doc.block_pages={}
+ doc.pages={};doc.block_pages={};doc.keepTogetherClass=GrupoComTabela
  doc.build(story())
  fresh=doc.pages;pass_reports.append({'passagem':passno,'paginas':doc.page,'destinos':len(fresh),'mapa_estavel':fresh==page_map})
  print(json.dumps(pass_reports[-1],ensure_ascii=False),flush=True)

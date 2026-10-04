@@ -1,7 +1,7 @@
 {
-  "sha256_pdf": "010071601ddd59860a113451b3ed7831c0234db4edec58f3fcd0e8b6cdbb553f",
-  "sha256_texto": "8c0e790f36fdffca4b5c148b7bcdfc2376a7bdcf65b2c5867c7a126c8ac1f887",
-  "metodo": "Comparação de todas as páginas a85dpi com PDF anterior inspecionado, seguida de abertura real por view_image de todas as diferenças. Evidências anteriores preservadas.",
+  "sha256_pdf": "729b841c732b5f02fd4a70df4ee5ec62513878bf0a9ef5cb047a047319ef3778",
+  "sha256_texto": "6b91f45d55c3383b014ac27c2c683bc6341533e63e639fd288634ec4e8529ded",
+  "metodo": "Páginas alteradas abertas e inspecionadas. Demais páginas reutilizam inspeção anterior somente por igualdade de pixels, comprovada em COMPARACAO-VISUAL-2026-10-04.json.",
   "paginas": [
     {
       "pagina": 1,
@@ -34,9 +34,10 @@
     {
       "pagina": 5,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Página final idêntica em pixels à prova já inspecionada; inspeção anterior preservada no histórico. Não se declara uma nova abertura desta página.",
-      "sha256_png": "a3ba05abe35f0aa76d933750803b497c34ea8cacdbe6132b087dca022586c5fc",
-      "revisor": "Inspeção anterior conservada por equivalência de pixels"
+      "observacoes": "Etapa 5 da criação com as escolhas do Traje; tabela inteira.",
+      "sha256_png": "8d8ade0fb5ec686968380c810f0f78068778e1077b2821fdf0b2929ab58262c7",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo"
     },
     {
       "pagina": 6,
@@ -62,9 +63,11 @@
     {
       "pagina": 9,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Página final idêntica em pixels à prova já inspecionada; inspeção anterior preservada no histórico. Não se declara uma nova abertura desta página.",
-      "sha256_png": "f35751d41daa6429e5515b0c7a4fd4d30f6eaa6fd51e7e9aa2d47afb75ff8f92",
-      "revisor": "Inspeção anterior conservada por equivalência de pixels"
+      "observacoes": "Equipamento e valores com as escolhas do Traje; exemplo inteiro.",
+      "sha256_png": "9e892fdd5fbf8799b9d91e599f7250a9b83927c8c37c338865b87965e9c6e1ea",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo",
+      "arquivo": null
     },
     {
       "pagina": 10,
@@ -90,9 +93,35 @@
     {
       "pagina": 13,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Página final idêntica em pixels à prova já inspecionada; inspeção anterior preservada no histórico. Não se declara uma nova abertura desta página.",
-      "sha256_png": "f6ef7c24ef608e5f0312c72a339d9a2a0f78eddb694363b4f540c493f987477b",
-      "revisor": "Inspeção anterior conservada por equivalência de pixels"
+      "observacoes": "Ficha pronta com o Traje no inventário.",
+      "sha256_png": "83611218041abf3ae4916cd5875b95f180a04358758877105c3cc699565a3c43",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo"
     }
-  ]
+  ],
+  "sha256_pdf_anterior": "010071601ddd59860a113451b3ed7831c0234db4edec58f3fcd0e8b6cdbb553f",
+  "revisao_delta_2026_10_04": {
+    "sha256_anterior": "8c0e790f36fdffca4b5c148b7bcdfc2376a7bdcf65b2c5867c7a126c8ac1f887",
+    "sha256_atual": "6778c50063b3549bce9e8e5c02961ec2aec0a803ceff75844e68fe9d7729bd1e",
+    "mudancas": [
+      "C08d"
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.json",
+    "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana.",
+    "paginas_alteradas": [
+      9
+    ]
+  },
+  "revisao_delta_2026_10_04_quinta_passada": {
+    "sha256_pdf_anterior": "50fd43a48197d1bdd583cda25eaac69ff97e477b87f6568fbf4b5bfed11c5b30",
+    "sha256_pdf_atual": "729b841c732b5f02fd4a70df4ee5ec62513878bf0a9ef5cb047a047319ef3778",
+    "paginas_alteradas": [
+      5,
+      9,
+      13
+    ],
+    "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-04-quinta.json",
+    "metodo": "As páginas alteradas foram abertas; as demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  }
 }

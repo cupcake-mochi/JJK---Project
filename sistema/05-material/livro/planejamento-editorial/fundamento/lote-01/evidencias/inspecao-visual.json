@@ -1,6 +1,6 @@
 {
-  "sha256_pdf": "2d8ecd738ae4e0e3a2b101527f13d0020727bb9c6ac28e5ef482bcc8f6fbf634",
-  "sha256_texto": "0160f774f5ea87f4ffd29bb7f7e3335dead51677bf2b894041aa61e2c5041273",
+  "sha256_pdf": "d0c4ffe270f8271f04d421c7e9cae9217b08f86850391cb33f73597b4f457645",
+  "sha256_texto": "7fc58fa8955f2a4f820906d02d1ed78d5d190e4091f4279ab6c0d0050a9a7f9f",
   "metodo": "Comparação de todas as páginas a85dpi com PDF anterior inspecionado, seguida de abertura real por view_image de todas as diferenças. Evidências anteriores preservadas.",
   "paginas": [
     {
@@ -55,9 +55,10 @@
     {
       "pagina": 8,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Página final idêntica em pixels à prova já inspecionada; inspeção anterior preservada no histórico. Não se declara uma nova abertura desta página.",
-      "sha256_png": "80ed5159eeac844e3c43559aa9db59ce03d80c5c60d789eb32cd589a6f72b2b3",
-      "revisor": "Inspeção anterior conservada por equivalência de pixels"
+      "observacoes": "Formas de ataque: \"desta seção\" na primeira frase; tabela de Formas, títulos e links (p. 10 e p. 11) legíveis e dentro da margem.",
+      "sha256_png": "abe27c952169c2bc2570d77842990e95750e1593e952f887ce4a1aa4ebc6eff3",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo"
     },
     {
       "pagina": 9,
@@ -146,9 +147,10 @@
     {
       "pagina": 21,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Página aberta integralmente por view_image nesta etapa. Texto, tabelas, títulos e margens legíveis, sem cortes ou sobreposições.",
-      "sha256_png": "48d7aff9f5e17f53793cbc3245e11174f4414d8b91bb7f1a792d636099336ed7",
-      "revisor": "/root/maxima"
+      "observacoes": "Classe 0, Uma Melhoria com a frase da Restrição Leve; tabela e exemplo inteiros.",
+      "sha256_png": "e4f72e78ab0fa30b4b2cc5c81732cc4b04384cc2f9075ea82cf09b8860e8f484",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo"
     },
     {
       "pagina": 22,
@@ -174,9 +176,10 @@
     {
       "pagina": 25,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Página final idêntica em pixels à prova já inspecionada; inspeção anterior preservada no histórico. Não se declara uma nova abertura desta página.",
-      "sha256_png": "7c4095f09ebbd06e0c9d3daed7be9939513a4fa3ec046cf55eb9c0f58d0b81d5",
-      "revisor": "Inspeção anterior conservada por equivalência de pixels"
+      "observacoes": "Fenda de Arrasto sem a média de dano; quadro Na ficha e links (p. 27) e (p. 28) visíveis.",
+      "sha256_png": "bc551dc75c2e5286aa772b2ecbd88105f0cdec63a4ec5d73b0afa897941b6df2",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo"
     },
     {
       "pagina": 26,
@@ -206,5 +209,35 @@
       "sha256_png": "baf7ef2517ab362af8e9ea0b66b838175a370092b6c3dc6422d25b851e896540",
       "revisor": "Inspeção anterior conservada por equivalência de pixels"
     }
-  ]
+  ],
+  "metodo_2026_10_04": "Páginas alteradas pelas remissões da montagem abertas e inspecionadas. As demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado, comprovada em COMPARACAO-VISUAL-2026-10-04.json, sem alegar nova leitura visual.",
+  "revisao_delta_2026_10_04": {
+    "sha256_pdf_anterior": "2d8ecd738ae4e0e3a2b101527f13d0020727bb9c6ac28e5ef482bcc8f6fbf634",
+    "sha256_pdf_atual": "05766e656a3d09b0316a891c69503aa502ac2e43a01a3e131bc020477d712dd1",
+    "paginas_alteradas": [
+      8
+    ],
+    "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-04.json",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "revisao_delta_2026_10_04_quarta_passada": {
+    "sha256_pdf_anterior": "05766e656a3d09b0316a891c69503aa502ac2e43a01a3e131bc020477d712dd1",
+    "sha256_pdf_atual": "fd0add2ef84633eaaaa7b9f6a23151b473ed5374666fe7cf3f20def3aee80689",
+    "paginas_alteradas": [
+      25
+    ],
+    "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-04-quarta.json",
+    "metodo": "As páginas alteradas foram abertas; as demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "revisao_delta_2026_10_04_quinta_passada": {
+    "sha256_pdf_anterior": "fd0add2ef84633eaaaa7b9f6a23151b473ed5374666fe7cf3f20def3aee80689",
+    "sha256_pdf_atual": "d0c4ffe270f8271f04d421c7e9cae9217b08f86850391cb33f73597b4f457645",
+    "paginas_alteradas": [
+      21
+    ],
+    "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-04-quinta.json",
+    "metodo": "As páginas alteradas foram abertas; as demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  }
 }

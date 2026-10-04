@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "sha256_texto": "009036700319e1d3371ef84f6889539416bb0130d494dc40a316bebf08b1d18c",
+  "sha256_texto": "60ce622431b0dfeb4f1f6eaad8b8446e71473755a17e55eb3fc0535ce333e7f3",
   "casos": [
     {
       "id": "def17_ataque6_estatica",
@@ -387,5 +387,10 @@
       "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
     }
   ],
-  "verificacoes": 547
+  "verificacoes": 547,
+  "revisao_delta_2026_10_04": {
+    "auditoria_reexecutada": "regras-gerais/lote-final/auditar.py (reexecutado em 04/10/2026)",
+    "resultado": "ok",
+    "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana."
+  }
 }

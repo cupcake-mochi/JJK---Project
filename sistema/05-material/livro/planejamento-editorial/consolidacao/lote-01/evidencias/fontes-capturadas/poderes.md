@@ -137,7 +137,7 @@ A Incompleta e o modo aberto conservam o centro em que foram criados. Você pode
 <!-- page:rescaldo|Encerramento e Rescaldo -->
 # Encerramento e Rescaldo
 
-Seu domínio termina quando a duração acaba, você o desfaz, chega a **0 PV**, perde uma disputa ou uma regra destrói sua barreira. Durante uma disputa prolongada, acumular as falhas necessárias também o encerra. Uma Expansão aberta não precisa perder uma barreira para terminar.
+Seu domínio termina quando a duração acaba, você o desfaz, chega a **0 PV**, fica **Inconsciente** ou **Derrotado**, perde uma disputa ou uma regra destrói sua barreira. Durante uma disputa prolongada, acumular as falhas necessárias também o encerra. Uma Expansão aberta não precisa perder uma barreira para terminar.
 
 Você pode desfazer voluntariamente o próprio domínio, sem ação. Isso não devolve o custo de abertura. Não é possível manter duas Expansões suas: encerrar a primeira impõe seu preço antes que você possa tentar abrir outra.
 
@@ -170,7 +170,7 @@ A ficha precisa distinguir criaturas, objetos e ausência de energia. Abrir sem 
 
 ## Encerramento
 
-Este modo não tem uma barreira exterior que possa ser destruída. Um objeto que faça parte da aparência do domínio não se torna automaticamente um ponto fraco. Valem a duração, a derrota em disputa, as falhas acumuladas nela, o encerramento voluntário e chegar a 0 PV.
+Este modo não tem uma barreira exterior que possa ser destruída. Um objeto que faça parte da aparência do domínio não se torna automaticamente um ponto fraco. Valem a duração, a derrota em disputa, as falhas acumuladas nela, o encerramento voluntário, chegar a 0 PV e ficar Inconsciente ou Derrotado.
 
 > **Exemplo.** No nível 26, maior Classe 7, Maestria 4 e refino 10, abrir custa 49 PE. Um feitiço de Classe 5 custa 15 − 8 = **7 PE**. Escolhendo o modo fechado, a abertura custaria 42 PE e esse feitiço custaria 15 − 5 = **10 PE**.
 
@@ -287,7 +287,7 @@ Este domínio pertence a uma técnica que cria lâminas de vidro a partir de sup
 
 Yuri começa o turno ao lado de uma aliada e estabelece o contato antes de abrir. Paga 24 PE. Um adversário recebe o primeiro Acerto; a aliada permanece protegida. Nos dois turnos seguintes, Yuri resolve outro Acerto no começo e age normalmente. Seus feitiços com custo positivo recebem desconto de 2 PE.
 
-A barreira tem **100 PV exteriores**. Se ela durar até o fim do segundo turno seguinte, serão três aplicações, totalizando 24d8 por criatura que tenha recebido todas. A média bruta é 108, distribuída no tempo e antes das defesas. Encerrar antes reduz esse total e inicia Rescaldo da mesma maneira.
+A barreira tem **100 PV exteriores**. Se ela durar até o fim do segundo turno seguinte, serão três aplicações, totalizando 24d8 por criatura que tenha recebido todas. Encerrar antes reduz esse total e inicia Rescaldo da mesma maneira.
 
 <!-- page:salatregua|Sala de Trégua -->
 # Sala de Trégua

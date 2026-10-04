@@ -1,9 +1,9 @@
 {
   "ok": true,
   "manuscritos_auditados": {
-    "sistema/05-material/livro/planejamento-editorial/caminhos/emanador/lote-01/EMANADOR.md": "027d4f93d4d59d6674cf3d0ac7f380bd387c367d1e012740b6d25e71b744ba1f"
+    "sistema/05-material/livro/planejamento-editorial/caminhos/emanador/lote-01/EMANADOR.md": "9c99cc60360abca18c6072753f713c12b9294b9df463ae3d8747d6dc922302aa"
   },
-  "sha256_texto": "027d4f93d4d59d6674cf3d0ac7f380bd387c367d1e012740b6d25e71b744ba1f",
+  "sha256_texto": "9c99cc60360abca18c6072753f713c12b9294b9df463ae3d8747d6dc922302aa",
   "aprovado": true,
   "checks": [
     {
@@ -49,13 +49,13 @@
         "ema-desdobramento": 247,
         "ema-remodelar": 270,
         "ema-modulacoes": 323,
-        "ema-familiares": 282,
+        "ema-familiares": 283,
         "ema-forma": 290,
         "ema-instintiva": 370,
         "ema-condutor": 275,
-        "ema-artes": 251,
-        "ema-propriedades": 307,
-        "ema-propriedades-apoio": 290,
+        "ema-artes": 253,
+        "ema-propriedades": 309,
+        "ema-propriedades-apoio": 292,
         "ema-manifestacao": 293,
         "ema-eco": 270,
         "ema-repetir": 259,
@@ -966,13 +966,13 @@
     "ema-desdobramento": 247,
     "ema-remodelar": 270,
     "ema-modulacoes": 323,
-    "ema-familiares": 282,
+    "ema-familiares": 283,
     "ema-forma": 290,
     "ema-instintiva": 370,
     "ema-condutor": 275,
-    "ema-artes": 251,
-    "ema-propriedades": 307,
-    "ema-propriedades-apoio": 290,
+    "ema-artes": 253,
+    "ema-propriedades": 309,
+    "ema-propriedades-apoio": 292,
     "ema-manifestacao": 293,
     "ema-eco": 270,
     "ema-repetir": 259,

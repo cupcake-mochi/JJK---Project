@@ -1,0 +1,56 @@
+Continuidade pós-revisão — conferência de 04/10/2026
+
+ATUALIZAÇÃO, MESMO DIA: QUINTA PASSADA — REVISÃO DE INTERFACES FECHADA
+O Mizuki decidiu os 18 achados restantes, aceitando a sugestão em todos (D25 a D41; na 9, a permissão do mestre pode conceder o acesso). Onze capítulos mudaram; antes, depois, motivo e efeito na mesa em revisao-interfaces/CORRECOES-APLICADAS.md, e o que precisa chegar às peças em migracao-pos-candidata/PLANO.md.
+PDF vigente: 382 páginas, SHA-256 4ae5931dc24a7ffda17d62460a6a28c9a834d6805fc5e53f7004cd40bb25fae1; 59 páginas mudaram, todas abertas; cadeia visual sem lacuna. ZIP refeito com o mesmo nome: SHA-256 bda1337af3ef6c965c5da8ac0981a1b424c7737be4c01c63c223abdb8171db54, 1389 arquivos, PDF reproduzido idêntico.
+Próximos passos: mesclar o PR #2 (decisão do Mizuki), etapa artística numa branch nova, teste com leitores e migração para as peças.
+
+ATUALIZAÇÃO, MESMO DIA: PENDÊNCIAS PEQUENAS
+Paginação: o gerador não deixa mais tabela partida com uma linha sozinha, nem título sozinho no pé da página. Antes eram 10 tabelas e 12 títulos. O conferir_livro.py confere as duas coisas no PDF (agora 3505 verificações) e foi testado por perturbação (consolidacao/lote-01/evidencias/perturbacao-paginacao.txt). Nenhum texto mudou; o livro continua com 382 páginas. Mudaram 115 páginas, todas abertas; a cadeia visual continua sem lacuna. PDF: 42d9207037ed22db62f68af3b9936ba22a8c2887aa097496116b0842784c9095.
+Auditores: cinco reescreviam a evidência só por rodar de novo (quatro apagavam o bloco revisao_delta e o Equipamento mudava a ordem de conjuntos). Consertados e testados com três sementes (revisao-interfaces/evidencias/estabilidade-auditores-2026-10-04.txt).
+ZIP refeito com o mesmo nome: SHA-256 89ccabc479ddb667ad4d60c570a54efb0a7ff5f6dc0936e850c1f0f98bf8669a, 1377 arquivos; o PDF reproduzido dele é idêntico.
+Próximo passo combinado com o Mizuki: levantar as 18 decisões de regra de revisao-interfaces/ACHADOS.md antes da etapa artística.
+
+ATUALIZAÇÃO, MESMO DIA: QUARTA PASSADA
+O Mizuki confirmou que Sem Técnica também registra a Expressão da técnica (D18) e pediu para tirar as outras contas de projetista do livro do jogador (D19 a D24): total de XP até os níveis 20 e 30, prazo da marca de mestre, diferença de probabilidade do Ritual sem treino e três médias de dano em exemplos. Seis capítulos mudaram (Rotas, Progressão, Ritual, Poderes avançados, Fundamento e Invocações em campo), com antes, depois e motivo em revisao-interfaces/CORRECOES-APLICADAS.md.
+PDF vigente: 382 páginas, SHA-256 bceea2d72fa70e3bbd1bef9051d521c3eaf09c2c7815898e8ca83419fc5c2aaa. Mudaram 8 páginas do livro, todas abertas; a cadeia visual continua sem lacuna. O ZIP entrega/Projeto-M-Livro-Reconstruido-2026-10-04.zip foi refeito com o mesmo nome (SHA-256 c538cfa32ef2c987cde71656c24ff650f294731faa751f5b4523cebf19b58b1b, 1374 arquivos) e o PDF reproduzido dele é idêntico. A versão anterior do ZIP com esse nome está no histórico do git (commit 56108eb).
+Os números do bloco seguinte (PDF 633f85ae…, ZIP 5e864342…, 1366 arquivos) são da terceira passada.
+
+ATUALIZAÇÃO, MESMO DIA: ITENS 2 E 3
+Item 2 feito. O PDF vigente tem 382 páginas, SHA-256 633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e. FINAL-V14.json, VALIDADORES.json, MANIFESTO.json e FECHAMENTO-DOS-DONOS.json da consolidação agora apontam para ele; as versões de 03/10 estão copiadas em consolidacao/lote-01/evidencias/antes-fechamento-2026-10-04/. A inspeção visual cobre as 382 páginas sem lacuna: 259 herdadas da V14 e 123 abertas nas passadas de 04/10 (CADEIA-VISUAL-2026-10-04.json). Os 23 VALIDADORES.json e MANIFESTO.json dos capítulos foram renovados com os hashes atuais. V15 global sem pendência.
+ZIP novo: entrega/Projeto-M-Livro-Reconstruido-2026-10-04.zip, SHA-256 5e864342558caf9193540e2e3738080bead59af725a26bed278c1bfccf4be943, 1366 arquivos, montagem determinística. CRC, hashes internos e as 23 fontes conferidos; o PDF reproduzido do ZIP desempacotado é idêntico ao do repositório. O ZIP de 03/10 saiu da árvore e continua no histórico do git (commit bbc4428).
+Item 3 feito em parte. Nove decisões do autor aplicadas (D05 a D12), índice com 286 verbetes (D13) e tabelas de projetista retiradas do livro do jogador a pedido do autor (D14 a D17). Ficam 18 achados, todos dependentes de decisão; a lista está em revisao-interfaces/ACHADOS.md.
+O quadro abaixo continua como retrato de antes destas atualizações.
+
+ATUALIZAÇÃO, MESMO DIA: ITEM 1 FEITO
+As provas de Aptidões, Fundamento, Origens, Perícias e Poderes avançados foram atualizadas. Os cinco conferir.py saem com código 0 (805 verificações, nenhuma falha). O texto deles só tinha 7 trocas de remissão da montagem; nenhuma regra mudou. Inventário de Origens: o segundo parágrafo do Revezamento estava atrasado em relação à migração de nomes e foi alinhado ao texto. Registro completo em publicacao-github/provas-cinco-capitulos-2026-10-04/LEIA-ME.md.
+A fila segue no item 2 (evidência geral do PDF de 384 páginas e ZIP). O quadro abaixo, de "CONFIRMADO" em diante, é o retrato de antes desta atualização.
+
+Repositório: https://github.com/cupcake-mochi/JJK---Project
+Branch de trabalho: claude/revisao-pos-reconstrucao-rxwpkq (PR #2, aberto).
+A main contém a reconstrução original de 03/10; a branch contém a revisão do Claude.
+
+CONFIRMADO
+- conferir-repositorio.py foi reexecutado numa cópia limpa da branch: código 0; zero referências mortas, 37 avisos e uma checagem pulada (finalizado/ ausente). Os avisos incluem arquivos temporários antigos e materiais intencionalmente locais.
+- QA-ESTRUTURAL.json atual registra ok=true, 3497 checagens, 384 páginas e 508 links. Seu hash de PDF coincide com GERACAO.json.
+- Todas as fontes declaradas em GERACAO.json foram conferidas por SHA-256 e continuam iguais às utilizadas para gerar o PDF.
+- Reexecutei os conferir.py de cinco capítulos e confirmei rc=1 em todos. Resultados integrais estão em publicacao-github/conferencia-independente-2026-10-04/. A contagem abaixo é o número de verificações com falha, não quantidade de erros novos de regras:
+  Aptidões: 7; Fundamento: 5; Origens: 5; Perícias: 7; Poderes avançados: 7.
+  Incluem PDFs individuais/remissões que não acompanharam o texto e evidências de revisão/auditoria vinculadas a hashes antigos.
+- Esses resultados não significam que o PDF consolidado tem as mesmas falhas; cada prova individual precisa ser atualizada e conferida pelo próprio procedimento.
+
+ENTREGA A ATUALIZAR
+- PDF atual da branch: SHA-256 00a207c962c27cdc13c74ef6dff70acea2803f8081a9a8d17b254a2d39b74eda.
+- PDF dentro do ZIP de 03/10: SHA-256 44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8.
+- FINAL-V14.json, MANIFESTO.json, VALIDADORES.json e FECHAMENTO-DOS-DONOS.json ainda se referem ao fechamento anterior. CORRECOES-APLICADAS.md declara as inspeções por delta desta rodada. Fechar uma cadeia de evidência atual, preservando o histórico, antes de declarar o pacote final atualizado.
+- Refazer o ZIP e conferir que sua versão coincide com os PDFs e as fontes vigentes.
+
+REGRAS RESTANTES
+ACHADOS.md registra 51 achados originais, 19 correções (duas parciais), quatro achados decididos depois e 28 restantes. A D04 também foi aplicada. Consulte o quadro vigente; não trate esses números como regras novas.
+Prioridades: ordem dos efeitos na queda; Feito 8; acesso do Batedor à arma de fogo; Fluidez antes do primeiro turno, saques e Instante Decisivo contra Bloquear; nomes; tipo de dano da Cisão. Há também lacunas das entidades, ritual/Técnica Máxima e verbetes de consulta. Não reabrir as decisões já tomadas sobre besta, ataque adicional do Incursor, armas das entidades e retorno dos corpos excedentes.
+
+PLANOS PREPARADOS, AINDA NÃO EXECUTADOS
+Testes humanos em testes-com-leitores/. Migração em migracao-pos-candidata/. Não há playtest humano realizado por esta conferência. A publicação antiga permanece separada da candidata.
+
+AMBIENTE
+O Git no HD externo permanece com erro de entrada/saída. Use clone saudável e não sobrescreva a branch revisada com os textos mais antigos do HD. As imagens de inspeção e os grandes pacotes antigos de transferência foram mantidos localmente. Todo o conteúdo substantivo necessário para continuar está versionado.

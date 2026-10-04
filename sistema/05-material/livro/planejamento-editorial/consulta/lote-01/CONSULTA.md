@@ -108,7 +108,7 @@
 
 **Legado.** Escolha da Origem que registra uma capacidade ou vínculo. Cada entrada informa seu tipo e suas consequências. **Consulta:** Origens.
 
-**Leve, Média e Pesada.** Nomes de faixas de preço e também de categorias de Condição. Consulte a tabela correspondente; pontos de montagem e PE não são a mesma conta. **Consulta:** Pontos e preços.
+**Leve, Média e Pesada.** Nomes de faixas de preço e também de categorias de Condição. Consulte a tabela correspondente; pontos de montagem e PE não são a mesma conta. Leve também é uma propriedade de arma, explicada em Propriedades, no capítulo Equipamento. **Consulta:** Pontos e preços.
 
 **Maestria.** Bônus ligado ao nível. Só entra nas rolagens e valores que indiquem seu uso. **Consulta:** Atributos.
 
@@ -358,13 +358,15 @@ Use Criar um personagem e os capítulos de sua Origem e Caminho para preencher o
 
 ## Equipamento
 
-| Item e quantidade | Volume total | Situação e recursos |
+| Item e quantidade | Volume total | Posição e recursos |
 |---|---|---|
-| __________________ | ______ | Vestido, empunhado ou guardado: __________________ |
+| __________________ | ______ | Vestido, empunhado ou guardado: __________ |
 | __________________ | ______ | Munição, cargas ou usos: __________________ |
 | __________________ | ______ | Empréstimo e devolução: __________________ |
 
 **Volume carregado / limite:** ______ / ______ **Dinheiro:** __________________
+
+**Traje — situação, TR e perícias:** ________________________________________
 
 Anote munição carregada e reserva separadamente. Ferramentas precisam de grau, efeito, requisitos e usos próprios. Um efeito guardado não deve aparecer como benefício ativo sem permissão.
 
@@ -698,6 +700,7 @@ As regras e os exemplos deste livro conservam seus próprios procedimentos. Uma 
 | Atrasar | Catálogo: Restrições de conjuração |
 | Atributo | Regras gerais: Atributos |
 | Atuação básica | Invocações: Atuação básica |
+| Auge | Rotas: Sem Técnica |
 | Aura | Fundamento: Formas de ataque |
 | Aviso (Melhoria; nome anterior) | Catálogo: Marcas e recursos |
 | Aviso (Talento; nome anterior) | Catálogo: Talentos de Categoria 1 |
@@ -710,6 +713,7 @@ As regras e os exemplos deste livro conservam seus próprios procedimentos. Uma 
 | Caminho | Caminho e Trilha |
 | Canalizar em Golpe | Canalizar Energia |
 | Carga | Regras gerais: Carga |
+| Carregar (Restrição) | Catálogo: Restrições de conjuração |
 | Catalisador | Catalisador |
 | Categoria de Efeito | Fundamento: Selo e Talentos |
 | CD | Regras gerais: Testes |
@@ -717,14 +721,14 @@ As regras e os exemplos deste livro conservam seus próprios procedimentos. Uma 
 | Cego | Dano e Recuperação: Condições pesadas |
 | Cena | Dano e Recuperação: Cena e usos de habilidades |
 | Cicatriz | Dano e Recuperação: Sequelas e Cicatrizes |
-| Classe | Fundamento: Pontos e preços |
-| Classe 0 | Fundamento: Feitiços de Classe 0 |
 
 <!-- page:consulta-indice-3|Índice: C–D -->
 # Índice: C–D
 
 | Assunto | Consulta |
 |---|---|
+| Classe | Fundamento: Pontos e preços |
+| Classe 0 | Fundamento: Feitiços de Classe 0 |
 | Classe Passiva (nome anterior) | Fundamento: Selo e Talentos |
 | Cobertura | Regras gerais: Defesa e cobertura |
 | Combatente Amaldiçoado | Combatente Amaldiçoado |
@@ -749,46 +753,50 @@ As regras e os exemplos deste livro conservam seus próprios procedimentos. Uma 
 | Derrotado | Dano e Recuperação: Derrota e morte |
 | Derrubado | Dano e Recuperação: Condições leves |
 | Desarmado | Dano e Recuperação: Condições leves |
-| Desgaste | Equipamento: Desgaste |
-| Deslocamento | Regras gerais: Movimento e terreno |
 
 <!-- page:consulta-indice-4|Índice: D–E -->
 # Índice: D–E
 
 | Assunto | Consulta |
 |---|---|
+| Desgaste | Equipamento: Desgaste |
+| Desligada | Invocações: Retorno e corpos caídos |
+| Deslocamento | Regras gerais: Movimento e terreno |
 | Desvantagem | Regras gerais: Treino e modificadores |
+| Discreta | Equipamento: Armas escondidas |
 | Dívida | Catálogo: Condições de uso |
-| Domar | Montagem de entidades: Domar uma maldição |
+| Domar | Construir invocações: Domar uma maldição |
 | Duração | Fundamento: Conjurar |
 | Duradoura | Catálogo: Momento e duração |
 | Efeito | Fundamento: Formas de amparo e Efeito |
 | Efeito Próprio | Catálogo: Efeito Próprio |
 | Emanador | Emanador |
 | Emaranha | Equipamento: Propriedades |
+| Embainhada | Equipamento: Armas escondidas |
 | Energia amaldiçoada pura (dano) | Dano e Recuperação: Tipos de dano. Tipo Força. |
 | Energia temporária | Dano e Recuperação: Vida e energia temporárias |
 | Enfeitiçado | Dano e Recuperação: Condições médias |
-| Entidade | Montagem de entidades: Criar uma invocação |
+| Entidade | Construir invocações: Criar uma invocação |
 | Envenenado | Dano e Recuperação: Condições pesadas |
 | Escolher | Catálogo: Área |
 | Esconder | Regras gerais: Esconder |
+| Escudo | Equipamento: Revestimentos e escudos |
 | Espaço conhecido | Fundamento: Feitiços conhecidos |
 | Espaço de feitiço | Fundamento: Feitiços conhecidos |
 | Especial de invocação | Invocações: Comandar uma especial |
 | Especial e repertório | Especial e repertório |
+
+<!-- page:consulta-indice-5|Índice: E–F -->
+# Índice: E–F
+
+| Assunto | Consulta |
+|---|---|
 | Essência | Regras gerais: Atributos |
 | Estabilizar | Dano e Recuperação: Socorro |
 | Estágios de Integridade | Dano e Recuperação: Estágios de Integridade |
 | Estigma | Equipamento: Graus das ferramentas. Efeitos das ferramentas, na organização atual. |
 | Estímulo Muscular | Rotas: Estímulo Muscular |
 | Estudar | Regras gerais: Estudar |
-
-<!-- page:consulta-indice-5|Índice: E–G -->
-# Índice: E–G
-
-| Assunto | Consulta |
-|---|---|
 | Evocador | Evocador |
 | Exaustão | Dano e Recuperação: Exaustão |
 | Expansão de Domínio | Expansão de Domínio |
@@ -809,18 +817,18 @@ As regras e os exemplos deste livro conservam seus próprios procedimentos. Uma 
 | Força (dano) | Dano e Recuperação: Tipos de dano |
 | Forma | Fundamento: Formas de ataque |
 | Fundamento | Fundamento |
+
+<!-- page:consulta-indice-6|Índice: F–L -->
+# Índice: F–L
+
+| Assunto | Consulta |
+|---|---|
 | Fura | Catálogo: Defesas |
 | Gatilho | Regras gerais: Reações e ataques de oportunidade |
 | Gesto | Catálogo: Restrições de conjuração |
 | Grau | Equipamento: Graus das ferramentas |
 | Grau (patente) | Progressão: Patentes |
 | Guarda | Catálogo: Proteção e apoio |
-
-<!-- page:consulta-indice-6|Índice: G–L -->
-# Índice: G–L
-
-| Assunto | Consulta |
-|---|---|
 | Guarda Aberta | Dano e Recuperação: Condições leves |
 | Guia | Guia |
 | Identificar Feitiço | Catálogo: Marcas e recursos |
@@ -834,25 +842,25 @@ As regras e os exemplos deste livro conservam seus próprios procedimentos. Uma 
 | Integridade máxima | Dano e Recuperação: Dano na alma |
 | Intenção | Invocações: Dar uma tarefa |
 | Inventário | Equipamento |
-| Invocação | Montagem de entidades: Adquirir entidades |
+| Invocação | Construir invocações: Adquirir entidades |
 | Invocador | Invocações: Invocações em campo |
 | Kata | Rotas: Técnica Marcial |
 | Lapidação | Rotas: Lapidação |
 | Legado | Origens |
 | Leitura de Feitiços | Catálogo: Talentos de Categoria 1 |
 | Lento | Dano e Recuperação: Condições leves |
+
+<!-- page:consulta-indice-7|Índice: L–M -->
+# Índice: L–M
+
+| Assunto | Consulta |
+|---|---|
 | Leque | Progressão: Marcos |
 | Levanta | Catálogo: Amparo |
 | Leve | Fundamento: Pontos e preços. Preço de montagem; categoria de condição em Condições. Propriedade de arma em Equipamento. |
 | Leve, Média e Pesada | Fundamento: Pontos e preços |
 | Liberação Máxima | Fundamento: Liberação Máxima |
 | Linha | Fundamento: Formas de ataque |
-
-<!-- page:consulta-indice-7|Índice: L–O -->
-# Índice: L–O
-
-| Assunto | Consulta |
-|---|---|
 | Longe | Catálogo: Alcance |
 | Longo Alcance | Equipamento: Propriedades |
 | Maestria | Regras gerais: Atributos |
@@ -862,6 +870,7 @@ As regras e os exemplos deste livro conservam seus próprios procedimentos. Uma 
 | Manifestação e convergência | Manifestação e convergência |
 | Manifestação em Grupo | Manifestação em Grupo |
 | Manifestar | Invocações: Manifestar e recolher |
+| Manutenção (entidades) | Invocações: Manutenção |
 | Mão Firme | Catálogo: Talentos de Categoria 1 |
 | Marco | Progressão: Marcos |
 | Média | Fundamento: Pontos e preços. Preço de montagem; categoria de condição em Condições. |
@@ -872,6 +881,12 @@ As regras e os exemplos deste livro conservam seus próprios procedimentos. Uma 
 | Múltiplas Invocações | Múltiplas Invocações |
 | Munição | Equipamento: Munição |
 | Muro | Muro |
+
+<!-- page:consulta-indice-8|Índice: N–P -->
+# Índice: N–P
+
+| Assunto | Consulta |
+|---|---|
 | Nível | Progressão: Experiência e Progressão |
 | Obras em emergência | Obras em emergência |
 | Oculta | Equipamento: Armas escondidas |
@@ -879,12 +894,7 @@ As regras e os exemplos deste livro conservam seus próprios procedimentos. Uma 
 | Ōgi | Rotas: Técnica Marcial |
 | Onda | Fundamento: Formas de amparo e Efeito |
 | Ordem antecipada | Invocações: Ordem antecipada |
-
-<!-- page:consulta-indice-8|Índice: O–P -->
-# Índice: O–P
-
-| Assunto | Consulta |
-|---|---|
+| Ordens pendentes | Invocações: Ordens pendentes |
 | Origem | Origens |
 | Pacto | Pactos |
 | Par | Equipamento: Propriedades |
@@ -903,6 +913,12 @@ As regras e os exemplos deste livro conservam seus próprios procedimentos. Uma 
 | Pontos de montagem | Fundamento: Pontos e preços |
 | Pontos de vida | Dano e Recuperação: Dano |
 | Pontos de Vínculo | Vínculo |
+
+<!-- page:consulta-indice-9|Índice: P–R -->
+# Índice: P–R
+
+| Assunto | Consulta |
+|---|---|
 | Precisão | Catálogo: Mira |
 | Preparar | Regras gerais: Preparar |
 | Progressão do Guia | Progressão do Guia |
@@ -911,12 +927,6 @@ As regras e os exemplos deste livro conservam seus próprios procedimentos. Uma 
 | Proteção | Equipamento: Proteção |
 | Proteção de aliados | Proteção de aliados |
 | Pugilista | Pugilista |
-
-<!-- page:consulta-indice-9|Índice: P–S -->
-# Índice: P–S
-
-| Assunto | Consulta |
-|---|---|
 | Punho | Punho |
 | PV | Dano e Recuperação: Dano |
 | Quedas | Regras gerais: Quedas e movimento imposto |
@@ -925,30 +935,38 @@ As regras e os exemplos deste livro conservam seus próprios procedimentos. Uma 
 | Rápido | Catálogo: Tempo |
 | Reação | Regras gerais: Reações e ataques de oportunidade |
 | Reação coletiva | Invocações: Turnos das entidades |
+| Recarregar | Equipamento: Recarregar |
+| Recolher | Invocações: Manifestar e recolher |
 | Redução de Dano | Dano e Recuperação: Redução de Dano |
 | Refino | Aptidões e Refino |
 | Regra | Fundamento: Sua técnica |
 | Regra da técnica | Fundamento: Sua técnica |
+| Regra Própria | Catálogo: Regra Própria |
+| Religar | Invocações: Retorno e corpos caídos |
 | Remenda | Catálogo: Amparo |
 | Ressonante | Ressonante |
+
+<!-- page:consulta-indice-10|Índice: R–T -->
+# Índice: R–T
+
+| Assunto | Consulta |
+|---|---|
 | Restrição | Fundamento: Restrições |
+| Retorno | Invocações: Retorno e corpos caídos |
+| Revestimento | Equipamento: Revestimentos e escudos |
 | Ritual | Ritual |
 | Rodada | Regras gerais: Turnos |
 | Rodada inteira | Regras gerais: Turnos. Ação Completa. |
 | Rompe | Equipamento: Propriedades |
 | Ruptura | Rotas: Técnica Marcial |
+| Sacar e guardar | Equipamento: Sacar e guardar |
 | Saltos | Regras gerais: Saltos |
+| Segura | Catálogo: Momento e duração |
 | Selo | Fundamento: Selo e Talentos |
 | Sem Técnica | Rotas: Sem Técnica |
 | Sentir Energia | Regras gerais: Percepção de energia |
 | Sequela | Dano e Recuperação: Sequelas e Cicatrizes |
 | Sobrecarga e fluxo | Sobrecarga e fluxo |
-
-<!-- page:consulta-indice-10|Índice: S–V -->
-# Índice: S–V
-
-| Assunto | Consulta |
-|---|---|
 | Socorrista | Socorrista |
 | Socorro | Dano e Recuperação: Socorro |
 | Socorro de emergência | Socorro de emergência |
@@ -956,8 +974,15 @@ As regras e os exemplos deste livro conservam seus próprios procedimentos. Uma 
 | Talento | Fundamento: Selo e Talentos |
 | Talento Próprio | Catálogo: Talento Próprio |
 | Talha | Equipamento: Propriedades |
+| Talismã | Invocações: Talismãs |
 | Técnica amaldiçoada | Mundo jujutsu |
 | Técnica Marcial | Rotas: Técnica Marcial |
+
+<!-- page:consulta-indice-11|Índice: T–X -->
+# Índice: T–X
+
+| Assunto | Consulta |
+|---|---|
 | Técnica Máxima | Fundamento: Técnica Máxima |
 | Teste | Regras gerais: Testes |
 | Teste de Resistência | Regras gerais: Testes de Resistência |
@@ -965,6 +990,7 @@ As regras e os exemplos deste livro conservam seus próprios procedimentos. Uma 
 | Toca a Alma | Catálogo: Defesas |
 | Toque | Fundamento: Formas de ataque |
 | Traço | Origens |
+| Traje | Equipamento: Trajes |
 | Treino | Regras gerais: Treino e modificadores |
 | Trilha | Caminho e Trilha |
 | Trocar de entidade | Invocações: Trocar de entidade |
@@ -975,12 +1001,6 @@ As regras e os exemplos deste livro conservam seus próprios procedimentos. Uma 
 | Uso Livre | Fundamento: Uso Livre |
 | Vanguarda | Vanguarda |
 | Vantagem | Regras gerais: Treino e modificadores |
-
-<!-- page:consulta-indice-11|Índice: V–X -->
-# Índice: V–X
-
-| Assunto | Consulta |
-|---|---|
 | Vasculhar | Regras gerais: Vasculhar |
 | Versado | Prazo e Escola de Arma |
 | Versátil | Equipamento: Propriedades |

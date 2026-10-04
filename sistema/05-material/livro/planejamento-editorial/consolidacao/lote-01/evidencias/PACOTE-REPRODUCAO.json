@@ -1,11 +1,15 @@
 {
   "reproduzido_em_pasta_isolada": true,
-  "sha256_pdf_original": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8",
-  "sha256_pdf_reproduzido": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8",
+  "sha256_pdf_original": "4ae5931dc24a7ffda17d62460a6a28c9a834d6805fc5e53f7004cd40bb25fae1",
+  "sha256_pdf_reproduzido": "4ae5931dc24a7ffda17d62460a6a28c9a834d6805fc5e53f7004cd40bb25fae1",
   "bibliotecas": {
     "reportlab": "4.4.9",
     "pypdf": "6.16.2",
     "pdfplumber": "0.11.9"
   },
-  "metodo": "Gerador --strict executado na árvore do pacote, com fontes e mapas relativos. PDF idêntico byte a byte; conferência estrutural final do original é aplicável ao PDF reproduzido."
+  "python": "3.11.15",
+  "metodo": "Árvore do pacote montada pela regra de 03/10 (manifestos das unidades, consolidação, validador editorial e seis documentos da raiz) mais os registros de 04/10; gerar_livro.py --strict executado numa cópia dessa árvore, fora do repositório, com fontes e mapas relativos. PDF idêntico byte a byte.",
+  "ambiente": "Container da sessão de 04/10; as fontes tipográficas usadas são as do pacote, conferidas por SHA-256 contra AMBIENTE.json.",
+  "antes": "evidencias/antes-fechamento-2026-10-04/PACOTE-REPRODUCAO.json",
+  "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
 }

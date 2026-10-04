@@ -109,12 +109,15 @@ case('Salário participação3',[float(Q(1,4)+Q(3,4)*min(Q(k,3),1)) for k in ran
 case('Marca de mestre',Q(12,3),4,'X/Ymeses, nãoXparaquemmestraY.')
 for source in json.loads((B/'FONTES.json').read_text())['fontes_publicadas']:
  ck('fonte_intacta_'+source['arquivo'],hashlib.sha256((R/source['arquivo']).read_bytes()).hexdigest()==source['sha256'])
-ck('quatorze_paginas',len(re.findall(r'<!-- page:',s))==14)
+# 14 até 04/10/2026; a página Ritmo de campanha saiu do livro do jogador (D15). O modelo de tempo abaixo continua como conta de projeto.
+ck('treze_paginas',len(re.findall(r'<!-- page:',s))==13)
+ck('sem_contas_de_projetista',not any(x in s for x in ('14.300','30.700','frequência esperada','quatro meses')),'D19 e D20: total acumulado e prazo da marca de mestre saíram do livro do jogador.')
 ck('titulos_diretos',not re.search(r'^#+\s+(?:A|O|As|Os)\s|^#+.*como ler',s,re.M|re.I))
-contracts=['no máximo um nível por missão','14.300','lista é fechada','não libere vários níveis','cada entidade por espaço passa a exigir','zero de vida permanece a zero']
+# O total de 14.300 XP saiu do texto com as contas de projetista (D19, 04/10/2026); a curva segue conferida linha a linha acima.
+contracts=['no máximo um nível por missão','| 23–29 | 1.700 |','lista é fechada','não libere vários níveis','cada entidade por espaço passa a exigir','zero de vida permanece a zero']
 def present(txt):return [x.casefold() in txt.replace('**','').casefold() for x in contracts]
 for n,ok in zip(contracts,present(s)):ck('invariante_'+n,ok)
-mutations=[('14.300','12.500'),('A lista é fechada.','A lista tem exemplos.'),('no máximo um nível por missão concluída','no máximo três níveis por missão concluída'),('Quem está a zero de vida permanece a zero','Quem está a zero de vida recupera tudo')]
+mutations=[('| 23–29 | 1.700 |','| 23–29 | 1.500 |'),('A lista é fechada.','A lista tem exemplos.'),('no máximo um nível por missão concluída','no máximo três níveis por missão concluída'),('Quem está a zero de vida permanece a zero','Quem está a zero de vida recupera tudo')]
 for old,new in mutations:ck('mutacao_'+old,not all(present(s.replace(old,new))))
 report=dict(sha256_texto=hashlib.sha256(F.read_bytes()).hexdigest(),aprovado=all(x['passou'] for x in checks),quantidades=dict(checks=len(checks),casos=len(cases),sequencias_marcos=len(paths),perfis_ritmo=len(times),mutacoes=len(mutations),perfis_saldo=resource_profiles),verificacoes=checks,casos=cases,modelos=dict(marcos=paths,tempo=times),limites=['Sem playtest; tempos são modelos de média e não calendário simulado.','Conservação de recursos e regularização de ficha são fechamentos candidatos, registrados em alterações.','Conferidores legados verificam fontes históricas, não certificam este manuscrito.'])
 # JSON-safe Fractions only arise in an integral illustrative case.

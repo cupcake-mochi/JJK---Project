@@ -328,5 +328,25 @@
     "motivo": "Não sugerir que a mesma ficha trocou de técnica sem explicação.",
     "impacto_ou_limite": "Nenhuma alteração de regra.",
     "status": "candidata revisada; não publicada"
+  },
+  {
+    "id": "R08-34",
+    "tipo": "retirada a pedido do autor",
+    "secao": "exemplos",
+    "antes": "A média bruta é 108, distribuída no tempo e antes das defesas.",
+    "depois": "(retirado)",
+    "motivo": "Pedido do autor em 04/10/2026 (\"Pode remover, qualquer coisa semelhante tbm\"): conta de projetista retirada do livro do jogador (revisao-interfaces/CORRECOES-APLICADAS.md, D19 a D24). A regra fica.",
+    "impacto_ou_limite": "Nenhuma alteração de regra. O auditor continua calculando a média do exemplo como conta de projeto.",
+    "status": "candidata revisada; não publicada"
+  },
+  {
+    "id": "R08-35",
+    "tipo": "decisão do autor",
+    "antes": "Seu domínio termina quando a duração acaba, você o desfaz, chega a **0 PV**, perde uma disputa ou uma regra destrói sua barreira. / o encerramento voluntário e chegar a 0 PV.",
+    "depois": "Seu domínio termina quando a duração acaba, você o desfaz, chega a **0 PV**, fica **Inconsciente** ou **Derrotado**, perde uma disputa ou uma regra destrói sua barreira. / o encerramento voluntário, chegar a 0 PV e ficar Inconsciente ou Derrotado.",
+    "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G1-06 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D32).",
+    "secao": "encerramento",
+    "impacto_ou_limite": "Inconsciente ou Derrotado encerra o domínio.",
+    "status": "candidata revisada; não publicada"
   }
 ]

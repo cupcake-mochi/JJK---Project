@@ -1,5 +1,5 @@
 {
-  "manuscrito_sha256": "cbdc3648f5faa76a3973fd1dc9b8d196a5e46d5508163bc2e3720b33c2512a40",
+  "manuscrito_sha256": "99c04d78b0d7ac7bff72a75ebb03cd103330f6a84c79aeecf24871f6975456ae",
   "fontes": [
     "R06 tabela Pontos e preços / Feitiços conhecidos",
     "R09 Canalizar",
@@ -3927,7 +3927,7 @@
   ],
   "ok": true,
   "manuscritos_auditados": {
-    "sistema/05-material/livro/planejamento-editorial/rotas/lote-01/ROTAS.md": "cbdc3648f5faa76a3973fd1dc9b8d196a5e46d5508163bc2e3720b33c2512a40"
+    "sistema/05-material/livro/planejamento-editorial/rotas/lote-01/ROTAS.md": "99c04d78b0d7ac7bff72a75ebb03cd103330f6a84c79aeecf24871f6975456ae"
   },
   "checks": [
     {
@@ -3974,19 +3974,19 @@
         },
         {
           "id": "rota-marcial",
-          "palavras": 263
+          "palavras": 267
         },
         {
           "id": "rota-armas",
-          "palavras": 289
+          "palavras": 332
         },
         {
           "id": "rota-ferramenta",
-          "palavras": 291
+          "palavras": 308
         },
         {
           "id": "rota-passivas-marciais",
-          "palavras": 310
+          "palavras": 266
         },
         {
           "id": "rota-passivas-resposta",
@@ -4006,7 +4006,7 @@
         },
         {
           "id": "rota-sem-tecnica",
-          "palavras": 315
+          "palavras": 318
         },
         {
           "id": "rota-sementes",
@@ -4030,7 +4030,7 @@
         },
         {
           "id": "rota-lapidacao",
-          "palavras": 394
+          "palavras": 360
         },
         {
           "id": "rota-bencaos",

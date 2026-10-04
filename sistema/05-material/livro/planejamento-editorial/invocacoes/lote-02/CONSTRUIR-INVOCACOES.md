@@ -209,6 +209,8 @@ Escolha um atributo de acerto que represente suas habilidades. Essa escolha fica
 
 A maestria é sempre a **do invocador**, inclusive para uma domada de nível menor. Os atributos são os **da entidade**.
 
+Com uma arma empunhada, o ataque usa o atributo que a arma pede no lugar do atributo de acerto. A CD das habilidades não muda. A entidade não tem treino em armas, então ataca com elas com desvantagem. O dano é o da arma, conforme **Equipamento**.
+
 ## Resistências e perícias
 
 Escolha **um TR treinado**. Físico usa Força ou Destreza, escolhida na montagem. Vigor usa Constituição, Intelecto usa Inteligência e Espírito usa Essência.
@@ -241,7 +243,7 @@ O invocador escolhe Essência ou Inteligência ao obter sua primeira entidade. U
 
 Uma entidade pode usar equipamento que comporte sua anatomia. Confira requisitos com os atributos dela. Um escudo exige membros capazes de empunhá-lo. Uma armadura feita para outro corpo pode precisar de adaptação.
 
-Com traje ou revestimento defensivo, a Defesa usa **10 + Destreza da entidade + proteção do equipamento**. A proteção substitui a parcela de Essência ou Inteligência do invocador. Não some as duas fontes. Escudos e demais combinações seguem **Equipamento**.
+Com traje ou revestimento defensivo, a Defesa usa **10 + Destreza da entidade permitida pelo teto da peça + proteção do equipamento**. A proteção substitui a parcela de Essência ou Inteligência do invocador. Não some as duas fontes. Escudos e demais combinações seguem **Equipamento**.
 
 Registre o equipamento usado, a proteção, os requisitos e a carga. Levar um objeto ao campo ou recolhê-lo junto com a criatura segue **Invocações em campo — Carga e equipamento**. A capacidade de equipar algo não transforma esse objeto em uma parte gratuita da entidade.
 
@@ -330,7 +332,7 @@ Apoio pode entregar sua única Melhoria aplicável, como Impulso. Os dados desca
 
 Uma básica de Efeito usa a aplicação pequena registrada, na escala comum de **Fundamento — Efeitos fora de combate**. Ela precisa caber na definição da entidade.
 
-O uso dessas habilidades consome sua atuação básica. Ajudar, Correr e outras atuações simples usam a mesma oportunidade, conforme **Invocações em campo**. Uma capacidade ofensiva precisa estar montada na ficha para que seja usada como ataque próprio.
+O uso dessas habilidades consome sua atuação básica. Ajudar, Correr e outras atuações simples usam a mesma oportunidade, conforme **Invocações em campo**. Uma capacidade ofensiva precisa estar montada na ficha para que seja usada como ataque próprio. A outra forma de atacar é com uma arma empunhada, conforme **Acerto e dificuldade**.
 
 <!-- page:entidades-especiais|Habilidades especiais -->
 # Habilidades especiais
@@ -451,7 +453,7 @@ As Restrições devolvem pontos para pagar **Forma e Melhorias**, até **2 × a 
 
 > Uma especial de Classe 2 começa com 4 pontos. Projétil custa 0, uma Melhoria Média normal custa 2 e uma Restrição Leve devolve 1. Restam **4 − 2 + 1 = 3 pontos**. Uma segunda devolução que elevasse o saldo acima de 4 perderia o excedente.
 
-Contra um alvo, o dano-base tem esse mesmo limite em d8. Somando alvos adicionais e repetições, conserve o **teto geral de 4 × Classe**. Dividir os dados entre tiros não multiplica os dados disponíveis.
+Contra um alvo, o dano-base tem esse mesmo limite em d8. Some os dados iniciais e os adicionais da montagem uma vez, sem multiplicar pelo número de criaturas na área. O total não passa de **4 × Classe**. Dividir os dados entre tiros não multiplica os dados disponíveis.
 
 ## Amparo
 

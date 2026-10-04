@@ -168,6 +168,27 @@
       "antes": "Danificar objetos reunia duas tabelas, alvos e regra nova de barreiras numa só página.",
       "depois": "Página Objetos e efeitos recebe a parte de alvos, equipamento carregado e barreiras, com exemplo local.",
       "motivo": "Prova mostrou transbordamento. Preservar fonte legível e integridade dos blocos, sem apertar tabela ou perder regra."
+    },
+    {
+      "id": "EQ25",
+      "tipo": "M decisão do autor",
+      "antes": "Capacidade 1 das bestas adotada em equipamento/lote-03 (M01) sem registro nesta unidade; a peça 14 da v0.331 usa 2 e proíbe 1 por apagar o ataque extra.",
+      "depois": "Capacidade 1 mantida, sem mudar o texto: cada besta comporta um virote e precisa ser recarregada depois de cada disparo.",
+      "motivo": "Decisão do Mizuki em 04/10/2026, achado G4-01 da revisão de interfaces: \"a parte negativa da besta é justamente não funcionar no ataque extra\". A peça 14 muda na migração."
+    },
+    {
+      "id": "EQ26",
+      "tipo": "decisão do autor",
+      "antes": "A conversão de ações segue as regras do turno.",
+      "depois": "A conversão de ações segue as regras do turno.\n\nDuas capacidades que troquem essa manipulação gratuita por duas não se somam. Em cada turno, use uma delas, com as restrições dela.",
+      "motivo": "Decisão do Mizuki em 04/10/2026 (opção A, não somam), achado G3-03 (revisao-interfaces/CORRECOES-APLICADAS.md)."
+    },
+    {
+      "id": "EQ27",
+      "tipo": "decisão do autor",
+      "antes": "O dano dos ataques com esta arma atinge **somente a Integridade** do alvo, seguindo as regras de dano direto à alma.",
+      "depois": "O dano dos ataques com esta arma é **dano de Alma** e atinge **somente a Integridade** do alvo, conforme Receber dano de Alma, em Dano na alma.",
+      "motivo": "Decisão do Mizuki em 04/10/2026 (opção B: \"o dano do cisão é na alma, literalmente dano na alma\"), achado G1-02 (revisao-interfaces/CORRECOES-APLICADAS.md). A remissão apontava uma regra que não existia."
     }
   ],
   "alteracao_de_tabela": "Somente propriedade Leve nas19linhas de FONTES.json; nenhum preço/Volume/dado/mãos/requisito/tipo foi alterado."

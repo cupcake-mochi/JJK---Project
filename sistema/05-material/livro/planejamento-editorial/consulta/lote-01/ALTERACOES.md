@@ -240,3 +240,22 @@
 
 **Motivo:** Leitura independente da raiz apontou suficiência conceitual e grafia histórica. Nenhuma mudança em requisitos ou valores.
 
+## R23-31 — remissão de índice
+
+**Antes:** 268 verbetes no índice, em 11 páginas.
+
+**Depois:** 286 verbetes: entram Auge, Carregar (Restrição), Desligada, Discreta, Embainhada, Escudo, Manutenção (entidades), Ordens pendentes, Recarregar, Recolher, Regra Própria, Religar, Retorno, Revestimento, Sacar e guardar, Segura, Talismã e Traje. As 11 páginas foram recompostas com 26 linhas cada.
+
+**Motivo:** Achados G2-09, G4-12 e G5-11 (revisao-interfaces/CORRECOES-APLICADAS.md): completude do índice, sem decisão de regra.
+
+## R23-32 — decisão do autor
+
+**Antes:** | Item e quantidade | Volume total | Situação e recursos | / **Volume carregado / limite:** ______ / ______ **Dinheiro:** __________________
+
+**Depois:** | Item e quantidade | Volume total | Posição e recursos | / **Volume carregado / limite:** ______ / ______ **Dinheiro:** __________________
+
+**Traje — situação, TR e perícias:** ________________________________________
+
+**Motivo:** Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G4-11 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D41).
+
+Ajuste na mesma decisão: a linha "| __________________ | ______ | Vestido, empunhado ou guardado: __________________ |" ficou "| __________________ | ______ | Vestido, empunhado ou guardado: __________ |", para a ficha de repertório continuar numa página.

@@ -362,3 +362,22 @@ Troca editorial: “Acerto letal” por “Acerto que causa dano” e explicita�
 ## A32 — Ritual no índice de aptidões
 
 O índice agora inclui Ritual com seus requisitos e referência ao capítulo próprio. A regra completa não foi reproduzida.
+
+## A33 — retirada a pedido do autor
+
+**Antes:** | Nível | Nunca escolhe Refino | Sempre escolhe Refino | Aptidões recebidas pela escolha nesse marco |
+|---|---:|---:|---:|
+| Início | 1 | 1 | — |
+| 6 | 2 | 3 | 1 |
+| 10 | 3 | 5 | 1 |
+| 14 | 4 | 7 | 1 |
+| 18 | 5 | 9 | 1 |
+| 22 | 6 | 10 | 2 |
+| 26 | 7 | 10 | 2 |
+| 30 | 8 | 10 | 2 |
+
+A última coluna acompanha quem sempre escolheu Refino. Em outra sequência, verifique seu valor naquele marco.
+
+**Depois:** (retirado)
+
+**Motivo:** Pedido do autor (04/10/2026): retirar do livro do jogador projeções de projetista (tempo de campanha, como o personagem termina seguindo sempre a mesma escolha). A regra do marco fica.

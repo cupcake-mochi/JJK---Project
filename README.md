@@ -5,12 +5,12 @@
 **Versão v0.331** · manual do Fundamento na **v7.41** · **vinte e sete peças de regra** e **vinte e sete validadores passando** · o Manual da Guilda em **19 capítulos**.
 
 
-## Livro reconstruído — candidata de 3 de outubro de 2026
+## Livro reconstruído — candidata revisada em 4 de outubro de 2026
 
-A reconstrução editorial está concluída para revisão do autor e preserva o manual v0.331 acima. A candidata reúne 383 páginas, 21 capítulos e seis Caminhos.
+A reconstrução editorial está concluída para revisão do autor e preserva o manual v0.331 acima. A candidata reúne 382 páginas, 21 capítulos e seis Caminhos. A revisão de 04/10 aplicou correções de remissão, decisões do autor sobre regras de interface e retirou tabelas e contas de bastidor que não servem ao jogador.
 
 - [PDF, manuscritos e instruções](sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/LEIA-ME.md)
-- [ZIP completo](sistema/05-material/livro/planejamento-editorial/entrega/Projeto-M-Livro-Reconstruido-2026-10-03.zip)
+- [ZIP completo](sistema/05-material/livro/planejamento-editorial/entrega/Projeto-M-Livro-Reconstruido-2026-10-04.zip)
 - [Revisão final e limites da validação](sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/REVISAO-FINAL.md)
 
 As imagens de conferência e os antigos pacotes de transferência permanecem no ambiente local. As fontes, os PDFs, o pacote final e os registros de revisão são versionados.

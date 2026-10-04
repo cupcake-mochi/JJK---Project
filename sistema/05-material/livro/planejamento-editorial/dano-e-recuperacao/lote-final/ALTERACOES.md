@@ -305,3 +305,27 @@ Decisões autorizadas pela revisão autônoma. Números e limites são candidato
 ## DR31 — Integridade mínima
 
 Criaturas com vida máxima positiva conservam pelo menos1 de Integridade quando sua fórmula usa metade da vida máxima. Antes, uma criatura de1PVmáximo teriaIntegridade0antesdoprimeirodano. Não altera a fórmula dospersonagensjogadores nem exceções da própriaficha.
+
+## DR33 — decisão do autor
+
+**Antes:** Ao chegar a **zero de vida**, você está **Morrendo**. Escolha imediatamente **Aguentar** ou **Insistir**. Estas regras
+
+**Depois:** Ao chegar a **zero de vida**, você está **Morrendo**. Resolva primeiro as capacidades disparadas pela própria queda; em seguida, escolha **Aguentar** ou **Insistir**. Se uma dessas capacidades encerrar a queda, não há escolha. Estas regras
+
+**Motivo:** Decisão do Mizuki em 04/10/2026 ("entra antes"), achado G1-05 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md). Fecha a ordem entre a queda e as capacidades disparadas por ela.
+
+## DR34 — decisão do autor
+
+**Antes:** Seu deslocamento cai pela metade e você não pode usar Ação Bônus.
+
+**Depois:** Seu deslocamento cai pela metade e você não pode usar Ação Bônus. Distâncias concedidas por capacidades, como a de Passo, também caem pela metade.
+
+**Motivo:** Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G5-07 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D37).
+
+## DR35 — decisão do autor
+
+**Antes:** Estas regras são para personagens jogadores. Inimigos e entidades seguem suas próprias regras de derrota.
+
+**Depois:** Estas regras são para personagens jogadores. Entidades seguem Invocações em campo. Um inimigo a zero de vida ou de Integridade é derrotado, e o mestre descreve o desfecho, como morte, fuga ou exorcismo, salvo uma regra da ficha dele.
+
+**Motivo:** Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G1-04 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D38).

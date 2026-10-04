@@ -167,7 +167,7 @@ Você pode converter **Ação Padrão em Ação Bônus**, e **Ação Bônus em A
 
 A Ação de Movimento oferece os metros indicados no **deslocamento** da ficha, normalmente 9 m. Você pode dividir o percurso antes e depois das outras ações. Uma tarefa que consuma a Ação de Movimento inteira não pode usar a mesma ação já gasta parcialmente para andar.
 
-Um custo de **Rodada inteira** consome Ação Padrão, Ação Bônus e Ação de Movimento de uma vez. A Reação permanece disponível. As regras de Movimento detalham terrenos, saltos, quedas e travessias especiais.
+Um custo de **Ação Completa** consome Ação Padrão, Ação Bônus e Ação de Movimento de uma vez. A Reação permanece disponível. As regras de Movimento detalham terrenos, saltos, quedas e travessias especiais.
 
 <!-- page:acoes|Ações -->
 # Ações

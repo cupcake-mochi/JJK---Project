@@ -1,7 +1,7 @@
 {
-  "status": "Rodada de reconstrução concluída; candidata para revisão do usuário e teste de mesa",
-  "sha256_pdf": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8",
-  "sha256_texto": "8e5f441e3059f9d78c9892b899671d5e7618b078fd9da3af6ee24829630f378a",
+  "status": "Candidata revisada em 04/10/2026 (PR #2): correções de interface, decisões do autor e retirada de contas de projetista; candidata para revisão do usuário e teste de mesa",
+  "sha256_pdf": "4ae5931dc24a7ffda17d62460a6a28c9a834d6805fc5e53f7004cd40bb25fae1",
+  "sha256_texto": "f51056f705ab376b1a8038ebef6431a4934ea7823a23667146fcda71f0ad7646",
   "validadores": [
     {
       "id": "V01",
@@ -11,7 +11,15 @@
         "evidencias/MAPA-BLOCOS.json",
         "evidencias/QA-ESTRUTURAL.json"
       ],
-      "limites": "23 fontes e510 blocos, cada um incluído uma vez."
+      "limites": "23 fontes e510 blocos, cada um incluído uma vez.",
+      "revalidacao_2026_10_04": {
+        "estado": "revisto para o PDF atual",
+        "limites": "23 fontes e 509 blocos, cada um uma vez (saiu o bloco Ritmo de campanha).",
+        "evidencias": [
+          "evidencias/MAPA-BLOCOS.json",
+          "evidencias/QA-ESTRUTURAL.json"
+        ]
+      }
     },
     {
       "id": "V02",
@@ -21,7 +29,15 @@
         "evidencias/FECHAMENTO-DOS-DONOS.json",
         "evidencias/GERACAO.json"
       ],
-      "limites": "Texto final comparado com as fontes. Publicação anterior conservada; fontes de pesquisa e adaptação permanecem documentadas por capítulo."
+      "limites": "Texto final comparado com as fontes. Publicação anterior conservada; fontes de pesquisa e adaptação permanecem documentadas por capítulo.",
+      "revalidacao_2026_10_04": {
+        "estado": "revisto para o PDF atual",
+        "limites": "As 23 fontes conferem com a geração atual; 19 mudaram depois de 03/10 e estão registradas. Publicação v0.331 preservada.",
+        "evidencias": [
+          "evidencias/FECHAMENTO-DOS-DONOS.json",
+          "evidencias/GERACAO.json"
+        ]
+      }
     },
     {
       "id": "V03",
@@ -31,7 +47,15 @@
         "evidencias/REVISAO-TRANSVERSAL-FINAL.md",
         "evidencias/FECHAMENTO-DOS-DONOS.json"
       ],
-      "limites": "Casos dos23donos reaproveitados por preservação do conteúdo, mais interfaces finais. Não é execução de todas as combinações possíveis."
+      "limites": "Casos dos23donos reaproveitados por preservação do conteúdo, mais interfaces finais. Não é execução de todas as combinações possíveis.",
+      "revalidacao_2026_10_04": {
+        "estado": "revisto para o PDF atual",
+        "limites": "Funcionamento das mudanças conferido por unidade (conferir.py e auditores verdes nos 23 capítulos) e nas interfaces revisadas.",
+        "evidencias": [
+          "../../revisao-interfaces/CORRECOES-APLICADAS.md",
+          "../../revisao-interfaces/ACHADOS.md"
+        ]
+      }
     },
     {
       "id": "V04",
@@ -41,7 +65,15 @@
         "evidencias/FECHAMENTO-DOS-DONOS.json",
         "evidencias/AJUSTES-FINAIS-INTEGRACAO.json"
       ],
-      "limites": "Modelos numéricos dos donos permanecem aplicáveis.17 ajustes finais só mudam remissões; não foram anunciadas novas simulações globais."
+      "limites": "Modelos numéricos dos donos permanecem aplicáveis.17 ajustes finais só mudam remissões; não foram anunciadas novas simulações globais.",
+      "revalidacao_2026_10_04": {
+        "estado": "revisto para o PDF atual",
+        "limites": "Auditorias numéricas das unidades reexecutadas sem desligar checagem; ajustes de auditor registrados com motivo.",
+        "evidencias": [
+          "../../revisao-interfaces/CORRECOES-APLICADAS.md",
+          "evidencias/FECHAMENTO-DOS-DONOS.json"
+        ]
+      }
     },
     {
       "id": "V05",
@@ -50,7 +82,14 @@
       "evidencias": [
         "evidencias/REVISAO-TRANSVERSAL-FINAL.md"
       ],
-      "limites": "Custos, frequência, ações e combinações foram avaliados nas unidades e interfaces. Sem playtest humano; equilíbrio percebido permanece questão de mesa."
+      "limites": "Custos, frequência, ações e combinações foram avaliados nas unidades e interfaces. Sem playtest humano; equilíbrio percebido permanece questão de mesa.",
+      "revalidacao_2026_10_04": {
+        "estado": "revisto para o PDF atual",
+        "limites": "Sem nova avaliação de balanceamento além das decisões do autor; os modelos das unidades seguem aplicáveis. Sem playtest.",
+        "evidencias": [
+          "../../revisao-interfaces/CORRECOES-APLICADAS.md"
+        ]
+      }
     },
     {
       "id": "V06",
@@ -61,7 +100,15 @@
         "evidencias/AJUSTES-FINAIS-INTEGRACAO.json",
         "evidencias/DESTINOS-PENDENTES.json"
       ],
-      "limites": "508 links resolvidos. Remissões por título corrigidas, sem presumir que toda referência descritiva seja link."
+      "limites": "508 links resolvidos. Remissões por título corrigidas, sem presumir que toda referência descritiva seja link.",
+      "revalidacao_2026_10_04": {
+        "estado": "revisto para o PDF atual",
+        "limites": "526 links resolvidos; nenhum destino pendente.",
+        "evidencias": [
+          "evidencias/QA-ESTRUTURAL.json",
+          "evidencias/DESTINOS-PENDENTES.json"
+        ]
+      }
     },
     {
       "id": "V07",
@@ -71,7 +118,14 @@
         "evidencias/REVISAO-EDITORIAL-FINAL.json",
         "migracao-nomes/MAPA.json"
       ],
-      "limites": "Sem títulos Como ler ou artigos iniciais A/O/As/Os. Busca automática complementa revisão contextual, sem prometer detecção perfeita de artificialidade."
+      "limites": "Sem títulos Como ler ou artigos iniciais A/O/As/Os. Busca automática complementa revisão contextual, sem prometer detecção perfeita de artificialidade.",
+      "revalidacao_2026_10_04": {
+        "estado": "revisto para o PDF atual",
+        "limites": "conferir_editorial sem achado nos manuscritos alterados; testar_editorial passa. Os achados globais restantes são de rascunhos fora do livro.",
+        "evidencias": [
+          "../../revisao-interfaces/CORRECOES-APLICADAS.md"
+        ]
+      }
     },
     {
       "id": "V08",
@@ -81,7 +135,14 @@
         "evidencias/REVISAO-TRANSVERSAL-FINAL.md",
         "evidencias/FECHAMENTO-DOS-DONOS.json"
       ],
-      "limites": "Leituras integrais dos capítulos e revisão final das interfaces. Entendimento por leitores iniciantes ainda não foi medido com pessoas."
+      "limites": "Leituras integrais dos capítulos e revisão final das interfaces. Entendimento por leitores iniciantes ainda não foi medido com pessoas.",
+      "revalidacao_2026_10_04": {
+        "estado": "revisto para o PDF atual",
+        "limites": "Trechos alterados relidos no contexto em cada unidade; sem teste com leitores.",
+        "evidencias": [
+          "../../revisao-interfaces/CORRECOES-APLICADAS.md"
+        ]
+      }
     },
     {
       "id": "V09",
@@ -90,7 +151,14 @@
       "evidencias": [
         "evidencias/REVISAO-TRANSVERSAL-FINAL.md"
       ],
-      "limites": "Referências de D&D e demais livros estão nos relatórios dos donos. Organização, procedimentos, exemplos e consulta aplicados na montagem; sem cópia de prosa ou nova leitura integral dos livros nesta etapa."
+      "limites": "Referências de D&D e demais livros estão nos relatórios dos donos. Organização, procedimentos, exemplos e consulta aplicados na montagem; sem cópia de prosa ou nova leitura integral dos livros nesta etapa.",
+      "revalidacao_2026_10_04": {
+        "estado": "revisto para o PDF atual",
+        "limites": "Sem mudança de organização em relação a 03/10 além da retirada das contas de projetista pedida pelo autor.",
+        "evidencias": [
+          "../../revisao-interfaces/CORRECOES-APLICADAS.md"
+        ]
+      }
     },
     {
       "id": "V10",
@@ -101,7 +169,16 @@
         "evidencias/MAPA-BLOCOS.json",
         "evidencias/QA-ESTRUTURAL.json"
       ],
-      "limites": "5partes,21capítulos e6Caminhos no painel:32entradas.510blocos sem duplicação; referências rápidas e índice usam síntese intencional."
+      "limites": "5partes,21capítulos e6Caminhos no painel:32entradas.510blocos sem duplicação; referências rápidas e índice usam síntese intencional.",
+      "revalidacao_2026_10_04": {
+        "estado": "revisto para o PDF atual",
+        "limites": "5 partes, 21 capítulos e 6 Caminhos; 509 blocos sem duplicação.",
+        "evidencias": [
+          "ORDEM.json",
+          "evidencias/MAPA-BLOCOS.json",
+          "evidencias/QA-ESTRUTURAL.json"
+        ]
+      }
     },
     {
       "id": "V11",
@@ -111,7 +188,14 @@
         "evidencias/REVISAO-TRANSVERSAL-FINAL.md",
         "evidencias/FECHAMENTO-DOS-DONOS.json"
       ],
-      "limites": "Evidências da obra permanecem nos capítulos pertinentes. Nenhuma afirmação canônica foi acrescentada pelo fechamento; regras de jogo não são tratadas como fatos do mangá."
+      "limites": "Evidências da obra permanecem nos capítulos pertinentes. Nenhuma afirmação canônica foi acrescentada pelo fechamento; regras de jogo não são tratadas como fatos do mangá.",
+      "revalidacao_2026_10_04": {
+        "estado": "revisto para o PDF atual",
+        "limites": "Nenhuma afirmação de cânone acrescentada em 04/10.",
+        "evidencias": [
+          "../../revisao-interfaces/CORRECOES-APLICADAS.md"
+        ]
+      }
     },
     {
       "id": "V12",
@@ -122,7 +206,14 @@
         "evidencias/REVISAO-TRANSVERSAL-FINAL.md",
         "evidencias/FECHAMENTO-DOS-DONOS.json"
       ],
-      "limites": "Revisores por modelos distintos dos autores conforme registros dos donos; raiz verificou a montagem originalmente produzida por outro agente e os deltas. Não equivale a leitores externos humanos."
+      "limites": "Revisores por modelos distintos dos autores conforme registros dos donos; raiz verificou a montagem originalmente produzida por outro agente e os deltas. Não equivale a leitores externos humanos.",
+      "revalidacao_2026_10_04": {
+        "estado": "revisto para o PDF atual",
+        "limites": "A revisão de interfaces de 04/10 é por modelo e está registrada por grupo; não é revisão humana.",
+        "evidencias": [
+          "../../revisao-interfaces/ACHADOS.md"
+        ]
+      }
     },
     {
       "id": "V13",
@@ -131,7 +222,14 @@
       "evidencias": [
         "evidencias/QA-ESTRUTURAL.json"
       ],
-      "limites": "3492 verificações; fontes incorporadas, texto pesquisável, geometria e508links válidos."
+      "limites": "3492 verificações; fontes incorporadas, texto pesquisável, geometria e508links válidos.",
+      "revalidacao_2026_10_04": {
+        "estado": "revisto para o PDF atual",
+        "limites": "3505 verificações estruturais; fontes incorporadas, texto pesquisável e 526 links válidos. Inclui tabela sem linha órfã ou viúva e título sem ficar sozinho no pé da página.",
+        "evidencias": [
+          "evidencias/QA-ESTRUTURAL.json"
+        ]
+      }
     },
     {
       "id": "V14",
@@ -142,7 +240,15 @@
         "evidencias/DELTA-VISUAL-FINAL.json",
         "evidencias/DELTA-MALABARISTA.json"
       ],
-      "limites": "383 páginas cobertas por inspeção real ou identidade visual comprovada com páginas inspecionadas.80 páginas alteradas, complemento50 e ampliações registrados."
+      "limites": "383 páginas cobertas por inspeção real ou identidade visual comprovada com páginas inspecionadas.80 páginas alteradas, complemento50 e ampliações registrados.",
+      "revalidacao_2026_10_04": {
+        "estado": "revisto para o PDF atual",
+        "limites": "382 páginas cobertas por cadeia de identidade de corpo até a V14 de 03/10 ou por abertura nas rodadas de 04/10; nenhuma sem cobertura.",
+        "evidencias": [
+          "evidencias/FINAL-V14.json",
+          "evidencias/CADEIA-VISUAL-2026-10-04.json"
+        ]
+      }
     },
     {
       "id": "V15",
@@ -153,7 +259,23 @@
         "evidencias/DETERMINISMO-FINAL.json",
         "MANIFESTO.json"
       ],
-      "limites": "Fontes, alterações, decisões, provas históricas e hashes distinguem a entrega vigente de estados anteriores. ZIP recebe inventário e teste próprio."
+      "limites": "Fontes, alterações, decisões, provas históricas e hashes distinguem a entrega vigente de estados anteriores. ZIP recebe inventário e teste próprio.",
+      "revalidacao_2026_10_04": {
+        "estado": "revisto para o PDF atual",
+        "limites": "Manifestos das 23 unidades e da consolidação atualizados; auditor global V15 sem pendência; reprodução do PDF a partir do pacote conferida.",
+        "evidencias": [
+          "evidencias/FECHAMENTO-DOS-DONOS.json",
+          "evidencias/V15-GLOBAL-LEVE.json",
+          "evidencias/PACOTE-REPRODUCAO.json",
+          "MANIFESTO.json"
+        ]
+      }
     }
-  ]
+  ],
+  "revalidacao_2026_10_04": {
+    "sha256_pdf_anterior": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8",
+    "sha256_texto_anterior": "8e5f441e3059f9d78c9892b899671d5e7618b078fd9da3af6ee24829630f378a",
+    "antes": "evidencias/antes-fechamento-2026-10-04/VALIDADORES.json",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  }
 }

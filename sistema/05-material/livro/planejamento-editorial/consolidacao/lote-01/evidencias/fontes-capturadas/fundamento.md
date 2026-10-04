@@ -630,7 +630,7 @@ Escolha a Forma e use a base de alcance da Classe 0. A Regra, as Famílias Fecha
 
 Você pode acrescentar **uma Melhoria Leve**, retirando **um dado** do dano-base. Se a peça exigir um valor de Classe, use 0. Ela não recebe Classe 1 só por ter sido escolhida aqui. Requisitos mínimos de Classe continuam impedindo a compra.
 
-Pode haver uma Restrição Leve, mas ela não recupera o dado pago nem cria pontos de montagem. Toque e Aura mantêm seu alcance e origem sem produzir a devolução Média de Corpo a Corpo neste caso.
+Pode haver uma Restrição Leve, mas ela não recupera o dado pago nem cria pontos de montagem. Toque e Aura mantêm seu alcance e origem sem produzir a devolução Média de Corpo a Corpo neste caso. Essa exigência da Forma não ocupa a vaga da Restrição Leve.
 
 > **Fio curto.** No nível 2, Mei conhece um Projétil de Classe 0. Alcance 9 m, Ação Padrão, 2d8 de Cortante. Se montar uma versão com Empurrão, paga um dado: 1d8 e o deslocamento de até 6 m da peça. No nível 5, essa mesma versão passa a 2d8, pois a base subiu a 3d8.
 
@@ -755,7 +755,7 @@ Mei monta **Fenda de Arrasto**, na faixa 17 a 20: Projétil (0), Passo (1, Alcan
 
 > **Na ficha:** Ação Completa e 25 PE. Um alvo a até 18 m. Ataque de conjuração. No acerto, causa 24d8 e move o alvo até 6 m numa direção permitida. Passo concede a Mei um deslocamento de até 6 m antes ou depois da resolução, sem ataques de oportunidade. É o deslocamento específico de Passo: não devolve a Ação de Movimento consumida. O Selo continua necessário.
 
-O ataque abre espaço para uma retirada ou afasta um inimigo de um aliado. Os 24d8 causam média de 108 de dano. Role os dados normalmente.
+O ataque abre espaço para uma retirada ou afasta um inimigo de um aliado.
 
 ## Aplicação sem dano
 

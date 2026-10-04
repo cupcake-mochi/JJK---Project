@@ -1,0 +1,61 @@
+ESTADO ATUALIZADO EM 04/10/2026 — LEIA ISTO PRIMEIRO
+
+A revisão pós-reconstrução já avançou no PR #2:
+https://github.com/cupcake-mochi/JJK---Project/pull/2
+Branch: claude/revisao-pos-reconstrucao-rxwpkq
+Base examinada: 360f7d82ddc0363ff6669b5c13d1b8b9fc303a44. Depois dela, a branch recebeu as passadas de 04/10.
+Continue nessa branch, preservando as alterações do Claude. O texto abaixo deste adendo é histórico: as referências, a revisão de interfaces, o plano de testes e o plano de migração já foram trabalhados. Não os refaça do zero.
+
+Leia CONTINUIDADE-POS-REVISAO-2026-10-04.txt nesta pasta para a fila atual e os resultados da conferência independente.
+Leia revisao-interfaces/ACHADOS.md e CORRECOES-APLICADAS.md para decisões e achados restantes.
+Leia migracao-pos-candidata/PLANO.md e testes-com-leitores/PLANO.md para os planos preparados, ainda sem execução.
+
+A próxima sequência é:
+1. FEITO em 04/10/2026: provas e evidências de Aptidões, Fundamento, Origens, Perícias e Poderes avançados atualizadas e verdes. Registro em publicacao-github/provas-cinco-capitulos-2026-10-04/LEIA-ME.md.
+2. FEITO em 04/10/2026: cadeia de evidência fechada para o PDF atual de 382 páginas (SHA-256 4ae5931dc24a7ffda17d62460a6a28c9a834d6805fc5e53f7004cd40bb25fae1, depois da quinta passada) e ZIP refeito em entrega/Projeto-M-Livro-Reconstruido-2026-10-04.zip. O PDF foi reproduzido byte a byte a partir do ZIP desempacotado. Registro em consolidacao/lote-01/ESTADO-DA-PROVA.md, evidencias/CADEIA-VISUAL-2026-10-04.json e evidencias/PACOTE-VERIFICADO.json. O ZIP de 03/10 saiu da árvore e continua no histórico do git.
+3. FEITO em 04/10/2026: aplicadas as 9 decisões do autor da terceira passada (D05 a D12), os verbetes de índice (D13) e a retirada das tabelas de projetista pedida pelo autor (D14 a D17). Na quarta passada, Sem Técnica passou a registrar a Expressão da técnica (D18) e saíram as outras contas de projetista do mesmo tipo (D19 a D24). Na quinta passada, o autor decidiu os 18 achados restantes (D25 a D41). A revisão de interfaces está fechada.
+Depois: executar testes humanos e realizar migração quando a candidata estabilizar e o autor decidir a publicação. A etapa artística foi retirada do PR pelo autor.
+
+O usuário pretende continuar pelo Claude. Toda a entrega substantiva está no GitHub; os PNGs de inspeção e antigos pacotes de transferência ficam locais. Não existe material novo de regras escondido nesses pacotes. Os PDFs de terceiros não são incluídos no repositório.
+
+--- PROMPT ANTERIOR, CONSERVADO COMO HISTÓRICO ---
+
+Continue a revisão do livro de RPG Projeto - M a partir da entrega concluída em 03/10/2026. Primeiro leia os documentos de estado e confirme a árvore atual. Não retome automaticamente filas antigas.
+
+REPOSITÓRIO E ESTADO
+GitHub: https://github.com/cupcake-mochi/JJK---Project
+PR #1 mesclado na main. Commit de merge: 75a814dde772fb97ecfa1046bdb9275782910149.
+Pasta do projeto: /media/mizuki/HD Externo II/Claude/Claude 2
+A pasta Git desse HD apresentou erro de entrada/saída em .git/objects/40. Os arquivos locais foram comparados com a entrega publicada e coincidem. Use um clone limpo em armazenamento saudável se o erro persistir. Preserve os arquivos e os pacotes locais.
+
+FONTE VIGENTE DA RECONSTRUÇÃO
+Base relativa: sistema/05-material/livro/planejamento-editorial/
+Leia primeiro:
+- FILA-COMPLETA.md
+- consolidacao/lote-01/REVISAO-FINAL.md
+- consolidacao/lote-01/LEIA-ME.md
+- consolidacao/lote-01/ORDEM.json
+- validacao-editorial/PROTOCOLO-COMPLETO.md
+- publicacao-github/LEIA-ME.md e conferencia-repositorio.txt
+
+A fila de reconstrução está concluída: 23 fontes, 383 páginas, 21 capítulos, seis Caminhos. PDF final: consolidacao/lote-01/output/pdf/Projeto-M-Livro-Completo-Candidata.pdf.
+ZIP: entrega/Projeto-M-Livro-Reconstruido-2026-10-03.zip.
+A candidata ainda é separada da publicação v0.331. O merge no GitHub não significa que a candidata substituiu a edição distribuída aos jogadores.
+Edite as fontes declaradas em ORDEM.json. LIVRO-COMPLETO.md é um produto do gerador, não a fonte principal. Não use provas individuais antigas como versão vigente.
+
+FILA RECOMENDADA DA PRÓXIMA FASE
+1. Corrigir a manutenção do repositório. O conferir-repositorio.py registrou 166 problemas de referências na árvore ampliada. Examine cada diagnóstico: alguns caminhos são relativos ao planejamento, outros são históricos ou apontam arquivos locais não versionados. Corrija os caminhos e a resolução relativa quando pertinente. Separe defeitos reais de limitações do verificador. Preserve registros históricos e não desligue testes para fabricar um resultado verde. Registre o resultado novo.
+2. Fazer revisão independente da candidata inteira, começando por interfaces de regras: queda/Morrendo/Derrotado/socorro/Integridade; ações e reservas de invocações; Fluidez e continuações do Malabarista; equipamento, carga e munições; Fundamento, compatibilidades e Técnica Máxima. Confira se nomes, custos e exceções se mantêm consistentes entre capítulos. Registre problemas concretos antes de propor mudanças. O trabalho anterior não inclui playtest humano.
+3. Preparar testes com leitores e jogadores. Verificar se um iniciante encontra a regra e executa o procedimento sem ajuda; medir clareza e ritmo da leitura; observar os quatro grupos mecânicos prioritários acima. Separe hipótese de balanceamento de resultado observado em mesa. Não diga que revisão por modelo é revisão humana.
+4. Após estabilizar a candidata e a decisão do autor sobre publicação, planejar a migração para as peças de regras, validadores, geradores e fichas. Confirme as divergências antes de atualizar. As fichas pessoal e maldita são trabalho paralelo do Claude e seu estado precisa ser consultado no ambiente correspondente. Não suponha que foram atualizadas pela reconstrução do livro.
+5. Fazer uma etapa artística própria: ilustrações com procedência e permissões adequadas, ícones e exemplos visuais. Não usar imagens de IA. Manter as cores do tema. A candidata já possui composição, tabelas, quadros e navegação; as artes precisam entrar com nova revisão de paginação.
+
+ITENS JÁ RESOLVIDOS NESTA RODADA
+Regras comuns e procedimentos; reescrita dos capítulos; revisão dos nomes estruturais; Morrendo e Integridade; equipamento e munições; revisão de trajes; ferramentas de grau 3 e superiores; criação e compatibilidades; exemplos de Técnica Máxima; Invocações e Evocador; Incursor com Assassino, Pugilista e Malabarista; alterações solicitadas do Bastião; consolidação e inspeção do PDF. Não coloque esses itens novamente como capítulos a escrever do zero.
+
+CRITÉRIOS DE TRABALHO
+Preservar cores, regras aprovadas e rastreabilidade. Evitar títulos “Como ler”, artigos iniciais dispensáveis, palavras difíceis ou ambíguas, redundância e construções artificiais como “não é X, é Y”. Usar livros de RPG, principalmente D&D, como referência de organização e clareza, sem copiar texto. Verificar informações do mundo na obra e em fontes primárias; fóruns podem ajudar a localizar referências, não substituir a comprovação. Não tratar outro sistema de Jujutsu como cânone.
+Aplicar os 15 validadores pertinentes por capítulo alterado e no conjunto. Registrar antes, depois e motivo em documento separado. Depois de gerar o PDF, conferir links, conteúdo e páginas afetadas visualmente. Evidências anteriores só continuam válidas para conteúdo que permaneceu igual.
+
+LIMITES
+A entrega anterior registra 3492 checagens estruturais e revisão visual de 383 páginas. Isso não prova todas as combinações de regras, a compreensão humana ou o equilíbrio em mesa. Novas mudanças exigem atualizar as evidências afetadas. Não reabrir todo o projeto por uma preferência de redação sem mostrar o problema e o benefício da correção.

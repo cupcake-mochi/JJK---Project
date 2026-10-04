@@ -137,3 +137,11 @@ Candidata editorial e mecânica; não foi aplicada ao manual.
 
 - GRAM01: o corpo, inativo ou Desligada. → o corpo, inativo ou na condição Desligada. Motivo: Correção localizada aprovada pela raiz após auditoria de remissões; mantém mecânica e valores.
 - GRAM02: não religa um corpo Desligada. → não religa um corpo na condição Desligada. Motivo: Correção localizada aprovada pela raiz após auditoria de remissões; mantém mecânica e valores.
+
+## FAB-REV-01 — remissão de decisão do autor
+
+**Antes:** Um corpo que exceda seu limite permanece no mundo sem controle até haver espaço; fabricar ou receber outro não amplia esse limite.
+
+**Depois:** Um corpo que exceda seu limite permanece no mundo sem controle e volta conforme **Invocações em campo**; fabricar ou receber outro não amplia esse limite.
+
+**Motivo:** Decisão do Mizuki em 04/10/2026, achado G2-03 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md).

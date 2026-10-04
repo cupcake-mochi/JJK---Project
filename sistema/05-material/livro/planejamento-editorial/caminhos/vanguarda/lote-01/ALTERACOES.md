@@ -121,3 +121,21 @@ Candidata sobre v0.331. E: edição. M: fechamento mecânico. Fontes publicadas 
 **Depois:** A arma precisa estar pronta e ter duas unidades carregadas para o disparo e a compra da Oportunidade.
 
 **Motivo:** Revisão independente: não permitir debitar diretamente da mochila uma munição que a arma ainda não recebeu.
+
+## VG-REV-01 — M decisão do autor
+
+**Antes:** A **capacidade da arma** (os ataques por carga, em Munição) **aumenta em um**.
+
+**Depois:** A **capacidade da Arma de Fogo** (os ataques por carga, em Munição) **aumenta em um**. Bestas e outras armas de disparo não recebem esse aumento.
+
+**Motivo:** Mizuki, 04/10/2026, escolha no cartão: "Só arma de fogo". Com a besta em capacidade 1 (EQ25), o aumento levaria a besta a 2 e ela voltaria a servir no ataque extra, que é a desvantagem escolhida para ela.
+
+## VG-REV-02 — decisão do autor
+
+**Antes:** Você cria uma Oportunidade, escolhe quando aproveitá-la e mantém meios de continuar o confronto.
+
+**Depois:** Você cria uma Oportunidade, escolhe quando aproveitá-la e mantém meios de continuar o confronto.
+
+**Acesso.** Armas de fogo exigem Grau 2 ou autorização prévia, conforme Equipamento restrito. Sem esse acesso, confirme a autorização com o mestre antes de escolher esta rota.
+
+**Motivo:** Decisão do Mizuki em 04/10/2026 (opção B), achado G4-07 (revisao-interfaces/CORRECOES-APLICADAS.md). A liberação narrativa de Equipamento restrito continua; a frase só diz quando ela acontece.

@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "d432caecc9f2c63b0f355ad70a6e74251ae51044a8ac5840a35b7fd6d182484d",
+  "sha256_texto": "0476a3485888acb6e08fc457ce59f7049a5e440f5787c722a9caf062871c91d7",
   "legados": [
     {
       "nome": "O Jeito Errado",
@@ -226,7 +226,7 @@
       "linha": 210,
       "antes": "**uma vez por descanso longo, você não fica `Incapacitado`.** Em troca, quem estava olhando viu que naquele momento não era você que se mexia.",
       "pagina": "receptaculo-excecoes",
-      "depois": "**Uma vez por descanso longo**, quando você ficaria **com a Guarda Aberta**, impeça essa aplicação. A outra presença sustenta a resposta do corpo. Em troca, quem observa percebe que outra consciência agiu por você. O mestre considera essa revelação nas reações das pessoas presentes.\n\nIncapacitado é a condição nomeada em Dano e Condições. Revezamento não impede Inconsciente, a perda de vida ou as consequências de chegar a zero. Se a mesma capacidade causar dano e Incapacitado, o dano continua sendo resolvido.",
+      "depois": "**Uma vez por descanso longo**, quando você ficaria **com a Guarda Aberta**, impeça essa aplicação. A outra presença sustenta a resposta do corpo. Em troca, quem observa percebe que outra consciência agiu por você. O mestre considera essa revelação nas reações das pessoas presentes.\n\nGuarda Aberta é a condição nomeada em Dano e recuperação. Revezamento não impede Inconsciente, a perda de vida ou as consequências de chegar a zero. Se a mesma capacidade causar dano e Guarda Aberta, o dano continua sendo resolvido.",
       "tipo": "excecao"
     },
     {
@@ -1086,5 +1086,18 @@
     "exemplo_personalizado": 1,
     "paginas_logicas": 26
   },
-  "tratamento_exemplos": "Exemplos antigos redundantes foram substituídos por exemplos originais e delimitados. Antes/depois das regras em cada entrada. Exemplo não equivale a benefício adicional."
+  "tratamento_exemplos": "Exemplos antigos redundantes foram substituídos por exemplos originais e delimitados. Antes/depois das regras em cada entrada. Exemplo não equivale a benefício adicional.",
+  "revisao_delta_2026_10_04": {
+    "sha256_anterior": "d432caecc9f2c63b0f355ad70a6e74251ae51044a8ac5840a35b7fd6d182484d",
+    "sha256_atual": "0476a3485888acb6e08fc457ce59f7049a5e440f5787c722a9caf062871c91d7",
+    "motivo": "O texto mudou só na remissão da seção Escolhas da Origem (\"desta página\" para \"desta seção\"), feita na montagem do livro completo; nenhuma entrada de Legado mudou.",
+    "correcao_de_registro": {
+      "legado": "Revezamento",
+      "antes": "**Uma vez por descanso longo**, quando você ficaria **com a Guarda Aberta**, impeça essa aplicação. A outra presença sustenta a resposta do corpo. Em troca, quem observa percebe que outra consciência agiu por você. O mestre considera essa revelação nas reações das pessoas presentes.\n\nIncapacitado é a condição nomeada em Dano e Condições. Revezamento não impede Inconsciente, a perda de vida ou as consequências de chegar a zero. Se a mesma capacidade causar dano e Incapacitado, o dano continua sendo resolvido.",
+      "depois": "**Uma vez por descanso longo**, quando você ficaria **com a Guarda Aberta**, impeça essa aplicação. A outra presença sustenta a resposta do corpo. Em troca, quem observa percebe que outra consciência agiu por você. O mestre considera essa revelação nas reações das pessoas presentes.\n\nGuarda Aberta é a condição nomeada em Dano e recuperação. Revezamento não impede Inconsciente, a perda de vida ou as consequências de chegar a zero. Se a mesma capacidade causar dano e Guarda Aberta, o dano continua sendo resolvido.",
+      "motivo": "A migração de nomes trocou Incapacitado por Guarda Aberta e Dano e Condições por Dano e recuperação no segundo parágrafo do texto (consolidacao/lote-01/migracao-nomes/COMPLEMENTO.json), e este inventário só acompanhou o primeiro. O texto do livro já estava certo; o registro ficou para trás. O hash do inventário tinha sido atualizado sem conferir o conteúdo."
+    },
+    "conferido": "Os 85 Legados têm o texto de \"depois\" presente no manuscrito atual, e as 26 páginas lógicas existem.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  }
 }

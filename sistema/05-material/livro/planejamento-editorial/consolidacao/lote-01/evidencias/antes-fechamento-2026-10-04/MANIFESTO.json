@@ -1,0 +1,252 @@
+{
+  "status": "Candidata editorial completa revisada",
+  "sha256_pdf": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8",
+  "sha256_manuscrito": "8e5f441e3059f9d78c9892b899671d5e7618b078fd9da3af6ee24829630f378a",
+  "arquivos": [
+    {
+      "arquivo": "DECISOES-DE-MONTAGEM.md",
+      "sha256": "0be933ca09c14e3d3df475707ea801de473f5be51dfd65727feb28f7801e2229",
+      "bytes": 2600
+    },
+    {
+      "arquivo": "ESTADO-DA-PROVA.md",
+      "sha256": "63173689ab45bcba4519f3e0de750ae2cde00e27431d2f7a89d1e95f7369a6c2",
+      "bytes": 701
+    },
+    {
+      "arquivo": "LEIA-ME.md",
+      "sha256": "4e2cb20fb97650b6fbf51af0bdd52e4e6e885a4f1366ad08f95760af4a663785",
+      "bytes": 1732
+    },
+    {
+      "arquivo": "LIVRO-COMPLETO.md",
+      "sha256": "8e5f441e3059f9d78c9892b899671d5e7618b078fd9da3af6ee24829630f378a",
+      "bytes": 1084006
+    },
+    {
+      "arquivo": "ORDEM.json",
+      "sha256": "02ad73793f3db9805ba980c68926d3a8ebb175ce1d2f685b94087e24c91c3daf",
+      "bytes": 7779
+    },
+    {
+      "arquivo": "REVISAO-FINAL.md",
+      "sha256": "2b12c3d7a7f82aade7e7a51bf589ec806582bf6796737d4d12a7b6a162635616",
+      "bytes": 6135
+    },
+    {
+      "arquivo": "VALIDADORES.json",
+      "sha256": "d6cc1e950f2fdfbe7ec2b1a9f0a526d2bdd4f097d1d084eb1c0d09fb34d7ea86",
+      "bytes": 6588
+    },
+    {
+      "arquivo": "conferir_livro.py",
+      "sha256": "bedfb39865cc589d4efe86a6fc0196f71080a1b36d3c04584d8126ae5a5c82b6",
+      "bytes": 7074
+    },
+    {
+      "arquivo": "evidencias/AJUSTES-FINAIS-INTEGRACAO.json",
+      "sha256": "94e29de2cc9de30e081a14a39c7c64f2234156face10eec2f357698704efdec1",
+      "bytes": 18654
+    },
+    {
+      "arquivo": "evidencias/AMBIENTE.json",
+      "sha256": "d256e80552c12700eee228be2b1f3a96d47e74dc1a0ce8786316fa0031c2fbf3",
+      "bytes": 740
+    },
+    {
+      "arquivo": "evidencias/AMOSTRAS-GERADOR.json",
+      "sha256": "a92cfd56a2f00b2f6150d31d97202d7ee7fc02e631a5c4b86093259a2c16ab35",
+      "bytes": 1311
+    },
+    {
+      "arquivo": "evidencias/COMPLEMENTO-V14.json",
+      "sha256": "76a50a682bb949d96028015d3f82ed78cf45d6dfd4304c36a83e8484ea53d184",
+      "bytes": 3910
+    },
+    {
+      "arquivo": "evidencias/DELTA-MALABARISTA.json",
+      "sha256": "d05ceb79a3acd37b839125640c6b9cb6c5c6d783ec6d8c694e3e823bf16075b6",
+      "bytes": 3680
+    },
+    {
+      "arquivo": "evidencias/DELTA-VISUAL-FINAL.json",
+      "sha256": "7950e6116c19ba86f0b8b7985d4dbe0c483382b7d43c12468ea541ad0e571acd",
+      "bytes": 61263
+    },
+    {
+      "arquivo": "evidencias/DESTINOS-PENDENTES.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "arquivo": "evidencias/DETERMINISMO-FINAL.json",
+      "sha256": "0b36e59fda7e4d79d9f6fdae59dc45e4d7d89aa14db20308bbe1a5f9dffc19ff",
+      "bytes": 297
+    },
+    {
+      "arquivo": "evidencias/DETERMINISMO.json",
+      "sha256": "80629f8b6a697691a3f4778b04021d6b77ac1d81bc294d09dce7f1d7a4a5d41e",
+      "bytes": 6781
+    },
+    {
+      "arquivo": "evidencias/EVENTOS-ANCORAS.json",
+      "sha256": "5794f53ccc1eae5f360449d580492ea8ea150a4787472433dba7f01fa725d8c2",
+      "bytes": 44449
+    },
+    {
+      "arquivo": "evidencias/FECHAMENTO-DOS-DONOS.json",
+      "sha256": "1f82fb2f11f16d2bcb9881f6ca869a29b12c391a8b61b6e2a1bd9a2f6cc5af6e",
+      "bytes": 12405
+    },
+    {
+      "arquivo": "evidencias/FINAL-TRANSVERSAL-COMPATIBILIDADE.json",
+      "sha256": "6904a99f629e0e21642fa283edceb63f226e494df70a7d8da0277f31d8b61b55",
+      "bytes": 7289
+    },
+    {
+      "arquivo": "evidencias/FINAL-TRANSVERSAL-COMPATIBILIDADE.md",
+      "sha256": "1a137150025ed00620fd141d5fb2c35594509bdeb72b9c9cd3adea7698faf6f5",
+      "bytes": 1855
+    },
+    {
+      "arquivo": "evidencias/FINAL-V14-COMPATIBILIDADE.json",
+      "sha256": "e18c94d0edad901a889f2b9e5aa8cbcb37f29512dd0600593fdfb6ee555d909c",
+      "bytes": 28663
+    },
+    {
+      "arquivo": "evidencias/FINAL-V14-ROOT-ANTES.json",
+      "sha256": "0f7f07a8617867fc56372cf1cbc6fde3f11dcf73834338d1a3beeecfec69ab1c",
+      "bytes": 13845
+    },
+    {
+      "arquivo": "evidencias/FINAL-V14-ROTAS.json",
+      "sha256": "032321d509858926d3eb2d40916b4bf6086ab526bff86723c47606c8ce6b4c34",
+      "bytes": 59233
+    },
+    {
+      "arquivo": "evidencias/FINAL-V14.json",
+      "sha256": "ac3fa75e470441dcf4e6a948dbc165346091415ffa6143b896ac6c4272737059",
+      "bytes": 114654
+    },
+    {
+      "arquivo": "evidencias/GERACAO.json",
+      "sha256": "7a7b782a8f77e2ef40a4ffaf2a5817de740690964f5058c0992d9b151794c0a5",
+      "bytes": 7658
+    },
+    {
+      "arquivo": "evidencias/MAPA-BLOCOS.json",
+      "sha256": "a9f5c9886ca082edf063e195eaf990081b4bc43ef88fafecce8f1282186e7dd0",
+      "bytes": 236839
+    },
+    {
+      "arquivo": "evidencias/MAPA-PARTES-PAGINAS.json",
+      "sha256": "80f3943ec5ae09dc0bf2454e38b64e924ff68e1e7ab6e49126579ea8d21cb13c",
+      "bytes": 3688
+    },
+    {
+      "arquivo": "evidencias/MOSAICOS-FECHAMENTO.json",
+      "sha256": "831e919f486d17a298414e6d3cfd6031a5de00eeca6b0ab0bb4175048e363aff",
+      "bytes": 1948
+    },
+    {
+      "arquivo": "evidencias/MOSAICOS-ROOT.json",
+      "sha256": "8450e6c246572c5e5b8de5ebd1d03f7460eb86c9326cb0ffa84a16ad85e61bc3",
+      "bytes": 2965
+    },
+    {
+      "arquivo": "evidencias/PAGINAS-DESTINOS.json",
+      "sha256": "cfe72b69cf08ff3fba0a16df441442a5b68e6dac8aae3b6a92801dab0c3d96a2",
+      "bytes": 17113
+    },
+    {
+      "arquivo": "evidencias/PROVAS-ANTES-DOS-RENOMES.json",
+      "sha256": "d000e142d505c0eb406fd205604a85389f94727283b0d4b98d91eb41d5e7cf28",
+      "bytes": 10175
+    },
+    {
+      "arquivo": "evidencias/QA-ESTRUTURAL.json",
+      "sha256": "d0c077255d07721c3a340bac639b198a7021c131f31d97d897243086fe5c1968",
+      "bytes": 5839282
+    },
+    {
+      "arquivo": "evidencias/REMISSOES-RELATIVAS.json",
+      "sha256": "ff172a4c8b793d4a11426b5a7db5c1c95675b1942f1ded1d51bdb6a6fc273482",
+      "bytes": 8379
+    },
+    {
+      "arquivo": "evidencias/REMISSOES-TEXTUAIS.json",
+      "sha256": "9b4036c9873929aad9c6dac5dab0e20058fc380196ed0d8eb51905169bd44547",
+      "bytes": 21131
+    },
+    {
+      "arquivo": "evidencias/REMISSOES-TEXTUAIS.md",
+      "sha256": "d828ff8a3178a415c596ad8a2ca519d6e1ff42282cd0d5e42ba275c4dfcb0bd2",
+      "bytes": 11032
+    },
+    {
+      "arquivo": "evidencias/RESUMO-MUDANCAS-POR-TEMA.md",
+      "sha256": "829322298a7c0c2f6702fff1116fc70bc236db79b061954313a5bec57afb4f40",
+      "bytes": 6277
+    },
+    {
+      "arquivo": "evidencias/REVISAO-EDITORIAL-FINAL.json",
+      "sha256": "46cea75d8c0ab4e8a615917d719dd0d921c18c3e08dd9b3ed336ce226cf3e33e",
+      "bytes": 401
+    },
+    {
+      "arquivo": "evidencias/REVISAO-TRANSVERSAL-FINAL.md",
+      "sha256": "aafadbc8c656d4d2b20f49f0cdbc585b31fe1ba77865c81163b8e36739f90b8f",
+      "bytes": 4174
+    },
+    {
+      "arquivo": "evidencias/V14-PROVA-INTERMEDIARIA.json",
+      "sha256": "27bc615fd444cfd7ddbe0bedccade0b09554ac517717b591efb2c5eb7ed50cd6",
+      "bytes": 61424
+    },
+    {
+      "arquivo": "evidencias/V15-GLOBAL-LEVE.json",
+      "sha256": "f52d39b4f2817e14e8bef14e18eccf228a1e3fc70dd03fe440de140f2bb65b92",
+      "bytes": 129506
+    },
+    {
+      "arquivo": "evidencias/V15-GLOBAL-LEVE.md",
+      "sha256": "46cb49df4372c3e6b6b15b2c076982b7b941a1bcd3271380f1f97e05b211e895",
+      "bytes": 5474
+    },
+    {
+      "arquivo": "fontes-tipograficas/BarlowCondensed-SemiBold.ttf",
+      "sha256": "7b619d14bc2327509a9ef32b0890f709626f7ecc9ff61191c2a4314c5499d2d9",
+      "bytes": 109428
+    },
+    {
+      "arquivo": "fontes-tipograficas/Spectral-Italic.ttf",
+      "sha256": "7ec97244259db4008c4b1224c7914e5371c797c0044af9d85c2d761ba0e5f787",
+      "bytes": 270468
+    },
+    {
+      "arquivo": "fontes-tipograficas/Spectral-Regular.ttf",
+      "sha256": "c89021dc20720c8d0dcf40b0b2f6e00c13665fa8041717f581396f51b8c78f5d",
+      "bytes": 261088
+    },
+    {
+      "arquivo": "fontes-tipograficas/Spectral-SemiBold.ttf",
+      "sha256": "5f86915a744832ecf6e4a17ab04bea091b9fa992ef5164ff65ae34c1da2fe94b",
+      "bytes": 273068
+    },
+    {
+      "arquivo": "gerar_livro.py",
+      "sha256": "20c33a2776cb0b8a071c846ba263ae2956f1de282ea5a65224da796cf654c9e2",
+      "bytes": 21032
+    },
+    {
+      "arquivo": "output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
+      "sha256": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8",
+      "bytes": 1310621
+    },
+    {
+      "arquivo": "evidencias/PACOTE-REPRODUCAO.json",
+      "sha256": "678b0716b09da7df7c1f2b786cd77f47828528104cc2c8e84f3763f00b4ba9f4",
+      "bytes": 529
+    }
+  ]
+}

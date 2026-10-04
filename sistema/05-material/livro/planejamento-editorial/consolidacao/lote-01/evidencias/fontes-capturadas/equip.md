@@ -12,13 +12,13 @@ As tabelas deste capítulo apresentam armas, proteção, suprimentos e preços. 
 | Categoria | A família em que a arma está incluída. O treino vale para a categoria inteira. |
 | Mãos | Quantas mãos são necessárias para atacar com ela. |
 | Dado | O dano próprio da arma. Atributo e outros acréscimos seguem suas regras. |
-| Propriedades | Benefícios e restrições, explicados em [Propriedades](#eq-propriedades). |
+| Propriedades | Benefícios e restrições, explicados em [Propriedades](#eq-propriedades); Volumosa e Embainhada estão em Armas escondidas. |
 | Requer Força | O valor mínimo de Força para empunhar sem a penalidade abaixo. |
 | Volume | Quanto o item ocupa na sua capacidade de carga. |
 
 ## Treino e Força
 
-**Sem treino na categoria**, você tem desvantagem nos ataques com aquela arma. Consulte as categorias treinadas na sua ficha.
+**Sem treino na categoria ou naquela arma específica**, você tem desvantagem nos ataques com aquela arma. Consulte as categorias treinadas na sua ficha.
 
 **Sem a Força exigida**, seu deslocamento cai pela metade e você não soma Destreza à Defesa enquanto empunhar a arma. Essa penalidade e a falta de treino podem ocorrer juntas. Carregá-la guardada conta para a carga, mas não é empunhá-la.
 
@@ -38,6 +38,8 @@ Oculta, Discreta e Vestida não determinam o Volume. A propriedade Volumosa tem 
 **Durante seu turno, você pode fazer uma manipulação simples de item gratuitamente.** Sacar uma arma, guardar um item, recolher algo solto ao seu alcance, abrir uma porta destrancada ou acionar um interruptor acessível usam essa mesma oportunidade.
 
 Depois dela, **cada nova manipulação simples exige uma Ação de Movimento inteira**. Se já usou parte dessa ação para se deslocar, não pode gastar o restante como se ela ainda estivesse inteira. A conversão de ações segue as regras do turno.
+
+Duas capacidades que troquem essa manipulação gratuita por duas não se somam. Em cada turno, use uma delas, com as restrições dela.
 
 ## Trocar de arma
 
@@ -171,7 +173,7 @@ Enquanto usar um uniforme, a proteção dele substitui a proteção passiva da s
 
 Some a proteção de **um escudo empunhado** à proteção que já utiliza, respeitando o teto de Destreza dele. Isso vale com uniforme ou com a proteção passiva da sua rota. Um escudo guardado não concede proteção.
 
-> **Exemplo:** Rina tem Destreza 4 e usa Traje 2, que fornece proteção 2 sem teto. Sua Defesa é 10 + 4 + 2 = **16**. Com um escudo Médio, recebe mais 2 de proteção, mas só pode contar 3 de Destreza: 10 + 3 + 2 + 2 = **17**.
+> **Exemplo:** Rina tem Destreza 4 e usa Traje 2, que fornece proteção 2 sem teto. Sua Defesa é 10 + 4 + 2 = **16**. Com um Broquel, recebe mais 1 de proteção: 10 + 4 + 2 + 1 = **17**. Um escudo Médio exigiria Força 3; com ele, ela só poderia contar 3 de Destreza.
 
 ## Requisitos e carga
 
@@ -267,7 +269,7 @@ Preparar proteção leva tempo. Para trocar de uniforme, termine de retirar o an
 | Revestimento | 10 minutos | 5 minutos |
 | Escudo | Uma Ação Padrão | Uma Ação Padrão |
 
-Você precisa alcançar a peça, seus fechos e apoios. Em combate, cada **Rodada inteira** dedicada a vestir ou retirar um uniforme avança **6 segundos** da tarefa. Ela consome Padrão, Bônus e Movimento, mantendo a Reação disponível. O escudo usa apenas a Ação Padrão da tabela.
+Você precisa alcançar a peça, seus fechos e apoios. Em combate, cada **Ação Completa** dedicada a vestir ou retirar um uniforme avança **6 segundos** da tarefa. Ela consome Padrão, Bônus e Movimento, mantendo a Reação disponível. O escudo usa apenas a Ação Padrão da tabela.
 
 Uma interrupção pausa o trabalho, sem apagar o tempo já concluído. Você pode retomá-lo pelo que falta. Fazer outra tarefa durante a pausa não avança o preparo ou a retirada.
 
@@ -1128,7 +1130,7 @@ O efeito não concede natação, não impede correntes de água e não protege o
 
 **Arma: Katana. Grau 1. Efeito: Cisão.** Compatível com armas de combate corpo a corpo.
 
-O dano dos ataques com esta arma atinge **somente a Integridade** do alvo, seguindo as regras de dano direto à alma. A vida não é descontada por esse dano. Dados e valores adicionais que pertençam ao próprio ataque acompanham a conversão; outro efeito com resolução separada segue sua própria descrição.
+O dano dos ataques com esta arma é **dano de Alma** e atinge **somente a Integridade** do alvo, conforme Receber dano de Alma, em Dano na alma. A vida não é descontada por esse dano. Dados e valores adicionais que pertençam ao próprio ataque acompanham a conversão; outro efeito com resolução separada segue sua própria descrição.
 
 Cisão não acrescenta dano e não permite escolher, a cada golpe, atingir vida em vez de Integridade. Para isso, use outra arma. As consequências da perda de Integridade e os alvos que podem ser afetados são tratados em Dano na alma.
 

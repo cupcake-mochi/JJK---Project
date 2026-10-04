@@ -189,6 +189,41 @@
       "motivo": "Revisão independente identificou que a redação podia sugerir proibição geral de usar armas sem treino. Treino e requisitos de equipamento são regras diferentes.",
       "fonte": "Revisão independente da raiz e regras correntes de equipamentos",
       "ancora": "inc-caminho"
+    },
+    {
+      "id": "INC-22",
+      "tipo": "M decisão do autor",
+      "antes": "Pode combinar ataques corpo a corpo e arremessos, usar a mesma arma ou armas diferentes e atacar a mesma criatura ou criaturas diferentes.",
+      "depois": "O segundo ataque precisa ser corpo a corpo ou um arremesso, e nunca um disparo de arma de fogo ou de besta. Pode combinar ataques corpo a corpo e arremessos, usar a mesma arma ou armas diferentes e atacar a mesma criatura ou criaturas diferentes.",
+      "motivo": "Decisão do Mizuki em 04/10/2026, achado G3-07 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md)."
+    },
+    {
+      "id": "INC-23",
+      "tipo": "decisão do autor",
+      "antes": "Anote se já obteve Fluidez nesse intervalo; o limite se renova no começo do seu turno.",
+      "depois": "Anote se já obteve Fluidez nesse intervalo; o limite se renova no começo do seu turno. No combate, o primeiro intervalo vai do início do combate até o começo do seu primeiro turno, inclusive para Passo Guardado.",
+      "motivo": "Decisão do Mizuki em 04/10/2026 (opção A), achado G3-04 (revisao-interfaces/CORRECOES-APLICADAS.md). Segue o limite acrobático, que já começa completo no combate."
+    },
+    {
+      "id": "INC-24",
+      "tipo": "decisão do autor",
+      "antes": "Após rolar o d20, antes de finalizar o ataque, gaste Fluidez",
+      "depois": "Após rolar o d20 e antes de o alvo escolher entre a Defesa e Bloquear, gaste Fluidez",
+      "motivo": "Decisão do Mizuki em 04/10/2026 (opção A), achado G3-05 (revisao-interfaces/CORRECOES-APLICADAS.md). Amarra o uso a um passo da Resolução de Regras gerais."
+    },
+    {
+      "id": "INC-25",
+      "tipo": "decisão do autor",
+      "antes": "**Fluidez + PE · Uma vez por turno seu.**\n\nDepois de confirmar o acerto, / **Fluidez · Uma vez por turno seu.**\n\nDepois de resolver o acerto, gaste Fluidez. / **Fluidez · Uma vez por turno seu.**\n\nDepois de acertar um ataque desarmado, gaste Fluidez.",
+      "depois": "**Fluidez + PE · Uma vez por turno seu.**\n\nAntes do nível 19, só durante seu turno. Depois de confirmar o acerto, / **Fluidez · Uma vez por turno seu.**\n\nAntes do nível 19, só durante seu turno. Depois de resolver o acerto, gaste Fluidez. / **Fluidez · Uma vez por turno seu.**\n\nDurante seu turno, depois de acertar um ataque desarmado, gaste Fluidez.",
+      "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G3-02 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D39)."
+    },
+    {
+      "id": "INC-26",
+      "tipo": "decisão do autor",
+      "antes": "uma **arma de uma mão apropriada para arremesso**",
+      "depois": "uma **arma de uma mão com Longo Alcance de arremesso**",
+      "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G3-06 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D40)."
     }
   ]
 }

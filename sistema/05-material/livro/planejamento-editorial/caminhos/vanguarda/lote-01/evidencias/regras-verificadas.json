@@ -1,7 +1,7 @@
 {
   "ok": true,
-  "sha256_texto": "743f954c5be1033034a71bbae0e8383bffdb82944e28341e5ee089338bb0b85b",
-  "verificacoes": 70,
+  "sha256_texto": "a471b8d66ab37a87a26da2fdd4d96625c00ce399f22d9f9ad36ffc68e6c5da37",
+  "verificacoes": 71,
   "casos": [
     {
       "caso": "Abrir e Conduzir no mesmo turno",

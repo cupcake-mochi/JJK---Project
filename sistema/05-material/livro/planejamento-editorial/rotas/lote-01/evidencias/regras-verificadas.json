@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "sha256_texto": "cbdc3648f5faa76a3973fd1dc9b8d196a5e46d5508163bc2e3720b33c2512a40",
+  "sha256_texto": "99c04d78b0d7ac7bff72a75ebb03cd103330f6a84c79aeecf24871f6975456ae",
   "casos": [
     {
       "teste": "IDs únicos",
@@ -46,19 +46,19 @@
         },
         {
           "id": "rota-marcial",
-          "palavras": 263
+          "palavras": 267
         },
         {
           "id": "rota-armas",
-          "palavras": 289
+          "palavras": 332
         },
         {
           "id": "rota-ferramenta",
-          "palavras": 291
+          "palavras": 308
         },
         {
           "id": "rota-passivas-marciais",
-          "palavras": 310
+          "palavras": 266
         },
         {
           "id": "rota-passivas-resposta",
@@ -78,7 +78,7 @@
         },
         {
           "id": "rota-sem-tecnica",
-          "palavras": 315
+          "palavras": 318
         },
         {
           "id": "rota-sementes",
@@ -102,7 +102,7 @@
         },
         {
           "id": "rota-lapidacao",
-          "palavras": 394
+          "palavras": 360
         },
         {
           "id": "rota-bencaos",
@@ -628,11 +628,5 @@
     }
   ],
   "casos_contextuais": "CASOS.json",
-  "teste_humano": false,
-  "delta_nominal": {
-    "leitor": "/root",
-    "alteracoes": "Migração de nomes, concordância e remissões atuais; fórmulas e procedimentos invariantes.",
-    "evidencia": "consolidacao/lote-01/migracao-nomes/diffs/rotas.diff",
-    "auditoria_reexecutada": "evidencias/auditoria-numerica.json"
-  }
+  "teste_humano": false
 }

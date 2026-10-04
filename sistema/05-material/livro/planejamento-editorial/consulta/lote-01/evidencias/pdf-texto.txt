@@ -125,7 +125,8 @@ pessoal. Consulta: Lapidação.
 Legado. Escolha da Origem que registra uma capacidade ou vínculo. Cada entrada informa seu tipo e
 suas consequências. Consulta: Origens.
 Leve, Média e Pesada. Nomes de faixas de preço e também de categorias de Condição. Consulte a tabela
-correspondente; pontos de montagem e PE não são a mesma conta. Consulta: Pontos e preços.
+correspondente; pontos de montagem e PE não são a mesma conta. Leve também é uma propriedade de
+arma, explicada em Propriedades, no capítulo Equipamento. Consulta: Pontos e preços.
 Maestria. Bônus ligado ao nível. Só entra nas rolagens e valores que indiquem seu uso. Consulta:
 Atributos.
 Manejo. Aplicação criada a partir da semente de quem segue Sem Técnica. Consulta: Sem Técnica.
@@ -459,11 +460,10 @@ __________________________
 Equipamento
  Item e quantidade
 Volume total
-Situação e recursos
+Posição e recursos
 __________________
 ______
-Vestido, empunhado ou guardado:
-__________________
+Vestido, empunhado ou guardado: __________
 __________________
 ______
 Munição, cargas ou usos: __________________
@@ -471,6 +471,7 @@ __________________
 ______
 Empréstimo e devolução: __________________
 Volume carregado / limite: ______ / ______ Dinheiro: __________________
+Traje — situação, TR e perícias: ________________________________________
 Anote munição carregada e reserva separadamente. Ferramentas precisam de grau, efeito, requisitos e
 usos próprios. Um efeito guardado não deve aparecer como benefício ativo sem permissão.
 Recursos de sessão
@@ -980,6 +981,8 @@ Atributo
 Regras gerais: Atributos
 Atuação básica
 Invocações: Atuação básica
+Auge
+Rotas: Sem Técnica
 Aura
 Fundamento: Formas de ataque
 Aviso (Melhoria; nome anterior)
@@ -1004,6 +1007,8 @@ Canalizar em Golpe
 Canalizar Energia
 Carga
 Regras gerais: Carga
+Carregar (Restrição)
+Catálogo: Restrições de conjuração
 Catalisador
 Catalisador
 Categoria de Efeito
@@ -1018,10 +1023,6 @@ Cena
 Dano e Recuperação: Cena e usos de habilidades
 Cicatriz
 Dano e Recuperação: Sequelas e Cicatrizes
-Classe
-Fundamento: Pontos e preços
-Classe 0
-Fundamento: Feitiços de Classe 0
 
 
 PÁGINA 22
@@ -1032,6 +1033,10 @@ PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 Índice: C–D
  Assunto
 Consulta
+Classe
+Fundamento: Pontos e preços
+Classe 0
+Fundamento: Feitiços de Classe 0
 Classe Passiva (nome anterior)
 Fundamento: Selo e Talentos
 Cobertura
@@ -1081,10 +1086,6 @@ Derrubado
 Dano e Recuperação: Condições leves
 Desarmado
 Dano e Recuperação: Condições leves
-Desgaste
-Equipamento: Desgaste
-Deslocamento
-Regras gerais: Movimento e terreno
 
 
 PÁGINA 23
@@ -1095,12 +1096,20 @@ PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 Índice: D–E
  Assunto
 Consulta
+Desgaste
+Equipamento: Desgaste
+Desligada
+Invocações: Retorno e corpos caídos
+Deslocamento
+Regras gerais: Movimento e terreno
 Desvantagem
 Regras gerais: Treino e modificadores
+Discreta
+Equipamento: Armas escondidas
 Dívida
 Catálogo: Condições de uso
 Domar
-Montagem de entidades: Domar uma maldição
+Construir invocações: Domar uma maldição
 Duração
 Fundamento: Conjurar
 Duradoura
@@ -1113,6 +1122,8 @@ Emanador
 Emanador
 Emaranha
 Equipamento: Propriedades
+Embainhada
+Equipamento: Armas escondidas
 Energia amaldiçoada pura (dano)
 Dano e Recuperação: Tipos de dano. Tipo Força.
 Energia temporária
@@ -1120,13 +1131,15 @@ Dano e Recuperação: Vida e energia temporárias
 Enfeitiçado
 Dano e Recuperação: Condições médias
 Entidade
-Montagem de entidades: Criar uma invocação
+Construir invocações: Criar uma invocação
 Envenenado
 Dano e Recuperação: Condições pesadas
 Escolher
 Catálogo: Área
 Esconder
 Regras gerais: Esconder
+Escudo
+Equipamento: Revestimentos e escudos
 Espaço conhecido
 Fundamento: Feitiços conhecidos
 Espaço de feitiço
@@ -1135,6 +1148,16 @@ Especial de invocação
 Invocações: Comandar uma especial
 Especial e repertório
 Especial e repertório
+
+
+PÁGINA 24
+PROJETO - M
+CONSULTA
+PROPOSTA EM DISCUSSÃO  |  BASE v0.331
+24
+Índice: E–F
+ Assunto
+Consulta
 Essência
 Regras gerais: Atributos
 Estabilizar
@@ -1148,16 +1171,6 @@ Estímulo Muscular
 Rotas: Estímulo Muscular
 Estudar
 Regras gerais: Estudar
-
-
-PÁGINA 24
-PROJETO - M
-CONSULTA
-PROPOSTA EM DISCUSSÃO  |  BASE v0.331
-24
-Índice: E–G
- Assunto
-Consulta
 Evocador
 Evocador
 Exaustão
@@ -1198,6 +1211,16 @@ Forma
 Fundamento: Formas de ataque
 Fundamento
 Fundamento
+
+
+PÁGINA 25
+PROJETO - M
+CONSULTA
+PROPOSTA EM DISCUSSÃO  |  BASE v0.331
+25
+Índice: F–L
+ Assunto
+Consulta
 Fura
 Catálogo: Defesas
 Gatilho
@@ -1210,16 +1233,6 @@ Grau (patente)
 Progressão: Patentes
 Guarda
 Catálogo: Proteção e apoio
-
-
-PÁGINA 25
-PROJETO - M
-CONSULTA
-PROPOSTA EM DISCUSSÃO  |  BASE v0.331
-25
-Índice: G–L
- Assunto
-Consulta
 Guarda Aberta
 Dano e Recuperação: Condições leves
 Guia
@@ -1247,7 +1260,7 @@ Invocações: Dar uma tarefa
 Inventário
 Equipamento
 Invocação
-Montagem de entidades: Adquirir entidades
+Construir invocações: Adquirir entidades
 Invocador
 Invocações: Invocações em campo
 Kata
@@ -1260,6 +1273,16 @@ Leitura de Feitiços
 Catálogo: Talentos de Categoria 1
 Lento
 Dano e Recuperação: Condições leves
+
+
+PÁGINA 26
+PROJETO - M
+CONSULTA
+PROPOSTA EM DISCUSSÃO  |  BASE v0.331
+26
+Índice: L–M
+ Assunto
+Consulta
 Leque
 Progressão: Marcos
 Levanta
@@ -1273,16 +1296,6 @@ Liberação Máxima
 Fundamento: Liberação Máxima
 Linha
 Fundamento: Formas de ataque
-
-
-PÁGINA 26
-PROJETO - M
-CONSULTA
-PROPOSTA EM DISCUSSÃO  |  BASE v0.331
-26
-Índice: L–O
- Assunto
-Consulta
 Longe
 Catálogo: Alcance
 Longo Alcance
@@ -1301,6 +1314,8 @@ Manifestação em Grupo
 Manifestação em Grupo
 Manifestar
 Invocações: Manifestar e recolher
+Manutenção (entidades)
+Invocações: Manutenção
 Mão Firme
 Catálogo: Talentos de Categoria 1
 Marco
@@ -1322,6 +1337,16 @@ Munição
 Equipamento: Munição
 Muro
 Muro
+
+
+PÁGINA 27
+PROJETO - M
+CONSULTA
+PROPOSTA EM DISCUSSÃO  |  BASE v0.331
+27
+Índice: N–P
+ Assunto
+Consulta
 Nível
 Progressão: Experiência e Progressão
 Obras em emergência
@@ -1336,16 +1361,8 @@ Onda
 Fundamento: Formas de amparo e Efeito
 Ordem antecipada
 Invocações: Ordem antecipada
-
-
-PÁGINA 27
-PROJETO - M
-CONSULTA
-PROPOSTA EM DISCUSSÃO  |  BASE v0.331
-27
-Índice: O–P
- Assunto
-Consulta
+Ordens pendentes
+Invocações: Ordens pendentes
 Origem
 Origens
 Pacto
@@ -1383,6 +1400,16 @@ Pontos de vida
 Dano e Recuperação: Dano
 Pontos de Vínculo
 Vínculo
+
+
+PÁGINA 28
+PROJETO - M
+CONSULTA
+PROPOSTA EM DISCUSSÃO  |  BASE v0.331
+28
+Índice: P–R
+ Assunto
+Consulta
 Precisão
 Catálogo: Mira
 Preparar
@@ -1399,16 +1426,6 @@ Proteção de aliados
 Proteção de aliados
 Pugilista
 Pugilista
-
-
-PÁGINA 28
-PROJETO - M
-CONSULTA
-PROPOSTA EM DISCUSSÃO  |  BASE v0.331
-28
-Índice: P–S
- Assunto
-Consulta
 Punho
 Punho
 PV
@@ -1425,6 +1442,10 @@ Reação
 Regras gerais: Reações e ataques de oportunidade
 Reação coletiva
 Invocações: Turnos das entidades
+Recarregar
+Equipamento: Recarregar
+Recolher
+Invocações: Manifestar e recolher
 Redução de Dano
 Dano e Recuperação: Redução de Dano
 Refino
@@ -1433,12 +1454,30 @@ Regra
 Fundamento: Sua técnica
 Regra da técnica
 Fundamento: Sua técnica
+Regra Própria
+Catálogo: Regra Própria
+Religar
+Invocações: Retorno e corpos caídos
 Remenda
 Catálogo: Amparo
 Ressonante
 Ressonante
+
+
+PÁGINA 29
+PROJETO - M
+CONSULTA
+PROPOSTA EM DISCUSSÃO  |  BASE v0.331
+29
+Índice: R–T
+ Assunto
+Consulta
 Restrição
 Fundamento: Restrições
+Retorno
+Invocações: Retorno e corpos caídos
+Revestimento
+Equipamento: Revestimentos e escudos
 Ritual
 Ritual
 Rodada
@@ -1449,8 +1488,12 @@ Rompe
 Equipamento: Propriedades
 Ruptura
 Rotas: Técnica Marcial
+Sacar e guardar
+Equipamento: Sacar e guardar
 Saltos
 Regras gerais: Saltos
+Segura
+Catálogo: Momento e duração
 Selo
 Fundamento: Selo e Talentos
 Sem Técnica
@@ -1461,16 +1504,6 @@ Sequela
 Dano e Recuperação: Sequelas e Cicatrizes
 Sobrecarga e fluxo
 Sobrecarga e fluxo
-
-
-PÁGINA 29
-PROJETO - M
-CONSULTA
-PROPOSTA EM DISCUSSÃO  |  BASE v0.331
-29
-Índice: S–V
- Assunto
-Consulta
 Socorrista
 Socorrista
 Socorro
@@ -1485,10 +1518,22 @@ Talento Próprio
 Catálogo: Talento Próprio
 Talha
 Equipamento: Propriedades
+Talismã
+Invocações: Talismãs
 Técnica amaldiçoada
 Mundo jujutsu
 Técnica Marcial
 Rotas: Técnica Marcial
+
+
+PÁGINA 30
+PROJETO - M
+CONSULTA
+PROPOSTA EM DISCUSSÃO  |  BASE v0.331
+30
+Índice: T–X
+ Assunto
+Consulta
 Técnica Máxima
 Fundamento: Técnica Máxima
 Teste
@@ -1503,6 +1548,8 @@ Toque
 Fundamento: Formas de ataque
 Traço
 Origens
+Traje
+Equipamento: Trajes
 Treino
 Regras gerais: Treino e modificadores
 Trilha
@@ -1523,16 +1570,6 @@ Vanguarda
 Vanguarda
 Vantagem
 Regras gerais: Treino e modificadores
-
-
-PÁGINA 30
-PROJETO - M
-CONSULTA
-PROPOSTA EM DISCUSSÃO  |  BASE v0.331
-30
-Índice: V–X
- Assunto
-Consulta
 Vasculhar
 Regras gerais: Vasculhar
 Versado

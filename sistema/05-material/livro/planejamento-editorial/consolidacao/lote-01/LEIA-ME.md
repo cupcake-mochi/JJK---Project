@@ -1,6 +1,6 @@
 # Projeto - M — candidata editorial completa
 
-A reconstrução está reunida em um livro de383páginas. A publicação v0.331 foi preservada. A entrega inclui o PDF, o manuscrito único para leitura, os capítulos editáveis, os registros de decisões e as validações.
+A reconstrução está reunida em um livro de 382 páginas, revisado em 04/10/2026 (as mudanças desde 03/10 estão em `../../revisao-interfaces/CORRECOES-APLICADAS.md`). A publicação v0.331 foi preservada. A entrega inclui o PDF, o manuscrito único para leitura, os capítulos editáveis, os registros de decisões e as validações.
 
 Abra `output/pdf/Projeto-M-Livro-Completo-Candidata.pdf`. Leia `REVISAO-FINAL.md` para alterações e limites. `VALIDADORES.json` contém o fechamento dos15critérios, e `evidencias/FINAL-V14.json` registra a inspeção das páginas.
 

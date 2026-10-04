@@ -1,0 +1,32 @@
+Testes negativos da regra de paginação de tabelas e títulos (04/10/2026).
+Cada teste usa uma cópia isolada do pacote; a perturbação é conferida com cmp antes de gerar; o conferir_livro.py é o do repositório.
+
+P0: PDF e gerador anteriores (bceea2d7), conferidor novo
+   rc=1
+   falha: Tabelas sem linha órfã ou viúva e com o título junto | 19 ocorrências | [['título longe da tabela', 42, 'Estágios de Integridade'], ['título longe da tabela', 81, 'Muro'], ['título longe da tabela', 118, 'Ressonante'], ['título long
+   falha: Nenhum título com uma linha só no pé da página | 6 ocorrências | [[79, 'Olhos Em Mim'], [126, 'Corrigir uma Falha — nível 2'], [127, 'Ajustar a Preparação — nível 7'], [172, 'Definir o projeto'], [186, 'Lâmina Curta'], [188, 
+
+BASE: gerador novo, conferidor novo
+   rc=0
+   ok
+P1: MINIMO=1 (a tabela pode deixar uma linha sozinha)
+   rc=1
+   falha: Tabelas sem linha órfã ou viúva e com o título junto | 11 ocorrências | [['linha órfã no pé', 176, 'Tarefa Resolução'], ['linha órfã no pé', 180, 'Situações Situações'], ['linha viúva no alto', 182, 'Escudo Proteção Teto de Destreza
+   falha: Nenhum título com uma linha só no pé da página | 1 ocorrências | [[79, 'Olhos Em Mim']]
+
+P2: sem o agrupamento de título e apresentação (keepTogetherClass padrão)
+   rc=0
+   ok
+   (P2 passa porque o agrupamento padrão do ReportLab manda o grupo inteiro para a página seguinte quando a tabela não cabe toda; o livro sai com 388 páginas em vez de 382. É o contra-teste da classe GrupoComTabela, que só exige o começo da tabela.)
+
+P3: título e apresentação da tabela sem o vínculo com ela
+   rc=1
+   páginas 382
+   falha: Tabelas sem linha órfã ou viúva e com o título junto | 11 ocorrências | [['título longe da tabela', 42, 'Estágios de Integridade'], ['título longe da tabela', 118, 'Ressonante'], ['título longe da tabela', 172, 'Definir o projeto'],
+   falha: Nenhum título com uma linha só no pé da página | 3 ocorrências | [[172, 'Definir o projeto'], [188, 'Ceifa'], [209, 'Subir de nível']]
+
+P4: título com uma linha sem o vínculo com o texto seguinte
+   rc=1
+   páginas 382
+   falha: Nenhum título com uma linha só no pé da página | 4 ocorrências | [[79, 'Olhos Em Mim'], [126, 'Corrigir uma Falha — nível 2'], [127, 'Ajustar a Preparação — nível 7'], [203, 'Traje de Fuga']]
+

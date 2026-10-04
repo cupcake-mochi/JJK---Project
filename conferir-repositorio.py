@@ -326,6 +326,83 @@ for _b, _d, _f in os.walk(RAIZ):
 # acidente e' a mesma coisa que nao conferir.
 TRANSITORIOS = {'mensagem-de-commit.txt', 'finalizado/mensagem-de-commit.txt'}
 
+# ARQUIVOS LOCAIS — existem no HD do Mizuki e ficam fora do git DE PROPOSITO.
+#
+# ⚠ Nasceu na revisao de 04/10/2026. A publicacao da candidata registrou 166
+# referencias mortas e uma copia limpa do GitHub achou 182 com a MESMA arvore.
+# A diferenca eram 16 caminhos `/tmp/...` que ainda existiam na maquina de quem
+# rodou: o resultado dependia do computador, e nao do repositorio. Agora
+# caminho absoluto nunca e' procurado no disco da maquina.
+#
+# Tres grupos saem de "morta" e viram AVISO, que continua impresso e contado:
+#   - o que o .gitignore exclui (finalizado/, entregas/continuidade-..., o build
+#     html). Lido do proprio .gitignore, para nao virar segunda lista;
+#   - caminho em /tmp: script ou saida de uma sessao que nao foi guardada. Isso e'
+#     LACUNA DE RASTREABILIDADE da evidencia antiga, e nenhum conserto de caminho
+#     traz o arquivo de volta. Fica visivel para ninguem citar como prova
+#     reproduzivel;
+#   - LOCAIS abaixo: material que o .gitignore exclui por pasta ou extensao e que
+#     o documento cita pelo nome, sem a pasta.
+# Caminho absoluto fora de /tmp continua FALHANDO.
+LOCAIS = {
+    # PDFs de sistemas de terceiros, em `PDFs - Sistemas Extras/` (ver .gitignore)
+    'Player_Hand_Book_DnD_2024.pdf': 'livro de terceiros, fica so no HD',
+    '3dt-alpha-manual-revisado-biblioteca-elfica.pdf': 'livro de terceiros, fica so no HD',
+    # pasta so de PNG, e o .gitignore exclui os PNG do planejamento editorial
+    'consolidacao/lote-01/output/mosaicos-root/': 'mosaicos PNG da inspecao visual, so no HD',
+}
+
+
+def _padroes_gitignore():
+    pads = []
+    try:
+        for linha in open(os.path.join(RAIZ, '.gitignore'), encoding='utf-8'):
+            linha = linha.strip()
+            if linha and not linha.startswith(('#', '!')):
+                pads.append(linha)
+    except FileNotFoundError:
+        pass
+    return pads
+
+
+GITIGNORE = _padroes_gitignore()
+
+
+def _ignorado(alvo):
+    """O alvo (relativo a raiz) cai num padrao do .gitignore?"""
+    import fnmatch
+    a = alvo.lstrip('./')
+    partes = a.rstrip('/').split('/')
+    prefixos = ['/'.join(partes[:i]) for i in range(1, len(partes) + 1)]
+    for p in GITIGNORE:
+        q = p.rstrip('/')
+        for pre in prefixos:
+            if fnmatch.fnmatch(pre, q) or fnmatch.fnmatch(pre + '/', p):
+                return True
+    return False
+
+
+def _pastas_acima(base):
+    """A pasta do documento e todas as de cima, ate a raiz, nesta ordem.
+
+    ⚠ v. revisao de 04/10/2026: o planejamento editorial escreve caminho relativo
+    a pasta DONA do assunto (`abertura/lote-01/...` relativo a
+    planejamento-editorial/, `manual/40-fundamento.md` relativo a livro/), e os
+    documentos moram em subpastas dela. A checagem so tentava a pasta do proprio
+    documento, a raiz e sistema/ — que ja sao duas pastas acima —, e 131
+    referencias que abrem com um clique no editor apareciam como mortas.
+    """
+    pastas = []
+    d = os.path.abspath(base)
+    while True:
+        pastas.append(d)
+        if d == RAIZ or os.path.dirname(d) == d:
+            break
+        d = os.path.dirname(d)
+    return pastas
+
+locais = 0
+
 vistos = 0
 mortas = 0
 for base, dirs, files in os.walk(RAIZ):
@@ -400,22 +477,46 @@ for base, dirs, files in os.walk(RAIZ):
             eh_caminho = '/' in alvo and (alvo.endswith('/') or re.search(r'\.\w{2,4}$', alvo))
             if alvo in TRANSITORIOS:
                 continue
+            if alvo in LOCAIS:
+                locais += 1
+                aviso(f'{rel(caminho)} cita `{alvo}`: {LOCAIS[alvo]}')
+                continue
+            if eh_caminho and alvo.startswith('/'):
+                # absoluto: NUNCA procurar no disco da maquina (ver LOCAIS acima)
+                if alvo.startswith('/tmp/'):
+                    locais += 1
+                    aviso(f'{rel(caminho)} cita `{alvo}`, arquivo temporario de '
+                          f'outra sessao que nao foi guardado no repositorio')
+                else:
+                    mortas += 1
+                    erro(f'{rel(caminho)} cita `{alvo}`, caminho absoluto fora do '
+                         f'repositorio')
+                continue
             if eh_caminho:
-                # tem que resolver de algum lugar plausivel
-                tentativas = [os.path.join(base, alvo),
-                              os.path.join(RAIZ, alvo),
-                              os.path.join(RAIZ, 'sistema', alvo)]
+                # resolve a partir da pasta do documento ou de qualquer pasta
+                # acima dela, ate a raiz; sistema/ fica pelos documentos antigos
+                tentativas = [os.path.join(p, alvo) for p in _pastas_acima(base)]
+                tentativas.append(os.path.join(RAIZ, 'sistema', alvo))
                 achou = any(os.path.exists(x) for x in tentativas)
+                if not achou and _ignorado(alvo):
+                    locais += 1
+                    aviso(f'{rel(caminho)} cita `{alvo}`, que o .gitignore deixa '
+                          f'fora do repositorio')
+                    continue
+                motivo = ('nao resolve da pasta do documento nem de nenhuma pasta '
+                          'acima dela')
             elif '/' in alvo:
                 continue        # par de termos, nao caminho
             else:
                 # e um NOME solto citado em prosa: basta existir em algum lugar
                 achou = alvo in TODOS_OS_NOMES
+                motivo = 'nenhum arquivo da arvore tem esse nome'
             if not achou:
                 mortas += 1
-                erro(f'{rel(caminho)} cita `{alvo}`, e ele nao existe em lugar nenhum')
+                erro(f'{rel(caminho)} cita `{alvo}`, e {motivo}')
 
-print(f'  {vistos} caminhos citados em .md conferidos, {mortas} mortos.')
+print(f'  {vistos} caminhos citados em .md conferidos, {mortas} mortos, '
+      f'{locais} locais ou temporarios fora do repositorio (aviso).')
 if mortas == 0:
     print('  Todos resolvem.')
 

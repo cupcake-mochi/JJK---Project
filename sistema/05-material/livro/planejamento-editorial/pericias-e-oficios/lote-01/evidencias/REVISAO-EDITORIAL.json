@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "016423f17da7111635e8d9973afd6c810bfb7f5d7f93c3f1e235bf91d0385fdc",
+  "sha256_texto": "2d8ba86ef20865c3022197ab4c8027f3b2bf43dde353e35e14d76c0d0e9aafae",
   "secoes": [
     {
       "id": "pericias",
@@ -40,5 +40,33 @@
   ],
   "independente": false,
   "teste_humano": false,
-  "delta_nominal_final": "DELTA-QA-FINAL.json"
+  "delta_nominal_final": "DELTA-QA-FINAL.json",
+  "revisao_delta_2026_10_04": {
+    "sha256_anterior": "016423f17da7111635e8d9973afd6c810bfb7f5d7f93c3f1e235bf91d0385fdc",
+    "sha256_atual": "2d8ba86ef20865c3022197ab4c8027f3b2bf43dde353e35e14d76c0d0e9aafae",
+    "origem": "Ajustes de remissão feitos na montagem do livro completo (03/10/2026), sem atualização da prova individual.",
+    "mudancas": [
+      {
+        "linha": 106,
+        "secao": "conhecimento",
+        "antes": "As perícias desta página usam **Inteligência**. Elas permitem examinar indícios e recorrer ao que o personagem aprendeu. Uma resposta depende dos sinais acessíveis e do conhecimento disponível.",
+        "depois": "As perícias desta seção usam **Inteligência**. Elas permitem examinar indícios e recorrer ao que o personagem aprendeu. Uma resposta depende dos sinais acessíveis e do conhecimento disponível."
+      },
+      {
+        "linha": 147,
+        "secao": "ambiente",
+        "antes": "As perícias desta página usam **Inteligência**. Servem para compreender o ambiente, os seres vivos e os equipamentos encontrados durante uma missão.",
+        "depois": "As perícias desta seção usam **Inteligência**. Servem para compreender o ambiente, os seres vivos e os equipamentos encontrados durante uma missão."
+      },
+      {
+        "linha": 184,
+        "secao": "essencia",
+        "antes": "As perícias desta página usam **Essência**. Elas cobrem percepção, expressão e contato com outras pessoas. Interações sociais dependem do pedido, da abordagem e do que a outra pessoa está disposta a fazer.",
+        "depois": "As perícias desta seção usam **Essência**. Elas cobrem percepção, expressão e contato com outras pessoas. Interações sociais dependem do pedido, da abordagem e do que a outra pessoa está disposta a fazer."
+      }
+    ],
+    "registro": "consolidacao/lote-01/evidencias/AJUSTES-FINAIS-INTEGRACAO.json",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+    "conferido": "Só remissões: nenhum custo, requisito, efeito, número ou título mudou. Leitura integral anterior preservada para o restante do texto, que é idêntico."
+  }
 }

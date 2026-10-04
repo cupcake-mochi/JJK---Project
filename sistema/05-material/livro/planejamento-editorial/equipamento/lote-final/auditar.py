@@ -8,7 +8,8 @@ B=Path(__file__).resolve().parent;P=next(p for p in B.parents if (p/'validacao-e
 S=B/'EQUIPAMENTO.md';s=S.read_text();h=hashlib.sha256(S.read_bytes()).hexdigest();E=B/'evidencias';E.mkdir(exist_ok=True)
 checks=[]
 def ck(n,a,e=True):checks.append(dict(caso=n,obtido=a,esperado=e,ok=a==e))
-def dump(n,d):E.joinpath(n).write_text(json.dumps(d,ensure_ascii=False,indent=2,default=str)+'\n')
+# Conjuntos saem ordenados: str() de um set muda de ordem a cada execução do Python.
+def dump(n,d):E.joinpath(n).write_text(json.dumps(d,ensure_ascii=False,indent=2,default=lambda o:sorted(o) if isinstance(o,(set,frozenset)) else str(o))+'\n')
 def rows(t):
  return [[x.strip() for x in l.strip('|').split('|')] for l in t.splitlines() if l.startswith('|') and not re.match(r'^\|[-:| ]+\|$',l)]
 def weapons(t):return {re.sub(r' \(.*\)$','',r[0]):r for r in rows(t) if len(r)==7 and re.match(r'^\d+d\d+ ',r[2])}
@@ -29,9 +30,13 @@ for f in src['fontes_correntes']:
  if path.name in ['ARMAS.md','EQUIPAMENTO-EM-JOGO.md']:continue
  for row in rows(path.read_text()):ck('Tabela preservada: '+path.name+' / '+row[0],row in rows(s))
 oldmagic=(B.parent/'lote-08/EQUIPAMENTO-AMALDICOADO.md').read_text();magic=json.loads((B.parent/'lote-08/CATALOGO.json').read_text())['itens']
+# Trocas decididas pelo autor depois do lote-08; fora delas a ficha continua idêntica (revisao-interfaces/CORRECOES-APLICADAS.md).
+decididas={'Lâmina de Cisão':[('atinge **somente a Integridade** do alvo, seguindo as regras de dano direto à alma.','é **dano de Alma** e atinge **somente a Integridade** do alvo, conforme Receber dano de Alma, em Dano na alma.')]}
 for it in magic:
  def block(t):return t.split('## '+it['nome']+'\n',1)[1].split('\n## ',1)[0].split('<!-- page:',1)[0].strip()
- ck('Ficha especial completa: '+it['nome'],block(s),block(oldmagic))
+ esperado=block(oldmagic)
+ for a,b in decididas.get(it['nome'],[]):ck('Troca decidida presente na fonte anterior: '+it['nome'],esperado.count(a),1);esperado=esperado.replace(a,b)
+ ck('Ficha especial completa: '+it['nome'],block(s),esperado)
 ck('17 ferramentas',len(magic),17)
 parts=re.split(r'<!-- page:([^|]+)\|([^>]+) -->\s*',s);pages={parts[i]:parts[i+2] for i in range(1,len(parts),3)}
 ck('39 páginas lógicas',len(pages),39);ck('Âncoras únicas',len(pages),len(re.findall(r'<!-- page:',s)))
@@ -149,7 +154,7 @@ ck('3d8 sucesso1d8',next(x['quebranto'] for x in tr if x['dados']==3 and x['dife
 ck('3d8 médiaTR7.65',next(x['normal'] for x in tr if x['dados']==3 and x['diferenca']==0),7.65)
 ck('Desgaste sequência preservada',[2,2,1,0],[3-1,3-1,3-2,3-3])
 # Invariants attached to the current wording and adversarial removals.
-phrases=['Não concede outro ataque','A arma e as mãos necessárias ficam ocupadas','livres de outros objetos ou tarefas','Rodada inteira','6 segundos','a peça não está pronta para uso','termine de retirar o anterior','Seu teto de Destreza continua valendo','sem acrescentar nem consumir munição','cada nova manipulação simples exige uma Ação de Movimento inteira','se essa mão estiver livre','sem crítico','somente a Integridade','Cópias do mesmo efeito compartilham o limite por personagem','antes de começar a preparar o novo']
+phrases=['Não concede outro ataque','A arma e as mãos necessárias ficam ocupadas','livres de outros objetos ou tarefas','Ação Completa','6 segundos','a peça não está pronta para uso','termine de retirar o anterior','Seu teto de Destreza continua valendo','sem acrescentar nem consumir munição','cada nova manipulação simples exige uma Ação de Movimento inteira','se essa mão estiver livre','sem crítico','somente a Integridade','Cópias do mesmo efeito compartilham o limite por personagem','antes de começar a preparar o novo']
 for phrase in phrases:
  ck('Contrato atual: '+phrase,phrase in s);ck('Mutação textual recusada: '+phrase,phrase in s.replace(phrase,'REMOVIDO'),False)
 # Ownership: do not reproduce Assassin/Pugilist/other class mechanics.

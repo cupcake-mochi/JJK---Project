@@ -48,8 +48,6 @@ A tabela informa quanto custa **sair do nível atual**. Ela não mostra o XP acu
 | 23–29 | 1.700 |
 | 30 | Não há outro nível. |
 
-Partindo do nível 2, chegar ao 20 exige **14.300 XP gastos**. Do 20 ao 30, são mais **16.400**, totalizando **30.700 XP**. O feito do limiar e o limite de um avanço por missão continuam necessários.
-
 Uma linha de missões paga por missão concluída. Quem entra no meio recebe pelo que jogar. Dividir artificialmente uma mesma missão em vários registros não cria novas recompensas: vale a divisão anunciada antes das sessões.
 
 <!-- page:prog-semana|Experiência semanal -->
@@ -78,7 +76,7 @@ A contagem reinicia no dia e horário definidos pela guilda ou campanha. Use a *
 <!-- page:prog-limiar|Limiar do nível 20 -->
 # Limiar do nível 20
 
-Para avançar do nível **20 para o 21**, reúna o XP necessário e registre **um dos oito feitos abaixo**, realizado entre os níveis **15 e 20**. Um feito reconhecido nessa faixa continua válido quando você chegar ao limiar.
+Para avançar do nível **20 para o 21**, reúna o XP necessário e registre **um dos sete feitos abaixo**, realizado entre os níveis **15 e 20**. Um feito reconhecido nessa faixa continua válido quando você chegar ao limiar.
 
 | Feito | Registro necessário |
 |---|---|
@@ -89,7 +87,6 @@ Para avançar do nível **20 para o 21**, reúna o XP necessário e registre **u
 | Voltar do estágio 4 de dano na alma. | Integridade a zero e saída do estado Derrotado registradas, conforme Derrota e morte. |
 | Cumprir uma Promessa até o fim, pagando sua parte. | Termos do pacto e seu cumprimento. |
 | Trazer à guilda uma ferramenta de Grau 1 ou Especial. | Ferramenta obtida e Grau de sua ficha. |
-| Terminar a missão depois de outro personagem jogador chegar ao estágio 4. | Ocorrência na ficha do participante e conclusão da missão. |
 
 A lista é fechada. O mestre confirma se o feito aconteceu e registra a evidência; não precisa avaliar se outra façanha parece equivalente. Os feitos de socorro, dano na alma e saída de Domínio precisam decorrer de uma ameaça hostil real na missão. Treinos e quedas provocadas pelo grupo apenas para cumprir essa lista não contam. Em uma campanha sem guilda, a instituição ou o grupo da campanha recebe a ferramenta do sétimo feito.
 
@@ -174,7 +171,7 @@ As aptidões conservam seus requisitos. Quando receber duas, escolha em ordem: a
 
 O feitiço concedido é uma aplicação conhecida, não uma vaga livre para comprar Talento, Domínio ou invocação. O Talento respeita seu nível de acesso e não ocupa espaços. Cada Leque abre uma vaga própria para ele além do limite de **cinco Talentos pagos**. Registre a origem de cada ganho.
 
-No nível 6, por exemplo, Leque concede uma aplicação até Classe 2 e um Talento até Categoria de Efeito 1. Escolher Leque em todos os sete marcos termina em **sete aplicações adicionais e sete Talentos concedidos**, além do repertório comum.
+No nível 6, por exemplo, Leque concede uma aplicação até Classe 2 e um Talento até Categoria de Efeito 1.
 
 Na rota sem energia, substitua Refino e aptidão por **Lapidação e Bênção**, e o feitiço por **Kata**. As outras rotas usam suas aplicações correspondentes.
 
@@ -189,7 +186,7 @@ Um feitiço ocupa um espaço. Os Talentos pagos e a Expansão de Domínio usam o
 
 ## Revisão ao subir de nível
 
-Você pode reescrever **um feitiço conhecido**, incluindo uma Liberação Máxima, ou rever **um espaço ocupado por entidade**: trocar sua entidade ou mudar entre entidade e feitiço. É a mesma revisão, não uma para cada opção.
+Você pode reescrever **um feitiço conhecido**, incluindo uma Liberação Máxima, a **Técnica Máxima**, ou rever **um espaço ocupado por entidade**: trocar sua entidade ou mudar entre entidade e feitiço. É a mesma revisão, não uma para cada opção.
 
 Quando uma habilidade concede duas entidades no mesmo espaço, a revisão daquele espaço abrange a dupla. Isso não transfere a duplicação para outros espaços. Preencher um espaço novo não gasta a revisão do nível.
 
@@ -264,34 +261,9 @@ Recalcule também o total de corpos permitido em **Invocações em campo**: atri
 
 Se a capacidade cair de quatro para duas e o atributo for 3, o total cai de **sete para cinco corpos**. Escolha os cinco que continuará controlando. Os outros permanecem fisicamente no mundo, sem receber ordens, acompanhar por controle ou usar capacidades para você. Não desaparecem nem são destruídos.
 
-Registre a seleção. Recuperar o controle de um corpo suspenso exige uma aquisição ou transferência de vínculo permitida, com os procedimentos de **Fabricação de entidades** e os limites de **Invocações em campo**. Estar perto dele ou voltar à cidade não permite alternar gratuitamente o grupo controlado.
+Registre a seleção. Um corpo suspenso volta ao seu controle quando uma vaga se abre porque um corpo controlado foi destruído ou porque seu total permitido aumentou, conforme **Invocações em campo**. Soltar um corpo de propósito, estar perto do suspenso ou voltar à cidade não permite alternar o grupo controlado.
 
 Também remova básicas, especiais, Talentos ou Famílias concedidas apenas pela Trilha anterior. Registre versões válidas das fichas afetadas. Entidades domadas ou fabricadas conservam sua aquisição própria; a troca de Trilha não as transforma em entidades por espaço nem aumenta seu nível.
-
-<!-- page:prog-ritmo|Ritmo de campanha -->
-# Ritmo de campanha
-
-A recompensa de cada missão e a frequência das sessões determinam quanto tempo a progressão leva. A tabela abaixo é uma **estimativa**, com 52 semanas por ano, sem faltas, falhas, eventos de XP ou espera pelo feito do nível 20.
-
-| Frequência | Até nível 20 | Até nível 30 |
-|---|---:|---:|
-| Uma missão a cada duas semanas | 62,2 meses | 93,7 meses |
-| Uma por semana | 31,1 meses | 46,9 meses |
-| Duas por semana | 15,5 meses | 23,4 meses |
-| Três por semana | 12,4 meses | 18,7 meses |
-| Quatro por semana | 11,3 meses | 17,0 meses |
-
-Esses valores usam uma mistura de missões: antes do nível 20, a cada oito, uma curta, seis padrões e uma longa, média **106,25 XP**. Depois, três longas e dois finais de arco a cada cinco, média **240 XP**. Os descontos semanais entram na conta.
-
-Se todas as missões forem padrão, duas por semana levam aproximadamente **16,5 meses até o 20 e 35,4 até o 30**. A faixa final não acelera sozinha por causa do nível: a estimativa anterior depende de receber missões maiores.
-
-## Ajustes opcionais da campanha
-
-A guilda pode anunciar missões de dobro, bônus por objetivos pessoais ou ajuda a participantes que ficaram para trás. Essas são políticas opcionais, definidas antes de aplicar a recompensa. Elas não retiram o desconto semanal nem o limite de um avanço por missão, salvo uma mudança expressa nas regras da campanha.
-
-Uma missão padrão de dobro paga 200 XP antes dos descontos. Outra possibilidade é dobrar a recompensa de quem esteja pelo menos três níveis abaixo do grupo. Defina previamente qual nível de referência será usado; essa compensação não faz parte da regra básica.
-
-Não reduza níveis já recebidos para ajustar o ritmo. Mude as recompensas futuras com o grupo e acompanhe os resultados.
 
 <!-- page:prog-guilda|Recompensas da guilda -->
 # Recompensas da guilda
@@ -318,16 +290,14 @@ Divida os três quartos restantes igualmente pelo número exigido, até completa
 
 Prefira um registro separado da experiência da ficha. A guilda pode conceder uma moeda própria, recursos ou um bônus a cada quantidade anunciada de missões mestradas.
 
-Se escolher uma mensalidade extra a cada **X missões**, a marca fecha ao completar X e usa o Grau daquele momento. Não guarde uma marca concluída para cobrar depois em outro Grau. A frequência esperada desse bônus é **X dividido pela média de missões mestradas por mês**.
-
-**Exemplo.** Com X igual a 12 e média de três missões mestradas por mês, uma marca leva cerca de quatro meses. A campanha escolhe X; o exemplo não fixa essa quantidade como regra geral.
+Se escolher uma mensalidade extra a cada **X missões**, a marca fecha ao completar X e usa o Grau daquele momento. Não guarde uma marca concluída para cobrar depois em outro Grau.
 
 <!-- page:prog-patentes|Patentes -->
 # Patentes
 
 A patente registra o reconhecimento do personagem pela instituição. O Projeto M usa os Graus **4, 3, 2, 1 e Especial**, nessa ordem crescente. Ela pode influenciar responsabilidades, acesso a recursos e a remuneração adotada pela campanha.
 
-Na criação padrão, você começa no **Grau 4**, independentemente da Origem. Uma campanha que comece com personagens já reconhecidos pode definir outra patente inicial, conforme **Compras e equipamento inicial**. Começar em um nível maior não concede essa mudança automaticamente.
+Na criação padrão, você começa no **Grau 4**, independentemente da Origem. Uma campanha que comece com personagens já reconhecidos pode definir outra patente inicial, conforme **Equipamento inicial**, em Equipamento. Começar em um nível maior não concede essa mudança automaticamente.
 
 A patente avança pelos feitos reconhecidos na campanha. O mestre, ou a organização da guilda, informa quando uma promoção ocorre e registra o novo Grau e o feito que a motivou. A subida de nível e os feitos do Limiar não concedem uma patente por conta própria.
 

@@ -1,16 +1,24 @@
 {
   "ok": true,
   "manuscritos_auditados": {
-    "sistema/05-material/livro/planejamento-editorial/origens/lote-01/ORIGENS-E-LEGADOS.md": "d432caecc9f2c63b0f355ad70a6e74251ae51044a8ac5840a35b7fd6d182484d"
+    "sistema/05-material/livro/planejamento-editorial/origens/lote-01/ORIGENS-E-LEGADOS.md": "0476a3485888acb6e08fc457ce59f7049a5e440f5787c722a9caf062871c91d7"
   },
   "fonte": "AUDITORIA.json",
   "quantidades": {
-    "verificacoes": 333,
+    "verificacoes": 418,
     "casos": 35,
     "pares_legados": 268,
     "perfis_reparo": 105,
     "perfis_probabilidade": 19,
     "mutacoes": 6
   },
-  "observacao": "Wrapper regenerado da execução após os renomes e a sincronização da remissão. Resultados anteriores preservados no snapshot de QA."
+  "observacao": "Wrapper regenerado da execução após os renomes e a sincronização da remissão. Resultados anteriores preservados no snapshot de QA.",
+  "revisao_delta_2026_10_04": {
+    "sha256_anterior": "d432caecc9f2c63b0f355ad70a6e74251ae51044a8ac5840a35b7fd6d182484d",
+    "auditoria_reexecutada": "evidencias/AUDITORIA.json",
+    "resultado": "aprovado",
+    "correcao_de_registro": "INVENTARIO.json: hash atualizado e segundo parágrafo de Revezamento alinhado ao texto já migrado (ver revisao_delta_2026_10_04 do inventário).",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+    "checagem_nova": "auditar.py ganhou 85 checagens texto_<Legado>: o texto de cada entrada do INVENTARIO.json precisa bater com o livro, não só existir (333 para 418 verificações). Teste negativo e contra-teste em publicacao-github/provas-cinco-capitulos-2026-10-04/perturbacao-origens.txt."
+  }
 }

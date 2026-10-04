@@ -1,6 +1,6 @@
 {
-  "sha256_pdf": "8833082ea50f001bdbd154d08388b44d136ebceabdbae1957173f3acaa97da31",
-  "metodo": "Vinte páginas inspecionadas. Após correções independentes, páginas 4, 5, 13, 16 e 18 reinspecionadas; igualdade de pixels comprovada nas outras quinze.",
+  "sha256_pdf": "ce6d6fde09636fadd0af443f7d32f3aabe7dfd139cfd92977540bae433d8f174",
+  "metodo": "Páginas alteradas abertas e inspecionadas. Demais páginas reutilizam inspeção anterior somente por igualdade de pixels, comprovada em COMPARACAO-VISUAL-2026-10-04.json.",
   "paginas": [
     {
       "pagina": 1,
@@ -8,7 +8,9 @@
       "observacoes": "Texto, tabelas, exemplos e limites completos e legíveis.",
       "sha256_png": "b67270a21492339fcb5c9881d18b20749fe84aa1a7ba6c424bc009582b7d635f",
       "pixels_iguais_rodada_anterior": true,
-      "revisor": "Agente principal"
+      "revisor": "Agente principal",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026, revisão por modelo",
+      "arquivo": null
     },
     {
       "pagina": 2,
@@ -125,10 +127,12 @@
     {
       "pagina": 16,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Texto, tabelas, exemplos e limites completos e legíveis.",
-      "sha256_png": "d0725e4beb2ff66c6189630ee56634e26814064e690b8fa38a700e411fb4fdd6",
+      "observacoes": "Batedor: Arma de Fogo com o parágrafo Acesso; Combate Irregular e Conduções inteiros.",
+      "sha256_png": "adc8f27c493f0b4baa4492e855c9dd94d37eabfda9d2b94dc7ba13839cbca8fb",
       "pixels_iguais_rodada_anterior": false,
-      "revisor": "Agente principal"
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo",
+      "arquivo": null
     },
     {
       "pagina": 17,
@@ -136,7 +140,9 @@
       "observacoes": "Texto, tabelas, exemplos e limites completos e legíveis.",
       "sha256_png": "e0ca73a5076f1035f81dac8c2f4e349631b09fba01b08499b3da3363a7fdd271",
       "pixels_iguais_rodada_anterior": true,
-      "revisor": "Agente principal"
+      "revisor": "Agente principal",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026, revisão por modelo",
+      "arquivo": null
     },
     {
       "pagina": 18,
@@ -144,7 +150,9 @@
       "observacoes": "Texto, tabelas, exemplos e limites completos e legíveis.",
       "sha256_png": "9a3eeb0977df0e35e0a050b6a26c40c8615111c814724378edddff96d3d49762",
       "pixels_iguais_rodada_anterior": false,
-      "revisor": "Agente principal"
+      "revisor": "Agente principal",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026, revisão por modelo",
+      "arquivo": null
     },
     {
       "pagina": 19,
@@ -162,5 +170,33 @@
       "pixels_iguais_rodada_anterior": true,
       "revisor": "Agente principal"
     }
-  ]
+  ],
+  "sha256_pdf_anterior": "8833082ea50f001bdbd154d08388b44d136ebceabdbae1957173f3acaa97da31",
+  "revisao_delta_2026_10_04": {
+    "sha256_anterior": "743f954c5be1033034a71bbae0e8383bffdb82944e28341e5ee089338bb0b85b",
+    "sha256_atual": "751db69756ec4c6b02b67034a11efbe5ae8a723c8b23c11fdc5c417134cd6ba1",
+    "mudancas": [
+      "C06",
+      "C08",
+      "D04"
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.json",
+    "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana.",
+    "paginas_alteradas": [
+      1,
+      16,
+      17,
+      18
+    ]
+  },
+  "revisao_delta_2026_10_04_decisoes": {
+    "sha256_pdf_anterior": "0d0c3c877a31f72979f8f3e3aa1d22dcc3b996cd03e5bec6a8d4a99b5e37fc3a",
+    "sha256_pdf_atual": "ce6d6fde09636fadd0af443f7d32f3aabe7dfd139cfd92977540bae433d8f174",
+    "paginas_alteradas": [
+      16
+    ],
+    "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-04-decisoes.json",
+    "metodo": "As páginas alteradas foram abertas; as demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  }
 }

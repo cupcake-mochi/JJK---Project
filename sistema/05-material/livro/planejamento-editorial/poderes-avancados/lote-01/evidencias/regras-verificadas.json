@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "sha256_texto": "2b1c02cb3407a7aec6ef385a00726e1d131020b3f2b110b433bfcedf28f2854f",
+  "sha256_texto": "c0baf131ce40f69b35dc8ec182300f0ce8bec3d52127c3f4e40a53aaefb410d4",
   "metodo": "Leitura contextual, comparação entre donos e casos dirigidos; modelos aritméticos executados separadamente.",
   "testes_com_jogadores": false,
   "checks_executados": 154,
@@ -910,5 +910,23 @@
       "passou": true,
       "detalhe": null
     }
-  ]
+  ],
+  "revisao_delta_2026_10_04": {
+    "sha256_anterior": "2b1c02cb3407a7aec6ef385a00726e1d131020b3f2b110b433bfcedf28f2854f",
+    "auditoria_reexecutada": "evidencias/auditoria-numerica.json",
+    "resultado": "ok, 154 verificações; só a contagem de palavras de Criar um domínio mudou (310 para 312), pela remissão nova.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "revisao_delta_2026_10_04_quarta_passada": {
+    "sha256_anterior": "17331ebd3c99cb822d6b5c62610cc55ab6dfe715f53476835394a36d7a47696d",
+    "auditoria_reexecutada": "evidencias/auditoria-numerica.json",
+    "resultado": "ok, 154 verificações; o exemplo da Galeria de Vidro só perdeu a frase da média bruta (D22). O auditor continua calculando essa média como conta de projeto.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "revisao_delta_2026_10_04_quinta_passada": {
+    "sha256_anterior": "f8409ae24c39d5a3cb0d2dcf983796fcd5dff4b89f812b7ee0545fba32d184c4",
+    "auditoria_reexecutada": "evidencias/auditoria-numerica.json",
+    "resultado": "ok, 154 verificações; o encerramento ganhou Inconsciente e Derrotado (D32).",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  }
 }
