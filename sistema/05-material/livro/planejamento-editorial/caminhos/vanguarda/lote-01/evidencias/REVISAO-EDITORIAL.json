@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "65c184399433da368999072af7019ad8d01e2c6b00b81d10930c8d7c01a7171b",
+  "sha256_texto": "751db69756ec4c6b02b67034a11efbe5ae8a723c8b23c11fdc5c417134cd6ba1",
   "metodo": "Leitura contextual pelo agente principal, confrontando toda a fonte e as interfaces indicadas. Não é teste com jogadores.",
   "secoes": [
     {
@@ -212,10 +212,11 @@
   },
   "revisao_delta_2026_10_04": {
     "sha256_anterior": "743f954c5be1033034a71bbae0e8383bffdb82944e28341e5ee089338bb0b85b",
-    "sha256_atual": "65c184399433da368999072af7019ad8d01e2c6b00b81d10930c8d7c01a7171b",
+    "sha256_atual": "751db69756ec4c6b02b67034a11efbe5ae8a723c8b23c11fdc5c417134cd6ba1",
     "mudancas": [
       "C06",
-      "C08"
+      "C08",
+      "D04"
     ],
     "registro": "revisao-interfaces/CORRECOES-APLICADAS.json",
     "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana.",

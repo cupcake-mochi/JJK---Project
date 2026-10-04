@@ -103,5 +103,12 @@
     "antes": "Tiro Controlado pedia usos disponíveis sem localizar seu estoque.",
     "depois": "A arma precisa estar pronta e ter duas unidades carregadas para o disparo e a compra da Oportunidade.",
     "motivo": "Revisão independente: não permitir debitar diretamente da mochila uma munição que a arma ainda não recebeu."
+  },
+  {
+    "id": "VG-REV-01",
+    "tipo": "M decisão do autor",
+    "antes": "A **capacidade da arma** (os ataques por carga, em Munição) **aumenta em um**.",
+    "depois": "A **capacidade da Arma de Fogo** (os ataques por carga, em Munição) **aumenta em um**. Bestas e outras armas de disparo não recebem esse aumento.",
+    "motivo": "Mizuki, 04/10/2026, escolha no cartão: \"Só arma de fogo\". Com a besta em capacidade 1 (EQ25), o aumento levaria a besta a 2 e ela voltaria a servir no ataque extra, que é a desvantagem escolhida para ela."
   }
 ]

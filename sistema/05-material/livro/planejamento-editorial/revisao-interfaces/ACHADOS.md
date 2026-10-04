@@ -18,21 +18,20 @@ Cada relatório traz, por achado, os dois trechos que não fecham, o problema, u
 
 ## Resumo
 
-51 achados. 17 corrigidos na primeira passada e 2 corrigidos em parte, todos do tipo "nome, custo ou remissão divergindo de uma regra já aprovada em outro capítulo". Seis dessas correções (C01, C07, C09, C10, C13 e C14) mudam o resultado na mesa para quem lia só o capítulo corrigido; `CORRECOES-APLICADAS.md` diz o que muda em cada uma. Na segunda passada, o Mizuki decidiu 4 (G2-03, G2-04, G3-07 e G4-01), e as decisões foram aplicadas. Os outros 28 ficaram como estavam, porque pedem uma decisão de regra, de nome ou de redação, ou porque falta escrever uma regra que nenhum capítulo tem.
+51 achados. 17 corrigidos na primeira passada e 2 corrigidos em parte, todos do tipo "nome, custo ou remissão divergindo de uma regra já aprovada em outro capítulo". Seis dessas correções (C01, C07, C09, C10, C13 e C14) mudam o resultado na mesa para quem lia só o capítulo corrigido; `CORRECOES-APLICADAS.md` diz o que muda em cada uma. Contra a `v0.331` dos jogadores, só a C14 muda regra; as outras cinco devolvem o que ela já dizia. Na segunda passada, o Mizuki decidiu 4 (G2-03, G2-04, G3-07 e G4-01), e as decisões foram aplicadas. Os outros 28 ficaram como estavam, porque pedem uma decisão de regra, de nome ou de redação, ou porque falta escrever uma regra que nenhum capítulo tem.
 
 O antes, o depois e o motivo de cada correção estão em `CORRECOES-APLICADAS.md`.
 
 ## O que precisa do Mizuki
 
-Ordenado pelo peso em mesa. As quatro decisões de 04/10 (besta, pistola, ataque da entidade e corpos) já estão aplicadas e saíram desta lista.
+Ordenado pelo peso em mesa. As quatro decisões de 04/10 (besta, pistola, ataque da entidade e corpos) já estão aplicadas e saíram desta lista, junto com a besta no Combate Irregular, que ficou só para Arma de Fogo (D04).
 
-1. **Besta com Combate Irregular.** Com a besta em capacidade 1, o Combate Irregular (Batedor: Arma de Fogo) leva a besta a 2 e ela volta a servir no ataque extra para esse personagem. Decidir se a habilidade vale para besta. Detalhe em C06, em `CORRECOES-APLICADAS.md`.
-2. **G1-05 · Ordem da queda.** Ainda de Pé depois de Aguentar, e Ainda Há Tempo antes ou depois da escolha. Decide se a perda de 1/8 da vida máxima do Insistir acontece.
-3. **G1-07 · Feito 8 do limiar.** Depois de DR13 ele só cobre dano de Alma e ficou fora do filtro de ameaça real. Escolher o alcance.
-4. **G4-07 · Batedor: Arma de Fogo no nível 2.** A arma depende de uma autorização que a criação não dá. A Trilha concede ou o mestre confirma antes.
-5. **G3-03, G3-04, G3-05 · Três ordens pequenas da Fluidez e do Malabarista.** Acúmulo de saques gratuitos, Fluidez antes do primeiro turno e momento do Instante Decisivo contra o Bloquear.
-6. **G5-02 e G5-10 · Nomes.** "Calo — Livre" ficou com o rótulo antigo, e o Emanador reaproveita "Impulso" e a família "Expressão".
-7. **G1-02 · Tipo do dano da Cisão.** Se continua com o tipo da arma ou vira dano de Alma.
+1. **G1-05 · Ordem da queda.** Ainda de Pé depois de Aguentar, e Ainda Há Tempo antes ou depois da escolha. Decide se a perda de 1/8 da vida máxima do Insistir acontece.
+2. **G1-07 · Feito 8 do limiar.** Depois de DR13 ele só cobre dano de Alma e ficou fora do filtro de ameaça real. Escolher o alcance.
+3. **G4-07 · Batedor: Arma de Fogo no nível 2.** A arma depende de uma autorização que a criação não dá. A Trilha concede ou o mestre confirma antes.
+4. **G3-03, G3-04, G3-05 · Três ordens pequenas da Fluidez e do Malabarista.** Acúmulo de saques gratuitos, Fluidez antes do primeiro turno e momento do Instante Decisivo contra o Bloquear.
+5. **G5-02 e G5-10 · Nomes.** "Calo — Livre" ficou com o rótulo antigo, e o Emanador reaproveita "Impulso" e a família "Expressão".
+6. **G1-02 · Tipo do dano da Cisão.** Se continua com o tipo da arma ou vira dano de Alma.
 
 Os casos de mesa que medem as lacunas abertas estão nos casos-sonda de `../testes-com-leitores/CASOS-SONDA.md`.
 

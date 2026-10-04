@@ -1,10 +1,10 @@
 {
   "ok": true,
-  "sha256_texto": "65c184399433da368999072af7019ad8d01e2c6b00b81d10930c8d7c01a7171b",
+  "sha256_texto": "751db69756ec4c6b02b67034a11efbe5ae8a723c8b23c11fdc5c417134cd6ba1",
   "manuscritos_auditados": {
-    "sistema/05-material/livro/planejamento-editorial/caminhos/vanguarda/lote-01/VANGUARDA.md": "65c184399433da368999072af7019ad8d01e2c6b00b81d10930c8d7c01a7171b"
+    "sistema/05-material/livro/planejamento-editorial/caminhos/vanguarda/lote-01/VANGUARDA.md": "751db69756ec4c6b02b67034a11efbe5ae8a723c8b23c11fdc5c417134cd6ba1"
   },
-  "verificacoes": 70,
+  "verificacoes": 71,
   "casos_funcionais": 34,
   "checks": [
     {
@@ -345,6 +345,12 @@
       "caso": "Classe mínima Compasso 7",
       "obtido": 4,
       "esperado": 4,
+      "ok": true
+    },
+    {
+      "caso": "Combate Irregular só aumenta Arma de Fogo",
+      "obtido": true,
+      "esperado": true,
       "ok": true
     },
     {

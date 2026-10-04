@@ -3746,9 +3746,10 @@ Conduzir.
 Batedor: Arma de Fogo
 Você cria uma Oportunidade, escolhe quando aproveitá-la e mantém meios de continuar o confronto.
 Nível 2: Combate Irregular. Seus disparos não sofrem a desvantagem causada por inimigo adjacente. A
-capacidade da arma (os ataques por carga, em Munição) aumenta em um. O gatilho de recarga por 1 ou 2
-natural permanece. A capacidade adicional precisa ser preenchida com munição do inventário. A
-habilidade não cria uma unidade extra a cada recarga.
+capacidade da Arma de Fogo (os ataques por carga, em Munição) aumenta em um. Bestas e outras armas
+de disparo não recebem esse aumento. O gatilho de recarga por 1 ou 2 natural permanece. A capacidade
+adicional precisa ser preenchida com munição do inventário. A habilidade não cria uma unidade extra a
+cada recarga.
 Oportunidade Tática
 Você mantém uma Oportunidade, obtida por suas Conduções. Ela pode antecipar Pressão Dominante,
 habilitar a recarga de Ruptura e, no nível 19, pagar Romper o Contato.
@@ -3771,10 +3772,10 @@ Pressão Dominante. Requisito: duas Conduções de Arma de Fogo acertadas, ou um
 Oportunidade consumida.
 Após acertar, TR de Espírito: na falha, o alvo fica Amedrontado por você até o fim do próximo turno
 dele.
-Ruptura Tática. Requisito: uma Condução de Arma de Fogo acertada.
 CANDIDATA EDITORIAL • BASE v0.331 96
 
 PROJETO - M CAMINHOS E TRILHAS
+Ruptura Tática. Requisito: uma Condução de Arma de Fogo acertada.
 Após acertar, TR Físico: na falha, o alvo não pode usar Reações contra você até o começo do seu próximo
 turno.
 Se consumiu Oportunidade e ele falhou no TR, pode gastar uma Ação de Movimento inteira e ainda
@@ -3816,11 +3817,11 @@ Conduções. Sua primeira Condução com Arma de Fogo não apaga a Oportunidade 
 estabelecer um preparo. As trocas posteriores seguem as regras normais.
 Abrir contra outro alvo ou com outra categoria abandona o plano. Um erro não concede a Oportunidade
 nem renova o prazo. O uso da cena é gasto ao preparar a continuidade.
-A recarga de Romper o Contato não ativa esta habilidade. Permanece proibido abrir outra Sequência no
-turno em que concluiu.
 CANDIDATA EDITORIAL • BASE v0.331 97
 
 PROJETO - M CAMINHOS E TRILHAS
+A recarga de Romper o Contato não ativa esta habilidade. Permanece proibido abrir outra Sequência no
+turno em que concluiu.
 Exemplo. Depois de Ruptura e recarga por Movimento, escolha outro inimigo. No turno seguinte, um Golpe
 Inicial acertado começa com Oportunidade. Você pode usá-la na execução futura ou gastá-la numa retirada,
 mas ainda precisa cumprir o preparo da Conclusão.
@@ -3855,12 +3856,12 @@ Desguarnecer. Uma Condução acertada. TR Físico. Na falha, seu próximo ataque
 o alvo tem vantagem, até o fim do seu próximo turno.
 Cortar o Gesto. Sem Condução mínima. TR de Vigor. Na falha, a próxima rolagem de ataque de um
 feitiço do alvo tem desvantagem, até o fim do próximo turno dele.
-Quebrar a Guarda. Uma Condução acertada. TR Físico. Na falha, o próximo Bloquear contra um ataque
-corpo a corpo seu tem desvantagem, até o fim do seu próximo turno. Compare dois conjuntos completos
-de Bloquear e mantenha o menos favorável ao defensor.
 CANDIDATA EDITORIAL • BASE v0.331 98
 
 PROJETO - M CAMINHOS E TRILHAS
+Quebrar a Guarda. Uma Condução acertada. TR Físico. Na falha, o próximo Bloquear contra um ataque
+corpo a corpo seu tem desvantagem, até o fim do seu próximo turno. Compare dois conjuntos completos
+de Bloquear e mantenha o menos favorável ao defensor.
 Cada efeito vale para a primeira tentativa que cumpra essas condições, mesmo quando ela já tiver o
 mesmo modificador. Desguarnecer e Quebrar a Guarda não afetam o ataque que os aplicou.
 Rasteira, Desarme e Quebrar o Ritmo permanecem disponíveis pelos requisitos comuns. Ponto Fraco não

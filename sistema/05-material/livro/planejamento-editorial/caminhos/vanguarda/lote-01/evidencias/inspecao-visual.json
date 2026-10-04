@@ -1,5 +1,5 @@
 {
-  "sha256_pdf": "61adcdd0404f193b8f666629f0c7cb2d3f94831d4860ba1e5129258c72bc7118",
+  "sha256_pdf": "0d0c3c877a31f72979f8f3e3aa1d22dcc3b996cd03e5bec6a8d4a99b5e37fc3a",
   "metodo": "Páginas alteradas abertas e inspecionadas. Demais páginas reutilizam inspeção anterior somente por igualdade de pixels, comprovada em COMPARACAO-VISUAL-2026-10-04.json.",
   "paginas": [
     {
@@ -174,10 +174,11 @@
   "sha256_pdf_anterior": "8833082ea50f001bdbd154d08388b44d136ebceabdbae1957173f3acaa97da31",
   "revisao_delta_2026_10_04": {
     "sha256_anterior": "743f954c5be1033034a71bbae0e8383bffdb82944e28341e5ee089338bb0b85b",
-    "sha256_atual": "65c184399433da368999072af7019ad8d01e2c6b00b81d10930c8d7c01a7171b",
+    "sha256_atual": "751db69756ec4c6b02b67034a11efbe5ae8a723c8b23c11fdc5c417134cd6ba1",
     "mudancas": [
       "C06",
-      "C08"
+      "C08",
+      "D04"
     ],
     "registro": "revisao-interfaces/CORRECOES-APLICADAS.json",
     "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana.",

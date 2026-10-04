@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "sha256_texto": "65c184399433da368999072af7019ad8d01e2c6b00b81d10930c8d7c01a7171b",
+  "sha256_texto": "751db69756ec4c6b02b67034a11efbe5ae8a723c8b23c11fdc5c417134cd6ba1",
   "verificacoes": 70,
   "casos": [
     {
@@ -263,7 +263,7 @@
     }
   ],
   "revisao_delta_2026_10_04": {
-    "auditoria_reexecutada": "evidencias/auditoria-numerica.json",
+    "auditoria_reexecutada": "caminhos/vanguarda/lote-01/auditar.py (reexecutado em 04/10/2026, com a checagem D04)",
     "resultado": "ok",
     "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana."
   }

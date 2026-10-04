@@ -1,23 +1,23 @@
 {
-  "sha256_pdf": "adda0770179395f9e6ec498bda2910cfb50b40f1c8892320f0e67b724d8c0c17",
-  "sha256_manuscrito": "f1b040cf33a359233f575477afbc45b71a81fae8057b823438ab9c2056f59b00",
+  "sha256_pdf": "00a207c962c27cdc13c74ef6dff70acea2803f8081a9a8d17b254a2d39b74eda",
+  "sha256_manuscrito": "21622d28a2fb4455a1e75bf6e48ced65ae6ff42f6420d3b54401d6cd3b59cdbb",
   "ok": true,
   "verificacoes": 3497,
   "paginas": 384,
   "blocos": 510,
   "links_internos": 508,
-  "caracteres_pdf": 813495,
+  "caracteres_pdf": 813550,
   "checks": [
     {
       "teste": "PDF atual",
-      "obtido": "adda0770179395f9e6ec498bda2910cfb50b40f1c8892320f0e67b724d8c0c17",
-      "esperado": "adda0770179395f9e6ec498bda2910cfb50b40f1c8892320f0e67b724d8c0c17",
+      "obtido": "00a207c962c27cdc13c74ef6dff70acea2803f8081a9a8d17b254a2d39b74eda",
+      "esperado": "00a207c962c27cdc13c74ef6dff70acea2803f8081a9a8d17b254a2d39b74eda",
       "ok": true
     },
     {
       "teste": "Markdown atual",
-      "obtido": "f1b040cf33a359233f575477afbc45b71a81fae8057b823438ab9c2056f59b00",
-      "esperado": "f1b040cf33a359233f575477afbc45b71a81fae8057b823438ab9c2056f59b00",
+      "obtido": "21622d28a2fb4455a1e75bf6e48ced65ae6ff42f6420d3b54401d6cd3b59cdbb",
+      "esperado": "21622d28a2fb4455a1e75bf6e48ced65ae6ff42f6420d3b54401d6cd3b59cdbb",
       "ok": true
     },
     {
@@ -14830,8 +14830,8 @@
     },
     {
       "teste": "Captura confere vanguarda",
-      "obtido": "65c184399433da368999072af7019ad8d01e2c6b00b81d10930c8d7c01a7171b",
-      "esperado": "65c184399433da368999072af7019ad8d01e2c6b00b81d10930c8d7c01a7171b",
+      "obtido": "751db69756ec4c6b02b67034a11efbe5ae8a723c8b23c11fdc5c417134cd6ba1",
+      "esperado": "751db69756ec4c6b02b67034a11efbe5ae8a723c8b23c11fdc5c417134cd6ba1",
       "ok": true
     },
     {
@@ -97864,6 +97864,8 @@
         "capacidade",
         "da",
         "arma",
+        "de",
+        "fogo",
         "os",
         "ataques",
         "por",
@@ -97873,6 +97875,16 @@
         "aumenta",
         "em",
         "um",
+        "bestas",
+        "e",
+        "outras",
+        "armas",
+        "de",
+        "disparo",
+        "não",
+        "recebem",
+        "esse",
+        "aumento",
         "o",
         "gatilho",
         "de",
@@ -98165,6 +98177,8 @@
         "capacidade",
         "da",
         "arma",
+        "de",
+        "fogo",
         "os",
         "ataques",
         "por",
@@ -98174,6 +98188,16 @@
         "aumenta",
         "em",
         "um",
+        "bestas",
+        "e",
+        "outras",
+        "armas",
+        "de",
+        "disparo",
+        "não",
+        "recebem",
+        "esse",
+        "aumento",
         "o",
         "gatilho",
         "de",
@@ -336088,23 +336112,23 @@
     },
     {
       "pagina": 96,
-      "caracteres": 3061,
-      "fim_corpo": 773.72
+      "caracteres": 3062,
+      "fim_corpo": 767.92
     },
     {
       "pagina": 97,
-      "caracteres": 3530,
-      "fim_corpo": 776.72
+      "caracteres": 3472,
+      "fim_corpo": 762.72
     },
     {
       "pagina": 98,
-      "caracteres": 2494,
-      "fim_corpo": 756.92
+      "caracteres": 2366,
+      "fim_corpo": 742.92
     },
     {
       "pagina": 99,
-      "caracteres": 2358,
-      "fim_corpo": 599.52
+      "caracteres": 2610,
+      "fim_corpo": 647.32
     },
     {
       "pagina": 100,

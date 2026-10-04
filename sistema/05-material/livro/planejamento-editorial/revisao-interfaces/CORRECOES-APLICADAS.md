@@ -3,6 +3,7 @@
 Correções feitas em 04/10/2026 a partir da revisão das interfaces (`ACHADOS.md`), em duas passadas.
 
 - **Primeira passada (C01 a C14):** só o que diverge de um nome, custo ou remissão já aprovado em outro capítulo. Nenhuma inventa número, e todas alinham um capítulo com outro que já dizia a coisa certa. **Seis delas mudam o que acontece na mesa** para quem lia só o capítulo corrigido: C01, C07, C09, C10, C13 e C14. Cada uma traz uma linha "Muda na mesa". As outras treze são só texto.
+- **Contra a `v0.331` dos jogadores, só a C14 muda regra.** As outras cinco devolvem o que a `v0.331` já dizia, por exemplo `manual/50-equipamento.md`, linha 230 (C07), `manual/60-invocacoes.md`, linha 523 (C10), e `manual/42-tecnica-marcial.md`, linha 52 (C09), ou só trocam o nome de um contador que não existia (C01). O "Muda na mesa" de cada uma compara com a candidata de antes desta revisão. A comparação com a `v0.331` é da thread "Mudanças de mecânica no livro".
 - **Segunda passada (D01 a D03c e EQ25):** quatro regras que o Mizuki decidiu no mesmo dia. Essas mudam regra, e a decisão dele vai citada em cada uma.
 
 O mesmo conteúdo, com o hash de cada fonte antes e depois, está em `CORRECOES-APLICADAS.json`. Caminhos relativos ao planejamento editorial.
@@ -11,9 +12,10 @@ O mesmo conteúdo, com o hash de cada fonte antes e depois, está em `CORRECOES-
 
 - **Fontes editadas:** só as declaradas em `../consolidacao/lote-01/ORDEM.json`. O `LIVRO-COMPLETO.md`, o PDF e as evidências da consolidação foram regerados pelo `gerar_livro.py --strict`, não editados à mão.
 - **Estrutura:** depois da segunda passada, `conferir_livro.py` passou com 3497 checagens e 508 links internos. O PDF tem agora **384 páginas** (uma a mais, no fim de Invocações em campo), 21 capítulos e seis Caminhos.
-- **PDF:** main `44dfa941…`, primeira passada `89f9057b…`, segunda passada `adda0770…` (sha256 completo em `../consolidacao/lote-01/evidencias/GERACAO.json`).
+- **PDF:** main `44dfa941…`, primeira passada `89f9057b…`, segunda passada `adda0770…`, depois da D04 `00a207c9…` (sha256 completo em `../consolidacao/lote-01/evidencias/GERACAO.json`).
 - **Páginas da primeira passada:** a comparação por pixel com o PDF da `main` mudou 35 páginas: 10, 59, 87, 96, 97, 113, 116, 117, 152, 175 a 189, 214, 218, 257, 263, 281, 283, 284, 340, 360, 376 e 378. A faixa 175 a 189 é o capítulo de Equipamento: as trocas C04b, C07, C11 e C12 mudaram o comprimento de algumas linhas e o texto seguinte andou junto.
 - **Páginas da segunda passada:** comparadas com o PDF da primeira passada, ignorando cabeçalho e rodapé para absorver a página a mais. Mudaram 34: 2 (sumário), 59 (C08d sem ponto e vírgula), 160 (D01), 216 (D03c), 320 a 335 (D02 e D03, com o texto de Invocações em campo andando até a página nova), 340, 342 a 344, 348, 351, 352, 355, 360 e 361 (D02b e números de página em Construir invocações) e 377 a 380 (números de página do índice). As demais são idênticas em pixel, só deslocadas uma página depois da 334.
+- **Páginas da D04:** comparadas com o PDF da segunda passada, mudaram só as páginas 96 a 99, no fim da Vanguarda, porque a frase nova empurrou o texto. O livro continua com 384 páginas, e `conferir_livro.py` passou de novo com 3497 checagens e 508 links.
 - **Inspeção:** todas as páginas mudadas nas duas passadas foram abertas uma a uma: nenhum corte de texto, sobreposição ou título órfão no pé da página. A página 334 fecha Invocações em campo com cerca de 40% de texto, o que é normal no fim de capítulo.
 - **Texto do PDF:** os termos removidos ("Restringido", "Restrição Único", "Montagem de entidades", "até haver espaço") não aparecem mais, e cada "depois" abaixo aparece no texto extraído.
 - **Links:** os destinos internos do PDF foram conferidos pelo `conferir_livro.py`; nenhum destino ficou pendente.
@@ -83,7 +85,7 @@ Achados: G2-09. O capítulo se chama Construir invocações (ORDEM.json); Montag
 
 Achados: G4-02. Equipamento trocou o contador X pela capacidade (Ataques por carga) e pelo gatilho de esvaziar; a Vanguarda ainda usava X. Nas armas de fogo o número não muda.
 
-**Caso da besta:** com a besta em capacidade 1 (EQ25), o Combate Irregular leva a besta a 2, e não a 3 como seria com a peça 14. Com 2, a besta volta a servir no ataque extra para esse personagem. Ficou como pergunta ao Mizuki em `ACHADOS.md`.
+**Caso da besta:** com a besta em capacidade 1 (EQ25), o Combate Irregular leva a besta a 2, e não a 3 como seria com a peça 14. Com 2, a besta voltaria a servir no ataque extra para esse personagem. O Mizuki decidiu que o aumento vale só para Arma de Fogo (D04, abaixo).
 
 - Antes: O limite **X de disparos antes da recarga aumenta em um**.
 - Depois: A **capacidade da arma** (os ataques por carga, em Munição) **aumenta em um**.
@@ -216,7 +218,7 @@ Achados: G5-06. Fundamento diz que trocar função, Forma ou peças da Técnica 
 
 ## Decisões do autor (segunda passada)
 
-O Mizuki decidiu quatro achados em 04/10/2026. Três mudaram texto; a besta ficou como estava. O que a `v0.331` dos jogadores diz diferente está em `../migracao-pos-candidata/PLANO.md`, na seção das decisões.
+O Mizuki decidiu quatro achados em 04/10/2026, e depois o caso da besta com Combate Irregular (D04). A besta ficou como estava; as outras mudaram texto. O que a `v0.331` dos jogadores diz diferente está em `../migracao-pos-candidata/PLANO.md`, na seção das decisões.
 
 ### EQ25 · equipamento/lote-final (sem mudança de texto)
 
@@ -225,7 +227,7 @@ Achado: G4-01. Mizuki: "Volta pra 1, a parte negativa da besta é justamente nã
 - Antes: capacidade 1 das bestas sem registro de decisão nesta unidade; a peça 14 da `v0.331` usa 2.
 - Depois: capacidade 1 mantida. O registro foi para `equipamento/lote-final/ALTERACOES.md` (EQ25). A peça 14 muda na migração.
 
-Efeito na Vanguarda: ver o caso da besta em C06.
+Efeito na Vanguarda: ver D04.
 
 ### D01 · caminhos/incursor/lote-01/INCURSOR.md
 
@@ -259,7 +261,16 @@ Achado: G2-03. Mizuki escolheu "Volta com trava": o corpo excedente volta sozinh
 - Progressão, antes: Recuperar o controle de um corpo suspenso exige uma aquisição ou transferência de vínculo permitida, com os procedimentos de **Fabricação de entidades** e os limites de **Invocações em campo**. Estar perto dele ou voltar à cidade não permite alternar gratuitamente o grupo controlado.
 - Depois: Um corpo suspenso volta ao seu controle quando uma vaga se abre porque um corpo controlado foi destruído ou porque seu total permitido aumentou, conforme **Invocações em campo**. Soltar um corpo de propósito, estar perto do suspenso ou voltar à cidade não permite alternar o grupo controlado.
 
-Cada unidade tocada ganhou a entrada correspondente no seu `ALTERACOES` (INC-22, R11-50, R11-51, R12-32, FAB-REV-01 e PRO37), com antes, depois e motivo.
+### D04 · caminhos/vanguarda/lote-01/VANGUARDA.md
+
+Achado: efeito da C06 sobre G4-01. Mizuki, no cartão: "Só arma de fogo".
+
+- Antes: A **capacidade da arma** (os ataques por carga, em Munição) **aumenta em um**.
+- Depois: A **capacidade da Arma de Fogo** (os ataques por carga, em Munição) **aumenta em um**. Bestas e outras armas de disparo não recebem esse aumento.
+
+A outra parte do Combate Irregular (disparar sem a desvantagem por inimigo adjacente) não mudou. O auditor da Vanguarda ganhou uma checagem para essa frase, testada por perturbação: tirar a frase das bestas faz a checagem falhar.
+
+Cada unidade tocada ganhou a entrada correspondente no seu `ALTERACOES` (INC-22, R11-50, R11-51, R12-32, FAB-REV-01, PRO37 e VG-REV-01), com antes, depois e motivo.
 
 ## Validador editorial
 

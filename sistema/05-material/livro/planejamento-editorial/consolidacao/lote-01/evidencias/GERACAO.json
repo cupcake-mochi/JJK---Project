@@ -101,8 +101,8 @@
     },
     "vanguarda": {
       "arquivo": "caminhos/vanguarda/lote-01/VANGUARDA.md",
-      "sha256_lido": "65c184399433da368999072af7019ad8d01e2c6b00b81d10930c8d7c01a7171b",
-      "sha256_no_fim": "65c184399433da368999072af7019ad8d01e2c6b00b81d10930c8d7c01a7171b"
+      "sha256_lido": "751db69756ec4c6b02b67034a11efbe5ae8a723c8b23c11fdc5c417134cd6ba1",
+      "sha256_no_fim": "751db69756ec4c6b02b67034a11efbe5ae8a723c8b23c11fdc5c417134cd6ba1"
     },
     "guia": {
       "arquivo": "caminhos/guia/lote-01/GUIA.md",
@@ -157,7 +157,7 @@
     }
   ],
   "destinos_pendentes": 0,
-  "sha256_manuscrito": "f1b040cf33a359233f575477afbc45b71a81fae8057b823438ab9c2056f59b00",
-  "sha256_pdf": "adda0770179395f9e6ec498bda2910cfb50b40f1c8892320f0e67b724d8c0c17",
+  "sha256_manuscrito": "21622d28a2fb4455a1e75bf6e48ced65ae6ff42f6420d3b54401d6cd3b59cdbb",
+  "sha256_pdf": "00a207c962c27cdc13c74ef6dff70acea2803f8081a9a8d17b254a2d39b74eda",
   "V14": "não executado: requer inspeção visual de todas as páginas finais"
 }

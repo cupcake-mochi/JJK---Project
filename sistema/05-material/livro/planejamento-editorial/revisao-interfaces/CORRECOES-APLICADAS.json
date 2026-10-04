@@ -1,6 +1,6 @@
 {
   "data": "2026-10-04",
-  "descricao": "Correções de inconsistência clara aplicadas na revisão de interfaces. Nenhuma inventa número; seis (C01, C07, C09, C10, C13, C14) mudam o resultado na mesa para quem lia só o capítulo corrigido, e trazem o campo muda_na_mesa. A segunda passada (decisoes_do_autor) aplica regras decididas pelo Mizuki.",
+  "descricao": "Correções de inconsistência clara aplicadas na revisão de interfaces. Nenhuma inventa número; seis (C01, C07, C09, C10, C13, C14) mudam o resultado na mesa para quem lia só o capítulo corrigido, e trazem o campo muda_na_mesa. A segunda passada (decisoes_do_autor) aplica regras decididas pelo Mizuki. Contra a v0.331, só C14 muda regra; as outras cinco devolvem o texto da v0.331 ou renomeiam um contador inexistente (C01).",
   "correcoes": [
     {
       "id": "C01",
@@ -128,7 +128,7 @@
       ],
       "sha256_antes": "743f954c5be1033034a71bbae0e8383bffdb82944e28341e5ee089338bb0b85b",
       "sha256_depois": "3aae591c8259fe0ba41c022b817221b8193edc8d18ebbe77ed9029e67d285905",
-      "caso_besta": "Com a besta em capacidade 1 (EQ25), o Combate Irregular leva a besta a 2, e não a 3 como seria com a peça 14. Pergunta ao Mizuki em ACHADOS.md."
+      "caso_besta": "Com a besta em capacidade 1 (EQ25), o Combate Irregular levaria a besta a 2. Mizuki decidiu em 04/10/2026 que o aumento vale só para Arma de Fogo (D04)."
     },
     {
       "id": "C07",
@@ -420,6 +420,20 @@
       ],
       "sha256_antes": "572ed1ff1b90c10754e3f86a5752dfc89556988b9de2036f76a1bc11e65860cb",
       "sha256_depois": "64b24f4e2f89840397cee80b2860f41af851f481bb7bb5ba121863d42d8e9a82"
+    },
+    {
+      "id": "D04",
+      "achados": "G4-01 (efeito da C06)",
+      "arquivo": "caminhos/vanguarda/lote-01/VANGUARDA.md",
+      "decisao": "Mizuki, 04/10/2026, escolha no cartão: \"Só arma de fogo\".",
+      "trocas": [
+        {
+          "antes": "A **capacidade da arma** (os ataques por carga, em Munição) **aumenta em um**.",
+          "depois": "A **capacidade da Arma de Fogo** (os ataques por carga, em Munição) **aumenta em um**. Bestas e outras armas de disparo não recebem esse aumento."
+        }
+      ],
+      "sha256_antes": "65c184399433da368999072af7019ad8d01e2c6b00b81d10930c8d7c01a7171b",
+      "sha256_depois": "751db69756ec4c6b02b67034a11efbe5ae8a723c8b23c11fdc5c417134cd6ba1"
     }
   ]
 }
