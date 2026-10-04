@@ -898,7 +898,7 @@ Você pode orientá-la com sua Bônus ou comandar uma especial pela Padrão quan
 
 ## Mudar a composição
 
-Uma invocação ferida já não oferece as capacidades de que você precisa. Na abertura do turno, substitua-a por uma reserva apropriada e pague os PE dessa entrada. A nova criatura assume o saldo de básica elegível. Em seguida, escolha os aprimoramentos considerando a nova composição. Sua Bônus permanece disponível para outra utilização permitida.
+Uma invocação ferida já não oferece as capacidades de que você precisa. Na abertura do turno, substitua-a por uma invocação recolhida apropriada e pague os PE dessa entrada. A nova criatura assume o saldo de básica elegível. Em seguida, escolha os aprimoramentos considerando a nova composição. Sua Bônus permanece disponível para outra utilização permitida.
 
 <!-- page:ev-multiplas-repertorio|Repertório do Conjunto -->
 # Repertório do Conjunto

@@ -2,7 +2,7 @@
   "estado": "Inventário atual em 04/10/2026; a prova individual corresponde ao texto atual e passou no conferir.py. O PDF que vale para leitura é o livro completo.",
   "sha256_texto": "cd7eb01826e2d5f5ca7205eb6dbbf510cce5e67483207e5bf58aa5b350cb4dfa",
   "pdf_vigente": "consolidacao/lote-01/output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
-  "sha256_pdf_vigente": "42d9207037ed22db62f68af3b9936ba22a8c2887aa097496116b0842784c9095",
+  "sha256_pdf_vigente": "4ae5931dc24a7ffda17d62460a6a28c9a834d6805fc5e53f7004cd40bb25fae1",
   "arquivos": [
     {
       "arquivo": "ALTERACOES.json",
@@ -56,7 +56,7 @@
     },
     {
       "arquivo": "VALIDADORES.json",
-      "sha256": "164ab4a3797193ab849d4878211ff2a7c10aea3d4a637cd71247085bd3cbf617",
+      "sha256": "2740e9dff3d8b77657645ee922bb236554c9cc8545d925c0384c6d681d585f3b",
       "bytes": 6202
     },
     {
@@ -151,7 +151,7 @@
     },
     {
       "arquivo": "evidencias/comparacao-fontes-final.json",
-      "sha256": "c48f7b9c9580102731d7f4e1621b5a886770ae5b108c22d2cdecb9a8d3a344ec",
+      "sha256": "cd6a1766a91e9279d9c589a5b4576a824873bdd054352be8dc35a81b609effd4",
       "bytes": 3881
     },
     {
@@ -161,8 +161,8 @@
     },
     {
       "arquivo": "evidencias/fontes-concorrentes.json",
-      "sha256": "74a7a97af7c4e2a3faba50ed8a43481ef6315172575ba8ae88b14e8e4986232f",
-      "bytes": 3569
+      "sha256": "9e6022bf8d7b63c6d487b52611566078d0c6bf3c9be501254477001ecb23bee2",
+      "bytes": 4361
     },
     {
       "arquivo": "evidencias/fontes-iniciais.json",
@@ -256,6 +256,17 @@
     "arquivos_acrescentados": [],
     "arquivos_que_nao_existem_mais": [],
     "motivo": "Pendências de manutenção de 04/10/2026: auditor que preserva os blocos revisao_delta ou ordena conjuntos ao gravar evidência, ou VALIDADORES apontando para o PDF vigente depois da nova paginação de tabelas e títulos. Nenhum texto mudou.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "atualizacao_2026_10_04_quinta_passada": {
+    "arquivos_com_hash_novo": [
+      "VALIDADORES.json",
+      "evidencias/comparacao-fontes-final.json",
+      "evidencias/fontes-concorrentes.json"
+    ],
+    "arquivos_acrescentados": [],
+    "arquivos_que_nao_existem_mais": [],
+    "motivo": "Quinta passada de 04/10/2026 (D25 a D41): decisões do autor sobre os 18 achados restantes, ou VALIDADORES apontando para o PDF vigente.",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
   }
 }

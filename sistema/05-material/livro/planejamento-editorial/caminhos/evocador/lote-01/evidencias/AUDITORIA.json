@@ -1,9 +1,9 @@
 {
   "ok": true,
   "manuscritos_auditados": {
-    "sistema/05-material/livro/planejamento-editorial/caminhos/evocador/lote-01/EVOCADOR.md": "77e47e82794850bf8e051fab789fe1e6acfa8f545a9b18d41f4f8f4bc8b45083"
+    "sistema/05-material/livro/planejamento-editorial/caminhos/evocador/lote-01/EVOCADOR.md": "6c41cfd0d38b4a81705efd2243f1dbca40881c04a58521290761273318de4944"
   },
-  "sha256_texto": "77e47e82794850bf8e051fab789fe1e6acfa8f545a9b18d41f4f8f4bc8b45083",
+  "sha256_texto": "6c41cfd0d38b4a81705efd2243f1dbca40881c04a58521290761273318de4944",
   "aprovado": true,
   "quantidades": {
     "verificacoes": 126,
@@ -86,7 +86,7 @@
         "ev-multiplas-conduzir": 316,
         "ev-multiplas-retirada": 207,
         "ev-multiplas-aprimoramentos": 374,
-        "ev-multiplas-formacao": 334,
+        "ev-multiplas-formacao": 335,
         "ev-multiplas-repertorio": 294,
         "ev-turnos": 331
       }
@@ -1279,7 +1279,7 @@
     "ev-multiplas-conduzir": 316,
     "ev-multiplas-retirada": 207,
     "ev-multiplas-aprimoramentos": 374,
-    "ev-multiplas-formacao": 334,
+    "ev-multiplas-formacao": 335,
     "ev-multiplas-repertorio": 294,
     "ev-turnos": 331
   },

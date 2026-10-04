@@ -223,7 +223,7 @@ Durante seu turno, você pode escolher ou trocar seu **Alvo Estudado sem gastar 
 
 **Fluidez + PE · Uma vez por turno seu.**
 
-Depois de confirmar o acerto, antes de rolar o dano, escolha **Destreza ou Inteligência**. Calcule **X = atributo escolhido − 1**, com mínimo de zero, e gaste **Fluidez e X PE**.
+Antes do nível 19, só durante seu turno. Depois de confirmar o acerto, antes de rolar o dano, escolha **Destreza ou Inteligência**. Calcule **X = atributo escolhido − 1**, com mínimo de zero, e gaste **Fluidez e X PE**.
 
 Role os **dados de dano da arma normalmente**. Golpe Cirúrgico não maximiza dados.
 
@@ -246,7 +246,7 @@ O reforço vale somente para aquele ataque e exige que ele possa receber o dano 
 
 **Fluidez · Uma vez por turno seu.**
 
-Depois de resolver o acerto, gaste Fluidez. O alvo realiza um **TR Físico** contra:
+Antes do nível 19, só durante seu turno. Depois de resolver o acerto, gaste Fluidez. O alvo realiza um **TR Físico** contra:
 
 **CD = 8 + atributo utilizado no ataque + sua maestria.**
 
@@ -406,7 +406,7 @@ Rajada Marcial só pode ser utilizada com a Ação Bônus concedida por Corpo Tr
 
 **Fluidez · Uma vez por turno seu.**
 
-Depois de acertar um ataque desarmado, gaste Fluidez. O alvo realiza um **TR de Vigor contra a CD do Pugilista**, utilizando o atributo daquele ataque na CD.
+Durante seu turno, depois de acertar um ataque desarmado, gaste Fluidez. O alvo realiza um **TR de Vigor contra a CD do Pugilista**, utilizando o atributo daquele ataque na CD.
 
 Na falha, fica **Lento até o fim do próximo turno dele**.
 
@@ -703,7 +703,7 @@ O limite passa a ser **uma recuperação entre o começo de um turno seu e o com
 
 **Uma vez por combate · Fluidez e 12 PE.**
 
-Ao realizar a **Ação Atacar**, pode substituir **um dos seus ataques** por Trajetória Perfeita, utilizando uma **arma de uma mão apropriada para arremesso**. Você precisa ter Fluidez antes da execução e ainda não ter utilizado Lançamento Cruzado, Trajetória de Retorno ou Finta de Retorno naquele turno. Declare o percurso e pague os custos antes de rolar.
+Ao realizar a **Ação Atacar**, pode substituir **um dos seus ataques** por Trajetória Perfeita, utilizando uma **arma de uma mão com Longo Alcance de arremesso**. Você precisa ter Fluidez antes da execução e ainda não ter utilizado Lançamento Cruzado, Trajetória de Retorno ou Finta de Retorno naquele turno. Declare o percurso e pague os custos antes de rolar.
 
 Escolha até **quatro criaturas hostis que você percebe** e a ordem em que a arma passará por elas. O percurso completo pode somar **até 24 m**, incluindo todos os trechos desde sua posição, e pode utilizar até **três pontos de ricochete em superfícies sólidas**. Use esses pontos para mudar a direção da arma. Cada trecho precisa estar livre de obstáculos que impeçam sua passagem. Uma mesma criatura só pode ser atacada uma vez nessa execução.
 

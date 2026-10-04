@@ -1,7 +1,7 @@
 {
   "data": "2026-10-03",
-  "sha256_texto": "2d9a8395eb486ee0afee78234c8c0ad3e2fd6314ebface6788b6842d85a53268",
-  "sha256_pdf": "fffeabaf0313aa172dfc812884fdbf3992e191b608bce7211cd079ceca531ede",
+  "sha256_texto": "f611d4df6ac364a9655e7531f0927a5ecf924555e1097bd402db6db45b7a2513",
+  "sha256_pdf": "3395250370e1fe3c7357b1fcc43165d7db23ab3e92776c98a169cf22d2c1fb06",
   "metodo": "Páginas alteradas abertas e inspecionadas. Demais páginas reutilizam inspeção anterior somente por igualdade de pixels, comprovada em COMPARACAO-VISUAL-2026-10-04.json.",
   "prova_anterior": "8218bdcbfcfb307489d72c0608054524365ec9af491903fd3e002754f512ae83",
   "comparacao": "evidencias/COMPARACAO-NOMES-PDF.json",
@@ -92,24 +92,25 @@
     {
       "pagina": 9,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Texto, tabelas e caixas legíveis, sem cortes ou sobreposições. Espaço inferior da prova será redistribuído no fluxo final.",
-      "sha256_png": "65af72722c422a32c481bb28fc07f7ca3d93730ba9b66f6256ff5586f9c684b8",
-      "revisor": "/root",
+      "observacoes": "Golpe Cirúrgico com \"Antes do nível 19\"; exemplo inteiro.",
+      "sha256_png": "902b035c4b08c81451ba1702942696435d7f34a3512b21366018fce0b505248c",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
       "pixels_iguais_rodada_anterior": true,
       "evidencia_preservacao": "Identidade de pixels com a página já inspecionada na prova anterior; não houve nova abertura nesta rodada.",
       "imagem": "output/png/pagina-09.png",
-      "metodo": "página alterada aberta e inspecionada em 04/10/2026, revisão por modelo",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo",
       "arquivo": null
     },
     {
       "pagina": 10,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Texto, tabelas e caixas legíveis, sem cortes ou sobreposições. Espaço inferior da prova será redistribuído no fluxo final.",
-      "sha256_png": "584a3f88a3aa2f9ba809790c4ef54a162b6ab5be5c3c7c19e47007f2246d1803",
-      "revisor": "/root",
+      "observacoes": "Cortar a Fuga com \"Antes do nível 19\"; exemplo inteiro.",
+      "sha256_png": "4422fdb9c37135b745390fd0c1dc4f24dbe8bb79a51dc10088846bdefa462eb9",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
       "pixels_iguais_rodada_anterior": true,
       "evidencia_preservacao": "Identidade de pixels com a página já inspecionada na prova anterior; não houve nova abertura nesta rodada.",
-      "imagem": "output/png/pagina-10.png"
+      "imagem": "output/png/pagina-10.png",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo"
     },
     {
       "pagina": 11,
@@ -144,12 +145,13 @@
     {
       "pagina": 14,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Texto, tabelas e caixas legíveis, sem cortes ou sobreposições. Espaço inferior da prova será redistribuído no fluxo final.",
-      "sha256_png": "18b14e0632ed812c878497eb711784d0176c54bd9f643d3247c5e2021a2a0a5a",
-      "revisor": "/root",
+      "observacoes": "Quebrar o Compasso com \"Durante seu turno\"; tabela de dano inteira.",
+      "sha256_png": "3e7e64d6727001e79cf0f5eb165b00a4b2ad12ae093a3790a93f7438095af9e3",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
       "pixels_iguais_rodada_anterior": true,
       "evidencia_preservacao": "Identidade de pixels com a página já inspecionada na prova anterior; não houve nova abertura nesta rodada.",
-      "imagem": "output/png/pagina-14.png"
+      "imagem": "output/png/pagina-14.png",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo"
     },
     {
       "pagina": 15,
@@ -268,12 +270,13 @@
     {
       "pagina": 26,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Texto, tabelas e caixas legíveis, sem cortes ou sobreposições. Espaço inferior da prova será redistribuído no fluxo final.",
-      "sha256_png": "61580e14eebc99b89d458f0c7923d6333a8a4cadffca1c494deb31278946d6be",
-      "revisor": "/root",
+      "observacoes": "Trajetória Perfeita com Longo Alcance de arremesso; lista inteira.",
+      "sha256_png": "52388c7bd77eb388f4f13310c8ae24ca434a007a2b5586d6b58379de71863001",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
       "pixels_iguais_rodada_anterior": true,
       "evidencia_preservacao": "Identidade de pixels com a página já inspecionada na prova anterior; não houve nova abertura nesta rodada.",
-      "imagem": "output/png/pagina-26.png"
+      "imagem": "output/png/pagina-26.png",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo"
     }
   ],
   "limites": "Inspeção por modelo em PNG a 100 dpi, sem impressão física ou teste com leitores humanos.",
@@ -301,6 +304,19 @@
       3
     ],
     "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-04-decisoes.json",
+    "metodo": "As páginas alteradas foram abertas; as demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "revisao_delta_2026_10_04_quinta_passada": {
+    "sha256_pdf_anterior": "fffeabaf0313aa172dfc812884fdbf3992e191b608bce7211cd079ceca531ede",
+    "sha256_pdf_atual": "3395250370e1fe3c7357b1fcc43165d7db23ab3e92776c98a169cf22d2c1fb06",
+    "paginas_alteradas": [
+      9,
+      10,
+      14,
+      26
+    ],
+    "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-04-quinta.json",
     "metodo": "As páginas alteradas foram abertas; as demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado.",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
   }

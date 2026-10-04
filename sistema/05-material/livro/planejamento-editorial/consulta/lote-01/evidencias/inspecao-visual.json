@@ -1,6 +1,6 @@
 {
-  "sha256_pdf": "08a54a4284bdbba3767ead69c062a33eca0f595035f984a051bb604ee561be68",
-  "sha256_texto": "506bb779ba4772add62d7a1d05a399d59739a13bb0a882b5345e5c7e9641548e",
+  "sha256_pdf": "39a4e58ee3c20d9538226accb469604754b603081dfd5fbe47628a92ccada487",
+  "sha256_texto": "279351e084412734977e739a88b06a4142f452d02a21e3cb4c229c0ba7220115",
   "metodo": "Páginas alteradas abertas e inspecionadas. Demais páginas reutilizam inspeção anterior somente por igualdade de pixels, comprovada em COMPARACAO-VISUAL-2026-10-04.json.",
   "paginas": [
     {
@@ -78,9 +78,10 @@
     {
       "pagina": 11,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Página inspecionada em prova anterior e confirmada idêntica em pixels na final. Títulos, colunas, linhas, margens e rodapé legíveis; sem cortes ou sobreposição. Índice final curto não foi preenchido artificialmente.",
-      "sha256_png": "ba75fec57f4f427ae1c09b2519de26274a21298b8c0139610ff7c7e4283051f0",
-      "revisor": "/root/maxima"
+      "observacoes": "Ficha de repertório com a coluna Posição e recursos e a linha do Traje, numa página só.",
+      "sha256_png": "19214fac53f820d1e71b334dd11f03311523d64747e253d20dea535aa3a13414",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo"
     },
     {
       "pagina": 12,
@@ -260,6 +261,16 @@
       30
     ],
     "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-04-decisoes.json",
+    "metodo": "As páginas alteradas foram abertas; as demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "revisao_delta_2026_10_04_quinta_passada": {
+    "sha256_pdf_anterior": "08a54a4284bdbba3767ead69c062a33eca0f595035f984a051bb604ee561be68",
+    "sha256_pdf_atual": "39a4e58ee3c20d9538226accb469604754b603081dfd5fbe47628a92ccada487",
+    "paginas_alteradas": [
+      11
+    ],
+    "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-04-quinta.json",
     "metodo": "As páginas alteradas foram abertas; as demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado.",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
   }

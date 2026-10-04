@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "6778c50063b3549bce9e8e5c02961ec2aec0a803ceff75844e68fe9d7729bd1e",
+  "sha256_texto": "6b91f45d55c3383b014ac27c2c683bc6341533e63e639fd288634ec4e8529ded",
   "titulos_revisto": true,
   "sem_explicacao_alheia": true,
   "vocabulario_revisto": true,
@@ -57,5 +57,35 @@
     "registro": "revisao-interfaces/CORRECOES-APLICADAS.json",
     "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana.",
     "conferido": "Trechos trocados lidos um a um: só nomes e remissões ao capítulo dono, nenhuma regra alheia reproduzida, nenhum título alterado. Com o hash anterior, o conferir_editorial dava 0 achados; com o texto novo, todos os achados E002 coincidem em termo e trecho com excecoes_localizacao já revisadas, e o vocabulário não acusa nada. Na segunda passada, o ponto e vírgula de C08d virou ponto, porque o auditor da unidade proíbe ponto e vírgula."
+  },
+  "revisao_delta_2026_10_04_quinta_passada": {
+    "sha256_anterior": "6778c50063b3549bce9e8e5c02961ec2aec0a803ceff75844e68fe9d7729bd1e",
+    "sha256_atual": "6b91f45d55c3383b014ac27c2c683bc6341533e63e639fd288634ec4e8529ded",
+    "mudancas": [
+      {
+        "codigo": "D41",
+        "achado": "G4-11",
+        "secao": "ab-criacao",
+        "antes": "| 5. Equipamento | Receba o uniforme e faça suas compras. |",
+        "depois": "| 5. Equipamento | Receba o uniforme, faça as escolhas do Traje e faça suas compras. |"
+      },
+      {
+        "codigo": "D41",
+        "achado": "G4-11",
+        "secao": "ab-equipamento",
+        "antes": "Na criação padrão, você recebe **um Traje 1 e ¥150.000** para comprar os demais itens.",
+        "depois": "Na criação padrão, você recebe **um Traje 1 e ¥150.000** para comprar os demais itens. Registre a situação, o tipo de TR e as perícias do Traje, conforme Trajes, em Equipamento."
+      },
+      {
+        "codigo": "D41",
+        "achado": "G4-11",
+        "secao": "ab-conferencia",
+        "antes": "- **Inventário:** uniforme, compras,",
+        "depois": "- **Inventário:** uniforme com a situação, o TR e as perícias do Traje, compras,"
+      }
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+    "conferido": "Cada trecho trocado foi lido no contexto. Com as exceções desta leitura, o conferir_editorial dá 0 achados no texto anterior e 0 no atual. As frases novas citam a seção dona pelo nome (Equipamento restrito, Munição inicial, Invocações em campo, Trajes). Nenhuma exceção de vocabulário depende de linha nesta unidade."
   }
 }

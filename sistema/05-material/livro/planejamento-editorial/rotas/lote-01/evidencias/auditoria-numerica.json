@@ -1,5 +1,5 @@
 {
-  "manuscrito_sha256": "692a4f70bd144ccb5c7760c303162842fe0e29bdcb712843bc3f7947f2eaa4b6",
+  "manuscrito_sha256": "99c04d78b0d7ac7bff72a75ebb03cd103330f6a84c79aeecf24871f6975456ae",
   "fontes": [
     "R06 tabela Pontos e preços / Feitiços conhecidos",
     "R09 Canalizar",
@@ -3927,7 +3927,7 @@
   ],
   "ok": true,
   "manuscritos_auditados": {
-    "sistema/05-material/livro/planejamento-editorial/rotas/lote-01/ROTAS.md": "692a4f70bd144ccb5c7760c303162842fe0e29bdcb712843bc3f7947f2eaa4b6"
+    "sistema/05-material/livro/planejamento-editorial/rotas/lote-01/ROTAS.md": "99c04d78b0d7ac7bff72a75ebb03cd103330f6a84c79aeecf24871f6975456ae"
   },
   "checks": [
     {
@@ -3978,11 +3978,11 @@
         },
         {
           "id": "rota-armas",
-          "palavras": 289
+          "palavras": 332
         },
         {
           "id": "rota-ferramenta",
-          "palavras": 291
+          "palavras": 308
         },
         {
           "id": "rota-passivas-marciais",

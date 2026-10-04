@@ -137,7 +137,7 @@ A Incompleta e o modo aberto conservam o centro em que foram criados. Você pode
 <!-- page:rescaldo|Encerramento e Rescaldo -->
 # Encerramento e Rescaldo
 
-Seu domínio termina quando a duração acaba, você o desfaz, chega a **0 PV**, perde uma disputa ou uma regra destrói sua barreira. Durante uma disputa prolongada, acumular as falhas necessárias também o encerra. Uma Expansão aberta não precisa perder uma barreira para terminar.
+Seu domínio termina quando a duração acaba, você o desfaz, chega a **0 PV**, fica **Inconsciente** ou **Derrotado**, perde uma disputa ou uma regra destrói sua barreira. Durante uma disputa prolongada, acumular as falhas necessárias também o encerra. Uma Expansão aberta não precisa perder uma barreira para terminar.
 
 Você pode desfazer voluntariamente o próprio domínio, sem ação. Isso não devolve o custo de abertura. Não é possível manter duas Expansões suas: encerrar a primeira impõe seu preço antes que você possa tentar abrir outra.
 
@@ -170,7 +170,7 @@ A ficha precisa distinguir criaturas, objetos e ausência de energia. Abrir sem 
 
 ## Encerramento
 
-Este modo não tem uma barreira exterior que possa ser destruída. Um objeto que faça parte da aparência do domínio não se torna automaticamente um ponto fraco. Valem a duração, a derrota em disputa, as falhas acumuladas nela, o encerramento voluntário e chegar a 0 PV.
+Este modo não tem uma barreira exterior que possa ser destruída. Um objeto que faça parte da aparência do domínio não se torna automaticamente um ponto fraco. Valem a duração, a derrota em disputa, as falhas acumuladas nela, o encerramento voluntário, chegar a 0 PV e ficar Inconsciente ou Derrotado.
 
 > **Exemplo.** No nível 26, maior Classe 7, Maestria 4 e refino 10, abrir custa 49 PE. Um feitiço de Classe 5 custa 15 − 8 = **7 PE**. Escolhendo o modo fechado, a abertura custaria 42 PE e esse feitiço custaria 15 − 5 = **10 PE**.
 

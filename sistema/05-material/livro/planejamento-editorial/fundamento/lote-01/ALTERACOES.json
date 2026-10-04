@@ -577,6 +577,16 @@
       "motivo": "Pedido do autor em 04/10/2026 (\"Pode remover, qualquer coisa semelhante tbm\"): conta de projetista retirada do livro do jogador (revisao-interfaces/CORRECOES-APLICADAS.md, D19 a D24). A regra fica.",
       "sincronizar": "nenhum",
       "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-58",
+      "natureza": "M",
+      "assunto": "Restrição Leve no Classe 0 com Toque ou Aura",
+      "antes": "Toque e Aura mantêm seu alcance e origem sem produzir a devolução Média de Corpo a Corpo neste caso.",
+      "candidata": "Toque e Aura mantêm seu alcance e origem sem produzir a devolução Média de Corpo a Corpo neste caso. Essa exigência da Forma não ocupa a vaga da Restrição Leve.",
+      "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G5-09 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D35).",
+      "sincronizar": "Construir invocações (já dizia o mesmo)",
+      "status": "candidata, não integrada"
     }
   ]
 }

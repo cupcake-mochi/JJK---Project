@@ -2,8 +2,8 @@
   "data": "2026-10-03",
   "ok": true,
   "verificacoes": 125,
-  "sha256_pdf": "dc20e2b22d5b968d9ad9af7d24f4eb643c1d35353caf4ec4caf9244f555c5762",
-  "sha256_texto": "f8409ae24c39d5a3cb0d2dcf983796fcd5dff4b89f812b7ee0545fba32d184c4",
+  "sha256_pdf": "ca95d4275d5a98f31b359bb802411e6e42ec0c3df231639c61b93c28b5dcb8fd",
+  "sha256_texto": "c0baf131ce40f69b35dc8ec182300f0ce8bec3d52127c3f4e40a53aaefb410d4",
   "checks": [
     {
       "verificacao": "Quantidade de páginas e seções",
@@ -743,8 +743,8 @@
     },
     {
       "verificacao": "Revisão do texto atual",
-      "obtido": "f8409ae24c39d5a3cb0d2dcf983796fcd5dff4b89f812b7ee0545fba32d184c4",
-      "esperado": "f8409ae24c39d5a3cb0d2dcf983796fcd5dff4b89f812b7ee0545fba32d184c4",
+      "obtido": "c0baf131ce40f69b35dc8ec182300f0ce8bec3d52127c3f4e40a53aaefb410d4",
+      "esperado": "c0baf131ce40f69b35dc8ec182300f0ce8bec3d52127c3f4e40a53aaefb410d4",
       "ok": true
     },
     {
@@ -755,8 +755,8 @@
     },
     {
       "verificacao": "Inspeção do PDF atual",
-      "obtido": "dc20e2b22d5b968d9ad9af7d24f4eb643c1d35353caf4ec4caf9244f555c5762",
-      "esperado": "dc20e2b22d5b968d9ad9af7d24f4eb643c1d35353caf4ec4caf9244f555c5762",
+      "obtido": "ca95d4275d5a98f31b359bb802411e6e42ec0c3df231639c61b93c28b5dcb8fd",
+      "esperado": "ca95d4275d5a98f31b359bb802411e6e42ec0c3df231639c61b93c28b5dcb8fd",
       "ok": true
     },
     {
@@ -817,8 +817,8 @@
     },
     {
       "verificacao": "Cenários usam o manuscrito atual",
-      "obtido": "f8409ae24c39d5a3cb0d2dcf983796fcd5dff4b89f812b7ee0545fba32d184c4",
-      "esperado": "f8409ae24c39d5a3cb0d2dcf983796fcd5dff4b89f812b7ee0545fba32d184c4",
+      "obtido": "c0baf131ce40f69b35dc8ec182300f0ce8bec3d52127c3f4e40a53aaefb410d4",
+      "esperado": "c0baf131ce40f69b35dc8ec182300f0ce8bec3d52127c3f4e40a53aaefb410d4",
       "ok": true
     },
     {
@@ -867,11 +867,11 @@
     },
     {
       "pagina": 7,
-      "final_corpo": 463.97
+      "final_corpo": 477.67
     },
     {
       "pagina": 8,
-      "final_corpo": 514.57
+      "final_corpo": 528.27
     },
     {
       "pagina": 9,

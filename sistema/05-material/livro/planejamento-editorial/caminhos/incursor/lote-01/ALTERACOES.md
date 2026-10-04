@@ -232,3 +232,31 @@
 **Depois:** Após rolar o d20 e antes de o alvo escolher entre a Defesa e Bloquear, gaste Fluidez
 
 **Motivo:** Decisão do Mizuki em 04/10/2026 (opção A), achado G3-05 (revisao-interfaces/CORRECOES-APLICADAS.md). Amarra o uso a um passo da Resolução de Regras gerais.
+
+## INC-25 — decisão do autor
+
+**Antes:** **Fluidez + PE · Uma vez por turno seu.**
+
+Depois de confirmar o acerto, / **Fluidez · Uma vez por turno seu.**
+
+Depois de resolver o acerto, gaste Fluidez. / **Fluidez · Uma vez por turno seu.**
+
+Depois de acertar um ataque desarmado, gaste Fluidez.
+
+**Depois:** **Fluidez + PE · Uma vez por turno seu.**
+
+Antes do nível 19, só durante seu turno. Depois de confirmar o acerto, / **Fluidez · Uma vez por turno seu.**
+
+Antes do nível 19, só durante seu turno. Depois de resolver o acerto, gaste Fluidez. / **Fluidez · Uma vez por turno seu.**
+
+Durante seu turno, depois de acertar um ataque desarmado, gaste Fluidez.
+
+**Motivo:** Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G3-02 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D39).
+
+## INC-26 — decisão do autor
+
+**Antes:** uma **arma de uma mão apropriada para arremesso**
+
+**Depois:** uma **arma de uma mão com Longo Alcance de arremesso**
+
+**Motivo:** Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G3-06 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D40).

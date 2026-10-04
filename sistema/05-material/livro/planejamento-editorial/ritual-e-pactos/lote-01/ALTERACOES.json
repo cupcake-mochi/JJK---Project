@@ -229,5 +229,12 @@
     "antes": "Sem treino, a maestria permanece na CD, mas não entra na rolagem: a diferença é de 10 pontos percentuais com maestria 2, 15 com maestria 3 e 20 com maestria 4, enquanto não houver um limite de probabilidade atingido.",
     "depois": "Sem treino, a maestria permanece na CD, mas não entra na rolagem.",
     "motivo": "Pedido do autor em 04/10/2026 (\"Pode remover, qualquer coisa semelhante tbm\"): conta de projetista retirada do livro do jogador (revisao-interfaces/CORRECOES-APLICADAS.md, D19 a D24). A regra fica."
+  },
+  {
+    "id": "RP-34",
+    "tipo": "decisão do autor",
+    "antes": "Técnica Máxima pode receber Ritual completo, preservando seu custo, recarga e resolução.",
+    "depois": "Técnica Máxima pode receber Ritual completo, preservando seu custo, recarga e resolução. Use sua maior Classe como Classe do feitiço no teste, na penalidade de falha e nas Melhorias de Ritual.",
+    "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G5-08 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D34)."
   }
 ]

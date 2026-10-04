@@ -1,5 +1,5 @@
 {
-  "sha256_pdf": "4baacca9419f61e2fe6d796212f75b0e608ef0124554b6aee79f9ac9f8b49f0e",
+  "sha256_pdf": "97c14e7f6898a6444492b06a3f8570a0e9ece46cbc8dd2c8ad1cc22de1a0936d",
   "revisor": "/root",
   "metodo": "Páginas alteradas abertas e inspecionadas. Demais páginas reutilizam inspeção anterior somente por igualdade de pixels, comprovada em COMPARACAO-NOMES-ROOT.json.",
   "sha256_pdf_anterior": "303694b06c92f4e68e1db90ad29d74ed5632faa8585267d0c2aea5f8e147d0c8",
@@ -187,8 +187,11 @@
     {
       "pagina": 31,
       "resultado": "sem defeito visual observado",
-      "metodo": "pixels idênticos à prova inspecionada",
-      "arquivo": "output/comparacao-nomes/depois/pagina-31.png"
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo",
+      "arquivo": null,
+      "observacoes": "Formação Renovada, Mudar a composição com \"invocação recolhida\"; tabela inteira.",
+      "sha256_png": "6765aab057d25ce6d42364a0957eec7646c2355e5ef138d7065842fef98d9f59",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
     },
     {
       "pagina": 32,
@@ -202,5 +205,15 @@
       "metodo": "pixels idênticos à prova inspecionada",
       "arquivo": "output/comparacao-nomes/depois/pagina-33.png"
     }
-  ]
+  ],
+  "revisao_delta_2026_10_04_quinta_passada": {
+    "sha256_pdf_anterior": "4baacca9419f61e2fe6d796212f75b0e608ef0124554b6aee79f9ac9f8b49f0e",
+    "sha256_pdf_atual": "97c14e7f6898a6444492b06a3f8570a0e9ece46cbc8dd2c8ad1cc22de1a0936d",
+    "paginas_alteradas": [
+      31
+    ],
+    "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-04-quinta.json",
+    "metodo": "As páginas alteradas foram abertas; as demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  }
 }

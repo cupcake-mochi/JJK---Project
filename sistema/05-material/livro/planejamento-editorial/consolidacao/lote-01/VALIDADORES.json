@@ -1,7 +1,7 @@
 {
   "status": "Candidata revisada em 04/10/2026 (PR #2): correções de interface, decisões do autor e retirada de contas de projetista; candidata para revisão do usuário e teste de mesa",
-  "sha256_pdf": "42d9207037ed22db62f68af3b9936ba22a8c2887aa097496116b0842784c9095",
-  "sha256_texto": "f2a54d9ff8a12b9ee6160ea2fe698d6bfa636670d3b6d1a18c572f18ef2f3c04",
+  "sha256_pdf": "4ae5931dc24a7ffda17d62460a6a28c9a834d6805fc5e53f7004cd40bb25fae1",
+  "sha256_texto": "f51056f705ab376b1a8038ebef6431a4934ea7823a23667146fcda71f0ad7646",
   "validadores": [
     {
       "id": "V01",
@@ -32,7 +32,7 @@
       "limites": "Texto final comparado com as fontes. Publicação anterior conservada; fontes de pesquisa e adaptação permanecem documentadas por capítulo.",
       "revalidacao_2026_10_04": {
         "estado": "revisto para o PDF atual",
-        "limites": "As 23 fontes conferem com a geração atual; 18 mudaram depois de 03/10 e estão registradas. Publicação v0.331 preservada.",
+        "limites": "As 23 fontes conferem com a geração atual; 19 mudaram depois de 03/10 e estão registradas. Publicação v0.331 preservada.",
         "evidencias": [
           "evidencias/FECHAMENTO-DOS-DONOS.json",
           "evidencias/GERACAO.json"

@@ -538,3 +538,11 @@ A referência genérica a outras capacidades agora indica Energia Reversa e Feri
 ## FU-57 — Média de dano no exemplo de Máxima
 
 Saiu do exemplo Fenda de Arrasto: "Os 24d8 causam média de 108 de dano. Role os dados normalmente." Pedido do autor de 04/10/2026, contas de projetista fora do livro do jogador. Nenhum número de regra mudou.
+
+## FU-58 — decisão do autor
+
+**Antes:** Toque e Aura mantêm seu alcance e origem sem produzir a devolução Média de Corpo a Corpo neste caso.
+
+**Depois:** Toque e Aura mantêm seu alcance e origem sem produzir a devolução Média de Corpo a Corpo neste caso. Essa exigência da Forma não ocupa a vaga da Restrição Leve.
+
+**Motivo:** Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G5-09 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D35).

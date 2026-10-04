@@ -80,6 +80,9 @@ Armas
 Ao escolher esta rota, selecione três categorias de armas diferentes entre as categorias de
 Equipamento. Você recebe uma arma de cada categoria, todas de grau 4, e fica treinado nas três
 categorias, além dos treinos concedidos por outras escolhas.
+Acesso. Escolha qualquer arma da categoria que seu acesso permita. As armas recebidas seguem
+Equipamento restrito: Arma de Fogo exige Grau 2 ou autorização prévia do mestre. Uma arma de fogo
+recebida vem com a munição inicial de uma compra, conforme Munição inicial.
 Você pode executar suas Katas com qualquer arma amaldiçoada de uma dessas categorias, inclusive
 uma obtida depois. Grau 4 permite ferir maldições. Efeitos especiais de graus maiores seguem
 Equipamento amaldiçoado.
@@ -120,8 +123,9 @@ Somente essa ferramenta cumpre o Selo de suas Katas. Ela não possui um dado de 
 seja representada por uma arma do catálogo, use os números daquela arma nos ataques comuns, sem
 acrescentar um segundo dano por ela também ser sua ferramenta.
 Uma ferramenta vestida como armadura ocupa a função de Traje ou Revestimento, com as regras dessa
-categoria. Ela não acrescenta outra camada de proteção. Uma roupa sem proteção continua sendo
-roupa, conforme Equipamento.
+categoria. Os números de Revestimento 2 ou 3 seguem o acesso de Equipamento restrito, salvo
+permissão do mestre. Ela não acrescenta outra camada de proteção. Uma roupa sem proteção continua
+sendo roupa, conforme Equipamento.
 Ataques comuns
 Na criação, registre se seus ataques desarmados passam pelo objeto. Uma manopla, armadura, máscara
 ou bota pode permitir isso. Uma câmera, lanterna ou maleta apenas carregada não faz o mesmo.

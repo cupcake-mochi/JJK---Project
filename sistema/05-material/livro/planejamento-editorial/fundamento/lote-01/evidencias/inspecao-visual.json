@@ -1,6 +1,6 @@
 {
-  "sha256_pdf": "fd0add2ef84633eaaaa7b9f6a23151b473ed5374666fe7cf3f20def3aee80689",
-  "sha256_texto": "107b1610f0bd2393bc5207ec51408bad2440932a7a4cb5f85404d4969f9aca0b",
+  "sha256_pdf": "d0c4ffe270f8271f04d421c7e9cae9217b08f86850391cb33f73597b4f457645",
+  "sha256_texto": "7fc58fa8955f2a4f820906d02d1ed78d5d190e4091f4279ab6c0d0050a9a7f9f",
   "metodo": "Comparação de todas as páginas a85dpi com PDF anterior inspecionado, seguida de abertura real por view_image de todas as diferenças. Evidências anteriores preservadas.",
   "paginas": [
     {
@@ -147,9 +147,10 @@
     {
       "pagina": 21,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Página aberta integralmente por view_image nesta etapa. Texto, tabelas, títulos e margens legíveis, sem cortes ou sobreposições.",
-      "sha256_png": "48d7aff9f5e17f53793cbc3245e11174f4414d8b91bb7f1a792d636099336ed7",
-      "revisor": "/root/maxima"
+      "observacoes": "Classe 0, Uma Melhoria com a frase da Restrição Leve; tabela e exemplo inteiros.",
+      "sha256_png": "e4f72e78ab0fa30b4b2cc5c81732cc4b04384cc2f9075ea82cf09b8860e8f484",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo"
     },
     {
       "pagina": 22,
@@ -226,6 +227,16 @@
       25
     ],
     "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-04-quarta.json",
+    "metodo": "As páginas alteradas foram abertas; as demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "revisao_delta_2026_10_04_quinta_passada": {
+    "sha256_pdf_anterior": "fd0add2ef84633eaaaa7b9f6a23151b473ed5374666fe7cf3f20def3aee80689",
+    "sha256_pdf_atual": "d0c4ffe270f8271f04d421c7e9cae9217b08f86850391cb33f73597b4f457645",
+    "paginas_alteradas": [
+      21
+    ],
+    "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-04-quinta.json",
     "metodo": "As páginas alteradas foram abertas; as demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado.",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
   }

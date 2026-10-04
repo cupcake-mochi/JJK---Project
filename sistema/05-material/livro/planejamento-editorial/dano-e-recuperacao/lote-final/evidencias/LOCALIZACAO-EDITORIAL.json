@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "44c41c7ce33b68d6284fa55b69d7fb43bc6fc28aa3b86c445007cad1dc807fea",
+  "sha256_texto": "4876b7e0bfa863f787e73f75e0325174ee05ef520781f2b0f712a15ad1bf11d1",
   "revisor": "/root",
   "titulos_revisto": true,
   "vocabulario_revisto": true,
@@ -50,5 +50,28 @@
     "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
     "conferido": "Cada trecho trocado foi lido no contexto. Com as exceções desta leitura, o conferir_editorial dá 0 achados no texto anterior e 0 no atual. As frases novas não explicam capacidade de outro dono: citam o procedimento geral ou a seção dona pelo nome. Nenhuma exceção de vocabulário depende de linha nesta unidade."
+  },
+  "revisao_delta_2026_10_04_quinta_passada": {
+    "sha256_anterior": "44c41c7ce33b68d6284fa55b69d7fb43bc6fc28aa3b86c445007cad1dc807fea",
+    "sha256_atual": "4876b7e0bfa863f787e73f75e0325174ee05ef520781f2b0f712a15ad1bf11d1",
+    "mudancas": [
+      {
+        "codigo": "D37",
+        "achado": "G5-07",
+        "secao": "leves",
+        "antes": "Seu deslocamento cai pela metade e você não pode usar Ação Bônus.",
+        "depois": "Seu deslocamento cai pela metade e você não pode usar Ação Bônus. Distâncias concedidas por capacidades, como a de Passo, também caem pela metade."
+      },
+      {
+        "codigo": "D38",
+        "achado": "G1-04",
+        "secao": "zero",
+        "antes": "Estas regras são para personagens jogadores. Inimigos e entidades seguem suas próprias regras de derrota.",
+        "depois": "Estas regras são para personagens jogadores. Entidades seguem Invocações em campo. Um inimigo a zero de vida ou de Integridade é derrotado, e o mestre descreve o desfecho, como morte, fuga ou exorcismo, salvo uma regra da ficha dele."
+      }
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+    "conferido": "Cada trecho trocado foi lido no contexto. Com as exceções desta leitura, o conferir_editorial dá 0 achados no texto anterior e 0 no atual. As frases novas citam a seção dona pelo nome (Equipamento restrito, Munição inicial, Invocações em campo, Trajes). Nenhuma exceção de vocabulário depende de linha nesta unidade."
   }
 }

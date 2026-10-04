@@ -122,6 +122,28 @@ O Mizuki confirmou a Expressão da técnica na Sem Técnica e pediu para tirar a
 
 As peças de `sistema/03-mecanica/` são documentos de projeto e podem manter essas contas. Os capítulos de `livro/manual/` são do jogador e seguem a candidata.
 
+### Quinta passada de 04/10/2026
+
+Os 18 achados restantes foram decididos (`../revisao-interfaces/CORRECOES-APLICADAS.md`, D25 a D41). Os que mudam regra e precisam chegar às peças e ao manual:
+
+| Decisão | Na candidata | Onde conferir na v0.331 |
+|---|---|---|
+| Entidade com alma cai a Integridade zero e só volta com Integridade 1 ou mais | R11-53 | peça 15 e `livro/manual/60-invocacoes.md` |
+| Domada sem recolhimento segue ativo/inativo e conta no total de corpos | R11-54 | peça 15 e `livro/manual/60-invocacoes.md` |
+| Concentração da entidade termina ao recolher, desativar ou cair | R11-55 | peça 15 e `livro/manual/60-invocacoes.md` |
+| Retorno pode ser feito numa troca, recebendo a básica transferida | R11-56, EV28 | `livro/manual/60-invocacoes.md` e `livro/manual/35-caminhos-e-trilhas.md` |
+| Carga da entidade: 5 + Força com o que veste e empunha; talento dentro do limite | R11-57 | peça 15 e `livro/manual/60-invocacoes.md` |
+| Entidade pode preparar deslocamento com o Movimento restante | R11-58 | `livro/manual/60-invocacoes.md` |
+| Inconsciente ou Derrotado encerra a Expansão de Domínio | R08-35 | `livro/manual/40-fundamento.md` (Expansão) |
+| Técnica Marcial segue Equipamento restrito, salvo permissão do mestre | R10-37 | peça 20 e `livro/manual/42-tecnica-marcial.md` |
+| Ritual na Máxima usa a maior Classe | RP-34 | `livro/manual/46-ritual.md` |
+| Classe 0 com Toque ou Aura não ocupa a Restrição Leve | FU-58 | `livro/manual/40-fundamento.md` |
+| Teto de 4 × Classe das especiais sem somar alvos | R12-33 | `livro/manual/60-invocacoes.md` |
+| Lento corta distâncias concedidas | DR34 | peça 01 e `livro/manual/15-dano-e-condicoes.md` |
+| Quebrar o Compasso só no seu turno; Assassino só no seu turno antes do 19 | INC-25 | `livro/manual/35-caminhos-e-trilhas.md` |
+
+Os demais (DR35, INC-26, R11-59, AB24 e R23-32) são texto e ficha, sem regra nova.
+
 ## Ordem proposta
 
 Cada passo fecha com a bateria inteira verde (os 27 validadores de `03-mecanica`, `pac7.py`, `v7.py` e o `conferir-repositorio.py`, com `PULADA=0` conferido) e uma entrada no CHANGELOG. Um passo por versão, para a bateria apontar o culpado quando quebrar.

@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "f8409ae24c39d5a3cb0d2dcf983796fcd5dff4b89f812b7ee0545fba32d184c4",
+  "sha256_texto": "c0baf131ce40f69b35dc8ec182300f0ce8bec3d52127c3f4e40a53aaefb410d4",
   "revisor": "Agente maxima, revisão independente rotas_didatica e revisão final de texto pelo principal",
   "teste_humano": false,
   "limites": "Modelos e leitura documental; não teste de compreensão com pessoas. Visual separado e ainda pendente.",
@@ -254,5 +254,28 @@
     "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
     "conferido": "Trechos trocados relidos: decisão do autor sobre a Expressão da técnica na rota Sem Técnica ou retirada de contas de projetista pedida por ele em 04/10/2026. Nenhuma frase nova além do passo 3 de Sem Técnica; as retiradas não deixam remissão órfã. O restante do texto é idêntico e conserva a leitura anterior."
+  },
+  "revisao_delta_2026_10_04_quinta_passada": {
+    "sha256_anterior": "f8409ae24c39d5a3cb0d2dcf983796fcd5dff4b89f812b7ee0545fba32d184c4",
+    "sha256_atual": "c0baf131ce40f69b35dc8ec182300f0ce8bec3d52127c3f4e40a53aaefb410d4",
+    "mudancas": [
+      {
+        "codigo": "D32",
+        "achado": "G1-06",
+        "secao": "encerramento",
+        "antes": "Seu domínio termina quando a duração acaba, você o desfaz, chega a **0 PV**, perde uma disputa ou uma regra destrói sua barreira.",
+        "depois": "Seu domínio termina quando a duração acaba, você o desfaz, chega a **0 PV**, fica **Inconsciente** ou **Derrotado**, perde uma disputa ou uma regra destrói sua barreira."
+      },
+      {
+        "codigo": "D32",
+        "achado": "G1-06",
+        "secao": "sembarreira",
+        "antes": "o encerramento voluntário e chegar a 0 PV.",
+        "depois": "o encerramento voluntário, chegar a 0 PV e ficar Inconsciente ou Derrotado."
+      }
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+    "conferido": "Trechos trocados relidos: decisões do autor de 04/10/2026 sobre os 18 achados restantes da revisão de interfaces (D25 a D41). Cada frase nova cita a seção dona pelo nome e não copia a regra de outro capítulo. O restante do texto é idêntico e conserva a leitura anterior."
   }
 }

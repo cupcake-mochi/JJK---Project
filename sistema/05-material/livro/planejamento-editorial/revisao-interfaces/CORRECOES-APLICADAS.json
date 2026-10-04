@@ -728,6 +728,300 @@
       ],
       "sha256_antes": "b9ee96c405359f6fe879f55dd972ca8a32cc565c8c318c241be2b73047519d38",
       "sha256_depois": "d059e67ee19cca81de9e3a267e8f86ae0d8c221840ff972803737f5838160d4c"
+    },
+    {
+      "id": "D25",
+      "achados": "G1-03",
+      "arquivo": "invocacoes/lote-01/INVOCACOES-EM-CAMPO.md",
+      "decisao": "Mizuki, 04/10/2026: sugestão aceita.",
+      "trocas": [
+        {
+          "antes": "A zero de vida, a entidade para de atuar. Se puder ser recolhida, sai de campo. Caso contrário, permanece no lugar como **Desligada**. Confira primeiro se o dano a destruiu.",
+          "depois": "A zero de vida, a entidade para de atuar. Se puder ser recolhida, sai de campo. Caso contrário, permanece no lugar como **Desligada**. Confira primeiro se o dano a destruiu.\n\n**Integridade a zero.** Uma entidade com alma que chega a zero de Integridade cai sem ser destruída, como a zero de vida. O retorno exige pelo menos 1 de Integridade, que volta pelo descanso longo ou por uma capacidade que restaure Integridade. Os estágios de Integridade também valem para ela: o PE adicional e o teto de Classe se aplicam às especiais que ela executa."
+        }
+      ],
+      "sha256_antes": "d059e67ee19cca81de9e3a267e8f86ae0d8c221840ff972803737f5838160d4c",
+      "sha256_depois": "921eaa0e87b33485d21c7971505f6240442808ed4dcfae46b53a6fe357ed88de"
+    },
+    {
+      "id": "D26",
+      "achados": "G2-02",
+      "arquivo": "invocacoes/lote-01/INVOCACOES-EM-CAMPO.md",
+      "decisao": "Mizuki, 04/10/2026: sugestão aceita.",
+      "trocas": [
+        {
+          "antes": "Corpos amaldiçoados não são recolhidos, sejam de técnica ou de criação. Ficam **ativos ou inativos** no mundo. A zero de vida, passam a Desligada, que tem outras regras.",
+          "depois": "Corpos amaldiçoados não são recolhidos, sejam de técnica ou de criação. Ficam **ativos ou inativos** no mundo. A zero de vida, passam a Desligada, que tem outras regras. Uma domada sem meio de recolhimento segue este modo e entra no total abaixo."
+        }
+      ],
+      "sha256_antes": "7d61bfa38827cfe371e6a0292fe67c342a2ad5f6dfa34e72fd50b803ef8a1250",
+      "sha256_depois": "c2ee493ae0017537c8737896fd53a15217138ba7e69331255d818092519420c2"
+    },
+    {
+      "id": "D27",
+      "achados": "G2-05",
+      "arquivo": "invocacoes/lote-01/INVOCACOES-EM-CAMPO.md",
+      "decisao": "Mizuki, 04/10/2026: sugestão aceita.",
+      "trocas": [
+        {
+          "antes": "Uma especial que exija Concentração é sustentada pela entidade executora. Ela usa seu próprio TR quando sofre dano, seguindo Concentração.",
+          "depois": "Uma especial que exija Concentração é sustentada pela entidade executora. Ela usa seu próprio TR quando sofre dano, seguindo Concentração. Recolher, desativar ou cair a zero encerra essa concentração."
+        }
+      ],
+      "sha256_antes": "7dde204c71830ab7a20ab40f1bf94a9f77c21fe50481ad5375fb3496c4dd37e7",
+      "sha256_depois": "744364c65711f5de3a97fe86c05f4bcf7307a20e9051f1ac12eec176c07f3929"
+    },
+    {
+      "id": "D28",
+      "achados": "G2-06",
+      "arquivo": "invocacoes/lote-01/INVOCACOES-EM-CAMPO.md",
+      "decisao": "Mizuki, 04/10/2026: sugestão aceita.",
+      "trocas": [
+        {
+          "antes": "Na troca, uma entidade sai e outra entra pagando a Bônus e o PE da entrada. A substituta ocupa o lugar de quem saiu.",
+          "depois": "Na troca, uma entidade sai e outra entra pagando a Bônus e o PE da entrada. A substituta ocupa o lugar de quem saiu. Ela pode ser uma entidade caída: nesse caso, pague o retorno no lugar da entrada."
+        },
+        {
+          "antes": "Respeite espaço, teto de ativos e recursos já gastos. O retorno não fornece básica.",
+          "depois": "Respeite espaço, teto de ativos e recursos já gastos. O retorno não cria uma básica própria. Feito numa troca, ainda permite receber a básica transferida."
+        }
+      ],
+      "sha256_antes": "744364c65711f5de3a97fe86c05f4bcf7307a20e9051f1ac12eec176c07f3929",
+      "sha256_depois": "2003ab6536de4fd75bd6a50bd182ff638df5e94359764ab3213884ae19781b73"
+    },
+    {
+      "id": "D29",
+      "achados": "G2-07, G4-10",
+      "arquivo": "invocacoes/lote-01/INVOCACOES-EM-CAMPO.md",
+      "decisao": "Mizuki, 04/10/2026: sugestão aceita.",
+      "trocas": [
+        {
+          "antes": "Transportar carga adicional ou personagens exige uma característica própria, compatível com a definição da entidade, que ocupe **um de seus talentos**. Armazenamento usa capacidade de **5 + Força da entidade em Volume**.",
+          "depois": "Uma entidade segue o limite geral de carga de **5 + Força**, em Volume: o que ela veste, empunha ou leva conta nele. Transportar carga adicional ou personagens exige uma característica própria, compatível com a definição da entidade, que ocupe **um de seus talentos**. O armazenamento e os passageiros cabem nesse mesmo limite."
+        },
+        {
+          "antes": "Uma Força alta não oferece armazenamento por si. Uma entidade de Força 3 com esse talento comporta 8 de Volume. Sem o talento, fica limitada ao que pode segurar e ao equipamento que pode vestir.",
+          "depois": "Uma Força alta não oferece armazenamento por si. Uma entidade de Força 3 com esse talento comporta 8 de Volume, somando o que veste e empunha. Sem o talento, fica limitada ao que pode segurar e ao equipamento que pode vestir, dentro do mesmo limite."
+        }
+      ],
+      "sha256_antes": "2003ab6536de4fd75bd6a50bd182ff638df5e94359764ab3213884ae19781b73",
+      "sha256_depois": "a6f23d1d3cf985510a78da0a1464f209c09093a773fe10541961306ac6e2e109"
+    },
+    {
+      "id": "D30",
+      "achados": "G2-08",
+      "arquivo": "invocacoes/lote-01/INVOCACOES-EM-CAMPO.md",
+      "decisao": "Mizuki, 04/10/2026: sugestão aceita.",
+      "trocas": [
+        {
+          "antes": "No seu turno, uma entidade pode gastar a básica para preparar uma ação que caiba na tarefa recebida.",
+          "depois": "No seu turno, uma entidade pode gastar a básica para preparar uma ação que caiba na tarefa recebida. Ela também pode preparar um deslocamento, que usa o Movimento que ainda lhe resta e não concede metros novos."
+        }
+      ],
+      "sha256_antes": "a6f23d1d3cf985510a78da0a1464f209c09093a773fe10541961306ac6e2e109",
+      "sha256_depois": "fdb4a18e9ca8f6b5cc22ba7272d8ab1f7c30045180aae44a7229ed763b9cdbc4"
+    },
+    {
+      "id": "D31",
+      "achados": "G2-10",
+      "arquivo": "caminhos/evocador/lote-01/EVOCADOR.md, invocacoes/lote-01/INVOCACOES-EM-CAMPO.md",
+      "decisao": "Mizuki, 04/10/2026: sugestão aceita.",
+      "trocas": [
+        {
+          "antes": "devolvê-la à reserva e trazer o cão",
+          "depois": "recolhê-la e trazer o cão"
+        },
+        {
+          "antes": "O mesmo acompanhamento impede que a reserva se torne um local de recuperação sem custo.",
+          "depois": "O mesmo acompanhamento impede que ficar recolhida se torne um meio de recuperação sem custo."
+        },
+        {
+          "antes": "substitua-a por uma reserva apropriada",
+          "depois": "substitua-a por uma invocação recolhida apropriada"
+        },
+        {
+          "antes": "A reserva não permite sacar equipamento de uma criatura ausente.",
+          "depois": "Estar recolhida não permite sacar equipamento de uma criatura ausente."
+        }
+      ],
+      "sha256_antes": "fdb4a18e9ca8f6b5cc22ba7272d8ab1f7c30045180aae44a7229ed763b9cdbc4",
+      "sha256_depois": "c0482965c234fc289822b26be94afaadbc0743c515166fa308fe8ee065d3711b"
+    },
+    {
+      "id": "D32",
+      "achados": "G1-06",
+      "arquivo": "poderes-avancados/lote-01/PODERES-AVANCADOS.md",
+      "decisao": "Mizuki, 04/10/2026: sugestão aceita.",
+      "trocas": [
+        {
+          "antes": "Seu domínio termina quando a duração acaba, você o desfaz, chega a **0 PV**, perde uma disputa ou uma regra destrói sua barreira.",
+          "depois": "Seu domínio termina quando a duração acaba, você o desfaz, chega a **0 PV**, fica **Inconsciente** ou **Derrotado**, perde uma disputa ou uma regra destrói sua barreira."
+        },
+        {
+          "antes": "o encerramento voluntário e chegar a 0 PV.",
+          "depois": "o encerramento voluntário, chegar a 0 PV e ficar Inconsciente ou Derrotado."
+        }
+      ],
+      "sha256_antes": "f8409ae24c39d5a3cb0d2dcf983796fcd5dff4b89f812b7ee0545fba32d184c4",
+      "sha256_depois": "c0baf131ce40f69b35dc8ec182300f0ce8bec3d52127c3f4e40a53aaefb410d4"
+    },
+    {
+      "id": "D33",
+      "achados": "G4-06",
+      "arquivo": "rotas/lote-01/ROTAS.md",
+      "decisao": "Mizuki, 04/10/2026: sugestão aceita (\"permissão do mestre pode conceder\").",
+      "trocas": [
+        {
+          "antes": "Você recebe uma arma de cada categoria, todas de **grau 4**, e fica treinado nas três categorias, além dos treinos concedidos por outras escolhas.",
+          "depois": "Você recebe uma arma de cada categoria, todas de **grau 4**, e fica treinado nas três categorias, além dos treinos concedidos por outras escolhas.\n\n**Acesso.** Escolha qualquer arma da categoria que seu acesso permita. As armas recebidas seguem **Equipamento restrito**: Arma de Fogo exige Grau 2 ou autorização prévia do mestre. Uma arma de fogo recebida vem com a munição inicial de uma compra, conforme **Munição inicial**."
+        },
+        {
+          "antes": "Uma ferramenta vestida como armadura ocupa a função de **Traje ou Revestimento**, com as regras dessa categoria.",
+          "depois": "Uma ferramenta vestida como armadura ocupa a função de **Traje ou Revestimento**, com as regras dessa categoria. Os números de Revestimento 2 ou 3 seguem o acesso de **Equipamento restrito**, salvo permissão do mestre."
+        }
+      ],
+      "sha256_antes": "692a4f70bd144ccb5c7760c303162842fe0e29bdcb712843bc3f7947f2eaa4b6",
+      "sha256_depois": "99c04d78b0d7ac7bff72a75ebb03cd103330f6a84c79aeecf24871f6975456ae"
+    },
+    {
+      "id": "D34",
+      "achados": "G5-08",
+      "arquivo": "ritual-e-pactos/lote-01/RITUAL-E-PACTOS.md",
+      "decisao": "Mizuki, 04/10/2026: sugestão aceita.",
+      "trocas": [
+        {
+          "antes": "Técnica Máxima pode receber Ritual completo, preservando seu custo, recarga e resolução.",
+          "depois": "Técnica Máxima pode receber Ritual completo, preservando seu custo, recarga e resolução. Use sua maior Classe como Classe do feitiço no teste, na penalidade de falha e nas Melhorias de Ritual."
+        }
+      ],
+      "sha256_antes": "d426344dac979f614ca77e1380bcb1c8d52629d410d4cba5fe1cbf2b2cc4f372",
+      "sha256_depois": "e1928ed6f9ee9ccc246817333c5486428c37bb2b6840e11b610f979dcda65707"
+    },
+    {
+      "id": "D35",
+      "achados": "G5-09",
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "decisao": "Mizuki, 04/10/2026: sugestão aceita.",
+      "trocas": [
+        {
+          "antes": "Toque e Aura mantêm seu alcance e origem sem produzir a devolução Média de Corpo a Corpo neste caso.",
+          "depois": "Toque e Aura mantêm seu alcance e origem sem produzir a devolução Média de Corpo a Corpo neste caso. Essa exigência da Forma não ocupa a vaga da Restrição Leve."
+        }
+      ],
+      "sha256_antes": "107b1610f0bd2393bc5207ec51408bad2440932a7a4cb5f85404d4969f9aca0b",
+      "sha256_depois": "7fc58fa8955f2a4f820906d02d1ed78d5d190e4091f4279ab6c0d0050a9a7f9f"
+    },
+    {
+      "id": "D36",
+      "achados": "G5-05",
+      "arquivo": "invocacoes/lote-02/CONSTRUIR-INVOCACOES.md",
+      "decisao": "Mizuki, 04/10/2026: sugestão aceita (lembrando que feitiços do personagem são mais fortes que os das invocações).",
+      "trocas": [
+        {
+          "antes": "Somando alvos adicionais e repetições, conserve o **teto geral de 4 × Classe**.",
+          "depois": "Some os dados iniciais e os adicionais da montagem uma vez, sem multiplicar pelo número de criaturas na área. O total não passa de **4 × Classe**."
+        }
+      ],
+      "sha256_antes": "a4c48e8a12c39294745c4f575e4db9564c99f8ee83a102a3014ea8188e48a6eb",
+      "sha256_depois": "6f91d9f509a0abbd04912354a51b4f075310ebd79ff07f2b7ecb522bc174a3d2"
+    },
+    {
+      "id": "D37",
+      "achados": "G5-07",
+      "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+      "decisao": "Mizuki, 04/10/2026: sugestão aceita.",
+      "trocas": [
+        {
+          "antes": "Seu deslocamento cai pela metade e você não pode usar Ação Bônus.",
+          "depois": "Seu deslocamento cai pela metade e você não pode usar Ação Bônus. Distâncias concedidas por capacidades, como a de Passo, também caem pela metade."
+        }
+      ],
+      "sha256_antes": "44c41c7ce33b68d6284fa55b69d7fb43bc6fc28aa3b86c445007cad1dc807fea",
+      "sha256_depois": "9cfe5e77b8743a85ae730251e761b09af499000042b98e69553ff4399c2440d8"
+    },
+    {
+      "id": "D38",
+      "achados": "G1-04",
+      "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+      "decisao": "Mizuki, 04/10/2026: sugestão aceita.",
+      "trocas": [
+        {
+          "antes": "Estas regras são para personagens jogadores. Inimigos e entidades seguem suas próprias regras de derrota.",
+          "depois": "Estas regras são para personagens jogadores. Entidades seguem Invocações em campo. Um inimigo a zero de vida ou de Integridade é derrotado, e o mestre descreve o desfecho, como morte, fuga ou exorcismo, salvo uma regra da ficha dele."
+        }
+      ],
+      "sha256_antes": "9cfe5e77b8743a85ae730251e761b09af499000042b98e69553ff4399c2440d8",
+      "sha256_depois": "4876b7e0bfa863f787e73f75e0325174ee05ef520781f2b0f712a15ad1bf11d1"
+    },
+    {
+      "id": "D39",
+      "achados": "G3-02",
+      "arquivo": "caminhos/incursor/lote-01/INCURSOR.md",
+      "decisao": "Mizuki, 04/10/2026: sugestão aceita.",
+      "trocas": [
+        {
+          "antes": "**Fluidez + PE · Uma vez por turno seu.**\n\nDepois de confirmar o acerto,",
+          "depois": "**Fluidez + PE · Uma vez por turno seu.**\n\nAntes do nível 19, só durante seu turno. Depois de confirmar o acerto,"
+        },
+        {
+          "antes": "**Fluidez · Uma vez por turno seu.**\n\nDepois de resolver o acerto, gaste Fluidez.",
+          "depois": "**Fluidez · Uma vez por turno seu.**\n\nAntes do nível 19, só durante seu turno. Depois de resolver o acerto, gaste Fluidez."
+        },
+        {
+          "antes": "**Fluidez · Uma vez por turno seu.**\n\nDepois de acertar um ataque desarmado, gaste Fluidez.",
+          "depois": "**Fluidez · Uma vez por turno seu.**\n\nDurante seu turno, depois de acertar um ataque desarmado, gaste Fluidez."
+        }
+      ],
+      "sha256_antes": "2d9a8395eb486ee0afee78234c8c0ad3e2fd6314ebface6788b6842d85a53268",
+      "sha256_depois": "dee8dedabbdb28fa0a76db9703965f2974f82d51c0fd41f761ab431283d0b106"
+    },
+    {
+      "id": "D40",
+      "achados": "G3-06",
+      "arquivo": "caminhos/incursor/lote-01/INCURSOR.md",
+      "decisao": "Mizuki, 04/10/2026: sugestão aceita.",
+      "trocas": [
+        {
+          "antes": "uma **arma de uma mão apropriada para arremesso**",
+          "depois": "uma **arma de uma mão com Longo Alcance de arremesso**"
+        }
+      ],
+      "sha256_antes": "dee8dedabbdb28fa0a76db9703965f2974f82d51c0fd41f761ab431283d0b106",
+      "sha256_depois": "f611d4df6ac364a9655e7531f0927a5ecf924555e1097bd402db6db45b7a2513"
+    },
+    {
+      "id": "D41",
+      "achados": "G4-11",
+      "arquivo": "abertura/lote-01/ABERTURA-E-CRIACAO.md, consulta/lote-01/CONSULTA.md",
+      "decisao": "Mizuki, 04/10/2026: sugestão aceita.",
+      "trocas": [
+        {
+          "antes": "| 5. Equipamento | Receba o uniforme e faça suas compras. |",
+          "depois": "| 5. Equipamento | Receba o uniforme, faça as escolhas do Traje e faça suas compras. |"
+        },
+        {
+          "antes": "Na criação padrão, você recebe **um Traje 1 e ¥150.000** para comprar os demais itens.",
+          "depois": "Na criação padrão, você recebe **um Traje 1 e ¥150.000** para comprar os demais itens. Registre a situação, o tipo de TR e as perícias do Traje, conforme Trajes, em Equipamento."
+        },
+        {
+          "antes": "- **Inventário:** uniforme, compras,",
+          "depois": "- **Inventário:** uniforme com a situação, o TR e as perícias do Traje, compras,"
+        },
+        {
+          "antes": "| Item e quantidade | Volume total | Situação e recursos |",
+          "depois": "| Item e quantidade | Volume total | Posição e recursos |"
+        },
+        {
+          "antes": "**Volume carregado / limite:** ______ / ______ **Dinheiro:** __________________",
+          "depois": "**Volume carregado / limite:** ______ / ______ **Dinheiro:** __________________\n\n**Traje — situação, TR e perícias:** ________________________________________"
+        },
+        {
+          "antes": "| __________________ | ______ | Vestido, empunhado ou guardado: __________________ |",
+          "depois": "| __________________ | ______ | Vestido, empunhado ou guardado: __________ |"
+        }
+      ],
+      "sha256_antes": "6778c50063b3549bce9e8e5c02961ec2aec0a803ceff75844e68fe9d7729bd1e",
+      "sha256_depois": "279351e084412734977e739a88b06a4142f452d02a21e3cb4c229c0ba7220115"
     }
   ]
 }

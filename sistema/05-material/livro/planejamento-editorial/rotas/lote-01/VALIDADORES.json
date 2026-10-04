@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "692a4f70bd144ccb5c7760c303162842fe0e29bdcb712843bc3f7947f2eaa4b6",
+  "sha256_texto": "99c04d78b0d7ac7bff72a75ebb03cd103330f6a84c79aeecf24871f6975456ae",
   "protocolo": "../../validacao-editorial/PROTOCOLO-COMPLETO.md",
   "validadores": [
     {
@@ -144,7 +144,7 @@
     "Revisão conjunta de Morrendo e Integridade",
     "Consolidação de nomes, progressão e remissões no livro completo"
   ],
-  "sha256_pdf": "c0d1ad3f885f0b2e27edd4e5a3166dba0ca4eba5d8a66e02a6ef956db760921b",
+  "sha256_pdf": "1afd048909e1044652279e67861eedfea9e6b59d4f3a4ef4124d3a4e2d17b9e1",
   "sincronizacao_final": {
     "relatorio": "evidencias/SINCRONIZACAO-FINAL.md",
     "casos": "evidencias/SINCRONIZACAO-FINAL.json",
@@ -183,7 +183,7 @@
       "revisao-interfaces/CORRECOES-APLICADAS.md"
     ],
     "pdf_vigente": "consolidacao/lote-01/output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
-    "sha256_pdf_vigente": "42d9207037ed22db62f68af3b9936ba22a8c2887aa097496116b0842784c9095",
+    "sha256_pdf_vigente": "4ae5931dc24a7ffda17d62460a6a28c9a834d6805fc5e53f7004cd40bb25fae1",
     "escopo": "V01–V12 seguem as revisões registradas, renovadas por delta nas evidências da unidade (blocos revisao_delta_2026_10_04 e revisao_delta_2026_10_04_decisoes, quando houver) e no conferir.py verde. V13–V15 do livro estão em consolidacao/lote-01, com a inspeção visual encadeada em FINAL-V14.json. A prova individual corresponde ao texto atual.",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
   },
@@ -201,6 +201,22 @@
       "revisao-interfaces/CORRECOES-APLICADAS.md"
     ],
     "escopo": "Quarta passada de 04/10/2026 (D18 a D24). V01–V12 seguem as revisões registradas, renovadas por delta no bloco revisao_delta_2026_10_04_quarta_passada das evidências da unidade e no conferir.py verde. V13–V15 do livro estão em consolidacao/lote-01.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "revalidacao_2026_10_04_quinta_passada": {
+    "sha256_texto_anterior": "692a4f70bd144ccb5c7760c303162842fe0e29bdcb712843bc3f7947f2eaa4b6",
+    "sha256_pdf_anterior": "c0d1ad3f885f0b2e27edd4e5a3166dba0ca4eba5d8a66e02a6ef956db760921b",
+    "sha256_texto": "99c04d78b0d7ac7bff72a75ebb03cd103330f6a84c79aeecf24871f6975456ae",
+    "sha256_pdf": "1afd048909e1044652279e67861eedfea9e6b59d4f3a4ef4124d3a4e2d17b9e1",
+    "conferencia": {
+      "arquivo": "CONFERENCIA.json",
+      "ok": true,
+      "verificacoes": 185
+    },
+    "registros": [
+      "revisao-interfaces/CORRECOES-APLICADAS.md"
+    ],
+    "escopo": "Quinta passada de 04/10/2026 (D25 a D41). V01–V12 seguem as revisões registradas, renovadas por delta no bloco revisao_delta_2026_10_04_quinta_passada das evidências da unidade e no conferir.py verde. V13–V15 do livro estão em consolidacao/lote-01.",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
   }
 }

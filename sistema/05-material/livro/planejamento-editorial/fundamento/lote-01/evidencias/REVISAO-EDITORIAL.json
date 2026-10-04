@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "107b1610f0bd2393bc5207ec51408bad2440932a7a4cb5f85404d4969f9aca0b",
+  "sha256_texto": "7fc58fa8955f2a4f820906d02d1ed78d5d190e4091f4279ab6c0d0050a9a7f9f",
   "revisor": "Agente principal, após três auditorias independentes por modelos",
   "teste_humano": false,
   "limites": "Leitura editorial documentada não demonstra compreensão de jogadores reais. Relatórios de agentes registram snapshots anteriores e suas ressalvas.",
@@ -155,5 +155,21 @@
     "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
     "conferido": "Trechos trocados relidos: decisão do autor sobre a Expressão da técnica na rota Sem Técnica ou retirada de contas de projetista pedida por ele em 04/10/2026. Nenhuma frase nova além do passo 3 de Sem Técnica; as retiradas não deixam remissão órfã. O restante do texto é idêntico e conserva a leitura anterior."
+  },
+  "revisao_delta_2026_10_04_quinta_passada": {
+    "sha256_anterior": "107b1610f0bd2393bc5207ec51408bad2440932a7a4cb5f85404d4969f9aca0b",
+    "sha256_atual": "7fc58fa8955f2a4f820906d02d1ed78d5d190e4091f4279ab6c0d0050a9a7f9f",
+    "mudancas": [
+      {
+        "codigo": "D35",
+        "achado": "G5-09",
+        "secao": "classe0",
+        "antes": "Toque e Aura mantêm seu alcance e origem sem produzir a devolução Média de Corpo a Corpo neste caso.",
+        "depois": "Toque e Aura mantêm seu alcance e origem sem produzir a devolução Média de Corpo a Corpo neste caso. Essa exigência da Forma não ocupa a vaga da Restrição Leve."
+      }
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+    "conferido": "Trechos trocados relidos: decisões do autor de 04/10/2026 sobre os 18 achados restantes da revisão de interfaces (D25 a D41). Cada frase nova cita a seção dona pelo nome e não copia a regra de outro capítulo. O restante do texto é idêntico e conserva a leitura anterior."
   }
 }

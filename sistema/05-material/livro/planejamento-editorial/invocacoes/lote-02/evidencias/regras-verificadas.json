@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "sha256_texto": "a4c48e8a12c39294745c4f575e4db9564c99f8ee83a102a3014ea8188e48a6eb",
+  "sha256_texto": "6f91d9f509a0abbd04912354a51b4f075310ebd79ff07f2b7ecb522bc174a3d2",
   "casos_raciocinados": "casos-raciocinados.json",
   "auditoria": "../AUDITORIA.json",
   "revisao_delta_2026_10_04": {

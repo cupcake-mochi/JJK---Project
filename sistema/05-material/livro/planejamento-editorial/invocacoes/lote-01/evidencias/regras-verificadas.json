@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "sha256_texto": "d059e67ee19cca81de9e3a267e8f86ae0d8c221840ff972803737f5838160d4c",
+  "sha256_texto": "c0482965c234fc289822b26be94afaadbc0743c515166fa308fe8ee065d3711b",
   "revisor": "subagente maxima",
   "cobertura": "COBERTURA.json",
   "decisoes": "../ALTERACOES.json",
@@ -29,6 +29,12 @@
     "sha256_anterior": "b9ee96c405359f6fe879f55dd972ca8a32cc565c8c318c241be2b73047519d38",
     "auditoria_reexecutada": "evidencias/auditoria-numerica.json",
     "resultado": "ok, 176 verificações; o exemplo da Máxima da domada só perdeu a média de cura (D24). Fórmulas e procedimentos invariantes.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "revisao_delta_2026_10_04_quinta_passada": {
+    "sha256_anterior": "d059e67ee19cca81de9e3a267e8f86ae0d8c221840ff972803737f5838160d4c",
+    "auditoria_reexecutada": "evidencias/auditoria-numerica.json",
+    "resultado": "ok; decisões D25 a D31 relidas no contexto. Fórmulas e procedimentos invariantes; a carga e a Integridade da entidade ganharam regra escrita.",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
   }
 }

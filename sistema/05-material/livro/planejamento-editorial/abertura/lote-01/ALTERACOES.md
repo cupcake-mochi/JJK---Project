@@ -176,3 +176,11 @@ PV,PE e CD agora são expandidos na primeira ocorrência. A lista final diz trei
 ## Remissões finais
 
 - REM11: Durante a sessão, consulte os capítulos pelo assunto: Testes, Movimento, Combate, Dano e recuperação ou Equipamento. → Durante a sessão, consulte Regras gerais para testes, movimento e ataques, Dano e recuperação para as consequências e Equipamento para os itens. Motivo: Correção localizada aprovada pela raiz após auditoria de remissões; mantém mecânica e valores.
+
+## AB24 — decisão do autor
+
+**Antes:** | 5. Equipamento | Receba o uniforme e faça suas compras. | / Na criação padrão, você recebe **um Traje 1 e ¥150.000** para comprar os demais itens. / - **Inventário:** uniforme, compras,
+
+**Depois:** | 5. Equipamento | Receba o uniforme, faça as escolhas do Traje e faça suas compras. | / Na criação padrão, você recebe **um Traje 1 e ¥150.000** para comprar os demais itens. Registre a situação, o tipo de TR e as perícias do Traje, conforme Trajes, em Equipamento. / - **Inventário:** uniforme com a situação, o TR e as perícias do Traje, compras,
+
+**Motivo:** Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G4-11 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D41).

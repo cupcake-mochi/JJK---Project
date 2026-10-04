@@ -20,7 +20,7 @@ Cada relatório traz, por achado, os dois trechos que não fecham, o problema, u
 
 51 achados. 17 corrigidos na primeira passada e 2 corrigidos em parte, todos do tipo "nome, custo ou remissão divergindo de uma regra já aprovada em outro capítulo". Seis dessas correções (C01, C07, C09, C10, C13 e C14) mudam o resultado na mesa para quem lia só o capítulo corrigido; `CORRECOES-APLICADAS.md` diz o que muda em cada uma. Contra a `v0.331` dos jogadores, só a C14 muda regra; as outras cinco devolvem o que ela já dizia. Na segunda passada, o Mizuki decidiu 4 (G2-03, G2-04, G3-07 e G4-01), e as decisões foram aplicadas.
 
-Na terceira passada, também em 04/10, ele decidiu mais 9 (G1-02, G1-05, G1-07, G3-03, G3-04, G3-05, G4-07, G5-02 e G5-10), aplicadas de D05 a D12. Os verbetes de índice (D13) completaram G2-09 e G4-12 e resolveram G5-11. Ficam **18**, porque pedem uma decisão de regra, de nome ou de redação, ou porque falta escrever uma regra que nenhum capítulo tem.
+Na terceira passada, também em 04/10, ele decidiu mais 9 (G1-02, G1-05, G1-07, G3-03, G3-04, G3-05, G4-07, G5-02 e G5-10), aplicadas de D05 a D12. Os verbetes de índice (D13) completaram G2-09 e G4-12 e resolveram G5-11. Ficaram 18, que pediam decisão de regra, de nome ou de redação. Foram decididos na quinta passada (D25 a D41).
 
 No mesmo lote, a pedido do Mizuki, saíram do livro do jogador as projeções de projetista (D14 a D17). Elas não eram achados desta revisão.
 
@@ -30,17 +30,9 @@ O antes, o depois e o motivo de cada correção estão em `CORRECOES-APLICADAS.m
 
 ## O que precisa do Mizuki
 
-Ordenado pelo peso em mesa. As decisões de 04/10 já estão aplicadas e saíram desta lista.
+Nada da revisão de interfaces. Na quinta passada, ainda em 04/10, ele respondeu aos 18 achados que faltavam (G1-03, G1-04, G1-06, G2-02, G2-05, G2-06, G2-07, G2-08, G2-10, G3-02, G3-06, G4-06, G4-10, G4-11, G5-05, G5-07, G5-08 e G5-09), aceitando a sugestão em todos. As trocas são D25 a D41, em `CORRECOES-APLICADAS.md`.
 
-1. **Lacunas das entidades em campo (G1-03, G2-02, G2-05, G2-06, G2-07, G2-08, G4-10).** Entidade a Integridade zero, domada que não pode ser recolhida, concentração quando a entidade sai ou cai, retorno numa troca, carga e montaria, preparar deslocamento. Todas moram em Invocações em campo e podem ser decididas numa rodada só. G1-03 também toca a revisão adiada de Morrendo.
-2. **G1-06 · Expansão de Domínio de um dono Derrotado ou Inconsciente.** Se ficar fora de ação encerra o domínio.
-3. **G4-06 · Armas e ferramenta de grau 4 recebidas pela rota.** Acesso, munição inicial e qual peça da categoria.
-4. **G5-08 e G5-09 · Ritual sobre Técnica Máxima e Classe 0 com Toque ou Aura.** Que Classe usar no Ritual; se Corpo a Corpo ocupa a única Restrição Leve.
-5. **G5-05 e G5-07 · Alinhar Construir invocações e Condições a FU-27 e FU-26.** As duas decisões do Fundamento constam como candidatas; falta o Mizuki confirmar que os outros capítulos as seguem.
-6. **G3-02, G3-06, G2-10, G4-11 e G1-04 · Ajustes pequenos.** "Uma vez por turno seu" fora do turno, o termo de arremesso de Trajetória Perfeita, os dois sentidos de "reserva", as escolhas do Traje na criação e onde ficam as regras de derrota dos inimigos.
-
-
-Os casos de mesa que medem as lacunas abertas estão nos casos-sonda de `../testes-com-leitores/CASOS-SONDA.md`.
+Os 51 achados estão resolvidos: 19 por correção de divergência clara e os demais por decisão do autor ou pelos verbetes do índice. O que sobra para a candidata é fora desta revisão: teste com leitores, playtest e migração.
 
 ## Todos os achados
 

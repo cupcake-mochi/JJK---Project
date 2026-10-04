@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "2d9a8395eb486ee0afee78234c8c0ad3e2fd6314ebface6788b6842d85a53268",
+  "sha256_texto": "f611d4df6ac364a9655e7531f0927a5ecf924555e1097bd402db6db45b7a2513",
   "secoes": [
     {
       "ancora": "inc-caminho",
@@ -331,5 +331,42 @@
     "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
     "conferido": "Trechos trocados relidos: decisões do autor de 04/10/2026, retirada de projeções pedida por ele ou verbetes de índice. O restante do texto é idêntico e conserva a leitura anterior."
+  },
+  "revisao_delta_2026_10_04_quinta_passada": {
+    "sha256_anterior": "2d9a8395eb486ee0afee78234c8c0ad3e2fd6314ebface6788b6842d85a53268",
+    "sha256_atual": "f611d4df6ac364a9655e7531f0927a5ecf924555e1097bd402db6db45b7a2513",
+    "mudancas": [
+      {
+        "codigo": "D39",
+        "achado": "G3-02",
+        "secao": "inc-cirurgico",
+        "antes": "**Fluidez + PE · Uma vez por turno seu.**\n\nDepois de confirmar o acerto,",
+        "depois": "**Fluidez + PE · Uma vez por turno seu.**\n\nAntes do nível 19, só durante seu turno. Depois de confirmar o acerto,"
+      },
+      {
+        "codigo": "D39",
+        "achado": "G3-02",
+        "secao": "inc-fuga",
+        "antes": "**Fluidez · Uma vez por turno seu.**\n\nDepois de resolver o acerto, gaste Fluidez.",
+        "depois": "**Fluidez · Uma vez por turno seu.**\n\nAntes do nível 19, só durante seu turno. Depois de resolver o acerto, gaste Fluidez."
+      },
+      {
+        "codigo": "D39",
+        "achado": "G3-02",
+        "secao": "inc-compasso",
+        "antes": "**Fluidez · Uma vez por turno seu.**\n\nDepois de acertar um ataque desarmado, gaste Fluidez.",
+        "depois": "**Fluidez · Uma vez por turno seu.**\n\nDurante seu turno, depois de acertar um ataque desarmado, gaste Fluidez."
+      },
+      {
+        "codigo": "D40",
+        "achado": "G3-06",
+        "secao": "inc-trajetoria",
+        "antes": "uma **arma de uma mão apropriada para arremesso**",
+        "depois": "uma **arma de uma mão com Longo Alcance de arremesso**"
+      }
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+    "conferido": "Trechos trocados relidos: decisões do autor de 04/10/2026 sobre os 18 achados restantes da revisão de interfaces (D25 a D41). Cada frase nova cita a seção dona pelo nome e não copia a regra de outro capítulo. O restante do texto é idêntico e conserva a leitura anterior."
   }
 }

@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "sha256_texto": "692a4f70bd144ccb5c7760c303162842fe0e29bdcb712843bc3f7947f2eaa4b6",
+  "sha256_texto": "99c04d78b0d7ac7bff72a75ebb03cd103330f6a84c79aeecf24871f6975456ae",
   "casos": [
     {
       "teste": "IDs únicos",
@@ -50,11 +50,11 @@
         },
         {
           "id": "rota-armas",
-          "palavras": 289
+          "palavras": 332
         },
         {
           "id": "rota-ferramenta",
-          "palavras": 291
+          "palavras": 308
         },
         {
           "id": "rota-passivas-marciais",

@@ -341,3 +341,11 @@ Candidata editorial e mecânica. Publicados preservados. As alterações são pr
 **Motivo:** Pedido do autor em 04/10/2026 ("Pode remover, qualquer coisa semelhante tbm"): conta de projetista retirada do livro do jogador (revisao-interfaces/CORRECOES-APLICADAS.md, D19 a D24). A regra fica.
 
 **Impacto_ou_limite:** Nenhuma alteração de regra. O auditor continua calculando a média do exemplo como conta de projeto.
+
+## R08-35 — decisão do autor
+
+**Antes:** Seu domínio termina quando a duração acaba, você o desfaz, chega a **0 PV**, perde uma disputa ou uma regra destrói sua barreira. / o encerramento voluntário e chegar a 0 PV.
+
+**Depois:** Seu domínio termina quando a duração acaba, você o desfaz, chega a **0 PV**, fica **Inconsciente** ou **Derrotado**, perde uma disputa ou uma regra destrói sua barreira. / o encerramento voluntário, chegar a 0 PV e ficar Inconsciente ou Derrotado.
+
+**Motivo:** Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G1-06 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D32).

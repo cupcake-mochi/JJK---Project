@@ -419,3 +419,13 @@ Você reconhece pelo toque o encaixe e a textura familiares de armas que costuma
 **Depois:** 3. Defina sua Regra, atributo, Selo e **Expressão da técnica** pelo procedimento de Fundamento.
 
 **Motivo:** Decisão do Mizuki em 04/10/2026 ("Sim ele pode anotar"), pendência deixada pela D12 (achado G5-02, revisao-interfaces/CORRECOES-APLICADAS.md). Sem Técnica registra a Expressão da técnica como a Técnica Marcial.
+
+## R10-37 — decisão do autor
+
+**Antes:** Você recebe uma arma de cada categoria, todas de **grau 4**, e fica treinado nas três categorias, além dos treinos concedidos por outras escolhas. / Uma ferramenta vestida como armadura ocupa a função de **Traje ou Revestimento**, com as regras dessa categoria.
+
+**Depois:** Você recebe uma arma de cada categoria, todas de **grau 4**, e fica treinado nas três categorias, além dos treinos concedidos por outras escolhas.
+
+**Acesso.** Escolha qualquer arma da categoria que seu acesso permita. As armas recebidas seguem **Equipamento restrito**: Arma de Fogo exige Grau 2 ou autorização prévia do mestre. Uma arma de fogo recebida vem com a munição inicial de uma compra, conforme **Munição inicial**. / Uma ferramenta vestida como armadura ocupa a função de **Traje ou Revestimento**, com as regras dessa categoria. Os números de Revestimento 2 ou 3 seguem o acesso de **Equipamento restrito**, salvo permissão do mestre.
+
+**Motivo:** Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G4-06 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D33).

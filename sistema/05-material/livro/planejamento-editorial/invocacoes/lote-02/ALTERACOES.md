@@ -309,3 +309,11 @@ O limite de inativos passou a ser indicado como limite de corpos mantidos, em co
 Com uma arma empunhada, o ataque usa o atributo que a arma pede no lugar do atributo de acerto. A CD das habilidades não muda. A entidade não tem treino em armas, então ataca com elas com desvantagem. O dano é o da arma, conforme **Equipamento**.
 
 **Motivo:** Decisão do Mizuki em 04/10/2026, achado G2-04 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md). O acerto com arma segue a peça 15; sem treino em armas, desvantagem pela regra geral.
+
+## R12-33 — decisão do autor
+
+**Antes:** Somando alvos adicionais e repetições, conserve o **teto geral de 4 × Classe**.
+
+**Depois:** Some os dados iniciais e os adicionais da montagem uma vez, sem multiplicar pelo número de criaturas na área. O total não passa de **4 × Classe**.
+
+**Motivo:** Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G5-05 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D36).

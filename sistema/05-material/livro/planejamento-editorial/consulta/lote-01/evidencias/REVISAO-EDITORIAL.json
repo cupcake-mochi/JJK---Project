@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "506bb779ba4772add62d7a1d05a399d59739a13bb0a882b5345e5c7e9641548e",
+  "sha256_texto": "279351e084412734977e739a88b06a4142f452d02a21e3cb4c229c0ba7220115",
   "secoes": [
     {
       "ancora": "consulta-glossario-1",
@@ -358,5 +358,35 @@
     "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
     "conferido": "Trechos trocados relidos: decisões do autor de 04/10/2026, retirada de projeções pedida por ele ou verbetes de índice. O restante do texto é idêntico e conserva a leitura anterior."
+  },
+  "revisao_delta_2026_10_04_quinta_passada": {
+    "sha256_anterior": "506bb779ba4772add62d7a1d05a399d59739a13bb0a882b5345e5c7e9641548e",
+    "sha256_atual": "279351e084412734977e739a88b06a4142f452d02a21e3cb4c229c0ba7220115",
+    "mudancas": [
+      {
+        "codigo": "D41",
+        "achado": "G4-11",
+        "secao": "consulta-ficha-repertorio",
+        "antes": "| Item e quantidade | Volume total | Situação e recursos |",
+        "depois": "| Item e quantidade | Volume total | Posição e recursos |"
+      },
+      {
+        "codigo": "D41",
+        "achado": "G4-11",
+        "secao": "consulta-ficha-repertorio",
+        "antes": "**Volume carregado / limite:** ______ / ______ **Dinheiro:** __________________",
+        "depois": "**Volume carregado / limite:** ______ / ______ **Dinheiro:** __________________\n\n**Traje — situação, TR e perícias:** ________________________________________"
+      },
+      {
+        "codigo": "D41",
+        "achado": "G4-11",
+        "secao": "consulta-ficha-repertorio",
+        "antes": "| __________________ | ______ | Vestido, empunhado ou guardado: __________________ |",
+        "depois": "| __________________ | ______ | Vestido, empunhado ou guardado: __________ |"
+      }
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+    "conferido": "Trechos trocados relidos: decisões do autor de 04/10/2026 sobre os 18 achados restantes da revisão de interfaces (D25 a D41). Cada frase nova cita a seção dona pelo nome e não copia a regra de outro capítulo. O restante do texto é idêntico e conserva a leitura anterior."
   }
 }

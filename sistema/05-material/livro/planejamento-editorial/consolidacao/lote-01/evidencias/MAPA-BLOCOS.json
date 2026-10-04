@@ -791,7 +791,7 @@
       44,
       45
     ],
-    "sha256_bloco_fonte": "efdcab5c3893752bb366536a8552bc7a69678d9520e41174e1742f69044c6ddf",
+    "sha256_bloco_fonte": "791156bf7c69a66852d2c454858bd622fc52982e6d7c3f9546c05aaf2cef711c",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -869,7 +869,7 @@
       48,
       49
     ],
-    "sha256_bloco_fonte": "d951d89e96146b59d7dc178a5e8b68b56cb19840fd43086027bb32921d577ea4",
+    "sha256_bloco_fonte": "4e6d8a6d6254b4710124075b652cac5ba50ea00afda4eaa5a3609b923cad09de",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -1010,7 +1010,7 @@
     "paginas_conteudo": [
       56
     ],
-    "sha256_bloco_fonte": "719c8fa238ddcaf8bd7157cdb5a66405cb06fd9bd0fb99fcc883f6c2338b38ae",
+    "sha256_bloco_fonte": "6bff85edf6366e1aa639f15bcf37c70f2f17920b0d2f5dc0a010d177517b7613",
     "cabecalho_inicial_unificado": true
   },
   {
@@ -1073,7 +1073,7 @@
       58,
       59
     ],
-    "sha256_bloco_fonte": "86a56844fcc3ba5281503b05347f5b81baa24c5645e9f046b4e4e0dd301b2b30",
+    "sha256_bloco_fonte": "8c0f653ff3ff4c486e99994143942c07a7bfd75344979a7735a868fdca29d6ff",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -1136,7 +1136,7 @@
       61,
       62
     ],
-    "sha256_bloco_fonte": "8b021c163565396d0c7b4f43b1ad716e71230016f2db2334a645588e46cf054b",
+    "sha256_bloco_fonte": "23136e8e705d9f5184f84e8afe20162e387ed6ae19cf5c3715d1f430cc8e02e3",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -3057,7 +3057,7 @@
       144,
       145
     ],
-    "sha256_bloco_fonte": "88cedc7dd220400593765c4de8e97548922c4c322b5896a846090b9cfa517fe9",
+    "sha256_bloco_fonte": "1c2a657aef2664a092d27bf92a2450e6257626ea86560e099d75889eb5001a35",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -3227,7 +3227,7 @@
       152,
       153
     ],
-    "sha256_bloco_fonte": "bb63e03e5671eb16162962492d83e8d01f3f10eb23fc8de08ee56c30e701433c",
+    "sha256_bloco_fonte": "5fd9a2f8a63dd5ebcc2a0d6cf7550a8f13b720e50498b1b73eeb8ea9bfe55a72",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -3242,7 +3242,7 @@
     "paginas_conteudo": [
       153
     ],
-    "sha256_bloco_fonte": "0275beb222bc0118a2a4ec2bf13ae9d71522df4eb99bd3a3568c24b899285640",
+    "sha256_bloco_fonte": "f64ed11418112b39271fd834c2d4316cd95544d71ddc1e795ace35843664bc60",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -3287,7 +3287,8 @@
     "id_livro": "incursor--inc-pugilista",
     "pagina": 155,
     "paginas_conteudo": [
-      155
+      155,
+      156
     ],
     "sha256_bloco_fonte": "da491a9eae15cebbc985c27d0fa77c79c16c53af02601f5f0859fa91b7218ab1",
     "cabecalho_inicial_unificado": false
@@ -3304,7 +3305,7 @@
     "paginas_conteudo": [
       156
     ],
-    "sha256_bloco_fonte": "1145147b06b9a4a79694c7165287855122a4b6ef10e2985f0ba4212060459189",
+    "sha256_bloco_fonte": "9c7b95d8de5e603a87a0a27d10749119cde3bd1f0dc08d133c5d86737352aac5",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -3349,7 +3350,8 @@
     "id_livro": "incursor--inc-projecao",
     "pagina": 158,
     "paginas_conteudo": [
-      158
+      158,
+      159
     ],
     "sha256_bloco_fonte": "cb17a7f40c12abcd5df6290f579f369b2870ba7d001ca96e86020a9ba3ae16c3",
     "cabecalho_inicial_unificado": false
@@ -3395,7 +3397,8 @@
     "id_livro": "incursor--inc-malabarista",
     "pagina": 160,
     "paginas_conteudo": [
-      160
+      160,
+      161
     ],
     "sha256_bloco_fonte": "35892fd2424ab80c9182f608f6c2346700aa172ec6880a56b529cf40f3520a5a",
     "cabecalho_inicial_unificado": false
@@ -3441,7 +3444,8 @@
     "id_livro": "incursor--inc-destino",
     "pagina": 162,
     "paginas_conteudo": [
-      162
+      162,
+      163
     ],
     "sha256_bloco_fonte": "63c50814a65e78ba8ce1950fe8e61094fde05df19a7111211911c0cbe415941c",
     "cabecalho_inicial_unificado": false
@@ -3489,7 +3493,7 @@
     "paginas_conteudo": [
       165
     ],
-    "sha256_bloco_fonte": "ffe84d49d1225ae89fa693db9772a6de629d3576b5032cf17185b6be0567cce4",
+    "sha256_bloco_fonte": "e219dc1265388bbc9d626c5daddbd51e2e8d002f0aea8210ea807e726d9f3c4a",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -4772,7 +4776,7 @@
     "paginas_conteudo": [
       235
     ],
-    "sha256_bloco_fonte": "db90291d2409df5ed83c1d87c5b8360655d1694bc2f616ec826904f54c932ede",
+    "sha256_bloco_fonte": "6cc864e86963f068d933fbdc4a387775279e553762f2d3506076c3c76df4dc6a",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -5721,7 +5725,7 @@
     "paginas_conteudo": [
       280
     ],
-    "sha256_bloco_fonte": "d53fec0529b4ed646636007c173d37651f088f3a847e133de7458acc9ba14909",
+    "sha256_bloco_fonte": "1889441368f2849930b35cf986860c87d943614d27692e2e2d2032631f34043f",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -5732,12 +5736,11 @@
     "ancora_fonte": "rota-ferramenta",
     "titulo_bloco": "Ferramenta",
     "id_livro": "rotas--rota-ferramenta",
-    "pagina": 280,
+    "pagina": 281,
     "paginas_conteudo": [
-      280,
       281
     ],
-    "sha256_bloco_fonte": "10750d56b222c84305de4b18eeba5adbb35f8334ebbb5f57b8b044f777de4585",
+    "sha256_bloco_fonte": "dda854578910eed273da9c344d3b4270ff0ea0704c3aac4eb5d5067484790815",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -5750,7 +5753,8 @@
     "id_livro": "rotas--rota-passivas-marciais",
     "pagina": 281,
     "paginas_conteudo": [
-      281
+      281,
+      282
     ],
     "sha256_bloco_fonte": "35b69ed4f3a01b8621269fbf1ff02023ca418d6769a78bd4cbe69d35a6e968b8",
     "cabecalho_inicial_unificado": false
@@ -5843,7 +5847,8 @@
     "id_livro": "rotas--rota-sementes",
     "pagina": 285,
     "paginas_conteudo": [
-      285
+      285,
+      286
     ],
     "sha256_bloco_fonte": "ef3cd960e36be6100f5b552fe0b5ae432d560029afe7c0d330fcaff7851093c1",
     "cabecalho_inicial_unificado": false
@@ -5871,9 +5876,8 @@
     "ancora_fonte": "rota-redoma",
     "titulo_bloco": "Redoma",
     "id_livro": "rotas--rota-redoma",
-    "pagina": 286,
+    "pagina": 287,
     "paginas_conteudo": [
-      286,
       287
     ],
     "sha256_bloco_fonte": "66223685ea3d138fac06605d5d8b965129b45bc8df09e2bc653bc8217e55f178",
@@ -5905,7 +5909,8 @@
     "id_livro": "rotas--rota-espinho",
     "pagina": 288,
     "paginas_conteudo": [
-      288
+      288,
+      289
     ],
     "sha256_bloco_fonte": "9ef2042a34659065d4f30c3e305b4f604805143c707990a0a27bc9d7ef235446",
     "cabecalho_inicial_unificado": false
@@ -5918,9 +5923,8 @@
     "ancora_fonte": "rota-lapidacao",
     "titulo_bloco": "Lapidação",
     "id_livro": "rotas--rota-lapidacao",
-    "pagina": 288,
+    "pagina": 289,
     "paginas_conteudo": [
-      288,
       289
     ],
     "sha256_bloco_fonte": "0cb214870ff9184de6cdf741f8b73ae96ddd5fbfa98c3cdc9ed4e4a80207a0ae",
@@ -5984,7 +5988,8 @@
     "id_livro": "rotas--rota-corpo",
     "pagina": 292,
     "paginas_conteudo": [
-      292
+      292,
+      293
     ],
     "sha256_bloco_fonte": "56dc11dff4d19ee4f9f2c65ed5cfa8fb513d09288e32359c7d9d2541f72a1c7b",
     "cabecalho_inicial_unificado": false
@@ -5997,9 +6002,8 @@
     "ancora_fonte": "rota-perseguicao",
     "titulo_bloco": "Bênçãos de perseguição",
     "id_livro": "rotas--rota-perseguicao",
-    "pagina": 292,
+    "pagina": 293,
     "paginas_conteudo": [
-      292,
       293
     ],
     "sha256_bloco_fonte": "1dab3fcb57d3eee0f415b3a405fc865acb333dac77bf0baf9022b39ba16b17cf",
@@ -6142,7 +6146,7 @@
     "paginas_conteudo": [
       299
     ],
-    "sha256_bloco_fonte": "b5030b1e67d46f4d2f8eb4fae6dd5d87ffb0f3b22b74c70f6c07285217e25931",
+    "sha256_bloco_fonte": "661f4f5673d7eb3cc363822e49cc7f53e2eaf7841f62dbe5f783e03160322e7e",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -6158,7 +6162,7 @@
       299,
       300
     ],
-    "sha256_bloco_fonte": "991ffeba73fcb377385b275acd3c18cddfbb3ec54da258b0700af5e383280f12",
+    "sha256_bloco_fonte": "61c847d8ef368c6efc66a49534146fa7e07c6aff495868081ad4418c634b61a7",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -6312,7 +6316,7 @@
     "paginas_conteudo": [
       307
     ],
-    "sha256_bloco_fonte": "e473996252151e20159dee3eabb877235569fcf3c5b555e3c2bc152692fb0941",
+    "sha256_bloco_fonte": "bffcb36bdcb18177a815a76845f818321e4949c824ab00f8148cd6f617c67ffa",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -6528,7 +6532,7 @@
       316,
       317
     ],
-    "sha256_bloco_fonte": "7f0bf9fb6ff1169bdedaa4eaaf38aabff6f254de35d401842685d1f7968df7ee",
+    "sha256_bloco_fonte": "47068082e0e75cf42f673d7c80f7ef42bf7db0ba2744b7c37a5f9b1aeef8283b",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -6605,7 +6609,7 @@
     "paginas_conteudo": [
       319
     ],
-    "sha256_bloco_fonte": "ac963547162ed39dce84e18bace04e9105679b145715f89b5562cd96bd0ba6d6",
+    "sha256_bloco_fonte": "ab8669cc6ab7d25ca48d77528faabb1d457c24a670d93a25c1e95c76a02d3fcc",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -6616,8 +6620,9 @@
     "ancora_fonte": "inv-antecipada",
     "titulo_bloco": "Ordem antecipada",
     "id_livro": "campo--inv-antecipada",
-    "pagina": 320,
+    "pagina": 319,
     "paginas_conteudo": [
+      319,
       320
     ],
     "sha256_bloco_fonte": "fd6fba495a46566a192e6dffc03853ad2b88d8892f103153a2ab4619deb17afb",
@@ -6633,8 +6638,7 @@
     "id_livro": "campo--inv-pendentes",
     "pagina": 320,
     "paginas_conteudo": [
-      320,
-      321
+      320
     ],
     "sha256_bloco_fonte": "73ab212478445605f10503a2bfb5b333537a78d213448d49259b51e4be7f4baa",
     "cabecalho_inicial_unificado": false
@@ -6651,7 +6655,7 @@
     "paginas_conteudo": [
       321
     ],
-    "sha256_bloco_fonte": "698906c8fc632616ceffd10f15176611680985d0dc1db25a1b2140ab9d8f501e",
+    "sha256_bloco_fonte": "61f4e4db2bc6437404338670bdde526f85eca45cf4f8fa8143a559c2451052d5",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -6775,7 +6779,7 @@
       325,
       326
     ],
-    "sha256_bloco_fonte": "77f698ef4edbb3e621871fc06706a9de61b0b2dab77f3f098c65e4bc5b948fe3",
+    "sha256_bloco_fonte": "d9b7f68ce6bd3c97201b72e36e6255b5b171d85d939eeb3246141cbb774b438f",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -6852,7 +6856,7 @@
       328,
       329
     ],
-    "sha256_bloco_fonte": "ccbe453967e4393e5013ce082e21a9943fde8cd5ac357d36295be585c406c713",
+    "sha256_bloco_fonte": "e9f48f21b5035a7520bda51bf15ac10cd97d98376b3b1d9ee27105b2bea195fd",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -6867,7 +6871,7 @@
     "paginas_conteudo": [
       329
     ],
-    "sha256_bloco_fonte": "93943025e832424200f868920953ed7162672d94e12e4c18b75f642f7ffaadab",
+    "sha256_bloco_fonte": "b17f0e53326d70c395c606720a7bd40c7d668be469a9801a51d9c51d50c7510f",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -6878,12 +6882,11 @@
     "ancora_fonte": "inv-fora",
     "titulo_bloco": "Efeitos fora de campo",
     "id_livro": "campo--inv-fora",
-    "pagina": 329,
+    "pagina": 330,
     "paginas_conteudo": [
-      329,
       330
     ],
-    "sha256_bloco_fonte": "a020c2de35a9d24e69cae1e8a0dfc250126d420221759efe9b72f02f6447608d",
+    "sha256_bloco_fonte": "ff7f15a374916324f3aa381d7a15393f536fed1814c08f4615a6846a5584e9f2",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -6896,7 +6899,8 @@
     "id_livro": "campo--inv-inconsciente",
     "pagina": 330,
     "paginas_conteudo": [
-      330
+      330,
+      331
     ],
     "sha256_bloco_fonte": "13627ac1a67eed3c2e84b1e18ecf6271b388e67681b1ac57727dd1308810a7b1",
     "cabecalho_inicial_unificado": false
@@ -6909,9 +6913,8 @@
     "ancora_fonte": "inv-manutencao",
     "titulo_bloco": "Manutenção",
     "id_livro": "campo--inv-manutencao",
-    "pagina": 330,
+    "pagina": 331,
     "paginas_conteudo": [
-      330,
       331
     ],
     "sha256_bloco_fonte": "8e8a91e1b755ae5edd47c83370fa09d91ad3b5fb0eb61d12581e80abf84ada3b",
@@ -6927,7 +6930,8 @@
     "id_livro": "campo--inv-morte",
     "pagina": 331,
     "paginas_conteudo": [
-      331
+      331,
+      332
     ],
     "sha256_bloco_fonte": "518cf470bf60d1b0e3e440a68599fe6004c32478637db6a5955c29fbdd6db829",
     "cabecalho_inicial_unificado": false
@@ -6940,12 +6944,11 @@
     "ancora_fonte": "inv-carga",
     "titulo_bloco": "Carga e equipamento",
     "id_livro": "campo--inv-carga",
-    "pagina": 331,
+    "pagina": 332,
     "paginas_conteudo": [
-      331,
       332
     ],
-    "sha256_bloco_fonte": "d04f0ff60c6359a82998cdd27edfe907f9be7c94c0ad51d6a38dcb2161c44eef",
+    "sha256_bloco_fonte": "679bd6625d9880314aa1cfc11663e747e594f6fb55fa276799fb83529191c3d6",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -7223,7 +7226,7 @@
     "paginas_conteudo": [
       344
     ],
-    "sha256_bloco_fonte": "f7ec204d0a0fd075580b86c7ec1cf258ed81898e9a8756f1b7dd40213ccc5848",
+    "sha256_bloco_fonte": "6136cbb7b4de00af7b1a203faa293ad8563d8c3bc24e394975bafaf0b6f1a87e",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -7656,7 +7659,7 @@
     "paginas_conteudo": [
       366
     ],
-    "sha256_bloco_fonte": "c339555ca912f732252792b1f25ab8de7e6f0cb5c4978df6de18348c275c7204",
+    "sha256_bloco_fonte": "609a0c4a664fd7574f54db848fc7c186ccffdc4740ff5da330c789394683a27d",
     "cabecalho_inicial_unificado": false
   },
   {

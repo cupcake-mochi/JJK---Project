@@ -358,13 +358,15 @@ Use Criar um personagem e os capítulos de sua Origem e Caminho para preencher o
 
 ## Equipamento
 
-| Item e quantidade | Volume total | Situação e recursos |
+| Item e quantidade | Volume total | Posição e recursos |
 |---|---|---|
-| __________________ | ______ | Vestido, empunhado ou guardado: __________________ |
+| __________________ | ______ | Vestido, empunhado ou guardado: __________ |
 | __________________ | ______ | Munição, cargas ou usos: __________________ |
 | __________________ | ______ | Empréstimo e devolução: __________________ |
 
 **Volume carregado / limite:** ______ / ______ **Dinheiro:** __________________
+
+**Traje — situação, TR e perícias:** ________________________________________
 
 Anote munição carregada e reserva separadamente. Ferramentas precisam de grau, efeito, requisitos e usos próprios. Um efeito guardado não deve aparecer como benefício ativo sem permissão.
 

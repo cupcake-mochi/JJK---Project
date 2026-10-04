@@ -2,10 +2,10 @@
   "ok": true,
   "status": "passou",
   "manuscritos_auditados": {
-    "sistema/05-material/livro/planejamento-editorial/poderes-avancados/lote-01/PODERES-AVANCADOS.md": "f8409ae24c39d5a3cb0d2dcf983796fcd5dff4b89f812b7ee0545fba32d184c4"
+    "sistema/05-material/livro/planejamento-editorial/poderes-avancados/lote-01/PODERES-AVANCADOS.md": "c0baf131ce40f69b35dc8ec182300f0ce8bec3d52127c3f4e40a53aaefb410d4"
   },
   "limite": "Auditoria matemática e verificação dirigida de texto; não playtest, não teste humano e não prova de balanceamento de toda ficha.",
-  "manuscrito_sha256": "f8409ae24c39d5a3cb0d2dcf983796fcd5dff4b89f812b7ee0545fba32d184c4",
+  "manuscrito_sha256": "c0baf131ce40f69b35dc8ec182300f0ce8bec3d52127c3f4e40a53aaefb410d4",
   "script_sha256": "db4c482664c4d9148a5c50bdc78524b3cc7df660d5fdb9722ac1f27a035b0fa8",
   "contrato_sha256": "5092c7041b4e7d5069cbae465c21bfe0b7be77a3a3267bc49c951dbcc2af51e4",
   "checks": [
@@ -282,7 +282,7 @@
     {
       "id": "palavras-rescaldo",
       "passou": true,
-      "detalhe": 289
+      "detalhe": 293
     },
     {
       "id": "titulo-rescaldo",
@@ -292,7 +292,7 @@
     {
       "id": "palavras-sembarreiras",
       "passou": true,
-      "detalhe": 354
+      "detalhe": 358
     },
     {
       "id": "titulo-sembarreiras",
@@ -788,8 +788,8 @@
     "protecao": 279,
     "abertura": 323,
     "barreira": 398,
-    "rescaldo": 289,
-    "sembarreiras": 354,
+    "rescaldo": 293,
+    "sembarreiras": 358,
     "disputa": 300,
     "manterdisputa": 338,
     "sobreposicao": 310,
@@ -1477,7 +1477,7 @@
     },
     {
       "path": "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md",
-      "sha256": "107b1610f0bd2393bc5207ec51408bad2440932a7a4cb5f85404d4969f9aca0b"
+      "sha256": "7fc58fa8955f2a4f820906d02d1ed78d5d190e4091f4279ab6c0d0050a9a7f9f"
     },
     {
       "path": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",

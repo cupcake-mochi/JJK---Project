@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "d426344dac979f614ca77e1380bcb1c8d52629d410d4cba5fe1cbf2b2cc4f372",
+  "sha256_texto": "e1928ed6f9ee9ccc246817333c5486428c37bb2b6840e11b610f979dcda65707",
   "revisor": "Agente principal (autoria) e compatibilidade (revisão independente, correções RP25–RP32 e releitura das interfaces alteradas).",
   "teste_humano": false,
   "secoes": [
@@ -95,5 +95,21 @@
     "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
     "conferido": "Trechos trocados relidos: decisão do autor sobre a Expressão da técnica na rota Sem Técnica ou retirada de contas de projetista pedida por ele em 04/10/2026. Nenhuma frase nova além do passo 3 de Sem Técnica; as retiradas não deixam remissão órfã. O restante do texto é idêntico e conserva a leitura anterior."
+  },
+  "revisao_delta_2026_10_04_quinta_passada": {
+    "sha256_anterior": "d426344dac979f614ca77e1380bcb1c8d52629d410d4cba5fe1cbf2b2cc4f372",
+    "sha256_atual": "e1928ed6f9ee9ccc246817333c5486428c37bb2b6840e11b610f979dcda65707",
+    "mudancas": [
+      {
+        "codigo": "D34",
+        "achado": "G5-08",
+        "secao": "rit-liberacao",
+        "antes": "Técnica Máxima pode receber Ritual completo, preservando seu custo, recarga e resolução.",
+        "depois": "Técnica Máxima pode receber Ritual completo, preservando seu custo, recarga e resolução. Use sua maior Classe como Classe do feitiço no teste, na penalidade de falha e nas Melhorias de Ritual."
+      }
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+    "conferido": "Trechos trocados relidos: decisões do autor de 04/10/2026 sobre os 18 achados restantes da revisão de interfaces (D25 a D41). Cada frase nova cita a seção dona pelo nome e não copia a regra de outro capítulo. O restante do texto é idêntico e conserva a leitura anterior."
   }
 }

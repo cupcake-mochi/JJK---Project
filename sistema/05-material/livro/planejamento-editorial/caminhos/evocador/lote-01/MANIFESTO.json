@@ -1,22 +1,22 @@
 {
   "estado": "Inventário atual em 04/10/2026; a prova individual corresponde ao texto atual e passou no conferir.py. O PDF que vale para leitura é o livro completo.",
-  "sha256_texto": "77e47e82794850bf8e051fab789fe1e6acfa8f545a9b18d41f4f8f4bc8b45083",
+  "sha256_texto": "6c41cfd0d38b4a81705efd2243f1dbca40881c04a58521290761273318de4944",
   "pdf_vigente": "consolidacao/lote-01/output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
-  "sha256_pdf_vigente": "42d9207037ed22db62f68af3b9936ba22a8c2887aa097496116b0842784c9095",
+  "sha256_pdf_vigente": "4ae5931dc24a7ffda17d62460a6a28c9a834d6805fc5e53f7004cd40bb25fae1",
   "arquivos": [
     {
       "arquivo": "ALTERACOES.json",
-      "sha256": "b0fae5e5944ac1b1f8a13384a53f00f1a26b887865fde5dea034272da9fe841e",
-      "bytes": 11708
+      "sha256": "dc01edc2657c2fb2a4ff76faeabcd9510a617c0800dad7523faceda06eb4ed84",
+      "bytes": 12065
     },
     {
       "arquivo": "ALTERACOES.md",
-      "sha256": "0a958e5061e0aa547d43393ba162c9fe631ccf3e8305a764171d85b98bf5f7a8",
-      "bytes": 9942
+      "sha256": "ffe3210c7c09f5a0df125f638f600924f887aa666ccbde38b96e1c31eee310cb",
+      "bytes": 10245
     },
     {
       "arquivo": "CONFERENCIA.json",
-      "sha256": "4e9e1adbdfec0e7d47e7be15f050593775485057a13486673089e2b0d53c839f",
+      "sha256": "a836b2091328082995ecbfd449251a93913000ba31a627822056b132fa888e8b",
       "bytes": 36161
     },
     {
@@ -26,8 +26,8 @@
     },
     {
       "arquivo": "EVOCADOR.md",
-      "sha256": "77e47e82794850bf8e051fab789fe1e6acfa8f545a9b18d41f4f8f4bc8b45083",
-      "bytes": 65255
+      "sha256": "6c41cfd0d38b4a81705efd2243f1dbca40881c04a58521290761273318de4944",
+      "bytes": 65269
     },
     {
       "arquivo": "FECHAMENTO-INTEGRACAO.json",
@@ -66,8 +66,8 @@
     },
     {
       "arquivo": "VALIDADORES.json",
-      "sha256": "568814d8200d13b8a7c2859885604496c9c9c075c7ddf102aa858490b3b8b713",
-      "bytes": 24894
+      "sha256": "fd32ea6fd84345cbd8a1f6fead745d29b947402778540ae5a8f113affad3ee84",
+      "bytes": 25924
     },
     {
       "arquivo": "auditar.py",
@@ -81,7 +81,7 @@
     },
     {
       "arquivo": "evidencias/AUDITORIA.json",
-      "sha256": "d93f818419ab2b9f9ba290576265d474e6e5a2b62d9ce965c103a1c4174b063b",
+      "sha256": "436f3434ebbe98673fba6f968452630d301d4bc4987b1a18dbe9a4bd4b5cd8c0",
       "bytes": 33490
     },
     {
@@ -91,13 +91,13 @@
     },
     {
       "arquivo": "evidencias/LOCALIZACAO-EDITORIAL.json",
-      "sha256": "38e92adc2782662579bb8f2f5d5546f1e9ab3899a685eac9ccc00de8d95cb5db",
-      "bytes": 584
+      "sha256": "f0d6e07fe609e1d095c1247aa9e6be47379ecc28486fae1031e2a39345dc25f1",
+      "bytes": 1617
     },
     {
       "arquivo": "evidencias/REVISAO-EDITORIAL.json",
-      "sha256": "760da70f9da3cafab0f0e7e46b89c6472d84381b8fef5df6f8436e5190d0e3a4",
-      "bytes": 34498
+      "sha256": "f8ac573e44221daaf9abe0cf999a5d31ccb253f22f6e2e3f207fda8bda8d5fe1",
+      "bytes": 35481
     },
     {
       "arquivo": "evidencias/REVISAO-INDEPENDENTE-RAIZ.json",
@@ -131,18 +131,18 @@
     },
     {
       "arquivo": "evidencias/inspecao-visual.json",
-      "sha256": "90ec4a1f29439d6611fcbdaf4153e2037da46630ec42e57fda07f0b273fe6db7",
-      "bytes": 7204
+      "sha256": "e5aee491212e9673dcba30bc8efed78bb8db2a50e104937a344fb7aa5a4c0ad0",
+      "bytes": 8182
     },
     {
       "arquivo": "evidencias/pdf-estrutura.json",
-      "sha256": "08ac39c69a4302fff35a9520863e6781e71954d006e054fa27d687deeed694a6",
+      "sha256": "1702cfed0016263ea92a1ef7a84faa055ff183ae6d75f8e26aad7bfe4ed8acf2",
       "bytes": 455
     },
     {
       "arquivo": "evidencias/regras-verificadas.json",
-      "sha256": "547e0cd129d222ab63b9cf9dafa49ad2ac12b6f37ba89840f6f727a15b19a83f",
-      "bytes": 602
+      "sha256": "85d263acb85a893e7d74c6a551e4a84a92313105f14b8df258629dfcf8d6740b",
+      "bytes": 1034
     },
     {
       "arquivo": "gerar_pdf.py",
@@ -151,12 +151,17 @@
     },
     {
       "arquivo": "output/pdf/Projeto-M-Evocador-Proposta-01.pdf",
-      "sha256": "4baacca9419f61e2fe6d796212f75b0e608ef0124554b6aee79f9ac9f8b49f0e",
+      "sha256": "97c14e7f6898a6444492b06a3f8570a0e9ece46cbc8dd2c8ad1cc22de1a0936d",
       "bytes": 145515
+    },
+    {
+      "arquivo": "evidencias/COMPARACAO-VISUAL-2026-10-04-quinta.json",
+      "sha256": "a71ab6528283fc4f15329695d7136d5c81eab268b321bf16a0aa1cf45fdc5f55",
+      "bytes": 658
     }
   ],
   "limite": "Inventário de integridade não equivale a reexecutar testes. Consulte VALIDADORES e FECHAMENTO-INTEGRACAO.",
-  "sha256_pdf_individual": "4baacca9419f61e2fe6d796212f75b0e608ef0124554b6aee79f9ac9f8b49f0e",
+  "sha256_pdf_individual": "97c14e7f6898a6444492b06a3f8570a0e9ece46cbc8dd2c8ad1cc22de1a0936d",
   "atualizacao_2026_10_04": {
     "arquivos_com_hash_novo": [],
     "arquivos_acrescentados": [
@@ -164,6 +169,28 @@
     ],
     "arquivos_que_nao_existem_mais": [],
     "motivo": "Fechamento da cadeia de evidência do livro de 382 páginas (item 2 da fila). O auditor global V15 exige que o manifesto indexe texto, PDF individual, VALIDADORES e CONFERENCIA com os hashes atuais; o fechamento da integração de 03/10 tinha tirado os PDFs individuais do índice.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "atualizacao_2026_10_04_quinta_passada": {
+    "arquivos_com_hash_novo": [
+      "ALTERACOES.json",
+      "ALTERACOES.md",
+      "CONFERENCIA.json",
+      "EVOCADOR.md",
+      "VALIDADORES.json",
+      "evidencias/AUDITORIA.json",
+      "evidencias/LOCALIZACAO-EDITORIAL.json",
+      "evidencias/REVISAO-EDITORIAL.json",
+      "evidencias/inspecao-visual.json",
+      "evidencias/pdf-estrutura.json",
+      "evidencias/regras-verificadas.json",
+      "output/pdf/Projeto-M-Evocador-Proposta-01.pdf"
+    ],
+    "arquivos_acrescentados": [
+      "evidencias/COMPARACAO-VISUAL-2026-10-04-quinta.json"
+    ],
+    "arquivos_que_nao_existem_mais": [],
+    "motivo": "Quinta passada de 04/10/2026 (D25 a D41): decisões do autor sobre os 18 achados restantes, ou VALIDADORES apontando para o PDF vigente.",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
   }
 }

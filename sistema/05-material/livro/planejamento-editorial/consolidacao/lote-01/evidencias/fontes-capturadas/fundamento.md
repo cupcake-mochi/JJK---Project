@@ -630,7 +630,7 @@ Escolha a Forma e use a base de alcance da Classe 0. A Regra, as Famílias Fecha
 
 Você pode acrescentar **uma Melhoria Leve**, retirando **um dado** do dano-base. Se a peça exigir um valor de Classe, use 0. Ela não recebe Classe 1 só por ter sido escolhida aqui. Requisitos mínimos de Classe continuam impedindo a compra.
 
-Pode haver uma Restrição Leve, mas ela não recupera o dado pago nem cria pontos de montagem. Toque e Aura mantêm seu alcance e origem sem produzir a devolução Média de Corpo a Corpo neste caso.
+Pode haver uma Restrição Leve, mas ela não recupera o dado pago nem cria pontos de montagem. Toque e Aura mantêm seu alcance e origem sem produzir a devolução Média de Corpo a Corpo neste caso. Essa exigência da Forma não ocupa a vaga da Restrição Leve.
 
 > **Fio curto.** No nível 2, Mei conhece um Projétil de Classe 0. Alcance 9 m, Ação Padrão, 2d8 de Cortante. Se montar uma versão com Empurrão, paga um dado: 1d8 e o deslocamento de até 6 m da peça. No nível 5, essa mesma versão passa a 2d8, pois a base subiu a 3d8.
 

@@ -210,6 +210,20 @@
       "antes": "Após rolar o d20, antes de finalizar o ataque, gaste Fluidez",
       "depois": "Após rolar o d20 e antes de o alvo escolher entre a Defesa e Bloquear, gaste Fluidez",
       "motivo": "Decisão do Mizuki em 04/10/2026 (opção A), achado G3-05 (revisao-interfaces/CORRECOES-APLICADAS.md). Amarra o uso a um passo da Resolução de Regras gerais."
+    },
+    {
+      "id": "INC-25",
+      "tipo": "decisão do autor",
+      "antes": "**Fluidez + PE · Uma vez por turno seu.**\n\nDepois de confirmar o acerto, / **Fluidez · Uma vez por turno seu.**\n\nDepois de resolver o acerto, gaste Fluidez. / **Fluidez · Uma vez por turno seu.**\n\nDepois de acertar um ataque desarmado, gaste Fluidez.",
+      "depois": "**Fluidez + PE · Uma vez por turno seu.**\n\nAntes do nível 19, só durante seu turno. Depois de confirmar o acerto, / **Fluidez · Uma vez por turno seu.**\n\nAntes do nível 19, só durante seu turno. Depois de resolver o acerto, gaste Fluidez. / **Fluidez · Uma vez por turno seu.**\n\nDurante seu turno, depois de acertar um ataque desarmado, gaste Fluidez.",
+      "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G3-02 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D39)."
+    },
+    {
+      "id": "INC-26",
+      "tipo": "decisão do autor",
+      "antes": "uma **arma de uma mão apropriada para arremesso**",
+      "depois": "uma **arma de uma mão com Longo Alcance de arremesso**",
+      "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G3-06 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D40)."
     }
   ]
 }

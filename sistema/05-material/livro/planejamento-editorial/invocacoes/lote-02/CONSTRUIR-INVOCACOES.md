@@ -453,7 +453,7 @@ As Restrições devolvem pontos para pagar **Forma e Melhorias**, até **2 × a 
 
 > Uma especial de Classe 2 começa com 4 pontos. Projétil custa 0, uma Melhoria Média normal custa 2 e uma Restrição Leve devolve 1. Restam **4 − 2 + 1 = 3 pontos**. Uma segunda devolução que elevasse o saldo acima de 4 perderia o excedente.
 
-Contra um alvo, o dano-base tem esse mesmo limite em d8. Somando alvos adicionais e repetições, conserve o **teto geral de 4 × Classe**. Dividir os dados entre tiros não multiplica os dados disponíveis.
+Contra um alvo, o dano-base tem esse mesmo limite em d8. Some os dados iniciais e os adicionais da montagem uma vez, sem multiplicar pelo número de criaturas na área. O total não passa de **4 × Classe**. Dividir os dados entre tiros não multiplica os dados disponíveis.
 
 ## Amparo
 

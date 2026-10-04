@@ -284,7 +284,7 @@
     "Revisão independente por outro agente-modelo.",
     "Teste com jogadores humanos não realizado."
   ],
-  "sha256_texto": "692a4f70bd144ccb5c7760c303162842fe0e29bdcb712843bc3f7947f2eaa4b6",
+  "sha256_texto": "99c04d78b0d7ac7bff72a75ebb03cd103330f6a84c79aeecf24871f6975456ae",
   "revisor": "Autor rotas_didatica e leitura independente integral do principal",
   "teste_humano": false,
   "revisao_delta": {
@@ -355,5 +355,28 @@
     "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
     "conferido": "Trechos trocados relidos: decisão do autor sobre a Expressão da técnica na rota Sem Técnica ou retirada de contas de projetista pedida por ele em 04/10/2026. Nenhuma frase nova além do passo 3 de Sem Técnica; as retiradas não deixam remissão órfã. O restante do texto é idêntico e conserva a leitura anterior."
+  },
+  "revisao_delta_2026_10_04_quinta_passada": {
+    "sha256_anterior": "692a4f70bd144ccb5c7760c303162842fe0e29bdcb712843bc3f7947f2eaa4b6",
+    "sha256_atual": "99c04d78b0d7ac7bff72a75ebb03cd103330f6a84c79aeecf24871f6975456ae",
+    "mudancas": [
+      {
+        "codigo": "D33",
+        "achado": "G4-06",
+        "secao": "rota-armas",
+        "antes": "Você recebe uma arma de cada categoria, todas de **grau 4**, e fica treinado nas três categorias, além dos treinos concedidos por outras escolhas.",
+        "depois": "Você recebe uma arma de cada categoria, todas de **grau 4**, e fica treinado nas três categorias, além dos treinos concedidos por outras escolhas.\n\n**Acesso.** Escolha qualquer arma da categoria que seu acesso permita. As armas recebidas seguem **Equipamento restrito**: Arma de Fogo exige Grau 2 ou autorização prévia do mestre. Uma arma de fogo recebida vem com a munição inicial de uma compra, conforme **Munição inicial**."
+      },
+      {
+        "codigo": "D33",
+        "achado": "G4-06",
+        "secao": "rota-ferramenta",
+        "antes": "Uma ferramenta vestida como armadura ocupa a função de **Traje ou Revestimento**, com as regras dessa categoria.",
+        "depois": "Uma ferramenta vestida como armadura ocupa a função de **Traje ou Revestimento**, com as regras dessa categoria. Os números de Revestimento 2 ou 3 seguem o acesso de **Equipamento restrito**, salvo permissão do mestre."
+      }
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+    "conferido": "Trechos trocados relidos: decisões do autor de 04/10/2026 sobre os 18 achados restantes da revisão de interfaces (D25 a D41). Cada frase nova cita a seção dona pelo nome e não copia a regra de outro capítulo. O restante do texto é idêntico e conserva a leitura anterior."
   }
 }

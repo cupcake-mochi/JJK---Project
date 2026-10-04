@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "107b1610f0bd2393bc5207ec51408bad2440932a7a4cb5f85404d4969f9aca0b",
+  "sha256_texto": "7fc58fa8955f2a4f820906d02d1ed78d5d190e4091f4279ab6c0d0050a9a7f9f",
   "titulos_revisto": true,
   "sem_explicacao_alheia": true,
   "vocabulario_revisto": true,
@@ -49,5 +49,21 @@
     "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
     "conferido": "Cada trecho trocado foi lido no contexto. Com as exceções desta leitura, o conferir_editorial dá 0 achados no texto anterior e 0 no atual. A única frase nova (passo 3 de Sem Técnica) cita o procedimento de Fundamento pelo nome, como o passo 1 da Técnica Marcial. Nenhuma exceção de vocabulário depende de linha nesta unidade."
+  },
+  "revisao_delta_2026_10_04_quinta_passada": {
+    "sha256_anterior": "107b1610f0bd2393bc5207ec51408bad2440932a7a4cb5f85404d4969f9aca0b",
+    "sha256_atual": "7fc58fa8955f2a4f820906d02d1ed78d5d190e4091f4279ab6c0d0050a9a7f9f",
+    "mudancas": [
+      {
+        "codigo": "D35",
+        "achado": "G5-09",
+        "secao": "classe0",
+        "antes": "Toque e Aura mantêm seu alcance e origem sem produzir a devolução Média de Corpo a Corpo neste caso.",
+        "depois": "Toque e Aura mantêm seu alcance e origem sem produzir a devolução Média de Corpo a Corpo neste caso. Essa exigência da Forma não ocupa a vaga da Restrição Leve."
+      }
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+    "conferido": "Cada trecho trocado foi lido no contexto. Com as exceções desta leitura, o conferir_editorial dá 0 achados no texto anterior e 0 no atual. As frases novas citam a seção dona pelo nome (Equipamento restrito, Munição inicial, Invocações em campo, Trajes). Nenhuma exceção de vocabulário depende de linha nesta unidade."
   }
 }

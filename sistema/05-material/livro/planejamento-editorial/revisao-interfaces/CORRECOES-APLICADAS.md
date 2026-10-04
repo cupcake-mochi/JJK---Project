@@ -387,6 +387,59 @@ Critério usado na varredura das 23 fontes: sai a frase que só mostra uma conta
 - Muda na mesa: nada. São contas, não regras.
 - O auditor da Progressão conferia a presença de "14.300" no texto. Agora confere uma linha da tabela de custo (a curva continua conferida linha a linha) e acusa se o total ou o prazo voltarem.
 
+## Quinta passada: os 18 achados restantes
+
+Em 04/10/2026, o Mizuki respondeu às 18 decisões que faltavam, aceitando a sugestão em todas. Na 9, acrescentou que a permissão do mestre pode conceder o acesso. Na 12, lembrou que os feitiços do personagem continuam mais fortes que os das invocações: a decisão só alinha a leitura do teto em área. Cada unidade tocada ganhou a entrada no seu `ALTERACOES`.
+
+### D25 a D31 · invocacoes/lote-01/INVOCACOES-EM-CAMPO.md e Evocador
+
+- D25 (G1-03), Integridade a zero: a entidade com alma cai sem ser destruída, como a zero de vida. O retorno exige pelo menos 1 de Integridade, que volta pelo descanso longo ou por capacidade que a restaure. Os estágios de Integridade valem para ela: PE adicional e teto de Classe nas especiais que executa.
+- D26 (G2-02), domada que não pode ser recolhida: segue o modo dos corpos amaldiçoados, ativa ou inativa no mundo, e conta no total de corpos mantidos.
+- D27 (G2-05): recolher, desativar ou cair a zero encerra a concentração da entidade.
+- D28 (G2-06): a substituta de uma troca pode ser uma entidade caída, pagando o retorno no lugar da entrada. "O retorno não fornece básica" virou "O retorno não cria uma básica própria. Feito numa troca, ainda permite receber a básica transferida."
+- D29 (G2-07 e G4-10): a entidade segue o limite geral de carga de 5 + Força, contando o que veste, empunha ou leva. O talento de transporte libera armazenamento e passageiros dentro desse mesmo limite, e levar personagens continua exigindo o talento.
+- D30 (G2-08): a entidade pode preparar um deslocamento, que usa o Movimento que ainda lhe resta e não concede metros novos.
+- D31 (G2-10): "reserva" ficou só para o PE da domada. A entidade guardada é "recolhida" (Invocações em campo, três frases, e Evocador, Formação Renovada).
+- Muda na mesa: entidade com alma pode cair por dano na alma e não volta no mesmo dia sem recuperar Integridade. Concentração de entidade não sobrevive à saída. Equipamento da entidade passa a contar na carga dela. As demais só escrevem o que faltava.
+
+### D32 · poderes-avancados/lote-01/PODERES-AVANCADOS.md
+
+G1-06. A lista de encerramento do domínio, com barreira e sem barreira, ganhou "fica Inconsciente ou Derrotado".
+- Muda na mesa: quem cai por Integridade ou dorme por um efeito perde o domínio na hora.
+
+### D33 · rotas/lote-01/ROTAS.md
+
+G4-06, opção B, com a ressalva do Mizuki sobre a permissão do mestre.
+- Rota de Armas, acrescentado: **Acesso.** Escolha qualquer arma da categoria que seu acesso permita. As armas recebidas seguem Equipamento restrito: Arma de Fogo exige Grau 2 ou autorização prévia do mestre. Uma arma de fogo recebida vem com a munição inicial de uma compra, conforme Munição inicial.
+- Rota de Ferramenta, acrescentado: os números de Revestimento 2 ou 3 seguem o acesso de Equipamento restrito, salvo permissão do mestre.
+- Muda na mesa: a Técnica Marcial começa com o mesmo acesso de qualquer personagem, e o mestre pode liberar antes.
+
+### D34 · ritual-e-pactos/lote-01/RITUAL-E-PACTOS.md
+
+G5-08. Na Técnica Máxima com Ritual completo, use a maior Classe como Classe do feitiço no teste, na penalidade de falha e nas Melhorias de Ritual.
+
+### D35 · fundamento/lote-01/FUNDAMENTO.md
+
+G5-09. No Classe 0, a exigência de Toque ou Aura não ocupa a vaga da Restrição Leve, como já valia para as entidades.
+
+### D36 · invocacoes/lote-02/CONSTRUIR-INVOCACOES.md
+
+G5-05. O teto de 4 × Classe das especiais segue o Fundamento (FU-27): some os dados da montagem uma vez, sem multiplicar pelo número de criaturas na área. As especiais continuam com as escalas próprias das entidades, abaixo das do personagem.
+
+### D37 e D38 · dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md
+
+- D37 (G5-07), Lento: distâncias concedidas por capacidades, como a de Passo, também caem pela metade.
+- D38 (G1-04): "Inimigos e entidades seguem suas próprias regras de derrota" virou "Entidades seguem Invocações em campo. Um inimigo a zero de vida ou de Integridade é derrotado, e o mestre descreve o desfecho, como morte, fuga ou exorcismo, salvo uma regra da ficha dele."
+
+### D39 e D40 · caminhos/incursor/lote-01/INCURSOR.md
+
+- D39 (G3-02): Quebrar o Compasso só vale durante seu turno. Golpe Cirúrgico e Cortar a Fuga dizem "Antes do nível 19, só durante seu turno".
+- D40 (G3-06): Trajetória Perfeita usa "arma de uma mão com Longo Alcance de arremesso" (o Punhal e as quatro da categoria Arremesso).
+
+### D41 · Abertura e Consulta
+
+G4-11. O passo 5 da criação, a seção Equipamento e valores e a Ficha pronta pedem a situação, o TR e as perícias do Traje. Na ficha de repertório, a coluna de posição virou "Posição e recursos" e entrou a linha "Traje — situação, TR e perícias". Para a ficha continuar numa página, o traço da linha "Vestido, empunhado ou guardado" ficou mais curto.
+
 ## Validador editorial
 
 | Situação | Achados do `conferir_editorial.py` nos manuscritos alterados |

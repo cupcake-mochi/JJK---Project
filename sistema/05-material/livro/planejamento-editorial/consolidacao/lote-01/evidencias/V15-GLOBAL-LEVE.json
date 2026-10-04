@@ -1,22 +1,22 @@
 {
-  "data_utc": "2026-10-04T16:53:06.727643+00:00",
+  "data_utc": "2026-10-04T17:44:14.607970+00:00",
   "escopo": "Auditoria leve de metadados dos23donos de ORDEM.json; valida presença V01–V15, hashes do texto/PDF e índice crítico do manifesto. Não relê regras, não executa testes novamente e não altera documentos de outros donos.",
   "sha256_ordem": "02ad73793f3db9805ba980c68926d3a8ebb175ce1d2f685b94087e24c91c3daf",
   "fontes": 23,
-  "decisoes_registradas": 803,
+  "decisoes_registradas": 822,
   "donos_com_registro_contavel": 23,
   "checks_registrados": 4082,
   "unidades": [
     {
       "id": "ab",
       "arquivo": "abertura/lote-01/ABERTURA-E-CRIACAO.md",
-      "sha256_texto": "6778c50063b3549bce9e8e5c02961ec2aec0a803ceff75844e68fe9d7729bd1e",
-      "sha256_pdf": "50fd43a48197d1bdd583cda25eaac69ff97e477b87f6568fbf4b5bfed11c5b30",
+      "sha256_texto": "6b91f45d55c3383b014ac27c2c683bc6341533e63e639fd288634ec4e8529ded",
+      "sha256_pdf": "729b841c732b5f02fd4a70df4ee5ec62513878bf0a9ef5cb047a047319ef3778",
       "paginas": 13,
       "validadores_presentes": 15,
       "conferencia_checks": 110,
       "conferencia_ok": true,
-      "decisoes": 23,
+      "decisoes": 24,
       "resumo_decisoes": [
         {
           "id": "AB-01",
@@ -132,6 +132,11 @@
           "id": "REM11",
           "tema": "Durante a sessão, consulte Regras gerais para testes, movimento e ataques, Dano e recuperação para as consequências e Eq",
           "tipo": "editorial"
+        },
+        {
+          "id": "AB24",
+          "tema": "| 5",
+          "tipo": "decisão do autor"
         }
       ],
       "achados": [],
@@ -347,13 +352,13 @@
     {
       "id": "dano",
       "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
-      "sha256_texto": "44c41c7ce33b68d6284fa55b69d7fb43bc6fc28aa3b86c445007cad1dc807fea",
-      "sha256_pdf": "782c5527f30d05d7b82c2a4b1497648df36c99785ec96d651dce5ae1effaaac7",
+      "sha256_texto": "4876b7e0bfa863f787e73f75e0325174ee05ef520781f2b0f712a15ad1bf11d1",
+      "sha256_pdf": "c957453076c093dbcaa3cc869625fe9ece2818dd1e9b59171cc88799b7879d1c",
       "paginas": 20,
       "validadores_presentes": 15,
       "conferencia_checks": 163,
       "conferencia_ok": true,
-      "decisoes": 33,
+      "decisoes": 35,
       "resumo_decisoes": [
         {
           "id": "DR01",
@@ -518,6 +523,16 @@
         {
           "id": "DR33",
           "tema": "Ao chegar a **zero de vida**, você está **Morrendo**",
+          "tipo": "decisão do autor"
+        },
+        {
+          "id": "DR34",
+          "tema": "Seu deslocamento cai pela metade e você não pode usar Ação Bônus",
+          "tipo": "decisão do autor"
+        },
+        {
+          "id": "DR35",
+          "tema": "Estas regras são para personagens jogadores",
           "tipo": "decisão do autor"
         }
       ],
@@ -1122,13 +1137,13 @@
     {
       "id": "fundamento",
       "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
-      "sha256_texto": "107b1610f0bd2393bc5207ec51408bad2440932a7a4cb5f85404d4969f9aca0b",
-      "sha256_pdf": "fd0add2ef84633eaaaa7b9f6a23151b473ed5374666fe7cf3f20def3aee80689",
+      "sha256_texto": "7fc58fa8955f2a4f820906d02d1ed78d5d190e4091f4279ab6c0d0050a9a7f9f",
+      "sha256_pdf": "d0c4ffe270f8271f04d421c7e9cae9217b08f86850391cb33f73597b4f457645",
       "paginas": 29,
       "validadores_presentes": 15,
       "conferencia_checks": 233,
       "conferencia_ok": true,
-      "decisoes": 57,
+      "decisoes": 58,
       "resumo_decisoes": [
         {
           "id": "FU-01",
@@ -1414,6 +1429,11 @@
           "id": "FU-57",
           "tema": "Média de dano no exemplo de Máxima",
           "tipo": "E"
+        },
+        {
+          "id": "FU-58",
+          "tema": "Restrição Leve no Classe 0 com Toque ou Aura",
+          "tipo": "M"
         }
       ],
       "achados": [],
@@ -2210,13 +2230,13 @@
     {
       "id": "rotas",
       "arquivo": "rotas/lote-01/ROTAS.md",
-      "sha256_texto": "692a4f70bd144ccb5c7760c303162842fe0e29bdcb712843bc3f7947f2eaa4b6",
-      "sha256_pdf": "c0d1ad3f885f0b2e27edd4e5a3166dba0ca4eba5d8a66e02a6ef956db760921b",
+      "sha256_texto": "99c04d78b0d7ac7bff72a75ebb03cd103330f6a84c79aeecf24871f6975456ae",
+      "sha256_pdf": "1afd048909e1044652279e67861eedfea9e6b59d4f3a4ef4124d3a4e2d17b9e1",
       "paginas": 23,
       "validadores_presentes": 15,
       "conferencia_checks": 185,
       "conferencia_ok": true,
-      "decisoes": 36,
+      "decisoes": 37,
       "resumo_decisoes": [
         {
           "id": "R10-01",
@@ -2397,6 +2417,11 @@
           "id": "R10-36",
           "tema": "3",
           "tipo": "decisão do autor"
+        },
+        {
+          "id": "R10-37",
+          "tema": "Você recebe uma arma de cada categoria, todas de **grau 4**, e fica treinado nas três categorias, além dos treinos conce",
+          "tipo": "decisão do autor"
         }
       ],
       "achados": [],
@@ -2406,13 +2431,13 @@
     {
       "id": "poderes",
       "arquivo": "poderes-avancados/lote-01/PODERES-AVANCADOS.md",
-      "sha256_texto": "f8409ae24c39d5a3cb0d2dcf983796fcd5dff4b89f812b7ee0545fba32d184c4",
-      "sha256_pdf": "dc20e2b22d5b968d9ad9af7d24f4eb643c1d35353caf4ec4caf9244f555c5762",
+      "sha256_texto": "c0baf131ce40f69b35dc8ec182300f0ce8bec3d52127c3f4e40a53aaefb410d4",
+      "sha256_pdf": "ca95d4275d5a98f31b359bb802411e6e42ec0c3df231639c61b93c28b5dcb8fd",
       "paginas": 15,
       "validadores_presentes": 15,
       "conferencia_checks": 125,
       "conferencia_ok": true,
-      "decisoes": 34,
+      "decisoes": 35,
       "resumo_decisoes": [
         {
           "id": "R08-01",
@@ -2583,6 +2608,11 @@
           "id": "R08-34",
           "tema": "exemplos",
           "tipo": "retirada a pedido do autor"
+        },
+        {
+          "id": "R08-35",
+          "tema": "encerramento",
+          "tipo": "decisão do autor"
         }
       ],
       "achados": [],
@@ -2592,13 +2622,13 @@
     {
       "id": "ritual",
       "arquivo": "ritual-e-pactos/lote-01/RITUAL-E-PACTOS.md",
-      "sha256_texto": "d426344dac979f614ca77e1380bcb1c8d52629d410d4cba5fe1cbf2b2cc4f372",
-      "sha256_pdf": "c77d0b8c3b408b45f1d4b9a2df7aae142f7e3816b4194f8854627da0fd9d4086",
+      "sha256_texto": "e1928ed6f9ee9ccc246817333c5486428c37bb2b6840e11b610f979dcda65707",
+      "sha256_pdf": "d0255fc5ad508a3abe2c180f88705cc4a135eb35d6b4c3fb0eb30c7add3362fd",
       "paginas": 13,
       "validadores_presentes": 15,
       "conferencia_checks": 110,
       "conferencia_ok": true,
-      "decisoes": 33,
+      "decisoes": 34,
       "resumo_decisoes": [
         {
           "id": "RP-01",
@@ -2764,6 +2794,11 @@
           "id": "RP-33",
           "tema": "Sem treino, a maestria permanece na CD, mas não entra na rolagem.",
           "tipo": "retirada a pedido do autor"
+        },
+        {
+          "id": "RP-34",
+          "tema": "Técnica Máxima pode receber Ritual completo, preservando seu custo, recarga e resolução",
+          "tipo": "decisão do autor"
         }
       ],
       "achados": [],
@@ -2773,13 +2808,13 @@
     {
       "id": "campo",
       "arquivo": "invocacoes/lote-01/INVOCACOES-EM-CAMPO.md",
-      "sha256_texto": "d059e67ee19cca81de9e3a267e8f86ae0d8c221840ff972803737f5838160d4c",
-      "sha256_pdf": "758cd481c90034de718cc4550847173f6f7ed2fc2363e617191df14af455de64",
+      "sha256_texto": "c0482965c234fc289822b26be94afaadbc0743c515166fa308fe8ee065d3711b",
+      "sha256_pdf": "1231611bc6d94447c9d79d9d958c22435a3c595d1b905d7ebbb761ab985deaa1",
       "paginas": 31,
       "validadores_presentes": 15,
       "conferencia_checks": 236,
       "conferencia_ok": true,
-      "decisoes": 52,
+      "decisoes": 59,
       "resumo_decisoes": [
         {
           "id": "R11-01",
@@ -3040,6 +3075,41 @@
           "id": "R11-52",
           "tema": "Uma Forma de cura usa 19d8.",
           "tipo": "retirada a pedido do autor"
+        },
+        {
+          "id": "R11-53",
+          "tema": "A zero de vida, a entidade para de atuar",
+          "tipo": "decisão do autor"
+        },
+        {
+          "id": "R11-54",
+          "tema": "Corpos amaldiçoados não são recolhidos, sejam de técnica ou de criação",
+          "tipo": "decisão do autor"
+        },
+        {
+          "id": "R11-55",
+          "tema": "Uma especial que exija Concentração é sustentada pela entidade executora",
+          "tipo": "decisão do autor"
+        },
+        {
+          "id": "R11-56",
+          "tema": "Na troca, uma entidade sai e outra entra pagando a Bônus e o PE da entrada",
+          "tipo": "decisão do autor"
+        },
+        {
+          "id": "R11-57",
+          "tema": "Uma entidade segue o limite geral de carga de **5 + Força**, em Volume: o que ela veste, empunha ou leva conta nele",
+          "tipo": "decisão do autor"
+        },
+        {
+          "id": "R11-58",
+          "tema": "No seu turno, uma entidade pode gastar a básica para preparar uma ação que caiba na tarefa recebida",
+          "tipo": "decisão do autor"
+        },
+        {
+          "id": "R11-59",
+          "tema": "recolhê-la e trazer o cão / O mesmo acompanhamento impede que ficar recolhida se torne um meio de recuperação sem custo",
+          "tipo": "decisão do autor"
         }
       ],
       "achados": [],
@@ -3049,13 +3119,13 @@
     {
       "id": "construcao",
       "arquivo": "invocacoes/lote-02/CONSTRUIR-INVOCACOES.md",
-      "sha256_texto": "a4c48e8a12c39294745c4f575e4db9564c99f8ee83a102a3014ea8188e48a6eb",
-      "sha256_pdf": "997b5a78b95c7295a34381bf83b110dad69a40f8cd5ab76319c481b8f7f9864c",
+      "sha256_texto": "6f91d9f509a0abbd04912354a51b4f075310ebd79ff07f2b7ecb522bc174a3d2",
+      "sha256_pdf": "51917a0fc0bf4f6c11ab644ee897c5a16473078034c1f958c668226f06131837",
       "paginas": 27,
       "validadores_presentes": 15,
       "conferencia_checks": 218,
       "conferencia_ok": true,
-      "decisoes": 32,
+      "decisoes": 33,
       "resumo_decisoes": [
         {
           "id": "R12-01",
@@ -3216,6 +3286,11 @@
           "id": "R12-32",
           "tema": "A maestria é sempre a **do invocador**, inclusive para uma domada de nível menor",
           "tipo": "M decisão do autor"
+        },
+        {
+          "id": "R12-33",
+          "tema": "Some os dados iniciais e os adicionais da montagem uma vez, sem multiplicar pelo número de criaturas na área",
+          "tipo": "decisão do autor"
         }
       ],
       "achados": [],
@@ -3321,13 +3396,13 @@
     {
       "id": "consulta",
       "arquivo": "consulta/lote-01/CONSULTA.md",
-      "sha256_texto": "506bb779ba4772add62d7a1d05a399d59739a13bb0a882b5345e5c7e9641548e",
-      "sha256_pdf": "08a54a4284bdbba3767ead69c062a33eca0f595035f984a051bb604ee561be68",
+      "sha256_texto": "279351e084412734977e739a88b06a4142f452d02a21e3cb4c229c0ba7220115",
+      "sha256_pdf": "39a4e58ee3c20d9538226accb469604754b603081dfd5fbe47628a92ccada487",
       "paginas": 30,
       "validadores_presentes": 15,
       "conferencia_checks": 229,
       "conferencia_ok": true,
-      "decisoes": 31,
+      "decisoes": 32,
       "resumo_decisoes": [
         {
           "id": "R23-01",
@@ -3483,6 +3558,11 @@
           "id": "R23-31",
           "tema": "286 verbetes: entram Auge, Carregar (Restrição), Desligada, Discreta, Embainhada, Escudo, Manutenção (entidades), Ordens",
           "tipo": "remissão de índice"
+        },
+        {
+          "id": "R23-32",
+          "tema": "| Item e quantidade | Volume total | Posição e recursos | / **Volume carregado / limite:** ______ / ______ **Dinheiro:**",
+          "tipo": "decisão do autor"
         }
       ],
       "achados": [],
@@ -4106,13 +4186,13 @@
     {
       "id": "evocador",
       "arquivo": "caminhos/evocador/lote-01/EVOCADOR.md",
-      "sha256_texto": "77e47e82794850bf8e051fab789fe1e6acfa8f545a9b18d41f4f8f4bc8b45083",
-      "sha256_pdf": "4baacca9419f61e2fe6d796212f75b0e608ef0124554b6aee79f9ac9f8b49f0e",
+      "sha256_texto": "6c41cfd0d38b4a81705efd2243f1dbca40881c04a58521290761273318de4944",
+      "sha256_pdf": "97c14e7f6898a6444492b06a3f8570a0e9ece46cbc8dd2c8ad1cc22de1a0936d",
       "paginas": 33,
       "validadores_presentes": 15,
       "conferencia_checks": 250,
       "conferencia_ok": true,
-      "decisoes": 27,
+      "decisoes": 28,
       "resumo_decisoes": [
         {
           "id": "EV01",
@@ -4248,6 +4328,11 @@
           "id": "EV27",
           "tema": "Explicita contato e origem corporal preservados, permitindo origem externa de Cone/Linha quando compatível",
           "tipo": "Esclarecimento de compatibilidade e editorial"
+        },
+        {
+          "id": "EV28",
+          "tema": "substitua-a por uma invocação recolhida apropriada",
+          "tipo": "decisão do autor"
         }
       ],
       "achados": [],
@@ -4257,13 +4342,13 @@
     {
       "id": "incursor",
       "arquivo": "caminhos/incursor/lote-01/INCURSOR.md",
-      "sha256_texto": "2d9a8395eb486ee0afee78234c8c0ad3e2fd6314ebface6788b6842d85a53268",
-      "sha256_pdf": "fffeabaf0313aa172dfc812884fdbf3992e191b608bce7211cd079ceca531ede",
+      "sha256_texto": "f611d4df6ac364a9655e7531f0927a5ecf924555e1097bd402db6db45b7a2513",
+      "sha256_pdf": "3395250370e1fe3c7357b1fcc43165d7db23ab3e92776c98a169cf22d2c1fb06",
       "paginas": 26,
       "validadores_presentes": 15,
       "conferencia_checks": 202,
       "conferencia_ok": true,
-      "decisoes": 24,
+      "decisoes": 26,
       "resumo_decisoes": [
         {
           "id": "INC-01",
@@ -4383,6 +4468,16 @@
         {
           "id": "INC-24",
           "tema": "Após rolar o d20 e antes de o alvo escolher entre a Defesa e Bloquear, gaste Fluidez",
+          "tipo": "decisão do autor"
+        },
+        {
+          "id": "INC-25",
+          "tema": "**Fluidez + PE · Uma vez por turno seu.**\n\nAntes do nível 19, só durante seu turno",
+          "tipo": "decisão do autor"
+        },
+        {
+          "id": "INC-26",
+          "tema": "uma **arma de uma mão com Longo Alcance de arremesso**",
           "tipo": "decisão do autor"
         }
       ],

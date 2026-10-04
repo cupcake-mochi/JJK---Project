@@ -460,11 +460,10 @@ __________________________
 Equipamento
  Item e quantidade
 Volume total
-Situação e recursos
+Posição e recursos
 __________________
 ______
-Vestido, empunhado ou guardado:
-__________________
+Vestido, empunhado ou guardado: __________
 __________________
 ______
 Munição, cargas ou usos: __________________
@@ -472,6 +471,7 @@ __________________
 ______
 Empréstimo e devolução: __________________
 Volume carregado / limite: ______ / ______ Dinheiro: __________________
+Traje — situação, TR e perícias: ________________________________________
 Anote munição carregada e reserva separadamente. Ferramentas precisam de grau, efeito, requisitos e
 usos próprios. Um efeito guardado não deve aparecer como benefício ativo sem permissão.
 Recursos de sessão

@@ -1,5 +1,5 @@
 {
-  "sha256_pdf": "c0d1ad3f885f0b2e27edd4e5a3166dba0ca4eba5d8a66e02a6ef956db760921b",
+  "sha256_pdf": "1afd048909e1044652279e67861eedfea9e6b59d4f3a4ef4124d3a4e2d17b9e1",
   "revisor": "/root/rotas_didatica",
   "metodo": "Páginas alteradas abertas e inspecionadas. Demais páginas reutilizam inspeção anterior somente por igualdade de pixels, comprovada em COMPARACAO-VISUAL-2026-10-04.json.",
   "sha256_pdf_anterior": "730e0c332b656fc621056d13553fd402e628053ba93f7981903b37dcec248ad6",
@@ -22,14 +22,20 @@
     {
       "pagina": 3,
       "resultado": "sem defeito visual observado",
-      "metodo": "página alterada aberta e inspecionada em 04/10/2026, revisão por modelo",
-      "arquivo": null
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo",
+      "arquivo": null,
+      "observacoes": "Armas com o parágrafo Acesso; Atributo da Kata inteiro.",
+      "sha256_png": "0db0176224ee17e4dbba31cb3f91748855cc0ae40e9fada7f1e7f3b2c3b2130c",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
     },
     {
       "pagina": 4,
       "resultado": "sem defeito visual observado",
-      "metodo": "pixels idênticos à prova inspecionada",
-      "arquivo": "output/comparacao-nomes/depois/pagina-04.png"
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo",
+      "arquivo": null,
+      "observacoes": "Ferramenta com o acesso de Revestimento 2 ou 3; Ataques comuns e Mãos e voz inteiros.",
+      "sha256_png": "8847ed119c1ee0d41c0c49e3a6272af537715e3824143ebca0825b583ba78402",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
     },
     {
       "pagina": 5,
@@ -189,6 +195,17 @@
       10
     ],
     "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-04-quarta.json",
+    "metodo": "As páginas alteradas foram abertas; as demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "revisao_delta_2026_10_04_quinta_passada": {
+    "sha256_pdf_anterior": "c0d1ad3f885f0b2e27edd4e5a3166dba0ca4eba5d8a66e02a6ef956db760921b",
+    "sha256_pdf_atual": "1afd048909e1044652279e67861eedfea9e6b59d4f3a4ef4124d3a4e2d17b9e1",
+    "paginas_alteradas": [
+      3,
+      4
+    ],
+    "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-04-quinta.json",
     "metodo": "As páginas alteradas foram abertas; as demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado.",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
   }

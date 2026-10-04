@@ -1,5 +1,5 @@
 {
-  "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md": "107b1610f0bd2393bc5207ec51408bad2440932a7a4cb5f85404d4969f9aca0b",
+  "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md": "7fc58fa8955f2a4f820906d02d1ed78d5d190e4091f4279ab6c0d0050a9a7f9f",
   "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md": "61f9e65fdfdb59517c710fb6aa6e0e19631823212f3155572b40870c3b2670ff",
   "_cotejo_2026_10_04": {
     "fontes": {
@@ -24,6 +24,17 @@
       }
     },
     "motivo": "Delta cotejado contra a versão aceita: no Fundamento, o exemplo Fenda de Arrasto perdeu a frase da média de dano (D23). Nenhuma regra de entidade, custo ou limite usada por Construir invocações mudou.",
+    "registro": "../../revisao-interfaces/CORRECOES-APLICADAS.md",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "_cotejo_2026_10_04_quinta_passada": {
+    "fontes": {
+      "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md": {
+        "sha256_anterior": "107b1610f0bd2393bc5207ec51408bad2440932a7a4cb5f85404d4969f9aca0b",
+        "sha256_cotejado": "7fc58fa8955f2a4f820906d02d1ed78d5d190e4091f4279ab6c0d0050a9a7f9f"
+      }
+    },
+    "motivo": "Delta cotejado: no Fundamento, a exigência de Toque ou Aura no Classe 0 não ocupa a vaga da Restrição Leve (D35), o que Construir invocações já dizia para as entidades.",
     "registro": "../../revisao-interfaces/CORRECOES-APLICADAS.md",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
   }

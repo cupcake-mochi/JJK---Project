@@ -1,15 +1,15 @@
 {
   "ok": true,
   "manuscritos_auditados": {
-    "sistema/05-material/livro/planejamento-editorial/invocacoes/lote-01/INVOCACOES-EM-CAMPO.md": "d059e67ee19cca81de9e3a267e8f86ae0d8c221840ff972803737f5838160d4c"
+    "sistema/05-material/livro/planejamento-editorial/invocacoes/lote-01/INVOCACOES-EM-CAMPO.md": "c0482965c234fc289822b26be94afaadbc0743c515166fa308fe8ee065d3711b"
   },
   "fontes": {
     "sistema/05-material/livro/manual/60-invocacoes.md": "4df82e672d063b4d4bfe3394d93bb75052ec3e07d44d90b83c0ea32f10439f82",
     "invocacoes/05-Edicao-Integrada/60-invocacoes.md": "4df82e672d063b4d4bfe3394d93bb75052ec3e07d44d90b83c0ea32f10439f82",
     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md": "948dc94babd1d17022e5a3b5b817e160d2cf1e92c61d37d02462f412ff4e1e44",
-    "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md": "107b1610f0bd2393bc5207ec51408bad2440932a7a4cb5f85404d4969f9aca0b",
+    "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md": "7fc58fa8955f2a4f820906d02d1ed78d5d190e4091f4279ab6c0d0050a9a7f9f",
     "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md": "61f9e65fdfdb59517c710fb6aa6e0e19631823212f3155572b40870c3b2670ff",
-    "sistema/05-material/livro/planejamento-editorial/poderes-avancados/lote-01/PODERES-AVANCADOS.md": "f8409ae24c39d5a3cb0d2dcf983796fcd5dff4b89f812b7ee0545fba32d184c4",
+    "sistema/05-material/livro/planejamento-editorial/poderes-avancados/lote-01/PODERES-AVANCADOS.md": "c0baf131ce40f69b35dc8ec182300f0ce8bec3d52127c3f4e40a53aaefb410d4",
     "sistema/05-material/livro/planejamento-editorial/pericias-e-oficios/lote-01/PERICIAS-E-OFICIOS.md": "2d8ba86ef20865c3022197ab4c8027f3b2bf43dde353e35e14d76c0d0e9aafae"
   },
   "verificacoes": [
@@ -241,7 +241,7 @@
     {
       "id": "volume-inv-troca",
       "passou": true,
-      "detalhe": 263
+      "detalhe": 276
     },
     {
       "id": "titulo-inv-troca",
@@ -291,7 +291,7 @@
     {
       "id": "volume-inv-energia",
       "passou": true,
-      "detalhe": 322
+      "detalhe": 331
     },
     {
       "id": "titulo-inv-energia",
@@ -341,7 +341,7 @@
     {
       "id": "volume-inv-preparar",
       "passou": true,
-      "detalhe": 281
+      "detalhe": 300
     },
     {
       "id": "titulo-inv-preparar",
@@ -476,7 +476,7 @@
     {
       "id": "volume-inv-corpos",
       "passou": true,
-      "detalhe": 365
+      "detalhe": 379
     },
     {
       "id": "titulo-inv-corpos",
@@ -606,7 +606,7 @@
     {
       "id": "volume-inv-queda",
       "passou": true,
-      "detalhe": 276
+      "detalhe": 341
     },
     {
       "id": "titulo-inv-queda",
@@ -616,7 +616,7 @@
     {
       "id": "volume-inv-retorno",
       "passou": true,
-      "detalhe": 286
+      "detalhe": 297
     },
     {
       "id": "titulo-inv-retorno",
@@ -691,7 +691,7 @@
     {
       "id": "volume-inv-carga",
       "passou": true,
-      "detalhe": 269
+      "detalhe": 300
     },
     {
       "id": "titulo-inv-carga",
@@ -6887,15 +6887,15 @@
     "inv-campo": 256,
     "inv-ciclo": 286,
     "inv-entrada": 272,
-    "inv-troca": 263,
+    "inv-troca": 276,
     "inv-intencao": 273,
     "inv-comunicacao": 262,
     "inv-basica": 343,
     "inv-especial": 258,
-    "inv-energia": 322,
+    "inv-energia": 331,
     "inv-antecipada": 264,
     "inv-pendentes": 271,
-    "inv-preparar": 281,
+    "inv-preparar": 300,
     "inv-gatilhos": 269,
     "inv-tempo": 280,
     "inv-restricoes-tempo": 375,
@@ -6903,18 +6903,18 @@
     "inv-defesa": 273,
     "inv-respostas": 303,
     "inv-talisma": 259,
-    "inv-corpos": 365,
+    "inv-corpos": 379,
     "inv-reparo": 355,
     "inv-liberacao": 334,
     "inv-maxima": 275,
     "inv-dominio": 322,
-    "inv-queda": 276,
-    "inv-retorno": 286,
+    "inv-queda": 341,
+    "inv-retorno": 297,
     "inv-fora": 267,
     "inv-inconsciente": 252,
     "inv-manutencao": 258,
     "inv-morte": 271,
-    "inv-carga": 269
+    "inv-carga": 300
   },
   "limites": [
     "Modelo dirigido das regras de R11; não executa a ficha completa, cenas humanas ou regras de toda habilidade de Caminho.",

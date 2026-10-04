@@ -1,11 +1,15 @@
 {
   "sistema/05-material/livro/planejamento-editorial/invocacoes/lote-02/CONSTRUIR-INVOCACOES.md": {
-    "sha256_final": "a4c48e8a12c39294745c4f575e4db9564c99f8ee83a102a3014ea8188e48a6eb",
-    "motivo": "Atualização cotejada em 04/10/2026 (C10 e D02b, revisao-interfaces/CORRECOES-APLICADAS.json): ataque da entidade com Classe 0 ou arma, Defesa com teto da peça e volta de corpos excedentes com trava. A volta é a regra para a qual esta unidade remete; regras de fabricação intactas. Revisão por modelo.",
+    "sha256_final": "6f91d9f509a0abbd04912354a51b4f075310ebd79ff07f2b7ecb522bc174a3d2",
+    "motivo": "Atualização cotejada em 04/10/2026 (D36): o teto de 4 × Classe das especiais passou a seguir FU-27. As regras de fabricação estão intactas. Revisão por modelo.",
     "evidencia": "MIGRACAO.json e REMISSOES-FINAIS.json dos donos; fontes originais preservadas.",
     "historico_2026_10_04": {
       "sha256_anterior": "bd3d2cc16b5a6c2b373eba1f0ebfabfbc548bae3d6a7cd2eec6dcbb4bfab95d9",
       "motivo": "Atualização concorrente cotejada: reserva e remissões previamente aprovadas em R11/R12, seguida da migração nominal. R04 REM03/12 somente referências textuais; regras de fabricação intactas."
+    },
+    "historico_2026_10_04_quinta_passada": {
+      "sha256_anterior": "a4c48e8a12c39294745c4f575e4db9564c99f8ee83a102a3014ea8188e48a6eb",
+      "motivo": "Atualização cotejada em 04/10/2026 (C10 e D02b, revisao-interfaces/CORRECOES-APLICADAS.json): ataque da entidade com Classe 0 ou arma, Defesa com teto da peça e volta de corpos excedentes com trava. A volta é a regra para a qual esta unidade remete; regras de fabricação intactas. Revisão por modelo."
     }
   },
   "sistema/05-material/livro/planejamento-editorial/pericias-e-oficios/lote-01/PERICIAS-E-OFICIOS.md": {
@@ -19,8 +23,8 @@
     "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana."
   },
   "sistema/05-material/livro/planejamento-editorial/invocacoes/lote-01/INVOCACOES-EM-CAMPO.md": {
-    "sha256_final": "d059e67ee19cca81de9e3a267e8f86ae0d8c221840ff972803737f5838160d4c",
-    "motivo": "Atualização cotejada em 04/10/2026 (D24, revisao-interfaces/CORRECOES-APLICADAS.json): o exemplo da Máxima da domada perdeu só a média de cura. A volta de corpos excedentes, para a qual esta unidade remete, e as regras de fabricação estão intactas. Revisão por modelo.",
+    "sha256_final": "c0482965c234fc289822b26be94afaadbc0743c515166fa308fe8ee065d3711b",
+    "motivo": "Atualização cotejada em 04/10/2026 (D25 a D31): Integridade, domada sem recolhimento, concentração, retorno em troca, carga, preparar deslocamento e o termo reserva. As regras de fabricação e a volta de corpos excedentes, para a qual esta unidade remete, estão intactas. Revisão por modelo.",
     "evidencia": "MIGRACAO.json e REMISSOES-FINAIS.json dos donos; fontes originais preservadas.",
     "historico_2026_10_04": {
       "sha256_anterior": "297d96084502eb65780b9ed2ac4f7e121a235cfdbb6e41db254f980e55393dcd",
@@ -29,6 +33,10 @@
     "historico_2026_10_04_quarta_passada": {
       "sha256_anterior": "b9ee96c405359f6fe879f55dd972ca8a32cc565c8c318c241be2b73047519d38",
       "motivo": "Atualização cotejada em 04/10/2026 (D02 e D03, revisao-interfaces/CORRECOES-APLICADAS.json): ataque da entidade com Classe 0 ou arma, Defesa com teto da peça e volta de corpos excedentes com trava. A volta é a regra para a qual esta unidade remete; regras de fabricação intactas. Revisão por modelo."
+    },
+    "historico_2026_10_04_quinta_passada": {
+      "sha256_anterior": "d059e67ee19cca81de9e3a267e8f86ae0d8c221840ff972803737f5838160d4c",
+      "motivo": "Atualização cotejada em 04/10/2026 (D24, revisao-interfaces/CORRECOES-APLICADAS.json): o exemplo da Máxima da domada perdeu só a média de cura. A volta de corpos excedentes, para a qual esta unidade remete, e as regras de fabricação estão intactas. Revisão por modelo."
     }
   }
 }

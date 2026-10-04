@@ -1087,77 +1087,77 @@
   {
     "ancora": "incursor--inc-parkour",
     "pagina": 153,
-    "y": 259.96
+    "y": 245.96
   },
   {
     "ancora": "incursor--inc-brecha",
     "pagina": 154,
-    "y": 335.36
+    "y": 281.56
   },
   {
     "ancora": "incursor--inc-pugilista",
     "pagina": 155,
-    "y": 498.76
+    "y": 431.16
   },
   {
     "ancora": "incursor--inc-corpo",
     "pagina": 156,
-    "y": 776.36
+    "y": 687.56
   },
   {
     "ancora": "incursor--inc-base",
     "pagina": 156,
-    "y": 252.96
+    "y": 164.16
   },
   {
     "ancora": "incursor--inc-interceptar",
     "pagina": 157,
-    "y": 465.96
+    "y": 357.96
   },
   {
     "ancora": "incursor--inc-projecao",
     "pagina": 158,
-    "y": 594.16
+    "y": 470.56
   },
   {
     "ancora": "incursor--inc-redirecionar",
     "pagina": 159,
-    "y": 776.36
+    "y": 673.56
   },
   {
     "ancora": "incursor--inc-redirecionar-resolucao",
     "pagina": 159,
-    "y": 287.76
+    "y": 184.96
   },
   {
     "ancora": "incursor--inc-malabarista",
     "pagina": 160,
-    "y": 660.56
+    "y": 552.56
   },
   {
     "ancora": "incursor--inc-continuacoes",
     "pagina": 161,
-    "y": 776.36
+    "y": 715.56
   },
   {
     "ancora": "incursor--inc-ricochete",
     "pagina": 161,
-    "y": 206.76
+    "y": 145.96
   },
   {
     "ancora": "incursor--inc-destino",
     "pagina": 162,
-    "y": 429.36
+    "y": 381.56
   },
   {
     "ancora": "incursor--inc-retorno",
     "pagina": 163,
-    "y": 776.36
+    "y": 707.36
   },
   {
     "ancora": "incursor--inc-finta",
     "pagina": 163,
-    "y": 316.76
+    "y": 247.76
   },
   {
     "ancora": "incursor--inc-perfeita",
@@ -1602,7 +1602,7 @@
   {
     "ancora": "fundamento--proprio",
     "pagina": 235,
-    "y": 253.76
+    "y": 239.76
   },
   {
     "ancora": "fundamento--liberacao",
@@ -1921,103 +1921,103 @@
   },
   {
     "ancora": "rotas--rota-ferramenta",
-    "pagina": 280,
-    "y": 139.76
+    "pagina": 281,
+    "y": 776.36
   },
   {
     "ancora": "rotas--rota-passivas-marciais",
     "pagina": 281,
-    "y": 418.16
+    "y": 328.36
   },
   {
     "ancora": "rotas--rota-passivas-resposta",
     "pagina": 282,
-    "y": 776.36
+    "y": 667.56
   },
   {
     "ancora": "rotas--rota-fisga",
     "pagina": 282,
-    "y": 348.16
+    "y": 239.36
   },
   {
     "ancora": "rotas--rota-bancada",
     "pagina": 283,
-    "y": 543.96
+    "y": 435.76
   },
   {
     "ancora": "rotas--rota-invocacoes",
     "pagina": 284,
-    "y": 667.56
+    "y": 583.76
   },
   {
     "ancora": "rotas--rota-sem-tecnica",
     "pagina": 284,
-    "y": 261.56
+    "y": 177.76
   },
   {
     "ancora": "rotas--rota-sementes",
     "pagina": 285,
-    "y": 516.96
+    "y": 439.96
   },
   {
     "ancora": "rotas--rota-cura",
     "pagina": 286,
-    "y": 776.36
+    "y": 651.36
   },
   {
     "ancora": "rotas--rota-redoma",
-    "pagina": 286,
-    "y": 315.56
+    "pagina": 287,
+    "y": 776.36
   },
   {
     "ancora": "rotas--rota-sutura",
     "pagina": 287,
-    "y": 497.56
+    "y": 302.96
   },
   {
     "ancora": "rotas--rota-espinho",
     "pagina": 288,
-    "y": 665.36
+    "y": 515.96
   },
   {
     "ancora": "rotas--rota-lapidacao",
-    "pagina": 288,
-    "y": 141.76
+    "pagina": 289,
+    "y": 701.36
   },
   {
     "ancora": "rotas--rota-bencaos",
     "pagina": 289,
-    "y": 298.16
+    "y": 161.36
   },
   {
     "ancora": "rotas--rota-defesa",
     "pagina": 290,
-    "y": 317.16
+    "y": 194.96
   },
   {
     "ancora": "rotas--rota-estimulo",
     "pagina": 291,
-    "y": 493.76
+    "y": 375.96
   },
   {
     "ancora": "rotas--rota-corpo",
     "pagina": 292,
-    "y": 670.36
+    "y": 520.16
   },
   {
     "ancora": "rotas--rota-perseguicao",
-    "pagina": 292,
-    "y": 200.16
+    "pagina": 293,
+    "y": 735.36
   },
   {
     "ancora": "rotas--rota-combate",
     "pagina": 293,
-    "y": 479.96
+    "y": 307.16
   },
   {
     "ancora": "rotas--rota-propria",
     "pagina": 294,
-    "y": 701.56
+    "y": 527.76
   },
   {
     "ancora": "capitulo-14",
@@ -2062,12 +2062,12 @@
   {
     "ancora": "poderes--sembarreiras",
     "pagina": 299,
-    "y": 302.36
+    "y": 288.36
   },
   {
     "ancora": "poderes--disputa",
     "pagina": 300,
-    "y": 569.76
+    "y": 535.96
   },
   {
     "ancora": "poderes--manterdisputa",
@@ -2202,47 +2202,47 @@
   {
     "ancora": "campo--inv-intencao",
     "pagina": 317,
-    "y": 646.56
+    "y": 659.56
   },
   {
     "ancora": "campo--inv-comunicacao",
     "pagina": 317,
-    "y": 277.76
+    "y": 290.76
   },
   {
     "ancora": "campo--inv-basica",
     "pagina": 318,
-    "y": 606.96
+    "y": 640.76
   },
   {
     "ancora": "campo--inv-especial",
     "pagina": 318,
-    "y": 181.16
+    "y": 214.96
   },
   {
     "ancora": "campo--inv-energia",
     "pagina": 319,
-    "y": 517.16
+    "y": 564.96
   },
   {
     "ancora": "campo--inv-antecipada",
-    "pagina": 320,
-    "y": 776.36
+    "pagina": 319,
+    "y": 172.16
   },
   {
     "ancora": "campo--inv-pendentes",
     "pagina": 320,
-    "y": 401.76
+    "y": 477.56
   },
   {
     "ancora": "campo--inv-preparar",
     "pagina": 321,
-    "y": 721.36
+    "y": 776.36
   },
   {
     "ancora": "campo--inv-gatilhos",
     "pagina": 321,
-    "y": 363.36
+    "y": 404.36
   },
   {
     "ancora": "campo--inv-tempo",
@@ -2282,7 +2282,7 @@
   {
     "ancora": "campo--inv-reparo",
     "pagina": 326,
-    "y": 612.76
+    "y": 564.96
   },
   {
     "ancora": "campo--inv-liberacao",
@@ -2307,32 +2307,32 @@
   {
     "ancora": "campo--inv-retorno",
     "pagina": 329,
-    "y": 561.76
+    "y": 480.16
   },
   {
     "ancora": "campo--inv-fora",
-    "pagina": 329,
-    "y": 213.76
+    "pagina": 330,
+    "y": 776.36
   },
   {
     "ancora": "campo--inv-inconsciente",
     "pagina": 330,
-    "y": 562.76
+    "y": 425.16
   },
   {
     "ancora": "campo--inv-manutencao",
-    "pagina": 330,
-    "y": 187.76
+    "pagina": 331,
+    "y": 682.36
   },
   {
     "ancora": "campo--inv-morte",
     "pagina": 331,
-    "y": 551.96
+    "y": 348.36
   },
   {
     "ancora": "campo--inv-carga",
-    "pagina": 331,
-    "y": 151.56
+    "pagina": 332,
+    "y": 647.56
   },
   {
     "ancora": "capitulo-17",

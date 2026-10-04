@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "sha256_texto": "506bb779ba4772add62d7a1d05a399d59739a13bb0a882b5345e5c7e9641548e",
+  "sha256_texto": "279351e084412734977e739a88b06a4142f452d02a21e3cb4c229c0ba7220115",
   "manuscritos_auditados": {
-    "sistema/05-material/livro/planejamento-editorial/consulta/lote-01/CONSULTA.md": "506bb779ba4772add62d7a1d05a399d59739a13bb0a882b5345e5c7e9641548e"
+    "sistema/05-material/livro/planejamento-editorial/consulta/lote-01/CONSULTA.md": "279351e084412734977e739a88b06a4142f452d02a21e3cb4c229c0ba7220115"
   },
   "verificacoes": 1032,
   "casos_executados": 48,
@@ -14049,8 +14049,8 @@
     },
     {
       "verificacao": "Revisão editorial do hash atual",
-      "obtido": "506bb779ba4772add62d7a1d05a399d59739a13bb0a882b5345e5c7e9641548e",
-      "esperado": "506bb779ba4772add62d7a1d05a399d59739a13bb0a882b5345e5c7e9641548e",
+      "obtido": "279351e084412734977e739a88b06a4142f452d02a21e3cb4c229c0ba7220115",
+      "esperado": "279351e084412734977e739a88b06a4142f452d02a21e3cb4c229c0ba7220115",
       "ok": true
     },
     {

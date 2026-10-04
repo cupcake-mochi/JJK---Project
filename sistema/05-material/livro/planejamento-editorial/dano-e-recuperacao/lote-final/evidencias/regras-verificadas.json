@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "sha256_texto": "44c41c7ce33b68d6284fa55b69d7fb43bc6fc28aa3b86c445007cad1dc807fea",
+  "sha256_texto": "4876b7e0bfa863f787e73f75e0325174ee05ef520781f2b0f712a15ad1bf11d1",
   "verificacoes": 55,
   "evidencias": [
     "AUDITORIA.json",
@@ -12,6 +12,12 @@
     "sha256_anterior": "b4035a501c87ada84e73e5951cdf41639c850d644cfe4cb8812575d8a0bc1c43",
     "auditoria_reexecutada": "evidencias/AUDITORIA.json",
     "resultado": "ok, 55 verificações. A frase nova (D05) não muda custo, janela nem limiar; a ordem que ela fixa não é modelada pelo auditor.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "revisao_delta_2026_10_04_quinta_passada": {
+    "sha256_anterior": "44c41c7ce33b68d6284fa55b69d7fb43bc6fc28aa3b86c445007cad1dc807fea",
+    "auditoria_reexecutada": "evidencias/auditoria-numerica.json",
+    "resultado": "ok; Lento corta distâncias concedidas (D37) e a derrota de inimigos ganhou frase própria (D38).",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
   }
 }

@@ -3,7 +3,7 @@
     {
       "documento": "ab",
       "arquivo": "abertura/lote-01/ABERTURA-E-CRIACAO.md",
-      "sha256_atual": "6778c50063b3549bce9e8e5c02961ec2aec0a803ceff75844e68fe9d7729bd1e",
+      "sha256_atual": "6b91f45d55c3383b014ac27c2c683bc6341533e63e639fd288634ec4e8529ded",
       "sha256_base": "8c0e790f36fdffca4b5c148b7bcdfc2376a7bdcf65b2c5867c7a126c8ac1f887",
       "delta_exclusivamente_remissoes": 0,
       "validadores": "abertura/lote-01/VALIDADORES.json",
@@ -39,7 +39,7 @@
     {
       "documento": "dano",
       "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
-      "sha256_atual": "44c41c7ce33b68d6284fa55b69d7fb43bc6fc28aa3b86c445007cad1dc807fea",
+      "sha256_atual": "4876b7e0bfa863f787e73f75e0325174ee05ef520781f2b0f712a15ad1bf11d1",
       "sha256_base": "b4035a501c87ada84e73e5951cdf41639c850d644cfe4cb8812575d8a0bc1c43",
       "delta_exclusivamente_remissoes": 0,
       "validadores": "dano-e-recuperacao/lote-final/VALIDADORES.json",
@@ -113,7 +113,7 @@
     {
       "documento": "fundamento",
       "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
-      "sha256_atual": "107b1610f0bd2393bc5207ec51408bad2440932a7a4cb5f85404d4969f9aca0b",
+      "sha256_atual": "7fc58fa8955f2a4f820906d02d1ed78d5d190e4091f4279ab6c0d0050a9a7f9f",
       "sha256_base": "0160f774f5ea87f4ffd29bb7f7e3335dead51677bf2b894041aa61e2c5041273",
       "delta_exclusivamente_remissoes": 1,
       "validadores": "fundamento/lote-01/VALIDADORES.json",
@@ -168,7 +168,7 @@
     {
       "documento": "rotas",
       "arquivo": "rotas/lote-01/ROTAS.md",
-      "sha256_atual": "692a4f70bd144ccb5c7760c303162842fe0e29bdcb712843bc3f7947f2eaa4b6",
+      "sha256_atual": "99c04d78b0d7ac7bff72a75ebb03cd103330f6a84c79aeecf24871f6975456ae",
       "sha256_base": "cbdc3648f5faa76a3973fd1dc9b8d196a5e46d5508163bc2e3720b33c2512a40",
       "delta_exclusivamente_remissoes": 0,
       "validadores": "rotas/lote-01/VALIDADORES.json",
@@ -186,7 +186,7 @@
     {
       "documento": "poderes",
       "arquivo": "poderes-avancados/lote-01/PODERES-AVANCADOS.md",
-      "sha256_atual": "f8409ae24c39d5a3cb0d2dcf983796fcd5dff4b89f812b7ee0545fba32d184c4",
+      "sha256_atual": "c0baf131ce40f69b35dc8ec182300f0ce8bec3d52127c3f4e40a53aaefb410d4",
       "sha256_base": "2b1c02cb3407a7aec6ef385a00726e1d131020b3f2b110b433bfcedf28f2854f",
       "delta_exclusivamente_remissoes": 1,
       "validadores": "poderes-avancados/lote-01/VALIDADORES.json",
@@ -204,7 +204,7 @@
     {
       "documento": "ritual",
       "arquivo": "ritual-e-pactos/lote-01/RITUAL-E-PACTOS.md",
-      "sha256_atual": "d426344dac979f614ca77e1380bcb1c8d52629d410d4cba5fe1cbf2b2cc4f372",
+      "sha256_atual": "e1928ed6f9ee9ccc246817333c5486428c37bb2b6840e11b610f979dcda65707",
       "sha256_base": "a7681d1808a2ccb1cfdf0164119cadcae34f0012bf6a4353bdea6fa366e61ee2",
       "delta_exclusivamente_remissoes": 0,
       "validadores": "ritual-e-pactos/lote-01/VALIDADORES.json",
@@ -222,7 +222,7 @@
     {
       "documento": "campo",
       "arquivo": "invocacoes/lote-01/INVOCACOES-EM-CAMPO.md",
-      "sha256_atual": "d059e67ee19cca81de9e3a267e8f86ae0d8c221840ff972803737f5838160d4c",
+      "sha256_atual": "c0482965c234fc289822b26be94afaadbc0743c515166fa308fe8ee065d3711b",
       "sha256_base": "297d96084502eb65780b9ed2ac4f7e121a235cfdbb6e41db254f980e55393dcd",
       "delta_exclusivamente_remissoes": 0,
       "validadores": "invocacoes/lote-01/VALIDADORES.json",
@@ -240,7 +240,7 @@
     {
       "documento": "construcao",
       "arquivo": "invocacoes/lote-02/CONSTRUIR-INVOCACOES.md",
-      "sha256_atual": "a4c48e8a12c39294745c4f575e4db9564c99f8ee83a102a3014ea8188e48a6eb",
+      "sha256_atual": "6f91d9f509a0abbd04912354a51b4f075310ebd79ff07f2b7ecb522bc174a3d2",
       "sha256_base": "bd3d2cc16b5a6c2b373eba1f0ebfabfbc548bae3d6a7cd2eec6dcbb4bfab95d9",
       "delta_exclusivamente_remissoes": 5,
       "validadores": "invocacoes/lote-02/VALIDADORES.json",
@@ -276,7 +276,7 @@
     {
       "documento": "consulta",
       "arquivo": "consulta/lote-01/CONSULTA.md",
-      "sha256_atual": "506bb779ba4772add62d7a1d05a399d59739a13bb0a882b5345e5c7e9641548e",
+      "sha256_atual": "279351e084412734977e739a88b06a4142f452d02a21e3cb4c229c0ba7220115",
       "sha256_base": "a4d4b68bbed3c62efdc849ab32a08350694f6653bdeea08ec71874b5aada4980",
       "delta_exclusivamente_remissoes": 0,
       "validadores": "consulta/lote-01/VALIDADORES.json",
@@ -350,17 +350,25 @@
     {
       "documento": "evocador",
       "arquivo": "caminhos/evocador/lote-01/EVOCADOR.md",
-      "sha256_atual": "77e47e82794850bf8e051fab789fe1e6acfa8f545a9b18d41f4f8f4bc8b45083",
+      "sha256_atual": "6c41cfd0d38b4a81705efd2243f1dbca40881c04a58521290761273318de4944",
       "sha256_base": "77e47e82794850bf8e051fab789fe1e6acfa8f545a9b18d41f4f8f4bc8b45083",
       "delta_exclusivamente_remissoes": 0,
       "validadores": "caminhos/evocador/lote-01/VALIDADORES.json",
       "decisoes": "caminhos/evocador/lote-01/ALTERACOES.json",
-      "conferencia_anterior_aprovada": true
+      "conferencia_anterior_aprovada": true,
+      "sha256_em_03_10": "77e47e82794850bf8e051fab789fe1e6acfa8f545a9b18d41f4f8f4bc8b45083",
+      "delta_2026_10_04": {
+        "registros": [
+          "revisao-interfaces/CORRECOES-APLICADAS.md"
+        ],
+        "validadores": "caminhos/evocador/lote-01/VALIDADORES.json",
+        "conferencia_atual_aprovada": true
+      }
     },
     {
       "documento": "incursor",
       "arquivo": "caminhos/incursor/lote-01/INCURSOR.md",
-      "sha256_atual": "2d9a8395eb486ee0afee78234c8c0ad3e2fd6314ebface6788b6842d85a53268",
+      "sha256_atual": "f611d4df6ac364a9655e7531f0927a5ecf924555e1097bd402db6db45b7a2513",
       "sha256_base": "3705e460791db6ae03b79eb2f7b25d13936a1c1ab54ddba616fa3872407f09f1",
       "delta_exclusivamente_remissoes": 2,
       "validadores": "caminhos/incursor/lote-01/VALIDADORES.json",
@@ -403,9 +411,9 @@
   "conclusao": "23fontes com15validadores e conferência anterior aprovada. Delta final reproduzido integralmente a partir dos17 ajustes registrados, sem mudanças mecânicas adicionais.",
   "limites": "Provas por unidade conservadas como histórico; validação visual e estrutural da entrega pertence ao PDF reunido atual.",
   "fechamento_2026_10_04": {
-    "fontes_com_texto_novo": 18,
-    "pdf": "42d9207037ed22db62f68af3b9936ba22a8c2887aa097496116b0842784c9095",
-    "conclusao": "As 23 fontes conferem com GERACAO.json do PDF atual. 18 mudaram depois de 03/10, todas registradas em revisao-interfaces/CORRECOES-APLICADAS.md (correções C01–C14, decisões D01–D24) ou, sem mudança de texto, em provas-cinco-capitulos; as 23 conferências de unidade estão aprovadas no estado atual. A publicação v0.331 continua preservada.",
+    "fontes_com_texto_novo": 19,
+    "pdf": "4ae5931dc24a7ffda17d62460a6a28c9a834d6805fc5e53f7004cd40bb25fae1",
+    "conclusao": "As 23 fontes conferem com GERACAO.json do PDF atual. 19 mudaram depois de 03/10, todas registradas em revisao-interfaces/CORRECOES-APLICADAS.md (correções C01–C14, decisões D01–D41) ou, sem mudança de texto, em provas-cinco-capitulos; as 23 conferências de unidade estão aprovadas no estado atual. A publicação v0.331 continua preservada.",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
   }
 }

@@ -65,7 +65,7 @@ Uma Liberação usa Ritual completo ou Recitação Prolongada. Pague seus PE e e
 
 **Só na Recitação Prolongada de uma Liberação**, acrescente **metade da Classe em d8, para baixo, mínimo 1**, depois de montar seu dano. Esses dados podem exceder o teto de 4 × Classe. Classe 3 recebe +1d8, Classes 4–5 recebem +2d8 e Classes 6–7 recebem +3d8.
 
-Técnica Máxima pode receber Ritual completo, preservando seu custo, recarga e resolução. Não recebe os dados excepcionais da Liberação e não pode ser guardada por Recitação Prolongada.
+Técnica Máxima pode receber Ritual completo, preservando seu custo, recarga e resolução. Use sua maior Classe como Classe do feitiço no teste, na penalidade de falha e nas Melhorias de Ritual. Não recebe os dados excepcionais da Liberação e não pode ser guardada por Recitação Prolongada.
 
 <!-- page:rit-melhorias|Melhorias de Ritual -->
 # Melhorias de Ritual

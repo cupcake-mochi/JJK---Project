@@ -265,3 +265,11 @@ Candidata de 03/10/2026. E: edição textual. M: mudança ou fechamento mecânic
 **Depois:** Sem treino, a maestria permanece na CD, mas não entra na rolagem.
 
 **Motivo:** Pedido do autor em 04/10/2026 ("Pode remover, qualquer coisa semelhante tbm"): conta de projetista retirada do livro do jogador (revisao-interfaces/CORRECOES-APLICADAS.md, D19 a D24). A regra fica.
+
+## RP-34 — decisão do autor
+
+**Antes:** Técnica Máxima pode receber Ritual completo, preservando seu custo, recarga e resolução.
+
+**Depois:** Técnica Máxima pode receber Ritual completo, preservando seu custo, recarga e resolução. Use sua maior Classe como Classe do feitiço no teste, na penalidade de falha e nas Melhorias de Ritual.
+
+**Motivo:** Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G5-08 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D34).

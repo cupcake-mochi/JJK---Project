@@ -1,5 +1,10 @@
 Continuidade pós-revisão — conferência de 04/10/2026
 
+ATUALIZAÇÃO, MESMO DIA: QUINTA PASSADA — REVISÃO DE INTERFACES FECHADA
+O Mizuki decidiu os 18 achados restantes, aceitando a sugestão em todos (D25 a D41; na 9, a permissão do mestre pode conceder o acesso). Onze capítulos mudaram; antes, depois, motivo e efeito na mesa em revisao-interfaces/CORRECOES-APLICADAS.md, e o que precisa chegar às peças em migracao-pos-candidata/PLANO.md.
+PDF vigente: 382 páginas, SHA-256 4ae5931dc24a7ffda17d62460a6a28c9a834d6805fc5e53f7004cd40bb25fae1; 59 páginas mudaram, todas abertas; cadeia visual sem lacuna. ZIP refeito com o mesmo nome: SHA-256 bda1337af3ef6c965c5da8ac0981a1b424c7737be4c01c63c223abdb8171db54, 1389 arquivos, PDF reproduzido idêntico.
+Próximos passos: mesclar o PR #2 (decisão do Mizuki), etapa artística numa branch nova, teste com leitores e migração para as peças.
+
 ATUALIZAÇÃO, MESMO DIA: PENDÊNCIAS PEQUENAS
 Paginação: o gerador não deixa mais tabela partida com uma linha sozinha, nem título sozinho no pé da página. Antes eram 10 tabelas e 12 títulos. O conferir_livro.py confere as duas coisas no PDF (agora 3505 verificações) e foi testado por perturbação (consolidacao/lote-01/evidencias/perturbacao-paginacao.txt). Nenhum texto mudou; o livro continua com 382 páginas. Mudaram 115 páginas, todas abertas; a cadeia visual continua sem lacuna. PDF: 42d9207037ed22db62f68af3b9936ba22a8c2887aa097496116b0842784c9095.
 Auditores: cinco reescreviam a evidência só por rodar de novo (quatro apagavam o bloco revisao_delta e o Equipamento mudava a ordem de conjuntos). Consertados e testados com três sementes (revisao-interfaces/evidencias/estabilidade-auditores-2026-10-04.txt).

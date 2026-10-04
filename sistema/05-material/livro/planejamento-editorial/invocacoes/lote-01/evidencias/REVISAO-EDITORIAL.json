@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "d059e67ee19cca81de9e3a267e8f86ae0d8c221840ff972803737f5838160d4c",
+  "sha256_texto": "c0482965c234fc289822b26be94afaadbc0743c515166fa308fe8ee065d3711b",
   "revisor": "subagente maxima — revisão contextual autoral",
   "secoes": [
     {
@@ -414,5 +414,91 @@
     "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
     "conferido": "Trechos trocados relidos: decisão do autor sobre a Expressão da técnica na rota Sem Técnica ou retirada de contas de projetista pedida por ele em 04/10/2026. Nenhuma frase nova além do passo 3 de Sem Técnica; as retiradas não deixam remissão órfã. O restante do texto é idêntico e conserva a leitura anterior."
+  },
+  "revisao_delta_2026_10_04_quinta_passada": {
+    "sha256_anterior": "d059e67ee19cca81de9e3a267e8f86ae0d8c221840ff972803737f5838160d4c",
+    "sha256_atual": "c0482965c234fc289822b26be94afaadbc0743c515166fa308fe8ee065d3711b",
+    "mudancas": [
+      {
+        "codigo": "D25",
+        "achado": "G1-03",
+        "secao": "inv-queda",
+        "antes": "A zero de vida, a entidade para de atuar. Se puder ser recolhida, sai de campo. Caso contrário, permanece no lugar como **Desligada**. Confira primeiro se o dano a destruiu.",
+        "depois": "A zero de vida, a entidade para de atuar. Se puder ser recolhida, sai de campo. Caso contrário, permanece no lugar como **Desligada**. Confira primeiro se o dano a destruiu.\n\n**Integridade a zero.** Uma entidade com alma que chega a zero de Integridade cai sem ser destruída, como a zero de vida. O retorno exige pelo menos 1 de Integridade, que volta pelo descanso longo ou por uma capacidade que restaure Integridade. Os estágios de Integridade também valem para ela: o PE adicional e o teto de Classe se aplicam às especiais que ela executa."
+      },
+      {
+        "codigo": "D26",
+        "achado": "G2-02",
+        "secao": "inv-corpos",
+        "antes": "Corpos amaldiçoados não são recolhidos, sejam de técnica ou de criação. Ficam **ativos ou inativos** no mundo. A zero de vida, passam a Desligada, que tem outras regras.",
+        "depois": "Corpos amaldiçoados não são recolhidos, sejam de técnica ou de criação. Ficam **ativos ou inativos** no mundo. A zero de vida, passam a Desligada, que tem outras regras. Uma domada sem meio de recolhimento segue este modo e entra no total abaixo."
+      },
+      {
+        "codigo": "D27",
+        "achado": "G2-05",
+        "secao": "inv-energia",
+        "antes": "Uma especial que exija Concentração é sustentada pela entidade executora. Ela usa seu próprio TR quando sofre dano, seguindo Concentração.",
+        "depois": "Uma especial que exija Concentração é sustentada pela entidade executora. Ela usa seu próprio TR quando sofre dano, seguindo Concentração. Recolher, desativar ou cair a zero encerra essa concentração."
+      },
+      {
+        "codigo": "D28",
+        "achado": "G2-06",
+        "secao": "inv-trocar",
+        "antes": "Na troca, uma entidade sai e outra entra pagando a Bônus e o PE da entrada. A substituta ocupa o lugar de quem saiu.",
+        "depois": "Na troca, uma entidade sai e outra entra pagando a Bônus e o PE da entrada. A substituta ocupa o lugar de quem saiu. Ela pode ser uma entidade caída: nesse caso, pague o retorno no lugar da entrada."
+      },
+      {
+        "codigo": "D28",
+        "achado": "G2-06",
+        "secao": "inv-retorno",
+        "antes": "Respeite espaço, teto de ativos e recursos já gastos. O retorno não fornece básica.",
+        "depois": "Respeite espaço, teto de ativos e recursos já gastos. O retorno não cria uma básica própria. Feito numa troca, ainda permite receber a básica transferida."
+      },
+      {
+        "codigo": "D29",
+        "achado": "G2-07, G4-10",
+        "secao": "inv-carga",
+        "antes": "Transportar carga adicional ou personagens exige uma característica própria, compatível com a definição da entidade, que ocupe **um de seus talentos**. Armazenamento usa capacidade de **5 + Força da entidade em Volume**.",
+        "depois": "Uma entidade segue o limite geral de carga de **5 + Força**, em Volume: o que ela veste, empunha ou leva conta nele. Transportar carga adicional ou personagens exige uma característica própria, compatível com a definição da entidade, que ocupe **um de seus talentos**. O armazenamento e os passageiros cabem nesse mesmo limite."
+      },
+      {
+        "codigo": "D29",
+        "achado": "G2-07, G4-10",
+        "secao": "inv-carga",
+        "antes": "Uma Força alta não oferece armazenamento por si. Uma entidade de Força 3 com esse talento comporta 8 de Volume. Sem o talento, fica limitada ao que pode segurar e ao equipamento que pode vestir.",
+        "depois": "Uma Força alta não oferece armazenamento por si. Uma entidade de Força 3 com esse talento comporta 8 de Volume, somando o que veste e empunha. Sem o talento, fica limitada ao que pode segurar e ao equipamento que pode vestir, dentro do mesmo limite."
+      },
+      {
+        "codigo": "D30",
+        "achado": "G2-08",
+        "secao": "inv-preparar",
+        "antes": "No seu turno, uma entidade pode gastar a básica para preparar uma ação que caiba na tarefa recebida.",
+        "depois": "No seu turno, uma entidade pode gastar a básica para preparar uma ação que caiba na tarefa recebida. Ela também pode preparar um deslocamento, que usa o Movimento que ainda lhe resta e não concede metros novos."
+      },
+      {
+        "codigo": "D31",
+        "achado": "G2-10",
+        "secao": "inv-trocar",
+        "antes": "devolvê-la à reserva e trazer o cão",
+        "depois": "recolhê-la e trazer o cão"
+      },
+      {
+        "codigo": "D31",
+        "achado": "G2-10",
+        "secao": "inv-fora",
+        "antes": "O mesmo acompanhamento impede que a reserva se torne um local de recuperação sem custo.",
+        "depois": "O mesmo acompanhamento impede que ficar recolhida se torne um meio de recuperação sem custo."
+      },
+      {
+        "codigo": "D31",
+        "achado": "G2-10",
+        "secao": "inv-carga",
+        "antes": "A reserva não permite sacar equipamento de uma criatura ausente.",
+        "depois": "Estar recolhida não permite sacar equipamento de uma criatura ausente."
+      }
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+    "conferido": "Trechos trocados relidos: decisões do autor de 04/10/2026 sobre os 18 achados restantes da revisão de interfaces (D25 a D41). Cada frase nova cita a seção dona pelo nome e não copia a regra de outro capítulo. O restante do texto é idêntico e conserva a leitura anterior."
   }
 }
