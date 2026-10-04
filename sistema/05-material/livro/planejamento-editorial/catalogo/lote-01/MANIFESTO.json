@@ -2,7 +2,7 @@
   "estado": "Inventário atual em 04/10/2026; a prova individual corresponde ao texto atual e passou no conferir.py. O PDF que vale para leitura é o livro completo.",
   "sha256_texto": "61f9e65fdfdb59517c710fb6aa6e0e19631823212f3155572b40870c3b2670ff",
   "pdf_vigente": "consolidacao/lote-01/output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
-  "sha256_pdf_vigente": "bceea2d72fa70e3bbd1bef9051d521c3eaf09c2c7815898e8ca83419fc5c2aaa",
+  "sha256_pdf_vigente": "42d9207037ed22db62f68af3b9936ba22a8c2887aa097496116b0842784c9095",
   "arquivos": [
     {
       "arquivo": "ALTERACOES.json",
@@ -66,13 +66,13 @@
     },
     {
       "arquivo": "VALIDADORES.json",
-      "sha256": "11a8ba113b1f895c17a8fe12705114c53343eee970cdfc11ba6b75d4b61eb333",
+      "sha256": "2cae62272bf19290971320db57e325b955fe430c6d4b2dfaab4882505d10e7a0",
       "bytes": 6863
     },
     {
       "arquivo": "auditar.py",
-      "sha256": "1e8fbfd1bc95acdcdb362d557a84b3182dce8d2dccfb48d0fc07726686a0089e",
-      "bytes": 10481
+      "sha256": "d6433eddf621aa43a97b58c76d60b61da7be0d8d263eca6e612a204bfe1b9e59",
+      "bytes": 10777
     },
     {
       "arquivo": "conferir.py",
@@ -280,6 +280,16 @@
     "arquivos_acrescentados": [],
     "arquivos_que_nao_existem_mais": [],
     "motivo": "Quarta passada de 04/10/2026 (D18 a D24): Expressão da técnica na Sem Técnica e contas de projetista retiradas, ou registro que acompanha o livro regerado (VALIDADORES aponta para o PDF vigente).",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "atualizacao_2026_10_04_pendencias": {
+    "arquivos_com_hash_novo": [
+      "VALIDADORES.json",
+      "auditar.py"
+    ],
+    "arquivos_acrescentados": [],
+    "arquivos_que_nao_existem_mais": [],
+    "motivo": "Pendências de manutenção de 04/10/2026: auditor que preserva os blocos revisao_delta ou ordena conjuntos ao gravar evidência, ou VALIDADORES apontando para o PDF vigente depois da nova paginação de tabelas e títulos. Nenhum texto mudou.",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
   }
 }

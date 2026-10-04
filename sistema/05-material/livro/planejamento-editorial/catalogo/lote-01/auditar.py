@@ -6,6 +6,10 @@ from math import ceil
 import re,json,hashlib
 B=Path(__file__).resolve().parent;R=B.parents[5];E=B/'evidencias';F=B/'CATALOGO.md'
 sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
+def manter(p,d):
+ # Os blocos revisao_delta são a anotação de revisão escrita depois da auditoria; reexecutar a auditoria não os apaga.
+ if p.exists():d.update({k:v for k,v in json.loads(p.read_text()).items() if k.startswith('revisao_delta')})
+ return d
 def save(p,v):p.write_text(json.dumps(v,ensure_ascii=False,indent=2)+'\n')
 checks=[];cases=[]
 def ck(n,a,b):checks.append({'verificacao':n,'obtido':a,'esperado':b,'ok':a==b})
@@ -140,7 +144,7 @@ anchor={
  'Concentração não renova benefício':'não renova benefícios consumidos',
 }
 for n,x in anchor.items():ck('Âncora '+n,x in s,True)
-save(E/'regras-verificadas.json',{'ok':all(x['ok'] for x in cases),'sha256_texto':sha(F),'casos':cases,'quantidade':len(cases),'limites':'Modelos dirigidos e hipóteses explícitas; não simulam iniciativa, builds completos, inimigos ou aceitação humana.'})
+save(E/'regras-verificadas.json',manter(E/'regras-verificadas.json',{'ok':all(x['ok'] for x in cases),'sha256_texto':sha(F),'casos':cases,'quantidade':len(cases),'limites':'Modelos dirigidos e hipóteses explícitas; não simulam iniciativa, builds completos, inimigos ou aceitação humana.'}))
 save(E/'auditoria-numerica.json',{'ok':all(x['ok'] for x in checks+cases),'manuscritos_auditados':{str(F.relative_to(R)):sha(F)},'checks':checks,'verificacoes':len(checks),'cenarios_executados':len(cases),'estados_divisao_dados':split_states,'estados_recursos':resource_states,'estados_transferencia':transfer_states,'precos':price_rows,'risco_rajada_controle':control,'limites':['Catálogo inteiro coberto quanto a nomes; cobertura funcional é dirigida, não exaustiva.','A chance de controle crescente com tiros permanece e exige mesa/ajuste posterior, não foi escondida como só redação.','Passivas novas ou aclaradas, alvos múltiplos e duração precisam combate real.']})
 print(json.dumps({'ok':all(x['ok'] for x in checks+cases),'checks':len(checks),'casos':len(cases),'estados':[split_states,resource_states,transfer_states],'falhas':[x for x in checks+cases if not x['ok']]},ensure_ascii=False))
 raise SystemExit(0 if all(x['ok'] for x in checks+cases) else 1)

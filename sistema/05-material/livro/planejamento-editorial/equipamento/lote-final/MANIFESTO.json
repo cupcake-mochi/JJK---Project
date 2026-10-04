@@ -2,7 +2,7 @@
   "estado": "Inventário atual em 04/10/2026; a prova individual corresponde ao texto atual e passou no conferir.py. O PDF que vale para leitura é o livro completo.",
   "sha256_texto": "691e10b85c01d25f9002bc4b5717b05a947129a2ae22bef3145f83b7dd938f1b",
   "pdf_vigente": "consolidacao/lote-01/output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
-  "sha256_pdf_vigente": "bceea2d72fa70e3bbd1bef9051d521c3eaf09c2c7815898e8ca83419fc5c2aaa",
+  "sha256_pdf_vigente": "42d9207037ed22db62f68af3b9936ba22a8c2887aa097496116b0842784c9095",
   "arquivos": [
     {
       "arquivo": "ALTERACOES.json",
@@ -66,13 +66,13 @@
     },
     {
       "arquivo": "VALIDADORES.json",
-      "sha256": "df320881467d5584d8a8b2c3c3497b6eb900ca55afd571c1e985ff7b552ab53b",
+      "sha256": "9ad3e3d221384f3c189ce6f80b9e98532bfd1594ecfd208f913c0e08b126a73d",
       "bytes": 10427
     },
     {
       "arquivo": "auditar.py",
-      "sha256": "7b2bd4c4f755b8935ea2b3dea5e2a576bf40645efbdc75857dc2ad3d7d0611d9",
-      "bytes": 13831
+      "sha256": "367e7349bfbded3c8ae13231bcd72534f4a0079ed2cbc2b03380e35bf58150ac",
+      "bytes": 13978
     },
     {
       "arquivo": "conferir.py",
@@ -141,8 +141,8 @@
     },
     {
       "arquivo": "evidencias/auditoria-numerica.json",
-      "sha256": "85dc1fe2bed5a65cc8dba9c5fee17025459e261dec2a677b27348b1a53568f60",
-      "bytes": 114492
+      "sha256": "d8ae093ce970528bd5146c6f16d38858c582ef30bc872a8fb6388dc27e8e808a",
+      "bytes": 115336
     },
     {
       "arquivo": "evidencias/fontes-preservadas.json",
@@ -161,8 +161,8 @@
     },
     {
       "arquivo": "evidencias/regras-verificadas.json",
-      "sha256": "d9c8a06de1e865c8e3fb416634ea1b25c9e1f25863effa29a51d437df7434140",
-      "bytes": 113934
+      "sha256": "157ed7f4860a3e02ab8b4bac3177251bd1d144a4056ab4a5ee6c3bd3e571b3de",
+      "bytes": 114778
     },
     {
       "arquivo": "gerar_pdf.py",
@@ -219,6 +219,18 @@
     "arquivos_acrescentados": [],
     "arquivos_que_nao_existem_mais": [],
     "motivo": "Quarta passada de 04/10/2026 (D18 a D24): Expressão da técnica na Sem Técnica e contas de projetista retiradas, ou registro que acompanha o livro regerado (VALIDADORES aponta para o PDF vigente).",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "atualizacao_2026_10_04_pendencias": {
+    "arquivos_com_hash_novo": [
+      "VALIDADORES.json",
+      "auditar.py",
+      "evidencias/auditoria-numerica.json",
+      "evidencias/regras-verificadas.json"
+    ],
+    "arquivos_acrescentados": [],
+    "arquivos_que_nao_existem_mais": [],
+    "motivo": "Pendências de manutenção de 04/10/2026: auditor que preserva os blocos revisao_delta ou ordena conjuntos ao gravar evidência, ou VALIDADORES apontando para o PDF vigente depois da nova paginação de tabelas e títulos. Nenhum texto mudou.",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
   }
 }

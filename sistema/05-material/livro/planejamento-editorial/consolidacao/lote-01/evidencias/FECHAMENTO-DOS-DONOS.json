@@ -404,7 +404,7 @@
   "limites": "Provas por unidade conservadas como histórico; validação visual e estrutural da entrega pertence ao PDF reunido atual.",
   "fechamento_2026_10_04": {
     "fontes_com_texto_novo": 18,
-    "pdf": "bceea2d72fa70e3bbd1bef9051d521c3eaf09c2c7815898e8ca83419fc5c2aaa",
+    "pdf": "42d9207037ed22db62f68af3b9936ba22a8c2887aa097496116b0842784c9095",
     "conclusao": "As 23 fontes conferem com GERACAO.json do PDF atual. 18 mudaram depois de 03/10, todas registradas em revisao-interfaces/CORRECOES-APLICADAS.md (correções C01–C14, decisões D01–D24) ou, sem mudança de texto, em provas-cinco-capitulos; as 23 conferências de unidade estão aprovadas no estado atual. A publicação v0.331 continua preservada.",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
   }

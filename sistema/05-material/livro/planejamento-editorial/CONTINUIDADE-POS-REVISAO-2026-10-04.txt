@@ -1,5 +1,11 @@
 Continuidade pós-revisão — conferência de 04/10/2026
 
+ATUALIZAÇÃO, MESMO DIA: PENDÊNCIAS PEQUENAS
+Paginação: o gerador não deixa mais tabela partida com uma linha sozinha, nem título sozinho no pé da página. Antes eram 10 tabelas e 12 títulos. O conferir_livro.py confere as duas coisas no PDF (agora 3505 verificações) e foi testado por perturbação (consolidacao/lote-01/evidencias/perturbacao-paginacao.txt). Nenhum texto mudou; o livro continua com 382 páginas. Mudaram 115 páginas, todas abertas; a cadeia visual continua sem lacuna. PDF: 42d9207037ed22db62f68af3b9936ba22a8c2887aa097496116b0842784c9095.
+Auditores: cinco reescreviam a evidência só por rodar de novo (quatro apagavam o bloco revisao_delta e o Equipamento mudava a ordem de conjuntos). Consertados e testados com três sementes (revisao-interfaces/evidencias/estabilidade-auditores-2026-10-04.txt).
+ZIP refeito com o mesmo nome: SHA-256 89ccabc479ddb667ad4d60c570a54efb0a7ff5f6dc0936e850c1f0f98bf8669a, 1377 arquivos; o PDF reproduzido dele é idêntico.
+Próximo passo combinado com o Mizuki: levantar as 18 decisões de regra de revisao-interfaces/ACHADOS.md antes da etapa artística.
+
 ATUALIZAÇÃO, MESMO DIA: QUARTA PASSADA
 O Mizuki confirmou que Sem Técnica também registra a Expressão da técnica (D18) e pediu para tirar as outras contas de projetista do livro do jogador (D19 a D24): total de XP até os níveis 20 e 30, prazo da marca de mestre, diferença de probabilidade do Ritual sem treino e três médias de dano em exemplos. Seis capítulos mudaram (Rotas, Progressão, Ritual, Poderes avançados, Fundamento e Invocações em campo), com antes, depois e motivo em revisao-interfaces/CORRECOES-APLICADAS.md.
 PDF vigente: 382 páginas, SHA-256 bceea2d72fa70e3bbd1bef9051d521c3eaf09c2c7815898e8ca83419fc5c2aaa. Mudaram 8 páginas do livro, todas abertas; a cadeia visual continua sem lacuna. O ZIP entrega/Projeto-M-Livro-Reconstruido-2026-10-04.zip foi refeito com o mesmo nome (SHA-256 c538cfa32ef2c987cde71656c24ff650f294731faa751f5b4523cebf19b58b1b, 1374 arquivos) e o PDF reproduzido dele é idêntico. A versão anterior do ZIP com esse nome está no histórico do git (commit 56108eb).

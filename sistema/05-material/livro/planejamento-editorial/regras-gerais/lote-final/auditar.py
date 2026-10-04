@@ -119,9 +119,13 @@ for item in json.loads((B/'INVENTARIO.json').read_text())['cobertura']:check('co
 # Mutations demonstrate a few textual contracts detect changed grants/critical constraints.
 mutations=[('ocultacao_cd10','CD 10 + o bônus completo de Percepção','CD 8 + o bônus completo de Percepção'),('concentracao_por_aplicacao','um teste por golpe ou aplicação de dano','um teste por tipo de dano'),('energia18','até 18 m de você','até 90 m de você'),('carga','5 + Força','50 + Força'),('manobra_tamanho','até uma categoria de tamanho maior','qualquer tamanho'),('oportunidade_visao','enxerga ou acompanha por um sentido equivalente à visão','localizou antes')]
 for key,before,after in mutations:check('mutacao_'+key,clauses[key] not in t.replace(before,after))
+def manter(p,d):
+ # Os blocos revisao_delta são a anotação de revisão escrita depois da auditoria; reexecutar a auditoria não os apaga.
+ if p.exists():d.update({k:v for k,v in json.loads(p.read_text()).items() if k.startswith('revisao_delta')})
+ return d
 result={'ok':all(x['passou'] for x in checks+cases),'sha256_texto':h,'verificacoes':len(checks),'casos_executados':len(cases),'perfis_bloquear':len(profiles),'perfis_provocar':len(opposed),'checagens':checks,'casos':cases,'bloquear':profiles,'provocar':opposed,'limites':['Modelos de dados uniformes, não playtest.','Bloquear calculado sem valorar contra-ataques ou gatilhos adicionais.','Quedas/carga/distância são abstrações, não simulações físicas.','Verificação de texto detecta regressão, não prova isolada de clareza.']}
 (E/'auditoria-numerica.json').write_text(json.dumps(dict(result,manuscritos_auditados={str(p.relative_to(R)):h}),ensure_ascii=False,indent=2)+'\n')
-(E/'regras-verificadas.json').write_text(json.dumps({'ok':result['ok'],'sha256_texto':h,'casos':cases,'verificacoes':len(checks)},ensure_ascii=False,indent=2)+'\n')
+(E/'regras-verificadas.json').write_text(json.dumps(manter(E/'regras-verificadas.json',{'ok':result['ok'],'sha256_texto':h,'casos':cases,'verificacoes':len(checks)}),ensure_ascii=False,indent=2)+'\n')
 (E/'CASOS-EXECUTADOS.json').write_text(json.dumps(cases,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps({k:result[k] for k in ['ok','sha256_texto','verificacoes','casos_executados','perfis_bloquear','perfis_provocar']},ensure_ascii=False))
 if not result['ok']:

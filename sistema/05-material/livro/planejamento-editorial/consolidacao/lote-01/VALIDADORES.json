@@ -1,6 +1,6 @@
 {
   "status": "Candidata revisada em 04/10/2026 (PR #2): correções de interface, decisões do autor e retirada de contas de projetista; candidata para revisão do usuário e teste de mesa",
-  "sha256_pdf": "bceea2d72fa70e3bbd1bef9051d521c3eaf09c2c7815898e8ca83419fc5c2aaa",
+  "sha256_pdf": "42d9207037ed22db62f68af3b9936ba22a8c2887aa097496116b0842784c9095",
   "sha256_texto": "f2a54d9ff8a12b9ee6160ea2fe698d6bfa636670d3b6d1a18c572f18ef2f3c04",
   "validadores": [
     {
@@ -225,7 +225,7 @@
       "limites": "3492 verificações; fontes incorporadas, texto pesquisável, geometria e508links válidos.",
       "revalidacao_2026_10_04": {
         "estado": "revisto para o PDF atual",
-        "limites": "3503 verificações estruturais; fontes incorporadas, texto pesquisável e 526 links válidos.",
+        "limites": "3505 verificações estruturais; fontes incorporadas, texto pesquisável e 526 links válidos. Inclui tabela sem linha órfã ou viúva e título sem ficar sozinho no pé da página.",
         "evidencias": [
           "evidencias/QA-ESTRUTURAL.json"
         ]

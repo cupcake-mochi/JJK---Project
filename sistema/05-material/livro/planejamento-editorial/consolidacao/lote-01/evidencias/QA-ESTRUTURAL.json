@@ -1,17 +1,17 @@
 {
-  "sha256_pdf": "bceea2d72fa70e3bbd1bef9051d521c3eaf09c2c7815898e8ca83419fc5c2aaa",
+  "sha256_pdf": "42d9207037ed22db62f68af3b9936ba22a8c2887aa097496116b0842784c9095",
   "sha256_manuscrito": "f2a54d9ff8a12b9ee6160ea2fe698d6bfa636670d3b6d1a18c572f18ef2f3c04",
   "ok": true,
-  "verificacoes": 3503,
+  "verificacoes": 3505,
   "paginas": 382,
   "blocos": 509,
   "links_internos": 526,
-  "caracteres_pdf": 811965,
+  "caracteres_pdf": 811755,
   "checks": [
     {
       "teste": "PDF atual",
-      "obtido": "bceea2d72fa70e3bbd1bef9051d521c3eaf09c2c7815898e8ca83419fc5c2aaa",
-      "esperado": "bceea2d72fa70e3bbd1bef9051d521c3eaf09c2c7815898e8ca83419fc5c2aaa",
+      "obtido": "42d9207037ed22db62f68af3b9936ba22a8c2887aa097496116b0842784c9095",
+      "esperado": "42d9207037ed22db62f68af3b9936ba22a8c2887aa097496116b0842784c9095",
       "ok": true
     },
     {
@@ -88,8 +88,8 @@
     },
     {
       "teste": "Gerador da prova",
-      "obtido": "20c33a2776cb0b8a071c846ba263ae2956f1de282ea5a65224da796cf654c9e2",
-      "esperado": "20c33a2776cb0b8a071c846ba263ae2956f1de282ea5a65224da796cf654c9e2",
+      "obtido": "9734972c41b9925e4923a42915670214b955fe7a89f27e4f419061b97daa97bd",
+      "esperado": "9734972c41b9925e4923a42915670214b955fe7a89f27e4f419061b97daa97bd",
       "ok": true
     },
     {
@@ -6573,12 +6573,6 @@
       "ok": true
     },
     {
-      "teste": "p195: destino de link 96",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
       "teste": "p196: texto pesquisável",
       "obtido": true,
       "esperado": true,
@@ -6609,7 +6603,7 @@
       "ok": true
     },
     {
-      "teste": "p196: destino de link 97",
+      "teste": "p196: destino de link 96",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -6642,6 +6636,12 @@
       "teste": "p197: sem raster artístico",
       "obtido": 0,
       "esperado": 0,
+      "ok": true
+    },
+    {
+      "teste": "p197: destino de link 97",
+      "obtido": true,
+      "esperado": true,
       "ok": true
     },
     {
@@ -7485,12 +7485,6 @@
       "ok": true
     },
     {
-      "teste": "p223: destino de link 108",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
       "teste": "p224: texto pesquisável",
       "obtido": true,
       "esperado": true,
@@ -7521,13 +7515,13 @@
       "ok": true
     },
     {
-      "teste": "p224: destino de link 109",
+      "teste": "p224: destino de link 108",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p224: destino de link 110",
+      "teste": "p224: destino de link 109",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -7560,6 +7554,12 @@
       "teste": "p225: sem raster artístico",
       "obtido": 0,
       "esperado": 0,
+      "ok": true
+    },
+    {
+      "teste": "p225: destino de link 110",
+      "obtido": true,
+      "esperado": true,
       "ok": true
     },
     {
@@ -7953,18 +7953,6 @@
       "ok": true
     },
     {
-      "teste": "p238: destino de link 111",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p238: destino de link 112",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
       "teste": "p239: texto pesquisável",
       "obtido": true,
       "esperado": true,
@@ -7992,6 +7980,18 @@
       "teste": "p239: sem raster artístico",
       "obtido": 0,
       "esperado": 0,
+      "ok": true
+    },
+    {
+      "teste": "p239: destino de link 111",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p239: destino de link 112",
+      "obtido": true,
+      "esperado": true,
       "ok": true
     },
     {
@@ -334599,6 +334599,18 @@
       "ok": true
     },
     {
+      "teste": "Tabelas sem linha órfã ou viúva e com o título junto",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "teste": "Nenhum título com uma linha só no pé da página",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
       "teste": "Todas âncoras de bloco possuem página",
       "obtido": true,
       "esperado": true,
@@ -335008,28 +335020,28 @@
     },
     {
       "pagina": 42,
-      "caracteres": 2858,
-      "fim_corpo": 773.12
+      "caracteres": 2669,
+      "fim_corpo": 696.47
     },
     {
       "pagina": 43,
-      "caracteres": 2680,
-      "fim_corpo": 756.12
+      "caracteres": 2670,
+      "fim_corpo": 761.92
     },
     {
       "pagina": 44,
-      "caracteres": 2601,
-      "fim_corpo": 753.12
+      "caracteres": 2506,
+      "fim_corpo": 736.92
     },
     {
       "pagina": 45,
-      "caracteres": 2724,
-      "fim_corpo": 726.52
+      "caracteres": 2775,
+      "fim_corpo": 735.67
     },
     {
       "pagina": 46,
-      "caracteres": 2630,
-      "fim_corpo": 722.32
+      "caracteres": 2873,
+      "fim_corpo": 772.32
     },
     {
       "pagina": 47,
@@ -335193,43 +335205,43 @@
     },
     {
       "pagina": 79,
-      "caracteres": 1716,
-      "fim_corpo": 738.72
+      "caracteres": 1610,
+      "fim_corpo": 683.72
     },
     {
       "pagina": 80,
-      "caracteres": 3086,
+      "caracteres": 2951,
       "fim_corpo": 752.32
     },
     {
       "pagina": 81,
-      "caracteres": 2975,
-      "fim_corpo": 739.52
+      "caracteres": 2974,
+      "fim_corpo": 706.52
     },
     {
       "pagina": 82,
-      "caracteres": 2618,
-      "fim_corpo": 762.52
+      "caracteres": 2360,
+      "fim_corpo": 720.52
     },
     {
       "pagina": 83,
-      "caracteres": 2603,
-      "fim_corpo": 750.12
+      "caracteres": 2478,
+      "fim_corpo": 752.52
     },
     {
       "pagina": 84,
-      "caracteres": 2431,
-      "fim_corpo": 752.12
+      "caracteres": 2801,
+      "fim_corpo": 767.79
     },
     {
       "pagina": 85,
-      "caracteres": 2425,
-      "fim_corpo": 746.32
+      "caracteres": 2194,
+      "fim_corpo": 760.32
     },
     {
       "pagina": 86,
-      "caracteres": 1283,
-      "fim_corpo": 305.72
+      "caracteres": 1807,
+      "fim_corpo": 417.52
     },
     {
       "pagina": 87,
@@ -335388,28 +335400,28 @@
     },
     {
       "pagina": 118,
-      "caracteres": 2811,
-      "fim_corpo": 769.92
+      "caracteres": 2595,
+      "fim_corpo": 686.92
     },
     {
       "pagina": 119,
-      "caracteres": 2666,
-      "fim_corpo": 761.32
+      "caracteres": 2492,
+      "fim_corpo": 724.67
     },
     {
       "pagina": 120,
-      "caracteres": 2792,
-      "fim_corpo": 762.92
+      "caracteres": 2729,
+      "fim_corpo": 746.72
     },
     {
       "pagina": 121,
-      "caracteres": 2316,
-      "fim_corpo": 717.32
+      "caracteres": 2594,
+      "fim_corpo": 763.92
     },
     {
       "pagina": 122,
-      "caracteres": 1440,
-      "fim_corpo": 381.52
+      "caracteres": 1615,
+      "fim_corpo": 445.52
     },
     {
       "pagina": 123,
@@ -335428,48 +335440,48 @@
     },
     {
       "pagina": 126,
-      "caracteres": 2637,
-      "fim_corpo": 774.52
+      "caracteres": 2571,
+      "fim_corpo": 732.52
     },
     {
       "pagina": 127,
-      "caracteres": 2685,
-      "fim_corpo": 766.12
+      "caracteres": 2648,
+      "fim_corpo": 728.92
     },
     {
       "pagina": 128,
-      "caracteres": 2599,
-      "fim_corpo": 733.32
+      "caracteres": 2542,
+      "fim_corpo": 769.32
     },
     {
       "pagina": 129,
-      "caracteres": 2511,
-      "fim_corpo": 762.72
+      "caracteres": 2488,
+      "fim_corpo": 701.92
     },
     {
       "pagina": 130,
-      "caracteres": 2779,
-      "fim_corpo": 736.92
+      "caracteres": 2723,
+      "fim_corpo": 776.52
     },
     {
       "pagina": 131,
-      "caracteres": 2987,
-      "fim_corpo": 767.32
+      "caracteres": 2943,
+      "fim_corpo": 753.32
     },
     {
       "pagina": 132,
-      "caracteres": 2676,
-      "fim_corpo": 755.52
+      "caracteres": 2624,
+      "fim_corpo": 762.72
     },
     {
       "pagina": 133,
-      "caracteres": 2082,
-      "fim_corpo": 729.72
+      "caracteres": 2279,
+      "fim_corpo": 763.52
     },
     {
       "pagina": 134,
-      "caracteres": 2092,
-      "fim_corpo": 738.92
+      "caracteres": 2230,
+      "fim_corpo": 772.72
     },
     {
       "pagina": 135,
@@ -335658,18 +335670,18 @@
     },
     {
       "pagina": 172,
-      "caracteres": 2478,
-      "fim_corpo": 743.52
+      "caracteres": 2395,
+      "fim_corpo": 701.52
     },
     {
       "pagina": 173,
-      "caracteres": 2907,
-      "fim_corpo": 754.52
+      "caracteres": 2752,
+      "fim_corpo": 746.52
     },
     {
       "pagina": 174,
-      "caracteres": 1638,
-      "fim_corpo": 423.92
+      "caracteres": 1876,
+      "fim_corpo": 473.92
     },
     {
       "pagina": 175,
@@ -335678,13 +335690,13 @@
     },
     {
       "pagina": 176,
-      "caracteres": 2937,
-      "fim_corpo": 772.59
+      "caracteres": 2836,
+      "fim_corpo": 730.32
     },
     {
       "pagina": 177,
-      "caracteres": 2486,
-      "fim_corpo": 745.39
+      "caracteres": 2570,
+      "fim_corpo": 765.19
     },
     {
       "pagina": 178,
@@ -335698,193 +335710,193 @@
     },
     {
       "pagina": 180,
-      "caracteres": 2596,
-      "fim_corpo": 768.99
+      "caracteres": 2550,
+      "fim_corpo": 726.72
     },
     {
       "pagina": 181,
-      "caracteres": 2007,
-      "fim_corpo": 763.79
+      "caracteres": 1752,
+      "fim_corpo": 665.52
     },
     {
       "pagina": 182,
-      "caracteres": 2712,
-      "fim_corpo": 755.52
+      "caracteres": 2360,
+      "fim_corpo": 739.32
     },
     {
       "pagina": 183,
-      "caracteres": 2554,
-      "fim_corpo": 760.79
+      "caracteres": 2655,
+      "fim_corpo": 678.92
     },
     {
       "pagina": 184,
-      "caracteres": 2830,
-      "fim_corpo": 747.72
+      "caracteres": 2642,
+      "fim_corpo": 769.72
     },
     {
       "pagina": 185,
-      "caracteres": 3310,
-      "fim_corpo": 772.32
+      "caracteres": 2893,
+      "fim_corpo": 701.32
     },
     {
       "pagina": 186,
-      "caracteres": 2384,
-      "fim_corpo": 735.92
+      "caracteres": 2808,
+      "fim_corpo": 771.12
     },
     {
       "pagina": 187,
-      "caracteres": 1467,
-      "fim_corpo": 740.99
+      "caracteres": 1673,
+      "fim_corpo": 665.79
     },
     {
       "pagina": 188,
-      "caracteres": 1614,
-      "fim_corpo": 775.52
+      "caracteres": 1297,
+      "fim_corpo": 683.79
     },
     {
       "pagina": 189,
-      "caracteres": 1571,
-      "fim_corpo": 761.99
+      "caracteres": 1390,
+      "fim_corpo": 713.59
     },
     {
       "pagina": 190,
-      "caracteres": 1505,
-      "fim_corpo": 590.52
+      "caracteres": 1797,
+      "fim_corpo": 764.19
     },
     {
       "pagina": 191,
-      "caracteres": 2292,
-      "fim_corpo": 745.32
+      "caracteres": 2078,
+      "fim_corpo": 753.92
     },
     {
       "pagina": 192,
-      "caracteres": 3003,
-      "fim_corpo": 776.92
+      "caracteres": 3025,
+      "fim_corpo": 738.52
     },
     {
       "pagina": 193,
-      "caracteres": 2503,
-      "fim_corpo": 765.79
+      "caracteres": 2556,
+      "fim_corpo": 733.19
     },
     {
       "pagina": 194,
-      "caracteres": 2511,
-      "fim_corpo": 747.72
+      "caracteres": 2144,
+      "fim_corpo": 763.72
     },
     {
       "pagina": 195,
-      "caracteres": 3034,
-      "fim_corpo": 750.32
+      "caracteres": 3144,
+      "fim_corpo": 766.52
     },
     {
       "pagina": 196,
-      "caracteres": 2181,
-      "fim_corpo": 773.32
+      "caracteres": 2535,
+      "fim_corpo": 686.47
     },
     {
       "pagina": 197,
-      "caracteres": 2674,
-      "fim_corpo": 760.12
+      "caracteres": 2249,
+      "fim_corpo": 757.92
     },
     {
       "pagina": 198,
-      "caracteres": 2865,
-      "fim_corpo": 764.52
+      "caracteres": 2535,
+      "fim_corpo": 740.27
     },
     {
       "pagina": 199,
-      "caracteres": 2466,
-      "fim_corpo": 768.39
+      "caracteres": 2583,
+      "fim_corpo": 729.72
     },
     {
       "pagina": 200,
-      "caracteres": 2686,
-      "fim_corpo": 729.79
+      "caracteres": 2676,
+      "fim_corpo": 717.52
     },
     {
       "pagina": 201,
-      "caracteres": 3271,
-      "fim_corpo": 775.92
+      "caracteres": 2822,
+      "fim_corpo": 765.72
     },
     {
       "pagina": 202,
-      "caracteres": 2969,
-      "fim_corpo": 774.72
+      "caracteres": 2957,
+      "fim_corpo": 771.12
     },
     {
       "pagina": 203,
-      "caracteres": 2908,
-      "fim_corpo": 761.72
+      "caracteres": 2736,
+      "fim_corpo": 693.92
     },
     {
       "pagina": 204,
-      "caracteres": 2695,
-      "fim_corpo": 713.72
+      "caracteres": 2805,
+      "fim_corpo": 724.52
     },
     {
       "pagina": 205,
-      "caracteres": 2700,
+      "caracteres": 2793,
       "fim_corpo": 753.52
     },
     {
       "pagina": 206,
-      "caracteres": 2770,
-      "fim_corpo": 745.87
+      "caracteres": 3088,
+      "fim_corpo": 766.87
     },
     {
       "pagina": 207,
-      "caracteres": 2673,
-      "fim_corpo": 718.52
+      "caracteres": 2143,
+      "fim_corpo": 734.32
     },
     {
       "pagina": 208,
-      "caracteres": 402,
-      "fim_corpo": 142.52
+      "caracteres": 2386,
+      "fim_corpo": 565.72
     },
     {
       "pagina": 209,
-      "caracteres": 2366,
-      "fim_corpo": 769.59
+      "caracteres": 2217,
+      "fim_corpo": 685.32
     },
     {
       "pagina": 210,
-      "caracteres": 1799,
-      "fim_corpo": 741.32
+      "caracteres": 1732,
+      "fim_corpo": 767.12
     },
     {
       "pagina": 211,
-      "caracteres": 2359,
-      "fim_corpo": 766.39
+      "caracteres": 2517,
+      "fim_corpo": 767.79
     },
     {
       "pagina": 212,
-      "caracteres": 1474,
+      "caracteres": 1470,
       "fim_corpo": 756.19
     },
     {
       "pagina": 213,
-      "caracteres": 2712,
-      "fim_corpo": 767.92
+      "caracteres": 2485,
+      "fim_corpo": 724.52
     },
     {
       "pagina": 214,
-      "caracteres": 3053,
-      "fim_corpo": 747.92
+      "caracteres": 2914,
+      "fim_corpo": 761.92
     },
     {
       "pagina": 215,
-      "caracteres": 3161,
-      "fim_corpo": 760.72
+      "caracteres": 3151,
+      "fim_corpo": 732.72
     },
     {
       "pagina": 216,
-      "caracteres": 2715,
-      "fim_corpo": 732.32
+      "caracteres": 2827,
+      "fim_corpo": 766.32
     },
     {
       "pagina": 217,
-      "caracteres": 1598,
-      "fim_corpo": 408.52
+      "caracteres": 1894,
+      "fim_corpo": 458.52
     },
     {
       "pagina": 218,
@@ -335893,13 +335905,13 @@
     },
     {
       "pagina": 219,
-      "caracteres": 2373,
-      "fim_corpo": 761.79
+      "caracteres": 2308,
+      "fim_corpo": 719.52
     },
     {
       "pagina": 220,
-      "caracteres": 1978,
-      "fim_corpo": 716.27
+      "caracteres": 2022,
+      "fim_corpo": 736.07
     },
     {
       "pagina": 221,
@@ -335913,18 +335925,18 @@
     },
     {
       "pagina": 223,
-      "caracteres": 1896,
-      "fim_corpo": 758.19
+      "caracteres": 1618,
+      "fim_corpo": 639.27
     },
     {
       "pagina": 224,
-      "caracteres": 2357,
-      "fim_corpo": 754.79
+      "caracteres": 2377,
+      "fim_corpo": 761.39
     },
     {
       "pagina": 225,
-      "caracteres": 1849,
-      "fim_corpo": 669.99
+      "caracteres": 2110,
+      "fim_corpo": 773.99
     },
     {
       "pagina": 226,
@@ -335953,63 +335965,63 @@
     },
     {
       "pagina": 231,
-      "caracteres": 3395,
-      "fim_corpo": 766.59
+      "caracteres": 3073,
+      "fim_corpo": 656.52
     },
     {
       "pagina": 232,
-      "caracteres": 2203,
-      "fim_corpo": 711.92
+      "caracteres": 2276,
+      "fim_corpo": 763.52
     },
     {
       "pagina": 233,
-      "caracteres": 2435,
-      "fim_corpo": 753.12
+      "caracteres": 2347,
+      "fim_corpo": 719.12
     },
     {
       "pagina": 234,
       "caracteres": 2308,
-      "fim_corpo": 766.99
+      "fim_corpo": 691.92
     },
     {
       "pagina": 235,
-      "caracteres": 2562,
-      "fim_corpo": 728.19
+      "caracteres": 2162,
+      "fim_corpo": 659.12
     },
     {
       "pagina": 236,
-      "caracteres": 2837,
-      "fim_corpo": 772.52
+      "caracteres": 2388,
+      "fim_corpo": 672.32
     },
     {
       "pagina": 237,
-      "caracteres": 2254,
-      "fim_corpo": 695.12
+      "caracteres": 2365,
+      "fim_corpo": 753.32
     },
     {
       "pagina": 238,
-      "caracteres": 2793,
-      "fim_corpo": 770.59
+      "caracteres": 2752,
+      "fim_corpo": 753.52
     },
     {
       "pagina": 239,
-      "caracteres": 2742,
-      "fim_corpo": 746.39
+      "caracteres": 2968,
+      "fim_corpo": 768.52
     },
     {
       "pagina": 240,
-      "caracteres": 2863,
-      "fim_corpo": 743.72
+      "caracteres": 2835,
+      "fim_corpo": 741.52
     },
     {
       "pagina": 241,
-      "caracteres": 2824,
-      "fim_corpo": 774.72
+      "caracteres": 2864,
+      "fim_corpo": 764.39
     },
     {
       "pagina": 242,
-      "caracteres": 715,
-      "fim_corpo": 218.32
+      "caracteres": 1524,
+      "fim_corpo": 463.72
     },
     {
       "pagina": 243,
@@ -336138,48 +336150,48 @@
     },
     {
       "pagina": 268,
-      "caracteres": 2555,
-      "fim_corpo": 766.52
+      "caracteres": 2241,
+      "fim_corpo": 663.72
     },
     {
       "pagina": 269,
-      "caracteres": 2169,
-      "fim_corpo": 707.27
+      "caracteres": 2250,
+      "fim_corpo": 749.72
     },
     {
       "pagina": 270,
-      "caracteres": 2492,
-      "fim_corpo": 766.52
+      "caracteres": 2339,
+      "fim_corpo": 734.92
     },
     {
       "pagina": 271,
-      "caracteres": 2151,
-      "fim_corpo": 704.12
+      "caracteres": 2221,
+      "fim_corpo": 707.72
     },
     {
       "pagina": 272,
-      "caracteres": 2553,
-      "fim_corpo": 723.72
+      "caracteres": 2521,
+      "fim_corpo": 756.72
     },
     {
       "pagina": 273,
-      "caracteres": 2132,
-      "fim_corpo": 750.92
+      "caracteres": 2202,
+      "fim_corpo": 744.92
     },
     {
       "pagina": 274,
-      "caracteres": 2661,
-      "fim_corpo": 723.12
+      "caracteres": 2456,
+      "fim_corpo": 692.92
     },
     {
       "pagina": 275,
-      "caracteres": 2429,
-      "fim_corpo": 706.72
+      "caracteres": 2733,
+      "fim_corpo": 775.92
     },
     {
       "pagina": 276,
-      "caracteres": 2396,
-      "fim_corpo": 731.32
+      "caracteres": 2575,
+      "fim_corpo": 767.32
     },
     {
       "pagina": 277,
@@ -336228,28 +336240,28 @@
     },
     {
       "pagina": 286,
-      "caracteres": 2380,
-      "fim_corpo": 758.39
+      "caracteres": 2338,
+      "fim_corpo": 738.59
     },
     {
       "pagina": 287,
-      "caracteres": 2589,
-      "fim_corpo": 760.32
+      "caracteres": 2407,
+      "fim_corpo": 732.32
     },
     {
       "pagina": 288,
-      "caracteres": 2223,
-      "fim_corpo": 740.92
+      "caracteres": 2290,
+      "fim_corpo": 757.12
     },
     {
       "pagina": 289,
-      "caracteres": 2427,
-      "fim_corpo": 748.72
+      "caracteres": 2369,
+      "fim_corpo": 730.39
     },
     {
       "pagina": 290,
-      "caracteres": 1723,
-      "fim_corpo": 698.32
+      "caracteres": 1938,
+      "fim_corpo": 746.12
     },
     {
       "pagina": 291,
@@ -336558,18 +336570,18 @@
     },
     {
       "pagina": 352,
-      "caracteres": 2706,
-      "fim_corpo": 760.79
+      "caracteres": 2599,
+      "fim_corpo": 698.72
     },
     {
       "pagina": 353,
-      "caracteres": 3328,
-      "fim_corpo": 751.12
+      "caracteres": 3205,
+      "fim_corpo": 762.72
     },
     {
       "pagina": 354,
-      "caracteres": 2082,
-      "fim_corpo": 550.52
+      "caracteres": 2241,
+      "fim_corpo": 584.32
     },
     {
       "pagina": 355,

@@ -86,8 +86,12 @@ mean_kaori = .6*13.5+.05*27
 mean_foe = .5*5.5+.05*9
 check('inimigo-nao-letalo1golpe', max(range(1,7))*2+2<23)
 
+def manter(p,d):
+ # Os blocos revisao_delta são a anotação de revisão escrita depois da auditoria; reexecutar a auditoria não os apaga.
+ if p.exists():d.update({k:v for k,v in json.loads(p.read_text()).items() if k.startswith('revisao_delta')})
+ return d
 out={'ok':all(c['passou'] for c in checks),'manuscritos_auditados':{str(M.relative_to(P.parents[3])):SHA},'verificacoes':checks,'resultados':{'distribuicoes_atributos':len(distribuicoes),'estados_dano_3d8':len(d3),'estados_dano_critico_6d8':len(d6),'chance_acerto_kaori_sem_bloquear':hit,'chance_exorcismo_um_ataque_sem_bloquear':chance_queda,'dano_medio_por_ataque_kaori':mean_kaori,'dano_medio_por_ataque_criatura':mean_foe},'limites':['Encontro didático parcial, não ficha de inimigo calibrada para publicação.','Distribuições não simulam decisões, posicionamento ou combate integral.','Regras de morte/Integridade ainda serão reconciliadas no livro.','Nenhum teste com jogadores.']}
 (B/'evidencias/auditoria-numerica.json').write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n')
-(B/'evidencias/regras-verificadas.json').write_text(json.dumps({'ok':out['ok'],'sha256_texto':SHA,'verificacoes':len(checks),'limites':out['limites']},ensure_ascii=False,indent=2)+'\n')
+(B/'evidencias/regras-verificadas.json').write_text(json.dumps(manter(B/'evidencias/regras-verificadas.json',{'ok':out['ok'],'sha256_texto':SHA,'verificacoes':len(checks),'limites':out['limites']}),ensure_ascii=False,indent=2)+'\n')
 print(json.dumps({'ok':out['ok'],'verificacoes':len(checks),'falhas':[x for x in checks if not x['passou']],'resultados':out['resultados']},ensure_ascii=False,indent=2))
 raise SystemExit(not out['ok'])

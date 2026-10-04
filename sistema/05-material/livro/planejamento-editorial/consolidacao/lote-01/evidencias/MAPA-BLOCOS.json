@@ -755,9 +755,8 @@
     "ancora_fonte": "integridade",
     "titulo_bloco": "Estágios de Integridade",
     "id_livro": "dano--integridade",
-    "pagina": 42,
+    "pagina": 43,
     "paginas_conteudo": [
-      42,
       43
     ],
     "sha256_bloco_fonte": "7352e9a14502ab3ceeeb710f56d9851bdef577791100ab8b33c7a051a1cbaec1",
@@ -1565,9 +1564,8 @@
     "ancora_fonte": "bas-olhos",
     "titulo_bloco": "Olhos Em Mim",
     "id_livro": "bastiao--bas-olhos",
-    "pagina": 79,
+    "pagina": 80,
     "paginas_conteudo": [
-      79,
       80
     ],
     "sha256_bloco_fonte": "b9a207548f5c0d90fc9009c53bee1ee6cd1480dae257eb0b797f4f290e657ce6",
@@ -1612,9 +1610,8 @@
     "ancora_fonte": "bas-muro",
     "titulo_bloco": "Muro",
     "id_livro": "bastiao--bas-muro",
-    "pagina": 81,
+    "pagina": 82,
     "paginas_conteudo": [
-      81,
       82
     ],
     "sha256_bloco_fonte": "c1f97f97cc0d49eb7377bc243dbe9a9f6130fc18031c07f074a0cbdde01300ee",
@@ -1677,7 +1674,8 @@
     "id_livro": "bastiao--bas-arrastao",
     "pagina": 84,
     "paginas_conteudo": [
-      84
+      84,
+      85
     ],
     "sha256_bloco_fonte": "f4f762247759a996d669f8fae39c410416314e07df2b962050e3fe35f0d646f3",
     "cabecalho_inicial_unificado": false
@@ -2480,9 +2478,8 @@
     "ancora_fonte": "ema-eco",
     "titulo_bloco": "Ressonante",
     "id_livro": "emanador--ema-eco",
-    "pagina": 118,
+    "pagina": 119,
     "paginas_conteudo": [
-      118,
       119
     ],
     "sha256_bloco_fonte": "09de46bf83bb4c3422d5db871eb95519a394553fc9d2a3cce87ebc96a3063f62",
@@ -2558,9 +2555,8 @@
     "ancora_fonte": "ema-correcao",
     "titulo_bloco": "Correção de Fluxo",
     "id_livro": "emanador--ema-correcao",
-    "pagina": 121,
+    "pagina": 122,
     "paginas_conteudo": [
-      121,
       122
     ],
     "sha256_bloco_fonte": "9a15e2bd137d793e53b8f98103cce337247f08963779ad2c68a422ae9c4cc96a",
@@ -2682,9 +2678,8 @@
     "ancora_fonte": "ev-preparacao",
     "titulo_bloco": "Preparação e recolhimento",
     "id_livro": "evocador--ev-preparacao",
-    "pagina": 127,
+    "pagina": 128,
     "paginas_conteudo": [
-      127,
       128
     ],
     "sha256_bloco_fonte": "05dc5d70f43bb6fef4cec2c3e505ba845dd35e651e2656b6f166e12c7dad30b6",
@@ -2729,9 +2724,8 @@
     "ancora_fonte": "ev-combinada",
     "titulo_bloco": "Especial Combinada",
     "id_livro": "evocador--ev-combinada",
-    "pagina": 129,
+    "pagina": 130,
     "paginas_conteudo": [
-      129,
       130
     ],
     "sha256_bloco_fonte": "482d14cf578fdd8ac65cbf613f3303de7e8f8c41eea96ea11fe2464c447f6c92",
@@ -2763,7 +2757,8 @@
     "id_livro": "evocador--ev-principal-especial",
     "pagina": 131,
     "paginas_conteudo": [
-      131
+      131,
+      132
     ],
     "sha256_bloco_fonte": "da3de1cf5768528688491c72b9a41860ee9ebbc03335c0ff834f23de042e9901",
     "cabecalho_inicial_unificado": false
@@ -3823,7 +3818,8 @@
     "id_livro": "equip--eqm-reserva",
     "pagina": 185,
     "paginas_conteudo": [
-      185
+      185,
+      186
     ],
     "sha256_bloco_fonte": "0f45ecce85c52fb1ee1561ec718a3fc3cc4d77f91de187433e5bf766cee148d9",
     "cabecalho_inicial_unificado": false
@@ -3838,7 +3834,8 @@
     "id_livro": "equip--eqa-armas",
     "pagina": 186,
     "paginas_conteudo": [
-      186
+      186,
+      187
     ],
     "sha256_bloco_fonte": "54bdcb6fbf8a0d3f0dda7fb6d7826cb8d4a21f64f810f1c6609ced54fffe0a20",
     "cabecalho_inicial_unificado": false
@@ -3851,9 +3848,8 @@
     "ancora_fonte": "eqa-laminas",
     "titulo_bloco": "Lâminas",
     "id_livro": "equip--eqa-laminas",
-    "pagina": 186,
+    "pagina": 187,
     "paginas_conteudo": [
-      186,
       187
     ],
     "sha256_bloco_fonte": "0cf8e9e07cee7b4d9e9d7cfb22fecb7322d5388423ce845a6404978287e72150",
@@ -3867,9 +3863,8 @@
     "ancora_fonte": "eqa-impacto",
     "titulo_bloco": "Armas de impacto",
     "id_livro": "equip--eqa-impacto",
-    "pagina": 187,
+    "pagina": 188,
     "paginas_conteudo": [
-      187,
       188
     ],
     "sha256_bloco_fonte": "0f24b1778ce8fec1d5d7659b944194effbed2a7e12e9168cc2f1d8b512edc488",
@@ -3883,9 +3878,8 @@
     "ancora_fonte": "eqa-hastes",
     "titulo_bloco": "Machados, foices e hastes",
     "id_livro": "equip--eqa-hastes",
-    "pagina": 188,
+    "pagina": 189,
     "paginas_conteudo": [
-      188,
       189
     ],
     "sha256_bloco_fonte": "d19c183345ff6df7e140404a581ba3f4bebbaf3ac358ac778da5cec2d05e1385",
@@ -3901,7 +3895,8 @@
     "id_livro": "equip--eqa-flexiveis",
     "pagina": 189,
     "paginas_conteudo": [
-      189
+      189,
+      190
     ],
     "sha256_bloco_fonte": "3a4a78a339a885043b1d595f979fdd8e8d12da3a8346667c970da831b9ba6e7d",
     "cabecalho_inicial_unificado": false
@@ -3914,10 +3909,10 @@
     "ancora_fonte": "eqa-tiro",
     "titulo_bloco": "Armas de disparo",
     "id_livro": "equip--eqa-tiro",
-    "pagina": 189,
+    "pagina": 190,
     "paginas_conteudo": [
-      189,
-      190
+      190,
+      191
     ],
     "sha256_bloco_fonte": "5fdd25cd856c29caf2ab6025c39ed5cbb81c67172dae43d60bd223dbcc051815",
     "cabecalho_inicial_unificado": false
@@ -3930,10 +3925,10 @@
     "ancora_fonte": "eqi-itens",
     "titulo_bloco": "Itens comuns",
     "id_livro": "equip--eqi-itens",
-    "pagina": 190,
+    "pagina": 191,
     "paginas_conteudo": [
-      190,
-      191
+      191,
+      192
     ],
     "sha256_bloco_fonte": "ac813e8c710d2060a3d6d698e7d0e7eb87be9f18bc475ffde816e70bdc9b8ced",
     "cabecalho_inicial_unificado": false
@@ -3946,9 +3941,8 @@
     "ancora_fonte": "eqi-exploracao",
     "titulo_bloco": "Exploração e ferramentas",
     "id_livro": "equip--eqi-exploracao",
-    "pagina": 191,
+    "pagina": 192,
     "paginas_conteudo": [
-      191,
       192
     ],
     "sha256_bloco_fonte": "5106093519353231a8213f8be201a8fdc5c6406d629e99bed7072e03304aa6f9",
@@ -3962,10 +3956,10 @@
     "ancora_fonte": "eqi-fechaduras",
     "titulo_bloco": "Fechaduras e contenção",
     "id_livro": "equip--eqi-fechaduras",
-    "pagina": 192,
+    "pagina": 193,
     "paginas_conteudo": [
-      192,
-      193
+      193,
+      194
     ],
     "sha256_bloco_fonte": "59ad8a4f56d00b035145019e1065d9b85624984216359248f0fbc4b1e72b2be8",
     "cabecalho_inicial_unificado": false
@@ -3978,9 +3972,8 @@
     "ancora_fonte": "eqi-objetos",
     "titulo_bloco": "Danificar objetos",
     "id_livro": "equip--eqi-objetos",
-    "pagina": 193,
+    "pagina": 194,
     "paginas_conteudo": [
-      193,
       194
     ],
     "sha256_bloco_fonte": "7b04979648dc9d12025ca392e63a44c3709f059bad598431a544e7b6d6004501",
@@ -3996,7 +3989,8 @@
     "id_livro": "equip--eqi-efeitos",
     "pagina": 194,
     "paginas_conteudo": [
-      194
+      194,
+      195
     ],
     "sha256_bloco_fonte": "d33ad1310af83e8e22602e04f8274d7011605976892be8936e210eec01ce8fcd",
     "cabecalho_inicial_unificado": false
@@ -4009,10 +4003,10 @@
     "ancora_fonte": "eqi-improvisadas",
     "titulo_bloco": "Armas improvisadas",
     "id_livro": "equip--eqi-improvisadas",
-    "pagina": 194,
+    "pagina": 195,
     "paginas_conteudo": [
-      194,
-      195
+      195,
+      196
     ],
     "sha256_bloco_fonte": "83c1c5ad34840e96c6bebaa3e984a3b848e01d1e42d7e8ccb961154e26efc678",
     "cabecalho_inicial_unificado": false
@@ -4025,9 +4019,8 @@
     "ancora_fonte": "eqc-dinheiro",
     "titulo_bloco": "Dinheiro e acesso",
     "id_livro": "equip--eqc-dinheiro",
-    "pagina": 195,
+    "pagina": 196,
     "paginas_conteudo": [
-      195,
       196
     ],
     "sha256_bloco_fonte": "d0c546a1358ab50ba6f8880472ef1f0933c220ad3504ae531172de03e40c4461",
@@ -4041,9 +4034,8 @@
     "ancora_fonte": "eqc-precos",
     "titulo_bloco": "Preços de proteção",
     "id_livro": "equip--eqc-precos",
-    "pagina": 196,
+    "pagina": 197,
     "paginas_conteudo": [
-      196,
       197
     ],
     "sha256_bloco_fonte": "f1f3df6c09956805dc00f4b28e30726f9df4356f56f63ac868899522f49b1051",
@@ -4075,7 +4067,8 @@
     "id_livro": "equip--eqc-compras",
     "pagina": 198,
     "paginas_conteudo": [
-      198
+      198,
+      199
     ],
     "sha256_bloco_fonte": "3db57d7c01fd0cd9913a58c93b1577ee0caa4e47eaf019c99b23153394745fb9",
     "cabecalho_inicial_unificado": false
@@ -4088,10 +4081,10 @@
     "ancora_fonte": "eqf-equipamento",
     "titulo_bloco": "Equipamento amaldiçoado",
     "id_livro": "equip--eqf-equipamento",
-    "pagina": 198,
+    "pagina": 199,
     "paginas_conteudo": [
-      198,
-      199
+      199,
+      200
     ],
     "sha256_bloco_fonte": "bd937e42cf62160405731ff9a9cf55d96eb4659b4c132b2be4269caf760439c3",
     "cabecalho_inicial_unificado": false
@@ -4104,10 +4097,10 @@
     "ancora_fonte": "eqf-graus",
     "titulo_bloco": "Graus das ferramentas",
     "id_livro": "equip--eqf-graus",
-    "pagina": 199,
+    "pagina": 200,
     "paginas_conteudo": [
-      199,
-      200
+      200,
+      201
     ],
     "sha256_bloco_fonte": "607e30600740c3fb583c29ab951c4efff32f906fcc3ea96130d60829c115ec5a",
     "cabecalho_inicial_unificado": false
@@ -4120,9 +4113,8 @@
     "ancora_fonte": "eqf-uso",
     "titulo_bloco": "Itens em uso",
     "id_livro": "equip--eqf-uso",
-    "pagina": 200,
+    "pagina": 201,
     "paginas_conteudo": [
-      200,
       201
     ],
     "sha256_bloco_fonte": "3305fd2153675168dd7aa4dca371e6b71078ac456264cdcf8e7bce95e950ef6f",
@@ -4136,9 +4128,8 @@
     "ancora_fonte": "eqf-aquisicao",
     "titulo_bloco": "Aquisição e criação",
     "id_livro": "equip--eqf-aquisicao",
-    "pagina": 201,
+    "pagina": 202,
     "paginas_conteudo": [
-      201,
       202
     ],
     "sha256_bloco_fonte": "2a56308597d56d8daf55dbc851d97b0cd4f96cc074f13a2d4338a7b5111bde49",
@@ -4170,7 +4161,8 @@
     "id_livro": "equip--eqf-roupas",
     "pagina": 203,
     "paginas_conteudo": [
-      203
+      203,
+      204
     ],
     "sha256_bloco_fonte": "e2bc2d4ffad1b935498a33d0100a6e05d9d3bc9e4f97f211adf1a13d38f0a40e",
     "cabecalho_inicial_unificado": false
@@ -4183,10 +4175,10 @@
     "ancora_fonte": "eqf-protecao",
     "titulo_bloco": "Proteções amaldiçoadas",
     "id_livro": "equip--eqf-protecao",
-    "pagina": 203,
+    "pagina": 204,
     "paginas_conteudo": [
-      203,
-      204
+      204,
+      205
     ],
     "sha256_bloco_fonte": "acefa1c1d44ffd1f4adb0e287b0527483444b9ccf188483465d45d922720dd13",
     "cabecalho_inicial_unificado": false
@@ -4199,10 +4191,10 @@
     "ancora_fonte": "eqf-acessorios",
     "titulo_bloco": "Acessórios e outros efeitos",
     "id_livro": "equip--eqf-acessorios",
-    "pagina": 204,
+    "pagina": 205,
     "paginas_conteudo": [
-      204,
-      205
+      205,
+      206
     ],
     "sha256_bloco_fonte": "5bb850246861ce32072abb914a959d748bfd04cc43266860752a20ba79d0ed46",
     "cabecalho_inicial_unificado": false
@@ -4215,9 +4207,8 @@
     "ancora_fonte": "eqf-reliquias",
     "titulo_bloco": "Armas de grau elevado",
     "id_livro": "equip--eqf-reliquias",
-    "pagina": 205,
+    "pagina": 206,
     "paginas_conteudo": [
-      205,
       206
     ],
     "sha256_bloco_fonte": "634174e20bd9ee9b95ffe15e1894fd117e9db67524e676341389cf3cd00d83c5",
@@ -4231,9 +4222,8 @@
     "ancora_fonte": "eqf-desgaste",
     "titulo_bloco": "Desgaste",
     "id_livro": "equip--eqf-desgaste",
-    "pagina": 206,
+    "pagina": 207,
     "paginas_conteudo": [
-      206,
       207
     ],
     "sha256_bloco_fonte": "0759a3ca3ed3512f5dca4d68e244a4987a003d81074df93ee4d13f19558dcff5",
@@ -4296,7 +4286,8 @@
     "id_livro": "progressao--prog-semana",
     "pagina": 210,
     "paginas_conteudo": [
-      210
+      210,
+      211
     ],
     "sha256_bloco_fonte": "c97a587d5443e18175b02d092ad4c7781babfd288ef2d54b4b7cd616186df680",
     "cabecalho_inicial_unificado": false
@@ -4371,9 +4362,8 @@
     "ancora_fonte": "prog-repertorio",
     "titulo_bloco": "Repertório e novas escolhas",
     "id_livro": "progressao--prog-repertorio",
-    "pagina": 213,
+    "pagina": 214,
     "paginas_conteudo": [
-      213,
       214
     ],
     "sha256_bloco_fonte": "91ad750899e26d4e70eebd6b4bbd9a6f5edcece581de0450d975fc9ea9733d63",
@@ -4574,9 +4564,8 @@
     "ancora_fonte": "formas",
     "titulo_bloco": "Formas de ataque",
     "id_livro": "fundamento--formas",
-    "pagina": 223,
+    "pagina": 224,
     "paginas_conteudo": [
-      223,
       224
     ],
     "sha256_bloco_fonte": "0e5cf95a0d86381d151b057438ac4042dc16bdf597879b7315bfbb60deca85fa",
@@ -4779,9 +4768,8 @@
     "ancora_fonte": "classezero",
     "titulo_bloco": "Feitiços de Classe 0",
     "id_livro": "fundamento--classezero",
-    "pagina": 234,
+    "pagina": 235,
     "paginas_conteudo": [
-      234,
       235
     ],
     "sha256_bloco_fonte": "db90291d2409df5ed83c1d87c5b8360655d1694bc2f616ec826904f54c932ede",
@@ -4829,7 +4817,8 @@
     "id_livro": "fundamento--maxima",
     "pagina": 237,
     "paginas_conteudo": [
-      237
+      237,
+      238
     ],
     "sha256_bloco_fonte": "b9d289d2a6d66d4b888d32b7c9fb5e6bc91b57ffd85ce09df17a607837bd3f68",
     "cabecalho_inicial_unificado": false
@@ -4844,7 +4833,8 @@
     "id_livro": "fundamento--maximadano",
     "pagina": 238,
     "paginas_conteudo": [
-      238
+      238,
+      239
     ],
     "sha256_bloco_fonte": "f3da853644ddc5d2655f73c84a611c6baf055a627e2ce5e9397776e7551de53b",
     "cabecalho_inicial_unificado": false
@@ -4857,10 +4847,10 @@
     "ancora_fonte": "limitesmaxima",
     "titulo_bloco": "Melhorias da Técnica Máxima",
     "id_livro": "fundamento--limitesmaxima",
-    "pagina": 238,
+    "pagina": 239,
     "paginas_conteudo": [
-      238,
-      239
+      239,
+      240
     ],
     "sha256_bloco_fonte": "987136bd927bf9f6d79d1e111be47f68a01976a7b7c40e6f6a138f9a3914094c",
     "cabecalho_inicial_unificado": false
@@ -4873,9 +4863,8 @@
     "ancora_fonte": "passagem",
     "titulo_bloco": "Passagem de Papel",
     "id_livro": "fundamento--passagem",
-    "pagina": 239,
+    "pagina": 240,
     "paginas_conteudo": [
-      239,
       240
     ],
     "sha256_bloco_fonte": "1587f67f38ef1a67b21f9ac67486843daca447a3245c7855f1e8d0910dfa74a9",
@@ -4889,9 +4878,8 @@
     "ancora_fonte": "retirada",
     "titulo_bloco": "Retirada de Emergência",
     "id_livro": "fundamento--retirada",
-    "pagina": 240,
+    "pagina": 241,
     "paginas_conteudo": [
-      240,
       241
     ],
     "sha256_bloco_fonte": "8780aa8d2ee4d554408a2b8a3c2c75a5ba3329a54b966b6b66def3e5c1baf3e3",
@@ -5479,9 +5467,8 @@
     "ancora_fonte": "apt-reversa",
     "titulo_bloco": "Energia Reversa",
     "id_livro": "aptidoes--apt-reversa",
-    "pagina": 268,
+    "pagina": 269,
     "paginas_conteudo": [
-      268,
       269
     ],
     "sha256_bloco_fonte": "8c9cf67d99521fdfe16aa91f0678a77cdd1752ea89a141872c8b19dc8ca8533d",
@@ -5544,7 +5531,8 @@
     "id_livro": "aptidoes--apt-kokusen",
     "pagina": 271,
     "paginas_conteudo": [
-      271
+      271,
+      272
     ],
     "sha256_bloco_fonte": "30198b53d2e94408bcb26228c1e85bf4484ffec3be340dddf1435e7367726050",
     "cabecalho_inicial_unificado": false
@@ -5606,7 +5594,8 @@
     "id_livro": "aptidoes--apt-simples-duracao",
     "pagina": 274,
     "paginas_conteudo": [
-      274
+      274,
+      275
     ],
     "sha256_bloco_fonte": "17a4bd44d14771d95247457d6266ab95eda67e4da9ea590b721675d18465b754",
     "cabecalho_inicial_unificado": false

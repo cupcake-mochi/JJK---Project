@@ -8,7 +8,8 @@ B=Path(__file__).resolve().parent;P=next(p for p in B.parents if (p/'validacao-e
 S=B/'EQUIPAMENTO.md';s=S.read_text();h=hashlib.sha256(S.read_bytes()).hexdigest();E=B/'evidencias';E.mkdir(exist_ok=True)
 checks=[]
 def ck(n,a,e=True):checks.append(dict(caso=n,obtido=a,esperado=e,ok=a==e))
-def dump(n,d):E.joinpath(n).write_text(json.dumps(d,ensure_ascii=False,indent=2,default=str)+'\n')
+# Conjuntos saem ordenados: str() de um set muda de ordem a cada execução do Python.
+def dump(n,d):E.joinpath(n).write_text(json.dumps(d,ensure_ascii=False,indent=2,default=lambda o:sorted(o) if isinstance(o,(set,frozenset)) else str(o))+'\n')
 def rows(t):
  return [[x.strip() for x in l.strip('|').split('|')] for l in t.splitlines() if l.startswith('|') and not re.match(r'^\|[-:| ]+\|$',l)]
 def weapons(t):return {re.sub(r' \(.*\)$','',r[0]):r for r in rows(t) if len(r)==7 and re.match(r'^\d+d\d+ ',r[2])}

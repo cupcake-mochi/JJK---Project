@@ -1633,12 +1633,12 @@ Anote as perdas e compare a Integridade atual com os limites de Estágios de Int
 teste adicional para avançar estágio além dessa perda.
 Exemplo: um golpe de 8 de Alma atinge Rina. Uma redução aplicável diminui o golpe para 5. Ela possui 3 de
 vida temporária. Perde esses 3, mais 2 de vida e 5 de Integridade.
-Estágios de Integridade
-O estágio depende de quanto falta para sua Integridade máxima. Use o estágio mais alto cujo limite tenha
-sido atingido. Os efeitos dos anteriores continuam valendo.
 CANDIDATA EDITORIAL • BASE v0.331 42
 
 PROJETO - M DANO E RECUPERAÇÃO
+Estágios de Integridade
+O estágio depende de quanto falta para sua Integridade máxima. Use o estágio mais alto cujo limite tenha
+sido atingido. Os efeitos dos anteriores continuam valendo.
 Integridade perdida Estágio Efeito
 Menos de 1/4 0 Nenhuma penalidade.
 Pelo menos 1/4 1 Desvantagem em testes de perícia.
@@ -1675,12 +1675,12 @@ Duradoura ou outra regra específica. Quando o efeito disser apenas uma rodada, 
 do próximo turno de quem o aplicou.
 Uma manobra pode ter outra forma de término. O agarrão comum dura enquanto a contenção for
 mantida; ser derrubado não faz você se levantar sozinho quando a rodada muda.
-Mais de uma condição
-Condições diferentes podem coexistir: aplique os efeitos de cada uma. Vantagens e desvantagens
-continuam seguindo a regra de cancelamento, sem rolar dados extras por cada fonte.
 CANDIDATA EDITORIAL • BASE v0.331 43
 
 PROJETO - M DANO E RECUPERAÇÃO
+Mais de uma condição
+Condições diferentes podem coexistir: aplique os efeitos de cada uma. Vantagens e desvantagens
+continuam seguindo a regra de cancelamento, sem rolar dados extras por cada fonte.
 Receber a mesma condição novamente não intensifica seus efeitos. Registre as fontes e durações
 separadamente; ela permanece enquanto pelo menos uma aplicação estiver ativa. Escapar de um agarrão
 não remove outro. Uma habilidade que remova a condição por inteiro segue sua própria permissão.
@@ -1715,13 +1715,13 @@ críticos. Ataques à distância e de conjuração não ganham crítico por essa
 continua sendo conjuração.
 Você conserva suas ações e sua Defesa estática. O crítico segue a regra de dados dobrados e as exceções
 expressas da fonte de dano. A condição não faz o ataque acertar automaticamente.
+CANDIDATA EDITORIAL • BASE v0.331 44
+
+PROJETO - M DANO E RECUPERAÇÃO
 Derrubado
 Você está no chão. Só pode se deslocar rastejando. Cada trecho de 1,5 m custa 1,5 m adicional, conforme
 Movimento. Não reduza também sua reserva de deslocamento por essa condição. Seus ataques têm
 desvantagem. Ataques contra você têm vantagem a até 1,5 m e desvantagem de mais longe.
-CANDIDATA EDITORIAL • BASE v0.331 44
-
-PROJETO - M DANO E RECUPERAÇÃO
 Levantar de um Derrubado comum custa sua Ação de Movimento inteira. Uma habilidade pode permitir
 outro custo. Se um efeito mantiver você Derrubado por uma duração, precisa encerrar essa manutenção
 antes de levantar. Estar Agarrado não impede gastar a ação para levantar; você continua no mesmo
@@ -1756,12 +1756,12 @@ sair. Confira o requisito escrito na técnica, na Kata ou na ferramenta; o nome 
 essa leitura.
 Exemplo: Kaori precisa dizer o nome do feitiço como Selo e está Calada. Não consegue conjurá-lo. Mei tem
 um Selo que exige tocar a própria pulseira e nenhum requisito de voz: Calado não impede essa conjuração.
-Calado não faz você perder a Ação Padrão, o movimento ou a Reação. Uma habilidade que não dependa
-da execução impedida continua disponível. Um inimigo sem habilidades que usem voz pode sofrer a
-condição sem perder seus ataques por causa dela.
 CANDIDATA EDITORIAL • BASE v0.331 45
 
 PROJETO - M DANO E RECUPERAÇÃO
+Calado não faz você perder a Ação Padrão, o movimento ou a Reação. Uma habilidade que não dependa
+da execução impedida continua disponível. Um inimigo sem habilidades que usem voz pode sofrer a
+condição sem perder seus ataques por causa dela.
 Enfeitiçado
 Você não pode atacar quem o enfeitiçou nem escolher essa criatura como alvo de um efeito nocivo. Ela
 tem vantagem em testes sociais contra você.
@@ -3094,11 +3094,11 @@ nos níveis 2, 11, 19 e 27.
 Você conserva as habilidades já recebidas. Nos níveis 11, 19 e 27, pode trocar de Trilha pelas regras de
 progressão: substitua todas as habilidades da anterior pelas correspondentes da nova. Não reúna entregas
 de duas Trilhas.
-Olhos Em Mim
-Nível 2. Você pode usar Força no lugar de Essência em seus testes de Provocar e Intimidação.
 CANDIDATA EDITORIAL • BASE v0.331 79
 
 PROJETO - M CAMINHOS E TRILHAS
+Olhos Em Mim
+Nível 2. Você pode usar Força no lugar de Essência em seus testes de Provocar e Intimidação.
 Com Ação Bônus, ative uma área de 6 m de raio, centrada em você. Ela acompanha seus movimentos até
 o fim da cena. Você pode encerrá-la sem gastar ação, no próprio turno. Ficar Inconsciente a encerra,
 salvo a permissão de Inabalável. Derrubado e Agarrado, por si, não a encerram.
@@ -3136,12 +3136,12 @@ Nível 7 — Ainda de Pé
 Uma vez por cena, quando perder vida e terminar com metade da vida máxima ou menos, pode recuperar
 1d8 + metade do seu nível, arredondada para baixo, até o máximo. Não exige ação. Use depois de
 resolver o dano.
-Você pode usar mesmo se já estava abaixo da metade antes do golpe. Perder apenas vida temporária não
-cumpre o gatilho. Se tiver chegado a zero, siga Socorro, em Dano e recuperação: essa cura não substitui
-seus requisitos para voltar a agir.
 CANDIDATA EDITORIAL • BASE v0.331 80
 
 PROJETO - M CAMINHOS E TRILHAS
+Você pode usar mesmo se já estava abaixo da metade antes do golpe. Perder apenas vida temporária não
+cumpre o gatilho. Se tiver chegado a zero, siga Socorro, em Dano e recuperação: essa cura não substitui
+seus requisitos para voltar a agir.
 Nível 15 — Duro de Matar
 Sempre que falhar em Bloquear, reduza o dano do golpe pela soma dos dois dados usados em Bloquear +
 Constituição. Não some o modificador da Defesa. Use os dados já rolados, sem outra rolagem.
@@ -3175,13 +3175,13 @@ não permite outro Bloquear.
 Esta habilidade não muda o alvo do ataque nem transfere suas outras consequências. Também não é um
 Bloquear ou um ataque assumido por Olhos Em Mim. Se a parcela levar você a zero, siga Vida a zero, em
 Dano e recuperação. Um aliado que já estava a zero não pode ser protegido por este gatilho.
+CANDIDATA EDITORIAL • BASE v0.331 81
+
+PROJETO - M CAMINHOS E TRILHAS
 Muro
 Você protege quem permanece perto e suporta os golpes que assume. A escolha dos tipos de dano de
 Alicerce permite se preparar para ameaças conhecidas. Casca Grossa reforça a interceptação quando o
 inimigo consegue atravessar sua defesa.
-CANDIDATA EDITORIAL • BASE v0.331 81
-
-PROJETO - M CAMINHOS E TRILHAS
 Nível Habilidade
 2 Alicerce.
 11 Guarda-Costas.
@@ -3213,15 +3213,15 @@ incluindo Duro de Matar se você tiver escolhido Bloquear e falhado. Não permit
 Um ataque que erre não ativa Casca Grossa, mesmo se uma regra específica causar dano no erro.
 O acerto continua sendo um acerto mesmo que o dano chegue a zero. Efeitos que acompanhem o golpe
 usam seus próprios requisitos. Resistências são aplicadas antes das reduções, conforme Dano.
+CANDIDATA EDITORIAL • BASE v0.331 82
+
+PROJETO - M CAMINHOS E TRILHAS
 Exemplo. Um ataque assumido causaria 36. Você tem Constituição 3 e falhou em Bloquear com 5 e 4: Duro
 de Matar desconta 12. Em Casca Grossa, tira 2 e 7, para outra redução de 11. Restam 13 de dano. Se Alicerce
 proteger desse tipo, o dano começa em 18 e as duas reduções o zeram.
 Nível 27 — Inabalável
 Alicerce passa a proteger contra quatro tipos de dano. Você pode refazer a escolha ao fim de um
 descanso curto ou longo. Uma nova escolha substitui a lista anterior, sem somar tipos entre descansos.
-CANDIDATA EDITORIAL • BASE v0.331 82
-
-PROJETO - M CAMINHOS E TRILHAS
 Olhos Em Mim continua ativo enquanto você estiver Derrubado, Agarrado ou Inconsciente. Sua duração
 ainda termina com a cena ou se você a encerrar quando puder.
 Permanecer ativo não permite agir Inconsciente: você não intercepta ataques, não faz novas provocações
@@ -3252,6 +3252,9 @@ Mão Pesada e Minha Vez
 Nível 11 — Mão Pesada
 Ao acertar um golpe desarmado, você pode empurrar a criatura até 4,5 m, na direção que escolher. Esse
 empurrão pode ser aplicado uma vez por alvo por rodada. Não exige outro teste.
+CANDIDATA EDITORIAL • BASE v0.331 83
+
+PROJETO - M CAMINHOS E TRILHAS
 O percurso precisa permitir o movimento. Uma parede o interrompe; a habilidade não concede dano de
 colisão nem deixa o alvo suspenso no ar. Uma queda real segue Quedas. Esta habilidade não usa o limite
 de tamanho das manobras comuns.
@@ -3259,9 +3262,6 @@ Além do empurrão, uma vez por rodada, pode fazer um alvo acertado por seu golp
 TR de Vigor contra CD 8 + Força + maestria. Se falhar, escolha Derrubado ou Agarrado por você.
 Para agarrar, o alvo precisa estar ao alcance do seu ataque desarmado e você precisa de uma mão livre,
 que ficará ocupada. Se também aplicar o empurrão, escolha a ordem dos efeitos. A contenção só
-CANDIDATA EDITORIAL • BASE v0.331 83
-
-PROJETO - M CAMINHOS E TRILHAS
 permanece enquanto o alvo estiver ao alcance. Sua CD de saída é a mesma usada para aplicá-la; a
 condição Agarrado informa a ação e o TR de escape.
 Exemplo. Você pode empurrar dois inimigos diferentes na rodada, se acertar ambos. Fora da ampliação de
@@ -3295,14 +3295,15 @@ Criaturas atacadas Custo da ampliação
 2 2 PE.
 3 4 PE.
 4 6 PE.
+CANDIDATA EDITORIAL • BASE v0.331 84
+
+PROJETO - M CAMINHOS E TRILHAS
+Criaturas atacadas Custo da ampliação
 5 8 PE.
 6 10 PE.
 Sem a ampliação, Arrastão não custa PE por si e Mão Pesada mantém o uso comum contra um único
 acerto. Se já consumiu esse uso na rodada, pode usar Arrastão e empurrar normalmente, mas não aplicar
 novamente a parte de agarrar ou derrubar.
-CANDIDATA EDITORIAL • BASE v0.331 84
-
-PROJETO - M CAMINHOS E TRILHAS
 Combatente Amaldiçoado
 Você alterna ataques físicos e feitiços, aproveitando a pressão sobre sua defesa. Interceptar um golpe
 pode abrir a resposta de Retaliação. Bloquear com sucesso prepara Oportunista para sua próxima
@@ -3334,6 +3335,9 @@ Oportunista e Contra a Parede
 Nível 19 — Oportunista
 Depois de ter sucesso em Bloquear, prepare seu próximo feitiço de Classe acima de 0. A preparação dura
 até o fim do seu próximo turno.
+CANDIDATA EDITORIAL • BASE v0.331 85
+
+PROJETO - M CAMINHOS E TRILHAS
 Nessa conjuração, escolha um ataque para receber vantagem ou o primeiro TR de uma criatura para
 receber desvantagem. Declare qual será afetado antes da rolagem. A preparação é consumida por essa
 conjuração, mesmo se ela errar ou o alvo resistir. Uma aplicação automática sem ataque ou TR não ganha
@@ -3341,9 +3345,6 @@ uma rolagem nova.
 Feitiços de Classe 0 não gastam a preparação. Novos Bloquear bem-sucedidos renovam seu prazo, sem
 acumular benefícios. Um feitiço com vários ataques ou alvos não recebe vantagem ou desvantagem em
 todos eles.
-CANDIDATA EDITORIAL • BASE v0.331 85
-
-PROJETO - M CAMINHOS E TRILHAS
 Nível 27 — Contra a Parede
 Enquanto estiver com metade da vida máxima ou menos, você pode acompanhar sua Ação Atacar com
 um feitiço conhecido de dano de Classe igual à metade da sua maior Classe, arredondada para baixo.
@@ -4642,13 +4643,13 @@ declaração.
 Afinidade pode reduzir a primeira conjuração. Expressão Instintiva só oferece o custo de 1 PE se o feitiço
 usar a Padrão. Fazer dois ataques por Cadência Marcial continua impedindo a conjuração pela Cadência
 naquele turno.
+CANDIDATA EDITORIAL • BASE v0.331 118
+
+PROJETO - M CAMINHOS E TRILHAS
 Ressonante
 Uma alteração usada agora pode facilitar a conjuração seguinte. Você decide o que guardar e o que
 abandonar. O Eco Amaldiçoado guarda uma alteração, não o feitiço inteiro, seus dados ou o acerto
 anterior.
-CANDIDATA EDITORIAL • BASE v0.331 118
-
-PROJETO - M CAMINHOS E TRILHAS
 Nível Habilidade Capacidade
 2 Eco Técnico. Um Eco, somente alterações Leves.
 11 Contraponto. Eco e novo Desdobramento juntos.
@@ -4681,15 +4682,15 @@ Repita a Modulação guardada pagando metade de seu custo adicional em PE, arred
 Calcule o preço na Classe da nova conjuração e aplique o desconto de Família antes dessa metade.
 Exemplo. Longe sem desconto custa 2 PE como Modulação na Classe 3. Seu Eco permite repeti-la por 1 PE
 em outra aplicação dessa Classe. Se Longe já custar 1, a metade arredondada continua sendo 1.
+CANDIDATA EDITORIAL • BASE v0.331 119
+
+PROJETO - M CAMINHOS E TRILHAS
 Limites
 O novo feitiço precisa aceitar a peça guardada. Ter um Eco de Longe não permite aplicá-lo em Toque. O
 número de Melhorias e todas as Restrições continuam valendo.
 Só pode haver uma Modulação Forçada por conjuração, contando a que veio de Eco. Apenas ela pode
 exceder o limite de Melhorias em uma unidade. Uma troca por Eco ocupa a vaga da peça substituída, sem
 conceder outra vaga.
-CANDIDATA EDITORIAL • BASE v0.331 119
-
-PROJETO - M CAMINHOS E TRILHAS
 A alteração reaproveitada não cria outro Eco por si só. É necessário um novo Desdobramento permitido
 por Contraponto para guardar uma alteração diferente daquela apenas repetida. Conservar um Eco por
 Reverberação segue o custo e o gatilho daquela habilidade.
@@ -4722,6 +4723,9 @@ Nível 27. Você pode manter dois Ecos diferentes. Cada um dura até o fim do se
 Registre para cada Eco a peça, se veio de Remodelagem ou Modulação, e o prazo. Duas cópias da mesma
 peça pela mesma maneira não ocupam dois lugares. Troca de Forma e troca de Melhoria continuam
 sujeitas aos limites de categoria do Eco.
+CANDIDATA EDITORIAL • BASE v0.331 120
+
+PROJETO - M CAMINHOS E TRILHAS
 Usar os dois
 Uma vez por cena, consuma ambos na mesma conjuração. Pode também fazer um Desdobramento
 normal, mas o conjunto permite no máximo três alterações, mesmo com Composição Técnica. Os dois
@@ -4729,9 +4733,6 @@ Ecos deixam espaço para apenas uma alteração nova.
 Cada Eco mantém seu custo. Um de Remodelagem dispensa somente o PE de sua própria troca. Se
 houver uma Remodelagem nova, pague o acréscimo normal por ela. Só uma das alterações pode ser
 Modulação Forçada.
-CANDIDATA EDITORIAL • BASE v0.331 120
-
-PROJETO - M CAMINHOS E TRILHAS
 Reverberação pode preservar apenas um dos Ecos gastos nessa conjuração, com uma Reação e seu gatilho
 normal. Não conserva os dois por um único erro. Se também registrar uma alteração nova por
 Contraponto, confira a capacidade de dois.
@@ -4764,12 +4765,12 @@ Intensificar: escolha um ataque do feitiço para ter vantagem ou o primeiro TR d
 desvantagem.
 Declare a escolha antes dos dados. A aplicação que gasta Impulso não produz outro por si. Conjurar
 como Bônus mantém o limite de conjuração: o outro feitiço permitido naquele turno é de Classe 0.
-Correção de Fluxo
-Nível 11. Você recebe outra forma de gastar Impulso e uma nova opção para Intensificar. Ambas
-continuam restritas às aplicações que aceitam Impulso Técnico.
 CANDIDATA EDITORIAL • BASE v0.331 121
 
 PROJETO - M CAMINHOS E TRILHAS
+Correção de Fluxo
+Nível 11. Você recebe outra forma de gastar Impulso e uma nova opção para Intensificar. Ambas
+continuam restritas às aplicações que aceitam Impulso Técnico.
 Corrigir a tentativa
 Antes dos dados, indique um ataque ou uma criatura cujo primeiro TR você pretende acompanhar. Se o
 ataque errar ou a criatura passar nesse TR, pode gastar o Impulso e PE adicionais iguais à Classe
@@ -4935,11 +4936,11 @@ combinadas. Elas integram a janela indicada, pagando os custos escritos. As que 
 indicam isso no custo.
 Orientações de movimento, preparo e recolhimento precisam ser percebidas e compreendidas pela
 invocação. A capacidade original conserva seus custos, seus requisitos e suas durações.
-Corrigir uma Falha — nível 2
-1 Ponto de Vínculo · Qualquer turno.
 CANDIDATA EDITORIAL • BASE v0.331 126
 
 PROJETO - M CAMINHOS E TRILHAS
+Corrigir uma Falha — nível 2
+1 Ponto de Vínculo · Qualquer turno.
 Logo depois que uma invocação falhar num ataque de básica ou especial normal, teste de perícia ou Teste
 de Resistência, e antes das consequências, repita a rolagem inteira e use obrigatoriamente o novo
 resultado.
@@ -4975,12 +4976,12 @@ Você paga um ponto e a coletiva para movê-la até 4,5 m depois do deslocamento
 oportunidade desse inimigo ficam impedidos. Outro adversário no trajeto ainda pode reagir.
 O movimento usa o saldo da ave. Se ela já percorreu seus 9 m, a intervenção não lhe concede metros
 novos. Uma movimentação forçada do inimigo não abre essa janela.
-Preparação e recolhimento
-Ajustar a Preparação — nível 7
-1 Ponto de Vínculo · Turno de outra criatura.
 CANDIDATA EDITORIAL • BASE v0.331 127
 
 PROJETO - M CAMINHOS E TRILHAS
+Preparação e recolhimento
+Ajustar a Preparação — nível 7
+1 Ponto de Vínculo · Turno de outra criatura.
 Entre resoluções, escolha uma invocação que mantenha uma especial preparada válida e mude o alvo ou o
 gatilho dessa preparação.
 Conserve a destinatária, a especial, o prazo e os recursos investidos. O novo gatilho corresponde a uma
@@ -5016,11 +5017,11 @@ Execução de Tarefas Ajudar, Vasculhar, Estudar ou Usar objeto numa tarefa sem 
 Dificultar a Resistência Desengajar ou Estudar.
 Resolva essa ação antes ou depois da atuação básica da invocação, que continua disponível para seu uso
 normal. Os efeitos e custos próprios seguem a ação comum.
-Para receber os benefícios dos aprimoramentos, essa execução conta como uma básica. Registre o uso da
-habilidade no conjunto, separado das básicas individuais.
 CANDIDATA EDITORIAL • BASE v0.331 128
 
 PROJETO - M CAMINHOS E TRILHAS
+Para receber os benefícios dos aprimoramentos, essa execução conta como uma básica. Registre o uso da
+habilidade no conjunto, separado das básicas individuais.
 Principal e adicional. A tabela é determinada somente pelo aprimoramento principal. O adicional de
 Combinar Aprimoramentos concede seus efeitos próprios. Mudanças de beneficiária ou principal
 conservam o uso já marcado de Atuação Complementar.
@@ -5055,13 +5056,13 @@ Atributo escolhido Usos por descanso longo
 6 3
 Sua invocação erra uma especial, e sua reserva de Pontos de Vínculo está vazia. Gaste um uso de
 Intervenção Eficiente para usar Corrigir uma Falha por zero. A repetição segue o procedimento normal.
+CANDIDATA EDITORIAL • BASE v0.331 129
+
+PROJETO - M CAMINHOS E TRILHAS
 Especial Combinada
 Nível 30.
 Ação Completa · Uma vez por combate · Participantes a até 18 m.
 Escolha a invocação beneficiada por seu aprimoramento principal e uma destas combinações:
-CANDIDATA EDITORIAL • BASE v0.331 129
-
-PROJETO - M CAMINHOS E TRILHAS
 Forma Execuções
 Uma invocação A beneficiária executa duas especiais normais diferentes que conhece.
 Duas invocações A beneficiária e outra invocação sua executam uma especial normal cada.
@@ -5096,12 +5097,12 @@ Nível Habilidade
 Quando a Trilha funciona
 Os benefícios se aplicam enquanto você mantém exatamente uma invocação ativa. Outras invocações
 podem permanecer no seu repertório.
-Registre na ficha de cada possível principal os acréscimos da Trilha. Quando uma capacidade tiver versão
-comum e versão ampliada, anote ambas e use a correspondente à situação em campo. Efeitos já resolvidos
-seguem suas próprias durações.
 CANDIDATA EDITORIAL • BASE v0.331 130
 
 PROJETO - M CAMINHOS E TRILHAS
+Registre na ficha de cada possível principal os acréscimos da Trilha. Quando uma capacidade tiver versão
+comum e versão ampliada, anote ambas e use a correspondente à situação em campo. Efeitos já resolvidos
+seguem suas próprias durações.
 Na abertura de cada turno seu, a única invocação ativa recebe sua básica comum e a atuação adicional da
 Trilha, desde que possa atuar. Os usos por rodada renovam no começo do seu turno e ficam registrados
 no conjunto.
@@ -5139,13 +5140,13 @@ construtor.
 Registre seus efeitos, requisitos e custos. A básica continua sendo Classe 0, com a escala do nível da
 entidade. A especial respeita a maior Classe permitida por esse nível. Todo talento concedido por
 Repertório Ampliado é de Categoria de Efeito 1, inclusive nas escolhas dos níveis 16 e 24. Escolha entre
+CANDIDATA EDITORIAL • BASE v0.331 131
+
+PROJETO - M CAMINHOS E TRILHAS
 os talentos permitidos para entidades em Criar uma invocação, cumprindo seus requisitos. As escolhas
 seguem os procedimentos normais de revisão da ficha.
 Essas três escolhas fazem parte da progressão de Repertório Ampliado. As entregas da Trilha continuam
 nos níveis 2, 11, 19 e 27.
-CANDIDATA EDITORIAL • BASE v0.331 131
-
-PROJETO - M CAMINHOS E TRILHAS
 Substituir a principal
 Numa substituição direta que mantenha exatamente uma invocação ativa antes e depois, a substituta
 assume os benefícios da Trilha e o saldo das duas básicas ainda disponíveis da anterior.
@@ -5180,13 +5181,13 @@ Proteger a Manifestação
 2 Pontos de Vínculo · Qualquer turno.
 Use no seu turno, entre resoluções, ou quando um ataque ou efeito que afete sua invocação for declarado,
 antes da resolução e dos dados.
+CANDIDATA EDITORIAL • BASE v0.331 132
+
+PROJETO - M CAMINHOS E TRILHAS
 Ela recebe vida temporária igual a 5 × a Classe correspondente ao nível dela. A proteção dura até o
 começo do seu próximo turno, enquanto a criatura permanecer sua única invocação ativa.
 A vida temporária absorve dano antes dos PV, mantém somente a maior reserva disponível e tem teto de
 metade da vida máxima, arredondada para baixo.
-CANDIDATA EDITORIAL • BASE v0.331 132
-
-PROJETO - M CAMINHOS E TRILHAS
 Nível da invocação Classe Vida temporária antes do teto
 1–4 1 5
 5–8 2 10
@@ -5221,11 +5222,11 @@ Seu turno · Uma vez por rodada para o conjunto · Alcance do comando de 18 m.
 Depois que sua única invocação ativa concluir uma especial normal imediata comandada por sua Padrão,
 você pode usar a segunda básica dela para executar outra especial normal diferente e imediata, em vez
 da capacidade básica de continuidade.
-A segunda especial pode ter Classe até metade da maior Classe permitida pelo nível da invocação,
-arredondada para baixo, com mínimo de 1.
 CANDIDATA EDITORIAL • BASE v0.331 133
 
 PROJETO - M CAMINHOS E TRILHAS
+A segunda especial pode ter Classe até metade da maior Classe permitida pelo nível da invocação,
+arredondada para baixo, com mínimo de 1.
 Nível da entidade, acompanhando o Maior Classe dela Limite da continuação
 dono
 19–20 5 Classe 2.
@@ -6777,11 +6778,11 @@ Fabricação
 Para produzir um item, escolha o resultado e combine um projeto com o mestre. O projeto reúne o que
 será feito, os recursos necessários e o tempo de trabalho. Isso vale para uma arma, um uniforme, um
 documento ou um preparado de uso específico.
-Definir o projeto
-Registre os pontos abaixo antes de gastar dinheiro ou materiais.
 CANDIDATA EDITORIAL • BASE v0.331 172
 
 PROJETO - M PERÍCIAS E OFÍCIOS
+Definir o projeto
+Registre os pontos abaixo antes de gastar dinheiro ou materiais.
 Parte O que definir
 Resultado Qual item será produzido, sua quantidade e suas características.
 Conhecimentos Ofício, treino e qualquer receita ou informação necessária.
@@ -6818,12 +6819,12 @@ Estado da peça
 Desgaste comum pode exigir limpeza, afiação, costura ou substituição de uma parte simples. Se o defeito
 for evidente e o trabalho rotineiro, não é necessário um teste só para confirmar que o personagem sabe
 fazê-lo.
-Uma peça partida, queimada ou incompleta pode exigir componentes novos, uma oficina ou
-reconstrução. O mestre informa o que ainda pode ser aproveitado. Ter um estojo de ferramentas não
-garante consertar qualquer dano durante um descanso.
 CANDIDATA EDITORIAL • BASE v0.331 173
 
 PROJETO - M PERÍCIAS E OFÍCIOS
+Uma peça partida, queimada ou incompleta pode exigir componentes novos, uma oficina ou
+reconstrução. O mestre informa o que ainda pode ser aproveitado. Ter um estojo de ferramentas não
+garante consertar qualquer dano durante um descanso.
 Resultado do reparo
 O conserto restaura as características combinadas no projeto. Não aumenta dado de dano, proteção,
 alcance ou grau. Alterar essas características exige outro projeto, quando as regras do equipamento
@@ -6923,12 +6924,11 @@ mestre informa o tempo necessário antes da tentativa.
 Só faça teste quando houver incerteza e uma consequência para a falha. O mestre indica a perícia e a
 CD antes da rolagem. A ação paga o tempo da tentativa; o teste determina se ela funciona. Ter a
 ferramenta necessária não concede vantagem ou sucesso automático, a menos que a regra dela diga isso.
-Tarefa Resolução
-Acionar uma lanterna já na mão Manipulação simples. Sem teste em condições normais.
 CANDIDATA EDITORIAL • BASE v0.331 176
 
 PROJETO - M EQUIPAMENTO
 Tarefa Resolução
+Acionar uma lanterna já na mão Manipulação simples. Sem teste em condições normais.
 Abrir uma porta destrancada e Manipulação simples.
 livre
 Forçar uma porta emperrada com Usar objeto e o teste apropriado ao obstáculo.
@@ -6950,7 +6950,7 @@ ela falha e a porta permanece fechada; não recebe outra rolagem gratuita naquel
 Ferramentas amaldiçoadas e objetos resistentes
 Uma ferramenta amaldiçoada segue sua ficha ao ser ativada. Usar objeto não substitui o custo de um
 feitiço, tratamento, técnica ou habilidade.
-Atacar um objeto usa Danificar objetos (p. 193). O mestre define quais golpes podem danificá-lo e seus
+Atacar um objeto usa Danificar objetos (p. 194). O mestre define quais golpes podem danificá-lo e seus
 valores antes da resolução. Rompe concede a vantagem de Propriedades (p. 177) quando houver ataque
 rolado, sem permitir destruir qualquer material com um único acerto.
 Propriedades
@@ -7092,12 +7092,11 @@ Vigor, Intelecto e Espírito, e um número de perícias igual à sua Maestria.
 Enquanto usar o Traje e estiver na situação registrada, você tem vantagem apenas no TR e nas perícias
 escolhidos. O benefício não alcança ataques, Ofícios ou outros testes. Ele não concede treino nem
 dispensa os requisitos da tentativa.
-Situações Situações
-Vão apertado Água e chuva
 CANDIDATA EDITORIAL • BASE v0.331 180
 
 PROJETO - M EQUIPAMENTO
 Situações Situações
+Vão apertado Água e chuva
 Altura e beirada Multidão
 Escuro Terreno instável
 Superfície ruim Calor e fogo
@@ -7127,16 +7126,15 @@ Degrau Proteção Teto de Destreza Força mínima Volume
 3 +6 0 6 4
 Esse teto não muda seus testes ou ataques com Destreza. Os Revestimentos não concedem o benefício de
 situação dos Trajes.
+CANDIDATA EDITORIAL • BASE v0.331 181
+
+PROJETO - M EQUIPAMENTO
 Escudos
 Um escudo concede sua proteção enquanto estiver preparado e empunhado. Ele ocupa uma mão,
 inclusive se estiver preso ao braço. Você recebe o benefício de apenas um escudo por vez.
 Escudo Proteção Teto de Destreza Força mínima Volume
 Broquel +1 5 Nenhuma 0,5
 Médio +2 3 3 1
-CANDIDATA EDITORIAL • BASE v0.331 181
-
-PROJETO - M EQUIPAMENTO
-Escudo Proteção Teto de Destreza Força mínima Volume
 Torre +3 1 5 2
 Usar escudo com Revestimento não devolve Destreza à Defesa. Prevalece o teto zero do uniforme.
 Exemplo: Sousuke tem Força 6 e Destreza 2. Usa Revestimento 3 e escudo Torre: sua Defesa é 10 + 0 + 6 + 3 =
@@ -7167,6 +7165,9 @@ A proteção da peça só começa a valer depois que você termina de prepará-l
 perde sua proteção e os benefícios que dependem dela estar em uso. Durante a retirada do uniforme, seu
 teto de Destreza continua valendo até a tarefa terminar. A peça continua contando no Volume enquanto
 você a carregar.
+CANDIDATA EDITORIAL • BASE v0.331 182
+
+PROJETO - M EQUIPAMENTO
 A proteção passiva da sua rota volta a ficar disponível depois de terminar de retirar o uniforme. Se
 abandonar a retirada e decidir voltar a usar a peça, primeiro conclua a retirada e depois faça o preparo
 novamente. Interromper a tarefa não restaura a proteção.
@@ -7174,9 +7175,6 @@ Começar a vestir um uniforme não concede seus benefícios antes de concluir. S
 a peça não está pronta para uso. Pode guardá-la pelos custos normais de manipulação; uma nova tentativa
 de preparo começa do início. Até completar o preparo, você conserva a proteção que estava disponível
 sem ela.
-CANDIDATA EDITORIAL • BASE v0.331 182
-
-PROJETO - M EQUIPAMENTO
 Exemplo: Rina tem Destreza 4 e Traje 2. Decide retirá-lo. Durante o minuto da tarefa, deixa de receber os 2
 pontos do Traje e ainda não recupera a proteção passiva disponível na ficha: sua Defesa, sem escudo ou
 outros efeitos, é 14. Ao concluir, recalcula a Defesa com a proteção passiva disponível na ficha.
@@ -7205,6 +7203,9 @@ Mão
 Cada besta comporta um virote e precisa ser recarregada depois de cada disparo. Nos arcos, retirar e
 posicionar uma flecha faz parte do ataque; eles não exigem uma Ação Bônus para isso. A munição precisa
 estar ao alcance da mão que a manipula.
+CANDIDATA EDITORIAL • BASE v0.331 183
+
+PROJETO - M EQUIPAMENTO
 Armas de fogo
 Cada item abaixo abastece por completo a arma indicada. O preço inclui um recipiente simples:
 carregador, conjunto de cartuchos ou caixa, conforme a arma. Um cartucho avulso não equivale a uma
@@ -7215,10 +7216,6 @@ Revólver: conjunto de cartuchos 2 ¥1.000 0,2
 Espingarda: conjunto de cartuchos 2 ¥1.000 0,3
 Rifle: carregador 3 ¥1.500 0,3
 Submetralhadora: carregador 3 ¥1.500 0,3
-CANDIDATA EDITORIAL • BASE v0.331 183
-
-PROJETO - M EQUIPAMENTO
-Arma e carga correspondente Ataques por carga Preço Volume
 Rifle de Precisão: carregador 2 ¥2.000 0,3
 Metralhadora Pesada: caixa de munição 4 ¥4.000 0,5
 A compatibilidade segue a linha da tabela. Duas armas com a mesma capacidade não necessariamente
@@ -7249,6 +7246,9 @@ retirada e guardada continua na reserva.
 Se o gatilho de 1 ou 2 deixou munição na arma, pode gastar a mesma Ação Bônus para prepará-la com o
 que restou, sem acrescentar nem consumir munição. Se ela estiver vazia, só volta a disparar depois de
 receber pelo menos uma unidade compatível.
+CANDIDATA EDITORIAL • BASE v0.331 184
+
+PROJETO - M EQUIPAMENTO
 Exemplo: Kaori tem um Rifle com 3 unidades e 3 na reserva. O primeiro ataque consome uma e termina em
 2 natural: o Rifle fica com 2 e precisa recarregar. Kaori gasta sua Ação Bônus, acrescenta uma da reserva e
 fica com 3 na arma e 2 guardadas. Se não tivesse reserva, a mesma ação deixaria o Rifle pronto com as 2
@@ -7257,9 +7257,6 @@ Recarga entre ataques
 Pode recarregar entre ataques se ainda tiver Ação Bônus disponível. Uma recarga prepara apenas uma
 arma. Se não puder pagar esse custo, não pode disparar uma arma que precise de recarga. Os ataques
 restantes continuam disponíveis para outras opções permitidas.
-CANDIDATA EDITORIAL • BASE v0.331 184
-
-PROJETO - M EQUIPAMENTO
 Segurar duas armas de uma mão ou uma arma e um escudo pode impedir a recarga por falta de mão livre.
 Liberar a mão segue os custos normais de manipulação de equipamento.
 Reservas e reposição
@@ -7288,6 +7285,9 @@ duas etapas. Não transfira entre linhas incompatíveis da tabela.
 Ao preparar as reservas fora do combate, você pode reunir sobras compatíveis em recipientes com
 espaço, gastando 1 minuto. O total de munição permanece o mesmo. Recipientes vazios só deixam a
 carga se forem guardados em outro local ou descartados.
+CANDIDATA EDITORIAL • BASE v0.331 185
+
+PROJETO - M EQUIPAMENTO
 Munição inicial
 Na criação do personagem, a compra de uma arma de fogo inclui três cargas completas: uma instalada e
 duas de reserva. A compra de um arco ou besta inclui um conjunto de 20 projéteis da tabela. Na besta,
@@ -7301,9 +7301,6 @@ usados que caíram numa área acessível, arredondada para baixo, separadamente 
 projéteis destruídos ou em locais que você não consegue alcançar. O restante se perde. Esse limite é
 compartilhado pelo grupo; repetir a busca ou chamar outra pessoa não recupera outra metade. Munição
 de arma de fogo consumida não é recuperada dessa forma.
-CANDIDATA EDITORIAL • BASE v0.331 185
-
-PROJETO - M EQUIPAMENTO
 Armas
 Uma arma pode servir para lutar de perto, alcançar um inimigo mais distante ou manter uma mão livre.
 Antes de escolhê-la, confira seu treino, a Força exigida e o espaço que ela ocupa no inventário.
@@ -7331,6 +7328,9 @@ Preços
 Os preços estão em ienes (¥). Nas armas de fogo, a tabela traz dois valores: criação / compra posterior. O
 valor de criação vale uma vez, ao montar a ficha. Nas demais armas, o preço é o mesmo nos dois
 momentos.
+CANDIDATA EDITORIAL • BASE v0.331 186
+
+PROJETO - M EQUIPAMENTO
 Armas de fogo exigem Grau 2 ou autorização prévia. Ter dinheiro ou treino não dispensa esse acesso. O
 estoque inicial e a reposição de projéteis estão em Munição; uma compra posterior da arma não renova o
 fornecimento inicial.
@@ -7340,9 +7340,6 @@ Rina escolhe como empunhá-la e anota na ficha o dano com os modificadores que s
 Lâminas
 Lâmina Curta
 Treino simples. Lâminas pequenas, para golpes próximos.
-CANDIDATA EDITORIAL • BASE v0.331 186
-
-PROJETO - M EQUIPAMENTO
 Arma Mãos Dano Propriedades Força Volume Preço (¥)
 Canivete 1 1d4 Cortante Fineza · Oculta · Rompe · Leve — 0,1 8.000
 Faca 1 1d6 Cortante Fineza · Rompe · Leve — 0,2 16.000
@@ -7366,6 +7363,9 @@ grande)
 Rapieira 1 1d6 Perfurante Fineza · Talha — 1 32.000
 Wakizashi (espada 1 1d8 Cortante Oculta · Leve — 0,5 32.000
 curta)
+CANDIDATA EDITORIAL • BASE v0.331 187
+
+PROJETO - M EQUIPAMENTO
 Armas de impacto
 Massa
 Treino simples. Maças, martelos e clavas que ferem pelo impacto.
@@ -7380,9 +7380,6 @@ Maul (martelo de 2 1d12 Rompe 3 3 36.000
 combate) Concussão
 Taco 1 1d8 Versátil · Discreta — 1 16.000
 Concussão
-CANDIDATA EDITORIAL • BASE v0.331 187
-
-PROJETO - M EQUIPAMENTO
 Porrete
 Treino simples. Bastões e armas de golpes curtos.
 Arma Mãos Dano Propriedades Força Volume Preço (¥)
@@ -7404,6 +7401,9 @@ Soqueira 1 1d4 Vestida · Oculta · Par · Leve — 0,2 8.000
 Concussão
 Tekko (proteção de 1 1d4 Vestida · Par · Oculta · Leve — 0,2 8.000
 punho) Concussão
+CANDIDATA EDITORIAL • BASE v0.331 188
+
+PROJETO - M EQUIPAMENTO
 Machados, foices e hastes
 Machado
 Treino marcial. Lâminas montadas em cabos curtos ou longos.
@@ -7420,9 +7420,6 @@ Kusarigama (foice 2 1d8 Cortante Alcance 3 m · Emaranha · Longo — 2 20.000
 com corrente) Alcance 6/18 m
 Armas Longas
 Treino marcial. Lanças e hastes para atingir a distância.
-CANDIDATA EDITORIAL • BASE v0.331 188
-
-PROJETO - M EQUIPAMENTO
 Arma Mãos Dano Propriedades Força Volume Preço (¥)
 Lança 1 1d6 Perfurante Alcance 3 m · Longo Alcance 6/18 — 2 16.000
 m
@@ -7440,6 +7437,9 @@ Corrente 2 1d8 Alcance 3 m · Emaranha · Rompe — 2 20.000
 Concussão
 Manriki (corrente 1 1d6 Emaranha · Oculta · Leve — 0,5 8.000
 com pesos) Concussão
+CANDIDATA EDITORIAL • BASE v0.331 189
+
+PROJETO - M EQUIPAMENTO
 Arremesso
 Treino simples. Armas feitas para serem lançadas.
 Arma Mãos Dano Propriedades Força Volume Preço (¥)
@@ -7460,9 +7460,6 @@ Arma Mãos Dano Propriedades Força Volume Preço (¥)
 Daikyū (arco longo) 2 1d10 Longo Alcance 45/180 m — 2 60.000
 Perfurante
 Hankyū (arco curto) 2 1d8 Perfurante Longo Alcance 24/96 m · Oculta — 1 40.000
-CANDIDATA EDITORIAL • BASE v0.331 189
-
-PROJETO - M EQUIPAMENTO
 Balestra
 Treino simples. Bestas de uma ou duas mãos.
 Arma Mãos Dano Propriedades Força Volume Preço (¥)
@@ -7481,6 +7478,10 @@ Metralhadora 2 2d10 Longo Alcance 24/72 m · Munição 3 4 450.000 / 900.000
 Pesada Perfurante · Rompe · Volumosa
 Pistola 1 1d10 Longo Alcance 9/27 m · Munição · — 0,5 125.000 / 250.000
 Perfurante Oculta · Leve
+CANDIDATA EDITORIAL • BASE v0.331 190
+
+PROJETO - M EQUIPAMENTO
+Arma Mãos Dano Propriedades Força Volume Preço (¥)
 Revólver 1 1d10 Longo Alcance 12/36 m · Munição — 0,5 150.000 / 300.000
 Perfurante · Oculta · Leve
 Rifle 2 2d8 Perfurante Longo Alcance 24/72 m · Munição 1 2 175.000 / 350.000
@@ -7493,9 +7494,6 @@ Itens comuns
 Uma lanterna permite examinar um corredor escuro; uma corda pode abrir um caminho de volta. Escolha
 os itens conforme a missão e anote onde os leva. Preço e Volume valem para a quantidade indicada em
 cada linha.
-CANDIDATA EDITORIAL • BASE v0.331 190
-
-PROJETO - M EQUIPAMENTO
 Equipamento de missão
 Item Conteúdo Preço (¥) Volume
 Corda 15 m 3.000 0,5
@@ -7520,6 +7518,9 @@ consumida. Pilhas usadas continuam ocupando espaço enquanto forem guardadas. N�
 pesar água ou pilhas durante a cena.
 Na compra, a lanterna e o telefone estão prontos para uso. O telefone dura um dia de uso comum;
 transmissão contínua ou outra tarefa demorada pode exigir recarga antes, com duração informada pelo
+CANDIDATA EDITORIAL • BASE v0.331 191
+
+PROJETO - M EQUIPAMENTO
 mestre. A bateria portátil oferece uma recarga e depois precisa ser carregada novamente. Água, alimento,
 pilhas e cargas elétricas não se renovam por começar outra cena.
 Exemplo: mochila, corda, lanterna, pilhas e cantil custam ¥13.000 e ocupam 1,3 Volume, incluindo a
@@ -7532,9 +7533,6 @@ Lanterna
 Ligar ou desligar uma lanterna que já está na mão é uma manipulação simples. Ela ilumina um cone à sua
 frente: luz plena até 9 m e penumbra por mais 9 m. Você pode mudar sua direção como parte de sua ação
 ou movimento. Ela ocupa uma mão enquanto estiver sendo segurada.
-CANDIDATA EDITORIAL • BASE v0.331 191
-
-PROJETO - M EQUIPAMENTO
 Paredes e outros obstáculos bloqueiam a luz. A lanterna permite enxergar o que ficou iluminado;
 procurar uma pista ainda segue Percepção ou Investigação. Sua luz pode denunciar sua posição. Trocar as
 pilhas acessíveis exige Ação Padrão e duas mãos.
@@ -7562,6 +7560,9 @@ O telefone permite mensagens, chamadas, fotografias e acesso à rede quando houv
 consulta ou operação demorada em combate exige Ação Padrão; ligar a tela ou atender uma chamada é
 uma manipulação simples. O aparelho não concede informação que ninguém registrou nem sentidos
 sobrenaturais.
+CANDIDATA EDITORIAL • BASE v0.331 192
+
+PROJETO - M EQUIPAMENTO
 Fechaduras e contenção
 Uma porta pode ceder pela tranca, pelas dobradiças ou pela própria folha. Declare o que pretende fazer
 antes do teste. Destravar uma fechadura conserva o objeto; forçá-lo pode danificá-lo e produzir barulho.
@@ -7576,15 +7577,12 @@ Reforçada 18
 De alta segurança 22
 No sucesso, a fechadura abre. Na falha, continua fechada. O mestre informa antes do teste consequências
 adicionais, como ruído, alarme ou uma ferramenta que possa quebrar. Tentar novamente exige todo o
-CANDIDATA EDITORIAL • BASE v0.331 192
-
-PROJETO - M EQUIPAMENTO
 tempo; a falha comum não destrói gazuas automaticamente. Fechaduras eletrônicas exigem ferramentas
 e procedimento próprios.
 Forçar uma porta ou romper uma tranca usa Atletismo com Ação Padrão. Como referência, uma porta
 interna simples tem CD 14; uma reforçada, CD 18; uma barreira pesada, CD 22 ou exige equipamento que
 permita a tentativa. A CD mede a estrutura inteira, sem depender apenas da dificuldade da fechadura.
-Atacar o obstáculo segue Danificar objetos (p. 193).
+Atacar o obstáculo segue Danificar objetos (p. 194).
 Prender alguém
 Para amarrar as mãos ou colocar algemas, você precisa de 1 minuto, duas mãos e acesso aos pulsos. A
 criatura deve permitir a tarefa ou estar inconsciente ou impedida de resistir durante todo o
@@ -7604,6 +7602,9 @@ Romper a corda ou a algema pela Ação Padrão; Atletismo CD 20 para corda ou CD
 força
 Abrir a algema Chave: manipulação simples. Gazuas: procedimento de Abrir fechaduras, se tiver
 como manipulá-las.
+CANDIDATA EDITORIAL • BASE v0.331 193
+
+PROJETO - M EQUIPAMENTO
 No sucesso, a contenção escolhida se desfaz; na falha, permanece. Uma tentativa de escapar pela força ou
 por Acrobacia pode ser feita com as mãos presas. Cortar uma corda acessível exige uma lâmina adequada
 e Ação Padrão; não causa dano à criatura contida.
@@ -7619,9 +7620,6 @@ Vidro ou cerâmica 12
 Madeira 14
 Pedra 16
 Ferro ou aço 18
-CANDIDATA EDITORIAL • BASE v0.331 193
-
-PROJETO - M EQUIPAMENTO
 O material já está considerado na Defesa. Só aplique RD ou resistência adicional se a ficha do objeto
 indicar.
 Cortar uma corda acessível com uma lâmina pode dispensar rolagem, a critério do mestre: gaste Ação
@@ -7643,6 +7641,9 @@ Efeitos só atingem objetos quando sua descrição permitir. Objetos comuns inan
 e efeitos de mente ou alma. Corpos construídos com ficha de criatura seguem suas regras próprias,
 inclusive quando inativos. Outros tipos dependem do material, com ajustes definidos antes do ataque.
 Um objeto parado falha em TR Físico ou de Vigor; efeitos mentais não se aplicam.
+CANDIDATA EDITORIAL • BASE v0.331 194
+
+PROJETO - M EQUIPAMENTO
 Estas tabelas servem para obstáculos e objetos soltos. Atingir alguém não danifica seus itens. Destruir ou
 arrancar equipamento vestido ou empunhado exige uma regra que permita esse alvo e determine a
 resolução. Objetos com ficha própria usam seus valores.
@@ -7658,9 +7659,6 @@ Armas improvisadas
 Uma garrafa, uma frigideira ou a coronha de uma arma podem servir para atacar. O objeto precisa estar
 ao alcance de suas mãos e ter tamanho que permita manejá-lo. Pegá-lo usa as regras de Sacar e guardar; o
 ataque usa a Ação Atacar ou outra ação que conceda esse ataque.
-CANDIDATA EDITORIAL • BASE v0.331 194
-
-PROJETO - M EQUIPAMENTO
 Objeto semelhante a uma arma
 Se o objeto funcionar como uma arma do catálogo, o mestre pode usar essa arma como referência. Um
 cabo resistente pode funcionar como Bastão. A decisão vale antes da rolagem e mantém o treino, as mãos
@@ -7686,6 +7684,9 @@ Usar uma arma de outro modo
 Golpear com a coronha ou arremessar uma arma sem Longo Alcance segue as mesmas regras de
 improvisação. O treino no uso habitual não cobre automaticamente esse uso. O dano do disparo e as
 propriedades que dependam dele não acompanham a coronhada.
+CANDIDATA EDITORIAL • BASE v0.331 195
+
+PROJETO - M EQUIPAMENTO
 O mestre informa antes do ataque se o objeto corre risco de quebrar. Não há desgaste automático por
 golpe para objetos resistentes. Um objeto quebrado deixa de funcionar daquele modo; seus pedaços só
 podem ser usados se ainda servirem para outra tentativa.
@@ -7696,14 +7697,11 @@ restritos estão ao seu alcance.
 Dinheiro
 Os preços deste livro estão em ienes (¥). Anote o dinheiro do personagem e desconte cada compra.
 Armas, munição e itens comuns têm seus preços nos respectivos catálogos; os de uniformes e escudos
-estão em Preços de proteção (p. 196).
+estão em Preços de proteção (p. 197).
 Na instituição do Projeto M, o pagamento regular depende da patente e da participação em missões.
 Valores, frequência e ajustes da campanha estão em Recompensas da guilda, no capítulo de Experiência
 e Progressão. Receber equipamento ou terminar uma missão não concede outro pagamento por conta
 própria.
-CANDIDATA EDITORIAL • BASE v0.331 195
-
-PROJETO - M EQUIPAMENTO
 Equipamento restrito
 Equipamento Acesso necessário
 Armas de fogo e sua munição Grau 2 ou superior, ou autorização prévia.
@@ -7724,9 +7722,12 @@ equivalente.
 Exemplo: Kaori começa no Grau 4 e tem dinheiro suficiente para uma Pistola. Ainda precisa de autorização,
 pois o acesso comum às armas de fogo começa no Grau 2. Mesmo autorizada, deve conferir a Força exigida
 pela arma e a carga do conjunto que pretende levar.
+CANDIDATA EDITORIAL • BASE v0.331 196
+
+PROJETO - M EQUIPAMENTO
 Preços de proteção
 Os valores abaixo são para uma peça comum do tipo indicado. Proteção, teto de Destreza, Força exigida e
-Volume estão em Proteção. Os requisitos de compra estão em Equipamento restrito (p. 195).
+Volume estão em Proteção. Os requisitos de compra estão em Equipamento restrito (p. 196).
 Peça Preço (¥)
 Traje 1 30.000
 Traje 2 90.000
@@ -7741,9 +7742,6 @@ Uniforme da instituição
 Na criação padrão, você recebe um Traje 1, sem descontar seu preço do dinheiro inicial. A linha de
 ¥30.000 vale para uma compra posterior ou uma peça adicional. Trocar de dono, perder o uniforme ou
 começar outra missão não concede automaticamente outro Traje gratuito.
-CANDIDATA EDITORIAL • BASE v0.331 196
-
-PROJETO - M EQUIPAMENTO
 Você pode comprar uma proteção diferente. Registre também o destino do Traje recebido: se continuar
 levando-o, ele ocupa espaço mesmo guardado. Vestir uma peça sobre a outra não soma a proteção dos
 dois uniformes.
@@ -7764,6 +7762,9 @@ Se a campanha começar em outra patente, o fundo inicial corresponde a uma mensa
 patente, indicada em Recompensas da guilda. O mestre define a patente inicial. Começar em nível mais
 alto não concede uma patente por conta própria. Campanhas com outra forma de sustento definem o
 fundo antes das compras.
+CANDIDATA EDITORIAL • BASE v0.331 197
+
+PROJETO - M EQUIPAMENTO
 Montar o inventário
 1. Escolha armas e proteção. Confira o acesso, o treino, a Força e as mãos necessárias para usá-las.
 2. Use o preço de criação para armas de fogo e o preço comum para os demais itens. Desconte cada
@@ -7782,9 +7783,6 @@ Naginata 36.000 2,3 3
 Pistola e duas reservas 125.000 1,2 0
 Força mínima considera carga e uso do conjunto, com os demais requisitos atendidos. A Pistola está
 carregada e inclui duas reservas; exige autorização para quem começa no Grau 4. Os exemplos não
-CANDIDATA EDITORIAL • BASE v0.331 197
-
-PROJETO - M EQUIPAMENTO
 incluem mochila, alimento, telefone ou ferramentas. Receber munição não aumenta a capacidade de
 carga.
 Exemplo: Rina compra Katana e Broquel por ¥60.000. Acrescenta mochila, corda, lanterna, pilhas e cantil
@@ -7804,6 +7802,9 @@ capacidade, recarga e recuperação de projéteis ficam em Munição.
 Exemplo: Kaori tem ¥10.000. Compra três carregadores de Rifle por ¥4.500, uma lanterna por ¥3.000 e uma
 reposição de pilhas por ¥500. Gasta ¥8.000, fica com ¥2.000 e acrescenta 1,2 Volume ao inventário. Os
 carregadores fornecem 9 ataques de reserva, além da munição que já estiver na arma.
+CANDIDATA EDITORIAL • BASE v0.331 198
+
+PROJETO - M EQUIPAMENTO
 Equipamento do grupo
 Ao passar um item para outra pessoa, retire-o do inventário de quem entregou e registre-o com quem
 recebeu. Transfira também seu estado e os suprimentos restantes. O mesmo objeto não pode constar
@@ -7824,9 +7825,6 @@ Uma corrente que se alonga durante o golpe, um uniforme que muda de aparência o
 protege enquanto flutua podem mudar as escolhas de um personagem. Esses itens são ferramentas
 amaldiçoadas: equipamentos que carregam energia própria. Você pode usá-los mesmo sem ter energia
 amaldiçoada.
-CANDIDATA EDITORIAL • BASE v0.331 198
-
-PROJETO - M EQUIPAMENTO
 Cada ferramenta parte de um item comum e pode carregar um efeito especial. O grau indica a
 importância desse efeito. Ele não acrescenta automaticamente bônus ao ataque, dano, Defesa, atributos
 ou CD.
@@ -7846,6 +7844,9 @@ no lugar apropriado.
 Roupa comum não é Traje. Um uniforme sem proteção pode receber um poder sem passar a conceder
 Defesa, situação de Traje ou qualquer outro benefício de armadura. Ele também não substitui a proteção
 passiva da sua rota.
+CANDIDATA EDITORIAL • BASE v0.331 199
+
+PROJETO - M EQUIPAMENTO
 Características da base
 O item conserva Volume, mãos necessárias, dano, proteção, teto de Destreza e requisitos. Altere uma
 característica apenas quando o efeito disser que faz isso. Uma arma não recebe a propriedade Leve por
@@ -7866,12 +7867,9 @@ Grau Efeito esperado Nível mínimo para o efeito
 2 Uma opção de combate ou exploração com limites definidos 7
 1 Uma capacidade que muda o uso habitual do equipamento 13
 Especial Um poder singular, com limites próprios 13
-CANDIDATA EDITORIAL • BASE v0.331 199
-
-PROJETO - M EQUIPAMENTO
 O nível mínimo vale para o efeito, sem exigência de Refino. Antes dele, o item conserva suas
 características básicas. Uma arma ainda fere maldições; um escudo ainda fornece sua proteção. Uma
-ferramenta com Desgaste (p. 206) permite antecipar o uso do efeito.
+ferramenta com Desgaste (p. 207) permite antecipar o uso do efeito.
 Grau e patente
 Sua patente representa o reconhecimento no meio jujutsu. Ela não substitui o nível exigido pelo efeito, e
 possuir uma ferramenta não muda sua patente. O mestre decide quando cada item pode aparecer, ser
@@ -7884,7 +7882,10 @@ ferramenta compatível: o efeito de uma arma pode ser usado em outra arma, se su
 mestre define a ficha final antes de entregá-la.
 O formato precisa comportar o efeito. Uma corrente extensível exige elos ou estrutura flexível; transferir
 esse efeito para um anel não transforma os ataques do portador em ataques de longo alcance. Também
-não se pode costurar acessórios numa armadura para contornar os limites de itens em uso (p. 200).
+não se pode costurar acessórios numa armadura para contornar os limites de itens em uso (p. 201).
+CANDIDATA EDITORIAL • BASE v0.331 200
+
+PROJETO - M EQUIPAMENTO
 Números e progressão
 Ao criar uma ferramenta de grau maior, procure uma nova possibilidade de ação, uma forma de explorar
 o ambiente ou uma exceção limitada. Aumentar o grau não permite ampliar livremente alcance,
@@ -7908,9 +7909,6 @@ Arma de duas mãos, roupa com Até três
 efeito e colar
 Duas armas de uma mão e dois Até quatro
 acessórios
-CANDIDATA EDITORIAL • BASE v0.331 200
-
-PROJETO - M EQUIPAMENTO
 Preparar e retirar
 Não há sintonização, descanso ou custo de PE para habilitar uma ferramenta. Sacar armas segue Sacar e
 guardar (p. 175). Trajes, Revestimentos e escudos seguem os tempos de Vestir e retirar equipamento.
@@ -7929,6 +7927,9 @@ uma vez por cena, outra cópia não permite usá-lo novamente nessa cena. Ao ati
 ferramenta e na sua ficha. O efeito fica disponível novamente quando ambos tiverem recuperado o uso.
 Efeitos iguais não se somam. Vários itens também não concedem Reações adicionais: cada ativação usa
 os recursos normais do personagem.
+CANDIDATA EDITORIAL • BASE v0.331 201
+
+PROJETO - M EQUIPAMENTO
 Aquisição e criação
 Ferramentas podem ser recompensas, empréstimos da instituição, heranças ou achados de uma missão.
 O mestre decide quais estão disponíveis. Cumprir o nível mínimo permite usar o efeito; não garante
@@ -7953,9 +7954,6 @@ que a ferramenta faz, ela precisa de uma nova avaliação.
 Montar a ficha não fabrica o item. Produzi-lo durante o jogo exige os conhecimentos, materiais e
 condições tratados em Ofícios. Comprar a base também não concede o direito de acrescentar um efeito
 gratuitamente.
-CANDIDATA EDITORIAL • BASE v0.331 201
-
-PROJETO - M EQUIPAMENTO
 Volume
 Armas, Trajes, Revestimentos e escudos usam o Volume de sua base. Para os exemplos deste catálogo,
 uma roupa completa ou capa ocupa 0,3 Volume, e um acessório pequeno ocupa 0,1 Volume. Peças
@@ -7972,6 +7970,9 @@ Arma: Kunai. Grau 3. Efeito: Fiel. Compatível com armas arremessadas que possua
 Depois de resolver um arremesso com esta arma no seu turno, ela volta para a mão que a lançou, se essa
 mão estiver livre. O retorno não custa ação, não ataca ninguém e segue um caminho físico desimpedido
 até você, limitado à distância máxima daquele arremesso.
+CANDIDATA EDITORIAL • BASE v0.331 202
+
+PROJETO - M EQUIPAMENTO
 Se a arma ficar presa, for agarrada ou houver um obstáculo bloqueando o retorno, ela permanece onde
 está. Fiel não impede que alguém a tire de sua mão e não permite chamá-la da mochila ou de outro local.
 O efeito move a própria arma; não recupera munições ou projéteis disparados por outra arma.
@@ -7996,9 +7997,6 @@ Arma: Corrente. Grau 1. Efeito: Insondável. Compatível com Corrente e Manriki.
 Enquanto mantiver uma ponta presa sob sua roupa e a outra na mão, o alcance corpo a corpo desta arma é
 18 m para ataques feitos no seu turno. Os elos percorrem o caminho até o alvo: obstáculos, cobertura e
 linha de efeito continuam valendo.
-CANDIDATA EDITORIAL • BASE v0.331 202
-
-PROJETO - M EQUIPAMENTO
 Fora do seu turno, use o alcance normal da arma. A ampliação não aumenta a área de ataques de
 oportunidade nem permite atacar através de paredes. Soltar ou expor a ponta presa encerra a ampliação;
 prendê-la novamente exige uma Ação Padrão.
@@ -8011,6 +8009,9 @@ os objetos que carrega.
 A aparência não modifica peso, proteção ou textura. Um Revestimento pode parecer outro modelo de
 uniforme, mas continua rígido ao toque e não fica menor. Insígnias copiadas não concedem autoridade;
 enganar alguém continua dependendo da situação e dos testes apropriados.
+CANDIDATA EDITORIAL • BASE v0.331 203
+
+PROJETO - M EQUIPAMENTO
 Traje de Fuga
 Traje 1. Grau 2. Efeito: Costura de Fuga. Uma vez por cena. Compatível com roupas e Trajes.
 Quando estiver Agarrado por outra criatura, use uma Ação Bônus para encerrar um desses agarrões. A
@@ -8037,9 +8038,6 @@ Revestimento Ancorado
 Revestimento 1. Grau 2. Efeito: Âncora. Uma vez por cena. Compatível com Revestimentos e escudos.
 Quando um efeito estiver prestes a empurrar, puxar ou arrastar você contra sua vontade, pode gastar sua
 Reação para permanecer no lugar. Precisa estar em contato com uma superfície capaz de sustentar você.
-CANDIDATA EDITORIAL • BASE v0.331 203
-
-PROJETO - M EQUIPAMENTO
 Âncora impede somente esse deslocamento. Dano, agarrão, Derrubado e outras consequências do mesmo
 efeito continuam valendo. Ela não impede teleporte, queda por falta de chão ou o movimento da
 superfície em que você está apoiado.
@@ -8051,6 +8049,9 @@ terminar em espaço livre com apoio.
 Esse movimento não provoca ataques de oportunidade, mas respeita obstáculos e os custos do terreno. O
 aliado não recebe ataque ou outra ação. O efeito só pode ser usado enquanto você estiver usando o
 escudo.
+CANDIDATA EDITORIAL • BASE v0.331 204
+
+PROJETO - M EQUIPAMENTO
 Escudo Suspenso
 Escudo Médio. Grau 1. Efeito: Suspensão. Uma vez por descanso curto. Compatível com escudos.
 Com o escudo preparado, use uma Ação Bônus para fazê-lo flutuar junto de você por 1 minuto, liberando
@@ -8077,9 +8078,6 @@ vocês. Ele informa somente que há alguma maldição nessa área, sem indicar d
 identidade.
 O aviso não concede visão da criatura nem acerto automático contra ela. Se um efeito esconder a energia
 da maldição dessa percepção, ele também impede o aviso do medalhão.
-CANDIDATA EDITORIAL • BASE v0.331 204
-
-PROJETO - M EQUIPAMENTO
 Capa Perene
 Roupa comum. Grau 3. Efeito: Perene. Compatível com qualquer tipo de ferramenta.
 A peça não sofre deterioração por uso comum, ferrugem, umidade ou desgaste do material. Fora de
@@ -8093,6 +8091,9 @@ Arma: Machado de Guerra. Grau 1. Efeito: Contrapeso. Compatível com armas, Reve
 escudos.
 Enquanto usar esta peça, você ignora o requisito de Força dela. Os demais requisitos continuam valendo.
 O efeito não modifica seu atributo, o teto de Destreza da proteção, as mãos necessárias ou o Volume.
+CANDIDATA EDITORIAL • BASE v0.331 205
+
+PROJETO - M EQUIPAMENTO
 Uma personagem ainda precisa conseguir carregar o conjunto. Contrapeso também não permite usar
 uma peça que seu corpo não possa vestir ou empunhar.
 Colar de Ar
@@ -8119,9 +8120,6 @@ A ponta rompe efeitos de energia que encontra. O poder tem duas aplicações, am
 empunhe a lança.
 Abrir uma barreira. Com uma Ação Padrão, toque uma barreira de feitiço ao alcance normal da lança.
 Faça um TR Físico contra a CD de quem criou o feitiço. Num sucesso, abra uma passagem de 1,5 m de
-CANDIDATA EDITORIAL • BASE v0.331 205
-
-PROJETO - M EQUIPAMENTO
 largura e altura até o fim do seu turno. A abertura só funciona naquele ponto e se fecha depois; a barreira
 permanece no restante da área.
 A abertura não desfaz um Domínio, um pacto ou uma técnica inteira. Uma barreira com regra própria de
@@ -8137,6 +8135,9 @@ Cada nova aplicação exige sua resolução normal.
 Exemplo: uma explosão atingiria três personagens. O portador da lança passa no TR de Anátema e evita os
 efeitos sobre si. Os outros dois ainda resolvem a explosão. Ele já gastou sua Reação e o uso de Anátema
 daquela cena.
+CANDIDATA EDITORIAL • BASE v0.331 206
+
+PROJETO - M EQUIPAMENTO
 Desgaste
 Uma ferramenta com Desgaste permite usar seu efeito antes do nível mínimo. Em troca, esse poder dura
 um número limitado de missões. A propriedade faz parte da ficha do item; o portador não pode
@@ -8160,9 +8161,6 @@ quebra, conforme o destino registrado na ficha. Conserto não recupera o poder e
 inteira, sua proteção, propriedades e demais características comuns continuam valendo.
 Exemplo: uma ferramenta de grau 1 começa com três missões. O grupo registra cada missão em que o efeito
 foi usado, mesmo se outra pessoa receber o item emprestado.
-CANDIDATA EDITORIAL • BASE v0.331 206
-
-PROJETO - M EQUIPAMENTO
 Missão Uso do efeito Missões restantes depois dela
 Primeira Vários usos, dentro da frequência 2
 do efeito
@@ -8175,6 +8173,9 @@ Objetos amaldiçoados
 Restos de um feiticeiro podem conservar uma maldição muito depois de sua morte. Os dedos de Sukuna
 são um exemplo: atraem maldições e carregam o risco de encarnação. Esses objetos podem motivar uma
 missão de busca, escolta ou contenção.
+CANDIDATA EDITORIAL • BASE v0.331 207
+
+PROJETO - M EQUIPAMENTO
 Objetos amaldiçoados têm efeitos próprios. Eles não recebem poderes pelo catálogo de ferramentas.
 Uma ferramenta serve como equipamento, empunhada ou vestida; os perigos de um objeto podem
 continuar presentes enquanto ele está guardado.
@@ -8200,9 +8201,6 @@ Ingerir um objeto desconhecido não concede automaticamente poderes, uma nova Or
 sobre o que ele contém. Se essa possibilidade fizer parte da campanha, o mestre apresenta os riscos que o
 personagem pode conhecer e define as consequências conforme o objeto. As opções de personagem
 ligadas à encarnação são tratadas em Origens.
-CANDIDATA EDITORIAL • BASE v0.331 207
-
-PROJETO - M EQUIPAMENTO
 Guarda
 As escolas jujutsu mantêm objetos perigosos sob contenção. Para a missão, o mestre informa quem pode
 recebê-los, onde fica o local de entrega e quais cuidados o transporte exige. Destruir um objeto também
@@ -8244,14 +8242,13 @@ Final de arco 300 Encerramento de uma linha de missões.
 Na falha, o mestre concede metade ou nada, conforme o que aconteceu. Depois, cada participante aplica
 seu desconto semanal. Uma recompensa de zero continua zero; ela não recebe o mínimo de XP das
 recompensas positivas.
+CANDIDATA EDITORIAL • BASE v0.331 209
+
+PROJETO - M PROGRESSÃO
 Subir de nível
 A tabela informa quanto custa sair do nível atual. Ela não mostra o XP acumulado desde a criação.
 Nível atual XP para o próximo
 2 200
-CANDIDATA EDITORIAL • BASE v0.331 209
-
-PROJETO - M PROGRESSÃO
-Nível atual XP para o próximo
 3–4 300
 5–7 500
 8–10 700
@@ -8285,11 +8282,11 @@ uma missão sem recompensa em missão paga.
 A contagem reinicia no dia e horário definidos pela guilda ou campanha. Use a conclusão da missão para
 atribuí-la à semana. Uma missão de várias sessões conta uma vez, quando terminar. Participação numa
 missão sem XP ainda ocupa sua posição semanal.
-Exemplo. Sua terceira missão da semana era longa e terminou em falha com metade da recompensa. A
-conta é 200 × ½ × ½ = 50 XP. Outra pessoa, em sua primeira missão da semana, recebe 100.
 CANDIDATA EDITORIAL • BASE v0.331 210
 
 PROJETO - M PROGRESSÃO
+Exemplo. Sua terceira missão da semana era longa e terminou em falha com metade da recompensa. A
+conta é 200 × ½ × ½ = 50 XP. Outra pessoa, em sua primeira missão da semana, recebe 100.
 Limiar do nível 20
 Para avançar do nível 20 para o 21, reúna o XP necessário e registre um dos sete feitos abaixo, realizado
 entre os níveis 15 e 20. Um feito reconhecido nessa faixa continua válido quando você chegar ao limiar.
@@ -8328,13 +8325,13 @@ Efeito
 2 1 3 1 1 1 2
 3 1 3 1 1 1 2
 4 1 4 1 1 1 2
-5 1 4 1 2 1 3
-6 1 6 2 2 1 3
 CANDIDATA EDITORIAL • BASE v0.331 211
 
 PROJETO - M PROGRESSÃO
 Nível Maestria Espaços Refino básico Classe máxima Categoria de Classe 0
 Efeito
+5 1 4 1 2 1 3
+6 1 6 2 2 1 3
 7 1 6 2 2 2 3
 8 1 7 2 2 2 3
 9 1 7 2 3 2 3
@@ -8367,13 +8364,13 @@ Efeito
 24 3 19 6 6 3 5
 25 3 19 6 6 3 5
 26 4 21 7 7 3 5
-27 4 21 7 7 3 5
-28 4 22 7 7 3 5
 CANDIDATA EDITORIAL • BASE v0.331 212
 
 PROJETO - M PROGRESSÃO
 Nível Maestria Espaços Refino básico Classe máxima Categoria de Classe 0
 Efeito
+27 4 21 7 7 3 5
+28 4 22 7 7 3 5
 29 4 22 7 7 3 5
 30 4 24 8 7 3 5
 Receba habilidades de Caminho no 23 e no 30, e de Trilha no 19 e no 27. Os marcos desta faixa são 18,
@@ -8407,13 +8404,13 @@ No nível 6, por exemplo, Leque concede uma aplicação até Classe 2 e um Talen
 1.
 Na rota sem energia, substitua Refino e aptidão por Lapidação e Bênção, e o feitiço por Kata. As outras
 rotas usam suas aplicações correspondentes.
+CANDIDATA EDITORIAL • BASE v0.331 213
+
+PROJETO - M PROGRESSÃO
 Repertório e novas escolhas
 Sua capacidade comum é 2 + metade do nível, arredondada para baixo, + a quantidade de marcos
 alcançados. A tabela já faz essa conta. Nos níveis pares comuns entra um espaço; num nível de marco
 entram dois, porque ele também é par.
-CANDIDATA EDITORIAL • BASE v0.331 213
-
-PROJETO - M PROGRESSÃO
 Um feitiço ocupa um espaço. Os Talentos pagos e a Expansão de Domínio usam os preços de seus
 capítulos. Ocupar uma vaga com uma invocação exige que a técnica, o Manejo ou o Kata a preveja de
 forma explícita e coerente. Uma vaga livre não cria esse conceito.
@@ -8450,13 +8447,13 @@ Vida máxima = vida inicial do Caminho + Constituição + (vida por nível do Ca
 (nível − 1).
 PE máximo = PE por nível do Caminho × nível, acrescido dos benefícios específicos. Um aumento
 permanente de Constituição recalcula toda a vida, não somente a parcela do nível recém-adquirido.
+CANDIDATA EDITORIAL • BASE v0.331 214
+
+PROJETO - M PROGRESSÃO
 A subida não é um descanso. Somente o aumento de máximo produzido pelo novo nível e seu marco
 acrescenta a diferença ao saldo atual, calculada com a ficha anterior à troca de Trilha. Assim, conserva o
 dano ou o PE que faltavam antes desse crescimento. Quem está a zero de vida permanece a zero e precisa
 do socorro apropriado. Essa exceção é da vida: PE atual zero recebe o aumento correspondente.
-CANDIDATA EDITORIAL • BASE v0.331 214
-
-PROJETO - M PROGRESSÃO
 Troca de Trilha e outros ajustes da ficha não aumentam os saldos atuais. Se alterarem um máximo,
 conserve o saldo e apenas limite-o ao novo máximo. Com 40 de vida em um máximo de 100, reduzir o
 máximo a 90 deixa 40; voltar a 100 continua deixando 40.
@@ -8492,14 +8489,14 @@ Mudanças de capacidade
 Uma troca de Trilha pode retirar vagas adicionais ou a aquisição de duas entidades por espaço. Registre a
 nova capacidade e regularize a ficha antes de usá-la novamente. Suspender uma escolha não apaga sua
 história nem permite alterná-la durante as missões.
+CANDIDATA EDITORIAL • BASE v0.331 215
+
+PROJETO - M PROGRESSÃO
 Entidades e espaços
 Ao perder a duplicação, cada entidade por espaço passa a exigir uma vaga própria. Conserve uma
 entidade em cada vaga já ocupada e use vagas livres para as outras que desejar manter disponíveis.
 Se faltarem vagas, escolha quais fichas ficam indisponíveis. Elas não podem ser manifestadas,
 comandadas ou usadas para obter benefícios enquanto não tiverem uma aquisição válida. Os registros,
-CANDIDATA EDITORIAL • BASE v0.331 215
-
-PROJETO - M PROGRESSÃO
 ferimentos e perdas definitivas permanecem. Um corpo físico continua no mundo, mas não fica sob seu
 controle por estar na lista antiga.
 A seleção fica registrada na troca. Recuperar uma escolha suspensa exige destinar uma vaga livre ou usar
@@ -8535,12 +8532,12 @@ Participação no mês
 Se usar salário por participação, a parcela mínima é um quarto da referência. A guilda define quantas
 participações completam o mês; a recomendação é três. Missão curta ou padrão conta uma, longa conta
 duas e final de arco conta três.
-Divida os três quartos restantes igualmente pelo número exigido, até completar o salário. Com três
-participações exigidas, quem fez zero recebe 25%, uma recebe 50%, duas recebem 75% e três ou mais
-recebem 100%. Use o Grau registrado no fechamento mensal e arredonde o pagamento final para baixo.
 CANDIDATA EDITORIAL • BASE v0.331 216
 
 PROJETO - M PROGRESSÃO
+Divida os três quartos restantes igualmente pelo número exigido, até completar o salário. Com três
+participações exigidas, quem fez zero recebe 25%, uma recebe 50%, duas recebem 75% e três ou mais
+recebem 100%. Use o Grau registrado no fechamento mensal e arredonde o pagamento final para baixo.
 Recompensa por mestrar
 Prefira um registro separado da experiência da ficha. A guilda pode conceder uma moeda própria,
 recursos ou um bônus a cada quantidade anunciada de missões mestradas.
@@ -8583,7 +8580,7 @@ Técnica O que o seu poder faz e quais são seus limites.
 Objetivo O resultado de um feitiço: ferir, proteger, deslocar, impedir ou ajudar.
 Montagem Como ele alcança o alvo e quais efeitos você compra.
 Ficha O custo, a ação, a resolução e o momento em que termina.
-O primeiro feitiço (p. 219) mostra esse percurso completo. As Formas (p. 223) e os preços (p. 223) servem
+O primeiro feitiço (p. 219) mostra esse percurso completo. As Formas (p. 224) e os preços (p. 223) servem
 de consulta durante a montagem. Você não precisa escolher peças de todas as Famílias para criar uma
 aplicação útil.
 Outras rotas
@@ -8639,12 +8636,11 @@ Livre, mas o mínimo continua sendo 1.
 4. Resultado. Sobram 3 − 0 − 1 = 2 pontos, que viram 2d8 de dano. Mei poderia acrescentar uma
 Restrição, mas prefere poder usar o feitiço sem outra exigência.
 5. Ficha. Ela anota o que acontece e a resolução escolhida. O nome descreve a manobra.
-Fio de Arrasto Regra
-Classe e custo Classe 1; 3 PE; Ação Padrão.
 CANDIDATA EDITORIAL • BASE v0.331 219
 
 PROJETO - M FUNDAMENTO
 Fio de Arrasto Regra
+Classe e custo Classe 1; 3 PE; Ação Padrão.
 Alvo e alcance Uma criatura a até 18 m, com caminho desimpedido.
 Selo Deslizar o polegar contra o indicador.
 Resolução Ataque de conjuração contra Defesa.
@@ -8764,7 +8760,7 @@ CANDIDATA EDITORIAL • BASE v0.331 222
 PROJETO - M FUNDAMENTO
 Pontos e preços
 A Classe define os pontos, o custo em PE e o limite de peças. Escolha uma Classe disponível, de 1 até a
-sua maior. Feitiços de Classe 0 (p. 234) têm regras próprias.
+sua maior. Feitiços de Classe 0 (p. 235) têm regras próprias.
 Classe Nível mínimo Pontos / PE Leve Média Pesada
 1 1 3 1 1 2
 2 5 6 1 2 3
@@ -8792,15 +8788,14 @@ feitiço de dano, cada ponto do saldo vira 1d8. Cura, Apoio e Efeito usam suas p
 Restrição paga peças, incluindo a Forma. Ela pode recuperar dados que você gastou nessas peças, mas
 nunca elevar o saldo acima dos 3 × Classe iniciais. Técnica Máxima usa outro orçamento e não recebe
 devolução.
+CANDIDATA EDITORIAL • BASE v0.331 223
+
+PROJETO - M FUNDAMENTO
 Formas de ataque
 A Forma define por onde o feitiço chega e quem pode atingir. Escolha uma por ficha. As medidas desta
 seção valem nas Classes 1 a 5. A progressão está em Alcance e área (p. 225).
 Forma Custo Alcance e área Resolução normal
 Projétil 0 Um alvo a até 18 m. Ataque.
-CANDIDATA EDITORIAL • BASE v0.331 223
-
-PROJETO - M FUNDAMENTO
-Forma Custo Alcance e área Resolução normal
 Toque 0 Um alvo a até 1,5 m. Ataque.
 Explosão Leve Esfera de raio 3 m, num ponto a TR; metade dos dados no
 até 18 m. sucesso.
@@ -8835,14 +8830,15 @@ Cura Média Um aliado a até 9 m. O saldo vira dados de
 cura, até 2 × Classe em d8.
 Apoio 0 Um aliado a até 9 m. Cada ponto do saldo
 concede 3 pontos de vida temporária.
+CANDIDATA EDITORIAL • BASE v0.331 224
+
+PROJETO - M FUNDAMENTO
+Forma Custo Alvo e resultado nas Classes 1 a 5
 Onda Pesada Aliados numa esfera de raio 3 m centrada
 em você. Escolha cura ou apoio ao montar.
 Efeito 0 Uma aplicação fora de combate. Usa a
 escala de Efeitos fora de combate (p. 233),
 sem dano ou vida temporária.
-CANDIDATA EDITORIAL • BASE v0.331 224
-
-PROJETO - M FUNDAMENTO
 Você pode ser o aliado escolhido. Cura e Apoio são automáticos em alvos dispostos. As condições das
 Melhorias continuam valendo. Vida temporária segue suas regras gerais e não se soma a outra reserva de
 vida temporária.
@@ -9124,16 +9120,15 @@ conta como a criatura entrar nela. Os outros efeitos não são reaplicados por F
 Fica não usa uma reserva de 4 × Classe para toda a duração: sobreviver na área por várias rodadas pode
 causar mais dano que uma aplicação instantânea. A concentração, a saída da área e a duração limitam
 essa permanência.
+CANDIDATA EDITORIAL • BASE v0.331 231
+
+PROJETO - M FUNDAMENTO
 Exemplo de permanência
 Uma área com 10d8 de dano inicial é criada na rodada 2. Fica usa 5d8 nas resoluções posteriores. Um
 inimigo continua próximo durante toda a duração:
 Rodada O que acontece Resolução para esse inimigo
 2 Está na área quando ela surge. Recebe a resolução inicial de 10d8. Não
 recebe outra nesta rodada.
-CANDIDATA EDITORIAL • BASE v0.331 231
-
-PROJETO - M FUNDAMENTO
-Rodada O que acontece Resolução para esse inimigo
 3 Começa seu turno dentro dela. Resolve os 5d8 persistentes. Sair e entrar de
 novo não repete.
 4 A resolução persistente erra. Não sofre dano; mesmo assim, a
@@ -9167,11 +9162,11 @@ Informação e obstáculos
 Descrever o poder como percepção não torna toda descoberta gratuita. Identificar um inimigo oculto,
 saber o que alguém pensa ou reconhecer uma técnica exige a capacidade correspondente. A manifestação
 não substitui Percepção, Sentir Energia ou investigação quando essas regras forem necessárias.
-Da mesma forma, descrever passos suaves não concede um teste gratuito de Esconder, vantagem nem
-ausência completa de ruído. Um benefício de furtividade precisa estar escrito no efeito que o fornece.
 CANDIDATA EDITORIAL • BASE v0.331 232
 
 PROJETO - M FUNDAMENTO
+Da mesma forma, descrever passos suaves não concede um teste gratuito de Esconder, vantagem nem
+ausência completa de ruído. Um benefício de furtividade precisa estar escrito no efeito que o fornece.
 Quando preparar um feitiço
 Se o uso altera números, aplica uma condição, vence oposição ou excede a escala pequena, monte sua
 ficha. Um efeito destinado a impedir uma criatura de agir continua exigindo a resolução apropriada
@@ -9208,13 +9203,13 @@ memória ou prisão a criaturas hostis pela escala da tabela. Para isso, use o e
 resolução, mesmo fora do combate.
 Barreiras e poderes de outra criatura conservam seus requisitos e defesas. A aplicação não os desfaz
 simplesmente porque a área escolhida é maior.
+CANDIDATA EDITORIAL • BASE v0.331 233
+
+PROJETO - M FUNDAMENTO
 Ficha da aplicação
 Registre onde começa, até onde se estende, o que muda, por quanto tempo e como termina. Defina se
 permanece quando um combate começa. Se uma consequência passar a afetar testes, ataques ou ações,
 ela precisa da peça correspondente. Não surge depois por interpretação.
-CANDIDATA EDITORIAL • BASE v0.331 233
-
-PROJETO - M FUNDAMENTO
 Luz de Oficina. Uma técnica que produz luz monta Efeito de Classe 2 para iluminar um cômodo grande por
 10 minutos. Ação Padrão, 6 PE, sem Melhorias. Iluminação comum. Não cega, não revela ocultação
 sobrenatural e não concede bônus. Os 6 pontos não gastos não produzem outro efeito.
@@ -9245,6 +9240,9 @@ Nova versão
 Trocar Projétil por Explosão, acrescentar uma condição ou mudar o TR é criar outra montagem. Use
 outro espaço disponível ou a reescrita permitida ao subir de nível. Feitiços de Classe 0 seguem sua
 própria progressão e não usam esta conta de ampliação.
+CANDIDATA EDITORIAL • BASE v0.331 234
+
+PROJETO - M FUNDAMENTO
 Feitiços de Classe 0
 Classe 0 reúne aplicações pequenas que você pode usar sem gastar PE. Elas têm uma quantidade própria
 na ficha e não ocupam os espaços de feitiços conhecidos.
@@ -9252,9 +9250,6 @@ Seu nível 1 a 4 5 a 10 11 a 16 17 a 24 25 a 30
 Quantidade 2 3 4 5 5
 conhecida
 Dano-base 2d8 3d8 4d8 5d8 6d8
-CANDIDATA EDITORIAL • BASE v0.331 234
-
-PROJETO - M FUNDAMENTO
 Escolha a Forma e use a base de alcance da Classe 0. A Regra, as Famílias Fechadas e o Selo continuam
 valendo. Cura e Onda não estão disponíveis.
 Uma Melhoria
@@ -9280,6 +9275,9 @@ Efeitos próprios
 Quando o catálogo não contém a mecânica que você imaginou, proponha um Efeito Próprio ao mestre,
 antes da sessão. Ele conta como uma Melhoria, com preço definido na criação. Há no máximo um por
 feitiço.
+CANDIDATA EDITORIAL • BASE v0.331 235
+
+PROJETO - M FUNDAMENTO
 Da ideia à regra
 Escreva primeiro o resultado que você espera na cena. “Fazer dobraduras vivas” pode significar observar
 um lugar, carregar um objeto ou lutar ao seu lado. São capacidades diferentes. Uma entidade que age por
@@ -9291,9 +9289,6 @@ Aplicação Origem, alcance, área e obstáculos que o impedem.
 Resolução Ataque, TR ou efeito automático sem oposição.
 Duração Momento de término, concentração e formas de interromper.
 Custo Preço da peça, Classe, ação e PE da ficha.
-CANDIDATA EDITORIAL • BASE v0.331 235
-
-PROJETO - M FUNDAMENTO
 Preço e comparação
 Procure primeiro a peça que mais se aproxima. Se já existe uma Melhoria que entrega o resultado, use seu
 preço e suas limitações. Um nome original não muda essa conta.
@@ -9316,6 +9311,9 @@ Uma Liberação Máxima concentra mais dano num feitiço preparado. Você recebe
 no 20 e outra no 30. Elas não ocupam espaços de feitiços conhecidos.
 Monte a Liberação antes da sessão, em Classe 3 ou maior, dentro da Classe máxima do personagem. Use
 o procedimento comum e acrescente +Classe em d8 ao dano da montagem. Ela não serve para cura.
+CANDIDATA EDITORIAL • BASE v0.331 236
+
+PROJETO - M FUNDAMENTO
 Custo e uso
 O custo é 3 × Classe de PE, aumentado em 50%, arredondado para cima. A Liberação exige Ação
 Completa. Ela compromete a Padrão, a Bônus e o Movimento do turno. Conserva sua Reação, conforme
@@ -9333,9 +9331,6 @@ Uma Liberação de Classe 3 usa Linha, que custa 2 pontos. Sem Melhorias ou Rest
 7d8. A Liberação acrescenta 3d8: 10d8 numa linha de 18 m por 1,5 m.
 Seu custo é 9 + 4,5 = 13,5, arredondado para 14 PE. O alvo faz o TR registrado na ficha: recebe o dano na
 falha ou metade dos dados no sucesso. O usuário paga Ação Completa e escolhe Vazio, Sangue ou Peso.
-CANDIDATA EDITORIAL • BASE v0.331 236
-
-PROJETO - M FUNDAMENTO
 Adicionar Atrasar não faria a Linha custar zero: essa exigência já existe. Uma Restrição diferente, que
 realmente acrescente um custo, pode pagar peças dentro dos limites comuns.
 Progressão
@@ -9356,6 +9351,9 @@ Montagem
 Escolha a Forma e até quatro Melhorias, usando os preços da sua maior Classe. Essa Classe também
 define as medidas e os valores das peças. Famílias Livres dão seu desconto normal; Fechadas continuam
 indisponíveis. A Forma não recebe desconto.
+CANDIDATA EDITORIAL • BASE v0.331 237
+
+PROJETO - M FUNDAMENTO
 Você registra uma aplicação com dano, com cura ou sem dano. Não alterna entre esses resultados a cada
 uso. A Máxima é recebida pela progressão, fora dos espaços comuns, e não fornece uma vaga para
 invocação.
@@ -9370,9 +9368,6 @@ A Máxima não aceita Restrições que devolvam pontos. Toque e Aura conservam a
 origem, mas não recebem a devolução de Corpo a Corpo. Rápido e Reação não reduzem a Ação Completa.
 Você pode escrever um requisito necessário à ideia, como preparar duas marcas. Ele precisa constar da
 ficha e ser cumprido. Não amplia o orçamento. O Selo e os requisitos normais da rota continuam valendo.
-CANDIDATA EDITORIAL • BASE v0.331 237
-
-PROJETO - M FUNDAMENTO
 Ataque, cura e utilidade
 Dano ou cura
 Use os dados da faixa da Técnica Máxima. Uma Forma de dano os aplica como dano; Cura ou Onda de
@@ -9397,9 +9392,12 @@ justifique seu uso.
 Apoio pode levar as Melhorias a um aliado disposto, mas não gera vida temporária a partir dos dados ou
 das sobras de montagem da Máxima. Uma proteção especial em pontos de vida exige um efeito próprio
 com quantidade definida.
+CANDIDATA EDITORIAL • BASE v0.331 238
+
+PROJETO - M FUNDAMENTO
 Antes de escolher uma combinação pequena como Máxima, compare-a com um feitiço comum. Se o
 comum já faz a mesma coisa com menos PE, use-o nessa função. As próximas fichas mostram duas
-aplicações: Passagem de Papel (p. 239), preparada fora de combate, e Retirada de Emergência (p. 240),
+aplicações: Passagem de Papel (p. 240), preparada fora de combate, e Retirada de Emergência (p. 241),
 usada durante uma luta.
 Melhorias da Técnica Máxima
 O orçamento de dados da Máxima já supera o dos feitiços comuns. As Melhorias modificam sua
@@ -9413,10 +9411,6 @@ formas normais de resistir ao dano.
 Armado e Segura Não podem preparar ou adiar uma Técnica Máxima. Sua ação e sua recarga
 pertencem ao uso que resolve o efeito.
 Rajada e Mais Um Dividem os dados entre os ataques ou alvos, sem copiar a quantidade.
-CANDIDATA EDITORIAL • BASE v0.331 238
-
-PROJETO - M FUNDAMENTO
-Peça ou efeito Uso na Máxima
 Junto Reparte a cura ou outro benefício quantitativo compatível; não duplica bônus ou
 condições.
 Certeiro No erro final, causa metade dos dados daquele ataque, arredondada para baixo,
@@ -9443,6 +9437,9 @@ houver pontos e vagas de Melhoria, pode acrescentar peças compatíveis nesse mo
 entra na ficha, antes da sessão. Não se escolhem peças novas durante cada uso.
 Trocar a função, a Forma ou as peças já escolhidas usa a revisão de um feitiço ao subir de nível. Uma
 correção exigida por mudança das regras não gasta essa revisão. Efeitos próprios só aumentam alvos,
+CANDIDATA EDITORIAL • BASE v0.331 239
+
+PROJETO - M FUNDAMENTO
 distâncias ou duração quando a ficha disser isso: mais pontos disponíveis não ampliam esses valores
 sozinhos.
 Passagem de Papel
@@ -9456,10 +9453,6 @@ dano e cura são descartados.
 Campo Regra
 Preparação Fixar pessoalmente duas marcas de papel em superfícies estáveis, na mesma
 cidade e a até 1.500 m entre si. Uma Ação Padrão por marca.
-CANDIDATA EDITORIAL • BASE v0.331 239
-
-PROJETO - M FUNDAMENTO
-Campo Regra
 Ativação Fora de combate, tocando uma das marcas; Ação Completa e PE da Máxima. As
 duas marcas precisam estar intactas. Você precisa ver a marca tocada; não precisa
 ver a outra, já preparada.
@@ -9487,6 +9480,9 @@ O grupo pode preparar uma saída para retirar pessoas de um prédio ou transport
 acesso visitado antes. A preparação, a distância e a conservação das duas marcas dão ao mestre condições
 concretas para resolver a tentativa. A ficha não permite escolher qualquer destino da cidade durante o
 uso.
+CANDIDATA EDITORIAL • BASE v0.331 240
+
+PROJETO - M FUNDAMENTO
 Retirada de Emergência
 Esta Máxima sem dano em combate pertence a uma técnica que distribui impulso por fios ligados a
 corpos dispostos. Sua Regra permite conduzir os movimentos desses corpos. Alcance e Área precisam
@@ -9499,9 +9495,6 @@ da Máxima.
 Escolha até seis aliados dispostos que você veja a até 18 m, incluindo você se desejar. Declare destinos e
 percursos antes de mover qualquer um. Os destinos também precisam estar à sua vista nesse momento.
 Cada aliado precisa aceitar seu trajeto.
-CANDIDATA EDITORIAL • BASE v0.331 240
-
-PROJETO - M FUNDAMENTO
 Cada escolhido pode percorrer imediatamente até 18 m, sem gastar ações ou seu movimento normal e
 sem provocar ataques de oportunidade. Resolva uma vez por criatura, na ordem escolhida. Cada trajeto
 parte da posição inicial daquele aliado e termina num espaço livre onde ele caiba.
@@ -9529,6 +9522,10 @@ ou resultado no meio da cena.
 Campo O que registrar
 Nome e descrição Um nome e uma frase sobre o que acontece.
 Classe e tipo Classe comum, Classe 0, Liberação Máxima ou Técnica Máxima.
+CANDIDATA EDITORIAL • BASE v0.331 241
+
+PROJETO - M FUNDAMENTO
+Campo O que registrar
 Ação e custo Ação Padrão, Bônus, Reação com gatilho ou Completa; PE e outros custos.
 Alvos e alcance Criaturas ou objetos permitidos; origem, distância, área e obstáculos.
 Requisitos Selo, equipamento, preparação e condições de uso.
@@ -9540,9 +9537,6 @@ Repertório O espaço ocupado ou a regra que concede a aplicação separadamente
 Conferência antes da sessão
 1. A aplicação cabe na Regra e nas Famílias disponíveis?
 2. A Forma alcança os alvos pretendidos? Cada Melhoria tem o que modificar?
-CANDIDATA EDITORIAL • BASE v0.331 241
-
-PROJETO - M FUNDAMENTO
 3. A conta inclui Forma, descontos e Restrições embutidas, sem devolução repetida?
 4. A ficha informa ação, PE, rolagem e resultado para quem resiste?
 5. Os efeitos contínuos dizem quando terminam e como alguém pode interrompê-los?
@@ -10599,14 +10593,14 @@ Exemplo. Com Refino 6, Mei pode gastar de 1 a 6 PE. Ela escolhe 4 e usa seu ataq
 Se acertar, causa 4d6 de Força; num crítico, 8d6. Mesmo podendo gastar 6, não pode aumentar o
 investimento depois de ver a rolagem.
 Sem PE suficiente para pagar ao menos 1, você não pode usar Projetar Energia.
+CANDIDATA EDITORIAL • BASE v0.331 268
+
+PROJETO - M APTIDÕES E REFINO
 Energia Reversa
 Requisitos: Refino 7 e nível 14. Categoria de Efeito 3. Você usa energia reversa para restaurar seu
 próprio corpo.
 Ação Padrão. Gaste de 1 PE até sua maior Classe e recupere 1d8 de vida por PE gasto. Escolha e pague
 antes de rolar. A cura não ultrapassa sua vida máxima e não gera vida temporária.
-CANDIDATA EDITORIAL • BASE v0.331 268
-
-PROJETO - M APTIDÕES E REFINO
 Maior Classe Máximo de PE por uso Cura máxima do uso
 1 1 1d8
 2 2 2d8
@@ -10638,12 +10632,12 @@ e as defesas de Dano e recuperação. Bônus que aumentem somente cura não aume
 No erro, não causa dano nem cura. Contra qualquer alvo que não seja uma maldição, esse uso ofensivo
 não produz efeito. A exceção não autoriza ferir outros tipos de alvo nem transforma automaticamente a
 Forma Onda em um ataque de área.
-Exemplo. Uma Cura de Classe 3 com 6d8 de cura mantém seu custo de 9 PE. Contra uma maldição, exige
-ataque. Se os dados somarem 26, o dano é 39 de Energia Reversa, antes das defesas. Um crítico rolaria 12d8
-antes do acréscimo de 50%.
 CANDIDATA EDITORIAL • BASE v0.331 269
 
 PROJETO - M APTIDÕES E REFINO
+Exemplo. Uma Cura de Classe 3 com 6d8 de cura mantém seu custo de 9 PE. Contra uma maldição, exige
+ataque. Se os dados somarem 26, o dano é 39 de Energia Reversa, antes das defesas. Um crítico rolaria 12d8
+antes do acréscimo de 50%.
 Aptidão aplicada por contato
 Se outra regra permitir aplicar sua aptidão Energia Reversa a outra criatura, você também pode escolher
 uma maldição a até 1,5 m para esse uso ofensivo. Conserve a ação, o limite de PE e o dado daquela
@@ -10676,14 +10670,14 @@ da cena, mas usos repetidos impedem novas Expansões de Domínio naquele dia.
 Ação Bônus, durante seu Rescaldo. Gaste o limite inteiro de PE de sua Energia Reversa, considerando
 Circulação. O Rescaldo termina e sua técnica volta a responder. Esse uso não cura vida nem recompõe
 outra parte do corpo.
+CANDIDATA EDITORIAL • BASE v0.331 270
+
+PROJETO - M APTIDÕES E REFINO
 Marcas
 Cada uso acrescenta uma marca de Regravação. As marcas desaparecem no descanso longo. Seu limite é:
 Metade de Inteligência + metade da maestria, arredondando cada metade para baixo separadamente.
 Ao alcançar ou ultrapassar esse limite, você não pode abrir uma Expansão de Domínio enquanto as
 marcas permanecerem. O uso que alcançou o limite ainda encerra o Rescaldo normalmente.
-CANDIDATA EDITORIAL • BASE v0.331 270
-
-PROJETO - M APTIDÕES E REFINO
 Inteligência Limite com maestria 3 Limite com maestria 4
 0–1 1 2
 2–3 2 3
@@ -10712,14 +10706,14 @@ margem de crítico nem o acerto. Um limite de 100 ou mais garante o sucesso no d
 Kokusen Melhorado
 Requisitos: Refino 5 e nível 14. Em cada teste de Kokusen, role dois d100 e use o menor. Se os dois
 resultados falharem, acrescente +2 ao bônus acumulado uma vez, não duas.
+CANDIDATA EDITORIAL • BASE v0.331 271
+
+PROJETO - M APTIDÕES E REFINO
 Kokusen Constante
 Requisito: Refino 5. O limite básico do teste passa a ser 3 × Refino, antes do bônus por tentativas
 falhadas.
 As duas melhorias funcionam juntas. Com Refino 10 e sem bônus acumulado, o limite normal é 20.
 Constante o leva a 30. Com Melhorado também, basta um dos dois d100 resultar em 30 ou menos.
-CANDIDATA EDITORIAL • BASE v0.331 271
-
-PROJETO - M APTIDÕES E REFINO
 Proteção contra domínios
 Uma Expansão completa pode atingir quem está dentro dela por seu Acerto garantido. Cesta Oca de
 Vime, Domínio Simples e Pétala oferecem respostas diferentes a esse perigo. Extensão de Domínio
@@ -10754,13 +10748,13 @@ Símbolo e mãos
 Enquanto mantém as duas mãos no símbolo, pode agir, mover-se e atacar com partes livres do corpo. Não
 pode usar essas mãos para empunhar arma ou escudo, agarrar ou realizar um gesto exigido por outra
 ação.
+CANDIDATA EDITORIAL • BASE v0.331 272
+
+PROJETO - M APTIDÕES E REFINO
 Soltar o símbolo libera suas mãos e não encerra imediatamente a Cesta. Enquanto estiver solto, cada
 Acerto que causa dano que a Cesta impedir acrescenta uma falha, no máximo uma dessas falhas por
 rodada. Um Acerto que não causa dano não acrescenta essa falha automática. Retomar o símbolo
 interrompe esse desgaste, sem apagar as falhas anteriores.
-CANDIDATA EDITORIAL • BASE v0.331 272
-
-PROJETO - M APTIDÕES E REFINO
 Golpes e queda
 Cada golpe que acertar você exige TR Espírito contra a CD de quem o atingiu, mesmo se o dano for
 reduzido a zero. Uma falha acrescenta uma falha à Cesta. O Acerto já anulado pela própria Cesta não é
@@ -10793,13 +10787,13 @@ abaixo. A proteção alcança todas as criaturas dentro dele, sem uma lista esco
 Dentro do raio, uma Expansão com Acerto garantido não aplica seu Acerto nem seu Efeito às criaturas ou
 ao lugar protegido. Os benefícios do dono continuam com ele. Seus ataques e feitiços comuns ainda
 podem entrar na área, usando suas resoluções normais.
+CANDIDATA EDITORIAL • BASE v0.331 273
+
+PROJETO - M APTIDÕES E REFINO
 Voto do iniciante
 Com Refino abaixo de 5, quando uma regra permitir adquirir esta aptidão, o Domínio Simples fica fixo no
 ponto de ativação. Se seus dois pés saírem desse ponto, por movimento próprio ou imposto, ele termina.
 Ao chegar a Refino 5, você pode abandonar esse voto.
-CANDIDATA EDITORIAL • BASE v0.331 273
-
-PROJETO - M APTIDÕES E REFINO
 Se terminar pelo voto, por encerramento voluntário, falta de manutenção ou inconsciência enquanto
 segurava uma Expansão, quem perdeu essa proteção recebe um Acerto adicional imediatamente, além
 dos Acertos normais que ainda virão. O fim por esgotar a capacidade segue Duração do Domínio Simples
@@ -10831,15 +10825,15 @@ derruba a proteção e atinge quem ela cobria.
 Golpes contra você não exigem esse teste. Ele não ocupa Concentração, e Mão Firme não o dispensa.
 Erguer novamente na mesma Expansão custa Ação Padrão, além dos PE, usando a última coluna da
 tabela. A nova ativação reinicia o total impedido.
+CANDIDATA EDITORIAL • BASE v0.331 274
+
+PROJETO - M APTIDÕES E REFINO
 Mudança de Expansão
 Um Acerto que alcance várias criaturas protegidas conta uma vez. O total impedido pertence à ativação,
 não a cada adversário. Sair e voltar não o zera. Ao enfrentar outra Expansão, compare as Essências de
 novo: use a capacidade menor entre a atual e a permitida contra o novo dono. Se já ergueu Domínio
 Simples durante aquela Expansão, use a coluna de nova ativação. Acertos rivais anulados pela disputa
 entre domínios não são Acertos impedidos por esta aptidão.
-CANDIDATA EDITORIAL • BASE v0.331 274
-
-PROJETO - M APTIDÕES E REFINO
 Pétala
 Requisitos: Refino 4 e nível 10; ser Descendente ou ter aprendido com alguém de um clã. Categoria de
 Efeito 2. Sua energia reage ao contato do Acerto de uma Expansão.
@@ -10873,11 +10867,11 @@ Extensão de Domínio
 Requisitos: Refino 7 e nível 18. Categoria de Efeito 3. Você precisa ter visto uma Extensão em uso,
 estudado seu funcionamento ou aprendido com alguém. Registre isso na ficha. Corpo Amaldiçoado não
 pode adquirir esta aptidão.
-Você se envolve em uma camada de domínio que neutraliza técnicas. Ative conforme Proteção contra
-domínios. A manutenção custa 1,5 × sua maior Classe em PE, arredondado para cima.
 CANDIDATA EDITORIAL • BASE v0.331 275
 
 PROJETO - M APTIDÕES E REFINO
+Você se envolve em uma camada de domínio que neutraliza técnicas. Ative conforme Proteção contra
+domínios. A manutenção custa 1,5 × sua maior Classe em PE, arredondado para cima.
 Duração e custo
 A ativação e sua primeira manutenção cobrem o período até o começo do seu próximo turno. Depois,
 você pode pagar até Refino − 1 manutenções adicionais, uma no começo de cada turno. A Extensão
@@ -11328,11 +11322,11 @@ Regra Minha energia prende e desequilibra quem alcança minhas linhas.
 Atributo Destreza.
 Selo Firmar os pés e traçar um arco com uma mão.
 Famílias Livres Controle e Auxiliares.
-Famílias Fechadas Área, Alcance e Amparo.
 CANDIDATA EDITORIAL • BASE v0.331 286
 
 PROJETO - M ROTAS DE CRIAÇÃO
 Campo Escolha
+Famílias Fechadas Área, Alcance e Amparo.
 Tipo de dano Cortante.
 Linha de contenção
 O Manejo usa Toque + Prende, Classe 1. A Melhoria custa 1 ponto e Corpo a Corpo devolve esse ponto.
@@ -11367,12 +11361,12 @@ vida, até seu máximo. No refino 1, Caio ainda não recebe bônus adicional. Co
 Esse Manejo ocupa um espaço. Ele não precisa de uma permissão para aplicar diretamente a aptidão em
 outras pessoas: utiliza a Forma Cura com seus próprios custos. Um Corpo Amaldiçoado continua
 incompatível com essa energia.
-O exemplo pode ser usado para socorrer alguém conforme Socorro, em Dano e recuperação. Fechar
-ferimento não remove uma condição, recupera Integridade ou ressuscita por si só. Esses resultados
-precisam de regras específicas.
 CANDIDATA EDITORIAL • BASE v0.331 287
 
 PROJETO - M ROTAS DE CRIAÇÃO
+O exemplo pode ser usado para socorrer alguém conforme Socorro, em Dano e recuperação. Fechar
+ferimento não remove uma condição, recupera Integridade ou ressuscita por si só. Esses resultados
+precisam de regras específicas.
 Desenvolvimento
 O Talento Recomposição pode fazer parte do estilo quando Caio atingir nível 7 e pagar seus dois espaços.
 Ele não está disponível na criação apenas por ser coerente com a semente.
@@ -11407,11 +11401,11 @@ além dos Classe 0 recebidos separadamente.
 Lapidação
 Personagens com Restrição Celestial sem energia usam Lapidação e Bênçãos no lugar de refino e
 aptidões. Corpo Amaldiçoado conserva refino e aptidões, pois produz energia amaldiçoada.
-Lapidação mede o desenvolvimento das capacidades do corpo. Começa em 1, tem máximo 10 e aumenta
-nos marcos de progressão: níveis 6, 10, 14, 18, 22, 26 e 30.
 CANDIDATA EDITORIAL • BASE v0.331 288
 
 PROJETO - M ROTAS DE CRIAÇÃO
+Lapidação mede o desenvolvimento das capacidades do corpo. Começa em 1, tem máximo 10 e aumenta
+nos marcos de progressão: níveis 6, 10, 14, 18, 22, 26 e 30.
 Ganhos de marco
 Em cada marco, receba +1 ponto de atributo, +1 de Lapidação e +1 espaço de Kata. Depois, escolha uma
 opção:
@@ -11446,12 +11440,12 @@ Categoria de Efeito Lapidação mínima
 1 1.
 2 4.
 3 7.
-Além dessa exigência, cumpra os requisitos da entrada. Uma Bênção que peça Força 4 exige esse atributo
-em 4 ou mais. O requisito não acrescenta outro bônus à fórmula: some apenas os valores que o efeito
-determinar.
 CANDIDATA EDITORIAL • BASE v0.331 289
 
 PROJETO - M ROTAS DE CRIAÇÃO
+Além dessa exigência, cumpra os requisitos da entrada. Uma Bênção que peça Força 4 exige esse atributo
+em 4 ou mais. O requisito não acrescenta outro bônus à fórmula: some apenas os valores que o efeito
+determinar.
 Os níveis mínimos dos Talentos comprados com espaços pertencem a essa outra aquisição. Uma Bênção
 é comprada por marco e segue sua própria tabela de Lapidação.
 Escolhas disponíveis
@@ -13962,13 +13956,12 @@ trabalhos rotineiros.
 Use o atributo adequado ao trabalho e a Maestria do responsável. A base da dificuldade é 8 + esse
 atributo + essa Maestria. Compare a Classe permitida pelo nível da entidade com a permitida pelo nível
 do responsável, usando a Progressão da entidade.
-Classe da entidade em relação ao responsável Dificuldade Ajuste à base
-Igual Difícil 0
-Uma abaixo Média −2
 CANDIDATA EDITORIAL • BASE v0.331 352
 
 PROJETO - M CONSTRUIR INVOCAÇÕES
 Classe da entidade em relação ao responsável Dificuldade Ajuste à base
+Igual Difícil 0
+Uma abaixo Média −2
 Duas ou mais abaixo Fácil −4
 Role d20 + atributo + Maestria. Igualar a CD é sucesso. Especialização e outros modificadores alteram o
 teste conforme suas próprias regras; não entram novamente na base da CD. Ajudar segue Tarefas e testes.
@@ -14006,11 +13999,11 @@ ser estabelecido. Na falha, o vínculo anterior permanece, ou o objeto continua 
 conforme o caso. O retrabalho segue o projeto.
 A transferência conserva nível, ficha, vida atual, queda, carga do talismã e usos gastos. Atualize
 somente os valores que dependem da ficha do invocador. Ela não recupera energia, não dá outra atuação
-no ciclo e não religa um corpo na condição Desligada. O novo invocador precisa cumprir os limites de
-controle e os procedimentos normais de retorno e entrada.
 CANDIDATA EDITORIAL • BASE v0.331 353
 
 PROJETO - M CONSTRUIR INVOCAÇÕES
+no ciclo e não religa um corpo na condição Desligada. O novo invocador precisa cumprir os limites de
+controle e os procedimentos normais de retorno e entrada.
 Uma entidade destruída exige nova fabricação. Reaproveitar restos depende do projeto e não traz de volta
 a criatura anterior. Reparar uma entidade existente, conservar seu vínculo ou herdar uma peça não
 concede aumento de nível nem ocupa espaço conhecido.
@@ -14169,7 +14162,7 @@ PROJETO - M GLOSSÁRIO
 Classe. Escala de uma aplicação, como feitiço, Manejo ou Kata. Determina seu orçamento e seus limites.
 Não é o Caminho do personagem. Consulta: Pontos e preços (p. 223).
 Classe 0. Aplicação de escala própria, registrada separadamente dos espaços conhecidos comuns.
-Consulta: Feitiços de Classe 0 (p. 234).
+Consulta: Feitiços de Classe 0 (p. 235).
 Concentração. Manutenção de um efeito que exige essa atenção. Seu procedimento define interrupção e
 testes; preparações como Carregar têm regras próprias. Consulta: Concentração (p. 14).
 Condição. Estado nomeado que altera capacidades ou ações. Sua entrada e a fonte que o aplicou definem
@@ -14204,9 +14197,9 @@ sendo montada. Consulta: Famílias (p. 220).
 Feitiço. Aplicação preparada de uma técnica, com efeito, custo e requisitos registrados. Consulta: Seu
 primeiro feitiço (p. 219).
 Ferramenta amaldiçoada. Equipamento que carrega energia própria. Seu grau e sua ficha definem se
-possui um efeito especial. Consulta: Equipamento amaldiçoado (p. 198).
+possui um efeito especial. Consulta: Equipamento amaldiçoado (p. 199).
 Forma. Peça que define a aplicação inicial: alvos, origem, alcance e resolução, conforme sua entrada.
-Consulta: Formas de ataque (p. 223).
+Consulta: Formas de ataque (p. 224).
 CANDIDATA EDITORIAL • BASE v0.331 358
 
 PROJETO - M GLOSSÁRIO
@@ -14215,11 +14208,11 @@ apresenta o processo de montagem. Consulta: Fundamento (p. 218).
 Gatilho. Evento necessário para uma resposta ou efeito. Possuir um recurso disponível não dispensa esse
 evento. Consulta: Reações e ataques de oportunidade (p. 13).
 Grau. Termo usado na patente e na classificação de ferramentas. A ficha informa qual escala está sendo
-usada; uma não concede a outra. Consulta: Graus das ferramentas (p. 199).
+usada; uma não concede a outra. Consulta: Graus das ferramentas (p. 200).
 Inconsciente. Estado de quem perdeu a consciência. A regra que o causou determina como sair dele.
 Consulta: Inconsciente (p. 52).
 Integridade. Recurso usado pelas regras de alma. Seus efeitos e recuperação têm procedimento próprio.
-Consulta: Estágios de Integridade (p. 42).
+Consulta: Estágios de Integridade (p. 43).
 Intenção. Tarefa compreensível que orienta a entidade. Não é, por si, um comando para executar uma
 especial. Consulta: Dar uma tarefa (p. 317).
 Invocação. Aquisição e atuação de uma entidade. Manifestar uma entidade conhecida não cria outra
@@ -14715,7 +14708,7 @@ Atrasar Catálogo: Restrições de conjuração (p. 256)
 Atributo Regras gerais: Atributos (p. 6)
 Atuação básica Invocações: Atuação básica (p. 318)
 Auge Rotas: Sem Técnica (p. 284)
-Aura Fundamento: Formas de ataque (p. 223)
+Aura Fundamento: Formas de ataque (p. 224)
 Aviso (Melhoria; nome anterior) Catálogo: Marcas e recursos (p. 253)
 Aviso (Talento; nome anterior) Catálogo: Talentos de Categoria 1 (p. 260)
 Básica Invocações: Atuação básica (p. 318)
@@ -14741,7 +14734,7 @@ PROJETO - M ÍNDICE
 Índice: C–D
 Assunto Consulta
 Classe Fundamento: Pontos e preços (p. 223)
-Classe 0 Fundamento: Feitiços de Classe 0 (p. 234)
+Classe 0 Fundamento: Feitiços de Classe 0 (p. 235)
 Classe Passiva (nome anterior) Fundamento: Selo e Talentos (p. 221)
 Cobertura Regras gerais: Defesa e cobertura (p. 18)
 Combatente Amaldiçoado Combatente Amaldiçoado (p. 85)
@@ -14751,7 +14744,7 @@ Concentrada Catálogo: Momento e duração (p. 252)
 Condição Dano e Recuperação: Condições (p. 43)
 Condicional Catálogo: Condições de uso (p. 258)
 Condutor Armado Condutor Armado (p. 115)
-Cone Fundamento: Formas de ataque (p. 223)
+Cone Fundamento: Formas de ataque (p. 224)
 Corpo Progressão: Marcos (p. 213)
 Corpo a Corpo Catálogo: Restrições de conjuração (p. 256)
 Corpo amaldiçoado Invocações: Corpos amaldiçoados (p. 325)
@@ -14771,7 +14764,7 @@ CANDIDATA EDITORIAL • BASE v0.331 374
 PROJETO - M ÍNDICE
 Índice: D–E
 Assunto Consulta
-Desgaste Equipamento: Desgaste (p. 206)
+Desgaste Equipamento: Desgaste (p. 207)
 Desligada Invocações: Retorno e corpos caídos (p. 329)
 Deslocamento Regras gerais: Movimento e terreno (p. 20)
 Desvantagem Regras gerais: Treino e modificadores (p. 8)
@@ -14804,9 +14797,9 @@ PROJETO - M ÍNDICE
 Assunto Consulta
 Essência Regras gerais: Atributos (p. 6)
 Estabilizar Dano e Recuperação: Socorro (p. 50)
-Estágios de Integridade Dano e Recuperação: Estágios de Integridade (p. 42)
+Estágios de Integridade Dano e Recuperação: Estágios de Integridade (p. 43)
 Estigma Equipamento: Graus das ferramentas. Efeitos das ferramentas, na
-organização atual. (p. 199)
+organização atual. (p. 200)
 Estímulo Muscular Rotas: Estímulo Muscular (p. 291)
 Estudar Regras gerais: Estudar (p. 34)
 Evocador Evocador (p. 124)
@@ -14814,12 +14807,12 @@ Exaustão Dano e Recuperação: Exaustão (p. 53)
 Expansão de Domínio Expansão de Domínio (p. 295)
 Expansão sem Barreiras Expansão sem Barreiras (p. 299)
 Experiência semanal Progressão: Experiência semanal (p. 210)
-Explosão Fundamento: Formas de ataque (p. 223)
+Explosão Fundamento: Formas de ataque (p. 224)
 Expressão da técnica Fundamento: Selo e Talentos (p. 221)
 Fabricação de entidades Fabricação de entidades (p. 351)
 Família Fundamento: Famílias (p. 220)
 Feitiço Fundamento: Seu primeiro feitiço (p. 219)
-Ferramenta amaldiçoada Equipamento: Equipamento amaldiçoado (p. 198)
+Ferramenta amaldiçoada Equipamento: Equipamento amaldiçoado (p. 199)
 Ferramentas e reparo Reparos (p. 173)
 Fica Catálogo: Efeitos de área (p. 245)
 Fineza Equipamento: Propriedades (p. 177)
@@ -14827,7 +14820,7 @@ Fluidez Fluidez (p. 148)
 Fluxo Catálogo: Talentos de Categoria 2 (p. 260)
 Força (atributo) Regras gerais: Atributos (p. 6)
 Força (dano) Dano e Recuperação: Tipos de dano (p. 41)
-Forma Fundamento: Formas de ataque (p. 223)
+Forma Fundamento: Formas de ataque (p. 224)
 Fundamento Fundamento (p. 218)
 CANDIDATA EDITORIAL • BASE v0.331 376
 
@@ -14837,7 +14830,7 @@ Assunto Consulta
 Fura Catálogo: Defesas (p. 246)
 Gatilho Regras gerais: Reações e ataques de oportunidade (p. 13)
 Gesto Catálogo: Restrições de conjuração (p. 256)
-Grau Equipamento: Graus das ferramentas (p. 199)
+Grau Equipamento: Graus das ferramentas (p. 200)
 Grau (patente) Progressão: Patentes (p. 217)
 Guarda Catálogo: Proteção e apoio (p. 249)
 Guarda Aberta Dano e Recuperação: Condições leves (p. 44)
@@ -14849,7 +14842,7 @@ Inconsciente Dano e Recuperação: Inconsciente (p. 52)
 Incursor Incursor (p. 147)
 Inescapável Catálogo: Mira (p. 246)
 Insistir Dano e Recuperação: Insistir (p. 49)
-Integridade Dano e Recuperação: Estágios de Integridade (p. 42)
+Integridade Dano e Recuperação: Estágios de Integridade (p. 43)
 Integridade máxima Dano e Recuperação: Dano na alma (p. 42)
 Intenção Invocações: Dar uma tarefa (p. 317)
 Inventário Equipamento (p. 175)
@@ -14871,7 +14864,7 @@ Leve Fundamento: Pontos e preços. Preço de montagem; categoria de condição e
 Condições. Propriedade de arma em Equipamento. (p. 223)
 Leve, Média e Pesada Fundamento: Pontos e preços (p. 223)
 Liberação Máxima Fundamento: Liberação Máxima (p. 236)
-Linha Fundamento: Formas de ataque (p. 223)
+Linha Fundamento: Formas de ataque (p. 224)
 Longe Catálogo: Alcance (p. 243)
 Longo Alcance Equipamento: Propriedades (p. 177)
 Maestria Regras gerais: Atributos (p. 6)
@@ -14892,7 +14885,7 @@ Morrendo Dano e Recuperação: Vida a zero (p. 48)
 Movimento imposto Regras gerais: Quedas e movimento imposto (p. 24)
 Múltiplas Invocações Múltiplas Invocações (p. 140)
 Munição Equipamento: Munição (p. 183)
-Muro Muro (p. 81)
+Muro Muro (p. 82)
 CANDIDATA EDITORIAL • BASE v0.331 378
 
 PROJETO - M ÍNDICE
@@ -14933,7 +14926,7 @@ Assunto Consulta
 Precisão Catálogo: Mira (p. 246)
 Preparar Regras gerais: Preparar (p. 13)
 Progressão do Guia Progressão do Guia (p. 100)
-Projétil Fundamento: Formas de ataque (p. 223)
+Projétil Fundamento: Formas de ataque (p. 224)
 Promessa Promessa (p. 313)
 Proteção Equipamento: Proteção (p. 179)
 Proteção de aliados Proteção de aliados (p. 81)
@@ -14955,7 +14948,7 @@ Regra da técnica Fundamento: Sua técnica (p. 218)
 Regra Própria Catálogo: Regra Própria (p. 262)
 Religar Invocações: Retorno e corpos caídos (p. 329)
 Remenda Catálogo: Amparo (p. 254)
-Ressonante Ressonante (p. 118)
+Ressonante Ressonante (p. 119)
 CANDIDATA EDITORIAL • BASE v0.331 380
 
 PROJETO - M ÍNDICE
@@ -14997,7 +14990,7 @@ Teste Regras gerais: Testes (p. 7)
 Teste de Resistência Regras gerais: Testes de Resistência (p. 8)
 Teto Fundamento: Dano e repetições (p. 230)
 Toca a Alma Catálogo: Defesas (p. 246)
-Toque Fundamento: Formas de ataque (p. 223)
+Toque Fundamento: Formas de ataque (p. 224)
 Traço Origens (p. 63)
 Traje Equipamento: Trajes (p. 180)
 Treino Regras gerais: Treino e modificadores (p. 8)

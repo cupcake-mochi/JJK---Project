@@ -1,5 +1,5 @@
 {
-  "data_utc": "2026-10-04T15:36:32.900438+00:00",
+  "data_utc": "2026-10-04T16:53:06.727643+00:00",
   "escopo": "Auditoria leve de metadados dos23donos de ORDEM.json; valida presença V01–V15, hashes do texto/PDF e índice crítico do manifesto. Não relê regras, não executa testes novamente e não altera documentos de outros donos.",
   "sha256_ordem": "02ad73793f3db9805ba980c68926d3a8ebb175ce1d2f685b94087e24c91c3daf",
   "fontes": 23,

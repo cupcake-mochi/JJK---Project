@@ -10,6 +10,10 @@ M=(R/'sistema/05-material/livro/manual/60-invocacoes.md').read_text()
 F=(E/'fundamento/lote-01/FUNDAMENTO.md').read_text()
 checks=[]
 def check(name,passed,evidence):checks.append({'teste':name,'passou':bool(passed),'evidencia':evidence})
+def manter(p,d):
+ # Os blocos revisao_delta são a anotação de revisão escrita depois da auditoria; reexecutar a auditoria não os apaga.
+ if p.exists():d.update({k:v for k,v in json.loads(p.read_text()).items() if k.startswith('revisao_delta')})
+ return d
 def save(name,obj):(P/name).write_text(json.dumps(obj,ensure_ascii=False,indent=2)+'\n')
 pages=[]
 for b in S.split('<!-- page:')[1:]:
@@ -101,6 +105,6 @@ check('Manual e integrado idênticos',hashlib.sha256((R/'invocacoes/05-Edicao-In
 sha=hashlib.sha256(S.encode()).hexdigest()
 save('evidencias/auditoria-numerica.json',{'ok':all(c['passou'] for c in checks),'manuscritos_auditados':{str((P/'CONSTRUIR-INVOCACOES.md').relative_to(R)):sha},'sha256_texto':sha,'curva':curve,'onda':ondas,'cura':curas,'exemplos':examples,'progressao':leveldata,'vida':hps,'domacao':taming,'sem_playtest':True})
 save('AUDITORIA.json',{'sha256_texto':sha,'checagens':checks,'total':len(checks),'falhas':sum(not c['passou'] for c in checks),'limite':'Testes de estrutura e matemática; não validam sozinhos clareza, cânone, visual ou equilíbrio de toda criação.'})
-save('evidencias/regras-verificadas.json',{'ok':all(c['passou'] for c in checks),'sha256_texto':sha,'casos_raciocinados':'casos-raciocinados.json','auditoria':'../AUDITORIA.json'})
+save('evidencias/regras-verificadas.json',manter(P/'evidencias/regras-verificadas.json',{'ok':all(c['passou'] for c in checks),'sha256_texto':sha,'casos_raciocinados':'casos-raciocinados.json','auditoria':'../AUDITORIA.json'}))
 print(json.dumps({'total':len(checks),'falhas':[c['teste'] for c in checks if not c['passou']],'sha256':sha},ensure_ascii=False))
 raise SystemExit(any(not c['passou'] for c in checks))

@@ -1,0 +1,33 @@
+Estabilidade dos auditores dos 23 capítulos (04/10/2026), numa cópia isolada do repositório.
+Cada auditar.py rodou três vezes, com PYTHONHASHSEED 0, 1 e 2; cada arquivo da unidade foi comparado com o do repositório.
+
+ANTES DO CONSERTO (arquivos que saíram diferentes do repositório, e em quais sementes):
+abertura/lote-01                   {'evidencias/regras-verificadas.json': ['0', '1', '2']}
+aptidoes/lote-01                   estável
+caminhos/evocador/lote-01          estável
+caminhos/guia/lote-01              estável
+caminhos/incursor/lote-01          estável
+caminhos/vanguarda/lote-01         estável
+catalogo/lote-01                   {'evidencias/regras-verificadas.json': ['0', '1', '2']}
+consulta/lote-01                   estável
+dano-e-recuperacao/lote-final      estável
+equipamento/lote-final             {'evidencias/auditoria-numerica.json': ['0', '1', '2'], 'evidencias/regras-verificadas.json': ['0', '1', '2']}
+fundamento/lote-01                 estável
+invocacoes/fabricacao/lote-01      estável
+invocacoes/lote-01                 estável
+invocacoes/lote-02                 {'evidencias/regras-verificadas.json': ['0', '1', '2']}
+origens/lote-01                    estável
+poderes-avancados/lote-01          estável
+progressao/lote-01                 estável
+regras-gerais/lote-final           {'evidencias/regras-verificadas.json': ['0', '1', '2']}
+ritual-e-pactos/lote-01            estável
+rotas/lote-01                      estável
+
+DEPOIS DO CONSERTO (auditar.py do repositório, mesmas três sementes):
+abertura/lote-01             rc [0, 0, 0] | mesma saída nas 3 sementes: True | igual ao repositório: True
+catalogo/lote-01             rc [0, 0, 0] | mesma saída nas 3 sementes: True | igual ao repositório: True
+regras-gerais/lote-final     rc [0, 0, 0] | mesma saída nas 3 sementes: True | igual ao repositório: True
+invocacoes/lote-02           rc [0, 0, 0] | mesma saída nas 3 sementes: True | igual ao repositório: True
+equipamento/lote-final       rc [0, 0, 0] | mesma saída nas 3 sementes: True | igual ao repositório: True
+
+Contra-teste: o 'antes' acima é o próprio auditor sem o conserto; ele apagava o bloco revisao_delta (quatro unidades) ou mudava a ordem dos conjuntos (Equipamento) nas três sementes.

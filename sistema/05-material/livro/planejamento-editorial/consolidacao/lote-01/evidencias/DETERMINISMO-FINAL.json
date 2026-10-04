@@ -1,5 +1,5 @@
 {
-  "sha256_pdf": "bceea2d72fa70e3bbd1bef9051d521c3eaf09c2c7815898e8ca83419fc5c2aaa",
+  "sha256_pdf": "42d9207037ed22db62f68af3b9936ba22a8c2887aa097496116b0842784c9095",
   "reproduzido": true,
   "metodo": "Duas gerações completas com as mesmas fontes: uma no repositório e outra numa cópia isolada do pacote. Mesmo PDF resultante.",
   "antes": "evidencias/antes-fechamento-2026-10-04/DETERMINISMO-FINAL.json",
