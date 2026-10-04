@@ -1074,7 +1074,7 @@
       58,
       59
     ],
-    "sha256_bloco_fonte": "ad50ca93f40f80412b0f4e47023afd1e8322caae4e8e344fcdd6cb4a93a627a2",
+    "sha256_bloco_fonte": "86a56844fcc3ba5281503b05347f5b81baa24c5645e9f046b4e4e0dd301b2b30",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -3402,7 +3402,7 @@
     "paginas_conteudo": [
       160
     ],
-    "sha256_bloco_fonte": "2d04535a80396dfd00bcab5dee9bd5c5142ed390ab103f191eae656703f90889",
+    "sha256_bloco_fonte": "35892fd2424ab80c9182f608f6c2346700aa172ec6880a56b529cf40f3520a5a",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -4421,7 +4421,7 @@
       215,
       216
     ],
-    "sha256_bloco_fonte": "a4837ede98b7f4391cc08dad83488f2645e0c228aea59d37668d309472ace4b2",
+    "sha256_bloco_fonte": "6ce82da691d046228682c5fae2aa597f1e6060c44e7fcd596768956009bf942f",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -6601,7 +6601,7 @@
     "paginas_conteudo": [
       320
     ],
-    "sha256_bloco_fonte": "337abb222b9244006f925ba3b820169b74773f54ffd9a90ca3e0046faf78ac54",
+    "sha256_bloco_fonte": "eb10f1efa6548d75ca21680489eab5578f2381be63614155d1e47cc35a4b1dab",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -6643,9 +6643,8 @@
     "ancora_fonte": "inv-antecipada",
     "titulo_bloco": "Ordem antecipada",
     "id_livro": "campo--inv-antecipada",
-    "pagina": 321,
+    "pagina": 322,
     "paginas_conteudo": [
-      321,
       322
     ],
     "sha256_bloco_fonte": "fd6fba495a46566a192e6dffc03853ad2b88d8892f103153a2ab4619deb17afb",
@@ -6661,7 +6660,8 @@
     "id_livro": "campo--inv-pendentes",
     "pagina": 322,
     "paginas_conteudo": [
-      322
+      322,
+      323
     ],
     "sha256_bloco_fonte": "73ab212478445605f10503a2bfb5b333537a78d213448d49259b51e4be7f4baa",
     "cabecalho_inicial_unificado": false
@@ -6674,9 +6674,8 @@
     "ancora_fonte": "inv-preparar",
     "titulo_bloco": "Preparar uma ação",
     "id_livro": "campo--inv-preparar",
-    "pagina": 322,
+    "pagina": 323,
     "paginas_conteudo": [
-      322,
       323
     ],
     "sha256_bloco_fonte": "698906c8fc632616ceffd10f15176611680985d0dc1db25a1b2140ab9d8f501e",
@@ -6692,7 +6691,8 @@
     "id_livro": "campo--inv-gatilhos",
     "pagina": 323,
     "paginas_conteudo": [
-      323
+      323,
+      324
     ],
     "sha256_bloco_fonte": "bf16c231de40269c73d4573586f0cd13cfabda7bc80e886c4f013c62aa4ce5b9",
     "cabecalho_inicial_unificado": false
@@ -6705,9 +6705,8 @@
     "ancora_fonte": "inv-tempo",
     "titulo_bloco": "Especiais de execução rápida",
     "id_livro": "campo--inv-tempo",
-    "pagina": 323,
+    "pagina": 324,
     "paginas_conteudo": [
-      323,
       324
     ],
     "sha256_bloco_fonte": "f9f0f72ebf725778703348810e87aa42e8f0c31881865ec8f567d8b221172a51",
@@ -6752,9 +6751,8 @@
     "ancora_fonte": "inv-defesa",
     "titulo_bloco": "Movimento e defesa",
     "id_livro": "campo--inv-defesa",
-    "pagina": 325,
+    "pagina": 326,
     "paginas_conteudo": [
-      325,
       326
     ],
     "sha256_bloco_fonte": "0422128dc5924a8914e9e6ae6312a8b98cb3c8f8a64a39440e426a3040d4a74f",
@@ -6770,7 +6768,8 @@
     "id_livro": "campo--inv-respostas",
     "pagina": 326,
     "paginas_conteudo": [
-      326
+      326,
+      327
     ],
     "sha256_bloco_fonte": "3f0d746dcfefb066450dc30be4e50be753d0ecffb68a87297625667de806fc55",
     "cabecalho_inicial_unificado": false
@@ -6783,9 +6782,8 @@
     "ancora_fonte": "inv-talisma",
     "titulo_bloco": "Talismãs",
     "id_livro": "campo--inv-talisma",
-    "pagina": 326,
+    "pagina": 327,
     "paginas_conteudo": [
-      326,
       327
     ],
     "sha256_bloco_fonte": "314e552031bec867f50eafd86a77105b428c7966a4d2aa9e28e1319995bfbb0f",
@@ -6801,9 +6799,10 @@
     "id_livro": "campo--inv-corpos",
     "pagina": 327,
     "paginas_conteudo": [
-      327
+      327,
+      328
     ],
-    "sha256_bloco_fonte": "b8f1756a43f2ff7676ac9bc85a4248536f057c6278c61594e734dcc3c240de36",
+    "sha256_bloco_fonte": "77f698ef4edbb3e621871fc06706a9de61b0b2dab77f3f098c65e4bc5b948fe3",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -6814,9 +6813,8 @@
     "ancora_fonte": "inv-reparo",
     "titulo_bloco": "Cura e reparo",
     "id_livro": "campo--inv-reparo",
-    "pagina": 327,
+    "pagina": 328,
     "paginas_conteudo": [
-      327,
       328
     ],
     "sha256_bloco_fonte": "e21d135a52db7cc66c20ed426b88293037716032bcee0c5a610f556a4d4b7773",
@@ -6830,9 +6828,8 @@
     "ancora_fonte": "inv-liberacao",
     "titulo_bloco": "Trunfos das domadas",
     "id_livro": "campo--inv-liberacao",
-    "pagina": 328,
+    "pagina": 329,
     "paginas_conteudo": [
-      328,
       329
     ],
     "sha256_bloco_fonte": "620f5f45a6215fa99eab034c96d3a7755b5c11225a57f4cc2e68cb810c8d9efd",
@@ -6848,7 +6845,8 @@
     "id_livro": "campo--inv-maxima",
     "pagina": 329,
     "paginas_conteudo": [
-      329
+      329,
+      330
     ],
     "sha256_bloco_fonte": "50922ca4770b2b32deeaf1ba81d4e4bc686160e89bdfb909ba4339f0f34f0a17",
     "cabecalho_inicial_unificado": false
@@ -6861,9 +6859,8 @@
     "ancora_fonte": "inv-dominio",
     "titulo_bloco": "Expansão da domada",
     "id_livro": "campo--inv-dominio",
-    "pagina": 329,
+    "pagina": 330,
     "paginas_conteudo": [
-      329,
       330
     ],
     "sha256_bloco_fonte": "feb08e4bb7b09b9956c110962a035dd3d3d4b8ecc34c75162fbb9e607b65b816",
@@ -6879,7 +6876,8 @@
     "id_livro": "campo--inv-queda",
     "pagina": 330,
     "paginas_conteudo": [
-      330
+      330,
+      331
     ],
     "sha256_bloco_fonte": "ccbe453967e4393e5013ce082e21a9943fde8cd5ac357d36295be585c406c713",
     "cabecalho_inicial_unificado": false
@@ -6892,9 +6890,8 @@
     "ancora_fonte": "inv-retorno",
     "titulo_bloco": "Retorno e corpos caídos",
     "id_livro": "campo--inv-retorno",
-    "pagina": 330,
+    "pagina": 331,
     "paginas_conteudo": [
-      330,
       331
     ],
     "sha256_bloco_fonte": "93943025e832424200f868920953ed7162672d94e12e4c18b75f642f7ffaadab",
@@ -6910,7 +6907,8 @@
     "id_livro": "campo--inv-fora",
     "pagina": 331,
     "paginas_conteudo": [
-      331
+      331,
+      332
     ],
     "sha256_bloco_fonte": "a020c2de35a9d24e69cae1e8a0dfc250126d420221759efe9b72f02f6447608d",
     "cabecalho_inicial_unificado": false
@@ -6923,9 +6921,8 @@
     "ancora_fonte": "inv-inconsciente",
     "titulo_bloco": "Invocador inconsciente",
     "id_livro": "campo--inv-inconsciente",
-    "pagina": 331,
+    "pagina": 332,
     "paginas_conteudo": [
-      331,
       332
     ],
     "sha256_bloco_fonte": "13627ac1a67eed3c2e84b1e18ecf6271b388e67681b1ac57727dd1308810a7b1",
@@ -6941,7 +6938,8 @@
     "id_livro": "campo--inv-manutencao",
     "pagina": 332,
     "paginas_conteudo": [
-      332
+      332,
+      333
     ],
     "sha256_bloco_fonte": "8e8a91e1b755ae5edd47c83370fa09d91ad3b5fb0eb61d12581e80abf84ada3b",
     "cabecalho_inicial_unificado": false
@@ -6954,9 +6952,8 @@
     "ancora_fonte": "inv-morte",
     "titulo_bloco": "Morte do invocador",
     "id_livro": "campo--inv-morte",
-    "pagina": 332,
+    "pagina": 333,
     "paginas_conteudo": [
-      332,
       333
     ],
     "sha256_bloco_fonte": "518cf470bf60d1b0e3e440a68599fe6004c32478637db6a5955c29fbdd6db829",
@@ -6972,7 +6969,8 @@
     "id_livro": "campo--inv-carga",
     "pagina": 333,
     "paginas_conteudo": [
-      333
+      333,
+      334
     ],
     "sha256_bloco_fonte": "d04f0ff60c6359a82998cdd27edfe907f9be7c94c0ad51d6a38dcb2161c44eef",
     "cabecalho_inicial_unificado": false
@@ -6985,9 +6983,9 @@
     "ancora_fonte": "entidades-criar",
     "titulo_bloco": "Criar uma invocação",
     "id_livro": "construcao--entidades-criar",
-    "pagina": 334,
+    "pagina": 335,
     "paginas_conteudo": [
-      334
+      335
     ],
     "sha256_bloco_fonte": "5f44fc7117c3d43b4f0fa579c74073a1242408e040eccd9cd6c75da9c4a9a491",
     "cabecalho_inicial_unificado": false
@@ -7000,10 +6998,10 @@
     "ancora_fonte": "entidades-aquisicao",
     "titulo_bloco": "Adquirir entidades",
     "id_livro": "construcao--entidades-aquisicao",
-    "pagina": 334,
+    "pagina": 335,
     "paginas_conteudo": [
-      334,
-      335
+      335,
+      336
     ],
     "sha256_bloco_fonte": "8641f1b87568c7696cbeff4b684efb0e850bba6a7e5c599ac077780b244174b7",
     "cabecalho_inicial_unificado": false
@@ -7016,9 +7014,9 @@
     "ancora_fonte": "entidade-cao",
     "titulo_bloco": "Cão de sombra",
     "id_livro": "construcao--entidade-cao",
-    "pagina": 335,
+    "pagina": 336,
     "paginas_conteudo": [
-      335
+      336
     ],
     "sha256_bloco_fonte": "ebd0d4e3add1d2782e045acab33b635114f106b2a0bb6844f7fb740e3e909c47",
     "cabecalho_inicial_unificado": false
@@ -7031,9 +7029,9 @@
     "ancora_fonte": "entidade-cao-habilidades",
     "titulo_bloco": "Habilidades do cão",
     "id_livro": "construcao--entidade-cao-habilidades",
-    "pagina": 336,
+    "pagina": 337,
     "paginas_conteudo": [
-      336
+      337
     ],
     "sha256_bloco_fonte": "aaedbb0aec83af49a958ba076c2460e0900cd343f865cb0efb3b90df2cc4c616",
     "cabecalho_inicial_unificado": false
@@ -7046,10 +7044,10 @@
     "ancora_fonte": "entidades-lista-criacao",
     "titulo_bloco": "Lista de ritual e criação",
     "id_livro": "construcao--entidades-lista-criacao",
-    "pagina": 336,
+    "pagina": 337,
     "paginas_conteudo": [
-      336,
-      337
+      337,
+      338
     ],
     "sha256_bloco_fonte": "31fb4a0eaf5fb8a2ba585db235b9bbb048b4be49748a6f88963f54e129658d09",
     "cabecalho_inicial_unificado": false
@@ -7062,9 +7060,9 @@
     "ancora_fonte": "entidades-domar",
     "titulo_bloco": "Domar uma maldição",
     "id_livro": "construcao--entidades-domar",
-    "pagina": 337,
+    "pagina": 338,
     "paginas_conteudo": [
-      337
+      338
     ],
     "sha256_bloco_fonte": "65cb9042a2fdd0e63a66eda1e4ea16d1795b5ca257fa800388026e7f473bb968",
     "cabecalho_inicial_unificado": false
@@ -7077,10 +7075,10 @@
     "ancora_fonte": "entidades-tipos",
     "titulo_bloco": "Tipos de entidade",
     "id_livro": "construcao--entidades-tipos",
-    "pagina": 337,
+    "pagina": 338,
     "paginas_conteudo": [
-      337,
-      338
+      338,
+      339
     ],
     "sha256_bloco_fonte": "86867039b48071b0b3b98ae9a3bd98b02d3eee3ea4250fb5f594861a1cd53a5a",
     "cabecalho_inicial_unificado": false
@@ -7093,9 +7091,9 @@
     "ancora_fonte": "entidades-definicao",
     "titulo_bloco": "Definição e corpo",
     "id_livro": "construcao--entidades-definicao",
-    "pagina": 338,
+    "pagina": 339,
     "paginas_conteudo": [
-      338
+      339
     ],
     "sha256_bloco_fonte": "813273d76add4b73441283147056489745558121d66ba42eaa795e48c83c19d0",
     "cabecalho_inicial_unificado": false
@@ -7108,11 +7106,11 @@
     "ancora_fonte": "entidades-atributos",
     "titulo_bloco": "Atributos e testes",
     "id_livro": "construcao--entidades-atributos",
-    "pagina": 339,
+    "pagina": 340,
     "paginas_conteudo": [
-      339
+      340
     ],
-    "sha256_bloco_fonte": "aac305bdd7366d38b550f12b38e91f7c44eb4a9c4d30f61e745b30b7f8a10709",
+    "sha256_bloco_fonte": "ce3b88be527301dd44b362e693d99ad7db12d4a671f7bd076810603a40823b58",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -7123,10 +7121,10 @@
     "ancora_fonte": "entidades-vida-defesa",
     "titulo_bloco": "Vida e Defesa",
     "id_livro": "construcao--entidades-vida-defesa",
-    "pagina": 339,
+    "pagina": 340,
     "paginas_conteudo": [
-      339,
-      340
+      340,
+      341
     ],
     "sha256_bloco_fonte": "ef6b952e3e3d3ba803b43c950e26f47b7e9b1cb8863ef5462a153492305ce575",
     "cabecalho_inicial_unificado": false
@@ -7139,10 +7137,10 @@
     "ancora_fonte": "entidades-progressao",
     "titulo_bloco": "Progressão da entidade",
     "id_livro": "construcao--entidades-progressao",
-    "pagina": 340,
+    "pagina": 341,
     "paginas_conteudo": [
-      340,
-      341
+      341,
+      342
     ],
     "sha256_bloco_fonte": "4b937dea242a5b9e0e06cf59d3dbe06ec68c2ef4d1765e124368b7d0c6171022",
     "cabecalho_inicial_unificado": false
@@ -7155,9 +7153,9 @@
     "ancora_fonte": "entidades-familias",
     "titulo_bloco": "Famílias da entidade",
     "id_livro": "construcao--entidades-familias",
-    "pagina": 341,
+    "pagina": 342,
     "paginas_conteudo": [
-      341
+      342
     ],
     "sha256_bloco_fonte": "27328c0ed6f232a96334fbf70df4238dada4ee0767d9e8241c40b463290f448d",
     "cabecalho_inicial_unificado": false
@@ -7170,12 +7168,12 @@
     "ancora_fonte": "entidades-basicas",
     "titulo_bloco": "Habilidades básicas",
     "id_livro": "construcao--entidades-basicas",
-    "pagina": 341,
+    "pagina": 342,
     "paginas_conteudo": [
-      341,
-      342
+      342,
+      343
     ],
-    "sha256_bloco_fonte": "1375d978e6772b5c2a0fadf2d999928ded35e3b25bcd1280bd57d9fcbc6f5883",
+    "sha256_bloco_fonte": "54f0756203505c4bb8946dc3f5cdb3ae176f04740063003b27eafd38a8ea392d",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -7186,10 +7184,10 @@
     "ancora_fonte": "entidades-especiais",
     "titulo_bloco": "Habilidades especiais",
     "id_livro": "construcao--entidades-especiais",
-    "pagina": 342,
+    "pagina": 343,
     "paginas_conteudo": [
-      342,
-      343
+      343,
+      344
     ],
     "sha256_bloco_fonte": "66050b4f5486e95917b828e144f3f109979accb98b37a68bffd7c8f7664ef8d9",
     "cabecalho_inicial_unificado": false
@@ -7202,9 +7200,9 @@
     "ancora_fonte": "entidades-formas",
     "titulo_bloco": "Formas da entidade",
     "id_livro": "construcao--entidades-formas",
-    "pagina": 343,
+    "pagina": 344,
     "paginas_conteudo": [
-      343
+      344
     ],
     "sha256_bloco_fonte": "5fa6d4c4d6259708de3f4bf0a5c5920d58e8a5fb9acef7938be36b380aa05079",
     "cabecalho_inicial_unificado": false
@@ -7217,9 +7215,9 @@
     "ancora_fonte": "entidades-medidas",
     "titulo_bloco": "Alcance e área",
     "id_livro": "construcao--entidades-medidas",
-    "pagina": 344,
+    "pagina": 345,
     "paginas_conteudo": [
-      344
+      345
     ],
     "sha256_bloco_fonte": "dda29748190b2239d0abecf5fb232ef34b3d58bbd3b7e1a45fa9409a80af4ee6",
     "cabecalho_inicial_unificado": false
@@ -7232,10 +7230,10 @@
     "ancora_fonte": "entidades-efeitos-reduzidos",
     "titulo_bloco": "Efeitos reduzidos",
     "id_livro": "construcao--entidades-efeitos-reduzidos",
-    "pagina": 344,
+    "pagina": 345,
     "paginas_conteudo": [
-      344,
-      345
+      345,
+      346
     ],
     "sha256_bloco_fonte": "b75c24f88874f9000ee58075ab5febea0003b3b352a3d394fd70871916fb25d2",
     "cabecalho_inicial_unificado": false
@@ -7248,9 +7246,9 @@
     "ancora_fonte": "entidades-saldo",
     "titulo_bloco": "Saldo e limites",
     "id_livro": "construcao--entidades-saldo",
-    "pagina": 345,
+    "pagina": 346,
     "paginas_conteudo": [
-      345
+      346
     ],
     "sha256_bloco_fonte": "f7ec204d0a0fd075580b86c7ec1cf258ed81898e9a8756f1b7dd40213ccc5848",
     "cabecalho_inicial_unificado": false
@@ -7263,9 +7261,9 @@
     "ancora_fonte": "entidades-controle",
     "titulo_bloco": "Controle e utilidade",
     "id_livro": "construcao--entidades-controle",
-    "pagina": 346,
+    "pagina": 347,
     "paginas_conteudo": [
-      346
+      347
     ],
     "sha256_bloco_fonte": "3fe65e710b8884ddddaad1d1be9c87fd0c9dc173a86a2d8e2c06b1f476d525e7",
     "cabecalho_inicial_unificado": false
@@ -7278,10 +7276,10 @@
     "ancora_fonte": "entidades-restricoes",
     "titulo_bloco": "Restrições da entidade",
     "id_livro": "construcao--entidades-restricoes",
-    "pagina": 346,
+    "pagina": 347,
     "paginas_conteudo": [
-      346,
-      347
+      347,
+      348
     ],
     "sha256_bloco_fonte": "15f3dc780e6e1f2833800f1604bda67af20c6c791d99ad492a7091595543ccfd",
     "cabecalho_inicial_unificado": false
@@ -7294,10 +7292,10 @@
     "ancora_fonte": "entidades-passivas",
     "titulo_bloco": "Talentos da entidade",
     "id_livro": "construcao--entidades-passivas",
-    "pagina": 347,
+    "pagina": 348,
     "paginas_conteudo": [
-      347,
-      348
+      348,
+      349
     ],
     "sha256_bloco_fonte": "decfa0568820a41c4ca1586253b8516a1a77ee08c7fdcf429ef785ad7c1d5cc6",
     "cabecalho_inicial_unificado": false
@@ -7310,9 +7308,9 @@
     "ancora_fonte": "entidades-passivas-avancadas",
     "titulo_bloco": "Talentos de Categorias 2 e 3",
     "id_livro": "construcao--entidades-passivas-avancadas",
-    "pagina": 348,
+    "pagina": 349,
     "paginas_conteudo": [
-      348
+      349
     ],
     "sha256_bloco_fonte": "82cfaf13c9385b88f82781947f775ae0cbb79380e1d5ab9cac4dac573f3d279e",
     "cabecalho_inicial_unificado": false
@@ -7325,10 +7323,10 @@
     "ancora_fonte": "entidades-passiva-propria",
     "titulo_bloco": "Características próprias",
     "id_livro": "construcao--entidades-passiva-propria",
-    "pagina": 348,
+    "pagina": 349,
     "paginas_conteudo": [
-      348,
-      349
+      349,
+      350
     ],
     "sha256_bloco_fonte": "fd9fad106bcf4146e6abc80923ff1502de1dbdb659bd6422513dd5616760f30a",
     "cabecalho_inicial_unificado": false
@@ -7341,10 +7339,10 @@
     "ancora_fonte": "entidades-ampliacao",
     "titulo_bloco": "Ampliar uma especial",
     "id_livro": "construcao--entidades-ampliacao",
-    "pagina": 349,
+    "pagina": 350,
     "paginas_conteudo": [
-      349,
-      350
+      350,
+      351
     ],
     "sha256_bloco_fonte": "6373e9e4e85d84c63fb1556814f7dbc7cf14bce88da5d6c8707aa6f2762efd92",
     "cabecalho_inicial_unificado": false
@@ -7357,9 +7355,9 @@
     "ancora_fonte": "entidade-vigia",
     "titulo_bloco": "Vigia de papel",
     "id_livro": "construcao--entidade-vigia",
-    "pagina": 350,
+    "pagina": 351,
     "paginas_conteudo": [
-      350
+      351
     ],
     "sha256_bloco_fonte": "967bb1ad6816b04db8f825cd7c2aebe8af95bbc962da46e3f4949b726690877d",
     "cabecalho_inicial_unificado": false
@@ -7372,9 +7370,9 @@
     "ancora_fonte": "entidade-vigia-habilidades",
     "titulo_bloco": "Habilidades do vigia",
     "id_livro": "construcao--entidade-vigia-habilidades",
-    "pagina": 351,
+    "pagina": 352,
     "paginas_conteudo": [
-      351
+      352
     ],
     "sha256_bloco_fonte": "44f40600a6a8cf65c3a71ede37796f85d7ef28267429e5dd2f4ba893c1b24cd4",
     "cabecalho_inicial_unificado": false
@@ -7387,10 +7385,10 @@
     "ancora_fonte": "entidades-conferencia",
     "titulo_bloco": "Conferência da ficha",
     "id_livro": "construcao--entidades-conferencia",
-    "pagina": 351,
+    "pagina": 352,
     "paginas_conteudo": [
-      351,
-      352
+      352,
+      353
     ],
     "sha256_bloco_fonte": "3ae8f7f202e910db87e9ae854a3f4667c65730eaba32a13c64260b93e2c87880",
     "cabecalho_inicial_unificado": false
@@ -7403,9 +7401,9 @@
     "ancora_fonte": "fab-entidades",
     "titulo_bloco": "Fabricação de entidades",
     "id_livro": "fabricacao--fab-entidades",
-    "pagina": 352,
+    "pagina": 353,
     "paginas_conteudo": [
-      352
+      353
     ],
     "sha256_bloco_fonte": "161c276942a384d42c66b1c968d7f186fccfe5b275f3570dcfaa90be67912e7c",
     "cabecalho_inicial_unificado": false
@@ -7418,9 +7416,9 @@
     "ancora_fonte": "fab-projeto",
     "titulo_bloco": "Projeto de fabricação",
     "id_livro": "fabricacao--fab-projeto",
-    "pagina": 353,
+    "pagina": 354,
     "paginas_conteudo": [
-      353
+      354
     ],
     "sha256_bloco_fonte": "b547d2d0b7e34670f30082ec08b75f319a14cb7d95eb3cc53c7cfe5497142150",
     "cabecalho_inicial_unificado": false
@@ -7433,10 +7431,10 @@
     "ancora_fonte": "fab-teste",
     "titulo_bloco": "Teste de fabricação",
     "id_livro": "fabricacao--fab-teste",
-    "pagina": 353,
+    "pagina": 354,
     "paginas_conteudo": [
-      353,
-      354
+      354,
+      355
     ],
     "sha256_bloco_fonte": "f20f1af4450987d1f8b9a3fa0eb253faa9281151b462a7e038c53b43f3f44476",
     "cabecalho_inicial_unificado": false
@@ -7449,12 +7447,12 @@
     "ancora_fonte": "fab-conclusao",
     "titulo_bloco": "Conclusão e transferência",
     "id_livro": "fabricacao--fab-conclusao",
-    "pagina": 354,
+    "pagina": 355,
     "paginas_conteudo": [
-      354,
-      355
+      355,
+      356
     ],
-    "sha256_bloco_fonte": "6a5729bfadf4fbae6b13319c4a58425ae3f86df37a467212c139c98c0259e0b9",
+    "sha256_bloco_fonte": "d7d57aba8e31bc4e40b948f5cbed5fd4136d63cf1349fbcbca54f35893e5205e",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -7465,9 +7463,9 @@
     "ancora_fonte": "fab-exemplo",
     "titulo_bloco": "Talismã de vigia",
     "id_livro": "fabricacao--fab-exemplo",
-    "pagina": 355,
+    "pagina": 356,
     "paginas_conteudo": [
-      355
+      356
     ],
     "sha256_bloco_fonte": "73a9743156bfb72f8954c9e9c67d2b35a3753c3378c68393936a2fdf24115b39",
     "cabecalho_inicial_unificado": false
@@ -7480,9 +7478,9 @@
     "ancora_fonte": "consulta-missao",
     "titulo_bloco": "Preparar uma missão",
     "id_livro": "consulta--consulta-missao",
-    "pagina": 356,
+    "pagina": 357,
     "paginas_conteudo": [
-      356
+      357
     ],
     "sha256_bloco_fonte": "03e4978ac1317d40464a5f029f9c09409359c1d2ee63219b94d13880f576f998",
     "cabecalho_inicial_unificado": false
@@ -7495,10 +7493,10 @@
     "ancora_fonte": "consulta-conduzir",
     "titulo_bloco": "Mestrar uma sessão",
     "id_livro": "consulta--consulta-conduzir",
-    "pagina": 356,
+    "pagina": 357,
     "paginas_conteudo": [
-      356,
-      357
+      357,
+      358
     ],
     "sha256_bloco_fonte": "f3082a3f5ee9964b002dadee526fe52f52d3086b1c1e3df52f95b9acc921af1d",
     "cabecalho_inicial_unificado": false
@@ -7511,9 +7509,9 @@
     "ancora_fonte": "consulta-referencias",
     "titulo_bloco": "Referências e adaptação",
     "id_livro": "consulta--consulta-referencias",
-    "pagina": 357,
+    "pagina": 358,
     "paginas_conteudo": [
-      357
+      358
     ],
     "sha256_bloco_fonte": "3256d38d2346cb6f998571dfdaed4e213f954d3d3a6956f122ac96d25bf71d26",
     "cabecalho_inicial_unificado": false
@@ -7526,9 +7524,9 @@
     "ancora_fonte": "consulta-glossario-1",
     "titulo_bloco": "Glossário: Ação a Carga",
     "id_livro": "consulta--consulta-glossario-1",
-    "pagina": 358,
+    "pagina": 359,
     "paginas_conteudo": [
-      358
+      359
     ],
     "sha256_bloco_fonte": "9c074cae0dcf67135e41ebbb58d5bbae6f7dc8552add21c43f15b2a8a4b1d1a5",
     "cabecalho_inicial_unificado": false
@@ -7541,10 +7539,10 @@
     "ancora_fonte": "consulta-glossario-2",
     "titulo_bloco": "Glossário: Categoria a Espaço",
     "id_livro": "consulta--consulta-glossario-2",
-    "pagina": 358,
+    "pagina": 359,
     "paginas_conteudo": [
-      358,
-      359
+      359,
+      360
     ],
     "sha256_bloco_fonte": "2646a0e715368b1992aeca60cd478d55e53f994177c071c0194533fb7d801b05",
     "cabecalho_inicial_unificado": false
@@ -7557,10 +7555,10 @@
     "ancora_fonte": "consulta-glossario-3",
     "titulo_bloco": "Glossário: Especial a Invocação",
     "id_livro": "consulta--consulta-glossario-3",
-    "pagina": 359,
+    "pagina": 360,
     "paginas_conteudo": [
-      359,
-      360
+      360,
+      361
     ],
     "sha256_bloco_fonte": "2fc4beb749963fa1cf837fd04d5f2113736b23c75fe52fb4e235c9ae66aa4f22",
     "cabecalho_inicial_unificado": false
@@ -7573,10 +7571,10 @@
     "ancora_fonte": "consulta-glossario-4",
     "titulo_bloco": "Glossário: Invocador a Pacto",
     "id_livro": "consulta--consulta-glossario-4",
-    "pagina": 360,
+    "pagina": 361,
     "paginas_conteudo": [
-      360,
-      361
+      361,
+      362
     ],
     "sha256_bloco_fonte": "827260db1fcc4db53c319540228723a27b6e7badea5a3292783ae837d5fc2134",
     "cabecalho_inicial_unificado": false
@@ -7589,9 +7587,9 @@
     "ancora_fonte": "consulta-glossario-5",
     "titulo_bloco": "Glossário: Patente a Selo",
     "id_livro": "consulta--consulta-glossario-5",
-    "pagina": 361,
+    "pagina": 362,
     "paginas_conteudo": [
-      361
+      362
     ],
     "sha256_bloco_fonte": "946e644516afffe890e7463470ff921a6d2c45c5517c97ce3a9bc7a8fb5d7a8e",
     "cabecalho_inicial_unificado": false
@@ -7604,10 +7602,10 @@
     "ancora_fonte": "consulta-glossario-6",
     "titulo_bloco": "Glossário: Sem a Volume",
     "id_livro": "consulta--consulta-glossario-6",
-    "pagina": 361,
+    "pagina": 362,
     "paginas_conteudo": [
-      361,
-      362
+      362,
+      363
     ],
     "sha256_bloco_fonte": "da84b7144d548b4183e560604eae445556dfb067667d838b837c734de584cfe9",
     "cabecalho_inicial_unificado": false
@@ -7620,9 +7618,9 @@
     "ancora_fonte": "consulta-testes",
     "titulo_bloco": "Testes na mesa",
     "id_livro": "consulta--consulta-testes",
-    "pagina": 363,
+    "pagina": 364,
     "paginas_conteudo": [
-      363
+      364
     ],
     "sha256_bloco_fonte": "e72e56f1abd945bdfc973816e2f1206ddee489f1004f1c185de128cee6842bec",
     "cabecalho_inicial_unificado": false
@@ -7635,10 +7633,10 @@
     "ancora_fonte": "consulta-ataques",
     "titulo_bloco": "Ataques e efeitos",
     "id_livro": "consulta--consulta-ataques",
-    "pagina": 363,
+    "pagina": 364,
     "paginas_conteudo": [
-      363,
-      364
+      364,
+      365
     ],
     "sha256_bloco_fonte": "13f1680563eb3d2c6469c47cb60add15f381e3528cfe58db1b1f5f2dd3e43cd0",
     "cabecalho_inicial_unificado": false
@@ -7651,9 +7649,9 @@
     "ancora_fonte": "consulta-entidades",
     "titulo_bloco": "Entidades na mesa",
     "id_livro": "consulta--consulta-entidades",
-    "pagina": 365,
+    "pagina": 366,
     "paginas_conteudo": [
-      365
+      366
     ],
     "sha256_bloco_fonte": "899126705a8d5e4b2bea79ce3ef7a0d04cc9dbb56f2ce00138c617c810b51734",
     "cabecalho_inicial_unificado": false
@@ -7666,9 +7664,9 @@
     "ancora_fonte": "consulta-ficha-personagem",
     "titulo_bloco": "Ficha de personagem",
     "id_livro": "consulta--consulta-ficha-personagem",
-    "pagina": 366,
+    "pagina": 367,
     "paginas_conteudo": [
-      366
+      367
     ],
     "sha256_bloco_fonte": "7d9d10ea45ba547b8bcc21554b7a74758f2682bd03f4a70cdc959248c65c0505",
     "cabecalho_inicial_unificado": false
@@ -7681,9 +7679,9 @@
     "ancora_fonte": "consulta-ficha-repertorio",
     "titulo_bloco": "Repertório e inventário",
     "id_livro": "consulta--consulta-ficha-repertorio",
-    "pagina": 367,
+    "pagina": 368,
     "paginas_conteudo": [
-      367
+      368
     ],
     "sha256_bloco_fonte": "c339555ca912f732252792b1f25ab8de7e6f0cb5c4978df6de18348c275c7204",
     "cabecalho_inicial_unificado": false
@@ -7696,9 +7694,9 @@
     "ancora_fonte": "consulta-ficha-feitico",
     "titulo_bloco": "Ficha de aplicação",
     "id_livro": "consulta--consulta-ficha-feitico",
-    "pagina": 368,
+    "pagina": 369,
     "paginas_conteudo": [
-      368
+      369
     ],
     "sha256_bloco_fonte": "55118b555f8486016eec2d90afb9cd33e31e66a09a39c8fa092d00e3ecd15e5f",
     "cabecalho_inicial_unificado": false
@@ -7711,9 +7709,9 @@
     "ancora_fonte": "consulta-ficha-entidade",
     "titulo_bloco": "Ficha de entidade",
     "id_livro": "consulta--consulta-ficha-entidade",
-    "pagina": 369,
+    "pagina": 370,
     "paginas_conteudo": [
-      369
+      370
     ],
     "sha256_bloco_fonte": "1c609e1fe888b0fc8dce005a590b054bab51fb02c81b3fc2dac6aee5018e058f",
     "cabecalho_inicial_unificado": false
@@ -7726,9 +7724,9 @@
     "ancora_fonte": "consulta-ficha-entidade-capacidades",
     "titulo_bloco": "Ficha de capacidades da entidade",
     "id_livro": "consulta--consulta-ficha-entidade-capacidades",
-    "pagina": 370,
+    "pagina": 371,
     "paginas_conteudo": [
-      370
+      371
     ],
     "sha256_bloco_fonte": "0902c63deeaa5154db0bc4feb7ab384c0574f46feb820efb8c3c3e8669ad6962",
     "cabecalho_inicial_unificado": false
@@ -7741,9 +7739,9 @@
     "ancora_fonte": "consulta-ficha-recuperacao",
     "titulo_bloco": "Ficha de recuperação",
     "id_livro": "consulta--consulta-ficha-recuperacao",
-    "pagina": 371,
+    "pagina": 372,
     "paginas_conteudo": [
-      371
+      372
     ],
     "sha256_bloco_fonte": "3c5659122039befebae3269ea878395b61647e63822942b07e69bff1e9386050",
     "cabecalho_inicial_unificado": false
@@ -7756,9 +7754,9 @@
     "ancora_fonte": "consulta-registro-missao",
     "titulo_bloco": "Registro de missão",
     "id_livro": "consulta--consulta-registro-missao",
-    "pagina": 372,
+    "pagina": 373,
     "paginas_conteudo": [
-      372
+      373
     ],
     "sha256_bloco_fonte": "6ab92a802376712e39eca1940106666703872db1b632485ba8557a3922c4f1d8",
     "cabecalho_inicial_unificado": false
@@ -7771,9 +7769,9 @@
     "ancora_fonte": "consulta-indice-1",
     "titulo_bloco": "Índice: A",
     "id_livro": "consulta--consulta-indice-1",
-    "pagina": 373,
+    "pagina": 374,
     "paginas_conteudo": [
-      373
+      374
     ],
     "sha256_bloco_fonte": "e9d58859a4dce40c56c02281a94393f52f71cd27290f1ff591e5c09da41fc9dd",
     "cabecalho_inicial_unificado": false
@@ -7786,9 +7784,9 @@
     "ancora_fonte": "consulta-indice-2",
     "titulo_bloco": "Índice: A–C",
     "id_livro": "consulta--consulta-indice-2",
-    "pagina": 374,
+    "pagina": 375,
     "paginas_conteudo": [
-      374
+      375
     ],
     "sha256_bloco_fonte": "1cd3d49b5a18afe25652a01270be23447b2d54d6a790d39554391838deced40a",
     "cabecalho_inicial_unificado": false
@@ -7801,9 +7799,9 @@
     "ancora_fonte": "consulta-indice-3",
     "titulo_bloco": "Índice: C–D",
     "id_livro": "consulta--consulta-indice-3",
-    "pagina": 375,
+    "pagina": 376,
     "paginas_conteudo": [
-      375
+      376
     ],
     "sha256_bloco_fonte": "04d9cf4a7992e6c298447f4cb774bb050e35efe6b1019c39fb660518736e298c",
     "cabecalho_inicial_unificado": false
@@ -7816,9 +7814,9 @@
     "ancora_fonte": "consulta-indice-4",
     "titulo_bloco": "Índice: D–E",
     "id_livro": "consulta--consulta-indice-4",
-    "pagina": 376,
+    "pagina": 377,
     "paginas_conteudo": [
-      376
+      377
     ],
     "sha256_bloco_fonte": "bfc1f51cbf087c6235ed0aa7d4033e8fffe75dec1765ef0d27238931b3cf661b",
     "cabecalho_inicial_unificado": false
@@ -7831,9 +7829,9 @@
     "ancora_fonte": "consulta-indice-5",
     "titulo_bloco": "Índice: E–G",
     "id_livro": "consulta--consulta-indice-5",
-    "pagina": 377,
+    "pagina": 378,
     "paginas_conteudo": [
-      377
+      378
     ],
     "sha256_bloco_fonte": "fe8a68047f00557ddabadaa5aee4fe221ac4b6ea5e1b6cfb6da2127264f3daea",
     "cabecalho_inicial_unificado": false
@@ -7846,9 +7844,9 @@
     "ancora_fonte": "consulta-indice-6",
     "titulo_bloco": "Índice: G–L",
     "id_livro": "consulta--consulta-indice-6",
-    "pagina": 378,
+    "pagina": 379,
     "paginas_conteudo": [
-      378
+      379
     ],
     "sha256_bloco_fonte": "3fc0aabc52bb15c23fbef9ed73a7e9f526ee8dbf4d5f62a9840ba449766563a1",
     "cabecalho_inicial_unificado": false
@@ -7861,9 +7859,9 @@
     "ancora_fonte": "consulta-indice-7",
     "titulo_bloco": "Índice: L–O",
     "id_livro": "consulta--consulta-indice-7",
-    "pagina": 379,
+    "pagina": 380,
     "paginas_conteudo": [
-      379
+      380
     ],
     "sha256_bloco_fonte": "d09fa77598475817d7793aa095670adbb1b32bfc0d13350628d6fc00c46a4046",
     "cabecalho_inicial_unificado": false
@@ -7876,9 +7874,9 @@
     "ancora_fonte": "consulta-indice-8",
     "titulo_bloco": "Índice: O–P",
     "id_livro": "consulta--consulta-indice-8",
-    "pagina": 380,
+    "pagina": 381,
     "paginas_conteudo": [
-      380
+      381
     ],
     "sha256_bloco_fonte": "b834fc0fda5cfaec7bd0ffd24a38c369c2f65c6a582ae8b0b74057e8b95f3496",
     "cabecalho_inicial_unificado": false
@@ -7891,9 +7889,9 @@
     "ancora_fonte": "consulta-indice-9",
     "titulo_bloco": "Índice: P–S",
     "id_livro": "consulta--consulta-indice-9",
-    "pagina": 381,
+    "pagina": 382,
     "paginas_conteudo": [
-      381
+      382
     ],
     "sha256_bloco_fonte": "801c1fcaed788e2f50294a3240752878207e36423575b262f9d47da52c7268f0",
     "cabecalho_inicial_unificado": false
@@ -7906,9 +7904,9 @@
     "ancora_fonte": "consulta-indice-10",
     "titulo_bloco": "Índice: S–V",
     "id_livro": "consulta--consulta-indice-10",
-    "pagina": 382,
+    "pagina": 383,
     "paginas_conteudo": [
-      382
+      383
     ],
     "sha256_bloco_fonte": "5b150783404b59105fe2a3ccc9a207f45773a9c981ebade1c17e569bf07e529e",
     "cabecalho_inicial_unificado": false
@@ -7921,9 +7919,9 @@
     "ancora_fonte": "consulta-indice-11",
     "titulo_bloco": "Índice: V–X",
     "id_livro": "consulta--consulta-indice-11",
-    "pagina": 383,
+    "pagina": 384,
     "paginas_conteudo": [
-      383
+      384
     ],
     "sha256_bloco_fonte": "3f1dd02822c8bce6327b291687232ba2ae1d067b53cca460817b9e6e53e627c6",
     "cabecalho_inicial_unificado": false

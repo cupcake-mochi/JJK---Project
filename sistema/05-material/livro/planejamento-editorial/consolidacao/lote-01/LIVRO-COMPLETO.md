@@ -2059,7 +2059,7 @@ Use a vida inicial e o ganho por nível do seu Caminho. No nível 2, aplique o v
 
 Calcule a Defesa com Destreza, proteção e escudo, conforme as peças que você usa. Respeite o teto de Destreza da proteção. Fontes de proteção que não se acumulam não entram duas vezes.
 
-O deslocamento padrão é **9 m**. Aplique qualquer alteração efetivamente recebida pela ficha. Modos diferentes de movimento e terreno seguem Movimento; excesso de carga segue Carga, em Regras gerais.
+O deslocamento padrão é **9 m**. Aplique qualquer alteração efetivamente recebida pela ficha. Modos diferentes de movimento e terreno seguem Movimento. Excesso de carga segue Carga, em Regras gerais.
 
 #### Ataques e testes
 
@@ -6055,7 +6055,7 @@ Durante seu turno, pode realizar **duas manipulações gratuitas de itens, em ve
 
 Ao realizar a **Ação Atacar**, pode gastar **3 PE antes do primeiro ataque** para realizar **dois ataques com armas de uma mão**, em vez do ataque único normalmente disponível. Se outra regra já conceder mais ataques nessa ação, use a maior quantidade; as quantidades não se somam.
 
-Pode combinar ataques corpo a corpo e arremessos, usar a mesma arma ou armas diferentes e atacar a mesma criatura ou criaturas diferentes. Cada ataque é resolvido separadamente, com seu dano e seus requisitos normais. Adicionais de dano permanecem sujeitos às próprias regras.
+O segundo ataque precisa ser corpo a corpo ou um arremesso, e nunca um disparo de arma de fogo ou de besta. Pode combinar ataques corpo a corpo e arremessos, usar a mesma arma ou armas diferentes e atacar a mesma criatura ou criaturas diferentes. Cada ataque é resolvido separadamente, com seu dano e seus requisitos normais. Adicionais de dano permanecem sujeitos às próprias regras.
 
 Sua Ação Bônus permanece disponível. Essa execução não exige Fluidez.
 
@@ -8069,7 +8069,7 @@ Recalcule também o total de corpos permitido em **Invocações em campo**: atri
 
 Se a capacidade cair de quatro para duas e o atributo for 3, o total cai de **sete para cinco corpos**. Escolha os cinco que continuará controlando. Os outros permanecem fisicamente no mundo, sem receber ordens, acompanhar por controle ou usar capacidades para você. Não desaparecem nem são destruídos.
 
-Registre a seleção. Recuperar o controle de um corpo suspenso exige uma aquisição ou transferência de vínculo permitida, com os procedimentos de **Fabricação de entidades** e os limites de **Invocações em campo**. Estar perto dele ou voltar à cidade não permite alternar gratuitamente o grupo controlado.
+Registre a seleção. Um corpo suspenso volta ao seu controle quando uma vaga se abre porque um corpo controlado foi destruído ou porque seu total permitido aumentou, conforme **Invocações em campo**. Soltar um corpo de propósito, estar perto do suspenso ou voltar à cidade não permite alternar o grupo controlado.
 
 Também remova básicas, especiais, Talentos ou Famílias concedidas apenas pela Trilha anterior. Registre versões válidas das fichas afetadas. Entidades domadas ou fabricadas conservam sua aquisição própria; a troca de Trilha não as transforma em entidades por espaço nem aumenta seu nível.
 
@@ -11895,6 +11895,8 @@ A tarefa incluída numa troca e a orientação posterior de uma especial precisa
 
 A entidade usa sua atuação básica para uma capacidade básica conhecida ou para uma ação comum que seu corpo consiga executar. Atacar, Correr, Desengajar, Esquivar, Esconder, Ajudar, Vasculhar, Estudar e Usar um Objeto seguem os procedimentos de **Ações**.
 
+Para Atacar, num revide ou num ataque comum concedido, a entidade usa a **básica ofensiva de Classe 0** da ficha ou uma **arma que ela empunhe**. O acerto com arma está em **Construir invocações — Acerto e dificuldade**. Sem nenhuma das duas, ela não ataca.
+
 Conhecer duas básicas não permite executar ambas no mesmo ciclo. Correr usa a básica; não sobra um ataque depois. Ajudar exige uma contribuição real. Para ajudar uma especial, uma entidade gasta sua básica na ajuda e a executora gasta a própria básica na especial. Várias ajudas não acumulam vantagens.
 
 Uma ação comum de Bônus disponível à entidade também pode ser paga com sua básica. Isso não lhe cria uma Bônus independente nem concede habilidades de personagem. Uma proibição de usar Bônus continua valendo nessa substituição.
@@ -12139,7 +12141,7 @@ Corpos amaldiçoados não são recolhidos, sejam de técnica ou de criação. Fi
 
 Você pode manter um **total de corpos igual ao atributo escolhido para a Defesa das entidades + sua capacidade de entidades ativas**. Conte juntos os corpos ativos e inativos. Para essa conta, use a maior capacidade que seu Caminho permite em combate. Ativar ou desativar um corpo não muda esse total. O limite de entidades que podem agir ao mesmo tempo continua valendo.
 
-Com atributo 3 e capacidade de duas entidades, por exemplo, pode manter cinco corpos: dois ativos e três inativos, ou todos os cinco inativos depois da luta. Corpos adicionais precisam ser deixados sem seu controle até haver espaço. Não desaparecem nem são destruídos por essa escolha.
+Com atributo 3 e capacidade de duas entidades, por exemplo, pode manter cinco corpos: dois ativos e três inativos, ou todos os cinco inativos depois da luta. Corpos adicionais precisam ser deixados sem seu controle. Não desaparecem nem são destruídos por essa escolha. Um corpo deixado assim volta ao seu controle quando uma vaga se abre porque um corpo controlado foi destruído ou porque seu total permitido aumentou. Deixar um corpo sem controle de propósito não abre vaga para trazer outro de volta.
 
 Um corpo inativo conserva vida, Defesa e posição. Pode andar para acompanhar você, mas **falha em toda rolagem, não age e não recebe tarefa**. Interpretação e trabalhos extremamente simples que não exijam rolagem são possíveis. Não podem substituir testes, lutar ou executar capacidades.
 
@@ -12577,6 +12579,8 @@ Escolha um atributo de acerto que represente suas habilidades. Essa escolha fica
 
 A maestria é sempre a **do invocador**, inclusive para uma domada de nível menor. Os atributos são os **da entidade**.
 
+Com uma arma empunhada, o ataque usa o atributo que a arma pede no lugar do atributo de acerto. A CD das habilidades não muda. A entidade não tem treino em armas, então ataca com elas com desvantagem. O dano é o da arma, conforme **Equipamento**.
+
 #### Resistências e perícias
 
 Escolha **um TR treinado**. Físico usa Força ou Destreza, escolhida na montagem. Vigor usa Constituição, Intelecto usa Inteligência e Espírito usa Essência.
@@ -12702,7 +12706,7 @@ Apoio pode entregar sua única Melhoria aplicável, como Impulso. Os dados desca
 
 Uma básica de Efeito usa a aplicação pequena registrada, na escala comum de **Fundamento — Efeitos fora de combate**. Ela precisa caber na definição da entidade.
 
-O uso dessas habilidades consome sua atuação básica. Ajudar, Correr e outras atuações simples usam a mesma oportunidade, conforme **Invocações em campo**. Uma capacidade ofensiva precisa estar montada na ficha para que seja usada como ataque próprio.
+O uso dessas habilidades consome sua atuação básica. Ajudar, Correr e outras atuações simples usam a mesma oportunidade, conforme **Invocações em campo**. Uma capacidade ofensiva precisa estar montada na ficha para que seja usada como ataque próprio. A outra forma de atacar é com uma arma empunhada, conforme **Acerto e dificuldade**.
 
 <!-- fonte:invocacoes/lote-02/CONSTRUIR-INVOCACOES.md#entidades-especiais -->
 <a id="construcao--entidades-especiais"></a>
@@ -13171,7 +13175,7 @@ Uma nova tentativa exige cumprir o retrabalho previsto e pagar seus custos. Repe
 <a id="fabricacao--fab-conclusao"></a>
 ### Conclusão e transferência
 
-Uma entidade nova começa com vida máxima. O shikigami fica recolhido em seu talismã, **sem carga adiantada**; o corpo permanece inativo onde foi construído. A conclusão não manifesta, ativa ou transporta a entidade. Antes de usá-la, siga **Invocações em campo** e seus limites de controle. Um corpo que exceda seu limite permanece no mundo sem controle até haver espaço; fabricar ou receber outro não amplia esse limite.
+Uma entidade nova começa com vida máxima. O shikigami fica recolhido em seu talismã, **sem carga adiantada**; o corpo permanece inativo onde foi construído. A conclusão não manifesta, ativa ou transporta a entidade. Antes de usá-la, siga **Invocações em campo** e seus limites de controle. Um corpo que exceda seu limite permanece no mundo sem controle e volta conforme **Invocações em campo**; fabricar ou receber outro não amplia esse limite.
 
 O talismã ocupa **0,5 de Volume**. Transporte, carga de energia e recuperação seguem aquele capítulo. Os materiais escolhidos não concedem proteção, resistência, imunidade ou habilidade além da ficha conferida. Equipar a criatura também exige obter as peças usadas.
 

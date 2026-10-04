@@ -204,3 +204,11 @@ Se a ficha da barreira oferece uma reserva de vida para toda a superfície imóv
 **Depois:** Página Objetos e efeitos recebe a parte de alvos, equipamento carregado e barreiras, com exemplo local.
 
 **Motivo:** Prova mostrou transbordamento. Preservar fonte legível e integridade dos blocos, sem apertar tabela ou perder regra.
+
+## EQ25 — M decisão do autor
+
+**Antes:** Capacidade 1 das bestas adotada em equipamento/lote-03 (M01) sem registro nesta unidade; a peça 14 da v0.331 usa 2 e proíbe 1 por apagar o ataque extra.
+
+**Depois:** Capacidade 1 mantida, sem mudar o texto: cada besta comporta um virote e precisa ser recarregada depois de cada disparo.
+
+**Motivo:** Decisão do Mizuki em 04/10/2026, achado G4-01 da revisão de interfaces: "a parte negativa da besta é justamente não funcionar no ataque extra". A peça 14 muda na migração.

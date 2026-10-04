@@ -24,7 +24,7 @@ Alguns casos têm resposta escrita no livro e servem de controle: se os mestres 
 | Caso | Situação no texto |
 |---|---|
 | **S05.** O invocador manifesta uma entidade no primeiro turno e converte a Padrão em Bônus para dar a tarefa. A entidade pode atacar nesse turno? | Controle. Não: a entrada comum não dá básica naquele ciclo. **Manifestar e recolher.** |
-| **S06.** Uma entidade sem nenhuma capacidade ofensiva montada recebe o Golpe concedido pelo Guia. Com que ela ataca, e com qual bônus? | Lacuna (achado G2-04). Divergência esperada. |
+| **S06.** Uma entidade sem nenhuma capacidade ofensiva montada recebe o Golpe concedido pelo Guia. Com que ela ataca, e com qual bônus? | Controle desde a decisão de 04/10 (achado G2-04). Só se empunhar uma arma: atributo que a arma pede + maestria do invocador, com desvantagem por falta de treino. Sem arma, não ataca. **Atuação básica** e **Acerto e dificuldade**. |
 | **S07.** A entidade está sustentando uma especial com Concentração e o invocador a recolhe. O efeito continua? | Lacuna (achado G2-05). Divergência esperada. |
 | **S08.** O invocador tem uma maldição domada e nenhuma forma de recolhê-la. Fora do combate, ela fica onde, e conta no limite de duas ativas? | Lacuna (achado G2-02). Divergência esperada. |
 
@@ -35,7 +35,7 @@ Alguns casos têm resposta escrita no livro e servem de controle: se os mestres 
 | **S09.** O Incursor de nível 3 está sem Fluidez. Um inimigo erra um ataque contra ele. Ele pode responder com Reflexo? | Controle. Não: precisava ter Fluidez quando o ataque foi declarado. Ele ganha a Fluidez. **Reflexo.** |
 | **S10.** Um inimigo age antes do Incursor no primeiro turno do combate e erra o ataque. O Incursor ganha Fluidez? | Lacuna (achado G3-04). Divergência esperada. |
 | **S11.** O Incursor tira 19 com Fluidez guardada. O alvo vai decidir se Bloqueia. O Incursor declara o Instante Decisivo antes ou depois da decisão do alvo? | Lacuna (achado G3-05). Divergência esperada. |
-| **S12.** O Malabarista usa Ofensiva em Movimento com uma pistola na mão. Vale? | Decisão de regra em aberto (achado G3-07). Divergência esperada. |
+| **S12.** O Malabarista usa Ofensiva em Movimento com uma pistola na mão. Vale? | Controle desde a decisão de 04/10 (achado G3-07). Vale para o primeiro ataque; o segundo precisa ser corpo a corpo ou arremesso. **Ofensiva em Movimento**. |
 
 ## Bloco 4 — equipamento
 

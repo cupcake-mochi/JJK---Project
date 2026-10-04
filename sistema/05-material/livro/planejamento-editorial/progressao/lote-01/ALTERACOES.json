@@ -257,6 +257,13 @@
       "antes": "Retorno do estágio4 não tinha saída operacional estável; feitos de socorro/Alma permitiam leitura de quedas fabricadas pelo grupo.",
       "depois": "Retorno acompanha saída de Derrotado. Socorro,Alma eDomínio devem decorrer de ameaça hostil real,excluindo treino e fabricação do feito.",
       "motivo": "Concilia a saída definida emR03 e preserva conquista de limiar sem transformar dano deliberado em promoção programada."
+    },
+    {
+      "id": "PRO37",
+      "tipo": "M decisão do autor",
+      "antes": "Registre a seleção. Recuperar o controle de um corpo suspenso exige uma aquisição ou transferência de vínculo permitida, com os procedimentos de **Fabricação de entidades** e os limites de **Invocações em campo**. Estar perto dele ou voltar à cidade não permite alternar gratuitamente o grupo controlado.",
+      "depois": "Registre a seleção. Um corpo suspenso volta ao seu controle quando uma vaga se abre porque um corpo controlado foi destruído ou porque seu total permitido aumentou, conforme **Invocações em campo**. Soltar um corpo de propósito, estar perto do suspenso ou voltar à cidade não permite alternar o grupo controlado.",
+      "motivo": "Decisão do Mizuki em 04/10/2026, achado G2-03 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md). Substitui a retomada por aquisição de PRO34, que não tinha procedimento para corpos de técnica; mantém o bloqueio ao revezamento."
     }
   ]
 }

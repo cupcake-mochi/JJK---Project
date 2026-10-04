@@ -285,3 +285,11 @@ Fecha remissão e concilia manual25/80/50, sem conceder promoção, XP ou benef�
 ## PRO36 — Feitos e derrota
 
 Voltar do estágio4 agora requer saída de Derrotado registrada. Feitos de socorro/Alma/Domínio exigem ameaça hostil real e excluem treino ou quedas combinadas só para cumprir a lista. Resolve a nova interface de R03 e impede cumprir o limiar atacando um aliado sem perigo de missão.
+
+## PRO37 — M decisão do autor
+
+**Antes:** Registre a seleção. Recuperar o controle de um corpo suspenso exige uma aquisição ou transferência de vínculo permitida, com os procedimentos de **Fabricação de entidades** e os limites de **Invocações em campo**. Estar perto dele ou voltar à cidade não permite alternar gratuitamente o grupo controlado.
+
+**Depois:** Registre a seleção. Um corpo suspenso volta ao seu controle quando uma vaga se abre porque um corpo controlado foi destruído ou porque seu total permitido aumentou, conforme **Invocações em campo**. Soltar um corpo de propósito, estar perto do suspenso ou voltar à cidade não permite alternar o grupo controlado.
+
+**Motivo:** Decisão do Mizuki em 04/10/2026, achado G2-03 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md). Substitui a retomada por aquisição de PRO34, que não tinha procedimento para corpos de técnica; mantém o bloqueio ao revezamento.

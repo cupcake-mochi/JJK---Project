@@ -209,6 +209,8 @@ Escolha um atributo de acerto que represente suas habilidades. Essa escolha fica
 
 A maestria é sempre a **do invocador**, inclusive para uma domada de nível menor. Os atributos são os **da entidade**.
 
+Com uma arma empunhada, o ataque usa o atributo que a arma pede no lugar do atributo de acerto. A CD das habilidades não muda. A entidade não tem treino em armas, então ataca com elas com desvantagem. O dano é o da arma, conforme **Equipamento**.
+
 ## Resistências e perícias
 
 Escolha **um TR treinado**. Físico usa Força ou Destreza, escolhida na montagem. Vigor usa Constituição, Intelecto usa Inteligência e Espírito usa Essência.
@@ -330,7 +332,7 @@ Apoio pode entregar sua única Melhoria aplicável, como Impulso. Os dados desca
 
 Uma básica de Efeito usa a aplicação pequena registrada, na escala comum de **Fundamento — Efeitos fora de combate**. Ela precisa caber na definição da entidade.
 
-O uso dessas habilidades consome sua atuação básica. Ajudar, Correr e outras atuações simples usam a mesma oportunidade, conforme **Invocações em campo**. Uma capacidade ofensiva precisa estar montada na ficha para que seja usada como ataque próprio.
+O uso dessas habilidades consome sua atuação básica. Ajudar, Correr e outras atuações simples usam a mesma oportunidade, conforme **Invocações em campo**. Uma capacidade ofensiva precisa estar montada na ficha para que seja usada como ataque próprio. A outra forma de atacar é com uma arma empunhada, conforme **Acerto e dificuldade**.
 
 <!-- page:entidades-especiais|Habilidades especiais -->
 # Habilidades especiais

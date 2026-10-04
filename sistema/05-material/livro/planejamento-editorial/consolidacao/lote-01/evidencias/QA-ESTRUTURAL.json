@@ -1,23 +1,23 @@
 {
-  "sha256_pdf": "89f9057b2dec370f1cb057ad7e80574ad0576fc61d54ecb357bc8ba36f5eb9e6",
-  "sha256_manuscrito": "045f5b3ba50ddaffe7c80bf3211bee22c992bbcc63fa9d48afd59599d44c27db",
+  "sha256_pdf": "adda0770179395f9e6ec498bda2910cfb50b40f1c8892320f0e67b724d8c0c17",
+  "sha256_manuscrito": "f1b040cf33a359233f575477afbc45b71a81fae8057b823438ab9c2056f59b00",
   "ok": true,
-  "verificacoes": 3492,
-  "paginas": 383,
+  "verificacoes": 3497,
+  "paginas": 384,
   "blocos": 510,
   "links_internos": 508,
-  "caracteres_pdf": 812725,
+  "caracteres_pdf": 813495,
   "checks": [
     {
       "teste": "PDF atual",
-      "obtido": "89f9057b2dec370f1cb057ad7e80574ad0576fc61d54ecb357bc8ba36f5eb9e6",
-      "esperado": "89f9057b2dec370f1cb057ad7e80574ad0576fc61d54ecb357bc8ba36f5eb9e6",
+      "obtido": "adda0770179395f9e6ec498bda2910cfb50b40f1c8892320f0e67b724d8c0c17",
+      "esperado": "adda0770179395f9e6ec498bda2910cfb50b40f1c8892320f0e67b724d8c0c17",
       "ok": true
     },
     {
       "teste": "Markdown atual",
-      "obtido": "045f5b3ba50ddaffe7c80bf3211bee22c992bbcc63fa9d48afd59599d44c27db",
-      "esperado": "045f5b3ba50ddaffe7c80bf3211bee22c992bbcc63fa9d48afd59599d44c27db",
+      "obtido": "f1b040cf33a359233f575477afbc45b71a81fae8057b823438ab9c2056f59b00",
+      "esperado": "f1b040cf33a359233f575477afbc45b71a81fae8057b823438ab9c2056f59b00",
       "ok": true
     },
     {
@@ -10977,24 +10977,6 @@
       "ok": true
     },
     {
-      "teste": "p334: destino de link 135",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p334: destino de link 136",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p334: destino de link 137",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
       "teste": "p335: texto pesquisável",
       "obtido": true,
       "esperado": true,
@@ -11022,6 +11004,24 @@
       "teste": "p335: sem raster artístico",
       "obtido": 0,
       "esperado": 0,
+      "ok": true
+    },
+    {
+      "teste": "p335: destino de link 135",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p335: destino de link 136",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p335: destino de link 137",
+      "obtido": true,
+      "esperado": true,
       "ok": true
     },
     {
@@ -11205,24 +11205,6 @@
       "ok": true
     },
     {
-      "teste": "p341: destino de link 138",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p341: destino de link 139",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p341: destino de link 140",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
       "teste": "p342: texto pesquisável",
       "obtido": true,
       "esperado": true,
@@ -11253,7 +11235,19 @@
       "ok": true
     },
     {
-      "teste": "p342: destino de link 141",
+      "teste": "p342: destino de link 138",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p342: destino de link 139",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p342: destino de link 140",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -11289,7 +11283,7 @@
       "ok": true
     },
     {
-      "teste": "p343: destino de link 142",
+      "teste": "p343: destino de link 141",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -11322,6 +11316,12 @@
       "teste": "p344: sem raster artístico",
       "obtido": 0,
       "esperado": 0,
+      "ok": true
+    },
+    {
+      "teste": "p344: destino de link 142",
+      "obtido": true,
+      "esperado": true,
       "ok": true
     },
     {
@@ -11415,12 +11415,6 @@
       "ok": true
     },
     {
-      "teste": "p347: destino de link 143",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
       "teste": "p348: texto pesquisável",
       "obtido": true,
       "esperado": true,
@@ -11448,6 +11442,12 @@
       "teste": "p348: sem raster artístico",
       "obtido": 0,
       "esperado": 0,
+      "ok": true
+    },
+    {
+      "teste": "p348: destino de link 143",
+      "obtido": true,
+      "esperado": true,
       "ok": true
     },
     {
@@ -11511,12 +11511,6 @@
       "ok": true
     },
     {
-      "teste": "p350: destino de link 144",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
       "teste": "p351: texto pesquisável",
       "obtido": true,
       "esperado": true,
@@ -11547,7 +11541,7 @@
       "ok": true
     },
     {
-      "teste": "p351: destino de link 145",
+      "teste": "p351: destino de link 144",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -11580,6 +11574,12 @@
       "teste": "p352: sem raster artístico",
       "obtido": 0,
       "esperado": 0,
+      "ok": true
+    },
+    {
+      "teste": "p352: destino de link 145",
+      "obtido": true,
+      "esperado": true,
       "ok": true
     },
     {
@@ -11763,114 +11763,6 @@
       "ok": true
     },
     {
-      "teste": "p358: destino de link 146",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p358: destino de link 147",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p358: destino de link 148",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p358: destino de link 149",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p358: destino de link 150",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p358: destino de link 151",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p358: destino de link 152",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p358: destino de link 153",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p358: destino de link 154",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p358: destino de link 155",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p358: destino de link 156",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p358: destino de link 157",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p358: destino de link 158",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p358: destino de link 159",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p358: destino de link 160",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p358: destino de link 161",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p358: destino de link 162",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p358: destino de link 163",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
       "teste": "p359: texto pesquisável",
       "obtido": true,
       "esperado": true,
@@ -11901,127 +11793,109 @@
       "ok": true
     },
     {
-      "teste": "p359: destino de link 164",
+      "teste": "p359: destino de link 146",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p359: destino de link 165",
+      "teste": "p359: destino de link 147",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p359: destino de link 166",
+      "teste": "p359: destino de link 148",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p359: destino de link 167",
+      "teste": "p359: destino de link 149",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p359: destino de link 168",
+      "teste": "p359: destino de link 150",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p359: destino de link 169",
+      "teste": "p359: destino de link 151",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p359: destino de link 170",
+      "teste": "p359: destino de link 152",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p359: destino de link 171",
+      "teste": "p359: destino de link 153",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p359: destino de link 172",
+      "teste": "p359: destino de link 154",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p359: destino de link 173",
+      "teste": "p359: destino de link 155",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p359: destino de link 174",
+      "teste": "p359: destino de link 156",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p359: destino de link 175",
+      "teste": "p359: destino de link 157",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p359: destino de link 176",
+      "teste": "p359: destino de link 158",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p359: destino de link 177",
+      "teste": "p359: destino de link 159",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p359: destino de link 178",
+      "teste": "p359: destino de link 160",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p359: destino de link 179",
+      "teste": "p359: destino de link 161",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p359: destino de link 180",
+      "teste": "p359: destino de link 162",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p359: destino de link 181",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p359: destino de link 182",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p359: destino de link 183",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p359: destino de link 184",
+      "teste": "p359: destino de link 163",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -12057,127 +11931,127 @@
       "ok": true
     },
     {
-      "teste": "p360: destino de link 185",
+      "teste": "p360: destino de link 164",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p360: destino de link 186",
+      "teste": "p360: destino de link 165",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p360: destino de link 187",
+      "teste": "p360: destino de link 166",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p360: destino de link 188",
+      "teste": "p360: destino de link 167",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p360: destino de link 189",
+      "teste": "p360: destino de link 168",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p360: destino de link 190",
+      "teste": "p360: destino de link 169",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p360: destino de link 191",
+      "teste": "p360: destino de link 170",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p360: destino de link 192",
+      "teste": "p360: destino de link 171",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p360: destino de link 193",
+      "teste": "p360: destino de link 172",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p360: destino de link 194",
+      "teste": "p360: destino de link 173",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p360: destino de link 195",
+      "teste": "p360: destino de link 174",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p360: destino de link 196",
+      "teste": "p360: destino de link 175",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p360: destino de link 197",
+      "teste": "p360: destino de link 176",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p360: destino de link 198",
+      "teste": "p360: destino de link 177",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p360: destino de link 199",
+      "teste": "p360: destino de link 178",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p360: destino de link 200",
+      "teste": "p360: destino de link 179",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p360: destino de link 201",
+      "teste": "p360: destino de link 180",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p360: destino de link 202",
+      "teste": "p360: destino de link 181",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p360: destino de link 203",
+      "teste": "p360: destino de link 182",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p360: destino de link 204",
+      "teste": "p360: destino de link 183",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p360: destino de link 205",
+      "teste": "p360: destino de link 184",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -12213,115 +12087,127 @@
       "ok": true
     },
     {
-      "teste": "p361: destino de link 206",
+      "teste": "p361: destino de link 185",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p361: destino de link 207",
+      "teste": "p361: destino de link 186",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p361: destino de link 208",
+      "teste": "p361: destino de link 187",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p361: destino de link 209",
+      "teste": "p361: destino de link 188",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p361: destino de link 210",
+      "teste": "p361: destino de link 189",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p361: destino de link 211",
+      "teste": "p361: destino de link 190",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p361: destino de link 212",
+      "teste": "p361: destino de link 191",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p361: destino de link 213",
+      "teste": "p361: destino de link 192",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p361: destino de link 214",
+      "teste": "p361: destino de link 193",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p361: destino de link 215",
+      "teste": "p361: destino de link 194",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p361: destino de link 216",
+      "teste": "p361: destino de link 195",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p361: destino de link 217",
+      "teste": "p361: destino de link 196",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p361: destino de link 218",
+      "teste": "p361: destino de link 197",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p361: destino de link 219",
+      "teste": "p361: destino de link 198",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p361: destino de link 220",
+      "teste": "p361: destino de link 199",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p361: destino de link 221",
+      "teste": "p361: destino de link 200",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p361: destino de link 222",
+      "teste": "p361: destino de link 201",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p361: destino de link 223",
+      "teste": "p361: destino de link 202",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p361: destino de link 224",
+      "teste": "p361: destino de link 203",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p361: destino de link 204",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p361: destino de link 205",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -12357,73 +12243,115 @@
       "ok": true
     },
     {
-      "teste": "p362: destino de link 225",
+      "teste": "p362: destino de link 206",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p362: destino de link 226",
+      "teste": "p362: destino de link 207",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p362: destino de link 227",
+      "teste": "p362: destino de link 208",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p362: destino de link 228",
+      "teste": "p362: destino de link 209",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p362: destino de link 229",
+      "teste": "p362: destino de link 210",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p362: destino de link 230",
+      "teste": "p362: destino de link 211",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p362: destino de link 231",
+      "teste": "p362: destino de link 212",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p362: destino de link 232",
+      "teste": "p362: destino de link 213",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p362: destino de link 233",
+      "teste": "p362: destino de link 214",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p362: destino de link 234",
+      "teste": "p362: destino de link 215",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p362: destino de link 235",
+      "teste": "p362: destino de link 216",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p362: destino de link 236",
+      "teste": "p362: destino de link 217",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p362: destino de link 218",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p362: destino de link 219",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p362: destino de link 220",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p362: destino de link 221",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p362: destino de link 222",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p362: destino de link 223",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p362: destino de link 224",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -12456,6 +12384,78 @@
       "teste": "p363: sem raster artístico",
       "obtido": 0,
       "esperado": 0,
+      "ok": true
+    },
+    {
+      "teste": "p363: destino de link 225",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p363: destino de link 226",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p363: destino de link 227",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p363: destino de link 228",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p363: destino de link 229",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p363: destino de link 230",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p363: destino de link 231",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p363: destino de link 232",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p363: destino de link 233",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p363: destino de link 234",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p363: destino de link 235",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p363: destino de link 236",
+      "obtido": true,
+      "esperado": true,
       "ok": true
     },
     {
@@ -12759,162 +12759,6 @@
       "ok": true
     },
     {
-      "teste": "p373: destino de link 237",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p373: destino de link 238",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p373: destino de link 239",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p373: destino de link 240",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p373: destino de link 241",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p373: destino de link 242",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p373: destino de link 243",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p373: destino de link 244",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p373: destino de link 245",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p373: destino de link 246",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p373: destino de link 247",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p373: destino de link 248",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p373: destino de link 249",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p373: destino de link 250",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p373: destino de link 251",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p373: destino de link 252",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p373: destino de link 253",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p373: destino de link 254",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p373: destino de link 255",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p373: destino de link 256",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p373: destino de link 257",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p373: destino de link 258",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p373: destino de link 259",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p373: destino de link 260",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p373: destino de link 261",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p373: destino de link 262",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
       "teste": "p374: texto pesquisável",
       "obtido": true,
       "esperado": true,
@@ -12945,157 +12789,157 @@
       "ok": true
     },
     {
-      "teste": "p374: destino de link 263",
+      "teste": "p374: destino de link 237",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 264",
+      "teste": "p374: destino de link 238",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 265",
+      "teste": "p374: destino de link 239",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 266",
+      "teste": "p374: destino de link 240",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 267",
+      "teste": "p374: destino de link 241",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 268",
+      "teste": "p374: destino de link 242",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 269",
+      "teste": "p374: destino de link 243",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 270",
+      "teste": "p374: destino de link 244",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 271",
+      "teste": "p374: destino de link 245",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 272",
+      "teste": "p374: destino de link 246",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 273",
+      "teste": "p374: destino de link 247",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 274",
+      "teste": "p374: destino de link 248",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 275",
+      "teste": "p374: destino de link 249",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 276",
+      "teste": "p374: destino de link 250",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 277",
+      "teste": "p374: destino de link 251",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 278",
+      "teste": "p374: destino de link 252",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 279",
+      "teste": "p374: destino de link 253",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 280",
+      "teste": "p374: destino de link 254",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 281",
+      "teste": "p374: destino de link 255",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 282",
+      "teste": "p374: destino de link 256",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 283",
+      "teste": "p374: destino de link 257",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 284",
+      "teste": "p374: destino de link 258",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 285",
+      "teste": "p374: destino de link 259",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 286",
+      "teste": "p374: destino de link 260",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 287",
+      "teste": "p374: destino de link 261",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 288",
+      "teste": "p374: destino de link 262",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -13131,157 +12975,157 @@
       "ok": true
     },
     {
-      "teste": "p375: destino de link 289",
+      "teste": "p375: destino de link 263",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 290",
+      "teste": "p375: destino de link 264",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 291",
+      "teste": "p375: destino de link 265",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 292",
+      "teste": "p375: destino de link 266",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 293",
+      "teste": "p375: destino de link 267",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 294",
+      "teste": "p375: destino de link 268",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 295",
+      "teste": "p375: destino de link 269",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 296",
+      "teste": "p375: destino de link 270",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 297",
+      "teste": "p375: destino de link 271",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 298",
+      "teste": "p375: destino de link 272",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 299",
+      "teste": "p375: destino de link 273",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 300",
+      "teste": "p375: destino de link 274",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 301",
+      "teste": "p375: destino de link 275",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 302",
+      "teste": "p375: destino de link 276",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 303",
+      "teste": "p375: destino de link 277",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 304",
+      "teste": "p375: destino de link 278",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 305",
+      "teste": "p375: destino de link 279",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 306",
+      "teste": "p375: destino de link 280",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 307",
+      "teste": "p375: destino de link 281",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 308",
+      "teste": "p375: destino de link 282",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 309",
+      "teste": "p375: destino de link 283",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 310",
+      "teste": "p375: destino de link 284",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 311",
+      "teste": "p375: destino de link 285",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 312",
+      "teste": "p375: destino de link 286",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 313",
+      "teste": "p375: destino de link 287",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 314",
+      "teste": "p375: destino de link 288",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -13317,163 +13161,157 @@
       "ok": true
     },
     {
-      "teste": "p376: destino de link 315",
+      "teste": "p376: destino de link 289",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 316",
+      "teste": "p376: destino de link 290",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 317",
+      "teste": "p376: destino de link 291",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 318",
+      "teste": "p376: destino de link 292",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 319",
+      "teste": "p376: destino de link 293",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 320",
+      "teste": "p376: destino de link 294",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 321",
+      "teste": "p376: destino de link 295",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 322",
+      "teste": "p376: destino de link 296",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 323",
+      "teste": "p376: destino de link 297",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 324",
+      "teste": "p376: destino de link 298",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 325",
+      "teste": "p376: destino de link 299",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 326",
+      "teste": "p376: destino de link 300",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 327",
+      "teste": "p376: destino de link 301",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 328",
+      "teste": "p376: destino de link 302",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 329",
+      "teste": "p376: destino de link 303",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 330",
+      "teste": "p376: destino de link 304",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 331",
+      "teste": "p376: destino de link 305",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 332",
+      "teste": "p376: destino de link 306",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 333",
+      "teste": "p376: destino de link 307",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 334",
+      "teste": "p376: destino de link 308",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 335",
+      "teste": "p376: destino de link 309",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 336",
+      "teste": "p376: destino de link 310",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 337",
+      "teste": "p376: destino de link 311",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 338",
+      "teste": "p376: destino de link 312",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 339",
+      "teste": "p376: destino de link 313",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 340",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p376: destino de link 341",
+      "teste": "p376: destino de link 314",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -13509,157 +13347,163 @@
       "ok": true
     },
     {
-      "teste": "p377: destino de link 342",
+      "teste": "p377: destino de link 315",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 343",
+      "teste": "p377: destino de link 316",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 344",
+      "teste": "p377: destino de link 317",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 345",
+      "teste": "p377: destino de link 318",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 346",
+      "teste": "p377: destino de link 319",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 347",
+      "teste": "p377: destino de link 320",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 348",
+      "teste": "p377: destino de link 321",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 349",
+      "teste": "p377: destino de link 322",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 350",
+      "teste": "p377: destino de link 323",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 351",
+      "teste": "p377: destino de link 324",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 352",
+      "teste": "p377: destino de link 325",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 353",
+      "teste": "p377: destino de link 326",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 354",
+      "teste": "p377: destino de link 327",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 355",
+      "teste": "p377: destino de link 328",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 356",
+      "teste": "p377: destino de link 329",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 357",
+      "teste": "p377: destino de link 330",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 358",
+      "teste": "p377: destino de link 331",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 359",
+      "teste": "p377: destino de link 332",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 360",
+      "teste": "p377: destino de link 333",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 361",
+      "teste": "p377: destino de link 334",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 362",
+      "teste": "p377: destino de link 335",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 363",
+      "teste": "p377: destino de link 336",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 364",
+      "teste": "p377: destino de link 337",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 365",
+      "teste": "p377: destino de link 338",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 366",
+      "teste": "p377: destino de link 339",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 367",
+      "teste": "p377: destino de link 340",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p377: destino de link 341",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -13695,163 +13539,157 @@
       "ok": true
     },
     {
-      "teste": "p378: destino de link 368",
+      "teste": "p378: destino de link 342",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 369",
+      "teste": "p378: destino de link 343",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 370",
+      "teste": "p378: destino de link 344",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 371",
+      "teste": "p378: destino de link 345",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 372",
+      "teste": "p378: destino de link 346",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 373",
+      "teste": "p378: destino de link 347",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 374",
+      "teste": "p378: destino de link 348",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 375",
+      "teste": "p378: destino de link 349",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 376",
+      "teste": "p378: destino de link 350",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 377",
+      "teste": "p378: destino de link 351",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 378",
+      "teste": "p378: destino de link 352",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 379",
+      "teste": "p378: destino de link 353",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 380",
+      "teste": "p378: destino de link 354",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 381",
+      "teste": "p378: destino de link 355",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 382",
+      "teste": "p378: destino de link 356",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 383",
+      "teste": "p378: destino de link 357",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 384",
+      "teste": "p378: destino de link 358",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 385",
+      "teste": "p378: destino de link 359",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 386",
+      "teste": "p378: destino de link 360",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 387",
+      "teste": "p378: destino de link 361",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 388",
+      "teste": "p378: destino de link 362",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 389",
+      "teste": "p378: destino de link 363",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 390",
+      "teste": "p378: destino de link 364",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 391",
+      "teste": "p378: destino de link 365",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 392",
+      "teste": "p378: destino de link 366",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 393",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p378: destino de link 394",
+      "teste": "p378: destino de link 367",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -13887,163 +13725,163 @@
       "ok": true
     },
     {
-      "teste": "p379: destino de link 395",
+      "teste": "p379: destino de link 368",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 396",
+      "teste": "p379: destino de link 369",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 397",
+      "teste": "p379: destino de link 370",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 398",
+      "teste": "p379: destino de link 371",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 399",
+      "teste": "p379: destino de link 372",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 400",
+      "teste": "p379: destino de link 373",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 401",
+      "teste": "p379: destino de link 374",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 402",
+      "teste": "p379: destino de link 375",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 403",
+      "teste": "p379: destino de link 376",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 404",
+      "teste": "p379: destino de link 377",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 405",
+      "teste": "p379: destino de link 378",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 406",
+      "teste": "p379: destino de link 379",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 407",
+      "teste": "p379: destino de link 380",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 408",
+      "teste": "p379: destino de link 381",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 409",
+      "teste": "p379: destino de link 382",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 410",
+      "teste": "p379: destino de link 383",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 411",
+      "teste": "p379: destino de link 384",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 412",
+      "teste": "p379: destino de link 385",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 413",
+      "teste": "p379: destino de link 386",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 414",
+      "teste": "p379: destino de link 387",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 415",
+      "teste": "p379: destino de link 388",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 416",
+      "teste": "p379: destino de link 389",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 417",
+      "teste": "p379: destino de link 390",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 418",
+      "teste": "p379: destino de link 391",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 419",
+      "teste": "p379: destino de link 392",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 420",
+      "teste": "p379: destino de link 393",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 421",
+      "teste": "p379: destino de link 394",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -14079,163 +13917,163 @@
       "ok": true
     },
     {
-      "teste": "p380: destino de link 422",
+      "teste": "p380: destino de link 395",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 423",
+      "teste": "p380: destino de link 396",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 424",
+      "teste": "p380: destino de link 397",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 425",
+      "teste": "p380: destino de link 398",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 426",
+      "teste": "p380: destino de link 399",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 427",
+      "teste": "p380: destino de link 400",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 428",
+      "teste": "p380: destino de link 401",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 429",
+      "teste": "p380: destino de link 402",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 430",
+      "teste": "p380: destino de link 403",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 431",
+      "teste": "p380: destino de link 404",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 432",
+      "teste": "p380: destino de link 405",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 433",
+      "teste": "p380: destino de link 406",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 434",
+      "teste": "p380: destino de link 407",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 435",
+      "teste": "p380: destino de link 408",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 436",
+      "teste": "p380: destino de link 409",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 437",
+      "teste": "p380: destino de link 410",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 438",
+      "teste": "p380: destino de link 411",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 439",
+      "teste": "p380: destino de link 412",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 440",
+      "teste": "p380: destino de link 413",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 441",
+      "teste": "p380: destino de link 414",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 442",
+      "teste": "p380: destino de link 415",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 443",
+      "teste": "p380: destino de link 416",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 444",
+      "teste": "p380: destino de link 417",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 445",
+      "teste": "p380: destino de link 418",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 446",
+      "teste": "p380: destino de link 419",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 447",
+      "teste": "p380: destino de link 420",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 448",
+      "teste": "p380: destino de link 421",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -14271,157 +14109,163 @@
       "ok": true
     },
     {
-      "teste": "p381: destino de link 449",
+      "teste": "p381: destino de link 422",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 450",
+      "teste": "p381: destino de link 423",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 451",
+      "teste": "p381: destino de link 424",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 452",
+      "teste": "p381: destino de link 425",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 453",
+      "teste": "p381: destino de link 426",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 454",
+      "teste": "p381: destino de link 427",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 455",
+      "teste": "p381: destino de link 428",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 456",
+      "teste": "p381: destino de link 429",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 457",
+      "teste": "p381: destino de link 430",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 458",
+      "teste": "p381: destino de link 431",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 459",
+      "teste": "p381: destino de link 432",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 460",
+      "teste": "p381: destino de link 433",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 461",
+      "teste": "p381: destino de link 434",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 462",
+      "teste": "p381: destino de link 435",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 463",
+      "teste": "p381: destino de link 436",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 464",
+      "teste": "p381: destino de link 437",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 465",
+      "teste": "p381: destino de link 438",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 466",
+      "teste": "p381: destino de link 439",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 467",
+      "teste": "p381: destino de link 440",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 468",
+      "teste": "p381: destino de link 441",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 469",
+      "teste": "p381: destino de link 442",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 470",
+      "teste": "p381: destino de link 443",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 471",
+      "teste": "p381: destino de link 444",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 472",
+      "teste": "p381: destino de link 445",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 473",
+      "teste": "p381: destino de link 446",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 474",
+      "teste": "p381: destino de link 447",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p381: destino de link 448",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -14457,157 +14301,157 @@
       "ok": true
     },
     {
-      "teste": "p382: destino de link 475",
+      "teste": "p382: destino de link 449",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 476",
+      "teste": "p382: destino de link 450",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 477",
+      "teste": "p382: destino de link 451",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 478",
+      "teste": "p382: destino de link 452",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 479",
+      "teste": "p382: destino de link 453",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 480",
+      "teste": "p382: destino de link 454",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 481",
+      "teste": "p382: destino de link 455",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 482",
+      "teste": "p382: destino de link 456",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 483",
+      "teste": "p382: destino de link 457",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 484",
+      "teste": "p382: destino de link 458",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 485",
+      "teste": "p382: destino de link 459",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 486",
+      "teste": "p382: destino de link 460",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 487",
+      "teste": "p382: destino de link 461",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 488",
+      "teste": "p382: destino de link 462",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 489",
+      "teste": "p382: destino de link 463",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 490",
+      "teste": "p382: destino de link 464",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 491",
+      "teste": "p382: destino de link 465",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 492",
+      "teste": "p382: destino de link 466",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 493",
+      "teste": "p382: destino de link 467",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 494",
+      "teste": "p382: destino de link 468",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 495",
+      "teste": "p382: destino de link 469",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 496",
+      "teste": "p382: destino de link 470",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 497",
+      "teste": "p382: destino de link 471",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 498",
+      "teste": "p382: destino de link 472",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 499",
+      "teste": "p382: destino de link 473",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 500",
+      "teste": "p382: destino de link 474",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -14643,57 +14487,243 @@
       "ok": true
     },
     {
-      "teste": "p383: destino de link 501",
+      "teste": "p383: destino de link 475",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p383: destino de link 502",
+      "teste": "p383: destino de link 476",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p383: destino de link 503",
+      "teste": "p383: destino de link 477",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p383: destino de link 504",
+      "teste": "p383: destino de link 478",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p383: destino de link 505",
+      "teste": "p383: destino de link 479",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p383: destino de link 506",
+      "teste": "p383: destino de link 480",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p383: destino de link 507",
+      "teste": "p383: destino de link 481",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p383: destino de link 508",
+      "teste": "p383: destino de link 482",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p383: destino de link 483",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p383: destino de link 484",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p383: destino de link 485",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p383: destino de link 486",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p383: destino de link 487",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p383: destino de link 488",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p383: destino de link 489",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p383: destino de link 490",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p383: destino de link 491",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p383: destino de link 492",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p383: destino de link 493",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p383: destino de link 494",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p383: destino de link 495",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p383: destino de link 496",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p383: destino de link 497",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p383: destino de link 498",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p383: destino de link 499",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p383: destino de link 500",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p384: texto pesquisável",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p384: caracteres dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p384: corpo acima do rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p384: fontes usadas incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "teste": "p384: sem raster artístico",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "teste": "p384: destino de link 501",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p384: destino de link 502",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p384: destino de link 503",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p384: destino de link 504",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p384: destino de link 505",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p384: destino de link 506",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p384: destino de link 507",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p384: destino de link 508",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
       "teste": "Captura confere ab",
-      "obtido": "db72eaa2768b1e59e283bbe7fc76bddf222472f9cb7343f31e53fd818856bb47",
-      "esperado": "db72eaa2768b1e59e283bbe7fc76bddf222472f9cb7343f31e53fd818856bb47",
+      "obtido": "6778c50063b3549bce9e8e5c02961ec2aec0a803ceff75844e68fe9d7729bd1e",
+      "esperado": "6778c50063b3549bce9e8e5c02961ec2aec0a803ceff75844e68fe9d7729bd1e",
       "ok": true
     },
     {
@@ -14728,8 +14758,8 @@
     },
     {
       "teste": "Captura confere progressao",
-      "obtido": "572ed1ff1b90c10754e3f86a5752dfc89556988b9de2036f76a1bc11e65860cb",
-      "esperado": "572ed1ff1b90c10754e3f86a5752dfc89556988b9de2036f76a1bc11e65860cb",
+      "obtido": "64b24f4e2f89840397cee80b2860f41af851f481bb7bb5ba121863d42d8e9a82",
+      "esperado": "64b24f4e2f89840397cee80b2860f41af851f481bb7bb5ba121863d42d8e9a82",
       "ok": true
     },
     {
@@ -14770,20 +14800,20 @@
     },
     {
       "teste": "Captura confere campo",
-      "obtido": "297d96084502eb65780b9ed2ac4f7e121a235cfdbb6e41db254f980e55393dcd",
-      "esperado": "297d96084502eb65780b9ed2ac4f7e121a235cfdbb6e41db254f980e55393dcd",
+      "obtido": "b9ee96c405359f6fe879f55dd972ca8a32cc565c8c318c241be2b73047519d38",
+      "esperado": "b9ee96c405359f6fe879f55dd972ca8a32cc565c8c318c241be2b73047519d38",
       "ok": true
     },
     {
       "teste": "Captura confere construcao",
-      "obtido": "a7a03ee48da2bd0b1b234f44e561b5c634d7248b7d64c0a702d6e157d51286a2",
-      "esperado": "a7a03ee48da2bd0b1b234f44e561b5c634d7248b7d64c0a702d6e157d51286a2",
+      "obtido": "a4c48e8a12c39294745c4f575e4db9564c99f8ee83a102a3014ea8188e48a6eb",
+      "esperado": "a4c48e8a12c39294745c4f575e4db9564c99f8ee83a102a3014ea8188e48a6eb",
       "ok": true
     },
     {
       "teste": "Captura confere fabricacao",
-      "obtido": "61920e6d08f0cae38bf03d2ed27a0e5df06dd9d4f7f780495453bd47fb29847a",
-      "esperado": "61920e6d08f0cae38bf03d2ed27a0e5df06dd9d4f7f780495453bd47fb29847a",
+      "obtido": "cd7eb01826e2d5f5ca7205eb6dbbf510cce5e67483207e5bf58aa5b350cb4dfa",
+      "esperado": "cd7eb01826e2d5f5ca7205eb6dbbf510cce5e67483207e5bf58aa5b350cb4dfa",
       "ok": true
     },
     {
@@ -14824,8 +14854,8 @@
     },
     {
       "teste": "Captura confere incursor",
-      "obtido": "b4b19ab67c310a5388c775c2c551f77d1743decfd9575b74c51de1ff3747b93f",
-      "esperado": "b4b19ab67c310a5388c775c2c551f77d1743decfd9575b74c51de1ff3747b93f",
+      "obtido": "3cadc87096d53d3056b0e4817a7a79479c34ef54b611e2601b454e70c2df748e",
+      "esperado": "3cadc87096d53d3056b0e4817a7a79479c34ef54b611e2601b454e70c2df748e",
       "ok": true
     },
     {
@@ -151530,6 +151560,28 @@
         "não",
         "se",
         "somam",
+        "o",
+        "segundo",
+        "ataque",
+        "precisa",
+        "ser",
+        "corpo",
+        "a",
+        "corpo",
+        "ou",
+        "um",
+        "arremesso",
+        "e",
+        "nunca",
+        "um",
+        "disparo",
+        "de",
+        "arma",
+        "de",
+        "fogo",
+        "ou",
+        "de",
+        "besta",
         "pode",
         "combinar",
         "ataques",
@@ -151806,6 +151858,28 @@
         "não",
         "se",
         "somam",
+        "o",
+        "segundo",
+        "ataque",
+        "precisa",
+        "ser",
+        "corpo",
+        "a",
+        "corpo",
+        "ou",
+        "um",
+        "arremesso",
+        "e",
+        "nunca",
+        "um",
+        "disparo",
+        "de",
+        "arma",
+        "de",
+        "fogo",
+        "ou",
+        "de",
+        "besta",
         "pode",
         "combinar",
         "ataques",
@@ -197811,38 +197885,43 @@
         "registre",
         "a",
         "seleção",
-        "recuperar",
-        "o",
-        "controle",
-        "de",
         "um",
         "corpo",
         "suspenso",
-        "exige",
+        "volta",
+        "ao",
+        "seu",
+        "controle",
+        "quando",
         "uma",
-        "aquisição",
+        "vaga",
+        "se",
+        "abre",
+        "porque",
+        "um",
+        "corpo",
+        "controlado",
+        "foi",
+        "destruído",
         "ou",
-        "transferência",
-        "de",
-        "vínculo",
-        "permitida",
-        "com",
-        "os",
-        "procedimentos",
-        "de",
-        "fabricação",
-        "de",
-        "entidades",
-        "e",
-        "os",
-        "limites",
-        "de",
+        "porque",
+        "seu",
+        "total",
+        "permitido",
+        "aumentou",
+        "conforme",
         "invocações",
         "em",
         "campo",
+        "soltar",
+        "um",
+        "corpo",
+        "de",
+        "propósito",
         "estar",
         "perto",
-        "dele",
+        "do",
+        "suspenso",
         "ou",
         "voltar",
         "à",
@@ -197850,7 +197929,6 @@
         "não",
         "permite",
         "alternar",
-        "gratuitamente",
         "o",
         "grupo",
         "controlado",
@@ -198157,38 +198235,43 @@
         "registre",
         "a",
         "seleção",
-        "recuperar",
-        "o",
-        "controle",
-        "de",
         "um",
         "corpo",
         "suspenso",
-        "exige",
+        "volta",
+        "ao",
+        "seu",
+        "controle",
+        "quando",
         "uma",
-        "aquisição",
+        "vaga",
+        "se",
+        "abre",
+        "porque",
+        "um",
+        "corpo",
+        "controlado",
+        "foi",
+        "destruído",
         "ou",
-        "transferência",
-        "de",
-        "vínculo",
-        "permitida",
-        "com",
-        "os",
-        "procedimentos",
-        "de",
-        "fabricação",
-        "de",
-        "entidades",
-        "e",
-        "os",
-        "limites",
-        "de",
+        "porque",
+        "seu",
+        "total",
+        "permitido",
+        "aumentou",
+        "conforme",
         "invocações",
         "em",
         "campo",
+        "soltar",
+        "um",
+        "corpo",
+        "de",
+        "propósito",
         "estar",
         "perto",
-        "dele",
+        "do",
+        "suspenso",
         "ou",
         "voltar",
         "à",
@@ -198196,7 +198279,6 @@
         "não",
         "permite",
         "alternar",
-        "gratuitamente",
         "o",
         "grupo",
         "controlado",
@@ -287349,6 +287431,50 @@
         "procedimentos",
         "de",
         "ações",
+        "para",
+        "atacar",
+        "num",
+        "revide",
+        "ou",
+        "num",
+        "ataque",
+        "comum",
+        "concedido",
+        "a",
+        "entidade",
+        "usa",
+        "a",
+        "básica",
+        "ofensiva",
+        "de",
+        "classe",
+        "0",
+        "da",
+        "ficha",
+        "ou",
+        "uma",
+        "arma",
+        "que",
+        "ela",
+        "empunhe",
+        "o",
+        "acerto",
+        "com",
+        "arma",
+        "está",
+        "em",
+        "construir",
+        "invocações",
+        "acerto",
+        "e",
+        "dificuldade",
+        "sem",
+        "nenhuma",
+        "das",
+        "duas",
+        "ela",
+        "não",
+        "ataca",
         "conhecer",
         "duas",
         "básicas",
@@ -287650,6 +287776,50 @@
         "procedimentos",
         "de",
         "ações",
+        "para",
+        "atacar",
+        "num",
+        "revide",
+        "ou",
+        "num",
+        "ataque",
+        "comum",
+        "concedido",
+        "a",
+        "entidade",
+        "usa",
+        "a",
+        "básica",
+        "ofensiva",
+        "de",
+        "classe",
+        "0",
+        "da",
+        "ficha",
+        "ou",
+        "uma",
+        "arma",
+        "que",
+        "ela",
+        "empunhe",
+        "o",
+        "acerto",
+        "com",
+        "arma",
+        "está",
+        "em",
+        "construir",
+        "invocações",
+        "acerto",
+        "e",
+        "dificuldade",
+        "sem",
+        "nenhuma",
+        "das",
+        "duas",
+        "ela",
+        "não",
+        "ataca",
         "conhecer",
         "duas",
         "básicas",
@@ -294864,9 +295034,6 @@
         "sem",
         "seu",
         "controle",
-        "até",
-        "haver",
-        "espaço",
         "não",
         "desaparecem",
         "nem",
@@ -294875,6 +295042,46 @@
         "por",
         "essa",
         "escolha",
+        "um",
+        "corpo",
+        "deixado",
+        "assim",
+        "volta",
+        "ao",
+        "seu",
+        "controle",
+        "quando",
+        "uma",
+        "vaga",
+        "se",
+        "abre",
+        "porque",
+        "um",
+        "corpo",
+        "controlado",
+        "foi",
+        "destruído",
+        "ou",
+        "porque",
+        "seu",
+        "total",
+        "permitido",
+        "aumentou",
+        "deixar",
+        "um",
+        "corpo",
+        "sem",
+        "controle",
+        "de",
+        "propósito",
+        "não",
+        "abre",
+        "vaga",
+        "para",
+        "trazer",
+        "outro",
+        "de",
+        "volta",
         "um",
         "corpo",
         "inativo",
@@ -295191,9 +295398,6 @@
         "sem",
         "seu",
         "controle",
-        "até",
-        "haver",
-        "espaço",
         "não",
         "desaparecem",
         "nem",
@@ -295202,6 +295406,46 @@
         "por",
         "essa",
         "escolha",
+        "um",
+        "corpo",
+        "deixado",
+        "assim",
+        "volta",
+        "ao",
+        "seu",
+        "controle",
+        "quando",
+        "uma",
+        "vaga",
+        "se",
+        "abre",
+        "porque",
+        "um",
+        "corpo",
+        "controlado",
+        "foi",
+        "destruído",
+        "ou",
+        "porque",
+        "seu",
+        "total",
+        "permitido",
+        "aumentou",
+        "deixar",
+        "um",
+        "corpo",
+        "sem",
+        "controle",
+        "de",
+        "propósito",
+        "não",
+        "abre",
+        "vaga",
+        "para",
+        "trazer",
+        "outro",
+        "de",
+        "volta",
         "um",
         "corpo",
         "inativo",
@@ -306179,6 +306423,52 @@
         "os",
         "da",
         "entidade",
+        "com",
+        "uma",
+        "arma",
+        "empunhada",
+        "o",
+        "ataque",
+        "usa",
+        "o",
+        "atributo",
+        "que",
+        "a",
+        "arma",
+        "pede",
+        "no",
+        "lugar",
+        "do",
+        "atributo",
+        "de",
+        "acerto",
+        "a",
+        "cd",
+        "das",
+        "habilidades",
+        "não",
+        "muda",
+        "a",
+        "entidade",
+        "não",
+        "tem",
+        "treino",
+        "em",
+        "armas",
+        "então",
+        "ataca",
+        "com",
+        "elas",
+        "com",
+        "desvantagem",
+        "o",
+        "dano",
+        "é",
+        "o",
+        "da",
+        "arma",
+        "conforme",
+        "equipamento",
         "resistências",
         "e",
         "perícias",
@@ -306439,6 +306729,52 @@
         "os",
         "da",
         "entidade",
+        "com",
+        "uma",
+        "arma",
+        "empunhada",
+        "o",
+        "ataque",
+        "usa",
+        "o",
+        "atributo",
+        "que",
+        "a",
+        "arma",
+        "pede",
+        "no",
+        "lugar",
+        "do",
+        "atributo",
+        "de",
+        "acerto",
+        "a",
+        "cd",
+        "das",
+        "habilidades",
+        "não",
+        "muda",
+        "a",
+        "entidade",
+        "não",
+        "tem",
+        "treino",
+        "em",
+        "armas",
+        "então",
+        "ataca",
+        "com",
+        "elas",
+        "com",
+        "desvantagem",
+        "o",
+        "dano",
+        "é",
+        "o",
+        "da",
+        "arma",
+        "conforme",
+        "equipamento",
         "resistências",
         "e",
         "perícias",
@@ -308362,7 +308698,21 @@
         "usada",
         "como",
         "ataque",
-        "próprio"
+        "próprio",
+        "a",
+        "outra",
+        "forma",
+        "de",
+        "atacar",
+        "é",
+        "com",
+        "uma",
+        "arma",
+        "empunhada",
+        "conforme",
+        "acerto",
+        "e",
+        "dificuldade"
       ],
       "esperado": [
         "habilidades",
@@ -308658,7 +309008,21 @@
         "usada",
         "como",
         "ataque",
-        "próprio"
+        "próprio",
+        "a",
+        "outra",
+        "forma",
+        "de",
+        "atacar",
+        "é",
+        "com",
+        "uma",
+        "arma",
+        "empunhada",
+        "conforme",
+        "acerto",
+        "e",
+        "dificuldade"
       ],
       "ok": true
     },
@@ -318493,9 +318857,12 @@
         "mundo",
         "sem",
         "controle",
-        "até",
-        "haver",
-        "espaço",
+        "e",
+        "volta",
+        "conforme",
+        "invocações",
+        "em",
+        "campo",
         "fabricar",
         "ou",
         "receber",
@@ -318852,9 +319219,12 @@
         "mundo",
         "sem",
         "controle",
-        "até",
-        "haver",
-        "espaço",
+        "e",
+        "volta",
+        "conforme",
+        "invocações",
+        "em",
+        "campo",
         "fabricar",
         "ou",
         "receber",
@@ -335206,37 +335576,37 @@
     {
       "titulo": "17. Construir invocações",
       "nivel": 1,
-      "pagina": 334,
+      "pagina": 335,
       "count": null
     },
     {
       "titulo": "Mestrar e consultar",
       "nivel": 0,
-      "pagina": 356,
+      "pagina": 357,
       "count": -4
     },
     {
       "titulo": "18. Mestrar",
       "nivel": 1,
-      "pagina": 356,
+      "pagina": 357,
       "count": null
     },
     {
       "titulo": "19. Glossário",
       "nivel": 1,
-      "pagina": 358,
+      "pagina": 359,
       "count": null
     },
     {
       "titulo": "20. Referências e fichas",
       "nivel": 1,
-      "pagina": 363,
+      "pagina": 364,
       "count": null
     },
     {
       "titulo": "21. Índice",
       "nivel": 1,
-      "pagina": 373,
+      "pagina": 374,
       "count": null
     }
   ],
@@ -336038,8 +336408,8 @@
     },
     {
       "pagina": 160,
-      "caracteres": 2220,
-      "fim_corpo": 693.12
+      "caracteres": 2328,
+      "fim_corpo": 707.12
     },
     {
       "pagina": 161,
@@ -336318,8 +336688,8 @@
     },
     {
       "pagina": 216,
-      "caracteres": 2920,
-      "fim_corpo": 730.12
+      "caracteres": 2932,
+      "fim_corpo": 744.12
     },
     {
       "pagina": 217,
@@ -336838,321 +337208,326 @@
     },
     {
       "pagina": 320,
-      "caracteres": 3456,
-      "fim_corpo": 765.52
+      "caracteres": 3272,
+      "fim_corpo": 731.72
     },
     {
       "pagina": 321,
-      "caracteres": 3272,
-      "fim_corpo": 754.72
+      "caracteres": 3183,
+      "fim_corpo": 705.52
     },
     {
       "pagina": 322,
-      "caracteres": 3182,
-      "fim_corpo": 771.32
+      "caracteres": 3215,
+      "fim_corpo": 764.12
     },
     {
       "pagina": 323,
-      "caracteres": 3330,
-      "fim_corpo": 766.72
+      "caracteres": 3270,
+      "fim_corpo": 754.72
     },
     {
       "pagina": 324,
-      "caracteres": 3137,
-      "fim_corpo": 771.32
+      "caracteres": 2866,
+      "fim_corpo": 734.52
     },
     {
       "pagina": 325,
-      "caracteres": 3572,
-      "fim_corpo": 773.72
+      "caracteres": 3109,
+      "fim_corpo": 703.07
     },
     {
       "pagina": 326,
-      "caracteres": 2969,
-      "fim_corpo": 764.79
+      "caracteres": 3306,
+      "fim_corpo": 730.32
     },
     {
       "pagina": 327,
-      "caracteres": 3046,
+      "caracteres": 2897,
       "fim_corpo": 771.32
     },
     {
       "pagina": 328,
-      "caracteres": 2889,
-      "fim_corpo": 731.32
+      "caracteres": 2757,
+      "fim_corpo": 700.47
     },
     {
       "pagina": 329,
-      "caracteres": 2684,
-      "fim_corpo": 761.92
+      "caracteres": 2825,
+      "fim_corpo": 739.52
     },
     {
       "pagina": 330,
-      "caracteres": 3295,
-      "fim_corpo": 767.72
+      "caracteres": 3019,
+      "fim_corpo": 755.12
     },
     {
       "pagina": 331,
-      "caracteres": 3248,
-      "fim_corpo": 745.92
+      "caracteres": 3182,
+      "fim_corpo": 746.92
     },
     {
       "pagina": 332,
-      "caracteres": 3292,
-      "fim_corpo": 769.72
+      "caracteres": 3268,
+      "fim_corpo": 758.92
     },
     {
       "pagina": 333,
-      "caracteres": 2865,
-      "fim_corpo": 670.66
+      "caracteres": 3020,
+      "fim_corpo": 747.32
     },
     {
       "pagina": 334,
+      "caracteres": 1530,
+      "fim_corpo": 332.06
+    },
+    {
+      "pagina": 335,
       "caracteres": 2475,
       "fim_corpo": 753.32
     },
     {
-      "pagina": 335,
+      "pagina": 336,
       "caracteres": 2297,
       "fim_corpo": 741.52
     },
     {
-      "pagina": 336,
+      "pagina": 337,
       "caracteres": 2997,
       "fim_corpo": 774.52
     },
     {
-      "pagina": 337,
+      "pagina": 338,
       "caracteres": 2618,
       "fim_corpo": 743.19
     },
     {
-      "pagina": 338,
+      "pagina": 339,
       "caracteres": 3081,
       "fim_corpo": 775.52
     },
     {
-      "pagina": 339,
-      "caracteres": 2246,
-      "fim_corpo": 717.47
+      "pagina": 340,
+      "caracteres": 2489,
+      "fim_corpo": 765.27
     },
     {
-      "pagina": 340,
+      "pagina": 341,
       "caracteres": 2077,
       "fim_corpo": 732.52
     },
     {
-      "pagina": 341,
+      "pagina": 342,
       "caracteres": 2103,
       "fim_corpo": 751.32
     },
     {
-      "pagina": 342,
-      "caracteres": 2266,
-      "fim_corpo": 760.12
+      "pagina": 343,
+      "caracteres": 2347,
+      "fim_corpo": 774.12
     },
     {
-      "pagina": 343,
+      "pagina": 344,
       "caracteres": 2349,
       "fim_corpo": 746.52
     },
     {
-      "pagina": 344,
+      "pagina": 345,
       "caracteres": 1863,
       "fim_corpo": 754.79
     },
     {
-      "pagina": 345,
+      "pagina": 346,
       "caracteres": 2713,
       "fim_corpo": 756.52
     },
     {
-      "pagina": 346,
+      "pagina": 347,
       "caracteres": 2891,
       "fim_corpo": 744.32
     },
     {
-      "pagina": 347,
+      "pagina": 348,
       "caracteres": 2251,
       "fim_corpo": 725.19
     },
     {
-      "pagina": 348,
+      "pagina": 349,
       "caracteres": 2493,
       "fim_corpo": 763.72
     },
     {
-      "pagina": 349,
+      "pagina": 350,
       "caracteres": 2505,
       "fim_corpo": 746.32
     },
     {
-      "pagina": 350,
+      "pagina": 351,
       "caracteres": 2116,
       "fim_corpo": 708.72
     },
     {
-      "pagina": 351,
+      "pagina": 352,
       "caracteres": 2580,
       "fim_corpo": 759.39
     },
     {
-      "pagina": 352,
+      "pagina": 353,
       "caracteres": 2986,
       "fim_corpo": 760.52
     },
     {
-      "pagina": 353,
+      "pagina": 354,
       "caracteres": 2706,
       "fim_corpo": 760.79
     },
     {
-      "pagina": 354,
-      "caracteres": 3308,
+      "pagina": 355,
+      "caracteres": 3328,
       "fim_corpo": 751.12
     },
     {
-      "pagina": 355,
+      "pagina": 356,
       "caracteres": 2082,
       "fim_corpo": 550.52
     },
     {
-      "pagina": 356,
+      "pagina": 357,
       "caracteres": 2704,
       "fim_corpo": 769.52
     },
     {
-      "pagina": 357,
+      "pagina": 358,
       "caracteres": 3174,
       "fim_corpo": 744.52
     },
     {
-      "pagina": 358,
+      "pagina": 359,
       "caracteres": 2836,
       "fim_corpo": 763.32
     },
     {
-      "pagina": 359,
+      "pagina": 360,
       "caracteres": 3179,
       "fim_corpo": 771.92
     },
     {
-      "pagina": 360,
+      "pagina": 361,
       "caracteres": 3126,
       "fim_corpo": 771.92
     },
     {
-      "pagina": 361,
+      "pagina": 362,
       "caracteres": 2880,
       "fim_corpo": 773.32
     },
     {
-      "pagina": 362,
+      "pagina": 363,
       "caracteres": 1804,
       "fim_corpo": 452.32
     },
     {
-      "pagina": 363,
+      "pagina": 364,
       "caracteres": 2137,
       "fim_corpo": 754.72
     },
     {
-      "pagina": 364,
+      "pagina": 365,
       "caracteres": 1016,
       "fim_corpo": 340.52
     },
     {
-      "pagina": 365,
+      "pagina": 366,
       "caracteres": 1708,
       "fim_corpo": 494.32
     },
     {
-      "pagina": 366,
+      "pagina": 367,
       "caracteres": 1770,
       "fim_corpo": 728.12
     },
     {
-      "pagina": 367,
+      "pagina": 368,
       "caracteres": 2078,
       "fim_corpo": 721.72
     },
     {
-      "pagina": 368,
+      "pagina": 369,
       "caracteres": 2140,
       "fim_corpo": 722.92
     },
     {
-      "pagina": 369,
+      "pagina": 370,
       "caracteres": 1849,
       "fim_corpo": 700.92
     },
     {
-      "pagina": 370,
+      "pagina": 371,
       "caracteres": 1899,
       "fim_corpo": 733.92
     },
     {
-      "pagina": 371,
+      "pagina": 372,
       "caracteres": 1977,
       "fim_corpo": 762.52
     },
     {
-      "pagina": 372,
+      "pagina": 373,
       "caracteres": 2138,
       "fim_corpo": 738.52
     },
     {
-      "pagina": 373,
+      "pagina": 374,
       "caracteres": 1202,
       "fim_corpo": 670.99
     },
     {
-      "pagina": 374,
+      "pagina": 375,
       "caracteres": 1309,
       "fim_corpo": 625.99
     },
     {
-      "pagina": 375,
+      "pagina": 376,
       "caracteres": 1468,
       "fim_corpo": 625.99
     },
     {
-      "pagina": 376,
+      "pagina": 377,
       "caracteres": 1500,
       "fim_corpo": 637.79
     },
     {
-      "pagina": 377,
+      "pagina": 378,
       "caracteres": 1299,
       "fim_corpo": 625.99
     },
     {
-      "pagina": 378,
+      "pagina": 379,
       "caracteres": 1390,
       "fim_corpo": 637.79
     },
     {
-      "pagina": 379,
+      "pagina": 380,
       "caracteres": 1289,
       "fim_corpo": 637.79
     },
     {
-      "pagina": 380,
+      "pagina": 381,
       "caracteres": 1270,
       "fim_corpo": 637.79
     },
     {
-      "pagina": 381,
+      "pagina": 382,
       "caracteres": 1190,
       "fim_corpo": 625.99
     },
     {
-      "pagina": 382,
+      "pagina": 383,
       "caracteres": 1223,
       "fim_corpo": 625.99
     },
     {
-      "pagina": 383,
+      "pagina": 384,
       "caracteres": 454,
       "fim_corpo": 269.59
     }

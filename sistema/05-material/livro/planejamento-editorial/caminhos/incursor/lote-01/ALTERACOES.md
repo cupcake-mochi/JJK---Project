@@ -208,3 +208,11 @@
 **Depois:** Os treinos entram na criação. Adquira as armas e cumpra os requisitos de cada uma.
 
 **Motivo:** a redação anterior podia sugerir proibição geral de usar armas sem treino. Ajuste editorial solicitado na revisão independente; nenhuma propriedade ou penalidade alterada.
+
+## INC-22 — M decisão do autor
+
+**Antes:** Pode combinar ataques corpo a corpo e arremessos, usar a mesma arma ou armas diferentes e atacar a mesma criatura ou criaturas diferentes.
+
+**Depois:** O segundo ataque precisa ser corpo a corpo ou um arremesso, e nunca um disparo de arma de fogo ou de besta. Pode combinar ataques corpo a corpo e arremessos, usar a mesma arma ou armas diferentes e atacar a mesma criatura ou criaturas diferentes.
+
+**Motivo:** Decisão do Mizuki em 04/10/2026, achado G3-07 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md).

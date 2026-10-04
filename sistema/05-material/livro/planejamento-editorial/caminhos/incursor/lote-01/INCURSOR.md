@@ -575,7 +575,7 @@ Durante seu turno, pode realizar **duas manipulações gratuitas de itens, em ve
 
 Ao realizar a **Ação Atacar**, pode gastar **3 PE antes do primeiro ataque** para realizar **dois ataques com armas de uma mão**, em vez do ataque único normalmente disponível. Se outra regra já conceder mais ataques nessa ação, use a maior quantidade; as quantidades não se somam.
 
-Pode combinar ataques corpo a corpo e arremessos, usar a mesma arma ou armas diferentes e atacar a mesma criatura ou criaturas diferentes. Cada ataque é resolvido separadamente, com seu dano e seus requisitos normais. Adicionais de dano permanecem sujeitos às próprias regras.
+O segundo ataque precisa ser corpo a corpo ou um arremesso, e nunca um disparo de arma de fogo ou de besta. Pode combinar ataques corpo a corpo e arremessos, usar a mesma arma ou armas diferentes e atacar a mesma criatura ou criaturas diferentes. Cada ataque é resolvido separadamente, com seu dano e seus requisitos normais. Adicionais de dano permanecem sujeitos às próprias regras.
 
 Sua Ação Bônus permanece disponível. Essa execução não exige Fluidez.
 

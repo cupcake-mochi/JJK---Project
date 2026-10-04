@@ -11,8 +11,8 @@
   "fontes": {
     "ab": {
       "arquivo": "abertura/lote-01/ABERTURA-E-CRIACAO.md",
-      "sha256_lido": "db72eaa2768b1e59e283bbe7fc76bddf222472f9cb7343f31e53fd818856bb47",
-      "sha256_no_fim": "db72eaa2768b1e59e283bbe7fc76bddf222472f9cb7343f31e53fd818856bb47"
+      "sha256_lido": "6778c50063b3549bce9e8e5c02961ec2aec0a803ceff75844e68fe9d7729bd1e",
+      "sha256_no_fim": "6778c50063b3549bce9e8e5c02961ec2aec0a803ceff75844e68fe9d7729bd1e"
     },
     "geral": {
       "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
@@ -41,8 +41,8 @@
     },
     "progressao": {
       "arquivo": "progressao/lote-01/PROGRESSAO.md",
-      "sha256_lido": "572ed1ff1b90c10754e3f86a5752dfc89556988b9de2036f76a1bc11e65860cb",
-      "sha256_no_fim": "572ed1ff1b90c10754e3f86a5752dfc89556988b9de2036f76a1bc11e65860cb"
+      "sha256_lido": "64b24f4e2f89840397cee80b2860f41af851f481bb7bb5ba121863d42d8e9a82",
+      "sha256_no_fim": "64b24f4e2f89840397cee80b2860f41af851f481bb7bb5ba121863d42d8e9a82"
     },
     "fundamento": {
       "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
@@ -76,18 +76,18 @@
     },
     "campo": {
       "arquivo": "invocacoes/lote-01/INVOCACOES-EM-CAMPO.md",
-      "sha256_lido": "297d96084502eb65780b9ed2ac4f7e121a235cfdbb6e41db254f980e55393dcd",
-      "sha256_no_fim": "297d96084502eb65780b9ed2ac4f7e121a235cfdbb6e41db254f980e55393dcd"
+      "sha256_lido": "b9ee96c405359f6fe879f55dd972ca8a32cc565c8c318c241be2b73047519d38",
+      "sha256_no_fim": "b9ee96c405359f6fe879f55dd972ca8a32cc565c8c318c241be2b73047519d38"
     },
     "construcao": {
       "arquivo": "invocacoes/lote-02/CONSTRUIR-INVOCACOES.md",
-      "sha256_lido": "a7a03ee48da2bd0b1b234f44e561b5c634d7248b7d64c0a702d6e157d51286a2",
-      "sha256_no_fim": "a7a03ee48da2bd0b1b234f44e561b5c634d7248b7d64c0a702d6e157d51286a2"
+      "sha256_lido": "a4c48e8a12c39294745c4f575e4db9564c99f8ee83a102a3014ea8188e48a6eb",
+      "sha256_no_fim": "a4c48e8a12c39294745c4f575e4db9564c99f8ee83a102a3014ea8188e48a6eb"
     },
     "fabricacao": {
       "arquivo": "invocacoes/fabricacao/lote-01/FABRICACAO-DE-ENTIDADES.md",
-      "sha256_lido": "61920e6d08f0cae38bf03d2ed27a0e5df06dd9d4f7f780495453bd47fb29847a",
-      "sha256_no_fim": "61920e6d08f0cae38bf03d2ed27a0e5df06dd9d4f7f780495453bd47fb29847a"
+      "sha256_lido": "cd7eb01826e2d5f5ca7205eb6dbbf510cce5e67483207e5bf58aa5b350cb4dfa",
+      "sha256_no_fim": "cd7eb01826e2d5f5ca7205eb6dbbf510cce5e67483207e5bf58aa5b350cb4dfa"
     },
     "consulta": {
       "arquivo": "consulta/lote-01/CONSULTA.md",
@@ -121,8 +121,8 @@
     },
     "incursor": {
       "arquivo": "caminhos/incursor/lote-01/INCURSOR.md",
-      "sha256_lido": "b4b19ab67c310a5388c775c2c551f77d1743decfd9575b74c51de1ff3747b93f",
-      "sha256_no_fim": "b4b19ab67c310a5388c775c2c551f77d1743decfd9575b74c51de1ff3747b93f"
+      "sha256_lido": "3cadc87096d53d3056b0e4817a7a79479c34ef54b611e2601b454e70c2df748e",
+      "sha256_no_fim": "3cadc87096d53d3056b0e4817a7a79479c34ef54b611e2601b454e70c2df748e"
     }
   },
   "fontes_mudaram_durante_geracao": [],
@@ -135,29 +135,29 @@
   "partes": 5,
   "capitulos": 21,
   "caminhos": 6,
-  "paginas": 383,
+  "paginas": 384,
   "passagens": [
     {
       "passagem": 1,
-      "paginas": 382,
+      "paginas": 383,
       "destinos": 536,
       "mapa_estavel": false
     },
     {
       "passagem": 2,
-      "paginas": 383,
+      "paginas": 384,
       "destinos": 536,
       "mapa_estavel": false
     },
     {
       "passagem": 3,
-      "paginas": 383,
+      "paginas": 384,
       "destinos": 536,
       "mapa_estavel": true
     }
   ],
   "destinos_pendentes": 0,
-  "sha256_manuscrito": "045f5b3ba50ddaffe7c80bf3211bee22c992bbcc63fa9d48afd59599d44c27db",
-  "sha256_pdf": "89f9057b2dec370f1cb057ad7e80574ad0576fc61d54ecb357bc8ba36f5eb9e6",
+  "sha256_manuscrito": "f1b040cf33a359233f575477afbc45b71a81fae8057b823438ab9c2056f59b00",
+  "sha256_pdf": "adda0770179395f9e6ec498bda2910cfb50b40f1c8892320f0e67b724d8c0c17",
   "V14": "não executado: requer inspeção visual de todas as páginas finais"
 }

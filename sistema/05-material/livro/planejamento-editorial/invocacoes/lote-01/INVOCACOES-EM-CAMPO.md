@@ -111,6 +111,8 @@ A tarefa incluída numa troca e a orientação posterior de uma especial precisa
 
 A entidade usa sua atuação básica para uma capacidade básica conhecida ou para uma ação comum que seu corpo consiga executar. Atacar, Correr, Desengajar, Esquivar, Esconder, Ajudar, Vasculhar, Estudar e Usar um Objeto seguem os procedimentos de **Ações**.
 
+Para Atacar, num revide ou num ataque comum concedido, a entidade usa a **básica ofensiva de Classe 0** da ficha ou uma **arma que ela empunhe**. O acerto com arma está em **Construir invocações — Acerto e dificuldade**. Sem nenhuma das duas, ela não ataca.
+
 Conhecer duas básicas não permite executar ambas no mesmo ciclo. Correr usa a básica; não sobra um ataque depois. Ajudar exige uma contribuição real. Para ajudar uma especial, uma entidade gasta sua básica na ajuda e a executora gasta a própria básica na especial. Várias ajudas não acumulam vantagens.
 
 Uma ação comum de Bônus disponível à entidade também pode ser paga com sua básica. Isso não lhe cria uma Bônus independente nem concede habilidades de personagem. Uma proibição de usar Bônus continua valendo nessa substituição.
@@ -342,7 +344,7 @@ Corpos amaldiçoados não são recolhidos, sejam de técnica ou de criação. Fi
 
 Você pode manter um **total de corpos igual ao atributo escolhido para a Defesa das entidades + sua capacidade de entidades ativas**. Conte juntos os corpos ativos e inativos. Para essa conta, use a maior capacidade que seu Caminho permite em combate. Ativar ou desativar um corpo não muda esse total. O limite de entidades que podem agir ao mesmo tempo continua valendo.
 
-Com atributo 3 e capacidade de duas entidades, por exemplo, pode manter cinco corpos: dois ativos e três inativos, ou todos os cinco inativos depois da luta. Corpos adicionais precisam ser deixados sem seu controle até haver espaço. Não desaparecem nem são destruídos por essa escolha.
+Com atributo 3 e capacidade de duas entidades, por exemplo, pode manter cinco corpos: dois ativos e três inativos, ou todos os cinco inativos depois da luta. Corpos adicionais precisam ser deixados sem seu controle. Não desaparecem nem são destruídos por essa escolha. Um corpo deixado assim volta ao seu controle quando uma vaga se abre porque um corpo controlado foi destruído ou porque seu total permitido aumentou. Deixar um corpo sem controle de propósito não abre vaga para trazer outro de volta.
 
 Um corpo inativo conserva vida, Defesa e posição. Pode andar para acompanhar você, mas **falha em toda rolagem, não age e não recebe tarefa**. Interpretação e trabalhos extremamente simples que não exijam rolagem são possíveis. Não podem substituir testes, lutar ou executar capacidades.
 

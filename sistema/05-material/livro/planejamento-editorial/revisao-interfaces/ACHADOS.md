@@ -18,30 +18,27 @@ Cada relatório traz, por achado, os dois trechos que não fecham, o problema, u
 
 ## Resumo
 
-51 achados. 17 corrigidos nesta rodada e 2 corrigidos em parte, todos do tipo "nome, custo ou remissão divergindo de uma regra já aprovada em outro capítulo". Os outros 32 ficaram como estavam, porque pedem uma decisão de regra, de nome ou de redação, ou porque falta escrever uma regra que nenhum capítulo tem.
+51 achados. 17 corrigidos na primeira passada e 2 corrigidos em parte, todos do tipo "nome, custo ou remissão divergindo de uma regra já aprovada em outro capítulo". Seis dessas correções (C01, C07, C09, C10, C13 e C14) mudam o resultado na mesa para quem lia só o capítulo corrigido; `CORRECOES-APLICADAS.md` diz o que muda em cada uma. Na segunda passada, o Mizuki decidiu 4 (G2-03, G2-04, G3-07 e G4-01), e as decisões foram aplicadas. Os outros 28 ficaram como estavam, porque pedem uma decisão de regra, de nome ou de redação, ou porque falta escrever uma regra que nenhum capítulo tem.
 
 O antes, o depois e o motivo de cada correção estão em `CORRECOES-APLICADAS.md`.
 
 ## O que precisa do Mizuki
 
-Ordenado pelo peso em mesa. Os quatro primeiros mudam número ou o que a ficha consegue fazer.
+Ordenado pelo peso em mesa. As quatro decisões de 04/10 (besta, pistola, ataque da entidade e corpos) já estão aplicadas e saíram desta lista.
 
-1. **G4-01 · Besta com capacidade 1.** A peça 14 mediu e proibiu capacidade 1, porque com Ataque Extra a única recarga por Ação Bônus não alcança. O livro adotou 1 para as duas bestas, sem registro nas alterações finais. Voltar a 2, ou manter 1 e registrar a decisão.
-2. **G3-07 · Ofensiva em Movimento com pistola.** Pelo texto, dá dois disparos de pistola por 3 PE. A identidade da Trilha aponta para corpo a corpo e arremesso. Restringir ou permitir por escrito.
-3. **G2-04 · Com que a entidade ataca.** Invocações em campo deixa a entidade usar Atacar e receber Golpe concedido; Construir invocações diz que ela não tem ataque por padrão. Falta dizer qual ataque ela usa.
-4. **G2-03 · Retomar corpos excedentes.** Campo e Fabricação dizem "até haver espaço"; Progressão (PRO34) pede aquisição. Escolher uma.
-5. **G1-05 · Ordem da queda.** Ainda de Pé depois de Aguentar, e Ainda Há Tempo antes ou depois da escolha. Decide se a perda de 1/8 da vida máxima do Insistir acontece.
-6. **G1-07 · Feito 8 do limiar.** Depois de DR13 ele só cobre dano de Alma e ficou fora do filtro de ameaça real. Escolher o alcance.
-7. **G4-07 · Batedor: Arma de Fogo no nível 2.** A arma depende de uma autorização que a criação não dá. A Trilha concede ou o mestre confirma antes.
-8. **G3-03, G3-04, G3-05 · Três ordens pequenas da Fluidez e do Malabarista.** Acúmulo de saques gratuitos, Fluidez antes do primeiro turno e momento do Instante Decisivo contra o Bloquear.
-9. **G5-02 e G5-10 · Nomes.** "Calo — Livre" ficou com o rótulo antigo, e o Emanador reaproveita "Impulso" e a família "Expressão".
-10. **G1-02 · Tipo do dano da Cisão.** Se continua com o tipo da arma ou vira dano de Alma.
+1. **Besta com Combate Irregular.** Com a besta em capacidade 1, o Combate Irregular (Batedor: Arma de Fogo) leva a besta a 2 e ela volta a servir no ataque extra para esse personagem. Decidir se a habilidade vale para besta. Detalhe em C06, em `CORRECOES-APLICADAS.md`.
+2. **G1-05 · Ordem da queda.** Ainda de Pé depois de Aguentar, e Ainda Há Tempo antes ou depois da escolha. Decide se a perda de 1/8 da vida máxima do Insistir acontece.
+3. **G1-07 · Feito 8 do limiar.** Depois de DR13 ele só cobre dano de Alma e ficou fora do filtro de ameaça real. Escolher o alcance.
+4. **G4-07 · Batedor: Arma de Fogo no nível 2.** A arma depende de uma autorização que a criação não dá. A Trilha concede ou o mestre confirma antes.
+5. **G3-03, G3-04, G3-05 · Três ordens pequenas da Fluidez e do Malabarista.** Acúmulo de saques gratuitos, Fluidez antes do primeiro turno e momento do Instante Decisivo contra o Bloquear.
+6. **G5-02 e G5-10 · Nomes.** "Calo — Livre" ficou com o rótulo antigo, e o Emanador reaproveita "Impulso" e a família "Expressão".
+7. **G1-02 · Tipo do dano da Cisão.** Se continua com o tipo da arma ou vira dano de Alma.
 
 Os casos de mesa que medem as lacunas abertas estão nos casos-sonda de `../testes-com-leitores/CASOS-SONDA.md`.
 
 ## Todos os achados
 
-Situação: **corrigido** (com o código da correção), **decisão** (regra, nome ou redação que é do autor), **lacuna** (falta escrever uma regra; o dono provável está na coluna), **remissão** (o destino precisa ser nomeado ou criado).
+Situação: **corrigido** (com o código da correção), **decidido** (o autor escolheu, com o código da aplicação), **decisão** (regra, nome ou redação que é do autor), **lacuna** (falta escrever uma regra; o dono provável está na coluna), **remissão** (o destino precisa ser nomeado ou criado).
 
 | Achado | Assunto | Tipo | Situação | Dono |
 |---|---|---|---|---|
@@ -54,8 +51,8 @@ Situação: **corrigido** (com o código da correção), **decisão** (regra, no
 | G1-07 | Feito 8 mudou de alcance com DR13 | decisão de regra | decisão | Progressão |
 | G2-01 | "Ação Completa" sem definição no capítulo dono | inconsistência | corrigido (C04) | Regras gerais |
 | G2-02 | Domada que não pode ser recolhida | lacuna | lacuna | Invocações em campo |
-| G2-03 | Retomar corpos excedentes | decisão de regra | decisão | Invocações em campo, Fabricação, Progressão |
-| G2-04 | Que ataque a entidade usa | decisão de regra | decisão | Invocações em campo |
+| G2-03 | Retomar corpos excedentes | decisão de regra | decidido e aplicado (D03, D03b, D03c): volta com trava | Invocações em campo, Fabricação, Progressão |
+| G2-04 | Que ataque a entidade usa | decisão de regra | decidido e aplicado (D02, D02b): Classe 0 ou arma | Invocações em campo, Construir invocações |
 | G2-05 | Concentração da entidade que sai de campo ou cai | lacuna | lacuna | Invocações em campo |
 | G2-06 | Retorno de entidade caída numa troca | lacuna | lacuna | Invocações em campo |
 | G2-07 | Limite de carga, passageiros e montaria da entidade | lacuna | lacuna (junto com G4-10) | Invocações em campo |
@@ -68,9 +65,9 @@ Situação: **corrigido** (com o código da correção), **decisão** (regra, no
 | G3-04 | Fluidez e Passo Guardado antes do primeiro turno | lacuna | decisão pequena | Incursor |
 | G3-05 | Instante Decisivo contra o Bloquear | lacuna | decisão pequena | Incursor |
 | G3-06 | "Arma apropriada para arremesso" sem termo no Equipamento | remissão | decisão (qual termo) | Incursor |
-| G3-07 | Ofensiva em Movimento com armas de fogo | decisão de regra | decisão | Incursor |
+| G3-07 | Ofensiva em Movimento com armas de fogo | decisão de regra | decidido e aplicado (D01): segundo ataque corpo a corpo ou arremesso | Incursor |
 | G3-08 | Glossário: Leve sem a propriedade de arma | inconsistência | corrigido (C03) | Consulta |
-| G4-01 | Besta com capacidade 1 contra a peça | decisão de regra | decisão | Equipamento, peça 14 |
+| G4-01 | Besta com capacidade 1 contra a peça | decisão de regra | decidido: mantém 1, registrado em EQ25; a peça 14 muda na migração | Equipamento, peça 14 |
 | G4-02 | Vanguarda usa um "X" que o Equipamento não define | inconsistência | corrigido (C06) | Vanguarda |
 | G4-03 | Treino em arma específica não reconhecido | inconsistência | corrigido (C07) | Equipamento |
 | G4-04 | Remissões para títulos inexistentes | remissão | corrigido (C08, C08b, C08c, C08d) | vários |
@@ -107,4 +104,6 @@ O critério desta rodada foi corrigir sozinho só o que diverge de uma regra já
 
 ## Situação do validador editorial
 
-Dos 11 manuscritos que esta rodada mudou, 6 tinham a revisão de localização (`LOCALIZACAO-EDITORIAL.json`) em dia na `main`, e ela caiu porque o hash do texto mudou. Os trechos trocados foram relidos, todos os achados do validador coincidem com exceções já revisadas, e a revisão foi renovada com o registro `revisao_delta_2026_10_04` em cada arquivo. Os outros 5 (Incursor, Catálogo, Equipamento, Construir invocações e Regras gerais) **já estavam com a revisão desatualizada na `main`**, antes desta rodada, e continuam assim. Renovar esses 5 pede uma releitura inteira de cada capítulo, que não foi feita aqui. Detalhes em `CORRECOES-APLICADAS.md`.
+Os 13 capítulos que esta rodada mudou passam no `conferir_editorial.py` sem achado e no validador da própria unidade. Cinco deles (Incursor, Catálogo, Equipamento, Construir invocações e Regras gerais) já estavam vermelhos na `main`, com a revisão de localização feita sobre uma versão de antes do fechamento da integração. O diff dessa versão até a `main` é só redação de remissão, e foi relido junto com as correções. Consulta e Fabricação também estavam vermelhas na `main` e ganharam o cotejo das fontes que mudaram. Tudo com antes, depois e motivo em `CORRECOES-APLICADAS.md`.
+
+Aptidões, Fundamento, Origens, Perícias e Poderes avançados continuam vermelhos como na `main`. Nenhuma correção passou por eles.

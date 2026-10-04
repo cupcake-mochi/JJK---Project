@@ -67,7 +67,7 @@ O critério de "certo" está escrito antes do teste. O facilitador não ajusta o
 
 **T12 · Continuação do Malabarista.** *Use esta ficha de Malabarista de nível 2 (entregue uma ficha montada). Descreva um turno em que ele usa uma continuação. O que ele gasta e quantas vezes pode fazer isso?*
 - Certo: definido pela ficha entregue; a referência é a tabela de **Continuações** e o limite de uma continuação compartilhada por turno.
-- Antes de usar: montar a ficha e escrever o gabarito exato com quem conhece a Trilha. Não usar arma de fogo na ficha (achado G3-07 em aberto).
+- Antes de usar: montar a ficha e escrever o gabarito exato com quem conhece a Trilha. Se a ficha tiver arma de fogo, o gabarito inclui que o segundo ataque da Ofensiva em Movimento precisa ser corpo a corpo ou arremesso (decisão de 04/10, achado G3-07).
 
 *Fora deste bloco por enquanto:* Fluidez antes do primeiro turno do combate, momento do Instante Decisivo em relação ao Bloquear, e acúmulo de manipulações gratuitas (achados G3-03 a G3-05).
 

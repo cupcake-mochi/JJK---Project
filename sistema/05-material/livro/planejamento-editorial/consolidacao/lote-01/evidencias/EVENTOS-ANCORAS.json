@@ -1477,7 +1477,7 @@
   {
     "ancora": "progressao--prog-ritmo",
     "pagina": 216,
-    "y": 406.36
+    "y": 392.36
   },
   {
     "ancora": "progressao--prog-guilda",
@@ -2222,461 +2222,461 @@
   {
     "ancora": "campo--inv-especial",
     "pagina": 320,
-    "y": 228.96
+    "y": 181.16
   },
   {
     "ancora": "campo--inv-energia",
     "pagina": 321,
-    "y": 598.76
+    "y": 517.16
   },
   {
     "ancora": "campo--inv-antecipada",
-    "pagina": 321,
-    "y": 205.96
+    "pagina": 322,
+    "y": 776.36
   },
   {
     "ancora": "campo--inv-pendentes",
     "pagina": 322,
-    "y": 525.36
+    "y": 401.76
   },
   {
     "ancora": "campo--inv-preparar",
-    "pagina": 322,
-    "y": 141.56
+    "pagina": 323,
+    "y": 721.36
   },
   {
     "ancora": "campo--inv-gatilhos",
     "pagina": 323,
-    "y": 494.16
+    "y": 363.36
   },
   {
     "ancora": "campo--inv-tempo",
-    "pagina": 323,
-    "y": 132.16
+    "pagina": 324,
+    "y": 695.36
   },
   {
     "ancora": "campo--inv-restricoes-tempo",
     "pagina": 324,
-    "y": 438.96
+    "y": 296.16
   },
   {
     "ancora": "campo--inv-armado",
     "pagina": 325,
-    "y": 646.56
+    "y": 469.16
   },
   {
     "ancora": "campo--inv-defesa",
-    "pagina": 325,
-    "y": 296.56
+    "pagina": 326,
+    "y": 776.36
   },
   {
     "ancora": "campo--inv-respostas",
     "pagina": 326,
-    "y": 674.56
+    "y": 441.36
   },
   {
     "ancora": "campo--inv-talisma",
-    "pagina": 326,
-    "y": 271.96
+    "pagina": 327,
+    "y": 708.36
   },
   {
     "ancora": "campo--inv-corpos",
     "pagina": 327,
-    "y": 572.16
+    "y": 326.96
   },
   {
     "ancora": "campo--inv-reparo",
-    "pagina": 327,
-    "y": 189.36
+    "pagina": 328,
+    "y": 612.76
   },
   {
     "ancora": "campo--inv-liberacao",
-    "pagina": 328,
-    "y": 408.96
+    "pagina": 329,
+    "y": 776.36
   },
   {
     "ancora": "campo--inv-maxima",
     "pagina": 329,
-    "y": 660.56
+    "y": 357.36
   },
   {
     "ancora": "campo--inv-dominio",
-    "pagina": 329,
-    "y": 284.96
+    "pagina": 330,
+    "y": 660.56
   },
   {
     "ancora": "campo--inv-queda",
     "pagina": 330,
-    "y": 550.96
+    "y": 225.36
   },
   {
     "ancora": "campo--inv-retorno",
-    "pagina": 330,
-    "y": 192.96
+    "pagina": 331,
+    "y": 561.76
   },
   {
     "ancora": "campo--inv-fora",
     "pagina": 331,
-    "y": 551.96
+    "y": 213.76
   },
   {
     "ancora": "campo--inv-inconsciente",
-    "pagina": 331,
-    "y": 214.76
+    "pagina": 332,
+    "y": 562.76
   },
   {
     "ancora": "campo--inv-manutencao",
     "pagina": 332,
-    "y": 524.96
+    "y": 187.76
   },
   {
     "ancora": "campo--inv-morte",
-    "pagina": 332,
-    "y": 190.96
+    "pagina": 333,
+    "y": 551.96
   },
   {
     "ancora": "campo--inv-carga",
     "pagina": 333,
-    "y": 499.56
+    "y": 151.56
   },
   {
     "ancora": "capitulo-17",
-    "pagina": 334,
+    "pagina": 335,
     "y": 776.36
   },
   {
     "ancora": "construcao--entidades-criar",
-    "pagina": 334,
+    "pagina": 335,
     "y": 731.36
   },
   {
     "ancora": "construcao--entidades-aquisicao",
-    "pagina": 334,
+    "pagina": 335,
     "y": 354.76
   },
   {
     "ancora": "construcao--entidade-cao",
-    "pagina": 335,
+    "pagina": 336,
     "y": 578.96
   },
   {
     "ancora": "construcao--entidade-cao-habilidades",
-    "pagina": 336,
+    "pagina": 337,
     "y": 776.36
   },
   {
     "ancora": "construcao--entidades-lista-criacao",
-    "pagina": 336,
+    "pagina": 337,
     "y": 373.76
   },
   {
     "ancora": "construcao--entidades-domar",
-    "pagina": 337,
+    "pagina": 338,
     "y": 673.56
   },
   {
     "ancora": "construcao--entidades-tipos",
-    "pagina": 337,
+    "pagina": 338,
     "y": 249.36
   },
   {
     "ancora": "construcao--entidades-definicao",
-    "pagina": 338,
+    "pagina": 339,
     "y": 477.56
   },
   {
     "ancora": "construcao--entidades-atributos",
-    "pagina": 339,
+    "pagina": 340,
     "y": 776.36
   },
   {
     "ancora": "construcao--entidades-vida-defesa",
-    "pagina": 339,
-    "y": 323.96
+    "pagina": 340,
+    "y": 276.16
   },
   {
     "ancora": "construcao--entidades-progressao",
-    "pagina": 340,
+    "pagina": 341,
     "y": 515.96
   },
   {
     "ancora": "construcao--entidades-familias",
-    "pagina": 341,
+    "pagina": 342,
     "y": 667.56
   },
   {
     "ancora": "construcao--entidades-basicas",
-    "pagina": 341,
+    "pagina": 342,
     "y": 147.56
   },
   {
     "ancora": "construcao--entidades-especiais",
-    "pagina": 342,
-    "y": 417.16
+    "pagina": 343,
+    "y": 403.16
   },
   {
     "ancora": "construcao--entidades-formas",
-    "pagina": 343,
+    "pagina": 344,
     "y": 566.16
   },
   {
     "ancora": "construcao--entidades-medidas",
-    "pagina": 344,
+    "pagina": 345,
     "y": 776.36
   },
   {
     "ancora": "construcao--entidades-efeitos-reduzidos",
-    "pagina": 344,
+    "pagina": 345,
     "y": 319.16
   },
   {
     "ancora": "construcao--entidades-saldo",
-    "pagina": 345,
+    "pagina": 346,
     "y": 556.16
   },
   {
     "ancora": "construcao--entidades-controle",
-    "pagina": 346,
+    "pagina": 347,
     "y": 776.36
   },
   {
     "ancora": "construcao--entidades-restricoes",
-    "pagina": 346,
+    "pagina": 347,
     "y": 334.16
   },
   {
     "ancora": "construcao--entidades-passivas",
-    "pagina": 347,
+    "pagina": 348,
     "y": 569.76
   },
   {
     "ancora": "construcao--entidades-passivas-avancadas",
-    "pagina": 348,
+    "pagina": 349,
     "y": 687.56
   },
   {
     "ancora": "construcao--entidades-passiva-propria",
-    "pagina": 348,
+    "pagina": 349,
     "y": 135.16
   },
   {
     "ancora": "construcao--entidades-ampliacao",
-    "pagina": 349,
+    "pagina": 350,
     "y": 423.96
   },
   {
     "ancora": "construcao--entidade-vigia",
-    "pagina": 350,
+    "pagina": 351,
     "y": 631.56
   },
   {
     "ancora": "construcao--entidade-vigia-habilidades",
-    "pagina": 351,
+    "pagina": 352,
     "y": 776.36
   },
   {
     "ancora": "construcao--entidades-conferencia",
-    "pagina": 351,
+    "pagina": 352,
     "y": 359.96
   },
   {
     "ancora": "fabricacao--fab-entidades",
-    "pagina": 352,
+    "pagina": 353,
     "y": 557.96
   },
   {
     "ancora": "fabricacao--fab-projeto",
-    "pagina": 353,
+    "pagina": 354,
     "y": 776.36
   },
   {
     "ancora": "fabricacao--fab-teste",
-    "pagina": 353,
+    "pagina": 354,
     "y": 261.96
   },
   {
     "ancora": "fabricacao--fab-conclusao",
-    "pagina": 354,
+    "pagina": 355,
     "y": 478.96
   },
   {
     "ancora": "fabricacao--fab-exemplo",
-    "pagina": 355,
+    "pagina": 356,
     "y": 721.36
   },
   {
     "ancora": "parte-5",
-    "pagina": 356,
+    "pagina": 357,
     "y": 776.36
   },
   {
     "ancora": "capitulo-18",
-    "pagina": 356,
+    "pagina": 357,
     "y": 756.36
   },
   {
     "ancora": "consulta--consulta-missao",
-    "pagina": 356,
+    "pagina": 357,
     "y": 711.36
   },
   {
     "ancora": "consulta--consulta-conduzir",
-    "pagina": 356,
+    "pagina": 357,
     "y": 205.16
   },
   {
     "ancora": "consulta--consulta-referencias",
-    "pagina": 357,
+    "pagina": 358,
     "y": 451.76
   },
   {
     "ancora": "capitulo-19",
-    "pagina": 358,
+    "pagina": 359,
     "y": 776.36
   },
   {
     "ancora": "consulta--consulta-glossario-1",
-    "pagina": 358,
+    "pagina": 359,
     "y": 731.36
   },
   {
     "ancora": "consulta--consulta-glossario-2",
-    "pagina": 358,
+    "pagina": 359,
     "y": 203.16
   },
   {
     "ancora": "consulta--consulta-glossario-3",
-    "pagina": 359,
+    "pagina": 360,
     "y": 363.56
   },
   {
     "ancora": "consulta--consulta-glossario-4",
-    "pagina": 360,
+    "pagina": 361,
     "y": 532.56
   },
   {
     "ancora": "consulta--consulta-glossario-5",
-    "pagina": 361,
+    "pagina": 362,
     "y": 701.56
   },
   {
     "ancora": "consulta--consulta-glossario-6",
-    "pagina": 361,
+    "pagina": 362,
     "y": 159.36
   },
   {
     "ancora": "capitulo-20",
-    "pagina": 363,
+    "pagina": 364,
     "y": 776.36
   },
   {
     "ancora": "consulta--consulta-testes",
-    "pagina": 363,
+    "pagina": 364,
     "y": 731.36
   },
   {
     "ancora": "consulta--consulta-ataques",
-    "pagina": 363,
+    "pagina": 364,
     "y": 275.16
   },
   {
     "ancora": "consulta--consulta-entidades",
-    "pagina": 365,
-    "y": 776.36
-  },
-  {
-    "ancora": "consulta--consulta-ficha-personagem",
     "pagina": 366,
     "y": 776.36
   },
   {
-    "ancora": "consulta--consulta-ficha-repertorio",
+    "ancora": "consulta--consulta-ficha-personagem",
     "pagina": 367,
     "y": 776.36
   },
   {
-    "ancora": "consulta--consulta-ficha-feitico",
+    "ancora": "consulta--consulta-ficha-repertorio",
     "pagina": 368,
     "y": 776.36
   },
   {
-    "ancora": "consulta--consulta-ficha-entidade",
+    "ancora": "consulta--consulta-ficha-feitico",
     "pagina": 369,
     "y": 776.36
   },
   {
-    "ancora": "consulta--consulta-ficha-entidade-capacidades",
+    "ancora": "consulta--consulta-ficha-entidade",
     "pagina": 370,
     "y": 776.36
   },
   {
-    "ancora": "consulta--consulta-ficha-recuperacao",
+    "ancora": "consulta--consulta-ficha-entidade-capacidades",
     "pagina": 371,
     "y": 776.36
   },
   {
-    "ancora": "consulta--consulta-registro-missao",
+    "ancora": "consulta--consulta-ficha-recuperacao",
     "pagina": 372,
     "y": 776.36
   },
   {
-    "ancora": "capitulo-21",
+    "ancora": "consulta--consulta-registro-missao",
     "pagina": 373,
     "y": 776.36
   },
   {
-    "ancora": "consulta--consulta-indice-1",
-    "pagina": 373,
-    "y": 731.36
-  },
-  {
-    "ancora": "consulta--consulta-indice-2",
+    "ancora": "capitulo-21",
     "pagina": 374,
     "y": 776.36
   },
   {
-    "ancora": "consulta--consulta-indice-3",
+    "ancora": "consulta--consulta-indice-1",
+    "pagina": 374,
+    "y": 731.36
+  },
+  {
+    "ancora": "consulta--consulta-indice-2",
     "pagina": 375,
     "y": 776.36
   },
   {
-    "ancora": "consulta--consulta-indice-4",
+    "ancora": "consulta--consulta-indice-3",
     "pagina": 376,
     "y": 776.36
   },
   {
-    "ancora": "consulta--consulta-indice-5",
+    "ancora": "consulta--consulta-indice-4",
     "pagina": 377,
     "y": 776.36
   },
   {
-    "ancora": "consulta--consulta-indice-6",
+    "ancora": "consulta--consulta-indice-5",
     "pagina": 378,
     "y": 776.36
   },
   {
-    "ancora": "consulta--consulta-indice-7",
+    "ancora": "consulta--consulta-indice-6",
     "pagina": 379,
     "y": 776.36
   },
   {
-    "ancora": "consulta--consulta-indice-8",
+    "ancora": "consulta--consulta-indice-7",
     "pagina": 380,
     "y": 776.36
   },
   {
-    "ancora": "consulta--consulta-indice-9",
+    "ancora": "consulta--consulta-indice-8",
     "pagina": 381,
     "y": 776.36
   },
   {
-    "ancora": "consulta--consulta-indice-10",
+    "ancora": "consulta--consulta-indice-9",
     "pagina": 382,
     "y": 776.36
   },
   {
-    "ancora": "consulta--consulta-indice-11",
+    "ancora": "consulta--consulta-indice-10",
     "pagina": 383,
+    "y": 776.36
+  },
+  {
+    "ancora": "consulta--consulta-indice-11",
+    "pagina": 384,
     "y": 776.36
   }
 ]

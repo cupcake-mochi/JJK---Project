@@ -600,3 +600,21 @@ A CD é **8 + atributo usado no ofício + Maestria de quem repara + ajuste**. De
 Motivo: A referência a uma escada de ofício não informava a CD. R20 Reparo do corpo e Fabricação já fecharam a mesma fórmula e os ajustes.
 
 Impacto: Treinado sem modificadores: 65%, 75% e 85% nas três dificuldades. Preservados vida acima de zero, uma tentativa por corpo/descanso, recuperação de metade e proibição de religar por reparo. Não concede cura comum a corpo nem procedimento de socorro do personagem jogador.
+
+## R11-50 — M decisão do autor
+
+**Antes:** Atacar, Correr, Desengajar, Esquivar, Esconder, Ajudar, Vasculhar, Estudar e Usar um Objeto seguem os procedimentos de **Ações**.
+
+**Depois:** Atacar, Correr, Desengajar, Esquivar, Esconder, Ajudar, Vasculhar, Estudar e Usar um Objeto seguem os procedimentos de **Ações**.
+
+Para Atacar, num revide ou num ataque comum concedido, a entidade usa a **básica ofensiva de Classe 0** da ficha ou uma **arma que ela empunhe**. O acerto com arma está em **Construir invocações — Acerto e dificuldade**. Sem nenhuma das duas, ela não ataca.
+
+**Motivo:** Decisão do Mizuki em 04/10/2026, achado G2-04 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md). O acerto com arma segue a peça 15 (a arma muda o acerto e nunca a CD).
+
+## R11-51 — M decisão do autor
+
+**Antes:** Corpos adicionais precisam ser deixados sem seu controle até haver espaço. Não desaparecem nem são destruídos por essa escolha.
+
+**Depois:** Corpos adicionais precisam ser deixados sem seu controle. Não desaparecem nem são destruídos por essa escolha. Um corpo deixado assim volta ao seu controle quando uma vaga se abre porque um corpo controlado foi destruído ou porque seu total permitido aumentou. Deixar um corpo sem controle de propósito não abre vaga para trazer outro de volta.
+
+**Motivo:** Decisão do Mizuki em 04/10/2026, achado G2-03 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md).

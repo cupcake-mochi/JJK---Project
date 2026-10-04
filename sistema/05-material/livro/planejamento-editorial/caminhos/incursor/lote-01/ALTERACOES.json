@@ -189,6 +189,13 @@
       "motivo": "Revisão independente identificou que a redação podia sugerir proibição geral de usar armas sem treino. Treino e requisitos de equipamento são regras diferentes.",
       "fonte": "Revisão independente da raiz e regras correntes de equipamentos",
       "ancora": "inc-caminho"
+    },
+    {
+      "id": "INC-22",
+      "tipo": "M decisão do autor",
+      "antes": "Pode combinar ataques corpo a corpo e arremessos, usar a mesma arma ou armas diferentes e atacar a mesma criatura ou criaturas diferentes.",
+      "depois": "O segundo ataque precisa ser corpo a corpo ou um arremesso, e nunca um disparo de arma de fogo ou de besta. Pode combinar ataques corpo a corpo e arremessos, usar a mesma arma ou armas diferentes e atacar a mesma criatura ou criaturas diferentes.",
+      "motivo": "Decisão do Mizuki em 04/10/2026, achado G3-07 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md)."
     }
   ]
 }

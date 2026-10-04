@@ -264,7 +264,7 @@ Recalcule também o total de corpos permitido em **Invocações em campo**: atri
 
 Se a capacidade cair de quatro para duas e o atributo for 3, o total cai de **sete para cinco corpos**. Escolha os cinco que continuará controlando. Os outros permanecem fisicamente no mundo, sem receber ordens, acompanhar por controle ou usar capacidades para você. Não desaparecem nem são destruídos.
 
-Registre a seleção. Recuperar o controle de um corpo suspenso exige uma aquisição ou transferência de vínculo permitida, com os procedimentos de **Fabricação de entidades** e os limites de **Invocações em campo**. Estar perto dele ou voltar à cidade não permite alternar gratuitamente o grupo controlado.
+Registre a seleção. Um corpo suspenso volta ao seu controle quando uma vaga se abre porque um corpo controlado foi destruído ou porque seu total permitido aumentou, conforme **Invocações em campo**. Soltar um corpo de propósito, estar perto do suspenso ou voltar à cidade não permite alternar o grupo controlado.
 
 Também remova básicas, especiais, Talentos ou Famílias concedidas apenas pela Trilha anterior. Registre versões válidas das fichas afetadas. Entidades domadas ou fabricadas conservam sua aquisição própria; a troca de Trilha não as transforma em entidades por espaço nem aumenta seu nível.
 
