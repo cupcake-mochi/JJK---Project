@@ -1,0 +1,30 @@
+Continuidade pós-revisão — conferência de 04/10/2026
+
+Repositório: https://github.com/cupcake-mochi/JJK---Project
+Branch de trabalho: claude/revisao-pos-reconstrucao-rxwpkq (PR #2, aberto).
+A main contém a reconstrução original de 03/10; a branch contém a revisão do Claude.
+
+CONFIRMADO
+- conferir-repositorio.py foi reexecutado numa cópia limpa da branch: código 0; zero referências mortas, 37 avisos e uma checagem pulada (finalizado/ ausente). Os avisos incluem arquivos temporários antigos e materiais intencionalmente locais.
+- QA-ESTRUTURAL.json atual registra ok=true, 3497 checagens, 384 páginas e 508 links. Seu hash de PDF coincide com GERACAO.json.
+- Todas as fontes declaradas em GERACAO.json foram conferidas por SHA-256 e continuam iguais às utilizadas para gerar o PDF.
+- Reexecutei os conferir.py de cinco capítulos e confirmei rc=1 em todos. Resultados integrais estão em publicacao-github/conferencia-independente-2026-10-04/. A contagem abaixo é o número de verificações com falha, não quantidade de erros novos de regras:
+  Aptidões: 7; Fundamento: 5; Origens: 5; Perícias: 7; Poderes avançados: 7.
+  Incluem PDFs individuais/remissões que não acompanharam o texto e evidências de revisão/auditoria vinculadas a hashes antigos.
+- Esses resultados não significam que o PDF consolidado tem as mesmas falhas; cada prova individual precisa ser atualizada e conferida pelo próprio procedimento.
+
+ENTREGA A ATUALIZAR
+- PDF atual da branch: SHA-256 00a207c962c27cdc13c74ef6dff70acea2803f8081a9a8d17b254a2d39b74eda.
+- PDF dentro do ZIP de 03/10: SHA-256 44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8.
+- FINAL-V14.json, MANIFESTO.json, VALIDADORES.json e FECHAMENTO-DOS-DONOS.json ainda se referem ao fechamento anterior. CORRECOES-APLICADAS.md declara as inspeções por delta desta rodada. Fechar uma cadeia de evidência atual, preservando o histórico, antes de declarar o pacote final atualizado.
+- Refazer o ZIP e conferir que sua versão coincide com os PDFs e as fontes vigentes.
+
+REGRAS RESTANTES
+ACHADOS.md registra 51 achados originais, 19 correções (duas parciais), quatro achados decididos depois e 28 restantes. A D04 também foi aplicada. Consulte o quadro vigente; não trate esses números como regras novas.
+Prioridades: ordem dos efeitos na queda; Feito 8; acesso do Batedor à arma de fogo; Fluidez antes do primeiro turno, saques e Instante Decisivo contra Bloquear; nomes; tipo de dano da Cisão. Há também lacunas das entidades, ritual/Técnica Máxima e verbetes de consulta. Não reabrir as decisões já tomadas sobre besta, ataque adicional do Incursor, armas das entidades e retorno dos corpos excedentes.
+
+PLANOS PREPARADOS, AINDA NÃO EXECUTADOS
+Testes humanos em testes-com-leitores/. Migração em migracao-pos-candidata/. Não há playtest humano realizado por esta conferência. A publicação antiga permanece separada da candidata.
+
+AMBIENTE
+O Git no HD externo permanece com erro de entrada/saída. Use clone saudável e não sobrescreva a branch revisada com os textos mais antigos do HD. As imagens de inspeção e os grandes pacotes antigos de transferência foram mantidos localmente. Todo o conteúdo substantivo necessário para continuar está versionado.
