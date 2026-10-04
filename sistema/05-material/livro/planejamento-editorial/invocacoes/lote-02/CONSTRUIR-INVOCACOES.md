@@ -241,7 +241,7 @@ O invocador escolhe Essência ou Inteligência ao obter sua primeira entidade. U
 
 Uma entidade pode usar equipamento que comporte sua anatomia. Confira requisitos com os atributos dela. Um escudo exige membros capazes de empunhá-lo. Uma armadura feita para outro corpo pode precisar de adaptação.
 
-Com traje ou revestimento defensivo, a Defesa usa **10 + Destreza da entidade + proteção do equipamento**. A proteção substitui a parcela de Essência ou Inteligência do invocador. Não some as duas fontes. Escudos e demais combinações seguem **Equipamento**.
+Com traje ou revestimento defensivo, a Defesa usa **10 + Destreza da entidade permitida pelo teto da peça + proteção do equipamento**. A proteção substitui a parcela de Essência ou Inteligência do invocador. Não some as duas fontes. Escudos e demais combinações seguem **Equipamento**.
 
 Registre o equipamento usado, a proteção, os requisitos e a carga. Levar um objeto ao campo ou recolhê-lo junto com a criatura segue **Invocações em campo — Carga e equipamento**. A capacidade de equipar algo não transforma esse objeto em uma parte gratuita da entidade.
 

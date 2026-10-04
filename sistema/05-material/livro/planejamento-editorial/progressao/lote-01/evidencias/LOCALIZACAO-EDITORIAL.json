@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "483925447a9de1d0bc32fa2dfe46af1b079438106881b67ced66f0fefe10e653",
+  "sha256_texto": "572ed1ff1b90c10754e3f86a5752dfc89556988b9de2036f76a1bc11e65860cb",
   "titulos_revisto": true,
   "sem_explicacao_alheia": true,
   "vocabulario_revisto": true,
@@ -7,5 +7,15 @@
   "excecoes_vocabulario": [],
   "excecoes_localizacao": [],
   "revisao_adicional": "Raiz leu PRO35/OR35: títulos diretos, patente definida no dono, remissões sem repetir bônus ou procedimentos externos. Vocabulário reconhecimento/instituição/Grau explicitado. Nenhum artigo inicial novo.",
-  "delta_nominal_final": "DELTA-QA-FINAL.json"
+  "delta_nominal_final": "DELTA-QA-FINAL.json",
+  "revisao_delta_2026_10_04": {
+    "sha256_anterior": "483925447a9de1d0bc32fa2dfe46af1b079438106881b67ced66f0fefe10e653",
+    "correcoes": [
+      "C08b",
+      "C14"
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.json",
+    "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana.",
+    "conferido": "Trechos trocados lidos um a um: só nomes e remissões ao capítulo dono, nenhuma regra alheia reproduzida, nenhum título alterado. Com o hash anterior, o conferir_editorial dava 0 achados; com o texto novo, todos os achados E002 coincidem em termo e trecho com excecoes_localizacao já revisadas, e o vocabulário não acusa nada."
+  }
 }

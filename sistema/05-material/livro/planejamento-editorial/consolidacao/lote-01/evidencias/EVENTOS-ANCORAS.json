@@ -1227,87 +1227,87 @@
   {
     "ancora": "equip--eq-manipular",
     "pagina": 175,
-    "y": 185.56
+    "y": 173.76
   },
   {
     "ancora": "equip--eq-objetos",
     "pagina": 176,
-    "y": 370.16
+    "y": 320.16
   },
   {
     "ancora": "equip--eq-propriedades",
     "pagina": 177,
-    "y": 391.36
+    "y": 359.76
   },
   {
     "ancora": "equip--eq-oculta",
     "pagina": 178,
-    "y": 362.96
+    "y": 311.56
   },
   {
     "ancora": "equip--eqp-protecao",
     "pagina": 179,
-    "y": 368.16
+    "y": 334.36
   },
   {
     "ancora": "equip--eqp-traje",
     "pagina": 180,
-    "y": 478.96
+    "y": 398.16
   },
   {
     "ancora": "equip--eqp-escudo",
     "pagina": 181,
-    "y": 521.76
+    "y": 436.96
   },
   {
     "ancora": "equip--eqp-vestir",
     "pagina": 182,
-    "y": 653.56
+    "y": 589.56
   },
   {
     "ancora": "equip--eqm-municao",
     "pagina": 183,
-    "y": 673.56
+    "y": 605.76
   },
   {
     "ancora": "equip--eqm-recarga",
     "pagina": 184,
-    "y": 776.36
+    "y": 721.36
   },
   {
     "ancora": "equip--eqm-reserva",
-    "pagina": 184,
-    "y": 171.96
+    "pagina": 185,
+    "y": 776.36
   },
   {
     "ancora": "equip--eqa-armas",
-    "pagina": 185,
-    "y": 176.56
+    "pagina": 186,
+    "y": 776.36
   },
   {
     "ancora": "equip--eqa-laminas",
     "pagina": 186,
-    "y": 234.96
+    "y": 170.96
   },
   {
     "ancora": "equip--eqa-impacto",
     "pagina": 187,
-    "y": 417.56
+    "y": 346.36
   },
   {
     "ancora": "equip--eqa-hastes",
     "pagina": 188,
-    "y": 470.96
+    "y": 399.56
   },
   {
     "ancora": "equip--eqa-flexiveis",
     "pagina": 189,
-    "y": 680.16
+    "y": 648.56
   },
   {
     "ancora": "equip--eqa-tiro",
     "pagina": 189,
-    "y": 250.36
+    "y": 218.76
   },
   {
     "ancora": "equip--eqi-itens",

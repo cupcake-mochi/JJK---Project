@@ -108,7 +108,7 @@
 
 **Legado.** Escolha da Origem que registra uma capacidade ou vínculo. Cada entrada informa seu tipo e suas consequências. **Consulta:** Origens.
 
-**Leve, Média e Pesada.** Nomes de faixas de preço e também de categorias de Condição. Consulte a tabela correspondente; pontos de montagem e PE não são a mesma conta. **Consulta:** Pontos e preços.
+**Leve, Média e Pesada.** Nomes de faixas de preço e também de categorias de Condição. Consulte a tabela correspondente; pontos de montagem e PE não são a mesma conta. Leve também é uma propriedade de arma, explicada em Propriedades, no capítulo Equipamento. **Consulta:** Pontos e preços.
 
 **Maestria.** Bônus ligado ao nível. Só entra nas rolagens e valores que indiquem seu uso. **Consulta:** Atributos.
 
@@ -759,7 +759,7 @@ As regras e os exemplos deste livro conservam seus próprios procedimentos. Uma 
 |---|---|
 | Desvantagem | Regras gerais: Treino e modificadores |
 | Dívida | Catálogo: Condições de uso |
-| Domar | Montagem de entidades: Domar uma maldição |
+| Domar | Construir invocações: Domar uma maldição |
 | Duração | Fundamento: Conjurar |
 | Duradoura | Catálogo: Momento e duração |
 | Efeito | Fundamento: Formas de amparo e Efeito |
@@ -769,7 +769,7 @@ As regras e os exemplos deste livro conservam seus próprios procedimentos. Uma 
 | Energia amaldiçoada pura (dano) | Dano e Recuperação: Tipos de dano. Tipo Força. |
 | Energia temporária | Dano e Recuperação: Vida e energia temporárias |
 | Enfeitiçado | Dano e Recuperação: Condições médias |
-| Entidade | Montagem de entidades: Criar uma invocação |
+| Entidade | Construir invocações: Criar uma invocação |
 | Envenenado | Dano e Recuperação: Condições pesadas |
 | Escolher | Catálogo: Área |
 | Esconder | Regras gerais: Esconder |
@@ -834,7 +834,7 @@ As regras e os exemplos deste livro conservam seus próprios procedimentos. Uma 
 | Integridade máxima | Dano e Recuperação: Dano na alma |
 | Intenção | Invocações: Dar uma tarefa |
 | Inventário | Equipamento |
-| Invocação | Montagem de entidades: Adquirir entidades |
+| Invocação | Construir invocações: Adquirir entidades |
 | Invocador | Invocações: Invocações em campo |
 | Kata | Rotas: Técnica Marcial |
 | Lapidação | Rotas: Lapidação |

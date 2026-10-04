@@ -48,9 +48,9 @@ Esta rota não concede **Expansão de Domínio**, incompleta ou completa, nem **
 <!-- page:rota-armas|Armas -->
 # Armas
 
-Ao escolher esta rota, selecione **três grupos de armas diferentes** entre os grupos de Equipamento. Você recebe uma arma de cada grupo, todas de **grau 4**, e fica treinado nos três grupos, além dos treinos concedidos por outras escolhas.
+Ao escolher esta rota, selecione **três categorias de armas diferentes** entre as categorias de Equipamento. Você recebe uma arma de cada categoria, todas de **grau 4**, e fica treinado nas três categorias, além dos treinos concedidos por outras escolhas.
 
-Você pode executar suas Katas com qualquer **arma amaldiçoada de um desses grupos**, inclusive uma obtida depois. Grau 4 permite ferir maldições. Efeitos especiais de graus maiores seguem **Equipamentos amaldiçoados**.
+Você pode executar suas Katas com qualquer **arma amaldiçoada de uma dessas categorias**, inclusive uma obtida depois. Grau 4 permite ferir maldições. Efeitos especiais de graus maiores seguem **Equipamento amaldiçoado**.
 
 Essa escolha fornece armas, treino e o Selo. Manhas e outras habilidades de combate dependem de suas próprias fontes. As armas não sobem de grau com seu nível.
 
@@ -63,11 +63,11 @@ Use o atributo de ataque da arma empregada naquela execução tanto para o ataqu
 
 Se a arma permitir escolher entre Força e Destreza, declare qual está usando nessa execução. Use o mesmo atributo até terminar de resolvê-la. Um efeito com duração conserva a CD definida ao ser aplicado, mesmo se você trocar de arma depois.
 
-Assim, é possível escolher um grupo de Força e outro de Destreza. O atributo de uma arma não modifica o atributo exigido pela outra. Consulte cada arma em **Equipamento** para treino, mãos ocupadas, alcance e propriedades.
+Assim, é possível escolher uma categoria de Força e outra de Destreza. O atributo de uma arma não modifica o atributo exigido pela outra. Consulte cada arma em **Equipamento** para treino, mãos ocupadas, alcance e propriedades.
 
 ## Equipamento em uso
 
-Sacar uma arma de reserva segue **Ações — Interagir com objetos**. Uma arma guardada não cumpre o Selo de outra que você perdeu. Os efeitos especiais do equipamento seguem seus limites de uso e de itens ativos, sem multiplicar benefícios pelas armas guardadas.
+Sacar uma arma de reserva segue **Sacar e guardar**, em Equipamento. Uma arma guardada não cumpre o Selo de outra que você perdeu. Os efeitos especiais do equipamento seguem seus limites de uso e de itens ativos, sem multiplicar benefícios pelas armas guardadas.
 
 Uma Kata conserva o alcance da Forma escolhida. Empunhar uma arma longa não aumenta, por si só, o alcance de uma Kata de Toque.
 
@@ -140,12 +140,12 @@ Escolha uma de suas armas ao adquirir este Talento. Ela **não pode ser desarmad
 
 A arma ainda pode ser carregada ou transportada por outra criatura. O vínculo impede seu uso por terceiros, sem tornar o objeto indestrutível, alterar seu peso ou transportá-lo de volta para sua mão. Guardar ou largar a arma voluntariamente continua possível.
 
-Essas entradas são efeitos específicos do catálogo. Um Talento criado na mesa deve seguir **Catálogo de criação — Criar Talentos**, inclusive os limites de sua Categoria de Efeito.
+Essas entradas são efeitos específicos do catálogo. Um Talento criado na mesa deve seguir **Catálogo de criação — Talento Próprio**, inclusive os limites de sua Categoria de Efeito.
 
 <!-- page:rota-fisga|Fisga -->
 # Fisga
 
-**Exemplo de Técnica Marcial pela rota de arma, no nível 2.** Iori usa ganchos e hastes para ferir um adversário e limitar sua movimentação. Pode executar o estilo com Armas Longas, Ceifa ou Flexível. Começa com uma arma de grau 4 de cada grupo.
+**Exemplo de Técnica Marcial pela rota de arma, no nível 2.** Iori usa ganchos e hastes para ferir um adversário e limitar sua movimentação. Pode executar o estilo com Armas Longas, Ceifa ou Flexível. Começa com uma arma de grau 4 de cada categoria.
 
 | Campo | Escolha |
 |---|---|
@@ -153,7 +153,7 @@ Essas entradas são efeitos específicos do catálogo. Um Talento criado na mesa
 | Regra | Os cabos partem da arma e seguram o que alcançam. |
 | Famílias Livres | Alcance e Controle. |
 | Famílias Fechadas | Amparo, Auxiliares e Área. |
-| Selo | Usar uma arma amaldiçoada de um dos três grupos. |
+| Selo | Usar uma arma amaldiçoada de uma das três categorias. |
 | Atributo | O da arma usada naquela Kata. |
 | Tipo de dano | Cortante. |
 

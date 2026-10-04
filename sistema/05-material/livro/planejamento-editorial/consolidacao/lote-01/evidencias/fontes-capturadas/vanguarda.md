@@ -16,7 +16,7 @@ Você transforma ataques em preparação contra um adversário. Decide quando ma
 
 Registre os treinos na criação. As opções estão em **Perícias e Ofícios**.
 
-Compre seu equipamento conforme **Compras e equipamento inicial**.
+Compre seu equipamento conforme **Equipamento inicial**, em Equipamento.
 
 Escolha uma Trilha no nível 2: **Estocada, Batedor ou Executor**. O Batedor possui três rotas, das quais você escolhe uma.
 
@@ -366,7 +366,7 @@ Abrir contra outro alvo ou com outra categoria abandona a reserva. Um erro não 
 
 Você cria uma Oportunidade, escolhe quando aproveitá-la e mantém meios de continuar o confronto.
 
-**Nível 2: Combate Irregular.** Seus disparos não sofrem a desvantagem causada por inimigo adjacente. O limite **X de disparos antes da recarga aumenta em um**. O gatilho de recarga por **1 ou 2 natural** permanece. A capacidade adicional precisa ser preenchida com munição do inventário. A habilidade não cria uma unidade extra a cada recarga.
+**Nível 2: Combate Irregular.** Seus disparos não sofrem a desvantagem causada por inimigo adjacente. A **capacidade da arma** (os ataques por carga, em Munição) **aumenta em um**. O gatilho de recarga por **1 ou 2 natural** permanece. A capacidade adicional precisa ser preenchida com munição do inventário. A habilidade não cria uma unidade extra a cada recarga.
 
 ## Oportunidade Tática
 
@@ -393,7 +393,7 @@ Após acertar, **TR de Espírito**: na falha, o alvo fica **Amedrontado por voc�
 
 Após acertar, **TR Físico**: na falha, o alvo não pode usar **Reações contra você até o começo do seu próximo turno**.
 
-Se consumiu Oportunidade e ele falhou no TR, pode gastar **uma Ação de Movimento inteira e ainda disponível**, naquele turno, para recarregar parcialmente a mesma arma. Recupere **metade de X, arredondada para baixo**, sem ultrapassar o limite.
+Se consumiu Oportunidade e ele falhou no TR, pode gastar **uma Ação de Movimento inteira e ainda disponível**, naquele turno, para recarregar parcialmente a mesma arma. Recupere **metade da capacidade, arredondada para baixo**, sem ultrapassar o limite.
 
 A recarga exige munição e acontece depois do disparo. Ela satisfaz uma necessidade normal de recarga surgida nesse ataque, mas não permite disparar com uma arma que já precisava ser recarregada. A Ação de Movimento parcialmente usada não pode pagar o custo com os metros restantes.
 
@@ -408,9 +408,9 @@ Supressão ainda não respondida, Queima-Roupa antes de receber a Oportunidade e
 
 **Nível 19: Romper o Contato.** **Reação. Consome uma Oportunidade.** Depois que o alvo da Sequência terminar de resolver contra você um ataque ou feitiço que prejudique você, pode mover-se até metade do seu deslocamento nessa situação, já considerando as reduções. Use esse valor, e não os metros que sobraram de um movimento anterior.
 
-A retirada não provoca ataque de oportunidade daquele alvo. Ao terminar um movimento efetivo, pode recarregar a mesma Arma de Fogo, recuperando **uma unidade de munição**, até a capacidade X. A reposição exige munição e capacidade de manusear a arma e integra a mesma Reação.
+A retirada não provoca ataque de oportunidade daquele alvo. Ao terminar um movimento efetivo, pode recarregar a mesma Arma de Fogo, recuperando **uma unidade de munição**, até a capacidade da arma. A reposição exige munição e capacidade de manusear a arma e integra a mesma Reação.
 
-Você pode se retirar com a arma cheia ou sem munição para repor, mas não pode ficar parado e usar a habilidade somente para recarregar. A reposição também resolve a necessidade normal de recarga por X ou pelo gatilho natural.
+Você pode se retirar com a arma cheia ou sem munição para repor, mas não pode ficar parado e usar a habilidade somente para recarregar. A reposição também resolve a necessidade normal de recarga por esvaziar a arma ou pelo gatilho natural.
 
 A ofensiva que ativou a retirada já aconteceu. A Oportunidade é consumida e o preparo que poderia produzi-la novamente é encerrado. A Sequência mantém seus acertos e seu prazo.
 

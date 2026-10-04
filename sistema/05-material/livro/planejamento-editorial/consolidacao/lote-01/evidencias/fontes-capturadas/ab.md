@@ -219,7 +219,7 @@ Use a vida inicial e o ganho por nível do seu Caminho. No nível 2, aplique o v
 
 Calcule a Defesa com Destreza, proteção e escudo, conforme as peças que você usa. Respeite o teto de Destreza da proteção. Fontes de proteção que não se acumulam não entram duas vezes.
 
-O deslocamento padrão é **9 m**. Aplique qualquer alteração efetivamente recebida pela ficha. Modos diferentes de movimento, terreno e excesso de carga seguem Movimento.
+O deslocamento padrão é **9 m**. Aplique qualquer alteração efetivamente recebida pela ficha. Modos diferentes de movimento e terreno seguem Movimento; excesso de carga segue Carga, em Regras gerais.
 
 ## Ataques e testes
 

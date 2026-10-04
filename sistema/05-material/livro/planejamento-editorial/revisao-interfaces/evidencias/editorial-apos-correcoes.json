@@ -1,0 +1,677 @@
+{
+  "ok": false,
+  "documentos": 11,
+  "achados": 60,
+  "itens": [
+    {
+      "codigo": "E002",
+      "linha": 155,
+      "termo": "Bastião",
+      "donos": [
+        "bastião"
+      ],
+      "trecho": "| Bastião | Proteger companheiros e suportar a pressão dos inimigos. |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "abertura/lote-01/ABERTURA-E-CRIACAO.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 156,
+      "termo": "Vanguarda",
+      "donos": [
+        "vanguarda"
+      ],
+      "trecho": "| Vanguarda | Sustentar a ofensiva com armas e golpes. |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "abertura/lote-01/ABERTURA-E-CRIACAO.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 158,
+      "termo": "Emanador",
+      "donos": [
+        "emanador"
+      ],
+      "trecho": "| Emanador | Concentrar sua atuação na conjuração e no controle da energia. |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "abertura/lote-01/ABERTURA-E-CRIACAO.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 159,
+      "termo": "Evocador",
+      "donos": [
+        "evocador"
+      ],
+      "trecho": "| Evocador | Lutar e cumprir tarefas ao lado de entidades. |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "abertura/lote-01/ABERTURA-E-CRIACAO.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 160,
+      "termo": "Incursor",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "| Incursor | Explorar mobilidade, precisão e oportunidades de combate. |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "abertura/lote-01/ABERTURA-E-CRIACAO.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 237,
+      "termo": "Bastião",
+      "donos": [
+        "bastião"
+      ],
+      "trecho": "Ela é Descendente, Bastião da Trilha Muro, nível 2 e Grau 4. Este quadro reúne as partes de sua ficha usadas no exemplo a seguir. O repertório completo e as demais escolhas de uma personagem jogável devem ser preenchidos pelo roteiro de criação.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "abertura/lote-01/ABERTURA-E-CRIACAO.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 213,
+      "termo": "Canalizar em Golpe",
+      "donos": [
+        "aptidoes"
+      ],
+      "trecho": "São duas resoluções separadas. O feitiço não é acrescentado ao dano da arma, e o ataque conserva Canalizar em Golpe quando seus requisitos permitirem.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "caminhos/emanador/lote-01/EMANADOR.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 230,
+      "termo": "Canalizar em Golpe",
+      "donos": [
+        "aptidoes"
+      ],
+      "trecho": "Além disso, acrescente X dados ao dano normal de Canalizar em Golpe. Os dados adicionais têm o mesmo tamanho dos dados utilizados normalmente em Canalizar e são rolados normalmente.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "caminhos/incursor/lote-01/INCURSOR.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 234,
+      "termo": "Canalizar em Golpe",
+      "donos": [
+        "aptidoes"
+      ],
+      "trecho": "Em um crítico com Golpe Cirúrgico, a arma segue a regra normal de crítico, com seus dados dobrados e rolados, e você dobra tanto os dados normais de Canalizar em Golpe quanto os dados adicionais concedidos por esta habilidade. Role todos esses dados normalmente. Outros efeitos mantêm suas regras de crítico.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "caminhos/incursor/lote-01/INCURSOR.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 207,
+      "termo": "Canalizar em Golpe",
+      "donos": [
+        "aptidoes"
+      ],
+      "trecho": "Se o Classe 0 causar dano, substitui os dados de Canalizar em Golpe ou Estímulo Muscular naquele golpe, em vez de somar-se a esses dados. O ataque mantém o dano próprio da arma e seu atributo.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "caminhos/vanguarda/lote-01/VANGUARDA.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 671,
+      "termo": "Incursor",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "| Ágil (nome anterior) | Incursor |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "consulta/lote-01/CONSULTA.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 678,
+      "termo": "Analista",
+      "donos": [
+        "guia"
+      ],
+      "trecho": "| Analista | Analista |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "consulta/lote-01/CONSULTA.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 686,
+      "termo": "Arquiteto",
+      "donos": [
+        "guia"
+      ],
+      "trecho": "| Arquiteto | Arquiteto |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "consulta/lote-01/CONSULTA.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 688,
+      "termo": "Assassino",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "| Assassino | Assassino |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "consulta/lote-01/CONSULTA.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 705,
+      "termo": "Bastião",
+      "donos": [
+        "bastião"
+      ],
+      "trecho": "| Bastião | Bastião |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "consulta/lote-01/CONSULTA.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 711,
+      "termo": "Canalizar em Golpe",
+      "donos": [
+        "aptidoes"
+      ],
+      "trecho": "| Canalizar em Golpe | Canalizar Energia |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "consulta/lote-01/CONSULTA.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 711,
+      "termo": "Canalizar energia",
+      "donos": [
+        "aptidoes"
+      ],
+      "trecho": "| Canalizar em Golpe | Canalizar Energia |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "consulta/lote-01/CONSULTA.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 713,
+      "termo": "Catalisador",
+      "donos": [
+        "emanador"
+      ],
+      "trecho": "| Catalisador | Catalisador |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "consulta/lote-01/CONSULTA.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 730,
+      "termo": "Combatente Amaldiçoado",
+      "donos": [
+        "bastião"
+      ],
+      "trecho": "| Combatente Amaldiçoado | Combatente Amaldiçoado |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "consulta/lote-01/CONSULTA.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 731,
+      "termo": "Combinar Aprimoramentos",
+      "donos": [
+        "evocador"
+      ],
+      "trecho": "| Combinar Aprimoramentos | Combinar Aprimoramentos |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "consulta/lote-01/CONSULTA.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 736,
+      "termo": "Condutor Armado",
+      "donos": [
+        "emanador"
+      ],
+      "trecho": "| Condutor Armado | Condutor Armado |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "consulta/lote-01/CONSULTA.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 740,
+      "termo": "Corpo Amaldiçoado",
+      "donos": [
+        "origens",
+        "invocacoes"
+      ],
+      "trecho": "| Corpo amaldiçoado | Invocações: Corpos amaldiçoados |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "consulta/lote-01/CONSULTA.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 741,
+      "termo": "Corpo Amaldiçoado",
+      "donos": [
+        "origens",
+        "invocacoes"
+      ],
+      "trecho": "| Corpo Amaldiçoado (Origem) | Corpo Amaldiçoado |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "consulta/lote-01/CONSULTA.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 767,
+      "termo": "Emanador",
+      "donos": [
+        "emanador"
+      ],
+      "trecho": "| Emanador | Emanador |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "consulta/lote-01/CONSULTA.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 792,
+      "termo": "Evocador",
+      "donos": [
+        "evocador"
+      ],
+      "trecho": "| Evocador | Evocador |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "consulta/lote-01/CONSULTA.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 806,
+      "termo": "Fluidez",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "| Fluidez | Fluidez |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "consulta/lote-01/CONSULTA.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 830,
+      "termo": "Incursor",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "| Incursor | Incursor |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "consulta/lote-01/CONSULTA.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 860,
+      "termo": "Malabarista",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "| Malabarista | Malabarista |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "consulta/lote-01/CONSULTA.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 863,
+      "termo": "Manifestação em Grupo",
+      "donos": [
+        "evocador"
+      ],
+      "trecho": "| Manifestação em Grupo | Manifestação em Grupo |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "consulta/lote-01/CONSULTA.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 865,
+      "termo": "Mão Firme",
+      "donos": [
+        "fundamento"
+      ],
+      "trecho": "| Mão Firme | Catálogo: Talentos de Categoria 1 |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "consulta/lote-01/CONSULTA.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 869,
+      "termo": "Pugilista",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "| Monge (nome anterior) | Pugilista |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "consulta/lote-01/CONSULTA.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 872,
+      "termo": "Múltiplas Invocações",
+      "donos": [
+        "evocador"
+      ],
+      "trecho": "| Múltiplas Invocações | Múltiplas Invocações |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "consulta/lote-01/CONSULTA.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 905,
+      "termo": "Pontos de Vínculo",
+      "donos": [
+        "evocador"
+      ],
+      "trecho": "| Pontos de Vínculo | Vínculo |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "consulta/lote-01/CONSULTA.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 913,
+      "termo": "Pugilista",
+      "donos": [
+        "incursor"
+      ],
+      "trecho": "| Pugilista | Pugilista |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "consulta/lote-01/CONSULTA.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 933,
+      "termo": "Ressonante",
+      "donos": [
+        "emanador"
+      ],
+      "trecho": "| Ressonante | Ressonante |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "consulta/lote-01/CONSULTA.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 952,
+      "termo": "Socorrista",
+      "donos": [
+        "guia"
+      ],
+      "trecho": "| Socorrista | Socorrista |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "consulta/lote-01/CONSULTA.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 976,
+      "termo": "Vanguarda",
+      "donos": [
+        "vanguarda"
+      ],
+      "trecho": "| Vanguarda | Vanguarda |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "consulta/lote-01/CONSULTA.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 985,
+      "termo": "Escola de Arma",
+      "donos": [
+        "vanguarda"
+      ],
+      "trecho": "| Versado | Prazo e Escola de Arma |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "consulta/lote-01/CONSULTA.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 467,
+      "termo": "Energia Reversa",
+      "donos": [
+        "aptidoes"
+      ],
+      "trecho": "Onda de Classe 1. Sua utilidade vem das Melhorias: Onda (2) + Impulso (1) + Gesto (devolve 1) cabe nos 2 pontos e concede o benefício de Impulso aos aliados no raio de 3 m por 3 PE. A entidade precisa conseguir cumprir Gesto. O saldo é zero. Sem saldo nem uma Melhoria benéfica aplicável, a montagem não produz efeito útil. Esses tetos comuns não substituem os dados fixos de cura da Técnica Máxima. Cura contra alvo hostil exige acesso efetivo a Energia Reversa e segue Ferir maldições, em Aptidões e Refino. Escolher a Forma não concede a aptidão. Entidades a zero e corpos amaldiçoados conservam as limitações de recuperação de Invocações em campo.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "invocacoes/lote-02/CONSTRUIR-INVOCACOES.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 533,
+      "termo": "Mão Firme",
+      "donos": [
+        "fundamento"
+      ],
+      "trecho": "| Mão Firme | Protege Concentração e Carregar de ocorrências pequenas de dano. | Talentos de Categoria 1. |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "invocacoes/lote-02/CONSTRUIR-INVOCACOES.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 699,
+      "termo": "Energia Reversa",
+      "donos": [
+        "aptidoes"
+      ],
+      "trecho": "Confira também as escolhas exclusivas. Comprar duas básicas amplia as opções. Comprar uma especial reativa não cria outro recurso de atuação. Abrir Amparo oferece suas peças, mas não fornece Energia Reversa por conta própria.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "invocacoes/lote-02/CONSTRUIR-INVOCACOES.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 4,
+      "termo": "Energia Reversa",
+      "donos": [
+        "aptidoes"
+      ],
+      "trecho": "Uma Técnica Marcial reúne o que você consegue fazer com seu corpo e seu equipamento. Um Manejo desenvolve uma aptidão aprendida, como Energia Reversa. Ambas usam o procedimento de Fundamento, com as diferenças apresentadas neste capítulo.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "rotas/lote-01/ROTAS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 10,
+      "termo": "Corpo Amaldiçoado",
+      "donos": [
+        "origens",
+        "invocacoes"
+      ],
+      "trecho": "| Técnica Marcial | Corpo Amaldiçoado. | Katas. | Refino e aptidões. |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "rotas/lote-01/ROTAS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 27,
+      "termo": "Corpo Amaldiçoado",
+      "donos": [
+        "origens",
+        "invocacoes"
+      ],
+      "trecho": "Você desenvolve um estilo ligado a armas ou a uma ferramenta amaldiçoada. Uma lutadora pode conduzir suas Katas pela lâmina. Um Corpo Amaldiçoado pode usar uma armadura de engenharia para proteger os companheiros. Descreva primeiro o funcionamento desse estilo.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "rotas/lote-01/ROTAS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 46,
+      "termo": "Corpo Amaldiçoado",
+      "donos": [
+        "origens",
+        "invocacoes"
+      ],
+      "trecho": "Esta rota não concede Expansão de Domínio, incompleta ou completa, nem Extensão de Domínio. Também não permite aprender ou auxiliar Ritual. Essas exceções continuam valendo para o Corpo Amaldiçoado, embora ele possua energia e aptidões.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "rotas/lote-01/ROTAS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 89,
+      "termo": "Canalizar energia",
+      "donos": [
+        "aptidoes"
+      ],
+      "trecho": "Esse registro decide se o equipamento permite ao seu ataque desarmado ferir maldições. Todas as Katas válidas já podem feri-las, pois passam pela ferramenta amaldiçoada. O Corpo Amaldiçoado também pode usar Canalizar Energia nos ataques comuns, pelas regras da aptidão.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "rotas/lote-01/ROTAS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 89,
+      "termo": "Corpo Amaldiçoado",
+      "donos": [
+        "origens",
+        "invocacoes"
+      ],
+      "trecho": "Esse registro decide se o equipamento permite ao seu ataque desarmado ferir maldições. Todas as Katas válidas já podem feri-las, pois passam pela ferramenta amaldiçoada. O Corpo Amaldiçoado também pode usar Canalizar Energia nos ataques comuns, pelas regras da aptidão.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "rotas/lote-01/ROTAS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 201,
+      "termo": "Energia Reversa",
+      "donos": [
+        "aptidoes"
+      ],
+      "trecho": "As Famílias escolhidas também permitem criar uma Kata de cura baseada em reparo. Na ficha dela, será necessário declarar os corpos e materiais que a ferramenta consegue reparar. Essa cura não se torna Energia Reversa pela escolha da Forma Cura.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "rotas/lote-01/ROTAS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 238,
+      "termo": "Energia Reversa",
+      "donos": [
+        "aptidoes"
+      ],
+      "trecho": "A Regra explica uma aplicação da semente. Domínio Simples pode sustentar um estilo de contenção próximo de você. Energia Reversa pode sustentar um estilo de cura. Transformar a semente em fogo, viagem no tempo ou leitura de memória exigiria um funcionamento que ela não fornece.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "rotas/lote-01/ROTAS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 261,
+      "termo": "Energia Reversa",
+      "donos": [
+        "aptidoes"
+      ],
+      "trecho": "## Energia Reversa",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "rotas/lote-01/ROTAS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 280,
+      "termo": "Energia Reversa",
+      "donos": [
+        "aptidoes"
+      ],
+      "trecho": "Escolher Energia Reversa como semente concede um bônus às suas curas em si mesmo. Some um terço do refino, arredondado para baixo, ao total de cada rolagem de cura que você produzir e aplicar em você. No refino 10, esse bônus é +4.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "rotas/lote-01/ROTAS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 290,
+      "termo": "Energia Reversa",
+      "donos": [
+        "aptidoes"
+      ],
+      "trecho": "Energia Reversa, a aptidão, cura você. Aplicá-la diretamente em outra criatura exige uma regra que conceda essa permissão. A semente, sozinha, não a fornece.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "rotas/lote-01/ROTAS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 294,
+      "termo": "Energia Reversa",
+      "donos": [
+        "aptidoes"
+      ],
+      "trecho": "Energia Reversa e curas construídas a partir dela não curam Corpo Amaldiçoado, conforme essa Origem. Um efeito de reparo apropriado usa sua própria capacidade. Escolher Forma Cura não muda o material ou o tipo de corpo que a Regra consegue tratar.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "rotas/lote-01/ROTAS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 294,
+      "termo": "Corpo Amaldiçoado",
+      "donos": [
+        "origens",
+        "invocacoes"
+      ],
+      "trecho": "Energia Reversa e curas construídas a partir dela não curam Corpo Amaldiçoado, conforme essa Origem. Um efeito de reparo apropriado usa sua própria capacidade. Escolher Forma Cura não muda o material ou o tipo de corpo que a Regra consegue tratar.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "rotas/lote-01/ROTAS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 298,
+      "termo": "Energia Reversa",
+      "donos": [
+        "aptidoes"
+      ],
+      "trecho": "Um Manejo de Forma Cura produzido por Energia Reversa pode ser usado contra uma maldição hostil pelo procedimento de Aptidões e Refino — Ferir maldições. Confira ali o ataque, a conversão dos dados em dano e o aumento próprio dessa aplicação.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "rotas/lote-01/ROTAS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 300,
+      "termo": "Energia Reversa",
+      "donos": [
+        "aptidoes"
+      ],
+      "trecho": "O bônus de autocura desta rota não entra nesse dano de Energia Reversa. Usar diretamente a aptidão sobre outro alvo continua exigindo uma permissão expressa. A Forma Cura e a aptidão conservam suas diferentes ações, custos e requisitos.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "rotas/lote-01/ROTAS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 333,
+      "termo": "Energia Reversa",
+      "donos": [
+        "aptidoes"
+      ],
+      "trecho": "Exemplo de Sem Técnica com Energia Reversa, no nível 2. Caio aprendeu a fechar ferimentos conduzindo energia positiva pelas regiões lesionadas. Ele cria Manejos para tratar a equipe e usa a aptidão quando precisa recuperar o próprio corpo.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "rotas/lote-01/ROTAS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 337,
+      "termo": "Energia Reversa",
+      "donos": [
+        "aptidoes"
+      ],
+      "trecho": "| Semente | Energia Reversa. |",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "rotas/lote-01/ROTAS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 351,
+      "termo": "Corpo Amaldiçoado",
+      "donos": [
+        "origens",
+        "invocacoes"
+      ],
+      "trecho": "Esse Manejo ocupa um espaço. Ele não precisa de uma permissão para aplicar diretamente a aptidão em outras pessoas: utiliza a Forma Cura com seus próprios custos. Um Corpo Amaldiçoado continua incompatível com essa energia.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "rotas/lote-01/ROTAS.md"
+    },
+    {
+      "codigo": "E002",
+      "linha": 392,
+      "termo": "Corpo Amaldiçoado",
+      "donos": [
+        "origens",
+        "invocacoes"
+      ],
+      "trecho": "Personagens com Restrição Celestial sem energia usam Lapidação e Bênçãos no lugar de refino e aptidões. Corpo Amaldiçoado conserva refino e aptidões, pois produz energia amaldiçoada.",
+      "motivo": "Nome específico fora de seu domínio editorial; explicação deve ficar com o dono.",
+      "arquivo": "rotas/lote-01/ROTAS.md"
+    }
+  ],
+  "limites": "Nomes dependem do cadastro; cópia detectada por24 palavras; paráfrases exigem revisão contextual. O parecer exigido na exportação é evidência de leitura, não prova automática de compreensão."
+}

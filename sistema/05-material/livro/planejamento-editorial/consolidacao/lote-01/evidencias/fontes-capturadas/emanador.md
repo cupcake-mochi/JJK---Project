@@ -113,7 +113,7 @@ Os requisitos de cada Melhoria permanecem. Sustentação não transforma um bôn
 
 Ao conjurar, escolha a versão original ou a **Expressão Familiar**. A alternativa não ocupa outro espaço e dispensa o PE adicional de Remodelar. Ela conserva a redução de dados necessária para pagar a troca. Você pode Forçar uma Modulação sobre qualquer versão.
 
-Você também aprende sua **terceira Modulação Dominada**. As duas versões continuam sendo o mesmo feitiço para limites de uso da própria ficha, como a Restrição Único. Uma versão alternativa não concede outro uso por cena.
+Você também aprende sua **terceira Modulação Dominada**. As duas versões continuam sendo o mesmo feitiço para limites de uso da própria ficha, como a Restrição Uma Vez. Uma versão alternativa não concede outro uso por cena.
 
 ## Afinidade Técnica
 
@@ -233,7 +233,7 @@ Confira a Classe efetivamente usada, inclusive depois de Ampliar. Com maior Clas
 
 As oito Propriedades estão nas próximas páginas. Você conhece uma no nível 11 e duas a partir do 19. Elas acompanham sua arma vinculada. Com Vínculo Duplo, acompanham ambas, mas **os limites de uso pertencem a você**, não a cada arma.
 
-Trocar de vínculo não restaura usos por cena. A arma continua sendo um item: munição, Integridade, propriedades e efeitos precisam ser registrados. Uma capacidade que a mova não a repara nem a abastece, salvo permissão expressa.
+Trocar de vínculo não restaura usos por cena. A arma continua sendo um item: munição, Vida do objeto, propriedades e efeitos precisam ser registrados. Uma capacidade que a mova não a repara nem a abastece, salvo permissão expressa.
 
 <!-- page:ema-propriedades|Propriedades da arma -->
 # Propriedades da arma
@@ -248,7 +248,7 @@ O retorno não retira a arma de outra criatura que a esteja empunhando. Você pr
 
 Somente uma arma comum ou de **Grau 4 ou 3** recebe esta Propriedade. Ao sacá-la ou manifestá-la, mude seu perfil para outra arma da mesma categoria, cujo requisito de Força você cumpra.
 
-Conserve Grau, Integridade e efeitos próprios compatíveis. A transformação não repara, não recarrega e não altera o tipo ou a quantidade da munição. Antes de assumir um perfil que não aceite a munição instalada, ou que tenha capacidade menor que ela, descarregue a arma pelo procedimento normal.
+Conserve Grau, Vida do objeto e efeitos próprios compatíveis. A transformação não repara, não recarrega e não altera o tipo ou a quantidade da munição. Antes de assumir um perfil que não aceite a munição instalada, ou que tenha capacidade menor que ela, descarregue a arma pelo procedimento normal.
 
 O perfil escolhido funciona enquanto a arma mantiver este vínculo. Ao terminá-lo, ela volta ao perfil original. Munição que então fique incompatível ou excedente permanece no item, mas impede disparar até ajustar a carga pelo procedimento normal. A mudança não altera permanentemente o valor do item.
 
@@ -275,7 +275,7 @@ Você pode liberá-la sem ação no seu turno. Destruí-la ou destruir o apoio t
 
 Mantenha **duas armas vinculadas da categoria**. Pode sacar ou guardar fisicamente ambas no mesmo ato e usar qualquer uma nas habilidades da Trilha. Pague a manipulação exigida por esse ato, sem duplicá-la apenas por serem duas armas.
 
-Cada uma mantém munição, Integridade e efeitos próprios separados. Os limites por cena das suas Propriedades continuam compartilhados.
+Cada uma mantém munição, Vida do objeto e efeitos próprios separados. Os limites por cena das suas Propriedades continuam compartilhados.
 
 ## Sentido do Vínculo
 
