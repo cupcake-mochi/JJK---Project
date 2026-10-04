@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "572ed1ff1b90c10754e3f86a5752dfc89556988b9de2036f76a1bc11e65860cb",
+  "sha256_texto": "64b24f4e2f89840397cee80b2860f41af851f481bb7bb5ba121863d42d8e9a82",
   "titulos_revisto": true,
   "sem_explicacao_alheia": true,
   "vocabulario_revisto": true,
@@ -12,10 +12,11 @@
     "sha256_anterior": "483925447a9de1d0bc32fa2dfe46af1b079438106881b67ced66f0fefe10e653",
     "correcoes": [
       "C08b",
-      "C14"
+      "C14",
+      "D03c"
     ],
     "registro": "revisao-interfaces/CORRECOES-APLICADAS.json",
     "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana.",
-    "conferido": "Trechos trocados lidos um a um: só nomes e remissões ao capítulo dono, nenhuma regra alheia reproduzida, nenhum título alterado. Com o hash anterior, o conferir_editorial dava 0 achados; com o texto novo, todos os achados E002 coincidem em termo e trecho com excecoes_localizacao já revisadas, e o vocabulário não acusa nada."
+    "conferido": "Trechos trocados lidos um a um: nomes, remissões ao capítulo dono ou regra decidida pelo autor; nenhuma regra alheia reproduzida, nenhum título alterado. Todos os achados E002 coincidem em termo e trecho com excecoes_localizacao já revisadas, e o vocabulário não acusa nada."
   }
 }

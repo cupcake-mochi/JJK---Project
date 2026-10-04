@@ -326,7 +326,7 @@ CATÁLOGO DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 11
 Proteção e apoio
-As peças desta página pertencem à Família Auxiliares. O prazo indicado usa o turno do alvo, salvo Ecoa,
+As peças desta seção pertencem à Família Auxiliares. O prazo indicado usa o turno do alvo, salvo Ecoa,
 que usa o seu.
 Guarda - Média
 O alvo recebe +2 na Defesa até o fim do próximo turno dele. O bônus não altera seus TRs. A relação
@@ -673,7 +673,7 @@ entidades, ações ou recursos que não estejam expressamente definidos e pagos.
 Exemplo: uma técnica que move objetos de papel quer deslocar uma aliada sobre uma plataforma. A ficha
 deve dizer quanto a plataforma percorre, se precisa de chão, quantas pessoas leva e o que ocorre diante de
 um obstáculo. “Transporta alguém” ainda não basta para usar a capacidade em jogo.
-Os procedimentos e os exemplos completos estão em Criar um efeito, no Fundamento. A versão de
+Os procedimentos e os exemplos completos estão em Efeitos próprios, no Fundamento. A versão de
 Técnica Máxima usa seu orçamento e seus requisitos próprios; caber nos pontos de uma Classe comum
 não remove o requisito de Máxima.
 
@@ -987,7 +987,7 @@ Reserva Profunda
 Seu PE máximo aumenta em 3 × sua maior Classe. Atualize esse acréscimo quando sua maior Classe
 aumentar.
 O aumento é do máximo: o Talento não é uma ação de recuperação e não pode ser ativado
-repetidamente para repor PE. Recuperar os pontos segue Descanso e recuperação.
+repetidamente para repor PE. Recuperar os pontos segue Descansos, em Dano e recuperação.
 
 
 PÁGINA 29

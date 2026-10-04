@@ -1,12 +1,12 @@
 {
   "ok": true,
-  "sha256_texto": "85b38026ae96486a1db359ddf81157d482b4e03bb7fe4c70c2bb17ab5755a77b",
+  "sha256_texto": "96fe206bd2257b9839da6bc53c97c6b0ca17f82f3bf9f706709e07ecb19ec858",
   "verificacoes": 549,
   "checks": [
     {
       "caso": "52 armas sem perda de linha",
-      "obtido": "{'Machado', 'Rifle de Precisão', 'Revólver', 'Rapieira', 'Yari', 'Manriki', 'Pistola', 'Nodachi', 'Taco', 'Soqueira', 'Canivete', 'Tekko', 'Foice', 'Kusarigama', 'Machete', 'Chicote', 'Machadinha', 'Kama', 'Lança', 'Tessen', 'Punhal', 'Machado de Guerra', 'Naginata', 'Cassetete', 'Odachi', 'Kanabō', 'Kunai', 'Daikyū', 'Besta de Uma Mão', 'Faca', 'Nunchaku', 'Sai', 'Chakram', 'Tonfa', 'Katana', 'Rifle', 'Wakizashi', 'Metralhadora Pesada', 'Shuriken', 'Maul', 'Espada Longa', 'Maça', 'Hankyū', 'Besta', 'Espadão', 'Bastão', 'Tanto', 'Bō', 'Corrente', 'Espingarda', 'Submetralhadora', 'Marreta'}",
-      "esperado": "{'Machado', 'Rifle de Precisão', 'Revólver', 'Rapieira', 'Yari', 'Manriki', 'Pistola', 'Nodachi', 'Taco', 'Soqueira', 'Canivete', 'Tekko', 'Foice', 'Kusarigama', 'Machete', 'Chicote', 'Machadinha', 'Kama', 'Lança', 'Tessen', 'Punhal', 'Machado de Guerra', 'Naginata', 'Cassetete', 'Odachi', 'Kanabō', 'Kunai', 'Daikyū', 'Besta de Uma Mão', 'Faca', 'Nunchaku', 'Sai', 'Chakram', 'Tonfa', 'Katana', 'Rifle', 'Wakizashi', 'Metralhadora Pesada', 'Shuriken', 'Maul', 'Espada Longa', 'Maça', 'Hankyū', 'Besta', 'Espadão', 'Bastão', 'Tanto', 'Bō', 'Corrente', 'Espingarda', 'Submetralhadora', 'Marreta'}",
+      "obtido": "{'Machete', 'Nodachi', 'Machado', 'Chicote', 'Rifle', 'Corrente', 'Rapieira', 'Tekko', 'Yari', 'Odachi', 'Faca', 'Kanabō', 'Tessen', 'Kama', 'Besta de Uma Mão', 'Punhal', 'Kusarigama', 'Rifle de Precisão', 'Taco', 'Katana', 'Sai', 'Tonfa', 'Submetralhadora', 'Chakram', 'Wakizashi', 'Canivete', 'Shuriken', 'Tanto', 'Espada Longa', 'Bastão', 'Naginata', 'Maça', 'Cassetete', 'Manriki', 'Lança', 'Pistola', 'Foice', 'Espingarda', 'Daikyū', 'Marreta', 'Machado de Guerra', 'Hankyū', 'Metralhadora Pesada', 'Bō', 'Machadinha', 'Maul', 'Besta', 'Nunchaku', 'Soqueira', 'Kunai', 'Espadão', 'Revólver'}",
+      "esperado": "{'Machete', 'Nodachi', 'Machado', 'Chicote', 'Rifle', 'Corrente', 'Rapieira', 'Tekko', 'Yari', 'Odachi', 'Faca', 'Kanabō', 'Tessen', 'Kama', 'Besta de Uma Mão', 'Punhal', 'Kusarigama', 'Rifle de Precisão', 'Taco', 'Katana', 'Sai', 'Tonfa', 'Submetralhadora', 'Chakram', 'Wakizashi', 'Canivete', 'Shuriken', 'Tanto', 'Espada Longa', 'Bastão', 'Naginata', 'Maça', 'Cassetete', 'Manriki', 'Lança', 'Pistola', 'Foice', 'Espingarda', 'Daikyū', 'Marreta', 'Machado de Guerra', 'Hankyū', 'Metralhadora Pesada', 'Bō', 'Machadinha', 'Maul', 'Besta', 'Nunchaku', 'Soqueira', 'Kunai', 'Espadão', 'Revólver'}",
       "ok": true
     },
     {
@@ -3990,13 +3990,13 @@
       "ok": true
     },
     {
-      "caso": "Contrato atual: Rodada inteira",
+      "caso": "Contrato atual: Ação Completa",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "caso": "Mutação textual recusada: Rodada inteira",
+      "caso": "Mutação textual recusada: Ação Completa",
       "obtido": false,
       "esperado": false,
       "ok": true
@@ -4141,7 +4141,7 @@
     }
   ],
   "manuscritos_auditados": {
-    "sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/EQUIPAMENTO.md": "85b38026ae96486a1db359ddf81157d482b4e03bb7fe4c70c2bb17ab5755a77b"
+    "sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/EQUIPAMENTO.md": "96fe206bd2257b9839da6bc53c97c6b0ca17f82f3bf9f706709e07ecb19ec858"
   },
   "limites": [
     "Modelos exatos sob hipóteses registradas, sem teste de jogadores.",

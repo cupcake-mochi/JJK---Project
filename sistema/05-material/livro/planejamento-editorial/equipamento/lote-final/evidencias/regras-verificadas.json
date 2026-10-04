@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "sha256_texto": "85b38026ae96486a1db359ddf81157d482b4e03bb7fe4c70c2bb17ab5755a77b",
+  "sha256_texto": "96fe206bd2257b9839da6bc53c97c6b0ca17f82f3bf9f706709e07ecb19ec858",
   "casos": [
     {
       "caso": "52 armas sem perda de linha",
@@ -4138,5 +4138,10 @@
       "esperado": true,
       "ok": true
     }
-  ]
+  ],
+  "revisao_delta_2026_10_04": {
+    "auditoria_reexecutada": "equipamento/lote-final/auditar.py (reexecutado em 04/10/2026)",
+    "resultado": "ok",
+    "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana."
+  }
 }

@@ -1,9 +1,9 @@
 {
   "data": "2026-10-03",
   "ok": true,
-  "verificacoes": 215,
-  "sha256_pdf": "b7a07837d82cb444719a08a5697b6399355ba880af611c567b46bbdc5791fcf3",
-  "sha256_texto": "bd3d2cc16b5a6c2b373eba1f0ebfabfbc548bae3d6a7cd2eec6dcbb4bfab95d9",
+  "verificacoes": 218,
+  "sha256_pdf": "997b5a78b95c7295a34381bf83b110dad69a40f8cd5ab76319c481b8f7f9864c",
+  "sha256_texto": "a4c48e8a12c39294745c4f575e4db9564c99f8ee83a102a3014ea8188e48a6eb",
   "checks": [
     {
       "verificacao": "Quantidade de páginas e seções",
@@ -164,13 +164,13 @@
       "ok": true
     },
     {
-      "verificacao": "p1: página citada entidade-cao",
+      "verificacao": "p1: página citada entidade-vigia",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "verificacao": "p1: página citada entidade-vigia",
+      "verificacao": "p1: página citada entidade-cao",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -706,13 +706,13 @@
       "ok": true
     },
     {
-      "verificacao": "p13: página citada entidades-medidas",
+      "verificacao": "p13: página citada entidades-progressao",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "verificacao": "p13: página citada entidades-progressao",
+      "verificacao": "p13: página citada entidades-medidas",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -797,8 +797,18 @@
     },
     {
       "verificacao": "p15: links corretos",
-      "obtido": [],
-      "esperado": [],
+      "obtido": [
+        16
+      ],
+      "esperado": [
+        16
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "p15: página citada entidades-medidas",
+      "obtido": true,
+      "esperado": true,
       "ok": true
     },
     {
@@ -1049,8 +1059,18 @@
     },
     {
       "verificacao": "p21: links corretos",
-      "obtido": [],
-      "esperado": [],
+      "obtido": [
+        22
+      ],
+      "esperado": [
+        22
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "p21: página citada entidades-passivas-avancadas",
+      "obtido": true,
+      "esperado": true,
       "ok": true
     },
     {
@@ -1217,8 +1237,18 @@
     },
     {
       "verificacao": "p25: links corretos",
-      "obtido": [],
-      "esperado": [],
+      "obtido": [
+        26
+      ],
+      "esperado": [
+        26
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "p25: página citada entidade-vigia-habilidades",
+      "obtido": true,
+      "esperado": true,
       "ok": true
     },
     {
@@ -1329,8 +1359,8 @@
     },
     {
       "verificacao": "Revisão do texto atual",
-      "obtido": "bd3d2cc16b5a6c2b373eba1f0ebfabfbc548bae3d6a7cd2eec6dcbb4bfab95d9",
-      "esperado": "bd3d2cc16b5a6c2b373eba1f0ebfabfbc548bae3d6a7cd2eec6dcbb4bfab95d9",
+      "obtido": "a4c48e8a12c39294745c4f575e4db9564c99f8ee83a102a3014ea8188e48a6eb",
+      "esperado": "a4c48e8a12c39294745c4f575e4db9564c99f8ee83a102a3014ea8188e48a6eb",
       "ok": true
     },
     {
@@ -1341,8 +1371,8 @@
     },
     {
       "verificacao": "Inspeção do PDF atual",
-      "obtido": "b7a07837d82cb444719a08a5697b6399355ba880af611c567b46bbdc5791fcf3",
-      "esperado": "b7a07837d82cb444719a08a5697b6399355ba880af611c567b46bbdc5791fcf3",
+      "obtido": "997b5a78b95c7295a34381bf83b110dad69a40f8cd5ab76319c481b8f7f9864c",
+      "esperado": "997b5a78b95c7295a34381bf83b110dad69a40f8cd5ab76319c481b8f7f9864c",
       "ok": true
     },
     {
@@ -1427,8 +1457,8 @@
     },
     {
       "verificacao": "Cenários usam o manuscrito atual",
-      "obtido": "bd3d2cc16b5a6c2b373eba1f0ebfabfbc548bae3d6a7cd2eec6dcbb4bfab95d9",
-      "esperado": "bd3d2cc16b5a6c2b373eba1f0ebfabfbc548bae3d6a7cd2eec6dcbb4bfab95d9",
+      "obtido": "a4c48e8a12c39294745c4f575e4db9564c99f8ee83a102a3014ea8188e48a6eb",
+      "esperado": "a4c48e8a12c39294745c4f575e4db9564c99f8ee83a102a3014ea8188e48a6eb",
       "ok": true
     },
     {
@@ -1485,7 +1515,7 @@
     },
     {
       "pagina": 9,
-      "final_corpo": 511.72
+      "final_corpo": 558.62
     },
     {
       "pagina": 10,
@@ -1501,7 +1531,7 @@
     },
     {
       "pagina": 13,
-      "final_corpo": 496.92
+      "final_corpo": 510.62
     },
     {
       "pagina": 14,

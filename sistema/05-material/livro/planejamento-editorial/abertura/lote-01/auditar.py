@@ -19,7 +19,7 @@ def read(rel):
     return (P / rel).read_text()
 
 for f, expected in json.loads((B/'evidencias/fontes-preservadas.json').read_text()).items():
-    check('fonte-preservada:' + Path(f).name, hashlib.sha256(Path(f).read_bytes()).hexdigest() == expected)
+    check('fonte-preservada:' + Path(f).name, hashlib.sha256((B.parents[5]/f).read_bytes()).hexdigest() == expected)
 
 kaori = {'F': 3, 'D': 2, 'C': 2, 'I': 1, 'E': 1, 'M': 1, 'nivel': 2}
 check('atributos-nove', sum(kaori[k] for k in 'FDCIE') == 9)

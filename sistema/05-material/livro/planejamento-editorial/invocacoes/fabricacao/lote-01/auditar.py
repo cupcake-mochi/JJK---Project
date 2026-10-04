@@ -111,7 +111,7 @@ fallen=t|{'life':0,'fallen':True};fr,status=transfer(fallen,'Rina',13,13)
 case('Herança não religa Desligada',(fr['life'],fr['fallen']),(0,True))
 case('Destruída não transfere',transfer(t|{'destroyed':True},'Rina',13,13)[1],'recusado')
 check('Sem atuação extra expressa','não dá outra atuação no ciclo' in S)
-check('Corpo excedente não ganha controle','sem controle até haver espaço' in S)
+check('Corpo excedente não ganha controle','permanece no mundo sem controle e volta conforme **Invocações em campo**' in S and 'não amplia esse limite' in S)  # decisão G2-03 de 04/10/2026: a volta segue a trava de Invocações em campo
 check('Custo/slot preservado','nem ocupa espaço conhecido' in S)
 check('Origem/aptidão não concedidas','não concede uma Origem, técnica, aptidão' in S)
 check('Teste único por entidade','Cada entidade exige sua própria tentativa de conclusão' in S)

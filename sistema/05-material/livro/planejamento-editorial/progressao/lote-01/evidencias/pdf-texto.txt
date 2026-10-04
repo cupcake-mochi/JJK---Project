@@ -493,9 +493,9 @@ forma explícita e coerente. Uma vaga livre não cria esse conceito.
 Classe 0, Liberações Máximas e Técnica Máxima têm suas próprias quantidades e não fornecem
 espaços para outras compras. Os ganhos de Leque também permanecem registrados à parte.
 Revisão ao subir de nível
-Você pode reescrever um feitiço conhecido, incluindo uma Liberação Máxima, ou rever um espaço
-ocupado por entidade: trocar sua entidade ou mudar entre entidade e feitiço. É a mesma revisão, não
-uma para cada opção.
+Você pode reescrever um feitiço conhecido, incluindo uma Liberação Máxima, a Técnica Máxima, ou
+rever um espaço ocupado por entidade: trocar sua entidade ou mudar entre entidade e feitiço. É a
+mesma revisão, não uma para cada opção.
 Quando uma habilidade concede duas entidades no mesmo espaço, a revisão daquele espaço abrange a
 dupla. Isso não transfere a duplicação para outros espaços. Preencher um espaço novo não gasta a
 revisão do nível.
@@ -599,9 +599,10 @@ entidades mais sua capacidade de controle. Conte os ativos e os inativos juntos.
 Se a capacidade cair de quatro para duas e o atributo for 3, o total cai de sete para cinco corpos. Escolha
 os cinco que continuará controlando. Os outros permanecem fisicamente no mundo, sem receber
 ordens, acompanhar por controle ou usar capacidades para você. Não desaparecem nem são destruídos.
-Registre a seleção. Recuperar o controle de um corpo suspenso exige uma aquisição ou transferência de
-vínculo permitida, com os procedimentos de Fabricação de entidades e os limites de Invocações em
-campo. Estar perto dele ou voltar à cidade não permite alternar gratuitamente o grupo controlado.
+Registre a seleção. Um corpo suspenso volta ao seu controle quando uma vaga se abre porque um corpo
+controlado foi destruído ou porque seu total permitido aumentou, conforme Invocações em campo.
+Soltar um corpo de propósito, estar perto do suspenso ou voltar à cidade não permite alternar o grupo
+controlado.
 Também remova básicas, especiais, Talentos ou Famílias concedidas apenas pela Trilha anterior.
 Registre versões válidas das fichas afetadas. Entidades domadas ou fabricadas conservam sua aquisição
 própria; a troca de Trilha não as transforma em entidades por espaço nem aumenta seu nível.
@@ -703,8 +704,8 @@ A patente registra o reconhecimento do personagem pela instituição. O Projeto 
 e Especial, nessa ordem crescente. Ela pode influenciar responsabilidades, acesso a recursos e a
 remuneração adotada pela campanha.
 Na criação padrão, você começa no Grau 4, independentemente da Origem. Uma campanha que comece
-com personagens já reconhecidos pode definir outra patente inicial, conforme Compras e equipamento
-inicial. Começar em um nível maior não concede essa mudança automaticamente.
+com personagens já reconhecidos pode definir outra patente inicial, conforme Equipamento inicial, em
+Equipamento. Começar em um nível maior não concede essa mudança automaticamente.
 A patente avança pelos feitos reconhecidos na campanha. O mestre, ou a organização da guilda, informa
 quando uma promoção ocorre e registra o novo Grau e o feito que a motivou. A subida de nível e os
 feitos do Limiar não concedem uma patente por conta própria.

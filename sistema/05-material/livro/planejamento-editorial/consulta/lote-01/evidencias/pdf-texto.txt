@@ -125,7 +125,8 @@ pessoal. Consulta: Lapidação.
 Legado. Escolha da Origem que registra uma capacidade ou vínculo. Cada entrada informa seu tipo e
 suas consequências. Consulta: Origens.
 Leve, Média e Pesada. Nomes de faixas de preço e também de categorias de Condição. Consulte a tabela
-correspondente; pontos de montagem e PE não são a mesma conta. Consulta: Pontos e preços.
+correspondente; pontos de montagem e PE não são a mesma conta. Leve também é uma propriedade de
+arma, explicada em Propriedades, no capítulo Equipamento. Consulta: Pontos e preços.
 Maestria. Bônus ligado ao nível. Só entra nas rolagens e valores que indiquem seu uso. Consulta:
 Atributos.
 Manejo. Aplicação criada a partir da semente de quem segue Sem Técnica. Consulta: Sem Técnica.
@@ -1100,7 +1101,7 @@ Regras gerais: Treino e modificadores
 Dívida
 Catálogo: Condições de uso
 Domar
-Montagem de entidades: Domar uma maldição
+Construir invocações: Domar uma maldição
 Duração
 Fundamento: Conjurar
 Duradoura
@@ -1120,7 +1121,7 @@ Dano e Recuperação: Vida e energia temporárias
 Enfeitiçado
 Dano e Recuperação: Condições médias
 Entidade
-Montagem de entidades: Criar uma invocação
+Construir invocações: Criar uma invocação
 Envenenado
 Dano e Recuperação: Condições pesadas
 Escolher
@@ -1247,7 +1248,7 @@ Invocações: Dar uma tarefa
 Inventário
 Equipamento
 Invocação
-Montagem de entidades: Adquirir entidades
+Construir invocações: Adquirir entidades
 Invocador
 Invocações: Invocações em campo
 Kata

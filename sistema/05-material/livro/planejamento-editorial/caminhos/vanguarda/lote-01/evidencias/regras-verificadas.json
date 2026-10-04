@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "sha256_texto": "743f954c5be1033034a71bbae0e8383bffdb82944e28341e5ee089338bb0b85b",
+  "sha256_texto": "65c184399433da368999072af7019ad8d01e2c6b00b81d10930c8d7c01a7171b",
   "verificacoes": 70,
   "casos": [
     {
@@ -261,5 +261,10 @@
       "esperado": true,
       "ok": true
     }
-  ]
+  ],
+  "revisao_delta_2026_10_04": {
+    "auditoria_reexecutada": "evidencias/auditoria-numerica.json",
+    "resultado": "ok",
+    "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana."
+  }
 }

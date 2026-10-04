@@ -309,7 +309,8 @@ Defesa e deslocamento
 Calcule a Defesa com Destreza, proteção e escudo, conforme as peças que você usa. Respeite o teto de
 Destreza da proteção. Fontes de proteção que não se acumulam não entram duas vezes.
 O deslocamento padrão é 9 m. Aplique qualquer alteração efetivamente recebida pela ficha. Modos
-diferentes de movimento, terreno e excesso de carga seguem Movimento.
+diferentes de movimento e terreno seguem Movimento. Excesso de carga segue Carga, em Regras
+gerais.
 Ataques e testes
 Calcule separadamente o bônus de acerto e o dano de cada ataque. Treino acrescenta Maestria ao acerto
 quando a regra permitir. Um atributo presente no acerto não entra automaticamente no dano de um

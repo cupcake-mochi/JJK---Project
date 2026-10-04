@@ -2,8 +2,8 @@
   "data": "2026-10-03",
   "ok": true,
   "verificacoes": 242,
-  "sha256_pdf": "c1bd7b39198e104cef38345e43483b754c1c4694c43b1cc6ef260757e12204c8",
-  "sha256_texto": "3ff14332800456da87ee8c49fa9648596003e332291823abe24dcf8fa5afe785",
+  "sha256_pdf": "55b95d6ca7d37bd4352508b736c530262f3e33fce10dbd532dd23f8e68241006",
+  "sha256_texto": "61f9e65fdfdb59517c710fb6aa6e0e19631823212f3155572b40870c3b2670ff",
   "checks": [
     {
       "verificacao": "Quantidade de páginas e seções",
@@ -190,13 +190,7 @@
       "ok": true
     },
     {
-      "verificacao": "p1: página citada cat-passivas-1",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "verificacao": "p1: página citada cat-castigo",
+      "verificacao": "p1: página citada cat-tempo",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -208,31 +202,19 @@
       "ok": true
     },
     {
-      "verificacao": "p1: página citada cat-auxiliares",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "verificacao": "p1: página citada cat-controle",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "verificacao": "p1: página citada cat-marca",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "verificacao": "p1: página citada cat-alcance",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
       "verificacao": "p1: página citada cat-mira",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: página citada cat-castigo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: página citada cat-proprio",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -250,19 +232,37 @@
       "ok": true
     },
     {
-      "verificacao": "p1: página citada cat-proprio",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "verificacao": "p1: página citada cat-tempo",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
       "verificacao": "p1: página citada cat-regra-propria",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: página citada cat-passivas-1",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: página citada cat-auxiliares",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: página citada cat-alcance",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: página citada cat-marca",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: página citada cat-controle",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -1499,8 +1499,8 @@
     },
     {
       "verificacao": "Revisão do texto atual",
-      "obtido": "3ff14332800456da87ee8c49fa9648596003e332291823abe24dcf8fa5afe785",
-      "esperado": "3ff14332800456da87ee8c49fa9648596003e332291823abe24dcf8fa5afe785",
+      "obtido": "61f9e65fdfdb59517c710fb6aa6e0e19631823212f3155572b40870c3b2670ff",
+      "esperado": "61f9e65fdfdb59517c710fb6aa6e0e19631823212f3155572b40870c3b2670ff",
       "ok": true
     },
     {
@@ -1511,8 +1511,8 @@
     },
     {
       "verificacao": "Inspeção do PDF atual",
-      "obtido": "c1bd7b39198e104cef38345e43483b754c1c4694c43b1cc6ef260757e12204c8",
-      "esperado": "c1bd7b39198e104cef38345e43483b754c1c4694c43b1cc6ef260757e12204c8",
+      "obtido": "55b95d6ca7d37bd4352508b736c530262f3e33fce10dbd532dd23f8e68241006",
+      "esperado": "55b95d6ca7d37bd4352508b736c530262f3e33fce10dbd532dd23f8e68241006",
       "ok": true
     },
     {
@@ -1603,8 +1603,8 @@
     },
     {
       "verificacao": "Cenários usam o manuscrito atual",
-      "obtido": "3ff14332800456da87ee8c49fa9648596003e332291823abe24dcf8fa5afe785",
-      "esperado": "3ff14332800456da87ee8c49fa9648596003e332291823abe24dcf8fa5afe785",
+      "obtido": "61f9e65fdfdb59517c710fb6aa6e0e19631823212f3155572b40870c3b2670ff",
+      "esperado": "61f9e65fdfdb59517c710fb6aa6e0e19631823212f3155572b40870c3b2670ff",
       "ok": true
     },
     {

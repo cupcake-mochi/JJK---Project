@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "sha256_texto": "cbdc3648f5faa76a3973fd1dc9b8d196a5e46d5508163bc2e3720b33c2512a40",
+  "sha256_texto": "b397b7351a1dc477df4fff10dce6ebaccd9e3147913ca9bcef3fc65640e45603",
   "casos": [
     {
       "teste": "IDs únicos",
@@ -634,5 +634,10 @@
     "alteracoes": "Migração de nomes, concordância e remissões atuais; fórmulas e procedimentos invariantes.",
     "evidencia": "consolidacao/lote-01/migracao-nomes/diffs/rotas.diff",
     "auditoria_reexecutada": "evidencias/auditoria-numerica.json"
+  },
+  "revisao_delta_2026_10_04": {
+    "auditoria_reexecutada": "evidencias/auditoria-numerica.json",
+    "resultado": "ok",
+    "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana."
   }
 }

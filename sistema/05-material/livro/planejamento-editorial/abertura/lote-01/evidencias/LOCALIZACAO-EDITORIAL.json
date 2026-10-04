@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "db72eaa2768b1e59e283bbe7fc76bddf222472f9cb7343f31e53fd818856bb47",
+  "sha256_texto": "6778c50063b3549bce9e8e5c02961ec2aec0a803ceff75844e68fe9d7729bd1e",
   "titulos_revisto": true,
   "sem_explicacao_alheia": true,
   "vocabulario_revisto": true,
@@ -56,6 +56,6 @@
     ],
     "registro": "revisao-interfaces/CORRECOES-APLICADAS.json",
     "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana.",
-    "conferido": "Trechos trocados lidos um a um: só nomes e remissões ao capítulo dono, nenhuma regra alheia reproduzida, nenhum título alterado. Com o hash anterior, o conferir_editorial dava 0 achados; com o texto novo, todos os achados E002 coincidem em termo e trecho com excecoes_localizacao já revisadas, e o vocabulário não acusa nada."
+    "conferido": "Trechos trocados lidos um a um: só nomes e remissões ao capítulo dono, nenhuma regra alheia reproduzida, nenhum título alterado. Com o hash anterior, o conferir_editorial dava 0 achados; com o texto novo, todos os achados E002 coincidem em termo e trecho com excecoes_localizacao já revisadas, e o vocabulário não acusa nada. Na segunda passada, o ponto e vírgula de C08d virou ponto, porque o auditor da unidade proíbe ponto e vírgula."
   }
 }

@@ -149,7 +149,7 @@ ck('3d8 sucesso1d8',next(x['quebranto'] for x in tr if x['dados']==3 and x['dife
 ck('3d8 médiaTR7.65',next(x['normal'] for x in tr if x['dados']==3 and x['diferenca']==0),7.65)
 ck('Desgaste sequência preservada',[2,2,1,0],[3-1,3-1,3-2,3-3])
 # Invariants attached to the current wording and adversarial removals.
-phrases=['Não concede outro ataque','A arma e as mãos necessárias ficam ocupadas','livres de outros objetos ou tarefas','Rodada inteira','6 segundos','a peça não está pronta para uso','termine de retirar o anterior','Seu teto de Destreza continua valendo','sem acrescentar nem consumir munição','cada nova manipulação simples exige uma Ação de Movimento inteira','se essa mão estiver livre','sem crítico','somente a Integridade','Cópias do mesmo efeito compartilham o limite por personagem','antes de começar a preparar o novo']
+phrases=['Não concede outro ataque','A arma e as mãos necessárias ficam ocupadas','livres de outros objetos ou tarefas','Ação Completa','6 segundos','a peça não está pronta para uso','termine de retirar o anterior','Seu teto de Destreza continua valendo','sem acrescentar nem consumir munição','cada nova manipulação simples exige uma Ação de Movimento inteira','se essa mão estiver livre','sem crítico','somente a Integridade','Cópias do mesmo efeito compartilham o limite por personagem','antes de começar a preparar o novo']
 for phrase in phrases:
  ck('Contrato atual: '+phrase,phrase in s);ck('Mutação textual recusada: '+phrase,phrase in s.replace(phrase,'REMOVIDO'),False)
 # Ownership: do not reproduce Assassin/Pugilist/other class mechanics.

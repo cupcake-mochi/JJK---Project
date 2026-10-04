@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "sha256_texto": "3ff14332800456da87ee8c49fa9648596003e332291823abe24dcf8fa5afe785",
+  "sha256_texto": "61f9e65fdfdb59517c710fb6aa6e0e19631823212f3155572b40870c3b2670ff",
   "casos": [
     {
       "cenario": "Queima Rajada 3/2/2: acertam 3 e 2",
@@ -282,5 +282,10 @@
     }
   ],
   "quantidade": 36,
-  "limites": "Modelos dirigidos e hipóteses explícitas; não simulam iniciativa, builds completos, inimigos ou aceitação humana."
+  "limites": "Modelos dirigidos e hipóteses explícitas; não simulam iniciativa, builds completos, inimigos ou aceitação humana.",
+  "revisao_delta_2026_10_04": {
+    "auditoria_reexecutada": "catalogo/lote-01/auditar.py (reexecutado em 04/10/2026)",
+    "resultado": "ok",
+    "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana."
+  }
 }

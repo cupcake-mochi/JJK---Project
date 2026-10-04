@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "sha256_texto": "027d4f93d4d59d6674cf3d0ac7f380bd387c367d1e012740b6d25e71b744ba1f",
+  "sha256_texto": "9c99cc60360abca18c6072753f713c12b9294b9df463ae3d8747d6dc922302aa",
   "origem": "evidencias/AUDITORIA.json",
   "verificacoes": 92,
   "observacao": "Revisão independente registrada em REVISAO-INDEPENDENTE-MAXIMA.md",
@@ -9,5 +9,10 @@
     "alteracoes": "Migração de nomes, concordância e remissões atuais; fórmulas e procedimentos invariantes.",
     "evidencia": "consolidacao/lote-01/migracao-nomes/diffs/emanador.diff",
     "auditoria_reexecutada": "evidencias/AUDITORIA.json"
+  },
+  "revisao_delta_2026_10_04": {
+    "auditoria_reexecutada": "evidencias/AUDITORIA.json",
+    "resultado": "ok",
+    "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana."
   }
 }

@@ -1,8 +1,8 @@
 {
   "data": "2026-10-03",
   "sha256_texto": "3705e460791db6ae03b79eb2f7b25d13936a1c1ab54ddba616fa3872407f09f1",
-  "sha256_pdf": "cd47ec69eb86f24df55f4ad545320d02a992869412687b87282f184669b58b5a",
-  "metodo": "Todas as páginas alteradas pela migração e seus complementos foram abertas individualmente. As demais conservam a inspeção anterior por igualdade de pixels comprovada, sem alegar nova leitura visual.",
+  "sha256_pdf": "f1c7eef9f2e6bb01a806abf213ef84ebecb8b5f341830f1a726e260a81c5fff8",
+  "metodo": "Páginas alteradas abertas e inspecionadas. Demais páginas reutilizam inspeção anterior somente por igualdade de pixels, comprovada em COMPARACAO-VISUAL-2026-10-04.json.",
   "prova_anterior": "8218bdcbfcfb307489d72c0608054524365ec9af491903fd3e002754f512ae83",
   "comparacao": "evidencias/COMPARACAO-NOMES-PDF.json",
   "paginas": [
@@ -44,7 +44,9 @@
       "revisor": "/root",
       "pixels_iguais_rodada_anterior": true,
       "evidencia_preservacao": "Identidade de pixels com a página já inspecionada na prova anterior; não houve nova abertura nesta rodada.",
-      "imagem": "output/png/pagina-04.png"
+      "imagem": "output/png/pagina-04.png",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026, revisão por modelo",
+      "arquivo": null
     },
     {
       "pagina": 5,
@@ -94,7 +96,9 @@
       "revisor": "/root",
       "pixels_iguais_rodada_anterior": true,
       "evidencia_preservacao": "Identidade de pixels com a página já inspecionada na prova anterior; não houve nova abertura nesta rodada.",
-      "imagem": "output/png/pagina-09.png"
+      "imagem": "output/png/pagina-09.png",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026, revisão por modelo",
+      "arquivo": null
     },
     {
       "pagina": 10,
@@ -184,7 +188,9 @@
       "revisor": "/root",
       "pixels_iguais_rodada_anterior": true,
       "evidencia_preservacao": "Identidade de pixels com a página já inspecionada na prova anterior; não houve nova abertura nesta rodada.",
-      "imagem": "output/png/pagina-18.png"
+      "imagem": "output/png/pagina-18.png",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026, revisão por modelo",
+      "arquivo": null
     },
     {
       "pagina": 19,
@@ -204,7 +210,9 @@
       "revisor": "/root",
       "pixels_iguais_rodada_anterior": true,
       "evidencia_preservacao": "Identidade de pixels com a página já inspecionada na prova anterior; não houve nova abertura nesta rodada.",
-      "imagem": "output/png/pagina-20.png"
+      "imagem": "output/png/pagina-20.png",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026, revisão por modelo",
+      "arquivo": null
     },
     {
       "pagina": 21,
@@ -267,5 +275,22 @@
       "imagem": "output/png/pagina-26.png"
     }
   ],
-  "limites": "Inspeção por modelo em PNG a 100 dpi, sem impressão física ou teste com leitores humanos."
+  "limites": "Inspeção por modelo em PNG a 100 dpi, sem impressão física ou teste com leitores humanos.",
+  "sha256_pdf_anterior": "cd47ec69eb86f24df55f4ad545320d02a992869412687b87282f184669b58b5a",
+  "revisao_delta_2026_10_04": {
+    "sha256_anterior": "bb29c37e9abc8f4b031b530671d3bcf3f67b04bd07600d67398f7440bf33a244",
+    "sha256_atual": "3cadc87096d53d3056b0e4817a7a79479c34ef54b611e2601b454e70c2df748e",
+    "mudancas": [
+      "C02",
+      "D01"
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.json",
+    "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana.",
+    "paginas_alteradas": [
+      4,
+      9,
+      18,
+      20
+    ]
+  }
 }

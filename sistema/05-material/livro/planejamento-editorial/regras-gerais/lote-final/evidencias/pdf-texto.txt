@@ -243,7 +243,7 @@ Movimento
 A Ação de Movimento oferece os metros indicados no deslocamento da ficha, normalmente 9 m. Você
 pode dividir o percurso antes e depois das outras ações. Uma tarefa que consuma a Ação de Movimento
 inteira não pode usar a mesma ação já gasta parcialmente para andar.
-Um custo de Rodada inteira consome Ação Padrão, Ação Bônus e Ação de Movimento de uma vez. A
+Um custo de Ação Completa consome Ação Padrão, Ação Bônus e Ação de Movimento de uma vez. A
 Reação permanece disponível. As regras de Movimento detalham terrenos, saltos, quedas e travessias
 especiais.
 
@@ -1335,7 +1335,7 @@ Qual procedimento usar
 Onde resolver
 Encontrar uma presença ou pista
 pelos sentidos comuns
-Vasculhar, nesta página.
+Vasculhar, nesta seção.
 Localizar uma fonte de energia
 Vasculhar com Sentir Energia (p. 37).
 Compreender uma criatura, um

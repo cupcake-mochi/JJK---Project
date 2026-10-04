@@ -1,17 +1,30 @@
 {
   "sistema/05-material/livro/planejamento-editorial/invocacoes/lote-02/CONSTRUIR-INVOCACOES.md": {
-    "sha256_final": "bd3d2cc16b5a6c2b373eba1f0ebfabfbc548bae3d6a7cd2eec6dcbb4bfab95d9",
-    "motivo": "Atualização concorrente cotejada: reserva e remissões previamente aprovadas em R11/R12, seguida da migração nominal. R04 REM03/12 somente referências textuais; regras de fabricação intactas.",
-    "evidencia": "MIGRACAO.json e REMISSOES-FINAIS.json dos donos; fontes originais preservadas."
+    "sha256_final": "a4c48e8a12c39294745c4f575e4db9564c99f8ee83a102a3014ea8188e48a6eb",
+    "motivo": "Atualização cotejada em 04/10/2026 (C10 e D02b, revisao-interfaces/CORRECOES-APLICADAS.json): ataque da entidade com Classe 0 ou arma, Defesa com teto da peça e volta de corpos excedentes com trava. A volta é a regra para a qual esta unidade remete; regras de fabricação intactas. Revisão por modelo.",
+    "evidencia": "MIGRACAO.json e REMISSOES-FINAIS.json dos donos; fontes originais preservadas.",
+    "historico_2026_10_04": {
+      "sha256_anterior": "bd3d2cc16b5a6c2b373eba1f0ebfabfbc548bae3d6a7cd2eec6dcbb4bfab95d9",
+      "motivo": "Atualização concorrente cotejada: reserva e remissões previamente aprovadas em R11/R12, seguida da migração nominal. R04 REM03/12 somente referências textuais; regras de fabricação intactas."
+    }
   },
   "sistema/05-material/livro/planejamento-editorial/pericias-e-oficios/lote-01/PERICIAS-E-OFICIOS.md": {
-    "sha256_final": "016423f17da7111635e8d9973afd6c810bfb7f5d7f93c3f1e235bf91d0385fdc",
-    "motivo": "Atualização concorrente cotejada: reserva e remissões previamente aprovadas em R11/R12, seguida da migração nominal. R04 REM03/12 somente referências textuais; regras de fabricação intactas.",
-    "evidencia": "MIGRACAO.json e REMISSOES-FINAIS.json dos donos; fontes originais preservadas."
+    "sha256_final": "2d8ba86ef20865c3022197ab4c8027f3b2bf43dde353e35e14d76c0d0e9aafae",
+    "motivo": "Cotejado em 04/10/2026: o fechamento da integração trocou três vezes \"As perícias desta página\" por \"desta seção\". Só redação de remissão; nenhuma regra de perícia ou de fabricação mudou. Atualização concorrente cotejada: reserva e remissões previamente aprovadas em R11/R12, seguida da migração nominal. R04 REM03/12 somente referências textuais; regras de fabricação intactas.",
+    "evidencia": "MIGRACAO.json e REMISSOES-FINAIS.json dos donos; fontes originais preservadas.",
+    "historico_2026_10_04": {
+      "sha256_final_anterior": "016423f17da7111635e8d9973afd6c810bfb7f5d7f93c3f1e235bf91d0385fdc",
+      "motivo_anterior": "Atualização concorrente cotejada: reserva e remissões previamente aprovadas em R11/R12, seguida da migração nominal. R04 REM03/12 somente referências textuais; regras de fabricação intactas."
+    },
+    "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana."
   },
   "sistema/05-material/livro/planejamento-editorial/invocacoes/lote-01/INVOCACOES-EM-CAMPO.md": {
-    "sha256_final": "297d96084502eb65780b9ed2ac4f7e121a235cfdbb6e41db254f980e55393dcd",
-    "motivo": "Atualização concorrente cotejada: reserva e remissões previamente aprovadas em R11/R12, seguida da migração nominal. R04 REM03/12 somente referências textuais; regras de fabricação intactas.",
-    "evidencia": "MIGRACAO.json e REMISSOES-FINAIS.json dos donos; fontes originais preservadas."
+    "sha256_final": "b9ee96c405359f6fe879f55dd972ca8a32cc565c8c318c241be2b73047519d38",
+    "motivo": "Atualização cotejada em 04/10/2026 (D02 e D03, revisao-interfaces/CORRECOES-APLICADAS.json): ataque da entidade com Classe 0 ou arma, Defesa com teto da peça e volta de corpos excedentes com trava. A volta é a regra para a qual esta unidade remete; regras de fabricação intactas. Revisão por modelo.",
+    "evidencia": "MIGRACAO.json e REMISSOES-FINAIS.json dos donos; fontes originais preservadas.",
+    "historico_2026_10_04": {
+      "sha256_anterior": "297d96084502eb65780b9ed2ac4f7e121a235cfdbb6e41db254f980e55393dcd",
+      "motivo": "Atualização concorrente cotejada: reserva e remissões previamente aprovadas em R11/R12, seguida da migração nominal. R04 REM03/12 somente referências textuais; regras de fabricação intactas."
+    }
   }
 }

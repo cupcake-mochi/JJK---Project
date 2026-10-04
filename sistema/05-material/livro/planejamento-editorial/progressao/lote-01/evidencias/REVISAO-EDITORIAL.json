@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "483925447a9de1d0bc32fa2dfe46af1b079438106881b67ced66f0fefe10e653",
+  "sha256_texto": "64b24f4e2f89840397cee80b2860f41af851f481bb7bb5ba121863d42d8e9a82",
   "conclusao": "Revisão anterior conservada; PRO35 acrescenta seção Patentes lida pela raiz. Prova14p e interfaces R03 em conferência.",
   "itens": [
     "Títulos identificam o assunto sem artigo inicial ou fórmula Como ler.",
@@ -249,5 +249,17 @@
       "validacao_visual": "Pendente nova página14."
     }
   ],
-  "delta_nominal_final": "DELTA-QA-FINAL.json"
+  "delta_nominal_final": "DELTA-QA-FINAL.json",
+  "revisao_delta_2026_10_04": {
+    "sha256_anterior": "483925447a9de1d0bc32fa2dfe46af1b079438106881b67ced66f0fefe10e653",
+    "sha256_atual": "64b24f4e2f89840397cee80b2860f41af851f481bb7bb5ba121863d42d8e9a82",
+    "mudancas": [
+      "C08b",
+      "C14",
+      "D03c"
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.json",
+    "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana.",
+    "conferido": "Trechos trocados relidos: nomes, remissões ou regra decidida pelo autor; títulos e seções inalterados."
+  }
 }

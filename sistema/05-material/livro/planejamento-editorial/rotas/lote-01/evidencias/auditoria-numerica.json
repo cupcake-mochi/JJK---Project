@@ -1,5 +1,5 @@
 {
-  "manuscrito_sha256": "cbdc3648f5faa76a3973fd1dc9b8d196a5e46d5508163bc2e3720b33c2512a40",
+  "manuscrito_sha256": "b397b7351a1dc477df4fff10dce6ebaccd9e3147913ca9bcef3fc65640e45603",
   "fontes": [
     "R06 tabela Pontos e preços / Feitiços conhecidos",
     "R09 Canalizar",
@@ -3927,7 +3927,7 @@
   ],
   "ok": true,
   "manuscritos_auditados": {
-    "sistema/05-material/livro/planejamento-editorial/rotas/lote-01/ROTAS.md": "cbdc3648f5faa76a3973fd1dc9b8d196a5e46d5508163bc2e3720b33c2512a40"
+    "sistema/05-material/livro/planejamento-editorial/rotas/lote-01/ROTAS.md": "b397b7351a1dc477df4fff10dce6ebaccd9e3147913ca9bcef3fc65640e45603"
   },
   "checks": [
     {

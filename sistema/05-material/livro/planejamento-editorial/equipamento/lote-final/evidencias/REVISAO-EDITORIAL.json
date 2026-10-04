@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "85b38026ae96486a1db359ddf81157d482b4e03bb7fe4c70c2bb17ab5755a77b",
+  "sha256_texto": "96fe206bd2257b9839da6bc53c97c6b0ca17f82f3bf9f706709e07ecb19ec858",
   "revisor": "compatibilidade — releitura integral da consolidação",
   "conclusao": "Autoria revisada. Revisão independente e visual ainda pendentes.",
   "secoes": [
@@ -649,5 +649,20 @@
       "REM-UNIFORME"
     ],
     "independente": "/root aprovou o relatório de /root/rotas_didatica e os antes/depois."
+  },
+  "revisao_delta_2026_10_04": {
+    "sha256_anterior": "1cd88fbd70310dbf412be3880a239022485447922992c8bbc9503dc3b07595de",
+    "sha256_atual": "96fe206bd2257b9839da6bc53c97c6b0ca17f82f3bf9f706709e07ecb19ec858",
+    "mudancas": [
+      "C04b",
+      "C07",
+      "C11",
+      "C12"
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.json",
+    "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana.",
+    "sha256_revisao_editorial_anterior": "85b38026ae96486a1db359ddf81157d482b4e03bb7fe4c70c2bb17ab5755a77b",
+    "nota": "A revisão editorial anterior era de uma versão de antes do fechamento da integração; o delta do fechamento até a main foi só redação de remissões (\"nesta página\" para \"nesta seção\", links), relido nesta rodada.",
+    "conferido": "Trechos trocados relidos: nomes, remissões ou regra decidida pelo autor; títulos e seções inalterados."
   }
 }

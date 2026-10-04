@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "3705e460791db6ae03b79eb2f7b25d13936a1c1ab54ddba616fa3872407f09f1",
+  "sha256_texto": "3cadc87096d53d3056b0e4817a7a79479c34ef54b611e2601b454e70c2df748e",
   "titulos_revisto": true,
   "sem_explicacao_alheia": true,
   "vocabulario_revisto": true,
@@ -28,5 +28,18 @@
     "sha256_atual": "3705e460791db6ae03b79eb2f7b25d13936a1c1ab54ddba616fa3872407f09f1",
     "escopo": "Somente o delta nominal foi relido nesta etapa; leitura integral anterior preservada no snapshot. Números e âncoras idênticos.",
     "evidencia": "consolidacao/lote-01/migracao-nomes/MIGRACAO.json"
+  },
+  "revisao_delta_2026_10_04": {
+    "sha256_revisado": "3705e460791db6ae03b79eb2f7b25d13936a1c1ab54ddba616fa3872407f09f1",
+    "texto_revisado": "consolidacao/lote-01/evidencias/antes-fechamento-integracao/fontes/caminhos/incursor/lote-01/INCURSOR.md",
+    "sha256_main": "bb29c37e9abc8f4b031b530671d3bcf3f67b04bd07600d67398f7440bf33a244",
+    "delta_fechamento_integracao": "Entre o texto revisado e a main só mudaram remissões de posição (\"nesta página\", \"na próxima página\") para \"nesta seção\" ou links com o título da seção. Nenhuma regra, título ou nome mudou.",
+    "correcoes": [
+      "C02",
+      "D01"
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.json",
+    "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana.",
+    "conferido": "As duas parcelas do delta foram lidas linha a linha: as remissões do fechamento e as correções e decisões desta rodada. Nenhuma regra alheia reproduzida, nenhum título alterado. Todos os achados E002 coincidem em termo e trecho com excecoes_localizacao já revisadas, e o vocabulário não acusa nada."
   }
 }

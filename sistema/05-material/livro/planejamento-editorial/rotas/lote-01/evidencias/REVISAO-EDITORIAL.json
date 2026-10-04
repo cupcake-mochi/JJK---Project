@@ -284,7 +284,7 @@
     "Revisão independente por outro agente-modelo.",
     "Teste com jogadores humanos não realizado."
   ],
-  "sha256_texto": "cbdc3648f5faa76a3973fd1dc9b8d196a5e46d5508163bc2e3720b33c2512a40",
+  "sha256_texto": "b397b7351a1dc477df4fff10dce6ebaccd9e3147913ca9bcef3fc65640e45603",
   "revisor": "Autor rotas_didatica e leitura independente integral do principal",
   "teste_humano": false,
   "revisao_delta": {
@@ -298,5 +298,16 @@
     "diff": "consolidacao/lote-01/migracao-nomes/diffs/rotas.diff",
     "conclusao": "Diff completo lido. Preços, ações, limites, acesso e efeitos permanecem iguais. Mudam categoria, nomes e concordância gramatical."
   },
-  "remissao_final": "Destino de montagem separado de manifestação/comando, com títulos atuais."
+  "remissao_final": "Destino de montagem separado de manifestação/comando, com títulos atuais.",
+  "revisao_delta_2026_10_04": {
+    "sha256_anterior": "cbdc3648f5faa76a3973fd1dc9b8d196a5e46d5508163bc2e3720b33c2512a40",
+    "sha256_atual": "b397b7351a1dc477df4fff10dce6ebaccd9e3147913ca9bcef3fc65640e45603",
+    "mudancas": [
+      "C08c",
+      "C09"
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.json",
+    "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana.",
+    "conferido": "Trechos trocados relidos: nomes, remissões ou regra decidida pelo autor; títulos e seções inalterados."
+  }
 }

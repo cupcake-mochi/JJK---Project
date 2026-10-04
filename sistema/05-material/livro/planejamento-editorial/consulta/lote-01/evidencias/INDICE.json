@@ -807,7 +807,7 @@
       "titulo": "Domar uma maldição"
     },
     "nota": null,
-    "consulta": "Montagem de entidades: Domar uma maldição"
+    "consulta": "Construir invocações: Domar uma maldição"
   },
   {
     "termo": "Duração",
@@ -907,7 +907,7 @@
       "titulo": "Criar uma invocação"
     },
     "nota": null,
-    "consulta": "Montagem de entidades: Criar uma invocação"
+    "consulta": "Construir invocações: Criar uma invocação"
   },
   {
     "termo": "Envenenado",
@@ -1437,7 +1437,7 @@
       "titulo": "Adquirir entidades"
     },
     "nota": null,
-    "consulta": "Montagem de entidades: Adquirir entidades"
+    "consulta": "Construir invocações: Adquirir entidades"
   },
   {
     "termo": "Invocador",

@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "85b38026ae96486a1db359ddf81157d482b4e03bb7fe4c70c2bb17ab5755a77b",
+  "sha256_texto": "96fe206bd2257b9839da6bc53c97c6b0ca17f82f3bf9f706709e07ecb19ec858",
   "titulos_revisto": true,
   "sem_explicacao_alheia": true,
   "vocabulario_revisto": true,
@@ -26,5 +26,20 @@
       "REM-UNIFORME"
     ],
     "independente": "/root aprovou o relatório de /root/rotas_didatica e os antes/depois."
+  },
+  "revisao_delta_2026_10_04": {
+    "sha256_revisado": "85b38026ae96486a1db359ddf81157d482b4e03bb7fe4c70c2bb17ab5755a77b",
+    "texto_revisado": "consolidacao/lote-01/evidencias/antes-fechamento-integracao/fontes/equipamento/lote-final/EQUIPAMENTO.md",
+    "sha256_main": "1cd88fbd70310dbf412be3880a239022485447922992c8bbc9503dc3b07595de",
+    "delta_fechamento_integracao": "Entre o texto revisado e a main só mudaram remissões de posição (\"nesta página\", \"na próxima página\") para \"nesta seção\" ou links com o título da seção. Nenhuma regra, título ou nome mudou.",
+    "correcoes": [
+      "C04b",
+      "C07",
+      "C11",
+      "C12"
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.json",
+    "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana.",
+    "conferido": "As duas parcelas do delta foram lidas linha a linha: as remissões do fechamento e as correções e decisões desta rodada. Nenhuma regra alheia reproduzida, nenhum título alterado. Todos os achados E002 coincidem em termo e trecho com excecoes_localizacao já revisadas, e o vocabulário não acusa nada."
   }
 }

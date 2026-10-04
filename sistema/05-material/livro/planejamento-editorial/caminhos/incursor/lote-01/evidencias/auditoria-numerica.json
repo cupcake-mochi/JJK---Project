@@ -1,8 +1,8 @@
 {
   "manuscritos_auditados": {
-    "sistema/05-material/livro/planejamento-editorial/caminhos/incursor/lote-01/INCURSOR.md": "3705e460791db6ae03b79eb2f7b25d13936a1c1ab54ddba616fa3872407f09f1"
+    "sistema/05-material/livro/planejamento-editorial/caminhos/incursor/lote-01/INCURSOR.md": "3cadc87096d53d3056b0e4817a7a79479c34ef54b611e2601b454e70c2df748e"
   },
-  "sha256_texto": "3705e460791db6ae03b79eb2f7b25d13936a1c1ab54ddba616fa3872407f09f1",
+  "sha256_texto": "3cadc87096d53d3056b0e4817a7a79479c34ef54b611e2601b454e70c2df748e",
   "verificacoes": 249,
   "casos_dirigidos": 76,
   "sequencias_fluidez": 46875,

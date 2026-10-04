@@ -112,7 +112,7 @@ INCURSOR
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 4
 Respostas de Fluidez
-Os usos desta página estão disponíveis no nível 2 e não custam PE.
+Os usos desta seção estão disponíveis no nível 2 e não custam PE.
 Evasão
 Quando um inimigo declarar um ataque contra você, antes da rolagem, gaste Fluidez e sua Reação para
 impor desvantagem ao ataque. Se ele errar e você ainda puder ganhar Fluidez nesse intervalo, pode
@@ -294,10 +294,11 @@ concedidos por esta habilidade. Role todos esses dados normalmente. Outros efeit
 regras de crítico.
 O reforço vale somente para aquele ataque e exige que ele possa receber o dano de Canalizar
 normalmente.
-Restringido. Aplique o reforço ao dano equivalente de Estímulo Muscular, seguindo os mesmos
-cálculos de custo e quantidade por Destreza ou Inteligência − 1. Os dados adicionais têm o mesmo
-tamanho dos dados normais de Estímulo Muscular. Em um crítico com Golpe Cirúrgico, dobre tanto os
-dados normais de Estímulo Muscular quanto os dados adicionais da habilidade.
+Restrição Celestial sem energia. Aplique o reforço ao dano equivalente de Estímulo Muscular,
+seguindo os mesmos cálculos de custo e quantidade por Destreza ou Inteligência − 1. Os dados
+adicionais têm o mesmo tamanho dos dados normais de Estímulo Muscular. Em um crítico com Golpe
+Cirúrgico, dobre tanto os dados normais de Estímulo Muscular quanto os dados adicionais da
+habilidade.
 Exemplo. Com Destreza 5, Golpe Cirúrgico custa 4 PE e Fluidez e concede 4 dados adicionais. Se seu
 Canalizar normal for 3d4, uma arma de 1d8 causa 1d8 + atributo do ataque + 7d4: os 3d4 normais de
 Canalizar e 4d4 adicionais. Em um crítico que dobre os dados da arma, causa 2d8 + atributo do ataque +
@@ -631,7 +632,7 @@ Para utilizar a habilidade, cumpra os requisitos abaixo:
 Escolha o novo alvo e pague os custos. O agressor realiza um TR Físico contra a CD do Pugilista: 8 +
 sua Força ou Destreza + sua maestria. No sucesso, o golpe continua sendo um erro contra você e os
 custos permanecem gastos.
-Na falha, siga a resolução de Redirecionar a Força na página seguinte.
+Na falha, siga Redirecionar a Força (p. 19).
 
 
 PÁGINA 19
@@ -694,9 +695,10 @@ Nível 2.
 Ao realizar a Ação Atacar, pode gastar 3 PE antes do primeiro ataque para realizar dois ataques com
 armas de uma mão, em vez do ataque único normalmente disponível. Se outra regra já conceder mais
 ataques nessa ação, use a maior quantidade; as quantidades não se somam.
-Pode combinar ataques corpo a corpo e arremessos, usar a mesma arma ou armas diferentes e atacar a
-mesma criatura ou criaturas diferentes. Cada ataque é resolvido separadamente, com seu dano e seus
-requisitos normais. Adicionais de dano permanecem sujeitos às próprias regras.
+O segundo ataque precisa ser corpo a corpo ou um arremesso, e nunca um disparo de arma de fogo ou de
+besta. Pode combinar ataques corpo a corpo e arremessos, usar a mesma arma ou armas diferentes e
+atacar a mesma criatura ou criaturas diferentes. Cada ataque é resolvido separadamente, com seu dano e
+seus requisitos normais. Adicionais de dano permanecem sujeitos às próprias regras.
 Sua Ação Bônus permanece disponível. Essa execução não exige Fluidez.
 
 

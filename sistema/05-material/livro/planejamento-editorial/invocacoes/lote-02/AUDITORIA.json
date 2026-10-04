@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "bd3d2cc16b5a6c2b373eba1f0ebfabfbc548bae3d6a7cd2eec6dcbb4bfab95d9",
+  "sha256_texto": "a4c48e8a12c39294745c4f575e4db9564c99f8ee83a102a3014ea8188e48a6eb",
   "checagens": [
     {
       "teste": "IDs únicos",
@@ -49,11 +49,11 @@
         },
         {
           "id": "entidades-atributos",
-          "palavras": 283
+          "palavras": 329
         },
         {
           "id": "entidades-vida-defesa",
-          "palavras": 300
+          "palavras": 305
         },
         {
           "id": "entidades-progressao",
@@ -61,11 +61,11 @@
         },
         {
           "id": "entidades-familias",
-          "palavras": 284
+          "palavras": 285
         },
         {
           "id": "entidades-basicas",
-          "palavras": 296
+          "palavras": 310
         },
         {
           "id": "entidades-especiais",
@@ -73,7 +73,7 @@
         },
         {
           "id": "entidades-formas",
-          "palavras": 314
+          "palavras": 315
         },
         {
           "id": "entidades-medidas",
@@ -97,7 +97,7 @@
         },
         {
           "id": "entidades-passivas",
-          "palavras": 321
+          "palavras": 327
         },
         {
           "id": "entidades-passivas-avancadas",
@@ -113,7 +113,7 @@
         },
         {
           "id": "entidade-vigia",
-          "palavras": 293
+          "palavras": 292
         },
         {
           "id": "entidade-vigia-habilidades",
@@ -140,6 +140,9 @@
         "entidades-formas",
         "entidades-progressao",
         "entidades-medidas",
+        "entidades-medidas",
+        "entidades-passivas-avancadas",
+        "entidade-vigia-habilidades",
         "entidades-passiva-propria"
       ]
     },

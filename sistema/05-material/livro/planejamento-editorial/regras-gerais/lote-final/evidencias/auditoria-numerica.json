@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "sha256_texto": "009036700319e1d3371ef84f6889539416bb0130d494dc40a316bebf08b1d18c",
+  "sha256_texto": "60ce622431b0dfeb4f1f6eaad8b8446e71473755a17e55eb3fc0535ce333e7f3",
   "verificacoes": 547,
   "casos_executados": 48,
   "perfis_bloquear": 165,
@@ -4913,6 +4913,6 @@
     "Verificação de texto detecta regressão, não prova isolada de clareza."
   ],
   "manuscritos_auditados": {
-    "sistema/05-material/livro/planejamento-editorial/regras-gerais/lote-final/REGRAS-GERAIS.md": "009036700319e1d3371ef84f6889539416bb0130d494dc40a316bebf08b1d18c"
+    "sistema/05-material/livro/planejamento-editorial/regras-gerais/lote-final/REGRAS-GERAIS.md": "60ce622431b0dfeb4f1f6eaad8b8446e71473755a17e55eb3fc0535ce333e7f3"
   }
 }

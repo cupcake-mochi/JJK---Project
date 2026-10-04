@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "297d96084502eb65780b9ed2ac4f7e121a235cfdbb6e41db254f980e55393dcd",
+  "sha256_texto": "b9ee96c405359f6fe879f55dd972ca8a32cc565c8c318c241be2b73047519d38",
   "revisor": "subagente maxima — revisão contextual autoral",
   "secoes": [
     {
@@ -387,5 +387,16 @@
     "revisor": "/root",
     "diff": "consolidacao/lote-01/migracao-nomes/diffs/campo.diff",
     "conclusao": "Diff completo lido. Preços, ações, limites, acesso e efeitos permanecem iguais. Mudam categoria, nomes e concordância gramatical."
+  },
+  "revisao_delta_2026_10_04": {
+    "sha256_anterior": "297d96084502eb65780b9ed2ac4f7e121a235cfdbb6e41db254f980e55393dcd",
+    "sha256_atual": "b9ee96c405359f6fe879f55dd972ca8a32cc565c8c318c241be2b73047519d38",
+    "mudancas": [
+      "D02",
+      "D03"
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.json",
+    "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana.",
+    "conferido": "Trechos trocados relidos: nomes, remissões ou regra decidida pelo autor; títulos e seções inalterados."
   }
 }

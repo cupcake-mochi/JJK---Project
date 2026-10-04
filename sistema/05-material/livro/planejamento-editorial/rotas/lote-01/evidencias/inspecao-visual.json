@@ -1,8 +1,8 @@
 {
-  "sha256_pdf": "730e0c332b656fc621056d13553fd402e628053ba93f7981903b37dcec248ad6",
+  "sha256_pdf": "48322e065cf16047690590056fe1ebe840c18663bc7c8d54222006afaa89b25d",
   "revisor": "/root/rotas_didatica",
-  "metodo": "Páginas alteradas abertas e inspecionadas. Demais páginas reutilizam inspeção anterior somente por igualdade de pixels, comprovada em COMPARACAO-NOMES-ROOT.json.",
-  "sha256_pdf_anterior": "6f30a2b7519c99293460cc5062471497c32fd422be28ad836410667978569060",
+  "metodo": "Páginas alteradas abertas e inspecionadas. Demais páginas reutilizam inspeção anterior somente por igualdade de pixels, comprovada em COMPARACAO-VISUAL-2026-10-04.json.",
+  "sha256_pdf_anterior": "730e0c332b656fc621056d13553fd402e628053ba93f7981903b37dcec248ad6",
   "paginas": [
     {
       "pagina": 1,
@@ -19,8 +19,8 @@
     {
       "pagina": 3,
       "resultado": "sem defeito visual observado",
-      "metodo": "pixels idênticos à prova inspecionada",
-      "arquivo": "output/comparacao-nomes/depois/pagina-03.png"
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026, revisão por modelo",
+      "arquivo": null
     },
     {
       "pagina": 4,
@@ -37,14 +37,14 @@
     {
       "pagina": 6,
       "resultado": "sem defeito visual observado",
-      "metodo": "imagem atual aberta e inspecionada",
-      "arquivo": "output/comparacao-nomes/depois/pagina-06.png"
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026, revisão por modelo",
+      "arquivo": null
     },
     {
       "pagina": 7,
       "resultado": "sem defeito visual observado",
-      "metodo": "imagem atual aberta e inspecionada",
-      "arquivo": "output/comparacao-nomes/depois/pagina-07.png"
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026, revisão por modelo",
+      "arquivo": null
     },
     {
       "pagina": 8,
@@ -142,5 +142,20 @@
       "metodo": "imagem atual aberta e inspecionada",
       "arquivo": "output/comparacao-nomes/depois/pagina-23.png"
     }
-  ]
+  ],
+  "revisao_delta_2026_10_04": {
+    "sha256_anterior": "cbdc3648f5faa76a3973fd1dc9b8d196a5e46d5508163bc2e3720b33c2512a40",
+    "sha256_atual": "b397b7351a1dc477df4fff10dce6ebaccd9e3147913ca9bcef3fc65640e45603",
+    "mudancas": [
+      "C08c",
+      "C09"
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.json",
+    "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana.",
+    "paginas_alteradas": [
+      3,
+      6,
+      7
+    ]
+  }
 }

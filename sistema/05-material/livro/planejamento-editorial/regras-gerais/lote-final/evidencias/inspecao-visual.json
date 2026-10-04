@@ -1,8 +1,8 @@
 {
   "data": "2026-10-03",
   "sha256_texto": "009036700319e1d3371ef84f6889539416bb0130d494dc40a316bebf08b1d18c",
-  "sha256_pdf": "04ba3959d13aa4b6f032a172ee5200d9c94f28748d127c2f9c3b16a9d75cea81",
-  "metodo": "Abertura de cada página modificada pelas remissões; conservação da avaliação anterior por igualdade de pixels nas outras páginas.",
+  "sha256_pdf": "2d7273c7e59a0d687db8ab06da3d407d110dab1c1dc4e39217e348c2f6157ea4",
+  "metodo": "Páginas alteradas abertas e inspecionadas. Demais páginas reutilizam inspeção anterior somente por igualdade de pixels, comprovada em COMPARACAO-VISUAL-2026-10-04.json.",
   "comparacao": "evidencias/COMPARACAO-REMISSOES-PDF.json",
   "prova_anterior": "3ea70b797814c28bfb8bee12b0af403fdf033c8f9c03bcfb689807e000a723e0",
   "paginas": [
@@ -54,7 +54,9 @@
       "imagem": "output/png/pagina-05.png",
       "revisor": "/root/compatibilidade",
       "pixels_iguais_rodada_anterior": true,
-      "evidencia_preservacao": "Pixel idêntico à prova imediatamente anterior já examinada; sem nova abertura nesta rodada."
+      "evidencia_preservacao": "Pixel idêntico à prova imediatamente anterior já examinada; sem nova abertura nesta rodada.",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026, revisão por modelo",
+      "arquivo": null
     },
     {
       "pagina": 6,
@@ -318,7 +320,9 @@
       "imagem": "output/png/pagina-31.png",
       "revisor": "/root/compatibilidade",
       "pixels_iguais_rodada_anterior": true,
-      "evidencia_preservacao": "Pixel idêntico à prova imediatamente anterior já examinada; sem nova abertura nesta rodada."
+      "evidencia_preservacao": "Pixel idêntico à prova imediatamente anterior já examinada; sem nova abertura nesta rodada.",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026, revisão por modelo",
+      "arquivo": null
     },
     {
       "pagina": 32,
@@ -412,5 +416,19 @@
       "evidencia_preservacao": "Pixel idêntico à prova imediatamente anterior já examinada; sem nova abertura nesta rodada."
     }
   ],
-  "limites": "Sem impressão física, playtest ou teste com leitores humanos."
+  "limites": "Sem impressão física, playtest ou teste com leitores humanos.",
+  "sha256_pdf_anterior": "04ba3959d13aa4b6f032a172ee5200d9c94f28748d127c2f9c3b16a9d75cea81",
+  "revisao_delta_2026_10_04": {
+    "sha256_anterior": "2ef95f754572dace507f64392a2374c663d1d560d12986473affb747af87803c",
+    "sha256_atual": "60ce622431b0dfeb4f1f6eaad8b8446e71473755a17e55eb3fc0535ce333e7f3",
+    "mudancas": [
+      "C04"
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.json",
+    "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana.",
+    "paginas_alteradas": [
+      5,
+      31
+    ]
+  }
 }

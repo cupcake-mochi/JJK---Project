@@ -304,6 +304,9 @@ TR sem treino
 d20 + atributo do TR.
 A maestria é sempre a do invocador, inclusive para uma domada de nível menor. Os atributos são os da
 entidade.
+Com uma arma empunhada, o ataque usa o atributo que a arma pede no lugar do atributo de acerto. A
+CD das habilidades não muda. A entidade não tem treino em armas, então ataca com elas com
+desvantagem. O dano é o da arma, conforme Equipamento.
 Resistências e perícias
 Escolha um TR treinado. Físico usa Força ou Destreza, escolhida na montagem. Vigor usa Constituição,
 Intelecto usa Inteligência e Espírito usa Essência.
@@ -342,9 +345,9 @@ Equipamento
 Uma entidade pode usar equipamento que comporte sua anatomia. Confira requisitos com os atributos
 dela. Um escudo exige membros capazes de empunhá-lo. Uma armadura feita para outro corpo pode
 precisar de adaptação.
-Com traje ou revestimento defensivo, a Defesa usa 10 + Destreza da entidade + proteção do
-equipamento. A proteção substitui a parcela de Essência ou Inteligência do invocador. Não some as
-duas fontes. Escudos e demais combinações seguem Equipamento.
+Com traje ou revestimento defensivo, a Defesa usa 10 + Destreza da entidade permitida pelo teto da
+peça + proteção do equipamento. A proteção substitui a parcela de Essência ou Inteligência do
+invocador. Não some as duas fontes. Escudos e demais combinações seguem Equipamento.
 Registre o equipamento usado, a proteção, os requisitos e a carga. Levar um objeto ao campo ou
 recolhê-lo junto com a criatura segue Invocações em campo — Carga e equipamento. A capacidade de
 equipar algo não transforma esse objeto em uma parte gratuita da entidade.
@@ -477,8 +480,8 @@ de Família continuam disponíveis conforme suas regras, sem desconto e sem perm
 Família Fechada.
 Projétil, Toque e Efeito ficam disponíveis a todas as entidades. As outras Formas dependem de Área ou
 Amparo, como indicado em Formas da entidade (p. 15).
-Na Classe 3, uma Melhoria Média custa 3. Na Família Livre da entidade, custa 3 − 1 = 2. Use a tabela desta
-página: o desconto de uma entidade não é arredondado como o desconto pessoal de Fundamento.
+Na Classe 3, uma Melhoria Média custa 3. Na Família Livre da entidade, custa 3 − 1 = 2. Use a tabela de
+Família Livre: o desconto de uma entidade não é arredondado como o desconto pessoal de Fundamento.
 
 
 PÁGINA 13
@@ -508,7 +511,8 @@ Uma básica de Efeito usa a aplicação pequena registrada, na escala comum de F
 fora de combate. Ela precisa caber na definição da entidade.
 O uso dessas habilidades consome sua atuação básica. Ajudar, Correr e outras atuações simples usam a
 mesma oportunidade, conforme Invocações em campo. Uma capacidade ofensiva precisa estar montada
-na ficha para que seja usada como ataque próprio.
+na ficha para que seja usada como ataque próprio. A outra forma de atacar é com uma arma empunhada,
+conforme Acerto e dificuldade.
 
 
 PÁGINA 14
@@ -581,7 +585,7 @@ PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 15
 Formas da entidade
 Escolha a Forma que entrega o efeito desejado. Esta tabela mantém os preços e as resoluções comuns.
-As medidas próprias das entidades estão na próxima página.
+As medidas próprias das entidades estão em Alcance e área (p. 16).
 Forma
 Preço
 Aplicação
@@ -738,7 +742,7 @@ Fura de Classe 2. A especial tem 4 pontos e custa 6 PE. Fura custa 2, ou 1 se Mi
 Classe 1 e ignora 2 de Redução de Dano. Em Projétil, sem Restrição, a versão com Mira Livre fica com 3d8.
 Efeitos que não aparecem nesta lista conservam os valores do catálogo. Um +2 de Precisão continua
 sendo +2. Não diminua por conta própria a duração ou a distância de uma peça fixa.
-Na básica de Classe 0, use Classe 0 quando a peça pedir esse valor. O mínimo de 1 desta página pertence
+Na básica de Classe 0, use Classe 0 quando a peça pedir esse valor. O mínimo de 1 desta seção pertence
 às especiais.
 
 
@@ -882,8 +886,8 @@ Escolha um talento até o teto daquele ganho. Ganhar acesso a CE maior não prom
 os talentos antigos. Uma entidade de nível 14 tem quatro escolhas: duas até CE1, uma até CE2 e uma até
 CE3.
 Essas escolhas não gastam espaços de especial e não têm o limite de cinco Talentos pagos do
-personagem. A entidade pode ter oito no nível 30. Esse acesso é restrito às opções abaixo e na próxima
-página.
+personagem. A entidade pode ter oito no nível 30. Esse acesso é restrito aos talentos listados nesta seção
+e em Talentos de Categorias 2 e 3 (p. 22).
 Talento de CE1
 Função
 Texto completo no Catálogo
@@ -1110,8 +1114,8 @@ até CE1.
 As Famílias abertas são Amparo Livre, Auxiliares e Alcance. As seis restantes ficam Fechadas. A
 escolha permite amparo e movimento de um aliado, sem transformar a entidade numa combatente de
 área.
-A próxima página registra todas as habilidades desta ficha. A proposta de Registro de cena precisa ser
-aprovada com o mestre antes da sessão, como qualquer Talento Próprio.
+Habilidades do vigia (p. 26) apresenta as capacidades desta ficha. A proposta de Registro de cena precisa
+ser aprovada com o mestre antes da sessão, como qualquer Talento Próprio.
 
 
 PÁGINA 26

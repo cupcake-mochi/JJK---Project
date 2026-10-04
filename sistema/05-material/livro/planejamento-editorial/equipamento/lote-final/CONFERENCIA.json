@@ -2,8 +2,8 @@
   "data": "2026-10-03",
   "ok": true,
   "verificacoes": 309,
-  "sha256_pdf": "62143fe6e30b67d42e37242de11c8badcbdc64e3b51d33d6f2cbe74bf7e7d646",
-  "sha256_texto": "85b38026ae96486a1db359ddf81157d482b4e03bb7fe4c70c2bb17ab5755a77b",
+  "sha256_pdf": "76bcc3d60dd1be9a2588b2957d9be7e7c0a9f2787aae5d85e29246de92ffcaac",
+  "sha256_texto": "96fe206bd2257b9839da6bc53c97c6b0ca17f82f3bf9f706709e07ecb19ec858",
   "checks": [
     {
       "verificacao": "Quantidade de páginas e seções",
@@ -194,6 +194,12 @@
       "ok": true
     },
     {
+      "verificacao": "p1: página citada eq-manipular",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
       "verificacao": "p1: página citada eq-propriedades",
       "obtido": true,
       "esperado": true,
@@ -201,12 +207,6 @@
     },
     {
       "verificacao": "p1: página citada eq-oculta",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "verificacao": "p1: página citada eq-manipular",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -304,6 +304,12 @@
       "ok": true
     },
     {
+      "verificacao": "p3: página citada eq-manipular",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
       "verificacao": "p3: página citada eq-propriedades",
       "obtido": true,
       "esperado": true,
@@ -311,12 +317,6 @@
     },
     {
       "verificacao": "p3: página citada eqi-objetos",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "verificacao": "p3: página citada eq-manipular",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -466,13 +466,13 @@
       "ok": true
     },
     {
-      "verificacao": "p6: página citada eqp-escudo",
+      "verificacao": "p6: página citada eqp-vestir",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "verificacao": "p6: página citada eqp-vestir",
+      "verificacao": "p6: página citada eqp-escudo",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -1538,13 +1538,13 @@
       "ok": true
     },
     {
-      "verificacao": "p30: página citada eqf-desgaste",
+      "verificacao": "p30: página citada eqf-uso",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "verificacao": "p30: página citada eqf-uso",
+      "verificacao": "p30: página citada eqf-desgaste",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -1951,8 +1951,8 @@
     },
     {
       "verificacao": "Revisão do texto atual",
-      "obtido": "85b38026ae96486a1db359ddf81157d482b4e03bb7fe4c70c2bb17ab5755a77b",
-      "esperado": "85b38026ae96486a1db359ddf81157d482b4e03bb7fe4c70c2bb17ab5755a77b",
+      "obtido": "96fe206bd2257b9839da6bc53c97c6b0ca17f82f3bf9f706709e07ecb19ec858",
+      "esperado": "96fe206bd2257b9839da6bc53c97c6b0ca17f82f3bf9f706709e07ecb19ec858",
       "ok": true
     },
     {
@@ -1963,8 +1963,8 @@
     },
     {
       "verificacao": "Inspeção do PDF atual",
-      "obtido": "62143fe6e30b67d42e37242de11c8badcbdc64e3b51d33d6f2cbe74bf7e7d646",
-      "esperado": "62143fe6e30b67d42e37242de11c8badcbdc64e3b51d33d6f2cbe74bf7e7d646",
+      "obtido": "76bcc3d60dd1be9a2588b2957d9be7e7c0a9f2787aae5d85e29246de92ffcaac",
+      "esperado": "76bcc3d60dd1be9a2588b2957d9be7e7c0a9f2787aae5d85e29246de92ffcaac",
       "ok": true
     },
     {
@@ -2073,8 +2073,8 @@
     },
     {
       "verificacao": "Cenários usam o manuscrito atual",
-      "obtido": "85b38026ae96486a1db359ddf81157d482b4e03bb7fe4c70c2bb17ab5755a77b",
-      "esperado": "85b38026ae96486a1db359ddf81157d482b4e03bb7fe4c70c2bb17ab5755a77b",
+      "obtido": "96fe206bd2257b9839da6bc53c97c6b0ca17f82f3bf9f706709e07ecb19ec858",
+      "esperado": "96fe206bd2257b9839da6bc53c97c6b0ca17f82f3bf9f706709e07ecb19ec858",
       "ok": true
     },
     {
@@ -2099,7 +2099,7 @@
   "geometria": [
     {
       "pagina": 1,
-      "final_corpo": 649.52
+      "final_corpo": 661.52
     },
     {
       "pagina": 2,
@@ -2119,7 +2119,7 @@
     },
     {
       "pagina": 6,
-      "final_corpo": 674.52
+      "final_corpo": 687.52
     },
     {
       "pagina": 7,

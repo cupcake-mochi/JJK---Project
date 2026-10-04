@@ -2,8 +2,8 @@
   "data": "2026-10-03",
   "ok": true,
   "verificacoes": 185,
-  "sha256_pdf": "730e0c332b656fc621056d13553fd402e628053ba93f7981903b37dcec248ad6",
-  "sha256_texto": "cbdc3648f5faa76a3973fd1dc9b8d196a5e46d5508163bc2e3720b33c2512a40",
+  "sha256_pdf": "48322e065cf16047690590056fe1ebe840c18663bc7c8d54222006afaa89b25d",
+  "sha256_texto": "b397b7351a1dc477df4fff10dce6ebaccd9e3147913ca9bcef3fc65640e45603",
   "checks": [
     {
       "verificacao": "Quantidade de páginas e seções",
@@ -194,13 +194,13 @@
       "ok": true
     },
     {
-      "verificacao": "p2: página citada rota-armas",
+      "verificacao": "p2: página citada rota-ferramenta",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "verificacao": "p2: página citada rota-ferramenta",
+      "verificacao": "p2: página citada rota-armas",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -1131,8 +1131,8 @@
     },
     {
       "verificacao": "Revisão do texto atual",
-      "obtido": "cbdc3648f5faa76a3973fd1dc9b8d196a5e46d5508163bc2e3720b33c2512a40",
-      "esperado": "cbdc3648f5faa76a3973fd1dc9b8d196a5e46d5508163bc2e3720b33c2512a40",
+      "obtido": "b397b7351a1dc477df4fff10dce6ebaccd9e3147913ca9bcef3fc65640e45603",
+      "esperado": "b397b7351a1dc477df4fff10dce6ebaccd9e3147913ca9bcef3fc65640e45603",
       "ok": true
     },
     {
@@ -1143,8 +1143,8 @@
     },
     {
       "verificacao": "Inspeção do PDF atual",
-      "obtido": "730e0c332b656fc621056d13553fd402e628053ba93f7981903b37dcec248ad6",
-      "esperado": "730e0c332b656fc621056d13553fd402e628053ba93f7981903b37dcec248ad6",
+      "obtido": "48322e065cf16047690590056fe1ebe840c18663bc7c8d54222006afaa89b25d",
+      "esperado": "48322e065cf16047690590056fe1ebe840c18663bc7c8d54222006afaa89b25d",
       "ok": true
     },
     {
@@ -1221,8 +1221,8 @@
     },
     {
       "verificacao": "Cenários usam o manuscrito atual",
-      "obtido": "cbdc3648f5faa76a3973fd1dc9b8d196a5e46d5508163bc2e3720b33c2512a40",
-      "esperado": "cbdc3648f5faa76a3973fd1dc9b8d196a5e46d5508163bc2e3720b33c2512a40",
+      "obtido": "b397b7351a1dc477df4fff10dce6ebaccd9e3147913ca9bcef3fc65640e45603",
+      "esperado": "b397b7351a1dc477df4fff10dce6ebaccd9e3147913ca9bcef3fc65640e45603",
       "ok": true
     },
     {

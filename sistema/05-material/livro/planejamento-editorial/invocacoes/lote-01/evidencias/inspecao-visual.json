@@ -1,8 +1,8 @@
 {
-  "sha256_pdf": "6b25769360dbf54652b762880cfebcebdd61be30f6d8aa666ee35465d083c8b3",
+  "sha256_pdf": "04daa30d72ca2fda9268b0b9ed1e558aae52cc8149eb828e854134ded38c515d",
   "revisor": "/root",
-  "metodo": "Páginas alteradas abertas e inspecionadas. Demais páginas reutilizam inspeção anterior somente por igualdade de pixels, comprovada em COMPARACAO-NOMES-ROOT.json.",
-  "sha256_pdf_anterior": "8843a6c0db4bb0766831a0c94c22e248887dbbd3fa0823894abfcb29d21b3535",
+  "metodo": "Páginas alteradas abertas e inspecionadas. Demais páginas reutilizam inspeção anterior somente por igualdade de pixels, comprovada em COMPARACAO-VISUAL-2026-10-04.json.",
+  "sha256_pdf_anterior": "6b25769360dbf54652b762880cfebcebdd61be30f6d8aa666ee35465d083c8b3",
   "paginas": [
     {
       "pagina": 1,
@@ -43,8 +43,8 @@
     {
       "pagina": 7,
       "resultado": "sem defeito visual observado",
-      "metodo": "imagem atual aberta e inspecionada",
-      "arquivo": "output/comparacao-nomes/depois/pagina-07.png"
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026, revisão por modelo",
+      "arquivo": null
     },
     {
       "pagina": 8,
@@ -121,8 +121,8 @@
     {
       "pagina": 20,
       "resultado": "sem defeito visual observado",
-      "metodo": "pixels idênticos à prova inspecionada",
-      "arquivo": "output/comparacao-nomes/depois/pagina-20.png"
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026, revisão por modelo",
+      "arquivo": null
     },
     {
       "pagina": 21,
@@ -190,5 +190,19 @@
       "metodo": "imagem atual aberta e inspecionada",
       "arquivo": "output/comparacao-nomes/depois/pagina-31.png"
     }
-  ]
+  ],
+  "revisao_delta_2026_10_04": {
+    "sha256_anterior": "297d96084502eb65780b9ed2ac4f7e121a235cfdbb6e41db254f980e55393dcd",
+    "sha256_atual": "b9ee96c405359f6fe879f55dd972ca8a32cc565c8c318c241be2b73047519d38",
+    "mudancas": [
+      "D02",
+      "D03"
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.json",
+    "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana.",
+    "paginas_alteradas": [
+      7,
+      20
+    ]
+  }
 }

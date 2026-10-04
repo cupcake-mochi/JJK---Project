@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "bd3d2cc16b5a6c2b373eba1f0ebfabfbc548bae3d6a7cd2eec6dcbb4bfab95d9",
+  "sha256_texto": "a4c48e8a12c39294745c4f575e4db9564c99f8ee83a102a3014ea8188e48a6eb",
   "secoes": [
     {
       "id": "entidades-criar",
@@ -490,5 +490,18 @@
   ],
   "limite": "Auto-revisão por modelo. Validação independente e visual pendentes.",
   "complemento_reserva": "Releitura das seções Lista de ritual e criação, Tipos de entidade e Vida e Defesa; remissões conferidas com R11 atualizado.",
-  "delta_nominal_final": "DELTA-QA-FINAL.json"
+  "delta_nominal_final": "DELTA-QA-FINAL.json",
+  "revisao_delta_2026_10_04": {
+    "sha256_anterior": "2bfad5ef30001a427a233cd6633d8f986f6e67b2eb51a69cd57916c09fd12c7f",
+    "sha256_atual": "a4c48e8a12c39294745c4f575e4db9564c99f8ee83a102a3014ea8188e48a6eb",
+    "mudancas": [
+      "C10",
+      "D02b"
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.json",
+    "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana.",
+    "sha256_revisao_editorial_anterior": "bd3d2cc16b5a6c2b373eba1f0ebfabfbc548bae3d6a7cd2eec6dcbb4bfab95d9",
+    "nota": "A revisão editorial anterior era de uma versão de antes do fechamento da integração; o delta do fechamento até a main foi só redação de remissões (\"nesta página\" para \"nesta seção\", links), relido nesta rodada.",
+    "conferido": "Trechos trocados relidos: nomes, remissões ou regra decidida pelo autor; títulos e seções inalterados."
+  }
 }
