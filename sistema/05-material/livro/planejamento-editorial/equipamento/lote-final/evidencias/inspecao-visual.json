@@ -1,7 +1,7 @@
 {
   "data": "2026-10-03",
-  "sha256_texto": "85b38026ae96486a1db359ddf81157d482b4e03bb7fe4c70c2bb17ab5755a77b",
-  "sha256_pdf": "76bcc3d60dd1be9a2588b2957d9be7e7c0a9f2787aae5d85e29246de92ffcaac",
+  "sha256_texto": "691e10b85c01d25f9002bc4b5717b05a947129a2ae22bef3145f83b7dd938f1b",
+  "sha256_pdf": "871267c856b89eb6e2584639f2eec0d0fd5a806670e5038d2ebc07664ec45aa2",
   "metodo": "Páginas alteradas abertas e inspecionadas. Demais páginas reutilizam inspeção anterior somente por igualdade de pixels, comprovada em COMPARACAO-VISUAL-2026-10-04.json.",
   "comparacao": "evidencias/COMPARACAO-REMISSOES-PDF.json",
   "prova_anterior": "b6a97181db148bd364ca05bb9d8f02cd3ab904afc34eefc33f4d543809015396",
@@ -23,13 +23,14 @@
     {
       "pagina": 2,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Tabela de situações de saque e exemplo íntegros; mãos disponíveis bem separadas.",
-      "revisor": "/root/rotas_didatica",
+      "observacoes": "Sacar e guardar com a frase de não somar; tabela de troca de arma e exemplo inteiros.",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
       "png": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/output/png/pagina-02.png",
-      "sha256_png": "0a95df91a4f954efc6ea1ec51ac8dfe51dde22ccb2d3f857f83f1976ba630750",
+      "sha256_png": "37e9a5e661ef78da9f3151c3078106f3cf4d11c08eed9259f634f208a6a2b32f",
       "pixels_iguais_rodada_anterior": true,
       "evidencia_preservacao": "Pixel idêntico à prova imediatamente anterior já examinada; sem nova abertura nesta rodada.",
-      "imagem": "output/png/pagina-02.png"
+      "imagem": "output/png/pagina-02.png",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo"
     },
     {
       "pagina": 3,
@@ -419,13 +420,14 @@
     {
       "pagina": 37,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Fichas de grau elevado e exemplo de Anátema completos, sem cortes.",
-      "revisor": "/root/rotas_didatica",
+      "observacoes": "Lâmina de Cisão como dano de Alma; Lança do Anátema e exemplo inteiros.",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
       "png": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/output/png/pagina-37.png",
-      "sha256_png": "667fd66e86b9fec0839b76ce2ea5c67cbba8c4a34b0cba841c882aea3d57ec87",
+      "sha256_png": "d840c4b1a9e2f3b2d17388b847ec2974c83351f311c840f2f64da5dd63751440",
       "pixels_iguais_rodada_anterior": true,
       "evidencia_preservacao": "Pixel idêntico à prova imediatamente anterior já examinada; sem nova abertura nesta rodada.",
-      "imagem": "output/png/pagina-37.png"
+      "imagem": "output/png/pagina-37.png",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo"
     },
     {
       "pagina": 38,
@@ -469,5 +471,16 @@
       9,
       13
     ]
+  },
+  "revisao_delta_2026_10_04_decisoes": {
+    "sha256_pdf_anterior": "76bcc3d60dd1be9a2588b2957d9be7e7c0a9f2787aae5d85e29246de92ffcaac",
+    "sha256_pdf_atual": "871267c856b89eb6e2584639f2eec0d0fd5a806670e5038d2ebc07664ec45aa2",
+    "paginas_alteradas": [
+      2,
+      37
+    ],
+    "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-04-decisoes.json",
+    "metodo": "As páginas alteradas foram abertas; as demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
   }
 }

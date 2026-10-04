@@ -55,6 +55,8 @@ interruptor acessível usam essa mesma oportunidade.
 Depois dela, cada nova manipulação simples exige uma Ação de Movimento inteira. Se já usou parte
 dessa ação para se deslocar, não pode gastar o restante como se ela ainda estivesse inteira. A conversão
 de ações segue as regras do turno.
+Duas capacidades que troquem essa manipulação gratuita por duas não se somam. Em cada turno, use
+uma delas, com as restrições dela.
 Trocar de arma
 Guardar uma arma e sacar outra são duas manipulações. Largar um item é gratuito e não conta como
 guardar. O item fica onde caiu; recolhê-lo depois conta como uma nova manipulação.
@@ -2096,10 +2098,10 @@ PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 Armas de grau elevado
 Lâmina de Cisão
 Arma: Katana. Grau 1. Efeito: Cisão. Compatível com armas de combate corpo a corpo.
-O dano dos ataques com esta arma atinge somente a Integridade do alvo, seguindo as regras de dano
-direto à alma. A vida não é descontada por esse dano. Dados e valores adicionais que pertençam ao
-próprio ataque acompanham a conversão; outro efeito com resolução separada segue sua própria
-descrição.
+O dano dos ataques com esta arma é dano de Alma e atinge somente a Integridade do alvo, conforme
+Receber dano de Alma, em Dano na alma. A vida não é descontada por esse dano. Dados e valores
+adicionais que pertençam ao próprio ataque acompanham a conversão; outro efeito com resolução
+separada segue sua própria descrição.
 Cisão não acrescenta dano e não permite escolher, a cada golpe, atingir vida em vez de Integridade. Para
 isso, use outra arma. As consequências da perda de Integridade e os alvos que podem ser afetados são
 tratados em Dano na alma.

@@ -18,20 +18,26 @@ Cada relatório traz, por achado, os dois trechos que não fecham, o problema, u
 
 ## Resumo
 
-51 achados. 17 corrigidos na primeira passada e 2 corrigidos em parte, todos do tipo "nome, custo ou remissão divergindo de uma regra já aprovada em outro capítulo". Seis dessas correções (C01, C07, C09, C10, C13 e C14) mudam o resultado na mesa para quem lia só o capítulo corrigido; `CORRECOES-APLICADAS.md` diz o que muda em cada uma. Contra a `v0.331` dos jogadores, só a C14 muda regra; as outras cinco devolvem o que ela já dizia. Na segunda passada, o Mizuki decidiu 4 (G2-03, G2-04, G3-07 e G4-01), e as decisões foram aplicadas. Os outros 28 ficaram como estavam, porque pedem uma decisão de regra, de nome ou de redação, ou porque falta escrever uma regra que nenhum capítulo tem.
+51 achados. 17 corrigidos na primeira passada e 2 corrigidos em parte, todos do tipo "nome, custo ou remissão divergindo de uma regra já aprovada em outro capítulo". Seis dessas correções (C01, C07, C09, C10, C13 e C14) mudam o resultado na mesa para quem lia só o capítulo corrigido; `CORRECOES-APLICADAS.md` diz o que muda em cada uma. Contra a `v0.331` dos jogadores, só a C14 muda regra; as outras cinco devolvem o que ela já dizia. Na segunda passada, o Mizuki decidiu 4 (G2-03, G2-04, G3-07 e G4-01), e as decisões foram aplicadas.
+
+Na terceira passada, também em 04/10, ele decidiu mais 9 (G1-02, G1-05, G1-07, G3-03, G3-04, G3-05, G4-07, G5-02 e G5-10), aplicadas de D05 a D12. Os verbetes de índice (D13) completaram G2-09 e G4-12 e resolveram G5-11. Ficam **18**, porque pedem uma decisão de regra, de nome ou de redação, ou porque falta escrever uma regra que nenhum capítulo tem.
+
+No mesmo lote, a pedido do Mizuki, saíram do livro do jogador as projeções de projetista (D14 a D17). Elas não eram achados desta revisão.
 
 O antes, o depois e o motivo de cada correção estão em `CORRECOES-APLICADAS.md`.
 
 ## O que precisa do Mizuki
 
-Ordenado pelo peso em mesa. As quatro decisões de 04/10 (besta, pistola, ataque da entidade e corpos) já estão aplicadas e saíram desta lista, junto com a besta no Combate Irregular, que ficou só para Arma de Fogo (D04).
+Ordenado pelo peso em mesa. As decisões de 04/10 já estão aplicadas e saíram desta lista.
 
-1. **G1-05 · Ordem da queda.** Ainda de Pé depois de Aguentar, e Ainda Há Tempo antes ou depois da escolha. Decide se a perda de 1/8 da vida máxima do Insistir acontece.
-2. **G1-07 · Feito 8 do limiar.** Depois de DR13 ele só cobre dano de Alma e ficou fora do filtro de ameaça real. Escolher o alcance.
-3. **G4-07 · Batedor: Arma de Fogo no nível 2.** A arma depende de uma autorização que a criação não dá. A Trilha concede ou o mestre confirma antes.
-4. **G3-03, G3-04, G3-05 · Três ordens pequenas da Fluidez e do Malabarista.** Acúmulo de saques gratuitos, Fluidez antes do primeiro turno e momento do Instante Decisivo contra o Bloquear.
-5. **G5-02 e G5-10 · Nomes.** "Calo — Livre" ficou com o rótulo antigo, e o Emanador reaproveita "Impulso" e a família "Expressão".
-6. **G1-02 · Tipo do dano da Cisão.** Se continua com o tipo da arma ou vira dano de Alma.
+1. **Lacunas das entidades em campo (G1-03, G2-02, G2-05, G2-06, G2-07, G2-08, G4-10).** Entidade a Integridade zero, domada que não pode ser recolhida, concentração quando a entidade sai ou cai, retorno numa troca, carga e montaria, preparar deslocamento. Todas moram em Invocações em campo e podem ser decididas numa rodada só. G1-03 também toca a revisão adiada de Morrendo.
+2. **G1-06 · Expansão de Domínio de um dono Derrotado ou Inconsciente.** Se ficar fora de ação encerra o domínio.
+3. **G4-06 · Armas e ferramenta de grau 4 recebidas pela rota.** Acesso, munição inicial e qual peça da categoria.
+4. **G5-08 e G5-09 · Ritual sobre Técnica Máxima e Classe 0 com Toque ou Aura.** Que Classe usar no Ritual; se Corpo a Corpo ocupa a única Restrição Leve.
+5. **G5-05 e G5-07 · Alinhar Construir invocações e Condições a FU-27 e FU-26.** As duas decisões do Fundamento constam como candidatas; falta o Mizuki confirmar que os outros capítulos as seguem.
+6. **G3-02, G3-06, G2-10, G4-11 e G1-04 · Ajustes pequenos.** "Uma vez por turno seu" fora do turno, o termo de arremesso de Trajetória Perfeita, os dois sentidos de "reserva", as escolhas do Traje na criação e onde ficam as regras de derrota dos inimigos.
+
+Fora do quadro: com o Calo retirado, falta confirmar se Sem Técnica também registra a Expressão da técnica.
 
 Os casos de mesa que medem as lacunas abertas estão nos casos-sonda de `../testes-com-leitores/CASOS-SONDA.md`.
 
@@ -42,12 +48,12 @@ Situação: **corrigido** (com o código da correção), **decidido** (o autor e
 | Achado | Assunto | Tipo | Situação | Dono |
 |---|---|---|---|---|
 | G1-01 | "Integridade" usada como atributo de arma | inconsistência | corrigido (C01) | Emanador |
-| G1-02 | Cisão remete a "dano direto à alma", que não existe | remissão | decisão (tipo do dano), depois remissão | Dano e recuperação |
+| G1-02 | Cisão remete a "dano direto à alma", que não existe | remissão | decidido e aplicado (D11): dano de Alma | Dano e recuperação |
 | G1-03 | Entidade a Integridade zero sem desfecho | lacuna | lacuna; decidir com a revisão adiada de Morrendo | Invocações em campo |
 | G1-04 | "Regras próprias de derrota" dos inimigos sem destino | remissão | remissão: nomear onde fica | Dano e recuperação |
-| G1-05 | Ordem entre a escolha imediata e o que dispara na queda | lacuna | decisão pequena | Dano e recuperação, Bastião |
+| G1-05 | Ordem entre a escolha imediata e o que dispara na queda | lacuna | decidido e aplicado (D05): capacidades da queda entram antes | Dano e recuperação, Bastião |
 | G1-06 | Expansão de Domínio de dono Derrotado ou Inconsciente | lacuna | decisão | Poderes avançados |
-| G1-07 | Feito 8 mudou de alcance com DR13 | decisão de regra | decisão | Progressão |
+| G1-07 | Feito 8 mudou de alcance com DR13 | decisão de regra | decidido e aplicado (D06): Feito 8 retirado | Progressão |
 | G2-01 | "Ação Completa" sem definição no capítulo dono | inconsistência | corrigido (C04) | Regras gerais |
 | G2-02 | Domada que não pode ser recolhida | lacuna | lacuna | Invocações em campo |
 | G2-03 | Retomar corpos excedentes | decisão de regra | decidido e aplicado (D03, D03b, D03c): volta com trava | Invocações em campo, Fabricação, Progressão |
@@ -56,13 +62,13 @@ Situação: **corrigido** (com o código da correção), **decidido** (o autor e
 | G2-06 | Retorno de entidade caída numa troca | lacuna | lacuna | Invocações em campo |
 | G2-07 | Limite de carga, passageiros e montaria da entidade | lacuna | lacuna (junto com G4-10) | Invocações em campo |
 | G2-08 | Preparar um deslocamento com a entidade | lacuna | lacuna | Invocações em campo |
-| G2-09 | Índice com rótulo de capítulo inexistente e verbetes faltando | remissão | rótulo corrigido (C05); verbetes pendentes | Consulta |
+| G2-09 | Índice com rótulo de capítulo inexistente e verbetes faltando | remissão | corrigido (C05 e D13) | Consulta |
 | G2-10 | "reserva" com dois sentidos | inconsistência | decisão de redação | Invocações em campo |
 | G3-01 | "Restringido" não existe no livro | inconsistência | corrigido (C02) | Incursor |
 | G3-02 | "Uma vez por turno seu" fora do turno | lacuna | decisão pequena | Incursor |
-| G3-03 | Manejo de Combate com Maldição do Inventário | lacuna | decisão (somar ou não) | Equipamento |
-| G3-04 | Fluidez e Passo Guardado antes do primeiro turno | lacuna | decisão pequena | Incursor |
-| G3-05 | Instante Decisivo contra o Bloquear | lacuna | decisão pequena | Incursor |
+| G3-03 | Manejo de Combate com Maldição do Inventário | lacuna | decidido e aplicado (D08): não somam | Equipamento |
+| G3-04 | Fluidez e Passo Guardado antes do primeiro turno | lacuna | decidido e aplicado (D09): intervalo desde o início do combate | Incursor |
+| G3-05 | Instante Decisivo contra o Bloquear | lacuna | decidido e aplicado (D10): antes da escolha de Bloquear | Incursor |
 | G3-06 | "Arma apropriada para arremesso" sem termo no Equipamento | remissão | decisão (qual termo) | Incursor |
 | G3-07 | Ofensiva em Movimento com armas de fogo | decisão de regra | decidido e aplicado (D01): segundo ataque corpo a corpo ou arremesso | Incursor |
 | G3-08 | Glossário: Leve sem a propriedade de arma | inconsistência | corrigido (C03) | Consulta |
@@ -72,17 +78,17 @@ Situação: **corrigido** (com o código da correção), **decidido** (o autor e
 | G4-04 | Remissões para títulos inexistentes | remissão | corrigido (C08, C08b, C08c, C08d) | vários |
 | G4-05 | "Grupos de armas" em vez de categorias | inconsistência | corrigido (C09) | Rotas |
 | G4-06 | Armas de grau 4 da rota contra Equipamento inicial | lacuna | decisão | Equipamento, Rotas |
-| G4-07 | Batedor: Arma de Fogo sem autorização na criação | lacuna | decisão | Vanguarda, Equipamento |
+| G4-07 | Batedor: Arma de Fogo sem autorização na criação | lacuna | decidido e aplicado (D07): mestre confirma a autorização antes da rota | Vanguarda, Equipamento |
 | G4-08 | Emanador registra "Integridade" de arma | inconsistência | corrigido (C01) | Emanador |
 | G4-09 | Defesa de entidade com Revestimento soma Destreza | inconsistência | corrigido (C10) | Construir invocações |
 | G4-10 | Carga de entidade sem talento de transporte | lacuna | lacuna (junto com G2-07) | Invocações em campo |
 | G4-11 | Escolhas do Traje fora da criação e da ficha | lacuna | lacuna | Equipamento, Abertura, Consulta |
-| G4-12 | Índice e glossário sem termos de equipamento | remissão | glossário corrigido (C03); verbetes do índice pendentes | Consulta |
+| G4-12 | Índice e glossário sem termos de equipamento | remissão | corrigido (C03 e D13) | Consulta |
 | G4-13 | Volumosa e Embainhada fora da página de Propriedades | remissão | corrigido (C12) | Equipamento |
 | G4-14 | "Rodada inteira" contra "Ação Completa" | inconsistência | corrigido (C04, C04b) | Regras gerais, Equipamento |
 | G4-15 | Exemplo de Proteção com escudo que Rina não pode usar | inconsistência | corrigido (C11) | Equipamento |
 | G5-01 | "Restrição Único" não existe | inconsistência | corrigido (C13) | Emanador |
-| G5-02 | "Calo — Livre" com o nome antigo | inconsistência | decisão de nome | Fundamento, Rotas |
+| G5-02 | "Calo — Livre" com o nome antigo | inconsistência | decidido e aplicado (D12): Calo retirado | Fundamento, Rotas |
 | G5-03 | Rotas remete a seções inexistentes | remissão | corrigido (C08c) | Rotas |
 | G5-04 | Catálogo remete a títulos inexistentes | remissão | corrigido (C08e) | Catálogo |
 | G5-05 | Teto de 4 × Classe "somando alvos" | inconsistência | decisão de redação: alinhar ao FU-27 | Construir invocações |
@@ -90,16 +96,16 @@ Situação: **corrigido** (com o código da correção), **decidido** (o autor e
 | G5-07 | Lento sobre deslocamentos concedidos | lacuna | lacuna | Dano e recuperação (Condições) |
 | G5-08 | Ritual sobre Técnica Máxima sem Classe | lacuna | decisão | Ritual e Pactos |
 | G5-09 | Classe 0 com Toque ou Aura e a única Restrição Leve | lacuna | decisão | Fundamento |
-| G5-10 | Emanador reaproveita nomes | decisão de regra | decisão de nome | Emanador |
-| G5-11 | Índice sem Auge e Regra Própria | remissão | remissão: verbetes pendentes | Consulta |
+| G5-10 | Emanador reaproveita nomes | decisão de regra | decidido: mantém os nomes | Emanador |
+| G5-11 | Índice sem Auge e Regra Própria | remissão | corrigido (D13) | Consulta |
 
 ## Por que alguns achados "claros" não foram corrigidos
 
 O critério desta rodada foi corrigir sozinho só o que diverge de uma regra já aprovada em outro capítulo. Ficaram de fora:
 
 - **G2-10** e **G5-05**: o texto é ambíguo, mas a correção é reescrever frases, e escolher a redação é do autor.
-- **G5-02**: trocar o rótulo de Calo decide se ele ocupa espaço de Talento, o que é regra.
-- **Verbetes novos no índice** (G2-09, G4-12, G5-11): é completude, e não divergência. Entram junto com a próxima rodada de Consulta.
+- **G5-02**: trocar o rótulo de Calo decidia se ele ocupa espaço de Talento, o que é regra. O Mizuki decidiu depois (D12).
+- **Verbetes novos no índice** (G2-09, G4-12, G5-11): é completude, e não divergência. Entraram depois, em D13.
 
 ## Situação do validador editorial
 

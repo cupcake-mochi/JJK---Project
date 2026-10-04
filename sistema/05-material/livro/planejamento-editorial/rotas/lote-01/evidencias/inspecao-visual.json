@@ -1,5 +1,5 @@
 {
-  "sha256_pdf": "48322e065cf16047690590056fe1ebe840c18663bc7c8d54222006afaa89b25d",
+  "sha256_pdf": "2e23d140c0f389d5d1ee420a53781d133be7c159354ad899f27190a0b45f43b5",
   "revisor": "/root/rotas_didatica",
   "metodo": "Páginas alteradas abertas e inspecionadas. Demais páginas reutilizam inspeção anterior somente por igualdade de pixels, comprovada em COMPARACAO-VISUAL-2026-10-04.json.",
   "sha256_pdf_anterior": "730e0c332b656fc621056d13553fd402e628053ba93f7981903b37dcec248ad6",
@@ -13,8 +13,11 @@
     {
       "pagina": 2,
       "resultado": "sem defeito visual observado",
-      "metodo": "imagem atual aberta e inspecionada",
-      "arquivo": "output/comparacao-nomes/depois/pagina-02.png"
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo",
+      "arquivo": null,
+      "observacoes": "Técnica Marcial com a Expressão da técnica no passo 1; links (p. 3) e (p. 4) visíveis.",
+      "sha256_png": "298d1f0de792f66a91e1139e5a5ecbd7b9acd8cfaa989c598bf850e21658a2a0",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
     },
     {
       "pagina": 3,
@@ -31,8 +34,11 @@
     {
       "pagina": 5,
       "resultado": "sem defeito visual observado",
-      "metodo": "imagem atual aberta e inspecionada",
-      "arquivo": "output/comparacao-nomes/depois/pagina-05.png"
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo",
+      "arquivo": null,
+      "observacoes": "Talentos marciais sem Calo; Maldição do Inventário e Leitura inteiras, link (p. 9) visível.",
+      "sha256_png": "a61ac42bc025f8cb8d82ccc9da74d883bb78801baeef151a5ffa482345771037",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
     },
     {
       "pagina": 6,
@@ -97,8 +103,11 @@
     {
       "pagina": 16,
       "resultado": "sem defeito visual observado",
-      "metodo": "imagem atual aberta e inspecionada",
-      "arquivo": "output/comparacao-nomes/depois/pagina-16.png"
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo",
+      "arquivo": null,
+      "observacoes": "Lapidação sem a projeção de sempre ou nunca; tabela de ganhos e exemplo inteiros.",
+      "sha256_png": "772c2d9a1ce48fb1f2bd33f2e80e7c218427eeb20f2aa626b5ace90688596ae2",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
     },
     {
       "pagina": 17,
@@ -157,5 +166,17 @@
       6,
       7
     ]
+  },
+  "revisao_delta_2026_10_04_decisoes": {
+    "sha256_pdf_anterior": "48322e065cf16047690590056fe1ebe840c18663bc7c8d54222006afaa89b25d",
+    "sha256_pdf_atual": "2e23d140c0f389d5d1ee420a53781d133be7c159354ad899f27190a0b45f43b5",
+    "paginas_alteradas": [
+      2,
+      5,
+      16
+    ],
+    "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-04-decisoes.json",
+    "metodo": "As páginas alteradas foram abertas; as demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
   }
 }

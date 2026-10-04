@@ -240,3 +240,10 @@
 
 **Motivo:** Leitura independente da raiz apontou suficiência conceitual e grafia histórica. Nenhuma mudança em requisitos ou valores.
 
+## R23-31 — remissão de índice
+
+**Antes:** 268 verbetes no índice, em 11 páginas.
+
+**Depois:** 286 verbetes: entram Auge, Carregar (Restrição), Desligada, Discreta, Embainhada, Escudo, Manutenção (entidades), Ordens pendentes, Recarregar, Recolher, Regra Própria, Religar, Retorno, Revestimento, Sacar e guardar, Segura, Talismã e Traje. As 11 páginas foram recompostas com 26 linhas cada.
+
+**Motivo:** Achados G2-09, G4-12 e G5-11 (revisao-interfaces/CORRECOES-APLICADAS.md): completude do índice, sem decisão de regra.

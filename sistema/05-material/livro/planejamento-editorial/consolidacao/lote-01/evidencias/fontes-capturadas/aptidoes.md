@@ -26,18 +26,7 @@ Nos níveis **6, 10, 14, 18, 22, 26 e 30**, você alcança um marco. Cada marco 
 
 Se escolher **Refino**, receba mais **+1 de Refino e uma aptidão**. Se o ganho básico já deixou seu Refino em 10, receba **duas aptidões**, em vez desse aumento adicional e de uma aptidão. Confira os requisitos com o Refino atualizado.
 
-| Nível | Nunca escolhe Refino | Sempre escolhe Refino | Aptidões recebidas pela escolha nesse marco |
-|---|---:|---:|---:|
-| Início | 1 | 1 | — |
-| 6 | 2 | 3 | 1 |
-| 10 | 3 | 5 | 1 |
-| 14 | 4 | 7 | 1 |
-| 18 | 5 | 9 | 1 |
-| 22 | 6 | 10 | 2 |
-| 26 | 7 | 10 | 2 |
-| 30 | 8 | 10 | 2 |
-
-A última coluna acompanha quem sempre escolheu Refino. Em outra sequência, verifique seu valor naquele marco. Os ganhos de Corpo, Leque e dos espaços conhecidos ficam em **Progressão**.
+Os ganhos de Corpo, Leque e dos espaços conhecidos ficam em **Progressão**.
 
 ## Escolhas e requisitos
 

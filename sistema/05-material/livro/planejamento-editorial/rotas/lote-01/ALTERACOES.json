@@ -814,5 +814,78 @@
     "impacto": "Economiza apenas ceil(referência/8) de vida máxima uma vez por descanso longo. Custos seguintes de 1/4 e 1/2 usam a referência original. Frequência, acesso CP2, janela e socorro preservados.",
     "estado": "candidata; não publicada",
     "autorizacao": "Raiz autorizou sincronização: dispensa somente primeiro custo de 1/8."
+  },
+  {
+    "id": "R10-33",
+    "tipo": "decisão do autor",
+    "antes": "## Calo — Livre\n\nVocê reconhece pelo toque o encaixe e a textura familiares de armas que costuma usar. Esse detalhe descreve sua relação com o equipamento. Identificar uma arma disfarçada, detectar uma substituição ou obter informação escondida ainda exige o procedimento da cena.",
+    "depois": "(retirado)",
+    "motivo": "Decisão do Mizuki em 04/10/2026 (opção B), achado G5-02 (revisao-interfaces/CORRECOES-APLICADAS.md). O rótulo \"Livre\" era o nome antigo da Expressão da técnica e ficou sem definição.",
+    "paginas": [
+      "rota-passivas-marciais"
+    ],
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/planejamento-editorial/revisao-interfaces/CORRECOES-APLICADAS.md",
+        "ancora": "### D12 · rotas/lote-01/ROTAS.md",
+        "linhas": [
+          328
+        ]
+      },
+      {
+        "arquivo": "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md",
+        "ancora": "## Expressão da técnica",
+        "linhas": [
+          149
+        ]
+      }
+    ],
+    "impacto": "Calo deixa de existir como Talento marcial; não tinha efeito mecânico nem ocupava espaço.",
+    "estado": "aplicada",
+    "autorizacao": "Mizuki, 04/10/2026"
+  },
+  {
+    "id": "R10-34",
+    "tipo": "decisão do autor",
+    "antes": "1. Escreva a **Descrição** e a **Regra** pelo procedimento de Fundamento.",
+    "depois": "1. Escreva a **Descrição**, a **Regra** e a **Expressão da técnica** pelo procedimento de Fundamento.",
+    "motivo": "Decisão do Mizuki em 04/10/2026 (opção B), achado G5-02 (revisao-interfaces/CORRECOES-APLICADAS.md). O rótulo \"Livre\" era o nome antigo da Expressão da técnica e ficou sem definição.",
+    "paginas": [
+      "rota-marcial"
+    ],
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md",
+        "ancora": "## Expressão da técnica",
+        "linhas": [
+          149
+        ]
+      }
+    ],
+    "impacto": "O personagem marcial registra a Expressão da técnica do Fundamento, sem efeito mecânico.",
+    "estado": "aplicada",
+    "autorizacao": "Mizuki, 04/10/2026"
+  },
+  {
+    "id": "R10-35",
+    "tipo": "retirada a pedido do autor",
+    "antes": "Quem escolhe Lapidação em todos os marcos recebe duas Bênçãos nos níveis 22, 26 e 30, totalizando dez escolhas pagas. Quem nunca a escolhe termina em Lapidação 8 e conserva apenas as Bênçãos gratuitas.",
+    "depois": "(retirado)",
+    "motivo": "Pedido do autor (04/10/2026): retirar do livro do jogador projeções de projetista (tempo de campanha, como o personagem termina seguindo sempre a mesma escolha). A regra do marco fica.",
+    "paginas": [
+      "rota-lapidacao"
+    ],
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/planejamento-editorial/revisao-interfaces/CORRECOES-APLICADAS.md",
+        "ancora": "### D14 a D17 · retiradas pedidas pelo Mizuki",
+        "linhas": [
+          348
+        ]
+      }
+    ],
+    "impacto": "Nenhum na mesa: era projeção de quem escolhe sempre ou nunca a Lapidação.",
+    "estado": "aplicada",
+    "autorizacao": "Mizuki, 04/10/2026"
   }
 ]

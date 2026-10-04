@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "64b24f4e2f89840397cee80b2860f41af851f481bb7bb5ba121863d42d8e9a82",
+  "sha256_texto": "6a5d4ecf8c5a8ec7862ce5f42b45981f87e6c1b5f195cf982a79eaf9c2c89474",
   "aprovado": true,
   "quantidades": {
     "checks": 102,
@@ -461,7 +461,7 @@
       "motivo": ""
     },
     {
-      "nome": "quatorze_paginas",
+      "nome": "treze_paginas",
       "passou": true,
       "motivo": ""
     },

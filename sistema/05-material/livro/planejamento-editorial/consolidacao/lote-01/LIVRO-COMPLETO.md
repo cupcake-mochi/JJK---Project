@@ -1662,7 +1662,7 @@ Energia temporária paga custos de PE permitidos, mas não aumenta seus PE máxi
 <a id="dano--zero"></a>
 ### Vida a zero
 
-Ao chegar a **zero de vida**, você está **Morrendo**. Escolha imediatamente **Aguentar** ou **Insistir**. Estas regras são para personagens jogadores. Inimigos e entidades seguem suas próprias regras de derrota.
+Ao chegar a **zero de vida**, você está **Morrendo**. Resolva primeiro as capacidades disparadas pela própria queda; em seguida, escolha **Aguentar** ou **Insistir**. Se uma dessas capacidades encerrar a queda, não há escolha. Estas regras são para personagens jogadores. Inimigos e entidades seguem suas próprias regras de derrota.
 
 | Escolha | Consequência |
 |---|---|
@@ -3431,6 +3431,8 @@ Abrir contra outro alvo ou com outra categoria abandona a reserva. Um erro não 
 ### Batedor: Arma de Fogo
 
 Você cria uma Oportunidade, escolhe quando aproveitá-la e mantém meios de continuar o confronto.
+
+**Acesso.** Armas de fogo exigem Grau 2 ou autorização prévia, conforme Equipamento restrito. Sem esse acesso, confirme a autorização com o mestre antes de escolher esta rota.
 
 **Nível 2: Combate Irregular.** Seus disparos não sofrem a desvantagem causada por inimigo adjacente. A **capacidade da Arma de Fogo** (os ataques por carga, em Munição) **aumenta em um**. Bestas e outras armas de disparo não recebem esse aumento. O gatilho de recarga por **1 ou 2 natural** permanece. A capacidade adicional precisa ser preenchida com munição do inventário. A habilidade não cria uma unidade extra a cada recarga.
 
@@ -5520,7 +5522,7 @@ Se seu deslocamento mudar, recalcule o limite. Se já o tiver consumido, termine
 
 **Nível 2.** Você ganha Fluidez quando acerta uma criatura hostil com arma ou ataque desarmado **durante seu turno**, ou quando uma criatura hostil erra um ataque contra você.
 
-Pode ganhar Fluidez **uma vez entre o começo de um turno seu e o começo do próximo**. Anote se já obteve Fluidez nesse intervalo; o limite se renova no começo do seu turno.
+Pode ganhar Fluidez **uma vez entre o começo de um turno seu e o começo do próximo**. Anote se já obteve Fluidez nesse intervalo; o limite se renova no começo do seu turno. No combate, o primeiro intervalo vai do início do combate até o começo do seu primeiro turno, inclusive para Passo Guardado.
 
 Você guarda **uma Fluidez por vez**. Se já a possui, outro gatilho não acumula uma segunda nem fica reservado. Esse acontecimento também não consome uma obtenção do intervalo. Sofrer dano não remove Fluidez.
 
@@ -5534,7 +5536,7 @@ Antes de um ataque com arma ou desarmado, gaste Fluidez para realizá-lo **com v
 
 #### Instante Decisivo
 
-Após rolar o d20, antes de finalizar o ataque, gaste Fluidez para **ampliar sua margem de crítico em 1**, normalmente de 20 para 19–20. Esse mesmo acerto não pode recuperar Fluidez.
+Após rolar o d20 e antes de o alvo escolher entre a Defesa e Bloquear, gaste Fluidez para **ampliar sua margem de crítico em 1**, normalmente de 20 para 19–20. Esse mesmo acerto não pode recuperar Fluidez.
 
 #### Passo Rápido
 
@@ -6581,6 +6583,8 @@ Oculta, Discreta e Vestida não determinam o Volume. A propriedade Volumosa tem 
 **Durante seu turno, você pode fazer uma manipulação simples de item gratuitamente.** Sacar uma arma, guardar um item, recolher algo solto ao seu alcance, abrir uma porta destrancada ou acionar um interruptor acessível usam essa mesma oportunidade.
 
 Depois dela, **cada nova manipulação simples exige uma Ação de Movimento inteira**. Se já usou parte dessa ação para se deslocar, não pode gastar o restante como se ela ainda estivesse inteira. A conversão de ações segue as regras do turno.
+
+Duas capacidades que troquem essa manipulação gratuita por duas não se somam. Em cada turno, use uma delas, com as restrições dela.
 
 #### Trocar de arma
 
@@ -7706,7 +7710,7 @@ O efeito não concede natação, não impede correntes de água e não protege o
 
 **Arma: Katana. Grau 1. Efeito: Cisão.** Compatível com armas de combate corpo a corpo.
 
-O dano dos ataques com esta arma atinge **somente a Integridade** do alvo, seguindo as regras de dano direto à alma. A vida não é descontada por esse dano. Dados e valores adicionais que pertençam ao próprio ataque acompanham a conversão; outro efeito com resolução separada segue sua própria descrição.
+O dano dos ataques com esta arma é **dano de Alma** e atinge **somente a Integridade** do alvo, conforme Receber dano de Alma, em Dano na alma. A vida não é descontada por esse dano. Dados e valores adicionais que pertençam ao próprio ataque acompanham a conversão; outro efeito com resolução separada segue sua própria descrição.
 
 Cisão não acrescenta dano e não permite escolher, a cada golpe, atingir vida em vez de Integridade. Para isso, use outra arma. As consequências da perda de Integridade e os alvos que podem ser afetados são tratados em Dano na alma.
 
@@ -7876,7 +7880,7 @@ A contagem reinicia no dia e horário definidos pela guilda ou campanha. Use a *
 <a id="progressao--prog-limiar"></a>
 ### Limiar do nível 20
 
-Para avançar do nível **20 para o 21**, reúna o XP necessário e registre **um dos oito feitos abaixo**, realizado entre os níveis **15 e 20**. Um feito reconhecido nessa faixa continua válido quando você chegar ao limiar.
+Para avançar do nível **20 para o 21**, reúna o XP necessário e registre **um dos sete feitos abaixo**, realizado entre os níveis **15 e 20**. Um feito reconhecido nessa faixa continua válido quando você chegar ao limiar.
 
 | Feito | Registro necessário |
 |---|---|
@@ -7887,7 +7891,6 @@ Para avançar do nível **20 para o 21**, reúna o XP necessário e registre **u
 | Voltar do estágio 4 de dano na alma. | Integridade a zero e saída do estado Derrotado registradas, conforme Derrota e morte. |
 | Cumprir uma Promessa até o fim, pagando sua parte. | Termos do pacto e seu cumprimento. |
 | Trazer à guilda uma ferramenta de Grau 1 ou Especial. | Ferramenta obtida e Grau de sua ficha. |
-| Terminar a missão depois de outro personagem jogador chegar ao estágio 4. | Ocorrência na ficha do participante e conclusão da missão. |
 
 A lista é fechada. O mestre confirma se o feito aconteceu e registra a evidência; não precisa avaliar se outra façanha parece equivalente. Os feitos de socorro, dano na alma e saída de Domínio precisam decorrer de uma ameaça hostil real na missão. Treinos e quedas provocadas pelo grupo apenas para cumprir essa lista não contam. Em uma campanha sem guilda, a instituição ou o grupo da campanha recebe a ferramenta do sétimo feito.
 
@@ -7975,7 +7978,7 @@ As aptidões conservam seus requisitos. Quando receber duas, escolha em ordem: a
 
 O feitiço concedido é uma aplicação conhecida, não uma vaga livre para comprar Talento, Domínio ou invocação. O Talento respeita seu nível de acesso e não ocupa espaços. Cada Leque abre uma vaga própria para ele além do limite de **cinco Talentos pagos**. Registre a origem de cada ganho.
 
-No nível 6, por exemplo, Leque concede uma aplicação até Classe 2 e um Talento até Categoria de Efeito 1. Escolher Leque em todos os sete marcos termina em **sete aplicações adicionais e sete Talentos concedidos**, além do repertório comum.
+No nível 6, por exemplo, Leque concede uma aplicação até Classe 2 e um Talento até Categoria de Efeito 1.
 
 Na rota sem energia, substitua Refino e aptidão por **Lapidação e Bênção**, e o feitiço por **Kata**. As outras rotas usam suas aplicações correspondentes.
 
@@ -8072,32 +8075,6 @@ Se a capacidade cair de quatro para duas e o atributo for 3, o total cai de **se
 Registre a seleção. Um corpo suspenso volta ao seu controle quando uma vaga se abre porque um corpo controlado foi destruído ou porque seu total permitido aumentou, conforme **Invocações em campo**. Soltar um corpo de propósito, estar perto do suspenso ou voltar à cidade não permite alternar o grupo controlado.
 
 Também remova básicas, especiais, Talentos ou Famílias concedidas apenas pela Trilha anterior. Registre versões válidas das fichas afetadas. Entidades domadas ou fabricadas conservam sua aquisição própria; a troca de Trilha não as transforma em entidades por espaço nem aumenta seu nível.
-
-<!-- fonte:progressao/lote-01/PROGRESSAO.md#prog-ritmo -->
-<a id="progressao--prog-ritmo"></a>
-### Ritmo de campanha
-
-A recompensa de cada missão e a frequência das sessões determinam quanto tempo a progressão leva. A tabela abaixo é uma **estimativa**, com 52 semanas por ano, sem faltas, falhas, eventos de XP ou espera pelo feito do nível 20.
-
-| Frequência | Até nível 20 | Até nível 30 |
-|---|---:|---:|
-| Uma missão a cada duas semanas | 62,2 meses | 93,7 meses |
-| Uma por semana | 31,1 meses | 46,9 meses |
-| Duas por semana | 15,5 meses | 23,4 meses |
-| Três por semana | 12,4 meses | 18,7 meses |
-| Quatro por semana | 11,3 meses | 17,0 meses |
-
-Esses valores usam uma mistura de missões: antes do nível 20, a cada oito, uma curta, seis padrões e uma longa, média **106,25 XP**. Depois, três longas e dois finais de arco a cada cinco, média **240 XP**. Os descontos semanais entram na conta.
-
-Se todas as missões forem padrão, duas por semana levam aproximadamente **16,5 meses até o 20 e 35,4 até o 30**. A faixa final não acelera sozinha por causa do nível: a estimativa anterior depende de receber missões maiores.
-
-#### Ajustes opcionais da campanha
-
-A guilda pode anunciar missões de dobro, bônus por objetivos pessoais ou ajuda a participantes que ficaram para trás. Essas são políticas opcionais, definidas antes de aplicar a recompensa. Elas não retiram o desconto semanal nem o limite de um avanço por missão, salvo uma mudança expressa nas regras da campanha.
-
-Uma missão padrão de dobro paga 200 XP antes dos descontos. Outra possibilidade é dobrar a recompensa de quem esteja pelo menos três níveis abaixo do grupo. Defina previamente qual nível de referência será usado; essa compensação não faz parte da regra básica.
-
-Não reduza níveis já recebidos para ajustar o ritmo. Mude as recompensas futuras com o grupo e acompanhe os resultados.
 
 <!-- fonte:progressao/lote-01/PROGRESSAO.md#prog-guilda -->
 <a id="progressao--prog-guilda"></a>
@@ -9918,18 +9895,7 @@ Nos níveis **6, 10, 14, 18, 22, 26 e 30**, você alcança um marco. Cada marco 
 
 Se escolher **Refino**, receba mais **+1 de Refino e uma aptidão**. Se o ganho básico já deixou seu Refino em 10, receba **duas aptidões**, em vez desse aumento adicional e de uma aptidão. Confira os requisitos com o Refino atualizado.
 
-| Nível | Nunca escolhe Refino | Sempre escolhe Refino | Aptidões recebidas pela escolha nesse marco |
-|---|---:|---:|---:|
-| Início | 1 | 1 | — |
-| 6 | 2 | 3 | 1 |
-| 10 | 3 | 5 | 1 |
-| 14 | 4 | 7 | 1 |
-| 18 | 5 | 9 | 1 |
-| 22 | 6 | 10 | 2 |
-| 26 | 7 | 10 | 2 |
-| 30 | 8 | 10 | 2 |
-
-A última coluna acompanha quem sempre escolheu Refino. Em outra sequência, verifique seu valor naquele marco. Os ganhos de Corpo, Leque e dos espaços conhecidos ficam em **Progressão**.
+Os ganhos de Corpo, Leque e dos espaços conhecidos ficam em **Progressão**.
 
 #### Escolhas e requisitos
 
@@ -10472,7 +10438,7 @@ Você desenvolve um estilo ligado a armas ou a uma ferramenta amaldiçoada. Uma 
 
 #### Criação
 
-1. Escreva a **Descrição** e a **Regra** pelo procedimento de Fundamento.
+1. Escreva a **Descrição**, a **Regra** e a **Expressão da técnica** pelo procedimento de Fundamento.
 2. Escolha a [rota de arma](#rotas--rota-armas) ou a [rota de ferramenta](#rotas--rota-ferramenta). Essa escolha é permanente.
 3. Registre o equipamento que permite executar suas Katas e o atributo utilizado.
 4. Escolha as Famílias e monte seu repertório. Talentos e entidades usam os mesmos espaços disponíveis para Katas.
@@ -10545,10 +10511,6 @@ Calado impede uma Kata que dependa de fala ou som. Uma ferramenta que funcione s
 ### Talentos marciais
 
 Talentos desta seção usam as regras de aquisição de **Fundamento — Selo e Talentos**. Categoria de Efeito 1 ocupa um espaço de Kata e está disponível desde o nível 1. Categoria 2 ocupa dois espaços e exige nível 7. Categoria 3 ocupa três espaços e exige nível 13. Eles contam no máximo de cinco Talentos pagos.
-
-#### Calo — Livre
-
-Você reconhece pelo toque o encaixe e a textura familiares de armas que costuma usar. Esse detalhe descreve sua relação com o equipamento. Identificar uma arma disfarçada, detectar uma substituição ou obter informação escondida ainda exige o procedimento da cena.
 
 #### Maldição do Inventário — Categoria de Efeito 1
 
@@ -10861,7 +10823,7 @@ Em cada marco, receba **+1 ponto de atributo, +1 de Lapidação e +1 espaço de 
 | Lapidação | +1 de Lapidação e uma Bênção. Se já atingiu Lapidação 10, receba duas Bênçãos. |
 | Leque | Uma Kata adicional e um Talento. |
 
-Confira o teto **depois do +1 gratuito**. Quem escolhe Lapidação em todos os marcos recebe duas Bênçãos nos níveis 22, 26 e 30, totalizando dez escolhas pagas. Quem nunca a escolhe termina em Lapidação 8 e conserva apenas as Bênçãos gratuitas.
+Confira o teto **depois do +1 gratuito**.
 
 A Kata concedida por Leque é uma aplicação, não um espaço livre para outra compra. O Talento é concedido sem pagar espaços e respeita seu nível de acesso. Cada Leque abre uma vaga adicional para esse Talento além do máximo de cinco pagos. Consulte **Experiência e Progressão — Marcos** para as regras comuns, incluindo a especialização de perícias e ofícios.
 
@@ -13954,6 +13916,7 @@ Registre o destino de itens compartilhados para que duas fichas não recebam a m
 | Atrasar | [Catálogo: Restrições de conjuração](#catalogo--cat-restricoes-conjuracao) |
 | Atributo | [Regras gerais: Atributos](#geral--atributos) |
 | Atuação básica | [Invocações: Atuação básica](#campo--inv-basica) |
+| Auge | [Rotas: Sem Técnica](#rotas--rota-sem-tecnica) |
 | Aura | [Fundamento: Formas de ataque](#fundamento--formas) |
 | Aviso (Melhoria; nome anterior) | [Catálogo: Marcas e recursos](#catalogo--cat-marca-recursos) |
 | Aviso (Talento; nome anterior) | [Catálogo: Talentos de Categoria 1](#catalogo--cat-passivas-1) |
@@ -13966,6 +13929,7 @@ Registre o destino de itens compartilhados para que duas fichas não recebam a m
 | Caminho | [Caminho e Trilha](#ab--ab-caminho) |
 | Canalizar em Golpe | [Canalizar Energia](#aptidoes--apt-canalizar) |
 | Carga | [Regras gerais: Carga](#geral--carga) |
+| Carregar (Restrição) | [Catálogo: Restrições de conjuração](#catalogo--cat-restricoes-conjuracao) |
 | Catalisador | [Catalisador](#emanador--ema-impulso) |
 | Categoria de Efeito | [Fundamento: Selo e Talentos](#fundamento--selo) |
 | CD | [Regras gerais: Testes](#geral--testes) |
@@ -13973,8 +13937,6 @@ Registre o destino de itens compartilhados para que duas fichas não recebam a m
 | Cego | [Dano e Recuperação: Condições pesadas](#dano--pesadas) |
 | Cena | [Dano e Recuperação: Cena e usos de habilidades](#dano--usos) |
 | Cicatriz | [Dano e Recuperação: Sequelas e Cicatrizes](#dano--sequelas) |
-| Classe | [Fundamento: Pontos e preços](#fundamento--pontos) |
-| Classe 0 | [Fundamento: Feitiços de Classe 0](#fundamento--classezero) |
 
 <!-- fonte:consulta/lote-01/CONSULTA.md#consulta-indice-3 -->
 <a id="consulta--consulta-indice-3"></a>
@@ -13982,6 +13944,8 @@ Registre o destino de itens compartilhados para que duas fichas não recebam a m
 
 | Assunto | Consulta |
 |---|---|
+| Classe | [Fundamento: Pontos e preços](#fundamento--pontos) |
+| Classe 0 | [Fundamento: Feitiços de Classe 0](#fundamento--classezero) |
 | Classe Passiva (nome anterior) | [Fundamento: Selo e Talentos](#fundamento--selo) |
 | Cobertura | [Regras gerais: Defesa e cobertura](#geral--defesa) |
 | Combatente Amaldiçoado | [Combatente Amaldiçoado](#bastiao--bas-combatente) |
@@ -14006,8 +13970,6 @@ Registre o destino de itens compartilhados para que duas fichas não recebam a m
 | Derrotado | [Dano e Recuperação: Derrota e morte](#dano--derrota) |
 | Derrubado | [Dano e Recuperação: Condições leves](#dano--leves) |
 | Desarmado | [Dano e Recuperação: Condições leves](#dano--leves) |
-| Desgaste | [Equipamento: Desgaste](#equip--eqf-desgaste) |
-| Deslocamento | [Regras gerais: Movimento e terreno](#geral--movimento) |
 
 <!-- fonte:consulta/lote-01/CONSULTA.md#consulta-indice-4 -->
 <a id="consulta--consulta-indice-4"></a>
@@ -14015,7 +13977,11 @@ Registre o destino de itens compartilhados para que duas fichas não recebam a m
 
 | Assunto | Consulta |
 |---|---|
+| Desgaste | [Equipamento: Desgaste](#equip--eqf-desgaste) |
+| Desligada | [Invocações: Retorno e corpos caídos](#campo--inv-retorno) |
+| Deslocamento | [Regras gerais: Movimento e terreno](#geral--movimento) |
 | Desvantagem | [Regras gerais: Treino e modificadores](#geral--pericias) |
+| Discreta | [Equipamento: Armas escondidas](#equip--eq-oculta) |
 | Dívida | [Catálogo: Condições de uso](#catalogo--cat-restricoes-uso) |
 | Domar | [Construir invocações: Domar uma maldição](#construcao--entidades-domar) |
 | Duração | [Fundamento: Conjurar](#fundamento--conjurar) |
@@ -14024,6 +13990,7 @@ Registre o destino de itens compartilhados para que duas fichas não recebam a m
 | Efeito Próprio | [Catálogo: Efeito Próprio](#catalogo--cat-proprio) |
 | Emanador | [Emanador](#emanador--ema-base) |
 | Emaranha | [Equipamento: Propriedades](#equip--eq-propriedades) |
+| Embainhada | [Equipamento: Armas escondidas](#equip--eq-oculta) |
 | Energia amaldiçoada pura (dano) | [Dano e Recuperação: Tipos de dano. Tipo Força.](#dano--tipos) |
 | Energia temporária | [Dano e Recuperação: Vida e energia temporárias](#dano--temporarios) |
 | Enfeitiçado | [Dano e Recuperação: Condições médias](#dano--medias) |
@@ -14031,23 +13998,24 @@ Registre o destino de itens compartilhados para que duas fichas não recebam a m
 | Envenenado | [Dano e Recuperação: Condições pesadas](#dano--pesadas) |
 | Escolher | [Catálogo: Área](#catalogo--cat-area) |
 | Esconder | [Regras gerais: Esconder](#geral--esconder) |
+| Escudo | [Equipamento: Revestimentos e escudos](#equip--eqp-escudo) |
 | Espaço conhecido | [Fundamento: Feitiços conhecidos](#fundamento--repertorio) |
 | Espaço de feitiço | [Fundamento: Feitiços conhecidos](#fundamento--repertorio) |
 | Especial de invocação | [Invocações: Comandar uma especial](#campo--inv-especial) |
 | Especial e repertório | [Especial e repertório](#evocador--ev-principal-especial) |
+
+<!-- fonte:consulta/lote-01/CONSULTA.md#consulta-indice-5 -->
+<a id="consulta--consulta-indice-5"></a>
+### Índice: E–F
+
+| Assunto | Consulta |
+|---|---|
 | Essência | [Regras gerais: Atributos](#geral--atributos) |
 | Estabilizar | [Dano e Recuperação: Socorro](#dano--socorro) |
 | Estágios de Integridade | [Dano e Recuperação: Estágios de Integridade](#dano--integridade) |
 | Estigma | [Equipamento: Graus das ferramentas. Efeitos das ferramentas, na organização atual.](#equip--eqf-graus) |
 | Estímulo Muscular | [Rotas: Estímulo Muscular](#rotas--rota-estimulo) |
 | Estudar | [Regras gerais: Estudar](#geral--estudar) |
-
-<!-- fonte:consulta/lote-01/CONSULTA.md#consulta-indice-5 -->
-<a id="consulta--consulta-indice-5"></a>
-### Índice: E–G
-
-| Assunto | Consulta |
-|---|---|
 | Evocador | [Evocador](#evocador--evocador) |
 | Exaustão | [Dano e Recuperação: Exaustão](#dano--exaustao) |
 | Expansão de Domínio | [Expansão de Domínio](#poderes--degraus) |
@@ -14068,19 +14036,19 @@ Registre o destino de itens compartilhados para que duas fichas não recebam a m
 | Força (dano) | [Dano e Recuperação: Tipos de dano](#dano--tipos) |
 | Forma | [Fundamento: Formas de ataque](#fundamento--formas) |
 | Fundamento | [Fundamento](#fundamento--fundamento) |
+
+<!-- fonte:consulta/lote-01/CONSULTA.md#consulta-indice-6 -->
+<a id="consulta--consulta-indice-6"></a>
+### Índice: F–L
+
+| Assunto | Consulta |
+|---|---|
 | Fura | [Catálogo: Defesas](#catalogo--cat-defesas) |
 | Gatilho | [Regras gerais: Reações e ataques de oportunidade](#geral--oportunidade) |
 | Gesto | [Catálogo: Restrições de conjuração](#catalogo--cat-restricoes-conjuracao) |
 | Grau | [Equipamento: Graus das ferramentas](#equip--eqf-graus) |
 | Grau (patente) | [Progressão: Patentes](#progressao--prog-patentes) |
 | Guarda | [Catálogo: Proteção e apoio](#catalogo--cat-auxiliares-apoio) |
-
-<!-- fonte:consulta/lote-01/CONSULTA.md#consulta-indice-6 -->
-<a id="consulta--consulta-indice-6"></a>
-### Índice: G–L
-
-| Assunto | Consulta |
-|---|---|
 | Guarda Aberta | [Dano e Recuperação: Condições leves](#dano--leves) |
 | Guia | [Guia](#guia--guia) |
 | Identificar Feitiço | [Catálogo: Marcas e recursos](#catalogo--cat-marca-recursos) |
@@ -14101,19 +14069,19 @@ Registre o destino de itens compartilhados para que duas fichas não recebam a m
 | Legado | [Origens](#origens--origens) |
 | Leitura de Feitiços | [Catálogo: Talentos de Categoria 1](#catalogo--cat-passivas-1) |
 | Lento | [Dano e Recuperação: Condições leves](#dano--leves) |
+
+<!-- fonte:consulta/lote-01/CONSULTA.md#consulta-indice-7 -->
+<a id="consulta--consulta-indice-7"></a>
+### Índice: L–M
+
+| Assunto | Consulta |
+|---|---|
 | Leque | [Progressão: Marcos](#progressao--prog-marcos) |
 | Levanta | [Catálogo: Amparo](#catalogo--cat-amparo) |
 | Leve | [Fundamento: Pontos e preços. Preço de montagem; categoria de condição em Condições. Propriedade de arma em Equipamento.](#fundamento--pontos) |
 | Leve, Média e Pesada | [Fundamento: Pontos e preços](#fundamento--pontos) |
 | Liberação Máxima | [Fundamento: Liberação Máxima](#fundamento--liberacao) |
 | Linha | [Fundamento: Formas de ataque](#fundamento--formas) |
-
-<!-- fonte:consulta/lote-01/CONSULTA.md#consulta-indice-7 -->
-<a id="consulta--consulta-indice-7"></a>
-### Índice: L–O
-
-| Assunto | Consulta |
-|---|---|
 | Longe | [Catálogo: Alcance](#catalogo--cat-alcance) |
 | Longo Alcance | [Equipamento: Propriedades](#equip--eq-propriedades) |
 | Maestria | [Regras gerais: Atributos](#geral--atributos) |
@@ -14123,6 +14091,7 @@ Registre o destino de itens compartilhados para que duas fichas não recebam a m
 | Manifestação e convergência | [Manifestação e convergência](#emanador--ema-manifestacao) |
 | Manifestação em Grupo | [Manifestação em Grupo](#evocador--ev-multiplas-entrada) |
 | Manifestar | [Invocações: Manifestar e recolher](#campo--inv-entrada) |
+| Manutenção (entidades) | [Invocações: Manutenção](#campo--inv-manutencao) |
 | Mão Firme | [Catálogo: Talentos de Categoria 1](#catalogo--cat-passivas-1) |
 | Marco | [Progressão: Marcos](#progressao--prog-marcos) |
 | Média | [Fundamento: Pontos e preços. Preço de montagem; categoria de condição em Condições.](#fundamento--pontos) |
@@ -14133,6 +14102,13 @@ Registre o destino de itens compartilhados para que duas fichas não recebam a m
 | Múltiplas Invocações | [Múltiplas Invocações](#evocador--ev-multiplas) |
 | Munição | [Equipamento: Munição](#equip--eqm-municao) |
 | Muro | [Muro](#bastiao--bas-muro) |
+
+<!-- fonte:consulta/lote-01/CONSULTA.md#consulta-indice-8 -->
+<a id="consulta--consulta-indice-8"></a>
+### Índice: N–P
+
+| Assunto | Consulta |
+|---|---|
 | Nível | [Progressão: Experiência e Progressão](#progressao--prog-inicio) |
 | Obras em emergência | [Obras em emergência](#guia--guia-emergencia) |
 | Oculta | [Equipamento: Armas escondidas](#equip--eq-oculta) |
@@ -14140,13 +14116,7 @@ Registre o destino de itens compartilhados para que duas fichas não recebam a m
 | Ōgi | [Rotas: Técnica Marcial](#rotas--rota-marcial) |
 | Onda | [Fundamento: Formas de amparo e Efeito](#fundamento--amparoformas) |
 | Ordem antecipada | [Invocações: Ordem antecipada](#campo--inv-antecipada) |
-
-<!-- fonte:consulta/lote-01/CONSULTA.md#consulta-indice-8 -->
-<a id="consulta--consulta-indice-8"></a>
-### Índice: O–P
-
-| Assunto | Consulta |
-|---|---|
+| Ordens pendentes | [Invocações: Ordens pendentes](#campo--inv-pendentes) |
 | Origem | [Origens](#origens--origens) |
 | Pacto | [Pactos](#ritual--pactos) |
 | Par | [Equipamento: Propriedades](#equip--eq-propriedades) |
@@ -14165,6 +14135,13 @@ Registre o destino de itens compartilhados para que duas fichas não recebam a m
 | Pontos de montagem | [Fundamento: Pontos e preços](#fundamento--pontos) |
 | Pontos de vida | [Dano e Recuperação: Dano](#dano--dano) |
 | Pontos de Vínculo | [Vínculo](#evocador--ev-vinculo) |
+
+<!-- fonte:consulta/lote-01/CONSULTA.md#consulta-indice-9 -->
+<a id="consulta--consulta-indice-9"></a>
+### Índice: P–R
+
+| Assunto | Consulta |
+|---|---|
 | Precisão | [Catálogo: Mira](#catalogo--cat-mira) |
 | Preparar | [Regras gerais: Preparar](#geral--preparar) |
 | Progressão do Guia | [Progressão do Guia](#guia--guia-progressao) |
@@ -14173,13 +14150,6 @@ Registre o destino de itens compartilhados para que duas fichas não recebam a m
 | Proteção | [Equipamento: Proteção](#equip--eqp-protecao) |
 | Proteção de aliados | [Proteção de aliados](#bastiao--bas-aliados) |
 | Pugilista | [Pugilista](#incursor--inc-pugilista) |
-
-<!-- fonte:consulta/lote-01/CONSULTA.md#consulta-indice-9 -->
-<a id="consulta--consulta-indice-9"></a>
-### Índice: P–S
-
-| Assunto | Consulta |
-|---|---|
 | Punho | [Punho](#bastiao--bas-punho) |
 | PV | [Dano e Recuperação: Dano](#dano--dano) |
 | Quedas | [Regras gerais: Quedas e movimento imposto](#geral--quedas) |
@@ -14188,31 +14158,39 @@ Registre o destino de itens compartilhados para que duas fichas não recebam a m
 | Rápido | [Catálogo: Tempo](#catalogo--cat-tempo) |
 | Reação | [Regras gerais: Reações e ataques de oportunidade](#geral--oportunidade) |
 | Reação coletiva | [Invocações: Turnos das entidades](#campo--inv-ciclo) |
+| Recarregar | [Equipamento: Recarregar](#equip--eqm-recarga) |
+| Recolher | [Invocações: Manifestar e recolher](#campo--inv-entrada) |
 | Redução de Dano | [Dano e Recuperação: Redução de Dano](#dano--reducao) |
 | Refino | [Aptidões e Refino](#aptidoes--apt-refino) |
 | Regra | [Fundamento: Sua técnica](#fundamento--tecnica) |
 | Regra da técnica | [Fundamento: Sua técnica](#fundamento--tecnica) |
+| Regra Própria | [Catálogo: Regra Própria](#catalogo--cat-regra-propria) |
+| Religar | [Invocações: Retorno e corpos caídos](#campo--inv-retorno) |
 | Remenda | [Catálogo: Amparo](#catalogo--cat-amparo) |
 | Ressonante | [Ressonante](#emanador--ema-eco) |
+
+<!-- fonte:consulta/lote-01/CONSULTA.md#consulta-indice-10 -->
+<a id="consulta--consulta-indice-10"></a>
+### Índice: R–T
+
+| Assunto | Consulta |
+|---|---|
 | Restrição | [Fundamento: Restrições](#fundamento--restricoes) |
+| Retorno | [Invocações: Retorno e corpos caídos](#campo--inv-retorno) |
+| Revestimento | [Equipamento: Revestimentos e escudos](#equip--eqp-escudo) |
 | Ritual | [Ritual](#ritual--ritual) |
 | Rodada | [Regras gerais: Turnos](#geral--turnos) |
 | Rodada inteira | [Regras gerais: Turnos. Ação Completa.](#geral--turnos) |
 | Rompe | [Equipamento: Propriedades](#equip--eq-propriedades) |
 | Ruptura | [Rotas: Técnica Marcial](#rotas--rota-marcial) |
+| Sacar e guardar | [Equipamento: Sacar e guardar](#equip--eq-manipular) |
 | Saltos | [Regras gerais: Saltos](#geral--saltos) |
+| Segura | [Catálogo: Momento e duração](#catalogo--cat-tempo-duracao) |
 | Selo | [Fundamento: Selo e Talentos](#fundamento--selo) |
 | Sem Técnica | [Rotas: Sem Técnica](#rotas--rota-sem-tecnica) |
 | Sentir Energia | [Regras gerais: Percepção de energia](#geral--mundo) |
 | Sequela | [Dano e Recuperação: Sequelas e Cicatrizes](#dano--sequelas) |
 | Sobrecarga e fluxo | [Sobrecarga e fluxo](#emanador--ema-fluxo) |
-
-<!-- fonte:consulta/lote-01/CONSULTA.md#consulta-indice-10 -->
-<a id="consulta--consulta-indice-10"></a>
-### Índice: S–V
-
-| Assunto | Consulta |
-|---|---|
 | Socorrista | [Socorrista](#guia--guia-socorrista) |
 | Socorro | [Dano e Recuperação: Socorro](#dano--socorro) |
 | Socorro de emergência | [Socorro de emergência](#guia--guia-emergencia-cuidado) |
@@ -14220,8 +14198,16 @@ Registre o destino de itens compartilhados para que duas fichas não recebam a m
 | Talento | [Fundamento: Selo e Talentos](#fundamento--selo) |
 | Talento Próprio | [Catálogo: Talento Próprio](#catalogo--cat-passiva-propria) |
 | Talha | [Equipamento: Propriedades](#equip--eq-propriedades) |
+| Talismã | [Invocações: Talismãs](#campo--inv-talisma) |
 | Técnica amaldiçoada | [Mundo jujutsu](#ab--ab-mundo) |
 | Técnica Marcial | [Rotas: Técnica Marcial](#rotas--rota-marcial) |
+
+<!-- fonte:consulta/lote-01/CONSULTA.md#consulta-indice-11 -->
+<a id="consulta--consulta-indice-11"></a>
+### Índice: T–X
+
+| Assunto | Consulta |
+|---|---|
 | Técnica Máxima | [Fundamento: Técnica Máxima](#fundamento--maxima) |
 | Teste | [Regras gerais: Testes](#geral--testes) |
 | Teste de Resistência | [Regras gerais: Testes de Resistência](#geral--resistencia) |
@@ -14229,6 +14215,7 @@ Registre o destino de itens compartilhados para que duas fichas não recebam a m
 | Toca a Alma | [Catálogo: Defesas](#catalogo--cat-defesas) |
 | Toque | [Fundamento: Formas de ataque](#fundamento--formas) |
 | Traço | [Origens](#origens--origens) |
+| Traje | [Equipamento: Trajes](#equip--eqp-traje) |
 | Treino | [Regras gerais: Treino e modificadores](#geral--pericias) |
 | Trilha | [Caminho e Trilha](#ab--ab-caminho) |
 | Trocar de entidade | [Invocações: Trocar de entidade](#campo--inv-troca) |
@@ -14239,13 +14226,6 @@ Registre o destino de itens compartilhados para que duas fichas não recebam a m
 | Uso Livre | [Fundamento: Uso Livre](#fundamento--livre) |
 | Vanguarda | [Vanguarda](#vanguarda--van-base) |
 | Vantagem | [Regras gerais: Treino e modificadores](#geral--pericias) |
-
-<!-- fonte:consulta/lote-01/CONSULTA.md#consulta-indice-11 -->
-<a id="consulta--consulta-indice-11"></a>
-### Índice: V–X
-
-| Assunto | Consulta |
-|---|---|
 | Vasculhar | [Regras gerais: Vasculhar](#geral--procurar) |
 | Versado | [Prazo e Escola de Arma](#vanguarda--van-escola) |
 | Versátil | [Equipamento: Propriedades](#equip--eq-propriedades) |

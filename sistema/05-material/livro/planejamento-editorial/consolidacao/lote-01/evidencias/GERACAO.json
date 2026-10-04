@@ -21,8 +21,8 @@
     },
     "dano": {
       "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
-      "sha256_lido": "b4035a501c87ada84e73e5951cdf41639c850d644cfe4cb8812575d8a0bc1c43",
-      "sha256_no_fim": "b4035a501c87ada84e73e5951cdf41639c850d644cfe4cb8812575d8a0bc1c43"
+      "sha256_lido": "44c41c7ce33b68d6284fa55b69d7fb43bc6fc28aa3b86c445007cad1dc807fea",
+      "sha256_no_fim": "44c41c7ce33b68d6284fa55b69d7fb43bc6fc28aa3b86c445007cad1dc807fea"
     },
     "origens": {
       "arquivo": "origens/lote-01/ORIGENS-E-LEGADOS.md",
@@ -36,13 +36,13 @@
     },
     "equip": {
       "arquivo": "equipamento/lote-final/EQUIPAMENTO.md",
-      "sha256_lido": "96fe206bd2257b9839da6bc53c97c6b0ca17f82f3bf9f706709e07ecb19ec858",
-      "sha256_no_fim": "96fe206bd2257b9839da6bc53c97c6b0ca17f82f3bf9f706709e07ecb19ec858"
+      "sha256_lido": "691e10b85c01d25f9002bc4b5717b05a947129a2ae22bef3145f83b7dd938f1b",
+      "sha256_no_fim": "691e10b85c01d25f9002bc4b5717b05a947129a2ae22bef3145f83b7dd938f1b"
     },
     "progressao": {
       "arquivo": "progressao/lote-01/PROGRESSAO.md",
-      "sha256_lido": "64b24f4e2f89840397cee80b2860f41af851f481bb7bb5ba121863d42d8e9a82",
-      "sha256_no_fim": "64b24f4e2f89840397cee80b2860f41af851f481bb7bb5ba121863d42d8e9a82"
+      "sha256_lido": "6a5d4ecf8c5a8ec7862ce5f42b45981f87e6c1b5f195cf982a79eaf9c2c89474",
+      "sha256_no_fim": "6a5d4ecf8c5a8ec7862ce5f42b45981f87e6c1b5f195cf982a79eaf9c2c89474"
     },
     "fundamento": {
       "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
@@ -56,13 +56,13 @@
     },
     "aptidoes": {
       "arquivo": "aptidoes/lote-01/APTIDOES-E-REFINO.md",
-      "sha256_lido": "b3f4404b9e9a03df2071ad1b2790163376ab551768b4dd98f32ae66726c5f8ea",
-      "sha256_no_fim": "b3f4404b9e9a03df2071ad1b2790163376ab551768b4dd98f32ae66726c5f8ea"
+      "sha256_lido": "123f777f27638aac11b1c7e984c998503fb84b1eee24a8d80e8e1926880888f0",
+      "sha256_no_fim": "123f777f27638aac11b1c7e984c998503fb84b1eee24a8d80e8e1926880888f0"
     },
     "rotas": {
       "arquivo": "rotas/lote-01/ROTAS.md",
-      "sha256_lido": "b397b7351a1dc477df4fff10dce6ebaccd9e3147913ca9bcef3fc65640e45603",
-      "sha256_no_fim": "b397b7351a1dc477df4fff10dce6ebaccd9e3147913ca9bcef3fc65640e45603"
+      "sha256_lido": "7fb73a56e4a34ce5a50be4357dd4d5987000c15f9cb81af9972ff4833ef23a59",
+      "sha256_no_fim": "7fb73a56e4a34ce5a50be4357dd4d5987000c15f9cb81af9972ff4833ef23a59"
     },
     "poderes": {
       "arquivo": "poderes-avancados/lote-01/PODERES-AVANCADOS.md",
@@ -91,8 +91,8 @@
     },
     "consulta": {
       "arquivo": "consulta/lote-01/CONSULTA.md",
-      "sha256_lido": "b77230eae945ddb15074bc402faeec98e282471e69485fec7f4964bea7ef83a6",
-      "sha256_no_fim": "b77230eae945ddb15074bc402faeec98e282471e69485fec7f4964bea7ef83a6"
+      "sha256_lido": "506bb779ba4772add62d7a1d05a399d59739a13bb0a882b5345e5c7e9641548e",
+      "sha256_no_fim": "506bb779ba4772add62d7a1d05a399d59739a13bb0a882b5345e5c7e9641548e"
     },
     "bastiao": {
       "arquivo": "caminhos/bastiao/lote-01/BASTIAO.md",
@@ -101,8 +101,8 @@
     },
     "vanguarda": {
       "arquivo": "caminhos/vanguarda/lote-01/VANGUARDA.md",
-      "sha256_lido": "751db69756ec4c6b02b67034a11efbe5ae8a723c8b23c11fdc5c417134cd6ba1",
-      "sha256_no_fim": "751db69756ec4c6b02b67034a11efbe5ae8a723c8b23c11fdc5c417134cd6ba1"
+      "sha256_lido": "a471b8d66ab37a87a26da2fdd4d96625c00ce399f22d9f9ad36ffc68e6c5da37",
+      "sha256_no_fim": "a471b8d66ab37a87a26da2fdd4d96625c00ce399f22d9f9ad36ffc68e6c5da37"
     },
     "guia": {
       "arquivo": "caminhos/guia/lote-01/GUIA.md",
@@ -121,43 +121,37 @@
     },
     "incursor": {
       "arquivo": "caminhos/incursor/lote-01/INCURSOR.md",
-      "sha256_lido": "3cadc87096d53d3056b0e4817a7a79479c34ef54b611e2601b454e70c2df748e",
-      "sha256_no_fim": "3cadc87096d53d3056b0e4817a7a79479c34ef54b611e2601b454e70c2df748e"
+      "sha256_lido": "2d9a8395eb486ee0afee78234c8c0ad3e2fd6314ebface6788b6842d85a53268",
+      "sha256_no_fim": "2d9a8395eb486ee0afee78234c8c0ad3e2fd6314ebface6788b6842d85a53268"
     }
   },
   "fontes_mudaram_durante_geracao": [],
-  "destinos_sha256": "98ca983c53f6ae87c8aa027e34c0b9f3f9bb2ee4bc28edf36d2e7e8a30cfa71e",
+  "destinos_sha256": "b704b888c0b7eb8c32d2467e3c45b21d5aec26aa95c45558c3970b1d29105355",
   "destinos_mudaram_durante_geracao": false,
-  "blocos_esperados": 510,
-  "blocos_incluidos": 510,
+  "blocos_esperados": 509,
+  "blocos_incluidos": 509,
   "omitidos": [],
   "duplicados": [],
   "partes": 5,
   "capitulos": 21,
   "caminhos": 6,
-  "paginas": 384,
+  "paginas": 382,
   "passagens": [
     {
       "passagem": 1,
-      "paginas": 383,
-      "destinos": 536,
+      "paginas": 382,
+      "destinos": 535,
       "mapa_estavel": false
     },
     {
       "passagem": 2,
-      "paginas": 384,
-      "destinos": 536,
-      "mapa_estavel": false
-    },
-    {
-      "passagem": 3,
-      "paginas": 384,
-      "destinos": 536,
+      "paginas": 382,
+      "destinos": 535,
       "mapa_estavel": true
     }
   ],
   "destinos_pendentes": 0,
-  "sha256_manuscrito": "21622d28a2fb4455a1e75bf6e48ced65ae6ff42f6420d3b54401d6cd3b59cdbb",
-  "sha256_pdf": "00a207c962c27cdc13c74ef6dff70acea2803f8081a9a8d17b254a2d39b74eda",
+  "sha256_manuscrito": "f277671bd0901ddfbe1bff5fad91887d60af0084385fd0368cc2b39b7e119412",
+  "sha256_pdf": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e",
   "V14": "não executado: requer inspeção visual de todas as páginas finais"
 }

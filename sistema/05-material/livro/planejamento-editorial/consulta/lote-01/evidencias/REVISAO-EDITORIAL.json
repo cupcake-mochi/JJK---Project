@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "b77230eae945ddb15074bc402faeec98e282471e69485fec7f4964bea7ef83a6",
+  "sha256_texto": "506bb779ba4772add62d7a1d05a399d59739a13bb0a882b5345e5c7e9641548e",
   "secoes": [
     {
       "ancora": "consulta-glossario-1",
@@ -342,5 +342,21 @@
     "registro": "revisao-interfaces/CORRECOES-APLICADAS.json",
     "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana.",
     "conferido": "Trechos trocados relidos: nomes, remissões ou regra decidida pelo autor; títulos e seções inalterados."
+  },
+  "revisao_delta_2026_10_04_decisoes": {
+    "sha256_anterior": "b77230eae945ddb15074bc402faeec98e282471e69485fec7f4964bea7ef83a6",
+    "sha256_atual": "506bb779ba4772add62d7a1d05a399d59739a13bb0a882b5345e5c7e9641548e",
+    "mudancas": [
+      {
+        "codigo": "D13",
+        "achado": "G2-09, G4-12, G5-11",
+        "secao": "consulta-indice-1 a 11",
+        "antes": "268 verbetes",
+        "depois": "286 verbetes: Auge, Carregar (Restrição), Desligada, Discreta, Embainhada, Escudo, Manutenção (entidades), Ordens pendentes, Recarregar, Recolher, Regra Própria, Religar, Retorno, Revestimento, Sacar e guardar, Segura, Talismã e Traje. As 11 páginas foram recompostas com 26 linhas cada, em ordem alfabética sem acento; os títulos de faixa mudaram a partir de E."
+      }
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+    "conferido": "Trechos trocados relidos: decisões do autor de 04/10/2026, retirada de projeções pedida por ele ou verbetes de índice. O restante do texto é idêntico e conserva a leitura anterior."
   }
 }

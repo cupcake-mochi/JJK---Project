@@ -1,23 +1,23 @@
 {
-  "sha256_pdf": "00a207c962c27cdc13c74ef6dff70acea2803f8081a9a8d17b254a2d39b74eda",
-  "sha256_manuscrito": "21622d28a2fb4455a1e75bf6e48ced65ae6ff42f6420d3b54401d6cd3b59cdbb",
+  "sha256_pdf": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e",
+  "sha256_manuscrito": "f277671bd0901ddfbe1bff5fad91887d60af0084385fd0368cc2b39b7e119412",
   "ok": true,
-  "verificacoes": 3497,
-  "paginas": 384,
-  "blocos": 510,
-  "links_internos": 508,
-  "caracteres_pdf": 813550,
+  "verificacoes": 3503,
+  "paginas": 382,
+  "blocos": 509,
+  "links_internos": 526,
+  "caracteres_pdf": 812588,
   "checks": [
     {
       "teste": "PDF atual",
-      "obtido": "00a207c962c27cdc13c74ef6dff70acea2803f8081a9a8d17b254a2d39b74eda",
-      "esperado": "00a207c962c27cdc13c74ef6dff70acea2803f8081a9a8d17b254a2d39b74eda",
+      "obtido": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e",
+      "esperado": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e",
       "ok": true
     },
     {
       "teste": "Markdown atual",
-      "obtido": "21622d28a2fb4455a1e75bf6e48ced65ae6ff42f6420d3b54401d6cd3b59cdbb",
-      "esperado": "21622d28a2fb4455a1e75bf6e48ced65ae6ff42f6420d3b54401d6cd3b59cdbb",
+      "obtido": "f277671bd0901ddfbe1bff5fad91887d60af0084385fd0368cc2b39b7e119412",
+      "esperado": "f277671bd0901ddfbe1bff5fad91887d60af0084385fd0368cc2b39b7e119412",
       "ok": true
     },
     {
@@ -34,14 +34,14 @@
     },
     {
       "teste": "Blocos únicos",
-      "obtido": 510,
-      "esperado": 510,
+      "obtido": 509,
+      "esperado": 509,
       "ok": true
     },
     {
       "teste": "Blocos mapeados",
-      "obtido": 510,
-      "esperado": 510,
+      "obtido": 509,
+      "esperado": 509,
       "ok": true
     },
     {
@@ -76,8 +76,8 @@
     },
     {
       "teste": "Mapa de destinos continua atual",
-      "obtido": "98ca983c53f6ae87c8aa027e34c0b9f3f9bb2ee4bc28edf36d2e7e8a30cfa71e",
-      "esperado": "98ca983c53f6ae87c8aa027e34c0b9f3f9bb2ee4bc28edf36d2e7e8a30cfa71e",
+      "obtido": "b704b888c0b7eb8c32d2467e3c45b21d5aec26aa95c45558c3970b1d29105355",
+      "esperado": "b704b888c0b7eb8c32d2467e3c45b21d5aec26aa95c45558c3970b1d29105355",
       "ok": true
     },
     {
@@ -7299,6 +7299,30 @@
       "ok": true
     },
     {
+      "teste": "p218: destino de link 102",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p218: destino de link 103",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p218: destino de link 104",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p218: destino de link 105",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
       "teste": "p219: texto pesquisável",
       "obtido": true,
       "esperado": true,
@@ -7326,30 +7350,6 @@
       "teste": "p219: sem raster artístico",
       "obtido": 0,
       "esperado": 0,
-      "ok": true
-    },
-    {
-      "teste": "p219: destino de link 102",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p219: destino de link 103",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p219: destino de link 104",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p219: destino de link 105",
-      "obtido": true,
-      "esperado": true,
       "ok": true
     },
     {
@@ -7413,6 +7413,12 @@
       "ok": true
     },
     {
+      "teste": "p221: destino de link 106",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
       "teste": "p222: texto pesquisável",
       "obtido": true,
       "esperado": true,
@@ -7440,12 +7446,6 @@
       "teste": "p222: sem raster artístico",
       "obtido": 0,
       "esperado": 0,
-      "ok": true
-    },
-    {
-      "teste": "p222: destino de link 106",
-      "obtido": true,
-      "esperado": true,
       "ok": true
     },
     {
@@ -7479,6 +7479,18 @@
       "ok": true
     },
     {
+      "teste": "p223: destino de link 107",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p223: destino de link 108",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
       "teste": "p224: texto pesquisável",
       "obtido": true,
       "esperado": true,
@@ -7509,13 +7521,13 @@
       "ok": true
     },
     {
-      "teste": "p224: destino de link 107",
+      "teste": "p224: destino de link 109",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p224: destino de link 108",
+      "teste": "p224: destino de link 110",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -7548,18 +7560,6 @@
       "teste": "p225: sem raster artístico",
       "obtido": 0,
       "esperado": 0,
-      "ok": true
-    },
-    {
-      "teste": "p225: destino de link 109",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p225: destino de link 110",
-      "obtido": true,
-      "esperado": true,
       "ok": true
     },
     {
@@ -7953,6 +7953,18 @@
       "ok": true
     },
     {
+      "teste": "p238: destino de link 111",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p238: destino de link 112",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
       "teste": "p239: texto pesquisável",
       "obtido": true,
       "esperado": true,
@@ -7980,18 +7992,6 @@
       "teste": "p239: sem raster artístico",
       "obtido": 0,
       "esperado": 0,
-      "ok": true
-    },
-    {
-      "teste": "p239: destino de link 111",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p239: destino de link 112",
-      "obtido": true,
-      "esperado": true,
       "ok": true
     },
     {
@@ -8115,6 +8115,84 @@
       "ok": true
     },
     {
+      "teste": "p243: destino de link 113",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p243: destino de link 114",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p243: destino de link 115",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p243: destino de link 116",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p243: destino de link 117",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p243: destino de link 118",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p243: destino de link 119",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p243: destino de link 120",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p243: destino de link 121",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p243: destino de link 122",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p243: destino de link 123",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p243: destino de link 124",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p243: destino de link 125",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
       "teste": "p244: texto pesquisável",
       "obtido": true,
       "esperado": true,
@@ -8142,84 +8220,6 @@
       "teste": "p244: sem raster artístico",
       "obtido": 0,
       "esperado": 0,
-      "ok": true
-    },
-    {
-      "teste": "p244: destino de link 113",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p244: destino de link 114",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p244: destino de link 115",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p244: destino de link 116",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p244: destino de link 117",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p244: destino de link 118",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p244: destino de link 119",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p244: destino de link 120",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p244: destino de link 121",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p244: destino de link 122",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p244: destino de link 123",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p244: destino de link 124",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p244: destino de link 125",
-      "obtido": true,
-      "esperado": true,
       "ok": true
     },
     {
@@ -9123,6 +9123,18 @@
       "ok": true
     },
     {
+      "teste": "p274: destino de link 126",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p274: destino de link 127",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
       "teste": "p275: texto pesquisável",
       "obtido": true,
       "esperado": true,
@@ -9150,18 +9162,6 @@
       "teste": "p275: sem raster artístico",
       "obtido": 0,
       "esperado": 0,
-      "ok": true
-    },
-    {
-      "teste": "p275: destino de link 126",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p275: destino de link 127",
-      "obtido": true,
-      "esperado": true,
       "ok": true
     },
     {
@@ -9285,6 +9285,18 @@
       "ok": true
     },
     {
+      "teste": "p279: destino de link 128",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p279: destino de link 129",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
       "teste": "p280: texto pesquisável",
       "obtido": true,
       "esperado": true,
@@ -9312,18 +9324,6 @@
       "teste": "p280: sem raster artístico",
       "obtido": 0,
       "esperado": 0,
-      "ok": true
-    },
-    {
-      "teste": "p280: destino de link 128",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p280: destino de link 129",
-      "obtido": true,
-      "esperado": true,
       "ok": true
     },
     {
@@ -9357,6 +9357,12 @@
       "ok": true
     },
     {
+      "teste": "p281: destino de link 130",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
       "teste": "p282: texto pesquisável",
       "obtido": true,
       "esperado": true,
@@ -9384,12 +9390,6 @@
       "teste": "p282: sem raster artístico",
       "obtido": 0,
       "esperado": 0,
-      "ok": true
-    },
-    {
-      "teste": "p282: destino de link 130",
-      "obtido": true,
-      "esperado": true,
       "ok": true
     },
     {
@@ -9453,6 +9453,12 @@
       "ok": true
     },
     {
+      "teste": "p284: destino de link 131",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
       "teste": "p285: texto pesquisável",
       "obtido": true,
       "esperado": true,
@@ -9483,6 +9489,18 @@
       "ok": true
     },
     {
+      "teste": "p285: destino de link 132",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p285: destino de link 133",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
       "teste": "p286: texto pesquisável",
       "obtido": true,
       "esperado": true,
@@ -9510,24 +9528,6 @@
       "teste": "p286: sem raster artístico",
       "obtido": 0,
       "esperado": 0,
-      "ok": true
-    },
-    {
-      "teste": "p286: destino de link 131",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p286: destino de link 132",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p286: destino de link 133",
-      "obtido": true,
-      "esperado": true,
       "ok": true
     },
     {
@@ -9831,6 +9831,12 @@
       "ok": true
     },
     {
+      "teste": "p296: destino de link 134",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
       "teste": "p297: texto pesquisável",
       "obtido": true,
       "esperado": true,
@@ -9888,12 +9894,6 @@
       "teste": "p298: sem raster artístico",
       "obtido": 0,
       "esperado": 0,
-      "ok": true
-    },
-    {
-      "teste": "p298: destino de link 134",
-      "obtido": true,
-      "esperado": true,
       "ok": true
     },
     {
@@ -10947,6 +10947,24 @@
       "ok": true
     },
     {
+      "teste": "p333: destino de link 135",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p333: destino de link 136",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p333: destino de link 137",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
       "teste": "p334: texto pesquisável",
       "obtido": true,
       "esperado": true,
@@ -11004,24 +11022,6 @@
       "teste": "p335: sem raster artístico",
       "obtido": 0,
       "esperado": 0,
-      "ok": true
-    },
-    {
-      "teste": "p335: destino de link 135",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p335: destino de link 136",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p335: destino de link 137",
-      "obtido": true,
-      "esperado": true,
       "ok": true
     },
     {
@@ -11175,6 +11175,24 @@
       "ok": true
     },
     {
+      "teste": "p340: destino de link 138",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p340: destino de link 139",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p340: destino de link 140",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
       "teste": "p341: texto pesquisável",
       "obtido": true,
       "esperado": true,
@@ -11202,6 +11220,12 @@
       "teste": "p341: sem raster artístico",
       "obtido": 0,
       "esperado": 0,
+      "ok": true
+    },
+    {
+      "teste": "p341: destino de link 141",
+      "obtido": true,
+      "esperado": true,
       "ok": true
     },
     {
@@ -11235,19 +11259,7 @@
       "ok": true
     },
     {
-      "teste": "p342: destino de link 138",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p342: destino de link 139",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p342: destino de link 140",
+      "teste": "p342: destino de link 142",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -11283,12 +11295,6 @@
       "ok": true
     },
     {
-      "teste": "p343: destino de link 141",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
       "teste": "p344: texto pesquisável",
       "obtido": true,
       "esperado": true,
@@ -11316,12 +11322,6 @@
       "teste": "p344: sem raster artístico",
       "obtido": 0,
       "esperado": 0,
-      "ok": true
-    },
-    {
-      "teste": "p344: destino de link 142",
-      "obtido": true,
-      "esperado": true,
       "ok": true
     },
     {
@@ -11385,6 +11385,12 @@
       "ok": true
     },
     {
+      "teste": "p346: destino de link 143",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
       "teste": "p347: texto pesquisável",
       "obtido": true,
       "esperado": true,
@@ -11445,12 +11451,6 @@
       "ok": true
     },
     {
-      "teste": "p348: destino de link 143",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
       "teste": "p349: texto pesquisável",
       "obtido": true,
       "esperado": true,
@@ -11478,6 +11478,12 @@
       "teste": "p349: sem raster artístico",
       "obtido": 0,
       "esperado": 0,
+      "ok": true
+    },
+    {
+      "teste": "p349: destino de link 144",
+      "obtido": true,
+      "esperado": true,
       "ok": true
     },
     {
@@ -11511,6 +11517,12 @@
       "ok": true
     },
     {
+      "teste": "p350: destino de link 145",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
       "teste": "p351: texto pesquisável",
       "obtido": true,
       "esperado": true,
@@ -11541,12 +11553,6 @@
       "ok": true
     },
     {
-      "teste": "p351: destino de link 144",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
       "teste": "p352: texto pesquisável",
       "obtido": true,
       "esperado": true,
@@ -11574,12 +11580,6 @@
       "teste": "p352: sem raster artístico",
       "obtido": 0,
       "esperado": 0,
-      "ok": true
-    },
-    {
-      "teste": "p352: destino de link 145",
-      "obtido": true,
-      "esperado": true,
       "ok": true
     },
     {
@@ -11733,6 +11733,114 @@
       "ok": true
     },
     {
+      "teste": "p357: destino de link 146",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p357: destino de link 147",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p357: destino de link 148",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p357: destino de link 149",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p357: destino de link 150",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p357: destino de link 151",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p357: destino de link 152",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p357: destino de link 153",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p357: destino de link 154",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p357: destino de link 155",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p357: destino de link 156",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p357: destino de link 157",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p357: destino de link 158",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p357: destino de link 159",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p357: destino de link 160",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p357: destino de link 161",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p357: destino de link 162",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p357: destino de link 163",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
       "teste": "p358: texto pesquisável",
       "obtido": true,
       "esperado": true,
@@ -11760,6 +11868,132 @@
       "teste": "p358: sem raster artístico",
       "obtido": 0,
       "esperado": 0,
+      "ok": true
+    },
+    {
+      "teste": "p358: destino de link 164",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p358: destino de link 165",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p358: destino de link 166",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p358: destino de link 167",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p358: destino de link 168",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p358: destino de link 169",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p358: destino de link 170",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p358: destino de link 171",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p358: destino de link 172",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p358: destino de link 173",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p358: destino de link 174",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p358: destino de link 175",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p358: destino de link 176",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p358: destino de link 177",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p358: destino de link 178",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p358: destino de link 179",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p358: destino de link 180",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p358: destino de link 181",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p358: destino de link 182",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p358: destino de link 183",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p358: destino de link 184",
+      "obtido": true,
+      "esperado": true,
       "ok": true
     },
     {
@@ -11793,109 +12027,127 @@
       "ok": true
     },
     {
-      "teste": "p359: destino de link 146",
+      "teste": "p359: destino de link 185",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p359: destino de link 147",
+      "teste": "p359: destino de link 186",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p359: destino de link 148",
+      "teste": "p359: destino de link 187",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p359: destino de link 149",
+      "teste": "p359: destino de link 188",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p359: destino de link 150",
+      "teste": "p359: destino de link 189",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p359: destino de link 151",
+      "teste": "p359: destino de link 190",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p359: destino de link 152",
+      "teste": "p359: destino de link 191",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p359: destino de link 153",
+      "teste": "p359: destino de link 192",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p359: destino de link 154",
+      "teste": "p359: destino de link 193",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p359: destino de link 155",
+      "teste": "p359: destino de link 194",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p359: destino de link 156",
+      "teste": "p359: destino de link 195",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p359: destino de link 157",
+      "teste": "p359: destino de link 196",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p359: destino de link 158",
+      "teste": "p359: destino de link 197",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p359: destino de link 159",
+      "teste": "p359: destino de link 198",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p359: destino de link 160",
+      "teste": "p359: destino de link 199",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p359: destino de link 161",
+      "teste": "p359: destino de link 200",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p359: destino de link 162",
+      "teste": "p359: destino de link 201",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p359: destino de link 163",
+      "teste": "p359: destino de link 202",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p359: destino de link 203",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p359: destino de link 204",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p359: destino de link 205",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -11931,127 +12183,115 @@
       "ok": true
     },
     {
-      "teste": "p360: destino de link 164",
+      "teste": "p360: destino de link 206",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p360: destino de link 165",
+      "teste": "p360: destino de link 207",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p360: destino de link 166",
+      "teste": "p360: destino de link 208",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p360: destino de link 167",
+      "teste": "p360: destino de link 209",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p360: destino de link 168",
+      "teste": "p360: destino de link 210",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p360: destino de link 169",
+      "teste": "p360: destino de link 211",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p360: destino de link 170",
+      "teste": "p360: destino de link 212",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p360: destino de link 171",
+      "teste": "p360: destino de link 213",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p360: destino de link 172",
+      "teste": "p360: destino de link 214",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p360: destino de link 173",
+      "teste": "p360: destino de link 215",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p360: destino de link 174",
+      "teste": "p360: destino de link 216",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p360: destino de link 175",
+      "teste": "p360: destino de link 217",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p360: destino de link 176",
+      "teste": "p360: destino de link 218",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p360: destino de link 177",
+      "teste": "p360: destino de link 219",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p360: destino de link 178",
+      "teste": "p360: destino de link 220",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p360: destino de link 179",
+      "teste": "p360: destino de link 221",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p360: destino de link 180",
+      "teste": "p360: destino de link 222",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p360: destino de link 181",
+      "teste": "p360: destino de link 223",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p360: destino de link 182",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p360: destino de link 183",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p360: destino de link 184",
+      "teste": "p360: destino de link 224",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -12087,127 +12327,73 @@
       "ok": true
     },
     {
-      "teste": "p361: destino de link 185",
+      "teste": "p361: destino de link 225",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p361: destino de link 186",
+      "teste": "p361: destino de link 226",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p361: destino de link 187",
+      "teste": "p361: destino de link 227",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p361: destino de link 188",
+      "teste": "p361: destino de link 228",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p361: destino de link 189",
+      "teste": "p361: destino de link 229",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p361: destino de link 190",
+      "teste": "p361: destino de link 230",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p361: destino de link 191",
+      "teste": "p361: destino de link 231",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p361: destino de link 192",
+      "teste": "p361: destino de link 232",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p361: destino de link 193",
+      "teste": "p361: destino de link 233",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p361: destino de link 194",
+      "teste": "p361: destino de link 234",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p361: destino de link 195",
+      "teste": "p361: destino de link 235",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p361: destino de link 196",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p361: destino de link 197",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p361: destino de link 198",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p361: destino de link 199",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p361: destino de link 200",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p361: destino de link 201",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p361: destino de link 202",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p361: destino de link 203",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p361: destino de link 204",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p361: destino de link 205",
+      "teste": "p361: destino de link 236",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -12243,120 +12429,6 @@
       "ok": true
     },
     {
-      "teste": "p362: destino de link 206",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p362: destino de link 207",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p362: destino de link 208",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p362: destino de link 209",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p362: destino de link 210",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p362: destino de link 211",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p362: destino de link 212",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p362: destino de link 213",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p362: destino de link 214",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p362: destino de link 215",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p362: destino de link 216",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p362: destino de link 217",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p362: destino de link 218",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p362: destino de link 219",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p362: destino de link 220",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p362: destino de link 221",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p362: destino de link 222",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p362: destino de link 223",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p362: destino de link 224",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
       "teste": "p363: texto pesquisável",
       "obtido": true,
       "esperado": true,
@@ -12384,78 +12456,6 @@
       "teste": "p363: sem raster artístico",
       "obtido": 0,
       "esperado": 0,
-      "ok": true
-    },
-    {
-      "teste": "p363: destino de link 225",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p363: destino de link 226",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p363: destino de link 227",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p363: destino de link 228",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p363: destino de link 229",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p363: destino de link 230",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p363: destino de link 231",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p363: destino de link 232",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p363: destino de link 233",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p363: destino de link 234",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p363: destino de link 235",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p363: destino de link 236",
-      "obtido": true,
-      "esperado": true,
       "ok": true
     },
     {
@@ -12729,6 +12729,162 @@
       "ok": true
     },
     {
+      "teste": "p372: destino de link 237",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p372: destino de link 238",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p372: destino de link 239",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p372: destino de link 240",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p372: destino de link 241",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p372: destino de link 242",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p372: destino de link 243",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p372: destino de link 244",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p372: destino de link 245",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p372: destino de link 246",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p372: destino de link 247",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p372: destino de link 248",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p372: destino de link 249",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p372: destino de link 250",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p372: destino de link 251",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p372: destino de link 252",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p372: destino de link 253",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p372: destino de link 254",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p372: destino de link 255",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p372: destino de link 256",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p372: destino de link 257",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p372: destino de link 258",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p372: destino de link 259",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p372: destino de link 260",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p372: destino de link 261",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p372: destino de link 262",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
       "teste": "p373: texto pesquisável",
       "obtido": true,
       "esperado": true,
@@ -12756,6 +12912,162 @@
       "teste": "p373: sem raster artístico",
       "obtido": 0,
       "esperado": 0,
+      "ok": true
+    },
+    {
+      "teste": "p373: destino de link 263",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p373: destino de link 264",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p373: destino de link 265",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p373: destino de link 266",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p373: destino de link 267",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p373: destino de link 268",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p373: destino de link 269",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p373: destino de link 270",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p373: destino de link 271",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p373: destino de link 272",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p373: destino de link 273",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p373: destino de link 274",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p373: destino de link 275",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p373: destino de link 276",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p373: destino de link 277",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p373: destino de link 278",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p373: destino de link 279",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p373: destino de link 280",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p373: destino de link 281",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p373: destino de link 282",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p373: destino de link 283",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p373: destino de link 284",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p373: destino de link 285",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p373: destino de link 286",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p373: destino de link 287",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p373: destino de link 288",
+      "obtido": true,
+      "esperado": true,
       "ok": true
     },
     {
@@ -12789,157 +13101,157 @@
       "ok": true
     },
     {
-      "teste": "p374: destino de link 237",
+      "teste": "p374: destino de link 289",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 238",
+      "teste": "p374: destino de link 290",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 239",
+      "teste": "p374: destino de link 291",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 240",
+      "teste": "p374: destino de link 292",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 241",
+      "teste": "p374: destino de link 293",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 242",
+      "teste": "p374: destino de link 294",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 243",
+      "teste": "p374: destino de link 295",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 244",
+      "teste": "p374: destino de link 296",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 245",
+      "teste": "p374: destino de link 297",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 246",
+      "teste": "p374: destino de link 298",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 247",
+      "teste": "p374: destino de link 299",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 248",
+      "teste": "p374: destino de link 300",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 249",
+      "teste": "p374: destino de link 301",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 250",
+      "teste": "p374: destino de link 302",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 251",
+      "teste": "p374: destino de link 303",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 252",
+      "teste": "p374: destino de link 304",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 253",
+      "teste": "p374: destino de link 305",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 254",
+      "teste": "p374: destino de link 306",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 255",
+      "teste": "p374: destino de link 307",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 256",
+      "teste": "p374: destino de link 308",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 257",
+      "teste": "p374: destino de link 309",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 258",
+      "teste": "p374: destino de link 310",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 259",
+      "teste": "p374: destino de link 311",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 260",
+      "teste": "p374: destino de link 312",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 261",
+      "teste": "p374: destino de link 313",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p374: destino de link 262",
+      "teste": "p374: destino de link 314",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -12975,157 +13287,157 @@
       "ok": true
     },
     {
-      "teste": "p375: destino de link 263",
+      "teste": "p375: destino de link 315",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 264",
+      "teste": "p375: destino de link 316",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 265",
+      "teste": "p375: destino de link 317",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 266",
+      "teste": "p375: destino de link 318",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 267",
+      "teste": "p375: destino de link 319",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 268",
+      "teste": "p375: destino de link 320",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 269",
+      "teste": "p375: destino de link 321",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 270",
+      "teste": "p375: destino de link 322",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 271",
+      "teste": "p375: destino de link 323",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 272",
+      "teste": "p375: destino de link 324",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 273",
+      "teste": "p375: destino de link 325",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 274",
+      "teste": "p375: destino de link 326",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 275",
+      "teste": "p375: destino de link 327",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 276",
+      "teste": "p375: destino de link 328",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 277",
+      "teste": "p375: destino de link 329",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 278",
+      "teste": "p375: destino de link 330",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 279",
+      "teste": "p375: destino de link 331",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 280",
+      "teste": "p375: destino de link 332",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 281",
+      "teste": "p375: destino de link 333",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 282",
+      "teste": "p375: destino de link 334",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 283",
+      "teste": "p375: destino de link 335",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 284",
+      "teste": "p375: destino de link 336",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 285",
+      "teste": "p375: destino de link 337",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 286",
+      "teste": "p375: destino de link 338",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 287",
+      "teste": "p375: destino de link 339",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p375: destino de link 288",
+      "teste": "p375: destino de link 340",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -13161,157 +13473,163 @@
       "ok": true
     },
     {
-      "teste": "p376: destino de link 289",
+      "teste": "p376: destino de link 341",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 290",
+      "teste": "p376: destino de link 342",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 291",
+      "teste": "p376: destino de link 343",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 292",
+      "teste": "p376: destino de link 344",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 293",
+      "teste": "p376: destino de link 345",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 294",
+      "teste": "p376: destino de link 346",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 295",
+      "teste": "p376: destino de link 347",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 296",
+      "teste": "p376: destino de link 348",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 297",
+      "teste": "p376: destino de link 349",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 298",
+      "teste": "p376: destino de link 350",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 299",
+      "teste": "p376: destino de link 351",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 300",
+      "teste": "p376: destino de link 352",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 301",
+      "teste": "p376: destino de link 353",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 302",
+      "teste": "p376: destino de link 354",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 303",
+      "teste": "p376: destino de link 355",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 304",
+      "teste": "p376: destino de link 356",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 305",
+      "teste": "p376: destino de link 357",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 306",
+      "teste": "p376: destino de link 358",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 307",
+      "teste": "p376: destino de link 359",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 308",
+      "teste": "p376: destino de link 360",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 309",
+      "teste": "p376: destino de link 361",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 310",
+      "teste": "p376: destino de link 362",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 311",
+      "teste": "p376: destino de link 363",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 312",
+      "teste": "p376: destino de link 364",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 313",
+      "teste": "p376: destino de link 365",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p376: destino de link 314",
+      "teste": "p376: destino de link 366",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p376: destino de link 367",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -13347,163 +13665,157 @@
       "ok": true
     },
     {
-      "teste": "p377: destino de link 315",
+      "teste": "p377: destino de link 368",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 316",
+      "teste": "p377: destino de link 369",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 317",
+      "teste": "p377: destino de link 370",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 318",
+      "teste": "p377: destino de link 371",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 319",
+      "teste": "p377: destino de link 372",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 320",
+      "teste": "p377: destino de link 373",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 321",
+      "teste": "p377: destino de link 374",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 322",
+      "teste": "p377: destino de link 375",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 323",
+      "teste": "p377: destino de link 376",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 324",
+      "teste": "p377: destino de link 377",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 325",
+      "teste": "p377: destino de link 378",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 326",
+      "teste": "p377: destino de link 379",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 327",
+      "teste": "p377: destino de link 380",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 328",
+      "teste": "p377: destino de link 381",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 329",
+      "teste": "p377: destino de link 382",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 330",
+      "teste": "p377: destino de link 383",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 331",
+      "teste": "p377: destino de link 384",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 332",
+      "teste": "p377: destino de link 385",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 333",
+      "teste": "p377: destino de link 386",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 334",
+      "teste": "p377: destino de link 387",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 335",
+      "teste": "p377: destino de link 388",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 336",
+      "teste": "p377: destino de link 389",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 337",
+      "teste": "p377: destino de link 390",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 338",
+      "teste": "p377: destino de link 391",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 339",
+      "teste": "p377: destino de link 392",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p377: destino de link 340",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p377: destino de link 341",
+      "teste": "p377: destino de link 393",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -13539,157 +13851,169 @@
       "ok": true
     },
     {
-      "teste": "p378: destino de link 342",
+      "teste": "p378: destino de link 394",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 343",
+      "teste": "p378: destino de link 395",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 344",
+      "teste": "p378: destino de link 396",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 345",
+      "teste": "p378: destino de link 397",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 346",
+      "teste": "p378: destino de link 398",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 347",
+      "teste": "p378: destino de link 399",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 348",
+      "teste": "p378: destino de link 400",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 349",
+      "teste": "p378: destino de link 401",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 350",
+      "teste": "p378: destino de link 402",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 351",
+      "teste": "p378: destino de link 403",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 352",
+      "teste": "p378: destino de link 404",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 353",
+      "teste": "p378: destino de link 405",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 354",
+      "teste": "p378: destino de link 406",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 355",
+      "teste": "p378: destino de link 407",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 356",
+      "teste": "p378: destino de link 408",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 357",
+      "teste": "p378: destino de link 409",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 358",
+      "teste": "p378: destino de link 410",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 359",
+      "teste": "p378: destino de link 411",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 360",
+      "teste": "p378: destino de link 412",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 361",
+      "teste": "p378: destino de link 413",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 362",
+      "teste": "p378: destino de link 414",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 363",
+      "teste": "p378: destino de link 415",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 364",
+      "teste": "p378: destino de link 416",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 365",
+      "teste": "p378: destino de link 417",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 366",
+      "teste": "p378: destino de link 418",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p378: destino de link 367",
+      "teste": "p378: destino de link 419",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p378: destino de link 420",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "teste": "p378: destino de link 421",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -13725,163 +14049,163 @@
       "ok": true
     },
     {
-      "teste": "p379: destino de link 368",
+      "teste": "p379: destino de link 422",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 369",
+      "teste": "p379: destino de link 423",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 370",
+      "teste": "p379: destino de link 424",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 371",
+      "teste": "p379: destino de link 425",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 372",
+      "teste": "p379: destino de link 426",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 373",
+      "teste": "p379: destino de link 427",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 374",
+      "teste": "p379: destino de link 428",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 375",
+      "teste": "p379: destino de link 429",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 376",
+      "teste": "p379: destino de link 430",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 377",
+      "teste": "p379: destino de link 431",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 378",
+      "teste": "p379: destino de link 432",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 379",
+      "teste": "p379: destino de link 433",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 380",
+      "teste": "p379: destino de link 434",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 381",
+      "teste": "p379: destino de link 435",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 382",
+      "teste": "p379: destino de link 436",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 383",
+      "teste": "p379: destino de link 437",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 384",
+      "teste": "p379: destino de link 438",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 385",
+      "teste": "p379: destino de link 439",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 386",
+      "teste": "p379: destino de link 440",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 387",
+      "teste": "p379: destino de link 441",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 388",
+      "teste": "p379: destino de link 442",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 389",
+      "teste": "p379: destino de link 443",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 390",
+      "teste": "p379: destino de link 444",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 391",
+      "teste": "p379: destino de link 445",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 392",
+      "teste": "p379: destino de link 446",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 393",
+      "teste": "p379: destino de link 447",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p379: destino de link 394",
+      "teste": "p379: destino de link 448",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -13917,163 +14241,157 @@
       "ok": true
     },
     {
-      "teste": "p380: destino de link 395",
+      "teste": "p380: destino de link 449",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 396",
+      "teste": "p380: destino de link 450",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 397",
+      "teste": "p380: destino de link 451",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 398",
+      "teste": "p380: destino de link 452",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 399",
+      "teste": "p380: destino de link 453",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 400",
+      "teste": "p380: destino de link 454",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 401",
+      "teste": "p380: destino de link 455",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 402",
+      "teste": "p380: destino de link 456",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 403",
+      "teste": "p380: destino de link 457",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 404",
+      "teste": "p380: destino de link 458",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 405",
+      "teste": "p380: destino de link 459",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 406",
+      "teste": "p380: destino de link 460",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 407",
+      "teste": "p380: destino de link 461",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 408",
+      "teste": "p380: destino de link 462",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 409",
+      "teste": "p380: destino de link 463",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 410",
+      "teste": "p380: destino de link 464",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 411",
+      "teste": "p380: destino de link 465",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 412",
+      "teste": "p380: destino de link 466",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 413",
+      "teste": "p380: destino de link 467",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 414",
+      "teste": "p380: destino de link 468",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 415",
+      "teste": "p380: destino de link 469",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 416",
+      "teste": "p380: destino de link 470",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 417",
+      "teste": "p380: destino de link 471",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 418",
+      "teste": "p380: destino de link 472",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 419",
+      "teste": "p380: destino de link 473",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p380: destino de link 420",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p380: destino de link 421",
+      "teste": "p380: destino de link 474",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -14109,163 +14427,157 @@
       "ok": true
     },
     {
-      "teste": "p381: destino de link 422",
+      "teste": "p381: destino de link 475",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 423",
+      "teste": "p381: destino de link 476",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 424",
+      "teste": "p381: destino de link 477",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 425",
+      "teste": "p381: destino de link 478",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 426",
+      "teste": "p381: destino de link 479",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 427",
+      "teste": "p381: destino de link 480",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 428",
+      "teste": "p381: destino de link 481",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 429",
+      "teste": "p381: destino de link 482",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 430",
+      "teste": "p381: destino de link 483",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 431",
+      "teste": "p381: destino de link 484",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 432",
+      "teste": "p381: destino de link 485",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 433",
+      "teste": "p381: destino de link 486",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 434",
+      "teste": "p381: destino de link 487",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 435",
+      "teste": "p381: destino de link 488",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 436",
+      "teste": "p381: destino de link 489",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 437",
+      "teste": "p381: destino de link 490",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 438",
+      "teste": "p381: destino de link 491",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 439",
+      "teste": "p381: destino de link 492",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 440",
+      "teste": "p381: destino de link 493",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 441",
+      "teste": "p381: destino de link 494",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 442",
+      "teste": "p381: destino de link 495",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 443",
+      "teste": "p381: destino de link 496",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 444",
+      "teste": "p381: destino de link 497",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 445",
+      "teste": "p381: destino de link 498",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 446",
+      "teste": "p381: destino de link 499",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p381: destino de link 447",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p381: destino de link 448",
+      "teste": "p381: destino de link 500",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -14301,421 +14613,157 @@
       "ok": true
     },
     {
-      "teste": "p382: destino de link 449",
+      "teste": "p382: destino de link 501",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 450",
+      "teste": "p382: destino de link 502",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 451",
+      "teste": "p382: destino de link 503",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 452",
+      "teste": "p382: destino de link 504",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 453",
+      "teste": "p382: destino de link 505",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 454",
+      "teste": "p382: destino de link 506",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 455",
+      "teste": "p382: destino de link 507",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 456",
+      "teste": "p382: destino de link 508",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 457",
+      "teste": "p382: destino de link 509",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 458",
+      "teste": "p382: destino de link 510",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 459",
+      "teste": "p382: destino de link 511",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 460",
+      "teste": "p382: destino de link 512",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 461",
+      "teste": "p382: destino de link 513",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 462",
+      "teste": "p382: destino de link 514",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 463",
+      "teste": "p382: destino de link 515",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 464",
+      "teste": "p382: destino de link 516",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 465",
+      "teste": "p382: destino de link 517",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 466",
+      "teste": "p382: destino de link 518",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 467",
+      "teste": "p382: destino de link 519",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 468",
+      "teste": "p382: destino de link 520",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 469",
+      "teste": "p382: destino de link 521",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 470",
+      "teste": "p382: destino de link 522",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 471",
+      "teste": "p382: destino de link 523",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 472",
+      "teste": "p382: destino de link 524",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 473",
+      "teste": "p382: destino de link 525",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "teste": "p382: destino de link 474",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p383: texto pesquisável",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p383: caracteres dentro da página",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p383: corpo acima do rodapé",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p383: fontes usadas incorporadas",
-      "obtido": [],
-      "esperado": [],
-      "ok": true
-    },
-    {
-      "teste": "p383: sem raster artístico",
-      "obtido": 0,
-      "esperado": 0,
-      "ok": true
-    },
-    {
-      "teste": "p383: destino de link 475",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p383: destino de link 476",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p383: destino de link 477",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p383: destino de link 478",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p383: destino de link 479",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p383: destino de link 480",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p383: destino de link 481",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p383: destino de link 482",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p383: destino de link 483",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p383: destino de link 484",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p383: destino de link 485",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p383: destino de link 486",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p383: destino de link 487",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p383: destino de link 488",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p383: destino de link 489",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p383: destino de link 490",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p383: destino de link 491",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p383: destino de link 492",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p383: destino de link 493",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p383: destino de link 494",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p383: destino de link 495",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p383: destino de link 496",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p383: destino de link 497",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p383: destino de link 498",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p383: destino de link 499",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p383: destino de link 500",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p384: texto pesquisável",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p384: caracteres dentro da página",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p384: corpo acima do rodapé",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p384: fontes usadas incorporadas",
-      "obtido": [],
-      "esperado": [],
-      "ok": true
-    },
-    {
-      "teste": "p384: sem raster artístico",
-      "obtido": 0,
-      "esperado": 0,
-      "ok": true
-    },
-    {
-      "teste": "p384: destino de link 501",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p384: destino de link 502",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p384: destino de link 503",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p384: destino de link 504",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p384: destino de link 505",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p384: destino de link 506",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p384: destino de link 507",
-      "obtido": true,
-      "esperado": true,
-      "ok": true
-    },
-    {
-      "teste": "p384: destino de link 508",
+      "teste": "p382: destino de link 526",
       "obtido": true,
       "esperado": true,
       "ok": true
@@ -14734,8 +14782,8 @@
     },
     {
       "teste": "Captura confere dano",
-      "obtido": "b4035a501c87ada84e73e5951cdf41639c850d644cfe4cb8812575d8a0bc1c43",
-      "esperado": "b4035a501c87ada84e73e5951cdf41639c850d644cfe4cb8812575d8a0bc1c43",
+      "obtido": "44c41c7ce33b68d6284fa55b69d7fb43bc6fc28aa3b86c445007cad1dc807fea",
+      "esperado": "44c41c7ce33b68d6284fa55b69d7fb43bc6fc28aa3b86c445007cad1dc807fea",
       "ok": true
     },
     {
@@ -14752,14 +14800,14 @@
     },
     {
       "teste": "Captura confere equip",
-      "obtido": "96fe206bd2257b9839da6bc53c97c6b0ca17f82f3bf9f706709e07ecb19ec858",
-      "esperado": "96fe206bd2257b9839da6bc53c97c6b0ca17f82f3bf9f706709e07ecb19ec858",
+      "obtido": "691e10b85c01d25f9002bc4b5717b05a947129a2ae22bef3145f83b7dd938f1b",
+      "esperado": "691e10b85c01d25f9002bc4b5717b05a947129a2ae22bef3145f83b7dd938f1b",
       "ok": true
     },
     {
       "teste": "Captura confere progressao",
-      "obtido": "64b24f4e2f89840397cee80b2860f41af851f481bb7bb5ba121863d42d8e9a82",
-      "esperado": "64b24f4e2f89840397cee80b2860f41af851f481bb7bb5ba121863d42d8e9a82",
+      "obtido": "6a5d4ecf8c5a8ec7862ce5f42b45981f87e6c1b5f195cf982a79eaf9c2c89474",
+      "esperado": "6a5d4ecf8c5a8ec7862ce5f42b45981f87e6c1b5f195cf982a79eaf9c2c89474",
       "ok": true
     },
     {
@@ -14776,14 +14824,14 @@
     },
     {
       "teste": "Captura confere aptidoes",
-      "obtido": "b3f4404b9e9a03df2071ad1b2790163376ab551768b4dd98f32ae66726c5f8ea",
-      "esperado": "b3f4404b9e9a03df2071ad1b2790163376ab551768b4dd98f32ae66726c5f8ea",
+      "obtido": "123f777f27638aac11b1c7e984c998503fb84b1eee24a8d80e8e1926880888f0",
+      "esperado": "123f777f27638aac11b1c7e984c998503fb84b1eee24a8d80e8e1926880888f0",
       "ok": true
     },
     {
       "teste": "Captura confere rotas",
-      "obtido": "b397b7351a1dc477df4fff10dce6ebaccd9e3147913ca9bcef3fc65640e45603",
-      "esperado": "b397b7351a1dc477df4fff10dce6ebaccd9e3147913ca9bcef3fc65640e45603",
+      "obtido": "7fb73a56e4a34ce5a50be4357dd4d5987000c15f9cb81af9972ff4833ef23a59",
+      "esperado": "7fb73a56e4a34ce5a50be4357dd4d5987000c15f9cb81af9972ff4833ef23a59",
       "ok": true
     },
     {
@@ -14818,8 +14866,8 @@
     },
     {
       "teste": "Captura confere consulta",
-      "obtido": "b77230eae945ddb15074bc402faeec98e282471e69485fec7f4964bea7ef83a6",
-      "esperado": "b77230eae945ddb15074bc402faeec98e282471e69485fec7f4964bea7ef83a6",
+      "obtido": "506bb779ba4772add62d7a1d05a399d59739a13bb0a882b5345e5c7e9641548e",
+      "esperado": "506bb779ba4772add62d7a1d05a399d59739a13bb0a882b5345e5c7e9641548e",
       "ok": true
     },
     {
@@ -14830,8 +14878,8 @@
     },
     {
       "teste": "Captura confere vanguarda",
-      "obtido": "751db69756ec4c6b02b67034a11efbe5ae8a723c8b23c11fdc5c417134cd6ba1",
-      "esperado": "751db69756ec4c6b02b67034a11efbe5ae8a723c8b23c11fdc5c417134cd6ba1",
+      "obtido": "a471b8d66ab37a87a26da2fdd4d96625c00ce399f22d9f9ad36ffc68e6c5da37",
+      "esperado": "a471b8d66ab37a87a26da2fdd4d96625c00ce399f22d9f9ad36ffc68e6c5da37",
       "ok": true
     },
     {
@@ -14854,8 +14902,8 @@
     },
     {
       "teste": "Captura confere incursor",
-      "obtido": "3cadc87096d53d3056b0e4817a7a79479c34ef54b611e2601b454e70c2df748e",
-      "esperado": "3cadc87096d53d3056b0e4817a7a79479c34ef54b611e2601b454e70c2df748e",
+      "obtido": "2d9a8395eb486ee0afee78234c8c0ad3e2fd6314ebface6788b6842d85a53268",
+      "esperado": "2d9a8395eb486ee0afee78234c8c0ad3e2fd6314ebface6788b6842d85a53268",
       "ok": true
     },
     {
@@ -15309,7 +15357,6 @@
         "progressao--prog-marcos",
         "progressao--prog-patentes",
         "progressao--prog-repertorio",
-        "progressao--prog-ritmo",
         "progressao--prog-semana",
         "progressao--prog-tabela-avancada",
         "progressao--prog-tabela-inicial",
@@ -15821,7 +15868,6 @@
         "progressao--prog-marcos",
         "progressao--prog-patentes",
         "progressao--prog-repertorio",
-        "progressao--prog-ritmo",
         "progressao--prog-semana",
         "progressao--prog-tabela-avancada",
         "progressao--prog-tabela-inicial",
@@ -56037,11 +56083,30 @@
         "você",
         "está",
         "morrendo",
+        "resolva",
+        "primeiro",
+        "as",
+        "capacidades",
+        "disparadas",
+        "pela",
+        "própria",
+        "queda",
+        "em",
+        "seguida",
         "escolha",
-        "imediatamente",
         "aguentar",
         "ou",
         "insistir",
+        "se",
+        "uma",
+        "dessas",
+        "capacidades",
+        "encerrar",
+        "a",
+        "queda",
+        "não",
+        "há",
+        "escolha",
         "estas",
         "regras",
         "são",
@@ -56432,11 +56497,30 @@
         "você",
         "está",
         "morrendo",
+        "resolva",
+        "primeiro",
+        "as",
+        "capacidades",
+        "disparadas",
+        "pela",
+        "própria",
+        "queda",
+        "em",
+        "seguida",
         "escolha",
-        "imediatamente",
         "aguentar",
         "ou",
         "insistir",
+        "se",
+        "uma",
+        "dessas",
+        "capacidades",
+        "encerrar",
+        "a",
+        "queda",
+        "não",
+        "há",
+        "escolha",
         "estas",
         "regras",
         "são",
@@ -97846,6 +97930,33 @@
         "continuar",
         "o",
         "confronto",
+        "acesso",
+        "armas",
+        "de",
+        "fogo",
+        "exigem",
+        "grau",
+        "2",
+        "ou",
+        "autorização",
+        "prévia",
+        "conforme",
+        "equipamento",
+        "restrito",
+        "sem",
+        "esse",
+        "acesso",
+        "confirme",
+        "a",
+        "autorização",
+        "com",
+        "o",
+        "mestre",
+        "antes",
+        "de",
+        "escolher",
+        "esta",
+        "rota",
         "nível",
         "2",
         "combate",
@@ -98159,6 +98270,33 @@
         "continuar",
         "o",
         "confronto",
+        "acesso",
+        "armas",
+        "de",
+        "fogo",
+        "exigem",
+        "grau",
+        "2",
+        "ou",
+        "autorização",
+        "prévia",
+        "conforme",
+        "equipamento",
+        "restrito",
+        "sem",
+        "esse",
+        "acesso",
+        "confirme",
+        "a",
+        "autorização",
+        "com",
+        "o",
+        "mestre",
+        "antes",
+        "de",
+        "escolher",
+        "esta",
+        "rota",
         "nível",
         "2",
         "combate",
@@ -141519,6 +141657,27 @@
         "do",
         "seu",
         "turno",
+        "no",
+        "combate",
+        "o",
+        "primeiro",
+        "intervalo",
+        "vai",
+        "do",
+        "início",
+        "do",
+        "combate",
+        "até",
+        "o",
+        "começo",
+        "do",
+        "seu",
+        "primeiro",
+        "turno",
+        "inclusive",
+        "para",
+        "passo",
+        "guardado",
         "você",
         "guarda",
         "uma",
@@ -141638,11 +141797,17 @@
         "rolar",
         "o",
         "d20",
+        "e",
         "antes",
         "de",
-        "finalizar",
         "o",
-        "ataque",
+        "alvo",
+        "escolher",
+        "entre",
+        "a",
+        "defesa",
+        "e",
+        "bloquear",
         "gaste",
         "fluidez",
         "para",
@@ -141779,6 +141944,27 @@
         "do",
         "seu",
         "turno",
+        "no",
+        "combate",
+        "o",
+        "primeiro",
+        "intervalo",
+        "vai",
+        "do",
+        "início",
+        "do",
+        "combate",
+        "até",
+        "o",
+        "começo",
+        "do",
+        "seu",
+        "primeiro",
+        "turno",
+        "inclusive",
+        "para",
+        "passo",
+        "guardado",
         "você",
         "guarda",
         "uma",
@@ -141898,11 +142084,17 @@
         "rolar",
         "o",
         "d20",
+        "e",
         "antes",
         "de",
-        "finalizar",
         "o",
-        "ataque",
+        "alvo",
+        "escolher",
+        "entre",
+        "a",
+        "defesa",
+        "e",
+        "bloquear",
         "gaste",
         "fluidez",
         "para",
@@ -164252,6 +164444,28 @@
         "regras",
         "do",
         "turno",
+        "duas",
+        "capacidades",
+        "que",
+        "troquem",
+        "essa",
+        "manipulação",
+        "gratuita",
+        "por",
+        "duas",
+        "não",
+        "se",
+        "somam",
+        "em",
+        "cada",
+        "turno",
+        "use",
+        "uma",
+        "delas",
+        "com",
+        "as",
+        "restrições",
+        "dela",
         "trocar",
         "de",
         "arma",
@@ -164620,6 +164834,28 @@
         "regras",
         "do",
         "turno",
+        "duas",
+        "capacidades",
+        "que",
+        "troquem",
+        "essa",
+        "manipulação",
+        "gratuita",
+        "por",
+        "duas",
+        "não",
+        "se",
+        "somam",
+        "em",
+        "cada",
+        "turno",
+        "use",
+        "uma",
+        "delas",
+        "com",
+        "as",
+        "restrições",
+        "dela",
         "trocar",
         "de",
         "arma",
@@ -189487,19 +189723,25 @@
         "com",
         "esta",
         "arma",
+        "é",
+        "dano",
+        "de",
+        "alma",
+        "e",
         "atinge",
         "somente",
         "a",
         "integridade",
         "do",
         "alvo",
-        "seguindo",
-        "as",
-        "regras",
-        "de",
+        "conforme",
+        "receber",
         "dano",
-        "direto",
-        "à",
+        "de",
+        "alma",
+        "em",
+        "dano",
+        "na",
         "alma",
         "a",
         "vida",
@@ -189895,19 +190137,25 @@
         "com",
         "esta",
         "arma",
+        "é",
+        "dano",
+        "de",
+        "alma",
+        "e",
         "atinge",
         "somente",
         "a",
         "integridade",
         "do",
         "alvo",
-        "seguindo",
-        "as",
-        "regras",
-        "de",
+        "conforme",
+        "receber",
         "dano",
-        "direto",
-        "à",
+        "de",
+        "alma",
+        "em",
+        "dano",
+        "na",
         "alma",
         "a",
         "vida",
@@ -193283,7 +193531,7 @@
         "registre",
         "um",
         "dos",
-        "oito",
+        "sete",
         "feitos",
         "abaixo",
         "realizado",
@@ -193443,27 +193691,6 @@
         "de",
         "sua",
         "ficha",
-        "terminar",
-        "a",
-        "missão",
-        "depois",
-        "de",
-        "outro",
-        "personagem",
-        "jogador",
-        "chegar",
-        "ao",
-        "estágio",
-        "4",
-        "ocorrência",
-        "na",
-        "ficha",
-        "do",
-        "participante",
-        "e",
-        "conclusão",
-        "da",
-        "missão",
         "a",
         "lista",
         "é",
@@ -193638,7 +193865,7 @@
         "registre",
         "um",
         "dos",
-        "oito",
+        "sete",
         "feitos",
         "abaixo",
         "realizado",
@@ -193798,27 +194025,6 @@
         "de",
         "sua",
         "ficha",
-        "terminar",
-        "a",
-        "missão",
-        "depois",
-        "de",
-        "outro",
-        "personagem",
-        "jogador",
-        "chegar",
-        "ao",
-        "estágio",
-        "4",
-        "ocorrência",
-        "na",
-        "ficha",
-        "do",
-        "participante",
-        "e",
-        "conclusão",
-        "da",
-        "missão",
         "a",
         "lista",
         "é",
@@ -195367,26 +195573,6 @@
         "de",
         "efeito",
         "1",
-        "escolher",
-        "leque",
-        "em",
-        "todos",
-        "os",
-        "sete",
-        "marcos",
-        "termina",
-        "em",
-        "sete",
-        "aplicações",
-        "adicionais",
-        "e",
-        "sete",
-        "talentos",
-        "concedidos",
-        "além",
-        "do",
-        "repertório",
-        "comum",
         "na",
         "rota",
         "sem",
@@ -195661,26 +195847,6 @@
         "de",
         "efeito",
         "1",
-        "escolher",
-        "leque",
-        "em",
-        "todos",
-        "os",
-        "sete",
-        "marcos",
-        "termina",
-        "em",
-        "sete",
-        "aplicações",
-        "adicionais",
-        "e",
-        "sete",
-        "talentos",
-        "concedidos",
-        "além",
-        "do",
-        "repertório",
-        "comum",
         "na",
         "rota",
         "sem",
@@ -198347,618 +198513,6 @@
         "aumenta",
         "seu",
         "nível"
-      ],
-      "ok": true
-    },
-    {
-      "teste": "Fonte preservada progressao--prog-ritmo",
-      "obtido": [
-        "ritmo",
-        "de",
-        "campanha",
-        "a",
-        "recompensa",
-        "de",
-        "cada",
-        "missão",
-        "e",
-        "a",
-        "frequência",
-        "das",
-        "sessões",
-        "determinam",
-        "quanto",
-        "tempo",
-        "a",
-        "progressão",
-        "leva",
-        "a",
-        "tabela",
-        "abaixo",
-        "é",
-        "uma",
-        "estimativa",
-        "com",
-        "52",
-        "semanas",
-        "por",
-        "ano",
-        "sem",
-        "faltas",
-        "falhas",
-        "eventos",
-        "de",
-        "xp",
-        "ou",
-        "espera",
-        "pelo",
-        "feito",
-        "do",
-        "nível",
-        "20",
-        "frequência",
-        "até",
-        "nível",
-        "20",
-        "até",
-        "nível",
-        "30",
-        "uma",
-        "missão",
-        "a",
-        "cada",
-        "duas",
-        "semanas",
-        "62",
-        "2",
-        "meses",
-        "93",
-        "7",
-        "meses",
-        "uma",
-        "por",
-        "semana",
-        "31",
-        "1",
-        "meses",
-        "46",
-        "9",
-        "meses",
-        "duas",
-        "por",
-        "semana",
-        "15",
-        "5",
-        "meses",
-        "23",
-        "4",
-        "meses",
-        "três",
-        "por",
-        "semana",
-        "12",
-        "4",
-        "meses",
-        "18",
-        "7",
-        "meses",
-        "quatro",
-        "por",
-        "semana",
-        "11",
-        "3",
-        "meses",
-        "17",
-        "0",
-        "meses",
-        "esses",
-        "valores",
-        "usam",
-        "uma",
-        "mistura",
-        "de",
-        "missões",
-        "antes",
-        "do",
-        "nível",
-        "20",
-        "a",
-        "cada",
-        "oito",
-        "uma",
-        "curta",
-        "seis",
-        "padrões",
-        "e",
-        "uma",
-        "longa",
-        "média",
-        "106",
-        "25",
-        "xp",
-        "depois",
-        "três",
-        "longas",
-        "e",
-        "dois",
-        "finais",
-        "de",
-        "arco",
-        "a",
-        "cada",
-        "cinco",
-        "média",
-        "240",
-        "xp",
-        "os",
-        "descontos",
-        "semanais",
-        "entram",
-        "na",
-        "conta",
-        "se",
-        "todas",
-        "as",
-        "missões",
-        "forem",
-        "padrão",
-        "duas",
-        "por",
-        "semana",
-        "levam",
-        "aproximadamente",
-        "16",
-        "5",
-        "meses",
-        "até",
-        "o",
-        "20",
-        "e",
-        "35",
-        "4",
-        "até",
-        "o",
-        "30",
-        "a",
-        "faixa",
-        "final",
-        "não",
-        "acelera",
-        "sozinha",
-        "por",
-        "causa",
-        "do",
-        "nível",
-        "a",
-        "estimativa",
-        "anterior",
-        "depende",
-        "de",
-        "receber",
-        "missões",
-        "maiores",
-        "ajustes",
-        "opcionais",
-        "da",
-        "campanha",
-        "a",
-        "guilda",
-        "pode",
-        "anunciar",
-        "missões",
-        "de",
-        "dobro",
-        "bônus",
-        "por",
-        "objetivos",
-        "pessoais",
-        "ou",
-        "ajuda",
-        "a",
-        "participantes",
-        "que",
-        "ficaram",
-        "para",
-        "trás",
-        "essas",
-        "são",
-        "políticas",
-        "opcionais",
-        "definidas",
-        "antes",
-        "de",
-        "aplicar",
-        "a",
-        "recompensa",
-        "elas",
-        "não",
-        "retiram",
-        "o",
-        "desconto",
-        "semanal",
-        "nem",
-        "o",
-        "limite",
-        "de",
-        "um",
-        "avanço",
-        "por",
-        "missão",
-        "salvo",
-        "uma",
-        "mudança",
-        "expressa",
-        "nas",
-        "regras",
-        "da",
-        "campanha",
-        "uma",
-        "missão",
-        "padrão",
-        "de",
-        "dobro",
-        "paga",
-        "200",
-        "xp",
-        "antes",
-        "dos",
-        "descontos",
-        "outra",
-        "possibilidade",
-        "é",
-        "dobrar",
-        "a",
-        "recompensa",
-        "de",
-        "quem",
-        "esteja",
-        "pelo",
-        "menos",
-        "três",
-        "níveis",
-        "abaixo",
-        "do",
-        "grupo",
-        "defina",
-        "previamente",
-        "qual",
-        "nível",
-        "de",
-        "referência",
-        "será",
-        "usado",
-        "essa",
-        "compensação",
-        "não",
-        "faz",
-        "parte",
-        "da",
-        "regra",
-        "básica",
-        "não",
-        "reduza",
-        "níveis",
-        "já",
-        "recebidos",
-        "para",
-        "ajustar",
-        "o",
-        "ritmo",
-        "mude",
-        "as",
-        "recompensas",
-        "futuras",
-        "com",
-        "o",
-        "grupo",
-        "e",
-        "acompanhe",
-        "os",
-        "resultados"
-      ],
-      "esperado": [
-        "ritmo",
-        "de",
-        "campanha",
-        "a",
-        "recompensa",
-        "de",
-        "cada",
-        "missão",
-        "e",
-        "a",
-        "frequência",
-        "das",
-        "sessões",
-        "determinam",
-        "quanto",
-        "tempo",
-        "a",
-        "progressão",
-        "leva",
-        "a",
-        "tabela",
-        "abaixo",
-        "é",
-        "uma",
-        "estimativa",
-        "com",
-        "52",
-        "semanas",
-        "por",
-        "ano",
-        "sem",
-        "faltas",
-        "falhas",
-        "eventos",
-        "de",
-        "xp",
-        "ou",
-        "espera",
-        "pelo",
-        "feito",
-        "do",
-        "nível",
-        "20",
-        "frequência",
-        "até",
-        "nível",
-        "20",
-        "até",
-        "nível",
-        "30",
-        "uma",
-        "missão",
-        "a",
-        "cada",
-        "duas",
-        "semanas",
-        "62",
-        "2",
-        "meses",
-        "93",
-        "7",
-        "meses",
-        "uma",
-        "por",
-        "semana",
-        "31",
-        "1",
-        "meses",
-        "46",
-        "9",
-        "meses",
-        "duas",
-        "por",
-        "semana",
-        "15",
-        "5",
-        "meses",
-        "23",
-        "4",
-        "meses",
-        "três",
-        "por",
-        "semana",
-        "12",
-        "4",
-        "meses",
-        "18",
-        "7",
-        "meses",
-        "quatro",
-        "por",
-        "semana",
-        "11",
-        "3",
-        "meses",
-        "17",
-        "0",
-        "meses",
-        "esses",
-        "valores",
-        "usam",
-        "uma",
-        "mistura",
-        "de",
-        "missões",
-        "antes",
-        "do",
-        "nível",
-        "20",
-        "a",
-        "cada",
-        "oito",
-        "uma",
-        "curta",
-        "seis",
-        "padrões",
-        "e",
-        "uma",
-        "longa",
-        "média",
-        "106",
-        "25",
-        "xp",
-        "depois",
-        "três",
-        "longas",
-        "e",
-        "dois",
-        "finais",
-        "de",
-        "arco",
-        "a",
-        "cada",
-        "cinco",
-        "média",
-        "240",
-        "xp",
-        "os",
-        "descontos",
-        "semanais",
-        "entram",
-        "na",
-        "conta",
-        "se",
-        "todas",
-        "as",
-        "missões",
-        "forem",
-        "padrão",
-        "duas",
-        "por",
-        "semana",
-        "levam",
-        "aproximadamente",
-        "16",
-        "5",
-        "meses",
-        "até",
-        "o",
-        "20",
-        "e",
-        "35",
-        "4",
-        "até",
-        "o",
-        "30",
-        "a",
-        "faixa",
-        "final",
-        "não",
-        "acelera",
-        "sozinha",
-        "por",
-        "causa",
-        "do",
-        "nível",
-        "a",
-        "estimativa",
-        "anterior",
-        "depende",
-        "de",
-        "receber",
-        "missões",
-        "maiores",
-        "ajustes",
-        "opcionais",
-        "da",
-        "campanha",
-        "a",
-        "guilda",
-        "pode",
-        "anunciar",
-        "missões",
-        "de",
-        "dobro",
-        "bônus",
-        "por",
-        "objetivos",
-        "pessoais",
-        "ou",
-        "ajuda",
-        "a",
-        "participantes",
-        "que",
-        "ficaram",
-        "para",
-        "trás",
-        "essas",
-        "são",
-        "políticas",
-        "opcionais",
-        "definidas",
-        "antes",
-        "de",
-        "aplicar",
-        "a",
-        "recompensa",
-        "elas",
-        "não",
-        "retiram",
-        "o",
-        "desconto",
-        "semanal",
-        "nem",
-        "o",
-        "limite",
-        "de",
-        "um",
-        "avanço",
-        "por",
-        "missão",
-        "salvo",
-        "uma",
-        "mudança",
-        "expressa",
-        "nas",
-        "regras",
-        "da",
-        "campanha",
-        "uma",
-        "missão",
-        "padrão",
-        "de",
-        "dobro",
-        "paga",
-        "200",
-        "xp",
-        "antes",
-        "dos",
-        "descontos",
-        "outra",
-        "possibilidade",
-        "é",
-        "dobrar",
-        "a",
-        "recompensa",
-        "de",
-        "quem",
-        "esteja",
-        "pelo",
-        "menos",
-        "três",
-        "níveis",
-        "abaixo",
-        "do",
-        "grupo",
-        "defina",
-        "previamente",
-        "qual",
-        "nível",
-        "de",
-        "referência",
-        "será",
-        "usado",
-        "essa",
-        "compensação",
-        "não",
-        "faz",
-        "parte",
-        "da",
-        "regra",
-        "básica",
-        "não",
-        "reduza",
-        "níveis",
-        "já",
-        "recebidos",
-        "para",
-        "ajustar",
-        "o",
-        "ritmo",
-        "mude",
-        "as",
-        "recompensas",
-        "futuras",
-        "com",
-        "o",
-        "grupo",
-        "e",
-        "acompanhe",
-        "os",
-        "resultados"
       ],
       "ok": true
     },
@@ -242102,66 +241656,6 @@
         "o",
         "refino",
         "atualizado",
-        "nível",
-        "nunca",
-        "escolhe",
-        "refino",
-        "sempre",
-        "escolhe",
-        "refino",
-        "aptidões",
-        "recebidas",
-        "pela",
-        "escolha",
-        "nesse",
-        "marco",
-        "início",
-        "1",
-        "1",
-        "6",
-        "2",
-        "3",
-        "1",
-        "10",
-        "3",
-        "5",
-        "1",
-        "14",
-        "4",
-        "7",
-        "1",
-        "18",
-        "5",
-        "9",
-        "1",
-        "22",
-        "6",
-        "10",
-        "2",
-        "26",
-        "7",
-        "10",
-        "2",
-        "30",
-        "8",
-        "10",
-        "2",
-        "a",
-        "última",
-        "coluna",
-        "acompanha",
-        "quem",
-        "sempre",
-        "escolheu",
-        "refino",
-        "em",
-        "outra",
-        "sequência",
-        "verifique",
-        "seu",
-        "valor",
-        "naquele",
-        "marco",
         "os",
         "ganhos",
         "de",
@@ -242344,66 +241838,6 @@
         "o",
         "refino",
         "atualizado",
-        "nível",
-        "nunca",
-        "escolhe",
-        "refino",
-        "sempre",
-        "escolhe",
-        "refino",
-        "aptidões",
-        "recebidas",
-        "pela",
-        "escolha",
-        "nesse",
-        "marco",
-        "início",
-        "1",
-        "1",
-        "6",
-        "2",
-        "3",
-        "1",
-        "10",
-        "3",
-        "5",
-        "1",
-        "14",
-        "4",
-        "7",
-        "1",
-        "18",
-        "5",
-        "9",
-        "1",
-        "22",
-        "6",
-        "10",
-        "2",
-        "26",
-        "7",
-        "10",
-        "2",
-        "30",
-        "8",
-        "10",
-        "2",
-        "a",
-        "última",
-        "coluna",
-        "acompanha",
-        "quem",
-        "sempre",
-        "escolheu",
-        "refino",
-        "em",
-        "outra",
-        "sequência",
-        "verifique",
-        "seu",
-        "valor",
-        "naquele",
-        "marco",
         "os",
         "ganhos",
         "de",
@@ -253309,9 +252743,13 @@
         "escreva",
         "a",
         "descrição",
-        "e",
         "a",
         "regra",
+        "e",
+        "a",
+        "expressão",
+        "da",
+        "técnica",
         "pelo",
         "procedimento",
         "de",
@@ -253569,9 +253007,13 @@
         "escreva",
         "a",
         "descrição",
-        "e",
         "a",
         "regra",
+        "e",
+        "a",
+        "expressão",
+        "da",
+        "técnica",
         "pelo",
         "procedimento",
         "de",
@@ -255000,48 +254442,6 @@
         "cinco",
         "talentos",
         "pagos",
-        "calo",
-        "livre",
-        "você",
-        "reconhece",
-        "pelo",
-        "toque",
-        "o",
-        "encaixe",
-        "e",
-        "a",
-        "textura",
-        "familiares",
-        "de",
-        "armas",
-        "que",
-        "costuma",
-        "usar",
-        "esse",
-        "detalhe",
-        "descreve",
-        "sua",
-        "relação",
-        "com",
-        "o",
-        "equipamento",
-        "identificar",
-        "uma",
-        "arma",
-        "disfarçada",
-        "detectar",
-        "uma",
-        "substituição",
-        "ou",
-        "obter",
-        "informação",
-        "escondida",
-        "ainda",
-        "exige",
-        "o",
-        "procedimento",
-        "da",
-        "cena",
         "maldição",
         "do",
         "inventário",
@@ -255304,48 +254704,6 @@
         "cinco",
         "talentos",
         "pagos",
-        "calo",
-        "livre",
-        "você",
-        "reconhece",
-        "pelo",
-        "toque",
-        "o",
-        "encaixe",
-        "e",
-        "a",
-        "textura",
-        "familiares",
-        "de",
-        "armas",
-        "que",
-        "costuma",
-        "usar",
-        "esse",
-        "detalhe",
-        "descreve",
-        "sua",
-        "relação",
-        "com",
-        "o",
-        "equipamento",
-        "identificar",
-        "uma",
-        "arma",
-        "disfarçada",
-        "detectar",
-        "uma",
-        "substituição",
-        "ou",
-        "obter",
-        "informação",
-        "escondida",
-        "ainda",
-        "exige",
-        "o",
-        "procedimento",
-        "da",
-        "cena",
         "maldição",
         "do",
         "inventário",
@@ -261577,40 +260935,6 @@
         "do",
         "1",
         "gratuito",
-        "quem",
-        "escolhe",
-        "lapidação",
-        "em",
-        "todos",
-        "os",
-        "marcos",
-        "recebe",
-        "duas",
-        "bênçãos",
-        "nos",
-        "níveis",
-        "22",
-        "26",
-        "e",
-        "30",
-        "totalizando",
-        "dez",
-        "escolhas",
-        "pagas",
-        "quem",
-        "nunca",
-        "a",
-        "escolhe",
-        "termina",
-        "em",
-        "lapidação",
-        "8",
-        "e",
-        "conserva",
-        "apenas",
-        "as",
-        "bênçãos",
-        "gratuitas",
         "a",
         "kata",
         "concedida",
@@ -261955,40 +261279,6 @@
         "do",
         "1",
         "gratuito",
-        "quem",
-        "escolhe",
-        "lapidação",
-        "em",
-        "todos",
-        "os",
-        "marcos",
-        "recebe",
-        "duas",
-        "bênçãos",
-        "nos",
-        "níveis",
-        "22",
-        "26",
-        "e",
-        "30",
-        "totalizando",
-        "dez",
-        "escolhas",
-        "pagas",
-        "quem",
-        "nunca",
-        "a",
-        "escolhe",
-        "termina",
-        "em",
-        "lapidação",
-        "8",
-        "e",
-        "conserva",
-        "apenas",
-        "as",
-        "bênçãos",
-        "gratuitas",
         "a",
         "kata",
         "concedida",
@@ -329722,6 +329012,10 @@
         "invocações",
         "atuação",
         "básica",
+        "auge",
+        "rotas",
+        "sem",
+        "técnica",
         "aura",
         "fundamento",
         "formas",
@@ -329782,6 +329076,12 @@
         "regras",
         "gerais",
         "carga",
+        "carregar",
+        "restrição",
+        "catálogo",
+        "restrições",
+        "de",
+        "conjuração",
         "catalisador",
         "catalisador",
         "categoria",
@@ -329824,19 +329124,7 @@
         "recuperação",
         "sequelas",
         "e",
-        "cicatrizes",
-        "classe",
-        "fundamento",
-        "pontos",
-        "e",
-        "preços",
-        "classe",
-        "0",
-        "fundamento",
-        "feitiços",
-        "de",
-        "classe",
-        "0"
+        "cicatrizes"
       ],
       "esperado": [
         "índice",
@@ -329868,6 +329156,10 @@
         "invocações",
         "atuação",
         "básica",
+        "auge",
+        "rotas",
+        "sem",
+        "técnica",
         "aura",
         "fundamento",
         "formas",
@@ -329928,6 +329220,12 @@
         "regras",
         "gerais",
         "carga",
+        "carregar",
+        "restrição",
+        "catálogo",
+        "restrições",
+        "de",
+        "conjuração",
         "catalisador",
         "catalisador",
         "categoria",
@@ -329970,19 +329268,7 @@
         "recuperação",
         "sequelas",
         "e",
-        "cicatrizes",
-        "classe",
-        "fundamento",
-        "pontos",
-        "e",
-        "preços",
-        "classe",
-        "0",
-        "fundamento",
-        "feitiços",
-        "de",
-        "classe",
-        "0"
+        "cicatrizes"
       ],
       "ok": true
     },
@@ -329995,165 +329281,17 @@
         "assunto",
         "consulta",
         "classe",
-        "passiva",
-        "nome",
-        "anterior",
         "fundamento",
-        "selo",
+        "pontos",
         "e",
-        "talentos",
-        "cobertura",
-        "regras",
-        "gerais",
-        "defesa",
-        "e",
-        "cobertura",
-        "combatente",
-        "amaldiçoado",
-        "combatente",
-        "amaldiçoado",
-        "combinar",
-        "aprimoramentos",
-        "combinar",
-        "aprimoramentos",
-        "concentração",
-        "regras",
-        "gerais",
-        "concentração",
-        "concentrada",
-        "catálogo",
-        "momento",
-        "e",
-        "duração",
-        "condição",
-        "dano",
-        "e",
-        "recuperação",
-        "condições",
-        "condicional",
-        "catálogo",
-        "condições",
-        "de",
-        "uso",
-        "condutor",
-        "armado",
-        "condutor",
-        "armado",
-        "cone",
+        "preços",
+        "classe",
+        "0",
         "fundamento",
-        "formas",
+        "feitiços",
         "de",
-        "ataque",
-        "corpo",
-        "progressão",
-        "marcos",
-        "corpo",
-        "a",
-        "corpo",
-        "catálogo",
-        "restrições",
-        "de",
-        "conjuração",
-        "corpo",
-        "amaldiçoado",
-        "invocações",
-        "corpos",
-        "amaldiçoados",
-        "corpo",
-        "amaldiçoado",
-        "origem",
-        "corpo",
-        "amaldiçoado",
-        "cp",
-        "sigla",
-        "anterior",
-        "fundamento",
-        "selo",
-        "e",
-        "talentos",
-        "categoria",
-        "de",
-        "efeito",
-        "sigla",
-        "atual",
-        "ce",
-        "crítico",
-        "regras",
-        "gerais",
-        "dano",
-        "e",
-        "crítico",
-        "cura",
-        "forma",
-        "fundamento",
-        "formas",
-        "de",
-        "amparo",
-        "e",
-        "efeito",
-        "cura",
-        "recuperação",
-        "dano",
-        "e",
-        "recuperação",
-        "cura",
-        "dano",
-        "na",
-        "alma",
-        "dano",
-        "e",
-        "recuperação",
-        "dano",
-        "na",
-        "alma",
-        "defesa",
-        "regras",
-        "gerais",
-        "defesa",
-        "e",
-        "cobertura",
-        "defesa",
-        "sem",
-        "armadura",
-        "rotas",
-        "defesa",
-        "sem",
-        "armadura",
-        "derrotado",
-        "dano",
-        "e",
-        "recuperação",
-        "derrota",
-        "e",
-        "morte",
-        "derrubado",
-        "dano",
-        "e",
-        "recuperação",
-        "condições",
-        "leves",
-        "desarmado",
-        "dano",
-        "e",
-        "recuperação",
-        "condições",
-        "leves",
-        "desgaste",
-        "equipamento",
-        "desgaste",
-        "deslocamento",
-        "regras",
-        "gerais",
-        "movimento",
-        "e",
-        "terreno"
-      ],
-      "esperado": [
-        "índice",
-        "c",
-        "d",
-        "assunto",
-        "consulta",
+        "classe",
+        "0",
         "classe",
         "passiva",
         "nome",
@@ -330297,16 +329435,170 @@
         "e",
         "recuperação",
         "condições",
-        "leves",
-        "desgaste",
-        "equipamento",
-        "desgaste",
-        "deslocamento",
+        "leves"
+      ],
+      "esperado": [
+        "índice",
+        "c",
+        "d",
+        "assunto",
+        "consulta",
+        "classe",
+        "fundamento",
+        "pontos",
+        "e",
+        "preços",
+        "classe",
+        "0",
+        "fundamento",
+        "feitiços",
+        "de",
+        "classe",
+        "0",
+        "classe",
+        "passiva",
+        "nome",
+        "anterior",
+        "fundamento",
+        "selo",
+        "e",
+        "talentos",
+        "cobertura",
         "regras",
         "gerais",
-        "movimento",
+        "defesa",
         "e",
-        "terreno"
+        "cobertura",
+        "combatente",
+        "amaldiçoado",
+        "combatente",
+        "amaldiçoado",
+        "combinar",
+        "aprimoramentos",
+        "combinar",
+        "aprimoramentos",
+        "concentração",
+        "regras",
+        "gerais",
+        "concentração",
+        "concentrada",
+        "catálogo",
+        "momento",
+        "e",
+        "duração",
+        "condição",
+        "dano",
+        "e",
+        "recuperação",
+        "condições",
+        "condicional",
+        "catálogo",
+        "condições",
+        "de",
+        "uso",
+        "condutor",
+        "armado",
+        "condutor",
+        "armado",
+        "cone",
+        "fundamento",
+        "formas",
+        "de",
+        "ataque",
+        "corpo",
+        "progressão",
+        "marcos",
+        "corpo",
+        "a",
+        "corpo",
+        "catálogo",
+        "restrições",
+        "de",
+        "conjuração",
+        "corpo",
+        "amaldiçoado",
+        "invocações",
+        "corpos",
+        "amaldiçoados",
+        "corpo",
+        "amaldiçoado",
+        "origem",
+        "corpo",
+        "amaldiçoado",
+        "cp",
+        "sigla",
+        "anterior",
+        "fundamento",
+        "selo",
+        "e",
+        "talentos",
+        "categoria",
+        "de",
+        "efeito",
+        "sigla",
+        "atual",
+        "ce",
+        "crítico",
+        "regras",
+        "gerais",
+        "dano",
+        "e",
+        "crítico",
+        "cura",
+        "forma",
+        "fundamento",
+        "formas",
+        "de",
+        "amparo",
+        "e",
+        "efeito",
+        "cura",
+        "recuperação",
+        "dano",
+        "e",
+        "recuperação",
+        "cura",
+        "dano",
+        "na",
+        "alma",
+        "dano",
+        "e",
+        "recuperação",
+        "dano",
+        "na",
+        "alma",
+        "defesa",
+        "regras",
+        "gerais",
+        "defesa",
+        "e",
+        "cobertura",
+        "defesa",
+        "sem",
+        "armadura",
+        "rotas",
+        "defesa",
+        "sem",
+        "armadura",
+        "derrotado",
+        "dano",
+        "e",
+        "recuperação",
+        "derrota",
+        "e",
+        "morte",
+        "derrubado",
+        "dano",
+        "e",
+        "recuperação",
+        "condições",
+        "leves",
+        "desarmado",
+        "dano",
+        "e",
+        "recuperação",
+        "condições",
+        "leves"
       ],
       "ok": true
     },
@@ -330318,12 +329610,31 @@
         "e",
         "assunto",
         "consulta",
+        "desgaste",
+        "equipamento",
+        "desgaste",
+        "desligada",
+        "invocações",
+        "retorno",
+        "e",
+        "corpos",
+        "caídos",
+        "deslocamento",
+        "regras",
+        "gerais",
+        "movimento",
+        "e",
+        "terreno",
         "desvantagem",
         "regras",
         "gerais",
         "treino",
         "e",
         "modificadores",
+        "discreta",
+        "equipamento",
+        "armas",
+        "escondidas",
         "dívida",
         "catálogo",
         "condições",
@@ -330360,6 +329671,10 @@
         "emaranha",
         "equipamento",
         "propriedades",
+        "embainhada",
+        "equipamento",
+        "armas",
+        "escondidas",
         "energia",
         "amaldiçoada",
         "pura",
@@ -330406,6 +329721,11 @@
         "regras",
         "gerais",
         "esconder",
+        "escudo",
+        "equipamento",
+        "revestimentos",
+        "e",
+        "escudos",
         "espaço",
         "conhecido",
         "fundamento",
@@ -330429,45 +329749,7 @@
         "repertório",
         "especial",
         "e",
-        "repertório",
-        "essência",
-        "regras",
-        "gerais",
-        "atributos",
-        "estabilizar",
-        "dano",
-        "e",
-        "recuperação",
-        "socorro",
-        "estágios",
-        "de",
-        "integridade",
-        "dano",
-        "e",
-        "recuperação",
-        "estágios",
-        "de",
-        "integridade",
-        "estigma",
-        "equipamento",
-        "graus",
-        "das",
-        "ferramentas",
-        "efeitos",
-        "das",
-        "ferramentas",
-        "na",
-        "organização",
-        "atual",
-        "estímulo",
-        "muscular",
-        "rotas",
-        "estímulo",
-        "muscular",
-        "estudar",
-        "regras",
-        "gerais",
-        "estudar"
+        "repertório"
       ],
       "esperado": [
         "índice",
@@ -330475,12 +329757,31 @@
         "e",
         "assunto",
         "consulta",
+        "desgaste",
+        "equipamento",
+        "desgaste",
+        "desligada",
+        "invocações",
+        "retorno",
+        "e",
+        "corpos",
+        "caídos",
+        "deslocamento",
+        "regras",
+        "gerais",
+        "movimento",
+        "e",
+        "terreno",
         "desvantagem",
         "regras",
         "gerais",
         "treino",
         "e",
         "modificadores",
+        "discreta",
+        "equipamento",
+        "armas",
+        "escondidas",
         "dívida",
         "catálogo",
         "condições",
@@ -330517,6 +329818,10 @@
         "emaranha",
         "equipamento",
         "propriedades",
+        "embainhada",
+        "equipamento",
+        "armas",
+        "escondidas",
         "energia",
         "amaldiçoada",
         "pura",
@@ -330563,6 +329868,11 @@
         "regras",
         "gerais",
         "esconder",
+        "escudo",
+        "equipamento",
+        "revestimentos",
+        "e",
+        "escudos",
         "espaço",
         "conhecido",
         "fundamento",
@@ -330586,45 +329896,7 @@
         "repertório",
         "especial",
         "e",
-        "repertório",
-        "essência",
-        "regras",
-        "gerais",
-        "atributos",
-        "estabilizar",
-        "dano",
-        "e",
-        "recuperação",
-        "socorro",
-        "estágios",
-        "de",
-        "integridade",
-        "dano",
-        "e",
-        "recuperação",
-        "estágios",
-        "de",
-        "integridade",
-        "estigma",
-        "equipamento",
-        "graus",
-        "das",
-        "ferramentas",
-        "efeitos",
-        "das",
-        "ferramentas",
-        "na",
-        "organização",
-        "atual",
-        "estímulo",
-        "muscular",
-        "rotas",
-        "estímulo",
-        "muscular",
-        "estudar",
-        "regras",
-        "gerais",
-        "estudar"
+        "repertório"
       ],
       "ok": true
     },
@@ -330633,9 +329905,47 @@
       "obtido": [
         "índice",
         "e",
-        "g",
+        "f",
         "assunto",
         "consulta",
+        "essência",
+        "regras",
+        "gerais",
+        "atributos",
+        "estabilizar",
+        "dano",
+        "e",
+        "recuperação",
+        "socorro",
+        "estágios",
+        "de",
+        "integridade",
+        "dano",
+        "e",
+        "recuperação",
+        "estágios",
+        "de",
+        "integridade",
+        "estigma",
+        "equipamento",
+        "graus",
+        "das",
+        "ferramentas",
+        "efeitos",
+        "das",
+        "ferramentas",
+        "na",
+        "organização",
+        "atual",
+        "estímulo",
+        "muscular",
+        "rotas",
+        "estímulo",
+        "muscular",
+        "estudar",
+        "regras",
+        "gerais",
+        "estudar",
         "evocador",
         "evocador",
         "exaustão",
@@ -330730,44 +330040,52 @@
         "de",
         "ataque",
         "fundamento",
-        "fundamento",
-        "fura",
-        "catálogo",
-        "defesas",
-        "gatilho",
-        "regras",
-        "gerais",
-        "reações",
-        "e",
-        "ataques",
-        "de",
-        "oportunidade",
-        "gesto",
-        "catálogo",
-        "restrições",
-        "de",
-        "conjuração",
-        "grau",
-        "equipamento",
-        "graus",
-        "das",
-        "ferramentas",
-        "grau",
-        "patente",
-        "progressão",
-        "patentes",
-        "guarda",
-        "catálogo",
-        "proteção",
-        "e",
-        "apoio"
+        "fundamento"
       ],
       "esperado": [
         "índice",
         "e",
-        "g",
+        "f",
         "assunto",
         "consulta",
+        "essência",
+        "regras",
+        "gerais",
+        "atributos",
+        "estabilizar",
+        "dano",
+        "e",
+        "recuperação",
+        "socorro",
+        "estágios",
+        "de",
+        "integridade",
+        "dano",
+        "e",
+        "recuperação",
+        "estágios",
+        "de",
+        "integridade",
+        "estigma",
+        "equipamento",
+        "graus",
+        "das",
+        "ferramentas",
+        "efeitos",
+        "das",
+        "ferramentas",
+        "na",
+        "organização",
+        "atual",
+        "estímulo",
+        "muscular",
+        "rotas",
+        "estímulo",
+        "muscular",
+        "estudar",
+        "regras",
+        "gerais",
+        "estudar",
         "evocador",
         "evocador",
         "exaustão",
@@ -330862,37 +330180,7 @@
         "de",
         "ataque",
         "fundamento",
-        "fundamento",
-        "fura",
-        "catálogo",
-        "defesas",
-        "gatilho",
-        "regras",
-        "gerais",
-        "reações",
-        "e",
-        "ataques",
-        "de",
-        "oportunidade",
-        "gesto",
-        "catálogo",
-        "restrições",
-        "de",
-        "conjuração",
-        "grau",
-        "equipamento",
-        "graus",
-        "das",
-        "ferramentas",
-        "grau",
-        "patente",
-        "progressão",
-        "patentes",
-        "guarda",
-        "catálogo",
-        "proteção",
-        "e",
-        "apoio"
+        "fundamento"
       ],
       "ok": true
     },
@@ -330900,10 +330188,40 @@
       "teste": "Fonte preservada consulta--consulta-indice-6",
       "obtido": [
         "índice",
-        "g",
+        "f",
         "l",
         "assunto",
         "consulta",
+        "fura",
+        "catálogo",
+        "defesas",
+        "gatilho",
+        "regras",
+        "gerais",
+        "reações",
+        "e",
+        "ataques",
+        "de",
+        "oportunidade",
+        "gesto",
+        "catálogo",
+        "restrições",
+        "de",
+        "conjuração",
+        "grau",
+        "equipamento",
+        "graus",
+        "das",
+        "ferramentas",
+        "grau",
+        "patente",
+        "progressão",
+        "patentes",
+        "guarda",
+        "catálogo",
+        "proteção",
+        "e",
+        "apoio",
         "guarda",
         "aberta",
         "dano",
@@ -331002,56 +330320,44 @@
         "e",
         "recuperação",
         "condições",
-        "leves",
-        "leque",
-        "progressão",
-        "marcos",
-        "levanta",
-        "catálogo",
-        "amparo",
-        "leve",
-        "fundamento",
-        "pontos",
-        "e",
-        "preços",
-        "preço",
-        "de",
-        "montagem",
-        "categoria",
-        "de",
-        "condição",
-        "em",
-        "condições",
-        "propriedade",
-        "de",
-        "arma",
-        "em",
-        "equipamento",
-        "leve",
-        "média",
-        "e",
-        "pesada",
-        "fundamento",
-        "pontos",
-        "e",
-        "preços",
-        "liberação",
-        "máxima",
-        "fundamento",
-        "liberação",
-        "máxima",
-        "linha",
-        "fundamento",
-        "formas",
-        "de",
-        "ataque"
+        "leves"
       ],
       "esperado": [
         "índice",
-        "g",
+        "f",
         "l",
         "assunto",
         "consulta",
+        "fura",
+        "catálogo",
+        "defesas",
+        "gatilho",
+        "regras",
+        "gerais",
+        "reações",
+        "e",
+        "ataques",
+        "de",
+        "oportunidade",
+        "gesto",
+        "catálogo",
+        "restrições",
+        "de",
+        "conjuração",
+        "grau",
+        "equipamento",
+        "graus",
+        "das",
+        "ferramentas",
+        "grau",
+        "patente",
+        "progressão",
+        "patentes",
+        "guarda",
+        "catálogo",
+        "proteção",
+        "e",
+        "apoio",
         "guarda",
         "aberta",
         "dano",
@@ -331150,49 +330456,7 @@
         "e",
         "recuperação",
         "condições",
-        "leves",
-        "leque",
-        "progressão",
-        "marcos",
-        "levanta",
-        "catálogo",
-        "amparo",
-        "leve",
-        "fundamento",
-        "pontos",
-        "e",
-        "preços",
-        "preço",
-        "de",
-        "montagem",
-        "categoria",
-        "de",
-        "condição",
-        "em",
-        "condições",
-        "propriedade",
-        "de",
-        "arma",
-        "em",
-        "equipamento",
-        "leve",
-        "média",
-        "e",
-        "pesada",
-        "fundamento",
-        "pontos",
-        "e",
-        "preços",
-        "liberação",
-        "máxima",
-        "fundamento",
-        "liberação",
-        "máxima",
-        "linha",
-        "fundamento",
-        "formas",
-        "de",
-        "ataque"
+        "leves"
       ],
       "ok": true
     },
@@ -331201,9 +330465,51 @@
       "obtido": [
         "índice",
         "l",
-        "o",
+        "m",
         "assunto",
         "consulta",
+        "leque",
+        "progressão",
+        "marcos",
+        "levanta",
+        "catálogo",
+        "amparo",
+        "leve",
+        "fundamento",
+        "pontos",
+        "e",
+        "preços",
+        "preço",
+        "de",
+        "montagem",
+        "categoria",
+        "de",
+        "condição",
+        "em",
+        "condições",
+        "propriedade",
+        "de",
+        "arma",
+        "em",
+        "equipamento",
+        "leve",
+        "média",
+        "e",
+        "pesada",
+        "fundamento",
+        "pontos",
+        "e",
+        "preços",
+        "liberação",
+        "máxima",
+        "fundamento",
+        "liberação",
+        "máxima",
+        "linha",
+        "fundamento",
+        "formas",
+        "de",
+        "ataque",
         "longe",
         "catálogo",
         "alcance",
@@ -331241,6 +330547,10 @@
         "manifestar",
         "e",
         "recolher",
+        "manutenção",
+        "entidades",
+        "invocações",
+        "manutenção",
         "mão",
         "firme",
         "catálogo",
@@ -331296,47 +330606,56 @@
         "equipamento",
         "munição",
         "muro",
-        "muro",
-        "nível",
-        "progressão",
-        "experiência",
-        "e",
-        "progressão",
-        "obras",
-        "em",
-        "emergência",
-        "obras",
-        "em",
-        "emergência",
-        "oculta",
-        "equipamento",
-        "armas",
-        "escondidas",
-        "ofício",
-        "ofícios",
-        "ōgi",
-        "rotas",
-        "técnica",
-        "marcial",
-        "onda",
-        "fundamento",
-        "formas",
-        "de",
-        "amparo",
-        "e",
-        "efeito",
-        "ordem",
-        "antecipada",
-        "invocações",
-        "ordem",
-        "antecipada"
+        "muro"
       ],
       "esperado": [
         "índice",
         "l",
-        "o",
+        "m",
         "assunto",
         "consulta",
+        "leque",
+        "progressão",
+        "marcos",
+        "levanta",
+        "catálogo",
+        "amparo",
+        "leve",
+        "fundamento",
+        "pontos",
+        "e",
+        "preços",
+        "preço",
+        "de",
+        "montagem",
+        "categoria",
+        "de",
+        "condição",
+        "em",
+        "condições",
+        "propriedade",
+        "de",
+        "arma",
+        "em",
+        "equipamento",
+        "leve",
+        "média",
+        "e",
+        "pesada",
+        "fundamento",
+        "pontos",
+        "e",
+        "preços",
+        "liberação",
+        "máxima",
+        "fundamento",
+        "liberação",
+        "máxima",
+        "linha",
+        "fundamento",
+        "formas",
+        "de",
+        "ataque",
         "longe",
         "catálogo",
         "alcance",
@@ -331374,6 +330693,10 @@
         "manifestar",
         "e",
         "recolher",
+        "manutenção",
+        "entidades",
+        "invocações",
+        "manutenção",
         "mão",
         "firme",
         "catálogo",
@@ -331429,40 +330752,7 @@
         "equipamento",
         "munição",
         "muro",
-        "muro",
-        "nível",
-        "progressão",
-        "experiência",
-        "e",
-        "progressão",
-        "obras",
-        "em",
-        "emergência",
-        "obras",
-        "em",
-        "emergência",
-        "oculta",
-        "equipamento",
-        "armas",
-        "escondidas",
-        "ofício",
-        "ofícios",
-        "ōgi",
-        "rotas",
-        "técnica",
-        "marcial",
-        "onda",
-        "fundamento",
-        "formas",
-        "de",
-        "amparo",
-        "e",
-        "efeito",
-        "ordem",
-        "antecipada",
-        "invocações",
-        "ordem",
-        "antecipada"
+        "muro"
       ],
       "ok": true
     },
@@ -331470,10 +330760,48 @@
       "teste": "Fonte preservada consulta--consulta-indice-8",
       "obtido": [
         "índice",
-        "o",
+        "n",
         "p",
         "assunto",
         "consulta",
+        "nível",
+        "progressão",
+        "experiência",
+        "e",
+        "progressão",
+        "obras",
+        "em",
+        "emergência",
+        "obras",
+        "em",
+        "emergência",
+        "oculta",
+        "equipamento",
+        "armas",
+        "escondidas",
+        "ofício",
+        "ofícios",
+        "ōgi",
+        "rotas",
+        "técnica",
+        "marcial",
+        "onda",
+        "fundamento",
+        "formas",
+        "de",
+        "amparo",
+        "e",
+        "efeito",
+        "ordem",
+        "antecipada",
+        "invocações",
+        "ordem",
+        "antecipada",
+        "ordens",
+        "pendentes",
+        "invocações",
+        "ordens",
+        "pendentes",
         "origem",
         "origens",
         "pacto",
@@ -331573,45 +330901,52 @@
         "pontos",
         "de",
         "vínculo",
-        "vínculo",
-        "precisão",
-        "catálogo",
-        "mira",
-        "preparar",
-        "regras",
-        "gerais",
-        "preparar",
-        "progressão",
-        "do",
-        "guia",
-        "progressão",
-        "do",
-        "guia",
-        "projétil",
-        "fundamento",
-        "formas",
-        "de",
-        "ataque",
-        "promessa",
-        "promessa",
-        "proteção",
-        "equipamento",
-        "proteção",
-        "proteção",
-        "de",
-        "aliados",
-        "proteção",
-        "de",
-        "aliados",
-        "pugilista",
-        "pugilista"
+        "vínculo"
       ],
       "esperado": [
         "índice",
-        "o",
+        "n",
         "p",
         "assunto",
         "consulta",
+        "nível",
+        "progressão",
+        "experiência",
+        "e",
+        "progressão",
+        "obras",
+        "em",
+        "emergência",
+        "obras",
+        "em",
+        "emergência",
+        "oculta",
+        "equipamento",
+        "armas",
+        "escondidas",
+        "ofício",
+        "ofícios",
+        "ōgi",
+        "rotas",
+        "técnica",
+        "marcial",
+        "onda",
+        "fundamento",
+        "formas",
+        "de",
+        "amparo",
+        "e",
+        "efeito",
+        "ordem",
+        "antecipada",
+        "invocações",
+        "ordem",
+        "antecipada",
+        "ordens",
+        "pendentes",
+        "invocações",
+        "ordens",
+        "pendentes",
         "origem",
         "origens",
         "pacto",
@@ -331711,38 +331046,7 @@
         "pontos",
         "de",
         "vínculo",
-        "vínculo",
-        "precisão",
-        "catálogo",
-        "mira",
-        "preparar",
-        "regras",
-        "gerais",
-        "preparar",
-        "progressão",
-        "do",
-        "guia",
-        "progressão",
-        "do",
-        "guia",
-        "projétil",
-        "fundamento",
-        "formas",
-        "de",
-        "ataque",
-        "promessa",
-        "promessa",
-        "proteção",
-        "equipamento",
-        "proteção",
-        "proteção",
-        "de",
-        "aliados",
-        "proteção",
-        "de",
-        "aliados",
-        "pugilista",
-        "pugilista"
+        "vínculo"
       ],
       "ok": true
     },
@@ -331751,9 +331055,40 @@
       "obtido": [
         "índice",
         "p",
-        "s",
+        "r",
         "assunto",
         "consulta",
+        "precisão",
+        "catálogo",
+        "mira",
+        "preparar",
+        "regras",
+        "gerais",
+        "preparar",
+        "progressão",
+        "do",
+        "guia",
+        "progressão",
+        "do",
+        "guia",
+        "projétil",
+        "fundamento",
+        "formas",
+        "de",
+        "ataque",
+        "promessa",
+        "promessa",
+        "proteção",
+        "equipamento",
+        "proteção",
+        "proteção",
+        "de",
+        "aliados",
+        "proteção",
+        "de",
+        "aliados",
+        "pugilista",
+        "pugilista",
         "punho",
         "punho",
         "pv",
@@ -331791,6 +331126,14 @@
         "turnos",
         "das",
         "entidades",
+        "recarregar",
+        "equipamento",
+        "recarregar",
+        "recolher",
+        "invocações",
+        "manifestar",
+        "e",
+        "recolher",
         "redução",
         "de",
         "dano",
@@ -331814,75 +331157,60 @@
         "fundamento",
         "sua",
         "técnica",
+        "regra",
+        "própria",
+        "catálogo",
+        "regra",
+        "própria",
+        "religar",
+        "invocações",
+        "retorno",
+        "e",
+        "corpos",
+        "caídos",
         "remenda",
         "catálogo",
         "amparo",
         "ressonante",
-        "ressonante",
-        "restrição",
-        "fundamento",
-        "restrições",
-        "ritual",
-        "ritual",
-        "rodada",
-        "regras",
-        "gerais",
-        "turnos",
-        "rodada",
-        "inteira",
-        "regras",
-        "gerais",
-        "turnos",
-        "ação",
-        "completa",
-        "rompe",
-        "equipamento",
-        "propriedades",
-        "ruptura",
-        "rotas",
-        "técnica",
-        "marcial",
-        "saltos",
-        "regras",
-        "gerais",
-        "saltos",
-        "selo",
-        "fundamento",
-        "selo",
-        "e",
-        "talentos",
-        "sem",
-        "técnica",
-        "rotas",
-        "sem",
-        "técnica",
-        "sentir",
-        "energia",
-        "regras",
-        "gerais",
-        "percepção",
-        "de",
-        "energia",
-        "sequela",
-        "dano",
-        "e",
-        "recuperação",
-        "sequelas",
-        "e",
-        "cicatrizes",
-        "sobrecarga",
-        "e",
-        "fluxo",
-        "sobrecarga",
-        "e",
-        "fluxo"
+        "ressonante"
       ],
       "esperado": [
         "índice",
         "p",
-        "s",
+        "r",
         "assunto",
         "consulta",
+        "precisão",
+        "catálogo",
+        "mira",
+        "preparar",
+        "regras",
+        "gerais",
+        "preparar",
+        "progressão",
+        "do",
+        "guia",
+        "progressão",
+        "do",
+        "guia",
+        "projétil",
+        "fundamento",
+        "formas",
+        "de",
+        "ataque",
+        "promessa",
+        "promessa",
+        "proteção",
+        "equipamento",
+        "proteção",
+        "proteção",
+        "de",
+        "aliados",
+        "proteção",
+        "de",
+        "aliados",
+        "pugilista",
+        "pugilista",
         "punho",
         "punho",
         "pv",
@@ -331920,6 +331248,14 @@
         "turnos",
         "das",
         "entidades",
+        "recarregar",
+        "equipamento",
+        "recarregar",
+        "recolher",
+        "invocações",
+        "manifestar",
+        "e",
+        "recolher",
         "redução",
         "de",
         "dano",
@@ -331943,68 +331279,22 @@
         "fundamento",
         "sua",
         "técnica",
+        "regra",
+        "própria",
+        "catálogo",
+        "regra",
+        "própria",
+        "religar",
+        "invocações",
+        "retorno",
+        "e",
+        "corpos",
+        "caídos",
         "remenda",
         "catálogo",
         "amparo",
         "ressonante",
-        "ressonante",
-        "restrição",
-        "fundamento",
-        "restrições",
-        "ritual",
-        "ritual",
-        "rodada",
-        "regras",
-        "gerais",
-        "turnos",
-        "rodada",
-        "inteira",
-        "regras",
-        "gerais",
-        "turnos",
-        "ação",
-        "completa",
-        "rompe",
-        "equipamento",
-        "propriedades",
-        "ruptura",
-        "rotas",
-        "técnica",
-        "marcial",
-        "saltos",
-        "regras",
-        "gerais",
-        "saltos",
-        "selo",
-        "fundamento",
-        "selo",
-        "e",
-        "talentos",
-        "sem",
-        "técnica",
-        "rotas",
-        "sem",
-        "técnica",
-        "sentir",
-        "energia",
-        "regras",
-        "gerais",
-        "percepção",
-        "de",
-        "energia",
-        "sequela",
-        "dano",
-        "e",
-        "recuperação",
-        "sequelas",
-        "e",
-        "cicatrizes",
-        "sobrecarga",
-        "e",
-        "fluxo",
-        "sobrecarga",
-        "e",
-        "fluxo"
+        "ressonante"
       ],
       "ok": true
     },
@@ -332012,10 +331302,90 @@
       "teste": "Fonte preservada consulta--consulta-indice-10",
       "obtido": [
         "índice",
-        "s",
-        "v",
+        "r",
+        "t",
         "assunto",
         "consulta",
+        "restrição",
+        "fundamento",
+        "restrições",
+        "retorno",
+        "invocações",
+        "retorno",
+        "e",
+        "corpos",
+        "caídos",
+        "revestimento",
+        "equipamento",
+        "revestimentos",
+        "e",
+        "escudos",
+        "ritual",
+        "ritual",
+        "rodada",
+        "regras",
+        "gerais",
+        "turnos",
+        "rodada",
+        "inteira",
+        "regras",
+        "gerais",
+        "turnos",
+        "ação",
+        "completa",
+        "rompe",
+        "equipamento",
+        "propriedades",
+        "ruptura",
+        "rotas",
+        "técnica",
+        "marcial",
+        "sacar",
+        "e",
+        "guardar",
+        "equipamento",
+        "sacar",
+        "e",
+        "guardar",
+        "saltos",
+        "regras",
+        "gerais",
+        "saltos",
+        "segura",
+        "catálogo",
+        "momento",
+        "e",
+        "duração",
+        "selo",
+        "fundamento",
+        "selo",
+        "e",
+        "talentos",
+        "sem",
+        "técnica",
+        "rotas",
+        "sem",
+        "técnica",
+        "sentir",
+        "energia",
+        "regras",
+        "gerais",
+        "percepção",
+        "de",
+        "energia",
+        "sequela",
+        "dano",
+        "e",
+        "recuperação",
+        "sequelas",
+        "e",
+        "cicatrizes",
+        "sobrecarga",
+        "e",
+        "fluxo",
+        "sobrecarga",
+        "e",
+        "fluxo",
         "socorrista",
         "socorrista",
         "socorro",
@@ -332048,6 +331418,9 @@
         "talha",
         "equipamento",
         "propriedades",
+        "talismã",
+        "invocações",
+        "talismãs",
         "técnica",
         "amaldiçoada",
         "mundo",
@@ -332056,99 +331429,94 @@
         "marcial",
         "rotas",
         "técnica",
-        "marcial",
-        "técnica",
-        "máxima",
-        "fundamento",
-        "técnica",
-        "máxima",
-        "teste",
-        "regras",
-        "gerais",
-        "testes",
-        "teste",
-        "de",
-        "resistência",
-        "regras",
-        "gerais",
-        "testes",
-        "de",
-        "resistência",
-        "teto",
-        "fundamento",
-        "dano",
-        "e",
-        "repetições",
-        "toca",
-        "a",
-        "alma",
-        "catálogo",
-        "defesas",
-        "toque",
-        "fundamento",
-        "formas",
-        "de",
-        "ataque",
-        "traço",
-        "origens",
-        "treino",
-        "regras",
-        "gerais",
-        "treino",
-        "e",
-        "modificadores",
-        "trilha",
-        "caminho",
-        "e",
-        "trilha",
-        "trocar",
-        "de",
-        "entidade",
-        "invocações",
-        "trocar",
-        "de",
-        "entidade",
-        "trocar",
-        "de",
-        "trilha",
-        "progressão",
-        "trocar",
-        "de",
-        "trilha",
-        "turno",
-        "regras",
-        "gerais",
-        "turnos",
-        "uma",
-        "vez",
-        "catálogo",
-        "condições",
-        "de",
-        "uso",
-        "uso",
-        "limitado",
-        "ficha",
-        "pronta",
-        "uso",
-        "livre",
-        "fundamento",
-        "uso",
-        "livre",
-        "vanguarda",
-        "vanguarda",
-        "vantagem",
-        "regras",
-        "gerais",
-        "treino",
-        "e",
-        "modificadores"
+        "marcial"
       ],
       "esperado": [
         "índice",
-        "s",
-        "v",
+        "r",
+        "t",
         "assunto",
         "consulta",
+        "restrição",
+        "fundamento",
+        "restrições",
+        "retorno",
+        "invocações",
+        "retorno",
+        "e",
+        "corpos",
+        "caídos",
+        "revestimento",
+        "equipamento",
+        "revestimentos",
+        "e",
+        "escudos",
+        "ritual",
+        "ritual",
+        "rodada",
+        "regras",
+        "gerais",
+        "turnos",
+        "rodada",
+        "inteira",
+        "regras",
+        "gerais",
+        "turnos",
+        "ação",
+        "completa",
+        "rompe",
+        "equipamento",
+        "propriedades",
+        "ruptura",
+        "rotas",
+        "técnica",
+        "marcial",
+        "sacar",
+        "e",
+        "guardar",
+        "equipamento",
+        "sacar",
+        "e",
+        "guardar",
+        "saltos",
+        "regras",
+        "gerais",
+        "saltos",
+        "segura",
+        "catálogo",
+        "momento",
+        "e",
+        "duração",
+        "selo",
+        "fundamento",
+        "selo",
+        "e",
+        "talentos",
+        "sem",
+        "técnica",
+        "rotas",
+        "sem",
+        "técnica",
+        "sentir",
+        "energia",
+        "regras",
+        "gerais",
+        "percepção",
+        "de",
+        "energia",
+        "sequela",
+        "dano",
+        "e",
+        "recuperação",
+        "sequelas",
+        "e",
+        "cicatrizes",
+        "sobrecarga",
+        "e",
+        "fluxo",
+        "sobrecarga",
+        "e",
+        "fluxo",
         "socorrista",
         "socorrista",
         "socorro",
@@ -332181,6 +331549,9 @@
         "talha",
         "equipamento",
         "propriedades",
+        "talismã",
+        "invocações",
+        "talismãs",
         "técnica",
         "amaldiçoada",
         "mundo",
@@ -332189,92 +331560,7 @@
         "marcial",
         "rotas",
         "técnica",
-        "marcial",
-        "técnica",
-        "máxima",
-        "fundamento",
-        "técnica",
-        "máxima",
-        "teste",
-        "regras",
-        "gerais",
-        "testes",
-        "teste",
-        "de",
-        "resistência",
-        "regras",
-        "gerais",
-        "testes",
-        "de",
-        "resistência",
-        "teto",
-        "fundamento",
-        "dano",
-        "e",
-        "repetições",
-        "toca",
-        "a",
-        "alma",
-        "catálogo",
-        "defesas",
-        "toque",
-        "fundamento",
-        "formas",
-        "de",
-        "ataque",
-        "traço",
-        "origens",
-        "treino",
-        "regras",
-        "gerais",
-        "treino",
-        "e",
-        "modificadores",
-        "trilha",
-        "caminho",
-        "e",
-        "trilha",
-        "trocar",
-        "de",
-        "entidade",
-        "invocações",
-        "trocar",
-        "de",
-        "entidade",
-        "trocar",
-        "de",
-        "trilha",
-        "progressão",
-        "trocar",
-        "de",
-        "trilha",
-        "turno",
-        "regras",
-        "gerais",
-        "turnos",
-        "uma",
-        "vez",
-        "catálogo",
-        "condições",
-        "de",
-        "uso",
-        "uso",
-        "limitado",
-        "ficha",
-        "pronta",
-        "uso",
-        "livre",
-        "fundamento",
-        "uso",
-        "livre",
-        "vanguarda",
-        "vanguarda",
-        "vantagem",
-        "regras",
-        "gerais",
-        "treino",
-        "e",
-        "modificadores"
+        "marcial"
       ],
       "ok": true
     },
@@ -332282,10 +331568,98 @@
       "teste": "Fonte preservada consulta--consulta-indice-11",
       "obtido": [
         "índice",
-        "v",
+        "t",
         "x",
         "assunto",
         "consulta",
+        "técnica",
+        "máxima",
+        "fundamento",
+        "técnica",
+        "máxima",
+        "teste",
+        "regras",
+        "gerais",
+        "testes",
+        "teste",
+        "de",
+        "resistência",
+        "regras",
+        "gerais",
+        "testes",
+        "de",
+        "resistência",
+        "teto",
+        "fundamento",
+        "dano",
+        "e",
+        "repetições",
+        "toca",
+        "a",
+        "alma",
+        "catálogo",
+        "defesas",
+        "toque",
+        "fundamento",
+        "formas",
+        "de",
+        "ataque",
+        "traço",
+        "origens",
+        "traje",
+        "equipamento",
+        "trajes",
+        "treino",
+        "regras",
+        "gerais",
+        "treino",
+        "e",
+        "modificadores",
+        "trilha",
+        "caminho",
+        "e",
+        "trilha",
+        "trocar",
+        "de",
+        "entidade",
+        "invocações",
+        "trocar",
+        "de",
+        "entidade",
+        "trocar",
+        "de",
+        "trilha",
+        "progressão",
+        "trocar",
+        "de",
+        "trilha",
+        "turno",
+        "regras",
+        "gerais",
+        "turnos",
+        "uma",
+        "vez",
+        "catálogo",
+        "condições",
+        "de",
+        "uso",
+        "uso",
+        "limitado",
+        "ficha",
+        "pronta",
+        "uso",
+        "livre",
+        "fundamento",
+        "uso",
+        "livre",
+        "vanguarda",
+        "vanguarda",
+        "vantagem",
+        "regras",
+        "gerais",
+        "treino",
+        "e",
+        "modificadores",
         "vasculhar",
         "regras",
         "gerais",
@@ -332327,10 +331701,98 @@
       ],
       "esperado": [
         "índice",
-        "v",
+        "t",
         "x",
         "assunto",
         "consulta",
+        "técnica",
+        "máxima",
+        "fundamento",
+        "técnica",
+        "máxima",
+        "teste",
+        "regras",
+        "gerais",
+        "testes",
+        "teste",
+        "de",
+        "resistência",
+        "regras",
+        "gerais",
+        "testes",
+        "de",
+        "resistência",
+        "teto",
+        "fundamento",
+        "dano",
+        "e",
+        "repetições",
+        "toca",
+        "a",
+        "alma",
+        "catálogo",
+        "defesas",
+        "toque",
+        "fundamento",
+        "formas",
+        "de",
+        "ataque",
+        "traço",
+        "origens",
+        "traje",
+        "equipamento",
+        "trajes",
+        "treino",
+        "regras",
+        "gerais",
+        "treino",
+        "e",
+        "modificadores",
+        "trilha",
+        "caminho",
+        "e",
+        "trilha",
+        "trocar",
+        "de",
+        "entidade",
+        "invocações",
+        "trocar",
+        "de",
+        "entidade",
+        "trocar",
+        "de",
+        "trilha",
+        "progressão",
+        "trocar",
+        "de",
+        "trilha",
+        "turno",
+        "regras",
+        "gerais",
+        "turnos",
+        "uma",
+        "vez",
+        "catálogo",
+        "condições",
+        "de",
+        "uso",
+        "uso",
+        "limitado",
+        "ficha",
+        "pronta",
+        "uso",
+        "livre",
+        "fundamento",
+        "uso",
+        "livre",
+        "vanguarda",
+        "vanguarda",
+        "vantagem",
+        "regras",
+        "gerais",
+        "treino",
+        "e",
+        "modificadores",
         "vasculhar",
         "regras",
         "gerais",
@@ -334077,12 +333539,6 @@
       "ok": true
     },
     {
-      "teste": "Bloco completo progressao--prog-ritmo",
-      "obtido": {},
-      "esperado": {},
-      "ok": true
-    },
-    {
       "teste": "Bloco completo progressao--prog-guilda",
       "obtido": {},
       "esperado": {},
@@ -335546,91 +335002,91 @@
     {
       "titulo": "Técnicas e poderes",
       "nivel": 0,
-      "pagina": 219,
+      "pagina": 218,
       "count": -6
     },
     {
       "titulo": "10. Fundamento",
       "nivel": 1,
-      "pagina": 219,
+      "pagina": 218,
       "count": null
     },
     {
       "titulo": "11. Catálogo de criação",
       "nivel": 1,
-      "pagina": 244,
+      "pagina": 243,
       "count": null
     },
     {
       "titulo": "12. Aptidões e Refino",
       "nivel": 1,
-      "pagina": 266,
+      "pagina": 265,
       "count": null
     },
     {
       "titulo": "13. Rotas de criação",
       "nivel": 1,
-      "pagina": 280,
+      "pagina": 279,
       "count": null
     },
     {
       "titulo": "14. Poderes avançados",
       "nivel": 1,
-      "pagina": 297,
+      "pagina": 295,
       "count": null
     },
     {
       "titulo": "15. Ritual e Pactos",
       "nivel": 1,
-      "pagina": 308,
+      "pagina": 306,
       "count": null
     },
     {
       "titulo": "Invocações",
       "nivel": 0,
-      "pagina": 317,
+      "pagina": 315,
       "count": -2
     },
     {
       "titulo": "16. Invocações em campo",
       "nivel": 1,
-      "pagina": 317,
+      "pagina": 315,
       "count": null
     },
     {
       "titulo": "17. Construir invocações",
       "nivel": 1,
-      "pagina": 335,
+      "pagina": 333,
       "count": null
     },
     {
       "titulo": "Mestrar e consultar",
       "nivel": 0,
-      "pagina": 357,
+      "pagina": 355,
       "count": -4
     },
     {
       "titulo": "18. Mestrar",
       "nivel": 1,
-      "pagina": 357,
+      "pagina": 355,
       "count": null
     },
     {
       "titulo": "19. Glossário",
       "nivel": 1,
-      "pagina": 359,
+      "pagina": 357,
       "count": null
     },
     {
       "titulo": "20. Referências e fichas",
       "nivel": 1,
-      "pagina": 364,
+      "pagina": 362,
       "count": null
     },
     {
       "titulo": "21. Índice",
       "nivel": 1,
-      "pagina": 374,
+      "pagina": 372,
       "count": null
     }
   ],
@@ -335872,43 +335328,43 @@
     },
     {
       "pagina": 48,
-      "caracteres": 2644,
-      "fim_corpo": 771.72
+      "caracteres": 2550,
+      "fim_corpo": 743.72
     },
     {
       "pagina": 49,
-      "caracteres": 2791,
-      "fim_corpo": 727.92
+      "caracteres": 2729,
+      "fim_corpo": 733.92
     },
     {
       "pagina": 50,
-      "caracteres": 3053,
-      "fim_corpo": 736.12
+      "caracteres": 3126,
+      "fim_corpo": 752.32
     },
     {
       "pagina": 51,
-      "caracteres": 2810,
-      "fim_corpo": 768.52
+      "caracteres": 2783,
+      "fim_corpo": 754.52
     },
     {
       "pagina": 52,
-      "caracteres": 3072,
-      "fim_corpo": 752.72
+      "caracteres": 3128,
+      "fim_corpo": 768.92
     },
     {
       "pagina": 53,
-      "caracteres": 2670,
-      "fim_corpo": 759.32
+      "caracteres": 2570,
+      "fim_corpo": 747.52
     },
     {
       "pagina": 54,
-      "caracteres": 2284,
-      "fim_corpo": 747.59
+      "caracteres": 2444,
+      "fim_corpo": 757.99
     },
     {
       "pagina": 55,
-      "caracteres": 1985,
-      "fim_corpo": 495.72
+      "caracteres": 2126,
+      "fim_corpo": 564.32
     },
     {
       "pagina": 56,
@@ -336112,18 +335568,18 @@
     },
     {
       "pagina": 96,
-      "caracteres": 3062,
+      "caracteres": 3128,
       "fim_corpo": 767.92
     },
     {
       "pagina": 97,
-      "caracteres": 3472,
+      "caracteres": 3408,
       "fim_corpo": 762.72
     },
     {
       "pagina": 98,
-      "caracteres": 2366,
-      "fim_corpo": 742.92
+      "caracteres": 2536,
+      "fim_corpo": 776.72
     },
     {
       "pagina": 99,
@@ -336372,8 +335828,8 @@
     },
     {
       "pagina": 148,
-      "caracteres": 2765,
-      "fim_corpo": 741.92
+      "caracteres": 2914,
+      "fim_corpo": 755.92
     },
     {
       "pagina": 149,
@@ -336512,53 +335968,53 @@
     },
     {
       "pagina": 176,
-      "caracteres": 2862,
-      "fim_corpo": 770.39
+      "caracteres": 2937,
+      "fim_corpo": 772.59
     },
     {
       "pagina": 177,
-      "caracteres": 2523,
+      "caracteres": 2486,
       "fim_corpo": 745.39
     },
     {
       "pagina": 178,
-      "caracteres": 2870,
-      "fim_corpo": 766.92
+      "caracteres": 2669,
+      "fim_corpo": 750.72
     },
     {
       "pagina": 179,
-      "caracteres": 3122,
-      "fim_corpo": 735.92
+      "caracteres": 3230,
+      "fim_corpo": 744.12
     },
     {
       "pagina": 180,
-      "caracteres": 2459,
-      "fim_corpo": 772.59
+      "caracteres": 2596,
+      "fim_corpo": 768.99
     },
     {
       "pagina": 181,
-      "caracteres": 2067,
-      "fim_corpo": 770.32
+      "caracteres": 2007,
+      "fim_corpo": 763.79
     },
     {
       "pagina": 182,
-      "caracteres": 2858,
-      "fim_corpo": 740.07
+      "caracteres": 2712,
+      "fim_corpo": 755.52
     },
     {
       "pagina": 183,
-      "caracteres": 2339,
-      "fim_corpo": 736.39
+      "caracteres": 2554,
+      "fim_corpo": 760.79
     },
     {
       "pagina": 184,
-      "caracteres": 2847,
-      "fim_corpo": 712.92
+      "caracteres": 2830,
+      "fim_corpo": 747.72
     },
     {
       "pagina": 185,
-      "caracteres": 3140,
-      "fim_corpo": 731.32
+      "caracteres": 3310,
+      "fim_corpo": 772.32
     },
     {
       "pagina": 186,
@@ -336657,7 +336113,7 @@
     },
     {
       "pagina": 205,
-      "caracteres": 2677,
+      "caracteres": 2700,
       "fim_corpo": 753.52
     },
     {
@@ -336687,873 +336143,863 @@
     },
     {
       "pagina": 211,
-      "caracteres": 2464,
-      "fim_corpo": 770.19
+      "caracteres": 2359,
+      "fim_corpo": 766.39
     },
     {
       "pagina": 212,
-      "caracteres": 1470,
+      "caracteres": 1474,
       "fim_corpo": 756.19
     },
     {
       "pagina": 213,
-      "caracteres": 2616,
-      "fim_corpo": 738.52
+      "caracteres": 2712,
+      "fim_corpo": 767.92
     },
     {
       "pagina": 214,
-      "caracteres": 2914,
-      "fim_corpo": 761.92
+      "caracteres": 3053,
+      "fim_corpo": 747.92
     },
     {
       "pagina": 215,
-      "caracteres": 3151,
-      "fim_corpo": 732.72
+      "caracteres": 3161,
+      "fim_corpo": 760.72
     },
     {
       "pagina": 216,
-      "caracteres": 2932,
-      "fim_corpo": 744.12
+      "caracteres": 2715,
+      "fim_corpo": 732.32
     },
     {
       "pagina": 217,
-      "caracteres": 2557,
-      "fim_corpo": 738.32
+      "caracteres": 1868,
+      "fim_corpo": 456.32
     },
     {
       "pagina": 218,
-      "caracteres": 1232,
-      "fim_corpo": 313.72
-    },
-    {
-      "pagina": 219,
       "caracteres": 2445,
       "fim_corpo": 771.72
     },
     {
-      "pagina": 220,
+      "pagina": 219,
       "caracteres": 2373,
       "fim_corpo": 761.79
     },
     {
-      "pagina": 221,
+      "pagina": 220,
       "caracteres": 1978,
       "fim_corpo": 716.27
     },
     {
-      "pagina": 222,
+      "pagina": 221,
       "caracteres": 2791,
       "fim_corpo": 760.32
     },
     {
-      "pagina": 223,
+      "pagina": 222,
       "caracteres": 2855,
       "fim_corpo": 709.12
     },
     {
-      "pagina": 224,
+      "pagina": 223,
       "caracteres": 1896,
       "fim_corpo": 758.19
     },
     {
-      "pagina": 225,
+      "pagina": 224,
       "caracteres": 2357,
       "fim_corpo": 754.79
     },
     {
-      "pagina": 226,
+      "pagina": 225,
       "caracteres": 1849,
       "fim_corpo": 669.99
     },
     {
-      "pagina": 227,
+      "pagina": 226,
       "caracteres": 2905,
       "fim_corpo": 755.52
     },
     {
-      "pagina": 228,
+      "pagina": 227,
       "caracteres": 2330,
       "fim_corpo": 745.72
     },
     {
-      "pagina": 229,
+      "pagina": 228,
       "caracteres": 2771,
       "fim_corpo": 761.27
     },
     {
-      "pagina": 230,
+      "pagina": 229,
       "caracteres": 2638,
       "fim_corpo": 754.32
     },
     {
-      "pagina": 231,
+      "pagina": 230,
       "caracteres": 3185,
       "fim_corpo": 736.32
     },
     {
-      "pagina": 232,
+      "pagina": 231,
       "caracteres": 3395,
       "fim_corpo": 766.59
     },
     {
-      "pagina": 233,
+      "pagina": 232,
       "caracteres": 2203,
       "fim_corpo": 711.92
     },
     {
-      "pagina": 234,
+      "pagina": 233,
       "caracteres": 2435,
       "fim_corpo": 753.12
     },
     {
-      "pagina": 235,
+      "pagina": 234,
       "caracteres": 2308,
       "fim_corpo": 766.99
     },
     {
-      "pagina": 236,
+      "pagina": 235,
       "caracteres": 2562,
       "fim_corpo": 728.19
     },
     {
-      "pagina": 237,
+      "pagina": 236,
       "caracteres": 2837,
       "fim_corpo": 772.52
     },
     {
-      "pagina": 238,
+      "pagina": 237,
       "caracteres": 2254,
       "fim_corpo": 695.12
     },
     {
-      "pagina": 239,
+      "pagina": 238,
       "caracteres": 2771,
       "fim_corpo": 764.79
     },
     {
-      "pagina": 240,
+      "pagina": 239,
       "caracteres": 2828,
       "fim_corpo": 766.19
     },
     {
-      "pagina": 241,
+      "pagina": 240,
       "caracteres": 2863,
       "fim_corpo": 743.72
     },
     {
-      "pagina": 242,
+      "pagina": 241,
       "caracteres": 2824,
       "fim_corpo": 774.72
     },
     {
-      "pagina": 243,
+      "pagina": 242,
       "caracteres": 715,
       "fim_corpo": 218.32
     },
     {
-      "pagina": 244,
+      "pagina": 243,
       "caracteres": 2366,
       "fim_corpo": 738.72
     },
     {
-      "pagina": 245,
+      "pagina": 244,
       "caracteres": 2900,
       "fim_corpo": 758.52
     },
     {
-      "pagina": 246,
+      "pagina": 245,
       "caracteres": 3162,
       "fim_corpo": 760.72
     },
     {
-      "pagina": 247,
+      "pagina": 246,
       "caracteres": 2699,
       "fim_corpo": 744.32
     },
     {
-      "pagina": 248,
+      "pagina": 247,
       "caracteres": 2597,
       "fim_corpo": 679.12
     },
     {
-      "pagina": 249,
+      "pagina": 248,
       "caracteres": 2940,
       "fim_corpo": 762.92
     },
     {
-      "pagina": 250,
+      "pagina": 249,
       "caracteres": 2515,
       "fim_corpo": 767.12
     },
     {
-      "pagina": 251,
+      "pagina": 250,
       "caracteres": 3348,
       "fim_corpo": 764.32
     },
     {
-      "pagina": 252,
+      "pagina": 251,
       "caracteres": 3051,
       "fim_corpo": 766.72
     },
     {
-      "pagina": 253,
+      "pagina": 252,
       "caracteres": 2712,
       "fim_corpo": 752.52
     },
     {
-      "pagina": 254,
+      "pagina": 253,
       "caracteres": 2891,
       "fim_corpo": 769.92
     },
     {
-      "pagina": 255,
+      "pagina": 254,
       "caracteres": 2781,
       "fim_corpo": 684.92
     },
     {
-      "pagina": 256,
+      "pagina": 255,
       "caracteres": 3067,
       "fim_corpo": 753.32
     },
     {
-      "pagina": 257,
+      "pagina": 256,
       "caracteres": 2952,
       "fim_corpo": 754.72
     },
     {
-      "pagina": 258,
+      "pagina": 257,
       "caracteres": 2820,
       "fim_corpo": 746.52
     },
     {
-      "pagina": 259,
+      "pagina": 258,
       "caracteres": 2917,
       "fim_corpo": 758.52
     },
     {
-      "pagina": 260,
+      "pagina": 259,
       "caracteres": 2819,
       "fim_corpo": 733.12
     },
     {
-      "pagina": 261,
+      "pagina": 260,
       "caracteres": 2588,
       "fim_corpo": 746.72
     },
     {
-      "pagina": 262,
+      "pagina": 261,
       "caracteres": 2854,
       "fim_corpo": 744.52
     },
     {
-      "pagina": 263,
+      "pagina": 262,
       "caracteres": 2463,
       "fim_corpo": 743.59
     },
     {
-      "pagina": 264,
+      "pagina": 263,
       "caracteres": 2796,
       "fim_corpo": 754.72
     },
     {
-      "pagina": 265,
+      "pagina": 264,
       "caracteres": 1314,
       "fim_corpo": 321.92
     },
     {
+      "pagina": 265,
+      "caracteres": 2775,
+      "fim_corpo": 748.12
+    },
+    {
       "pagina": 266,
-      "caracteres": 2323,
-      "fim_corpo": 766.39
+      "caracteres": 1792,
+      "fim_corpo": 735.52
     },
     {
       "pagina": 267,
-      "caracteres": 1975,
-      "fim_corpo": 754.19
+      "caracteres": 1885,
+      "fim_corpo": 733.72
     },
     {
       "pagina": 268,
-      "caracteres": 2190,
-      "fim_corpo": 772.99
+      "caracteres": 2555,
+      "fim_corpo": 766.52
     },
     {
       "pagina": 269,
-      "caracteres": 2193,
-      "fim_corpo": 738.12
+      "caracteres": 2169,
+      "fim_corpo": 707.27
     },
     {
       "pagina": 270,
-      "caracteres": 2039,
-      "fim_corpo": 745.12
+      "caracteres": 2492,
+      "fim_corpo": 766.52
     },
     {
       "pagina": 271,
-      "caracteres": 2454,
-      "fim_corpo": 713.72
+      "caracteres": 2151,
+      "fim_corpo": 704.12
     },
     {
       "pagina": 272,
-      "caracteres": 2443,
-      "fim_corpo": 763.52
+      "caracteres": 2553,
+      "fim_corpo": 723.72
     },
     {
       "pagina": 273,
-      "caracteres": 2491,
-      "fim_corpo": 742.72
+      "caracteres": 2132,
+      "fim_corpo": 750.92
     },
     {
       "pagina": 274,
-      "caracteres": 2168,
-      "fim_corpo": 764.92
+      "caracteres": 2661,
+      "fim_corpo": 723.12
     },
     {
       "pagina": 275,
-      "caracteres": 2711,
-      "fim_corpo": 742.92
+      "caracteres": 2429,
+      "fim_corpo": 706.72
     },
     {
       "pagina": 276,
-      "caracteres": 2733,
-      "fim_corpo": 775.92
+      "caracteres": 2396,
+      "fim_corpo": 731.32
     },
     {
       "pagina": 277,
-      "caracteres": 2575,
-      "fim_corpo": 767.32
-    },
-    {
-      "pagina": 278,
       "caracteres": 2875,
       "fim_corpo": 757.52
     },
     {
-      "pagina": 279,
+      "pagina": 278,
       "caracteres": 2238,
       "fim_corpo": 623.92
     },
     {
-      "pagina": 280,
-      "caracteres": 2620,
+      "pagina": 279,
+      "caracteres": 2644,
       "fim_corpo": 767.52
     },
     {
-      "pagina": 281,
+      "pagina": 280,
       "caracteres": 2775,
       "fim_corpo": 773.12
     },
     {
+      "pagina": 281,
+      "caracteres": 3266,
+      "fim_corpo": 764.12
+    },
+    {
       "pagina": 282,
-      "caracteres": 3060,
-      "fim_corpo": 730.32
+      "caracteres": 2421,
+      "fim_corpo": 725.79
     },
     {
       "pagina": 283,
-      "caracteres": 2738,
-      "fim_corpo": 755.39
+      "caracteres": 2400,
+      "fim_corpo": 733.72
     },
     {
       "pagina": 284,
-      "caracteres": 2182,
-      "fim_corpo": 760.32
+      "caracteres": 2906,
+      "fim_corpo": 765.12
     },
     {
       "pagina": 285,
-      "caracteres": 3092,
-      "fim_corpo": 768.92
+      "caracteres": 3176,
+      "fim_corpo": 777.32
     },
     {
       "pagina": 286,
-      "caracteres": 2811,
-      "fim_corpo": 736.52
+      "caracteres": 2380,
+      "fim_corpo": 758.39
     },
     {
       "pagina": 287,
-      "caracteres": 2656,
-      "fim_corpo": 764.59
+      "caracteres": 2589,
+      "fim_corpo": 760.32
     },
     {
       "pagina": 288,
-      "caracteres": 2182,
-      "fim_corpo": 735.72
+      "caracteres": 2223,
+      "fim_corpo": 740.92
     },
     {
       "pagina": 289,
-      "caracteres": 2323,
-      "fim_corpo": 713.72
+      "caracteres": 2427,
+      "fim_corpo": 748.72
     },
     {
       "pagina": 290,
-      "caracteres": 2534,
-      "fim_corpo": 696.52
+      "caracteres": 1723,
+      "fim_corpo": 698.32
     },
     {
       "pagina": 291,
-      "caracteres": 1610,
-      "fim_corpo": 710.72
+      "caracteres": 2537,
+      "fim_corpo": 752.32
     },
     {
       "pagina": 292,
-      "caracteres": 2893,
-      "fim_corpo": 771.12
+      "caracteres": 2914,
+      "fim_corpo": 768.72
     },
     {
       "pagina": 293,
-      "caracteres": 2490,
-      "fim_corpo": 749.52
+      "caracteres": 2966,
+      "fim_corpo": 752.32
     },
     {
       "pagina": 294,
-      "caracteres": 2954,
-      "fim_corpo": 749.12
+      "caracteres": 2318,
+      "fim_corpo": 562.32
     },
     {
       "pagina": 295,
-      "caracteres": 2921,
-      "fim_corpo": 742.12
-    },
-    {
-      "pagina": 296,
-      "caracteres": 359,
-      "fim_corpo": 108.52
-    },
-    {
-      "pagina": 297,
       "caracteres": 2501,
       "fim_corpo": 751.92
     },
     {
-      "pagina": 298,
+      "pagina": 296,
       "caracteres": 3305,
       "fim_corpo": 764.32
     },
     {
-      "pagina": 299,
+      "pagina": 297,
       "caracteres": 2807,
       "fim_corpo": 742.59
     },
     {
-      "pagina": 300,
+      "pagina": 298,
       "caracteres": 3292,
       "fim_corpo": 744.52
     },
     {
-      "pagina": 301,
+      "pagina": 299,
       "caracteres": 3259,
       "fim_corpo": 770.32
     },
     {
-      "pagina": 302,
+      "pagina": 300,
       "caracteres": 2742,
       "fim_corpo": 719.92
     },
     {
-      "pagina": 303,
+      "pagina": 301,
       "caracteres": 2564,
       "fim_corpo": 731.12
     },
     {
-      "pagina": 304,
+      "pagina": 302,
       "caracteres": 3222,
       "fim_corpo": 727.92
     },
     {
-      "pagina": 305,
+      "pagina": 303,
       "caracteres": 2401,
       "fim_corpo": 726.99
     },
     {
-      "pagina": 306,
+      "pagina": 304,
       "caracteres": 2906,
       "fim_corpo": 750.72
     },
     {
-      "pagina": 307,
+      "pagina": 305,
       "caracteres": 279,
       "fim_corpo": 108.52
     },
     {
-      "pagina": 308,
+      "pagina": 306,
       "caracteres": 2361,
       "fim_corpo": 721.52
     },
     {
-      "pagina": 309,
+      "pagina": 307,
       "caracteres": 3082,
       "fim_corpo": 736.32
     },
     {
-      "pagina": 310,
+      "pagina": 308,
       "caracteres": 2576,
       "fim_corpo": 763.79
     },
     {
-      "pagina": 311,
+      "pagina": 309,
       "caracteres": 2927,
       "fim_corpo": 738.12
     },
     {
-      "pagina": 312,
+      "pagina": 310,
       "caracteres": 2673,
       "fim_corpo": 764.32
     },
     {
-      "pagina": 313,
+      "pagina": 311,
       "caracteres": 3054,
       "fim_corpo": 753.92
     },
     {
-      "pagina": 314,
+      "pagina": 312,
       "caracteres": 2659,
       "fim_corpo": 732.32
     },
     {
-      "pagina": 315,
+      "pagina": 313,
       "caracteres": 2716,
       "fim_corpo": 740.19
     },
     {
-      "pagina": 316,
+      "pagina": 314,
       "caracteres": 2868,
       "fim_corpo": 715.92
     },
     {
-      "pagina": 317,
+      "pagina": 315,
       "caracteres": 2858,
       "fim_corpo": 769.32
     },
     {
-      "pagina": 318,
+      "pagina": 316,
       "caracteres": 2935,
       "fim_corpo": 745.72
     },
     {
-      "pagina": 319,
+      "pagina": 317,
       "caracteres": 3140,
       "fim_corpo": 750.52
     },
     {
-      "pagina": 320,
+      "pagina": 318,
       "caracteres": 3272,
       "fim_corpo": 731.72
     },
     {
-      "pagina": 321,
+      "pagina": 319,
       "caracteres": 3183,
       "fim_corpo": 705.52
     },
     {
-      "pagina": 322,
+      "pagina": 320,
       "caracteres": 3215,
       "fim_corpo": 764.12
     },
     {
-      "pagina": 323,
+      "pagina": 321,
       "caracteres": 3270,
       "fim_corpo": 754.72
     },
     {
-      "pagina": 324,
+      "pagina": 322,
       "caracteres": 2866,
       "fim_corpo": 734.52
     },
     {
-      "pagina": 325,
+      "pagina": 323,
       "caracteres": 3109,
       "fim_corpo": 703.07
     },
     {
-      "pagina": 326,
+      "pagina": 324,
       "caracteres": 3306,
       "fim_corpo": 730.32
     },
     {
-      "pagina": 327,
+      "pagina": 325,
       "caracteres": 2897,
       "fim_corpo": 771.32
     },
     {
-      "pagina": 328,
+      "pagina": 326,
       "caracteres": 2757,
       "fim_corpo": 700.47
     },
     {
-      "pagina": 329,
+      "pagina": 327,
       "caracteres": 2825,
       "fim_corpo": 739.52
     },
     {
-      "pagina": 330,
+      "pagina": 328,
       "caracteres": 3019,
       "fim_corpo": 755.12
     },
     {
-      "pagina": 331,
+      "pagina": 329,
       "caracteres": 3182,
       "fim_corpo": 746.92
     },
     {
-      "pagina": 332,
+      "pagina": 330,
       "caracteres": 3268,
       "fim_corpo": 758.92
     },
     {
-      "pagina": 333,
+      "pagina": 331,
       "caracteres": 3020,
       "fim_corpo": 747.32
     },
     {
-      "pagina": 334,
+      "pagina": 332,
       "caracteres": 1530,
       "fim_corpo": 332.06
     },
     {
-      "pagina": 335,
+      "pagina": 333,
       "caracteres": 2475,
       "fim_corpo": 753.32
     },
     {
-      "pagina": 336,
+      "pagina": 334,
       "caracteres": 2297,
       "fim_corpo": 741.52
     },
     {
-      "pagina": 337,
+      "pagina": 335,
       "caracteres": 2997,
       "fim_corpo": 774.52
     },
     {
-      "pagina": 338,
+      "pagina": 336,
       "caracteres": 2618,
       "fim_corpo": 743.19
     },
     {
-      "pagina": 339,
+      "pagina": 337,
       "caracteres": 3081,
       "fim_corpo": 775.52
     },
     {
-      "pagina": 340,
+      "pagina": 338,
       "caracteres": 2489,
       "fim_corpo": 765.27
     },
     {
-      "pagina": 341,
+      "pagina": 339,
       "caracteres": 2077,
       "fim_corpo": 732.52
     },
     {
-      "pagina": 342,
+      "pagina": 340,
       "caracteres": 2103,
       "fim_corpo": 751.32
     },
     {
-      "pagina": 343,
+      "pagina": 341,
       "caracteres": 2347,
       "fim_corpo": 774.12
     },
     {
-      "pagina": 344,
+      "pagina": 342,
       "caracteres": 2349,
       "fim_corpo": 746.52
     },
     {
-      "pagina": 345,
+      "pagina": 343,
       "caracteres": 1863,
       "fim_corpo": 754.79
     },
     {
-      "pagina": 346,
+      "pagina": 344,
       "caracteres": 2713,
       "fim_corpo": 756.52
     },
     {
-      "pagina": 347,
+      "pagina": 345,
       "caracteres": 2891,
       "fim_corpo": 744.32
     },
     {
-      "pagina": 348,
+      "pagina": 346,
       "caracteres": 2251,
       "fim_corpo": 725.19
     },
     {
-      "pagina": 349,
+      "pagina": 347,
       "caracteres": 2493,
       "fim_corpo": 763.72
     },
     {
-      "pagina": 350,
+      "pagina": 348,
       "caracteres": 2505,
       "fim_corpo": 746.32
     },
     {
-      "pagina": 351,
+      "pagina": 349,
       "caracteres": 2116,
       "fim_corpo": 708.72
     },
     {
-      "pagina": 352,
+      "pagina": 350,
       "caracteres": 2580,
       "fim_corpo": 759.39
     },
     {
-      "pagina": 353,
+      "pagina": 351,
       "caracteres": 2986,
       "fim_corpo": 760.52
     },
     {
-      "pagina": 354,
+      "pagina": 352,
       "caracteres": 2706,
       "fim_corpo": 760.79
     },
     {
-      "pagina": 355,
+      "pagina": 353,
       "caracteres": 3328,
       "fim_corpo": 751.12
     },
     {
-      "pagina": 356,
+      "pagina": 354,
       "caracteres": 2082,
       "fim_corpo": 550.52
     },
     {
-      "pagina": 357,
+      "pagina": 355,
       "caracteres": 2704,
       "fim_corpo": 769.52
     },
     {
-      "pagina": 358,
+      "pagina": 356,
       "caracteres": 3174,
       "fim_corpo": 744.52
     },
     {
-      "pagina": 359,
+      "pagina": 357,
       "caracteres": 2836,
       "fim_corpo": 763.32
     },
     {
-      "pagina": 360,
+      "pagina": 358,
       "caracteres": 3179,
       "fim_corpo": 771.92
     },
     {
-      "pagina": 361,
+      "pagina": 359,
       "caracteres": 3126,
       "fim_corpo": 771.92
     },
     {
-      "pagina": 362,
+      "pagina": 360,
       "caracteres": 2880,
       "fim_corpo": 773.32
     },
     {
-      "pagina": 363,
+      "pagina": 361,
       "caracteres": 1804,
       "fim_corpo": 452.32
     },
     {
-      "pagina": 364,
+      "pagina": 362,
       "caracteres": 2137,
       "fim_corpo": 754.72
     },
     {
-      "pagina": 365,
+      "pagina": 363,
       "caracteres": 1016,
       "fim_corpo": 340.52
     },
     {
-      "pagina": 366,
+      "pagina": 364,
       "caracteres": 1708,
       "fim_corpo": 494.32
     },
     {
-      "pagina": 367,
+      "pagina": 365,
       "caracteres": 1770,
       "fim_corpo": 728.12
     },
     {
-      "pagina": 368,
+      "pagina": 366,
       "caracteres": 2078,
       "fim_corpo": 721.72
     },
     {
-      "pagina": 369,
+      "pagina": 367,
       "caracteres": 2140,
       "fim_corpo": 722.92
     },
     {
-      "pagina": 370,
+      "pagina": 368,
       "caracteres": 1849,
       "fim_corpo": 700.92
     },
     {
-      "pagina": 371,
+      "pagina": 369,
       "caracteres": 1899,
       "fim_corpo": 733.92
     },
     {
-      "pagina": 372,
+      "pagina": 370,
       "caracteres": 1977,
       "fim_corpo": 762.52
     },
     {
-      "pagina": 373,
+      "pagina": 371,
       "caracteres": 2138,
       "fim_corpo": 738.52
     },
     {
-      "pagina": 374,
+      "pagina": 372,
       "caracteres": 1202,
       "fim_corpo": 670.99
     },
     {
+      "pagina": 373,
+      "caracteres": 1312,
+      "fim_corpo": 625.99
+    },
+    {
+      "pagina": 374,
+      "caracteres": 1467,
+      "fim_corpo": 625.99
+    },
+    {
       "pagina": 375,
-      "caracteres": 1309,
+      "caracteres": 1446,
       "fim_corpo": 625.99
     },
     {
       "pagina": 376,
-      "caracteres": 1468,
-      "fim_corpo": 625.99
-    },
-    {
-      "pagina": 377,
-      "caracteres": 1500,
+      "caracteres": 1371,
       "fim_corpo": 637.79
     },
     {
-      "pagina": 378,
-      "caracteres": 1299,
+      "pagina": 377,
+      "caracteres": 1315,
       "fim_corpo": 625.99
     },
     {
+      "pagina": 378,
+      "caracteres": 1389,
+      "fim_corpo": 649.59
+    },
+    {
       "pagina": 379,
-      "caracteres": 1390,
+      "caracteres": 1327,
       "fim_corpo": 637.79
     },
     {
       "pagina": 380,
-      "caracteres": 1289,
-      "fim_corpo": 637.79
+      "caracteres": 1173,
+      "fim_corpo": 625.99
     },
     {
       "pagina": 381,
-      "caracteres": 1270,
-      "fim_corpo": 637.79
+      "caracteres": 1262,
+      "fim_corpo": 625.99
     },
     {
       "pagina": 382,
-      "caracteres": 1190,
-      "fim_corpo": 625.99
-    },
-    {
-      "pagina": 383,
       "caracteres": 1223,
       "fim_corpo": 625.99
-    },
-    {
-      "pagina": 384,
-      "caracteres": 454,
-      "fim_corpo": 269.59
     }
   ],
   "limites": [

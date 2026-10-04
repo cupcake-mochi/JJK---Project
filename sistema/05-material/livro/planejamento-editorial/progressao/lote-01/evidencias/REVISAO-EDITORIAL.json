@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "64b24f4e2f89840397cee80b2860f41af851f481bb7bb5ba121863d42d8e9a82",
+  "sha256_texto": "6a5d4ecf8c5a8ec7862ce5f42b45981f87e6c1b5f195cf982a79eaf9c2c89474",
   "conclusao": "Revisão anterior conservada; PRO35 acrescenta seção Patentes lida pela raiz. Prova14p e interfaces R03 em conferência.",
   "itens": [
     "Títulos identificam o assunto sem artigo inicial ou fórmula Como ler.",
@@ -199,23 +199,6 @@
       "validacao_visual": "Pendente de geração e inspeção da prova PDF."
     },
     {
-      "pagina": "prog-ritmo",
-      "parecer_editorial": "Expõe a composição das médias e os limites do modelo, seguida de opções voluntárias de campanha. Valores não são promessa de calendário real.",
-      "interfaces": "Descontos semanais e limite por missão.",
-      "caso_positivo": "Duas missões por semana no modelo misto resultam em 23,4 meses até 30.",
-      "caso_negativo": "Usar apenas missões padrão não conserva essa estimativa: resulta em 35,4 meses.",
-      "criterios": [
-        "assunto e momento da decisão",
-        "requisitos e quantidade",
-        "resultado e registro",
-        "exceção e saída quando pertinente",
-        "suficiência e ausência de cópia do capítulo alheio"
-      ],
-      "canon": "Regras autorais. Salários não são alegados como fatos da obra.",
-      "validacao_independente": "Rotas fez leitura integral final e312verificações. PRO32–34 resolvidos no hash atual.",
-      "validacao_visual": "Pendente de geração e inspeção da prova PDF."
-    },
-    {
       "pagina": "prog-guilda",
       "parecer_editorial": "Salário é autoral e opcional, com proporções compreensíveis e exemplo de frequência. Remove comparação não verificada com profissões reais.",
       "interfaces": "Grau administrativo, moeda e política da campanha.",
@@ -261,5 +244,63 @@
     "registro": "revisao-interfaces/CORRECOES-APLICADAS.json",
     "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana.",
     "conferido": "Trechos trocados relidos: nomes, remissões ou regra decidida pelo autor; títulos e seções inalterados."
+  },
+  "revisao_delta_2026_10_04_decisoes": {
+    "sha256_anterior": "64b24f4e2f89840397cee80b2860f41af851f481bb7bb5ba121863d42d8e9a82",
+    "sha256_atual": "6a5d4ecf8c5a8ec7862ce5f42b45981f87e6c1b5f195cf982a79eaf9c2c89474",
+    "mudancas": [
+      {
+        "codigo": "D06",
+        "achado": "G1-07",
+        "secao": "prog-limiar",
+        "antes": "registre **um dos oito feitos abaixo**",
+        "depois": "registre **um dos sete feitos abaixo**"
+      },
+      {
+        "codigo": "D06",
+        "achado": "G1-07",
+        "secao": "prog-limiar",
+        "antes": "| Terminar a missão depois de outro personagem jogador chegar ao estágio 4. | Ocorrência na ficha do participante e conclusão da missão. |",
+        "depois": ""
+      },
+      {
+        "codigo": "D15",
+        "achado": "pedido do autor",
+        "secao": "prog-ritmo",
+        "antes": "<!-- page:prog-ritmo|Ritmo de campanha -->\n# Ritmo de campanha\n\nA recompensa de cada missão e a frequência das sessões determinam quanto tempo a progressão leva. A tabela abaixo é uma **estimativa**, com 52 semanas por ano, sem faltas, falhas, eventos de XP ou espera pelo feito do nível 20.\n\n| Frequência | Até nível 20 | Até nível 30 |\n|---|---:|---:|\n| Uma missão a cada duas semanas | 62,2 meses | 93,7 meses |\n| Uma por semana | 31,1 meses | 46,9 meses |\n| Duas por semana | 15,5 meses | 23,4 meses |\n| Três por semana | 12,4 meses | 18,7 meses |\n| Quatro por semana | 11,3 meses | 17,0 meses |\n\nEsses valores usam uma mistura de missões: antes do nível 20, a cada oito, uma curta, seis padrões e uma longa, média **106,25 XP**. Depois, três longas e dois finais de arco a cada cinco, média **240 XP**. Os descontos semanais entram na conta.\n\nSe todas as missões forem padrão, duas por semana levam aproximadamente **16,5 meses até o 20 e 35,4 até o 30**. A faixa final não acelera sozinha por causa do nível: a estimativa anterior depende de receber missões maiores.\n\n## Ajustes opcionais da campanha\n\nA guilda pode anunciar missões de dobro, bônus por objetivos pessoais ou ajuda a participantes que ficaram para trás. Essas são políticas opcionais, definidas antes de aplicar a recompensa. Elas não retiram o desconto semanal nem o limite de um avanço por missão, salvo uma mudança expressa nas regras da campanha.\n\nUma missão padrão de dobro paga 200 XP antes dos descontos. Outra possibilidade é dobrar a recompensa de quem esteja pelo menos três níveis abaixo do grupo. Defina previamente qual nível de referência será usado; essa compensação não faz parte da regra básica.\n\nNão reduza níveis já recebidos para ajustar o ritmo. Mude as recompensas futuras com o grupo e acompanhe os resultados.",
+        "depois": ""
+      },
+      {
+        "codigo": "D16",
+        "achado": "pedido do autor",
+        "secao": "prog-marcos",
+        "antes": "Escolher Leque em todos os sete marcos termina em **sete aplicações adicionais e sete Talentos concedidos**, além do repertório comum.",
+        "depois": ""
+      }
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+    "conferido": "Trechos trocados relidos: decisões do autor de 04/10/2026, retirada de projeções pedida por ele ou verbetes de índice. O restante do texto é idêntico e conserva a leitura anterior.",
+    "secao_retirada": {
+      "pagina": "prog-ritmo",
+      "motivo": "Página retirada do livro do jogador a pedido do autor (D15). O parecer anterior dela fica aqui, para histórico.",
+      "parecer_anterior": {
+        "pagina": "prog-ritmo",
+        "parecer_editorial": "Expõe a composição das médias e os limites do modelo, seguida de opções voluntárias de campanha. Valores não são promessa de calendário real.",
+        "interfaces": "Descontos semanais e limite por missão.",
+        "caso_positivo": "Duas missões por semana no modelo misto resultam em 23,4 meses até 30.",
+        "caso_negativo": "Usar apenas missões padrão não conserva essa estimativa: resulta em 35,4 meses.",
+        "criterios": [
+          "assunto e momento da decisão",
+          "requisitos e quantidade",
+          "resultado e registro",
+          "exceção e saída quando pertinente",
+          "suficiência e ausência de cópia do capítulo alheio"
+        ],
+        "canon": "Regras autorais. Salários não são alegados como fatos da obra.",
+        "validacao_independente": "Rotas fez leitura integral final e312verificações. PRO32–34 resolvidos no hash atual.",
+        "validacao_visual": "Pendente de geração e inspeção da prova PDF."
+      }
+    }
   }
 }

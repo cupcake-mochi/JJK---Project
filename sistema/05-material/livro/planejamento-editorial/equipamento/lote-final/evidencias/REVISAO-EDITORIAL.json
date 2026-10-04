@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "96fe206bd2257b9839da6bc53c97c6b0ca17f82f3bf9f706709e07ecb19ec858",
+  "sha256_texto": "691e10b85c01d25f9002bc4b5717b05a947129a2ae22bef3145f83b7dd938f1b",
   "revisor": "compatibilidade — releitura integral da consolidação",
   "conclusao": "Autoria revisada. Revisão independente e visual ainda pendentes.",
   "secoes": [
@@ -664,5 +664,28 @@
     "sha256_revisao_editorial_anterior": "85b38026ae96486a1db359ddf81157d482b4e03bb7fe4c70c2bb17ab5755a77b",
     "nota": "A revisão editorial anterior era de uma versão de antes do fechamento da integração; o delta do fechamento até a main foi só redação de remissões (\"nesta página\" para \"nesta seção\", links), relido nesta rodada.",
     "conferido": "Trechos trocados relidos: nomes, remissões ou regra decidida pelo autor; títulos e seções inalterados."
+  },
+  "revisao_delta_2026_10_04_decisoes": {
+    "sha256_anterior": "96fe206bd2257b9839da6bc53c97c6b0ca17f82f3bf9f706709e07ecb19ec858",
+    "sha256_atual": "691e10b85c01d25f9002bc4b5717b05a947129a2ae22bef3145f83b7dd938f1b",
+    "mudancas": [
+      {
+        "codigo": "D08",
+        "achado": "G3-03",
+        "secao": "eq-manipular",
+        "antes": "A conversão de ações segue as regras do turno.",
+        "depois": "A conversão de ações segue as regras do turno.\n\nDuas capacidades que troquem essa manipulação gratuita por duas não se somam. Em cada turno, use uma delas, com as restrições dela."
+      },
+      {
+        "codigo": "D11",
+        "achado": "G1-02",
+        "secao": "eqf-reliquias",
+        "antes": "O dano dos ataques com esta arma atinge **somente a Integridade** do alvo, seguindo as regras de dano direto à alma.",
+        "depois": "O dano dos ataques com esta arma é **dano de Alma** e atinge **somente a Integridade** do alvo, conforme Receber dano de Alma, em Dano na alma."
+      }
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+    "conferido": "Trechos trocados relidos: decisões do autor de 04/10/2026, retirada de projeções pedida por ele ou verbetes de índice. O restante do texto é idêntico e conserva a leitura anterior."
   }
 }

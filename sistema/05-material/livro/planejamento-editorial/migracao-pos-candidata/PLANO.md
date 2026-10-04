@@ -91,6 +91,23 @@ Quatro achados da revisão de interfaces foram decididos pelo Mizuki e aplicados
 
 Essas entradas foram acrescentadas aos `ALTERACOES.json` das unidades depois do inventário. O `INVENTARIO-ALTERACOES.json` continua contando os 774 registros de 03/10.
 
+### Terceira passada de 04/10/2026
+
+O Mizuki decidiu mais nove achados e pediu para tirar do livro do jogador as projeções de projetista (`../revisao-interfaces/CORRECOES-APLICADAS.md`, D05 a D17). Onde cada uma encosta na v0.331, a conferir entrada por entrada na migração:
+
+| Decisão | Na candidata | Onde a v0.331 tem a forma antiga |
+|---|---|---|
+| Capacidades disparadas pela queda resolvem antes da escolha entre Aguentar e Insistir | DR33 | peça 01 §5.5 e `livro/manual/10-como-jogar.md` |
+| Feito 8 do limiar retirado; ficam sete feitos | PRO38 | peça 12 (feito 8) e `livro/manual/80-experiencia-e-progressao.md` |
+| Batedor: Arma de Fogo pede a autorização combinada antes da escolha da rota | VG-REV-02 | peça 14 §6.5 e `livro/manual/35-caminhos-e-trilhas.md` |
+| Permissões que trocam a manipulação gratuita por duas não se somam | EQ26 | `livro/manual/35-caminhos-e-trilhas.md` (Malabarista) e o Talento Maldição do Inventário em `livro/manual/42-tecnica-marcial.md` |
+| Fluidez e Passo Guardado contam o primeiro intervalo desde o início do combate; Instante Decisivo é declarado antes da escolha de Bloquear | INC-23, INC-24 | `livro/manual/35-caminhos-e-trilhas.md` e `RASCUNHO-trilhas.md` |
+| Lâmina de Cisão causa dano de Alma que atinge só a Integridade | EQ27 | peças 16 e 24 §3.2, `livro/manual/15-dano-e-condicoes.md` e `livro/manual/55-ferramenta-amaldicoada.md` |
+| Calo retirado; o personagem marcial registra a Expressão da técnica | R10-33, R10-34 | peça 20 e `livro/manual/42-tecnica-marcial.md` |
+| Tabela de Refino "nunca/sempre", Ritmo de campanha, Leque e Lapidação "em todos os marcos" fora do livro do jogador | A33, PRO39, PRO40, R10-35 | as peças 11, 12 e 18 são documentos de projeto e podem manter as contas; `livro/manual/45-aptidoes-e-refino.md` e `livro/manual/80-experiencia-e-progressao.md` são do jogador e seguem a candidata |
+
+Os nomes de G5-10 ficaram como estão, sem migração.
+
 ## Ordem proposta
 
 Cada passo fecha com a bateria inteira verde (os 27 validadores de `03-mecanica`, `pac7.py`, `v7.py` e o `conferir-repositorio.py`, com `PULADA=0` conferido) e uma entrada no CHANGELOG. Um passo por versão, para a bateria apontar o culpado quando quebrar.

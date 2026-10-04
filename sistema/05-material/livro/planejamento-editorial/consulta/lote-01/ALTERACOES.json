@@ -210,6 +210,13 @@
       "depois": "Definição inclui Talentos, Aptidões e Bênçãos e remete à aquisição de cada entrada. Os dois aliases usam Aviso, no singular.",
       "motivo": "Leitura independente da raiz apontou suficiência conceitual e grafia histórica. Nenhuma mudança em requisitos ou valores.",
       "tipo": "correcao-editorial"
+    },
+    {
+      "id": "R23-31",
+      "tipo": "remissão de índice",
+      "antes": "268 verbetes no índice, em 11 páginas.",
+      "depois": "286 verbetes: entram Auge, Carregar (Restrição), Desligada, Discreta, Embainhada, Escudo, Manutenção (entidades), Ordens pendentes, Recarregar, Recolher, Regra Própria, Religar, Retorno, Revestimento, Sacar e guardar, Segura, Talismã e Traje. As 11 páginas foram recompostas com 26 linhas cada.",
+      "motivo": "Achados G2-09, G4-12 e G5-11 (revisao-interfaces/CORRECOES-APLICADAS.md): completude do índice, sem decisão de regra."
     }
   ]
 }

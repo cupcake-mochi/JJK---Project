@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "3cadc87096d53d3056b0e4817a7a79479c34ef54b611e2601b454e70c2df748e",
+  "sha256_texto": "2d9a8395eb486ee0afee78234c8c0ad3e2fd6314ebface6788b6842d85a53268",
   "ok": true,
   "checks": [
     {
@@ -1527,10 +1527,5 @@
       "passou": true,
       "detalhe": null
     }
-  ],
-  "revisao_delta_2026_10_04": {
-    "auditoria_reexecutada": "caminhos/incursor/lote-01/auditar.py (reexecutado em 04/10/2026)",
-    "resultado": "ok",
-    "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana."
-  }
+  ]
 }

@@ -284,7 +284,7 @@
     "Revisão independente por outro agente-modelo.",
     "Teste com jogadores humanos não realizado."
   ],
-  "sha256_texto": "b397b7351a1dc477df4fff10dce6ebaccd9e3147913ca9bcef3fc65640e45603",
+  "sha256_texto": "7fb73a56e4a34ce5a50be4357dd4d5987000c15f9cb81af9972ff4833ef23a59",
   "revisor": "Autor rotas_didatica e leitura independente integral do principal",
   "teste_humano": false,
   "revisao_delta": {
@@ -309,5 +309,35 @@
     "registro": "revisao-interfaces/CORRECOES-APLICADAS.json",
     "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana.",
     "conferido": "Trechos trocados relidos: nomes, remissões ou regra decidida pelo autor; títulos e seções inalterados."
+  },
+  "revisao_delta_2026_10_04_decisoes": {
+    "sha256_anterior": "b397b7351a1dc477df4fff10dce6ebaccd9e3147913ca9bcef3fc65640e45603",
+    "sha256_atual": "7fb73a56e4a34ce5a50be4357dd4d5987000c15f9cb81af9972ff4833ef23a59",
+    "mudancas": [
+      {
+        "codigo": "D12",
+        "achado": "G5-02",
+        "secao": "rota-passivas-marciais",
+        "antes": "## Calo — Livre\n\nVocê reconhece pelo toque o encaixe e a textura familiares de armas que costuma usar. Esse detalhe descreve sua relação com o equipamento. Identificar uma arma disfarçada, detectar uma substituição ou obter informação escondida ainda exige o procedimento da cena.",
+        "depois": ""
+      },
+      {
+        "codigo": "D12",
+        "achado": "G5-02",
+        "secao": "rota-marcial",
+        "antes": "1. Escreva a **Descrição** e a **Regra** pelo procedimento de Fundamento.",
+        "depois": "1. Escreva a **Descrição**, a **Regra** e a **Expressão da técnica** pelo procedimento de Fundamento."
+      },
+      {
+        "codigo": "D17",
+        "achado": "pedido do autor",
+        "secao": "rota-lapidacao",
+        "antes": "Quem escolhe Lapidação em todos os marcos recebe duas Bênçãos nos níveis 22, 26 e 30, totalizando dez escolhas pagas. Quem nunca a escolhe termina em Lapidação 8 e conserva apenas as Bênçãos gratuitas.",
+        "depois": ""
+      }
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+    "conferido": "Trechos trocados relidos: decisões do autor de 04/10/2026, retirada de projeções pedida por ele ou verbetes de índice. O restante do texto é idêntico e conserva a leitura anterior."
   }
 }

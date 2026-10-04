@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "sha256_texto": "b397b7351a1dc477df4fff10dce6ebaccd9e3147913ca9bcef3fc65640e45603",
+  "sha256_texto": "7fb73a56e4a34ce5a50be4357dd4d5987000c15f9cb81af9972ff4833ef23a59",
   "casos": [
     {
       "teste": "IDs únicos",
@@ -46,7 +46,7 @@
         },
         {
           "id": "rota-marcial",
-          "palavras": 263
+          "palavras": 267
         },
         {
           "id": "rota-armas",
@@ -58,7 +58,7 @@
         },
         {
           "id": "rota-passivas-marciais",
-          "palavras": 310
+          "palavras": 266
         },
         {
           "id": "rota-passivas-resposta",
@@ -102,7 +102,7 @@
         },
         {
           "id": "rota-lapidacao",
-          "palavras": 394
+          "palavras": 360
         },
         {
           "id": "rota-bencaos",
@@ -628,16 +628,5 @@
     }
   ],
   "casos_contextuais": "CASOS.json",
-  "teste_humano": false,
-  "delta_nominal": {
-    "leitor": "/root",
-    "alteracoes": "Migração de nomes, concordância e remissões atuais; fórmulas e procedimentos invariantes.",
-    "evidencia": "consolidacao/lote-01/migracao-nomes/diffs/rotas.diff",
-    "auditoria_reexecutada": "evidencias/auditoria-numerica.json"
-  },
-  "revisao_delta_2026_10_04": {
-    "auditoria_reexecutada": "evidencias/auditoria-numerica.json",
-    "resultado": "ok",
-    "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana."
-  }
+  "teste_humano": false
 }

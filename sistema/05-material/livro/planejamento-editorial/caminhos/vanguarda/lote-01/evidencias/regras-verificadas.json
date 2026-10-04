@@ -1,7 +1,7 @@
 {
   "ok": true,
-  "sha256_texto": "751db69756ec4c6b02b67034a11efbe5ae8a723c8b23c11fdc5c417134cd6ba1",
-  "verificacoes": 70,
+  "sha256_texto": "a471b8d66ab37a87a26da2fdd4d96625c00ce399f22d9f9ad36ffc68e6c5da37",
+  "verificacoes": 71,
   "casos": [
     {
       "caso": "Abrir e Conduzir no mesmo turno",
@@ -261,10 +261,5 @@
       "esperado": true,
       "ok": true
     }
-  ],
-  "revisao_delta_2026_10_04": {
-    "auditoria_reexecutada": "caminhos/vanguarda/lote-01/auditar.py (reexecutado em 04/10/2026, com a checagem D04)",
-    "resultado": "ok",
-    "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana."
-  }
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "b4035a501c87ada84e73e5951cdf41639c850d644cfe4cb8812575d8a0bc1c43",
+  "sha256_texto": "44c41c7ce33b68d6284fa55b69d7fb43bc6fc28aa3b86c445007cad1dc807fea",
   "revisor": "/root",
   "titulos_revisto": true,
   "vocabulario_revisto": true,
@@ -34,5 +34,21 @@
       "Integridade de NPC com vida positiva nunca começa em zero por arredondamento."
     ],
     "evidencia": "consolidacao/lote-01/migracao-nomes/diffs/dano.diff e ALTERACOES.json DR31"
+  },
+  "revisao_delta_2026_10_04_decisoes": {
+    "sha256_anterior": "b4035a501c87ada84e73e5951cdf41639c850d644cfe4cb8812575d8a0bc1c43",
+    "sha256_atual": "44c41c7ce33b68d6284fa55b69d7fb43bc6fc28aa3b86c445007cad1dc807fea",
+    "mudancas": [
+      {
+        "codigo": "D05",
+        "achado": "G1-05",
+        "secao": "zero",
+        "antes": "Ao chegar a **zero de vida**, você está **Morrendo**. Escolha imediatamente **Aguentar** ou **Insistir**. Estas regras",
+        "depois": "Ao chegar a **zero de vida**, você está **Morrendo**. Resolva primeiro as capacidades disparadas pela própria queda; em seguida, escolha **Aguentar** ou **Insistir**. Se uma dessas capacidades encerrar a queda, não há escolha. Estas regras"
+      }
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+    "conferido": "Cada trecho trocado foi lido no contexto. Com as exceções desta leitura, o conferir_editorial dá 0 achados no texto anterior e 0 no atual. As frases novas não explicam capacidade de outro dono: citam o procedimento geral ou a seção dona pelo nome. Nenhuma exceção de vocabulário depende de linha nesta unidade."
   }
 }

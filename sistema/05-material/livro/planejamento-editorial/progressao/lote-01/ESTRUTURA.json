@@ -11,7 +11,6 @@
     "prog-atualizar",
     "prog-trilhas",
     "prog-capacidades",
-    "prog-ritmo",
     "prog-guilda",
     "prog-patentes"
   ],
@@ -27,7 +26,6 @@
     "prog-atualizar": "Atualizar a ficha",
     "prog-trilhas": "Trocar de Trilha",
     "prog-capacidades": "Mudanças de capacidade",
-    "prog-ritmo": "Ritmo de campanha",
     "prog-guilda": "Recompensas da guilda",
     "prog-patentes": "Patentes"
   },
@@ -43,9 +41,8 @@
     "prog-atualizar": 9,
     "prog-trilhas": 10,
     "prog-capacidades": 11,
-    "prog-ritmo": 12,
-    "prog-guilda": 13,
-    "prog-patentes": 14
+    "prog-guilda": 12,
+    "prog-patentes": 13
   },
   "grupos": [
     [
@@ -77,7 +74,6 @@
     [
       "Campanha",
       [
-        "prog-ritmo",
         "prog-guilda",
         "prog-patentes"
       ]

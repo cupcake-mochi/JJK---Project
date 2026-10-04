@@ -366,6 +366,8 @@ Abrir contra outro alvo ou com outra categoria abandona a reserva. Um erro não 
 
 Você cria uma Oportunidade, escolhe quando aproveitá-la e mantém meios de continuar o confronto.
 
+**Acesso.** Armas de fogo exigem Grau 2 ou autorização prévia, conforme Equipamento restrito. Sem esse acesso, confirme a autorização com o mestre antes de escolher esta rota.
+
 **Nível 2: Combate Irregular.** Seus disparos não sofrem a desvantagem causada por inimigo adjacente. A **capacidade da Arma de Fogo** (os ataques por carga, em Munição) **aumenta em um**. Bestas e outras armas de disparo não recebem esse aumento. O gatilho de recarga por **1 ou 2 natural** permanece. A capacidade adicional precisa ser preenchida com munição do inventário. A habilidade não cria uma unidade extra a cada recarga.
 
 ## Oportunidade Tática

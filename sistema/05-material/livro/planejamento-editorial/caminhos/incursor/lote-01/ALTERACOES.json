@@ -196,6 +196,20 @@
       "antes": "Pode combinar ataques corpo a corpo e arremessos, usar a mesma arma ou armas diferentes e atacar a mesma criatura ou criaturas diferentes.",
       "depois": "O segundo ataque precisa ser corpo a corpo ou um arremesso, e nunca um disparo de arma de fogo ou de besta. Pode combinar ataques corpo a corpo e arremessos, usar a mesma arma ou armas diferentes e atacar a mesma criatura ou criaturas diferentes.",
       "motivo": "Decisão do Mizuki em 04/10/2026, achado G3-07 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md)."
+    },
+    {
+      "id": "INC-23",
+      "tipo": "decisão do autor",
+      "antes": "Anote se já obteve Fluidez nesse intervalo; o limite se renova no começo do seu turno.",
+      "depois": "Anote se já obteve Fluidez nesse intervalo; o limite se renova no começo do seu turno. No combate, o primeiro intervalo vai do início do combate até o começo do seu primeiro turno, inclusive para Passo Guardado.",
+      "motivo": "Decisão do Mizuki em 04/10/2026 (opção A), achado G3-04 (revisao-interfaces/CORRECOES-APLICADAS.md). Segue o limite acrobático, que já começa completo no combate."
+    },
+    {
+      "id": "INC-24",
+      "tipo": "decisão do autor",
+      "antes": "Após rolar o d20, antes de finalizar o ataque, gaste Fluidez",
+      "depois": "Após rolar o d20 e antes de o alvo escolher entre a Defesa e Bloquear, gaste Fluidez",
+      "motivo": "Decisão do Mizuki em 04/10/2026 (opção A), achado G3-05 (revisao-interfaces/CORRECOES-APLICADAS.md). Amarra o uso a um passo da Resolução de Regras gerais."
     }
   ]
 }

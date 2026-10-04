@@ -330,6 +330,19 @@
       "sha256_antes": "dd5f2aa7087775632c2a3e5a121aed4bf9f896727582fb19cf29a682c0343e8a",
       "sha256_depois": "572ed1ff1b90c10754e3f86a5752dfc89556988b9de2036f76a1bc11e65860cb",
       "muda_na_mesa": "a Técnica Máxima passa a poder ser revista ao subir de nível. Antes a lista da Progressão não deixava."
+    },
+    {
+      "id": "D13",
+      "achados": "G2-09, G4-12, G5-11",
+      "arquivo": "consulta/lote-01/CONSULTA.md",
+      "motivo": "Completude do índice, sem decisão de regra: 18 verbetes novos, de 268 para 286, nas mesmas 11 páginas.",
+      "trocas": [
+        {
+          "antes": "268 verbetes",
+          "depois": "286 verbetes"
+        }
+      ],
+      "muda_na_mesa": "nada; o leitor acha mais termos pelo índice."
     }
   ],
   "decisoes_do_autor": [
@@ -434,6 +447,189 @@
       ],
       "sha256_antes": "65c184399433da368999072af7019ad8d01e2c6b00b81d10930c8d7c01a7171b",
       "sha256_depois": "751db69756ec4c6b02b67034a11efbe5ae8a723c8b23c11fdc5c417134cd6ba1"
+    },
+    {
+      "id": "D05",
+      "achados": "G1-05",
+      "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+      "decisao": "Mizuki, 04/10/2026: \"Entra Antes\".",
+      "trocas": [
+        {
+          "antes": "Ao chegar a **zero de vida**, você está **Morrendo**. Escolha imediatamente **Aguentar** ou **Insistir**. Estas regras",
+          "depois": "Ao chegar a **zero de vida**, você está **Morrendo**. Resolva primeiro as capacidades disparadas pela própria queda; em seguida, escolha **Aguentar** ou **Insistir**. Se uma dessas capacidades encerrar a queda, não há escolha. Estas regras"
+        }
+      ],
+      "sha256_antes": "b4035a501c87ada84e73e5951cdf41639c850d644cfe4cb8812575d8a0bc1c43",
+      "sha256_depois": "44c41c7ce33b68d6284fa55b69d7fb43bc6fc28aa3b86c445007cad1dc807fea"
+    },
+    {
+      "id": "D06",
+      "achados": "G1-07",
+      "arquivo": "progressao/lote-01/PROGRESSAO.md",
+      "decisao": "Mizuki, 04/10/2026: \"Remove da lista\".",
+      "trocas": [
+        {
+          "antes": "registre **um dos oito feitos abaixo**",
+          "depois": "registre **um dos sete feitos abaixo**"
+        },
+        {
+          "antes": "| Terminar a missão depois de outro personagem jogador chegar ao estágio 4. | Ocorrência na ficha do participante e conclusão da missão. |",
+          "depois": ""
+        }
+      ],
+      "sha256_antes": "64b24f4e2f89840397cee80b2860f41af851f481bb7bb5ba121863d42d8e9a82",
+      "sha256_depois": "7a7d48b0922997476d348bb325259bf3f6836a617ea7aac78bf071cd1b8c3c74"
+    },
+    {
+      "id": "D07",
+      "achados": "G4-07",
+      "arquivo": "caminhos/vanguarda/lote-01/VANGUARDA.md",
+      "decisao": "Mizuki, 04/10/2026: opção B, depois de confirmar que a liberação narrativa continua em Equipamento restrito.",
+      "trocas": [
+        {
+          "antes": "Você cria uma Oportunidade, escolhe quando aproveitá-la e mantém meios de continuar o confronto.",
+          "depois": "Você cria uma Oportunidade, escolhe quando aproveitá-la e mantém meios de continuar o confronto.\n\n**Acesso.** Armas de fogo exigem Grau 2 ou autorização prévia, conforme Equipamento restrito. Sem esse acesso, confirme a autorização com o mestre antes de escolher esta rota."
+        }
+      ],
+      "sha256_antes": "751db69756ec4c6b02b67034a11efbe5ae8a723c8b23c11fdc5c417134cd6ba1",
+      "sha256_depois": "a471b8d66ab37a87a26da2fdd4d96625c00ce399f22d9f9ad36ffc68e6c5da37"
+    },
+    {
+      "id": "D08",
+      "achados": "G3-03",
+      "arquivo": "equipamento/lote-final/EQUIPAMENTO.md",
+      "decisao": "Mizuki, 04/10/2026: opção A.",
+      "trocas": [
+        {
+          "antes": "A conversão de ações segue as regras do turno.",
+          "depois": "A conversão de ações segue as regras do turno.\n\nDuas capacidades que troquem essa manipulação gratuita por duas não se somam. Em cada turno, use uma delas, com as restrições dela."
+        }
+      ],
+      "sha256_antes": "96fe206bd2257b9839da6bc53c97c6b0ca17f82f3bf9f706709e07ecb19ec858",
+      "sha256_depois": "2e8f11b9d194b723c6ad344ed429fca5f5de8062497f306a7e79652773e52c64"
+    },
+    {
+      "id": "D11",
+      "achados": "G1-02",
+      "arquivo": "equipamento/lote-final/EQUIPAMENTO.md",
+      "decisao": "Mizuki, 04/10/2026: opção B, \"Pq o dano do cisão é na alma, literalmente dano na alma\".",
+      "trocas": [
+        {
+          "antes": "O dano dos ataques com esta arma atinge **somente a Integridade** do alvo, seguindo as regras de dano direto à alma.",
+          "depois": "O dano dos ataques com esta arma é **dano de Alma** e atinge **somente a Integridade** do alvo, conforme Receber dano de Alma, em Dano na alma."
+        }
+      ],
+      "sha256_antes": "2e8f11b9d194b723c6ad344ed429fca5f5de8062497f306a7e79652773e52c64",
+      "sha256_depois": "691e10b85c01d25f9002bc4b5717b05a947129a2ae22bef3145f83b7dd938f1b"
+    },
+    {
+      "id": "D09",
+      "achados": "G3-04",
+      "arquivo": "caminhos/incursor/lote-01/INCURSOR.md",
+      "decisao": "Mizuki, 04/10/2026: opção A.",
+      "trocas": [
+        {
+          "antes": "Anote se já obteve Fluidez nesse intervalo; o limite se renova no começo do seu turno.",
+          "depois": "Anote se já obteve Fluidez nesse intervalo; o limite se renova no começo do seu turno. No combate, o primeiro intervalo vai do início do combate até o começo do seu primeiro turno, inclusive para Passo Guardado."
+        }
+      ],
+      "sha256_antes": "3cadc87096d53d3056b0e4817a7a79479c34ef54b611e2601b454e70c2df748e",
+      "sha256_depois": "6a473bfd3f0b14a020186ec88e868ce60ec11e53f92b5cafff377b771a89b820"
+    },
+    {
+      "id": "D10",
+      "achados": "G3-05",
+      "arquivo": "caminhos/incursor/lote-01/INCURSOR.md",
+      "decisao": "Mizuki, 04/10/2026: opção A.",
+      "trocas": [
+        {
+          "antes": "Após rolar o d20, antes de finalizar o ataque, gaste Fluidez",
+          "depois": "Após rolar o d20 e antes de o alvo escolher entre a Defesa e Bloquear, gaste Fluidez"
+        }
+      ],
+      "sha256_antes": "6a473bfd3f0b14a020186ec88e868ce60ec11e53f92b5cafff377b771a89b820",
+      "sha256_depois": "2d9a8395eb486ee0afee78234c8c0ad3e2fd6314ebface6788b6842d85a53268"
+    },
+    {
+      "id": "D12",
+      "achados": "G5-02",
+      "arquivo": "rotas/lote-01/ROTAS.md",
+      "decisao": "Mizuki, 04/10/2026: opção B.",
+      "trocas": [
+        {
+          "antes": "## Calo — Livre\n\nVocê reconhece pelo toque o encaixe e a textura familiares de armas que costuma usar. Esse detalhe descreve sua relação com o equipamento. Identificar uma arma disfarçada, detectar uma substituição ou obter informação escondida ainda exige o procedimento da cena.",
+          "depois": ""
+        },
+        {
+          "antes": "1. Escreva a **Descrição** e a **Regra** pelo procedimento de Fundamento.",
+          "depois": "1. Escreva a **Descrição**, a **Regra** e a **Expressão da técnica** pelo procedimento de Fundamento."
+        }
+      ],
+      "sha256_antes": "b397b7351a1dc477df4fff10dce6ebaccd9e3147913ca9bcef3fc65640e45603",
+      "sha256_depois": "e2d1a6df071490b3bad9b5a8aba77eed742cd06c0b7e42795053b4ca33db8800"
+    },
+    {
+      "id": "D14",
+      "achados": "pedido do autor",
+      "arquivo": "aptidoes/lote-01/APTIDOES-E-REFINO.md",
+      "decisao": "Mizuki, 04/10/2026: \"remova essas informações que são completamente desnecessárias para o jogador\".",
+      "trocas": [
+        {
+          "antes": "| Nível | Nunca escolhe Refino | Sempre escolhe Refino | Aptidões recebidas pela escolha nesse marco |\n|---|---:|---:|---:|\n| Início | 1 | 1 | — |\n| 6 | 2 | 3 | 1 |\n| 10 | 3 | 5 | 1 |\n| 14 | 4 | 7 | 1 |\n| 18 | 5 | 9 | 1 |\n| 22 | 6 | 10 | 2 |\n| 26 | 7 | 10 | 2 |\n| 30 | 8 | 10 | 2 |\n\nA última coluna acompanha quem sempre escolheu Refino. Em outra sequência, verifique seu valor naquele marco.",
+          "depois": ""
+        }
+      ],
+      "sha256_antes": "b3f4404b9e9a03df2071ad1b2790163376ab551768b4dd98f32ae66726c5f8ea",
+      "sha256_depois": "123f777f27638aac11b1c7e984c998503fb84b1eee24a8d80e8e1926880888f0"
+    },
+    {
+      "id": "D15",
+      "achados": "pedido do autor",
+      "arquivo": "progressao/lote-01/PROGRESSAO.md",
+      "decisao": "idem",
+      "trocas": [
+        {
+          "antes": "<!-- page:prog-ritmo|Ritmo de campanha -->\n# Ritmo de campanha\n\nA recompensa de cada missão e a frequência das sessões determinam quanto tempo a progressão leva. A tabela abaixo é uma **estimativa**, com 52 semanas por ano, sem faltas, falhas, eventos de XP ou espera pelo feito do nível 20.\n\n| Frequência | Até nível 20 | Até nível 30 |\n|---|---:|---:|\n| Uma missão a cada duas semanas | 62,2 meses | 93,7 meses |\n| Uma por semana | 31,1 meses | 46,9 meses |\n| Duas por semana | 15,5 meses | 23,4 meses |\n| Três por semana | 12,4 meses | 18,7 meses |\n| Quatro por semana | 11,3 meses | 17,0 meses |\n\nEsses valores usam uma mistura de missões: antes do nível 20, a cada oito, uma curta, seis padrões e uma longa, média **106,25 XP**. Depois, três longas e dois finais de arco a cada cinco, média **240 XP**. Os descontos semanais entram na conta.\n\nSe todas as missões forem padrão, duas por semana levam aproximadamente **16,5 meses até o 20 e 35,4 até o 30**. A faixa final não acelera sozinha por causa do nível: a estimativa anterior depende de receber missões maiores.\n\n## Ajustes opcionais da campanha\n\nA guilda pode anunciar missões de dobro, bônus por objetivos pessoais ou ajuda a participantes que ficaram para trás. Essas são políticas opcionais, definidas antes de aplicar a recompensa. Elas não retiram o desconto semanal nem o limite de um avanço por missão, salvo uma mudança expressa nas regras da campanha.\n\nUma missão padrão de dobro paga 200 XP antes dos descontos. Outra possibilidade é dobrar a recompensa de quem esteja pelo menos três níveis abaixo do grupo. Defina previamente qual nível de referência será usado; essa compensação não faz parte da regra básica.\n\nNão reduza níveis já recebidos para ajustar o ritmo. Mude as recompensas futuras com o grupo e acompanhe os resultados.",
+          "depois": ""
+        }
+      ],
+      "sha256_antes": "7a7d48b0922997476d348bb325259bf3f6836a617ea7aac78bf071cd1b8c3c74",
+      "sha256_depois": "a084c733c536bd30d5d02daf8e487665195235beaa777599e56e65513524a0c9"
+    },
+    {
+      "id": "D16",
+      "achados": "pedido do autor",
+      "arquivo": "progressao/lote-01/PROGRESSAO.md",
+      "decisao": "idem",
+      "trocas": [
+        {
+          "antes": "Escolher Leque em todos os sete marcos termina em **sete aplicações adicionais e sete Talentos concedidos**, além do repertório comum.",
+          "depois": ""
+        }
+      ],
+      "sha256_antes": "a084c733c536bd30d5d02daf8e487665195235beaa777599e56e65513524a0c9",
+      "sha256_depois": "6a5d4ecf8c5a8ec7862ce5f42b45981f87e6c1b5f195cf982a79eaf9c2c89474"
+    },
+    {
+      "id": "D17",
+      "achados": "pedido do autor",
+      "arquivo": "rotas/lote-01/ROTAS.md",
+      "decisao": "idem",
+      "trocas": [
+        {
+          "antes": "Quem escolhe Lapidação em todos os marcos recebe duas Bênçãos nos níveis 22, 26 e 30, totalizando dez escolhas pagas. Quem nunca a escolhe termina em Lapidação 8 e conserva apenas as Bênçãos gratuitas.",
+          "depois": ""
+        }
+      ],
+      "sha256_antes": "e2d1a6df071490b3bad9b5a8aba77eed742cd06c0b7e42795053b4ca33db8800",
+      "sha256_depois": "7fb73a56e4a34ce5a50be4357dd4d5987000c15f9cb81af9972ff4833ef23a59"
+    },
+    {
+      "id": "G5-10",
+      "achados": "G5-10",
+      "arquivo": "caminhos/emanador/lote-01/EMANADOR.md",
+      "decisao": "Mizuki, 04/10/2026: \"Mantém\". Sem mudança de texto.",
+      "trocas": []
     }
   ]
 }

@@ -28,7 +28,7 @@ Você desenvolve um estilo ligado a armas ou a uma ferramenta amaldiçoada. Uma 
 
 ## Criação
 
-1. Escreva a **Descrição** e a **Regra** pelo procedimento de Fundamento.
+1. Escreva a **Descrição**, a **Regra** e a **Expressão da técnica** pelo procedimento de Fundamento.
 2. Escolha a [rota de arma](#rota-armas) ou a [rota de ferramenta](#rota-ferramenta). Essa escolha é permanente.
 3. Registre o equipamento que permite executar suas Katas e o atributo utilizado.
 4. Escolha as Famílias e monte seu repertório. Talentos e entidades usam os mesmos espaços disponíveis para Katas.
@@ -98,10 +98,6 @@ Calado impede uma Kata que dependa de fala ou som. Uma ferramenta que funcione s
 # Talentos marciais
 
 Talentos desta seção usam as regras de aquisição de **Fundamento — Selo e Talentos**. Categoria de Efeito 1 ocupa um espaço de Kata e está disponível desde o nível 1. Categoria 2 ocupa dois espaços e exige nível 7. Categoria 3 ocupa três espaços e exige nível 13. Eles contam no máximo de cinco Talentos pagos.
-
-## Calo — Livre
-
-Você reconhece pelo toque o encaixe e a textura familiares de armas que costuma usar. Esse detalhe descreve sua relação com o equipamento. Identificar uma arma disfarçada, detectar uma substituição ou obter informação escondida ainda exige o procedimento da cena.
 
 ## Maldição do Inventário — Categoria de Efeito 1
 
@@ -403,7 +399,7 @@ Em cada marco, receba **+1 ponto de atributo, +1 de Lapidação e +1 espaço de 
 | Lapidação | +1 de Lapidação e uma Bênção. Se já atingiu Lapidação 10, receba duas Bênçãos. |
 | Leque | Uma Kata adicional e um Talento. |
 
-Confira o teto **depois do +1 gratuito**. Quem escolhe Lapidação em todos os marcos recebe duas Bênçãos nos níveis 22, 26 e 30, totalizando dez escolhas pagas. Quem nunca a escolhe termina em Lapidação 8 e conserva apenas as Bênçãos gratuitas.
+Confira o teto **depois do +1 gratuito**.
 
 A Kata concedida por Leque é uma aplicação, não um espaço livre para outra compra. O Talento é concedido sem pagar espaços e respeita seu nível de acesso. Cada Leque abre uma vaga adicional para esse Talento além do máximo de cinco pagos. Consulte **Experiência e Progressão — Marcos** para as regras comuns, incluindo a especialização de perícias e ofícios.
 

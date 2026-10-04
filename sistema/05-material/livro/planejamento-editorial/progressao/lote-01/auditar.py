@@ -109,7 +109,8 @@ case('Salário participação3',[float(Q(1,4)+Q(3,4)*min(Q(k,3),1)) for k in ran
 case('Marca de mestre',Q(12,3),4,'X/Ymeses, nãoXparaquemmestraY.')
 for source in json.loads((B/'FONTES.json').read_text())['fontes_publicadas']:
  ck('fonte_intacta_'+source['arquivo'],hashlib.sha256((R/source['arquivo']).read_bytes()).hexdigest()==source['sha256'])
-ck('quatorze_paginas',len(re.findall(r'<!-- page:',s))==14)
+# 14 até 04/10/2026; a página Ritmo de campanha saiu do livro do jogador (D15). O modelo de tempo abaixo continua como conta de projeto.
+ck('treze_paginas',len(re.findall(r'<!-- page:',s))==13)
 ck('titulos_diretos',not re.search(r'^#+\s+(?:A|O|As|Os)\s|^#+.*como ler',s,re.M|re.I))
 contracts=['no máximo um nível por missão','14.300','lista é fechada','não libere vários níveis','cada entidade por espaço passa a exigir','zero de vida permanece a zero']
 def present(txt):return [x.casefold() in txt.replace('**','').casefold() for x in contracts]

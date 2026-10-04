@@ -1,11 +1,11 @@
 {
   "ok": true,
-  "sha256_texto": "96fe206bd2257b9839da6bc53c97c6b0ca17f82f3bf9f706709e07ecb19ec858",
+  "sha256_texto": "691e10b85c01d25f9002bc4b5717b05a947129a2ae22bef3145f83b7dd938f1b",
   "casos": [
     {
       "caso": "52 armas sem perda de linha",
-      "obtido": "{'Machado', 'Rifle de Precisão', 'Revólver', 'Rapieira', 'Yari', 'Manriki', 'Pistola', 'Nodachi', 'Taco', 'Soqueira', 'Canivete', 'Tekko', 'Foice', 'Kusarigama', 'Machete', 'Chicote', 'Machadinha', 'Kama', 'Lança', 'Tessen', 'Punhal', 'Machado de Guerra', 'Naginata', 'Cassetete', 'Odachi', 'Kanabō', 'Kunai', 'Daikyū', 'Besta de Uma Mão', 'Faca', 'Nunchaku', 'Sai', 'Chakram', 'Tonfa', 'Katana', 'Rifle', 'Wakizashi', 'Metralhadora Pesada', 'Shuriken', 'Maul', 'Espada Longa', 'Maça', 'Hankyū', 'Besta', 'Espadão', 'Bastão', 'Tanto', 'Bō', 'Corrente', 'Espingarda', 'Submetralhadora', 'Marreta'}",
-      "esperado": "{'Machado', 'Rifle de Precisão', 'Revólver', 'Rapieira', 'Yari', 'Manriki', 'Pistola', 'Nodachi', 'Taco', 'Soqueira', 'Canivete', 'Tekko', 'Foice', 'Kusarigama', 'Machete', 'Chicote', 'Machadinha', 'Kama', 'Lança', 'Tessen', 'Punhal', 'Machado de Guerra', 'Naginata', 'Cassetete', 'Odachi', 'Kanabō', 'Kunai', 'Daikyū', 'Besta de Uma Mão', 'Faca', 'Nunchaku', 'Sai', 'Chakram', 'Tonfa', 'Katana', 'Rifle', 'Wakizashi', 'Metralhadora Pesada', 'Shuriken', 'Maul', 'Espada Longa', 'Maça', 'Hankyū', 'Besta', 'Espadão', 'Bastão', 'Tanto', 'Bō', 'Corrente', 'Espingarda', 'Submetralhadora', 'Marreta'}",
+      "obtido": "{'Nodachi', 'Soqueira', 'Manriki', 'Sai', 'Naginata', 'Bastão', 'Chakram', 'Besta', 'Bō', 'Lança', 'Faca', 'Machete', 'Machado', 'Kunai', 'Nunchaku', 'Tonfa', 'Katana', 'Espingarda', 'Daikyū', 'Tekko', 'Machado de Guerra', 'Kama', 'Odachi', 'Punhal', 'Canivete', 'Submetralhadora', 'Espada Longa', 'Rapieira', 'Yari', 'Wakizashi', 'Espadão', 'Cassetete', 'Marreta', 'Tessen', 'Rifle de Precisão', 'Corrente', 'Foice', 'Kanabō', 'Shuriken', 'Pistola', 'Tanto', 'Maça', 'Machadinha', 'Chicote', 'Hankyū', 'Metralhadora Pesada', 'Revólver', 'Maul', 'Rifle', 'Taco', 'Kusarigama', 'Besta de Uma Mão'}",
+      "esperado": "{'Nodachi', 'Soqueira', 'Manriki', 'Sai', 'Naginata', 'Bastão', 'Chakram', 'Besta', 'Bō', 'Lança', 'Faca', 'Machete', 'Machado', 'Kunai', 'Nunchaku', 'Tonfa', 'Katana', 'Espingarda', 'Daikyū', 'Tekko', 'Machado de Guerra', 'Kama', 'Odachi', 'Punhal', 'Canivete', 'Submetralhadora', 'Espada Longa', 'Rapieira', 'Yari', 'Wakizashi', 'Espadão', 'Cassetete', 'Marreta', 'Tessen', 'Rifle de Precisão', 'Corrente', 'Foice', 'Kanabō', 'Shuriken', 'Pistola', 'Tanto', 'Maça', 'Machadinha', 'Chicote', 'Hankyū', 'Metralhadora Pesada', 'Revólver', 'Maul', 'Rifle', 'Taco', 'Kusarigama', 'Besta de Uma Mão'}",
       "ok": true
     },
     {
@@ -2293,9 +2293,15 @@
       "ok": true
     },
     {
+      "caso": "Troca decidida presente na fonte anterior: Lâmina de Cisão",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
       "caso": "Ficha especial completa: Lâmina de Cisão",
-      "obtido": "**Arma: Katana. Grau 1. Efeito: Cisão.** Compatível com armas de combate corpo a corpo.\n\nO dano dos ataques com esta arma atinge **somente a Integridade** do alvo, seguindo as regras de dano direto à alma. A vida não é descontada por esse dano. Dados e valores adicionais que pertençam ao próprio ataque acompanham a conversão; outro efeito com resolução separada segue sua própria descrição.\n\nCisão não acrescenta dano e não permite escolher, a cada golpe, atingir vida em vez de Integridade. Para isso, use outra arma. As consequências da perda de Integridade e os alvos que podem ser afetados são tratados em Dano na alma.",
-      "esperado": "**Arma: Katana. Grau 1. Efeito: Cisão.** Compatível com armas de combate corpo a corpo.\n\nO dano dos ataques com esta arma atinge **somente a Integridade** do alvo, seguindo as regras de dano direto à alma. A vida não é descontada por esse dano. Dados e valores adicionais que pertençam ao próprio ataque acompanham a conversão; outro efeito com resolução separada segue sua própria descrição.\n\nCisão não acrescenta dano e não permite escolher, a cada golpe, atingir vida em vez de Integridade. Para isso, use outra arma. As consequências da perda de Integridade e os alvos que podem ser afetados são tratados em Dano na alma.",
+      "obtido": "**Arma: Katana. Grau 1. Efeito: Cisão.** Compatível com armas de combate corpo a corpo.\n\nO dano dos ataques com esta arma é **dano de Alma** e atinge **somente a Integridade** do alvo, conforme Receber dano de Alma, em Dano na alma. A vida não é descontada por esse dano. Dados e valores adicionais que pertençam ao próprio ataque acompanham a conversão; outro efeito com resolução separada segue sua própria descrição.\n\nCisão não acrescenta dano e não permite escolher, a cada golpe, atingir vida em vez de Integridade. Para isso, use outra arma. As consequências da perda de Integridade e os alvos que podem ser afetados são tratados em Dano na alma.",
+      "esperado": "**Arma: Katana. Grau 1. Efeito: Cisão.** Compatível com armas de combate corpo a corpo.\n\nO dano dos ataques com esta arma é **dano de Alma** e atinge **somente a Integridade** do alvo, conforme Receber dano de Alma, em Dano na alma. A vida não é descontada por esse dano. Dados e valores adicionais que pertençam ao próprio ataque acompanham a conversão; outro efeito com resolução separada segue sua própria descrição.\n\nCisão não acrescenta dano e não permite escolher, a cada golpe, atingir vida em vez de Integridade. Para isso, use outra arma. As consequências da perda de Integridade e os alvos que podem ser afetados são tratados em Dano na alma.",
       "ok": true
     },
     {
@@ -3989,13 +3995,13 @@
       "ok": true
     },
     {
-      "caso": "Contrato atual: Rodada inteira",
+      "caso": "Contrato atual: Ação Completa",
       "obtido": true,
       "esperado": true,
       "ok": true
     },
     {
-      "caso": "Mutação textual recusada: Rodada inteira",
+      "caso": "Mutação textual recusada: Ação Completa",
       "obtido": false,
       "esperado": false,
       "ok": true
@@ -4138,10 +4144,5 @@
       "esperado": true,
       "ok": true
     }
-  ],
-  "revisao_delta_2026_10_04": {
-    "auditoria_reexecutada": "equipamento/lote-final/auditar.py (reexecutado em 04/10/2026)",
-    "resultado": "ok",
-    "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana."
-  }
+  ]
 }

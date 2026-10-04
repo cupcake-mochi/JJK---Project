@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "sha256_texto": "64b24f4e2f89840397cee80b2860f41af851f481bb7bb5ba121863d42d8e9a82",
+  "sha256_texto": "6a5d4ecf8c5a8ec7862ce5f42b45981f87e6c1b5f195cf982a79eaf9c2c89474",
   "manuscritos_auditados": {
-    "sistema/05-material/livro/planejamento-editorial/progressao/lote-01/PROGRESSAO.md": "64b24f4e2f89840397cee80b2860f41af851f481bb7bb5ba121863d42d8e9a82"
+    "sistema/05-material/livro/planejamento-editorial/progressao/lote-01/PROGRESSAO.md": "6a5d4ecf8c5a8ec7862ce5f42b45981f87e6c1b5f195cf982a79eaf9c2c89474"
   },
   "auditoria": "AUDITORIA.json",
   "quantidades": {

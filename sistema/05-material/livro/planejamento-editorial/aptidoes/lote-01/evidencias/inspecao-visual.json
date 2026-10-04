@@ -1,7 +1,7 @@
 {
   "data": "2026-10-03",
-  "sha256_texto": "b3f4404b9e9a03df2071ad1b2790163376ab551768b4dd98f32ae66726c5f8ea",
-  "sha256_pdf": "1b1e94802621dd5b49a934eccd10dc9f15399e721caa2690955f512373c54f05",
+  "sha256_texto": "123f777f27638aac11b1c7e984c998503fb84b1eee24a8d80e8e1926880888f0",
+  "sha256_pdf": "6fbda6bc16317e67363de9a8ee2a0bc2fd447dfab31a905987a09262cc42ea93",
   "metodo": "Todas as páginas alteradas pela migração e seus complementos foram abertas individualmente. As demais conservam a inspeção anterior por igualdade de pixels comprovada, sem alegar nova leitura visual.",
   "prova_anterior": "c5905aedb50386d7f7b57b3a013b0e41a809f661df61226da4524fa12f4726a0",
   "comparacao": "evidencias/COMPARACAO-NOMES-PDF.json",
@@ -19,12 +19,13 @@
     {
       "pagina": 2,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Texto, cabeçalho, tabelas e exemplos completos e legíveis.",
-      "sha256_png": "a5304934e334089f6805f539e372840cc2e585521911b205c8e16f2f96480eb3",
-      "revisor": "Agente principal",
+      "observacoes": "Progressão de Refino sem a tabela de projeção; regra do marco, Escolhas e requisitos e exemplo inteiros.",
+      "sha256_png": "30b134e35e9045fcf196786761164a5acc06781565e6f736e24e822be3ec10db",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
       "pixels_iguais_rodada_anterior": true,
       "evidencia_preservacao": "Identidade de pixels com a página já inspecionada na prova anterior; não houve nova abertura nesta rodada.",
-      "imagem": "output/png/pagina-02.png"
+      "imagem": "output/png/pagina-02.png",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo"
     },
     {
       "pagina": 3,
@@ -217,6 +218,16 @@
       14
     ],
     "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-04.json",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "revisao_delta_2026_10_04_decisoes": {
+    "sha256_pdf_anterior": "1b1e94802621dd5b49a934eccd10dc9f15399e721caa2690955f512373c54f05",
+    "sha256_pdf_atual": "6fbda6bc16317e67363de9a8ee2a0bc2fd447dfab31a905987a09262cc42ea93",
+    "paginas_alteradas": [
+      2
+    ],
+    "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-04-decisoes.json",
+    "metodo": "As páginas alteradas foram abertas; as demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado.",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
   }
 }

@@ -212,3 +212,21 @@ Se a ficha da barreira oferece uma reserva de vida para toda a superfície imóv
 **Depois:** Capacidade 1 mantida, sem mudar o texto: cada besta comporta um virote e precisa ser recarregada depois de cada disparo.
 
 **Motivo:** Decisão do Mizuki em 04/10/2026, achado G4-01 da revisão de interfaces: "a parte negativa da besta é justamente não funcionar no ataque extra". A peça 14 muda na migração.
+
+## EQ26 — decisão do autor
+
+**Antes:** A conversão de ações segue as regras do turno.
+
+**Depois:** A conversão de ações segue as regras do turno.
+
+Duas capacidades que troquem essa manipulação gratuita por duas não se somam. Em cada turno, use uma delas, com as restrições dela.
+
+**Motivo:** Decisão do Mizuki em 04/10/2026 (opção A, não somam), achado G3-03 (revisao-interfaces/CORRECOES-APLICADAS.md).
+
+## EQ27 — decisão do autor
+
+**Antes:** O dano dos ataques com esta arma atinge **somente a Integridade** do alvo, seguindo as regras de dano direto à alma.
+
+**Depois:** O dano dos ataques com esta arma é **dano de Alma** e atinge **somente a Integridade** do alvo, conforme Receber dano de Alma, em Dano na alma.
+
+**Motivo:** Decisão do Mizuki em 04/10/2026 (opção B: "o dano do cisão é na alma, literalmente dano na alma"), achado G1-02 (revisao-interfaces/CORRECOES-APLICADAS.md). A remissão apontava uma regra que não existia.

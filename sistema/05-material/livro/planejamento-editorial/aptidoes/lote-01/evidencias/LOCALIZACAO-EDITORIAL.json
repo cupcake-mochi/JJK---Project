@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "b3f4404b9e9a03df2071ad1b2790163376ab551768b4dd98f32ae66726c5f8ea",
+  "sha256_texto": "123f777f27638aac11b1c7e984c998503fb84b1eee24a8d80e8e1926880888f0",
   "titulos_revisto": true,
   "sem_explicacao_alheia": true,
   "vocabulario_revisto": true,
@@ -81,5 +81,21 @@
     "registro": "consolidacao/lote-01/evidencias/AJUSTES-FINAIS-INTEGRACAO.json",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
     "conferido": "Desfazendo as 1 trocas registradas, o texto volta exatamente ao hash anterior; não há outra diferença. Cada linha trocada foi lida no contexto: a remissão aponta a seção onde a frase está ou um título existente do capítulo. Títulos, seções e número de linhas não mudaram. Com as exceções desta leitura, o conferir_editorial dá 0 achados no texto anterior e 0 no atual; os achados brutos são os mesmos nos dois (mesmo código, termo e trecho), e as exceções de vocabulário continuam na mesma linha."
+  },
+  "revisao_delta_2026_10_04_decisoes": {
+    "sha256_anterior": "b3f4404b9e9a03df2071ad1b2790163376ab551768b4dd98f32ae66726c5f8ea",
+    "sha256_atual": "123f777f27638aac11b1c7e984c998503fb84b1eee24a8d80e8e1926880888f0",
+    "mudancas": [
+      {
+        "codigo": "D14",
+        "achado": "pedido do autor",
+        "secao": "apt-marcos",
+        "antes": "| Nível | Nunca escolhe Refino | Sempre escolhe Refino | Aptidões recebidas pela escolha nesse marco |\n|---|---:|---:|---:|\n| Início | 1 | 1 | — |\n| 6 | 2 | 3 | 1 |\n| 10 | 3 | 5 | 1 |\n| 14 | 4 | 7 | 1 |\n| 18 | 5 | 9 | 1 |\n| 22 | 6 | 10 | 2 |\n| 26 | 7 | 10 | 2 |\n| 30 | 8 | 10 | 2 |\n\nA última coluna acompanha quem sempre escolheu Refino. Em outra sequência, verifique seu valor naquele marco.",
+        "depois": ""
+      }
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+    "conferido": "Cada trecho trocado foi lido no contexto. Com as exceções desta leitura, o conferir_editorial dá 0 achados no texto anterior e 0 no atual. As frases novas não explicam capacidade de outro dono: citam o procedimento geral ou a seção dona pelo nome. Nenhuma exceção de vocabulário depende de linha nesta unidade."
   }
 }

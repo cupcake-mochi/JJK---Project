@@ -1,5 +1,5 @@
 {
-  "sha256_pdf": "4c791840f00996685edc13c806c7b33a453c94679399763cb9ec495d33ddc753",
+  "sha256_pdf": "782c5527f30d05d7b82c2a4b1497648df36c99785ec96d651dce5ae1effaaac7",
   "revisor": "/root",
   "metodo": "Todas20 páginas abertas como imagens. Ajustadas larguras das tabelas de Integridade e Exaustão; páginas5/19 abertas novamente. Fluxo contínuo pertence à montagem do livro.",
   "paginas": [
@@ -61,7 +61,11 @@
     {
       "pagina": 12,
       "resultado": "sem defeito visual observado",
-      "arquivo": "output/png/pagina-12.png"
+      "arquivo": null,
+      "observacoes": "Vida a zero com a frase nova da ordem da queda; tabela de escolhas, janela de socorro e Aguentar sem corte.",
+      "sha256_png": "286535410ce13d283d598c7cc172e18bce4086c22ea4375028848a9b45ef019b",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
     },
     {
       "pagina": 13,
@@ -103,5 +107,15 @@
       "resultado": "sem defeito visual observado",
       "arquivo": "output/png/pagina-20.png"
     }
-  ]
+  ],
+  "revisao_delta_2026_10_04_decisoes": {
+    "sha256_pdf_anterior": "4c791840f00996685edc13c806c7b33a453c94679399763cb9ec495d33ddc753",
+    "sha256_pdf_atual": "782c5527f30d05d7b82c2a4b1497648df36c99785ec96d651dce5ae1effaaac7",
+    "paginas_alteradas": [
+      12
+    ],
+    "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-04-decisoes.json",
+    "metodo": "As páginas alteradas foram abertas; as demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  }
 }

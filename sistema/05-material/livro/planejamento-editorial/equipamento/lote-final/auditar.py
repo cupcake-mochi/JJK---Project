@@ -29,9 +29,13 @@ for f in src['fontes_correntes']:
  if path.name in ['ARMAS.md','EQUIPAMENTO-EM-JOGO.md']:continue
  for row in rows(path.read_text()):ck('Tabela preservada: '+path.name+' / '+row[0],row in rows(s))
 oldmagic=(B.parent/'lote-08/EQUIPAMENTO-AMALDICOADO.md').read_text();magic=json.loads((B.parent/'lote-08/CATALOGO.json').read_text())['itens']
+# Trocas decididas pelo autor depois do lote-08; fora delas a ficha continua idêntica (revisao-interfaces/CORRECOES-APLICADAS.md).
+decididas={'Lâmina de Cisão':[('atinge **somente a Integridade** do alvo, seguindo as regras de dano direto à alma.','é **dano de Alma** e atinge **somente a Integridade** do alvo, conforme Receber dano de Alma, em Dano na alma.')]}
 for it in magic:
  def block(t):return t.split('## '+it['nome']+'\n',1)[1].split('\n## ',1)[0].split('<!-- page:',1)[0].strip()
- ck('Ficha especial completa: '+it['nome'],block(s),block(oldmagic))
+ esperado=block(oldmagic)
+ for a,b in decididas.get(it['nome'],[]):ck('Troca decidida presente na fonte anterior: '+it['nome'],esperado.count(a),1);esperado=esperado.replace(a,b)
+ ck('Ficha especial completa: '+it['nome'],block(s),esperado)
 ck('17 ferramentas',len(magic),17)
 parts=re.split(r'<!-- page:([^|]+)\|([^>]+) -->\s*',s);pages={parts[i]:parts[i+2] for i in range(1,len(parts),3)}
 ck('39 páginas lógicas',len(pages),39);ck('Âncoras únicas',len(pages),len(re.findall(r'<!-- page:',s)))

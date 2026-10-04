@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "sha256_texto": "64b24f4e2f89840397cee80b2860f41af851f481bb7bb5ba121863d42d8e9a82",
+  "sha256_texto": "6a5d4ecf8c5a8ec7862ce5f42b45981f87e6c1b5f195cf982a79eaf9c2c89474",
   "casos": [
     {
       "nome": "Trinta níveis completos",
@@ -1171,10 +1171,5 @@
     "Sem playtest; tempos são modelos de média e não calendário simulado.",
     "Conservação de recursos e regularização de ficha são fechamentos candidatos, registrados em alterações.",
     "Conferidores legados verificam fontes históricas, não certificam este manuscrito."
-  ],
-  "revisao_delta_2026_10_04": {
-    "auditoria_reexecutada": "evidencias/auditoria-numerica.json",
-    "resultado": "ok",
-    "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana."
-  }
+  ]
 }

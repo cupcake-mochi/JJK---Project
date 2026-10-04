@@ -16,6 +16,8 @@ O mesmo conteúdo, com o hash de cada fonte antes e depois, está em `CORRECOES-
 - **Páginas da primeira passada:** a comparação por pixel com o PDF da `main` mudou 35 páginas: 10, 59, 87, 96, 97, 113, 116, 117, 152, 175 a 189, 214, 218, 257, 263, 281, 283, 284, 340, 360, 376 e 378. A faixa 175 a 189 é o capítulo de Equipamento: as trocas C04b, C07, C11 e C12 mudaram o comprimento de algumas linhas e o texto seguinte andou junto.
 - **Páginas da segunda passada:** comparadas com o PDF da primeira passada, ignorando cabeçalho e rodapé para absorver a página a mais. Mudaram 34: 2 (sumário), 59 (C08d sem ponto e vírgula), 160 (D01), 216 (D03c), 320 a 335 (D02 e D03, com o texto de Invocações em campo andando até a página nova), 340, 342 a 344, 348, 351, 352, 355, 360 e 361 (D02b e números de página em Construir invocações) e 377 a 380 (números de página do índice). As demais são idênticas em pixel, só deslocadas uma página depois da 334.
 - **Páginas da D04:** comparadas com o PDF da segunda passada, mudaram só as páginas 96 a 99, no fim da Vanguarda, porque a frase nova empurrou o texto. O livro continua com 384 páginas, e `conferir_livro.py` passou de novo com 3497 checagens e 508 links.
+- **Terceira passada (D05 a D17):** o livro foi regerado com 382 páginas e 509 blocos (saiu a página Ritmo de campanha), PDF `633f85ae…`. `conferir_livro.py` passou com 3503 checagens e 526 links (os 18 verbetes novos do índice somam links). Comparado com o PDF da D04 pelo corpo da página, sem cabeçalho e rodapé: 186 páginas idênticas na mesma posição, 108 idênticas que só mudaram de posição ou de número no rodapé, e 88 com corpo diferente. Destas, 68 têm texto que andou (Dano 48 a 55, Vanguarda 96 a 98, Incursor 148, Equipamento 176 a 185 e 205, Progressão 211 a 218, Aptidões 265 a 276, Rotas 279 a 294 e índice 373 a 382) e 20 só mudaram números de página nas remissões. As 88 foram abertas: nenhum corte, sobreposição ou título solto. Registro em `../consolidacao/lote-01/evidencias/COMPARACAO-VISUAL-2026-10-04-decisoes.json`. O texto extraído do PDF não tem mais nenhum dos trechos retirados e tem cada "depois".
+- **Gerador do livro e índice:** o gerador lê `consulta/lote-01/evidencias/DESTINOS.json`, uma segunda cópia do mapa do índice. Os 18 verbetes novos ficaram de fora dela na primeira tentativa, e o modo estrito parou com 18 destinos pendentes. A cópia foi sincronizada, e o auditor da Consulta passou a comparar as duas. Testes negativos desta passada em `evidencias/perturbacao-terceira-passada.txt`.
 - **Inspeção:** todas as páginas mudadas nas duas passadas foram abertas uma a uma: nenhum corte de texto, sobreposição ou título órfão no pé da página. A página 334 fecha Invocações em campo com cerca de 40% de texto, o que é normal no fim de capítulo.
 - **Texto do PDF:** os termos removidos ("Restringido", "Restrição Único", "Montagem de entidades", "até haver espaço") não aparecem mais, e cada "depois" abaixo aparece no texto extraído.
 - **Links:** os destinos internos do PDF foram conferidos pelo `conferir_livro.py`; nenhum destino ficou pendente.
@@ -271,6 +273,89 @@ Achado: efeito da C06 sobre G4-01. Mizuki, no cartão: "Só arma de fogo".
 A outra parte do Combate Irregular (disparar sem a desvantagem por inimigo adjacente) não mudou. O auditor da Vanguarda ganhou uma checagem para essa frase, testada por perturbação: tirar a frase das bestas faz a checagem falhar.
 
 Cada unidade tocada ganhou a entrada correspondente no seu `ALTERACOES` (INC-22, R11-50, R11-51, R12-32, FAB-REV-01, PRO37 e VG-REV-01), com antes, depois e motivo.
+
+## Decisões do autor (terceira passada) e retiradas pedidas
+
+Em 04/10/2026, o Mizuki respondeu às seis prioridades do quadro de achados e pediu para tirar do livro do jogador as contas de projetista. Cada unidade tocada ganhou a entrada no seu `ALTERACOES` (A33, DR33, PRO38 a PRO40, VG-REV-02, EQ26, EQ27, INC-23, INC-24, R10-33 a R10-35 e R23-31).
+
+### D05 · dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md
+
+Achado: G1-05. Mizuki: "Entra Antes".
+
+- Antes: Ao chegar a **zero de vida**, você está **Morrendo**. Escolha imediatamente **Aguentar** ou **Insistir**.
+- Depois: Ao chegar a **zero de vida**, você está **Morrendo**. Resolva primeiro as capacidades disparadas pela própria queda; em seguida, escolha **Aguentar** ou **Insistir**. Se uma dessas capacidades encerrar a queda, não há escolha.
+- Muda na mesa: só duas capacidades disparam nesse momento. Com Ainda Há Tempo (Guia), o aliado levanta antes de escolher e não paga o 1/8 de vida máxima do Insistir. Com Ainda de Pé (Bastião), a cura entra como tratamento antes da escolha; se chegar a 20% do máximo de referência, ele levanta sem escolher.
+
+### D06 · progressao/lote-01/PROGRESSAO.md
+
+Achado: G1-07. Mizuki: "Remove da lista".
+
+- Antes: registre **um dos oito feitos abaixo**…; linha "Terminar a missão depois de outro personagem jogador chegar ao estágio 4."
+- Depois: registre **um dos sete feitos abaixo**…; a linha saiu. Como era a última, a "ferramenta do sétimo feito" continua certa.
+- Muda na mesa: o limiar do nível 20 tem sete feitos possíveis.
+
+### D07 · caminhos/vanguarda/lote-01/VANGUARDA.md
+
+Achado: G4-07. Mizuki perguntou se a liberação narrativa tinha sido removida; não foi (Equipamento restrito: "Grau 2 ou autorização prévia", combinada com o mestre). Escolheu a opção B.
+
+- Acrescentado em Batedor: Arma de Fogo: **Acesso.** Armas de fogo exigem Grau 2 ou autorização prévia, conforme Equipamento restrito. Sem esse acesso, confirme a autorização com o mestre antes de escolher esta rota.
+- Muda na mesa: nenhuma regra nova. A frase diz quando a autorização é combinada.
+
+### D08 · equipamento/lote-final/EQUIPAMENTO.md
+
+Achado: G3-03. Mizuki: opção A.
+
+- Acrescentado em Sacar e guardar: Duas capacidades que troquem essa manipulação gratuita por duas não se somam. Em cada turno, use uma delas, com as restrições dela.
+- Muda na mesa: um Malabarista com Maldição do Inventário continua com duas manipulações gratuitas por turno, não três.
+
+### D09 e D10 · caminhos/incursor/lote-01/INCURSOR.md
+
+Achados: G3-04 e G3-05. Mizuki: opção A nos dois.
+
+- D09, acrescentado em Fluidez: No combate, o primeiro intervalo vai do início do combate até o começo do seu primeiro turno, inclusive para Passo Guardado.
+- D10, antes: Após rolar o d20, antes de finalizar o ataque, gaste Fluidez…
+- D10, depois: Após rolar o d20 e antes de o alvo escolher entre a Defesa e Bloquear, gaste Fluidez…
+- Muda na mesa: o Incursor pode ganhar Fluidez quando um inimigo erra antes do primeiro turno dele. O Instante Decisivo é declarado sem saber se o alvo vai bloquear.
+
+### D11 · equipamento/lote-final/EQUIPAMENTO.md
+
+Achado: G1-02. Mizuki: opção B, "Pq o dano do cisão é na alma, literalmente dano na alma".
+
+- Antes: O dano dos ataques com esta arma atinge **somente a Integridade** do alvo, seguindo as regras de dano direto à alma.
+- Depois: O dano dos ataques com esta arma é **dano de Alma** e atinge **somente a Integridade** do alvo, conforme Receber dano de Alma, em Dano na alma.
+- Dano e recuperação não mudou: ele já conserva a exceção "atinge somente Integridade".
+- Muda na mesa: resistência a Cortante não reduz o golpe à metade; imunidade a Alma o impede; criatura sem alma só é afetada se uma regra permitir.
+- O auditor do Equipamento compara cada ferramenta especial com o lote-08. Ele passou a aplicar só esta troca decidida e exigir o resto idêntico.
+
+### D12 · rotas/lote-01/ROTAS.md
+
+Achado: G5-02. Mizuki: opção B.
+
+- Retirado de Talentos marciais: "Calo — Livre" e seu parágrafo.
+- Técnica Marcial, passo 1, antes: Escreva a **Descrição** e a **Regra** pelo procedimento de Fundamento.
+- Depois: Escreva a **Descrição**, a **Regra** e a **Expressão da técnica** pelo procedimento de Fundamento.
+- Muda na mesa: Calo deixa de existir. O personagem marcial tem a Expressão da técnica do Fundamento, que também não tem efeito mecânico. Sem Técnica não recebeu frase nova; fica para o Mizuki confirmar.
+
+### G5-10 · sem mudança
+
+Mizuki: "Mantém". Os três sentidos de "Impulso" e a família "Expressão" ficam como estão, inclusive "Impulso Energético" na introdução do Catalisador.
+
+### D13 · consulta/lote-01/CONSULTA.md
+
+Achados: G2-09, G4-12 e G5-11, sem decisão de regra.
+
+- O índice foi de 268 para 286 verbetes: Auge, Carregar (Restrição), Desligada, Discreta, Embainhada, Escudo, Manutenção (entidades), Ordens pendentes, Recarregar, Recolher, Regra Própria, Religar, Retorno, Revestimento, Sacar e guardar, Segura, Talismã e Traje.
+- As 11 páginas foram recompostas pelo script que reproduz byte a byte o índice anterior, com 26 linhas cada. Continuam 11; os títulos de faixa mudaram de E em diante. O auditor da Consulta passou a esperar 286.
+
+### D14 a D17 · retiradas pedidas pelo Mizuki
+
+Pedido: "remova essas informações que são completamente desnecessárias para o jogador… mostrar o como vc termina, rotas, tempo".
+
+- D14, Aptidões, Progressão de Refino: saiu a tabela "Nunca escolhe Refino / Sempre escolhe Refino" e a frase sobre a última coluna. A regra do marco ficou.
+- D15, Progressão: saiu a página Ritmo de campanha, com a estimativa em meses. A Progressão vai de 14 para 13 páginas. O modelo de tempo continua no auditor da unidade, como conta de projeto.
+- D16, Progressão, Ganhos de Leque: saiu "Escolher Leque em todos os sete marcos termina em sete aplicações adicionais e sete Talentos concedidos, além do repertório comum." O exemplo do nível 6 ficou.
+- D17, Rotas, Lapidação: saiu "Quem escolhe Lapidação em todos os marcos… Quem nunca a escolhe termina em Lapidação 8…". A regra do teto ficou.
+- Muda na mesa: nada. São projeções, não regras.
 
 ## Validador editorial
 

@@ -1,5 +1,5 @@
 {
-  "manuscrito_sha256": "b397b7351a1dc477df4fff10dce6ebaccd9e3147913ca9bcef3fc65640e45603",
+  "manuscrito_sha256": "7fb73a56e4a34ce5a50be4357dd4d5987000c15f9cb81af9972ff4833ef23a59",
   "fontes": [
     "R06 tabela Pontos e preços / Feitiços conhecidos",
     "R09 Canalizar",
@@ -3927,7 +3927,7 @@
   ],
   "ok": true,
   "manuscritos_auditados": {
-    "sistema/05-material/livro/planejamento-editorial/rotas/lote-01/ROTAS.md": "b397b7351a1dc477df4fff10dce6ebaccd9e3147913ca9bcef3fc65640e45603"
+    "sistema/05-material/livro/planejamento-editorial/rotas/lote-01/ROTAS.md": "7fb73a56e4a34ce5a50be4357dd4d5987000c15f9cb81af9972ff4833ef23a59"
   },
   "checks": [
     {
@@ -3974,7 +3974,7 @@
         },
         {
           "id": "rota-marcial",
-          "palavras": 263
+          "palavras": 267
         },
         {
           "id": "rota-armas",
@@ -3986,7 +3986,7 @@
         },
         {
           "id": "rota-passivas-marciais",
-          "palavras": 310
+          "palavras": 266
         },
         {
           "id": "rota-passivas-resposta",
@@ -4030,7 +4030,7 @@
         },
         {
           "id": "rota-lapidacao",
-          "palavras": 394
+          "palavras": 360
         },
         {
           "id": "rota-bencaos",

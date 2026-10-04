@@ -1,5 +1,5 @@
 {
-  "sha256_pdf": "0d0c3c877a31f72979f8f3e3aa1d22dcc3b996cd03e5bec6a8d4a99b5e37fc3a",
+  "sha256_pdf": "ce6d6fde09636fadd0af443f7d32f3aabe7dfd139cfd92977540bae433d8f174",
   "metodo": "Páginas alteradas abertas e inspecionadas. Demais páginas reutilizam inspeção anterior somente por igualdade de pixels, comprovada em COMPARACAO-VISUAL-2026-10-04.json.",
   "paginas": [
     {
@@ -127,11 +127,11 @@
     {
       "pagina": 16,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Texto, tabelas, exemplos e limites completos e legíveis.",
-      "sha256_png": "d0725e4beb2ff66c6189630ee56634e26814064e690b8fa38a700e411fb4fdd6",
+      "observacoes": "Batedor: Arma de Fogo com o parágrafo Acesso; Combate Irregular e Conduções inteiros.",
+      "sha256_png": "adc8f27c493f0b4baa4492e855c9dd94d37eabfda9d2b94dc7ba13839cbca8fb",
       "pixels_iguais_rodada_anterior": false,
-      "revisor": "Agente principal",
-      "metodo": "página alterada aberta e inspecionada em 04/10/2026, revisão por modelo",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo",
       "arquivo": null
     },
     {
@@ -188,5 +188,15 @@
       17,
       18
     ]
+  },
+  "revisao_delta_2026_10_04_decisoes": {
+    "sha256_pdf_anterior": "0d0c3c877a31f72979f8f3e3aa1d22dcc3b996cd03e5bec6a8d4a99b5e37fc3a",
+    "sha256_pdf_atual": "ce6d6fde09636fadd0af443f7d32f3aabe7dfd139cfd92977540bae433d8f174",
+    "paginas_alteradas": [
+      16
+    ],
+    "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-04-decisoes.json",
+    "metodo": "As páginas alteradas foram abertas; as demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
   }
 }

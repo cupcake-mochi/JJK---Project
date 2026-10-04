@@ -57,7 +57,7 @@ Se seu deslocamento mudar, recalcule o limite. Se já o tiver consumido, termine
 
 **Nível 2.** Você ganha Fluidez quando acerta uma criatura hostil com arma ou ataque desarmado **durante seu turno**, ou quando uma criatura hostil erra um ataque contra você.
 
-Pode ganhar Fluidez **uma vez entre o começo de um turno seu e o começo do próximo**. Anote se já obteve Fluidez nesse intervalo; o limite se renova no começo do seu turno.
+Pode ganhar Fluidez **uma vez entre o começo de um turno seu e o começo do próximo**. Anote se já obteve Fluidez nesse intervalo; o limite se renova no começo do seu turno. No combate, o primeiro intervalo vai do início do combate até o começo do seu primeiro turno, inclusive para Passo Guardado.
 
 Você guarda **uma Fluidez por vez**. Se já a possui, outro gatilho não acumula uma segunda nem fica reservado. Esse acontecimento também não consome uma obtenção do intervalo. Sofrer dano não remove Fluidez.
 
@@ -71,7 +71,7 @@ Antes de um ataque com arma ou desarmado, gaste Fluidez para realizá-lo **com v
 
 ## Instante Decisivo
 
-Após rolar o d20, antes de finalizar o ataque, gaste Fluidez para **ampliar sua margem de crítico em 1**, normalmente de 20 para 19–20. Esse mesmo acerto não pode recuperar Fluidez.
+Após rolar o d20 e antes de o alvo escolher entre a Defesa e Bloquear, gaste Fluidez para **ampliar sua margem de crítico em 1**, normalmente de 20 para 19–20. Esse mesmo acerto não pode recuperar Fluidez.
 
 ## Passo Rápido
 
